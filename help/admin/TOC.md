@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida all'amministrazione di Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: ff81ab81a4ed8b7067f3c696eb553b5b729b8ec4
+source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
 
 ---
 
@@ -180,7 +180,6 @@ source-git-commit: ff81ab81a4ed8b7067f3c696eb553b5b729b8ec4
    + [Avvisi sull&#39;utilizzo di chiamate server](c-server-call-usage/scu-alerts.md)
    + [Domande frequenti sull&#39;utilizzo delle chiamate server](c-server-call-usage/overage-faq.md)
 + Traffic Management {#traffic-management}
-   + [DUMMY -delete](admin/c-traffic-variables/traffic-classifications.md)
    + [Gestione del traffico](c-traffic-management/traffic-management.md)
    + [Pianificare un picco di traffico](c-traffic-management/t-traffic-schedule-spike.md)
    + [Stima le chiamate server passate e pianifica un picco di traffico](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
