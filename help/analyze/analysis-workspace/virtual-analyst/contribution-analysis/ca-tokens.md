@@ -5,7 +5,7 @@ seo-title: Panoramica di Contribution Analysis
 title: Panoramica di Contribution Analysis
 uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
 translation-type: tm+mt
-source-git-commit: 1b8cfad731646523844aa420b38137a929383462
+source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
 
 ---
 
@@ -50,7 +50,7 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come si limita l’accesso all’analisi dei contributi?</b> </p> </td> 
-   <td colname="col2"> <p>Per impostazione predefinita, solo gli amministratori hanno accesso alle analisi dei contributi, ma gli amministratori possono concedere l'accesso ad altri utenti creando un gruppo di autorizzazioni in [Admin Console] (https://helpx.adobe.com/enterprise/using/user-groups.html). Si consiglia di concedere l’autorizzazione all’analisi dei contributi solo agli utenti che abbiano un motivo legittimo per accedervi e di cui si sia certi che non abuseranno dei diritti di accesso ricevuti. </p> <p>Il titolo dell’autorizzazione è “Contribution Analysis” (Analisi contributi), alla voce <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span></span>. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. È consigliabile autorizzare l'uso dell'analisi dei contributi solo agli utenti che hanno un motivo legittimo per utilizzarlo e sono considerati affidabili per non approfittare dell'accesso. </p> <p>Il titolo dell’autorizzazione è “Contribution Analysis” (Analisi contributi), alla voce <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come faccio per sapere a quanti token ha diritto mensilmente la mia azienda e quanti ne abbiamo utilizzati nel mese in corso?</b> </p> </td> 
