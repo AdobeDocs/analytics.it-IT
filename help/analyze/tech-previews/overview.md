@@ -4,13 +4,15 @@ seo-title: Laboratori per Adobe Analytics
 description: Anteprima di progetti prototipo per Adobe Analytics
 seo-description: Anteprima dei prototipi per Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0337fa82484d760f90758a72df8b08a0915112d7
+source-git-commit: a5f1527d899b65d9c2e0c05a72bd4b4e6614ad75
 
 ---
 
 
 
 # Guida utente di Labs
+
+Nota: I laboratori vengono attualmente rilasciati come accesso rapido a un numero limitato di clienti, ma verranno rilasciati in un secondo momento.
 
 Labs consente una creazione rapida di prototipi di idee all'avanguardia. È una combinazione di strumenti e processi che velocizzano il sviluppo in modo trasparente, con un'attenzione cliente. Consente agli utenti di interagire con tecnologie emergenti, di scoprire informazioni preziose e di influenzare lo sviluppo delle funzioni e le priorità future. Puoi utilizzare i laboratori per accedere in anticipo alle innovazioni di Analytics e valutare le funzionalità imminenti nel contesto dei tuoi casi di utilizzo e dei tuoi dati aziendali.
 
@@ -66,8 +68,6 @@ Per avviare e valutare un prototipo:
 1. Click **Submit** to return to the main Previews portal.
 
 ## Informazioni aggiuntive
-
-* I laboratori vengono attualmente rilasciati come accesso rapido a un numero limitato di clienti, ma verranno rilasciati in un secondo momento.
 
 * Alcuni prototipi all'interno di Labs diventano funzioni Analytics, altri no. I tuoi commenti sono in grado di guidare la decisione, quindi controlla i prototipi e consenti ad Adobe di sapere quanto sono utili.
 
