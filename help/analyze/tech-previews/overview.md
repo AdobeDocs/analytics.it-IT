@@ -4,7 +4,7 @@ seo-title: Laboratori per Adobe Analytics
 description: Anteprima di progetti prototipo per Adobe Analytics
 seo-description: Anteprima dei prototipi per Adobe Analytics
 translation-type: tm+mt
-source-git-commit: da2ced31da19dc8770bfb85c4b7cec36d598ecd4
+source-git-commit: 0337fa82484d760f90758a72df8b08a0915112d7
 
 ---
 
@@ -55,14 +55,13 @@ Per avviare e valutare un prototipo:
 
 1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
 
-   ![nuova casella di feedback](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
-
+   ![feedback_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
 1. Click **Submit** to send your feedback.
 
 1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. Tutte le modifiche apportate a un progetto prototipo vanno perse quando si esce dall'ambiente prototipo.
 
-   ![feedback_ survey](https://user-images.githubusercontent.com/29133525/58670404-2bd10980-82fc-11e9-8cae-0dfc9f9da6b7.png)
+   ![nuova casella di feedback](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
 1. Click **Submit** to return to the main Previews portal.
 
