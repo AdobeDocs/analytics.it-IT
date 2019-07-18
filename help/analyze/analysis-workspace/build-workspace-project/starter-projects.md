@@ -5,7 +5,7 @@ seo-title: Modelli
 title: Modelli
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ Puoi usare questi modelli precompilati così come sono o adattarli alle tue esig
 [Modelli standard in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Di seguito sono elencati i modelli e le domande che ogni modello contribuisce a rispondere:
-
-### Pubblicità
-
-* **Motori di pesca**: Questo modello suddivide le tendenze della pubblicità, i totali della piattaforma annunci, le parole chiave e molto altro. **Nota:** Per visualizzare il progetto modello, la suite di rapporti scelta deve essere abilitata per Advertising Cloud.
-
-## Commerce
-
-* **Magento: Marketing e commerce**: Questo modello suddivide la conversione dell'ecommerce in base all'attribuzione dei canali di marketing, e fornisce informazioni per parola chiave di ricerca, pagina di destinazione, posizione geografica e molto altro.
 
 ### Media
 
