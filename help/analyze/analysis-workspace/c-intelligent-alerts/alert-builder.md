@@ -1,0 +1,101 @@
+---
+description: nulle
+seo-description: nulle
+seo-title: Alert Builder (Generatore di avvisi)
+title: Alert Builder (Generatore di avvisi)
+uuid: ebc 2 d 457-4 abd -4 b 1 a -9357-489 b 5 aeb 3 f 64
+translation-type: tm+mt
+source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+
+---
+
+
+# Alert Builder (Generatore di avvisi)
+
+>[!IMPORTANT]
+>
+>Gli Avvisi intelligenti sono disponibili solo per i clienti Adobe Analytics Prime e Adobe Analytics Ultimate.
+
+## Access Alert Builder
+
+Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
+
+* Utilizzando la seguente scelta rapida in Analysis Workspace:
+
+   `ctrl (or cmd) + shift + a`
+* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
+* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+
+## Creazione di avvisi
+
+Se hai già avuto modo di creare segmenti o metriche calcolate in Analytics, l’interfaccia di Alert Builder (Generatore di avvisi) ti risulterà familiare:
+
+![](assets/alert_builder.png)
+
+<!--Meike, I edited this table for validation -->
+
+**Alert Name (Nome avviso)**
+
+Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o la soglia di metrica.
+
+**Time Granularity (Granularità tempo)**
+
+Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
+
+>[!NOTE]
+>
+>Per le suite di rapporti con un calendario personalizzato, nel Generatore di avvisi non è supportata la granularità mensile.
+
+**Recipients (Destinatari)**
+
+Specifica a chi deve essere inviato l’avviso. Può essere inviato a un utente o un gruppo di Analytics, a un indirizzo e-mail o a un numero telefonico.
+
+>[!IMPORTANT]
+>
+>The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+
+Il messaggio e-mail ricevuto dall'utente dopo l'attivazione dell'avviso sarà simile a quello riportato di seguito:
+
+![](assets/alerts-email.PNG)
+
+**Expiration Date (Data di scadenza)**
+
+Imposta la data di scadenza dell’avviso.
+
+**Send an Alert When... (Invia un avviso quando...)**
+
+*... Any of These Metrics trigger (...si verifica uno di questi attivatori di metrica)*
+
+* Trascina la metrica nell’area per l’aggiunta degli attivatori.
+
+   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+* Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
+
+   * anomaly exists (l’anomalia esiste)
+   * anomaly is above expected (l’anomalia supera il valore previsto)
+   * anomaly is below expected (l’anomalia è inferiore al valore previsto)
+   * is above or equals (è superiore o uguale a)
+   * is below or equals (è inferiore o uguale a)
+   * changes by (cambia di)
+   * Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
+   È anche possibile utilizzare metriche calcolate.
+
+*... With These Filters (...con questi filtri)*
+
+* Trascina segmenti o dimensioni per aggiungere i filtri. Ad esempio, se si aggiunge un segmento “Mobile Devices Only” (Solo dispositivi mobili) la regola viene attivata solo per i dispositivi mobili.
+* Per aggiungere altri segmenti si utilizza l’operatore AND.
+
+**Aggiungere una regola**
+
+Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio.
+
+## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+
+L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.
+
+Ad esempio, se imposti la granularità su Ogni giorno, l’anteprima indicherà che l’avviso è stato attivato x volte per una specifica metrica negli ultimi 30 o 31 giorni.
+
+Se sono stati attivati troppi avvisi, puoi regolare la soglia in [Alert Manager](/help/components/c-alerts/alert-manager.md) (Gestione avvisi).
+
+![](assets/alert_preview.png)
