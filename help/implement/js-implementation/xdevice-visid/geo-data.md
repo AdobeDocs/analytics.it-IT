@@ -21,4 +21,4 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 I dati di geolocalizzazione vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
 
-Se un cliente sfoglia il sito dal proprio computer di casa e quindi da un dispositivo mobile entro 30 minuti, i dati della segmentazione non vengono modificati. Se utilizzi VISTA per compilare un evar con dati di segmentazione, si basa sull&#39;indirizzo IP in ciascun hit. Questo potrebbe causare più valori di dati relativi alla geolocalizzazione se l&#39;indirizzo IP cambia per la stessa visita.
+Se un cliente sfoglia il sito dal proprio computer di casa e quindi da un dispositivo mobile entro 30 minuti, i dati della segmentazione non vengono modificati. Se utilizzi VISTA per compilare un evar con dati di segmentazione, si basa sull'indirizzo IP in ciascun hit. Questo potrebbe causare più valori di dati relativi alla geolocalizzazione se l'indirizzo IP cambia per la stessa visita.
