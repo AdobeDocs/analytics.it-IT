@@ -30,23 +30,23 @@ Se necessario, questi tipi di collegamenti possono essere tracciati manualmente 
 
 **this**
 
-Il primo argomento deve essere sempre impostato su questo (impostazione predefinita) o su true. L&#39;argomento fa riferimento all&#39;oggetto selezionato. se impostata su &quot;this&quot;, fa riferimento alla proprietà HREF del collegamento.
+Il primo argomento deve essere sempre impostato su questo (impostazione predefinita) o su true. L'argomento fa riferimento all'oggetto selezionato. se impostata su "this", fa riferimento alla proprietà HREF del collegamento.
 
-Se si implementa il tracciamento dei collegamenti su un oggetto privo di proprietà HREF, è sempre necessario impostare questo argomento su &quot;this.&quot;
+Se si implementa il tracciamento dei collegamenti su un oggetto privo di proprietà HREF, è sempre necessario impostare questo argomento su "this."
 
-Poiché facendo clic su un collegamento spesso si esce dalla pagina corrente, viene utilizzato un ritardo di 500 ms per garantire che venga inviata ad Adobe una richiesta di immagine prima che l&#39;utente esca dalla pagina. Questo ritardo è necessario solo quando si esce dalla pagina, ma in genere è presente quando viene chiamata la funzione s. tl (). Se desiderate disattivare il ritardo, passate la parola chiave «true» come primo parametro quando chiamate la funzione s. tl ().
+Poiché facendo clic su un collegamento spesso si esce dalla pagina corrente, viene utilizzato un ritardo di 500 ms per garantire che venga inviata ad Adobe una richiesta di immagine prima che l'utente esca dalla pagina. Questo ritardo è necessario solo quando si esce dalla pagina, ma in genere è presente quando viene chiamata la funzione s. tl (). Se desiderate disattivare il ritardo, passate la parola chiave «true» come primo parametro quando chiamate la funzione s. tl ().
 
 **linkType**
 
 `s.tl(this,linkType,linkName, variableOverrides, doneAction)`
 
-Linktype ha tre valori possibili, a seconda del tipo di collegamento che si desidera acquisire. Se il collegamento non è un collegamento di uscita o uscita, scegliete l&#39;opzione Collegamenti personalizzati.
+Linktype ha tre valori possibili, a seconda del tipo di collegamento che si desidera acquisire. Se il collegamento non è un collegamento di uscita o uscita, scegliete l'opzione Collegamenti personalizzati.
 
 | Type (Tipo) | Valore linktype |
 |--- |--- |
-| Download dei file | &#39; d &#39; |
-| Uscita dai collegamenti | &#39; è |
-| Collegamenti personalizzati | &#39; o &#39; |
+| Download dei file | ' d ' |
+| Uscita dai collegamenti | ' è |
+| Collegamenti personalizzati | ' o ' |
 
 **linkName**
 
@@ -74,13 +74,13 @@ Esempio: `s.forcedLinkTrackingTimeout&nbsp;=&nbsp;500`
 
 **Doneaction**
 
-Un parametro opzionale per specificare un&#39;azione di navigazione da eseguire al completamento della chiamata di collegamento della traccia quando useforcedlinktracking è abilitato.
+Un parametro opzionale per specificare un'azione di navigazione da eseguire al completamento della chiamata di collegamento della traccia quando useforcedlinktracking è abilitato.
 
 Sintassi:
 
 `s.tl(linkObject,linkType,linkName,variableOverrides,doneAction)`
 
-Doneaction: (Facoltativo) Specifica l&#39;azione da intraprendere dopo che la chiamata di tracciamento del collegamento è stata inviata o è scaduta, in base al valore specificato da:
+Doneaction: (Facoltativo) Specifica l'azione da intraprendere dopo che la chiamata di tracciamento del collegamento è stata inviata o è scaduta, in base al valore specificato da:
 
 `s.forcedLinkTrackingTimeout`
 
@@ -88,9 +88,9 @@ The doneAction variable can be the string navigate, which causes the method to s
 
 If providing a value for doneAction in an anchor onClick event, you must return false after the `s.tl` call to prevent the default browser navigation.
 
-Per rispecchiare il comportamento predefinito e seguire l&#39;URL specificato dall&#39;attributo href, fornire una stringa di navigazione come doneaction.
+Per rispecchiare il comportamento predefinito e seguire l'URL specificato dall'attributo href, fornire una stringa di navigazione come doneaction.
 
-Facoltativamente, è possibile fornire la propria funzione per gestire l&#39;evento di navigazione passando questa funzione come doneaction.
+Facoltativamente, è possibile fornire la propria funzione per gestire l'evento di navigazione passando questa funzione come doneaction.
 
 Esempi:
 
@@ -106,13 +106,13 @@ The following example of an [!UICONTROL s.tl()] function call uses the default 5
 s.tl(this,'o','link name');
 ```
 
-L&#39;esempio seguente disattiva il ritardo di 500 ms, se l&#39;utente non lascia la pagina o se l&#39;oggetto su cui si fa clic non ha alcun HREF.
+L'esempio seguente disattiva il ritardo di 500 ms, se l'utente non lascia la pagina o se l'oggetto su cui si fa clic non ha alcun HREF.
 
 ```js
 s.tl(true,'o','link name');
 ```
 
-Il ritardo di 500 ms è un ritardo massimo. Se l&#39;immagine richiesta restituisce meno di 500 ms, il ritardo si interrompe immediatamente. Questo consente al visitatore di passare alla pagina successiva o all&#39;azione successiva all&#39;interno della pagina.
+Il ritardo di 500 ms è un ritardo massimo. Se l'immagine richiesta restituisce meno di 500 ms, il ritardo si interrompe immediatamente. Questo consente al visitatore di passare alla pagina successiva o all'azione successiva all'interno della pagina.
 
 I seguenti esempi sono per gestire i collegamenti personalizzati sui browser webkit:
 
@@ -127,9 +127,9 @@ function(){if(confirm('Proceed?'))document.location=...});return false">Click He
 
 >[!NOTE]
 >
->Gli usi del codice di collegamento personalizzato sono spesso molto specifici per le esigenze del sito Web e dei rapporti. Puoi contattare il tuo Adobe Consulente o l&#39;Assistenza clienti prima di implementare un codice di collegamento personalizzato per comprendere le possibilità disponibili e il modo migliore per sfruttare questa funzionalità in base alle tue esigenze aziendali.
+>Gli usi del codice di collegamento personalizzato sono spesso molto specifici per le esigenze del sito Web e dei rapporti. Puoi contattare il tuo Adobe Consulente o l'Assistenza clienti prima di implementare un codice di collegamento personalizzato per comprendere le possibilità disponibili e il modo migliore per sfruttare questa funzionalità in base alle tue esigenze aziendali.
 
-Il codice di base per tenere traccia di un collegamento utilizzando il codice di collegamento personalizzato è riportato nell&#39;esempio seguente:
+Il codice di base per tenere traccia di un collegamento utilizzando il codice di collegamento personalizzato è riportato nell'esempio seguente:
 
 ```js
 <a href="index.html" onClick="s.tl(this,'o','Link Name')">My Page</a>
@@ -141,7 +141,7 @@ Il codice di base per tenere traccia di un collegamento utilizzando il codice di
 
 >[!NOTE]
 >
->Se il parametro nome collegamento non è definito, l&#39;URL del collegamento (determinato dall&#39;oggetto &quot;this&quot;) viene usato come nome del collegamento.
+>Se il parametro nome collegamento non è definito, l'URL del collegamento (determinato dall'oggetto "this") viene usato come nome del collegamento.
 
 [!DNL Analytics] possono essere definite come parte del codice di collegamento personalizzato.
 
@@ -177,7 +177,7 @@ The parameter *`linkLeaveQueryString`* modifies the logic used to determine exit
 
 ## Example 2 {#section_25660B64E28248A0BC982B2AF5603C0E}
 
-Con le seguenti impostazioni, l&#39;esempio seguente verrà conteggiato come collegamento di uscita:
+Con le seguenti impostazioni, l'esempio seguente verrà conteggiato come collegamento di uscita:
 
 ```js
 //JS file  
@@ -233,9 +233,9 @@ After this update, download and exit links that are automatically tracked (deter
 <a href="https://anothersite.com" onclick="s.tl(this,'e','AnotherSite',null)">
 ```
 
-Internet Explorer esegue la chiamata di collegamento di tracciamento e apre la nuova pagina. Altri browser potrebbero annullare l&#39;esecuzione della chiamata di collegamento di tracciamento quando si apre la nuova pagina. Ciò spesso impedisce il completamento delle chiamate di collegamento.
+Internet Explorer esegue la chiamata di collegamento di tracciamento e apre la nuova pagina. Altri browser potrebbero annullare l'esecuzione della chiamata di collegamento di tracciamento quando si apre la nuova pagina. Ciò spesso impedisce il completamento delle chiamate di collegamento.
 
-To work around this behavior, H.25 (released July 2012) includes an overloaded track link method ( [!DNL s.tl]) that forces browsers with this behavior to wait for the track link call to complete. Questo nuovo metodo esegue la chiamata di collegamento di tracciamento e gestisce l&#39;evento di navigazione, anziché utilizzare l&#39;azione del browser predefinita. This overloaded method requires an additional parameter, called [!UICONTROL doneAction], to specify the action to take when the link tracking call completes.
+To work around this behavior, H.25 (released July 2012) includes an overloaded track link method ( [!DNL s.tl]) that forces browsers with this behavior to wait for the track link call to complete. Questo nuovo metodo esegue la chiamata di collegamento di tracciamento e gestisce l'evento di navigazione, anziché utilizzare l'azione del browser predefinita. This overloaded method requires an additional parameter, called [!UICONTROL doneAction], to specify the action to take when the link tracking call completes.
 
 To use this new method, update calls to [!DNL s.tl] with an additional [!UICONTROL doneAction] parameter, similar to the following:
 
@@ -250,7 +250,7 @@ In JavaScript H.25.4 (released February 2013), the following scope limitations w
 
 * `<A>` e `<AREA>` tag.
 * The tag must have an `HREF` attribute.
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
 ## Link Tracking Using an Image Request {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -263,7 +263,7 @@ link_img.xml
 
  -->
 
-Le richieste di immagine sono codificate in modo da aggiungere il parametro &quot;pe&quot; al parametro src dell&#39;immagine, come segue:
+Le richieste di immagine sono codificate in modo da aggiungere il parametro "pe" al parametro src dell'immagine, come segue:
 
 ```
 pe=[type]
@@ -275,7 +275,7 @@ Where `[type]` is replaced with the type of link you want to track:
 * lnk_ e = exit
 * lnk_ o = personalizzato
 
-Inoltre, è possibile specificare un URL collegamento passando l&#39;URL nel parametro pev 1:
+Inoltre, è possibile specificare un URL collegamento passando l'URL nel parametro pev 1:
 
 ```
 pev1=mylink.com
@@ -303,7 +303,7 @@ link_variables.xml
 
  -->
 
-Per impostazione predefinita sono impostate all&#39;interno del file JS come segue:
+Per impostazione predefinita sono impostate all'interno del file JS come segue:
 
 ```js
 s.linkTrackVars="None"
@@ -331,11 +331,11 @@ s.linkTrackEvents="event1"
 
 >[!NOTE]
 >
->If *`linkTrackVars`* (or *`linkTrackEvents`*) is null (or an empty string), all [!DNL Analytics] variables (or events) that are defined for the current page are tracked. Questo rende più semplice l&#39;uso inavvertitamente delle istanze di ciascuna variabile e dovrebbe essere evitata.
+>If *`linkTrackVars`* (or *`linkTrackEvents`*) is null (or an empty string), all [!DNL Analytics] variables (or events) that are defined for the current page are tracked. Questo rende più semplice l'uso inavvertitamente delle istanze di ciascuna variabile e dovrebbe essere evitata.
 
 ## Best practice {#section_DA3CA596792E4BD6B5FFE89BCE0E617D}
 
-The settings for *`linkTrackVars`* and *`linkTrackEvents`* within the JS file affect every file download, exit link, and custom link. Le istanze di ogni variabile e evento possono essere ingrandite in situazioni in cui la variabile (o l&#39;evento) si applica alla pagina corrente, ma non al download di file, al collegamento di uscita o al collegamento personalizzato.
+The settings for *`linkTrackVars`* and *`linkTrackEvents`* within the JS file affect every file download, exit link, and custom link. Le istanze di ogni variabile e evento possono essere ingrandite in situazioni in cui la variabile (o l'evento) si applica alla pagina corrente, ma non al download di file, al collegamento di uscita o al collegamento personalizzato.
 
 To ensure that the proper variables are set with custom link code, Adobe recommends setting *`linkTrackVars`* and *`linkTrackEvents`* within the custom link code, as follows:
 
@@ -354,7 +354,7 @@ The values of *`linkTrackVars`* and *`linkTrackEvents`* override the settings in
 
 >[!NOTE]
 >
->Nell&#39;esempio precedente, il valore per prop 1 è impostato all&#39;interno del codice di collegamento personalizzato stesso. Il valore di prop 2 deriva dal valore corrente della variabile impostato sulla pagina.
+>Nell'esempio precedente, il valore per prop 1 è impostato all'interno del codice di collegamento personalizzato stesso. Il valore di prop 2 deriva dal valore corrente della variabile impostato sulla pagina.
 
 ## Using Function Calls with Custom Link Code {#concept_DB662C93B3ED415DB72C80270502BE5D}
 
@@ -434,7 +434,7 @@ Le ultime due righe del codice precedente modificano il comportamento del codice
 
 ## Popup Windows with useForcedLinkTracking {#concept_0AC4BA3A64B84CCB8D9A6021A022D1C3}
 
-When `useForcedLinkTracking` is enabled, [!DNL AppMeasurement] overrides the default link behavior on some browsers to prevent the track link call from being canceled when the new page opens. [!DNL AppMeasurement] esegue la chiamata di collegamento di tracciamento e gestisce l&#39;evento di navigazione manualmente, anziché utilizzare l&#39;azione del browser predefinita.
+When `useForcedLinkTracking` is enabled, [!DNL AppMeasurement] overrides the default link behavior on some browsers to prevent the track link call from being canceled when the new page opens. [!DNL AppMeasurement] esegue la chiamata di collegamento di tracciamento e gestisce l'evento di navigazione manualmente, anziché utilizzare l'azione del browser predefinita.
 
 <!-- 
 
@@ -453,7 +453,7 @@ Questo consente di tenere traccia del collegamento e di caricarlo come previsto.
 
 ## Links from URL Shorteners {#concept_CD792362A8E04448B452BE9A18772024}
 
-I collegamenti dai servizi di abbreviazione URL (ad esempio, bit. ly) in genere non vengono tracciati come visualizzazioni di pagina o come referenti. Questi servizi restituiscono reindirizzamenti 301/302 con l&#39;URL completo del browser Web, che quindi invia una nuova richiesta separata all&#39;URL completo. Il referente originale viene mantenuto in quanto l&#39;abbreviazione non è più nel ciclo e non esiste un&#39;indicazione sulla richiesta di utilizzare un servizio di reindirizzamento per ottenere l&#39;URL.
+I collegamenti dai servizi di abbreviazione URL (ad esempio, bit. ly) in genere non vengono tracciati come visualizzazioni di pagina o come referenti. Questi servizi restituiscono reindirizzamenti 301/302 con l'URL completo del browser Web, che quindi invia una nuova richiesta separata all'URL completo. Il referente originale viene mantenuto in quanto l'abbreviazione non è più nel ciclo e non esiste un'indicazione sulla richiesta di utilizzare un servizio di reindirizzamento per ottenere l'URL.
 
 <!-- 
 
