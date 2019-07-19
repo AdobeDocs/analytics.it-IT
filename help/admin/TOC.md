@@ -59,12 +59,12 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
          + [Visualizzare le regole di elaborazione attive](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Visualizzare la cronologia delle regole di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
          + [Ripristino delle regole di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-         + [Copiare le regole di elaborazione in un&#39;altra suite di rapporti](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+         + [Copiare le regole di elaborazione in un'altra suite di rapporti](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
       + [Dimensioni disponibili per le regole di elaborazione](admin/c-processing-rules/processing-rule-dimensions.md)
       + Processing rules examples {#processing-rules-examples}
          + [Esempi di regole di elaborazione](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
          + [Compilazione di un ID campagna da un parametro di stringa query](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [Impostare l&#39;evento di visualizzazione prodotto dalla pagina Panoramica prodotto](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+         + [Impostare l'evento di visualizzazione prodotto dalla pagina Panoramica prodotto](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [Aggiungete una sottocategoria concatenando la categoria e il nome della pagina](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [Determinare un percorso copiando un valore evar in un prop](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [Pulizia dei valori in un rapporto](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
@@ -79,11 +79,11 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Metriche e dimensioni in tempo reale supportate](admin/realtime/realtime-metrics.md)
    + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
    + Server-side forwarding {#server-side-forwarding}
-      + [Panoramica sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf.md)
-      + [Requisiti per l&#39;inoltro lato server](admin/c-server-side-forwarding/ssf-requirements.md)
+      + [Panoramica sull'inoltro lato server](admin/c-server-side-forwarding/ssf.md)
+      + [Requisiti per l'inoltro lato server](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Dati inoltri lato server e riferimento a un codice](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Come verificare l&#39;implementazione lato server](admin/c-server-side-forwarding/ssf-verify.md)
-      + [Domande frequenti sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf-faq.md)
+      + [Come verificare l'implementazione lato server](admin/c-server-side-forwarding/ssf-verify.md)
+      + [Domande frequenti sull'inoltro lato server](admin/c-server-side-forwarding/ssf-faq.md)
    + [Menu dei rapporti semplificato](admin/t-simplified-menu.md)
    + [Gestione social](admin/social-management.md)
    + Success events {#success-events}
@@ -97,7 +97,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Classificazioni traffico](admin/c-traffic-variables/traffic-classifications.md)
    + Unique Visitor variable {#unique-visitor-variable}
       + [Specificare la variabile Visitatore univoco](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Caso d&#39;uso - Estrazione degli ID visitatore](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Caso d'uso - Estrazione degli ID visitatore](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestione video](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
    + [Aiuto di Experience Cloud Admin Console](admin-console/home.md)
@@ -124,7 +124,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + Report suite templates {#report-suite-templates}
       + [Panoramica dei modelli delle suite di rapporti](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
       + [Portale Aggregator](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [Commercio](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+      + [Commerce](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
       + [Contenuto e contenuti multimediali](c-manage-report-suites/c-report-suite-templates/content-media.md)
       + [Modello predefinito](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
       + [Servizi finanziari](c-manage-report-suites/c-report-suite-templates/financial-services.md)
@@ -146,14 +146,14 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Panoramica sulla gestione degli utenti](user-management2/c-user-management/users.md)
       + [Aggiungere un account utente](user-management2/c-user-management/t-add-user-account.md)
       + [Modifiche alle autorizzazioni Utente e Gruppo](user-management2/c-user-management/permissions-changes.md)
-      + [Trasferimento degli elementi dell&#39;account utente](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
+      + [Trasferimento degli elementi dell'account utente](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [Aggiungere un utente a un gruppo](user-management2/c-user-management/t-add-user-to-group.md)
       + [Gestione degli utenti Ad Hoc Analysis](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + User groups {#user-groups}
       + [Aggiungere un gruppo utenti](user-management2/c-user-groups/t-user-group.md)
       + [Impostazioni gruppo utenti](user-management2/c-user-groups/groups.md)
    + Customize report access {#customize-report-access}
-      + [Personalizzare l&#39;accesso ai rapporti](user-management2/c-customize-report-access/groups-customize-report-access.md)
+      + [Personalizzare l'accesso ai rapporti](user-management2/c-customize-report-access/groups-customize-report-access.md)
       + [Personalizzare le autorizzazioni degli strumenti di Analytics](user-management2/c-customize-report-access/groups-analytics-tools.md)
       + [Personalizzare le autorizzazioni degli strumenti delle suite di rapporti](user-management2/c-customize-report-access/groups-report-suite-tools.md)
       + [Personalizzare le autorizzazioni delle metriche](user-management2/c-customize-report-access/groups-metrics.md)
@@ -174,11 +174,11 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [RGPD e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologia GDPR](c-data-governance/gdpr-terminology.md)
 + Utilizzo delle chiamate server {#server-call-usage}
-   + [Panoramica sull&#39;utilizzo delle chiamate server](c-server-call-usage/overage-overview.md)
-   + [Visualizzazione dell&#39;utilizzo delle chiamate server corrente](c-server-call-usage/server-call-usage-dashboard.md)
-   + [Visualizzazione dell&#39;utilizzo della suite di rapporti](c-server-call-usage/report-suite-usage.md)
-   + [Avvisi sull&#39;utilizzo di chiamate server](c-server-call-usage/scu-alerts.md)
-   + [Domande frequenti sull&#39;utilizzo delle chiamate server](c-server-call-usage/overage-faq.md)
+   + [Panoramica sull'utilizzo delle chiamate server](c-server-call-usage/overage-overview.md)
+   + [Visualizzazione dell'utilizzo delle chiamate server corrente](c-server-call-usage/server-call-usage-dashboard.md)
+   + [Visualizzazione dell'utilizzo della suite di rapporti](c-server-call-usage/report-suite-usage.md)
+   + [Avvisi sull'utilizzo di chiamate server](c-server-call-usage/scu-alerts.md)
+   + [Domande frequenti sull'utilizzo delle chiamate server](c-server-call-usage/overage-faq.md)
 + Traffic Management {#traffic-management}
    + [Gestione del traffico](c-traffic-management/traffic-management.md)
    + [Pianificare un picco di traffico](c-traffic-management/t-traffic-schedule-spike.md)
