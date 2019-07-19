@@ -15,7 +15,7 @@ source-git-commit: 49a775c829e4cdecae3563fe34ad29ecc397a98d
 
 # Classificazione dei problemi
 
-Risorse utili per risolvere eventuali problemi con l&#39;importazione.
+Risorse utili per risolvere eventuali problemi con l'importazione.
 
 * [Nessuno, Non specificato, Sconosciuto e Altro nei rapporti](/help/technotes/unspecified.md)
 * [Problemi comuni di caricamento di classificazione](http://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
