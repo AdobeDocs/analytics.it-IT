@@ -20,7 +20,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 >
 >Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
-L&#39;identificazione dei visitatori su più dispositivi consente di collegare i visitatori su più dispositivi. L&#39;identificazione dei visitatori con più dispositivi utilizza la variabile ID visitatore, s. visitorid, per associare un utente ai diversi dispositivi.
+L'identificazione dei visitatori su più dispositivi consente di collegare i visitatori su più dispositivi. L'identificazione dei visitatori con più dispositivi utilizza la variabile ID visitatore, s. visitorid, per associare un utente ai diversi dispositivi.
 
 When you provide a [!UICONTROL visitor ID] variable with a hit, the system checks for any other visitor profiles that have a matching [!UICONTROL visitor ID]. Se ne esiste uno, il profilo visitatore già presente nel sistema viene usato da quel momento in poi e il profilo visitatore precedente non viene più utilizzato.
 
