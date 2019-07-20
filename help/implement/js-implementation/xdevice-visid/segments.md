@@ -19,6 +19,6 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 >
 >Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
-Puoi creare un segmento ogni volta che si verifica un&#39;associazione per un cookie ID visitatore specificato.
+Puoi creare un segmento ogni volta che si verifica un'associazione per un cookie ID visitatore specificato.
 
 Based on the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), if you created a segment where visit number equals 9, it would include server calls 12 and 13. Anche tramite la chiamata del server 11 è tecnicamente parte della stessa visita, i dati storici per la chiamata al server non vengono modificati e il numero di visite rimane invariato.
