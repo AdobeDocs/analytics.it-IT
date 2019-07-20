@@ -11,7 +11,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 Su altre piattaforme come Google Analytics, molti rapporti condividono un numero comune di metriche. Utilizza questa pagina per comprendere come ricreare le metriche utilizzate in molti rapporti.
 
-Per aggiungere più metriche a una tabella freeform dell&#39;area di lavoro, trascina la metrica dall&#39;area dei componenti accanto all&#39;intestazione della metrica nell&#39;area di lavoro:
+Per aggiungere più metriche a una tabella freeform dell'area di lavoro, trascina la metrica dall'area dei componenti accanto all'intestazione della metrica nell'area di lavoro:
 
 ![Metrica aggiuntiva](../assets/new_metric.png)
 
@@ -36,7 +36,7 @@ Per aggiungere più metriche a una tabella freeform dell&#39;area di lavoro, tra
 
 **Pagine/Sessione** è una metrica calcolata. È possibile ottenere quanto segue:
 
-1. Se hai già creato questa metrica calcolata, puoi individuarla in Metriche e trascinarla nell&#39;area di lavoro.
+1. Se hai già creato questa metrica calcolata, puoi individuarla in Metriche e trascinarla nell'area di lavoro.
 2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
 3. Assegnategli il titolo «Visualizzazioni pagina per visita» e una descrizione, se lo desiderate.
 4. Impostare il formato su Decimale e impostare il numero di posizioni decimali su 2.
@@ -46,7 +46,7 @@ Per aggiungere più metriche a una tabella freeform dell&#39;area di lavoro, tra
    ![Visualizzazioni di pagina per visita](../assets/page_views_per_visit.png)
 
 7. Fai clic su Salva per tornare alla tua area di lavoro.
-8. Trascinate la metrica calcolata appena definita nell&#39;area di lavoro.
+8. Trascinate la metrica calcolata appena definita nell'area di lavoro.
 
    Learn more about [Calculated Metrics](../../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
 
@@ -54,12 +54,12 @@ Per aggiungere più metriche a una tabella freeform dell&#39;area di lavoro, tra
 
 ## Metriche di conversione
 
-**Tasso di conversione obiettivo**, **Completamenti** obiettivi e **Valore obiettivo** richiedono l&#39;implementazione aggiuntiva su entrambe le piattaforme. Se la tua implementazione soddisfa già la dimensione dei prodotti e l&#39;evento di acquisto, prendi in considerazione i passaggi seguenti:
+**Tasso di conversione obiettivo**, **Completamenti** obiettivi e **Valore obiettivo** richiedono l'implementazione aggiuntiva su entrambe le piattaforme. Se la tua implementazione soddisfa già la dimensione dei prodotti e l'evento di acquisto, prendi in considerazione i passaggi seguenti:
 
 1. Drag the **Orders** metric, **Revenue** metric, and **Visits** metric onto the workspace.
 1. Create a calculated metric of **Orders per Visit**. Per evidenziare, usate Ctrl + clic (Windows) o Comando + clic (Mac) su entrambe le intestazioni delle metriche. Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. Questa nuova metrica è simile a un tasso di conversione obiettivo.
-1. Se sono necessarie posizioni decimali, modificate la metrica calcolata. Fai clic sul pulsante Info nell&#39;intestazione della metrica, quindi sull&#39;icona matita. Aggiungi 1 o 2 posizioni decimali nella finestra Calculated Metric Builder, quindi fai clic su Save (Salva).
+1. Se sono necessarie posizioni decimali, modificate la metrica calcolata. Fai clic sul pulsante Info nell'intestazione della metrica, quindi sull'icona matita. Aggiungi 1 o 2 posizioni decimali nella finestra Calculated Metric Builder, quindi fai clic su Save (Salva).
 
    ![Ordini per visita](../assets/orders_per_visit.png)
 
-Se l&#39;implementazione non copre ancora i dati di prodotto o conversione, Adobe consiglia di lavorare con un consulente di implementazione per garantire la qualità e l&#39;integrità dei dati.
+Se l'implementazione non copre ancora i dati di prodotto o conversione, Adobe consiglia di lavorare con un consulente di implementazione per garantire la qualità e l'integrità dei dati.
