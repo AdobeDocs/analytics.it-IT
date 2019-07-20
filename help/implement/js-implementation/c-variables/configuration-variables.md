@@ -9,7 +9,7 @@ title: Variabili di configurazione
 topic: Sviluppatore e implementazione
 uuid: a 19484 b 6-e 350-4 c 12-b 4 d 6-a 31 c 79 a 42 db 0
 translation-type: tm+mt
-source-git-commit: 60239f9bf79a33cc474248825a652f3b0eb7010b
+source-git-commit: 696e7ed6dc6648cf523bc81e6cd40c7a06115484
 
 ---
 
@@ -98,10 +98,6 @@ The friendly name associated with each report suite ID can be changed by Adobe [
 * Always declare `s_account` inside the JS file or just before it is included.
 
 ## s.dynamicAccountSelection {#concept_FAD499DB357148DB8BD74F08093D3E35}
-
-<!-- 
-dynamicAccountSelection.xml
--->
 
 La variabile consente di selezionare in modo dinamico la suite di rapporti in base all'URL di ciascuna pagina.
 
@@ -630,6 +626,24 @@ Nessuno
 * L'unico motivo per cambiare il nome dell'oggetto (ad esempio, da s a s_ mc) è quello di condividere contenuto con o di estrarre contenuto da altri clienti. Renaming the *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
 
 * If you unexpectedly start pulling in content from another Adobe customer, and your *`s_doPlugins`* function is being overwritten, it is possible to simply rename the *`s_doPlugins`* function without changing the object name. Mentre la soluzione migliore consiste nell'utilizzare un nome oggetto diverso da quello di altri file javascript sulla stessa pagina, non è necessario farlo.
+
+## s. registerpretrackcallback e s. registerposttrackcallback
+
+Queste funzioni sono utilizzate come parametri: callback (una funzione) e i parametri a tale funzione. Ad esempio:
+
+```
+s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
+    console.log("pre track callback"); 
+    console.dir(requestUrl); // Request URL 
+    console.dir(a); // param1 
+    console.dir(b); // param2 
+    console.dir(c); // param3 
+}, "param1", "param2", "param3");
+```
+
+The callback is invoked with the `requestUrl` and any parameters passed in when the callback is registered. Ciò si verifica prima o dopo la chiamata di tracciamento, a seconda del metodo utilizzato per registrare il callback.
+
+L'ordine in cui tali callback vengono invocati non è garantito. I callback registrati nella funzione pranziana vengono invocati dopo la creazione dell'URL di tracciamento finale. I callback post vengono chiamati a seguito di una chiamata di tracciamento completata (se la chiamata di tracciamento non riesce, queste funzioni non vengono chiamate). Any callback registered with `registerPreTrackCallback` do not affect the tracking call. Inoltre, la chiamata di qualsiasi metodo di tracciamento in qualsiasi callback registrato non è consigliata e potrebbe provocare un ciclo infinito.
 
 ## s.trackDownLoadLinks {#concept_0A7AEAB3172A4BEA8B2E8B1A3A8F596C}
 
