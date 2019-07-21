@@ -26,12 +26,10 @@ Invece di assegnare esplicitamente valori a prop ed evar nel codice, puoi inviar
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->
-```>
+>```>
 >and 
 >
->
-```>
+>```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 
