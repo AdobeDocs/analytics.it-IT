@@ -34,7 +34,7 @@ Spiega come confrontare segmenti in Analysis Workspace.
 
    ![](assets/compare-audiences.png)
 
-   Dopo aver trascinato il segmento nel pannello, Analytics crea automaticamente un segmento **[!UICONTROL Everyone Else](Tutti), che include tutti quelli NON inclusi nel segmento scelto. In questo caso, tutti i "Acquirenti meno importanti".** In questo modo, non dovrai creare questo segmento. Tutti viene aggiunto automaticamente al pannello nel campo **[!UICONTROL Compare Against](Confronta con).** Hai la possibilità di eliminarlo e di confrontare l’acquirente più importante con un altro segmento a tua scelta.
+   Dopo aver trascinato il segmento nel pannello, Analytics crea automaticamente un segmento **[!UICONTROL Everyone Else] (Tutti), che include tutti quelli NON inclusi nel segmento scelto. In questo caso, tutti i "Acquirenti meno importanti".** In questo modo, non dovrai creare questo segmento. Tutti viene aggiunto automaticamente al pannello nel campo **[!UICONTROL Compare Against](Confronta con).** Hai la possibilità di eliminarlo e di confrontare l’acquirente più importante con un altro segmento a tua scelta.
 
    ![](assets/everyone-else.png)
 

@@ -225,7 +225,7 @@ Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo
 
    ![](assets/namespace2.png)
 
-1. Premi **[!UICONTROL Enter](Invio) per aggiungere questo namespace.** Solo a questo punto si attiverà il pulsante Applica.
+1. Premi **[!UICONTROL Enter] (Invio) per aggiungere questo namespace.** Solo a questo punto si attiverà il pulsante Applica.
 1. Fai clic su **[!UICONTROL Apply]**.
 
 La stringa specificata come namespace è la stessa stringa che devi usare quando invii le richieste tramite l’API dell’RGPD come valore del parametro “namespace”. Per via della richiesta, Adobe Analytics cercherà tutte le variabili in tutte le suite di rapporti che condividono questo namespace per l’ID specificata con la richiesta.

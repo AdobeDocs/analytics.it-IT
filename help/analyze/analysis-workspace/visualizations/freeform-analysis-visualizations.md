@@ -21,7 +21,7 @@ Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzaz
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations](Visualizzazioni) nel pannello laterale.**
+Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations] (Visualizzazioni) nel pannello laterale.**
 
 ![Risultato passaggio](assets/visualizations.png)
 

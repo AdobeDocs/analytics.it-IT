@@ -963,7 +963,7 @@ Nuove funzionalità rilasciate il 21 gennaio 2016.
 
 Puoi annullare la maggior parte delle azioni effettuate in Analysis Workspace.
 
-Per annullare, fai clic su **[!UICONTROL Undo](Annulla) nel menu Azioni.**
+Per annullare, fai clic su **[!UICONTROL Undo] (Annulla) nel menu Azioni.**
 
 ![](assets/undo.png)
 

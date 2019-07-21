@@ -22,7 +22,7 @@ See [Create a freeform analysis project](../../../analyze/analysis-workspace/bui
 
 ## Azioni dei componenti {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-Sono disponibili diversi metodi di gestione dei componenti (singolarmente o selezionandone più di uno). Fai clic con il pulsante destro del mouse su un componente oppure fai clic su **[!UICONTROL Actions](Azioni) in alto nell’elenco dei componenti.**
+Sono disponibili diversi metodi di gestione dei componenti (singolarmente o selezionandone più di uno). Fai clic con il pulsante destro del mouse su un componente oppure fai clic su **[!UICONTROL Actions] (Azioni) in alto nell’elenco dei componenti.**
 
 >[!NOTE]
 >
