@@ -5,12 +5,32 @@ seo-title: Panoramica di Contribution Analysis
 title: Panoramica di Contribution Analysis
 uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
 translation-type: tm+mt
-source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
+source-git-commit: d3aecc01bc490018c3878f0f6c4dbd621ad35a01
 
 ---
 
 
 # Panoramica di Contribution Analysis
+
+Analisi contributi rileva i pattern nascosti all'interno dei dati per spiegare le anomalie statistiche e identificare le correlazioni dietro azioni impreviste del cliente, valori out-of-bind e improvvisi picchi o centesimi per metriche selezionate su segmenti di pubblico convergenti.
+
+Si è verificato un problema. Perché? Il rapporto Rilevamento anomalie mostra un picco insolito negli ordini e si desidera conoscerne il motivo. Cosa è uscito dall'ordinaria? Chi risponde a quale campagna o riferimento? Qualcosa è diventato virale? Quali sono i fattori specifici che hanno contribuito a tale anomalia? E, probabilmente, importante: Come posso fare per acquisire informazioni importanti sul mio cliente e ripetere queste prestazioni? (O se si è verificato un calo in una metrica o in una metrica negativa, come si può evitare in futuro?)
+
+Analisi contributi consente di valutare immediatamente i dati per rispondere a un'anomalia. Consente di suddividere i contributi a un'anomalia in secondi in quanto tempo impiega settimane, fornire pattern per segmenti di pubblico e aiutarti a sviluppare una narrazione per le interazioni dei clienti. Potete utilizzare l'analisi dei contributi per identificare e acquisire le associazioni significative per sviluppare nuovi segmenti di pubblico, oppure utilizzarli in modo tattico per identificare attività out-of-bound o fraudolenti che attivano un avviso.
+
+[Il rilevamento](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) delle anomalie identifica picchi di dati e dip statistici estremi in base alle metriche selezionate e ai segmenti di pubblico selezionati. Imposta una regola storica basata su un periodo di formazione, quindi traccia gli offreset estremi correlati a eventi specifici. Può riportare un'escalation rapida di una metrica di Ordini positiva o di un incremento di metriche negative Bounce o di un incremento in entrambe, acquisendo punti dati statisticamente rilevanti da valutare tramite Analisi contributi. Una volta identificato un'anomalia statistica, Analisi contributi permette di analizzare e valutare le variabili di marketing e campagne rilevanti in tutti i punti dati anomali. Consente di eseguire algoritmi avanzati e processi di machine-learning per valutare le associazioni che hanno contribuito a un picco o a una dip significativi. Questi calcoli vengono quindi visualizzati nelle visualizzazioni interattive progettate per fornire diverse prospettive, in modo da fornire una risposta a quanto è accaduto e cosa fare al riguardo.
+
+Analisi contributi consente di sviluppare un commento per descrivere il motivo per cui si è verificata un'anomalia e come rispondervi, acquisire metriche rilevanti e identificare punti nascosti che offrono un motivo complessivo per interazioni con l'audience e interesse dei clienti. A volte un'anomalia è facile da visualizzare e correggere, ad esempio un ordine errato per 2,000 kayak. A volte è complesso, come individuare una tendenza emergente in un periodo di tempo in un'area che reagisce solo a una campagna specifica. La possibilità di suddividere insieme gli elementi per diverse metriche per diverse dimensioni e le rispettive associazioni offre un'idea generale delle interazioni con l'audience e contribuisce a fornire contesto per i punti dati anomali.
+
+Ecco alcune idee:
+
+* Marketing delle identità potenziale monitorando le modifiche nella domanda del prodotto.
+* Migliorare l'esperienza dei clienti reagendo a interessi specifici del pubblico.
+* Identificare gli ordini fraudolenti anticipatamente come rapporto out-of-bounds.
+* Proteggersi dall'analisi aziendale identificando l'utilizzo e i download elevati.
+* Monitorare le operazioni quali il reporting di tag javascript mancanti.
+
+Dopo un'analisi completa di un'anomalia, viene generato un Riepilogo contributi per gli elementi principali ordinati dalle occorrenze totali e dalla percentuale dell'elemento dei valori che hanno contribuito. Un punteggio contributo normalizzato consente di confrontare, confrontare e associare facilmente altri elementi dimensionali significativi.
 
 ## Contribution Analysis Tokens - overview {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
