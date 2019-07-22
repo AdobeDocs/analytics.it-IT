@@ -9,7 +9,7 @@ title: Variabili di configurazione
 topic: Sviluppatore e implementazione
 uuid: a 19484 b 6-e 350-4 c 12-b 4 d 6-a 31 c 79 a 42 db 0
 translation-type: tm+mt
-source-git-commit: 696e7ed6dc6648cf523bc81e6cd40c7a06115484
+source-git-commit: 72f2b06f53c6a3c1cae965a1a9b030b0123bfca1
 
 ---
 
@@ -667,11 +667,13 @@ The *`trackDownloadLinks`* variable is expected to be either 'true' or 'false.'
 
 **Esempi** {#section_BE2FA1873EBD4C5CA95E98B922B10280}
 
-```js
+```
+js
 s.trackDownloadLinks=true 
 ```
 
-```js
+```
+js
 s.trackDownloadLinks=false
 ```
 
@@ -702,17 +704,20 @@ The *`trackExternalLinks`* variable should only be set to 'false' if there are n
 
 The *`trackExternalLinks`* variable is expected to be either 'true' or 'false.'
 
-```js
+```
+js
 s.trackExternalLinks=true|false
 ```
 
 **Esempi** {#section_EF18DB05884240F5B5062631E68E10A7}
 
-```js
+```
+js
 s.trackExternalLinks=true 
 ```
 
-```js
+```
+js
 s.trackExternalLinks=false
 ```
 
@@ -741,7 +746,8 @@ If *`trackInlineStats`* is 'true,' data about the page and link clicked are stor
 
 **Sintassi e valori possibili**{#section_46B2C1DD0D104A01A9C239929420CD90}
 
-```js
+```
+js
 s.trackInlineStats=true|false
 ```
 
