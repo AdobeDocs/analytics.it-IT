@@ -50,8 +50,7 @@ La procedura seguente illustra l'implementazione di base di Analytics.
     <draft-comment> 
      <p>In <code> VisitorAPI.js </code>, add the following visitor ID initialization code at the beginning of the file: </p> 
      <code class="syntax javascript">var visitor = Visitor. getinstance ("INSERT-MCORG-ID-HERE"); visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // same as s. trackingserver visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s. trackingserversecure/* = = DO NOT ALTER ANYTHING BELOW THIS LINE = = </code>
-  
-     <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
+      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (obbligatorio) questo ID organizzazione Adobe Experience Cloud viene inviato all'amministratore quando viene eseguito il provisioning della tua società per Adobe Experience Cloud. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> " INSERT-TRACKING-SERVER-HERE " </code> - (obbligatorio) il server di tracciamento Analytics. </li> 
       <li id="li_C578420458D649228E54D9809AF62627"> <code> " INSERT-SECURE-TRACKING-SERVER-HERE " </code> - (Obbligatorio se ssl è abilitato) Il server di tracciamento protetto di Analytics. </li> 

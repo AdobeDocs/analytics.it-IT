@@ -52,8 +52,7 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
  visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // same as s. trackingserver 
  visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s. trackingserversecure 
  /* 
- = = = = = = = = = = = = = = NON MODIFICATE NULLA sotto questa riga. = = = = = = = = = = = = </code>
-  
+ = = = = = = = = = = = = = = NON MODIFICATE NULLA sotto questa riga. = = = = = = = = = = = = </code>  
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (obbligatorio) questo ID organizzazione Adobe Experience Cloud viene inviato all'amministratore quando viene eseguito il provisioning della tua società per Adobe Experience Cloud. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> " INSERT-TRACKING-SERVER-HERE " </code> - (obbligatorio) il server di tracciamento Analytics. </li> 

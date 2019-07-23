@@ -44,23 +44,23 @@ Consente di controllare l'accesso ai dati di reporting. Le opzioni includono pas
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Applicazione delle restrizioni di accesso IP</span> </td> 
-   <td colname="col2"> <p>Limita l'accesso ai rapporti a indirizzi IP specifici o intervalli di indirizzi IP. </p> <p>Potete aggiungere fino a 100 voci nell'elenco dei filtri IP e ogni voce può essere un indirizzo specifico o un intervallo di indirizzi. </p> <p> <span class="wintitle"> L'applicazione delle restrizioni</span> di accesso IP non viene applicata finché non vi è almeno una voce nell'elenco Filtro indirizzo IP. </p> <p> <span class="uicontrol"> Indirizzo IP accettato</span>: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio, <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> <p>Failed logins are logged and viewable from the <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local"> Usage and Access Log</a>. </p> </td> 
+   <td colname="col2"> <p>Limita l'accesso ai rapporti a indirizzi IP specifici o intervalli di indirizzi IP. </p> <p>Potete aggiungere fino a 100 voci nell'elenco dei filtri IP e ogni voce può essere un indirizzo specifico o un intervallo di indirizzi. </p> <p> <span class="wintitle"> L'applicazione delle restrizioni</span> di accesso IP non viene applicata finché non vi è almeno una voce nell'elenco Filtro indirizzo IP. </p> <p> <span class="uicontrol"> Indirizzo IP accettato</span>: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio,
+   <code>
+    192.168.10.[20-240]
+   </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+   <code>
+    192.168.[10-14].*
+   </code>) </p> <p>Failed logins are logged and viewable from the <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local"> Usage and Access Log</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Applica limitazioni per il dominio e-mail</span> </td> 
-   <td colname="col2"> <p>Filtra gli indirizzi e-mail e i domini in cui Analytics invia segnalibri, rapporti scaricabili e avvisi. </p> <p>L'elenco dei filtri e-mail supporta fino a 100 voci e ogni voce può essere un indirizzo e-mail o un intero dominio e-mail. </p> <p>Se un rapporto pianificato dispone di una destinazione e-mail non approvata, Analytics invia una notifica e-mail del problema e un collegamento per l'annullamento della pianificazione del rapporto. </p> <p> <span class="wintitle"> L'opzione Applica limitazioni</span> del dominio e-mail non viene applicata finché non è presente almeno una voce nell' <span class="wintitle"> elenco Filtro</span> dominio e-mail accettato. </p> <p> <span class="uicontrol"> Indirizzo e-mail e domini accettati</span>: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio, <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> </td> 
+   <td colname="col2"> <p>Filtra gli indirizzi e-mail e i domini in cui Analytics invia segnalibri, rapporti scaricabili e avvisi. </p> <p>L'elenco dei filtri e-mail supporta fino a 100 voci e ogni voce può essere un indirizzo e-mail o un intero dominio e-mail. </p> <p>Se un rapporto pianificato dispone di una destinazione e-mail non approvata, Analytics invia una notifica e-mail del problema e un collegamento per l'annullamento della pianificazione del rapporto. </p> <p> <span class="wintitle"> L'opzione Applica limitazioni</span> del dominio e-mail non viene applicata finché non è presente almeno una voce nell' <span class="wintitle"> elenco Filtro</span> dominio e-mail accettato. </p> <p> <span class="uicontrol"> Indirizzo e-mail e domini accettati</span>: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio,
+   <code>
+    192.168.10.[20-240]
+   </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+   <code>
+    192.168.[10-14].*
+   </code>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Notifica di recupero password</span> </td> 
