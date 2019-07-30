@@ -5,12 +5,12 @@ seo-title: Espansione dell’ID
 title: Espansione dell’ID
 uuid: 2672 d 17 d-c 957-4 e 08-8 dd 9-16 d 54 bf 2 be 18
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
 
 ---
 
 
-# Espansione dell’ID #
+# Espansione dell’ID
 
 Gli ID che invii non sempre comprendono tutti i dati dei risultati che Analytics può associare alla persona interessata. Analytics può creare un set esteso di ID per includere questi dati associati nelle richieste RGPD. È possibile richiedere questa opzione con un parametro opzionale per ogni richiesta RGPD inviata, aggiunta alla richiesta JSON:
 
@@ -45,7 +45,7 @@ Per una richiesta di cancellazione, in cui l’espansione dell’ID non viene ut
 
 Quando Adobe esegue l’espansione dell’ID, può richiedere un’ulteriore scansione completa dei dati, che aumenterà il tempo necessario per completare la richiesta, spesso aggiungendo una settimana al tempo di elaborazione.
 
-## Altri flag di richiesta GDPR ##
+## Altri flag di richiesta GDPR
 
 Oltre al flag “expandiDS”, Analytics supporta altri due flag che possono essere passati come parte di una richiesta RGPD. Questi flag con i loro valori predefiniti sono:
 
