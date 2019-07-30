@@ -9,7 +9,7 @@ title: Panoramica delle variabili
 topic: Sviluppatore e implementazione
 uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
@@ -18,13 +18,8 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 Analytics offre diverse variabili per la raccolta dei dati di Analytics. Ad esempio, il valore nella variabile pagename è il nome della pagina Web segnalata. In questa sezione sono elencate le variabili supportate da appmeasurement.
 
-For a listing of how each variable appears in Analytics reports, see [Variables - How They Are Used in Reporting](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions).
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## How to Set Variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
