@@ -7,18 +7,26 @@ title: Pianificazione di una richiesta dati
 topic: Generatore di report
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# Pianificazione di una richiesta dati
+# Pianificare una cartella di lavoro
 
-Potete pianificare i rapporti in base all'ora e al formato di file definiti.
+Potete pianificare le cartelle di lavoro, specificare opzioni di consegna avanzate, specificare i destinatari e visualizzare la cronologia delle pianificazioni. Le opzioni di consegna avanzate consentono di configurare i documenti di lavoro che si desidera inviare a un determinato momento o a intervalli specifici. Potete anche specificare il formato di file in cui inviare la cartella di lavoro.
 
-**Pianificazione di una richiesta dati**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. Il limite di dimensione file è 5 MB per un caricamento di rapporti.
 
-1. Generate e salvate un rapporto.
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (See [Report Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) in Reports &amp; Analytics help.)
+
+>[!NOTE]
+>
+>Per pianificare una cartella di lavoro, è necessario installare Excel 2007 o il pacchetto di compatibilità installato. Potete disporre di un massimo di 10 cartelle di lavoro pianificate per Licenza Generatore di report. Tuttavia, potete aumentare questo numero sottraendo da altre licenze. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Una cartella di lavoro che è stata pianificata (o caricata nella Libreria di Workcartelle) e non è stata toccata (aggiornata, sostituita) in più di 28 mesi verrà eliminata.
+
+**Pianificazione di una cartella di lavoro**
+
+1. Generate e salvate una cartella di lavoro.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    [!UICONTROL Scheduled Reports] La scheda riepiloga tutte le attività create, oltre al numero di operazioni rimanenti.
@@ -29,7 +37,7 @@ Potete pianificare i rapporti in base all'ora e al formato di file definiti.
 
 1. In the [!UICONTROL Basic Scheduling Wizard], configure the following options:
 
-* **Selezionate Report**: Nome del rapporto. Per i nuovi rapporti pianificati, questo campo viene compilato con il nome del cartella di lavoro attivo.
+* **Selezionate Report**: Nome della cartella di lavoro. Per i nuovi documenti di lavoro pianificati, questo campo viene compilato con il nome del cartella di lavoro attivo.
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ Potete pianificare i rapporti in base all'ora e al formato di file definiti.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Invia a: E-mail </p> </td> 
-   <td colname="col2"> <p>Destinatario e-mail del rapporto. </p> </td> 
+   <td colname="col2"> <p>Destinatario e-mail della cartella di lavoro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Invia a: Elenco pubblicazione </p> </td> 
@@ -73,7 +81,7 @@ Potete pianificare i rapporti in base all'ora e al formato di file definiti.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pianificazione </p> </td> 
-   <td colname="col2"> <p> Consente di specificare quando inviare il rapporto. (immediatamente, su base giornaliera, giornaliera, settimanale, mensile e annuale). </p> </td> 
+   <td colname="col2"> <p> Consente di specificare quando inviare la cartella di lavoro. (immediatamente, su base giornaliera, giornaliera, settimanale, mensile e annuale). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ Potete pianificare i rapporti in base all'ora e al formato di file definiti.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ora di consegna </p> </td> 
-   <td colname="col2"> <p>Consente di pianificare il rapporto immediatamente o per un momento successivo. L'ora del giorno è relativa al fuso orario specificato nel computer. </p> </td> 
+   <td colname="col2"> <p>Consente di pianificare la cartella di lavoro immediatamente o per un momento successivo. L'ora del giorno è relativa al fuso orario specificato nel computer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pattern di ricorrenza </p> </td> 
-   <td colname="col2"> <p>Invia il rapporto in base alle selezioni. </p> </td> 
+   <td colname="col2"> <p>Invia la cartella di lavoro in base alle selezioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intervallo di ricorrenza </p> </td> 
-   <td colname="col2"> <p>Consente di specificare quando avviare e interrompere la ricezione del rapporto. </p> <p> <p>Nota: La pianificazione di un report il primo giorno di qualsiasi periodo (settimana, mese, trimestre o anno) restituisce dati solo per il primo giorno. </p> </p> </td> 
+   <td colname="col2"> <p>Consente di specificare quando avviare e interrompere la ricezione della cartella di lavoro. </p> <p> <p>Nota: La pianificazione di una cartella di lavoro il primo giorno di qualsiasi periodo (settimana, mese, trimestre o anno) restituisce dati solo per il primo giorno. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>scheda Opzioni</b> file </p> </td> 
@@ -118,7 +126,7 @@ Potete pianificare i rapporti in base all'ora e al formato di file definiti.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Elenco pubblicazione </p> </td> 
-   <td colname="col2"> <p> Se inviate il rapporto pianificato a più elenchi di pubblicazione, il rapporto viene eseguito una volta per ogni elenco. Le suite di rapporti variabili vengono sostituite dalla suite di rapporti assegnata all'elenco di pubblicazione. </p> </td> 
+   <td colname="col2"> <p> Se inviate la cartella di lavoro pianificata a più elenchi di pubblicazione, la cartella di lavoro viene eseguita una volta per ogni elenco. Le suite di rapporti variabili vengono sostituite dalla suite di rapporti assegnata all'elenco di pubblicazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lingua contenuto file </p> </td> 
@@ -146,4 +154,5 @@ Potete pianificare i rapporti in base all'ora e al formato di file definiti.
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   Report Builder displays the scheduled report in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
