@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: end-user
+audience: utente finale
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + Build a Workspace project {#build-workspace-project}
       + [Crea progetto - Panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare un progetto Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md) per progetti
       + Column and row settings {#column-row-settings}
          + [Impostazioni colonna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Impostazioni riga](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -76,7 +76,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + Pannelli {#panels}
       + [Panoramica sui pannelli](analysis-workspace/c-panels/panels.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
-      + [Attribuzione](analysis-workspace/attribution-iq/attribution.md)
+      + [Attribution](analysis-workspace/attribution-iq/attribution.md)
       + [Pannello Freeform](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison (IQ) {#segment-comparison}
          + [Panoramica di IQ segmento](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -213,7 +213,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [Modalità offline per la creazione e la modifica delle richieste](report-builder/manage-requests/offline-mode.md)
    + [Opzioni del Generatore di report](report-builder/options.md)
    + [Richieste di rapporti pianificate](report-builder/schedule-report-requests.md)
-   + [Pianificazione di una richiesta dati](report-builder/t-schedule-a-data-request.md)
+   + [Pianificare una cartella di lavoro](report-builder/t-schedule-a-data-request.md)
    + [Scheduled Task Manager](report-builder/r-arb-scheduled-reports.md)
    + Workbook Library {#workbook-library}
       + [Caricare una cartella di lavoro](report-builder/workbook-library/t-upload-a-workbook.md)
@@ -225,7 +225,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [Limitazioni e specifiche](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importare manualmente i dati in Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Estrai risorse pubblicate in Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [Procedure ottimali](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [Procedure consigliate](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Risoluzione dei problemi dell'integrazione Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Pacchetti di contenuto Adobe Analytics per Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Risoluzione dei problemi e procedure ottimali per Generatore di report](report-builder/troubleshoot.md)
