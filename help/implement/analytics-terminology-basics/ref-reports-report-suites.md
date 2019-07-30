@@ -8,7 +8,7 @@ title: Report e suite per report
 topic: Sviluppatore e implementazione
 uuid: 288203 f 6-cd 13-4 e 01-9950-2 c 7 e 5 cfb 8 a 17
 translation-type: tm+mt
-source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
+source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
 
@@ -43,8 +43,8 @@ You can use [Analysis Workspace](https://marketing.adobe.com/resources/help/en_U
 
 <p class="head"> <b>Consulta anche</b> </p>
 
-* [Aiuto di Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Aiuto di Reporting e analisi](https://marketing.adobe.com/resources/help/en_US/sc/user/)
+* [Aiuto di Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Reporting e analisi](/help/analyze/reports-analytics/overview/report-overview.md)
 * [Report in tempo reale](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * [Guida di Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/)
 * [Estratti di dati](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
@@ -53,8 +53,8 @@ You can use [Analysis Workspace](https://marketing.adobe.com/resources/help/en_U
 * [Requisiti e confronto dei prodotti Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [Descrizioni rapporti](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
 * [Dashboard e reportlet](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
-* [Segnalibri](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html)
-* [Suite di rapporti virtuali](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
-* [Rilevazione delle anomalie](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html)
-* [Analisi di contributo](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+* [Segnalibri](/help/analyze/reports-analytics/bookmarks.md)
+* [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md)
+* [Rilevazione delle anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+* [Analisi di contributo](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 
