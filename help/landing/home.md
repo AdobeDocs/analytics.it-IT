@@ -4,14 +4,14 @@ seo-title: Elenco completo della documentazione tecnica di Adobe Analytics e gui
 description: Guide e risorse degli utenti di Analytics
 seo-description: Elenco completo dei documenti tecnici di Adobe Analytics, note sulla versione e guide utente self-help.
 translation-type: tm+mt
-source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
 # Documentazione di Adobe Analytics
 
-[![Analyze](assets/analyze_50px.png)](/help/analyze/home.md)Tools[Guide Guide Guide](/help/analyze/home.md) - Features tutti gli strumenti di analisi utilizzabili in Adobe Analytics. In primo luogo, fornisce documentazione approfondita su Analysis Workspace, lo strumento di analisi e visualizzazione innovativo per Analytics.
+[![Strumenti](assets/analyze_50px.png)](/help/analyze/home.md)=[Guida strumenti Analytics](/help/analyze/home.md) - Funzionalità che consentono di utilizzare tutti gli strumenti di analisi utilizzabili in Adobe Analytics. In primo luogo, fornisce documentazione approfondita su Analysis Workspace, lo strumento di analisi e visualizzazione innovativo per Analytics.
 
 [![Amministratore](assets/admin_50px.png)](/help/admin/home.md):[Guida](/help/admin/home.md) amministratore - Attività amministrazione per configurare suite di rapporti, governance dati, utilizzo chiamate server e altro ancora.
 
@@ -33,7 +33,7 @@ source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
 
 | Novità e funzioni | Risorse chiave Analytics |
 | --- | --- |
-| <ul><li>[Raccolta di dati regionali](../technotes/rdc/regional-data-collection.md)</li><li>[Ottimizzare le prestazioni dell'area di lavoro](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Confronto tra i prodotti Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quale strumento Adobe Analytics devo usare?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Vedi anche: [Aggiornamenti della documentazione 2019](doc-updates.md) | <ul><li> [Note sulla versione](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Canale Youtube di Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Esercitazioni e video su Analytics](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Forum della community di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Corsi di formazione e classi virtuali](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience Ltd](https://landing.adobe.com/experience-league/)</li><li>[Contattare l'Assistenza clienti](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[Raccolta di dati regionali](../technotes/rdc/regional-data-collection.md)</li><li>[Ottimizzare le prestazioni dell'area di lavoro](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Confronto tra i prodotti Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quale strumento Adobe Analytics devo usare?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Vedi anche: [Aggiornamenti della documentazione 2019](doc-updates.md) | <ul><li> [Note sulla versione](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Canale Youtube di Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Esercitazioni e video su Analytics](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Forum della community di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Corsi di formazione e classi virtuali](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contattare l'Assistenza clienti](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
