@@ -20,7 +20,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + Build a Workspace project {#build-workspace-project}
       + [Crea progetto - Panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare un progetto Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md) per progetti
+      + [Modelli per progetti](analysis-workspace/build-workspace-project/starter-projects.md)
       + Column and row settings {#column-row-settings}
          + [Impostazioni colonna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Impostazioni riga](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
