@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - Concetti chiave
 title: Adobe Analytics - Concetti chiave
 uuid: ef 5701 c 5-2 d 3 e -4847-851 f -9312 d 55 db 1 a 8
 translation-type: tm+mt
-source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
+source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 
 ---
 
@@ -47,218 +47,72 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 | Visualizzazioni | Elementi visivi avanzati che possono aiutarti a portare i dati in realtà nei tuoi progetti. | [Visualizzazioni](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | Cura | Possibilità di limitare i componenti accessibili in un progetto o in una suite di rapporti virtuale. | [VRS curationproject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[curationcomparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
-<table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Report  </th> 
-   <th colname="col2" class="entry"> Descrizione  </th> 
-   <th colname="col3" class="entry"> Collegamento alla documentazione </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Elenco completo dei report </td> 
-   <td colname="col2"> Definizione di tutti i report disponibili in Adobe Analytics. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Traffico personalizzato (Prop) </td> 
-   <td colname="col2">Utilizzato per monitorare il traffico sul sito pagina per pagina. Prop non persiste tra le pagine. Applicazioni chiave delle variabili del traffico: 
-    <ul id="ul_A935EC5271684B9599F683C7B31400ED"> 
-     <li id="li_58E0596050A34ACC821916EA61E946EF">Per acquisire un valore che può essere associato con Visualizzazioni di pagina, Visite, Visitatori o Istanze. </li> 
-     <li id="li_2B4C557AAD0544BE8204C0D7CE587175">Per trovare il valore specifico "più diffuso". </li> 
-     <li id="li_7FA62BE657F047459DF439BFB9F332F5">Per esaminare come gli utenti si muovono all'interno del tuo sito. </li> 
-    </ul> <p>Esempi di variabili di traffico: Nome pagina, Sezioni del sito, Browser. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Conversione personalizzata (eVar) </td> 
-   <td colname="col2">Utilizzata principalmente per generare report basati su eventi di conversione e persiste per un periodo di tempo che puoi personalizzare. Le opzioni di scadenza includono scadenza evento, scadenza visita o scadenza x giorno e devono essere guidate dal tipo di analisi che verrà eseguita su quella variabile. <p>Differenze chiave tra le variabili di conversione e le variabili di traffico: </p> 
-    <ul id="ul_B0A7482A81B94C5F86C06E5507DB393D"> 
-     <li id="li_272E414520AA4603AE5EC397B0F93630"> Le variabili di traffico personalizzate si legano alle metriche di traffico, non alla conversione. Spesso sono utilizzate per le analisi dei percorsi. </li> 
-     <li id="li_EBBF9A35C64845FE9683540DFA89E7E9">Le variabili di conversione personalizzate possono essere legate al traffico e alla conversione, e sono spesso utilizzate per l'analisi di conversione. </li> 
-    </ul> <p>Esempi di variabili di conversione: Termini di ricerca interni, Promozioni interne, Campagne esterne (s.campaign). </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Eventi di successo (s.events) </td> 
-   <td colname="col2"> <p>Misura le azioni chiave che desideriamo che i nostri visitatori intraprendano sul nostro sito. </p> <p>Vi sono 3 tipi di eventi: Contatore, Numerico e Valuta. Gli eventi sono più utili quando aggiunti ai report variabile di conversione (eVar). eVar fornisce le informazioni qualitative sugli avvenimenti mentre Evento fornisce informazioni quantitative, sempre sugli avvenimenti. </p> <p>Differenze chiave tra le variabili di conversione e gli eventi personalizzati: </p> 
-    <ul id="ul_2B95D7437DE444DD9618DBFE6A8612D1"> 
-     <li id="li_5951858853334EFA931A5BC57E5C933F">Le variabili di conversione ci dicono chi o cosa ha influito sulla conversione. </li> 
-     <li id="li_339755C842714E0DB8DB4DFAA43AB4F7"> Gli eventi personalizzati misurano quante conversioni avvengono. </li> 
-    </ul> <p>Esempi di eventi di conversione: Ordini, Avvii applicazione, Guide, Entrate. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/success_event.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/success_event.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Metriche del sito </td> 
-   <td colname="col2"> Visualizzano informazioni quantitative sul tuo sito Web come visitatori unici, ordini, entrate, ecc... Ogni metrica può essere collocata in altri report basati su elementi. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_site_metrics.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_site_metrics.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Contenuto del sito </td> 
-   <td colname="col2"> Visualizza informazioni su quali pagine e aree del tuo sito risultano più attive e quali server vengono utilizzati maggiormente. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_site_content.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_site_content.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mobile </td> 
-   <td colname="col2"> Visualizza informazioni sui siti Web visitati da dispositivi mobili o tablet. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_mobile.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_mobile.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> App mobile </td> 
-   <td colname="col2"> <p>Visualizza informazioni d'utilizzo base correlate alle tue app mobili. Questi report sono disponibili una volta che la nostra SDK viene implementata e il reporting è attivo. </p> <p>Adobe Mobile Services ha inoltre creato un'interfaccia per l'app mobile separata in grado di fornire dati sull'app più completi, consentendoti di comprendere e migliorare il coinvolgimento dell'utente nei confronti delle tue app. </p> <p>Accedi all'interfaccia all'indirizzo: </p> <p><a href="https://mobilemarketing.adobe.com" format="https" scope="external"> https://mobilemarketing.adobe.com</a> </p> </td> 
-   <td colname="col3"> <p>Adobe Mobile Services: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> https://marketing.adobe.com/resources/help/it_IT/mobile/</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report percorso </td> 
-   <td colname="col2"> Visualizza le informazioni relative all'ordine in cui viene effettuato l'accesso alle pagine del tuo sito Web. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Prodotti </td> 
-   <td colname="col2"> Identifica la modalità in cui i singoli prodotti e i gruppi di prodotti (categorie) contribuiscono alle varie metriche di conversione personali, come Entrate o Checkout. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_products.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_products.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Conservazione dei visitatori </td> 
-   <td colname="col2"> Visualizza informazioni sulla fidelizzazione dei tuoi clienti, ad esempio quanti visitatori tornano a visitare il tuo sito e con quale frequenza.  </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_retention.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_retention.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Profilo del visitatore </td> 
-   <td colname="col2"> Report che ti aiutano a visualizzare i modelli di acquisto dei clienti da varie categorie di profilo come paesi, stati, codici di avviamento postale e domini. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_profile.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_profile.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Canali marketing </td> 
-   <td colname="col2">Report che ti aiuta a capire quali canali esterni veicolano gli utenti sul tuo sito e quali sono più efficaci nel promuovere la conversione. Vengono fornite le viste di attribuzione Primo e Ultimo tocco. <p>Si tratta del miglior report sulle origini del traffico esterno in Adobe Analytics (piuttosto che Origini traffico o Campagne) in quanto consente di avere la visione più completa sia dei canali organici che pagati. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/mchannel/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/mchannel/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report personalizzati, Collegamento report, Segnalibri e Dashboard </td> 
-   <td colname="col2"> Metodi per il salvataggio/la condivisione del tuo lavoro con altri nell'interfaccia di Analytics. </td> 
-   <td colname="col3">Report personalizzati: <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_custom.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/reports_custom.html</a> </p> <p>Collegamento report: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_share_link.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_share_link.html</a> </p> <p>Segnalibri </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/bookmarks.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/user/bookmarks.html</a> </p> <p>Dashboard </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Report  | Descrizione  | Collegamento alla documentazione |
+|--- |--- |--- |
+| Dimensioni intere/Elenco report | Definizione di tutte le dimensioni/i report disponibili in Adobe Analytics. | [Dimensioni](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) |
+| Advertising Analytics | Analizza tutti i dati Google e Bing Paid Search, affiancati, in Adobe Analytics. Le dimensioni create tramite l'integrazione includono Piattaforma annunci, Parola chiave, Tipo di corrispondenza ecc. Le metriche create sono AMO impression, clic AMO, AMO Costo, Avg. Posizione e Avg. Punteggio di qualità. | [Advertising Analytics](https://docs.adobe.com/help/en/analytics/integration/advertising-analytics/overview.html) |
+| Audience Analytics | Enrich Inbound Analytics hits with a user's audience membership in AAM. Puoi incorporare dati di audience AAM come informazioni demografiche (ad es. genere o livello di entrate), informazioni psicografiche (ad es. interessi e hobby), dati CRM e impressioni dati in qualsiasi flusso di lavoro Analytics. Le dimensioni create tramite questa integrazione sono ID audience e Nome pubblico. | [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html) |
+| Attribution IQ | Consente di comprendere in che modo il coinvolgimento significativo avviene nel percorso del cliente, identificando in modo intelligente i punti di abbandono che inducono i clienti a raggiungere i risultati, ottimizzando in modo efficace le iniziative di marketing. I modelli includono first, last, linear, participation, j-shape, inverse j-shape, u-shape, same touch and time decay. | [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) |
+| Rilevamento delle anomalie | Un metodo statistico per determinare in che modo una particolare metrica è cambiata in relazione ai dati precedenti. AD è attivato per impostazione predefinita per tutte le visualizzazioni con tendenze in Analysis Workspace. | [Rilevazione delle anomalie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Analisi contributi | Esplora il «motivo» dietro eventuali anomalie, eseguendo un'analisi automatizzata di ogni metrica e dimensione a cui hai accesso. | [Analisi di contributo](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Analisi per coorte | Una coorte è un gruppo di persone che condividono caratteristiche comuni in un determinato periodo di tempo. Analisi per coorte nell'analisi di conservazione e abbandono degli utenti. | [Analisi per coorte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) |
+| Rapporti sul percorso del cliente | Visualizza informazioni sul percorso che gli utenti possono percorrere nel sito o nell'app. Prop, evar ed eventi possono essere utilizzati in Analysis Workspace. | [Flusso di lavoro](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Analisi di Analysis Workspace Workspace flowreporting](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[e analisi](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
+| Canali marketing | Report che ti aiuta a capire quali canali esterni veicolano gli utenti sul tuo sito e quali sono più efficaci nel promuovere la conversione. Vengono fornite le viste di attribuzione Primo e Ultimo tocco. Si tratta del miglior report sulle origini del traffico esterno in Adobe Analytics (piuttosto che Origini traffico o Campagne) in quanto consente di avere la visione più completa sia dei canali organici che pagati. | [Canali marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
+| Mobile | Visualizza informazioni sui siti Web visitati da dispositivi mobili o tablet. | [Rapporto dispositivi mobili | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
+| App mobile | Visualizza informazioni d'utilizzo base correlate alle tue app mobili. Questi report sono disponibili una volta che la nostra SDK viene implementata e il reporting è attivo.  Adobe Mobile Services ha inoltre creato un'interfaccia per l'app mobile separata in grado di fornire dati sull'app più completi, consentendoti di comprendere e migliorare il coinvolgimento dell'utente nei confronti delle tue app.  Access the interface [here](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Prodotti | Identifica la modalità in cui i singoli prodotti e i gruppi di prodotti (categorie) contribuiscono alle varie metriche di conversione personali, come Entrate o Checkout. | [Report prodotti](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| Confronto fra segmenti | Rileva le differenze più importanti dal punto di vista statistico tra i segmenti attraverso un'analisi automatizzata di ogni metrica e dimensione a cui accedi. | [Confronto segmenti](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
+| Rapporto Contenuto sito | Visualizza informazioni su quali pagine e aree del tuo sito risultano più attive e quali server vengono utilizzati maggiormente. | [Rapporto Contenuto sito](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
+| Report Metriche sito | Visualizzano informazioni quantitative sul tuo sito Web come visitatori unici, ordini, entrate, ecc... Ogni metrica può essere collocata in altri report basati su elementi. | [Report Metriche sito](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
+| Profilo del visitatore | Report che ti aiutano a visualizzare i modelli di acquisto dei clienti da varie categorie di profilo come paesi, stati, codici di avviamento postale e domini. | [Profilo visitatore](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-profile.html) |
+| Conservazione dei visitatori | Visualizza informazioni sulla fidelizzazione dei tuoi clienti, ad esempio quanti visitatori tornano a visitare il tuo sito e con quale frequenza.  | [Conservazione dei visitatori](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
+| Collegamento progetto, Condivisione e pianificazione | Metodi per il salvataggio/la condivisione del tuo lavoro con altri nell'interfaccia di Analytics. | [Inviare e pianificare i file](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
+
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
 | Nome della metrica | Definizione | Collegamento alla documentazione |
 |---|---|---|
-| Elenco completo delle metriche | Definizione di tutte le metriche in Adobe Analytics. | [https://marketing.adobe.com/resources/help/en_US/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) |
-| Visitatori unici | Il numero di visitatori del sito Web non duplicati nel corso di un periodo di tempo specificato. | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_unique_visitors.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_unique_visitors.html) |
-| Visite | Una sequenza di pagine visualizzate in una sessione. La visita inizia nel momento in cui una persona visualizza per la prima volta una pagina del sito e termina dopo 30 minuti di inattività. | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) |
-| Visualizzazioni di pagina | Una visualizzazione di pagina si verifica quando un visitatore visualizza una pagina sul tuo sito Web. | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_page_view.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_page_view.html) |
-| Istanze | Il numero di volte in cui è stata definita una variabile. Ogni volta che Adobe Analytics rileva un valore all’interno di una variabile, le istanze aumentano di un’unità nel rispettivo rapporto. | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_instance.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_instance.html) |
-| Metriche calcolate | Metriche personalizzate che puoi creare da metriche esistenti. Ad esempio, se disponi dei dati relativi alle entrate e al numero di visite, puoi creare una metrica personalizzata per le entrate medie per visita o entrate divise per visite (entrate/visita). | [https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) |
+| Elenco completo delle metriche | Definizione di tutte le metriche in Adobe Analytics. | [Panoramica delle metriche](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
+| Visitatori unici | Il numero di visitatori del sito Web non duplicati nel corso di un periodo di tempo specificato. | [Visitatori unici](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html) |
+| Visite | Una sequenza di pagine visualizzate in una sessione. La visita inizia nel momento in cui una persona visualizza per la prima volta una pagina del sito e termina dopo 30 minuti di inattività. | [Visite](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) |
+| Visualizzazioni di pagina | Una visualizzazione di pagina si verifica quando un visitatore visualizza una pagina sul tuo sito Web. | [Visualizzazioni pagina](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html) |
+| Istanze | Il numero di volte in cui è stata definita una variabile. Ogni volta che Adobe Analytics rileva un valore all’interno di una variabile, le istanze aumentano di un’unità nel rispettivo rapporto. | [Istanze](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-instance.html) |
+| Occorrenze | Il numero di volte in cui una variabile è stata definita o persistente. | [Occorrenze](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html) |
 
 ## Import options {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
 | Opzione | Descrizione | Collegamento alla documentazione |
 |---|---|---|
-| Importatore di classificazione | Importa i metadati rispetto alle dimensioni acquisite, attraverso il browser o tramite caricamento FTP. Metodo manuale confrontato al Generatore di regole. | [https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
-| Generatore di regole | Crea automaticamente classifiche delle dimensioni dei metadati sulla base di regole definite dall'utente. | [https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
-| Origini dati | Importa le metriche in modalità offline in Analytics secondo le dimensioni o semplicemente per giorno. | [https://marketing.adobe.com/resources/help/en_US/sc/datasources/datasrc_home.html](https://marketing.adobe.com/resources/help/en_US/sc/datasources/datasrc_home.html) |
-| Connettori dati | See [Products](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| Importatore di classificazione | Importa i metadati rispetto alle dimensioni acquisite, attraverso il browser o tramite caricamento FTP. Metodo manuale confrontato al Generatore di regole. | [Importatore di classificazione](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
+| Generatore di regole | Crea automaticamente classifiche delle dimensioni dei metadati sulla base di regole definite dall'utente. | [Generatore regole di classificazione](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
+| Attributi del cliente | Dati CRM caricati in Experience Cloud per l'utilizzo in Adobe Analytics e Adobe Target. | [Attributi del cliente](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
+| Origini dati  | Impor metriche offline in Analytics secondo le dimensioni o semplicemente per giorno. | [Origini dati](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
+| Connettori dati di Adobe Exchange | See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| Integrazioni native | Analisi audience e analisi della pubblicità. | Consultate Sezione «Rapporti chiave». |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
+| Opzioni | Descrizione  |  |
+|--- |--- |--- |
+| Download e pianificazione dell'interfaccia utente | Esportare dati da Analysis Workspace come file CSV o PDF | [Scaricare file PDF o CSV](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Generatore di report | Consultate Strumenti di Analytics. | - |
+| API di Analytics | Crea le tue query personalizzate dei dati di Analytics. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
+| Data Warehouse | Consultate Strumenti di Analytics. | - |
+| Feed dati di Analytics | La modalità più granulare per estrarre i dati da Analytics. Configurare un feed hit-level da Analytics. | [Feed dati di Analytics](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html) |
 
-<table id="table_99867D82082D4756872FC3ABD83A33A1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Opzioni </th> 
-   <th colname="col2" class="entry"> Descrizione  </th> 
-   <th colname="col3" class="entry"> </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Download dei report di interfaccia </td> 
-   <td colname="col2"> Il modo più semplice per esportare dati da Analytics. </td> 
-   <td colname="col3">https://microsite.omniture.com/t2/help/en_US/survey/index.html#Downloading_a_Report_Using_ <p>Opzioni_ Base </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data warehouse </td> 
-   <td colname="col2">Consulta <a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local"> Prodotti</a>. </td> 
-   <td colname="col3"> -  </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Generatore di report </td> 
-   <td colname="col2">Consulta <a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local"> Prodotti</a>. </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> API di Analytics </td> 
-   <td colname="col2"> Crea le tue query personalizzate dei dati di Analytics. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/developer/documentation" format="https" scope="external"> https://marketing.adobe.com/developer/documentation</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Feed dati clickstream </td> 
-   <td colname="col2"> La modalità più granulare per estrarre i dati da Analytics. Configurazione di un feed hit-level da Analytics. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Pianificazione dati </td> 
-   <td colname="col2"> La maggior parte delle opzioni di esportazione di Adobe Analytics posseggono funzioni che ti consentono di pianificare la consegna di report e dati tramite e-mail o siti FTP. </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
 
-<table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metodo/Risorsa </th> 
-   <th colname="col2" class="entry"> Descrizione  </th> 
-   <th colname="col3" class="entry"> Collegamento alla documentazione </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Risorse per gli sviluppatori </td> 
-   <td colname="col2"> Documentazione che indica le librerie disponibili per la raccolta di dati Analytics in tutte le piattaforme disponibili (Web, app mobili, video, flash e così via) </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/developer.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Guida all'implementazione </td> 
-   <td colname="col2"> Una descrizione delle variabili di raccolta dati e informazioni sull'implementazione dei codici di raccolta dati in JavaScript. </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Misurazione app (s_code) </td> 
-   <td colname="col2"> Gestione globale delle variabili </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html#" format="html" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> SDK per le app </td> 
-   <td colname="col2"> Pacchetto personalizzato che include una versione pre-popolata del file di configurazione per le app. </td> 
-   <td colname="col3">iOS: <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=requirements" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=requirements</a> </p> <p>Android: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Dynamic Tag Management (DTM) </td> 
-   <td colname="col2">See <a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local"> Products</a>. </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> VISTA </td> 
-   <td colname="col2"> Un approccio lato server alla popolazione delle variabili di report. VISTA utilizza regole di segmentazione dei visitatori per creare una segmentazione in tempo reale di tutti i dati online. Queste regole ti consentono di modificare o di segmentare i dati secondo le tue preferenze, senza che sia necessario implementare logiche complesse sul tuo sito. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Regole di elaborazione </td> 
-   <td colname="col2"> Consentono di semplificare la raccolta dati e di gestire i contenuti mentre questi vengono inviati all'applicazione di reporting tramite la sezione Strumenti di amministrazione. Le regole di elaborazione aiutano a semplificare l'interazione con i gruppi IT e gli sviluppatori Web fornendo un'interfaccia per l'impostazione, modifica e copia delle variabili. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Opzioni debugger </td> 
-   <td colname="col2"> Sono diversi i debugger e i packet sniffer disponibili per aiutarti a convalidare la tua implementazione. Il nostro debugger preferito è Charles. Altri includono Adobe Debugger, HTTPFox, Firebug, Omnibug, Fiddler, e HTTPWatch. </td> 
-   <td colname="col3">Adobe Debugger: <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html</a> </p> <p>Charles: </p> <p><a href="https://www.charlesproxy.com/" format="http" scope="external"> https://www.charlesproxy.com/</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Metodo/Risorsa | Descrizione  | Collegamento alla documentazione |
+|--- |--- |--- |
+| Risorse per gli sviluppatori | Documentazione che indica le librerie disponibili per la raccolta di dati Analytics in tutte le piattaforme disponibili (Web, app mobili, video, flash e così via) | [Documenti per sviluppatori](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Guida all'implementazione | Una descrizione delle variabili di raccolta dati e informazioni sull'implementazione dei codici di raccolta dati in JavaScript. | [Guida all'implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/home.html) |
+| Misurazione app (s_code) | Gestione globale delle variabili | [AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
+| SDK per le app | Pacchetto personalizzato che include una versione pre-popolata del file di configurazione per le app. | <ul><li>[iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
+| DTM e Adobe Launch | Consultate Strumenti di Analytics. |  |
+| VISTA | Consente di applicare logica lato server per modificare o segmentare i dati durante la raccolta. | [VISTA, regole](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) |
+| Regole di elaborazione | Possibilità di impostare, modificare e copiare le variabili nell'interfaccia utente di Analytics per modificare i dati raccolti. | [Regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
+| Opzioni debugger | Sono disponibili diversi debugger e sniffer di pacchetti per la convalida della tua implementazione, incluso il debugger di Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
+| API di inserimento dati | L'API di inserimento dati fornisce un meccanismo per la raccolta di dati lato server e l'invio ai server Experience Cloud. Invece di utilizzare beacon javascript su ogni pagina Web per trasmettere dati visitatore ai server Experience Cloud, la raccolta dati lato server raccoglie dati in base unicamente alle richieste del browser Web e alle risposte al server Web. | [Passaggi per implementare API di inserimento dati di Adobe Analytics utilizzando POST](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
