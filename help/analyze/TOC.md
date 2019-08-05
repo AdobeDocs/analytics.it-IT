@@ -4,12 +4,12 @@ audience: utente finale
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
 
 
-# Analytics Tools Guide {#analyze}
+# Guida agli strumenti di Analytics {#analyze}
 
 + [Guida agli strumenti di Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
@@ -17,10 +17,10 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Funzioni di Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
    + [Casi d'uso di Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Scopri le novità di Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
-   + Build a Workspace project {#build-workspace-project}
+   + Creare un progetto Workspace {#build-workspace-project}
       + [Crea progetto - Panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare un progetto Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modelli per progetti](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
       + Column and row settings {#column-row-settings}
          + [Impostazioni colonna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Impostazioni riga](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -78,7 +78,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Attribution](analysis-workspace/attribution-iq/attribution.md)
       + [Pannello Freeform](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison (IQ) {#segment-comparison}
+      + Confronto segmenti (IQ) {#segment-comparison}
          + [Panoramica di IQ segmento](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Confronto segmenti](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [Casi d'uso IQ segmento](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
@@ -119,7 +119,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 + Generatore di report {#report-builder}
    + [Guida di Adobe Report Builder](report-builder/home.md)
    + [Novità del Generatore di report](report-builder/whats-new-arb.md)
-   + Report Builder setup {#report-builder-setup}
+   + Configurazione di Generatore di report {#report-builder-setup}
       + [Requisiti di sistema](report-builder/setup/system-requirements.md)
       + [Installare Generatore di report](report-builder/setup/t-install-arb.md)
       + [Aggiornamento Generatore di report](report-builder/setup/upgrade-arb.md)
@@ -128,7 +128,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [Disinstallare Generatore di report](report-builder/setup/t-uninstall-arb.md)
       + [Richiamo delle funzionalità di Generatore di report dalle funzioni di Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
    + [Barra degli strumenti Generatore di report](report-builder/reportbuilder-toolbar.md)
-   + Data requests {#data-requests}
+   + Richieste di dati {#data-requests}
       + [Richieste di dati - Richiesta guidata passo 1](report-builder/data-requests/data-requests.md)
       + [Creazione di una richiesta dati](report-builder/data-requests/t-create-a-data-request.md)
       + Report suites {#report-suites}
@@ -153,7 +153,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
          + [Richieste di richiesta guidata - Date continue](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
          + [Rapporti in tempo reale](report-builder/data-requests/configuring-report-dates/real-time.md)
          + [Configurare una richiesta in tempo reale](report-builder/data-requests/configuring-report-dates/t-real-time.md)
-         + Customized date expressions {#customized-date-expressions}
+         + Espressioni date personalizzate {#customized-date-expressions}
             + [Espressioni date personalizzate - panoramica](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [Abbreviazioni date](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [Date di inizio o fine singole](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
@@ -163,9 +163,9 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
          + [Granularity (Granularità)](report-builder/data-requests/configuring-report-dates/granularity.md)
          + [Calendario personalizzato](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [Controlli interattivi](report-builder/data-requests/interactive-controls.md)
-   + Layout - Request Wizard Step 2 {#layout}
+   + Layout - Richiesta guidata passo 2 {#layout}
       + [Panoramica del layout](report-builder/layout/layout.md)
-      + Metrics and dimensions {#metrics-dimension}
+      + Metriche e dimensioni {#metrics-dimension}
          + [Panoramica delle metriche e delle dimensioni](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Aggiunta di metriche e dimensioni](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
          + [Metriche calcolate](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
@@ -184,12 +184,12 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [Configurare il layout personalizzato](report-builder/layout/configure-the-custom-layout.md)
       + [Mappare metriche e dimensioni alle celle](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Creare un micrografico](report-builder/layout/t-create-a-microchart.md)
-      + Filter dimensions {#filter-dimenson}
+      + Filtra dimensioni {#filter-dimenson}
          + [Panoramica delle dimensioni filtro](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [Filtro più comune](report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Filtri specifici](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
          + [Filtri salvati](report-builder/layout/c-filter-dimensions/saved-filters.md)
-   + Manage requests {#manage-requests}
+   + Gestire le richieste {#manage-requests}
       + [Gestione delle richieste - definizioni](report-builder/manage-requests/r-arb-manage-requests.md)
       + [Messaggi diagnostici](report-builder/manage-requests/diagnostic-messages.md)
       + [Ordinamento crescente o decrescente](report-builder/manage-requests/sort-ascending-or-descending.md)
@@ -200,7 +200,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [Aggiornare le richieste di tutti i fogli](report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [Aggiungere richieste dipendenti](report-builder/manage-requests/add-dependent-requests.md)
       + [Classificazione](report-builder/manage-requests/classification.md)
-      + Copy requests {#copy-requests}
+      + Richieste di copia {#copy-requests}
          + [Panoramica delle richieste di copia](report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [Copia richieste semplici](report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [Copiare richieste adiacenti](report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -215,12 +215,12 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Richieste di rapporti pianificate](report-builder/schedule-report-requests.md)
    + [Pianificare una cartella di lavoro](report-builder/t-schedule-a-data-request.md)
    + [Scheduled Task Manager](report-builder/r-arb-scheduled-reports.md)
-   + Workbook Library {#workbook-library}
+   + Libreria di cartelle di lavoro {#workbook-library}
       + [Caricare una cartella di lavoro](report-builder/workbook-library/t-upload-a-workbook.md)
       + [Scaricare una cartella di lavoro](report-builder/workbook-library/t-download-a-workbook.md)
       + [Bloccare/sbloccare le cartelle di lavoro](report-builder/workbook-library/protect-wb.md)
       + [Pianificazione di cartelle di lavoro con macro abilitate](report-builder/workbook-library/schedule-macro-wb.md)
-   + Publish to Power BI with Report Builder 5.5 {#publish-powerbi}
+   + Pubblicare su Power BI con Generatore di report 5.5 {#publish-powerbi}
       + [Pubblica su Power BI - Panoramica](report-builder/c-publish-power-bi/power-bi.md)
       + [Limitazioni e specifiche](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importare manualmente i dati in Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -243,14 +243,14 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Esporta in file CSV](activity-map/activitymap-csv.md)
    + [Sistemi e requisiti supportati](activity-map/activitymap-sysreqs.md)
    + [Domande frequenti sulla Activity Map](activity-map/activitymap-faq.md)
-   + Get started {#getting-started}
-      + Get started for admins {#get-started-admins}
+   + Guida introduttiva {#getting-started}
+      + Introduzione agli amministratori {#get-started-admins}
          + [Abilitare la mappa dell'attività](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
          + [Codice di implementazione di esempio](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + Get started for users {#get-started-users}
+      + Guida introduttiva agli utenti {#get-started-users}
          + [Installazione dei plug-in del browser Mappa dell'attività](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Activity Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-   + Link tracking {#link-tracking}
+   + Tracciamento dei collegamenti {#link-tracking}
       + [Metodologia di tracciamento dei collegamenti](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
       + [Domande frequenti sul tracciamento dei collegamenti](activity-map/activitymap-link-tracking/link-tracking-faq.md)
       + [Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e regione](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
@@ -266,7 +266,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 + Reports and Analytics {#reports-analytics}
    + [Guida introduttiva ai report e analisi](reports-analytics/getting-started.md)
    + [Adobe Analytics - Concetti chiave](reports-analytics/key-concepts.md)
-   + Overview of the reporting interface {#reporting-interface}
+   + Panoramica dell'interfaccia di reporting {#reporting-interface}
       + [Informazioni sulla raccolta dati](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapporti](reports-analytics/overview/reports-menu.md)
       + [Funzioni rapporto](reports-analytics/overview/report-overview.md)
@@ -324,9 +324,9 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Pianificazione Manager](ad-hoc-analysis/c-schedule.md)
    + [Generatore tabella](ad-hoc-analysis/c-tablebuilder.md)
    + [Tempo](ad-hoc-analysis/c-time.md)
-+ Technology Previews {#tech-previews}
-   + [Panoramica sulla tecnologia Anteprima tecnologia](tech-previews/overview.md)
-+ Analytics Reporting API {#analytics-reporting-api}
++ Laboratori {#tech-previews}
+   + [Panoramica di Labs](tech-previews/overview.md)
++ API di reporting analisi {#analytics-reporting-api}
    + [Panoramica API di reporting analisi](c-reporting-api/c-reporting-api.md)
    + [Confronto delle API di reporting Analisi](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
