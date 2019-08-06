@@ -116,7 +116,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [Ottimizzare le prestazioni dell'area di lavoro](analysis-workspace/optimizing-performance.md)
    + [Confronto tra Analysis Workspace e Ad Hoc Analysis ](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limitazioni di Analysis Workspace](analysis-workspace/aw-limitations.md)
-+ Generatore di report {#report-builder}
++ Report Builder {#report-builder}
    + [Guida di Adobe Report Builder](report-builder/home.md)
    + [Novità del Generatore di report](report-builder/whats-new-arb.md)
    + Configurazione di Generatore di report {#report-builder-setup}
