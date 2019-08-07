@@ -5,7 +5,7 @@ seo-title: Inviare richieste di accesso e cancellazione
 title: Inviare richieste di accesso e cancellazione
 uuid: d 006 cd 5 c-e 3 cd -4385-8683-acaf 73 cb 681 b
 translation-type: tm+mt
-source-git-commit: 9bc170ed53f4ebbe212878f884cd77350bd1d620
+source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
 
 ---
 
@@ -33,7 +33,7 @@ Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamen
 
 ## Inviare le richieste {#section_F70F4D91B7FF4242876338A66D2125C3}
 
-Puoi inviare le richieste di accesso e di cancellazione RGPD tramite il nostro [portale dell’interfaccia utente RGPD](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md) o tramite l’[API RGPD](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md).
+Puoi inviare le richieste di accesso e di cancellazione RGPD tramite il nostro [portale dell’interfaccia utente RGPD](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o tramite l’[API RGPD](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 >[!NOTE]
 >
