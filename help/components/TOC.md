@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: end-user
+audience: utente finale
 user-guide-title: Guida ai componenti di Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [Segmentazione di Analytics](c-segmentation/seg-home.md)
    + [Informazioni su segmenti e contenitori](c-segmentation/seg-overview.md)
    + [Funzioni di segmentazione in Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentation workflow {#segmentation-workflow}
+   + Flusso di lavoro segmentazione {#segmentation-workflow}
       + [Panoramica sul flusso di lavoro di segmentazione](c-segmentation/c-segmentation-workflow/seg-workflow.md)
       + [Pianificare segmenti](c-segmentation/c-segmentation-workflow/seg-plan.md)
       + [Creare segmenti](c-segmentation/c-segmentation-workflow/seg-build.md)
@@ -30,7 +30,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Contrassegnare i segmenti come preferiti](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
       + [Eliminare i segmenti](c-segmentation/c-segmentation-workflow/seg-delete.md)
       + [Gestire i segmenti](c-segmentation/c-segmentation-workflow/seg-manage.md)
-   + Segment Reference {#segment-reference}
+   + Riferimento segmento {#segment-reference}
       + [Operatori di confronto per segmenti](c-segmentation/seg-reference/seg-operators.md)
       + [Compatibilità con i segmenti di Data Warehouse](c-segmentation/seg-reference/seg-compatibility.md)
       + [Diritti di segmento per ruolo](c-segmentation/seg-reference/seg-rights.md)
@@ -42,7 +42,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [Metriche calcolate e calcolate calcolate (derivate)](c-calcmetrics/cm-overview.md)
    + [Domande frequenti](c-calcmetrics/cm-transition.md)
    + [Video sulle procedure](c-calcmetrics/cm-videos.md)
-   + Calculated Metrics Workflow {#calcmetric-workflow}
+   + Flusso di lavoro metriche calcolate {#calcmetric-workflow}
       + [Flusso di lavoro delle metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Trovare le metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Creare metriche](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -58,11 +58,12 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Approvare le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Condivisione di metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Gestore metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Metrics reference {#calcmetrics-reference}
+   + Riferimento metriche {#calcmetrics-reference}
       + [Riferimento: funzioni di base](c-calcmetrics/cm-reference/cm-functions.md)
       + [Riferimento: funzioni avanzate](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilità delle metriche](c-calcmetrics/cm-compatibility.md)
       + [Metriche calcolate: diritti basati su ruolo](c-calcmetrics/cm-role-based-rights.md)
+      + [Totali delle metriche calcolate](c-calcmetrics/cm-totals.md)
 + Suite di rapporti virtuali {#virtual-report-suites}
    + [Panoramica suite di rapporti virtuali](vrs/vrs-about.md)
    + [Cura componenti suite di rapporti virtuale](vrs/vrs-components.md)
@@ -71,12 +72,12 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [Elaborazione dei tempi di report](vrs/vrs-report-time-processing.md)
    + [Domande frequenti su VRS](vrs/vrs-faq.md)
    + [VRS e considerazioni su tag globali/su più suite](vrs/vrs-considerations.md)
-   + VRS Workflow {#vrs-workflow}
+   + Flusso di lavoro VRS {#vrs-workflow}
       + [Flusso di lavoro suite di rapporti virtuale](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Creare suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestione delle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-manage.md)
       + [Visualizzazione delle informazioni sulle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-view.md)
-+ Alerts {#alerts}
++ Avvisi {#alerts}
    + [Avvisi intelligenti](c-alerts/intellligent-alerts.md)
    + [Alert Builder (Generatore di avvisi)](c-alerts/alert-builder.md)
    + [Gestione avvisi](c-alerts/alert-manager.md)
@@ -87,7 +88,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [Classificazioni conversione](c-classifications2/conversion-classifications.md)
    + [Classificazioni traffico](c-classifications2/traffic-classifications.md)
    + [Gerarchie di classificazione](c-classifications2/classification-hierarchies.md)
-   + Classifications importer (upload) {#classifications-importer}
+   + Importazione classificazioni (caricamento) {#classifications-importer}
       + [Importazione classificazioni - Panoramica](c-classifications2/c-classifications-importer/c-working-with-saint.md)
       + [File di dati classificazione](c-classifications2/c-classifications-importer/c-saint-data-files.md)
       + [Eliminare i dati di classificazione](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
@@ -103,7 +104,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Regole di classificazione](c-classifications2/crb/classification-quickstart-rules.md)
       + [Regole di classificazione - definizioni](c-classifications2/crb/classification-rule-definitions.md)
       + [Classificazioni e Generatore regole - Casi d'uso](c-classifications2/crb/sub-classification-rule-builder.md)
-   + Numeric 2 classifications {#numeric2-classification}
+   + Classificazioni numeriche 2 {#numeric2-classification}
       + [Panoramica classificazioni numeriche 2](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Creare classificazioni numeriche 2](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
       + [Importare classificazioni numeriche 2](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
@@ -112,7 +113,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
 + [Eventi calendario](t-calendar-event.md)
 + Variabili {#variables}
    + [Panoramica delle variabili](c-variables/c-variables.md)
-   + Dimensions/Reports {#dimensions-reports}
+   + Dimensioni/Rapporti {#dimensions-reports}
       + [Descrizioni dimensioni](c-variables/dimensionslist/reports-descriptions.md)
       + [Compatibilità dimensioni](c-variables/dimensionslist/dimension-compatibility.md)
       + [Procedure consigliate e risoluzione dei problemi](c-variables/dimensionslist/report-troubleshooting.md)
@@ -313,11 +314,11 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Visitatori unici settimanali](c-variables/c-metrics/metrics-weekly-unique-visitors.md)
       + [Visitatori annuali univoci](c-variables/c-metrics/metrics-yearly-unique-visitors.md)
       + [Partecipazione visitatore - Analisi ad hoc](c-variables/c-metrics/metrics-visitor-participation.md)
-   + Merchandising variables {#merchandising-variables}
+   + Variabili merchandising {#merchandising-variables}
       + [Panoramica delle variabili merchandising](c-variables/c-merch-variables/var-merchandising.md)
       + [Implementazione di una variabile di merchandising](c-variables/c-merch-variables/var-merchandising-impl.md)
       + [Istanze sulle variabili merchandising](c-variables/c-merch-variables/var-merchandising-instances.md)
-+ Real-time reporting {#real-time-reporting}
++ Reporting in tempo reale {#real-time-reporting}
    + [Panoramica in tempo reale](c-real-time-reporting/realtime.md)
    + [Configurare i rapporti in tempo reale](c-real-time-reporting/t-realtime-admin.md)
    + [Metriche e dimensioni in tempo reale supportate](c-real-time-reporting/realtime-metrics.md)
