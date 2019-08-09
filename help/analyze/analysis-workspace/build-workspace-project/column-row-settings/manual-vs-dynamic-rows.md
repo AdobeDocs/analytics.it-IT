@@ -5,7 +5,7 @@ seo-title: Righe statiche e dinamiche
 title: Righe statiche e dinamiche
 uuid: caf 033 ef-d 252-4 f 8 a -802 e -7 edbbac 5 c 8 c 0
 translation-type: tm+mt
-source-git-commit: fc29562a342c9d1721e250f5e3abc4d3fced926f
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -33,6 +33,6 @@ Inoltre, (solo) quando ti trovi in modalità statica, ora puoi modificare il cal
 
 | Opzione | Descrizione |
 |---|---|
-| Calcola i totali, sommando i valori presenti in ciascuna colonna. | Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). |
+| (Impostazione predefinita) Calcola i totali sommando i valori attualmente presenti in ciascuna colonna. | Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). |
 | Calcola i totali, basandosi su tutte le righe per ciascuna metrica. | Questa opzione include tutti gli elementi di questa dimensione anche quelli non elencati nella tabella (calcolo lato server). |
 
