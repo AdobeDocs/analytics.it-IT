@@ -1,9 +1,9 @@
 ---
 title: Guide tecniche di Adobe Analytics
-seo-title: Elenco completo della documentazione tecnica di Adobe Analytics e guide utente self-help
-description: Guide e risorse degli utenti di Analytics
-seo-description: Elenco completo dei documenti tecnici di Adobe Analytics, note sulla versione e guide utente self-help.
-translation-type: tm+mt
+seo-title: Elenco completo della documentazione tecnica e delle guide per gli utenti di Adobe Analytics
+description: Guide per gli utenti e risorse di Analytics
+seo-description: Elenco completo della documentazione tecnica, delle note sulla versione e delle guide per gli utenti di Adobe Analytics.
+translation-type: ht
 source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
@@ -11,29 +11,29 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 # Documentazione di Adobe Analytics
 
-[![Strumenti](assets/analyze_50px.png)](/help/analyze/home.md)=[Guida strumenti Analytics](/help/analyze/home.md) - Funzionalità che consentono di utilizzare tutti gli strumenti di analisi utilizzabili in Adobe Analytics. In primo luogo, fornisce documentazione approfondita su Analysis Workspace, lo strumento di analisi e visualizzazione innovativo per Analytics.
+[![Strumenti](assets/analyze_50px.png)](/help/analyze/home.md) [Guida agli strumenti di Analytics](/help/analyze/home.md): descrive tutti gli strumenti di analisi disponibili in Adobe Analytics. In particolare, è una documentazione dettagliata su Analysis Workspace, lo strumento di analisi e visualizzazione innovativo di Analytics.
 
-[![Amministratore](assets/admin_50px.png)](/help/admin/home.md):[Guida](/help/admin/home.md) amministratore - Attività amministrazione per configurare suite di rapporti, governance dati, utilizzo chiamate server e altro ancora.
+[![Amministrazione](assets/admin_50px.png)](/help/admin/home.md) [Guida all’amministrazione](/help/admin/home.md): descrive le attività di amministrazione per configurare le suite di rapporti, la governance dei dati, l’utilizzo delle chiamate al server e altro ancora.
 
-[![Implementazione](assets/implement_50px.png)](/help/implement/home.md)-[Guida](/help/implement/home.md) all'implementazione: personalizza i dati raccolti per ottenere ulteriori informazioni su Adobe Analytics. Include il contenuto delle implementazioni di Adobe Experience Platform Launch e javascript.
+[![Implementazione](assets/implement_50px.png)](/help/implement/home.md) [Guida all’implementazione](/help/implement/home.md): descrive come specificare quali dati raccogliere per sfruttare al meglio Adobe Analytics. Include contenuti sulle implementazioni di Adobe Experience Platform Launch e JavaScript.
 
-[![Componenti](assets/components_50px.png)](/help/components/home.md)&lt;[Guide componenti](/help/components/home.md) - Comprendi le funzionalità che aiutano a organizzare i tuoi dati. I componenti includono segmenti, metriche calcolate, suite di rapporti virtuali, avvisi e molto altro. Questa guida include anche un riferimento variabile, che descrive tutte le dimensioni e le metriche disponibili.
+[![Componenti](assets/components_50px.png)](/help/components/home.md) [Guida ai componenti](/help/components/home.md): descrive le funzioni utili per organizzare i dati. I componenti includono segmenti, metriche calcolate, suite di rapporti virtuali, avvisi e altro ancora. Questa guida include anche una sezione di riferimento sulle variabili che descrive tutte le dimensioni e le metriche disponibili.
 
-[![Esportazione](assets/export_50px.png)](/help/export/home.md)-[Guida](/help/export/home.md) esportazione - Scarica dati da Adobe Analytics tramite Data Warehouse, Feed dati e altro ancora.
+[![Esportazione](assets/export_50px.png)](/help/export/home.md) [Guida all’esportazione](/help/export/home.md): descrive come estrarre i dati da Adobe Analytics tramite Data Warehouse, Data Feed e altro ancora.
 
-[![Importa](assets/import_50px.png)](/help/import/home.md)&lt;[Guida](/help/import/home.md) importazione: porta i dati in Analytics da fonti esterne, in tempo reale o in tempo reale. Include Origini dati, API di inserimento dati e connettori dati.
+[![Importazione](assets/import_50px.png)](/help/import/home.md) [Guida all’importazione](/help/import/home.md): descrive come importare i dati in Analytics da fonti esterne, in modalità collettiva o in tempo reale. Gli argomenti trattati comprendono origini di dati, API di inserimento dati e Data Connectors.
 
-[![Integrazione](assets/integrate_50px.png)](/help/integrate/home.md):[Guida all'integrazione](/help/integrate/home.md) - Configura integrazioni con altre soluzioni Adobe Experience Cloud come Audience Manager, Advertising Cloud o Target.
+[![Integrazione](assets/integrate_50px.png)](/help/integrate/home.md) [Guida all’integrazione](/help/integrate/home.md): descrive come configurare le integrazioni con altre soluzioni Adobe Experience Cloud come Audience Manager, Advertising Cloud o Target.
 
-[![Guida Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)Media[Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - Implementazione di Analytics su sorgenti audio o video. Include Media SDK e l'API Media Collection.
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html) [Guida di Media Analytics](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html): descrive come implementare Analytics per origini audio o video. Gli argomenti trattati comprendono Media SDK e Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)[—data Workbench Guide](https://marketing.adobe.com/resources/help/en_US/insight/) - Client Workbench dati, Installazione, Configurazione set di dati e altro
+[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/) [Guide per Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/): Data Workbench Client, installazione, configurazione dei dataset e altro ancora.
 
-[![Note tecniche](assets/technotes_50px.png)](../technotes/home.md)#[Analytics Tecniche tecniche](../technotes/home.md) - Una knowledge base contenente articoli utili che non appartengono a uno strumento o componente di analisi specifico.
+[![Note tecniche](assets/technotes_50px.png)](../technotes/home.md) [Note tecniche di Analytics](../technotes/home.md): knowledge base contenente articoli utili per strumenti o componenti di analisi specifici.
 
-| Novità e funzioni | Risorse chiave Analytics |
+| Novità/In primo piano | Risorse chiave per Analytics |
 | --- | --- |
-| <ul><li>[Raccolta di dati regionali](../technotes/rdc/regional-data-collection.md)</li><li>[Ottimizzare le prestazioni dell'area di lavoro](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Confronto tra i prodotti Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quale strumento Adobe Analytics devo usare?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Vedi anche: [Aggiornamenti della documentazione 2019](doc-updates.md) | <ul><li> [Note sulla versione](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Canale Youtube di Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Esercitazioni e video su Analytics](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Forum della community di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Corsi di formazione e classi virtuali](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contattare l'Assistenza clienti](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[Raccolta di dati regionali](../technotes/rdc/regional-data-collection.md)</li><li>[Ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Confronto tra i prodotti Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quale strumento Adobe Analytics usare?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Consulta anche: [Aggiornamenti alla documentazione 2019](doc-updates.md) | <ul><li> [Note sulla versione](https://marketing.adobe.com/resources/help/it_IT/whatsnew/)</li><li> [Canale YouTube di Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Esercitazioni e video su Analytics](https://helpx.adobe.com/it/analytics/kt/index/analytics-videos.html)</li><li>[Forum della community di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formazione con istruttore e lezioni virtuali](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://experienceleague.adobe.com/?lang=it#recommended/solutions/analytics)</li><li>[Assistenza clienti](https://helpx.adobe.com/it/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
