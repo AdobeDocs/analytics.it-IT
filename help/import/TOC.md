@@ -1,34 +1,34 @@
 ---
 product: analytics
-audience: end-user
+audience: utente finale
 user-guide-title: Guida all'importazione di Analytics
-user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/it-IT/analytics/import/home.html
+translation-type: ht
 source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
 
 ---
 
 
-# Analytics Import Guide {#import}
+# Guida all'importazione di Analytics {#import}
 
-+ [Aiuto di Analytics Import](home.md)
++ [Aiuto per l'importazione di Analytics](home.md)
 + Origini dati {#data-sources}
-   + [Panoramica Origini dati](c-data-sources/datasrc-home.md)
-   + [Funzionamento delle Origini dati](c-data-sources/datasrc-how-data-sources-works.md)
+   + [Panoramica su Origini dati](c-data-sources/datasrc-home.md)
+   + [Funzionamento di Origini dati](c-data-sources/datasrc-how-data-sources-works.md)
    + [Requisiti e limiti di caricamento](c-data-sources/datasrc-requirements.md)
-   + [Tempo elaborazione Origini dati](c-data-sources/datasrc-processing-time.md)
-   + [Preparazione all'uso delle origini dati](c-data-sources/datasrc-preparing.md)
+   + [Tempo di elaborazione Origini dati](c-data-sources/datasrc-processing-time.md)
+   + [Preparazione all'utilizzo di Origini dati](c-data-sources/datasrc-preparing.md)
    + [Origini dati Manager](c-data-sources/datasrc-manager.md)
-   + Data Sources template {#data-sources-template}
-      + [Panoramica del modello Origini dati](c-data-sources/datasrc-template/datasrc-template-file.md)
+   + Modello Origini dati {#data-sources-template}
+      + [Panoramica modello Origini dati](c-data-sources/datasrc-template/datasrc-template-file.md)
       + [Generare un modello di file di importazione](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
       + [Riferimento file di importazione](c-data-sources/datasrc-template/datasrc-import-file-reference.md)
-   + [Caricare un file Origini dati](c-data-sources/t-datasrc-uploading-data.md)
-   + Data types and categories {#data-types-and-categories}
-      + [Panoramica dei tipi di dati e delle categorie](c-data-sources/c-datasrc-types/datasrc-categories.md)
+   + [Caricare un file origini dati](c-data-sources/t-datasrc-uploading-data.md)
+   + Tipi di dati e categorie {#data-types-and-categories}
+      + [Panoramica dei tipi di dati e categorie](c-data-sources/c-datasrc-types/datasrc-categories.md)
       + [Registro web](c-data-sources/c-datasrc-types/datasrc-web-log.md)
       + [Traffico](c-data-sources/c-datasrc-types/datasrc-traffic.md)
-      + [Conversione  ](c-data-sources/c-datasrc-types/datasrc-conversion.md)
+      + [Conversione](c-data-sources/c-datasrc-types/datasrc-conversion.md)
       + [ID transazione](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
       + [Visitor ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Elaborazione completa](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
