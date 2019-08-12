@@ -2,7 +2,7 @@
 title: Supporto dei componenti in Data Warehouse
 description: Scopri ulteriori dimensioni e metriche disponibili in Data Warehouse e cosa non sono supportate.
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ In Data Warehouse sono disponibili dimensioni e metriche, che non sono disponibi
 
 ### Dimensioni supportate esclusivamente
 
-* ID visitatore Experience Cloud:
-* IP:
-* URL della pagina:
-* ID acquisto:
+* ID visitatore Experience Cloud: Per le implementazioni che utilizzano il servizio Experience Cloud ID (ECID), un numero a 128 bit composto di due numeri di 64 bit concatenati a 19 cifre.
+* URL pagina: L'URL della pagina in cui si è verificato l'hit.
+* ID acquisto: Identificatore univoco per un acquisto, impostato utilizzando la variabile ordaseid.
 * ID visitatore: Fornisce l'identificatore univoco del visitatore. Questo valore corrisponde al valore concatenato delle `visid_high``visid_low` colonne nei feed di dati. Consulta [Riferimento alla colonna Dati](../analytics-data-feed/c-df-contents/datafeeds-reference.md) in Feed dati per ulteriori informazioni.
 
 ### Metriche supportate esclusivamente
@@ -59,7 +58,7 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
 * Tutte le classificazioni di ricerca
 * Variabili di gerarchia
 * Tipo di occorrenza
-* Pagine non trovate (solo segmenti)
+* Pagine non trovate (disponibili come dimensioni; non supportato per la segmentazione)
 * Ricerca pagata
 * Visite a pagina singola
 * Motivo di rifiuto del tracciamento
