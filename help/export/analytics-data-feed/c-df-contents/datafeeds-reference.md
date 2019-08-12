@@ -6,10 +6,10 @@ seo-title: Riferimento colonna dati
 solution: Analytics
 subtopic: feed dati
 title: Riferimento colonna dati
-topic: Reports & Analytics
+topic: Reports and Analytics
 uuid: 9042 a 274-7124-4323-8 cd 6-5 c 84 ab 3 eef 6 d
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ---
 
@@ -67,7 +67,7 @@ Utilizzare questa pagina per sapere quali dati sono contenuti in ciascuna colonn
 | ef_ id | ef_ id utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar (255) |
 | evar 1 - evar 250 | Variabili personalizzate 1-250. Ciascuna organizzazione utilizza evar in modo diverso. La posizione migliore per ottenere informazioni su come l'azienda popola le rispettive evar sarebbe un documento di progettazione della soluzione specifico per l'organizzazione. | varchar (255) |
 | event_ list | Elenco separato da virgole degli ID numerici che rappresentano gli eventi attivati. Include eventi predefiniti e eventi personalizzati 1-1000. Utilizza la ricerca event. tsv. | text |
-| exclude_ hit | Flag che indica che l'hit è escluso dai rapporti. La colonna visit_ num non viene incrementata per gli hit esclusi.<br>1: Non utilizzato. Parte di una funzione scaricata.<br>2: Non utilizzato. Parte di una funzione scaricata.<br>3: Non più utilizzato. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as page_url, pagename, page_event, or event_list<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. Esclusione specifica dell'account.<br>9: Non utilizzato. Parte di una funzione scaricata.<br>10: Codice valuta non valido<br>11: Hit mancante una marca temporale su una suite di rapporti solo marca temporale, o su un hit contenuto in una marca temporale su una suite di rapporti non marca temporale<br>12: Non utilizzato. Parte di una funzione scaricata.<br>13: Non utilizzato. Parte di una funzione scaricata.<br>14: Hit di destinazione che non corrisponde a un hit Analytics<br>15: Attualmente non utilizzato.<br>16: Hit di Advertising Cloud che non corrisponde a un hit Analytics | tinyint unsigned |
+| exclude_ hit | Flag che indica che l'hit è escluso dai rapporti. La colonna visit_ num non viene incrementata per gli hit esclusi.<br>1: Non utilizzato. Parte di una funzione scaricata.<br>2: Non utilizzato. Parte di una funzione scaricata.<br>3: Non più utilizzato. ID utente esclusione<br>4: Esclusione basata sull'indirizzo IP<br>5: Mancano informazioni di hit fondamentali, come page_ url, pagename, page_ event o event_ list<br>6: Javascript non ha eseguito correttamente l'hit<br>7: Esclusione specifica dell'account, ad esempio in una regola VISTA<br>8: Non utilizzato. Esclusione specifica dell'account.<br>9: Non utilizzato. Parte di una funzione scaricata.<br>10: Codice valuta non valido<br>11: Hit mancante una marca temporale su una suite di rapporti solo marca temporale, o su un hit contenuto in una marca temporale su una suite di rapporti non marca temporale<br>12: Non utilizzato. Parte di una funzione scaricata.<br>13: Non utilizzato. Parte di una funzione scaricata.<br>14: Hit di destinazione che non corrisponde a un hit Analytics<br>15: Attualmente non utilizzato.<br>16: Hit di Advertising Cloud che non corrisponde a un hit Analytics | tinyint unsigned |
 | first_ hit_ page_ url | Il primo URL del visitatore. | varchar (255) |
 | first_ hit_ pagename | Variabile utilizzata nella dimensione Pagina di immissione. Il nome della pagina di immissione originale del visitatore. | varchar (100) |
 | first_ hit_ ref_ domain | Variabile utilizzata nella dimensione Dominio di riferimento originale. Basato su first_ hit_ referrer. Il primo dominio di riferimento del visitatore. | varchar (100) |
@@ -119,14 +119,14 @@ Utilizzare questa pagina per sapere quali dati sono contenuti in ciascuna colonn
 | mobiledayssincefirstuse | Numero di giorni dall'esecuzione dell'app per la prima volta. | varchar (255) |
 | mobiledayssincelastupgrade | Raccolto dalla variabile di dati di contesto a. dayssincelastupgrade. Il numero di giorni passati dalla sessione precedente. | varchar (255) |
 | mobiledayssincelastuse | Numero di giorni dall'ultima esecuzione dell'app. | varchar (255) |
-| mobiledeeplinkid | Collected from the context data variable a.<span>deeplink</span>.id. Utilizzato nei rapporti di acquisizione come identificatore per il collegamento di acquisizione mobile. | varchar (255) |
+| mobiledeeplinkid | Raccolto dalla variabile di dati di contesto a.<span>deeplink</span>. id. Utilizzato nei rapporti di acquisizione come identificatore per il collegamento di acquisizione mobile. | varchar (255) |
 | mobiledevice | Nome del dispositivo mobile. Su iOS, viene memorizzato come stringa di 2 cifre separate da virgola. Il primo numero rappresenta la generazione del dispositivo, mentre il secondo numero rappresenta la famiglia di dispositivi. | varchar (255) |
 | mobilehourofday | Definisce l'ora del giorno in cui è stata avviata l'app. Segue il formato numerico a 24 ore. | varchar (255) |
 | mobileinstall data | Data di installazione per dispositivi mobili. Fornisce la data della prima volta che un utente apre l'app mobile. | varchar (255) |
 | mobilelaunchessincelastupgrade | Raccolto dalla variabile di dati di contesto a. launchessinceupgrade. Segnala il numero di avvii dall'ultimo aggiornamento. | varchar (255) |
 | mobilelaunchnumber | Incrementa di una volta l'avvio dell'app mobile. | varchar (255) |
 | mobileltv | Non più utilizzato. Viene compilata dai metodi trackLifetimeValue. | varchar (255) |
-| mobilemessagebuttonname | Collected from the context data variable a.<span>message</span>.button.id. Utilizzato per i messaggi in-app per identificare il pulsante che ha chiuso il messaggio. | varchar (100) |
+| mobilemessagebuttonname | Raccolto dalla variabile di dati di contesto a.<span>message</span>. button. id. Utilizzato per i messaggi in-app per identificare il pulsante che ha chiuso il messaggio. | varchar (100) |
 | mobilemessageid | ID messaggio in-app | varchar (255) |
 | mobilemessageonline | Messaggio in-app online | varchar (255) |
 | mobilemessagepushoptin | Raccolto dalla variabile di dati contestuali a. push. optin. Impostato su "true" quando l'utente accede a messaggi push; altrimenti il valore è "false". | varchar (255) |
@@ -135,7 +135,7 @@ Utilizzare questa pagina per sapere quali dati sono contenuti in ciascuna colonn
 | mobileosversion | Versione del sistema operativo Mobile Services | varchar (255) |
 | precisione mobileplace | Raccolto dalla variabile di dati di contesto a. loc. acc. Indica la precisione del GPS in metri al momento della raccolta. | varchar (255) |
 | mobileplacecategory | Raccolto dalla variabile di dati di contesto a. loc. category. Descrive la categoria di una posizione specifica. | varchar (255) |
-| mobileplaceid | Collected from the context data variable a.<span>loc</span>.id. Identificatore per un determinato punto di interesse. | varchar (255) |
+| mobileplaceid | Raccolto dalla variabile di dati di contesto a.<span>loc</span>. id. Identificatore per un determinato punto di interesse. | varchar (255) |
 | contenuto mobilerelaunchcampaign | Contenuto di Mobile Services avviata | varchar (255) |
 | mobilerelaunchcampaignmedium | Media Services launch medium | varchar (255) |
 | mobilerelaunchcampaignsource | Sorgente di avvio di Mobile Services | varchar (255) |
@@ -277,3 +277,109 @@ Utilizzare questa pagina per sapere quali dati sono contenuti in ciascuna colonn
 | weekly_ visitor | Flag per determinare se l'hit è un nuovo visitatore settimanale. | tinyint unsigned |
 | annual_ visitor | Flag per determinare se l'hit è un nuovo visitatore annuale. | tinyint unsigned |
 | zip | Utilizzato per compilare la dimensione Codice postale. | varchar (50) |
+
+## Colonne vuote
+
+Il seguente elenco di colonne non è utilizzato e non contiene dati:
+
+* clic mobileacquisition
+* mobileactioninapptime
+* mobileactiontotaltime
+* mobileappperformancehurteduser
+* mobileappperformanceappid<span>.</span>app-perf-app-name
+* mobileappperformanceappid<span>.</span>app-perf-platform
+* mobileappperformanceco
+* mobileappperformancecrashid<span>.</span>app-perf-crash-name
+* mobileappperformanceloads
+* mobileappstoreavgrating
+* mobileappstoredownloads
+* mobileappstoreinbracvenue
+* mobileappstoreinaround
+* mobileappstoreobjectid<span>.</span>app-store-user
+* mobileappstoreobjectid<span>.</span>application-name
+* mobileappstoreobjectid<span>.</span>application-version
+* mobileappstoreobjectid<span>.</span>appstore-name
+* mobileappstoreobjectid<span>.</span>category-name
+* mobileappstoreobjectid<span>.</span>country-name
+* mobileappstoreobjectid<span>.</span>device-manufacturer
+* mobileappstoreobjectid<span>.</span>device-name
+* mobileappstoreobjectid<span>.</span>in-app-name
+* mobileappstoreobjectid<span>.</span>platform-name-version
+* mobileappstoreobjectid<span>.</span>rank-category-type
+* mobileappstoreobjectid<span>.</span>region-name
+* mobileappstoreobjectid<span>.</span>review-comment
+* mobileappstoreobjectid<span>.</span>review-title
+* mobileappstoreoneoffrevenue
+* mobileappstoreoneoffroyalty
+* mobileappstorepurchases
+* mobileappstorerank
+* mobileappstorerankdivisor
+* mobileappstorerating
+* mobileappstoreratingdivisor
+* mobileavgprevsessionlength
+* mobilecraches
+* mobilecrashrate
+* mobiledailyengagedusers
+* mobiledeeplinkid<span>.</span>name
+* mobileinstalls
+* mobilelaunches
+* mobileltvtotal
+* mobilemessageclicks
+* mobilemessageid<span>.</span>dest
+* mobilemessageid<span>.</span>name
+* mobilemessageid<span>.</span>type
+* mobilemessageimpression
+* mobilemessagepushpayloadid<span><span>.</span></span>name
+* mobilemessageviews
+* mobilemonthlyengagedusers
+* mobileplacedage
+* mobileplaceentry
+* mobileplaceexit
+* mobileprevsessionlength
+* mobilerelaunchcampaign. mobilerelaunchcampaigntrackingcode.<span><span></span></span>name
+* mobileupgrades
+* socialaveragesentiment
+* socialaveragesentiment (obsoleto)
+* socialfbstory
+* socialfbstorytellers
+* socialinteractioncount
+* sociallover
+* sociallink
+* sociallink (obsoleto)
+* socialmenzioni
+* socialpageviews
+* socialposter
+* socialproperty
+* socialproperty (obsoleto)
+* socialpubcomments
+* socialpubpost
+* socialpubconsiglia
+* socialpubsubscriber
+* socialterm
+* socialtermslist
+* socialtermslist (obsoleto)
+* socialtotalsentiment
+* sourceid
+* videoauthorized
+* videoaverageminutututeaudience
+* videochaptercomplete
+* videochapterstart
+* videochaptertime
+* videopause
+* videopausecount
+* videopausetime
+* videoplay
+* videoprogress10
+* videoprogress25
+* videoprogress50
+* videoprogress75
+* videoprogress96
+* videoqoebitratemedia
+* videoqoebitratechange
+* videoqoebuffer
+* videoqoedropbeboschart
+* videoqoedroppedframes
+* videoqoeerror
+* videoresume
+* videototaltime
+* videouniquetimeplay
