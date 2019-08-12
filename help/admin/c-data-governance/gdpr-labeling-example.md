@@ -5,14 +5,14 @@ seo-title: Esempi di etichettatura
 title: Esempi di etichettatura
 uuid: a 9 a 5 b 937-dbde -4 f 0 f-a 171-005 ef 4 c 79 df 9
 translation-type: tm+mt
-source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
+source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
 
 ---
 
 
 # Esempi di etichettatura
 
-## Dati di esempio dei risultati {#section_94DE6BC0026F46D7AD7061C5625C8D52}
+## Dati di esempio dei risultati
 
 Supponi di avere i dati seguenti:
 
@@ -20,11 +20,9 @@ Supponi di avere i dati seguenti:
 * La seconda riga è il nome della variabile. Se ha un’etichetta ID, contiene lo spazio dei nomi assegnato tra parentesi.
 * I dati dei risultati partono dalla terza riga.
 
-<!-- Meike, I converted html tables for fix elusive validation error. Bob -->
-
 | Etichette | I2<br>ID-PERSONCAN@-@ PERSONACC<br><br>-PERSON | I 2<br>ID-DEVICECAN@-@ DEVICEACC<br><br>-ALL | I 2<br>DI-PERSONACC<br>-PERSON | I 2<br>CAN@-@ DEVICEDELL<br>-PERSONACC<br>-ALL | I 2<br>ID-DEVICECAN@-@ DEVICEACC<br><br>-ALL |
 |---|---|---|---|---|---|
-| Nome variabile<br>(spazio nomi) | Myprop 1<br>(utente) | ID visitatore<br>(AAID) | MyEvar1 | MyEvar2 | Myevar 3<br>(xyz) |
+| **Nome variabile**<br>**(spazio nomi)** | **Myprop 1**<br>**(utente)** | **ID visitatore**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -34,14 +32,13 @@ Supponi di avere i dati seguenti:
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-
-## Richiesta di accesso di esempio {#section_BDA817FD2415420DAAC835825484BA9D}
+## Richiesta di accesso di esempio
 
 Se si invia una richiesta di accesso, il file di riepilogo conterrà i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Due file di riepilogo vengono restituiti solo se viene usato un ID persona ed expandIDs è true.
 
-| Valori API | Valori API | Tipo di file restituito | Data in <br>Summary Access File </br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> |
+| Valori API | Valori API | Tipo di file restituito | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File |
 |--- |--- |--- |---|---|---|---|---|
-| Namespace/ID | expandIDs |  | MyProp1 | Visitor ID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **Namespace/ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
 | AAID=77 | true | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
 | user=Mary | false | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
@@ -54,13 +51,13 @@ Se si invia una richiesta di accesso, il file di riepilogo conterrà i valori in
 
 Si noti che le impostazioni di expandIDs non cambiano nell’output quando viene usato un ID cookie.
 
-## Richiesta di cancellazione di esempio {#section_6C75F70F5D574BE7AA540981E8B7EA26}
+## Richiesta di cancellazione di esempio
 
 Se la richiesta di cancellazione usa i valori dell’API nella prima riga della tabella, la tabella dei risultati verrà aggiornata e apparirà come la seguente:
 
-| AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> |
+| AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
-| MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Mary | 42 | A | GDPR-7398 | GDPR-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
@@ -70,13 +67,11 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]
->
->Vengono influenzate solo le celle sulle righe contenenti AAID = 77 e un'etichetta Dell-DEVICE.
+>[!NOTE] Vengono influenzate solo le celle sulle righe contenenti AAID = 77 e un'etichetta Dell-DEVICE.
 
-| user = maryexpanddids<br>= false</br> | user = maryexpanddids<br>= false</br> | user = maryexpanddids<br>= false</br> | user = maryexpanddids<br>= false</br> | user = maryexpanddids<br>= false</br> |
+| user = maryexpanddids<br>= false | user = maryexpanddids<br>= false | user = maryexpanddids<br>= false | user = maryexpanddids<br>= false | user = maryexpanddids<br>= false |
 |--- |---|---|---|---|
-| MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
 | GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
 | GDPR-0523 | 99 | GDPR-9045 | GDPR-2864 | Z |
@@ -86,13 +81,11 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]
->
->Vengono influenzate solo le celle sulle righe contenenti user = Mary e un'etichetta Dell-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “GDPR-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
+>[!NOTE] Vengono influenzate solo le celle sulle righe contenenti user = Mary e un'etichetta Dell-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “GDPR-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
 
-| user=Mary<br>expandIDs=true</br> | user = maryexpanddids<br>= true</br> | user = maryexpanddids<br>= true</br> | user = maryexpanddids<br>= true</br> | user = maryexpanddids<br>= true</br> |
+| user=Mary<br>expandIDs=true | user = maryexpanddids<br>= true | user = maryexpanddids<br>= true | user = maryexpanddids<br>= true | user = maryexpanddids<br>= true |
 |--- |---|---|---|---|
-| MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
 | GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
 | GDPR-5782 | 83 | GDPR-2714 | GDPR-0219 | GDPR-4395 |
@@ -104,7 +97,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 Tenete presente quanto segue:
 
-* Sono interessate le celle nelle righe contenenti user=Mary e un’etichetta DEL-DEVICE o DEL-PERSON, nonché le celle con un’etichetta DEL-DEVICE nelle righe contenenti qualsiasi ID visitatore che si è verificato in una riga contenente user=Mary.
-* MyEvar2 nella quarta e nella quinta riga viene aggiornato perché queste righe contengono gli stessi valori ID visitatore di quelli nella prima e nella seconda riga, pertanto l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
-* I valori di MyEvar2 nella seconda e nella quinta riga corrispondono prima e dopo la cancellazione, ma dopo la cancellazione non corrisponde più il valore N che si trova nell’ultima riga, perché quella riga non è stata aggiornata come parte della richiesta di cancellazione.
-* MyEvar3 si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun ID-DEVICES corrisponde. Ora AAID corrisponde alle prime cinque righe.
+* Cells on rows containing `user=Mary` and a `DEL-DEVICE` or `DEL-PERSON` label are impacted, as well as cells with a `DEL-DEVICE` label on rows containing any Visitor ID that occurred on a row containing `user=Mary`.
+* `MyEvar2` nella quarta e nella quinta riga viene aggiornato perché queste righe contengono gli stessi valori ID visitatore di quelli nella prima e nella seconda riga, pertanto l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
+* The values of `MyEvar2` in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request.
+* `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde. `ID-DEVICES` `AAID` Ora corrisponde alle prime cinque righe.
