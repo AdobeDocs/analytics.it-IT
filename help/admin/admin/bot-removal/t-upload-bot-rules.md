@@ -8,7 +8,7 @@ title: Caricare regole bot
 topic: Strumenti di amministrazione
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 d 82 f 2 c
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -17,20 +17,11 @@ source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
 
 Per importare regole bot di importazione in massa, potete caricare un file CSV che definisca le regole.
 
-Create un file CSV con le seguenti colonne nell'ordine visualizzato:
+Create un file CSV con le seguenti colonne, nell'ordine seguente:
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> Nome bot</code> </p> </td> 
-   <td colname="col2"> <p> <code> Inizio IP </code> </p> </td> 
-   <td colname="col3"> <p> <code> Fine IP </code> </p> </td> 
-   <td colname="col4"> <p> <code> Regola corrispondenza agente (contiene o inizia con)</code> </p> </td> 
-   <td colname="col5"> <p> <code> Agente include (limite char 100)</code> </p> </td> 
-   <td colname="col6"> <p> <code> Escludi agente (limite char 255)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Colonna 1 | Colonna 2 | Colonna 3 | Colonna 4 | Colonna 5 |
+|---|---|---|---|---|
+| Nome bot | Inizio IP | Fine IP | Regola corrispondenza agente<br>(`contains` o `starts with`) | Escludi agente<br>(limite char 255) |
 
 Puoi definire tre tipi di regole bot:
 
