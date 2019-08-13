@@ -8,7 +8,7 @@ title: AppMeasurement per JavaScript
 topic: Sviluppatore e implementazione
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
+source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
 
 ---
 
@@ -27,7 +27,7 @@ L'ultima versione di ciascuna libreria può essere scaricata in **[!UICONTROL An
 
 ## Versione 2.16.0
 
-Release Date: **August 8, 2019**
+Release Date: **August 15, 2019**
 
 | Funzione | Descrizione |
 | -----------| ---------- |
