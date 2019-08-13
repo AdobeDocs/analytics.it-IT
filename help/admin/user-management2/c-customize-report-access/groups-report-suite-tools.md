@@ -9,7 +9,7 @@ title: Personalizzare le autorizzazioni degli strumenti delle suite di rapporti
 topic: Strumenti di amministrazione
 uuid: 3 c 95 d 296-ffd 0-4971-9 c 5 f -110 ddbe 042 ce
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando sarà il momento di eseguire la migrazione degli utenti. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando sarà il momento di eseguire la migrazione degli utenti. Dopo che tutti i clienti avranno trasferito, il contenuto della guida per **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** verrà ritirato.
 
 Abilitare le autorizzazioni utente per Accesso API, Gestione suite di rapporti, Strumenti e rapporti e Elementi Dashboard.
 
@@ -30,17 +30,17 @@ Abilitare le autorizzazioni utente per Accesso API, Gestione suite di rapporti, 
 
 ## Descrizioni campo
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+Le impostazioni di questa pagina interessano le suite di rapporti selezionate sulla [!UICONTROL Define User Groups] pagina.
 
 | Elemento | Descrizione |
 |--- |--- |
 | **Servizi web** |  |
 | Queste impostazioni consentono agli utenti di effettuare chiamate al metodo Data Warehouse ed eseguire il pull delle impostazioni della suite di rapporti. |  |
-| Data Warehouse | Consente a un utente non amministratore di effettuare chiamate utilizzando i metodi Data Warehouse tramite l'API dei servizi Web. See [Data Warehouse - Developer Documentation](/help/export/data-warehouse/data-warehouse.md) |
+| Data Warehouse | Consente a un utente non amministratore di effettuare chiamate utilizzando i metodi Data Warehouse tramite l'API dei servizi Web. Consulta [Data Warehouse - Documentazione per sviluppatori](/help/export/data-warehouse/data-warehouse.md) |
 | Suite di rapporti (Leggi) | Consente a un utente non amministratore di utilizzare i metodi delle suite di rapporti nell'API. |
 | Suite di rapporti (scrittura) | Consente a un utente non amministratore di utilizzare i metodi delle suite di rapporti nell'API. |
 | **Gestione delle suite di rapporti** |  |
-| These settings grant access to the menu items in  Admin &gt;  Report Suites  &gt;  Edit Settings ([Report Suite Manager](../../../admin/c-manage-report-suites/report-suites-admin.md)). |  |
+| Queste impostazioni consentono di accedere alle voci di menu in Admin (Amministratore) &gt; Report Suites (Suite di rapporti) &gt; Edit Settings (Modifica impostazioni) ([Report Suite Manager,](../../../admin/c-manage-report-suites/report-suites-admin.md)Modifica suite di rapporti). |  |
 | [Gestione traffico](../../../admin/c-traffic-management/traffic-management.md) | Concede l'autorizzazione alla gestione traffico. |
 | [Gestione delle suite di rapporti](../../../admin/c-manage-report-suites/report-suites-admin.md) | Concede l'autorizzazione per gestire le suite di rapporti. |
 | [Riepilogo account](../../../admin/admin/general-acct-settings-admin.md) | Concede l'autorizzazione per modificare le impostazioni dell'account per una suite di rapporti. |
@@ -65,11 +65,11 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Metriche predefinite](../../../admin/admin/default-metrics.md) | Reporting e analisi visualizza un set predefinito di metriche in tutti i rapporti sulla conversione, a meno che un utente non selezioni un set personalizzato di metriche. Le metriche selezionate vengono visualizzate per tutti gli utenti della suite di rapporti associata. |
 | [Regole di elaborazione](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-processing-rules.html) | Concede l'accesso alle regole di elaborazione, semplificando la raccolta di dati e gestendo i contenuti durante l'invio ai rapporti. |
 | **Strumenti e rapporti** |  |
-| [Rilevazione delle anomalie](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | Concede l'autorizzazione a Rilevamento anomalie, che fornisce un metodo statistico per determinare in che modo una particolare metrica è cambiata rispetto ai dati precedenti. |
+| [Rilevamento delle anomalie](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | Concede l'autorizzazione a Rilevamento anomalie, che fornisce un metodo statistico per determinare in che modo una particolare metrica è cambiata rispetto ai dati precedenti. |
 | [Report canale](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Concede l'autorizzazione ai rapporti Canale di marketing, disponibili in Rapporti &gt; Rapporti canale marketing. |
 | [Report in tempo reale](../../../admin/admin/realtime/t-realtime-admin.md) | Consente l'accesso al report in tempo reale. |
-| [Pagine bot](../../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | Regole bot consente di rimuovere il traffico generato da spider noti e bot dalla suite di rapporti. La rimozione del traffico bot permette di misurare meglio l'attività degli utenti sul sito Web. |
-| [Bot](../../../admin/admin/bot-rules/bot-rules.md) | Regole bot consente di rimuovere il traffico generato da spider noti e bot dalla suite di rapporti. La rimozione del traffico bot permette di misurare meglio l'attività degli utenti sul sito Web. |
+| [Pagine bot](../../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | Regole bot consente di rimuovere il traffico generato da spider noti e bot dalla suite di rapporti. La rimozione del traffico bot permette di misurare meglio l'attività degli utenti sul sito Web. |
+| [Bot](../../../admin/admin/bot-removal/bot-rules.md) | Regole bot consente di rimuovere il traffico generato da spider noti e bot dalla suite di rapporti. La rimozione del traffico bot permette di misurare meglio l'attività degli utenti sul sito Web. |
 | [Report personalizzato Data Warehouse](../../..//export/data-warehouse/data-warehouse.md) | Data warehouse si basa su copie di dati grezzi e non ancora elaborati per l'archiviazione e la creazione di report personalizzati, che puoi eseguire filtrando i dati. Puoi chiedere ai report di visualizzare relazioni avanzate tra i dati, partendo da dati grezzi basati su tue precise domande. |
 | [Visite giornaliere di ritorno](../../../components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Legacy) Report che mostra il numero di visitatori sul sito Web più di una volta in un dato giorno. Un giorno è definito come ultimo periodo di 24 ore. |
 | [Origini dati Manager](../../../admin/admin/data-sources.md) | La funzione Origini dati consente di importare dati in Analytics da fonti offline. |
@@ -80,8 +80,8 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Importazione](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) /esportazione di classificazioni e [Generatore di regole](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | Consolidato in Classificazioni (vedi di seguito). |
 | Feed Feed Manager | Concede diritti al feed dati di Analytics. |
 | Classificazioni | Combina le seguenti autorizzazioni: «Classificazioni traffico», «Classificazioni video», «Classificazioni conversione», «Gerarchie classificazione», «Gestione classificazioni» e «Importazione/esportazione classificazioni e Strumento di creazione regola». Nota: Con questa autorizzazione, gli utenti modificano le classificazioni per tutte le suite di rapporti, non solo per quelle selezionate. |
-| [Analisi di contributo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede i diritti per l'utilizzo di Analisi contributi in Analysis Workspace. |
+| [Analisi contributi](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede i diritti per l'utilizzo di Analisi contributi in Analysis Workspace. |
 | **Elementi dashboard** |  |
-| The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources |  |
+| Le impostazioni in Elementi dashboard consentono di accedere ai [minirapporti](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reporting e analisi: , My Recommended Reports, Company Summary Reportlet, Image, KPI/Amount Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet e Web Resources |  |
 | **Altro** |  |
 | Social | Controlla l'accesso al menu Gestione social network nel Report Suite Manager (Gestione suite di rapporti). |
