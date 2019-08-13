@@ -1,18 +1,18 @@
 ---
 description: Descrizioni dei campi per le impostazioni generali dell'account della suite in Amministratore.
 seo-description: Descrizioni dei campi per le impostazioni generali dell'account della suite in Amministratore.
-seo-title: Impostazioni account generale
+seo-title: Impostazioni account generali
 solution: Analytics
-title: Impostazioni account generale
+title: Impostazioni account generali
 topic: Strumenti di amministrazione
 uuid: c 1 ab 5 c 34-2 c 41-4 d 12-a 706-0 e 760 dff 8 a 95
 translation-type: tm+mt
-source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
 
-# Impostazioni account generale
+# Impostazioni account generali
 
 Descrizioni dei campi per le impostazioni generali dell'account della suite in Amministratore.
 
@@ -34,7 +34,7 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL di base</span> </td> 
-   <td colname="col2"> <p>Specifica il sito Web principale della suite di rapporti. L'URL di base non influisce sui filtri di riferimento. Use <a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local"> internal URL filters</a> instead. </p> </td> 
+   <td colname="col2"> <p>Specifica il sito Web principale della suite di rapporti. L'URL di base non influisce sui filtri di riferimento. Utilizzare <a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local"> invece filtri</a> URL interni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Fuso orario</span> </td> 
@@ -42,11 +42,11 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Livello di conversione</span> </td> 
-   <td colname="col2"> <p> Abilita o disabilita le variabili di e-commerce come evar e campagne. Use the <span class="uicontrol"> Enabled, no Shopping Cart</span> option to hide all shopping cart reports if you don't have a shopping cart on your site. </p> </td> 
+   <td colname="col2"> <p> Abilita o disabilita le variabili di e-commerce come evar e campagne. Utilizzate l'opzione <span class="uicontrol"> Attivato, Nessuna carrello</span> per nascondere tutti i rapporti sul carrello se non disponete di un carrello sul sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pagina predefinita</span> </td> 
-   <td colname="col2"> <p> If your <span class="wintitle"> Most Popular Pages Report</span> contains URLs rather than page names, this setting prevents multiple URLs from representing the same page. For example, the URLs <span class="filepath"> https://mysite.com</span> and <span class="filepath"> https://mysite.com/index.html</span> are typically the same page. You can remove default filenames so that these two URLs would both show up as <span class="filepath"> https://mysite.com</span>. </p> <p>If left blank, the following filenames are removed from the URLs: <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default.cgi</span>, <span class="filepath"> default.asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home.cgi</span>, and <span class="filepath"> home.asp</span>. </p> <p>Per disabilitare la rimozione del nome file, immettete un valore che non sia mai presente negli URL. </p> </td> 
+   <td colname="col2"> <p> Se <span class="wintitle"> il rapporto più comuni pagine</span> contiene URL piuttosto che nomi di pagina, questa impostazione impedisce che più URL rappresentino la stessa pagina. Ad esempio, gli URL <span class="filepath"> https://mysite.com</span> e <span class="filepath"> https://mysite.com/index.html</span> sono generalmente la stessa pagina. Potete rimuovere i nomi dei file predefiniti in modo che entrambi vengano visualizzati come <span class="filepath"> https://mysite.com</span>. </p> <p>Se lasciato vuoto, i seguenti nomi file vengono rimossi dagli URL: <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index. cgi</span>, <span class="filepath"> index. asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default. cgi</span>, <span class="filepath"> default. asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home. cgi</span>e <span class="filepath"> home. asp</span>. </p> <p>Per disabilitare la rimozione del nome file, immettete un valore che non sia mai presente negli URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Sostituisce l'ultimo ottetto di indirizzi IP con 0 </span> </td> 
@@ -54,11 +54,11 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Offuscamento IP</span> </td> 
-   <td colname="col2"> <p>Trasforma gli indirizzi IP in stringhe non riconoscibili, rimuovendo in pratica tali indirizzi dai negozi di dati Adobe. Quando l'opzione Offuscamento IP è attivata, gli indirizzi IP originali vengono perduti in modo permanente. </p> <p>Nota: Gli indirizzi IP vengono offuscati ovunque in Analytics, incluso Data Warehouse. Tuttavia, l'impostazione IP in Target viene controllata separatamente, pertanto questa impostazione non ha alcun impatto su Target. </p> <p>Se l'offuscamento IP è abilitato, l'esclusione IP avviene prima che l'indirizzo IP non venga oscurato, in modo che i clienti non debbano modificare nulla quando abilitano l'offuscamento IP. </p> <p>Checking <span class="uicontrol"> Disabled</span> leaves the IP address in the data. </p> <p>Checking <span class="uicontrol"> Obfuscate IP address</span> changes the IP to a hashed value (e.g., 234abc6493872038). </p> <p>Checking <span class="uicontrol"> Remove IP address</span> replaces the IP address with x.x.x.x in the data, after geo-lookup. </p> <p>Note: This setting might require changes to custom <a href="../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot rules</a> or<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>Trasforma gli indirizzi IP in stringhe non riconoscibili, rimuovendo in pratica tali indirizzi dai negozi di dati Adobe. Quando l'opzione Offuscamento IP è attivata, gli indirizzi IP originali vengono perduti in modo permanente. </p> <p>Nota: Gli indirizzi IP vengono offuscati ovunque in Analytics, incluso Data Warehouse. Tuttavia, l'impostazione IP in Target viene controllata separatamente, pertanto questa impostazione non ha alcun impatto su Target. </p> <p>Se l'offuscamento IP è abilitato, l'esclusione IP avviene prima che l'indirizzo IP non venga oscurato, in modo che i clienti non debbano modificare nulla quando abilitano l'offuscamento IP. </p> <p>Selezionando <span class="uicontrol"> Disattivato</span> l'indirizzo IP viene lasciato nei dati. </p> <p>Selezionando <span class="uicontrol"> l'indirizzo</span> IP offuscate, l'IP passa a un valore con hash (ad es. 234 abc 6493872038). </p> <p>Selezionando <span class="uicontrol"> Rimuovi indirizzo</span> IP, l'indirizzo IP viene sostituito con x. x. x. x nei dati, dopo la ricerca geografica. </p> <p>Nota: Questa impostazione potrebbe richiedere modifiche a regole <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot personalizzate</a> o<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> esclusioni IP</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Archiviazione ID transazione</span> </td> 
-   <td colname="col2"> <p>Enables you to use <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external"> Transaction ID</a> data sources. </p> </td> 
+   <td colname="col2"> <p>Consente di utilizzare <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external"> le origini dati ID</a> transazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Attivare Analisi ad hoc</span> </td> 
@@ -66,7 +66,7 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
   </tr> 
   <tr> 
    <td><span class="wintitle"> Abilita Data Warehouse</span> </td> 
-   <td colname="col2"> <p>Enables Data Warehouse UI under <span class="uicontrol"> Tools</span> &gt;<span class="uicontrol"> Data Warehouse</span>. </p> </td> 
+   <td colname="col2"> <p>Abilita l'interfaccia utente di Data Warehouse in <span class="uicontrol"> Strumenti</span> &gt;<span class="uicontrol"> Data Warehouse</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
