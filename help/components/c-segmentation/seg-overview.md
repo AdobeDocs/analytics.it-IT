@@ -7,7 +7,7 @@ title: Informazioni su segmenti e contenitori
 topic: Segmenti
 uuid: e 8 b 1 edd 1-5 d 6 c -4213-994 b-fed 789 ad 30 a 4
 translation-type: tm+mt
-source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
+source-git-commit: ecc601c17b6552baf0e8887b66326259d7498c79
 
 ---
 
@@ -16,21 +16,9 @@ source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
 
 I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni sul sito Web. I segmenti sono progettati come approfondimenti per l'audience codificati che puoi generare per esigenze specifiche, quindi verifica, modifica e condividi con altri membri del team o usi in altri prodotti Adobe e funzionalità Analytics.
 
-## Informazioni su segmenti e contenitori {#concept_82653C7E29FE49F5A4B5E5E93B0A6399}
-
-I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni sul sito Web. I segmenti sono progettati come approfondimenti per l'audience codificati che puoi generare per esigenze specifiche, quindi verifica, modifica e condividi con altri membri del team o usi in altri prodotti Adobe e funzionalità Analytics.
-
-<!-- 
-
-seg_overview.xml
-
- -->
-
 I segmenti sono basati su una [!UICONTROL Visitor][!UICONTROL Visit] gerarchia [!UICONTROL Hit] di livello e utilizzano un modello contenitore nidificato. I contenitori nidificati consentono di definire attributi visitatore e azioni in base alle regole tra e all'interno dei contenitori. I segmenti di Analytics possono essere creati, approvati, condivisi, salvati ed eseguiti in più prodotti e [!DNL Adobe Experience Cloud]funzionalità. I segmenti possono essere generati da un rapporto, integrato in un report dashboard o segnalibri per un accesso rapido.
 
 Puoi creare e salvare segmenti in Segment Builder (Generatore segmenti), oppure generare segmenti da un report di abbandono (in [!DNL ad hoc analysis]). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicare i rapporti. Inoltre, i segmenti possono essere utilizzati insieme come [segmenti impilati](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34).
-
-I segmenti consentono di identificare i visitatori in base alle caratteristiche e alla sequenza di visualizzazioni di pagina.
 
 ## Segmenti {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -40,9 +28,9 @@ I segmenti identificano chi sono i visitatori (paese, sesso, caffetteria), i dis
 
 I segmenti possono essere basati nei seguenti valori:
 
-* Visitatori basati su attributi: tipo di browser, dispositivo, numero di visite, Paese, genere.
-* Visitatori basati su interazioni: campagne, ricerca parola chiave, motore di ricerca.
-* Visitatori in base a uscite e voci: visitatori di Facebook, una pagina di destinazione definita e un dominio di provenienza.
+* Visitatori basati su attributi: tipo di browser, dispositivo, numero di visite, paese, genere.
+* Visitatori basati sulle interazioni: campagne, ricerca parola chiave, motore di ricerca.
+* Visitatori in base alle uscite e alle voci: visitatori di Facebook, una pagina di destinazione definita, un dominio di riferimento.
 * Visitatori basati su variabili personalizzate: campo modulo, categorie definite, ID cliente.
 
 Quando crei segmenti di pubblico nel Generatore di segmenti, definisci le condizioni utilizzando [!UICONTROL AND] e [!UICONTROL OR] operatori tra contenitori.
@@ -70,16 +58,6 @@ I segmenti sequenziali possono essere basati sui seguenti valori hit:
 
 Un segmento sequenziale filtra i set di dati in base alle azioni dell'utente utilizzando l' [!UICONTROL THEN] operatore.
 
-## Informazioni sui contenitori segmenti {#concept_A38E7000056547399E346559D85E2551}
-
-Un segmento imposta le condizioni per filtrare un visitatore in base ai suoi attributi o interazioni con il sito. Per impostare le condizioni in un segmento, impostate le regole per filtrare i visitatori in base alle caratteristiche dei visitatori e/o alle caratteristiche di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite specifiche e/o a hit di pagina per ogni visitatore. Il Generatore di segmenti fornisce una semplice architettura per creare sottoinsiemi e applicare regole come nidificati, Visitor Visitor (Visitatore gerarchico) &gt; Visita &gt; Hit.
-
-<!-- 
-
-seg_container_overview.xml
-
- -->
-
 ## Video sulle procedure {#section_89D6184890AF4086A8056BFBB0B68C29}
 
 Questo video YouTube fornisce una breve panoramica sui contenitori dei segmenti e su come utilizzarli.
@@ -90,21 +68,23 @@ Questo video YouTube fornisce una breve panoramica sui contenitori dei segmenti 
 
 ## Informazioni sui contenitori {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
+Un segmento imposta le condizioni per filtrare un visitatore in base ai suoi attributi o interazioni con il sito. Per impostare le condizioni in un segmento, impostate le regole per filtrare i visitatori in base alle caratteristiche dei visitatori e/o alle caratteristiche di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite specifiche e/o a hit di pagina per ogni visitatore. Il Generatore di segmenti fornisce una semplice architettura per creare sottoinsiemi e applicare regole come contenitori nidificati, gerarchici Visitor, Visit o Hit.
+
 L'architettura contenitore impiegata nel Generatore di segmenti definisce **[!UICONTROL Visitor]** il contenitore più esterno, contenente dati di esclusione specifici per il visitatore tra visite e visualizzazioni di pagina. Un **[!UICONTROL Visit]** contenitore nidificato consente di impostare le regole per suddividere i dati del visitatore in base alle visite, e un contenitore nidificato **[!UICONTROL Hit]** consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni di pagina. Ogni contenitore consente di creare rapporti nella cronologia di un visitatore, interazioni suddivise per visita o suddividere hit singoli.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
-**Contenitore visitatori**
+**Contenitore visitatore**
 
 Il contenitore Visitatore include ogni visita e visualizzazione pagina per i visitatori entro un intervallo di tempo specificato. Un segmento a livello di visitatore restituisce la pagina che soddisfa la condizione più tutte le altre pagine visualizzate dal visitatore (e vincolate solo da intervalli di date definiti). Come contenitore più definito, i report generati a livello del contenitore Visitatore restituiranno le visualizzazioni di pagina in tutte le visite e ti consentiranno di generare un'analisi multivisita. Di conseguenza, il contenitore Visitatore è il più suscettibile a modificare in base agli intervalli di date definiti.
 
 I contenitori dei visitatori possono includere valori basati sulla cronologia globale di un visitatore:
 
-* Giorni prima del primo acquisto
+* Giorni precedenti al primo acquisto
 * Pagina di immissione originale
 * Domini di riferimento originali
 
-**Contenitore Visita**
+**Visita il contenitore**
 
 Il contenitore Visita consente di identificare interazioni delle pagine, campagne o conversioni per una sessione Web specifica. Il contenitore Visita è il contenitore più comunemente utilizzato perché acquisisce i comportamenti per l'intera sessione di visita una volta che la regola è soddisfatta e ti consente di definire quali visite includere o escludere nella creazione e applicazione di un segmento. Può aiutarti a rispondere alla domanda di quanti visitatori hanno visualizzato la sezione News e Sport nella stessa visita? Or pages that attributed to a successful conversion to a sales?
 
@@ -122,7 +102,7 @@ Il contenitore Hit definisce quali hit di pagina includere o escludi da un segme
 
 I contenitori Hit includono valori basati su singole pagine:
 
-* Variabile  
+* Prodotti
 * Proprietà elenco
 * Evar elenco
 * Evar per merchandising (nel contesto degli eventi)
@@ -131,11 +111,11 @@ I contenitori Hit includono valori basati su singole pagine:
    >
    >Se utilizzate questo contenitore su un valore che persiste, ad esempio un evar, viene eseguito ogni hit in cui tale valore è persistente. Nel caso di un codice di tracciamento scaduto dopo una settimana, tale valore potrebbe rimanere persistente in più visite.
 
-**Contenitore gruppo logica**
+**Contenitore logica logica**
 
 Il contenitore Gruppo logica consente di fornire un contenitore separato all'interno delle regole del segmento per filtrare entità non basate sulla gerarchia. Ad esempio, potrebbe essere necessario fornire un contenitore nidificato all'interno del segmento in base al visitatore. Questo tipo di logica richiede l'interruzione della gerarchia (poiché hai già un contenitore Visitatore di livello principale) per filtrare solo i visitatori selezionati. Questo può essere ottenuto utilizzando il contenitore Gruppo logica. Per [ulteriori informazioni, consultate Esempi](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560) di gruppi logici.
 
-## Nidificazione contenitori {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
+## Nidificazione dei contenitori {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
 Durante la creazione di contenitori di segmenti all'interno di altri contenitori, si crea in pratica un segmento all'interno di un segmento. La logica seguente viene utilizzata con i contenitori nidificati:
 
@@ -184,19 +164,13 @@ L'unica eccezione a questa gerarchia di contenitori è quando si utilizza il con
 
 ![](assets/logic_group_hierarchy.png)
 
-## Rapporti basati sui dati contenitori {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
+## Rapporti basati sui dati del contenitore {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
 
 I contenitori consentono di filtrare diversi dati in modo diverso in base ai valori di reporting durante la suddivisione dei segmenti e l'applicazione ai rapporti.
 
-<!-- 
-
-seg_container_reports.xml
-
- -->
-
 I dati acquisiti a ogni livello della gerarchia Visitatore &gt; Visita &gt; Contenitori Hit influiscono sulla modalità di creazione dei segmenti. Se si applica lo stesso segmento allo stesso rapporto utilizzando lo stesso set di dati, si ottengono valori diversi in base al contenitore da cui si genera il report. Fattori quali il livello di rapporto sul contenitore e la persistenza dei valori tra gli hit possono comportare cambiamenti notevoli nella precisione dei report.
 
-## Nozioni di base dei dati contenitori {#section_9576D970F912450191AFB5B83F7F1656}
+## Nozioni di base sui dati del contenitore {#section_9576D970F912450191AFB5B83F7F1656}
 
 Ad esempio, il visitatore illustrato di seguito ha visitato un sito alla prima visita, è entrato nella pagina iniziale, quindi ha visitato tre pagine aggiuntive e ha convertito la visita a una vendita. In una visita separata, il visitatore è entrato in questa fase tramite la pagina Prodotto, quindi alla pagina Home, tornando alla pagina Prodotto e quindi chiuso la sessione dopo aver visualizzato l'inverno Hats. In base ai dati acquisiti per ciascun contenitore del segmento, nel rapporto saranno visualizzati valori diversi.
 
@@ -222,7 +196,7 @@ La generazione di rapporti dal contenitore Hit consente di vedere come i rapport
 >
 >A prescindere da come vengono visualizzati i dati, dai contenitori Hit, Visita o Visitatore, tutti hanno lo stesso numero di visitatori, 63, 541, in questo esempio. A prescindere dalla modalità di generazione del rapporto, la condizione iniziale del visitatore (Visitatori che hanno visualizzato la pagina Inverno Coats) rimane intatta. Si tratta del sottoinsieme di dati di cui esegui il reporting a diversi livelli.
 
-**Generazione di rapporti dal contenitore visita**
+**Generazione di rapporti dal contenitore Visita**
 
 Se la stessa condizione si trova all'interno di un contenitore Visita, il report elenca tutte le pagine della visita in cui *Page è uguale* a Inverno. Filtra la pagina Inverno Coats, ma acquisisce anche tutte le altre pagine della visita in cui la condizione è true. Poiché il visitatore ha visitato anche le pagine Home, Prodotto e Acquisto all'interno della visita in cui è soddisfatta la condizione, queste pagine aggiuntive vengono elencate nel rapporto quando vengono riportate utilizzando i dati del contenitore Visitatori.
 
@@ -246,16 +220,16 @@ In sintesi, comprendere il funzionamento della segmentazione su varie suddivisio
 
 ## Generazione di rapporti basati sul contenitore {#section_D0604748F2794327B8C668617A31EC18}
 
-Ogni interruzione di dati del segmento ha un ambito a cui viene applicata. La maggior parte delle suddivisioni dei rapporti si basano sulle visualizzazioni di pagina, tuttavia, molti segmenti di valore sono basati sul contenitore Visita e in minor misura sul contenitore Visitatore. È importante comprendere i rapporti in base all'ambito del contenitore.
+Ogni suddivisione dei dati del segmento ha un ambito a cui viene applicata. La maggior parte delle suddivisioni si basano su *Visualizzazioni pagina*, tuttavia, molti segmenti di valore sono basati sul *contenitore Visita* e in minor misura sul contenitore *Visitatore* . È importante comprendere i rapporti in base all'ambito del contenitore.
 
 In base all'esempio *di segmento Pagina = Inverno coats* utilizzato in precedenza, i problemi elencati di seguito definiscono altri aspetti del segmento in base alla modalità di applicazione dei dati del contenitore e alla modalità di corrispondenza con il tipo di segmento.
 
-** Contenitore segmento in base alla regola del segmento corrispondente**
+**Contenitore segmento basato sulla regola del segmento corrispondente**
 
 L'applicazione del contenitore segmenti rispetto a un ambito naturale di dati introduce risultati previsti in cui gli elementi della linea corrispondono alla regola del segmento.
 
-* **Contenitore hit dove la pagina è uguale a "Inverno"**: La visualizzazione di un report Pagina con questo segmento restituisce solo i valori che equivalgono a "Inverno inverno". Tutte le altre pagine sono escluse dai rapporti.
-* **Visitate il contenitore in cui la pagina di immissione è «Apparel inverno»**: La visualizzazione di un report Pagina di partecipazione con questo segmento restituisce solo la seconda visita perché la pagina di immissione corrisponde alla regola del segmento.
+* **Contenitore hit dove la pagina è uguale a "Inverno"**: La visualizzazione di un *report Pagina* con questo segmento restituisce solo i valori che equivalgono a "Inverno inverno". Tutte le altre pagine sono escluse dai rapporti.
+* **Visitate il contenitore in cui la pagina di immissione è «Apparel inverno»**: La visualizzazione di un *report Pagina* di partecipazione con questo segmento restituisce solo la seconda visita perché la pagina di immissione corrisponde alla regola del segmento.
 * **Visita il contenitore dove il numero di visita è uguale a 1**: La visualizzazione di Visita tutte le visualizzazioni pagina dalla prima visita è inclusa nel rapporto perché corrisponde alla regola del segmento.
 
 **Visualizzazioni pagina a livello di contenitore Visita**
@@ -279,12 +253,6 @@ L'utilizzo di segmenti con un contenitore più piccolo rispetto all'ambito di su
 
 Il filtraggio per dimensioni che si trovano su un intervallo di pagine, come una evar campagna o una Dimensione di provenienza, influisce sui dati raccolti a livello di contenitore e da comprendere per il reporting preciso.
 
-<!-- 
-
-seg_container_persistence.xml
-
- -->
-
 I dati dei segmenti possono variare in base alla persistenza di una dimensione o a una variabile applicata tra le pagine selezionate. Alcune dimensioni, come la dimensione Pagina, forniscono valori univoci a livello di pagina e vengono filtrate in base ai dati del contenitore Hit. (Vedete [I report basati sull'esempio di dati](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87) contenitore). Altre dimensioni, come la dimensione Dominio di riferimento, rimangono in più pagine per una visita. Alcune dimensioni o variabili applicate, come Durata visita, si estendono nell'intera cronologia di un visitatore.
 
 ![](assets/RefDomain_aol.png)
@@ -307,7 +275,7 @@ Visualizzando dati dal contenitore Hit, oltre 92,000 visualizzazioni di pagina v
 
 ![](assets/container_report_persist_PV.png)
 
-**Generazione di rapporti dal contenitore visita**
+**Generazione di rapporti dal contenitore Visita**
 
 Se la stessa condizione viene filtrata nel contenitore Visita per un rapporto Pagine, tutte le pagine della visita in cui *Domain Domain = "aol.com"* è true. Poiché il valore del dominio di riferimento è impostato a livello di visita, i report ai livelli Visualizzazione pagina e Visita sono identici.
 
