@@ -4,7 +4,7 @@ seo-title: Aiuto sull'esportazione di Analytics
 description: nulle
 seo-description: nulle
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,10 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Banner](../../assets/doc_banner_export.png)
 
-Questa guida illustra vari metodi di esportazione dei dati, come feed dati e Data Warehouse.
+Questa guida delinea i modi per estrarre dati da Adobe Analytics. Include:
+
+* **Feed dati:** Ricevere un'esportazione oraria o giornaliera di dati non elaborati. Ogni riga è un singolo hit e ogni colonna è una variabile. I feed dati vengono generalmente inviati ai siti FTP.
+* **Data Warehouse:** Utilizzate una procedura guidata di richiesta per recuperare un output di dati dei fogli di calcolo. Data Warehouse usa un'architettura di elaborazione diversa per consentire qualsiasi numero di righe e qualsiasi numero di valori univoci.
 
 ## Articoli chiave per l'esportazione di Analytics
 
@@ -27,11 +30,7 @@ Questa guida illustra vari metodi di esportazione dei dati, come feed dati e Dat
 
 ## Risorse chiave Analytics
 
-* [Introduzione](https://helpx.adobe.com/analytics/get-started.html)
-* [Video](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Sviluppatori](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience Ltd](https://landing.adobe.com/experience-league/)
-* [Contattare l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
