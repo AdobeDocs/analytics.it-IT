@@ -4,16 +4,23 @@ seo-title: Analytics Analyze Help
 description: nulle
 seo-description: nulle
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Guida agli strumenti di Analytics
+# Guida all’analisi di Analytics
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-Questa guida offre tutti gli strumenti di analisi utilizzabili in Adobe Analytics. In primo luogo, fornisce documentazione approfondita su Analysis Workspace, lo strumento di analisi e visualizzazione innovativo per Analytics.
+Questa guida offre tutti gli strumenti di analisi utilizzabili in Adobe Analytics.
+
+* **Analysis Workspace:** La funzionalità principale di Adobe Analytics. Workspace offre un quadro in cui è possibile trascinare componenti per soddisfare le esigenze di reporting.
+* **Activity Map:** Un plug-in del browser che visualizza una sovrapposizione sul sito che mostra gli elementi più selezionati.
+* **Analisi ad hoc:** Un'applicazione Java indipendente con funzionalità di reporting affidabili. Questo strumento non viene più aggiornato e in futuro diventerà obsoleto.
+* **API di reporting:** Crea query di rapporti direttamente sui server Adobe e ottieni risposte da utilizzare nei tuoi strumenti di reporting clienti.
+* **Generatore di report:** Componente aggiuntivo Excel che consente di recuperare i dati di Analytics e inserirli direttamente in una cartella di lavoro.
+* **Reporting e analisi:** Uno strumento con decine di report predefiniti. Adobe consiglia di utilizzare Analysis Workspace per la maggior parte delle esigenze di reporting.
 
 ## Articoli chiave di Analytics
 
@@ -27,11 +34,7 @@ Questa guida offre tutti gli strumenti di analisi utilizzabili in Adobe Analytic
 
 ## Risorse chiave Analytics
 
-* [Introduzione](https://helpx.adobe.com/analytics/get-started.html)
-* [Video](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Sviluppatori](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contattare l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
