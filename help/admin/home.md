@@ -1,25 +1,34 @@
 ---
-title: Aiuto di Analytics Admin
+title: Aiuto per l'amministratore di Analytics
 seo-title: Confronto dei prodotti Analytics
 description: nulle
 seo-description: nulle
 translation-type: tm+mt
-source-git-commit: 3a2b31c2b55add5e34883da32180e4d3a7896ec5
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Guida all'amministrazione di Analytics
+# Guida dell'amministratore di Analytics
 
 ![Banner](../../assets/doc_banner_admin.png)
 
-Questa guida descrive tutte le attività di configurazione di Adobe Analytics Admin, come la configurazione di suite di rapporti, utenti/gruppi, classificazioni o governance dati.
+Adobe Analytics dispone attualmente di due aree per gli amministratori:
+
+* Adobe Admin Console: Utilizzate quest'area per il provisioning degli strumenti Experience Cloud e la gestione delle autorizzazioni utente. Si trova all'indirizzo [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Admin Console di Analytics: Utilizzate quest'area per la suite di rapporti e la gestione delle variabili. È possibile accedervi facendo clic su Admin nell'intestazione principale di Adobe Analytics.
+
+Questa guida illustra quanto segue:
+
+* Tutte le attività eseguite in Analytics Admin Console. Questa area include la configurazione di suite di rapporti, variabili, classificazioni o governance dati. Consulta [Strumenti](admin/c-admin-tools.md) di amministrazione per un elenco delle impostazioni della suite di rapporti e della società.
+* Tutte le attività specifiche di Analytics eseguite in Adobe Admin Console. Questa area include il provisioning di prodotti e la gestione delle autorizzazioni degli utenti. Consulta [Adobe Analytics in Adobe Admin Console](admin-console/home.md) per un elenco delle azioni che possono essere eseguite in Adobe Admin Console.
+
+Questa guida non copre molte delle funzionalità generiche offerte dalle offerte Adobe Admin Console. Vedi [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) nella guida utente Enterprise.
 
 ## Articoli chiave
 
-* [Guida introduttiva di Analytics Analytics](admin-console/first-admin-guide.md)
-* [Guida introduttiva all'amministratore](admin/c-admin-tools.md)
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
+* [Guida introduttiva di Analytics Analytics](admin-console/first-admin-guide.md): Se l'organizzazione non è un marchio di Adobe Analytics, segui questa guida per iniziare a ottenere il valore da Adobe Analytics.
+* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Lo strumento di amministrazione più comunemente accessibile in Analytics. Suite di rapporti contiene impostazioni per gestione della classificazione delle variabili, fuso orario e altro ancora.
 
 ## Altre guide utente di Analytics
 
@@ -27,11 +36,7 @@ Questa guida descrive tutte le attività di configurazione di Adobe Analytics Ad
 
 ## Risorse chiave Analytics
 
-* [Introduzione](https://helpx.adobe.com/analytics/get-started.html)
-* [Video](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Sviluppatori](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience Ltd](https://landing.adobe.com/experience-league/)
-* [Contattare l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
