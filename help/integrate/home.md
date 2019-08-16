@@ -4,7 +4,7 @@ seo-title: Aiuto sull'integrazione di Analytics
 description: nulle
 seo-description: nulle
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,13 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
-Questa guida consente di configurare integrazioni con altre soluzioni Adobe Experience Cloud, ad esempio Audience Manager, Advertising Cloud o Target.
+Configura integrazioni con altre soluzioni Adobe Experience Cloud, ad esempio Audience Manager, Advertising Cloud o Target. Include:
+
+* **Audience Analytics:** Integrare Adobe Audience Manager con Adobe Analytics.
+* **Analisi della pubblicità:** Consultate i dati di ricerca a pagamento affiancati con i dati di Adobe Analytics.
+* **Analytics per Target:** A 4 T integra congiuntamente Adobe Analytics e Adobe Target.
+* **Rapporti su Adobe Campaign:** Integra Adobe Analytics con Adobe Campaign.
+* **Rapporti sulle risorse AEM:** Abilita la raccolta di impression e clic sulle risorse servite da Adobe Experience Manager.
 
 ## Articoli chiave per l'integrazione di Analytics
 
@@ -26,11 +32,7 @@ Questa guida consente di configurare integrazioni con altre soluzioni Adobe Expe
 
 ## Risorse chiave Analytics
 
-* [Introduzione](https://helpx.adobe.com/analytics/get-started.html)
-* [Video](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Sviluppatori](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience Ltd](https://landing.adobe.com/experience-league/)
-* [Contattare l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
