@@ -4,7 +4,7 @@ seo-title: Aiuto sui componenti di Analytics
 description: nulle
 seo-description: nulle
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,15 +13,21 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Banner](../../assets/doc_banner_components.png)
 
-I componenti di Analytics consentono di perfezionare e abilitare l'analisi del percorso del cliente. Esempi di componenti includono segmenti, metriche calcolate, suite di rapporti virtuali e avvisi.
+I componenti di Analytics consentono di perfezionare e abilitare l'analisi dei dati. I componenti includono:
+
+* **Segmentazione:** Attiva un sottoinsieme di dati.
+* **Metriche calcolate:** Utilizzare formule semplici per combinare metriche o funzioni avanzate per l'analisi statistica.
+* **Suite di rapporti virtuali:** Crea un silo virtuale di dati basati su una suite di rapporti. Consente di pulire o segmentare i dati per una migliore esperienza utente. Alcune funzionalità possono essere utilizzate solo nelle suite di rapporti virtuali.
+* **Avvisi:** Ricevete notifiche ogni volta che i dati di un'ora vanno sopra o sotto una soglia.
+* **Classificazioni:** Riorganizza e raggruppa le dimensioni per ottenere informazioni aggiuntive.
+* **Variabili:** Guida di riferimento a tutte le dimensioni e metriche disponibili nei rapporti.
+* **Report in tempo reale:** Ottieni rapporti e tendenze appena sono disponibili.
+* **Canali di marketing:** Scopri in che modo i visitatori arrivano al tuo sito e determinano i canali più efficaci.
 
 ## Articoli Chiave di Analytics
 
 * [Riferimento dimensione](c-variables/dimensionslist/reports-descriptions.md)
 * [Riferimento metriche](c-variables/c-metrics/metricslist.md)
-* [Metriche calcolate](c-calcmetrics/cm-overview.md)
-* [Segmentazione](c-segmentation/seg-home.md)
-* [Canali marketing](c-marketing-channels/c-overview.md)
 
 ## Altre guide utente di Analytics
 
@@ -29,11 +35,7 @@ I componenti di Analytics consentono di perfezionare e abilitare l'analisi del p
 
 ## Risorse chiave Analytics
 
-* [Introduzione](https://helpx.adobe.com/analytics/get-started.html)
-* [Video](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Sviluppatori](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience Ltd](https://landing.adobe.com/experience-league/)
-* [Contattare l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
