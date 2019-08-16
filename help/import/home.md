@@ -1,10 +1,10 @@
 ---
-title: Aiuto di Analytics Import
-seo-title: Aiuto di Analytics Import
+title: Aiuto per l'importazione di Analytics
+seo-title: Aiuto per l'importazione di Analytics
 description: nulle
 seo-description: nulle
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,11 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Banner](../../assets/doc_banner_import.png)
 
-Questa guida spiega come ottenere dati in Analytics tramite le origini dati, l'API di inserimento o tramite connettori dati.
+Questa guida spiega come ottenere dati in Analytics. Include:
+
+* **Origini dati:** Carica un file in un sito FTP Adobe specifico. Adobe recupera il file e include i dati nella suite di rapporti.
+* **API di inserimento dati:** Invia dati direttamente alla raccolta dati di Adobe tramite un'API.
+* **Connettori dati:** Lavora con un terze parti supportato per inserire i loro dati in Adobe Analytics per arricchire la tua suite di rapporti.
 
 ## Importazione di articoli chiave di Analytics
 
@@ -25,11 +29,7 @@ Questa guida spiega come ottenere dati in Analytics tramite le origini dati, l'A
 
 ## Risorse chiave Analytics
 
-* [Introduzione](https://helpx.adobe.com/analytics/get-started.html)
-* [Video](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Sviluppatori](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience Ltd](https://landing.adobe.com/experience-league/)
-* [Contattare l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
