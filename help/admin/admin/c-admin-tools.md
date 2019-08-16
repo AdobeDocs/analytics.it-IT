@@ -5,7 +5,7 @@ seo-title: Strumenti di amministrazione
 title: Strumenti di amministrazione
 uuid: 6961 e 956-14 ea -4367-bdbd-eb 0 bcc 456 aae
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**
 
->[!IMPORTANT]
->
->Non aprire più schede Amministratore nello stesso browser. Questo può comportare il salvataggio inavvertitamente delle impostazioni nella suite di rapporti sbagliata. Se dovete, ad esempio, confrontare i set di regole e copiarli in una nuova suite di rapporti, si consiglia di aprire un nuovo browser o di scattare una schermata per confrontare i set di regole.
+>[!IMPORTANT] Non aprire più schede Amministratore nello stesso browser. Questo può comportare il salvataggio inavvertitamente delle impostazioni nella suite di rapporti sbagliata. Se dovete, ad esempio, confrontare i set di regole e copiarli in una nuova suite di rapporti, si consiglia di aprire un nuovo browser o di scattare una schermata per confrontare i set di regole.
 
 + [Fatturazione](billing-admin.md)
 + [Panoramica delle regole bot](bot-removal/bot-rules.md)
