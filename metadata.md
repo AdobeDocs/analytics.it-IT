@@ -2,15 +2,15 @@
 cloud: experience-cloud
 product: adobe analytics
 solution-title: Analytics
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics-icon -24. png
+solution-hub-url: https://helpx.adobe.com/it/support/analytics.html
+solution-image: assets/analytics-icon-24.png
 getting-started-title: Introduzione
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
+getting-started-url: https://helpx.adobe.com/it/analytics/get-started.html
 tutorials-title: Esercitazioni
-tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
+tutorials-url: https://helpx.adobe.com/it/analytics/kt/index/analytics-videos.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75404414b7733df6899dc6dae2c7ca154e787a31
 
 ---
@@ -28,4 +28,4 @@ Il file metadata.md include metadati a livello di repository che passano attrave
 | getting-started-url | Collegamento all’aiuto della pagina guida introduttiva |
 | tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
 | mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. Il valore predefinito è 2 |
-| git-repo | Specifica la posizione del repo principale per uso interno |
+| git-repo | Specifica la posizione del repository principale per uso interno |
