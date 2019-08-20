@@ -3,7 +3,7 @@ product: analytics
 audience: utente finale
 user-guide-title: Guida all'esportazione di Analytics
 user-guide-url: /content/help/it-IT/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
