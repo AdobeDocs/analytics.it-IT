@@ -3,7 +3,7 @@ product: analytics
 audience: admin
 user-guide-title: Guida dell'amministratore di Analytics
 user-guide-url: /content/help/it-IT/analytics/admin/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
@@ -24,32 +24,32 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
       + [Caricare regole bot](admin/bot-removal/t-upload-bot-rules.md)
       + [Creare una regola bot personalizzata](admin/bot-removal/t-create-bot-rules.md)
    + [Codice manager](admin/code-manager-admin.md)
-   + Conversion variables {#conversion-variables}
+   + Variabili di conversione {#conversion-variables}
       + [Conversion Variables (Variabili di conversione) (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modificare le variabili di conversione](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificazioni di conversione](admin/conversion-var-admin/conversion-classifications.md)
    + [Codici valuta](admin/currency.md)
-   + [Descrizioni dei report personalizzati](admin/custom-desc-admin.md)
+   + [Descrizioni report personalizzati](admin/custom-desc-admin.md)
    + [Personalizza calendario](admin/custom-calendar.md)
    + [Origini dati](admin/data-sources.md)
    + [Metriche predefinite](admin/default-metrics.md)
    + [Escludi per indirizzo IP](admin/exclude-ip.md)
    + [Metodi di ricerca](admin/finding-methods.md)
-   + [Impostazioni generali account](admin/general-acct-settings-admin.md)
+   + [Impostazioni account generali](admin/general-acct-settings-admin.md)
    + [Gestione dei gruppi](admin/group.md)
    + [Filtri URL interni](admin/internal-url-filter-admin.md)
    + [Registri](admin/logs.md)
    + [Canali marketing](admin/marketing-channels-admin.md)
    + [Personalizzazione del menu](admin/customize-menus.md)
-   + [Cisibilità metrica](admin/metric-visibility.md)
-   + [Gestione mobile](admin/mobile-management.md)
-   + Paid search detection {#paid-search-detection}
+   + [Visibilità metrica](admin/metric-visibility.md)
+   + [Gestione dispositivi mobili](admin/mobile-management.md)
+   + Rilevamento di ricerca a pagamento {#paid-search-detection}
       + [Panoramica sul rilevamento di ricerca a pagamento](admin/paid-search-detection/paid-search-detection.md)
       + [Configurazione del rilevamento di ricerche a pagamento](admin/paid-search-detection/t-paid-search-detection.md)
-   + [Pubblicazione di elenchi](admin/publishing-list.md)
+   + [Elenchi di pubblicazione](admin/publishing-list.md)
    + [Pubblicazione Widget](admin/publishing-widgets-admin.md)
-   + [Preferences Manager](admin/preferences-manager.md)
-   + [Impostazioni sulla privacy](admin/privacy-settings.md)
+   + [Preferenze Manager](admin/preferences-manager.md)
+   + [Impostazioni privacy](admin/privacy-settings.md)
    + Regole di elaborazione {#processing-rules}
       + [Panoramica sulle regole di elaborazione](admin/c-processing-rules/processing-rules.md)
       + Configurazione delle regole di elaborazione {#processing-rules-configuration}
@@ -97,12 +97,12 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
       + [Classificazioni traffico](admin/c-traffic-variables/traffic-classifications.md)
    + Variabile Visitatore univoco {#unique-visitor-variable}
       + [Specificare la variabile Visitatore univoco](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Caso d'uso - Estrazione di ID visitatore](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Caso di utilizzo: estrazione degli ID visitatore](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestione video](admin/video-management.md)
 + Experience Cloud in Admin Console {#admin-console}
-   + [Aiuto di Experience Cloud Admin Console](admin-console/home.md)
+   + [Aiuto per Experience Cloud in Admin Console](admin-console/home.md)
    + Autorizzazioni {#permissions}
-      + [Aiuto di Profilo di prodotto](admin-console/permissions/product-profile.md)
+      + [Aiuto per il profilo prodotto](admin-console/permissions/product-profile.md)
       + [Autorizzazione degli elementi per gli strumenti della suite di rapporti](admin-console/permissions/report-suite-tools.md)
       + [Autorizzazioni degli strumenti di Analytics](admin-console/permissions/analytics-tools.md)
    + [Prima guida dell'amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
