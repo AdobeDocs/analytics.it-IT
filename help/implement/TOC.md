@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [ID visitatore Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Metodi di fallback ID](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificare i dispositivi mobili](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Servizi Experience Cloud Core](https://marketing.adobe.com/resources/help/it_IT/mcloud/?f=core_services)
+   + [Servizi Experience Cloud Core](https://marketing.adobe.com/resources/help/it_IT/mcloud/core_services.html)
    + Identificazione dei visitatori tra i dispositivi {#cross-device-visitor-id}
       + [Connettere gli utenti tra i dispositivi](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [Impatto dei dati sull'identificazione tra i visitatori dei visitatori](js-implementation/xdevice-visid/xdevice-data.md)
@@ -204,7 +204,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + Test e processo di convalida {#testing-and-validation-process}
       + [Panoramica sulla verifica e sulla convalida](impl-testing/impl-validation/impl-validation.md)
       + [Identificare la variabile s_account nel debugger](impl-testing/impl-validation/impl-testing-account.md)
-      + [File Javascript JS](impl-testing/impl-validation/impl-js-file.md)
+      + [File JavaScript JS](impl-testing/impl-validation/impl-js-file.md)
       + [Modifiche al codice](impl-testing/impl-validation/impl-code-updates.md)
       + [Variabili e valori](impl-testing/impl-validation/impl-var-values.md)
       + [Variabili personalizzate](impl-testing/impl-validation/impl-custom-vars.md)
