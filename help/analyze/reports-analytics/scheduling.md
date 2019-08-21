@@ -1,23 +1,19 @@
 ---
 description: Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
 seo-description: Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
-seo-title: Pianificazione e distribuzione dei report
+seo-title: Pianificazione e distribuzione del rapporto
 solution: Analytics
 subtopic: Pianificazione
-title: Pianificazione e distribuzione dei report
-topic: Reports & Analytics
+title: Pianificazione e distribuzione del rapporto
+topic: Reports and Analytics
 uuid: 1230 b 0 f 3-e 026-4 b 83-b 231-14 d 6 f 75 a 3836
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: cca2896eaaf3786e79e7bd389bcb5a409e3d357e
 
 ---
 
 
-# Pianificazione e distribuzione dei report
-
-Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
-
-## Report schedule and distribution {#concept_4EA333DFC7FD4E9CA086385A3DA10BE9}
+# Pianificazione e distribuzione del rapporto
 
 Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
 
@@ -29,17 +25,23 @@ A causa di differenze nei meccanismi di elaborazione e nelle piattaforme, i dive
 * Estratti di dati: 50,000 righe
 * Data Warehouse: Illimitato
 
-Tali limitazioni sono relative a singoli rapporti pianificati e scaricati; Le dashboard sono limitate alla quantità di spazio disponibile all'interno di un minirapporto.
+Tali limitazioni sono per i singoli rapporti pianificati e scaricati; Le dashboard sono limitate alla quantità di spazio disponibile all'interno di un minirapporto.
 
-## Send a report {#task_27642CD33D484FD0BF59EBD159EEF52C}
+>[!NOTE]
+>
+>Il "Tempo di consegna"/"Ora del giorno" immesso dall'utente specifica l'ora in cui deve iniziare l'elaborazione, non l'ora in cui verrà effettivamente consegnato. L'ora effettiva in cui il rapporto verrà distribuito dipende principalmente dal tempo necessario per la elaborazione (i rapporti complessi e di grandi dimensioni richiedono più tempo rispetto ai rapporti più semplici). Ad esempio, se un rapporto richiede 15 minuti da elaborare, il tempo di consegna effettivo sarà almeno 15 minuti oltre il «Tempo di consegna»/«Ora del giorno» specificato originariamente.
+>Inoltre, esistono molti altri fattori che possono aumentare ulteriormente il ritardo prima di distribuire il rapporto:
+>
+> * **Esecuzione contemporanea di numerose pianificazioni dello stesso tipo** (ad esempio, molti dashboard, ecc.) può sovraccaricare il sistema. Il sistema Pianificazione consente solo alcuni (5-10) rapporti di qualsiasi tipo da eseguire simultaneamente; pertanto, quando si pianificano più di 5-10 contemporaneamente, alcuni dovranno attendere in linea per terminare altri rapporti prima di iniziare l'elaborazione. Questo problema può essere mitigato pianificando i report di una società in tempi rapidizzati durante il giorno o l'ora, anziché simultaneamente.
+> * Oltre al tipo di rapporto specifico (Dashboard, ecc.), i rapporti saranno anche in linea se l'azienda ha **più di 15-20 di qualsiasi tipo di rapporto pianificato contemporaneamente (su tutti i tipi di rapporti)**. Questa operazione può essere mitigata rendendo difficoltosa la pianificazione temporale, evitando che venga eseguita contemporaneamente.
+> * **I problemi nei servizi** a valle richiesti dal Pianificatore possono influire anche sulla distribuzione dei report. Ad esempio, se utilizzi in modo indipendente le API per eseguire rapporti e compilare la coda delle richieste API, i rapporti pianificati possono essere distribuiti lentamente mentre ti competi per tale risorsa.
+> * **La latenza della suite di rapporti** (un ritardo nella raccolta dati) può anche ritardare alcuni rapporti pianificati.
+
+
+
+## Invio di un rapporto {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
 Procedura che descrive come scaricare ed e-mail in diversi formati e pianificare un rapporto per la consegna.
-
-<!-- 
-
-t_send_report.xml
-
- -->
 
 1. Run a report, then click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 1. Specificate le opzioni di consegna:
@@ -51,98 +53,38 @@ t_send_report.xml
    | Oggetto | Oggetto dell'e-mail. |
    | Pianificazione | Seleziona per inviare il rapporto immediatamente o a un intervallo diverso. |
 
-1. Click **[!UICONTROL Advanced Delivery Options]** to specify a delivery schedule.
+1. Fate clic su **[!UICONTROL Advanced Delivery Options]** per specificare una pianificazione di consegna.
 
-   <table id="choicetable_2934E54FEE6E4D33B07EAC21F6DF628E"> 
-   <thead class="chhead sthead"> 
-   <th class="choptionhd"> Opzione </th> 
-   <th class="chdeschd"> Descrizione </th> 
-   </thead> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Nome file rapporto</strong></td> 
-   <td class="chdesc stentry"> <p>Specifica il nome del rapporto. The default format is <code> &lt;report name&gt; for &lt;suite&gt; - &lt;report date range&gt; </code>. </p> <p>To specify a custom name, select <span class="uicontrol"> Custom </span>. </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Formato rapporto</strong></td> 
-   <td class="chdesc stentry"> <p>Consente di specificare i formati PDF, CSV, Excel, HTML, Word o Mobile per la distribuzione. Se selezionate CSV, potete anche specificare la codifica per CSV: </p> <p> 
-      <ul id="ul_4A2EB8D9512246589994052CF482BFD7"> 
-      <li id="li_A4FC4D795A9D4F92AAB187ACDFBA180D"> <p> <span class="uicontrol"> Shift-JIS </span>: Codifica caratteri giapponese. </p> </li> 
-      <li id="li_405C7EC97F994D649A50F84466FADA3D"> <p> <span class="uicontrol"> EUC-JP </span>: Codice Unix esteso, principalmente per giapponese, coreano e cinese semplificato. </p> </li> 
-      </ul> </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Sommario</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol"> Numero di righe nella tabella </span>: Specifica il numero di righe da visualizzare nella tabella del rapporto che stai inviando. </p> <p> <span class="uicontrol"> Lingua per intestazione e piè </span>di pagina: Specifica la lingua dell'intestazione e del piè di pagina. </p> <p> <span class="uicontrol"> Commenti </span>: Specifica il testo che viene visualizzato all'inizio del rapporto. </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Invia file firma digitale</strong></td> 
-   <td class="chdesc stentry"> <p>Quando si richiede un rapporto, ad esempio un rapporto contrassegnato o un data warehouse, è possibile richiedere una firma dati. La firma digitale di Adobe non limita chi ha accesso ai dati, ma lo scopo del file di firma digitale (. sig) è quello di verificare la validità del file di report consegnato. Utilizzando la firma digitale, i destinatari del report possono verificare che il file sia passato da Adobe e non sia stato alterato. </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Destinazione rapporto</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol"> E-mail </span>: Consente di configurare le impostazioni dell'indirizzo e-mail, l'oggetto e le note. </p> <p> <span class="uicontrol"> FTP </span>: Consente di configurare le impostazioni FTP, inclusi Ospitante, Porta, Directory, Nome utente e Password. </p> </td> 
-   </tr> 
-   </table>
+| Opzione | Descrizione |
+|--- |--- |
+| Nome file rapporto | Specifica il nome del rapporto. Il formato predefinito `<report name> for <suite> - <report date range>`è. Per specificare un nome personalizzato [!UICONTROL Custom], selezionatelo. |
+| Formato rapporto | Consente di specificare i formati PDF, CSV, Excel, HTML, Word o Mobile per la distribuzione. Se selezionate CSV, potete anche specificare la codifica per CSV:<ul><li>Shift-JIS: Codifica caratteri giapponese.</li><li>EUC-JP: Codice Unix esteso, principalmente per giapponese, coreano e cinese semplificato.</li></ul> |
+| Sommario | <ul><li>Numero di righe nella tabella: Specifica il numero di righe da visualizzare nella tabella del rapporto che stai inviando.</li><li>Lingua per intestazione e piè di pagina: Specifica la lingua dell'intestazione e del piè di pagina.</li><li>Commenti: Specifica il testo che viene visualizzato all'inizio del rapporto.</li></ul> |
+| Invia file firma digitale | Quando si richiede un rapporto, ad esempio un rapporto contrassegnato o le richieste di Data Warehouse, è possibile richiedere una firma dati. La firma digitale di Adobe non limita chi ha accesso ai dati, ma lo scopo del file di firma digitale (. sig) è quello di verificare la validità del file di report consegnato. Utilizzando la firma digitale, i destinatari del report possono verificare che il file sia passato da Adobe e non sia stato alterato. |
+| Destinazione rapporto | <ul><li>E-mail: Consente di configurare le impostazioni dell'indirizzo e-mail, l'oggetto e le note.</li><li>FTP: Consente di configurare le impostazioni FTP, inclusi Ospitante, Porta, Directory, Nome utente e Password.</li></ul> |
 
 1. Fai clic su **[!UICONTROL Scheduling Options]**.
 
-   <table id="choicetable_589A39087F4C497D8913364FFF0125B7"> 
-   <thead class="chhead sthead"> 
-   <th class="choptionhd"> Opzione </th> 
-   <th class="chdeschd"> Descrizione </th> 
-   </thead> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Invia rapporto ora</strong></td> 
-   <td class="chdesc stentry"> <p>Invia il rapporto immediatamente. </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Pianifica per successivo</strong></td> 
-   <td class="chdesc stentry"> <p>Visualizza le opzioni per specificare un intervallo di tempo e le opzioni di consegna. </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Intervallo di tempo rapporto</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol"> Problema corretto </span>: Impedisce l'avanzamento della data durante la trasmissione del tempo. </p> <p> <span class="uicontrol"> Scorrimento </span>: Consente l'avanzamento della data durante la trasmissione del tempo. Considerazioni: </p> <p> 
-      <ul id="ul_5CDCCBEFEB364800A428614183A0E6A1"> 
-      <li id="li_37B8F32A9E3B4979B5239A58F0C5A71C"> <p>Se selezioni la rotazione per le date iniziale e finale e selezioni un rapporto giornaliero per il giorno precedente, riceverai un messaggio e-mail ogni giorno con un rapporto per il giorno precedente. </p> </li> 
-      <li id="li_83FFD2400C6A453783CDD9BB3B9BA3F9"> <p>Se selezionate fisso per il giorno iniziale e continua per il giorno finale, riceverete un rapporto per il giorno precedente. Il secondo giorno in cui riceverete un rapporto per i due giorni precedenti e il terzo giorno riceverete un rapporto per i tre giorni precedenti e così via. </p> </li> 
-      <li id="li_28F8552D699841BC942058247D39DBB9"> <p>Se selezionate fisso per le date iniziale e finale, ogni giorno che ricevete un rapporto identico per i giorni specificati. </p> </li> 
-      <li id="li_A594A6E2A4044ED6AC0A80F88EB203B3"> <p>Non è possibile selezionare un avvio continuo e una data di fine fissa. </p> </li> 
-      </ul> </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Frequenza di consegna</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol"> Orario </span>: Invia l'e-mail ogni ora, ogni ora, o qualsiasi altro intervallo di ore. </p> <p> <span class="uicontrol"> Giornaliero </span>: Invia l'e-mail ogni giorno, ogni giorno, ogni terzo giorno o un altro intervallo di giorni. Puoi anche inviarlo ogni giorno feriale. </p> <p> <span class="uicontrol"> Settimanale </span>: Invia l'e-mail ogni settimana, l'altra settimana, ogni terza settimana o qualsiasi altro intervallo di settimane. Potete anche specificare il giorno della settimana in cui viene inviato. </p> <p> <span class="uicontrol"> Mensile </span>: Specifica l'intervallo in numero di mesi, inoltre è possibile selezionare il giorno del mese in cui viene inviato, oppure il giorno della settimana in una settimana specifica del mese. </p> <p> <span class="uicontrol"> Annuale </span>: Specifica il giorno dell'anno su cui viene inviato il rapporto, oppure puoi inviarlo in un giorno specifico della settimana in qualsiasi settimana dell'anno. </p> <p> <span class="uicontrol"> Ora del giorno </span>: Si applica al fuso orario associato alla suite di rapporti selezionata. </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>Opzioni di consegna finale</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol"> Non terminare </span>: Non specifica alcuna fine. </p> <p> <span class="uicontrol"> Termina dopo &lt; valore &gt; occorrenze </span>: Specifica il numero di occorrenze prima della fine della consegna. </p> <p> <span class="uicontrol"> Termina su </span>: Consente di specificare una data specifica. </p> <p>Se si desidera elaborare i dati nella stessa data dei dati del rapporto, il rapporto contiene solo i dati che sono stati immessi nel database al momento dell'invio del rapporto. Poiché l'elaborazione completa per un giorno può richiedere fino a 24 ore, i dati completi potrebbero non essere disponibili al momento dell'invio del report. Per i dati completi, impostare sempre il tempo di elaborazione di 24 ore dopo la fine del periodo di reporting. </p> </td> 
-   </tr> 
-   </table>
+| Opzione | Descrizione |
+|--- |--- |
+| Invia rapporto ora | Invia il rapporto immediatamente. |
+| Pianifica per successivo | Visualizza le opzioni per specificare un intervallo di tempo e le opzioni di consegna. |
+| Intervallo di tempo rapporto | **Problema corretto**: Impedisce l'avanzamento della data durante la trasmissione del tempo. **Scorrimento**: Consente l'avanzamento della data durante la trasmissione del tempo. Considerazioni:<ul><li>Se selezionate Scorrimento per le date di inizio e di fine e selezionate un rapporto giornaliero per il giorno precedente, riceverete un messaggio e-mail ogni giorno con un rapporto per il giorno precedente.</li><li>Se selezionate Fisso per il giorno iniziale e continua per il giorno finale, riceverete un rapporto per il giorno precedente. Il secondo giorno in cui riceverete un rapporto per i due giorni precedenti e il terzo giorno riceverete un rapporto per i tre giorni precedenti e così via.</li><li>Se selezionate Fisso per le date iniziale e finale, ogni giorno che ricevete un rapporto identico per i giorni specificati.</li><li>Non è possibile selezionare una data di inizio continua e una data di fine corretta.</li></ul> |
+| Frequenza di consegna | <ul><li>**Orario**: Invia l'e-mail ogni ora, ogni ora, o qualsiasi altro intervallo di ore.</li><li>**Giornaliero**: Invia l'e-mail ogni giorno, ogni giorno, ogni terzo giorno o un altro intervallo di giorni. Puoi anche inviarlo ogni giorno feriale.</li><li>**Settimanale**: Invia l'e-mail ogni settimana, l'altra settimana, ogni terza settimana o qualsiasi altro intervallo di settimane. Potete anche specificare il giorno della settimana in cui viene inviato.</li><li>**Mensile**: Specifica l'intervallo in numero di mesi, inoltre è possibile selezionare il giorno del mese in cui viene inviato, oppure il giorno della settimana in una settimana specifica del mese.</li><li>**Annuale**: Specifica il giorno dell'anno su cui viene inviato il rapporto, oppure puoi inviarlo in un giorno specifico della settimana in qualsiasi settimana dell'anno.</li><li>**Ora del giorno**: Si applica al fuso orario associato alla suite di rapporti selezionata.</li></ul> |
+| Opzioni di consegna finale | <ul><li>**Non terminare**: Non specifica alcuna fine.</li><li>**Termina dopo`value`occorrenze**: Specifica il numero di occorrenze prima della fine della consegna.</li><li>**Termina su**: Consente di specificare una data specifica. Se si desidera elaborare i dati nella stessa data dei dati del rapporto, il rapporto contiene solo i dati che sono stati immessi nel database al momento dell'invio del rapporto. Poiché l'elaborazione completa per un giorno può richiedere fino a 24 ore, i dati completi potrebbero non essere disponibili al momento dell'invio del report. Per i dati completi, impostare sempre il tempo di elaborazione di 24 ore dopo la fine del periodo di reporting.</li></ul> |
 
-## Print a report {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
+## Stampare un rapporto {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
 Procedura che descrive come stampare un rapporto.
 
-<!-- 
-
-t_reports_print.xml
-
- -->
-
 1. Esegui un report.
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Print]**.  ![](assets/print.png)
+1. Clic **[!UICONTROL More]** &gt; **[!UICONTROL Print]**.  ![](assets/print.png)
 
 ## Download a report using basic options {#task_43660107A1C9485D92981CD75B562577}
 
 Scarica informazioni dettagliate su un rapporto specifico nei formati di esportazione PDF, CSV, Excel o Raw.
 
-<!-- 
-
-t_download-report.xml
-
- -->
-
-1. In  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** , select a report to view.
+1. In **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** , selezionate un rapporto da visualizzare.
 1. Fai clic su **[!UICONTROL Download]**.
 
    ![](assets/download_basic.png)
@@ -157,48 +99,30 @@ t_download-report.xml
    >
    >Se utilizzate uno dei formati di esportazione non elaborati per scaricare un rapporto e il nome della pagina è vuoto, Adobe Analytics probabilmente non aveva tempo sufficiente per elaborare i dati. Scaricate il report in un secondo momento.
 
-## Manage scheduled reports {#task_C17677C543454FF2B06D10EA5652DFBC}
+## Gestire i rapporti pianificati {#task_C17677C543454FF2B06D10EA5652DFBC}
 
 Informazioni sulla gestione dei report pianificati.
 
-<!-- 
-
-t_schedule_manage.xml
-
- -->
-
-In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. Puoi programmare le consegne in modo che i rapporti vengano inviati via e-mail o FTP a un indirizzo specifico. Puoi configurare queste pianificazioni per inviare automaticamente i rapporti a intervalli specificati per un periodo di tempo o indefinito, oppure interrompere la consegna di un rapporto periodico.
+In [!UICONTROL Schedule Reports Manager], puoi modificare ed eliminare le consegne ricorrenti dei rapporti. Puoi programmare le consegne in modo che i rapporti vengano inviati via e-mail o FTP a un indirizzo specifico. Puoi configurare queste pianificazioni per inviare automaticamente i rapporti a intervalli specificati per un periodo di tempo o indefinito, oppure interrompere la consegna di un rapporto periodico.
 
 The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
 
-1. To access the manager, click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Scheduled Reports]**.
+1. Per accedere al manager, fate clic **[!UICONTROL Analytics]** su &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Scheduled Reports]**.
 
-## Share a report link {#task_9711DDE9E140451B8C914EC5513E21EC}
+## Condividere un collegamento di rapporti {#task_9711DDE9E140451B8C914EC5513E21EC}
 
 Procedura che descrive come condividere un rapporto generando un collegamento (URL) per l'invio a un altro utente.
-
-<!-- 
-
-t_reports_share_link.xml
-
- -->
 
 Quando il destinatario fa clic sul collegamento, richiede le credenziali di accesso (nome società, nome utente e password). Dopo l'accesso, al destinatario viene mostrato il rapporto generato dall'utente originale. Si applicano restrizioni alle autorizzazioni standard.
 
 **Per condividere un collegamento di rapporti**
 
 1. Esegui un report.
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Link to This Report]**.
+1. Clic **[!UICONTROL More]** &gt; **[!UICONTROL Link to This Report]**.
 
-## Unsubscribe from scheduled reports {#concept_6B48360F935740B6851BA85D32DEF637}
+## Annullare l'iscrizione ai rapporti pianificati {#concept_6B48360F935740B6851BA85D32DEF637}
 
 Puoi annullare l'iscrizione ai rapporti pianificati. Il rapporto non verrà più visualizzato, anche se il nome utente viene nuovamente aggiunto al report pianificato.
-
-<!-- 
-
-t_schedule_unsubscribe.xml
-
- -->
 
 >[!IMPORTANT]
 >
@@ -210,7 +134,7 @@ Per annullare l'iscrizione a un rapporto pianificato:
 
    ![](assets/unsubscribe-email.png)
 
-1. Click the **[!UICONTROL click here]** link next to **[!UICONTROL To cancel automatic delivery of this report]**.
+1. Fate clic sul **[!UICONTROL click here]** collegamento accanto **[!UICONTROL To cancel automatic delivery of this report]**.
 
 1. Confermate la cancellazione della consegna dei rapporti.
 
