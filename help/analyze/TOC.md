@@ -3,8 +3,8 @@ product: analytics
 audience: utente finale
 user-guide-title: Guida all'analisi di Analytics
 user-guide-url: /content/help/it-IT/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
+translation-type: tm+mt
+source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
 
@@ -113,7 +113,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
          + [Avvisi intelligenti: casi di utilizzo](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Domande frequenti](analysis-workspace/faq.md)
    + [Requisiti di amministrazione](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Ottimizzare la prestazione di Workspace](analysis-workspace/optimizing-performance.md)
+   + [Ottimizzare le prestazioni di Analysis Workspace](analysis-workspace/optimizing-performance.md)
    + [Confronto tra Analysis Workspace e Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limiti di Analysis Workspace](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
