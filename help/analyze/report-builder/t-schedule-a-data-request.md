@@ -7,7 +7,7 @@ title: Pianificazione di una richiesta dati
 topic: Generatore di report
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
 
 ---
 
@@ -16,26 +16,37 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 Potete pianificare le cartelle di lavoro, specificare opzioni di consegna avanzate, specificare i destinatari e visualizzare la cronologia delle pianificazioni. Le opzioni di consegna avanzate consentono di configurare i documenti di lavoro che si desidera inviare a un determinato momento o a intervalli specifici. Potete anche specificare il formato di file in cui inviare la cartella di lavoro.
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. Il limite di dimensione file è 5 MB per un caricamento di rapporti.
+Ad esempio, potete pianificare la pubblicazione di cartelle di lavoro immediatamente o secondo una pianificazione periodica e specificare il formato di file in [!DNL Advanced Delivery Options]. Il limite di dimensione file è 5 MB per il caricamento di una cartella di lavoro.
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (See [Report Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) in Reports &amp; Analytics help.)
+Inoltre, dopo aver creato una pianificazione di cartelle di lavoro in Generatore di report, potete visualizzare e modificare la pianificazione in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (consultate [Pianificazione dei report e distribuzione](/help/analyze/reports-analytics/scheduling.md) nell'Aiuto di Reporting e analisi.)
 
 >[!NOTE]
 >
->Per pianificare una cartella di lavoro, è necessario installare Excel 2007 o il pacchetto di compatibilità installato. Potete disporre di un massimo di 10 cartelle di lavoro pianificate per Licenza Generatore di report. Tuttavia, potete aumentare questo numero sottraendo da altre licenze. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Una cartella di lavoro che è stata pianificata (o caricata nella Libreria di Workcartelle) e non è stata toccata (aggiornata, sostituita) in più di 28 mesi verrà eliminata.
+>Per pianificare una cartella di lavoro, è necessario installare Excel 2007 o il pacchetto di compatibilità installato. Potete disporre di un massimo di 10 cartelle di lavoro pianificate per Licenza Generatore di report. Tuttavia, potete aumentare questo numero sottraendo da altre licenze. A questo scopo, accedete **[!UICONTROL Admin]** a &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Una cartella di lavoro che è stata pianificata (o caricata nella Libreria di Workcartelle) e non è stata toccata (aggiornata, sostituita) in più di 28 mesi verrà eliminata.
+
+>[!NOTE]
+>
+>Il «Tempo di consegna»/«Ora del giorno» immesso dall'utente specifica l'ora in cui la cartella di lavoro deve iniziare elaborazione, non l'ora in cui verrà effettivamente consegnata. La data e l'ora effettive in cui la cartella di lavoro verrà distribuita dipende principalmente dal tempo necessario per l'elaborazione (i documenti di lavoro complessi e di grandi dimensioni richiedono più tempo rispetto alle cartelle di lavoro più semplici). Ad esempio, se una cartella di lavoro impiega 15 minuti da elaborare, il tempo di consegna effettivo sarà almeno 15 minuti oltre il «Tempo di consegna»/«Ora del giorno» specificato originariamente.
+>Inoltre, esistono molti altri fattori che possono aumentare ulteriormente il ritardo prima della distribuzione della cartella di lavoro:
+>
+> * **L'esecuzione contemporanea di numerose pianificazioni dello stesso tipo** può sovraccaricare il sistema. Il sistema Pianificazione consente solo alcuni (5-10) cartelle di lavoro di qualsiasi tipo da eseguire simultaneamente; pertanto, quando tutte le versioni di un determinato tipo sono pianificate contemporaneamente, alcuni dovranno attendere in linea per il termine di altri documenti di lavoro prima di iniziare l'elaborazione. Questo problema può essere mitigato pianificando le cartelle di lavoro della società in tempi rapidizzati durante il giorno o l'ora, anziché simultaneamente.
+> * A parte il tipo di cartella di lavoro, le cartelle di lavoro saranno anche in linea se l'azienda ha **più di 15-20 di qualsiasi tipo di cartella di lavoro pianificata contemporaneamente (per tutti i tipi di cartelle)**. Questa operazione può essere mitigata rendendo difficoltosa la pianificazione temporale, evitando che venga eseguita contemporaneamente.
+> * **I problemi nei servizi** a valle richiesti dal programma di pianificazione possono influire anche sulla distribuzione delle cartelle di lavoro. Ad esempio, se utilizzate indipendentemente le API per eseguire le cartelle di lavoro e compilare la coda delle richieste API, i vostri documenti di lavoro pianificati potrebbero venire distribuiti lentamente mentre siete competitivi per quella risorsa.
+> * **La latenza della suite di rapporti** (un ritardo nella raccolta dati) può anche ritardare alcune cartelle di lavoro pianificate.
+
 
 **Pianificazione di una cartella di lavoro**
 
 1. Generate e salvate una cartella di lavoro.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. Nella barra degli strumenti di Generatore di report, fate clic **[!UICONTROL Schedule]** su.
 
    [!UICONTROL Scheduled Reports] La scheda riepiloga tutte le attività create, oltre al numero di operazioni rimanenti.
-1. On the **[!UICONTROL Scheduled Reports]** tab, click **[!UICONTROL New]**.
+1. Nella **[!UICONTROL Scheduled Reports]** scheda, fate clic **[!UICONTROL New]** su.
 1. Viene visualizzata la procedura guidata di base della pianificazione:
 
    ![](assets/simple-schedule-wizard.png)
 
-1. In the [!UICONTROL Basic Scheduling Wizard], configure the following options:
+1. In [!UICONTROL Basic Scheduling Wizard], configurate le seguenti opzioni:
 
 * **Selezionate Report**: Nome della cartella di lavoro. Per i nuovi documenti di lavoro pianificati, questo campo viene compilato con il nome del cartella di lavoro attivo.
 
@@ -53,7 +64,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seleziona </p> </td> 
-   <td colname="col2"> <p>Displays the <span class="wintitle"> Select Report</span> page. Potete selezionare un rapporto dal server (dove vengono archiviate tutte le cartelle di lavoro precedentemente pianificate) o dal computer locale. If you select a workbook from the local drive in <span class="filepath"> .xls</span> format, the system converts the file to <span class="filepath"> .xlsx</span>. Come parte di tale conversione, il file viene aperto in Excel e reso attivo. Se la cartella di lavoro selezionata per il rapporto pianificata ha lo stesso nome file della cartella di lavoro attualmente aperta in Excel, il sistema seleziona il file locale anziché quello caricato in precedenza. Se selezionate un rapporto dall'archivio di pianificazione, viene creata una copia della cartella di lavoro sul server, con il nome file aggiornato con 1, e il rapporto appena creato utilizza la cartella di lavoro copiata. </p> </td> 
+   <td colname="col2"> <p>Visualizza la <span class="wintitle"> pagina Seleziona rapporto</span> . Potete selezionare un rapporto dal server (dove vengono archiviate tutte le cartelle di lavoro precedentemente pianificate) o dal computer locale. Se selezionate una cartella di lavoro dall'unità locale in <span class="filepath"> formato. xls</span> , il file converte il file in <span class="filepath"> .xlsx</span>. Come parte di tale conversione, il file viene aperto in Excel e reso attivo. Se la cartella di lavoro selezionata per il rapporto pianificata ha lo stesso nome file della cartella di lavoro attualmente aperta in Excel, il sistema seleziona il file locale anziché quello caricato in precedenza. Se selezionate un rapporto dall'archivio di pianificazione, viene creata una copia della cartella di lavoro sul server, con il nome file aggiornato con 1. Il rapporto appena creato utilizza la cartella di lavoro copiata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Personalizza </p> </td> 
@@ -73,7 +84,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Power BI </p> </td> 
-   <td colname="col2"> <p>See <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local"> Publish Workbook to Microsoft Power BI</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Per ulteriori informazioni, consultate <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local"> Pubblicare la cartella di lavoro su Microsoft Power BI</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Oggetto </p> </td> 
@@ -86,7 +97,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
  </tbody> 
 </table>
 
-1. Click **[!UICONTROL Advanced Delivery Options]** to configure file and publishing options:
+1. Fate clic per **[!UICONTROL Advanced Delivery Options]** configurare i file e le opzioni di pubblicazione:
 
 <table id="table_1BA8A5600DE94A33B83B096E69CE15F3"> 
  <thead> 
@@ -118,7 +129,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Formato file </p> </td> 
-   <td colname="col2"> <p>Lets you select a delivery format of Excel 2007 (<span class="filepath"> .xlsx</span>) or 2003 (<span class="filepath"> .xls</span>), <span class="filepath"> .pdf</span>,<span class="filepath"> .csv,</span><span class="filepath"> .mht</span>,<span class="filepath"> .txt</span>, and<span class="filepath"> .xml</span>. </p> </td> 
+   <td colname="col2"> <p>Consente di selezionare un formato di consegna Excel 2007 (<span class="filepath"> .xlsx</span>) o 2003 (<span class="filepath"> . xls</span>) <span class="filepath"> .pdf</span><span class="filepath"> . csv</span><span class="filepath"> . mht</span><span class="filepath"> .txt</span>e<span class="filepath"> .xml</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Destinazione file </p> </td> 
@@ -152,7 +163,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
  </tbody> 
 </table>
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. Fate clic **[!UICONTROL OK]** su, quindi fate clic **[!UICONTROL Exit]** su.
 
-   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+   Generatore di report visualizza la cartella di lavoro pianificata in Task Manager [pianificata](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
 
