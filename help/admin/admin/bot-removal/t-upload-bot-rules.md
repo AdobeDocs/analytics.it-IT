@@ -8,7 +8,7 @@ title: Caricare regole bot
 topic: Strumenti di amministrazione
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 d 82 f 2 c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ Per importare regole bot di importazione in massa, potete caricare un file CSV c
 Create un file CSV con le seguenti colonne, nell'ordine seguente:
 
 | Colonna 1 | Colonna 2 | Colonna 3 | Colonna 4 | Colonna 5 |
-|---|---|---|---|---|
-| Nome bot | Inizio IP | Fine IP | Regola corrispondenza agente<br>(`contains` o `starts with`) | Escludi agente<br>(limite char 255) |
+|--- |--- |---|---|---|
+| Nome bot | Inizio IP | Fine IP | Regola corrispondenza agente<br>(contiene o inizia con)</br> | Escludi agente<br>(limite di 255 caratteri)</br> |
 
 Puoi definire tre tipi di regole bot:
 
