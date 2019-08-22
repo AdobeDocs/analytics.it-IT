@@ -4,7 +4,7 @@ seo-title: Rimozione bot in Adobe Analytics
 description: 3 modalità per rimuovere i bot in Adobe Analytics
 seo-description: 3 modalità per rimuovere i bot in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ Ricorda di utilizzare l'ID visitatore Experience Cloud come dimensione e applica
 
 ## Passaggio 4: Reindirizzare questo elenco ad Adobe come attributo cliente
 
-Una volta raggiunto il rapporto Data Warehouse, avrai un elenco di ECID che devono essere filtrati dai dati storici. Copiate e incollate questi ECID in un file CSV vuoto con sole due colonne, ECID e Flag Bot:
+Una volta raggiunto il rapporto Data Warehouse, avrai un elenco di ECID che devono essere filtrati dai dati storici. Copiate e incollate questi ECID in un file. CSV vuoto con sole due colonne, ECID e Flag Bot:
 
-
+![](assets/bot-csv-4.png)
 
 Assicurati che la prima intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra. Usa questo file. CSV come file di importazione attributo del cliente, quindi sottoscrivi le suite di rapporti all'attributo del cliente come descritto in questo [post di blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ## Passaggio 5: Crea un segmento che sfrutta il nuovo attributo cliente
 
 Una volta che il set di dati è stato elaborato ed integrato in Analysis Workspace, crea un altro segmento che sfrutta la nuova dimensione attributo «Flag bot»:
+
