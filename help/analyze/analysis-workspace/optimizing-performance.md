@@ -5,7 +5,7 @@ seo-title: Ottimizzare le prestazioni di Analysis Workspace
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -25,7 +25,7 @@ Segmenti complessi possono avere un impatto significativo sulle prestazioni del 
 * Molti operatori OR (invece di AND)
 * Contenitori nidificati che variano in ambito (ad esempio, «Hit» all'interno di «Visita» all'interno di «Visitatore»)
 
-**Best practice per la complessità logica**
+**Procedure ottimali per la complessità logica**
 
 Mentre alcuni dei fattori di complessità non possono essere evitati, pensa alle opportunità di ridurre la complessità dei tuoi segmenti. In generale, più si può essere specifici con i propri criteri di segmento, meglio è. Ad esempio:
 
@@ -39,7 +39,7 @@ Inoltre, l’uso delle [classificazioni](/help/components/c-classifications2/c-c
 
 L’intervallo dei dati richiesti nell’ambito di un progetto influenzerà le prestazioni di Analysis Workspace.
 
-**Procedura consigliata per l'intervallo di dati**
+**Procedure ottimali per l'intervallo di dati**
 
 Dove possibile, non inserire più dati del necessario.
 
@@ -95,7 +95,9 @@ La dimensione della suite di rapporti può sembrare un fattore fondamentale, ma 
 
 Il numero di utenti che accede contemporaneamente ad Analysis Workspace o a progetti specifici non ha un effetto notevole sulle prestazioni di Analysis Workspace, se gli utenti accedono a suite di rapporti diverse. Se gli utenti simultanei accedono alla stessa suite di rapporti, le prestazioni risulteranno influenzate.
 
-## Errori comuni
+## Messaggi di errore comuni in Analysis Workspace
+
+Potrebbero verificarsi errori durante l'interazione con Analysis Workspace. Gli errori possono verificarsi per diversi motivi ed elencati di seguito.
 
 | Messaggio di errore | Perché si verifica questo problema? |
 |---|---|
