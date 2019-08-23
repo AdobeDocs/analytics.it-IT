@@ -8,7 +8,7 @@ title: AppMeasurement per JavaScript
 topic: Sviluppatore e implementazione
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
+source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
 
 ---
 
@@ -25,6 +25,15 @@ Note sulla versione cumulative per [!DNL AppMeasurement] javascript.
 
 L'ultima versione di ciascuna libreria può essere scaricata in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
 
+## Versioni 2.17.0
+
+Data di rilascio: **23 agosto 201**
+
+| Funzionalità/Correzione | Descrizione |
+| -----------| ---------- |
+| Supporto Baidu aggiunto | È stato aggiunto il supporto per il riordino delle stringhe query Baidu. |
+| Correzione | È stato risolto un problema che causava la messa in coda dei valori dei visitatori stanti in coda in attesa di consenso. |
+
 ## Versione 2.16.0
 
 Release Date: **August 15, 2019**
@@ -33,7 +42,7 @@ Release Date: **August 15, 2019**
 | -----------| ---------- |
 | Supporto di `sendBeacon` per i collegamenti in uscita | In `sendBeacon` è stato implementato il supporto di [!UICONTROL AppMeasurement] per i collegamenti di uscita. Questo migliorerà il tracciamento dei collegamenti in uscita e determinerà probabilmente un aumento del traffico. `SendBeacon` non viene eseguito nel contesto di una pagina ma nel contesto del browser. Se una pagina viene scaricata con `sendBeacon`, la richiesta sarà comunque completata. Questo è molto utile per i collegamenti exit, perché rende molto più probabile che la richiesta di collegamento exit venga completata. |
 | Valori ECID/fid | I valori ECID/fid ora sono memorizzati nella cache al primo hit anche se le impostazioni Opt-In cambiano. |
-| DIL 9.3 | Il modulo Gestione dell’audience è stato aggiornato a DIL 9.3 |
+| DIL 9.3 | Il modulo Gestione dell'audience è stato aggiornato a DIL 9.3 |
 | Tracciamento della portata di scorrimento | È stato esposto uno switch in s.ActivityMap.trackScrollReach per attivare o disattivare il tracciamento della portata di scorrimento. |
 | Servizio ID visitatori 4.4.0 | AppMeasurement è stato aggiornato per utilizzare il servizio ID visitatori 4.4.0. |
 
