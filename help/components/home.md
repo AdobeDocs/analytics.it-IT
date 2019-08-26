@@ -3,7 +3,7 @@ title: Aiuto sui componenti di Analytics
 seo-title: Aiuto sui componenti di Analytics
 description: nulle
 seo-description: nulle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,29 +13,29 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![Banner](../../assets/doc_banner_components.png)
 
-I componenti di Analytics consentono di perfezionare e abilitare l'analisi dei dati. I componenti includono:
+I componenti di Analytics consentono di perfezionare e potenziare le capacità di analisi dei dati. I suoi componenti includono:
 
-* **Segmentazione:** Attiva un sottoinsieme di dati.
-* **Metriche calcolate:** Utilizzare formule semplici per combinare metriche o funzioni avanzate per l'analisi statistica.
-* **Suite di rapporti virtuali:** Crea un silo virtuale di dati basati su una suite di rapporti. Consente di pulire o segmentare i dati per una migliore esperienza utente. Alcune funzionalità possono essere utilizzate solo nelle suite di rapporti virtuali.
-* **Avvisi:** Ricevete notifiche ogni volta che i dati di un'ora vanno sopra o sotto una soglia.
-* **Classificazioni:** Riorganizza e raggruppa le dimensioni per ottenere informazioni aggiuntive.
-* **Variabili:** Guida di riferimento a tutte le dimensioni e metriche disponibili nei rapporti.
-* **Report in tempo reale:** Ottieni rapporti e tendenze appena sono disponibili.
-* **Canali di marketing:** Scopri in che modo i visitatori arrivano al tuo sito e determinano i canali più efficaci.
+* **Segmentazione:** consente di concentrarsi su un sottoinsieme di dati.
+* **Metriche calcolate:** utilizza delle formule semplici per combinare diverse metriche e le funzioni avanzate per l’analisi statistica.
+* **Suite di rapporti virtuali:** crea un silos virtuale di dati basato su una suite di rapporti. Puoi pulire o segmentare i dati per una migliore esperienza d’uso. Alcune funzioni possono essere utilizzate solo nelle suite di rapporti virtuali.
+* **Avvisi:** puoi ricevere notifiche ogni volta che i dati si scostano da una determinata soglia.
+* **Classificazioni:** consentono di riorganizzare e raggruppare le dimensioni per ottenere informazioni aggiuntive.
+* **Variabili:** guida di riferimento per tutte le dimensioni e metriche disponibili nei rapporti.
+* **Rapporti in tempo reale:** puoi ottenere rapporti e tendenze nel momento in cui diventano disponibili.
+* **Canali di marketing:** scopri in che modo i visitatori arrivano al tuo sito e individua i canali più efficaci.
 
-## Articoli Chiave di Analytics
+## Articoli chiave sui componenti di Analytics
 
-* [Riferimento dimensione](c-variables/dimensionslist/reports-descriptions.md)
-* [Riferimento metriche](c-variables/c-metrics/metricslist.md)
+* [Documentazione sulle dimensioni](c-variables/dimensionslist/reports-descriptions.md)
+* [Documentazione sulle metriche](c-variables/c-metrics/metricslist.md)
 
 ## Altre guide utente di Analytics
 
 [Guide utente di Analytics](/help/landing/home.md)
 
-## Risorse chiave Analytics
+## Risorse chiave per Analytics
 
-* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://experienceleague.adobe.com/?lang=it#recommended/solutions/analytics)
