@@ -21,7 +21,7 @@ Vari rapporti in Adobe Analytics possono essere indicati da “Unspecified”, �
 * **Un evento viene attivato senza una variabile di conversione:** Ad esempio, un utente accede al sito ed effettua un acquisto senza alcun valore evar 1. Se visualizzi ordini con la dimensione evar 1, non esiste alcun valore a cui attribuire l'ordine. Pertanto, viene automaticamente attribuito a “Unspecified”.
 * **Dati non classificati nei rapporti classificazione:** Quando si visualizzano i dati di classificazione, qualsiasi valore associato a quella particolare classificazione restituisce “Unspecified”. Per risolvere questo problema, classificare il valore della variabile principale.
 * **Rapporti di suddivisione in cui è stata attivata una sola variabile:** Quando applicate una suddivisione a una variabile, ogni istanza di tale variabile deve essere conteggiata. Se la seconda variabile non è stata visualizzata o se è persistente da un hit precedente, il valore della dimensione è "Unspecified".
-* **Hit non mobili nei rapporti mobili:** Tutti gli hit non mobili nei rapporti mobili sono elencati come "Non specificato" (“Non mobile” in Reports and Analysis).
+* **Hit non mobili nei rapporti mobili:** Tutti gli hit non mobili nei rapporti mobili sono elencati come "Non specificato" (“Non mobile” in Reports and Analytics).
 
 ## “Other” nel reporting
 
