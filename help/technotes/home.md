@@ -1,26 +1,26 @@
 ---
-title: Home notes home
-translation-type: tm+mt
+title: Home note tecniche
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Home notes home
+# Home note tecniche
 
-Questa guida fornisce informazioni utili su argomenti che non appartengono a uno strumento o a un componente analitico specifico.
+Questa guida fornisce informazioni utili su argomenti che non appartengono a uno strumento o componente di analisi specifico.
 
 ## Articoli principali sulle note tecniche
 
-* [Passaggio da una piattaforma di analisi di terze parti ad Adobe Analytics](ga-to-aa/home.md)
+* [Transizione da una piattaforma di analisi di terze parti ad Adobe Analytics](ga-to-aa/home.md)
 
 ## Altre guide utente di Analytics
 
 [Guide utente di Analytics](../landing/home.md)
 
-## Risorse chiave Analytics
+## Risorse chiave per Analytics
 
-* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Risorse Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://experienceleague.adobe.com/?lang=it#recommended/solutions/analytics)
