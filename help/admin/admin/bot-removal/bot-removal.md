@@ -4,7 +4,7 @@ seo-title: Rimozione bot in Adobe Analytics
 description: 3 modalità per rimuovere i bot in Adobe Analytics
 seo-description: 3 modalità per rimuovere i bot in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
+source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
 
 ---
 
@@ -56,4 +56,18 @@ Assicurati che la prima intestazione di colonna corrisponda al nome assegnato al
 ## Passaggio 5: Crea un segmento che sfrutta il nuovo attributo cliente
 
 Una volta che il set di dati è stato elaborato ed integrato in Analysis Workspace, crea un altro segmento che sfrutta la nuova dimensione attributo «Flag bot»:
+
+![](assets/bot-filter-seg2.png)
+
+## Passaggio 6: Usa questo segmento come filtro Suite di rapporti virtuale
+
+Infine, devi creare una suite di rapporti virtuale che sfrutta questo segmento per filtrare i bot identificati:
+
+![](assets/bot-vrs.png)
+
+Questa suite di rapporti virtuale appena segmentata darà luogo a un set di dati significativamente più pulito con i bot identificati completamente rimossi.
+
+## Passaggio 7: Ripetete i passaggi 2, 3 e 4 regolarmente
+
+Impostare almeno un promemoria mensile per identificare e filtrare nuovi bot, possibilmente prima di un'analisi pianificata regolarmente.
 
