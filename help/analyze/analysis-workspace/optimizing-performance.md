@@ -5,7 +5,7 @@ seo-title: Ottimizzare le prestazioni di Analysis Workspace
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
+source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
 
 ---
 
@@ -104,3 +104,6 @@ Potrebbero verificarsi errori durante l'interazione con Analysis Workspace. Gli 
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | L'organizzazione sta tentando di eseguire troppe richieste simultanee rispetto a una suite di rapporti specifica. I collaboratori a questo errore sono richieste API, progetti pianificati, rapporti pianificati, avvisi pianificati e utenti simultanei che effettuano richieste di rapporti. Consigliamo di pubblicare in modo più uniforme le richieste e le pianificazioni per la suite di rapporti. |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe sta riscontrando un problema da risolvere. Ti consigliamo di inviare il codice di errore tramite una richiesta Assistenza clienti. |
 | `The request is too complex.` | La richiesta di reporting è troppo grande e non può essere eseguita. I collaboratori a questo errore sono timeout a causa della dimensione della richiesta, troppi elementi associati in un segmento o filtro di ricerca, troppe metriche incluse, combinazioni di dimensioni e metriche incompatibili, ecc. È consigliabile semplificare la richiesta. |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Consigliamo di limitare i criteri di ricerca ed effettuare nuovamente la richiesta. |
+| `This dimension does not currently support non-default attribution models.` | È consigliabile sostituire la dimensione nella tabella con una compatibile con [IQ Attribuzione](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html). |
+| `Your request failed as a result of too many columns or pre-configured rows.` | Consigliamo di rimuovere alcune colonne o righe oppure di suddividere le colonne in visualizzazioni separate. |
