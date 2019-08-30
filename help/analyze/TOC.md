@@ -3,7 +3,7 @@ product: analytics
 audience: utente finale
 user-guide-title: Guida all'analisi di Analytics
 user-guide-url: /content/help/it-IT/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
@@ -97,7 +97,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
       + [Domande frequenti su Attribution IQ](analysis-workspace/attribution-iq/attribution-faq.md)
    + Analista virtuale {#virtual-analyst}
       + [Analista virtuale](analysis-workspace/virtual-analyst/virtual-analyst.md)
-      + Rilevamento delle anomalie {#anomaly-detection}
+      + Detección de anomalías {#anomaly-detection}
          + [Panoramica di Rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualizzare le anomalie in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [Disattivare il rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
@@ -173,7 +173,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
          + [Autorizzazioni di accesso utente per dimensioni e metriche](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [Modificare le metriche: definizioni dei campi](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
          + [Attributi cliente](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
-      + [Rilevamento delle anomalie](report-builder/layout/anomaly-detection.md)
+      + [Detección de anomalías](report-builder/layout/anomaly-detection.md)
       + [Configurare una richiesta di rilevamento delle anomalie](report-builder/layout/t-anomaly.md)
       + [Formattare la data](report-builder/layout/format-the-data.md)
       + [Formattare le intestazioni di visualizzazione](report-builder/layout/t-format-display-headers.md)
