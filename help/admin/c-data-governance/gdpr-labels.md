@@ -5,7 +5,7 @@ seo-title: Etichette RGPD per le variabili di Analytics
 title: Etichette RGPD per le variabili di Analytics
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
 
 ---
 
@@ -225,7 +225,7 @@ Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo
 
    ![](assets/namespace2.png)
 
-1. Premi **[!UICONTROL Enter] (Invio) per aggiungere questo namespace.** Solo a questo punto si attiverà il pulsante Applica.
+1. Premi **[!UICONTROL Enter](Invio) per aggiungere questo namespace.** Solo a questo punto si attiverà il pulsante Applica.
 1. Fai clic su **[!UICONTROL Apply]**.
 
 La stringa specificata come namespace è la stessa stringa che devi usare quando invii le richieste tramite l’API dell’RGPD come valore del parametro “namespace”. Per via della richiesta, Adobe Analytics cercherà tutte le variabili in tutte le suite di rapporti che condividono questo namespace per l’ID specificata con la richiesta.
@@ -243,6 +243,8 @@ Non è necessario specificare le etichette ID-DEVICE o ID-PERSON per tutte le va
 È consentito usare lo stesso namespace per variabili diverse all’interno della stessa suite di rapporti. Ad esempio, alcune implementazioni personalizzate memorizzano un CRM-ID sia nella proprietà che in eVar. Se CRM-ID si trova sempre in una delle due (ad esempio in eVar) e solo di tanto in tanto nell’altra (prop) e non è mai in prop quando è assente anche in eVar, solo eVar richiede un’etichetta ID e uno spazio dei nomi, perché Adobe può cercare l’ID solo in quell’eVar. Se tuttavia CRM-ID si trova a volte in una variabile e a volte nell’altra, entrambe devono avere lo stesso namespace e Adobe cercherà in entrambe le variabili la presenza dell’ID specificato come parte di una richiesta RGPD con questo namespace. È comunque necessario disporre di etichette DEL su tutte queste variabili, in modo che il valore sia anonimo indipendentemente da dove si verifica.
 
 Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a volte tramite prop7. In questo caso, una regola di elaborazione copia il valore da eVar1, se esiste, in eVar3. Altrimenti copia il valore da prop7 in eVar3. In questo scenario, eVar3 conterrà sempre l’ID CRM se noto, pertanto solo eVar3 richiede un’etichetta ID-PERSON.
+
+> [!WARNING] Gli spazi dei nomi «visitorid» e «customvisitorid» sono riservate all'identificazione del cookie di tracciamento legacy di Analytics e dell'ID visitatore del cliente Analytics. Non utilizzare questi spazi di nomi per le variabili di traffico o di conversione personalizzate.
 
 ## Tipi di variabili ed etichette RGPD/DULE supportate {#section_CE7C3EDE1344466A98BC45E394B40762}
 
