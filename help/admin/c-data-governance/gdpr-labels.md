@@ -5,7 +5,7 @@ seo-title: Etichette RGPD per le variabili di Analytics
 title: Etichette RGPD per le variabili di Analytics
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
+source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
 
 ---
 
@@ -244,7 +244,7 @@ Non è necessario specificare le etichette ID-DEVICE o ID-PERSON per tutte le va
 
 Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a volte tramite prop7. In questo caso, una regola di elaborazione copia il valore da eVar1, se esiste, in eVar3. Altrimenti copia il valore da prop7 in eVar3. In questo scenario, eVar3 conterrà sempre l’ID CRM se noto, pertanto solo eVar3 richiede un’etichetta ID-PERSON.
 
-> [!WARNING] Gli spazi dei nomi «visitorid» e «customvisitorid» sono riservate all'identificazione del cookie di tracciamento legacy di Analytics e dell'ID visitatore del cliente Analytics. Non utilizzare questi spazi di nomi per le variabili di traffico o di conversione personalizzate.
+> [!CAUTION] Gli spazi dei nomi «visitorid» e «customvisitorid» sono riservate all'identificazione del cookie di tracciamento legacy di Analytics e dell'ID visitatore del cliente Analytics. Non utilizzare questi spazi di nomi per le variabili di traffico o di conversione personalizzate.
 
 ## Tipi di variabili ed etichette RGPD/DULE supportate {#section_CE7C3EDE1344466A98BC45E394B40762}
 
