@@ -1,20 +1,16 @@
 ---
 description: Il plug-plugin s. hitdeck tiene traccia del numero totale di richieste di immagini di Analytics inviate durante un intervallo di tempo predefinito, e può eseguire una logica aggiuntiva se il totale supera una certa soglia.
 seo-description: Il plug-plugin s. hitdeck tiene traccia del numero totale di richieste di immagini di Analytics inviate durante un intervallo di tempo predefinito, e può eseguire una logica aggiuntiva se il totale supera una certa soglia.
-seo-title: Hitboar
-title: Hitboar
+seo-title: hitGovernor
+title: hitGovernor
 uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
 translation-type: tm+mt
-source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
+source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
 
 
-# Hitboar
-
-Il plug-plugin s. hitdeck tiene traccia del numero totale di richieste di immagini di Analytics inviate durante un intervallo di tempo predefinito, e può eseguire una logica aggiuntiva se il totale supera una certa soglia.
-
-## Hitboar {#topic_56B636A42A624B38A0A446C607ACD700}
+# hitGovernor
 
 Il plug-plugin s. hitdeck tiene traccia del numero totale di richieste di immagini di Analytics inviate durante un intervallo di tempo predefinito, e può eseguire una logica aggiuntiva se il totale supera una certa soglia.
 
