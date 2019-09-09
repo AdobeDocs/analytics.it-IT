@@ -4,7 +4,7 @@ seo-title: Rimozione bot in Adobe Analytics
 description: 3 modalità per rimuovere i bot in Adobe Analytics
 seo-description: 3 modalità per rimuovere i bot in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ---
 
@@ -15,7 +15,14 @@ In Adobe Analytics, avete diverse opzioni per rimuovere il traffico bot dai rapp
 
 ## Usa regole bot
 
-Il metodo di filtro bot predefinito in Adobe Analytics consiste [nel creare regole](/help/admin/admin/bot-removal/bot-rules.md) bot basate sull'elenco bot IAB. Questo elenco viene aggiornato mensilmente e ne effettua la compilazione da numerose fonti, inclusi i DN e le principali proprietà Internet. Comprende migliaia di bot noti, inclusi tutti i preferiti: Google, Bing, Mozilla, ecc. Questo elenco illustra la stragrande maggioranza dei casi di utilizzo e le esigenze per la filtrazione dei bot.
+Sono supportati sia i metodi di filtro bot standard che quelli personalizzati in !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]:
+
+| Tipo di regola | Descrizione |
+|--- |--- |
+| Regole bot IAB standard | Selecting 'Enable IAB Bot Filtering Rules' uses the [IAB's](https://www.iab.com/) (International Advertising Bureau's) International Spiders &amp; Bots List to remove bot traffic. La maggior parte dei clienti seleziona questa opzione come minimo. |
+| Regole bot personalizzate | Puoi definire e aggiungere regole bot personalizzate basate su agenti utente, indirizzi IP o intervalli IP. |
+
+Per maggiori informazioni, consultate [Panoramica delle regole bot](/help/admin/admin/bot-removal/bot-rules.md).
 
 ## Utilizzare il `hitGovernor` plug-in di implementazione
 
@@ -27,11 +34,11 @@ Inoltre, poiché i bot avanzano rapidamente, Adobe offre numerose altre funziona
 
 ### Passaggio 1: Passa l'Experience Cloud ID dei visitatori in un nuovo ID dichiarato
 
-Per iniziare, devi creare un nuovo ID dichiarato nel servizio di base [Audience](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Dovrai passare l'Experience Cloud ID del visitatore in questo nuovo ID dichiarato, che può essere eseguito in modo rapido e semplice con [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Usiamo il nome «ECID» per l'ID dichiarato.
+Per iniziare, devi creare un nuovo ID dichiarato nel servizio core [Persone](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Dovrai passare l'Experience Cloud ID del visitatore in questo nuovo ID dichiarato, che può essere eseguito in modo rapido e semplice con [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Usiamo il nome «ECID» per l'ID dichiarato.
 
-screenshot here
+![](assets/bot-cust-attr-setup.png)
 
-Ecco come questo ID può essere acquisito tramite Elemento dati. Accertatevi di compilare correttamente l'ID Adobe ecorg nell'elemento dati.
+Ecco come questo ID può essere acquisito tramite Elemento dati. Assicurati di compilare correttamente la tua organizzazione di Experience Cloud nell'elemento dati.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -53,15 +60,18 @@ Ricorda di utilizzare l'ID visitatore Experience Cloud come dimensione e applica
 
 ### Passaggio 4: Reindirizzare questo elenco ad Adobe come attributo cliente
 
-Una volta raggiunto il rapporto Data Warehouse, avrai un elenco di ECID che devono essere filtrati dai dati storici. Copiate e incollate questi ECID in un file. CSV vuoto con sole due colonne, ECID e Flag Bot:
+Una volta raggiunto il rapporto Data Warehouse, avrai un elenco di ECID che devono essere filtrati dai dati storici. Copiate e incollate questi ECID in un file. CSV vuoto con sole due colonne, ECID e Flag Bot.
+
+* **ECID**: Assicurati che l'intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra.
+* **Flag bot**: Aggiungi questa dimensione come dimensione schema attributo cliente.
+
+Usa questo file. CSV come file di importazione attributo del cliente, quindi sottoscrivi le suite di rapporti all'attributo del cliente come descritto in questo [post di blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](assets/bot-csv-4.png)
 
-Assicurati che la prima intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra. Usa questo file. CSV come file di importazione attributo del cliente, quindi sottoscrivi le suite di rapporti all'attributo del cliente come descritto in questo [post di blog](https://theblog.adobe.com/link-digital-behavior-customers).
-
 ### Passaggio 5: Crea un segmento che sfrutta il nuovo attributo cliente
 
-Una volta che il set di dati è stato elaborato ed integrato in Analysis Workspace, crea un altro segmento che sfrutta la nuova dimensione attributo «Flag bot»:
+Una volta che il set di dati è stato elaborato ed integrato in Analysis Workspace, crea un altro segmento che sfrutta la nuova dimensione attributo "Flag Bot" e un !![UICONTROL Exclude] contenitore:
 
 ![](assets/bot-filter-seg2.png)
 
@@ -76,4 +86,3 @@ Questa suite di rapporti virtuale appena segmentata darà luogo a un insieme di 
 ### Passaggio 7: Ripetete i passaggi 2, 3 e 4 regolarmente
 
 Impostare almeno un promemoria mensile per identificare e filtrare nuovi bot, possibilmente prima di un'analisi pianificata regolarmente.
-
