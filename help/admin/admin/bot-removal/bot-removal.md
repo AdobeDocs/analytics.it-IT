@@ -4,7 +4,7 @@ seo-title: Rimozione bot in Adobe Analytics
 description: 3 modalità per rimuovere i bot in Adobe Analytics
 seo-description: 3 modalità per rimuovere i bot in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
+source-git-commit: 711d58d139abcff344e43e1484f0ba2f2d3407cf
 
 ---
 
@@ -15,7 +15,7 @@ In Adobe Analytics, avete diverse opzioni per rimuovere il traffico bot dai rapp
 
 ## Usa regole bot
 
-Sono supportati sia i metodi di filtro bot standard che quelli personalizzati in !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]:
+Sono supportati entrambi i metodi di filtro bot standard e personalizzato in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]****[!UICONTROL Bot Rules]**&gt;:
 
 | Tipo di regola | Descrizione |
 |--- |--- |
