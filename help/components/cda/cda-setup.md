@@ -2,16 +2,18 @@
 title: Configurazione di Analisi cross-device
 description: Scopri come configurare Analytics Cross-Device dopo aver soddisfatto i prerequisiti.
 translation-type: tm+mt
-source-git-commit: 1ab4c27d6635167be475b6669ff6ed1913adc455
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Configurazione di Analisi cross-device
 
-> [!IMPORTANT] Tutti i prerequisiti devono essere soddisfatti prima di seguire questi passaggi. Se tutti i prerequisiti non sono soddisfatti, la funzione non è disponibile o non funzionerà. Consultate [Analisi cross-device](cda-home.md) per prerequisiti e limitazioni.
+> [!NOTE] La documentazione Cross-Device Analytics è soggetta a modifiche man mano che la funzione è stata ulteriormente sviluppata. Verificate regolarmente la presenza di aggiornamenti.
 
 Una volta soddisfatti tutti i prerequisiti, utilizza i passaggi seguenti per abilitare Analytics tra dispositivi. Per seguire questi passaggi, devi appartenere a un gruppo Amministratore di profilo di prodotto o avere privilegi di amministratore in Adobe Analytics.
+
+> [!IMPORTANT] Tutti i prerequisiti devono essere soddisfatti prima di seguire questi passaggi. Se tutti i prerequisiti non sono soddisfatti, la funzione non è disponibile o non funzionerà. Consultate [Analisi cross-device](cda-home.md) per prerequisiti e limitazioni.
 
 ## Scegli la suite di rapporti cross-device che sarà abilitata per CDA
 
