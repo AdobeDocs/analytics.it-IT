@@ -2,19 +2,21 @@
 title: Analisi cross-device
 description: Analytics cross-device modifica i tuoi dati da dispositivi incentrati su tipo di dispositivo incentrando insieme i dati dei dispositivi.
 translation-type: tm+mt
-source-git-commit: 47cde7b12b78e9394aac531d068634688c635ec1
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Analisi cross-device
 
-Analytics cross-device è una funzione che trasforma Analytics da una vista incentrata su dispositivo a una vista incentrata sulla persona. Questa funzione utilizza il grafico Adobe Experience Platform Identity Co-op Graph o Private Graph per identificare i dispositivi appartenenti a singoli utenti e raggrupparli. Di conseguenza, gli analisti possono comprendere il comportamento dell'utente che attraversa browser, dispositivi o app. Utilizzando la CDA potete rispondere a domande quali:
+> [!NOTE] La documentazione Cross-Device Analytics è soggetta a modifiche man mano che la funzione è stata ulteriormente sviluppata. Verificate regolarmente la presenza di aggiornamenti.
 
-* Quante persone interagiscono con il mio marchio? Quanti tipi di dispositivi usano? Come si sovrappongono?
-* Con quale frequenza le persone iniziano un'attività su un dispositivo mobile e successivamente passano a un PC desktop per completare l'attività? Fai clic su click-through delle campagne che arrivano su un dispositivo per passare da un'altra posizione?
-* In che modo la conoscenza dell'efficacia della campagna cambia se si considerano i percorsi cross-device? Come cambia l'analisi funnel?
-* Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all'altro? Da dove vengono rilasciati? Dove hanno successo?
+Analytics cross-device è una funzione che trasforma Analytics da una vista incentrata su dispositivo a una vista incentrata sulla persona. Questa funzione utilizza il grafico Adobe Experience Platform Identity Co-op Graph o Private Graph per identificare i dispositivi appartenenti a singoli utenti e raggrupparli. Di conseguenza, gli analisti possono comprendere il comportamento dell'utente che attraversa browser, dispositivi o app. Utilizzando CDA potrete rispondere a domande quali:
+
+* Quante persone interagiscono con il mio marchio? Quanti e quali tipi di dispositivi usano? Come si sovrappongono?
+* Con quale frequenza le persone iniziano un'attività su un dispositivo mobile e successivamente passano a un PC desktop per completare l'attività? I click-through delle campagne che arrivano su un dispositivo portano a una conversione su un altro?
+* Quali informazioni aggiuntive sull'efficacia della campagna posso ottenere considerando i passaggi tra i dispositivi? Come cambia la mia analisi funnel?
+* Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all'altro? Dove decidono di lasciar perdere? Dove hanno successo?
 * In che modo gli utenti con più dispositivi differiscono da quelli con un solo dispositivo?
 
 Quando i dispositivi sono allineati, la persistenza della variabile viene eseguita su più dispositivi. Ad esempio, un utente accede per la prima volta al sito tramite un annuncio sul computer desktop. L'utente trova la tua app mobile, la installa e infine effettua un acquisto sul dispositivo mobile. Con Analytics cross-device, le entrate possono essere attribuite all'annuncio che hanno fatto clic sul computer desktop.
