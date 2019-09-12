@@ -1,16 +1,16 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Panoramica Abbandono
-title: Panoramica Abbandono
+seo-title: Panoramica dell'abbandono
+title: Panoramica dell'abbandono
 uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
 
-# Panoramica Abbandono
+# Panoramica dell'abbandono
 
 Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito.
 
@@ -44,7 +44,7 @@ Si prenda ad esempio un abbandono con due passaggi:
 
 Se si applica un segmento a livello di pannello di Workspace, il segmento si combina con l’abbandono come segue:
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 Per contro, quando le funzioni Reports &amp; Analytics e Ad Hoc Analysis calcolano il segmento, questo si combina come segue:
 
