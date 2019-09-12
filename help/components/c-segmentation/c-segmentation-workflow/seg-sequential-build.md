@@ -7,7 +7,7 @@ title: Creare segmenti sequenziali
 topic: Segmenti
 uuid: 7 fb 9 f 1 c 7-a 738-416 a-aaa 2-d 77 e 40 fa 7 e 61
 translation-type: tm+mt
-source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
+source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 ---
 
@@ -18,9 +18,9 @@ I segmenti sequenziali vengono creati utilizzando l'operatore THEN, anziché AND
 
 ![](assets/before-after-sequence.png)
 
-Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Inoltre, potete vincolare i segmenti sequenziali a una durata specifica di tempo, granularità e conteggio tra i punti di controllo utilizzando gli operatori [After e Within](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
-## Include Everyone {#section_75ADDD5D41F04800A09E592BB2940B35}
+## Includi tutti {#section_75ADDD5D41F04800A09E592BB2940B35}
 
 Quando si crea un segmento in cui «Includi tutti» è impostato, il segmento identifica i percorsi che corrispondono al pattern specificato. Si tratta di un esempio di segmento di sequenza di base che cerca un hit (Pagina A) seguito da un altro (Pagina B) come visitato dallo stesso visitatore. Il segmento è impostato su Includi tutti.
 
@@ -28,12 +28,12 @@ Quando si crea un segmento in cui «Includi tutti» è impostato, il segmento id
 
 | Se risultato… | Sequenza |
 |--- |--- |
-| Corrisponde | A then B<br>A then (in a different visit) B<br>A then D then B |
+| Corrisponde | A then BA<br>then (in a different visit) BA<br>then D then B |
 | Non corrisponde | B then A |
 
-## Only Before Sequence and Only After Sequence {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## Solo prima della sequenza e solo dopo la sequenza {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-The options **[!UICONTROL Only Before Sequence]** and **[!UICONTROL Only After Sequence]** filter the segment to a subset of data before or after the specified sequence.
+Le opzioni **[!UICONTROL Only Before Sequence]** e **[!UICONTROL Only After Sequence]** filtrare il segmento a un sottoinsieme di dati prima o dopo la sequenza specificata.
 
 * **Solo prima della sequenza**: Include tutti gli hit prima di una sequenza + il primo hit della sequenza stessa (vedere l'esempio 1, 3). Se una sequenza viene visualizzata più volte in un percorso, «Solo prima sequenza» include il primo hit dell'ultima occorrenza della sequenza e tutti gli hit precedenti (vedere Esempio 2).
 * **Solo dopo la sequenza**: Include tutti gli hit dopo una sequenza + l'ultimo hit della sequenza stessa (vedere l'esempio 1, 3). Se una sequenza viene visualizzata più volte in un percorso, «Solo dopo» include l'ultimo hit della prima occorrenza della sequenza e tutti gli hit successivi (vedere Esempio 2).
@@ -62,7 +62,7 @@ Atteniamo anche questo concetto con la dimensione Profondità hit.
 
 ![](assets/hit-depth.png)
 
-## Dimension Constraints {#section_EAFD755F8E674F32BCE9B642F7F909DB}
+## Vincoli dimensione {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
 In una clausola “within” (entro), tra istruzioni THEN, è possibile aggiungere, ad esempio, “within 1 search keyword instance”, “within 1 eVar 47 instance”. In questo modo si vincola il segmento entro un’istanza di una dimensione.
 
@@ -73,7 +73,7 @@ L'impostazione di una clausola «Within Dimension» tra le regole consente a un 
 | Se risultato… | Sequenza |
 |--- |--- |
 | Corrisponde | A then B |
-| Non corrisponde | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
+| Non corrisponde | A then C then B (because B was not within 1 page of A)<br>**Nota:** Se la restrizione della dimensione è ridotta, «A then B» e «A then C then B» corrispondono entrambe. |
 
 ## Sequenza semplice di visualizzazione pagina
 
@@ -90,7 +90,7 @@ Di seguito sono riportati alcuni esempi di utilizzo del segmento.
 
 **Crea questo segmento**
 
-You nest two page rules within a top-level [!UICONTROL Visitor] container and sequence the page hits using the [!UICONTROL THEN] operator.
+Nidificate due regole di pagina all'interno di [!UICONTROL Visitor] un contenitore di livello principale e sequenza gli hit delle pagine utilizzando l' [!UICONTROL THEN] operatore.
 
 ![](assets/segment_sequential_1.png)
 
@@ -109,7 +109,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 **Crea questo segmento**
 
-This example nests two **[!UICONTROL Visit]** containers within the top-level **[!UICONTROL Visitor]** container and sequences the segment using the [!UICONTROL THEN] operator.
+Questo esempio nidifica due **[!UICONTROL Visit]** contenitori nel contenitore di livello principale **[!UICONTROL Visitor]** e sequerà il segmento utilizzando l [!UICONTROL THEN] 'operatore.
 
 ![](assets/visitor_seq_across_visits.png)
 
@@ -128,15 +128,15 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 **Crea questo segmento**
 
-1. Drop two Page dimensions from the left panes within a top-level [!UICONTROL Visitor] container.
+1. Rilascia due dimensioni Pagina dai riquadri a sinistra all'interno [!UICONTROL Visitor] di un contenitore di livello principale.
 1. Aggiungete l'operatore THEN tra di essi.
-1. Click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container]** and add a [!UICONTROL Visit] container underneath the [!UICONTROL Visitor] level and sequenced using the [!UICONTROL THEN] operator.
+1. Fate clic **[!UICONTROL Options]** &gt; **[!UICONTROL Add container]** e aggiungete un [!UICONTROL Visit] contenitore sotto il [!UICONTROL Visitor] livello e in sequenza utilizzando l [!UICONTROL THEN] 'operatore.
 
 ![](assets/mixed_level_checkpoints.png)
 
 ## Contenitori aggregati
 
-Adding multiple [!UICONTROL Hit] containers within a [!UICONTROL Visitor] container lets you employ the appropriate operators between the same type of containers, and to use rules and dimensions such as Page and Visit Number to define the page view and provide a sequence dimension within the [!UICONTROL Hit] container. Applying logic at the Hit-level lets you constrain and combine matches at a same-level of hits within the [!UICONTROL Visitor] container to build a variety of segment types.
+L'aggiunta [!UICONTROL Hit] di più contenitori all'interno di [!UICONTROL Visitor] un contenitore consente di impiegare gli operatori appropriati tra lo stesso tipo di contenitori e di utilizzare regole e dimensioni quali Pagina e Numero visita per definire la visualizzazione pagina e fornire una dimensione della sequenza all'interno [!UICONTROL Hit] del contenitore. L'applicazione logica a livello di hit consente di vincolare e combinare le corrispondenze allo stesso livello di hit nel [!UICONTROL Visitor] contenitore per creare diversi tipi di segmenti.
 
 **Esempio**: I visitatori visitano la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (pagina D nell'esempio), quindi hanno visitato la pagina B o la pagina C senza considerare il numero di visite.
 
@@ -149,43 +149,43 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 **Crea questo segmento**
 
-1. Select the [!UICONTROL Visitor] container as the top-level container.
-1. Add two [!UICONTROL Hit]-level containers—a dimension with an appropriate numerical dimension joined at the same [!UICONTROL Hit] level by the [!UICONTROL AND] and [!UICONTROL OR] operator.
-1. Within the [!UICONTROL Visit] container, add another [!UICONTROL Hit] container and nest two additional [!UICONTROL Hit] containers joined with an [!UICONTROL OR] or [!UICONTROL AND] operator.
+1. Selezionare [!UICONTROL Visitor] il contenitore come contenitore di livello principale.
+1. Aggiungere contenitori a due [!UICONTROL Hit]livelli: una dimensione con una dimensione numerica appropriata unita allo stesso [!UICONTROL Hit] livello dall'operatore [!UICONTROL AND] e [!UICONTROL OR] .
+1. All'interno del [!UICONTROL Visit] contenitore, aggiungete un altro [!UICONTROL Hit] contenitore e nidificate due [!UICONTROL Hit] contenitori aggiuntivi uniti a un operatore [!UICONTROL OR] o [!UICONTROL AND] operatore.
 
-   Sequence these nested [!UICONTROL Hit] containers with the [!UICONTROL THEN] operator.
+   Sequenza i [!UICONTROL Hit] contenitori nidificati con l' [!UICONTROL THEN] operatore.
 
 ![](assets/aggregate_checkpoints2.png)
 
 ## «Nidificazione» nei segmenti sequenziali
 
-By placing checkpoints at both the [!UICONTROL Visit] and [!UICONTROL Hit] level, you can constrain the segment to meet requirements within a specific visit as well as a specific hit.
+Posizionando i punti di controllo sia a [!UICONTROL Visit] livello di e [!UICONTROL Hit] livello, puoi vincolare il segmento in base ai requisiti in una visita specifica, nonché un hit specifico.
 
 **Esempio**: Visitatore visitato la pagina A quindi la pagina B nella stessa visita. In una nuova visita, il visitatore passava alla pagina C.
 
 **Crea questo segmento**
 
-1. Underneath a top-level [!UICONTROL Visit] container, drag in two page dimensions.
-1. Multi-select both rules, click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container from selection]** and change it to a [!UICONTROL Visit] container.
-1. Join them with a [!UICONTROL THEN] operator.
-1. Create a Hit container as a peer to the [!UICONTROL Visit] container and drag in a page dimension.
-1. Join the nested sequence in the [!UICONTROL Visit] container with the [!UICONTROL Hit] container using another [!UICONTROL THEN] operator.
+1. Sotto un [!UICONTROL Visit] contenitore di livello principale, trascinate in due dimensioni della pagina.
+1. Selezionate più regole, fate clic **[!UICONTROL Options]** su &gt; **[!UICONTROL Add container from selection]** e modificatele in [!UICONTROL Visit] un contenitore.
+1. Unisciti a un [!UICONTROL THEN] operatore.
+1. Crea un contenitore Hit come peer e [!UICONTROL Visit] trascina in una dimensione pagina.
+1. Unitevi alla sequenza nidificata nel [!UICONTROL Visit] contenitore con il [!UICONTROL Hit] contenitore utilizzando un altro [!UICONTROL THEN] operatore.
 
 ![](assets/nesting_sequential_seg.png)
 
 ## Escludere gli hit
 
-Segment rules include all data unless you specifically exclude [!UICONTROL Visitor], [!UICONTROL Visit], or [!UICONTROL Hit] data using the [!UICONTROL Exclude] rule. Consente di ignorare i dati comuni e di creare segmenti con maggiore attenzione. Oppure consente di creare segmenti esclusivi per gruppi individuati per identificare il set di dati rimanenti, ad esempio creando una regola che include i visitatori che hanno effettuato i primi ordini e quindi li escluda per identificare "non acquirenti". However, in most cases it is better to create rules that exclude broad values rather than trying to use the [!UICONTROL Exclude] rule to target specific include values.
+Le regole dei segmenti includono tutti i dati, a meno che tu non escluda [!UICONTROL Visitor]espressamente, [!UICONTROL Visit]o [!UICONTROL Hit] dati utilizzando la [!UICONTROL Exclude] regola. Consente di ignorare i dati comuni e di creare segmenti con maggiore attenzione. Oppure consente di creare segmenti esclusivi per gruppi individuati per identificare il set di dati rimanenti, ad esempio creando una regola che include i visitatori che hanno effettuato i primi ordini e quindi li escluda per identificare "non acquirenti". Nella maggior parte dei casi, tuttavia, è meglio creare regole che escludano valori ampi piuttosto che tentare di utilizzare la [!UICONTROL Exclude] regola per eseguire il targeting di specifici valori.
 
 Ad esempio:
 
-* **Escludete le pagine**. Use a segment rule to strip out a specific page (such as *`Home Page`*) from a report, create a Hit rule where the page equals "Home Page," and then exclude it. Questa regola include automaticamente tutti i valori eccetto la Home Page.
+* **Escludete le pagine**. Utilizzate una regola di segmento per rimuovere una pagina specifica (ad esempio *`Home Page`*) da un rapporto, creare una regola Hit in cui la pagina è «Home Page» e quindi escluderla. Questa regola include automaticamente tutti i valori eccetto la Home Page.
 * **Escludere domini di riferimento**. Utilizzate una regola che includa solo domini di riferimento da Google.com ed esclude tutti gli altri.
-* **Identificare i non acquirenti**. Identify when orders are greater than zero and then exclude the [!UICONTROL Visitor].
+* **Identificare i non acquirenti**. Identificare quando gli ordini sono superiori a zero e quindi escluderli.[!UICONTROL Visitor]
 
-The [!UICONTROL Exclude] operator can be employed to identify a sequence where specific visits or hits are not performed by the visitor. [!UICONTROL Exclude Checkpoints] possono essere incluse anche all'interno di un [gruppo logico](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+L' [!UICONTROL Exclude] operatore può essere impiegato per identificare una sequenza in cui il visitatore non esegue visite o hit specifici. [!UICONTROL Exclude Checkpoints] possono essere incluse anche all'interno di un [gruppo logico](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-## Escludi tra i punti di controllo
+### Escludi tra i punti di controllo
 
 Applicare logica per segmentare i visitatori in cui un punto di controllo non si è verificato in modo esplicito tra due altri checkpoint.
 
@@ -200,11 +200,11 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 **Crea questo segmento**
 
-Create a segment as you would for a simple, mixed-level, or nested sequential segment and then set the [!UICONTROL EXCLUDE] operator for the container element. The example below is an aggregate segment where the three [!UICONTROL Hit] containers are dragged to the canvas, the [!UICONTROL THEN] operator assigned to join the container logic, then exclude the middle page view container to include only visitors that went from page A to Page C in the sequence.
+Create un segmento come fareste per un segmento sequenziale semplice, a livello misto o nidificato, quindi impostate l' [!UICONTROL EXCLUDE] operatore per l'elemento contenitore. L'esempio seguente è un segmento complessivo in cui i tre [!UICONTROL Hit] contenitori vengono trascinati nell'area di lavoro, l' [!UICONTROL THEN] operatore assegnato per partecipare alla logica del contenitore, quindi escludendo il contenitore di visualizzazione centrale della pagina per includere solo i visitatori che sono passati dalla pagina A alla pagina C nella sequenza.
 
 ![](assets/exclude_between_checkpoints.png)
 
-## Escludi all'inizio della sequenza
+### Escludi all'inizio della sequenza
 
 Se l'eccezione di controllo si trova all'inizio di un segmento sequenziale, la visualizzazione di pagina esclusa non viene eseguita prima del primo hit non escluso.
 
@@ -219,11 +219,11 @@ Di seguito sono riportati alcuni esempi d'uso di questo tipo di segmento:
 
 **Crea questo segmento**
 
-Crea due contenitori Hit distinti all'interno di un contenitore Visitatore di livello principale. Then set the [!UICONTROL EXCLUDE] operator for the first container.
+Crea due contenitori Hit distinti all'interno di un contenitore Visitatore di livello principale. Quindi, impostate l' [!UICONTROL EXCLUDE] operatore per il primo contenitore.
 
 ![](assets/exclude_beginning_sequence.png)
 
-## Escludi alla fine della sequenza
+### Escludi alla fine della sequenza
 
 Se l'eccezione di controllo si trova alla fine di una sequenza, il punto di controllo non si verifica tra l'ultimo punto di controllo non escluso e la fine della sequenza dei visitatori.
 
@@ -238,104 +238,102 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 **Crea questo segmento**
 
-Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to the canvas and connecting them using the [!UICONTROL THEN] operator. Then assign the [!UICONTROL EXCLUDE] operator to the second [!UICONTROL Hit] container in the sequence.
+Create un segmento di sequenza semplice trascinando due [!UICONTROL Hit] contenitori nel quadro e collegandoli utilizzando l [!UICONTROL THEN] 'operatore. Quindi, assegnate l' [!UICONTROL EXCLUDE] operatore al secondo [!UICONTROL Hit] contenitore della sequenza.
 
 ![](assets/exclude_end_sequence.png)
 
 ## Contenitori Gruppo logica
 
-Within a sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). [!UICONTROL Logic Group] Il contenitore è stato progettato per essere utilizzato quando i contenitori di livello più elevato sono obbligatori nei segmenti sequenziali per filtrare ulteriormente i visitatori e per presentare vincoli di livello visitatore complessi, nidificati e a livello di visitatore.
+Nella segmentazione sequenziale, è necessario che i contenitori siano ordinati rigorosamente all'interno della [gerarchia dei contenitori](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). [!UICONTROL Logic Group] Il contenitore è stato progettato per gestire *diversi punti di controllo come gruppo*, *senza ordinarlo* tra i punti di controllo raggruppati. In altre parole, non ci interessano l'ordine dei punti di controllo all'interno del gruppo. Ad esempio, non è possibile nidificare un [!UICONTROL Visitor] contenitore all'interno di [!UICONTROL Visitor] un contenitore. Al contrario, potete nidificare un [!UICONTROL Logic Group] contenitore all'interno di un [!UICONTROL Visitor] contenitore con punti di controllo specifici [!UICONTROL Visit]a livello e [!UICONTROL Hit]a livello.
 
 | Gerarchia contenitore standard |
 |---|
 | ![](assets/nesting_container.png) |
-| Within the [!UICONTROL Visitor] container, the [!UICONTROL Visit] and [!UICONTROL Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor. |
+| All'interno [!UICONTROL Visitor] del contenitore, i [!UICONTROL Visit] contenitori e [!UICONTROL Hit] i contenitori sono nidificati in sequenza per estrarre segmenti in base agli hit, al numero di visite e al visitatore. |
 
 >[!NOTE]
 >
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
-
-[!UICONTROL Logic Group] Un contenitore considera diversi punti di controllo come un gruppo senza ordinare. For example, you can't nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit] and [!UICONTROL Hit]-level checkpoints.
+>A [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l' [!UICONTROL THEN] operatore viene utilizzato all'interno dell'espressione.
 
 | Gerarchia logica non standard - Gerarchia |
 |---|
 | ![](assets/logic_group_hierarchy.png) |
-| The standard container hierarchy is also required outside of the [!UICONTROL Logic Group] container. But inside the [!UICONTROL Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order. |
+| La gerarchia contenitore standard è necessaria anche all'esterno [!UICONTROL Logic Group] del contenitore. Tuttavia, all'interno del [!UICONTROL Logic Group] contenitore, i punti di controllo non richiedono un ordine o una gerarchia stabilita. Questi punti di controllo devono semplicemente essere soddisfatti dal visitatore in qualsiasi ordine. |
 
-## Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Creare un segmento gruppo logica {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-Like other containers, the [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. Here is a preferred way to nest [!UICONTROL Logic Group] containers:
+Come per altri contenitori, [!UICONTROL Logic Group] i contenitori possono essere definiti in diversi modi all'interno della [!UICONTROL Segment Builder]. Ecco un metodo preferito [!UICONTROL Logic Group] per nidificare i contenitori:
 
 1. Trascina dimensioni, eventi o segmenti dai riquadri sinistro.
-1. Change the top container to a [!UICONTROL Visitor] container.
-1. Change the [!UICONTROL AND] or [!UICONTROL OR] operator inserted by default to the THEN operator.
-1. Select the [!UICONTROL Hit] containers (the Dimension, Event, or Item) and click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container from selection]**.
-1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
-1. You can now set the [!UICONTROL Hit] within the [!UICONTROL Logic Group] container without regard to hierarchy.
+1. Cambia il contenitore principale in [!UICONTROL Visitor] un contenitore.
+1. Modificate l'operatore [!UICONTROL AND] o [!UICONTROL OR] l'operatore inserito per impostazione predefinita all'operatore THEN.
+1. Selezionate [!UICONTROL Hit] i contenitori (Dimensione, Evento o Elemento) e fate clic **[!UICONTROL Options]** su &gt; **[!UICONTROL Add container from selection]**.
+1. Fate clic sull'icona del contenitore e selezionate **[!UICONTROL Logic Group]**. ![](assets/logic_group_checkpoints.png)
+1. È ora possibile impostare l' [!UICONTROL Hit] interno del [!UICONTROL Logic Group] contenitore in base alla gerarchia.
 
-## Punti di controllo Gruppo logica in qualsiasi ordine
+### Punti di controllo Gruppo logica in qualsiasi ordine
 
-Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
+L'utilizzo di questo [!UICONTROL Logic Group] metodo consente di rispettare le condizioni all'interno del gruppo che risiede all'esterno della sequenza. Questo consente di creare segmenti in cui un [!UICONTROL Visit] contenitore o [!UICONTROL Hit] un contenitore si verificano indipendentemente dalla normale gerarchia. ****
 
 **Esempio**: Visitatori che hanno visitato la pagina A, quindi la pagina B e la pagina C in qualsiasi ordine.
 
 **Crea questo segmento**
 
-Page B and C are nested in a [!UICONTROL Logic Group] container within the outer [!UICONTROL Visitor] container. [!UICONTROL Hit] Il contenitore A è seguito dal [!UICONTROL Logic Group] contenitore con B e C identificato utilizzando l [!UICONTROL AND] 'operatore. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting either page B or C makes the argument true.
+Le pagine B e C sono nidificate in [!UICONTROL Logic Group] un contenitore all'interno del [!UICONTROL Visitor] contenitore esterno. [!UICONTROL Hit] Il contenitore A è seguito dal [!UICONTROL Logic Group] contenitore con B e C identificato utilizzando l [!UICONTROL AND] 'operatore. Poiché si trova nella [!UICONTROL Logic Group], la sequenza non è definita e se si preme la pagina B o C l'argomento vero.
 
 ![](assets/logic_group_any_order2.png)
 
-## Logica logica gruppo logica
+### Logica logica gruppo logica
 
-Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. In this unordered first match segment, the [!UICONTROL Logic Group] rules are identified first to be either a page view of page B or page C, then the required view of page A.
+L'utilizzo di questo [!UICONTROL Logic Group] metodo consente di rispettare le condizioni all'interno del gruppo che risiede all'esterno della sequenza. In questo segmento non ordinato, le [!UICONTROL Logic Group] regole sono identificate prima in una visualizzazione pagina della pagina B o della pagina C, quindi nella vista richiesta della pagina A.
 
 **Esempio**: Visitatori che hanno visitato la pagina B o la pagina C, quindi la pagina A.
 
 **Crea questo segmento**
 
-Page B and page C dimensions are grouped within a [!UICONTROL Logic Group] container with the [!UICONTROL OR] operator selected, then the [!UICONTROL Hit]container identifying a page view of page A as the value.
+La pagina B e le dimensioni della pagina C sono raggruppate all'interno di un [!UICONTROL Logic Group] contenitore con l' [!UICONTROL OR] operatore selezionato, quindi il [!UICONTROL Hit]contenitore identifica una visualizzazione pagina della pagina A come valore.
 
 ![](assets/logic_group_1st_match.png)
 
-## Logical Group esclude AND
+### Logical Group esclude AND
 
-Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. ****
+Creare segmenti utilizzando l' [!UICONTROL Logic Group] aggregazione di più visualizzazioni di pagina per definire quali pagine erano necessarie quando altre pagine sono state esplicitamente tralasciate. ****
 
 **Esempio**: Il visitatore ha visitato la Pagina A, quindi non ha visitato la pagina B o C, ma ha fatto pagina D.
 
 **Crea questo segmento**
 
-Crea questo segmento trascinando Dimensioni, Eventi e Segmenti pregenerati dai riquadri sinistro. See [Building a Logic Group Segment](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+Crea questo segmento trascinando Dimensioni, Eventi e Segmenti pregenerati dai riquadri sinistro. Consultate [Creazione di un segmento di gruppo logica](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-After nesting the values within the [!UICONTROL Logic Group], click the **[!UICONTROL Exclude]** button within the [!UICONTROL Logic Group] container.
+Dopo aver nidificato i valori all'interno del [!UICONTROL Logic Group]contenitore, fare clic sul **[!UICONTROL Exclude]** pulsante all'interno del [!UICONTROL Logic Group] contenitore.
 
 ![](assets/logic_exclude_and.png)
 
-## Loggroup exclude OR
+### Loggroup exclude OR
 
-Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed.
+Creare segmenti utilizzando l' [!UICONTROL Logic Group] aggregazione di più visualizzazioni di pagina per definire quali pagine erano necessarie quando altre pagine sono state esplicitamente tralasciate.
 
 **Esempio**: Visitatori che hanno visitato la pagina A, ma non hanno visitato la Pagina B o la Pagina C prima della pagina A.
 
 **Crea questo segmento**
 
-The initial B and C pages are identified in a [!UICONTROL Logic Group] container that is excluded, and then followed by a hit to page A by the visitor.
+Le pagine iniziali B e C sono identificate in [!UICONTROL Logic Group] un contenitore escluso e quindi da un hit alla pagina A da parte del visitatore.
 
 Crea questo segmento trascinando Dimensioni, Eventi e Segmenti pregenerati dai riquadri sinistro.
 
-After nesting the values within the [!UICONTROL Logic Group], click the **[!UICONTROL Exclude]** button within the [!UICONTROL Logic Group] container.
+Dopo aver nidificato i valori all'interno del [!UICONTROL Logic Group]contenitore, fare clic sul **[!UICONTROL Exclude]** pulsante all'interno del [!UICONTROL Logic Group] contenitore.
 
 ![](assets/logic_exclude_or.png)
 
 ## Creare segmenti time-within e time-after
 
-Use the [!UICONTROL Within] and [!UICONTROL After] operators built in to the header of each container to define the time, events, and count.
+Utilizzare gli [!UICONTROL Within][!UICONTROL After] operatori e gli operatori incorporati all'intestazione di ciascun contenitore per definire l'ora, gli eventi e il conteggio.
 
 ![](assets/then_within_operators.png)
 
-You can limit matching to a specified duration of time by using the [!UICONTROL Within] and [!UICONTROL After] containers and specifying a granularity and count. [!UICONTROL Within] L'operatore viene utilizzato per specificare un limite massimo per il tempo tra due punti di controllo. [!UICONTROL After] L'operatore viene utilizzato per specificare un limite minimo per il tempo tra due punti di controllo.
+È possibile limitare la corrispondenza a una durata specificata utilizzando i [!UICONTROL Within][!UICONTROL After] contenitori e specificando una granularità e un conteggio. [!UICONTROL Within] L'operatore viene utilizzato per specificare un limite massimo per il tempo tra due punti di controllo. [!UICONTROL After] L'operatore viene utilizzato per specificare un limite minimo per il tempo tra due punti di controllo.
 
-## After and Within Operators {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After and Within Operator {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 La durata è specificata da una singola lettera maiuscola che rappresenta la granularità seguita da un numero che rappresenta il conteggio ripetibile della granularità.
 
@@ -347,18 +345,18 @@ La durata è specificata da una singola lettera maiuscola che rappresenta la gra
 |--- |--- |
 | AFTER | L'operatore After viene utilizzato per specificare un limite minimo per il tempo tra due punti di controllo. Quando si impostano i valori di After, il limite di tempo inizia quando il segmento viene applicato. Ad esempio, se l'operatore Dopo è impostato su un contenitore per identificare i visitatori che visitano la pagina A ma non torna per visitare la pagina B fino a un giorno, quel giorno avrà inizio quando il visitatore lascia la pagina A. Affinché il visitatore sia incluso nel segmento, almeno 1440 minuti (un giorno) devono essere dinamici dopo aver abbandonato la pagina A alla visualizzazione della pagina B. |
 | WITHIN | L'operatore Within viene utilizzato per specificare un limite massimo per il tempo compreso tra due punti di controllo. Ad esempio, se l'operatore Within è impostato su un contenitore per identificare i visitatori che visitano la pagina A e quindi ritornano alla pagina B entro un giorno, quel giorno inizierà quando il visitatore lascia la pagina A. Per essere inclusi nel segmento, il visitatore avrà un tempo massimo di un giorno prima di aprire la pagina B. Affinché il visitatore sia incluso nel segmento, l'accesso alla pagina B deve avvenire entro un massimo di 1440 minuti (un giorno) dopo aver abbandonato la pagina A alla visualizzazione della pagina B. |
-| AFTER/INSIDE | Quando si utilizzano sia gli operatori After che Inside, è importante comprendere che entrambi gli operatori iniziano e termineranno in parallelo, non in sequenza. For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Entrambe le condizioni sono applicate dal momento dell'hit della prima pagina. |
+| AFTER/INSIDE | Quando si utilizzano sia gli operatori After che Inside, è importante comprendere che entrambi gli operatori iniziano e termineranno in parallelo, non in sequenza. Ad esempio, se crei un segmento con il contenitore impostato su:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Le condizioni per identificare i visitatori nel segmento sono soddisfatte solo tra 1 e 2 settimane. Entrambe le condizioni sono applicate dal momento dell'hit della prima pagina. |
 
-## Usare l'operatore Dopo
+### Usare l'operatore Dopo
 
 * Ora dopo ti consente di effettuare una traccia per anno, mese, giorno, ora e minuti per far corrispondere le visite.
-* Time After can only be applied to a [!UICONTROL Hit] container because it is the only level for which such fine granularity is defined.
+* Ora dopo può essere applicata solo [!UICONTROL Hit] a un contenitore, perché è l'unico livello per il quale è definito tale granularità.
 
 **Esempio**: Visitatori che hanno visitato la pagina A quindi hanno visitato la pagina B solo dopo 2 settimane. ****
 
 ![](assets/time_between_after_operator.png)
 
-**Crea il segmento**: Questo segmento viene creato aggiungendo un [!UICONTROL Visitor] contenitore con due [!UICONTROL Hit] contenitori. You can then set the [!UICONTROL THEN] operator, and open the [!UICONTROL AFTER] operator drop down and set the number of weeks.
+**Crea il segmento**: Questo segmento viene creato aggiungendo un [!UICONTROL Visitor] contenitore con due [!UICONTROL Hit] contenitori. Potete quindi impostare [!UICONTROL THEN] l'operatore, quindi aprire il [!UICONTROL AFTER] menu a discesa dell'operatore e impostare il numero di settimane.
 
 ![](assets/after_operator.png)
 
@@ -371,7 +369,7 @@ Se viene indicato "Dopo 2 settimane", se un hit alla pagina A viene eseguito il 
 | **** Un hit: 1 giugno 2019 00:01 | **Hit B** : Jun 15, 2019 00:01 | **Corrisponde:** Questo limite di tempo corrisponde a quanto segue dal 1 giugno 2019 (due settimane). |
 | **** Un hit: 1 giugno 2019 00:01 | **Hit B** : Hit 8 giugno 2019 00:01 B hit: 15 giugno 2019 00:01 | **Non corrisponde:** Il primo hit sulla pagina B non corrisponde perché in conflitto con il vincolo che lo richiede dopo due settimane. |
 
-## Usare l'operatore Inside
+### Usare l'operatore Inside
 
 * [!UICONTROL Within] consente di effettuare una traccia per anno, mese, giorno, ora e minuti per far corrispondere le visite.
 * [!UICONTROL Within] può essere applicato solo a [!UICONTROL Hit] un contenitore perché è l'unico livello per il quale è definito tale granularità.
@@ -384,7 +382,7 @@ Se viene indicato "Dopo 2 settimane", se un hit alla pagina A viene eseguito il 
 
 ![](assets/time_between_within_operator.png)
 
-**Crea il segmento**: Questo segmento viene creato aggiungendo un [!UICONTROL Visitor] contenitore, quindi trascinandolo con due [!UICONTROL Hit] contenitori. You can then set the [!UICONTROL THEN] operator, and open the [!UICONTROL AFTER] operator drop down and set the interval: hits, page views, visits, minutes, hours, days, weeks, months, quarters, or years.
+**Crea il segmento**: Questo segmento viene creato aggiungendo un [!UICONTROL Visitor] contenitore, quindi trascinandolo con due [!UICONTROL Hit] contenitori. Potete quindi impostare [!UICONTROL THEN] l'operatore, quindi aprire il [!UICONTROL AFTER] menu a discesa dell'operatore e impostare l'intervallo: hit, visualizzazioni di pagina, visite, minuti, ore, giorni, settimane, mesi, trimestri o anni.
 
 ![](assets/within_operator.png)
 
@@ -392,23 +390,23 @@ Se viene indicato "Dopo 2 settimane", se un hit alla pagina A viene eseguito il 
 
 Le corrispondenze devono avvenire entro il limite temporale. Per l'espressione, se la pagina A del visitatore è impostata su 00:01, un hit seguente alla pagina B corrisponderà finché arriva o prima di 00:06 (cinque minuti dopo, compreso lo stesso minuto). Anche gli hit che rientrano nello stesso minuto corrispondono.
 
-## Operatori Dentro e Dopo
+### Operatori Dentro e Dopo
 
-Use [!UICONTROL Within] and [!UICONTROL After] to provide a maximum and minimum endpoint at both ends of a segment.
+Utilizza [!UICONTROL Within] e [!UICONTROL After] per fornire un endpoint massimo e minimo a entrambe le estremità di un segmento.
 
 **Esempio**: Visitatori che hanno visitato la pagina A quindi hanno visitato la pagina B dopo 2 settimane ma entro 1 mesi.
 
 ![](assets/time_between_using_both_operators.png)
 
-**Crea il segmento**: Create il segmento sequenziando due [!UICONTROL Hit] contenitori all'interno di un [!UICONTROL Visitor] contenitore. Then set the [!UICONTROL After] and [!UICONTROL Within] operators.
+**Crea il segmento**: Create il segmento sequenziando due [!UICONTROL Hit] contenitori all'interno di un [!UICONTROL Visitor] contenitore. Quindi impostate gli [!UICONTROL After] operatori e gli [!UICONTROL Within] operatori.
 
 ![](assets/within_after_together.png)
 
 **Corrisponde**
 
-Any visitors hitting page A on June 1, 2019 are returning after June 15, 2019 00:01, but *before* July 1, 2019 are included in the segment. Compare with [Time Between Exclusions](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8).
+Tutti i visitatori che hanno partecipato alla pagina A il 1 giugno 2019 torneranno dopo il 15 giugno 2019, ma *prima del* 1 luglio 2019 saranno inclusi nel segmento. Confronta con [ora tra esclusioni](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8).
 
-The [!UICONTROL After] and [!UICONTROL Within] operators can be used together to define a sequential segment.
+Gli [!UICONTROL After] operatori e [!UICONTROL Within] possono essere utilizzati insieme per definire un segmento sequenziale.
 
 ![](assets/time_between_within_after.png)
 
