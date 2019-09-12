@@ -3,7 +3,7 @@ product: analytics
 audience: utente finale
 user-guide-title: Guida ai componenti di Analytics
 user-guide-url: /content/help/it-IT/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
@@ -77,9 +77,9 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
       + [Creare suite di rapporti](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestione delle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-manage.md)
       + [Visualizzazione delle informazioni sulle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-view.md)
-+ Analisi cross-device {#cda}
-   + [Panoramica su più dispositivi](cda/cda-home.md)
-   + [Configurazione di Analisi cross-device](cda/cda-setup.md)
++ Analytics tra dispositivi {#cda}
+   + [Panoramica di Analytics tra dispositivi](cda/cda-home.md)
+   + [Configurazione di Analytics tra dispositivi](cda/cda-setup.md)
    + [Domande frequenti su Analytics tra dispositivi](cda/cda-faq.md)
 + Avvisi {#alerts}
    + [Avvisi intelligenti](c-alerts/intellligent-alerts.md)
