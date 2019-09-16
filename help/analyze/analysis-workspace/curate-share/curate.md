@@ -2,18 +2,18 @@
 description: Utilizzando i componenti curati è possibile limitare i componenti disponibili prima di condividere un progetto. Puoi condividere all’interno dell’azienda un progetto e i relativi componenti con gli addetti al marketing e altri dipendenti non addetti alle analisi. Aggiungi commenti e tag ai progetti.
 keywords: Analysis Workspace
 seo-description: Utilizzando i componenti curati è possibile limitare i componenti disponibili prima di condividere un progetto. Puoi condividere all’interno dell’azienda un progetto e i relativi componenti con gli addetti al marketing e altri dipendenti non addetti alle analisi. Aggiungi commenti e tag ai progetti.
-seo-title: Panoramica sulla cura/condivisione
+seo-title: Panoramica di cura/condivisione
 solution: Analytics
-title: Panoramica sulla cura/condivisione
-topic: Reports & Analytics
-uuid: 267 e 9678-95 a 1-4195-8 ba 4-e 8 a 53 c 28 ea 0 d
+title: Panoramica di cura/condivisione
+topic: Reports and Analytics
+uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
 
-# Panoramica sulla cura/condivisione
+# Panoramica di cura/condivisione
 
 Utilizzando i componenti curati è possibile limitare i componenti disponibili prima di condividere un progetto. Puoi condividere all’interno dell’azienda un progetto e i relativi componenti con gli addetti al marketing e altri dipendenti non addetti alle analisi. Aggiungi commenti e tag ai progetti.
 
@@ -23,13 +23,13 @@ Utilizzando i componenti curati è possibile limitare i componenti disponibili p
 
 **[!UICONTROL Workspace]** &gt; **[!UICONTROL Share]**&gt; **[!UICONTROL Curate Project Data]**
 
-## Cura dati progetto
+## Cura dei dati del progetto
 
 1. Specifica le autorizzazioni per creare e curare progetti.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Crea e salva](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) un progetto, quindi fai clic **[!UICONTROL Share]** su &gt; **[!UICONTROL Curate Project Data]**.
+1. [Crea e salva](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) un progetto, quindi fai clic su **[!UICONTROL Share]** &gt; **[!UICONTROL Curate Project Data]**.
 1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
 
    ![](assets/curated-components.png)
@@ -55,13 +55,13 @@ La condivisione rende il progetto disponibile ad altri utenti di Analysis Worksp
 
    >[!IMPORTANT]
    >
-   >Questa impostazione non persiste. È una singolare azione al momento della condivisione.
+   >Questa impostazione non persiste, ma rappresenta una singola azione al momento della condivisione.
 
 1. Hai inoltre la possibilità di impostare questa pagina come pagina di destinazione per i destinatari.
 
    >[!IMPORTANT]
    >
-   >Questa impostazione non persiste. È una singolare azione al momento della condivisione.
+   >Questa impostazione non persiste, ma rappresenta una singola azione al momento della condivisione.
 
 1. Fai clic su **[!UICONTROL Share]**.
 
