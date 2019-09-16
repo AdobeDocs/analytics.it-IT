@@ -9,7 +9,7 @@ title: Personalizzare le autorizzazioni degli strumenti di Analytics
 topic: Strumenti di amministrazione
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 5a6016fa1c79bd7ae858537b0073dbd27ce3c862
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
@@ -33,8 +33,6 @@ Attiva le autorizzazioni degli utenti per gli elementi generali (fatturazione, r
 ![](assets/report-access-analytics-tools.png)
 
 Fate clic **[!UICONTROL Customize]** per selezionare gli elementi a cui il gruppo avrà accesso.
-
-![](assets/customize-analytics-tools.png)
 
 ## Descrizioni dei campi
 
