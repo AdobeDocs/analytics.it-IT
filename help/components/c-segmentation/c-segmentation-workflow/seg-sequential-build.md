@@ -7,7 +7,7 @@ title: Creare segmenti sequenziali
 topic: Segmenti
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: fe1ded2ff3226ca5f5243225d351b51315b92dae
+source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
 
 ---
 
@@ -244,25 +244,22 @@ Create un segmento di sequenza semplice trascinando due [!UICONTROL Hit] conteni
 
 ## Contenitori del gruppo Logica
 
-All'interno della segmentazione sequenziale, è necessario che i contenitori siano ordinati rigorosamente all'interno della gerarchia [del](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551)contenitore. Per contro, il [!UICONTROL Logic Group] contenitore è stato progettato per trattare *diversi checkpoint come un gruppo*, *senza alcun ordine* tra i checkpoint raggruppati. In altre parole, non ci interessa l'ordine dei checkpoint all'interno di quel gruppo. Ad esempio, non è possibile nidificare un [!UICONTROL Visitor] contenitore all'interno di un [!UICONTROL Visitor] contenitore. È invece possibile nidificare un [!UICONTROL Logic Group] contenitore all’interno di un [!UICONTROL Visitor] contenitore con checkpoint di [!UICONTROL Visit]livello e [!UICONTROL Hit]livello specifici.
+I contenitori del gruppo logico sono necessari per raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. I contenitori non sequenziali (hit, visit, visitor) non richiedono che le loro condizioni siano soddisfatte all'interno della sequenza globale, producendo risultati inintuitivi se utilizzati accanto a un operatore THEN. Il contenitore del gruppo logico speciale è disponibile solo nella segmentazione sequenziale, per assicurarsi che le sue condizioni siano soddisfatte dopo qualsiasi checkpoint sequenziale precedente e prima di qualsiasi checkpoint sequenziale successivo. Le condizioni all'interno del punto di controllo del gruppo logico stesso possono essere soddisfatte in qualsiasi ordine.
 
-| Gerarchia contenitore standard |
-|---|
-| ![](assets/nesting_container.png) |
-| All’interno del [!UICONTROL Visitor] contenitore, i contenitori [!UICONTROL Visit] e [!UICONTROL Hit] i contenitori sono nidificati in sequenza per estrarre segmenti in base agli hit, al numero di visite e al visitatore. |
+All'interno della segmentazione sequenziale, è necessario che i contenitori siano ordinati rigorosamente all'interno della gerarchia [del](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551)contenitore. Per contro, il [!UICONTROL Logic Group] contenitore è stato progettato per trattare *diversi checkpoint come un gruppo*, *senza alcun ordine* tra i checkpoint raggruppati. In altre parole, non ci interessa l'ordine dei checkpoint all'interno di quel gruppo. Ad esempio, non è possibile nidificare un [!UICONTROL Visitor] contenitore all'interno di un [!UICONTROL Visitor] contenitore. È invece possibile nidificare un [!UICONTROL Logic Group] contenitore all’interno di un [!UICONTROL Visitor] contenitore con checkpoint di [!UICONTROL Visit]livello e [!UICONTROL Hit]livello specifici.
 
 >[!NOTE]
 >
 >Un [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l' [!UICONTROL THEN] operatore è utilizzato all'interno dell'espressione.
 
-| Gerarchia contenitore logica non standard |
-|---|
-| ![](assets/logic_group_hierarchy.png) |
-| La gerarchia di contenitori standard è necessaria anche all'esterno del [!UICONTROL Logic Group] contenitore. Ma all'interno del [!UICONTROL Logic Group] contenitore, i checkpoint non richiedono un ordine o una gerarchia stabiliti; questi checkpoint devono semplicemente essere soddisfatti dal visitatore in qualsiasi ordine. |
+| Gerarchia contenitore | Illustrazione | Definizione |
+|---|---|---|
+| Gerarchia contenitore standard | ![](assets/nesting_container.png) | All’interno del [!UICONTROL Visitor] contenitore, i contenitori [!UICONTROL Visit] e [!UICONTROL Hit] i contenitori sono nidificati in sequenza per estrarre segmenti in base agli hit, al numero di visite e al visitatore. |
+| Gerarchia contenitore logica | ![](assets/logic_group_hierarchy.png) | La gerarchia di contenitori standard è necessaria anche all'esterno del [!UICONTROL Logic Group] contenitore. Ma all'interno del [!UICONTROL Logic Group] contenitore, i checkpoint non richiedono un ordine o una gerarchia stabiliti; questi checkpoint devono semplicemente essere soddisfatti dal visitatore in qualsiasi ordine. |
 
 ### Crea un segmento del gruppo logico {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-Come altri contenitori, i [!UICONTROL Logic Group] contenitori possono essere costruiti in più modi all'interno del [!UICONTROL Segment Builder]. Questo è il modo preferito per nidificare [!UICONTROL Logic Group] i contenitori:
+Come altri contenitori, [!UICONTROL Logic Group] i contenitori possono essere costruiti in più modi all'interno del [!UICONTROL Segment Builder]. Questo è il modo preferito per nidificare [!UICONTROL Logic Group] i contenitori:
 
 1. Trascina dimensioni, eventi o segmenti dai riquadri a sinistra.
 1. Cambia il contenitore superiore in [!UICONTROL Visitor] contenitore.
