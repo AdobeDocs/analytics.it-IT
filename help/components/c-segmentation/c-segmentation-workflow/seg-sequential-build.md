@@ -7,7 +7,7 @@ title: Creare segmenti sequenziali
 topic: Segmenti
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -72,7 +72,7 @@ L'impostazione di una clausola "Within Dimension" tra le regole consente a un se
 
 | Se risultato... | Sequenza |
 |--- |--- |
-| Corrisponde | A quindi B |
+| Corrisponde | A poi B |
 | Non corrisponde | <br> A poi C poi B (perché B non era all'interno di 1 pagina di A)**** Nota:  Se si elimina la restrizione della dimensione, "A then B" e "A then C then B" corrisponderanno entrambi. |
 
 ## Sequenza Visualizzazione pagina semplice
@@ -138,7 +138,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 L'aggiunta di più [!UICONTROL Hit] contenitori all'interno di un [!UICONTROL Visitor] contenitore consente di utilizzare gli operatori appropriati tra lo stesso tipo di contenitori e di utilizzare regole e dimensioni quali Pagina e Numero visita per definire la visualizzazione della pagina e fornire una dimensione di sequenza all'interno del [!UICONTROL Hit] contenitore. L’applicazione della logica a livello di Hit consente di vincolare e combinare le corrispondenze a uno stesso livello di hit all’interno del [!UICONTROL Visitor] contenitore per creare una serie di tipi di segmenti.
 
-**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (nella pagina D dell’esempio), quindi hanno visitato la pagina B o la pagina C senza tenere conto del numero di visite.
+**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (pagina D nell’esempio), quindi hanno visitato la pagina B o la pagina C, senza tenere conto del numero di visite.
 
 **Casi d'uso**
 
@@ -244,9 +244,8 @@ Create un segmento di sequenza semplice trascinando due [!UICONTROL Hit] conteni
 
 ## Contenitori del gruppo Logica
 
-I contenitori del gruppo logico sono necessari per raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. I contenitori non sequenziali (hit, visit, visitor) non richiedono che le loro condizioni siano soddisfatte all'interno della sequenza globale, producendo risultati inintuitivi se utilizzati accanto a un operatore THEN. Il contenitore del gruppo logico speciale è disponibile solo nella segmentazione sequenziale, per assicurarsi che le sue condizioni siano soddisfatte dopo qualsiasi checkpoint sequenziale precedente e prima di qualsiasi checkpoint sequenziale successivo. Le condizioni all'interno del punto di controllo del gruppo logico stesso possono essere soddisfatte in qualsiasi ordine.
-
-All'interno della segmentazione sequenziale, è necessario che i contenitori siano ordinati rigorosamente all'interno della gerarchia [del](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551)contenitore. Per contro, il [!UICONTROL Logic Group] contenitore è stato progettato per trattare *diversi checkpoint come un gruppo*, *senza alcun ordine* tra i checkpoint raggruppati. In altre parole, non ci interessa l'ordine dei checkpoint all'interno di quel gruppo. Ad esempio, non è possibile nidificare un [!UICONTROL Visitor] contenitore all'interno di un [!UICONTROL Visitor] contenitore. È invece possibile nidificare un [!UICONTROL Logic Group] contenitore all’interno di un [!UICONTROL Visitor] contenitore con checkpoint di [!UICONTROL Visit]livello e [!UICONTROL Hit]livello specifici.
+I contenitori del gruppo logico sono necessari per raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Il contenitore del gruppo logico speciale è disponibile solo nella segmentazione sequenziale, per assicurarsi che le sue condizioni siano soddisfatte dopo qualsiasi checkpoint sequenziale precedente e prima di qualsiasi checkpoint sequenziale successivo. Le condizioni all'interno del punto di controllo del gruppo logico stesso possono essere soddisfatte in qualsiasi ordine. Per contro, i contenitori non sequenziali (hit, visit, visitor) non richiedono che le loro condizioni siano soddisfatte all'interno della sequenza globale, generando risultati non intuitivi se utilizzati con un operatore THEN.
+Il [!UICONTROL Logic Group] contenitore è stato progettato per trattare *diversi checkpoint come un gruppo*, *senza alcun ordine* tra i checkpoint raggruppati. In altre parole, non ci interessa l'ordine dei checkpoint all'interno di quel gruppo. Ad esempio, non è possibile nidificare un [!UICONTROL Visitor] contenitore all'interno di un [!UICONTROL Visitor] contenitore. È invece possibile nidificare un [!UICONTROL Logic Group] contenitore all’interno di un [!UICONTROL Visitor] contenitore con checkpoint di [!UICONTROL Visit]livello e [!UICONTROL Hit]livello specifici.
 
 >[!NOTE]
 >
@@ -256,6 +255,20 @@ All'interno della segmentazione sequenziale, è necessario che i contenitori sia
 |---|---|---|
 | Gerarchia contenitore standard | ![](assets/nesting_container.png) | All’interno del [!UICONTROL Visitor] contenitore, i contenitori [!UICONTROL Visit] e [!UICONTROL Hit] i contenitori sono nidificati in sequenza per estrarre segmenti in base agli hit, al numero di visite e al visitatore. |
 | Gerarchia contenitore logica | ![](assets/logic_group_hierarchy.png) | La gerarchia di contenitori standard è necessaria anche all'esterno del [!UICONTROL Logic Group] contenitore. Ma all'interno del [!UICONTROL Logic Group] contenitore, i checkpoint non richiedono un ordine o una gerarchia stabiliti; questi checkpoint devono semplicemente essere soddisfatti dal visitatore in qualsiasi ordine. |
+
+I gruppi logici possono sembrare scoraggianti: ecco alcune best practice per utilizzarli:
+
+**Gruppo logico o contenitore Hit/Visit?**
+Se si desidera raggruppare i checkpoint sequenziali, il "contenitore" è Logic Group. Tuttavia, se tali checkpoint sequenziali devono verificarsi all'interno di un singolo hit o di un ambito di visita, è necessario un contenitore "hit" o "visit". (Naturalmente, l'hit non ha senso per un gruppo di checkpoint sequenziali, quando un hit può accreditare non più di un checkpoint).
+
+**I gruppi logici semplificano la creazione di segmenti sequenziali?**
+Sì, possono. Supponiamo che tu stia cercando di rispondere a questa domanda: Un visitatore ha visto le pagine B, C o D dopo la pagina A? È possibile creare questo segmento senza un contenitore del gruppo logico, ma è complesso e laborioso:
+Contenitore visitatori [Pagina A POI Pagina B POI Pagina C POI Pagina D] o Contenitore visitatore [Pagina A POI Pagina B POI Pagina D POI Pagina C] o Contenitore visitatori [Pagina A POI Pagina C POI Pagina B POI Pagina D] o Contenitore visitatori [Pagina A POI Pagina C POI Pagina D POI Pagina] O Contenitore visitatori [A IT Pagina D POI Pagina B POI Pagina C] [o Contenitore visitatori Pagina A POI Pagina D POI Pagina C POI Pagina B]
+
+Un contenitore di gruppo logico semplifica notevolmente il segmento, come illustrato di seguito:
+
+![](assets/logic-grp-example.png)
+
 
 ### Crea un segmento del gruppo logico {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +289,15 @@ L’ [!UICONTROL Logic Group] utilizzo consente di soddisfare le condizioni all�
 
 **Crea questo segmento**
 
-Le pagine B e C sono nidificate in un [!UICONTROL Logic Group] contenitore all'interno del [!UICONTROL Visitor] contenitore esterno. Il [!UICONTROL Hit] contenitore per A è seguito dal [!UICONTROL Logic Group] contenitore con B e C identificato utilizzando l' [!UICONTROL AND] operatore. Poiché si trova in [!UICONTROL Logic Group], la sequenza non è definita e toccando la pagina B o C l'argomento diventa true.
+Le pagine B e C sono nidificate in un [!UICONTROL Logic Group] contenitore all'interno del [!UICONTROL Visitor] contenitore esterno. Il [!UICONTROL Hit] contenitore per A è seguito dal [!UICONTROL Logic Group] contenitore con B e C identificato utilizzando l' [!UICONTROL AND] operatore. Poiché si trova in [!UICONTROL Logic Group], la sequenza non è definita e premendo entrambe le pagine B e C in un qualsiasi ordine l'argomento risulta vero.
 
 ![](assets/logic_group_any_order2.png)
+
+**Un altro esempio**: Visitatori che hanno visitato la pagina B o la pagina C, quindi visitato la pagina A:
+
+![](assets/logic_group_any_order3.png)
+
+Il segmento deve corrispondere al lease di uno dei checkpoint del gruppo logico (B o C). Inoltre, le condizioni di gruppo logico possono essere soddisfatte nello stesso hit o tra più hit&#x200B;.
 
 ### Prima corrispondenza del gruppo logico
 
