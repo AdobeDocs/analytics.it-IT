@@ -1,24 +1,24 @@
 ---
-description: Mostra il numero di visitatori unici che hanno effettuato l'accesso al sito. Ogni visitatore viene conteggiato una volta, a prescindere dal numero di visite visitate dal sito Web.
-seo-description: Mostra il numero di visitatori unici che hanno effettuato l'accesso al sito. Ogni visitatore viene conteggiato una volta, a prescindere dal numero di visite visitate dal sito Web.
-seo-title: Visitatori univoci
+description: Mostra il numero di visitatori univoci che hanno effettuato l’accesso al sito. Ogni visitatore viene conteggiato una volta, indipendentemente dal numero di visite effettuate dal visitatore del sito Web.
+seo-description: Mostra il numero di visitatori univoci che hanno effettuato l’accesso al sito. Ogni visitatore viene conteggiato una volta, indipendentemente dal numero di visite effettuate dal visitatore del sito Web.
+seo-title: Visitatori unici
 solution: Analytics
-title: Visitatori univoci
+title: Visitatori unici
 topic: Rapporti
-uuid: e 70 e 1 a 14-b 3 b 9-4 d 1 a-a 8 a 5-a 247 a 443 c 752
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# Visitatori univoci
+# Visitatori unici
 
-Mostra il numero di visitatori unici che hanno effettuato l'accesso al sito. Ogni visitatore viene conteggiato una volta, a prescindere dal numero di visite visitate dal sito Web.
+Mostra il numero di visitatori univoci che hanno effettuato l’accesso al sito. Ogni visitatore viene conteggiato una volta, indipendentemente dal numero di visite effettuate dal visitatore del sito Web.
 
 **Dati di esempio**
 
-Per esempi su questa pagina, fare riferimento alla tabella seguente. Lo stesso visitatore è rappresentato qui:
+Fare riferimento alla tabella seguente per gli esempi in questa pagina. Lo stesso visitatore è rappresentato qui:
 
 <table id="table_4F54873A4ED8451494E466C2BDB15B00"> 
  <thead> 
@@ -57,15 +57,15 @@ Per esempi su questa pagina, fare riferimento alla tabella seguente. Lo stesso v
  </tbody> 
 </table>
 
-## Unique Visitors Report - Trended Metric {#section_372C08A881D34BBF811C1DE0A1460617}
+## Rapporto Visitatori unici - Metrica con tendenze {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL Unique Visitors] I rapporti si comportano in modo simile in Analisi ad hoc. Per ogni hit in cui si verifica la visita, il visitatore viene conteggiato su quell'hit. Ogni pagina riceve credito con il visitatore sulla pagina.
+[!UICONTROL Unique Visitors] i rapporti si comportano in modo simile in Analisi ad hoc. Per ogni hit in cui si verifica la visita, il visitatore viene conteggiato sull’hit. Ogni pagina riceve credito avendo il visitatore su quella pagina.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Pagina </th> 
-   <th colname="col2" class="entry"> Visitatori univoci </th> 
+   <th colname="col2" class="entry"> Visitatori unici </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -96,13 +96,13 @@ Per esempi su questa pagina, fare riferimento alla tabella seguente. Lo stesso v
  </tbody> 
 </table>
 
-Inoltre, ogni data riceve credito per il visitatore entro tale data.
+Inoltre, ogni data riceve credito per aver avuto quel visitatore in quella data.
 
 <table id="table_E0D06D9434444947BDA818F61A580B65"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Data </th> 
-   <th colname="col2" class="entry"> Visitatori univoci </th> 
+   <th colname="col2" class="entry"> Visitatori unici </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -129,15 +129,15 @@ Inoltre, ogni data riceve credito per il visitatore entro tale data.
  </tbody> 
 </table>
 
-** [!UICONTROL Unique Visitors Report] Broken Down by *`Page`*.**
+**[!UICONTROL Unique Visitors Report]Broken Down by *`Page`*.**
 
-You can select a page for [!UICONTROL Unique Visitors Report]. Nel report seguente, il visitatore visita la pagina A nelle date seguenti:
+È possibile selezionare una pagina per [!UICONTROL Unique Visitors Report]. Nel seguente rapporto, il visitatore visita la pagina A nelle seguenti date:
 
 <table id="table_2ABA17B19E0D4F92AAB003BE784DA9E0"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Data </th> 
-   <th colname="col2" class="entry"> Visitatori univoci </th> 
+   <th colname="col2" class="entry"> Visitatori unici </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -164,11 +164,11 @@ You can select a page for [!UICONTROL Unique Visitors Report]. Nel report seguen
  </tbody> 
 </table>
 
-## Period-Based Unique Visitors (Trended) {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
+## Visitatori univoci basati su periodi (con tendenze) {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
-You can run Hourly, Daily, Weekly, Monthly, Quarterly, and Yearly [!UICONTROL Unique Visitors Reports] (trended).
+Potete eseguire ogni ora, giorno, settimana, mese, trimestrale e annuale [!UICONTROL Unique Visitors Reports] (con tendenze).
 
-I visitatori univoci basati su periodo vengono conteggiati solo alla prima visita nel periodo specificato. Ad esempio, i visitatori unici orari vengono conteggiati per la prima visita nell'ora specificata. Visitatori giornalieri unici vengono conteggiati per la prima visita nel giorno specificato.
+I visitatori univoci basati sul periodo vengono conteggiati solo per la prima visita nel periodo specificato. Ad esempio, i visitatori unici orari vengono conteggiati per la prima visita durante l’ora specificata. I Visitatori univoci giornalieri vengono conteggiati per la prima visita nel giorno specificato.
 
 <table id="table_FF14F05CDFDA4F2E92A62D9D751A1CAA"> 
  <thead> 
@@ -201,13 +201,13 @@ I visitatori univoci basati su periodo vengono conteggiati solo alla prima visit
  </tbody> 
 </table>
 
-Il report seguente viene visualizzato per Visitatori giornalieri univoci.
+Il rapporto seguente verrà visualizzato per Visitatori giornalieri univoci.
 
 <table id="table_4E44BC4722064501A5B648BE80ED8E60"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Data </th> 
-   <th colname="col2" class="entry"> Visitatori giornalieri univoci </th> 
+   <th colname="col2" class="entry"> Visitatori giornalieri unici </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -234,7 +234,7 @@ Il report seguente viene visualizzato per Visitatori giornalieri univoci.
  </tbody> 
 </table>
 
-I totali delle metriche possono variare in base all'intervallo di date del report. I rapporti di marketing iniziano a conteggiare Visitatori unici basati sul tempo dall'inizio dell'intervallo di date. Ad esempio, se l'intervallo di date è compreso tra il 2 gennaio e il 3 gennaio, i risultati indicati di seguito vengono mostrati per Visitatori unici settimanali:
+I totali delle metriche possono variare in base all'intervallo di date del rapporto. I rapporti di marketing iniziano a contare i visitatori unici basati sul tempo dall'inizio dell'intervallo di date. Ad esempio, se l’intervallo di date è compreso tra il 2 e il 3 gennaio, per i visitatori unici settimanali verranno mostrati i seguenti risultati:
 
 <table id="table_B695708BB22949E7BA293FE492D2EEA0"> 
  <thead> 
@@ -261,15 +261,15 @@ I totali delle metriche possono variare in base all'intervallo di date del repor
 
 **Segmentazione**
 
-Puoi utilizzare la segmentazione per cambiare l'intervallo di date in modo da includere date successive invece delle date precedenti. Ad esempio, si supponga che l'intervallo di date sia ancora compreso tra il 2 gennaio e il 3 gennaio (come mostrato nella tabella precedente). Se applichi un segmento in cui Page = C, January 2 non passa il segmento, il primo hit del visitatore Unique Unique sarà il 3 gennaio. Se invece avete applicato un segmento in cui Page = D, sia il 2 gennaio che il 3 gennaio verrebbero esclusi. Per il visitatore Unique unitor non vengono visualizzati risultati che verrebbero esclusi dal totale.
+Puoi utilizzare la segmentazione per modificare l’intervallo di date in modo da includere date successive anziché date precedenti. Ad esempio, si supponga che l'intervallo di date sia ancora compreso tra il 2 e il 3 gennaio (come illustrato nella tabella precedente). Se applicate un segmento in cui Pagina = C, il 2 gennaio non supererà il segmento e il primo hit del visitatore univoco settimanale sarà il 3 gennaio. Se invece avete applicato un segmento in cui Pagina = D, entrambi i segmenti saranno esclusi il 2 gennaio e il 3 gennaio. Nessun risultato verrà visualizzato per il visitatore univoco settimanale e verrà escluso dal totale.
 
-** Rapporti visitatori univoci basati su punti**
+**Report Visitatori univoci basati su periodi **
 
-Tali rapporti utilizzano una pagina, un prop e un attributo particolari (ad esempio: dove Page = A).
+Questi rapporti utilizzano una pagina, un prop e un attributo particolari (ad esempio: dove Page = A).
 
-Suppose that you trend a [!UICONTROL Pages Report] with a period-based Unique Visitor metric. Se per i rapporti Visitatori unici basati su punti è selezionata una suddivisione o una variabile, i rapporti di marketing contano tutte le istanze univoche della coppia di visitatore e attributo. Per il primo hit del visitatore, l'elaborazione non è diversa dagli esempi precedenti. Per gli hit successivi, questi rapporti includono hit che i rapporti indicati non sono in grado di supportare, se la pagina è diversa.
+Supponiamo che tu abbia come tendenza [!UICONTROL Pages Report] una metrica Visitatore unico basata su un periodo. Se è selezionata una suddivisione o una variabile per i rapporti Visitatori unici basati sul periodo, i rapporti di marketing contano tutte le istanze univoche della coppia visitatore/attributo. Per il primo hit del visitatore, questa elaborazione non è diversa dagli esempi precedenti. Per gli hit successivi, questi rapporti includono hit che i rapporti sopra indicati non riportano, se la pagina è diversa.
 
-Per Visitatori unici settimanali in cui Page = A, i rapporti di marketing escludono il 2 gennaio dai totali. Questa esclusione si verifica perché i rapporti di marketing hanno già conteggiato il visitatore Unique Unique il 1 gennaio. Ecco un rapporto settimanale su visitatori univoci dove Page = A:
+Per i visitatori unici settimanali in cui Pagina = A, i rapporti di marketing escludono il 2 gennaio dai totali. Questa esclusione si verifica perché i rapporti di marketing contavano già il Visitatore univoco settimanale il 1 gennaio. Di seguito è riportato un rapporto settimanale dei visitatori univoci in cui Pagina = A:
 
 <table id="table_9C5E00029C7340B28D76696E84F66511"> 
  <thead> 
@@ -302,7 +302,7 @@ Per Visitatori unici settimanali in cui Page = A, i rapporti di marketing esclud
  </tbody> 
 </table>
 
-Per visitatori unici settimanali in cui Pagina = B, l'unica data in cui si verifica è gennaio 2, come illustrato:
+Per i visitatori unici settimanali in cui Page = B, l'unica data in cui si verifica è il 2 gennaio, come illustrato di seguito:
 
 <table id="table_262150BECCB74120B58F506F4BC6F629"> 
  <thead> 
@@ -335,16 +335,16 @@ Per visitatori unici settimanali in cui Pagina = B, l'unica data in cui si verif
  </tbody> 
 </table>
 
-## Period-Based Unique Visitor Metrics on Non-Trended Reports {#section_90B784F4E49F4930B3F0923B95958BA2}
+## Metriche del visitatore univoche basate su periodi sui report non con tendenze {#section_90B784F4E49F4930B3F0923B95958BA2}
 
-You can add period-based Unique Visitor metrics to non-trended reports, such as a Weekly Unique Visitors metric on a [!UICONTROL Pages Report].
+Puoi aggiungere metriche Visitatore univoco basate su un periodo ai report non con tendenze, ad esempio una metrica Visitatori unici settimanali su un [!UICONTROL Pages Report].
 
 <table id="table_8651A42696B0404CAEAE0FC5522CC1C9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Pagina </th> 
-   <th colname="col02" class="entry"> Data di visita </th> 
-   <th colname="col2" class="entry"> Visite - Visitatore univoco settimanale </th> 
+   <th colname="col02" class="entry"> Data della visita </th> 
+   <th colname="col2" class="entry"> Visite - Visitatore unico settimanale </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -381,13 +381,13 @@ You can add period-based Unique Visitor metrics to non-trended reports, such as 
  </tbody> 
 </table>
 
-A Daily Unique Visitors metric on a [!UICONTROL Pages Report] would show:
+Una metrica Visitatori univoci giornalieri su un [!UICONTROL Pages Report] elemento mostra:
 
 <table id="table_04C7C305C2B945D6A79A6B80F48A4BF5"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Pagina </th> 
-   <th colname="col02" class="entry"> Data di visita </th> 
+   <th colname="col02" class="entry"> Data della visita </th> 
    <th colname="col2" class="entry"> Visite </th> 
   </tr> 
  </thead>
@@ -415,14 +415,14 @@ A Daily Unique Visitors metric on a [!UICONTROL Pages Report] would show:
   <tr> 
    <td colname="col1"> <p>Totale </p> </td> 
    <td colname="col02"> <p> </p> </td> 
-   <td colname="col2"> <p>4 Visitatori giornalieri univoci </p> </td> 
+   <td colname="col2"> <p>4 Visitatori unici giornalieri </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-To break down one attribute by another (such as *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
+Per suddividere un attributo per un altro (ad esempio *`page`* per *`eVar`*), Analytics assegna un visitatore univoco basato sul periodo per ogni istanza univoca del periodo e della pagina (o l'attributo associato).
 
-Se hai interrotto la Pagina A per evar T, U, January 2 viene esclusa perché la Pagina A è stata visualizzata il 1 gennaio. I risultati seguenti vengono visualizzati per Visitatori unici settimanali:
+Se si suddivide la pagina A per eVar T, U, gennaio 2 è esclusa perché la pagina A è stata visualizzata il 1 gennaio. I risultati seguenti verranno visualizzati per Visitatori unici settimanali:
 
 <table id="table_328A6F2E920A44B3B55A6E6A630F6DBD"> 
  <thead> 
@@ -447,8 +447,8 @@ Se hai interrotto la Pagina A per evar T, U, January 2 viene esclusa perché la 
  </tbody> 
 </table>
 
-## Persistent Cookies {#section_81E139F08AEB4E30A06472856975EA1E}
+## Cookie persistenti {#section_81E139F08AEB4E30A06472856975EA1E}
 
-I cookie persistenti rimangono sul computer di un visitatore tra visite, in modo che Adobe possa identificare i visitatori nelle visite successive. To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
+I cookie persistenti si trovano sul computer di un visitatore tra una visita e l'altra, in modo che Adobe possa identificare i visitatori nelle visite successive. Per visualizzare la percentuale di utenti che accettano o meno i cookie persistenti, selezionare **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
 
-Il grafico e la visualizzazione dei dettagli di seguito mostrano sia i visitatori persistenti che i visitatori non persistenti. Nella maggior parte dei casi, il numero di visitatori non persistenti è trascurabile.
+Il grafico e la visualizzazione dei dettagli riportati di seguito mostrano sia i visitatori con cookie persistenti che quelli con cookie non persistenti. Nella maggior parte dei casi, il numero di visitatori con cookie non persistenti è trascurabile.
