@@ -1,24 +1,24 @@
 ---
-description: Visualizza informazioni relative ai visitatori, quali il conteggio dei visitatori, la fedeltà dei clienti e le caratteristiche dei visitatori.
-seo-description: Visualizza informazioni relative ai visitatori, quali il conteggio dei visitatori, la fedeltà dei clienti e le caratteristiche dei visitatori.
+description: Visualizza informazioni sui visitatori, quali conteggio dei visitatori, fedeltà dei clienti e caratteristiche dei visitatori.
+seo-description: Visualizza informazioni sui visitatori, quali conteggio dei visitatori, fedeltà dei clienti e caratteristiche dei visitatori.
 seo-title: Rapporti sui visitatori
 solution: Analytics
 title: Rapporti sui visitatori
 topic: Analisi ad hoc
-uuid: 3 e 9 b 41 d 1-d 6 ff -47 a 8-aa 6 b -829 df 1040 c 34
+uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
 # Rapporti sui visitatori
 
-Visualizza informazioni relative ai visitatori, quali il conteggio dei visitatori, la fedeltà dei clienti e le caratteristiche dei visitatori.
+Visualizza informazioni sui visitatori, quali conteggio dei visitatori, fedeltà dei clienti e caratteristiche dei visitatori.
 
-## Return Frequency {#concept_447A99B71E484D27A7A02888CC51FD3D}
+## Restituisci frequenza {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
-Mostra il tempo che trascorre tra visite dal ritorno dei visitatori e il numero di visite che rientrano in ciascuna categoria di lunghezza. Utilizzate il report per visualizzare il tempo medio di tempo in cui i visitatori vanno senza visitare il sito e le tendenze nei clienti ripetuti.
+Mostra il tempo che trascorre tra le visite dei visitatori di ritorno e il numero di visite che rientrano in ogni categoria di lunghezza di tempo. Utilizzate il rapporto per visualizzare la quantità media di tempo che i visitatori ripetuti passano senza visitare il sito e le tendenze dei clienti ripetuti.
 
 <!-- 
 
@@ -26,27 +26,27 @@ c_reports_return_freq.xml
 
  -->
 
-Ad esempio, la visualizzazione della metrica Ordini in questo rapporto consente a un sito di vendita di comprendere il tempo più efficace tra le visite alla generazione della conversione. Utilizzate queste informazioni sul mercato in modo efficace ai visitatori che hanno compiuto un certo periodo di tempo senza visitare il sito.
+Ad esempio, mostrare la metrica Ordini in questo rapporto aiuta un sito retail a comprendere il tempo più efficace tra le visite durante la generazione della conversione. Utilizzate queste informazioni per commercializzare efficacemente i visitatori che hanno trascorso un certo periodo di tempo senza visitare il sito.
 
 Puoi:
 
 * Identificare il numero di visitatori di ritorno e la frequenza delle visite di ritorno.
-* Valuta il fascino e la rilevanza del tuo sito web per i visitatori nel tempo.
-* Scopri in che modo il tuo sito è collegato ai visitatori e quanto spesso si sentono obbligati a restituire ulteriori interazioni o aggiornamenti.
-* Identificazione dell'impatto del contenuto e promozioni del sito Web sui visitatori.
+* Valuta l'attrattiva e la rilevanza del tuo sito Web per i visitatori nel tempo.
+* Scopri quanto è appiccicoso il tuo sito per i visitatori e quanto spesso si sentono obbligati a tornare per ulteriori interazioni o aggiornamenti.
+* Identificazione dell'impatto dei contenuti e delle promozioni del sito Web sui visitatori.
 
-Per impostazione predefinita, il rapporto presenta le lunghezze temporali seguenti:
+Per impostazione predefinita, il rapporto ha le seguenti lunghezze di tempo:
 
 * Meno di un giorno
-* Uno a tre giorni
+* Da uno a tre giorni
 * Da tre a sette giorni
-* Da sette a quattro giorni
-* Quattordici giorni a un mese
+* Da 7 a 4 giorni
+* Da quattordici giorni a un mese
 * Più di un mese
 
-## Visit Number {#concept_BBB614072FD74379B1A8520ACB75AE9A}
+## Numero visita {#concept_BBB614072FD74379B1A8520ACB75AE9A}
 
-Mostra i numeri delle visite dei clienti sul tuo sito maggiormente influenzati dalle metriche di successo. Un visitatore che effettua una prima visita al sito viene conteggiato nell'elemento della riga Numero 1. I visitatori che ritornano al sito per una seconda visita vengono conteggiati nell'elemento della riga Numero 2 e così via.
+Mostra i numeri di visita del cliente sul sito che hanno influenzato maggiormente le metriche di successo. Un visitatore che effettua una prima visita al sito viene conteggiato nella voce Numero visita 1. I visitatori che tornano al sito per una seconda visita vengono conteggiati nell’elemento della riga Numero visita 2 e così via.
 
 <!-- 
 
@@ -54,32 +54,32 @@ c_reports_visit_number.xml
 
  -->
 
-Puoi utilizzare questo rapporto come rapporto di abbandono per vedere se i visitatori stanno tornando. Puoi anche aggiungere una metrica ricavi per verificare se genera più entrate da visite iniziali o visite successive.
+Potete utilizzare questo rapporto come rapporto di abbandono per verificare se i visitatori ritornano. Puoi anche aggiungere una metrica relativa alle entrate per verificare se crei più ricavi dalle visite iniziali o successive.
 
-Ad esempio, questo rapporto potrebbe rispondere a domande quali: I clienti che hanno acquistato alla quarta visita generano più entrate rispetto a quelli che hanno acquistato la prima visita?
+Ad esempio, questo rapporto potrebbe rispondere a domande come: I clienti che hanno acquistato la quarta visita hanno generato più entrate rispetto a quelli che hanno acquistato la prima visita?
 
-Puoi suddividere il rapporto in base a qualsiasi altro rapporto o variabile per determinare:
+Puoi suddividere il rapporto con qualsiasi altro rapporto o variabile per determinare:
 
-* Il numero di visite di cui dispone un utente che fa clic su XYZ della campagna per effettuare un acquisto.
-* Se gli utenti a Tokyo, ad esempio, eseguono più visite prima di generare un lead rispetto agli utenti di Londra.
-
->[!NOTE]
->
->Se lo stesso visitatore visita più volte il sito Web nello stesso periodo, ogni numero di visita specificato viene incrementato per ogni visita.
-
-Questo rapporto si basa sui dati ID visitatore passati ad Adobe su ogni hit eseguito dai visitatori. Quando vengono ricevuti questi dati, Adobe lo confronta con dati ID visitatore storici per determinare se l'hit è:
-
-* Nuovo visitatore (Numero visita uguale a 1).
-* Visitatore precedente che continua una visita (il numero visita non viene incrementato).
-* Un visitatore precedente sta effettuando una nuova visita (Numero visita viene incrementato di uno).
+* In genere, per effettuare un acquisto è necessario che un utente abbia fatto clic sulla campagna XYZ.
+* Se, ad esempio, gli utenti di Tokyo effettuino più visite prima di generare un lead rispetto agli utenti di Londra.
 
 >[!NOTE]
 >
->Ogni ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, a prescindere dalla scadenza del cookie ID visitatore.
+>Se lo stesso visitatore visita il sito Web più volte nello stesso periodo, ogni numero di visita specificato viene incrementato per ogni visita.
 
-## Customer Loyalty {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
+Questo rapporto si basa sui dati ID visitatore passati ad Adobe per ogni hit effettuato dai visitatori. Man mano che questi dati vengono ricevuti, Adobe li confronta con i dati storici dell’ID visitatore per determinare se l’hit è:
 
-Utilizzate questo report per verificare se le entrate sono più interessate dai nuovi clienti o dai clienti ripetuti.
+* Un nuovo visitatore (Numero visita è uguale a 1).
+* Un visitatore precedente che continua una visita (il numero della visita non viene incrementato).
+* Un visitatore precedente che effettuava una nuova visita (il numero di visita viene incrementato di uno).
+
+>[!NOTE]
+>
+>Ciascun ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
+
+## Fedeltà cliente {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
+
+Utilizzare questo rapporto per verificare se le entrate sono maggiormente influenzate dai nuovi clienti o dai clienti ripetuti.
 
 <!-- 
 
@@ -87,22 +87,22 @@ c_reports_customerloyalty.xml
 
  -->
 
-[!UICONTROL Customer Loyalty] Il rapporto mostra i pattern di acquisto dei clienti in base a quattro categorie di fedeltà:
+Il [!UICONTROL Customer Loyalty] rapporto mostra i pattern di acquisto dei clienti in base a quattro categorie di fedeltà:
 
-* **Non è un cliente**: Visitatori che non hanno mai acquistato
-* **Nuovo cliente**: Visitatori che hanno effettuato un acquisto unico
-* **Return Customer**: Visitatori che hanno effettuato 2 acquisti
-* **Cliente fidato**: Visitatori che hanno effettuato acquisti con 3 +
+* **Not a Customer**: Visitatori che non hanno mai acquistato
+* **Nuovo cliente**: Visitatori che hanno effettuato un singolo acquisto
+* **Restituisci cliente**: Visitatori che hanno effettuato 2 acquisti
+* **Cliente** fedele:Visitatori che hanno effettuato 3+ acquisti
 
 >[!NOTE]
 >
->Quando utilizzi queste metriche, tutte le visite utente (o tutti i visitatori) sono rappresentate in questo rapporto, a prescindere dal fatto che la visita (o visitatore) includa un acquisto.
+>Quando utilizzi queste metriche, tutte le Visite utente (o tutti i Visitatori) sono rappresentate in questo rapporto, a prescindere dal fatto che la Visita (o il Visitatore) abbia incluso un acquisto.
 
-Lo stato di fedeltà cambia dopo la fine della visita in cui si verifica un evento di acquisto. Ad esempio, un nuovo cliente (acquisto 1) effettua un acquisto e si registra per una newsletter dopo l'acquisto nella stessa visita. L'evento di registrazione newsletter è ancora considerato una nuova interazione cliente, in quanto lo stato di fedeltà cliente del visitatore non cambierà fino alla visita successiva.
+Lo stato di fedeltà cambia dopo la fine della visita in cui si verifica un evento di acquisto. Ad esempio, un nuovo cliente (1 acquisto) effettua un acquisto e quindi si registra per una newsletter dopo tale acquisto all’interno della stessa visita. L’evento di registrazione della newsletter viene ancora considerato un’interazione Nuovo cliente, perché lo stato Fedeltà cliente del visitatore non subirà modifiche fino alla visita successiva.
 
 ## Profilo visitatore {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
-Visualizza informazioni sul tipo di visitatore che accede al sito. Potete visualizzare le posizioni del visitatore, il tipo di browser e l'hardware del computer utilizzato, le lingue utilizzate e i dati del fornitore di servizi Internet per i visitatori.
+Visualizza informazioni sul tipo di visitatore che accede al sito. Puoi vedere la posizione del visitatore, il tipo di browser e hardware utilizzato per il computer, le lingue utilizzate e i dati del provider di servizi Internet per i visitatori.
 
 <!-- 
 
@@ -110,13 +110,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL Languages]**: Visualizza le lingue preferite dei visitatori, acquisisce la lingua predefinita del browser e visualizza le lingue che i visitatori utilizzano più spesso sul sito.
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. This report differs from the [!UICONTROL Full Domains] report in that the Full Domains report registers the full ISP domain, whereas this report lists the secondary domain.
+**[!UICONTROL Domains]**: Elenca le organizzazioni e gli ISP utilizzati dai visitatori per accedere al sito. Questo rapporto è diverso dal [!UICONTROL Full Domains] rapporto in quanto il rapporto Domini completi registra l'intero dominio ISP, mentre questo rapporto elenca il dominio secondario.
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. I domini che terminano con Commercial (.com), Network (. net), Education (.edu), Government (.gov) e Organization (.org) sono in genere basati negli Stati Uniti e sono elencati separatamente dagli altri domini.
+**[!UICONTROL Top Level Domains]**: Identifica le regioni del mondo da cui provengono i visitatori in base all’estensione del dominio di origine e mostra quanti visitatori provengono da tali paesi. I domini che terminano in Commercial (.com), Network (.net), Education (.edu), Government (.gov) e Organization (.org) sono generalmente residenti negli Stati Uniti e sono elencati separatamente dal resto dei domini.
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+**[!UICONTROL Visitor ZIP/Postal Code]**: Visualizza i codici postali e postali che hanno prodotto i clienti che hanno avuto il maggiore effetto sulle metriche di successo degli acquisti.
 
 ## Geosegmentazione {#concept_7C1B930F90F945B49205D3855CAE1813}
 
@@ -126,4 +126,4 @@ c_reports_geosegmentation.xml
 
  -->
 
-Mostra la dinamica geografica dei visitatori in tempo reale, compresi i paesi, gli stati e le città da cui stanno cercando. Puoi anche ottenere informazioni importanti sulla tecnologia e sulle preferenze dell'audience del sito Web.
+Mostra le dinamiche geografiche dei visitatori in tempo reale, compresi i paesi, gli stati e le città da cui stanno navigando. È inoltre possibile ottenere informazioni importanti sulla tecnologia e sulle preferenze del pubblico del sito Web.
