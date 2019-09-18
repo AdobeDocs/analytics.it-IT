@@ -1,20 +1,20 @@
 ---
-description: Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzate, suddivise e confrontate in un rapporto. Si tratta di valori non numerici e di date correlate, secondari o di classificazione della metrica del tipo di rapporto originale.
-seo-description: Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzate, suddivise e confrontate in un rapporto. Si tratta di valori non numerici e di date correlate, secondari o di classificazione della metrica del tipo di rapporto originale.
+description: Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un report. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
+seo-description: Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un report. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
 seo-title: Dimensioni
 solution: Analytics
 title: Dimensioni
 topic: Analisi ad hoc
-uuid: a 843 d 3 ae -093 b -438 e -89 a 9-73312 a 2 ea 6 f 2
+uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
 # Dimensioni
 
-Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzate, suddivise e confrontate in un rapporto. Si tratta di valori non numerici e di date correlate, secondari o di classificazione della metrica del tipo di rapporto originale.
+Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un report. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
 
 Esempi di dimensioni:
 
@@ -28,19 +28,19 @@ Esempi di dimensioni:
 * Risoluzione monitor
 * eVar personalizzati e valori s.prop
 
-** [!UICONTROL Dimensions] Pane**
+**[!UICONTROL Dimensions]Riquadro**
 
-The [!UICONTROL Dimension] pane lists and organizes all the product dimensions from your marketing reports and analytics implementation. Puoi basare i rapporti su qualsiasi elemento dimensione. Inoltre, puoi suddividere le dimensioni in base ad altre dimensioni per analizzare e confrontare praticamente qualsiasi dato.
+Il [!UICONTROL Dimension] riquadro elenca e organizza tutte le dimensioni del prodotto dall'implementazione di reporting e analisi di marketing. Puoi basare i rapporti su qualsiasi elemento dimensione. Inoltre, puoi suddividere le dimensioni in base ad altre dimensioni per analizzare e confrontare praticamente qualsiasi dato.
 
-In the [!UICONTROL Dimensions] pane, you can search for dimensions and drag them to the [!UICONTROL Table Builder] or the report detail table.
+Nel [!UICONTROL Dimensions] riquadro è possibile cercare le dimensioni e trascinarle nella tabella dei dettagli [!UICONTROL Table Builder] o del rapporto.
 
-Potete ordinarle in base alle seguenti categorie:
+Potete ordinarli in base alle seguenti categorie:
 
 | Categoria dimensione | Descrizione |
 |--- |--- |
-| Traffic (Traffico) | Include elementi del browser, campagne Target, geografia, collegamenti personalizzati, proprietà traffico personalizzate, domini, download, referenti, domini di provenienza e così via. |
-| Conversione   | Include campagne, categorie, evar personalizzati, prodotti, codice di tracciamento e così via. |
-| Proprietà | Include proprietà di traffico personalizzate, ad esempio le pagine di entrata e uscita. |
-| Evar | Include le evar utilizzate come metriche di successo nella raccolta dati. |
-| Gerarchia | Include variabili da gerarchie, utilizzate per determinare la posizione di una pagina nella gerarchia del sito. |
-| Percorso | Include qualsiasi elemento che può essere mostrato in un percorso, ad esempio pagine, collegamenti di download, collegamenti di uscita, parole chiave e domini di provenienza. |
+| Traffico | Include elementi del browser, campagne Target, geografia, collegamenti personalizzati, proprietà del traffico personalizzate, domini, download, referenti, domini di provenienza e così via. |
+| Conversione | Include campagne, categorie, eVar personalizzate, prodotti, codice di tracciamento e così via. |
+| Proprietà | Include proprietà di traffico personalizzate, come pagine di entrata e uscita. |
+| Evar | Include le eVar utilizzate come metriche di successo nella raccolta di dati. |
+| Gerarchia | Include le variabili delle gerarchie, utilizzate per determinare la posizione di una pagina nella gerarchia del sito. |
+| Versatile | Include qualsiasi elemento che può essere visualizzato in un percorso, come pagine, collegamenti per il download, collegamenti di uscita, parole chiave e domini di provenienza. |
