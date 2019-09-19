@@ -9,7 +9,7 @@ title: Variabili di configurazione
 topic: Sviluppatore e implementazione
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -381,6 +381,8 @@ Adobe [!DNL Customer Care] può modificare l'impostazione della valuta predefini
 * La *`currencyCode`* variabile non è persistente, il che significa che deve essere passata nella stessa richiesta di immagine come qualsiasi altro dato relativo alle entrate o alla valuta.
 * Gli eventi valutari non devono essere utilizzati a fini non valutari. Se è necessario contare valori arbitrari o dinamici che non sono valuta, utilizzare il tipo di [!UICONTROL numeric] evento.
 * Se la *`currencyCode`* variabile è vuota, non viene applicata alcuna conversione.
+
+Per ulteriori informazioni, vedere Codici [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html)valuta.
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
@@ -888,7 +890,7 @@ Tutte le variabili che devono essere inviate con dati di collegamento (collegame
 |---|---|---|---|
 | N/D | N/D | Any | "Nessuno" |
 
-Durante la compilazione *`linkTrackVars`*, non utilizzare 's.'.per le variabili. Ad esempio, invece di compilare *`linkTrackVars`* con "s.prop1", è consigliabile compilarlo con "prop1". L'esempio seguente illustra come *`linkTrackVars`* utilizzare il prodotto.
+Durante la compilazione *`linkTrackVars`*, non utilizzare 's.'. per le variabili. Ad esempio, invece di compilare *`linkTrackVars`* con "s.prop1", è consigliabile compilarlo con "prop1". L'esempio seguente illustra come *`linkTrackVars`* utilizzare il prodotto.
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -933,7 +935,7 @@ Nessuno
 * Vengono tracciate tutte le variabili elencate in *`linkTrackVars`* cui è associato un valore al momento del download, dell'uscita o del collegamento personalizzato.
 * Se *`linkTrackEvents`* viene utilizzato, *`linkTrackVars`* deve contenere "events".
 
-* Non utilizzare "s". o "s_objectname." per le variabili.
+* Non utilizzare "s". o "s_objectname."  per le variabili.
 
 ## s.linkTrackEvents {#concept_34D029097A674D0A97690C9569590EF5}
 
