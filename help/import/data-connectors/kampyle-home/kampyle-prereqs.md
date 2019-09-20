@@ -1,35 +1,35 @@
 ---
-description: Prerequisiti da considerare prima di poter attivare il connettore dati.
-seo-description: Prerequisiti da considerare prima di poter attivare il connettore dati.
+description: Prerequisiti da considerare prima di attivare il connettore dati.
+seo-description: Prerequisiti da considerare prima di attivare il connettore dati.
 seo-title: Prerequisiti per l'integrazione
 solution: Analytics
 title: Prerequisiti per l'integrazione
-uuid: 7 c 7 ac 22 b -9 f 54-497 d-af 60-3 b 0 b 1 cc 7 dc 2 c
+uuid: 7c7ac22b-9f54-497d-af60-3b0b1cc7dc2c
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Prerequisiti per l'integrazione{#integration-prerequisites}
 
-Prerequisiti da considerare prima di poter attivare il connettore dati.
+Prerequisiti da considerare prima di attivare il connettore dati.
 
 ## Prerequisiti per i clienti Adobe: {#section-d9c2e266931249e596de5f4406b5b6f0}
 
 * Devi essere un cliente Adobe Analytics corrente.
-* Devi essere un utente amministratore.
-* Nella suite di rapporti è necessario disporre di 1 variabili evar abilitate e abilitate.
-* Nella suite di rapporti sono necessari 3 eventi personalizzati abilitati e abilitati (tipo: contatore).
+* È necessario essere un utente amministratore.
+* Nella suite di rapporti devi avere 1 variabile eVar disponibile e abilitata.
+* Nella suite di rapporti devono essere disponibili 3 eventi personalizzati e attivati (tipo: contatore).
 
-## Prerequisiti per i clienti Kampyle: {#section-4bbbca50e74d4f218414ae0cc535b8e9}
+## Prerequisiti per i clienti di Kampyle: {#section-4bbbca50e74d4f218414ae0cc535b8e9}
 
-* È necessario essere un cliente di Kampyle per siti Web.
-* È necessario essere un utente amministratore di Adobe Marketing Cloud con autorizzazioni per abilitare connettori dati.
-* È necessario essere in grado di recuperare la Chiave privata Kampyle dall'interfaccia utente di gestione dei moduli di feedback Kampyle.
+* È necessario essere un cliente corrente di Kampyle per Siti Web.
+* Devi essere un utente amministratore di Adobe Experience Cloud con autorizzazioni per abilitare i connettori dati.
+* È necessario essere in grado di recuperare la chiave privata Kampyle dall’interfaccia utente di gestione dei moduli di feedback Kampyle.
 
-   [Recupera la chiave privata Kampyle](../kampyle-home/kampyle-private-key.md#task-08684d84572c48acb6fa90f0072526fb)
+   [Recuperare la chiave privata Kampyle](../kampyle-home/kampyle-private-key.md#task-08684d84572c48acb6fa90f0072526fb)
 
