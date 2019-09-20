@@ -1,41 +1,41 @@
 ---
-description: Procedura per completare la procedura guidata di integrazione nell'interfaccia dei Connettori dati.
-seo-description: Procedura per completare la procedura guidata di integrazione nell'interfaccia dei Connettori dati.
-seo-title: Completamento della procedura guidata Integrazione Adobe
+description: Procedura per completare la procedura guidata di integrazione nell'interfaccia Connettori dati.
+seo-description: Procedura per completare la procedura guidata di integrazione nell'interfaccia Connettori dati.
+seo-title: Completamento della procedura guidata di integrazione di Adobe
 solution: Analytics
-title: Completamento della procedura guidata Integrazione Adobe
-uuid: e 7908 da 4-9 d 67-49 c 9-b 532-33 a 8824 e 9 f 92
+title: Completamento della procedura guidata di integrazione di Adobe
+uuid: e7908da4-9d67-49c9-b532-33a8824e9f92
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Completamento della procedura guidata Integrazione Adobe{#completing-the-adobe-integration-wizard}
+# Completamento della procedura guidata di integrazione di Adobe{#completing-the-adobe-integration-wizard}
 
-Procedura per completare la procedura guidata di integrazione nell'interfaccia dei Connettori dati.
+Procedura per completare la procedura guidata di integrazione nell'interfaccia Connettori dati.
 
-1. Passa all'area Connettori dati (precedentemente Genesis) all'interno di Adobe Marketing Cloud.
-1. Avviate la procedura guidata Integrazione segnale dinamica.
-1. Scegli la suite di rapporti desiderata e specifica un nome per l'integrazione.
-1. Configurate i seguenti elementi:
+1. Passa all'area Connettori dati (precedentemente Genesis) in Adobe Experience Cloud.
+1. Avviate la procedura guidata di integrazione del segnale dinamico.
+1. Scegliete la suite di rapporti desiderata e specificate un nome per l'integrazione.
+1. Configura i seguenti elementi:
 
    | Elemento | Descrizione |
    |---|---|
    | Indirizzo e-mail | Indirizzo e-mail del contatto principale. |
-   | Descrizione | (Facoltativo) Descrizione per questa configurazione dell'integrazione. |
+   | Descrizione | (Facoltativo) Descrizione per questa configurazione di integrazione. |
    | ID community | Puoi ottenere questo ID dal rappresentante del segnale dinamico. |
 
-1. Configurate **[!UICONTROL Variable Mappings]** i seguenti elementi:
+1. Configurate i seguenti **[!UICONTROL Variable Mappings]** elementi:
 
    | Elemento | Descrizione |
    |---|---|
-   | Codice di tracciamento | Seleziona una variabile evar disponibile dalla suite di rapporti. |
+   | Codice di tracciamento | Seleziona una variabile eVar disponibile dalla suite di rapporti. |
 
-1. Rivedete le classificazioni che verranno create per questa integrazione.
-1. Selezionate la casella per creare il dashboard integrazione segnale dinamico (facoltativo, ma consigliato).
-1. Esaminate tutti gli elementi di configurazione e fate clic **[!UICONTROL Activate Now]**.
-1. **Importante**: Una volta completata la procedura guidata, dovete inviare una notifica al rappresentante del segnale dinamico affinché possano attivare l'integrazione sulla piattaforma voicestorm.
+1. Esaminate le classificazioni che verranno create per questa integrazione.
+1. Selezionare la casella per creare il dashboard di integrazione del segnale dinamico (facoltativo, ma altamente consigliato).
+1. Rivedete tutti gli elementi di configurazione e fate clic su **[!UICONTROL Activate Now]**.
+1. **Importante**: Una volta completata la procedura guidata, devi inviare una notifica al rappresentante del segnale dinamico in modo che possa attivare l'integrazione sulla piattaforma VoiceStorm.
