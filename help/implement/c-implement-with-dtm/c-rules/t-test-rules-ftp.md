@@ -1,18 +1,18 @@
 ---
-description: Se utilizzate download della libreria o FTP, oppure non disponete di un ambiente di verifica, potete utilizzare uno strumento Riscrittura come Charles per testare le regole non pubblicate. Questo requisito varia in base alla tua implementazione specifica.
-keywords: Gestione tag dinamica; rule; plugin di commutatore; libray download; ftp; strumento Riscrittura; test unpublished rules; regole di test; regola di debug; charles
-seo-description: Se utilizzate download della libreria o FTP, oppure non disponete di un ambiente di verifica, potete utilizzare uno strumento Riscrittura come Charles per testare le regole non pubblicate. Questo requisito varia in base alla tua implementazione specifica.
+description: Se utilizzate il download della libreria o la consegna FTP o se non disponete di un ambiente di verifica, potete utilizzare uno strumento di riscrittura come Charles per testare le regole non pubblicate. Questa necessità varia in base alla vostra implementazione specifica.
+keywords: Gestione tag dinamica;regola;plugin del commutatore;download libreria;ftp;rewrite tool;test unpublished rules;test rules;debug rule;charles
+seo-description: Se utilizzate il download della libreria o la consegna FTP o se non disponete di un ambiente di verifica, potete utilizzare uno strumento di riscrittura come Charles per testare le regole non pubblicate. Questa necessità varia in base alla vostra implementazione specifica.
 seo-title: Regole di test per download o FTP della libreria
-solution: Marketing Cloud, Analytics, Target, Gestione tag dinamica
+solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Regole di test per download o FTP della libreria
-uuid: b 6 ac 09 c 7-f 590-4710-bcb 0-eb 2 bab 9 e 6296
+uuid: b6ac09c7-f590-4710-bcb0-eb2bab9e6296
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Regole di test per download o FTP della libreria
 
-Se utilizzate download della libreria o FTP, oppure non disponete di un ambiente di verifica, potete utilizzare uno strumento Riscrittura come Charles per testare le regole non pubblicate. Questo requisito varia in base alla tua implementazione specifica.
+Se utilizzate il download della libreria o la consegna FTP o se non disponete di un ambiente di verifica, potete utilizzare uno strumento di riscrittura come Charles per testare le regole non pubblicate. Questa necessità varia in base alla vostra implementazione specifica.
 
