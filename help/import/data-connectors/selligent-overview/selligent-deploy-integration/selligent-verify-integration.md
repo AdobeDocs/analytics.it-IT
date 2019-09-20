@@ -1,36 +1,36 @@
 ---
-description: Una volta completati tutti i passaggi di distribuzione, puoi convalidare che l'integrazione sia correttamente trasferibile.
-seo-description: Una volta completati tutti i passaggi di distribuzione, puoi convalidare che l'integrazione sia correttamente trasferibile.
+description: Una volta completati tutti i passaggi di distribuzione, puoi verificare che l'integrazione trasferisca correttamente i dati.
+seo-description: Una volta completati tutti i passaggi di distribuzione, puoi verificare che l'integrazione trasferisca correttamente i dati.
 seo-title: Verifica dell'integrazione
 solution: Analytics
 title: Verifica dell'integrazione
-uuid: 153345 ca -00 ae -4 b 76-93 fe -7 e 82 a 65 ebc 0 e
+uuid: 153345ca-00ae-4b76-93fe-7e82a65ebc0e
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Verifica dell'integrazione{#verifying-the-integration}
 
-Una volta completati tutti i passaggi di distribuzione, puoi convalidare che l'integrazione sia correttamente trasferibile.
+Una volta completati tutti i passaggi di distribuzione, puoi verificare che l'integrazione trasferisca correttamente i dati.
 
-L'inizio dello scambio dati richiederà alcuni giorni. Accertatevi di contattare Selligent dopo aver attivato l'integrazione.
+Ci vorranno alcuni giorni prima che inizi lo scambio di dati. Dopo aver attivato l'integrazione, contattate l'amministratore.
 
-## Registro attività {#section-927e270495db479fba9578915d9ae9c9}
+## Registro attività integrazione {#section-927e270495db479fba9578915d9ae9c9}
 
-Passa all'integrazione Selligent in Connettori dati. Sotto la **[!UICONTROL Support]** scheda, dovresti vedere eventi quali Dati metriche importati e/o Dati di classificazione importati correttamente:
+Passa all'integrazione dei segmenti all'interno dei connettori dati. Nella **[!UICONTROL Support]** scheda è possibile visualizzare eventi come Dati metriche importati e/o Dati di classificazione importati correttamente:
 
 ![](assets/selligent-verifying.png)
 
 ## Dati di reporting {#section-ebd481a162324e66bd6dc8cb4b8d2424}
 
-Visualizza i rapporti sui messaggi Selligent con le metriche appropriate.
+Visualizzare i rapporti sui messaggi inviati con le metriche appropriate.
 
-1. Vai a Reporting e analisi in Adobe Marketing Cloud.
-1. Seleziona la suite di rapporti appropriata.
-1. Sotto **[!UICONTROL Custom Conversion]**, selezionate e **[!UICONTROL Message ID Reports]****[!UICONTROL Message ID/Message Name]** scegliete.
+1. Vai a Reporting e analisi in Adobe Experience Cloud.
+1. Selezionate la suite di rapporti appropriata.
+1. In **[!UICONTROL Custom Conversion]**, selezionate il **[!UICONTROL Message ID Reports]** pulsante e scegliete **[!UICONTROL Message ID/Message Name]**.
 
