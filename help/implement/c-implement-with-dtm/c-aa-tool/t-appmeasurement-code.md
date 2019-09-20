@@ -1,31 +1,31 @@
 ---
-description: Inserisci il codice appmeasurement quando distribuisci manualmente Gestione tag dinamica in Adobe Analytics.
-keywords: Gestione tag dinamica; account collegati; collegare account; modifica del codice; appmeasurement; codice di misurazione
-seo-description: Inserisci il codice appmeasurement quando distribuisci manualmente Gestione tag dinamica in Adobe Analytics.
-seo-title: Inserisci codice appmeasurement principale
-solution: Marketing Cloud, Analytics, Target, Gestione tag dinamica
-title: Inserisci codice appmeasurement principale
-uuid: 3 f 83 fbb 1-3 ed 45-888 e -0 a 5-4 a 183 aac 1 a 90
+description: Inserisci il codice AppMeasurement quando distribuisci manualmente Gestione tag dinamica in Adobe Analytics.
+keywords: Dynamic Tag Management;account collegati;collegare account;modificare codice;app measurement;appmeasurement code
+seo-description: Inserisci il codice AppMeasurement quando distribuisci manualmente Gestione tag dinamica in Adobe Analytics.
+seo-title: Inserire codice AppMeasurement principale
+solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+title: Inserire codice AppMeasurement principale
+uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Inserisci codice appmeasurement principale
+# Inserire codice AppMeasurement principale
 
-Inserisci il codice appmeasurement quando distribuisci manualmente Gestione tag dinamica in Adobe Analytics.
+Inserisci il codice AppMeasurement quando distribuisci manualmente Gestione tag dinamica in Adobe Analytics.
 
-1. On the [!DNL Adobe Analytics] tool page, expand the **[!UICONTROL General]** section, then click **[!UICONTROL Open Editor]**.
-1. Unzip the [!DNL AppMeasurement_JavaScript*.zip] file you downloaded in [deploy Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E).
+1. Nella pagina [!DNL Adobe Analytics] degli strumenti, espandete la **[!UICONTROL General]** sezione e fate clic su **[!UICONTROL Open Editor]**.
+1. Decomprimete il [!DNL AppMeasurement_JavaScript*.zip] file scaricato nella [distribuzione di Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E).
 
-   Se si sceglie libreria personalizzata, quando si apre la finestra è già presente la versione del codice più recente. Non è necessario scaricare il file ZIP dall'Admin Console.
-1. Open [!DNL AppMeasurement.js] in a text editor.
-1. Copy and paste the contents into the **[!UICONTROL Edit Code]** window.
+   Se scegliete una libreria personalizzata, quando aprite la finestra sarà già presente la versione di codice più recente. Non è necessario scaricare il file ZIP da Admin Console.
+1. Aprite [!DNL AppMeasurement.js] in un editor di testo.
+1. Copiate e incollate i contenuti nella **[!UICONTROL Edit Code]** finestra.
 
    ![](assets/edit-code.png)
 
-1. Adobe recommends adding the following code above the *`Do Not Alter Anything Below This Line`*:
+1. Adobe consiglia di aggiungere il seguente codice sopra *`Do Not Alter Anything Below This Line`*:
 
    ```
    var s_account="INSERT-RSID-HERE"
@@ -34,9 +34,9 @@ Inserisci il codice appmeasurement quando distribuisci manualmente Gestione tag 
 
    >[!IMPORTANT]
    >
-   >If you add this code, it is recommended that you also select the **[!UICONTROL Set report suites using custom code below]** checkbox in the overall library settings.
+   >Se aggiungete questo codice, è consigliabile selezionare anche la **[!UICONTROL Set report suites using custom code below]** casella di controllo nelle impostazioni generali della libreria.
 
 1. Fai clic su **[!UICONTROL Save and Close]**.
 
-   Se usate il modulo File multimediali, Integrate Module (Modulo) o i plug-in di implementazione, potete copiarli anche nella sezione del codice. Il codice gestito in Gestione tag dinamica può essere configurato esattamente come il file javascript in un'implementazione tipica.
+   Se utilizzate i plug-in per modulo multimediale, modulo integrato o implementazione, potete copiarli anche nella sezione codice. Il codice gestito in Gestione tag dinamica può essere configurato esattamente come il file JavaScript in un'implementazione tipica.
 
