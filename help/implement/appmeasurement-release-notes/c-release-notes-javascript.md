@@ -1,25 +1,25 @@
 ---
-description: Note sulla versione cumulative per il codice H legacy javascript H.
-seo-description: Note sulla versione cumulative per il codice H legacy javascript H.
-seo-title: Codice H javascript - Legacy
+description: Note cumulative sulla versione per il codice JavaScript H legacy.
+seo-description: Note cumulative sulla versione per il codice JavaScript H legacy.
+seo-title: 'Codice H JavaScript: legacy'
 solution: Analytics
 subtopic: Note sulla versione
-title: Codice H javascript - Legacy
+title: 'Codice H JavaScript: legacy'
 topic: Sviluppatore e implementazione
-uuid: 4586 b 250-0 f 1 b -45 b 8-829 c -18 dc 1201956 f
+uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# JavaScript H Code - Legacy{#javascript-h-code-legacy}
+# Codice H JavaScript: legacy{#javascript-h-code-legacy}
 
-Note sulla versione cumulative per il codice H legacy javascript H.
+Note cumulative sulla versione per il codice JavaScript H legacy.
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>Per trovare la versione corrente della libreria, utilizzare [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
 
 <!-- 
 
@@ -73,11 +73,11 @@ Release Date: **May 21, 2015**
 
 Data di rilascio:**16 aprile 2015**
 
-* Added Integrate module to s_code.js in legacy [!DNL AppMeasurement] for [!DNL JavaScript] H.X ZIP file. (AN-101001)
+* È stato aggiunto il modulo Integrate a s_code.js nella versione precedente [!DNL AppMeasurement] per il file ZIP [!DNL JavaScript] H.X. (AN-101001)
 
 ## H.27.5 {#section_22DCF43169614B28BC17F46426C5D5B6}
 
-Release Date: **February 19th, 2015**
+Data di rilascio: 19 **febbraio 2015**
 
 * Inclusione di Visitor API 1.3.5.
 * Changed to not perform automatic referrer tracking after first tracking call, so the 2nd, 3rd, etc., tracking call (usually link tracking) will not double count the referrer when *`s.referrer`* was manually set before the first tracking call. (AN-92647)
@@ -113,82 +113,82 @@ Release Date: **August 21, 2014**
 
 Data di rilascio: **19 giugno 2014**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
-* Supporto per nuove funzioni nel servizio ID visitatore 1.3.
+* È stata corretta la gestione dei flag di attesa e di completamento per i campi API del visitatore, come l’ID [!DNL Analytics] visitatore legacy, che causava degli errori.
+* Supporto per le nuove funzioni nel servizio ID visitatore 1.3.
 
 ## H.27.1 {#section_CC2556C734EE4BAAB71D6A93095DB38F}
 
 Data di rilascio: **11 giugno 2014**
 
-* Fixed an issue in the [!DNL Analytics] for [!DNL Target] integration that caused some hits to incorrectly be merged.
+* È stato risolto un problema nella [!DNL Analytics] per l’ [!DNL Target] integrazione che causava l’erronea unione di alcuni hit.
 
 ## H.27 {#section_023B6267C0DB424F99A23EBB732B8C69}
 
 Release Date: **May 22, 2014**
 
-* Support for the [Marketing Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-* Support for the [Analytics for Target integration](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
+* Supporto per il servizio [ID visitatori di](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud.
+* Supporto per l'integrazione [di](https://marketing.adobe.com/resources/help/en_US/target/a4t/)Analytics per Target.
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
 
 Data di rilascio: **17 ottobre 2013**
 
-* Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
+* Aggiunto `alt=""` a tutti gli oggetti Immagine per conformarsi alla Legge sulle comunicazioni e i video accessibili.
 
 ## H.26.1 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 Data di rilascio:**18 luglio 2013**
 
-* L'hash/frammento viene ora ignorato mediante il tracciamento automatico dei collegamenti. Previously the following URL was automatically tracked since the entire `href` ended in `.pdf`:
+* L'hash/frammento viene ora ignorato dal tracciamento automatico dei collegamenti. In precedenza veniva tracciato automaticamente il seguente URL, dal momento che l’intero URL `href` terminava con `.pdf`:
 
 ```js
   <a href="index.htm#anchor.pdf">Test Link</a>
 ```
 
-Ora l'hash/frammento viene ignorato in modo che il collegamento venga tracciato solo quando il nome del file termina in un'estensione corrispondente.
+Ora l'hash o il frammento viene ignorato e il collegamento viene tracciato solo quando il nome del file termina con un'estensione corrispondente.
 
 ## H.26 {#section_E25814ACC21E41718EE1741A85AE567B}
 
 Data di rilascio:**29 aprile 2013**
 
-* the `useForcedLinkTracking` option that is described in [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) now applies to Firefox 20+ (previously this applied to WebKit browsers only).
+* l' `useForcedLinkTracking` opzione descritta in Tracciamento [manuale dei collegamenti con codice](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) di collegamento personalizzato ora si applica a Firefox 20+ (precedentemente applicata solo ai browser WebKit).
 
-* La generazione dell'ID oggetto immagine è ora univoca tra le istanze. Ciò impedisce la collisione quando più istanze si trovano sulla stessa pagina.
+* La generazione dell'ID dell'oggetto immagine è ora univoca tra le istanze. In questo modo si evitano conflitti quando più istanze si trovano sulla stessa pagina.
 
 ## H.25.5 {#section_A528D1D5E84146F9A56680E4427B2750}
 
 Data di rilascio:**19 aprile 2013**
 
-* Fixed an issue in forced link tr [!DNL Windows]acking that caused a [!DNL JavaScript] error on some [!DNL Android] 2.2 Devices.
+* È stato risolto un problema relativo al [!DNL Windows]rilevamento forzato dei collegamenti che causava un [!DNL JavaScript] errore su alcuni dispositivi [!DNL Android] 2.2.
 
-* Nel tracciamento automatico del video in Media Player, è stato risolto un problema nello scorrimento che causava il mancato tracciamento del tempo.
+* Nel video con tracciamento automatico su Media Player, è stato risolto un problema di scorrimento che impediva il corretto tracciamento del tempo di riproduzione.
 
 ## H.25.4 {#section_009AF895C8DD47CABC9A3776D27E8300}
 
 Release Date: **February 2013**
 
-* Changed automatic exit link tracking to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+* È stato modificato il tracciamento automatico dei collegamenti di uscita per ignorare sempre i collegamenti con `HREF` gli attributi che iniziano con `#`, `about:`o `javascript:`.
 
-* Refined scope of click events affected by `useForcedLinkTracking`. Il tracciamento automatico dei collegamenti si applica solo a:
+* Ambito perfezionato degli eventi click interessati da `useForcedLinkTracking`. Il tracciamento automatico dei collegamenti forzati si applica solo a:
 
    * `<A>` e `<AREA>` tag
 
-   * The tag must have an `HREF` attribute
-   * The `HREF` can't start with `#`, `about:`, or `javascript:`
+   * Il tag deve avere un `HREF` attributo
+   * Non `HREF` puoi iniziare con `#`, `about:`, o `javascript:`
 
-   * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`)
+   * L' `TARGET` attributo non deve essere impostato, o `TARGET` deve fare riferimento alla finestra corrente ( `_self`, `_top`, o al valore di `window.name`)
 
 ## H.25.3 {#section_FA6A6F9F5D64455DA5A54C007081341A}
 
 Release Date: **January 2013**
 
-* È stato aggiunto il supporto per l'invio di URL superiori a 255 byte per supportare l'espansione del campo URL pagina nei server di raccolta dati Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Questo consente di evitare che gli URL lunghi abbiano precedenza rispetto ad altri dati nel caso del troncamento del browser, ma consentano comunque l'acquisizione di URL lunghi.
+* È stato aggiunto il supporto per l’invio di URL superiori a 255 byte per supportare l’espansione del campo URL pagina nei server di raccolta dati Adobe. Gli URL di pagina di lunghezza superiore a 255 byte vengono suddivisi, con i primi 255 byte visualizzati nel `g=` parametro, con i rimanenti byte che vengono visualizzati successivamente nella stringa di query nel parametro di `-g=` query. In questo modo si evita che gli URL lunghi abbiano la precedenza rispetto ad altri dati nel caso di troncamento del browser, ma si possono comunque acquisire URL lunghi.
 
-* Fixed handling URL decoding for strings that are encoded with a mixed use of `escape` and `encodeURIComponent`.
+* È stata corretta la decodifica URL per le stringhe codificate con un uso misto di `escape` e `encodeURIComponent`.
 
-* È stato risolto un problema nei browser webkit a causa del quale il tracciamento del collegamento non riusciva se la prima chiamata server sulla pagina era disabilitata.
-* Aggiunto un nuovo metodo di identificazione del visitatore. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
-* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`.
+* È stato risolto un problema nei browser WebKit che causava un errore di tracciamento dei collegamenti se la prima chiamata server sulla pagina si arrestava.
+* È stato aggiunto un nuovo metodo di identificazione fallback del visitatore. Consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)univoci.
+* È stato aggiunto un nuovo `abort` flag che può essere impostato all'interno `doPlugins`. Impostando questo flag su true, la [!DNL AppMeasurement] libreria non continua con quella chiamata di tracciamento. Il flag abort viene reimpostato con ogni chiamata di tracciamento, quindi se è necessario interrompere anche una chiamata di tracciamento successiva, il flag dovrà essere nuovamente inserito all’interno `doPlugins`.
 
 ```js
   s.doPlugins = function(s) { 
@@ -199,14 +199,14 @@ Release Date: **January 2013**
   };
 ```
 
-Questo consente di centralizzare la logica utilizzata per identificare l'attività che non desideri tracciare, ad esempio alcuni collegamenti personalizzati o collegamenti esterni negli annunci visualizzati.
+Questo consente di centralizzare la logica utilizzata per identificare l'attività che non si desidera tracciare, ad esempio alcuni collegamenti personalizzati o collegamenti esterni negli annunci visualizzati.
 
 ## H25.2 {#section_647D7638D0C04019B8C9986CD124914E}
 
 Release Date: **October 2012**
 
-* Added support for reporting an additional version number in the [!DNL JavaScript] version report. In precedenza era limitata a 2 caratteri (ad esempio, 1.8). È stato aggiunto il supporto per un numero di versione di 3 caratteri (ad esempio, 1.8.5).
-* Fixed an issue with [!DNL Tag Manager] that prevented repeated values in Dependant Code blocks from being sent.
+* È stato aggiunto il supporto per la segnalazione di un numero di versione aggiuntivo nel rapporto sulla [!DNL JavaScript] versione. Precedentemente questa versione era limitata a 2 caratteri (ad esempio 1.8). È stato aggiunto il supporto per un numero di versione di 3 caratteri (ad esempio, 1.8.5).
+* È stato risolto un problema [!DNL Tag Manager] che impediva l'invio di valori ripetuti nei blocchi di codice dipendenti.
 
 ## H.25.1 {#section_680CE31CFA9945978F42612B684DB831}
 
@@ -223,9 +223,9 @@ Release Date: **September 2012**
   '
 ```
 
-This resolves issues with un-escaped characters being stored in the [!DNL ClickMap] `s_sq` cookie.
+In questo modo vengono risolti i problemi di memorizzazione dei caratteri non escape nel [!DNL ClickMap] `s_sq` cookie.
 
-* Fixed an issue that might cause the video complete event to not be sent when using a custom `media.monitor` method that tracks the media close event:
+* È stato risolto un problema che poteva impedire l'invio dell'evento di completamento del video quando si utilizzava un `media.monitor` metodo personalizzato per tenere traccia dell'evento di chiusura del supporto:
 
 ```
   If(media.event==”CLOSE”) { 
@@ -238,19 +238,19 @@ This resolves issues with un-escaped characters being stored in the [!DNL ClickM
 
 Release Date: **July 2012**
 
-È stato effettuato un aggiornamento per garantire che il tracciamento dei collegamenti sia completato correttamente sui browser webkit (Safari e Chrome). After this update, download and exit links that are automatically tracked (determined by `s.trackDownloadLinks` and `s.trackExternalLinks`) are tracked successfully. If you are tracking custom links using manual [!DNL JavaScript] calls, you need to modify how these calls are made.
+È stato effettuato un aggiornamento per garantire che il tracciamento dei collegamenti venga completato correttamente sui browser WebKit (Safari e Chrome). Dopo questo aggiornamento, i collegamenti di download e di uscita tracciati automaticamente (determinati da `s.trackDownloadLinks` e `s.trackExternalLinks`) vengono tracciati correttamente. Se monitori collegamenti personalizzati utilizzando [!DNL JavaScript] chiamate manuali, devi modificare la modalità di esecuzione di tali chiamate.
 
-Ad esempio, i collegamenti di uscita e scaricamento vengono spesso tracciati utilizzando un codice simile a quanto segue:
+Ad esempio, i collegamenti di uscita e di download vengono spesso tracciati utilizzando un codice simile al seguente:
 
 ```js
   <a href="http://anothersite.com" onclick="s.tl(this,'o','link name',null)">
 ```
 
-Firefox e Internet Explorer eseguono la chiamata di collegamento di tracciamento e aprono la nuova pagina. Tuttavia, i browser webkit potrebbero annullare l'esecuzione della chiamata di collegamento di tracciamento quando si apre la nuova pagina. Ciò spesso impedisce il completamento delle chiamate di collegamento di tracciamento quando si utilizzano browser webkit.
+FireFox e Internet Explorer eseguono la chiamata di tracciamento collegamento e aprono la nuova pagina. Tuttavia, i browser WebKit potrebbero annullare l'esecuzione della chiamata di tracciamento collegamento quando si apre la nuova pagina. Ciò spesso impedisce il completamento delle chiamate di tracciamento dei collegamenti quando si utilizzano browser WebKit.
 
-To workaround this behavior, H.25 includes an overloaded track link method ( `s.tl`) that forces WebKit browsers to wait for the track link call to complete. Questo nuovo metodo esegue la chiamata di collegamento di tracciamento e quindi gestisce l'evento di navigazione, anziché l'azione predefinita del browser. This overloaded method requires an additional parameter, called `doneAction`, to specify the action to take when the link tracking call completes.
+Per ovviare a questo comportamento, H.25 include un metodo di collegamento traccia sovraccarico ( `s.tl`) che forza i browser WebKit ad attendere il completamento della chiamata di tracciamento dei collegamenti. Questo nuovo metodo esegue la chiamata di tracciamento dei collegamenti e quindi gestisce l’evento di navigazione, invece di utilizzare l’azione browser predefinita. Questo metodo sovraccarico richiede un parametro aggiuntivo, denominato `doneAction`, per specificare l’azione da intraprendere al termine della chiamata di tracciamento del collegamento.
 
-To use this new method, update calls to `s.tl` with an additional `doneAction` parameter, similar to the following:
+Per utilizzare questo nuovo metodo, aggiorna le chiamate a `s.tl` con un `doneAction` parametro aggiuntivo, simile al seguente:
 
 ```js
   <a href="http://anothersite.com" onclick="s.tl(this,'o','link name',null 
@@ -258,9 +258,9 @@ To use this new method, update calls to `s.tl` with an additional `doneAction` p
   </codeph outputclass="syntax">
 ```
 
-Passing 'navigate' as the `doneAction` mirrors the default browser behavior and opens the URL specified by the `href` attribute when the tracking call completes.
+Passando 'navigate', il `doneAction` comportamento predefinito del browser viene rispecchiato e si apre l'URL specificato dall' `href` attributo al termine della chiamata di tracciamento.
 
-La tabella seguente riepiloga le variabili di configurazione e gli aggiornamenti apportati a H .25 per supportare questa funzionalità.
+La tabella seguente riassume le variabili di configurazione e gli aggiornamenti apportati a H.25 per supportare questa funzionalità.
 
 <table id="table_E67157D710874146B26EFB7D84762542"> 
  <thead> 
@@ -271,27 +271,24 @@ La tabella seguente riepiloga le variabili di configurazione e gli aggiornamenti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Useforcedlinktracking </p> </td> 
-   <td colname="col2"> <p>Questo flag viene utilizzato per disattivare il tracciamento forzato dei collegamenti per i browser webkit. Il tracciamento forzato dei collegamenti è abilitato per impostazione predefinita per i browser webkit e viene ignorato da altri browser. </p> <p> <b>Valore predefinito</b> </p> <p> <code> true </code> </p> <p> <b>Esempio</b> </p> 
-    <code class="syntax javascript">s. useforcedlinktracking &amp; amp; nbsp; = &amp; amp; nbsp; false </code>
-  </td> 
+   <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
+   <td colname="col2"> <p>Questo flag viene utilizzato per disabilitare il tracciamento forzato dei collegamenti per i browser WebKit. Il tracciamento forzato dei collegamenti è abilitato per impostazione predefinita per i browser WebKit e viene ignorato dagli altri browser. </p> <p> <b>Valore predefinito</b> </p> <p> <code> true </code> </p> <p> <b>Esempio</b> </p> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Forcedlinktrackingtimeout </p> </td> 
-   <td colname="col2"> <p>The maximum number of milliseconds to wait for tracking to finish before performing the <code> doneAction </code> that was passed into <code> s.tl </code>. Questo valore specifica il tempo massimo di attesa. If the track link call completes before this timeout the <code> doneAction </code> is executed immediately. Se notate che le chiamate di collegamento non sono state completate, potresti dover aumentare il timeout. </p> <p> <b>Valore predefinito</b> </p> <p>250 </p> <p> <b>Esempio</b> </p> 
-    <code class="syntax javascript">s. forcedlinktrackingtimeout &amp; amp; nbsp; = &amp; amp; nbsp; 500 </code>
-  </td> 
+   <td colname="col1"> <p>forceLinkTrackingTimeout </p> </td> 
+   <td colname="col2"> <p>Il numero massimo di millisecondi di attesa del completamento del tracciamento prima di eseguire <code> doneAction </code> che è stato passato in <code> s.tl </code>. Questo valore specifica il tempo massimo di attesa. Se la chiamata di tracciamento dei collegamenti viene completata prima di tale timeout, l’ <code> azione completata </code> viene eseguita immediatamente. Se noti che le chiamate di tracciamento dei collegamenti non stanno completando, potresti dover aumentare questo timeout. </p> <p> <b>Valore predefinito</b> </p> <p>250 </p> <p> <b>Esempio</b> </p> 
+    <code class="syntax javascript">
+      s.forzatoLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink ( <code> s.tl </code>) </td> 
-   <td colname="col2"> <p>Traccia uscita, download e collegamenti personalizzati. Fornisce un parametro opzionale per specificare un'azione di navigazione da eseguire dopo il completamento della chiamata al collegamento di tracciamento su browser webkit. </p> <p> <b>Sintassi</b> </p> 
-    <code class="syntax javascript">s. tl (linkobject, linktype, linkname, variableoverrides, doneaction) </code>
-  <p> <b>Doneaction</b>: (Facoltativo) Specifica l'azione da intraprendere dopo che la chiamata alla traccia di collegamento è stata inviata o è scaduta (in base al valore specificato da <code> s. forcedlinktrackingtimeout </code>). The <code> doneAction </code> can be the string 'navigate', which causes the method to set <code> document.location </code> to the <code> href </code> attribute of <code> linkObject </code>. The <code> doneAction</code> can also be a function allowing for advanced customization. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Esempi</b> </p> 
-    <code class="syntax javascript">&lt; a &amp; amp; nbsp; href = "…" &amp; amp; nbsp; onclick = "s. tl (this,'o ','mylink ', null,'navigatè); return &amp; amp; nbsp; false " &gt; Click &amp; amp; nbsp; Qui &lt;/a &gt; </code><code class="syntax javascript">
- 
- 
- &lt; a &amp; amp; nbsp; href = " #" &amp; amp; nbsp; onclick = "s. tl (this,'o ','mylink ', null, function () {if ('continue? '))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+   <td colname="col2"> <p>Tiene traccia dei collegamenti di uscita, download e personalizzati. Fornisce un parametro opzionale per specificare un'azione di navigazione da eseguire al termine della chiamata di tracciamento dei collegamenti sui browser WebKit. </p> <p> <b>Sintassi</b> </p> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>: (facoltativo) Specifica l’azione da intraprendere dopo che la chiamata di tracciamento del collegamento è stata inviata o è scaduta (in base al valore specificato da <code> s.forzatoLinkTrackingTimeout </code>). L' <code> azione eseguita </code> può essere la stringa 'navigate', che causa l'impostazione del metodo <code> document.location </code> all' <code> attributo href </code> del <code> linkObject </code>. La funzione <code> doneAction</code> può anche consentire una personalizzazione avanzata. </p> <p>Se si fornisce un valore per <code> onclick </code> in un <code> evento di ancoraggio false </code> , è necessario restituire <code> s.tl </code> dopo la <code> chiamata href </code> per impedire la navigazione predefinita del browser. </p> <p> Per rispecchiare il comportamento predefinito e seguire l'URL specificato dall'attributo <code> doneAction </code> , immettete una stringa "navigate" come <code> action </code>. </p> <p>Facoltativamente, è possibile fornire la propria funzione per gestire l'evento di navigazione passando questa funzione come <code>$1</code>. </p> <p> <b>Esempi</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;here&lt;/a&gt; </code> <code class="syntax javascript">&lt;a&amp;nbsp;href="#"&amp;nbsp;onbsp="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,8 +299,8 @@ Release Date: **April 2012**
 
 Questo aggiornamento è consigliato per tutti i clienti.
 
-* Made an enhancement to detect when a page is prerendered using Google Chrome Prerender ( [https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. [!DNL JavaScript] La libreria ora attende che l'utente visita il sito prima di inviare chiamate server per queste pagine pre-passo.
-* Added the `timestamp` variable to the [!DNL JavaScript] library for customers who want to customize timestamp data similar to other [!DNL AppMeasurement] libraries.
+* È stato apportato un miglioramento per rilevare quando viene eseguito il rendering di una pagina tramite Google Chrome Pre-ender ( [https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Dal momento che prerender carica ed esegue [!DNL JavaScript] e altro codice, ciò potrebbe causare l'invio delle visualizzazioni di pagina prima che un utente faccia clic per visitare il sito. La [!DNL JavaScript] libreria attende che l'utente visiti il sito prima di inviare chiamate server per queste pagine prerendering.
+* Aggiunta la `timestamp` variabile alla [!DNL JavaScript] libreria per i clienti che desiderano personalizzare i dati delle marche temporali in modo simile alle altre [!DNL AppMeasurement] librerie.
 
 ```js
   s.timestamp=Math.round((new Date()).getTime()/1000); 
@@ -314,54 +311,54 @@ Questo aggiornamento è consigliato per tutti i clienti.
 
 Release Date: **February 2012**
 
-* Fixed an issue that caused extra data to be included in the image request for customers using Javascript `Object.prototype` overrides. All `Object.prototype` usage is now skipped when handling context data variables.
-* Fixed an issue that caused the `pe` query parameter to be passed twice with the same value in some circumstances.
-* Fix to [!DNL ClickMap] tracking in [!DNL JavaScript] to ignore clicks to the body tag, even when the tag has an `onClick` event handler.
-* Added time stamp to variables used with light tracking calls ( `trackLight`).
+* È stato risolto un problema che causava l’inclusione di dati aggiuntivi nella richiesta di immagini per i clienti che utilizzavano `Object.prototype` le sostituzioni JavaScript. Tutto `Object.prototype` l'utilizzo ora viene ignorato quando si gestiscono le variabili di dati di contesto.
+* È stato risolto un problema che causava il doppio invio del parametro di `pe` query con lo stesso valore in alcune circostanze.
+* Correzione del [!DNL ClickMap] tracciamento in [!DNL JavaScript] modo da ignorare i clic sul tag body, anche quando il tag include un gestore `onClick` eventi.
+* Aggiunta di marca temporale alle variabili utilizzate con le chiamate di tracciamento della luce ( `trackLight`).
 
 ## H.24.2 {#section_91CF07C2BC9B4C8BA0235DFDFB95A4D9}
 
 Release Date: **January 2012**
 
-* Aggiornamento del monitoraggio video con un nuovo metodo per tenere traccia delle visualizzazioni video complete.
-* Fixed an issue that caused an "Attribute only valid on v:image" [!DNL JavaScript] error for `OnClick` events on VML elements in IE.
-* Fixed a bug where context data variables were not included in link server calls, despite being referenced in `linkTrackVars`. Le variabili di dati di contesto vengono utilizzate con le regole di elaborazione.
+* È stato aggiornato il tracciamento video con un nuovo metodo per tenere traccia delle visualizzazioni video complete.
+* È stato risolto un problema che causava un errore di tipo "Attribute only valid on v:image" (Attributo valido solo in v:image) [!DNL JavaScript] per `OnClick` gli eventi su elementi VML in IE.
+* È stato corretto un bug a causa del quale le variabili dei dati di contesto non venivano incluse nelle chiamate del server dei collegamenti, nonostante fosse presente un riferimento in `linkTrackVars`. Le variabili di dati di contesto vengono utilizzate con le regole di elaborazione.
 
 ## H.24.1 {#section_967356D219FE4E9CAA110D03EDF4C8B1}
 
 Release Date: **November 2011**
 
-* Tracciamento video aggiornato per combinare hit per segmenti e pietre miliari che si verificano contemporaneamente.
+* È stato aggiornato il tracciamento video per combinare gli hit per segmenti e pietre miliari che si verificano contemporaneamente.
 
 ## H.24 {#section_78FF9B245643406BB7E9967E784A90AE}
 
 Release Date: **November 2011**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* Aggiornamenti interni per il supporto [!DNL Adobe Tag Manager].
 
 ## H.23.9 {#section_3834625A639A47428683E08A472359C7}
 
 Release Date: **November 2011**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* Aggiornamenti interni per il supporto [!DNL Adobe Tag Manager].
 
 ## H.23.8 {#section_FF3CEEAB6C6744D6B5EE314A0B5841CA}
 
 Release Date: **October 2011**
 
-* Fixed an issue that caused the `linkTrackVars=none` and `linkTrackEvents=none` settings to not apply when using automatic exit link tracking. Queste impostazioni vengono ora applicate per i collegamenti di uscita automatica, in modo che prop, evar ed eventi non vengano inviati con la richiesta di immagine collegamento.
+* È stato risolto un problema che impediva l'applicazione delle impostazioni `linkTrackVars=none` e `linkTrackEvents=none` le impostazioni quando si utilizzava il tracciamento automatico dei collegamenti di uscita. Queste impostazioni si applicano ora ai collegamenti di uscita automatici in modo che proprietà, eVar ed eventi non vengano inviati con la richiesta di immagine del collegamento di uscita.
 
 ## H.23.7 {#section_D9D0CF343EBF49D9844C6BDA0C3C7A2E}
 
 Release Date: **September 2011**
 
-* Sono stati rimossi gli attributi dei bordi dai tag immagine sui dispositivi mobili in conformità con gli standard WML (Wireless Markup Language). Questo risolve problemi di rendering su alcuni dispositivi mobili.
+* Sono stati rimossi gli attributi del bordo dai tag immagine sui dispositivi mobili per conformarsi agli standard WML (Wireless Markup Language). Questo risolve i problemi di rendering su alcuni dispositivi mobili.
 
 ## H.23.6 {#section_461A208BE1B64EDDA87A8D7C4FD5456C}
 
 Release Date: **August 2011**
 
-È stata corretta la precisione delle misure percentuali nel tracciamento video.
+Corretta la precisione delle percentuali di misurazioni nel tracciamento video.
 
 ## H.23.5 {#section_FCE48EE33C9A42F08386FA30037BF4E0}
 
@@ -373,24 +370,24 @@ Release Date: **July 2011**
 
 Release Date: **June 2011**
 
-* Fixed an issue that caused [!DNL JavaScript] errors when accessing certain properties of Vector Markup Language (VML) shape elements.
-* Le stringhe di riferimento che hanno oltre 255 caratteri ora sono troncate e abbreviano il percorso anziché la stringa di query. Queste problemi risolti erano parametri di stringa di query troncati e non raccolti.
+* È stato risolto un problema che causava [!DNL JavaScript] errori durante l'accesso a determinate proprietà degli elementi forma VML (Vector Markup Language).
+* Le stringhe di riferimento con più di 255 caratteri ora vengono troncate abbreviando il percorso anziché la stringa di query. Questi problemi risolti erano parametri di stringa query troncati e non raccolti.
 
 ## H.23.3 {#section_EAB0602E07EE4A5CA6521351F461D22D}
 
 Release Date: **May 2011**
 
-* È stato risolto un problema che impediva l'invio della variabile di tracciamento video (pev 3).
-* Fixed an issue that prevented the `s_gi` call from enabling code to be compatible with both G and H code. Quando passate un 1 come secondo parametro a questa chiamata, il codice ora è configurato per essere compatibile con entrambe le versioni.
+* È stato risolto un problema che impediva l'invio della variabile di tracciamento video (pev3).
+* È stato risolto un problema che impediva alla `s_gi` chiamata di abilitare il codice in modo che fosse compatibile con il codice G e H. Quando passi un 1 come secondo parametro a questa chiamata, il codice ora è configurato per essere compatibile con entrambe le versioni.
 
 ## H.23.2 {#section_274143E83A8D42F1AD40CAE4326E99CE}
 
 Release Date: **April 2011**
 
-* Supporto per contextdata che fornisce regole di elaborazione lato server (solo v 15).
-* Supporto per chiamate server chiaro (solo v 15).
+* Supporto per contextData che supporta le regole di elaborazione lato server (solo v15).
+* Supporto per chiamate server di luce (solo v15).
 * Supporto per l'assegnazione di un valore diverso da 1 a un evento contatore nell'elenco degli eventi.
-* Supporto per il nuovo metodo di tracciamento video utilizzando evar ed eventi di conversione (attualmente in versione beta).
-* Rimosso il supporto per l'impostazione di Media. trackkhareplaying su false. Sarà sempre true.
-* Aggiunto flag debugtracking per abilitare l'accesso alle richieste inviate alla console Firebug come le altre piattaforme.
-* Accertatevi che " +" sia sempre codificato URL, indipendentemente dal browser.
+* Supporto per un nuovo metodo di tracciamento dei video mediante eVar di conversione ed eventi (attualmente in versione beta).
+* È stato rimosso il supporto per l’impostazione di Media.trackWhenPlaying su false. Sarà sempre vero.
+* È stato aggiunto il flag debugTracking per abilitare la registrazione delle richieste inviate alla console Firebug come le altre piattaforme.
+* Accertatevi che "+" sia sempre con codifica URL, indipendentemente dal browser.
