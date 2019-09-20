@@ -1,54 +1,54 @@
 ---
-description: Condizioni determinano quando viene attivata una regola basata su eventi.
-keywords: Gestione tag dinamica; rule; create rule; new rule; regola basata su eventi; ritardare l'attivazione dei collegamenti; applicare il gestore di eventi direttamente all'elemento; bubbling; evento di bubbling
-seo-description: Condizioni determinano quando viene attivata una regola basata su eventi.
+description: Le condizioni determinano quando viene attivata una regola basata sugli eventi.
+keywords: Gestione tag dinamica;regola;crea regola;nuova regola;regola basata sugli eventi;attivazione dei collegamenti ritardati;applica il gestore eventi direttamente all'elemento;bubbling;bolla eventi
+seo-description: Le condizioni determinano quando viene attivata una regola basata sugli eventi.
 seo-title: Creare condizioni per le regole basate su eventi
-solution: Marketing Cloud, Analytics, Target, Gestione tag dinamica
+solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Creare condizioni per le regole basate su eventi
-uuid: a 847391 c -5 aec -4 d 64-8 a 35-388587731598
+uuid: a847391c-5aec-4d64-8a35-38858731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Creare condizioni per le regole basate su eventi
 
-Condizioni determinano quando viene attivata una regola basata su eventi.
+Le condizioni determinano quando viene attivata una regola basata sugli eventi.
 
-1. Selezionare il tipo di interazione da tracciare, ad esempio clic del mouse, o inviare un modulo.
+1. Selezionare il tipo di interazione da monitorare, ad esempio i clic del mouse o l'invio di un modulo.
 
    ![](assets/condition-event-based.png)
 
-   For more information, see [Event Types](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) in the Adobe Tag Management Product Documentation.
+   Per ulteriori informazioni, consulta Tipi [di](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) eventi nella Documentazione prodotto di Adobe Tag Management.
 
-1. Attivate le opzioni seguenti, a seconda delle necessità:
+1. Se necessario, abilitate le seguenti opzioni:
 
    | Elemento | Descrizione |
    |--- |--- |
-   | Ritardo collegamento collegamento | Attivate se l'evento attiva un collegamento e desiderate che il collegamento sia ritardato finché l'evento non avrà il tempo di attivarlo. |
-   | Applica il gestore di eventi direttamente all'elemento | Applica il gestore di eventi all'elemento specifico con targeting. Questa impostazione è legata al concetto di bubbling e layering in un browser. |
+   | Ritardo attivazione collegamento | Selezionate questa opzione se l’evento attiva un collegamento e desiderate che il collegamento ritardi fino a quando l’evento non ha tempo per essere attivato. |
+   | Applicare il gestore eventi direttamente all'elemento | Applica il gestore eventi all'elemento specifico di destinazione. Questa impostazione è legata al concetto di generazione di bolle e livelli in un browser. |
 
-   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. È importante comprendere in che punto l'evento è effettivamente associato e come destinazione è specificamente necessario che la regola venga attivato correttamente.
+   Ad esempio, quando fate clic su un’immagine all’interno di un tag di ancoraggio come `<a href="abc.html"><img src="xyz.png"/></a>`, è possibile che il clic sia associato al tag di ancoraggio, perché il tag si trova nel flusso delle bolle. Tuttavia, quando ispezionate il clic negli strumenti di sviluppo, il clic potrebbe influenzare solo il `<img>` tag. Per garantire che l’evento venga gestito correttamente, associate il clic con il `<img>` tag e non dipendono dal browser per visualizzare il clic su un elemento padre. Un evento come un clic può potenzialmente generare un effetto `<body>`. È importante capire dove l'evento è effettivamente associato, ed eseguire il targeting specifico per assicurarsi che la regola venga attivata correttamente.
 
-   *Lo strumento di bubbling* significa che l'evento viene acquisito e gestito per la prima volta dall'elemento interno e quindi trasmesso agli elementi esterni.
+   *Bubbling* significa che l’evento viene catturato e gestito per la prima volta dall’elemento più interno e quindi propagato agli elementi esterni.
 
-1. Indica il nome del tag da tracciare e altre proprietà a cui desiderate associare il tag.
+1. Indicate il nome del tag da monitorare e altre proprietà a cui il tag deve corrispondere.
 
    ![](assets/condition-event-based2.png)
 
-   See [Using the CSS Selector](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) in the Dynamic Tag Management Product Documentation for information about finding the correct element tag.
+   Consultate [Utilizzo del selettore](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) CSS nella Documentazione prodotto Gestione tag dinamica per informazioni su come trovare il tag elemento corretto.
 
-1. Selezionare e impostare eventuali criteri o tipi di condizione aggiuntivi da associare alla regola.
+1. Selezionare e impostare eventuali criteri o tipi di condizioni aggiuntivi da associare alla regola.
 
    ![](assets/condition-event-based3.png)
 
-1. Indicate la preferenza relativa al bubbling degli eventi.
+1. Indicate le preferenze per quanto riguarda il bollo degli eventi.
 
-   La bubbling degli eventi è una modalità di propagazione eventi nel DOM HTML.
+   Il bubbling degli eventi è uno dei metodi di propagazione degli eventi nel DOM HTML.
 
-   | Se si… | Selezionate questa opzione |
+   | Se tu... | Selezionare questa opzione |
    |--- |--- |
-   | Desiderate interazioni correlate sugli elementi secondari del selettore della regola identificato per attivare la regola. | Consente la bolla degli eventi sugli elementi secondari. |
-   | Desiderate evitare il bubbling quando l'elemento secondario attiva già un proprio evento. | Non consentite se l'elemento secondario ha già un evento. |
-   | Non desiderate che gli eventi del selettore della regola che avete identificato vadano oltre l'elemento stesso nella gerarchia dell'evento. | Non consentite agli eventi di passare in alto agli elementi principali. |
+   | Desiderate interazioni correlate su elementi secondari del selettore di regole identificato per attivare la regola. | Consente la generazione di eventi su elementi figlio. |
+   | Si desidera evitare la generazione di bolle quando l'elemento figlio attiva già un proprio evento. | Non consentire se l'elemento figlio attiva già l'evento. |
+   | Evitare che gli eventi del selettore di regole identificato vadano oltre l'elemento stesso nella gerarchia degli eventi. | Non consentire che gli eventi si propaghino ai genitori. |
