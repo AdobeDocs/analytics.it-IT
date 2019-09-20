@@ -1,51 +1,51 @@
 ---
-description: Quando un rapporto dispone di un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che nel rapporto vengano visualizzati i valori più importanti.
-seo-description: Quando un rapporto dispone di un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che nel rapporto vengano visualizzati i valori più importanti.
-seo-title: Valore del traffico insufficiente in Adobe Analytics
+description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che i valori più importanti vengano visualizzati nel rapporto.
+seo-description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che i valori più importanti vengano visualizzati nel rapporto.
+seo-title: Valore di traffico basso in Adobe Analytics
 solution: Analytics
-title: Valore del traffico insufficiente in Adobe Analytics
-topic: Metrics (Metriche)
-uuid: 56 f 723 f 8-94 e 8-478 f -8 ea 3-16 dad 21 dfa 1 f
+title: Valore di traffico basso in Adobe Analytics
+topic: Metriche
+uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
 
-# Valore del traffico insufficiente in Adobe Analytics
+# Valore di traffico basso in Adobe Analytics
 
-Quando un rapporto dispone di un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che nel rapporto vengano visualizzati i valori più importanti. Unique variable values collected after approximately 500,000 existing values are listed under a line item titled **(Low-Traffic)**.
+Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che i valori più importanti vengano visualizzati nel rapporto. I valori delle variabili univoche raccolti dopo circa 500.000 valori esistenti sono elencati in un elemento di riga denominato **(Basso traffico)**.
 
-## Funzionamento del traffico
+## Funzionamento del traffico limitato
 
-* I rapporti non vengono modificati se la variabile non raggiunge 500,000 valori univoci in un dato mese.
-* Quando una variabile raggiunge la prima soglia di 500,000, i dati iniziano a muoversi in basso traffico. Ogni valore oltre questa soglia attraversa la seguente logica:
-   * Se un valore è già presente nei rapporti, aggiungete a tale valore come al solito.
-   * Se un valore non è ancora in fase di reporting, verificate che tale valore sia stato visualizzato più di dieci volte al giorno. In caso affermativo, aggiungete questo valore al reporting. Se non viene conteggiato più di dieci volte, lasciatelo in basso traffico.
-* Se una suite di rapporti raggiunge più di 1,000,000 valori univoci, viene applicato un filtro più aggressivo:
-   * Se un valore è già presente nei rapporti, aggiungete a tale valore come al solito.
-   * Se un valore non è ancora in fase di reporting, verificate che tale valore sia stato visualizzato più di circa 100 volte. In caso affermativo, aggiungete il valore al reporting. In caso contrario, lasciatela in basso traffico.
+* I rapporti non vengono influenzati se la variabile non raggiunge 500.000 valori univoci in un dato mese.
+* Quando una variabile raggiunge la prima soglia di 500.000, i dati iniziano ad essere inseriti nei pacchetti con traffico limitato. Ogni valore oltre questa soglia passa attraverso la logica seguente:
+   * Se un valore è già presente nei rapporti, aggiungetelo normalmente.
+   * Se un valore non è ancora nel reporting, verificare se tale valore è stato visualizzato più di dieci volte al giorno d'oggi. In caso affermativo, aggiungete questo valore al reporting. Se non è stato conteggiato più di dieci volte, lasciatelo sotto traffico limitato.
+* Se una suite di rapporti raggiunge più di 1.000.000 valori univoci, viene applicato un filtro più aggressivo:
+   * Se un valore è già presente nei rapporti, aggiungetelo normalmente.
+   * Se un valore non è ancora nel reporting, verificare che sia stato visualizzato più di 100 volte al giorno d'oggi. In caso affermativo, aggiungete il valore al reporting. In caso contrario, lasciatela sotto traffico limitato.
 
-> [!NOTE] Se un valore di variabile riceve un traffico sufficiente a lasciare il bucket basso, i primi valori raccolti non passano al relativo elemento della riga. Le prime 10-100 istanze restano in basso traffico.
+> [!NOTE] Se un valore di variabile riceve un traffico sufficiente a lasciare l'intervallo di traffico basso, i primi valori raccolti non si spostano sull'elemento corrispondente. Quelle prime 10-100 istanze rimangono sotto il traffico basso.
 
-## Modifica delle soglie di limite univoche
+## Modifica di soglie univoche
 
-Per impostazione predefinita, i limiti di soglia sono compresi tra 500,000 e 1 milioni di valori univoci. Questi limiti possono essere modificati a livello di singola variabile. Contattate il responsabile commerciale dell'organizzazione per richiedere questa modifica. Quando richiedete una modifica, includete:
+Per impostazione predefinita, i limiti di soglia sono 500.000 e 1 milione di valori univoci. Tali limiti possono essere modificati per ogni variabile. Per richiedere la modifica, contatta l’account manager della tua organizzazione. Quando viene richiesta una modifica, includi:
 
 * ID suite di rapporti
-* La variabile di cui desiderate aumentare la soglia
-* La prima e la seconda soglia desiderata
+* La variabile per la quale si desidera aumentare la soglia
+* Sia la prima che la seconda soglia desiderata
 
-Questa modifica può avere un costo aggiuntivo e dipende dal contratto. Anche le modifiche alle soglie possono influire sulle prestazioni dei rapporti. Adobe consiglia vivamente di utilizzare un buon giudizio quando si richiede un aumento a valori univoci in una variabile.
+Le modifiche alle soglie possono influire sulle prestazioni del report. Adobe consiglia vivamente di utilizzare il buon senso quando si richiede un aumento di valori univoci in una variabile.
 
-Le soglie di traffico basso non sono visibili nell'interfaccia utente di Analytics. Se desideri ricevere ulteriori informazioni sulle soglie esistenti, chiedi all'assistenza clienti di contattare l'Assistenza clienti.
+Le soglie di traffico ridotte non sono visibili nell'interfaccia di Analytics. Se desiderate ulteriori informazioni sulle soglie esistenti, rivolgetevi a un utente supportato della vostra azienda.
 
-## Traffico con componenti e altre funzionalità
+## Basso traffico con componenti e altre funzionalità
 
-Diverse funzionalità gestiscono i valori di traffico basso in modi diversi.
+Diverse funzionalità gestiscono i valori di traffico ridotto in modi diversi.
 
-* **Data Warehouse:** Non esiste alcun limite al numero di valori univoci nei report Data Warehouse. La sua unica architettura consente di generare rapporti su qualsiasi numero di valori univoci.
-   * In alcuni scenari limitati, i valori di traffico basso possono comunque essere visualizzati. Gli esempi includono variabili elenco, proprietà elenco, evar di merchandising e dimensioni del dettaglio del canale di marketing.
-* **Segmentazione:** Se i criteri del segmento includono una variabile con un numero elevato di valori univoci, i valori acquisiti in basso traffico non sono inclusi.
-* **Classificazioni:** I rapporti di classificazione sono soggetti anche a limiti univoci. Se il valore della variabile principale di una classificazione è incluso in un traffico basso, il valore non è classificato.
-   * Se si classificano i valori prima che siano visibili nei dati, questi valori contano verso la soglia univoca di quel mese.
+* **** Data Warehouse: Non esiste alcun limite al numero di valori univoci nei report Data Warehouse. La sua architettura unica permette di riportare qualsiasi numero di valori univoci.
+   * In alcuni scenari limitati, i valori di traffico ridotti possono ancora apparire. Alcuni esempi includono le variabili elenco, le proprietà elenco, le eVar merchandising e le dimensioni dei dettagli del canale di marketing.
+* **** Segmentazione: Se i criteri del segmento includono una variabile con un numero elevato di valori univoci, i valori acquisiti con traffico limitato non vengono inclusi.
+* **** Classificazioni: Anche i rapporti sulla classificazione sono soggetti a limiti univoci. Se il valore della variabile padre di una classificazione è incluso in traffico limitato, il valore non è classificato.
+   * Se si classificano i valori prima che vengano visualizzati nei dati, tali valori vengono conteggiati verso la soglia univoca per quel mese.
