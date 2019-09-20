@@ -7,7 +7,7 @@ title: Creare segmenti sequenziali
 topic: Segmenti
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
@@ -262,10 +262,17 @@ I gruppi logici possono sembrare scoraggianti: ecco alcune best practice per uti
 Se si desidera raggruppare i checkpoint sequenziali, il "contenitore" è Logic Group. Tuttavia, se tali checkpoint sequenziali devono verificarsi all'interno di un singolo hit o di un ambito di visita, è necessario un contenitore "hit" o "visit". (Naturalmente, l'hit non ha senso per un gruppo di checkpoint sequenziali, quando un hit può accreditare non più di un checkpoint).
 
 **I gruppi logici semplificano la creazione di segmenti sequenziali?**
-Sì, possono. Supponiamo che tu stia cercando di rispondere a questa domanda: Un visitatore ha visto le pagine B, C o D dopo la pagina A? È possibile creare questo segmento senza un contenitore del gruppo logico, ma è complesso e laborioso:
-Contenitore visitatori [Pagina A POI Pagina B POI Pagina C POI Pagina D] o Contenitore visitatore [Pagina A POI Pagina B POI Pagina D POI Pagina C] o Contenitore visitatori [Pagina A POI Pagina C POI Pagina B POI Pagina D] o Contenitore visitatori [Pagina A POI Pagina C POI Pagina D POI Pagina] O Contenitore visitatori [A IT Pagina D POI Pagina B POI Pagina C] [o Contenitore visitatori Pagina A POI Pagina D POI Pagina C POI Pagina B]
+Sì, possono. Supponiamo che tu stia cercando di rispondere a questa domanda: Un **visitatore ha visualizzato la pagina B, la pagina C o la pagina D dopo la pagina A?**
 
-Un contenitore di gruppo logico semplifica notevolmente il segmento, come illustrato di seguito:
+È possibile creare questo segmento senza un contenitore del gruppo logico, ma è complesso e laborioso:
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+Un contenitore del gruppo logico semplifica notevolmente la creazione di questo segmento, come illustrato di seguito:
 
 ![](assets/logic-grp-example.png)
 
