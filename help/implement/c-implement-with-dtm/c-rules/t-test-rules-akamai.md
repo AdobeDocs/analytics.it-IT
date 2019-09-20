@@ -1,31 +1,31 @@
 ---
-description: Potete testare le regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
-keywords: Gestione tag dinamica; rule; plugin di commutatore; akamai; test akamai; regole non pubblicate; test unpublished rules; regola di debug
-seo-description: Potete testare le regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
+description: Eseguite il test delle regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
+keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
+seo-description: Eseguite il test delle regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
 seo-title: Verificare le regole non pubblicate per hosting Akamai
-solution: Marketing Cloud, Analytics, Target, Gestione tag dinamica
+solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Verificare le regole non pubblicate per hosting Akamai
-uuid: 979 e 3 d 74-8 d 96-47 d 0-b 581-cf 5371248434
+uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Verificare le regole non pubblicate per hosting Akamai
 
-Potete testare le regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
+Eseguite il test delle regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
 
-Il plug-plugin Switcher è spesso il metodo più semplice per eseguire il test. See [Search Discovery Plugins](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) in the Dynamic Tag Management Product Documentation for more information.
+Il plugin dello switcher è spesso il modo più semplice per eseguire il test. Per ulteriori informazioni, consulta [Ricerca plug-in](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) nella Documentazione prodotto Gestione tag dinamica.
 
-I passaggi seguenti mostrano come eseguire il test senza utilizzare il plug-plugin Switcher:
+I passaggi seguenti mostrano come eseguire il test senza utilizzare il plug-in Switcher:
 
-1. Access your web console on your site and type `localStorage.setItem('sdsat_stagingLibrary', true)`.
-1. Press **[!UICONTROL Enter]**.
-1. Type `_satellite.setDebug(true)`, then press **[!UICONTROL Enter]**.
+1. Accedete alla console Web sul sito e digitate `localStorage.setItem('sdsat_stagingLibrary', true)`.
+1. Premere **[!UICONTROL Enter]**.
+1. Digitare `_satellite.setDebug(true)`, quindi premere **[!UICONTROL Enter]**.
 1. Aggiorna la pagina.
 
-   Questa azione carica la libreria di staging e imposta il debugger, per visualizzare i dettagli di tutte le regole disponibili (pubblicate/non pubblicate) che si attivano sulla pagina.
-1. When finished, run `localStorage.setItem('sdsat_stagingLibrary', false)`, then press **[!UICONTROL Enter]**.
+   Questa azione carica la libreria di staging e imposta il debugger, in modo da visualizzare i dettagli di tutte le regole disponibili (pubblicate/non pubblicate) in esecuzione sulla pagina.
+1. Al termine, eseguire `localStorage.setItem('sdsat_stagingLibrary', false)`, quindi premere **[!UICONTROL Enter]**.
 
    Risultato passaggio
