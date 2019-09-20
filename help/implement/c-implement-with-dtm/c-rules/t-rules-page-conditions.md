@@ -1,30 +1,30 @@
 ---
-description: Crea regole che determinano in quali pagine viene attivata una regola.
-keywords: Gestione tag dinamica; rule; create rule; new rule; regola di caricamento pagina
-seo-description: Crea regole che determinano in quali pagine viene attivata una regola.
-seo-title: Creare condizioni per regole di caricamento delle pagine
-solution: Marketing Cloud, Analytics, Target, Gestione tag dinamica
-title: Creare condizioni per regole di caricamento delle pagine
-uuid: 30 a 6 c 69 f -56 e 7-414 e -9636-64 c 262 e 7 ccd 4
+description: Creare regole che determinano sulle pagine in cui viene attivata una regola.
+keywords: Gestione tag dinamica;regola;crea regola;nuova regola;regola di caricamento pagina
+seo-description: Creare regole che determinano sulle pagine in cui viene attivata una regola.
+seo-title: Creare condizioni per le regole di caricamento delle pagine
+solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+title: Creare condizioni per le regole di caricamento delle pagine
+uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Creare condizioni per regole di caricamento delle pagine
+# Creare condizioni per le regole di caricamento delle pagine
 
-Crea regole che determinano in quali pagine viene attivata una regola.
+Creare regole che determinano sulle pagine in cui viene attivata una regola.
 
-1. Specificate la posizione in cui attivare la regola.
+1. Specificate la posizione nella pagina in cui attivare la regola.
 
-   Il momento in cui la regola viene attivata sulla pagina diventa più importante quando ci sono dipendenze dal contenuto della pagina all'interno della regola.
+   Il momento in cui la regola viene attivata sulla pagina diventa più importante quando vi sono dipendenze dal contenuto della pagina all'interno della regola.
 
    ![](assets/conditions-page-load-rules1.png)
 
-1. Specificate la condizione che determina l'attivazione della regola.
+1. Specificare la condizione che causa l'attivazione della regola.
 
-   For example, you can select **[!UICONTROL Path]** to identify specific pages for which you want the rule to fire.
+   Ad esempio, potete selezionare **[!UICONTROL Path]** per identificare pagine specifiche per le quali attivare la regola.
 
    ![](assets/conditions-page-load-rules2.png)
 
