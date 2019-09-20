@@ -2,13 +2,13 @@
 description: nulle
 seo-description: nulle
 seo-title: Mac OS X
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Note sulla versione
 title: Mac OS X
 topic: Sviluppatore e implementazione
-uuid: d 5 e 46 c 86-2 d 00-4 a 18-8 eee-dcaf 082761 af
+uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,54 +17,54 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->Questi SDK sono diventati obsoleti e non sono più supportati o distribuiti da Adobe.
+>Questi SDK sono scaduti e non sono più supportati o distribuiti da Adobe.
 
 >[!NOTE]
 >
->Per trovare la versione corrente della libreria, attivare la registrazione di debug.
+>Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
-[I download](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) delle librerie mobili [!DNL Developer Connection]sono disponibili.
+I [download](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) della libreria mobile sono disponibili in [!DNL Developer Connection].
 
-## Version 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
+## Versione 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
 Release Date: **30 January, 2014**
 
-* È stato risolto un problema che poteva causare medie di lunghezza sessione grandi se un dispositivo aveva impostazioni di tempo errate.
+* È stato risolto un problema che poteva causare grosse medie di lunghezza di sessione se un dispositivo aveva impostazioni di ora errate.
 
-## Version 3.2.1 {#section_0354BDA5B77242058740CE7B6AEF2FEE}
+## Versione 3.2.1 {#section_0354BDA5B77242058740CE7B6AEF2FEE}
 
 Release Date: **16 August, 2013**
 
-* Ottimizzata rimuovendo il codice inutilizzato.
-* È stato corretto un arresto anomalo potenziale che poteva verificarsi quando clearvars veniva utilizzato in uno scenario concatenato.
+* Ottimizzato rimuovendo il codice non utilizzato.
+* È stato corretto un potenziale arresto anomalo che poteva verificarsi quando clearVars veniva utilizzato in uno scenario con thread.
 
 ## Versione 3.2 {#section_B85E2904C769461BA8B062AAA0534F9B}
 
-Release Date: **5 Aug, 2013**
+Data di rilascio: **5 agosto 2013**
 
-* Aggiunto supporto per Adobe Audience Manager.
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* È stato aggiunto il supporto per Adobe Audience Manager.
+* I dati del ciclo di vita verranno ora inviati con richieste [!DNL Target] Mbox.
 
-## Version 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
+## Versione 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
 Release Date: **23 May, 2013**
 
-* Aggiunto codice per impedire l'invio eccessivo di hit del ciclo di vita tramite notifiche di posizione e notifiche Edicola che avviano un'app.
+* È stato aggiunto del codice per evitare che gli hit del ciclo di vita eccessivi vengano inviati tramite notifiche sulla posizione e notifiche Edicola che avviano un’app.
 
-## Version 3.1.6 {#section_DAEB9DDF3A1242CEBF21F4E5AF742D68}
+## Versione 3.1.6 {#section_DAEB9DDF3A1242CEBF21F4E5AF742D68}
 
 Release Date: **18 April, 2013**
 
-* È stato corretto un problema a causa del quale talvolta era possibile calcolare erroneamente la durata della sessione precedente.
+* È stato risolto un problema che talvolta causava un calcolo errato della lunghezza della sessione precedente.
 
-## Version 3.1.5 {#section_620AA594868F47619A514AF3C1EAC93B}
+## Versione 3.1.5 {#section_620AA594868F47619A514AF3C1EAC93B}
 
 Release Date: **21 March, 2013**
 
-* `ADMS_Measurement.visitorID` viene ora precompilato con il valore predefinito.
+* `ADMS_Measurement.visitorID` ora viene precompilato con il valore predefinito.
 
-## Version 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
+## Versione 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
 Release Date: **February 2013**
 
-Versione iniziale. This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+Versione iniziale. Questa versione è basata sulla base di codice [!DNL iOS] 3.1.4, per cui il numero di versione iniziale è stato impostato in modo da corrispondere [!DNL iOS].
