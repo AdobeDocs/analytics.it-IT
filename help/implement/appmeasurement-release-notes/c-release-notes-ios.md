@@ -1,14 +1,14 @@
 ---
 description: Note sulla versione cumulative per iOS.
 seo-description: Note sulla versione cumulative per iOS.
-seo-title: App
-solution: Analytics, Marketing Cloud
+seo-title: iOS
+solution: Analytics,Experience Cloud
 subtopic: Note sulla versione
-title: App
+title: iOS
 topic: Sviluppatore e implementazione
-uuid: cc 98 f 8 f 2-f 619-4 b 31-abf 9-e 43 f 4 deac 64 f
+uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,17 +19,17 @@ Note sulla versione cumulative per iOS.
 
 >[!NOTE]
 >
->Per trovare la versione corrente della libreria, attivare la registrazione di debug.
+>Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
-Mobile library downloads are available on [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) and on [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
+I download delle librerie per dispositivi mobili sono disponibili su [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e su [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
-[Documentazione 4. x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[Documentazione 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
 
-[Documentazione 3. x](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
+[Documentazione 3.x](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
 
-## Version 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
+## Versione 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
-The [!DNL iOS] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
+La versione [!DNL iOS] SDK 4.13.4 (16 febbraio 2017) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_657D643E874D47C099F2F43519C9C1C7"> 
  <thead> 
@@ -50,9 +50,9 @@ The [!DNL iOS] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
  </tbody> 
 </table>
 
-## Version 4.13.3 {#section_39618D2B29F942FCBF37E4F5507AA131}
+## Versione 4.13.3 {#section_39618D2B29F942FCBF37E4F5507AA131}
 
-The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
+La versione [!DNL iOS] SDK 4.13.3 (19 gennaio 2017) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_341D35BF18714139A95CA5491899185D"> 
  <thead> 
@@ -64,7 +64,7 @@ The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Messaggistica in-app </p> </td> 
-   <td colname="2"> <p> Ora è possibile disattivare i messaggi a schermo intero quando voiceover è in esecuzione. </p> </td> 
+   <td colname="2"> <p> Ora potete disattivare i messaggi a schermo intero quando VoiceOver è in esecuzione. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> Analytics</span> </p> </td> 
@@ -72,14 +72,14 @@ The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Generale </p> </td> 
-   <td colname="2"> <p> È stato risolto un problema che poteva causare un arresto anomalo durante la chiamata di un metodo di tracciamento dallo sfondo durante l'utilizzo di gruppi di app. </p> </td> 
+   <td colname="2"> <p> È stato risolto un problema che a volte poteva causare un arresto anomalo durante la chiamata di un metodo di tracciamento dallo sfondo durante l'utilizzo di gruppi di app. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.13.2 {#section_CB0DFFDB38FE4D14A84423DF40BF8FD3}
+## Versione 4.13.2 {#section_CB0DFFDB38FE4D14A84423DF40BF8FD3}
 
-The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
+La versione [!DNL iOS] SDK 4.13.2 (10 novembre 2016) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AA26B14D271948FFBA44D4D06E3B71AA"> 
  <thead> 
@@ -91,7 +91,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Servizio ID visitatori </p> </td> 
-   <td colname="2"> <p> Aggiunta della marca temporale e dell’ID Marketing Cloud dell’organizzazione al parametro <code>adobe_mc</code>. </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configurazione </p> </td> 
@@ -108,9 +108,9 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  </tbody> 
 </table>
 
-## Version 4.13.1 {#section_18C8A7166EFD4E67AC0F7C06DFBBFE6A}
+## Versione 4.13.1 {#section_18C8A7166EFD4E67AC0F7C06DFBBFE6A}
 
-The [!DNL iOS] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
+La versione [!DNL iOS] SDK 4.13.1 (20 ottobre 2016) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_5B67A6B8B79D4783BA8DCDA7C2ACA765"> 
  <thead> 
@@ -122,23 +122,23 @@ The [!DNL iOS] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Acquisizione </p> </td> 
-   <td colname="2"> <p> The SDK now supports custom acquisition data to be returned appropriately by <code> AdobeDataCallback</code> invocations. </p> </td> 
+   <td colname="2"> <p> L’SDK ora supporta i dati di acquisizione personalizzati che devono essere restituiti in modo appropriato dalle chiamate <code> AdobeDataCallback</code> . </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p><span class="keyword"> I parametri del servizio</span> ID visitatore ora vengono passati nelle <span class="keyword"> richieste Target</span> tramite <code> mboxparams</code>. </p> </td> 
+   <td colname="2"> <p><span class="keyword"> I parametri del servizio</span> ID visitatori ora vengono passati nelle richieste <span class="keyword"> Target</span> tramite <code> mboxParams</code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Correzioni di bug**
 
-* Fixed an issue that could cause a crash when trying to sync new ID to the VisitorID service at the same time as sending tracking hits to [!DNL Adobe Analytics].
-* Fixed an issue that was causing build warnings when targeting [!DNL iOS] versions older than 8.
+* È stato risolto un problema che poteva causare un arresto anomalo durante il tentativo di sincronizzare un nuovo ID al servizio VisitorID contemporaneamente all’invio di hit di tracciamento a [!DNL Adobe Analytics].
+* È stato risolto un problema che causava avvisi di compilazione quando si utilizzavano [!DNL iOS] versioni di destinazione precedenti alla 8.
 
-## Version 4.13.0 {#section_F72A3357994E4887A9F3967F0FBFFCDD}
+## Versione 4.13.0 {#section_F72A3357994E4887A9F3967F0FBFFCDD}
 
-The [!DNL iOS] SDK version 4.13.0 (Sep 15, 2016) includes the following changes:
+La versione [!DNL iOS] SDK 4.13.0 (15 settembre 2016) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_FD6156E58FF54BA2BEED7398BC780C46"> 
  <thead> 
@@ -150,14 +150,14 @@ The [!DNL iOS] SDK version 4.13.0 (Sep 15, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Messaggistica in-app </p> </td> 
-   <td colname="2"> <p>Nuova funzionalità: Aggiunto un nuovo tipo di messaggio che apre un URI di collegamento profondo. </p> </td> 
+   <td colname="2"> <p>Nuova funzione: È stato aggiunto un nuovo tipo di messaggio che apre un URI di collegamento profondo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.12.0 {#section_2AD26AABBB434833AE961C8D71C9AFE8}
+## Versione 4.12.0 {#section_2AD26AABBB434833AE961C8D71C9AFE8}
 
-The [!DNL iOS] SDK version 4.12.0 (Aug 18, 2016) includes the following changes:
+La versione [!DNL iOS] SDK 4.12.0 (18 agosto 2016) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_CC3CD01203ED4BDA9BC26427E925C70D"> 
  <thead> 
@@ -169,18 +169,18 @@ The [!DNL iOS] SDK version 4.12.0 (Aug 18, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Servizio ID visitatori </p> </td> 
-   <td colname="2"> <p> Aggiunto nuovo metodo per aggiungere l'identità dei visitatori a un dato URL per trasferire l'identità a un'implementazione basata sul Web. </p> </td> 
+   <td colname="2"> <p> È stato aggiunto un nuovo metodo per aggiungere l’identità del visitatore a un determinato URL al fine di trasferire l’identità a un’implementazione basata sul Web. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Messaggi in-app </p> </td> 
-   <td colname="2"> <p>Risolto un problema che poteva causare un arresto anomalo quando l'attributo "target" veniva impostato su "_ blank" in un tag HTML in un messaggio a schermo intero personalizzato. </p> </td> 
+   <td colname="2"> <p>È stato risolto un problema che poteva causare un arresto anomalo durante l'impostazione dell'attributo "target" su "_blank" in un tag HTML in un messaggio a schermo intero personalizzato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.11.0 {#section_3ABABE0F0B964EB48BD482CCE260A13D}
+## Versione 4.11.0 {#section_3ABABE0F0B964EB48BD482CCE260A13D}
 
-The [!DNL iOS] SDK version 4.11.0 (June 22, 2016) includes the following changes:
+La versione [!DNL iOS] SDK 4.11.0 (22 giugno 2016) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_14B23402BA3B41238F419CA57341B8F5"> 
  <thead> 
@@ -191,8 +191,8 @@ The [!DNL iOS] SDK version 4.11.0 (June 22, 2016) includes the following changes
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Metodi di Target </p> </td> 
-   <td colname="2"> <p>You can now use the following new <span class="keyword"> Target</span> method: </p> <p> 
+   <td colname="1"> <p>Target methods </p> </td> 
+   <td colname="2"> <p>Ora puoi usare il seguente nuovo metodo <span class="keyword"> Target</span> : </p> <p> 
      <ul id="ul_93CDE46E39C9431DA9104664F175708B"> 
       <li id="li_903FAC68526B4B7CB6555DC577CE493A"><code> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:</code> </li> 
      </ul> </p> </td> 
@@ -200,9 +200,9 @@ The [!DNL iOS] SDK version 4.11.0 (June 22, 2016) includes the following changes
  </tbody> 
 </table>
 
-## Version 4.10.0 {#section_F0D6D7FD89DE4DF5A121B05FA093CC5B}
+## Versione 4.10.0 {#section_F0D6D7FD89DE4DF5A121B05FA093CC5B}
 
-The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
+La versione [!DNL iOS] SDK 4.10.0 (20 maggio 2016) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AC447B6E4D55489F803923BF5D1D6653"> 
  <thead> 
@@ -213,8 +213,8 @@ The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Metodi di Target </p> </td> 
-   <td colname="2"> <p>You can now use the following new <span class="keyword"> Target</span> methods: </p> <p> 
+   <td colname="1"> <p>Target methods </p> </td> 
+   <td colname="2"> <p>Ora puoi usare i seguenti nuovi metodi <span class="keyword"> Target</span> : </p> <p> 
      <ul id="ul_D0594A9ABFD8448186DED87599A0E50E"> 
       <li id="li_A4B0ECDF200C438BB1AB24D613453A68"><code> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback:</code> </li> 
       <li id="li_C0FADBB3CEE141AE951CBD49F3A52642"><code> targetThirdPartyID</code> </li> 
@@ -225,7 +225,7 @@ The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Metodi TVJS </p> </td> 
-   <td colname="2"> <p>You can now use the following new <span class="keyword"> Target</span> TVJS methods: </p> <p> 
+   <td colname="2"> <p>Ora puoi usare i seguenti nuovi metodi <span class="keyword"> Target</span> TVJS: </p> <p> 
      <ul id="ul_AED76A2B99534CF3A472AC0381B2618C"> 
       <li id="li_AA731652996C4A19A8E02D5D6B8BDC93"><code> targetThirdPartyID</code> </li> 
       <li id="li_744A63A62A8045E49C75F9D7AED5D75E"><code> targetSetThirdPartyID</code> </li> 
@@ -235,7 +235,7 @@ The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Adobe Target per TVML/TVJS </p> </td> 
-   <td colname="2"> <p>You can now use the following property names when configuring your <code> ADBTarget</code> element: </p> <p> 
+   <td colname="2"> <p>Ora potete utilizzare i seguenti nomi di proprietà quando configurate l'elemento <code> ADBTarget</code> : </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
       <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
       <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
@@ -246,9 +246,9 @@ The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
  </tbody> 
 </table>
 
-## Version 4.9.0 {#section_DA97D7294B214067A4904B9738450759}
+## Versione 4.9.0 {#section_DA97D7294B214067A4904B9738450759}
 
-The [!DNL iOS] SDK version 4.9.0 (May 5, 2016) includes the following changes:
+La versione [!DNL iOS] SDK 4.9.0 (5 maggio 2016) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_0B3A0F44549C4DA48C7639048C030065"> 
  <thead> 
@@ -259,13 +259,13 @@ The [!DNL iOS] SDK version 4.9.0 (May 5, 2016) includes the following changes:
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Collegamenti profondi </p> </td> 
-   <td colname="2"> <p>Puoi implementare collegamenti profondi nelle applicazioni per indirizzare gli utenti verso destinazioni di collegamenti Web o app. </p> </td> 
+   <td colname="1"> <p>Collegamento diretto </p> </td> 
+   <td colname="2"> <p>Puoi implementare i collegamenti profondi nelle tue applicazioni per indirizzare gli utenti verso destinazioni di app o collegamenti web. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.8.6 {#section_0150641B44CF4F6CBE2B21002F8EAB30}
+## Versione 4.8.6 {#section_0150641B44CF4F6CBE2B21002F8EAB30}
 
 The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
@@ -284,7 +284,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
  </tbody> 
 </table>
 
-## Version 4.8.5 {#section_F42EB64F91024748893E89575F2E4487}
+## Versione 4.8.5 {#section_F42EB64F91024748893E89575F2E4487}
 
 The [!DNL iOS] SDK version 4.8.5 (February 18, 2016) includes the following changes:
 
@@ -303,9 +303,9 @@ The [!DNL iOS] SDK version 4.8.5 (February 18, 2016) includes the following chan
  </tbody> 
 </table>
 
-## Version 4.8.0 {#section_2CF142C8C2D24B529559DAF76F851BBF}
+## Versione 4.8.0 {#section_2CF142C8C2D24B529559DAF76F851BBF}
 
-The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following changes:
+La versione [!DNL iOS] SDK 4.8.0 (2 novembre 2015) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_9DB41F070D66498FACF1A9C135603C7A"> 
  <thead> 
@@ -316,7 +316,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Nuovi metodi del servizio ID visitatore Marketing Cloud </td> 
+   <td colname="1"> Nuovi metodi del servizio ID visitatori di Experience Cloud </td> 
    <td colname="2"> <p>Sono stati aggiunti i seguenti metodi: </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -343,9 +343,9 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </tbody> 
 </table>
 
-## Version 4.7.0 {#section_B37B1CAF065346E9A2073A06AB7AFEC2}
+## Versione 4.7.0 {#section_B37B1CAF065346E9A2073A06AB7AFEC2}
 
-The [!DNL iOS] SDK version 4.7.0 (October 15, 2015) includes the following changes:
+La versione [!DNL iOS] SDK 4.7.0 (15 ottobre 2015) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_3CCA327B859B498D828B2E056A075BEC"> 
  <thead> 
@@ -356,15 +356,15 @@ The [!DNL iOS] SDK version 4.7.0 (October 15, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Supporto per tvos </td> 
-   <td colname="2"> <p>Tvos è supportato per Apple TV. </p> </td> 
+   <td colname="1"> supporto per tvOS </td> 
+   <td colname="2"> <p>tvOS è supportato per Apple TV. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> Supporto per la sicurezza dei trasporti app </td> 
+   <td colname="1"> Supporto per la sicurezza del trasporto delle app </td> 
    <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> 9, Apple introduced App Transport Security, a set of requirements that conforms to best practices for secure connections. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> Metodi</span> plug-in phonegap </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Metodi di plug-in PhoneGap</span> </p> </td> 
    <td colname="2"> <p>Sono stati aggiunti i seguenti metodi: </p> <p><b>Metodi di Configurazione</b> </p> <p> 
      <ul id="ul_98C5E7B5C79446EEA00F0E7CBC213301"> 
       <li id="li_B403C06E57A0450CBB4ABAD45170C681">setPushIdentifier </li> 
@@ -394,17 +394,17 @@ The [!DNL iOS] SDK version 4.7.0 (October 15, 2015) includes the following chang
       <li id="li_D80DD8DDE6AB4CB6BEE37DAA9BB28A98">visitorSyncIdentifiers </li> 
      </ul> </p> <p><b>Estensioni app e metodi Apple Watch</b> </p> <p> 
      <ul id="ul_66B1E1AC4A6D4970B0C77A46EA14ABA7"> 
-      <li id="li_1EA7A063FED04E0585D463837A7555CE">Setappgroup </li> 
-      <li id="li_5869EAB018C94EE4AC28B3EE62D9F0EF">Syncsettings </li> 
-      <li id="li_983A98CAEBAD404EBCE1D70CB0B52BA3">Initializewatch </li> 
+      <li id="li_1EA7A063FED04E0585D463837A7555CE">setAppGroup </li> 
+      <li id="li_5869EAB018C94EE4AC28B3EE62D9F0EF">syncSettings </li> 
+      <li id="li_983A98CAEBAD404EBCE1D70CB0B52BA3">initializeWatch </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.6 {#section_D091872501DA49C1A18CDC33C84B8256}
+## Versione 4.6 {#section_D091872501DA49C1A18CDC33C84B8256}
 
-The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following changes:
+La versione [!DNL iOS] SDK 4.6 (17 settembre 2015) include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_084C27B1A75A4A2EB84822242E37ED35"> 
  <thead> 
@@ -416,7 +416,7 @@ The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following chang
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Push Messaging to <span class="keyword"> Analytics</span> Segments </p> </td> 
-   <td colname="2"> <p> <span class="keyword"> Adobe Mobile Services</span> e l'SDK <span class="keyword"> di Adobe Mobile</span> consentono di inviare messaggi push ai <span class="keyword"> segmenti Analytics</span> . La SDK vi consente anche di segnalare facilmente gli utenti che hanno aperto la vostra app a seguito dell'apertura del messaggio push. </p> </td> 
+   <td colname="2"> <p> <span class="keyword"> Adobe Mobile Services</span> e l’ <span class="keyword"> SDK di Adobe Mobile</span> consentono di inviare messaggi push ai segmenti <span class="keyword"> Analytics</span> . La SDK vi consente anche di segnalare facilmente gli utenti che hanno aperto la vostra app a seguito dell'apertura del messaggio push. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Metodi di acquisizione </p> </td> 
@@ -432,19 +432,19 @@ The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following chang
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E"><code> Trackpushmessageclickthrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E">trackPushMessageClickThrough <code></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Supporto di watchkit per watchos 2 </p> </td> 
-   <td colname="2"> <p>Aggiunto supporto watchkit per watchos 2. </p> </td> 
+   <td colname="1"> <p>Supporto di WatchKit per WatchOS 2 </p> </td> 
+   <td colname="2"> <p>È stato aggiunto il supporto di WatchKit per WatchOS 2. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.5 {#section_53DFAF8CFD614F69B3168014EF84DE9F}
+## Versione 4.5 {#section_53DFAF8CFD614F69B3168014EF84DE9F}
 
-The [!DNL iOS] SDK version 4.5 includes the following changes:
+La versione [!DNL iOS] SDK 4.5 include le seguenti modifiche:
 
 <table frame="all" colsep="1" rowsep="1" id="table_A69D0B8DA45348B8A5D6A014126F97C2"> 
  <thead> 
@@ -455,13 +455,13 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"></span> Estensione iOS </p> </td> 
-   <td colname="2"> <p>Starting in <span class="keyword"> iOS</span> SDK version 4.5, a new <span class="keyword"> iOS</span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS</span> extension apps. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple fornisce un set di API che consente all'app Watch di comunicare con l'app contenitore (invio di richieste all'app contenitore e di ricezione di risposte). </p> <p>Sebbene sia possibile inviare dati di tracciamento come dizionario dall'app Watch all'app contenitore e quindi invocare qualsiasi metodo di tracciamento nell'app contenitore per l'invio dei dati, questa soluzione presenta limitazioni. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. L'invocazione di altri metodi di tracciamento interferisce con i dati del ciclo di vita; pertanto, per inviare i dati dall'app Watch, usa solo questi tre metodi. </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Estensione iOS</span> </p> </td> 
+   <td colname="2"> <p>Starting in <span class="keyword"> iOS</span> SDK version 4.5, a new <span class="keyword"> iOS</span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS</span> extension apps. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple fornisce un set di API che consente all’app Watch di comunicare con l’app contenitore (inviare richieste all’app contenitore e ricevere risposte). </p> <p>Anche se puoi inviare i dati di tracciamento come dizionario dall’app Watch all’app contenitore e successivamente chiamare qualsiasi metodo di tracciamento sull’app contenitore per inviare i dati, questa soluzione presenta delle limitazioni. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. L'invocazione di altri metodi di tracciamento interferisce con i dati del ciclo di vita; pertanto, per inviare i dati dall'app Watch, usa solo questi tre metodi. </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.4 {#section_0B7A98761BF0400986C368E154A3B00B}
+## Versione 4.4 {#section_0B7A98761BF0400986C368E154A3B00B}
 
 <table frame="all" colsep="1" rowsep="1" id="table_812CAB7DDC364DAABB7CDEDE55532E39"> 
  <thead> 
@@ -473,171 +473,171 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Dati personalizzati con metriche del ciclo di vita </p> </td> 
-   <td colname="2"> <p>Ora puoi includere variabili di dati di contesto personalizzate con metriche del ciclo di vita. </p> </td> 
+   <td colname="2"> <p>Ora puoi includere variabili di dati contestuali personalizzate con le metriche del ciclo di vita. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="1"> <p>Supporto per il tracciamento dei beacon in <span class="keyword"> PhoneGap</span> </p> </td> 
+   <td colname="2"> <p>Le chiamate <code> trackBeacon</code> e <code> clearCurrentBeacon</code> sono ora disponibili in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 4.3 {#section_0FD2B2C4F54E4A9E8C6D0CD2F103BB9A}
+## Versione 4.3 {#section_0FD2B2C4F54E4A9E8C6D0CD2F103BB9A}
 
 Data di rilascio: **24 novembre 2014**
 
-* Nuovo - Integrazione con Adobe Marketing Cloud ID
-* Registri di debug migliorati per chiarezza
+* Nuovo - Integrazione con Adobe Experience Cloud ID
+* Miglioramento dei registri di debug per maggiore chiarezza
 
-## Version 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
+## Versione 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
 
 Data di rilascio: **16 ottobre 2014**
 
-* Nuovo - In Funzionalità Messaggistica app.
-* Nuovo - È ora possibile specificare la posizione per il file di configurazione durante l'avvio dell'app.
+* Nuovo - Funzionalità di messaggistica in-app.
+* Nuovo - È ora possibile specificare il percorso per il file di configurazione durante l'avvio dell'app.
 * Nuovo: ora è possibile aggiornare automaticamente i punti di interesse senza richiedere un nuovo file di configurazione.
-* New - [!DNL Analytics] calls are now sent as HTTP POST requests.
-* Cancellazione dei messaggi di registro, aggiunta di registrazione più dettagliata quando debuglogging è abilitato.
-* Più miglioramenti a prestazioni e stabilità.
+* Nuovo: [!DNL Analytics] le chiamate ora vengono inviate come richieste HTTP POST.
+* Eliminati i messaggi di registro, aggiunti più registri dettagliati quando debugLogging è abilitato.
+* Miglioramenti a livello di prestazioni e stabilità.
 
-## Version 4.1.3 {#section_8D679B676F604E0B9A64748569185368}
+## Versione 4.1.3 {#section_8D679B676F604E0B9A64748569185368}
 
 Release Date: **September 18, 2014**
 
-* Resolved potential crash that could occur if Audience Manager Submit Signal call or [!DNL Target] Load Request call failed due to an unknown network error.
+* È stato risolto un potenziale arresto anomalo che potrebbe verificarsi se la chiamata di invio del segnale o la chiamata della richiesta di [!DNL Target] caricamento di Audience Manager non riusciva a causa di un errore di rete sconosciuto.
 
-## Version 4.1.2 {#section_6128902E5AE142C4A95D2FB3053188F8}
+## Versione 4.1.2 {#section_6128902E5AE142C4A95D2FB3053188F8}
 
 Release Date: **August 5, 2014**
 
-* È stato risolto un problema di blocco anomalo che poteva verificarsi con la configurazione specifica di privacystatus: optunenabled e offlineenabled: false
+* È stato risolto il problema di blocco critico che poteva verificarsi con la configurazione specifica di privacyStatus:optunknown e offlineEnabled:false
 
 Release Date: **August 4, 2014**
 
-* È stato risolto un problema che potrebbe causare la mancata invio dell'hit Ciclo di vita quando il timeout del referente era &gt; = 5 secondi e il tracciamento offline era disattivato.
+* È stato risolto un problema che poteva impedire l'invio dell'hit del ciclo di vita quando il timeout del referente era &gt;= 5 secondi e il tracciamento offline era disabilitato.
 
 Data di rilascio:**17 aprile 2014**
 
-* Tracciamento dei beacon Bluetooth.
+* Tracciamento beacon Bluetooth.
 * Analisi di acquisizione dell'app.
-* Le app con marca temporale attivata, gli hit di arresto sono retrodatati alla sessione corretta.
-* Le app con marca temporale attivata, la sessione precedente viene inviata in un hit retrodatato alla sessione corretta. (nessuna sessione precedente)
+* Le app con marca temporale abilitata, gli hit di arresto anomalo vengono retrodatati alla sessione corretta.
+* Le app con marca temporale abilitata, la sessione precedente viene inviata in un hit retrodatato alla sessione corretta. (non più la sessione precedente)
 * Invio in batch di hit.
 
-## Version 4.0.2 {#section_B78AE82CDFAD44DCAC6D61E0B80BF4C8}
+## Versione 4.0.2 {#section_B78AE82CDFAD44DCAC6D61E0B80BF4C8}
 
 Data di rilascio:**20 febbraio 2014**
 
-* È stato risolto un problema che causava un comportamento non corretto quando lo stesso elemento multimediale era aperto in sequenza senza chiudere l'elemento precedente.
+* È stato risolto un problema che causava un comportamento non corretto quando lo stesso elemento multimediale veniva aperto in sequenza senza chiudere l’elemento precedente.
 
-## Version 4.0.1 {#section_A6D017015BC742F69B6EE4A461D00FD7}
+## Versione 4.0.1 {#section_A6D017015BC742F69B6EE4A461D00FD7}
 
 Release Date: **January 30, 2014**
 
 * È stato risolto un problema che poteva causare l'invio di più hit quando il database era danneggiato.
-* È stato risolto un problema che poteva causare medie di lunghezza sessione grandi se un dispositivo aveva impostazioni di tempo errate.
+* È stato risolto un problema che poteva causare grosse medie di lunghezza di sessione se un dispositivo aveva impostazioni di ora errate.
 
-## Version 3.3.2 {#section_6D12768F20C44BA4A0D1EA607D367147}
+## Versione 3.3.2 {#section_6D12768F20C44BA4A0D1EA607D367147}
 
 Release Date: **January 30, 2014**
 
-* È stato risolto un problema che poteva causare medie di lunghezza sessione grandi se un dispositivo aveva impostazioni di tempo errate.
+* È stato risolto un problema che poteva causare grosse medie di lunghezza di sessione se un dispositivo aveva impostazioni di ora errate.
 
-## Version 4.0.0 {#section_79DCFAAF1DCB404898E3BE389AC835A6}
+## Versione 4.0.0 {#section_79DCFAAF1DCB404898E3BE389AC835A6}
 
 Release Date: **27 September, 2013**
 
-[!DNL iOS] SDK 4. x per soluzioni Marketing Cloud è ora disponibile fornendo le seguenti nuove funzioni:
+[!DNL iOS] SDK 4.x per soluzioni Experience Cloud ora è disponibile con le seguenti nuove funzionalità:
 
-* Miglioramenti significativi delle prestazioni. Tutte le elaborazioni vengono eseguite su thread di sfondo, l'SDK è completamente sicuro per i thread.
+* Miglioramenti significativi delle prestazioni. Tutta l'elaborazione viene eseguita sui thread in background, l'SDK è completamente thread safe.
 * Geolocalità e punti di interesse
 * Valore del ciclo di vita
 * Eventi temporizzati
-* Gestione di consenso e rinuncia
+* Gestione del consenso/rifiuto
 * Supporto di Audience Manager
-* Lifecycle metrics passed to [!DNL Target] as mbox parameters
-* Standardizzato sui dati contestuali e sulle regole di elaborazione
+* Metriche del ciclo di vita passate a parametri [!DNL Target] mbox
+* Standard sui dati contestuali e sulle regole di elaborazione
 
-## Version 3.3.0 {#section_28FB7CD64D6C49BF93E321587F1E8950}
+## Versione 3.3.0 {#section_28FB7CD64D6C49BF93E321587F1E8950}
 
 Release Date: **23 September, 2013**
 
-* È stato aggiunto il supporto per architetture ARM 64 e X 64 Simulator (iphone 5 s)
+* Supporto per architetture di simulatori ARM64 e X64 (iPhone 5s)
 
-## Version 3.2.1 {#section_3E73A76401664C54B32C7F3BE8BE36E3}
+## Versione 3.2.1 {#section_3E73A76401664C54B32C7F3BE8BE36E3}
 
 Release Date: **16 August, 2013**
 
-* Ottimizzata rimuovendo il codice inutilizzato.
-* È stato corretto un arresto anomalo potenziale che poteva verificarsi quando clearvars veniva utilizzato in uno scenario concatenato.
+* Ottimizzato rimuovendo il codice non utilizzato.
+* È stato corretto un potenziale arresto anomalo che poteva verificarsi quando clearVars veniva utilizzato in uno scenario con thread.
 
 ## Versione 3.2 {#section_A51E0EB26EF246DABE27234C77598D99}
 
 Release Date: **6 August, 2013**
 
-* Aggiunto supporto per Adobe Audience Manager.
-* Lifecycle data is now sent with [!DNL Target] Mbox requests when lifecycle tracking is enabled.
+* È stato aggiunto il supporto per Adobe Audience Manager.
+* I dati del ciclo di vita ora vengono inviati con le richieste [!DNL Target] Mbox quando è abilitato il tracciamento del ciclo di vita.
 
-## Version 3.1.8 {#section_849BCD1D4379433D874B8A0E0099E2B1}
+## Versione 3.1.8 {#section_849BCD1D4379433D874B8A0E0099E2B1}
 
 Release Date: **20 June, 2013**
 
-* Fixed a bug introduced in 3.1.7 that was causing issues with lifecycle on devices below [!DNL iOS] 5.0.
+* È stato corretto un bug introdotto in 3.1.7 che causava problemi con il ciclo di vita sui dispositivi inferiori a [!DNL iOS] 5.0.
 
-## Version 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
+## Versione 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
 Release Date: **23 May, 2013**
 
-* Aggiunto codice per impedire l'invio eccessivo di hit del ciclo di vita tramite notifiche di posizione e notifiche Edicola che avviano un'app.
+* È stato aggiunto del codice per evitare che gli hit del ciclo di vita eccessivi vengano inviati tramite notifiche sulla posizione e notifiche Edicola che avviano un’app.
 
-## Version 3.1.6 {#section_4617D7A41D0841BEBD5829001DC74854}
+## Versione 3.1.6 {#section_4617D7A41D0841BEBD5829001DC74854}
 
 Release Date: **18 April, 2013**
 
-* È stato corretto un problema a causa del quale talvolta era possibile calcolare erroneamente la durata della sessione precedente.
+* È stato risolto un problema che talvolta causava un calcolo errato della lunghezza della sessione precedente.
 
-## Version 3.1.5 {#section_620AA594868F47619A514AF3C1EAC93B}
+## Versione 3.1.5 {#section_620AA594868F47619A514AF3C1EAC93B}
 
 Release Date: **21 March, 2013**
 
-* `ADMS_Measurement.visitorID` viene ora precompilato con il valore predefinito.
+* `ADMS_Measurement.visitorID` ora viene precompilato con il valore predefinito.
 
-## Version 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
+## Versione 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
 Release Date: **21 February, 2013**
 
-* Deprecated `offlineThrottleDelay` as the setting is no longer necessary due to thread optimization. L'impostazione esiste ancora per mantenere compatibilità con versioni precedenti, ma non ha più effetti.
+* Obsoleto `offlineThrottleDelay` perché l'impostazione non è più necessaria a causa dell'ottimizzazione del thread. L'impostazione esiste ancora per mantenere la compatibilità con le versioni precedenti, ma non ha più alcun effetto.
 
-## Version 3.1.3 {#section_CCFAE5A29FB14DAD9A9F14FE8EE09B75}
+## Versione 3.1.3 {#section_CCFAE5A29FB14DAD9A9F14FE8EE09B75}
 
 Release Date: **November 2012**
 
-* Risolto un potenziale problema EXEC_ BAD_ Access quando si impostava manualmente la variabile Products.
-* Correzione di un potenziale selettore non valido non valido durante la timeout di una mbox.
-* Aggiunto supporto per tracciamento annunci alla misurazione dei supporti.
+* È stato risolto un potenziale problema EXEC_BAD_Access durante l'impostazione manuale della variabile Products.
+* È stato corretto un potenziale arresto anomalo del selettore non valido in caso di timeout di una mbox.
+* È stato aggiunto il supporto per il tracciamento degli annunci alla misurazione dei supporti.
 
 ## Versione 3.1.2 {#section_25C8A6B67AB9487BA5DEB4DB196AE4BC}
 
 Release Date: **October 2012**
 
-* Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session.
-* È stato risolto un problema nel modulo multimediale che causava la sovrascrittura degli eventi impostati dal modulo multimediale nell'oggetto di misurazione.
-* Fixed an issue that caused an exception when allocating an mbox through the [!DNL Target] integration.
+* Aggiunta una variabile di `lifecycleSessionTimeout` configurazione che consente di specificare il tempo, in secondi, che deve trascorrere tra gli avvii dell'app prima che l'avvio venga considerato una nuova sessione.
+* Risolto un problema nel modulo multimediale che causava la sovrascrittura degli eventi impostati dal modulo multimediale da parte degli eventi impostati sull'oggetto di misurazione.
+* È stato risolto un problema che causava un'eccezione durante l'allocazione di una mbox tramite [!DNL Target] l'integrazione.
 
 ## Versione 3.1.0 {#section_0F3E939885DE4DF1B7430DF5F5749AD2}
 
 Release Date: **September 2012**
 
-* È stato aggiunto il supporto per l'architettura armv 7 s
-* Rimosso il supporto per l'architettura armv 6
-* Minimum supported [!DNL iOS] SDK is now 4.3
+* È stato aggiunto il supporto per l'architettura armv7s
+* Rimosso il supporto per l'architettura armv6
+* L' [!DNL iOS] SDK minimo supportato ora è 4.3
 
-## Version 3.0.2 {#section_1224693620524D6C8CCAB7707483536E}
+## Versione 3.0.2 {#section_1224693620524D6C8CCAB7707483536E}
 
 Release Date: **August 2012**
 
-* I clienti che utilizzano il delegato del monitor multimediale non visualizzeranno più due eventi Chiudi
-* È stato risolto un problema che a volte poteva causare una condizione loop nel monitor multimediale
+* I clienti che utilizzano Media Monitor delegate non vedranno più due eventi di chiusura
+* È stato risolto un problema a causa del quale, a volte, gli hit di chiusura potevano causare una condizione di loop nel monitor multimediale
 
 ## Versione 3.0 {#section_D28F56359EC04EDC8521BE93750AE90D}
 
@@ -647,44 +647,44 @@ Versione iniziale.
 
 **Miglioramenti**
 
-* Funzionalità di tracciamento automatico aggiunta
-* Dimensioni della libreria ridotte in appx. 90 k nella build finale.
-* Aggiunti metodi "trackevents" e "trackappstate"
-* Supporto e funzionalità di dati contestuali migliorati. (Consigliato di utilizzare i dati contestuali per tutte le informazioni inviate)
-* Tracciamento semplificato per rendere un'implementazione di tracciamento di base in 5 minuti.
+* Aggiunta funzionalità di tracciamento automatico
+* Dimensione libreria ridotta in appx. 90 k in costruzione finale.
+* Sono stati aggiunti i metodi "trackEvents" e "trackAppState"
+* Supporto e funzionalità migliorate per i dati contestuali. (Consiglia di utilizzare i dati contestuali per tutte le informazioni inviate)
+* Tracciamento semplificato per consentire l’implementazione di base del tracciamento in 5 minuti.
 
 **Modifiche**
 
-* [!DNL AppMeasurement] Class is now ADMS_ Measurement
-* ADMS_ Measurement ora funziona come Singleton
-* Getter e setter modificati per evar, prop, elenchi, hiers, pedici
-* Tutte le variabili trasmesse in chiamate «track» persisteranno solo per quella chiamata.
+* [!DNL AppMeasurement] La classe ora è ADMS_Measurement
+* ADMS_Measurement ora agisce come un Singleton corretto
+* Modificati getter e setter per eVar, prop, list, hiers, pevs
+* Tutte le variabili passate nelle chiamate "track" continueranno solo per quella chiamata.
 
 **Modificate le seguenti variabili**
 
-| Precedente (versione 2. x) | Current (versione 3. x) |
+| Precedente (versione 2.x) | Corrente (versione 3.x) |
 |---|---|
 | account | reportSuiteIDs |
-| dc | Datacenter |
-| pageName | Appstate |
-| contextData | Persistentcontextdata |
-| state | Geostate |
-| zip | Geozip |
-| server | Appsection |
-| Debugtracking | debugLogging |
+| dc | dataCenter |
+| pageName | appState |
+| contextData | persistContextData |
+| state | geoState |
+| zip | geoZip |
+| server | appSection |
+| debugTracking | debugLogging |
 | trackOffline | offlineTrackingEnabled |
 | offlineLimit | offlineHitLimit |
-| Offlinethrottledelay | Offlinethrottledelay |
+| OfflineThrottleDelay | offlineThrottleDelay |
 
-**Ripurazione delle seguenti variabili:**
+**Sono state riproposte le seguenti variabili:**
 
-* Linkurl (inviato con tracklinkurl:)
-* Linkname (inviato con tracklinkurl:)
-* Linktype (inviato con tracklinkurl:)
-* Lightprofileid (inviato con tracklight:)
-* Lightstoreforseconds (inviato con tracklight:)
-* Lightincrementby (inviato con tracklight:)
-* Trackingserversecure (trackingserver è utilizzato quando ssl è attivato)
+* linkURL (inviato con trackLinkURL:)
+* linkName (inviato con trackLinkURL:)
+* linkType (inviato con trackLinkURL:)
+* lightProfileID (inviato con trackLight:)
+* lightStoreForSeconds (inviato con trackLight:)
+* lightIncrementBy (inviato con trackLight:)
+* trackingServerSecure (trackingServer viene utilizzato quando ssl è attivato)
 
 **Sono state rimosse le seguenti variabili:**
 
@@ -695,73 +695,73 @@ Versione iniziale.
 * pageURL
 * pageType
 * referrer
-* Linkleavequerystring
+* linkLeftQueryString
 * usePlugins
-* Usebestpractices (gestito da autotracking)
+* useBestPractices (gestito da AutoTracking)
 * delegate
-* Retrievelightdata
-* Deletelightprofiles
-* Retrievelightprofiles
+* retrieveLightData
+* deleteLightProfiles
+* retrieveLightProfiles
 
-## Previous iOS Version (2.x) {#section_5F76C3DA854D4BAEA636A68B3811142B}
+## Versione iOS precedente (2.x) {#section_5F76C3DA854D4BAEA636A68B3811142B}
 
-The following release notes apply to the 2.x version of [!DNL AppMeasurement] for [!DNL iOS]. Consigliamo ai clienti di effettuare l'aggiornamento alla versione 3. x, quando possibile.
+Le seguenti note sulla versione si applicano alla versione 2.x di [!DNL AppMeasurement] for [!DNL iOS]. Consigliamo ai clienti di effettuare l’aggiornamento alla versione 3.x quando possibile.
 
-## Version 2.1.12 {#section_85C073B86B684D52A14E8038379F56DD}
+## Versione 2.1.12 {#section_85C073B86B684D52A14E8038379F56DD}
 
 Release Date: **April 2012**
 
-* È stato aggiunto il supporto per la misurazione del video.
+* È stato aggiunto il supporto per la misurazione video.
 * Sono stati risolti i problemi relativi a linktrackvar e dati contestuali.
 * Sono stati apportati diversi miglioramenti in termini di prestazioni.
 
-## Version 2.1.11 {#section_F0AF2D4E5F504D798EEB95BE8FE61B4C}
+## Versione 2.1.11 {#section_F0AF2D4E5F504D798EEB95BE8FE61B4C}
 
 Release Date: **March 2012**
 
-* È stato risolto un problema che impediva il tracciamento offline per interrompere l'invio di dati in alcune circostanze.
+* È stato risolto un problema che in alcune circostanze causava l'interruzione del tracciamento offline dell'invio di dati.
 
-## Version 2.1.10 {#section_07C24EC83AA94A6AA6AB3DE7E8D6227F}
+## Versione 2.1.10 {#section_07C24EC83AA94A6AA6AB3DE7E8D6227F}
 
 Release Date: **February 2012**
 
-* Risolto un problema che causava un'eccezione EXC_ BAD_ ACCESS in alcune circostanze quando più thread tentavano contemporaneamente di eseguire una chiamata di tracciamento.
-* Aggiunto il timestamp alle variabili utilizzate con chiamate di tracciamento chiaro (tracklight).
+* È stato risolto un problema che causava un'eccezione EXC_BAD_ACCESS in alcune circostanze quando più thread tentavano di effettuare contemporaneamente una chiamata di tracciamento.
+* Aggiunta di marca temporale alle variabili utilizzate con le chiamate di tracciamento della luce (trackLight).
 
-## Version 2.1.8 {#section_ACC6974CE3F741E58786CA8048F04521}
+## Versione 2.1.8 {#section_ACC6974CE3F741E58786CA8048F04521}
 
 Release Date: **January 2012**
 
 * Prestazioni notevolmente migliorate del thread di tracciamento.
-* È stato spostato l'archivio di hit offline in una posizione che non viene sincronizzata con icloud per conformarsi alle best practice di icloud.
-* Aggiornata la libreria al fat binary Apple in modo da non dover più includere la libreria specifica per l'architettura della build.
+* Spostato l'archivio hit offline in un percorso non sincronizzato con iCloud in modo da conformarsi alle best practice di iCloud.
+* La libreria è stata aggiornata al formato binario di Apple fat in modo da non dover più includere la libreria specifica per la vostra architettura di build.
 
-## Version 2.1.6 {#section_63B4967C537847C28D33EBB92CC15695}
+## Versione 2.1.6 {#section_63B4967C537847C28D33EBB92CC15695}
 
 Release Date: **November 2011**
 
 * Added support for [!DNL iOS] 5.
-* [!DNL AppMeasurement] for [!DNL iOS] è stato aggiornato per non utilizzare più il valore UDID obsoleto come valore predefinito per visitorid. If you set a custom visitorID in your application (for example, `s.visitorID = @12345`), then you are unaffected by this change. Se non imposti un visitorid personalizzato, invece di utilizzare l'UDID come valore per visitorid, viene generato un visitorid casuale all'avvio iniziale e quindi memorizzato in una chiave predefinita dell'utente. This key is used by [!DNL AppMeasurement] from that point forward. Anche questa chiave viene salvata e ripristinata durante il processo standard di backup dell'applicazione.
+* [!DNL AppMeasurement] for [!DNL iOS] è stato aggiornato per non utilizzare più il valore UDID obsoleto come valore predefinito per visitorID. Se imposti un visitorID personalizzato nell’applicazione (ad esempio, `s.visitorID = @12345`), questa modifica non vi interessa. Se non imposti un visitorID personalizzato, invece di usare l’UDID come valore per visitorID, all’avvio iniziale viene generato un visitorID casuale e quindi memorizzato in una chiave predefinita utente. Questa chiave viene utilizzata da [!DNL AppMeasurement] quel punto in avanti. Questa chiave viene inoltre salvata e ripristinata durante il processo standard di backup dell'applicazione.
 
-* Updated calls from the [!DNL iOS] Best Practices plug-in that are not associated with a page view to send hits using trackLink. Questo consente di evitare che questi hit registrino le visualizzazioni di pagina con il valore predefinito del nome «nome applicazione/versione».
+* Chiamate aggiornate dal plug-in [!DNL iOS] Best Practices che non sono associate a una visualizzazione di pagina per l’invio di hit tramite trackLink. In questo modo si evita che gli hit registrino le visualizzazioni di pagina con il valore predefinito "nome/versione applicazione".
 
-## Version 2.1.3 {#section_E39666D780554B7398900C39C285CDB8}
+## Versione 2.1.3 {#section_E39666D780554B7398900C39C285CDB8}
 
 Release Date: **October 2011**
 
-* Gestione delega migliorata. This fixes an issue that caused the [!DNL iOS] Best Practices Plug-in to crash when bringing the application out of the background.
+* Gestione dei delegati migliorata. Questo risolve un problema che causava l'arresto anomalo del plug-in [!DNL iOS] Best Practices quando l'applicazione veniva portata in background.
 
-## Version 2.1.2 {#section_21014073AF804EFC8231047D8847485C}
+## Versione 2.1.2 {#section_21014073AF804EFC8231047D8847485C}
 
 Release Date: **September 2011**
 
-* Aggiornamento dell'intestazione per abilitare l'utilizzo di prop e evar 51-75.
+* È stata aggiornata l'intestazione per consentire l'utilizzo di prop ed eVar 51-75.
 
-## Version 2.1.1 {#section_8FB3D7C77C884E2AB982103BF7E3312A}
+## Versione 2.1.1 {#section_8FB3D7C77C884E2AB982103BF7E3312A}
 
 Release Date: **August 2011**
 
-* Possibilità di cercare suite di rapporti e metriche durante l'esecuzione di un report.
-* Supporto dei dati contestuali che generano regole di elaborazione lato server (solo v 15).
-* Supporto per chiamate server chiaro (attualmente nella versione beta).
+* Possibilità di cercare suite di rapporti e metriche durante l'esecuzione di un rapporto.
+* Supporto per i dati contestuali che determinano le regole di elaborazione sul lato server (solo v15).
+* Supporto per chiamate server di luce (attualmente in versione beta).
 
