@@ -1,37 +1,37 @@
 ---
-description: Per attivare l'integrazione, devi completare la procedura guidata di configurazione nell'interfaccia dei Connettori dati.
-seo-description: Per attivare l'integrazione, devi completare la procedura guidata di configurazione nell'interfaccia dei Connettori dati.
-seo-title: Completa la procedura guidata Integrazione Adobe
+description: Per attivare l'integrazione, è necessario completare la procedura guidata di configurazione all'interno dell'interfaccia Connettori dati.
+seo-description: Per attivare l'integrazione, è necessario completare la procedura guidata di configurazione all'interno dell'interfaccia Connettori dati.
+seo-title: Completa la procedura guidata di integrazione di Adobe
 solution: Analytics
-title: Completa la procedura guidata Integrazione Adobe
-uuid: f 30 eff 33-630 b -4 f 89-943 c-c 76 aaf 1 de 995
+title: Completa la procedura guidata di integrazione di Adobe
+uuid: f30eff33-630b-4f89-943c-c76aaf1de995
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Completa la procedura guidata Integrazione Adobe{#complete-the-adobe-integration-wizard}
+# Completa la procedura guidata di integrazione di Adobe{#complete-the-adobe-integration-wizard}
 
-Per attivare l'integrazione, devi completare la procedura guidata di configurazione nell'interfaccia dei Connettori dati.
+Per attivare l'integrazione, è necessario completare la procedura guidata di configurazione all'interno dell'interfaccia Connettori dati.
 
-1. Eseguite l'accesso ad Adobe Marketing Cloud.
-1. Passa a **[!UICONTROL Data Connectors]** (precedentemente Genesis).
+1. Accedi ad Adobe Experience Cloud.
+1. Andate a **[!UICONTROL Data Connectors]** (già Genesis).
 1. Avviate la procedura guidata di integrazione di Kampyle.
-1. Seleziona la suite di rapporti desiderata e specifica un nome per l'integrazione.
-1. Configurate i seguenti elementi:
+1. Selezionate la suite di rapporti desiderata e specificate un nome per l'integrazione.
+1. Configura i seguenti elementi:
    1. **[!UICONTROL Email address]** - l'indirizzo e-mail del contatto principale.
-   1. **[!UICONTROL Description]** - (facoltativo) descrizione per la configurazione dell'integrazione.
-   1. **[!UICONTROL Kampyle Key]** - Individuate questa chiave nell'applicazione Kampyle in **[!UICONTROL Feedback Form]** &gt; **[!UICONTROL Feedback Form Customization]**.
-   1. **[!UICONTROL Tracking Server]** - l'impostazione del server di tracciamento (dominio) utilizzata per tenere traccia dei dati di Adobe Analytics.
-   1. **[!UICONTROL Tracking Server Secure]** - se il server di monitoraggio è diverso per il traffico protetto/https, fornisci questa impostazione.
-1. Configurate **[!UICONTROL Variable Mappings]** i seguenti elementi:
-   1. **[!UICONTROL Kampyle Feedback ID]** -selezione di una variabile evar disponibile dalla suite di rapporti
-   1. **[!UICONTROL Feedback Grade]** - Selezionate un evento di successo disponibile (digitate «counter») dalla suite di rapporti.
-   1. **[!UICONTROL Feedback Items]** - Selezionate un evento di successo disponibile (digitate «counter») dalla suite di rapporti.
-   1. **[!UICONTROL Feedback with Grade]** - Selezionate un evento di successo disponibile (digitate «counter») dalla suite di rapporti.
-1. Selezionate la casella per creare automaticamente il dashboard Integrazione Kampyle (consigliato).
-1. Esaminate tutti gli elementi di configurazione e fate clic **[!UICONTROL Activate Now]**.
+   1. **[!UICONTROL Description]** - (facoltativo) descrizione di questa configurazione dell'integrazione.
+   1. **[!UICONTROL Kampyle Key]** - Trovate questa chiave nell'applicazione Kampyle in **[!UICONTROL Feedback Form]** &gt; **[!UICONTROL Feedback Form Customization]**.
+   1. **[!UICONTROL Tracking Server]** - l'impostazione del server di tracciamento (dominio) che utilizzate per tenere traccia dei dati di Adobe Analytics.
+   1. **[!UICONTROL Tracking Server Secure]** - se il server di tracciamento è diverso per il traffico protetto/https, specifica questa impostazione.
+1. Configurate i seguenti **[!UICONTROL Variable Mappings]** elementi:
+   1. **[!UICONTROL Kampyle Feedback ID]** -Selezionate una variabile eVar disponibile dalla suite di rapporti
+   1. **[!UICONTROL Feedback Grade]** - Selezionate un evento di successo disponibile (digitate "contatore") dalla suite di rapporti.
+   1. **[!UICONTROL Feedback Items]** - Selezionate un evento di successo disponibile (digitate "contatore") dalla suite di rapporti.
+   1. **[!UICONTROL Feedback with Grade]** - Selezionate un evento di successo disponibile (digitate "contatore") dalla suite di rapporti.
+1. Selezionare la casella per creare automaticamente il dashboard Integrazione Kampyle (consigliato).
+1. Rivedete tutti gli elementi di configurazione e fate clic su **[!UICONTROL Activate Now]**.
