@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Regole di elaborazione
 title: Suggerimenti e trucchi per le regole di elaborazione
 topic: Strumenti di amministrazione
-uuid: e 3 a 9 ff 8 a-b 81 a -41 c 9-9 f 61-e 40 cb 4 bf 7 d 99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
@@ -17,49 +17,49 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 Questa sezione contiene le linee guida per testare le regole di elaborazione e un elenco di errori comuni da evitare.
 
-## Testing Processing Rules {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Regole di elaborazione dei test {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
-Questa sezione contiene alcune linee guida per testare le regole di elaborazione prima di essere distribuite in produzione.
+Questa sezione contiene alcune linee guida per il test delle regole di elaborazione prima che vengano distribuite in produzione.
 
-**Regole di test che leggono Termini di ricerca**
+**Verifica Di Regole Che Leggono I Termini Di Ricerca**
 
-Per qualsiasi criterio basato su una ricerca, ad esempio se prop 1 contiene «news», andate al rapporto prop 1 e cercate «news» e verificate che vi siano delle corrispondenze non previste.
+Per qualsiasi criterio basato su una ricerca, ad esempio se prop1 contiene "news", andate al report prop 1 e cercate "news" e verificate se ci sono delle partite che non vi aspettavate.
 
-**Regole di test che leggono variabili**
+**Verifica delle regole per la lettura delle variabili**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. If your rules are based on referrer, referring domain, and so on, take some sample URLs from the live referrers report, set the `s.referrer` variable with one of those values and load the page. Likewise, if the rule is based on the page URL value, you can set `s.pageURL`. Lo stesso processo può essere utilizzato per qualsiasi variabile.
+Create una pagina HTML vuota sul desktop, includete il codice s_code dal sito e impostate la `s.account` variabile su una suite di rapporti dev. Se le regole sono basate su referente, dominio di riferimento e così via, prelevate alcuni URL di esempio dal rapporto referenti live, impostate la `s.referrer` variabile con uno di questi valori e caricate la pagina. Analogamente, se la regola è basata sul valore dell’URL della pagina, potete impostare `s.pageURL`. Lo stesso processo può essere utilizzato per qualsiasi variabile.
 
-**Utilizzo di una suite di rapporti**
+**Utilizzo di una suite di rapporti per sviluppatori**
 
-Consigliamo di configurare le regole di elaborazione in una suite di rapporti per accertarti che funzionino correttamente. Se possibile, consigliamo di copiare le regole in una piccola suite di rapporti di produzione prima dell'ampia distribuzione.
+Consigliamo di configurare le regole di elaborazione su una suite di rapporti dev per essere certi che funzionino correttamente. Se possibile, si consiglia di copiare le regole in una suite di rapporti per la produzione di piccole dimensioni prima dell'implementazione più ampia.
 
-## Check for Empty Values {#section_EE84A5525E26415787930723B0CAAE0F}
+## Verifica valori vuoti {#section_EE84A5525E26415787930723B0CAAE0F}
 
-Quando create una regola, prendete in considerazione il caso in cui un valore sia vuoto. Se non si aggiunge una condizione che verifica un valore vuoto, è possibile sovrascrivere involontariamente le variabili con valori vuoti.
+Quando create una regola, considerate il caso in cui un valore è vuoto. Se non si aggiunge una condizione per la ricerca di un valore vuoto, è possibile sovrascrivere involontariamente le variabili con valori vuoti.
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-È inoltre importante tenere in considerazione l'ordine di elaborazione. Nell'esempio seguente, l'evar personalizzato Nome pagina precedente sarà impostato sull'URL se il nome pagina non è presente. Tuttavia, l'URL viene inserito nel nome della pagina dopo l'applicazione delle regole di elaborazione; in questo caso, il nome pagina è vuoto se non è impostato sulla pagina.
+È inoltre importante considerare l'ordine di elaborazione. Nell'esempio seguente, se il Nome pagina non è presente, l'eVar personalizzato Nome pagina precedente viene impostato sull'URL. Tuttavia, l’URL viene inserito nel nome della pagina dopo l’applicazione delle regole di elaborazione; in questo caso, il nome pagina è vuoto se non è impostato sulla pagina.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Avoid Overwriting Values {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## Evita sovrascrittura Dei Valori {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
-Nell'esempio seguente, sul sito sono utilizzate due variabili di dati di contesto per acquisire termini di ricerca: search_ keyword e search_ term. Tuttavia, in base alla configurazione, il valore di ricerca_ keyword viene sempre sovrascritto, anche se search_ term è vuoto.
+Nell'esempio seguente, due variabili di dati contestuali vengono utilizzate sul sito per acquisire i termini di ricerca: search_keyword e search_term. Tuttavia, in base alla configurazione, il valore search_keyword viene sempre sovrascritto, anche se search_term è vuoto.
 
-Questa regola deve essere riconfigurata per testare ogni variabile di dati di contesto per un valore prima di compilare il termine di ricerca interno ed eventualmente, concatenare i due valori se esiste un caso d'uso per mantenerli entrambi.
+Questa regola deve essere riconfigurata per sottoporre a test ogni variabile di dati di contesto per un valore prima di compilare il Termine di ricerca interna e, facoltativamente, per concatenare i due valori, in caso di utilizzo per mantenerli entrambi.
 
 ![](assets/tips-search-keyword.png)
 
-## Encode Search Terms to UTF-8 or Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## Codifica i termini di ricerca in UTF-8 o Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
-I termini di ricerca prelevati da una stringa query devono essere codificati correttamente oppure non verranno associati dalle regole di elaborazione.
+I termini di ricerca estratti da una stringa di query devono essere codificati correttamente oppure non devono essere associati da regole di elaborazione.
 
 ![](assets/tips-multibyte.png)
 
-## Starts With, Contains, and Ends With {#section_80CE853244FC435B844A09EA51868D8D}
+## Inizia con, Contiene e termina con {#section_80CE853244FC435B844A09EA51868D8D}
 
-Selezionare la condizione di corrispondenza corretta per trovare la condizione più restrittiva che corrisponda correttamente. Potete cercare i valori in un rapporto prima di creare una regola per assicurarvi che non siano presenti corrispondenze indesiderate. Ad esempio, è necessario cercare il rapporto Prop 2 per trovare tutte le posizioni in cui questa condizione corrisponde prima di abilitare questa regola.
+Selezionare la condizione di corrispondenza corretta per trovare la condizione più restrittiva che corrisponde correttamente. È possibile cercare valori in un rapporto prima di creare una regola per essere sicuri che non ci siano corrispondenze non desiderate. Ad esempio, è necessario eseguire una ricerca nel report Prop2 per individuare tutte le posizioni in cui questa condizione corrisponde prima di abilitare questa regola.
 
 ![](assets/tips-startswith.png)
 
