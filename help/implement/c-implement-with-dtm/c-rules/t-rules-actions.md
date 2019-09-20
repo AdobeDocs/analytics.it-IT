@@ -1,34 +1,34 @@
 ---
-description: Configurare azioni che devono essere attivate.
-keywords: Gestione tag dinamica; rule; create rule; new rule; tag javascript/third party; configurare azioni per la condizione; aggiungere un nuovo script; javascript non sequenziale; javascript sequenziale; HTML non sequenziale
-seo-description: Configurare azioni che devono essere attivate.
+description: Impostate le azioni che desiderate vengano attivate dalla condizione.
+keywords: Gestione tag dinamica;regola;crea regola;nuova regola;javascript/tag di terze parti;imposta azioni per condizione;aggiungi nuovo script;javascript non sequenziale;javascript sequenziale;html non sequenziale
+seo-description: Impostate le azioni che desiderate vengano attivate dalla condizione.
 seo-title: Configurare le azioni per la condizione da attivare
-solution: Marketing Cloud, Analytics, Target, Gestione tag dinamica
+solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Configurare le azioni per la condizione da attivare
-uuid: 2 e 892 f 0 b -7261-41 ee-b 849-6 e 3054 a 38 de 0
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Configurare le azioni per la condizione da attivare
 
-Configurare azioni che devono essere attivate.
+Impostate le azioni che desiderate vengano attivate dalla condizione.
 
-Dopo aver configurato la condizione, è necessario configurare le azioni che si desidera attivare. These actions can include [!DNL Analytics] events, third-party tags, and custom scripts. Questo esempio descrive come configurare script o tag di terze parti.
+Dopo aver impostato la condizione, è necessario impostare le azioni che si desidera che la condizione attivi. Tali azioni possono includere [!DNL Analytics] eventi, tag di terze parti e script personalizzati. Questo esempio descrive come impostare script o tag di terze parti.
 
-Beyond integrated tools like [!DNL Adobe Analytics] and Google Analytics, Dynamic Tag Management can trigger any type of JavaScript or inject HTML into your site, in select pages or in specific scenarios.
+Oltre a strumenti integrati come [!DNL Adobe Analytics] e Google Analytics, Dynamic Tag Management può attivare qualsiasi tipo di JavaScript o inserire codice HTML nel sito, in pagine selezionate o in scenari specifici.
 
-Ogni regola può attivare tutti gli script o le integrazioni HTML desiderate.
+Ogni regola può attivare tutti gli script o le iniezioni HTML desiderati.
 
 >[!NOTE]
 >
->Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP’s guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). L'uso di elementi di dati all'interno di uno script richiede particolare attenzione. È sempre possibile che i valori degli elementi dati vengano tratti da una fonte non affidabile.
+>Poiché Gestione dinamica dei tag consente di inserire codice personalizzato nella pagina, fai attenzione a non creare vulnerabilità di scripting tra siti (XSS) (consulta la guida [](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP per ulteriori informazioni). L'utilizzo di elementi di dati all'interno di uno script richiede particolare attenzione. Si supponga sempre che i valori degli elementi di dati provengano da un'origine non attendibile.
 
-**Impostazione delle azioni per la condizione da attivare**
+**Impostazione di azioni per l'attivazione della condizione**
 
-1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
+1. Fare clic **[!UICONTROL JavaScript / Third Party Tags]** per aggiungere un nuovo script alla regola.
 
    ![](assets/scripts-actions.png)
 
@@ -36,8 +36,8 @@ Ogni regola può attivare tutti gli script o le integrazioni HTML desiderate.
 
    ![](assets/scripts-actions2.png)
 
-1. Assegnare un nome allo script.
-1. Specify how you want the script to trigger, and paste the desired content into the text area. ![](assets/scripts-actions3.png)
+1. Denominare lo script.
+1. Specificate come attivare lo script e incollate il contenuto desiderato nell'area di testo. ![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. Fare clic **[!UICONTROL Save Code]** e lo script verrà aggiunto alla coda per la regola. ![](assets/scripts-actions4.png)
 
