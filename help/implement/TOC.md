@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida all’implementazione di Analytics
 user-guide-url: /content/help/it-IT/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
+source-git-commit: 61f82f3957037df7c609987edbc9ecd7d3a2325f
 
 ---
 
