@@ -9,7 +9,7 @@ title: Variabili di configurazione
 topic: Sviluppatore e implementazione
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
+source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
 
 ---
 
@@ -32,66 +32,6 @@ Alcuni degli obiettivi di utilizzo di queste variabili di configurazione sono:
 >
 >[!DNL AppMeasurement] richiede che tutte le variabili di configurazione siano impostate prima della chiamata iniziale alla funzione track, `t()`. Se le variabili di configurazione sono impostate dopo la chiamata a `t()`, potrebbero verificarsi risultati imprevisti. Per garantire la corretta raccolta dei dati, tutte le variabili di configurazione devono essere al di sopra della `doPlugins` funzione.
 
-## s.account {#concept_685A5C832A6C40619ACB5920925785DC}
-
-La variabile determina la suite di rapporti in cui i dati vengono memorizzati e segnalati.
-
-Se si inviano a più suite di rapporti (tag con più suite), `s.account` può trattarsi di un elenco di valori separati da virgola. L'ID suite di rapporti è determinato da Adobe.
-
-**Parametri**
-
-| Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
-|--- |--- |--- |--- |
-| 40 byte | Nel percorso URL | N/D | N/D |
-
-Ogni ID suite di rapporti deve corrispondere al valore creato nel [!DNL Admin Console]. Ogni ID suite di rapporti deve essere di 40 byte o inferiore, ma l'aggregazione di tutte le suite di rapporti (l'intero elenco separato da virgole) non ha limiti.
-
-La suite per report è il livello di segmentazione più fondamentale nei report. Puoi impostare un numero illimitato di suite di rapporti. Ogni suite di rapporti fa riferimento a un set dedicato di tabelle popolate nei server di raccolta di Adobe. Una suite di rapporti è identificata dalla `s_account` variabile nel codice JavaScript.
-
-All'interno [!DNL Analytics]della casella a discesa del sito in alto a sinistra dei rapporti viene visualizzata la suite di rapporti corrente. Ciascuna suite di rapporti ha un identificatore univoco denominato ID suite di rapporti. La `s_account` variabile contiene uno o più ID suite di rapporti a cui vengono inviati i dati. Il valore ID suite di rapporti, invisibile agli [!DNL Analytics] utenti, deve essere fornito o approvato da Adobe prima di utilizzarlo. A ogni suite di rapporti è associato un "nome descrittivo" che può essere modificato nella sezione suite di rapporti di [!DNL Admin Console].
-
-La `s_account` variabile viene normalmente dichiarata all'interno del file JavaScript (s_code.js). È possibile dichiarare la `s_account` variabile sulla pagina HTML, una pratica comune quando il valore di `s_account` può cambiare da una pagina all’altra. Poiché la `s_account` variabile ha un ambito globale, deve essere dichiarata immediatamente prima di includere il file JavaScript di Adobe. Se `s_account` non è presente un valore quando il file JavaScript viene caricato, non viene inviato alcun dato a [!DNL Analytics].
-
-Adobe [!DNL DigitalPulse Debugger] visualizza il valore di `s_account` nel percorso dell'URL che appare appena sotto la parola "Immagine", subito dopo /b/ss/. In alcuni casi, il valore di `s_account` viene visualizzato anche nel dominio, prima di 112.2o7.net. Il valore nel percorso è l'unico valore che determina la suite di rapporti di destinazione. Il testo in grassetto riportato di seguito mostra le suite di rapporti a cui vengono inviati i dati, così come appaiono nel debugger. Vedere [Digital Pulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
-
-```js
-https://mycompany.112.207.net/b/ss/ 
-<b>mycompanycom,mycompanysection</b>/1/H.1-pdv-2/s21553246810948?[AQB]
-```
-
-**Sintassi e valori** possibili {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
-
-L'ID suite di rapporti è una stringa alfanumerica di caratteri ASCII, con una lunghezza massima di 40 byte. L'unico carattere non alfanumerico consentito è un trattino. Spazi, punti, virgole e altre punteggiature non consentiti. La `s_account` variabile può contenere più suite di rapporti, tutte le quali ricevono dati da quella pagina.
-
-```js
-var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
-```
-
-Tutti i valori di `s_account` devono essere forniti o approvati da Adobe.
-
-**Esempi** {#section_16580A9101B64560A58C7745397FB42F}
-
-```js
-var s_account="mycompanycom"
-```
-
-```js
-var s_account="mycompanycom,mycompanysection"
-```
-
-**Configurazione della variabile in Analytics**{#section_7DFB2CCF02F045AFB1AD4F376638393B}
-
-Il nome descrittivo associato a ciascun ID suite di rapporti può essere modificato da Adobe [!DNL Customer Care]. Il nome descrittivo è visibile [!DNL Analytics] nella casella a discesa del sito, nella sezione superiore sinistra della schermata.
-
-**Insidie, domande e suggerimenti**{#section_BFFDA5C0AF31442494B0E02F0925CF93}
-
-* Se `s_account` è vuoto, non dichiarato o contiene un valore imprevisto, non viene raccolto alcun dato.
-* Se la `s_account` variabile è un elenco separato da virgole (tag per più suite), non inserite spazi tra gli ID delle suite di rapporti.
-* Se [!UICONTROL s.dynamicAccountSelection] è impostato su *True* , l'URL viene utilizzato per determinare la suite di rapporti di destinazione. Utilizzate l'icona [!DNL DigitalPulse Debugger] per determinare le suite di rapporti di destinazione.
-
-* In alcuni casi, [!DNL VISTA] può essere utilizzato per modificare la suite di rapporti di destinazione. Quando si utilizzano cookie di prime parti, o se il sito include più di 20 suite di rapporti attive, si consiglia [!DNL VISTA] di utilizzare per il reindirizzamento o la copia dei dati in un'altra suite di rapporti.
-
-* Dichiarare sempre `s_account` all'interno del file JS o subito prima che venga incluso.
 
 ## s.dynamicAccountSelection {#concept_FAD499DB357148DB8BD74F08093D3E35}
 
@@ -133,24 +73,24 @@ Nessuno
 
 **Insidie, domande e suggerimenti**{#section_62F0B0895BC84A05840AEEED0643DE60}
 
-* La selezione di account dinamici non è supportata da [AppMeasurement per JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
 * Usa sempre [!DNL DigitalPulse Debugger] per determinare quale suite di rapporti riceve i dati da ogni pagina.
 
 ## s.dynamicAccountList {#concept_19715BA0AD4D41748E0C4A4A6B71AB51}
 
-[!DNL AppMeasurement] per JavaScript è possibile selezionare in modo dinamico una suite di rapporti alla quale inviare i dati. La variabile contiene le regole utilizzate per determinare la suite di rapporti di destinazione.
+[!DNL AppMeasurement] for JavaScript can dynamically select a report suite to which it sends data. La variabile contiene le regole utilizzate per determinare la suite di rapporti di destinazione.
 
-| Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
+| Max Size | Debugger Parameter | Reports Populated | Valore predefinito |
 |---|---|---|---|
 | N/D | N/D | N/D | "" |
 
-Questa variabile viene utilizzata insieme alle *`dynamicAccountSelection`* variabili e *`dynamicAccountMatch`* . Le regole in *`dynamicAccountList`* vengono applicate se *`dynamicAccountSelection`* sono impostate su 'true' e si applicano alla sezione dell'URL specificato in *`dynamicAccountMatch`*.
+This variable is used in conjunction with the *`dynamicAccountSelection`* and *`dynamicAccountMatch`* variables. The rules in  are applied if  is set to 'true,' and they apply to the section of the URL specified in .*`dynamicAccountList`**`dynamicAccountSelection`**`dynamicAccountMatch`*
 
-Se nessuna delle regole in *`dynamicAccountList`* corrisponde all'URL della pagina, viene utilizzata la suite di rapporti identificata in `s_account` . Le regole elencate in questa variabile vengono applicate in ordine da sinistra a destra. Se l'URL della pagina corrisponde a più regole, per determinare la suite di rapporti viene utilizzata la regola più a sinistra. Di conseguenza, le regole più generiche dovrebbero essere spostate a destra dell'elenco.
+If none of the rules in  matches the URL of the page, the report suite identified in  is used. *`dynamicAccountList`*`s_account` The rules listed in this variable are applied in a left-to-right order. Se l'URL della pagina corrisponde a più regole, per determinare la suite di rapporti viene utilizzata la regola più a sinistra. As a result, your more generic rules should be moved to the right of the list.
 
-Negli esempi seguenti, l’URL della pagina è `www.mycompany.com/path1/?prod_id=12345` e `dynamicAccountSelection` è impostato su *true* e `s_account` su `mysuitecom.`
+In the following examples, the page URL is  and  is set to true and  is set to `www.mycompany.com/path1/?prod_id=12345``dynamicAccountSelection`**`s_account``mysuitecom.`
 
-| Valore DynamicAccountList | Valore DynamicAccountMatch | Suite di rapporti per ricevere i dati |
+| DynamicAccountList Value | DynamicAccountMatch Value | Suite di rapporti per ricevere i dati |
 |---|---|---|
 | `mysuite2=www2.mycompany.com;mysuite1=mycompany.com` | window.location.host | mysuite1 |
 | "mysuite1=path4,path1;mysuite2=path2" | window.location.pathname | mysuite1, mysuite2 |
@@ -194,23 +134,23 @@ Nessuno
 * Le `dynamicAccountSelection` regole si applicano solo alla sezione dell'URL specificato in `dynamicAccountMatch`.
 
 * Quando utilizzate la selezione di account dinamici, accertatevi di eseguire l'aggiornamento *`dynamicAccountList`* ogni volta che ottenete un nuovo dominio.
-* Utilizzate l' [!DNL DigitalPulse Debugger] icona quando tentate di identificare la suite di rapporti di destinazione. La `dynamicAccountSelection` variabile sostituisce sempre il valore di `s_account`.
+* Utilizzate l' [!DNL DigitalPulse Debugger] icona quando tentate di identificare la suite di rapporti di destinazione. The  variable always overrides the value of .`dynamicAccountSelection``s_account`
 
 ## s.dynamicAccountMatch {#concept_718171E602214CCC9905C749708BBE52}
 
-La variabile utilizza l'oggetto DOM per recuperare la sezione dell'URL a cui vengono applicate tutte le regole in.
+The  variable uses the DOM object to retrieve the section of the URL to which all rules in  are applied.
 
-Questa variabile è valida solo se *`dynamicAccountSelection`* è impostata su 'True'. Poiché il valore predefinito è [!DNL window.location.host], questa variabile non è necessaria per [!UICONTROL Dynamic Account Selection] funzionare. Per ulteriori informazioni, vedere [dynamicAccountList](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51).
+This variable is only valid when  is set to 'True.' *`dynamicAccountSelection`* Poiché il valore predefinito è [!DNL window.location.host], questa variabile non è necessaria per [!UICONTROL Dynamic Account Selection] funzionare. For additional information, see dynamicAccountList.[](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51)
 
-Le regole riportate in `dynamicAccountList` vengono applicate al valore di `dynamicAccountMatch`. Se `dynamicAccountMatch` contiene solo [!DNL window.location.host] (impostazione predefinita), le regole in `dynamicAccountList` questione si applicano solo al dominio della pagina.
+The rules found in  are applied to the value of . `dynamicAccountList``dynamicAccountMatch` If  only contains  (default), the rules in  apply only to the domain of the page.`dynamicAccountMatch`[!DNL window.location.host]`dynamicAccountList`
 
-| Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
+| Max Size | Debugger Parameter | Reports Populated | Valore predefinito |
 |---|---|---|---|
 | N/D | N/D | N/D | window.location.host |
 
-**Sintassi e valori** possibili {#section_95CD81972C22419B80A921CA137D3841}
+**Syntax and Possible Values**{#section_95CD81972C22419B80A921CA137D3841}
 
-La `dynamicAccountMatch` variabile viene generalmente compilata dal consulente Adobe che fornisce AppMeasurement per il file JavaScript. Tuttavia, i valori elencati di seguito possono essere applicati in qualsiasi momento.
+The  variable is usually populated by the Adobe consultant who provides the AppMeasurement for JavaScript file. `dynamicAccountMatch` However, the values listed below may be applied at any time.
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -218,7 +158,7 @@ s.dynamicAccountMatch=[DOM object]
 
 | Descrizione | Valore |
 |---|---|
-| Dominio (predefinito) | window.location.host |
+| Domain (default) | window.location.host |
 | Percorso | window.location.pathname |
 | Stringa di query | (window.location.search?window.location.search:"?") |
 | Dominio e percorso | window.location.host+window.location.pathname |
@@ -293,17 +233,17 @@ s.prop1="..User-Agent"
 
 La proprietà charSet, normalmente impostata nel file JavaScript, viene utilizzata da Analytics per convertire i dati in entrata in UTF-8 per l'archiviazione e il reporting da parte di Analytics.
 
->[!N] Nota: La proprietà charSet è obbligatoria quando si inviano dati a una suite di rapporti multibyte e non deve mai essere utilizzata con una suite di rapporti standard. L'impostazione della proprietà charSet con una suite di rapporti ISO standard può determinare il troncamento variabile o una conversione di caratteri imprevista.
+>[!N] Nota: La proprietà charSet è obbligatoria quando si inviano dati a una suite di rapporti multibyte e non deve mai essere utilizzata con una suite di rapporti standard. Setting the charSet property with a standard ISO report suite can result in variable truncation or unexpected character conversion.
 
-Il valore della proprietà charSet deve corrispondere alla codifica della pagina Web nel tag META o nell'intestazione http, anche se la sintassi può variare leggermente. Anche se il tag META può utilizzare un alias per la codifica, il valore di charSet deve utilizzare il nome preferito (o ufficiale) della codifica.
+Il valore della proprietà charSet deve corrispondere alla codifica della pagina Web nel tag META o nell'intestazione http, anche se la sintassi può variare leggermente. Although the META tag may use an alias for the encoding, the value of charSet should use the preferred (or official) name of the encoding.
 
-Alcune delle codifiche più comuni con il nome e gli alias preferiti sono elencate nella tabella seguente.
+Some of the more common encodings with their preferred name and aliases are listed in the following table.
 
-| Nome preferito | Alias |
+| Preferred Name | Aliases |
 |--- |--- |
 | ISO-8859-1 | ISO_8859-1, CP819, latin1 |
 | ISO-8859-2 | ISO_8859-2, latin2 |
-| ISO-8859-5 | ISO_8859-5, cicrilico |
+| ISO-8859-5 | ISO_8859-5, cyrillic |
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
@@ -349,9 +289,9 @@ Tutti gli importi monetari sono memorizzati in una valuta di vostra scelta. Se l
 |--- |--- |--- |--- |
 | N/D | cc | Conversione &gt; Acquisti &gt; Ricavi Tutti i rapporti Conversione che mostrano i valori di ricavi o monetari | "USD" |
 
-Se il sito consente ai visitatori di acquistare in più valute, è necessario utilizzare la *`currencyCode`* variabile per assicurarsi che le entrate siano memorizzate nella valuta appropriata. Ad esempio, se la valuta di base per la suite di rapporti è USD e si vende un articolo per 40 Euro, è necessario compilare il *`currencyCode`* campo con "EUR" nella pagina HTML. Non appena la raccolta dei dati riceve i dati, utilizza il tasso di conversione corrente per convertire i 40 euro nel suo equivalente in USD.
+If your site allows visitors to purchase in multiple currencies, you should use the  variable to make sure revenue is stored in the appropriate currency. *`currencyCode`* For example, if the base currency for your report suite is USD, and you sell an item for 40 Euros, you should populate the  with "EUR" on the HTML page. *`currencyCode`* As soon as data collection receives the data, it uses the current conversion rate to convert the 40 Euros to its USD equivalent.
 
-La compilazione della *`currencyCode`* variabile sulla pagina HTML invece che nel file JavaScript è consigliabile se si vende in più valute. Se si desidera utilizzare i tassi di conversione personalizzati invece che quelli utilizzati da Adobe, impostare l'opzione su un valore pari *`currencyCode`* alla valuta di base della suite di rapporti. Quindi tutte le entrate vengono convertite prima di inviarle [!DNL Analytics].
+Populating the  variable on the HTML page instead of in the JavaScript file is recommend if you sell in multiple currencies. *`currencyCode`* If you want to use your own conversion rates rather than the conversion rates used by Adobe, set the  to equal the base currency of your report suite. *`currencyCode`* Quindi tutte le entrate vengono convertite prima di inviarle [!DNL Analytics].
 
 La conversione della valuta è valida sia per i ricavi che per eventuali eventi di valuta. Si tratta di eventi che vengono utilizzati per sommare valori simili alle entrate, come tasse e spedizioni. Gli eventi relativi alle entrate e alla valuta sono specificati nella stringa products. Per ulteriori informazioni sui prodotti, vedere [Eventi](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE).
 
