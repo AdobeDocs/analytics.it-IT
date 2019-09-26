@@ -1,25 +1,25 @@
 ---
-description: Implementa Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice della pagina in modo automatico o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
-keywords: Implementazione di Analytics; metodo di implementazione; gestione tag dinamica; dtm; strumento Analisi,proprietà; tipo di strumento; nome dello strumento; metodo di configurazione; analytics premium; evar; eventi
-seo-description: Implementa Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice della pagina in modo automatico o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
-seo-title: Strumento Aggiungi Adobe Analytics
+description: Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
+keywords: Analytics Implementation;metodo di implementazione;gestione tag dinamica;dtm;strumento di analisi;proprietà;tipo di strumento;nome strumento;metodo di configurazione;Analytics premium;evar;eventi
+seo-description: Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
+seo-title: Aggiunta dello strumento Adobe Analytics
 solution: Analytics
-title: Strumento Aggiungi Adobe Analytics
+title: Aggiunta dello strumento Adobe Analytics
 topic: Sviluppatore e implementazione
-uuid: 1 c 54331 e-de 03-4 f 44-8002-a 19723 c 585 b 0
+uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
 
-# Strumento Aggiungi Adobe Analytics
+# Aggiunta dello strumento Adobe Analytics
 
-Implementa Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice della pagina in modo automatico o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
+Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>Per migliorare il tracciamento dei visitatori, ti consigliamo vivamente di abilitare [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -39,48 +39,48 @@ Implementa Adobe Analytics utilizzando Gestione tag dinamica creando lo strument
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Tipo di strumento </p> </td> 
-   <td colname="col2">The type of tool, such as <span class="keyword"> Adobe Analytics</span>. </td> 
+   <td colname="col2">Tipo di strumento, ad esempio <span class="keyword"> Adobe Analytics</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome dello strumento </p> </td> 
-   <td colname="col2">Un nome descrittivo per questo strumento. This name displays on the <span class="wintitle"> Overview</span> tab under <span class="wintitle"> Installed Tools</span>. </td> 
+   <td colname="col2">Un nome descrittivo per lo strumento. Questo nome viene visualizzato nella scheda <span class="wintitle"> Panoramica</span> in <span class="wintitle"> Strumenti</span>installati. </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p>Metodo di configurazione </p> </td> 
-   <td colname="col2"> <p> <b>Automatic</b> (Recommended): Use dynamic tag management to manage the configuration. This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>After the accounts are connected, Dynamic Tag Management pulls the <span class="keyword"> Adobe Analytics</span> report suite IDs and names into the tool configuration interface, allowing for increased speed in tool deployment with less possibility for user errors. </p> <p> <p>Note: You must choose the <span class="wintitle"> Automatic</span> option if you are an <span class="keyword"> Adobe Analytics Premium</span> customer. See <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local"> Enabling Adobe Analytics Premium</a> below. </p> </p> <p>Compila i campi specifici della configurazione automatica: </p> 
+   <td colname="col2"> <p> <b>Automatico</b> (consigliato): Utilizzate la gestione tag dinamica per gestire la configurazione. Questo metodo abilita la sincronizzazione automatica delle suite di rapporti <span class="keyword"> Adobe Analytics</span> tramite un accesso <span class="keyword"> Experience Cloud</span> o un ID di servizi Web e gestisce il codice [!DNL AppMeasurement]. </p> <p>Una volta connessi gli account, Gestione tag dinamica porta gli ID e i nomi delle suite di rapporti di <span class="keyword"> Adobe Analytics</span> nell'interfaccia di configurazione dello strumento, consentendo una maggiore velocità nella distribuzione degli strumenti con minori possibilità di errori da parte degli utenti. </p> <p> <p>Nota: È necessario scegliere l'opzione <span class="wintitle"> Automatico</span> se siete clienti <span class="keyword"> Adobe Analytics Premium</span> . Consultate <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local"> Abilitazione di Adobe Analytics Premium</a> di seguito. </p> </p> <p>Compila i campi specifici per la configurazione automatica: </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
-     <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>: (Impostazione predefinita) Usa <span class="keyword"> il single sign-on di Experience Cloud</span> . Specifica il tuo Experience Cloud ID e la password. </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Servizi Web</b>: Specifica il nome utente Servizi Web e il segreto condiviso. </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html" format="html" scope="external"> Web Services</a>. </p> <p>Developers, see <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external"> Get Web Service Access to the Enterprise API</a> for help with obtaining Web Services credentials. </p> </li> 
+     <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>: (Impostazione predefinita) Utilizza il single sign-on <span class="keyword"> Experience Cloud</span> . Specifica il tuo Experience Cloud ID e la password. </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Servizi</b>Web: Specifica il tuo nome utente Servizi Web e il segreto condiviso. </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>Per informazioni su come ottenere le credenziali dei servizi Web, vedere <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external"> Accesso ai servizi Web nell'API</a> Enterprise. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuale</b>: Gestire manualmente [! DNL appmeasurement]. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Compila i campi specifici di una configurazione manuale: </p> 
+   <td colname="col2"> <p> <b>Manuale</b>: Gestisci manualmente il codice [!DNL AppMeasurement]. Puoi scaricare il codice <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> da Strumenti <span class="ignoretag"><span class="uicontrol"> di amministrazione &gt;</span> Gestionecodici <span class="uicontrol"></span></span>. </p> <p>Fate clic su <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (nuovo)</a> per informazioni su come scaricare localmente il codice per copiare e incollare nel campo <span class="wintitle"> Modifica codice</span> in Gestione <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"></a>libreria. </p> <p>Compila i campi specifici per una configurazione manuale: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID account produzione: </b>(Obbligatorio) L'account di produzione per la raccolta dati. Per Analytics, si tratta dell'ID suite di rapporti. Gestione tag dinamica installa automaticamente l'account corretto nell'ambiente di produzione e di staging. </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID account di verifica: </b>(Obbligatorio) Utilizzato nell'ambiente di sviluppo o di prova. Per Analytics, si tratta dell'ID suite di rapporti. Un account di verifica mantiene i dati di verifica separati dalla produzione. </p> </li> 
-     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Server di tracciamento: </b>Specifica le informazioni per il server di tracciamento. </p> <p>The <span class="wintitle"> Tracking Server</span> and <span class="wintitle"> SSL Tracking Server</span> variables are used for first-party cookie implementation to specify the domain at which the image request and cookie is written. For more information, see the <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"> Correctly Populate the trackingServer and trackingServerSecure Variable</a> article. </p> </li> 
-     <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL Tracking Server: </b>Specificate le informazioni per il server di tracciamento SSL. </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID account produzione: </b>(Obbligatorio) Account di produzione per la raccolta dei dati. Per Analytics, questo è il tuo ID suite di rapporti. Gestione tag dinamica installa automaticamente l'account corretto nell'ambiente di produzione e di staging. </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID account di gestione temporanea: </b>(Obbligatorio) Utilizzato nell'ambiente di sviluppo o di test. Per Analytics, questo è il tuo ID suite di rapporti. Un account di verifica mantiene i dati di test separati dalla produzione. </p> </li> 
+     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Server di tracciamento: </b>Specificate le informazioni per il server di tracciamento. </p> <p>The <span class="wintitle"> Tracking Server</span> and <span class="wintitle"> SSL Tracking Server</span> variables are used for first-party cookie implementation to specify the domain at which the image request and cookie is written. For more information, see the  Correctly Populate the trackingServer and trackingServerSecure Variable article.<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"></a> </p> </li> 
+     <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL Tracking Server: </b>Specify the information for your SSL tracking server. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Click **[!UICONTROL Create Tool]** to create the tool and display it for editing.
+1. Click  to create the tool and display it for editing.**[!UICONTROL Create Tool]**
 
-   Tools are displayed on the [!UICONTROL Overview] tab, under [!UICONTROL Installed Tools].
+   Tools are displayed on the  tab, under .[!UICONTROL Overview][!UICONTROL Installed Tools]
 
-1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]).
+1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( , , , , , , , and ).[!UICONTROL General][!UICONTROL Library Management][!UICONTROL Global Variables][!UICONTROL Pageviews & Content][!UICONTROL Link Tracking][!UICONTROL Referrers & Campaigns][!UICONTROL Cookies][!UICONTROL Customize Page Code]
 
-See [Frequently Asked Questions About the Adobe Analytics Tool](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B) for additional information about this tool.
+See Frequently Asked Questions About the Adobe Analytics Tool for additional information about this tool.[](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B)
 
 ## Edit an Existing Adobe Analytics Tool {#section_148B16AF429B4949B06238D90635B726}
 
-Potete modificare un strumento Adobe Analytics esistente per modificarne le impostazioni di configurazione.
+You can edit an existing Adobe Analytics tool to change its configuration settings.
 
-1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab.
-1. Modificate i campi come desiderato.
+1. Click the   icon next to an installed tool from the  tab.![](assets/settings_gear.png)[!UICONTROL Overview]
+1. Edit the fields as desired.
 
-   La tabella seguente include solo gli elementi che differiscono dagli elementi disponibili quando si crea uno strumento Analytics, come descritto in precedenza. Tuttavia, è possibile modificare qualsiasi elemento della pagina, come descritto in entrambe le tabelle.
+   The following table includes only those elements that differ from the elements available when you are creating an Analytics tool, as described above. However, you can change any element on the page, as described in both tables.
 
 <table id="table_2B60CD109CFF4839AB7F91D61125EDFF"> 
  <thead> 
@@ -91,8 +91,8 @@ Potete modificare un strumento Adobe Analytics esistente per modificarne le impo
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Abilita configurazione automatica </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>This option lets Dynamic Tag Management automatically retrieve your <span class="keyword"> Adobe Analytics</span> account's configuration. </p> <p>La più recente disponibile [! DNL appmeasurement] viene utilizzato e le notifiche di aggiornamento vengono visualizzate per la selezione quando diventano disponibili nuove versioni. Potete anche ripristinare precedente [! DNL appmeasurement], in base alle esigenze, ad esempio per motivi di compatibilità. Vengono visualizzate fino a cinque versioni precedenti. </p> </td> 
+   <td colname="col1"> <p>Enable Automatic Configuration </p> </td> 
+   <td colname="col2"> <p>Nota: Enabling this setting changes a manually configured implementation to the automatic configuration method described in  Configuration Method.<span class="term"></span> </p> <p>Questa opzione consente a Gestione tag dinamica di recuperare automaticamente la configurazione dell'account <span class="keyword"> Adobe Analytics</span> . </p> <p>Viene utilizzato l'ultimo codice [!DNL AppMeasurement] disponibile e le notifiche di aggiornamento vengono visualizzate per la selezione man mano che diventano disponibili nuove versioni. Puoi anche ripristinare le versioni precedenti di [!DNL AppMeasurement], se necessario, ad esempio per motivi di compatibilità. Vengono visualizzate fino a cinque versioni precedenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiorna credenziali </p> </td> 
@@ -101,5 +101,5 @@ Potete modificare un strumento Adobe Analytics esistente per modificarne le impo
  </tbody> 
 </table>
 
-1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]).
+1. (Condizionale) Configurate ulteriormente lo strumento seguendo le indicazioni riportate di seguito ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies]e [!UICONTROL Customize Page Code]).
 1. Fai clic su **[!UICONTROL Save Changes]**.
