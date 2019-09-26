@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 4a6bac589d1d6d6caaf34dc5363c60bbfbb952d5
+source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 ---
 
@@ -20,7 +20,7 @@ Se si inviano a più suite di rapporti (tag con più suite), `s.account` può tr
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |--- |--- |--- |--- |
-| 40 byte | Nel percorso URL | N/D | N/D |
+| 40 Bytes | Nel percorso URL | N/D | N/D |
 
 Ogni ID suite di rapporti deve corrispondere al valore creato nel [!DNL Admin Console]. Ogni ID suite di rapporti deve essere di 40 byte o inferiore, ma l'aggregazione di tutte le suite di rapporti (l'intero elenco separato da virgole) non ha limiti.
 
@@ -30,7 +30,7 @@ All'interno [!DNL Analytics]della casella a discesa del sito in alto a sinistra 
 
 La `s_account` variabile viene normalmente dichiarata all'interno del file JavaScript (s_code.js). È possibile dichiarare la `s_account` variabile sulla pagina HTML, una pratica comune quando il valore di `s_account` può cambiare da una pagina all’altra. Poiché la `s_account` variabile ha un ambito globale, deve essere dichiarata immediatamente prima di includere il file JavaScript di Adobe. Se `s_account` non è presente un valore quando il file JavaScript viene caricato, non viene inviato alcun dato a [!DNL Analytics].
 
-Adobe [!DNL DigitalPulse Debugger] visualizza il valore di `s_account` nel percorso dell'URL che appare appena sotto la parola "Immagine", subito dopo /b/ss/. In alcuni casi, il valore di `s_account` viene visualizzato anche nel dominio, prima di 112.2o7.net. Il valore nel percorso è l'unico valore che determina la suite di rapporti di destinazione. Il testo in grassetto riportato di seguito mostra le suite di rapporti a cui vengono inviati i dati, così come appaiono nel debugger. Vedere [Digital Pulse Debugger](/help/implement/impl-testing/debugger.md).
+Adobe [!DNL DigitalPulse Debugger] visualizza il valore di `s_account` nel percorso dell'URL che appare appena sotto la parola "Immagine", subito dopo /b/ss/. In alcuni casi, il valore di `s_account` viene visualizzato anche nel dominio, prima di 112.2o7.net. Il valore nel percorso è l'unico valore che determina la suite di rapporti di destinazione. Il testo in grassetto riportato di seguito mostra le suite di rapporti a cui vengono inviati i dati, così come appaiono nel debugger. Vedere [Digital Pulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
@@ -61,7 +61,7 @@ var s_account="mycompanycom,mycompanysection"
 
 Il nome descrittivo associato a ciascun ID suite di rapporti può essere modificato da Adobe [!DNL Customer Care]. Il nome descrittivo è visibile [!DNL Analytics] nella casella a discesa del sito, nella sezione superiore sinistra della schermata.
 
-## Insidie, domande e suggerimenti
+## Pitfalls, Questions, and Tips
 
 * Se `s_account` è vuoto, non dichiarato o contiene un valore imprevisto, non viene raccolto alcun dato.
 * Se la `s_account` variabile è un elenco separato da virgole (tag per più suite), non inserite spazi tra gli ID delle suite di rapporti.
