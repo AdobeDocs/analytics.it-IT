@@ -1,56 +1,56 @@
 ---
-description: Combina sia i dati con marca temporale che quelli privi di marca in una singola suite di rapporti.
-seo-description: Combina sia i dati con marca temporale che quelli privi di marca in una singola suite di rapporti.
+description: Combinate dati con marca temporale e non in una singola suite di rapporti.
+seo-description: Combinate dati con marca temporale e non in una singola suite di rapporti.
 seo-title: Marca temporale opzionale
 solution: Analytics
 title: Marca temporale opzionale
 topic: Strumenti di amministrazione
-uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
 # Marca temporale opzionale
 
-Combina sia i dati con marca temporale che quelli privi di marca in una singola suite di rapporti.
+Combinate dati con marca temporale e non in una singola suite di rapporti.
 
-Marca temporale opzionale:
+Marca temporale opzionale consente di:
 
 * Inserite sia i dati con marca temporale sia quelli privi di marca nella stessa suite per report globale.
 * Inviate dati con marca temporale da un app per dispositivo mobile a una suite per report globale.
 * Aggiornate le app per poter utilizzare il monitoraggio offline senza dover creare per una suite per report.
 
-Consultate [Utilizzo della marca temporale opzionale](/help/implement/js-implementation/timestamps-overview.md) per le best practice quando si utilizzano marche temporali nella suite di rapporti.
+Consultate [Utilizzo delle marche temporali facoltative](/help/implement/js-implementation/timestamps-overview.md) per le best practice relative all’utilizzo delle marche temporali nella suite di rapporti.
 
 >[!IMPORTANT]
 >
->Se utilizzate Marca temporale opzionale, non impostate [s. visitorid](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) su dati già con marca temporale. Questo può portare a dati out-of-order e influenzare in modo negativo i calcoli temporale (ad esempio i valori passati), l'attribuzione (persistenza evar), il numero di visite/visite e i rapporti sui percorsi.
+>Se utilizzate Marca temporale opzionale, non impostate [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) su dati già con marca temporale. Questo può causare dati fuori ordine e influire negativamente sui calcoli del tempo (come i valori del tempo trascorso), l'attribuzione (persistenza eVar), i conteggi di numero di visita/visita e i rapporti di percorso.
 
 >[!NOTE]
 >
->I dati delle sessioni abilitati per marca temporale vengono conservati per un massimo di 92 giorni. Ciò significa che una visita/sessione verrà «sospesa» per 92 giorni mentre qualsiasi hit aggiuntivo (che non sarà 30 minuti dopo l'hit precedente (in tempo hit) può essere incluso nella stessa visita/sessione. Tutti gli hit "obsoleti" ricevuti dall'ordine produrranno risultati "sconosciuti", in base a una serie di fattori (segmentazione, allocazione, scadenza ecc.) determina se questi hit verranno inclusi nel reporting o meno.
+>I dati delle sessioni con marca temporale abilitata vengono conservati fino a 92 giorni. Ciò significa che una visita/sessione sarà "aperta" per 92 giorni, mentre qualsiasi hit aggiuntivo, che non sia 30 minuti dopo l’hit precedente (in fase di hit), può ancora essere incluso nella stessa visita/sessione. Eventuali hit "vecchi" ricevuti in base all’ordine produrranno risultati "sconosciuti", in quanto diversi fattori (segmentazione, allocazione, scadenza, ecc.) influenza se questi hit verranno inclusi o meno nel reporting.
 
 ## Nuove suite di rapporti {#section_095A7CFBD280494593B9BEC1592B73A6}
 
-* Se viene creata da un modello, una nuova suite di rapporti è impostata su Marca temporale opzionale.
+* Se creata da un modello, per impostazione predefinita una nuova suite di rapporti utilizza Marca temporale opzionale.
 
-   (Puoi creare una nuova suite di rapporti da un modello in **Admin (Amministratore) &gt; Report Suites (Suite di rapporti) &gt; Create New (Crea nuovo) &gt; Report Suite**(Suite di rapporti)).
-* Se copiata da una suite di rapporti esistente, la nuova suite di rapporti eredita l'impostazione temporale dall'originale, incluso:
+   (Puoi creare una nuova suite di rapporti da un modello in **Amministratore &gt; Suite di rapporti &gt; Crea nuovo &gt; Suite** di rapporti.)
+* Se copiato da una suite di rapporti esistente, la nuova suite eredita l'impostazione della marca temporale dall'originale, inclusi:
 
-   * **Marche temporali non consentite** (impostazione s. visitorid supportata)
-   * **Marca temporale richiesta** (impostazione s. visitorid non supportata)
-   * **Marca temporale opzionale** (impostazione s. visitorid supportata ma non sugli hit con marca temporale)
+   * **Marca temporale non consentita** (impostazione supportata da s.visitorID)
+   * **Marca temporale richiesta** (impostazione di s.visitorID non supportata)
+   * **Marca temporale opzionale** (impostazione di s.visitorID supportata ma non sugli hit con marca temporale)
 
-## Per modificare le suite di rapporti esistenti su Marca temporale opzionale {#section_40BCD3B4639241DEA716F7640ED33E72}
+## Per modificare le suite di rapporti esistenti in marche temporali opzionali {#section_40BCD3B4639241DEA716F7640ED33E72}
 
-1. Vai a **Admin (Amministratore) &gt; Report Suites (Suite di rapporti) &gt; Edit Settings (Modifica impostazioni) &gt; General (Generale) &gt; Timestamp Configuration**(Configurazione marca temporale).
-1. Selezionate la **casella di testo Converti suite di rapporti selezionate nella casella opzionale** Marca temporale.
+1. Vai a **Admin (Amministratore) &gt; Report Suites (Suite di rapporti) &gt; Edit Settings (Modifica impostazioni) &gt; General (Generale) &gt; Timestamp Configuration (Configurazione** marca temporale).
+1. Selezionate la casella **Converti suite di rapporti selezionate in marche temporali (facoltativo** ).
 
-   In questo modo la suite di rapporti viene modificata in Marca temporale opzionale.
+   In questo modo la suite di rapporti verrà modificata in Marca temporale opzionale.
 
 >[!NOTE]
 >
->Se una suite di rapporti è stata impostata su **Marca temporale opzionale**, per modificarla in qualsiasi altra impostazione, contattate Adobe Client Care.
+>Se una suite di rapporti è stata impostata su **Marca temporale opzionale**, per cambiare questa impostazione in qualsiasi altra, contatta l'Assistenza clienti Adobe.
 
