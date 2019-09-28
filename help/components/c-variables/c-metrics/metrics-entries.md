@@ -1,19 +1,19 @@
 ---
-description: Le voci rappresentano il numero di volte in cui un dato valore viene acquisito come il primo valore di una visita. Le voci possono avvenire solo una volta per visita. Tuttavia, non è necessariamente il primo hit se la variabile non è definita.
-seo-description: Le voci rappresentano il numero di volte in cui un dato valore viene acquisito come il primo valore di una visita. Le voci possono avvenire solo una volta per visita. Tuttavia, non è necessariamente il primo hit se la variabile non è definita.
-seo-title: Ingressi
+description: Le voci rappresentano il numero di volte in cui un dato valore viene acquisito come il primo valore di una visita. Le voci possono verificarsi solo una volta per visita. Tuttavia, non è necessariamente il primo hit se la variabile non è definita.
+seo-description: Le voci rappresentano il numero di volte in cui un dato valore viene acquisito come il primo valore di una visita. Le voci possono verificarsi solo una volta per visita. Tuttavia, non è necessariamente il primo hit se la variabile non è definita.
+seo-title: Voci
 solution: Analytics
-title: Ingressi
-topic: Metrics (Metriche)
-uuid: c 4608 b 66-b 70 c -4 e 98-b 7 c 6-9 be 5 fbe 4 ec 9 c
+title: Voci
+topic: Metriche
+uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Ingressi
+# Voci
 
-Le voci rappresentano il numero di volte in cui un dato valore viene acquisito come il primo valore di una visita. Le voci possono avvenire solo una volta per visita. Tuttavia, non è necessariamente il primo hit se la variabile non è definita.
+Le voci rappresentano il numero di volte in cui un dato valore viene acquisito come il primo valore di una visita. Le voci possono verificarsi solo una volta per visita. Tuttavia, non è necessariamente il primo hit se la variabile non è definita.
 
-Le pagine di immissione presentano un ambito delle suddivisioni visite, che significa che restano in tutti gli hit per una visita. See [Breakdown and segmentation containers](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=c_Breakdown_and_segmentation_containers) for more information.
+Le pagine di entrata hanno un ambito di suddivisione della visita, il che significa che persistono in tutti gli hit per una visita. Per ulteriori informazioni, consulta Contenitori [di](https://marketing.adobe.com/resources/help/en_US/sc/user/c_Breakdown_and_segmentation_containers.html) suddivisione e segmentazione.
