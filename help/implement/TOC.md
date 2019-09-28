@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida all’implementazione di Analytics
 user-guide-url: /content/help/it-IT/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
          + [s.trackInlineStats](js-implementation/c-variables/config-vars/s-trackinlinestats.md)
          + [s.linkDownloadFileTypes](js-implementation/c-variables/config-vars/s-linkdownldftype.md)
          + [s.linkInternalFilters](js-implementation/c-variables/config-vars/s-trackintfilters.md)
-         + [s.linkLeaveQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
+         + [s.linkLeftQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
          + [s.linkTrackVars](js-implementation/c-variables/config-vars/s-linktrackvars.md)
          + [s.linkExternalFilters](js-implementation/c-variables/config-vars/s-linkextfilters.md)
          + [s.usePlugins](js-implementation/c-variables/config-vars/s-useplugins.md)
@@ -211,7 +211,7 @@ source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
       + [ID visitatore Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Metodi di fallback ID](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificare i dispositivi mobili](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Servizi di base di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
+   + [Servizi di base di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + Identificazione dei visitatori tra i dispositivi {#cross-device-visitor-id}
       + [Connettere gli utenti tra i dispositivi](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [Impatto dei dati sull'identificazione tra i visitatori dei visitatori](js-implementation/xdevice-visid/xdevice-data.md)
