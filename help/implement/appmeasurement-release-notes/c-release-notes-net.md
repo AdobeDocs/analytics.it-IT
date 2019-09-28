@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Note sulla versione
 title: Windows Silverlight, NET, IIS, XBOX
 topic: Sviluppatore e implementazione
-uuid: 15 c 20 bca -4886-4 d 57-9957-fe 99743851 ea
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,34 +17,34 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->Questi SDK sono diventati obsoleti e non sono più supportati o distribuiti da Adobe.
+>Questi SDK sono scaduti e non sono più supportati o distribuiti da Adobe.
 
 >[!NOTE]
 >
->Per trovare la versione corrente della libreria, attivare la registrazione di debug.
+>Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
-## Version 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
+## Versione 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Release Date: **August 2014**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Rimosso il supporto per l' [!DNL Microsoft Silverlight Analytics Framework]. Adobe non supporta più o distribuisce l' [!DNL Microsoft Silverlight Analytics Framework] integrazione per [!DNL AppMeasurement].
 
-* Modifiche interne per supportare funzionalità imminenti.
+* Modifiche interne per supportare le funzionalità in arrivo.
 
-## Version 1.4.1 {#section_9134F77804BF472291DA7243FAC89C2B}
+## Versione 1.4.1 {#section_9134F77804BF472291DA7243FAC89C2B}
 
 Release Date: **March 2013**
 
-* Fixed exception with getting default referrer in [!DNL Silverlight] outside of a browser context and properly exposed SSL property in the [!DNL Microsoft Silverlight Analytics Framework] component.
+* È stata corretta un’eccezione per il richiamo predefinito [!DNL Silverlight] all’esterno del contesto di un browser e la proprietà SSL correttamente esposta nel [!DNL Microsoft Silverlight Analytics Framework] componente.
 
-## Version 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
+## Versione 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
 
 Release Date: **February 2013**
 
-* È stato aggiunto il supporto per l'invio di URL superiori a 255 byte per supportare l'espansione del campo URL pagina nei server di raccolta dati Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Questo consente di evitare che gli URL lunghi abbiano precedenza rispetto ad altri dati nel caso del troncamento del browser, ma consentano comunque l'acquisizione di URL lunghi.
+* È stato aggiunto il supporto per l’invio di URL superiori a 255 byte per supportare l’espansione del campo URL pagina nei server di raccolta dati Adobe. Gli URL di pagina di lunghezza superiore a 255 byte vengono suddivisi, con i primi 255 byte visualizzati nel `g=` parametro, con i rimanenti byte che vengono visualizzati successivamente nella stringa di query nel parametro di `-g=` query. In questo modo si evita che gli URL lunghi abbiano la precedenza rispetto ad altri dati nel caso di troncamento del browser, ma si possono comunque acquisire URL lunghi.
 
-* Aggiunto un nuovo metodo di identificazione del visitatore. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
-* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`.
+* È stato aggiunto un nuovo metodo di identificazione fallback del visitatore. Consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)univoci.
+* È stato aggiunto un nuovo `abort` flag che può essere impostato all'interno `doPlugins`. Impostando questo flag su true, la [!DNL AppMeasurement] libreria non continua con quella chiamata di tracciamento. Il flag abort viene reimpostato con ogni chiamata di tracciamento, quindi se è necessario interrompere anche una chiamata di tracciamento successiva, il flag dovrà essere nuovamente inserito all’interno `doPlugins`.
 
    ```js
    s.doPlugins = function(s) { 
@@ -55,13 +55,13 @@ Release Date: **February 2013**
    };
    ```
 
-   Questo consente di centralizzare la logica utilizzata per identificare l'attività che non desideri tracciare, ad esempio alcuni collegamenti personalizzati o collegamenti esterni negli annunci visualizzati.
+   Questo consente di centralizzare la logica utilizzata per identificare l'attività che non si desidera tracciare, ad esempio alcuni collegamenti personalizzati o collegamenti esterni negli annunci visualizzati.
 
-## Version 1.3.8 {#section_03089199E2DE4199B32F6821DDAED7BD}
+## Versione 1.3.8 {#section_03089199E2DE4199B32F6821DDAED7BD}
 
 Release Date: **September 2012**
 
-* Fixed an issue that might cause the video complete event to not be sent when using a custom `media.monitor` method that tracks the media close event:
+* È stato risolto un problema che poteva impedire l'invio dell'evento di completamento del video quando si utilizzava un `media.monitor` metodo personalizzato per tenere traccia dell'evento di chiusura del supporto:
 
    ```
    If(media.event==”CLOSE”) { 
@@ -69,31 +69,31 @@ Release Date: **September 2012**
    } 
    ```
 
-## Version 1.3.7 {#section_32AA8AE0CED4495496D25BF9246AE8AB}
+## Versione 1.3.7 {#section_32AA8AE0CED4495496D25BF9246AE8AB}
 
 Release Date: **April 2012**
 
 * È stato aggiunto supporto per [!DNL XBOX].
 
-## Version 1.3.6 {#section_9F2738FA31CD48C4877AB92281EC67A9}
+## Versione 1.3.6 {#section_9F2738FA31CD48C4877AB92281EC67A9}
 
 Release Date: **February 2012**
 
-* [!DNL iOS] Telefono 7: Risolto un problema che impediva la corretta applicazione di offlinethrottledelay.
-* Aggiunto il timestamp alle variabili utilizzate con chiamate di tracciamento chiaro (tracklight).
+* [!DNL iOS] Telefono 7: È stato risolto un problema che impediva l'applicazione corretta di offlineThrottleDelay.
+* Aggiunta di marca temporale alle variabili utilizzate con le chiamate di tracciamento della luce (trackLight).
 
-## Version 1.3.5 {#section_28BBDE7D187547A4AACCA60E5154DCD2}
+## Versione 1.3.5 {#section_28BBDE7D187547A4AACCA60E5154DCD2}
 
 Release Date: **January 2012**
 
-* Aggiornamento del monitoraggio video con un nuovo metodo per tenere traccia delle visualizzazioni video complete. See [Measuring Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/index.html).
+* È stato aggiornato il tracciamento video con un nuovo metodo per tenere traccia delle visualizzazioni video complete. Consultate [Misurazione dei video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/index.html).
 
-## Version 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
+## Versione 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking.
-* Supporto per il delegato dorequest per ignorare il modo in cui vengono inviate le richieste per il tracciamento dei dati.
-* Supporto per contextdata che fornisce regole di elaborazione lato server (solo v 15).
-* Supporto per chiamate server chiaro (attualmente nella versione beta).
+* Nuovo supporto e build per la piattaforma [!DNL iOS] Phone, compreso il tracciamento offline.
+* Supporto per il delegato doRequest per ignorare il modo in cui le richieste vengono inviate per i dati di tracciamento.
+* Supporto per contextData che supporta le regole di elaborazione lato server (solo v15).
+* Supporto per chiamate server di luce (attualmente in versione beta).
 * Supporto per l'assegnazione di un valore diverso da 1 a un evento contatore nell'elenco degli eventi.
-* Supporto per il nuovo metodo di tracciamento video utilizzando evar ed eventi di conversione (attualmente in versione beta).
+* Supporto per un nuovo metodo di tracciamento dei video mediante eVar di conversione ed eventi (attualmente in versione beta).
 
