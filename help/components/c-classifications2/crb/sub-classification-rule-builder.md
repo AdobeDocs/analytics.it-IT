@@ -1,43 +1,43 @@
 ---
-description: Potete combinare il Generatore regole di classificazione con le sottoclassi per semplificare la gestione della classificazione e ridurre il numero di regole richieste. Potrebbe essere utile se il codice di tracciamento è costituito da codici che desiderate classificare separatamente.
-seo-description: Potete combinare il Generatore regole di classificazione con le sottoclassi per semplificare la gestione della classificazione e ridurre il numero di regole richieste. Potrebbe essere utile se il codice di tracciamento è costituito da codici che desiderate classificare separatamente.
-seo-title: Classificazioni e Generatore regole - Casi d'uso
+description: È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
+seo-description: È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
+seo-title: 'Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo'
 solution: Analytics
 subtopic: Classificazioni
-title: Classificazioni e Generatore regole - Casi d'uso
+title: 'Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo'
 topic: Strumenti di amministrazione
-uuid: 6 db 6 a 4 a 9-b 93 c -413 b -8049-1 e 6 cc 1 ba 4 a 38
+uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Classificazioni e Generatore regole - Casi d'uso
+# Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo
 
-Potete combinare il Generatore regole di classificazione con le sottoclassi per semplificare la gestione della classificazione e ridurre il numero di regole richieste. Potrebbe essere utile se il codice di tracciamento è costituito da codici che desiderate classificare separatamente.
+È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
 
-## Sub-classifications and the Rule Builder - use case {#concept_6C8672C242544D7487E82886BBFABE6E}
+## Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo {#concept_6C8672C242544D7487E82886BBFABE6E}
 
-Potete combinare il Generatore regole di classificazione con le sottoclassi per semplificare la gestione della classificazione e ridurre il numero di regole richieste. Potrebbe essere utile se il codice di tracciamento è costituito da codici che desiderate classificare separatamente.
+È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+Per informazioni concettuali sulle sottocategorie, consultate [Sottoclassificazioni](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) .
 
 **Esempio**
 
-Presupponi il seguente codice di tracciamento:
+Presupponiamo il seguente codice di tracciamento:
 
 `channel:broad_campaign:creative`
 
-A classification hierarchy allows you to apply a classification to a classification (called *`sub-classification`*). Ciò significa che potete usare l'importazione come un database relazionale, con più tabelle. Una tabella mappa i codici di tracciamento completi sulle chiavi e ne mappa un altro in altre tabelle.
+Una gerarchia di classificazione consente di applicare una classificazione a una classificazione (chiamata *`sub-classification`*). Ciò significa che è possibile utilizzare l'utilità di importazione come un database relazionale, con più tabelle. Una tabella mappa i codici di tracciamento completi alle chiavi, mentre un'altra li mappa ad altre tabelle.
 
 ![](assets/sub_class_table.png)
 
-After you have this structure in place, you can use the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md) to upload small files that only update the lookup tables (the green and red tables in the preceding image). Quindi, potete utilizzare il generatore di regole per mantenere aggiornata la tabella di classificazione principale.
+Dopo aver installato questa struttura, è possibile utilizzare il Generatore [regole di](../../../components/c-classifications2/crb/classification-rule-builder.md) classificazione per caricare file di piccole dimensioni che aggiornano solo le tabelle di ricerca (le tabelle verdi e rosse nell'immagine precedente). Quindi, potete utilizzare il generatore di regole per mantenere aggiornata la tabella di classificazione principale.
 
 L'attività seguente descrive come eseguire questa operazione.
 
-## Set up Sub-Classifications using the Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
+## Impostazione di sottoclassificazioni mediante il Generatore di regole{#task_2D9016D8B4E84DBDAF88555E5369546F}
 
 <!-- 
 
@@ -45,44 +45,44 @@ t_rule_builder_subclass.xml
 
  -->
 
-Procedura di esempio che descrive come caricare le sottoclassi mediante il Generatore di regole.
+Esempi di passaggi che descrivono come caricare le sottocategorie utilizzando il Generatore di regole.
 
 >[!NOTE]
 >
->These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+>Questi passaggi descrivono come eseguire il caso d’uso descritto in [Sottoclassificazioni e nel Generatore](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)di regole.
 
-1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications).
+1. Creare classificazioni e sottoclassificazioni in Gestione [classificazione](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
    Esempio:
 
-   ![Informazioni passo](assets/sub_class_create.png)
+   ![Informazioni sul passaggio](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. Nel Generatore [regole di](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A)classificazione, classificate la chiave di classificazione secondaria dal codice di tracciamento originale.
 
-   Con un'espressione regolare. In this example, the rule to populate *`Broad Campaign code`* would use this regular expression:
+   A tale scopo, è necessario utilizzare un'espressione regolare. In questo esempio, la regola da compilare *`Broad Campaign code`* utilizzerebbe questa espressione regolare:
 
    | `#` | Tipo di regola | Corrispondenza | Imposta classificazione | A |
    |---|---|---|---|---|
-   |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice Campaign Broad | `$1` |
+   |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice campagna ampio | `$1` |
    |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice creativo | `$2` |
 
    >[!NOTE]
    >
-   >At this point, you do not populate the sub-classifications *`Campaign Type`* and *`Campaign Director`*.
+   >A questo punto, non vengono compilate le sottoclassificazioni *`Campaign Type`* e *`Campaign Director`*.
 
-1. Carica un file di classificazione che includa solo le sottoclassi specificate.
+1. Caricate un file di classificazione che include solo le sottoclassificazioni specificate.
 
-   See [Multiple-Level Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A).
+   Consultate Classificazioni [a](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)più livelli.
 
    Esempio:
 
-   | Chiave | Canale | Codice Campaign Broad | Esempio di codice e amp di Campaign; Cappello; Tipo di campagna | Esempio di codice e amp di Campaign; Cappello; Direttore campagna | ... |
+   | Chiave | Canale | Codice campagna ampio | Ampio codice campagna;Hat;Tipo campagna | Ampio codice campagna&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Brand (Marchio) | Suzanne |  |
    | * |  | 222 | Brand (Marchio) | Frank |  |
 
 1. Per mantenere le tabelle di ricerca, caricate un file piccolo (come mostrato sopra).
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. Questo file si applica a valori precedentemente classificati. Likewise, if you create a new sub-classification (such as *`Creative Theme`* as a sub-classification of *`Creative code`*), you upload only the sub-classification file, rather than the entire classification file.
+   Caricate questo file, ad esempio, quando *`Broad Campaign code`* viene introdotto un nuovo file. Questo file viene applicato ai valori classificati in precedenza. Analogamente, se create una nuova classificazione secondaria ( *`Creative Theme`* ad esempio una classificazione secondaria di *`Creative code`*), caricate solo il file di classificazione secondaria, anziché l’intero file di classificazione.
 
-   Per generare rapporti tali classificazioni funzionano esattamente come classificazioni di livello principale. Questo riduce il carico di gestione richiesto per utilizzarli.
+   Per riportare queste sottocategorie, funziona esattamente come per le classificazioni di livello principale. Ciò riduce l'onere di gestione necessario per utilizzarli.
