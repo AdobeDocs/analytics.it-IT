@@ -1,33 +1,33 @@
 ---
-description: Visualizza il traffico delle pagine web e classifica le visualizzazioni di pagina in tempo reale, per comprendere più rapidamente le tendenze sul sito.
-seo-description: Visualizza il traffico delle pagine web e classifica le visualizzazioni di pagina in tempo reale, per comprendere più rapidamente le tendenze sul sito.
+description: Visualizza il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale, in modo da poter comprendere più rapidamente le tendenze del sito.
+seo-description: Visualizza il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale, in modo da poter comprendere più rapidamente le tendenze del sito.
 seo-title: Rapporti in tempo reale
 solution: Analytics
 title: Rapporti in tempo reale
 topic: Generatore di report
-uuid: eb 39 b 4 a 5-fb 6 f -476 d -9383-e 5323 afcc 51 d
+uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
 # Rapporti in tempo reale
 
-Visualizza il traffico delle pagine web e classifica le visualizzazioni di pagina in tempo reale, per comprendere più rapidamente le tendenze sul sito.
+Visualizza il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale, in modo da poter comprendere più rapidamente le tendenze del sito.
 
-Per i report in tempo reale, Analytics utilizza metriche ad alta frequenza e analisi del sito per segnalare visivamente traffico e visualizzazione delle pagine di siti Web di notizie dinamiche e per la vendita al dettaglio. In tempo reale le tendenze dei tuoi dati sono percepibili da minuti a minuto, entro i secondi della raccolta. Raccoglie e trasmette dati all'interfaccia, utilizzando la correlazione in tempo reale e il tracciamento dei contenuti e alcune conversioni.
+Per il reporting in tempo reale, Analytics utilizza metriche ad alta frequenza e analisi dei siti per segnalare visivamente il traffico e la tendenza della visualizzazione delle pagine delle notizie dinamiche e dei siti Web per la vendita al dettaglio. In tempo reale è possibile comprendere le tendenze dei dati da minuto a minuto, entro pochi secondi dalla raccolta. Raccoglie e trasferisce i dati all'interfaccia, utilizzando la correlazione in tempo reale e il tracciamento dei contenuti e alcune conversioni.
 
 Puoi:
 
 * Crea fino a tre report in tempo reale per suite di rapporti, utilizzando metriche, dimensioni e classificazioni esistenti. Utilizzate le dimensioni secondarie per correlare (o suddividere) quella principale.
-* Aggiungi tre dimensioni (o classificazioni) per report (una primaria e due secondaria), oltre alle metriche sul sito.
-* Utilizzate un evento personalizzato, un evento carrello acquisti o un'istanza.
-* Visualizza fino a 20 ore di dati storici e in tempo reale.
+* Aggiungi tre dimensioni (o classificazioni) per report (uno principale e due secondario), oltre alle metriche a livello di sito.
+* Utilizzate qualsiasi evento personalizzato, evento del carrello acquisti o istanza.
+* Visualizza fino a 20 ore di dati storici in tempo reale.
 
-Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare i ricavi, non puoi visualizzare un rapporto in tempo reale che include dati sui ricavi. Le evar (metriche di conversione) non sono supportate. Real-Time permissions are enabled in the [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/?f=RealTime_Reports_Configuration).
+Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare le entrate, non puoi visualizzare un rapporto in tempo reale che include i dati sulle entrate. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)di amministrazione.
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] non equivale alla funzione [Includi dati correnti](https://marketing.adobe.com/resources/help/en_US/arb/?f=options) (Recency dati) rilasciata in precedenza, che riduce latenza per la generazione di rapporti standard, visualizzando i dati prima della finalizzazione.
+>[!UICONTROL Real-Time Reports] non sono uguali alla funzione [Includi dati](https://marketing.adobe.com/resources/help/en_US/arb/options.html) correnti (Data Recency, Data Current Data Recency) rilasciata in precedenza, che ha ridotto la latenza per i report standard, visualizzando i dati prima della sua finalizzazione.
 
