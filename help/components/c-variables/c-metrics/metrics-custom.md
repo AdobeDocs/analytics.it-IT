@@ -1,23 +1,23 @@
 ---
-description: Le metriche personalizzate consentono di tenere traccia delle metriche di successo aggiuntive sul sito.
-seo-description: Le metriche personalizzate consentono di tenere traccia delle metriche di successo aggiuntive sul sito.
+description: Le metriche personalizzate consentono di tenere traccia di metriche di successo aggiuntive sul sito.
+seo-description: Le metriche personalizzate consentono di tenere traccia di metriche di successo aggiuntive sul sito.
 seo-title: Metriche personalizzate
 solution: Analytics
 title: Metriche personalizzate
-topic: Metrics (Metriche)
-uuid: ff 0 c 92 cc -07 c 4-40 ef-a 946-2 cd 277 b 5 a 97 c
+topic: Metriche
+uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
 # Metriche personalizzate
 
-Le metriche personalizzate consentono di tenere traccia delle metriche di successo aggiuntive sul sito.
+Le metriche personalizzate consentono di tenere traccia di metriche di successo aggiuntive sul sito.
 
-Custom metrics are captured using the [events](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=events#) variable, and are available as one of two types:
+Le metriche personalizzate vengono acquisite tramite la variabile [eventi](https://marketing.adobe.com/resources/help/en_US/sc/implement/events#.html) e sono disponibili come uno dei due tipi:
 
-* Eventi che contano il numero di volte in cui si verifica un evento. Annunci pubblicitari, pagamenti e eventi simili vengono tracciati utilizzando questo tipo di evento.
-* Eventi che memorizzano i valori spesso utilizzati per un calcolo aggiuntivo. Questi eventi memorizzano valori numerici, come la valuta, che possono essere utilizzati per eseguire calcoli nel report. Ad esempio, potete memorizzare il costo di spedizione per l'acquisto in un evento personalizzato. Questo consente di confrontare l'importo raccolto per la spedizione con i costi effettivi pagati al fornitore di spedizione.
+* Eventi che contano il numero di volte in cui si verifica un evento. Mediante questo tipo di evento, vengono tracciati annunci, checkout ed eventi simili.
+* Eventi che memorizzano valori spesso utilizzati per calcoli aggiuntivi. Questi eventi memorizzano valori numerici, come valuta, che possono essere utilizzati per eseguire calcoli nel report. Ad esempio, è possibile memorizzare il costo di spedizione per l'acquisto in un evento personalizzato. Questo consente di confrontare l'importo raccolto per la spedizione con il costo effettivo pagato al fornitore della spedizione.
 
