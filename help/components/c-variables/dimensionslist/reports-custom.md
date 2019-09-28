@@ -1,27 +1,27 @@
 ---
-description: Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo date specifico, quindi salvarlo nei menu dei report per tutti.
-seo-description: Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo date specifico, quindi salvarlo nei menu dei report per tutti.
+description: Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo di date specifico, quindi salvarlo nei menu del rapporto affinché tutti possano utilizzarlo.
+seo-description: Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo di date specifico, quindi salvarlo nei menu del rapporto affinché tutti possano utilizzarlo.
 seo-title: Personalizzato
 solution: Analytics
 title: Personalizzato
 topic: Rapporti
-uuid: 04 a 2 cf 81-6 f 2 a -49 f 3-a 449-cb 701 a 899 aad
+uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
 # Personalizzato
 
-Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo date specifico, quindi salvarlo nei menu dei report per tutti.
+Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo di date specifico, quindi salvarlo nei menu del rapporto affinché tutti possano utilizzarlo.
 
 ## Personalizzato {#topic_4F9A8F264B1D49A285CCDD8A0AA09111}
 
-Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo date specifico, quindi salvarlo nei menu dei report per tutti.
+Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo di date specifico, quindi salvarlo nei menu del rapporto affinché tutti possano utilizzarlo.
 
-I report personalizzati possono portare a voi un valore più elevato come analista. Se visualizzi rapporti nell'interfaccia sitecatalyst che non corrispondono a quelli di qualcun altro (come in Formazione), l'amministratore potrebbe aver configurato alcuni di questi rapporti personalizzati.
+I report personalizzati possono fornire un valore maggiore a voi come analisti. Se nell’interfaccia SiteCatalyst sono presenti rapporti che non corrispondono a quelli di altri utenti (ad esempio in Formazione), l’amministratore potrebbe aver impostato alcuni di questi rapporti personalizzati.
 
-Inoltre, potete salvare i rapporti importanti. Tali rapporti sono denominati segnalibri. Potete anche inserire più rapporti su un quadro per esaminare rapidamente i rapporti più importanti. Sono denominate dashboard e sono anche specifici per l'utente. L'interfaccia visualizza una barra sopra il grafico che elenca i segnalibri e le dashboard.
+Inoltre, puoi salvare i rapporti importanti per te. Questi rapporti sono denominati segnalibri. Puoi anche inserire diversi report in un'unica area di lavoro per visualizzare rapidamente i report più importanti. Questi sono denominati dashboard e sono specifici per l'utente. L'interfaccia mostra una barra sopra il grafico che elenca i segnalibri e le dashboard.
 
-See [Bookmarks](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=c_bookmarks) and [Dashboards and Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=c_dashboard) for more information.
+Per ulteriori informazioni, consulta [Segnalibri](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html) e [dashboard e minirapporti](https://marketing.adobe.com/resources/help/en_US/sc/user/c_dashboard.html) .
