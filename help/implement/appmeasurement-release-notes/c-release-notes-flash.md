@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: Sviluppatore e implementazione
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -86,7 +86,7 @@ Versione 4.0 - Aggiornamento:
 
 * Inclusione di API visitatore 1.5.1.
 
-## 18 giugno 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
 Versione 4.0 - Aggiornamento
 
@@ -157,7 +157,7 @@ Data di rilascio: **14 novembre 2013**
 Data di rilascio: **17 ottobre 2013**
 
 * Supporto per il tracciamento [video](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)heartbeat.
-* VisitorAPI.swc è stato incluso per supportare il servizio [ID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)visitatori.
+* VisitorAPI.swc è stato incluso per supportare il servizio [ID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)visitatori.
 * È stato eliminato il supporto per Flash Player 9 con ActionScript 3. La versione minima di Flash Player per ActionScript 3 è 10.
 
 ## Versione 3.6.2 {#section_57FB21568BDD48F7882F00AD630E6CE8}
@@ -184,7 +184,7 @@ Release Date: **January 31, 2013**
 
 * È stato aggiunto il supporto per l’invio di URL superiori a 255 byte per supportare l’espansione del campo URL pagina nei server di raccolta dati Adobe. Gli URL di pagina di lunghezza superiore a 255 byte vengono suddivisi, con i primi 255 byte visualizzati nel `g=` parametro, con i rimanenti byte che vengono visualizzati successivamente nella stringa di query nel parametro di `-g=` query. In questo modo si evita che gli URL lunghi abbiano la precedenza rispetto ad altri dati nel caso di troncamento del browser, ma si possono comunque acquisire URL lunghi.
 
-* È stato aggiunto un nuovo metodo di identificazione fallback del visitatore. Consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)univoci.
+* È stato aggiunto un nuovo metodo di identificazione fallback del visitatore. Consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)univoci.
 * È stato aggiunto un nuovo `abort` flag che può essere impostato all'interno `doPlugins`. Impostando questo flag su true, la [!DNL AppMeasurement] libreria non continua con quella chiamata di tracciamento. Il flag abort viene reimpostato con ogni chiamata di tracciamento, quindi se è necessario interrompere anche una chiamata di tracciamento successiva, il flag dovrà essere nuovamente inserito all’interno `doPlugins`.
 
    ```js
