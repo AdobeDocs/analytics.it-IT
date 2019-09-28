@@ -1,20 +1,20 @@
 ---
-description: Descrizioni dei campi per le impostazioni generali dell'account della suite in Amministratore.
-seo-description: Descrizioni dei campi per le impostazioni generali dell'account della suite in Amministratore.
+description: Descrizioni dei campi per le impostazioni generali dell'account della suite di rapporti in Amministratore.
+seo-description: Descrizioni dei campi per le impostazioni generali dell'account della suite di rapporti in Amministratore.
 seo-title: Impostazioni account generali
 solution: Analytics
 title: Impostazioni account generali
 topic: Strumenti di amministrazione
-uuid: c 1 ab 5 c 34-2 c 41-4 d 12-a 706-0 e 760 dff 8 a 95
+uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
 # Impostazioni account generali
 
-Descrizioni dei campi per le impostazioni generali dell'account della suite in Amministratore.
+Descrizioni dei campi per le impostazioni generali dell'account della suite di rapporti in Amministratore.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**
 
@@ -30,39 +30,39 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titolo sito</span> </td> 
-   <td colname="col2"> <p>Identifica il sito. Assegna a ogni suite di rapporti un titolo univoco del sito. </p> </td> 
+   <td colname="col2"> <p>Identifies your site. Give each report suite a unique site title. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> URL di base</span> </td> 
-   <td colname="col2"> <p>Specifica il sito Web principale della suite di rapporti. L'URL di base non influisce sui filtri di riferimento. Utilizzare <a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local"> invece filtri</a> URL interni. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Base URL</span> </td> 
+   <td colname="col2"> <p>Specifies the report suite's main website. The Base URL does not affect referrer filtering. Use  internal URL filters instead.<a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local"></a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Fuso orario</span> </td> 
-   <td colname="col2"> <p>Determina la data e l'ora associate ai dati del rapporto. </p> <p>La modifica del fuso orario per una suite di rapporti live crea un picco o uno spazio nei dati del rapporto. Per ridurre al minimo l'impatto, Adobe consiglia di modificare i fusi orari durante l'orario non-picco per evitare l'inclinazione dei dati. </p> <p>Ad esempio, se cambi il fuso orario della suite di rapporti da Central a Pacific alle 3:00, il tempo corrente della suite di rapporti diventa 1:00 pm. Poiché i rapporti hanno già raccolto dati per l'ora 1:00, i report mostrano un picco del traffico tra le 1:00 e le 3:00 pm. </p> <p>In alternativa, se cambi il fuso orario della suite di rapporti da Central ad Eastern alle 3:00, il tempo corrente della suite di rapporti diventa 4:00 pm. I rapporti non mostrano dati tra le 3:00 e le 4:00 del giorno della modifica. </p> </td> 
+   <td colname="col2"> <p>Determines the date and time associated with your report data. </p> <p>Changing the time zone for a live report suite creates either a spike or gap in report data. To minimize the impact, Adobe recommends changing time zones during non-peak hours to avoid skewing data. </p> <p>Ad esempio, se cambi il fuso orario della suite di rapporti da Centrale a Pacifico alle 15:00, l'ora corrente della suite di rapporti diventa 1:00. Poiché il reporting ha già raccolto i dati per l'ora 1:00, i report mostrano un picco di traffico tra le 1:00 e le 15:00. </p> <p>In alternativa, se cambi il fuso orario della suite di rapporti da Centrale a Orientale alle 15:00, l'ora corrente della suite di rapporti diventa le 16:00. I report non visualizzano dati compresi tra le 15:00 e le 16:00 del giorno in cui è avvenuto il cambiamento di ora. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Livello di conversione</span> </td> 
-   <td colname="col2"> <p> Abilita o disabilita le variabili di e-commerce come evar e campagne. Utilizzate l'opzione <span class="uicontrol"> Attivato, Nessuna carrello</span> per nascondere tutti i rapporti sul carrello se non disponete di un carrello sul sito. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Conversion Level</span> </td> 
+   <td colname="col2"> <p> Enables or disables e-commerce variables such as eVars and campaigns. Use the  Enabled, no Shopping Cart option to hide all shopping cart reports if you don't have a shopping cart on your site.<span class="uicontrol"></span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pagina predefinita</span> </td> 
-   <td colname="col2"> <p> Se <span class="wintitle"> il rapporto più comuni pagine</span> contiene URL piuttosto che nomi di pagina, questa impostazione impedisce che più URL rappresentino la stessa pagina. Ad esempio, gli URL <span class="filepath"> https://mysite.com</span> e <span class="filepath"> https://mysite.com/index.html</span> sono generalmente la stessa pagina. Potete rimuovere i nomi dei file predefiniti in modo che entrambi vengano visualizzati come <span class="filepath"> https://mysite.com</span>. </p> <p>Se lasciato vuoto, i seguenti nomi file vengono rimossi dagli URL: <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index. cgi</span>, <span class="filepath"> index. asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default. cgi</span>, <span class="filepath"> default. asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home. cgi</span>e <span class="filepath"> home. asp</span>. </p> <p>Per disabilitare la rimozione del nome file, immettete un valore che non sia mai presente negli URL. </p> </td> 
+   <td colname="col2"> <p> If your  Most Popular Pages Report contains URLs rather than page names, this setting prevents multiple URLs from representing the same page. <span class="wintitle"></span> Ad esempio, gli URL <span class="filepath"> https://mysite.com</span> e <span class="filepath"> https://mysite.com/index.html</span> sono in genere la stessa pagina. Potete rimuovere i nomi file predefiniti in modo che entrambi questi URL vengano visualizzati come <span class="filepath"> https://mysite.com</span>. </p> <p>Se lasciato vuoto, i seguenti nomi file vengono rimossi dagli URL: <span class="filepath"> index.html</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span>, default.htmlhtm, default.cgi, default.cgi, default.cgi, default.asp, home.html, home.cgi.prepre. </p> <p>Per disattivare completamente lo stripping dei nomi dei file, immettete un valore che non sia mai presente negli URL. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> Sostituisce l'ultimo ottetto di indirizzi IP con 0 </span> </td> 
-   <td colname="col2"> <p>La rimozione dell'ultimo ottetto viene effettuata prima del filtro IP. Pertanto, l'ultimo ottetto viene sostituito con un 0 e le regole di esclusione IP devono essere aggiornate per corrispondere agli indirizzi IP con uno zero alla fine. Corrispondenza * deve corrispondere a 0. </p> <p>Selezionando questa opzione, l'indirizzo IP viene modificato prima dell'elaborazione. Ad esempio, l'indirizzo IP 134.123.567.780 viene cambiato in 134.123.567.0. I dati di geosegmentazione non saranno esattamente identici a quando viene utilizzato l'indirizzo IP intero. In modo specifico, la precisione della città sarà più influenzata dall'accuratezza del paese o della regione. Sono interessate dalle regole bot e dalle regole VISTA perché l'indirizzo IP completo non è disponibile. Inoltre, questa impostazione interessa tutte le regole di elaborazione basate su IP, incluse regole di canale di marketing e regole di elaborazione suite di rapporti. </p> <p>Nota: Questa impostazione è attivata per impostazione predefinita per tutte le nuove suite di rapporti create nel Centro dati London dopo il 2019 gennaio, ma solo se le impostazioni per tali suite di rapporti vengono copiate da un modello elencato in Admin Console. Le suite di rapporti le cui impostazioni vengono duplicate da altre suite di rapporti erediteranno tutte le impostazioni dalla suite di rapporti selezionata. </p></td> 
+   <td colname="col1"><span class="wintitle"> Sostituire l'ultimo ottetto di indirizzi IP con 0 </span> </td> 
+   <td colname="col2"> <p>La rimozione dell'ultimo ottetto viene effettuata prima del filtro IP. Di conseguenza, l'ultimo ottetto viene sostituito con 0 e le regole di esclusione IP devono essere aggiornate in modo che corrispondano agli indirizzi IP con uno zero alla fine. La corrispondenza * deve corrispondere a 0. </p> <p>Selezionando questa opzione, l'indirizzo IP viene modificato prima dell'elaborazione. Ad esempio, l’indirizzo IP 134.123.567.780 viene modificato in 134.123.567.0. I dati di segmentazione geografica non saranno esattamente come quando viene utilizzato l'intero indirizzo IP. Nello specifico, l'accuratezza della città sarà più influenzata dall'accuratezza di paese o regione. Le regole bot e VISTA sono influenzate dal fatto che l'intero indirizzo IP non è disponibile. Inoltre, tutte le regole di elaborazione basate su IP, incluse le regole del canale di marketing e le regole di elaborazione delle suite di rapporti, sono influenzate da questa impostazione. </p> <p>Nota:   Questa impostazione è abilitata per impostazione predefinita per tutte le nuove suite di rapporti create nel centro dati londinese dopo gennaio 2019, ma solo se le impostazioni per tali suite di rapporti vengono copiate da un modello elencato in Admin Console. Le suite di rapporti le cui impostazioni sono duplicate da altre suite di rapporti erediteranno tutte le impostazioni dalla suite di rapporti selezionata. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Offuscamento IP</span> </td> 
-   <td colname="col2"> <p>Trasforma gli indirizzi IP in stringhe non riconoscibili, rimuovendo in pratica tali indirizzi dai negozi di dati Adobe. Quando l'opzione Offuscamento IP è attivata, gli indirizzi IP originali vengono perduti in modo permanente. </p> <p>Nota: Gli indirizzi IP vengono offuscati ovunque in Analytics, incluso Data Warehouse. Tuttavia, l'impostazione IP in Target viene controllata separatamente, pertanto questa impostazione non ha alcun impatto su Target. </p> <p>Se l'offuscamento IP è abilitato, l'esclusione IP avviene prima che l'indirizzo IP non venga oscurato, in modo che i clienti non debbano modificare nulla quando abilitano l'offuscamento IP. </p> <p>Selezionando <span class="uicontrol"> Disattivato</span> l'indirizzo IP viene lasciato nei dati. </p> <p>Selezionando <span class="uicontrol"> l'indirizzo</span> IP offuscate, l'IP passa a un valore con hash (ad es. 234 abc 6493872038). </p> <p>Selezionando <span class="uicontrol"> Rimuovi indirizzo</span> IP, l'indirizzo IP viene sostituito con x. x. x. x nei dati, dopo la ricerca geografica. </p> <p>Nota: Questa impostazione potrebbe richiedere modifiche a regole <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot personalizzate</a> o<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> esclusioni IP</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Obfuscamento IP</span> </td> 
+   <td colname="col2"> <p>Trasforma gli indirizzi IP in stringhe non riconoscibili, sostanzialmente rimuovendoli dagli archivi dati Adobe. Quando l'offuscamento IP è abilitato, gli indirizzi IP originali vengono persi definitivamente. </p> <p>Nota:  Gli indirizzi IP sono oscurati ovunque in Analytics, incluso Data Warehouse. Tuttavia, l'impostazione IP in Target è controllata separatamente, pertanto questa impostazione non ha alcun impatto su Target. </p> <p>Se l'offuscamento IP è abilitato, l'esclusione IP avviene prima che l'indirizzo IP sia oscurato, in modo che i clienti non debbano cambiare nulla quando attivano l'offuscamento IP. </p> <p>Selezionando <span class="uicontrol"> Disattivato</span> , l'indirizzo IP viene lasciato nei dati. </p> <p>Selezionando l’indirizzo <span class="uicontrol"> IP</span> offuscato, l’IP viene modificato in un valore con hash (ad esempio, 234abc6493872038). </p> <p>Selezionando <span class="uicontrol"> Rimuovi indirizzo</span> IP, l'indirizzo IP viene sostituito con x.x.x.x nei dati, dopo la ricerca geografica. </p> <p>Nota: Questa impostazione potrebbe richiedere modifiche alle regole <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot personalizzate o alle</a> esclusioni<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"></a>IP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Archiviazione ID transazione</span> </td> 
-   <td colname="col2"> <p>Consente di utilizzare <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external"> le origini dati ID</a> transazione. </p> </td> 
+   <td colname="col2"> <p>Consente di utilizzare le origini dati ID <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external"></a> transazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> Attivare Analisi ad hoc</span> </td> 
-   <td colname="col2"> <p>Indica se la suite di rapporti in questione viene visualizzata come suite di rapporti disponibile in Analisi ad hoc. Utilizzate questa impostazione per limitare le suite di rapporti visualizzate come opzione per Analisi ad hoc. Ad esempio, puoi disabilitare Analisi ad hoc per le suite di sviluppo e di rapporti QA. </p> </td> 
+   <td colname="col1"><span class="wintitle"> Attiva analisi ad hoc</span> </td> 
+   <td colname="col2"> <p>Indica se la suite di rapporti in questione viene visualizzata come una suite di rapporti disponibile in Analisi ad hoc. Utilizzate questa impostazione per limitare le suite di rapporti visualizzate come opzione per l'analisi ad hoc. Ad esempio, puoi disabilitare Analisi ad hoc per lo sviluppo e le suite di rapporti per il controllo della qualità. </p> </td> 
   </tr> 
   <tr> 
    <td><span class="wintitle"> Abilita Data Warehouse</span> </td> 
