@@ -1,51 +1,51 @@
 ---
-description: Il rapporto Panoramica su canale di marketing è pensato per fornire approfondimenti di alto livello sui metodi che i clienti ottengono sul tuo sito. Utilizzate questo report per allocare metriche di successo e entrate a vari canali. Puoi inoltre vedere le campagne o le parole chiave specifiche all'interno di ogni canale che ha maggior successo. Contiene un'interfaccia unica e intuitiva, che consente di visualizzare contemporaneamente sia le metriche prima che l'ultima.
-seo-description: Il rapporto Panoramica su canale di marketing è pensato per fornire approfondimenti di alto livello sui metodi che i clienti ottengono sul tuo sito. Utilizzate questo report per allocare metriche di successo e entrate a vari canali. Puoi inoltre vedere le campagne o le parole chiave specifiche all'interno di ogni canale che ha maggior successo. Contiene un'interfaccia unica e intuitiva, che consente di visualizzare contemporaneamente sia le metriche prima che l'ultima.
+description: Il rapporto Panoramica canale di marketing è progettato per fornire informazioni di alto livello sui metodi più efficaci per i clienti che arrivano sul sito. Utilizzate questo rapporto per allocare metriche di successo e ricavi a vari canali. Puoi anche visualizzare le campagne o le parole chiave specifiche all'interno di ciascun canale che hanno maggior successo. Contiene una propria interfaccia univoca e intuitiva che consente di visualizzare contemporaneamente sia la prima che l’ultima metrica touch.
+seo-description: Il rapporto Panoramica canale di marketing è progettato per fornire informazioni di alto livello sui metodi più efficaci per i clienti che arrivano sul sito. Utilizzate questo rapporto per allocare metriche di successo e ricavi a vari canali. Puoi anche visualizzare le campagne o le parole chiave specifiche all'interno di ciascun canale che hanno maggior successo. Contiene una propria interfaccia univoca e intuitiva che consente di visualizzare contemporaneamente sia la prima che l’ultima metrica touch.
 seo-title: Panoramica sul canale di marketing
 solution: Analytics
 title: Panoramica sul canale di marketing
 topic: Rapporti
-uuid: e 4542014-2098-4 f 4 a-ac 0 d -97587182 d 6 cc
+uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
 # Panoramica sul canale di marketing
 
-Il rapporto Panoramica su canale di marketing è pensato per fornire approfondimenti di alto livello sui metodi che i clienti ottengono sul tuo sito. Utilizzate questo report per allocare metriche di successo e entrate a vari canali. Puoi inoltre vedere le campagne o le parole chiave specifiche all'interno di ogni canale che ha maggior successo. Contiene un'interfaccia unica e intuitiva, che consente di visualizzare contemporaneamente sia le metriche prima che l'ultima.
+Il rapporto Panoramica canale di marketing è progettato per fornire informazioni di alto livello sui metodi più efficaci per i clienti che arrivano sul sito. Utilizzate questo rapporto per allocare metriche di successo e ricavi a vari canali. Puoi anche visualizzare le campagne o le parole chiave specifiche all'interno di ciascun canale che hanno maggior successo. Contiene una propria interfaccia univoca e intuitiva che consente di visualizzare contemporaneamente sia la prima che l’ultima metrica touch.
 
-## General Properties {#section_87F54048CE5445F7A6C795C7787C530A}
+## Proprietà generali {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* This report is solely dependent upon the Marketing Channel [processing rules](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_channels_rules). La modifica di queste regole modifica il calcolo dei dati in questo rapporto.
-* L'ordine delle regole di elaborazione è fondamentale per il funzionamento dei canali di marketing. Ogni hit controlla prima i criteri nella parte superiore delle regole di elaborazione, quindi i filtri da qui.
-* Questo rapporto è composto da due suddivisioni: i canali stessi e i dettagli del canale. Fai clic sul pulsante + accanto a ciascun canale per visualizzare i suoi dettagli.
-* A ogni colonna possono essere aggiunte solo quattro metriche. Tuttavia, non si è limitati al numero di colonne che è possibile utilizzare.
-* Una linea di tendenza piccola può essere visualizzata alla fine dell'ultima colonna. Questa linea di tendenze può scorrere tra le metriche attive.
-* Oltre ai diversi canali raccolti dai metodi standard, puoi utilizzare origini dati offline.
-* [È possibile utilizzare le classificazioni](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_classifications) per rinominare e consolidare gli elementi della riga.
-* In questo rapporto possono essere utilizzate le metriche seguenti (a seconda delle impostazioni dell'organizzazione e della suite di rapporti):
+* Questo rapporto dipende esclusivamente dalle regole di [elaborazione](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html)del canale di marketing. La modifica di queste regole modifica il modo in cui vengono calcolati i dati in questo rapporto.
+* L'ordine delle regole di elaborazione è fondamentale per il funzionamento di Marketing Channels. Ogni hit verifica prima i criteri nella parte superiore delle regole di elaborazione, quindi filtra verso il basso.
+* Questo rapporto è composto da due suddivisioni: i canali stessi e i relativi dettagli di canale. Facendo clic sul pulsante "+" accanto a ciascun canale, vengono visualizzati i relativi dettagli.
+* È possibile aggiungere solo quattro metriche a ciascuna colonna. Tuttavia, il numero di colonne utilizzabili non è limitato.
+* Una piccola linea di tendenza è visibile alla fine dell’ultima colonna. Questa linea di tendenza può scorrere tra le metriche attive.
+* Oltre ai vari canali raccolti con metodi standard, è possibile utilizzare origini dati offline.
+* [È possibile utilizzare le classificazioni](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html) , per rinominare e consolidare gli elementi di riga.
+* Le metriche seguenti possono essere utilizzate in questo rapporto (a seconda delle impostazioni dell'organizzazione e della suite di rapporti):
 
-   * **Click-through**: Il numero di volte in cui la *`s.campaign`* variabile è definita.
+   * **ClickThrough**: il numero di volte che la *`s.campaign`* variabile viene definita.
 
-   * [Nuovi engagement](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_visitor_engagement): il numero di visitatori che hanno ricevuto un nuovo Canale di contatto.
-   * Tutte le metriche standard ecommerce: Ricavi, Ordini, Unità, Carrelli, Visualizzazioni carrello, Pagamenti, Aggiunte carrello, Rimozioni carrello.
-   * Tutti gli eventi personalizzati: Eventi 1-80 e Eventi 81-100 se sul codice H 22 o superiore.
-   * **Visite** e **visitatori**: richiede Commerce e Visitatori, che dipendono dalla organizzazione e dalla suite di rapporti. Per ulteriori dettagli, contattate l'Account Manager.
+   * [Nuovi impegni](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html): il numero di visitatori che hanno ricevuto un nuovo Primo canale di contatto.
+   * Tutte le metriche eCommerce standard: Entrate, Ordini, Unità, Carrelli, Visualizzazioni Carrello, Checkout, Aggiunte Carrello, Rimozioni Carrello.
+   * Tutti gli eventi personalizzati: Eventi 1-80 ed Eventi 81-100 se nel codice H22 o versioni successive.
+   * **Visite** e **visitatori**: richiede Visite e Visitatori di Commerce, che dipendono dall'organizzazione e dalla suite di rapporti. Contatta il tuo Account Manager per ulteriori informazioni.
 
-   * **Budget** e **costi**: specifiche di Marketing Channels (Canali di marketing). See [Costs and Budgets](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_budget).
+   * **Bilancio** e **costi**: metriche specifiche per Marketing Channels. See [Costs and Budgets](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html).
 
-## Product-Specific Properties {#section_0C78D294D00942FD9A26D37CB5D645AE}
+## Proprietà specifiche del prodotto {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
-**Versione 14 e 15**
+**Versioni 14 e 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+È possibile accedere a questo rapporto scegliendo **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (a condizione che il menu non sia personalizzato).
 
-La segmentazione non è disponibile in questo rapporto. Use the [!UICONTROL First- or Last-Touch Channel] or [!UICONTROL First- or Last-Touch Details] reports instead.
+La segmentazione non è disponibile in questo rapporto. Utilizzate invece i [!UICONTROL First- or Last-Touch Channel] rapporti o [!UICONTROL First- or Last-Touch Details] .
 
 **Ad Hoc Analysis**
 
-Though the [!UICONTROL Marketing Channel Overview Report] is not available, Marketing Channel reports can be accessed with metrics using different allocation. Questo consente di ricreare in modo efficace un rapporto molto simile.
+Anche se non [!UICONTROL Marketing Channel Overview Report] è disponibile, i report Marketing Channel sono accessibili con metriche con allocazione diversa. Questo consente di ricreare in modo efficace un rapporto molto simile.
 
 Questo rapporto può sfruttare più segmenti avanzati.
