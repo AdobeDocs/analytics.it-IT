@@ -1,19 +1,19 @@
 ---
-description: Potete abilitare le impostazioni della privacy per i cookie del browser.
-seo-description: Potete abilitare le impostazioni della privacy per i cookie del browser.
-seo-title: Impostazioni della privacy
+description: Potete abilitare le impostazioni di privacy per i cookie del browser.
+seo-description: Potete abilitare le impostazioni di privacy per i cookie del browser.
+seo-title: Impostazioni privacy
 solution: Analytics
-title: Impostazioni della privacy
+title: Impostazioni privacy
 topic: Strumenti di amministrazione
-uuid: 517 b 1 d 9 c-d 36 e -43 c 1-a 796-1787785 a 8747
+uuid: 517b1d9c-d36e-43c1-a796-178785a8747
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Impostazioni della privacy
+# Impostazioni privacy
 
-Potete abilitare le impostazioni della privacy per i cookie del browser.
+Potete abilitare le impostazioni di privacy per i cookie del browser.
 
-See [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings).
+See [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
