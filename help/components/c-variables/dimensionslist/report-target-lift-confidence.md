@@ -1,32 +1,32 @@
 ---
-description: Consente di valutare il successo delle campagne in Adobe Analytics come in passato in Target Classic.
-seo-description: Consente di valutare il successo delle campagne in Adobe Analytics come in passato in Target Classic.
-seo-title: Incremento e confidenza di Target
+description: Consente di valutare il successo delle campagne in Adobe Analytics nello stesso modo in cui lo facevate in Target Classic in passato.
+seo-description: Consente di valutare il successo delle campagne in Adobe Analytics nello stesso modo in cui lo facevate in Target Classic in passato.
+seo-title: Incremento e confidenza Target
 solution: Analytics
-title: Incremento e confidenza di Target
-uuid: 00276 cd 2-2 e 0 d -4 a 25-ae 8 a-d 9 f 4 b 30 dd 8 ba
+title: Incremento e confidenza Target
+uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Incremento e confidenza di Target
+# Incremento e confidenza Target
 
 Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL View All Reports]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics for Target]** &gt; **[!UICONTROL Target Activities]** .
 
-The Adobe Target documentation contains more information on [Lift](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_estimating_lift_in_revenue) and [Confidence](https://marketing.adobe.com/resources/help/en_US/rec/?f=c_Confidence_Level_and_Confidence_Interval).
+La documentazione di Adobe Target contiene ulteriori informazioni su [Lift](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) e [Confidence](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
 
-Per calcolare Incremento e confidenza:
+Per calcolare l'incremento e la confidenza:
 
-1. In the **[!UICONTROL Target Activities]** report, click on an activity to bring up its details.
-1. Under Report Type, select **[!UICONTROL Lift and Confidence]**.
-1. Click **[!UICONTROL Show Metrics]** to add one metric. Non potete aggiungere più metriche per questo tipo di rapporto, in quanto è consigliabile valutare un test in base a una sola metrica. Più metriche aggiungono solo disturbo e riducono il segnale del test.
-1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. Nella maggior parte dei casi, questo sarà il valore predefinito, Visitatori.
+1. Nel **[!UICONTROL Target Activities]** rapporto, fate clic su un'attività per visualizzarne i dettagli.
+1. In Tipo rapporto, selezionare **[!UICONTROL Lift and Confidence]**.
+1. Fate clic **[!UICONTROL Show Metrics]** per aggiungere una metrica. Non è possibile aggiungere più di una metrica per questo tipo di rapporto, poiché è consigliabile valutare un test in base a una sola metrica. Più metriche aggiungerebbero solo rumore e ridurrebbero il segnale del test.
+1. (Facoltativo) In **[!UICONTROL Normalizing Metric]**, selezionare una delle opzioni seguenti: Visitatori, Visite o Impressioni. Nella maggior parte dei casi, questo sarà il valore predefinito, Visitatori.
 
-1. Il rapporto aggiungerà queste metriche, compreso il rapporto tra metriche e metriche.
+1. Il report aggiungerà queste metriche, incluso il rapporto tra le metriche e la metrica di normalizzazione.
 
 ## Impostazioni dei rapporti {#section_3508439E09CA4E38B2EA309BA477C01D}
 
@@ -42,19 +42,19 @@ Per calcolare Incremento e confidenza:
  <tbody> 
   <tr> 
    <td colname="col1"> Attività selezionata </td> 
-   <td colname="col2"> L'attività Target al quale state visualizzando e valutando incremento e confidenza. </td> 
+   <td colname="col2"> L'attività Target per la quale state visualizzando e calcolando l'incremento e la confidenza. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipo di report </td> 
-   <td colname="col2"> Qui si seleziona Lift (Incremento) e Confidence (Confidenza), che verranno visualizzati come metriche nei risultati del report di seguito. </td> 
+   <td colname="col2"> Qui si seleziona Solleva e Confidenza, che verranno visualizzate come metriche nei risultati del rapporto riportati di seguito. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Metriche selezionate </td> 
-   <td colname="col2"> Mostra la metrica selezionata (nell'esempio sopra, Revenue (Entrate)), la metrica Normalizzazione (Visitatori univoci), il rapporto tra tali metriche 2 e quindi i calcoli Lift and Confidence (Incremento e Confidenza) in confronto all'Esperienza di controllo. </td> 
+   <td colname="col2"> Mostra la metrica selezionata (nell'esempio sopra, Revenue), la metrica di normalizzazione (Visitatori unici), il rapporto tra queste 2 metriche, quindi i calcoli Lift and Confidence rispetto all'Esperienza di controllo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Interrotto per </td> 
-   <td colname="col2"> Potete suddividere ulteriormente il rapporto in base ad altri rapporti. </td> 
+   <td colname="col1"> Suddiviso per </td> 
+   <td colname="col2"> Potete inoltre suddividere il rapporto con altri rapporti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Filtro dati </td> 
@@ -62,27 +62,27 @@ Per calcolare Incremento e confidenza:
   </tr> 
   <tr> 
    <td colname="col1"> Normalizzazione della metrica </td> 
-   <td colname="col2"> È possibile normalizzare utilizzando Visite, Visitatori o Impressioni. La metrica normalizzazione diventa il denominatore del calcolo incremento. Inoltre, influenza la modalità di aggregazione dei dati prima dell'applicazione del calcolo di confidenza. </td> 
+   <td colname="col2"> Puoi normalizzare tramite Visite, Visitatori o Impressioni. La metrica di normalizzazione diventa il denominatore del calcolo dell'incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell'applicazione del calcolo del valore di confidenza. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Esperienza di controllo </td> 
-   <td colname="col2"> L'esperienza Target a cui state confrontando e per il quale state calcolando l'incremento. </td> 
+   <td colname="col2"> Esperienza Target a cui si sta confrontando e per la quale si sta calcolando l'incremento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Confronta con suite di rapporti </td> 
-   <td colname="col2"> Consente di scegliere altre suite di rapporti con cui confrontare. </td> 
+   <td colname="col2"> Consente di scegliere altre suite di rapporti da confrontare. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Confronta con segmento </td> 
-   <td colname="col2"> Consente di scegliere i segmenti con cui confrontare. </td> 
+   <td colname="col2"> Consente di scegliere i segmenti a cui confrontare. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Percentuale visualizzata come numero/grafico </td> 
-   <td colname="col2"> Mostra l'incremento e la percentuale di confidenza come numero o grafico. </td> 
+   <td colname="col2"> Mostra la percentuale di incremento e confidenza come numero o grafico. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Includi dati correnti </td> 
-   <td colname="col2"> <p>L'opzione Includi dati correnti in Reporting e analisi consente di visualizzare i dati Analytics più recenti, spesso prima che i dati vengano elaborati e finalizzati completamente. I dati correnti visualizzano la maggior parte delle metriche in minuti, fornendo dati fruibili per una rapida decisione decisionale. </p> </td> 
+   <td colname="col2"> <p>L'opzione Includi dati correnti in Reporting e analisi consente di visualizzare gli ultimi dati di Analytics, spesso prima che i dati vengano elaborati e finalizzati completamente. I dati correnti mostrano la maggior parte delle metriche in pochi minuti, fornendo dati fruibili per il processo decisionale rapido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
