@@ -2,11 +2,11 @@
 description: Domande frequenti su Analytics per gli attributi del cliente e come eseguire il rapporto Attributi del cliente.
 seo-description: Domande frequenti su Analytics per gli attributi del cliente e come eseguire il rapporto Attributi del cliente.
 seo-title: Attributi cliente
-solution: Experience Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Attributi cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,7 +22,7 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
 * [Attributi del cliente e metriche di reporting in Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Domande frequenti - Attributi del cliente in Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-Consulta Attributi [del](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=attributes) cliente nell'Aiuto di Experience Cloud per informazioni sul caricamento dei dati attributo del cliente.
+Consulta Attributi [del](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) cliente nell'Aiuto di Experience Cloud per informazioni sul caricamento dei dati attributo del cliente.
 
 ## Attributi del cliente e metriche di reporting in Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
