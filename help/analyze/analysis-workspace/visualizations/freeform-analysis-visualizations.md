@@ -2,18 +2,18 @@
 description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
 keywords: Analysis Workspace
 seo-description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
-seo-title: Panoramica visualizzazioni
+seo-title: Panoramica delle visualizzazioni
 solution: Analytics
-title: Panoramica visualizzazioni
-topic: Reports & Analytics
-uuid: 318 dea 64-6277-4 ec 3-ad 48-4 dfcb 7 a 54555
+title: Panoramica delle visualizzazioni
+topic: Reports and Analytics
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a5455
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# Panoramica visualizzazioni
+# Panoramica delle visualizzazioni
 
 Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
 
@@ -21,7 +21,7 @@ Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzaz
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations] (Visualizzazioni) nel pannello laterale.**
+Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations](Visualizzazioni) nel pannello laterale.**
 
 ![Risultato passaggio](assets/visualizations.png)
 
@@ -29,11 +29,11 @@ Se usi già Adobe Analytics, la maggior parte dei tipi di visualizzazione (come 
 
 ## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-To access [!UICONTROL Visualization Settings], drag a visualization to the [!UICONTROL Freeform Panel], then click the [!UICONTROL Visualization Settings] gear icon.
+Per accedere [!UICONTROL Visualization Settings]a una visualizzazione, trascinala [!UICONTROL Freeform Panel], quindi fai clic sull’icona dell’ [!UICONTROL Visualization Settings] ingranaggio.
 
 >[!IMPORTANT]
 >
->Le impostazioni visualizzate dipendono dalla visualizzazione. Alcune impostazioni non sono applicabili ad alcune visualizzazioni. Inoltre, alcune impostazioni avanzate sono disponibili **solo** per specifiche visualizzazioni, ad esempio le [impostazioni Istogramma](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>Le impostazioni di visualizzazione visibili dipendono dalla visualizzazione. Alcune impostazioni non sono applicabili ad alcune visualizzazioni. Inoltre, alcune impostazioni avanzate sono disponibili **solo** per specifiche visualizzazioni, ad esempio le [impostazioni Istogramma](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -67,11 +67,11 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalizzazione </p> </td> 
-   <td colname="col2"> <p>Forza le metriche ad adeguarsi alle proporzioni. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>Forza le metriche ad adeguarsi alle proporzioni. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalizzazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visualizza asse doppia </p> </td> 
-   <td colname="col2"> <p>Applicabile solo in presenza di due metriche: è possibile avere un asse y a sinistra (per una metrica) e a destra (per l'altra metrica). </p> </td> 
+   <td colname="col2"> <p>Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e a destra (per l’altra metrica). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostra anomalie </p> </td> 
