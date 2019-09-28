@@ -3,12 +3,12 @@ description: Informazioni sui requisiti per la suite di rapporti prima dell'uso 
 seo-description: Informazioni sui requisiti per la suite di rapporti prima dell'uso di Origini dati.
 seo-title: Requisiti e limiti di caricamento
 solution: Analytics
-subtopic: Origini dati
+subtopic: ' Origini dati'
 title: Requisiti e limiti di caricamento
 topic: Sviluppatore e implementazione
-uuid: d 79 fca 77-fa 0 e -4171-b 978-cdee 5 c 67 d 9 df
+uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -35,9 +35,9 @@ Nelle sezioni seguenti sono elencati i limiti applicabili a Origini dati e ai da
 * È possibile importare solo i dati con date correnti o passate. Non tentare di utilizzare date future nei dati di Origini dati.
 * È necessario specificare una data per tutte le righe per abilitare le funzionalità di grafici di rapporti. Se una riga non include una data, Origini dati genera un errore e rifiuta il file. Il formato di data/ora varia in base al tipo di origine di dati:
 
-   * **Origini dati Elaborazione completa**: Utilizzare il formato data ISO 8601 di `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio `2013-09-01T12:00:00-07:00`), o il formato ora Unix (numero di secondi trascorsi dal 1 gennaio 1970).
+   * **Origini** dati Elaborazione completa: Usate il formato data ISO 8601 di `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio, `2013-09-01T12:00:00-07:00`) o Formato ora Unix (il numero di secondi trascorsi dal 1 gennaio 1970).
 
-   * **Origini dati Standard e Integrazione**: Utilizzate il formato data seguente: `MM/DD/YYYY/HH/mm/SS` (ad esempio, `01/01/2013/06/00/00`)
+   * **Origini** dati standard e di integrazione: Usa il seguente formato data: `MM/DD/YYYY/HH/mm/SS` (ad esempio, `01/01/2013/06/00/00`)
 
 ## Generale {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -60,7 +60,7 @@ Origini dati supporta la codifica multibyte. Origini dati tenta di rilevare il f
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Supportato. La suite di rapporti utilizzata con Origini dati deve avere il supporto caratteri multibyte abilitato. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=new_report_suite" format="https" scope="external">Nuova suite di rapporti</a> in Aiuto. </p> </td> 
+   <td colname="col2"> <p>Supportato. La suite di rapporti utilizzata con Origini dati deve avere il supporto caratteri multibyte abilitato. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">Nuova suite di rapporti</a> in Aiuto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 con indicatore ordine byte (EF BB BF) </td> 
