@@ -8,7 +8,7 @@ title: AppMeasurement per JavaScript
 topic: Sviluppatore e implementazione
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -353,11 +353,11 @@ Release Date: **May 21, 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Estensione iOS </span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Consultate Implementazione dell'estensione <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external"> iOS </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Consultate Implementazione dell'estensione <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external"> iOS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Estensione Android </span> Wearable </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consultate <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external"> Estensione indossabile Android </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consultate <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external"> Estensione indossabile Android </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Release Date: **September 18, 2014**
 
    >[!IMPORTANT]
    >
-   >Affinché una [!DNL Analytics] chiamata utilizzi il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli URL [troncati in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), devi usare l’implementazione più recente del servizio [ID](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) visitatori per Experience Cloud.
+   >Affinché una [!DNL Analytics] chiamata utilizzi il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli URL [troncati in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), devi usare l’implementazione più recente del servizio [ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) visitatori per Experience Cloud.
 
 ## Versione 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,7 +441,7 @@ Release Date: **August 21, 2014**
 * Rimosso il tracciamento dei plug-in del browser (parametro query `p`) poiché i plug-in non sono più segnalati nella versione 15.
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-È stato aggiunto il supporto per eVar [(76 - 250) ed eventi](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events) aggiuntivi (101-1000).
+È stato aggiunto il supporto per eVar [(76 - 250) ed eventi](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) aggiuntivi (101-1000).
 
 >[!NOTE]
 >
@@ -497,7 +497,7 @@ Data di rilascio: **15 novembre 2013**
 Data di rilascio: **14 novembre 2013**
 
 * È stato aggiunto il supporto per la misurazione video [heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
-* [!DNL VisitorAPI.js] è stato aggiunto al supporto del servizio [ID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)visitatori.
+* [!DNL VisitorAPI.js] è stato aggiunto al supporto del servizio [ID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)visitatori.
 
 ## Versione 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ In Gestione codici è ora disponibile una nuova [!DNL JavaScript][!DNL AppMeasur
 * Supporto nativo per ottenere parametri di query, cookie di lettura e scrittura ed eseguire il tracciamento avanzato dei collegamenti.
 * Piccoli e veloci da usare con i siti mobili e sufficientemente robusti da essere utilizzati su tutto il Web desktop, per sfruttare una singola libreria in tutti gli ambienti Web.
 
-Consulta [AppMeasurement per Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs) nella Guida all’ [!DNL Analytics] implementazione.
+Consulta [AppMeasurement per Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) nella Guida all’ [!DNL Analytics] implementazione.
 
 >[!NOTE]
 >
->Alcuni plug-in non sono supportati in questa nuova versione. Per informazioni dettagliate, consultate Supporto [](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support) plug-in.
+>Alcuni plug-in non sono supportati in questa nuova versione. Per informazioni dettagliate, consultate Supporto [](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) plug-in.
