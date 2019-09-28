@@ -8,7 +8,7 @@ title: 'Codice H JavaScript: legacy'
 topic: Sviluppatore e implementazione
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ Note cumulative sulla versione per il codice JavaScript H legacy.
 
 >[!NOTE]
 >
->Per trovare la versione corrente della libreria, utilizzare [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>Per trovare la versione corrente della libreria, utilizzare [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -151,7 +151,7 @@ Ora l'hash o il frammento viene ignorato e il collegamento viene tracciato solo 
 
 Data di rilascio:**29 aprile 2013**
 
-* l' `useForcedLinkTracking` opzione descritta in Tracciamento [manuale dei collegamenti con codice](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) di collegamento personalizzato ora si applica a Firefox 20+ (precedentemente applicata solo ai browser WebKit).
+* l' `useForcedLinkTracking` opzione descritta in Tracciamento [manuale dei collegamenti con codice](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) di collegamento personalizzato ora si applica a Firefox 20+ (precedentemente applicata solo ai browser WebKit).
 
 * La generazione dell'ID dell'oggetto immagine è ora univoca tra le istanze. In questo modo si evitano conflitti quando più istanze si trovano sulla stessa pagina.
 
@@ -187,7 +187,7 @@ Release Date: **January 2013**
 * È stata corretta la decodifica URL per le stringhe codificate con un uso misto di `escape` e `encodeURIComponent`.
 
 * È stato risolto un problema nei browser WebKit che causava un errore di tracciamento dei collegamenti se la prima chiamata server sulla pagina si arrestava.
-* È stato aggiunto un nuovo metodo di identificazione fallback del visitatore. Consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)univoci.
+* È stato aggiunto un nuovo metodo di identificazione fallback del visitatore. Consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)univoci.
 * È stato aggiunto un nuovo `abort` flag che può essere impostato all'interno `doPlugins`. Impostando questo flag su true, la [!DNL AppMeasurement] libreria non continua con quella chiamata di tracciamento. Il flag abort viene reimpostato con ogni chiamata di tracciamento, quindi se è necessario interrompere anche una chiamata di tracciamento successiva, il flag dovrà essere nuovamente inserito all’interno `doPlugins`.
 
 ```js
