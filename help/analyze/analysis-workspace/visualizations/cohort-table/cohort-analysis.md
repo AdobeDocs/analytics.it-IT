@@ -1,23 +1,23 @@
 ---
 keywords: Analysis Workspace
-seo-title: Cos'è l'analisi per coorte?
+seo-title: L'analisi per coorte
 solution: Analytics
-title: Cos'è l'analisi per coorte?
-topic: Reports & Analytics
-uuid: 39 a 83 f 3 a -15 d 1-41 d 7-bcdd -50 c 22 aed 8 f 1 c
+title: L'analisi per coorte
+topic: Reports and Analytics
+uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
 
 ---
 
 
 # Cos’è un’analisi per coorte?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. Analisi per coorte è utile, ad esempio, per capire come una coorte si relaziona con un marchio. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful, for example, when you want to learn how a cohort engages with a brand. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
 Dopo aver generato un rapporto sulla coorte, puoi curarne i componenti (dimensioni, metriche e segmenti specifici) e condividerlo con chiunque. See [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
 
-Esempi di cosa puoi fare con Analisi per coorte:
+Examples of what you can do with Cohort Analysis:
 
 * Lanciare campagne sviluppate per promuovere un’azione desiderata.
 * Spostare il budget marketing nel momento giusto del ciclo di vita di un cliente.
@@ -29,21 +29,25 @@ Esempi di cosa puoi fare con Analisi per coorte:
 
 La funzione di analisi per coorte è disponibile per tutti i clienti di Analytics che dispongono dei diretti di accesso ad Analysis Workspace.
 
-[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Cohort Analysis on YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
-## Funzionalità Analisi per coorte
+>[!IMPORTANT]
+>
+>Cohort Analysis does not support calculated metrics.
 
-Nel mese di gennaio 2019, Adobe ha rilasciato una versione nuova e notevolmente migliorata dell'Analisi per coorte. Consente di controllare in modo più dettagliato le coorti create. I miglioramenti comprendono:
+## Cohort Analysis capabilities
+
+In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. Consente di controllare in modo più dettagliato le coorti create. I miglioramenti comprendono:
 
 ### Tabella “Retention” (Fidelizzazione)
 
-Un rapporto sulla coorte di mantenimento restituisce i visitatori: Ogni cella di dati mostra il numero e la percentuale di visitatori non elaborati che hanno eseguito l'azione in quel periodo di tempo. Può contenere fino a 3 metriche e 10 segmenti.
+Un rapporto sulla coorte di mantenimento restituisce i visitatori: ogni cella di dati mostra il numero e la percentuale di visitatori nella coorte che ha eseguito l'azione durante tale periodo di tempo. Può contenere fino a 3 metriche e 10 segmenti.
 
 ![](assets/retention-report.png)
 
 ### Tabella “Churn” (Abbandono)
 
-Una coorte Churn è l'inverso di una tabella di mantenimento e mostra i visitatori che hanno abbandonato o non hanno mai soddisfatto i criteri di restituzione per la coorte nel tempo. Può contenere fino a 3 metriche e 10 segmenti.
+Una coorte di Churn è l'inverso di una tabella di conservazione e mostra i visitatori che non hanno soddisfatto o non hanno mai soddisfatto i criteri di restituzione per la coorte nel tempo. Può contenere fino a 3 metriche e 10 segmenti.
 
 ![](assets/churn-report.png)
 
