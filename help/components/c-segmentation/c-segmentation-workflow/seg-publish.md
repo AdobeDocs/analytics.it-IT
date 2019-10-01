@@ -7,7 +7,7 @@ title: Pubblicare segmenti in Experience Cloud
 topic: Segmenti
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
+source-git-commit: a900832fa09717295cb45c9dda6d453873641012
 
 ---
 
@@ -34,34 +34,36 @@ Ora, l'elaborazione può richiedere fino a 8 ore, ma a seconda del traffico e de
 ## Considerazioni
 
 * **Limiti** delle suite di rapporti: Puoi pubblicare fino a 75 segmenti per suite di rapporti. Questo limite è imposto. Se hai già 75 segmenti pubblicati, non puoi pubblicare altri segmenti fino a quando non annulli la pubblicazione di un numero sufficiente di segmenti per scendere al di sotto della soglia dei 75 segmenti.
-* **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Analytics cannot exceed 20 million unique members.
+* **Limiti** di appartenenza: Il pubblico condiviso con il [!DNL Experience Cloud] da Analytics non può superare i 20 milioni di membri unici.
 * **Privacy** dei dati: Le audience non vengono filtrate in base allo stato di autenticazione di un visitatore. Se un visitatore può navigare nel sito come utente autenticato o non autenticato, le azioni che si verificano per un visitatore non autenticato possono comunque determinare l'inclusione del visitatore nel pubblico. Leggi la privacy [di](https://www.adobe.com/privacy/experience-cloud.html) Adobe Experience Cloud per comprendere le implicazioni sulla privacy derivanti dalla condivisione di tipi di pubblico.
 * Per una discussione sulle **differenze tra i segmenti in[!DNL Adobe Analytics]e[!DNL Audience Manager]**, [fai clic qui](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Cronologia pubblicazione segmenti
 
-| What's available | When it's available | Where it's available |
+| Disponibilità | Quando è disponibile | Dove è disponibile |
 |---|---|---|
-| Meta data (segment title and definition) | Immediately after publishing | [!DNL Audience Manager], [!UICONTROL Experience Cloud Audience Library], [!DNL Target] |
-| Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
-| Trait and membership population | Within 24 hours | [!DNL Audience Manager] |
+| Metadati (titolo e definizione del segmento) | Immediatamente dopo la pubblicazione | [!DNL Audience Manager], [!UICONTROL Experience Cloud Audience Library], [!DNL Target] |
+| Segmento utilizzabile con appartenenza | ~ 8 ore dopo la pubblicazione | Visitor Profile Viewer in [!DNL Audience Manager] |
+| Caratteristiche e popolazione di appartenenza | Entro 24 ore | [!DNL Audience Manager] |
 
-## Publish segments in [!UICONTROL Segment Builder]
+## Pubblicare segmenti in [!UICONTROL Segment Builder]
 
-1. Navigate to  &gt; +**[!UICONTROL Analytics > Workspace > Components > Segments]**
-1. Create a segment in the .[!UICONTROL Segment Builder]
+1. Passa a **[!UICONTROL Analytics > Workspace > Components > Segments]&gt; +**
+1. Crea un segmento nel [!UICONTROL Segment Builder].
 1. Immetti un titolo e una descrizione per il segmento. Altrimenti non potrai salvarlo.
-1. Check report suite).**[!UICONTROL Publish this segment to the Experience Cloud (for **]**
+1. Controlla suite **[!UICONTROL Publish this segment to the Experience Cloud (for *di *rapporti)]**.
 
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
 >
->Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers.
+>Quando confronti i numeri di Adobe Analytics con i numeri di Audience Manager, accertati di utilizzare "Visitatori con Experience Cloud ID" per visualizzare le anteprime dei segmenti in Analytics invece dell'anteprima totale dei segmenti "Visitatori unici":
+>
+>![](assets/seg-vis-ecid.png)
 
 | Elemento | Descrizione |
 |---|---|
-| **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | Quando questa opzione è abilitata, il titolo e la definizione del segmento (ovvero il pubblico shell, come spesso utilizzato nelle piattaforme di annunci) vengono condivisi istantaneamente con Experience Cloud, mentre l'iscrizione al segmento viene valutata e condivisa ogni 4 ore. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that Experience Cloud and [!DNL Target] audience. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina di Experience Cloud Audiences. </br> |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | Quando questa opzione è abilitata, il titolo e la definizione del segmento (ovvero il pubblico shell, come spesso utilizzato nelle piattaforme di annunci) vengono condivisi istantaneamente con Experience Cloud, mentre l'iscrizione al segmento viene valutata e condivisa ogni 4 ore. <br> Quando quel pubblico è associato a un'attività, [!DNL Target]ad esempio, [!DNL Analytics] inizia a inviare ID per i visitatori idonei per quel Experience Cloud e per quel [!DNL Target] pubblico. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina di Experience Cloud Audiences. </br> |
 | **[!UICONTROL Audience Creation Window]** | L'intervallo di tempo selezionato viene utilizzato per creare l'audience su base di calendario continuo. Ad esempio, "Ultimi 30 giorni" (impostazione predefinita) include i visitatori che hanno aderito al pubblico negli ultimi 30 giorni dalla data odierna (NON dalla data originale in cui è stato creato il segmento). |
 | **[!UICONTROL Create in Audience Library]** | I segmenti creati e pubblicati possono essere resi disponibili senza latenza nella Libreria Pubblico di Experience Cloud. Non dipendono dagli aggiornamenti di Analytics. Questi segmenti non vengono conteggiati rispetto al limite di 75 segmenti pubblicati. |
 | **[!UICONTROL x of 75 Published]** | Mostra il numero di segmenti che hai pubblicato in Experience Cloud. Fai clic sul collegamento per visualizzare un elenco dei segmenti pubblicati e la suite di rapporti e il proprietario associati. |
@@ -108,7 +110,7 @@ Le schermate seguenti mostrano come recuperare l’UUID AAM nel browser e utiliz
 
 ## Utilizzo di Audience Manager [!UICONTROL Visitor Profile Viewer]
 
-L'UUID AAM nel browser verrà utilizzato per impostazione predefinita quando [!UICONTROL Visitor Profile Viewer] viene caricato. If verifying trait realizations for other users, input a UUID in the UUID field and click . [!UICONTROL Refresh] Per ulteriori informazioni, consulta Visualizzatore [profilo](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) visitatori.
+L'UUID AAM nel browser verrà utilizzato per impostazione predefinita quando [!UICONTROL Visitor Profile Viewer] viene caricato. Se verifica le realizzazioni delle caratteristiche per altri utenti, immetti un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta Visualizzatore [profilo](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) visitatori.
 
 ![](assets/aam-vpv.png)
 
@@ -117,8 +119,8 @@ L'UUID AAM nel browser verrà utilizzato per impostazione predefinita quando [!U
 In AAM, l'elenco di visitatori con ECID per un determinato segmento viene valutato in streaming come segmenti condivisi da Analytics con Experience Cloud.
 
 1. In [!DNL Audience Manager], vai a [!UICONTROL Audience Data > Traits > Analytics Traits]. Vedrai una cartella per ogni suite di rapporti di Analytics mappata alla tua organizzazione Experience Cloud. Queste cartelle (per Caratteristiche, Segmenti e Origini dati) vengono create quando il servizio di base Profili e pubblico/Persone viene avviato o fornito.
-1. Select the folder for the report suite in which you previously created the segment you wanted to share with . [!DNL Audience Manager] Vedrai il segmento/pubblico creato. Quando condividete un segmento, si verificano 2 cose in [!DNL Audience Manager]:
-* Viene creata una caratteristica, prima senza alcun dato. Approx. 8 ore dopo che il segmento viene pubblicato in [!DNL Analytics], l’elenco di ECID viene configurato e condiviso con [!DNL Audience Manager] e altre soluzioni Experience Cloud.
+1. Selezionate la cartella per la suite di rapporti in cui avete creato in precedenza il segmento con cui desiderate condividere [!DNL Audience Manager]. Vedrai il segmento/pubblico creato. Quando condividete un segmento, si verificano 2 cose in [!DNL Audience Manager]:
+* Viene creata una caratteristica, prima senza alcun dato. Circa 8 ore dopo che il segmento viene pubblicato in [!DNL Analytics], l’elenco di ECID viene configurato e condiviso con [!DNL Audience Manager] e altre soluzioni Experience Cloud.
 
 ![](assets/aam-traits.png)
 
