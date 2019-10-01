@@ -1,21 +1,18 @@
 ---
-description: 'Se hai selezionato il metodo di raccolta dei dati javascript, copiate le seguenti righe di codice e aggiungili al codice Analytics sulle pagine. '
-seo-description: 'Se hai selezionato il metodo di raccolta dei dati javascript, copiate le seguenti righe di codice e aggiungili al codice Analytics sulle pagine. '
+description: 'Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Analytics nelle tue pagine '
+seo-description: 'Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Analytics nelle tue pagine '
 seo-title: Codice plug-in di Analytics
 title: Codice plug-in di Analytics
-uuid: 534874 bd -49 d 9-4 b 15-8019-b 503 dfcf 3182
-index: y
-internal: n
-snippet: y
+uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Codice plug-in di Analytics{#analytics-plug-in-code}
 
-Se hai selezionato il metodo di raccolta dei dati javascript, copiate le seguenti righe di codice e aggiungili al codice Analytics sulle pagine:
+Se hai selezionato il metodo di raccolta dati del plug-in JavaScript, copia le seguenti righe di codice e aggiungili al codice Analytics sulle pagine:
 
 `/*`
 
@@ -29,5 +26,4 @@ Se hai selezionato il metodo di raccolta dei dati javascript, copiate le seguent
 
 >[!NOTE]
 >
->Il plug-plugin sopra presuppone che alcune variabili di commerce personalizzate (evar) siano disponibili. Se le variabili specificate nel plug-plugin sopra non sono disponibili nella distribuzione Analytics, sostituitele semplicemente con quelle disponibili.
-
+>Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Analytics, sostituitele semplicemente con quelle disponibili.
