@@ -1,17 +1,14 @@
 ---
 description: Una volta che i server di raccolta DFA e Adobe® possono comunicare, potete generare report in Reporting e analisi che includono dati DFA.
-keywords: DFAE
-seo-description: Una volta che i server di raccolta DFA e Adobe® possono comunicare, potete generare report in Reporting e analisi che includono dati DFA.
-seo-title: Report di analisi con dati DFA
+keywords: DFA
+seo-description: Once DFA and Adobe® collection servers can communicate, you can generate reports in Reports & Analytics that include DFA data.
+seo-title: Analytics Reports Using DFA Data
 solution: Analytics
 title: Report di analisi con dati DFA
 topic: Connettori dati
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -57,4 +54,3 @@ Questo rapporto presenta le seguenti caratteristiche importanti:
 * Selezionate uno specifico Nome annuncio DFA per aprire un menu di opzioni per ottenere ulteriori informazioni su quel particolare annuncio DFA.
 * Ogni colonna di metrica include una chiave di colore che corrisponde al colore assegnato alla metrica nel grafico.
 * Il rapporto è ordinato dalla metrica Revenue (Entrate) con l'Annuncio ricavi più elevato nella parte superiore. Puoi cambiare l’ordine dei rapporti facendo clic su un’altra etichetta di colonna (metrica).
-
