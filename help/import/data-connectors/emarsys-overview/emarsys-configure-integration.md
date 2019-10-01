@@ -1,29 +1,26 @@
 ---
-description: Attività e informazioni necessarie prima di eseguire la procedura guidata di integrazione dei Connettori dati per implementare l'integrazione dei Connettori dati.
-seo-description: Attività e informazioni necessarie prima di eseguire la procedura guidata di integrazione dei Connettori dati per implementare l'integrazione dei Connettori dati.
-seo-title: Preparazione all'integrazione delle e-mail dei connettori dati
-title: Preparazione all'integrazione delle e-mail dei connettori dati
-uuid: 01 e 1 f 269-54 c 9-4175-aff 8-16 c 39 ac 4 ee 9 d
-index: y
-internal: n
-snippet: y
+description: Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
+seo-description: Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
+seo-title: Preparazione all'integrazione e-mail dei connettori dati
+title: Preparazione all'integrazione e-mail dei connettori dati
+uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Preparazione all'integrazione delle e-mail dei connettori dati{#preparing-for-the-data-connectors-email-integration}
+# Preparazione all'integrazione e-mail dei connettori dati{#preparing-for-the-data-connectors-email-integration}
 
-Attività e informazioni necessarie prima di eseguire la procedura guidata di integrazione dei Connettori dati per implementare l'integrazione dei Connettori dati.
+Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
 
-Adobe Analytics® offre alle organizzazioni informazioni fruibili e in tempo reale sulle strategie online e sulle iniziative di marketing. Combinato con emarsys, Analytics offre il remarketing basato sul targeting comportamentale. Migliora il marketing di destinazione e comprendi l'efficacia delle campagne grazie all'integrazione diretta dei dati di analisi web emarsys e Analytics.
+Adobe Analytics® fornisce alle organizzazioni informazioni fruibili e in tempo reale sulle strategie e le iniziative di marketing online. In combinazione con emarsys, Analytics fornisce remarketing basato sul targeting comportamentale. Migliorate il marketing di destinazione e comprendete l'efficacia delle campagne grazie all'integrazione perfetta dei dati di analisi Web di emarsys e Analytics.
 
-Prima di configurare l'integrazione per il tuo account e-mail, devi disporre di quanto segue:
+Per configurare l’integrazione per l’account e-mail, dovete disporre dei seguenti elementi:
 
-* Conoscere il tuo account emarsys accountcode perché verrà inserito nella procedura guidata Connettori dati.
-* Conoscere l'indirizzo e-mail da utilizzare per ricevere notifiche relative alle operazioni integrate.
-* Identifica o crea la variabile personalizzata che verrà utilizzata per acquisire l'ID destinatario.
-* Identifica o crea la variabile personalizzata che verrà utilizzata per acquisire l'ID messaggio (spesso si tratta della variabile campagna).
-* Identificare o creare gli eventi personalizzati che verrà utilizzato per raccogliere i messaggi di rimbalzo, clic, apertura, invio e annullamento della sottoscrizione.
+* Conoscere il codice account di emarsys perché verrà immesso nella procedura guidata Connettori dati.
+* Sapere quale indirizzo e-mail si desidera utilizzare per ricevere le notifiche relative alle operazioni integrate.
+* Identifica o crea la variabile personalizzata da utilizzare per acquisire l’ID destinatario.
+* Identificare o creare la variabile personalizzata da utilizzare per acquisire l'ID messaggio (spesso si tratta della variabile della campagna).
+* Identificare o creare gli eventi personalizzati che verranno utilizzati per raccogliere i rimbalzi, i clic, le aperture, gli invii e gli annullamento della sottoscrizione.
 
