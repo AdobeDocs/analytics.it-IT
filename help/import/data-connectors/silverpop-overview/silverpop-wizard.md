@@ -4,11 +4,8 @@ seo-description: La procedura guidata di integrazione dei connettori dati illust
 seo-title: Integrazione Silverpop
 title: Integrazione Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
