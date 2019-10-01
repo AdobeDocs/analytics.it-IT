@@ -9,7 +9,7 @@ title: Variabili di dati di contesto
 topic: Sviluppatore e implementazione
 uuid: 4b215803-99d4-46f2-b3c1-e7858987764
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 ---
 
@@ -24,9 +24,9 @@ Invece di assegnare in modo esplicito valori a prop ed eVar nel codice, potete i
 >
 >Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Ad esempio, le due variabili seguenti sono effettivamente identiche:
 >```
->s.contextData['article_title'] = 'Weekend Concert Controversy';
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
->and
+>e
 >```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
@@ -43,7 +43,7 @@ Utilizzando le regole di elaborazione è possibile aggiungere una condizione che
 
 Le variabili di dati di contesto possono essere definite direttamente nell'interfaccia delle regole di elaborazione per memorizzare temporaneamente un valore, o per raccogliere valori da una variabile di dati di contesto che sai verrà utilizzata nella suite di rapporti. Ad esempio, se è necessario scambiare due valori, è possibile creare una variabile di dati di contesto per memorizzare un valore durante lo scambio.
 
-Poiché le regole di elaborazione vengono applicate solo quando i dati vengono raccolti, è importante impostare le regole di elaborazione prima di iniziare a inviare i dati contestuali. I valori dei dati di contesto che non vengono letti dalle regole di elaborazione quando un hit viene elaborato vengono scartati.
+Poiché le regole di elaborazione vengono applicate solo quando i dati vengono raccolti, è importante impostare le regole di elaborazione prima di iniziare a inviare i dati contestuali. I valori dei dati contestuali che non vengono letti dalle regole di elaborazione quando un hit viene elaborato vengono scartati.
 
 ## Regole {#section_2229739F6B1A4C1CAD7140BDF4687523}
 
@@ -57,24 +57,24 @@ Poiché le regole di elaborazione vengono applicate solo quando i dati vengono r
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nomi e caratteri supportati </p> </td> 
-   <td colname="col2"> <p>I nomi delle variabili di dati di contesto possono contenere solo caratteri alfanumerici, caratteri di sottolineatura e punti. Eventuali caratteri aggiuntivi vengono rimossi. Le variabili di contesto non hanno una designazione numerica. Piuttosto, si chiamano. </p> <p>Ad esempio, la variabile di dati contestuali <code> login_page-home </code> diventa automaticamente <code> login_pagehome </code>. Tutti i dati inviati alla variabile <code> login_page-home </code> vengono allocati in <code> login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>I nomi delle variabili di dati di contesto possono contenere solo caratteri alfanumerici, caratteri di sottolineatura e punti. Eventuali caratteri aggiuntivi vengono rimossi. Context cata variables do not have a numeric designation. Rather, they are named. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the  login_page-home  variable is allocated under  login_pagehome .<code></code><code></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Namespace </p> </td> 
-   <td colname="col2"> <p>È buona norma inserire il prefisso delle variabili con il nome della società, il nome del sito o un valore simile per essere certi che il nome sia univoco nella suite di rapporti. </p> <p>Le variabili di dati di contesto possono essere denominate in modo simile ad altre variabili JavaScript. Lo spazio nomi <code> a.* </code> è riservato ai prodotti Adobe nei nomi delle variabili di contesto. Ad esempio, la libreria AppMeasurement per iOS utilizza <code> a.InstallEvent </code> per misurare le installazioni dell'applicazione. </p> </td> 
+   <td colname="col2"> <p>A good practice is to prefix your variables with your company name, site name, or a similar value to make sure the name is unique across your report suite. </p> <p>Context data variables can be named similar to other JavaScript variables. Lo spazio nomi <code> a.* </code> è riservato ai prodotti Adobe nei nomi delle variabili di contesto. For example, the AppMeasurement Library for iOS uses  a.InstallEvent  to measure application installations.<code></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Limiti URL per Internet Explorer </p> </td> 
-   <td colname="col2"> <p>Potrebbe verificarsi una precedente limitazione URL per Internet Explorer 6 e 7, dove gli URL vengono troncati a 2000 byte. È possibile utilizzare il debugger <span class="keyword"> Digital Pulse </span> per determinare la dimensione di una stringa URL. </p> <p>Con i recenti aggiornamenti ad AppMeasurement (settembre 2014), HTTP POST è utilizzato con Internet Explorer 8+, il che elimina i problemi di troncamento. </p> </td> 
+   <td colname="col1"> <p>URL Limits for Internet Explorer </p> </td> 
+   <td colname="col2"> <p>You might encounter a older URL limitation for Internet Explorer 6 and 7, where URLs are truncated at 2000 bytes. You can use the  DigitalPulse  debugger to determine the size of a URL string.<span class="keyword"></span> </p> <p>With the recent updates to AppMeasurement (September 2014),HTTP POST is used with Internet Explorer 8+, which eliminates truncation issues. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Versione AppMeasurement supportata </p> </td> 
-   <td colname="col2"> <p>Le variabili di dati di contesto richiedono almeno il codice H23 o superiore. </p> </td> 
+   <td colname="col1"> <p>Supported AppMeasurement version </p> </td> 
+   <td colname="col2"> <p>Context data variables require at least H23 code or higher. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Invio di dati contestuali su una chiamata di tracciamento collegamento {#section_35EBE5D1CF29427598BD4B2165CE64FC}
+## Sending Context Data on a Track Link Call {#section_35EBE5D1CF29427598BD4B2165CE64FC}
 
 Includi `ContextData` + il nome della variabile da includere in `s.linkTrackVars`:
 
@@ -86,7 +86,7 @@ s.tl(true,"o","Link Name");
 
 ## Esempi {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possibili modi per sostituire l'implementazione della *`s.pageName`* variabile, partendo dal presupposto che le regole di elaborazione siano impostate correttamente per ciascuno di essi:
+Possible ways to replace implementation of the  variable, assuming that processing rules are set up correctly for each:*`s.pageName`*
 
 ```
 s.contextData['page'] = "Home Page" 
