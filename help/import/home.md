@@ -3,8 +3,8 @@ title: Aiuto per l’importazione di Analytics
 seo-title: Aiuto per l’importazione di Analytics
 description: nulle
 seo-description: nulle
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -15,13 +15,9 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 Questa guida spiega come importare dati in Analytics. Include:
 
-* **Origini di dati:** carica un file in un sito FTP di Adobe specifico. Adobe recupera il file e ne include i dati nella tua suite di rapporti.
-* **API di inserimento dati:** invia i dati direttamente alla raccolta dati di Adobe tramite un’API.
-* **Data Connectors:** puoi lavorare con sistemi di terze parti supportati e inserirne i dati in Adobe Analytics per arricchire la tua suite di rapporti.
-
-## Articoli chiave di importazione di Analytics
-
-* [Origini dati](c-data-sources/datasrc-home.md)
+* **[Origini](c-data-sources/datasrc-home.md)** dati: Caricate un file in un sito FTP Adobe designato. Adobe recupera il file e ne include i dati nella tua suite di rapporti.
+* **[API](c-data-insertion-api/c-data-insertion-api.md)** di inserimento dati: Inviare i dati direttamente alla raccolta dati di Adobe tramite un'API.
+* **[Connettori](data-connectors/getting-started-data-connectors.md)** dati: Collabora con un terzo partner supportato per inserire i propri dati in Adobe Analytics per arricchire la suite di rapporti.
 
 ## Altre guide utente di Analytics
 
@@ -29,7 +25,7 @@ Questa guida spiega come importare dati in Analytics. Include:
 
 ## Risorse chiave per Analytics
 
-* [Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=it#recommended/solutions/analytics)
+* [Experience League](https://landing.adobe.com/experience-league/)
