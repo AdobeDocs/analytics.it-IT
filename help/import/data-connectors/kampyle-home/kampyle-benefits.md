@@ -4,19 +4,16 @@ seo-description: nulle
 seo-title: Vantaggi e funzionalità principali
 solution: Analytics
 title: Vantaggi e funzionalità principali
-uuid: 3 e 865 f 89-a 786-44 d 1-877 d -36 cb 58 cb 3 f 74
-index: y
-internal: n
-snippet: y
+uuid: 3e865f89-a786-44d1-877d-36cb58cb3f74
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Vantaggi e funzionalità principali{#key-benefits-and-features}
 
-* Sincronizzazione giornaliera automatizzata delle dimensioni e delle metriche di feedback tra Kampyle e Adobe Analytics.
-* Nuovo rapporto sul traffico e conversione intorno a conteggi di feedback, valutazioni e altri commenti.
-* Nuove dimensioni di feedback che possono essere utilizzate per creare segmenti per la foratura in qualsiasi rapporto di Adobe Analytics.
+* Sincronizzazione giornaliera automatizzata di dimensioni e metriche di feedback tra Kampyle e Adobe Analytics.
+* Nuovi rapporti sul traffico e sulla conversione in base ai conteggi dei commenti, alle valutazioni e ad altri commenti.
+* Nuove dimensioni di feedback che possono essere utilizzate per creare segmenti per la perforazione in qualsiasi reporting di Adobe Analytics.
 
