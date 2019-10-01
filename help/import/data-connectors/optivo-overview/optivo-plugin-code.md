@@ -1,21 +1,18 @@
 ---
-description: Se hai selezionato il metodo di raccolta dei dati javascript, copiate le seguenti righe di codice e aggiungili al codice Adobe Analytics sulle pagine.
-seo-description: Se hai selezionato il metodo di raccolta dei dati javascript, copiate le seguenti righe di codice e aggiungili al codice Adobe Analytics sulle pagine.
-seo-title: Adobe Analytics Plug-in
-title: Adobe Analytics Plug-in
-uuid: e 99999 be -1800-4 d 63-a 4 cb-df 68 a 1 b 53 d 0 d
-index: y
-internal: n
-snippet: y
+description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Adobe Analytics presente sulle pagine.
+seo-description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Adobe Analytics presente sulle pagine.
+seo-title: Codice plug-in di Adobe Analytics
+title: Codice plug-in di Adobe Analytics
+uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Adobe Analytics Plug-in{#adobe-analytics-plug-in-code}
+# Codice plug-in di Adobe Analytics{#adobe-analytics-plug-in-code}
 
-Se hai selezionato il metodo di raccolta dei dati javascript, copiate le seguenti righe di codice e aggiungili al codice Adobe Analytics sulle pagine.
+Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Adobe Analytics presente sulle pagine.
 
 ```
 /* 
@@ -57,5 +54,5 @@ s.eVar12="Post Click Type of Action"; // e.g. "purchase";
 
 >[!NOTE]
 >
->Il plug-plugin sopra presuppone che alcune variabili di commerce personalizzate (evar) siano disponibili. Se le variabili specificate nel plug-plugin sopra non sono disponibili nella distribuzione Adobe Analytics, sostituitele semplicemente con quelle disponibili.
+>Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Adobe Analytics, sostituitele semplicemente con quelle disponibili.
 
