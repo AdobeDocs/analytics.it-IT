@@ -1,44 +1,41 @@
 ---
-description: Utilizzate la procedura guidata di configurazione dei connettori dati Adobe per configurare l'integrazione.
-seo-description: Utilizzate la procedura guidata di configurazione dei connettori dati Adobe per configurare l'integrazione.
+description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
+seo-description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
 seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
-uuid: 3 b 2 acdb 8-9 a 1 f -4 f 17-92 f 2-6 a 3780 a 8 f 626
-index: y
-internal: n
-snippet: y
+uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
 
 # Attivare l'integrazione{#activate-the-integration}
 
-Utilizzate la procedura guidata di configurazione dei connettori dati Adobe per configurare l'integrazione.
+Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
 
-1. Avviate [Connettori dati](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) e fate clic per **[!UICONTROL + Add New]**[aggiungere una nuova integrazione](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
-1. Nell **[!UICONTROL Show]** 'elenco, seleziona **[!UICONTROL By Name]** e trascina l'integrazione [!DNL ~Partner~] in uno slot plug-in vuoto.
-1. Completate la procedura guidata Integrazione utilizzando le informazioni riportate nella seguente tabella:
+1. Avviate Connettori [](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) dati e fate clic **[!UICONTROL + Add New]** per [aggiungere una nuova integrazione](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
+1. Nell' **[!UICONTROL Show]** elenco, selezionare **[!UICONTROL By Name]** e trascinare l'integrazione [!DNL ~Partner~] in uno slot plug-in vuoto.
+1. Completa la procedura guidata di integrazione utilizzando le informazioni riportate nella tabella seguente:
 
 | Campo | Descrizione |
 |--- |--- |
 | Suite di rapporti | La suite di rapporti che riceve i dati da questa integrazione. |
-| Nome integrazione | Specifica il nome dell'integrazione che Connettori dati visualizza nell'Elenco integrazione attivo della suite di rapporti. |
-| Indirizzo e-mail | Fornite un indirizzo e-mail per ricevere informazioni relative all'integrazione. |
-| ID account | Questo è l'identificatore univoco assegnato alla tua organizzazione dal provider di servizi e-mail. Verrà utilizzato per la richiesta dei dati della campagna e-mail (ad es. # Sent, # Opened, # Clic, ecc.) from and sending visitor segments to your Email Service Provider. |
-| ID destinatario | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema optivo®. Questo "ID destinatario" è associato al comportamento dei visitatori a valle sul sito (carrello, acquisti, ecc.) viene inserito nel sistema optivo® e può essere sfruttato a scopo di remarketing. |
-| ID messaggio | (Obbligatorio) Memorizza l'ID della mailing list univoco. Queste dimensioni di classificazione vengono create dalla procedura guidata Connettori dati per l'ID messaggio: a)**Campagne**: Campagne associate al messaggio. b)**Canale**: The channel of transmission, this is constantly "optivo broadmail". c)**Codice paese**: Questo campo contiene il codice paese del paese del mittente di origine. È una costante "DE". d) **Strumento Consegna**: Metodo di trasmissione, sempre "Email". e) **Nome messaggio**: Nome della mailing list, che è configurato in optivo®. f) **Data di inizio**: Marca temporale dell'inizio della mailing list. |
-| Ora clic su post | (Obbligatorio) Questa funzione è necessaria per trasmettere informazioni su un'azione del destinatario all'indirizzo optivo® dopo che il destinatario ha fatto clic su un collegamento in una mailing list. |
-| Prodotto post-click | (Obbligatorio) Questa funzione è necessaria per trasmettere informazioni su un'azione del destinatario all'indirizzo optivo® dopo che il destinatario ha fatto clic su un collegamento in una mailing list. |
-| Azione post clic | (Obbligatorio) Questa funzione è necessaria per trasmettere informazioni su un'azione del destinatario all'indirizzo optivo® dopo che il destinatario ha fatto clic su un collegamento in una mailing list. |
-| Rimbalzi rigidi | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati rigidi importati dall'e-mail. Numero di messaggi e-mail che non sono stati consegnati ai destinatari e considerati non inviabili definitivamente. |
-| Bounce leggero | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati di rimbalzo software importati dall'e-mail. Numero di messaggi e-mail che non sono stati consegnati ai destinatari a causa di un problema di consegna. |
-| Clic | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati con clic e-mail importati dall'e-mail. L'evento Clic permette di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
-| Aperto | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati aperti e-mail importati dall'e-mail. L'evento Aperto permette di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail. |
-| Inviato | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati inviati e-mail importati dall'e-mail. L'evento Inviato permette di visualizzare il numero di messaggi e-mail inviati. |
-| Annullato | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza l'e-mail di cancellazione dei dati importati dall'e-mail. L'evento Non iscritto consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail, quindi hanno fatto clic sul collegamento Annulla sottoscrizione per rifiutare i messaggi e-mail futuri dall'organizzazione. |
-| Segmenti | Abilitare i segmenti esistenti da utilizzare insieme a questa integrazione (facoltativo). |
-| Richieste di accesso | Abilitare i privilegi di accesso consigliati. |
-| Raccolta dati | Selezionate **Plug-in javascript** se desiderate utilizzare il plug-in s_ code. js come modello di raccolta per questa integrazione. Selezionate **Soluzione automatizzata** se desiderate utilizzare un modello di raccolta automatizzato per questa integrazione, quindi specificate gli identificatori unici utilizzati per tale integrazione. Se selezionate questa opzione, specificate gli identificatori unici utilizzati per questa integrazione:<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l'ID messaggio aggiunto all'URL della pagina di destinazione dal vostro partner e-mail.</li><li>Parametro stringa query ID destinatario: Questo valore rappresenta l'URL destinatario della pagina di destinazione per l'URL della pagina di destinazione.</li></ul> |
-| Dashboard e Generazione segnalibro | Genera automaticamente un dashboard e segnalibri per l'integrazione. |
+| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'elenco Integrazione attiva della suite di rapporti. |
+| Indirizzo e-mail | Fornite un indirizzo e-mail per ricevere le informazioni relative all'integrazione. |
+| ID account | Questo è l’identificatore univoco assegnato all’organizzazione dal provider di servizi e-mail. Sarà utilizzato per richiedere i dati delle campagne e-mail (ad es. # Inviato, # Aperto, # Clic, ecc.) da e inviando segmenti di visitatori al provider di servizi e-mail. |
+| ID destinatario | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema di trasmissione di Reader®. Questo "ID destinatario" è associato al comportamento a valle dei visitatori sul sito (carrelli abbandonati, acquisti, ecc.) che viene inserito nel sistema di distribuzione del prodotto opzionale® e può essere sfruttato per scopi di remarketing. |
+| ID messaggio | (Obbligatorio) Memorizza l'ID univoco della posta. Queste dimensioni di classificazione vengono create dalla procedura guidata Connettori dati per l'ID messaggio: <br>a)**Campagne**: Campagne associate al messaggio. <br>b)**Canale**: Il canale di trasmissione, questo è costantemente "optivo broadcast". <br>c)Codice **** del paese: Questo campo contiene il codice del paese del paese mittente di origine. È una costante "DE". <br>d) **Strumento** di consegna: Metodo di trasmissione, sempre "Email".<br> e) Nome **** messaggio: Il nome della mailing, così come è configurato in optivo® broadcast. <br>f) Data **di** inizio: Timestamp dell'inizio della spedizione. |
+| Ora clic post | (Obbligatorio) Questa opzione è necessaria per trasmettere informazioni su un'azione del destinatario a un servizio di trasmissione optivo® dopo che il destinatario ha fatto clic su un collegamento in un messaggio. |
+| Post Click Product | (Obbligatorio) Questa opzione è necessaria per trasmettere informazioni su un'azione del destinatario a un servizio di trasmissione optivo® dopo che il destinatario ha fatto clic su un collegamento in un messaggio. |
+| Azione Post Click | (Obbligatorio) Questa opzione è necessaria per trasmettere informazioni su un'azione del destinatario a un servizio di trasmissione optivo® dopo che il destinatario ha fatto clic su un collegamento in un messaggio. |
+| Rimbalzo duro | (Obbligatorio) Specifica l'evento Adobe Analytics in cui sono memorizzati i dati dei rimbalzi fissi importati dal sistema e-mail. Numero di messaggi e-mail che non sono stati inviati ai destinatari e che sono considerati definitivamente non consegnabili. |
+| Rimbalzo morbido | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati relativi ai rimbalzi software importati dal sistema e-mail. Numero di messaggi e-mail non inviati ai destinatari a causa di un problema di consegna. |
+| Clic | (Obbligatorio) Specifica l'evento Adobe Analytics in cui sono memorizzati i dati del clic del messaggio e-mail importati dal sistema e-mail. L’evento Clic consente di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
+| Aperto | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati dell'e-mail aperta importati dal sistema e-mail. L’evento Opened (Apertura) consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail. |
+| Inviato | (Obbligatorio) Specificate l'evento Adobe Analytics in cui vengono memorizzati i dati e-mail inviati importati dal sistema e-mail. L'evento Inviato consente di visualizzare il numero di messaggi e-mail inviati. |
+| Annulla sottoscrizione | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati di annullamento della sottoscrizione dell'e-mail importati dal sistema e-mail. L’evento Annulla sottoscrizione consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail e hanno quindi fatto clic sul collegamento Annulla sottoscrizione per rifiutare i messaggi e-mail futuri della vostra organizzazione. |
+| Segmenti | Consente l'utilizzo di segmenti esistenti con questa integrazione (facoltativo). |
+|  Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
+| Raccolta dati | Selezionate Plug-in **** JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione. Selezionate **Automated Solution** se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l'integrazione:<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail.</li><li>Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail.</li></ul> |
+| Generazione di dashboard e segnalibri | Genera automaticamente dashboard e segnalibri per l'integrazione. |
