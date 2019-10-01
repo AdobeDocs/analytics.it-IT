@@ -1,24 +1,21 @@
 ---
-description: Compila le evar necessarie in Admin Tool di Adobe Analytics prima di utilizzare il codice di seguito.
-seo-description: Compila le evar necessarie in Admin Tool di Adobe Analytics prima di utilizzare il codice di seguito.
-seo-title: Codice plug-in Param di Query
+description: Prendete le eVar necessarie in Admin Tool di Adobe Analytics prima di lavorare con il codice seguente.
+seo-description: Prendete le eVar necessarie in Admin Tool di Adobe Analytics prima di lavorare con il codice seguente.
+seo-title: Codice Plug-In Param Stringa Query
 solution: Analytics
-title: Codice plug-in Param di Query
-uuid: a 71 e 7774-bc 7 a -414 e-a 116-739770 b 900 bf
-index: y
-internal: n
-snippet: y
+title: Codice Plug-In Param Stringa Query
+uuid: a71e7774-bc7a-414e-a116-73970b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Codice plug-in Param di Query{#query-string-param-plug-in-code}
+# Codice Plug-In Param Stringa Query{#query-string-param-plug-in-code}
 
-Compila le evar necessarie in Admin Tool di Adobe Analytics prima di utilizzare il codice di seguito.
+Prendete le eVar necessarie in Admin Tool di Adobe Analytics prima di lavorare con il codice seguente.
 
-Una volta conosciute le [evar riservate](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238), sostituisci evarn con evar rilevante, ad esempio evar 10.
+Una volta note le eVar che avete riservato, sostituite eVarN con l'eVar pertinente, ad esempio eVar10.
 
 ```
 /* 
