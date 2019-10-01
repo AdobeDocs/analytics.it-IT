@@ -1,15 +1,15 @@
 ---
-description: Modalità di calcolo dei totali di Workspace.
-seo-description: Scopri come vengono calcolati i totali di Workspace.
-seo-title: Modalità di calcolo dei totali di Workspace.
-title: Totali area di lavoro
+description: How Workspace totals are calculated.
+seo-description: Learn how Workspace totals are calculated.
+seo-title: How Workspace totals are calculated.
+title: Workspace totals
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: b2e76715a2bab0931b1ddf8c612c29eea530ce6c
 
 ---
 
 
-# Totali area di lavoro
+# Workspace totals
 
 Nelle tabelle a forma libera, viene visualizzata una riga totale a ogni livello di suddivisione e può mostrare due totali:
 
@@ -33,10 +33,6 @@ In **[!UICONTROL Column Settings]**, sono disponibili opzioni per **[!UICONTROL 
 
 ![](assets/static-rows.png)
 
-## Totali esportati
-
-Quando i dati vengono copiati e incollati da una tabella a forma libera o scaricati tramite CSV, la riga totale riflette l’ [!UICONTROL Table Total] unica.
-
 ## Domande frequenti
 
 | Domande | Risposta |
@@ -45,4 +41,5 @@ Quando i dati vengono copiati e incollati da una tabella a forma libera o scaric
 | In che modo l' **[!UICONTROL Include Unspecified (None)]** impostazione influisce sui totali? | Se l' **[!UICONTROL Include Unspecified (None)]** impostazione non è selezionata, la riga Nessuno/Non specificato verrà rimossa dalla tabella, dal Totale tabella e passerà a tutte le metriche calcolate che utilizzano i tipi di metriche ["Totale"](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html) |
 | Quando si applicano filtri di tabella personalizzati a una tabella a forma libera, tutte le metriche calcolate e l'account di formattazione condizionale del filtro vengono applicate? | Non al momento. **[!UICONTROL Include Unspecified (None)]** verranno contabilizzati, ma i filtri di tabella personalizzati non avranno alcun impatto sui seguenti elementi:<ul><li>L'intervallo massimo/min delle colonne utilizzato per la formattazione condizionale sarà visualizzato in tutti i dati.</li><li>Metriche calcolate che sfruttano i tipi di **[!UICONTROL Grand Total]** metriche.</li><li>Metriche calcolate con funzioni che si calcolano tra le righe in una tabella a forma libera, ad esempio Somma colonna, Massimo colonna, Minimo colonna, Conteggio, Media, Media, Percentile, Quarile, Conteggio righe, Deviazione standard, Varianza, Cumulativa, Media cumulativa, Varianti di regressione, Valutazione T, Test T, Valutazione Z, Test Z.</li></ul> |
 | In Metriche calcolate, cosa riflette il tipo di **[!UICONTROL Grand Total]** metrica? | **[!UICONTROL Grand Total]** continua a fare riferimento alla tabella **[!UICONTROL Grand Total]** e non riflette i filtri applicati a una tabella o alla **[!UICONTROL Table Total]**. |
+| What total is shown when data is either copied and pasted from a freeform table or downloaded via CSV? | La riga totale riflette l' **[!UICONTROL Table Total]** unica riga e rispetta l'impostazione della colonna **[!UICONTROL Show Totals]** . |
 
