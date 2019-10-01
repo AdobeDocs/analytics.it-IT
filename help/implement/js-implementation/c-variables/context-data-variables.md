@@ -22,20 +22,14 @@ Invece di assegnare in modo esplicito valori a prop ed eVar nel codice, potete i
 
 >[!NOTE]
 >
->Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Ad esempio, le due variabili seguenti sono effettivamente identiche:        &gt;
->```>
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->
-```>
->and 
->
->
-```>
+>Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Ad esempio, le due variabili seguenti sono effettivamente identiche:
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy';
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
-
-
+>```
 
 L'utilizzo dei dati contestuali consente di evitare di eseguire aggiornamenti del codice per supportare diverse configurazioni delle suite di rapporti.
 
