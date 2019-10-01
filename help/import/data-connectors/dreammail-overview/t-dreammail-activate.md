@@ -1,46 +1,43 @@
 ---
-description: Utilizzate la procedura guidata di configurazione dei connettori dati Adobe per configurare l'integrazione.
-seo-description: Utilizzate la procedura guidata di configurazione dei connettori dati Adobe per configurare l'integrazione.
+description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
+seo-description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
 seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
-uuid: 9084 b 691-291 d -49 f 7-9 fa 4-abda 507 e 060 d
-index: y
-internal: n
-snippet: y
+uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Attivare l'integrazione{#activate-the-integration}
 
-Utilizzate la procedura guidata di configurazione dei connettori dati Adobe per configurare l'integrazione.
+Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
 
-1. Avviate [Connettori dati](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) e fate clic per **[!UICONTROL + Add New]**[aggiungere una nuova integrazione](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
-1. Nell **[!UICONTROL Show]** 'elenco, seleziona **[!UICONTROL By Name]** e trascina l'integrazione [!DNL ~Partner~] in uno slot plug-in vuoto.
-1. Completate la procedura guidata Integrazione utilizzando le informazioni riportate nella seguente tabella:
+1. Avviate Connettori [](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) dati e fate clic **[!UICONTROL + Add New]** per [aggiungere una nuova integrazione](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
+1. Nell' **[!UICONTROL Show]** elenco, selezionare **[!UICONTROL By Name]** e trascinare l'integrazione [!DNL ~Partner~] in uno slot plug-in vuoto.
+1. Completa la procedura guidata di integrazione utilizzando le informazioni riportate nella tabella seguente:
 
 | Campo | Descrizione |
 |--- |--- |
 | Suite di rapporti | La suite di rapporti che riceve i dati da questa integrazione. |
-| Nome integrazione | Specifica il nome dell'integrazione che Connettori dati visualizza nell'Elenco integrazione attivo della suite di rapporti. |
-| UUID Integration | Specificate l'UUID integrazione di dreammail. |
-| Nome cliente | Specificate il nome client di dreammail. |
-| Nome sito | Specificate il nome del sito dreammail. |
-| Back-to Bounce | Numero di messaggi e-mail che non sono stati consegnati ai destinatari a causa di un problema di consegna. |
-| Consegnato | Numero di consegne di messaggi completati. |
-| Errori di consegna | Distribuzione dei messaggi non riuscita. |
+| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'elenco Integrazione attiva della suite di rapporti. |
+| UUID integrazione | Specificate l'UUID integrazione DreamMail. |
+| Nome client | Specificate il nome client DreamMail. |
+| Nome sito | Specificate il nome del sito DreamMail. |
+| Rimbalzi | Numero di messaggi e-mail non inviati ai destinatari a causa di un problema di consegna. |
+| Consegnato | Numero di invii di messaggi riusciti. |
+| Errori di consegna | Distribuzione di messaggi non riuscita. |
 | Aperture HTML | Numero di visitatori che hanno aperto il messaggio e-mail. |
-| Invalids | Numero di indirizzi e-mail non validi. |
-| Campagna | ID campagna di marketing. |
-| Passa altezze | L'evento Clic permette di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
-| Email eVar | Un indirizzo e-mail dal sistema dreammail. Questa sezione è associata al comportamento dei visitatori a valle del sito (carrello, acquisti, ecc.) viene inserito nel sistema dreammail e può essere sfruttato a scopo di remarketing. |
-| Evento spotlight | Evento che può essere esportato nei segmenti di ricommercializzazione. |
-| Acquisti faretto | Evento che può essere esportato nei segmenti di ricommercializzazione. |
-| Valore faretto | Evento Revenue che può essere esportato nei segmenti di ricommercializzazione. |
-| Totalclick | L'evento Clic permette di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
-| Segmenti | Questa integrazione crea i segmenti definiti dall'partner visualizzati nella sezione Segmenti partner. Inoltre, puoi selezionare i segmenti esistenti a livello di suite di rapporti da includere nell'integrazione. |
-| Richieste di accesso | Abilitare i privilegi di accesso consigliati. |
-| Raccolta dati | Selezionate **Plug-in javascript** se desiderate utilizzare il plug-in s_ code. js come modello di raccolta per questa integrazione (consultate). Selezionate **Soluzione automatizzata** se desiderate utilizzare un modello di raccolta automatizzato per questa integrazione, quindi specificate gli identificatori unici utilizzati per tale integrazione. Se selezionate questa opzione, specificate gli identificatori unici utilizzati per questa integrazione:<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l'ID messaggio aggiunto all'URL della pagina di destinazione dal partner e-mail.</li><li>Parametro stringa query ID destinatario: Questo valore rappresenta l'URL destinatario della pagina di destinazione per l'URL della pagina di destinazione.</li></ul> |
-| Dashboard e Generazione segnalibro | Genera automaticamente un dashboard e segnalibri per l'integrazione. |
+| Invalidi | Numero di indirizzi e-mail non validi. |
+| Campagna | ID campagna marketing. |
+| Along Pass | L’evento Clic consente di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
+| Email eVar | Un indirizzo e-mail dal sistema DreamMail. Questa eVar e-mail è associata al comportamento dei visitatori a valle sul sito (carrelli abbandonati, acquisti, ecc.) che viene inserito nel sistema DreamMail e può essere utilizzato a scopo di remarketing. |
+| Evento Spotlight | Evento che può essere esportato nei segmenti di remarketing. |
+| Acquisti Spotlight | Evento che può essere esportato nei segmenti di remarketing. |
+| Valore Spotlight | Evento Revenue che può essere esportato nei segmenti di ricommercializzazione. |
+| TotaleClic | L’evento Clic consente di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
+| Segmenti | Questa integrazione crea i segmenti definiti dal partner visualizzati nella sezione Segmenti partner. Inoltre, puoi selezionare segmenti esistenti a livello di suite di rapporti da includere nell'integrazione. |
+|  Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
+| Raccolta dati | Selezionate Plug-in **** JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione (vedete ). Selezionate **Automated Solution** se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l'integrazione:<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail.</li><li>Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail.</li></ul> |
+| Generazione di dashboard e segnalibri | Genera automaticamente dashboard e segnalibri per l'integrazione. |
