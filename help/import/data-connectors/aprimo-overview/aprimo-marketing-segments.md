@@ -1,24 +1,13 @@
 ---
-description: 'Questa integrazione offre i seguenti segmenti di marketing dinamici '
-seo-description: 'Questa integrazione offre i seguenti segmenti di marketing dinamici '
+description: 'Questa integrazione include i seguenti segmenti di marketing dinamici '
+seo-description: 'Questa integrazione include i seguenti segmenti di marketing dinamici '
 seo-title: Segmenti di marketing dinamici
 title: Segmenti di marketing dinamici
-uuid: 0090 b 356-aced -423 e-aefe -61 ce 23 d 5 a 86 f
-index: y
-internal: n
-snippet: y
+uuid: 0090b356-aced-423e-aefe-61ce23d5a86f
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Segmenti di marketing dinamici{#dynamic-marketing-segments}
-
-Questa integrazione offre i seguenti segmenti di marketing dinamici:
-
-* **Profili di acquisto:** Aumenta gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate dai pattern di acquisto dei visitatori.
-* **Profilo comportamentale prodotto/contenuto:** Raggiungi potenziali clienti tramite segmenti di marketing in base alle visualizzazioni dei prodotti e ai profili di accesso ai contenuti.
-* **Profilo di abbandono carrello:** Aiutare i visitatori a convertire in clienti campagne ben ottimizzate progettate appositamente per coloro che hanno esitazioni a completare i carrelli.
-* I clienti possono anche creare e pianificare segmenti di remarketing personalizzati specifiche per le esigenze dei loro utenti.
 
