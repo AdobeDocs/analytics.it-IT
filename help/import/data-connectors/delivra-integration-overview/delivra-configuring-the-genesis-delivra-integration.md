@@ -1,29 +1,26 @@
 ---
-description: Attività e informazioni necessarie prima di eseguire la procedura guidata di integrazione dei Connettori dati per implementare l'integrazione dei Connettori dati.
-seo-description: Attività e informazioni necessarie prima di eseguire la procedura guidata di integrazione dei Connettori dati per implementare l'integrazione dei Connettori dati.
-seo-title: Preparazione all'integrazione delle e-mail dei connettori dati
-title: Preparazione all'integrazione delle e-mail dei connettori dati
-uuid: f 453 e 45 a -4 f 56-4 bb 0-ac 24-9 ebc 78 e 684 f 9
-index: y
-internal: n
-snippet: y
+description: Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
+seo-description: Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
+seo-title: Preparazione all'integrazione e-mail dei connettori dati
+title: Preparazione all'integrazione e-mail dei connettori dati
+uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Preparazione all'integrazione delle e-mail dei connettori dati{#preparing-for-the-data-connectors-email-integration}
+# Preparazione all'integrazione e-mail dei connettori dati{#preparing-for-the-data-connectors-email-integration}
 
-Attività e informazioni necessarie prima di eseguire la procedura guidata di integrazione dei Connettori dati per implementare l'integrazione dei Connettori dati.
+Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
 
-Adobe Analytics® offre alle organizzazioni informazioni fruibili e in tempo reale sulle strategie online e sulle iniziative di marketing. Combinato con Delivra, Analytics offre il remarketing basato sul targeting comportamentale. Migliora il marketing di destinazione e comprendi l'efficacia delle campagne grazie all'integrazione diretta dei dati di analisi Web Delivra e Analytics.
+Adobe Analytics® fornisce alle organizzazioni informazioni fruibili e in tempo reale sulle strategie e le iniziative di marketing online. In combinazione con Delivra, Analytics fornisce remarketing basato sul targeting comportamentale. Migliorate il marketing di destinazione e acquisite informazioni sull'efficacia delle campagne grazie all'integrazione perfetta dei dati di analisi Web di Analytics.
 
-Prima di configurare l'integrazione per il tuo account e-mail, devi disporre di quanto segue:
+Per configurare l’integrazione per l’account e-mail, dovete disporre dei seguenti elementi:
 
-* Conoscere l'indirizzo e-mail da utilizzare per ricevere notifiche relative alle operazioni integrate.
-* Conoscere l'ID account (l'identificatore univoco assegnato alla tua organizzazione da Delivra).
-* Identifica o crea la variabile personalizzata che verrà utilizzata per acquisire l'ID destinatario/ID visitatore.
-* Identifica o crea la variabile personalizzata che verrà utilizzata per acquisire l'ID messaggio (spesso si tratta della variabile campagna).
-* Identificare e abilitare gli eventi personalizzati che verranno utilizzati per raccogliere ulteriori dati della campagna e-mail. Questa integrazione utilizza diversi eventi personalizzati per memorizzare i dati da Delivra, inclusi Sent, Delivered, Open, Click Ked, Unsigned Bed, Total Bounencies e Share.
+* Sapere quale indirizzo e-mail si desidera utilizzare per ricevere le notifiche relative alle operazioni integrate.
+* Conoscere l'ID account (l'identificatore univoco assegnato alla tua organizzazione da Delivery).
+* Identifica o crea la variabile personalizzata da utilizzare per acquisire l’ID destinatario/ID visitatore.
+* Identificare o creare la variabile personalizzata da utilizzare per acquisire l'ID messaggio (spesso si tratta della variabile della campagna).
+* Identificate e abilitate gli eventi personalizzati da utilizzare per raccogliere ulteriori dati sulle campagne e-mail. Questa integrazione utilizza diversi eventi personalizzati per memorizzare i dati di Recapra, tra cui Inviato, Consegnato, Aperto, Clic, Annulla sottoscrizione, Totale bacheche e Azioni.
 
