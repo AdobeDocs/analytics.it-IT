@@ -1,18 +1,34 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Connettore dati contactlab per Adobe Analytics
+seo-title: Connettore dati ContactLab per Adobe Analytics
 solution: Analytics
-title: Connettore dati contactlab per Adobe Analytics
-uuid: 9 e 6 ed 7 cd-dce 1-4 c 00-9090-d 4306202 e 3 ea
-index: y
-internal: n
-snippet: y
+title: Connettore dati ContactLab per Adobe Analytics
+uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Connettore dati contactlab per Adobe Analytics{#contactlab-data-connector-for-adobe-analytics}
+# Connettore dati ContactLab per Adobe Analytics{#contactlab-data-connector-for-adobe-analytics}
 
+L’integrazione di ContactLab e Adobe Analytics consente agli attuali clienti di ContactLab di incrementare i profitti del marketing via e-mail. Consente di comprendere l'efficacia delle campagne da qualsiasi angolazione, e quindi di rivendere i prodotti ai clienti in base all'abbandono del carrello, agli acquisti di prodotti, alle visualizzazioni dei prodotti e altro ancora.
+
+Questa integrazione sincronizza automaticamente le metriche delle e-mail con Adobe Analytics per il marketing a circuito chiuso con il pubblico giusto, con la massima efficacia.
+
+## Vantaggi e funzionalità principali{#key-benefits-and-features}
+
+Elenca i principali vantaggi dell'integrazione tra Adobe Analytics e ContactLab.
+
+* Consolidare i dati di marketing e analisi e-mail in un'unica interfaccia di reporting.
+* Fornisce rapporti sul traffico e sulla conversione in base ai dettagli a livello di sondaggi, domande e risposte.
+* Ottimizzate le campagne e-mail mediante conversione e contributo alle entrate e al successo del sito.
+* Rivendita i visitatori principali e i segmenti di mercato basati sull'abbandono del carrello, l'acquisto di prodotti, le visualizzazioni dei prodotti (e molto altro), con dati attuali e storici (fino a 90 giorni prima dell'attivazione).
+
+## Prerequisiti per i clienti Adobe {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
+
+* Deve essere un cliente corrente di Adobe Analytics.
+* Devono disporre dei privilegi di amministratore.
+* Devono essere disponibili 2 eVar abilitate nella suite di rapporti.
+* Devono essere abilitati 5 eventi disponibili nella suite di rapporti.
