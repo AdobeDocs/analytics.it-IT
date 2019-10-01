@@ -1,36 +1,33 @@
 ---
-description: 'Una volta attivata, l''integrazione DFA dei connettori dati fornisce le metriche seguenti per i rapporti di Adobe Analytics '
-keywords: DFA
-seo-description: 'Una volta attivata, l''integrazione DFA dei connettori dati fornisce le metriche seguenti per i rapporti di Adobe Analytics '
-seo-title: Funzioni per l'integrazione
+description: 'Una volta attivata, l''integrazione DFA dei Connettori dati fornisce le metriche seguenti per i report Adobe Analytics '
+keywords: DFAE
+seo-description: 'Una volta attivata, l''integrazione DFA dei Connettori dati fornisce le metriche seguenti per i report Adobe Analytics '
+seo-title: Funzioni di integrazione
 solution: Analytics
-title: Funzioni per l'integrazione
+title: Funzioni di integrazione
 topic: Connettori dati
-uuid: 4 ad 8 e 6 e 8-3449-498 a -8596-37 c 0 ac 1657 cd
-index: y
-internal: n
-snippet: y
+uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Funzioni per l'integrazione{#integration-features}
+# Funzioni di integrazione{#integration-features}
 
-Una volta attivata, l'integrazione DFA dei connettori dati fornisce le metriche seguenti per i rapporti di Adobe Analytics:
+Una volta attivata, l'integrazione DFA dei connettori dati fornisce le metriche seguenti per i report Adobe Analytics:
 
-* View-through
-* Clic su DFA
+* Visualizzazione
+* Clic DFA
 * Impressioni
-* (Facoltativo) Dati costi DFA
-* (facoltativo) Errori query DFA, Timeout
+* (facoltativo) Dati sui costi DFA
+* (facoltativo) Errori query DFA, timeout
 
 >[!NOTE]
 >
->Questa integrazione non fornisce supporto per i tracker (precedentemente fate clic sui comandi). I tracker vengono utilizzati per registrare il numero di clic sui collegamenti di testo, i collegamenti nei messaggi e-mail o altri elementi codificati in un sito Web.
+>Questa integrazione non supporta i tracciatori di clic (precedentemente clic sui comandi). I tracciatori di clic vengono utilizzati per registrare il numero di clic su collegamenti di testo, collegamenti in messaggi e-mail o su altri elementi che sono codificati in un sito Web.
 
-L'integrazione DFA dei connettori dati crea automaticamente i codici di monitoraggio DFA dai dati restituiti da DFA. Questi codici di tracciamento sono costruiti per identificare in modo univoco un annuncio e il relativo Posizionamento e Creative. Di seguito viene delineata la struttura del codice di tracciamento, a seconda della versione dell'integrazione. La versione 1.5 è simile alla seguente:
+L’integrazione DFA dei connettori dati crea automaticamente i codici di monitoraggio DFA a partire dai dati restituiti dal DFA. Questi codici di tracciamento sono creati per identificare in modo univoco un annuncio insieme ai relativi Collocamenti e Creative. Di seguito viene illustrata la struttura del codice di tracciamento, a seconda della versione dell'integrazione. La versione 1.5 è simile alla seguente:
 
 ![](assets/DFA_id_struct1_5.png)
 
@@ -40,30 +37,30 @@ La versione 2.0 è simile alla seguente:
 
 Questi ID fungono da chiave condivisa tra Genesis e DFA per associare le classificazioni e le metriche corrette.
 
-| ID sito | Il sito 3 rd party in cui è ospitato l'annuncio. La classificazione Nome sito fornisce un nome descrittivo di questo ID sito. |
+| ID sito | Il sito di terze parti in cui è stato ospitato l'annuncio. La classificazione Nome sito fornisce un nome descrittivo di questo ID sito. |
 |---|---|
-| ID annuncio | Un ID per il messaggio commerciale inviato a un utente. La classificazione Nome annuncio contiene il nome dell'annuncio definito dall'organizzazione nel sistema DFA. Ad esempio: `Hybrid Coup Textlink - Build`. |
-| ID posizionamento | Una rappresentazione nell'account DFA di un sito Web, una parte di un sito Web o un gruppo di siti Web in cui è stato acquistato l'annuncio. |
-| ID creativo | Immagine, SWF Flash o altra risorsa da mostrare al visitatore. La classificazione Creative Name contiene il nome fornito a tale creatività nell'interfaccia DFA. |
+| ID annuncio | Un ID per il messaggio commerciale inviato a un utente. La classificazione Ad Name (Nome annuncio) contiene il nome dell'annuncio, come definito dall'organizzazione nel sistema DFA. Ad esempio: `Hybrid Coup Textlink - Build`. |
+| ID posizionamento | Una rappresentazione nel proprio account DFA di un sito Web, di una parte di un sito Web o di un gruppo di siti Web in cui è stato acquistato spazio per gli annunci. |
+| Creative ID | Immagine, SWF Flash o altra risorsa che verrà mostrata al visitatore. La classificazione Nome creativo contiene il nome fornito a questo creativo nell’interfaccia DFAE. |
 
-Le altre due classificazioni, Strumento di consegna (doubleclick per Advertiser) e Channel (Banner Ad) hanno gli stessi valori per qualsiasi campagna DFA e contribuiscono a distinguere i dati importati DFA.
+Le altre due classificazioni, Strumento di consegna (DoubleClick for Advertiser) e Canale (Banner Ad) hanno gli stessi valori per qualsiasi campagna DFA e aiutano a distinguere i dati DFA importati.
 
-## Searchcenter De-Duplication {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
+## De-Duplicazione SearchCenter {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
-L'integrazione DFA è ora basata su Adobe searchcenter. Abilitando la duplicazione di searchcenter tramite la procedura guidata Connettori dati, i visitatori basati su ricerca non provocano l'eliminazione dei dati da Floodlight Server di DFA e *`s.campaign`* non verranno completati da DFA, permettendo quindi al visitatore di compilarlo. Inoltre, DFA e searchcenter ora popolano i valori di deduplicazione nelle variabili per ogni prodotto.
+L’integrazione DFA ora è in grado di riconoscere Adobe SearchCenter. Attivando la deduplicazione SearchCenter tramite la procedura guidata Connettori dati, i visitatori guidati dalla ricerca non causeranno il pulling dei dati dal server di Floodlight del DFA e non *`s.campaign`* verranno compilati dal DFA, consentendo quindi a SearchCenter di compilarli. Inoltre, DFA e SearchCenter ora popolano i valori di deduplicazione nelle variabili per ogni prodotto.
 
-L'elenco seguente evidenzia la logica abilitata quando è abilitata la funzione di riduplicazione searchcenter:
+Nell'elenco seguente è illustrata la logica abilitata quando la deduplicazione SearchCenter è abilitata:
 
 Se **[!UICONTROL DFA]** &gt; **[!UICONTROL SearchCenter deduplication]** è selezionato nella procedura guidata:
 
-* Nel caso di un click-through DFA, l'integrazione popolerà la stringa «DFA Clickthrough» all'evar SCM configurato.
-* Nel caso di una visualizzazione DFA, l'integrazione popolerà la stringa «DFA Viewthrough» all'evar SCM.
+* Nel caso di un click-through DFA, l'integrazione popolerà la stringa "Clickthrough DFA" nella eVar SCM configurata.
+* Nel caso di una visualizzazione "through" DFAE, l’integrazione inserisce nella eVar SCM la stringa "DFA Viewthrough".
 
 Se **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** è selezionato nella procedura guidata:
 
-* Nel caso di una visualizzazione DFA, l'integrazione popolerà la stringa «DFA Viewthrough» all'evar SCM.
+* Nel caso di una visualizzazione "through" DFAE, l’integrazione inserisce nella eVar SCM la stringa "DFA Viewthrough".
 
 >[!NOTE]
 >
->Se è abilitata la funzione searchcenter &gt; DFA de-duplicate e il parametro della stringa query searchcenter è impostato, la visita non sarà considerata per l'elaborazione DFA. Questo significa che il parametro della stringa query searchcenter deve essere diverso dal parametro click-through DFA, e nessun annuncio Visualizza deve impostare il parametro della stringa query searchcenter.
+>Se è abilitata la deduplicazione SearchCenter &gt; DFA e viene impostato il parametro della stringa di query SearchCenter, la visita non verrà considerata per l'elaborazione DFA. Ciò significa che il parametro della stringa di query SearchCenter deve essere diverso dal parametro click-through del DFA e che nessun annuncio display deve impostare il parametro della stringa di query SearchCenter.
 
