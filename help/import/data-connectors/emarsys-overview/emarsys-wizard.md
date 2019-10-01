@@ -4,11 +4,8 @@ seo-description: La procedura guidata di integrazione dei connettori dati illust
 seo-title: Esecuzione dell'integrazione guidata Connettori dati
 title: Esecuzione dell'integrazione guidata Connettori dati
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -29,4 +26,4 @@ La procedura guidata di integrazione dei connettori dati illustra il processo di
 1. Nella **[!UICONTROL emarsys xpress Data Connectors Integration]** pagina, rivedete il testo, quindi selezionate la casella di controllo per accettare le spese associate all'integrazione, quindi fate clic su **[!UICONTROL Next]**.
 
    Questa pagina fornisce una panoramica dell’integrazione, con utili collegamenti per ulteriori informazioni. A questa integrazione sono associate sia le tariffe Adobe che emarsys. Contatta i rappresentanti di vendita appropriati per entrambe le organizzazioni e assicurati di conoscere la struttura delle tariffe.
-1. Completate la procedura guidata [di integrazione dei connettori]dati (https://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html).
+1. Completa la procedura guidata di integrazione dei connettori dati.
