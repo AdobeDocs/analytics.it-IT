@@ -1,20 +1,20 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Panoramica di Attribuzione IQ
-title: Panoramica di Attribuzione IQ
-uuid: bb 345642-4 f 45-4 fb 8-82 d 0-803248 dd 52 ea
+seo-title: Panoramica di Attribution IQ
+title: Panoramica di Attribution IQ
+uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 54f85d1e9a94f137666864158869b6cccf02cc13
 
 ---
 
 
-# Panoramica di Attribuzione IQ
+# Panoramica di Attribution IQ
 
 >[!IMPORTANT]
 >
->L'IQ di attribuzione è disponibile per tutti i clienti negli SKU di Adobe Analytics Ultimate, Prime, Select e Foundation.
+>IQ attribuzione è disponibile per tutti i clienti negli SKU Adobe Analytics Ultimate, Prime, Select e Foundation.
 
 ## Valore commerciale di Attribution IQ {#section_E82B97114E1641A8AE911F57AEB3240A}
 
@@ -68,19 +68,19 @@ Per illustrare l’impatto degli intervalli di lookback di attribuzione, applich
 
 Quando si utilizza l’**intervallo di lookback di attribuzione per visita**, la conversione di ogni visita viene distribuita in modo indipendente:
 
-* Il/$ 10 della prima visita viene suddiviso in modo uniforme tra Ricerca, Visualizzazione, Social ed E-mail, ogni destinatario che riceve/$ 2.50.
-* Nella seconda visita, Cerca e invia per e-mail riceverebbe ogni metà della conversione/$ 5, quindi le opzioni E-mail e Ricerca riceveranno un altro/$ 2.50.
-* Infine, alla visita finale, l'e-mail riceve tutto il credito per la conversione/$ 2.
+* Il /$10 della prima visita sarà suddiviso in modo uniforme tra Ricerca, Visualizzazione, Social e E-mail, ciascuna ricevente /$2,50.
+* Alla seconda visita, Ricerca e E-mail riceverebbero ciascuna metà della conversione /$5, quindi E-mail e Ricerca riceverebbero un altro /$2,50.
+* Infine, alla visita finale, Email riceverebbe tutto il credito per la conversione /$2.
 
 Nell’**intervallo di lookback per visitatore**, tutte le conversioni sono considerate insieme, tuttavia il calcolo è leggermente più complesso poiché sono presenti più conversioni.
 
-* La prima conversione di $ 10 viene suddivisa in modo uniforme tra Ricerca, Visualizzazione, Social ed E-mail.
-* La conversione secondo/$ 5 verrà quindi suddivisa tra i canali presenti in quella visita e i canali precedenti dalla visita precedente: Cerca = (2/6) */$ 5 =/$ 1.67, Display = (1/6) */$ 5 =/$ 0.83, Social = (1/6) */$ 5 =/$ 0.83, Email = (2/6) */$ 5 =/$ 1.67.
-* Infine, l'ultima conversione viene suddivisa in tutti i canali per il visitatore: Cerca = (2/7) */$ 2 =/$ 0.57, Display = (1/7) */$ 2 =/$ 0.29, Social = (1/7) */$ 2 =/$ 0.29, Email = (3/7) */$ 2 =/$ 0.86.
+* La prima conversione /$10 verrebbe suddivisa in modo uniforme tra Search, Display, Social e Email.
+* La seconda conversione /$5 sarebbe quindi divisa tra i canali presenti in quella visita così come i canali precedenti dalla visita precedente: Ricerca = (2/6) * /$5 = /$1.67, Visualizzazione = (1/6) * /$5 = /$0.83, Social = (1/6) * /$5 = /$0.83, E-mail = (2/6) * /$5 = /$1.67.
+* Infine, l'ultima conversione viene suddivisa tra tutti i canali del visitatore: Ricerca = (2/7) * /$2 = /$0.57, Visualizzazione = (1/7) * /$2 = /$0.29, Social = (1/7) * /$2 = /$0.29, E-mail = (3/7) * /$2 = /$0.86.
 
 Segue un riepilogo dei risultati sotto forma di tabella:
 
-| Canale | Entrate (lineare/visita) | Revenue (Linear/Visitor) |
+| Canale | Entrate (lineare/visita) | Entrate (lineare/visitatore) |
 |---|---|---|
 | Cerca | /$5.00 | /$4.74 |
 | Visualizzazione | /$2.50 | /$3.62 |
@@ -205,7 +205,7 @@ In questo caso A, B e C erano tutti impostati allo stesso tempo sull’hit 1, D 
 
 Attribution IQ assegna tutto il credito percentuale per l’hit a qualsiasi valore presente su di esso. Nell’esempio precedente, A, B e C riceveranno quindi il 40%, ossia 0,4 conversioni; D riceverà il 20%, ossia 0,2 conversioni, mentre E ed F riceveranno ciascuno il 40% delle conversioni, ossia 0,4. Un rapporto sull’attribuzione a forma di U su questi hit genererebbe i seguenti dati:
 
-| Variabile con più valori | Conversioni (a forma usa/U) |
+| Variabile con più valori | Conversioni (a forma di U/Visita) |
 |--- |---|
 | A | 0,4 |
 | B | 0,4 |
@@ -216,4 +216,12 @@ Attribution IQ assegna tutto il credito percentuale per l’hit a qualsiasi valo
 | Totale | 1 |
 
 >[!NOTE]
->A causa dell'allocazione a livello di hit dei modelli di attribuzione, la somma di ogni elemento di riga del report potrebbe non corrispondere al totale a causa di ogni valore che riceve il credito totale della percentuale appartenente all'hit in cui era contenuto.
+>A causa dell'allocazione a livello di hit dei modelli di attribuzione, la somma di ogni elemento riga del report potrebbe non essere uguale al totale a causa del fatto che ogni valore riceve il credito percentuale totale appartenente all'hit in cui era contenuto.
+
+## Attribuzione con segmentazione
+
+L'attribuzione viene sempre eseguita prima della segmentazione e la segmentazione viene eseguita prima dell'applicazione dei filtri per report. Questi principi si applicano anche alle suite di rapporti virtuali (VRS) a cui è stato applicato un segmento.
+
+Ad esempio, se crei una VRS con un segmento "Display Hits" applicato, potresti vedere altri canali di marketing restituiti in una tabella quando l'attribuzione è attivata. Ciò si verifica perché l'attribuzione viene eseguita su un dataset non segmentato.
+
+![](assets/vrs-aiq-example.png)
