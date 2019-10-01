@@ -1,23 +1,44 @@
 ---
-description: Questa integrazione combina le funzionalità di ricerca dei clienti della finestra di ricerca Qualtrics Research Suite con i dati avanzati che stai raccogliendo in Adobe Analytics per creare sofisticati analisi e opportunità di ottimizzazione per la tua organizzazione.
-seo-description: Questa integrazione combina le funzionalità di ricerca dei clienti della finestra di ricerca Qualtrics Research Suite con i dati avanzati che stai raccogliendo in Adobe Analytics per creare sofisticati analisi e opportunità di ottimizzazione per la tua organizzazione.
-seo-title: Connettore dati di Qualtrics per Adobe Analytics
+description: Questa integrazione combina le capacità di ricerca dei clienti della Qualtrics Research Suite con i dati avanzati raccolti in Adobe Analytics per creare potenti opportunità di analisi e ottimizzazione per la vostra organizzazione.
+seo-description: Questa integrazione combina le capacità di ricerca dei clienti della Qualtrics Research Suite con i dati avanzati raccolti in Adobe Analytics per creare potenti opportunità di analisi e ottimizzazione per la vostra organizzazione.
+seo-title: Connettore dati Qualtrics per Adobe Analytics
 solution: Analytics
-subtopic: Qualificazioni
-title: Connettore dati di Qualtrics per Adobe Analytics
+subtopic: Qualtric
+title: Connettore dati Qualtrics per Adobe Analytics
 topic: Connettori dati
-uuid: f 1 fa 90 b 6-1 b 80-4 da 4-a 39 b-efb 8 bac 1692 a
-index: y
-internal: n
-snippet: y
+uuid: f1fa90b6-1b80-4da4-a39b-efb8back1692a
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Connettore dati di Qualtrics per Adobe Analytics{#qualtrics-data-connector-for-adobe-analytics}
+# Connettore dati Qualtrics per Adobe Analytics{#qualtrics-data-connector-for-adobe-analytics}
 
-Questa integrazione combina le funzionalità di ricerca dei clienti della finestra di ricerca Qualtrics Research Suite con i dati avanzati che stai raccogliendo in Adobe Analytics per creare sofisticati analisi e opportunità di ottimizzazione per la tua organizzazione.
+Questa integrazione combina le capacità di ricerca dei clienti della Qualtrics Research Suite con i dati avanzati raccolti in Adobe Analytics per creare potenti opportunità di analisi e ottimizzazione per la vostra organizzazione.
 
-Questa integrazione bidirezionale connette prima i dati della risposta sondaggio di Qualtrics con i dati clickstream del visitatore. Quindi inserisce azioni comportamentali e attributi pertinenti, da Adobe Analytics, nuovamente nel reporting dei sondaggi di Qualtrics.
+Questa integrazione bidirezionale collega innanzitutto i dati della risposta del sondaggio Qualtrics con i dati del clickstream dei visitatori. Quindi inserisce azioni e attributi comportamentali rilevanti, da Adobe Analytics, nel reporting del sondaggio Qualtrics.
+
+## Vantaggi e funzionalità principali{#key-benefits-and-features}
+
+* Crea segmenti di utenti in base alle risposte date dagli utenti a domande specifiche del sondaggio.
+* Generazione di rapporti sul traffico e sulla conversione in base a sondaggi, domande e livelli di risposta.
+* Utilizza solo 1 ListVar, 1 eVar e 1 evento per integrare sondaggi Qualtrics illimitati.
+* Migliorate la creazione di report sui criteri di valutazione con fino a 5 dimensioni di conversione personalizzate, 5 dimensioni di traffico personalizzate, 5 eventi di successo personalizzati e più di 20 altre metriche e dimensioni standard tracciate con Adobe Analytics.
+* I dati di sondaggio integrati all'interno di Adobe Analytics fluiscono "live" durante l'invio dei sondaggi. Le esportazioni verso i prodotti alternativi avvengono quotidianamente.
+
+## Prima di attivare questo connettore{#before-you-activate-this-connector}
+
+### Prerequisiti Adobe {#section-fd37a66150c34cd6b494d13f75e5fb0d}
+
+* Deve essere un cliente corrente di Adobe Analytics.
+* Deve essere un utente amministratore.
+* Nella suite di rapporti deve essere presente 1 variabile Elenco disponibile e abilitata.
+* Nella suite di rapporti deve essere presente una variabile eVar (o prop) disponibile e abilitata.
+* Devono essere disponibili 1 evento personalizzato nella suite di rapporti.
+
+### Prerequisiti per la query {#section-dbb780af47c145d7b6ae12acde3ca94c}
+
+* Deve essere un cliente corrente della Qualtrics Research Suite.
+* Deve essere un utente a cui sono state assegnate le autorizzazioni per abilitare l'integrazione di Adobe Analytics.
+* Deve essere in grado di generare un token Adobe Analytics nell’ **[!UICONTROL Qualtrics IDs]** area di Research Suite.
