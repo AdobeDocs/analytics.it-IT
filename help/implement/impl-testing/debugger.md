@@ -1,64 +1,82 @@
 ---
-description: Installare Adobe Experience Cloud Debugger. Il debugger esamina i tag per Analytics Cloud, Adobe Target, Advertising Cloud, Identity Service, Dynamic Tag Management e Experience Platform Launch.
-seo-description: Installare Adobe Experience Cloud Debugger. Il debugger esamina i tag per Analytics Cloud, Adobe Target, Advertising Cloud, Identity Service, Dynamic Tag Management e Experience Platform Launch.
-seo-title: Debugger di Experience Cloud
-title: Debugger di Experience Cloud
-uuid: e 4 b 35 a 89-a 41 f -44 a 8-9 e 3 f -6 e 872 c 4487 c 1
+description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger esamina i tag per Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
+seo-description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger esamina i tag per Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
+seo-title: Adobe Experience Cloud Debugger precedente
+title: Adobe Experience Cloud Debugger precedente
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
-# Debugger di Experience Cloud
+# Adobe Experience Cloud Debugger precedente
 
-Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. The [!UICONTROL Debugger] inspects tags for the [!DNL Analytics Cloud], Adobe [!DNL Target], [!DNL Advertising Cloud], [!DNL Experience Cloud] ID Service, [!UICONTROL Dynamic Tag Management], and [!UICONTROL Adobe Experience Platform Launch].
+> [!IMPORTANT] Questo strumento di debug non viene più mantenuto. Adobe consiglia di utilizzare invece l’estensione [Chrome di](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)Adobe Experience Cloud Debugger.
 
-## Experience Cloud Debugger {#topic_E05CEAF0682E483A9AB147D774CF2188}
+Vengono [!UICONTROL Legacy Debugger] analizzati i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di visualizzare i dati inviati ad Adobe su qualsiasi pagina del sito. Potete utilizzare queste informazioni per risolvere eventuali problemi o convalidare l'implementazione dell'organizzazione.
 
-Install the Adobe Experience Cloud [!UICONTROL Debugger]. The [!UICONTROL Debugger] inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Identity Service, Dynamic Tag Management, and Experience Platform Launch.
+## Installazione del debugger legacy
 
->[!IMPORTANT]
->
->Adobe recommends using the [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) extension for Chrome.
+Creare un bookmarklet JavaScript per installare il debugger.
 
-Quando viene eseguito nel browser, mostra le richieste di immagini che trasmettono dati da quella pagina nelle soluzioni Experience Cloud, insieme a eventuali valori di variabili o parametri acquisiti. Questo consente a voi e agli sviluppatori di controllare la validità della vostra implementazione su qualsiasi pagina del sito.
+### Passaggio 1: Copia codice bookmarklet
 
-The [!UICONTROL DigitalPulse Debugger] is officially supported for use in all recent versions and builds of Mozilla Firefox, Google Chrome, Microsoft Internet Explorer, and Safari.
+Copia il codice seguente negli Appunti:
 
->[!NOTE]
->
->Because the [!UICONTROL Debugger] functions by creating a pop-up window when you access a special bookmark in your web browser, certain ad-blocking plug-ins and pop-up blockers might interfere with the loading of the [!UICONTROL Debugger].
+```JavaScript
+javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
+```
 
-## Install the debugger in Chrome {#task_0CEF858083B64F7DB9790567282F7248}
+### Step 2: Paste bookmarklet code into a bookmark
 
-Installa l'estensione di Debugger Experience Cloud nel browser Google Chrome.
+Each browser has different ways of handling bookmarks, but the concept is the same. A bookmark is created with the desired name and the bookmarklet code as the URL.
 
-1. Navigate to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).
-1. Seguite le istruzioni per aggiungere l'estensione a Chrome.
+#### Chrome
 
-## Install the Debugger in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
+If you insist on not using the chrome extension, the legacy debugger bookmarklet can be used instead.[](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla Firefox.
+1. Click the three dots in the top right, then go to Bookmarks &gt; Bookmark Manager. You can also press  +  +  (Windows) or  +  +  (Mac).`Ctrl``Shift``O``Cmd``Shift``O`
+2. In the top right of the bookmark manager, click the three dots, then click 'Add new bookmark'.
+3. In the Name field, label it "Adobe Experience Cloud Debugger", and paste the code snippet into the URL field.
+4. Use the bookmark manager to place your new bookmarklet in the desired location.
 
-1. Right-click the bookmarks sidebar, then click **[!UICONTROL New Bookmark]**.
-1. In the **[!UICONTROL Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name for the new bookmark.
-1. In the **[!UICONTROL Location]** field, paste the code that you copied to your clipboard.
-1. Select **[!UICONTROL Load the Bookmark in the Sidebar]**, if desired.
-1. Fai clic su **[!UICONTROL Add]**.
+#### Firefox
 
-## Install the Debugger in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
+1. Click the three lines in the top right, then go to Library &gt; Bookmarks &gt; Show All Bookmarks. You can also press  +  +  (Windows) or  +  +  (Mac).`Ctrl``Shift``B``Cmd``Shift``B`
+2. Click Organize &gt; New Bookmark.
+3. In the Name field, label it "Adobe Experience Cloud Debugger", and paste the code snippet into the Location field. The Tags and Keyword fields are not required.
+4. Use the library window to place your new bookmarklet in the desired location.
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Internet explorer.
+#### Edge
 
-1. In the [!UICONTROL Favorites Bar], click the **[!UICONTROL Add to Favorites Bar]** icon ![Image](assets/icon_add_to_favorites_bar.png).
+Edge non è in grado di creare manualmente un bookmarklet, ma è possibile modificare l'URL di un segnalibro.
 
-   If the [!UICONTROL Favorites Bar] is hidden, right-click the browser header, then click [!UICONTROL Favorites Bar].
+1. Fate clic sull’icona a forma di stella sul lato destro del campo URL per contrassegnare la pagina corrente come segnalibro.
+2. Denominate il segnalibro "Adobe Experience Cloud Debugger" e salvatelo nella posizione desiderata.
+3. Fate clic sull'icona a stella con le linee per aprire la barra Preferiti.
+4. Fare clic con il pulsante destro del mouse sul segnalibro appena creato, quindi selezionare Modifica URL.
+5. Incollate lo snippet di codice nel campo di testo, quindi premete Invio.
 
-   Viene creato un nuovo segnalibro.
+#### Safari
 
-1. Right-click the bookmark, then click **[!UICONTROL Rename]**.
-1. In the **[!UICONTROL New Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name, then click **[!UICONTROL OK]**.
-1. Right-click the newly created bookmark again, then click **[!UICONTROL Properties]**.
-1. In the **[!UICONTROL URL]** field, paste the code that you copied to your clipboard.
-1. Fai clic su **[!UICONTROL OK]**.
+Safari non è in grado di creare manualmente un bookmarklet, ma è possibile modificare l'URL di un segnalibro.
+
+1. Fate clic sull'icona Condividi in alto a destra, per aprire una finestra modale con segnalibro.
+2. Denominate il segnalibro "Adobe Experience Cloud Debugger" e salvatelo nella posizione desiderata.
+3. Fare clic su Segnalibri &gt; Modifica segnalibri, quindi individuare il segnalibro appena creato.
+4. Fare clic con il pulsante destro del mouse &gt; Modifica indirizzo, quindi incollare lo snippet di codice nel campo di testo.
+
+## Utilizzo del debugger legacy
+
+Per utilizzare il debugger, passare alla pagina desiderata sul sito, quindi fare clic sul bookmarklet. Viene visualizzata una finestra a comparsa che mostra i dati inviati ad Adobe.
+
+> [!NOTE] Alcuni plug-in e blocchi pop-up di blocco di annunci possono interferire con il caricamento della finestra del debugger. Controllate le finestre a comparsa bloccate nel browser e consentitele il corretto funzionamento del debugger.
+
+Il debugger dispone di diverse opzioni, tutte per personalizzare la modalità di visualizzazione dei dati. Nessuna di queste opzioni influisce sulla raccolta dei dati.
+
+* **** Prodotti Experience Cloud visualizzati: Mostra o nasconde le richieste di immagini per ciascun prodotto Experience Cloud.
+* **** Decode URL: L’URL decodifica la richiesta di immagine in modo che corrisponda a quanto viene visualizzato nel reporting. Adobe consiglia di lasciare questa casella selezionata.
+* **** Aggiornamento automatico: Aggiorna automaticamente la finestra a comparsa ogni pochi secondi per verificare la presenza di ulteriori richieste di immagini sulla pagina. Se è necessario copiare/incollare contenuto nel debugger, disattivare l'aggiornamento automatico in modo che la selezione rimanga invariata.
+* **** Formato intuitivo: Attiva/disattiva il formato di visualizzazione tra etichette utili e stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, vedi Parametri [query di raccolta](../js-implementation/data-collection/query-parameters.md) dati.
+
+Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento Adobe Debugger nell'angolo in alto a destra, quindi copia l'indirizzo del collegamento. Modificate il bookmarklet del debugger corrente e incollate lo snippet di codice aggiornato nel campo URL.
