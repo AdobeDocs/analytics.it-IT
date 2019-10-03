@@ -8,7 +8,7 @@ title: Implementazione dell'integrazione
 topic: Connettori dati
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -32,13 +32,7 @@ Per attivare l'integrazione è necessario completare l'integrazione guidata Qual
    | ID organizzazione Qualtrics | [Ricerca del tuo ID organizzazione per la qualità](../qualtrics-overview/qualtrics-org-id.md) |
    | Token di Adobe SiteCatalyst | [Generazione del token Adobe Analytics Qualtrics](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Procedura guidata Passaggio 2 - Mappature variabili**
-
-   | Elenco di risposte rapide | Seleziona una variabile di elenco disponibile dalla suite di rapporti. (potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.) |
-   |---|---|
-   | ID risposta casuale | Seleziona un'eVar o una prop disponibile dalla suite di rapporti. (potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.) |
-   | Server di monitoraggio | Specifica l'impostazione del server di tracciamento (dominio) che utilizzi per tenere traccia dei dati di Adobe Analytics. Usa il server di `trackingServerSecure` tracciamento se è diverso dall’impostazione standard del server di tracciamento. |
-   | Invii sondaggio Qualtrics | Selezionate un evento disponibile dalla suite di rapporti (potrebbe essere necessario abilitare un nuovo evento dall'interno di Report Suite Manager). |
+1. **Procedura guidata Passaggio 2 - Mappature** variabili| Elenco di risposte rapide| Selezionate una variabile di elenco disponibile dalla suite di rapporti. (potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  ||—|—|| ID risposta rapida| Selezionate un'eVar o una prop disponibile dalla suite di rapporti. (potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  || Server di monitoraggio|Fornire l'impostazione del server di tracciamento (dominio) utilizzata per tenere traccia dei dati di Adobe Analytics. Usa il server di `trackingServerSecure` tracciamento se è diverso dall’impostazione standard del server di tracciamento.  || Invii sondaggio per qualtrics| Selezionate un evento disponibile dalla suite di rapporti (potrebbe essere necessario abilitare un nuovo evento dall'interno di Report Suite Manager).  |
 
 1. **Passaggio procedura guidata 3**: Non è richiesto nulla, solo informazioni.
 
