@@ -8,34 +8,27 @@ title: Copiare una variabile di dati di contesto in una eVar
 topic: Strumenti di amministrazione
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
 # Copiare una variabile di dati di contesto in una eVar
 
-Le regole di elaborazione vengono utilizzate per spostare i valori dalle variabili di dati di contesto a proprietà ed eVar.
-
-Le variabili di dati di contesto sono specificate in AppMeasurement nel seguente formato:
-
-```
- s.contextData['search_term']
-```
+Le regole di elaborazione vengono utilizzate per spostare i valori dalle variabili dei dati di contesto a prop ed eVar. Senza le regole di elaborazione, le variabili dei dati di contesto sono prive di significato e non popolano alcun report in Analytics.
 
 L' [!UICONTROL Context Variables] elenco contiene tutte le variabili che sono state inviate alla suite di rapporti nei 30 giorni precedenti. Se conosci il nome della variabile di dati di contesto ma non lo hai inviato nella suite di rapporti corrente, puoi aggiungere un valore digitando il nome della variabile e facendo clic **[!UICONTROL Add variable name context data]**:
 
-![](assets/add-context-variable.png)
+![Aggiungi](assets/add-context-variable.png)
 
-La seguente definizione di regola popola un'eVar per ogni hit che contiene una specifica variabile di dati di contesto:
+L'esempio seguente prende la variabile di dati di `search_term` contesto e ne inserisce il valore in `eVar3`:
 
-| Set di regole | Valore |
-|---|---|
-| Condizione | Se i dati contestuali 'search_term' sono impostati |
-| Azione | Sovrascrivi il valore di eVar3 in 'search_term' |
+![Set](assets/set-context-data.png)
 
-Ad esempio:
+L'esempio di cui sopra funziona bene quando ci sono solo poche eVar da compilare. Se nell'organizzazione sono presenti centinaia di variabili di dati di contesto ciascuna delle quali necessita di un'eVar, è possibile utilizzare istruzioni condizionali. Dozzine di istruzioni condizionali possono essere inserite all'interno di una singola regola di elaborazione, consentendo all'organizzazione di compilare tutte le eVar in una suite di rapporti senza eseguire il limite di 150 regole della regola di elaborazione.
 
-![](assets/set-context-data.png)
+L'esempio seguente viene compilato `prop7` con la variabile di dati contestuali `testhierarchy`, ma solo se `testhierarchy` è impostata:
 
-Consulta Variabili [di dati di](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) contesto nella guida all'implementazione.
+![Condizionale](assets/add-conditional.png)
+
+Per ulteriori informazioni sull'implementazione di variabili di dati di contesto, vedi Variabili [di dati di](../../../../implement/js-implementation/c-variables/context-data-variables.md) contesto nella guida per l'utente Implementa.
