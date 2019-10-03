@@ -3,12 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: API interessate dalla migrazione
 title: API interessate dalla migrazione
-uuid: 9 a 5 d 43 be-e 146-476 b -961 e -49 ea 0 a 30 b 500
-index: y
-internal: n
-snippet: y
+uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
