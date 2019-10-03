@@ -1,36 +1,36 @@
 ---
-description: Il plug-in gettimeparting compila le variabili personalizzate con l'ora del giorno, giorno della settimana e fine settimana e i valori del giorno della settimana in variabili personalizzate. Analysis Workspace offre dimensioni suddivise in tempo reale. Il plug-in deve essere utilizzato se le dimensioni suddivise in base al tempo sono necessarie in altre soluzioni Analytics, all'esterno di Analysis Workspace.
+description: Il plug-in getTimeParting popola le variabili personalizzate con i valori dell'ora del giorno, del giorno della settimana e del fine settimana e del giorno della settimana in variabili personalizzate. Analysis Workspace offre dimensioni pronte per la suddivisione del tempo. Il plug-in deve essere utilizzato se le dimensioni suddivise in base al tempo sono necessarie in altre soluzioni Analytics, al di fuori di Analysis Workspace.
 keywords: Implementazione di Analytics
-seo-description: Il plug-in gettimeparting compila le variabili personalizzate con l'ora del giorno, giorno della settimana e fine settimana e i valori del giorno della settimana in variabili personalizzate. Analysis Workspace offre dimensioni suddivise in tempo reale. Il plug-in deve essere utilizzato se le dimensioni suddivise in base al tempo sono necessarie in altre soluzioni Analytics, all'esterno di Analysis Workspace.
-seo-title: Gettimeparting
+seo-description: Il plug-in getTimeParting popola le variabili personalizzate con i valori dell'ora del giorno, del giorno della settimana e del fine settimana e del giorno della settimana in variabili personalizzate. Analysis Workspace offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of Analysis Workspace.
+seo-title: getTimeParting
 solution: Analytics
 subtopic: Plug-in
-title: Gettimeparting
+title: getTimeParting
 topic: Sviluppatore e implementazione
-uuid: 74 f 696 a 3-7169-4560-89 b 2-478 b 3 d 8385 e 1
+uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
 
 ---
 
 
-# Gettimeparting
+# getTimeParting
 
-Il plug-in gettimeparting compila le variabili personalizzate con l'ora del giorno, giorno della settimana e fine settimana e i valori del giorno della settimana in variabili personalizzate. [!UICONTROL Analysis Workspace] offre dimensioni suddivise nel tempo. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+The getTimeParting plug-in populates custom variables with hour of day, day of week, and weekend and weekday values into custom variables. [!UICONTROL Analysis Workspace] offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of .[!UICONTROL Analysis Workspace]
 
-Questo plug-in acquisisce le informazioni relative alla data e all'ora disponibili nel browser Web dell'utente. Ottiene l'ora del giorno e il giorno della settimana da queste informazioni. quindi converte questi dati nel fuso orario desiderato. Inoltre, account Ora legale.
+This plug-in captures the date and time information available in the user's web browser. It obtains the hour of the day and the day of the week from this information. It then converts this data to the time zone of your choosing. It also accounts for Daylight Savings Time.
 
 >[!NOTE]
 >
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+>The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 ## Plug-in Code {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
-**Sezione di configurazione**
+**Config Section**
 
-Place the following code in the area of the [!DNL s_code.js] file labeled [!UICONTROL CONFIG SECTION], and make the necessary updates as described below.
+Place the following code in the area of the  file labeled , and make the necessary updates as described below.[!DNL s_code.js][!UICONTROL CONFIG SECTION]
 
-`s._tpDST` - un array di valori DST. The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - un array di valori DST. L'array è strutturato nel seguente formato: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -43,7 +43,9 @@ s._tpDST = {
 2016:'4/3,10/2', 
 2017:'4/2,10/1', 
 2018:'4/1,10/7', 
-2019:'4/7,10/6'} 
+2019:'4/7,10/6',
+2020:'4/5,10/4',
+2021:'4/4,10/3'} 
   
 //US 
 s._tpDST = { 
@@ -54,7 +56,9 @@ s._tpDST = {
 2016:'3/13,11/6', 
 2017:'3/12,11/5', 
 2018:'3/11,11/4', 
-2019:'3/10,11/3'} 
+2019:'3/10,11/3',
+2020:'3/8,11/1',
+2021:'3/14,11/7'} 
   
 //Europe 
 s._tpDST = { 
@@ -65,12 +69,14 @@ s._tpDST = {
 2016:'3/27,10/30', 
 2017:'3/26,10/29', 
 2018:'3/25,10/28', 
-2019:'3/31,10/27'}
+2019:'3/31,10/27',
+2020:'3/29,10/25',
+2021:'3/28,10/31'}
 ```
 
-Nota per client Hemisphere settentrionali: nei valori DST dell'array è iniziale DST, end DST.
+Nota per i client dell’emisfero boreale: nell'array i valori DST sono DST start, DST end.
 
-Nota per client Hemisphere australi: nei valori DST dell'array, inizia DST, inizia DST.
+Nota per i client dell’emisfero australe: nell'array i valori DST sono DST end, DST start.
 
 **Parametri**
 
@@ -78,18 +84,18 @@ Nota per client Hemisphere australi: nei valori DST dell'array, inizia DST, iniz
 var tp = s.getTimeParting(h,z);
 ```
 
-* h = (richiesto) Hemisphere - Specificate l'hemisphere in cui convertire l'ora. Si tratta di un valore'n'o's '. Viene utilizzato per determinare come utilizzare l'array DST passato. Se'n'viene passato, il plug-plugin utilizza le date quando DST è attivato. Se's'viene passato, il plug-plugin utilizza le date quando DST è disattivato.
-* z = (facoltativo) Fuso orario - Se si desidera che i dati siano basati su un periodo di tempo specifico, sarà necessario specificare come ore diverse da GMT qui. Nota che deve essere la GMT durante non DST. Se non viene specificato alcun valore, il valore predefinito è GMT (ossia '-5 'per l'ora orientale USA)
+* h = (obbligatorio) Emisfero - Specificate a quale emisfero state convertendo il tempo. È un valore di 'n' o 's'. Viene utilizzato per determinare come utilizzare l'array DST passato. Se viene passato 'n', il plugin usa le date quando DST è attivato. Se viene passato 's', il plugin usa le date quando DST è disattivato.
+* z = (facoltativo) Fuso orario - Se si desidera che i dati siano basati su un periodo di tempo specifico, allora che dovrà essere specificato come orario diverso da GMT qui. Notate che questo deve essere il GMT durante non DST. Se non viene specificato alcun valore, per impostazione predefinita viene impostato su GMT (es. '-5' per US Eastern Time)
 
 **Restituisce**
 
-Restituisce un valore di tempo concatenato al livello e al giorno della settimana, ad esempio:
+Restituisce un valore concatenato di ora a livello di minuto e giorno della settimana, ad esempio:
 
 ```
 8:03 AM|Monday
 ```
 
-You can then use [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) to group visits into time periods. Ad esempio, potete impostare una regola in Generatore regole di classificazione per bucket delle visite tra le 9:00 e le 9:59 di AM su «9:00 AM - 10:00 AM». In alternativa alle classificazioni, puoi fornire ulteriori logica lato client per indirizzare le visite in javascript.
+Potete quindi utilizzare [Classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) per raggruppare le visite in periodi di tempo. Ad esempio, è possibile impostare una regola in Generatore di regole di classificazione per effettuare visite senza intervallo tra le 9:00 e le 9:59 alle 9:00 - 10:00 AM. In alternativa alle classificazioni, è possibile fornire logica aggiuntiva lato client per eseguire il bucket delle visite in JavaScript.
 
 **Esempio di chiamata**
 
@@ -98,9 +104,9 @@ var tp = s.getTimeParting('n','-7');
 s.prop1 = tp;
 ```
 
-**PLUGINS SECTION**
+**SEZIONE PLUG-IN**
 
-Add the following code to the [!UICONTROL PLUGINS SECTION] in the [!DNL s_code.js] file.
+Aggiungete il seguente codice al [!UICONTROL PLUGINS SECTION] [!DNL s_code.js] file.
 
 ```js
 /* 
@@ -121,6 +127,6 @@ s.getTimeParting=new Function("h","z",""
 
 **Note**
 
-* Verifica sempre le installazioni dei plug-in per garantire che la raccolta dati sia come previsto prima di distribuire alla produzione.
-* Le variabili di configurazione devono essere impostate per funzionare correttamente.
+* Verificate sempre le installazioni dei plug-in per garantire che la raccolta dei dati sia come previsto prima della distribuzione in produzione.
+* Per il corretto funzionamento del plug-in è necessario impostare le variabili di configurazione.
 
