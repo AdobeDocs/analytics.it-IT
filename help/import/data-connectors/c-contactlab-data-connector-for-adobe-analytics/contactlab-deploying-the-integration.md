@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementazione dell'integrazione
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -56,16 +56,14 @@ Procedura per completare la procedura guidata di integrazione nell'interfaccia C
 Visualizza la configurazione dell’integrazione con ContactLab in Adobe Experience Cloud
 
 1. Visualizzare il registro delle attività di integrazione.
-
    1. In Adobe Experience Cloud, passa a **[!UICONTROL Support]** &gt; **[!UICONTROL Integration Activity Log]**.
 
       ![](assets/integration_activity_log.png)
 
    1. Cerca voci come **[!UICONTROL Classification Data imported successfully]**, **[!UICONTROL Metrics Data imported successfully]**, e **[!UICONTROL Metric Data exported successfully]**. Queste voci devono essere visualizzate entro 1 giorno dalla distribuzione completata.
 1. Visualizza i tuoi dati di reporting in Adobe Analytics.
-
    1. Andate a **[!UICONTROL Custom Conversion]** &gt; **[!UICONTROL Custom Conversion 1-10]** &gt; **[!UICONTROL Message ID Reports]**.
 
       ![](assets/reporting.png)
 
-   1. Cercate i rapporti di ContactLab. Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
+   1. Cercate i rapporti di ContactLab.  Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
