@@ -4,7 +4,7 @@ seo-description: Accedere ai connettori dati; importare dati di tracciamento da 
 seo-title: Connettori dati di Analytics
 title: Guida introduttiva ai connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -36,32 +36,32 @@ Prima di configurare l'integrazione dei connettori dati per il prodotto, effettu
 * Disponi delle credenziali di accesso necessarie per l'account del prodotto partner, con i diritti di accesso a tutti i dati da integrare nei rapporti di marketing. Potreste desiderare di creare un account e-mail speciale per i distributori di report e per le notifiche relative alle operazioni integrate.
 * Identificate le variabili personalizzate che contengono le informazioni sulla campagna. Questo è comunemente definito codice di tracciamento campagna, ma l'organizzazione potrebbe usare altri termini.
 * Determinare gli eventi che si desidera ricevere le impression e fare clic sui dati. È possibile rinominare gli eventi di conseguenza.
-* Inserite il codice appropriato nella pagina di destinazione in modo che Analytics possa eseguire la modellazione appropriata con i dati provenienti dal prodotto partner. Le istruzioni specifiche per ciascun prodotto partner sono disponibili nella sezione in Data Connectors Showcase nella scheda Risorse.
+* Inserite il codice appropriato nella pagina di destinazione in modo che Analytics possa eseguire la modellazione appropriata con i dati provenienti dal prodotto partner. Specific instructions for each partner product are found in the in the Data Connectors Showcase on the Resources tab.
 
-## Aggiunta di un'integrazione
+## Add an integration
 
-Per accedere alla pagina di [!UICONTROL Data Connectors] destinazione (console) è necessario disporre di un account corrente. È anche consigliabile avere familiarità con Adobe Analytics.
+Per accedere alla pagina di [!UICONTROL Data Connectors] destinazione (console) è necessario disporre di un account corrente. It is also recommended that you are familiar with Adobe Analytics.
 
-1. Accedi ad Adobe Experience Cloud.
+1. Log into the Adobe Experience Cloud.
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 1. Fai clic su **[!UICONTROL Add New]**.
-1. Attraversa l' **[!UICONTROL Add Integration]** interfaccia.
+1. Step through the **[!UICONTROL Add Integration]** interface.
 
-   A seconda dell’integrazione dei singoli prodotti, potrebbe essere necessario fornire informazioni di configurazione specifiche nell’ambito del processo di integrazione.
+   Depending on the individual product integration, you might need to provide specific configuration information as part of the integration process.
 
    Al termine dell'integrazione, l'icona del prodotto partner viene visualizzata nella pagina Rete Connettori dati ed è disponibile nei menu.
 
-## Console Connettori dati
+## Data Connectors Console
 
-Dopo aver attivato un'integrazione, questa viene visualizzata sulla [!UICONTROL Data Connectors] pagina. Potete visualizzare i dettagli e apportare modifiche alla configurazione nella console. Puoi visualizzare integrazioni e integrazioni attive in tutte le suite di rapporti della tua azienda. Potete inoltre visualizzare un registro delle attività, impostare un'integrazione come dashboard, configurare un'integrazione e trovare assistenza.
+After you activate an integration, it displays on the  page. [!UICONTROL Data Connectors] You can view details and make configuration changes on the console. You can view active integrations and integrations across all report suites in your company. You can also view an activity log, set an integration as a dashboard, configure an integration, and find help.
 
-![Connettori dati, console](assets/data-connectors-console.png)
+![Data Connectors console](assets/data-connectors-console.png)
 
-## Segmenti di rilievo nei connettori dati
+## Remarketing segments in data connectors
 
-I segmenti di rilievo sono file di dati creati in base alle variabili utilizzate nell'integrazione dei connettori dati.
+Remarketing segments are data files that are created based on the variables used in a data connectors integration.
 
-Adobe Analytics invia questi dati in file giornalieri separati tramite data warehouse a un FTP creato da Adobe per terze parti. Il terzo distribuisce quindi questi file al client. Le aziende comunemente utilizzano questi per ricommercializzare quelli che possono aver visitato il sito e guardato un prodotto, ma non hanno acquistato. Ad esempio, un cliente può offrire uno sconto a un prodotto che ha visualizzato ma che non ha finito per acquistarlo.
+Adobe Analytics sends these in separate daily files via data warehouse to an FTP created by Adobe for the third party. Il terzo distribuisce quindi questi file al client. Le aziende comunemente utilizzano questi per ricommercializzare quelli che possono aver visitato il sito e guardato un prodotto, ma non hanno acquistato. Ad esempio, un cliente può offrire uno sconto a un prodotto che ha visualizzato ma che non ha finito per acquistarlo.
 
 **Segmenti**
 
@@ -98,13 +98,12 @@ s.events="purchase";
 //Note: Though optional, adding the purchaseID variable increases accuracy by preventing duplicate purchases
 ```
 
-**Problemi comuni**
+**Common Issues**
 
 | Problema | Descrizione |
 | -----------| ---------- |  
 | Nessuna informazione ID prodotto visualizzata nel file Segmento di creazione commenti. | Si verifica quando viene attivato l'evento corretto, ma non è presente alcuna variabile di prodotto nella stessa richiesta di immagine. Per correggere questo problema, accertatevi che la variabile "products" e l'evento corrispondente vengano attivati sulla stessa pagina, come mostrato negli esempi di implementazione riportati sopra. |
 | I file dei segmenti di commento non vengono ricevuti. | Se non ricevi i file, chiedi a ClientCare di contattare uno degli utenti supportati della tua organizzazione per indagare sulla causa della mancata ricezione dei rapporti. |
 
-> [!IMPORTANT]
->
-> È comune per i consulenti impostare una richiesta data warehouse come rapporto pianificato giornaliero, oltre al file del segmento di remarketing dei connettori dati standard. Questa richiesta di data warehouse includerebbe variabili di connettori dati e variabili di connettori non dati, e la richiesta può essere pianificata solo in base alla richiesta specifica della tua organizzazione. Per evitare confusione durante la risoluzione dei problemi, specificare se il file in questione è il file del segmento di remarketing effettivo o una richiesta data warehouse contenente variabili non di genetica.
+
+> [!IMPORTANT] È comune per i consulenti impostare una richiesta data warehouse come rapporto pianificato giornaliero, oltre al file del segmento di remarketing dei connettori dati standard. Questa richiesta di data warehouse includerebbe variabili di connettori dati e variabili di connettori non dati, e la richiesta può essere pianificata solo in base alla richiesta specifica della tua organizzazione. Per evitare confusione durante la risoluzione dei problemi, specificare se il file in questione è il file del segmento di remarketing effettivo o una richiesta data warehouse contenente variabili non di genetica.
