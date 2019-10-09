@@ -1,0 +1,26 @@
+---
+title: useBeacon
+description: useBeacon consente di forzare AppMeasurement a utilizzare l'API sendBeacon dei browser
+keywords: Implementazione di Analytics
+seo-description: useBeacon consente di forzare AppMeasurement a utilizzare l'API sendBeacon dei browser
+translation-type: tm+mt
+source-git-commit: f89d909e539cee2b78798c165fcb405773418056
+
+---
+
+
+# s.useBeacon
+
+La `s.useBeacon` variabile forza la richiesta successiva a utilizzare l'API [](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon)sendBeacon del browser. Utilizzando `s.sendBeacon` è possibile inviare una richiesta HTTP all’esterno del contesto di una pagina. È utile per i collegamenti di uscita e altre situazioni in cui si desidera inviare informazioni prima che la pagina venga scaricata.
+
+L'impostazione di questo valore si applica solo alla richiesta successiva attivata da AppMeasurement. Dopo l'attivazione della richiesta, `s.useBeacon` viene reimpostata su false. Questa variabile si applica sia alle richieste `s.t()` che alle richieste di `s.tl()` immagini.
+
+L'utilizzo della `s.useBeacon` variabile richiede AppMeasurement 2.17.0 o versione successiva.
+
+> [!NOTE] [ExitLinks](s-linktrackvars.md) utilizza automaticamente questa variabile senza ulteriori configurazioni.
+
+## Sintassi
+
+```js
+s.useBeacon = true;
+```
