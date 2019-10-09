@@ -3,9 +3,9 @@ description: Questo documento descrive cosa fare in Adobe Analytics per supporta
 seo-description: Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti di accesso e cancellazione delle persone interessate in base al RGPD.
 seo-title: Adobe Analytics e RGPD
 title: Adobe Analytics e RGPD
-uuid: 16 fd 5 af 8-9148-4 e 09-ad 54-9 e 3 cdd 2 b 3 c 6 d
+uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 ---
 
@@ -18,15 +18,15 @@ Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti 
 
 >[!IMPORTANT]
 >
->I contenuti di questo documento non sono consigli legali e non sono destinati alla sostituzione legale. Fai riferimento all'ufficio legale della tua azienda per una consulenza relativa al RGPD.
+>Il contenuto di questo documento non rappresenta e non intende sostituirsi a una consulenza legale. Fai riferimento all'ufficio legale della tua azienda per una consulenza relativa al RGPD.
 
-Il 25 maggio 2018 è entrato in vigore il Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea. Per altre informazioni sulla risposta di Adobe e sulle conseguenze per i clienti di Adobe, consulta [Il RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Il 25 maggio 2018 è entrato in vigore il Regolamento generale sulla protezione dei dati (General Data Protection Regulation, GDPR) dell'Unione Europea. Per altre informazioni sulla risposta di Adobe e sulle conseguenze per i clienti di Adobe, consulta [Il RGPD e la tua azienda.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 
 Quando Adobe fornisce software e servizi a un'impresa, agisce in qualità di responsabile del trattamento di tutti i dati personali che riceve e conserva per conto dei clienti, in quanto previsto dalla fornitura dei servizi. In qualità di responsabile del trattamento, Adobe elabora i dati personali secondo le istruzioni e le autorizzazioni dell'azienda (ad esempio, in base a quanto previsto dal contratto con Adobe).
 
-In qualità di titolare del trattamento, puoi determinare i dati personali elaborati e memorizzati da Adobe per conto dell'utente. Se usi le soluzioni Experience Cloud, Adobe potrebbe conservare i dati personali per l'utente in base alle soluzioni che usi e alle informazioni che scegli di inviare al tuo account di Adobe Experience Cloud. Per un elenco di esempi, consulta [Privacy di Adobe Experience Cloud](https://www.adobe.com/privacy/marketing-cloud.html#collect).
+In qualità di titolare del trattamento, l'utente determina i dati personali che Adobe elabora e memorizza per suo conto. Se usi le soluzioni Experience Cloud, Adobe potrebbe conservare i dati personali per l'utente in base alle soluzioni che usi e alle informazioni che scegli di inviare al tuo account di Adobe Experience Cloud. Per un elenco di esempi, consulta [Privacy di Adobe Experience Cloud.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
 
-![](assets/gdpr_ready.png)
+![](assets/privacy_ready.png)
 
 ## In che modo Adobe gestisce i dati in base al RGPD {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
@@ -44,14 +44,14 @@ Consulta [Etichettare i dati della suite di rapporti](../../admin/c-data-governa
 
 ## Prerequisiti {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
-* Acquisisci familiarità con la [terminologia RGPD](../../admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7).
-* Se non lo hai già fatto, collega la tua società di accesso a un'organizzazione Experience Cloud. Contatta l'Assistenza clienti di Adobe e fai riferimento a [Organizzazioni e collegamento di account](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
-* Mappa tutte le suite di rapporti di Adobe Analytics che vuoi configurare per la governance dei dati nella tua [organizzazione Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
+* Acquisisci familiarità con la [terminologia RGPD.](/help/admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7)
+* Se non lo hai già fatto, collega la tua società di accesso a un'organizzazione Experience Cloud. Contatta l'Assistenza clienti di Adobe e fai riferimento a [Organizzazioni e collegamento di account.](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)
+* Mappa tutte le suite di rapporti di Adobe Analytics che vuoi configurare per la governance dei dati nella tua [organizzazione Experience Cloud.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
 * Imposta i criteri di conservazione dei dati per ciascuna suite di rapporti in modo da poter rispettare le richieste di accesso e cancellazione del RGPD.
 
    >[!NOTE]
    >
-   >Adobe Analytics non è in grado di assistere le richieste di elaborazione all'API GDPR, ovvero le richieste di accesso o eliminazione ricevute dagli utenti finali, se il periodo di conservazione dei dati non è stato impostato in Adobe Analytics. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati.
+   >Adobe Analytics non è in grado di fornire assistenza nell'elaborazione delle richieste all'API GDPR, ovvero l'elaborazione delle richieste di accesso o di eliminazione ricevute dagli utenti finali, se il periodo di conservazione dei dati non è stato impostato in Adobe Analytics. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati.
 
 * Controlla le tue autorizzazioni: per usare l'interfaccia di gestione della governance dei dati in Adobe Analytics, devi essere un amministratore di Adobe Analytics.
 
