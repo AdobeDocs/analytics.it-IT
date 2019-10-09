@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Esempi di etichettatura
 title: Esempi di etichettatura
-uuid: a 9 a 5 b 937-dbde -4 f 0 f-a 171-005 ef 4 c 79 df 9
+uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -20,9 +20,9 @@ Supponi di avere i dati seguenti:
 * La seconda riga è il nome della variabile. Se ha un’etichetta ID, contiene lo spazio dei nomi assegnato tra parentesi.
 * I dati dei risultati partono dalla terza riga.
 
-| Etichette | I2<br>ID-PERSONCAN@-@ PERSONACC<br><br>-PERSON | I 2<br>ID-DEVICECAN@-@ DEVICEACC<br><br>-ALL | I 2<br>DI-PERSONACC<br>-PERSON | I 2<br>CAN@-@ DEVICEDELL<br>-PERSONACC<br>-ALL | I 2<br>ID-DEVICECAN@-@ DEVICEACC<br><br>-ALL |
+| Etichette | I2<br>ID-<br>PERSONDEL-<br>PERSONACC-PERSONACC | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL | I2<br>DEL-<br>PERSONACC-PERSON | I2<br>DEL-<br>DEVICEDEL-<br>PERSONACC-ALL | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL |
 |---|---|---|---|---|---|
-| **Nome variabile**<br>**(spazio nomi)** | **Myprop 1**<br>**(utente)** | **ID visitatore**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nome**<br>**variabile (spazio dei nomi)** | **MyProp1**<br>**(utente)** | **ID**<br>**visitatore (AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -58,39 +58,39 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | GDPR-7398 | GDPR-9152 |
+| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | GDPR-1866 | GDPR-8216 |
+| John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Vengono influenzate solo le celle sulle righe contenenti AAID = 77 e un'etichetta Dell-DEVICE.
+>[!NOTE] Vengono interessate solo le celle delle righe contenenti AAID = 77 e un'etichetta DEL-DISPOSITIVO.
 
-| user = maryexpanddids<br>= false | user = maryexpanddids<br>= false | user = maryexpanddids<br>= false | user = maryexpanddids<br>= false | user = maryexpanddids<br>= false |
+| user=<br>MaryespandereIDs=false | user=<br>MaryespandereIDs=false | user=<br>MaryespandereIDs=false | user=<br>MaryespandereIDs=false | user=<br>MaryespandereIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
-| GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
-| GDPR-0523 | 99 | GDPR-9045 | GDPR-2864 | Z |
+| Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
+| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
+| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Vengono influenzate solo le celle sulle righe contenenti user = Mary e un'etichetta Dell-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “GDPR-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
+>[!NOTE] Vengono interessate solo le celle delle righe contenenti user=Mary e un'etichetta DEL-PERSON. Inoltre, in pratica, la variabile contenente A_ID sarebbe probabilmente una prop o eVar e il suo valore sostitutivo sarebbe una stringa che inizia con "Privacy-", seguita da un numero casuale (GUID), anziché sostituire il valore numerico con un valore numerico casuale diverso.
 
-| user=Mary<br>expandIDs=true | user = maryexpanddids<br>= true | user = maryexpanddids<br>= true | user = maryexpanddids<br>= true | user = maryexpanddids<br>= true |
+| user=<br>MaryespandereIDs=true | user=<br>MaryespandereIDs=true | user=<br>MaryespandereIDs=true | user=<br>MaryespandereIDs=true | user=<br>MaryespandereIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
-| GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
-| GDPR-5782 | 83 | GDPR-2714 | GDPR-0219 | GDPR-4395 |
-| John | 09 | D | GDPR-8454 | GDPR-8216 |
-| John | 16 | E | GDPR-2911 | GDPR-2930 |
+| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
+| Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
+| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
+| John | 09 | D | Privacy-8454 | Privacy-8216 |
+| John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
@@ -100,4 +100,4 @@ Tenete presente quanto segue:
 * Cells on rows containing `user=Mary` and a `DEL-DEVICE` or `DEL-PERSON` label are impacted, as well as cells with a `DEL-DEVICE` label on rows containing any Visitor ID that occurred on a row containing `user=Mary`.
 * `MyEvar2` nella quarta e nella quinta riga viene aggiornato perché queste righe contengono gli stessi valori ID visitatore di quelli nella prima e nella seconda riga, pertanto l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
 * The values of `MyEvar2` in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request.
-* `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde. `ID-DEVICES` `AAID` Ora corrisponde alle prime cinque righe.
+* `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde. `ID-DEVICES` Now `AAID` matches on the first five rows.
