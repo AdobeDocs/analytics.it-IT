@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Inviare richieste di accesso e cancellazione
 title: Inviare richieste di accesso e cancellazione
-uuid: d 006 cd 5 c-e 3 cd -4385-8683-acaf 73 cb 681 b
+uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
+source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 ---
 
@@ -27,21 +27,21 @@ In qualità di titolare del trattamento, è tua responsabilità ottenere il cons
 
 In qualità di titolare del trattamento dei dati, rientra nelle tue responsabilità verificare l’identità della persona interessata e il suo diritto a ricevere i dati che richiede. Inoltre rientra tra le tue responsabilità accertarsi che alla persona interessata siano restituiti i dati corretti e che non riceva inavvertitamente i dati di un’altra persona interessata.
 
-Questo prevede il controllo dei dati restituiti da Adobe Analytics, come parte della richiesta di accesso RGPD, prima di inviarli alla persona interessata. Particolare attenzione è richiesta nel caso di uso di ID personali e nel caso in cui vengano restituiti non solo i dati in cui è presente l’ID, ma anche i dati per altri risultati su un dispositivo condiviso in cui l’ID era talvolta presente ([Espansione dell’ID](../../admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+Ciò include la revisione dei dati restituiti da Adobe Analytics come parte di una richiesta di accesso alla privacy dei dati prima di inviarli all'interessato. Particolare attenzione è richiesta nel caso di uso di ID personali e nel caso in cui vengano restituiti non solo i dati in cui è presente l’ID, ma anche i dati per altri risultati su un dispositivo condiviso in cui l’ID era talvolta presente ([Espansione dell’ID](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
 
 Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. Puoi decidere quali di questi file restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
 
 ## Inviare le richieste {#section_F70F4D91B7FF4242876338A66D2125C3}
 
-Puoi inviare le richieste di accesso e di cancellazione RGPD tramite il nostro [portale dell’interfaccia utente RGPD](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o tramite l’[API RGPD](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+Puoi inviare l'accesso alla privacy dei dati ed eliminare le richieste tramite il nostro portale [dell'interfaccia utente sulla privacy dei](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) dati o tramite l'API sulla privacy dei [dati.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 >[!NOTE]
 >
->L'API GDPR supporta gli invii in batch per più utenti in una singola richiesta. Il limite attualmente supportato è 1.000 utenti (è possibile avere più ID per ciascun utente) in un unico file JSON della richiesta.
+>L'API Data Privacy supporta l'invio in batch di più utenti in un'unica richiesta. Il limite attualmente supportato è 1.000 utenti (è possibile avere più ID per ciascun utente) in un unico file JSON della richiesta.
 
 ## Richiesta JSON di esempio {#section_DB9DE6492FE740918F91D413E7BAB88F}
 
-Segue un esempio di codice JSON che potrebbe essere inviato tramite l’API o l’interfaccia utente RGPD per richiedere l’elaborazione RGPD per tre utenti.
+Questo è il JSON che potrebbe essere inviato tramite l'API per la privacy dei dati o l'interfaccia utente, richiedendo l'elaborazione della privacy dei dati per tre utenti.
 
 ```
 { 
@@ -53,7 +53,7 @@ Segue un esempio di codice JSON che potrebbe essere inviato tramite l’API o l�
     ], 
     "users": [ 
         { 
-            "key": "GDPR-1234", 
+            "key": "Data Privacy-1234", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -66,7 +66,7 @@ Segue un esempio di codice JSON che potrebbe essere inviato tramite l’API o l�
             ] 
         }, 
         { 
-            "key": "GDPR-1235", 
+            "key": "Data Privacy-1235", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -79,7 +79,7 @@ Segue un esempio di codice JSON che potrebbe essere inviato tramite l’API o l�
             ] 
         }, 
         { 
-            "key": "GDPR-1236", 
+            "key": "Data Privacy-1236", 
             "action": ["access","delete"], 
             "userIDs": [ 
                 { 
@@ -110,9 +110,9 @@ Nota che ci sono tre blocchi nella sezione dell’utente, che rappresentano tre 
 Aspetti da considerare:
 
 * Il valore “5D7236525AA6D9580A495C6C@AdobeOrg” nella sezione “companyContexts” deve essere aggiornato con il valore dell’organizzazione Experience Cloud.
-* I campi “type” e “namespace” sono descritti più dettagliatamente nella sezione [Namespace](../../admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
+* I campi “type” e “namespace” sono descritti più dettagliatamente nella sezione [Namespace](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
 * I campi “description” vengono ignorati.
-* I campi “key” possono contenere qualsiasi valore desiderato. Se disponi di un ID interno che usi per monitorare le richieste RGPD, puoi inserirne il valore qui, per facilitare la corrispondenza tra le richieste nel sistema di Adobe e quelle nei tuoi sistemi.
+* I campi “key” possono contenere qualsiasi valore desiderato. Se disponete di un ID interno che utilizzate per tenere traccia delle richieste di privacy dei dati, potete inserirlo qui, per facilitare la corrispondenza tra le richieste presenti nel sistema Adobe e quelle presenti nei vostri sistemi.
 
 ## Dettagli sulle risposte {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -127,7 +127,7 @@ I dati restituiti per una richiesta di accesso ti forniscono, come titolare del 
    * File CSV con una riga per ogni risultato corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL o ACC-PERSON, ordinate per marca temporale.
    * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL o ACC-PERSON. Ogni voce elenca tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti la marca temporale vengono arrotondati per specificare solo giorni univoci.
 
-* File dispositivo: derivato da hit in cui uno dei campi corrisponde a un ID ID specificato, ma nessuno corrisponde a un ID specifico
+* File dispositivo - Derivato dagli hit in cui uno dei campi corrispondeva a un ID-DISPOSITIVO specificato, ma nessuno corrispondeva a una ID-PERSON specificata
 
    * File CSV con una riga per ogni risultato corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL, ordinate per marca temporale.
    * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL. Ogni voce elencherà tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti la marca temporale vengono arrotondati per specificare solo giorni univoci.
@@ -138,17 +138,17 @@ Puoi decidere quali di questi restituire alla persona interessata, oppure puoi e
 
 **Dettagli sulle risposte alle richieste di cancellazione**
 
-Per le richieste di cancellazione non viene restituito alcun dato, solo uno stato per l’API RGPD che attesta che la richiesta è stata completata correttamente.
+Non viene restituito alcun dato per le richieste di eliminazione, ma solo uno stato dell'API Data Privacy per cui la richiesta è stata completata correttamente.
 
-## Verifica dell’elaborazione RGPD sui dati {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
+## Verifica dell'elaborazione della privacy dei dati {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
 In genere, i clienti di Analytics configurano alcune suite di rapporti di prova per verificare la funzionalità prima che venga rilasciata al pubblico. I siti web o le applicazioni in preproduzione invieranno dati in queste suite di rapporti test/dev/QA per valutare come funzionano quando viene rilasciato il codice prima che il traffico vero e proprio venga inviato alle suite di rapporti di produzione.
 
-Tuttavia, con una normale configurazione, l’elaborazione delle richieste RGDP non può essere verificata inizialmente su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Il motivo è che una richiesta RGPD viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte le suite di rapporti per l’azienda.
+Tuttavia, con una normale configurazione, l’elaborazione delle richieste RGDP non può essere verificata inizialmente su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Questo è dovuto al fatto che una richiesta di privacy per i dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte suite di rapporti per la tua azienda.
 
-Sono disponibili alcuni modi per verificare l’elaborazione RGPD prima di applicarla a tutte le suite di rapporti:
+Esistono alcuni modi per testare l’elaborazione della privacy dei dati prima di applicarla a tutte le suite di rapporti:
 
-* Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi si utilizza questa organizzazione Experience Cloud per il test RGPD e la normale organizzazione Experience Cloud per l’elaborazione effettiva RGPD.
+* Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi utilizza questa organizzazione Experience Cloud per i test sulla privacy dei dati e la tua normale organizzazione Experience Cloud per l'effettiva elaborazione della privacy dei dati.
 * Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione.
 
-   Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste RGPD con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non si utilizzino i namespace visitorId, AAID, ECID o customVisitorId, perché questi hanno una codifica fissa e non possono essere specificati nelle suite di rapporti di prova**.
+   Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando inviate richieste di privacy per i dati con spazi dei nomi con il prefisso qa, queste vengono eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non si utilizzino i namespace visitorId, AAID, ECID o customVisitorId, perché questi hanno una codifica fissa e non possono essere specificati nelle suite di rapporti di prova**.
