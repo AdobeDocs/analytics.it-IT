@@ -1,52 +1,52 @@
 ---
-seo-description: I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specificato. L'ora in cui Adobe mantiene questi dati varia da contratto a contratto ed è delineato nel criterio di conservazione dei dati di un'organizzazione.
+seo-description: I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specifico. Il momento in cui Adobe mantiene questi dati varia da contratto a contratto ed è delineato nei criteri di conservazione dei dati dell'organizzazione.
 seo-title: Criteri di conservazione dei dati per Adobe Analytics
 title: Criteri di conservazione dei dati
-description: Un criterio di conservazione dei dati determina per quanto tempo Adobe memorizza i dati.
-uuid: 9988 ef 5 c-d 657-4521-8601-e 508756 d 7 d 07
+description: I criteri di conservazione dei dati determinano per quanto tempo Adobe memorizza i dati.
+uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 6beb8f6cf8a9fd1469d39303ffd8d047d410c290
+source-git-commit: b135a1d2ddea4857496e90921c22fb30bd44da50
 
 ---
 
 
 # Criteri di conservazione dei dati
 
-I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specificato. L'ora in cui Adobe mantiene questi dati varia da contratto a contratto ed è delineato nel criterio di conservazione dei dati di un'organizzazione. Questo criterio si applica ai dati stessi, vale a dire che influiscono su tutte le funzionalità di reporting di Analytics (Analysis Workspace, API di reporting, ecc.).
+I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specifico. Il momento in cui Adobe mantiene questi dati varia da contratto a contratto ed è delineato nei criteri di conservazione dei dati dell'organizzazione. Questo criterio si applica ai dati stessi, il che significa che influisce su tutte le funzionalità di reporting di Analytics (Analysis Workspace, API di reporting, ecc.).
 
-**Il criterio predefinito di conservazione dei dati per Adobe Analytics è di 25 mesi.** Il criterio di conservazione dell'organizzazione può essere diverso, a seconda del contratto.
+**Il criterio predefinito per la conservazione dei dati per Adobe Analytics è 25 mesi.** I criteri di conservazione della tua organizzazione possono essere diversi a seconda del contratto.
 
-I dati conservati sono basati sulla data corrente e sulla data/ora dei dati storici. La data/ora registrata sugli hit può essere diversa dalla data/ora in cui gli hit sono stati ricevuti da Adobe.
+I dati conservati si basano sulla data corrente e sulla data/ora dei dati storici. La data/ora registrata sugli hit può essere diversa dalla data/ora in cui gli hit sono stati ricevuti da Adobe.
 
 ## Regolazione del periodo predefinito di conservazione dei dati
 
-Se desiderate ridurre o estendere il periodo di conservazione dei dati predefinito, contattate il responsabile commerciale della vostra organizzazione.
+Per ridurre o estendere il periodo predefinito di conservazione dei dati, contatta il responsabile commerciale aziendale.
 
-* Non esiste alcun costo per ridurre il periodo di conservazione dei dati predefinito.
-* L'estensione della conservazione dei dati oltre il periodo di mantenimento predefinito di 25 mesi richiede l'acquisto di estensioni, che sono disponibili con incrementi di un anno ciascuna. È possibile acquistare fino a otto estensioni, per un totale di 10 anni di durata (2 anni di durata per il mantenimento predefinito, più 8 anni).
+* Non è previsto alcun costo per la riduzione del periodo predefinito di conservazione dei dati.
+* L'estensione della conservazione dei dati oltre il periodo predefinito di conservazione di 25 mesi richiede l'acquisto di estensioni, disponibili in incrementi di un anno l'una. È possibile acquistare fino a otto estensioni per un totale di 10 anni e 1 mese (2 anni e 1 mese per il mantenimento del valore predefinito, più 8 anni acquistati).
 
-## Conservazione dei dati e GDPR
+## Conservazione dei dati e Privacy dei dati
 
-Adobe, in qualità di titolare del trattamento dei dati, deve adottare misure idonee a fornire assistenza ai clienti per l'accesso, l'eliminazione e altre richieste da parte di singoli utenti. L’applicazione di criteri di cancellazione adeguati, sicuri e puntuali è determinante ai fini della conformità ai suddetti obblighi. Il Regolamento GDPR si applica a tutti i clienti che hanno rapporti commerciali con cittadini UE o ne elaborano le informazioni. Di conseguenza, ha un impatto normativo a livello internazionale.
+Adobe, in qualità di titolare del trattamento dei dati, deve adottare misure appropriate per aiutare i propri clienti a soddisfare le richieste di accesso, cancellazione e altre richieste da parte di singoli utenti. L’applicazione di criteri di cancellazione adeguati, sicuri e puntuali è determinante ai fini della conformità ai suddetti obblighi. Il Regolamento GDPR si applica a tutti i clienti che hanno rapporti commerciali con cittadini UE o ne elaborano le informazioni. CCPA si applica a tutti i clienti che commercializzano o elaborano informazioni di cittadini della California. Pertanto, la privacy dei dati è un cambiamento normativo a livello mondiale.
 
-## Eliminazione dati
+## Eliminazione dei dati
 
-Quando i dati superano i criteri di conservazione dei dati, Adobe conserva il diritto di eliminarlo senza opzioni di recupero. È necessario assicurarsi che tutti i dati che si desidera conservare siano inclusi nel criterio di conservazione dei dati dell'organizzazione.
+Una volta superati i criteri di conservazione dei dati, Adobe mantiene il diritto di eliminarli senza possibilità di ripristino. Devi accertarti che tutti i dati che desideri conservare siano inclusi nei criteri aziendali di conservazione dei dati.
 
 ## Domande frequenti
 
-**Come si decide sul periodo di conservazione dei dati della propria azienda?**
+**Come si decide il periodo di conservazione dei dati della propria organizzazione?**
 
-La tua azienda, in quanto soggetto che controlla i dati, può identificare le parti interessate (ad esempio i team di marketing, analisi e privacy) all'interno dell'organizzazione responsabili di prendere decisioni sulla conservazione dei dati. La tua organizzazione è nella posizione migliore per conoscere il periodo appropriato per il tempo di conservazione dei dati da parte di Adobe Analytics.
+La tua azienda, in qualità di titolare del trattamento dei dati, può identificare le parti interessate (come i team di marketing, analisi e privacy) all'interno dell'organizzazione responsabili per le decisioni sulla conservazione dei dati. La tua organizzazione è nella posizione migliore per conoscere il periodo appropriato per il tempo in cui Adobe Analytics conserva i dati.
 
-**Come si calcola la finestra temporale di conservazione dei dati?**
+**Come si calcola la finestra di conservazione dei dati?**
 
-I criteri di conservazione dei dati definiscono una finestra temporale dinamica per la conservazione dei dati, all’interno della quale i dati completi possono essere visualizzati e utilizzati per la generazione dei rapporti. La data di inizio del mantenimento dei dati è determinata dalla data corrente senza il periodo di conservazione dei dati. La data di fine conservazione dei dati è determinata dalla data corrente. I dati vengono inclusi nella finestra temporale di conservazione dei dati se la marca temporale dei dati è compresa tra la data iniziale e quella finale.
+I criteri di conservazione dei dati definiscono una finestra temporale dinamica per la conservazione dei dati, all’interno della quale i dati completi possono essere visualizzati e utilizzati per la generazione dei rapporti. La data di inizio conservazione dei dati è determinata dalla data corrente meno il periodo di conservazione dei dati. La data di fine conservazione dei dati è determinata dalla data corrente. I dati vengono inclusi nella finestra temporale di conservazione dei dati se la marca temporale dei dati è compresa tra la data iniziale e quella finale.
 
 **Posso richiedere una copia dei miei dati prima che vengano cancellati?**
 
-Sì. Adobe può fornire un'immagine di dati grezzi e di livello hit. See [Data Feeds](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide for more information. Se i requisiti di esportazione dei dati non rientrano nell'ambito di ciò che l'interfaccia utente può fornire, contattate il responsabile commerciale della vostra organizzazione. È possibile effettuare operazioni speciali; i costi possono variare.
+Sì. Adobe può fornire un dump storico dei dati grezzi a livello di hit. Per ulteriori informazioni, consulta Feed [di](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) dati nella guida per l’utente relativa all’esportazione. Se hai dei requisiti per l’esportazione di dati che non rientrano nell’ambito di ciò che l’interfaccia utente può fornire, contatta l’account manager della tua organizzazione. È possibile effettuare sistemazioni speciali; i costi possono variare.
 
-**Quando Adobe elimina i dati?**
+**Quando vengono eliminati i dati da Adobe?**
 
-Contatta l'account manager della tua organizzazione per conoscere il momento in cui i tuoi dati sono pianificati di essere eliminati. I dati vengono generalmente eliminati su base mensile continua.
+Contatta l'account manager della tua organizzazione per sapere quando è prevista l'eliminazione dei tuoi dati. In genere i dati vengono eliminati su base mensile continuativa.
