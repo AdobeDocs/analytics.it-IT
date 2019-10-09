@@ -3,9 +3,9 @@ description: La finestra di dialogo Data Governance (Governance dei dati) negli 
 seo-description: La finestra di dialogo Data Governance (Governance dei dati) negli strumenti dell’amministratore offre una panoramica delle suite di rapporti configurate per la governance dei dati, indica se sono state mappate in un’organizzazione Experience Cloud e se per essa sono stati impostati i criteri di conservazione dei dati.
 seo-title: Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti
 title: Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti
-uuid: f 3 b 83 e 8 e -00 af -4 a 60-a 5 de -29 b 5 c 43 f 6788
+uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 La finestra di dialogo Data Governance (Governance dei dati) negli strumenti dell’amministratore offre una panoramica delle suite di rapporti configurate per la governance dei dati, indica se sono state mappate in un’organizzazione Experience Cloud e se per essa sono stati impostati i criteri di conservazione dei dati.
 
 1. Accedi ad Adobe Experience Cloud.
-1. Navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** .
+1. Passa a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** .
 
    Visualizzerai tutte le suite di rapporti che fanno parte della società di accesso:
 
-   ![](assets/gdpr_setup_an.png)
+   ![](assets/privacy_setup_an.png)
 
 <table id="table_448292730FF0475E9DCB731882F9A29B"> 
  <thead> 
@@ -38,17 +38,17 @@ La finestra di dialogo Data Governance (Governance dei dati) negli strumenti del
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mappata</b>: questa suite di rapporti è già stata mappata nella stessa organizzazione Experience Cloud della società di accesso di Analytics in cui hai effettuato l’accesso. È possibile etichettare solo le suite di rapporti che hanno questa impostazione. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite (Mappa suite di rapporti)</b>: facendo clic su questo collegamento potrai <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mappare una suite di rapporti</a> in un’organizzazione Experience Cloud. <p>Questo significa che verrai reindirizzato alla pagina Experience Cloud Organization (Organizzazione di Experience Cloud) - Report Suite Mapping Admin (Amministratore suite di rapporti) dove devi trovare la suite di rapporti e assegnarla all'organizzazione appropriata. Dopo aver eseguito questa operazione, torna a questa schermata Data Governance (Governance dei dati). </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite (Mappa suite di rapporti)</b>: facendo clic su questo collegamento potrai <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mappare una suite di rapporti</a> in un’organizzazione Experience Cloud. <p>Questo significa che verrai reindirizzato alla pagina di amministrazione Experience Cloud Organization - Report Suite Mapping, in cui devi trovare la suite di rapporti e assegnarla all'organizzazione appropriata. Dopo aver eseguito questa operazione, torna a questa schermata Data Governance (Governance dei dati). </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapped to Another Organization (Mappata in un’altra organizzazione)</b>: un’altra organizzazione ha già mappato questa suite di rapporti al proprio interno. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Retention Policy (Criteri di conservazione dei dati) </p> </td> 
-   <td colname="col2"> <p>Per implementare l’RGPD in Analytics è necessario aver impostato i criteri di conservazione dei dati. </p> <p>Questa impostazione consente di vedere se </p> 
+   <td colname="col2"> <p>L'implementazione della privacy dei dati di Analytics richiede l'implementazione di un criterio di conservazione dei dati. </p> <p>Questa impostazione consente di vedere se </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">sono stati impostati i criteri di conservazione dei dati per questa suite di rapporti e </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">per quanto tempo i dati vengono conservati da Adobe prima di essere cancellati. Il periodo di conservazione dei dati predefinito è di 25 mesi. </li> 
-    </ul> <p>Nota: in Adobe Analytics non è possibile ricevere assistenza per elaborare le richieste per l’API RGPD, ovvero per elaborare le richieste di accesso o di cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati. </p> </td> 
+    </ul> <p>Nota:  Adobe Analytics non è in grado di fornire assistenza nell'elaborazione delle richieste all'API per la privacy dei dati, ovvero l'elaborazione delle richieste di accesso o eliminazione ricevute dagli utenti finali, se il periodo di conservazione dei dati non è stato impostato. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Groups (Gruppi) </p> </td> 
