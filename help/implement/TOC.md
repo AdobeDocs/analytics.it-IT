@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida all’implementazione di Analytics
 user-guide-url: /content/help/it-IT/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
 
 ---
 
@@ -140,6 +140,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
          + [s.linkLeftQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
          + [s.linkTrackVars](js-implementation/c-variables/config-vars/s-linktrackvars.md)
          + [s.linkExternalFilters](js-implementation/c-variables/config-vars/s-linkextfilters.md)
+         + [s.useBeacon](js-implementation/c-variables/config-vars/s-usebeacon.md)
          + [s.usePlugins](js-implementation/c-variables/config-vars/s-useplugins.md)
       + [Variabili di dati di contesto](js-implementation/c-variables/context-data-variables.md)
       + [Variabili dinamiche](js-implementation/c-variables/dynvars-overview.md)
