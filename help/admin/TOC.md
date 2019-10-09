@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 user-guide-url: /content/help/it-IT/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
+source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
 
 ---
 
@@ -21,8 +21,8 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [Fatturazione](admin/billing-admin.md)
    + Rimozione bot {#bot-removal}
       + [Rimozione bot](admin/bot-removal/bot-removal.md)
-      + [Panoramica delle regole bot](admin/bot-removal/bot-rules.md)
-   + [Codice manager](admin/code-manager-admin.md)
+      + [Panoramica delle regole dei bot](admin/bot-removal/bot-rules.md)
+   + [Gestore codici](admin/code-manager-admin.md)
    + Variabili di conversione {#conversion-variables}
       + [Conversion Variables (Variabili di conversione) (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modificare le variabili di conversione](admin/conversion-var-admin/t-conversion-variables-admin.md)
@@ -49,6 +49,7 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [Pubblicazione Widget](admin/publishing-widgets-admin.md)
    + [Preferenze Manager](admin/preferences-manager.md)
    + [Impostazioni privacy](admin/privacy-settings.md)
+   + [Impostazioni privacy](admin/privacy-reporting.md)
    + Regole di elaborazione {#processing-rules}
       + [Panoramica sulle regole di elaborazione](admin/c-processing-rules/processing-rules.md)
       + Configurazione delle regole di elaborazione {#processing-rules-configuration}
@@ -160,18 +161,20 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [Invia e-mail agli utenti](user-management2/t-email-users.md)
 + Governance dei dati {#data-governance}
    + [Adobe Analytics e RGPD](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics e CCPA](c-data-governance/an-ccpa-overview.md)
    + [Domande frequenti](c-data-governance/gdpr-faq.md)
-   + [Flusso di lavoro di Adobe Analytics per il RGPD](c-data-governance/an-gdpr-workflow.md)
+   + [Flusso di lavoro sulla privacy dei dati di Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti](c-data-governance/gdpr-view-settings.md)
    + [Etichettare i dati della suite di rapporti](c-data-governance/gdpr-setup-reportsuite.md)
    + [Inviare richieste di accesso e cancellazione](c-data-governance/gdpr-submit-access-delete.md)
-   + [Etichette RGPD per le variabili di Analytics](c-data-governance/gdpr-labels.md)
+   + [Etichette sulla privacy dei dati per le variabili Analytics](c-data-governance/gdpr-labels.md)
    + [Namespace](c-data-governance/gdpr-namespaces.md)
    + [Espansione dell’ID](c-data-governance/gdpr-id-expansion.md)
    + [Tecniche di etichettatura consigliate](c-data-governance/gdpr-analytics-ids.md)
    + [Esempi di etichettatura](c-data-governance/gdpr-labeling-example.md)
-   + [RGPD e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminologia RGPD](c-data-governance/gdpr-terminology.md)
+   + [Privacy dei dati e Connettori dati (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [Terminologia sulla privacy dei dati](c-data-governance/gdpr-terminology.md)
+   + [Variabili di gestione del consenso](c-data-governance/consent-variables.md)
 + Utilizzo delle chiamate server {#server-call-usage}
    + [Panoramica sull'utilizzo delle chiamate server](c-server-call-usage/overage-overview.md)
    + [Visualizzazione dell'utilizzo della chiamata server corrente](c-server-call-usage/server-call-usage-dashboard.md)
