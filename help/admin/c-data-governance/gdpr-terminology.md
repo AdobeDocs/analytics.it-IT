@@ -3,8 +3,8 @@ description: nulle
 seo-description: nulle
 seo-title: Terminologia RGPD
 title: Terminologia RGPD
-uuid: a 3 e 44 f 08-6 f 9 c -4 b 23-874 c -51 c e 4 be 9 af 9
-translation-type: tm+mt
+uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
