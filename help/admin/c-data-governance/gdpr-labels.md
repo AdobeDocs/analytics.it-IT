@@ -5,7 +5,7 @@ seo-title: Etichette sulla privacy dei dati per le variabili Analytics
 title: Etichette sulla privacy dei dati per le variabili Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ Molti clienti Adobe dispongono di team legali che hanno rivisto le leggi sulla p
 
 Adobe Analytics offre gli strumenti necessari per etichettare i dati in base al loro stato di riservatezza e a vincoli contrattuali. Le etichette sono importanti e utili per: (1) individuare le persone interessate, (2) determinare i dati da restituire come parte di una richiesta di accesso e (3) individuare i campi di dati da cancellare in seguito a una richiesta di cancellazione.
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 L'implementazione Adobe Analytics Data Privacy supporta le seguenti etichette per i dati di identità, i dati sensibili e la governance dei dati.
 
@@ -26,7 +26,7 @@ L'implementazione Adobe Analytics Data Privacy supporta le seguenti etichette pe
 
 >[!NOTE]
 >
->Il framework DUE (Data Usage Labeling &amp; Enforcement, ETICHETTATURA E APPLICAZIONE) è stato progettato per offrire una modalità uniforme in tutte le soluzioni/servizi/piattaforme Adobe per acquisire, comunicare e utilizzare i metadati relativi ai dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, i dati sensibili e i vincoli del contratto associati a questi. In questa versione iniziale, Analytics sta esponendo solo le etichette DULE rilevanti per la privacy dei dati. Poiché altri prodotti Adobe implementano il supporto per le etichette DULE, le versioni future introdurranno altre etichette per i dati sensibili, nonché etichette contrattuali che garantiranno che i dati condivisi tra i prodotti verranno usati solo nei modi consentiti dalla legge.
+>Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per tutte le soluzioni, i servizi e le piattaforme di Adobe al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, i dati sensibili e i vincoli del contratto associati a questi. In questa versione iniziale, Analytics sta esponendo solo le etichette DULE rilevanti per la privacy dei dati. Poiché altri prodotti Adobe implementano il supporto per le etichette DULE, le versioni future introdurranno altre etichette per i dati sensibili, nonché etichette contrattuali che garantiranno che i dati condivisi tra i prodotti verranno usati solo nei modi consentiti dalla legge.
 
 ## Etichette per i dati di identità (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
 
@@ -85,7 +85,7 @@ Le etichette “S” per i dati sensibili vengono usate per organizzare in categ
  </tbody> 
 </table>
 
-## Etichette sulla governance dei dati (Privacy dei dati) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## Etichette sulla governance dei dati (Privacy dei dati) {#data-governance-labels}
 
 Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali conformi alle norme e ai criteri aziendali.
 
@@ -212,7 +212,7 @@ Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene ri
 
 Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle suite di rapporti della società di accesso, puoi selezionare uno dei namespace esistenti. È consigliabile riutilizzare lo spazio dei nomi se questa variabile contiene lo stesso tipo di ID di altre variabili già etichettate con lo spazio dei nomi e si desidera eseguire la ricerca di tutte quando si invia una richiesta.
 
-1. Click **[!UICONTROL Select Namespace]** and select one of the existing namespaces.
+1. Fai clic su **[!UICONTROL Select Namespace]** e seleziona un namespace esistente.
 1. Fai clic su **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
@@ -221,11 +221,11 @@ Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle
 
 Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo di usare solo caratteri alfanumerici oltre ai caratteri trattino basso, trattino e spazio. Tutti i caratteri verranno convertiti in lettere minuscole.
 
-1. Click **[!UICONTROL Select Namespace]** and type in the namespace title.
+1. Fai clic su **[!UICONTROL Select Namespace]** e digita il titolo namespace.
 
    ![](assets/namespace2.png)
 
-1. Premi **[!UICONTROL Enter](Invio) per aggiungere questo namespace.** Solo a questo punto si attiverà il pulsante Applica.
+1. Premi **[!UICONTROL Enter]** (Invio) per aggiungere questo namespace. Solo a questo punto si attiverà il pulsante Applica.
 1. Fai clic su **[!UICONTROL Apply]**.
 
 La stringa specificata come spazio dei nomi è la stessa stringa da utilizzare per inviare le richieste tramite l'API Data Privacy come valore del parametro "namespace". Per via della richiesta, Adobe Analytics cercherà tutte le variabili in tutte le suite di rapporti che condividono questo namespace per l’ID specificata con la richiesta.
@@ -244,7 +244,7 @@ Non è necessario specificare le etichette ID-DEVICE o ID-PERSON per tutte le va
 
 Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a volte tramite prop7. In questo caso, una regola di elaborazione copia il valore da eVar1, se esiste, in eVar3. Altrimenti copia il valore da prop7 in eVar3. In questo scenario, eVar3 conterrà sempre l’ID CRM se noto, pertanto solo eVar3 richiede un’etichetta ID-PERSON.
 
-> [!CAUTION] Gli spazi dei nomi "visitorId" e "customVisitorId" sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
+> [!CAUTION] I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi namespace per le variabili di traffico o conversione personalizzate.
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -335,7 +335,7 @@ L'etichettatura Data Privacy/DULE interessa quattro ampie classi di variabili An
    <td colname="col1"> <p>Dimensioni di elaborazione dei dati </p> </td> 
    <td colname="col2"> <p>ID visitatore personalizzato </p> </td> 
    <td colname="col3"> <p>ID-DEVICE / ID-PERSON </p> <p>DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Non potete rimuovere le etichette ID o DEL (impostate su Nessuno), ma potete modificarle in modo da essere varianti DEVICE o PERSON, a seconda dell’implementazione ID personalizzata. </p> <p>Se non usi l’ID visitatore personalizzato, l’impostazione non ha importanza. </p> </td> 
+   <td colname="col4"> <p>Non è possibile rimuovere le etichette ID o DEL (impostate su Nessuno), ma è possibile modificarle nelle varianti DEVICE o PERSON, in base all’implementazione dell’ID personalizzata. </p> <p>Se non usi l’ID visitatore personalizzato, l’impostazione non ha importanza. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -378,7 +378,7 @@ Nella tabella seguente sono descritte le varie variabili "eliminate". Questo non
    <td colname="col2"> <p>Il valore esistente viene sostituito da un nuovo valore del formato "G-7588FCD8642718EC50" in cui le 18 cifre esadecimali dopo il prefisso "G-" sono le prime 18 cifre di un numero pseudorandom a 128 bit crittografato. Tutti i commenti che si applicano alla cancellazione delle variabili relative al traffico e al commercio si applicano anche in questo caso. </p> <p>Questo è un ID di transazione il cui scopo principale è quello di garantire che un acquisto non venga accreditato due volte, ad esempio quando qualcuno aggiorna la pagina di conferma dell’acquisto. L’ID stesso può spostare l’acquisto in una riga nel proprio DB in cui viene registrato l’acquisto. Nella maggior parte dei casi non è necessario cancellare questo ID, quindi non viene cancellato per impostazione predefinita. Se è ancora possibile collegare l'acquisto a un utente dopo la richiesta di eliminazione dei dati personali, potrebbe essere necessario eliminare questo campo, in modo che i dati di Analytics per questo visitatore non possano essere legati all'acquirente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> </td> 
+   <td colname="col1"> <p>ID visitatore </p> </td> 
    <td colname="col2"> <p>Il valore è un numero intero di 128 bit e viene sostituito da un valore pseudo-casuale e crittograficamente sicuro di 128 bit. </p> </td> 
   </tr> 
   <tr> 
@@ -433,12 +433,12 @@ Questa sezione intende chiarire le informazioni sulle variabili Analytics che no
    <td colname="col2"> <p> Specifica il nome della suite di rapporti Analytics contenente i dati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Queste presentano un’etichetta DEL-DEVICE, ma non è possibile aggiungere l’etichetta DEL-PERSON. Se si specifica <a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> Espansione dell’ID</a> con ogni richiesta, questi ID verranno eliminati automaticamente per tutte le richieste di eliminazione, anche quelle che utilizzano un ID-PERSON. </p> <p>Se non si utilizza l’opzione Espansione dell’ID, ma si desidera che questi ID cookie siano resi anonimi nei risultati con un ID corrispondente in un prop o in un eVar, è possibile aggirare questa limitazione di etichettatura etichettando il prop o il eVar con un’etichetta ID-DEVICE, anche se identifica effettivamente una persona (tutte le etichette DEL-PERSON devono essere sostituite dalle etichette DEL-DEVICE). In questo caso, poiché solo alcune istanze dell’ID visitatore o di ECID vengono rese anonime, i conteggi dei visitatori univoci verranno modificati nella cronologia. </p> </td> 
+   <td colname="col1"> <p>ID visitatore </p> <p>MCID/ECID </p> </td> 
+   <td colname="col2"> <p> Queste presentano un’etichetta DEL-DEVICE, ma non è possibile aggiungere l’etichetta DEL-PERSON. Se si specifica <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> Espansione dell’ID</a> con ogni richiesta, questi ID verranno eliminati automaticamente per tutte le richieste di eliminazione, anche quelle che utilizzano un ID-PERSON. </p> <p>Se non si utilizza l’opzione Espansione dell’ID, ma si desidera che questi ID cookie siano resi anonimi nei risultati con un ID corrispondente in un prop o in un eVar, è possibile aggirare questa limitazione di etichettatura etichettando il prop o il eVar con un’etichetta ID-DEVICE, anche se identifica effettivamente una persona (tutte le etichette DEL-PERSON devono essere sostituite dalle etichette DEL-DEVICE). In questo caso, poiché solo alcune istanze dell’ID visitatore o di ECID vengono rese anonime, i conteggi dei visitatori univoci verranno modificati nella cronologia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud ID è una variabile di soluzione con un'etichetta DEL-DEVICE non modificabile. Viene compilato da un cookie come l’ID visitatore e l’MCID. Deve essere eliminato dai risultati ogni volta che vengono eliminati altri ID. Per ulteriori informazioni, consultare la descrizione di tali variabili. </p> </td> 
+   <td colname="col2"> <p> L’ID Adobe Advertising Cloud è una variabile di soluzione con un’etichetta non modificabile DEL-DEVICE. Viene compilato da un cookie come l’ID visitatore e l’MCID. Deve essere eliminato dai risultati ogni volta che vengono eliminati altri ID. Per ulteriori informazioni, consultare la descrizione di tali variabili. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -480,4 +480,4 @@ Esistono cinque variabili standard che contengono la marca temporale:
 
 Il codice per la generazione dei file restituiti per le richieste di accesso alla privacy dei dati richiede che almeno una delle prime tre variabili di marca temporale sia inclusa nella richiesta di accesso (con un'etichetta ACC applicabile al tipo di richiesta). Se nessuna di queste è inclusa, allora la marca Ora hit personalizzata (UTC) sarà elaborata come se avesse etichetta ACC-ALL.
 
-Il file CSV a livello di hit restituito per le richieste di accesso alla privacy dei dati convertirà i valori in questi campi da marche temporali univoche a campi data/ora nel formato AAAA-MM-GG HH:MM:SS (ad esempio, 2018-05-01 13:49:22). Nel file HTML di riepilogo, questi valori di marca temporale saranno troncati per includere solo la data, in formato YYYY-MM-DD, per ridurre il numero di valori univoci che si verificano per questi campi.
+Il file CSV a livello di hit restituito per le richieste di accesso alla privacy dei dati convertirà i valori in questi campi da marche temporali univoche a campi data/ora nel formato AAAA-MM-GG HH:MM:SS (ad esempio, 2018-05-01 13:49:22). Nel file HTML di riepilogo, questi valori di marca temporale saranno troncati per includere solo la data, in formato AAAA-MM-GG, per ridurre il numero di valori univoci che si verificano per questi campi.
