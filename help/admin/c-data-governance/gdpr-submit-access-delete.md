@@ -5,7 +5,7 @@ seo-title: Inviare richieste di accesso e cancellazione
 title: Inviare richieste di accesso e cancellazione
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -31,7 +31,7 @@ Ciò include la revisione dei dati restituiti da Adobe Analytics come parte di u
 
 Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. Puoi decidere quali di questi file restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
 
-## Inviare le richieste {#section_F70F4D91B7FF4242876338A66D2125C3}
+## Inviare le richieste {#submit-requests}
 
 Puoi inviare l'accesso alla privacy dei dati ed eliminare le richieste tramite il nostro portale [dell'interfaccia utente sulla privacy dei](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) dati o tramite l'API sulla privacy dei [dati.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -122,12 +122,12 @@ Questa sezione contiene i dettagli sulle risposte in merito a richieste di acces
 
 I dati restituiti per una richiesta di accesso ti forniscono, come titolare del trattamento, l’URL da usare per scaricare un file ZIP contenente una directory per ogni prodotto Adobe che possiedi. Nella cartella di Analytics possono essere presenti:
 
-* File di persona - Derivati da hit contenenti un'etichetta ID-PERSON corrispondente
+* File di persona: derivanti da risultati che contengono un’etichetta ID-PERSON corrispondente
 
    * File CSV con una riga per ogni risultato corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL o ACC-PERSON, ordinate per marca temporale.
    * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL o ACC-PERSON. Ogni voce elenca tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti la marca temporale vengono arrotondati per specificare solo giorni univoci.
 
-* File dispositivo - Derivato dagli hit in cui uno dei campi corrispondeva a un ID-DISPOSITIVO specificato, ma nessuno corrispondeva a una ID-PERSON specificata
+* File di dispositivo: derivanti da risultati in cui uno dei campi corrisponde a un ID-DEVICE specifico ma nessuno di questi corrisponde a un ID-PERSON specifico
 
    * File CSV con una riga per ogni risultato corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL, ordinate per marca temporale.
    * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL. Ogni voce elencherà tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti la marca temporale vengono arrotondati per specificare solo giorni univoci.
