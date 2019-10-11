@@ -6,7 +6,7 @@ solution: Analytics
 title: Variabili di gestione del consenso
 topic: Strumenti di amministrazione
 translation-type: tm+mt
-source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
+source-git-commit: a272be92292f3a12be19a5d6fd061b32a565448c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 # Variabili di gestione del consenso
 
 Per fornire ulteriore assistenza nella gestione dei dati sulla privacy, è disponibile una serie di variabili riservate da utilizzare insieme a variabili di dati di contesto specifiche.
-Queste variabili di gestione del consenso forniscono un framework di facile utilizzo per acquisire lo stato del consenso su ogni hit di analisi.
+Queste variabili di gestione del consenso forniscono un framework di facile utilizzo per l'acquisizione dello stato del consenso su ogni hit di analisi.
 
 ## Variabili
 
@@ -35,15 +35,15 @@ Queste variabili di gestione del consenso forniscono un framework di facile util
 
 ## Generazione di rapporti  
 
-Le variabili di gestione del consenso possono essere abilitate tramite una nuova impostazione Privacy disponibile nell’Admin Console di Analytics.
+Puoi abilitare le variabili di gestione del consenso tramite una nuova impostazione Privacy disponibile nell’Admin Console di Analytics.
 
-Ogni suite di rapporti può essere configurata per:
-1. In Reporting e analisi fate clic su Admin (Amministratore) &gt; Report Suites (Suite di rapporti).
-1. Selezionate le suite di rapporti in cui state raccogliendo i dati multimediali e fate clic su [!UICONTROL Edit Settings > Privacy Management]
+Ogni suite di rapporti può essere configurata come segue:
+1. In Reporting e analisi fare clic su **[!UICONTROL Admin > Report Suites.]**
+1. Selezionate le suite di rapporti in cui state raccogliendo i dati multimediali e fate clic su **[!UICONTROL Edit Settings > Privacy Management.]**
 
    ![](assets/rsm-privacy-select.png)
 
-1. Click the [!UICONTROL Enable Data Privacy Reports] button.  Nota: Una volta abilitate queste variabili non possono essere disattivate.
+1. Click the **[!UICONTROL Enable Data Privacy Reports]** button. **** Nota: Una volta abilitate queste variabili non possono essere disattivate.
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -63,21 +63,21 @@ Consulta Variabili [di dati](https://docs.adobe.com/help/en/analytics/implementa
 
 ### SSF
 
-* Dati contestuali: `contextData.['cm.ssf']`
+* Dati contestuali: contextData.['cm.ssf']
 * Valori accettati:
-   * `1` - Quando si invia il valore `1`, ciò indica che l'inoltro lato server è in stato di rifiuto. Il valore associato `1` a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta Conformità [AAM ePrivacy.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
-   * Nessun altro valore accettato per questo parametro
+   * 1 - Quando si invia il valore "1", ciò indica che l'inoltro lato server è in stato di rifiuto. Il valore "1" associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta Conformità [AAM ePrivacy.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * Nessun altro valore è accettato per questo parametro.
 
 ### DMP
 
-* Dati contestuali: `contextData.['opt.dmp']`
+* Dati contestuali: contextData.['opt.dmp']
 * Valori accettati:
-   * `N` - Quando si invia il valore `N`, ciò indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati. Nota: la condivisione del blocco corrente non è in AAM.  Utilizzare SSF per tale funzionalità.
-   * `Y` - Quando si invia il valore `Y`, ciò indica che il consumatore sta optando per la condivisione su piattaforme di gestione dati.
+   * N - Quando si invia il valore "N", ciò indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati. **** Nota: L'impostazione di questa variabile su "N" al momento non blocca la condivisione su AAM, tuttavia, il blocco delle chiamate alla funzionalità AAM verrà aggiunto all'inizio del 2020. Per il momento Adobe consiglia di impostare `c.cm.ssf=1` e `c.opt.dmp=N` bloccare l’invio degli hit ad AAM.
+   * Y - Quando si invia il valore "Y", ciò indica che il consumatore sta optando per la condivisione su piattaforme di gestione dati.
 
 ### VENDITA
 
-* Dati contestuali: `contextData.['opt.sell']`
+* Dati contestuali: contextData.['opt.sell']
 * Valori accettati:
-   * `N` - Quando si invia il valore `N`, ciò indica che il consumatore rinuncia alla condivisione o alla vendita dei dati a terzi.
-   * `Y` - Quando si invia il valore `Y`, ciò indica che il consumatore sta optando per la condivisione o la vendita dei dati a terzi.
+   * N - Quando si invia il valore "N", ciò indica che il consumatore rinuncia alla condivisione o alla vendita dei dati a terzi.
+   * Y - Quando si invia il valore "Y", ciò indica che il consumatore sta optando per la condivisione o la vendita dei dati a terzi.
