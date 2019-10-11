@@ -6,7 +6,7 @@ solution: Analytics
 title: Variabili di gestione del consenso
 topic: Strumenti di amministrazione
 translation-type: tm+mt
-source-git-commit: a272be92292f3a12be19a5d6fd061b32a565448c
+source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
 
 ---
 
