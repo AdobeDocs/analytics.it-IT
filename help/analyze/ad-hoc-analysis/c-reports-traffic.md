@@ -7,7 +7,7 @@ title: Rapporti fonti traffico
 topic: Analisi ad hoc
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Search Keywords - All]**: Visualizza una suddivisione di ogni parola chiave di ricerca utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
+**[!UICONTROL Search Keywords - All]**:Visualizza una suddivisione di ogni parola chiave di ricerca utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
 
-**[!UICONTROL Search Keywords - Paid]**: Visualizza una suddivisione di ogni parola chiave di ricerca a pagamento utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
+**[!UICONTROL Search Keywords - Paid]**:Visualizza una suddivisione di ogni parola chiave di ricerca a pagamento utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
 
-**[!UICONTROL Search Keywords - Natural]**: Visualizza una suddivisione di ogni parola chiave di ricerca naturale utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
+**[!UICONTROL Search Keywords - Natural]**:Visualizza una suddivisione di ogni parola chiave di ricerca naturale utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
 
 ## Motori di ricerca {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Search Engines - All]**: Visualizza i motori di ricerca utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - All]**:Visualizza i motori di ricerca utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
-**[!UICONTROL Search Engines - Paid]**: Visualizza i motori di ricerca con parole chiave a pagamento utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - Paid]**:Visualizza i motori di ricerca con parole chiave a pagamento utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
-**[!UICONTROL Search Engines - Natural]**: Consente di visualizzare i motori di ricerca con parole chiave naturali che gli utenti usano per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - Natural]**:Consente di visualizzare i motori di ricerca con parole chiave naturali che gli utenti usano per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
 ## Domini di riferimento {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,7 +130,7 @@ Durante l'esecuzione di questo rapporto potrebbero essere visualizzati i seguent
 
 **All'interno del sito**: Questi elementi sono URL ai quali vengono assegnati tag dai filtri URL interni. Questi elementi non vengono conteggiati come istanze di riferimento, ma possono essere visualizzati durante la generazione di rapporti su altre metriche.
 
-** Nessun codice Java**: Non era presente un codice JavaScript, pertanto il tipo non era identificabile (sconosciuto). Ciò significa che non sono state fornite informazioni sul referente da un client in un browser, che non segnala il supporto di Javascript. Questi non vengono contati come "istanze di referente", ma possono essere visualizzati quando si riferiscono ad altre metriche.
+**Nessun Java Script**: Non era presente un codice JavaScript, pertanto il tipo non era identificabile (sconosciuto). Ciò significa che non sono state fornite informazioni sul referente da un client in un browser, che non segnala il supporto di Javascript. Questi non vengono contati come "istanze di referente", ma possono essere visualizzati quando si riferiscono ad altre metriche.
 
 **USENET (newsgroup)**: Ciò significa che l'URL di un referente è iniziato con `news://`. Come tale, il collegamento del referente è stato pubblicato su un newsgroup Usenet anziché su una pagina Web.
 
