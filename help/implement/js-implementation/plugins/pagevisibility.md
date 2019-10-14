@@ -1,53 +1,53 @@
 ---
-description: Registra quanti secondi è la pagina attiva all'interno del browser e trascina tale valore in una metrica nella visualizzazione pagina successiva.
+description: Registra il numero di secondi in cui la pagina era la scheda attiva nel browser e trasmette tale valore in una metrica nella visualizzazione pagina successiva.
 keywords: Implementazione di Analytics
-seo-description: Registra quanti secondi è la pagina attiva all'interno del browser e trascina tale valore in una metrica nella visualizzazione pagina successiva.
-seo-title: Getpagevisibility
+seo-description: Registra il numero di secondi in cui la pagina era la scheda attiva nel browser e trasmette tale valore in una metrica nella visualizzazione pagina successiva.
+seo-title: getPageVisibility
 solution: Analytics
-title: Getpagevisibility
+title: getPageVisibility
 topic: Sviluppatore e implementazione
-uuid: 3891 e 2 aa-d 5 c 1-4 a 2 b -8522-eb 2 bae 39 ea 2 e
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Getpagevisibility
+# getPageVisibility
 
-Registra quanti secondi è la pagina attiva all'interno del browser e trascina tale valore in una metrica nella visualizzazione pagina successiva.
-
->[!NOTE]
->
->Si tratta di una versione beta del plug-in, e potrebbero essere disponibili aggiornamenti aggiuntivi.
-
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
-
-Questo plug-in registra anche il secondi totale in cui la pagina si trovava all'interno del browser (sia il tempo di visualizzazione attivo che passivo). È necessario utilizzare il plug-in getpreviousvalue per tenere traccia del nome della pagina precedente associato agli eventi di visibilità della pagina. Il tracciamento di questi valori consente di comprendere meglio il coinvolgimento dei visitatori e di monitorare con maggiore precisione il comportamento dei visitatori sui tuoi siti.
-
-È necessario utilizzare il plug-in getpreviousvalue per tenere traccia del nome della pagina precedente associato agli eventi di visibilità della pagina. Il tracciamento di questi valori consente di comprendere meglio il coinvolgimento dei visitatori e di monitorare con maggiore precisione il comportamento dei visitatori sui tuoi siti.
+Registra il numero di secondi in cui la pagina era la scheda attiva nel browser e trasmette tale valore in una metrica nella visualizzazione pagina successiva.
 
 >[!NOTE]
 >
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. Questo può influenzare la raccolta di dati sul sito e deve essere fatta solo da uno sviluppatore con esperienza utilizzando e implementando Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+>Questa è una versione beta del plugin, e ulteriori aggiornamenti potrebbe essere disponibile.
 
-## Required Supporting Plug-ins {#section_0CA7624F4A7B4B5F851A4300937887AD}
+Questo plug-in richiede [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
-* Appendlist
-* Getpreviousvalue
-* Getvisitstart
+Questo plug-in registra anche i secondi totali in cui la pagina si trovava all’interno del browser (tempo di visualizzazione attivo e passivo). È necessario utilizzare il plug-in getPreviousValue per tenere traccia del nome di pagina precedente associato agli eventi di visibilità della pagina. Il tracciamento di questi valori consente di comprendere meglio il coinvolgimento dei visitatori e di monitorare più accuratamente il comportamento dei visitatori sui siti.
 
-## Plug-in Code and Implementation {#section_543ABD8B3E6A48A5AFD86CFEDE144696}
+È necessario utilizzare il plug-in getPreviousValue per tenere traccia del nome di pagina precedente associato agli eventi di visibilità della pagina. Il tracciamento di questi valori consente di comprendere meglio il coinvolgimento dei visitatori e di monitorare più accuratamente il comportamento dei visitatori sui siti.
+
+>[!NOTE]
+>
+>Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza che utilizza e implementa Analytics. Questo plug-in è compatibile solo con le librerie di [!DNL AppMeasurement] tracciamento.
+
+## Plug-in di supporto richiesti {#section_0CA7624F4A7B4B5F851A4300937887AD}
+
+* appendList
+* getPreviousValue
+* getVisitStart
+
+## Codice plug-in e implementazione {#section_543ABD8B3E6A48A5AFD86CFEDE144696}
 
 **Sezione di configurazione**
 
-The `s.pvel` variable should contain the three events you wish to use:
+La `s.pvel` variabile deve contenere i tre eventi da utilizzare:
 
 | Evento | Definizione |
 |---|---|
-| Totale secondi di visibilità pagina (numerico) | Il tempo di attivazione della pagina nel browser |
-| Secondi pagina totale (numerico) | Il tempo di caricamento della pagina nel browser, indipendentemente dallo stato di visibilità |
-| Istanze totale di visibilità pagina (contatore) | Il numero totale di volte in cui è stato registrato un valore per i due eventi precedenti |
+| Secondi Visibilità Totale Pagina (Numerico) | Il tempo di attivazione della pagina nel browser |
+| Secondi pagina totali (numerici) | Il tempo di caricamento della pagina nel browser, indipendentemente dal suo stato di visibilità |
+| Totale istanze di visibilità pagina (contatore) | Numero totale di volte in cui un valore è stato registrato per i due eventi precedenti |
 
 **Chiamate di esempio**
 
@@ -56,9 +56,9 @@ The `s.pvel` variable should contain the three events you wish to use:
 s.pvel='event7,event8,event9' 
 ```
 
-**Sezione doplugins**
+**sezione doPlugins**
 
-To initialize the plug-in, two lines of code are required in the `doPlugins` section of your s_code, preferably after you have designated the `s.pageName` variable.
+Per inizializzare il plug-in, nella `doPlugins` sezione s_code sono necessarie due righe di codice, preferibilmente dopo aver designato la `s.pageName` variabile.
 
 **Chiamate di esempio**
 
@@ -68,7 +68,7 @@ s.eVar9 = s.getPreviousValue(s.pageName,'gpv_v9','');  //Record the previous pag
 s.getPageVisibility(); 
 ```
 
-**Sezione plug-in**
+**Sezione Plug-in**
 
 ```
 /* Page Visibility Plugin 0.1 (BETA) */ 
@@ -101,37 +101,37 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## Note {#section_47964BB9D0A24BFEB4B2498A41D8B017}
 
-* Verifica sempre le installazioni dei plug-in per garantire che la raccolta dati sia come previsto prima della distribuzione in un ambiente di produzione.
-* Poiché il plug-in passa i secondi della visibilità della pagina e i secondi totali in cui sono associati alla pagina precedente, i dati non vengono raccolti per la visualizzazione finale della pagina della visita.
-* Questo plug-in si basa sulla capacità di impostare cookie nel browser Web dell'utente. Se l'utente non accetta cookie di prime parti, il plug-in non passa dati in Analytics.
-* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`.
+* Verificate sempre le installazioni dei plug-in in modo da garantire che la raccolta dei dati avvenga come previsto prima della distribuzione in un ambiente di produzione.
+* Poiché il plug-in supera i secondi di visibilità della pagina e i secondi totali associati alla pagina precedente, i dati non vengono raccolti per la visualizzazione della pagina finale della visita.
+* Questo plug-in si basa sulla capacità di impostare i cookie nel browser Web dell'utente. Se l'utente non accetta i cookie di prime parti, il plug-in non trasmette dati ad Analytics.
+* Il plug-in crea i propri cookie di prime parti denominati `s_tps` e `s_pvs`.
 
-* Una percentuale molto piccola di utenti non passa la percentuale di dati visualizzati a causa dei limiti del browser e la logica è contenuta nel plug-in per garantire che i dati non vengano distorti come risultato. Questo plug-in è stato tuttavia testato correttamente in IE, Firefox, Chrome e Safari.
-* A causa del modo in cui il plug-in misura i secondi totali e lo associa al nome della pagina precedente, ci sono differenze tra il tempo predefinito impiegato per le metriche della pagina e le metriche totali dei secondi.
-* [!UICONTROL Calculated Metrics] può essere creato per semplificare il riepilogo e comprendere il comportamento dei visitatori associati a queste metriche:
+* Una percentuale molto ridotta di utenti non trasmetterà la percentuale di dati di pagina visualizzati a causa delle limitazioni del browser, e la logica è contenuta all'interno del plug-in per garantire che i dati non vengano distorti come risultato. Tuttavia, questo plug-in è stato testato con successo in IE, Firefox, Chrome e Safari.
+* A causa del modo in cui il plug-in misura i secondi totali e associa tale valore al nome della pagina precedente, ci saranno differenze tra il tempo predefinito impiegato sulle metriche della pagina e i secondi totali.
+* [!UICONTROL Calculated Metrics] può essere creato per riepilogare e comprendere il comportamento dei visitatori associati a queste metriche:
 
-   * ** Rapporto visibilità pagina** (Totale secondi della visibilità pagina/Totale pagina secondi)
-   * ** Totale secondi nascosti** (Totale secondi di pagina - Totale secondi di visibilità pagina)
-   * ** Secondi media visibilità pagina** (Totale secondi di visibilità pagina/Totale istanze di visibilità pagina)
-   * **Secondi** nascosti pagina ((Secondi totali pagina - Secondi totali di visibilità pagina)/Istanze totale di visibilità pagina)
+   * **Rapporto** di visibilità della pagina (totale secondi di visibilità della pagina / totale secondi di pagina)
+   * **Secondi** Nascosti Totale (Secondi Pagina Totale - Secondi Visibilità Pagina Totale)
+   * **Secondi** Di Visibilità Media Delle Pagine (Secondi Di Visibilità Totale Delle Pagine/Istanze Di Visibilità Totale Delle Pagine)
+   * **Secondi** Nascosti Di Pagina Media (Secondi Totale Di Pagina - Secondi Di Visibilità Totale Della Pagina)/Istanze Di Visibilità Totale Della Pagina)
 
-* A causa del modo in cui il plug-in viene arrotondato ai secondi, potrebbe esserci una seconda differenza di 1-2 tra i secondi totali della visibilità delle pagine e i secondi totali, con secondi totali superiori. (da risolvere in un aggiornamento futuro)
-* L'utilizzo del plug-in getvisitstart deve tenere conto dei visitatori che hanno una nuova visita dopo un periodo di 30 + minuti di inattività. Questa funzione non funziona correttamente; Tuttavia, se includeremo il «totale secondi attivi» in un'iterazione futura del plug-in, probabilmente troverai una soluzione alternativa.
+* A causa del modo in cui il plug-in arrotonda i secondi, può verificarsi una differenza di 1-2 secondi tra i secondi totali di visibilità della pagina e i secondi totali, con secondi totali superiori. (Da risolvere in un aggiornamento futuro)
+* L'utilizzo del plug-in getVisitStart deve tenere conto dei visitatori che hanno un nuovo inizio dopo un periodo di oltre 30 minuti di inattività. Non funziona come previsto; tuttavia, potrebbe verificarsi una soluzione alternativa quando si incorporano i "secondi attivi totali" in una futura iterazione del plug-in.
 
 ## Domande frequenti {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-** Questo plug-in effettua chiamate aggiuntive al server? **
+**Il plug-in eseguirà chiamate server aggiuntive?**
 
-Il plug-in registra solo i valori di visibilità della pagina nelle chiamate di server di visualizzazione successive. Non vengono utilizzate chiamate server aggiuntive in combinazione con essa.
+Il plug-in registrerà solo i valori di visibilità della pagina nelle chiamate server di visualizzazione pagina successive. Non vengono utilizzate chiamate server aggiuntive insieme ad essa.
 
-** Se non desidero acquisire i secondi totali di pagina o le istanze totale di visibilità delle pagine, posso lasciarli fuori dall'elenco degli eventi? **
+**Se non si desidera acquisire i secondi totali di pagina o le istanze totali di visibilità della pagina, è possibile uscire dall'elenco eventi?**
 
-Sì, i secondi di pagina totali e le istanze di visibilità totale sono eventi facoltativi e possono essere lasciati fuori dall'elenco, se necessario.
+Sì, i secondi totali delle pagine e le istanze di visibilità totali sono eventi facoltativi e, se necessario, possono essere esclusi dall’elenco.
 
-** Gli eventi acquisiti hanno senso se li uso in rapporti diversi da Nome pagina precedente? **
+**Gli eventi acquisiti avranno senso se li uso in rapporti diversi da Nome pagina precedente?**
 
-Poiché i valori dei record dei plug-plugin nell'immagine successiva richiedono solo altre evar acquisite in un contesto dì pagina precedentè, vale a dire «URL pagina precedente».
+Poiché il plug-in registra i valori nella richiesta di immagine successiva, è possibile applicare solo altre eVar acquisite in un contesto di "pagina precedente", ovvero "URL pagina precedente".
 
-**Il plug-in invia il tempo di visibilità su una chiamata s. tl () o su una chiamata s. t ()?**
+**Il plug-in invierà l’ora di visibilità su una chiamata s.tl() o solo su una chiamata s.t()?**
 
-Il tempo di visibilità viene registrato solo con le chiamate s. t ().
+Il tempo di visibilità viene registrato solo con chiamate s.t().
