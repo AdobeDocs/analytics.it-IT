@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Gestione tag dinamica
 title: Riferimenti e campagne
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,11 +28,11 @@ Descrizioni dei campi in [!UICONTROL Dynamic Tag Management] per referenti e opz
  <tbody> 
   <tr> 
    <td colname="col1"> Override Referrer </td> 
-   <td colname="col2"> <p>Sostituisce il valore impostato nella variabile <span class="varname"> s.referrer</span> , generalmente popolata dal set di referrer nel browser. </p> <p>Vedere [Variabili di pagina](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Sostituisce il valore impostato nella variabile <span class="varname"> s.referrer</span> , generalmente popolata dal set di referrer nel browser. </p> <p>Consultate Variabili <a href="/help/implement/js-implementation/c-variables/page-variables.md">di</a>pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Campagna </td> 
-   <td colname="col2"> <p>Variabile che identifica le campagne di marketing utilizzate per portare i visitatori sul sito. Il valore della campagna viene in genere ricavato da un parametro di stringa di query. </p> <p>Vedere [Variabili di pagina](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Variabile che identifica le campagne di marketing utilizzate per portare i visitatori sul sito. Il valore della campagna viene in genere ricavato da un parametro di stringa di query. </p> <p>Vedere [Variabili<a href="/help/implement/js-implementation/c-variables/page-variables.md">di</a>pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
