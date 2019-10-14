@@ -6,8 +6,8 @@ solution: Analytics
 title: Eventi calendario
 topic: Reports and Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -33,7 +33,7 @@ Per i report con tendenze nel tempo, puoi visualizzare in modo grafico gli event
 1. (Facoltativo) Gli eventi calendario sono specifici dell’utente, a meno che non siano condivisi. Per condividere questo evento, seleziona **[!UICONTROL Share]**.
 1. (Facoltativo) Effettua il push dell’evento calendario agli utenti. Gli Eventi calendario che sono stati contrassegnati come condivisi hanno ora un’opzione per essere "sottoposti a push" per altri utenti. Inviando un evento del calendario, questo verrà visualizzato sui grafici con tendenze e tempo eccessivo dell’utente destinatario.
    1. Fai clic su **[!UICONTROL Push To Users]**.
-   1. **[!UICONTROL Check All]** o controlla la casella accanto al nome utente.
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Fai clic su **[!UICONTROL Save]**.
    In questo modo gli eventi del calendario sono maggiormente utilizzabili. Analytics ora può forzare una sovrapposizione nel report dell'utente per fornire più contesto.
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Calendar Events]**.
