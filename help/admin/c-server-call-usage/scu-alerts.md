@@ -1,80 +1,78 @@
 ---
-description: Aggiungere o gestire tutti gli avvisi di utilizzo. Quando impostate un avviso, questo viene applicato a tutte le suite di rapporti di una società di fatturazione.
-seo-description: Aggiungere o gestire tutti gli avvisi di utilizzo. Quando impostate un avviso, questo viene applicato a tutte le suite di rapporti di una società di fatturazione.
-seo-title: Avvisi sull'utilizzo della chiamata server
-title: Avvisi sull'utilizzo della chiamata server
-uuid: 701 fd 542-5 b 24-42 df -97 a 0-08 e 10929 fa 48
+description: Aggiungi o gestisci tutti gli avvisi di utilizzo del server. Quando configurate un avviso, questo si applica a tutte le suite di rapporti in tutte le società di accesso di una società di fatturazione.
+seo-description: Aggiungi o gestisci tutti gli avvisi di utilizzo del server. Quando configurate un avviso, questo si applica a tutte le suite di rapporti in tutte le società di accesso di una società di fatturazione.
+seo-title: Avvisi sull’utilizzo delle chiamate server
+title: Avvisi sull’utilizzo delle chiamate server
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Avvisi sull'utilizzo della chiamata server
+# Avvisi sull’utilizzo delle chiamate server
 
-Quando impostate un avviso, questo viene applicato a tutte le suite di rapporti di una società di fatturazione.
+Quando configurate un avviso, questo si applica a tutte le suite di rapporti in tutte le società di accesso di una società di fatturazione.
 
 ## Panoramica
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+Una nuova categoria di avvisi denominata **[!UICONTROL Server Calls Usage Alert]** fa parte dell'interfaccia utente [Gestione](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) avvisi esistente.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Questi avvisi attivano una notifica indirizzata a tutti gli amministratori della società di accesso se viene soddisfatto uno dei seguenti criteri:
+Viene precompilato con **1 avviso** predefinito che viene visualizzato all’interno di qualsiasi società di accesso che dispone dell’accesso alla funzione Utilizzo chiamate server. Questi avvisi attivano una notifica indirizzata a tutti gli amministratori della società di accesso se uno dei seguenti criteri è soddisfatto:
 
-* " Any "server call use that" is above or equals "100% for any server-call type you are entitled to, OR
-* " Any "server call use that" is above or equals "90% for any server-call type you are entitled to, OR
-* " Any "server call use that" is above or equals "75% for any server-call type you are entitled to, AND" Usage period spent "" is below or equals "75% of Usage period.
+* "Qualsiasi" utilizzo di chiamate server "superiore o uguale a" 100% per qualsiasi tipo di chiamata server a cui si ha diritto, OPPURE
+* "Qualsiasi" utilizzo di chiamate server "superiore o uguale a" 90% per qualsiasi tipo di chiamata server a cui si ha diritto, OPPURE
+* "Qualsiasi" utilizzo di chiamate server "superiore o uguale a" 75% per qualsiasi tipo di chiamata server a cui si ha diritto, E "Il periodo di utilizzo trascorso" "è inferiore o uguale" al 75% del periodo di utilizzo.
 
 ![](assets/alerts.png)
 
-Puoi accedere agli avvisi sull'utilizzo di chiamate server in due modi:
+Puoi accedere agli avvisi di utilizzo delle chiamate server in due modi:
 
-* Click **[!UICONTROL Manage Alerts]** in the upper right corner on the Current Usage tab or the Report Suite usage tab, or
-* Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** in Adobe Analytics.
+* Fate clic **[!UICONTROL Manage Alerts]** nell'angolo superiore destro della scheda Utilizzo corrente o della scheda Utilizzo suite di rapporti oppure
+* Passa a **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** in Adobe Analytics.
 
 ## Create Server Call Usage Alerts {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
-Per creare altri avvisi,
+Per creare avvisi aggiuntivi,
 
-1. Click **[!UICONTROL + Add]** and select **[!UICONTROL Server Call Usage Alert]**.
+1. Fate clic **[!UICONTROL + Add]** e selezionate **[!UICONTROL Server Call Usage Alert]**.
 
    ![](assets/server_call_alert.png)
 
-1. Definire l'avviso.
+1. Definire l’avviso.
 
    ![](assets/sc_alert.png)
 
-   * **Titolo**: Specificate un nome descrittivo. Non è possibile salvare l'avviso senza un nome.
-   * **Granularità tempo**: Indica la frequenza con cui l'avviso viene controllato. *Al momento, supportiamo solo la granularità settimanale.* Questo significa che l'avviso verrà controllato su base settimanale e che sarà visualizzato come risultato dal periodo di utilizzo corrente.
-   * **Destinatari**: Specificate chiunque sia presente nell'organizzazione per ottenere un'e-mail quando l'avviso attiva la soglia specificata.
-   * **Data di scadenza**: Per impostazione predefinita, la data di scadenza è di un anno dalla data di creazione avvisi.
+   * **Titolo**: Specificate un nome descrittivo. Non è possibile salvare l’avviso senza un nome.
+   * **Granularità** tempo: Indica la frequenza con cui verrà controllato l’avviso. *Al momento supportiamo solo la granularità settimanale.* Questo significa che l'avviso verrà controllato su base settimanale e che guarderà indietro ai dati del periodo di utilizzo corrente.
+   * **Destinatari**: Specifica chiunque nell'organizzazione debba ricevere un'e-mail quando l'avviso attiva la soglia specificata.
+   * **Data** di scadenza: Per impostazione predefinita, la data di scadenza è un anno dalla data di creazione dell’avviso.
    * **Invia un avviso quando**:
 
-      * Qualsiasi di questi attivatori
-Metriche aggiunge il tipo di chiamata server/s come metrica e specifica la soglia di avviso selezionando il modificatore e la soglia:
+      * Uno qualsiasi di questi attivatori di metriche: aggiungi il tipo di chiamate server come metrica e specifica la soglia di avviso selezionando il modificatore e la soglia:
          * is above or equals (è superiore o uguale a)
          * is below or equals (è inferiore o uguale a)
-      * Con
-Specifica la soglia e la condizione (si trova sopra o è uguale o è inferiore o uguale a) per il periodo di utilizzo trascorso.
+      * Con: consente di specificare la soglia e la condizione (è superiore o uguale a, inferiore o uguale a) per il periodo di utilizzo trascorso.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-## Manage Server Calls Usage Alerts {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## Gestione avvisi utilizzo chiamate server {#section_8FF98170763C4B5CBEC6DD43F893177A}
 
 ![](assets/alert_mgmt.png)
 
 Per gestire gli avvisi:
 
-1. Selezionate la casella di controllo accanto a uno o più avvisi. Le azioni di gestione avvisi vengono visualizzate nella parte superiore.
-1. Completare una o più azioni:
+1. Seleziona la casella di controllo accanto a uno o più avvisi. Le azioni di gestione degli avvisi vengono visualizzate nella parte superiore.
+1. Effettuare una o più delle seguenti operazioni:
 
    | Azione | Definizione |
    |--- |--- |
    | + Aggiungi | Access the [Alert Builder](../../admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add]. |
-   | Tag | Etichettare i tag per semplificarne l'utilizzo. |
+   | Tag | Assegnare tag agli avvisi per organizzarli in modo semplice. |
    | Elimina | È possibile eliminare tutti gli avvisi tranne quelli predefiniti. |
    | Rinomina | È possibile rinominare tutti gli avvisi tranne quelli predefiniti. |
-   | Approva | Approvare gli avvisi per renderli «ufficiali». |
-   | Attiva/Disattiva | Puoi abilitare o disabilitare tutti gli avvisi, anche quelli predefiniti. |
+   | Approva | Approvare gli avvisi per renderli "ufficiali". |
+   | Attiva/Disattiva | Puoi attivare o disattivare tutti gli avvisi, anche quelli predefiniti. |
    | Rinnova | Se sono selezionati uno o più avvisi, è possibile rinnovarli. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
-   | Export to CSV (Esporta in CSV) | See [Download Usage Report](../../admin/c-server-call-usage/report-suite-usage.md) |
+   | Export to CSV (Esporta in CSV) | Consultate [Download del rapporto sull'utilizzo](../../admin/c-server-call-usage/report-suite-usage.md) |
 
