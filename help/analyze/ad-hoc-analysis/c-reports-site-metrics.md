@@ -7,7 +7,7 @@ title: Rapporti sulle metriche del sito
 topic: Analisi ad hoc
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Entrate**: Consente di visualizzare i profitti lordi per i periodi di tempo selezionati. Gli esempi possono includere entrate nel mese di marzo, acquisti effettuati la settimana scorsa o entrate per oggi.
 * **Ordini**: Mostra il numero di ordini effettuati sul sito Web durante il periodo di tempo specificato. Gli ordini possono contenere più prodotti.
 * **Unità**: Mostra le unità totali ordinate per il periodo di tempo specificato.
-* ** Imbuto di conversione acquisto**: Ideale per mostrare gli eventi di conversione sul sito se si verificano in un ordine specifico, ad esempio in un'impostazione di vendita al dettaglio. Un rapporto funnel mostra le metriche di conversione per ogni fase del processo di conversione, nonché Ordini, Entrate e Unità.
+* **Funnel** di conversione acquisto: Ideale per mostrare gli eventi di conversione sul sito se si verificano in un ordine specifico, ad esempio in un'impostazione di vendita al dettaglio. Un rapporto funnel mostra le metriche di conversione per ogni fase del processo di conversione, nonché Ordini, Entrate e Unità.
 
 ## Rapporto Carrello acquisti {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
