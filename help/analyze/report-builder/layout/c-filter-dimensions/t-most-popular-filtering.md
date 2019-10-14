@@ -1,55 +1,55 @@
 ---
-description: Filtri di classificazione e condizionali configurati utilizzando la logica booleana con espressioni di ricerca AND/OR.
-seo-description: Filtri di classificazione e condizionali configurati utilizzando la logica booleana con espressioni di ricerca AND/OR.
-seo-title: Filtro più comune
+description: Classificazione e filtri condizionali configurati mediante logica booleana con espressioni di ricerca AND/OR.
+seo-description: Classificazione e filtri condizionali configurati mediante logica booleana con espressioni di ricerca AND/OR.
+seo-title: Filtraggio più comune
 solution: Analytics
-title: Filtro più comune
+title: Filtraggio più comune
 topic: Generatore di report
-uuid: 558 fa 592-41 be -4 e 66-8705-81262 afe 1 fc 7
+uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Filtro più comune
+# Filtraggio più comune
 
-Filtri di classificazione e condizionali configurati utilizzando la logica booleana con espressioni di ricerca AND/OR.
+Classificazione e filtri condizionali configurati mediante logica booleana con espressioni di ricerca AND/OR.
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. [Potete salvare](../../../../analyze/report-builder/layout/c-filter-dimensions/saved-filters.md#concept_562AC2C5628247909FBA5E1867BB6AE5) queste espressioni per altre richieste in questa cartella di lavoro o in altre cartelle di lavoro.
+La maggior parte dei filtri popolari sono filtri di espressione configurati utilizzando la logica booleana con condizioni AND/OR, ad esempio [!UICONTROL Page does not contain]*`<product name>`* con condizioni o gruppi di condizioni come [!UICONTROL Includes All], [!UICONTROL Includes Any]o [!UICONTROL Excludes All]. È possibile [salvare](../../../../analyze/report-builder/layout/c-filter-dimensions/saved-filters.md#concept_562AC2C5628247909FBA5E1867BB6AE5) queste espressioni per altre richieste nella cartella di lavoro o in altre cartelle di lavoro.
 
 **Per creare un filtro più popolare**
 
-1. Create or edit a request, and advance to the [!UICONTROL Request Wizard: Step 2].
+1. Create o modificate una richiesta e passate al [!UICONTROL Request Wizard: Step 2].
 
-   ![Informazioni passo](assets/dimension_filter.png)
+   ![Informazioni sul passaggio](assets/dimension_filter.png)
 
-1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
-1. On the [!UICONTROL Choose Page] form, enable **[!UICONTROL Most Popular]**, then configure the following options:
+1. Fare clic sul [!UICONTROL Request Wizard: Step 2]collegamento accanto alla quota nella griglia, quindi scegliere **[!UICONTROL Filter]**.
+1. Sul [!UICONTROL Choose Page] modulo, attivare **[!UICONTROL Most Popular]**, quindi configurare le seguenti opzioni:
 
-   **Classificazione iniziale:** Punto iniziale di una dimensione. Un valore predefinito pari a 1 indica il primo elemento nell'elenco dei dati segnalati. For example, for the dimension [!UICONTROL Page], a starting mark of 1 indicates the single most requested page of your site. Potreste specificare 10 o un altro valore come cella di classificazione iniziale, che produce un rapporto a partire da 10. Le metriche sono disposte in ordine decrescente, in modo che gli elementi delle linee con la maggior parte delle attività vengano segnalati per prima nell'elenco. Se hai bisogno di più di 50,000 nomi di pagina in una richiesta, ma hai migliaia di pagine su cui eseguire il rapporto, puoi copiare la richiesta e cambiare il livello iniziale per recuperare i dati appropriati in blocchi di 50,000.
+   **** Classificazione iniziale: Il rango iniziale di una dimensione. Un valore predefinito pari a 1 indica l’elemento principale nell’elenco dei dati segnalati. Ad esempio, per la dimensione [!UICONTROL Page], un punto iniziale pari a 1 indica la singola pagina del sito più richiesta. È possibile specificare 10 o un altro valore come cella di rango iniziale, generando un rapporto che inizia con 10 come la più alta. Le metriche sono disposte in ordine decrescente, in modo che le voci con l'attività maggiore vengano riportate per prime nell'elenco. Se in una richiesta sono necessari più di 50.000 nomi di pagina, ma sono presenti migliaia di pagine su cui eseguire il rapporto, è possibile copiare la richiesta e modificare il rango iniziale per recuperare i dati appropriati in blocchi di 50.000.
 
-   **Numero di voci:** [!UICONTROL Pivot Layout] (solo) Definisce il numero di elementi segnalati per una particolare metrica su un intervallo di date. Alcune metriche possono elencare centinaia di voci per una metrica, mentre altri potrebbero mostrare solo alcuni. For example, for the dimension [!UICONTROL Site Section], a number of entries of 25 indicates that the report shows the 25 most visited pages.
+   **** Numero di voci: ( [!UICONTROL Pivot Layout] solo) Definisce quanti elementi vengono segnalati per una particolare metrica in un intervallo di date. Alcune metriche possono elencare centinaia di voci per una metrica, mentre altre possono mostrarne solo alcune. Ad esempio, per la dimensione [!UICONTROL Site Section], un numero di voci pari a 25 indica che il rapporto mostra le 25 pagine più visitate.
 
-   Arrows allow you to change the [!UICONTROL Starting Rank] and [!UICONTROL Number of Entries] of the first data point in the sheet. By default, the [!UICONTROL Starting Rank] is set to 1 and the [!UICONTROL Number of Entries] to 10. Per determinate metriche, questi valori sono regolati da almeno uno a un massimo di 50,000. Each metric has its own ceiling on [!UICONTROL Number of Entries]. In questi campi non sono consentiti valori negativi o zero. If you choose a [!UICONTROL Starting Rank] as 15 and [!UICONTROL Number of Entries] as 10, data requests for the metric return the 10 most visited pages, where the first most visited page is number 15 in the list for the specific date range. Tutte le pagine più richieste classificate da 15 a 25 sono elencate in ordine decrescente.
+   Le frecce consentono di modificare il punto [!UICONTROL Starting Rank] e [!UICONTROL Number of Entries] il primo del foglio. Per impostazione predefinita, l’ [!UICONTROL Starting Rank] opzione è impostata su 1 e l’opzione [!UICONTROL Number of Entries] su 10. Questi valori possono essere regolati da un minimo a un massimo di 50.000 per determinate metriche. Ogni metrica ha il proprio soffitto su [!UICONTROL Number of Entries]. In questi campi non sono consentiti valori negativi o zero. Se scegliete [!UICONTROL Starting Rank] come 15 e [!UICONTROL Number of Entries] come 10, le richieste di dati per la metrica restituiscono le 10 pagine più visitate, dove la prima pagina più visitata è il numero 15 nell’elenco per l’intervallo di date specifico. Tutte le pagine più richieste classificate tra il 15 e il 25 sono elencate in ordine decrescente.
 
    >[!NOTE]
    >
-   >L'applicazione di filtri alle richieste esistenti causa modifiche nei dati mostrati. Suppose you mapped the top ten [!UICONTROL Pages] to cells $A$1 through $A$10, with 1 for [!UICONTROL Starting Rank] and 10 for [!UICONTROL Number of Entries]. If you change these values to show 1 for [!UICONTROL Starting Rank] and only 3 for [!UICONTROL Number of Entries], the data previously filling cells $A$4 through $A$10 will no longer appear.
+   >L'applicazione di filtri alle richieste esistenti causa modifiche nei dati presentati. Supponete di aver mappato i primi dieci [!UICONTROL Pages] alle celle da $A$1 a $A$10, con 1 per [!UICONTROL Starting Rank] e 10 per [!UICONTROL Number of Entries]. Se si modificano questi valori in modo da visualizzare 1 per [!UICONTROL Starting Rank] e solo 3 per [!UICONTROL Number of Entries], i dati che precedentemente riempivano le celle da $A$4 a $A$10 non saranno più visualizzati.
 
-1. To create a search expression, click **[!UICONTROL Add]**.
+1. Per creare un'espressione di ricerca, fate clic su **[!UICONTROL Add]**.
 
-   ![Informazioni passo](assets/expressions_define_filter.png)
+   ![Informazioni sul passaggio](assets/expressions_define_filter.png)
 
-1. On the [!UICONTROL Define Filter] form, configure the conditions appropriate for your needs.
+1. Sul [!UICONTROL Define Filter] modulo, configurare le condizioni adatte alle proprie esigenze.
 
-   ![select_ cell_ icon. png](assets/select_cell_icon.png): Consente di individuare una condizione definita nel valore di una cella.
+   ![select_cell_icon.png](assets/select_cell_icon.png): Consente di individuare una condizione definita nel valore di una cella.
 
-   ** Aggiungi condizione: ** Aggiunge una condizione all'espressione. Non esiste alcun limite al numero di condizioni che è possibile aggiungere.
+   **** Aggiungi condizione: Aggiunge una condizione all'espressione. Non esiste alcun limite al numero di condizioni che è possibile aggiungere.
 
 1. Fai clic su **[!UICONTROL OK]**.
 
-   ![Informazioni passo](assets/choose_page_02.png)
+   ![Informazioni sul passaggio](assets/choose_page_02.png)
 
-1. On the [!UICONTROL Choose Page] form, click **[!UICONTROL Save]** to save the expression.
+1. Nel [!UICONTROL Choose Page] modulo fare clic su **[!UICONTROL Save]** per salvare l'espressione.
 1. Fai clic su **[!UICONTROL OK]**.
