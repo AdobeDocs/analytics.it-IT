@@ -5,7 +5,7 @@ seo-title: Migrazione degli utenti di Analytics all’Admin Console
 title: Migrazione degli utenti di Analytics all’Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -338,11 +338,11 @@ Per inviare un messaggio e-mail a tutti gli utenti, andate a **[!UICONTROL Analy
 
 **Oggetto:** Disponibile a breve un nuovo metodo di accesso ad Adobe Analytics e Adobe Experience Cloud.
 
-** Corpo:** Salve utenti di Adobe Analytics!
+**Corpo del messaggio:** A tutti gli utenti di Adobe Analytics:
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). Con questa migrazione, il vostro account Adobe Analytics verrà aggiornato per poter accedere ad Analytics mediante Adobe Experience Cloud. Anche se cambierà il metodo di accesso ad Analytics, tutte le vostre autorizzazioni esistenti per gli strumenti e le suite di rapporti verranno preservate.
 
-** Prossimi passi:** Inizieremo a migrare gli utenti a partire da <INSERT DATE>. Riceverete un messaggio di benvenuto con le nuove credenziali all’ID e-mail indicato nel vostro account Analytics. Se non avete collegato un [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) al vostro indirizzo e-mail, vi verrà chiesto di configurare un account.
+**** Passaggi successivi: Inizieremo a migrare gli utenti a partire da <INSERT DATE>. Riceverete un messaggio di benvenuto con le nuove credenziali all’ID e-mail indicato nel vostro account Analytics. Se non avete collegato un [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) al vostro indirizzo e-mail, vi verrà chiesto di configurare un account.
 
 **Risorse utili:**
 
