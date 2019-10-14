@@ -5,7 +5,7 @@ seo-title: Implementazione dell'integrazione
 title: Implementazione dell'integrazione
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -192,8 +192,7 @@ Utilizzate lo strumento DigitalPulse Debugger per verificare che i dati della di
 
 ![](assets/debugger1.png)
 
-**Mbox di destinazione include i parametri del profilo Demandbase: **
-
+****Mbox di Target include i parametri del profilo Demandbase:
 Questo aspetto verrà visualizzato solo se sulla pagina è stato implementato Target E se l'integrazione è stata configurata per Adobe Target. Consultate il Passaggio 4 nella procedura guidata di integrazione di Adobe.
 
 ![](assets/debugger2.png)
