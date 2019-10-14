@@ -7,7 +7,7 @@ title: Eseguire diversi tipi di rapporto
 topic: Report,Reporting e analisi
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -222,11 +222,11 @@ t_anomaly_config.xml
 
 Potete impostare il rilevamento delle anomalie in modo indipendente per ogni suite di rapporti.
 
-1. Passa a **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
+1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
 1. Selezionate la suite di rapporti per la quale desiderate tenere traccia del rilevamento giornaliero delle anomalie. Per visualizzare un elenco di suite di rapporti, fai clic sul menu a discesa del selettore Suite di rapporti.
-1. Per selezionare le metriche e/o definire le metriche filtrate, fai clic su **[!UICONTROL Edit Metrics]**in alto a destra nella schermata: ![](assets/metrics_icon.png).
+1. Per selezionare le metriche e/o definire le metriche filtrate, fai clic **[!UICONTROL Edit Metrics]** in alto a destra nella schermata: ![](assets/metrics_icon.png).
 
-   Puoi scegliere le metriche dall'elenco (comprese le metriche calcolate) di tutte le metriche o da un elenco di metriche tracciate. Potete anche filtrare l’elenco in base a termini specifici. 1. Una volta generato il rapporto, definire il **[!UICONTROL Training Period]**e il **[!UICONTROL View Period]** relativo rilevamento di anomalie. (Pensate al periodo di formazione come al "periodo di apprendimento" per l’algoritmo.)
+   Puoi scegliere le metriche dall'elenco (comprese le metriche calcolate) di tutte le metriche o da un elenco di metriche tracciate. Potete anche filtrare l’elenco in base a termini specifici. 1. Una volta generato il rapporto, definisci il **[!UICONTROL Training Period]** e il **[!UICONTROL View Period]** metodo di rilevamento delle anomalie. (Pensate al periodo di formazione come al "periodo di apprendimento" per l’algoritmo.)
 
    ![](assets/view_training_periods.png)
 
