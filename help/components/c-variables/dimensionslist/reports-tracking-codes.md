@@ -7,7 +7,7 @@ title: Codici di tracciamento
 topic: Rapporti
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ Misura il modo in cui vari codici di monitoraggio pubblicitario influiscono sui 
 * Visualizzazioni di pagina, Visite e Visitatori unici sono disponibili come metriche.
 * Questo report può utilizzare segmenti.
 
-** Proprietà Analisi ad hoc*
+**Proprietà di analisi ad hoc**
 
 * Oltre alla maggior parte delle variabili di conversione pronte all’uso, puoi suddividere il rapporto Codice di tracciamento per tutti gli altri rapporti all’interno dell’interfaccia di reporting.
 * Oltre agli eventi eCommerce e personalizzati, puoi utilizzare tutte le metriche di conversione e traffico, nonché un'allocazione diversa per tutte le metriche di conversione.
