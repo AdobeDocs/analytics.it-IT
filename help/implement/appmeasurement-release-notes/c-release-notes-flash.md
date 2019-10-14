@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: Sviluppatore e implementazione
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -29,19 +29,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## April 20, 2017 {#section_8521EC2B68E24203A0F1B14A9D2652D2}
 
-**Versione 4.0.3 **
+**Versione 4.0.3**
 
 * Inclusione di Visitor API 1.6.1.
 
 ## August 18, 2016 {#section_D72EF20672174249B864997905D7552A}
 
-** 4.0.2 - Aggiornamento**
+**4.0.2 - Aggiornamento**
 
 Inclusione di Visitor API 1.6.0.
 
 ## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-** 4.0.1 - Aggiornamento**
+**4.0.1 - Aggiornamento**
 
 Inclusione di Visitor API 1.5.6
 
