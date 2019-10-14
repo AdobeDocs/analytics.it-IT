@@ -9,7 +9,7 @@ title: Variabili di pagina
 topic: Sviluppatore e implementazione
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -826,7 +826,7 @@ listN.xml
 * L'utilizzo di List Vars richiede il codice H23 o superiore.
 * Le variabili elenco possono essere classificate.
 * Se i valori duplicati sono definiti nella stessa richiesta di immagine, le variabili elenco deduplicano tutte le istanze di tali valori.
-* Le variabili di elenco più granulari possono essere segmentate a livello di hit (o visualizzazione pagina). Se nella stessa richiesta di immagine è presente una variabile di elenco con tre valori, tutte e tre le regole di segmento che corrispondono a un valore verranno sottoposte a reporting. Al contrario, se viene definita una regola di esclusione che corrisponde a un singolo valore, tutti e tre i valori sono esclusi.
+* Le variabili di elenco più granulari possono essere segmentate a livello di hit (o visualizzazione pagina). Se nella stessa richiesta di immagine è presente una variabile di elenco con tre valori, tutte e tre le regole di segmento che corrispondono a un valore verranno sottoposte a reporting. Al contrario, se viene definita una regola di esclusione che corrisponde a un singolo valore, vengono esclusi tutti e tre i valori.
 
 **Configurazione** {#section_8CADFF581D2447518BA3F7F79B2D80A9}
 
@@ -911,13 +911,13 @@ Questo risultato mostrerebbe tre voci con $50 ciascuna in entrate. (Annuncio ban
  <tbody> 
   <tr> 
    <td colname="col1"> Pagina 1 </td> 
-   <td colname="col2"> <code> s.list1="value1,value2,value3"; </code> </td> 
+   <td colname="col2"> <code> s.list1=”value1,value2,value3”; </code> </td> 
    <td colname="col3"> (non impostato) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Pagina 2 </td> 
-   <td colname="col2"> <code> s.list1="value4,value5,value6"; </code> </td> 
-   <td colname="col3"> <p> <code> s.events="purchase"; </code> </p> <p> <code> s.products=";product;1;200" </code> </p> </td> 
+   <td colname="col2"> <code> s.list1=”value4,value5,value6”; </code> </td> 
+   <td colname="col3"> <p> <code> s.events=”purchase”; </code> </p> <p> <code> s.products=”;product;1;200” </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -989,7 +989,7 @@ mediaLength.xml
 
 **Sintassi e valori** possibili {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** Metodo AutoTrack: **
+**Metodo autoTrack:**
 
 Se si utilizza [!UICONTROL s.Media.autoTrack], la [!UICONTROL mediaLength] variabile non deve essere implementata in modo esplicito. Viene determinato automaticamente da AppMeasurement per il codice JavaScript.
 
@@ -1325,7 +1325,7 @@ s.Media.trackVars=”prop2,events,eVar3”
 
 * Anche se eVar3 è specificato in [!UICONTROL trackVars], viene inviato con l’hit del supporto.
 
-## mobile {#concept_0CEE045F57B444138C0EAA015FC7EA70}
+## dispositivi mobili {#concept_0CEE045F57B444138C0EAA015FC7EA70}
 
 La variabile controlla l’ordine in cui i cookie e gli ID utente iscritto vengono utilizzati per identificare i visitatori.
 
@@ -1669,43 +1669,43 @@ Nei rapporti evento valuta, il totale del rapporto rappresenta il totale degli e
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> s.products="Category;ABC123" </code> </td> 
+   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products="Category2;ABC123,;ABC456" </code> </td> 
+   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products="Categoria3;ABC123;1;10" </code> </td> 
+   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products="Categoria;ABC123;1;10,;ABC456;2;19.98" </code> </td> 
+   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Categoria;ABC123;1;10;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Categoria;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Categoria;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Categoria;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Categoria;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Categoria;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1,event2,event3" </code> <p> <code> s.products="Categoria;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;event3=2.9;evar3=20% di sconto" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Categoria;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;event3=2.9;evar3=20% di sconto" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
