@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Gestione tag dinamica
 title: Visualizzazioni di pagina e contenuto
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,19 +28,19 @@ Descrizioni dei campi in Gestione tag dinamica per le visualizzazioni di pagina 
  <tbody> 
   <tr> 
    <td colname="col1"> Nome pagina </td> 
-   <td colname="col2"> <p>Nome di ogni pagina del sito. </p> <p>Vedere [Variabili di pagina](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Nome di ogni pagina del sito. </p> <p>Consultate Variabili <a href="/help/implement/js-implementation/c-variables/page-variables.md">di</a>pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Override URL pagina </td> 
-   <td colname="col2"> <p> Sostituisce l’URL effettivo della pagina. </p> <p>Vedere [Variabili di pagina](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p> Sostituisce l’URL effettivo della pagina. </p> <p>Consultate Variabili <a href="/help/implement/js-implementation/c-variables/page-variables.md">di</a>pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Canale (sezione Sito) </td> 
-   <td colname="col2"> <p>Identifica una sezione del sito. </p> <p>Vedere [Variabili di pagina](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Identifica una sezione del sito. </p> <p>Consultate Variabili <a href="/help/implement/js-implementation/c-variables/page-variables.md">di</a>pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Gerarchia </td> 
-   <td colname="col2"> <p>Determina la posizione di una pagina nella gerarchia del sito. </p> <p>Vedere [Variabili di pagina](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Determina la posizione di una pagina nella gerarchia del sito. </p> <p>Consultate Variabili <a href="/help/implement/js-implementation/c-variables/page-variables.md">di</a>pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
