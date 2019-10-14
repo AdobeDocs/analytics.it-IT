@@ -8,7 +8,7 @@ title: Domande frequenti sull’implementazione di Analytics
 topic: Sviluppatore e implementazione
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -73,7 +73,7 @@ Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni
   </tr> 
   <tr> 
    <td colname="col2"> <p>Prestazioni: il caricamento dello JavaScript esterno di Adobe causa una riduzione delle prestazioni? </p> </td> 
-   <td colname="col3"> <p> Il file JavaScript viene memorizzato nella cache del browser del visitatore dopo averlo caricato inizialmente, e in genere viene scaricato non più di una volta per sessione. Il file non viene scaricato su ogni pagina, anche se viene utilizzato da ogni pagina del sito. Nella maggior parte dei siti web, gli utenti producono in media più di un paio di visualizzazioni di pagina per sessione, quindi il trasferimento di JavaScript utilizzato più volte in questo file può comportare meno dati scaricati. </p> <p> JavaScript per [!DNL AppMeasurement] Compressione: se sei preoccupato del peso della pagina (dimensione) del client JavaScript di Adobe, Adobe consiglia di considerare la compressione del file tramite GZIP. GZIP è supportato da tutti i principali browser e offre prestazioni migliori rispetto alla compressione JavaScript per comprimere e decomprimere il file JavaScript di base <span class="filepath"> s_code.js </span>. </p> </td> 
+   <td colname="col3"> <p> Il file JavaScript viene memorizzato nella cache del browser del visitatore dopo averlo caricato inizialmente, e in genere viene scaricato non più di una volta per sessione. Il file non viene scaricato su ogni pagina, anche se viene utilizzato da ogni pagina del sito. Nella maggior parte dei siti web, gli utenti producono in media più di un paio di visualizzazioni di pagina per sessione, quindi il trasferimento di JavaScript utilizzato più volte in questo file può comportare meno dati scaricati. </p> <p> JavaScript per la compressione AppMeasurement: se sei preoccupato del peso della pagina (dimensione) del client JavaScript di Adobe, Adobe consiglia di considerare la compressione del file tramite GZIP. GZIP è supportato da tutti i principali browser e offre prestazioni migliori rispetto alla compressione JavaScript per comprimere e decomprimere il file JavaScript di base <span class="filepath"> s_code.js </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Prestazioni: l’invio di dati dal browser ai servizi Adobe riduce le prestazioni? </p> </td> 
