@@ -1,33 +1,33 @@
 ---
-description: Consente di applicare un filtro a più segmenti all'interno della Activity Map.
-seo-description: Consente di applicare un filtro a più segmenti all'interno della Activity Map.
+description: Consente di applicare un filtro per più segmenti nella Activity Map.
+seo-description: Consente di applicare un filtro per più segmenti nella Activity Map.
 seo-title: Segmentazione cliente
 solution: Analytics
 title: Segmentazione cliente
-topic: Activity map
-uuid: 5723 c 302-5744-4127-9 f 8 e -41 db 66 dc 6 dfb
+topic: Activity Map
+uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Segmentazione cliente
 
-Consente di applicare un filtro a più segmenti all'interno della Activity Map.
+Consente di applicare un filtro per più segmenti nella Activity Map.
 
 >[!NOTE]
 >
->Il controllo Segmenti è disponibile solo in modalità Standard perché la piattaforma Adobe Analytics non supporta la segmentazione dei dati in tempo reale.
+>Il controllo Segmento è disponibile solo in modalità Standard perché la piattaforma Adobe Analytics non supporta la segmentazione dei dati in tempo reale.
 
-You can select one or several of the segments from the **[!UICONTROL Segments]**drop-down menu shown below. I segmenti elencati sono identici a quelli che possedete o che sono stati condivisi con voi tramite Reporting e analisi, per la suite di rapporti selezionata.
+Puoi selezionare uno o più segmenti dal menu a **[!UICONTROL Segments]** discesa qui sotto. I segmenti elencati sono identici a quelli posseduti o condivisi con voi tramite Reporting e analisi per la suite di rapporti selezionata.
 
 ![](assets/segments.png)
 
-Quando la selezione dei segmenti (s) è cambiata e dopo la chiusura del selettore del segmento, viene avviata una nuova procedura di recupero dati di Analytics per tutte le metriche visualizzate nell'applicazione. I segmenti selezionati vengono ricordati quando si passa da una pagina all'altra.
+Quando la selezione dei segmenti è cambiata e dopo la chiusura del selettore dei segmenti, verrà avviato un nuovo processo di recupero dei dati di Analytics per tutte le metriche visualizzate nell'applicazione. I segmenti selezionati vengono ricordati quando si passa da una pagina all’altra.
 
-Quando è selezionato più di un segmento, l'etichetta di selezione segmento (in stato compresso) visualizzerà "Multiple". L'elenco completo dei segmenti selezionati verrà visualizzato facendo clic sul controllo.
+Quando è selezionato più segmenti, l’etichetta di selezione del segmento (in stato compresso) viene visualizzata come "Multiplo". L'elenco completo dei segmenti selezionati verrà visualizzato quando si fa clic sul controllo.
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+I segmenti selezionati verranno applicati a tutti i report di Analytics presentati in Activity Map, ovvero sovrapposizioni e **[!UICONTROL Links on Page]** e **[!UICONTROL Page Details]** rapporti.
