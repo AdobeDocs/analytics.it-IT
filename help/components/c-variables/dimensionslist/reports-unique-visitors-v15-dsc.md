@@ -7,7 +7,7 @@ title: Visitatori unici
 topic: Rapporti
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -263,7 +263,7 @@ I totali delle metriche possono variare in base all'intervallo di date del rappo
 
 Puoi utilizzare la segmentazione per modificare l’intervallo di date in modo da includere date successive anziché date precedenti. Ad esempio, si supponga che l'intervallo di date sia ancora compreso tra il 2 e il 3 gennaio (come illustrato nella tabella precedente). Se applicate un segmento in cui Pagina = C, il 2 gennaio non supererà il segmento e il primo hit del visitatore univoco settimanale sarà il 3 gennaio. Se invece avete applicato un segmento in cui Pagina = D, entrambi i segmenti saranno esclusi il 2 gennaio e il 3 gennaio. Nessun risultato verrà visualizzato per il visitatore univoco settimanale e verrà escluso dal totale.
 
-**Report Visitatori univoci basati su periodi **
+**Report Visitatori univoci basati su periodi**
 
 Questi rapporti utilizzano una pagina, un prop e un attributo particolari (ad esempio: dove Page = A).
 
