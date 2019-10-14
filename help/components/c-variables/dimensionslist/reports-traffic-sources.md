@@ -7,7 +7,7 @@ title: Origini del traffico
 topic: Rapporti
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ I report in questo menu sono suddivisi in tre categorie di base:
   </tr> 
   <tr> 
    <td colname="col1"> Riferimenti </td> 
-   <td colname="col2"> <p> Visualizza il dominio o l’URL da cui i visitatori sono arrivati prima del loro arrivo sul sito, i metodi utilizzati dai visitatori per trovare il sito Web e il numero di visite al sito provenienti da queste posizioni di riferimento. </p> <p>Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l’implementazione, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web (anche questo può essere fatto dopo l’implementazione). Tutti i domini o gli URL che non fanno parte di tali domini e URL definiti sono considerati referenti. </p> <p>Ad esempio, se al filtro URL interno vengono aggiunte le pagine Web A e B, ma non la pagina Web C, la pagina Web C viene considerata un referente. </p> <p>See <a href="/help/admin/admin/internal-URL-filter-admin.md">Internal URL Filters</a></p> <p>Nota: Analytics registra un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento a un messaggio e-mail contenente il protocollo <code> imap://</code> o <span class="filepath"> mail://</span> e arrivano al sito. </p> <p>Ad esempio, qualsiasi cosa proveniente da <code> https://mail.yahoo.com</code> viene conteggiata come referente e-mail perché il protocollo è <span class="filepath"> https://</span>. Le e-mail di Outlook sono riportate nella riga <span class="wintitle"> Typed/Bookmarked</span> . Qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore <span class="wintitle"></span> di ricerca. </p> </td> 
+   <td colname="col2"> <p> Visualizza il dominio o l’URL da cui i visitatori sono arrivati prima del loro arrivo sul sito, i metodi utilizzati dai visitatori per trovare il sito Web e il numero di visite al sito provenienti da queste posizioni di riferimento. </p> <p>Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l’implementazione, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web (anche questo può essere fatto dopo l’implementazione). Tutti i domini o gli URL che non fanno parte di tali domini e URL definiti sono considerati referenti. </p> <p>Ad esempio, se al filtro URL interno vengono aggiunte le pagine Web A e B, ma non la pagina Web C, la pagina Web C viene considerata un referente. </p> <p>See <a href="/help/admin/admin/internal-URL-filter-admin.md"> Internal URL Filters</a></p>  <p>Nota: Analytics registra un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento a un messaggio e-mail contenente il protocollo <code> imap://</code> o <span class="filepath"> mail://</span> e arrivano al sito. </p> <p>Ad esempio, qualsiasi cosa proveniente da <code> https://mail.yahoo.com</code> viene conteggiata come referente e-mail perché il protocollo è <span class="filepath"> https://</span>. Le e-mail di Outlook sono riportate nella riga <span class="wintitle"> Typed/Bookmarked</span> . Qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore <span class="wintitle"></span> di ricerca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipi di referente </td> 
@@ -86,4 +86,3 @@ I report in questo menu sono suddivisi in tre categorie di base:
   </tr> 
  </tbody> 
 </table>
-
