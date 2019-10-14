@@ -1,32 +1,32 @@
 ---
-description: Evidenzia i passaggi e le procedure ottimali da seguire per la pianificazione dei segmenti.
-seo-description: Evidenzia i passaggi e le procedure ottimali da seguire per la pianificazione dei segmenti.
+description: Illustra i passaggi e le procedure ottimali da seguire per la pianificazione dei segmenti.
+seo-description: Illustra i passaggi e le procedure ottimali da seguire per la pianificazione dei segmenti.
 seo-title: Pianificare segmenti
 solution: Analytics
 title: Pianificare segmenti
 topic: Segmenti
-uuid: bc 522834-123 c -457 d-bde 7-db 7 c 5 c 97077 f
+uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Pianificare segmenti
 
-Evidenzia i passaggi e le procedure ottimali da seguire per la pianificazione dei segmenti.
+Illustra i passaggi e le procedure ottimali da seguire per la pianificazione dei segmenti.
 
-Se decidete di dedicare un po' di tempo ai segmenti, i segmenti aumentano le possibilità che siano utili per la vostra organizzazione e che i loro numeri vengano conservati.
+Dedicare un po' di tempo ai segmenti di pianificazione aumenta le possibilità che siano utili per la vostra organizzazione e che il loro numero venga controllato.
 
-1. Consider the **audience**: Who will consume it? Con quale condividerlo? Quali gruppi di persone utilizzeranno questo segmento e come lo tag di conseguenza? Ciò significa anche fornire una descrizione di segmento valida. Come minimo, la descrizione risponderà a queste domande:
+1. Considerate l' **audience**: Chi lo consumerà? Con chi la condividerete? Quali gruppi di persone utilizzeranno questo segmento e come lo dovrei assegnare di conseguenza? Questo significa anche fornire una buona descrizione del segmento. Come minimo, la descrizione deve rispondere alle seguenti domande:
 
-   * A cosa serve questo segmento?
-   * Quando devo usare questo segmento?
+   * Per cosa è utile questo segmento?
+   * Quando dovrei utilizzare questo segmento?
 
-1. Determine the segment **scope**. Which [segment container](../../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) best represents the scope? Usate il contenitore più piccolo possibile.
+1. Determinare l’ **ambito** del segmento. Quale contenitore [di](../../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) segmento rappresenta meglio l'ambito? Utilizzate il contenitore più piccolo possibile.
 
-1. Decide which **elements** to include in the segment definition, and which values. Consider [variable persistence](../../../components/c-segmentation/seg-overview.md#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB) in this decision.
+1. Decidete quali **elementi** includere nella definizione del segmento e quali valori. Considerate la persistenza [](../../../components/c-segmentation/seg-overview.md#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB) variabile in questa decisione.
 
-1. Consider how you want your **approval process** to unfold. Una singola persona potrà esaminare e approvare i segmenti o sarà una decisione della commissione?
-1. Define your segments with view to a** segment library** that gives business users the ability to [stack](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34) and reuse segment pieces or components in a modular fashion. Che tipo di "moduli" occorre definire per rendere la libreria una realtà?
+1. Considerate come desiderate che si svolga il processo **di** approvazione. Una singola persona esaminerà e approverà i segmenti o sarà una decisione del comitato?
+1. Definite i segmenti con la vista a una libreria **di** segmenti che consente agli utenti aziendali di [sovrapporre](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34) e riutilizzare segmenti o componenti in modo modulare. Quali "moduli" è necessario definire per realizzare questa libreria?
 
