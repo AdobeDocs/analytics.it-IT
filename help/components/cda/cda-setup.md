@@ -1,36 +1,37 @@
 ---
 title: Configurazione di Analytics tra dispositivi
-description: Learn how to set up Cross-Device Analytics after you meet the prerequisites.
+description: Scopri come configurare Analytics cross-Device dopo aver soddisfatto i prerequisiti.
 translation-type: tm+mt
-source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
+source-git-commit: 8c5e8d18ce4e09049d3fea07b8dd75ded6894313
 
 ---
 
 
 # Configurazione di Analytics tra dispositivi
 
-> [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. Check back regularly for updates.
+> [!NOTE] La documentazione di Analytics tra dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
 
-Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. You must belong to a Product Profile Admin group or have admin privileges in Adobe Analytics to follow these steps.
+Una volta soddisfatti tutti i prerequisiti, attenetevi alla seguente procedura per abilitare l'analisi tra dispositivi. Per seguire questa procedura, devi appartenere a un gruppo Amministratore profilo di prodotto o avere privilegi di amministratore in Adobe Analytics.
 
-> [!IMPORTANT] All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See Cross-Device Analytics for prerequisites and limitations.[](cda-home.md)
+> [!IMPORTANT] Tutti i prerequisiti devono essere soddisfatti prima di seguire questi passaggi. Se tutti i prerequisiti non sono soddisfatti, la funzione non è disponibile o non funziona. Consultate Analisi [](cda-home.md) multi-dispositivo per prerequisiti e limitazioni.
 
-## Choose the cross-device report suite that will be enabled for CDA
+## Scegliete la suite di rapporti per più dispositivi che verrà abilitata per CDA
 
-When your organization is provisioned to use CDA, you choose which report suite to use. This choice can be communicated through your Adobe Account Manager. Adobe quindi abilita la suite di rapporti selezionata per l'elaborazione CDA.
+Quando l’organizzazione dispone del provisioning per l’utilizzo di CDA, potete scegliere quale suite di rapporti utilizzare. Questa scelta può essere comunicata tramite il tuo Adobe Account Manager. Adobe quindi abilita la suite di rapporti selezionata per l'elaborazione CDA.
 
 ## Creare una suite di rapporti virtuali per dispositivi diversi per visualizzare la visualizzazione su più dispositivi
 
 Gli amministratori con accesso per creare suite di rapporti virtuali possono creare suite di rapporti virtuali CDA come segue:
 
 1. Andate a [experience.adobe.com](https://experiencecloud.adobe.com) ed effettuate l'accesso utilizzando le credenziali AdobeID.
-2. Click the 9-grid icon at the top, then click Analytics.
+2. Fate clic sull'icona a 9 griglie nella parte superiore, quindi fate clic su Analytics.
 3. Passa il cursore del mouse sui componenti in alto, quindi fai clic su Suite di rapporti virtuale.
 4. Fai clic su Aggiungi.
 5. Immettete un nome per la suite di rapporti virtuali e accertatevi che sia selezionata la suite di rapporti abilitata per CDA.
-6. Fate clic sulla casella di controllo "Abilita elaborazione tempo rapporto" per abilitare diverse opzioni, tra cui Analisi multi-dispositivo.
-7. Fate clic sulla casella di controllo "Stitch User Visits Between Devices" (Stitch Visite utente tra dispositivi).
-8. Fate clic su Continue (Continua), completate la configurazione della suite di rapporti virtuali, quindi fate clic su Save (Salva).
+6. (Facoltativo) Applicare un segmento alla suite di rapporti virtuali. Ad esempio, puoi applicare un segmento che limita la suite di rapporti virtuali alle date successive all'attivazione di CDA e all'inizio della cucitura. Questo segmento consente agli utenti di visualizzare solo gli intervalli di date cuciti all'interno della VRS.
+7. Fate clic sulla casella di controllo "Abilita elaborazione tempo rapporto" per abilitare diverse opzioni, tra cui Analisi multi-dispositivo.
+8. Fate clic sulla casella di controllo "Stitch User Visits Between Devices" (Stitch Visite utente tra dispositivi).
+9. Fate clic su Continue (Continua), completate la configurazione della suite di rapporti virtuali, quindi fate clic su Save (Salva).
 
 ![Casella di controllo CDA](assets/cda-checkbox.png)
 
@@ -53,19 +54,19 @@ La capacità di analisi multi-dispositivo di unire più dispositivi dipende da u
 * Utilizzo di più dispositivi: Se i visitatori del sito non utilizzano più dispositivi, è possibile visualizzare percentuali di compressione inferiori.
 * Granularità del reporting: La compressione per giorno è generalmente inferiore alla compressione per mese o anno. Le possibilità di un singolo di utilizzare più dispositivi diventano più ridotte entro un singolo giorno rispetto a un intero mese. Segmentazione, filtraggio o utilizzo di dimensioni di suddivisione può anche mostrare una minore frequenza di compressione.
 
-To see your organization's compression for a given time period:
+Per visualizzare la compressione aziendale per un determinato periodo di tempo:
 
-1. Click Workspace at the top, then click 'Create New Project'.
-2. Start with a Blank Project, then click Create.
-3. Drag the Unique Devices metric onto the canvas area labeled 'Drop a Metric Here'.
-4. Drag the People metric onto the canvas directly to the right of the Unique Devices metric header, so the two metrics are side-by-side.
-5. Click the '' symbol next to available metrics on the left to open the Calculated Metric builder.`+`
-6. Give this calculated metric the following settings:
-   * Name: Cross-Device Compression
-   * Format: Percent
-   * Decimal Places: 2
+1. Fai clic su Workspace in alto, quindi fai clic su 'Crea nuovo progetto'.
+2. Inizia con un progetto vuoto, quindi fai clic su Crea.
+3. Trascina la metrica Dispositivi univoci nell’area di quadro con l’etichetta "Rilascia qui una metrica".
+4. Trascina la metrica Persone sul quadro direttamente a destra dell’intestazione della metrica Dispositivi univoci, in modo che le due metriche siano affiancate.
+5. Fai clic sul simbolo '`+`' accanto alle metriche disponibili a sinistra per aprire il generatore Calculated Metric.
+6. Assegna a questa metrica calcolata le seguenti impostazioni:
+   * Nome: Compressione tra dispositivi
+   * Formato: Percentuale
+   * Posti decimali: 2
    * Definizione: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!TIP] Click 'Add' in the top right corner of the definition area to add a static number. Drag People and Unique Devices from the list of available metrics on the left.
+      > [!TIP] Fare clic su 'Aggiungi' nell'angolo superiore destro dell'area di definizione per aggiungere un numero statico. Trascina Persone e Dispositivi univoci dall’elenco delle metriche disponibili a sinistra.
 7. Fate clic su Salva.
-8. Drag the new calculated metric onto the canvas directly to the right of the People metric header, so all three metrics are side-by-side.
-9. Optional: The workspace loads the Day dimension by default. Trascina una dimensione data alternativa, ad esempio una settimana o un mese, sopra la dimensione Giorno, se desideri una granularità ora diversa.
+8. Trascina la nuova metrica calcolata sul quadro direttamente a destra dell’intestazione della metrica Persone, in modo che tutte e tre le metriche siano affiancate.
+9. Facoltativo: Per impostazione predefinita, l’area di lavoro carica la dimensione Giorno. Trascina una dimensione data alternativa, ad esempio una settimana o un mese, sopra la dimensione Giorno, se desideri una granularità ora diversa.
