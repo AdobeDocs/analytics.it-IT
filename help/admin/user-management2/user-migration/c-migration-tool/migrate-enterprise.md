@@ -5,7 +5,7 @@ seo-title: Eseguire la migrazione degli account utente di Analytics per Enterpri
 title: Eseguire la migrazione degli account utente di Analytics per Enterprise e Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -141,7 +141,7 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >Altre colonne, ad esempio *`Product Configurations`* e *`Admin Roles`* possono essere vuote.
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
-1. In Analytics, eseguite lo strumento di migrazione (come descritto in [Migrazione degli account](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)utente di Analytics).
+1. In Analytics, eseguite lo strumento di migrazione (come descritto in [Migrazione degli account](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)utente di Analytics).
 1. Fai clic su **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![Informazioni sul passaggio](assets/migrate-as-enterprise.png)
