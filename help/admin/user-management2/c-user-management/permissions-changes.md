@@ -9,7 +9,7 @@ title: Modifiche alle autorizzazioni Utente e Gruppo
 topic: Strumenti di amministrazione
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 ---
 
@@ -59,7 +59,7 @@ Poiché l'API e l'interfaccia utilizzano lo stesso sistema di autorizzazioni, in
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Autorizzazione per il rapporto sul rilevamento delle anomalie </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Autorizzazione per il rapporto in tempo reale </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Autorizzazione all'accesso ad Analysis Workspace </li> 
-    </ul> <p>Gli amministratori possono eliminare i gruppi personalizzati e crearne uno proprio, poiché tutte le impostazioni precedentemente disponibili in gruppi predefiniti sono disponibili per la personalizzazione in base alle impostazioni <span class="wintitle"> Accesso</span> ai <a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> rapporti in</a>Definisci gruppiutenti. </p> </td> 
+    </ul> <p>Gli amministratori possono eliminare i gruppi personalizzati e crearne uno proprio, poiché tutte le impostazioni precedentemente disponibili in gruppi predefiniti sono disponibili per la personalizzazione in base alle impostazioni <span class="wintitle"> Accesso</span> ai <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> rapporti in</a>Definisci gruppiutenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Autorizzazioni a livello di dimensione </p> </td> 
