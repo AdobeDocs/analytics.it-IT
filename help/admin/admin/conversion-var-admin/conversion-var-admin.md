@@ -8,7 +8,7 @@ title: Variabili di conversione (eVar)
 topic: Strumenti di amministrazione
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ Se si desidera misurare il traffico o il percorso, è consigliabile utilizzare l
 
 ## Variabili di conversione - Descrizioni {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descrizioni dei campi utilizzati per [modificare le variabili](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97)di conversione.
+Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md)di conversione.
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
