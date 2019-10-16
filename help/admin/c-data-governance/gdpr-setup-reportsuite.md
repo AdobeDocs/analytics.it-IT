@@ -5,7 +5,7 @@ seo-title: Etichettare i dati della suite di rapporti
 title: Etichettare i dati della suite di rapporti
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -16,7 +16,7 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
 >[!NOTE]
 >
->Ricorda che l'etichetta deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando una nuova variabile viene abilitata in una suite di rapporti esistente. Potrebbe essere necessario rivedere l'etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
+>Ricorda che l’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l'etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
 
 ## Assegnare o modificare le etichette della suite di rapporti {#section_39F829F35A274EACA532E2F6FF392996}
 
@@ -31,37 +31,37 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
    * **Standard Dimensions (Dimensioni standard)** (dimensioni predefinite per Adobe Analytics)
    * **Standard Metrics (Metriche standard)** (metriche predefinite per Adobe Analytics)
    * **Eventi di conversione** (eventi di successo personalizzati)
-   * **Dimensioni di conversione di merchandising** (variabili di merchandising)
+   * **Dimensioni di conversione di merchandising** (Merchandising eVars)
    * **Dimensioni conversione** (eVar non merchandising)
    * **Dimensioni del traffico personalizzate** (proprietà)
    * **Eventi e dimensioni della soluzione** (Dimensioni/eventi correlati a soluzioni quali Dispositivi mobili, Video, Activity Map e così via, e integrazioni con soluzioni quali Adobe Campaign, Adobe Experience Manager, Advertising Cloud e così via)
-   * **Dimensioni di elaborazione dei dati** (variabili non esposte direttamente nel rapporto tramite l'interfaccia utente di Adobe Analytics, ma disponibili tramite le richieste di feed dei dati e/o data warehouse)
+   * **Dimensioni di elaborazione dei dati** (variabili non esposte direttamente nel rapporto tramite l'interfaccia utente di Adobe Analytics, ma disponibili tramite le richieste di feed dei dati e/o Data Warehouse)
 
 1. (Facoltativo). Fai clic sull'icona delle informazioni (i) accanto a ciascuna variabile per avere maggiori informazioni sui valori più comuni oltre i 90 giorni. (Questa funzionalità non è disponibile per le dimensioni di elaborazione dei dati, perché queste non sono disponibili nell'interfaccia utente di Analytics).
 
    ![](assets/info.png)
 
-1. Select one or more variables by clicking their checkbox, then select the **[!UICONTROL Edit]** icon (to the right) to edit one or more variable(s).
+1. Seleziona una o più variabili facendo clic sulle relative caselle di controllo, quindi seleziona l’icona **[!UICONTROL Edit]** (a destra) per modificare una o più variabili.
 
    ![](assets/edit.png)
 
-1. Si apre automaticamente la finestra di dialogo delle etichette **dati di identità**. Queste etichette classificano i dati che possono essere usati da soli o in combinazione con altri dati per identificare o consentire un contatto diretto con una persona. Per altre informazioni su queste opzioni, fai riferimento alle [etichette dei dati di identità (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)
+1. Si apre automaticamente la finestra di dialogo delle etichette **dati di identità**. Queste etichette classificano i dati che possono essere usati da soli o in combinazione con altri dati per identificare o consentire un contatto diretto con una persona. Per altre informazioni su queste opzioni, fai riferimento alle [etichette dei dati di identità (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
-   >Il framework DUE (Data Usage Labeling &amp; Enforcement, ETICHETTATURA E APPLICAZIONE) è stato progettato per fornire un metodo uniforme tra soluzioni/servizi/piattaforme per acquisire, comunicare e utilizzare i metadati relativi ai dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, i dati sensibili e i vincoli del contratto associati a questi.
+   >Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per soluzioni/servizi/piattaforme al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, i dati sensibili e i vincoli del contratto associati a questi.
 
    ![](assets/identity_labels.png)
 
-1. Apri la sezione **Sensitive Data** (Dati sensibili) per impostare le etichette dei dati sensibili, che organizzano in categorie i dati di geolocalizzazione. Per altre informazioni su queste opzioni, fai riferimento alle [etichette per i dati sensibili (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)
+1. Apri la sezione **Sensitive Data** (Dati sensibili) per impostare le etichette dei dati sensibili, che organizzano in categorie i dati di geolocalizzazione. Per altre informazioni su queste opzioni, fai riferimento alle [etichette per i dati sensibili (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. Utilizzare questa sezione per indicare ad Adobe come gestire ogni variabile per l'accesso alla privacy dei dati e per le richieste di eliminazione, nonché per definire le variabili da analizzare per trovare gli ID dell'oggetto dati per queste richieste. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)
+1. Open the Data Privacy Data section to set **Data Governance** Labels. Utilizzare questa sezione per indicare ad Adobe come gestire ogni variabile per l'accesso alla privacy dei dati e per le richieste di eliminazione, nonché per definire le variabili da analizzare per trovare gli ID dell'oggetto dati per queste richieste. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
-1. Click **[!UICONTROL Apply]** once you have completed all labeling.
+1. Una volta terminata l’etichettatura fai clic su **[!UICONTROL Apply]**.
 
 ## Copiare le etichette nelle suite di rapporti{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -69,15 +69,15 @@ Per applicare le stesse impostazioni DULE/Data Privacy a più suite di rapporti,
 
 1. Seleziona il gruppo di variabili (Dimensioni standard, Dimensioni di conversione e così via) contenente la variabile da copiare. Nota che è possibile copiare solo le etichette per un gruppo di variabili alla volta.
 1. Seleziona alcune o tutte le variabili del gruppo.
-1. Click **[!UICONTROL Copy Labels to Report Suite(s)]** at the top right of the Data Governance dialog.
+1. Fai clic su **[!UICONTROL Copy Labels to Report Suite(s)]** nella parte in alto a destra della finestra di dialogo Governance dei dati.
 
    ![](assets/apply_as_template.png)
 
-1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to.
+1. Oppure spunta **[!UICONTROL Select All]** per copiare le etichette per le variabili selezionate in tutte le suite di rapporti oppure seleziona le singole suite di rapporti in di cui desideri copiare le etichette.
 
    >[!IMPORTANT]
    >
-   >Ricorda che tutte le suite di rapporti selezionate devono essere mappate sulla tua organizzazione Experience Cloud.
+   >Ricorda che tutte le suite di rapporti selezionate devono essere mappate nell’organizzazione Experience Cloud.
 
    Quando copi le etichette per una variabile o per un set di variabili in una suite di rapporti diversa, la copia passa alla variabile nella posizione corrispondente nella suite di rapporti di destinazione. Per Dimensioni standard, Metriche standard, Dimensioni della soluzione e Eventi e dimensioni di elaborazione dei dati, le etichette verranno copiate nella variabile con lo **stesso nome** nella suite di rapporti di destinazione.
 
@@ -89,7 +89,7 @@ Per applicare le stesse impostazioni DULE/Data Privacy a più suite di rapporti,
 
    >[!IMPORTANT]
    >
-   >È sempre necessario controllare le suite di rapporti di destinazione per essere certi che le etichette copiate vengano copiate correttamente. Questo è molto importante soprattutto per le variabili che hanno le etichette ID o DEL.
+   >Devi sempre controllare la suite di rapporti di destinazione per accertarti che le etichette siano state copiate correttamente. Questo è molto importante soprattutto per le variabili che hanno le etichette ID o DEL.
 
 1. Fai clic su **[!UICONTROL Apply]**.
 
