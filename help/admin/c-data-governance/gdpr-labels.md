@@ -5,7 +5,7 @@ seo-title: Etichette sulla privacy dei dati per le variabili Analytics
 title: Etichette sulla privacy dei dati per le variabili Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -28,7 +28,7 @@ L'implementazione Adobe Analytics Data Privacy supporta le seguenti etichette pe
 >
 >Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per tutte le soluzioni, i servizi e le piattaforme di Adobe al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, i dati sensibili e i vincoli del contratto associati a questi. In questa versione iniziale, Analytics sta esponendo solo le etichette DULE rilevanti per la privacy dei dati. Poiché altri prodotti Adobe implementano il supporto per le etichette DULE, le versioni future introdurranno altre etichette per i dati sensibili, nonché etichette contrattuali che garantiranno che i dati condivisi tra i prodotti verranno usati solo nei modi consentiti dalla legge.
 
-## Etichette per i dati di identità (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
+## Etichette per i dati di identità (DULE) {#identity-data-labels}
 
 Le etichette “I” per i dati di identità sono usate per organizzare in categorie i dati che possono identificare o consentono di contattare una persona specifica.
 
@@ -62,7 +62,7 @@ Le etichette “I” per i dati di identità sono usate per organizzare in categ
  </tbody> 
 </table>
 
-## Etichette per i dati sensibili (DULE) {#section_533E1406F3F24A01B51D94139B94CAEC}
+## Etichette per i dati sensibili (DULE) {#sensitive-data-labels}
 
 Le etichette “S” per i dati sensibili vengono usate per organizzare in categorie i dati sensibili, come i dati geografici. Per identificare altri tipi di informazioni riservate, verranno introdotte etichette di dati riservati aggiuntive.
 
@@ -434,7 +434,7 @@ Questa sezione intende chiarire le informazioni sulle variabili Analytics che no
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID visitatore </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Queste presentano un’etichetta DEL-DEVICE, ma non è possibile aggiungere l’etichetta DEL-PERSON. Se si specifica <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> Espansione dell’ID</a> con ogni richiesta, questi ID verranno eliminati automaticamente per tutte le richieste di eliminazione, anche quelle che utilizzano un ID-PERSON. </p> <p>Se non si utilizza l’opzione Espansione dell’ID, ma si desidera che questi ID cookie siano resi anonimi nei risultati con un ID corrispondente in un prop o in un eVar, è possibile aggirare questa limitazione di etichettatura etichettando il prop o il eVar con un’etichetta ID-DEVICE, anche se identifica effettivamente una persona (tutte le etichette DEL-PERSON devono essere sostituite dalle etichette DEL-DEVICE). In questo caso, poiché solo alcune istanze dell’ID visitatore o di ECID vengono rese anonime, i conteggi dei visitatori univoci verranno modificati nella cronologia. </p> </td> 
+   <td colname="col2"> <p> Queste presentano un’etichetta DEL-DEVICE, ma non è possibile aggiungere l’etichetta DEL-PERSON. Se si specifica <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> Espansione dell’ID</a> con ogni richiesta, questi ID verranno eliminati automaticamente per tutte le richieste di eliminazione, anche quelle che utilizzano un ID-PERSON. </p> <p>Se non si utilizza l’opzione Espansione dell’ID, ma si desidera che questi ID cookie siano resi anonimi nei risultati con un ID corrispondente in un prop o in un eVar, è possibile aggirare questa limitazione di etichettatura etichettando il prop o il eVar con un’etichetta ID-DEVICE, anche se identifica effettivamente una persona (tutte le etichette DEL-PERSON devono essere sostituite dalle etichette DEL-DEVICE). In questo caso, poiché solo alcune istanze dell’ID visitatore o di ECID vengono rese anonime, i conteggi dei visitatori univoci verranno modificati nella cronologia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
