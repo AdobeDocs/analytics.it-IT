@@ -6,21 +6,21 @@ solution: Analytics
 title: Requisiti e confronto dei prodotti Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
 # Requisiti e confronto dei prodotti Analytics
 
-System requirements and a comparison of Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
+Requisiti di sistema e un confronto tra Analysis Workspace, Reporting e analisi, Analisi ad hoc, Generatore di report, Data Warehouse e Workbench dati
 
-For information on which Adobe Analytics product to use, go here.[](../../admin/c-analytics-product-comparison/which-analytics-tool.md#concept_E7D62115EB5B49959887B338F20CBC1A)
+Per informazioni sul prodotto Adobe Analytics da utilizzare, visitate [qui](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
   <tr> 
-   <td> <b>Product Name &amp; Help Link</b> </td> 
+   <td> <b>Nome prodotto e collegamento alla guida</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/" format="https" scope="external"> Analysis Workspace </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/" format="https" scope="external"> Ad Hoc Analysis </a> </td> 
@@ -29,25 +29,25 @@ For information on which Adobe Analytics product to use, go here.[](../../admin/
    <td colname="col6"> <a href="https://marketing.adobe.com/resources/help/en_US/insight/" format="https" scope="external"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
-   <td> <b>Access Method</b> </td> 
-   <td> Browser solution for building robust, custom analysis projects, and democratizing insights. </td> 
-   <td> Browser solution for digital analysis. </td> 
-   <td> Java based tool for advanced digital analysis. </td> 
-   <td> Excel add-in that lets you build customized requests from R&amp;A data, and visualize using Microsoft Excel. </td> 
-   <td colname="col06"> Browser solution that generates reports in  .csv  format. <span class="filepath"></span> Can generate Tableau format files. </td> 
-   <td colname="col6"> Multi-channel analytics tool for advanced analysis, such as custom attribution modeling, predictive analytics, and 360 customer analysis. </td> 
+   <td> <b>Metodo Access</b> </td> 
+   <td> Soluzione browser per la creazione di solidi progetti di analisi personalizzata e la democratizzazione delle informazioni. </td> 
+   <td> Soluzione browser per analisi digitale. </td> 
+   <td> Strumento basato su Java per l'analisi digitale avanzata. </td> 
+   <td> Componente aggiuntivo di Excel che consente di creare richieste personalizzate a partire da dati di R&amp;A e di visualizzarle tramite Microsoft Excel. </td> 
+   <td colname="col06"> Soluzione browser che genera rapporti in formato <span class="filepath"> .csv </span> . Può generare file in formato Tableau. </td> 
+   <td colname="col6"> Strumento di analisi multicanale per analisi avanzate, ad esempio modellazione di attribuzione personalizzata, analisi predittive e analisi cliente 360. </td> 
   </tr> 
   <tr> 
-   <td> <b>Report Breakdowns</b> </td> 
+   <td> <b>Suddivisioni report</b> </td> 
    <td> Senza limiti </td> 
    <td> Fino a 2 correlazioni </td> 
-   <td> Unlimited </td> 
-   <td> Up to 2 correlations </td> 
+   <td> Senza limiti </td> 
+   <td> Fino a 2 correlazioni </td> 
    <td colname="col06"> Esegue analisi approfondite e illimitate, suddivise per segmento. </td> 
-   <td colname="col6"> Unlimited </td> 
+   <td colname="col6"> Senza limiti </td> 
   </tr> 
   <tr> 
-   <td> <b>Segment Comparisons</b> </td> 
+   <td> <b>Confronti tra segmenti</b> </td> 
    <td> Senza limiti </td> 
    <td> Fino a 2 segmenti </td> 
    <td> Senza limiti </td> 
@@ -141,7 +141,7 @@ For information on which Adobe Analytics product to use, go here.[](../../admin/
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="https" scope="external"> Sì </a>; all/any users </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html" format="https" scope="external"> Sì </a>; all/any users </td> 
    <td> Solo con utenti di Analisi ad hoc </td> 
-   <td>  Sì; all/any users </td> 
+   <td> Sì; all/any users </td> 
    <td colname="col06"> No </td> 
    <td colname="col6"> Sì </td> 
   </tr> 
