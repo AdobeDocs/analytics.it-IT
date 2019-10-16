@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Regole di elaborazione
 title: Creare regole di elaborazione
 topic: Strumenti di amministrazione
-uuid: fd 92 e 6 c 9-8 ef 0-4604-8 fd 4-4225527 b 4 fa 9
+uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -17,17 +17,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Le regole di elaborazione sono impostate sulle suite di rapporti.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Seleziona una suite di rapporti.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
-1. On the **[!UICONTROL Processing Rules]** page, click **[!UICONTROL Add Rule]**.
-1. Click **[!UICONTROL Add Condition]** and then select when the rule applies.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Selezionate una suite di rapporti.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
+1. Sulla **[!UICONTROL Processing Rules]** pagina fare clic su **[!UICONTROL Add Rule]**.
+1. Fare clic **[!UICONTROL Add Condition]** e quindi selezionare l'applicazione della regola.
 
-   If you add more than one condition, click the **[!UICONTROL All]** drop down box to select which conditions must match for the rule to apply. Se non si aggiungono condizioni, l'azione definita viene sempre eseguita.
+   Se si aggiungono più condizioni, fare clic sulla casella a **[!UICONTROL All]** discesa per selezionare le condizioni che devono corrispondere affinché la regola venga applicata. Se non si aggiungono condizioni, l'azione definita viene sempre eseguita.
 
-1. Click **[!UICONTROL Add Action]** and then select the action you want performed when the conditions match.
-1. Add an note that contains details on the rule and then click **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Add Action]** e quindi selezionare l'azione da eseguire quando le condizioni corrispondono.
+1. Aggiungete una nota contenente i dettagli sulla regola e fate clic su **[!UICONTROL Save]**.
 
-   Se sono presenti più regole trascinandole sulla pagina per modificare l'ordine di elaborazione.
+   Se sono presenti più regole, trascinatele sulla pagina per modificare l'ordine di elaborazione.
 
-   See [Examples of Processing Rules](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md#concept_92527719A66849058108300DAE8A506B) for information about the kinds of rules you can create.
+   Per informazioni sui tipi di regole che è possibile creare, vedere [Esempi di regole](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) di elaborazione.
