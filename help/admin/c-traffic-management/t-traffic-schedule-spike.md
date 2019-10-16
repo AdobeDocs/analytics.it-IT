@@ -1,33 +1,33 @@
 ---
-description: La sezione Pianifica picco consente di inviare un avviso ad Adobe di picchi di traffico temporanei per allocare le risorse appropriate per gestirle.
-seo-description: La sezione Pianifica picco consente di inviare un avviso ad Adobe di picchi di traffico temporanei per allocare le risorse appropriate per gestirle.
+description: La sezione Schedule Spike (Spike pianificazione) consente di avvisare Adobe dei picchi di traffico temporanei in modo che le risorse appropriate possano essere allocate per gestirli.
+seo-description: La sezione Schedule Spike (Spike pianificazione) consente di avvisare Adobe dei picchi di traffico temporanei in modo che le risorse appropriate possano essere allocate per gestirli.
 seo-title: Pianificare un picco di traffico
 solution: Analytics
 title: Pianificare un picco di traffico
 topic: Strumenti di amministrazione
-uuid: 350 bebc 0-0593-4 ee 7-b 7 e 2-7848 d 9 f 5726 b
+uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
 # Pianificare un picco di traffico
 
-La sezione Pianifica picco consente di inviare un avviso ad Adobe di picchi di traffico temporanei per allocare le risorse appropriate per gestirle.
+La sezione Schedule Spike (Spike pianificazione) consente di avvisare Adobe dei picchi di traffico temporanei in modo che le risorse appropriate possano essere allocate per gestirli.
 
-Please read the information about [Required Lead Time for Traffic Increases](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667) before you schedule a traffic spike.
+Prima di pianificare un picco del traffico, leggere le informazioni sul lead time [obbligatorio per gli incrementi](/help/admin/c-traffic-management/traffic-lead-time.md) del traffico.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; **[!UICONTROL Schedule Spike]**.
-1. In the **[!UICONTROL Spike Start Date]** field, specify the date when you expect the traffic spike to start.
-1. In the **[!UICONTROL Spike End Date]** field, specify the date when you expect the traffic spike to end.
-1. In the **[!UICONTROL Expected Daily Page Views During Spike]** field, specify the total expected daily page views during the traffic spike period, then click **[!UICONTROL Submit]**.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; **[!UICONTROL Schedule Spike]**.
+1. Nel **[!UICONTROL Spike Start Date]** campo, specificare la data in cui si prevede l'inizio del picco di traffico.
+1. Nel **[!UICONTROL Spike End Date]** campo, specificare la data in cui si prevede la fine del picco di traffico.
+1. Nel **[!UICONTROL Expected Daily Page Views During Spike]** campo, specificare le visualizzazioni giornaliere totali previste per la pagina durante il periodo di picco del traffico, quindi fare clic **[!UICONTROL Submit]**.
 
-   Assicuratevi di specificare il totale delle visualizzazioni di pagina previsto, non solo quelle di pagina aggiuntive.
+   Accertatevi di specificare il totale delle visualizzazioni di pagina previste, non solo le visualizzazioni di pagina aggiuntive.
 
    >[!NOTE]
    >
-   >Per pianificare un picco di traffico, includete un numero di telefono nelle informazioni di contatto dell'utente in modo che Adobe possa contattarvi con domande, se necessario.
+   >Per pianificare un picco di traffico, includete un numero di telefono nelle informazioni di contatto dell'utente in modo che Adobe possa contattarvi eventuali domande.
 
