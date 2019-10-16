@@ -8,7 +8,7 @@ title: Panoramica sulle regole di elaborazione
 topic: Strumenti di amministrazione
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -34,8 +34,8 @@ Prima del 20 aprile 2017, per usare le regole di elaborazione tutti gli utenti (
 
 Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole di elaborazione **per impostazione predefinita**. L'esame non è più necessario. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l'interfaccia Strumenti di amministrazione. effettuando le seguenti operazioni:
 
-1. Se non lo avete ancora fatto, [create un gruppo](../../../admin/user-management2/c-user-groups/groups.md) che includa solo i non amministratori che devono disporre dell'autorizzazione per utilizzare le regole di elaborazione.
-1. [Aggiungete i non amministratori a tale gruppo](../../../admin/user-management2/c-user-management/t-add-user-to-group.md).
+1. Se non lo avete ancora fatto, [create un gruppo](/help/admin/user-management2/c-user-groups/groups.md) che includa solo i non amministratori che devono disporre dell'autorizzazione per utilizzare le regole di elaborazione.
+1. [Aggiungete i non amministratori a tale gruppo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
 1. Quindi, andate a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL[nome]gruppo]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** **[!UICONTROL Report Suite Tools]** **[!UICONTROL Customize]** **[!UICONTROL Report Suite Management]**&gt; &gt; &gt; &gt; .
 1. Selezionare la casella accanto a [!UICONTROL Processing Rules] e fare clic su **[!UICONTROL OK]**.
 
@@ -61,4 +61,4 @@ Le regole di elaborazione possono monitorare i valori in arrivo per trasformare 
 
 Una volta definite le variabili di dati di contesto all'interno dell'implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei report.
 
-Per maggiori informazioni, vai [qui](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) e [qui](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682).
+Per maggiori informazioni, vai [qui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) e [qui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
