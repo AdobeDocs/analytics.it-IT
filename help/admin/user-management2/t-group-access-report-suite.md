@@ -1,34 +1,34 @@
 ---
-description: Procedura che descrive come assegnare gruppi di utenti a una suite di rapporti.
-seo-description: Procedura che descrive come assegnare gruppi di utenti a una suite di rapporti.
-seo-title: Assegnazione di gruppi di utenti a una suite di rapporti
+description: Passaggi che descrivono come assegnare gruppi di utenti a una suite di rapporti.
+seo-description: Passaggi che descrivono come assegnare gruppi di utenti a una suite di rapporti.
+seo-title: Assegnare gruppi di utenti a una suite di rapporti
 solution: Analytics
 subtopic: Utenti e gruppi
-title: Assegnazione di gruppi di utenti a una suite di rapporti
+title: Assegnare gruppi di utenti a una suite di rapporti
 topic: Strumenti di amministrazione
-uuid: 67173113-2 fca -483 e -9038-8423 e 6 d 4 de 6 e
+uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Assegnazione di gruppi di utenti a una suite di rapporti
+# Assegnare gruppi di utenti a una suite di rapporti
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando sarà il momento di eseguire la migrazione degli utenti. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** verranno ritirati.
 
-Procedura che descrive come assegnare gruppi di utenti a una suite di rapporti.
+Passaggi che descrivono come assegnare gruppi di utenti a una suite di rapporti.
 
-The [!UICONTROL Report Suites] page lets you view and configure company report suites. Analytics gestisce l'accesso alla suite di rapporti tramite l'iscrizione al gruppo. For first-time setup, create the needed groups (assigning report suites to each group), then assign user accounts to the appropriate [groups](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F).
+La [!UICONTROL Report Suites] pagina consente di visualizzare e configurare le suite di rapporti della società. Analytics gestisce l'accesso alla suite di rapporti tramite l'appartenenza al gruppo. Per la prima configurazione, create i gruppi necessari (assegnazione delle suite di rapporti a ciascun gruppo), quindi assegnate gli account utente ai [gruppi](/help/admin/user-management2/c-user-groups/groups.md)appropriati.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Fai clic su **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
-1. Under **[!UICONTROL Report Suite Permissions Management]** page, select the groups to assign to the report suite:
+1. Nella **[!UICONTROL Report Suite Permissions Management]** pagina, seleziona i gruppi da assegnare alla suite di rapporti:
 
-   **[!UICONTROL Available Groups:]** Visualizza tutti i gruppi attualmente definiti. Select the desired groups, then click **[!UICONTROL Add]**. I gruppi assegnati vengono visualizzati nel campo Gruppo contenente (a destra).
+   **[!UICONTROL Available Groups:]** Visualizza tutti i gruppi attualmente definiti. Selezionate i gruppi desiderati, quindi fate clic **[!UICONTROL Add]**. I gruppi assegnati vengono visualizzati nel campo Gruppo contenitore (a destra).
 
-   **[!UICONTROL Group Containing:]** Visualizza tutti i gruppi attualmente assegnati alla suite di rapporti. To remove a group, select it, then click **[!UICONTROL Remove]**.
+   **[!UICONTROL Group Containing:]** Visualizza tutti i gruppi attualmente assegnati alla suite di rapporti. Per rimuovere un gruppo, selezionatelo e fate clic su **[!UICONTROL Remove]**.
 1. Fai clic su **[!UICONTROL Save Changes]**.
