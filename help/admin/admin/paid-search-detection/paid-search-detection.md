@@ -1,26 +1,26 @@
 ---
-description: Il rilevamento della ricerca a pagamento viene differenziato dalle ricerche naturali nei report Motore di ricerca e Cerca parole chiave. Potete specificare i motori di ricerca in cui utilizzare gli annunci a pagamento e specificare una stringa di caratteri trovata nell'URL di un visitatore da un annuncio a pagamento.
-seo-description: Il rilevamento della ricerca a pagamento viene differenziato dalle ricerche naturali nei report Motore di ricerca e Cerca parole chiave. Potete specificare i motori di ricerca in cui utilizzare gli annunci a pagamento e specificare una stringa di caratteri trovata nell'URL di un visitatore da un annuncio a pagamento.
-seo-title: Rilevamento ricerca a pagamento
+description: La funzione Rilevamento ricerca a pagamento si distingue dalle ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. Potete specificare i motori di ricerca in cui utilizzate gli annunci a pagamento e specificare una stringa di caratteri nell'URL di una visita da un annuncio a pagamento.
+seo-description: La funzione Rilevamento ricerca a pagamento si distingue dalle ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. Potete specificare i motori di ricerca in cui utilizzate gli annunci a pagamento e specificare una stringa di caratteri nell'URL di una visita da un annuncio a pagamento.
+seo-title: Rilevamento di ricerca a pagamento
 solution: Analytics
-title: Rilevamento ricerca a pagamento
+title: Rilevamento di ricerca a pagamento
 topic: Strumenti di amministrazione
-uuid: 41 aadf 17-7 b 8 b -49 ce -84 ca-dc 3293660205
+uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Rilevamento ricerca a pagamento
+# Rilevamento di ricerca a pagamento
 
-Il rilevamento della ricerca a pagamento viene differenziato dalle ricerche naturali nei report Motore di ricerca e Cerca parole chiave. Potete specificare i motori di ricerca in cui utilizzare gli annunci a pagamento e specificare una stringa di caratteri trovata nell'URL di un visitatore da un annuncio a pagamento.
+La funzione Rilevamento ricerca a pagamento si distingue dalle ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. Potete specificare i motori di ricerca in cui utilizzate gli annunci a pagamento e specificare una stringa di caratteri nell'URL di una visita da un annuncio a pagamento.
 
 ## Paid Search Detection - Descriptions {#section_0C2CFA0AF77B47098BE37CB024665D0D}
 
-The following table describes the fields and options you use to [configure paid search detection](../../../admin/admin/paid-search-detection/t-paid-search-detection.md#task_D0BBDB78771E4BDBB495A004A080D647).
+Nella tabella seguente sono descritti i campi e le opzioni utilizzati per [configurare il rilevamento](/help/admin/admin/paid-search-detection/t-paid-search-detection.md)della ricerca a pagamento.
 
 | Elementi | Descrizione |
 |--- |--- |
-| Cerca Motore | Selezionate un motore di ricerca dall'elenco a discesa. Potete specificare il motore se utilizzate parametri di stringa query diversi per motori di ricerca diversi. In genere, il valore Qualsiasi è sufficiente. |
-| Stringa query | Specifica un set di regole con distinzione tra maiuscole e minuscole che contiene o meno un valore specifico. Questo valore deve essere il parametro della stringa query, omettendo «?». <br>**Nota**: Il rilevamento della ricerca a pagamento è sensibile alle maiuscole/minuscole. Ad esempio, una regola che specifica PID come parametro di stringa query non visualizza pid nei report. If your organization uses mixed cases, place the exact values as separate rules, so all desired query string parameters can be caught.</br> |
+| Cerca Motore | Selezionare un motore di ricerca dall'elenco a discesa. È possibile specificare il motore se si utilizzano parametri di stringa di query diversi per i diversi motori di ricerca. In genere, il valore Qualsiasi è sufficiente. |
+| Stringa query | Specifica una regola sensibile alle maiuscole/minuscole impostata in modo che contenga o meno un valore specifico. Questo valore deve essere il parametro della stringa di query, omettendo "?". <br>**Nota**: La funzione Rilevamento ricerca a pagamento distingue tra maiuscole e minuscole. Ad esempio, una regola che specifica PID come parametro di stringa di query non visualizza pid nel reporting. Se l'organizzazione utilizza casi misti, inserire i valori esatti come regole separate, in modo che tutti i parametri di stringa di query desiderati possano essere rilevati.</br> |
