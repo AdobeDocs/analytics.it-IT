@@ -5,7 +5,7 @@ seo-title: Inviare richieste di accesso e cancellazione
 title: Inviare richieste di accesso e cancellazione
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -25,9 +25,9 @@ In qualità di titolare del trattamento, è tua responsabilità ottenere il cons
 
 ## Convalidare gli utenti e i relativi dati {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-In qualità di titolare del trattamento dei dati, rientra nelle tue responsabilità verificare l’identità della persona interessata e il suo diritto a ricevere i dati che richiede. Inoltre rientra tra le tue responsabilità accertarsi che alla persona interessata siano restituiti i dati corretti e che non riceva inavvertitamente i dati di un’altra persona interessata.
+In qualità di titolare del trattamento dei dati, rientra nelle tue responsabilità verificare l’identità della persona interessata e il suo diritto a ricevere i dati che richiede. Inoltre, è tua responsabilità garantire che i dati corretti vengano restituiti all'interessato e che questi non riceva inavvertitamente dati su altri soggetti.
 
-Ciò include la revisione dei dati restituiti da Adobe Analytics come parte di una richiesta di accesso alla privacy dei dati prima di inviarli all'interessato. Particolare attenzione è richiesta nel caso di uso di ID personali e nel caso in cui vengano restituiti non solo i dati in cui è presente l’ID, ma anche i dati per altri risultati su un dispositivo condiviso in cui l’ID era talvolta presente ([Espansione dell’ID](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+Ciò include la revisione dei dati restituiti da Adobe Analytics come parte di una richiesta di accesso alla privacy dei dati prima di inviarli all'interessato. Particolare attenzione dovrebbe essere prestata all’utilizzo di ID persona e alla restituzione non solo dei dati in cui è presente tale ID, ma anche dei dati per altri hit su un dispositivo condiviso in cui talvolta tale ID era presente. Consulta Espansione [ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. Puoi decidere quali di questi file restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
 
@@ -39,7 +39,7 @@ Puoi inviare l'accesso alla privacy dei dati ed eliminare le richieste tramite i
 >
 >L'API Data Privacy supporta l'invio in batch di più utenti in un'unica richiesta. Il limite attualmente supportato è 1.000 utenti (è possibile avere più ID per ciascun utente) in un unico file JSON della richiesta.
 
-## Richiesta JSON di esempio {#section_DB9DE6492FE740918F91D413E7BAB88F}
+## Richiesta JSON di esempio {#sample-json-request}
 
 Questo è il JSON che potrebbe essere inviato tramite l'API per la privacy dei dati o l'interfaccia utente, richiedendo l'elaborazione della privacy dei dati per tre utenti.
 
@@ -101,7 +101,7 @@ Questo è il JSON che potrebbe essere inviato tramite l'API per la privacy dei d
 } 
 ```
 
-Nota che ci sono tre blocchi nella sezione dell’utente, che rappresentano tre richieste diverse, presumibilmente per tre diverse persone interessate.
+Nella sezione dell'utente sono presenti tre blocchi che rappresentano tre richieste separate, presumibilmente per tre soggetti di dati separati.
 
 * La prima richiesta è una richiesta di accesso che usa un tradizionale cookie di ID Adobe Analytics (AAID).
 * La seconda è una richiesta di accesso che però usa un cookie MCID/ECID.
@@ -109,10 +109,10 @@ Nota che ci sono tre blocchi nella sezione dell’utente, che rappresentano tre 
 
 Aspetti da considerare:
 
-* Il valore “5D7236525AA6D9580A495C6C@AdobeOrg” nella sezione “companyContexts” deve essere aggiornato con il valore dell’organizzazione Experience Cloud.
-* I campi “type” e “namespace” sono descritti più dettagliatamente nella sezione [Namespace](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
-* I campi “description” vengono ignorati.
-* I campi “key” possono contenere qualsiasi valore desiderato. Se disponete di un ID interno che utilizzate per tenere traccia delle richieste di privacy dei dati, potete inserirlo qui, per facilitare la corrispondenza tra le richieste presenti nel sistema Adobe e quelle presenti nei vostri sistemi.
+* Il valore "5D7236525AA6D9580A495C6C@AdobeOrg" nella sezione "companyContexts" deve essere aggiornato con il valore della tua organizzazione Experience Cloud.
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* I campi "description" vengono ignorati.
+* I campi "key" possono contenere qualsiasi valore desiderato. Se disponete di un ID interno che utilizzate per tenere traccia delle richieste di privacy dei dati, potreste inserirlo qui, per rendere più semplice la corrispondenza tra le richieste presenti nel sistema Adobe e quelle presenti nei vostri sistemi.
 
 ## Dettagli sulle risposte {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -151,4 +151,4 @@ Esistono alcuni modi per testare l’elaborazione della privacy dei dati prima d
 * Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi utilizza questa organizzazione Experience Cloud per i test sulla privacy dei dati e la tua normale organizzazione Experience Cloud per l'effettiva elaborazione della privacy dei dati.
 * Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione.
 
-   Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando inviate richieste di privacy per i dati con spazi dei nomi con il prefisso qa, queste vengono eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non si utilizzino i namespace visitorId, AAID, ECID o customVisitorId, perché questi hanno una codifica fissa e non possono essere specificati nelle suite di rapporti di prova**.
+   Ad esempio, potete assegnare un prefisso a ogni namespace con "qa-" nelle suite di rapporti di prova. Quando inviate richieste di privacy per i dati con spazi dei nomi con il prefisso qa, queste vengono eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non si utilizzino i namespace visitorId, AAID, ECID o customVisitorId, perché questi hanno una codifica fissa e non possono essere specificati nelle suite di rapporti di prova**.
