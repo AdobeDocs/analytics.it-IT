@@ -1,39 +1,39 @@
 ---
-description: Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi Suite che consentono di duplicare e migliorare le funzionalità disponibili tramite l'interfaccia Analytics.
-seo-description: Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi Suite che consentono di duplicare e migliorare le funzionalità disponibili tramite l'interfaccia Analytics.
+description: Le API dei servizi Web forniscono l'accesso programmatico ai rapporti di marketing e ad altri servizi Suite che consentono di duplicare e ampliare le funzionalità disponibili tramite l'interfaccia di Analytics.
+seo-description: Le API dei servizi Web forniscono l'accesso programmatico ai rapporti di marketing e ad altri servizi Suite che consentono di duplicare e ampliare le funzionalità disponibili tramite l'interfaccia di Analytics.
 seo-title: Servizi web
 solution: Analytics
 title: Servizi web
 topic: Strumenti di amministrazione
-uuid: ccae 04 cf-f 58 c -490 e-baaa-ee 04 c 534 b 28 d
+uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
 # Servizi web
 
-Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi Suite che consentono di duplicare e migliorare le funzionalità disponibili tramite l'interfaccia Analytics.
+Le API dei servizi Web forniscono l'accesso programmatico ai rapporti di marketing e ad altri servizi Suite che consentono di duplicare e ampliare le funzionalità disponibili tramite l'interfaccia di Analytics.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Web Services]**
 
-## Gestire i servizi Web
+## Gestisci servizi Web
 
-In User Management &gt; [Groups](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) you can update the Web Service Access group to include those users that need access to the Web Services APIs.
+In Gestione utente &gt; [Gruppi](/help/admin/user-management2/c-user-groups/groups.md) è possibile aggiornare il gruppo Web Service Access per includere gli utenti che necessitano dell'accesso alle API dei servizi Web.
 
-## WSDL: Scaricate la WSDL dei servizi Web API per sviluppatori di servizi Web.
+## WSDL: Scaricate il WSDL API Web Services per gli sviluppatori di servizi Web.
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. Fate clic su Panoramica API Servizi Web per ulteriori informazioni.
+Visitate [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), che fornisce documentazione, codice di esempio e forum relativi alle API dei servizi Web. Per ulteriori informazioni, fare clic su Panoramica delle API dei servizi Web.
 
 ## Opzioni filtro
 
-Quando si utilizza SOAP, se il parser XML ha problemi con caratteri non validi o non validi nelle chiamate alle chiamate API dei servizi Web, selezionare una o entrambe le opzioni seguenti per fare in modo che Analytics filtri automaticamente l'output della risposta. Generalmente si tratta di un problema solo con lingue a doppio byte (giapponese, cinese, coreano).
+Quando si utilizza SOAP, se il parser XML ha problemi con caratteri non validi o non validi nelle risposte alle chiamate API dei servizi Web, selezionare una o entrambe le opzioni seguenti affinché Analytics possa filtrare automaticamente l'output della risposta. In genere si tratta di un problema solo con le lingue a doppio byte (giapponese, cinese, coreano).
 
-## Informazioni sull'accesso API
+## Informazioni di accesso API
 
-Visualizza le informazioni di accesso ai servizi Web per utente. Questa tabella include il Nome utente Servizi Web e il Segreto condiviso, che gli utenti devono utilizzare come parte del processo di autenticazione durante la creazione di chiamate ai servizi Web.
+Visualizza informazioni di accesso ai servizi Web per utente. Questa tabella include il nome utente di Servizi Web e il Segreto condiviso, che gli utenti devono utilizzare come parte del processo di autenticazione quando effettuano chiamate a Servizi Web.
 
 ## Utilizzo token
 
-Visualizza informazioni sul numero di token Web Services utilizzati dalla tua azienda nel mese corrente.
+Visualizzare informazioni sul numero di token di servizi Web utilizzati dalla società durante il mese di calendario corrente.
