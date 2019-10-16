@@ -1,62 +1,62 @@
 ---
-description: Passaggi amministrativi per configurare i report in tempo reale.
-seo-description: Passaggi amministrativi per configurare i report in tempo reale.
-seo-title: Configurazione dei report in tempo reale
+description: Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
+seo-description: Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
+seo-title: Configurazione rapporti in tempo reale
 solution: Analytics
-title: Configurazione dei report in tempo reale
+title: Configurazione rapporti in tempo reale
 topic: Strumenti di amministrazione
-uuid: f 48692 a 0-77 c 0-4 ee 4-b 3 ec-eaa 842 d 06 ac 8
+uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Configurazione dei report in tempo reale
+# Configurazione rapporti in tempo reale
 
-Passaggi amministrativi per configurare i report in tempo reale.
+Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
 
-La configurazione di report in tempo reale in Reporting e analisi consiste nella selezione della suite di rapporti e nella configurazione di fino a 3 rapporti.
+L'impostazione di report in tempo reale in Reporting e analisi consiste nella selezione della suite di report e nella configurazione di 3 report per essa.
 
-1. Seleziona la suite di rapporti per la quale vuoi abilitare i rapporti in tempo reale.
+1. Selezionate la suite di rapporti per la quale desiderate abilitare i rapporti in tempo reale.
 
-   Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL View All Reports > Site Metrics]** &gt; **[!UICONTROL Real-Time]** and select the report suite from the drop-down at the top:
+   Andate a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL View All Reports > Site Metrics]** &gt; **[!UICONTROL Real-Time]** e selezionate la suite di rapporti dall'elenco a discesa in alto:
 
    ![](assets/report_suite_selector.png)
 
-   Se provate a visualizzare rapporti in tempo reale per una suite di rapporti che non è stata configurata per il reporting in tempo reale, viene visualizzato un messaggio che consente di configurare la suite di rapporti.
+   Se provate a visualizzare i rapporti in tempo reale per una suite di rapporti che non è stata configurata per il reporting in tempo reale, viene visualizzato un messaggio che consente di impostare la suite di rapporti.
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Click **[!UICONTROL Configure]** (gear icon) to run the [!UICONTROL Report Suite Manager].
+1. Fate clic **[!UICONTROL Configure]** (icona a forma di ingranaggio) per eseguire il [!UICONTROL Report Suite Manager].
 
-   (Also available under **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin > Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Real-Time]**.)
+   (Disponibile anche in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin > Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Real-Time]**.)
 
-1. Turn on the **[!UICONTROL Enable Real-Time]** setting.
-1. Configurate raccolte dati in tempo reale per un massimo di tre report, con una metrica e tre dimensioni o classificazioni per report.
+1. Accendere l' **[!UICONTROL Enable Real-Time]** impostazione.
+1. Configurate la raccolta dati in tempo reale per un massimo di tre report, con una metrica e tre dimensioni o classificazioni per report.
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../../admin/admin/realtime/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   Per informazioni sulle metriche e dimensioni in tempo reale supportate, consultate Metriche e dimensioni [](/help/admin/admin/realtime/realtime-metrics.md)supportate.
 
-   Se avete già creato delle classificazioni, queste appaiono rientrate sotto la dimensione per la quale sono definite:
+   Se avete creato delle classificazioni, queste appaiono rientrate sotto la dimensione per la quale sono definite:
 
    ![](assets/classifications.png)
 
    >[!NOTE]
    >
-   >Per un singolo rapporto in tempo reale, al momento non è supportato l'abilitazione di dimensioni duplicate, anche se per ciascuna dimensione è selezionata una classificazione diversa.
+   >Per un singolo rapporto in tempo reale, al momento non siamo in grado di abilitare dimensioni duplicate, anche se per ogni dimensione è selezionata una classificazione diversa.
 
-   For more information about classifications, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
+   Per ulteriori informazioni sulle classificazioni, vedere [Informazioni sulle classificazioni](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
-   >Alcune dimensioni, come «Cerca parola chiave» o «Prodotto», non rimangono in tempo reale come avviene in Adobe Analytics. Quando selezioni una metrica non persistente, viene visualizzato questo avviso:
+   >Alcune dimensioni, come "Search Keyword" o "Product", non persistono in tempo reale come accade in altre aree di Adobe Analytics. Quando selezionate una metrica non persistente, viene visualizzato questo avviso:
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Fai clic su **[!UICONTROL Save]** o **[!UICONTROL Save and View Report]**.
 
-   Dopo questa configurazione iniziale del rapporto, potrebbero essere necessari fino a 20 minuti perché i dati inizino. Da quel momento, i dati sono immediatamente disponibili. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html).
+   Dopo questa configurazione iniziale del report, potrebbero essere necessari fino a 20 minuti per iniziare lo streaming dei dati. Da quel momento in poi, i dati saranno immediatamente disponibili. Per informazioni sulla visualizzazione di rapporti in tempo reale, consultate [Eseguire un rapporto](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html)in tempo reale.
 
-1. Per impostazione predefinita, tutti gli utenti hanno accesso ai rapporti in tempo reale.
+1. Per impostazione predefinita, tutti gli utenti hanno accesso ai report in tempo reale.
