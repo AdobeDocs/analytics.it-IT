@@ -8,7 +8,7 @@ title: Dimensioni disponibili per le regole di elaborazione
 topic: Strumenti di amministrazione
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -41,7 +41,7 @@ Le dimensioni che è possibile leggere e scrivere (se non diversamente specifica
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variabili dati di contesto </p> </td> 
-   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota:  Tutti i dati contenuti in una variabile dati contestuali devono essere copiati in una variabile di reporting per essere visualizzati in un report. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copiare una variabile di dati di contesto in una eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Impostazione di un evento utilizzando una variabile di dati di contesto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variabili dati di contesto</a> </p> </td> 
+   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota:  Tutti i dati contenuti in una variabile dati contestuali devono essere copiati in una variabile di reporting per essere visualizzati in un report. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiare una variabile di dati di contesto in una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> Impostazione di un evento utilizzando una variabile di dati di contesto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variabili dati di contesto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ Le dimensioni che è possibile leggere e scrivere (se non diversamente specifica
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL della pagina </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> o l’URL della pagina corrente se <code> s.pageURL</code> non è specificato. </td> 
+   <td colname="col2"> <code> s.pageURL</code> oppure l'URL della pagina corrente, se non <code> s.pageURL</code> è specificato. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parametro stringa query </p> </td> 
