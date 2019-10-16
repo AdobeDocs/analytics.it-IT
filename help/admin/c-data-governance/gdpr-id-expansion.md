@@ -5,7 +5,7 @@ seo-title: Espansione dell’ID
 title: Espansione dell’ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -18,7 +18,7 @@ Gli ID che invii non sempre comprendono tutti i dati dei risultati che Analytics
 "expandIds": true
 ```
 
-Per un esempio su come includere questa opzione nella richiesta, consultare [Esempio di richiesta JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F). For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+Per un esempio su come includere questa opzione nella richiesta, consultare [Esempio di richiesta JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request). For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -30,7 +30,7 @@ Per un esempio su come includere questa opzione nella richiesta, consultare [Ese
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Espansione dell’ID cookie </p> </td> 
-   <td colname="col2"> <p>Many Analytics customers originally used the (Legacy) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> Analytics Cookie </a>, but are now using the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service (ECID) </a>, previously known as the Marketing Cloud ID Service (MCID). Per i visitatori che hanno visitato il loro sito per la prima volta in seguito alla transizione, esiste solo l’ECID. Tuttavia, per coloro che hanno visitato il sito per la prima volta quando era disponibile solo il cookie legacy, ma che da allora lo hanno visitato ancora: alcuni dei loro dati avranno entrambi i cookie, ma i dati meno recenti avranno solo il cookie di Analytics, mentre i dati più recenti potrebbero avere solo un ECID. </p> <p>Accertarsi di trovare tutti i dati di un visitatore identificato tramite un cookie di Analytics (ID visitatore) o ECID. Pertanto, se attualmente si utilizza l’ECID e in precedenza si è utilizzato il Cookie Analytics, ogni volta che si invia una richiesta utilizzando uno dei due tipi di ID, è necessario includere entrambi gli ID nella richiesta o specificare l’opzione expandIDs. Quando si specifica expandIDs, Adobe verifica la presenza di altri ECID o cookie di Analytics che corrispondono a qualsiasi ID cookie fornito. La richiesta viene automaticamente estesa per includere i nuovi ID cookie identificati. </p> </td> 
+   <td colname="col2"> <p>Molti clienti di Analytics utilizzavano originariamente il <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">cookie di Analytics</a> (legacy), ma ora utilizzano il <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">servizio Identity (ECID)</a>, precedentemente noto come servizio Marketing Cloud ID (MCID). Per i visitatori che hanno visitato il loro sito per la prima volta in seguito alla transizione, esiste solo l’ECID. Tuttavia, per coloro che hanno visitato il sito per la prima volta quando era disponibile solo il cookie legacy, ma che da allora lo hanno visitato ancora: alcuni dei loro dati avranno entrambi i cookie, ma i dati meno recenti avranno solo il cookie di Analytics, mentre i dati più recenti potrebbero avere solo un ECID. </p> <p>Accertarsi di trovare tutti i dati di un visitatore identificato tramite un cookie di Analytics (ID visitatore) o ECID. Pertanto, se attualmente si utilizza l’ECID e in precedenza si è utilizzato il Cookie Analytics, ogni volta che si invia una richiesta utilizzando uno dei due tipi di ID, è necessario includere entrambi gli ID nella richiesta o specificare l’opzione expandIDs. Quando si specifica expandIDs, Adobe verifica la presenza di altri ECID o cookie di Analytics che corrispondono a qualsiasi ID cookie fornito. La richiesta viene automaticamente estesa per includere i nuovi ID cookie identificati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID personalizzati per l’espansione dell’ID cookie </p> </td> 
@@ -50,18 +50,18 @@ Quando Adobe esegue l’espansione dell’ID, può richiedere un’ulteriore sca
 Oltre al flag "espandiID", Analytics supporta altri due flag che possono essere passati come parte di una richiesta di privacy dei dati. Questi flag con i loro valori predefiniti sono:
 
 ```
-"analyticsDeleteMethod": “anonymize”
-“priority”: “normal”
+"analyticsDeleteMethod": "anonymize"
+"priority": "normal"
 ```
 
-In futuro, “AnalyticsDeleteMethod” potrebbe supportare un valore di “purge” oltre al valore predefinito di “anonymize”. Una volta supportato, comporterà l’eliminazione dell’intero hit anziché semplicemente l'aggiornamento dei valori dei campi di hit con etichette CANC.
+In futuro, "analyticsDeleteMethod" potrebbe supportare un valore "purge" oltre al valore predefinito "anonymize". Una volta supportato, comporterà l’eliminazione dell’intero hit anziché semplicemente l'aggiornamento dei valori dei campi di hit con etichette CANC.
 
-Oltre al valore predefinito, il campo priorità supporta anche un valore di “low”. È necessario specificare questo valore per le richieste che non sono il risultato di una richiesta dell’interessato e per le quali quindi non sussiste l'obbligo legale di completamento entro 30 giorni. Adobe scoraggia l'utilizzo dell'API del servizio sulla privacy per motivi diversi dalle richieste avviate dall'interessato. L'API del servizio Privacy non è uno strumento adeguato per la pulizia o la riparazione dei dati e avrà conseguenze indesiderate.
+Oltre al valore predefinito, il campo priority supporta anche il valore "low". È necessario specificare questo valore per le richieste che non sono il risultato di una richiesta dell’interessato e per le quali quindi non sussiste l'obbligo legale di completamento entro 30 giorni. Adobe scoraggia l'utilizzo dell'API del servizio sulla privacy per motivi diversi dalle richieste avviate dall'interessato. L'API del servizio Privacy non è uno strumento adeguato per la pulizia o la riparazione dei dati e avrà conseguenze indesiderate.
 
 [!NOTE]
 L'API [del servizio](https://www.adobe.io/apis/experienceplatform/gdpr.html) Privacy è stata fornita per aiutarti a soddisfare le richieste di privacy relative ai dati, che sono sensibili al tempo. L'utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe avere un impatto sulla capacità di Adobe di fornire un cambiamento tempestivo delle richieste di privacy dei dati ad alta priorità, avviate dall'utente, per altri clienti Adobe. Vi chiediamo di non utilizzare l'API del servizio Privacy per altri scopi, ad esempio per cancellare i dati inviati accidentalmente da gruppi di visitatori di grandi dimensioni.
 
 Devi anche essere consapevole del fatto che qualsiasi visitatore che abbia eliminato (aggiornato o anonimo) un hit a seguito di una richiesta di eliminazione della privacy dei dati avrà le informazioni sullo stato reimpostato. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è desiderabile per le situazioni in cui si desidera cancellare i campi dati ed evidenzia una ragione per cui l'API del servizio sulla privacy è inappropriata per questo uso.
 
-Contatta il tuo Account Manager (CSM) per coordinare con il nostro team di consulenza di Engineering Architect per esaminare e fornire il livello di impegno necessario per rimuovere eventuali problemi PII o di dati.
+Contatta il tuo Account Manager (CSM) per coordinarti con il nostro team di consulenza ingegneristico per eseguire un’ulteriore esame e rimuovere eventuali problemi di PII o dati.
 
