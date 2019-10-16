@@ -3,9 +3,9 @@ description: A ciascun ID che si desidera cercare viene assegnato uno spazio dei
 seo-description: A ciascun ID che si desidera cercare viene assegnato uno spazio dei nomi, o namespace, ovvero una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui esso viene usato per tutte le suite di rapporti.
 seo-title: Namespace
 title: Namespace
-uuid: CAB61844-3209-4980-b14c-6859de777606
+uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -38,7 +38,7 @@ Cookie di monitoraggio Analytics Legacy, noto anche come ID Adobe Analytics (AAI
 
 Questo valore deve essere specificato come due numeri esadecimali separati da un trattino. Tutte le cifre esadecimali che sono caratteri alfabetici devono essere specificate con caratteri maiuscoli. I valori esadecimali non dovrebbero avere zeri iniziali (notare la differenza rispetto allo stesso valore specificato nella forma obsoleta, dove sono richiesti gli zeri iniziali).
 
-È inoltre possibile utilizzare il modulo `“namespaceId”: 10` al posto di o in aggiunta `“namespace”: “AAID”` e potrebbe essere utilizzato da altri prodotti Adobe.
+È consentito usare `"namespaceId": 10` al posto o in aggiunta di `"namespace": "AAID"` e potresti riscontrare che altri prodotti Adobe usano quel modulo.
 
 ## Cookie di monitoraggio di Analytics Legacy: forma obsoleta
 
@@ -52,9 +52,9 @@ Questo valore deve essere specificato come due numeri esadecimali separati da un
 
 Forma obsoleta:
 
-Questo valore deve essere specificato come due numeri esadecimali a 16 cifre oppure due numeri decimali a 19 cifre separati da un trattino. I numeri devono essere separati da un trattino, un trattino basso o due punti. Gli zeri iniziali devono essere aggiunti qualora le due serie non fossero composte da un numero di cifre sufficienti.
+Questo valore deve essere specificato come due numeri esadecimali a 16 cifre oppure due numeri decimali a 19 cifre separati da un trattino. I numeri devono essere separati da un trattino, un trattino basso o due punti. Se uno dei due numeri non ha abbastanza cifre, è necessario aggiungere zeri iniziali.
 
-## Cookie del servizio identità
+## Cookie del servizio Identity
 
 ```
 {
@@ -64,15 +64,15 @@ Questo valore deve essere specificato come due numeri esadecimali a 16 cifre opp
 }
 ```
 
-Il valore deve essere specificato come numero decimale a 38 cifre. Se si sta estraendo questo numero dalle due colonne mcvisid\_high/low o post\_msvisid\_high/low da un feed di dati o da un report Data Warehouse, è necessario azzerare ogni due numeri a 19 cifre e quindi concatenarli prima con il valore alto.
+Il valore deve essere specificato come numero decimale a 38 cifre. Se stai estraendo questo numero dalle due colonne mcvisid\_high/low o post\_msvisid\_high/low da un feed di dati o da un rapporto di Data Warehouse, è necessario azzerare ognuno dei due numeri a 19 cifre e poi concatenarli prima con il valore alto.
 
-È inoltre accettabile utilizzare: al `“namespaceId”: 4` posto o in aggiunta a `“namespace”: “ECID”` e potrebbe essere visualizzato l'utilizzo di tale modulo da parte di altri prodotti Adobe.
+È consentito usare `"namespaceId": 4` al posto o in aggiunta di `"namespace": "ECID"` e potresti riscontrare che altri prodotti Adobe usano quel modulo.
 
 >[!NOTE]
 >
->L’Experience Cloud ID (ECID) era precedentemente noto come Marketing Cloud ID (MCID) ed è ancora indicato da tale nome in alcuni documenti esistenti.
+>Experience Cloud ID (ECID) era noto in precedenza come Marketing Cloud ID (MCID) e viene indicato ancora con quel nome in alcune documentazioni esistenti.
 >
->Questi ID sono gli unici ID supportati da Analytics che utilizzano un valore "type" diverso da "analytics".
+>Questi ID sono gli unici ID supportati da Analytics che utilizzano un valore di “type” diverso da “analytics”.
 
 Se il formato della parte del valore di uno di questi cookie ID non segue il formato descritto per tale ID, la richiesta di privacy dei dati non riuscirà, con un errore di tipo "Valore non formattato correttamente".
 
@@ -106,12 +106,12 @@ Anche il namespace è predefinito per l'ID visitatore personalizzato.
 }
 ```
 
-Per gli ID in variabili di traffico o conversione personalizzate (proprietà o eVar), etichettate la variabile con un’etichetta ID-DEVICE o ID-PERSON, quindi assegnate il vostro nome dello spazio nomi a quel tipo di ID. Vedi [Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile.](gdpr-labels.md)
+Per gli ID nelle variabili di conversione e traffico personalizzate (proprietà ed eVar), devi assegnare alla variabile l’etichetta ID-DEVICE o ID-PERSON e quindi il tuo nome namespace a quel tipo di ID. Vedi [Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile.](gdpr-labels.md)
 
 Puoi anche vedere i namespace definiti in precedenza per altre variabili o suite di rapporti e riutilizzare una di queste, in modo che lo stesso namespace possa essere facilmente usato per tutte le suite di rapporti che contengono quel tipo di ID. È anche possibile assegnare lo stesso namespace a più variabili all’interno della suite di rapporti. Ad esempio, alcuni clienti memorizzano un ID CRM in una variabile di traffico e in una variabile di conversione (può trovarsi in una sola pagina o in entrambe le pagine a seconda dei casi) e possono assegnare il namespace “ID CRM” a entrambe le variabili.
 
-> [!TIP] Evitare di utilizzare il nome descrittivo di una variabile (il nome visualizzato nell'interfaccia utente di reporting) o il numero della variabile (come eVar12) quando si specifica lo spazio dei nomi nell'API Data Privacy, a meno che non si tratti dello spazio dei nomi specificato quando si applica l'etichetta ID-DEVICE o ID-PERSON. L'utilizzo di uno spazio dei nomi invece di un nome descrittivo consente allo stesso blocco di identità utente di specificare la variabile corretta per più suite di rapporti. Ad esempio, se l’ID si trova in eVar diverse in alcune suite di rapporti o se i nomi descrittivi non corrispondono (ad esempio se il nome descrittivo è stato localizzato per una suite di rapporti specifica).
+> [!TIP] Evitare di utilizzare il nome descrittivo di una variabile (il nome visualizzato nell'interfaccia utente di reporting) o il numero della variabile (come eVar12) quando si specifica lo spazio dei nomi nell'API Data Privacy, a meno che non si tratti dello spazio dei nomi specificato quando si applica l'etichetta ID-DEVICE o ID-PERSON. L’uso di un namespace invece di un nome descrittivo consente allo stesso blocco di identità dell’utente di specificare la variabile corretta per suite di rapporti multiple. Ad esempio, se l’ID si trova in eVar diverse in alcune suite di rapporti, o se i nomi descrittivi non corrispondono (ad esempio se il nome descrittivo è stato localizzato per una suite di rapporti specifica).
 
-> [!CAUTION] Gli spazi dei nomi "visitorId" e "customVisitorId" sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
+> [!CAUTION] I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi namespace per le variabili di traffico o conversione personalizzate.
 
-Per altre informazioni vedi [Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile.](/help/admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)
+Per altre informazioni vedi [Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile.](/help/admin/c-data-governance/gdpr-labels.md)
