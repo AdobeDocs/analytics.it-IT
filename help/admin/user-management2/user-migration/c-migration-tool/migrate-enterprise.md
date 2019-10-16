@@ -5,7 +5,7 @@ seo-title: Eseguire la migrazione degli account utente di Analytics per Enterpri
 title: Eseguire la migrazione degli account utente di Analytics per Enterprise e Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 Come eseguire la migrazione degli account utente di Analytics come Enterprise o Federated ID all’Admin Console.
 
-## Prerequisiti {#concept-e60d8deb3fc54a1a81f1f47a26658de3}
+## Prerequisiti {#prereqs}
 
 Prerequisiti per la gestione degli utenti nell’Admin Console.
 
@@ -125,7 +125,7 @@ Se ti occorre trasferire gli account utente Adobe ID esistenti a un Enterprise I
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>Assicurati che i domini nelle colonne Le colonne <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondono ai domini stabiliti nei <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"> prerequisiti</a>. </p> </td> 
+   <td colname="col2"> <p>Assicurati che i domini nelle colonne Le colonne <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondono ai domini stabiliti nei <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"> prerequisiti</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codice paese </p> </td> 
@@ -140,9 +140,9 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >
 >Altre colonne, ad esempio *`Product Configurations`* e *`Admin Roles`* possono essere vuote.
 
-1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. In Analytics, eseguite lo strumento di migrazione (come descritto in [Migrazione degli account](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)utente di Analytics).
-1. Clic **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
+1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
+1. In Analytics, eseguite lo strumento di migrazione (come descritto in [Migrazione degli account](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)utente di Analytics).
+1. Fai clic su **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![Informazioni sul passaggio](assets/migrate-as-enterprise.png)
 
