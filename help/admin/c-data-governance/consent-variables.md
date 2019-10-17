@@ -1,20 +1,20 @@
 ---
-description: Variabili per la gestione del consenso in Privacy dei dati.
-seo-description: Variabili per la gestione del consenso in Privacy dei dati.
-seo-title: Variabili di gestione del consenso
+description: Variabili per la segnalazione della privacy in Privacy dei dati.
+seo-description: Variabili per la segnalazione della privacy in Privacy dei dati.
+seo-title: Variabili di rapporti sulla privacy
 solution: Analytics
-title: Variabili di gestione del consenso
+title: Variabili di rapporti sulla privacy
 topic: Strumenti di amministrazione
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# Variabili di gestione del consenso
+# Variabili di rapporti sulla privacy
 
 Per fornire ulteriore assistenza nella gestione dei dati sulla privacy, è disponibile una serie di variabili riservate da utilizzare insieme a variabili di dati di contesto specifiche.
-Queste variabili di gestione del consenso forniscono un framework di facile utilizzo per l'acquisizione dello stato del consenso su ogni hit di analisi.
+Queste variabili di informativa sulla privacy forniscono un framework di facile utilizzo per l’acquisizione dello stato di privacy su ogni hit di analisi.
 
 ## Variabili
 
@@ -35,7 +35,7 @@ Queste variabili di gestione del consenso forniscono un framework di facile util
 
 ## Generazione di rapporti  
 
-Puoi abilitare le variabili di gestione del consenso tramite una nuova impostazione Privacy disponibile nell’Admin Console di Analytics.
+Puoi abilitare le variabili di informativa sulla privacy tramite una nuova impostazione Privacy disponibile nell’Admin Console di Analytics.
 
 Ogni suite di rapporti può essere configurata come segue:
 1. In Reporting e analisi fare clic su **[!UICONTROL Admin > Report Suites.]**
@@ -57,7 +57,7 @@ Ogni suite di rapporti può essere configurata come segue:
 
 ## Implementazione
 
-Sono state predefinite tre variabili di dati di contesto per l’utilizzo delle variabili riservate per la gestione del consenso.  È compito di ogni tecnico dell'implementazione determinare come gestire e mantenere l'impostazione di queste variabili.
+Tre variabili di dati di contesto sono state predefinite per l’utilizzo delle variabili riservate per la gestione dei rapporti sulla privacy.  È compito di ogni tecnico dell'implementazione determinare come gestire e mantenere l'impostazione di queste variabili.
 
 Consulta Variabili [di dati](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) contestuali per informazioni generali sull'implementazione delle variabili di dati di contesto.
 
