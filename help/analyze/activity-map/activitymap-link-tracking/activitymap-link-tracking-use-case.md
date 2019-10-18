@@ -1,22 +1,22 @@
 ---
-description: Puoi distinguere i collegamenti personalizzando l'ID del collegamento utilizzando la variabile s_ objectid personalizzando l'area e personalizzando il file del modulo activmeasurement appmeasurement.
-seo-description: Puoi distinguere i collegamenti personalizzando l'ID del collegamento utilizzando la variabile s_ objectid personalizzando l'area e personalizzando il file del modulo activmeasurement appmeasurement.
-seo-title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e regione
+description: Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
+seo-description: Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
+seo-title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 solution: Analytics
-title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e regione
-topic: Activity map
-uuid: f 2 da 0 cda-a 33 b -4 a 12-8 d 99-1 f 58386 d 6 d 30
+title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
+topic: Activity Map
+uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e regione
+# Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 
-Puoi distinguere i collegamenti personalizzando l'ID del collegamento utilizzando la variabile s_ objectid personalizzando l'area e personalizzando il file del modulo activmeasurement appmeasurement.
+Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
 
-Ad esempio, supponiamo che tu abbia più collegamenti "Buy" identificati da Activity Map con lo stesso ID collegamento e regione:
+Ad esempio, supponiamo che tu disponga di più collegamenti "Acquista" identificati da [!DNL Activity Map] sotto lo stesso ID collegamento e regione:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -29,32 +29,33 @@ Ad esempio, supponiamo che tu abbia più collegamenti "Buy" identificati da Acti
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <code>&lt; div id = "pannello raccomandazione" &gt; 
- &lt; div &gt; 
- &lt; a href = "product1.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a href = "product2.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a href = "product3.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; </code>
-  </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Acquista <p> </p> <p> </p> <p>Acquista </p> <p> </p> <p> </p> <p>Acquista </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>pannello di raccomandazione <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Come è possibile personalizzare la pagina Web e i tag per differenziare i valori di questi collegamenti? Sono disponibili tre opzioni: Puoi personalizzare l'ID collegamento, oppure personalizzare l'area o personalizzare il file modulo activitymap appmeasurement.
+In che modo è possibile personalizzare la pagina Web e i tag per differenziare i valori di questi collegamenti? Sono disponibili tre opzioni: Puoi personalizzare l’ID collegamento, la regione o il file del modulo ActivityMap di AppMeasurement.
 
-## Customize the Link ID Using s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
+## Personalizzare l’ID collegamento utilizzando s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento delle Activity Map oppure utilizzare Activity Map per generare rapporti su un tipo di collegamento o su una posizione, piuttosto che sull'URL del collegamento. Click [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) for more information on the s_objectID variable.
+Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il [!DNL Activity Map] tracciamento o utilizzare [!DNL Activity Map] per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento. Fare clic [qui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) per ulteriori informazioni sulla variabile s_objectID.
 
 >[!IMPORTANT]
 >
->È necessario un punto e virgola finale (;) quando si utilizza s_ objectid nella Activity Map.
+>Tenere presente che è necessario un punto e virgola finale (;) quando si utilizza s_objectID in [!DNL Activity Map].
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -67,30 +68,31 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <code>&lt; div id = "pannello raccomandazione" &gt; 
- &lt; div &gt; 
- &lt; a onclick = "s_ objectid ='Product 1 '; " href = "product1.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a onclick = "s_ objectid ='Product 2 '; " href = "product2.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a onclick = "s_ objectid ='Product 3 '; " href = "product3.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; </code>
-  </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product1';"&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product2';"&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Prodotto 2 </p> <p> </p> <p> </p> <p>Prodotto 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>pannello raccomandazione </p> <p> </p> <p> </p> <p>pannello raccomandazione </p> <p> </p> <p> </p> <p>pannello raccomandazione </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Customize the Region {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Personalizzare la regione {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Potete personalizzare l'area accertandovi che ogni collegamento «acquista» abbia la propria regione definita. A questo scopo, aggiungete un parametro "id" a uno degli elementi principali di ciascun tag di ancoraggio "Buy".
+Puoi personalizzare l'area facendo in modo che ogni collegamento "acquista" abbia una propria regione definita. A tal fine, aggiungete un parametro "id" a uno dei principali tag di ancoraggio "Buy".
 
 >[!NOTE]
 >
->Non sei rigorosamente limitato al parametro «id» come identificatore di regione. Puoi anche impostare un identificatore personalizzato utilizzando la variabile javascript "s. activitymap. regionidattribute".
+>Non sei strettamente limitato al parametro "id" come identificatore di regione. Potete anche impostare un identificatore personalizzato utilizzando la variabile JavaScript "s.ActivityMap.regionIDAtribute".
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -103,30 +105,31 @@ Potete personalizzare l'area accertandovi che ogni collegamento «acquista» abb
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <code>&lt; div id = "pannello raccomandazione" &gt; 
- &lt; div id = "region a" &gt; 
- &lt; a href = "product1.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div id = "region b" &gt; 
- &lt; a href = "product2.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div id = "region c" &gt; 
- &lt; a href = "product3.html" &gt; Acquista &lt;/a &gt; 
- &lt;/div &gt; </code>
-  </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Acquista </p> <p> </p> <p> </p> <p>Acquista </p> <p> </p> <p> </p> <p>Acquista </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>regione a <p> </p> <p> </p> <p>regione b </p> <p> </p> <p> </p> <p>regione c </p> </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;a"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;b"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&nbsp;id="region&nbsp;c"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>regione a <p> </p> <p> </p> <p>regione B </p> <p> </p> <p> </p> <p>regione c </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Customize the AppMeasurement ActivityMap Module file {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personalizzare il file del modulo ActivityMap di AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
->Accertatevi di verificare il codice modificato per assicurare che funzioni correttamente. Adobe non è responsabile del funzionamento del codice modificato.
+>Verificate che il codice modificato funzioni correttamente. Adobe non è responsabile del comportamento del codice modificato.
 
-Di seguito sono riportati alcuni esempi di** funzioni collegamento/regione generico che potresti includere (nel modulo modificato) nel file appmeasurement. js.
+Di seguito sono riportati un paio di esempi di funzioni di collegamento/regione*** generiche che è possibile includere (nel modulo modificato) nel file AppMeasurement.js.
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
@@ -141,7 +144,7 @@ return ele.href;
 } 
 ```
 
-Il linkname viene passato durante le chiamate a s. tl.
+Il linkName viene passato durante le chiamate a s.tl.
 
 ```
 s.ActivityMap.region = function(ele){ 
