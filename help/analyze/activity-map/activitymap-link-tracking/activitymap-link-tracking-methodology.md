@@ -1,75 +1,75 @@
 ---
-description: Questa sezione è destinata agli amministratori di Adobe Analytics. Si focalizza sui nuovi parametri di tracciamento dei collegamenti e su come garantiscono l'univocità e la coerenza dei collegamenti tra browser e dispositivi e migliora la gestione del riposizionamento dei collegamenti su una pagina.
-seo-description: Questa sezione è destinata agli amministratori di Adobe Analytics. Si focalizza sui nuovi parametri di tracciamento dei collegamenti e su come garantiscono l'univocità e la coerenza dei collegamenti tra browser e dispositivi e migliora la gestione del riposizionamento dei collegamenti su una pagina.
+description: Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi parametri di tracciamento dei collegamenti sono incentrati su come garantire l’univocità e la coerenza dei collegamenti tra browser e dispositivi e come migliorare la gestione del riposizionamento dei collegamenti su una pagina.
+seo-description: Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi parametri di tracciamento dei collegamenti sono incentrati su come garantire l’univocità e la coerenza dei collegamenti tra browser e dispositivi e come migliorare la gestione del riposizionamento dei collegamenti su una pagina.
 seo-title: Metodologia di tracciamento dei collegamenti
 solution: Analytics
 title: Metodologia di tracciamento dei collegamenti
-topic: Activity map
-uuid: 67864 bf 9-33 cd -46 fa -89 a 8-4 d 83 d 3 b 81152
+topic: Activity Map
+uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Metodologia di tracciamento dei collegamenti
 
-Questa sezione è destinata agli amministratori di Adobe Analytics. Si focalizza sui nuovi parametri di tracciamento dei collegamenti e su come garantiscono l'univocità e la coerenza dei collegamenti tra browser e dispositivi e migliora la gestione del riposizionamento dei collegamenti su una pagina.
+Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi parametri di tracciamento dei collegamenti sono incentrati su come garantire l’univocità e la coerenza dei collegamenti tra browser e dispositivi e come migliorare la gestione del riposizionamento dei collegamenti su una pagina.
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how Activity Map may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Qualsiasi collegamento in cui il testo (non i href) può contenere informazioni PII (Personally Identifiable Information) deve essere implementato esplicitamente utilizzando [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Per maggiori informazioni su come [!DNL Activity Map] raccogliere i dati PII, consulta [qui](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
 
-Activity Map basa il tracciamento dei collegamenti su questi due ID:
+[!DNL Activity Map] basa il tracciamento dei collegamenti su questi due ID:
 
 * ID principale: questo è il parametro riconoscibile del collegamento.
-* Regione collegamento: si tratta di un parametro secondario che consente agli utenti di specificare una stringa rappresentante l'area di collegamento globale nella pagina o nell'area geografica. Questo parametro può essere generato automaticamente se non viene fornito dall'utente.
+* Regione collegamento: si tratta di un parametro secondario che consente agli utenti di specificare una stringa rappresentativa dell’area di collegamento globale nella pagina o nell’area geografica. Questo parametro può essere generato automaticamente se non è fornito dall'utente.
 
-## Primary ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## ID principale {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
-Se l'HTML ha un valore s_ objectid, l'ID principale viene impostato su s_ objectid. In caso contrario, i seguenti parametri vengono utilizzati come ID principale (in questo ordine di priorità):
+Se l'HTML ha un s_objectid, l'ID principale viene impostato per impostazione predefinita su s_objectid. In caso contrario, i seguenti parametri vengono utilizzati come ID principale (in questo ordine di priorità):
 
-* Testo non inserito
+* Innertext
 * Alttext
 * Titolo
 * Src
 * Azione
 
-## Using InnerText versus using Link Action (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilizzo di InnerText e utilizzo di Link Action (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
-L'azione Collegamento è l'azione eseguita dalla pagina Web quando si fa clic sul collegamento, in genere l'URL visitabile dopo aver fatto clic sul collegamento. Alcuni dei problemi che potrebbero verificarsi quando si utilizza l'Azione collegamento sono:
+L’azione Collegamento è l’azione eseguita dalla pagina Web quando si fa clic sul collegamento, in genere l’URL visitato dopo aver fatto clic sul collegamento. Alcuni dei problemi a cui potrebbe verificarsi l’utilizzo di Azione collegamento sono:
 
 * con due o più collegamenti distinti con lo stesso ID
 * leggibilità del collegamento
-* un collegamento con più azioni (a seconda del dispositivo in cui si sta visualizzando il collegamento)
+* un collegamento con più azioni (a seconda del dispositivo su cui si trova il collegamento)
 
-Di conseguenza, utilizziamo innertext con questi vantaggi rispetto all'uso dell'azione Collegamento (URL):
+Di conseguenza, l’utilizzo di InnerText offre i seguenti vantaggi rispetto all’utilizzo di Link Action (URL):
 
-* È una buona rappresentazione dell'identità Collegamento. La duplicazione degli ID principale è notevolmente ridotta, in quanto non è comune avere più collegamenti con lo stesso testo.
+* È una buona rappresentazione dell'identità Collegamento. La duplicazione degli ID primari è notevolmente ridotta in quanto non è comune disporre di più collegamenti con lo stesso testo.
 * Garantisce la coerenza dell'ID principale tra dispositivi e tipi di browser.
-* Non viene modificata da un riposizionamento del collegamento sulla pagina.
-* Migliora la leggibilità, in modo che gli utenti possano iniziare ad analizzare i rapporti di tracciamento dei collegamenti all'esterno della Activity Map.
+* Non viene interessato dal riposizionamento del collegamento sulla pagina.
+* Migliora la leggibilità, consentendo agli utenti di iniziare ad analizzare i rapporti di tracciamento dei collegamenti all'esterno [!DNL Activity Map].
 
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## Area collegamenti {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
-Questo nuovo attributo consente agli utenti di specificare una stringa rappresentante l'area della pagina in cui si trova il collegamento.
+Questo nuovo attributo consente agli utenti di specificare una stringa rappresentativa dell'area della pagina in cui si trova il collegamento.
 
-Ad esempio, per un collegamento "Contattaci" che si trova nella sezione del menu della pagina Web, l'utente potrebbe voler passare un parametro di tipo «Menu». Analogamente, per un collegamento "Contattaci" che si trova nel piè di pagina della pagina Web, il parametro regione può essere impostato su "piè di pagina".
+Ad esempio, per un collegamento "Contatti" che si trova nella sezione menu della pagina Web, l'utente potrebbe voler passare un parametro di regione "Menu". Allo stesso modo, per un collegamento "Contact Us" posizionato nel piè di pagina della pagina Web, il parametro di regione può essere impostato su "footer".
 
-Il valore Regione collegamento non è impostato sul collegamento stesso, ma su un elemento HTML nella struttura HTML DOM che include tale regione.
-L'utilizzo di Area collegamento presenta i seguenti vantaggi:
+Il valore Regione collegamento non è impostato sul collegamento stesso, ma su un elemento HTML sopra la struttura DOM HTML che include tale area.
+L’utilizzo di Link Region offre i seguenti vantaggi:
 
-* Consente di distinguere i collegamenti con lo stesso ID principale.
-* L'andamento su un'area è minore dell'aspetto dinamico della pagina Web.
-* Gli utenti possono visualizzare i collegamenti più performanti all'interno di un'area. Con l'opzione Regione come ancoraggio, è possibile visualizzare sovrapposizioni di collegamenti non visibili sulla pagina (Ajax, Targeting).
-* Un'area può sostituire le pagine in quanto una determinata area può essere utilizzata su più pagine Web. Consente di rispondere alle domande come: «La mia area di offerta prodotto funziona meglio sulla pagina di destinazione da donna o sulla pagina di destinazione dei uomo?
-* Di per sé, Regione è una dimensione rilevante per analizzare pagine Web altamente dinamiche. Questo perché rimuove il rumore a causa di una modifica continua dei collegamenti: un'area "Ultime notizie" nella pagina di destinazione CNN può presentare molti collegamenti. Ma l'area sarà sempre disponibile. Pertanto, potrebbe essere interessante determinare tendenze a livello di regione in molti giorni.
+* Consente di distinguere i collegamenti con lo stesso ID primario.
+* La tendenza in un’area è meno influenzata dall’aspetto dinamico della pagina Web.
+* Gli utenti possono visualizzare i collegamenti con le prestazioni più elevate all'interno di un'area geografica. Con Regione come ancoraggio, possiamo visualizzare sovrapposizioni di collegamenti che non sono attualmente visibili sulla pagina (Ajax, Targeting).
+* Una regione può sostituire le pagine come una determinata area geografica e può essere utilizzata in molte pagine Web. Consente di rispondere a domande come: "La mia regione "Offerta di prodotto" si comporta meglio sulla pagina di destinazione delle donne o sulla pagina di destinazione degli uomini?
+* Di per sé, Regione è una dimensione rilevante per l'analisi di pagine Web altamente dinamiche. Questo perché rimuove il disturbo dovuto alla modifica continua dei collegamenti: una regione "Ultime notizie" nella pagina di destinazione CNN potrebbe avere molti collegamenti in continuo cambiamento. Ma la regione ci sarà sempre. Potrebbe essere interessante tendere a livello regionale in molti giorni.
 
-**Tracciamento regioni personalizzato**
+**Tracciamento area personalizzato**
 
-Puoi personalizzare il parametro Regione per un collegamento (il valore predefinito è ID collegamento): Un tag impostato su «ID» utilizza tutti gli elementi HTML con un parametro «id» come Area. Quindi, impostare il tag Regione su «id» probabilmente restituisce molte aree distinte (molti degli «ID» sulla pagina). In alternativa, se desiderate implementare un'implementazione più personalizzata, potete impostare il tag regione su qualcosa di più specifico, ad esempio "region_ id".
+Puoi personalizzare il parametro Regione per un collegamento (il valore predefinito è ID collegamento): Un tag impostato su "ID" utilizza tutti gli elementi HTML con un parametro "id" come regione. Pertanto, se si imposta il tag Regione su "id", molto probabilmente verranno restituite molte aree distinte (fino a che non sono presenti "ID" diversi sulla pagina). In alternativa, se desiderate un'implementazione più personalizzata, potete impostare il tag regione su qualcosa di più specifico, ad esempio "region_id".
 
-Di seguito, potete visualizzare un codice HTML di esempio utilizzando l'attributo ID di regione predefinito, "id".
+Di seguito potete visualizzare un esempio di HTML utilizzando l'attributo ID regione predefinito "id".
 
 ```
 <div id="content"> 
@@ -81,7 +81,7 @@ Di seguito, potete visualizzare un codice HTML di esempio utilizzando l'attribut
    </div> 
 ```
 
-Se lo desiderate, potete assegnare un tag agli elementi con un identificatore stringa arbitrario, in questo caso "lpos", quindi aggiungere attributi con il nome "lpos".
+Se lo si desidera, è possibile assegnare tag agli elementi con un identificatore stringa arbitrario, in questo caso "lpos", e quindi aggiungere attributi con il nome "lpos".
 
 ```
 s.ActivityMap.regionIDAttribute="lpos"; 
@@ -113,9 +113,9 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
+## Variabili di configurazione {#section_634197EACD404AC086DF9A03B813C8C3}
 
-Queste variabili sono elencate solo a scopo di riferimento. La Mappa dell'attività deve essere configurata correttamente fuori dalla casella, ma puoi personalizzare la tua implementazione utilizzando queste variabili.
+Queste variabili sono elencate solo a scopo di riferimento. [!DNL Activity Map] deve essere configurata correttamente, ma puoi personalizzare l'implementazione utilizzando queste variabili.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -127,37 +127,41 @@ Queste variabili sono elencate solo a scopo di riferimento. La Mappa dell'attivi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s. activitymap. regionidattribute </td> 
-   <td colname="col2"> Il valore predefinito è il parametro «id». Potete impostare questo parametro su un altro parametro. </td> 
-   <td colname="col3"> String that identifies the tag attribute to use as region ID from some ancestor (parent, parent.parent, ...) element of s.linkObject, i.e. <b>the element that was clicked</b>. </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAtribute </td> 
+   <td colname="col2"> Il valore predefinito è "id". Potete impostare questo parametro su un altro. </td> 
+   <td colname="col3"> Stringa che identifica l’attributo del tag da utilizzare come ID di regione da un elemento antenato (parent, parent.parent, ...) di s.linkObject, ovvero <b>l’elemento su cui è stato fatto clic</b>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. activitymap. link </td> 
+   <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
-    <code>// solo gli attributi "title" da una funzione tag (click kedelement) {var linkid; if (click kedelement &amp; &amp; click kedelement. tagname. touppercase () = = ='A ') {linkid = click kedelement. getattribute ('title '); } return linkid; } </code>
-  </td> 
-   <td colname="col3"> Function that receives the clicked HTMLElement and should return a string value that represents <b>the link that was clicked</b>. <p>Se il valore restituito è falso (null, non definito, stringa vuota, 0), non viene tracciato alcun collegamento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s. activitymap. region </td> 
-   <td colname="col2"> 
-    <code>// viene utilizzata solo la versione minuscola del nome di tag concatenato con il primo classname come funzione area (click kedelement) {var regionid, classname; while (click kedelement &amp; &amp; (click kedelement = click kedeldelement. parentnode)) {regionid = click kedelement. tagname; if (regionid) {return regionid. tolowercase (); }}}} </code>
-  </td> 
-   <td colname="col3"> Function that receives the clicked HTMLElement and should return a string value that represents <b>the region where the link was found when clicked</b>. <p>Se il valore restituito è falso (null, non definito, stringa vuota, 0), non viene tracciato alcun collegamento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s. activitymap. linkexclusions </td> 
-   <td colname="col2"> 
-    <code>// Escludi i collegamenti con una classe CSS linkesclusa speciale &lt; stile &gt;. linkesclusa {display: block; height: 1 px; left: -9999 px; overflow: hidden; position: absolute; larghezza: 1 px; } &lt;/stile &gt; &lt; a href = "next-page.html" &gt; Collegamento viene tracciato perché il collegamento non contiene testo nascosto che corrisponde al filtro.&lt;/a &gt; &lt; a href = "next-page.html" &gt; Collegamento non tracciato perché s. activitymap. linkexclusions è impostato e questo collegamento ha un testo nascosto corrispondente al filtro. &lt; span class = "linkexcluded" &gt; exclude-link 1 &lt;/span &gt; &lt;/a &gt; &lt; a href = "next-page.html" &gt; Collegamento non tracciato perché s. activitymap. linkexclusions è impostato e questo collegamento ha corrispondenza con il filtro.  &lt;span class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2'; &lt;/script&gt; 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
     </code> </td> 
-   <td colname="col3"> <p>Stringa che riceve un elenco separato da virgole di stringhe da cercare nel testo del collegamento. Se trovato, il collegamento non viene escluso dalla mappa dell'attività. Se non viene impostato, non viene eseguito alcun tentativo per interrompere il tracciamento del collegamento tramite Activity Map. </p> </td> 
+   <td colname="col3"> Funzione che riceve l'oggetto HTMLElement selezionato e deve restituire un valore di stringa che rappresenta <b>il collegamento su cui è stato fatto clic</b>. <p>Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. activitymap. regionexclusions </td> 
+   <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
-    <code>// Escludi le aree nella pagina dai relativi collegamenti tracciabili da activitymap &lt; div id = "links-included" &gt; &lt; a href = "next-page.html" &gt; Link viene tracciata perché s. activitymap. regionexclusions è impostata ma non corrisponde al filtro.&lt;/a &gt; &lt;/div &gt; &lt; div id = "links-excluded" &gt; &lt; a href = "next-page.html" &gt; Collegamento non tracciato perché s. activitymap. regionexclusions è impostato e questo collegamento corrisponde al filtro.&lt;/a&gt; &lt;/div&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.regionExclusions = 'links-excluded'; &lt;/script&gt;
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
     </code> </td> 
-   <td colname="col3"> <p>Stringa che riceve un elenco separato da virgole di stringhe da cercare nel testo della regione. Se trovato, il collegamento non viene escluso dalla mappa dell'attività. Se non viene impostato, non viene eseguito alcun tentativo per interrompere il tracciamento del collegamento tramite Activity Map. </p> </td> 
+   <td colname="col3"> Funzione che riceve l'oggetto HTMLElement su cui è stato fatto clic e che deve restituire un valore di stringa che rappresenta <b>l'area in cui è stato trovato il collegamento quando l'utente ha fatto clic</b>. <p>Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> s.ActivityMap.linkExclusions </td> 
+   <td colname="col2"> 
+    <code>
+      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
+    </code> </td> 
+   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgole da cercare nel testo del collegamento. Se trovato, il collegamento è escluso dal tracciamento da parte di [!DNL Activity Map]. Se non è impostato, non viene eseguito alcun tentativo di interrompere il tracciamento del collegamento da parte di [!DNL Activity Map]. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> s.ActivityMap.regionExclusions </td> 
+   <td colname="col2"> 
+    <code>
+      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
+    </code> </td> 
+   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgole da cercare nel testo della regione. Se trovato, il collegamento è escluso dal tracciamento da parte di [!DNL Activity Map]. Se non è impostato, non viene eseguito alcun tentativo di interrompere il tracciamento del collegamento da parte di [!DNL Activity Map]. </p> </td> 
   </tr> 
  </tbody> 
 </table>
