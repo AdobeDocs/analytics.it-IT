@@ -1,27 +1,27 @@
 ---
-description: Accedete a ulteriori risorse di informazioni per la mappa dell'attività Adobe.
-seo-description: Accedete a ulteriori risorse di informazioni per la mappa dell'attività Adobe.
-seo-title: Risorse relative alle conoscenze
+description: Accedete a ulteriori risorse di informazioni per Adobe [!DNL Activity Map].
+seo-description: Accedete a ulteriori risorse di informazioni per Adobe [!DNL Activity Map].
+seo-title: Risorse relative alla conoscenza
 solution: Analytics
-title: Risorse relative alle conoscenze
-topic: Activity map
-uuid: 7 ac 780 f 6-b 37 f -4 c 96-93 c 0-67988798 e 318
+title: Risorse relative alla conoscenza
+topic: Activity Map
+uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Risorse relative alle conoscenze
+# Risorse relative alla conoscenza
 
-Accedete a ulteriori risorse di informazioni per la mappa dell'attività Adobe.
+Accedete a ulteriori risorse di informazioni per Adobe [!DNL Activity Map].
 
-| Knowledge Resource | Dettagli |
+| Risorse di conoscenza | Dettagli |
 |---|---|
-| [Aiuto di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html) | Portale della knowledge portal per tutta la documentazione di Adobe Experience Cloud |
-| Documentazione Activity Map | (This) Online help for Adobe [!DNL Activity Map] |
-| [Documentazione di Analytics](https://marketing.adobe.com/resources/help/en_US/reference/) | Guida in linea di Adobe Analytics |
-| [Knowledgebase](https://helpx.adobe.com/support/analytics.html) | Clientcare, base |
-| [Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics) | Forum utenti e community clientcare |
-| [Blog di Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/) | Blog più recenti di Adobe Analytics dai manager dei prodotti. |
+| [Aiuto di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html) | Portale delle conoscenze per tutta la documentazione di Adobe Experience Cloud |
+| [!DNL Activity Map] documentazione | (Questa è la Guida in linea per Adobe [!DNL [!DNL Activity Map]] |
+| [Documentazione di Analytics](https://marketing.adobe.com/resources/help/en_US/reference/) | Aiuto online per Adobe Analytics |
+| [KnowledgeBase](https://helpx.adobe.com/support/analytics.html) | Knowledgebase di ClientCare |
+| [Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics) | Forum utenti e community di ClientCare |
+| [Blog di Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/) | Ultimi blog di Adobe Analytics dai product manager. |
 
