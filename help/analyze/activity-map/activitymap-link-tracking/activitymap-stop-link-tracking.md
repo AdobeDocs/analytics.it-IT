@@ -1,46 +1,49 @@
 ---
-description: Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o clickmap legacy.
-seo-description: Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o clickmap legacy.
+description: Passaggi per arrestare il tracciamento dei collegamenti in [!DNL Activity Map] o legacy ClickMap.
+seo-description: Passaggi per arrestare il tracciamento dei collegamenti in [!DNL Activity Map] o legacy ClickMap.
 seo-title: Interrompere il tracciamento dei collegamenti
 solution: Analytics
 title: Interrompere il tracciamento dei collegamenti
-topic: Activity map
-uuid: e 17 fb 7 bd-d 6 ed -45 c 3-a 006-9150 d 5718 cff
+topic: Activity Map
+uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Interrompere il tracciamento dei collegamenti
 
-Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o clickmap legacy.
+Passaggi per interrompere il tracciamento dei collegamenti in [!DNL Activity Map] o nella mappa ClickMap legacy.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Per interrompere il tracciamento dei collegamenti in… </th> 
-   <th colname="col2" class="entry"> Effettua questa operazione… </th> 
+   <th colname="col1" class="entry"> Per interrompere il tracciamento dei collegamenti in... </th> 
+   <th colname="col2" class="entry"> Fai questo... </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Remove the following content from the Appmeasurement.js file: 
+   <td colname="col1"> [!DNL Activity Map] </td> 
+   <td colname="col2"> Rimuovete il contenuto seguente dal file Appmeasurement.js: 
     <code>
      /*
-      START Activity Map MODULE The following module enables Activity Map tracking in Adobe Analytics.Activity Map consente di visualizzare sovrapposizioni di dati sui collegamenti e i contenuti per comprendere in che modo gli utenti interagiscono con il tuo sito Web.Se non intendi utilizzare Activity Map, puoi rimuovere il seguente blocco di codice dal file appmeasurement. js.
-  Additional documentation on how to configure Activity Map is available at:
-      https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
+     &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
+     &nbsp;allows&nbsp;you&nbsp;to&nbsp;view&nbsp;data&nbsp;overlays&nbsp;on&nbsp;your&nbsp;links&nbsp;and&nbsp;content&nbsp;to&nbsp;understand&nbsp;how
+     &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
+     &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
+     &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
+     &nbsp;https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
      */
-     function AppMeasurement_Module_Activity Map(g){func
+     function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
-     /* END Activity Map MODULE */
+     /*&nbsp;END&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;*/
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Clickmap (precedentemente Visitor clickmap) </td> 
-   <td colname="col2"> <p>Set the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external"> trackInlineStats</a> variable to false (this is the default.) The syntax reads as follows: 
+   <td colname="col1"> ClickMap (già Visitor ClickMap) </td> 
+   <td colname="col2"> <p>Imposta la variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external"> trackInlineStats</a> su false (questa è l’impostazione predefinita). La sintassi è la seguente: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
