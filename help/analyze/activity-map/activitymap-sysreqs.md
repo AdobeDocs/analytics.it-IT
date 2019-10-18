@@ -1,30 +1,30 @@
 ---
-description: Activity Map è supportata nei seguenti browser Web.
-seo-description: Activity Map è supportata nei seguenti browser Web.
+description: '[!DNL Activity Map] è supportata nei seguenti browser Web.'
+seo-description: '[!DNL Activity Map] è supportata nei seguenti browser Web.'
 seo-title: Sistemi e requisiti supportati
 solution: Analytics
 title: Sistemi e requisiti supportati
 topic: Activity Map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 translation-type: tm+mt
-source-git-commit: fbb87317ffc7fa0f5011dfe518ef15394edb7db7
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Sistemi e requisiti supportati
 
-Activity Map è supportata nei seguenti browser Web.
+[!DNL Activity Map] è supportato dai seguenti browser Web.
 
 | Browser supportati | Versioni |
 |--- |--- |
 | Internet Explorer | Ultima versione |
 | Firefox | Ultima versione |
-| Chrome | Ultima versione. Nota:  Il plugin Chrome Activity Map è un plugin "modalità sviluppatore" solo in questa fase. Quando avviate questo plug-in, riceverete un messaggio che vi incoraggia a disattivare le estensioni della modalità sviluppatore. Questo messaggio verrà visualizzato ogni volta che il plug-in viene avviato. |
+| Chrome | Ultima versione. Nota:  Il plugin [!DNL Activity Map] Chrome è un plugin "modalità sviluppatore" solo in questa fase. Quando avviate questo plug-in, riceverete un messaggio che vi incoraggia a disattivare le estensioni della modalità sviluppatore. Questo messaggio verrà visualizzato ogni volta che il plug-in viene avviato. |
 
 >[!NOTE]
 >
->Dal punto di vista della raccolta di collegamenti, Activity Map supporta un elenco molto più ampio di browser.
+>Dal punto di vista della raccolta di collegamenti, [!DNL Activity Map] supporta un elenco molto più ampio di browser.
 
 Altri requisiti:
 
