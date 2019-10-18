@@ -1,65 +1,63 @@
 ---
-description: Illustra i passaggi necessari all'amministratore di Analytics per abilitare la raccolta di collegamenti Mappa dell'attività e il download degli utenti.
-seo-description: Illustra i passaggi necessari all'amministratore di Analytics per abilitare la raccolta di collegamenti Mappa dell'attività e il download degli utenti.
-seo-title: Abilitare la mappa dell'attività
+description: Spiega i passaggi necessari per l'amministratore di Analytics per abilitare la raccolta di collegamenti [!DNL Activity Map] e il download degli utenti.
+seo-description: Spiega i passaggi necessari per l'amministratore di Analytics per abilitare la raccolta di collegamenti [!DNL Activity Map] e il download degli utenti.
+seo-title: Abilita [!DNL Activity Map]
 solution: Analytics
-title: Abilitare la mappa dell'attività
-topic: Activity map
-uuid: 30433319-d 0 e 6-4977-951 a -4492 b 356 e 1 f 2
+title: Abilita [!DNL Activity Map]
+topic: Activity Map
+uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 8f72f8cf086be0eade5616b074123a9f22e33347
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Enable Activity Map{#enable-activity-map}
+# Abilita [!DNL Activity Map]{#enable-activity-map}
 
-Illustra i passaggi necessari all'amministratore di Analytics per abilitare la raccolta di collegamenti Mappa dell'attività e il download degli utenti.
+Spiega i passaggi necessari per l'amministratore di Analytics per abilitare la raccolta [!DNL Activity Map] dei collegamenti e il download degli utenti.
 
-## Passaggio 1: Update Your AppMeasurement (Javascript) Code to v1.6 (or higher) {#section_5D1586289DF2489289B1B6C1C80C300D}
+## Passaggio 1: Aggiorna il codice AppMeasurement (Javascript) a v1.6 (o versione successiva) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-Il modulo Activity Map (Mappa attività) fa parte del file appmeasurement. js (posizionato nella parte superiore del file). La libreria appmeasurement caricherà il modulo Activity Map quando create un'istanza.
+Il [!DNL Activity Map] modulo fa parte del file AppMeasurement.js (nella parte superiore del file). La libreria AppMeasurement caricherà il modulo al momento della creazione dell'istanza. [!DNL Activity Map]
 
-I dati delle mappe dell'attività non possono essere raccolti a meno che non effettuiate l'aggiornamento a questa versione (o versione successiva) di appmeasurement.
+[!DNL Activity Map] i dati possono essere raccolti solo se ti aggiorni a questa versione (o successiva) di AppMeasurement.
 
-1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
+1. Scarica il codice AppMeasurement più recente (AppMeasurement_Javascript-1.6.zip) andando a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** e [implementalo](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
 
-   We have included some [sample implementation code](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) to help you visualize the changes that have been made to the code by including the Activity Map module.
+   Abbiamo incluso alcuni [esempi di codice](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) di implementazione per aiutarti a visualizzare le modifiche apportate al codice includendo il [!DNL Activity Map] modulo.
 
 1. Convalida l’implementazione:
 
-   1. Quando si fa clic su un elemento cliccabile, i dati saranno memorizzati in un cookie denominato s_ sq.
-   1. I dati Activity Map sono visibili nella stringa query sulla chiamata di tracciamento. Ad esempio:
+   1. Quando si fa clic su un elemento selezionabile, i dati vengono memorizzati in un cookie denominato s_sq.
+   1. I [!DNL Activity Map] dati possono essere visualizzati nella stringa di query nella chiamata di tracciamento. Ad esempio:
 
       ```
-      …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
+      …&c.&a.&[!DNL Activity Map].&link=My%20Link&region=My%20Region&page=My%20Page&.[!DNL Activity Map]&.a&.c&...
       ```
 
-1. Break this report down by **[!UICONTROL Activity Map Link by Region]** to see the link/region for that page:  ![](assets/am_breakdown.png){width="400px"}
+1. Per visualizzare il collegamento o la regione della pagina, suddividi questo rapporto per **[!UICONTROL[!DNL Activity Map]Link by Region]** :  ![](assets/am_breakdown.png){width="400px"}
 
-## Passaggio 2: Enable Activity Map reports {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## Passaggio 2: Abilita [!DNL Activity Map] rapporti {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
-Innanzitutto, è necessario abilitare i rapporti Activity Map a livello di suite di rapporti.
+Innanzitutto, è necessario abilitare [!DNL Activity Map] i rapporti a livello di suite di rapporti.
 
-1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin &gt; Report Suites &gt;[select report suite]&gt; Edit Settings &gt; Activity Map]** &gt; **[!UICONTROL Activity Map Reporting]** .
-1. Activity Map raccoglie i dati del collegamento nei report Activity Map. For the activation to happen, you must first activate the variables by clicking **[!UICONTROL Enable Activity Map Reports]**.
+1. Accedi ad Adobe Analytics e passa a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin &gt; Suite di rapporti &gt;[seleziona suite]di rapporti &gt; Modifica impostazioni &gt;[!DNL Activity Map]]** &gt; **[!UICONTROL[!DNL Activity Map]Reporting]** .
+1. [!DNL Activity Map] raccoglie i dati del collegamento nei [!DNL Activity Map] rapporti. Per attivare l'attivazione, è prima necessario attivare le variabili facendo clic su **[!UICONTROL Abilita[!DNL Activity Map]rapporti]**.
 
-   Questo passaggio aggiunge tutte le dimensioni di Analytics necessarie per raccogliere i dati.
+   Questo passaggio aggiunge tutte le dimensioni di Analytics necessarie per la raccolta dei dati.
 
-1. After about an hour, check the [Activity Map Page report](/help/analyze/activity-map/activitymap-reporting-analytics.md), which shows all the pages where users clicked on a link.
+1. Dopo circa un'ora, controllate il rapporto [sulla pagina](/help/analyze/activity-map/activitymap-reporting-analytics.md)[!DNL Activity Map], che mostra tutte le pagine in cui gli utenti hanno fatto clic su un collegamento.
 
-## Passaggio 3: Add users to Activity Map access group {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## Passaggio 3: Aggiunta di utenti al gruppo di [!DNL Activity Map] accesso {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
 1. Fai clic su **[!UICONTROL Add Users to Group]**.
 
-   Verrà visualizzata la pagina di gestione dei gruppi in Admin Console.
+   Viene visualizzata la pagina Gestione dei gruppi in Admin Console.
 
 1. [Aggiungete utenti a questo gruppo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) e **[!UICONTROL Save Group]**.
 
-1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
+1. Questo consente agli utenti Admin di scaricare [!DNL Activity Map] da **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
 <note>
-  If you want Non-Admin users to download Activity Map, you need to create a new user group that provides permission to 
- <span class="uicontrol"> Tools </span> &gt; 
- <span class="uicontrol"> Legacy ClickMap Installation </span>. Puoi quindi aggiungere utenti non amministratori a questo gruppo. Questo livello di autorizzazione combinato con Accesso mappa dell'attività fornirà le autorizzazioni complete per scaricare e utilizzare lo strumento. 
+  Se desiderate che gli utenti non amministratori scarichino [!DNL Activity Map], dovete creare un nuovo gruppo di utenti che fornisca l'autorizzazione a <span class="uicontrol"> Strumenti </span> &gt; Installazione legacy di <span class="uicontrol"> ClickMap </span>. Potete quindi aggiungere utenti non amministratori a questo gruppo. Questo livello di autorizzazione, unito alla mappa attività [!DNL] Access, fornirà autorizzazioni complete per scaricare e utilizzare lo strumento. 
 </note>
