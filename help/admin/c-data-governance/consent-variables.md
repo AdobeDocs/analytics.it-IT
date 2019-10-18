@@ -6,7 +6,7 @@ solution: Analytics
 title: Variabili di rapporti sulla privacy
 topic: Strumenti di amministrazione
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ Consulta Variabili [di dati](https://docs.adobe.com/help/en/analytics/implementa
 
 ### SSF
 
-* Dati contestuali: contextData.['cm.ssf']
+* Dati contestuali: `contextData.['cm.ssf']`
 * Valori accettati:
    * 1 - Quando si invia il valore "1", ciò indica che l'inoltro lato server è in stato di rifiuto. Il valore "1" associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta Conformità [AAM ePrivacy.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * Nessun altro valore è accettato per questo parametro.
 
 ### DMP
 
-* Dati contestuali: contextData.['opt.dmp']
+* Dati contestuali: `contextData.['opt.dmp']`
 * Valori accettati:
    * N - Quando si invia il valore "N", ciò indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati. **** Nota: L'impostazione di questa variabile su "N" al momento non blocca la condivisione su AAM, tuttavia, il blocco delle chiamate alla funzionalità AAM verrà aggiunto all'inizio del 2020. Per il momento Adobe consiglia di impostare `c.cm.ssf=1` e `c.opt.dmp=N` bloccare l’invio degli hit ad AAM.
    * Y - Quando si invia il valore "Y", ciò indica che il consumatore sta optando per la condivisione su piattaforme di gestione dati.
 
 ### VENDITA
 
-* Dati contestuali: contextData.['opt.sell']
+* Dati contestuali: `contextData.['opt.sell']`
 * Valori accettati:
    * N - Quando si invia il valore "N", ciò indica che il consumatore rinuncia alla condivisione o alla vendita dei dati a terzi.
    * Y - Quando si invia il valore "Y", ciò indica che il consumatore sta optando per la condivisione o la vendita dei dati a terzi.
