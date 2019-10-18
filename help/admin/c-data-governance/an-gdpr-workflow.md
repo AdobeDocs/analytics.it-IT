@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro sulla privacy dei dati di Adobe Analytics
 title: Flusso di lavoro sulla privacy dei dati di Adobe Analytics
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -24,11 +24,11 @@ Benvenuti in Adobe Analytics e la privacy dei dati disponibili! Questo flusso di
  <tbody> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step1_icon.png" id="image_15849358972A4846A54FCB51997576D5" /> Assicurati che qualsiasi suite di rapporti che possa contenere dati rilevanti per la privacy dei dati sia mappata sulla tua organizzazione Experience Cloud (o IMS). </p> <p>Le richieste di privacy dei dati vengono inviate tramite un’organizzazione Experience Cloud e verranno applicate a tutte le suite di rapporti richieste da tale organizzazione. Le richieste non verranno applicate alle suite di rapporti che non sono state mappate nell'organizzazione, anche se fanno parte della società di accesso. </p> </td> 
-   <td colname="col3"> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">Mappatura di suite di rapporti per un’organizzazione</a>. </p> </td> 
+   <td colname="col3"> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">Mappatura di suite di rapporti per un’organizzazione.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step2_icon.png" id="image_372B2C65DFAD46E39AE4D715313ABD0E"/> Imposta i criteri di conservazione dei dati. </p> </td> 
-   <td colname="col3"> <p>Affinché Adobe possa soddisfare le richieste di accesso/eliminazione dei dati sulla privacy dei dati, è necessario che sia in vigore un criterio di conservazione dei dati. </p> <p>Per altre informazioni consulta le <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html" format="html" scope="external">Domande frequenti sulla conservazione dei dati in Analytics</a>. </p> </td> 
+   <td colname="col3"> <p>Affinché Adobe possa soddisfare le richieste di accesso/eliminazione dei dati sulla privacy dei dati, è necessario che sia in vigore un criterio di conservazione dei dati. </p> <p>Per altre informazioni consulta le <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html" format="html" scope="external">Domande frequenti sulla conservazione dei dati in Analytics.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step3_icon.png" id="image_30DB956290CC4E64A7085B46364BE059" /> Acquisisci familiarità con etichette DULE/Data Privacy, ID Adobe Analytics, spazi dei nomi ed espansione ID. </p> </td> 
@@ -45,7 +45,7 @@ Benvenuti in Adobe Analytics e la privacy dei dati disponibili! Questo flusso di
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step5_icon.png" id="image_E9BEF83BF30F4528A030F23F71E5E5D8" /> Connettiti all’API Adobe Data Privacy e invia richieste di accesso ed eliminazione. </p> </td> 
-   <td colname="col3"> <p>As an Adobe Analytics customer, you can submit individual Data Privacy requests to access and delete customer data, by calling the <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html" format="html" scope="external"> Adobe Experience Cloud Data Privacy API</a>. </p> <p>You can submit any Analytics identifiers (as described in the section <!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E" format="dita" scope="local"> Labeling Best Practices</a>-->) in the requests along with their respective namespace IDs (data source IDs). </p> </td> 
+   <td colname="col3"> <p>As an Adobe Analytics customer, you can submit individual Data Privacy requests to access and delete customer data, by calling the <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html" format="html" scope="external"> Adobe Experience Cloud Data Privacy API.</a> </p> <p>You can submit any Analytics identifiers (as described in the section <!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E" format="dita" scope="local"> Labeling Best Practices</a>-->) in the requests along with their respective namespace IDs (data source IDs). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" /> Visualizza e gestisci le impostazioni Privacy dei dati della suite di rapporti. </p> </td> 
