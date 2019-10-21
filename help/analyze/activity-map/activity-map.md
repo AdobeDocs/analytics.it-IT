@@ -12,7 +12,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 ---
 
 
-# [!DNL Activity Map] overview
+# [!DNL Activity Map]panoramica
 
 [!DNL Activity Map] è un'applicazione Adobe Analytics progettata per classificare l'attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine Web.
 
