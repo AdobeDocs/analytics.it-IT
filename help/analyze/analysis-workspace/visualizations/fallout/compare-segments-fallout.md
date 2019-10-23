@@ -1,31 +1,29 @@
 ---
 description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace.
-keywords: abbandono e segmentazione; segmenti nell'analisi di abbandono; confrontare segmenti nell'abbandono
+keywords: abbandono e segmentazione;segmenti nell’analisi dell’abbandono;confrontare segmenti nell’abbandono
 seo-description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace.
-seo-title: Applicazione di segmenti nell'analisi di abbandono
-title: Applicazione di segmenti nell'analisi di abbandono
-uuid: e 87 a 33 df -160 e -4943-8 d 02-4 d 6609 ae 3 bb 1
+seo-title: Applicare i segmenti nell’analisi dell’abbandono
+title: Applicare i segmenti nell’analisi dell’abbandono
+uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: 769d076549484c6939157ef217225493ddbe130e
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Applicazione di segmenti nell'analisi di abbandono
+# Applicare i segmenti nell’analisi dell’abbandono
 
 Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace.
 
->[!IMPORTANT]
->I segmenti utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore a un livello inferiore rispetto al contesto complessivo della visualizzazione Abbandono. Con un contesto visitor-context, i segmenti utilizzati come checkpoints devono essere visitati o segmenti basati su hit. Con un fallout contestuale, i segmenti utilizzati come punto di controllo devono essere segmenti basati su hit. Se utilizzate una combinazione non valida, l'abbandono sarà 100%. È stato aggiunto un avviso alla visualizzazione Abbandono che verrà visualizzata quando aggiungete un segmento incompatibile come punto di contatto. Alcune combinazioni di contenitori segmento non validi genereranno diagrammi di abbandono non validi, ad esempio
+> [!IMPORTANT] I segmenti utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con un abbandono del contesto del visitatore, i segmenti utilizzati come punti di controllo devono essere segmenti basati su visite o hit. Con un abbandono del contesto delle visite, i segmenti utilizzati come punto di controllo devono essere segmenti basati sugli hit. Se utilizzate una combinazione non valida, l'abbandono sarà 100%. Abbiamo aggiunto un avviso alla visualizzazione Abbandono che verrà visualizzata quando aggiungi un segmento incompatibile come punto di contatto. Alcune combinazioni di contenitori di segmenti non valide genereranno diagrammi di abbandono non validi, ad esempio:
 
->* Utilizzo di un segmento basato su visitatore come punto di contatto all'interno di una visualizzazione Visitor-Context Fallout
->* Utilizzo di un segmento basato su visitatore come punto di contatto all'interno di una visualizzazione Abbandono contesto
->* Utilizzo di un segmento basato su visite come punto di contatto all'interno di una visualizzazione Abbandono contesto
-
+* Utilizzo di un segmento basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono in un contesto Visitatore
+* Utilizzo di un segmento basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono in un contesto Visita
+* Utilizzo di un segmento basato su visite come punto di contatto all’interno di una visualizzazione Abbandono in un contesto Visita
 
 ## Create a segment from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Innanzitutto, crea un segmento da un punto di contatto che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. You do this by right-clicking the touchpoint and selecting **[!UICONTROL Create segment from touchpoint]**.
+1. Crea un segmento da un punto di contatto specifico che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. Fai clic con il pulsante destro del mouse sul punto di contatto e seleziona **[!UICONTROL Create segment from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -59,4 +57,3 @@ Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandon
    ![](assets/seg-compare.png)
 
 1. Ora puoi confrontare i dati di abbandono tra i due segmenti, ad esempio dove un segmento ha prestazioni migliori dell’altro.
-
