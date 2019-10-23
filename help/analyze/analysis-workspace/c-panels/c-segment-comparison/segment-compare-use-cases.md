@@ -1,109 +1,63 @@
 ---
-description: L’IQ segmento (Confronto segmento) è una delle funzionalità più utilizzate in Analysis Workspace e i clienti trovano costantemente modi nuovi e innovativi di metterla in pratica efficacemente. Ti presentiamo solo alcuni di questi casi d’uso estremamente utili.
+title: Casi di utilizzo del confronto dei segmenti
+description: Scopri i casi d’uso reali su come il pannello di confronto dei segmenti può essere utilizzato per acquisire informazioni approfondite sulla strategia di marketing.
 keywords: IQ segmento
-seo-description: L’IQ segmento (Confronto segmento) è una delle funzionalità più utilizzate in Analysis Workspace e i clienti trovano costantemente modi nuovi e innovativi di metterla in pratica efficacemente. Ti presentiamo solo alcuni di questi casi d’uso estremamente utili.
-seo-title: Casi d'uso IQ segmento
-title: Casi d'uso IQ segmento
-uuid: 2 a 98 b 96 b -5529-4 c 7 f-a 787-27920603 d 5 b 0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Casi d'uso IQ segmento
+# Casi d’utilizzo del segmento IQ
 
-L’IQ segmento (Confronto segmento) è una delle funzionalità più utilizzate in Analysis Workspace e i clienti trovano costantemente modi nuovi e innovativi di metterla in pratica efficacemente. Ti presentiamo solo alcuni di questi casi d’uso estremamente utili.
+Il pannello di confronto dei segmenti è una funzione ampiamente utilizzata in Analysis Workspace. Spesso i clienti scoprono nuovi modi per ottenere informazioni approfondite. Di seguito sono riportati diversi casi di utilizzo riusciti.
 
-## Use case 1: compare mobile vs desktop implementations {#section_B3A5983E58D0470895C030EA527C4966}
+## Caso di utilizzo 1: confronto tra implementazioni mobile e desktop
 
-**“Abbiamo confrontato le hit da un sito all’altro e abbiamo rapidamente riscontrato diverse incongruenze a livello di assegnazione tag. In questo modo abbiamo evitato problemi ai dati prima del rilascio del prodotto”.**
+> *“Abbiamo confrontato le hit da un sito all’altro e abbiamo rapidamente riscontrato diverse incongruenze a livello di assegnazione tag. In questo modo abbiamo evitato problemi ai dati prima del rilascio del prodotto”.*
 
-**Scenario**: un responsabile prodotto, a cui è affidata la gestione di un sito Web per dispositivi mobili e desktop, ha ricevuto l’incarico di accertarsi che i tag fossero coerenti per entrambi i siti. Per accertarsi di non aver tralasciato nulla di importante ha utilizzato IQ segmento per confrontare le hit derivanti dal sito per dispositivi mobili con le hit derivanti dal sito desktop. Ha notato di essersi dimenticato di assegnare un tag all’evento di uscita sul sito mobile ed è stato in grado di posizionare correttamente i tag corretti, prima della pubblicazione del sito. In questo modo, il responsabile prodotto ha evitato un data disaster causato dalla mancata registrazione delle conversioni da parte del sito Web mobile.
-
-**Come impostare questo confronto:**
-
-<table id="table_B5FA23CB34DE4331A8BD65ED4B351038"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Segmento 1 </th> 
-   <th colname="col3" class="entry"> Segmento 2 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Utilizza/Crea un segmento di livello hit </p> <p> </p> <p> 
-     <ul id="ul_1F5D5136620E449D93A771CD2576A18A"> 
-      <li id="li_CB32DD1033DA4E5CA3B9AD41030800E6">Tipo dispositivo mobile equivale a Telefono cellulare o Tablet </li> 
-     </ul> </p> </td> 
-   <td colname="col3"> <p>Utilizza/Crea un segmento di livello hit </p> <p> </p> <p> 
-     <ul id="ul_79CC51C4C9494275B3F37B6D2AB0505E"> 
-      <li id="li_83BE21AD1FB34195BAFF3F15421DBB3D">Tipo dispositivo mobile non equivale a Telefono cellulare o Tablet </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Use case 2: compare customers who use a certain feature to those who don't {#section_878B08FDD70A45E186C1F28EBA296636}
-
-**“Abbiamo scoperto che i clienti che utilizzavano la funzionalità di confronto del nostro prodotto avevano il 10% di possibilità di decidere per l’acquisto. L’abbiamo spostata nella parte superiore della pagina, e gli ordini sono cresciuti del 4%!”**
-
-**Scenario:** il team dedicato all’ottimizzazione di sito di commercio al dettaglio desiderava capire meglio gli utenti che interagivano con una funzionalità di confronto dei prodotti che avevano recentemente pubblicato. Creando un segmento di visitatori che aveva interagito con la funzionalità, sono stati in grado di utilizzare IQ segmento per confrontare questi utenti a tutti gli altri frequentatori del sito. IQ segmento ha identificato rapidamente diverse e importanti differenze, tra le quali il fatto che tali utenti avevano il 10% di possibilità in più di effettuare l’acquisto di un prodotto. Il team di ottimizzazione sito ha deciso di testare la funzionalità di confronto del prodotto collocandola in maniera più evidente nella parte superiore della pagina.
-
-**Come impostare questo confronto:**
+A un responsabile prodotto che gestisce un sito Web per dispositivi mobili e desktop è stato affidato il compito di assicurarsi che i tag fossero coerenti tra dispositivi mobili e desktop. Per assicurarsi di non aver perso nulla di importante, ha utilizzato il pannello di confronto dei segmenti per confrontare gli hit provenienti dal sito mobile con quelli provenienti dal sito desktop. Ha notato che non c'erano eventi di check-out sul sito mobile e ha ottenuto i tag corretti in luogo prima che il sito mobile fosse rilasciato. In questo modo, il responsabile prodotto ha evitato un data disaster causato dalla mancata registrazione delle conversioni da parte del sito Web mobile.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
-| Utilizza/Crea un segmento a livello di visitatore per i visitatori che hanno interagito con lo strumento di confronto del prezzo. | Utilizza il segmento Tutti gli altri che viene generato automaticamente e ignora tutti quelli non inclusi nel Segmento 1. |
+| Contenitore di hit in cui Mobile Device Type è uguale a Mobile Phone o Tablet | Tutti gli altri |
 
-## Use case 3: compare news site visitors to other site section visitors {#section_0EAFC90C450244058B161200AC9901B8}
+## Caso di utilizzo 2: confrontare i clienti che utilizzano una determinata funzione con quelli che non la utilizzano
 
-**“Abbiamo scoperto che i visitatori della nostra sezione news avevano una probabilità di due volte superiore di guardare video pubblicitari, per questo abbiamo aggiunto più opzioni video a quella sezione. I video pubblicitari visualizzati sono aumentati del 7%!”**
+> *“Abbiamo scoperto che i clienti che utilizzavano la funzionalità di confronto del nostro prodotto avevano il 10% di possibilità di decidere per l’acquisto. L’abbiamo spostata nella parte superiore della pagina, e gli ordini sono cresciuti del 4%!”*
 
-**Scenario:** un’importante casa editrice stava cercando un modo per migliorare l’interesse verso i contenuti da parte del pubblico nella propria sezione news. Per capire meglio il pubblico della sezione news, hanno creato un segmento di visitatori che hanno visitato quella sezione. IQ segmento ha analizzato tutte le metriche e le dimensioni e ha individuato immediatamente che tali utenti avevano una probabilità di due volte superiore di guardare video pubblicitari rispetto ai visitatori di qualsiasi altra sezione del sito. Il team video ha realizzato una sezione video consigliati sulla barra di scorrimento laterale delle news e sono stati in grado di ottenere un aumento del 7% dei video pubblicitari guardati. Considerando tutti gli aspetti a cui avrebbero potuto dedicare tempo e sforzi, si trattava di un’opportunità davvero facile da cogliere e in grado di produrre risultati veloci e misurabili.
-
-**Come impostare questo tipo di confronto:**
+Un team di ottimizzazione per i siti di vendita al dettaglio voleva capire meglio gli utenti che interagivano con una funzione di confronto dei prodotti che avevano recentemente pubblicato. Hanno utilizzato il pannello di confronto dei segmenti per confrontare gli utenti che hanno utilizzato la funzione di confronto dei prodotti con tutti gli altri partecipanti al sito. Hanno rapidamente identificato diverse importanti differenze, tra cui il fatto che questi utenti avevano il 10% di probabilità in più di acquistare un prodotto. Il team di ottimizzazione sito ha deciso di testare la funzionalità di confronto del prodotto collocandola in maniera più evidente nella parte superiore della pagina.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
-| Utilizza/crea un segmento a livello di visitatore per i visitatori della sezione news del sito. | Utilizza il segmento Tutti gli altri che viene generato automaticamente e ignora tutti quelli non inclusi nel Segmento 1. |
+| Contenitore di visitatori in cui esiste un evento personalizzato (strumento di confronto dei prezzi) | Tutti gli altri |
 
-## Use case 4: compare visitors from paid search to everyone else {#section_73912670409349CAB131FE9D8B4FB11C}
+## Caso di utilizzo 3: confronta i visitatori del sito di notizie con altri visitatori della sezione del sito
 
-**“I visitatori che accedevano al nostro sito tramite motori di ricerca erano tre volte più propensi all’up-sell rispetto a qualsiasi altro utente. Abbiamo aumentato l’investimento nelle parole chiave specifiche e come risultato abbiamo raggiunto un aumento del 56% negli up-sell”.**
+> *“Abbiamo scoperto che i visitatori della nostra sezione news avevano una probabilità di due volte superiore di guardare video pubblicitari, per questo abbiamo aggiunto più opzioni video a quella sezione. I video pubblicitari visualizzati sono aumentati del 7%!”*
 
-**Scenario:** una grande azienda di servizi B2B desiderava capire il tipo di traffico che le parole chiave paid search portavano al loro sito. La paid search non aveva prodotto direttamente molte conversioni e i responsabili del marketing stavano pensando di diminuire il budget a questa dedicato. Il team marketing ha creato un segmento di visitatori che accedevano al sito tramite paid search e lo ha confrontato a tutti gli altri visitatori che utilizzavano IQ segmento. Hanno scoperto che, anche se questi visitatori non avevano la stessa probabilità di una conversione diretta, erano comunque 3 volte più propensi all’up-sell per un servizio precedentemente acquistato. Il team marketing è stato quindi in grado di concentrare il proprio budget sulle parole chiave correlate all’up-sell, registrando un aumento del 56% degli up-sell.
-
-**Come impostare questo confronto:**
+Una delle principali case editrici di media ha cercato di migliorare il livello di coinvolgimento dei contenuti per i destinatari nella sezione news. Hanno creato un segmento di visitatori che hanno visitato la sezione news del sito per capire meglio il pubblico delle notizie. Hanno immediatamente scoperto che questi utenti avevano una probabilità di due volte superiore di guardare video pubblicitari rispetto ai visitatori di qualsiasi altra sezione del sito. Il team video ha creato una sezione video consigliata sulla barra laterale delle news e ha ottenuto un aumento del 7% degli annunci video visualizzati.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
-| Utilizza/crea un segmento a livello di visitatore per i visitatori derivanti dalle ricerche naturali o per quelli derivati da una campagna SEM. | Utilizza il segmento Tutti gli altri che viene generato automaticamente e ignora tutti quelli non inclusi nel Segmento 1. |
+| Contenitore di visitatori per cui Sezione sito è uguale a 'News' | Tutti gli altri |
 
-## Use case 5: compare Fitbit purchasers to everyone else {#section_9142B8A270764545B0A516AA309F1785}
+## Caso di utilizzo 4: confrontare i visitatori dalla ricerca a pagamento con tutti gli altri
 
-**“Abbiamo scoperto che le persone che acquistano Fitbit avevano una probabilità 6 volte maggiore di ricevere il messaggio “non disponibile” rispetto agli altri, per questo abbiamo deciso di aumentare gli ordini di Fitbit evitando di esaurire i pezzi disponibili!”**
+> *“I visitatori che accedevano al nostro sito tramite motori di ricerca erano tre volte più propensi all’up-sell rispetto a qualsiasi altro utente. We upped our spend on specific keywords as a result and achieved a 56% increase in up-sells."*
 
-**Scenario:** Un grande rivenditore online era interessato alle vendite di Fitbit, uno dei prodotti più ricercati delle feste, e agli aspetti che rendevano unici i suoi acquirenti rispetto agli altri. Con un semplice clic con il pulsante destro del mouse sull’elemento di riga “Fitbit” nei rapporti sui prodotti, il team marketing ha potuto eseguire rapidamente un’analisi IQ segmento. Ciò che hanno scoperto è che gli acquirenti Fitbit avevano una probabilità di 6 volte superiore di ricevere il messaggio “esaurito” rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing è stato in grado di dirigere i visitatori ai negozi fisici mentre attendevano che il reparto acquisti ordinasse ulteriori Fitbit da spedire. Come risultato, il rivenditore ha evitato ulteriori messaggi di “esaurimento” ed è stato in grado di soddisfare la maggiore domanda del periodo festivo.
+Una grande azienda di servizi B2B desiderava capire il tipo di traffico che le parole chiave paid search portavano al loro sito. La ricerca a pagamento non aveva portato direttamente a molte conversioni, e l'amministratore marketing ha considerato un budget decrescente per esso. Il team marketing ha creato un segmento di visitatori che sono venuti sul sito tramite paid search e li ha confrontati con tutti gli altri visitatori utilizzando il pannello di confronto dei segmenti. Hanno scoperto che anche se questi visitatori non avevano la stessa probabilità di una conversione diretta, avevano 3 volte più probabilità di fare un up-sell su un servizio precedentemente acquistato. Il team marketing ha focalizzato il proprio budget sulle parole chiave correlate all'up-sell e ha visto un aumento del 56% nelle vendite di servizi.
 
-**Come impostare questo confronto:**
+| Segmento 1 | Segmento 2 |
+|--- |--- |
+| Contenitore di visitatori in cui Tipo referente è uguale a Ricerca a pagamento | Tutti gli altri |
 
-<table id="table_9018BEB4C2DE429FA773B250CB5C3E58"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Segmento 1 </th> 
-   <th colname="col3" class="entry"> Segmento 2 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Utilizza/Crea un segmento di livello visitatore, </p> <p> 
-     <ul id="ul_52E8ED6F4F7241D5ABE4EE7EA1E556D8"> 
-      <li id="li_33750601AB2A43728834B29AF86D5CCF">Ordini ha un valore superiore o uguale a 1, AND </li> 
-      <li id="li_4E09D1286DAE4BABA49E4834E73BDC28">Marchio uguale a Fitbit </li> 
-     </ul> </p> </td> 
-   <td colname="col3"> <p>Utilizza il segmento <span class="wintitle">Tutti gli altri</span> che viene generato automaticamente e ignora tutti quelli non inclusi nel Segmento 1. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Caso di utilizzo 5: confrontare gli acquirenti Fitbit con tutti gli altri
 
+> *“Abbiamo scoperto che le persone che acquistano Fitbit avevano una probabilità 6 volte maggiore di ricevere il messaggio “non disponibile” rispetto agli altri, per questo abbiamo deciso di aumentare gli ordini di Fitbit evitando di esaurire i pezzi disponibili!”*
+
+Un importante rivenditore online era interessato a come Fitbit, uno dei prodotti più ricercati per le vacanze, vendeva e cosa rendeva unici gli acquirenti Fitbit tra gli altri. Utilizzando il confronto dei segmenti, gli utenti che acquistano Fitbit hanno una probabilità 6 volte superiore di ricevere un messaggio "esaurito" rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing ha indirizzato questi visitatori ai loro negozi di mattoni mentre attendevano che il loro reparto acquisti ordinasse più Fitbit da spedire. Di conseguenza, il rivenditore ha evitato più messaggi "fuori borsa" e ha soddisfatto più della loro domanda di vacanza.
+
+| Segmento 1 | Segmento 2 |
+|--- |--- |
+| Contenitore di visitatori in cui esistono ordini e la dimensione personalizzata Brand uguale a FitBit | Tutti gli altri |
