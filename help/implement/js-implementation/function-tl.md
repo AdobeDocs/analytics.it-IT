@@ -9,14 +9,14 @@ title: 'Funzione s.tl(): tracciamento dei collegamenti'
 topic: Sviluppatore e implementazione
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # Funzione s.tl(): tracciamento dei collegamenti
 
-Se l'organizzazione preferisce avere maggiore controllo sui collegamenti da monitorare e sul loro comportamento, si consiglia di effettuare il tracciamento manuale dei collegamenti. Utilizza la funzione s.tl() per inviare manualmente le richieste di tracciamento dei collegamenti con il contenuto esatto desiderato. Se il tracciamento dei collegamenti di base è tutto ciò che è necessario, consulta `s.trackDownloadLinks` e `s.trackExitLinks` in Variabili [di](c-variables/configuration-variables.md)configurazione. I collegamenti personalizzati non possono essere tracciati automaticamente.
+Se l'organizzazione preferisce avere maggiore controllo sui collegamenti da monitorare e sul loro comportamento, si consiglia di effettuare il tracciamento manuale dei collegamenti. Utilizza la funzione s.tl() per inviare manualmente le richieste di tracciamento dei collegamenti con il contenuto esatto desiderato. Se il tracciamento dei collegamenti di base è tutto ciò che è necessario, consulta `s.trackDownloadLinks` e `s.trackExternalLinks` in Variabili [di](c-variables/configuration-variables.md)configurazione. I collegamenti personalizzati non possono essere tracciati automaticamente.
 
 > [!NOTE] Il codice di tracciamento dei collegamenti è spesso molto specifico per il tuo sito e per le esigenze di reporting. Adobe consiglia un’esperienza di implementazione o un consulente per l’implementazione per comprendere come utilizzare questa funzione in base alle esigenze aziendali.
 
