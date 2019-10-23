@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida all'analisi di Analytics
 user-guide-url: /content/help/it-IT/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
+source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
 
 ---
 
@@ -77,11 +77,14 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
-      + [Attribution](analysis-workspace/attribution-iq/attribution.md)
+      + Attribuzione {attribuzione}
+         + [Panoramica sull’attribuzione](analysis-workspace/c-panels/attribution/attribution.md)
+         + [Utilizzo del pannello Attribuzione](analysis-workspace/c-panels/attribution/use-attribution.md)
+         + [Domande frequenti sull'attribuzione](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + Confrontare segmenti (IQ) {#segment-comparison}
+      + Segment comparison {#segment-comparison}
          + [Panoramica del segmento IQ](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [Confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
+         + [Pagina temporanea](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [Casi d’utilizzo del segmento IQ](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Cura o condividi progetti {#curate-share}
@@ -92,10 +95,10 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
       + [Invio di file: programmazione di un progetto per la consegna](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestione progetti programmati](analysis-workspace/curate-share/schedule-projects.md)
    + Attribution IQ {#attribution-iq}
-      + [Panoramica di Attribution IQ](analysis-workspace/attribution-iq/attribution.md)
-      + [Utilizzare Attribution IQ in Analysis Workspace](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [Utilizzare l’attribuzione nelle metriche calcolate](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [Domande frequenti su Attribution IQ](analysis-workspace/attribution-iq/attribution-faq.md)
+      + [Pagina temporanea](analysis-workspace/attribution-iq/attribution.md)
+      + [Pagina temporanea](analysis-workspace/attribution-iq/use-attribution-iq.md)
+      + [Pagina temporanea](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
+      + [Pagina temporanea](analysis-workspace/attribution-iq/attribution-faq.md)
    + Analista virtuale {#virtual-analyst}
       + [Analista virtuale](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + Detección de anomalías {#anomaly-detection}
