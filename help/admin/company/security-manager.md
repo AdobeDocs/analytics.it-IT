@@ -7,7 +7,7 @@ title: Sicurezza Manager
 topic: Strumenti di amministrazione
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ Consente di controllare l'accesso ai dati di reporting. Le opzioni disponibili i
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Applica limitazioni di accesso IP</span> </td> 
-   <td colname="col2"> <p>Questa funzionalità non sarà più disponibile a gennaio 2020. Limita l'accesso al report a indirizzi IP o intervalli di indirizzi IP specifici. </p> <p>È possibile aggiungere fino a 100 voci nell'elenco Filtro indirizzi IP e ogni voce può essere un indirizzo specifico o un intervallo di indirizzi. </p> <p> <span class="wintitle"> Applica restrizioni</span> di accesso IP non viene applicata finché non è presente almeno una voce nell'elenco Filtro indirizzi IP. </p> <p> <span class="uicontrol"> Indirizzo</span>IP accettato: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio, <code>
+   <td colname="col2"> <p>(Questa funzionalità non può essere utilizzata insieme all'accesso a Experience Cloud. Questa funzionalità non sarà più disponibile a partire da gennaio 2020.) Limita l'accesso al report a indirizzi IP o intervalli di indirizzi IP specifici. </p> <p>È possibile aggiungere fino a 100 voci nell'elenco Filtro indirizzi IP e ogni voce può essere un indirizzo specifico o un intervallo di indirizzi. </p> <p> <span class="wintitle"> Applica restrizioni</span> di accesso IP non viene applicata finché non è presente almeno una voce nell'elenco Filtro indirizzi IP. </p> <p> <span class="uicontrol"> Indirizzo</span>IP accettato: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio, <code>
        192.168.10.[20-240]
      </code>). È inoltre possibile utilizzare i caratteri jolly (*) per specificare un numero qualsiasi compreso tra 0 e 255 (ad esempio, <code>
        192.168.[10-14].*
