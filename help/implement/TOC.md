@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida all’implementazione di Analytics
 user-guide-url: /content/help/it-IT/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
+source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
 
 ---
 
@@ -13,7 +13,6 @@ source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
 
 + [Aiuto sull'implementazione di Analytics](home.md)
 + Note sulla versione AppMeasurement {#appmeasurement-release-notes}
-   + [Note sulla versione AppMeasurement](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [AppMeasurement per JavaScript](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [Codice H JavaScript: legacy](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
