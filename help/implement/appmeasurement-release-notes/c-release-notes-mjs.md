@@ -8,7 +8,7 @@ title: AppMeasurement per JavaScript
 topic: Sviluppatore e implementazione
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -27,7 +27,7 @@ La versione più recente di ciascuna libreria può essere scaricata in **[!UICON
 
 ## Versioni 2.17.0
 
-Data di rilascio: **23 agosto 201**
+Data di rilascio: **23 agosto 2019**
 
 | Funzione/Correzione | Descrizione |
 | -----------| ---------- |
@@ -353,7 +353,7 @@ Release Date: **May 21, 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Estensione iOS </span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Consultate Implementazione dell'estensione <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external"> iOS </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external"> iOS Extension Implementation </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Estensione Android </span> Wearable </p> </td> 
@@ -387,7 +387,7 @@ Data di rilascio:**16 aprile 2015**
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Supporto per il tracciamento dei beacon in <span class="keyword"> PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>Le <code> chiamate trackBeacon </code> e <code> clearCurrentBeacon </code> ora sono disponibili in <span class="keyword"> PhoneGap </span>. </p> </td> 
+   <td colname="2"> <p>Le <code> trackBeacon </code> e <code> clearCurrentBeacon </code> le chiamate sono ora disponibili in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
