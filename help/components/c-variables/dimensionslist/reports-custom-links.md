@@ -7,7 +7,7 @@ title: Collegamento personalizzato
 topic: Rapporti
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Visualizza i collegamenti preferiti dai visitatori del sito. Ad esempio, la home page del sito probabilmente contiene più collegamenti che visualizzano la stessa pagina. È possibile che sia presente un collegamento grafico che un collegamento testuale colleghino entrambi alla stessa pagina. Questo rapporto mostra la percentuale di visitatori che hanno utilizzato il collegamento grafico rispetto al collegamento di testo.
 
-I collegamenti specifici che si desidera tracciare devono essere modificati con tag speciali, vedi Tracciamento [](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)collegamenti.
+I collegamenti specifici che si desidera tracciare devono essere modificati con tag speciali, vedi Tracciamento [](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)collegamenti.
 
 È possibile utilizzare [!UICONTROL Custom Links Report] per:
 
