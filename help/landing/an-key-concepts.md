@@ -4,7 +4,7 @@ seo-description: Questa sezione riporta i concetti chiave di Adobe Analytics, un
 seo-title: 'Adobe Analytics: concetti chiave'
 title: 'Adobe Analytics: concetti chiave'
 translation-type: tm+mt
-source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
+source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
 
 ---
 
@@ -20,7 +20,7 @@ Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizio
 | Analysis Workspace | Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità di reporting e analisi | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
 | Reporting e analisi (ex SiteCatalyst) | Soluzione browser per reporting e analisi. Strumento di avvio nel pacchetto Analytics. | [Pagina principale Reporting e analisi](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Componente aggiuntivo di Excel che consente di creare richieste personalizzate a partire da dati di Adobe Analytics e visualizzarle tramite Microsoft Excel. | [Home del Generatore di report](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Analisi ad hoc (precedentemente Discover) | Strumento basato su Java per l'analisi digitale avanzata. Per la fine del ciclo di vita nel 3° trimestre 2019. | [Pagina principale Analisi ad hoc](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Analisi ad hoc (precedentemente Discover) | Strumento basato su Java per l'analisi digitale avanzata. | [Pagina principale Analisi ad hoc](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
 | Workbench dati (ex Insight) | Progettato per raccogliere, elaborare, analizzare e visualizzare dati dalle interazioni dei clienti online e offline su più canali. | [Client Workbench dati](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
 | Data Warehouse | Dati grezzi e non ancora elaborati per l’archiviazione e rapporti personalizzati, che puoi eseguire filtrando i dati. Livello non hit. | [Home page di Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | Riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le tue applicazioni. | [Pagina principale di Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
