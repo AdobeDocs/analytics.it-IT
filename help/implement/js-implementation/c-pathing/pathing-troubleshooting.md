@@ -1,24 +1,24 @@
 ---
-description: L'elenco delle informazioni sui percorsi potrebbe non essere registrato e visualizzato nei report.
+description: Elenco di motivi per cui le informazioni di percorso potrebbero non essere registrate e visualizzate nel reporting.
 keywords: Implementazione di Analytics
-seo-description: L'elenco delle informazioni sui percorsi potrebbe non essere registrato e visualizzato nei report.
-seo-title: I percorsi dei motivi potrebbero non essere registrati
+seo-description: Elenco di motivi per cui le informazioni di percorso potrebbero non essere registrate e visualizzate nel reporting.
+seo-title: Motivi per cui la tracciatura percorso potrebbe non essere registrata
 solution: Analytics
-title: I percorsi dei motivi potrebbero non essere registrati
+title: Motivi per cui la tracciatura percorso potrebbe non essere registrata
 topic: Sviluppatore e implementazione
-uuid: 9985 b 7 f 7-75 ea -4 c 94-97 a 3-520 f 92630989
+uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# I percorsi dei motivi potrebbero non essere registrati
+# Motivi per cui la tracciatura percorso potrebbe non essere registrata
 
-L'elenco delle informazioni sui percorsi potrebbe non essere registrato e visualizzato nei report.
+Elenco di motivi per cui le informazioni di percorso potrebbero non essere registrate e visualizzate nel reporting.
 
-* Il percorso non è stato abilitato per quel prop in quella suite di rapporti. Questa abilitazione è specifica per la suite di rapporti.
-* I dati non vengono passati nella prop corretta.
-* I percorsi sono stati abilitati e i dati sono nel prop, ma non sono visualizzati nei report. Though the [!UICONTROL sprop] data may show up within 10 minutes, the pathing data will not show up until the visitor's session has ended. Termina dopo 30 minuti di inattività. Analytics quindi dura altri 10 minuti per completare l'elaborazione dei dati percorso per la presentazione finale nei report.
+* Il percorso non è stato abilitato per la proprietà nella suite di rapporti. Questa abilitazione è specifica per la suite di rapporti.
+* I dati non vengono passati nella proprietà corretta.
+* Il percorso è stato abilitato e i dati sono nella proprietà, ma non è stato visualizzato nei report. Anche se i [!UICONTROL sprop] dati possono essere visualizzati entro 10 minuti, i dati del percorso non verranno visualizzati fino alla fine della sessione del visitatore. Si conclude dopo 30 minuti di inattività. Analytics impiega altri 10 minuti per completare l'elaborazione dei dati del percorso per la presentazione finale nei report.
 
-Se hai selezionato tutti questi e i dati non sono ancora visibili, consulta l'Assistenza clienti per eseguire un ulteriore debug.
+Se hai controllato tutti questi e i dati non sono ancora visualizzati, consulta l'Assistenza clienti per ulteriori attività di debug.
