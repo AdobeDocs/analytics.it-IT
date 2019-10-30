@@ -1,37 +1,35 @@
 ---
-description: Il Gestore richieste consente di visualizzare, duplicare e riassegnare priorità alle richieste.
-seo-description: Il Gestore richieste consente di visualizzare, duplicare e riassegnare priorità alle richieste.
+description: Request Manager consente di visualizzare, duplicare e riassegnare le priorità alle richieste.
+seo-description: Request Manager consente di visualizzare, duplicare e riassegnare le priorità alle richieste.
 seo-title: Gestire le richieste di Data Warehouse
 solution: Analytics
 title: Gestire le richieste di Data Warehouse
 topic: Data warehouse
-uuid: cdeb 764 f -56 f 9-43 ec -9228-8 ed 5 a 2 b 58909
+uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Gestire le richieste di Data Warehouse
 
-Il Gestore richieste consente di visualizzare, duplicare e riassegnare priorità alle richieste.
+Request Manager consente di visualizzare, duplicare e riassegnare le priorità alle richieste.
 
-In Data Warehouse, select the **[!UICONTROL Request Manager]** tab.
+In Data Warehouse, selezionare la **[!UICONTROL Request Manager]** scheda.
 
-Con questa scheda puoi
+Lavorando in questa scheda puoi
 
-* Visualizza le richieste di rapporti recenti per nome del rapporto, segmento applicato, richiedente, data di richiesta e stato.
-* Richieste duplicate. Click **[!UICONTROL Duplicate]** next to the request.
+* Visualizzare le richieste di rapporti recenti per nome del rapporto, segmento applicato, richiedente, data e stato della richiesta.
+* Richieste duplicate. Fate clic su **[!UICONTROL Duplicate]** accanto alla richiesta.
 
    >[!NOTE]
    >
    >Questa azione duplica solo la richiesta, non la pianificazione o i dettagli di consegna.
 
-* Cercare rapporti per nome del rapporto o per nome di accesso del richiedente.
-* Per priorizzare i rapporti trascinateli in una nuova posizione nella coda.
-* Per vedere quando viene avviata l'elaborazione di un'attività, fate clic su un ID di richiesta pianificato ed esaminate il pop-up che si apre.
+* Cercate i rapporti per nome o per nome di login del richiedente.
+* Ridefinire le priorità dei rapporti trascinandoli e rilasciandoli in una nuova posizione all’interno della coda.
+* Per vedere quando è iniziata l'elaborazione di una richiesta, fate clic su un ID richiesta pianificato ed esaminate la finestra a comparsa che si apre.
 
->[!NOTE]
->
->To cancel a Data Warehouse request, [follow these steps](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
+> [!NOTE] Per annullare una richiesta di data warehouse, [procedere come segue](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
 
