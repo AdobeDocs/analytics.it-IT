@@ -1,62 +1,62 @@
 ---
-description: Questa sezione contiene informazioni sui problemi più comuni.
-keywords: Feed dati; risoluzione dei problemi
-seo-description: Questa sezione contiene informazioni sui problemi più comuni.
-seo-title: Risoluzione dei problemi dei feed di dati
+description: Questa sezione contiene informazioni su problemi comuni.
+keywords: Feed dati;risoluzione dei problemi
+seo-description: Questa sezione contiene informazioni su problemi comuni.
+seo-title: Risoluzione dei problemi dei feed dati
 solution: Analytics
-title: Risoluzione dei problemi dei feed di dati
-uuid: 4 be 981 ab -3 a 61-4099-9 b 0 d -785 d 2 ac 2492 a
+title: Risoluzione dei problemi dei feed dati
+uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Risoluzione dei problemi dei feed di dati
+# Risoluzione dei problemi dei feed dati
 
-Questa sezione contiene informazioni sui problemi più comuni.
+Questa sezione contiene informazioni su problemi comuni.
 
-## Error When Saving Feed {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## Errore durante il salvataggio del feed {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-I nomi dei file di feed dati sono composti dall'ID suite di rapporti e dalla data. Tutti i due feed configurati per lo stesso RSID e le date avranno lo stesso nome file. Se tali feed vengono consegnati alla stessa posizione, un file sovrascrive l'altro. Per evitare la sovrascrittura di un file, non potete creare un feed che abbia il rischio di sovrascrivere un feed esistente nella stessa posizione.
+I nomi dei file dei feed di dati sono costituiti dall’ID suite di rapporti e dalla data. I due feed configurati per lo stesso RSID e le stesse date avranno lo stesso nome file. Se tali feed vengono inviati nella stessa posizione, un file ne sovrascrive l’altro. Per impedire la sovrascrittura di un file, non potete creare un feed che possa sovrascrivere un feed esistente nella stessa posizione.
 
-Se si tenta di creare un feed quando un altro esiste con lo stesso nome file, viene visualizzato il seguente messaggio:
+Se si tenta di creare un feed quando ne esiste un altro con lo stesso nome file, viene visualizzato il messaggio seguente:
 
-Se ricevi questo errore, prendi in considerazione le seguenti soluzioni:
+Se ricevete questo errore, considerate le seguenti soluzioni:
 
-* Modifica del percorso di consegna
-* Modifica delle date se possibile
-* Se possibile, cambia la suite di rapporti
+* Modificare il percorso di consegna
+* Se possibile, modificare le date
+* Se possibile, modificate la suite di rapporti
 
-## BucketOwnerFullControl setting for Amazon S3 data feeds {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Impostazione BucketOwnerFullControl per feed di dati Amazon S3 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
-Il caso d'uso comune per Amazon S 3 è che il proprietario dell'account Amazon Web Services (AWS) crea un bucket, quindi crea un utente con autorizzazione per creare gli oggetti in quel bucket e quindi fornisce le credenziali per quell'utente. In questo caso, gli oggetti di un utente appartengono allo stesso account e il proprietario dell'account ha in modo implicito il controllo completo dell'oggetto (lettura, eliminazione, ecc.). Questo è simile a quello della distribuzione FTP.
+Il caso d'uso comune per Amazon S3 è che il proprietario dell'account Amazon Web Services (AWS) crea un bucket, quindi crea un utente che dispone dell'autorizzazione per creare oggetti in quel bucket e quindi fornisce le credenziali per quell'utente. In questo caso, gli oggetti di un utente appartengono allo stesso account e il proprietario dell'account ha implicitamente il controllo completo dell'oggetto (lettura, eliminazione, ecc.). È simile al funzionamento della consegna FTP.
 
-AWS consente inoltre a un utente di creare oggetti in un bucket che appartiene a un account utente completamente diverso. Ad esempio, se due utenti AWS, usire e userb non appartengono allo stesso account AWS, ma vogliono creare oggetti in altri bucket. Se usircrea un bucket, ad esempio bucketa, può creare un criterio bucket che consente esplicitamente a userb di creare oggetti in bucketa anche se l'utente non possiede il bucket. Ciò può risultare vantaggioso perché non richiede che usire userb scambiare le credenziali. Userb fornisce usera con il proprio numero account, mentre usircrea una policy bucket che sostanzialmente dice "Abilitare gli oggetti in bucketa".
+AWS consente inoltre a un utente di creare oggetti in un bucket che appartengono a un account utente completamente diverso. Ad esempio, se due utenti AWS, userA e userB, non appartengono allo stesso account AWS ma desiderano creare oggetti in altri bucket. Se userA crea un bucket, ad esempio bucketA, può creare un criterio bucket che consente esplicitamente a userB di creare oggetti nel bucketA anche se l'utente non possiede il bucket. Ciò può essere vantaggioso perché non richiede che l'utente A e l'utente B scambiino le credenziali. Al contrario, userB fornisce all'utenteA il relativo numero di account, e userA crea un criterio fisso che sostanzialmente dice "lascia che userB crei oggetti nel bucketA".
 
-**Bucketownerfullcontrol** fornisce diritti incrociati per creare oggetti in altri bucket. Se userb carica un oggetto nel bucket di usir, userb continua a «proprietario» dell'oggetto e, per impostazione predefinita, uai non concede alcuna autorizzazione a quell'oggetto persino se uscratch possiede il bucket: gli oggetti non ereditano le autorizzazioni dal bucket principale. Userb deve concedere esplicitamente le autorizzazioni usira perché userb è ancora il proprietario dell'oggetto. Per questo caricamento tra account, AWS fornisce un ACL bucketownerfullcontrol specificando che l'uso di questo ACL è eseguito dal proprietario dell'intervallo (uscratch) e dispone di autorizzazioni complete per l'oggetto (lettura, scrittura, eliminazione ecc.), anche se l'oggetto è "owned" da userb.
+**BucketOwnerFullControl** fornisce diritti a più account per creare oggetti in altri bucket. Se userB carica un oggetto nel bucket dell'utenteA, userB "possiede" tale oggetto e, per impostazione predefinita, all'utenteA non vengono concesse autorizzazioni per tale oggetto anche se l'utenteA possiede il bucket; gli oggetti non ereditano le autorizzazioni dal bucket principale. UserB deve concedere esplicitamente a userA autorizzazioni perché userB è ancora il proprietario dell'oggetto. Per questo caricamento tra account, AWS fornisce un ACL BucketOwnerFullControl specificando che l'utilizzo di questo ACL da parte del proprietario del bucket (userA) e gli viene concessa l'autorizzazione completa all'oggetto (lettura, scrittura, eliminazione, ecc.), anche se l'oggetto è "di proprietà" di userB.
 
-## Transfer Failures {#section_4BD44E9167F0494FB2B379D2BA132AD8}
+## Errori di trasferimento {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-Nel caso di un errore di trasferimento FTP (accesso negato, perso, perdita di quota, ecc.), Adobe tenta di connettersi automaticamente e inviare i dati fino a tre orari separati. Se gli errori persistono, il feed viene contrassegnato come non riuscito e viene inviata una notifica e-mail.
+In caso di errore nel trasferimento FTP (accesso negato, connessione persa, fuori quota, ecc.), Adobe tenta di collegare e inviare automaticamente i dati fino a tre volte. Se gli errori persistono, il feed viene contrassegnato come non riuscito e viene inviata una notifica e-mail.
 
-In case of a transfer failure, you can [rerun a job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) until it succeeds.
+In caso di mancata riuscita del trasferimento, è possibile [ripetere un processo](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) finché non riesce.
 
-## Resend Options {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
+## Ripeti opzioni {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+Dopo aver verificato/corretto il problema di consegna, eseguite nuovamente il [processo](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) per ottenere i file.
 
-## Daylight Savings impact on Hourly Data Feeds {#section_70E867D942054DD09048E027A9474FFD}
+## L'impatto del risparmio giornaliero sui feed di dati orari {#section_70E867D942054DD09048E027A9474FFD}
 
-Per determinate fusi orari l'ora cambia due volte all'anno a causa delle definizioni ora legale (DST). I feed di dati rispettano il fuso orario per il quale è configurata la suite di rapporti. Se il fuso orario per la suite di rapporti non utilizza DST, la consegna dei file continuerà normalmente come qualsiasi altro giorno. Se il fuso orario della suite di rapporti è uno che utilizza DST, la consegna dei file verrà modificata per l'ora in cui si verifica la modifica temporale (in genere 2:00 am).
+Per alcuni fusi orari l'ora cambierà due volte all'anno a causa delle definizioni DST (daylight save time, ora legale). I feed di dati rispettano il fuso orario per il quale è configurata la suite di rapporti. Se il fuso orario della suite di rapporti non utilizza DST, la consegna dei file continuerà normalmente come qualsiasi altro giorno. Se il fuso orario della suite di rapporti è uno che utilizza DST, la consegna dei file verrà modificata per l'ora in cui si verifica la modifica dell'ora (in genere 2:00).
 
-Quando si effettuano transizioni STD -&gt; transizioni ora DST («Spring Forward»), il cliente ottiene solo 23 file. L'ora saltata nella transizione DST viene semplicemente omessa. Ad esempio, se la transizione si verifica alle 1:00, verrà visualizzato un file per 3:00 ora e sarà possibile ottenere un file per ora. Non ci sarà alcun file 2:00, poiché alle 2:00 STD diventa 3:00 DST.
+Quando si effettuano transizioni di tempo STD -&gt; DST ("Spring Forward"), il cliente riceve solo 23 file. L'ora saltata nella transizione DST viene semplicemente omessa. Ad esempio, se la transizione si verifica alle 2 del mattino, riceveranno un file per 1:00 ora e riceveranno un file per 3:00 ore. Non ci sarà un file 2:00, poiché alle 2:00 STD, diventa 3:00 DST.
 
-Quando si creano DST -&gt; transizioni STD ("Fall Back"), il cliente riceve 24 file. Tuttavia, l'ora della transizione includerà in realtà 2 ore di dati. Ad esempio, se la transizione avviene alle 2:00, il file per 1:00 verrà ritardato di un'ora, ma conterrà dati per due ore. Conterrà dati da 1:00 DST a 2:00 STD (che sarebbero state 3:00 DST). Il file successivo inizierà da 2:00 STD.
+Quando si creano transizioni DST -&gt; STD, ("Autunno Indietro"), il cliente riceve 24 file. Tuttavia, l'ora della transizione includerà in realtà due ore di dati. Ad esempio, se la transizione si verifica alle 2:00 del mattino, il file per 1:00 verrà ritardato di un'ora, ma conterrà dati per due ore. Conterrà dati da 1:00 DST a 2:00 STD (che sarebbe stato 3:00 DST). Il file successivo inizierà alle 2:00 STD.
 
-## No Data for a Time Period {#section_72510794694D42A9A75C966B812AEB0F}
+## Nessun dato per un periodo di tempo {#section_72510794694D42A9A75C966B812AEB0F}
 
-Facoltativamente, puoi configurare un feed di dati per distribuire un file manifesto se non vengono raccolti dati per un periodo specifico. Se abilitate questa opzione, riceverete un file manifesto simile a quanto segue:
+Facoltativamente, puoi configurare un feed di dati per la distribuzione di un file manifesto se non vengono raccolti dati per un periodo specifico. Se attivate questa opzione, riceverete un file manifesto simile al seguente:
 
 ```
 Datafeed-Manifest-Version: 1.0
@@ -65,10 +65,10 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## No Domain Info for Domain Reporting {#section_B7508D65370442C7A314EAED711A2C75}
+## Nessuna informazione di dominio per il reporting del dominio {#section_B7508D65370442C7A314EAED711A2C75}
 
-Alcuni operatori mobili (come T-Mobile e O 1) non forniscono più informazioni di dominio per le ricerche inverso DNS. Pertanto, i dati non sono disponibili per i rapporti sul dominio.
+  Alcuni gestori di dispositivi mobili (come T-Mobile e O1) non forniscono più informazioni di dominio per le ricerche DNS inverse. Pertanto, tali dati non sono disponibili per la generazione di rapporti sul dominio.
 
-## Data Processing Overview {#section_6346328F8D8848A7B81474229481D404}
+## Panoramica sull'elaborazione dei dati {#section_6346328F8D8848A7B81474229481D404}
 
-Prima di elaborare dati orari o giornalieri, i feed di dati attendono che tutti gli hit che immettono la raccolta dati entro il periodo temporale (giorno o ora) siano stati scritti in data warehouse. Dopo che ciò si verifica, i feed dati raccolgono i dati con marca temporale che rientrano nell'intervallo temporale, lo comprime e lo invia tramite FTP. Per i feed orari, i file vengono generalmente scritti al data warehouse entro 15-30 minuti dopo l'ora, ma non è impostato alcun periodo di tempo. Se non sono presenti dati con marche temporali che rientrano nella cornice temporale, il processo ripete il periodo temporale successivo. The current data feed process uses the `date_time` field to determine which hits belong to the hour. Questo campo si basa sul fuso orario della suite di rapporti.
+Prima di elaborare i dati su base oraria o giornaliera, i feed di dati attendono che tutti gli hit che hanno immesso la raccolta dati entro il periodo di tempo (giorno o ora) siano stati scritti in data warehouse. In seguito, i feed di dati raccolgono i dati con marche temporali che rientrano nel periodo di tempo, li comprime e li invia tramite FTP. Per i feed orari, i file vengono generalmente scritti in data warehouse entro 15-30 minuti dopo l'ora, ma non esiste un periodo di tempo impostato. Se non vi erano dati con marche temporali che rientrano nell’intervallo temporale, il processo tenta nuovamente l’intervallo temporale successivo. Il processo di feed di dati corrente utilizza il `date_time` campo per determinare quali hit appartengono all’ora. Questo campo è basato sul fuso orario della suite di rapporti.
