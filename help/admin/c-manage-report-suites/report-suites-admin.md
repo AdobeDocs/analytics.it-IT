@@ -7,7 +7,7 @@ title: Report Suite Manager
 topic: Strumenti di amministrazione
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Una suite di rapporti definisce il reporting indipendente e completo su un sito 
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
 
->[!NOTE]
->
->Le suite di rapporti virtuali sono gestite tramite **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Consulta la documentazione [Suite di rapporti](/help/components/vrs/vrs-about.md)virtuale.
+> [!NOTE] Le suite di rapporti virtuali sono gestite tramite **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Consulta la documentazione [Suite di rapporti](/help/components/vrs/vrs-about.md)virtuale.
 
 ## Descrizioni di Report Suite Manager {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
