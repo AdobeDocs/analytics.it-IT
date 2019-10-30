@@ -5,9 +5,9 @@ seo-title: ID transazione e profili visitatore
 solution: Analytics
 title: ID transazione e profili visitatore
 topic: Sviluppatore e implementazione
-uuid: 7 a 72779 c -7 f 67-4872-ad 5 e-edf 298 d 53 cac
+uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
