@@ -1,24 +1,24 @@
 ---
-description: Procedura che descrive come personalizzare una data di scorrimento per la richiesta.
-seo-description: Procedura che descrive come personalizzare una data di scorrimento per la richiesta.
-seo-title: Date continue
+description: Passaggi che descrivono come personalizzare una data continua per la richiesta.
+seo-description: Passaggi che descrivono come personalizzare una data continua per la richiesta.
+seo-title: Date di rotazione
 solution: Analytics
-title: Date continue
+title: Date di rotazione
 topic: Generatore di report
-uuid: 28319 f 02-2 a 4 a -408 d-a 7 d 1-545247 ad 6178
+uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Date continue
+# Date di rotazione
 
-Procedura che descrive come personalizzare una data di scorrimento per la richiesta.
+Passaggi che descrivono come personalizzare una data continua per la richiesta.
 
-1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
-1. Click the **[!UICONTROL Rolling]** link to choose the rolling type, then use the date links to configure rolling dates.
+1. In [!UICONTROL Request Wizard: Step 1], selezionare **[!UICONTROL Rolling Dates]**.
+1. Fate clic sul **[!UICONTROL Rolling]** collegamento per scegliere il tipo di scorrimento, quindi utilizzate i collegamenti delle date per configurare le date di scorrimento.
 
-   The settings for [!UICONTROL Rolling Dates] change depending on your selections. For example, when you select [!UICONTROL Rolling Weekly], report builder provides week-specific settings you can select as the rolling pattern.
+   Le impostazioni per [!UICONTROL Rolling Dates] la modifica dipendono dalle selezioni effettuate. Ad esempio, quando si seleziona [!UICONTROL Rolling Weekly], il generatore di report fornisce impostazioni specifiche per la settimana che è possibile selezionare come pattern di scorrimento.
 
-1. Configura le opzioni avanzate come desiderato.
+1. Configurate le opzioni avanzate come desiderate.
