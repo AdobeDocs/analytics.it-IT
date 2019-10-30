@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ La *`linkLeaveQueryString`* variabile determina se la stringa di query deve esse
 |--- |--- |--- |--- |
 | N/D | N/D | Esci dai download dei file dei collegamenti | false |
 
->[!NOTE]
->
->L'impostazione `linkLeaveQueryString=true` include tutti i parametri della stringa di query per tutti i collegamenti di uscita e i collegamenti di download.
+> [!NOTE] L'impostazione `linkLeaveQueryString=true` include tutti i parametri della stringa di query per tutti i collegamenti di uscita e i collegamenti di download.
 
 ## Sintassi
 
