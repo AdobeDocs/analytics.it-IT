@@ -1,14 +1,14 @@
 ---
-description: Gli Avvisi intelligenti consentono di creare e gestire gli avvisi in Analysis Workspace, con un'anteprima e un contributo di regole.
-keywords: Implementazione di Analytics; alert; anomalie; anomalia; email; sms; metriche multiple
-seo-description: Gli Avvisi intelligenti consentono di creare e gestire gli avvisi in Analysis Workspace, con un'anteprima e un contributo di regole.
+description: Avvisi intelligenti consentono di creare e gestire gli avvisi in Analysis Workspace, con anteprima degli avvisi e contributo delle regole.
+keywords: Implementazione di Analytics;alert;anomalie;email;sms;metriche multiple
+seo-description: Avvisi intelligenti consentono di creare e gestire gli avvisi in Analysis Workspace, con anteprima degli avvisi e contributo delle regole.
 seo-title: Avvisi
 solution: Analytics
 title: Avvisi
 topic: Sviluppatore e implementazione
-uuid: 8 b 266 adf-bb 6 b -4 bff -8307-e 246 aca 717 c 7
+uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,6 +24,6 @@ Intelligent Alerts let you create and manage alerts in [!UICONTROL Analysis Work
 * Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di [!UICONTROL Analysis Workspace] generati automaticamente.
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso.
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+Puoi accedere a questo nuovo sistema di avvisi da **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in qualsiasi rapporto in Reporting e analisi.
 
-See [Intelligent Alerts](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) in the [!UICONTROL Analysis Workspace] Help.
+Consulta Avvisi [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) intelligenti nell’ [!UICONTROL Analysis Workspace] Aiuto.
