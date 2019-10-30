@@ -8,7 +8,7 @@ title: 'Codice H JavaScript: legacy'
 topic: Sviluppatore e implementazione
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Note cumulative sulla versione per il codice JavaScript H legacy.
 
->[!NOTE]
->
->Per trovare la versione corrente della libreria, utilizzare [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
+> [!NOTE] Per trovare la versione corrente della libreria, utilizzare [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -228,7 +226,7 @@ In questo modo vengono risolti i problemi di memorizzazione dei caratteri non es
 * È stato risolto un problema che poteva impedire l'invio dell'evento di completamento del video quando si utilizzava un `media.monitor` metodo personalizzato per tenere traccia dell'evento di chiusura del supporto:
 
 ```
-  If(media.event==”CLOSE”) { 
+  If(media.event=="CLOSE") { 
   … 
   } 
   
@@ -274,21 +272,28 @@ La tabella seguente riassume le variabili di configurazione e gli aggiornamenti 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>Questo flag viene utilizzato per disabilitare il tracciamento forzato dei collegamenti per i browser WebKit. Il tracciamento forzato dei collegamenti è abilitato per impostazione predefinita per i browser WebKit e viene ignorato dagli altri browser. </p> <p> <b>Valore predefinito</b> </p> <p> <code> true </code> </p> <p> <b>Esempio</b> </p> 
     <code class="syntax javascript">
-      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceLinkTrackingTimeout </p> </td> 
-   <td colname="col2"> <p>Il numero massimo di millisecondi di attesa del completamento del tracciamento prima di eseguire <code> doneAction </code> che è stato passato in <code> s.tl </code>. Questo valore specifica il tempo massimo di attesa. Se la chiamata di tracciamento dei collegamenti viene completata prima di tale timeout, l’ <code> azione completata </code> viene eseguita immediatamente. Se noti che le chiamate di tracciamento dei collegamenti non stanno completando, potresti dover aumentare questo timeout. </p> <p> <b>Valore predefinito</b> </p> <p>250 </p> <p> <b>Esempio</b> </p> 
+   <td colname="col2"> <p>Il numero massimo di millisecondi di attesa del termine del tracciamento prima di eseguire il <code> doneAction </code> passaggio in <code> s.tl </code>. Questo valore specifica il tempo massimo di attesa. Se la chiamata di tracciamento dei collegamenti viene completata prima di questo timeout, l’operazione <code> doneAction </code> viene eseguita immediatamente. Se noti che le chiamate di tracciamento dei collegamenti non stanno completando, potresti dover aumentare questo timeout. </p> <p> <b>Valore predefinito</b> </p> <p>250 </p> <p> <b>Esempio</b> </p> 
     <code class="syntax javascript">
-      s.forzatoLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink ( <code> s.tl </code>) </td> 
    <td colname="col2"> <p>Tiene traccia dei collegamenti di uscita, download e personalizzati. Fornisce un parametro opzionale per specificare un'azione di navigazione da eseguire al termine della chiamata di tracciamento dei collegamenti sui browser WebKit. </p> <p> <b>Sintassi</b> </p> 
     <code class="syntax javascript">
-      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>: (facoltativo) Specifica l’azione da intraprendere dopo che la chiamata di tracciamento del collegamento è stata inviata o è scaduta (in base al valore specificato da <code> s.forzatoLinkTrackingTimeout </code>). L' <code> azione eseguita </code> può essere la stringa 'navigate', che causa l'impostazione del metodo <code> document.location </code> all' <code> attributo href </code> del <code> linkObject </code>. La funzione <code> doneAction</code> può anche consentire una personalizzazione avanzata. </p> <p>Se si fornisce un valore per <code> onclick </code> in un <code> evento di ancoraggio false </code> , è necessario restituire <code> s.tl </code> dopo la <code> chiamata href </code> per impedire la navigazione predefinita del browser. </p> <p> Per rispecchiare il comportamento predefinito e seguire l'URL specificato dall'attributo <code> doneAction </code> , immettete una stringa "navigate" come <code> action </code>. </p> <p>Facoltativamente, è possibile fornire la propria funzione per gestire l'evento di navigazione passando questa funzione come <code>$1</code>. </p> <p> <b>Esempi</b> </p> 
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
+    </code> <p> <b>doneAction</b>: (facoltativo) Specifica l’azione da intraprendere dopo che la chiamata di tracciamento del collegamento è stata inviata o è scaduta (in base al valore specificato da <code> s.forcedLinkTrackingTimeout </code>). Può <code> doneAction </code> essere la stringa 'navigate', che determina l'impostazione del metodo <code> document.location </code> sull' <code> href </code> attributo di <code> linkObject </code>. La funzione <code> doneAction</code> può anche consentire una personalizzazione avanzata. </p> <p>Se si fornisce un valore per <code> onclick </code> un <code> false </code> evento di ancoraggio, è necessario tornare <code> s.tl </code> dopo la <code> href </code> chiamata per impedire la navigazione predefinita nel browser. </p> <p> Per rispecchiare il comportamento predefinito e seguire l'URL specificato dall' <code> doneAction </code> attributo, immettete una stringa di 'navigate' come <code> doneAction </code>. </p> <p>Facoltativamente, è possibile fornire la propria funzione per gestire l'evento di navigazione passando questa funzione come <code>$1</code>. </p> <p> <b>Esempi</b> </p> 
     <code class="syntax javascript">
-      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;here&lt;/a&gt; </code> <code class="syntax javascript">&lt;a&amp;nbsp;href="#"&amp;nbsp;onbsp="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> </td> 
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    </code> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>
