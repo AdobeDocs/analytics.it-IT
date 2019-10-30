@@ -1,29 +1,29 @@
 ---
-description: I rapporti di conversione in genere misurano la conversione tra eventi iniziale, finale e milestone-estone o punti di un processo di conversione. Dopo aver codificato gli eventi di successo sul sito, il rapporto crea i rapporti tra questi diversi eventi di successo e li mostra in un report Funnel di conversione.
-seo-description: I rapporti di conversione in genere misurano la conversione tra eventi iniziale, finale e milestone-estone o punti di un processo di conversione. Dopo aver codificato gli eventi di successo sul sito, il rapporto crea i rapporti tra questi diversi eventi di successo e li mostra in un report Funnel di conversione.
+description: I rapporti di conversione in genere misurano la conversione tra gli eventi o i punti di conversione iniziali, finali e milestone. Dopo aver codificato gli eventi di successo sul sito, il rapporto crea i rapporti tra questi diversi eventi di successo e li mostra in un rapporto sul funnel di conversione.
+seo-description: I rapporti di conversione in genere misurano la conversione tra gli eventi o i punti di conversione iniziali, finali e milestone. Dopo aver codificato gli eventi di successo sul sito, il rapporto crea i rapporti tra questi diversi eventi di successo e li mostra in un rapporto sul funnel di conversione.
 seo-title: Funnel di conversione
 solution: Analytics
 title: Funnel di conversione
 topic: Rapporti
-uuid: a 67 ce 302-fae 1-434 a-b 662-91672 e 85 cab 3
+uuid: a67ce302-fae1-434a-b662-91672e85CAB3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Funnel di conversione
 
-I rapporti di conversione in genere misurano la conversione tra eventi iniziale, finale e milestone-estone o punti di un processo di conversione. Dopo aver codificato gli eventi di successo sul sito, il rapporto crea i rapporti tra questi diversi eventi di successo e li mostra in un report Funnel di conversione.
+I rapporti di conversione in genere misurano la conversione tra gli eventi o i punti di conversione iniziali, finali e milestone. Dopo aver codificato gli eventi di successo sul sito, il rapporto crea i rapporti tra questi diversi eventi di successo e li mostra in un rapporto sul funnel di conversione.
 
 Sono disponibili i seguenti rapporti funnel:
 
-* [!UICONTROL Purchase Conversion Funnel]: Mostra visite (specifici per report), carrelli, ordini, unità e guadagni.
-* [!UICONTROL Cart Conversion Funnel]: Visualizza Visite (specifici per report), carrelli, pagamenti, ordini e guadagni.
-* [!UICONTROL Custom Event Funnel]: Visualizza eventi personalizzati sul sito. Per impostazione predefinita, mostra eventi personalizzati 1-5.
-* [!UICONTROL Campaign Conversion Funnel]: Mostra Click-through, pagamenti, ordini e guadagni.
+* [!UICONTROL Purchase Conversion Funnel]: Mostra visite (specifiche del rapporto), carrelli, ordini, unità e ricavi.
+* [!UICONTROL Cart Conversion Funnel]: Visualizza visite (specifiche del rapporto), carrelli, Checkout, ordini e ricavi.
+* [!UICONTROL Custom Event Funnel]: Visualizza eventi personalizzati sul sito. Per impostazione predefinita vengono visualizzati gli eventi personalizzati da 1 a 5.
+* [!UICONTROL Campaign Conversion Funnel]: Mostra Click-through, Checkout, Ordini e Entrate.
 
-Questo rapporto è anche personalizzabile, in modo da poter aggiungere Eventi conversione personalizzati al funnel di conversione per vedere se i visitatori del sito lo accedono da un passaggio all'altro. Gli eventi di successo sono candidati validi per questo tipo di analisi, se si verificano praticamente sempre in un ordine specifico. Ad esempio, in un sito di vendita al dettaglio, gli eventi di successo si verificano in genere in questo ordine:
+Questo rapporto è anche personalizzabile in modo da poter aggiungere eventi di conversione personalizzati al Funnel di conversione per verificare se i visitatori del sito lo fanno da un passaggio all'altro. Gli eventi di successo sono buoni candidati per questo tipo di analisi se si verificano quasi sempre in un ordine specifico. Ad esempio, in un sito per la vendita al dettaglio, gli eventi di successo si verificano generalmente nell’ordine seguente:
 
 1. Visualizzazioni prodotto
 
@@ -33,9 +33,7 @@ Questo rapporto è anche personalizzabile, in modo da poter aggiungere Eventi co
 
 4. Acquisti
 
-La tabella report mostra le statistiche relative alle vendite medie per click-through e le unità medie vendute per click-through. Potete aggiungere metriche e eventi personalizzati da altri gruppi di rapporti a tali rapporti. Questi funnel hanno numerose similarità, ma si basano su variabili ed eventi diversi. Potete utilizzare questi report per vedere quali percentuali e tendenze generali degli utenti attivano eventi specifici da voi specificati. Potete vedere dove gli utenti non seguono gli eventi, che forniscono indicazioni su tale punto specifico nel processo di conversione.
+La tabella del rapporto mostra le statistiche relative alle vendite medie per click-through e alle unità medie vendute per click-through. A questi rapporti potete aggiungere metriche ed eventi personalizzati da altri gruppi di reporting. Questi funnel hanno molte somiglianze, ma si basano su variabili ed eventi diversi. Potete utilizzare questi rapporti per vedere quali percentuali e tendenze generali degli utenti attivano eventi specifici specificati. Potete vedere dove gli utenti non stanno seguendo gli eventi, il che fornisce indicazioni su quel punto specifico nel processo di conversione.
 
->[!NOTE]
->
->Le istanze nel contesto di questi rapporti si riferiscono al numero totale di visite in cui è stata definita un'evar o un evento.
+> [!NOTE] Le istanze nel contesto di questi rapporti corrispondono al numero totale di visite in cui è stato definito un eVar o un evento.
 
