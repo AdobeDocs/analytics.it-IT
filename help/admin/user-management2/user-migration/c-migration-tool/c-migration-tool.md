@@ -5,7 +5,7 @@ seo-title: Migrazione degli utenti di Analytics all’Admin Console
 title: Migrazione degli utenti di Analytics all’Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
