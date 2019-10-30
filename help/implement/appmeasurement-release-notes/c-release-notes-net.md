@@ -8,7 +8,7 @@ title: Windows Silverlight, NET, IIS, XBOX
 topic: Sviluppatore e implementazione
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 >
 >Questi SDK sono scaduti e non sono più supportati o distribuiti da Adobe.
 
->[!NOTE]
->
->Per trovare la versione corrente della libreria, attivate la registrazione di debug.
+> [!NOTE] Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
 ## Versione 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
@@ -64,7 +62,7 @@ Release Date: **September 2012**
 * È stato risolto un problema che poteva impedire l'invio dell'evento di completamento del video quando si utilizzava un `media.monitor` metodo personalizzato per tenere traccia dell'evento di chiusura del supporto:
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
