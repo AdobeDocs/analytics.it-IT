@@ -1,21 +1,21 @@
 ---
-description: Le pagine protette (pagine caricate sotto https //) descrivono la richiesta di immagine e aggiungono al tempo totale di download.
+description: Le pagine protette (pagine caricate in https //) crittografano la richiesta di immagine e aggiungono al tempo di download totale.
 keywords: Implementazione di Analytics
-seo-description: Le pagine protette (pagine caricate sotto https //) descrivono la richiesta di immagine e aggiungono al tempo totale di download.
+seo-description: Le pagine protette (pagine caricate in https //) crittografano la richiesta di immagine e aggiungono al tempo di download totale.
 seo-title: Pagine protette
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
+subtopic: Risoluzione dei problemi
 title: Pagine protette
 topic: Sviluppatore e implementazione
-uuid: d 63 e 4356-0203-4 d 10-838 a -791 d 12 f 9333 a
+uuid: d63e4356-0203-4d10-838a-791d12f9333a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Pagine protette
 
-Pagine protette (pagine caricate in https://) cifratura della richiesta di immagine e aggiunta al tempo totale di download.
+Le pagine protette (pagine caricate in https://) crittografano la richiesta di immagine e aggiungono al tempo di download totale.
 
-Le pagine sicure possono aggiungere un sovraccarico pari a 50-75 % alla richiesta di immagine.
+Le pagine sicure possono aggiungere un sovraccarico del 50-75% alla richiesta di immagini.
