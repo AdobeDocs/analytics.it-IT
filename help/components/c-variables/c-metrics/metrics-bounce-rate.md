@@ -1,29 +1,27 @@
 ---
-description: Mostra la percentuale di visite che contengono un hit unico.
-seo-description: Mostra la percentuale di visite che contengono un hit unico.
-seo-title: Bounce Rate
+description: Mostra la percentuale di visite che contengono un singolo hit.
+seo-description: Mostra la percentuale di visite che contengono un singolo hit.
+seo-title: Percentuale non recapitate
 solution: Analytics
-title: Bounce Rate
-topic: Metrics (Metriche)
-uuid: 9 a 5 aba 33-c 16 a -47 db-b 8 d 3-f 66 be 6 eb 65 be
+title: Percentuale non recapitate
+topic: Metriche
+uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Bounce Rate
+# Percentuale non recapitate
 
-Mostra la percentuale di visite che contengono un hit unico.
+Mostra la percentuale di visite che contengono un singolo hit.
 
-Bounce rate uses the [Bounces](../../../components/c-variables/c-metrics/metrics-bounces.md#concept_2A92D575504E4522B860AB44B0621593) metric and is calculated as:
+Il tasso di rimbalzo utilizza la metrica [Blocchi](../../../components/c-variables/c-metrics/metrics-bounces.md#concept_2A92D575504E4522B860AB44B0621593) ed è calcolato come segue:
 
 `Bounces divided by Entries`
 
-Bounce Rate non include visite in cui si sono verificati più azioni su una singola pagina. Ad esempio, una visita con una visualizzazione video su una singola pagina è un Accesso singolo ma non un bounce.
+Frequenza rimbalzi non include visite in cui si sono verificate più azioni su una singola pagina. Ad esempio, una visita con una visualizzazione video su una singola pagina è un accesso singolo ma non un rimbalzo.
 
->[!NOTE]
->
->Le implementazioni esistenti possono contenere una metrica calcolata che differisce dalla metrica predefinita di Analytics. Controllate la definizione delle metriche calcolate per assicurarvi che non siano presenti differenze.
+> [!NOTE] Le implementazioni esistenti possono a volte contenere una metrica calcolata diversa dalla metrica predefinita di Analytics. Controlla la definizione della metrica calcolata per essere sicuro che non ci siano differenze.
 
-See this [Knowledgebase article](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access) for more information.
+Per ulteriori informazioni, consultate questo articolo della [Knowledgebase](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access) .
