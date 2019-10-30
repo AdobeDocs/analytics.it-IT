@@ -1,11 +1,11 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
+description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
 keywords: Implementazione di Analytics
-seo-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
+seo-description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 La variabile si riferisce ai cookie impostati da JavaScript (s_sq, s_cc, plug-in) che sono intrinsecamente cookie di prime parti anche se la vostra implementazione utilizza i domini di terze parti 2o7.net o omtrdc.net.
 
-La *`fpCookieDomainPeriods`* variabile non deve mai essere impostata dinamicamente. If you use *`cookieDomainPeriods`*, it is good practice to specify a value for *`fpCookieDomainPeriods`* as well. *`fpCookieDomainPeriods`* eredita il *`cookieDomainPeriods`* valore. Note that  does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.*`fpCookieDomainPeriods`*
+La *`fpCookieDomainPeriods`* variabile non deve mai essere impostata dinamicamente. Se si utilizza *`cookieDomainPeriods`*, è buona norma specificare *`fpCookieDomainPeriods`* anche un valore. *`fpCookieDomainPeriods`* eredita il *`cookieDomainPeriods`* valore. Tieni presente che *`fpCookieDomainPeriods`* non influisce sul dominio in cui è impostato il cookie dell’ID visitatore, anche se l’implementazione lo tratta come cookie di prime parti.
 
-The name " " refers to the number of periods (".") *`fpCookieDomainPeriods`* nel dominio quando il dominio inizia con "www." For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Un altro modo per descrivere la variabile è il numero di sezioni nel dominio principale del sito (due per `mysite.com` e tre per `mysite.co.jp`).
+Il nome " *`fpCookieDomainPeriods`*" si riferisce al numero di punti (".") nel dominio quando il dominio inizia con "www." Ad esempio, `www.mysite.com` contiene due periodi, mentre `www.mysite.co.jp` contiene tre periodi. Un altro modo per descrivere la variabile è il numero di sezioni nel dominio principale del sito (due per `mysite.com` e tre per `mysite.co.jp`).
 
-Il file [!DNL AppMeasurement] per JavaScript utilizza la *`fpCookieDomainPeriods`* variabile per determinare il dominio con cui impostare cookie di prime parti diversi dal cookie [!UICONTROL visitor ID] (s_vi). There are at least two cookies affected by this variable, including  and  (used for visitor click map and cookie checking respectively). `s_sq``s_cc` Cookies used by plug-ins such as [!UICONTROL getValOnce] are also affected.
+Il file [!DNL AppMeasurement] per JavaScript utilizza la *`fpCookieDomainPeriods`* variabile per determinare il dominio con cui impostare cookie di prime parti diversi dal cookie [!UICONTROL visitor ID] (s_vi). Questa variabile interessa almeno due cookie, inclusi `s_sq` e `s_cc` (utilizzati rispettivamente per il controllo delle mappe dei clic dei visitatori e dei cookie). Anche i cookie utilizzati da plug-in come [!UICONTROL getValOnce] vengono modificati.
 
-| Max Size | Debugger Parameter | Reports Populated | Valore predefinito |
+| Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
 | N/D | N/D | N/D | cookieDomainPeriods |
 
@@ -51,6 +51,6 @@ s.fpCookieDomainPeriods="3"
 s.fpCookieDomainPeriods="2"
 ```
 
-## Configuration Settings
+## Impostazioni di configurazione
 
 Nessuno
