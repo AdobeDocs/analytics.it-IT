@@ -7,7 +7,7 @@ title: Escludi per indirizzo IP
 topic: Strumenti di amministrazione
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -18,9 +18,7 @@ Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attivit
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Exclude by IP]**
 
->[!NOTE]
->
->Gli hit esclusi dall'indirizzo IP vengono fatturati come chiamate [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)server.
+> [!NOTE] Gli hit esclusi dall'indirizzo IP vengono fatturati come chiamate [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)server.
 
 ## Escludi per cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -32,13 +30,11 @@ Questa funzione consente a voi e ai vostri colleghi di visitare il sito senza di
 |--- |--- |
 | [!UICONTROL Add CNAME] | Genera un collegamento di rinuncia che puoi utilizzare per escludere il dominio. Per assistenza, contattate gli Utenti supportati della società. <br>Il traffico può essere escluso dalla generazione di rapporti nelle suite di rapporti visitando la pagina di rifiuto della società e scegliendo di escludere il browser dalla misurazione. <br>Se la tua implementazione utilizza cookie di terze parti, la pagina di rinuncia è [qui](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true). |
 
->[!NOTE]
+> [!NOTE] L'esclusione per computer funziona solo se:
 >
->L'esclusione per computer funziona solo se:
->
->* Si accede al sito Web dalla stessa stazione di lavoro.
->* I cookie sono attivati nel browser in uso.
->* I cookie non vengono eliminati. Se i cookie vengono eliminati, devi escluderti di nuovo.
+> * Si accede al sito Web dalla stessa stazione di lavoro.
+> * I cookie sono attivati nel browser in uso.
+> * I cookie non vengono eliminati. Se i cookie vengono eliminati, devi escluderti di nuovo.
 
 
 ## Exclude by IP Address {#section_609FB6461529409D840111A32FEF5C3D}
