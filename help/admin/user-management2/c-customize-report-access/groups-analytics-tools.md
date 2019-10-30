@@ -9,7 +9,7 @@ title: Personalizzare le autorizzazioni degli strumenti di Analytics
 topic: Strumenti di amministrazione
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Attiva le autorizzazioni degli utenti per gli elementi generali (fatturazione, r
 
 **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL All Report Access]** &gt; **[!UICONTROL Analytics Tools]** &gt; **[!UICONTROL Customize]**
 
->[!NOTE]
->
->La versione Autunno 2016 (20 ottobre) ha apportato modifiche alla gestione dei gruppi. Per un riepilogo delle modifiche, consultate Modifiche [amministrative - Autunno 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) .
+> [!NOTE] La versione Autunno 2016 (20 ottobre) ha apportato modifiche alla gestione dei gruppi. Per un riepilogo delle modifiche, consultate Modifiche [amministrative - Autunno 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) .
 
 ## Accesso ai report - Strumenti di Analytics
 
