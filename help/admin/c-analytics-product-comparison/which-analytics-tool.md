@@ -5,7 +5,7 @@ seo-title: Quale strumento Adobe Analytics usare?
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,7 +66,7 @@ Per ulteriori informazioni sui confronti tra i prodotti Adobe Analytics, consult
 * Opzioni:
 
    * Generatore di regole: utilizzare quando si raccolgono valori formattati prevedibili per una variabile, ad esempio valori delimitati. Questo approccio consente di impostare regole una volta e in gran parte "impostarlo e dimenticarlo".
-   * Importazione browser: utilizzate quando non disponete di valori prevedibili o quando disponete di un elenco finito di valori che richiede un aggiornamento una tantum. Questo approccio richiede un monitoraggio continuo delle classificazioni per i nuovi valori.
+   * Importazione browser: utilizzare quando non si dispone di valori prevedibili o quando si dispone di un elenco finito di valori che richiede un aggiornamento una tantum. Questo approccio richiede un monitoraggio continuo delle classificazioni per i nuovi valori.
 
 **[Origini](/help/import/c-data-sources/datasrc-home.md)** dati:
 
