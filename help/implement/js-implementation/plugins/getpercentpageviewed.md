@@ -1,60 +1,60 @@
 ---
-description: Misura l'attività di scorrimento di un visitatore per vedere la quantità di pagina visualizzata prima di passare a un'altra pagina. Questo plug-in consente di determinare il volume di contenuto visualizzato dagli utenti in medie, in modo da ottimizzare le lunghezze di pagina e i layout in base ai comportamenti utente.
+description: Misura l'attività di scorrimento di un visitatore per vedere la quantità di una pagina visualizzata prima di passare a un'altra pagina. Questo plug-in consente di determinare la quantità di contenuto che gli utenti visualizzano in media, in modo da poter ottimizzare la lunghezza e i layout della pagina in base ai comportamenti degli utenti.
 keywords: Implementazione di Analytics
-seo-description: Misura l'attività di scorrimento di un visitatore per vedere la quantità di pagina visualizzata prima di passare a un'altra pagina. Questo plug-in consente di determinare il volume di contenuto visualizzato dagli utenti in medie, in modo da ottimizzare le lunghezze di pagina e i layout in base ai comportamenti utente.
-seo-title: Getpercentpageviewed
+seo-description: Misura l'attività di scorrimento di un visitatore per vedere la quantità di una pagina visualizzata prima di passare a un'altra pagina. Questo plug-in consente di determinare la quantità di contenuto che gli utenti visualizzano in media, in modo da poter ottimizzare la lunghezza e i layout della pagina in base ai comportamenti degli utenti.
+seo-title: getPercentPageViewed
 solution: Analytics
 subtopic: Plug-in
-title: Getpercentpageviewed
+title: getPercentPageViewed
 topic: Sviluppatore e implementazione
-uuid: 1751 dcdb -699 f -4 bd 1-8 bcb -5 e 62 fa 24896 a
+uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Getpercentpageviewed
+# getPercentPageViewed
 
-Il plug-plugin getpercentpageviewed misura l'attività di scorrimento di un visitatore per vedere la quantità di pagina visualizzata dal visitatore prima di passare a un'altra pagina.
+Il plug-in getPercentPageViewed misura l'attività di scorrimento di un visitatore per vedere la quantità di pagina visualizzata dal visitatore prima di passare a un'altra pagina.
 
 >[!NOTE]
->Non è necessario utilizzare il plug-plugin getpercentpagevisualizzato se le pagine Web sono di dimensioni ridotte e non è necessario misurare il livello di scorrimento verso il basso dei visitatori. Inoltre, se desiderate misurare l'attività di scorrimento solo sulle pagine di uscita, non potete utilizzare questo plug-in.
+>Non è necessario utilizzare il plug-in getPercentPageViewed se le pagine Web sono di piccole dimensioni in altezza e non è necessario misurare la distanza di scorrimento dei visitatori verso il basso. Inoltre, se desiderate misurare l'attività di scorrimento solo sulle pagine di uscita, non potete utilizzare questo plug-in.
 
 ## Prerequisiti
 
-Per eseguire il plug-plugin getpercentpageviewed, devi avere appmeasurement e il plugin handleppvevents.
+Per eseguire il plug-in getPercentPageViewed è necessario disporre di AppMeasurement e del plug-in di supporto handlePPVevents.
 
 ## Implementazione
 
-To implement this plugin, copy and paste the code to anywhere within the **[!UICONTROL Plugins]** section of the [!DNL AppMeasurement] file.
+Per implementare questo plug-in, copiate e incollate il codice in qualsiasi punto della **[!UICONTROL Plugins]** sezione del [!DNL AppMeasurement] file.
 
 >[!NOTE]
->L'aggiunta di commenti/numeri di versione del codice al file appmeasurement aiuta Adobe Consulting a risolvere eventuali problemi di implementazione potenziali.
+>L'aggiunta dei commenti o dei numeri di versione del codice al file AppMeasurement aiuta Adobe Consulting a risolvere eventuali problemi di implementazione.
 
-You can run the `getPercentPageViewed` function as needed within the doPlugins function (see example calls below.)
+È possibile eseguire la `getPercentPageViewed` funzione come necessario all'interno della funzione doPlugins (vedere le chiamate di esempio di seguito).
 
 ## Argomenti da trasmettere
 
 | Argomento | Definizione |
 |---|---|
-| pid (facoltativo, stringa) | Identificatore di pagina correlato alle percentuali fornite dalle misure del plug-in. Per impostazione predefinita, viene utilizzata la variabile Analytics pagename o l'URL se la variabile pagename non è impostata |
-| ch (facoltativo, booleano) | " True "è il valore consigliato/predefinito per questo argomento. Impostate questa opzione come «false» se non desiderate che il plug-plugin tenga conto delle modifiche apportate alle dimensioni di una pagina dopo il caricamento iniziale, a causa del codice SPA, HTML dinamico, ecc. |
+| pid (facoltativo, stringa) | Identificatore di pagina associato alle percentuali fornite dalle misure del plug-in. Per impostazione predefinita viene visualizzata la variabile pageName di Analytics o l'URL se la variabile pageName non è impostata |
+| ch (facoltativo, booleano) | "True" è il valore consigliato/predefinito per questo argomento. Impostate questo valore su "false" se non desiderate che questo plug-in consideri eventuali modifiche apportate alla dimensione di una pagina dopo il caricamento iniziale, a causa del codice SPA, HTML dinamico, ecc. |
 
 ## Restituisce
 
-Il plug-plugin getpercentpageviewed non restituisce alcun valore. ma imposta le seguenti variabili all'interno dell'oggetto appmeasurement:
+Il plug-in getPercentPageViewed non restituisce nulla. Imposta invece le seguenti variabili all'interno dell'oggetto AppMeasurement:
 
-* `s._ppvPreviousPage`: Il nome della pagina precedente visualizzata (poiché le misure finali non sono disponibili fino a quando viene caricata una nuova pagina).
-* `s._ppvHighestPercentViewed`: La percentuale più alta della pagina precedente visualizzata dal visitatore (in altezza). ossia il punto più lungo che il visitatore scorre verso il basso sulla pagina precedente.
-* `s._ppvInitialPercentViewed`: Percentuale della pagina precedente che era visibile al primo caricamento della pagina precedente.
-* `s._ppvHighestPixelSeen`: Il numero massimo di pixel totali visualizzati (in altezza) quando il visitatore scorre verso il basso la pagina precedente.
+* `s._ppvPreviousPage`: Nome della pagina visualizzata precedente (i valori finali non sono disponibili fino al caricamento di una nuova pagina).
+* `s._ppvHighestPercentViewed`: La percentuale più alta della pagina precedente visualizzata dal visitatore (in altezza). In altre parole, l'ulteriore punto in cui il visitatore ha fatto scorrere la pagina precedente.
+* `s._ppvInitialPercentViewed`: Percentuale della pagina precedente visibile al primo caricamento della pagina precedente.
+* `s._ppvHighestPixelSeen`: Il numero massimo di pixel totali visti (in altezza) dal visitatore che ha fatto scorrere la pagina precedente.
 
 ## Cookie
 
-The getPercentPageViewed plugin creates a cookie, called `s_ppv`, that is passed from page to page. Il contenuto del cookie contiene i valori inseriti nelle quattro variabili descritte sopra e scade alla fine della sessione.
+Il plug-in getPercentPageViewed crea un cookie, denominato `s_ppv`, che viene passato da una pagina all'altra. Il contenuto del cookie contiene i valori inseriti nelle quattro variabili sopra descritte e scade alla fine della sessione.
 
-## Esempio di chiamate
+## Chiamate di esempio
 
 **Esempio di chiamata 1**
 
@@ -67,22 +67,22 @@ s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercent
 }  
 ```
 
-Esempio di codice sopra:
-* Determina se s. pagename è impostato e, in tal caso, il codice eseguirà la funzione getpercentpageviewed.
-* When the `getPercentPageViewed` function runs, it creates the variables described in the "Returns" section above.
-* Se le variabili «Restituisce» sono state impostate correttamente:
+Esempio di codice riportato sopra:
+* Determina se s.pageName è impostato e, in tal caso, il codice eseguirà la funzione getPercentPageViewed.
+* Quando la `getPercentPageViewed` funzione viene eseguita, crea le variabili descritte nella sezione "Restituisce" precedente.
+* Se le variabili "Restituisce" sono state impostate correttamente:
 
-   * The code sets s.prop1 equal to the value of `s._ppvPreviousPag`e (i.e. the previous value of `s.pageName`, or the previous page.)
-   * Il codice imposta anche s. prop 2 uguale alla percentuale massima visualizzata della pagina precedente e alla percentuale iniziale visualizzata della pagina precedente.
+   * Il codice imposta s.prop1 uguale al valore di `s._ppvPreviousPag`e (ovvero il valore precedente di `s.pageName`o della pagina precedente).
+   * Il codice imposta anche s.prop2 uguale alla percentuale più alta visualizzata della pagina precedente e alla percentuale iniziale visualizzata della pagina precedente.
 
 >[!NOTE]
->Se un'intera pagina è visibile quando viene caricata per la prima volta, sia la percentuale massima visualizzata sia quelle visualizzate saranno uguali a 100. Tuttavia, se un'intera pagina non è visibile quando viene caricata per la prima volta, ma il visitatore non scorre mai la pagina prima di passare alla pagina successiva, sia la percentuale più alta visualizzata sia quelle visualizzate saranno uguali allo stesso valore.
+>Se un’intera pagina è visibile al primo caricamento, sia la percentuale più elevata visualizzata che la percentuale iniziale visualizzata saranno uguali a 100. Tuttavia, se una pagina intera non è visibile al primo caricamento, ma il visitatore non scorre mai verso il basso prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
 
 **Esempio di chiamata 2**
 
-Supponiamo che s. prop 5 sia stato impostato per acquisire un "tipo di pagina", piuttosto che l'intero nome della pagina.
+Supponete che s.prop5 sia stato impostato per acquisire un "tipo di pagina" con rollup anziché l’intero nome della pagina.
 
-Il codice seguente determina se è stato impostato s. prop 5 e, in tal caso, memorizza il suo valore come «pagina precedente» in modo che rientri con le dimensioni visualizzate e quelle iniziali visualizzate. The value is still stored in the `s._ppvPreviousPage` variable but can be treated as if it were the previous page type instead of the previous page name.
+Il codice seguente determina se s.prop5 è stato impostato e, in tal caso, ne memorizza il valore come "pagina precedente" in modo da correlarlo con la percentuale più alta visualizzata e la percentuale iniziale visualizzata. Il valore è ancora memorizzato nella `s._ppvPreviousPage` variabile ma può essere considerato come se fosse il tipo di pagina precedente invece del nome di pagina precedente.
 
 ```
 if(s._ppvPreviousPage)
@@ -92,19 +92,19 @@ s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPe
 }  
 ```
 
-## Sostituzione oggetto S
+## Sostituzione oggetti S
 
-Quando create un'istanza dell'oggetto della libreria appmeasurement principale con un nome diverso da "s", modificate la parte seguente del codice plug-plugin da questa stringa:
+Quando create l'istanza dell'oggetto libreria AppMeasurement principale con un nome diverso da "s", modificate la seguente parte del codice del plug-in da qui:
 
 `s.getPercentPageViewed=function(pid,ch)`
 
-a questo scopo:
+in questo:
 
 `[objectname].getPercentPageViewed=function(pid,ch)`
 
 ## Codice da distribuire
 
-Plugins Section: Add the following code to the area of the `s_code.js` file labeled PLUGINS SECTION. Non apportate modifiche a questa parte del codice plug-in.
+Sezione Plugins: Aggiungere il codice seguente all'area del `s_code.js` file con etichetta PLUGINS SECTION. Non apportare modifiche a questa parte del codice plug-in.
 
 ```
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/ 
