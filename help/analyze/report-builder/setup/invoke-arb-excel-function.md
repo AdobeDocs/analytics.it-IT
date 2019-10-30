@@ -1,44 +1,42 @@
 ---
-description: Questa capacità integra ulteriormente l'utilizzo di Generatore di report nel flusso di lavoro Excel naturale, senza dover accedere all'interfaccia utente di Generatore di report.
-seo-description: Questa capacità integra ulteriormente l'utilizzo di Generatore di report nel flusso di lavoro Excel naturale, senza dover accedere all'interfaccia utente di Generatore di report.
-seo-title: Richiamo delle funzionalità di Generatore di report dalle funzioni di Microsoft Excel
+description: Questa funzionalità integra ulteriormente l'utilizzo del Generatore di report nel flusso di lavoro Excel naturale, senza che sia necessario accedere all'interfaccia utente del Generatore di report.
+seo-description: Questa funzionalità integra ulteriormente l'utilizzo del Generatore di report nel flusso di lavoro Excel naturale, senza che sia necessario accedere all'interfaccia utente del Generatore di report.
+seo-title: Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
 solution: Analytics
-title: Richiamo delle funzionalità di Generatore di report dalle funzioni di Microsoft Excel
+title: Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
 topic: Generatore di report
-uuid: 5342 cc 4 f -085 d -4 a 2 d-a 498-38 b 00 a 3 ef 4 d 3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Richiamo delle funzionalità di Generatore di report dalle funzioni di Microsoft Excel
+# Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
 
-Questa capacità integra ulteriormente l'utilizzo di Generatore di report nel flusso di lavoro Excel naturale, senza dover accedere all'interfaccia utente di Generatore di report.
+Questa funzionalità integra ulteriormente l'utilizzo del Generatore di report nel flusso di lavoro Excel naturale, senza che sia necessario accedere all'interfaccia utente del Generatore di report.
 
-Ad esempio, potrebbe essere necessario aggiornare automaticamente le richieste di Generatore di report il cui filtro di input si basa sui dati estesi in Excel da altre fonti. Ora puoi effettuare questa operazione utilizzando la stringa refreshrequestsincellsrange (.) . Tutte le chiamate sono asincrone. Essi tornano immediatamente e non attendono l'esecuzione completa di una chiamata.
+Ad esempio, potrebbe essere utile aggiornare automaticamente le richieste Generatore di report il cui filtro di input è basato sui dati estratti in Excel da altre origini. Ora è possibile eseguire questa operazione utilizzando la stringa RefreshRequestsInCellsRange(..) . Tutte le chiamate sono asincrone. Essi restituiscono immediatamente e non aspettano che una chiamata venga eseguita completamente.
 
->[!NOTE]
->
->Affinché questa funzionalità funzioni, è necessario che sia installato il Generatore di report 5.0 (o versione successiva).
+> [!NOTE] Per poter utilizzare questa funzionalità, è necessario che sia installato Generatore di report 5.0 (o successivo).
 
 Di seguito è riportata una tabella con l'elenco delle funzioni esposte:
 
 | Nome funzione | Descrizione |
 |---|---|
-| string asyncrefreshall () | Aggiorna tutte le richieste di Generatore di report presenti in una cartella di lavoro. |
-| string asyncrefreshrange (stringa rangeaddressina 1 Format) | Aggiorna tutte le richieste di Generatore di report presenti nell'indirizzo intervallo celle specificato (un'espressione stringa che rappresenta una serie di celle in formato A 1, ad esempio "Sheet 1! A 2: A 10 "). |
-| string asyncrefreshrangealttextparam () | Aggiorna tutte le richieste di Generatore di report presenti nell'intervallo di celle specificato, trasmesse attraverso il testo alternativo di Ms Form Control. |
-| string asyncrefreshactiveworksheet () | Aggiorna tutte le richieste di Generatore di report presenti nel foglio di lavoro attivo. |
-| stringa asyncrefreshworksheet (stringa worksheetname) | Aggiorna tutte le richieste di Generatore di report presenti nel foglio di lavoro specificato (il nome del foglio di lavoro così come appare sulla scheda). |
-| string asyncrefreshworksheetalttextparam (); | Aggiorna tutte le richieste di Generatore di report presenti nel nome del foglio di lavoro specifico trasmesso attraverso il testo alternativo di Ms Form Control |
-| string getlastrunstatus () | Restituisce una stringa che descrive lo stato dell'ultima esecuzione. |
+| string AsyncRefreshAll() | Aggiorna tutte le richieste del Generatore di report presenti in una cartella di lavoro. |
+| string AsyncRefreshRange(string rangeAddressInA1Format) | Aggiorna tutte le richieste del Generatore di report presenti nell'indirizzo specificato dell'intervallo di celle (un'espressione stringa che rappresenta un intervallo di celle in formato A1, ad esempio "Sheet1!A2:A10"). |
+| string AsyncRefreshRangeAltTextParam() | Aggiorna tutte le richieste del Generatore di report presenti nell'intervallo di celle specificato che viene passato attraverso il Testo alternativo del controllo Ms Form. |
+| string AsyncRefreshActiveWorksheet() | Aggiorna tutte le richieste del Generatore di report presenti nel foglio di lavoro attivo. |
+| string AsyncRefreshWorksheet(string foglio di lavoroName) | Aggiorna tutte le richieste del Generatore di report presenti nel foglio di lavoro specificato (il nome del foglio di lavoro visualizzato nella scheda). |
+| string AsyncRefreshWorksheetAltTextParam(); | Aggiorna tutte le richieste del Generatore di report presenti nel nome specifico del foglio di lavoro che è stato passato attraverso il Testo alternativo del Controllo del modulo Ms |
+| string GetLastRunStatus() | Restituisce una stringa che descrive lo stato dell'ultima esecuzione. |
 
-To access these functions within report builder, go to [!UICONTROL Formulas] &gt; [!UICONTROL Insert Function]. Nella parte inferiore dell'elenco delle categorie è disponibile Adobe. reportbuilder. Bridge:
+Per accedere a queste funzioni all'interno del generatore di report, vai a [!UICONTROL Formulas] &gt; [!UICONTROL Insert Function]. In fondo all’elenco delle categorie, troverete Adobe.ReportBuilder.Bridge:
 
 ![](assets/arb_functions.png)
 
-## Use these functions in a formula {#section_034311081C8D4D7AA9275C1435A087CD}
+## Utilizzare queste funzioni in una formula {#section_034311081C8D4D7AA9275C1435A087CD}
 
 Ad esempio, la formula
 
@@ -46,35 +44,35 @@ Ad esempio, la formula
 =IF(OR(ISTEXT(P5),ISBLANK(P5)),AsyncRefreshRange("P9"),"")
 ```
 
-" Se il valore nella cella P 5 è testo o è vuoto, aggiornare l'intervallo nella cella P 9. "
+dice "Se il valore nella cella P5 è testo o è vuoto, aggiorna l’intervallo nella cella P9."
 
-## Use Report Builder functions with format control {#section_26123090B5BD49748C8D8ED7A1C5ED84}
+## Utilizzare le funzioni Generatore di report con controllo del formato {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
-Ora potete assegnare una macro a un controllo creato e che il controllo può essere una funzione che aggiorna una richiesta di cartelle di lavoro. Ad esempio, la funzione asyncrefreshactiveworksheet aggiorna tutte le richieste in un foglio di lavoro. A volte, tuttavia, potrebbe essere necessario aggiornare solo alcune richieste, non tutte.
+È ora possibile assegnare una macro a un controllo creato e tale controllo può essere una funzione che aggiorna una richiesta di cartella di lavoro. Ad esempio, la funzione AsyncRefreshActiveWorksheet aggiornerà tutte le richieste in un foglio di lavoro. A volte, tuttavia, potrebbe essere utile aggiornare solo alcune richieste, non tutte.
 
-1. Impostate il parametro macro.
-1. Right-click the control and select **[!UICONTROL Assign Macro]**.
-1. Immettete il nome della funzione del generatore di report (nessun parametro o parentesi).
+1. Impostare il parametro della macro.
+1. Fare clic con il pulsante destro del mouse sul controllo e selezionare **[!UICONTROL Assign Macro]**.
+1. Immettere il nome della funzione generatore di report (nessun parametro o parentesi).
 
 ![](assets/assign_macro.png)
 
-## Pass parameters to Report Builder functions via format control {#section_ECCA1F4990D244619DFD79138064CEF0}
+## Trasmettere i parametri alle funzioni Generatore di report tramite il controllo del formato {#section_ECCA1F4990D244619DFD79138064CEF0}
 
-Le due funzioni che hanno un parametro possono essere utilizzate con il controllo Format, ma solo tramite il campo Testo Alt:
+Le due funzioni che utilizzano un parametro possono essere utilizzate con il controllo del formato, ma solo tramite il campo Testo Alt:
 
-* Asyncrefreshrange (stringa rangeaddressina 1 Format)
-* Asyncrefreshworksheet (stringa worksheetname)
+* AsyncRefreshRange(string rangeAddressInA1Format)
+* AsyncRefreshWorksheet(string foglio di lavoroName)
 
-1. Right-click the control and select **[!UICONTROL Format Control]**.
+1. Fare clic con il pulsante destro del mouse sul controllo e selezionare **[!UICONTROL Format Control]**.
 
    ![](assets/format_control.png)
 
-1. Click the [!UICONTROL Alt Text] tab.
+1. Fate clic sulla [!UICONTROL Alt Text] scheda.
 
    ![](assets/alt_text.png)
 
-1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed.
-1. Open the list of report builder parameters under [!UICONTROL Formulas] &gt; [!UICONTROL Insert Function]&gt; [!UICONTROL Adobe.ReportBuilder.Bridge].
+1. In [!UICONTROL Alternative text]di seguito, immettere l'intervallo di celle da aggiornare.
+1. Aprite l'elenco dei parametri del generatore di report in [!UICONTROL Formulas] &gt; [!UICONTROL Insert Function]&gt; [!UICONTROL Adobe.ReportBuilder.Bridge].
 
-1. Pick one of the two functions that end with AltTextParam and click **[!UICONTROL OK]**.
+1. Selezionare una delle due funzioni che terminano con AltTextParam e fare clic **[!UICONTROL OK]**.
 
