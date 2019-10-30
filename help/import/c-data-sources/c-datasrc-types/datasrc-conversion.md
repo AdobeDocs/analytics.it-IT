@@ -1,14 +1,14 @@
 ---
 description: Origini dati supporta le dimensioni e metriche di dati di conversione seguenti per i tipi di dati elaborati come conversione.
 seo-description: Origini dati supporta le dimensioni e metriche di dati di conversione seguenti per i tipi di dati elaborati come conversione.
-seo-title: 'Conversione  '
+seo-title: Conversione
 solution: Analytics
 subtopic: Origini dati
-title: 'Conversione  '
+title: Conversione
 topic: Sviluppatore e implementazione
-uuid: 5 e 7907 b 1-6 c 9 c -4073-876 b -410 f 3 f 29767 d
+uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ Se specifichi un evento Visualizzazione, devi specificare anche la dimensione de
 | Data | Utilizzare il formato data seguente: MM/GG/AAAA/HH/mm/SS (ad esempio, 01/01/2015/06/00/00). |
 | Categoria | Nome della categoria.  Se specifichi una categoria, devi anche selezionare un prodotto. |
 | Canale | Nome del canale. |
-| Evarn | Nome evarn. I valori validi per n sono numeri interi 1 - 75. |
+| eVarn | Nome eVarn. I valori validi per n sono numeri interi 1 - 75. |
 | Prodotto | Nome del prodotto. |
 | Stato | Nome dello stato. |
 | ZIP | Nome dello ZIP. |
@@ -45,7 +45,7 @@ Se specifichi un evento Visualizzazione, devi specificare anche la dimensione de
 | Visualizzazioni carrello | Numero di visualizzazioni del carrello. |
 | Pagamenti | Numero di pagamenti. |
 | Evento n | Numero di volte in cui si è verificato l'evento n. I valori validi per n sono numeri interi 1 - 100.  Se specifichi un evento Visualizzazione, devi specificare anche la dimensione dei dati corrispondenti (eVar). Ad esempio, se includi visualizzazioni eVar2, devi elencare eVar2 con un valore. |
-| Visualizzazioni evarn | Numero di volte in cui è stata visualizzata l'eVar n. I valori validi per n sono numeri interi 1 - 75. |
+| Visualizzazioni eVarn | Numero di volte in cui è stata visualizzata l'eVar n. I valori validi per n sono numeri interi 1 - 75. |
 | Prezzo | Prezzo del prodotto. |
 | Ordini | Numero di ordini inseriti. |
 | Visualizzazioni prodotto | Numero di visualizzazioni del prodotto. |
