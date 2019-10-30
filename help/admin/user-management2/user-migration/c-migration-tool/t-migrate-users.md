@@ -5,7 +5,7 @@ seo-title: Eseguire la migrazione degli account utente di Analytics per Adobe ID
 title: Eseguire la migrazione degli account utente di Analytics per Adobe ID
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,13 +18,11 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
 
 Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’Admin Console.
 
->[!NOTE]
->
->Se un amministratore che non ha eseguito l'accesso tramite Experience Cloud tenta di accedere allo strumento di migrazione degli ID utente, verrà reindirizzato alla pagina di accesso di Experience Cloud.
+> [!NOTE] Se un amministratore che non ha eseguito l'accesso tramite Experience Cloud tenta di accedere allo strumento di migrazione degli ID utente, verrà reindirizzato alla pagina di accesso di Experience Cloud.
 
 **Per eseguire la migrazione degli utenti di Analytics**
 
-1. Passa a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User ID Migration]** .
+1. Passa a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User ID Migration]**.
 
    ![](assets/migration-progress.png)
 
