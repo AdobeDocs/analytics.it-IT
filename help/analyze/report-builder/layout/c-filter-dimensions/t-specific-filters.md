@@ -5,9 +5,9 @@ seo-title: Filtri specifici
 solution: Analytics
 title: Filtri specifici
 topic: Generatore di report
-uuid: b 3 a 8187 a -3 d 59-4 da 0-abca-e 933664332 e 3
+uuid: b3a8187a-3d59-4da0-abca-e93364332e3
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,26 +16,26 @@ source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
 
 Filtri che applicano termini di dimensione specifici.
 
-Puoi cercare su elementi dimensionali specifici creando un filtro che corrisponda ai criteri esatti. For example, you can create the following type of filter: page in [!DNL homepage.htm], [!DNL contact_us.html], [!DNL corporate_info.html].
+Potete eseguire ricerche su elementi dimensionali specifici creando un filtro che corrisponda a criteri esatti. Ad esempio, potete creare il seguente tipo di filtro: pagina in [!DNL homepage.htm], [!DNL contact_us.html], [!DNL corporate_info.html].
 
 **Per creare un filtro specifico**
 
-1. Create or edit a request, and advance to the [!UICONTROL Request Wizard: Step 2].
+1. Create o modificate una richiesta e passate al [!UICONTROL Request Wizard: Step 2].
 
    ![Risultato passaggio](assets/dimension_filter.png)
 
-1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
+1. Fare clic sul [!UICONTROL Request Wizard: Step 2]collegamento accanto alla quota nella griglia, quindi scegliere **[!UICONTROL Filter]**.
 
    ![Risultato passaggio](assets/choose_page_specific01.png)
 
-1. Enable **[!UICONTROL Specific]**, then enable one of the following options:
+1. Attiva **[!UICONTROL Specific]**, quindi abilita una delle seguenti opzioni:
 
-   * **Da Intervallo di celle:** Consente di selezionare i dati dalle celle. Potete selezionare:
-   * **Tutte le celle nell'intervallo:** Consente di mappare ogni cella per l'intervallo. Il testo descrittivo indica il numero di gruppi di celle da selezionare. Per mappare più di un gruppo di celle, premere il tasto Ctrl mentre si effettuano selezioni successive. Se l'intervallo che deve essere mappato contiene solo una cella, questa è l'unica opzione disponibile
-   * **Prima cella di intervallo:** È sufficiente selezionare la cella in alto a sinistra dell'intervallo, quindi scegliere una direzione per i dati. Inoltre, se la richiesta ha più periodi, scegliete la direzione dei punti e scegliete se saltare un numero di celle tra periodi.
-   * **Da Elenco:** Consente di selezionare i dati da un elenco a cui è possibile aggiungere dati.
-1. If you enable **[!UICONTROL From List]**, select any available listed items or click **[!UICONTROL Add]**.
+   * **** Dall'intervallo di celle: Consente di selezionare i dati dalle celle. Potete selezionare:
+   * **** Tutte le celle nell'intervallo: Consente di mappare ogni cella per l'intervallo. Il testo descrittivo spiega il numero di gruppi di celle da selezionare. Per mappare più di un gruppo di celle, premere il tasto Ctrl mentre si eseguono le selezioni successive. Se l'intervallo da mappare contiene una sola cella, questa è l'unica opzione disponibile
+   * **** Prima cella dell'intervallo: È sufficiente selezionare la cella in alto a sinistra dell’intervallo e quindi scegliere una direzione per i dati. Inoltre, se la richiesta ha più periodi, potete scegliere la direzione dei periodi e scegliere se ignorare un determinato numero di celle tra i periodi.
+   * **** Da elenco: Consente di selezionare i dati da un elenco a cui è possibile aggiungere i dati.
+1. Se si abilita **[!UICONTROL From List]**, selezionare gli elementi elencati disponibili o fare clic su **[!UICONTROL Add]**.
 
-   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension values for the current request date range, limited to the first 10,000 items. You can search across these items or click **[!UICONTROL More ...]**, which displays the [!UICONTROL Search Form], so that you can create a more detailed search for dimensions.
-1. On the [!UICONTROL Select From List], click **[!UICONTROL OK]**.
-1. On the [!UICONTROL Choose Page] form, save your Specific filter if you want, then click **[!UICONTROL OK]**.
+   Quando si fa clic **[!UICONTROL Add]**, nel [!UICONTROL Select From List] modulo viene visualizzato un elenco di valori di dimensione disponibili per l'intervallo di date della richiesta corrente, limitato ai primi 10.000 elementi. Potete eseguire una ricerca tra questi elementi o fare clic **[!UICONTROL More ...]**, per visualizzare il [!UICONTROL Search Form]contenuto, in modo da creare una ricerca più dettagliata delle dimensioni.
+1. Fare clic su [!UICONTROL Select From List], **[!UICONTROL OK]**.
+1. Sul [!UICONTROL Choose Page] modulo, salvare il filtro Specifico, se lo si desidera, quindi fare clic su **[!UICONTROL OK]**.
