@@ -8,7 +8,7 @@ title: Aggiungere dati offline
 topic: Reports and Analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Vedere "Uso delle origini dati" nella Guida [utente di](https://marketing.adobe.
 
 **Aggiungere dati offline**
 
-1. Clic **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
 1. Nella pagina Origini dati fai clic su **[!UICONTROL Create.]**
 1. In **[!UICONTROL 1. Select Category]**, selezionare **[!UICONTROL Offline Channel Data]**.
 1. In **[!UICONTROL 2. Select Type]**, selezionare **[!UICONTROL Offline Channel Data]**.
