@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Alert Builder (Generatore di avvisi)
 title: Alert Builder (Generatore di avvisi)
-uuid: ebc 2 d 457-4 abd -4 b 1 a -9357-489 b 5 aeb 3 f 64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 >[!IMPORTANT]
 >
->Gli Avvisi intelligenti sono disponibili solo per i clienti Adobe Analytics Prime e Adobe Analytics Ultimate.
+>Gli avvisi intelligenti sono disponibili solo per i clienti Adobe Analytics Prime e Adobe Analytics Ultimate.
 
 ## Access Alert Builder
 
@@ -27,7 +27,7 @@ Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
 * From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
 
-## Creazione di avvisi
+## Creare avvisi
 
 Se hai già avuto modo di creare segmenti o metriche calcolate in Analytics, l’interfaccia di Alert Builder (Generatore di avvisi) ti risulterà familiare:
 
@@ -43,9 +43,7 @@ Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o 
 
 Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
 
->[!NOTE]
->
->Per le suite di rapporti con un calendario personalizzato, nel Generatore di avvisi non è supportata la granularità mensile.
+> [!NOTE] Per le suite di rapporti con un calendario personalizzato, nel Generatore di avvisi non è supportata la granularità mensile.
 
 **Recipients (Destinatari)**
 
@@ -55,7 +53,7 @@ Specifica a chi deve essere inviato l’avviso. Può essere inviato a un utente 
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-Il messaggio e-mail ricevuto dall'utente dopo l'attivazione dell'avviso sarà simile a quello riportato di seguito:
+Il messaggio e-mail che un utente riceverebbe dopo l’attivazione di un avviso è simile al seguente:
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ Imposta la data di scadenza dell’avviso.
 
 * Trascina la metrica nell’area per l’aggiunta degli attivatori.
 
-   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
    * anomaly exists (l’anomalia esiste)
@@ -90,7 +88,7 @@ Imposta la data di scadenza dell’avviso.
 
 Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio.
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## Anteprima avvisi {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.
 
