@@ -1,22 +1,22 @@
 ---
-description: Informazioni sui tre modi per accedere a Generatore di report.
-seo-description: Informazioni sui tre modi per accedere a Generatore di report.
-seo-title: Sign-in di Generatore di report
+description: Informazioni sui tre modi in cui accedere al Generatore di report.
+seo-description: Informazioni sui tre modi in cui accedere al Generatore di report.
+seo-title: Accesso di Report Builder
 solution: Analytics
-title: Sign-in di Generatore di report
+title: Accesso di Report Builder
 topic: Generatore di report
-uuid: 9 a 21 b 791-e 323-46 d 2-b 850-2 d 67 babe 964 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Sign-in di Generatore di report
+# Accesso di Report Builder
 
-Informazioni sui tre modi per accedere a Generatore di report.
+Informazioni sui tre modi in cui accedere al Generatore di report.
 
-Currently, the following login options are available when you click **[!UICONTROL Sign In]** to Report Builder.
+Al momento, quando si fa clic su Generatore di report sono disponibili le seguenti opzioni **[!UICONTROL Sign In]** di accesso.
 
 ![](assets/login_screen.png)
 
@@ -26,31 +26,29 @@ Currently, the following login options are available when you click **[!UICONTRO
 
 ## Standard {#section_6D54B8ADAE7F416BB83F5082B3771CFA}
 
-Utilizzate questo login se desiderate accedere a Generatore di report utilizzando le credenziali di Adobe Analytics.
+Utilizzate questo login per accedere al Generatore di report utilizzando le credenziali di Adobe Analytics.
 
-**Login di Generatore di report - Definizioni dei campi**
+**Login del Generatore di report - Definizioni dei campi**
 
 | Campo | Definizione |
 |--- |--- |
-| Company | La credenziale di accesso società utilizzata per Adobe Analytics. |
-| Nome utente | Il login Nome utente utilizzato per Adobe Analytics. Le attività pianificate per un utente sono collegate al nome utente. Potete visualizzare le attività pianificate da qualsiasi computer se accedete al generatore di report con le stesse credenziali di accesso. |
+| Azienda | La credenziale di accesso della società utilizzata per Adobe Analytics. |
+| Nome utente | L’accesso al nome utente utilizzato per Adobe Analytics. Le attività pianificate per un utente sono collegate al nome utente. È possibile visualizzare le attività pianificate da qualsiasi computer se si accede al generatore di report con le stesse credenziali di accesso. |
 | Password | La password di Analytics. |
-| Ricorda utente | Le informazioni di accesso sono crittografate e memorizzate in un file di profilo utente sul computer in cui è installato Generatore di report. Poiché le informazioni di accesso vengono salvate, chiunque utilizzi lo stesso PC del creatore del rapporto che apre un foglio di calcolo contenente un rapporto può aggiornare e modificare i dati. Se condividete il computer con altri utenti e desiderate mantenere privati i dati del foglio di calcolo, non attivate questa opzione. To disable your automatic login setting, click **[!UICONTROL Log in With Different Credentials]** on the Toolbar and disable **[!UICONTROL Remember Me]**. |
-| Usare un server proxy | Attivate se accedete a Internet tramite un server proxy e sono necessari per fornire un nome utente e una password proxy. |
+| Ricorda utente | Le informazioni di login vengono crittografate e memorizzate in un file di profilo utente nel computer in cui è installato Generatore di report. Poiché le informazioni di login vengono salvate, chiunque utilizzi lo stesso PC del creatore di report che apre un foglio di calcolo contenente un report può aggiornare e modificare i dati. Se condividete il computer con altri utenti e desiderate mantenere privati i dati del foglio di calcolo, non attivate questa opzione.  Per disattivare l'impostazione di accesso automatico, fate clic **[!UICONTROL Log in With Different Credentials]** sulla barra degli strumenti e disattivate **[!UICONTROL Remember Me]**. |
+| Utilizzare un server proxy | Abilitate questa opzione se state effettuando l'accesso a Internet tramite un server proxy e dovete fornire un nome utente e una password proxy. |
 
 ## Single sign-on {#section_6970A5F926774976B85FFE576610E85F}
 
-Questo single sign-on (legacy) ti consente di accedere solo ad Adobe Analytics, non all'intero Experience Cloud.
+Questo single sign-on (legacy) consente di accedere solo ad Adobe Analytics, non all’intero Experience Cloud.
 
-Puoi anche digitare un dominio e il sistema riconoscerà il dominio e reindirizzerà alla pagina di accesso della tua società per accedere ad Adobe Analytics.
+Puoi anche digitare un dominio e il sistema riconoscerà il dominio e ti reindirizzerà alla pagina di accesso della tua società per accedere ad Adobe Analytics.
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-L'accesso a Experience Cloud consente di utilizzare l'Enterprise ID (e-mail e la password) per accedere ad Adobe Experience Cloud. Click **[!UICONTROL Sign In]** &gt; **[!UICONTROL Sign in with an Enterprise ID]** to be redirected to your company's single sign-on page. For more information on Enterprise ID, click [here](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
+L'accesso a Experience Cloud consente di utilizzare il tuo Enterprise ID (e-mail e password) per accedere ad Adobe Experience Cloud. Fai clic **[!UICONTROL Sign In]** &gt; **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzato alla pagina di accesso singolo della tua società. Per ulteriori informazioni sull'Enterprise ID, fai clic [qui](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->L'accesso a Experience Cloud è basato sulla sessione e scade dopo 30 giorni.
+> [!NOTE] L’accesso a Experience Cloud è basato su sessioni e il token scade dopo 30 giorni.
 
