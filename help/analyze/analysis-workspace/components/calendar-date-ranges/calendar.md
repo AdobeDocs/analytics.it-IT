@@ -1,16 +1,16 @@
 ---
 description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 seo-description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
-seo-title: Calendario       e panoramica degli intervalli di date
-title: Panoramica degli intervalli di calendario e calendario
-uuid: 3 d 7727 ba -9070-4 f 7 c -815 f-c 98 baa 4 e 3 a 2 d
+seo-title: Panoramica del calendario e degli intervalli di date
+title: Panoramica del calendario e degli intervalli di date
+uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Panoramica degli intervalli di calendario e calendario
+# Panoramica del calendario e degli intervalli di date
 
 Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 
@@ -22,13 +22,13 @@ Fai un primo clic per iniziare la selezione di un intervallo di date. Evidenzia 
 
 ![](assets/aw_calendar.png)
 
-[Utilizzo degli intervalli di date e del calendario in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Utilizzo di intervalli di date e calendario in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 
 | Impostazione | Descrizione |
 |--- |--- |
-| Giorni selezionati | Giorni/settimane/mesi/mesi selezionati. |
-| Uso delle date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto in gennaio, puoi vedere gli ordini di dicembre.  Anteprima data: indica il periodo di tempo coperto dal calendario continuo.  Inizio: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.  Fine: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.  Un esempio è disponibile  [qui](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| Giorni selezionati | Giorni/settimane/mesi/anni selezionati. |
+| Uso delle date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, se si desidera eseguire un rapporto su tutti gli ordini inseriti "Ultimo mese" (in base al campo Data creazione) ed eseguito il rapporto in dicembre, gli ordini inseriti in novembre verranno visualizzati. Se eseguivi lo stesso rapporto a gennaio, vedreste gli ordini effettuati a dicembre.  Anteprima data: indica il periodo di tempo coperto dal calendario continuo.  Inizio: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.  Fine: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.  Un esempio è disponibile  [qui](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
 | Intervallo date | Consente di scegliere un intervallo di date predefinito. Il valore predefinito è Ultimi 30 giorni. |
 | Applica a tutti i pannelli | Consente di selezionare l’intervallo di date per il pannello corrente e per tutti gli altri pannelli del progetto. |
 | Applica | Applica l’intervallo di date solo al pannello corrente. |
