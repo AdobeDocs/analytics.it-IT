@@ -1,31 +1,31 @@
 ---
-description: Descrive il modo in cui le istanze vengono conteggiate per le variabili merchandising.
+description: Descrive come vengono conteggiate le istanze sulle variabili di merchandising.
 keywords: Implementazione di Analytics
-seo-description: Descrive il modo in cui le istanze vengono conteggiate per le variabili merchandising.
+seo-description: Descrive come vengono conteggiate le istanze sulle variabili di merchandising.
 seo-title: Istanze sulle variabili merchandising
 solution: Analytics
 title: Istanze sulle variabili merchandising
 topic: Sviluppatore e implementazione
-uuid: 4 cdfd 53 e -88 aa -48 cf-a 135-98 f 7 fc 8 dcece
+uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Istanze sulle variabili merchandising
 
-Descrive il modo in cui le istanze vengono conteggiate per le variabili merchandising.
+Descrive come vengono conteggiate le istanze sulle variabili di merchandising.
 
-Le istanze non sono attualmente supportate per le variabili merchandising. Se notate le istanze in un rapporto contenente una variabile di merchandising, essa indica che la evar viene impostata in alcune posizioni all'esterno della stringa products e non deve essere considerata un numero reale di istanze per la variabile di merchandising selezionata.
+Le istanze non sono attualmente supportate per le variabili merchandising. Se notate delle istanze in un rapporto contenente una variabile di merchandising, significa che l'eVar viene impostata in alcune posizioni al di fuori della stringa di prodotti e non deve essere considerata come un conteggio effettivo delle istanze per la variabile di merchandising selezionata.
 
-Se si utilizza Sintassi variabile conversione, un'istanza viene conteggiata ogni volta che la variabile viene impostata. Tuttavia, l'istanza viene assegnata a "None" (Nessuno) a meno che non si verifichi quanto segue ogni volta che la variabile viene impostata:
+Se si utilizza la sintassi della variabile di conversione, viene conteggiata un'istanza ogni volta che la variabile viene impostata. Tuttavia, l'istanza è attribuita a "None" a meno che quanto segue non si verifichi ogni volta che la variabile viene impostata:
 
-* Viene impostato un evento di binding.
+* È impostato un evento di binding.
 * La variabile products è impostata.
-* L'evar di merchandising ha un valore.
+* L'eVar di merchandising ha un valore.
 
-Ad esempio, la seguente istanza di evar 1 è allocata a «Outdoors: Sci goggles ":
+Ad esempio, la seguente istanza di eVar1 è assegnata a "Outdoors:Ski Goggles":
 
 ```js
 s.eVar1="Outdoors:Ski Goggles" 
@@ -33,7 +33,7 @@ s.events="prodView"
 s.products=";Fernie Snow Goggles"
 ```
 
-Tuttavia, nell'esempio successivo, l'istanza di evar 1 è assegnata a "None", poiché tutte le condizioni non vengono soddisfatte quando la evar è impostata (non esiste un evento di binding e la variabile products non è impostata):
+Tuttavia, nell'esempio seguente, l'istanza di eVar1 viene assegnata a "None", poiché tutte le condizioni non vengono soddisfatte quando l'eVar è impostato (non esiste alcun evento di binding e la variabile products non è impostata):
 
 Pagina 1 della visita:
 
@@ -48,9 +48,7 @@ s.events="prodView"
 s.products=";Fernie Snow Goggles"
 ```
 
-L'allocazione su «None» (Nessuno) si verifica se imposti un valore per una pagina evar in cui non si verifica alcun evento di binding, o se imposti il valore evar nella stringa products senza un evento di binding.
+L'allocazione a "None" si verifica se si imposta un valore per un'eVar su una pagina in cui non si verifica alcun evento di binding, o se si imposta il valore eVar nella stringa products senza un evento di binding.
 
->[!NOTE]
->
->La funzionalità corrente per il conteggio delle istanze sulle variabili merchandising è in fase di revisione e viene pianificata di cambiare in una prossima release.
+> [!NOTE] La funzionalità corrente per il conteggio delle istanze sulle variabili di merchandising è in fase di revisione ed è prevista una modifica in una prossima release.
 
