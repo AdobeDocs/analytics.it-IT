@@ -3,9 +3,9 @@ description: È possibile vedere come un valore al quale sei interessato si conf
 seo-description: È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
 seo-title: Grafico bullet
 title: Grafico bullet
-uuid: 2 f 133189-2 a 50-45 af-b 225-7 d 2 b 433 fbef 5
+uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,4 +16,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/bullet-image.png)
 
-Il grafico bullet presenta una misurazione unica, primaria (ad esempio, le entrate anno-passo) e consente di inserire intervalli di prestazioni qualitativi (ad esempio, confrontato a un fatturato di destinazione). Potete specificare alta, media e bassa. You can specify goal ranges in [!UICONTROL Visualization Settings].
+Il grafico bullet presenta una singola misura primaria (ad esempio, le entrate annuali correnti) e consente di inserire intervalli qualitativi di intervalli di prestazioni (ad esempio, rispetto a un fatturato target). Potete specificare valori alti, medi e bassi. You can specify goal ranges in [!UICONTROL Visualization Settings].
