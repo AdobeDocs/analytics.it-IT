@@ -1,23 +1,23 @@
 ---
-description: Visualizza i motori di ricerca utilizzati dai visitatori per le ricerche All, Paid e Natural.
-seo-description: Visualizza i motori di ricerca utilizzati dai visitatori per le ricerche All, Paid e Natural.
+description: Visualizza i motori di ricerca utilizzati dai visitatori per le ricerche All (Tutto), Paid (Pagato) e Natural (Naturale).
+seo-description: Visualizza i motori di ricerca utilizzati dai visitatori per le ricerche All (Tutto), Paid (Pagato) e Natural (Naturale).
 seo-title: Motori di ricerca
 solution: Analytics
 title: Motori di ricerca
 topic: Rapporti
-uuid: a 8234 a 11-ad 83-44 a 1-a 36 b-d 257 dfc 43 d 0 f
+uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Motori di ricerca
 
-Visualizza i motori di ricerca utilizzati dai visitatori per le ricerche All, Paid e Natural.
+Visualizza i motori di ricerca utilizzati dai visitatori per le ricerche All (Tutto), Paid (Pagato) e Natural (Naturale).
 
-**[!UICONTROL Search Engines - All]**: Mostra i motori di ricerca utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - All]**:Visualizza i motori di ricerca utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
-**[!UICONTROL Search Engines - Paid]**: Mostra i motori di ricerca delle parole chiave a pagamento che gli utenti utilizzano per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - Paid]**:Visualizza i motori di ricerca con parole chiave a pagamento utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
-**[!UICONTROL Search Engines - Natural]**: Consente di visualizzare i motori di ricerca di parole chiave naturali che le persone utilizzano per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - Natural]**:Consente di visualizzare i motori di ricerca con parole chiave naturali che gli utenti usano per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
