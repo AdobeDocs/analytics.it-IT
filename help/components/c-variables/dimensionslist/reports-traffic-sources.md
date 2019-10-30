@@ -7,7 +7,7 @@ title: Origini del traffico
 topic: Rapporti
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 0cb6b29e46518eec9f88718b4990aefa3393490c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -60,7 +60,7 @@ I report in questo menu sono suddivisi in tre categorie di base:
   </tr> 
   <tr> 
    <td colname="col1"> Tutte le classificazioni delle pagine di ricerca </td> 
-   <td colname="col2"> <p> Visualizza il livello del sito tra tutte le voci delle ricerche del visitatore, inclusi i dati per la classificazione delle pagine di ricerca a pagamento e naturale. </p> <p>Ad esempio, un utente che accede al sito da un motore di ricerca potrebbe avervi visto al terzo di cento pagine di risultati. Questo consente di visualizzare e ottimizzare rapidamente le attività dei motori di ricerca. I dati per questo rapporto possono essere visualizzati per tutti i periodi di tempo tranne <span class="wintitle"> Ora</span> . </p> </td> 
+   <td colname="col2"> <p> Visualizza il livello del sito tra tutte le voci delle ricerche del visitatore, inclusi i dati di classificazione delle pagine di ricerca a pagamento e naturale. </p> <p>Ad esempio, un utente che accede al sito da un motore di ricerca potrebbe avervi visto al terzo di cento pagine di risultati. Questo consente di visualizzare e ottimizzare rapidamente le attività dei motori di ricerca. I dati per questo rapporto possono essere visualizzati per tutti i periodi di tempo tranne <span class="wintitle"> Ora</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domini di riferimento </td> 
@@ -76,12 +76,12 @@ I report in questo menu sono suddivisi in tre categorie di base:
   </tr> 
   <tr> 
    <td colname="col1"> Tipi di referente </td> 
-   <td colname="col2"> <p> Tracciando e registrando i siti di provenienza dei visitatori per ogni visita, puoi determinare in che modo i visitatori hanno scoperto il sito per ogni visita. L'elenco seguente definisce i vari tipi di referenti. </p> 
+   <td colname="col2"> <p> Tracciando e registrando i siti di riferimento dei visitatori per ogni visita, puoi determinare in che modo i visitatori hanno scoperto il sito per ogni visita. L'elenco seguente definisce i vari tipi di referenti. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> I riferimenti del disco rigido vengono registrati quando i visitatori fanno clic su un collegamento in un documento HTML situato sul proprio disco rigido e arrivano sul sito come risultato. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> Quando i visitatori fanno clic su un collegamento situato in una pagina di un altro sito Web (non definito come parte del sito) e arrivano al sito Web, vengono registrati altri riferimenti al sito Web. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> I referenti del motore di ricerca vengono registrati quando i visitatori accedono al sito tramite un motore di ricerca. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> I referenti con segnalibro o digitato vengono registrati quando i visitatori digitano l’URL del sito direttamente nel browser o se accedono al sito selezionando i segnalibri. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> I referenti con segnalibro/digitato vengono registrati quando i visitatori digitano l'URL del sito direttamente nel browser o se accedono al sito selezionando i segnalibri. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
