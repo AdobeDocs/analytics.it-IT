@@ -1,37 +1,37 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Richieste di dati - Richiesta guidata passo 1
-title: Richieste di dati - Richiesta guidata passo 1
-uuid: 717542 c 3-e 4 aa -4 e 00-b 0 ca-cadecd 219 d 13
+seo-title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
+title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
+uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 1e7dc9c769a9980e7b60bd395e7c68d5e446dae3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Richieste di dati - Richiesta guidata passo 1
+# Richieste di dati: Creazione guidata richieste passaggio 1
 
-Nella procedura guidata Richiesta: Passaggio 1: seleziona la suite di rapporti, il tipo di rapporto, i segmenti e le date di configurazione.
+Nella Richiesta guidata: Modulo Passaggio 1: seleziona la suite di rapporti, il tipo di rapporto, i segmenti e le date di configurazione.
 
 ![](assets/rw1_overview.png)
 
-1. **[!UICONTROL Report Suite]**: Elenco delle suite di rapporti disponibili in base alle credenziali di accesso. See [Select Report Suites](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913).
+1. **[!UICONTROL Report Suite]**: Elenco delle suite di rapporti disponibili in base alle credenziali di accesso. Consultate [Selezionare le suite](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913)di rapporti.
 
-1. **Selettore intervallo**: Consente di selezionare un ID suite di rapporti da una cella in Excel. See [Select Report Suites](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913).
+1. **Selettore** intervallo: Consente di selezionare un ID suite di rapporti da una cella in Excel. Consultate [Selezionare le suite](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913)di rapporti.
 
-1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole che hai creato. I segmenti sono basati su hit, visite e visitatori. See the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) for more information about segments.
+1. **Segmento**:I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la Guida [alla segmentazione di](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) Analytics.
 
-   For example, you can run a [!UICONTROL Pages Report], and then apply a First Time Visits segment.
+   Ad esempio, puoi eseguire un [!UICONTROL Pages Report], quindi applicare un segmento Prima visita.
 
-1. **Consenti sostituzione elenco pubblicazione**: Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da usare per la distribuzione. Publishing lists are set up in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin tools]**. La suite di rapporti per questa richiesta viene sostituita dall'ID suite di rapporti assegnato a ciascun destinatario nell'elenco di pubblicazione. See [Allow Publishing List Overrides](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C).
+1. **Consenti sostituzione** elenco di pubblicazione:Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da utilizzare per la distribuzione. Gli elenchi di pubblicazione sono impostati in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin tools]**. La suite di rapporti per questa richiesta viene sostituita dall'ID suite di rapporti assegnato a ciascun destinatario nell'elenco di pubblicazione. See [Allow Publishing List Overrides](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C).
 
-1. **Tipo di rapporto**: Specifica il rapporto di base che si desidera eseguire nella richiesta dati. Esegui un rapporto per richiesta, che può avere dimensioni uno-molti e metriche uno-molti. Metrics and dimensions for a report type are displayed on the [!UICONTROL Request Wizard; Step 2] interface. See [Select Report Types](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC).
+1. **Tipo** rapporto: Specifica il rapporto di base che si desidera eseguire nella richiesta di dati. Potete eseguire un rapporto per ogni richiesta, che può avere dimensioni uno-a-molti e metriche uno-a-molti. Metriche e dimensioni per un tipo di rapporto vengono visualizzate nell' [!UICONTROL Request Wizard; Step 2] interfaccia. Consultate [Selezionare i tipi](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC)di report.
 
-1. **Intervalli di date**: Definisce l'intervallo temporale coperto dalla richiesta. Sono disponibili diversi tipi di periodi di tempo di richiesta, ad esempio preset, fisso e rolling. Il numero massimo di periodi è 366. Puoi anche scegliere un intervallo di date specificato da una cella e salvare gli intervalli di date come modelli da utilizzare in un secondo momento. See [Configuring Report Dates](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+1. **Intervalli** di date: Definisce l’intervallo di tempo coperto dalla richiesta. Sono disponibili diversi tipi di periodi di tempo di richiesta, ad esempio preimpostati, fissi e in continuo. Il numero massimo di periodi è 366. Puoi anche scegliere un intervallo di date specificato da una cella e salvare gli intervalli di date come modelli da utilizzare successivamente.  Consultate [Configurazione delle date dei rapporti](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
-1. **Applica granularità**: Specifica il livello di dettagli temporizzati inclusi nel report. See [Granularity](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
+1. **Applica granularità**: Specifica il livello di dettaglio basato sul tempo incluso nel rapporto. Consultate [Granularità](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Create a Data Request (Creare una richiesta di archivio dati)](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
