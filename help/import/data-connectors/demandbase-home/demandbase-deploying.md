@@ -5,7 +5,7 @@ seo-title: Implementazione dell'integrazione
 title: Implementazione dell'integrazione
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,9 +73,7 @@ Per attivare l'integrazione, è necessario completare la procedura guidata di co
 
 Dopo aver completato la procedura guidata di integrazione, devi distribuire il codice di integrazione nel codice di distribuzione di Adobe Analytics (s_code).
 
->[!NOTE]
->
->Se per distribuire Adobe Analytics avete utilizzato Adobe TagManager o Gestione tag dinamica, potete aggiungere facilmente il codice di integrazione utilizzando uno di questi strumenti.
+> [!NOTE] Se per distribuire Adobe Analytics avete utilizzato Adobe TagManager o Gestione tag dinamica, potete aggiungere facilmente il codice di integrazione utilizzando uno di questi strumenti.
 
 1. Passate alla **[!UICONTROL Support]** scheda e scaricate e salvate la `integration code v2_0_1` risorsa dall'area Risorse dell'integrazione.
 
@@ -197,15 +195,13 @@ Questo aspetto verrà visualizzato solo se sulla pagina è stato implementato Ta
 
 ![](assets/debugger2.png)
 
-### Generazione di rapporti  {#section-1792fe75dc3249d0ad063dfd87a89162}
+### Generazione di rapporti {#section-1792fe75dc3249d0ad063dfd87a89162}
 
 Rivedete i rapporti Demandbase in Adobe Analytics utilizzando il dashboard creato automaticamente tramite la procedura guidata di integrazione Adobe (Passaggio 7).
 
 In alternativa, puoi passare al reporting Demandbase nella struttura del menu di Adobe Analytics; vedi le schermate di seguito.
 
->[!NOTE]
->
->Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
+> [!NOTE] Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
 
 ![](assets/reporting1.png)
 
@@ -224,7 +220,7 @@ Il connettore dati Demandbase indica se un attributo è "Non disponibile" impost
 
 Demandbase classifica tutti gli indirizzi IP e fornisce gli attributi audience e audience_segmento anche quando il visitatore non proviene da un IP aziendale. Quando l'audience restituisce valori come "Residenziale", "Wireless" e "Ospitalità", gli altri attributi probabilmente non sono disponibili.
 
-A volte, il pubblico di un visitatore sarà "SMB", ma altri attributi saranno "`[n/a]`". Ciò significa che Demandbase è in grado di classificare il visitatore come una piccola azienda, ma il profilo aziendale completo non è disponibile. Questo accade generalmente per le aziende più piccole, quando più piccole imprese utilizzano lo stesso provider di servizi o un blocco di indirizzi IP.
+A volte, il pubblico di un visitatore sarà "SMB", ma altri attributi saranno mostrati "`[n/a]`". Ciò significa che Demandbase è in grado di classificare il visitatore come una piccola azienda, ma il profilo aziendale completo non è disponibile. Questo accade generalmente per le aziende più piccole, quando più piccole imprese utilizzano lo stesso provider di servizi o un blocco di indirizzi IP.
 
 ### Considerazioni per sviluppatori {#section-d33fff55bc4b4db99f82dee418ef1bc2}
 
