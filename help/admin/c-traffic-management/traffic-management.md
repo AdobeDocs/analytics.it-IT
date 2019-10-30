@@ -1,23 +1,23 @@
 ---
-description: La pagina Gestione traffico consente di specificare le modifiche previste al volume del traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per tenere traccia del traffico ed elaborarlo puntualmente.
-seo-description: La pagina Gestione traffico consente di specificare le modifiche previste al volume del traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per tenere traccia del traffico ed elaborarlo puntualmente.
+description: La pagina Gestione traffico consente di specificare le modifiche previste per il volume di traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per garantire che il traffico possa essere tracciato ed elaborato in modo tempestivo.
+seo-description: La pagina Gestione traffico consente di specificare le modifiche previste per il volume di traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per garantire che il traffico possa essere tracciato ed elaborato in modo tempestivo.
 seo-title: Gestione del traffico
 solution: Analytics
 title: Gestione del traffico
 topic: Strumenti di amministrazione
-uuid: c 1 be 90 d 3-f 8 f 8-40 a 5-a 93 f -9 af 312 a 34828
+uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Gestione del traffico
 
-La pagina Gestione traffico consente di specificare le modifiche previste al volume del traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per tenere traccia del traffico ed elaborarlo puntualmente.
+La pagina Gestione traffico consente di specificare le modifiche previste per il volume di traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per garantire che il traffico possa essere tracciato ed elaborato in modo tempestivo.
 
-To access [!UICONTROL Traffic Management]:
+Per accedere [!UICONTROL Traffic Management]:
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**, then select a report suite.
+1. Fai clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**, quindi seleziona una suite di rapporti.
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; *`<selection>`*.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; *`<selection>`*.
