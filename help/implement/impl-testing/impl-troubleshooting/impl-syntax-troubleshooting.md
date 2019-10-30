@@ -1,38 +1,38 @@
 ---
-description: La tabella seguente mostra la differenza tra errori corretti e errori di codice errati.
+description: La tabella seguente mostra la differenza tra errori di codice corretti e non corretti.
 keywords: Implementazione di Analytics
-seo-description: La tabella seguente mostra la differenza tra errori corretti e errori di codice errati.
+seo-description: La tabella seguente mostra la differenza tra errori di codice corretti e non corretti.
 seo-title: Errori comuni di sintassi
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
+subtopic: Risoluzione dei problemi
 title: Errori comuni di sintassi
 topic: Sviluppatore e implementazione
-uuid: 9845 dcb 9-9 f 10-4 f 65-a 43 d -2 af 41 edaa 122
+uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Errori comuni di sintassi
 
-La tabella seguente mostra la differenza tra errori corretti e errori di codice errati.
+La tabella seguente mostra la differenza tra errori di codice corretti e non corretti.
 
 | Errato | Corretto |
 |---|---|
-| prop1 | s. prop 1 (usa "s.") |
-| s.evar1 | s. evar 1 (usa le maiuscole corrette) |
-| s. pagetype ='errorpagè; | s. pagetype ='errorpagè; (utilizza le maiuscole corrette) |
-| s. tl (this, o, pagea) | s. tl (this,'o ','pagea '); (uso corretto di virgolette singole) |
-| s. events ='event 1 '; s. events ='event 2 '; | s. events ='event 1, event 2 '; (formato corretto) |
-| s. pagename = "John" (virgolette intelligenti) | s. pagename = "John" (virgolette smart) |
-| s. products = "shoes, UX 4879,1,19.99" | s. products = "shoes; UX 4879; 1; 19.99 " (usa punto e virgola, non virgole) |
-| s. products = "; Macbook Air; 1; $ 1999.99 | s. products = "; Macbook Air; 1; 1999.99 " (non utilizza segni di dollaro) |
-| s. products = "; Nikon SB -600 Speedlight Flash per videocamere reflex digitali Nikon; 1; 229.9489183 " | s. products = "; Nikon SB -600 Speedlight Flash per videocamere reflex digitali Nikon; 1; 229.95 " (arrotondati o troncati) |
-| var s_ account = "rsid 1, rsid 2" | var s_ account = "rsid 1, rsid 2" (nessun spazio tra gli ID suite di rapporti durante l'esecuzione di tag per più suite) |
-| s. events = "event 1, event 2" | s. events = "event 1, event 2" (nessuno spazio tra ID evento durante l'esecuzione di tag per più eventi) |
-| s. products = "product name" | s. products = "; nome prodotto " (punto e virgola utilizzato quando non è elencata alcuna categoria di prodotti) |
+| prop1 | s.prop1 (utilizza "s.") |
+| s.evar1 | s.eVar1 (utilizza l'uso di maiuscole e minuscole corrette) |
+| s.pagetype='errorpage'; | s.pageType='errorPage'; (utilizza l'uso di maiuscole e minuscole corrette) |
+| s.tl(this,o,pageA) | s.tl(this,'o','pageA'); (uso corretto di virgolette singole) |
+| s.events='event1'; s.events='event2'; | s.events='event1,event2'; (formato corretto) |
+| s.pageName="John" (citazioni smart su) | s.pageName="John" (virgolette intelligenti disattivate) |
+| s.products="shoes,UX4879,1,19.99" | s.products="shoes;UX4879;1;19.99" (utilizza punto e virgola, non virgole) |
+| s.products=";MacBook Air;1;$1999.99" | s.products=";MacBook Air;1;1999.99" (non utilizza segni del dollaro) |
+| s.products=";Nikon SB-600 Speedlight Flash per fotocamere reflex digitali Nikon;1;229.9489183" | s.products=";Nikon SB-600 Speedlight Flash per fotocamere reflex digitali Nikon;1;229.95" (prezzi arrotondati o troncati) |
+| var s_account="rsid1, rsid2" | var s_account="rsid1,rsid2" (nessuno spazio tra gli ID della suite di rapporti durante l'assegnazione di tag a più suite) |
+| s.events="event1, event2" | s.events="event1,event2" (nessuno spazio tra gli ID evento durante l’assegnazione di tag per più eventi) |
+| s.products="product name" | s.products=";product name" (punto e virgola utilizzato quando non è elencata alcuna categoria di prodotti) |
 
 ## Note aggiuntive {#section_E2B6A9C966AD40A09578DD0F784DCAB9}
 
-Mantenere il commento HTML alla fine del codice Adobe, anche se si utilizza la parte NOSCRIPT dello script.
+Tenete il commento HTML di chiusura alla fine del codice Adobe (anche se state utilizzando la parte NOSCRIPT dello script).
