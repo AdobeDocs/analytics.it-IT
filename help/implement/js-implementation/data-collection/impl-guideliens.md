@@ -1,25 +1,25 @@
 ---
-description: Seguendo queste linee guida si utilizzano gli stessi domini cookie, che consentono di tenere traccia delle visite tra vari tipi di implementazioni.
+description: Seguendo queste linee guida si ottiene l’uso degli stessi domini di cookie, che consente di monitorare le visite tra i vari tipi di implementazioni.
 keywords: Implementazione di Analytics
-seo-description: Seguendo queste linee guida si utilizzano gli stessi domini cookie, che consentono di tenere traccia delle visite tra vari tipi di implementazioni.
+seo-description: Seguendo queste linee guida si ottiene l’uso degli stessi domini di cookie, che consente di monitorare le visite tra i vari tipi di implementazioni.
 seo-title: Linee guida sull'implementazione
 solution: Analytics
 title: Linee guida sull'implementazione
 topic: Sviluppatore e implementazione
-uuid: 2917 f 4 af -19 bd -4666-ae 4 b -056 e 7 e 33 f 642
+uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Linee guida sull'implementazione
 
-Seguendo queste linee guida si utilizzano gli stessi domini cookie, che consentono di tenere traccia delle visite tra vari tipi di implementazioni.
+Seguendo queste linee guida si ottiene l’uso degli stessi domini di cookie, che consente di monitorare le visite tra i vari tipi di implementazioni.
 
-* **RSID:** Il [!UICONTROL report suite ID]
-* **VNS:** Spazio del nome visitatore, sottodominio di [!DNL 2o7.net] o [!DNL omtrdc.net] utilizzato per archiviare il [!UICONTROL visitor ID] cookie
-* **COOKIEDOMAIN:** Your VNS + trackingserver. A seconda del centro dati e della configurazione RDC, queste possono variare notevolmente. [Contatta l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) clienti se non sei sicuro del dominio di raccolta dati.
+* **** RSID: Il [!UICONTROL report suite ID]
+* **** VNS: Spazio nome visitatore, sottodominio di [!DNL 2o7.net] o [!DNL omtrdc.net] utilizzato per memorizzare il [!UICONTROL visitor ID] cookie
+* **** COOKIEDOMAIN: VNS + trackingServer. A seconda del centro dati e della configurazione RDC, questi possono variare notevolmente. [Contatta l’Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) clienti se non sei sicuro del dominio di raccolta dati.
 
 ## Javascript
 
@@ -45,4 +45,4 @@ s.trackingServer="VNS.COOKIEDOMAIN.net"
 <!-- Note that the visitor namespace is defined twice in hardcoded image requests; once in the http subdomain, and another using the ns= query string parameter! -->
 ```
 
-If using a first-party cookie implementation, `VNS.COOKIEDOMAIN.net` can be replaced with the first-party cookie domain used. For example, first-party cookies on `adobe.com` would be replaced with something similar to `metrics.adobe.com`.
+Se si utilizza un'implementazione di cookie di prime parti, `VNS.COOKIEDOMAIN.net` è possibile sostituire con il dominio di cookie di prime parti utilizzato. Ad esempio, i cookie first-party su `adobe.com` verrebbero sostituiti con qualcosa di simile a `metrics.adobe.com`.
