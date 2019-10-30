@@ -1,15 +1,15 @@
 ---
-description: Analytics conta una visita ogni volta che si verifica una chiamata al server con un numero di pagina visita pari a 1.
+description: Analytics conta una visita ogni volta che si verifica una chiamata al server con un numero di pagina visita uguale a 1.
 keywords: Implementazione di Analytics
-seo-description: Analytics conta una visita ogni volta che si verifica una chiamata al server con un numero di pagina visita pari a 1.
+seo-description: Analytics conta una visita ogni volta che si verifica una chiamata al server con un numero di pagina visita uguale a 1.
 seo-title: Visite
 solution: Analytics
 subtopic: Visitatori
 title: Visite
 topic: Sviluppatore e implementazione
-uuid: 3035 be 8 f -6 adc -45 df-a 3 f 2-5 de 6 d 3 ed 99 ce
+uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Fai riferimento alla documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud Device Co-op.
 
-Analytics conta una visita ogni volta che si verifica una chiamata al server con un numero di pagina visita pari a 1.
+Analytics conta una visita ogni volta che si verifica una chiamata al server con un numero di pagina visita uguale a 1.
 
-If you look at the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), this occurred 4 times: at hits 1, 9, 11, and 12. Similar to visitors, this value returns to normal after the initial association because the [!UICONTROL Visit Page Number] is reset back to 1 due to a change in the effective [!UICONTROL visitor ID].
+Se si osserva la tabella [](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)precedente, si è verificato 4 volte: alle hit 1, 9, 11 e 12. Simile ai visitatori, questo valore torna alla normalità dopo l'associazione iniziale perché [!UICONTROL Visit Page Number] viene reimpostato su 1 a causa di una modifica nell'effetto [!UICONTROL visitor ID].
