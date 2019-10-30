@@ -1,19 +1,19 @@
 ---
 description: Le categorie di origine dati identificano diversi tipi di origini dati che forniscono funzionalità simili.
 seo-description: Le categorie di origine dati identificano diversi tipi di origini dati che forniscono funzionalità simili.
-seo-title: Panoramica dei tipi di dati e delle categorie
+seo-title: Panoramica dei tipi di dati e categorie
 solution: Analytics
 subtopic: Origini dati
-title: Panoramica dei tipi di dati e delle categorie
+title: Panoramica dei tipi di dati e categorie
 topic: Sviluppatore e implementazione
-uuid: b 5004 cdc-b 68 a -4 a 82-a 159-a 7 cd 7 b 8 bfe 21
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Panoramica dei tipi di dati e delle categorie
+# Panoramica dei tipi di dati e categorie
 
 Le categorie di origine dati identificano diversi tipi di origini dati che forniscono funzionalità simili.
 
@@ -37,7 +37,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caricamento in blocco di Advertising Cloud </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Fornisce caricamenti di massa manuali e automatizzati in Excel in Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
@@ -66,17 +66,17 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ad server generico </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di integrare impression e altre metriche top-line sulle attività di trasmissione degli annunci dall'ad server ai rapporti di marketing. È l'origine dati ad server generica e deve essere utilizzata se l'ad server specifico non è supportato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server campagne e-mail generico </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di integrare le metriche dal server di campagne e-mail nei rapporti di marketing. </p> <p>Le metriche incorporate comunemente includono il numero di messaggi inviati, i messaggi consegnati e i messaggi letti. È l'origine dati di campagne e-mail generica e deve essere utilizzata se il server di campagne e-mail specifico non è supportato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servizio Pay-Per-Click generico </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p> Consente di importare i dati sulle prestazioni pay-per-click, inclusi impression, clic e costi. </p> <p>È l'origine dati pay-per-click generica e deve essere utilizzata se il servizio pay-per-click specifico non è supportato. </p> </td> 
   </tr> 
  </tbody> 
@@ -95,12 +95,12 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Call center generico </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di integrare informazioni sul call center nei rapporti di marketing. Le metriche importate più comunemente includono il numero di chiamate, il tempo al telefono, l'agente e le vendite totali. </p> <p>È l'origine dati call center generica e deve essere utilizzata se il software call center specifico non è supportato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Assistenza clienti generica </p> <p>Applicazione </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di integrare informazioni sul software di assistenze clienti nei rapporti di marketing. Include metriche quali il numero di nuovi incidenti, il numero di incidenti risolti e il tempo impiegato per la risoluzione degli incidenti. </p> <p>È l'origine dati assistenza clienti generica e deve essere utilizzata se il servizio assistenza clienti specifico non è supportato. </p> </td> 
   </tr> 
  </tbody> 
@@ -119,7 +119,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dati sondaggio generici </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di integrare i risultati dei sondaggi da uno strumento di terze parti nei rapporti di marketing e mostra il livello di soddisfazione dei clienti in merito alle interazioni con il sito. </p> <p>È l'origine dati sondaggio generica e deve essere utilizzata se il servizio dati sondaggio specifico non è supportato. </p> </td> 
   </tr> 
  </tbody> 
@@ -138,7 +138,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Velocità di caricamento del sito generica </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di integrare i dati da un'applicazione o servizio che monitora la velocità dei download con i dati. </p> <p>È l'origine dati velocità download e deve essere utilizzata se il software di velocità download specifico non è supportato. </p> </td> 
   </tr> 
  </tbody> 
@@ -157,7 +157,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Origine dati generica (solo dati di riepilogo) </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Utilizza questa origine dati quando non esiste una corrispondenza migliore per il tipo di dati da importare nei reporting e analisi di marketing. </p> </td> 
   </tr> 
   <tr> 
@@ -167,7 +167,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Origine dati generica (ID transazione) </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> ID transazione </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> ID transazione </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> ID visitatore </a> </p> </td> 
    <td colname="col3"> <p>Consente di collegare qualsiasi evento offline a un evento online. L'ID transazione funge da chiave tra gli eventi offline e online. </p> </td> 
   </tr> 
  </tbody> 
@@ -186,17 +186,17 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Resi di prodotti </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di importare i dati dei resi di prodotti da associare a un ID acquisto in modo da identificare motori di ricerca, parole chiave, campagne e altri attributi che genereranno resi con maggiore probabilità. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Costo del prodotto </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di fornire il costo effettivo dei prodotti acquistati e spediti dal sito Web associando costo o profitto a singoli prodotti in modo da creare rapporti precisi su campagne, parole chiave e promozioni interne più redditizie per il sito Web. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stato ordine </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di utilizzare le metriche per identificare lo stato di ogni ordine effettuato, inclusi gli ordini annullati, spediti, completati o ritenuti fraudolenti. </p> <p>Il reporting dello stato degli ordini può identificare quali metodi di acquisizione generano il tasso di completamento degli ordini più alto. </p> </td> 
   </tr> 
  </tbody> 
@@ -215,17 +215,17 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Generazione di lead </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di caricare le informazioni sui risultati dei lead per ogni lead generato sul sito Web, inclusi i ricavi effettivi generati. </p> <p>Dopo aver attribuito con precisione i ricavi agli ID lead, puoi identificare le campagne e le promozioni più redditizie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Preventivo online </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di caricare le informazioni sui risultati dei lead per ogni lead generato sul sito Web, inclusi i ricavi effettivi generati. </p> <p>Dopo aver attribuito con precisione i ricavi agli ID lead, puoi identificare le campagne e le promozioni più redditizie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dati del call center </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local">Conversione  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversione </a> </p> </td> 
    <td colname="col3"> <p>Consente di caricare le transazioni del call center in modo da identificare le tattiche (campagne, promozioni e così via) che convincono i clienti a fare una telefonata. </p> </td> 
   </tr> 
  </tbody> 
