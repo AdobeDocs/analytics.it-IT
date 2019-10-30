@@ -1,23 +1,23 @@
 ---
-description: Il servizio di controllo della rete privata consente ai dati di passare dalla rete di ISP alla rete Analytics in modo più efficiente.
+description: La funzione Peering di rete privata consente di trasferire i dati dalla rete di un ISP alla rete Analytics in modo più efficiente.
 keywords: Implementazione di Analytics
-seo-description: Il servizio di controllo della rete privata consente ai dati di passare dalla rete di ISP alla rete Analytics in modo più efficiente.
-seo-title: Peeling
+seo-description: La funzione Peering di rete privata consente di trasferire i dati dalla rete di un ISP alla rete Analytics in modo più efficiente.
+seo-title: Peering
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
-title: Peeling
+subtopic: Risoluzione dei problemi
+title: Peering
 topic: Sviluppatore e implementazione
-uuid: b 3 d 34369-8 cb 8-4 f 12-8 b 58-847132 c 43881
+uuid: b3d34369-8cb8-4f12-8b58-847132c43881
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Peeling
+# Peering
 
-Il servizio di controllo della rete privata consente ai dati di passare dalla rete di ISP alla rete Analytics in modo più efficiente.
+La funzione Peering di rete privata consente di trasferire i dati dalla rete di un ISP alla rete Analytics in modo più efficiente.
 
-L'utilizzo dei picchi è semplicemente l'accordo che consente di intercollegare e scambiare le informazioni di indirizzamento senza necessità della rete pubblica. Contattate Adobe Engineering se un ISP è interessato a stabilire una relazione di picco.
+La peer è semplicemente l'accordo per collegare e scambiare informazioni di routing senza la necessità della rete pubblica. Se un ISP è interessato a stabilire una relazione di pari livello, contattate Adobe Engineering.
 
-Anche se il peeling potrebbe offrire alcuni vantaggi ai clienti Adobe ISP, l'ottimizzazione dello snippet HTML e delle direttive di caching dei server Web avrà probabilmente un impatto decisamente maggiore. I clienti ISP di grandi volumi possono trarre il massimo vantaggio dal picco.
+Anche se il peering può apportare alcuni vantaggi ai clienti di Adobe ISP, l'ottimizzazione dello snippet HTML e delle direttive di caching dei server Web potrebbe avere un impatto molto maggiore. I clienti ISP di grandi volumi ottengono il massimo vantaggio dalla peer.
