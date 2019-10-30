@@ -1,61 +1,61 @@
 ---
-description: Scopri come assegnare costi e budget ai canali.
-seo-description: Scopri come assegnare costi e budget ai canali.
+description: Scopri come assegnare importi di costo e budget ai canali.
+seo-description: Scopri come assegnare importi di costo e budget ai canali.
 seo-title: Costi e budget
 solution: Analytics
 subtopic: Canali di marketing
 title: Costi e budget
-topic: Reports & Analytics
-uuid: 7 ba 0 e 968-e 565-4 d 4 c -8 fc 0-39 bf 25 d 3 e 5 b 1
+topic: Reports and Analytics
+uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Costi e budget
 
-Scopri come assegnare costi e budget ai canali.
+Scopri come assegnare importi di costo e budget ai canali.
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
+## Costi e budget {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
-Scopri come assegnare costi e budget ai canali.
+Scopri come assegnare importi di costo e budget ai canali.
 
-Costo rappresenta ciò che spendi sul canale. Budget rappresenta l'importo disponibile per la spesa.
+Il costo rappresenta ciò che si spende sul canale. Il budget rappresenta l'importo disponibile da spendere.
 
-Un modo utile per visualizzare il ROI è quello di creare una metrica calcolata che mostra i costi meno costosi. Oppure creane uno che mostri il costo totale insieme a una suddivisione del costo per nuovo coinvolgimento. For example, you can run a [!UICONTROL First-Touch Channel] report showing new engagements. Quindi aggiungi una metrica Costi touch che mostra i costi per nuovo coinvolgimento, creando una metrica calcolata.
+Un modo utile per visualizzare il ROI è creare una metrica calcolata che mostra le entrate meno i costi. Oppure creane uno che mostri il costo totale insieme a una suddivisione del costo per nuovo impegno. Ad esempio, potete eseguire un [!UICONTROL First-Touch Channel] rapporto che mostra i nuovi impegni. Quindi aggiungi una metrica Costo primo contatto che ti mostra il costo per il nuovo coinvolgimento, creando una metrica calcolata.
 
 See [Calculated metrics used Marketing Channel reports](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
-Potete assegnare costi e budget solo ai canali. A tutti i costi viene fornito un intervallo di tempo per il reporting. Quando i costi sono associati direttamente a un canale, viene scelta una metrica di allocazione per mostrare il modo in cui i costi si suddividono tra le campagne all'interno di un canale.
+È possibile assegnare costi e budget solo ai canali. A tutti i costi viene assegnato un intervallo di tempo al quale si applicano nella segnalazione. Quando i costi sono associati direttamente a un canale, viene scelta una metrica di allocazione per mostrare come i costi si suddividono tra le campagne all'interno di un canale.
 
-Dopo aver aggiunto gli elementi costi e budget, potete esportare i dati della tabella in un file CSV. Potete anche importare un file CSV nella pagina Costi canale di marketing.
+Dopo aver aggiunto voci di costo e budget, potete esportare i dati della tabella in un file CSV. Potete anche importare un file CSV nella pagina Costi canale marketing.
 
-## Add cost and budget items {#task_9238A033994440748960DE21593E6388}
+## Aggiunta di voci di costo e budget {#task_9238A033994440748960DE21593E6388}
 
-Aggiungi elementi costi e budget a canali di marketing.
+Aggiungi elementi di costo e budget a Marketing Channels.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. On the [!UICONTROL Report Suite Manager] page, select a report suite.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
-1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Sulla [!UICONTROL Report Suite Manager] pagina, seleziona una suite di rapporti.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
+1. Sulla [!UICONTROL Marketing Channel Costs] pagina, fare clic su **[!UICONTROL Add Cost Item]** o **[!UICONTROL Add Budget Item]**.
 1. Fai clic su **[!UICONTROL Save.]**
 
-   To continue adding cost items, click **[!UICONTROL Save and Add Another]**.
+   Per continuare ad aggiungere elementi di costo, fate clic su **[!UICONTROL Save and Add Another]**.
 
-1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
+1. (Facoltativo) Per esportare o importare file CSV, accedete alla [!UICONTROL Marketing Channel Costs] pagina, fate clic **[!UICONTROL Export File]** o **[!UICONTROL Import File]**, quindi seguite le istruzioni.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Costi del canale di marketing - definizioni {#reference_0B193210E10A4B6B84A385A781FD9515}
 
-Definizioni dei campi per i costi dei canali di marketing o i budget.
+Definizioni dei campi per i costi o i budget del canale di marketing.
 
 
 
 | Campo | Definizione |
 |--- |--- |
-| Nome | Nome del costo o dell'elemento di budget. (Questo valore è il valore Chiave se si utilizza SAINT.) |
-| Canale | Canale al quale associare questo importo. Specificate se il costo o il budget si applica a un canale First Touch o a un canale Ultimo tocco. Considerate un fattore costi per il primo tocco come nuovo livello di coinvolgimento. Un'ultima quantità di costi è per i clic. |
+| Nome | Nome della voce di costo o budget. (Questo valore è il valore Key se si utilizza SAINT.) |
+| Canale | Canale a cui si desidera associare l'importo. Specificate se il costo o il budget si applica a un canale First Touch o Last Touch. Considerate l'importo del costo del primo tocco come un nuovo impegno una tantum. Un costo dell'ultimo tocco è relativo ai click-through. |
 | Intervallo date | Tempo da utilizzare per questo importo. |
-| Type (Tipo) | Il costo o il budget, a Rate o Una tantum. Il valore Rate specifica un costo continuo, ad esempio un importo per clic. Una tantum consente di specificare l'importo Distribuisci per. Ad esempio, se distribuite il costo per clic, alla filiale con il 60% dei clic totali viene attribuito il 60% del costo totale. Il valore Distribuito per valore è la metrica utilizzata per suddividere le classificazioni numeriche. |
+| Type (Tipo) | Il tipo di costo o budget, un tasso o un costo una tantum. Il tasso specifica un costo continuo, ad esempio un importo per clic. Un costo una tantum consente di specificare un importo Distribuisci per. Ad esempio, se distribuite il costo per clic, alla filiale con il 60% dei clic totali viene assegnato il 60% del costo totale. Il valore Distribuito per è la metrica utilizzata per suddividere le classificazioni numeriche. |
 | Esporta file | Consente di esportare i dati della tabella in un file CSV. |
-| File di importazione | Consente di importare un file CSV nella pagina Costi canale di marketing. |
+| Importa file | Consente di importare un file CSV nella pagina Costi canale marketing. |
