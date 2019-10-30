@@ -1,23 +1,23 @@
 ---
 description: Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamento delle pagine, tempo medio trascorso, unità, ordini e guadagni.
-keywords: Implementazione di Analytics; metriche; metrica traffico; metrica di conversione; metrica video; metrica social; metrica calcolata; visualizzazione pagina; visit; visitatore univoco
+keywords: Analytics Implementation;metriche;metrica del traffico;metrica della conversione;metrica video;metrica social;metrica calcolata;visualizzazione pagina;visita;visitatore unico
 seo-description: Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamento delle pagine, tempo medio trascorso, unità, ordini e guadagni.
-seo-title: Metrics (Metriche)
+seo-title: Metriche
 solution: Analytics
-title: Metrics (Metriche)
+title: Metriche
 topic: Sviluppatore e implementazione
-uuid: d 2 addb 55-cae 6-470 d-b 482-303 ef 365809 c
+uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Metrics (Metriche)
+# Metriche
 
 Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamento delle pagine, tempo medio trascorso, unità, ordini e guadagni.
 
-Le metriche sono la base dei report e ti aiutano a visualizzare e a comprendere le relazioni dei dati. Ti consentono di eseguire confronti ravvicinati di diversi set di dati relativi al tuo sito Web.
+Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati. Ti consentono di eseguire confronti ravvicinati di diversi set di dati relativi al tuo sito Web.
 
 <table id="table_2FA18126829241DE897CFCE9BAE9F4AD"> 
  <thead> 
@@ -29,7 +29,7 @@ Le metriche sono la base dei report e ti aiutano a visualizzare e a comprendere 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Metriche di traffico </p> </td> 
-   <td colname="col2"> <p> <b>Visualizzazioni di pagina:</b> una pagina Web caricata nel browser dell’utente (un’esecuzione del codice Reporting e analisi). </p> <p> <b>Visita:</b> un qualsiasi numero di visualizzazioni di pagina quando i visitatori accedono al tuo sito. Una visita termina dopo 30 minuti di inattività. </p> <p> <b>Visitatore univoco:</b> una persona che visita il tuo sito per la prima volta in un preciso intervallo di tempo come ora, giorno, settimana, mese, trimestre o anno. (include anche i visitatori unici in un qualsiasi intervallo di tempo). </p> </td> 
+   <td colname="col2"> <p> <b></b> Visualizzazione pagina: Una pagina Web viene caricata nel browser di un utente (una esecuzione del codice Reporting e analisi). </p> <p> <b>Visita:</b> un qualsiasi numero di visualizzazioni di pagina quando i visitatori accedono al tuo sito. Una visita termina dopo 30 minuti di inattività. </p> <p> <b>Visitatore univoco:</b> una persona che visita il tuo sito per la prima volta in un preciso intervallo di tempo come ora, giorno, settimana, mese, trimestre o anno. (include anche i visitatori unici in un qualsiasi intervallo di tempo). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Metriche di conversione </p> </td> 
