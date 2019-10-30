@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,11 +20,11 @@ Il valore della proprietà charSet deve corrispondere alla codifica della pagina
 
 Alcune delle codifiche più comuni con il nome e gli alias preferiti sono elencate nella tabella seguente.
 
-| Preferred Name | Alias |
+| Nome preferito | Alias |
 |--- |--- |
 | ISO-8859-1 | ISO_8859-1, CP819, latin1 |
 | ISO-8859-2 | ISO_8859-2, latin2 |
-| ISO-8859-5 | ISO_8859-5, cicrilico |
+| ISO-8859-7 | ISO_8859-5, cicrilico |
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
@@ -34,17 +34,17 @@ Se un sito dispone di codifiche Web diverse su pagine diverse, o se per più sit
 
 Qualsiasi valore non vuoto del parametro charSet causerà la conversione dei dati in UTF-8 per l'archiviazione. Tutti i caratteri nell'intervallo 128-255 saranno convertiti nella sequenza UTF-8 a due byte corretta e memorizzati. Questi caratteri non verranno visualizzati correttamente in una suite di rapporti standard. Pertanto, la proprietà charSet non deve mai essere utilizzata con una suite di rapporti standard.
 
-Likewise, a blank value of the charSet parameter will bypass the data conversion process, and any characters in the range 128-255 will be stored as a single byte. Questi caratteri non verranno visualizzati correttamente in una suite di rapporti multibyte, poiché i codici a byte singolo per questi caratteri non sono UTF-8 validi. Pertanto, il parametro charSet deve sempre essere utilizzato con una suite di rapporti multibyte. Additionally, the proper value should be used with respect to the web page encoding.
+Analogamente, un valore vuoto del parametro charSet bypasserà il processo di conversione dei dati e tutti i caratteri compresi nell'intervallo 128-255 saranno memorizzati come un singolo byte. Questi caratteri non verranno visualizzati correttamente in una suite di rapporti multibyte, poiché i codici a byte singolo per questi caratteri non sono UTF-8 validi. Pertanto, il parametro charSet deve sempre essere utilizzato con una suite di rapporti multibyte. Inoltre, il valore corretto deve essere utilizzato per la codifica delle pagine Web.
 
-Se la *`charSet`* variabile contiene un valore non corretto, i dati di tutte le altre variabili vengono convertiti in modo non corretto. Se variabili JavaScript nelle pagine (ad esempio *`pageName`*, [!UICONTROL prop1]o *`channel`*) contengono solo caratteri ASCII, *`charSet`* non è necessario definirli. Tuttavia, se le variabili nelle pagine contengono caratteri non ASCII, la *`charSet`* variabile deve essere compilata.
+Se la *`charSet`* variabile contiene un valore non corretto, i dati di tutte le altre variabili vengono convertiti in modo non corretto. Se variabili JavaScript nelle pagine (ad esempio *`pageName`*, [!UICONTROL prop1]o *`channel`*) contengono solo caratteri ASCII, *`charSet`* non è necessario definirli. Tuttavia, se le variabili nelle pagine contengono caratteri non ASCII, è necessario compilare la *`charSet`* variabile.
 
 ## Parametri
 
-| Dimensioni massime | Debugger Parameter | Reports Populated | Valore predefinito |
+| Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |--- |--- |--- |--- |
 | N/D | CE | N/D | "" |
 
-## Syntax and Possible Values
+## Sintassi e valori possibili
 
 ```js
 s.charSet="character_set"
