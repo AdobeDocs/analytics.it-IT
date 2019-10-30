@@ -1,26 +1,24 @@
 ---
 description: Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
 seo-description: Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
-seo-title: Privacy dei dati e Connettori dati (Genesis)
-title: Privacy dei dati e Connettori dati (Genesis)
+seo-title: Privacy dei dati e Data Connectors (Genesis)
+title: Privacy dei dati e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Privacy dei dati e Connettori dati (Genesis)
+# Privacy dei dati e Data Connectors (Genesis)
 
 Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
 
-Queste informazioni consentono di identificare eventuali dati direttamente identificabili o dati indirettamente identificabili importati tramite i nostri connettori, quando ricevono una richiesta sulla privacy dei dati.
+Queste informazioni ti consentono di identificare i dati importanti direttamente o indirettamente identificabili tramite i nostri connettori quando si riceve una richiesta di Privacy dei dati.
 
-Se usi un'integrazione di uno dei connettori seguenti, è sufficiente che controlli le variabili/classificazioni partner nell'integrazione che potrebbero contenere dati direttamente o indirettamente identificabili.
+Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che controlli le variabili/classificazioni partner nell’integrazione che potrebbero contenere dati direttamente o indirettamente identificabili.
 
->[!NOTE]
->
->This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
+> [!NOTE] Queste informazioni sono fornite per identificare le variabili che devono essere [etichettate](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), ma è responsabilità dell’utente, in quanto responsabile del trattamento, applicare le etichette appropriate o eseguire altre azioni per [prepararsi per la Privacy dei dati](/help/admin/c-data-governance/an-gdpr-overview.md) (aggiornamento delle classificazioni, ecc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
