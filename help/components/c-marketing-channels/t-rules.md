@@ -1,42 +1,42 @@
 ---
-description: Crea regole di elaborazione Canale marketing, che determinano se un hit visitatore soddisfa i criteri assegnati a un canale.
-seo-description: Crea regole di elaborazione Canale marketing, che determinano se un hit visitatore soddisfa i criteri assegnati a un canale.
-seo-title: Creare regole di elaborazione Canale marketing
+description: Crea regole di elaborazione del canale di marketing, che determinano se un hit di visitatore soddisfa i criteri assegnati a un canale.
+seo-description: Crea regole di elaborazione del canale di marketing, che determinano se un hit di visitatore soddisfa i criteri assegnati a un canale.
+seo-title: Creare regole di elaborazione per il canale di marketing
 solution: Analytics
 subtopic: Canali di marketing
-title: Creare regole di elaborazione Canale marketing
-topic: Reports & Analytics
-uuid: 0 e 47634 f -3 c 69-46 db -8 af 4-8 d 0 b 3 d 15 f 7 a 8
+title: Creare regole di elaborazione per il canale di marketing
+topic: Reports and Analytics
+uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Creare regole di elaborazione Canale marketing
+# Creare regole di elaborazione per il canale di marketing
 
-Crea regole di elaborazione Canale marketing, che determinano se un hit visitatore soddisfa i criteri assegnati a un canale.
+Crea regole di elaborazione del canale di marketing, che determinano se un hit di visitatore soddisfa i criteri assegnati a un canale.
 
-Questa procedura utilizza come esempio una regola e-mail. L'esempio presuppone che sia stato aggiunto un canale e-mail all'elenco dei canali nella pagina di Marketing Channel Manager.
+Questa procedura utilizza una regola e-mail come esempio. L'esempio presuppone che sia stato aggiunto un canale e-mail all'elenco dei canali nella pagina Marketing Channel Manager.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
 
-   If your report suite does not have channels defined, the [!UICONTROL Marketing Channels: Auto Setup] page displays.
+   Se nella suite di rapporti non sono definiti canali, viene visualizzata la [!UICONTROL Marketing Channels: Auto Setup] pagina.
 
-   See [Run the Automatic Setup](/help/components/c-marketing-channels/c-channel-autosetup.md).
+   Consultate [Eseguire la configurazione](/help/components/c-marketing-channels/c-channel-autosetup.md)automatica.
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Processing Rules]**.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Processing Rules]**.
 
    ![Risultato passaggio](assets/marketing_channel_rules.png)
 
-1. From the **[!UICONTROL Add New Rule Set]** menu, select **[!UICONTROL Email]**.
+1. Dal **[!UICONTROL Add New Rule Set]** menu, selezionare **[!UICONTROL Email]**.
 
-   Qui non selezionate il canale, ma un modello che popola la regola con alcuni dei parametri necessari.
+   Qui non selezionate il canale, ma un modello che completa la regola con alcuni dei parametri necessari.
 
    ![Risultato passaggio](assets/example_email.png)
 
-   Utilizzare logica booleana (istruzione if/then) per configurare una regola. Ad esempio, in una regola di canale e-mail, fornire le impostazioni o informazioni enfatizzate nella seguente istruzione regola:
+   Utilizzare la logica booleana (istruzioni if / then) per configurare una regola. Ad esempio, in una regola del canale di posta elettronica, fornire le impostazioni o le informazioni enfatizzate nella seguente istruzione di regola:
 
    `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
 
@@ -44,12 +44,12 @@ Questa procedura utilizza come esempio una regola e-mail. L'esempio presuppone c
 
    `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
 
-   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*.
-1. To continue creating rules, click **[!UICONTROL Add Rule]**.
-1. Per assegnare priorità alle regole, trascinatele nella posizione desiderata.
+   In questo esempio *`<value>`* è il parametro della stringa di query utilizzato per la campagna e-mail, ad esempio *`eml`*.
+1. Per continuare a creare le regole, fare clic su **[!UICONTROL Add Rule]**.
+1. Per assegnare priorità alle regole, trascinatele fino alla posizione desiderata.
 1. Fai clic su **[!UICONTROL Save.]**
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Domande frequenti ed esempi](/help/components/c-marketing-channels/c-faq.md)
 
