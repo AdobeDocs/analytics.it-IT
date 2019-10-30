@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Mappa
 title: Mappa
-uuid: 6038 f 336-62 a 3-4 efa -8316-4 d 7792468 db 3
+uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ La visualizzazione mappa in Analysis Workspace:
 * Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate).
 * è utile per identificare e confrontare dati di metriche per diverse aree geografiche;
 * supporta due origini di dati: latitudine/longitudine per l’utilizzo da dispositivo mobile e dimensione geografica per l’utilizzo Web;
-* Supporta l'esportazione PDF.
+* Supporta l’esportazione PDF.
 * sfrutta la visualizzazione grafica WebGL; se il driver della scheda grafica non supporta il rendering WebGL, può essere necessario aggiornare i driver.
 
 ## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
@@ -71,7 +71,7 @@ La visualizzazione mappa in Analysis Workspace:
 
 ## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-Per la mappa sono disponibili 2 set di impostazioni:
+Per Mappa sono disponibili 2 set di impostazioni:
 
 L’**icona chiave inglese** in alto a destra permette di tornare alla finestra di dialogo iniziale, dove puoi cambiare la metrica e l’origine dati:
 
@@ -86,4 +86,4 @@ L’**icona ingranaggio** presenta invece queste impostazioni:
 | Stili: Tema colore | Mostra lo schema di colori utilizzato per la mappa di calore e le bolle. Puoi scegliere tra Corallo, Rossi, Verdi e Blu. Il valore predefinito è Corallo. |
 | Stili: Stile mappa | Puoi scegliere tra Base, Strade, Vivace, Chiaro, Scuro e Satellite. |
 | Raggio cluster | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50. |
-| Valore massimo personalizzato | Consente di modificare la soglia per il valore massimo della mappa: la regolazione di questo valore regola la scala per i valori di bubbling/heatmap (colore e dimensione) rispetto al valore massimo personalizzato impostato. |
+| Valore massimo personalizzato | Consente di modificare la soglia per il valore massimo per la mappa. Regolando questo valore si regola la scala per i valori di bolle/mappa di calore (colore e dimensione) rispetto al valore massimo personalizzato impostato. |
