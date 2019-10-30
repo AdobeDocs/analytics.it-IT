@@ -1,31 +1,31 @@
 ---
-description: A seconda delle autorizzazioni, puoi condividere metriche con l'intera organizzazione, i gruppi o i singoli utenti.
-seo-description: A seconda delle autorizzazioni, puoi condividere metriche con l'intera organizzazione, i gruppi o i singoli utenti.
-seo-title: Condivisione di metriche calcolate
-title: Condivisione di metriche calcolate
-uuid: 7 e 2 a 3 c 16-3650-42 ca -842 b -2575 e 904 e 82 c
+description: A seconda delle autorizzazioni, puoi condividere le metriche con l’intera organizzazione, i gruppi o i singoli utenti.
+seo-description: A seconda delle autorizzazioni, puoi condividere le metriche con l’intera organizzazione, i gruppi o i singoli utenti.
+seo-title: Condividere le metriche calcolate
+title: Condividere le metriche calcolate
+uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Condivisione di metriche calcolate
+# Condividere le metriche calcolate
 
-A seconda delle autorizzazioni, puoi condividere metriche con l'intera organizzazione, i gruppi o i singoli utenti.
+A seconda delle autorizzazioni, puoi condividere le metriche con l’intera organizzazione, i gruppi o i singoli utenti.
 
 | Ruolo | Autorizzazioni |
 |---|---|
-| Amministratore | Può condividere metriche con Tutti, con Gruppi e con Utenti. I gruppi sono configurati come gruppi di autorizzazioni in Admin Console. |
-| Non amministratore | Può condividere metriche solo con singoli utenti. |
+|  Amministratore | Può condividere le metriche con Tutti, Gruppi e Utenti. I gruppi sono configurati come gruppi di autorizzazioni nell’Admin Console. |
+| Non amministratore | Può condividere le metriche solo con singoli utenti. |
 
-Quando conviene condividere le metriche con l'intera azienda rispetto a un solo gruppo di utenti o individui? Di seguito sono riportate alcune best practice da seguire:
+Quando condividere le metriche con l'intera azienda anziché con un solo gruppo di utenti o singoli utenti? Seguono alcune best practice:
 
-* As an Admin, share a metric with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In questo caso, è anche necessario considerare la metrica approvata.
-* As an Admin, share a metric with a specific **[!UICONTROL Group]** if the metric provides good business value for that team.
-* In qualità di amministratore o utente, condividete una metrica con altri utenti da assegnare al veterinario e convalidatela. Se non risulta utile, può essere eliminato. Non approvare ufficialmente questo tipo di metrica.
+* In qualità di Amministratore, condividi una metrica con **[!UICONTROL All]** se è utile per l'intera azienda e tutti possono utilizzarla con facilità. In questo caso, devi anche considerare la possibilità di renderlo una metrica approvata.
+* In qualità di Amministratore, condividi una metrica con uno specifico **[!UICONTROL Group]** se la metrica fornisce un buon valore commerciale per quel team.
+* In qualità di Amministratore o di singolo utente, condividi una metrica con altri utenti per verificarla e convalidarla. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di metrica.
 
-1. In Gestore metriche calcolate, contrassegnate la casella di controllo accanto alla metrica da condividere. Viene visualizzata la barra delle attività:
+1. Nel Gestore della metrica calcolata, contrassegnate la casella di controllo accanto alla metrica da condividere. Viene visualizzata la barra delle attività:
 
    ![](assets/cm_task_bar.png)
 
@@ -33,11 +33,11 @@ Quando conviene condividere le metriche con l'intera azienda rispetto a un solo 
 
    ![](assets/cm_share.png)
 
-   If you are an Admin, you can select **[!UICONTROL All]** or choose from **[!UICONTROL Groups]** and (scroll down to) **[!UICONTROL Users]** in your organization. In qualità di non amministratore, puoi vedere solo i singoli utenti. Use the **[!UICONTROL Search]** field to search for groups or users
+   Se sei un amministratore, puoi selezionare **[!UICONTROL All]** o scegliere tra **[!UICONTROL Groups]** e (scorri verso il basso) **[!UICONTROL Users]** nella tua organizzazione. In qualità di non amministratore, potete visualizzare solo singoli utenti. Utilizzare il **[!UICONTROL Search]** campo per cercare gruppi o utenti
 
 1. Fai clic su **[!UICONTROL Share]**.
 
-   The Shared icon appears next to the metric:  ![](assets/share_icon.png)
+   Accanto alla metrica viene visualizzata l’icona Condiviso:  ![](assets/share_icon.png)
 
-1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
+1. Puoi filtrare le metriche condivise con te scegliendo **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
 
