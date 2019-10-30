@@ -1,55 +1,52 @@
 ---
-description: Determina il numero di giorni trascorsi dal quale un utente ha visitato il sito e acquisisce queste informazioni in una variabile Analytics.
+description: Determina il numero di giorni dall'ultima visita di un utente al sito e acquisisce tali informazioni in una variabile di Analytics.
 keywords: Implementazione di Analytics
-seo-description: Determina il numero di giorni trascorsi dal quale un utente ha visitato il sito e acquisisce queste informazioni in una variabile Analytics.
-seo-title: Getdayssincelastvisit
+seo-description: Determina il numero di giorni dall'ultima visita di un utente al sito e acquisisce tali informazioni in una variabile di Analytics.
+seo-title: getDaysSinceLastVisit
 solution: Analytics
 subtopic: Plug-in
-title: Getdayssincelastvisit
+title: getDaysSinceLastVisit
 topic: Sviluppatore e implementazione
-uuid: cad 95882-3 bd 0-4 f 94-a 0 c 3-4 e 7 b 6058 d 246
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Getdayssincelastvisit
+# getDaysSinceLastVisit
 
-Determina il numero di giorni trascorsi dal quale un utente ha visitato il sito e acquisisce queste informazioni in una variabile Analytics.
+Determina il numero di giorni dall'ultima visita di un utente al sito e acquisisce tali informazioni in una variabile di Analytics.
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) ora include una **[!UICONTROL Days since last visit]** dimensione dalla casella, con conseguente nullizzazione della necessità di questo plug-plugin.
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) ora include una **[!UICONTROL Days since last visit]** dimensione out-of-the-box, eliminando così la necessità di questo plug-in.
 
-I dati di frequenza restituiti possono essere utilizzati per rispondere alle seguenti domande:
+Questi dati sulla frequenza di ritorno possono essere utilizzati per rispondere alle seguenti domande:
 
-* Con quale frequenza gli utenti riprendono il mio sito?
-* How does return frequency related with conversion? Gli acquirenti ripetono la visita frequente o raramente?
-* Gli utenti che fanno clic sulle mie campagne torneranno spesso?
+* Con quale frequenza gli utenti rivisitano il sito?
+* In che modo la frequenza di ritorno è correlata con la conversione? Gli acquirenti ripetuti visitano spesso o raramente?
+* Gli utenti che fanno clic tra le campagne e tornano spesso?
 
-Il plug-in può anche generare valori utilizzati per la segmentazione. Ad esempio, puoi creare un segmento per visualizzare tutti i dati per solo quelle visite che sono precedute da almeno 30 giorni di non visite da parte dell'utente.
+Il plug-in può inoltre generare valori utilizzati per la segmentazione. Ad esempio, puoi creare un segmento per visualizzare tutti i dati relativi solo alle visite precedute da 30 o più giorni di non visita da parte dell'utente.
 
->[!NOTE]
->
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
-## Plug-in Code and Implementation {#section_5600DBB819F143D59527A73BD94418DE}
+## Codice plug-in e implementazione {#section_5600DBB819F143D59527A73BD94418DE}
 
-**SEZIONE DI CONFIG**
+**SEZIONE CONFIGURAZIONE**
 
 Nessuna modifica richiesta.
 
 **Configurazione plug-in**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. Scegli una variabile Traffico personalizzato (s. prop) e/o una variabile Conversione personalizzata (s. evar) da utilizzare per acquisire i dati di frequenza restituiti. Questa selezione deve essere una variabile abilitata tramite Admin Console ma non è attualmente utilizzata per nessun altro scopo. L'esempio seguente viene fornito come esempio e deve essere aggiornato in modo appropriato in base alle esigenze.
+Inserire il codice seguente all'interno della `s_doPlugins()` funzione, che si trova nell'area del [!DNL s_code.js] file denominato *Plugin Config*. Scegliete una variabile Traffico personalizzato (s.prop) e/o una variabile Conversione personalizzata (s.eVar) da usare per acquisire i dati della frequenza di ritorno. Questa selezione deve essere una variabile abilitata tramite Admin Console ma attualmente non utilizzata per altri scopi. Di seguito viene fornito un esempio e deve essere aggiornato in base alle proprie esigenze.
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
-**PLUGINS SECTION**
-Aggiungete il codice seguente all'area del [!DNL s_code.js] file etichettata in *PLUGINS SECTION*. Non apportate modifiche a questa parte del codice plug-in.
+**SEZIONE** PLUGINS Aggiungere il seguente codice all'area del [!DNL s_code.js] file etichettato *PLUGINS SECTION*. Non apportare modifiche a questa parte del codice plug-in.
 
 ```js
 /* 
@@ -73,14 +70,14 @@ s.getDaysSinceLastVisit=new Function("c",""
 
 **Note**
 
-* Verifica sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dati sia come previsto prima della distribuzione in un ambiente di produzione.
-* Il plug-in classifica gli utenti di una frequenza di ritorno nei seguenti gruppi:
+* Verificate sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dei dati avvenga come previsto prima della distribuzione in un ambiente di produzione.
+* Il plug-in classifica gli utenti in base alla frequenza di ritorno nei seguenti gruppi:
 
    * Prima visita
    * Meno di 1 giorno
    * Meno di 7 giorni
-   * Più di 7 giorni
-   * Più di 30 giorni
+   * Oltre 7 giorni
+   * Oltre 30 giorni
 
-* Questo plug-in si basa sui cookie che l'utente ha visitato in precedenza. If the browser does not accept cookies, the plug-in returns a value of *Cookies Not Supported*.
+* Questo plug-in si basa sui cookie per segnalare che un utente ha visitato in precedenza. Se il browser non accetta i cookie, il plug-in restituisce il valore *Cookie non supportati*.
 
