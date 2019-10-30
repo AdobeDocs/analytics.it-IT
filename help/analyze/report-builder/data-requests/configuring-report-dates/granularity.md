@@ -1,23 +1,23 @@
 ---
-description: Nella procedura guidata Richiesta 1, puoi applicare un livello di granularità alla richiesta dati. Granularity Specifica il livello di dettagli temporizzati inclusi nel report.
-seo-description: Nella procedura guidata Richiesta 1, puoi applicare un livello di granularità alla richiesta dati. Granularity Specifica il livello di dettagli temporizzati inclusi nel report.
+description: Nel passaggio 1 della Richiesta guidata è possibile applicare un livello di granularità alla richiesta di dati. La granularità specifica il livello di dettaglio basato sul tempo incluso nel rapporto.
+seo-description: Nel passaggio 1 della Richiesta guidata è possibile applicare un livello di granularità alla richiesta di dati. La granularità specifica il livello di dettaglio basato sul tempo incluso nel rapporto.
 seo-title: Granularity (Granularità)
 solution: Analytics
 title: Granularity (Granularità)
 topic: Generatore di report
-uuid: 948 b 3 ff 2-fcff -45 fc -9 e 8 c -8 a 025 ac 562 b 1
+uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Granularity (Granularità)
 
-Nella procedura guidata Richiesta: Passaggio 1: potete applicare un livello di granularità alla richiesta dati. Granularity Specifica il livello di dettagli temporizzati inclusi nel report.
+Nella Richiesta guidata: Passaggio 1, è possibile applicare un livello di granularità alla richiesta di dati. La granularità specifica il livello di dettaglio basato sul tempo incluso nel rapporto.
 
-I valori validi sono Ora, Giorno, Settimana, Mese, Trimestre, Anno e Aggregato.
+I valori validi sono ora, giorno, settimana, mese, trimestre, anno e aggregato.
 
-## Elaborazione della granularità in Generatore di report
+## Elaborazione della granularità con Generatore di report
 
-Suppose you choose a date range for a month with [!UICONTROL Month] granularity. Le richieste mostrano totali per la metrica basati su dati di un mese esattamente un mese. Se l'intervallo di date della richiesta si estende su un quarto, il rapporto mostra tre cifre: una per ogni unità del mese o una frazione di esse. Se è di marzo 18, la scelta dell'ultimo trimestre restituisce una cifra per il 1 gennaio - Gennaio 31, un'altra cifra per il 1 febbraio - Febbraio 28 e una per il 1 marzo - Marzo 17.
+Si supponga di scegliere un intervallo di date per un mese con [!UICONTROL Month] granularità. Le richieste mostrano i totali per la metrica in base esattamente al valore di un mese di dati. Se l'intervallo di date della richiesta si estende per un trimestre, il rapporto mostra tre cifre: uno per ogni unità mensile, o frazione di essa. Se oggi è il 18 marzo, scegliendo l'ultimo trimestre restituisce un dato per il 1 gennaio - 31 gennaio, un altro dato per il 1 febbraio - 28 febbraio, e un dato finale per il 1 - 17 marzo.
