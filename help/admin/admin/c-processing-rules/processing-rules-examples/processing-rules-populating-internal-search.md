@@ -1,28 +1,28 @@
 ---
-description: Se utilizzi una variabile comune, ad esempio d, per compilare i termini di ricerca, puoi utilizzare le regole di elaborazione per compilare i termini di ricerca interni con questi valori.
-seo-description: Se utilizzi una variabile comune, ad esempio d, per compilare i termini di ricerca, puoi utilizzare le regole di elaborazione per compilare i termini di ricerca interni con questi valori.
-seo-title: Compilazione di termini di ricerca interni utilizzando un parametro di stringa query
+description: Se utilizzate una variabile comune, come q, per compilare i termini di ricerca, potete utilizzare le regole di elaborazione per compilare la eVar dei termini di ricerca interna con questi valori.
+seo-description: Se utilizzate una variabile comune, come q, per compilare i termini di ricerca, potete utilizzare le regole di elaborazione per compilare la eVar dei termini di ricerca interna con questi valori.
+seo-title: Compilare termini di ricerca interni utilizzando un parametro di stringa query
 solution: Analytics
 subtopic: Regole di elaborazione
-title: Compilazione di termini di ricerca interni utilizzando un parametro di stringa query
+title: Compilare termini di ricerca interni utilizzando un parametro di stringa query
 topic: Strumenti di amministrazione
-uuid: 05 ae 2 b 0 a -8797-468 c -8 f 59-643 beac 614 c 5
+uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Compilazione di termini di ricerca interni utilizzando un parametro di stringa query
+# Compilare termini di ricerca interni utilizzando un parametro di stringa query
 
-Se utilizzi una variabile comune, ad esempio d, per compilare i termini di ricerca, puoi utilizzare le regole di elaborazione per compilare i termini di ricerca interni con questi valori.
+Se utilizzate una variabile comune, come q, per compilare i termini di ricerca, potete utilizzare le regole di elaborazione per compilare la eVar dei termini di ricerca interna con questi valori.
 
-I valori delle stringhe di query devono essere codificati in Unicode o UTF -8 per essere letti dalle regole di elaborazione.
+I valori delle stringhe di query devono essere codificati in Unicode o UTF-8 per essere letti dalle regole di elaborazione.
 
 | Set di regole | Valore |
 |---|---|
-| Condizione | Se il parametro di stringa di query q è impostato |
-| Azione | Valore sovrascritto di termini di ricerca interni in parametro stringa query q |
+| Condizione | Se il parametro q della stringa query è impostato |
+| Azione | Sovrascrivi il valore dei termini di ricerca interni al parametro stringa query q |
 
 Ad esempio:
 
