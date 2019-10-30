@@ -1,50 +1,48 @@
 ---
-description: Il plug-in getandpersistvalue ottiene un valore da voi e lo compila in una variabile di Analytics per un periodo determinato. Un utilizzo comune consiste nel vedere quante visualizzazioni di pagina vengono generate da una campagna dopo un click-through, che consente di vedere facilmente le pagine più comuni per ogni campagna.
+description: Il plug-in getAndPersistValue ottiene un valore di scelta e lo compila in una variabile Analytics per un periodo determinato. Un utilizzo comune consiste nel vedere quante pagine vengono generate da una campagna dopo un click-through, per visualizzare facilmente le pagine più comuni per ogni campagna.
 keywords: Implementazione di Analytics
-seo-description: Il plug-in getandpersistvalue ottiene un valore da voi e lo compila in una variabile di Analytics per un periodo determinato. Un utilizzo comune consiste nel vedere quante visualizzazioni di pagina vengono generate da una campagna dopo un click-through, che consente di vedere facilmente le pagine più comuni per ogni campagna.
-seo-title: Getandpersistvalue
+seo-description: Il plug-in getAndPersistValue ottiene un valore di scelta e lo compila in una variabile Analytics per un periodo determinato. Un utilizzo comune consiste nel vedere quante pagine vengono generate da una campagna dopo un click-through, per visualizzare facilmente le pagine più comuni per ogni campagna.
+seo-title: getAndPersistValue
 solution: Analytics
 subtopic: Plug-in
-title: Getandpersistvalue
+title: getAndPersistValue
 topic: Sviluppatore e implementazione
-uuid: ddeab 80 c -260 e -44 b 6-8483-8 b 8 b 369 ec 19 b
+uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Getandpersistvalue
+# getAndPersistValue
 
-Il plug-in getandpersistvalue ottiene un valore da voi e lo compila in una variabile di Analytics per un periodo determinato. Un utilizzo comune consiste nel vedere quante visualizzazioni di pagina vengono generate da una campagna dopo un click-through, che consente di vedere facilmente le pagine più comuni per ogni campagna.
+Il plug-in getAndPersistValue ottiene un valore di scelta e lo compila in una variabile Analytics per un periodo determinato. Un utilizzo comune consiste nel vedere quante pagine vengono generate da una campagna dopo un click-through, per visualizzare facilmente le pagine più comuni per ogni campagna.
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Il plug-in non è stato convalidato per compatibilità con [AppMeasurement per JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
 
-For example, you might use this plug-in to set a campaign tracking code from the *`campaign`* variable into a Custom Traffic ( *`s.prop`*) variable on each visitor's page view made for the next 30 days. Questo esempio consente di determinare il numero di visualizzazioni del codice di tracciamento generato come risultato del click-through originale.
+Ad esempio, potete utilizzare questo plug-in per impostare un codice di tracciamento campagna dalla *`campaign`* variabile in una variabile Traffico personalizzato ( *`s.prop`*) per la visualizzazione della pagina di ogni visitatore creata per i 30 giorni successivi. Questo esempio consente di determinare quante pagine visualizzano il codice di tracciamento generato in seguito al click-through originale.
 
->[!NOTE]
->
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
-## Plug-in Code and Implementation {#section_92E94A96A4764113B5588F1B83E3DE2C}
+## Codice plug-in e implementazione {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
-**SEZIONE CONFIG**: Nessuna modifica necessaria per questa sezione.
+**SEZIONE** CONFIGURAZIONE: Nessuna modifica richiesta per questa sezione.
 
 **Configurazione plug-in**
 
-Place the following code within the *`s_doPlugins()`* function, which is located in the area of the *`s_code.js`* file labeled *Plugin Config*. Scegliete una variabile Traffico personalizzato (s. prop) o una variabile Conversione personalizzata (s. evar) per l'acquisizione di dati di valore persistenti. Deve trattarsi di una variabile abilitata tramite Admin Console, ma non attualmente utilizzata per nessun altro scopo. Potete utilizzare l'esempio seguente e aggiornarlo in base alle vostre esigenze.
+Inserire il codice seguente all'interno della *`s_doPlugins()`* funzione, che si trova nell'area del *`s_code.js`* file denominato *Plugin Config*. Scegliete una variabile Traffico personalizzato (s.prop) o Conversione personalizzata (s.eVar) da usare per l’acquisizione di dati di valore persistenti. Deve essere una variabile abilitata tramite Admin Console, ma attualmente non utilizzata per altri scopi. Potete utilizzare l'esempio seguente e aggiornarlo in base alle vostre esigenze.
 
 `s.prop1=s.getAndPersistValue(s.campaign,'s_getval',30);`
 
-*`s.getAndPersistValue`* sono dotati di tre argomenti:
+*`s.getAndPersistValue`* presenta tre argomenti:
 
-1. Currently populated variable or value to persist ( *`s.campaign`* shown above).
-1. Cookie name, used to store the value ( *`s_getval`* shown above).
-1. Periodo di tempo per la persistenza, in giorni. " 30 "come mostrato qui sopra causa la compilazione del valore nella variabile selezionata su ogni visualizzazione di pagina effettuata dall'utente per i successivi 30 giorni. If omitted, the setting defaults to *session*.
+1. Variabile o valore attualmente popolato da mantenere ( *`s.campaign`* come mostrato sopra).
+1. Nome del cookie, utilizzato per memorizzare il valore ( *`s_getval`* illustrato sopra).
+1. Periodo di tempo per la persistenza, in giorni. "30", come mostrato sopra, causa il popolamento del valore nella variabile selezionata su ogni visualizzazione di pagina eseguita dall'utente per i successivi 30 giorni. Se omesso, l'impostazione predefinita è *session*.
 
-**SEZIONE PLUGINS**: Aggiungete il codice seguente all'area del [!DNL s_code.js] file etichettata in PLUGINS SECTION. Non apportate modifiche a questa parte del codice plug-in.
+**SEZIONE** PLUG-IN: Aggiungere il codice seguente all'area del [!DNL s_code.js] file con etichetta PLUGINS SECTION. Non apportare modifiche a questa parte del codice plug-in.
 
 ```js
 /* 
@@ -55,4 +53,4 @@ s.getAndPersistValue=new Function("v","c","e",""
 +"v)s.c_w(c,v,e?a:0);return s.c_r(c);");
 ```
 
-Verifica sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dati sia come previsto prima della distribuzione in un ambiente di produzione.
+Verificate sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dei dati avvenga come previsto prima della distribuzione in un ambiente di produzione.
