@@ -3,9 +3,9 @@ description: Visualizza i dati gerarchici (con struttura ad albero) come un insi
 seo-description: Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati.
 seo-title: Mappa ad albero
 title: Mappa ad albero
-uuid: 4 e 1 ec 255-d 43 e -46 f 2-ac 62-296 f 15218799
+uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
