@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Origini dati
 title: Riferimento file di importazione
 topic: Sviluppatore e implementazione
-uuid: cc 58 f 8 d 8-cb 6 e -4908-846 f -0 a 41 c 6 da 805 d
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,9 @@ Le intestazioni colonna vengono utilizzate per identificare i dati in ogni colon
 
 **Data**: (Obbligatorio) una marca temporale per ogni riga di dati nel file.
 
-**Variabili**: i nomi delle variabili di reporting mappate alle dimensioni dati dell'origine dati.
+**Variabili**: I nomi delle variabili di reporting mappate alle dimensioni dati dell'origine dati.
 
-**Eventi**: i nomi degli eventi mappati alle metriche dell'origine dati.
+**Eventi**: I nomi degli eventi mappati alle metriche dell'origine dati.
 
 Usa il modello Origine dati per creare un file Origini dati che contiene i dati da caricare. Quando crei un file Origini dati, ricorda quanto segue:
 
@@ -63,6 +63,6 @@ Usa il modello Origine dati per creare un file Origini dati che contiene i dati 
 
 **File .FIN**
 
-Quando hai terminato di compilare il file Origine dati, puoi inviarlo FTP in Analytics. Tuttavia, è necessario un file aggiuntivo per l'elaborazione dei dati. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Dopo aver completato la compilazione del file Origine dati, puoi inviarlo tramite FTP ad Analytics. Tuttavia, è necessario un file aggiuntivo per l'elaborazione dei dati. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
