@@ -9,7 +9,7 @@ title: Variabili di pagina
 topic: Sviluppatore e implementazione
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ browserheight.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -67,9 +65,7 @@ browserwidth.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -224,9 +220,7 @@ colordepth.xml
 
 Ad esempio, 32 rappresenta 32 bit di colore sullo schermo. Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in `props/eVars`, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -246,9 +240,7 @@ conntype.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in `props/eVars`, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -268,9 +260,7 @@ cookiesenabled.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in `props/eVars`, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -288,9 +278,7 @@ dc.xml
 
  -->
 
->[!NOTE]
->
->La variabile dc è obsoleta. È necessario impostare *`trackingServer`* per tutte le implementazioni il valore generato da [!UICONTROL Code Manager] in s_code.js.
+> [!NOTE] La variabile dc è obsoleta. È necessario impostare *`trackingServer`* per tutte le implementazioni il valore generato da [!UICONTROL Code Manager] in s_code.js.
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
@@ -561,9 +549,7 @@ Nessuno
 * Il delimitatore non può essere modificato dopo la configurazione della gerarchia. Se il carattere di delimitazione della gerarchia deve essere modificato, contatta l’Assistenza clienti Adobe.
 * Il numero di livelli potrebbe non essere modificato dopo la configurazione della gerarchia.
 
->[!NOTE]
->
->Le modifiche alle gerarchie possono determinare un costo di servizio.
+> [!NOTE] Le modifiche alle gerarchie possono determinare un costo di servizio.
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -577,9 +563,7 @@ homepage.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -599,9 +583,7 @@ javaEnabled.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell'esecuzione di doPlugins.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -621,9 +603,7 @@ javascriptVersion.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -736,7 +716,7 @@ La sintassi della *`linkType`* variabile dipende dall'utilizzo di una stringa XM
 Se si utilizza XML, la variabile può contenere solo un singolo carattere, ad esempio 'o,' 'e,' o 'd'.
 
 ```js
-s.tl(this,’o’,’Link Name’);
+s.tl(this,'o','Link Name');
 ```
 
 Se si utilizza la stringa di query `pe`, è necessario utilizzare `lnk_d`, `lnk_e`o `lnk_o`.
@@ -911,13 +891,13 @@ Questo risultato mostrerebbe tre voci con $50 ciascuna in entrate. (Annuncio ban
  <tbody> 
   <tr> 
    <td colname="col1"> Pagina 1 </td> 
-   <td colname="col2"> <code> s.list1=”value1,value2,value3”; </code> </td> 
+   <td colname="col2"> <code> s.list1="value1,value2,value3"; </code> </td> 
    <td colname="col3"> (non impostato) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Pagina 2 </td> 
-   <td colname="col2"> <code> s.list1=”value4,value5,value6”; </code> </td> 
-   <td colname="col3"> <p> <code> s.events=”purchase”; </code> </p> <p> <code> s.products=”;product;1;200” </code> </p> </td> 
+   <td colname="col2"> <code> s.list1="value4,value5,value6"; </code> </td> 
+   <td colname="col3"> <p> <code> s.events="purchase"; </code> </p> <p> <code> s.products=";product;1;200" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -954,9 +934,7 @@ s.maxDelay="750";
 
    La perdita dei dati di integrazione DFAE si verificherebbe quando il *`s.maxDelay`* periodo non contiene il tempo sufficiente per consentire all’ospitante del DFAE di rispondere.
 
->[!NOTE]
->
->Adobe non ha il controllo sui tempi di risposta del DFAE. Se riscontri problemi coerenti anche dopo aver aumentato il periodo di ritardo massimo a un intervallo di tempo ragionevole, consulta l’amministratore di account DFA della tua organizzazione.
+> [!NOTE] Adobe non ha il controllo sui tempi di risposta del DFAE. Se riscontri problemi coerenti anche dopo aver aumentato il periodo di ritardo massimo a un intervallo di tempo ragionevole, consulta l’amministratore di account DFA della tua organizzazione.
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -1288,7 +1266,7 @@ Nomi evento come event1 o purchase.
 **Esempi** {#section_140A55D80EA24011954F9383CF312237}
 
 ```js
-s.Media.trackEvents=”event1,purchase”
+s.Media.trackEvents="event1,purchase"
 ```
 
 **Insidie, domande e suggerimenti**{#section_030B11C64EE84D46A85CA550DB732D28}
@@ -1318,7 +1296,7 @@ Nomi di variabili quali [!UICONTROL propN], *`eVarN`*, *`events`*, *`channel`* e
 **Esempi** {#section_48653222ABA14AB0A3C4471659971FAA}
 
 ```js
-s.Media.trackVars=”prop2,events,eVar3”
+s.Media.trackVars="prop2,events,eVar3"
 ```
 
 **Insidie, domande e suggerimenti**{#section_615AE1B696124B00B78F651B03813EAB}
@@ -1503,9 +1481,7 @@ In alcuni rari casi, l’URL della pagina non è l’URL da includere nei rappor
  </tbody> 
 </table>
 
->[!NOTE]
->
->Anche se Adobe consente *`pageURL`* valori fino a 64 k, alcuni browser impongono un limite di dimensione all’URL delle richieste di immagini. Per evitare il troncamento di altri dati, gli URL di pagina di lunghezza superiore a 255 byte vengono suddivisi, con i primi 255 byte visualizzati nel `g=` parametro, con i rimanenti byte che vengono visualizzati successivamente nella stringa di query nel parametro della `-g=` query.
+> [!NOTE] Anche se Adobe consente *`pageURL`* valori fino a 64 k, alcuni browser impongono un limite di dimensione all’URL delle richieste di immagini. Per evitare il troncamento di altri dati, gli URL di pagina di lunghezza superiore a 255 byte vengono suddivisi, con i primi 255 byte visualizzati nel `g=` parametro, con i rimanenti byte che vengono visualizzati successivamente nella stringa di query nel parametro della `-g=` query.
 
 **Sintassi e valori** possibili {#section_22AF3BF7C2F743549967B0C760A095C0}
 
@@ -1517,9 +1493,7 @@ s.pageURL="proto://domain/path?query_string"
 
 Solo i caratteri compatibili con l’URL sono consentiti come URL della pagina.
 
->[!NOTE]
->
->Prima di utilizzare la *`pageURL`* variabile per scopi personalizzati, si consiglia vivamente di contattare il consulente Adobe o l'Assistenza clienti.
+> [!NOTE] Prima di utilizzare la *`pageURL`* variabile per scopi personalizzati, si consiglia vivamente di contattare il consulente Adobe o l'Assistenza clienti.
 
 **Esempi** {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
@@ -1547,9 +1521,7 @@ plugins.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -1652,9 +1624,7 @@ s.purchaseID="1234567890"
 
 Nei rapporti evento valuta, il totale del rapporto rappresenta il totale degli eventi deduplicati (in questo esempio, l'importo totale degli sconti durante il periodo di reporting), non la somma dei valori evento per ciascun prodotto. Ad esempio, vedreste "9.95" sia per "Scarpe In Corsa" che per "Calzature In Corsa", e il totale sarebbe anche "9.95".
 
->[!NOTE]
->
->se un valore per lo stesso evento Numerico/Valuta è specificato nella *`products`* variabile e nella *`events`* variabile, viene utilizzato il valore del *`events`* .
+> [!NOTE] se un valore per lo stesso evento Numerico/Valuta è specificato nella *`products`* variabile e nella *`events`* variabile, viene utilizzato il valore del *`events`* .
 
 **Insidie, domande e suggerimenti**{#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 
@@ -1669,43 +1639,43 @@ Nei rapporti evento valuta, il totale del rapporto rappresenta il totale degli e
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
+   <td colname="col1"> <code> s.products="Category2;ABC123,;ABC456" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
+   <td colname="col1"> <code> s.products="Category3;ABC123;1;10" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123;1;10,;ABC456;2;19.98" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1848,9 +1818,7 @@ resolution.xml
 
 Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doPlugins`* esecuzione.
 
->[!NOTE]
->
->Questa variabile deve essere letta e non impostata.
+> [!NOTE] Questa variabile deve essere letta e non impostata.
 
 Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
@@ -1870,9 +1838,7 @@ s_objectID.xml
 
 Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento dell’attività del visitatore oppure utilizzare [!UICONTROL Activity Map] per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento.
 
->[!NOTE]
->
->È necessario un punto e virgola finale (;) quando si utilizza s_objectID con [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
+> [!NOTE] È necessario un punto e virgola finale (;) quando si utilizza s_objectID con [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
@@ -2191,9 +2157,7 @@ s.transactionID=s.purchaseID
 
 * Per impostazione predefinita, *`transactionID`* i valori vengono conservati per 90 giorni. Se il processo di interazione offline supera i 90 giorni, contatta l'Assistenza clienti per richiedere la proroga del limite.
 
->[!NOTE]
->
->La *`transactionID`* variabile può contenere caratteri diversi da una virgola. Deve trovarsi nella stessa posizione in cui è specificato il limite di caratteri (100 byte). Se si utilizzano caratteri multibyte, è necessario abilitare il supporto dei caratteri multibyte per evitare problemi con i caratteri imprevisti nel *`transactionID`*.
+> [!NOTE] La *`transactionID`* variabile può contenere caratteri diversi da una virgola. Deve trovarsi nella stessa posizione in cui è specificato il limite di caratteri (100 byte). Se si utilizzano caratteri multibyte, è necessario abilitare il supporto dei caratteri multibyte per evitare problemi con i caratteri imprevisti nel *`transactionID`*.
 
 ## visitorID {#concept_CD273CC915CC4ABD8F52E4209FF9557E}
 
@@ -2221,9 +2185,7 @@ Ordine di utilizzo: s.visitorID &gt; s_vi &gt; s_fid &gt; IP/UA.
 s.visitorID="visitor_id"
 ```
 
->[!NOTE]
->
->La *`visitorID`* variabile non deve contenere un trattino.
+> [!NOTE] La *`visitorID`* variabile non deve contenere un trattino.
 
 **Esempi** {#section_F7F07FEFAC3644A5A084D166ACE1315E}
 
