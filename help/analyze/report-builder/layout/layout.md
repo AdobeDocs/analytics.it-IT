@@ -1,19 +1,19 @@
 ---
-description: La finestra Passo Wizard (Passo procedura guidata) 2 consente di configurare il layout di report, la formattazione dell'intestazione e il filtro della dimensione per l'output. Potete utilizzare un layout pivot per configurare la richiesta, che è simile alla modalità di creazione di una tabella pivot Excel.
-seo-description: La finestra Passo Wizard (Passo procedura guidata) 2 consente di configurare il layout di report, la formattazione dell'intestazione e il filtro della dimensione per l'output. Potete utilizzare un layout pivot per configurare la richiesta, che è simile alla modalità di creazione di una tabella pivot Excel.
-seo-title: Layout - Richiesta guidata passo 2
+description: La finestra Richiesta guidata Passaggio 2 consente di configurare il layout del report, la formattazione dell'intestazione e il filtro delle dimensioni per l'output. È possibile utilizzare un layout pivot per configurare la richiesta, simile alla creazione di una tabella pivot Excel.
+seo-description: La finestra Richiesta guidata Passaggio 2 consente di configurare il layout del report, la formattazione dell'intestazione e il filtro delle dimensioni per l'output. È possibile utilizzare un layout pivot per configurare la richiesta, simile alla creazione di una tabella pivot Excel.
+seo-title: 'Layout: Creazione guidata richieste passaggio 2'
 solution: Analytics
-title: Layout - Richiesta guidata passo 2
+title: 'Layout: Creazione guidata richieste passaggio 2'
 topic: Generatore di report
-uuid: 92409 e 22-8 b 21-4827-af 2 f-bfef 8368 e 0 f 7
+uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Layout - Richiesta guidata passo 2
+# Layout: Creazione guidata richieste passaggio 2
 
-La procedura guidata Richiesta: La finestra Passaggio 2 consente di configurare il layout del rapporto, la formattazione dell'intestazione e il filtro della dimensione per l'output. Potete utilizzare un layout pivot per configurare la richiesta, che è simile alla modalità di creazione di una tabella pivot Excel.
+Richiesta guidata: La finestra del passaggio 2 consente di configurare il layout del report, la formattazione dell'intestazione e il filtro delle dimensioni per l'output. È possibile utilizzare un layout pivot per configurare la richiesta, simile alla creazione di una tabella pivot Excel.
 
-Alternatively, you can manually select the cells in which you want to display report data by using the [Custom Layout](../../../analyze/report-builder/layout/configure-the-custom-layout.md#concept_F711B12D6BE74F4880E5F596C2848183).
+In alternativa, puoi selezionare manualmente le celle in cui visualizzare i dati del rapporto utilizzando il layout [](../../../analyze/report-builder/layout/configure-the-custom-layout.md#concept_F711B12D6BE74F4880E5F596C2848183)personalizzato.
