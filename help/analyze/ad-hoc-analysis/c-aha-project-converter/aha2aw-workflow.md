@@ -1,50 +1,50 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Conversione dei progetti in Analisi ad hoc
-title: Conversione dei progetti in Analisi ad hoc
-uuid: 20 bd 9974-209 e -457 c -9 e 52-d 50 f 90078 af 6
+seo-title: Conversione di progetti in Ad Hoc Analysis
+title: Conversione di progetti in Ad Hoc Analysis
+uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Conversione dei progetti in Analisi ad hoc
+# Conversione di progetti in Ad Hoc Analysis
 
-## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Conversione di progetti in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
-Prima di convertire i progetti, prendete nota di quanto segue:
+Prima di convertire i progetti, tenete presente quanto segue:
 
-* Per convertire i progetti, devi avere effettuato l'accesso ad Analisi ad hoc come amministratore oppure come non amministratore con autorizzazione per utilizzare Analysis Workspace.
-* Poiché si tratta di una conversione una tantum, tutte le modifiche apportate al progetto Ad Hoc o alla conversione non saranno riportate in Analysis Workspace. Tuttavia, è possibile convertire nuovamente un progetto.
-* Qualsiasi progetto di analisi ad hoc convertito continuerà ad esistere in Ad Hoc, con una parentesi nel titolo che indica che è stato convertito e quante volte. Esempio:
+* Per convertire i progetti, devi aver effettuato l’accesso ad Analisi ad hoc come amministratore o come non amministratore con l’autorizzazione per utilizzare Analysis Workspace.
+* Poiché si tratta di una conversione una tantum, eventuali ulteriori modifiche apportate ai progetti ad hoc convertiti non verranno riportate in Analysis Workspace. È tuttavia possibile convertire nuovamente un progetto.
+* Eventuali progetti di analisi ad hoc convertiti continueranno a esistere in Ad Hoc, con una parentesi nel titolo che indica che è stato convertito e quante volte. Esempio:
 
    ![](assets/aha_title_converted.png)
 
-Sono disponibili 2 opzioni per la conversione di progetti Ad Hoc Analysis:
+Per quanto riguarda la conversione di progetti di Analisi ad hoc hai a disposizione 2 opzioni:
 
-* Selezionate i progetti da convertire da un elenco.
-* Convertite solo il progetto attualmente aperto.
+* Selezionare i progetti da convertire da un elenco.
+* Converti solo il progetto attualmente aperto.
 
-**Selezionare progetti da un elenco**
+**Selezione di progetti da un elenco**
 
-1. In Ad Hoc Analysis, click **[!UICONTROL File]** &gt; **[!UICONTROL Convert Projects to Analysis Workspace]**.
+1. In Analisi ad hoc, fai clic su **[!UICONTROL File]** &gt; **[!UICONTROL Convert Projects to Analysis Workspace]**.
 
    ![](assets/aha2aw_convert.png)
 
-1. In the **[!UICONTROL Convert Projects to Analysis Workspace]** dialog, select the project to convert or press  +  to select the entire list.
+1. Nella **[!UICONTROL Convert Projects to Analysis Workspace]** finestra di dialogo, selezionate il progetto da convertire oppure premete + per selezionare l’intero elenco.
 
    ![](assets/aha2aw_projects.png)
 
 1. Fai clic su **[!UICONTROL Convert]**.
-1. A [!UICONTROL Conversion Summary] now lists all the projects that have been converted, along with a status columns that indicates Success or Failure to convert, along with the error code. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. A [!UICONTROL Conversion Summary] questo punto sono elencati tutti i progetti che sono stati convertiti, insieme a colonne di stato che indicano Successo o Errore di conversione, insieme al codice di errore. Contatta l'Assistenza clienti Adobe per ulteriori diagnosi con il messaggio "`Error-Id: <Error-Code>`".
 
    ![](assets/export_summary.png)
 
 **Converti progetto corrente**
 
 1. In Analisi ad hoc, apri un progetto da convertire.
-1. Click **[!UICONTROL Convert current project to Analysis Workspace.]** ![](assets/export_current.png)
+1. Fai clic su **[!UICONTROL Convert current project to Analysis Workspace.]** ![](assets/export_current.png)
 
-1. A [!UICONTROL Conversion Summary] now lists all the projects that have been converted, along with a status columns that indicates Success or Failure to convert, along with the error code. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. A [!UICONTROL Conversion Summary] questo punto sono elencati tutti i progetti che sono stati convertiti, insieme a colonne di stato che indicano Successo o Errore di conversione, insieme al codice di errore. Contatta l'Assistenza clienti Adobe per ulteriori diagnosi con il messaggio "`Error-Id: <Error-Code>`".
