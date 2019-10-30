@@ -3,9 +3,9 @@ description: Mostra le impressioni e quanti utenti unici le hanno visualizzate.
 seo-description: Mostra le impressioni e quanti utenti unici le hanno visualizzate.
 seo-title: Grafico a dispersione
 title: Grafico a dispersione
-uuid: 470 b 3142-3 a 0 a -4 cd 8-8919-7 b 64044188 c 8
+uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,5 @@ Le dimensioni di ogni punto corrispondono a un dato visivo sul numero medio di v
 
 ![](assets/scatter.png)
 
->[!NOTE]
->
->Una tabella associata a un grafico a dispersione richiede almeno due colonne. La prima colonna definisce l’asse delle X e la seconda definisce l’asse delle Y. Nel caso in cui sia presente una terza colonna, il grafico a dispersione la utilizzerà per determinare il raggio del punto. In altre parole: le colonne *1*, *2* e *3* corrispondono a *X*, *Y* e *raggio del punto*.
+> [!NOTE] Una tabella associata a un grafico a dispersione richiede almeno due colonne. La prima colonna definisce l’asse delle X e la seconda definisce l’asse delle Y. Nel caso in cui sia presente una terza colonna, il grafico a dispersione la utilizzerà per determinare il raggio del punto. In altre parole: le colonne *1*, *2* e *3* corrispondono a *X*, *Y* e *raggio del punto*.
 
