@@ -5,7 +5,7 @@ seo-title: Date e intervalli di date
 title: Date e intervalli di date
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,9 +26,7 @@ Quando si seleziona un intervallo di date durante la creazione di un progetto, l
 
 ![](assets/daterange.jpeg)
 
->[!NOTE]
->
->Per assistenza nell’esecuzione di rapporti legacy, contattate l’Account Manager.
+> [!NOTE] Per assistenza nell’esecuzione di rapporti legacy, contattate l’Account Manager.
 
 ## Sezioni data precedenti {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -45,7 +43,5 @@ c_legacy_data.xml
 1. [Crea o apri un progetto.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
 1. Aprite il [calendario](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), quindi selezionate **[!UICONTROL Quarter]** o **[!UICONTROL Year]**.
 
->[!NOTE]
->
->Le fette data storiche si trovano entro limiti di trimestre e anno. Non è possibile visualizzare i dati che attraversano il confine tra le sezioni legacy e la nuova piattaforma di elaborazione. Gli intervalli di date che si estendono su entrambi generano un errore. Inoltre, gli intervalli di date si applicano solo al calendario gregoriano, non al calendario personalizzato.
+> [!NOTE] Le fette data storiche si trovano entro limiti di trimestre e anno. Non è possibile visualizzare i dati che attraversano il confine tra le sezioni legacy e la nuova piattaforma di elaborazione. Gli intervalli di date che si estendono su entrambi generano un errore. Inoltre, gli intervalli di date si applicano solo al calendario gregoriano, non al calendario personalizzato.
 
