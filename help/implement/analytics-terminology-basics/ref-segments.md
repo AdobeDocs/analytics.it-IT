@@ -1,28 +1,28 @@
 ---
-description: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole che hai creato.
-keywords: Implementazione di Analytics; segmento
-seo-description: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole che hai creato.
+description: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create.
+keywords: Implementazione di Analytics;segmento
+seo-description: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create.
 seo-title: Segmenti
 solution: Analytics
 title: Segmenti
 topic: Sviluppatore e implementazione
-uuid: 090 a 3 aa 1-2625-4 bfe -8221-e 24 d 0621040 a
+uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Segmenti
 
-I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole che hai creato.
+I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create.
 
-I segmenti sono basati su:
+I segmenti si basano su:
 
 * Hit
 * Visitatori
 * Visite
 
-For information about using segments for cross-device visitor identification, see [Create Segments](../../implement/js-implementation/xdevice-visid/segments.md#concept_77F0A880A6BA4A919A233DAF9D0D6FB5).
+Per informazioni sull’uso dei segmenti per l’identificazione dei visitatori tra dispositivi, consulta [Creazione di segmenti](../../implement/js-implementation/xdevice-visid/segments.md#concept_77F0A880A6BA4A919A233DAF9D0D6FB5).
 
-For in-depth information on Adobe Analytics Segmentation, please refer to the [Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
+Per informazioni dettagliate sulla segmentazione di Adobe Analytics, consulta la Guida alla [segmentazione](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
