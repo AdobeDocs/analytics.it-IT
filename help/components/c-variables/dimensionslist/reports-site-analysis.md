@@ -1,24 +1,24 @@
 ---
-description: Un rapporto Analisi ad hoc. Analisi sito mostra il modo in cui i visitatori si spostano tra pagine ed eventi specifici. Ad esempio, potete vedere il flusso di traffico tra le pagine, l'affinità tra prodotti e canali di marketing e il modo in cui campagne e canali fanno fluire gli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) e eventi di metrica. Ogni cilindro rappresenta uno o più elementi dimensione (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni cilindro (X e Y), alla larghezza cilindrica, all'altezza cilindrica e al colore. La posizione, le dimensioni e il colore variano a seconda dei valori delle metriche.
-seo-description: Un rapporto Analisi ad hoc. Analisi sito mostra il modo in cui i visitatori si spostano tra pagine ed eventi specifici. Ad esempio, potete vedere il flusso di traffico tra le pagine, l'affinità tra prodotti e canali di marketing e il modo in cui campagne e canali fanno fluire gli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) e eventi di metrica. Ogni cilindro rappresenta uno o più elementi dimensione (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni cilindro (X e Y), alla larghezza cilindrica, all'altezza cilindrica e al colore. La posizione, le dimensioni e il colore variano a seconda dei valori delle metriche.
+description: Un rapporto Analisi ad hoc. L'analisi del sito mostra il modo in cui i visitatori si spostano tra le pagine e gli eventi specificati. Ad esempio, puoi vedere il flusso di traffico tra le pagine, l'affinità tra i prodotti e i canali di marketing e il modo in cui le campagne e i canali confluiscono negli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) ed eventi delle metriche. Ogni cilindro rappresenta uno o più elementi dimensionali (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni dei cilindri (X e Y), alla larghezza del cilindro, all’altezza del cilindro e al colore. La posizione, le dimensioni e il colore cambiano a seconda dei valori delle metriche.
+seo-description: Un rapporto Analisi ad hoc. L'analisi del sito mostra il modo in cui i visitatori si spostano tra le pagine e gli eventi specificati. Ad esempio, puoi vedere il flusso di traffico tra le pagine, l'affinità tra i prodotti e i canali di marketing e il modo in cui le campagne e i canali confluiscono negli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) ed eventi delle metriche. Ogni cilindro rappresenta uno o più elementi dimensionali (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni dei cilindri (X e Y), alla larghezza del cilindro, all’altezza del cilindro e al colore. La posizione, le dimensioni e il colore cambiano a seconda dei valori delle metriche.
 seo-title: Analisi del sito
 solution: Analytics
 title: Analisi del sito
 topic: Rapporti
-uuid: 39 c 22 dc 8-6 ff 3-43 aa-a 2 ed-bc 02 c 2 db 4764
+uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Analisi del sito
 
-Un rapporto Analisi ad hoc. Analisi sito mostra il modo in cui i visitatori si spostano tra pagine ed eventi specifici. Ad esempio, potete vedere il flusso di traffico tra le pagine, l'affinità tra prodotti e canali di marketing e il modo in cui campagne e canali fanno fluire gli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) e eventi di metrica. Ogni cilindro rappresenta uno o più elementi dimensione (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni cilindro (X e Y), alla larghezza cilindrica, all'altezza cilindrica e al colore. La posizione, le dimensioni e il colore variano a seconda dei valori delle metriche.
+Un rapporto Analisi ad hoc. L'analisi del sito mostra il modo in cui i visitatori si spostano tra le pagine e gli eventi specificati. Ad esempio, puoi vedere il flusso di traffico tra le pagine, l'affinità tra i prodotti e i canali di marketing e il modo in cui le campagne e i canali confluiscono negli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) ed eventi delle metriche. Ogni cilindro rappresenta uno o più elementi dimensionali (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni dei cilindri (X e Y), alla larghezza del cilindro, all’altezza del cilindro e al colore. La posizione, le dimensioni e il colore cambiano a seconda dei valori delle metriche.
 
 Trascinate gli elementi dai riquadri degli strumenti per aggiungerli al grafico o al campo delle dimensioni.
 
-Fate clic con il pulsante destro del mouse sui cilindri per modificarli o rimuoverli.
+Fare clic con il pulsante destro del mouse sui cilindri per modificarli o rimuoverli.
 
 ## Opzioni
 
@@ -31,15 +31,15 @@ Fate clic con il pulsante destro del mouse sui cilindri per modificarli o rimuov
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Mostra analisi sito in (Visita o Visitatore) </p> </td> 
-   <td colname="col2"> <p>Lets you switch between <span class="uicontrol"> Visit</span> and <span class="uicontrol"> Visitor</span> to analyze visitor pathing. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello di visitatore, tra le visite. I rapporti Analisi sito, Flusso e Abbandono sono abilitati per i percorsi dei visitatori. Modificando questa impostazione si ripristina il rapporto, vincolando i dati alla selezione. </p> </td> 
+   <td colname="col1"> <p>Mostra analisi del sito in (visita o visitatore) </p> </td> 
+   <td colname="col2"> <p>Lets you switch between <span class="uicontrol"> Visit</span> and <span class="uicontrol"> Visitor</span> to analyze visitor pathing. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello di visitatore, tra più visite. I rapporti Analisi sito, Flusso e Abbandono sono abilitati per il percorso del visitatore. Modificando questa impostazione si riavvia il rapporto, vincolando i dati alla selezione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiungi punto di controllo </p> </td> 
-   <td colname="col2"> <p>Displays the <span class="wintitle"> Checkpoint Editor</span>, from which you can select dimensions or events to add to the display. </p> </td> 
+   <td colname="col2"> <p>Visualizza l'Editor <span class="wintitle"> punto di</span>controllo, dal quale è possibile selezionare dimensioni o eventi da aggiungere alla visualizzazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Replace Chart (Sostituisci grafico) </p> </td> 
+   <td colname="col1"> <p>Sostituisci grafico </p> </td> 
    <td colname="col2"> <p>Sostituisce il grafico Analisi sito con i punti di controllo aggiunti all'editor. </p> </td> 
   </tr> 
   <tr> 
@@ -47,8 +47,8 @@ Fate clic con il pulsante destro del mouse sui cilindri per modificarli o rimuov
    <td colname="col2"> <p>Ripristina la visualizzazione originale di un grafico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visualizzazione aerea </p> </td> 
-   <td colname="col2"> <p>Fornisce una visualizzazione dall'alto del grafico. </p> </td> 
+   <td colname="col1"> <p>Vista aerea </p> </td> 
+   <td colname="col2"> <p>Fornisce una vista dall'alto verso il basso del grafico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attiva/disattiva griglia </p> </td> 
@@ -56,7 +56,7 @@ Fate clic con il pulsante destro del mouse sui cilindri per modificarli o rimuov
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensione </p> </td> 
-   <td colname="col2"> <p>L'elemento di cui state effettuando il reporting. Trascinate l'elemento dalle Dimensioni </p> </td> 
+   <td colname="col2"> <p>L'elemento su cui si sta effettuando il reporting. Trascinate l’elemento da Dimensioni </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ Fate clic con il pulsante destro del mouse sui cilindri per modificarli o rimuov
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Modificare       </p> </td> 
-   <td colname="col2"> <p>Consente di aggiungere o rimuovere pagine a un cilindro. </p> </td> 
+   <td colname="col2"> <p>Consente di aggiungere o rimuovere pagine da un cilindro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rimuovi </p> </td> 
@@ -81,15 +81,15 @@ Fate clic con il pulsante destro del mouse sui cilindri per modificarli o rimuov
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporti </p> </td> 
-   <td colname="col2"> <p>Consente di avviare un altro report dal cilindro. </p> </td> 
+   <td colname="col2"> <p>Consente di avviare un altro rapporto dal cilindro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Salva grafico come </p> </td> 
-   <td colname="col2"> <p>Lets you save the chart as a <span class="filepath"> .png</span> or <span class="filepath"> .jpg</span>. Se modificate i controlli del grafico (angolo grafico, dimensioni) prima di salvare, le modifiche vengono mantenute nell'output. </p> </td> 
+   <td colname="col1"> <p>Salva grafico con nome </p> </td> 
+   <td colname="col2"> <p>Consente di salvare il grafico come <span class="filepath"> .png</span> o <span class="filepath"> .jpg</span>. Se modificate i controlli del grafico (angolo grafico, dimensioni) prima di salvare, le modifiche vengono mantenute nell’output. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Copia grafico negli Appunti </p> </td> 
-   <td colname="col2"> <p>Copia il grafico da incollare in un'altra applicazione. Se modificate i controlli del grafico (angolo grafico, dimensioni) prima di salvare, le modifiche vengono mantenute nell'output. </p> </td> 
+   <td colname="col2"> <p>Copia il grafico da incollare in un’altra applicazione. Se modificate i controlli del grafico (angolo grafico, dimensioni) prima di salvare, le modifiche vengono mantenute nell’output. </p> </td> 
   </tr> 
  </tbody> 
 </table>
