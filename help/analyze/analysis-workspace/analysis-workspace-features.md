@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 seo-title: Panoramica di Analysis Workspace
 solution: Analytics
 title: Panoramica di Analysis Workspace
-topic: Reports & Analytics
-uuid: 4 df 6 be 48-2 c 88-4 b 9 d -9536-ed 64 ffbb 6 ee 4
+topic: Reports and Analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Analysis Workspace rimuove tutte le limitazioni tipiche di un rapporto singolo d
 
 Playlist completa di YouTube disponibile [qui](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] Per [informazioni sulle funzioni, consulta Novità di Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) .
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Tali collegamenti possono essere condivisi come i normali collegamenti dei progetti, per indirizzare un utente a specifici pannelli o visualizzazioni di un progetto. Sono state aggiunte nuove opzioni accessibili mediante clic con il pulsante destro del mouse: “Ottieni collegamento pannello” e “Ottieni collegamento visualizzazione”. Per aggiungere un collegamento intra-link al progetto:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Tali collegamenti possono essere condivisi come i normali collegamenti dei progetti, per indirizzare un utente a specifici pannelli o visualizzazioni di un progetto. Sono state aggiunte nuove opzioni di clic con il pulsante destro del mouse denominate "Ottieni collegamento pannello" e "Ottieni collegamento visualizzazione". Per aggiungere un collegamento intra-link al progetto:
 
 1. Trascina una visualizzazione di testo in un progetto, ad esempio accanto a una visualizzazione o a una tabella che richiede informazioni di contesto.
 1. Inserisci i contenuti desiderati nella casella di testo, ad esempio un sommario, quindi evidenzia la voce che desideri collegare a un pannello o a una visualizzazione, ad esempio Metriche sul successo.
@@ -61,7 +59,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
    ![](assets/intra-linking1.png)
 
 1. Scorri fino al pannello o alla visualizzazione da collegare e fai clic con il pulsante destro del mouse sull’intestazione del pannello.
-1. Scroll down and select **[!UICONTROL Get Panel Link]** or **[!UICONTROL Get Visualization Link]**:
+1. Scorri verso il basso e seleziona **[!UICONTROL Get Panel Link]** o **[!UICONTROL Get Visualization Link]**:
 
    ![](assets/intra-linking2.png)
 
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 Se il progetto contiene visualizzazioni o pannelli compressi, quando si fa clic sul relativo collegamento la visualizzazione o il pannello corrispondente viene espanso per renderlo visibile all’utente.
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] È inoltre possibile utilizzare questa funzione con l’opzione di clic con il pulsante **[!UICONTROL Edit Description]** destro del mouse.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -93,7 +89,7 @@ See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Crea una visualizzazione dalle celle selezionate. (Right-click &gt; **[!UICONTROL Trend Selection]**.)
+Crea una visualizzazione dalle celle selezionate. (Clic con il pulsante destro del mouse &gt; **[!UICONTROL Trend Selection]**).
 
 ![](assets/trend-selection.png)
 
@@ -121,7 +117,7 @@ Trascina un segmento nel pannello a forma libera a livello di progetto per appli
 
 ![](assets/segment-panel.png)
 
-Consulta  [Segmenti](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+Consulta [Segmenti](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -144,7 +140,7 @@ Per eseguire azioni a livello di componente puoi usare il menu Azioni nella part
 | Condividi | Applicabile solo ai segmenti. |
 | Elimina | Applicabile solo ai segmenti. |
 
-See [Visualizations](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) for more information.
+Consulta [Visualizzazioni](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) per ulteriori informazioni.
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
