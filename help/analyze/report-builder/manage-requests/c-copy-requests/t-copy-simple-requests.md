@@ -1,38 +1,38 @@
 ---
-description: Copia una richiesta semplice anziché una richiesta referenziale. Una semplice richiesta è una che non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
-seo-description: Copia una richiesta semplice anziché una richiesta referenziale. Una semplice richiesta è una che non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
+description: Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
+seo-description: Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
 seo-title: Copia richieste semplici
 solution: Analytics
 title: Copia richieste semplici
 topic: Generatore di report
-uuid: ff 20560 a -01 ee -47 e 7-8 bd 1-b 73 edb 010456
+uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Copia richieste semplici
 
-Copia una richiesta semplice anziché una richiesta referenziale. Una semplice richiesta è una che non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
+Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. Questi filtri usano la corrispondenza o il posizionamento e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall'utente di una cella, detta cella di input.
+Una richiesta [](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale. Questi filtri utilizzano la corrispondenza o la tendenza e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall'utente di una cella, denominata cella di input.
 1. Create una richiesta valida.
-1. Fai clic con il pulsante destro del mouse su una delle celle in cui è mappata la richiesta oppure seleziona un'area di celle contenenti richieste.
+1. Fate clic con il pulsante destro del mouse su una delle celle in cui è mappata la richiesta, oppure selezionate un'area di celle contenente richieste.
 
-   Accertatevi di scegliere una cella da copiare nel gruppo di celle coperte dalla richiesta. La scelta preferita è la cella superiore e sinistra del set di celle coperte dalla richiesta e il lavoro da sinistra a destra. poiché il foglio di calcolo Excel dispone di centinaia di colonne e migliaia di righe disponibili per l'espansione a destra e verso il basso. Se decidete di avviare una copia di richiesta dalla cella destra o inferiore in un set di celle associate a una richiesta, il sistema non consente di incollare la richiesta se le celle da incollare si estendono oltre il bordo sinistro o superiore del foglio di calcolo.
-1. Select **[!UICONTROL Copy Request]**.
-1. In un'altra parte del foglio di calcolo, fate clic con il pulsante destro del mouse su una cella vuota (una cella che non contiene alcuna richiesta).
+   Scegliete una cella da cui copiare nel gruppo di celle coperto dalla richiesta. La scelta preferita è la cella superiore e sinistra del set di celle coperto dalla richiesta e funziona da sinistra a destra. Questo perché il foglio di calcolo Excel ha centinaia di colonne e migliaia di righe disponibili per l'espansione verso destra e verso il basso. Se si decide di avviare una copia della richiesta dalla cella più a destra o più in basso in un insieme di celle associate a una richiesta, il sistema non consente di incollare la richiesta se le celle da incollare si estendono oltre il bordo sinistro o superiore del foglio di calcolo.
+1. Seleziona **[!UICONTROL Copy Request]**.
+1. In un’altra parte del foglio di calcolo, fate clic con il pulsante destro del mouse su una cella vuota (una cella che non contiene richieste).
 
-   Per evitare di perdere o danneggiare le richieste già create, non potete incollare celle contenenti richieste a celle attualmente mappate con richieste. If you copy or cut cells containing requests, the shortcut menu does not make the [!UICONTROL Paste Requests] option available when right clicking on cells (or the set of cells) containing requests. È necessario selezionare una cella diversa come destinazione dell'operazione Incolla, in modo che le richieste non si sovrappongano. Ciò si applica se selezionate una singola cella con una richiesta di incolla o un'area di celle contenenti richieste.
+   Per evitare di perdere o di danneggiare le richieste già create, non è possibile incollare celle contenenti richieste alle celle attualmente associate a richieste. Se copiate o tagliate le celle contenenti richieste, il menu di scelta rapida non rende disponibile l' [!UICONTROL Paste Requests] opzione quando si fa clic con il pulsante destro del mouse sulle celle (o sul set di celle) contenenti richieste. È necessario selezionare una cella diversa come destinazione dell'operazione Incolla in modo che le richieste non si sovrappongano. Ciò si applica sia alla selezione di una cella singola con una richiesta di incolla, sia a un'area di celle contenente richieste.
 1. Fai clic su **[!UICONTROL Paste Request]**.
 
-   Una copia della richiesta originale viene inserita nelle celle, in una posizione o in posizioni relative alla richiesta originale.
+   Una copia della richiesta originale viene inserita nelle celle, in una posizione o nelle posizioni relative alla richiesta originale.
 
    >[!NOTE]
    >
-   >Vengono copiate solo le richieste, non il contenuto delle celle. Se disponete di altre informazioni non basate su richieste, ma in base alla comprensione dei dati visualizzati nelle celle (ad esempio intestazioni di colonna o identificatori delle righe), utilizzate i comandi standard di Excel Copia e Incolla.
+   >Vengono copiate solo le richieste, non il contenuto delle celle. Se si dispone di altre informazioni non basate sulle richieste, ma pertinenti per comprendere i dati visualizzati nelle celle (come intestazioni di colonna di tabella o identificatori di riga), utilizzare i comandi standard di Excel Copia e Incolla.
 
-   Poiché Excel utilizza Appunti diversi per copiare i contenuti delle celle e le richieste di copia, è possibile copiare sia i contenuti delle celle non richiesti che le richieste, eseguendo una serie di richieste Copia/Incolla e Copia/Incolla in serie. Tuttavia, se applicate la formattazione alle richieste presenti nel foglio di calcolo e quindi copiate e incollate, il generatore di report riproduce la formattazione originale (come bordi, font ecc.) nell'area Incolla.
+   Poiché Excel utilizza Appunti diversi per copiare il contenuto delle celle e copiare le richieste, è possibile copiare sia il contenuto delle celle che le richieste, eseguendo una serie di richieste Copia/Incolla e Copia richieste/Incolla. Tuttavia, se applicate la formattazione alle richieste nel foglio di calcolo e quindi copiate e incollate, il generatore di report riproduce la formattazione originale (come bordi, font, ecc.) nell’area Incolla.
 
-   La modifica di una richiesta copiata o tagliata negli Appunti prima di incollare la richiesta rimuove la richiesta dagli Appunti. Pertanto, per mantenere la richiesta nello stato originale, non modificate una richiesta tra l'ora in cui la copiate e l'ora in cui la incollate.
+   Modificando una richiesta copiata o tagliata negli Appunti prima di incollare la richiesta, la richiesta viene rimossa dagli Appunti. Pertanto, per mantenere la richiesta nello stato originale, non modificate una richiesta tra il momento in cui la copiate e l’ora in cui la incollate.
