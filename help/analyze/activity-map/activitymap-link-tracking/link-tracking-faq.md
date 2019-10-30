@@ -7,7 +7,7 @@ title: Domande frequenti sul tracciamento dei collegamenti
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 Domande frequenti sul tracciamento dei collegamenti in [!DNL Activity Map].
 
->[!CAUTION]
->
->Attivando [!DNL Activity Map] il tracciamento, **potresti** raccogliere dati personali identificabili (PII) **per la raccolta di dati.** Questi dati possono essere utilizzati in modo indipendente o con altre informazioni per identificare, contattare o individuare una singola persona, o per identificare un individuo nel contesto.
+> [!CAUTION] Attivando [!DNL Activity Map] il tracciamento, **potresti** raccogliere dati personali identificabili (PII) **per la raccolta di dati.** Questi dati possono essere utilizzati in modo indipendente o con altre informazioni per identificare, contattare o individuare una singola persona, o per identificare un individuo nel contesto.
 
 Di seguito sono riportati alcuni casi noti in cui i dati PII potrebbero essere raccolti utilizzando [!DNL Activity Map] Tracking:
 
@@ -104,4 +102,3 @@ Di seguito sono riportati alcuni casi noti in cui i dati PII potrebbero essere r
   </tr> 
  </tbody> 
 </table>
-
