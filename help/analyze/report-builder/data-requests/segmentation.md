@@ -7,7 +7,7 @@ title: Gestire segmenti
 topic: Generatore di report
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Generatore di report include un pannello di segmentazione nel Passaggio 1 della 
 
 ## Aggiunta o modifica di segmenti {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
->Per aggiungere o modificare segmenti, l’interfaccia del segmento Generatore di report avvia il generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione del generatore di report rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
+> [!NOTE] Per aggiungere o modificare segmenti, l’interfaccia del segmento Generatore di report avvia il generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione del generatore di report rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
 
 1. Nel pannello dei segmenti del Passaggio 1 della Richiesta guidata, fate clic su **[!UICONTROL Add]**.
 1. Viene aperta una finestra di Internet Explorer che apre l’interfaccia di Analytics Segment Builder. Per informazioni su come creare segmenti, consulta [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
@@ -63,9 +61,7 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Comprende segmen
 
 1. Verificare i segmenti da applicare.
 
->[!NOTE]
->
->Sia che siate un amministratore o un non amministratore, nel Generatore di report potete visualizzare solo i segmenti di proprietà e quelli condivisi con voi. (nell'interfaccia utente Reporting e analisi di marketing, l'amministratore può visualizzare tutti i segmenti nell'organizzazione.)
+> [!NOTE] Sia che siate un amministratore o un non amministratore, nel Generatore di report potete visualizzare solo i segmenti di proprietà e quelli condivisi con voi. (nell'interfaccia utente Reporting e analisi di marketing, l'amministratore può visualizzare tutti i segmenti nell'organizzazione.)
 
 ## Filtrare segmenti {#section_376E986D3E684999A7CDB08E53854159}
 
