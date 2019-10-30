@@ -5,7 +5,7 @@ seo-title: Connettore dati Demandbase per Adobe Analytics
 title: Connettore dati Demandbase per Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
