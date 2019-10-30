@@ -1,42 +1,40 @@
 ---
-description: Una richiesta referenziale utilizza valori dalle celle come input per parametri, ad esempio un filtro dati o un filtro relazionale.
-seo-description: Una richiesta referenziale utilizza valori dalle celle come input per parametri, ad esempio un filtro dati o un filtro relazionale.
-seo-title: Copia richieste referenti
+description: Una richiesta referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale.
+seo-description: Una richiesta referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale.
+seo-title: Copia richieste referenziali
 solution: Analytics
-title: Copia richieste referenti
+title: Copia richieste referenziali
 topic: Generatore di report
-uuid: b 6 f 64630-868 f -455 b -8682-471 ff 9 fc 596 e
+uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Copia richieste referenti
+# Copia richieste referenziali
 
-Una richiesta referenziale utilizza valori dalle celle come input per parametri, ad esempio un filtro dati o un filtro relazionale.
+Una richiesta referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale.
 
-Per propagare o copiare e incollare richieste referenti nel foglio di calcolo, è necessario che nel foglio di calcolo sia stato creato almeno una richiesta valida. Inoltre, i dati generati dalla richiesta devono contenere una cella il cui valore dipende da una richiesta in un'altra cella (utilizzando una suddivisione o un filtro corrispondente) o in base a un filtro che prende input dai dati immessi in una cella.
+Per propagare o copiare e incollare le richieste referenziali nel foglio di calcolo, è necessario aver creato almeno una richiesta valida nel foglio di calcolo. Inoltre, i dati prodotti dalla richiesta devono contenere una cella il cui valore dipende da una richiesta in un'altra cella (utilizzando un filtro di suddivisione o di corrispondenza) oppure da un filtro che preleva i dati immessi in una cella.
 
-Potete anche creare richieste di input di input da richieste in diversi fogli di lavoro, ma non in diverse cartelle di lavoro. Ad esempio, una richiesta in Foglio 2 può utilizzare una suite di rapporti da una determinata cella nel Foglio 1 e un intervallo di date da una cella in una richiesta nel Foglio 2. Il nuovo output può essere inserito in un foglio o in un nuovo foglio all'interno della stessa cartella di lavoro. Quando incollate una richiesta relativa, se un filtro di input risiede in un foglio di lavoro diverso dal foglio di lavoro in cui si trova l'output della richiesta copiata, il filtro viene incollato come filtro assoluto.
+È inoltre possibile creare richieste che fanno riferimento a filtri di input da richieste in fogli di lavoro diversi, ma non in cartelle di lavoro diverse. Ad esempio, una richiesta nel Foglio 2 può utilizzare una suite di rapporti di una determinata cella nel Foglio 1 e un intervallo di date da una cella in una richiesta nel Foglio 2. Il nuovo output può essere inserito in un foglio o in un nuovo foglio all'interno della stessa cartella di lavoro. Quando incollate una richiesta relativa, se un filtro di input risiede in un foglio di lavoro diverso dal foglio di lavoro in cui si trova l'output della richiesta copiata, il filtro viene incollato come filtro assoluto.
 
->[!NOTE]
->
->Non potete inviare una singola richiesta in più fogli di lavoro. Inoltre, il sistema non incolla alcune richieste copiate in nuove cartelle di lavoro, poiché le richieste contengono filtri di input da altri fogli di lavoro. I filtri di input includono suite di rapporti dalle celle, intervalli di date dalle celle, filtri dalle celle e altri parametri correlati.
+> [!NOTE] Non è possibile inviare una singola richiesta in più fogli di lavoro. Inoltre, il sistema non è in grado di incollare alcune delle richieste copiate in nuove cartelle di lavoro perché le richieste contengono filtri di input da altri fogli di lavoro. I filtri di input includono suite di rapporti da celle, intervalli di date da celle, filtri da celle e altri parametri correlati.
 
-**Per copiare le richieste referenti**
+**Per copiare le richieste di riferimento**
 
-1. Selezionate le celle contenenti le richieste da copiare, inclusa la cella di input o il riferimento alla cella.
-1. Right-click within the highlighted cells and select **[!UICONTROL Copy Requests]** from the shortcut menu.
+1. Selezionare le celle contenenti le richieste che si desidera copiare, inclusa la cella di input o cui si fa riferimento alla cella.
+1. Fare clic con il pulsante destro del mouse all'interno delle celle evidenziate e selezionare **[!UICONTROL Copy Requests]** dal menu di scelta rapida.
 
    Dopo aver selezionato l'area in cui si trovano le richieste e le celle di input, il sistema evidenzia le celle con questi elementi.
-1. Selezionate una cella o una serie di celle contigue da compilare con le richieste incollate.
+1. Selezionate una cella o un intervallo di celle contigue da riempire con le richieste incollate.
 
-   Accertatevi che la cella o l'intervallo di celle selezionato non contenga altri dati o richieste.
-1. Right-click the single cell or the top left-most cell in the range of cells and select **[!UICONTROL Paste Requests]**.
+   Assicurarsi che l'intervallo di celle o celle selezionato non contenga altri dati o richieste.
+1. Fare clic con il pulsante destro del mouse sulla cella singola o sulla cella più in alto a sinistra nell'intervallo di celle, quindi selezionare **[!UICONTROL Paste Requests]**.
 
-   When pasting requests that include an input cell, the options under [!UICONTROL Paste Requests] include:
+   Quando si incollano richieste che includono una cella di input, le opzioni sotto [!UICONTROL Paste Requests] includono:
 
-   **Usa cella di input assoluta:** Incolla una copia delle richieste e la formattazione associata alle celle selezionate all'area incolla che evidenzia. La cella di input (la cella a cui si fa riferimento in una delle richieste originali) non viene incollato. La cella di input resta nella stessa posizione di prima.
+   **** Usa cella di input assoluta: Incolla una copia delle richieste e della formattazione associate alle celle selezionate nell'area Incolla evidenziata. La cella di input (la cella cui si fa riferimento in una delle richieste originali) non viene incollata. Al contrario, la cella di input rimane nella stessa posizione di prima.
 
-   **Usa cella di input relativa:** Incolla una copia delle richieste e la formattazione associata alle celle selezionate all'area incolla evidenziata, inclusa una copia della cella di input. La relazione spaziale delle richieste alla cella di input è identica a quella delle richieste originali. Tuttavia, sebbene le celle appena incollate abbiano una copia delle richieste, inizialmente non hanno contenuto. poiché quando la cella di input viene ricreata nell'operazione Incolla, nessun dato è associato alla cella di input. Per visualizzare i dati per le richieste appena incollate, è necessario immettere un valore nella cella di input, quindi aggiornare le richieste.
+   **** Usa cella di input relativa: Incolla una copia delle richieste e della formattazione associate alle celle selezionate nell'area evidenziata, inclusa una copia della cella di input. La relazione spaziale delle richieste con la cella di input è la stessa delle richieste originali. Tuttavia, mentre le celle appena incollate dispongono ora di una copia delle richieste, inizialmente non hanno contenuto. Questo perché quando la cella di input viene ricreata nell'operazione Incolla, non viene associato alcun dato alla cella di input. Per visualizzare i dati delle richieste appena incollate, è necessario immettere un valore nella cella di input e aggiornare le richieste.
