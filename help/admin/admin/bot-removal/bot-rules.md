@@ -8,7 +8,7 @@ title: Panoramica delle regole bot
 topic: Strumenti di amministrazione
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -40,8 +40,7 @@ Adobe non è in grado di fornire ai clienti l'elenco dettagliato dei bot IAB, an
 
 ## Regole bot personalizzate
 
->[!Note]
->L'interfaccia utente consente di definire manualmente 500 regole. Una volta raggiunto questo limite, le regole devono essere gestite in blocco tramite le opzioni Importa file ed Esporta regole bot.
+>[!NNota] L'interfaccia utente consente di definire manualmente 500 regole. Una volta raggiunto questo limite, le regole devono essere gestite in blocco tramite le opzioni Importa file ed Esporta regole bot.
 
 Le regole bot personalizzate consentono di filtrare le condizioni basate sul traffico definite dall'utente.
 
@@ -125,9 +124,7 @@ Le regole VISTA vengono applicate dopo le regole bot (consultate Ordine di [elab
 
 **** Elaborazione delle visite ad alta qualità: Se si verificano più di 100 hit in una visita, il reporting determina se l’ora della visita, in secondi, è minore o uguale al numero di hit presenti nella visita. In questa situazione, a causa dei costi di elaborazione di visite lunghe e intense, la segnalazione inizia con una nuova visita. Le visite ad alto impatto sono in genere causate da attacchi bot e non sono considerate normali esplorazioni dei visitatori.
 
->[!NOTE]
->
->Gli hit contrassegnati come *`bots`* vengono fatturati come chiamate [server.](/help/admin/c-server-call-usage/overage-overview.md)
+> [!NOTE] Gli hit contrassegnati come *`bots`* vengono fatturati come chiamate [server.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impatto dell'offuscamento IP sui filtri bot {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
