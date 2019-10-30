@@ -1,23 +1,23 @@
 ---
-description: Potete specificare un intervallo di date selezionando le celle da un foglio di lavoro contenente una richiesta. Il generatore di report utilizza le informazioni specifiche sull'intervallo date in tali richieste. Se selezionate la data odierna, vengono visualizzati dati parziali in base all'ora in cui la richiesta viene eseguita.
-seo-description: Potete specificare un intervallo di date selezionando le celle da un foglio di lavoro contenente una richiesta. Il generatore di report utilizza le informazioni specifiche sull'intervallo date in tali richieste. Se selezionate la data odierna, vengono visualizzati dati parziali in base all'ora in cui la richiesta viene eseguita.
-seo-title: Date di una cella
+description: È possibile specificare un intervallo di date selezionando le celle da un foglio di lavoro che contiene una richiesta. Il generatore di report utilizza le informazioni specifiche dell'intervallo di date in tali richieste. Se selezionate la data odierna, vengono visualizzati i dati parziali in base all'ora del giorno in cui viene eseguita la richiesta.
+seo-description: È possibile specificare un intervallo di date selezionando le celle da un foglio di lavoro che contiene una richiesta. Il generatore di report utilizza le informazioni specifiche dell'intervallo di date in tali richieste. Se selezionate la data odierna, vengono visualizzati i dati parziali in base all'ora del giorno in cui viene eseguita la richiesta.
+seo-title: Date da una cella
 solution: Analytics
-title: Date di una cella
+title: Date da una cella
 topic: Generatore di report
-uuid: 0 d 9 bf 08 d-d 39 d -4 f 37-94 f 1-232 da 0813245
+uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Date di una cella
+# Date da una cella
 
-Potete specificare un intervallo di date selezionando le celle da un foglio di lavoro contenente una richiesta. Il generatore di report utilizza le informazioni specifiche sull'intervallo date in tali richieste. Se selezionate la data odierna, vengono visualizzati dati parziali in base all'ora in cui la richiesta viene eseguita.
+È possibile specificare un intervallo di date selezionando le celle da un foglio di lavoro che contiene una richiesta. Il generatore di report utilizza le informazioni specifiche dell'intervallo di date in tali richieste. Se selezionate la data odierna, vengono visualizzati i dati parziali in base all'ora del giorno in cui viene eseguita la richiesta.
 
-**Configurazione delle date da una cella**
+**Per configurare le date di una cella**
 
-1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Dates From Cell]**.
-1. Enter cell references in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, or click the selector and select the cells containing the requests with the starting and ending dates.
-Ad esempio, create una richiesta di Generatore di report con l'intervallo di date impostato su «ieri» e output della data di richiesta nella stessa cella «oggi () -1 ".
+1. In [!UICONTROL Request Wizard: Step 1], selezionare **[!UICONTROL Dates From Cell]**.
+1. Immettete i riferimenti di cella nei campi **[!UICONTROL From]** e **[!UICONTROL To]** oppure fate clic sul selettore e selezionate le celle contenenti le richieste con le date di inizio e di fine.
+Ad esempio, crea una richiesta di Generatore di report con l'intervallo di date impostato su "ieri" e genera la data della richiesta nella stessa cella di "oggi()-1".
