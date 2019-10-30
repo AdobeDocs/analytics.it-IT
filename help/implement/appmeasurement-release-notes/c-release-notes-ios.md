@@ -8,7 +8,7 @@ title: iOS
 topic: Sviluppatore e implementazione
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Note sulla versione cumulative per iOS.
 
->[!NOTE]
->
->Per trovare la versione corrente della libreria, attivate la registrazione di debug.
+> [!NOTE] Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
 I download delle librerie per dispositivi mobili sono disponibili su [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e su [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
@@ -95,11 +93,11 @@ La versione [!DNL iOS] SDK 4.13.2 (10 novembre 2016) include le seguenti modific
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configurazione </p> </td> 
-   <td colname="2"> <p> Gli IDFA (00000000-0000-0000-0000-000000000000) passati all’SDK tramite <code>setAdvertisingIdentifier:</code> verranno ignorati. </p> </td> 
+   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Collegamenti profondi </p> </td> 
-   <td colname="2"> <p>Quando si chiama <code>trackAdobeDeepLink</code>, le variabili con i prefissi "<code>adb</code>" e "<code>ctx</code>" vengono ora gestite correttamente. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Acquisizione </p> </td> 
@@ -122,7 +120,7 @@ La versione [!DNL iOS] SDK 4.13.1 (20 ottobre 2016) include le seguenti modifich
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Acquisizione </p> </td> 
-   <td colname="2"> <p> L’SDK ora supporta i dati di acquisizione personalizzati che devono essere restituiti in modo appropriato dalle chiamate <code> AdobeDataCallback</code> . </p> </td> 
+   <td colname="2"> <p> L'SDK ora supporta i dati di acquisizione personalizzati che devono essere restituiti in modo appropriato dalle <code> AdobeDataCallback</code> chiamate. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
@@ -235,7 +233,7 @@ La versione [!DNL iOS] SDK 4.10.0 (20 maggio 2016) include le seguenti modifiche
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Adobe Target per TVML/TVJS </p> </td> 
-   <td colname="2"> <p>Ora potete utilizzare i seguenti nomi di proprietà quando configurate l'elemento <code> ADBTarget</code> : </p> <p> 
+   <td colname="2"> <p>È ora possibile utilizzare i seguenti nomi di proprietà per configurare l' <code> ADBTarget</code> elemento: </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
       <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
       <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
@@ -322,7 +320,7 @@ La versione [!DNL iOS] SDK 4.8.0 (2 novembre 2015) include le seguenti modifiche
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>Il metodo <code>visitorSyncIdentifiers:identifiers</code> è stato modificato in <code>visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>Modificato il <code> visitorSyncIdentifiers:identifiers</code> metodo in <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> Nuovi metodi TVJS </td> 
@@ -432,7 +430,7 @@ La versione [!DNL iOS] SDK 4.6 (17 settembre 2015) include le seguenti modifiche
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E">trackPushMessageClickThrough <code></code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E">L'opzione <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -477,7 +475,7 @@ La versione [!DNL iOS] SDK 4.5 include le seguenti modifiche:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Supporto per il tracciamento dei beacon in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>Le chiamate <code> trackBeacon</code> e <code> clearCurrentBeacon</code> sono ora disponibili in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>Le <code> trackBeacon</code> e <code> clearCurrentBeacon</code> chiamate sono ora disponibili in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
