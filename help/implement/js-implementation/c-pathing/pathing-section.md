@@ -1,20 +1,20 @@
 ---
-description: Se desiderate sapere in che modo i visitatori passano da una sezione all'altra sul sito, dovete prima accertarvi di aver aggiunto i tag alle sezioni con la variabile canale.
+description: Per sapere come i visitatori si spostano da una sezione all’altra del sito, è innanzitutto necessario assicurarsi di assegnare tag alle sezioni con la variabile del canale.
 keywords: Implementazione di Analytics
-seo-description: Se desiderate sapere in che modo i visitatori passano da una sezione all'altra sul sito, dovete prima accertarvi di aver aggiunto i tag alle sezioni con la variabile canale.
+seo-description: Per sapere come i visitatori si spostano da una sezione all’altra del sito, è innanzitutto necessario assicurarsi di assegnare tag alle sezioni con la variabile del canale.
 seo-title: Passa da sezione a sezione
 solution: Analytics
 title: Passa da sezione a sezione
 topic: Sviluppatore e implementazione
-uuid: 987 cdaf 3-4 daf -423 a-bcfe -226 d 8 e 7 c 3648
+uuid: 987cdaf3-4daf-423a-bcfe-226d8e7c3648
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Passa da sezione a sezione
 
-Se desiderate sapere in che modo i visitatori passano da una sezione all'altra sul sito, dovete prima accertarvi di aver aggiunto i tag alle sezioni con la variabile canale.
+Per sapere come i visitatori si spostano da una sezione all’altra del sito, è innanzitutto necessario assicurarsi di assegnare tag alle sezioni con la variabile del canale.
 
-With this data in place, you must have pathing enabled on the *`channel`* variable. If a user starts on the home page and moves to the Sports section, then to the News section, this activity shows up in the [!UICONTROL Site Section] path reports. Questi rapporti vengono visualizzati dopo che il percorso è stato abilitato su questa variabile.
+Con questi dati, è necessario che il percorso sia attivato sulla *`channel`* variabile. Se un utente inizia nella home page e passa alla sezione Sport, quindi alla sezione News, questa attività viene visualizzata nei [!UICONTROL Site Section] rapporti sui percorsi. Questi report vengono visualizzati dopo che il percorso è abilitato su questa variabile.
