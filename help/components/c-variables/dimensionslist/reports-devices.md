@@ -5,9 +5,9 @@ seo-title: Dispositivi
 solution: Analytics
 title: Dispositivi
 topic: Rapporti
-uuid: b 7 ca 4 a 3 f -8646-42 b 8-82 c 8-ea 4 f 809 dc 115
+uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Visualizza un elenco dettagliato dei dispositivi mobili utilizzati per accedere al sito.
 
-Il traffico non mobile è elencato in questo rapporto in modo da poter confrontare rapidamente la percentuale del traffico da dispositivi mobili e non mobili.
+Il traffico non mobile è elencato in questo rapporto, in modo da poter confrontare rapidamente la percentuale di traffico da dispositivi mobili e non.
 
-Puoi usare questa dimensione per creare segmenti per il traffico mobile e non-mobile, includendo hit in cui esiste il dispositivo mobile (tutto il traffico mobile) o non esiste (tutto il traffico non mobile).
+Puoi utilizzare questa dimensione per creare segmenti per il traffico mobile e non mobile includendo hit dove esiste un dispositivo mobile (tutto il traffico mobile) o non esiste (tutto il traffico non mobile).
 
-**Dati dispositivo dinamici**
+**Dati dispositivo dinamico**
 
-Questo rapporto utilizza i dati dei dispositivi dinamici che vengono continuamente aggiornati man mano che vengono rilasciati e identificati nuovi dispositivi. Ad esempio, un nuovo tablet rilasciato durante il mese corrente potrebbe essere misidentizzato in quanto non esiste ancora nel database dei dispositivi. Quando il database del dispositivo viene aggiornato con il nuovo dispositivo, tutte le modifiche apportate vengono applicate a tutte le date di reporting. Pertanto, potrebbero verificarsi variazioni lievi su questo rapporto per le date storiche nel tempo. Come regola generale, il rapporto più aggiornato avrà i dati più precisi per qualsiasi periodo di reporting.
+Questo rapporto utilizza dati dispositivo dinamici che vengono continuamente aggiornati quando vengono rilasciati e identificati nuovi dispositivi. Ad esempio, un nuovo tablet rilasciato durante il mese corrente potrebbe essere identificato erroneamente in quanto non esiste ancora nel database del dispositivo. Quando il database del dispositivo viene aggiornato con il nuovo dispositivo, tutte le modifiche apportate vengono applicate a tutte le date di reporting. Di conseguenza, potrebbero verificarsi lievi variazioni di questo rapporto per le date storiche nel tempo. Come regola generale, il report più recente avrà i dati più precisi per qualsiasi periodo di reporting.
