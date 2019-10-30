@@ -1,27 +1,27 @@
 ---
-description: Configura diverse variabili comuni e eventi di successo per un sito Web tipico.
-seo-description: Configura diverse variabili comuni e eventi di successo per un sito Web tipico.
+description: Configura diverse variabili comuni ed eventi di successo per un sito Web tipico.
+seo-description: Configura diverse variabili comuni ed eventi di successo per un sito Web tipico.
 seo-title: Modello predefinito
 solution: Analytics
 title: Modello predefinito
 topic: Strumenti di amministrazione
-uuid: edcf 1 b 97-4 ff 2-4 e 98-b 84 c -199 af 2181 d 68
+uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Modello predefinito
 
-Configura diverse variabili comuni e eventi di successo per un sito Web tipico.
+Configura diverse variabili comuni ed eventi di successo per un sito Web tipico.
 
 | Variabili di conversione | Type (Tipo) | Sottorelazioni | Allocazione | Scadenza | `s_code` variable |
 |---|---|---|---|---|---|
 | Campagna interna | Stringa | Base | Più recente (ultimo) | Visita | `evar1` |
 | Termini di ricerca interni | Stringa | Base | Più recente (ultimo) | Visita | `evar2` |
-| Commerce Variabile 3 | Stringa | Base | Più recente (ultimo) | Visita | `evar3` |
-| Commerce Variabile 4 | Stringa | Base | Più recente (ultimo) | Visita | `evar4` |
+| Variabile Commerce 3 | Stringa | Base | Più recente (ultimo) | Visita | `evar3` |
+| Variabile Commerce 4 | Stringa | Base | Più recente (ultimo) | Visita | `evar4` |
 
 | Eventi di successo | Type (Tipo) | `s_code` variable |
 |---|---|---|
@@ -30,27 +30,27 @@ Configura diverse variabili comuni e eventi di successo per un sito Web tipico.
 | Iscrizioni | Contatore (nessuna sottorelazione) | `event3` |
 | Visualizzazioni pagina | Contatore (nessuna sottorelazione) | `event4` |
 | Ad Impression | Contatore (nessuna sottorelazione) | `event5` |
-| Clic su annunci | Contatore (nessuna sottorelazione) | `event6` |
+| Aggiungi clic | Contatore (nessuna sottorelazione) | `event6` |
 
-| Custom Insight Variables (Variabili di Insight personalizzate) | `s_code` variable |
+| Variabili di analisi personalizzate | `s_code` variable |
 |---|---|
-| Proprietà traffico 1 - 5 | `prop1, prop2, prop3, prop4, prop5` |
+| Proprietà Traffico 1 - 5 | `prop1, prop2, prop3, prop4, prop5` |
 
-La tabella seguente contiene un elenco degli eventi di commercio standard. La configurazione iniziale per questi eventi è identica in tutti i modelli delle suite di rapporti. Gli eventi con una variabile s_ code di N/D non devono essere impostati, vengono forniti automaticamente.
+La tabella seguente contiene un elenco degli eventi commerciali standard. La configurazione iniziale di questi eventi è identica in tutti i modelli delle suite di rapporti. Gli eventi con una variabile s_code di N/D non devono essere impostati, ma vengono forniti automaticamente.
 
-| Eventi commerciali standard | Type (Tipo) | `s_code` variable |
+| Eventi Commerce Standard | Type (Tipo) | `s_code` variable |
 |---|---|---|
-| Ricavi | Contatore | `purchase` |
-| Ordini | Contatore | `purchase` |
-| Unità | Contatore | `purchase` |
-| Carrelli | Contatore | `scOpen` |
-| Visualizzazioni carrello | Contatore | `scView` |
-| Istanze | Contatore | N/D |
-| Pagamenti | Contatore | `scCheckout` |
-| Aggiunte carrello | Contatore | `scAdd` |
-| Rimozioni carrello | Contatore | `scRemove` |
+| Ricavi |  Contatore | `purchase` |
+| Ordini |  Contatore | `purchase` |
+| Unità |  Contatore | `purchase` |
+| Carrelli |  Contatore | `scOpen` |
+| Visualizzazioni carrello |  Contatore | `scView` |
+| Istanze |  Contatore | N/D |
+| Pagamenti |  Contatore | `scCheckout` |
+| Aggiunte carrello |  Contatore | `scAdd` |
+| Rimozioni carrello |  Contatore | `scRemove` |
 | Visite | Contatore (nessuna sottorelazione) | N/D |
 | Visualizzazioni pagina | Contatore (nessuna sottorelazione) | N/D |
-| Visitatori giornalieri univoci | Contatore (nessuna sottorelazione) | N/D |
-| Visitatori univoci | Contatore (nessuna sottorelazione) | N/D |
+| Visitatori giornalieri unici | Contatore (nessuna sottorelazione) | N/D |
+| Visitatori unici | Contatore (nessuna sottorelazione) | N/D |
 
