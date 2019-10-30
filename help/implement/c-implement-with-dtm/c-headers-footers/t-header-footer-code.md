@@ -1,50 +1,50 @@
 ---
-description: Utilizzate Gestione tag dinamica per aggiungere un codice intestazione e piè di pagina che determini il caricamento di javascript e del contenuto della pagina sul sito. È necessario installare sia il codice header che il codice piè di pagina su ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
-keywords: Implementazione di Analytics; metodo di implementazione; gestione tag dinamica; dtm; code; codice della pagina; codice di intestazione; codice piè di pagina; codice da incorporare; scheda embed; embed
-seo-description: Utilizzate Gestione tag dinamica per aggiungere un codice intestazione e piè di pagina che determini il caricamento di javascript e del contenuto della pagina sul sito. È necessario installare sia il codice header che il codice piè di pagina su ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
+description: Utilizzate Gestione tag dinamica per aggiungere codice di intestazione e piè di pagina che determini il caricamento di JavaScript e del contenuto della pagina sul sito. È necessario installare sia il codice di intestazione che il codice di piè di pagina in ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
+keywords: Analytics Implementation;metodo di implementazione;gestione tag dinamica;dtm;codice;codice pagina;codice intestazione;codice piè di pagina;codice incorporato;scheda incorpora
+seo-description: Utilizzate Gestione tag dinamica per aggiungere codice di intestazione e piè di pagina che determini il caricamento di JavaScript e del contenuto della pagina sul sito. È necessario installare sia il codice di intestazione che il codice di piè di pagina in ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
 seo-title: Aggiungere un codice intestazione e piè di pagina
 solution: Analytics
 title: Aggiungere un codice intestazione e piè di pagina
 topic: Sviluppatore e implementazione
-uuid: 23 d 89 ae 0-340 a -4 b 12-91 d 1-953 b 4613 c 98 e
+uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Aggiungere un codice intestazione e piè di pagina
 
-Utilizzate Gestione tag dinamica per aggiungere un codice intestazione e piè di pagina che determini il caricamento di javascript e del contenuto della pagina sul sito. È necessario installare sia il codice header che il codice piè di pagina su ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
+Utilizzate Gestione tag dinamica per aggiungere codice di intestazione e piè di pagina che determini il caricamento di JavaScript e del contenuto della pagina sul sito. È necessario installare sia il codice di intestazione che il codice di piè di pagina in ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
 
-Dato che Gestione tag dinamica include uno snippet di codice sia nell'intestazione che nel piè di pagina, puoi eseguire regole all'inizio o alla fine di una pagina. Questa capacità consente di implementare strumenti di testing e altre tecnologie, mantenendo il controllo sul monitoraggio delle pagine.
+Poiché Gestione tag dinamica include un frammento di codice sia nell’intestazione che nel piè di pagina, è possibile eseguire regole all’inizio o alla fine di una pagina. Questa capacità consente di implementare strumenti di test e altre tecnologie, mantenendo al contempo il controllo sul tracciamento delle pagine.
 
-Gestione tag dinamica crea codici da incorporare di produzione e produzione per testare le modifiche nell'ambiente di staging prima di inviare modifiche all'ambiente di produzione.
+Gestione tag dinamica crea codici di incorporamento per l'area di produzione e l'area di produzione che consentono di verificare le modifiche apportate all'ambiente di staging prima di apportare modifiche all'ambiente di produzione.
 
 >[!IMPORTANT]
 >
->Per un'implementazione corretta, è importante seguire queste istruzioni così come sono visualizzate nell'Aiuto di Adobe. Specifically, you must place the header code in the `<head>` section of your document templates. Also, you must place the footer code just before the closing `</body>` tag. Placing either of these embed codes elsewhere in your markup, or using asynchronous methods to append the embed codes, or wrapping the embed codes in any way, are *not* a supported implementations of Dynamic Tag Management. I codici da incorporare devono essere implementati esattamente come fornito.
+>Per una corretta implementazione, è fondamentale che tu segua queste istruzioni come visualizzate nella Guida di Adobe. Nello specifico, è necessario inserire il codice di intestazione nella `<head>` sezione dei modelli di documento. Inoltre, è necessario posizionare il codice piè di pagina subito prima del `</body>` tag di chiusura. Posizionare uno di questi codici da incorporare altrove nel codice o utilizzare metodi asincroni per aggiungere i codici da incorporare o racchiudere i codici da incorporare in qualsiasi modo, *non* sono implementazioni supportate di Gestione tag dinamica. I codici da incorporare devono essere implementati esattamente come previsto.
 >
->Un'implementazione non supportata darà risultati imprevisti e impedisce all'Assistenza clienti e all'ingegneria di essere assistiti con la tua implementazione.
+>Un'implementazione non supportata darà risultati imprevisti e impedirà all'Assistenza clienti e all'Ingegneria di fornire assistenza nell'implementazione.
 
-1. In the Dynamic Tag Management interface, open the [!UICONTROL Embed] tab and select your hosting option (such as Akamai), then toggle the switch to "On."
+1. Nell'interfaccia Gestione tag dinamica, aprite la [!UICONTROL Embed] scheda e selezionate l'opzione di hosting (ad esempio Akamai), quindi passate a "On".
 
-   Risultato 1. Copy the production header code provided in the Embed tab of Dynamic Tag Management and place it within the [!DNL HEAD] section of your site HTML.
+   Passaggio 1. Copiate il codice dell'intestazione di produzione fornito nella scheda Incorpora di Gestione tag dinamica e inseritelo nella [!DNL HEAD] sezione HTML del sito.
 
    ![](assets/dtm-embed.png)
 
-   Place the code as close to the [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] possibile. Questo snippet di codice deve essere inserito in ogni pagina del sito di produzione live.
+   Posiziona il codice vicino al [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] tag come possibile. Questo frammento di codice deve essere inserito in ogni pagina del sito di produzione live.
 
    >[!NOTE]
    >
-   >Production embed code reflects only the published items in that [property](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). Tuttavia, il codice da incorporare per la verifica riflette tutti gli elementi della proprietà associata, indipendentemente dallo stato pubblicato o non pubblicato. To test unpublished items on your production site, locally enable staging in the console by following the instructions in [Test Unpublished Rules for Akamai Hosting](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259).
+   >Il codice da incorporare produzione riflette solo gli elementi pubblicati in quella [proprietà](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). Tuttavia, il codice da incorporare per l'staging riflette tutti gli elementi della proprietà associata, indipendentemente dallo stato Pubblicato o Non pubblicato. Per testare gli elementi non pubblicati sul sito di produzione, abilitate l'staging locale nella console seguendo le istruzioni riportate in [Test delle regole non pubblicate per l'hosting](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259)di Akamai.
 
-1. Copy the production footer code and place it in the [!DNL BODY] section of your site HTML.
+1. Copiate il codice piè di pagina di produzione e inseritelo nella [!DNL BODY] sezione HTML del sito.
 
-   Place the code as close to the [!DNL </body>] possibile.
-1. Copiate l'intestazione di staging e il codice piè di pagina, quindi ripetete i passaggi riportati sopra sul sito di staging.
+   Posiziona il codice vicino al [!DNL </body>] tag come possibile.
+1. Copiate l'intestazione e il codice piè di pagina dell'area di gestione temporanea, quindi ripetete i passaggi descritti sopra nel sito dell'area di gestione temporanea.
 
    >[!NOTE]
    >
-   >The difference between production and staging code snippets is the addition of [!DNL -staging] to the filename in the staging version. Il codice piè di pagina resta invariato in staging e produzione.
+   >La differenza tra gli snippet di codice di produzione e di gestione temporanea è l'aggiunta del nome [!DNL -staging] di file nella versione di verifica. Il codice piè di pagina rimane invariato nell'area di gestione temporanea e nella produzione.
 
