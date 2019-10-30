@@ -1,26 +1,26 @@
 ---
-description: Procedura che descrive come configurare il rilevamento della ricerca a pagamento.
-seo-description: Procedura che descrive come configurare il rilevamento della ricerca a pagamento.
-seo-title: Configurazione del rilevamento delle ricerche a pagamento
+description: Procedura per configurare il rilevamento della ricerca a pagamento.
+seo-description: Procedura per configurare il rilevamento della ricerca a pagamento.
+seo-title: Configurazione del rilevamento di ricerche a pagamento
 solution: Analytics
-title: Configurazione del rilevamento delle ricerche a pagamento
+title: Configurazione del rilevamento di ricerche a pagamento
 topic: Strumenti di amministrazione
-uuid: adfce 60 d-a 762-46 bd -8314-f 876 baf 02 a 25
+uuid: adfce60d-a762-46bd-8314-f876baf02a25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurazione del rilevamento delle ricerche a pagamento
+# Configurazione del rilevamento di ricerche a pagamento
 
-Procedura che descrive come configurare il rilevamento della ricerca a pagamento.
+Procedura per configurare il rilevamento della ricerca a pagamento.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the [!UICONTROL Report Suite Manager].
 1. Seleziona una suite di rapporti.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**.
-1. On the [!UICONTROL Paid Search Detection] page, configure the fields described in [Paid Search Detection - Descriptions](../../../admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D).
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**.
+1. Nella [!UICONTROL Paid Search Detection] pagina, configurate i campi descritti in Rilevamento ricerca [a pagamento - Descrizioni](../../../admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D).
 1. Fai clic su **[!UICONTROL Add]**.
 
-The [!UICONTROL Current Paid Search Detection Rules] list displays current paid search detection rules.
+Nell' [!UICONTROL Current Paid Search Detection Rules] elenco sono visualizzate le regole di rilevamento ricerca a pagamento correnti.
 
