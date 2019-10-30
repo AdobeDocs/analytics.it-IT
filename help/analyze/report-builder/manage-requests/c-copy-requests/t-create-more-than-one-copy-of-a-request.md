@@ -1,22 +1,22 @@
 ---
-description: È possibile creare più copie di una richiesta originale compilando un'area selezionata di celle con tutte le copie della richiesta che verranno adattate.
-seo-description: È possibile creare più copie di una richiesta originale compilando un'area selezionata di celle con tutte le copie della richiesta che verranno adattate.
+description: Potete creare più copie di una richiesta originale riempiendo un’area selezionata di celle con il numero massimo di copie della richiesta che sarà possibile immettere.
+seo-description: Potete creare più copie di una richiesta originale riempiendo un’area selezionata di celle con il numero massimo di copie della richiesta che sarà possibile immettere.
 seo-title: Creare più copie di una richiesta
 solution: Analytics
 title: Creare più copie di una richiesta
 topic: Generatore di report
-uuid: aa 8442 f 3-28 c 7-4665-b 0 ff-e 81 fcdb 79 f 6 c
+uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Creare più copie di una richiesta
 
-È possibile creare più copie di una richiesta originale compilando un'area selezionata di celle con tutte le copie della richiesta che verranno adattate.
+Potete creare più copie di una richiesta originale riempiendo un’area selezionata di celle con il numero massimo di copie della richiesta che sarà possibile immettere.
 
-1. Select the request, then click **[!UICONTROL Copy Requests]**.
-1. Select as many blank cells necessary, then click [!DNL Paste Requests].
+1. Selezionate la richiesta, quindi fate clic **[!UICONTROL Copy Requests]**.
+1. Selezionare tutte le celle vuote necessarie, quindi fare clic [!DNL Paste Requests].
 
-   Generatore di report riempie l'area Incolla con tutte le copie delle richieste originali appropriate, purché le richieste non si sovrappongano al bordo del foglio di calcolo, oppure nessuna richiesta già presente nell'area Incolla selezionata.
+   Generatore di report riempie l'area del foglio di calcolo con tutte le copie delle richieste originali che possono essere inserite, a condizione che le richieste non si sovrappongano al bordo del foglio di calcolo o che nell'area Incolla selezionata non siano già presenti richieste.
