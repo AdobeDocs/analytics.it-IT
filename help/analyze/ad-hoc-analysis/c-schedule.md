@@ -1,11 +1,11 @@
 ---
-description: Puoi personalizzare la pianificazione della consegna per i rapporti. Potete interrompere la consegna in un determinato momento o specificare quante volte desiderate inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel report. Ad esempio, se crei un rapporto per gli ultimi 90 giorni e lo pianifichi a eseguire ogni giorno, riceverai un rapporto per gli ultimi 90 giorni ogni giorno. Se crei un rapporto con un intervallo di date statico dal calendario, vedrai lo stesso rapporto ogni volta che viene inviato.
-seo-description: Puoi personalizzare la pianificazione della consegna per i rapporti. Potete interrompere la consegna in un determinato momento o specificare quante volte desiderate inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel report. Ad esempio, se crei un rapporto per gli ultimi 90 giorni e lo pianifichi a eseguire ogni giorno, riceverai un rapporto per gli ultimi 90 giorni ogni giorno. Se crei un rapporto con un intervallo di date statico dal calendario, vedrai lo stesso rapporto ogni volta che viene inviato.
+description: Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
+seo-description: Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 seo-title: Pianificazione Manager
 solution: Analytics
 title: Pianificazione Manager
 topic: Analisi ad hoc
-uuid: 82 a 054 ef -109 d -414 d-a 6 e 1-e 09 ee 57 c 163 f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,31 +14,31 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 # Pianificazione Manager
 
-Puoi personalizzare la pianificazione della consegna per i rapporti. Potete interrompere la consegna in un determinato momento o specificare quante volte desiderate inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel report. Ad esempio, se crei un rapporto per gli ultimi 90 giorni e lo pianifichi a eseguire ogni giorno, riceverai un rapporto per gli ultimi 90 giorni ogni giorno. Se crei un rapporto con un intervallo di date statico dal calendario, vedrai lo stesso rapporto ogni volta che viene inviato.
+Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 
-## Scheduling Manager {#concept_A1CDE14B72A54DD6AE17B816092CAB8B}
+## Pianificazione Manager {#concept_A1CDE14B72A54DD6AE17B816092CAB8B}
 
-Puoi personalizzare la pianificazione della consegna per i rapporti. Potete interrompere la consegna in un determinato momento o specificare quante volte desiderate inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel report. Ad esempio, se crei un rapporto per gli ultimi 90 giorni e lo pianifichi a eseguire ogni giorno, riceverai un rapporto per gli ultimi 90 giorni ogni giorno. Se crei un rapporto con un intervallo di date statico dal calendario, vedrai lo stesso rapporto ogni volta che viene inviato.
+Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 
 >[!NOTE]
 >
->Quando un account utente è disattivato, tutte le consegne pianificate create da tale utente vengono sospese.
+>Quando un account utente è disattivato, tutte le consegne programmate dei rapporti create da tale utente vengono sospese.
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+Per garantire che gli elementi di riga in una suddivisione siano persistenti nei rapporti salvati e pianificati, utilizzate la **[!UICONTROL Edit Items]** funzione in Generatore [di](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) tabelle per creare elenchi di dimensioni fisse nelle suddivisioni.
 
 >[!IMPORTANT]
 >
->Analisi ad hoc consente di definire e pianificare rapidamente i report per necessità di reporting specifici, puntuali e puntuali. Non è progettato per esportare intere esportazioni di dati con numeri o righe, colonne, valutazioni metriche o interruzioni ampie mediante estratti di dati.
+>Analisi ad hoc ti consente di definire e pianificare rapidamente i rapporti per specifiche esigenze di reporting ad hoc, tempestive. Non è progettato per l'esportazione completa di dati con un numero o più righe, colonne, valutazioni metriche o dettagliate suddivisioni utilizzando estratti di dati.
 >
->I vincoli pratici per i rapporti pianificati in Analisi ad hoc sono basati su questo principio: Se il report non viene generato entro dieci minuti (il timeout per Analisi ad hoc), il rapporto è probabilmente troppo complesso.
+>I vincoli pratici per i rapporti pianificati in Analisi ad hoc si basano su questo principio: Se il rapporto non viene generato entro dieci minuti (il timeout per Analisi ad hoc), è probabile che sia troppo complesso.
 >
->Probabilmente il rapporto contiene troppe metriche, troppe suddivisioni degli elementi dimensione, troppe righe o colonne o altri estremi che rendono troppo lunga un processo di generazione di rapporti per Analisi ad hoc. Questo tipo di rapporto deve essere eseguito in Data Warehouse, una funzionalità Adobe Analytics eseguita per l'estrazione completa dei dati in modalità offline con la generazione dei report, che può richiedere molte ore o giorni.
+>Molto probabilmente il rapporto contiene troppe metriche, troppe suddivisioni di elementi dimensionali, troppe righe o colonne o altri estremi che rendono troppo lungo un processo di generazione del rapporto per Analisi ad hoc. Questo tipo di report deve essere eseguito in Data Warehouse, una funzionalità di Adobe Analytics creata per l'estrazione dati completa in esecuzione offline con generazione di report che può richiedere molte ore o giorni.
 >
->Ad esempio, Analisi ad hoc può gestire 50,000 righe di dati, ma suddividere quei dati per dieci tipi di browser significa 50,0000 volte 10, un incremento esponenziale che potrebbe essere troppo complesso per uno strumento di reporting ad hoc. Ulteriori suddivisioni aumentano di nuovo le righe di dati esponenziale. La definizione del numero o della riga, delle colonne e delle suddivisioni effettive per la generazione di rapporti Ad Hoc Analysis non può essere definita in termini profondi, ma è una combinazione di tutti questi fattori.
+>Ad esempio, Analisi ad hoc può gestire 50.000 righe di dati, ma suddividere tali dati per dieci tipi di browser significa 50.000 volte 10, un aumento esponenziale che potrebbe essere troppo complesso per uno strumento di reporting ad hoc. Ulteriori analisi approfondite aumentano di nuovo le righe di dati in modo esponenziale. La definizione del numero o delle righe, colonne e suddivisioni effettivi da vincolare per il reporting di Analisi ad hoc non può essere definita in termini netti, ma è una combinazione di tutti questi fattori.
 
-## Schedule a report for delivery {#task_7A3165C8C5C349718FE3B2B0C727ACFD}
+## Pianificazione di un rapporto per la consegna {#task_7A3165C8C5C349718FE3B2B0C727ACFD}
 
-Procedura che descrive come pianificare un rapporto per la consegna.
+Passaggi che descrivono come pianificare un rapporto per la consegna.
 
 <!-- 
 
@@ -46,12 +46,12 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. On the [!UICONTROL Schedule Manager], click **[!UICONTROL New.]**
+1. Fate clic **[!UICONTROL Tools]**, quindi fate clic **[!UICONTROL Schedule Manager]**.
+1. Fate clic su [!UICONTROL Schedule Manager]**[!UICONTROL New.]**
 
-## Delivery Options - Definitions {#reference_CA49AC560258471AAE959BCA243F170C}
+## Opzioni di consegna - Definizioni {#reference_CA49AC560258471AAE959BCA243F170C}
 
-Definizioni delle impostazioni in Opzioni di consegna.
+Definizioni per le impostazioni in Opzioni consegna.
 
 <!-- 
 
@@ -59,7 +59,7 @@ r_delivery_options.xml
 
  -->
 
-Potete inviare le informazioni visualizzate nel rapporto selezionato al formato selezionato. Potete inviarlo una volta oppure impostare una pianificazione di consegna e specificare il formato di file desiderato. È possibile creare e inviare una firma digitale per garantire che il destinatario del file sia autentico. Puoi inviare il file a un indirizzo e-mail o caricarlo su un server FTP.
+Potete inviare le informazioni visualizzate nel rapporto attualmente selezionato al formato selezionato. Potete inviarlo una sola volta o impostare un programma di consegna e specificare il formato di file desiderato. È possibile creare e inviare una firma digitale per assicurare al destinatario che il file è autentico. Potete inviare il file a un indirizzo e-mail o caricarlo su un server FTP.
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -75,17 +75,17 @@ Potete inviare le informazioni visualizzate nel rapporto selezionato al formato 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID </p> </td> 
-   <td colname="col2"> <p>Indica l'ID del rapporto. </p> </td> 
+   <td colname="col2"> <p>Indica l’ID del rapporto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Formato file </p> </td> 
    <td colname="col2"> 
     <ul id="ul_711C2D9B216C48359F7B42521D927872"> 
-     <li id="li_36E8DEFDA1B84890A4204A6DFF4E0267">Excel: Trasmette il rapporto in un foglio di calcolo, incluse tutte le immagini. Modificabile in Microsoft Excel. </li> 
-     <li id="li_C918FA3AE8194BD2B59E554DAC7CBBE2">CSV: Trasmette il rapporto in Valori separati da virgola. Modificabile in un semplice editor di testo (ad esempio Blocco note) o un editor di fogli di calcolo (ad esempio Excel). Non contiene immagini. </li> 
-     <li id="li_B7C8C098C5264B349C21077A0DEFE059">PDF: Trasmette il rapporto in formato PDF portatile. Non modificabile e visualizzabile in Adobe Acrobat o Adobe Reader. </li> 
-     <li id="li_B1183DB25DE34B689FBD0E5B44691F49">HTML: Trasmette il rapporto in un allegato di linguaggio di marcatura ipertestuale. Questo formato è costituito dalla maggior parte dei siti Web composti. Non modificabile, a meno che non abbiate familiarità con il codice HTML. </li> 
-     <li id="li_5ED5F1862AB1490A9FF5695FF9F52C5E">Word: Trasmette il rapporto in Formato RTF, incluse tutte le immagini. Modificabile in Microsoft Word o wordpad. </li> 
+     <li id="li_36E8DEFDA1B84890A4204A6DFF4E0267">Excel: Invia il rapporto in un foglio di calcolo, incluse tutte le immagini. Modificabile in Microsoft Excel. </li> 
+     <li id="li_C918FA3AE8194BD2B59E554DAC7CBBE2">CSV: Invia il rapporto in Valori separati da virgole. Modificabile in un semplice editor di testo (come Blocco note) o in un editor di fogli di calcolo (come Excel). Non contiene immagini. </li> 
+     <li id="li_B7C8C098C5264B349C21077A0DEFE059">PDF: Invia il rapporto in formato documento portatile. Non modificabile e visualizzabile in Adobe Acrobat o Adobe Reader. </li> 
+     <li id="li_B1183DB25DE34B689FBD0E5B44691F49">HTML: Invia il rapporto in un allegato Hypertext Markup Language. Questo è il formato di cui sono composti la maggior parte dei siti Web. Modificabile solo se si ha familiarità con il codice HTML. </li> 
+     <li id="li_5ED5F1862AB1490A9FF5695FF9F52C5E">Word: Invia il rapporto in formato RTF, incluse tutte le immagini. Modificabile in Microsoft Word o WordPad. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -94,18 +94,18 @@ Potete inviare le informazioni visualizzate nel rapporto selezionato al formato 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Destinazione file </p> </td> 
-   <td colname="col2"> <p>E-mail: Impostazioni da inviare tramite e-mail. </p> <p>FTP: Impostazioni per il caricamento su un server FTP. </p> </td> 
+   <td colname="col2"> <p>E-mail: Impostazioni da inviare via e-mail. </p> <p>FTP: Impostazioni per il caricamento su un server FTP. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Intervallo di report e pianificazione consegna </p> </td> 
-   <td colname="col2"> <p>Specifica quando distribuire il rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel report. Ad esempio, se crei un rapporto per gli ultimi 90 giorni e lo pianifichi a eseguire ogni giorno, riceverai un rapporto per gli ultimi 90 giorni ogni giorno. Se crei un rapporto con un intervallo di date statico dal calendario, vedrai lo stesso rapporto ogni volta che viene inviato. </p> </td> 
+   <td colname="col1"> <p>Intervallo report e programma di consegna </p> </td> 
+   <td colname="col2"> <p>Specifica quando distribuire il report. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Advanced Format Settings - Definitions {#reference_F99B65BF7C9746638D8147EED147015B}
+## Impostazioni di formato avanzate - Definizioni {#reference_F99B65BF7C9746638D8147EED147015B}
 
-Definizioni delle impostazioni in Impostazioni formato avanzate.
+Definizioni per le impostazioni in Impostazioni formato avanzate.
 
 <!-- 
 
@@ -123,11 +123,11 @@ r_advanced_format_settings_dsc.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nome file </p> </td> 
-   <td colname="col2"> <p>Nome file definito dall'utente. </p> </td> 
+   <td colname="col2"> <p>Un nome di file definito dall'utente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Aggiungi ID al nome file </p> </td> 
-   <td colname="col2"> <p>Aggiunge automaticamente l'ID rapporto al nome del file. </p> </td> 
+   <td colname="col1"> <p>Aggiungi ID al nome del file </p> </td> 
+   <td colname="col2"> <p>Aggiunge automaticamente l'ID del rapporto al nome del file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Aggiungi data al nome del file </p> </td> 
@@ -135,7 +135,7 @@ r_advanced_format_settings_dsc.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lingua </p> </td> 
-   <td colname="col2"> <p> Consente di selezionare una lingua per il rapporto. Potete inviare il rapporto in una delle lingue seguenti, indipendentemente dalla lingua utilizzata </p> 
+   <td colname="col2"> <p> Consente di selezionare una lingua per il rapporto. Puoi inviare il rapporto in una delle seguenti lingue, indipendentemente dalla lingua utilizzata </p> 
     <ul id="ul_BD3D331B0D6146F79A6D254136E43920"> 
      <li id="li_0EE6A371B1BB4627BD3F64BD0EF07E44">English </li> 
      <li id="li_5EF76261928543FDB36D99E4C89DE994">Spagnolo </li> 
@@ -157,7 +157,7 @@ r_advanced_format_settings_dsc.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Invia file firma digitale </p> </td> 
-   <td colname="col2"> <p>Crea una firma digitale da inviare all'e-mail. </p> </td> 
+   <td colname="col2"> <p>Crea una firma digitale da inviare con il messaggio e-mail. </p> </td> 
   </tr> 
  </tbody> 
 </table>
