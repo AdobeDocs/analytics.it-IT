@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Configurare le azioni per la condizione da attivare
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Oltre a strumenti integrati come [!DNL Adobe Analytics] e Google Analytics, Dyna
 
 Ogni regola può attivare tutti gli script o le iniezioni HTML desiderati.
 
->[!NOTE]
->
->Poiché Gestione dinamica dei tag consente di inserire codice personalizzato nella pagina, fai attenzione a non creare vulnerabilità di scripting tra siti (XSS) (consulta la guida [](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP per ulteriori informazioni). L'utilizzo di elementi di dati all'interno di uno script richiede particolare attenzione. Si supponga sempre che i valori degli elementi di dati provengano da un'origine non attendibile.
+> [!NOTE] Poiché Gestione dinamica dei tag consente di inserire codice personalizzato nella pagina, fai attenzione a non creare vulnerabilità di scripting tra siti (XSS) (consulta la guida [](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP per ulteriori informazioni). L'utilizzo di elementi di dati all'interno di uno script richiede particolare attenzione. Si supponga sempre che i valori degli elementi di dati provengano da un'origine non attendibile.
 
 **Impostazione di azioni per l'attivazione della condizione**
 
