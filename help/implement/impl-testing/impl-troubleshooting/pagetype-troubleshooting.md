@@ -1,33 +1,33 @@
 ---
-description: La variabile pagetype viene utilizzata solo per designare una pagina di errore 404 (Pagina non trovata).
+description: La variabile pageType viene utilizzata solo per designare una pagina di errore 404 (Pagina non trovata).
 keywords: Implementazione di Analytics
-seo-description: La variabile pagetype viene utilizzata solo per designare una pagina di errore 404 (Pagina non trovata).
-seo-title: Impostazione errata della variabile pagetype
+seo-description: La variabile pageType viene utilizzata solo per designare una pagina di errore 404 (Pagina non trovata).
+seo-title: Impostazione errata della variabile PageType
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
-title: Impostazione errata della variabile pagetype
+subtopic: Risoluzione dei problemi
+title: Impostazione errata della variabile PageType
 topic: Sviluppatore e implementazione
-uuid: eafaf 58 e-ba 07-416 f -89 b 9-694687 cc 4802
+uuid: eafaf58e-ba07-416f-89b9-694687cc4802
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Impostazione errata della variabile pagetype
+# Impostazione errata della variabile PageType
 
-La variabile pagetype viene utilizzata solo per designare una pagina di errore 404 (Pagina non trovata).
+La variabile pageType viene utilizzata solo per designare una pagina di errore 404 (Pagina non trovata).
 
-Dispone di un solo valore possibile, errorpage.
+Ha un solo valore possibile, che è errorPage.
 
 ```js
 pageType="errorPage"
 ```
 
-On a 404 error page, the *`pageName`* variable should not be populated. The *`pageType`* variable should be set only on a designated 404 error page. Any page containing content should never have a value in the *`pageType`* variable. Per le pagine contenenti contenuto, potete impostare la variabile come mostrato di seguito:
+In una pagina di errore 404, la *`pageName`* variabile non deve essere compilata. La *`pageType`* variabile deve essere impostata solo su una specifica pagina di errore 404. Qualsiasi pagina contenente contenuto non deve mai avere un valore nella *`pageType`* variabile. Per le pagine contenenti contenuto, potete impostare la variabile come illustrato di seguito:
 
 ```js
 pageType=""
 ```
 
-È consigliabile eliminare completamente la variabile dalle pagine contenenti contenuto. Si consiglia di evitare confusione riguardo allo scopo della variabile.
+È consigliabile eliminare completamente la variabile dalle pagine contenenti contenuto. Questa procedura è consigliata per evitare confusione circa lo scopo della variabile.
