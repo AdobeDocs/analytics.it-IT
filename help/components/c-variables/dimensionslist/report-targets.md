@@ -1,27 +1,25 @@
 ---
-description: I report relativi alle destinazioni consentono di misurare le prestazioni del sito Web e di monitorare l'avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori derivanti da un'area geografica, dai ricavi ordinati in ordine o dal numero di hit derivanti da un referente specifico.
-seo-description: I report relativi alle destinazioni consentono di misurare le prestazioni del sito Web e di monitorare l'avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori derivanti da un'area geografica, dai ricavi ordinati in ordine o dal numero di hit derivanti da un referente specifico.
-seo-title: Destinazioni
-title: Destinazioni
-uuid: ecb 9 b 964-0703-414 a-a 4 ff -7 cf 75121 a 0 e 1
+description: I rapporti di targeting consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
+seo-description: I rapporti di targeting consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
+seo-title: Target
+title: Target
+uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Destinazioni
+# Target
 
-I report relativi alle destinazioni consentono di misurare le prestazioni del sito Web e di monitorare l'avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori derivanti da un'area geografica, dai ricavi ordinati in ordine o dal numero di hit derivanti da un referente specifico.
+I rapporti di targeting consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
 
->[!NOTE]
->
->These reports should not be confused with the Adobe [Target](../../../components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) report.
+> [!NOTE] Questi report non devono essere confusi con il report Adobe [Target](../../../components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) .
 
-To access your Targets reports, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Targets]** &gt; **[!UICONTROL[your target name]]**
+Per accedere ai rapporti Target, vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Targets]** &gt; **[!UICONTROL[nome]destinazione]**
 
-When you [create targets](https://marketing.adobe.com/resources/help/en_US/sc/user/targets.html), you select which attribute metrics or eVars you want to measure or you can choose to measure your entire site against your selected metric.
+Quando [create target](https://marketing.adobe.com/resources/help/en_US/sc/user/targets.html), potete selezionare le metriche attributo o eVar da misurare oppure scegliere di misurare l'intero sito rispetto alle metriche selezionate.
 
-Il rapporto mostra il totale cumulativo della metrica specificata e la differenza tra tale totale e la destinazione impostata al momento della configurazione del report.
+Il rapporto mostra il totale cumulativo della metrica specificata e la differenza tra il totale e la destinazione impostata al momento della configurazione del rapporto.
 
-You can also manage your targets under **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
+Potete anche gestire le destinazioni in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
