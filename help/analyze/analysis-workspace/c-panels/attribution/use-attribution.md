@@ -5,7 +5,7 @@ seo-title: Utilizzare Attribution IQ in Analysis Workspace
 title: Utilizzare Attribution IQ in Analysis Workspace
 uuid: 99fc91b6-ebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Le tabelle a forma libera di Analysis Workspace supportano modelli di attribuzio
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-Qualsiasi suddivisione all’interno di una tabella a forma libera può anche essere oggetto dell’applicazione di un modello di attribuzione che può essere uguale o diverso rispetto alla colonna principale. Ad esempio, si potrebbe voler analizzare gli ordini lineari sulla dimensione canali di marketing ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a una suddivisione, passa il cursore sul modello di suddivisione e fai clic su Edit (Modifica):
+Qualsiasi suddivisione all’interno di una tabella a forma libera può anche essere oggetto dell’applicazione di un modello di attribuzione che può essere uguale o diverso rispetto alla colonna principale. Ad esempio, si potrebbe voler analizzare gli ordini lineari sulla dimensione canali di marketing ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a una suddivisione, passate il puntatore del mouse sul modello di suddivisione e fate clic su "Edit" (Modifica):
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-If you’d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ Il pannello Attribuzione permette di strutturare facilmente un’analisi confron
 | Grafico di sovrapposizione delle dimensioni | Un diagramma di Venn che mostra i tre elementi dimensione principali (ad es. canali) e quanto spesso essi partecipano unitamente a una conversione. Ad esempio, le dimensioni della sovrapposizione a bolla indicano quanto spesso si è verificata una conversione quando un visitatore è stato esposto a entrambi gli elementi dimensione (ad es. canali). Quando si selezionano altre righe nella tabella a forma libera, la visualizzazione si aggiorna in base alla selezione. |
 | Punti di contatto di marketing per percorso | Un istogramma che indica il numero di punti di contatto di marketing (o qualsiasi dimensione) riscontrati per un visitatore nell’intervallo di date di reporting. Questa visualizzazione è utile per vedere l’impatto dell’attribuzione a più contatti per un set di dati. Se quasi tutti i visitatori hanno solo un singolo punto di contatto, diversi modelli di attribuzione produrranno risultati simili. |
 | Dettagli di prestazione di un canale di marketing | Consente di confrontare visivamente fino a tre modelli di attribuzione mediante un grafico di dispersione. |
-| Flusso del canale di marketing | Consente di vedere con quali canali si interagisce più comunemente e in quale ordine lungo il percorso di un visitatore. |
+| Flusso del canale di marketing | Consente di vedere con quali canali si interagisce più comunemente, e in quale ordine nel percorso di un visitatore. |
