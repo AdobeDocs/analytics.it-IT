@@ -1,26 +1,26 @@
 ---
 description: I filtri consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
 seo-description: I filtri consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
-seo-title: Filtrare i dati dei rapporti
+seo-title: Filtraggio dati dei rapporti
 solution: Analytics
-title: Filtrare i dati dei rapporti
-topic: Reports & Analytics
-uuid: b 6 dcaaf 7-61 f 0-4793-870 d-e 1 d 156575 d 5 a
+title: Filtraggio dati dei rapporti
+topic: Reports and Analytics
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# Filtra dati rapporto {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 I filtri consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
 
-## Simple Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## Filtro semplice {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
-Il filtro semplice viene visualizzato sulla maggior parte dei rapporti per trovare rapidamente elementi specifici della linea. Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. È possibile trovare elementi linea contenenti termini multipli utilizzando uno spazio.
+Nella maggior parte dei rapporti viene visualizzato un semplice filtro che consente di individuare rapidamente specifici elementi di riga. I filtri semplici non utilizzano caratteri speciali, pertanto `-, ", ', +` e altri caratteri speciali corrispondono al valore letterale nel rapporto. È possibile trovare righe contenenti più termini utilizzando uno spazio.
 
 Ad esempio:
 
@@ -38,42 +38,40 @@ help:Search Keywords Report
 help:Internal Search Term
 ```
 
-## Advanced Filters {#section_E016626C084640E8A066B2FDA5B932BF}
+## Filtri avanzati {#section_E016626C084640E8A066B2FDA5B932BF}
 
-I filtri avanzati consentono di controllare l'ambito della ricerca utilizzando una raccolta di filtri. È possibile selezionare tutti i filtri o tutti i filtri.
+I filtri avanzati consentono di controllare l'ambito della ricerca utilizzando una raccolta di filtri. È possibile scegliere se applicare tutti i filtri o altri filtri.
 
 ![](assets/advanced_filter.png)
 
 **Contiene**
 
-Corrisponde se il termine viene trovato ovunque nell'elemento della riga. Funziona come il filtro semplice.
+Corrisponde se il termine è trovato in un punto qualsiasi dell'elemento della riga. Funziona come il filtro semplice.
 
->[!NOTE]
->
->Gli spazi non possono essere utilizzati nei filtri perché gli spazi sono delimitati da ricerche nelle ricerche
+> [!NOTE] Gli spazi non possono essere utilizzati nei filtri, perché gli spazi sono delimitatori nelle ricerche
 
 **Non contiene**
 
-Corrisponde se il termine non è trovato nell'elemento della riga. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
+Corrisponde se il termine non viene trovato in alcun punto dell'elemento della riga. Potete filtrare "unspecified", "none", "keyword non disponibile" e altri valori [](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) speciali dai rapporti utilizzando "non contiene".
 
 Non contiene: `none`
 
-Per un filtro più preciso, potete usare un filtro Avanzato (Caratteri speciali):
+Per un filtro più preciso, potete usare un filtro Avanzate (Caratteri speciali):
 
-* Advanced (Special Character): `-^none$`
-* Advanced (Special Character): `-"keyword unavailable"`
+* Avanzate (carattere speciale): `-^none$`
+* Avanzate (carattere speciale): `-"keyword unavailable"`
 
-Ad esempio, la seguente voce di riga viene filtrata dai criteri "Does Not contain" (Non contiene), ma non viene filtrata dai criteri "Advanced (Special Character)":
+Ad esempio, l'elemento di riga seguente viene filtrato in base ai criteri "Non contiene", ma non in base ai criteri "Avanzate (Carattere speciale)":
 
 ```
 help:Rename the None classification key
 ```
 
-**Contiene uno di**
+**Contiene Uno**
 
-Corrisponde se sono presenti termini, separati da spazi, nell'elemento della riga. Il filtro seguente mostra tutte le pagine contenenti «menu» o «vendita»:
+Corrisponde se nell'elemento della riga sono presenti termini, separati da spazi. Il filtro seguente mostra tutte le pagine che contengono "mens" o "sale":
 
-Contains One Of: `mens sale`
+Contiene Uno Dei Seguenti Elementi: `mens sale`
 
 Corrisponde alle pagine seguenti:
 
@@ -86,7 +84,7 @@ Sale & Values
 
 **È uguale a**
 
-Corrisponde se l'intero elemento della riga, incluso spazi e altri caratteri, corrisponde alla frase specificata.
+Corrisponde se l'intero elemento della riga, compresi gli spazi e altri caratteri, corrisponde alla frase specificata.
 
 È uguale a: `mens:desk & travel`
 
@@ -94,9 +92,9 @@ Corrisponde se l'intero elemento della riga, incluso spazi e altri caratteri, co
 
 **Inizia con**
 
-Corrisponde se l'elemento della riga, incluso spazi e altri caratteri, inizia con la frase specificata.
+Corrisponde se l'elemento di riga, compresi gli spazi e altri caratteri, inizia con la frase specificata.
 
-Starts With: `mens`
+Inizia con: `mens`
 
 Corrisponde alle pagine seguenti:
 
@@ -110,9 +108,9 @@ Mens Hemp/Bamboo Flip Flops
 
 **Termina con**
 
-Corrisponde se l'elemento della riga, incluso spazi e altri caratteri, termina con la frase specificata.
+Corrisponde se l'elemento di riga, compresi gli spazi e altri caratteri, termina con la frase specificata.
 
-Ends With: `jean`
+Termina con: `jean`
 
 Corrisponde alle pagine seguenti:
 
@@ -124,22 +122,22 @@ Bling Belt High Waist Jean
 Ocean Blue Jean
 ```
 
-## Advanced (Special Character) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
+## Avanzate (carattere speciale) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
-Avanzata consente di eseguire caratteri jolly e altre ricerche complesse.
+Avanzate consente di eseguire caratteri jolly e altre ricerche complesse.
 
-| Avanzato (carattere speciale) | Descrizione |
+| Avanzate (carattere speciale) | Descrizione |
 |--- |--- |
 | `" "` | Corrispondenza esatta. |
-| `*` | Carattere jolly, corrispondenza greedy. <br>`r*p` Ad esempio, corrisponde a "Registrazione registrazione". |
+| `*` | Carattere jolly, corrispondenza avida. <br>Ad esempio, `r*p` corrisponde a "Registrazione". |
 | `^` | Inizia con. <br>Non includete uno spazio tra il carattere speciale e la frase di ricerca. |
 | `$` | Termina con. <br>Non includete uno spazio tra il carattere speciale e la frase di ricerca. |
-| `-` | Not. <br>Non includete uno spazio tra il carattere speciale e la frase di ricerca. |
-| `|` | Or<br>Note:  you must include a space on each side of the pipe character, `" | "`. |
+| `-` | No. <br>Non includete uno spazio tra il carattere speciale e la frase di ricerca. |
+| `|` | <br>OrNote:  è necessario includere uno spazio su ogni lato del carattere barra verticale, `" | "`. |
 
-## Create report-specific filters {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
+## Creare filtri specifici per i rapporti {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Procedura che descrive come creare filtri per i rapporti.
+Procedura per la creazione di filtri per i rapporti.
 
 <!-- 
 
@@ -147,21 +145,21 @@ t_reports_filter_specific.xml
 
  -->
 
-Alcuni rapporti contengono un filtro specifico per tale rapporto. For example, a [!UICONTROL Purchase Conversion Funnel Report] lets you filter by web pages. A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. Altri rapporti sono dotati di altri filtri specifici per tali rapporti.
+Alcuni rapporti contengono un filtro specifico per il rapporto. Ad esempio, un [!UICONTROL Purchase Conversion Funnel Report] consente di filtrare per pagine Web. A [!UICONTROL Geosegmentation Report] consente di filtrare per area geografica. I rapporti aggiuntivi contengono altri filtri specifici per tali rapporti.
 
-Quando accedete a tali filtri, potete visualizzare le metriche di rapporti per gli elementi specificati nell'elenco.
+Quando accedete a questi filtri, potete visualizzare le metriche dei rapporti per gli elementi specificati nell'elenco.
 
-**Per creare filtri specifici per i rapporti**
+**Creazione di filtri specifici per i rapporti**
 
-1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
-1. In the report header, click the **[!UICONTROL Filter]** link.
-1. On the [!UICONTROL Filter Selector] page, click **[!UICONTROL Apply a Filter]**, then select a filter type.
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
+1. Generate un rapporto, ad esempio [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
+1. Nell’intestazione del rapporto, fate clic sul **[!UICONTROL Filter]** collegamento.
+1. Sulla [!UICONTROL Filter Selector] pagina, fate clic **[!UICONTROL Apply a Filter]**, quindi selezionate un tipo di filtro.
+1. Per cercare un elemento, digitare una stringa di caratteri nel **[!UICONTROL Search]** campo.
 1. Fai clic su **[!UICONTROL OK]**.
 
 ## Add a correlation filter {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
-Procedura che descrive come aggiungere un filtro di correlazione.
+Passaggi che descrivono come aggiungere un filtro di correlazione.
 
 <!-- 
 
@@ -169,13 +167,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-Alcuni rapporti consentono di aggiungere filtri di correlazione personalizzati. For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women's page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+Alcuni rapporti consentono di aggiungere filtri di correlazione personalizzati. Ad esempio, se stai visualizzando il report [!UICONTROL Pages Report] per una suite di rapporti con sezioni del sito correlate a una pagina femminile, puoi creare una regola di filtro che genera un report con le pagine più popolari quando Sezioni del sito = Donne.
 
-Puoi filtrare i dati mostrati in un rapporto di correlazione utilizzando qualsiasi correlazione disponibile. Nell'esempio seguente viene illustrato come aggiungere un filtro di correlazione motore di ricerca.
+Puoi filtrare i dati visualizzati in un rapporto di correlazione utilizzando qualsiasi correlazione disponibile. L’esempio seguente mostra come aggiungere un filtro di correlazione per il motore di ricerca.
 
-**Per aggiungere un filtro di correlazione**
+**Aggiunta di un filtro di correlazione**
 
-1. Eseguite un report che supporta le correlazioni. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
-1. Under [!UICONTROL Filter Rule Creator], select a category to correlate with an item.
+1. Eseguire un report che supporti le correlazioni. (Vedere [Esecuzione di un rapporto](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)di suddivisione.)
+1. Nell’intestazione del rapporto, fate clic sul **[!UICONTROL Correlation Filter]** collegamento.
+1. In [!UICONTROL Filter Rule Creator]selezionare una categoria da correlare a un elemento.
 1. Fai clic su **[!UICONTROL OK.]**
