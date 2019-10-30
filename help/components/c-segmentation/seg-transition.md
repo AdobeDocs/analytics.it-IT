@@ -8,7 +8,7 @@ title: Domande frequenti
 topic: Segmenti
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -141,7 +141,7 @@ I rapporti pianificati non vengono aggiornati quando si modifica un segmento con
 
 ![](assets/duplicate_seg_names.png)
 
-È presente un segnalibro che fa riferimento al segmento della suite di rapporti principale. Quindi eliminate il segmento perché è un duplicato. Il segnalibro continuerà a essere eseguito, facendo riferimento alla definizione del segmento eliminato. Se si modifica la definizione del segmento per il segmento principale in modo da includere Catalina Island e Tijuana Mexico, il segmento applicato al segnalibro non verrà modificato. Utilizzerà la vecchia definizione. Per risolvere il problema, aggiornare il segnalibro in modo che faccia riferimento alla nuova definizione. Se non sei sicuro se un segnalibro, una dashboard o un rapporto pianificato utilizza un segmento eliminato, puoi modificare il nome del segmento rimanente in modo che sia più chiaro se il segnalibro utilizza il segmento rimanente.
+È presente un segnalibro che fa riferimento al segmento della suite di rapporti principale. Quindi si elimina quel segmento perché è un duplicato. Il segnalibro continuerà a essere eseguito, facendo riferimento alla definizione del segmento eliminato. Se si modifica la definizione del segmento per il segmento principale in modo da includere Catalina Island e Tijuana Mexico, il segmento applicato al segnalibro non verrà modificato. Utilizzerà la vecchia definizione. Per risolvere il problema, aggiornare il segnalibro in modo che faccia riferimento alla nuova definizione. Se non sei sicuro se un segnalibro, una dashboard o un rapporto pianificato utilizza un segmento eliminato, puoi modificare il nome del segmento rimanente in modo che sia più chiaro se il segnalibro utilizza il segmento rimanente.
 
 **Cosa succede ai segmenti Data Warehouse?**
 
