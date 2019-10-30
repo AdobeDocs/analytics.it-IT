@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Panoramica dell'abbandono
 title: Panoramica dell'abbandono
-uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
+uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ Reports &amp; Analytics e Ad Hoc Analysis combinano il segmento con ogni passagg
 
 Tuttavia, se il segmento applicato al pannello è inferiore al livello di abbandono (ad es. a livello hit), il segmento restituisce risultati diversi, a causa della modalità di combinazione del rapporto. Come già menzionato, nella maggior parte dei casi i valori ottenuti in Analysis Workspace corrispondono a quelli di Reports &amp; Analytics e Ad Hoc Analysis. I valori **non** corrispondono solo se vengono soddisfatte tutte le condizioni elencate di seguito:
 
-* Il segmento non si trova allo stesso livello dell’abbandono.
+* Il segmento non si trova allo stesso livello dell'abbandono.
 * Il segmento contiene una variabile che consente di associare a ogni visitatore/visita più valori per visita/visitatore.
 
 In quelle poche situazioni in cui è necessario che Analysis Workspace adotti lo stesso metodo di applicazione dei segmenti all’abbandono/flusso utilizzato da Reports &amp; Analytics, per ottenere valori identici è sufficiente rilasciare il segmento in ciascun passaggio di abbandono in Workspace.
