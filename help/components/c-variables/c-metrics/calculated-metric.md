@@ -4,9 +4,9 @@ seo-description: Le metriche calcolate ti consentono di combinare metriche in mo
 seo-title: Metriche calcolate
 solution: Analytics
 title: Metriche calcolate
-uuid: 039 fbb 1 a -8 fa 9-479 b-badb-ad 609 b 225524
+uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,4 +15,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Le metriche calcolate ti consentono di combinare metriche in modo da effettuare operazioni matematiche utilizzate come nuove metriche. Queste metriche possono essere create per un rapporto a cui aggiungi metriche. Gli amministratori possono creare metriche calcolate per tutti gli utenti di una suite di rapporti.
 
-For more information on changes to the way calculated metrics are created and managed across Adobe Analytics, refer to the [Calculated Metrics Guide](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Per ulteriori informazioni sulle modifiche al modo in cui le metriche calcolate vengono create e gestite in Adobe Analytics, consulta la Guida [alle metriche](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)calcolate.
