@@ -2,7 +2,7 @@
 title: Attribution IQ
 description: IQ attribuzione è una serie di funzioni di Adobe Analytics che fornisce informazioni aggiuntive su come le attività di marketing contribuiscono alla conversione.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 IQ attribuzione è una serie di funzioni di Adobe Analytics che fornisce informazioni aggiuntive su come le attività di marketing contribuiscono alla conversione.
 
-Il percorso di un dato cliente non è lineare e spesso imprevedibile. Ogni cliente procede secondo il proprio ritmo; spesso si raddoppiano, si bloccano, si riavviano o si impegnano in altri comportamenti non lineari. Queste azioni organiche rendono difficile conoscere l'impatto delle attività di marketing lungo il percorso del cliente. Inoltre, ostacola gli sforzi volti a collegare più canali di dati tra loro.
+Un determinato percorso del cliente non è lineare e spesso imprevedibile. Ogni cliente procede secondo il proprio ritmo; spesso si raddoppiano, si bloccano, si riavviano o si impegnano in altri comportamenti non lineari. Queste azioni organiche rendono difficile conoscere l'impatto delle attività di marketing lungo il percorso del cliente. Inoltre, ostacola gli sforzi volti a collegare più canali di dati tra loro.
 
 Adobe Analytics Attribution IQ (IQ) consente ai moderni team di intelligence di comprendere in che modo il coinvolgimento significativo ha luogo nel percorso del cliente, identificando i punti di flessione che portano i clienti a raggiungere risultati. Comprendere questo aspetto del percorso del cliente ottimizza efficacemente le iniziative di marketing.
 
