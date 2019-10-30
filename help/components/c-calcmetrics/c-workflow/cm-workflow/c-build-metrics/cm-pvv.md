@@ -1,35 +1,35 @@
 ---
-description: Mostra come creare una semplice metrica «Visualizzazioni pagina per visite».
-seo-description: Mostra come creare una semplice metrica «Visualizzazioni pagina per visite».
-seo-title: Creare una semplice metrica «Visualizzazioni pagina per visite»
-title: Creare una semplice metrica «Visualizzazioni pagina per visite»
-uuid: 0730 e 51 c -1 f 8 f -473 b -8825-d 72911 f 2944 c
+description: Mostra come creare una semplice metrica "Visualizzazioni di pagina per visita".
+seo-description: Mostra come creare una semplice metrica "Visualizzazioni di pagina per visita".
+seo-title: Creare una semplice metrica "Visualizzazioni pagina in base alle visite"
+title: Creare una semplice metrica "Visualizzazioni pagina in base alle visite"
+uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Creare una semplice metrica «Visualizzazioni pagina per visite»
+# Creare una semplice metrica "Visualizzazioni pagina in base alle visite"
 
-Mostra come creare una semplice metrica «Visualizzazioni pagina per visite».
+Mostra come creare una semplice metrica "Visualizzazioni di pagina per visita".
 
-For a detailed description of the UI components, see [Building Metrics](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18).
+Per una descrizione dettagliata dei componenti dell'interfaccia utente, consultate Metriche [](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18)di generazione.
 
-Ecco come creare una semplice metrica «Visualizzazioni pagina per visite».
+Ecco come creare una semplice metrica "Visualizzazioni di pagina per visita".
 
-1. Passa al Generatore di metriche calcolate.
-1. Denominate la metrica «Visualizzazioni pagina per visite» o qualcosa di simile.
-1. Give it a user-friendly **[!UICONTROL Description]** to show what it's used for.
-1. Select the right **[!UICONTROL Format]**, in this case Decimal.
-1. Decidete quanti posizioni decimali desiderate mostrare al rapporto.
-1. Imposta la polarità. Per questa metrica, una tendenza verso l'alto sarebbe una buona (verde) operazione.
-1. Add a **[!UICONTROL Tag]** to organize your metrics.
-1. Per questa metrica, trascina prima le visualizzazioni di pagina nell'area di lavoro, quindi trascina le visite sotto (attendi fino alla comparsa della linea blu).
-1. Selezionate l'operatore Dividi. (Dividi è l'operatore predefinito).
-1. You can now see a **[!UICONTROL Preview]** of that metric as you are building it, at the top right.
-1. Product compatibility shows you whether the metric is compatible with [Current Data](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) or only with Fully Processed Data.
+1. Passare al Generatore metriche calcolate.
+1. Denominate la metrica ""Visualizzazioni di pagina per visita" o qualcosa di simile.
+1. Facilitare **[!UICONTROL Description]** l'utilizzo del prodotto per mostrare le funzioni utilizzate.
+1. Selezionare la destra **[!UICONTROL Format]**, in questo caso Decimale.
+1. Decidete quante posizioni decimali visualizzare nel rapporto.
+1. Impostare la polarità della metrica. Per questa metrica, una tendenza al rialzo sarebbe una buona cosa (verde).
+1. Aggiungi un elemento **[!UICONTROL Tag]** per organizzare le metriche.
+1. Per questa metrica, prima trascina Visualizzazioni pagina nell’area di lavoro, quindi trascina Visite sotto (aspetta che venga visualizzata la linea blu).
+1. Selezionare l'operatore Dividi. Dividi è l'operatore predefinito.
+1. Ora potete vedere una **[!UICONTROL Preview]** di quella metrica mentre la state creando, in alto a destra.
+1. La compatibilità del prodotto indica se la metrica è compatibile con i dati [](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) correnti o solo con i dati completamente elaborati.
 1. Fai clic su **[!UICONTROL Save]**.
-1. Notice that the **[!UICONTROL Summary]** formula updates anytime you make a change to the metric definition.
-1. You are now automatically taken to the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), which is similar to the Segment Manager. Consente di condividere, approvare (ri-), rinominare o eliminare le metriche.
+1. La **[!UICONTROL Summary]** formula viene aggiornata ogni volta che si modifica la definizione della metrica.
+1. Ora si passa automaticamente al Gestore [metriche](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)calcolate, simile al Gestore segmenti. Consente di condividere, approvare, (ri)assegnare tag, rinominare o eliminare le metriche.
 
