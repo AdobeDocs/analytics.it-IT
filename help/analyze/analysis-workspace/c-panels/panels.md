@@ -1,16 +1,16 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Panoramica sui pannelli
-title: Panoramica sui pannelli
-uuid: 480700 e 6-332 e -44 f 2-a 486-e 3 d 1852 cddbc
+seo-title: Panoramica dei pannelli
+title: Panoramica dei pannelli
+uuid: 480700e6-332e-44f2-a486-e3d1852cdbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Panoramica sui pannelli
+# Panoramica dei pannelli
 
 I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili quando desideri organizzare i tuoi progetti in base a periodi di tempo, unità organizzative, aree geografiche, ecc. In Analysis Workspace sono disponibili questi quattro tipi di pannelli: Pannello vuoto, Attribuzione, Pannello a forma libera e Confronto segmenti.
 
@@ -41,7 +41,7 @@ Nota bene:
 
    ![](assets/create_dropdown.png)
 
-   Questo trasforma il componente in un elenco a discesa, anziché in un segmento. (Puoi anche aggiungere segmenti non tenendo premuto la chiave.)
+   Questo trasforma il componente in un elenco a discesa, anziché in un segmento. È inoltre possibile aggiungere segmenti senza tenere premuto il tasto.
 
    ![](assets/dropdown.png)
 
