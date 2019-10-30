@@ -5,7 +5,7 @@ seo-title: Connettore dati Emarsys per Adobe Analytics
 title: Connettore dati Emarsys per Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,9 +32,9 @@ Questa integrazione e-mail dei Connettori dati supporta segmenti di marketing di
 
 Questa integrazione include i seguenti segmenti di marketing:
 
-* **** Profili di acquisto:Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
-* **** Profilo comportamentale visualizzazione prodotto/contenuto:Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
-* **** Profilo abbandono carrello:Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
+* **** Profili di acquisto: Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
+* **** Profilo comportamentale visualizzazione prodotto/contenuto: Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
+* **** Profilo abbandono carrello: Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
 * I clienti possono anche creare e pianificare segmenti di remarketing personalizzati in base alle esigenze dei propri utenti.
 
 ## Procedura di integrazione e prerequisiti{#integration-procedure-and-prerequisites}
@@ -84,7 +84,7 @@ Leggi le seguenti informazioni sull’integrazione dei connettori dati in relazi
 * **** Suite di rapporti specifica: Questa integrazione è specifica per la suite di rapporti. Prima di attivare l'integrazione, accertatevi di aver selezionato la suite di rapporti desiderata.
 * **** Rappresentante autorizzato: L'abilitazione di questa integrazione potrebbe indurre l'azienda a sostenere delle spese in conformità al contratto di servizio stipulato con Adobe, Inc. o al contratto di assistenza stipulato con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l'Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
 * **** Data Warehouse: Questa integrazione richiede che Data Warehouse sia abilitato per generare segmenti di remarketing. Se non hai attivato Data Warehouse, contatta Adobe per ulteriori informazioni.
-* **** ID destinatario:L'integrazione richiede l'acquisizione e la memorizzazione di un "Visitor ID" in una variabile di Analytics (eVar). L’ID visitatore (spesso denominato "ID destinatario") è una rappresentazione codificata o numerica di un indirizzo e-mail del sistema emarsys. Questo "ID destinatario" è associato al comportamento a valle dei visitatori sul sito (carrelli abbandonati, acquisti, ecc.) che viene inserito nel sistema emarsys e può essere sfruttato per scopi di remarketing. Durante il processo di configurazione, è necessario identificare un'eVar a tale scopo quando richiesto dalla procedura guidata.
+* **** ID destinatario: L'integrazione richiede l'acquisizione e la memorizzazione di un "Visitor ID" in una variabile di Analytics (eVar). L’ID visitatore (spesso denominato "ID destinatario") è una rappresentazione codificata o numerica di un indirizzo e-mail del sistema emarsys. Questo "ID destinatario" è associato al comportamento a valle dei visitatori sul sito (carrelli abbandonati, acquisti, ecc.) che viene inserito nel sistema emarsys e può essere sfruttato per scopi di remarketing. Durante il processo di configurazione, è necessario identificare un'eVar a tale scopo quando richiesto dalla procedura guidata.
 * **** Tracciamento esterno: Se al momento non state seguendo la procedura ottimale per abilitare il tracciamento esterno per ogni campagna e-mail inviata, dovete farlo per garantire il successo dell'integrazione. Per informazioni dettagliate, consultate la sezione emarsys riportata di seguito.
 * **** Conformità alla privacy: È importante comprendere che abilitando il tracciamento dell'ID destinatario o visitatore, questa funzione può tenere traccia delle informazioni personali dei visitatori del sito. Questo ha implicazioni sulla privacy che richiedono l'implementazione di procedure appropriate da parte dell'organizzazione, ad esempio l'informativa e il consenso dei visitatori del sito.
 
