@@ -1,53 +1,53 @@
 ---
-description: Il plug-plugin s. hitdeck tiene traccia del numero totale di richieste di immagini di Analytics inviate durante un intervallo di tempo predefinito, e può eseguire una logica aggiuntiva se il totale supera una certa soglia.
-seo-description: Il plug-plugin s. hitdeck tiene traccia del numero totale di richieste di immagini di Analytics inviate durante un intervallo di tempo predefinito, e può eseguire una logica aggiuntiva se il totale supera una certa soglia.
+description: Il plug-in s.hitGovernatore tiene traccia del numero totale di richieste di immagini Analytics inviate durante un intervallo di tempo continuo predefinito e può eseguire logica aggiuntiva se tale totale supera una determinata soglia.
+seo-description: Il plug-in s.hitGovernatore tiene traccia del numero totale di richieste di immagini Analytics inviate durante un intervallo di tempo continuo predefinito e può eseguire logica aggiuntiva se tale totale supera una determinata soglia.
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # hitGovernor
 
-Il plug-plugin s. hitdeck tiene traccia del numero totale di richieste di immagini di Analytics inviate durante un intervallo di tempo predefinito, e può eseguire una logica aggiuntiva se il totale supera una certa soglia.
+Il plug-in s.hitGovernatore tiene traccia del numero totale di richieste di immagini Analytics inviate durante un intervallo di tempo continuo predefinito e può eseguire logica aggiuntiva se tale totale supera una determinata soglia.
 
-Sebbene il traffico da bot, spider, agenti utente specifici o un elenco specifico di indirizzi IP possa essere identificato come traffico bot o escluso dal reporting, può esserci traffico acquisito nelle suite di rapporti che altrimenti non dovrebbe essere conteggiato. Ad esempio, un numero elevato di clic o di visualizzazioni di pagina durante una quantità di tempo ragionevole (ovvero circa una richiesta al secondo) potrebbe essere un traffico duplicato.
+Anche se il traffico da bot, spider, specifici agenti utente o un elenco specifico di indirizzi IP può essere identificato come traffico bot o altrimenti escluso dal reporting, può esserci del traffico catturato nelle suite di rapporti che altrimenti non dovrebbe essere conteggiato. Ad esempio, un numero elevato di clic o visualizzazioni di pagina durante un periodo di tempo irragionevole (ovvero circa una richiesta al secondo) potrebbe rappresentare un traffico duplicato.
 
-L'utilizzo di questo plug-in consente che il traffico venga bloccato automaticamente per il resto della durata del visitatore e che il traffico possa essere identificato in modo dinamico all'interno dei report.
+L'utilizzo di questo plug-in consente di bloccare automaticamente il traffico per il resto della durata del visitatore e inoltre di identificare in modo dinamico il traffico all'interno dei report.
 
-## Funzionamento del plugin del governatore Hit {#section_541BC639E31442D09B1C85A2FFCDC02C}
+## Come funziona il plugin di Hit Governatore {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-Il plug-in incrementa il valore di un cookie ogni volta che viene inviata una richiesta di immagine ai server di tracciamento e traccia questo su un intervallo di tempo continuo. Il tempo predefinito è di un minuto, anche se tale intervallo può essere ignorato. (Vedi [Implementazione](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2), di seguito.) Se il numero totale di hit nel periodo di tempo supera la soglia di hit predefinita (60), viene inviata una richiesta di immagine collegamento personalizzata finale per impostare la *`exceptionFlag`* variabile di dati di contesto. Anche la soglia predefinita degli hit può essere ignorata.
+Il plug-in incrementa il valore di un cookie ogni volta che una richiesta di immagine viene inviata ai server di tracciamento e lo tiene traccia di tale operazione in un intervallo di tempo continuo. L’intervallo di tempo predefinito è un minuto, anche se tale intervallo può essere ignorato. (vedere [Implementazione](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2), di seguito). Se il numero totale di hit durante tale intervallo di tempo supera la soglia di hit predefinita (60), viene inviata una richiesta di immagine collegamento personalizzata finale per impostare la variabile di dati di *`exceptionFlag`* contesto. È inoltre possibile ignorare la soglia di hit predefinita.
 
-Se necessario, da quel momento in poi, potrebbe non essere possibile raccogliere il traffico per quel visitatore specifico per un periodo predefinito di sessanta giorni. Il blocco del traffico richiede un'ulteriore riga di codice nella funzione doplugins, come descritto di seguito. È possibile regolare anche l'intervallo di tempo. La logica consente di includere l'indirizzo IP di quel visitatore, l'agente utente o l'ID [!DNL Experience Cloud] visitatore nella logica corretta delle eccezioni, oppure di ripristinare il periodo di timeout dopo che sono trascorsi i sessanta giorni. Se il traffico viene identificato come fraudolento dal plug-in dopo sessanta giorni, il traffico viene contrassegnato di nuovo come eccezione e non viene raccolto per altri sessanta giorni.
+Se lo desiderate, da quel momento in poi, è possibile impedire che il traffico venga raccolto per quel visitatore specifico per un periodo predefinito di sessanta giorni. Per bloccare il traffico è necessaria una riga di codice aggiuntiva nella funzione doPlugins, come indicato di seguito. È inoltre possibile regolare l'intervallo di tempo. La logica consente il tempo necessario per includere l'indirizzo IP del visitatore, l'agente utente o l'ID [!DNL Experience Cloud] visitatore nella logica di eccezione permanente corretta, oppure per ripristinare il periodo di timeout dopo che sono trascorsi i sessanta giorni. Se il traffico è identificato come fraudolento dal plug-in dopo sessanta giorni, il traffico viene nuovamente contrassegnato come eccezione e non viene raccolto per altri sessanta giorni.
 
-## Generazione di rapporti  {#section_E742F19B528041808454744DB2C7007C}
+## Generazione di rapporti {#section_E742F19B528041808454744DB2C7007C}
 
-Non è necessario configurare variabili o eventi predefiniti. Tuttavia, consigliamo vivamente di configurare logica delle regole di elaborazione per impostare di conseguenza variabili ed eventi. Tali variabili ed eventi personalizzati potrebbero includere:
+Non è necessario impostare variabili o eventi predefiniti. Tuttavia, consigliamo vivamente di impostare la logica delle regole di elaborazione per impostare variabili ed eventi di conseguenza. Tali variabili ed eventi personalizzati possono includere:
 
 * [!DNL Experience Cloud] Visitor ID
 * Indirizzo IP
 * Agente utente
-* Evento eccezione segnalata
+* Evento eccezione contrassegnata
 
-La creazione di segmenti per queste variabili consente di creare segmenti e suite di rapporti virtuali per visualizzare l'impatto complessivo del sito di questi hit ambigui.
+La creazione di segmenti per tali variabili consentirebbe di creare segmenti e suite di rapporti virtuali per visualizzare l’impatto complessivo sul sito di tali hit ambigui.
 
-Consigliamo di utilizzare i valori acquisiti nel reporting per aggiornare le regole bot, le regole DB VISTA o le esclusioni IP della società.
+È consigliabile utilizzare i valori acquisiti nel reporting per aggiornare le regole bot, le regole DB VISTA o le esclusioni dell'IP della società.
 
 ## Implementazione {#task_D4BDB524AA294C139AFCAE2B61FEA3F2}
 
-Per implementare il plug-plugin hitdeck:
+Per implementare il plug-in hitGovernatore:
 
-1. Modifica la libreria appmeasurement.
+1. Modifica la libreria AppMeasurement.
 
-   Per inizializzare il plug-plugin, includi questa riga di codice (in grassetto) all'interno della `registerPostTrackCallback` funzione nel codice della libreria appmeasurement.
+   Per inizializzare il plug-in, includi questa riga di codice (in grassetto) all'interno della `registerPostTrackCallback` funzione nel codice libreria AppMeasurement.
 
    >[!NOTE]
    >
-   >Anche se la `registerPostTrackCallback` funzionalità è inclusa nelle librerie appmeasurement 1.8.0 +, per impostazione predefinita non è inclusa in alcuna configurazione di codice personalizzata. Viene incluso dopo e *all'esterno* della funzione doplugins.
+   >Sebbene la `registerPostTrackCallback` funzionalità sia inclusa nelle librerie AppMeasurement 1.8.0+, per impostazione predefinita non è inclusa in alcuna configurazione di codice personalizzata. È incluso dopo e *all'esterno* della funzione doPlugins.
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -55,9 +55,9 @@ Per implementare il plug-plugin hitdeck:
    }); 
    ```
 
-   Sotto la sezione doplugins del file appmeasurement, includi il codice plug-plugin contenuto nel [codice](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)di origine plug-in, di seguito.
+   Sotto la sezione doPlugins del file AppMeasurement, includi il codice plug-in contenuto nel codice [origine](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)plug-in, sotto.
 
-   La soglia di limite hit, la soglia di temporizzazione e i fotogrammi di esclusione del traffico possono essere sostituiti impostando queste variabili, all'esterno del plug-in stesso e preferibilmente con le altre variabili di configurazione:
+   È possibile sovrascrivere la soglia di hit, la soglia di hit e i fotogrammi temporali di esclusione del traffico impostando queste variabili, al di fuori del plug-in stesso e preferibilmente con le altre variabili di configurazione:
 
 <table id="table_9959A40F5F0B40B39DB86E21D03E25FD"> 
  <thead> 
@@ -70,46 +70,46 @@ Per implementare il plug-plugin hitdeck:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Soglia limite hit </p> </td> 
-   <td colname="col2"> <p> <code> s. hl = 60; </code> </p> </td> 
-   <td colname="col3"> <p>Il numero totale di hit che non devono essere superati nel periodo temporale specificato. </p> </td> 
+   <td colname="col2"> <p> <code> s.hl = 60; </code> </p> </td> 
+   <td colname="col3"> <p>Il numero totale di hit che non devono essere superati in un dato intervallo di tempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Soglia tempo hit </p> </td> 
-   <td colname="col2"> <p> <code> s. ht = 10; </code> </p> </td> 
-   <td colname="col3"> <p>La finestra, in secondi, per la registrazione degli hit. Questo numero è diviso per sei volte per determinare le finestre di temporizzazione a scorrimento continuo. </p> </td> 
+   <td colname="col2"> <p> <code> s.ht = 10; </code> </p> </td> 
+   <td colname="col3"> <p>La finestra, in secondi, per la registrazione degli hit. Questo numero è diviso per sei per determinare le finestre dei tempi di scorrimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Soglia di esclusione </p> </td> 
-   <td colname="col2"> <p> <code> s. he = 60; </code> </p> </td> 
-   <td colname="col3"> <p>Numero di giorni impostati per il cookie di esclusione per quel visitatore. </p> </td> 
+   <td colname="col2"> <p> <code> s.he = 60; </code> </p> </td> 
+   <td colname="col3"> <p>Numero di giorni in cui il cookie di esclusione è impostato per quel visitatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->L'implementazione può utilizzare un nome oggetto diverso da quello dell'oggetto di analisi predefinito. In tal caso, aggiornare il nome dell'oggetto di conseguenza.
+>L'implementazione potrebbe utilizzare un nome oggetto diverso dall'oggetto "s" di analisi predefinito. In tal caso, aggiornare di conseguenza il nome dell'oggetto.
 
-1. Configura le regole di elaborazione.
+1. Configurare le regole di elaborazione.
 
-   Questo plug-in registra le eccezioni segnalate come dati contestuali in una richiesta di immagine tracciamento collegamenti. Di conseguenza, le regole di elaborazione devono essere configurate per assegnare le eccezioni segnalate a tali eccezioni in variabili appropriate come quelle riportate di seguito.
+   Questo plug-in registra le eccezioni segnalate come dati contestuali in una richiesta di immagine di tracciamento dei collegamenti. Di conseguenza, le regole di elaborazione devono essere configurate per assegnare il tracciamento delle eccezioni segnalate nelle variabili appropriate come quelle riportate di seguito.
 
    ![](assets/hitgov-config.png)
 
-1. (Facoltativo) Includete il codice di blocco del traffico in doplugins.
+1. (Facoltativo) Includere il codice di blocco del traffico nei doPlugins.
 
-   Dopo che il traffico è stato identificato come eccezione, tutti gli hit successivi da quel visitatore possono essere bloccati completamente includendo questo codice all'interno `doPlugins` della funzione:
+   Dopo che il traffico è stato identificato come un’eccezione, tutti gli hit successivi da quel visitatore possono essere bloccati completamente includendo questo codice nella `doPlugins` funzione:
 
    ```
    //Check for hit governor flag 
          if(s.Util.cookieRead('s_hg')==9)s.abort=true;
    ```
 
-   Se questo codice non è incluso, il traffico da quel visitatore verrà segnalato ma non bloccato.
+   Se questo codice non è incluso, il traffico da quel visitatore sarà contrassegnato ma non bloccato.
 
-## Codice sorgente plug-in {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## Codice origine plug-in {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
-Questo codice deve essere aggiunto sotto la sezione doplugins della libreria appmeasurement.
+Questo codice deve essere aggiunto sotto la sezione doPlugins della libreria AppMeasurement.
 
 ```
 //Hit Governor (Version 0.1 BETA, 11-13-17) 
