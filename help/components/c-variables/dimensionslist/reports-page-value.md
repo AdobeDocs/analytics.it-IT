@@ -1,13 +1,13 @@
 ---
-description: 'Mostra quante pagine hanno partecipato alla generazione delle entrate. '
-seo-description: 'Mostra quante pagine hanno partecipato alla generazione delle entrate. '
+description: Mostra la partecipazione di determinate pagine alla generazione dei ricavi.
+seo-description: Mostra la partecipazione di determinate pagine alla generazione dei ricavi.
 seo-title: Valore pagina
 solution: Analytics
 title: Valore pagina
 topic: Rapporti
-uuid: 852 ae 05 f-e 728-4 bcd -9 b 28-f 068 a 4 a 35 c 75
+uuid: 852ae05f-e728-4bcd-9b28-f068a4a35c75
 translation-type: tm+mt
-source-git-commit: af2c0dd5269fe54dec949d4bd98bb09f22c9bfa2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
