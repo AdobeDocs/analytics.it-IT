@@ -1,16 +1,16 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Tabella Freeform
-title: Tabella Freeform
-uuid: eb 272991-9 f 12-4 b 67-8 b 38-7 ed 548139 a 1 d
+seo-title: Tabella a forma libera
+title: Tabella a forma libera
+uuid: eb272991-9f12-4b67-8b38-7ed548139a1d
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Tabella Freeform
+# Tabella a forma libera
 
 In Analysis Workspace, una tabella di dati (tabella a forma libera) non è semplicemente una tabella di rapporto, ma è soprattutto una visualizzazione interattiva. Puoi interagire con le singole righe, con diverse righe selezionate o con tutta la tabella.
 
