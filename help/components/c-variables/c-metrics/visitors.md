@@ -1,35 +1,33 @@
 ---
-description: Numero di visitatori univoci del sito per l'ora, il giorno, la settimana, il mese, il trimestre o l'anno selezionato.
+description: Il numero di visitatori unici del sito per un'ora, un giorno, una settimana, un mese, un trimestre o un anno selezionati.
 keywords: visitatori
-seo-description: Numero di visitatori univoci del sito per l'ora, il giorno, la settimana, il mese, il trimestre o l'anno selezionato.
+seo-description: Il numero di visitatori unici del sito per un'ora, un giorno, una settimana, un mese, un trimestre o un anno selezionati.
 seo-title: Visitatori
 solution: Analytics
 title: Visitatori
-topic: Metrics (Metriche)
-uuid: 098 beb 78-5294-42 b 4-8875-f 3908 aa 646 ca
+topic: Metriche
+uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Visitatori
 
-Numero di visitatori univoci del sito per l'ora, il giorno, la settimana, il mese, il trimestre o l'anno selezionato.
+Il numero di visitatori unici del sito per un'ora, un giorno, una settimana, un mese, un trimestre o un anno selezionati.
 
 | Usi | Descrizione |
 |---|---|
-| Traffic (Traffico) | Un visitatore è una persona che accede al tuo sito web. Non richiede un cookie persistente. |
-| Conversione   | Un visitatore è una persona che accede al tuo sito web. Viene conteggiato quando si verifica un evento o un'azione correlata alla conversione. |
-| Analisi ad hoc | Un visitatore è una persona che accede al tuo sito web. Non richiede un cookie persistente. |
+| Traffico | Un visitatore è una persona che accede al sito Web. Non richiede un cookie persistente. |
+| Conversione | Un visitatore è una persona che accede al sito Web. Viene conteggiato quando si verifica un evento o un’azione correlati alla conversione. |
+| Analisi ad hoc | Un visitatore è una persona che accede al sito Web. Non richiede un cookie persistente. |
 
->[!NOTE]
+> [!NOTE] Se utilizzi Analytics come origine di reporting per Adobe Target, fai riferimento a [Minimizing Inflated Visit and Visitor Counts in A4T (Riduzione dei conteggi delle visite e dei visitatori in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) ) nella [!DNL Target] documentazione.
+
+Per ulteriori informazioni, consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) univoci nella guida all’implementazione di Adobe Analytics.
+
+>[!MORE_LIKE_THIS]
 >
->If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
-
-Refer to [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) in the Adobe Analytics Implementation guide for more information.
-
->[!MORE_ LIKE_ THIS]
->
->* [Report visitatori](/help/components/c-variables/dimensionslist/reports-visitors.md)
+>* [Rapporto sui visitatori](/help/components/c-variables/dimensionslist/reports-visitors.md)
 
