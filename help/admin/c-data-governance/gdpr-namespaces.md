@@ -5,7 +5,7 @@ seo-title: Namespace
 title: Namespace
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 A ciascun ID che si desidera cercare viene assegnato uno spazio dei nomi, o namespace, ovvero una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui esso viene usato per tutte le suite di rapporti.
 
-La stringa dello spazio dei nomi viene utilizzata per identificare i campi per i quali si desidera eseguire la ricerca quando si fornisce un ID come parte di una richiesta di privacy dei dati. Quando viene inviata una richiesta per la privacy dei dati, la richiesta includerà una sezione JSON che specifica gli ID degli interessati da utilizzare per la richiesta. È possibile includere più ID come parte di una singola richiesta per una persona interessata. La sezione JSON include:
+La stringa namespace viene usata per identificare i campi in cui si desidera eseguire le ricerche quando si fornisce un ID come parte di una richiesta di Privacy dei dati. Quando una richiesta di Privacy dei dati viene inviata, la richiesta includerà una sezione JSON che specifica gli ID della persona interessata da usare nella richiesta. È possibile includere più ID come parte di una singola richiesta per una persona interessata. La sezione JSON include:
 
 * Un campo “namespace” contenente la stringa namespace.
 * Un campo “type” che per la maggior parte delle richieste di Adobe Analytics contiene il valore “analytics”.
 * Un campo “value” contenente l’ID che Analytics deve cercare nelle variabili namespace associate di ciascuna suite di rapporti.
 
-Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details.
+Per altre informazioni fai riferimento alla [documentazione relativa all’API Privacy dei dati](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) per Experience Cloud.
 
 <!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
 
@@ -52,7 +52,7 @@ Questo valore deve essere specificato come due numeri esadecimali separati da un
 
 Forma obsoleta:
 
-Questo valore deve essere specificato come due numeri esadecimali a 16 cifre oppure due numeri decimali a 19 cifre separati da un trattino. I numeri devono essere separati da un trattino, un trattino basso o due punti. Se uno dei due numeri non ha abbastanza cifre, è necessario aggiungere zeri iniziali.
+Questo valore deve essere specificato come due numeri esadecimali a 16 cifre oppure due numeri decimali a 19 cifre separati da un trattino. I numeri devono essere separati da un trattino, un trattino basso o due punti. Gli zeri iniziali devono essere aggiunti qualora le due serie non fossero composte da un numero di cifre sufficienti.
 
 ## Cookie del servizio Identity
 
@@ -68,17 +68,15 @@ Il valore deve essere specificato come numero decimale a 38 cifre. Se stai estra
 
 È consentito usare `"namespaceId": 4` al posto o in aggiunta di `"namespace": "ECID"` e potresti riscontrare che altri prodotti Adobe usano quel modulo.
 
->[!NOTE]
->
->Experience Cloud ID (ECID) era noto in precedenza come Marketing Cloud ID (MCID) e viene indicato ancora con quel nome in alcune documentazioni esistenti.
+> [!NOTE] Experience Cloud ID (ECID) era noto in precedenza come Marketing Cloud ID (MCID) e viene indicato ancora con quel nome in alcune documentazioni esistenti.
 >
 >Questi ID sono gli unici ID supportati da Analytics che utilizzano un valore di “type” diverso da “analytics”.
 
-Se il formato della parte del valore di uno di questi cookie ID non segue il formato descritto per tale ID, la richiesta di privacy dei dati non riuscirà, con un errore di tipo "Valore non formattato correttamente".
+Se il formato della porzione di valore di uno qualsiasi di questi cookie ID non segue il formato descritto per quell’ID, allora la richiesta di Privacy dei dati non riuscirà, con messaggio errore “Valore non formattato correttamente”.
 
 Nella maggior parte dei casi questi ID cookie vengono raccolti usando il nuovo [JavaScript per la privacy](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm), che fornirà automaticamente tutte le coppie chiave/valore pertinenti per questi ID JSON.
 
-Questo codice JavaScript popola il JSON con altre coppie chiave/valore oltre a quelle elencate sopra (spazio dei nomi, tipo, valore), ma i campi elencati sopra sono i più importanti per l'elaborazione della privacy dei dati di Analytics e gli unici da fornire se raccogliete gli ID in un altro modo.
+Questo codice JavaScript compila il JSON con altre coppie chiave/valore oltre a quelle elencate in precedenza (namespace, tipo, valore), ma i campi elencati sopra sono quelli più importanti per l’elaborazione Privacy dei dati in Analytics e gli unici campi da specificare se si raccolgono gli ID in altri modi.
 
 ## ID visitatore personalizzato
 
@@ -110,7 +108,7 @@ Per gli ID nelle variabili di conversione e traffico personalizzate (proprietà 
 
 Puoi anche vedere i namespace definiti in precedenza per altre variabili o suite di rapporti e riutilizzare una di queste, in modo che lo stesso namespace possa essere facilmente usato per tutte le suite di rapporti che contengono quel tipo di ID. È anche possibile assegnare lo stesso namespace a più variabili all’interno della suite di rapporti. Ad esempio, alcuni clienti memorizzano un ID CRM in una variabile di traffico e in una variabile di conversione (può trovarsi in una sola pagina o in entrambe le pagine a seconda dei casi) e possono assegnare il namespace “ID CRM” a entrambe le variabili.
 
-> [!TIP] Evitare di utilizzare il nome descrittivo di una variabile (il nome visualizzato nell'interfaccia utente di reporting) o il numero della variabile (come eVar12) quando si specifica lo spazio dei nomi nell'API Data Privacy, a meno che non si tratti dello spazio dei nomi specificato quando si applica l'etichetta ID-DEVICE o ID-PERSON. L’uso di un namespace invece di un nome descrittivo consente allo stesso blocco di identità dell’utente di specificare la variabile corretta per suite di rapporti multiple. Ad esempio, se l’ID si trova in eVar diverse in alcune suite di rapporti, o se i nomi descrittivi non corrispondono (ad esempio se il nome descrittivo è stato localizzato per una suite di rapporti specifica).
+> [!TIP] Evita di usare il nome descrittivo di una variabile (il nome visualizzato nell’interfaccia utente della reportistica) o il numero della variabile (ad esempio eVar12) quando si specifica il namespace nell’API Privacy dei dati, a meno che non si tratti anche del namespace specificato durante l’applicazione dell’etichetta ID-DEVICE o ID-PERSON a questa variabile. L’uso di un namespace invece di un nome descrittivo consente allo stesso blocco di identità dell’utente di specificare la variabile corretta per suite di rapporti multiple. Per esempio, se l’ID si trova in eVars diversi di alcune delle suite di rapporti, o se i nomi descrittivi non corrispondono (come quando il nome descrittivo è stato localizzato per una specifica suite di rapporti).
 
 > [!CAUTION] I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi namespace per le variabili di traffico o conversione personalizzate.
 
