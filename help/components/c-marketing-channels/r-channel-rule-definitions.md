@@ -1,21 +1,21 @@
 ---
-description: Questa tabella di riferimento definisce i campi, le opzioni e gli attributi hit che puoi selezionare nella pagina Regole di elaborazione canale marketing.
-seo-description: Questa tabella di riferimento definisce i campi, le opzioni e gli attributi hit che puoi selezionare nella pagina Regole di elaborazione canale marketing.
-seo-title: Regole di elaborazione canale marketing - definizioni
+description: Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete selezionare nella pagina Regole di elaborazione del canale di marketing.
+seo-description: Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete selezionare nella pagina Regole di elaborazione del canale di marketing.
+seo-title: 'Regole di elaborazione per il canale di marketing: definizioni'
 solution: Analytics
 subtopic: Canali di marketing
-title: Regole di elaborazione canale marketing - definizioni
-topic: Reports & Analytics
-uuid: 4 e 71 ff 5 b -912 a -4 dc 0-9 c 22-4 be 74 c 5 e 3 cc 0
+title: 'Regole di elaborazione per il canale di marketing: definizioni'
+topic: Reports and Analytics
+uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Regole di elaborazione canale marketing - definizioni
+# Regole di elaborazione per il canale di marketing: definizioni
 
-Questa tabella di riferimento definisce i campi, le opzioni e gli attributi hit che puoi selezionare nella pagina Regole di elaborazione canale marketing.
+Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete selezionare nella pagina Regole di elaborazione del canale di marketing.
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -27,122 +27,123 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi hit 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Tutte </p> </td> 
-   <td colname="col2"> <p>Attiva questo canale solo quando tutte le regole nella regola numerata sono true. </p> </td> 
+   <td colname="col2"> <p>Attiva questo canale solo quando tutte le regole della regola numerata sono vere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Any </p> </td> 
-   <td colname="col2"> <p>Attiva questo canale quando una qualsiasi delle regole nel set di regole è true. Questa opzione è disponibile solo se nella regola numerata sono presenti più regole. </p> </td> 
+   <td colname="col2"> <p>Attiva questo canale quando una delle regole del set di regole è vera. Questa opzione è disponibile solo se nella regola numerata è presente più di una regola. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
-   <td colname="col2"> <p>Il codice di tracciamento principale utilizzato dalle integrazioni Pubblicitarie Cloud e Advertising Analytics. Quando una di queste integrazioni è abilitata, il prefisso del codice di tracciamento può essere utilizzato per identificare i canali specifici di Advertising Cloud. Use "AMO ID" inizia con "AL" per Cerca, "AC" per Visualizzazione, o "AO" per Social. Quando l'ID AMO è utilizzato nei canali di marketing, le metriche di click/cost/impression possono essere attribuite al canale corretto (se non sono configurate, queste metriche passeranno a Direct o None). </p> </td> 
+   <td colname="col2"> <p>Il codice di tracciamento principale utilizzato dalle integrazioni Advertising Cloud e Advertising Analytics. Quando una di queste integrazioni è abilitata, il prefisso del codice di tracciamento può essere utilizzato per identificare canali specifici di Advertising Cloud. L'utilizzo di "AMO ID" inizia con "AL" per la ricerca, "AC" per la visualizzazione o "AO" per Social. Quando l'ID AMO viene utilizzato nei canali di marketing, le metriche click/cost/impression possono essere attribuite al canale corretto (se non configurate, queste metriche andranno a Direct o Nessuno). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>AMO ED ID </p> </td> 
-   <td colname="col2"> <p>Il codice di tracciamento secondario utilizzato da Advertising Cloud. Lo scopo principale di questo codice di tracciamento è fungere da chiave per l'invio di dati ad Ad Cloud. Può anche essere utilizzato per identificare le visualizzazioni clickthrough rispetto a Visualizzazione viewthroughs se desiderate vedere questi due canali di marketing separati. Questo può essere fatto impostando la logica canale di marketing per «AMO EF ID» termina con «: d "for Display clickthroughs o" AMO EF ID "termina con": i "per Visualizzazione viewthroughs. Se non desideri dividere la visualizzazione in due canali, usa la dimensione AMO ID. </p> </td> 
+   <td colname="col1"> <p>ID AMO ED </p> </td> 
+   <td colname="col2"> <p>Il codice di tracciamento secondario utilizzato da Advertising Cloud. Lo scopo principale di questo codice di tracciamento è quello di fungere da chiave per l'invio di dati ad Ad Cloud. Tuttavia, può essere utilizzato anche per identificare la visualizzazione ClickThroughs rispetto a visualizzazione ViewThroughs se si desidera visualizzarli come due canali di marketing separati. A tale scopo, è possibile impostare la logica del canale di marketing per le estremità "AMO EF ID" con ":d" per le estremità Display ClickThrough o "AMO EF ID" con ":i" per Display ViewThrough. Se non desideri dividere la visualizzazione in due canali, utilizza invece la dimensione ID AMO. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variabili di conversione </p> </td> 
-   <td colname="col2"> <p>È composto da evar abilitati per questa suite di rapporti e si applica solo quando queste variabili sono impostate tramite il codice Adobe sulla pagina. </p> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html"> Implementation Guide </a>. </p> </td> 
+   <td colname="col2"> <p>È costituito da eVar abilitate per questa suite di rapporti e si applica solo quando queste variabili sono impostate tramite il codice Adobe sulla pagina. </p> <p>Consulta la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html"> guida all’implementazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Esiste </p> </td> 
    <td colname="col2"> <p>Sono disponibili diverse selezioni, tra cui: </p> <p> 
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
-      <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol"> Non esiste </span>: Specifica che l'attributo hit non esiste nella richiesta. Ad esempio, in un dominio di provenienza, se l'utente digita un URL o fa clic su un segnalibro, l'attributo di dominio di provenienza non esiste. </p> </li> 
-      <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> È vuoto </span>: Specifica che esiste un attributo hit, in genere un parametro di stringa evar o query, ma non è associato alcun valore all'attributo hit. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Non contiene </span>: Consente, ad esempio, di specificare che un dominio di riferimento non contiene un valore specifico (anziché utilizzare la selezione <span class="term"> Contiene </span>). </p> </li> 
+      <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol"> Non Esiste </span>: Specifica che l'attributo hit non esiste nella richiesta. Ad esempio, in un dominio di riferimento, se l'utente digita un URL o fa clic su un segnalibro, l'attributo di dominio di riferimento non esiste. </p> </li> 
+      <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> Vuoto </span>: Specifica che esiste un attributo hit, in genere un parametro eVar o una stringa di query, ma non è associato alcun valore all'attributo hit. </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Non Contiene </span>: Consente di specificare, ad esempio, che un dominio di riferimento non contiene un valore specifico (anziché utilizzare la selezione <span class="term"> Contiene </span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identificare il canale come </p> </td> 
-   <td colname="col2"> <p>Associates the rule with a marketing channel that you added to the <span class="wintitle"> Marketing Channel Manager </span> page. </p> <p>See <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>Associa la regola a un canale di marketing aggiunto alla pagina <span class="wintitle"> Marketing Channel Manager </span> . </p> <p>Consultate <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Aggiunta di canali di marketing </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Corrisponde alle regole di rilevamento delle ricerche pagate </p> </td> 
-   <td colname="col2"> <p>Una ricerca a pagamento rilevata da Adobe. Le ricerche a pagamento indicano quando le aziende pagano una tariffa per il motore di ricerca in modo da elencare il proprio sito. Le ricerche a pagamento in genere appaiono nella parte superiore o destra dei risultati della ricerca. </p> </td> 
+   <td colname="col1"> <p>Corrisponde alle regole di rilevamento ricerche pagate </p> </td> 
+   <td colname="col2"> <p>Ricerca a pagamento rilevata da Adobe. Le ricerche pagate sono quando le aziende pagano una tariffa per il motore di ricerca per elencare il loro sito. Le ricerche pagate vengono in genere visualizzate nella parte superiore o destra dei risultati della ricerca. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Corrisponde alle regole naturali di rilevamento della ricerca </p> </td> 
-   <td colname="col2"> <p>Una ricerca non pagata rilevata da Adobe Report. </p> </td> 
+   <td colname="col1"> <p>Corrisponde alle regole di rilevamento ricerche naturali </p> </td> 
+   <td colname="col2"> <p>Una ricerca non a pagamento rilevata dai report Adobe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Il referente corrisponde a filtri URL interni </p> </td> 
-   <td colname="col2"> <p> Una visita la cui pagina URL corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. </p> </td> 
+   <td colname="col1"> <p>Il Referente Corrisponde Ai Filtri URL Interni </p> </td> 
+   <td colname="col2"> <p> Una visita il cui URL di pagina corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Il referente non corrisponde ai filtri URL interni </p> </td> 
-   <td colname="col2"> <p>L'URL di provenienza non corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. You can use this setting with <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col1"> <p>Il Referente Non Corrisponde Ai Filtri URL Interni </p> </td> 
+   <td colname="col2"> <p>L'URL di provenienza non corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. Potete utilizzare questa impostazione con URL <span class="term"> pagina </span> ed <span class="term"> Esiste </span> per impostare una regola catch-all, in modo che nessuna visita venga effettuata nella sezione <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> Nessun canale identificato </a> del rapporto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ignora hit corrispondenti a filtri URL interni </p> </td> 
-   <td colname="col2"> <p>(Per i referenti) Traccia solo hit provenienti da siti esterni. In genere, lasciate attivata questa impostazione a meno che non desideriate includere il traffico interno. </p> </td> 
+   <td colname="col1"> <p>Ignora gli hit corrispondenti ai filtri URL interni </p> </td> 
+   <td colname="col2"> <p>(Per i referenti) Tiene traccia solo degli hit provenienti da siti esterni. In genere, lasciate questa impostazione attivata a meno che non desideriate includere il traffico interno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>È prima pagina di visita </p> </td> 
-   <td colname="col2"> <p>La prima pagina di una visita rilevata da Adobe Report. </p> </td> 
+   <td colname="col1"> <p>Prima pagina della visita </p> </td> 
+   <td colname="col2"> <p>La prima pagina di una visita rilevata dai report Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pagina </p> </td> 
-   <td colname="col2"> <p>Nome della pagina di una pagina Web sul sito con tag tramite il beacon Web di Adobe. This value is equivalent to <span class="varname"> s.pageName </span>. Examples include <span class="varname"> Home Page </span> and <span class="varname"> About Us </span>. </p> </td> 
+   <td colname="col2"> <p>Il nome della pagina Web del sito a cui è assegnato un tag mediante il Web beacon di Adobe. Questo valore è equivalente a <span class="varname"> s.pageName </span>. Alcuni esempi includono <span class="varname"> Home Page </span> e <span class="varname"> Informazioni su di noi </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio pagina </p> </td> 
-   <td colname="col2"> <p>The domain of the page on which the visitor lands, such as <span class="filepath"> products.example.co.uk </span>. </p> </td> 
+   <td colname="col2"> <p>Il dominio della pagina in cui il visitatore arriva, ad esempio <span class="filepath"> products.example.co.uk </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dominio e percorso della pagina </p> </td> 
-   <td colname="col2"> <p>The domain and path, such as <span class="filepath"> products.example.co.uk/mens/pants/overview.html </span>. </p> </td> 
+   <td colname="col1"> <p>Dominio pagina e percorso </p> </td> 
+   <td colname="col2"> <p>Il dominio e il percorso, ad esempio <span class="filepath"> products.example.co.uk/mens/pants/overview.html </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dominio principale pagina (TLD +1) </p> </td> 
-   <td colname="col2"> <p>The root domain of the page on which the visitor lands, such as <span class="filepath"> example.co.uk </span>. </p> </td> 
+   <td colname="col1"> <p>Dominio principale pagina (TLD+1) </p> </td> 
+   <td colname="col2"> <p>Il dominio principale della pagina in cui il visitatore accede, ad esempio <span class="filepath"> example.co.uk </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL della pagina </p> </td> 
-   <td colname="col2"> <p>L'URL di una pagina Web sul sito. </p> </td> 
+   <td colname="col2"> <p>L’URL di una pagina Web sul sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio di riferimento </p> </td> 
-   <td colname="col2"> <p>The domain your visitors came from before they visited your site, for example, referrers coming from <span class="filepath"> abcsite.com </span> versus <span class="filepath"> xyzsite.com </span>. </p> </td> 
+   <td colname="col2"> <p>Il dominio di provenienza dei visitatori prima che visitassero il sito, ad esempio, i referenti provenienti da <span class="filepath"> abcsite.com </span> e <span class="filepath"> xyzsite.com </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parametro stringa query </p> </td> 
-   <td colname="col2"> <p>If a page URL on your site looks like <span class="filepath"> https://example.com/?page=12345&amp;cat=1 </span>, then page and cat are both query string parameters. (See <span class="filepath"> https://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>Potete specificare un solo parametro di stringa query per set di regole. To add additional query string parameters, use <span class="uicontrol"> ANY </span> as your operator, then add new query string parameters to the rule. </p> </td> 
+   <td colname="col2"> <p>Se l’URL di una pagina sul sito è simile a <span class="filepath"> https://example.com/?page=12345&amp;cat=1 </span>, la pagina e il gatto sono entrambi parametri di stringa di query. (Vedere <span class="filepath"> https://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>È possibile specificare un solo parametro di stringa di query per set di regole. Per aggiungere ulteriori parametri di stringa di query, utilizzare <span class="uicontrol"> ANY </span>come operatore, quindi aggiungere nuovi parametri di stringa di query alla regola. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referrer </p> </td> 
-   <td colname="col2"> <p>Posizione della pagina Web (URL completo) che i visitatori avevano prima di entrare nel sito. Un referente esiste all'esterno del dominio definito. </p> </td> 
+   <td colname="col2"> <p>Posizione della pagina Web (URL completo) in cui si trovavano i visitatori prima di accedere al sito. Un referente esiste al di fuori del dominio definito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dominio di riferimento e percorso </p> </td> 
-   <td colname="col2"> <p>Una concatenazione del dominio di riferimento e del percorso dell'URL. Gli esempi includono: </p> <p> <span class="filepath"> www.example.com/products/id/12345 </span> </p> <p> <span class="filepath"> ad.example.com/foo </span> </p> </td> 
+   <td colname="col1"> <p>Dominio e percorso di riferimento </p> </td> 
+   <td colname="col2"> <p>Una concatenazione del dominio di riferimento e del percorso URL. Gli esempi includono: </p> <p> <span class="filepath"> www.example.com/products/id/12345 </span> </p> <p> <span class="filepath"> ad.example.com/foo </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parametro di riferimento </p> </td> 
-   <td colname="col2"> <p>Un parametro di stringa query sull'URL del referente. For example, if your visitors come from <span class="filepath"> example.com/?page=12345&amp;cat=1 </span>, then page and cat are the referring parameters. </p> </td> 
+   <td colname="col2"> <p>Un parametro della stringa di query sull’URL del referente. Ad esempio, se i visitatori provengono da <span class="filepath"> example.com/?page=12345&amp;cat=1 </span>, i parametri di riferimento sono pagina e gatto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dominio principale referente </p> </td> 
-   <td colname="col2"> <p>Il dominio principale del referente. Un referente esiste all'esterno del dominio definito. </p> </td> 
+   <td colname="col1"> <p>Riferimento a dominio radice </p> </td> 
+   <td colname="col2"> <p>Il dominio radice del referente. Un referente esiste al di fuori del dominio definito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Motore di ricerca </p> </td> 
-   <td colname="col2"> <p>Un motore di ricerca come Google o Yahoo! che hanno portato visitatori al sito. </p> </td> 
+   <td colname="col2"> <p>Un motore di ricerca come Google o Yahoo! che ha portato i visitatori al tuo sito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ricerca parole chiave </p> </td> 
-   <td colname="col2"> <p>Parola utilizzata per eseguire una ricerca utilizzando un motore di ricerca. </p> </td> 
+   <td colname="col1"> <p>Parole chiave di ricerca </p> </td> 
+   <td colname="col2"> <p>Una parola utilizzata per eseguire una ricerca utilizzando un motore di ricerca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Motore di ricerca + Parole chiave </p> </td> 
-   <td colname="col2"> <p>Concatenazione di Search Keyword e Motore di ricerca per identificare in modo univoco il motore di ricerca. Ad esempio, se si cerca il computer di testo, il motore di ricerca e la parola chiave sono identificati come segue: </p> 
-    <code>Codice di tracciamento ricerca = " &lt; search_ type &gt;: &lt; motore di ricerca &gt;: &lt; parola chiave ricerca &gt; «where search_ type = "n» or" p ", search_ engine =" Google ", and search_ keyword =" computer " </code>
-  <p><b>Nota:</b> n = naturale; p = paid </p> </td> 
+   <td colname="col2"> <p>Una concatenazione della parola chiave di ricerca e del motore di ricerca per identificare in modo univoco il motore di ricerca. Ad esempio, se cercate la parola computer, il motore di ricerca e la parola chiave sono identificati come segue: </p> 
+    <code>
+      Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
+    </code> <p><b></b> Nota: n = naturale; p = paid </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Imposta il valore del canale su </p> </td> 
-   <td colname="col2"> <p>Oltre a sapere quale canale di marketing porta un visitatore sul tuo sito, puoi sapere quale banner pubblicitario, parola chiave di ricerca o campagna e-mail all'interno del canale ottieni credito per l'attività del sito di un visitatore. Questo ID è un valore di canale memorizzato insieme al canale. Spesso questo valore è un ID campagna incorporato nella pagina di destinazione o nell'URL di provenienza. in altri casi è il motore di ricerca e la combinazione di parole chiave di ricerca, oppure l'URL di provenienza che identifica più correttamente il visitatore da un particolare canale. </p> </td> 
+   <td colname="col2"> <p>Oltre a sapere quale canale di marketing porta un visitatore sul sito, puoi sapere quale banner pubblicitario, parola chiave di ricerca o campagna e-mail all'interno del canale riceve credito per l'attività del sito di un visitatore. Questo ID è un valore di canale memorizzato insieme al canale. Spesso questo valore è un ID campagna incorporato nella pagina di destinazione o nell’URL di provenienza; in altri casi è la combinazione di motori di ricerca e parole chiave di ricerca, o l'URL di provenienza a identificare il visitatore in modo più corretto da un determinato canale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
