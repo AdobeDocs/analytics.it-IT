@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,26 +16,26 @@ La variabile viene utilizzata sia dai server JavaScript che dai server di raccol
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
-| N/D | cl | Traffic &gt; Technology &gt; Cookies All visitor-related reports | "" |
+| N/D | cl | Traffico &gt; Tecnologia &gt; Cookie Tutti i rapporti relativi ai visitatori | "" |
 
-If  is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* La *`cookieLifetime`* variabile può avere uno dei tre valori seguenti:
+Se *`cookieLifetime`* è impostato, sostituisce qualsiasi altra scadenza del cookie per i server JavaScript e di raccolta dati, con una delle eccezioni descritte di seguito. La *`cookieLifetime`* variabile può avere uno dei tre valori seguenti:
 
 * [!DNL Analytics] Cookie
 * Cookie
-* JavaScript Settings and Plugins
+* Impostazioni e plug-in JavaScript
 
-## Syntax and Possible Values
+## Sintassi e valori possibili
 
 ```js
 s.cookieLifetime="value"
 ```
 
-The possible values are listed as follows:
+I valori possibili sono elencati di seguito:
 
 * ""
 * "NONE"
 * "SESSION"
-* An integer representing the number of seconds until expiration
+* Un numero intero che rappresenta il numero di secondi fino alla scadenza
 
 ## Esempi
 
@@ -47,10 +47,10 @@ s.cookieLifetime="SESSION"
 s.cookieLifetime="86400" // one day in seconds
 ```
 
-## Configuration Settings
+## Impostazioni di configurazione
 
 Nessuno
 
-## Pitfalls, Questions, and Tips
+## Insidie, domande e suggerimenti
 
-*`cookieLifetime`* affects  tracking. [!DNL Analytics] Se, ad esempio, *`cookieLifetime`* è di due giorni, i rapporti sui visitatori univoci mensili, trimestrali e annuali non saranno corretti. Prestate attenzione quando impostate *`cookieLifetime`*.
+*`cookieLifetime`* influisce sul [!DNL Analytics] tracciamento. Se, ad esempio, *`cookieLifetime`* è di due giorni, i rapporti sui visitatori univoci mensili, trimestrali e annuali non saranno corretti. Prestate attenzione quando impostate *`cookieLifetime`*.
