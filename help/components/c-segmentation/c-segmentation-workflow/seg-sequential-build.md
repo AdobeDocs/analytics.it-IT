@@ -7,7 +7,7 @@ title: Creare segmenti sequenziali
 topic: Segmenti
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -56,7 +56,7 @@ Ad esempio, considerate una sequenza di B -&gt; D. I tre filtri identificano gli
 | Solo prima della sequenza | Una  | B | C | D | B |  |  |  |
 | Solo dopo la sequenza |  |  |  | D | B | C | D | E |
 
-Inquadriamo questo concetto anche con la dimensione Profondità di Hit.
+Inquadriamo anche questo concetto con la dimensione Profondità di Hit.
 
 **Esempio 3: Profondità Hit 3 poi 5**
 
@@ -64,7 +64,7 @@ Inquadriamo questo concetto anche con la dimensione Profondità di Hit.
 
 ## Vincoli dimensione {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-In una clausola “within” (entro), tra istruzioni THEN, è possibile aggiungere, ad esempio, “within 1 search keyword instance”, “within 1 eVar 47 instance”. In questo modo si vincola il segmento entro un’istanza di una dimensione.
+In una clausola "within", tra istruzioni THEN, è possibile aggiungere, ad esempio, "within 1 search keyword instance", "within 1 eVar 47 instance". In questo modo si vincola il segmento entro un’istanza di una dimensione.
 
 L'impostazione di una clausola "Within Dimension" tra le regole consente a un segmento di limitare i dati alle sequenze in cui tale clausola è soddisfatta. Vedere l'esempio seguente, in cui il vincolo è impostato su "Entro 1 pagina":
 
@@ -72,7 +72,7 @@ L'impostazione di una clausola "Within Dimension" tra le regole consente a un se
 
 | Se risultato... | Sequenza |
 |--- |--- |
-| Corrisponde | A poi B |
+| Corrisponde | A quindi B |
 | Non corrisponde | <br> A poi C poi B (perché B non era all'interno di 1 pagina di A)**** Nota:  Se si elimina la restrizione della dimensione, "A then B" e "A then C then B" corrisponderanno entrambi. |
 
 ## Sequenza Visualizzazione pagina semplice
@@ -138,7 +138,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 L'aggiunta di più [!UICONTROL Hit] contenitori all'interno di un [!UICONTROL Visitor] contenitore consente di utilizzare gli operatori appropriati tra lo stesso tipo di contenitori e di utilizzare regole e dimensioni quali Pagina e Numero visita per definire la visualizzazione della pagina e fornire una dimensione di sequenza all'interno del [!UICONTROL Hit] contenitore. L’applicazione della logica a livello di Hit consente di vincolare e combinare le corrispondenze a uno stesso livello di hit all’interno del [!UICONTROL Visitor] contenitore per creare una serie di tipi di segmenti.
 
-**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (pagina D nell’esempio), quindi hanno visitato la pagina B o la pagina C, senza tenere conto del numero di visite.
+**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (nella pagina D dell’esempio), quindi hanno visitato la pagina B o la pagina C senza tenere conto del numero di visite.
 
 **Casi d'uso**
 
@@ -247,9 +247,7 @@ Create un segmento di sequenza semplice trascinando due [!UICONTROL Hit] conteni
 I contenitori del gruppo logico sono necessari per raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Il contenitore del gruppo logico speciale è disponibile solo nella segmentazione sequenziale, per assicurarsi che le sue condizioni siano soddisfatte dopo qualsiasi checkpoint sequenziale precedente e prima di qualsiasi checkpoint sequenziale successivo. Le condizioni all'interno del punto di controllo del gruppo logico stesso possono essere soddisfatte in qualsiasi ordine. Per contro, i contenitori non sequenziali (hit, visit, visitor) non richiedono che le loro condizioni siano soddisfatte all'interno della sequenza globale, generando risultati non intuitivi se utilizzati con un operatore THEN.
 Il [!UICONTROL Logic Group] contenitore è stato progettato per trattare *diversi checkpoint come un gruppo*, *senza alcun ordine* tra i checkpoint raggruppati. In altre parole, non ci interessa l'ordine dei checkpoint all'interno di quel gruppo. Ad esempio, non è possibile nidificare un [!UICONTROL Visitor] contenitore all'interno di un [!UICONTROL Visitor] contenitore. È invece possibile nidificare un [!UICONTROL Logic Group] contenitore all’interno di un [!UICONTROL Visitor] contenitore con checkpoint di [!UICONTROL Visit]livello e [!UICONTROL Hit]livello specifici.
 
->[!NOTE]
->
->Un [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l' [!UICONTROL THEN] operatore è utilizzato all'interno dell'espressione.
+> [!NOTE] Un [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l' [!UICONTROL THEN] operatore è utilizzato all'interno dell'espressione.
 
 | Gerarchia contenitore | Illustrazione | Definizione |
 |---|---|---|
@@ -399,7 +397,7 @@ Se viene indicato "Dopo 2 settimane", se un hit per la pagina A si verifica il 1
 
 >[!IMPORTANT]
 >
->In una clausola “within” (entro), tra istruzioni THEN, è possibile aggiungere, ad esempio, “within 1 search keyword instance”, “within 1 eVar 47 instance”. In questo modo si vincola il segmento entro un’istanza di una dimensione.
+>In una clausola "within", tra istruzioni THEN, è possibile aggiungere, ad esempio, "within 1 search keyword instance", "within 1 eVar 47 instance". In questo modo si vincola il segmento entro un’istanza di una dimensione.
 
 **Esempio**: I visitatori che hanno visitato la pagina A hanno quindi visitato la pagina B in 5 minuti.
 
