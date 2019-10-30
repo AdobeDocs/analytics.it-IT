@@ -1,61 +1,61 @@
 ---
-description: La segmentazione delle singole metriche consente di eseguire confronti metriche nello stesso rapporto. (solo metriche derivate)
-seo-description: La segmentazione delle singole metriche consente di eseguire confronti metriche nello stesso rapporto. (solo metriche derivate)
+description: La segmentazione di singole metriche consente di effettuare confronti tra metriche all'interno dello stesso rapporto. (Solo metriche derivate)
+seo-description: La segmentazione di singole metriche consente di effettuare confronti tra metriche all'interno dello stesso rapporto. (Solo metriche derivate)
 seo-title: Metriche segmentate
 title: Metriche segmentate
-uuid: 88 f 9829 b -76 e 4-4598-9494-084 a 91602 bc 1
+uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Metriche segmentate
 
-La segmentazione delle singole metriche consente di eseguire confronti metriche nello stesso rapporto. (solo metriche derivate)
+La segmentazione di singole metriche consente di effettuare confronti tra metriche all'interno dello stesso rapporto. (Solo metriche derivate)
 
 ## Confronto segmenti {#section_29A6E0070F084BFDB6228FA9CE106F48}
 
-Diciamo che vuoi confrontare diversi aspetti di segmenti di «Visitatori Uniti» con quelli del segmento «Visitatori internazionali». Puoi creare metriche che ti daranno informazioni quali:
+Supponiamo che tu voglia confrontare diversi aspetti di un segmento "Visitatori statunitensi" con quelli di un segmento "Visitatori internazionali". Puoi creare metriche che ti forniranno informazioni dettagliate, come:
 
-* In che modo il comportamento di navigazione dei contenuti viene confrontato tra i due gruppi? Un altro esempio è: Come si confronta il tasso di conversione tra i due segmenti?)
-* Come percentuale dei visitatori totali, quanti visitatori USA sfoglia determinate pagine e i visitatori internazionali?
-* Dove si trovano i diversi segmenti per le differenze tra i vari segmenti?
+*  Qual è il comportamento di esplorazione dei contenuti rispetto ai due gruppi? (Un altro esempio potrebbe essere: Come si confronta il tasso di conversione tra i due segmenti?)
+* In percentuale del totale dei visitatori, quanti visitatori USA sfogliano determinate pagine rispetto ai visitatori internazionali?
+* Quali sono le maggiori differenze in termini di accesso al contenuto da parte di questi diversi segmenti?
 
-Diamo un'occhiata alla prima domanda: In che modo il comportamento di navigazione dei contenuti viene confrontato tra i due gruppi?
+Esploriamo la prima domanda: Qual è il comportamento di esplorazione dei contenuti rispetto ai due gruppi?
 
-1. Se non disponi di un segmento paragonabile, crea un segmento interno direttamente nel Generatore metriche calcolate denominato "Visitatori tedeschi", dove "Paesi" è uguale a "Germania". Trascina la dimensione Paesi nel quadro di definizione e seleziona Germania come valore:
+1. Se non hai un segmento comparabile, crea un segmento interno direttamente nel Generatore di metrica calcolata denominato "Visitatori tedeschi", dove "Paesi" è uguale a "Germania". Trascina la dimensione Paesi nel quadro Definizione e seleziona la Germania come valore:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
+   >Potete eseguire questa operazione anche nel Generatore [di](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)segmenti, ma abbiamo semplificato il flusso di lavoro rendendo disponibili le dimensioni nel Generatore di metrica calcolata.
 
    >[!NOTE]
    >
-   >"Internal" means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the "i" icon next to it and clicking **[!UICONTROL Make public]**.
+   >"Internal" indica che il segmento non è visibile nell' **[!UICONTROL Segments]** elenco nella barra a sinistra. Tuttavia, potete renderlo pubblico passando il puntatore del mouse sull'icona "i" accanto ad essa e facendo clic **[!UICONTROL Make public]**.
 
-1. Se non hai un segmento paragonabile, crea un segmento denominato «Visitatori internazionali» dove «Paesi» non equivale alla Germania.
-1. Crea e salva una metrica denominata «Visitatori tedeschi» trascinando il segmento Germania nel quadro della definizione e trascinando al suo interno la metrica Visitatori unici:
+1. Se non hai un segmento paragonabile, crea un segmento denominato "Visitatori internazionali" in cui "Paesi" non equivale a "Germania".
+1. Crea e salva una metrica denominata "Visitatori tedeschi" trascinando il segmento Germania nell’area di lavoro Definizione e trascinando la metrica Visitatori unici al suo interno:
 
    ![](assets/german-visitors.png)
 
-1. Ripetete il passaggio 3 con il segmento Visitatori internazionali e la metrica Visitatori unici per creare una metrica Visitatori internazionali.
-1. In Analysis Workspace, drag the **[!UICONTROL Page]** Dimension into a Freeform Table and drag the 2 new calculated metrics next to each other to the top:
+1. Ripetete il Passaggio 3 con il segmento Visitatori internazionali e la metrica Visitatori unici per creare una metrica Visitatori internazionali.
+1. In Analysis Workspace, trascina la **[!UICONTROL Page]** dimensione in una tabella a forma libera e trascina in alto le due nuove metriche calcolate l’una accanto all’altra:
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. In [!UICONTROL Reports & Analytics]alternativa, apri il [!UICONTROL Pages] rapporto e fai clic su **[!UICONTROL Show Metrics]**, quindi applica le nuove metriche segmentate Visitatori USA e Visitatori internazionali per vedere il confronto tra il loro comportamento di navigazione dei contenuti.
 
    ![](assets/pages-report.png)
 
-## Compare Percentages of Totals {#section_846CB89725F04388AE0352DB20189EE8}
+## Confronta percentuali di totali {#section_846CB89725F04388AE0352DB20189EE8}
 
-Puoi introdurre un altro livello di interazione confrontando il comportamento di esplorazione dei visitatori in percentuali normalizzate. A tal fine, crea, due nuove metriche, " % of Total German Visitors" e " % of Total International Visitors":
+Potete introdurre un altro livello di richiesta confrontando il comportamento di navigazione dei visitatori in percentuali normalizzate. Per farlo, crea due nuove metriche, "% del totale dei visitatori tedeschi" e "% del totale dei visitatori internazionali":
 
-1. Rilascia il segmento Visitatori tedesco (o Internazionale) nel quadro.
-1. Rilascia un altro segmento Visitatori tedesco (o Internazionale) di seguito. Tuttavia, in questa fase, fai clic sulla relativa icona di configurazione (ingranaggio) per selezionare il tipo di metrica "Totale". Il formato deve essere "Percentuale". L'operatore deve essere "diviso per". La definizione della metrica è terminata:
+1. Trascina il segmento Visitatori tedeschi (o internazionali) nel quadro.
+1. Rilascia di seguito un altro segmento Visitatori tedeschi (o internazionali). Tuttavia, stavolta fai clic sull’icona di configurazione (ingranaggio) per selezionare il tipo di metrica "Totale". Il formato deve essere "Percent". L'operatore deve essere "diviso per". Si conclude con questa definizione di metrica:
 
    ![](assets/cm_metric_total.png)
 
@@ -63,25 +63,25 @@ Puoi introdurre un altro livello di interazione confrontando il comportamento di
 
    ![](assets/cm_percent_total.png)
 
-## Compare Differences in Percentages (using Containers) {#section_13D6353259B74C09B37BA6378A501938}
+## Confronta differenze in percentuali (utilizzando i contenitori) {#section_13D6353259B74C09B37BA6378A501938}
 
-Se desiderate vedere rapidamente le differenze più importanti tra Stati Uniti e comportamento di navigazione internazionale, potete creare un'altra metrica che sottrae le percentuali tra loro. A questo scopo, potete utilizzare la funzionalità Contenitore che funge da parentesi intorno ai 2 set di metriche.
+Se si desidera visualizzare rapidamente le maggiori differenze tra il comportamento di esplorazione statunitense e internazionale, è possibile creare un'altra metrica che sottrae le percentuali l'una dall'altra. A tal fine, puoi utilizzare la funzionalità Contenitore che agisce efficacemente come parentesi intorno ai due set di metriche.
 
 1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
 
    ![](assets/cm_add_container.png)
 
-1. Trascina la metrica " % of Total US Visitors" precedentemente creata nel primo contenitore, per passare alla definizione completa:
+1. Rilascia la metrica "% del totale dei visitatori negli Stati Uniti" creata in precedenza nel primo contenitore, che si espande fino alla definizione completa:
 
    ![](assets/cm_container_us.png)
 
-1. Crea un altro contenitore di seguito e trascina in essa la metrica " % of Total International Visitors".
-1. Cambia l'operatore tra i contenitori 2 a meno (-).
+1. Crea un altro contenitore qui sotto e trascina la metrica "% del totale dei visitatori internazionali".
+1. Cambia l'operatore tra i 2 contenitori in un segno meno (-).
 
    ![](assets/cm_container_intl.png)
 
-1. Salva la metrica (accertati di averla denominata qualcosa come "Differenza in % tra US e Int'l. ").
-1. Quando viene applicata al rapporto, potete facilmente dove sono le differenze più importanti e ordinare il rapporto di conseguenza.
+1. Salvate la metrica (accertatevi di averla denominata "Difference in % tra USA e Int'l.").
+1. Se applicato al rapporto, è possibile individuare facilmente le maggiori differenze in percentuale e ordinare il rapporto di conseguenza.
 
    ![](assets/cm_diff_percent.png)
 
