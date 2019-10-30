@@ -37,7 +37,7 @@ Potete [personalizzare l’accesso degli utenti alle dimensioni](https://marketi
 | [!DNL Activity Map] XY | Non utilizzato |
 
 * Queste dimensioni dovrebbero essere disponibili in Analysis Workspace, Reporting e analisi e Generatore di report, a condizione che l'implementazione di Analytics sia [abilitata per [!DNL Activity Map]](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* In Reporting e analisi, passa a **[!UICONTROL View All Reports]** &gt; **[!UICONTROL [!DNL Activity Map]]**.
+* In Reports &amp; Analytics, navigate to **[!UICONTROL View All Reports]** &gt; **[!UICONTROL [!DNL Activity Map]]**.
 
 * Per visualizzare un collegamento e un’area geografica per una pagina specifica, è sufficiente creare un’analisi approfondita dalla [!DNL Activity Map] pagina desiderata in [!DNL Activity Map] Collegamenti e regione.
 
