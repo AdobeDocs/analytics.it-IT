@@ -1,49 +1,45 @@
 ---
-description: Gli analisti di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
+description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
 keywords: Implementazione di Analytics
-seo-description: Gli analisti di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
-seo-title: Analyet analyzer
+seo-description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
+seo-title: Analizzatore pacchetti
 solution: Analytics
 subtopic: Strumento di debug
-title: Analyet analyzer
+title: Analizzatore pacchetti
 topic: Sviluppatore e implementazione
-uuid: 3597 c 23 a -1 c 72-46 e 6-909 d-f 861 cbeef 490
+uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Analyet analyzer
+# Analizzatore pacchetti
 
-Gli analisti di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
+Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
 
-Simliar to the [!DNL DigitalPulse Debugger], a packet monitor shows what data parameters are being passed in an image request; however, packet monitors provide added functionality:
+Simile a [!DNL DigitalPulse Debugger], un monitor di pacchetti mostra i parametri di dati trasmessi in una richiesta di immagine; tuttavia, i monitor a pacchetti offrono funzionalità aggiuntive:
 
-* Visualizzare le richieste di immagini personalizzate per il tracciamento dei collegamenti
-* View image requests using implementation methods other than JavaScript, such as hard-coded image requests or [!DNL Appmeasurement]
+* Visualizza richieste immagine per tracciamento collegamenti personalizzati
+* Visualizzare le richieste di immagini utilizzando metodi di implementazione diversi da JavaScript, ad esempio richieste di immagini hardcoded o [!DNL Appmeasurement]
 
-Per visualizzare le richieste di Analytics, filtrate le richieste in uscita utilizzando «b/ss».
+Per visualizzare le richieste di Analytics, filtra le richieste in uscita utilizzando "b/s".
 
-In very rare cases, the debugger will report an image request although no request makes it to Adobe's [!DNL Analytics] processing servers. L'utilizzo di un monitor packet è un ottimo metodo per fare in modo che una richiesta di immagine specifica venga avviata correttamente.
+In casi molto rari, il debugger segnalerà una richiesta di immagine anche se non viene inviata alcuna richiesta ai server di [!DNL Analytics] elaborazione di Adobe. L'utilizzo di un monitor a pacchetti rappresenta un ottimo modo per garantire al 100% che una specifica richiesta di immagine venga attivata correttamente.
 
-Adobe non fornisce un monitor ufficiale per i pacchetti, ma ne dispone su Internet. Di seguito sono riportati alcuni monitor di pacchetti che altri utenti hanno scoperto.
+Adobe non fornisce un monitor di pacchetti ufficiale, ma ne offre un'ampia gamma su Internet. Di seguito alcuni monitor di pacchetti che altri hanno trovato utili.
 
->[!NOTE]
->
->Questi elenchi non devono essere completi, ma piuttosto informazioni sui monitor utilizzati più frequentemente. If you have a packet monitor you successfully use and find useful, feel free to provide feedback using the [!UICONTROL Feedback] button on the right side of this window.
+> [!NOTE] Questi elenchi non sono completi, ma informazioni sui monitor più utilizzati. Se disponete di un monitor a pacchetti che potete utilizzare e che vi consente di ottenere un feedback, potete utilizzare il [!UICONTROL Feedback] pulsante a destra della finestra.
 
-| Firefox | Internet Explorer | Chrome | Programmi indipendenti |
+| Firefox | Internet Explorer | Chrome | Programmi standalone |
 |---|---|---|---|
-| [Punto di osservazione](https://www.observepoint.com/product#plugin) (visualizzatore tag) | [Httpwatch](https://www.httpwatch.com/) | [Punto di osservazione](https://www.observepoint.com/product#plugin) (visualizzatore tag) | [Charles](https://www.charlesproxy.com/) |
-| [Httpfox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Strumenti per sviluppatori Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Dati Tamper](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
-| [Httpwatch](https://www.httpwatch.com/) |  |  |  |
+| [Punto](https://www.observepoint.com/product#plugin) di osservazione (visualizzatore tag) | [HttpWatch](https://www.httpwatch.com/) | [Punto](https://www.observepoint.com/product#plugin) di osservazione (visualizzatore tag) | [Charles](https://www.charlesproxy.com/) |
+| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Dati mantra](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE]
->
->Adobe NON supporta o risolvono problemi che potrebbero verificarsi con questi monitor pacchetti. Consultate il sito di origine del monitor per ottenere assistenza.
+> [!NOTE] Adobe NON supporta o risolve eventuali problemi riscontrati con questi monitor. Per assistenza, consultare il sito di origine del monitor del pacchetto.
 
 <!-- 
 
@@ -51,10 +47,10 @@ debugger_ns_binding.xml
 
  -->
 
-Questo errore si verifica perché la richiesta di immagini di tracciamento del collegamento è stata progettata per consentire al browser di passare alla pagina successiva prima di attendere una risposta dai server di raccolta dati Adobe.
+Questo errore si verifica perché la richiesta dell'immagine di tracciamento del collegamento è progettata per consentire al browser di passare alla pagina successiva prima di attendere una risposta dai server di raccolta dati Adobe.
 
-La risposta di Adobe alla richiesta immagine è semplicemente un'immagine trasparente da 1 x 1 trasparente, che non è pertinente al contenuto della pagina. If you see a line item in your packet monitor from Adobe, either with a **[!UICONTROL 200 OK]** response or an **[!UICONTROL NS_BINDING_ABORTED]** response, the data has reached our servers. Non è necessario attendere più la pagina.
+La risposta di Adobe alla richiesta di immagini è semplicemente un'immagine trasparente 1x1 vuota, che non è pertinente al contenuto della pagina. Se viene visualizzato un elemento di riga nel monitor dei pacchetti da Adobe, con una **[!UICONTROL 200 OK]** risposta o una **[!UICONTROL NS_BINDING_ABORTED]** risposta, i dati hanno raggiunto i nostri server. Non è più necessario attendere la pagina.
 
-I monitor dei pacchetti integrati come plug-in raramente vedono la risposta completa. Tendono a vedere la richiesta come interrotta perché la risposta completa non è stata ricevuta. Anche questi monitor raramente fanno una distinzione tra la richiesta o la risposta interrotta. In genere, un monitor indipendente contiene messaggi più dettagliati e segnala lo stato con maggiore precisione. For example, a user may get a message in *Charles* saying "Client closed connection before receiving entire response." Ciò significa che i dati hanno raggiunto i nostri server, ma solo il browser è stato spostato nella pagina successiva prima della ricezione di 1 x 1 pixel.
+I monitor Packet integrati come plug-in raramente visualizzano la risposta completa. Essi tendono a vedere la richiesta come interrotta perché non è stata ricevuta la risposta completa. Raramente questi monitor distinguono tra la richiesta o la risposta che è stata interrotta. In genere, un monitor a pacchetti indipendente contiene messaggi più dettagliati e segnala lo stato con maggiore precisione. Ad esempio, un utente potrebbe ricevere un messaggio in *Charles* che dice "Connessione chiusa dal client prima di ricevere l'intera risposta." Ciò significa che i dati sono arrivati ai nostri server, solo il browser si è spostato sulla pagina successiva prima che venisse ricevuto 1x1 pixel.
 
-Se un sniffer di pacchetti esterno segnala che la richiesta di raccolta dati viene interrotta, anziché la risposta, questo è un problema. Adobe [!DNL Customer Care] can provide help in troubleshooting.
+Se un packet sniffer esterno segnala che la richiesta di raccolta dei dati viene interrotta e non la risposta, ciò è motivo di preoccupazione. Adobe [!DNL Customer Care] può fornire assistenza nella risoluzione dei problemi.
