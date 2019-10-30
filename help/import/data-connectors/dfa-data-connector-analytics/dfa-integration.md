@@ -8,7 +8,7 @@ title: Integrazione DFA
 topic: Connettori dati
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ Integrazione dei connettori dati del DFA.
 Le pagine di configurazione forniscono una panoramica dell'integrazione, insieme a utili collegamenti per ulteriori informazioni. A questa integrazione sono associate sia le tariffe Adobe che DoubleClick. Contatta i rappresentanti di vendita appropriati per entrambe le organizzazioni e assicurati di conoscere la struttura delle tariffe.
 
 1. Log in to the [!DNL Adobe Analytics].
-1. Clic **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
+1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
 
@@ -125,13 +125,13 @@ Dopo che Genesis ha configurato la suite di rapporti di Analytics per l'integraz
 
 L’integrazione dei connettori dati per DFA richiede l’impostazione di un cookie sul dominio della pagina.
 
-Anche se è raro, alcuni domini hanno raggiunto la capacità massima di cookie per alcuni browser Web. Per evitare di compromettere l’esperienza di navigazione di un visitatore sul sito Web, rivolgiti alle operazioni di rete, al team di sviluppo o al gruppo di tecnici per verificare che l’aggiunta di un altro cookie al dominio delle pagine utilizzate per l’integrazione DFAE non influisca sull’esperienza dell’utente. Sarà inoltre necessario selezionare un nome per il cookie.
+Anche se è raro, alcuni domini hanno raggiunto la capacità massima di cookie per alcuni browser Web. Per evitare di influenzare l'esperienza di navigazione di un visitatore sul sito Web, rivolgiti alle operazioni di rete, al team di sviluppo o al gruppo di tecnici per verificare che l'aggiunta di un altro cookie al dominio delle pagine utilizzate per l'integrazione DFA non influisca sull'esperienza dell'utente. Sarà inoltre necessario selezionare un nome per il cookie.
 
 ### Aggiorna il parametro query-stringa DFA{#update-your-dfa-query-string-parameter}
 
 Se hai già eseguito il tracciamento delle campagne pubblicitarie con Adobe Analytics prima dell'integrazione DFA, è possibile che tutte le campagne (e-mail, ricerca o banner) utilizzino lo stesso parametro della stringa di query per identificare l'ID campagna di provenienza sulla pagina di destinazione.
 
-Per capire quando richiedere dati di visualizzazione e click-through dai dati DFA per le campagne DFA Ad, i Connettori dati devono identificare quando un visitatore ha fatto clic su un banner pubblicitario di campagna DFA. A tal fine, è necessario aggiungere un parametro di stringa di query differenziata all'URL della pagina di destinazione della campagna DFA Ad, in modo che i Connettori dati possano distinguere tra le pagine della campagna DFA Ad e altre pagine della campagna pubblicitaria eventualmente presenti sul sito Web. Il plug- `dfa_overrideParam` in JavaScript utilizzato per il DFA.
+Per capire quando richiedere dati di visualizzazione e click-through dai dati DFA per le campagne DFA Ad, i Connettori dati devono identificare quando un visitatore ha fatto clic su un banner pubblicitario di campagna DFA. Per rendere possibile questa operazione, devi aggiungere un parametro di stringa di query differenziata all'URL della pagina di destinazione della campagna DFA Ad in modo che i Connettori dati possano distinguere tra le pagine della campagna DFA Ad e altre pagine della campagna pubblicitaria che potresti avere sul tuo sito Web. Il plug- `dfa_overrideParam` in JavaScript utilizzato per il DFA.
 
 >[!CAUTION]
 >
@@ -141,9 +141,7 @@ Per capire quando richiedere dati di visualizzazione e click-through dai dati DF
 
 L’integrazione di Genesis per il DFA sfrutta l’ID di configurazione DFA Floodlight (dfa_SPOTID), che migliora la coerenza dei rapporti tra il DFA e il sistema di raccolta dei dati Adobe.
 
->[!NOTE]
->
->Il termine Spotlight è stato modificato in Floodlight in una recente release di Google DFA. Il parametro JavaScript `dfa_SPOTID` è stato denominato in base alla terminologia Spotlight, ma viene utilizzato per entrambe le versioni.
+> [!NOTE] Il termine Spotlight è stato modificato in Floodlight in una recente release di Google DFA. Il parametro JavaScript `dfa_SPOTID` è stato denominato in base alla terminologia Spotlight, ma viene utilizzato per entrambe le versioni.
 
 Per abilitare l'integrazione DFA sul sito Web, è necessario aggiornare il codice di raccolta dati JavaScript aggiungendo quanto segue:
 
@@ -265,7 +263,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 La percentuale di timeout sta prendendo in considerazione tutti i visitatori del sito. Alcuni di questi visitatori non sarebbero stati legati al DFAE, quindi il timeout è fuorviante. Per migliorare questo calcolo, un'altra analisi potrebbe considerare solo i visitatori univoci nelle pagine con il `clickThroughParam` set (ad esempio, `?CID=1`). Questo mostrerà più precisione.
 
-Se la percentuale di timeout è molto bassa, prendete in considerazione la riduzione *`s.maxDelay`*. Se è molto alto, aumentare *`s.maxDelay`*. In caso di diminuzione, *`s.maxDelay`* si desidera ripetere l'operazione per [!DNL Timeout Report] garantire che i timeout non siano aumentati drasticamente. Con *`s.maxDelay`* un aumento, è necessario eseguire un [!DNL Page Views Report] evento per verificare che le visualizzazioni delle pagine non si verifichino a causa della perdita di dati. Ogni volta *`s.maxDelay`* viene modificato osservano i dati per diversi giorni al fine di garantire che i dati rappresentino una tendenza, e non solo una fluttuazione giornaliera.
+Se la percentuale di timeout è molto bassa, prendete in considerazione la riduzione *`s.maxDelay`*. Se è molto alto, aumentare *`s.maxDelay`*. In caso di diminuzione, *`s.maxDelay`* si desidera ripetere l'operazione per [!DNL Timeout Report] garantire che i timeout non siano aumentati drasticamente. Con *`s.maxDelay`* l'aumento, è necessario eseguire un'operazione [!DNL Page Views Report] per verificare che le visualizzazioni delle pagine non risultino compromesse a causa della perdita di dati. Ogni volta *`s.maxDelay`* viene modificato osservano i dati per diversi giorni al fine di garantire che i dati rappresentino una tendenza, e non solo una fluttuazione giornaliera.
 
 L’impostazione ottimale per *`s.maxDelay`* è il punto in cui la percentuale di timeout viene ridotta a icona mentre le visualizzazioni pagina non vengono eliminate.
 
