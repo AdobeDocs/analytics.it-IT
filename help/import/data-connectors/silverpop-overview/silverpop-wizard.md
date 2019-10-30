@@ -5,7 +5,7 @@ seo-title: Integrazione Silverpop
 title: Integrazione Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ Per configurare l'integrazione:
   <tr valign="top"> 
    <td colname="col2" valign="top" align="left"> <p>Nome integrazione </p> </td> 
    <td colname="col03"> <p>(1) Impostazioni di integrazione </p> </td> 
-   <td colname="col3"> <p>Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'elenco Integrazione attiva della suite di rapporti. </p> </td> 
+   <td colname="col3"> <p>Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'Elenco integrazione attiva della suite di rapporti. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2" valign="top" align="left"> <p>Scarica file </p> </td> 
