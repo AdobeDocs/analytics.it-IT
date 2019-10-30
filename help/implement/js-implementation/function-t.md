@@ -1,33 +1,33 @@
 ---
-description: La funzione s. t () consente di compilare tutte le variabili definite sulla pagina in una richiesta di immagine e di inviarle ai nostri server.
-keywords: track; Implementazione di Analytics; tracciamento pagina; pagina di tracciamento
-seo-description: La funzione s. t () consente di compilare tutte le variabili definite sulla pagina in una richiesta di immagine e di inviarle ai nostri server.
-seo-title: Funzione s. t () - Tracciamento pagina
+description: La funzione s.t() compila tutte le variabili definite in quella pagina in una richiesta di immagine e le invia ai nostri server.
+keywords: track;Analytics Implementation;page tracking;track page page
+seo-description: La funzione s.t() compila tutte le variabili definite in quella pagina in una richiesta di immagine e le invia ai nostri server.
+seo-title: 'Funzione s.t(): tracciamento pagina'
 solution: Analytics
 subtopic: Funzioni
-title: Funzione s. t () - Tracciamento pagina
+title: 'Funzione s.t(): tracciamento pagina'
 topic: Sviluppatore e implementazione
-uuid: 67696 e 46-1 e 0 d -4200-bfad -4217 d 1023948
+uuid: 67696e46-1e0d-4200-bfad-4217d1023948
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Funzione s. t () - Tracciamento pagina
+# Funzione s.t(): tracciamento pagina
 
-La funzione s. t () consente di compilare tutte le variabili definite sulla pagina in una richiesta di immagine e di inviarle ai nostri server.
+La funzione s.t() compila tutte le variabili definite in quella pagina in una richiesta di immagine e le invia ai nostri server.
 
-## Properties of the Function {#section_DB1F3E216DCD4E12AE42BBDCD25B9626}
+## Proprietà della funzione {#section_DB1F3E216DCD4E12AE42BBDCD25B9626}
 
-* Removing the [!UICONTROL s.t()] call prevents any data from reaching [!DNL Analytics]. Multiple [!UICONTROL s.t()] calls fires multiple image requests (doubling the reported traffic on your site).
+* La rimozione della [!UICONTROL s.t()] chiamata impedisce il raggiungimento di eventuali dati [!DNL Analytics]. Più [!UICONTROL s.t()] chiamate attivano più richieste di immagini (raddoppiando il traffico segnalato sul sito).
 
-* If you wish to fire more than one image request on a single page load, using the [!UICONTROL s.tl()] function is recommended.
-* Triggering this function always increases [!UICONTROL pageviews]and always include the [!UICONTROL s.pageName] variable.
+* Se si desidera attivare più di una richiesta di immagine su un singolo caricamento di pagina, è consigliabile utilizzare la [!UICONTROL s.tl()] funzione .
+* L'attivazione di questa funzione aumenta sempre [!UICONTROL pageviews]e include sempre la [!UICONTROL s.pageName] variabile.
 
 ## Implementazione {#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
 
-Upon generating code within the [!UICONTROL code manager], you are given the following at the bottom of the page code:
+Quando si genera il codice all’interno del [!UICONTROL code manager], nella parte inferiore del codice della pagina vengono riportati i seguenti dati:
 
 ```js
 var s_code=s.t();if(s_code)document.write(s_code)//--></script> 
@@ -41,7 +41,7 @@ Ogni riga di codice ha uno scopo specifico:
 var s_code=s.t();if(s_code)document.write(s_code)//-->
 ```
 
-Questa riga di codice corrisponde all'attivazione della funzione Javascript. The [!UICONTROL s_code] variable and it's accompanying document.write method is for browsers that don't support image objects (Netscape browsers prior to version 3 and Internet Explorer prior to version 4; estimated less than .5% of all internet users).
+Questa riga di codice è ciò che attiva la funzione Javascript. La [!UICONTROL s_code] variabile e il relativo metodo document.write sono destinati ai browser che non supportano gli oggetti immagine (browser Netscape prima della versione 3 e Internet Explorer prima della versione 4; meno dello 0,5% di tutti gli utenti di Internet).
 
 ```js
 <script language="JavaScript" type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script> 
@@ -49,4 +49,4 @@ Questa riga di codice corrisponde all'attivazione della funzione Javascript. The
 src="https://yournameserver.112.2o7.net/b/ss/yourreportsuiteid/1/H.23.6--NS/0" height="1" width="1" border="0" alt="" />
 ```
 
-For any additional questions about the [!UICONTROL s.t()] function, contact your organization's Account Manager. Possono organizzare una riunione con un consulente di implementazione Adobe, che può fornire assistenza.
+Per ulteriori domande sulla [!UICONTROL s.t()] funzione, contattare l'Account Manager dell'azienda. Possono organizzare una riunione con un consulente di implementazione Adobe, che può fornire assistenza.
