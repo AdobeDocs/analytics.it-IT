@@ -3,9 +3,9 @@ description: Le Impostazioni riga variano a seconda del componente che hai trasc
 seo-description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
 seo-title: Impostazioni riga
 title: Impostazioni riga
-uuid: f 30 c 31 d 5-1 fd 4-4 b 93-94 c 3-ca 441099 fe 2 e
+uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,8 +41,8 @@ Per accedere alle impostazioni di riga, fai clic sull’icona Impostazioni accan
    <td colname="col2"> <p>Queste impostazioni vengono visualizzate solamente con <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local"> righe manuali (statiche)</a> (quando hai selezionato un set finito di elementi) e non con righe dinamiche (quando rilasci una dimensione che mostra tutti gli elementi). <p>Nota: per righe manuali <i>metriche</i>, l’impostazione è disabilitata in quanto non avrebbe alcun senso sommare ulteriori metriche oltre alle righe correnti in una tabella. </p> </p> <p><b>Calcola i totali, sommando i valori attualmente presenti in ciascuna colonna (abilitata per impostazione predefinita):</b> </p> <p>Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). </p> <p><b>Calcola i totali sulla base di tutte le righe di ogni metrica (disabilitata per impostazione predefinita):</b> </p> <p>Questa opzione include tutti gli elementi di questa dimensione anche quelli non elencati nella tabella (calcolo lato server). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Suddivisioni </p> </td> 
-   <td colname="col2"> <p><b>Suddivisione per posizione:</b> </p> <p>È possibile mostrare le suddivisioni in base a una posizione fissa in una tabella a forma libera. Ad esempio, puoi specificare di suddividere sempre le prime sette righe. </p> <p>(In precedenza, i valori elencati nella suddivisione erano bloccati. Di conseguenza, suddividendo ad esempio <span class="term"> Data</span> per <span class="term"> pagina</span>: è stato visualizzato un elenco delle prime 50 pagine per l'intervallo di date selezionato. Se avessi salvato questo rapporto e lo avessi eseguito di nuovo un mese più tardi, le prime 50 pagine sarebbero probabilmente cambiate. Analysis Workspace utilizzava comunque i risultati della suddivisione originale e restituiva le stesse pagine, ma con il mese corrente come intervallo di date.) </p> <p>Per eseguire suddivisioni sulla base di una posizione fissa: </p> 
+   <td colname="col1"> <p>Breakdowns (Suddivisioni) </p> </td> 
+   <td colname="col2"> <p><b>Suddivisione per posizione:</b> </p> <p>È possibile mostrare le suddivisioni in base a una posizione fissa in una tabella a forma libera. Ad esempio, puoi specificare di suddividere sempre le prime sette righe. </p> <p>(In precedenza, i valori elencati nella suddivisione erano bloccati. This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. Se avessi salvato questo rapporto e lo avessi eseguito di nuovo un mese più tardi, le prime 50 pagine sarebbero probabilmente cambiate. Analysis Workspace utilizzava comunque i risultati della suddivisione originale e restituiva le stesse pagine, ma con il mese corrente come intervallo di date.) </p> <p>Per eseguire suddivisioni sulla base di una posizione fissa: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Suddividi alcune delle righe nella tua tabella. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">Fai clic sull’icona Impostazioni (ingranaggio) accanto alla riga della tabella che desideri mettere in posizione fissa. </li> 
