@@ -1,23 +1,21 @@
 ---
-description: Le funzioni consentono di filtrare o ordinare i dati ed eseguire analisi statistiche.
-seo-description: Le funzioni consentono di filtrare o ordinare i dati ed eseguire analisi statistiche.
+description: Le funzioni consentono di filtrare/ordinare i dati e di eseguire analisi statistiche.
+seo-description: Le funzioni consentono di filtrare/ordinare i dati e di eseguire analisi statistiche.
 seo-title: Usare le funzioni
 title: Usare le funzioni
-uuid: f 9 ea 8 c 76-714 e -429 c-baa 0-9 c 96 cbf 7 ebb 1
+uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Usare le funzioni
 
-Le funzioni consentono di filtrare o ordinare i dati ed eseguire analisi statistiche.
+Le funzioni consentono di filtrare/ordinare i dati e di eseguire analisi statistiche.
 
-For a list of all functions, refer to [Basic Functions](../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) and [Advanced Functions](../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174).
+Per un elenco di tutte le funzioni, fare riferimento a Funzioni [](../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) di base e Funzioni [](../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174)avanzate.
 
->[!NOTE]
->
->Quando includete funzioni in una formula di metriche calcolate, applicate sempre la funzione prima di trascinare in metriche o segmenti.
+> [!NOTE] Quando si includono funzioni in una formula di metrica calcolata, applicare sempre la funzione prima di trascinare in metriche o segmenti.
 
-Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.
+Guardate questo [video](https://youtu.be/SSyWvomnewI) per comprendere l'uso delle funzioni.
