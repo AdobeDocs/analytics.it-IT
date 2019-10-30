@@ -6,7 +6,7 @@ solution: Analytics
 title: Connettore dati Responsys per Adobe Analytics
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,14 +29,14 @@ Elenca i principali vantaggi dell'integrazione di Adobe Analytics e Responsys In
 
 Elenca i prerequisiti per i clienti Adobe Analytics e Responsys.
 
-### Prerequisites for Adobe Customers {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
+### Prerequisiti per i clienti Adobe {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
 
-* Must be a current customer of Adobe Analytics.
-* Must have Admin privileges.
-* Must have 2 available and enabled eVars within your report suite.
-* Must have 6 available numeric events enabled within your report suite.
+* Deve essere un cliente corrente di Adobe Analytics.
+* Devono disporre dei privilegi di amministratore.
+* Devono essere disponibili 2 eVar abilitate nella suite di rapporti.
+* Devono essere abilitati 6 eventi numerici disponibili nella suite di rapporti.
 
-### Prerequisites for Responsys Customers {#section-b04fa24f2b3a48178d914306f17917a0}
+### Prerequisiti per i clienti Responsys {#section-b04fa24f2b3a48178d914306f17917a0}
 
-* Must be a current customer of Responsys.
-* Must have purchased Interact Connect for Adobe Analytics.
+* Deve essere un cliente corrente di Responsys.
+* Deve aver acquistato Interact Connect per Adobe Analytics.
