@@ -1,15 +1,15 @@
 ---
-description: Appmeasurement per i plug-in javascript sono programmi o funzioni che eseguono diverse funzioni avanzate.
+description: AppMeasurement per i plug-in JavaScript sono programmi o funzioni che eseguono diverse funzioni avanzate.
 keywords: Implementazione di Analytics
-seo-description: Appmeasurement per i plug-in javascript sono programmi o funzioni che eseguono diverse funzioni avanzate.
+seo-description: AppMeasurement per i plug-in JavaScript sono programmi o funzioni che eseguono diverse funzioni avanzate.
 seo-title: Utilizzare i plug-in di implementazione
 solution: Analytics
 subtopic: Plug-in
 title: Utilizzare i plug-in di implementazione
 topic: Sviluppatore e implementazione
-uuid: 7 ffcfe 89-b 7 e 2-45 e 4-b 771-942 d 5 ae 07 c 39
+uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 AppMeasurement for JavaScript [plug-ins](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md) are programs or functions that perform several advanced functions.
 
-Questi plug-in estendono le funzionalità del file javascript per offrire ulteriori funzionalità non disponibili con un'implementazione di base. Adobe offre molti altri plug-nell'ambito delle soluzioni avanzate. Contattate l'Account Manager per acquisire i dati utilizzando javascript, ma non assicuratevi di procedere.
+Questi plug-in estendono le funzionalità del file JavaScript per offrire ulteriori funzionalità non disponibili con un’implementazione di base. Adobe offre molti altri plug-nell’ambito delle soluzioni avanzate. Contatta l’Account Manager per acquisire i dati utilizzando JavaScript, ma non sei sicuro su come procedere.
