@@ -1,48 +1,48 @@
 ---
-description: Passaggi di implementazione.
+description: Procedura di implementazione
 keywords: Implementazione di Analytics
-seo-description: Passaggi di implementazione.
+seo-description: Procedura di implementazione
 seo-title: Accettazione dell'implementazione
 solution: Analytics
 title: Accettazione dell'implementazione
 topic: Sviluppatore e implementazione
-uuid: 6 f 7 ec 56 e -9 e 4 f -4 dc 8-b 534-92 b 1580 b 5 b 47
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Accettazione dell'implementazione
 
-Passaggi di implementazione.
+Procedura di implementazione
 
 I passaggi seguenti delineano il processo di implementazione.
 
-1. Il consulente Adobe raccoglie i requisiti del rapporto e crea un piano di raccolta dati in base a tali requisiti.
+1. Il consulente Adobe raccoglie i requisiti dei rapporti e crea un piano di raccolta dati basato su tali requisiti.
 
-   Il piano di raccolta dati include definizioni delle variabili, regole VISTA richieste e javascript personalizzati, correlazione dei dati e tutte le impostazioni per ogni suite di rapporti. Il client completa il questionario sull'implementazione.
-1. Le risorse tecniche sul lato client implementano il codice, le variabili javascript specifiche per il sito e le variabili lato server.
-1. Il consulente Adobe affronta problemi tecnici durante l'implementazione e contribuisce a progettare soluzioni in base alle esigenze.
-1. Risorse tecniche sul test dell'unità lato client.
+   Il piano di raccolta dei dati include definizioni di variabili, regole VISTA obbligatorie e JavaScript personalizzato, correlazione dei dati e tutte le impostazioni per ciascuna suite di rapporti. Il cliente completa il Questionario di implementazione.
+1. Le risorse tecniche sul lato client implementano il codice, JavaScript specifici per il sito e variabili lato server.
+1. Il consulente Adobe affronta problemi tecnici durante l'implementazione e assiste nella definizione delle soluzioni come necessario.
+1. Risorse tecniche sull'unità lato client per verificare l'implementazione.
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   I tester accedono [!DNL Analytics] e verificano tutte le variabili ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, variabili di conversione, variabili di traffico personalizzate *`products`* e tutte le altre variabili).
 1. Il client notifica ad Adobe che l'implementazione è completa.
 
-   Il client fornisce un esempio di convalida (esempio di dati) al consulente Adobe per convalidare l'accuratezza dei dati. (Le suite di rapporti generate in VISTA vengono convalidate confrontando le metriche appropriate. Un contratto client-Adobe delle metriche da convalidare per tali suite di rapporti deve essere eseguito in anticipo, al momento della creazione della regola VISTA.)
-1. Il client invia fax (o firma online) un'accettazione implementazione e un Contratto per i siti appropriati.
-1. Una volta ricevuta l'accettazione, il consulente Adobe abilita le procedure consigliate Adobe - la certificazione di verifica dell'implementazione all'interno dell'interfaccia.
-1. Facoltativamente, il client può negoziare con Adobe per i servizi per pagine chiave del sito implementato (in genere, questi sono i modelli principali, la home page e le pagine di immissione critica).
+   Il client fornisce un esempio di convalida (esempio di dati) al consulente Adobe per convalidare l'accuratezza dei dati. (Le suite di rapporti generate da VISTA vengono convalidate confrontando le metriche appropriate. Un accordo client-Adobe sulle metriche da convalidare per tali suite di rapporti deve essere fatto in anticipo, al momento della creazione della regola VISTA.)
+1. Il client invia via fax (o firma online) un'accettazione dell'implementazione e un accordo per il sito o i siti appropriati.
+1. Dopo aver ricevuto l'accettazione, il consulente Adobe consente la certificazione Adobe Best Practices - Implementation Verification all'interno dell'interfaccia.
+1. Facoltativamente, il client può contrarre con Adobe servizi di monitoraggio per le pagine chiave del sito implementato (in genere, si tratta dei modelli principali, della home page e delle pagine di immissione critiche).
 
-   Questo software di monitoraggio è descritto in un documento separato, ma tiene traccia delle pagine caricando e eseguendo la pagina, quindi confrontando la richiesta dell'immagine a una linea di base memorizzata in un database. Se vengono rilevate delle differenze, il software notifica ad Adobe (AM/IE) e al personale client via e-mail.
+   Questo software di monitoraggio è descritto in un documento separato, ma tiene traccia delle pagine caricando ed eseguendo la pagina, quindi confrontando la richiesta di immagine con una baseline memorizzata in un database. Se vengono rilevate delle differenze, il software invia una notifica via e-mail ad Adobe (AM/IE) e al personale cliente specificati.
 
-I seguenti elementi aiutano a garantire un'implementazione corretta:
+Gli elementi seguenti contribuiscono a garantire il successo dell’implementazione:
 
-* Un documento best practice, rivolto al client e illustra i processi in dettaglio.
-* Documento di convalida utilizzato dal cliente per testare l'implementazione.
-* Un modulo Accettazione e Contratto per consentire al client di firmare.
-* Un'applicazione di monitoraggio che convalida continuamente i tag.
-* Una relazione con Accenture per il testing di implementazione.
-* Utility e/o strumenti per il confronto tra visualizzazioni di pagina e/o ordini. Questi confronti possono risultare difficili.
-* Un metodo o un processo per ottenere rapidamente il registro di debug per un giorno specificato, tramite ID suite di rapporti.
+* Un documento sulle procedure ottimali rivolto ai clienti che illustra i processi in modo dettagliato.
+* Il documento di convalida utilizzato dal cliente per unit test dell'implementazione.
+* Un modulo di accettazione dell'implementazione e di accordo per la firma da parte del client.
+* Applicazione di monitoraggio che convalida continuamente i tag.
+* Una relazione con Accenture per facilitare i test di implementazione.
+* Utility e/o strumenti per il confronto tra visualizzazioni e/o ordini delle pagine. Quei confronti possono diventare abbastanza difficili.
+* Metodo o processo per ottenere rapidamente il registro di debug per un dato giorno, per ID suite di rapporti.
 
