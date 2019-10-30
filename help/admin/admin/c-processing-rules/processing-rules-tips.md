@@ -8,7 +8,7 @@ title: Suggerimenti e trucchi per le regole di elaborazione
 topic: Strumenti di amministrazione
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -62,4 +62,3 @@ I termini di ricerca estratti da una stringa di query devono essere codificati c
 Selezionare la condizione di corrispondenza corretta per trovare la condizione più restrittiva che corrisponde correttamente. È possibile cercare valori in un rapporto prima di creare una regola per essere sicuri che non ci siano corrispondenze non desiderate. Ad esempio, è necessario eseguire una ricerca nel report Prop2 per individuare tutte le posizioni in cui questa condizione corrisponde prima di abilitare questa regola.
 
 ![](assets/tips-startswith.png)
-
