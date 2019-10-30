@@ -3,9 +3,9 @@ description: I componenti in Analysis Workspace sono metriche, dimensioni, segme
 seo-description: I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e granularità temporali da trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
 seo-title: Panoramica dei componenti
 title: Panoramica dei componenti
-uuid: 1 a 4 e 1 c 35-eac 9-4 eb 4-be 2 e-ecb 2 c 6728150
+uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e granularità temporali da trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
 
-To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. You can switch among Panels (Blank panel, [Freeform panel](../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F), or [Segment Comparison](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) panel), [Visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and Components using the left-rail icons or by using [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051).
+To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. Puoi passare da Pannelli (pannello vuoto, pannello [](../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)a forma libera o pannello Confronto [](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) segmenti), [Visualizzazioni](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)e Componenti utilizzando le icone della barra a sinistra o i [tasti](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)di scelta rapida.
 
 ![](assets/components.png)
 
@@ -22,11 +22,9 @@ See [Create a freeform analysis project](../../../analyze/analysis-workspace/bui
 
 ## Azioni dei componenti {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-Sono disponibili diversi metodi di gestione dei componenti (singolarmente o selezionandone più di uno). Fai clic con il pulsante destro del mouse su un componente oppure fai clic su **[!UICONTROL Actions] (Azioni) in alto nell’elenco dei componenti.**
+Sono disponibili diversi metodi di gestione dei componenti (singolarmente o selezionandone più di uno). Fai clic con il pulsante destro del mouse su un componente oppure fai clic su **[!UICONTROL Actions](Azioni) in alto nell’elenco dei componenti.**
 
->[!NOTE]
->
->Queste azioni non sono applicabili ai componenti Ora.
+> [!NOTE] Queste azioni non si applicano ai componenti Tempo.
 
 | Azione del componente | Descrizione |
 |--- |--- |
