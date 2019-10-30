@@ -1,68 +1,68 @@
 ---
-description: Le aziende utilizzano Analytics per determinare il successo di una campagna e-mail.
+description: Le società utilizzano Analytics per determinare il successo di una campagna e-mail.
 keywords: Implementazione di Analytics
-seo-description: Le aziende utilizzano Analytics per determinare il successo di una campagna e-mail.
+seo-description: Le società utilizzano Analytics per determinare il successo di una campagna e-mail.
 seo-title: Tracciamento e-mail esterno
 solution: Analytics
 title: Tracciamento e-mail esterno
 topic: Sviluppatore e implementazione
-uuid: fa 450 f 45-14 cf -4 d 0 d-a 87 c -14 a 946512 a 9 b
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Tracciamento e-mail esterno
 
-Le aziende utilizzano Analytics per determinare il successo di una campagna e-mail.
+Le società utilizzano Analytics per determinare il successo di una campagna e-mail.
 
-[!DNL Analytics] possono riportare i dati di analisi delle campagne e-mail in diverse metriche chiave, inclusi i seguenti:
+[!DNL Analytics] può segnalare i dati di analisi delle campagne e-mail in diverse metriche chiave, tra cui:
 
 | Metrica | Descrizione |
 |---|---|
-| Click-through | Visualizza il numero di click-through tracciate dall'e-mail alla pagina di destinazione. |
-| Acquisti e/o successi | Visualizza il numero di acquisti risultanti dall'e-mail. |
-| Ordini | Visualizza il numero di ordini inseriti a seguito dell'e-mail. |
-| Risultato | Visualizza l'importo in dollari per visita generato dall'e-mail. |
-| Conversione   | Visualizza il numero di lead, registrazioni o qualsiasi altro evento di successo generato dall'e-mail. |
+| Clickthrough | Visualizza il numero di clic tracciati dall’e-mail alla pagina di destinazione. |
+| Acquisti e/o successi | Visualizza il numero di acquisti risultanti dall’e-mail. |
+| Ordini | Visualizza il numero di ordini inseriti come risultato dell'e-mail. |
+| Rendimento | Visualizza l’importo in dollari per visita generato dall’e-mail. |
+| Conversione | Visualizza il numero di lead, registrazioni o qualsiasi altro evento di successo generato dall’e-mail. |
 
-Le modifiche al corpo e alla libreria javascript HTML sono necessarie per acquisire le metriche chiave mostrate sopra.
+Per acquisire le metriche chiave indicate sopra, sono necessarie modifiche al corpo e-mail HTML e alla libreria JavaScript.
 
 ## Implementazione {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
-Esistono diversi passaggi da seguire per visualizzare correttamente i dati di analisi delle campagne e-mail. I passaggi sono descritti di seguito:
+Per visualizzare correttamente i dati di analisi delle campagne e-mail, è necessario seguire diversi passaggi. I passaggi descritti di seguito:
 
 1. Crea codici di tracciamento univoci.
 
-   Spesso, gli utenti chiedono di tenere traccia delle raccomandazioni per ogni campagna univoca. Questa funzione è completa, in base al maggior successo. Ogni utente è diverso. Adobe consiglia a ciascun utente di generare codici di tracciamento semplici, come illustrato nell'esempio seguente:
+   Spesso gli utenti chiedono di tenere traccia delle raccomandazioni per ogni campagna univoca. Questo dipende interamente da loro, in base a ciò che funziona meglio. Ogni utente è diverso. Adobe consiglia a ogni utente di generare codici di tracciamento descrittivi, come illustrato nell'esempio seguente:
 
-   * sc_ cid = A 1123 A 321 &gt; "A" flags affiliate campaign
-   * sc_ cid = EM 033007 &gt; "EM" flag email campaign
-   * sc_ cid = GG 987123 &gt; "GG" indica Google ed è una campagna di ricerca pagata
-   Contact Adobe [!DNL Customer Care] for details on setting up and using tracking codes.
+   * sc_cid=A1123A321 &gt; Campagna di affiliazione con flag "A"
+   * sc_cid=EM033007 &gt; Campagna e-mail con flag "EM"
+   * sc_cid=GG987123 &gt; "GG" significa Google ed è una campagna di ricerca a pagamento
+   Contatta Adobe [!DNL Customer Care] per informazioni su come impostare e utilizzare i codici di monitoraggio.
 
-1. Aggiungete parametri stringa di query ai collegamenti e-mail HTML.
+1. Aggiungete i parametri delle stringhe di query ai collegamenti e-mail HTML.
 
-   Per tenere traccia di un click-through utente e di successivi eventi di successo, è necessario aggiungere un parametro stringa query a ogni collegamento nel messaggio e-mail HTML. Puoi scegliere di tenere traccia separatamente di ciascun collegamento o di tenere traccia di tutti i collegamenti. Ogni collegamento può avere un codice di tracciamento univoco, oppure tutti i collegamenti possono avere lo stesso codice di tracciamento. Considerate il seguente collegamento ipotetico all'interno dell'e-mail a un sito Web:
+   Per tenere traccia di un click-through utente e degli eventi di successo successivi, è necessario aggiungere un parametro della stringa di query a ogni collegamento contenuto nel messaggio e-mail HTML. Potete scegliere di tracciare ciascun collegamento separatamente o di tracciare tutti i collegamenti insieme. Ogni collegamento può avere un codice di tracciamento univoco, oppure tutti i collegamenti possono avere lo stesso codice di tracciamento. Considerate il seguente ipotetico collegamento contenuto nell’e-mail a un sito Web:
 
    ```js
    <a href="https://www.mycompany.com/index.asp">Visit our home page</a>
    ```
 
-   I seguenti parametri di stringa query? sc_ cid = 112233 B deve essere aggiunto al collegamento precedente:
+   Al collegamento sopra vanno aggiunti i seguenti parametri della stringa di query ?sc_cid=112233B:
 
    ```js
    <a href= "https://www.mycompany.com/index.asp?sc_cid=112233B">Visit our home page</a>
    ```
 
-1. Aggiornare la libreria javascript.
+1. Aggiornare la libreria JavaScript.
 
-   Altering code in the JavaScript file, [!DNL s_code.js], lets you capture how many users (and which users) clicked-through from the email and participated in subsequent success events. Esistono due passaggi per aggiornare la libreria javascript.
+   Modificando il codice nel file JavaScript [!DNL s_code.js], potete acquisire quanti utenti (e quali utenti) hanno fatto clic nel messaggio e-mail e hanno partecipato a eventi di successo successivi. Esistono due passaggi per aggiornare la libreria JavaScript.
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. Personalizza [!DNL s_code.js] chiamando [!UICONTROL getQueryParam].
 
-      [!DNL s_code.js] Il file deve trovarsi in una posizione sul server Web in cui può accedervi ogni pagina Web. The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. Ad esempio:
+      Il [!DNL s_code.js] file deve essere posizionato in una posizione sul server Web in cui ogni pagina Web può accedervi. La *`doPlugins`* funzione all'interno del file deve essere modificata in modo da acquisire i parametri della stringa di query sui collegamenti e-mail. Ad esempio:
 
       ```js
       /* Plugin Config */ 
@@ -75,33 +75,33 @@ Esistono diversi passaggi da seguire per visualizzare correttamente i dati di an
       s.doPlugins=s_doPlugins 
       ```
 
-      Each query string parameter that needs to be copied into a variable should have one [!UICONTROL getQueryParam] call. In the example above, the query string parameter [!UICONTROL sc_cid] is copied into *`campaign`*.
+      Ogni parametro della stringa di query che deve essere copiato in una variabile deve avere una [!UICONTROL getQueryParam] chiamata. Nell'esempio precedente, il parametro della stringa di query [!UICONTROL sc_cid] viene copiato in *`campaign`*.
 
-      Only the first call to [!UICONTROL getQueryParam] is required to capture click-throughs. Contact Adobe [!DNL Customer Care] to implement this function and ensure that your version of the JavaScript file contains the [!UICONTROL getQueryParam] plug-in.
+      Per acquisire i click-through [!UICONTROL getQueryParam] è necessaria solo la prima chiamata a. Contattate Adobe [!DNL Customer Care] per implementare questa funzione e assicuratevi che la versione del file JavaScript contenga il [!UICONTROL getQueryParam] plug-in.
 
-   1. Assicurati che i tag Codice da incollare siano su tutte le pagine di destinazione. This Code to Paste must reference the version of [!DNL s_code.js] altered in Part A.
+   1. Assicurarsi che i tag da Codice a Incolla JavaScript siano presenti su tutte le pagine di destinazione. Il codice da incollare deve fare riferimento alla versione [!DNL s_code.js] modificata nella parte A.
 
-      I punti seguenti sono importanti per ricordare quando si aggiorna la libreria javascript. Questi punti sono elencati di seguito.
+      Durante l'aggiornamento della libreria JavaScript è importante tenere presenti i punti seguenti. Tali punti sono elencati di seguito.
 
-      * The query string parameter [!UICONTROL sc_cid] must be visible in the URL on the final landing page otherwise no click-through conversion is recorded.
-      * The [!UICONTROL sc_cid] parameter is an example of a query string parameter. Any query string parameter can be used and captured by the [!UICONTROL getQueryParam] plug-in. Verificate che i parametri della stringa query siano utilizzati solo per il tracciamento della campagna. Any time the parameters appear in a query string, their values are copied into *`campaign`*.
+      * Il parametro della stringa di query [!UICONTROL sc_cid] deve essere visibile nell’URL della pagina di destinazione finale, altrimenti non viene registrata alcuna conversione click-through.
+      * Il [!UICONTROL sc_cid] parametro è un esempio di parametro di una stringa di query. Qualsiasi parametro di stringa di query può essere utilizzato e acquisito dal [!UICONTROL getQueryParam] plug-in. Accertatevi che i parametri della stringa di query siano utilizzati solo per il tracciamento della campagna. Ogni volta che i parametri vengono visualizzati in una stringa di query, i relativi valori vengono copiati in *`campaign`*.
 
-1. Use [!UICONTROL SAINT] to classify campaign tracking codes.
+1. Utilizzate [!UICONTROL SAINT] per classificare i codici di tracciamento campagna.
 
-   The [!UICONTROL SAINT Campaign Management Tool] can be used to convert tracking codes into user-friendly names. Può essere utilizzato anche per riepilogare il successo di ogni campagna e-mail. Il passaggio 5, sotto, evidenzia il processo necessario per configurare una campagna e-mail.
+   I codici [!UICONTROL SAINT Campaign Management Tool] possono essere utilizzati per convertire i codici di tracciamento in nomi semplici. Può essere utilizzato anche per riepilogare il successo di ogni campagna e-mail. Il passaggio 5, di seguito, illustra il processo necessario per impostare una campagna e-mail.
 
-1. Consultate percorsi per campagna e-mail (facoltativo).
+1. Consultate il percorso per campagna e-mail (facoltativo).
 
-   L'analisi dei percorsi per campagna e-mail può essere eseguita in modo simile ai percorsi da un'altra campagna. Potete utilizzare una variabile per mostrare percorsi per campagna, come descritto nei passaggi seguenti:
+   L’analisi dei percorsi per campagna e-mail può essere eseguita in modo simile al percorso di un’altra campagna. Potete utilizzare una variabile per visualizzare il percorso per campagna, come illustrato nei passaggi seguenti:
 
-   1. Consult Adobe [!DNL Customer Care] about turning on pathing for a [!UICONTROL Custom Insight] variable (prop)
+   1. Consultate Adobe [!DNL Customer Care] sull’attivazione del percorso per una [!UICONTROL Custom Insight] variabile (prop)
 
-   1. On all pages, copy the page name into the designated [!DNL s.prop].
-   1. Nella pagina di destinazione e-mail, aggiungete il nome della campagna e-mail al prop. Il risultato viene visualizzato come mostrato di seguito:
+   1. Su tutte le pagine, copiate il nome della pagina nella pagina designata [!DNL s.prop].
+   1. Nella pagina di destinazione e-mail, aggiungete il nome della campagna e-mail al prop. Il risultato viene visualizzato come illustrato di seguito:
 
       ```js
       s.prop1="Home Page : 123456"
       ```
 
-      When pathing is enabled for the [!UICONTROL Custom Insight] variable, you can use [!UICONTROL Path] reports (such as [!UICONTROL Next Page Flow] or [!UICONTROL Fallout]) to see visitor navigation from the landing page.
+      Quando il percorso è abilitato per la [!UICONTROL Custom Insight] variabile, puoi utilizzare [!UICONTROL Path] rapporti (come [!UICONTROL Next Page Flow] o [!UICONTROL Fallout]) per visualizzare la navigazione dei visitatori dalla pagina di destinazione.
 
