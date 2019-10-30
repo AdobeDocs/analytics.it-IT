@@ -4,7 +4,7 @@ seo-title: Rimozione dei bot in Adobe Analytics
 description: 3 modi per rimuovere bot in Adobe Analytics
 seo-description: 3 modi per rimuovere bot in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ Inoltre, dal momento che i bot si stanno trasformando rapidamente, Adobe offre d
 
 ### Passaggio 1: Passa l’Experience Cloud ID dei visitatori in un nuovo ID dichiarato
 
-Per iniziare, create un nuovo ID dichiarato nel servizio [core](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)Persone. Dovrai trasmettere l’Experience Cloud ID del visitatore a questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Usiamo il nome "ECID" per l’ID dichiarato.
+Per iniziare, devi creare un nuovo ID dichiarato nel servizio [core](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)Persone. Dovrai trasmettere l’Experience Cloud ID del visitatore a questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Usiamo il nome "ECID" per l’ID dichiarato.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -42,11 +42,11 @@ Questo è il modo in cui questo ID può essere acquisito tramite Data Element. A
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Una volta configurato questo elemento dati, segui [queste istruzioni](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) per passare gli ID dichiarati allo strumento ECID in Launch.
+Una volta configurato questo elemento dati, segui [queste istruzioni](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) per passare gli ID dichiarati nello strumento ECID in Launch.
 
 ### Passaggio 2: Utilizzare la segmentazione per identificare i bot
 
-Ora che l’ECID del visitatore viene passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) per identificare i visitatori che si comportano come bot. I robot sono spesso definiti dal loro comportamento: visite di accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivo/browser, nessun referente, nuovi visitatori, pagine di destinazione insolite, ecc. Utilizzate le funzionalità di drill-down e segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Ad esempio, di seguito è riportata una schermata di un segmento utilizzabile:
+Ora che l’ECID del visitatore viene passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) per identificare i visitatori che si comportano come bot. I robot sono spesso definiti dal loro comportamento: visite di accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivo/browser, nessun referente, nuovi visitatori, pagine di destinazione insolite, ecc. Utilizzate le funzionalità di drill-down e segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Esempio:
 
 ![](assets/bot-filter-seg1.png)
 
@@ -60,7 +60,7 @@ Ricorda di usare l’ID visitatore di Experience Cloud come dimensione e di appl
 
 ### Passaggio 4: Restituisci questo elenco ad Adobe come attributo del cliente
 
-Una volta ricevuto il rapporto Data Warehouse, avrai un elenco di ECID che devono essere filtrati dai dati storici. Copiate e incollate questi ECID in un file .CSV vuoto contenente solo due colonne, ECID e Bot Flag.
+Quando arriva il report Data Warehouse, avrai un elenco di ECID che devono essere filtrati dai dati storici. Copiate e incollate questi ECID in un file .CSV vuoto contenente solo due colonne, ECID e Bot Flag.
 
 * **ECID**: Assicurati che l’intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra.
 * **Flag** bot: Aggiungete questa dimensione come schema attributo cliente.
