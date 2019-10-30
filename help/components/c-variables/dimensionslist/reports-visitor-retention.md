@@ -1,24 +1,24 @@
 ---
-description: Visualizza informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito. I report in questa categoria mostrano informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito.
-seo-description: Visualizza informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito. I report in questa categoria mostrano informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito.
+description: Visualizza informazioni sulla fidelizzazione dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza. I report in questa categoria visualizzano informazioni sulla fedeltà dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza.
+seo-description: Visualizza informazioni sulla fidelizzazione dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza. I report in questa categoria visualizzano informazioni sulla fedeltà dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza.
 seo-title: Conservazione dei visitatori
 solution: Analytics
 title: Conservazione dei visitatori
 topic: Rapporti
-uuid: e 2 d 477 d 0-f 704-489 b-b 4 b 3-941 bc 352 cd 7 a
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Conservazione dei visitatori
 
-Visualizza informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito. I report in questa categoria mostrano informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito.
+Visualizza informazioni sulla fidelizzazione dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza. I report in questa categoria visualizzano informazioni sulla fedeltà dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza.
 
 ## Conservazione dei visitatori {#topic_8033EAF4438D44A29D5DDE2A7F0D2D2E}
 
-Visualizza informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito. I report in questa categoria mostrano informazioni sulla fidelizzazione dei clienti. Puoi vedere quante volte i visitatori tornano al tuo sito.
+Visualizza informazioni sulla fidelizzazione dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza. I report in questa categoria visualizzano informazioni sulla fedeltà dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza.
 
 <table id="table_486948EB47664B90BDF9915314B572B0"> 
  <thead> 
@@ -30,51 +30,51 @@ Visualizza informazioni sulla fidelizzazione dei clienti. Puoi vedere quante vol
  <tbody> 
   <tr> 
    <td colname="col1"> Restituisci frequenza </td> 
-   <td colname="col2"> <p>Mostra il numero di visitatori che hanno restituito al sito una delle seguenti categorie (che rappresentano il tempo trascorso tra le visite): meno di 1 giorno, 1-3 giorni, 3-7 giorni, 8-14 giorni, 14 giorni a 1 mesi e più di 1 mesi. </p> </td> 
+   <td colname="col2"> <p>Mostra il numero di visitatori che sono tornati al sito all’interno di una delle seguenti categorie (che rappresenta il lasso di tempo tra le visite): meno di 1 giorno, 1-3 giorni, 3-7 giorni, 8-14 giorni, 14 giorni a 1 mese e più di 1 mese. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite di ritorno </td> 
-   <td colname="col2"> <p>Mostra quanti individui hanno visitato più di una volta dopo che Analytics ha iniziato a tracciare il sito. </p> </td> 
+   <td colname="col2"> <p>Mostra quanti utenti hanno visitato più di una volta dopo che Analytics ha iniziato a monitorare il sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite giornaliere di ritorno </td> 
-   <td colname="col2"> <p>Mostra il numero di visitatori che hanno visitato il sito più volte in un dato giorno. Un giorno è definito come ultimo periodo di 24 ore. </p> </td> 
+   <td colname="col2"> <p>Visualizza il numero di visitatori che hanno visitato il sito più di una volta in un dato giorno. Un giorno è definito come l’ultimo periodo di 24 ore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Numero visita </td> 
-   <td colname="col2"> <p>Visualizza il numero di visite per ogni visitatore che accede al tuo sito. </p> </td> 
+   <td colname="col2"> <p>Visualizza il numero della visita per ogni visitatore che accede al sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Fedeltà cliente </td> 
-   <td colname="col2"> <p>Visualizza i pattern di acquisto dei clienti entro tre categorie di fedeltà (nuova, restituzione e fedeltà). The <span class="wintitle"> Customer Loyalty</span> report shows how much new, returning, and loyal customers contribute to the standard success metrics. </p> </td> 
+   <td colname="col2"> <p>Visualizza i modelli di acquisto dei clienti all'interno di tre categorie di fedeltà (nuova, restituzione e fedeltà). Il rapporto <span class="wintitle"> Fedeltà</span> cliente mostra il contributo di clienti nuovi, fedeli e di ritorno alle metriche di successo standard. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Giorni prima del primo acquisto </td> 
-   <td colname="col2"> <p>Mostra il numero di giorni passati tra la prima visita del cliente e il momento in cui effettuano un acquisto. </p> </td> 
+   <td colname="col1"> Giorni precedenti al primo acquisto </td> 
+   <td colname="col2"> <p>Visualizza il numero di giorni trascorsi tra la prima visita dei clienti sul sito e la data in cui effettuano un acquisto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Giorni dall'ultimo acquisto </td> 
-   <td colname="col2"> <p>Visualizza il numero più comune di giorni passati tra gli acquisti ripetuti dei clienti e consente di visualizzare i periodi di tempo che hanno contribuito maggiormente alle metriche chiave di successo del sito, come Entrate e Ordini. </p> </td> 
+   <td colname="col2"> <p>Visualizza il numero più comune di giorni trascorsi tra acquisti ripetuti dei clienti e consente di visualizzare i periodi di tempo che hanno contribuito maggiormente alle metriche di successo chiave del sito, come Entrate e Ordini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliente univoco giornaliero </td> 
-   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un giorno. Un cliente univoco giornaliero è uno che effettua un acquisto dal sito per la prima volta entro un giorno (dalle 12:01 alle 12:00). </p> <p>While one person may make a purchase from your site multiple times during a day, the <span class="wintitle"> Daily Unique Customers</span> report records that person as one unique visitor, so you can tell how many individual people purchase from your site during the day. </p> </td> 
+   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un giorno. Un cliente unico al giorno è uno che effettua un acquisto dal sito per la prima volta entro un giorno (dalle 12:01 alle 12:00). </p> <p>Anche se una persona può effettuare un acquisto dal sito più volte durante un giorno, il report <span class="wintitle"> Clienti</span> unici giornalieri registra tale persona come un visitatore unico, in modo da sapere quante persone singole acquistano dal sito durante il giorno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliente univoco settimanale </td> 
-   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante una settimana. Un cliente univoco settimanale è definito come persona che effettua un acquisto dal sito per la prima volta entro una settimana. </p> <p>While one person may make a purchase from your site multiple times during a week, the <span class="wintitle"> Weekly Unique Customers</span> report records that person as one unique visitor, so you can tell how many individual people purchase from your site during the week. </p> </td> 
+   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante una settimana. Per cliente univoco settimanale si intende la persona che effettua un acquisto dal sito per la prima volta entro una settimana. </p> <p>Anche se una persona può effettuare un acquisto dal sito più volte durante una settimana, il rapporto Clienti <span class="wintitle"></span> settimanali univoci registra tale persona come un visitatore unico, in modo da sapere quante singole persone acquistano dal sito durante la settimana. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clienti univoci mensili </td> 
-   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un mese. Un cliente univoco mensile è una persona che effettua un acquisto dal sito per la prima volta entro un mese. </p> <p>While one person may make a purchase from your site multiple times during a month, the <span class="wintitle"> Monthly Unique Customers</span> report records that person as one unique visitor, so you can tell how many individual people purchase from your site during the month. </p> </td> 
+   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un mese. Un cliente unico mensile è una persona che effettua un acquisto dal sito per la prima volta entro un mese. </p> <p>Anche se una persona può effettuare un acquisto dal sito più volte nel corso di un mese, il rapporto <span class="wintitle"> Clienti</span> unici mensili registra tale persona come un visitatore unico, in modo da sapere quante persone singole acquistano dal sito durante il mese. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Clienti unici trimestrali </td> 
-   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un trimestre. Un cliente univoco trimestrale è una persona che effettua un acquisto dal sito per la prima volta entro un trimestre. </p> <p>While one person may make a purchase from your site multiple times during a quarter, the <span class="wintitle"> Quarterly Unique Customers</span> report records that person as one unique visitor, so you can tell how many individual people purchase from to your site during the quarter. </p> </td> 
+   <td colname="col1"> Clienti univoci trimestrali </td> 
+   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un trimestre. Un cliente univoco trimestrale è una persona che effettua un acquisto dal sito per la prima volta entro un trimestre. </p> <p>Mentre una persona può effettuare un acquisto dal sito più volte nel corso di un trimestre, il rapporto <span class="wintitle"> Clienti</span> trimestrali univoci registra tale persona come un visitatore unico, in modo da sapere quante singole persone acquistano dal sito durante il trimestre. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Clienti annuali univoci </td> 
-   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un anno. Un cliente annuale è una persona che effettua un acquisto dal sito per la prima volta entro un anno. </p> <p>While one person may make a purchase from your site multiple times during a year, the <span class="wintitle"> Yearly Unique Customers</span> report records that person as one unique visitor, so you can tell how many individual people purchase from to your site during the year. </p> </td> 
+   <td colname="col1"> Clienti univoci annuali </td> 
+   <td colname="col2"> <p>Identifica il numero di persone diverse che effettuano acquisti dal sito durante un anno. Un cliente univoco annuo è una persona che effettua un acquisto dal sito per la prima volta entro un anno. </p> <p>Anche se una persona può effettuare un acquisto dal sito più volte nel corso di un anno, il rapporto <span class="wintitle"> Annuale Clienti</span> univoci registra tale persona come un visitatore unico, in modo da poter indicare quante singole persone acquistano dal sito durante l'anno. </p> </td> 
   </tr> 
  </tbody> 
 </table>
