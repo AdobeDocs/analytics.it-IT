@@ -7,7 +7,7 @@ title: Marca temporale opzionale
 topic: Strumenti di amministrazione
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ Consultate [Utilizzo delle marche temporali facoltative](/help/implement/js-impl
 >
 >Se utilizzate Marca temporale opzionale, non impostate [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) su dati già con marca temporale. Questo può causare dati fuori ordine e influire negativamente sui calcoli del tempo (come i valori del tempo trascorso), l'attribuzione (persistenza eVar), i conteggi di numero di visita/visita e i rapporti di percorso.
 
->[!NOTE]
->
->I dati delle sessioni con marca temporale abilitata vengono conservati fino a 92 giorni. Ciò significa che una visita/sessione sarà "aperta" per 92 giorni, mentre qualsiasi hit aggiuntivo, che non sia 30 minuti dopo l’hit precedente (in fase di hit), può ancora essere incluso nella stessa visita/sessione. Eventuali hit "vecchi" ricevuti in base all’ordine produrranno risultati "sconosciuti", in quanto diversi fattori (segmentazione, allocazione, scadenza, ecc.) influenza se questi hit verranno inclusi o meno nel reporting.
+> [!NOTE] I dati delle sessioni con marca temporale abilitata vengono conservati fino a 92 giorni. Ciò significa che una visita/sessione sarà "aperta" per 92 giorni, mentre qualsiasi hit aggiuntivo, che non sia 30 minuti dopo l’hit precedente (in fase di hit), può ancora essere incluso nella stessa visita/sessione. Eventuali hit "vecchi" ricevuti in base all’ordine produrranno risultati "sconosciuti", in quanto diversi fattori (segmentazione, allocazione, scadenza, ecc.) influenza se questi hit verranno inclusi o meno nel reporting.
 
 ## Nuove suite di rapporti {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -50,7 +48,5 @@ Consultate [Utilizzo delle marche temporali facoltative](/help/implement/js-impl
 
    In questo modo la suite di rapporti verrà modificata in Marca temporale opzionale.
 
->[!NOTE]
->
->Se una suite di rapporti è stata impostata su **Marca temporale opzionale**, per cambiare questa impostazione in qualsiasi altra, contatta l'Assistenza clienti Adobe.
+> [!NOTE] Se una suite di rapporti è stata impostata su **Marca temporale opzionale**, per cambiare questa impostazione in qualsiasi altra, contatta l'Assistenza clienti Adobe.
 
