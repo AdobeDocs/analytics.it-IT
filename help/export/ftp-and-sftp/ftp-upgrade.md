@@ -1,18 +1,18 @@
 ---
 description: Gli aggiornamenti dei server Adobe FTP possono introdurre nuove configurazioni che vanno a interessare gli script di automazione (utilizzati di frequente per caricare o scaricare dati con regolarità), spesso creati per basarsi su particolari impostazioni del server.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Gli aggiornamenti dei server Adobe FTP possono introdurre nuove configurazioni che vanno a interessare gli script di automazione (utilizzati di frequente per caricare o scaricare dati con regolarità), spesso creati per basarsi su particolari impostazioni del server.
-seo-title: Aggiornare i server Adobe FTP
+seo-title: Aggiornamento dei server Adobe FTP
 solution: Analytics
-title: Aggiornare i server Adobe FTP
-uuid: cc 9 e 5 e 13-e 213-480 f -9 ff 6-3 dbec 24 Baeee
+title: Aggiornamento dei server Adobe FTP
+uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Aggiornare i server Adobe FTP
+# Aggiornamento dei server Adobe FTP
 
 Gli aggiornamenti dei server Adobe FTP possono introdurre nuove configurazioni che vanno a interessare gli script di automazione (utilizzati di frequente per caricare o scaricare dati con regolarità), spesso creati per basarsi su particolari impostazioni del server.
 
