@@ -8,7 +8,7 @@ title: Dashboard e minirapporti
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ Tenete presente che alcuni rapporti visualizzati di frequente non possono essere
 * Rapporti in tempo reale
 * Altre dashboard
 
->[!NOTE]
->
->Il **[!UICONTROL Site Overview]** dashboard non è più elencato in Reporting e analisi. Tuttavia, ci sono ancora un paio di circostanze in cui vedrete alcuni o tutti i relativi minirapporti.
+> [!NOTE] Il **[!UICONTROL Site Overview]** dashboard non è più elencato in Reporting e analisi. Tuttavia, ci sono ancora un paio di circostanze in cui vedrete alcuni o tutti i relativi minirapporti.
 
 * Se avete, ad esempio, solo tre report visualizzati di frequente, Reporting e analisi prenderà due rapporti dalla dashboard Panoramica sito per completare la **[!UICONTROL My Recommended Reports]** dashboard.
 * Anche le nuove suite di rapporti saranno inizialmente dotate dei minirapporti Panoramica del sito, fino a quando non verranno sostituite dai rapporti visualizzati di frequente. Anche in questo caso, ora verrà chiamato il dashboard **[!UICONTROL My Recommended Reports]**.
