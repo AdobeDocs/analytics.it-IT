@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Origini dati
 title: Origini dati Manager
 topic: Sviluppatore e implementazione
-uuid: ccfa 4 a 1 c -7 c 56-421 b -8 ee 6-a 42 b 334659 b 1
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,7 +41,7 @@ La selezione eseguita nella scheda Crea determina i campi iniziali nel modello c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Complete Processing (Completa elaborazione) </p> </td> 
-   <td colname="col2"> <p>Indica a Origini dati di chiudere qualsiasi visita aperta nel file e di terminare l'elaborazione del file Origini dati come se fosse stata completata. Questa opzione è utile in presenza di visite che si estendono in più file Origini dati. This applies only to <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Full Processing</a>. </p> </td> 
+   <td colname="col2"> <p>Indica a Origini dati di chiudere qualsiasi visita aperta nel file e di terminare l'elaborazione del file Origini dati come se fosse stata completata. Questa opzione è utile in presenza di visite che si estendono in più file Origini dati. Questo vale solo per l'elaborazione <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"></a>completa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Disattiva </p> </td> 
@@ -67,7 +67,7 @@ La selezione eseguita nella scheda Crea determina i campi iniziali nel modello c
    <td colname="col1"> <p>Stato </p> </td> 
    <td colname="col2"> <p> Lo stato corrente del file. I valori di stato possibili includono quanto segue: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">In coda (fase 1 di 3): il file esiste, ma l'elaborazione non è iniziata. Se il file non viene visualizzato entra 30 minuti, controllare che sia presente il file associato <span class="filepath">.fin</span>. </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">In coda (fase 1 di 3): il file esiste, ma l'elaborazione non è iniziata. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Preparazione (fase 2 di 3): il file è in fase di controllo per verificare la presenza di errori o avvisi. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Elaborazione (fase 3 di 3): il file è in fase di elaborazione. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Non riuscito: il file non è stato elaborato a causa di errori </li> 
