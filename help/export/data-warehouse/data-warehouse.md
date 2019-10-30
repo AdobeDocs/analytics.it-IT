@@ -7,7 +7,7 @@ title: Panoramica di Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Data Warehouse comprime automaticamente qualsiasi file con dimensioni superiori 
 
 Data Warehouse può elaborare un numero illimitato di righe in un'unica richiesta per singoli rapporti pianificati e scaricati.
 
->[!NOTE]
->
->Data Warehouse segnala il primo valore rilevato nel periodo di reporting.
+> [!NOTE] Data Warehouse segnala il primo valore rilevato nel periodo di reporting.
 
 >[!IMPORTANT]
 >
