@@ -1,23 +1,23 @@
 ---
-description: La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché per quantità di acquisto e prezzo di acquisto).
-keywords: Implementazione di Analytics; products, variabile; visualizzazione prodotto; Evento success
-seo-description: La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché per quantità di acquisto e prezzo di acquisto).
+description: La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché della quantità di acquisto e del prezzo di acquisto).
+keywords: Implementazione di Analytics;variabile di prodotti;visualizzazione di prodotto;evento di successo
+seo-description: La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché della quantità di acquisto e del prezzo di acquisto).
 seo-title: Pagina dettagliata di visualizzazione del prodotto
 solution: Analytics
 title: Pagina dettagliata di visualizzazione del prodotto
 topic: Sviluppatore e implementazione
-uuid: 464 c 9 daf-b 042-4 fb 8-8 ca 6-e 104 c 0 bcef 45
+uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 656fb909447ed079fa42a909a9c197296c9e2723
 
 ---
 
 
 # Pagina dettagliata di visualizzazione del prodotto
 
-La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché per quantità di acquisto e prezzo di acquisto).
+La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché della quantità di acquisto e del prezzo di acquisto).
 
-A success event should always be set in conjunction with the *`products`* variable.
+Un evento success deve sempre essere impostato insieme alla *`products`* variabile.
 
 ```js
 s.events="prodView"
@@ -25,7 +25,7 @@ s.events="prodView"
 
 >[!NOTE]
 >
->While *`prodView`* is treated in implementation like an event, it does not have the same flexibility in the interface. The *`prodView`*event is an instance of the product and is only available in the *`products`* report. Adobe recommends you use a *`custom`* event in addition to the *`prodView`* event. In questo modo, puoi vedere le metriche di visualizzazione del prodotto, oltre ad altre metriche negli altri rapporti sulla conversione.
+>Sebbene *`prodView`* sia trattato nell'implementazione come un evento, non ha la stessa flessibilità nell'interfaccia. L'evento *`prodView`*è un'istanza del prodotto ed è disponibile solo nel *`products`* rapporto. Adobe consiglia di utilizzare un *`custom`* evento oltre all' *`prodView`* evento. In questo modo, puoi visualizzare le metriche della visualizzazione prodotto insieme ad altre metriche in altri rapporti di conversione.
 
 ```js
 s.products=";diamond earrings (54321)"
@@ -33,23 +33,23 @@ s.products=";diamond earrings (54321)"
 
 >[!NOTE]
 >
->La sintassi della stringa products deve iniziare con un punto e virgola. Questo è un requisito di sintassi legacy. In precedenza era utilizzata per delimitare la categoria e il prodotto, ma ciò crea una limitazione all'interno dell'interfaccia, utile per cambiare la modalità di classificazione dei prodotti. Per la massima flessibilità nei rapporti, è consigliabile lasciare vuoto questo vuoto e utilizzare Classificazioni per impostare le categorie.
+>La sintassi della stringa products deve iniziare con un punto e virgola. Si tratta di un requisito di sintassi legacy. È stato utilizzato in precedenza per delimitare la categoria e il prodotto, ma questo crea una limitazione all'interno dell'interfaccia se si desidera modificare il modo in cui si classificano i prodotti. Per la massima flessibilità nei rapporti, è meglio lasciare vuoto questo campo e utilizzare Classificazioni per impostare le categorie.
 
-## Shopping Cart Page ( scOpen , scAdd , scRemove ) {#section_469B64F4150149DFB6B2C731279C0BC7}
+## Pagina carrello acquisti ( scOpen , scAdd , scRemove ) {#section_469B64F4150149DFB6B2C731279C0BC7}
 
 ```js
 s.events="scOpen,scAdd" 
 s.products=";SKU" 
 ```
 
-## First Checkout Page {#section_E15607A9AECB44F79631926C853CF64E}
+## Prima pagina di estrazione {#section_E15607A9AECB44F79631926C853CF64E}
 
 ```js
 s.events="scCheckout" 
-s.products=”;SKU" 
+s.products=";SKU" 
 ```
 
-## Confirmation Page {#section_E006943CD5FD42358086581CA44B9660}
+## Pagina di conferma {#section_E006943CD5FD42358086581CA44B9660}
 
 ```js
 s.events="purchase" 
@@ -58,6 +58,6 @@ s.products=";SKU"
 
 >[!NOTE]
 >
->While using the SKU in the product string may make the *`products`* report less readable, it provides the maximum flexibility later when you want to classify your products. Potete creare categorie dall'SKU che indicano terminazione, produttore, categoria e sottocategoria.
+>Anche se l'utilizzo dello SKU nella stringa di prodotto potrebbe rendere il *`products`* rapporto meno leggibile, in seguito verrà offerta la flessibilità massima per la classificazione dei prodotti. Potete creare categorie dallo SKU che indicano finitura, produttore, categoria e sottocategoria.
 
-When the *`products`* variable is set in conjunction with the *`purchase`* event, the purchase quantity and total purchase price are included in the products value as shown above.
+Quando la *`products`* variabile viene impostata insieme all' *`purchase`* evento, la quantità di acquisto e il prezzo di acquisto totale sono inclusi nel valore dei prodotti come mostrato sopra.
