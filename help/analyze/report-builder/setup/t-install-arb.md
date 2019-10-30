@@ -1,32 +1,32 @@
 ---
-description: Procedura che descrive come installare Generatore di report.
-seo-description: Procedura che descrive come installare Generatore di report.
-seo-title: Installare Generatore di report
+description: Passaggi che descrivono come installare Generatore di report.
+seo-description: Passaggi che descrivono come installare Generatore di report.
+seo-title: Installare Report Builder
 solution: Analytics
-title: Installare Generatore di report
+title: Installare Report Builder
 topic: Generatore di report
-uuid: 5 cad 3265-83 b 6-4 e 42-a 8 b 4-cc 56 e 050 d 41 e
+uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Installare Generatore di report
+# Installare Report Builder
 
-Procedura che descrive come installare Generatore di report.
+Passaggi che descrivono come installare Generatore di report.
 
 >[!IMPORTANT]
 >
->Aggiorna l'installazione di Generatore di report all'ultima versione. Questo aggiornamento è un prerequisito per la migrazione degli ID utente di Analytics ad Admin Console, che inizierà ad aprile 2018.
+>Aggiorna l’installazione di Report builder alla versione più recente. Questo aggiornamento è un prerequisito per la migrazione degli ID utente di Analytics ad Admin Console, che inizierà ad aprile 2018.
 >
 >Per informazioni sulla migrazione, consulta [Migrazione degli utenti Analytics ad Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/).
 
-1. Click **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Report Builder]**.
-1. Click **[!UICONTROL Download Now]** to download the 32-bit or 64-bit version (depending on the MS Excel version installed) .
+1. Clic **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Report Builder]**.
+1. Fate clic **[!UICONTROL Download Now]** per scaricare la versione a 32 bit o a 64 bit (a seconda della versione di MS Excel installata).
 1. Apri il pacchetto d’installazione scaricato.
 1. Segui la procedura guidata di installazione.
-1. Open/Restart MS Excel to get the [!UICONTROL Add-Ins] menu to show up.
-1. Go to **[!UICONTROL Add-Ins]** &gt; **[!UICONTROL Sign In]**.
+1. Aprire/riavviare MS Excel per visualizzare il [!UICONTROL Add-Ins] menu.
+1. Vai a **[!UICONTROL Add-Ins]** &gt; **[!UICONTROL Sign In]**.
 
-   Follow the instructions in [Report Builder Sign-In](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
+   Seguite le istruzioni in Accesso al Generatore di [report](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
