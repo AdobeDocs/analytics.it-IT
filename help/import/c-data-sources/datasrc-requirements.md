@@ -3,12 +3,12 @@ description: Informazioni sui requisiti per la suite di rapporti prima dell'uso 
 seo-description: Informazioni sui requisiti per la suite di rapporti prima dell'uso di Origini dati.
 seo-title: Requisiti e limiti di caricamento
 solution: Analytics
-subtopic: ' Origini dati'
+subtopic: Origini dati
 title: Requisiti e limiti di caricamento
 topic: Sviluppatore e implementazione
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Nelle sezioni seguenti sono elencati i limiti applicabili a Origini dati e ai da
 * È possibile importare solo i dati con date correnti o passate. Non tentare di utilizzare date future nei dati di Origini dati.
 * È necessario specificare una data per tutte le righe per abilitare le funzionalità di grafici di rapporti. Se una riga non include una data, Origini dati genera un errore e rifiuta il file. Il formato di data/ora varia in base al tipo di origine di dati:
 
-   * **Origini** dati Elaborazione completa: Usate il formato data ISO 8601 di `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio, `2013-09-01T12:00:00-07:00`) o Formato ora Unix (il numero di secondi trascorsi dal 1 gennaio 1970).
+   * **Origini** dati Elaborazione completa:Usate il formato data ISO 8601 di `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio, `2013-09-01T12:00:00-07:00`) o Formato ora Unix (il numero di secondi trascorsi dal 1 gennaio 1970).
 
    * **Origini** dati standard e di integrazione: Usa il seguente formato data: `MM/DD/YYYY/HH/mm/SS` (ad esempio, `01/01/2013/06/00/00`)
 
