@@ -1,49 +1,47 @@
 ---
-description: Determina se un visitatore è un nuovo visitatore o un visitatore ripetuto e acquisisce tali informazioni in una variabile Analytics.
+description: Determina se un visitatore è un nuovo visitatore o un visitatore ripetuto e acquisisce queste informazioni in una variabile di Analytics.
 keywords: Implementazione di Analytics
-seo-description: Determina se un visitatore è un nuovo visitatore o un visitatore ripetuto e acquisisce tali informazioni in una variabile Analytics.
-seo-title: Getnewrepeat
+seo-description: Determina se un visitatore è un nuovo visitatore o un visitatore ripetuto e acquisisce queste informazioni in una variabile di Analytics.
+seo-title: getNewRepeat
 solution: Analytics
 subtopic: Plug-in
-title: Getnewrepeat
+title: getNewRepeat
 topic: Sviluppatore e implementazione
-uuid: e 3 e 9 f 362-e 0 b 1-4 a 2 b-bb 5 b -98 eddaa 0 a 7 f 4
+uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Getnewrepeat
+# getNewRepeat
 
-Determina se un visitatore è un nuovo visitatore o un visitatore ripetuto e acquisisce tali informazioni in una variabile Analytics.
+Determina se un visitatore è un nuovo visitatore o un visitatore ripetuto e acquisisce queste informazioni in una variabile di Analytics.
 
 Utilizzate questo plug-in per rispondere alle seguenti domande:
 
-* Che percentuale dei miei visitatori sono nuovi (rispetto ai visitatori ripetuti)?
-* I visitatori restituiscono una conversione più elevata rispetto ai nuovi visitatori? Cos'è il rapporto?
-* Le mie campagne di marketing causano persistenze nelle visite? Ad esempio, gli utenti che fanno clic sulle mie campagne torneranno successivamente?
+* Quale percentuale dei miei visitatori è nuova (invece di ripetere)?
+* I visitatori di ritorno generano una conversione pro capite più elevata rispetto ai nuovi visitatori? Qual è questo rapporto?
+* Le mie campagne di marketing causano persistenza tra le visite? Ad esempio, gli utenti che fanno clic sulle mie campagne torneranno più tardi?
 
->[!NOTE]
->
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
-## Plug-in Code and Implementation {#section_92E94A96A4764113B5588F1B83E3DE2C}
+## Codice plug-in e implementazione {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
-**SEZIONE CONFIG**: Nessuna modifica necessaria per questa sezione.
+**SEZIONE** CONFIGURAZIONE: Nessuna modifica richiesta per questa sezione.
 
 **Configurazione plug-in**
 
-Place the following code within the *`s_doPlugins()`* function, which is located in the area of the *`s_code.js`* file labeled *Plugin Config*. Scegliete una variabile Traffico personalizzato (s. prop) o una variabile Conversione personalizzata (s. evar) per l'acquisizione di dati di valore persistenti. Deve trattarsi di una variabile abilitata tramite Admin Console, ma non attualmente utilizzata per nessun altro scopo. Potete utilizzare l'esempio seguente e aggiornarlo in base alle vostre esigenze.
+Inserire il codice seguente all'interno della *`s_doPlugins()`* funzione, che si trova nell'area del *`s_code.js`* file denominato *Plugin Config*. Scegliete una variabile Traffico personalizzato (s.prop) o Conversione personalizzata (s.eVar) da usare per l’acquisizione di dati di valore persistenti. Deve essere una variabile abilitata tramite Admin Console, ma attualmente non utilizzata per altri scopi. Potete utilizzare l'esempio seguente e aggiornarlo in base alle vostre esigenze.
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
-*`s.getNewRepeat`* hanno due argomenti facoltativi:
+*`s.getNewRepeat`* dispone di due argomenti facoltativi:
 
-1. Il primo argomento opzionale è il numero di giorni per cui il cookie deve durare. Il valore predefinito se questo argomento viene omesso è 30 giorni.
-1. Il secondo argomento opzionale è il nome del cookie. Se questo argomento viene omesso, viene utilizzato un valore predefinito.
+1. Il primo argomento facoltativo è il numero di giorni di durata del cookie. Il valore predefinito se questo argomento viene omesso è 30 giorni.
+1. Il secondo argomento facoltativo è il nome del cookie. Se questo argomento viene omesso, viene utilizzato un valore predefinito.
 
-**SEZIONE PLUGINS**: Aggiungete il codice seguente all'area del [!DNL s_code.js] file etichettata in PLUGINS SECTION. Non apportate modifiche a questa parte del codice plug-in.
+**SEZIONE** PLUG-IN: Aggiungere il codice seguente all'area del [!DNL s_code.js] file con etichetta PLUGINS SECTION. Non apportare modifiche a questa parte del codice plug-in.
 
 ```js
 /* 
@@ -63,4 +61,4 @@ s.split=new Function("l","d",""
 +"++]=l.substring(0,i);l=l.substring(i+d.length);}return a");
 ```
 
-Verifica sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dati sia come previsto prima della distribuzione in un ambiente di produzione.
+Verificate sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dei dati avvenga come previsto prima della distribuzione in un ambiente di produzione.
