@@ -1,35 +1,35 @@
 ---
-description: Verificare che nella pagina sia presente correttamente il riferimento al file JS. Il percorso può essere specificato rispetto al documento corrente oppure può essere utilizzato un nome assoluto.
+description: Verificare che la pagina contenga un riferimento corretto al file .JS. È possibile specificare il percorso relativo al documento corrente oppure utilizzare un nome di percorso assoluto.
 keywords: Implementazione di Analytics
-seo-description: Verificare che nella pagina sia presente correttamente il riferimento al file JS. Il percorso può essere specificato rispetto al documento corrente oppure può essere utilizzato un nome assoluto.
-seo-title: Javascript JS, file
+seo-description: Verificare che la pagina contenga un riferimento corretto al file .JS. È possibile specificare il percorso relativo al documento corrente oppure utilizzare un nome di percorso assoluto.
+seo-title: File JavaScript JS
 solution: Analytics
-title: Javascript JS, file
+title: File JavaScript JS
 topic: Sviluppatore e implementazione
-uuid: 6 e 83223 f -2127-41 d 3-9806-bd 085 fa 2 a 747
+uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Javascript JS, file
+# File JavaScript JS
 
-Verificare che nella pagina sia presente correttamente il riferimento al file JS. Il percorso può essere specificato rispetto al documento corrente oppure può essere utilizzato un nome assoluto.
+Verificare che la pagina contenga un riferimento corretto al file .JS. È possibile specificare il percorso relativo al documento corrente oppure utilizzare un nome di percorso assoluto.
 
 ```js
 <script language="JavaScript" 
 src="https://www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-If some pages of the site are loaded in a secure protocol (https:), and reference the [!DNL AppMeasurement] for JavaScript file, ensure that the reference to the file is either secure (via https:) or code the reference as shown below. Questo esempio adotta il protocollo della pagina corrente ed evita l'avvertenza che "alcuni elementi non sono protetti".
+Se alcune pagine del sito vengono caricate in un protocollo protetto (https:) e fanno riferimento al file [!DNL AppMeasurement] per JavaScript, assicurarsi che il riferimento al file sia protetto (tramite https:) oppure codificare il riferimento come mostrato di seguito. In questo esempio viene adottato il protocollo della pagina corrente e viene impedito l'avviso che "alcuni elementi non sono protetti".
 
 ```js
 <script language="JavaScript" 
 src="//www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-Ensure that the [!DNL .JS] file on the web servers have permissions appropriately set so that the file may be downloaded and executed by website visitors. If a different [!DNL .JS] file is used on development servers, set the "read only" attribute for the [!DNL .JS] file on production servers to avoid an overwrite. If altered, ensure that the following settings are set appropriately at the top of the [!DNL .JS] file:
+Verificate che il [!DNL .JS] file sui server Web disponga delle autorizzazioni impostate correttamente in modo che possa essere scaricato ed eseguito dai visitatori del sito Web. Se nei server di sviluppo viene utilizzato un [!DNL .JS] file diverso, impostare l'attributo "sola lettura" per il [!DNL .JS] file sui server di produzione per evitare la sovrascrittura. Se modificata, accertatevi che le seguenti impostazioni siano impostate correttamente nella parte superiore del [!DNL .JS] file:
 
 ```js
 /************************** CONFIG SECTION **************************/
@@ -45,6 +45,6 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-If " *`s_account`*" is assigned a value at the top of the [!DNL .JS] file, ensure that the report suite ID (populated in the [!UICONTROL s_account]variable) is correct. Also ensure that the code in the page is not setting the [!UICONTROL Report Suite ID] ( *`s_account`* variable).
+Se " *`s_account`*" viene assegnato un valore nella parte superiore del [!DNL .JS] file, accertati che l'ID suite di rapporti (popolato nella [!UICONTROL s_account]variabile) sia corretto. Inoltre, accertatevi che il codice nella pagina non stia impostando la [!UICONTROL Report Suite ID] ( *`s_account`* variabile).
 
-Examine the image request and variables to ensure that the "fallback method" (the third part of the "split" code in the example above) is not creating the image request instead of the [!DNL .JS] file. Questo può essere determinato dal momento che il metodo "fallback" crea solo una richiesta di immagine con informazioni minime.
+Esaminate la richiesta di immagine e le variabili per garantire che il "metodo fallback" (la terza parte del codice "split" nell’esempio sopra) non crei la richiesta di immagine invece del [!DNL .JS] file. Questo può essere determinato perché il metodo "fallback" crea solo una richiesta di immagine con informazioni minime.
