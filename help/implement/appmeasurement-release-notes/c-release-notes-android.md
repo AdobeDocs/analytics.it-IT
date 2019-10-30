@@ -8,7 +8,7 @@ title: Android
 topic: Sviluppatore e implementazione
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Note sulla versione cumulative per la libreria mobile Android.
 
->[!NOTE]
->
->Per trovare la versione corrente della libreria, attivate la registrazione di debug.
+> [!NOTE] Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
 I download delle librerie per dispositivi mobili sono disponibili su [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e su [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1).
 
@@ -95,7 +93,7 @@ La versione [!DNL Android] SDK 4.13.2 (10 novembre 2016) include le seguenti mod
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Collegamenti profondi </p> </td> 
-   <td colname="2"> <p>Quando si chiama <code>trackAdobeDeepLink</code>, le variabili con i prefissi "<code>adb</code>" e "<code>ctx</code>" vengono ora gestite correttamente. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,11 +112,11 @@ La versione [!DNL Android] SDK 4.13.1 (20 ottobre 2016) include le seguenti modi
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Acquisizione </p> </td> 
-   <td colname="2"> L’SDK ora supporta i dati di acquisizione personalizzati che devono essere restituiti in modo appropriato dalle chiamate <code> AdobeDataCallback</code> . </td> 
+   <td colname="2"> L'SDK ora supporta i dati di acquisizione personalizzati che devono essere restituiti in modo appropriato dalle <code> AdobeDataCallback</code> chiamate. </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Acquisizione </p> </td> 
-   <td colname="2"> L’SDK ora memorizza le variabili Google Play Referrer e le variabili personalizzate e le restituisce in modo appropriato nelle chiamate <code> AdobeDataCallback</code> . </td> 
+   <td colname="2"> L’SDK ora memorizza le variabili Google Play Referrer e le variabili personalizzate e le restituisce in modo appropriato nelle <code> AdobeDataCallback</code> chiamate. </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
@@ -212,7 +210,7 @@ La versione [!DNL Android] SDK 4.10.0 (20 maggio 2016) include le seguenti modif
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> Target methods </td> 
-   <td colname="2"> <p>Aggiunta di nuova sintassi ed esempio per il metodo <code> loadRequest</code> . </p> <p>Added the following new <span class="keyword"> Target</span> methods: </p> <p> 
+   <td colname="2"> <p>Aggiunta di nuova sintassi ed esempio per il <code> loadRequest</code> metodo. </p> <p>Added the following new <span class="keyword"> Target</span> methods: </p> <p> 
      <ul id="ul_B32C3B3931764F21948E36384B775642"> 
       <li id="li_3421E7F78F3A4DDA8FF004903FC8C75E">setThirdPartyID </li> 
       <li id="li_0836075699C5480EB3D6B742FCF6D508">getThirdPartyID </li> 
@@ -409,7 +407,7 @@ La versione [!DNL Android] SDK 4.4 include le seguenti modifiche:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Supporto per il tracciamento dei beacon in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>Le chiamate <code> trackBeacon</code> e <code> clearCurrentBeacon</code> sono ora disponibili in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>Le <code> trackBeacon</code> e <code> clearCurrentBeacon</code> chiamate sono ora disponibili in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
