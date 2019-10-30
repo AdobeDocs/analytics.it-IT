@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Anteprima dimensioni
 title: Anteprima dimensioni
-uuid: dd 1 f 87 de -2 d 83-4 c 6 b-b 8 cd-ce 81 c 741 d 7 a 3
+uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,4 +30,4 @@ Ora, per impostazione predefinita, vengono visualizzati valori dinamici anziché
 
 Se passi il cursore su una dimensione e fai clic sulla freccia destra grigia posta a lato, compare l’elenco degli elementi dimensionali corrispondenti. In genere vengono elencati gli elementi principali degli ultimi 30 giorni.
 
-If you scroll down to the bottom of the list, you will see a **[!UICONTROL Show Top Items From Last 6 Months]**. Fai clic su questa opzione per visualizzare gli elementi dimensionali principali degli ultimi 180 giorni.
+Se scorrete verso il basso fino alla parte inferiore dell’elenco, compare una **[!UICONTROL Show Top Items From Last 6 Months]**. Fai clic su questa opzione per visualizzare gli elementi dimensionali principali degli ultimi 180 giorni.
