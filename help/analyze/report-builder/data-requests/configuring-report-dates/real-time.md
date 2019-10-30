@@ -7,7 +7,7 @@ title: Rapporti in tempo reale
 topic: Generatore di report
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,5 @@ Puoi:
 
 Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare le entrate, non puoi visualizzare un rapporto in tempo reale che include i dati sulle entrate. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)di amministrazione.
 
->[!NOTE]
->
->[!UICONTROL Real-Time Reports] non sono uguali alla funzione [Includi dati](https://marketing.adobe.com/resources/help/en_US/arb/options.html) correnti (Data Recency, Data Current Data Recency) rilasciata in precedenza, che ha ridotto la latenza per i report standard, visualizzando i dati prima della sua finalizzazione.
+> [!NOTE] Non [!UICONTROL Real-Time Reports] sono uguali alla funzione [Includi dati](https://marketing.adobe.com/resources/help/en_US/arb/options.html) correnti (Data Recency, Data Current Data Recency) rilasciata in precedenza, che ha ridotto la latenza per il reporting standard, visualizzando i dati prima che fosse completata.
 
