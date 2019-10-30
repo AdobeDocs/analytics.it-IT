@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Domande frequenti sullo strumento Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Domande frequenti sulla configurazione automatica della distribuzione di Adobe A
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Dove si trovano i plug-in per l'implementazione di Adobe Analytics tramite DTM? </p> </td> 
-   <td colname="col2"> <p> Se utilizzate Gestione dinamica dei tag per ospitare manualmente il <code> codice</code>s_code, i plug-in possono essere aggiunti nello stesso editor del codice <code> s_code</code>ospitato, esattamente come in una tipica implementazione di Adobe Analytics. </p> <p>Tuttavia, è anche possibile inserire i plug-in nell’editor nella sezione <span class="term"> Personalizza codice</span> pagina delle impostazioni dello strumento. Entrambi i metodi di attuazione dovrebbero essere altrettanto efficaci. </p> </td> 
+   <td colname="col2"> <p> Se utilizzate Gestione dinamica dei tag per ospitare manualmente i <code> s_code</code>, i plug-in possono essere aggiunti nello stesso editor ospitato <code> s_code</code>, esattamente come per una tipica implementazione di Adobe Analytics. </p> <p>Tuttavia, è anche possibile inserire i plug-in nell’editor nella sezione <span class="term"> Personalizza codice</span> pagina delle impostazioni dello strumento. Entrambi i metodi di attuazione dovrebbero essere altrettanto efficaci. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se si apportano modifiche alla configurazione nella nuova versione dello strumento, è possibile eseguire il test nell'area di gestione temporanea prima della pubblicazione in produzione? </p> </td> 
