@@ -8,7 +8,7 @@ title: Variabili ed eventi di Analytics
 topic: Connettori dati
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
