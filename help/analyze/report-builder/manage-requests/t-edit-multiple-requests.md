@@ -1,44 +1,44 @@
 ---
-description: Puoi modificare contemporaneamente diverse richieste, in base alla suite di rapporti, alla granularità e all'intervallo di date della richiesta.
-seo-description: Puoi modificare contemporaneamente diverse richieste, in base alla suite di rapporti, alla granularità e all'intervallo di date della richiesta.
+description: Potete modificare più richieste contemporaneamente, in base alla suite di rapporti, alla granularità e all'intervallo di date della richiesta.
+seo-description: Potete modificare più richieste contemporaneamente, in base alla suite di rapporti, alla granularità e all'intervallo di date della richiesta.
 seo-title: Modificare più richieste
 solution: Analytics
 title: Modificare più richieste
 topic: Generatore di report
-uuid: 5 be 23376-ba 94-4 d 5 c -84 c 7-a 60134 aacf 7 d
+uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Modificare più richieste
 
-Puoi modificare contemporaneamente diverse richieste, in base alla suite di rapporti, alla granularità e all'intervallo di date della richiesta.
+Potete modificare più richieste contemporaneamente, in base alla suite di rapporti, alla granularità e all'intervallo di date della richiesta.
 
-Puoi modificare più richieste contemporaneamente, in base alla suite di rapporti, ai segmenti, alla granularità e all'intervallo di date della richiesta. Ad esempio, potete aggiornare i parametri di un rapporto in modo che tutte le richieste siano basate sulla stessa suite o sul medesimo segmento, oppure potete trasformare un rapporto giornaliero in un rapporto settimanale o mensile, purché manteniate lo stesso numero di periodi. Potete modificare più richieste per il foglio di lavoro corrente o per tutti i fogli di lavoro di un foglio di calcolo.
+Puoi cambiare più richieste contemporaneamente, in base alla suite di rapporti, ai segmenti, alla granularità e all'intervallo di date della richiesta. Ad esempio, puoi aggiornare i parametri di un rapporto in modo che tutte le richieste siano basate sulla stessa suite di rapporti o segmento oppure puoi trasformare un rapporto giornaliero in un rapporto settimanale o mensile, a condizione di mantenere lo stesso numero di periodi. È possibile modificare più richieste per il foglio di lavoro corrente o per tutti i fogli di lavoro di un foglio di calcolo.
 
 **Per modificare più richieste**
 
-1. In Excel, click **[!UICONTROL Manage]**.
+1. In Excel, fare clic su **[!UICONTROL Manage]**.
 
    >[!NOTE]
    >
-   >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL All Sheets] option on the [!UICONTROL Request Manager]. Per impostazione predefinita, questa casella è selezionata in caso di richieste su più fogli di lavoro.
+   >Per modificare le richieste contenute nelle celle di singoli fogli di lavoro, deselezionare l' [!UICONTROL All Sheets] opzione in [!UICONTROL Request Manager]. Per impostazione predefinita, questa casella è selezionata se sono presenti richieste in più fogli di lavoro.
 
-1. On the [!UICONTROL Request Manager] form, select two or more requests, then click **[!UICONTROL Edit Multiple]**.
+1. Sul [!UICONTROL Request Manager] modulo selezionare due o più richieste, quindi fare clic su **[!UICONTROL Edit Multiple]**.
 
-   [!UICONTROL Edit Multiple Requests] Il modulo mostra le colonne di informazioni: [!UICONTROL By Report Suite][!UICONTROL By Segment][!UICONTROL By Metric][!UICONTROL By Date Range and Granularity], and [!UICONTROL By Group].
+   Il [!UICONTROL Edit Multiple Requests] modulo visualizza colonne di informazioni: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity]e [!UICONTROL By Group].
 1. Per raggruppare la visualizzazione delle richieste, fate clic su una delle seguenti opzioni:
 
-   * **Per suite di rapporti:** Raggruppa la visualizzazione delle richieste per suite di rapporti.
+   * **** Per suite di rapporti: Raggruppa la visualizzazione delle richieste per suite di rapporti.
    * **Per segmento**: Raggruppa le richieste in base al nome del segmento.
 
-      * **Scegli segmento**: Visualizza se non esistono segmenti per le richieste. To add segments, click **[!UICONTROL Edit Group]** and select a segment from the [!UICONTROL Edit Group] panel.
-   * **Per metrica**: Consultate [Modifica metriche tra più richieste](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+      * **Scegli segmento**: Visualizza se non esistono segmenti per le richieste. Per aggiungere segmenti, fai clic su **[!UICONTROL Edit Group]** e seleziona un segmento dal [!UICONTROL Edit Group] pannello.
+   * **Per metrica**: Consultate [Modificare Le Metriche Per Più Richieste](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
 
-   * **Per intervallo di date e granularità:** Raggruppa la visualizzazione delle richieste per intervallo di date e granularità.
-   * **Per gruppo:** Raggruppa la visualizzazione delle richieste in base a richieste raggruppate.
+   * **** Per intervallo di date e granularità: Raggruppa la visualizzazione delle richieste per intervallo di date e granularità dell'ora.
+   * **** Per gruppo: Raggruppa la visualizzazione delle richieste per set di richieste raggruppate.
 
 
-1. On the [!UICONTROL Edit Multiple Requests] form, click **[!UICONTROL OK]**.
+1. Sul [!UICONTROL Edit Multiple Requests] modulo fare clic su **[!UICONTROL OK]**.
