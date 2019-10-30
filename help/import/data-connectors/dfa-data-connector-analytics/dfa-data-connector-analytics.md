@@ -8,14 +8,14 @@ title: Connettore dati DFA per Adobe Analytics
 topic: Connettori dati
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Connettore dati DFA per Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
-Nel sempre più complesso e competitivo mercato online di oggi, gli inserzionisti e le agenzie pubblicitarie online devono migliorare continuamente la loro comprensione dell'ambiente di marketing online e del loro ritorno sulla spesa pubblicitaria. Sebbene gli inserzionisti, le agenzie e gli editori siano in possesso di strumenti individuali per contribuire al raggiungimento di questi obiettivi, l'aggregazione manuale dei dati da sistemi e processi di dati diversi può seriamente compromettere l'efficacia delle campagne di marketing on-line, riducendo al minimo le prestazioni delle campagne, le discrepanze dei dati e la confusione.
+Nel sempre più complesso e competitivo mercato online di oggi, gli inserzionisti e le agenzie pubblicitarie online devono continuamente migliorare la loro comprensione dell'ambiente di marketing online e il loro ritorno sulla spesa pubblicitaria. Sebbene gli inserzionisti, le agenzie e gli editori siano in possesso di strumenti individuali per contribuire al raggiungimento di questi obiettivi, l'aggregazione manuale dei dati da sistemi e processi di dati diversi può seriamente compromettere l'efficacia delle campagne di marketing on-line, riducendo al minimo le prestazioni delle campagne, le discrepanze dei dati e la confusione.
 
 L'integrazione DoubleClick for Advertiser (DFA) risolve questo problema utilizzando Adobe® Data Connectors™ per consentire a DoubleClick DFA di trasmettere automaticamente i dati a Reporting e analisi.
 
@@ -46,7 +46,7 @@ Il visitatore arriva sul sito dell'editore, che ospita l'annuncio. Questo annunc
 
 Se il visitatore fa clic sull’annuncio (2), viene interrogato il server di Floodlight, che conta un clic, 302 reindirizzerà (3) il visitatore alla pagina di destinazione. Quando il visitatore è arrivato sulla pagina di destinazione, questo viene definito click-through. Questa pagina contiene il codice di tracciamento Adobe che invia una query ai dati del DFA Floodlight Server.
 
-Se il visitatore non arriva effettivamente sulla pagina di destinazione dopo che il server di Floodlight ha tracciato un clic, questo non viene definito click-through. Alcuni annunci e implementazioni potrebbero non causare il reindirizzamento 302 da parte del browser del visitatore. Per ulteriori discussioni su questo argomento, vedere [Riconciliazione delle discrepanze](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)tra metriche.
+Se il visitatore non arriva effettivamente sulla pagina di destinazione dopo che il server di Floodlight ha tracciato un clic, questo non viene definito click-through. Alcuni annunci e implementazioni potrebbero non causare il reindirizzamento 302 del browser del visitatore. Per ulteriori discussioni su questo argomento, vedere [Riconciliazione delle discrepanze](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)tra metriche.
 
 La metrica successiva acquisita da questa integrazione si verifica quando il visitatore riceve l'impressione Annuncio, non fa clic, ma nel prossimo futuro arriva sulla pagina di destinazione con altri mezzi.
 
