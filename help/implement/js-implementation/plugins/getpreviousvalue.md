@@ -1,44 +1,42 @@
 ---
-description: Acquisisce il valore di una variabile Analytics nella visualizzazione pagina successiva. Ad esempio, è possibile utilizzare il plug-in per acquisire il valore s. pagename dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. Inoltre, dispone di un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo.
+description: Acquisisce il valore di una variabile di Analytics nella visualizzazione pagina successiva. Ad esempio, potete utilizzare il plug-in per acquisire il valore s.pageName dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. È inoltre disponibile un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo specifici.
 keywords: Implementazione di Analytics
-seo-description: Acquisisce il valore di una variabile Analytics nella visualizzazione pagina successiva. Ad esempio, è possibile utilizzare il plug-in per acquisire il valore s. pagename dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. Inoltre, dispone di un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo.
-seo-title: Getpreviousvalue
+seo-description: Acquisisce il valore di una variabile di Analytics nella visualizzazione pagina successiva. Ad esempio, potete utilizzare il plug-in per acquisire il valore s.pageName dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. È inoltre disponibile un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo specifici.
+seo-title: getPreviousValue
 solution: Analytics
 subtopic: Plug-in
-title: Getpreviousvalue
+title: getPreviousValue
 topic: Sviluppatore e implementazione
-uuid: 20 da 7 b 4 a -9820-4690-a 1 cc-d 10 b 6 dd 627 a 7
+uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Getpreviousvalue
+# getPreviousValue
 
-Acquisisce il valore di una variabile Analytics nella visualizzazione pagina successiva. Ad esempio, è possibile utilizzare il plug-in per acquisire il valore s. pagename dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. Inoltre, dispone di un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo.
+Acquisisce il valore di una variabile di Analytics nella visualizzazione pagina successiva. Ad esempio, potete utilizzare il plug-in per acquisire il valore s.pageName dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. È inoltre disponibile un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo specifici.
 
->[!NOTE]
->
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
-## Plug-in Code and Implementation {#section_92E94A96A4764113B5588F1B83E3DE2C}
+## Codice plug-in e implementazione {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
-**SEZIONE CONFIG**: Nessuna modifica necessaria per questa sezione.
+**SEZIONE** CONFIGURAZIONE: Nessuna modifica richiesta per questa sezione.
 
 **Configurazione plug-in**
 
-Place the following code within the *`s_doPlugins()`* function, which is located in the area of the *`s_code.js`* file labeled *Plugin Config*. Scegliete una variabile Traffico personalizzato (s. prop) o una variabile Conversione personalizzata (s. evar) per l'acquisizione di dati di valore persistenti. Deve trattarsi di una variabile abilitata tramite Admin Console, ma non attualmente utilizzata per nessun altro scopo. Potete utilizzare l'esempio seguente e aggiornarlo in base alle vostre esigenze.
+Inserire il codice seguente all'interno della *`s_doPlugins()`* funzione, che si trova nell'area del *`s_code.js`* file denominato *Plugin Config*. Scegliete una variabile Traffico personalizzato (s.prop) o Conversione personalizzata (s.eVar) da usare per l’acquisizione di dati di valore persistenti. Deve essere una variabile abilitata tramite Admin Console, ma attualmente non utilizzata per altri scopi. Potete utilizzare l'esempio seguente e aggiornarlo in base alle vostre esigenze.
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
-*`s.getPreviousValue`* sono dotati di tre argomenti:
+*`s.getPreviousValue`* presenta tre argomenti:
 
-1. The variable to be captured from the previous page ( *`s.pageName`* above).
-1. The cookie name for use in storing the value for retrieval ( *`gpv_pn`* above).
-1. The events that must be set on the page view in order to trigger the retrieval of the previous value ( *`event1`* above). Se lasciato vuoto o omesso, il plug-in acquisisce il valore precedente in tutte le visualizzazioni pagina.
+1. Variabile da acquisire dalla pagina precedente ( *`s.pageName`* sopra).
+1. Nome del cookie da utilizzare per memorizzare il valore per il recupero ( *`gpv_pn`* sopra).
+1. Gli eventi che devono essere impostati nella visualizzazione pagina per attivare il recupero del valore precedente ( *`event1`* sopra). Se lasciato vuoto o omesso, il plug-in acquisisce il valore precedente in tutte le visualizzazioni di pagina.
 
-**SEZIONE PLUGINS**: Aggiungete il codice seguente all'area del [!DNL s_code.js] file etichettata in PLUGINS SECTION. Non apportate modifiche a questa parte del codice plug-in.
+**SEZIONE** PLUG-IN: Aggiungere il codice seguente all'area del [!DNL s_code.js] file con etichetta PLUGINS SECTION. Non apportare modifiche a questa parte del codice plug-in.
 
 ```js
 /* 
@@ -61,10 +59,10 @@ s.split=new Function("l","d",""
 
 **Note**
 
-* Verifica sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dati sia come previsto prima della distribuzione in un ambiente di produzione.
-* If no value is present for the selected variable on any given page, the text *no value* will be set in the cookie.
-* È stata impostata una scadenza del cookie fisso di 30 minuti per ogni cookie, e aggiornata con ogni caricamento di pagina. Il plug-in funziona per la durata di una visita.
-* Because the function must be called as part of the plug-ins section of code, the code runs each time *`s.t()`* or *`s.tl()`* is called.
+* Verificate sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dei dati avvenga come previsto prima della distribuzione in un ambiente di produzione.
+* Se non è presente alcun valore per la variabile selezionata su una determinata pagina, il testo *non verrà impostato alcun valore* nel cookie.
+* Per ogni cookie viene ora impostata una scadenza fissa di 30 minuti, che viene aggiornata con ogni caricamento di pagina. Il plug-in funziona per tutta la durata di una visita.
+* Poiché la funzione deve essere chiamata come parte della sezione dei plug-in del codice, il codice viene eseguito ogni volta *`s.t()`* o *`s.tl()`* viene chiamato.
 
-* The chosen variable should be populated with a value prior to the call to *`s.getPreviousValue`*. Because the *`s_doPlugins()`* function is executed after the variables on the page are populated, this issue rarely occurs. It should only be a matter of concern if the variable used with this plug-in is populated within the *`s_doPlugins()`* function and after the call to *`s.getPreviousValue`*.
+* La variabile selezionata deve essere compilata con un valore prima della chiamata a *`s.getPreviousValue`*. Poiché la *`s_doPlugins()`* funzione viene eseguita dopo la compilazione delle variabili sulla pagina, questo problema si verifica raramente. Dovrebbe essere preoccupante solo se la variabile utilizzata con questo plug-in viene compilata all'interno della *`s_doPlugins()`* funzione e dopo la chiamata a *`s.getPreviousValue`*.
 
