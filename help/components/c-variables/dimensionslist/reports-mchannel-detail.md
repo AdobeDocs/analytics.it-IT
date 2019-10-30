@@ -7,7 +7,7 @@ title: 'Dettaglio canale marketing: primo e ultimo tocco'
 topic: Rapporti
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,5 @@ Questi rapporti forniscono informazioni approfondite sulle campagne o sulle paro
    * Visite e visitatori: la disponibilità dipende dall'organizzazione e dalla suite di rapporti. Contatta il tuo Account Manager per ulteriori informazioni.
    Consulta [Metriche](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) nell’ [!UICONTROL Marketing Channel] Aiuto.
 
->[!NOTE]
->
->[!UICONTROL Marketing Channel] reporting non è disponibile nella versione 13.5.
+> [!NOTE] la [!UICONTROL Marketing Channel] generazione di rapporti non è disponibile nella versione 13.5.
 
