@@ -1,25 +1,23 @@
 ---
-description: Adobe Analytics supporta modelli di classificazioni a livello singolo e a livello multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
-seo-description: Adobe Analytics supporta modelli di classificazioni a livello singolo e a livello multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
+description: Adobe Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
+seo-description: Adobe Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
 seo-title: Informazioni sulle classificazioni secondarie
 solution: Analytics
-subtopic: Classificazioni
+subtopic: Classifications
 title: Informazioni sulle classificazioni secondarie
 topic: Strumenti di amministrazione
-uuid: 48 bd 7 fc 1-54 a 1-40 ef-bc 55-395338522 f 2 d
+uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Informazioni sulle classificazioni secondarie
 
-Adobe Analytics supporta modelli di classificazioni a livello singolo e a livello multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
+Adobe Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
 
->[!NOTE]
->
->La classificazione secondaria fa riferimento alla capacità di creare classificazioni di classificazioni. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about Classification hierarchies, see [Classification Hierarchies](classification-hierarchies.md).
+> [!NOTE] Per sottocategoria si intende la capacità di creare classificazioni di classificazioni. Tuttavia, non è lo stesso utilizzato [!UICONTROL Classification Hierarchy] per creare [!UICONTROL Hierarchy] rapporti. Per ulteriori informazioni sulle gerarchie di classificazione, vedere Gerarchie [di](classification-hierarchies.md)classificazione.
 
 <!-- 
 
@@ -37,14 +35,14 @@ Ad esempio:
 
 ![](assets/single-level-popup-C.png)
 
-Ogni classificazione in questo modello è indipendente e corrisponde a un nuovo sottorapporto per la variabile di reporting selezionata. Inoltre, ogni classificazione rappresenta una colonna dati nel file di dati, con il nome della classificazione come intestazione della colonna. Ad esempio:
+Ogni classificazione in questo modello è indipendente e corrisponde a una nuova sottorelazione per la variabile di reporting selezionata. Inoltre, ogni classificazione costituisce una colonna di dati nel file di dati, con il nome della classificazione come intestazione di colonna. Ad esempio:
 
-| KEY | PROPERTY 1 | PROPERTY 2 |
+| CHIAVE | PROPRIETÀ 1 | PROPRIETÀ 2 |
 |---|---|---|
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-For more information about the data file, see [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Per ulteriori informazioni sul file di dati, vedere File [di dati di](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)classificazione.
 
 <!-- 
 
@@ -52,34 +50,32 @@ c_multiple-level_classifications.xml
 
  -->
 
-Le classificazioni a livello multiplo sono costituite da classificazioni principali e secondarie. Ad esempio:
+Le classificazioni a più livelli sono composte da classificazioni padre e figlio. Ad esempio:
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Classificazioni principali:** Una classificazione principale è una classificazione con classificazione figlia associata. Una classificazione può essere una classificazione principale e secondaria. The top-level parent classifications correspond to single-level classifications (See [Single-Level Classifications](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**** Classificazioni padre: Per classificazione padre si intende qualsiasi classificazione associata a una classificazione figlio. Una classificazione può essere sia una classificazione padre che una classificazione figlio. Le classificazioni principali corrispondono alle classificazioni a livello singolo (consultate Classificazioni [a livello](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)singolo).
 
-**Classificazioni secondarie:** Una classificazione secondaria è una classificazione con un'altra classificazione come elemento padre anziché variabile. Le classificazioni secondarie forniscono informazioni aggiuntive sulla classificazione padre. For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] Le classificazioni funzionano anche come metriche nei report di classificazione.
+**** Classificazioni figlio: Per classificazione figlio si intende qualsiasi classificazione con un'altra classificazione come padre invece della variabile. Le classificazioni figlio forniscono informazioni aggiuntive sulla classificazione padre. Ad esempio, una [!UICONTROL Campaigns] classificazione potrebbe avere una classificazione figlio Proprietario campagna. [!UICONTROL Numeric] Le classificazioni funzionano anche come metriche nei report di classificazione.
 
-Ogni classificazione, principale o figlio, costituisce una colonna di dati nel file di dati. L'intestazione della colonna di una classificazione secondaria utilizzando il seguente formato di denominazione:
+Ogni classificazione, principale o secondario, costituisce una colonna di dati nel file di dati. Intestazione della colonna per una classificazione figlio utilizzando il seguente formato di denominazione:
 
 `<parent_name>^<child_name>`
 
-For more information about the data file format, see [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Per ulteriori informazioni sul formato del file di dati, vedere File [di dati di](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)classificazione.
 
 Ad esempio:
 
-| KEY | PROPERTY 1 | Proprietà 1 &amp; amp; Cappello; Proprietà 1-1 | Proprietà 1 &amp; amp; Cappello; Proprietà 1-2 | Proprietà 2 |
+| CHIAVE | PROPRIETÀ 1 | Proprietà 1&amp;Cappello;Proprietà 1-1 | Proprietà 1&amp;Cappello;Proprietà 1-2 | Proprietà 2 |
 |---|---|---|---|---|
 | 123 | ABC | Verde | Piccolo | A12B |
 | 456 | DEF | Rosso | Grande | C3D4 |
 
-Anche se il modello di file per una classificazione multievel è più complesso, l'efficacia delle classificazioni a più livelli è che i livelli separati possono essere caricati come file separati. Questo approccio può essere utilizzato per ridurre al minimo la quantità di dati che devono essere caricati periodicamente (giornalieri, settimanali e così via) raggruppando dati in livelli di classificazione che cambiano nel tempo e che non vengono modificati.
+Anche se il modello di file per una classificazione a più livelli è più complesso, la potenza delle classificazioni a più livelli è che i livelli separati possono essere caricati come file separati. Questo approccio può essere utilizzato per ridurre al minimo la quantità di dati da caricare periodicamente (quotidianamente, settimanalmente e così via) raggruppando i dati in livelli di classificazione che si modificano nel tempo rispetto a quelli che non lo sono.
 
->[!NOTE]
->
->If the [!UICONTROL Key] column in a data file is blank, Adobe automatically generates unique keys for each data row. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
+> [!NOTE] Se la [!UICONTROL Key] colonna in un file di dati è vuota, Adobe genera automaticamente chiavi univoche per ogni riga di dati. Per evitare possibili danneggiamenti del file durante il caricamento di un file di dati con dati di classificazione di secondo livello o di livello superiore, compilare ciascuna riga della [!UICONTROL Key] colonna con un asterisco (*).
 
-See [Common Classification Upload Issues](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) for troubleshooting help.
+Consulta [Problemi](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) comuni relativi al caricamento delle classificazioni per la risoluzione dei problemi.
 
 <!-- 
 
@@ -89,31 +85,30 @@ c_classifications_example.xml
 
 ![](assets/sample-product-classifications.png)
 
->[!NOTE]
-I dati di classificazione del prodotto sono limitati agli attributi dei dati direttamente correlati al prodotto. I dati non sono limitati alla modalità di categorizzazione o vendita dei prodotti sul sito Web. Elementi dati come categorie di vendite, nodi Sfoglia sito o elementi comprati non sono dati di classificazione del prodotto. Tali elementi vengono invece catturati nelle variabili di conversione del rapporto.
+>[!NOTE] I dati di classificazione dei prodotti sono limitati agli attributi di dati direttamente correlati al prodotto. I dati non si limitano alla classificazione o alla vendita dei prodotti sul sito Web. Gli elementi dati come categorie di vendita, nodi di ricerca del sito o elementi di vendita non sono dati di classificazione del prodotto. Tali elementi vengono invece acquisiti nelle variabili di conversione dei report.
 
-Durante il caricamento di file di dati per questa classificazione di prodotto, potete caricare i dati di classificazione come singoli file o come file multipli (vedi di seguito). Separando il codice del colore nel file 1 e il nome del colore nel file 2, i dati del nome del colore (che possono essere solo poche righe) devono essere aggiornati solo quando vengono creati nuovi codici colore. Questo elimina il nome del colore (CODE &amp; amp; Cappello; COLOR) dal file aggiornato più frequentemente 1 e riduce le dimensioni e la complessità del file durante la generazione del file di dati.
+Quando caricate i file di dati per questa classificazione di prodotto, potete caricare i dati di classificazione come un singolo file o più file (vedete di seguito). Separando il codice colore nel file 1 e il nome del colore nel file 2, i dati del nome del colore (che possono essere solo poche righe) devono essere aggiornati solo quando vengono creati nuovi codici colore. Questo elimina il campo del nome del colore (CODE&amp;Hat;COLOR) dal file 1 aggiornato con maggiore frequenza e riduce la dimensione e la complessità del file durante la generazione del file di dati.
 
-## Product Classification - Single File {#section_E8C5E031869C449F9B636F5EB3BFEC17}
+## Classificazione prodotto - File singolo {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| KEY | NOME PRODOTTO | DETTAGLI PRODOTTO | GENERE | SIZE | CODE | CODE &amp; amp; Cappello; COLOR |
+| CHIAVE | NOME PRODOTTO | DETTAGLI DEL PRODOTTO | GENERE | DIMENSIONE | CODICE | CODE&amp;Cappello;COLORE |
 |---|---|---|---|---|---|---|
-| 410390013 | Polo-SS | Camicia di uomo, custodia breve (M, 01) | M | M | 01 | Pietra |
-| 410390014 | Polo-SS | Camicia di uomo, custodia breve (L, 03) | M | L | 03 | Heather |
-| 410390015 | Polo-LS | Camicia di donna, manicotto lungo (S, 23) | F | S | 23 | Acquamarina |
+| 410390013 | Polo-SS | Camicia Polo, manica corta (M,01) | M | M | 01 | Pietra |
+| 410390014 | Polo-SS | Camicia Polo, manica corta (L,03) | M | L | 03 | Heather |
+| 410390015 | Polo-LS | Camicia Polo femminile, manica lunga (S,23) | F | S | 23 | Aqua |
 
-## Product Classification - Multiple Files (File 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+## Classificazione prodotto - Più file (file 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
-| KEY | NOME PRODOTTO | DETTAGLI PRODOTTO | GENERE | SIZE | CODE |
+| CHIAVE | NOME PRODOTTO | DETTAGLI DEL PRODOTTO | GENERE | DIMENSIONE | CODICE |
 |---|---|---|---|---|---|
-| 410390013 | Polo-SS | Camicia di uomo, custodia breve (M, 01) | M | M | 01 |
-| 410390014 | Polo-SS | Camicia di uomo, custodia breve (L, 03) | M | L | 03 |
-| 410390015 | Polo-LS | Camicia di donna, manicotto lungo (S, 23) | F | S | 23 |
+| 410390013 | Polo-SS | Camicia Polo, manica corta (M,01) | M | M | 01 |
+| 410390014 | Polo-SS | Camicia Polo, manica corta (L,03) | M | L | 03 |
+| 410390015 | Polo-LS | Camicia Polo femminile, manica lunga (S,23) | F | S | 23 |
 
-## Product Classification - Multiple Files (File 2) {#section_19ED95C33B174A9687E81714568D56A3}
+## Classificazione prodotto - Più file (file 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| KEY | CODE | CODE &amp; amp; Cappello; COLOR |
+| CHIAVE | CODICE | CODE&amp;Cappello;COLORE |
 |---|---|---|
 | * | 01 | Pietra |
 | * | 03 | Heather |
-| * | 23 | Acquamarina |
+| * | 23 | Aqua |
