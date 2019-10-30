@@ -1,41 +1,41 @@
 ---
-description: Procedura che descrive come creare una richiesta di rilevamento anomalie nel generatore di report.
-seo-description: Procedura che descrive come creare una richiesta di rilevamento anomalie nel generatore di report.
-seo-title: Configurare una richiesta di rilevamento anomalie
+description: Procedura che descrive come creare una richiesta di rilevamento delle anomalie nel generatore di report.
+seo-description: Procedura che descrive come creare una richiesta di rilevamento delle anomalie nel generatore di report.
+seo-title: Configurare una richiesta di rilevamento delle anomalie
 solution: Analytics
-title: Configurare una richiesta di rilevamento anomalie
+title: Configurare una richiesta di rilevamento delle anomalie
 topic: Generatore di report
-uuid: 1 e 504 ff 9-df 88-4 fa 7-95 ea -1 ca 05 a 6 f 9 c 0 d
+uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurare una richiesta di rilevamento anomalie
+# Configurare una richiesta di rilevamento delle anomalie
 
-Procedura che descrive come creare una richiesta di rilevamento anomalie nel generatore di report.
+Procedura che descrive come creare una richiesta di rilevamento delle anomalie nel generatore di report.
 
-1. Select a trended report, such as a **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Traffic]** report.
-1. In the [!UICONTROL Apply Granularity] menu, select **[!UICONTROL Day]**.
+1. Selezionate un rapporto con tendenze, ad esempio un rapporto **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Traffic]** .
+1. Nel [!UICONTROL Apply Granularity] menu selezionare **[!UICONTROL Day]**.
 
    >[!NOTE]
    >
-   >[!UICONTROL Anomaly Detection] Il menu è disponibile solo quando selezionate Granularità giorno. I precedenti 30 giorni di dati sono utilizzati come periodo di formazione statistica, indipendentemente dall'intervallo di date selezionato.
+   >Il [!UICONTROL Anomaly Detection] menu è disponibile solo quando si seleziona la granularità Giorno. I precedenti 30 giorni di dati vengono utilizzati come periodo di formazione per i dati statistici, indipendentemente dall'intervallo di date selezionato.
 
-1. After configuring date ranges, click **[!UICONTROL Next]**.
+1. Dopo aver configurato gli intervalli di date, fai clic su **[!UICONTROL Next]**.
 
-   Risultato 1. On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
+   Passaggio 1. Nella Richiesta guidata: Passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
 
-   Risultato 1. For the added metric, click the **[!UICONTROL None]** link.
+   Passaggio 1. Per la metrica aggiunta, fai clic sul **[!UICONTROL None]** collegamento.
 
    ![Risultato passaggio](assets/anomaly_select.png)
 
-1. Select **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
+1. Seleziona **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
 
-   ![Informazioni passo](assets/anomaly_visit.png)
+   ![Informazioni sul passaggio](assets/anomaly_visit.png)
 
-   Quando selezionate una di queste opzioni, il sistema crea copie di Rilevamento anomalie della metrica originale. For example, for the Visit metric, a Lower Bound Visit metric is added to the [!UICONTROL Metric] group.
-1. Click **[!UICONTROL Finish]** and select the cell for output to Excel.
+   Quando si seleziona una di queste opzioni, il sistema crea copie del rilevamento delle anomalie della metrica originale. Ad esempio, per la metrica Visita, al [!UICONTROL Metric] gruppo viene aggiunta una metrica Visita Bound inferiore.
+1. Fate clic su **[!UICONTROL Finish]** e selezionate la cella da restituire in Excel.
 
-   See [Anomaly Detection](../../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_9476D6C093334B1A8044AE63835BDBE7) for definitions.
+   Consulta Rilevamento delle [anomalie](../../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_9476D6C093334B1A8044AE63835BDBE7) per le definizioni.
