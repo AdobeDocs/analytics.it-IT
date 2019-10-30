@@ -6,7 +6,7 @@ solution: Analytics
 title: Connettore dati intelligente per Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,9 @@ Questa integrazione delle e-mail supporta segmenti di marketing dinamici per aiu
 
 | Segmento | Descrizione |
 |---|---|
-| **Profilo di abbandono carrello** | Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli. |
-| **Profilo acquisti** | Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori. |
-| **Profilo comportamentale visualizzazione prodotto/contenuto** | Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti. |
+| **Profilo di abbandono carrello** |  Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli. |
+| **Profilo acquisti** |  Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori. |
+| **Profilo comportamentale visualizzazione prodotto/contenuto** |  Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti. |
 | **Segmenti di remarketing personalizzati** | I clienti possono anche creare e pianificare segmenti di ricommercializzazione personalizzati in base alle esigenze dei propri utenti. |
 
 ## Prima di attivare questa integrazione{#before-you-activate-this-integration}
@@ -42,11 +42,11 @@ Elenca le azioni necessarie da eseguire in Adobe Analytics prima di poter distri
 
 | Prerequisito | Note |
 |---|---|
-| Seleziona suite di rapporti | Questa integrazione è specifica per la suite di rapporti. Prima di attivare l'integrazione, accertatevi di aver selezionato la suite di rapporti desiderata. |
+| Seleziona suite di rapporti |  Questa integrazione è specifica per la suite di rapporti. Prima di attivare l'integrazione, accertatevi di aver selezionato la suite di rapporti desiderata. |
 | Configurare le variabili di Analytics |  Questa integrazione richiede eventi personalizzati e eVar personalizzati, ed eventualmente eventi aggiuntivi e eVar aggiuntive. Consultate Configurazione delle variabili Analytics per la firma. |
 | Rappresentante autorizzato |  L'abilitazione di questa integrazione potrebbe indurre l'azienda a sostenere delle spese in conformità al contratto di servizio stipulato con Adobe, Inc. o al contratto di assistenza stipulato con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l'Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto. |
-| Abilita Adobe Data Warehouse™ | Questa integrazione richiede che Data Warehouse sia abilitato per generare segmenti di remarketing. Se non hai attivato Adobe Data Warehouse, contatta Adobe per ulteriori informazioni. |
-| ID destinatario | L'integrazione richiede l'acquisizione e la memorizzazione di un "Visitor ID" in una variabile di Analytics (eVar). L’ID visitatore (spesso denominato "ID destinatario") è una rappresentazione codificata o numerica di un indirizzo e-mail del sistema mittente. Questo "ID destinatario" è associato al comportamento a valle dei visitatori sul sito (carrelli abbandonati, acquisti, ecc.) che viene richiamato nel sistema Selligent e può essere sfruttato per scopi di remarketing. Durante il processo di configurazione, è necessario identificare un'eVar a tale scopo quando richiesto dalla procedura guidata. |
+| Abilita Adobe Data Warehouse™ |  Questa integrazione richiede che Data Warehouse sia abilitato per generare segmenti di remarketing. Se non hai attivato Adobe Data Warehouse, contatta Adobe per ulteriori informazioni. |
+| Recipient ID |  L'integrazione richiede l'acquisizione e la memorizzazione di un "Visitor ID" in una variabile di Analytics (eVar). L’ID visitatore (spesso denominato "ID destinatario") è una rappresentazione codificata o numerica di un indirizzo e-mail del sistema mittente. Questo "ID destinatario" è associato al comportamento a valle dei visitatori sul sito (carrelli abbandonati, acquisti, ecc.) che viene richiamato nel sistema Selligent e può essere sfruttato per scopi di remarketing. Durante il processo di configurazione, è necessario identificare un'eVar a tale scopo quando richiesto dalla procedura guidata. |
 | Tracciamento esterno |  Se al momento non state seguendo la procedura ottimale per abilitare il tracciamento esterno per ogni campagna e-mail inviata, dovete farlo per garantire il successo dell'integrazione. Per informazioni dettagliate, consulta la sezione Partecipanti di seguito. |
 | Conformità alla privacy |  È importante comprendere che abilitando il tracciamento dell'ID destinatario o visitatore, questa funzione può tenere traccia delle informazioni personali dei visitatori del sito. Questo ha implicazioni sulla privacy che richiedono l'implementazione di procedure appropriate da parte dell'organizzazione, ad esempio l'informativa e il consenso dei visitatori del sito. |
 
@@ -70,43 +70,43 @@ A parte queste eVar, alcuni eventi possono essere riservati in base ai dati di S
    <td colname="col1"> eVar </td> 
    <td colname="col2"> ID messaggio </td> 
    <td colname="col3"> Per acquisire l'identificazione della campagna con i singoli messaggi e-mail. </td> 
-   <td colname="col4"> <p><b>Stato</b>: Abilitato </p> <p><b>Allocazione</b>: Più recenti </p> <p><b>Scadenza dopo</b>: "Decisione aziendale" </p> </td> 
+   <td colname="col4"> <p><b>Stato</b>: Abilitato </p> <p><b>Allocazione</b>:Più recenti </p> <p><b>Scadenza dopo</b>: "Decisione aziendale" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eV ar </td> 
-   <td colname="col2"> ID destinatario </td> 
+   <td colname="col2"> Recipient ID </td> 
    <td colname="col3"> Per acquisire l'identificazione anonima del cliente che ha fatto clic sulla campagna e-mail. </td> 
-   <td colname="col4"> <p><b>Stato</b>: Abilitato </p> <p><b>Allocazione</b>: Più recenti </p> <p><b>Scadenza dopo</b>: "Decisione aziendale" </p> </td> 
+   <td colname="col4"> <p><b>Stato</b>: Abilitato </p> <p><b>Allocazione</b>:Più recenti </p> <p><b>Scadenza dopo</b>: "Decisione aziendale" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Inviato </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail inviate da Selligent. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Consegnato </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail distribuite. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Viste </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail univoche visualizzate. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Clic </td> 
    <td colname="col3"> Per memorizzare il numero di volte in cui è stato fatto clic su un messaggio e-mail. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Bloccato </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail rimbalzate. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
  </tbody> 
 </table>
