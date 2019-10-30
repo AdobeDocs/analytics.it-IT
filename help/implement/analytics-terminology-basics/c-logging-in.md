@@ -5,7 +5,7 @@ seo-title: Registrazione
 title: Registrazione
 uuid: 1e6a269d-8aa4-470b-9452-2d0ff1ff6f4a
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
