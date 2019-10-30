@@ -1,26 +1,26 @@
 ---
-description: Abbreviazioni per l'avvio e la fine delle date.
-seo-description: Abbreviazioni per l'avvio e la fine delle date.
-seo-title: Date di inizio o fine singole
+description: Abbreviazioni per le date di inizio e fine.
+seo-description: Abbreviazioni per le date di inizio e fine.
+seo-title: Singole date di inizio o fine
 solution: Analytics
-title: Date di inizio o fine singole
+title: Singole date di inizio o fine
 topic: Generatore di report
-uuid: b 161948 c-c 71 c -4757-8348-15577 fc 61042
+uuid: b161948c-c71c-4757-8348-15577fc61042
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Date di inizio o fine singole
+# Singole date di inizio o fine
 
-Abbreviazioni per l'avvio e la fine delle date.
+Abbreviazioni per le date di inizio e fine.
 
-* cd -1 d = ieri
-* cm -1 d = ultimo giorno dello scorso mese
-* cw -1 w = first day of last week
-* cw +1 w -1 d = ultimo giorno della settimana corrente
-* cd -2 d = due giorni fa
-* cw -2 w = first day the week, two week fa
+* cd-1d = ieri
+* cm-1d = ultimo giorno dell'ultimo mese
+* cw-1w = primo giorno della settimana scorsa
+* cw+1w-1d = ultimo giorno della settimana corrente
+* cd-2d = due giorni fa
+* cw-2w = primo giorno della settimana, due settimane fa
 
-L'impostazione della data su una data futura non restituisce valori per date future.
+Tenere presente che l'impostazione della data su una data futura non restituisce valori per date future.
