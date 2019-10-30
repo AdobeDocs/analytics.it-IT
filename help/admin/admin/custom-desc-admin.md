@@ -1,39 +1,37 @@
 ---
-description: Puoi fornire descrizioni di rapporti personalizzate per evar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
-seo-description: Puoi fornire descrizioni di rapporti personalizzate per evar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
-seo-title: Descrizioni report personalizzate
+description: Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
+seo-description: Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
+seo-title: Descrizioni report personalizzati
 solution: Analytics
-title: Descrizioni report personalizzate
+title: Descrizioni report personalizzati
 topic: Strumenti di amministrazione
-uuid: df 7 b 57 ab -4 bd 9-4465-bcd 1-d 47647 eed 3 ff
+uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Descrizioni report personalizzate
+# Descrizioni report personalizzati
 
-Puoi fornire descrizioni di rapporti personalizzate per evar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
+Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]****[!UICONTROL *&gt; variabile *]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL *variabile *]**
 
->[!NOTE]
->
->L'aggiunta di descrizioni è disponibile per le classificazioni più tradizionali, ma non per quelle per dispositivi mobili.
+> [!NOTE] L'aggiunta di descrizioni è disponibile per la maggior parte delle classificazioni tradizionali, ma al momento non per le classificazioni mobili.
 
 ![](assets/report_descriptions.png)
 
-1. Fornite una descrizione del rapporto. Il numero massimo di caratteri è 255.
+1. Fornire una descrizione per il rapporto. Il numero massimo di caratteri è 255.
 1. Fai clic su **[!UICONTROL Save]**.
 
-La descrizione è visibile in due posizioni:
+La descrizione è visibile in due punti:
 
-* Nella barra del titolo per il rapporto:
+* Nella barra del titolo del rapporto:
 
    ![](assets/report_description_2.png)
 
-* Come suggerimento quando passate il mouse sul rapporto nel pannello di navigazione a sinistra:
+* Come descrizione quando si passa il puntatore del mouse sul rapporto nella barra di navigazione a sinistra:
 
    ![](assets/report_description_3.png)
 
