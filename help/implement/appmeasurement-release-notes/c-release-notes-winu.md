@@ -4,9 +4,9 @@ seo-description: nulle
 seo-title: App store di app universali Windows 8.1
 solution: Analytics
 title: App store di app universali Windows 8.1
-uuid: 7 acbeaed -2 d 9 d -4 a 99-a 249-d 898958 d 080 e
+uuid: 7acbeaed-2d9d-4a99-a249-d898958d080e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
