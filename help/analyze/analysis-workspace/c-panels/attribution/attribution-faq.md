@@ -3,7 +3,7 @@ title: Domande frequenti sull'attribuzione
 seo-title: Domande frequenti sull'attribuzione
 description: Risposte alle domande più frequenti sull'attribuzione.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
