@@ -1,26 +1,26 @@
 ---
-description: Gli errori comuni degli account dinamici sono descritti nelle sezioni seguenti.
+description: Gli errori comuni negli account dinamici sono descritti nelle sezioni seguenti.
 keywords: Implementazione di Analytics
-seo-description: Gli errori comuni degli account dinamici sono descritti nelle sezioni seguenti.
+seo-description: Gli errori comuni negli account dinamici sono descritti nelle sezioni seguenti.
 seo-title: Errori comuni
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
+subtopic: Risoluzione dei problemi
 title: Errori comuni
 topic: Sviluppatore e implementazione
-uuid: 04345355-60 cc -4678-81 c 3-390 c 86752 df 1
+uuid: 04345355-60cc-4678-81c3-390c86752df1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Errori comuni
 
-Gli errori comuni degli account dinamici sono descritti nelle sezioni seguenti.
+Gli errori comuni negli account dinamici sono descritti nelle sezioni seguenti.
 
-## Hard Coded Account {#section_FB6F89BF317F45D387C00986ACA690BC}
+## Account codificato {#section_FB6F89BF317F45D387C00986ACA690BC}
 
-If the desire is to always send data to a specific report suite, set [!UICONTROL s_dynamicAccountSelection] to false (alternately, the variables may be removed altogether:
+Se si desidera inviare sempre i dati a una suite di rapporti specifica, impostare [!UICONTROL s_dynamicAccountSelection] su false (alternativamente, le variabili possono essere rimosse del tutto:
 
 ```js
 var s_account="defaultreportsuiteid" 
@@ -28,11 +28,11 @@ REMOVE: s.dynamicAccountSelection=true
 REMOVE: s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-Nel caso precedente, defaultreportsuiteid viene sempre usato dopo che le altre due righe sono state rimosse.
+Nel caso precedente, defaultreportvaligeid viene sempre utilizzato dopo la rimozione delle altre due righe.
 
-## Placement of Code {#section_05375CB2EF5A414794BC8209C906AEEB}
+## Posizionamento del codice {#section_05375CB2EF5A414794BC8209C906AEEB}
 
-Defining *`s_account`* after the lines of code does not override the dynamic account selection, as shown below.
+La definizione *`s_account`* dopo le righe di codice non esclude la selezione dinamica dei conti, come illustrato di seguito.
 
 ```js
 var s_account="defaultreportsuiteid" 
@@ -41,25 +41,25 @@ s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"
 s_account="anotherreportsuiteid" 
 ```
 
-In the example above, the account "anotherreportsuiteid" overrides "defaultreportsuiteid," but does not override any matches that occur in [!UICONTROL s.dynamicAccountList]. The function that evaluates [!UICONTROL s.dynamicAccountList] is actually executed much later in the .JS file.
+Nell'esempio precedente, l'account "altroreportvaligeid" ha la precedenza su "defaultreportsuite eid", ma non esclude alcuna corrispondenza che si verifichi in [!UICONTROL s.dynamicAccountList]. La funzione che valuta [!UICONTROL s.dynamicAccountList] viene in realtà eseguita molto più tardi nel file JS.
 
 ## Multi-Suite Tagging {#section_6C014FA9B87D4622B483BCDE4281D2A9}
 
-I tag per più suite possono essere utilizzati insieme alla selezione dell'account dinamico, come mostrato di seguito.
+I tag per più suite possono essere utilizzati insieme alla selezione account dinamica, come illustrato di seguito.
 
 ```js
 s.dynamicAccountSelection=true 
 s.dynamicAccountList="suiteid1,suiteid2=client.com" 
 ```
 
-## Dynamic Account Match {#section_647AB47B38D640D6BCC853FDA4E4342D}
+## Corrispondenza account dinamica {#section_647AB47B38D640D6BCC853FDA4E4342D}
 
-Do not put the [!UICONTROL dynamic account match] variables in quotes. Le opzioni sono visualizzate di seguito.
+Non inserire le [!UICONTROL dynamic account match] variabili tra virgolette. Le opzioni sono visualizzate di seguito.
 
-| Nome host/nome dominio | Nessuno |
+| Nome host/dominio | Nessuno |
 |---|---|
-| Stringa di query | s. dynamicaccountmatch = (window. location. search? window. location. search: "? ") |
-| Host/Dominio e percorso | s. dynamicaccountmatch = window. location. host + window. lcation. pathname |
-| Percorso e stringa query | s. dynamicaccountmatch = window. location. pathname + (window. location. search? window. location. search "? ") |
-| URL completo | s. dynamicaccountmatch = window. location. href |
+| Stringa di query | s.dynamicAccountMatch=(window.location.search?window.location.search:"?") |
+| Host/Dominio e Percorso | s.dynamicAccountMatch=window.location.host+window.location.pathname |
+| Percorso e stringa query | s.dynamicAccountMatch=window.location.pathname+(window.location.search?window.location.search""?") |
+| URL completo | s.dynamicAccountMatch=window.location.href |
 
