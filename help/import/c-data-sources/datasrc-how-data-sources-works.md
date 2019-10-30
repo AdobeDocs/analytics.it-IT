@@ -1,25 +1,23 @@
 ---
 description: Informazioni su come Adobe consente l'accesso a Origini dati.
 seo-description: Informazioni su come Adobe consente l'accesso a Origini dati.
-seo-title: Funzionamento delle Origini dati
+seo-title: Funzionamento di Origini dati
 solution: Analytics
 subtopic: Origini dati
-title: Funzionamento delle Origini dati
+title: Funzionamento di Origini dati
 topic: Sviluppatore e implementazione
-uuid: ee 9 e 6 e 74-9 b 00-4733-9 a 4 b-d 9 f 2 b 954 cc 7 c
+uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Funzionamento delle Origini dati
+# Funzionamento di Origini dati
 
 Informazioni su come Adobe consente l'accesso a Origini dati.
 
->[!NOTE]
->
->Una volta inviati tramite Origini dati, i dati importati non sono distinguibili dai dati di reporting raccolti utilizzando altri metodi (beacon javascript, actionsource, API di inserimento dati, ecc.). Non puoi rimuovere i dati una volta importati.
+> [!NOTE] Una volta inviati tramite Origini dati, i dati importati non sono distinguibili dai dati di reporting raccolti utilizzando altri metodi (beacon JavaScript, ActionSource, API di inserimento dati, ecc.). Non puoi rimuovere i dati una volta importati.
 
 ![](assets/data_sources_overview.png)
 
