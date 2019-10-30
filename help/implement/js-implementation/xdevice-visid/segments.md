@@ -2,23 +2,23 @@
 description: Puoi creare un segmento ogni volta che si verifica un'associazione per un cookie ID visitatore specificato.
 keywords: Implementazione di Analytics
 seo-description: Puoi creare un segmento ogni volta che si verifica un'associazione per un cookie ID visitatore specificato.
-seo-title: Creare segmenti
+seo-title: Creare un segmento
 solution: Analytics
-title: Creare segmenti
+title: Creare un segmento
 topic: Sviluppatore e implementazione
-uuid: 476 a 4667-033 c -4 e 53-961 d-ad 67 e 7 c 2 b 045
+uuid: 476a4667-033c-4e53-961d-ad67e7c2b045
 translation-type: tm+mt
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Creare segmenti
+# Creare un segmento
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Fai riferimento alla documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud Device Co-op.
 
 Puoi creare un segmento ogni volta che si verifica un'associazione per un cookie ID visitatore specificato.
 
-Based on the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), if you created a segment where visit number equals 9, it would include server calls 12 and 13. Anche tramite la chiamata del server 11 è tecnicamente parte della stessa visita, i dati storici per la chiamata al server non vengono modificati e il numero di visite rimane invariato.
+In base alla tabella [](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)precedente, se hai creato un segmento con un numero di visita uguale a 9, includerebbe le chiamate al server 12 e 13. Anche attraverso la chiamata del server 11 faceva tecnicamente parte della stessa visita, i dati storici per quella chiamata al server non vengono modificati e il numero della visita rimane invariato.
