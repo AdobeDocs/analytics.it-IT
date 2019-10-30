@@ -7,7 +7,7 @@ title: Rapporti fonti traffico
 topic: Analisi ad hoc
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -99,13 +99,11 @@ I domini o gli URL che non fanno parte di tali domini definiti e gli URL sono co
 
 Per ulteriori informazioni, consulta Filtri [URL](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) interni nella [!DNL Admin Console] guida.
 
->[!NOTE]
->
->I report e le analisi di marketing registrano un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento di messaggio e-mail contenente il protocollo [!DNL imap://] o [!DNL mail://] e arrivano sul sito. Ad esempio, qualsiasi cosa proveniente da [!DNL https://mail.yahoo.com] viene conteggiata come referente e-mail perché il protocollo è [!DNL https://]. Le e-mail di Outlook vengono riportate nella riga Typed/Bookmarked, mentre qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore di ricerca.
+> [!NOTE] I report e le analisi di marketing registrano un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento di messaggio e-mail contenente il protocollo [!DNL imap://] o [!DNL mail://] e arrivano sul sito. Ad esempio, qualsiasi cosa proveniente da [!DNL https://mail.yahoo.com] viene conteggiata come referente e-mail perché il protocollo è [!DNL https://]. Le e-mail di Outlook vengono riportate nella riga Typed/Bookmarked, mentre qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore di ricerca.
 
 ## Tipo di riferimento {#concept_689E42D8F96C450DA41C7167C7388198}
 
-Tracciando e registrando i siti di provenienza dei visitatori per ogni visita, puoi determinare in che modo i visitatori hanno scoperto il sito per ogni visita.
+Tracciando e registrando i siti di riferimento dei visitatori per ogni visita, puoi determinare in che modo i visitatori hanno scoperto il sito per ogni visita.
 
 <!-- 
 
@@ -120,7 +118,7 @@ L'elenco seguente definisce i vari tipi di referenti:
 * *Vengono registrati i riferimenti digitati/con segnalibro*
 
    * Se un visitatore accede al sito tramite un collegamento non del browser (ad esempio, in un messaggio e-mail).
-   * Se un visitatore digita l’URL del sito direttamente nel browser.
+   * Se un visitatore digita l'URL del sito direttamente nel browser.
    * Se un visitatore fa clic su un collegamento HTML sul suo disco rigido personale.
    * Se un visitatore accede al sito selezionando i segnalibri del browser.
 
@@ -134,7 +132,5 @@ Durante l'esecuzione di questo rapporto potrebbero essere visualizzati i seguent
 
 **USENET (newsgroup)**: Ciò significa che l'URL di un referente è iniziato con `news://`. Come tale, il collegamento del referente è stato pubblicato su un newsgroup Usenet anziché su una pagina Web.
 
->[!NOTE]
->
->La logica Tipo referente corrisponde ad altri rapporti origini traffico (ad esempio [!UICONTROL Referrers] e [!UICONTROL Referring Domains]). In questo modo si riducono o si eliminano le occorrenze degli elementi di riga all'interno del sito e non vi sono elementi JavaScript nel [!UICONTROL Referrer Type] rapporto.
+> [!NOTE] La logica Tipo referente corrisponde ad altri rapporti origini traffico (ad esempio [!UICONTROL Referrers] e [!UICONTROL Referring Domains]). In questo modo si riducono o si eliminano le occorrenze degli elementi di riga all'interno del sito e non vi sono elementi JavaScript nel [!UICONTROL Referrer Type] rapporto.
 
