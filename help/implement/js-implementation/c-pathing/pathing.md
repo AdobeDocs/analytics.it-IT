@@ -1,28 +1,26 @@
 ---
-description: Il percorso è definito come percorso che gli utenti passano sul sito.
+description: Per percorso si intende il percorso seguito dagli utenti all’interno del sito.
 keywords: Implementazione di Analytics
-seo-description: Il percorso è definito come percorso che gli utenti passano sul sito.
-seo-title: Panoramica dei percorsi
+seo-description: Per percorso si intende il percorso seguito dagli utenti all’interno del sito.
+seo-title: Panoramica della tracciatura percorso
 solution: Analytics
-title: Panoramica dei percorsi
+title: Panoramica della tracciatura percorso
 topic: Sviluppatore e implementazione
-uuid: 18 acfd 9 f -4 e 5 f -4 c 2 d -8 be 8-743 be 135 e 7 d 6
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
 translation-type: tm+mt
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Panoramica dei percorsi
+# Panoramica della tracciatura percorso
 
-Il percorso è definito come percorso che gli utenti passano sul sito.
+Per percorso si intende il percorso seguito dagli utenti all’interno del sito.
 
-Ad esempio, un visitatore è entrato nella pagina A, quindi la pagina B, quindi la pagina C.I percorsi sono una delle potenti funzionalità di Analytics. Le enormi informazioni che vengono fornite sono decisive per le aziende che desiderano comprendere i pattern di traffico dei visitatori.
+Ad esempio, un visitatore è passato alla pagina A, quindi alla pagina B, e quindi alla pagina C. Il percorso è una delle funzioni molto potenti di Analytics. L'incredibile intuizione che porta è fondamentale per le aziende che cercano di capire i modelli di traffico dei visitatori.
 
-Analytics integrato fornisce percorsi a livello di pagina. L'idea fondamentale dietro i percorsi è rappresentata dall'ordine di pagine visualizzato dagli utenti durante le visite. Questi dati vengono presentati in diversi rapporti che formattano i dati in vari modi, a seconda di cosa stai cercando di vedere.
+Analytics fornisce percorsi a livello di pagina. L’idea di base dietro il percorso è che viene mostrato l’ordine delle pagine che gli utenti hanno visto durante le loro visite. Questi dati vengono presentati in diversi rapporti diversi che formattano i dati in modi diversi, a seconda di quanto si sta cercando di vedere.
 
->[!NOTE]
->
->To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Per abilitare i percorsi nei rapporti Site Section e Server, contatta l'Assistenza clienti.
+> [!NOTE] Per abilitare il percorso, passare a **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Per abilitare il percorso nei rapporti Sezione del sito e Server, contatta l'Assistenza clienti.
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+Esplorare opzioni di percorsi (flusso) più potenti in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
