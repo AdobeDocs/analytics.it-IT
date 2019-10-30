@@ -5,7 +5,7 @@ seo-title: Rapporti sui dispositivi mobili
 title: Rapporti sui dispositivi mobili
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Visualizza informazioni sull'accesso ai siti Web da un dispositivo mobile. I rap
 
 Per migliorare l'identificazione dei visitatori per i dispositivi mobili, dovete essere nell'elenco dei portatori (white list) per l'invio degli ID degli abbonati a un dominio. (È possibile visualizzare il vettore nel rapporto **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** .)
 
->[!NOTE]
->
->Per visualizzare i rapporti su un dispositivo mobile, accedi a [Experience Cloud](https://login.experiencecloud.adobe.com).
+> [!NOTE] Per visualizzare i rapporti su un dispositivo mobile, accedi a [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il sito [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) .
 
