@@ -1,17 +1,17 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Tempo trascorso sulla sezione del sito
+seo-title: Tempo trascorso nella sezione del sito
 solution: Analytics
-title: Tempo trascorso sulla sezione del sito
+title: Tempo trascorso nella sezione del sito
 topic: Rapporti
-uuid: e 8820 dc 6-7 ecd -4 d 4 c -9 a 40-96 f 008 c 5 ddd 3
+uuid: e8820dc6-7ecd-4d4c-9a40-96f008c5ddd3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Tempo trascorso sulla sezione del sito
+# Tempo trascorso nella sezione del sito
 
-See [Time Spent](../../../components/c-variables/c-metrics/metrics-time-spent.md#concept_1241109A742947C9B73E5E2CA2362559) for more information.
+Per ulteriori informazioni, consulta [Tempo trascorso](../../../components/c-variables/c-metrics/metrics-time-spent.md#concept_1241109A742947C9B73E5E2CA2362559) .
