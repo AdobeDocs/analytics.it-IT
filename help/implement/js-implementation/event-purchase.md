@@ -8,7 +8,7 @@ title: Eventi di acquisto
 topic: Sviluppatore e implementazione
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
+source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
 
 Per l'evento di acquisto, le variabili di Analytics sono utilizzate per acquisire informazioni di acquisto specifiche. La `s.purchaseID` variabile viene utilizzata per serializzare (deduplicare) l’evento.
 
-Se un evento di acquisto viene chiamato senza un `purchaseID`, ne viene generato automaticamente uno univoco in base alle `s.products` variabili e `s.events` . Questo ID acquisto generato automaticamente viene memorizzato localmente come cookie nel browser del visitatore e non viene inviato ad Adobe. Gli ID acquisto definiti manualmente vengono invece inviati ad Adobe. Gli ultimi cinque acquisti effettuati da un visitatore (con o senza ID acquisto) vengono memorizzati nel cookie locale.
+Se un hit con un evento di acquisto viene passato senza un ID acquisto, Adobe Analytics utilizza le informazioni dall’hit (s.purchase e s.events) per creare un "ID acquisto temporaneo". Questo ID acquisto temporaneo si applica solo al visitatore dell’hit. I 5 ID acquisto temporaneo precedenti sono memorizzati per ciascun ID visitatore (per suite di rapporti).
 
 Quando un visitatore effettua un acquisto, vengono effettuati i seguenti controlli:
 
-* L'ID acquisto corrisponde a uno dei cinque valori dei cookie? In tal caso, la richiesta di immagine viene considerata un acquisto duplicato. Tutte le variabili di conversione, incluso l'evento di acquisto, non vengono visualizzate nel reporting.
+* L'ID acquisto temporaneo corrisponde a uno degli ultimi cinque ID acquisto temporaneo memorizzati? In tal caso, la richiesta di immagine viene considerata un acquisto duplicato. Tutte le variabili di conversione, incluso l'evento di acquisto, non vengono visualizzate nel reporting.
 * Se `s.purchaseID` è definito, corrisponde ad alcun valore già raccolto nella suite di rapporti? In tal caso, la richiesta di immagine viene considerata un acquisto duplicato. Tutte le variabili di conversione, incluso l'evento di acquisto, non vengono visualizzate nel reporting.
 
 È possibile utilizzare un codice lato server specifico per generare il numero univoco (valore alfanumerico) incorporato nell'origine HTML. Solitamente, a questo scopo viene utilizzato l'ID ordine o un valore alfanumerico simile. Questo valore non deve essere modificato se l'utente aggiorna la pagina.
