@@ -7,7 +7,7 @@ solution: Experience Cloud,Gestione tag dinamica
 title: Gestione della libreria
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in
 
 **[!UICONTROL  *`Property`*]**&gt;![](assets/settings_gear.png)**[!UICONTROL Edit Tool]**&gt;**[!UICONTROL Library Management]**
 
->[!NOTE]
->
->Se in un'unica proprietà Web vengono utilizzati più strumenti Adobe Analytics, ogni strumento deve avere un nome univoco per la variabile di tracciamento. I nomi di variabili oggetto duplicati tra gli strumenti Adobe Analytics all'interno di una singola proprietà Web causeranno conflitti.
+> [!NOTE] Se in un'unica proprietà Web vengono utilizzati più strumenti Adobe Analytics, ogni strumento deve avere un nome univoco per la variabile di tracciamento. I nomi di variabili oggetto duplicati tra gli strumenti Adobe Analytics all'interno di una singola proprietà Web causeranno conflitti.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
