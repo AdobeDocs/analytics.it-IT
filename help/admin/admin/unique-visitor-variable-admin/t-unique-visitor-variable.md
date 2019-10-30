@@ -1,25 +1,25 @@
 ---
-description: Procedura che descrive come specificare quale evar contiene l'identificatore visitatore.
-seo-description: Procedura che descrive come specificare quale evar contiene l'identificatore visitatore.
+description: Passaggi che descrivono come specificare quale eVar contiene l’identificatore del visitatore.
+seo-description: Passaggi che descrivono come specificare quale eVar contiene l’identificatore del visitatore.
 seo-title: Specificare la variabile Visitatore univoco
 solution: Analytics
 title: Specificare la variabile Visitatore univoco
 topic: Strumenti di amministrazione
-uuid: 88 ac 962 c-a 13 b -4 f 93-81 b 5-f 5 eda 8 b 463 e 2
+uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Specificare la variabile Visitatore univoco
 
-Procedura che descrive come specificare quale evar contiene l'identificatore visitatore.
+Passaggi che descrivono come specificare quale eVar contiene l’identificatore del visitatore.
 
-Questa variabile indica un evar che contiene l'identificatore visitatore univoco. Questa variabile consente di segnalare l'attività del cliente utilizzando il proprio identificatore univoco.
+Questa variabile indica un eVar che contiene l’identificatore visitatore univoco. Questa variabile consente di creare rapporti sull'attività del cliente utilizzando il proprio identificatore univoco.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Unique Visitor Variable]**.
-1. Select the **[!UICONTROL Available eVars]** checkbox to enable the drop-down list.
-1. Select an eVar from the drop-down list, then click **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Unique Visitor Variable]**.
+1. Selezionate la **[!UICONTROL Available eVars]** casella di controllo per attivare l’elenco a discesa.
+1. Selezionate una eVar dall'elenco a discesa, quindi fate clic su **[!UICONTROL Save]**.
