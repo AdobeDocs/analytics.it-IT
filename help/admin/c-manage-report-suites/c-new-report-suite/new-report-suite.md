@@ -7,7 +7,7 @@ title: 'Nuova suite di rapporti: impostazioni'
 topic: Strumenti di amministrazione
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Puoi creare una nuova suite di rapporti selezionando un modello predefinito o ut
 
 Descrizioni degli elementi utilizzati per [creare una suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)di rapporti.
 
->[!NOTE]
->
->La documentazione [della suite di rapporti](/help/components/vrs/c-workflow-vrs/vrs-create.md) virtuale illustra come creare suite di rapporti virtuali.
+> [!NOTE] La documentazione [della suite di rapporti](/help/components/vrs/c-workflow-vrs/vrs-create.md) virtuale illustra come creare suite di rapporti virtuali.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
