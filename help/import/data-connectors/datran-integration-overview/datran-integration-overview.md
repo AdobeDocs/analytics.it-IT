@@ -5,7 +5,7 @@ seo-title: Connettore dati Datran per Adobe Analytics
 title: Connettore dati Datran per Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,9 +30,9 @@ Questa integrazione e-mail dei Connettori dati supporta segmenti di marketing di
 
 Questa integrazione include i seguenti segmenti di marketing:
 
-* **** Profili di acquisto:Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
-* **** Profilo comportamentale visualizzazione prodotto/contenuto:Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
-* **** Profilo abbandono carrello:Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
+* **** Profili di acquisto: Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
+* **** Profilo comportamentale visualizzazione prodotto/contenuto: Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
+* **** Profilo abbandono carrello: Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
 * I clienti possono anche creare e pianificare segmenti di remarketing personalizzati in base alle esigenze dei propri utenti.
 
 ## Procedura di integrazione e prerequisiti{#integration-procedure-and-prerequisites}
