@@ -8,7 +8,7 @@ title: Aggiunta dello strumento Adobe Analytics
 topic: Sviluppatore e implementazione
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
 
->[!NOTE]
->
->Per migliorare il tracciamento dei visitatori, ti consigliamo vivamente di abilitare [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+> [!NOTE] Per migliorare il tracciamento dei visitatori, ti consigliamo vivamente di abilitare [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
