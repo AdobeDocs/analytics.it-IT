@@ -7,7 +7,7 @@ title: Download dei file
 topic: Rapporti
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
