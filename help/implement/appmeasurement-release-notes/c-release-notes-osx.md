@@ -8,7 +8,7 @@ title: Mac OS X
 topic: Sviluppatore e implementazione
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 >
 >Questi SDK sono scaduti e non sono più supportati o distribuiti da Adobe.
 
->[!NOTE]
->
->Per trovare la versione corrente della libreria, attivate la registrazione di debug.
+> [!NOTE] Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
 I [download](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) della libreria mobile sono disponibili in [!DNL Developer Connection].
 
