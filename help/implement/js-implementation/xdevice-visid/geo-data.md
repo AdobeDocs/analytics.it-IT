@@ -1,24 +1,24 @@
 ---
-description: I dati di geolocalizzazione vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
+description: I dati di segmentazione geografica vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
 keywords: Implementazione di Analytics
-seo-description: I dati di geolocalizzazione vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
-seo-title: Dati di geolocalizzazione
+seo-description: I dati di segmentazione geografica vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
+seo-title: Dati di geo-segmentazione
 solution: Analytics
-title: Dati di geolocalizzazione
+title: Dati di geo-segmentazione
 topic: Sviluppatore e implementazione
-uuid: 8449 bf 11-c 367-4698-a 73 e-f 6 cb 59 f 8 c 945
+uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
 translation-type: tm+mt
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dati di geolocalizzazione
+# Dati di geo-segmentazione
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Fai riferimento alla documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud Device Co-op.
 
-I dati di geolocalizzazione vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
+I dati di segmentazione geografica vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
 
-Se un cliente sfoglia il sito dal proprio computer di casa e quindi da un dispositivo mobile entro 30 minuti, i dati della segmentazione non vengono modificati. Se utilizzi VISTA per compilare un evar con dati di segmentazione, si basa sull'indirizzo IP in ciascun hit. Questo potrebbe causare più valori di dati relativi alla geolocalizzazione se l'indirizzo IP cambia per la stessa visita.
+Se un cliente accede al sito dal computer di casa e successivamente da un dispositivo mobile entro 30 minuti, i dati di segmentazione geografica non vengono modificati. Se si utilizza VISTA per compilare un eVar con dati di segmentazione geografica, questo si basa sull'indirizzo IP di ogni hit. Ciò potrebbe causare più valori di dati di segmentazione geografica se l’indirizzo IP cambia per la stessa visita.
