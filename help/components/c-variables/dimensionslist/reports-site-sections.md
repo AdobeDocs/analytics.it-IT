@@ -1,20 +1,20 @@
 ---
-description: Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall'utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l'impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.
-seo-description: Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall'utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l'impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.
+description: ' Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall''utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l''impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.'
+seo-description: ' Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall''utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l''impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.'
 seo-title: Sezione sito
 solution: Analytics
 title: Sezione sito
 topic: Rapporti
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Sezione sito
 
-Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall'utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l'impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.
+ Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall'utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l'impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.
 
 * Questo rapporto fa riferimento direttamente ai dati della variabile [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implementata sul sito Web.
 * Questo rapporto può essere visualizzato sia in formato con tendenze che in formato classifica.
