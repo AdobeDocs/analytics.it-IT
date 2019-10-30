@@ -1,46 +1,44 @@
 ---
-description: La variabile di conversione personalizzata (o evar) viene inserita nel codice Adobe sulle pagine Web selezionate del sito. Il suo scopo primario è quello di segmentare le metriche di successo conversione nei report di marketing personalizzati.
-keywords: Implementazione di Analytics; Evar; variabile di conversione; Evar, valore; conversione; Evento success
-seo-description: La variabile di conversione personalizzata (o evar) viene inserita nel codice Adobe sulle pagine Web selezionate del sito. Il suo scopo primario è quello di segmentare le metriche di successo conversione nei report di marketing personalizzati.
-seo-title: Variabili di conversione (evars)
+description: La variabile di conversione dell'intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati.
+keywords: Implementazione di Analytics;eVar;variabile di conversione;eVar value;conversion;success event
+seo-description: La variabile di conversione dell'intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati.
+seo-title: Conversion Variables (Variabili di conversione) (eVars)
 solution: Analytics
-title: Variabili di conversione (evars)
+title: Conversion Variables (Variabili di conversione) (eVars)
 topic: Sviluppatore e implementazione
-uuid: 50071 c 1 c-be 00-4 b 3 a-a 7 ee -5 d 129 acf 498 b
+uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Variabili di conversione (evars)
+# Conversion Variables (Variabili di conversione) (eVars)
 
-La variabile di conversione personalizzata (o evar) viene inserita nel codice Adobe sulle pagine Web selezionate del sito. Il suo scopo primario è quello di segmentare le metriche di successo conversione nei report di marketing personalizzati.
+La variabile di conversione dell'intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati.
 
-Le evar sono utilizzate per misurare cause ed effetti, ad esempio:
+Le eVar vengono utilizzate in modo ottimale per misurare la causa e l'effetto, ad esempio:
 
-* Campagne interne influite sui ricavi
-* Quali annunci banner hanno generato una registrazione
-* Numero di volte in cui è stata utilizzata una ricerca interna prima di effettuare un ordine
+* Quali campagne interne hanno influenzato le entrate
+* Quali banner pubblicitari sono risultati in ultima istanza una registrazione
+* Numero di volte in cui è stata utilizzata una ricerca interna prima di eseguire un ordine
 
 >[!IMPORTANT]
 >
->Durante l'implementazione di Analytics, è importante sapere quali evar utilizzeranno e quanti. Devi anche comprendere come configurare queste evar in Admin Console. For detailed information about eVars, see [Conversion Variables (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) in the Analytics Help and reference documentation.
+>Durante l'implementazione di Analytics, è importante sapere quali eVar utilizzerete e quanti. Devi anche capire come configurare queste eVar nell'Admin Console. Per informazioni dettagliate sulle eVar, vedi Variabili di [conversione (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) nella Guida di Analytics e nella documentazione di riferimento.
 
-Un evar può essere basato su visite e funziona in modo simile ai cookie. I valori passati nelle variabili evar seguono l'utente per un periodo di tempo predeterminato.
+Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
 
-Quando un evar è impostato su un valore per un visitatore, Adobe ricorda automaticamente tale valore fino alla scadenza. Tutti gli eventi di successo rilevati da un visitatore mentre il valore evar è attivo vengono conteggiati verso il valore evar.
+Quando un eVar viene impostato su un valore per un visitatore, Adobe ricorda automaticamente tale valore fino alla scadenza. Eventuali eventi di successo riscontrati da un visitatore mentre il valore eVar è attivo vengono conteggiati per il valore eVar.
 
->[!NOTE]
->
->In una richiesta di immagine è possibile memorizzare solo un singolo valore. If multiple values are desired in an eVar value, we recommend that you implement [List variables](/help/implement/js-implementation/c-variables/page-variables.md) (list vars).
+> [!NOTE] In una richiesta di immagine è possibile memorizzare un solo valore in una eVar. Se più valori sono desiderati in un valore eVar, si consiglia di implementare le variabili [](/help/implement/js-implementation/c-variables/page-variables.md) Elenco (variabili elenco).
 
 Per ulteriori informazioni sulle variabili, vedi:
 
-* [Variabili per implementazione e reporting di Analytics](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) in questa guida
-* [Variabili - Modalità di utilizzo nel reporting](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [Variabili di pagina](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variabile Campaign](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Variabili per implementazione e reporting](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) di Analytics in questa guida
+* [Variabili - Modalità di utilizzo nei report](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
+* [Variabili pagina](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Variabile campagna](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Variabile "products"](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variabile dei prodotti](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) nella documentazione SDK di Mobile
+* [Variabile](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) "products" nella documentazione di Mobile SDK
 
