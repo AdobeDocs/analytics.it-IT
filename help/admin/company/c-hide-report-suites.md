@@ -1,14 +1,14 @@
 ---
 description: Consente di nascondere le suite di rapporti nell'interfaccia utente di Adobe Analytics.
-keywords: eliminazione suite di rapporti
+keywords: elimina suite di rapporti
 seo-description: Consente di nascondere le suite di rapporti nell'interfaccia utente di Adobe Analytics.
 seo-title: Nascondere suite di rapporti
 solution: Analytics
 title: Nascondere suite di rapporti
 topic: Strumenti di amministrazione
-uuid: 3 e 857 ba 7-d 48 e -44 d 5-ad 60-f 3349 e 203 e 10
+uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,20 +17,20 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Consente di nascondere le suite di rapporti nell'interfaccia utente di Adobe Analytics.
 
-Se non desiderate che una suite di rapporti sia disponibile per voi e per i vostri utenti, potete nasconderla dalla vista. I motivi possibili per nascondere una suite di rapporti includono le modifiche all'implementazione o la creazione di una suite di rapporti per errore.
+Se non desiderate che una suite di rapporti sia più disponibile per voi e per gli utenti, potete nasconderla dalla visualizzazione. I motivi per cui potrebbe essere utile nascondere una suite di rapporti includono modifiche di implementazione o la creazione errata di una suite di rapporti.
 
-Nascondere una suite di rapporti ne impedisce la visualizzazione nel menu a discesa Selettore suite di rapporti, in Strumenti di amministrazione o in qualsiasi altro punto in cui vengono visualizzate le suite di rapporti. Rende i dati della suite di rapporti inaccessibili tramite le interfacce di Adobe Analytics fino a quando la suite di rapporti non sarà nascosta.
+Nascondere una suite di rapporti ne impedisce la visualizzazione nel menu a discesa del selettore della suite di rapporti, in Strumenti di amministrazione o in qualsiasi altro punto in cui vengono visualizzate le suite di rapporti. Rende i dati della suite di rapporti inaccessibili tramite le interfacce Adobe Analytics fino a quando la suite di rapporti non viene nascosta.
 
 >[!IMPORTANT]
 >
->I dati inviati a una suite di rapporti nascosta dal sito continuano a essere raccolti, elaborati e fatturati. In altre parole, una suite di rapporti non viene mai eliminata completamente.
+>I dati inviati a una suite di rapporti nascosta dal sito continuano a essere raccolti, elaborati e fatturati. In altre parole, una suite di rapporti non viene mai completamente eliminata.
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Check the **[!UICONTROL Hidden]** checkbox to the left of the report suite name.
+Per nascondere la suite di rapporti, andate a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Seleziona la **[!UICONTROL Hidden]** casella di controllo a sinistra del nome della suite di rapporti.
 
-To unhide the report suite, uncheck the **[!UICONTROL Hidden]** checkbox.
+Per visualizzare la suite di rapporti, deselezionate la **[!UICONTROL Hidden]** casella di controllo.
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+Per visualizzare solo le suite di rapporti nascoste, in **[!UICONTROL Company Settings]**, selezionate **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+Per visualizzare solo le suite di rapporti visibili, in **[!UICONTROL Company Settings]**, selezionate **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+Il valore predefinito è **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
