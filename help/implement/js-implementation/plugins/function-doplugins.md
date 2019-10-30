@@ -1,28 +1,28 @@
 ---
-description: I plug-in javascript vengono in genere denominati dalla funzione doplugins, che viene eseguita quando la funzione t () viene chiamata nel Codice da incollare.
+description: I plug-in JavaScript vengono in genere chiamati dalla funzione doPlugins, che viene eseguita quando la funzione t() viene chiamata nel codice da incollare.
 keywords: Implementazione di Analytics
-seo-description: I plug-in javascript vengono in genere denominati dalla funzione doplugins, che viene eseguita quando la funzione t () viene chiamata nel Codice da incollare.
-seo-title: Funzione doplugins
+seo-description: I plug-in JavaScript vengono in genere chiamati dalla funzione doPlugins, che viene eseguita quando la funzione t() viene chiamata nel codice da incollare.
+seo-title: Funzione doPlugins
 solution: Analytics
 subtopic: Plug-in
-title: Funzione doplugins
+title: Funzione doPlugins
 topic: Sviluppatore e implementazione
-uuid: 367 d 5550-f 8 e 2-477 d -8681-18 ae 9665 d 699
+uuid: 367d550-f8e2-477d-8681-18ae9665d699
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Funzione doplugins
+# Funzione doPlugins
 
-I plug-in javascript vengono in genere denominati dalla funzione doplugins, che viene eseguita quando la funzione t () viene chiamata nel Codice da incollare.
+I plug-in JavaScript vengono in genere chiamati dalla funzione doPlugins, che viene eseguita quando la funzione t() viene chiamata nel codice da incollare.
 
-Consequently, if you set a variable in the `doPlugins` function, you may overwrite a variable you set on the HTML page. The only time the `doPlugins` function is not called is when the *`usePlugins`* variable is set to `false`.
+Di conseguenza, se si imposta una variabile nella `doPlugins` funzione, è possibile sovrascrivere una variabile impostata nella pagina HTML. L'unica volta che la `doPlugins` funzione non viene chiamata è quando la *`usePlugins`* variabile è impostata su `false`.
 
 **Esempio di codice**
 
-The `doPlugins` function is typically called `s_doPlugins`. However, in certain circumstances (usually when more than one version of [!DNL Analytics] code may appear on a single page), you can change the `doPlugins` function name. If the standard `doPlugins` function needs to be renamed to avoid conflicts, assign `doPlugins` the correct function name, as shown in the example below.
+La `doPlugins` funzione viene in genere chiamata `s_doPlugins`. Tuttavia, in alcune circostanze (in genere quando più versioni di [!DNL Analytics] codice possono essere visualizzate su una sola pagina), è possibile modificare il nome della `doPlugins` funzione. Se è necessario rinominare la `doPlugins` funzione standard per evitare conflitti, assegnare `doPlugins` il nome corretto alla funzione, come illustrato nell'esempio seguente.
 
 ```js
 /* Plugin Config */ 
@@ -35,11 +35,11 @@ s_mc.doPlugins=
 <b>s_mc_doPlugins</b>
 ```
 
-**Utilizzo di doplugins**
+**Utilizzo di doPlugins**
 
-Questa funzione fornisce un modo semplice per fornire valori predefiniti alle variabili o per prendere valori dai parametri delle stringhe query su qualsiasi pagina del sito. Using `doPlugins` can be easier than populating the values in the HTML page, because only one file must be updated. Le modifiche al file javascript non sono sempre immediate. I visitatori che arrivano sul sito spesso utilizzano le versioni memorizzate nella cache del file javascript. Ciò significa che gli aggiornamenti al file potrebbero non essere applicati a tutti i visitatori fino a un mese dopo la modifica.
+Questa funzione consente di assegnare valori predefiniti alle variabili o di ricavare valori dai parametri delle stringhe di query su qualsiasi pagina del sito. L'utilizzo `doPlugins` può essere più semplice che compilare i valori nella pagina HTML, perché è necessario aggiornare solo un file. Le modifiche al file JavaScript non sono sempre immediate. I visitatori del sito spesso utilizzano versioni memorizzate nella cache del file JavaScript. Ciò significa che gli aggiornamenti al file potrebbero non essere applicati a tutti i visitatori per un massimo di un mese dopo la modifica.
 
-The following examples show how you can use the `doPlugins` function to set a default value for a variable and to get a value from the query string.
+Gli esempi seguenti mostrano come utilizzare la `doPlugins` funzione per impostare un valore predefinito per una variabile e ottenere un valore dalla stringa di query.
 
 ```js
 /* Plugin Config */ 
@@ -59,7 +59,7 @@ s.doPlugins=s_doPlugins
 
 **Plug-in installati**
 
-To find out whether a plugin is included in your JavaScript file and ready for use, look in the [!UICONTROL Plugins Section] of the JavaScript file. The following example shows what the `getQueryParam` function looks like in the [!UICONTROL Plugins Section].
+Per verificare se un plug-in è incluso nel file JavaScript e pronto per l'uso, consultare il file [!UICONTROL Plugins Section] di JavaScript. L'esempio seguente mostra l'aspetto della `getQueryParam` funzione nel [!UICONTROL Plugins Section].
 
 ```js
 /************************** PLUGINS SECTION *************************/ 
@@ -71,7 +71,7 @@ To find out whether a plugin is included in your JavaScript file and ready for u
 s.getQueryParam=new Function("qp","d","" 
 +"vars=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l" 
 // 
-// ... more code below ... 
+// ... more code below ...
 // 
 ```
 
