@@ -1,35 +1,35 @@
 ---
-description: La migrazione dei visitatori è un processo in cui il cookie ID visitatore viene migrato da un dominio all'altro.
+description: La migrazione dei visitatori è un processo in cui il cookie dell’ID visitatore viene migrato da un dominio all’altro.
 keywords: Implementazione di Analytics
-seo-description: La migrazione dei visitatori è un processo in cui il cookie ID visitatore viene migrato da un dominio all'altro.
+seo-description: La migrazione dei visitatori è un processo in cui il cookie dell’ID visitatore viene migrato da un dominio all’altro.
 seo-title: Migrazione dei visitatori
 solution: Analytics
 title: Migrazione dei visitatori
 topic: Sviluppatore e implementazione
-uuid: af 31928 c -85 d 7-407 f-a 583-0 c 8 f 2852 ceb 3
+uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Migrazione dei visitatori
 
-La migrazione dei visitatori è un processo in cui il cookie ID visitatore viene migrato da un dominio all'altro.
+La migrazione dei visitatori è un processo in cui il cookie dell’ID visitatore viene migrato da un dominio all’altro.
 
-La migrazione dei visitatori consente di mantenere i cookie di identificazione dei visitatori durante la modifica dei domini di raccolta dati. I domini di raccolta dati potrebbero cambiare per i motivi seguenti:
+La migrazione dei visitatori consente di mantenere i cookie di identificazione dei visitatori quando si modificano i domini di raccolta dati. I domini di raccolta dati potrebbero essere modificati per i motivi seguenti:
 
-* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
+* Passaggio da `2o7.net` a `omtrdc.net` (raccolta [dati](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)regionali).
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))
+* Stai implementando il servizio [ID visitatori di](https://marketing.adobe.com/resources/help/en_US/mcvid/) Experience Cloud e stai passando da un dominio di raccolta dati di prime parti a `2o7.net` o `omtrdc.net` (raccolta [dati](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)regionali)
 
-* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
+* Passaggio da `2o7.net` o `omtrdc.net` a una raccolta di dati name/first-party (cookie di [prime parti)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
 
 * Passaggio da un CNAME a un altro (modifica dei domini).
 
-Dopo che la migrazione dei visitatori è configurata, quando un utente visita il nuovo dominio senza cookie ID visitatore, il server reindirizza al nome host precedente della raccolta dati, recupera i cookie ID visitatore disponibili, quindi reindirizza nuovamente al nuovo dominio. Se un ID visitatore non viene trovato sul nome host precedente, viene generato un nuovo ID. Questo avviene solo una volta per visitatore.
+Dopo la configurazione della migrazione dei visitatori, quando un utente visita il nuovo dominio senza un cookie ID visitatore, il server reindirizza al nome host di raccolta dati precedente, recupera eventuali cookie ID visitatore disponibili e quindi reindirizza al nuovo dominio. Se non viene trovato un ID visitatore sul nome host precedente, viene generato un nuovo ID. Ciò si verifica solo una volta per visitatore.
 
-## Visitor Migration Process {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## Processo di migrazione dei visitatori {#section_FF0C5C5CAEF343FFA1892B29311F7160}
 
 Nella tabella seguente sono elencate le attività richieste per la migrazione dei visitatori:
 
@@ -42,28 +42,28 @@ Nella tabella seguente sono elencate le attività richieste per la migrazione de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Per iniziare:</b><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external"> Contatta l'Assistenza </a> clienti con i domini che desideri migrare e il periodo di migrazione che desideri abilitare (30, 60 o 90 giorni). Assicurati di includere domini sicuri e protetti. </p> </td> 
-   <td colname="col3"> <p>Create a list with the <i>exact</i> syntax for the domains you want to migrate to and migrate from. </p> 
+   <td colname="col1"> <p> <b></b> Per iniziare: <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external"> Contatta l’Assistenza clienti </a> con i domini che vuoi trasferire e il periodo di migrazione che desideri attivare (30, 60 o 90 giorni). Accertatevi di includere i domini non sicuri e protetti. </p> </td> 
+   <td colname="col3"> <p>Create un elenco con la sintassi <i>esatta</i> per i domini da cui eseguire la migrazione. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
-     <li id="li_0723D948465A49C1871B81207AEDC4DC">esempio .112 .2 o 7. net &gt; metrics.example.com </li> 
-     <li id="li_B0CA15A593BD4AB9802E33A3FF037C7A">esempio .102 .112 .2 o 7. net &gt; smetrics.example.com </li> 
-    </ul> <p>I nomi host di migrazione sono configurati sul server di raccolta dati Adobe. L'Assistenza clienti ti permetterà di sapere quando viene apportata la modifica per pianificare il passaggio successivo. </p> </td> 
+     <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metriche.example.com </li> 
+     <li id="li_B0CA15A593BD4AB9802E33A3FF037C7A">example.102.112.2o7.net &gt; smetriche.example.com </li> 
+    </ul> <p>I nomi host di migrazione sono configurati in Adobe Data Collection Server. L'Assistenza clienti ti informerà quando è stata apportata la modifica per pianificare il passaggio successivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>6 ore dopo la modifica della configurazione</b>: Aggiorna le <code> variabili s. trackingserver</code> e <code> s. trackingserversecure</code> nel codice javascript di Analytics per utilizzare i nuovi server di raccolta dati. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col1"> <p> <b>6+ ore dopo la modifica</b>della configurazione: Aggiorna le variabili <code> s.trackingServer</code> e <code> s.trackingServerSecure</code> il codice JavaScript di Analytics per utilizzare i nuovi server di raccolta dati. </p> </td> 
+   <td colname="col3"> <p>Dopo aver apportato questa modifica, usate un analizzatore <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> di</a> pacchetti per verificare che la richiesta di immagini Analytics vada al server di raccolta dati aggiornato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Subito dopo aver aggiornato il codice Analytics</b>: Verifica il tuo sito per verificare che venga eseguito il reindirizzamento al dominio di raccolta dati precedente. </p> </td> 
-   <td colname="col3"> <p>Use a <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. Se uno di questi reindirizzamenti non riesce, contatta immediatamente l'Assistenza clienti per accertarti che la migrazione sia configurata correttamente. </p> </td> 
+   <td colname="col1"> <p> <b>Immediatamente dopo aver aggiornato il codice</b>Analytics: Verificare il sito per verificare che si verifichi il reindirizzamento al dominio di raccolta dati precedente. </p> </td> 
+   <td colname="col3"> <p>Usate un analizzatore <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> di</a> pacchetti per verificare che quando accedete al sito per la prima volta, o dopo aver cancellato i cookie, vengano visualizzati due codici di stato HTTP 302 (reindirizzamento) prima del codice di stato HTTP 200 (OK). Se uno di questi reindirizzamenti non riesce, contatta immediatamente l'Assistenza clienti per verificare che la migrazione sia configurata correttamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Per l'intero periodo di migrazione</b>: Mantenere attivo il record DNS per il nome host precedente. </p> </td> 
-   <td colname="col3"> <p>Il nome host precedente deve risolvere il DNS o la migrazione dei cookie non si verifica. </p> </td> 
+   <td colname="col1"> <p> <b>Per l’intero periodo</b>di migrazione: Mantenere attivo il record DNS per il nome host precedente. </p> </td> 
+   <td colname="col3"> <p>Il nome host precedente deve essere risolto tramite DNS o la migrazione dei cookie non verrà eseguita. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Deprecated visitorMigrationKey and visitorMigrationServer Variables {#section_32FCEE2575944D039EA0FEBFB5814259}
+## Variabili visitorMigrationKey e visitorMigrationServer obsolete {#section_32FCEE2575944D039EA0FEBFB5814259}
 
-As of March 2013, the `visitorMigrationKey`, `visitorMigrationServer`, and `visitorMigrationServerSecure` data collection variables are deprecated and no longer used. I dati contenuti in precedenza in queste variabili sono ora memorizzati sui server Adobe per una maggiore protezione.
+A partire da marzo 2013, le variabili `visitorMigrationKey`, `visitorMigrationServer`e `visitorMigrationServerSecure` di raccolta dati sono obsolete e non sono più utilizzate. I dati precedentemente contenuti in queste variabili ora vengono memorizzati sui server Adobe per una maggiore protezione.
