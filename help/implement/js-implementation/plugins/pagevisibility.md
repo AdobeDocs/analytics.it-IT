@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Sviluppatore e implementazione
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Registra il numero di secondi in cui la pagina era la scheda attiva nel browser e trasmette tale valore in una metrica nella visualizzazione pagina successiva.
 
->[!NOTE]
->
->Questa è una versione beta del plugin, e ulteriori aggiornamenti potrebbe essere disponibile.
+> [!NOTE] Questa è una versione beta del plugin, e ulteriori aggiornamenti potrebbe essere disponibile.
 
 Questo plug-in richiede [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
@@ -27,9 +25,7 @@ Questo plug-in registra anche i secondi totali in cui la pagina si trovava all�
 
 È necessario utilizzare il plug-in getPreviousValue per tenere traccia del nome di pagina precedente associato agli eventi di visibilità della pagina. Il tracciamento di questi valori consente di comprendere meglio il coinvolgimento dei visitatori e di monitorare più accuratamente il comportamento dei visitatori sui siti.
 
->[!NOTE]
->
->Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza che utilizza e implementa Analytics. Questo plug-in è compatibile solo con le librerie di [!DNL AppMeasurement] tracciamento.
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza che utilizza e implementa Analytics. Questo plug-in è compatibile solo con le librerie di [!DNL AppMeasurement] tracciamento.
 
 ## Plug-in di supporto richiesti {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -130,7 +126,7 @@ Sì, i secondi totali delle pagine e le istanze di visibilità totali sono event
 
 **Gli eventi acquisiti avranno senso se li uso in rapporti diversi da Nome pagina precedente?**
 
-Poiché il plug-in registra i valori nella richiesta di immagine successiva, è possibile applicare solo altre eVar acquisite in un contesto di "pagina precedente", ovvero "URL pagina precedente".
+Poiché il plug-in registra i valori nella richiesta di immagine successiva, è possibile applicare solo altre eVar acquisite in un contesto di "pagina precedente", ovvero 'URL pagina precedente'.
 
 **Il plug-in invierà l’ora di visibilità su una chiamata s.tl() o solo su una chiamata s.t()?**
 
