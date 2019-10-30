@@ -1,21 +1,21 @@
 ---
-description: Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (impostandoli come «undefined». ")
+description: Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (li imposta come "undefined").
 keywords: Implementazione di Analytics
-seo-description: Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (impostandoli come «undefined». ")
-seo-title: La funzione s. clearvars ()
+seo-description: Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (li imposta come "undefined").
+seo-title: La funzione s.clearVars()
 solution: Analytics
-title: La funzione s. clearvars ()
+title: La funzione s.clearVars()
 topic: Sviluppatore e implementazione
-uuid: 43 c 425 bc -15 ae -4892-a 5 a 5-e 1 defcb 25 ff 4
+uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# La funzione s. clearvars ()
+# La funzione s.clearVars()
 
-Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (impostandoli come «undefined». ")
+Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (li imposta come "undefined").
 
 * `props`
 * `eVars`
@@ -38,7 +38,5 @@ Ad esempio:
 s.clearVars()
 ```
 
->[!NOTE]
->
->`clearVars()` è incluso in [appmeasurement per javascript](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) ma non è disponibile nel codice H e nelle versioni precedenti.
+> [!NOTE] è `clearVars()` incluso in [AppMeasurement per JavaScript](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) , ma non è disponibile nel codice H e nelle versioni precedenti.
 
