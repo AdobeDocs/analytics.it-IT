@@ -1,39 +1,37 @@
 ---
-description: Come utilizzare una suite di rapporti principale come modello per testare la configurazione del canale di marketing. Per risparmiare tempo, puoi applicare questo modello a una o più suite di rapporti di produzione in un aggiornamento di massa. Eseguite questa attività per i canali e i set di regole separatamente.
-seo-description: Come utilizzare una suite di rapporti principale come modello per testare la configurazione del canale di marketing. Per risparmiare tempo, puoi applicare questo modello a una o più suite di rapporti di produzione in un aggiornamento di massa. Eseguite questa attività per i canali e i set di regole separatamente.
+description: Come utilizzare una suite di rapporti principale come modello per testare la configurazione del canale di marketing. Per risparmiare tempo, potete applicare questo modello a una o più suite di rapporti di produzione in un aggiornamento di massa. Questa operazione viene eseguita separatamente per i canali e i set di regole.
+seo-description: Come utilizzare una suite di rapporti principale come modello per testare la configurazione del canale di marketing. Per risparmiare tempo, potete applicare questo modello a una o più suite di rapporti di produzione in un aggiornamento di massa. Questa operazione viene eseguita separatamente per i canali e i set di regole.
 seo-title: Applicazione delle impostazioni suite di rapporti per più suite di rapporti
 solution: Analytics
 subtopic: Canali di marketing
 title: Applicazione delle impostazioni suite di rapporti per più suite di rapporti
-topic: Reports & Analytics
-uuid: 212 d 16 d 7-fb 0 c -40 c 4-b 8 ff-a 86 c 9 a 511 a 23
+topic: Reports and Analytics
+uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Applicazione delle impostazioni suite di rapporti per più suite di rapporti
 
-Come utilizzare una suite di rapporti principale come modello per testare la configurazione del canale di marketing. Per risparmiare tempo, puoi applicare questo modello a una o più suite di rapporti di produzione in un aggiornamento di massa. Eseguite questa attività per i canali e i set di regole separatamente.
+Come utilizzare una suite di rapporti principale come modello per testare la configurazione del canale di marketing. Per risparmiare tempo, potete applicare questo modello a una o più suite di rapporti di produzione in un aggiornamento di massa. Questa operazione viene eseguita separatamente per i canali e i set di regole.
 
->[!NOTE]
->
->Potete applicare i canali da un modello prima di applicare set di regole. Durante l'esecuzione di questa procedura, i tuoi canali devono essere identici in tutte le suite di rapporti.
+> [!NOTE] Applicate i canali da un modello prima di applicare i set di regole. Durante l'esecuzione di questa procedura, i canali devono essere identici in tutte le suite di rapporti.
 
 **Applicazione delle impostazioni suite di rapporti per più suite di rapporti**
 
-1. Assicurati che il report Canale di marketing sia attivato per le suite di rapporti selezionate. Il manager dell'account esegue questo passaggio.
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. On the [!UICONTROL Report Suite Manager] page, select the template report suite, as well as one or more target report suites.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
-1. On the [!UICONTROL Select Master Report Suites] page, select a template report suite.
+1. Verifica che il rapporto Canale di marketing sia abilitato per le suite di rapporti selezionate. Questo passaggio viene eseguito dal tuo Account Manager.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Sulla [!UICONTROL Report Suite Manager] pagina, seleziona la suite di rapporti modello, così come una o più suite di rapporti di destinazione.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
+1. Sulla [!UICONTROL Select Master Report Suites] pagina, seleziona una suite di rapporti di modello.
 1. Fai clic su **[!UICONTROL Save All]**.
-1. Applica le regole da un modello a più suite di rapporti:
-   1. Return to the [!UICONTROL Report Suite Manager] page.
-   1. Seleziona la suite di rapporti modelli, nonché una o più suite di rapporti di destinazione.
-   1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Processing Rules]**.
+1. Applica regole da un modello a più suite di rapporti:
+   1. Tornate alla [!UICONTROL Report Suite Manager] pagina.
+   1. Seleziona la suite di rapporti modello, così come una o più suite di rapporti di destinazione.
+   1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Processing Rules]**.
    1. Fai clic su **[!UICONTROL Save]**.
 
-      Se in questo passaggio il pulsante Salva è disattivato, attivatelo espandendo una delle regole.
+      Se in questo passaggio il pulsante Salva è disattivato, attivarlo espandendo una delle regole.
 
