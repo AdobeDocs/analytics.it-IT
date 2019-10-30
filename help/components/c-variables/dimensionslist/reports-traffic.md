@@ -1,30 +1,30 @@
 ---
-description: I rapporti sul traffico offrono informazioni approfondite sul modo in cui i visitatori interagiscono con il tuo sito web.
-seo-description: I rapporti sul traffico offrono informazioni approfondite sul modo in cui i visitatori interagiscono con il tuo sito web.
-seo-title: Traffic (Traffico)
+description: I rapporti sul traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
+seo-description: I rapporti sul traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
+seo-title: Traffico
 solution: Analytics
-title: Traffic (Traffico)
+title: Traffico
 topic: Rapporti
-uuid: c 32 af 0 c 0-f 0 c 2-47 f 7-a 5 f 6-4 a 2 df 63 e 11 fc
+uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Traffic (Traffico)
+# Traffico
 
-I rapporti sul traffico offrono informazioni approfondite sul modo in cui i visitatori interagiscono con il tuo sito web.
+I rapporti sul traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
 
 I rapporti sul traffico consentono di:
 
-* Analizzare aspetti critici del comportamento dei visitatori.
+* Analizzare gli aspetti critici del comportamento dei visitatori.
 * Monitorare e comprendere i pattern di traffico.
-* Determinare il contenuto del sito più diffuso.
-* Segmentare i visitatori in base a criteri misurabili.
+* Consente di determinare il contenuto del sito più popolare.
+* Segmenta i visitatori in base a qualsiasi criterio misurabile.
 
-Some out-of-the-box reports contain both Traffic and Conversion metrics (such as the [!UICONTROL Search Engine] reports). However, [!UICONTROL Traffic] and [!UICONTROL Conversion] reports are unique to your organization and are displayed in the **[!UICONTROL Traffic]** and **[!UICONTROL Conversion]** menus.
+Alcuni report out-of-the-box contengono sia le metriche Traffic (Traffico) che Conversion (Conversione) (come i [!UICONTROL Search Engine] report). Tuttavia, [!UICONTROL Traffic] e [!UICONTROL Conversion] i rapporti sono specifici della tua organizzazione e vengono visualizzati nei **[!UICONTROL Traffic]** menu e nei **[!UICONTROL Conversion]** menu.
 
 **Persistenza comune**
 
-In Origini traffico, tutti i valori del report rimangono invariati e ricevono credito finché non vengono sovrascritti o finché la visita non termina, a seconda dell'origine. In precedenza venivano mantenute solo le parole chiave e i domini di riferimento. For example, if a visitor performs a Google search for *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. Questa funzionalità non è modificabile, a prescindere dalle impostazioni dell'amministratore.
+In Origini traffico, tutti i valori del report persistono e ricevono credito fino a quando non vengono sovrascritti o fino al termine della visita, a seconda di quale sia il primo. Precedentemente, erano persistenti solo le parole chiave e i domini di riferimento. Ad esempio, se un visitatore esegue una ricerca Google per *`DVD`*, che li porta sul sito per un acquisto di $100, il rapporto assegna un credito di $100 alla parola chiave *`DVD`* e anche al motore di ricerca Google. Questa funzionalità è immutabile, indipendentemente dalle impostazioni dell'amministratore.
