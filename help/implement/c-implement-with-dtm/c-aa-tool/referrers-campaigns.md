@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Gestione tag dinamica
 title: Riferimenti e campagne
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
