@@ -5,7 +5,7 @@ seo-title: Domande frequenti su Project Converter
 title: Domande frequenti su Project Converter
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>D: Come vengono convertiti gli intervalli di date?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Gli intervalli di date "Ultimo X giorno" in Analisi ad hoc <i>escludono</i> oggi, mentre Analysis Workspace <i>include</i> oggi. Di conseguenza, intervalli di date come "ultimi 90 giorni" potrebbero non corrispondere esattamente tra gli strumenti. Usa intervalli di date personalizzati per recuperare lo stesso periodo di tempo in Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Gli intervalli di date 'Ultimo X giorno' in Analisi ad hoc <i>escludono</i> oggi, mentre Analysis Workspace <i>include</i> oggi. Di conseguenza, intervalli di date come 'ultimi 90 giorni' potrebbero non corrispondere esattamente tra gli strumenti. Usa intervalli di date personalizzati per recuperare lo stesso periodo di tempo in Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">L’intervallo di date a livello di area di lavoro Analisi ad hoc viene applicato a livello di progetto/area di lavoro in Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">L’intervallo di date a livello di rapporto di Analisi ad hoc viene applicato a livello di colonna della tabella in Workspace. </li> 
     </ul> <p>Puoi modificare i tuoi intervalli di date personalizzati in <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Componenti</span> &gt; <span class="uicontrol"> Intervalli</span>di date. </p> </td> 
