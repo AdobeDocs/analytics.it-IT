@@ -1,22 +1,22 @@
 ---
-description: Per impostazione predefinita, la cronologia dei processi per gli ultimi 30 giorni viene segnalata per tutte le suite di rapporti.
-keywords: Feed dati; feed; processo; history
-seo-description: Per impostazione predefinita, la cronologia dei processi per gli ultimi 30 giorni viene segnalata per tutte le suite di rapporti.
-seo-title: Visualizzare la cronologia dei lavori di un feed
+description: Per impostazione predefinita, la cronologia del processo degli ultimi 30 giorni è riportata per tutte le suite di rapporti.
+keywords: Feed dati;feed;job;history
+seo-description: Per impostazione predefinita, la cronologia del processo degli ultimi 30 giorni è riportata per tutte le suite di rapporti.
+seo-title: Visualizzare la cronologia dei processi di un feed
 solution: Analytics
-title: Visualizzare la cronologia dei lavori di un feed
-uuid: db 47 c 9 c 5-4700-4269-9846-e 8 b 38911 a 654
+title: Visualizzare la cronologia dei processi di un feed
+uuid: db47c9c5-4700-4269-9846-e8b38911a654
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Visualizzare la cronologia dei lavori di un feed
+# Visualizzare la cronologia dei processi di un feed
 
-Per impostazione predefinita, la cronologia dei processi per gli ultimi 30 giorni viene segnalata per tutte le suite di rapporti.
+Per impostazione predefinita, la cronologia del processo degli ultimi 30 giorni è riportata per tutte le suite di rapporti.
 
 1. Selezionate uno o più feed.
 1. Fai clic su **[!UICONTROL Job History]**.
 
-   La pagina Processi si apre e visualizza la cronologia dei feed selezionati.
+   Viene visualizzata la pagina Processi che mostra la cronologia dei feed selezionati.
