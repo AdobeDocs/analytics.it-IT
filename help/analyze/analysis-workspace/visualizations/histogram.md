@@ -3,9 +3,9 @@ description: L’istogramma è un nuovo tipo di visualizzazione disponibile in A
 seo-description: L’istogramma è un nuovo tipo di visualizzazione disponibile in Analysis Workspace.
 seo-title: Istogramma
 title: Istogramma
-uuid: 8 a 6 bd 2 c 4-da 15-4 f 64-b 889-ab 9 add 685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Per creare un istogramma:
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->Gli istogrammi supportano solo metriche standard, non le metriche calcolate.
+> [!NOTE] Gli istogrammi supportano solo metriche standard, non metriche calcolate.
 
 In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori unici. Il primo intervallo (a sinistra) corrisponde a 1 visualizzazione di pagina per visitatore univoco; il secondo a 2 visualizzazioni di pagina, ecc.
 
@@ -41,7 +39,7 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 | Intervallo iniziale | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
 | Intervalli di metrica | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo consentito è 50. |
 | Dimensione intervalli di metrica | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
-| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) o [Hit](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Ad esempio, visualizzazioni di pagina per visita, per visitatore o per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
+| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) o [Hit](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Ad esempio, visualizzazioni di pagina per visita, per visitatore o per hit. Per Hit, "Occorrenze" viene utilizzato come metrica dell’asse y in una tabella a forma libera. |
 
 **Esempi**:
 
