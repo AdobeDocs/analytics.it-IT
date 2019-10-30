@@ -5,7 +5,7 @@ seo-title: Visualizzazione dell'utilizzo della chiamata server corrente
 title: Visualizzazione dell'utilizzo della chiamata server corrente
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Server Call Usage]** &gt; **[!UICONTROL Current Usage]**
 
->[!IMPORTANT]
->
->I numeri di utilizzo e di impegno visualizzati sono cumulativi tra tutte le società di accesso e le suite di rapporti.
+> [!IMPORTANT] I numeri di utilizzo e di impegno visualizzati sono cumulativi tra tutte le società di accesso e le suite di rapporti.
 
 Pannello Utilizzo corrente
 
@@ -27,9 +25,7 @@ Pannello Utilizzo corrente
 
 * Confronta l'utilizzo del periodo corrente con quello dello scorso anno (linea blu). Ovviamente, la linea blu verrà visualizzata solo se la società dispone di dati sull’utilizzo delle chiamate server dall’anno precedente.
 
-   >[!NOTE]
-   >
-   >Se desiderate visualizzare l'utilizzo per un periodo di tempo precedente, dovete passare alla scheda Utilizzo [suite di](/help/admin/c-server-call-usage/report-suite-usage.md) rapporti e scaricare i dati di utilizzo per un periodo precedente.
+   > [!NOTE] Se desiderate visualizzare l'utilizzo per un periodo di tempo precedente, dovete passare alla scheda Utilizzo [suite di](/help/admin/c-server-call-usage/report-suite-usage.md) rapporti e scaricare i dati di utilizzo per un periodo precedente.
 
 * Elenca la percentuale di chiamate utilizzate (in percentuali e dati non elaborati) e la percentuale del periodo di utilizzo trascorso (in percentuale e dati non elaborati).
 * Per impostazione predefinita, viene aggiornato ogni giorno, con una latenza di elaborazione di 5 giorni.
@@ -42,4 +38,3 @@ Pannello Utilizzo corrente
 | Utilizzo periodo corrente (verde) | Il periodo corrente è basato sul periodo di [utilizzo](/help/admin/c-server-call-usage/overage-overview.md). |
 | Utilizzo periodo precedente (blu) | Il periodo precedente è definito come periodo di utilizzo corrente meno 1 anno. |
 | Limite utilizzo (rosso) | Limite di utilizzo contrattuale per questo periodo di utilizzo. |
-
