@@ -3,9 +3,9 @@ description: Modifiche e miglioramenti all’opzione Annulla in Analysis Workspa
 seo-description: Modifiche e miglioramenti all’opzione Annulla in Analysis Workspace.
 seo-title: Impostazioni Annulla e Ripristina
 title: Impostazioni Annulla e Ripristina
-uuid: a 4 dbc 169-5 fd 7-4383-aee 0-6 b 5 ba 1 c 235 ab
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * Clicking **[!UICONTROL Save]** does not clear the **[!UICONTROL Undo]** stack.
 
-* **[!UICONTROL New Project]** o **[!UICONTROL Open Existing Project]** cancella lo **[!UICONTROL Undo]** stack
+* **[!UICONTROL New Project]** o **[!UICONTROL Open Existing Project]** cancellare lo **[!UICONTROL Undo]** stack
 
 * L’utente può annullare/ripristinare le modifiche alla suite di rapporti.
 * Il messaggio Annulla/Ripristina visualizzato vicino al nome del progetto segnala l’esecuzione dell’azione di annullamento o ripristino in corso.
