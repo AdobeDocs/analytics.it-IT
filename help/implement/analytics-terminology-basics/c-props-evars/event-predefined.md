@@ -1,32 +1,32 @@
 ---
 description: Elenco di eventi predefiniti.
-keywords: Implementazione di Analytics; evento
+keywords: Implementazione di Analytics;evento
 seo-description: Elenco di eventi predefiniti.
-seo-title: Che cos'è un evento predefinito?
+seo-title: L'evento predefinito
 solution: Analytics
-title: Che cos'è un evento predefinito?
+title: L'evento predefinito
 topic: Sviluppatore e implementazione
-uuid: 4 d 0799 ba -0 f 97-42 c 3-a 620-36 c 03 f 9995 da
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Che cos'è un evento predefinito?
+# L'evento predefinito
 
 Elenco di eventi predefiniti.
 
-| all'evento | L'evento success si verifica ogni volta che un visitatore visualizza un prodotto. |
+| all'evento | L'evento di successo si verifica ogni volta che un visitatore visualizza un prodotto. |
 |---|---|
-| Scview | L'evento Success si verifica ogni volta che viene visualizzato un carrello. |
-| Scoen | L'evento success si verifica ogni volta che un visitatore apre un carrello per la prima volta. |
-| Cetd | L'evento success si verifica ogni volta che un prodotto viene aggiunto a un carrello. |
-| Scremove | L'evento success si verifica ogni volta che un elemento viene estratto da un carrello. |
-| Sccheckout | L'evento success si verifica nella prima pagina di un checkout. |
-| purchase | L'evento Success si verifica nella pagina finale di un checkout (include Entrate, Ordini e Unità). |
+| scView | L'evento di successo si verifica ogni volta che viene visualizzato un carrello. |
+| scOpen | L'evento di successo si verifica ogni volta che un visitatore apre un carrello per la prima volta. |
+| scAdd | L'evento di successo si verifica ogni volta che un prodotto viene aggiunto a un carrello. |
+| scRemove | L'evento di successo si verifica ogni volta che un elemento viene estratto da un carrello. |
+| scCheckout | L'evento di successo si verifica nella prima pagina di un checkout. |
+| purchase | L'evento di successo si verifica nella pagina finale di un checkout (include Entrate, Ordini e Unità). |
 
-Quando si verifica uno degli eventi predefiniti sopra, un'istanza dell'evento viene incrementata. Potete visualizzare le metriche correlate all'evento in diversi rapporti diversi. Consultate di seguito un esempio del codice utilizzato per configurare eventi predefiniti.
+Quando si verifica uno degli eventi predefiniti sopra, un'istanza dell'evento viene incrementata. Potete visualizzare le metriche relative all'evento in diversi rapporti diversi. Vedere di seguito un esempio del codice utilizzato per configurare eventi predefiniti.
 
 ```js
 s.events="scAdd"
@@ -36,6 +36,6 @@ s.events="scAdd"
 s.events="scOpen,scAdd"
 ```
 
-* In the first example above, *`scAdd`* is the value of the event. Ogni volta che un elemento viene aggiunto al carrello, l'evento viene incrementato.
-* Nel secondo esempio, due valori vengono acquisiti allo stesso tempo. Quando si verificano più eventi di successo sulla stessa pagina, ogni evento viene incrementato.
+* Nel primo esempio, *`scAdd`* è il valore dell'evento. Ogni volta che un elemento viene aggiunto al carrello, l'evento viene incrementato.
+* Nel secondo esempio, vengono acquisiti due valori contemporaneamente. Quando si verificano più eventi di successo sulla stessa pagina, ogni evento viene incrementato.
 
