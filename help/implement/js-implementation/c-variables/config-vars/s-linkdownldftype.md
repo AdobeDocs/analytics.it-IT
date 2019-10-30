@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,19 +22,19 @@ Se il sito contiene collegamenti a file con una di queste estensioni, gli URL di
 
 La *`linkDownloadFileTypes`* variabile è pertinente solo se *`trackDownloadLinks`* è impostata su "True".
 
-Only left-mouse-clicks on a link are counted in the  report. [!UICONTROL File Downloads] All file downloads that start automatically when a page loads, or that are only downloaded after a redirect, are not counted in the [!UICONTROL File Downloads] report. When you right-click a file and select the "Save Target As..." option, it is not counted in the [!UICONTROL File Downloads] report.
+Nel [!UICONTROL File Downloads] rapporto vengono contati solo i clic con il pulsante sinistro del mouse su un collegamento. Tutti i download di file che iniziano automaticamente quando una pagina viene caricata, o che vengono scaricati solo dopo un reindirizzamento, non vengono conteggiati nel [!UICONTROL File Downloads] rapporto. Quando fai clic con il pulsante destro del mouse su un file e seleziona "Salva destinazione con nome..." non viene conteggiata nel [!UICONTROL File Downloads] rapporto.
 
 La *`linkDownloadFileTypes`* variabile può essere utilizzata per monitorare i clic sui feed RSS. Se disponete di collegamenti ai feed RSS con un .xml o un'altra estensione, aggiungendo ",xml" all' *`linkDownloadFileTypes`* elenco potete vedere la frequenza con cui viene fatto clic su ogni collegamento RSS.
 
 ## Sintassi e valori possibili
 
-Only include file extensions (no spaces).
+Includete solo estensioni di file (senza spazi).
 
 ```js
 s.linkDownloadFileTypes="type1[,type2[,type3[...]]]"
 ```
 
-Qualsiasi estensione di file può essere inclusa nell'elenco. Be careful not to include a common file extension, such as htm or aspx, in *`linkDownloadFileTypes`*. In questo modo viene inviata una richiesta immagine aggiuntiva per ogni clic, che verrà fatturata come chiamata server principale.
+Qualsiasi estensione di file può essere inclusa nell'elenco. Fate attenzione a non includere un'estensione file comune, come htm o aspx, in *`linkDownloadFileTypes`*. In questo modo viene inviata una richiesta immagine aggiuntiva per ogni clic, che verrà fatturata come chiamata server principale.
 
 ## Esempi
 
