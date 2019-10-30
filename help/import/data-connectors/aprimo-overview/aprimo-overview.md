@@ -5,7 +5,7 @@ seo-title: Connettore dati Aprimo per Adobe Analytics
 title: Connettore dati Aprimo per Adobe Analytics
 uuid: 590ded4b-b250-43b4-9set-68508b853e00
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,9 +30,9 @@ Questa integrazione include i seguenti vantaggi principali:
 
 Questa integrazione offre i seguenti segmenti di marketing dinamici:
 
-* **** Profili di acquisto:Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
-* **** Profilo comportamentale visualizzazione prodotto/contenuto:Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
-* **** Profilo abbandono carrello:Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
+* **** Profili di acquisto: Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
+* **** Profilo comportamentale visualizzazione prodotto/contenuto: Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
+* **** Profilo abbandono carrello: Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
 * I clienti possono anche creare e pianificare segmenti di remarketing personalizzati in base alle esigenze dei propri utenti.
 
 ## Prima di attivare{#before-you-activate}
