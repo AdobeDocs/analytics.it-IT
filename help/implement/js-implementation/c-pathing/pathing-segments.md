@@ -1,40 +1,40 @@
 ---
-description: La segmentazione dei percorsi per tipo utente è una richiesta comune per capire in che modo i tipi di utente specifici sul sito.
+description: La segmentazione dei percorsi in base al tipo di utente è una richiesta comune per cercare di capire in che modo specifici tipi di utente si trovano sul sito.
 keywords: Implementazione di Analytics
-seo-description: La segmentazione dei percorsi per tipo utente è una richiesta comune per capire in che modo i tipi di utente specifici sul sito.
-seo-title: Segmenti di segmenti per tipo utente
+seo-description: La segmentazione dei percorsi in base al tipo di utente è una richiesta comune per cercare di capire in che modo specifici tipi di utente si trovano sul sito.
+seo-title: Percorsi di segmento per tipo di utente
 solution: Analytics
-title: Segmenti di segmenti per tipo utente
+title: Percorsi di segmento per tipo di utente
 topic: Sviluppatore e implementazione
-uuid: 5 c 298 f 39-381 d -453 b-a 608-109 e 3276 b 361
+uuid: 5c298f39-381d-453b-a608-109e3276b361
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Segmenti di segmenti per tipo utente
+# Percorsi di segmento per tipo di utente
 
-La segmentazione dei percorsi per tipo utente è una richiesta comune per capire in che modo i tipi di utente specifici sul sito.
+La segmentazione dei percorsi in base al tipo di utente è una richiesta comune per cercare di capire in che modo specifici tipi di utente si trovano sul sito.
 
-You can concatenate the user type and page name into a [!UICONTROL sprop] and enable pathing on the [!UICONTROL sprop].
+È possibile concatenare il tipo utente e il nome della pagina in un percorso [!UICONTROL sprop] e abilitare il percorso sul [!UICONTROL sprop].
 
-For example, let's say you have two user types: _Registered_ users and _Non-Registered_ users. You need to distinguish between these two user types on each page and put these values into your designated [!UICONTROL sprop]. Quando si compila il prop, viene visualizzato come mostrato di seguito:
-
-```js
- s.prop1=”Registered : “ + s.pageName;
-```
-
-Se l'utente è registrato e accede alla home page, il valore nel prop viene visualizzato come segue:
+Ad esempio, supponiamo che siano disponibili due tipi di utente: Utenti _registrati_ e utenti _non registrati_ . È necessario distinguere tra questi due tipi di utente su ciascuna pagina e inserire questi valori nel gruppo [!UICONTROL sprop]designato. Quando compilate il prop, dovrebbe essere visualizzato come mostrato di seguito:
 
 ```js
- “Registered : Home Page”
+ s.prop1="Registered : " + s.pageName;
 ```
 
-Se fanno clic su un'altra pagina denominata "Page 2", il valore della pagina viene visualizzato come segue:
+Se l’utente è registrato e ha visitato la pagina principale, il valore nella proprietà viene visualizzato come segue:
 
 ```js
- “Registered : Page 2”
+ "Registered : Home Page"
 ```
 
-With [!UICONTROL Pathing] turned on, you see those two values in succession. Per sapere in che modo gli utenti registrati si spostano dalla home page, individua il valore «Registrati: Home Page (Pagina iniziale) in uno dei rapporti sul percorso e vedi le pagine successive visitate. In questo caso, questi sono passati a "Page 2".
+Se fanno clic su un'altra pagina denominata "Pagina 2", il valore di tale pagina viene visualizzato come segue:
+
+```js
+ "Registered : Page 2"
+```
+
+Con [!UICONTROL Pathing] attivato, questi due valori vengono visualizzati in successione. Per sapere come si spostano gli utenti registrati dalla home page, trovate il valore "Registrato: Home Page" in uno dei rapporti sui percorsi e vedere le pagine successive che hanno visitato. In questo caso, passarono poi a "Pagina 2".
