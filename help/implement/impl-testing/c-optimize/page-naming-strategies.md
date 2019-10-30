@@ -1,79 +1,79 @@
 ---
-description: La variabile pagename deve essere compilata con un identificatore pagina intuitivo e intuitivo.
+description: La variabile pageName deve essere compilata con un identificatore di pagina intuitivo e di facile lettura.
 keywords: Implementazione di Analytics
-seo-description: La variabile pagename deve essere compilata con un identificatore pagina intuitivo e intuitivo.
+seo-description: La variabile pageName deve essere compilata con un identificatore di pagina intuitivo e di facile lettura.
 seo-title: Strategie di denominazione delle pagine
 solution: Analytics
 title: Strategie di denominazione delle pagine
 topic: Sviluppatore e implementazione
-uuid: a 829 d 0 c 7-6 ebf -459 a-b 403-5 e 9 c 05161 e 5 c
+uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Strategie di denominazione delle pagine
 
-La variabile pagename deve essere compilata con un identificatore pagina intuitivo e intuitivo.
+La variabile pageName deve essere compilata con un identificatore di pagina intuitivo e di facile lettura.
 
-You can determine the best way of populating the *`pageName`* variable by looking at the structure of your website. The methods listed below outline various ways of populating the *`pageName`* variable.
+È possibile determinare il modo migliore per compilare la *`pageName`* variabile osservando la struttura del sito Web. I metodi elencati di seguito delineano vari metodi per compilare la *`pageName`* variabile.
 
-While the *`pageName`* variable is central to identifying user behavior, Adobe recommends using multiple variables to indicate page information. Le strategie di denominazione delle pagine ottimali utilizzano una variabile diversa per ogni livello di gerarchia all'interno del sito, come illustrato di seguito:
+Sebbene la *`pageName`* variabile sia fondamentale per identificare il comportamento degli utenti, Adobe consiglia di utilizzare più variabili per indicare le informazioni sulla pagina. Le migliori strategie di denominazione delle pagine utilizzano una variabile diversa per ogni livello di gerarchia all’interno del sito, come illustrato di seguito:
 
-* The *`channel`* variable can be used to indicate the site section.
-* The *`pageName`* variable can be used to show content type.
-* A [!UICONTROL custom insight] variable (prop1) can be used for detailed content.
+* La *`channel`* variabile può essere utilizzata per indicare la sezione del sito.
+* La *`pageName`* variabile può essere utilizzata per mostrare il tipo di contenuto.
+* Per il contenuto dettagliato è possibile utilizzare una [!UICONTROL custom insight] variabile (prop1).
 
-I livelli di dettaglio variano a seconda della proprietà, come illustrato di seguito:
+I livelli di dettaglio variano a seconda delle proprietà, come illustrato di seguito:
 
 | Variabile | Livello di dettaglio | Esempio  |
 |---|---|---|
-| Canale | Sezione generale | Electronics |
-| Prop1 | Sezione secondaria | Sport: Sport locali |
-| Pagename | Descrizione generale del contenuto | Prestiti: Mutuo abitazione: Confronto delle rate |
-| Prop2 | Descrizione dettagliata del contenuto | Electronics: Notebook PC: Specifiche dettagliate: IBM Thinkpad T 20 |
+| Canale | Sezione Generale | Elettronica |
+| Prop1 | Sezione | Sport: Sport locali |
+| PageName | Descrizione contenuto generale | Prestiti : Home Ipoteca : Confronto tra velocità |
+| Prop2 | Descrizione dettagliata del contenuto | Elettronica : PC portatile: Specifiche dettagliate: Thinkpad T20 IBM |
 
-Più disponete del sito, più variabili devono essere utilizzate per identificare il contenuto della pagina. Le aziende trovano anche il valore per la sovrapposizione tra variabili. Ad esempio, una variabile più dettagliata potrebbe contenere informazioni non solo sul prodotto visualizzato, ma anche sulla sezione e nella sezione del sito. Questo è particolarmente utile quando un prodotto o un articolo viene visualizzato in più sezioni del sito.
+Maggiore è il livello del sito, più variabili devono essere utilizzate per identificare il contenuto della pagina. Le aziende hanno anche valore nel consentire la sovrapposizione tra le variabili. Ad esempio, una variabile più dettagliata può contenere informazioni non solo sul prodotto visualizzato, ma anche sulla sezione del sito e sulla sottosezione. Ciò è particolarmente utile quando un prodotto o un articolo viene visualizzato in più sezioni del sito.
 
-The following page naming strategies describe how to populate the *`pageName`* variable. While it is tempting to choose the page naming strategy that is easiest to implement, the page naming strategy largely determines the usability of all [!UICONTROL Path] and [!UICONTROL Page] reports. Utilizzate un buon giudizio per decidere in che modo le pagine vengono denominate.
+Le seguenti strategie di denominazione delle pagine descrivono come compilare la *`pageName`* variabile. Sebbene sia tentata di scegliere la strategia di denominazione delle pagine più facile da implementare, la strategia di denominazione delle pagine determina in larga misura l’usabilità di tutti [!UICONTROL Path] e [!UICONTROL Page] i rapporti. Utilizzate il buon senso per decidere come assegnare un nome alle pagine.
 
-## Unique Name for Each Page {#section_24704CA39E2F4C00ACEAFF39CA0A921B}
+## Nome univoco per ogni pagina {#section_24704CA39E2F4C00ACEAFF39CA0A921B}
 
-The most valuable method of naming pages is to give each page a unique identifier that is easily understood by all [!DNL Analytics] users in your organization. Esempi di nomi di pagina includono Home Page, Electronics Department Home e Sport: Sport locali: High School.
+Il metodo più valido per denominare le pagine consiste nel fornire a ciascuna pagina un identificatore univoco facilmente comprensibile per tutti [!DNL Analytics] gli utenti dell’organizzazione. Alcuni esempi di nomi di pagina sono Home Page, Electronics Department Home e Sports: Sport Locali : Liceo.
 
-Most [!DNL Analytics] users find that hierarchical page names are useful in both identifying where the page is found on the site and its purpose. Nella tabella seguente sono riportati alcuni nomi di pagina di esempio per i vari settori:
+La maggior parte [!DNL Analytics] degli utenti ritiene che i nomi gerarchici delle pagine siano utili sia per identificare dove si trova la pagina sul sito, sia per identificare la sua funzione. Nella tabella seguente sono riportati alcuni nomi di pagina di esempio per vari settori:
 
-| Conversione   | Media | Finanza |
+| Conversione | Media | Finanza |
 |---|---|---|
 | Home page | Home page | Home page |
-| Electronics | Tecnologia | Prestiti domiciliari |
-| Electronics: Notebook | Tecnologia: Nuovi Gadget | Prestiti home: Confronto rate |
-| Electronics: Notebook: Pagina prodotto | Tecnologia: Nuovi Gadget: Pagina articolo | Prestiti home: Confronto frequenza: 10 anno fisso |
+| Elettronica | Tecnologia | Home Crediti |
+| Elettronica : PC notebook | Tecnologia: Nuovi gadget | Home Crediti : Confronta tasso |
+| Elettronica : PC notebook: Pagina prodotto | Tecnologia: Nuovi gadget: Pagina articolo | Home Crediti : Confronto tariffe: 10 anni fisso |
 
-## File Path (Not the Full URL) {#section_37FDCDA00DA84B3D9B8AB4290555FF34}
+## Percorso file (non URL completo) {#section_37FDCDA00DA84B3D9B8AB4290555FF34}
 
-Per alcuni siti, il percorso del file è chiaro e leggibile. Qualsiasi utente aziendale può leggere un URL e determinare la pagina a cui fa riferimento il percorso del file. If this is the case for your site, you can use a server-side variable to populate the path to the file into the *`pageName`* variable, as shown below:
+Per alcuni siti, il percorso del file è chiaro e di facile lettura. Ogni utente aziendale può leggere un URL e determinare la pagina a cui fa riferimento il percorso del file. Se questo è il caso del sito, potete utilizzare una variabile lato server per compilare il percorso del file nella *`pageName`* variabile, come illustrato di seguito:
 
 ```js
 s.pageName="<%= file_path %>"
 ```
 
-Adobe does not recommend leaving the *`pageName`* blank, (which results in using the full URL of the page) even though you may be tempted to do so. The following side-effects are caused by leaving the *`pageName`* variable blank and using the *`pageURL`* as the page identifier.
+Adobe non consiglia di lasciare *`pageName`* vuoto tale campo (con conseguente utilizzo dell’URL completo della pagina) anche se potrebbe essere tentata. I seguenti effetti collaterali sono causati dal fatto che la *`pageName`* variabile rimane vuota e che viene utilizzata *`pageURL`* come identificatore di pagina.
 
-* Il dominio e il percorso di una pagina potrebbero non essere sempre visualizzati in modo identico. Ad esempio, i quattro URL seguenti restituiscono una singola pagina:
+* Il dominio e il percorso di una pagina potrebbero non essere sempre identici. Ad esempio, i seguenti quattro URL restituiscono una singola pagina:
 
    * `https://www.mysite.com/index.jsp`
    * `https://www.mysite.com`
    * `https://mysite.com/index.jsp`
    * `https://mysite.com/`
-   If the *`pageName`* is left blank, each of these page names would occupy a separate entry in reports.
+   Se *`pageName`* viene lasciato vuoto, ciascuno di questi nomi di pagina occuperebbe una voce separata nei rapporti.
 
-* Alcune pagine (come i moduli) vengono pubblicate su se stessi, eliminando così qualsiasi distinzione tra il modulo originale e l'output risultante.
-* Quando la pagina viene convertita in un'altra lingua dai motori di ricerca o altri strumenti online, l'URL della pagina è l'URL del motore di ricerca (non l'URL del sito).
+* Alcune pagine (come i moduli) vengono pubblicate da sole, eliminando in tal modo qualsiasi distinzione tra il modulo originale e l'output risultante.
+* Quando la pagina viene tradotta in un’altra lingua dai motori di ricerca o da altri strumenti online, l’URL della pagina è l’URL del motore di ricerca (non l’URL del sito).
 
 ## HTML (document.title) {#section_B99B8F66B0E2410FA7BFE44E6851EB3F}
 
-If you have invested time into making your HTML titles readable and intuitive, you might consider using the same title as the value in the *`pageName`* variable. Adobe recommends using a server-side variable to populate the *`pageName`* rather than using JavaScript's [!DNL document.title]. Some browsers interpret the HTML title differently than others, which may cause [!DNL Analytics] to receive different page names from different browsers.
+Se avete dedicato del tempo a rendere i titoli HTML leggibili e intuitivi, potete usare lo stesso titolo del valore della *`pageName`* variabile. Adobe consiglia di utilizzare una variabile lato server per compilare il file *`pageName`* anziché utilizzare JavaScript [!DNL document.title]. Alcuni browser interpretano il titolo HTML in modo diverso rispetto ad altri, il che potrebbe causare la [!DNL Analytics] ricezione di nomi di pagina diversi da browser diversi.
 
-La procedura ottimale per utilizzare il titolo HTML è copiare i titoli esistenti di ciascuna pagina in una variabile distinta o in un elemento di gestione dei contenuti. When you decide to make changes to the HTML title for search engine optimization or other purposes, the [!DNL Analytics] page names are not affected. If a page name changes in [!DNL Analytics], it becomes a new page and is not connected with the old page name, regardless of the associated URL.
+L’utilizzo del titolo HTML si consiglia di copiare i titoli esistenti per ciascuna pagina in una variabile o in un elemento di gestione del contenuto separato. Quando si decide di apportare modifiche al titolo HTML per l’ottimizzazione del motore di ricerca o per altri scopi, i nomi delle [!DNL Analytics] pagine non vengono modificati. Se il nome di una pagina cambia in [!DNL Analytics], diventa una nuova pagina e non è connessa al nome della pagina precedente, indipendentemente dall'URL associato.
