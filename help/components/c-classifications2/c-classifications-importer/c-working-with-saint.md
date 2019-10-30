@@ -1,30 +1,28 @@
 ---
-description: Utilizza l'importazione per caricare classificazioni in Adobe Analytics. Potete anche esportare i dati per l'aggiornamento prima di un'importazione.
-seo-description: Utilizza l'importazione per caricare classificazioni in Adobe Analytics. Potete anche esportare i dati per l'aggiornamento prima di un'importazione.
-seo-title: Importazione classificazioni - Panoramica
+description: Utilizzate Importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
+seo-description: Utilizzate Importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
+seo-title: 'Importazione classificazioni: panoramica'
 solution: Analytics
-subtopic: Classificazioni
-title: Importazione classificazioni - Panoramica
+subtopic: Classifications
+title: 'Importazione classificazioni: panoramica'
 topic: Strumenti di amministrazione
-uuid: b 1500423-e 100-483 a-bec 2-ab 4 f 1 f 3 c 0902
+uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Importazione classificazioni - Panoramica
+# Importazione classificazioni: panoramica
 
-Utilizza l'importazione per caricare classificazioni in Adobe Analytics. Potete anche esportare i dati per l'aggiornamento prima di un'importazione.
+Utilizzate Importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
 
 **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**
 
-I dati importati tramite lo strumento di importazione devono essere in un formato specifico. Adobe fornisce l'opzione di scaricare un modello di dati con tutti i dettagli dell'intestazione appropriati in un file di dati delimitato da tabulazioni. Puoi aggiungere i nuovi dati a questo modello e importare il file di dati nel browser utilizzando FTP.
+I dati importati con lo strumento di importazione devono essere in un formato specifico. Adobe offre l’opzione di scaricare un modello di dati con tutti i dettagli di intestazione corretti in un file di dati delimitato da tabulazioni. Puoi aggiungere i nuovi dati a questo modello e quindi importare il file di dati nel browser utilizzando l'FTP.
 
->[!NOTE]
->
->Adobe consiglia di limitare il numero di colonne di importazione ed esportazione a 30.
+> [!NOTE] Adobe consiglia di limitare il numero di colonne di importazione ed esportazione a 30.
 
-See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
+Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, vedere Classificazioni [](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) numeriche 2.
 
-See [Common Saint Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
+Consultate [Problemi](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)comuni relativi al caricamento Saint Articolo della Knowledge Base che descrive i problemi derivanti da formati di file e contenuti di file non corretti.
