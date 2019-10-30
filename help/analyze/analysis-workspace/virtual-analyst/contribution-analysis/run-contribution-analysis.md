@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Eseguire l’analisi dei contributi
 title: Eseguire l’analisi dei contributi
-uuid: 5282 a 5 f 9-0771-4974-93 cb -335204 bde 114
+uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 
    >[!NOTE]
    >
-   >Al momento l'analisi dei contributi è supportata solo con granularità giornaliera.
+   >Al momento l’analisi dei contributi è supportata solo con granularità giornaliera.
 
    ![](assets/run_ca.png)
 
@@ -51,9 +51,7 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
    * [Creazione di avvisi.](/help/components/c-alerts/intellligent-alerts.md)
    * [Creazione o confronto di segmenti.](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
->[!NOTE]
->
->L'anomalia viene analizzata con un punto blu nell'analisi dei contributi e nei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata.
+> [!NOTE] Evidenziamo l’anomalia analizzata con un punto blu all’interno dell’analisi dei contributi e dei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata.
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
