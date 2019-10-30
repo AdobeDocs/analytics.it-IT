@@ -7,7 +7,7 @@ title: Consenti sostituzioni elenco di pubblicazione
 topic: Generatore di report
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,5 @@ Se attivato, [!UICONTROL Allow Publishing List Override]la suite di rapporti ass
 
 Questa opzione non è disponibile per le suite di rapporti selezionate tra le celle.
 
->[!NOTE]
->
->Se inviate il rapporto pianificato a più elenchi di pubblicazione, il rapporto viene eseguito una volta per ciascun elenco. Le suite per report variabili vengono sostituite dalla suite per report assegnata all'elenco di pubblicazione.
+> [!NOTE] Se inviate il rapporto pianificato a più elenchi di pubblicazione, il rapporto viene eseguito una volta per ciascun elenco. Le suite per report variabili vengono sostituite dalla suite per report assegnata all'elenco di pubblicazione.
 
