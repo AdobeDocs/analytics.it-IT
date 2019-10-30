@@ -1,37 +1,35 @@
 ---
-description: Mostra le metriche in base al fatto che javascript sia abilitato, disabilitato o che venga conteggiato come "non identificato".
-seo-description: Mostra le metriche in base al fatto che javascript sia abilitato, disabilitato o che venga conteggiato come "non identificato".
-seo-title: Supporto javascript
+description: Mostra le metriche in base al fatto che il dispositivo abbia abilitato o meno JavaScript o che sia conteggiato come "non identificato".
+seo-description: Mostra le metriche in base al fatto che il dispositivo abbia abilitato o meno JavaScript o che sia conteggiato come "non identificato".
+seo-title: Supporto JavaScript
 solution: Analytics
-title: Supporto javascript
+title: Supporto JavaScript
 topic: Rapporti
-uuid: 7 b 95001 a-cd 35-478 a -8 b 24-54 d 30666110 d
+uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Supporto javascript
+# Supporto JavaScript
 
-Mostra le metriche in base al fatto che javascript sia abilitato, disabilitato o che venga conteggiato come "non identificato".
+Mostra le metriche in base al fatto che il dispositivo abbia abilitato o meno JavaScript o che sia conteggiato come "non identificato".
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] All'inizio di novembre 2016, è prevista la rimozione della restrizione in cui JavaScript viene sempre elencato come *`disabled / unidentified`* per i dispositivi mobili.
 
-Il rapporto javascript corrisponde alla colonna javascript nei dati grezzi.
+Il rapporto JavaScript corrisponde al javascript delle colonne nei dati non elaborati.
 
-javascript è un campo a livello di visita, quindi il valore viene mantenuto dal primo hit della visita. La colonna javascript si basa sul primo valore presente nella colonna j_ jscript (come a una visita_ referrer che mantiene il primo referente della visita).
+javascript è un campo a livello di visita, quindi persiste il valore del primo hit della visita. La colonna javascript si basa sul primo valore presente nella colonna j_jscript (come un referrer visit_referrer persiste solo il primo referrer della visita).
 
-j_ jscript viene popolato dal parametro j della richiesta di immagine di Adobe Analytics.
+j_jscript viene popolato dal parametro j dalla richiesta di immagine di Adobe Analytics.
 
 Ecco un esempio:
 
-| Hit | j_ jscript | javascript |
+| Hit | j_jscript | javascript |
 |---|---|---|
 | 1 |  | 0 |
 | 2 | 1.6 | 0 |
 | 3 | 1.6 | 0 |
 
-Di conseguenza, non è importante se una versione javascript specificata in un certo momento nella visita non viene visualizzata in Javascript perché il primo hit non contiene alcun valore per j_ jscript.
+Di conseguenza, non importa se ad un certo punto della visita è stata specificata una versione javascript - sarà sempre visualizzata come non Javascript perché il primo hit non conteneva alcun valore per j_jscript.
