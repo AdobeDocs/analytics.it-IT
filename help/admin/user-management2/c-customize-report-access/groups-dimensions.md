@@ -9,24 +9,20 @@ title: Personalizzare le autorizzazioni della dimensione
 topic: Strumenti di amministrazione
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # Personalizzare le autorizzazioni della dimensione
 
->[!IMPORTANT]
->
->La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** verranno ritirati.
+> [!IMPORTANT] La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** verranno ritirati.
 
 Personalizza nel dettaglio le opzioni di accesso degli utenti, ad esempio per eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti di percorsi.
 
 **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Dimensions]** &gt; **[!UICONTROL Customize]**
 
->[!IMPORTANT]
->
->Alcune dimensioni al momento non sono consentite. Tali dimensioni sono: Lunghezza Segnalibro Mobile; Numero dispositivo mobile; DRM mobile; Mobile Information Services; VM Java mobile; Decorazione della posta mobile; Protocolli di Mobile Net; Sistema operativo mobile; Invia push per cellulare per parlare.
+> [!IMPORTANT] Alcune dimensioni al momento non sono consentite. Tali dimensioni sono: Lunghezza Segnalibro Mobile; Numero dispositivo mobile; DRM mobile; Mobile Information Services; VM Java mobile; Decorazione della posta mobile; Protocolli di Mobile Net; Sistema operativo mobile; Invia push per cellulare per parlare.
 >
 >Queste dimensioni sono disponibili per tutti gli utenti, indipendentemente dalle altre autorizzazioni.
 
@@ -107,4 +103,3 @@ I seguenti elementi sono dimensioni consentite.
   </tr> 
  </tbody> 
 </table>
-
