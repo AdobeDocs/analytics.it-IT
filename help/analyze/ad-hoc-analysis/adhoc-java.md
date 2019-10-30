@@ -4,7 +4,7 @@ seo-description: Istruzioni su come eseguire Analisi ad hoc con Java 11.
 seo-title: Analisi ad hoc e Java 11
 title: Eseguire Ad Hoc Analysis con Java 11
 translation-type: tm+mt
-source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,11 @@ Collaborate con il team IT per garantire che siano disponibili le seguenti soluz
 1. Vai a **[!UICONTROL Analytics > Tools > Ad Hoc Analysis]**.
 1. Fai clic su **[!UICONTROL Ad Hoc Analysis (Java 11)]**. Questo scarica un file zip.
 1. Decomprimete il file scaricato.
-1. **Selezionate il file**.bat (PC) o .sh (Mac). Selezionate il file del centro dati appropriato guardando il numero seguente "sc" nell'URL di Adobe Analytics. (3 = LON, 4 = SIN, 5 = PNW) Se si utilizza un PC, verificare se si sta eseguendo un sistema operativo Windows a 32 bit o a 64 bit andando su ‘About your PC’. Quindi selezionate il file .bat appropriato.
+1. **Selezionate il file**.bat (PC) o .sh (Mac). Selezionate il file del centro dati appropriato guardando il numero seguente "sc" nell'URL di Adobe Analytics. (3 = LON, 4 = SIN, 5 = PNW) Se si utilizza un PC, verificare se si sta eseguendo un sistema operativo Windows a 32 bit o a 64 bit andando su 'Informazioni sul PC'. Quindi selezionate il file .bat appropriato.
 1. **Eseguire il file** selezionato. Per PC: Fate doppio clic sul file .bat. Per Mac: Fate clic con il pulsante destro del mouse sul file .sh, quindi selezionate **[!UICONTROL Open With > Other... > Utilities > (Enable all applications) > select Terminal > Open]**.
 1. Accedi ad Analisi ad hoc.
 
->[!Note]
->
-> I metodi di autenticazione Federated ID e Enterprise ID non sono compatibili con la versione Java 11 di Ad Hoc Analysis.
+> [!NOTE] I metodi di autenticazione Federated ID e Enterprise ID non sono compatibili con la versione Java 11 di Ad Hoc Analysis.
 
 ## Funzioni non supportate in Analisi ad hoc (Java 11)
 
