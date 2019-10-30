@@ -1,28 +1,28 @@
 ---
-description: Visualizza i fusi orari da cui provengono i visitatori. Il grafico mostra una mappa del mondo. Se ricevi dei visitatori da un determinato fuso orario, in quel fuso orario viene visualizzata una colonna colorata in base al numero di visitatori ricevuti nel periodo di tempo specificato. Tutti i fusi orari sono presenti in Greenwich Mean Time (GMT), standard internazionale.
-seo-description: Visualizza i fusi orari da cui provengono i visitatori. Il grafico mostra una mappa del mondo. Se ricevi dei visitatori da un determinato fuso orario, in quel fuso orario viene visualizzata una colonna colorata in base al numero di visitatori ricevuti nel periodo di tempo specificato. Tutti i fusi orari sono presenti in Greenwich Mean Time (GMT), standard internazionale.
+description: Visualizza i fusi orari dai quali i visitatori arrivano. Il grafico mostra una mappa del mondo. Se avete ricevuto visitatori da un particolare fuso orario, nel fuso orario viene visualizzata una colonna colorata che riflette il numero di visitatori ricevuti nel periodo di tempo specificato. Tutti i fusi orari sono presenti in Greenwich Mean Time (GMT), che è lo standard internazionale.
+seo-description: Visualizza i fusi orari dai quali i visitatori arrivano. Il grafico mostra una mappa del mondo. Se avete ricevuto visitatori da un particolare fuso orario, nel fuso orario viene visualizzata una colonna colorata che riflette il numero di visitatori ricevuti nel periodo di tempo specificato. Tutti i fusi orari sono presenti in Greenwich Mean Time (GMT), che è lo standard internazionale.
 seo-title: Fusi orari
 solution: Analytics
 title: Fusi orari
 topic: Rapporti
-uuid: 8 cdc 1 bba-e 6 b 9-4 ff 0-b 529-91 c 427223 ddc
+uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Fusi orari
 
-Visualizza i fusi orari da cui provengono i visitatori. Il grafico mostra una mappa del mondo. Se ricevi dei visitatori da un determinato fuso orario, in quel fuso orario viene visualizzata una colonna colorata in base al numero di visitatori ricevuti nel periodo di tempo specificato. Tutti i fusi orari sono presenti in Greenwich Mean Time (GMT), standard internazionale.
+Visualizza i fusi orari dai quali i visitatori arrivano. Il grafico mostra una mappa del mondo. Se avete ricevuto visitatori da un particolare fuso orario, nel fuso orario viene visualizzata una colonna colorata che riflette il numero di visitatori ricevuti nel periodo di tempo specificato. Tutti i fusi orari sono presenti in Greenwich Mean Time (GMT), che è lo standard internazionale.
 
-Puoi usare questa dimensione per:
+Puoi utilizzare questa dimensione per:
 
-* Quale parte del mondo genera la maggior parte del traffico
-* Sapere quali fusi orari ti offrono più traffico. Questo consente di adattare o personalizzare il contenuto per le aree in questione
+* Vedi quale parte del mondo genera la maggior parte del tuo traffico
+* Sapere quali fusi orari forniscono maggior traffico. In questo modo sarà possibile adattare o personalizzare il contenuto per tali aree
 
-Se il rapporto non è disponibile nel percorso predefinito, rivolgetevi all'amministratore che potrebbe aver modificato la struttura del menu predefinita.
+Se il rapporto non è disponibile nel percorso predefinito, rivolgetevi al vostro amministratore, che potrebbe aver modificato la struttura del menu predefinita.
 
-**Modalità di visualizzazione dei fusi orari nelle suite di rapporti**
+**Visualizzazione dei fusi orari delle suite di rapporti di rollup**
 
-Suite di rapporti roll-up per trasmettere dati per suite di rapporti secondarie con fusi orari diversi. La suite di rapporti roll-up viene impostata per un singolo fuso orario e traspone i fusi orari corrispondenti per ogni suite di rapporti secondari. Ad esempio, se la suite di rapporti roll-up mostra le 7:00 di p. m. e tre suite di rapporti secondarie sono state incluse, ciascuna impostato su Eastern Standard Time (EST), Mountain Standard Time (MST) e Pacific Standard Time (PST), l'roll-up mostrerebbe le visualizzazioni di pagina che si sono verificate alle 7:00 del rispettivo fuso orario.
+Suite di rapporti di rollup consente di includere i dati per le suite di rapporti figlio con fusi orari diversi. La suite per report di rollup è impostata per un singolo fuso orario e traspone i fusi orari corrispondenti per ogni suite per report figlio. Ad esempio, se la suite di rapporti per il rollup mostra le 19:00 e tre suite di rapporti per bambini sono state incluse, ciascuna impostata su Eastern Standard Time (EST), Mountain Standard Time (MST) e Pacific Standard Time (PST), il rollup mostrerebbe le visualizzazioni di pagina che si sono verificate alle 19:00 nei rispettivi fusi orari.
