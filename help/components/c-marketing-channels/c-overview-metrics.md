@@ -1,108 +1,106 @@
 ---
-description: Come utilizzare le metriche nei report Canale di marketing.
-seo-description: Come utilizzare le metriche nei report Canale di marketing.
+description: Come utilizzare le metriche nei report Marketing Channel.
+seo-description: Come utilizzare le metriche nei report Marketing Channel.
 seo-title: Metriche utilizzate nei rapporti sul canale di marketing
 solution: Analytics
 subtopic: Canali di marketing
 title: Metriche utilizzate nei rapporti sul canale di marketing
-topic: Reports & Analytics
-uuid: be 5 bcb 94-927 e -4 b 5 f-b 201-3 d 54 eb 51 e 740
+topic: Reports and Analytics
+uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Metriche utilizzate nei rapporti sul canale di marketing
 
-Come utilizzare le metriche nei report Canale di marketing.
+Come utilizzare le metriche nei report Marketing Channel.
 
-## Metrics used in Marketing Channel reports {#topic_F83F5D4C3E144967AD90D956F0E8A999}
+## Metriche utilizzate nei rapporti sul canale di marketing {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
-Come utilizzare le metriche nei report Canale di marketing.
+Come utilizzare le metriche nei report Marketing Channel.
 
 ![](assets/metric_edit_icon.png)
 
-Aggiungi (o modifica) le metriche.
+Aggiungi (o modifica) metriche.
 
 ![](assets/add_column_icon.png)
 
-Aggiungete una colonna al rapporto.
+Aggiungi una colonna al rapporto.
 
-## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
+## Prima e ultima metrica di tocco {#concept_68D9A50204304BA58C1F8013451E7853}
 
-Il primo tocco e l'ultimo tocco sono attributi canale che consentono di vedere il numero di nuovi coinvolgi (o dati di metrica come visualizzazioni del prodotto, ricavi e ordini) risultanti dall'attività di un visitatore nel canale.
+Gli attributi "first-touch" e "last-touch" sono gli attributi del canale che consentono di vedere quanti nuovi impegni (o dati di metriche come visualizzazioni di prodotto, ricavi e ordini) derivano dall'attività di un visitatore nel canale.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). Prende nota del primo canale attraverso il quale è entrato l'utente e del canale più recente. Quindi dà credito all'evento success a ogni canale appropriato.
+Quando si verifica un evento di successo, Analytics esamina l'intera attività e la cronologia del visitatore (tornando alla scadenza [del coinvolgimento del](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)visitatore). Nota il primo canale che l'utente ha attraversato, così come il canale più recente. Successivamente, l'evento di successo viene accreditato a ogni canale appropriato.
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
 
 **Esempio**
 
-Supponiamo di configurare due canali di marketing: Search Search, e Campaign Campaign.
+Supponiamo di configurare due canali di marketing: Ricerca a pagamento e campagna e-mail.
 
 ![](assets/paid_search.png)
 
-Paid Search è un annuncio per un prodotto. Rileva l'interesse di un visitatore e genera una visualizzazione di prodotto, ma non genera un evento di conversione.
+La ricerca a pagamento è un annuncio per un prodotto. Raccoglie l'interesse di un visitatore e genera una visualizzazione di prodotto ma non genera un evento di conversione.
 
 ![](assets/email_campaign.png)
 
-Un mese dopo viene eseguita una campagna e-mail per lo stesso prodotto. Si ottiene un acquisto di $ 100 (o un altro evento di conversione desiderato).
+Un mese dopo viene eseguita una campagna e-mail per lo stesso prodotto. Si traduce in un acquisto di $100 (o altro evento di conversione desiderato).
 
 Nel rapporto Canale di marketing, il risultato può essere visualizzato come segue:
 
 ![](assets/report-graphic.png)
 
-Il canale di ricerca a pagamento viene accreditato per $ 100 come canale di primo tocco per le entrate, con un primo ordine di tocco del 1. Il canale della campagna e-mail viene accreditato per $ 100 come canale dell'ultimo ricavo (il canale che l'utente ha toccato prima dell'evento di conversione) e con l'ultimo 1 ordine di tocco. In altre parole, uno scopo principale del report è vedere come la suddivisione delle entrate tra i primi canali touch si differenzia dall'analisi delle entrate tra gli ultimi canali touch.
+Il canale di ricerca a pagamento viene accreditato a $100 come primo canale per i ricavi, con 1 ordine di primo tocco. Al canale della campagna e-mail viene accreditato $100 come ultimo canale di fatturato (l'ultimo canale toccato dall'utente prima dell'evento di conversione) e con 1 ultimo ordine di tocco. In altre parole, uno scopo principale della relazione è quello di vedere come la ripartizione delle entrate tra i primi canali di contatto differisca dalla suddivisione delle entrate tra gli ultimi canali di contatto.
 
-Ogni istanza evento di successo avrà esattamente un canale First Touch e esattamente un ultimo canale di tocco. Ciò significa che se aggiungete una particolare colonna di metrica per qualsiasi evento di successo, questo sarà sempre uguale al totale per lo stesso periodo di tempo. This total will also exactly equal the total number of events in the appropriate [!UICONTROL Site Metrics] &gt; [!UICONTROL Custom Events] report. Le metriche degli eventi non di successo, come visite e visitatori, non corrisponderanno a 1 a 1, poiché più canali possono attivarsi nella stessa visita.
+Ogni istanza di evento di successo avrà esattamente un canale First Touch e un canale Last Touch. Questo significa che se aggiungi una colonna metrica specifica per un evento di successo, sarà sempre esattamente uguale al totale per lo stesso periodo di tempo. Questo totale corrisponderà anche esattamente al numero totale di eventi nel report appropriato [!UICONTROL Site Metrics] &gt; [!UICONTROL Custom Events] . Le metriche di eventi non di successo, come visite e visitatori, non corrispondono fino a 1 a 1, in quanto più canali possono essere attivati nella stessa visita.
 
->[!NOTE]
->
->Questo rapporto utilizza la versione first-touch o last-touch di ciascuna metrica. Thus, the data shown in a [!UICONTROL Marketing Channel] report might not match the data shown in other reports.
+> [!NOTE] Questo rapporto utilizza la versione con il primo o l'ultimo tocco di ogni metrica. Di conseguenza, i dati visualizzati in un [!UICONTROL Marketing Channel] report potrebbero non corrispondere ai dati mostrati in altri report.
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
 | Metrica | Definizione |
 |--- |--- |
-| Canale first-touch | Il primo canale di marketing per coinvolgere un visitatore. Tecnicamente, il primo canale di tocco è una evar con allocazione originale. |
-| Visitatore first-touch | Nel reporting dei canali, un visitatore first-touch è un visitatore giornaliero univoco originato da un canale. Il coinvolgimento del visitatore viene memorizzato per tutta la durata del periodo di partecipazione con il sito, che può quindi durare più visite. |
-| Canale ultimo tocco | Il canale di conversione, ovvero l'ultimo canale di marketing per coinvolgere il visitatore e dare luogo a una conversione. Un solo canale è impostato come primo canale di tocco. L'ultimo canale di tocco può cambiare con ogni visita al sito. Ogni visita ha un canale first-touch e ultimo tocco, ma il valore del canale first-touch non cambia mai con le visite successive. |
+| Primo canale touch | Il primo canale di marketing per coinvolgere un visitatore. Tecnicamente, il primo canale touch è un eVar con allocazione originale. |
+| Visitatore principale | Nel reporting sui canali, un visitatore di primo contatto è un Visitatore unico giornaliero originato da un canale. Il coinvolgimento del visitatore viene memorizzato per tutta la durata del periodo di coinvolgimento con il sito, che può durare molte visite. |
+| Ultimo canale touch | Il canale di conversione, ovvero l'ultimo canale di marketing per coinvolgere il visitatore e ottenere una conversione. Solo un canale è impostato come primo canale touch. L'ultimo canale touch può cambiare con ogni visita di ritorno al sito. Ogni visita ha un canale di primo e ultimo tocco, ma il valore del canale di primo tocco non cambia mai con le visite successive. |
 
 ## Click-through {#reference_55E2254F02EF4E7EB0AD2838C948347A}
 
-Un click-through è un'istanza sull'ultimo canale di tocco. È una evar con l'allocazione più recente.
+Un click-through è un'istanza sul canale dell'ultimo tocco. È una eVar con l'allocazione più recente.
 
-Ad esempio, supponiamo che un visitatore arrivi al tuo sito Web una volta al giorno, con ogni visita proveniente da un canale di marketing diverso:
+Ad esempio, supponiamo che un visitatore venga sul sito Web una volta al giorno, con ogni visita proveniente da un canale di marketing diverso:
 
-* Giorno 1: Ricerca pagata
-* Giorno 2: Visualizza
+* Giorno 1: Ricerca a pagamento
+* Giorno 2: Display
 * Giorno 3: Ricerca naturale
-* Giorno 4: Visualizza
-* Giorno 5: Ricerca pagata
-* Giorno 6: Visualizza
+* Giorno 4: Display
+* Giorno 5: Ricerca a pagamento
+* Giorno 6: Display
 * Giorno 7: Ricerca naturale
 
-Il report First-Touch Channel (Canale di primo contatto) mostrava il 1 nuovo coinvolgimento per la ricerca pagata. Ogni altro canale mostrerebbe 0 nuovi coinvolgimenti. Il report Last-Touch Channel (Canale ultimo contatto) mostrava 2 click-through per ricerche a pagamento; 3 per Visualizzazione; e 2 per Ricerca naturale.
+Il report First-Touch Channel (Canale di primo contatto) mostrerebbe 1 nuovo coinvolgimento per la ricerca a pagamento. Ogni altro canale mostrava 0 nuovi impegni. Il rapporto Last-Touch Channel (Ultimo canale touch) mostra 2 click-through per la ricerca a pagamento; 3 per il display; e 2 per Ricerca naturale.
 
-## Add metrics to a Marketing Channel report {#task_D381139E00504666AB2402D553CFEA5B}
+## Aggiunta di metriche a un report Marketing Channel {#task_D381139E00504666AB2402D553CFEA5B}
 
-Aggiungi metriche al report Canale di marketing. Puoi aggiungere fino a quattro metriche a ogni colonna del rapporto e tutte le colonne desiderate.
+Aggiungi metriche al report Marketing Channel. Puoi aggiungere fino a quattro metriche a ciascuna colonna del rapporto e quante colonne desideri.
 
-1. Open the [!UICONTROL Marketing Channel Report].
+1. Apri il [!UICONTROL Marketing Channel Report].
 1. Fate clic su Aggiungi metriche.
 
    ![](assets/metric_edit_icon.png)
 
-1. Under [!UICONTROL Available Metrics], drag-and-drop metrics from the [!UICONTROL Available Metrics] section to the [!UICONTROL Selected Metrics] section.
+1. In [!UICONTROL Available Metrics]questa sezione, trascina le metriche dalla [!UICONTROL Available Metrics] sezione alla [!UICONTROL Selected Metrics] sezione.
 
    ![Risultato passaggio](assets/metric_create.png)
 
-1. To create calculated metrics, scroll to [!UICONTROL Calculated Metrics], then click **[!UICONTROL Create]**.
+1. Per creare metriche calcolate, scorri fino a [!UICONTROL Calculated Metrics], quindi fai clic su **[!UICONTROL Create]**.
 1. Fai clic su **[!UICONTROL Save.]**
