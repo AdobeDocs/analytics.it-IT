@@ -1,24 +1,24 @@
 ---
-description: La connessione senza password agli account FTP è possibile solo tramite una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
-keywords: ftp; sftp
-seo-description: La connessione senza password agli account FTP è possibile solo tramite una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
+description: La connessione senza password agli account FTP è possibile solo utilizzando una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
+keywords: ftp;sftp
+seo-description: La connessione senza password agli account FTP è possibile solo utilizzando una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
 seo-title: Connessione ad Adobe tramite SFTP senza password
 solution: Analytics
 title: Connessione ad Adobe tramite SFTP senza password
-uuid: 88728309-50 d 2-450 b-b 0 e 6-7 dcdf 61 b 5 dbc
+uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Connessione ad Adobe tramite SFTP senza password
 
-La connessione senza password agli account FTP è possibile solo tramite una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
+La connessione senza password agli account FTP è possibile solo utilizzando una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
 
 La sicurezza è la medesima garantita dall'uso dell'autenticazione tramite password. Si tratta di una forma di autenticazione diversa che non richiede all'utente di immettere ogni volta una password. Quando utilizzati correttamente, questi file consentono l'accesso a un particolare computer, senza dover specificare una password. Questa modalità deve essere configurata computer per computer. Tutte le altre connessioni che non utilizzano questi file chiave devono sempre specificare una password.
 
-Un SFTP (Secure File Transfer Protocol, Protocollo di trasferimento file sicuro) è richiesto da alcuni client per la trasmissione di dati sensibili. Una connessione SFTP è più sicura rispetto a una normale connessione FTP, perché consente la comunicazione dati crittografata. Per impostazione predefinita, tutti gli account Adobe FTP sono a pagamento. Una connessione SFTP può essere aperta con un nome utente e una password validi utilizzando un client SFTP che si connetta sulla porta 22 (le normali connessioni FTP non sicure utilizzano la porta 21).
+Alcuni client richiedono un protocollo SFTP (Secure File Transfer Protocol) per la trasmissione di dati sensibili. Una connessione SFTP è più sicura di una normale connessione FTP, perché consente la comunicazione dei dati crittografati. Per impostazione predefinita, tutti gli account Adobe FTP sono pronti per SFTP. Una connessione SFTP può essere aperta con un nome utente e una password validi utilizzando un client SFTP che si connette sulla porta 22 (le normali connessioni FTP non sicure utilizzano la porta 21).
 
 Quando si utilizza SFTP, è possibile, in condizioni specifiche, utilizzare chiavi private per connettersi all'account senza una password. Questo metodo consente al tuo computer di utilizzare per l'autenticazione i file chiave invece della solita autenticazione tramite password. Ciò significa che solamente il computer su cui si trova la chiave privata può effettuare la connessione senza una password. Tutti gli altri computer/utenti dovranno sempre utilizzare l'autenticazione tramite password (a meno che non siano state configurate chiavi private anche su questi computer).
 
