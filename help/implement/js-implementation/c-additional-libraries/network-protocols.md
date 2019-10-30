@@ -1,37 +1,37 @@
 ---
-description: WAP e I-Mode sono i due principali protocolli o standard utilizzati oggi stesso. WAP viene utilizzato principalmente negli Stati Uniti e I-Mode sono molto popolari in Giappone ed Europa.
-keywords: Implementazione di Analytics; wap; i-mode
-seo-description: WAP e I-Mode sono i due principali protocolli o standard utilizzati oggi stesso. WAP viene utilizzato principalmente negli Stati Uniti e I-Mode sono molto popolari in Giappone ed Europa.
-seo-title: Protocolli di rete mobili
+description: WAP e I-Mode sono i due principali protocolli o standard utilizzati oggi. WAP è utilizzato principalmente negli Stati Uniti, e I-Mode è popolare in Giappone e in Europa.
+keywords: Implementazione di Analytics;wap;i-mode
+seo-description: WAP e I-Mode sono i due principali protocolli o standard utilizzati oggi. WAP è utilizzato principalmente negli Stati Uniti, e I-Mode è popolare in Giappone e in Europa.
+seo-title: Protocolli di rete per dispositivi mobili
 solution: Analytics
-title: Protocolli di rete mobili
+title: Protocolli di rete per dispositivi mobili
 topic: Sviluppatore e implementazione
-uuid: b 453677 c -7449-4174-a 243-a 0 eb 024 b 319 d
+uuid: b453677c-7449-4174-a243-a0eb024b319d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Protocolli di rete mobili
+# Protocolli di rete per dispositivi mobili
 
-WAP e I-Mode sono i due principali protocolli o standard utilizzati oggi stesso. WAP viene utilizzato principalmente negli Stati Uniti e I-Mode sono molto popolari in Giappone ed Europa.
+WAP e I-Mode sono i due principali protocolli o standard utilizzati oggi. WAP è utilizzato principalmente negli Stati Uniti, e I-Mode è popolare in Giappone e in Europa.
 
-I siti devono essere spesso progettati separatamente per diversi protocolli. Il tag immagine Adobe non deve essere personalizzato per ogni protocollo.
+I siti devono spesso essere progettati separatamente per protocolli diversi. Non è necessario personalizzare il tag immagine Adobe per ciascun protocollo.
 
 <table id="table_EBE71664615F48E28B05C767ABDA062B"> 
  <tbody> 
   <tr> 
    <td colname="col1"> WAP 1.0 </td> 
-   <td colname="col2"> WAP 1.0 perde rapidamente la popolarità negli Stati Uniti. Queste pagine obbligatorie sono integrate in WML e avevano il relativo protocollo. </td> 
+   <td colname="col2"> WAP 1.0 sta rapidamente perdendo popolarità negli Stati Uniti. Le pagine necessarie devono essere create in WML e disporre di un proprio protocollo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> WAP 2.0 </td> 
-   <td colname="col2"> La maggior parte dei telefoni sono conformi a WAP 2.0, ovvero supportano XHTML MP (una versione per dispositivi mobili XHTML). </td> 
+   <td colname="col2"> La maggior parte dei telefoni sono compatibili con WAP 2.0, il che significa che supportano XHTML MP (una versione mobile di XHTML). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> I-Mode </td> 
-   <td colname="col2"> <p> I-Mode supporta CHTML (codice HTML compatto) e non scarica immagini di terze parti. Le implementazioni del dominio di raccolta di prime parti devono essere utilizzate sempre con i siti I-Mode, in modo da scaricare le immagini. </p> </td> 
+   <td colname="col1"> Modalità I </td> 
+   <td colname="col2"> <p> La modalità I supporta CHTML (HTML compatto) e non scarica immagini di terze parti. Le implementazioni del dominio della raccolta di prime parti devono sempre essere utilizzate con i siti in modalità I, in modo da scaricare le immagini. </p> </td> 
   </tr> 
  </tbody> 
 </table>
