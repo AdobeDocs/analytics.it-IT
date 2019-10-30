@@ -1,19 +1,19 @@
 ---
-description: Raggruppa al sito gli hit dei dispositivi mobili in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che hanno utilizzato ciascuna dimensione dello schermo e ogni dimensione dello schermo come percentuale delle visualizzazioni totali. Dimensioni schermo mostra l'altezza e la larghezza della dimensione dello schermo rispetto all'altezza schermo e alla larghezza dello schermo.
-seo-description: Raggruppa al sito gli hit dei dispositivi mobili in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che hanno utilizzato ciascuna dimensione dello schermo e ogni dimensione dello schermo come percentuale delle visualizzazioni totali. Dimensioni schermo mostra l'altezza e la larghezza della dimensione dello schermo rispetto all'altezza schermo e alla larghezza dello schermo.
-seo-title: Dimensioni schermo
+description: Raggruppa gli hit del dispositivo mobile sul sito in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che ha utilizzato ogni dimensione dello schermo e ogni dimensione dello schermo come percentuale del totale delle visualizzazioni. Dimensioni schermo mostra l’altezza e la larghezza dello schermo rispetto all’altezza e alla larghezza dello schermo.
+seo-description: Raggruppa gli hit del dispositivo mobile sul sito in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che ha utilizzato ogni dimensione dello schermo e ogni dimensione dello schermo come percentuale del totale delle visualizzazioni. Dimensioni schermo mostra l’altezza e la larghezza dello schermo rispetto all’altezza e alla larghezza dello schermo.
+seo-title: Dimensioni dello schermo del dispositivo
 solution: Analytics
-title: Dimensioni schermo
+title: Dimensioni dello schermo del dispositivo
 topic: Rapporti
-uuid: a 71378 c 7-91 b 1-43 da -8583-fbbdc 5 df 39 ba
+uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dimensioni schermo
+# Dimensioni dello schermo del dispositivo
 
-Raggruppa al sito gli hit dei dispositivi mobili in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che hanno utilizzato ciascuna dimensione dello schermo e ogni dimensione dello schermo come percentuale delle visualizzazioni totali. Dimensioni schermo mostra l'altezza e la larghezza della dimensione dello schermo rispetto all'altezza schermo e alla larghezza dello schermo.
+Raggruppa gli hit del dispositivo mobile sul sito in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che ha utilizzato ogni dimensione dello schermo e ogni dimensione dello schermo come percentuale del totale delle visualizzazioni. Dimensioni schermo mostra l’altezza e la larghezza dello schermo rispetto all’altezza e alla larghezza dello schermo.
 
-Le dimensioni dello schermo segnalate non indicano l'orientamento del dispositivo. A prescindere dall'orientamento dello schermo, nel rapporto ogni dispositivo ha una risoluzione fissa dello schermo. Questa dimensione è basata su ricerche che determinano quale orientamento è più probabile. Ciò significa che potrebbe essere possibile visualizzare dimensioni come 768 x 1024 e 1024 x 768 nello stesso rapporto che rappresenta uno o più dispositivi diversi.
+Le dimensioni dello schermo riportate non indicano l'orientamento del dispositivo. Indipendentemente dall'orientamento dello schermo, ogni dispositivo ha una risoluzione fissa dello schermo nel rapporto. Questa dimensione è basata sulla ricerca che determina quale orientamento è più probabile. Ciò significa che potresti visualizzare dimensioni come 768x1024 e 1024x768 nello stesso rapporto con ciascuna dimensione che rappresenta uno o più dispositivi diversi.
