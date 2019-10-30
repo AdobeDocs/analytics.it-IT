@@ -1,60 +1,60 @@
 ---
-description: Descrive i passaggi necessari per applicare i filtri a un rapporto di percorsi.
-seo-description: Descrive i passaggi necessari per applicare i filtri a un rapporto di percorsi.
-seo-title: Filtrare un rapporto sul percorso mediante la richiesta guidata
+description: Descrive i passaggi necessari per applicare filtri a un report di percorsi.
+seo-description: Descrive i passaggi necessari per applicare filtri a un report di percorsi.
+seo-title: Filtrare un rapporto di percorso mediante la Creazione guidata richieste
 solution: Analytics
-title: Filtrare un rapporto sul percorso mediante la richiesta guidata
+title: Filtrare un rapporto di percorso mediante la Creazione guidata richieste
 topic: Generatore di report
-uuid: 9 b 22 d 5 b 5-7 ae 8-49 a 2-90 ae -0 c 1075562 bbe
+uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filtrare un rapporto sul percorso mediante la richiesta guidata
+# Filtrare un rapporto di percorso mediante la Creazione guidata richieste
 
-Descrive i passaggi necessari per applicare i filtri a un rapporto di percorsi.
+Descrive i passaggi necessari per applicare filtri a un report di percorsi.
 
-In questo esempio vengono utilizzati i percorsi sezione del sito.
+In questo esempio vengono utilizzati i percorsi di sezione del sito.
 
-1. In Adobe Report Builder, click **[!UICONTROL Create]** to open the Request Wizard.
+1. In Generatore di report Adobe, fate clic **[!UICONTROL Create]** per aprire la Richiesta guidata.
 1. Seleziona la suite di rapporti giusta.
-1. In the tree view on the left, select **[!UICONTROL Paths]** &gt; **[!UICONTROL Site Sections]** &gt; **[!UICONTROL Site Section Paths]**.
+1. Nella vista ad albero a sinistra, selezionate **[!UICONTROL Paths]** &gt; **[!UICONTROL Site Sections]** &gt; **[!UICONTROL Site Section Paths]**.
 
    ![](assets/site_section_path_1.png)
 
 1. Specificate le date appropriate.
 1. Fai clic su **[!UICONTROL Next]**.
-1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Top 1-10 (pattern applied)]** link. In un rapporto percorso, per impostazione predefinita viene applicato un pattern.
+1. Nel Passaggio 2 della procedura guidata, in **[!UICONTROL Row Labels]**, fare clic sul **[!UICONTROL Top 1-10 (pattern applied)]** collegamento. In un rapporto percorso, per impostazione predefinita viene applicato un pattern.
 
    ![](assets/site_section_path_2.png)
 
-1. Select the **[!UICONTROL Filter]** option.
+1. Seleziona l'opzione **[!UICONTROL Filter]**.
 
    ![](assets/filter_option.png)
 
-1. In the **[!UICONTROL Define 'Site Section Paths' Path Pattern]** dialog, you can specify
-   1. il punteggio iniziale del primo report.
+1. Nella **[!UICONTROL Define 'Site Section Paths' Path Pattern]** finestra di dialogo potete specificare
+   1. il livello iniziale del primo rapporto.
    1. il numero di voci da visualizzare in questo rapporto.
-1. Click **[!UICONTROL Edit]** to define a path pattern.
-1. If you want a custom pattern, drag and drop any **[!UICONTROL Pattern Objects]** from the list on the left into the **[!UICONTROL Pattern Build Canvas]** on the right.
+1. Fare clic **[!UICONTROL Edit]** per definire un pattern di percorso.
+1. Se si desidera un pattern personalizzato, trascinare uno qualsiasi **[!UICONTROL Pattern Objects]** dall'elenco a sinistra verso **[!UICONTROL Pattern Build Canvas]** destra.
 
    ![](assets/custom_pattern.png)
 
-1. You can also select a predefined pattern from the **[!UICONTROL Select a Pattern]** drop-down list and modify it. I pattern disponibili sono:
+1. È inoltre possibile selezionare un pattern predefinito dall'elenco a **[!UICONTROL Select a Pattern]** discesa e modificarlo. Di seguito sono riportati i pattern disponibili:
 
    ![](assets/select_a_pattern.png)
 
-   Alcuni di questi pattern sono specifici per il generatore di report: Pattern elemento successivo di immissione, Pattern elemento precedente percorso, Pattern elemento successivo.
+   Alcuni di questi pattern sono specifici per il generatore di report: Pattern elemento successivo del percorso di immissione, Pattern elemento precedente del percorso di uscita, Pattern elemento successivo.
 1. Per modificare un pattern predefinito,
-   1. Selezionatelo. For example, select the **[!UICONTROL Exited Site Pattern]**: ![](assets/exited_site_pattern.png)
+   1. Selezionatela. Ad esempio, selezionare **[!UICONTROL Exited Site Pattern]**: ![](assets/exited_site_pattern.png)
 
-   1. A questo punto, è necessario definire il percorso della sezione del sito che l'utente segue prima dell'uscita. Fai clic su **[!UICONTROL Specific Item(s): 0 selected]**. È possibile definire questo percorso selezionandolo da una serie di celle (se si sta modificando una richiesta esistente) o selezionando un elenco di sezioni.
-   1. To select from a range of cells from a previous request, select **[!UICONTROL From range of cells]** and click the cell selector icon. Then pick the cells from the report. ![](assets/choose_site_section_paths.png)
+   1. A questo punto è necessario definire il percorso della sezione del sito che l'utente segue prima di uscire. Fai clic su **[!UICONTROL Specific Item(s): 0 selected]**. È possibile definire questo percorso selezionando da un intervallo di celle (se si sta modificando una richiesta esistente) oppure selezionando da un elenco di sezioni.
+   1. Per selezionare da un intervallo di celle da una richiesta precedente, selezionare **[!UICONTROL From range of cells]** e fare clic sull'icona del selettore di celle. Quindi scegliete le celle dal rapporto. ![](assets/choose_site_section_paths.png)
 
-   1. To select from a list of site sections, select **[!UICONTROL From list]** and click **[!UICONTROL Add]**.
-   1. Move elements from the **[!UICONTROL Available Elements]** column to the **[!UICONTROL Selected Elements]** column by selecting them and clicking the orange arrow. The click **[!UICONTROL OK]**. ![](assets/move_site_section_elements.png)
+   1. Per selezionare da un elenco di sezioni del sito, selezionare **[!UICONTROL From list]** e fare clic su **[!UICONTROL Add]**.
+   1. Spostate gli elementi dalla **[!UICONTROL Available Elements]** colonna alla **[!UICONTROL Selected Elements]** colonna selezionandoli e facendo clic sulla freccia arancione. Il clic **[!UICONTROL OK]**. ![](assets/move_site_section_elements.png)
 
-   1. To save the pattern you just established, click **[!UICONTROL Save]**.
-   1. Click **[!UICONTROL OK]** three times and then click **[!UICONTROL Finish]**. La richiesta di tracciato filtrato viene ora generata.
+   1. Per salvare il pattern appena stabilito, fare clic su **[!UICONTROL Save]**.
+   1. Fare clic **[!UICONTROL OK]** tre volte, quindi fare clic **[!UICONTROL Finish]**. Ora viene generata la richiesta del percorso filtrato.
