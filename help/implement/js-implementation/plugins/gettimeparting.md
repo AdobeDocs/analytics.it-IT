@@ -1,7 +1,7 @@
 ---
 description: Il plug-in getTimeParting popola le variabili personalizzate con i valori dell'ora del giorno, del giorno della settimana e del fine settimana e del giorno della settimana in variabili personalizzate. Analysis Workspace offre dimensioni pronte per la suddivisione del tempo. Il plug-in deve essere utilizzato se le dimensioni suddivise in base al tempo sono necessarie in altre soluzioni Analytics, al di fuori di Analysis Workspace.
 keywords: Implementazione di Analytics
-seo-description: Il plug-in getTimeParting popola le variabili personalizzate con i valori dell'ora del giorno, del giorno della settimana e del fine settimana e del giorno della settimana in variabili personalizzate. Analysis Workspace offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of Analysis Workspace.
+seo-description: Il plug-in getTimeParting popola le variabili personalizzate con i valori dell'ora del giorno, del giorno della settimana e del fine settimana e del giorno della settimana in variabili personalizzate. Analysis Workspace offre dimensioni pronte per la suddivisione del tempo. Il plug-in deve essere utilizzato se le dimensioni suddivise in base al tempo sono necessarie in altre soluzioni Analytics, al di fuori di Analysis Workspace.
 seo-title: getTimeParting
 solution: Analytics
 subtopic: Plug-in
@@ -9,26 +9,24 @@ title: getTimeParting
 topic: Sviluppatore e implementazione
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-The getTimeParting plug-in populates custom variables with hour of day, day of week, and weekend and weekday values into custom variables. [!UICONTROL Analysis Workspace] offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of .[!UICONTROL Analysis Workspace]
+Il plug-in getTimeParting popola le variabili personalizzate con i valori dell'ora del giorno, del giorno della settimana e del fine settimana e del giorno della settimana in variabili personalizzate. [!UICONTROL Analysis Workspace] offre dimensioni predefinite per la suddivisione del tempo. Il plug-in deve essere utilizzato se le dimensioni suddivise in base al tempo sono necessarie in altre soluzioni Analytics, al di fuori di [!UICONTROL Analysis Workspace].
 
-This plug-in captures the date and time information available in the user's web browser. It obtains the hour of the day and the day of the week from this information. It then converts this data to the time zone of your choosing. It also accounts for Daylight Savings Time.
+Questo plug-in acquisisce le informazioni relative a data e ora disponibili nel browser Web dell'utente. Riceve l'ora del giorno e il giorno della settimana da queste informazioni. Quindi converte questi dati nel fuso orario scelto. Rappresenta anche l'ora legale.
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
-## Plug-in Code {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
+## Codice plug-in {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
-**Config Section**
+**Sezione di configurazione**
 
-Place the following code in the area of the  file labeled , and make the necessary updates as described below.[!DNL s_code.js][!UICONTROL CONFIG SECTION]
+Posizionare il codice seguente nell’area del [!DNL s_code.js] file etichettato [!UICONTROL CONFIG SECTION], quindi eseguire gli aggiornamenti necessari come descritto di seguito.
 
 `s._tpDST` - un array di valori DST. L'array è strutturato nel seguente formato: `YYYY:'MM/DD,MM/DD'`
 
@@ -106,7 +104,7 @@ s.prop1 = tp;
 
 **SEZIONE PLUG-IN**
 
-Aggiungete il seguente codice al [!UICONTROL PLUGINS SECTION] [!DNL s_code.js] file.
+Add the following code to the [!UICONTROL PLUGINS SECTION] in the [!DNL s_code.js] file.
 
 ```js
 /* 
