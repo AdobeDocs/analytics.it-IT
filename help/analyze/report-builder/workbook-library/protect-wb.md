@@ -1,52 +1,50 @@
 ---
-description: Potete proteggere tutte le richieste in una cartella di lavoro mediante l'aggiunta e la modifica di richieste bloccando la cartella di lavoro. Questo consente la modifica offline dei documenti di lavoro, in modo da mettere in pausa tutte le richieste di rapporti per una modifica più efficiente.
-seo-description: Potete proteggere tutte le richieste in una cartella di lavoro mediante l'aggiunta e la modifica di richieste bloccando la cartella di lavoro. Questo consente la modifica offline dei documenti di lavoro, in modo da mettere in pausa tutte le richieste di rapporti per una modifica più efficiente.
+description: È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.
+seo-description: È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.
 seo-title: Bloccare/sbloccare le cartelle di lavoro
 solution: Analytics
 title: Bloccare/sbloccare le cartelle di lavoro
 topic: Generatore di report
-uuid: ef 5 c 276 c -5 f 74-4741-b 6 fa -4 c 79 eda 29 f 62
+uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Bloccare/sbloccare le cartelle di lavoro
 
-Potete proteggere tutte le richieste in una cartella di lavoro mediante l'aggiunta e la modifica di richieste bloccando la cartella di lavoro. Questo consente la modifica offline dei documenti di lavoro, in modo da mettere in pausa tutte le richieste di rapporti per una modifica più efficiente.
+È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.
 
-In qualità di analista, il blocco di una cartella di lavoro consente di proteggere le richieste di cartelle di lavoro contro manomissioni da parte di altri utenti all'interno dell'organizzazione. Allo stesso tempo, tali utenti possono ancora aggiornare le richieste nella cartella di lavoro.
+In qualità di analista, il blocco di una cartella di lavoro consente di proteggere le richieste della cartella di lavoro da manomissioni da parte di altri utenti all'interno dell'organizzazione. Allo stesso tempo, tali utenti possono comunque aggiornare le richieste nella cartella di lavoro.
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
-
-).
-
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+Per proteggere una cartella di lavoro dalla modifica, fare clic **[!UICONTROL Locked]** sulla barra degli strumenti Generatore di report ( ![](assets/locked_icon.png)
 
 ).
 
-Potete sbloccare una cartella di lavoro bloccata se disponete di una delle seguenti autorizzazioni:
+Per rimuovere la protezione di una cartella di lavoro, fare clic su **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+
+).
+
+È possibile sbloccare una cartella di lavoro bloccata se si dispone di una delle seguenti autorizzazioni:
 
 * Siete un amministratore oppure
-* Siete la persona che ha inizialmente bloccato la cartella di lavoro. In questo caso, non dovete essere un amministratore.
+* È la persona che ha inizialmente bloccato la cartella di lavoro. In questo caso, non è necessario essere amministratori.
 
->[!NOTE]
->
->Non potete aggiungere una richiesta a una cartella di lavoro protetta, a meno che non disponiate delle autorizzazioni necessarie per sbloccare la cartella di lavoro.
+> [!NOTE] Non è possibile aggiungere una richiesta a una cartella di lavoro protetta a meno che non si disponga delle autorizzazioni necessarie per sbloccare la cartella di lavoro.
 
-Quando una cartella di lavoro è bloccata rispetto alla modifica richiesta,
+Quando una cartella di lavoro viene bloccata contro la modifica della richiesta,
 
-* Gli utenti non possono creare o aggiungere richieste.
-* Gli utenti non possono modificare le richieste tramite la procedura guidata Richiesta.
-* Gli utenti non possono modificare le richieste tramite le funzioni Modifica richiesta multiple.
-* Gli utenti non possono tagliare, copiare o incollare richieste. Tuttavia, gli utenti possono comunque utilizzare il menu di scelta rapida Taglia/Copia/Incolla nativo per tagliare, copiare o incollare il contenuto delle richieste.
-* Gli utenti possono aggiornare le richieste singolarmente o come parte di un gruppo.
-* Se la richiesta utilizza valori di input dalle celle (intervallo date, segmento, filtri), gli utenti possono modificare tali valori nelle celle e quindi modificare indirettamente le richieste aggiornandole.
+* Gli utenti non possono creare/aggiungere richieste.
+* Gli utenti non possono modificare le richieste tramite la Richiesta guidata.
+* Gli utenti non possono modificare le richieste mediante le funzioni Modifica richiesta multipla.
+* Gli utenti non possono tagliare, copiare o incollare le richieste. Tuttavia, gli utenti possono comunque utilizzare il menu di scelta rapida nativo di Excel Taglia, Copia, Incolla per tagliare, copiare e incollare il contenuto delle richieste.
+* Gli utenti possono aggiornare le richieste, singolarmente o come parte di un gruppo.
+* Se la richiesta utilizza i valori di input delle celle (intervallo di date, segmento, filtri), gli utenti possono modificare questi valori nelle celle, quindi modificare indirettamente le richieste aggiornandole.
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+Se si tenta di modificare una cartella di lavoro protetta (tramite il menu di scelta rapida, o **[!UICONTROL Request Manager]** o **[!UICONTROL Edit Multiple Requests]**), è possibile che non sia consentito:
 
-* Se non disponete delle autorizzazioni necessarie per sbloccare le richieste, viene visualizzato questo prompt:
+* Se non disponete delle autorizzazioni necessarie per sbloccare le richieste, viene visualizzato il seguente messaggio:
 
    ![](assets/locked_workbook_error.png)
 
@@ -54,19 +52,19 @@ If you try to edit a protected workbook (through the context menu, or **[!UICONT
 
 ## Flusso di lavoro {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 
-Supponiamo che la cartella di lavoro A abbia una richiesta che sia bloccata, creata dall'utente A.
+Supponiamo che la cartella di lavoro A contenga una richiesta che si trova nello stato bloccato ed è stata creata dall'utente A.
 
-**Esempio 1: Utente amministratore (o Utente A)**
+**Esempio 1: Utente amministratore (o utente A)**
 
 1. L'utente accede al Generatore di report e apre la cartella di lavoro A.
-1. La cartella di lavoro A è attualmente bloccata, quindi il pulsante «Crea richiesta» viene disattivato nella barra degli strumenti e tutti gli altri pulsanti la cui funzionalità è disabilitata bloccando.
-1. Se l'utente tenta di utilizzare uno dei pulsanti disattivati, viene visualizzato un messaggio che informa che la cartella di lavoro è bloccata.
+1. La cartella di lavoro A è attualmente bloccata, pertanto il pulsante "Crea richiesta" è disattivato nella barra degli strumenti, insieme a tutti gli altri pulsanti la cui funzionalità è disattivata bloccando.
+1. Se l'utente tenta di utilizzare uno dei pulsanti disattivati, viene visualizzato un messaggio che informa che la cartella di lavoro è attualmente bloccata.
 1. L'utente può sbloccare la cartella di lavoro, per abilitare la funzionalità di modifica completa.
-1. Dopo l'sblocco, la cartella di lavoro rimane sbloccata finché non viene nuovamente bloccata.
+1. Dopo lo sblocco, la cartella di lavoro rimane sbloccata finché non viene nuovamente bloccata in modo esplicito.
 
 **Esempio 2: Utente non amministratore (utente B)**
 
 1. L'utente accede al Generatore di report e apre la cartella di lavoro A.
 1. L'utente non può aggiungere o modificare la richiesta.
-1. L'utente non può sbloccare la cartella di lavoro.
+1. Impossibile sbloccare la cartella di lavoro.
 
