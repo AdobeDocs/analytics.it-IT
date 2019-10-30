@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Alert Builder (Generatore di avvisi)
 title: Alert Builder (Generatore di avvisi)
-uuid: 86 d 00 a 33-dc 99-4 dc 3-a 732-0 b 895 ba 487 bc
+uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,9 +37,7 @@ Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o 
 
 Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
 
->[!NOTE]
->
->Per le suite di rapporti con un calendario personalizzato, nel Generatore di avvisi non è supportata la granularità mensile.
+> [!NOTE] Per le suite di rapporti con un calendario personalizzato, nel Generatore di avvisi non è supportata la granularità mensile.
 
 **Recipients (Destinatari)**
 
@@ -59,7 +57,7 @@ Imposta la data di scadenza dell’avviso.
 
 * Trascina la metrica nell’area per l’aggiunta degli attivatori.
 
-   Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
