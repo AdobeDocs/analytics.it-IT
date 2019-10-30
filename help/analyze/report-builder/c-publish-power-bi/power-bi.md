@@ -5,7 +5,7 @@ seo-title: 'Pubblicare su Power BI: panoramica'
 title: 'Pubblicare su Power BI: panoramica'
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dat
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->Se la cartella di lavoro contiene una macro, l'opzione "Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI" verrà disattivata.
+> [!NOTE] Se la cartella di lavoro contiene una macro, l'opzione "Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI" verrà disattivata.
 
 Anziché importare l'intera cartella di lavoro, è possibile importare solo il contenuto di tutte le tabelle formattate all'interno della cartella di lavoro.
 
