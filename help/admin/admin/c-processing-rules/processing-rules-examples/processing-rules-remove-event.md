@@ -1,24 +1,24 @@
 ---
-description: Mostra come rimuovere/eliminare un evento da un hit utilizzando la Regola di elaborazione, senza implementare una modifica sulla pagina.
-seo-description: Mostra come rimuovere/eliminare un evento da un hit utilizzando la Regola di elaborazione, senza implementare una modifica sulla pagina.
-seo-title: Rimozione di un evento da un hit
-title: Rimozione di un evento da un hit
-uuid: 4 c 481 aa 2-d 074-4 abe-b 472-9 f 685 bb 1 f 4 a 3
+description: Mostra come rimuovere o eliminare un evento da un hit utilizzando la regola di elaborazione, senza implementare una modifica nella pagina.
+seo-description: Mostra come rimuovere o eliminare un evento da un hit utilizzando la regola di elaborazione, senza implementare una modifica nella pagina.
+seo-title: Rimozione di un evento da un'occorrenza
+title: Rimozione di un evento da un'occorrenza
+uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Rimozione di un evento da un hit
+# Rimozione di un evento da un'occorrenza
 
-Mostra come rimuovere/eliminare un evento da un hit utilizzando la Regola di elaborazione, senza implementare una modifica sulla pagina.
+Mostra come rimuovere o eliminare un evento da un hit utilizzando la regola di elaborazione, senza implementare una modifica nella pagina.
 
-## Remove an event from a hit {#topic_9548385BFE344FC08CA99718A24FC093}
+## Rimozione di un evento da un'occorrenza {#topic_9548385BFE344FC08CA99718A24FC093}
 
-Mostra come rimuovere/eliminare un evento da un hit utilizzando la Regola di elaborazione, senza implementare una modifica sulla pagina.
+Mostra come rimuovere o eliminare un evento da un hit utilizzando la regola di elaborazione, senza implementare una modifica nella pagina.
 
-Configurate una regola di elaborazione per impostare l'evento sul valore personalizzato = 0, come illustrato nell'immagine seguente:
+Configurate una regola di elaborazione per impostare l’evento sul valore personalizzato = 0, come illustrato nell’immagine seguente:
 
 ![](assets/remove_event.png)
 
