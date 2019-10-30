@@ -1,45 +1,43 @@
 ---
-description: Le variabili di traffico personalizzate, denominate anche proprietà (proprietà s. prop) o variabili di proprietà, sono contatori che contano quante volte ogni valore viene inviato in Analytics.
-keywords: Implementazione di Analytics; prop Traffico; prop; conversione; evar; s. prop; informazioni di conversione personalizzate; variabile traffico
-seo-description: Le variabili di traffico personalizzate, denominate anche proprietà (proprietà s. prop) o variabili di proprietà, sono contatori che contano quante volte ogni valore viene inviato in Analytics.
-seo-title: Panoramica di prop ed evar
+description: Le variabili di traffico personalizzate, denominate anche variabili di proprietà (s.prop) o di proprietà, sono contatori che contano il numero di volte in cui ogni valore viene inviato in Analytics.
+keywords: Implementazione di Analytics;Traffic prop;prop;conversion;evar;s.prop;custom conversion insider;Traffic variable
+seo-description: Le variabili di traffico personalizzate, denominate anche variabili di proprietà (s.prop) o di proprietà, sono contatori che contano il numero di volte in cui ogni valore viene inviato in Analytics.
+seo-title: Panoramica di prop ed eVar
 solution: Analytics
-title: Panoramica di prop ed evar
+title: Panoramica di prop ed eVar
 topic: Sviluppatore e implementazione
-uuid: 522 cab 2 b -1 ef 8-4 f 10-b 216-c 82 b 21431487
+uuid: 522CAB2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Panoramica di prop ed evar
+# Panoramica di prop ed eVar
 
-Le variabili di traffico personalizzate, denominate anche proprietà (proprietà s. prop) o variabili di proprietà, sono contatori che contano quante volte ogni valore viene inviato in Analytics.
+Le variabili di traffico personalizzate, denominate anche variabili di proprietà (s.prop) o di proprietà, sono contatori che contano il numero di volte in cui ogni valore viene inviato in Analytics.
 
-Per determinare quali variabili vengono assegnate dove, è importante comprendere le differenze tra le funzionalità Prop e evar. Comprendere queste differenze consente all'organizzazione di stabilire quale tipo di variabile è più efficace. For detailed information, see [Comparing Props and eVars](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+Per determinare quali variabili vengono assegnate dove, è importante comprendere le differenze tra le funzionalità Prop e eVar. Comprendere queste differenze consente all'organizzazione di decidere quale tipo di variabile è più adatto all'uso. Per informazioni dettagliate, consultate [Confronto tra proprietà ed eVar](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
 
-Prop consente inoltre di correlare dati personalizzati con eventi specifici relativi al traffico. These variables are embedded in the [!DNL Analytics] code on each page of your website. Through [!UICONTROL s.prop] variables, [!DNL Analytics] lets you create custom reports, unique to your organization, industry, and business objectives.
+Le proprietà consentono inoltre di correlare dati personalizzati con eventi specifici relativi al traffico. Queste variabili sono incorporate nel [!DNL Analytics] codice presente in ciascuna pagina del sito Web. Attraverso [!UICONTROL s.prop] le variabili, [!DNL Analytics] puoi creare rapporti personalizzati, specifici per l'organizzazione, il settore e gli obiettivi aziendali.
 
-Ad esempio, se sei un produttore automobilistico, potresti essere interessato a visualizzare «Most Popular Car Model» (Modello auto più popolare) per completare il rapporto «Pagine». Per farlo, allocate una delle proprietà del traffico per rappresentare il modello dell'automobile. Quindi implementate il codice per passare il modello di automobile nelle pagine appropriate.
+Ad esempio, se sei un produttore di automobili, potresti essere interessato a vedere "Modello auto più popolare" per completare il tuo rapporto "Pagine". È possibile ottenere questo risultato assegnando una delle proprietà di traffico per rappresentare il modello auto. Quindi implementate il codice per passare in modello auto sulle pagine appropriate.
 
->[!NOTE]
->
->[!DNL Analytics] supporta fino a 75 [!UICONTROL s.prop] variabili.
+> [!NOTE] [!DNL Analytics] supporta fino a 75 [!UICONTROL s.prop] variabili.
 
-I prop sono utilizzati nei rapporti percorsi o nei rapporti di correlazione. For example, [!UICONTROL property] variables can be used to show content type, sub-section, or template name. The resulting [!UICONTROL Custom Traffic] reports show which content type, sub-section, or template is viewed most often.
+Le proprietà vengono utilizzate nei rapporti di percorso o nei rapporti di correlazione. Ad esempio, [!UICONTROL property] le variabili possono essere utilizzate per mostrare il tipo di contenuto, la sottosezione o il nome del modello. I rapporti risultanti [!UICONTROL Custom Traffic] mostrano quale tipo di contenuto, sottosezione o modello viene visualizzato più spesso.
 
-Esistono infinite domande di business a cui puoi rispondere tramite le variabili di traffico personalizzate, a seconda di cosa stai acquisendo dal tuo sito Web. L'elenco seguente contiene alcuni obiettivi e obiettivi comuni:
+Ci sono innumerevoli domande aziendali cui è possibile rispondere tramite le variabili di traffico personalizzate, a seconda di ciò che si sta acquisendo dal sito Web. Il seguente elenco contiene alcuni obiettivi e obiettivi comuni:
 
-* Informazioni sulla navigazione attraverso il sito Web
-* Funzionamento del comportamento interno della ricerca utente
-* Segmentazione del traffico tramite navigazione o categoria
-* Segmentazione del comportamento dei visitatori per demografia
+* Navigazione degli utenti nel sito Web
+* Comportamento della ricerca utente interna
+* Segmentazione del traffico per navigazione o categoria
+* Segmentazione del comportamento dei visitatori in base ai dati demografici
 
-eVars (or [!UICONTROL Custom Conversion Insight] variables) are used to identify how well specific attributes or actions contribute to success events on your site. Ad esempio, per un sito multimediale, le evar possono essere utilizzate per identificare il modo in cui le promozioni interne invitano i visitatori a registrarsi. Quando un visitatore fa clic sulla promozione interna, è possibile utilizzare un evar per memorizzare un identificatore univoco per tale promozione. Quando lo stesso visitatore completa la registrazione e viene attivato un evento di successo personalizzato, l'identificatore univoco originale riceve credito per l'evento di registrazione.
+Le eVar (o [!UICONTROL Custom Conversion Insight] variabili) vengono utilizzate per identificare in che modo attributi o azioni specifici contribuiscono agli eventi di successo sul sito. Ad esempio, per un sito multimediale, le eVar possono essere utilizzate per identificare in che modo le promozioni interne portano i visitatori a registrarsi. Quando un visitatore fa clic sulla promozione interna, è possibile utilizzare un'eVar per memorizzare un identificatore univoco per tale promozione. Quando lo stesso visitatore completa la registrazione e viene attivato un evento di successo personalizzato, l’identificatore univoco originale riceve credito per l’evento di registrazione.
 
-In un sito di conversione, le evar possono essere utilizzate per tenere traccia del modo in cui i visitatori registrati confrontano i visitatori non registrati durante la compilazione di un acquisto. Quando un visitatore accede, una evar è impostata su «accesso». Quando il visitatore raggiunge la pagina di pagamento, l'evento checkout viene attribuito al valore "accesso". Quando un visitatore raggiunge la pagina di ringraziamento dopo l'acquisto, i prodotti e gli importi di acquisto vengono attribuiti al valore "accesso". The resulting [!UICONTROL Custom eVar] report shows the total number of checkouts and orders for "logged in" and "non-logged in" visitors.
+In un sito di conversione, le eVar possono essere utilizzate per monitorare il modo in cui i visitatori che hanno effettuato l'accesso si confrontano con i visitatori che non hanno effettuato l'accesso al completamento di un acquisto. Quando un visitatore effettua l'accesso, una eVar viene impostata su "connesso". Quando il visitatore raggiunge la pagina di estrazione, l'evento di checkout viene attribuito al valore "connesso". Quando un visitatore raggiunge la pagina di ringraziamento dopo l’acquisto, i prodotti e gli importi di acquisto vengono attribuiti al valore "registrato". Il [!UICONTROL Custom eVar] rapporto risultante mostra il numero totale di pagamenti e ordini per i visitatori "connessi" e "non connessi".
 
-For additional information, see [Traffic Variable](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) in the Analytics Help and Reference.
+Per ulteriori informazioni, vedi Variabile [di](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) traffico nella guida e nei riferimenti di Analytics.
 
-For information about setting up properties in Digital Tag Management, see [Create Web Property](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+Per informazioni sulla configurazione delle proprietà in Gestione tag digitale, consultate [Creare proprietà](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)Web.
