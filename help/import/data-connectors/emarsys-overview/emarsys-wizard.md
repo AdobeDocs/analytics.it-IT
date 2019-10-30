@@ -5,7 +5,7 @@ seo-title: Esecuzione dell'integrazione guidata Connettori dati
 title: Esecuzione dell'integrazione guidata Connettori dati
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ La procedura guidata di integrazione dei connettori dati illustra il processo di
 
 1. Log in to the [!DNL Adobe Experience Cloud].
 1. Assicurati che la suite di rapporti desiderata sia attiva nel [!DNL Report Suite] menu.
-1. Clic **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Data Connectors]**.
+1. Fai clic su **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Data Connectors]**.
 
    >[!NOTE]
    >
