@@ -1,54 +1,54 @@
 ---
-description: 'Due considerazioni importanti quando si usa l''espressione Personalizza per impostare l''intervallo di date '
-seo-description: 'Due considerazioni importanti quando si usa l''espressione Personalizza per impostare l''intervallo di date '
+description: 'Due considerazioni importanti quando si utilizza Personalizza espressione per impostare l''intervallo di date '
+seo-description: 'Due considerazioni importanti quando si utilizza Personalizza espressione per impostare l''intervallo di date '
 seo-title: Considerazioni
 solution: Analytics
 title: Considerazioni sulle date personalizzate
 topic: Generatore di report
-uuid: a 3 bb 3 a 63-0 f 15-4292-ade 7-4 ea 852 fe 68 c 8
+uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Considerazioni sulle date personalizzate
 
-Due considerazioni importanti quando si usa l'espressione Personalizza per impostare l'intervallo di date:
+Due considerazioni importanti quando si utilizza Personalizza espressione per impostare l'intervallo di date:
 
-* Il giorno in cui viene eseguito il rapporto (con le richieste) determina quali dati sono disponibili.
-* Il rollover delle date di inizio e di fine del report incide sull'intervallo di date coperto dal report.
+* Il giorno in cui viene eseguito il rapporto (A partire da) (o le richieste aggiornate) determina i dati disponibili.
+* Il rollover delle date di inizio e di fine del rapporto influenza l'intervallo di date coperto dal rapporto.
 
-Poiché la disponibilità dei dati è sensibile sia all'intervallo temporale del rapporto che alla data in cui aggiornate le richieste nel rapporto, assicuratevi di eseguire il rapporto nel giorno appropriato per estrarre le informazioni desiderate. Gli esempi seguenti illustrano entrambe queste considerazioni.
+Poiché la disponibilità dei dati è sensibile sia all'intervallo di tempo del rapporto che alla data in cui aggiornate le richieste nel rapporto, accertati di eseguire il rapporto il giorno appropriato per estrarre le informazioni desiderate. Gli esempi seguenti illustrano entrambe queste considerazioni.
 
-Assume you make a request for [!UICONTROL Page Views] using Aggregated granularity. In America del Nord, la settimana inizia domenica. Per ottenere rapporti aggiornati per il periodo da domenica a sabato (ad esempio, dal 23 novembre al 29 novembre 2008), esegui il rapporto (richiesta di aggiornamento) domenica (30 novembre) per la settimana precedente (da 11/23 a 11/29).
+Si supponga di effettuare una richiesta per [!UICONTROL Page Views] l’utilizzo della granularità aggregata. In Nord America, la settimana inizia la domenica. Per ottenere rapporti aggiornati per il periodo da domenica a sabato (ad esempio, dal 23 novembre al 29 novembre 2008), esegui il rapporto (richieste di aggiornamento) domenica (30 novembre) per la settimana precedente (dal 23/11/29).
 
 Utilizzate questa espressione personalizzata:
 
-*Da:* cw -1 w *to:* cw -1 d
+***Da: cw-1w* To: cw-1d
 
-An analysis of the customize expression when the inclusive [!UICONTROL End Date] for the request is 11/30:
+Un'analisi dell'espressione di personalizzazione quando il valore incluso [!UICONTROL End Date] per la richiesta è 11/30:
 
-*Da:* cw -1 w
+** Da: cw-1w
 
-il giorno della settimana corrente a domenica, novembre 30 meno sette giorni = giorno della settimana scorsa a partire domenica, novembre 23
+il giorno della settimana corrente a partire da domenica, 30 novembre meno 7 giorni = il giorno della settimana precedente a partire da domenica, 23 novembre
 
-*Per:* cw -1 d
+** A: cw-1d
 
-il giorno della settimana corrente a domenica, novembre 30 meno un giorno = sabato, novembre 29
+il giorno della settimana corrente a partire da domenica, 30 novembre meno un giorno = sabato, 29 novembre
 
-After the customized expression is mapped to the spreadsheet, refresh the request using Sunday, November 30, 2008 as the inclusive [!UICONTROL End Date] for the floating request. I dati riflettono il periodo di tempo lungo.
+Dopo che l'espressione personalizzata è stata mappata sul foglio di calcolo, aggiornate la richiesta utilizzando Domenica 30 novembre 2008 come elemento incluso [!UICONTROL End Date] per la richiesta mobile. I dati rifletteranno il periodo della settimana.
 
-If instead you refresh the expression and specify Saturday, November 29 as the [!UICONTROL End Date] for the floating request, the data will reflect the week 11/16 to 11/22. poiché la data di riferimento per l'aggiornamento della richiesta è un giorno precedente.
+Se invece aggiornate l'espressione e specificate sabato 29 novembre come [!UICONTROL End Date] richiesta mobile, i dati rifletteranno la settimana 11/16-11/22. Questo perché la data di riferimento per l'aggiornamento della richiesta è un giorno precedente.
 
-Here are the differences when the inclusive [!UICONTROL End Date] for the request is 11/29:
+Di seguito sono riportate le differenze quando l'inclusione [!UICONTROL End Date] per la richiesta è 11/29:
 
-*Da:* cw -1 w
+** Da: cw-1w
 
-il giorno della settimana corrente a domenica, novembre 23 meno sette giorni = giorno della settimana scorsa a partire domenica, novembre 16
+il giorno della settimana corrente a partire da domenica, 23 novembre meno sette giorni = il giorno della settimana precedente a partire da domenica, 16 novembre
 
-*Per:* cw -1 d
+** A: cw-1d
 
-il giorno della settimana corrente a domenica, novembre 23 meno un giorno = sabato, novembre 22
+il giorno della settimana corrente a partire da domenica, 23 novembre meno un giorno = sabato, 22 novembre
 
-In Europa e in altri Paesi, la settimana inizia lunedì, anziché domenica. In questo caso, potete personalizzare il calendario per modificare la data di inizio. (See [Custom Calendar](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+In Europa e in altri paesi, la settimana inizia il lunedì, anziché la domenica. In questo caso, potete personalizzare il calendario per modificare la data di inizio. (Vedere Calendario [](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A)personalizzato.)
