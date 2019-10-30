@@ -1,36 +1,36 @@
 ---
-description: Partecipazione visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni dei visitatori in canali di marketing, campagne, entrate e così via. Ad esempio, l'acquisto e il credito delle entrate possono essere attribuiti ad altri punti di contatto di marketing che si sono verificati prima della visita in cui ha avuto luogo l'ordine. Analisi ad hoc offre la partecipazione dei visitatori tra visite.
-seo-description: Partecipazione visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni dei visitatori in canali di marketing, campagne, entrate e così via. Ad esempio, l'acquisto e il credito delle entrate possono essere attribuiti ad altri punti di contatto di marketing che si sono verificati prima della visita in cui ha avuto luogo l'ordine. Analisi ad hoc offre la partecipazione dei visitatori tra visite.
-seo-title: Partecipazione visitatore - Analisi ad hoc
+description: La partecipazione del visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni del visitatore nei canali di marketing, nelle campagne, nelle entrate e così via. Ad esempio, il credito per acquisti e ricavi può essere attribuito ad altri punti di contatto marketing che si verificavano prima della visita in cui ha avuto luogo l'ordine. L'analisi ad hoc fornisce la partecipazione dei visitatori attraverso le visite.
+seo-description: La partecipazione del visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni del visitatore nei canali di marketing, nelle campagne, nelle entrate e così via. Ad esempio, il credito per acquisti e ricavi può essere attribuito ad altri punti di contatto marketing che si verificavano prima della visita in cui ha avuto luogo l'ordine. L'analisi ad hoc fornisce la partecipazione dei visitatori attraverso le visite.
+seo-title: 'Partecipazione visitatore: Ad Hoc Analysis'
 solution: Analytics
-title: Partecipazione visitatore - Analisi ad hoc
-topic: Metrics (Metriche)
-uuid: 567 d 627 c-a 2 a 8-4 fbf-b 3 fd-abb 1341 e 57 a 0
+title: 'Partecipazione visitatore: Ad Hoc Analysis'
+topic: Metriche
+uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Partecipazione visitatore - Analisi ad hoc
+# Partecipazione visitatore: Ad Hoc Analysis
 
-Partecipazione visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni dei visitatori in canali di marketing, campagne, entrate e così via. Ad esempio, l'acquisto e il credito delle entrate possono essere attribuiti ad altri punti di contatto di marketing che si sono verificati prima della visita in cui ha avuto luogo l'ordine. Analisi ad hoc offre la partecipazione dei visitatori tra visite.
+La partecipazione del visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni del visitatore nei canali di marketing, nelle campagne, nelle entrate e così via. Ad esempio, il credito per acquisti e ricavi può essere attribuito ad altri punti di contatto marketing che si verificavano prima della visita in cui ha avuto luogo l'ordine. L'analisi ad hoc fornisce la partecipazione dei visitatori attraverso le visite.
 
-**Entrate (Partecipazione)**: Esegue il calcolo del credito di conversione su tutte le pagine in una singola visita che ha portato alla conversione, fino alla pagina di conversione.
+**Entrate (Partecipazione)**: Distribuisce il credito di conversione tra tutte le pagine in un'unica visita che ha portato alla conversione, fino alla pagina di conversione.
 
-**Entrate (Partecipazione visitatore)**: Effettua il calcolo del credito di conversione in tutte le pagine e nelle visite, in base a un intervallo di tempo specificato.
+**Entrate (Partecipazione Visitatore)**: Distribuisce il credito di conversione tra tutte le pagine e tra le visite, in base a un intervallo di tempo specificato.
 
-**Esempio - Partecipazione alle entrate incrociate**
+**Esempio - Partecipazione alle entrate per più visite**
 
-Un visitatore ha due visite al sito. L'evento di conversione si verifica durante la seconda visita, sulla pagina D, a $ 60 delle entrate:
+Un visitatore ha due visite al sito. L'evento di conversione si verifica durante la seconda visita, a pagina D, per $60 di ricavi:
 
 ![](assets/VisitorPaticipation.png)
 
-Nel rapporto, l'allocazione di conversione è la seguente:
+Nel reporting, l'allocazione di conversione è la seguente:
 
-* **Entrate**: Allocata alla pagina.
-* **Entrate (Partecipazione)**: Allocata alla seconda visita.
-* **Entrate (Partecipazione visitatore)**: Allocato in entrambe le visite.
+* **Entrate**: Allocazione alla pagina.
+* **Entrate (Partecipazione)**: Allocazione alla seconda visita.
+* **Entrate (Partecipazione Visitatore)**: Allocate tra entrambe le visite.
 
 <table id="table_91A7244E77854838A8392B49366FB445"> 
  <thead> 
@@ -38,7 +38,7 @@ Nel rapporto, l'allocazione di conversione è la seguente:
    <th colname="col1" class="entry"> Pagina </th> 
    <th colname="col2" class="entry"> Ricavi </th> 
    <th colname="col3" class="entry"> Entrate (Partecipazione) </th> 
-   <th colname="col4" class="entry"> Revenue (Partecipazione visitatore) </th> 
+   <th colname="col4" class="entry"> Entrate (Partecipazione Visitatore) </th> 
   </tr> 
  </thead>
  <tbody> 
