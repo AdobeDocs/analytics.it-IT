@@ -4,7 +4,7 @@ seo-description: Accedere ai connettori dati; importare dati di tracciamento da 
 seo-title: Connettori dati di Analytics
 title: Guida introduttiva ai connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,14 +20,14 @@ Ad esempio, un'integrazione e-mail potrebbe voler utilizzare un partner e-mail p
 I connettori dati devono essere integrati in modo appropriato con la maggior parte dei browser più diffusi. Tuttavia, i report hanno un aspetto e funzioni ottimali nei sistemi che soddisfano le seguenti raccomandazioni:
 
 * Browser: Microsoft Internet Explorer versione 6 e successive
-* Cookie:Obbligatorio
+* Cookie: Obbligatorio
 * JavaScript: Abilitato
 * Sistema operativo: Basato su Windows
 * Macromedia Flash Player: versione 6 o successiva
 * Risoluzione monitor: 1024x768 (800x600 funzionerà)
 * Profondità colore: 16 bit o superiore
 
-Inoltre, la raccolta dei dati migliora quando i browser Web degli utenti dispongono di JavaScript abilitato.
+Inoltre, la raccolta dei dati migliora quando i browser Web degli utenti hanno abilitato JavaScript.
 
 **Prerequisiti**
 
@@ -36,32 +36,32 @@ Prima di configurare l'integrazione dei connettori dati per il prodotto, effettu
 * Disponi delle credenziali di accesso necessarie per l'account del prodotto partner, con i diritti di accesso a tutti i dati da integrare nei rapporti di marketing. Potreste desiderare di creare un account e-mail speciale per i distributori di report e per le notifiche relative alle operazioni integrate.
 * Identificate le variabili personalizzate che contengono le informazioni sulla campagna. Questo è comunemente definito codice di tracciamento campagna, ma l'organizzazione potrebbe usare altri termini.
 * Determinare gli eventi che si desidera ricevere le impression e fare clic sui dati. È possibile rinominare gli eventi di conseguenza.
-* Inserite il codice appropriato nella pagina di destinazione in modo che Analytics possa eseguire la modellazione appropriata con i dati provenienti dal prodotto partner. Specific instructions for each partner product are found in the in the Data Connectors Showcase on the Resources tab.
+* Inserite il codice appropriato nella pagina di destinazione in modo che Analytics possa eseguire la modellazione appropriata con i dati provenienti dal prodotto partner. Le istruzioni specifiche per ciascun prodotto partner sono disponibili nella sezione in Data Connectors Showcase nella scheda Risorse.
 
-## Add an integration
+## Aggiunta di un'integrazione
 
-Per accedere alla pagina di [!UICONTROL Data Connectors] destinazione (console) è necessario disporre di un account corrente. It is also recommended that you are familiar with Adobe Analytics.
+Per accedere alla pagina di [!UICONTROL Data Connectors] destinazione (console) è necessario disporre di un account corrente. È anche consigliabile avere familiarità con Adobe Analytics.
 
-1. Log into the Adobe Experience Cloud.
+1. Accedi ad Adobe Experience Cloud.
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 1. Fai clic su **[!UICONTROL Add New]**.
-1. Step through the **[!UICONTROL Add Integration]** interface.
+1. Attraversa l' **[!UICONTROL Add Integration]** interfaccia.
 
-   Depending on the individual product integration, you might need to provide specific configuration information as part of the integration process.
+   A seconda dell’integrazione dei singoli prodotti, potrebbe essere necessario fornire informazioni di configurazione specifiche nell’ambito del processo di integrazione.
 
    Al termine dell'integrazione, l'icona del prodotto partner viene visualizzata nella pagina Rete Connettori dati ed è disponibile nei menu.
 
-## Data Connectors Console
+## Console Connettori dati
 
-After you activate an integration, it displays on the  page. [!UICONTROL Data Connectors] You can view details and make configuration changes on the console. You can view active integrations and integrations across all report suites in your company. You can also view an activity log, set an integration as a dashboard, configure an integration, and find help.
+Dopo aver attivato un'integrazione, questa viene visualizzata sulla [!UICONTROL Data Connectors] pagina. Potete visualizzare i dettagli e apportare modifiche alla configurazione nella console. Puoi visualizzare integrazioni e integrazioni attive in tutte le suite di rapporti della tua azienda. Potete inoltre visualizzare un registro delle attività, impostare un'integrazione come dashboard, configurare un'integrazione e trovare assistenza.
 
-![Data Connectors console](assets/data-connectors-console.png)
+![Connettori dati, console](assets/data-connectors-console.png)
 
-## Remarketing segments in data connectors
+## Segmenti di rilievo nei connettori dati
 
-Remarketing segments are data files that are created based on the variables used in a data connectors integration.
+I segmenti di rilievo sono file di dati creati in base alle variabili utilizzate nell'integrazione dei connettori dati.
 
-Adobe Analytics sends these in separate daily files via data warehouse to an FTP created by Adobe for the third party. Il terzo distribuisce quindi questi file al client. Le aziende comunemente utilizzano questi per ricommercializzare quelli che possono aver visitato il sito e guardato un prodotto, ma non hanno acquistato. Ad esempio, un cliente può offrire uno sconto a un prodotto che ha visualizzato ma che non ha finito per acquistarlo.
+Adobe Analytics invia questi dati in file giornalieri separati tramite data warehouse a un FTP creato da Adobe per terze parti. Il terzo distribuisce quindi questi file al client. Le aziende comunemente utilizzano questi per ricommercializzare quelli che possono aver visitato il sito e guardato un prodotto, ma non hanno acquistato. Ad esempio, un cliente può offrire uno sconto a un prodotto che ha visualizzato ma che non ha finito per acquistarlo.
 
 **Segmenti**
 
@@ -98,7 +98,7 @@ s.events="purchase";
 //Note: Though optional, adding the purchaseID variable increases accuracy by preventing duplicate purchases
 ```
 
-**Common Issues**
+**Problemi comuni**
 
 | Problema | Descrizione |
 | -----------| ---------- |  
