@@ -7,7 +7,7 @@ title: Eseguire diversi tipi di rapporto
 topic: Report,Reporting e analisi
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ Scopri le nuove funzioni [Rilevamento anomalie e Analisi](https://marketing.adob
 
 **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Anomaly Detection]** .
 
->[!NOTE]
->
->Puoi anche eseguire il rilevamento delle anomalie dai progetti di Analysis Workspace. [Altro...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] Puoi anche eseguire il rilevamento delle anomalie dai progetti di Analysis Workspace. [Altro...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Per informazioni sulla configurazione del rilevamento delle anomalie, fare riferimento alla Guida di [riferimento](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
