@@ -1,59 +1,57 @@
 ---
-description: La tabella seguente contiene un elenco delle attività da eseguire per migrare l'implementazione.
-keywords: Implementazione di Analytics; appmeasurement; migrare; migrazione; javascript
-seo-description: La tabella seguente contiene un elenco delle attività da eseguire per migrare l'implementazione.
-seo-title: Migrazione ad appmeasurement per javascript
+description: La tabella seguente contiene un elenco delle attività da eseguire per migrare l’implementazione.
+keywords: Implementazione di Analytics;app measurement;migrate;migrazione;javascript
+seo-description: La tabella seguente contiene un elenco delle attività da eseguire per migrare l’implementazione.
+seo-title: Migrazione ad AppMeasurement per JavaScript
 solution: Analytics
-subtopic: Javascript appmeasurement
-title: Migrazione ad appmeasurement per javascript
+subtopic: JavaScript AppMeasurement
+title: Migrazione ad AppMeasurement per JavaScript
 topic: Sviluppatore e implementazione
-uuid: 5 be 345 a 8-5 a 95-4176-a 2 e 6-97139 b 9 b 46 ce
+uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Migrazione ad appmeasurement per javascript
+# Migrazione ad AppMeasurement per JavaScript
 
-La tabella seguente contiene un elenco delle attività da eseguire per migrare l'implementazione.
+La tabella seguente contiene un elenco delle attività da eseguire per migrare l’implementazione.
 
->[!NOTE]
->
->We recommend migrating to the [Identity Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
+> [!NOTE] È consigliabile eseguire la migrazione al servizio [](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) identità al momento della migrazione a [!DNL AppMeasurement] JavaScript.
 
-![](assets/step1_icon.png) Verificate la compatibilità con i plug-in
+![](assets/step1_icon.png) Verifica compatibilità plug-in
 
-Dove: s\_ code. js
+Dove: s\_code.js
 
 Alcuni plug-in non sono più supportati. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A) .
 
-![](assets/step2_icon.png) Scarica la nuova appmeasurement
+![](assets/step2_icon.png) Scarica la nuova AppMeasurement
 
-Dove: Admin &gt; Code Manager
+Dove: Amministratore &gt; Code Manager
 
-Il file ZIP di download contiene un file appmeasurement. js minito e file Javascript per i moduli Media e Integra.
+Il file zip di download contiene un file AppMeasurement.js minificato e file Javascript per i moduli Media e Integrate.
 
-![](assets/step3_icon.png) Copia la personalizzazione s\_ code. js a `AppMeasurement.js`.
+![](assets/step3_icon.png) Copiate la personalizzazione s\_code.js in `AppMeasurement.js`.
 
-Dove: s\_ code. js e appmeasurement. js
+Dove: s\_code.js e AppMeasurement.js
 
-Move all code that appears before the `DO NOT ALTER ANYTHING BELOW THIS LINE` section in s\_code.js to the beginning of AppMeasurement.js.
+Sposta tutto il codice visualizzato prima della `DO NOT ALTER ANYTHING BELOW THIS LINE` sezione in s\_code.js all'inizio di AppMeasurement.js.
 
-![](assets/step4_icon.png) (Facoltativo) Aggiorna i plug-in
+![](assets/step4_icon.png) (Facoltativo) Aggiornamento dei plug-in
 
-Dove: Appmeasurement. js
+Dove: AppMeasurement.js
 
-If you are using the getQueryParam plug-in, update these calls to use the new utility, [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+Se utilizzate il plug-in getQueryParam, aggiornate queste chiamate per utilizzare la nuova utility, [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
 
-![](assets/step5_icon.png) (Facoltativo) Aggiorna i moduli e integra i moduli
+![](assets/step5_icon.png) (Facoltativo) Aggiornare i moduli Media e Integrare
 
-Dove: Appmeasurement. js
+Dove: AppMeasurement.js
 
-If you are using either of these modules, copy and paste the code from AppMeasurement\_Module\_Media.js and/or AppMeasurement\_Module\_Integrate.js and paste it just before the `DO NOT ALTER ANYTHING BELOW THIS LINE` in AppMeasurement.js.
+Se utilizzate uno di questi moduli, copiate e incollate il codice da AppMeasurement\_Module\_Media.js e/o AppMeasurement\_Module\_Integrate.js e incollatelo subito prima del file `DO NOT ALTER ANYTHING BELOW THIS LINE` in AppMeasurement.js.
 
-![](assets/step6_icon.png) Implementare un nuovo javascript
+![](assets/step6_icon.png) Implementare un nuovo JavaScript
 
-Dove: Il vostro sito Web
+Dove: Il sito Web
 
-Il nuovo file javascript può essere distribuito in base alla procedura standard. Il codice della pagina esistente è compatibile con questa versione.
+Il nuovo file JavaScript può essere distribuito in base al processo standard. Il codice di pagina esistente è compatibile con questa versione.
