@@ -7,7 +7,7 @@ title: Utilizzare la funzione s.tl()
 topic: Activity Map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,7 +39,7 @@ Quando la funzione s.tl() viene chiamata direttamente dall'evento on-click dell'
 
 Ogni volta che un contenuto di una pagina Web viene aggiunto alla pagina dopo il caricamento iniziale della pagina, la funzione s.tl viene richiamata indirettamente e non è possibile visualizzare sovrapposizioni per quel nuovo contenuto a meno che non sia espressamente attivato o fatto clic su di esso. Viene quindi avviato un nuovo processo di raccolta dei collegamenti da [!DNL Activity Map].
 
-Quando la funzione s.tl() non viene chiamata direttamente dall'evento on-click dell'elemento HTML, [!DNL Activity Map] è possibile visualizzare la sovrapposizione solo dopo che l'utente ha fatto clic su di esso. Di seguito è riportato un esempio di chiamata indiretta della funzione s.tl():
+Quando la funzione s.tl() non viene chiamata direttamente dall'evento on-click dell'elemento HTML, [!DNL Activity Map] è possibile visualizzare la sovrapposizione solo dopo che l'utente ha fatto clic su tale elemento. Di seguito è riportato un esempio di chiamata indiretta della funzione s.tl():
 
 ```
 <div onclick="someFn(event)"></div> 
@@ -62,7 +62,7 @@ s.ActivityMap.link = function(element,linkName){
 ```
 
 ```
-<button type=”button” onclick=”s.tl(this,’o’,makeLinkName(this)”>Add To Cart</button>
+<button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
 In questo caso, abbiamo ignorato la funzione ActivityMap.link per eseguire una delle tre operazioni richiamate:
