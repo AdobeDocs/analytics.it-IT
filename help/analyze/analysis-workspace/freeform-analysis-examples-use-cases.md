@@ -2,18 +2,18 @@
 description: Esempi delle modalità di utilizzo di tabelle di dati, segmenti e idee di casi di utilizzo per Analysis Workspace.
 keywords: Analysis Workspace
 seo-description: Esempi delle modalità di utilizzo di tabelle di dati, segmenti e idee di casi di utilizzo per Analysis Workspace.
-seo-title: Casi d'uso di Analysis Workspace
+seo-title: Casi di utilizzo di Analysis Workspace
 solution: Analytics
-title: Casi d'uso di Analysis Workspace
-topic: Reports & Analytics
-uuid: 09 e 20 b 76-8 c 31-4 d 20-920 b-bebc 877 b 3 b 70
+title: Casi di utilizzo di Analysis Workspace
+topic: Reports and Analytics
+uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Casi d'uso di Analysis Workspace
+# Casi di utilizzo di Analysis Workspace
 
 Esempi delle modalità di utilizzo di tabelle di dati, segmenti e idee di casi di utilizzo per Analysis Workspace.
 
