@@ -1,91 +1,89 @@
 ---
-description: Esaminate le variabili e le relative limitazioni.
-keywords: Implementazione di Analytics; variable; limitazioni; limits
-seo-description: Esaminate le variabili e le relative limitazioni.
+description: Osserva le variabili e i loro limiti di livello elevato.
+keywords: Implementazione di Analytics;variabile;limitazioni;limiti
+seo-description: Osserva le variabili e i loro limiti di livello elevato.
 seo-title: Variabili e limitazioni
 solution: Analytics
 subtopic: Variabili
 title: Variabili e limitazioni
 topic: Sviluppatore e implementazione
-uuid: 028677 a 7-2132-4 ee 7-9 cc 1-697 c 2 c 09 b 087
+uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Variabili e limitazioni
 
-Esaminate le variabili e le relative limitazioni.
+Osserva le variabili e i loro limiti di livello elevato.
 
->[!NOTE]
->
->See [Configuration Variables](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) and [Page Variables](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) for an in-depth look at the most common Analytics variables.
+> [!NOTE] Consulta Variabili [di](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) configurazione e variabili [di](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) pagina per un'analisi approfondita delle variabiliAnalytics più comuni.
 
-The following table provides at-a-glance information about [!DNL Analytics] variables:
+La tabella seguente fornisce informazioni dettagliate sulle [!DNL Analytics] variabili:
 
 | Variabile | Descrizione |
 |---|---|
 | s_account | Determina la suite di rapporti in cui i dati vengono memorizzati e segnalati. |
 | browserHeight | Visualizza l'altezza della finestra del browser. |
 | browserWidth | Visualizza la larghezza della finestra del browser. |
-| campaign | Identifica le campagne di marketing utilizzate per portare visitatori sul sito. The value of *`campaign`* is usually taken from a query string parameter. |
-| channel | In genere identifica una sezione del sito Web. Ad esempio, un esercente potrebbe avere sezioni come Electronics, Toys o Apparel. Un sito multimediale può avere sezioni come News, Sport o Business. |
-| charSet | Converte il set di caratteri della pagina Web in UTF -8. |
-| colorDepth | Visualizza il numero di bit utilizzati per visualizzare il colore su ciascun pixel della schermata. |
+| campaign | Identifica le campagne di marketing utilizzate per portare i visitatori sul sito. Il valore di *`campaign`* viene in genere ricavato da un parametro di stringa di query. |
+| channel | In genere identifica una sezione del sito Web. Ad esempio, un esercente può avere sezioni quali Elettronica, Giocattoli o Abbigliamento. Un sito multimediale può contenere sezioni quali News, Sport o Business. |
+| charSet | Converte il set di caratteri della pagina Web in UTF-8. |
+| colorDepth | Visualizza il numero di bit utilizzati per visualizzare il colore su ogni pixel dello schermo. |
 | connectionType | Indica (in Microsoft Internet Explorer) se il browser è configurato su una connessione LAN o modem. |
-| Cookiedomainperiod | Determines the domain on which the [!DNL Analytics] [!UICONTROL visitor ID] (s_vi) cookie will be set by determining the number of periods in the domain of the page URL. For `www.mysite.com`, *`cookieDomainPeriods`* should be "2." For `www.mysite.co.jp`, *`cookieDomainPeriods`* should be "3." |
-| cookieLifetime | Used by both JavaScript and [!DNL Analytics] servers to determine the lifespan of a cookie. |
-| cookiesEnabled | Indica se un cookie di sessione first-party può essere impostato da javascript. |
-| currencyCode | Determines the conversion rate to be applied to revenue as it enters the [!DNL Analytics] databases. [!DNL Analytics] i database archiviano tutti gli importi monetari in una valuta di vostra scelta. If that currency is the same as that specified in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied. |
-| dc | Consente di impostare il centro dati in cui i dati vengono inviati. |
-| Doplugins | *`doPlugins`* è un riferimento alla *`s_doPlugins`* funzione. It allows the *`s_doPlugins`* function to be called at the appropriate location within the JavaScript file. |
-| Dynamicaccountlist | Seleziona in modo dinamico una suite di rapporti a cui vengono inviati i dati. The *`dynamicAccountList`* variable contains the rules that used to determine the destination report suite. |
-| Dynamicaccountmatch | Uses the DOM object to retrieve the section of the URL to which all rules in *`dynamicAccountList`* are applied. This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' |
-| Dynamicaccountselection | Consente di selezionare in modo dinamico la suite di rapporti in base all'URL di ciascuna pagina. |
-| dynamicVariablePrefix | Consente la distribuzione di variabili da compilare dinamicamente. I cookie, le intestazioni della richiesta e i parametri delle stringhe di query immagine sono disponibili per essere inseriti in modo dinamico. |
-| Evarn | Used for building custom reports within the [!DNL Analytics] [!UICONTROL Conversion Module]. When an eVar is set to a value for a visitor, [!DNL Analytics] remembers that value until it expires. Tutti gli eventi di successo rilevati da un visitatore mentre il valore evar è attivo vengono conteggiati verso il valore evar. |
-| events | Registra eventi comuni di successo del carrello acquisti e eventi di successo personalizzati. |
-| Fpcookiedomainperiod | Determines the domain on which [!DNL Analytics] cookies other than the [!UICONTROL visitor ID] (s_vi) cookie will be set by determining the number of periods in the domain of the page. |
-| Hiern | Determina la posizione di una pagina nella gerarchia del sito. Questa variabile è particolarmente utile per i siti con più di tre livelli nella struttura del sito. |
+| cookieDomainPeriods | Determines the domain on which the [!DNL Analytics] [!UICONTROL visitor ID] (s_vi) cookie will be set by determining the number of periods in the domain of the page URL. Ad `www.mysite.com`esempio, *`cookieDomainPeriods`* dovrebbe essere "2". Ad `www.mysite.co.jp`esempio, *`cookieDomainPeriods`* dovrebbe essere "3". |
+| cookieLifetime | Utilizzata sia da JavaScript che [!DNL Analytics] da server per determinare la durata di vita di un cookie. |
+| cookiesEnabled | Indica se un cookie di sessione di prime parti può essere impostato da JavaScript. |
+| currencyCode | Determina il tasso di conversione da applicare alle entrate quando queste entrano nei [!DNL Analytics] database. [!DNL Analytics] i database memorizzano tutti gli importi monetari in una valuta di vostra scelta. Se la valuta è la stessa specificata in *`currencyCode`*, o *`currencyCode`* è vuota, non viene applicata alcuna conversione. |
+| dc | Consente di impostare il centro dati a cui vengono inviati i dati. |
+| doPlugins | *`doPlugins`* è un riferimento alla *`s_doPlugins`* funzione. Consente di chiamare la *`s_doPlugins`* funzione nella posizione appropriata all'interno del file JavaScript. |
+| dynamicAccountList | Seleziona dinamicamente una suite di rapporti a cui vengono inviati i dati. La *`dynamicAccountList`* variabile contiene le regole utilizzate per determinare la suite di rapporti di destinazione. |
+| dynamicAccountMatch | Utilizza l'oggetto DOM per recuperare la sezione dell'URL a cui *`dynamicAccountList`* vengono applicate tutte le regole. Questa variabile è valida solo se *`dynamicAccountSelection`* è impostata su 'True'. |
+| dynamicAccountSelection | Consente di selezionare dinamicamente la suite di rapporti in base all'URL di ogni pagina. |
+| dynamicVariablePrefix | Consente alla distribuzione di contrassegnare le variabili che devono essere popolate in modo dinamico. I cookie, le intestazioni delle richieste e i parametri delle stringhe delle query sulle immagini possono essere compilati in modo dinamico. |
+| eVarN | Utilizzato per la creazione di rapporti personalizzati all'interno dell' [!DNL Analytics] area [!UICONTROL Conversion Module]. Quando un'eVar viene impostata su un valore per un visitatore, [!DNL Analytics] ricorda tale valore fino alla scadenza. Eventuali eventi di successo riscontrati da un visitatore mentre il valore eVar è attivo vengono conteggiati per il valore eVar. |
+| events | Registra gli eventi di successo comuni del carrello e gli eventi di successo personalizzati. |
+| fpCookieDomainPeriods | Determina il dominio in cui verranno impostati [!DNL Analytics] i cookie diversi dal cookie [!UICONTROL visitor ID] (s_vi), determinando il numero di punti nel dominio della pagina. |
+| hierN | Determina la posizione di una pagina nella gerarchia del sito. Questa variabile è particolarmente utile per i siti con più di tre livelli nella struttura del sito. |
 | homepage | Indica (in Internet Explorer) se la pagina corrente è impostata come home page dell'utente. |
 | javaEnabled | Indica se Java è abilitato nel browser. |
-| Javascriptversion | Visualizza la versione di javascript supportata dal browser. |
-| Linkdownloadfiletypes | Un elenco separato da virgole di estensioni di file. If your site contains links to files with any of these extensions, the URLs of these links appear in the [!UICONTROL File Downloads] report. |
-| Linkexternalfilters | If your site contains many links to external sites, and you don't want to track all exit links, *`linkExternalFilters`* can be used to report on a specific subset of exit links. |
-| Linkinternalfilters | Determina i collegamenti sul sito che consentono di uscire dai collegamenti. È un elenco di filtri separati da virgole che rappresentano i collegamenti che fanno parte del sito. |
-| Linkleavequerystring | Determines whether or not the query string should be included in the [!UICONTROL Exit Links] and [!UICONTROL File Download] reports. |
-| linkName | An optional variable used in [!UICONTROL Link Tracking] that determines the name of a custom, download, or exit link. The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it. |
-| linkTrackEvents | Contiene gli eventi che devono essere inviati con collegamenti personalizzati, scaricati e exit. This variable is only considered if *`linkTrackVars`* contains "events." |
-| linkTrackVars | Un elenco separato da virgole di variabili che verrà inviato con collegamenti personalizzati, exit e download. If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. |
-| linkType | Una variabile opzionale utilizzata nel tracciamento dei collegamenti che determina quale rapporto verrà visualizzato un Nome collegamento o un URL (personalizzato, scarica o uscita). *`linkType`* solitamente non è necessario perché il secondo parametro nella *`tl()`* funzione lo sostituisce. |
-| Medialength | Specifica la lunghezza totale del supporto in fase di riproduzione. |
-| Medianame | Specifica il nome dell'elemento video o multimediale. It is only available via the [!UICONTROL Data Insertion API] and [!UICONTROL Full Processing Data Source]. |
-| Mediaplayer | Specifica il lettore utilizzato per utilizzare un video o un elemento multimediale. |
-| Mediasession | Specifica i segmenti di una risorsa video o multimediale consumata. |
-| Media. trackevents | Identifica gli eventi da inviare con un hit di supporto. It is only applicable with JavaScript [!UICONTROL ActionSource.]. |
-| Media. trackvars | Identifica le variabili da inviare con un hit di supporto. It is only applicable with JavaScript [!UICONTROL ActionSource.]. |
-| dispositivi mobili | Controlla l'ordine in cui i cookie e gli ID utente sono utilizzati per identificare i visitatori. |
-| s_ objectid | A global variable that should be set in the [!UICONTROL onClick] event of a link. Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento della mappa del visitatore o utilizzare la mappa clic visitatore per generare rapporti su un tipo di collegamento o su una posizione, piuttosto che sull'URL del collegamento. |
-| pageName | Contiene il nome di ogni pagina sul sito. If *`pageName`* is blank, the URL is used to represent the page name in [!DNL Analytics]. |
-| pageType | Utilizzata solo per designare una pagina di errore 404 pagina non trovata. È disponibile solo un possibile valore, che è "errorpage". On a 404 Error page, the *`pageName`* variable should not be populated. |
-| pageURL | In rare cases, the URL of the page is not the URL that you would like reported in [!DNL Analytics]. To accommodate these situations, [!DNL Analytics] offers the *`pageURL`* variable, which overrides the actual URL of the page. |
-| plugins | Sui browser Netscape e Mozilla sono elencati i plug-in installati nel browser. |
-| products | Utilizzato per tenere traccia dei prodotti e delle categorie di prodotti, nonché quantità di acquisto e prezzo di acquisto. The *`products`* variable should always be set in conjunction with a success event. Optionally, the *`products`* variable can track custom numeric and currency events, as well as [!UICONTROL Merchandising] eVars. |
-| propN | Used for building custom reports within the [!DNL Analytics] [!UICONTROL Traffic Module]. [!UICONTROL props] possono essere utilizzati come contatori (per calcolare il numero di volte in cui viene inviata una visualizzazione di pagina), per i rapporti percorsi o nei rapporti di correlazione. |
-| purchaseID | Used to keep an order from being counted multiple times by [!DNL Analytics]. Whenever the purchase event is used on your site, you should use the *`purchaseID`* variable. |
-| referrer | Ripristina le informazioni relative al referente. |
+| javascriptVersion | Visualizza la versione di JavaScript supportata dal browser. |
+| linkDownloadFileTypes | Un elenco separato da virgole di estensioni di file. Se il sito contiene collegamenti a file con una di queste estensioni, gli URL di tali collegamenti vengono visualizzati nel [!UICONTROL File Downloads] rapporto. |
+| linkExternalFilters | Se il sito contiene molti collegamenti a siti esterni e non si desidera tenere traccia di tutti i collegamenti di uscita, *`linkExternalFilters`* è possibile utilizzare per generare rapporti su un sottoinsieme specifico di collegamenti di uscita. |
+| linkInternalFilters | Determina quali collegamenti sul sito sono collegamenti di uscita. Si tratta di un elenco di filtri separati da virgole che rappresentano i collegamenti che fanno parte del sito. |
+| linkLeftQueryString | Determina se la stringa di query deve essere inclusa o meno nei [!UICONTROL Exit Links] report e [!UICONTROL File Download] . |
+| linkName | Variabile opzionale utilizzata in [!UICONTROL Link Tracking] che determina il nome di un collegamento personalizzato, di download o di uscita. La *`linkName`* variabile non è normalmente necessaria perché il terzo parametro della *`tl()`* funzione la sostituisce. |
+| linkTrackEvents | Contiene gli eventi che devono essere inviati con collegamenti personalizzati, di download e di uscita. Questa variabile viene considerata solo se *`linkTrackVars`* contiene "events". |
+| linkTrackVars | Elenco separato da virgole di variabili che verranno inviate con collegamenti personalizzati, di uscita e di download. Se *`linkTrackVars`* è impostato su "", tutte le variabili con valori vengono inviate con dati di collegamento. |
+| linkType | Variabile opzionale utilizzata nel tracciamento dei collegamenti che determina quale report verrà visualizzato un nome o un URL collegamento (personalizzato, scaricato o esce dai collegamenti). *`linkType`* di norma non è necessario perché il secondo parametro della *`tl()`* funzione lo sostituisce. |
+| mediaLength | Specifica la lunghezza totale del contenuto multimediale riprodotto. |
+| mediaName | Specifica il nome del video o dell’elemento multimediale. È disponibile solo tramite [!UICONTROL Data Insertion API] e [!UICONTROL Full Processing Data Source]. |
+| mediaPlayer | Specifica il lettore utilizzato per utilizzare un elemento video o multimediale. |
+| mediaSession | Specifica i segmenti di una risorsa video o multimediale utilizzata. |
+| Media.trackEvents | Identifica gli eventi da inviare con un hit multimediale. È applicabile solo con JavaScript [!UICONTROL ActionSource.]. |
+| Media.trackVars | Identifica le variabili da inviare con un hit per file multimediali. È applicabile solo con JavaScript [!UICONTROL ActionSource.]. |
+| dispositivi mobili | Controlla l'ordine in cui i cookie e gli ID utente iscritto vengono utilizzati per identificare i visitatori. |
+| s_objectID | Variabile globale da impostare in caso [!UICONTROL onClick] di collegamento. Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il monitoraggio dei clic del visitatore o utilizzare la mappa dei clic del visitatore per segnalare un tipo di collegamento o una posizione, anziché l’URL del collegamento. |
+| pageName | Contiene il nome di ogni pagina del sito. Se *`pageName`* è vuoto, l’URL viene utilizzato per rappresentare il nome della pagina in [!DNL Analytics]. |
+| pageType | Utilizzato solo per indicare una pagina 404 Page Not Found Error (Impossibile trovare la pagina 404). Ha un solo valore possibile, che è "errorPage". In una pagina di errore 404, la *`pageName`* variabile non deve essere compilata. |
+| pageURL | In alcuni rari casi, l’URL della pagina non è l’URL in cui si desidera visualizzare i rapporti [!DNL Analytics]. Per far fronte a queste situazioni, [!DNL Analytics] offre la *`pageURL`* variabile, che sostituisce l’URL effettivo della pagina. |
+| plugins | Nei browser Netscape e Mozilla, elenca i plug-in installati nel browser. |
+| products | Utilizzato per tenere traccia di prodotti e categorie di prodotti, nonché della quantità di acquisto e del prezzo di acquisto. La *`products`* variabile deve sempre essere impostata insieme a un evento success. Facoltativamente, la *`products`* [!UICONTROL Merchandising] variabile può tenere traccia di eventi numerici e valutari personalizzati, nonché di eVar. |
+| propN | Utilizzato per la creazione di rapporti personalizzati all'interno dell' [!DNL Analytics] area [!UICONTROL Traffic Module]. [!UICONTROL props] può essere utilizzato come contatori (per contare il numero di volte che una visualizzazione di pagina viene inviata), per i report dei percorsi o nei report delle correlazioni. |
+| purchaseID | Utilizzato per evitare che un ordine venga conteggiato più volte da [!DNL Analytics]. Ogni volta che l'evento di acquisto viene utilizzato sul sito, è necessario utilizzare la *`purchaseID`* variabile. |
+| referrer | Ripristina le informazioni di referente perse. |
 | resolution | Visualizza la risoluzione del monitor del visitatore che visualizza la pagina Web. |
-| server | Mostra il dominio di una pagina Web (per mostrare quali domini arrivano) o il server che distribuisce la pagina (per un riferimento rapido al bilanciamento del carico). |
-| state | Acquisisce lo stato in cui risiede un visitatore del sito. |
-| Trackdownloadlinks | Set *`trackDownloadLinks`* to 'true' if you want to track links to downloadable files on your site. If *`trackDownloadLinks`* is 'true,' *`linkDownloadFileTypes`* determines which links are downloadable files. |
-| Trackexternallinks | If *`trackExternalLinks`* is 'true,' *`linkInternalFilters`* and *`linkExternalFilters`* determines whether any link clicked is an exit link. |
-| trackingServer | Utilizzato per l'implementazione dei cookie di prime parti per specificare il dominio in cui viene scritto il cookie e il cookie immagine. Utilizzato per pagine non sicure. |
-| trackingServerSecure | Utilizzato per l'implementazione dei cookie di prime parti per specificare il dominio in cui viene scritto il cookie e il cookie immagine. Utilizzato per le pagine sicure. |
-| Trackinlinestats | Determina se i dati della mappa clic del visitatore vengono raccolti. |
-| transactionID | Associa dati offline a una transazione online (come un lead o un acquisto generato online). Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!UICONTROL Data Sources] upload of offline information about that transaction. See the [Data Sources Guide](https://marketing.adobe.com/resources/help/en_US/sc/datasources/). |
-| s_ useplugins | If the *`s_doPlugins`* function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.' When [!UICONTROL usePlugins] is 'true,' the *`s_doPlugins`* function is called prior to each image request. |
-| visitorID | Visitors may be identified by the *`visitorID`* tag, or by IP address/User Agent. The *`visitorID`* may be up to 100 alphanumeric characters and must not contain a hyphen. |
-| visitorNamespace | If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. Questa variabile viene utilizzata per identificare il dominio con cui sono impostati i cookie. If *`visitorNamespace`* changes, all visitors reported in [!DNL Analytics] may become new visitors. In breve, non modificate questa variabile senza l'approvazione di un consulente Adobe. |
+| server | Mostra il dominio di una pagina Web (per mostrare i domini a cui arrivano gli utenti) o il server che distribuisce la pagina (per un riferimento rapido per il bilanciamento del carico). |
+| state | Acquisisce lo stato in cui risiede un visitatore sul sito. |
+| trackDownloadLinks | Impostate *`trackDownloadLinks`* su 'true' se desiderate tenere traccia dei collegamenti ai file scaricabili sul sito. Se *`trackDownloadLinks`* è 'true', *`linkDownloadFileTypes`* determina quali collegamenti sono file scaricabili. |
+| trackExternalLinks | Se *`trackExternalLinks`* è "true" *`linkInternalFilters`* e *`linkExternalFilters`* determina se un collegamento selezionato è un collegamento di uscita. |
+| trackingServer | Utilizzato per l’implementazione di cookie di prime parti per specificare il dominio in cui vengono scritti la richiesta di immagine e il cookie. Utilizzato per pagine non sicure. |
+| trackingServerSecure | Utilizzato per l’implementazione di cookie di prime parti per specificare il dominio in cui vengono scritti la richiesta di immagine e il cookie. Utilizzato per pagine sicure. |
+| trackInlineStats | Determina se i dati della mappa clic visitatore vengono raccolti. |
+| transactionID | Collega i dati offline a una transazione online (come un lead o un acquisto generato online). Ogni singolo *`transactionID`* inviato ad Adobe viene registrato in preparazione del [!UICONTROL Data Sources] caricamento di informazioni offline sulla transazione. Consulta la Guida alle origini [dati](https://marketing.adobe.com/resources/help/en_US/sc/datasources/). |
+| s_usePlugins | Se la *`s_doPlugins`* funzione è disponibile e contiene codice utile, [!UICONTROL s_usePlugins] deve essere impostata su 'true'. Quando [!UICONTROL usePlugins] è 'true', la *`s_doPlugins`* funzione viene chiamata prima di ogni richiesta di immagine. |
+| visitorID | I visitatori possono essere identificati dal *`visitorID`* tag o dall'indirizzo IP/Agente utente. I caratteri *`visitorID`* possono contenere fino a 100 caratteri alfanumerici e non devono contenere un trattino. |
+| visitorNamespace | Se *`visitorNamespace`* viene utilizzato nel file JavaScript, non eliminarlo o modificarlo. Questa variabile viene utilizzata per identificare il dominio con cui sono impostati i cookie. Se *`visitorNamespace`* vengono apportate modifiche, tutti i visitatori segnalati in [!DNL Analytics] possono diventare nuovi visitatori. In breve, non modificate questa variabile senza l'approvazione di un consulente Adobe. |
 | zip | Acquisisce il codice ZIP in cui risiede un visitatore del sito. |
 
