@@ -6,7 +6,7 @@ seo-title: Metriche calcolate e metriche calcolate avanzate (derivate)
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
