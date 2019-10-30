@@ -1,21 +1,21 @@
 ---
-description: Custom Insight Traffic Variables (Variabili traffico personalizzate) ti consente di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili di proprietà sono incorporate nel codice di implementazione su ciascuna pagina del sito Web.
-seo-description: Custom Insight Traffic Variables (Variabili traffico personalizzate) ti consente di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili di proprietà sono incorporate nel codice di implementazione su ciascuna pagina del sito Web.
-seo-title: Panoramica della variabile Traffico (prop)
+description: Le variabili di traffico di analisi personalizzate (o prop) consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito Web.
+seo-description: Le variabili di traffico di analisi personalizzate (o prop) consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito Web.
+seo-title: Panoramica della variabile traffico (prop)
 solution: Analytics
-title: Panoramica della variabile Traffico (prop)
+title: Panoramica della variabile traffico (prop)
 topic: Strumenti di amministrazione
-uuid: 5 d 62 b 19 e -9 fea -4489-8 a 80-1 ebb 317 f 5 a 78
+uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Panoramica della variabile Traffico (prop)
+# Panoramica della variabile traffico (prop)
 
-Custom Insight Traffic Variables (Variabili traffico personalizzate) ti consente di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili di proprietà sono incorporate nel codice di implementazione su ciascuna pagina del sito Web.
+Le variabili di traffico di analisi personalizzate (o prop) consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito Web.
 
-Use the [!UICONTROL Traffic Variables] page to enable, disable, or rename traffic variable reports. Una volta disattivato, il rapporto per una variabile traffico non viene visualizzato nell'interfaccia utente.
+Utilizzare la [!UICONTROL Traffic Variables] pagina per abilitare, disabilitare o rinominare i rapporti sulle variabili di traffico. Una volta disattivato, il rapporto per una variabile di traffico non viene visualizzato nell'interfaccia utente.
 
-See also [Traffic Props and Conversion eVars](/help/implement/analytics-terminology-basics/c-props-evars/props-evars.md)
+Vedere anche proprietà [Traffico ed eVar di conversione](/help/implement/analytics-terminology-basics/c-props-evars/props-evars.md)
