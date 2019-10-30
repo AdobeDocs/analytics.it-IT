@@ -1,19 +1,19 @@
 ---
-description: Flusso sezione successivo è simile a Flusso pagina successiva. Visualizza i dati per Sezioni del sito (gruppi di pagine Web correlate). Se una pagina è contenuta in più sezioni del sito, visualizza i dati per tutte le sezioni del sito.
-seo-description: Flusso sezione successivo è simile a Flusso pagina successiva. Visualizza i dati per Sezioni del sito (gruppi di pagine Web correlate). Se una pagina è contenuta in più sezioni del sito, visualizza i dati per tutte le sezioni del sito.
+description: Flusso sezione successiva è simile al Flusso pagina successivo. Visualizza i dati per le sezioni del sito (gruppi di pagine Web correlate). Se una pagina è contenuta in più sezioni del sito, vengono visualizzati i dati per tutte le sezioni del sito.
+seo-description: Flusso sezione successiva è simile al Flusso pagina successivo. Visualizza i dati per le sezioni del sito (gruppi di pagine Web correlate). Se una pagina è contenuta in più sezioni del sito, vengono visualizzati i dati per tutte le sezioni del sito.
 seo-title: Flusso sezione successiva
 solution: Analytics
 title: Flusso sezione successiva
 topic: Rapporti
-uuid: cd 476822-a 3 e 2-496 c-a 27 d-a 13 beac 8 cba 2
+uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Flusso sezione successiva
 
-Flusso sezione successivo è simile a Flusso pagina successiva. Visualizza i dati per Sezioni del sito (gruppi di pagine Web correlate). Se una pagina è contenuta in più sezioni del sito, visualizza i dati per tutte le sezioni del sito.
+Flusso sezione successiva è simile al Flusso pagina successivo. Visualizza i dati per le sezioni del sito (gruppi di pagine Web correlate). Se una pagina è contenuta in più sezioni del sito, vengono visualizzati i dati per tutte le sezioni del sito.
 
-Ad esempio, un retailer online potrebbe avere sezioni di siti per i prodotti e sezioni del sito per i marchi di prodotto. In questo caso, una pagina Web di prodotto può essere suddivisa in più sezioni. Sebbene una pagina di prodotto sia stata visualizzata solo una volta, Flusso sezione successivo mostra una visualizzazione pagina per ogni sezione di visualizzazione associata alla pagina.
+Ad esempio, un rivenditore online potrebbe avere sezioni del sito per i propri prodotti e sezioni del sito per i marchi di prodotto. In questo caso, una pagina Web di un prodotto può trovarsi in più sezioni. Anche se una pagina di prodotto è stata visualizzata solo una volta, Flusso sezione successiva mostra una visualizzazione di pagina per ciascuna sezione di vista associata alla pagina.
