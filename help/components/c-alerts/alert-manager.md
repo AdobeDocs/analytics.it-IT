@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Gestione avvisi
 title: Gestione avvisi
-uuid: 6 c 228754-af 8 b -4 ff 2-ae 88-9 ca 7 ddbee 242
+uuid: 6c228754-af8b-4ff2-ae88-9ca7dbee242
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
