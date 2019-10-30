@@ -1,21 +1,21 @@
 ---
-description: Raccoglie le informazioni per l'integrazione tra Target e Analytics. Questo plug-in viene sostituito dall'integrazione di Adobe Analytics e Adobe Target.
+description: Raccoglie le informazioni per l'integrazione tra Target e Analytics. Questo plug-in viene sostituito dall'integrazione Adobe Analytics e Adobe Target.
 keywords: Implementazione di Analytics
-seo-description: Raccoglie le informazioni per l'integrazione tra Target e Analytics. Questo plug-in viene sostituito dall'integrazione di Adobe Analytics e Adobe Target.
-seo-title: Tracktnt
+seo-description: Raccoglie le informazioni per l'integrazione tra Target e Analytics. Questo plug-in viene sostituito dall'integrazione Adobe Analytics e Adobe Target.
+seo-title: trackTNT
 solution: Analytics
 subtopic: Plug-in
-title: Tracktnt
+title: trackTNT
 topic: Sviluppatore e implementazione
-uuid: 84 f 019 c 1-d 3 d 1-4434-9 cce -0459 d 745 acf 6
+uuid: 84f019c1-d3d1-4434-9cce-0459d745acf6
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Tracktnt
+# trackTNT
 
-Collects the information for the [!DNL Target] to [!DNL Analytics] integration. Questo plug-in viene sostituito dall'integrazione di Adobe Analytics e Adobe Target.
+Raccoglie le informazioni per l' [!DNL Target] integrazione a [!DNL Analytics] . Questo plug-in viene sostituito dall'integrazione Adobe Analytics e Adobe Target.
 
-See [Adobe Analytics and Adobe Target integration](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
+Consultate Integrazione [di](https://marketing.adobe.com/resources/help/en_US/target/a4t/)Adobe Analytics e Adobe Target.
