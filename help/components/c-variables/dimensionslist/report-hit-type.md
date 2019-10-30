@@ -1,19 +1,19 @@
 ---
-description: La dimensione Tipo hit indica se un'app è stata in primo piano o in background quando l'hit è stato raccolto.
-seo-description: La dimensione Tipo hit indica se un'app è stata in primo piano o in background quando l'hit è stato raccolto.
-seo-title: Tipo di hit
-title: Tipo di hit
-uuid: 14 a 04260-27 b 2-4 f 59-b 0 a 5-80387 d 39 e 1 a 9
+description: La dimensione Tipo hit indica se un’app era in primo piano o in background al momento della raccolta dell’hit.
+seo-description: La dimensione Tipo hit indica se un’app era in primo piano o in background al momento della raccolta dell’hit.
+seo-title: Tipo di occorrenza
+title: Tipo di occorrenza
+uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Tipo di hit
+# Tipo di occorrenza
 
-La dimensione Tipo hit indica se un'app è stata in primo piano o in background quando l'hit è stato raccolto.
+La dimensione Tipo hit indica se un’app era in primo piano o in background al momento della raccolta dell’hit.
 
-Questa dimensione viene raccolta automaticamente dall'SDK. È supportato nelle versioni 4.13.6 e successive dell'SDK.
+Questa dimensione viene raccolta automaticamente dall’SDK. È supportata nelle versioni 4.13.6 e successive dell’SDK.
 
-If “Disable Legacy Reporting and Attribution for Background Hits” is checked, then background hits will show up only in [Virtual Report suites](../../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD).
+Se è selezionata l’opzione "Disattiva rapporti legacy e attribuzione per hit in background", gli hit in background verranno visualizzati solo nelle suite di rapporti [virtuali](../../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD).
