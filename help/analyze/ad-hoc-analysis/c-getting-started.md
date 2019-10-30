@@ -5,7 +5,7 @@ seo-title: Introduzione
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,9 +66,7 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE]
->
->A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire Analisi ad hoc su Java 7, Adobe non supporterà più l’implementazione di Analisi ad hoc.
+> [!NOTE] A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire Analisi ad hoc su Java 7, Adobe non supporterà più l’implementazione di Analisi ad hoc.
 
 * Scheda video con supporto per OpenGL 2.0
 * Cookie: Obbligatorio
