@@ -1,36 +1,36 @@
 ---
-description: Il numero di volte in cui viene acquisito un valore specifico, più il numero di visualizzazioni di pagina per le quali il valore specificato viene mantenuto. In altre parole, Occorrenze sono somma di visualizzazioni di pagina e eventi di pagina. Occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
-seo-description: Il numero di volte in cui viene acquisito un valore specifico, più il numero di visualizzazioni di pagina per le quali il valore specificato viene mantenuto. In altre parole, Occorrenze sono somma di visualizzazioni di pagina e eventi di pagina. Occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
+description: Il numero di volte in cui un valore specifico viene acquisito, più il numero di visualizzazioni di pagina per cui il valore specificato è persistente. In altre parole, le occorrenze sono una somma delle visualizzazioni di pagina e degli eventi di pagina. Le occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
+seo-description: Il numero di volte in cui un valore specifico viene acquisito, più il numero di visualizzazioni di pagina per cui il valore specificato è persistente. In altre parole, le occorrenze sono una somma delle visualizzazioni di pagina e degli eventi di pagina. Le occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
 seo-title: Occorrenze
 solution: Analytics
 title: Occorrenze
-topic: Metrics (Metriche)
-uuid: ff 999 fba-fcb 7-4 b 16-9446-001 facd 0 f 15 d
+topic: Metriche
+uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Occorrenze
 
-Il numero di volte in cui viene acquisito un valore specifico, più il numero di visualizzazioni di pagina per le quali il valore specificato viene mantenuto. In altre parole, Occorrenze sono somma di visualizzazioni di pagina e eventi di pagina. Occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
+Il numero di volte in cui un valore specifico viene acquisito, più il numero di visualizzazioni di pagina per cui il valore specificato è persistente. In altre parole, le occorrenze sono una somma delle visualizzazioni di pagina e degli eventi di pagina. Le occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
 
-## Comparing Instances and Occurrences {#section_4B0741AC1A78456E98AE0D4D28D70D29}
+## Confronto di istanze e occorrenze {#section_4B0741AC1A78456E98AE0D4D28D70D29}
 
-Sono elencate due metriche che risultano simili:
+Vengono elencate due metriche che appaiono simili:
 
-**[Istanze](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: Il numero di volte in cui è stato impostato un valore per una variabile.
+**[Istanze](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: Il numero di volte in cui un valore è stato impostato per una variabile.
 
 **Occorrenze**: Il numero totale di volte in cui un valore è stato impostato o persistente.
 
 | Situazione | Descrizione |
 |---|---|
-| Occorrenze superiori alle istanze | Ciò è previsto per le variabili di conversione, poiché le occorrenze includono anche quante volte è stata definita la variabile (istanze). |
-| Istanze più alte di Occorrenze | Ciò non è possibile nei rapporti, poiché tutte le istanze vengono registrate anche come occorrenze. |
-| Istanze uguali ad Occorrenze | Ciò è più comune per le variabili di traffico, in quanto per natura non persistono oltre la richiesta di immagine. |
+| Occorrenze superiori alle istanze | Questo è previsto per le variabili di conversione, in quanto le occorrenze includono anche il numero di volte in cui la variabile è stata definita (istanze). |
+| Istanze superiori alle occorrenze | Ciò non è possibile nel reporting, in quanto tutte le istanze vengono registrate anche come occorrenze. |
+| Istanze uguali alle occorrenze | Questo è il più comune per le variabili di traffico, poiché per loro natura non persistono oltre la richiesta di immagine. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Istanze](/help/components/c-variables/c-metrics/metrics-instance.md)
 
