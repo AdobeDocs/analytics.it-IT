@@ -1,18 +1,18 @@
 ---
 description: Configurare e utilizzare account FTP ospitati da Adobe.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Configurare e utilizzare account FTP ospitati da Adobe.
-seo-title: Configurare account FTP - Panoramica
+seo-title: 'Configurare account FTP: panoramica'
 solution: Analytics
-title: Configurare account FTP - Panoramica
-uuid: e 5524619-248 a -4 aae -9 f 64-cd 7 d 33 f 3 c 407
+title: 'Configurare account FTP: panoramica'
+uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurare account FTP - Panoramica
+# Configurare account FTP: panoramica
 
 Configurare e utilizzare account FTP ospitati da Adobe.
 
