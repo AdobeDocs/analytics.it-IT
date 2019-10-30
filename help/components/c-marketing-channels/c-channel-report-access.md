@@ -1,20 +1,20 @@
 ---
-description: Descrive come eseguire il rapporto Canale di marketing, concedere diritti utente limitati agli amministratori e concedere autorizzazioni per gruppi di utenti.
-seo-description: Descrive come eseguire il rapporto Canale di marketing, concedere diritti utente limitati agli amministratori e concedere autorizzazioni per gruppi di utenti.
+description: Descrive come eseguire il rapporto Canale di marketing, concedere diritti utente di amministrazione limitati e autorizzazioni del gruppo di utenti per il rapporto.
+seo-description: Descrive come eseguire il rapporto Canale di marketing, concedere diritti utente di amministrazione limitati e autorizzazioni del gruppo di utenti per il rapporto.
 seo-title: Accesso ai rapporti
 solution: Analytics
 subtopic: Canali di marketing
 title: Accesso ai rapporti
-topic: Reports & Analytics
-uuid: 5 da 9 f 2 e 7-582 b -40 e 4-a 027-b 5248065 b 89 c
+topic: Reports and Analytics
+uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Accesso ai rapporti
 
-Descrive come eseguire il rapporto Canale di marketing, concedere diritti utente limitati agli amministratori e concedere autorizzazioni per gruppi di utenti.
+Descrive come eseguire il rapporto Canale di marketing, concedere diritti utente di amministrazione limitati e autorizzazioni del gruppo di utenti per il rapporto.
 
-Per visualizzare il rapporto Canale di marketing, concedi al gruppo di utenti le autorizzazioni appropriate. Il sistema di autorizzazione di Adobe Experience Cloud è basato su gruppi, il che significa che il gruppo di un utente determina l'accesso ai report.
+Per visualizzare il rapporto Canale di marketing, assegnate al gruppo di utenti le autorizzazioni appropriate. Il sistema di autorizzazioni di Adobe Experience Cloud è basato su gruppi, il che significa che il gruppo di utenti determina l'accesso ai rapporti.
