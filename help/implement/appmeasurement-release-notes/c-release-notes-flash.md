@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: Sviluppatore e implementazione
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Note cumulative sulla versione di Flash. Le app Flash che utilizzano ActionScript possono essere misurate sul desktop e sul Web.
 
->[!NOTE]
->
->Per trovare la versione corrente della libreria, attivate la registrazione di debug.
+> [!NOTE] Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
 <!-- 
 
@@ -57,14 +55,12 @@ Adobe ha rilasciato un [ aggiornamento sulla sicurezza APSB16-13 ](https://helpx
 public var s:AppMeasurement; 
 s = new AppMeasurement(); 
 s.debugTracking = false; // set to false or remove line 
-                         // for default "disabled” behavior 
+                         // for default "disabled" behavior 
 ```
 
 Le versioni interessate sono [!DNL AppMeasurement] per Flash versione 4.0 e versioni precedenti su tutte le piattaforme.
 
->[!NOTE]
->
->Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. Continueremo a supportare la raccolta di dati dai progetti basati su AS2 esistenti. Tuttavia, consigliamo fortemente ai clienti di aggiornare le implementazioni a AS3 e di aggiungere le funzioni di sicurezza di [!DNL AppMeasurement] per Flash più recenti.
+> [!NOTE] Per motivi di sicurezza, non distribuiremo più una versione AS2 di [!DNL AppMeasurement] per Flash. Continueremo a supportare la raccolta di dati dai progetti basati su AS2 esistenti. Tuttavia, consigliamo fortemente ai clienti di aggiornare le implementazioni a AS3 e di aggiungere le funzioni di sicurezza di [!DNL AppMeasurement] per Flash più recenti.
 
 [!DNL AppMeasurement] i clienti Flash interessati da questo problema devono ricreare i progetti con la libreria aggiornata disponibile per il download dalla [!DNL Analytics] console [Altro...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
 
@@ -251,7 +247,7 @@ s.autoBindVariablesByValue = true;
 * È stato risolto un problema che poteva impedire l'invio dell'evento di completamento del video quando si utilizzava un `media.monitor` metodo personalizzato per tenere traccia dell'evento di chiusura del supporto:
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
