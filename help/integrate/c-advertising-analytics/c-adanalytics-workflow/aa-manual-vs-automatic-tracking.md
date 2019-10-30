@@ -5,7 +5,7 @@ seo-title: Modalità manuale di tracciamento e modalità automatica
 title: Modalità manuale di tracciamento e modalità automatica
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: ab2d18a7aa75f29315b841e80a52419fb1bb404c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
