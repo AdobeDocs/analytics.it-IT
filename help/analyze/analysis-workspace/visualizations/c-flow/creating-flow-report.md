@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Configurare una visualizzazione di flusso
 title: Configurare una visualizzazione di flusso
-uuid: ff 36 dc 09-6175-43 ed-a 82 a -630 d 28 bca 806
+uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
