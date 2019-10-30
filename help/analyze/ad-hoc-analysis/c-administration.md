@@ -5,7 +5,7 @@ seo-title: Amministrazione
 title: Amministrazione
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -151,9 +151,3 @@ Ad esempio, se hai 10 milioni di hit al giorno, con una sezione dati per 365 gio
 * (10.000.000 x 365) / 750.000.000 = 4,8
 
 Per mantenere il numero di hit per questa sezione di 365 giorni al di sotto di 750.000.000, i dati potrebbero essere campionati a 4,8:1. Utilizzando numeri interi, la frequenza di campionamento è di 5:1.
-
->[!MORE_LIKE_THIS]
->
->* [Utenti](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [Gruppi](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
-
