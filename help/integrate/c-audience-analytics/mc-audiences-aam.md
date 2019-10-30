@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Panoramica di Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ L'integrazione di Audience Analytics offre i seguenti vantaggi principali:
 
 1. Ogni volta che un visitatore accede alle proprietà digitali, gli hit vengono raccolti e inviati ad Analytics.
 1. Con l'inoltro [lato](/help/admin/admin/c-server-side-forwarding/ssf.md)server, ogni hit ricevuto da Analytics viene inviato automaticamente ad AAM in tempo reale.
-1. Grazie all'integrazione di Audience Analytics, per ogni hit l'iscrizione dell'audience di un visitatore viene cercata in AAM e un elenco degli ID del segmento viene restituito ad Analytics per l'elaborazione in tempo reale.
+1. Attraverso l'integrazione di Audience Analytics, per ogni hit, l'iscrizione di un visitatore all'audience viene cercata in AAM e un elenco di ID segmento viene restituito ad Analytics per l'elaborazione in tempo reale.
 
 Poiché i segmenti AAM vengono inseriti in base alla stessa hit, puoi essere sicuro che qualsiasi dato sia disponibile in AAM su un visitatore non verrà perso e sarà aggiornato per quell’hit. Ciò è superiore a un plug-in AppMeasurement perché un plug-in può rendere tali segmenti disponibili solo sull'hit successiva (e non sulla hit corrente).
 
