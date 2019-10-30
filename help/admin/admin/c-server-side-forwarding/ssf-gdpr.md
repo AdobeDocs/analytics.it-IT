@@ -1,50 +1,50 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Conformità GDPR/eprivacy e inoltro lato server
-title: Conformità GDPR/eprivacy e inoltro lato server
-uuid: 1 b 90 c 567-3321-4 dbd-a 699-38 c 04 e 809 fa 4
+seo-title: Conformità GDPR/ePrivacy e inoltro lato server
+title: Conformità GDPR/ePrivacy e inoltro lato server
+uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 translation-type: tm+mt
-source-git-commit: 26c3cc9895c27d6abc452e0a4636771fb2415fb3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Conformità GDPR/eprivacy e inoltro lato server
+# Conformità GDPR/ePrivacy e inoltro lato server
 
-This section explains recent enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), which went into effect on Sept. 30, 2017.
+In questa sezione sono illustrati i recenti miglioramenti all'inoltro lato server, che sono stati introdotti dalla normativa [](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)UE sulla conformità ai cookie, entrata in vigore il 30 settembre 2017.
 
-Server-side forwarding is used to share data from Adobe Analytics to other [!DNL Experience Cloud Solutions], such as Audience Manager, in real time. Quando abilitata, l'inoltro lato server consente anche ad Analytics di inviare dati ad altre soluzioni Experience Cloud e a quelle soluzioni per inviare dati ad Analytics durante il processo di raccolta dati.
+L'inoltro lato server viene utilizzato per condividere in tempo reale i dati da Adobe Analytics ad altri [!DNL Experience Cloud Solutions], come Audience Manager. Se abilitata, l'inoltro lato server consente anche ad Analytics di inviare dati ad altre soluzioni Experience Cloud e a queste soluzioni di inviare dati in push ad Analytics durante il processo di raccolta dei dati.
 
-Fino alla fine, l'inoltro lato server non era in grado di delineare tra il consenso e gli eventi/hit pre-autorizzazione. Dal 1 novembre 2018, l'Utente come titolare del trattamento (cliente Adobe Analytics) dispone dell'opzione per limitare i dati preliminari ad Adobe Analytics e impedire che venga inoltrato ad AAM. Una nuova variabile di contesto dell'implementazione consente di contrassegnare le richieste dove non è stato ricevuto il consenso. La variabile, quando impostata, impedisce che queste richieste vengano inviate all'AAM fino al ricevimento del consenso.
+Fino a poco tempo fa, l'inoltro lato server non aveva un modo per delineare tra eventi/hit di consenso e pre-consenso. A partire dal 1° novembre 2018, il titolare del trattamento dei dati (cliente Adobe Analytics) ha la possibilità di limitare il consenso preventivo ad Adobe Analytics e impedire che venga inoltrato ad AAM. Una nuova variabile di contesto dell'implementazione consente di contrassegnare le richieste dove non è stato ricevuto il consenso. La variabile, quando impostata, impedisce che queste richieste vengano inviate all'AAM fino al ricevimento del consenso.
 
-When this new context variable, `cm.ssf=1`, exists on a hit, this hit gets flagged and does not get server-side-forwarded to AAM. Viceversa, se la stringa non viene visualizzata in un hit, l'hit viene inoltrato ad AAM.
+Quando questa nuova variabile di contesto `cm.ssf=1`, esiste in un hit, l’hit viene contrassegnato e non viene inoltrato ad AAM sul lato server. Al contrario, se questa stringa non viene visualizzata su un hit, l’hit viene inoltrato ad AAM.
 
-L'inoltro lato server è bidirezionale, ovvero quando viene applicato a un hit e l'hit viene inoltrato a AAM, Audience Analytics riceve le informazioni del segmento per quell'hit da AAM e lo invia nuovamente ad Analytics. Di conseguenza, tutti gli hit che non sono trasmessi su server da Analytics ad AAM non verranno arricchiti con l'elenco degli ID del segmento da AAM. Pertanto, si verificherà un sottoinsieme di traffico/hit che non riceveranno informazioni sull'ID del segmento da AAM.
+L'inoltro lato server è bidirezionale, il che significa che quando viene applicato a un hit e l'hit viene inoltrato ad AAM, Audience Analytics riceve le informazioni sul segmento per quell'hit da AAM e lo invia nuovamente ad Analytics. Di conseguenza, eventuali hit non inoltrati sul lato server da Analytics ad AAM non saranno arricchiti con l’elenco degli ID del segmento da AAM. Di conseguenza, sarà presente un sottoinsieme di hit/traffico che non riceverà informazioni ID segmento da AAM.
 
-## Implementation Details {#section_FFA8B66085BF469FAB5365C944FE38F7}
+## Dettagli implementazione {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
-A seconda del metodo di implementazione, attenetevi alla procedura seguente.
+A seconda del metodo di implementazione, attenetevi alla seguente procedura.
 
 | Metodo di implementazione | Passaggi |
 |--- |--- |
-| Adobe Experience Platform Launch | Assuming you have the Adobe Analytics extension installed, add the following context data variable definition to the custom code editor within the Action configuration of a Rule: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Note:  Define the contextdata variable and set it to 1 if a customer does not consent to targeted marketing. Set the `contextdata` variable to *0* for customers who consented to targeted marketing. |
-| DTM | Add the context data variable definition to the Custom Page Code editor: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Note:  Define the contextdata variable and set it to 1 if a customer does not consent to targeted marketing. Impostare la variabile di dati su 0 per i clienti che hanno acconsentito al marketing mirato. |
-| AppMeasurement | Add the context data variable definition to the AppMeasurement.js file:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Note:  Define the contextdata variable and set it to 1 if a customer does not consent to targeted marketing. Impostare la variabile di dati su 0 per i clienti che hanno acconsentito al marketing mirato. |
+| Adobe Experience Platform Launch | Se avete installato l’estensione Adobe Analytics, aggiungete la seguente definizione di variabile di dati di contesto all’editor di codice personalizzato nella configurazione Azione di una regola: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Definite la variabile contextdata e impostatela su 1 se il cliente non acconsente al marketing di destinazione. Impostate la `contextdata` variabile su *0* per i clienti che hanno acconsentito al marketing di destinazione. |
+| DTM | Aggiungi la definizione della variabile di dati contestuali all’editor del codice pagina personalizzato: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Definite la variabile contextdata e impostatela su 1 se il cliente non acconsente al marketing di destinazione. Impostate la variabile contextdata su 0 per i clienti che hanno acconsentito al marketing di destinazione. |
+| AppMeasurement | Aggiungi la definizione della variabile di dati contestuali al file AppMeasurement.js: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Definite la variabile contextdata e impostatela su 1 se il cliente non acconsente al marketing di destinazione. Impostate la variabile contextdata su 0 per i clienti che hanno acconsentito al marketing di destinazione. |
 
-## Reporting (Optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
+## Reporting (facoltativo) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Potete utilizzare Adobe Analytics per segnalare la quantità di traffico sul quale il traffico è basato sul consenso e come risultato del server rispetto a quanto del traffico non è in vigore e non è stato inoltrato ad AAM.
+Puoi utilizzare Adobe Analytics per segnalare la quantità di traffico basata sul consenso e, di conseguenza, il traffico è stato inoltrato sul lato server, rispetto alla quantità di traffico non basata sul consenso e non è stata inoltrata ad AAM.
 
-Per configurare questo tipo di rapporto, mappate la nuova variabile di contesto su una variabile di traffico personalizzata (prop) tramite le regole di elaborazione. A tal fine
+Per configurare questo tipo di rapporto, mappate la nuova variabile di contesto su una variabile di traffico personalizzata (prop) tramite le regole di elaborazione. Per eseguire questa operazione
 
-1. Implementa la variabile «cm. ssf» (come mostrato sopra).
-1. [Abilitare il prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
-1. Utilizza le regole di elaborazione per mappare la variabile di contesto sulla proprietà.
+1. Implementate la variabile "cm.ssf" (come mostrato sopra).
+1. [Abilitate la proprietà.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. Utilizzare le regole di elaborazione per mappare la variabile di contesto alla proprietà.
 
-   1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** , then select a report suite.
-   1. Click  **[!UICONTROL Edit Report Suite]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]** .
+   1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** , quindi seleziona una suite di rapporti.
+   1. Clic  **[!UICONTROL Edit Report Suite]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]** .
    1. Fai clic su **[!UICONTROL Add Rule.]**
-   1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable “cm.ssf(Context Data)”.
+   1. In **[!UICONTROL Always Execute]** questa sezione, sovrascrivete il valore del prop attivato con la variabile di contesto "cm.ssf(Context Data)".
    1. Fai clic su **[!UICONTROL Save]**.
 
