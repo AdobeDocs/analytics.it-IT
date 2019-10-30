@@ -1,36 +1,34 @@
 ---
-description: L'implementazione con AJAX è esattamente come la distribuzione del codice in una pagina HTML standard.
+description: L’implementazione con AJAX è esattamente come la distribuzione del codice su una pagina HTML standard.
 keywords: Implementazione di Analytics
-seo-description: L'implementazione con AJAX è esattamente come la distribuzione del codice in una pagina HTML standard.
+seo-description: L’implementazione con AJAX è esattamente come la distribuzione del codice su una pagina HTML standard.
 seo-title: Implementazione con AJAX
 solution: Analytics
 title: Implementazione con AJAX
 topic: Sviluppatore e implementazione
-uuid: 9 e 3477 ef -7 dea -4 c 76-ab 61-36 a 188222 be 7
+uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Implementazione con AJAX
 
-L'implementazione con AJAX è esattamente come la distribuzione del codice in una pagina HTML standard.
+L’implementazione con AJAX è esattamente come la distribuzione del codice su una pagina HTML standard.
 
-L'azienda ha domande che necessitano di risposte, sono state valutate le esigenze e le variabili sono state assegnate. La progettazione viene quindi applicata e distribuita. Questi concetti dovrebbero avere familiarità con le fasi iniziali dell'implementazione.
+L'azienda ha domande che necessitano di risposte, le esigenze vengono valutate e le variabili assegnate. La progettazione viene quindi applicata e implementata. Questi concetti dovrebbero essere familiari se hai già attraversato le fasi iniziali di implementazione.
 
-## Designing the Solution {#section_78F1C7AFBB4E4175A6FE04A962C9C9D0}
+## Progettazione della soluzione {#section_78F1C7AFBB4E4175A6FE04A962C9C9D0}
 
-The difference when throwing [!UICONTROL AJAX] into the mix is first understanding the level of detail that needs to be gathered. Il potenziale di modifica del contenuto sulla pagina (livello di macro) o gli attributi di tracciamento dell'applicazione (micro livello) determina quali variabili devono essere impostate e quale metodo di invio dei dati ad Adobe funziona meglio.
+La differenza quando si passa [!UICONTROL AJAX] al mix è innanzitutto capire il livello di dettaglio che occorre raccogliere. La possibilità di modificare il contenuto della pagina (livello macro) o gli attributi di tracciamento dell’applicazione (livello micro) determina quali variabili devono essere impostate e quale metodo di invio dei dati ad Adobe funziona meglio.
 
-## Deploying the Code {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
+## Distribuzione del codice {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
 
-Il codice javascript è dotato di due funzioni che consentono di inviare dati. Esistono alcune linee guida distinte da seguire per sapere quale metodo deve essere utilizzato per inviare i dati.
-Se in precedenza è stata effettuata una richiesta di immagine sulla stessa pagina, occorre prima cancellare i valori delle variabili precedentemente impostate. Use the `clearVars()` funtion in [!DNL AppMeasurement] for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
+Nel codice JavaScript sono presenti due funzioni che consentono di inviare i dati. Esistono alcune linee guida distinte da seguire per sapere quale metodo deve essere utilizzato per inviare i dati.
+Se una richiesta di immagine è stata precedentemente effettuata sulla stessa pagina, è innanzitutto necessario cancellare i valori delle variabili impostate in precedenza. Utilizzare la `clearVars()` funzione in [!DNL AppMeasurement] per JavaScript, oppure scrivere una semplice funzione JavaScript per cancellare le variabili se si utilizza il codice H. Impostate i valori appropriati per il contenuto modificato, ovvero la *`pageName`* variabile. Dopo l'impostazione delle variabili, chiamare la *`t()`* funzione.
 
->[!NOTE]
->
->Before you call `s.t()`, you must clear any values on the s object that you do not want to persist. if you are using [!DNL AppMeasurement] for JavaScript, you can call `s.clearVars()`. Se utilizzi il codice H, scrivete una semplice routine per impostare le variabili su una stringa vuota.
+> [!NOTE] Prima di chiamare `s.t()`, è necessario cancellare tutti i valori sull'oggetto s che non si desidera mantenere. se utilizzate [!DNL AppMeasurement] per JavaScript, potete chiamare `s.clearVars()`. Se si utilizza il codice H, scrivere una semplice routine per impostare le variabili su una stringa vuota.
 
 ```js
 s.clearVars(); 
@@ -39,7 +37,7 @@ s.prop1="some value"
 void(s.t());
 ```
 
-The following example shows a tracking call in the `done` callback of the JQuery `.ajax` function:
+L'esempio seguente mostra una chiamata di tracciamento nel `done` callback della funzione JQuery `.ajax` :
 
 ```
 $.ajax({ 
@@ -54,13 +52,13 @@ $.ajax({
   }); 
 ```
 
-Se in precedenza è stata effettuata una richiesta di immagine sulla stessa pagina, cancellate i valori delle variabili precedentemente impostate. Questo può essere ottenuto mediante:
+Se una richiesta di immagine è stata precedentemente effettuata sulla stessa pagina, cancellare i valori delle variabili impostate in precedenza. A tal fine:
 
-* Scrittura di una semplice funzione javascript per cancellare le variabili Adobe.
-* Set the *`linkTrackVars`* and *`linkTrackEvents`* variables if you have not already done it in the [!DNL s_code.js] file.
+* Scrittura di una semplice funzione JavaScript per cancellare le variabili Adobe.
+* Impostate le variabili *`linkTrackVars`* e *`linkTrackEvents`* se non lo avete già fatto nel [!DNL s_code.js] file.
 
-* Set the values appropriate for the changed content, namely the *`pageName`* variable.
-* After the variables are set, call the *`tl()`* function.
+* Impostate i valori appropriati per il contenuto modificato, ovvero la *`pageName`* variabile.
+* Dopo aver impostato le variabili, chiamare la *`tl()`* funzione.
 
 ```js
 //set linkTrackVars and linkTrackEvents> (if applicable) 
