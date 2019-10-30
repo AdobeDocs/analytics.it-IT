@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,15 +15,13 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
 La variabile viene utilizzata per determinare quali collegamenti sul sito sono collegamenti di uscita.
 
-It is a comma-separated list of filters that represent the links that are part of the site.
+Si tratta di un elenco di filtri separati da virgole che rappresentano i collegamenti che fanno parte del sito.
 
-| Max Size | Debugger Parameter | Report compilati | Valore predefinito |
+| Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
-| N/D | N/D | Paths &gt; Entries &amp; Exits &gt; Exit Links |  |
+| N/D | N/D | Percorsi &gt; Voci ed uscite &gt; Esci dai collegamenti |  |
 
->[!NOTE]
->
->We had previously suggested setting the linkInternalFilters to javascript:. Tuttavia, ciò ha comportato la visualizzazione di tutti i domini esterni, compreso il dominio corrente su cui risiede il tag. If you want several domains to be considered internal, you can add those, as shown in the examples below.
+> [!NOTE] In precedenza avevamo suggerito di impostare linkInternalFilters su javascript:. Tuttavia, ciò ha comportato la visualizzazione di tutti i domini esterni, compreso il dominio corrente su cui risiede il tag. Se desiderate che più domini siano considerati interni, potete aggiungerli, come mostrato negli esempi seguenti.
 
 La *`linkInternalFilters`* variabile viene utilizzata per determinare se un collegamento è un collegamento di uscita, definito come qualsiasi collegamento che allontani un visitatore dal sito. Se la finestra di destinazione di un collegamento di uscita è una finestra a comparsa o una finestra esistente, il collegamento non influisce sulla visualizzazione del collegamento nel rapporto dei collegamenti di uscita. I collegamenti di uscita vengono tracciati solo se *`trackExternalLinks`* è impostata su `"true"`. (Per informazioni su come Gestione dinamica dei tag gestisce i collegamenti di uscita, consulta [Tracciamento](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html) dei collegamenti nella documentazione di Gestione dinamica dei tag.) I filtri non *`linkInternalFilters`* fanno distinzione tra maiuscole e minuscole.
 
@@ -38,7 +36,7 @@ s.trackExternalLinks=true
 s.linkInternalFilters="mysite.com" 
 s.linkExternalFilters="" 
 s.linkLeaveQueryString=false 
-... 
+...
 <a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
 <a href="https://www2.site3.com">Exit Link</a> 
