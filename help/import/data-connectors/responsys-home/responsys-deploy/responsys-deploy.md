@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementazione dell'integrazione
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Procedura per completare la procedura guidata di integrazione nell'interfaccia C
    | Elemento | Descrizione |
    |---|---|
    | ID messaggio | Seleziona un'eVar per raccogliere gli ID messaggio in tempo reale. |
-   | ID destinatario | Seleziona un'eVar per raccogliere gli ID dei destinatari in tempo reale. |
+   | Recipient ID | Seleziona un'eVar per raccogliere gli ID dei destinatari in tempo reale. |
    | Totale importi | Selezionare un evento numerico per ricevere rimbalzi giornalieri dalle risposte. |
    | E-mail inviata | Selezionare un evento numerico per ricevere le invii giornalieri dalle risposte. |
    | Clic | Selezionare un evento numerico per ricevere i clic totali giornalieri dalle risposte. |
