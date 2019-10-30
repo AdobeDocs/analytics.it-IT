@@ -1,28 +1,26 @@
 ---
-description: L'inserimento della chiamata al file libreria javascript nella parte superiore della pagina assicura che l'immagine sia tra i primi elementi da scaricare.
+description: L'inserimento della chiamata al file di libreria JavaScript nella parte superiore della pagina fa sì che l'immagine sia uno dei primi elementi da scaricare.
 keywords: Implementazione di Analytics
-seo-description: L'inserimento della chiamata al file libreria javascript nella parte superiore della pagina assicura che l'immagine sia tra i primi elementi da scaricare.
-seo-title: Posizione file javascript e relativi argomenti
+seo-description: L'inserimento della chiamata al file di libreria JavaScript nella parte superiore della pagina fa sì che l'immagine sia uno dei primi elementi da scaricare.
+seo-title: Posizione file JavaScript e relativa contemporaneità
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
-title: Posizione file javascript e relativi argomenti
+subtopic: Risoluzione dei problemi
+title: Posizione file JavaScript e relativa contemporaneità
 topic: Sviluppatore e implementazione
-uuid: ed 5118 a 8-b 142-4 fab -8 aa 1-92 d 931 cc 1439
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Posizione file javascript e relativi argomenti
+# Posizione file JavaScript e relativa contemporaneità
 
-L'inserimento della chiamata al file libreria javascript nella parte superiore della pagina assicura che l'immagine sia tra i primi elementi da scaricare.
+L'inserimento della chiamata al file di libreria JavaScript nella parte superiore della pagina fa sì che l'immagine sia uno dei primi elementi da scaricare.
 
-La maggior parte dei browser Web scaricano le immagini simultaneamente. In genere possono essere scaricate da tre a quattro immagini.
+La maggior parte dei browser Web scarica le immagini contemporaneamente. In genere, è possibile scaricare simultaneamente da tre a quattro immagini.
 
-Poiché la maggior parte dei browser Web scaricano gli elementi contemporaneamente, la barra di stato di molti browser comuni (inclusa Internet Explorer) non rispecchia con precisione l'elemento che il browser sta tentando di caricare. Ad esempio, la barra di stato potrebbe indicare che il browser è in attesa di un'immagine da scaricare 1. I test dei pacchetti di rete mostrano che il browser ha già ricevuto l'immagine 1 ed è attualmente in attesa di immagine 2.
+Poiché la maggior parte dei browser Web scarica gli elementi contemporaneamente, la barra di stato di molti browser comuni (incluso Internet Explorer) non riflette con precisione quale elemento il browser sta tentando di caricare. Ad esempio, la barra di stato potrebbe indicare che il browser è in attesa del download dell’immagine 1. I test dei pacchetti di rete mostrano che il browser ha già ricevuto l'immagine 1 e che è in attesa dell'immagine 2.
 
->[!NOTE]
->
->Poiché i fornitori di controllo delle prestazioni Internet (ad esempio, Sistemi Keynote) scaricano gli elementi delle immagini di pagina in sequenza, non in contemporanea, non simulano la tipica esperienza utente.
+> [!NOTE] Poiché i fornitori di servizi di audit delle prestazioni Internet di terze parti (ad esempio, Keynote Systems) scaricano in sequenza gli elementi immagine della pagina, non simultaneamente, non imitano la tipica esperienza utente.
 
