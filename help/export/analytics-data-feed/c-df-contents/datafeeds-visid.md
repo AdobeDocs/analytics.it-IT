@@ -8,7 +8,7 @@ title: Identificare i visitatori
 topic: Reports and Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ Se desiderate determinare quale meccanismo è stato utilizzato per determinare i
 
 L’Experience Cloud ID viene riportato in una colonna separata, `mcvisid`. Poiché questo ID è riportato nella propria colonna, può non essere chiaro se Analytics utilizza questo ID o un ID diverso per identificare un visitatore.
 
-Se l’ID Experience Cloud è stato utilizzato per identificare il visitatore, l’ID sarà contenuto nelle `post_visid_high` colonne e `post_visid_low` e l’ID `post_visid_type` sarà impostato su 5. Nel calcolo delle metriche, devi usare il valore delle `post_visid_high` `post_visid_low` colonne e delle colonne, poiché queste colonne conterranno sempre l’ID visitatore finale.
+Se l’ID Experience Cloud è stato utilizzato per identificare il visitatore, l’ID sarà contenuto nelle `post_visid_high` colonne e `post_visid_low` e l’ID `post_visid_type` sarà impostato su 5. Quando si calcolano le metriche, è necessario utilizzare il valore delle `post_visid_high` `post_visid_low` colonne e delle colonne, poiché queste colonne conterranno sempre l’ID visitatore finale.
 
 >[!TIP]
 >
