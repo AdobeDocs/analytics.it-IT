@@ -1,22 +1,22 @@
 ---
-description: Selezionando l'icona a forma di ingranaggio accanto a una metrica, puoi specificare il tipo di metrica e il modello di attribuzione.
-seo-description: Selezionando l'icona a forma di ingranaggio accanto a una metrica, puoi specificare il tipo di metrica e il modello di attribuzione.
+description: Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile specificare il tipo di metrica e il modello di attribuzione.
+seo-description: Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile specificare il tipo di metrica e il modello di attribuzione.
 seo-title: Tipo di metrica e attribuzione
 title: Tipo di metrica e attribuzione
-uuid: 64649698-df 2 a -42 c 3-bb 31-938 f 766 e 1 d 1 f
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Tipo di metrica e attribuzione
 
-Selezionando l'icona a forma di ingranaggio accanto a una metrica, puoi specificare il tipo di metrica e il modello di attribuzione.
+Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile specificare il tipo di metrica e il modello di attribuzione.
 
 * [Tipi di metriche](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [Modello attribuzione colonna](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [Funzionamento di Allocazione lineare (dal 19 luglio 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
+* [Modello di attribuzione colonna](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
+* [Come funziona l'allocazione lineare (dal 19 luglio 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## Tipi di metriche {#section_34A86FB402F94E988724232283BF18B7}
 
@@ -24,27 +24,27 @@ Selezionando l'icona a forma di ingranaggio accanto a una metrica, puoi specific
 
 | Tipi di metriche | Definizione |
 |---|---|
-| Standard | These metrics are the same metrics used in standard [!DNL Analytics] reporting. Se una formula è rappresentata da una singola metrica standard, visualizza dati identici alla controparte non calcolata della metrica. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento della riga. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item. |
-| Totale | Utilizzare il totale per il periodo di reporting in ogni elemento della riga. Se una formula è rappresentata da una singola metrica totale, visualizza lo stesso numero totale su ogni elemento della riga. Le metriche totali sono utili per creare metriche calcolate che confrontano rispetto ai dati totali del sito. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item. |
+| Standard | Queste metriche sono le stesse utilizzate per il [!DNL Analytics] reporting standard. Se una formula è costituita da una singola metrica standard, vengono visualizzati dati identici alla controparte non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento riga. Ad esempio, [Ordini] / [Visite] riceve gli ordini per quell'articolo specifico e lo divide per il numero di visite per quell'articolo specifico. |
+| Totale | Utilizzare il totale per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica totale, visualizza lo stesso numero totale su ogni elemento riga. Le metriche totali sono utili per creare metriche calcolate confrontate con i dati totali del sito. Ad esempio, [Ordini] / Visite [] totali mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite all'elemento riga specifico. |
 
-## Column Attribution Model {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Modello di attribuzione colonna {#section_F9690FD1943B403AB28E2FAC54EFE032}
 
 >[!IMPORTANT]
 >
->In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di assegnazione non predefinito sono state trasferite a nuovi modelli di attribuzione migliorati:
+>Nel luglio 2018, [!DNL Analytics] è stato introdotto [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), che ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate in nuovi modelli di attribuzione migliorati:
 >
->* For a full list of non-default attribution models and lookback windows supported, see the [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) documentation.
->* I modelli di allocazione «Last Channel Last Touch» (Ultimo contatto) e «Marketing Channel First Touch» (Primo contatto canale di marketing) verranno migrati rispettivamente nei nuovi modelli di attribuzione «Last Touch» e «First Touch» (Nota: «Marketing Channels» non sarà obsoleto - verranno visualizzati solo i due modelli di allocazione disponibili nelle metriche calcolate.
->* Inoltre, correggeremo il modo in cui viene calcolato l'allocazione lineare. Per i clienti che usano metriche calcolate con modelli di allocazione "Linear", i report possono variare leggermente per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation works (as of July 19, 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Per un elenco completo dei modelli di attribuzione e delle finestre di lookback non predefiniti supportati, consultate la documentazione di [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) .
+>* I modelli di allocazione "Marketing Channel Last Touch" e "Marketing Channel First Touch" verranno migrati rispettivamente ai nuovi modelli di attribuzione "Last Touch" e "First Touch" (Nota: "Marketing Channels" (Canali di marketing) non verrà dichiarato obsoleto; verranno visualizzati solo i due modelli di allocazione nelle metriche calcolate.
+>* Inoltre, correggeremo il modo in cui viene calcolata l'allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione "Lineare", i report potrebbero leggermente cambiare per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Per ulteriori informazioni, vedere [Funzionamento dell'allocazione lineare (dal 19 luglio 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 
 
-## How Linear Allocation works (as of July 19, 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
+## Come funziona l'allocazione lineare (dal 19 luglio 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-Nel mese di luglio 2018, Adobe ha modificato l'assegnazione di un'allocazione lineare per metriche calcolate. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports & Analytics], Report Builder, Activity Map, and the Reporting APIs. La modifica interesserà principalmente evar e altre dimensioni con persistenza. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports & Analytics]). Altri rapporti con allocazione lineare continueranno a utilizzare il metodo esistente di allocazione lineare.
+Nel luglio 2018, Adobe ha modificato il modo in cui viene riportata l'allocazione lineare per le metriche calcolate. Questa modifica interessa Analysis Workspace, Analisi ad hoc, [!UICONTROL Reports & Analytics], Generatore di report, Activity Map e le API di reporting. La modifica interesserà principalmente le eVar e altre dimensioni persistenti. Queste modifiche si applicano solo alle metriche calcolate e non avranno alcun impatto sugli altri report che utilizzano l'allocazione lineare (come il report Pagine in [!UICONTROL Reports & Analytics]). Altri rapporti che utilizzano l'allocazione lineare continueranno a utilizzare il metodo esistente di allocazione lineare.
 
-L'esempio seguente illustra il modo in cui le metriche calcolate con allocazione lineare cambieranno in reporting:
+L'esempio seguente illustra come le metriche calcolate con allocazione lineare cambieranno nei report:
 
 <table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
  <thead> 
@@ -71,7 +71,7 @@ L'esempio seguente illustra il modo in cui le metriche calcolate con allocazione
    <td colname="col8"> $10 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Last Touch evar </p> </td> 
+   <td colname="col1"> <p>Ultima eVar tocco </p> </td> 
    <td colname="col2"> PROMO A </td> 
    <td colname="col3"> PROMO A </td> 
    <td colname="col4"> PROMO A </td> 
@@ -81,7 +81,7 @@ L'esempio seguente illustra il modo in cui le metriche calcolate con allocazione
    <td colname="col8"> $10 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>First Touch evar </p> </td> 
+   <td colname="col1"> <p>First Touch eVar </p> </td> 
    <td colname="col2"> PROMO A </td> 
    <td colname="col3"> PROMO A </td> 
    <td colname="col4"> PROMO A </td> 
@@ -91,7 +91,7 @@ L'esempio seguente illustra il modo in cui le metriche calcolate con allocazione
    <td colname="col8"> $10 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Esempio di prop </p> </td> 
+   <td colname="col1"> <p>Esempio di proprietà </p> </td> 
    <td colname="col2"> PROMO A </td> 
    <td colname="col3"> - </td> 
    <td colname="col4"> PROMO A </td> 
@@ -103,26 +103,26 @@ L'esempio seguente illustra il modo in cui le metriche calcolate con allocazione
  </tbody> 
 </table>
 
-In questo esempio, i valori A, B e C venivano inviati in una variabile sugli hit 1, 3, 4 e 6 prima di un acquisto da $ 10 a hit 7. Nella seconda riga, questi valori rimangono invariati per gli hit all'ultima visita. La terza riga illustra la persistenza della visita per il tocco. Infine, l'ultima riga illustra il modo in cui i dati vengono registrati per un prop che non ha persistenza.
+In questo esempio, i valori A, B e C sono stati inviati in una variabile sugli hit 1, 3, 4 e 6 prima che un acquisto di $10 fosse effettuato sull'hit 7. Nella seconda riga, questi valori persistono tra gli hit in base all’ultima visita di tocco. La terza riga illustra una persistenza della visita di primo tocco. Infine, l'ultima riga illustra come i dati verrebbero registrati per una prop che non ha persistenza.
 
-**Riepilogo del modo in cui l'allocazione lineare ha funzionato prima del luglio 2018**
+**Riepilogo del funzionamento dell’allocazione lineare prima di luglio 2018**
 
-Prima del 19 luglio 2018, l'attribuzione lineare veniva calcolata dopo il primo tocco o l'ultima persistenza del tocco. Ciò significa che per l'ultima evar touch sopra, il $ 10 verrà distribuito come segue: A = 10 * (3/6) = $ 5, B = 10 * (2/6) = $ 3.33, C = 10 * (1/6) = $ 1.67.
+Prima del 19 luglio 2018, l'attribuzione lineare è stata calcolata dopo che si è già verificata la persistenza del primo tocco o dell'ultimo tocco. Ciò significa che per l'ultima eVar touch sopra, i $10 sarebbero distribuiti come segue: A = 10 * (3/6) = $5, B = 10 * (2/6) = $3,33, C = 10 * (1/6) = $1,67.
 
-Per la prima evar touch sopra, tutti $ 10 verrebbero forniti a A. Per il prop: A = 10 * (2/4) = $ 5, B = 10 * (1/4) = $ 2.50 e C = 10 * (1/4) = $ 2.50. Per riepilogare l'allocazione lineare come in precedenza:
+Per la prima eVar touch sopra, tutti $10 sarebbe dato a A. Per il prop: A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, e C = 10 * (1/4) = $2,50. Per riepilogare l'allocazione lineare come funzionava in precedenza:
 
-| Valori | Evar ultima touch | Current First Touch evar | Prop corrente |
+| Valori | Ultima eVar di tocco corrente | Prima eVar touch corrente | Prop corrente |
 |---|---|---|---|
 | PROMO A | $ 5,00 | $10.00 | $ 5,00 |
 | PROMO B | $3.33 | $0 | $ 2,50 |
 | PROMO C | $1.67 | $0 | $ 2,50 |
 | Totale | $10.00 | $10.00 | $10.00 |
 
-**Riepilogo del modo in cui l'allocazione lineare funziona dal 19 luglio 2018**
+**Riepilogo del funzionamento dell’allocazione lineare a partire dal 19 luglio 2018**
 
-Dopo il 19 luglio, questo comportamento è stato corretto nelle metriche calcolate. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). Pertanto, le impostazioni di allocazione della dimensione non influiscono più sul modo in cui viene calcolato l'allocazione lineare (ovvero prop ed evar verranno gestiti nello stesso modo), e i risultati riflettono i valori originariamente passati al primo o ultimo valore di tocco che potrebbero essere stati persistenti. Quindi, in tutti e tre i casi, A = 10 * (2/4) = $ 5, B = 10 * (1/4) = $ 2.50 e C = 10 * (1/4) = $ 2.50.
+Dopo il 19 luglio, abbiamo corretto questo comportamento nelle metriche calcolate. Invece di utilizzare i valori persistenti basati sull'ultimo tocco o sul primo tocco, [!DNL Analytics] ora utilizza solo i valori passati (la prima riga della tabella superiore). Di conseguenza, le impostazioni di allocazione delle dimensioni non influiscono più sul modo in cui viene calcolata l'allocazione lineare (vale a dire proprietà e eVar saranno trattate allo stesso modo), e i risultati riflettono ciò che è stato originariamente passato al posto dei valori del primo o dell'ultimo tocco che potrebbero essere persistenti. Quindi, in tutti e tre i casi, A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, e C = 10 * (1/4) = $2,50.
 
-| Valori | Nuova evar touch | Nuova evar touch | Nuovo prop |
+| Valori | Nuova eVar ultimo tocco | Nuova eVar Touch | Nuovo prop |
 |---|---|---|---|
 | PROMO A | $ 5,00 | $ 5,00 | $ 5,00 |
 | PROMO B | $ 2,50 | $ 2,50 | $ 2,50 |
