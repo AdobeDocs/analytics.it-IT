@@ -1,26 +1,26 @@
 ---
-description: Restituisce il valore di un parametro stringa query specificato, se trovato nell'URL della pagina corrente o nella stringa fornita.
+description: Restituisce il valore di un parametro di stringa di query specificato, se trovato nell’URL della pagina corrente o nella stringa fornita.
 keywords: Implementazione di Analytics
-seo-description: Restituisce il valore di un parametro stringa query specificato, se trovato nell'URL della pagina corrente o nella stringa fornita.
-seo-title: Util. getqueryparam
+seo-description: Restituisce il valore di un parametro di stringa di query specificato, se trovato nell’URL della pagina corrente o nella stringa fornita.
+seo-title: Util.getQueryParam
 solution: Analytics
-subtopic: Javascript appmeasurement
-title: Util. getqueryparam
+subtopic: JavaScript AppMeasurement
+title: Util.getQueryParam
 topic: Sviluppatore e implementazione
-uuid: 1 fecd 148-3 e 52-46 f 2-a 73 f -003563 f 7 a 62 c
+uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Util. getqueryparam
+# Util.getQueryParam
 
-Restituisce il valore di un parametro stringa query specificato, se trovato nell'URL della pagina corrente o nella stringa fornita.
+Restituisce il valore di un parametro di stringa di query specificato, se trovato nell’URL della pagina corrente o nella stringa fornita.
 
-Dato che dati importanti (ad esempio, codici di tracciamento campagna, parole chiave di ricerca interna, ecc.) è disponibile nella stringa query su una pagina, getqueryparam facilita l'acquisizione dei dati nelle variabili Analytics.
+Perché dati importanti (come codici di tracciamento campagna, parole chiave di ricerca interne, ecc.) è disponibile nella stringa di query su una pagina, getQueryParam consente di acquisire i dati nelle variabili di Analytics.
 
-This utility replaces the [getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) plug-in.
+Questa utility sostituisce il plug-in [getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) .
 
 **Sintassi:**
 
@@ -28,21 +28,19 @@ This utility replaces the [getQueryParam](../../implement/js-implementation/plug
 s.Util.getQueryParam(key, [url], [delim])
 ```
 
->[!NOTE]
->
->La sintassi per l'utility è diversa da quella del plug-in.
+> [!NOTE] La sintassi dell'utility è diversa da quella del plug-in.
 
 **Parametri:**
 
 | Parametro | Descrizione |
 |---|---|
-| key | (obbligatorio) Il nome del parametro stringa query che desiderate ottenere. Questo parametro fa distinzione tra maiuscole e minuscole. |
-| url | (optional) Default url is `s.pageURL` or `window.location`. Specificando un valore per questo parametro, si sostituisce l'URL da cui viene recuperato il parametro query a quello specificato. |
-| delim | (facoltativo) Delimitatore parametro nell'URL. Il delimitatore predefinito è " &amp;". Consente di specificare un delimitatore di stringa query alternativo, ad esempio "; ". |
+| key | (obbligatorio) Il nome del parametro della stringa di query che si desidera ottenere. Questo parametro fa distinzione tra maiuscole e minuscole. |
+| url | (facoltativo) L’URL predefinito è `s.pageURL` o `window.location`. Se si specifica un valore per questo parametro, l'URL da cui il parametro di query viene recuperato viene sostituito da quello specificato. |
+| delizia | (facoltativo) Delimitatore di parametri nell’URL. Il delimitatore predefinito è "&amp;". Questo consente di specificare un delimitatore di stringa di query alternativo, ad esempio ";". |
 
 **Restituisce:**
 
-La funzione restituirà una stringa vuota "se non viene fornita alcuna chiave, o se nessuna delle opzioni URL esiste o se la chiave non è trovata nell'URL. Se nell'URL viene trovato un delimitatore di frammento, non viene considerato tutto ciò che segue il delimitatore del frammento. Se la chiave esiste ed è assegnata a un valore, il valore è decodificato e restituito.
+La funzione restituisce una stringa vuota "" se non viene fornita alcuna chiave, se non esiste alcuna opzione URL, o se la chiave non è trovata nell'URL. Se nell’URL viene trovato un delimitatore di frammento #, non vengono presi in considerazione tutti gli elementi che seguono il delimitatore di frammento. Se la chiave esiste e viene assegnata a un valore, il valore è URL decodificato e restituito.
 
 **Esempio:**
 
