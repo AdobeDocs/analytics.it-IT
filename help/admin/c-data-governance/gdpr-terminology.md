@@ -5,7 +5,7 @@ seo-title: Terminologia RGPD
 title: Terminologia RGPD
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -52,9 +52,9 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 **Gruppo di imprese**: un gruppo costituito da un’impresa controllante e dalle imprese da questa controllate.
 
-**Identity Management Services (IMS)** - Implementazione di Federated ID e OAuth 2.0 da parte di Adobe per l'autenticazione degli utenti Adobe ID e l'autorizzazione per le risorse Adobe. È necessario integrare IMS con l’applicazione o il servizio Adobe per consentire agli utenti di entrare e accedere ai servizi di Adobe. Gli utenti possono accedere direttamente con Renga (il provider di servizi di identità di Adobe) oppure tramite un dominio di autenticazione di terze parti trusted (ad esempio Google, Facebook o un LDAP aziendale/organizzazione).
+**IMS (Identity Management Services, servizi di gestione delle identità)**: implementazione di Adobe di Federated ID e OAuth 2.0 per l’autenticazione degli utenti di Adobe ID e l’autorizzazione delle risorse di Adobe. È necessario integrare IMS con l’applicazione o il servizio Adobe per consentire agli utenti di entrare e accedere ai servizi di Adobe. Gli utenti possono accedere direttamente con Renga (il fornitore di servizi di identità di Adobe) oppure tramite un dominio di autenticazione terzo affidabile (ad esempio Google, Facebook o un LDAP dell’azienda/organizzazione).
 
-**ID dell’organizzazione Experience Cloud**: fa riferimento a un token di autorizzazione per l’autenticazione da servizio a servizio, che non richiede l’accesso dell’utente. Viene inviato a un client IMS e non è associato a un utente. Il client IMS ha bisogno di un token di servizio per autorizzare le richieste di back channel tra i servizi. (Il termine "token di sistema" viene usato occasionalmente per indicare il token di servizio.)
+**ID dell’organizzazione Experience Cloud**: fa riferimento a un token di autorizzazione per l’autenticazione da servizio a servizio, che non richiede l’accesso dell’utente. Viene inviato a un client IMS e non è associato a un utente. Il client IMS ha bisogno di un token di servizio per autorizzare le richieste di back channel tra i servizi. (Il termine “token di sistema” viene usato saltuariamente per indicare il token di servizio).
 
 **Sede principale**: il luogo all’interno dell’Unione in cui vengono prese le decisioni più importanti sul trattamento dei dati, relativamente al responsabile.
 
