@@ -1,33 +1,33 @@
 ---
-description: A seconda delle autorizzazioni, puoi condividere segmenti con l'intera organizzazione, i gruppi o i singoli utenti.
-seo-description: A seconda delle autorizzazioni, puoi condividere segmenti con l'intera organizzazione, i gruppi o i singoli utenti.
+description: A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
+seo-description: A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
 seo-title: Condividere segmenti
 solution: Analytics
 title: Condividere segmenti
 topic: Segmenti
-uuid: 48736078-85 a 7-49 bd-b 8 b 8-562818798 c 5 e
+uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Condividere segmenti
 
-A seconda delle autorizzazioni, puoi condividere segmenti con l'intera organizzazione, i gruppi o i singoli utenti.
+A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
 
-| Amministratore | Può condividere segmenti con Tutti, con Gruppi e con Utenti. I gruppi sono configurati come gruppi di autorizzazioni in Admin Console. |
+|  Amministratore | Può condividere segmenti con tutti, con gruppi e con utenti. I gruppi sono configurati come gruppi di autorizzazioni nell’Admin Console. |
 |---|---|
-| Non amministratore | Può condividere segmenti solo con singoli utenti. |
+| Non amministratore | Condivisione di segmenti solo con singoli utenti. |
 
-Quando devono condividere i segmenti con l'intera azienda e con un solo gruppo di utenti o individui? Di seguito sono riportate alcune best practice da seguire:
+Quando devi condividere i segmenti con l’intera azienda anziché con un solo gruppo di utenti o singoli utenti? Seguono alcune best practice:
 
-* As an Admin, share a segment with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* In qualità di Amministratore, condividi un segmento con **[!UICONTROL All]** se è utile per l'intera azienda e tutti possono usarlo con facilità. In questo caso, è consigliabile considerare anche la possibilità di renderlo un segmento [approvato](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) .
 
-* As an Admin, share a segment with a specific **[!UICONTROL Group]** if the segment provides good business value for that team. Non approvare ufficialmente questo tipo di segmento.
-* In qualità di amministratore o utente, condividi un segmento con altri individui per definire e convalidare un segmento. Se non risulta utile, può essere eliminato. Non approvare ufficialmente questo tipo di segmento.
+* In qualità di Amministratore, condividi un segmento con uno specifico **[!UICONTROL Group]** se il segmento fornisce un buon valore commerciale per quel team. Non approvare ufficialmente questo tipo di segmento.
+* In qualità di Amministratore o di singolo utente, condividi un segmento con altri utenti per controllare e convalidare un segmento. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di segmento.
 
-1. In Gestione segmenti, contrassegnate la casella di controllo accanto al segmento da condividere. Viene visualizzata la barra degli strumenti di gestione segmenti:
+1. In Segment Manager (Gestore segmenti), contrassegna la casella di controllo accanto al segmento da condividere. Viene visualizzata la barra degli strumenti di gestione dei segmenti:
 
    ![](assets/segment_mgmt_toolbar.png)
 
@@ -35,8 +35,8 @@ Quando devono condividere i segmenti con l'intera azienda e con un solo gruppo d
 
    ![](assets/sharing_segments.png)
 
-   If you are an Admin, you can select **[!UICONTROL All]** or choose from **[!UICONTROL Groups]** and **[!UICONTROL Users]** in your organization. In qualità di non amministratore, puoi vedere solo i singoli utenti. Use the **[!UICONTROL Search]** field to search for groups or users. 1. Click **[!UICONTROL Share]**.
+   Se sei un amministratore, puoi selezionare **[!UICONTROL All]** o scegliere tra **[!UICONTROL Groups]** e **[!UICONTROL Users]** nell'organizzazione. In qualità di non amministratore, potete visualizzare solo singoli utenti. Usate il **[!UICONTROL Search]** campo per cercare gruppi o utenti. 1. Click **[!UICONTROL Share]**.
 
-   The Shared icon appears next to the segment:  ![](assets/share_icon.png)
+   Accanto al segmento viene visualizzata l’icona Condiviso:  ![](assets/share_icon.png)
 
-1. You can filter on segments shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
+1. Puoi filtrare i segmenti condivisi con te scegliendo **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
