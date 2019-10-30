@@ -5,13 +5,13 @@ seo-title: Informazioni sulla modifica del tipo di evento
 solution: Analytics
 title: Informazioni sulla modifica del tipo di evento
 topic: Strumenti di amministrazione
-uuid: c 184 dd 8 e -7818-42 ff-a 960-dd 91215383 d 8
+uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Informazioni sulla modifica del tipo di evento
 
-Potete modificare un evento da contatore, numerico o valuta a un altro tipo senza perdere accesso ai dati acquisiti in precedenza.
+È possibile modificare un evento da contatore, numerico o valuta in un altro tipo senza perdere l'accesso ai dati acquisiti in precedenza.
