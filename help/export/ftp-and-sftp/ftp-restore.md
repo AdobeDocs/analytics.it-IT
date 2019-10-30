@@ -1,18 +1,18 @@
 ---
 description: I dati che sono stati eliminati da un account FTP non possono essere ripristinati da Adobe.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: I dati che sono stati eliminati da un account FTP non possono essere ripristinati da Adobe.
-seo-title: Ripristino di dati FTP e account FTP eliminati
+seo-title: Ripristino dei dati e degli account FTP eliminati
 solution: Analytics
-title: Ripristino di dati FTP e account FTP eliminati
-uuid: 79 bed 9 e 4-c 84 f -468 f-a 33 e -55 c 51 b 2 d 16 da
+title: Ripristino dei dati e degli account FTP eliminati
+uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ripristino di dati FTP e account FTP eliminati
+# Ripristino dei dati e degli account FTP eliminati
 
 I dati che sono stati eliminati da un account FTP non possono essere ripristinati da Adobe.
 
