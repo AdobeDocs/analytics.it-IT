@@ -8,7 +8,7 @@ title: BlackBerry
 topic: Sviluppatore e implementazione
 uuid: 1e4e037f-2a8b-4051-9327-c9949efff7b7
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 I download delle librerie per dispositivi mobili sono disponibili su [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e su [Developer Connection](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics).
 
->[!NOTE]
->
->Per trovare la versione corrente della libreria, attivate la registrazione di debug.
+> [!NOTE] Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
 ## Versione 4.0.0 {#section_5E6C3CEF56FB4A95B2F43DBEC956A784}
 
