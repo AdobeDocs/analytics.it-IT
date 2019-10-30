@@ -1,23 +1,23 @@
 ---
-description: Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting analitici alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono comunemente utilizzate per classificare i codici di tracciamento della campagna (sia interni che esterni) e ID prodotto.
-seo-description: Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting analitici alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono comunemente utilizzate per classificare i codici di tracciamento della campagna (sia interni che esterni) e ID prodotto.
+description: Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting dell'analisi alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono utilizzate più comunemente per classificare i codici di tracciamento delle campagne (sia interni che esterni) e gli ID prodotto.
+seo-description: Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting dell'analisi alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono utilizzate più comunemente per classificare i codici di tracciamento delle campagne (sia interni che esterni) e gli ID prodotto.
 seo-title: Classificazione
 solution: Analytics
 title: Classificazione
 topic: Generatore di report
-uuid: c 64 ede 6 e-ce 11-48 c 0-944 d-dc 365809 d 673
+uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Classificazioni
+# Classifications
 
-Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting analitici alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono comunemente utilizzate per classificare i codici di tracciamento della campagna (sia interni che esterni) e ID prodotto.
+Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting dell'analisi alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono utilizzate più comunemente per classificare i codici di tracciamento delle campagne (sia interni che esterni) e gli ID prodotto.
 
-For example, a [!UICONTROL Campaign] report might have a [!UICONTROL Manager] classification and an [!UICONTROL Outlet] classification. Queste classificazioni possono essere ordinate dopo una determinata gerarchia e ogni gruppo di valori di report può essere suddiviso in sottogruppi.
+Ad esempio, un [!UICONTROL Campaign] report potrebbe avere una [!UICONTROL Manager] classificazione e una [!UICONTROL Outlet] classificazione. Queste classificazioni possono quindi essere ordinate in base a una determinata gerarchia e ogni gruppo di valori del rapporto può essere suddiviso in sottogruppi.
 
-Le classificazioni vengono effettuate nello stesso modo in cui accedi agli altri rapporti di una suite di rapporti, e le dimensioni vengono visualizzate come report di livello principale all'interno del gruppo. Se un rapporto dispone di classificazioni, viene creato un sottogruppo di menu per raccogliere il rapporto e tutte le classificazioni nella stessa posizione. Il rapporto viene visualizzato come ultima voce dell'elenco tra le classificazioni.
+Potete accedere alle classificazioni nello stesso modo in cui accedete agli altri rapporti di una suite di rapporti e le dimensioni vengono visualizzate come rapporto di livello principale all'interno del gruppo. Se un rapporto contiene classificazioni, viene creato un sottogruppo di menu per raccogliere il rapporto e tutte le relative classificazioni nella stessa posizione. Il rapporto viene visualizzato come ultima voce dell'elenco tra le classificazioni.
 
-See [Classifications](/help/components/c-classifications2/c-classifications.md).
+Consulta [Classificazioni](/help/components/c-classifications2/c-classifications.md).
