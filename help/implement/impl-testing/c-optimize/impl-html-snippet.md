@@ -1,21 +1,21 @@
 ---
-description: Molti clienti dispongono di variabili dichiarate, ma nessun valore è assegnato alla variabile.
+description: Molti clienti dispongono di variabili dichiarate, ma non di valori assegnati alla variabile.
 keywords: Implementazione di Analytics
-seo-description: Molti clienti dispongono di variabili dichiarate, ma nessun valore è assegnato alla variabile.
-seo-title: Snippet di codice HTML
+seo-description: Molti clienti dispongono di variabili dichiarate, ma non di valori assegnati alla variabile.
+seo-title: Frammento di codice HTML
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
-title: Snippet di codice HTML
+subtopic: Risoluzione dei problemi
+title: Frammento di codice HTML
 topic: Sviluppatore e implementazione
-uuid: 3 f 57 da 82-4 d 41-47 a 2-9 fcb -74 b 9 b 08068 ba
+uuid: 3f57da82-4d41-47a2-9fcb-74b9b08068ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Snippet di codice HTML
+# Frammento di codice HTML
 
-Molti clienti dispongono di variabili dichiarate, ma nessun valore è assegnato alla variabile.
+Molti clienti dispongono di variabili dichiarate, ma non di valori assegnati alla variabile.
 
-La rimozione delle variabili non utilizzate contribuisce a ridurre le dimensioni della pagina.
+La rimozione delle variabili non utilizzate consente di ridurre le dimensioni della pagina.
