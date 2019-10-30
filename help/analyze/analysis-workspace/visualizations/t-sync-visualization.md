@@ -1,14 +1,14 @@
 ---
 description: La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
-keywords: Analysis Workspace; Sincronizzazione della visualizzazione con l'origine dati
+keywords: Analysis Workspace;Sincronizza visualizzazione con origine dati
 seo-description: La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 seo-title: Gestione delle origini dati
 solution: Analytics
 title: Gestione delle origini dati
-topic: Reports & Analytics
-uuid: 7 bacf 497-a 933-463 a-bf 9 d-f 6 d 0 c 5 de 0 cba
+topic: Reports and Analytics
+uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 
 1. [Crea un progetto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) con una tabella di dati e una [visualizzazione](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276).
 1. Nella tabella di dati, seleziona le celle (origine dati) che vuoi associare alla visualizzazione.
-1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
+1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Selezionare **[!UICONTROL Show Data Source]** o **[!UICONTROL Lock Selection]**.
 
    ![](assets/manage-data-source.png)
 
@@ -35,7 +35,7 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 | Mostra origine dati | Consente di mostrare (attivando la casella di controllo) o nascondere (disattivandola) la tabella di dati corrispondente alla visualizzazione. |
 | Blocca selezione | Selezionate questa impostazione per bloccare la visualizzazione ai dati attualmente selezionati nella tabella di dati corrispondente. Dopo aver abilitato questa impostazione, puoi scegliere tra:  <ul><li>**Posizioni selezionate:** scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sulle posizioni selezionate nella tabella di dati corrispondente. Queste posizioni continueranno ad essere visualizzate, anche nel caso in cui cambiassero gli elementi specifici che occupano tali posizioni. Ad esempio, scegli questa opzione se vuoi visualizzare sempre i migliori cinque nomi di campagne in questa visualizzazione, a prescindere dal nome delle campagne che occupano le prime cinque posizioni.</li> <li>**Elementi selezionati**: scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sugli elementi specifici selezionati nella tabella di dati corrispondente. Questi elementi continueranno a essere visualizzati, anche nel caso in cui cambiassero posizione in graduatoria rispetto agli altri elementi della tabella. Ad esempio, scegli questa opzione se vuoi visualizzare sempre gli stessi cinque nomi di campagne specifiche in questa visualizzazione, a prescindere dalla posizione in graduatoria delle campagne.</li></ul> |
 
-Questa architettura è diversa da quella precedente in cui Analysis Workspace non crea più una tabella nascosta con la selezione bloccata. Ora, l’origine dati fa riferimento alla tabella da cui è stata creata la visualizzazione.
+Questa architettura è diversa da quella precedente in quanto Analysis Workspace non crea più una tabella nascosta duplicata in cui viene memorizzata la selezione bloccata. Ora, l’origine dati fa riferimento alla tabella da cui è stata creata la visualizzazione.
 
 **Esempi di utilizzo:**
 
