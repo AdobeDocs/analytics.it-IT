@@ -6,9 +6,9 @@ seo-title: Inserimento del codice Analytics nel tag head
 solution: Analytics
 title: Inserimento del codice Analytics nel tag head
 topic: Sviluppatore e implementazione
-uuid: e 8 f 91 d 3 c-cb 72-454 d -9 bd 4-ff 54 d 83 d 981 f
+uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,27 +17,25 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 Il codice di Analytics crea un oggetto immagine, un'immagine non visibile che non viene visualizzata sulla pagina.
 
->[!NOTE]
->
->Questa sezione si applica solo all'implementazione s_ code. js legacy. [Appmeasurement per javascript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) supporta la distribuzione della libreria e del codice della pagina nel `<head>` tag.
+> [!NOTE] Questa sezione si applica solo all'implementazione s_code.js legacy. [AppMeasurement per JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) supporta la distribuzione della libreria e del codice della pagina nel `<head>` tag.
 
-In precedenza, una pratica di implementazione comune era quella di inserire il codice javascript di Analytics tra i <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> e </head> tag. Inserendo il codice tra questi tag, è stato impedito che l'immagine da 1 x 1 pixel restituita dalla richiesta che invii dati nei server Adobe comprometta in qualsiasi modo il layout della pagina. L'inserimento del codice nella intestazione del documento indica che il codice è visualizzato prima nel codice. Questo consente di eseguire prima, il che consente di contare le visualizzazioni di pagina per il caricamento parziale di una pagina.
+In precedenza, una pratica comune di implementazione consisteva nell'inserire il codice JavaScript di Analytics tra <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> e </head> tag. Posizionando il codice tra questi tag, si evita che l'immagine da 1 x 1 pixel restituita dalla richiesta che inviava dati ai server Adobe influenzi in alcun modo il layout di pagina. Se si inserisce del codice nell'intestazione del documento, il codice viene visualizzato prima nel codice. Questo consente di eseguire prima, contando in modo più efficace le visualizzazioni di pagina per i caricamenti parziali delle pagine.
 
-Alcuni elementi del codice richiedono l'esistenza dell'oggetto body. Poiché i browser Web eseguono il codice nell'ordine in cui ricevono il codice, se il codice javascript di Analytics si trova nella intestazione del documento, viene eseguito prima dell'oggetto body. As a result, your implementation does not collect [!UICONTROL ClickMap] data, and automatic tracking of file downloads or [!UICONTROL exit] links are not available. Inoltre, non riceverete dati sui tipi di connessione o i dati della pagina principale dei visitatori. Putting the code in the document head works, but the result is a very limited version of Analytics, and users may wonder why certain reports and tools, including [!UICONTROL ClickMap], aren't recording data.
+Alcuni elementi del codice richiedono l'esistenza dell'oggetto body. Poiché i browser Web eseguono il codice nell'ordine in cui lo ricevono, se il codice JavaScript di Analytics si trova nell'intestazione del documento, viene eseguito prima che l'oggetto body esista. Di conseguenza, l'implementazione non raccoglie [!UICONTROL ClickMap] dati e il tracciamento automatico dei download o [!UICONTROL exit] dei collegamenti dei file non è disponibile. Inoltre, non vengono ricevuti i dati relativi al tipo di connessione né i dati della home page del visitatore. L'inserimento del codice nell'intestazione del documento funziona, ma il risultato è una versione molto limitata di Analytics, e gli utenti potrebbero chiedersi perché alcuni report e strumenti, inclusi [!UICONTROL ClickMap]i dati, non stiano registrando.
 
-Il codice di Analytics può essere posizionato ovunque all'interno dei tag BODY (<BODY></BODY>) di una pagina HTML ben formata. Adobe consiglia di posizionare il codice in un file globale incluso nella parte superiore della pagina (all'interno del tag body HTML). Il codice può essere posizionato in qualsiasi punto della pagina, ad eccezione di quanto indicato di seguito:
+Il codice di Analytics può essere inserito ovunque all'interno dei tag BODY (<BODY></BODY>) di una pagina HTML ben formata. Adobe consiglia di inserire il codice in un file di inclusione globale nella parte superiore della pagina (all’interno del tag HTML body). Il codice può essere inserito in qualsiasi punto della pagina, fatta eccezione per quanto segue:
 
-* Se inserita all'interno di una tabella, pubblicate il codice solo all'interno della variabile <td></td> tag. Ad esempio, non inserire il codice tra un'apertura <tr> e un'apertura <td> tag.
-* Il codice che imposta le variabili deve verificarsi dopo il riferimento al file s_ code. js.
-* Make certain that the [!UICONTROL report suite ID]s in the *`s_account`* variable in the s_code.js file are set correctly. Questa variabile viene generalmente impostata correttamente quando si scarica codice da Code Manager per una particolare suite di rapporti, o come fornito da un consulente tecnico Adobe.
+* Se inserito in una tabella, il codice viene inserito solo all'interno della tabella <td></td> tag. Ad esempio, non inserite il codice tra un'apertura <tr> tag e apertura <td> tag .
+* Il codice che imposta le variabili deve verificarsi dopo il riferimento al file s_code.js.
+* Verificate che gli [!UICONTROL report suite ID]s nella *`s_account`* variabile nel file s_code.js siano impostati correttamente. Questa variabile viene generalmente impostata correttamente quando si scarica il codice dal Gestore dei codici per una determinata suite di rapporti, o come fornito da un consulente tecnico Adobe.
 
-Se desiderate integrare Analytics con Target, il file javascript include il file in fondo alla pagina. L'esempio seguente mostra il posizionamento corretto del codice Analytics:
+Se desiderate integrare Analytics con Target, il file di inclusione JavaScript deve essere posizionato in fondo alla pagina. L'esempio seguente mostra la corretta posizione del codice Analytics:
 
 ```js
 <html> 
 <head></head> 
 <body> 
-<!-- Analytics code version: H.20.3. 
+<!-- Analytics code version: H.20.3.
 Copyright 1997-2009 Omniture, Inc. More info available at 
 https://www.omniture.com --> 
 <script language="JavaScript" type="text/javascript" src="https://www.yourdomain.com/js/s_code.js"></script> 
