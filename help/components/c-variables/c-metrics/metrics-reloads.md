@@ -1,19 +1,19 @@
 ---
-description: Conteggiato quando lo stesso nome di pagina viene caricato due volte in riga. In genere indica che la pagina è stata aggiornata.
-seo-description: Conteggiato quando lo stesso nome di pagina viene caricato due volte in riga. In genere indica che la pagina è stata aggiornata.
-seo-title: Ricarica
+description: Conteggiato quando lo stesso nome pagina viene caricato due volte nella riga. In genere indica che la pagina è stata aggiornata.
+seo-description: Conteggiato quando lo stesso nome pagina viene caricato due volte nella riga. In genere indica che la pagina è stata aggiornata.
+seo-title: Ricariche
 solution: Analytics
-title: Ricarica
-topic: Metrics (Metriche)
-uuid: 0896 ae 8 b -3 db 6-4 b 95-8 dab -134946 f 98201
+title: Ricariche
+topic: Metriche
+uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ricarica
+# Ricariche
 
-Conteggiato quando lo stesso nome di pagina viene caricato due volte in riga. In genere indica che la pagina è stata aggiornata.
+Conteggiato quando lo stesso nome pagina viene caricato due volte nella riga. In genere indica che la pagina è stata aggiornata.
 
-Si noti che il visitamento due volte della stessa pagina nella stessa visita non conta come ricaricato, a meno che non sia avvenuta una sola visita.
+Tenere presente che la visita della stessa pagina due volte nella stessa visita non viene conteggiata come un ricarico a meno che entrambe le visite non si siano verificate in una sola riga.
