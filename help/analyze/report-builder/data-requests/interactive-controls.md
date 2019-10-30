@@ -1,83 +1,83 @@
 ---
-description: I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità durante l'aggiornamento delle richieste di generatore di report.
-seo-description: I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità durante l'aggiornamento delle richieste di generatore di report.
+description: I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità quando si aggiornano le richieste del generatore di report.
+seo-description: I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità quando si aggiornano le richieste del generatore di report.
 seo-title: Controlli interattivi
 solution: Analytics
 title: Controlli interattivi
 topic: Generatore di report
-uuid: 5 f 324 b 61-e 032-455 e -9947-5037 f 013 e 0 fa
+uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Controlli interattivi
 
-I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità durante l'aggiornamento delle richieste di generatore di report.
+I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità quando si aggiornano le richieste del generatore di report.
 
-I controlli interattivi sono stati creati in risposta a un flusso di lavoro comune in cui gli analisti creano i documenti di lavoro e condividono questi libri di lavoro con l'organizzazione marketing. I controlli interattivi offrono agli esperti di mercato la possibilità di modificare e aggiornare le richieste senza dover avere conoscenze approfondite sul funzionamento del generatore di report. Tenete presente che per aggiornare una richiesta, il destinatario del cartella di lavoro deve essere un utente di generatore di report. Tali controlli funzionano all'interno delle cartelle di lavoro pianificate. Sono disponibili due tipi di controlli interattivi:
+Sono stati creati controlli interattivi in risposta a un flusso di lavoro comune in cui gli analisti creano cartelle di lavoro e condividono tali cartelle di lavoro con l'organizzazione di marketing. I controlli interattivi consentono agli esperti di marketing di modificare e aggiornare le richieste senza dover conoscere in dettaglio il funzionamento del generatore di report. Per aggiornare una richiesta, il destinatario della cartella di lavoro deve essere un utente generatore di report. Questi controlli funzionano all'interno di cartelle di lavoro pianificate. Sono attualmente disponibili due tipi di controlli interattivi:
 
-* Intervallo date continuo
+* Intervallo date di rolling
 * Segmenti
 
 >[!IMPORTANT]
 >
->Affinché i controlli interattivi funzionino è necessario disporre di Generatore di report v 5.0. &gt;
->* Se esegui Microsoft Excel in Windows ma esegui una versione inferiore di generatore di report o se non hai installato un generatore di report: Potete modificare il valore nel controllo interattivo, ma non aggiornare la richiesta associata né aggiornare i parametri associati della richiesta.
->* Se in Excel si esegue Excel, modificando il valore nel controllo viene visualizzato il seguente messaggio: «Impossibile trovare la macrò Adobe. reportbuilder. Bridge. formcontrolclick. Event».
+>Per il funzionamento dei controlli interattivi è necessario disporre di Generatore di report v5.0. &gt;
+>* Se Microsoft Excel è in esecuzione su Windows ma è in esecuzione una versione inferiore del generatore di report o se non è installato il generatore di report: È possibile modificare il valore nel controllo interattivo, ma non aggiornerà la richiesta associata né aggiornerà i parametri associati della richiesta.
+>* Se si esegue Excel in Mac, modificando il valore nel controllo verrà visualizzato il seguente messaggio: "Impossibile trovare la macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event'."
 >
 
 
 
 >[!IMPORTANT]
 >
->Non alterare con il nome del controllo. Per visualizzare il nome, impostate lo stato attivo sul controllo e il nome del controllo compare subito sopra la griglia Excel, nell'angolo in alto a sinistra.
+>Non alterare il nome del controllo. Per visualizzare il nome, impostare lo stato attivo sul controllo e il nome del controllo viene visualizzato a destra sopra la griglia di Excel, nell'angolo superiore sinistro.
 
-## Implement interactive date range control {#section_39B228F2D2C44985863D31424C953280}
+## Implementazione del controllo interattivo dell'intervallo di date {#section_39B228F2D2C44985863D31424C953280}
 
-1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
-1. Next to the **[!UICONTROL Commonly Used Dates]** drop down, click the **[!UICONTROL Control Settings]** icon:
+1. Nel passaggio 1 della Richiesta guidata selezionare, ad esempio, il **[!UICONTROL Page]** rapporto.
+1. Accanto all' **[!UICONTROL Commonly Used Dates]** elenco a discesa, fai clic sull'icona **[!UICONTROL Control Settings]** :
 
    ![](assets/date_range_control.png)
 
-1. Nella finestra di dialogo Impostazioni controllo, selezionate tutti gli elementi intervallo di date che desiderate visualizzare nel controllo interattivo. Inoltre, specificate la posizione della cella in alto a sinistra del controllo.
+1. Nella finestra di dialogo Impostazioni controllo, selezionare tutti gli elementi dell'intervallo di date che si desidera visualizzare nel controllo interattivo. Inoltre, specificare la posizione della cella superiore sinistra del controllo.
 
    ![](assets/control_settings.png)
 
-1. Osservate l'opzione "Aggiornamento automatico delle richieste collegate durante la selezione degli elementi".
+1. Notate l'opzione "Aggiorna automaticamente le richieste collegate alla selezione degli elementi".
 
-   * Se questa opzione è attivata, tutte le richieste che utilizzano questo controllo vengono aggiornate.
-   * Se non sono stati selezionati, i parametri di richiesta associati vengono aggiornati, ma la richiesta non viene aggiornata.
+   * Se questa opzione è selezionata, tutte le richieste che utilizzano questo controllo vengono aggiornate.
+   * Se non è selezionata, i parametri di richiesta associati vengono aggiornati, ma la richiesta non viene aggiornata.
 
-1. Fai clic su **[!UICONTROL OK]**. Il controllo viene visualizzato nella posizione della cella specificata:
+1. Fai clic su **[!UICONTROL OK]**. Il controllo viene visualizzato nella posizione cella specificata:
 
    ![](assets/date_range_control_interactive.png)
 
-1. Ora puoi cambiare l'intervallo di date e la richiesta verrà aggiornata con quell'intervallo di date.
+1. Ora puoi modificare l'intervallo di date e la richiesta verrà aggiornata con tale intervallo.
 1. Potete anche copiare la richiesta e fare clic con il pulsante destro del mouse per utilizzare una delle due opzioni Incolla richiesta:
 
-   * **[!UICONTROL Paste Request]** &gt; **[!UICONTROL Use Absolute Input Cell]**. Ciò significa che la richiesta copiata indicherà lo stesso controllo interattivo degli intervalli di date della richiesta originale.
+   * **[!UICONTROL Paste Request]** &gt; **[!UICONTROL Use Absolute Input Cell]**. Ciò significa che la richiesta copiata punta allo stesso controllo intervallo di date interattivo della richiesta originale.
 
    * **[!UICONTROL Paste Request]**&gt; **[!UICONTROL Use Relative input Cell]**. Ciò significa che la richiesta copiata indicherà il proprio controllo.
 
       >[!NOTE]
       >
-      >Potete usare la funzionalità di controllo nativo Taglia Excel e Copia/Incolla. Il generatore di report riconosce automaticamente i controlli aggiunti appena.
+      >È possibile utilizzare la funzionalità di controllo Taglia, Copia e Incolla di Microsoft Excel nativa. Il generatore di report riconosce automaticamente i nuovi controlli aggiunti.
 
-## Implement interactive segment control {#section_5003D3F724644280BF1BCD6E1B0CB784}
+## Implementare il controllo interattivo dei segmenti {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
-L'implementazione del controllo interattivo dei segmenti è simile all'implementazione del controllo degli intervalli di date.
+L’implementazione del controllo del segmento interattivo è simile all’implementazione del controllo dell’intervallo di date.
 
-1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
+1. Nel passaggio 1 della Richiesta guidata, accanto all'elenco a **[!UICONTROL Segment]** discesa, selezionate l'icona Impostazioni controllo segmenti:
 
    ![](assets/segment_interactive_1.png)
 
-1. Nella finestra di dialogo Impostazioni controllo segmenti, seleziona i segmenti da includere nel menu a discesa. Inoltre, specificate la posizione della cella in alto a sinistra del controllo.
+1. Nella finestra di dialogo Impostazioni controllo segmenti, selezionate i segmenti da includere nel menu a discesa. Inoltre, specificare la posizione della cella superiore sinistra del controllo.
 
    ![](assets/segment_drop_down_properties.png)
 
-1. Il nuovo controllo interattivo viene ora visualizzato nella cartella di lavoro:
+1. Il nuovo controllo interattivo verrà ora visualizzato nella cartella di lavoro:
 
    ![](assets/segment_interactive_3.png)
 
