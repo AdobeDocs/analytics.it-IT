@@ -1,23 +1,23 @@
 ---
-description: Il flag di interruzione può essere impostato all'interno di doplugins per evitare l'invio della chiamata di tracciamento corrente.
+description: È possibile impostare il flag di interruzione all'interno di doPlugins per impedire l'invio della chiamata di tracciamento corrente.
 keywords: Implementazione di Analytics
-seo-description: Il flag di interruzione può essere impostato all'interno di doplugins per evitare l'invio della chiamata di tracciamento corrente.
-seo-title: flag s. abort
+seo-description: È possibile impostare il flag di interruzione all'interno di doPlugins per impedire l'invio della chiamata di tracciamento corrente.
+seo-title: Contrassegno s.abort
 solution: Analytics
-title: flag s. abort
+title: Contrassegno s.abort
 topic: Sviluppatore e implementazione
-uuid: 0 c 6 ec 8 c 7-d 136-4851-8 cb 6-6 cb 1 b 7 f 6 f 0 dc
+uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# flag s. abort
+# Contrassegno s.abort
 
-Il flag di interruzione può essere impostato all'interno di doplugins per evitare l'invio della chiamata di tracciamento corrente.
+È possibile impostare il flag di interruzione all'interno di doPlugins per impedire l'invio della chiamata di tracciamento corrente.
 
-Il flag di interruzione viene reimpostato con ogni chiamata di tracciamento; pertanto, se occorre interrompere una chiamata di tracciamento successiva, il flag dovrà essere impostato nuovamente all'interno di doplugins.
+Il flag abort viene reimpostato con ogni chiamata di tracciamento, quindi se è necessario interrompere anche una chiamata di tracciamento successiva, il flag dovrà essere nuovamente impostato all’interno di doPlugins.
 
 ```js
 s.doPlugins = function(s) { 
@@ -28,4 +28,4 @@ s.doPlugins = function(s) {
 };
 ```
 
-Questo consente di centralizzare la logica utilizzata per identificare l'attività che non desideri tracciare, ad esempio alcuni collegamenti personalizzati o collegamenti esterni negli annunci visualizzati.
+Questo consente di centralizzare la logica utilizzata per identificare l'attività che non si desidera tracciare, ad esempio alcuni collegamenti personalizzati o collegamenti esterni negli annunci visualizzati.
