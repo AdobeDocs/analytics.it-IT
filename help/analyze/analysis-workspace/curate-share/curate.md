@@ -8,7 +8,7 @@ title: Panoramica di cura/condivisione
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,7 +51,7 @@ La condivisione rende il progetto disponibile ad altri utenti di Analysis Worksp
    ![](assets/share_component.png)
 
 1. Aggiungi i destinatari.
-1. (Facoltativo) Puoi condividere componenti di progetto incorporati (segmenti, metriche calcolate e intervalli di date) con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa dei componenti nell’interfaccia Workspace del destinatario.
+1. (Facoltativo) Puoi condividere componenti di progetto incorporati (segmenti, metriche calcolate e intervalli di date) con tutti i destinatari. Dopo essere stati condivisi, questi componenti verranno visualizzati nel menu a discesa dei componenti dell'area di lavoro del destinatario.
 
    >[!IMPORTANT]
    >
