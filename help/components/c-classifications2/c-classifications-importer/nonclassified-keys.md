@@ -1,29 +1,29 @@
 ---
-description: Le chiavi non classificate sono raggruppate nei rapporti di classificazione come una singola voce con etichetta Nessuno. Può essere utile rinominare Nessuno in un modo più descrittivo.
-seo-description: Le chiavi non classificate sono raggruppate nei rapporti di classificazione come una singola voce con etichetta Nessuno. Può essere utile rinominare Nessuno in un modo più descrittivo.
+description: Le chiavi non classificate sono raggruppate nei rapporti sulla classificazione come un singolo elemento con etichetta Nessuno. Può essere utile rinominare None in modo più descrittivo.
+seo-description: Le chiavi non classificate sono raggruppate nei rapporti sulla classificazione come un singolo elemento con etichetta Nessuno. Può essere utile rinominare None in modo più descrittivo.
 seo-title: Tasti non classificati
 solution: Analytics
-subtopic: Classificazioni
+subtopic: Classifications
 title: Tasti non classificati
 topic: Strumenti di amministrazione
-uuid: b 73 a 9161-0 c 6 f -4 c 8 d -900 b -54 ab 2 c 36147 c
+uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Tasti non classificati
 
-Le chiavi non classificate sono raggruppate nei rapporti di classificazione come una singola voce con etichetta Nessuno. Può essere utile rinominare Nessuno in un modo più descrittivo.
+Le chiavi non classificate sono raggruppate nei rapporti sulla classificazione come un singolo elemento con etichetta Nessuno. Può essere utile rinominare None in modo più descrittivo.
 
-## Non-classified keys {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
+## Tasti non classificati {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
 
-Non-classified keys are grouped together in classification reports as a single line item labeled *`None`*. It can be useful to rename *`None`* to something more descriptive.
+Le chiavi non classificate sono raggruppate nei rapporti sulla classificazione come un singolo elemento etichettato *`None`*. Può essere utile rinominare *`None`* un elemento più descrittivo.
 
-Ad esempio, supponiamo che i codici di monitoraggio contengano informazioni che delineano il tipo di campagna mobile con cui è associato il codice di tracciamento. State utilizzando classificazione (Tipo di campagna mobile) per raggruppare questi codici di tracciamento in categorie come Web per dispositivi mobili, applicazione iOS, Applicazione Android e così via. Alcune campagne potrebbero non essere campagne mobili e non sono quindi classificate con un tipo di campagna mobile. All non-classified tracking codes would be grouped under *`None`* in the [!UICONTROL Mobile Campaign Type] report.
+Ad esempio, se i codici di tracciamento contengono informazioni che delineano il tipo di campagna mobile a cui è associato il codice di tracciamento, Stai utilizzando la classificazione (Tipo campagna mobile) per raggruppare questi codici di monitoraggio in categorie come Mobile Web, iOS Application, Android Application e così via. Alcune campagne potrebbero non essere campagne mobili e pertanto non essere classificate con un tipo di campagna mobile. Tutti i codici di monitoraggio non classificati saranno raggruppati *`None`* nel [!UICONTROL Mobile Campaign Type] rapporto.
 
-## Rename the None classification key {#task_8CD595DA82AA44D08CEF002B588C3C30}
+## Rinominare la chiave di classificazione None {#task_8CD595DA82AA44D08CEF002B588C3C30}
 
 <!-- 
 
@@ -31,13 +31,13 @@ t_rename_classification_none.xml
 
  -->
 
-Steps that describe how to rename a non-classified key that displays as *`none`* in reporting.
+Procedura che descrive come rinominare una chiave non classificata visualizzata come *`none`* nel reporting.
 
-1. Mediante Importazione, esportate le classificazioni in un file locale.
-1. Add a row to the file, and type [!DNL ~none~] in the Key column.
-1. Nella riga che hai aggiunto, digita il nome più descrittivo nelle colonne di classificazione appropriate.
+1. Utilizzando il modulo di importazione, esportate le classificazioni in un file locale.
+1. Aggiungere una riga al file e digitare [!DNL ~none~] nella colonna Chiave.
+1. Nella riga aggiunta, digitate il nome più descrittivo nelle colonne di classificazione appropriate.
 
-   To follow the example in this documentation, you might type "non-mobile campaign" in a column named [!UICONTROL Mobile Campaign Name].
+   Per seguire l'esempio riportato in questa documentazione, potresti digitare "campagna non mobile" in una colonna denominata [!UICONTROL Mobile Campaign Name].
 
-   This entry renames *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
-1. [Reimportate i dati](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) nel sistema.
+   Questa voce rinomina *`None`* in *`non-mobile campaign`* nel [!UICONTROL Mobile Campaign Type] report.
+1. [Importare nuovamente i dati](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) nel sistema.
