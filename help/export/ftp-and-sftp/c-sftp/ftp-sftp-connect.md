@@ -1,13 +1,13 @@
 ---
 description: Istruzioni per la configurazione di un trasferimento sicuro con server Adobe FTP.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Istruzioni per la configurazione di un trasferimento sicuro con server Adobe FTP.
 seo-title: Connessione a un account Adobe FTP con SFTP
 solution: Analytics
 title: Connessione a un account Adobe FTP con SFTP
-uuid: 4 faf 27 b 8-7276-4 c 68-87 cb -35802 b 809 e 27
+uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,4 +35,4 @@ Istruzioni per la configurazione di un trasferimento sicuro con server Adobe FTP
 
 1. Verificare la connessione effettuando l'accesso all'account FTP utilizzando SFTP.
 
-For more detailed information, see [How to Connect to Adobe via sFTP Without a Password_...](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846).
+[Per ulteriori informazioni, consultate ](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846)Come connettersi ad Adobe tramite sFTP senza password_....
