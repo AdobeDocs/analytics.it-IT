@@ -3,9 +3,9 @@ description: nulle
 seo-description: nulle
 seo-title: Domande frequenti sull'utilizzo delle chiamate server
 title: Domande frequenti sull'utilizzo delle chiamate server
-uuid: 43340481-2 e 49-446 b-bec 7-86 fcadeb 4233
+uuid: 43340481-2e49-446b-bec7-86fcadeb4233
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,44 +21,44 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Sono un amministratore di Analytics. Why do I do see a Server Call Usage link under the Admin section for my login company?</b> </p> </td> 
-   <td colname="col2"> <p>A: Puoi scegliere quale delle società di accesso visualizzare il collegamento per Utilizzo chiamata server nella sezione Admin. Se non lo trovi, contatta Client Care per attivarlo. </p> </td> 
+   <td colname="col1"> <p><b>D: Sono un amministratore di Analytics. Perché visualizzo un collegamento Utilizzo chiamate server nella sezione Amministratore per la mia società di accesso?</b> </p> </td> 
+   <td colname="col2"> <p>A: Puoi scegliere quale delle tue società di accesso visualizzare il collegamento per l’utilizzo delle chiamate server nella sezione Amministratore. Se non lo trovi, contatta Client Care per attivarlo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Server Call Usage an Admin-only feature? </b> </p> </td> 
-   <td colname="col2"> <p>R: No. Come la funzionalità Fatturazione sostituita da Server Call Usage, puoi assegnare a un non amministratore l'autorizzazione per accedere a questo collegamento. </p> </td> 
+   <td colname="col1"> <p><b>D: L’utilizzo delle chiamate server è una funzione solo dell’amministratore? </b> </p> </td> 
+   <td colname="col2"> <p>R: No. Come per la funzione Fatturazione che Server Call Usage sostituisce, potete assegnare a un non amministratore l'autorizzazione per accedere a questo collegamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Are the server call usage and commitment details specific to one login company?</b> </p> </td> 
-   <td colname="col2"> <p>R: No. I dettagli sull'utilizzo e sui contributi visualizzati sono collegati a tutte le società di accesso disciplinate dal tuo contratto Adobe Analytics. </p> </td> 
+   <td colname="col1"> <p><b>D: I dettagli relativi all’utilizzo e all’impegno delle chiamate server sono specifici per una società di accesso?</b> </p> </td> 
+   <td colname="col2"> <p>R: No. I dettagli di utilizzo e impegno visualizzati riguardano tutte le società di accesso disciplinate dal contratto Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Nella scheda Utilizzo suite di rapporti, riesco a visualizzare il consumo nelle suite di rapporti che non sono disponibili per il reporting nella società di accesso corrente. Is that a bug? </b> </p> </td> 
-   <td colname="col2"> <p>R: No. Come per i dettagli sull'uso di chiamate server e degli impegni, l'elenco delle suite di rapporti si estende su tutte le società di accesso che hai implementato nel tuo contratto Analytics. </p> </td> 
+   <td colname="col1"> <p><b>D: Nella scheda Uso suite di rapporti, è possibile visualizzare il consumo tra le suite di rapporti che non sono disponibili per il reporting nella società di accesso corrente. È un bug? </b> </p> </td> 
+   <td colname="col2"> <p>R: No. Come per i dettagli relativi a consumo e impegno delle chiamate server, l’elenco delle suite di rapporti si estende a tutte le società di accesso che hai implementato in base al tuo contratto Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Il periodo di utilizzo è sempre uguale alla durata del mio contratto di Analytics o del ciclo di fatturazione? </b> </p> </td> 
-   <td colname="col2"> <p>R: No. L'intervallo di utilizzo è la durata per la quale l'impegno per chiamate server è applicabile e può essere diverso dal periodo di contratto o di fatturazione del contratto. Ad esempio, il contratto annuale potrebbe autorizzare un miliardo di chiamate server al mese, nel qual caso il tuo impegno sarà un miliardo di chiamate server e il periodo di utilizzo sarà un mese. </p> </td> 
+   <td colname="col1"> <p><b>D: Il periodo di utilizzo è sempre lo stesso della durata del contratto o del ciclo di fatturazione di Analytics? </b> </p> </td> 
+   <td colname="col2"> <p>R: No. Il periodo di utilizzo è la durata per la quale l’impegno di chiamata server è applicabile e può essere diverso dall’orario del contratto o dal ciclo di fatturazione. Ad esempio, il tuo contratto annuale potrebbe autorizzare un miliardo di chiamate server al mese, nel qual caso il tuo impegno sarebbe un miliardo di chiamate server e il periodo di utilizzo sarebbe di un mese. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Il mio contratto include un impegno per i Video Heartbeat, ma non li vedo in Utilizzo della chiamata server. Should I contact Client Care?</b> </p> </td> 
-   <td colname="col2"> <p>A: I dettagli relativi a consumo e impegno per i Video Heartbeat non fanno parte della versione corrente di Utilizzo chiamate server. Stiamo lavorando su modi per espandere l'ambito per includerli nell'iterazione successiva della funzione. </p> </td> 
+   <td colname="col1"> <p><b>D: Il mio contratto include un impegno per Video Heart Beats ma non li vedo in Server Call Usage (Utilizzo chiamate server). Devo contattare Client Care?</b> </p> </td> 
+   <td colname="col2"> <p>A: I dettagli relativi a consumo e impegno per Video Heart Beats non fanno parte della versione corrente di Server Call Usage. Stiamo lavorando su come espandere l'ambito per includerli come parte della successiva iterazione della funzione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Il mio contratto non include un provisioning per chiamate server secondarie, ma li visualizzi comunque nelle schede Utilizzo corrente e Utilizzo suite di rapporti. Is this a bug? </b> </p> </td> 
-   <td colname="col2"> <p>R: No. Anche se il tuo contratto non effettua in modo esplicito le chiamate al server secondario, puoi comunque sostenerli se invii dati di Analytics a più suite di rapporti. Puoi effettuare nuovamente la tua implementazione per accertarti di non inviare tali chiamate o contattare il tuo Customer Success Manager per aggiornare il tuo contratto in modo da includere una fornitura per tali chiamate. </p> </td> 
+   <td colname="col1"> <p><b>D: Il mio contratto non include un provisioning per le chiamate server secondarie, ma lo visualizzo ancora nelle schede Uso corrente e Uso suite di rapporti. Questo è un bug? </b> </p> </td> 
+   <td colname="col2"> <p>R: No. Sebbene il contratto non fornisca esplicitamente chiamate server secondarie, è comunque possibile utilizzarle se si inviano dati Analytics a più suite di rapporti. È possibile rivedere l'implementazione per assicurarsi di non inviare tali chiamate o contattare il Customer Success Manager per aggiornare il contratto, in modo che includa una disposizione per tali chiamate. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Il mio contratto non include un provisioning per chiamate server secondarie, ma li visualizzi comunque nelle schede Utilizzo corrente e Utilizzo suite di rapporti. Does this mean I will start incurring overages?</b> </p> </td> 
-   <td colname="col2"> <p>A: Il fatto che inizi l'overbling quando viene inviato nelle chiamate server secondarie senza il provisioning per loro dipende dal contratto. In alcuni casi, il consumo di chiamate server secondario potrebbe conteggiare rispetto al tuo impegno per le chiamate server primarie, schiarendole a una velocità più veloce di quelle previste. In altri casi, potreste essere fatturate per chiamate server secondarie anche se non avete consumato tutte le chiamate server principali. Fai riferimento al tuo contratto o contatta il tuo Customer Success Manager per confermare. </p> </td> 
+   <td colname="col1"> <p><b>D: Il mio contratto non include un provisioning per le chiamate server secondarie, ma lo visualizzo ancora nelle schede Uso corrente e Uso suite di rapporti. Questo significa che inizierò a incorrere in sovracompensamenti?</b> </p> </td> 
+   <td colname="col2"> <p>A: A seconda del contratto, è possibile che si verifichino delle interruzioni quando si inviano chiamate server secondarie senza che sia stato effettuato il provisioning per tali chiamate. In alcuni casi, il consumo di chiamate server secondarie potrebbe essere legato al vostro impegno per le chiamate server primarie, implementandole ad un ritmo più veloce di quanto anticipato. In altri casi, potete essere fatturati per chiamate server secondarie anche se non avete utilizzato tutte le chiamate server primarie. Consultare il contratto o contattare il Customer Success Manager per confermare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Il mio periodo di contratto/utilizzo è iniziato e ho già ricevuto avvisi su come superare il mio impegno per il server secondario. Is this a bug and will I start being billed overages? </b> </p> </td> 
-   <td colname="col2"> <p>R: No. Ciò potrebbe significare che stai consumando chiamate server secondarie senza essere esplicitamente fornite come parte del tuo contratto Adobe Analytics. L'avviso è semplicemente per essere certi di essere a conoscenza del problema e di consentirvi di intervenire, se necessario. Vedere anche FAQ 8 sopra. </p> </td> 
+   <td colname="col1"> <p><b>D: Il mio contratto/periodo di utilizzo è appena iniziato e sto già ricevendo avvisi circa il superamento del mio impegno di chiamate server secondarie. È un bug e inizierò ad essere fatturati overages? </b> </p> </td> 
+   <td colname="col2"> <p>R: No. Ciò potrebbe significare che utilizzi chiamate server secondarie senza che sia stato esplicitamente effettuato il provisioning come parte del contratto Adobe Analytics. L'avviso è semplicemente per assicurarti di esserne a conoscenza e di consentirti di intraprendere azioni correttive, se necessario. Vedere anche le domande frequenti 8 di cui sopra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: I did not create any Server Call Usage alerts, but so are receive multiple such alert, for the same content. Is that a bug? </b> </p> </td> 
-   <td colname="col2"> <p>R: No. Gli avvisi predefiniti vengono attivati per tutte le società che dispongono del collegamento Uso chiamate server abilitato nella sezione Admin (Amministratore); gli avvisi includeranno il nome della società che ha attivato l'avviso. In qualità di amministratore, puoi disattivare e/o eliminare questi avvisi per evitare duplicati, rimuoverti dall'elenco dei destinatari o far sì che il client disattivi il collegamento Utilizzo chiamate server per specifiche società. </p> </td> 
+   <td colname="col1"> <p><b>D: Non ho creato alcun avviso di utilizzo delle chiamate server, ma ricevo più avvisi di questo tipo, tutti con lo stesso contenuto. È un bug? </b> </p> </td> 
+   <td colname="col2"> <p>R: No. Gli avvisi predefiniti vengono attivati per tutte le società di accesso che dispongono del collegamento Utilizzo chiamate server abilitato nella sezione Amministratore; gli avvisi includeranno il nome della società che ha attivato l’avviso. In qualità di amministratore, puoi disattivare e/o eliminare questi avvisi per evitare duplicati, rimuoverti dall'elenco dei destinatari o fare in modo che l'assistenza clienti disattivi il collegamento Utilizzo chiamate server per società specifiche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
