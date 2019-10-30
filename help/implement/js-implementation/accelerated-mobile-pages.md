@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages
 topic: Sviluppatore e implementazione
 uuid: c86e4a80-7191-4ee7-ab20-78730026c4b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -156,7 +156,7 @@ s.pagename = s.Util.getQueryParam("pageName");
 s.eVar1=s.Util.getQueryParam("v1"); 
 s.campaign=s.Util.getQueryParam("campaign"); 
 s.pageURL=s.Util.getQueryParam("pageURL"); 
-s.referrer=s.Util.getQueryParam(“ref”); 
+s.referrer=s.Util.getQueryParam("ref"); 
 s.t(); 
 </script> 
 </body> 
@@ -202,8 +202,8 @@ In caso di domande o problemi, rivolgiti al tuo consulente Adobe o all'Assistenz
    <td colname="col2"> <p> Sfortunatamente, non ancora. Lo standard AMP supporta solo attivatori per "visible", "click" e "timer", e non supporta ancora attivatori espliciti per il tracciamento video che possono essere ascoltati dal tag di analisi amp. Inoltre, poiché il <code> "adobeanalytics_nativeConfig" </code> tag può essere caricato solo una volta, non è compatibile con la visualizzazione video che si verifica dopo il caricamento dell’AMP. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>L'inflazione del visitatore è inferiore per il modello " <code> adobeanalytics_nativeConfig </code>" nel confronto. Cosa significa? Cosa causerebbe l'inflazione dei visitatori nella <code> "adobeanalytics" </code> soluzione o nella <code> “adobeanalytics_nativeConfig” </code> soluzione? </p> </td> 
-   <td colname="col2"> <p>Il <code> “adobeanalytics” </code> modello non consente ad Adobe Analytics di impostare un cookie di identificazione del visitatore; ciò significa che tutte le visite e i visitatori della pagina AMP saranno trattati come una visita e un visitatore nuovi e indipendenti nella suite di rapporti. </p> <p>Il <code> “adobeanalytics_nativeConfig” </code> modello, tuttavia, consente di impostare il cookie di identificazione dei visitatori di Adobe Analytics in quasi tutti i casi, ad eccezione dei nuovi visitatori che utilizzano il browser Safari. Ciò significa che tutti i visitatori da Safari che non hanno visitato in precedenza il sito di un editore verranno ingranditi nei rapporti di Adobe Analytics. </p> </td> 
+   <td colname="col1"> <p>L'inflazione del visitatore è inferiore per il modello " <code> adobeanalytics_nativeConfig </code>" nel confronto. Cosa significa? Cosa causerebbe l'inflazione dei visitatori nella <code> "adobeanalytics" </code> soluzione o nella <code> "adobeanalytics_nativeConfig" </code> soluzione? </p> </td> 
+   <td colname="col2"> <p>Il <code> "adobeanalytics" </code> modello non consente ad Adobe Analytics di impostare un cookie di identificazione del visitatore; ciò significa che tutte le visite e i visitatori della pagina AMP saranno trattati come una visita e un visitatore nuovi e indipendenti nella suite di rapporti. </p> <p>Il <code> "adobeanalytics_nativeConfig" </code> modello, tuttavia, consente di impostare il cookie di identificazione dei visitatori di Adobe Analytics in quasi tutti i casi, ad eccezione dei nuovi visitatori che utilizzano il browser Safari. Ciò significa che tutti i visitatori da Safari che non hanno visitato in precedenza il sito di un editore verranno ingranditi nei rapporti di Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Devo utilizzare una suite di rapporti separata per gli AMP? </p> </td> 
