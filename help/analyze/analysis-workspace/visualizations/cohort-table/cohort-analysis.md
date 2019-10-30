@@ -6,18 +6,18 @@ title: L'analisi per coorte
 topic: Reports and Analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Cos’è un’analisi per coorte?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful, for example, when you want to learn how a cohort engages with a brand. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. L’analisi per coorte è utile, ad esempio, per scoprire in che modo una coorte si relaziona con un marchio. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Dopo aver generato un rapporto sulla coorte, puoi curarne i componenti (dimensioni, metriche e segmenti specifici) e condividerlo con chiunque. See [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+Dopo aver generato un rapporto sulla coorte, puoi curarne i componenti (dimensioni, metriche e segmenti specifici) e condividerlo con chiunque. Consultate [Cura e condivisione](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
 
-Examples of what you can do with Cohort Analysis:
+Esempi di operazioni che puoi eseguire con l’analisi per coorte:
 
 * Lanciare campagne sviluppate per promuovere un’azione desiderata.
 * Spostare il budget marketing nel momento giusto del ciclo di vita di un cliente.
@@ -29,15 +29,15 @@ Examples of what you can do with Cohort Analysis:
 
 La funzione di analisi per coorte è disponibile per tutti i clienti di Analytics che dispongono dei diretti di accesso ad Analysis Workspace.
 
-[Cohort Analysis on YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->Cohort Analysis does not support calculated metrics.
+>L'analisi per coorte non supporta le metriche calcolate.
 
-## Cohort Analysis capabilities
+## Funzionalità di analisi per coorte
 
-In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. Consente di controllare in modo più dettagliato le coorti create. I miglioramenti comprendono:
+A gennaio 2019, Adobe ha rilasciato una nuova versione significativamente migliorata di Cohort Analysis. Consente di controllare in modo più dettagliato le coorti create. I miglioramenti comprendono:
 
 ### Tabella “Retention” (Fidelizzazione)
 
