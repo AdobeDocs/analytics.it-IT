@@ -3,12 +3,12 @@ description: Un set di regole è un gruppo di regole di classificazione per una 
 seo-description: Un set di regole è un gruppo di regole di classificazione per una specifica variabile. Si applica una variabile al set di regole. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
 seo-title: Set di regole di classificazione
 solution: Analytics
-subtopic: Classificazioni
+subtopic: Classifications
 title: Set di regole di classificazione
 topic: Strumenti di amministrazione
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
