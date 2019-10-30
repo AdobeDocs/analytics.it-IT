@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Origini dati
 title: Domande frequenti su Origini dati
 topic: Sviluppatore e implementazione
-uuid: 394 a 627 f -093 c -400 a-bfb 3-c 2 aa 24568 deb
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Ogni riga in un file Origini dati che inizia con un simbolo cancelletto (#) vien
 
 Sì. Poiché molti rapporti di marketing sono codificati dalla colonna data, Origini dati richiede una colonna data.
 
-## Posso memorizzare i dati in variabili esistenti già in uso? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Adobe consiglia di selezionare variabili nuove e non utilizzate per importare i dati con Origini dati. Se non sei sicuro della configurazione del file di dati o vuoi capire meglio i rischi legati al riutilizzo delle variabili, contatta l'Assistenza clienti.
 
@@ -53,7 +53,7 @@ I dati di Origini dati non sovrascrivono mai i dati dei rapporti esistenti. I da
 
 Quando carichi di dati di Origini dati, carichi le metriche che saranno disponibili nell'interfaccia del rapporto.
 
-Ad esempio, se carichi Ricavi da call center per prodotti venduti sul sito, puoi avere i Ricavi da call center nello stesso rapporto come Ricavi online. Tuttavia, non potrai utilizzarli insieme a Visite, perché non hai caricato il numero di Visite con essi. Adobe può creare rapporti solo di metriche ed elementi caricati tramite Origine dati (oltre alle metriche di rapporti di marketing standard).
+Ad esempio, se carichi Ricavi da call center per prodotti venduti sul sito, puoi avere i Ricavi da call center nello stesso rapporto come Ricavi online. Tuttavia, non potrai utilizzarlo insieme a Visite, perché non hai caricato il numero di Visite con esso. Adobe può creare rapporti solo di metriche ed elementi caricati tramite Origine dati (oltre alle metriche di rapporti di marketing standard).
 
 ## Cosa succede se trasferisco valori negativi nel reporting tramite Origini dati? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -111,7 +111,7 @@ Origini dati non crea rapporti di dati su base oraria. Quando tenti di eseguire 
 
 ## Come vengono calcolati i Visitatori unici in un caricamento Origine dati del registro server? {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-The number of Unique Visitors in a web-server log is calculated as the different distinct combinations of *`IP Address`* and *`User Agent`* in the Web log. Ogni combinazione unica di questi due elementi viene calcolata come Visitatore unico. If the [!UICONTROL User Agent] column is blank (or not included in the web log) then we are unable to identify Unique Visitor counts, and the entire upload will count as just one Unique Visitor (even if there are multiple IP addresses).
+Il numero di Visitatori unici in un registro server Web è calcolato come le diverse combinazioni distinte di *`IP Address`* e *`User Agent`* nel registro Web. Ogni combinazione unica di questi due elementi viene calcolata come Visitatore unico. If the [!UICONTROL User Agent] column is blank (or not included in the web log) then we are unable to identify Unique Visitor counts, and the entire upload will count as just one Unique Visitor (even if there are multiple IP addresses).
 
 ## In Origini dati, come si può sapere quali login appartengono a quale suite di rapporti? {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
@@ -130,7 +130,7 @@ Il feed di dati contiene qualsiasi metrica ID transazione ricevuta. Tuttavia, se
 
 ## Le eVar attualmente persistenti nel Profilo visitatore sono allocate a metriche caricate utilizzando origini dati? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-No per elaborazione completa, sì per ID transazione. Le origini dati Elaborazione completa vengono elaborate utilizzando profili visitatore separati, pertanto anche se gli ID visitatore corrispondono, non potranno essere collegate insieme da una prospettiva di allocazione eVar. Le origini dati ID transazione sono collegate al profilo visitatore principale, pertanto le eVar persistenti sono allocate a eventi caricati tramite ID transazione.
+No per elaborazione completa, sì per ID transazione. Le origini dati di elaborazione completa vengono elaborate utilizzando profili visitatore separati, quindi anche se gli ID visitatore corrispondono, non saranno collegate insieme da una prospettiva di allocazione eVar. Le origini dati ID transazione sono collegate al profilo visitatore principale, pertanto le eVar persistenti sono allocate a eventi caricati tramite ID transazione.
 
 ## Le eVar caricate tramite origini dati persistono a comportamenti online successivi? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
