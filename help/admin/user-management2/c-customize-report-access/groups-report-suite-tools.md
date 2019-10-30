@@ -9,7 +9,7 @@ title: Personalizzare le autorizzazioni degli strumenti delle suite di rapporti
 topic: Strumenti di amministrazione
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
