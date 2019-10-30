@@ -3,12 +3,12 @@ description: Le regole di classificazione ricercano regolarmente termini non cla
 seo-description: Le regole di classificazione ricercano regolarmente termini non classificati. Se viene trovata una corrispondenza di regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Potete inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 seo-title: Regole di classificazione
 solution: Analytics
-subtopic: Classificazioni
+subtopic: Classifications
 title: Regole di classificazione
 topic: Strumenti di amministrazione
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,21 +32,21 @@ Le regole di classificazione sono utili per:
 * **Codici** di tracciamento: Creare regole di classificazione per classificare i valori chiave derivati dalle stringhe nei codici di tracciamento e farli corrispondere a criteri specifici definiti dall'utente.
 * **Termini** di ricerca: Utilizzate espressioni [e caratteri jolly](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) regolari per semplificare la classificazione dei termini di ricerca. Ad esempio, se un termine di ricerca contiene *`baseball`*, puoi impostare una *`Sports League`* classificazione su *`MLB`*.
 
-For example, assume that a tracking code for an email campaign ID is:
+Ad esempio, supponiamo che un codice di tracciamento per un ID campagna e-mail sia:
 
 `em:Summer:2013:Sale`.
 
 È possibile impostare tre regole in un set di regole che identificano le parti della stringa, quindi classificano i valori:
 
-| Select Rule Type | Enter Match Criteria | Set Classification | A |
+| Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |---|---|---|---|
 | Inizia con | em: | Canale | E-mail |
-| Termina con | Sale | Type (Tipo) | Sale |
+| Termina con | Vendita | Type (Tipo) | Vendita |
 | Contiene | 2013 | Anno | 2013 |
 
-## How Rules Are Processed {#concept_A67A23F523844D37898583C632DB9D25}
+## Elaborazione delle regole {#concept_A67A23F523844D37898583C632DB9D25}
 
-Important information about how classification rules are processed.
+Informazioni importanti sull'elaborazione delle regole di classificazione.
 
 <!-- 
 
@@ -54,28 +54,26 @@ about_classification_rules.xml
 
  -->
 
-* [Important Information about Rules](/help/components/c-classifications2/crb/classification-rule-builder.md)
-* [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-rule-builder.md)
-* [About Rule Priority](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
+* [Informazioni importanti sulle regole](/help/components/c-classifications2/crb/classification-rule-builder.md)
+* [Quando Le Regole Non Classificano Le Chiavi?](/help/components/c-classifications2/crb/classification-rule-builder.md)
+* [Priorità regola](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
 
->[!NOTE]
->
->L'oggetto [!UICONTROL Rule Builder] non supporta le classificazioni Numeriche 2.
+> [!NOTE] L'oggetto [!UICONTROL Rule Builder] non supporta le classificazioni Numeriche 2.
 
-## Important Information about Rules {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
+## Informazioni importanti sulle regole {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
 * Specificate le autorizzazioni [del](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) gruppo per le classificazioni in [!UICONTROL Admin Tools].
 
-* **Regular expressions: Help is available under Regular Expressions in Classification Rules.**[](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)
+* **Espressioni** regolari: La Guida è disponibile in Espressioni [regolari nelle regole](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)di classificazione.
 
-* **Report suites: You cannot choose a classification until at least one report suite is selected.** Non puoi applicare la suite di rapporti finché non hai creato il set di regole e assegnato una variabile.
+* **Suite** di rapporti: Non puoi scegliere una classificazione finché non viene selezionata almeno una suite di rapporti. Non puoi applicare la suite di rapporti finché non hai creato il set di regole e assegnato una variabile.
 
    Quando si verifica il set di regole, utilizzare le chiavi (la variabile da classificare) del rapporto per vedere in che modo verranno influenzate dal set di regole. (La [chiave](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443) è la variabile da classificare, o la prima colonna nella tabella di caricamento della classificazione.)
 
 * **Priorità** regola: Se una chiave corrisponde a più regole che impostano la stessa classificazione (nella [!UICONTROL Set Classification] colonna), viene utilizzata l'ultima regola che corrisponde alla classificazione. Vedere [Informazioni sulla priorità](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)delle regole.
 
 * **Limiti relativi al numero di regole**: Non esiste alcun limite impostato per il numero di regole che è possibile creare. Tuttavia, un numero elevato di regole può influire sulle prestazioni del browser.
-* **Elaborazione**: Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
+* **Elaborazione**:Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 
    Le regole attive vengono elaborate ogni quattro ore, esaminando i dati di classificazione che risalgono in genere a un mese. Le regole verificano automaticamente la presenza di nuovi valori e caricano le classificazioni utilizzando l'importatore.
 
@@ -110,25 +108,21 @@ regex_classification_rules.xml
 
 * [Espressione regolare - Esempio di codice di tracciamento](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
 * [Espressione regolare - Classificazione di un carattere specifico](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [Regular Expressions - Matching Tracking Codes of Varying Length](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [Regular Expressions - "Does Not Contain" Example](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [Regular Expressions - Reference Table](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
+* [Espressioni regolari - Codici di tracciamento corrispondenti di lunghezza variabile](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
+* [Espressioni regolari - "Non contiene"](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
+* [Espressioni regolari - Tabella di riferimento](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE]
->
->As a best practice, regular expressions are best suited for tracking codes that use delimiters.
+> [!NOTE] Come procedura ottimale, le espressioni regolari sono particolarmente indicate per i codici di monitoraggio che utilizzano i delimitatori.
 
-## Regular Expression - Tracking Code Example {#section_2EF7951398EB4C2F8E52CEFAB4032669}
+## Espressione regolare - Esempio di codice di tracciamento {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE]
->
->If the tracking code is URL encoded, it will not be classified by the Rules Builder.****
+> [!NOTE] Se il codice di tracciamento è codificato da un URL, **non** verrà classificato dal Generatore di regole.
 
-In this example, assume you want to classify the following campaign ID:
+In questo esempio, supponete di voler classificare il seguente ID campagna:
 
 [!UICONTROL Sample Key]: `em:JuneSale:20130601`
 
-The parts of the tracking code you want to classify are:
+Le parti del codice di tracciamento da classificare sono:
 
 * `em` = e-mail
 * `JuneSale` = nome campagna
@@ -136,21 +130,21 @@ The parts of the tracking code you want to classify are:
 
 [!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
 
-How the regular expression correlates to the campaign ID:
+Modo in cui l'espressione regolare è correlata all'ID campagna:
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]: Shows how the regular expression corresponds to the campaign ID characters, so that you can classify a position in the campaign ID.
+[!UICONTROL Match Groups]: Mostra come l'espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell'ID campagna.
 
 ![](assets/regex_tracking_code.png)
 
-This example tells the rule that the campaign date  is at the third group , identified by .`20140601``(.+)``$3`
+Questo esempio indica la regola secondo cui la data della campagna `20140601` si trova nel terzo gruppo `(.+)`, identificato da `$3`.
 
 **[!UICONTROL Rule Builder]**
 
-In the , configure the rule as follows:[!UICONTROL Rule Builder]
+In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-| Select Rule Type | Enter Match Criteria | Imposta classificazione | A |
+| Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |---|---|---|---|
 | Espressione regolare | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data campagna | $3 |
 
@@ -183,11 +177,11 @@ In [!UICONTROL Rule Builder], configurate la regola come segue:
 | Espressione regolare | `^.(s).*$` | Marchio e motore | `$0` Acquisisce i primi due caratteri per il marchio e il motore di ricerca. |
 | Espressione regolare | `^.(s).*$` | Motore di ricerca | `$1` Acquisisce il secondo carattere per Google. |
 
-## Regular Expressions - Matching Tracking Codes of Varying Length {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
+## Espressioni regolari - Codici di tracciamento corrispondenti di lunghezza variabile {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
-This example shows how to identify specific characters between colon delimiters when you have tracking codes of varying lengths. Adobe consiglia di utilizzare un'espressione regolare per ciascun codice di tracciamento.
+Questo esempio mostra come identificare caratteri specifici tra i delimitatori di due punti quando sono presenti codici di monitoraggio di lunghezze diverse. Adobe consiglia di utilizzare un'espressione regolare per ciascun codice di tracciamento.
 
-Sample Keys:
+Tasti di esempio:
 
 * `a:b`
 * `a:b:c`
@@ -201,9 +195,9 @@ Sample Keys:
 
 **[!UICONTROL Rule Builder]**
 
-In the , configure the rule as follows:[!UICONTROL Rule Builder]
+In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-| Select Rule Type | Inserisci criteri di corrispondenza | Imposta classificazione | A |
+| Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |--- |--- |--- |--- |
 | Espressione regolare Per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Espressione regolare Per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
@@ -251,7 +245,7 @@ In questo risultato, `a:b:1313` non indica una corrispondenza.
 | [`a-zA-Z`] | Qualsiasi carattere singolo nell'intervallo a-z o A-Z |
 | `^` | Inizio riga (corrisponde all'inizio della riga) |
 | `$` | Corrispondenza con la fine della riga (o prima della riga finale) |
-| `\A` | Start of string |
+| `\A` | Inizio della stringa |
 | `\z` | Fine della stringa |
 | `.` | Corrispondenza con qualsiasi carattere (tranne una nuova riga) |
 | `\s` | Qualsiasi carattere di spazi bianchi |
@@ -315,9 +309,7 @@ Procedura che descrive come aggiungere o modificare una regola di classificazion
 
 Aggiungere regole facendo corrispondere una condizione a una classificazione e specificando l'azione.
 
->[!NOTE]
->
->In questa procedura è necessario applicare le regole a una o più suite di rapporti. Il numero consigliato di regole per set di regole è compreso tra 500 e 1000, anche se non esistono limiti. Se disponete di oltre 100 regole, provate a semplificare il set di regole utilizzando [sottoclassificazioni](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
+> [!NOTE] In questa procedura è necessario applicare le regole a una o più suite di rapporti. Il numero consigliato di regole per set di regole è compreso tra 500 e 1000, anche se non esistono limiti. Se disponete di oltre 100 regole, provate a semplificare il set di regole utilizzando [sottoclassificazioni](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
 
 1. [Creare un set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) di regole di classificazione.
 1. Nella pagina del set di regole, fate clic su **[!UICONTROL Add Rule]**.
@@ -329,7 +321,7 @@ Aggiungere regole facendo corrispondere una condizione a una classificazione e s
    Viene **[!UICONTROL Select Report Suites]** visualizzata la pagina.
 
    >[!NOTE]
-   Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:        &gt;
+   Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:&gt;
 
    * Le suite di rapporti hanno almeno una classificazione definita per quella variabile in [!UICONTROL Admin Tools].
    Per una spiegazione di questo prerequisito, vedere *`Variable`* in Set [regole di](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) classificazione.
