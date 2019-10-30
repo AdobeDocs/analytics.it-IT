@@ -5,9 +5,9 @@ seo-title: Aggiungere richieste dipendenti
 solution: Analytics
 title: Aggiungere richieste dipendenti
 topic: Generatore di report
-uuid: 243619 db -81 b 4-40 cc -88 c 4-e 93 a 14 f 6993 b
+uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,14 +16,10 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 Una richiesta dipendente è una richiesta che dipende da una richiesta esistente.
 
-For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** &gt; **[!UICONTROL Breakdown]**.
+Per i rapporti con suddivisioni di correlazione abilitate all'interno della tabella dei rapporti, puoi osservare da vicino un elemento facendo clic con il pulsante destro del mouse nella cella e scegliendo **[!UICONTROL Add Dependent Request]** &gt; **[!UICONTROL Breakdown]**.
 
->[!NOTE]
->
->Puoi anche aggiungere una richiesta di suddivisione durante la creazione della richiesta originale. See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+> [!NOTE] Potete inoltre aggiungere una richiesta di suddivisione durante la creazione della richiesta originale. See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
->[!NOTE]
->
->Adobe Report Builder applica le dipendenze richieste solo all'interno dello stesso foglio di lavoro, non tra fogli di lavoro. La limitazione alle dipendenze all'interno di un singolo foglio di lavoro garantisce la tempestività dell'esecuzione.
+> [!NOTE] Adobe Report Builder applica le dipendenze delle richieste solo all'interno dello stesso foglio di lavoro, non tra fogli di lavoro. Limitarsi alle dipendenze all'interno di un singolo foglio di lavoro garantisce la tempestività dell'esecuzione.
 
-See [Breakdown Reports](/help/analyze/reports-analytics/reports-customize/breakdowns.md).
+Consultate [Rapporti](/help/analyze/reports-analytics/reports-customize/breakdowns.md)di suddivisione.
