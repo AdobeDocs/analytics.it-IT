@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Domande frequenti
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
    <td colname="col1"> <b>D: Come faccio a sapere se le mie suite di rapporti eseguono la personalizzazione in sito o targeting offsite/onsite?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">Ciò non si applica all'invio di dati di Adobe Analytics ad Adobe Audience Manager. </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">che non si applicano all'invio di dati Adobe Analytics ad Adobe Audience Manager. </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">Chiedetevi: Condividi un segmento condiviso con Analytics con una dimensione MCA in Experience Cloud? </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">Stai esportando (ad esempio tramite feed di dati) in un sistema di Business Intelligence (BI) usato a tale fine? </li> 
     </ul> </td> 
@@ -89,7 +89,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
    <td colname="col2"> <p>Quasi ovunque; vengono trattati come qualsiasi altra dimensione raccolta in Analytics. Esistono due eccezioni: per il momento, i dati non sono disponibili in Workbench dati o Livestream. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>D: Perché non visualizzo i dati provenienti da Analytics?</b> </p> </td> 
+   <td colname="col1"> <p><b>D: Perché non vedo i dati in arrivo in Analytics?</b> </p> </td> 
    <td colname="col2"> <p>Probabilmente hai dei controlli di privacy AAM in conflitto tra l'origine dati e la destinazione. </p> </td> 
   </tr> 
   <tr> 
