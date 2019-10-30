@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Panoramica sull'inoltro lato server
 uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,5 @@ Vai a **Analytics** &gt; **Amministratore** &gt; **Suite** di rapporti &gt; (sel
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->I dati non verranno visualizzati in altre soluzioni Experience Cloud, come [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) o [Audience](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) finché tutti e tre i passaggi non saranno completati. Una volta attivata questa opzione, per rendere effettive le impostazioni sono necessarie diverse ore.
+> [!NOTE] I dati non verranno visualizzati in altre soluzioni Experience Cloud, come [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) o [Audience](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) finché tutti e tre i passaggi non saranno completati. Una volta attivata questa opzione, per rendere effettive le impostazioni sono necessarie diverse ore.
 
