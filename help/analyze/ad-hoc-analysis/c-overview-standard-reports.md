@@ -46,8 +46,8 @@ I rapporti di conversione forniscono un'analisi completa, accurata e dettagliata
 
 I rapporti sul traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
 
-* Analyze critical aspects of visitor behavior.
-* Monitor and understand traffic patterns.
+* Analizzare gli aspetti critici del comportamento dei visitatori.
+* Monitorare e comprendere i pattern di traffico.
 * Consente di determinare il contenuto del sito più popolare.
 * Segmenta i visitatori in base a qualsiasi criterio misurabile.
 
@@ -95,7 +95,7 @@ c_Statistical_Calculation_ad_hoc.xml
 | Quartiles | Un quartile è l'insieme di valori nel set di dati identificato da tre punti che dividono l'insieme di dati in quattro gruppi uguali, ciascuno dei quali comprende un quarto dell'insieme di dati. Il primo quartile è il 25° percentile, e il terzo quartile è il 75° percentile. (Il secondo quartile è la mediana e il quarto quartile è la Somma.) |
 | Count | Restituisce il numero di righe in un dataset. |
 
-## Esempio di calcoli medi rispetto al totale della metrica {#section_7C49196503964FB0A429FA347BC92D09}
+## Esempio di calcoli medi e totali delle metriche {#section_7C49196503964FB0A429FA347BC92D09}
 
 La funzione Media è calcolata in modo simile alle colonne di dati in Microsoft Excel. In particolare, ciò significa che la **media** di un rapporto (come la determinazione del tasso di rimbalzo medio) sarebbe la media dei rapporti, non il rapporto delle medie. Il rapporto delle medie include il **totale** della metrica del tasso di rimbalzo.
 
@@ -160,4 +160,4 @@ c_groups.xml
 
  -->
 
-Clic **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
+Fai clic su **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
