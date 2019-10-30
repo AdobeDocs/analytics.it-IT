@@ -5,7 +5,7 @@ seo-title: Implementazione roadmap
 title: Implementazione roadmap
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -44,27 +44,31 @@ Se non hai mai utilizzato Adobe Analytics, puoi creare rapidamente la tua prima 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
-   <td colname="col1"> Configurare il servizio identità. </td> 
+   <td colname="col1">  Configurare il servizio identità. </td> 
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) Consultate <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Configurare il servizio identità per Analytics </a>. </p> 
     <draft-comment> 
      <p>In <code> VisitorAPI.js </code>, aggiungi il seguente codice di inizializzazione ID visitatore all’inizio del file: </p> 
      <code class="syntax javascript">
-       var visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE"); 
-      visitor.trackingServer = "INSERT-TRACKING-SERVER-HERE"; // uguale a s.trackingServer visitor.trackingServerSecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s.trackingServerSecure /* ============= NON ALTER ANYTHTHTHBELOW ! ============ </code> 
+       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("INSERT-MCORG-ID-HERE"); 
+      visitor.trackingServer&nbsp;=&nbsp;"INSERT-TRACKING-SERVER-HERE";&nbsp;//&nbsp;same&nbsp;as&nbsp;s.trackingServer 
+      visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&nbsp;//same&nbsp;as&nbsp;s.trackingServerSecure 
+      /* 
+      &nbsp;==============&nbsp;DO&nbsp;NOT&nbsp;ALTER&nbsp;ANYTHING&nbsp;BELOW&nbsp;THIS&nbsp;LINE&nbsp;!&nbsp;============
+     </code> 
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
-      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> "INSERT-MCORG-ID-HERE" </code> - (richiesto) Questo ID organizzazione Adobe Experience Cloud viene inviato all'amministratore quando la società effettua il provisioning per Adobe Experience Cloud. </li> 
-      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE" </code> - (richiesto) Il server di tracciamento di Analytics. </li> 
-      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE" </code> - (richiesto se ssl è abilitato) Il server di tracciamento protetto di Analytics. </li> 
+      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> "INSERT-MCORG-ID-HERE" </code> - (Obbligatorio) Questo ID organizzazione Adobe Experience Cloud viene inviato all'amministratore quando la società effettua il provisioning per Adobe Experience Cloud. </li> 
+      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE" </code> - (Obbligatorio) Il server di tracciamento di Analytics. </li> 
+      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE" </code> - (Obbligatorio se ssl è abilitato) Il server di tracciamento protetto di Analytics. </li> 
      </ul> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
    <td colname="col1"> Utilizza il metodo di implementazione scelto per aggiornare e distribuire il codice della pagina. </td> 
-   <td colname="col2"> <p>Posizionare il codice della pagina subito dopo il tag di apertura <code> &lt;body&gt; </code> su ogni pagina da monitorare. Come minimo, aggiorna le seguenti variabili: </p> 
+   <td colname="col2"> <p>Posizionare il codice della pagina subito dopo il <code> &lt;body&gt; </code> tag di apertura su ogni pagina da monitorare. Come minimo, aggiorna le seguenti variabili: </p> 
     <ul id="ul_29200A6E8DA14386BDA242AD8B270FEB"> 
      <li id="li_FB24D2CB9241401A83BD13EE342A7810"> <code> var s=s_gi("INSERT-RSID-HERE") </code> </li> 
-     <li id="li_463A35BA06CC4618B4AF17CD7E83AED5"> <code> s.pageName="INSERT-NAME-HERE" // ad esempio, s.pageName=document.title </code> </li> 
+     <li id="li_463A35BA06CC4618B4AF17CD7E83AED5"> <code> s.pageName="INSERT-NAME-HERE" // for example, s.pageName=document.title </code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -75,13 +79,13 @@ Se non hai mai utilizzato Adobe Analytics, puoi creare rapidamente la tua prima 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Usa Adobe Experience Cloud Debugger per verificare che i dati vengano inviati. </td> 
-   <td colname="col2"> <p>Installa <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local"> Experience Cloud Debugger </a>. Una volta installato, carica una pagina in cui hai distribuito il codice della pagina e apri il debugger. The debugger displays details about the collection data that was sent. </p> </td> 
+   <td colname="col2"> <p>Installa <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local"> Experience Cloud Debugger </a>. Una volta installato, carica una pagina in cui hai distribuito il codice della pagina e apri il debugger. Il debugger visualizza i dettagli relativi ai dati di raccolta inviati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ulteriori informazioni {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-For information about the differences between [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
+Per informazioni sulle differenze tra metodi [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management]e JavaScript, vedere [Scegliere un metodo](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B)di implementazione.
 
-For a concise overview of the getting started process and help on quickly setting up your first Analytics report suite, see [Getting Started with Analytics Implementation](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in the Getting Started with Analytics guide.
+Per una breve panoramica del processo iniziale e per assistenza sulla configurazione rapida della prima suite di rapporti di Analytics, consulta [Guida introduttiva all’implementazione](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) di Analytics nella guida introduttiva ad Analytics.
