@@ -1,23 +1,23 @@
 ---
-description: Visualizza il numero di carrelli della spesa che vengono aperti durante il periodo di tempo specificato. Puoi eseguire rapporti per analizzare visualizzazioni del carrello, aggiunte, rimozioni e pagamenti. Un carrello acquisti viene generalmente aperto quando un cliente seleziona un elemento per l'acquisto, ma può verificarsi anche senza un elemento.
-seo-description: Visualizza il numero di carrelli della spesa che vengono aperti durante il periodo di tempo specificato. Puoi eseguire rapporti per analizzare visualizzazioni del carrello, aggiunte, rimozioni e pagamenti. Un carrello acquisti viene generalmente aperto quando un cliente seleziona un elemento per l'acquisto, ma può verificarsi anche senza un elemento.
-seo-title: Carrello acquisti
+description: Visualizza il numero di carrelli commerciali aperti durante il periodo di tempo specificato. Puoi eseguire rapporti per analizzare viste del carrello, aggiunte, rimozioni e pagamenti. Un carrello viene generalmente aperto quando un cliente seleziona un articolo per l'acquisto, ma può verificarsi anche senza un articolo.
+seo-description: Visualizza il numero di carrelli commerciali aperti durante il periodo di tempo specificato. Puoi eseguire rapporti per analizzare viste del carrello, aggiunte, rimozioni e pagamenti. Un carrello viene generalmente aperto quando un cliente seleziona un articolo per l'acquisto, ma può verificarsi anche senza un articolo.
+seo-title: Carrello
 solution: Analytics
-title: Carrello acquisti
+title: Carrello
 topic: Rapporti
-uuid: ce 97 e 7 f 0-b 455-438 c-a 064-d 4856 a 1279 e 7
+uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Carrello acquisti
+# Carrello
 
-Visualizza il numero di carrelli della spesa che vengono aperti durante il periodo di tempo specificato. Puoi eseguire rapporti per analizzare visualizzazioni del carrello, aggiunte, rimozioni e pagamenti. Un carrello acquisti viene generalmente aperto quando un cliente seleziona un elemento per l'acquisto, ma può verificarsi anche senza un elemento.
+Visualizza il numero di carrelli commerciali aperti durante il periodo di tempo specificato. Puoi eseguire rapporti per analizzare viste del carrello, aggiunte, rimozioni e pagamenti. Un carrello viene generalmente aperto quando un cliente seleziona un articolo per l'acquisto, ma può verificarsi anche senza un articolo.
 
-You can use [!UICONTROL Shopping Cart] to:
+È possibile utilizzare [!UICONTROL Shopping Cart] per:
 
-* Consente di determinare pattern, alti o vertici nel numero di carrelli aperti sul sito.
-* Esaminate specifici periodi di tempo per ulteriori informazioni sulle metriche che hanno contribuito in modo specifico all'apertura del carrello.
+* Determinare pattern, livelli alti o bassi nel numero di carrelli aperti sul sito.
+* Esaminare specifici periodi di tempo apprendere ulteriori informazioni sulle metriche che hanno contribuito specificamente all'apertura del carrello.
 
