@@ -3,9 +3,9 @@ description: Le impostazioni colonna consentono di configurare la formattazione 
 seo-description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 seo-title: Impostazioni colonna
 title: Impostazioni colonna
-uuid: 151 d 66 da -04 f 7-4 d 0 f -985 c -4 fdd 92 bc 1308
+uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 758292a0f68fdb974e506e74df4bacf8bf9c4515
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 758292a0f68fdb974e506e74df4bacf8bf9c4515
 
 Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 
-## Column settings {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
+## Impostazioni colonna {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
 Per accedere a [!UICONTROL Column Settings] (Impostazioni colonna), trascina una tabella freeform nel progetto e fai clic sull'icona con l'ingranaggio nell'intestazione della colonna.
 
@@ -28,16 +28,16 @@ Per accedere a [!UICONTROL Column Settings] (Impostazioni colonna), trascina una
 | Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale di visualizzazioni di pagina per la colonna.  Nota: per garantire una maggiore precisione, è possibile visualizzare percentuali superiori al 100%. Inoltre, abbiamo spostato il limite superiore al 1000% per assicurare che le colonne possano crescere anche in larghezza. |
 | Anomalie | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
 | Testo a capo nelle intestazioni | Consente di mandare automaticamente a capo il testo delle intestazioni nelle tabelle a forma libera, per agevolare la lettura delle intestazioni e la condivisione delle tabelle. Questa opzione è utile per la creazione di file PDF e per le metriche con nomi lunghi. È attivata per impostazione predefinita. |
-| Interpret zero as no value (Interpreta zero come nessun valore) | Per le celle con valore 0, determina se visualizzare 0 oppure la cella vuota. Questa funzione è particolarmente utile se si esaminano i dati quotidianamente e il mese in corso non è ancora terminato.  Invece di visualizzare valori 0 per le date future, è possibile sostituirli con delle celle vuote. Anche i grafici si adeguano a questa impostazione (ossia, se è stata selezionata, non visualizzano linee o barre con valori 0). |
+| Interpret zero as no value (Interpreta zero come nessun valore) | Per le celle con valore 0, determina se visualizzare 0 oppure la cella vuota. Questo è utile quando si osservano i dati per ogni giorno di un mese, e alcuni giorni non sono ancora accaduti.  Invece di visualizzare valori 0 per le date future, è possibile sostituirli con delle celle vuote. Anche i grafici si adeguano a questa impostazione (ossia, se è stata selezionata, non visualizzano linee o barre con valori 0). |
 | Informazioni di base | Determina se mostrare o nascondere tutta la formattazione della cella, inclusi il grafico a barre e la formattazione condizionale. |
-| Grafico a barre | Visualizza un grafico a barre orizzontale che rappresenta il valore della cella rispetto al totale della colonna. |
+| Grafico a barre | Mostra un grafico a barre orizzontale che rappresenta il valore della cella rispetto al totale della colonna. |
 | Formattazione condizionale | Consulta la sezione successiva. |
 | Table Cell Preview (Anteprima celle tabella) | Mostra un’anteprima di ciascuna cella con le opzioni di formattazione attualmente selezionate attive. |
 
 
 ## Conditional formatting {#section_3DD847151DA14914888A70FC4FD7BDFB}
 
-La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale (colori, ecc.) nelle tabelle a forma libera è inoltre abilitata automaticamente nelle suddivisioni, a meno che non venga selezionata l’opzione per limiti personalizzati.
+La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. Anche l'applicazione della formattazione condizionale (colori, ecc.) nelle tabelle a forma libera è abilitata automaticamente nelle suddivisioni, a meno che non siano selezionati limiti personalizzati.
 
 ![](assets/conditional-formatting.png)
 
@@ -49,7 +49,7 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 | Personalizzato | Puoi assegnare manualmente i valori per i campi Limite superiore, Punto intermedio e Limite inferiore per la formattazione condizionale. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
 | Table Cell Preview (Anteprima celle tabella) | Mostra un’anteprima di ciascuna cella con le opzioni di formattazione attualmente selezionate attive. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Gestione delle origini dati](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
