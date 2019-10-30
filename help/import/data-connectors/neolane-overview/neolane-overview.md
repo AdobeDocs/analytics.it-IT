@@ -5,7 +5,7 @@ seo-title: Connettore dati Neolane Ozon per Adobe Analytics
 title: Connettore dati Neolane Ozon per Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,9 +30,9 @@ Questa integrazione include i seguenti vantaggi principali:
 
 Questa integrazione offre i seguenti segmenti di marketing dinamici:
 
-* **** Profili di acquisto:Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
-* **** Profilo comportamentale visualizzazione prodotto/contenuto:Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
-* **** Profilo abbandono carrello:Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
+* **** Profili di acquisto: Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
+* **** Profilo comportamentale visualizzazione prodotto/contenuto: Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
+* **** Profilo abbandono carrello: Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
 * I clienti possono anche creare e pianificare segmenti di remarketing personalizzati in base alle esigenze dei propri utenti.
 
 ## Prima di attivare{#before-you-activate}
