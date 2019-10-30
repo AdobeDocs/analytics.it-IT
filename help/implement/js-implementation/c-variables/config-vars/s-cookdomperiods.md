@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Ad esempio, se si imposta *`cookieDomainPeriods`* "2" sul dominio `www.mysite.co
 
 Se *`cookieDomainPeriods`* è impostato su "3" ma il dominio contiene solo due punti, il file JavaScript imposta i cookie sul sottodominio del sito. Ad esempio, se si imposta *`cookieDomainPeriods`* "3" sul dominio `www2.mysite.com`, i `s_cc` cookie e `s_sq` i cookie vengono creati sul dominio `www2.mysite.com`. Quando un visitatore accede a un altro sottodominio del sito (ad esempio `www4.mysite.com`), non `www2.mysite.com` è possibile leggere tutti i cookie impostati con.
 
->[!NOTE]
->
->Non includete sottodomini aggiuntivi come parte di *`cookieDomainPeriods`*. Ad esempio, `store.toys.mysite.com` avrebbe comunque *`cookieDomainPeriods`* impostato su "2". Questa definizione di variabile imposta correttamente i cookie sul dominio principale [!DNL mysite.com]. L'impostazione *`cookieDomainPeriods`* su "3" in questo esempio imposta i cookie sul dominio [!DNL toys.mysite.com], con le stesse implicazioni dell'esempio precedente.
+> [!NOTE] Non includete sottodomini aggiuntivi come parte di *`cookieDomainPeriods`*. Ad esempio, `store.toys.mysite.com` avrebbe comunque *`cookieDomainPeriods`* impostato su "2". Questa definizione di variabile imposta correttamente i cookie sul dominio principale [!DNL mysite.com]. L'impostazione *`cookieDomainPeriods`* su "3" in questo esempio imposta i cookie sul dominio [!DNL toys.mysite.com], con le stesse implicazioni dell'esempio precedente.
 
 Vedere anche [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html).
 
@@ -32,9 +30,7 @@ Vedere anche [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/an
 |---|---|---|---|
 | N/D | CDP | Interessa più rapporti in quanto controlla il modo in cui l’ID visitatore viene memorizzato e gestito. | "2" |
 
->[!NOTE]
->
->Alcuni servizi di cloud computing sono considerati Domini di primo livello, che non consentono la scrittura di cookie. (ad esempio `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`ecc.) Se implementi questi servizi, potresti essere potenzialmente influenzato dall'impostazione della privacy di Analytics che rimuove gli utenti che hanno bloccato tutti i cookie se non hai impostato il tuo dominio (ad esempio, se stai testando la tua implementazione). In questo caso, qualsiasi hit in cui il sistema ha determinato che i cookie sono disattivati, non funzionali o inaccessibili viene escluso e quindi escluso dalla segnalazione.
+> [!NOTE] Alcuni servizi di cloud computing sono considerati Domini di primo livello, che non consentono la scrittura di cookie. (ad esempio `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`ecc.) Se implementi questi servizi, potresti essere potenzialmente influenzato dall'impostazione della privacy di Analytics che rimuove gli utenti che hanno bloccato tutti i cookie se non hai impostato il tuo dominio (ad esempio, se stai testando la tua implementazione). In questo caso, qualsiasi hit in cui il sistema ha determinato che i cookie sono disattivati, non funzionali o inaccessibili viene escluso e quindi escluso dalla segnalazione.
 
 ## Esempi
 
