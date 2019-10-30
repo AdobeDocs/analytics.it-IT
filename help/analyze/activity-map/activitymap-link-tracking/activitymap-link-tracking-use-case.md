@@ -7,7 +7,7 @@ title: Differenziare i collegamenti che fanno riferimento allo stesso ID collega
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,9 +90,7 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
 
 Puoi personalizzare l'area facendo in modo che ogni collegamento "acquista" abbia una propria regione definita. A tal fine, aggiungete un parametro "id" a uno dei principali tag di ancoraggio "Buy".
 
->[!NOTE]
->
->Non sei strettamente limitato al parametro "id" come identificatore di regione. Potete anche impostare un identificatore personalizzato utilizzando la variabile JavaScript "s.ActivityMap.regionIDAtribute".
+> [!NOTE] Non sei strettamente limitato al parametro "id" come identificatore di regione. Potete anche impostare un identificatore personalizzato utilizzando la variabile JavaScript "s.ActivityMap.regionIDAtribute".
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
