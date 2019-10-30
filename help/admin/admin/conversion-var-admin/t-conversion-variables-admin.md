@@ -1,30 +1,30 @@
 ---
-description: Procedura che descrive come aggiungere o modificare le variabili di conversione.
-seo-description: Procedura che descrive come aggiungere o modificare le variabili di conversione.
+description: Procedura che descrive come aggiungere o modificare variabili di conversione.
+seo-description: Procedura che descrive come aggiungere o modificare variabili di conversione.
 seo-title: Modificare le variabili di conversione
 solution: Analytics
 title: Modificare le variabili di conversione
 topic: Strumenti di amministrazione
-uuid: 12 a 49 e 74-036 f -4109-b 306-4302 bf 3 b 8 aa 1
+uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Modificare le variabili di conversione
 
-Procedura che descrive come aggiungere o modificare le variabili di conversione.
+Procedura che descrive come aggiungere o modificare variabili di conversione.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Variables]**.
-1. On the [!UICONTROL Conversion Variables] page, click the **[!UICONTROL Expand]** icon [+] next to the conversion variable you want to modify.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Variables]**.
+1. Sulla [!UICONTROL Conversion Variables] pagina, fare clic sull’ **[!UICONTROL Expand]** icona [+] accanto alla variabile di conversione da modificare.
 
    Oppure
 
-   Click **[!UICONTROL Add New]** to add an unused eVar to the report suite.
-1. Selezionate i campi variabili di conversione che desiderate modificare.
+   Fai clic **[!UICONTROL Add New]** per aggiungere un'eVar inutilizzata alla suite di rapporti.
+1. Selezionare i campi della variabile di conversione da modificare.
 
-   See [Conversion Variables - Descriptions](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Alcuni campi consentono di digitare direttamente il campo. Altri consentono di selezionare da un elenco a discesa dei valori supportati.
+   Vedere Variabili [di conversione - Descrizioni](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Alcuni campi consentono di digitare il testo direttamente nel campo. Altri consentono di selezionare da un elenco a discesa di valori supportati.
 1. Fai clic su **[!UICONTROL Save]**.
