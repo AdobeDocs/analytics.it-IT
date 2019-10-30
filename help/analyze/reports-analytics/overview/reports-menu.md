@@ -5,7 +5,7 @@ seo-title: Menu Rapporti
 title: Menu Rapporti
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ Il menu Rapporti offre un'esperienza di ricerca avanzata. Fare clic **[!UICONTRO
 
 Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei rapporti. Premere il tasto ESC per chiudere la ricerca senza modificare il rapporto corrente oppure premere Invio per caricare il rapporto selezionato.
 
->[!NOTE]
->
->Potete anche cercare l'elenco dei rapporti per proprietà, eVar e numero evento. Nella barra di ricerca, immettete la proprietà, l'eVar o il numero dell'evento.
+> [!NOTE] Potete anche cercare l'elenco dei rapporti per proprietà, eVar e numero evento. Nella barra di ricerca, immettete la proprietà, l'eVar o il numero dell'evento.
 
 ## Panoramica sulla navigazione {#section_A6A0A369207149BABE504753B48A42D7}
 
