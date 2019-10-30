@@ -5,7 +5,7 @@ seo-title: Esecuzione dell'integrazione guidata Connettori dati
 title: Esecuzione dell'integrazione guidata Connettori dati
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -44,7 +44,7 @@ Per configurare l'integrazione:
   <tr valign="top"> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Nome integrazione </p> </td> 
-   <td colname="col3"> <p>Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'elenco Integrazione attiva della suite di rapporti. </p> </td> 
+   <td colname="col3"> <p>Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'Elenco integrazione attiva della suite di rapporti. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>1 </p> </td> 
@@ -63,7 +63,7 @@ Per configurare l'integrazione:
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
-   <td colname="col2"> <p>ID destinatario </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col3"> <p>Identificare l'eVar di Adobe Analytics utilizzata per tenere traccia dell'ID destinatario e-mail. </p> <p>L'ID destinatario viene utilizzato per campagne di marketing/remarketing. L’ID messaggio è spesso denominato "Codice visitatore". </p> </td> 
   </tr> 
   <tr valign="top"> 
