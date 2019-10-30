@@ -1,28 +1,26 @@
 ---
-description: Caricate una cartella di lavoro di Generatore di report Excel da condividere.
-seo-description: Caricate una cartella di lavoro di Generatore di report Excel da condividere.
+description: Caricate una cartella di lavoro Excel Generatore di report da condividere.
+seo-description: Caricate una cartella di lavoro Excel Generatore di report da condividere.
 seo-title: Caricare una cartella di lavoro
 solution: Analytics
 title: Caricare una cartella di lavoro
 topic: Generatore di report
-uuid: fe 0424 ae -7 c 68-407 c -9 b 75-e 7 ef 53 a 44 a 4 f
+uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Caricare una cartella di lavoro
 
-Caricate una cartella di lavoro di Generatore di report Excel da condividere.
+Caricate una cartella di lavoro Excel Generatore di report da condividere.
 
-The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Durante la migrazione da excelclient a Generatore di report, si consiglia di scaricare i libri di lavoro dall'archivio excelclient e quindi di caricarli nell'archivio di Generatore di report.
+Consente di [!UICONTROL Workbook Library] caricare una cartella di lavoro Excel Generatore di report da condividere. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Durante la migrazione da ExcelClient a Generatore di report, si consiglia di scaricare le cartelle di lavoro dall'archivio ExcelClient e quindi di caricarle nell'archivio del Generatore di report.
 
->[!NOTE]
->
->È possibile caricare solo i documenti di lavoro con le richieste Generatore di report. Inoltre, potete distribuire i rapporti di Generatore di report alle persone che non utilizzano Generatore di report. (gli utenti non devono effettuare l'accesso per visualizzare i dati.)
+> [!NOTE] È possibile caricare solo le cartelle di lavoro con le richieste del Generatore di report. Inoltre, potete distribuire i rapporti del Generatore di report alle persone che non utilizzano Generatore di report. Gli utenti non devono effettuare il login per visualizzare i dati.
 
-1. Create ed eseguite una richiesta.
-1. After you have saved the report, click **[!UICONTROL Share]**.
-1. Click **[!UICONTROL Browse]** to locate the workbook.
-1. In the **[!UICONTROL Description]** field, type a description, then click **[!UICONTROL Upload]**.
+1. Creare ed eseguire una richiesta.
+1. Dopo aver salvato il rapporto, fai clic su **[!UICONTROL Share]**.
+1. Fare clic **[!UICONTROL Browse]** per individuare la cartella di lavoro.
+1. Nel **[!UICONTROL Description]** campo digitare una descrizione, quindi fare clic su **[!UICONTROL Upload]**.
