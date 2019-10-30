@@ -1,33 +1,31 @@
 ---
-description: Le seguenti variabili e funzioni consentono di memorizzare chiamate di misurazione quando l'applicazione è offline.
+description: Le seguenti variabili e funzioni consentono di memorizzare le chiamate di misurazione quando l’applicazione è offline.
 keywords: Implementazione di Analytics
-seo-description: Le seguenti variabili e funzioni consentono di memorizzare chiamate di misurazione quando l'applicazione è offline.
+seo-description: Le seguenti variabili e funzioni consentono di memorizzare le chiamate di misurazione quando l’applicazione è offline.
 seo-title: Tracciamento offline
 solution: Analytics
 title: Tracciamento offline
 topic: Sviluppatore e implementazione
-uuid: f 7 c 55 aef -28 a 4-4 f 2 f -8 f 47-792 a 05 f 9525 b
+uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Tracciamento offline
 
-Le seguenti variabili e funzioni consentono di memorizzare chiamate di misurazione quando l'applicazione è offline.
+Le seguenti variabili e funzioni consentono di memorizzare le chiamate di misurazione quando l’applicazione è offline.
 
->[!NOTE]
->
->Per abilitare il tracciamento offline, è necessario abilitare le marche temporali nella suite di rapporti. If timestamps are enabled on your report suite, your `trackOffline` configuration property *must* be true. Se le marche temporali non sono abilitate nella suite di rapporti, la proprietà di configurazione `trackOffline` *deve* essere false. Se questo non viene configurato correttamente, i dati andranno perduti. Se non sei sicuro se le marche temporali sono abilitate o meno nella suite di rapporti, [contattare l’assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
+> [!NOTE] Per abilitare il tracciamento offline, le marche temporali devono essere abilitate nella suite di rapporti. Se le marche temporali sono abilitate nella suite di rapporti, la proprietà di configurazione `trackOffline` *deve* essere true. Se le marche temporali non sono abilitate nella suite di rapporti, la proprietà di configurazione `trackOffline` *deve* essere false. Se questo non viene configurato correttamente, i dati andranno perduti. Se non sei sicuro se le marche temporali sono abilitate o meno nella suite di rapporti, [contattare l’assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
-Quando abilitata, appmeasurement si comporta come segue:
+Quando abilitata, AppMeasurement offline si comporta come segue:
 
-* L'applicazione invia una chiamata al server, ma la trasmissione dati non riesce.
-* Appmeasurement genera un timestamp per l'hit corrente.
-* Appmeasurement buffer i dati di hit ed eseguono il backup dei dati di hit con bufferizzazione fino a memorizzazione persistente per evitare la perdita di dati.
+* L'applicazione invia una chiamata al server, ma la trasmissione dei dati non riesce.
+* AppMeasurement genera un timestamp per l’hit corrente.
+* AppMeasurement esegue il buffer dei dati hit ed effettua il backup dei dati hit nel buffer allo storage permanente per evitare la perdita di dati.
 
-At each subsequent hit, or at the interval defined by `offlineThrottleDelay`, AppMeasurement attempts to send the buffered hit data, maintaining the original hit order. Se la trasmissione dati non riesce, continua a bufferizzare i dati hit (questa continua mentre il dispositivo è offline).
+Ad ogni hit successivo, o all’intervallo definito da `offlineThrottleDelay`, AppMeasurement tenta di inviare i dati dell’hit nel buffer, mantenendo l’ordine di hit originale. Se la trasmissione dei dati ha esito negativo, continua a bufferizzare i dati di hit (questa operazione continua mentre il dispositivo è offline).
 
 <table id="table_E8FD8C89025C4E819FE2FEBC7A78984D"> 
  <thead> 
@@ -40,29 +38,32 @@ At each subsequent hit, or at the interval defined by `offlineThrottleDelay`, Ap
   <tr> 
    <td colname="col1"> <p>trackOffline </p> </td> 
    <td colname="col2"> <p>Valore predefinito: false. </p> <p>Abilita o disabilita il tracciamento offline per la libreria delle misurazioni. </p> <p> <b>Esempi:</b> </p> 
-    <code class="syntax c">s. trackoffline = true; </code>
-  </td> 
+    <code class="syntax c">
+      s.trackOffline=true; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>offlineLimit </p> </td> 
    <td colname="col2"> <p>Predefinito: nessun limite </p> <p>Numero massimo di hit offline memorizzati nella coda. </p> <p> <b>Esempi:</b> </p> 
-    <code class="syntax c">s. offlinehitlimit = 100; </code>
-  </td> 
+    <code class="syntax c">
+      s.offlineHitLimit=100; 
+    </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Offlinethrottledelay </p> </td> 
-   <td colname="col2"> <p>Impostazione predefinita: 0 </p> <p>Specifica una cadenza (o ritardo), in millisecondi, per l'invio di dati hit bufferizzati quando appmeasurement rileva una connessione di rete attiva. Ciò limita l'impatto sulle prestazioni dell'invio di più hit nell'applicazione. </p> <p>Ad esempio, se offlinethrottledelay = 1000 e sono necessari 300 ms per inviare i dati hit, appmeasurement attende 700 ms prima di inviare il successivo hit bufferizzato. </p> 
-    <code class="syntax c">s. offlinethrottledelay = 1000; </code>
-  </td> 
+   <td colname="col1"> <p>offlineThrottleDelay </p> </td> 
+   <td colname="col2"> <p>Impostazione predefinita: 0 </p> <p>Specifica una cadenza (o ritardo), in millisecondi, per l'invio di dati di hit nel buffer quando AppMeasurement rileva una connessione di rete attiva. In questo modo si riduce l'impatto sulle prestazioni dell'invio di più hit sull'applicazione. </p> <p>Ad esempio, se offlineThrottleDelay=1000 e l’invio dei dati dell’hit richiede 300 ms, AppMeasurement attende 700 ms prima dell’invio dell’hit del buffer successivo. </p> 
+    <code class="syntax c">
+      s.offlineThrottleDelay=1000; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> Imposta manualmente lo stato online o offline dell'oggetto di misurazione. La libreria rileva automaticamente quando il dispositivo è offline o online, quindi questi metodi sono necessari solo se desiderate forzare la misurazione offline. <code> Forceonline </code> viene utilizzato solo per tornare allo stato online dopo che sono stati manualmente offline. </p> <p>Quando la misurazione è offline: </p> 
+   <td colname="col2"> <p> Impostare manualmente lo stato online o offline dell'oggetto di misura. La libreria rileva automaticamente quando il dispositivo è offline o online, pertanto questi metodi sono necessari solo se si desidera forzare la misurazione offline. <code> forceOnline </code> viene utilizzato solo per tornare allo stato online dopo essere stato disconnesso manualmente. </p> <p>Quando la misurazione è offline: </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> If <code> trackOffline </code> is true: hits are stored until measurement is online. </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> If <code> trackOffline </code> is false: hits are discarded. </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Se <code> trackOffline </code> è vero: gli hit vengono memorizzati finché la misurazione non è online. </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> Se <code> trackOffline </code> è false: gli hit vengono scartati. </li> 
     </ul> <p> <b>Esempi:</b> </p> 
-    <code class="syntax c">s. forceoffline ();
+    
 
 s.forceOnline();
 </code> </td>
