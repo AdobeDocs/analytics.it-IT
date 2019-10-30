@@ -3,12 +3,12 @@ description: Procedura per prepararsi all'utilizzo di Origini dati
 seo-description: 'Procedura per prepararsi all''utilizzo di Origini dati:'
 seo-title: Preparazione all'utilizzo di Origini dati
 solution: Analytics
-subtopic: ' Origini dati'
+subtopic: Origini dati
 title: Preparazione all'utilizzo di Origini dati
 topic: Sviluppatore e implementazione
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ Dopo aver determinato le mappature metrica-evento opportune per i dati Origini d
 
 Consulta [Eventi di successo](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) nell'Aiuto di Strumenti di amministrazione.
 
->[!NOTE]
->
->Adobe consiglia vivamente di utilizzare eventi nuovi e vuoti con i dati Origini dati, ma in alcuni rari casi potrebbe essere utile utilizzare un evento preesistente.
+> [!NOTE] Adobe consiglia vivamente di utilizzare eventi nuovi e vuoti con i dati Origini dati, ma in alcuni rari casi potrebbe essere utile utilizzare un evento preesistente.
 
 ## Identificare le dimensioni dei dati {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -43,9 +41,7 @@ Ad esempio, se una metrica Origini dati misura ad impression, la dimensione dati
 
 Puoi definire più dimensioni dati per una metrica, ma ogni metrica deve fornire un valore rilevante, o una combinazione di valori, per ogni dimensione dati associata. Ad esempio, se importi una metrica Vendita offline e la associ alle dimensioni dati *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
->[!NOTE]
->
->È possibile importare metriche Totale che non possono essere suddivise per alcuna dimensione dati.
+> [!NOTE] È possibile importare metriche Totale che non possono essere suddivise per alcuna dimensione dati.
 
 Dopo aver definito le dimensioni dati da utilizzare con un'origine dati, integra i dati delle dimensioni nei rapporti di marketing mappandoli a una variabile. Usa i rapporti standard (ad esempio, Prodotto, Codice di tracciamento, Cerca parola chiave) o le variabili Traffico conversione (eVars).
 
