@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: Origini dati
 title: Integrazione transazione e cliente
 topic: Sviluppatore e implementazione
-uuid: 71 f 73 a 47-3436-4314-a 182-36 de 4 bd 935 ba
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Integrazione transazione e cliente
 
-Origini dati offre due modi aggiuntivi per integrare eventi che si verificano offline nei dati online.
+Origini dati offre due modi aggiuntivi per integrare gli eventi che si verificano offline nei dati online.
 
 * [Abilita registrazione ID transazione](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Integrazione transazione](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Queste integrazioni associano i dati offline a una transazione online specifica 
 
 L'ID transazione può essere abilitato/disabilitato dalla UI senza coinvolgere ClientCare:
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Vai a **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Seleziona suite]di rapporti]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ The [!UICONTROL Manage] tab displays the status of Transaction ID Recording.
 
 Gli ID cliente vengono utilizzati per specificare l'attività offline di un cliente e collegarla all'attività online. Devono essere utilizzati quando:
 
-* Un ID cliente è inserito nella variabile *`visitorID`* variabile.
+* Un ID cliente è inserito nella variabile *`visitorID`* variable.
 * Non esiste un punto designato in cui l'attività del cliente passa offline, ad esempio un invio lead o acquisto.
 
-Per configurare questo tipo di origine dati, consulta [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+Per configurare questo tipo di origine dati, consulta [ID visitatore](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 
 ## Integrazione transazione {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
