@@ -1,42 +1,38 @@
 ---
-description: Tutti i rapporti segnalibri e i rapporti dashboard sono ora elencati come dimensioni nella procedura guidata Richiesta 1 e possono essere importati come richieste di generatore di report.
-seo-description: Tutti i rapporti segnalibri e i rapporti dashboard sono ora elencati come dimensioni nella procedura guidata Richiesta 1 e possono essere importati come richieste di generatore di report.
+description: Tutti i rapporti con segnalibro e dashboard sono ora elencati come dimensioni nel passaggio 1 della Richiesta guidata e possono essere importati come richieste del generatore di report.
+seo-description: Tutti i rapporti con segnalibro e dashboard sono ora elencati come dimensioni nel passaggio 1 della Richiesta guidata e possono essere importati come richieste del generatore di report.
 seo-title: Importare rapporti con segnalibri e minirapporti dashboard
 solution: Analytics
 title: Importare rapporti con segnalibri e minirapporti dashboard
 topic: Generatore di report
-uuid: 0 fdbdb 2 e -5 db 7-4 f 64-b 571-23482 ba 3606 d
+uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Importare rapporti con segnalibri e minirapporti dashboard
 
-Tutti i rapporti segnalibri e i rapporti dashboard sono ora elencati come dimensioni nella procedura guidata Richiesta 1 e possono essere importati come richieste di generatore di report.
+Tutti i rapporti con segnalibro e dashboard sono ora elencati come dimensioni nel passaggio 1 della Richiesta guidata e possono essere importati come richieste del generatore di report.
 
-Quando selezionate un rapporto con segnalibro, la richiesta guidata compila tutte le dimensioni e le metriche che definiscono questo rapporto contrassegnato. Anche l'intervallo di date, la granularità e il segmento selezionato vengono aggiornati in base al segnalibro selezionato.
+Quando si seleziona un rapporto con segnalibro, la Richiesta guidata compila tutte le dimensioni e le metriche che definiscono il rapporto con segnalibro. Anche l'intervallo di date, la granularità e il segmento selezionato vengono aggiornati in base al segnalibro selezionato.
 
-Ecco come la richiesta guidata 1 mostra una dashboard e i relativi reportlet:
+Questo è il modo in cui la Richiesta guidata Passaggio 1 mostra una dashboard e i relativi minirapporti:
 
 ![](assets/import_dashboard_reportlet.png)
 
-When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
+Quando si fa clic **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati del dashboard e/o del segnalibro esistenti vengono recuperati e incollati nel foglio di lavoro.
 
->[!NOTE]
->
->In Generatore di report, l'elenco di dashboard e segnalibri disponibili è limitato all'utente, ma anche a quelli che si applicano alla suite di rapporti selezionata al Passaggio 1 della procedura guidata. Per contro, in reporting e analisi di marketing, ti viene fornito l'accesso a tutti i segnalibri e i dashboard che ti sono accessibili, indipendentemente dalle suite di rapporti utilizzate da tali dashboard e segnalibri.
+> [!NOTE] In Generatore di report, l'elenco delle dashboard e dei segnalibri disponibili è limitato all'utente, ma anche a quelli applicabili alla suite di rapporti selezionata al passaggio 1 della procedura guidata. Per contro, in reporting e analisi di marketing, si dispone dell'accesso a tutti i segnalibri e le dashboard accessibili, indipendentemente dalle suite di rapporti utilizzate da tali dashboard e segnalibri.
 
->[!NOTE]
->
->Vengono importati solo i dati, quindi se il segnalibro contiene un grafico o se il minirapporto dashboard è costituito da un solo grafico, vengono importati solo i dati utilizzati per comporre il grafico.
+> [!NOTE] Vengono importati solo i dati, quindi se il segnalibro contiene un grafico o se il minirapporti del dashboard è composto solo da un grafico, vengono importati solo i dati utilizzati per compilare il grafico.
 
-Dopo aver creato una richiesta importando un minirapporto dashboard (o un segnalibro), la richiesta verrà associata alla dimensione principale del minirapporto (o segnalibro). Di conseguenza, se modificate la richiesta, la vista struttura non seleziona più il nodo di visualizzazione ad albero del minirapporto dashboard (o nodi segnalibro): ma ne seleziona la dimensione principale.
+Dopo aver creato una richiesta importando un reportlet del dashboard (o un segnalibro), la richiesta viene quindi associata alla dimensione primaria del report (o del segnalibro). Di conseguenza, se modificate la richiesta, la vista ad albero non seleziona più il nodo della visualizzazione ad albero del portlet del dashboard (o il nodo del segnalibro): seleziona invece la dimensione principale.
 
 Il bookmarklet importato imposta correttamente la suite di rapporti, il segmento selezionato, la dimensione e le metriche selezionate sugli stessi parametri esposti nel segnalibro Reporting e analisi.
 
 >[!IMPORTANT]
 >
->L'intervallo di date verrà impostato sullo stesso intervallo di date, ma come intervallo di date statico, anche se questo intervallo di date era un intervallo di date continuo nel segnalibro Reporting e analisi.
+>L'intervallo di date sarà impostato sullo stesso intervallo di date, ma come intervallo di date statico, anche se questo intervallo era un intervallo di date continuo nel segnalibro Reporting e analisi.
 
