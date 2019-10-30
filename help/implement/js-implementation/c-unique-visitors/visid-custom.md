@@ -1,31 +1,31 @@
 ---
-description: Puoi implementare un metodo personalizzato per identificare i visitatori impostando la variabile s. visitorid.
+description: Puoi implementare un metodo personalizzato per identificare i visitatori impostando la variabile s.visitorID.
 keywords: Implementazione di Analytics
-seo-description: Puoi implementare un metodo personalizzato per identificare i visitatori impostando la variabile s. visitorid.
+seo-description: Puoi implementare un metodo personalizzato per identificare i visitatori impostando la variabile s.visitorID.
 seo-title: ID visitatore personalizzato
 solution: Analytics
 title: ID visitatore personalizzato
 topic: Sviluppatore e implementazione
-uuid: 49881 e 27-0418-4 ecf-a 092-dcc 3 db 923 f 40
+uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # ID visitatore personalizzato
 
-Puoi implementare un metodo personalizzato per identificare i visitatori impostando la variabile s. visitorid.
+Puoi implementare un metodo personalizzato per identificare i visitatori impostando la variabile s.visitorID.
 
-Un ID visitatore personalizzato può essere utilizzato in siti in cui hai modo univoco per identificare i visitatori. Un esempio è rappresentato da un ID generato quando un utente accede al sito Web utilizzando un nome utente e una password.
+Un ID visitatore personalizzato può essere utilizzato sui siti in cui hai un modo univoco per identificare i visitatori. Un esempio è costituito da un ID generato quando un utente accede al sito Web utilizzando un nome utente e una password.
 
-Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
+Se hai la capacità di derivare e gestire i [!UICONTROL visitor IDs] tuoi utenti, puoi usare i seguenti metodi per impostare l’ID:
 
 | Metodo | Descrizione |
 |---|---|
-| [variabile s. visitorid](/help/implement/js-implementation/c-variables/page-variables.md) | Se javascript viene utilizzato nel browser o se utilizzi un'altra libreria appmeasurement, puoi impostare l'ID visitatore in una variabile di raccolta dati. |
-| Parametro stringa query nella richiesta immagine | This lets you pass the [!UICONTROL visitor ID] to Adobe via the [!UICONTROL vid query string] parameter on a hard-coded image request. |
-| API di inserimento dati | On devices using wireless protocols that don't accept JavaScript, you can send an XML post containing the `<visitorid/>` XML element to Adobe collection servers from your servers. |
-| Riscrittura URL e VISTA | Alcune architetture di distribuzione forniscono supporto per l'utilizzo di riscrittura URL per mantenere lo stato della sessione quando non è possibile impostare un cookie. In such cases, Adobe engineering services can implement a [!DNL VISTA] rule that would look for the session value in the URL of the page, then format and place into the [!UICONTROL visid] values. |
+| [s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) , variabile | Se JavaScript è utilizzato nel browser, o se utilizzi un'altra libreria AppMeasurement, puoi impostare l'ID visitatore in una variabile di raccolta dati. |
+| Parametro della stringa di query sulla richiesta di immagine | Questo consente di trasmettere il file [!UICONTROL visitor ID] ad Adobe tramite il [!UICONTROL vid query string] parametro su una richiesta di immagine hardcoded. |
+| API di inserimento dati | Sui dispositivi che utilizzano protocolli wireless che non accettano JavaScript, potete inviare un post XML contenente l'elemento `<visitorid/>` XML ai server di raccolta Adobe dai vostri server. |
+| Riscrittura URL e VISTA | Alcune architetture di distribuzione supportano l'utilizzo della riscrittura URL per mantenere lo stato di sessione quando non è possibile impostare un cookie. In tali casi, i servizi tecnici Adobe possono implementare una [!DNL VISTA] regola che cerca il valore della sessione nell’URL della pagina, quindi formattarlo e inserirlo nei [!UICONTROL visid] valori. |
 >[!CAUTION]
->**Gli ID visitatore personalizzati devono essere sufficientemente granulari/univoci**: Un'implementazione non valida degli ID visitatore personalizzati può portare a dati non corretti e a prestazioni di reporting scadenti. Se l'ID visitatore personalizzato non è univoco o granulare, oppure è impostato in modo errato su un valore predefinito comune, come la stringa "NULL" o "0", gli hit provenienti da molti visitatori diversi verranno visti da Adobe Analytics come singolo visitatore. Questa situazione genera dati non corretti, con i conteggi dei visitatori troppo bassi e i segmenti non funzionano correttamente per quel visitatore. Un ID visitatore personalizzato non sufficientemente dettagliato impedisce anche che i dati vengano distribuiti correttamente tra i nodi del cluster di report Analytics. In questa situazione, un nodo viene sovraccaricato e non è in grado di elaborare i rapporti in modo tempestivo. Alla fine, tutti i rapporti relativi alla suite di rapporti non vanno a buon fine. <br>Gli ID visitatore personalizzati implementati in modo errato potrebbero non influenzare immediatamente le prestazioni di reporting perché Analytics spesso può gestire più mesi di dati non bilanciati; Tuttavia, nel corso del tempo, un valore di ID visitatore personalizzato non implementato in modo scadente può diventare problematico per il momento in cui Analytics disabilita l'elaborazione per le suite di rapporti interessate.</br><br>Gli addetti all'implementazione devono seguire la linea guida per non ricevere mai un valore di ID visitatore personalizzato per più del 1% del traffico della suite di rapporti. Although the 1% guideline is sufficient for most report suites, the actual limit that might cause reporting performance to be impacted may be lower than 1% for very large report suites.</br>
+>**Gli ID visitatore personalizzati devono essere sufficientemente granulari/univoci**: Un'implementazione non valida degli ID visitatore personalizzati può portare a dati errati e a prestazioni di reporting scadenti. Se l’ID visitatore personalizzato non è univoco o granulare abbastanza, o se non è impostato in modo corretto su un valore predefinito comune come la stringa "NULL" o "0", gli hit di molti visitatori diversi saranno visualizzati da Adobe Analytics come un singolo visitatore. Questa situazione genera dati errati, con i conteggi dei visitatori troppo bassi e i segmenti che non funzionano correttamente per quel visitatore. Un ID visitatore personalizzato non sufficientemente granulare impedisce inoltre la corretta diffusione dei dati tra i nodi del cluster di reporting di Analytics. In questa situazione, un nodo diventa sovraccarico e non può elaborare le richieste di report in modo tempestivo. Alla fine tutti i report per la suite per report avranno esito negativo. <br>Gli ID visitatore personalizzati implementati male potrebbero non influenzare immediatamente le prestazioni di reporting, perché Analytics spesso può gestire diversi mesi di dati non bilanciati; tuttavia, nel tempo un ID visitatore personalizzato implementato in modo non corretto può diventare problematico al punto da richiedere ad Analytics di disabilitare l'elaborazione per le suite di rapporti interessate.</br><br>Gli implementatori devono seguire le linee guida secondo cui un singolo valore ID visitatore personalizzato non deve mai essere accreditato per più dell'1% del traffico della suite di rapporti. Anche se la linea guida dell'1% è sufficiente per la maggior parte delle suite di rapporti, il limite effettivo che potrebbe causare l'impatto delle prestazioni di reporting potrebbe essere inferiore all'1% per le suite di rapporti molto grandi.</br>
