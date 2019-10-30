@@ -1,13 +1,13 @@
 ---
 description: Potete attivare un feed in pausa o inattivo.
-keywords: Feed dati; feed; activate
+keywords: Feed dati;feed;activate
 seo-description: Potete attivare un feed in pausa o inattivo.
 seo-title: Attivare un feed
 solution: Analytics
 title: Attivare un feed
-uuid: f 7 bd 977 e -3004-4134-a 1 fb -07 f 1 f 7 c 516 ea
+uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Potete attivare un feed in pausa o inattivo.
 
-L'attivazione di un feed riavvia l'elaborazione dal momento in cui è stata messa in pausa. Ad esempio, se un feed giornaliero è stato messo in pausa per 20 giorni, riprende la consegna dei feed da 20 giorni avanti e indietro.
+L'attivazione di un feed riavvia l'elaborazione dal momento in cui è stato messo in pausa. Ad esempio, se un feed giornaliero è stato messo in pausa per 20 giorni, riprende a distribuire i feed da 20 giorni fa e in avanti.
 
-1. Selezionare uno o più feed in pausa o inattivi.
+1. Selezionate uno o più feed in pausa o inattivi.
 1. Fai clic su **[!UICONTROL Activate]**.
