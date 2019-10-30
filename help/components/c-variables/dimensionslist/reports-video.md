@@ -1,24 +1,24 @@
 ---
-description: Visualizza informazioni sulle statistiche di accesso online online. I rapporti mostrano i dati sui video e altri accessi multimediali.
-seo-description: Visualizza informazioni sulle statistiche di accesso online online. I rapporti mostrano i dati sui video e altri accessi multimediali.
+description: Visualizza informazioni sulle statistiche di accesso ai supporti online. I rapporti visualizzano i dati su video e altri supporti di accesso.
+seo-description: Visualizza informazioni sulle statistiche di accesso ai supporti online. I rapporti visualizzano i dati su video e altri supporti di accesso.
 seo-title: Video
 solution: Analytics
 title: Video
 topic: Rapporti
-uuid: d 14 c 4451-2543-414 e-a 582-001 dce 001 f 5 f
+uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Video
 
-Visualizza informazioni sulle statistiche di accesso online online. I rapporti mostrano i dati sui video e altri accessi multimediali.
+Visualizza informazioni sulle statistiche di accesso ai supporti online. I rapporti visualizzano i dati su video e altri supporti di accesso.
 
 ## Video {#topic_1D37A51371C74BC3A24996263C38F8E5}
 
-Visualizza informazioni sulle statistiche di accesso online online. I rapporti mostrano i dati sui video e altri accessi multimediali.
+Visualizza informazioni sulle statistiche di accesso ai supporti online. I rapporti visualizzano i dati su video e altri supporti di accesso.
 
 <table id="table_A032C55365C34F808764965ADF62F81F"> 
  <thead> 
@@ -30,21 +30,21 @@ Visualizza informazioni sulle statistiche di accesso online online. I rapporti m
  <tbody> 
   <tr> 
    <td colname="col1"> Video introduttivo </td> 
-   <td colname="col2"> <p> Visualizza diverse misure aggregate per monitorare rapidamente il video in modo che venga eseguito come previsto. I grafici consentono di identificare i video con visualizzazioni insolitamente elevate, percentuali di completamento o tempo visualizzato. L'elenco Primi 100 video consente di tenere traccia rapidamente dei video più visualizzati sul sito. </p> </td> 
+   <td colname="col2"> <p> Visualizza diverse misurazioni aggregate per monitorare rapidamente le prestazioni del video come previsto. I grafici consentono di identificare i video con viste insolitamente elevate, tassi di completamento o tempo visualizzato. L'elenco dei 100 video principali consente di tenere traccia rapidamente dei primi video visualizzati sul sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Video </td> 
-   <td colname="col2"> <p> Visualizza le metriche comuni per visualizzare il comportamento dei singoli video sul sito. </p> </td> 
+   <td colname="col2"> <p> Visualizza metriche comuni per vedere le prestazioni dei singoli video sul sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dettagli video </td> 
-   <td colname="col2"> <p> Visualizza informazioni dettagliate sulle visualizzazioni dei segmenti video, sul completamento medio e sulla riduzione per un singolo video. </p> </td> 
+   <td colname="col2"> <p> Visualizza informazioni dettagliate sulle visualizzazioni del segmento video, sul completamento medio e sull’abbandono per un singolo video. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Eventi video e variabili </td> 
-   <td colname="col2"> <p> Ulteriori metriche video includono percorsi video, visualizzazioni di segmento e altre variabili personalizzate associate a video. These metrics are viewable in <span class="uicontrol"> Video</span> &gt; <span class="uicontrol"> Additional Video Metrics</span>. </p> </td> 
+   <td colname="col2"> <p> Altre metriche video includono percorsi video, visualizzazioni di segmenti e altre variabili personalizzate associate al video. Queste metriche sono disponibili in <span class="uicontrol"> Video</span> &gt; <span class="uicontrol"> Metriche</span>video aggiuntive. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+Consultate [Misurazione di audio e video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
