@@ -1,22 +1,22 @@
 ---
-description: La variabile pagename viene utilizzata per identificare ogni pagina tracciata sul sito Web.
+description: La variabile pageName viene utilizzata per identificare ogni pagina tracciata sul sito Web.
 keywords: Implementazione di Analytics
-seo-description: La variabile pagename viene utilizzata per identificare ogni pagina tracciata sul sito Web.
+seo-description: La variabile pageName viene utilizzata per identificare ogni pagina tracciata sul sito Web.
 seo-title: Denominazione delle pagine
 solution: Analytics
 title: Denominazione delle pagine
 topic: Sviluppatore e implementazione
-uuid: b 4438314-eb 45-4009-aa 66-f 062701 ea 07 c
+uuid: b4438314-eb45-4009-aa66-f062701ea07c
 translation-type: tm+mt
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Denominazione delle pagine
 
-La variabile pagename viene utilizzata per identificare ogni pagina tracciata sul sito Web.
+La variabile pageName viene utilizzata per identificare ogni pagina tracciata sul sito Web.
 
-If the *`pageName`* variable is not populated with a defined value (such as Home), Analytics uses the URL of the page. Poiché il nome della pagina è centrale per i rapporti, assicurati che tutti i soggetti della tua organizzazione siano d'accordo su una strategia prima dell'implementazione.
+Se la *`pageName`* variabile non viene compilata con un valore definito (come Home), Analytics utilizza l’URL della pagina. Poiché il nome della pagina è fondamentale per i rapporti, accertati che tutte le parti dell’organizzazione concordino su una strategia prima di implementarla.
 
-A seconda del sistema di gestione dei contenuti utilizzato dal sito, è utile aggiungere elementi di contenuto al sistema da utilizzare per comporre le variabili Analytics. Molte aziende ritengono che la maggior parte delle variabili Analytics possa essere compilata da elementi esistenti di gestione dei contenuti.
+A seconda del sistema di gestione del contenuto utilizzato dal sito, è utile aggiungere elementi di contenuto al sistema che possono essere utilizzati per compilare le variabili di Analytics. Molte aziende rilevano che la maggior parte delle variabili Analytics può essere compilata a partire da elementi di gestione del contenuto esistenti.
