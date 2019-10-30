@@ -1,44 +1,44 @@
 ---
-description: 'Vi aiuta a rispondere alla domanda: «Dopo aver fatto clic sul mio sito da una campagna, l''utente dovrà passare al sito?»'
+description: Consente di rispondere alla domanda "Dopo che un utente fa clic sul mio sito da una campagna, dove si trova sul sito?"
 keywords: Implementazione di Analytics
-seo-description: 'Vi aiuta a rispondere alla domanda: «Dopo aver fatto clic sul mio sito da una campagna, l''utente dovrà passare al sito?»'
+seo-description: Consente di rispondere alla domanda "Dopo che un utente fa clic sul mio sito da una campagna, dove si trova sul sito?"
 seo-title: Percorsi per campagna o codice di tracciamento
 solution: Analytics
 title: Percorsi per campagna o codice di tracciamento
 topic: Sviluppatore e implementazione
-uuid: eb 6 e 3484-1 b 40-4 ec 6-8017-ac 1003 cdf 636
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Percorsi per campagna o codice di tracciamento
 
-Vi aiuta a rispondere alla domanda: «Dopo aver fatto clic sul mio sito da una campagna, l'utente dovrà passare al sito?»
+Consente di rispondere alla domanda "Dopo che un utente fa clic sul mio sito da una campagna, dove si trova sul sito?"
 
-To answer this question, you need to set aside an [!UICONTROL sprop] to be used for this report. È quindi necessario strutturare i dati affinché siano inseriti nel prop in modo che sia sensato quando è abilitato il percorso.
+Per rispondere a questa domanda, è necessario mettere da parte un [!UICONTROL sprop] da utilizzare per questo rapporto. È quindi necessario strutturare i dati per popolare il prop in modo che abbia senso quando il percorso è abilitato.
 
-For this example, you are going to use [!UICONTROL prop1] as your campaign pathing prop. Now you want to populate this [!UICONTROL sprop] with the same value you put in the [!UICONTROL page name] variable. Vedi di seguito:
+Per questo esempio, utilizzerete [!UICONTROL prop1] come proprietà di percorso della campagna. Ora si desidera compilare questo [!UICONTROL sprop] con lo stesso valore immesso nella [!UICONTROL page name] variabile. Vedere di seguito:
 
 ```js
 s.prop1=s.pageName;
 ```
 
-Eseguite questa operazione su tutte le pagine, a meno che l'utente non abbia fatto clic su di essa. If they have clicked from a campaign and are on the landing page of the campaign, then you populate the prop with a concatenation of the campaign and the [!UICONTROL pagename]. Vedi di seguito:
+A meno che la persona non abbia fatto clic su una campagna, è necessario eseguire questa operazione su tutte le pagine. Se l’utente ha fatto clic su una campagna e si trova sulla pagina di destinazione della campagna, il prop viene compilato con una concatenazione della campagna e del [!UICONTROL pagename]. Vedere di seguito:
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
-Se la campagna su cui facevano clic era denominata "banner 1234" e la pagina su cui è stata rilasciata era denominata "Home Page", il valore in quel prop sarà "banner 1234: Home page. " On every subsequent page you put the [!UICONTROL pagename] in the prop as shown above.
+Se la campagna su cui hanno fatto clic era denominata "banner1234" e la pagina su cui è atterrata era denominata "Home Page", il valore in quella proprietà sarebbe "banner1234: Home Page." In ogni pagina successiva viene inserito il [!UICONTROL pagename] prop come mostrato sopra.
 
-Quando un utente fa clic su questa campagna e visualizza quattro pagine totali in quella visita, vengono visualizzati i seguenti valori nella sprop in questo ordine:
+Quando un utente fa clic su questa campagna e visualizza quattro pagine totali della visita, vengono visualizzati i seguenti valori nell’elenco a discesa nell’ordine seguente:
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
-With our data captured in [!UICONTROL prop1] in this way, with pathing enabled on this prop, you can now look at one of various pathing reports to understand how they path through the site after they click from a campaign.
+Con i nostri dati acquisiti in [!UICONTROL prop1] questo modo, con percorsi abilitati su questa proprietà, ora puoi guardare uno dei vari report di percorsi per capire come si muovono nel sito dopo aver fatto clic da una campagna.
 
-Potete specificare la pagina iniziale da cui avviare il rapporto sul percorso. In questo caso, avete selezionato «banner 1234: Home Page», perché desiderate sapere dove gli utenti hanno fatto clic dopo aver fatto clic sulla campagna «banner 1234». Questo rapporto è solo un esempio di numerosi rapporti sul percorso.
+È possibile specificare la pagina iniziale dalla quale avviare il rapporto sul percorso. In questo caso, avete selezionato "banner1234: Home Page", perché si desidera sapere dove sono finiti gli utenti dopo aver fatto clic sulla campagna "banner 1234". Questo rapporto è solo un esempio di uno dei molti rapporti sui percorsi.
