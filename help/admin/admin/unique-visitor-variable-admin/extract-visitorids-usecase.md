@@ -1,29 +1,29 @@
 ---
-description: Data Warehouse fornisce una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere tali informazioni, l'esempio seguente è una scelta rapida per generare una richiesta Data Warehouse.
-seo-description: Data Warehouse fornisce una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere tali informazioni, l'esempio seguente è una scelta rapida per generare una richiesta Data Warehouse.
-seo-title: Caso d'uso - Estrazione degli ID visitatore
+description: Data Warehouse offre una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID di cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l'esempio seguente è un collegamento per la generazione di una richiesta Data Warehouse.
+seo-description: Data Warehouse offre una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID di cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l'esempio seguente è un collegamento per la generazione di una richiesta Data Warehouse.
+seo-title: 'Caso di utilizzo: estrazione degli ID visitatore'
 solution: Analytics
-title: Caso d'uso - Estrazione degli ID visitatore
+title: 'Caso di utilizzo: estrazione degli ID visitatore'
 topic: Strumenti di amministrazione
-uuid: ed 228334-619 c -43 d 7-b 781-a 18 af 73 b 00 bb
+uuid: ed228334-619c-43d7-b781-a18af73b00bb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Caso d'uso - Estrazione degli ID visitatore
+# Caso di utilizzo: estrazione degli ID visitatore
 
-Data Warehouse fornisce una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere tali informazioni, l'esempio seguente è una scelta rapida per generare una richiesta Data Warehouse.
+Data Warehouse offre una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID di cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l'esempio seguente è un collegamento per la generazione di una richiesta Data Warehouse.
 
-Ad esempio, si supponga che la tua attività invia e-mail marketing a clienti e potenziali clienti. Each of these e-mail recipients has a unique ID in your e-mail system (such as *`EMAIL Contact ID`*). Configurate le e-mail in modo che, quando i contatti ricevono un messaggio e-mail e fate clic su uno dei collegamenti, il visitatore arrivi al vostro sito Web con un ID campagna e un ID contatto univoco e-mail. Ad esempio, il collegamento e-mail può risolvere:
+Ad esempio, supponiamo che la tua azienda invii e-mail di marketing a clienti e potenziali clienti. Ciascun destinatario ha un ID univoco nel sistema e-mail (ad esempio *`EMAIL Contact ID`*). Le e-mail vengono configurate in modo che quando i contatti ricevono un messaggio e-mail e fanno clic su uno dei relativi collegamenti, il visitatore arrivi sul sito Web con un ID campagna e un ID contatto e-mail univoco. Ad esempio, il collegamento e-mail potrebbe essere:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158
 ```
 
-L'impostazione delle variabili di conversione (evars) consente di vedere il modo in cui ogni e-mail viene eseguita (tramite l'ID della campagna) e la frequenza con cui ogni destinatario e-mail ha visitato il sito (tramite l'ID contatto e-mail).
+L’impostazione di queste variabili di conversione (eVar) consente di visualizzare le prestazioni di ogni e-mail (tramite l’ID della campagna) e la frequenza con cui ciascun destinatario e-mail ha visitato il sito (tramite l’ID del contatto e-mail).
 
-Immagina di acquisire questi ID. La maggior parte degli esperti di marketing desiderano segmentare il comportamento del sito Web e quindi verificare se possono reimmettere il mercato a coloro che soddisfano determinati criteri. Ad esempio, potrebbe essere necessario inviare un messaggio e-mail di ricommercializzazione a tutti i destinatari che hanno inviato il messaggio e-mail dal sito e che hanno visualizzato (o completato) un modulo Web. A tal fine, è possibile identificare gli ID contatto e-mail di coloro che hanno completato il modulo specifico.
+Supponete che stiate acquisendo questi ID. La maggior parte degli esperti di marketing desidera segmentare il proprio comportamento nei siti Web e quindi vedere se possono rivendere il mercato a coloro che soddisfano determinati criteri. Ad esempio, potrebbe essere utile inviare un'e-mail di ricommercializzazione a tutti i destinatari di posta elettronica che sono venuti sul sito dall'e-mail e hanno visualizzato (o completato) un modulo del sito Web. A tal fine, è possibile identificare gli ID di contatto e-mail di coloro che compilano il modulo specifico.
 
-Un modo per farlo consiste nell'utilizzare un report della sottorelazione conversione per suddividere il valore evar di ID modulo tramite l'evar ID contatto e-mail. Tuttavia, per farlo è disponibile una funzione già creata con Data Warehouse. Questa funzione consente di sapere quale evar memorizza gli ID utente univoci (ID contatto e-mail in questo caso) e ti consente di estrarre facilmente tali ID tramite data warehouse. Utilizzando questa funzione, puoi creare automaticamente una richiesta data warehouse che estrae gli ID visitatore unici di interesse.
+Un modo per farlo è utilizzare un rapporto Conversione Subrelation per suddividere il valore eVar ID modulo tramite eVar ID contatto eMAIL. Tuttavia, è disponibile una funzione precostruita per farlo utilizzando Data Warehouse. Questa funzione consente di individuare l'eVar che memorizza gli ID utente univoci (in questo caso l'ID contatto e-mail) e di estrarre facilmente tali ID utilizzando il data warehouse. Utilizzando questa funzione, puoi creare automaticamente una richiesta data warehouse che richiama gli ID visitatore univoci per i quali sei interessato.
