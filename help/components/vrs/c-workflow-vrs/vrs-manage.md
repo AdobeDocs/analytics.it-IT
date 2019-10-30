@@ -1,37 +1,35 @@
 ---
-description: La suite di rapporti Suite virtuale consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
+description: Virtual Report Suite Manager (Gestione suite di rapporti virtuali) consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
 keywords: Suite di rapporti virtuali
-seo-description: La suite di rapporti Suite virtuale consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
+seo-description: Virtual Report Suite Manager (Gestione suite di rapporti virtuali) consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
 seo-title: Gestione delle suite di rapporti virtuali
 solution: Analytics
 title: Gestione delle suite di rapporti virtuali
-topic: Reports & Analytics
-uuid: ce 683 c 01-2 d 7 d -4 f 2 a -98 db -946 f 68 eda 99 b
+topic: Reports and Analytics
+uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Gestione delle suite di rapporti virtuali
 
-La suite di rapporti Suite virtuale consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
+Virtual Report Suite Manager (Gestione suite di rapporti virtuali) consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**
 
 ![](assets/vrs-manage.png)
 
->[!NOTE]
->
->Nella suite di rapporti virtuali, puoi vedere solo le tue suite di rapporti virtuali. You have to click **[!UICONTROL Show All]** to see everyone else’s.
+> [!NOTE] In Virtual Report Suite Manager (Gestione suite di rapporti virtuali) puoi visualizzare solo le suite di rapporti virtuali. Devi cliccare **[!UICONTROL Show All]** per vedere quello di tutti gli altri.
 
 | Attività | Descrizione |
 |--- |--- |
-| Aggiungi | Ti permette di passare al generatore di suite di rapporti virtuali dove puoi creare nuove suite di rapporti virtuali. |
-| Tag | Tutti gli utenti possono creare tag per segmenti e applicare uno o più tag a un segmento. Tuttavia, potete visualizzare i tag solo per i segmenti di cui disponete. Che tipi di tag creare? Di seguito sono riportati alcuni suggerimenti per i tag utili:<ul><li>Tag basati sui nomi dei team, come Social Marketing, Mobile Marketing</li><li>Tag di progetto (tag di analisi), ad esempio Analisi delle voci</li><li>Tag categoria: Uomo; geoy</li><li>Tag Workflow: Cura per (una specifica unità aziendale); Approvato</li></ul> |
-| Elimina | Se eliminate una suite di rapporti virtuale, i report pianificati e le dashboard che hanno questa suite di rapporti virtuale continua a funzionare normalmente. Il rapporto o il dashboard continua a utilizzare la suite di rapporti virtuale eliminata finché non salvate nuovamente il rapporto pianificato. I rapporti pianificati non vengono aggiornati quando si modifica una suite di rapporti virtuali con lo stesso nome.<br>Ad esempio: Supponiamo di disporre di due suite di rapporti virtuali con lo stesso nome e diverse suite di rapporti principali:<br>Hai un segnalibro che fa riferimento alla suite di rapporti virtuali per la suite di rapporti principale. Quindi, elimina la suite di rapporti virtuali perché si tratta di un duplicato. Il segnalibro continua a essere eseguito, facendo riferimento alla definizione della VRS eliminata. Se modificate la definizione per la restante VRS, la VRS applicata al segnalibro non cambia. Utilizza la vecchia definizione. Per risolvere questo problema, aggiornare il segnalibro per fare riferimento alla nuova definizione. Se non sei sicuro se un segnalibro, un dashboard o un rapporto pianificato utilizza una VRS eliminata, potresti modificare il nome della VRS rimanenti in modo da chiarire se il segnalibro utilizza la VRS rimanente. |
-| Rinomina | Ogni volta che viene visualizzata la suite di rapporti virtuali, come nel selettore suite di rapporti, viene visualizzato il nuovo nome. |
-| Approvare/annullare l'approvazione | Approva suite di rapporti virtuali per renderle «ufficiali» o «canonical». Potete invertire il processo annullando l'approvazione. |
-| Copia | Crea una copia distinta con il nuovo ID suite di rapporti, ma con lo stesso nome e la stessa definizione. |
-| Export to CSV (Esporta in CSV) | Esporta la definizione della suite di rapporti virtuali in un file. csv. |
-| Filtro | Filtrare per tag, suite di rapporti principali, proprietari e altri filtri (Mostra tutto, Personale, Preferiti e Approvato). |
+| Aggiungi | Consente di accedere al generatore di suite di rapporti virtuali, dove è possibile creare nuove suite di rapporti virtuali. |
+| Tag | Tutti gli utenti possono creare tag per segmenti e applicare uno o più tag a un segmento. Tuttavia, potete visualizzare i tag solo per i segmenti di proprietà. Che tipo di tag creare? Di seguito sono riportati alcuni suggerimenti per tag utili:<ul><li>Tag basati sui nomi dei team, come Social Marketing e Mobile Marketing</li><li>Tag del progetto (tag di analisi), ad esempio Analisi della pagina di partecipazione</li><li>Tag categoria: Uomo; geografia</li><li>Tag flusso di lavoro: Cura per (una specifica unità operativa);Approvato</li></ul> |
+| Elimina | Se elimini una suite di rapporti virtuale, i rapporti pianificati e le dashboard con questa suite di rapporti virtuali continuano a funzionare normalmente. Il rapporto o il dashboard continua a utilizzare la suite di rapporti virtuali eliminata fino a quando non si salva nuovamente il rapporto pianificato.  I rapporti pianificati non vengono aggiornati quando si modifica una suite di rapporti virtuale con lo stesso nome.<br>Ad esempio: Supponiamo di avere due suite di rapporti virtuali con lo stesso nome e diverse suite di rapporti padre:<br>si dispone di un segnalibro che fa riferimento alla suite di rapporti virtuale per la suite di rapporti principale. Quindi si elimina la suite di rapporti virtuali perché è un duplicato. Il segnalibro continua a essere eseguito, facendo riferimento alla definizione della VRS eliminata. Se si modifica la definizione della VRS rimanente, la VRS applicata al segnalibro non viene modificata. Usa la vecchia definizione. Per risolvere il problema, aggiornare il segnalibro in modo che faccia riferimento alla nuova definizione. Se non si è certi che un segnalibro, una dashboard o un rapporto pianificato utilizzi una VRS eliminata, è possibile modificare il nome della VRS rimanente in modo che sia più chiaro se il segnalibro utilizza la VRS rimanente. |
+| Rinomina | Ovunque venga visualizzata la suite di rapporti virtuale, come nel selettore della suite di rapporti, viene visualizzato il nuovo nome. |
+| Approva/Annulla approvazione | Approvare le suite di rapporti virtuali per renderle "ufficiali" o "canoniche". È possibile annullare il processo annullando l'approvazione. |
+| Copia | Crea una copia distinta con il proprio nuovo ID suite di rapporti, ma con lo stesso nome e definizione. |
+| Export to CSV (Esporta in CSV) | Esporta la definizione della suite di rapporti virtuale in un file .csv. |
+| Filtro | Filtrare per tag, suite di rapporti principale, proprietari e altri filtri (Mostra tutto, Personale, Preferiti e Approvato). |
