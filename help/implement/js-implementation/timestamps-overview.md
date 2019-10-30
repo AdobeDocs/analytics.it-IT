@@ -8,7 +8,7 @@ title: Utilizzo dei timestamp opzionali
 topic: Sviluppatore e implementazione
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Marca temporale opzionale è l'impostazione predefinita per tutte le nuove suite
 * Inviate dati con marca temporale da un app per dispositivo mobile a una suite per report globale.
 * Aggiornate le app per utilizzare le marche temporali senza dover creare una nuova suite di rapporti.
 
->[!NOTE]
->
->Marca temporale opzionale è l'impostazione predefinita per tutte le nuove suite per report generate da un modello Le nuove suite di rapporti copiate da una suite esistente erediteranno le impostazioni dall'originale.
+> [!NOTE]Marca temporale opzionale è l'impostazione predefinita per tutte le nuove suite per report generate da un modello Le nuove suite di rapporti copiate da una suite esistente erediteranno le impostazioni dall'originale.
 
 Per ulteriori informazioni sulla configurazione, consultate [Marca temporale opzionale](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) .
 
