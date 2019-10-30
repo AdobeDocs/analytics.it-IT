@@ -1,19 +1,19 @@
 ---
-description: Mostra il numero di giorni passati tra la prima visita del cliente e il momento in cui effettuano un acquisto.
-seo-description: Mostra il numero di giorni passati tra la prima visita del cliente e il momento in cui effettuano un acquisto.
-seo-title: Giorni prima del primo acquisto
+description: Visualizza il numero di giorni trascorsi tra la prima visita dei clienti sul sito e la data in cui effettuano finalmente un acquisto.
+seo-description: Visualizza il numero di giorni trascorsi tra la prima visita dei clienti sul sito e la data in cui effettuano finalmente un acquisto.
+seo-title: Giorni precedenti al primo acquisto
 solution: Analytics
-title: Giorni prima del primo acquisto
+title: Giorni precedenti al primo acquisto
 topic: Rapporti
-uuid: 8 ceea 9 e 8-2 b 81-44 f 1-b 4 c 0-aa 6542 eeba 2 b
+uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Giorni prima del primo acquisto
+# Giorni precedenti al primo acquisto
 
-Mostra il numero di giorni passati tra la prima visita del cliente e il momento in cui effettuano un acquisto.
+Visualizza il numero di giorni trascorsi tra la prima visita dei clienti sul sito e la data in cui effettuano finalmente un acquisto.
 
-For example, if a visitor purchases one day after first visiting, then any visit or event will display on the *1 day* line item in the report, for the remainder of the visitor's cookie life.
+Ad esempio, se un visitatore acquista un giorno dopo la prima visita, qualsiasi visita o evento verrà visualizzato sulla riga *1 giorno* nel rapporto, per il resto della durata dei cookie del visitatore.
