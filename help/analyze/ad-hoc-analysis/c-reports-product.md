@@ -7,7 +7,7 @@ title: Rapporti sui prodotti
 topic: Analisi ad hoc
 uuid: e2a8814b-735d-4f63-97ee-af1aface4d75d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ c_reports_products_conv_funnel.xml
 
 Per aggiungere metriche ed eventi personalizzati da altri gruppi di reporting, fai clic su un **[!UICONTROL Selected Events]** collegamento nell'intestazione del rapporto.
 
-Poiché i periodi di tempo correnti non sono ancora completati quando si visualizzano i dati, questo rapporto può indicare una tendenza al ribasso dal periodo di tempo precedente a quello corrente. Ad esempio, oggi le visite possono essere minori rispetto a ieri, ma solo perché il resto del periodo di tempo non è ancora disponibile.
+Poiché i periodi di tempo correnti non sono ancora completati quando si visualizzano i dati, questo rapporto può indicare una tendenza al ribasso dal periodo di tempo precedente a quello corrente. Ad esempio, oggi le visite possono essere minori rispetto a ieri, ma solo perché il resto del periodo di tempo deve ancora verificarsi.
 
 ## Categories {#concept_3260EE45B2164E478E8A90E046D078AB}
 
