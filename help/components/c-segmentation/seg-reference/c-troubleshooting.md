@@ -3,47 +3,47 @@ description: nulle
 seo-description: nulle
 seo-title: Risoluzione dei problemi di segmentazione
 title: Risoluzione dei problemi di segmentazione
-uuid: 8476 d 617-4 b 44-4 ff 2-9 b 3 a -02685 f 666 afc
+uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
 translation-type: tm+mt
-source-git-commit: 50069fe860d58f04df7ffe63714afeef9d3d7a28
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Risoluzione dei problemi di segmentazione
 
-## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Errore: "Elementi non compatibili in questo segmento" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
-Questo errore si verifica quando si tenta di salvare un segmento nella cartella Data Warehouse in cui il segmento contiene elementi non compatibili con Data Warehouse. Per risolvere questo errore, effettuare una delle seguenti operazioni:
+Questo errore si verifica quando si tenta di salvare un segmento nella cartella Data Warehouse in cui il segmento contiene elementi non compatibili con Data Warehouse. Per risolvere questo errore, eseguire una delle due operazioni seguenti:
 
-* Salvare il segmento in un'altra cartella
-* Rimuovere o modificare le porzioni incompatibili del segmento.
+* Salva il segmento in un’altra cartella
+* Rimuovere o modificare le parti incompatibili del segmento.
 
-## Why does my segment return no data at all? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Perché il mio segmento non restituisce alcun dato? {#section_999749CBBE984142AEA49A6E68E6730A}
 
-Motivi possibili:
+Possibili motivi:
 
-* Nidificazione inversa: ad esempio, nidificazione di un contenitore Visitatore sotto un contenitore Visita.
+* Inverti nidificazione - ad esempio, nidificazione di un contenitore Visitatore sotto un contenitore Visita.
 * Il rapporto non supporta la segmentazione.
-* Non sono disponibili dati che corrispondono ai criteri di segmentazione.
+* Nessun dato corrispondente ai criteri di segmentazione.
 
-## Why can't I see the segment I created in the Segment Manager? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Perché non riesco a visualizzare il segmento creato in Segment Manager? {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
-Motivi possibili:
+Possibili motivi:
 
-* Alcune dimensioni sono disponibili solo in Data Warehouse e non in Gestione segmenti.
+* Alcune dimensioni sono disponibili solo in Data Warehouse e non in Segment Manager.
 * Il segmento non è compatibile con Reporting e analisi.
 * Il segmento viene controllato solo per una suite di rapporti specifica.
 * Un segmento condiviso potrebbe essere stato eliminato da un altro utente.
-* I segmenti non potevano essere caricati a causa di un centro dati o di un problema Cache browser.
+* Impossibile caricare i segmenti a causa di un problema del centro dati o della cache del browser.
 * Il segmento non è stato salvato.
-* L'indirizzo IP può essere bloccato a fine utente.
+* L'indirizzo IP può essere bloccato alla fine dell'utente.
 
-## Why does the Page Data shown after applying a segment seem incorrect? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Perché i dati pagina visualizzati dopo l’applicazione di un segmento sembrano errati? {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
-Motivi possibili:
+Possibili motivi:
 
-* Regole/operatori non sono corretti per il risultato richiesto.
-* Applicazione di contenitori non corretta al segmento.
-* Le variabili di traffico utilizzate per segmento non vengono impostate correttamente o sono scadute.
+* Regole/Operatori non corretti per il risultato richiesto.
+* Applicazione errata dei contenitori al segmento.
+* Le variabili di traffico utilizzate per segmentare non sono impostate correttamente o sono scadute.
 
