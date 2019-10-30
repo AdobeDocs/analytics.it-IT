@@ -1,20 +1,20 @@
 ---
-description: Data Warehouse ti consente di richiedere rapporti che mostrano relazioni avanzate sui dati da dati grezzi basati su tue domande univoche.
-keywords: ftp; sftp
-seo-description: Data Warehouse ti consente di richiedere rapporti che mostrano relazioni avanzate sui dati da dati grezzi basati su tue domande univoche.
-seo-title: Rapporti consegnati Data Warehouse
+description: Data Warehouse ti consente di richiedere rapporti che mostrano relazioni avanzate tra i dati da dati non elaborati in base alle tue domande univoche.
+keywords: ftp;sftp
+seo-description: Data Warehouse ti consente di richiedere rapporti che mostrano relazioni avanzate tra i dati da dati non elaborati in base alle tue domande univoche.
+seo-title: Report consegnati di Data Warehouse
 solution: Analytics
-title: Rapporti consegnati Data Warehouse
-uuid: 7 a 26 e 6 f 7-51 a 1-45 fb-b 53 e -8 c 49 c 4 f 84 aa 6
+title: Report consegnati di Data Warehouse
+uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Rapporti consegnati Data Warehouse
+# Report consegnati di Data Warehouse
 
-Data Warehouse ti consente di richiedere rapporti che mostrano relazioni avanzate sui dati da dati grezzi basati su tue domande univoche.
+Data Warehouse ti consente di richiedere rapporti che mostrano relazioni avanzate tra i dati da dati non elaborati in base alle tue domande univoche.
 
 FTP delivery, in this case, is available as a part of the [!UICONTROL Advanced Delivery Options] setup. Per utilizzare l'FTP hai bisogno di un account FTP interno o un account FTP Adobe. Adobe non configura automaticamente il tuo account FTP attraverso l'interfaccia data warehouse. La consegna FTP è solitamente immediata, ma dipende delle dimensioni del file e dal numero di report in elaborazione.
 
