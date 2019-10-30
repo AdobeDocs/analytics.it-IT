@@ -1,24 +1,24 @@
 ---
-description: Quando inserite valori in una variabile, vi sono alcune best practice da seguire.
+description: Quando si inseriscono valori in una variabile, è possibile seguire alcune best practice.
 keywords: Implementazione di Analytics
-seo-description: Quando inserite valori in una variabile, vi sono alcune best practice da seguire.
-seo-title: Uso delle virgolette
+seo-description: Quando si inseriscono valori in una variabile, è possibile seguire alcune best practice.
+seo-title: Utilizzo delle virgolette
 solution: Analytics
-subtopic: 'Risoluzione dei problemi   '
-title: Uso delle virgolette
+subtopic: Risoluzione dei problemi
+title: Utilizzo delle virgolette
 topic: Sviluppatore e implementazione
-uuid: 9 f 09 c 48 b -7 ae 5-441 e -8635-fd 6 bdc 2 e 94 c 7
+uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Uso delle virgolette
+# Utilizzo delle virgolette
 
-Quando inserite valori in una variabile, vi sono alcune best practice da seguire.
+Quando si inseriscono valori in una variabile, è possibile seguire alcune best practice.
 
-È possibile utilizzare virgolette singole o doppie. Se si utilizzano virgolette singole, utilizzare sempre le virgolette singole. Se utilizzate doppie virgolette, usate sempre doppie virgolette. Entrambi gli esempi di seguito sono corretti.
+Potete usare virgolette singole o doppie, assicurarvi di essere coerenti. Se utilizzate virgolette singole, utilizzate sempre virgolette singole. Se utilizzate virgolette doppie, utilizzate sempre le virgolette doppie. Entrambi gli esempi riportati di seguito sono corretti.
 
 ```js
 s.prop2='test' (single quotes)
@@ -28,13 +28,13 @@ s.prop2='test' (single quotes)
 s.prop2="test" (double quotes)
 ```
 
-Accertatevi che le virgolette intelligenti siano disattivate. Se si utilizzano virgolette singole e si dispone di un apostrofo nel valore della variabile, javascript interpreta l'apostrofo come una singola virgoletta. Ciò significa che è la fine della stringa. Prendi in considerazione l'esempio seguente:
+Accertatevi che le virgolette intelligenti siano disattivate. Se usate virgolette singole e disponete di un apostrofo nel valore della variabile, JavaScript interpreta l’apostrofo come virgolette singole. Ciò significa che è la fine della stringa. Prendi in considerazione l'esempio seguente:
 
 ```js
 s.pageName='John's Home Page'
 ```
 
-In questo caso, javascript interpreta l'apostrofo (anch'esso una virgoletta singola) in "John" come fine della stringa. Poiché «S Home Page» non ha alcun significato in javascript, causa un errore che impedisce l'esecuzione della richiesta. Uno dei seguenti esempi funziona:
+In questo caso, JavaScript interpreterebbe l'apostrofo (che è anche una citazione singola) in "John's" come la fine della stringa. Poiché la Home Page di ''s non ha alcun significato in JavaScript, causa un errore che impedisce il verificarsi della richiesta di immagine. Uno dei seguenti esempi funzionerebbe:
 
 ```js
 s.pageName='John\'s Home Page'
@@ -44,4 +44,4 @@ s.pageName='John\'s Home Page'
 s.pageName="John's Home Page"
 ```
 
-Nel primo esempio, potete uscire dall'apostrofo inserendo una barra rovesciata (\) immediatamente prima di essa. Questo indica a javascript che l'apostrofo non terminerà la stringa, ma fa parte di esso. La stringa termina quindi come previsto, alla singola virgoletta. Il secondo esempio utilizza due virgolette attorno all'intera stringa. In questo caso, una singola virgoletta non può indicare la fine della stringa. Lo stesso vale se una virgoletta fa parte della stringa. Un valore di s. pagename = "Team dice" We Win! " " sarebbe errato a causa dell'utilizzo di doppie virgolette all'interno della stringa e circostante. Questo sarebbe corretto se viene inserito come s. pagename = "Team dice\" We Win!\"".
+Nel primo esempio, potete evitare l'apostrofo inserendo una barra rovesciata (\) immediatamente prima. Questo indica a JavaScript che l'apostrofo non sta terminando la stringa, ma piuttosto ne fa parte. La stringa termina come previsto, alla chiusura della quotazione singola. Nel secondo esempio vengono utilizzate virgolette doppie intorno all'intera stringa. In questo caso, una citazione singola non può indicare la fine della stringa. Lo stesso vale se una doppia citazione fa parte della stringa. Un valore di s.pageName="Team dice "We Win!" non è corretto a causa dell'uso di virgolette doppie all'interno della stringa, oltre che per il suo contorno. Questo sarebbe corretto se fosse immesso come s.pageName="Team dice \"Abbiamo vinto!\"".
