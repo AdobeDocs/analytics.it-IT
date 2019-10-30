@@ -7,7 +7,7 @@ title: Panoramica della personalizzazione dei rapporti
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ Solo gli amministratori possono creare un rapporto personalizzato. Quando create
 **Creazione di un rapporto personalizzato**
 
 1. Eseguire un rapporto e configurarlo come necessario.
-1. Clic **[!UICONTROL More]** &gt; **[!UICONTROL Create Custom Report]**.
+1. Fai clic su **[!UICONTROL More]** &gt; **[!UICONTROL Create Custom Report]**.
 1. Denominate il rapporto, quindi fate clic su **[!UICONTROL Save.]**
 
    Assicurarsi di non duplicare un nome di rapporto esistente.
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 Non è possibile confrontare le date tra i report con tendenze.
 
->[!NOTE]
->
->Se desiderate eseguire un confronto delle date sulle metriche chiave in una dashboard, potete inserire i dati nel Generatore [di](https://marketing.adobe.com/resources/help/en_US/arb/) report utilizzando due richieste separate. Quindi si utilizzano formule personalizzate in Excel per analizzare la differenza tra le due.
+> [!NOTE] Se desiderate eseguire un confronto delle date sulle metriche chiave in una dashboard, potete inserire i dati nel Generatore [di](https://marketing.adobe.com/resources/help/en_US/arb/) report utilizzando due richieste separate. Quindi si utilizzano formule personalizzate in Excel per analizzare la differenza tra le due.
 
 Per confrontare le date tra i report classifica in Reporting e analisi:
 
