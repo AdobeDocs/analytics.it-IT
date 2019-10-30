@@ -1,22 +1,22 @@
 ---
-description: Scopri la nuova esperienza cliente per implementare l'implementazione di Adobe Analytics.
+description: Scopri la prima esperienza cliente per implementare l’implementazione di Adobe Analytics.
 keywords: Introduzione
-seo-description: Scopri la nuova esperienza cliente per implementare l'implementazione di Adobe Analytics.
-seo-title: Modalità modale semplificata
+seo-description: Scopri la prima esperienza cliente per implementare l’implementazione di Adobe Analytics.
+seo-title: Modalità di implementazione semplificata
 solution: Analytics
 subtopic: Analysis Workspace
-title: Modalità modale semplificata
-topic: Reports & Analytics
-uuid: 6 fad 2 c 1 f -476 c -4985-90 df -7 c 222 e 751 ddc
+title: Modalità di implementazione semplificata
+topic: Reports and Analytics
+uuid: 6fad2c1f-476c-4985-90df-7c222e751dc
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Modalità modale semplificata
+# Modalità di implementazione semplificata
 
-Scopri la nuova esperienza cliente per implementare l'implementazione di Adobe Analytics.
+Scopri la prima esperienza cliente per implementare l’implementazione di Adobe Analytics.
 
 <!-- 
 
@@ -24,30 +24,28 @@ Scopri la nuova esperienza cliente per implementare l'implementazione di Adobe A
 
  -->
 
-New users can quickly create your first [!DNL Analytics] report suite (data repository) using this *`Getting Started with Adobe Analytics`* setup modal. Then, you can deploy [!DNL Analytics] code using [!DNL Dynamic Tag Management].
+I nuovi utenti possono creare rapidamente la tua prima suite di [!DNL Analytics] rapporti (repository dei dati) utilizzando questa modalità di configurazione *`Getting Started with Adobe Analytics`* . Quindi, puoi distribuire [!DNL Analytics] il codice utilizzando [!DNL Dynamic Tag Management].
 
-[!DNL Dynamic Tag Management] consente di gestire l'implementazione di Adobe Analytics senza necessità di apportare ogni volta modifiche al sito. Se stai implementando un app Mobile, puoi ottenere la SDK di cui hai bisogno per iniziare a raccogliere dati importanti dalle tue app.
+[!DNL Dynamic Tag Management] consente di gestire l’implementazione di Adobe Analytics senza dover apportare ogni volta modifiche al sito. Se stai implementando un app Mobile, puoi ottenere la SDK di cui hai bisogno per iniziare a raccogliere dati importanti dalle tue app.
 
 Questa procedura ti consente di:
 
 * Creare rapidamente la tua prima [suite per report](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html).
-* Deploy [!DNL Analytics] and the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Distribuisci [!DNL Analytics] e il servizio [](https://marketing.adobe.com/resources/help/en_US/mcvid/)identità.
 
 * Eseguire report sui dati di base a livello di pagina.
 
->[!NOTE]
->
->Before you begin, verify that Analytics is [enabled in the Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) (the solution provisioning process). Se hai ricevuto un'email che ti invita a effettuare l'accesso in Analytics nella Dashboard di Enterprise, significa che hai completato questo prerequisito.
+> [!NOTE] Prima di iniziare, verifica che Analytics sia [attivato in Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) (il processo di provisioning della soluzione). Se hai ricevuto un'email che ti invita a effettuare l'accesso in Analytics nella Dashboard di Enterprise, significa che hai completato questo prerequisito.
 
 **Per eseguire la modalità di implementazione semplificata**
 
-1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
+1. Effettuate l'accesso a [!DNL Adobe Experience Cloud] ( [experience.adobe.com](https://experiencecloud.adobe.com)).
 
-   Quando accedi ad [!DNL Analytics], il sistema determina se disponi di una suite per report. If not, the [!UICONTROL Getting Started with Adobe Analytics] page displays.
+   Quando accedi ad [!DNL Analytics], il sistema determina se disponi di una suite per report. In caso contrario viene visualizzata la [!UICONTROL Getting Started with Adobe Analytics] pagina.
 
    ![](assets/analytics-implementation-rs-wizard.png)
 
-   Alternatively, you can run this setup in [!DNL Analytics] by clicking **[!UICONTROL Help]** &gt; **[!UICONTROL Welcome to Adobe Analytics]**.
+   In alternativa, puoi eseguire questa configurazione in [!DNL Analytics] facendo clic su **[!UICONTROL Help]** &gt; **[!UICONTROL Welcome to Adobe Analytics]**.
 
 1. Specifica le seguenti informazioni di base sulla tua attività:
 
@@ -106,7 +104,7 @@ Questa procedura ti consente di:
      <tbody> 
       <tr> 
        <td colname="col1"> <p>Distribuisci </p> </td> 
-       <td colname="col2"> <p> Lancia <span class="keyword">Gestione tag dinamica</span>, a cui puoi accedere per distribuire Analytics. This process automatically implements the <span class="filepath"> AppMeasurement.js</span> file and the Identity Service (<span class="filepath"> VisitorAPI.js</span>). </p> <p> <p>Important: In a new browser tab, a help page is displayed that walks you through <span class="keyword"> Adobe Analytics</span> deployment via Dynamic Tag Management. </p> </p> </td> 
+       <td colname="col2"> <p> Lancia <span class="keyword">Gestione tag dinamica</span>, a cui puoi accedere per distribuire Analytics. This process automatically implements the <span class="filepath"> AppMeasurement.js</span> file and the Identity Service (<span class="filepath"> VisitorAPI.js</span>). </p> <p> <p>Importante: In una nuova scheda del browser, viene visualizzata una pagina della guida che illustra la distribuzione di <span class="keyword"> Adobe Analytics</span> tramite Gestione tag dinamica. </p> </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Scarica </p> </td> 
@@ -117,7 +115,7 @@ Questa procedura ti consente di:
 
 1. Esegui un report.
 
-   Dopo aver distribuito lo strumento Analytics, puoi eseguire un report in Reporting e analisi per confermare che i dati affluiscono al tuo sito. (consulta [Accedete e navigate](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) per acquisire familiarità con l'interfaccia di Analytics.
+   Dopo aver distribuito lo strumento Analytics, puoi eseguire un report in Reporting e analisi per confermare che i dati affluiscono al tuo sito. (consulta Accedi e [naviga](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) per acquisire familiarità con l'interfaccia di Analytics.
 
    For example, a **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Real-Time]** lets you see immediate data.
 
