@@ -3,7 +3,7 @@ title: Casi di utilizzo del confronto dei segmenti
 description: Scopri i casi d’uso reali su come il pannello di confronto dei segmenti può essere utilizzato per acquisire informazioni approfondite sulla strategia di marketing.
 keywords: IQ segmento
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ Una grande azienda di servizi B2B desiderava capire il tipo di traffico che le p
 
 ## Caso di utilizzo 5: confrontare gli acquirenti Fitbit con tutti gli altri
 
-> *“Abbiamo scoperto che le persone che acquistano Fitbit avevano una probabilità 6 volte maggiore di ricevere il messaggio “non disponibile” rispetto agli altri, per questo abbiamo deciso di aumentare gli ordini di Fitbit evitando di esaurire i pezzi disponibili!”*
+> *"Abbiamo scoperto che le persone che acquistano Fitbit avevano 6 volte più probabilità di ricevere un messaggio "esaurito" rispetto a tutti gli altri, così abbiamo rapidamente ordinato più Fitbit ed evitato di esaurire le scorte!"*
 
 Un importante rivenditore online era interessato a come Fitbit, uno dei prodotti più ricercati per le vacanze, vendeva e cosa rendeva unici gli acquirenti Fitbit tra gli altri. Utilizzando il confronto dei segmenti, gli utenti che acquistano Fitbit hanno una probabilità 6 volte superiore di ricevere un messaggio "esaurito" rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing ha indirizzato questi visitatori ai loro negozi di mattoni mentre attendevano che il loro reparto acquisti ordinasse più Fitbit da spedire. Di conseguenza, il rivenditore ha evitato più messaggi "fuori borsa" e ha soddisfatto più della loro domanda di vacanza.
 
