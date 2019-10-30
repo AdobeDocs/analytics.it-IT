@@ -1,46 +1,46 @@
 ---
-description: Il rapporto Pagina di partecipazione mostra in percentuale e in base a visite totali le pagine sul sito per i primi visitatori visti dalle nuove visite.
-seo-description: Il rapporto Pagina di partecipazione mostra in percentuale e in base a visite totali le pagine sul sito per i primi visitatori visti dalle nuove visite.
-seo-title: Entrata ed uscita
+description: Il rapporto Pagina di partecipazione mostra, in percentuale e per totale, quali pagine del sito sono le prime viste da nuove visite.
+seo-description: Il rapporto Pagina di partecipazione mostra, in percentuale e per totale, quali pagine del sito sono le prime viste da nuove visite.
+seo-title: Entrate e uscite
 solution: Analytics
-title: Entrata ed uscita
+title: Entrate e uscite
 topic: Rapporti
-uuid: 756 de 55 b -136 b -427 b-a 80 c-f 822260131 b 1
+uuid: 756de55b-136b-427b-a80c-f82260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Entrata ed uscita
+# Entrate e uscite
 
 >[!NOTE]
->Per gli hit con più valori nella variabile prodotti, le Voci e le uscite si applicano a tutti i valori di prodotto in un hit anziché solo alla prima.
+>Per gli hit con più valori nella variabile "products", le voci e le uscite si applicano a tutti i valori di prodotto in un hit anziché solo al primo.
 
-Il rapporto Pagina di partecipazione mostra in percentuale e in base a visite totali le pagine sul sito per i primi visitatori visti dalle nuove visite.
+Il rapporto Pagina di partecipazione mostra, in percentuale e per totale, quali pagine del sito sono le prime viste da nuove visite.
 
-Potete visualizzare:
+È possibile visualizzare:
 
-* **Pagine di immissione** (o sezioni): Visualizza, per percentuale e per visita totale le pagine sul sito sono le prime pagine visualizzate da una nuova visita. Potete usare questo rapporto per identificare quali delle pagine Web sono i punti di ingresso più frequenti, ottimizzare i punti di ingresso principali sul sito e indirizzare il traffico verso i messaggi chiave.
+* **Pagine** entrata (o sezioni): Visualizza, in percentuale e per visite totali, le pagine del sito sono le prime pagine visualizzate da una nuova visita. È possibile utilizzare questo rapporto per identificare quali pagine Web sono i punti di ingresso più frequenti, ottimizzare i punti di ingresso principali sul sito e indirizzare il traffico di immissione ai messaggi chiave.
 
-   A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Entry]** report, sort by it, and see which entry pages drive the most page views.
+   Un modo utile per utilizzare la metrica Visualizzazione pagina è eseguire un rapporto **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Entry]** , ordinarlo in base ad esso e vedere quali pagine di immissione generano il maggior numero di visualizzazioni di pagina.
 
-* **Pagine di immissione originali**: Mostra la prima pagina visualizzata per i visitatori della prima volta sul sito. Ogni utente viene conteggiato solo una volta, a meno che non eliminino i cookie o non venga tracciato con i cookie.
-* **Visite singole pagina**: Mostra le pagine più spesso sia di entrata che di uscita per le sessioni di esplorazione dei visitatori.
-* **Esci da pagine**: Visualizza, per percentuale e per visite totali, le pagine sul sito che erano le ultime pagine visualizzate prima di uscire dal sito. Le pagine di uscita presentano un ambito delle suddivisioni visite, che significa che restano in tutti gli hit per una visita.
+* **Pagine** di immissione originali: Mostra la prima pagina visualizzata per i nuovi visitatori del sito. Ogni utente viene conteggiato solo una volta, a meno che non elimini i cookie o non venga monitorato con i cookie.
+* **Visite** a pagina singola: Mostra le pagine che più spesso sono entrambe le pagine di entrata e uscita per le sessioni di navigazione dei visitatori.
+* **Esci da pagine**: Visualizza, in percentuale e in totale, le pagine del sito che erano le ultime pagine visualizzate dai visitatori prima di lasciare il sito. Le pagine di uscita dispongono di un ambito di suddivisione per le visite, ossia persistono in tutti gli hit per una visita.
 
-**Metriche in un rapporto sulle pagine di immissione**
+**Metriche su un rapporto Pagine di immissione**
 
-* **Voci**: come istanze o occorrenze, quante volte la pagina specificata è la pagina di immissione per una visita.
-* **Visite**: quante visite erano presenti nella pagina di immissione, questa metrica deve corrispondere alle voci.
-* **Uscite**: Numero di volte in cui si è verificato un'uscita nella pagina di immissione specificata. Se desiderate vedere quante volte la pagina di immissione era anche la pagina di uscita, utilizzate la metrica Bounce (Rimbalzi) invece di uscire.
+* **Voci**: come istanze o occorrenze, quante volte la pagina specificata corrisponde alla pagina di immissione di una visita.
+* **Visite**: quante visite è stata questa pagina la pagina di entrata, questa metrica dovrebbe essere uguale voci.
+* **Uscite**: Numero di volte in cui si è verificata un'uscita, la pagina Entry (Entrata) era quella specificata. Se desiderate visualizzare il numero di volte in cui la pagina di immissione era anche la pagina di uscita, utilizzate la metrica Blocchi invece di uscire.
 
-**Segmentazione in un rapporto sulle pagine di immissione**
+**Segmentazione in un rapporto Pagine di immissione**
 
-Running an [!UICONTROL Entry Pages Report] only reports on entry pages, even if you apply segment to a non-entry page.
+Eseguire un [!UICONTROL Entry Pages Report] solo report sulle pagine di immissione, anche se si applica segmento a una pagina non di immissione.
 
-Ad esempio, si supponga che una sequenza visita sia la seguente:
+Ad esempio, si supponga che una sequenza di visite sia la seguente:
 
 [!DNL Page A] &gt; [!DNL Page B] &gt; [!DNL Page C]
 
-If Page B and Page C are used in a segment, only Page A is reported in an [!UICONTROL Entry Pages Report], because Page A is the entry page.
+Se in un segmento vengono utilizzate le pagine B e C, in un segmento viene segnalata solo la pagina A, in quanto la pagina A è la pagina iniziale. [!UICONTROL Entry Pages Report]
