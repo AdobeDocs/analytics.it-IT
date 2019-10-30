@@ -5,7 +5,7 @@ seo-title: Codice plug-in di Analytics
 title: Codice plug-in di Analytics
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,6 +28,4 @@ Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia 
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE]
->
->Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Analytics, sostituitele semplicemente con quelle disponibili.
+> [!NOTE] Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Analytics, sostituitele semplicemente con quelle disponibili.
