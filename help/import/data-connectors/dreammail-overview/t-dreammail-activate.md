@@ -5,7 +5,7 @@ seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'
 | Campo | Descrizione |
 |--- |--- |
 | Suite di rapporti | La suite di rapporti che riceve i dati da questa integrazione. |
-| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'elenco Integrazione attiva della suite di rapporti. |
+| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'Elenco integrazione attiva della suite di rapporti. |
 | UUID integrazione | Specificate l'UUID integrazione DreamMail. |
 | Nome client | Specificate il nome client DreamMail. |
 | Nome sito | Specificate il nome del sito DreamMail. |
