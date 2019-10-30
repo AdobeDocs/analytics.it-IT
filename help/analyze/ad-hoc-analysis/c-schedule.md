@@ -7,7 +7,7 @@ title: Pianificazione Manager
 topic: Analisi ad hoc
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Potete personalizzare la pianificazione della consegna per i rapporti. Puoi inte
 
 Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 
->[!NOTE]
->
->Quando un account utente è disattivato, tutte le consegne programmate dei rapporti create da tale utente vengono sospese.
+> [!NOTE] Quando un account utente è disattivato, tutte le consegne programmate dei rapporti create da tale utente vengono sospese.
 
 Per garantire che gli elementi di riga in una suddivisione siano persistenti nei rapporti salvati e pianificati, utilizzate la **[!UICONTROL Edit Items]** funzione in Generatore [di](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) tabelle per creare elenchi di dimensioni fisse nelle suddivisioni.
 
