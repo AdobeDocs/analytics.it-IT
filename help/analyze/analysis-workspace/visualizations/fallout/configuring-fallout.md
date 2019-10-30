@@ -1,16 +1,16 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Configurare una visualizzazione Abbandono
-title: Configurare una visualizzazione Abbandono
-uuid: fc 117745-baf 3-46 fb -873 d -9307092 cc 337
+seo-title: Configurare una visualizzazione dell'abbandono
+title: Configurare una visualizzazione dell'abbandono
+uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurare una visualizzazione Abbandono
+# Configurare una visualizzazione dell'abbandono
 
 Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi (quali unità) nonché visitatori univoci e visite ripetute. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
 
@@ -18,9 +18,9 @@ Puoi perfino aggiungere segmenti all’interno di un punto di contatto. Ad esemp
 
 Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
 
-Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe,camicie” su una pagina e “camicie,calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, supponiamo che qualcuno stia guardando scarpe,camicie su una pagina, e sulla pagina successiva stia guardando camicie,calze. il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
-1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
+1. Trascina una [!UICONTROL Fallout] visualizzazione dal menu a discesa Visualizzazioni in un [!UICONTROL Freeform Table].
 
 1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL Add TouchPoint]** field as the first touchpoint.
 
@@ -38,7 +38,7 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 
    >[!NOTE]
    >
-   >Più segmenti sono collegati con AND, ma più elementi quali elementi dimensione e metriche sono uniti con OR.
+   >Più segmenti sono uniti con AND, ma più elementi, come elementi dimensione e metriche, sono uniti con OR.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -64,7 +64,7 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 | Impostazione | Descrizione |
 |--- |--- |
 | Contenitore Abbandono <ul><li>Visita</li><li>Visitatore</li></ul> | Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Il valore predefinito è Visitatore.  Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
-| Mostra tutti i visitatori come primo punto di contatto | Puoi deselezionare questa opzione se preferisci non avere Tutti i visitatori come primo punto di contatto. |
+| Mostra "Tutti i visitatori" come primo punto di contatto | Puoi deselezionare questa opzione se preferisci non avere Tutti i visitatori come primo punto di contatto. |
 
 When you **right-click a touchpoint**, the following options appear:
 
