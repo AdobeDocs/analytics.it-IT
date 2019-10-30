@@ -1,72 +1,68 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Limitazioni e specifiche
-title: Limitazioni e specifiche
-uuid: 6717 b 6 ea -7 e 01-49 b 8-8 f 6 e-fb 733 a 03 b 687
+seo-title: Limiti e specifiche
+title: Limiti e specifiche
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Limitazioni e specifiche
+# Limiti e specifiche
 
-## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
+## Limitazioni di pubblicazione di Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->Queste restrizioni si applicano solo all'opzione «Pubblica richieste Generatore di report come tabelle Dataset Power BI».
+> [!NOTE] Queste restrizioni si applicano solo all'opzione "Pubblica richieste Generatore di report come tabelle DataSet Power BI".
 
-* È possibile esportare fino a 100 richieste di Generatore di report in Power BI per cartella di lavoro.
-* Il processo di pianificazione interrompe le richieste di esportazione quando viene raggiunta la 101 ° richiesta.
-* Solo le prime 10,000 righe di dati di Analytics verranno inviate a Power BI per Generatore di report. Le righe rimanenti verranno ignorate.
+* È possibile esportare fino a 100 richieste Generatore di report in Power BI per cartella di lavoro.
+* Il processo di pianificazione interrompe l'esportazione delle richieste quando viene raggiunta la 101a richiesta.
+* Solo le prime 10.000 righe di dati Analytics verranno inviate a Power BI per ogni richiesta di Generatore di report. Le righe rimanenti verranno ignorate.
 
-## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
+## Modificare una richiesta di Generatore di report dopo la pubblicazione in Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->Questa specifica si applica alle opzioni «Pubblica tutte le richieste di Generatore di report come tabelle Dataset Power BI» e «Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle Dataset Power BI».
+> [!NOTE] Questa specifica si applica alle opzioni "Pubblica tutte le richieste del Generatore di report come tabelle DataSet Power BI" e "Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI".
 
-La modifica di una richiesta di Generatore di report dopo averlo pubblicato in Power BI può causare problemi.
+La modifica di una richiesta Generatore di report dopo la pubblicazione in Power BI potrebbe causare problemi.
 
-* **Caso 1**: È possibile pubblicare una cartella di lavoro su Power BI e creare una visualizzazione basata sui dati. Successivamente, si apporta modifiche alla cartella di lavoro, comportando la scomparsa di una delle colonne del set di dati. Quindi ripubblica. In questo modo la visualizzazione verrà interrotta in Power BI.
+* **Caso 1**: È possibile pubblicare una cartella di lavoro in Power BI e creare una visualizzazione basata sui relativi dati. Quindi, è possibile apportare modifiche alla cartella di lavoro, causando la scomparsa di una delle colonne del set di dati a cui fa riferimento. Quindi ripubblicate. In questo modo si interrompe la visualizzazione in Power BI.
 
-   **Ecco un esempio di come si interrompe la visualizzazione:**
+   **Esempio di interruzione della visualizzazione:**
 
-   1. In Generatore di report, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
-   1. [Pianificate questa richiesta](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) da pubblicare su Power BI.
-   1. In Power BI, crea una visualizzazione per Page e Page Views (Visualizzazioni pagina).
-   1. Ora modificate la cartella di lavoro rimuovendo Visualizzazioni pagina dalla richiesta.
-   1. Modificate la pianificazione con la cartella di lavoro aggiornata e ripubblicate la richiesta su Power BI.
-   1. Una volta che la nuova cartella di lavoro è stata inviata a Power BI
+   1. In Generatore di report, creare una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
+   1. [Pianificare la pubblicazione della richiesta](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) in Power BI.
+   1. In Power BI, creare una visualizzazione per le visualizzazioni pagina e pagina.
+   1. Modificare la cartella di lavoro rimuovendo Visualizzazioni pagina dalla richiesta.
+   1. Modificare la pianificazione con la cartella di lavoro aggiornata e pubblicare nuovamente la richiesta in Power BI.
+   1. Una volta inviata la nuova cartella di lavoro a Power BI
 
-      1. Verificate che abbia sovrascritto il set di dati esistente creato al momento della pubblicazione.
-      1. Verifica che la tabella page_ 1 sia aggiornata correttamente con le colonne Pagina e Visite.
-      1. Verifica che la visualizzazione sia interrotta, poiché fa riferimento alla colonna Visualizzazioni pagina che non è più presente nella tabella pagina_ 1.
-   **Esempio di come la visualizzazione NON intercetta:**
+      1. Verificate che abbia sovrascritto il set di dati esistente creato al momento della prima pubblicazione.
+      1. Verificare che la tabella page_1 sia aggiornata correttamente con le colonne Pagina e Visite.
+      1. Verifica che la visualizzazione sia interrotta, in quanto fa riferimento alla colonna Visualizzazioni di pagina che non è più presente nella tabella page_1.
+   **Di seguito è riportato un esempio di come LA visualizzazione NON verrà interrotta:**
 
-   1. In Generatore di report, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
-   1. [Pianificate questa richiesta](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) da pubblicare su Power BI.
-   1. In Power BI, crea una visualizzazione per Page e Page Views (Visualizzazioni pagina).
-   1. Ora puoi modificare la cartella di lavoro in Generatore di report, aggiungendo la metrica Visita mantenendo la pagina e visualizzazioni pagina.
-   1. Modificate la pianificazione con la cartella di lavoro aggiornata e ripubblicate la richiesta su Power BI.
-   1. Una volta che la nuova cartella di lavoro è stata inviata a Power BI
+   1. In Generatore di report, creare una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
+   1. [Pianificare la pubblicazione della richiesta](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) in Power BI.
+   1. In Power BI, creare una visualizzazione per le visualizzazioni pagina e pagina.
+   1. Ora modificate la cartella di lavoro in Generatore di report, aggiungendo la metrica Visita mantenendo le visualizzazioni pagina e pagina.
+   1. Modificare la pianificazione con la cartella di lavoro aggiornata e pubblicare nuovamente la richiesta in Power BI.
+   1. Una volta inviata la nuova cartella di lavoro a Power BI
 
-      1. Verificate che abbia sovrascritto il set di dati esistente creato al momento della pubblicazione.
-      1. Verifica che la tabella pagina_ 1 sia aggiornata correttamente con le colonne Pagina, Visualizzazioni pagina e Visite.
-      1. Verifica che la visualizzazione continui a funzionare correttamente, in quanto fa riferimento a due colonne ancora presenti nella tabella page_ 1.
+      1. Verificate che abbia sovrascritto il set di dati esistente creato al momento della prima pubblicazione.
+      1. Verificare che la tabella page_1 sia aggiornata correttamente con le colonne Page, Page Views e Visits.
+      1. Verifica che la visualizzazione continui a funzionare correttamente, poiché fa riferimento a due colonne ancora presenti nella tabella page_1.
 
 
-* **Caso 2**: Potete fissare una sezione della cartella di lavoro su una dashboard in Power BI e successivamente rimuovere la sezione bloccata (ad esempio un grafico o una tabella) dalla cartella di lavoro. In questo modo la visualizzazione verrà interrotta.
+* **Caso 2**: È possibile fissare una sezione della cartella di lavoro su un dashboard in Power BI e successivamente rimuovere la sezione bloccata (ad esempio un grafico o una tabella) dalla cartella di lavoro. In questo modo si interrompe la visualizzazione.
 
-## Change the name of a Power BI report {#section_2E7893A78B914EBFACB2B08CBD9E472E}
+## Modificare il nome di un report Power BI {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
-Per impostazione predefinita, il nome verrà popolato dal nome del file di cartelle (senza l'estensione.xlsx), fatta eccezione per gli spazi sostituiti con caratteri di sottolineatura.
+Per impostazione predefinita, il nome viene popolato dal nome del file della cartella di lavoro (senza l’estensione xlsx), ma gli spazi vengono sostituiti con caratteri di sottolineatura.
 
 Aspetti da considerare:
 
-* L'etichetta non può essere una combinazione di lettere e numeri che potrebbero essere errate per una riga e l'indirizzo della colonna. Ad esempio, A 100 non può essere un'etichetta perché è l'indirizzo di una cella in un foglio di lavoro.
-* I caratteri seguenti non sono caratteri di etichetta validi: ' #','@','! ','$','^','&amp;','*', ",'~',''. Vengono sostituiti da un carattere carattere di sottolineatura.
-* Quando immettete un nome non valido, verrà visualizzato un messaggio di avviso che suggerisce un nome generato automaticamente. If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* L'etichetta non può essere una combinazione di lettere e numeri che potrebbero essere erroneamente scambiate per un indirizzo di riga e colonna. Ad esempio, A100 non può essere un'etichetta perché corrisponde all'indirizzo di una cella in un foglio di lavoro.
+* I seguenti caratteri non sono caratteri di etichetta validi: '#', '@', '!', '$', '^', '&amp;', '*', '`', '~', ' ' ' . Saranno sostituiti da un carattere di sottolineatura.
+* Quando si immette un nome non valido, viene visualizzato un messaggio di avviso che suggerisce un nome generato automaticamente. Se fai clic **[!UICONTROL Yes]**, verrà utilizzato questo nome. Se si fa clic su **[!UICONTROL No]**, l'interfaccia utente della procedura guidata Avanzate consente di immettere il nuovo nome.
 
