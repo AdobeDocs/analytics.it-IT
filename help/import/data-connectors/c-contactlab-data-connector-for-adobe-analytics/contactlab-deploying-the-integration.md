@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementazione dell'integrazione
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Procedura per completare la procedura guidata di integrazione nell'interfaccia C
    |---|---|
    | Collegamento ID | Seleziona un'eVar per raccogliere gli ID collegamento in tempo reale. |
    | ID messaggio | Seleziona un'eVar per raccogliere gli ID messaggio in tempo reale. |
-   | ID destinatario | Seleziona un'eVar per raccogliere gli ID dei destinatari in tempo reale. |
+   | Recipient ID | Seleziona un'eVar per raccogliere gli ID dei destinatari in tempo reale. |
    | Bounce | Selezionare un evento numerico per ricevere rimbalzi giornalieri da ContactLab. |
    | Inviato | Selezionare un evento numerico per ricevere le invii giornalieri da ContactLab. |
    | Clic | Selezionare un evento numerico per ricevere i clic totali giornalieri da ContactLab. |
@@ -62,8 +62,8 @@ Visualizza la configurazione dell’integrazione con ContactLab in Adobe Experie
 
    1. Cerca voci come **[!UICONTROL Classification Data imported successfully]**, **[!UICONTROL Metrics Data imported successfully]**, e **[!UICONTROL Metric Data exported successfully]**. Queste voci devono essere visualizzate entro 1 giorno dalla distribuzione completata.
 1. Visualizza i tuoi dati di reporting in Adobe Analytics.
-   1. Andate a **[!UICONTROL Custom Conversion]** &gt; **[!UICONTROL Custom Conversion 1-10]** &gt; **[!UICONTROL Message ID Reports]**.
+   1. Passa a **[!UICONTROL Custom Conversion]** &gt; **[!UICONTROL Custom Conversion 1-10]** &gt; **[!UICONTROL Message ID Reports]**.
 
       ![](assets/reporting.png)
 
-   1. Cercate i rapporti di ContactLab.  Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
+   1. Cercate i rapporti di ContactLab. Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
