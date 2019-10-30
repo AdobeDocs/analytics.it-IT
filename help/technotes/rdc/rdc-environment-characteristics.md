@@ -1,25 +1,25 @@
 ---
-title: Caratteristiche dell'ambiente RDC
-seo-title: Caratteristiche dell'ambiente RDC Adobe Analytics
+title: RDC Caratteristiche dell'ambiente
+seo-title: Caratteristiche dell'ambiente RDC di Adobe Analytics
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Caratteristiche dell'ambiente RDC
+# RDC caratteristiche dell'ambiente
 
-L'ambiente RDC (Regional Data Collection) include le caratteristiche come descritto di seguito.
+L’ambiente di raccolta dati regionale (RDC) include caratteristiche come descritto di seguito.
 
 ## Miglioramenti delle prestazioni
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+Per i tempi di risposta correnti quando si utilizza RDC, consulta [Adobe Analytics Request Performance (Prestazioni](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/)richieste Adobe Analytics).
 
-In genere, gli utenti hanno riscontrato miglioramenti temporali con RDC come segue:
+Generalmente, gli utenti hanno registrato miglioramenti in termini di tempo di risposta con RDC come segue:
 
-| Aree geografiche | Tempo di risposta rimosso da RDC |
+| Aree geografiche | Tempo di risposta rimosso dall'RDC |
 | --- | --- |
 | Asia | 36% |
 | Australia | 5% |
@@ -32,19 +32,19 @@ In genere, gli utenti hanno riscontrato miglioramenti temporali con RDC come seg
 | Europa occidentale | 89% |
 | America del Nord | 38% |
 | Canada | 26% |
-| Central US | 48% |
-| Eastern U Eastern | 46% |
-| Western US | 20% |
+| Stati Uniti centrali | 48% |
+| Stati Uniti orientali | 46% |
+| USA occidentale | 20% |
 | Globale | 50% |
 
 ## Cookie di prime o terze parti
 
-A seconda della tua implementazione, potresti utilizzare cookie di prime o terze parti. You can learn more about first-party cookies [here](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
+A seconda dell’implementazione, potresti usare cookie di prime o terze parti. Ulteriori informazioni sui cookie di prime parti sono disponibili [qui](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
 
 ## Pagine protette
 
-Se il sito contiene pagine che utilizzano il protocollo https, avete pagine sicure. La maggior parte delle visualizzazioni di pagina tracciate da Adobe Analytics sono protette mediante il protocollo https. Le pagine sicure richiedono un certificato SSL per il tracciamento. Se la proprietà Web utilizza cookie di terze parti, le pagine sicure utilizzano un certificato SSL di proprietà di Adobe, che consente di inviare i dati ai server di raccolta dati in modo protetto senza implementazione FPSSL.
+Se il sito contiene pagine che utilizzano il protocollo https, sono presenti pagine protette. La maggior parte delle visualizzazioni di pagina tracciate da Adobe Analytics sono protette mediante il protocollo https. Le pagine sicure richiedono un certificato SSL per il tracciamento. Se la proprietà Web utilizza cookie di terze parti, le pagine protette utilizzano un certificato SSL di proprietà di Adobe, che consente l’invio sicuro dei dati ai nostri server di raccolta dati senza l’implementazione FPSSL.
 
 ## Modifiche DNS (aggiornamento CNAME)
 
-A [CNAME](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cname.html) update is a change made to your company's DNS server. In genere, il team IT o le operazioni di rete gestisce questa operazione. Se lo scenario richiede questa modifica, contatta l'Assistenza clienti per il nuovo nome host Adobe.
+Un aggiornamento [CNAME](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cname.html) è una modifica apportata al server DNS della società. Il reparto IT o il team operativo di rete in genere gestisce questa operazione. Se lo scenario richiede questa modifica, contatta l'Assistenza clienti per il nuovo nome host Adobe.
