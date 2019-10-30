@@ -1,18 +1,18 @@
 ---
-description: I diritti di metrica calcolati differiscono tra gli utenti di livello amministratore e non gli amministratori.
-seo-description: I diritti di metrica calcolati differiscono tra gli utenti di livello amministratore e non gli amministratori.
-seo-title: Metriche calcolate per i diritti basati sul ruolo
-title: Metriche calcolate per i diritti basati sul ruolo
-uuid: 7 c 14 d 32 d -370 c -4 afa -8 f 80-5 bbd 8 fc 12 ec 7
+description: I diritti delle metriche calcolate sono diversi tra utenti a livello di amministratore e non amministratori.
+seo-description: I diritti delle metriche calcolate sono diversi tra utenti a livello di amministratore e non amministratori.
+seo-title: Metriche calcolate, diritti basati su ruoli
+title: Metriche calcolate, diritti basati su ruoli
+uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Metriche calcolate: diritti basati su ruolo
 
-I diritti di metrica calcolati differiscono tra gli utenti di livello amministratore e non gli amministratori.
+I diritti delle metriche calcolate sono diversi tra utenti a livello di amministratore e non amministratori.
 
 <table id="table_13F72FD90C964B86BD4B51E6F51ED292"> 
  <thead> 
@@ -28,19 +28,19 @@ I diritti di metrica calcolati differiscono tra gli utenti di livello amministra
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Utenti a livello di amministratore</b> </td> 
-   <td colname="col02"> Admins can create calculated metrics as well as create <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> groups </a> to limit the rights of users to create calculated metrics. </td> 
-   <td colname="col2"> Può essere condiviso con l'intera azienda, con gruppi di utenti e con singoli utenti. </td> 
-   <td colname="col3"> <span class="keyword"> [! UICONTROL Reporting &amp; Analytics] </span>: Può visualizzare/modificare/eliminare/ecc. le metriche calcolate di altri utenti e di altri utenti. <p> <span class="keyword"> Analisi ad hoc </span> e <span class="keyword"> Generatore </span>di report: Può visualizzare/modificare/eliminare/ecc. le relative metriche calcolate e quelle condivise con loro. </p> </td> 
-   <td colname="col4"> Può approvare le metriche calcolate come canonical. </td> 
-   <td colname="col5"> Può applicare qualsiasi metrica calcolata nell'intera organizzazione. </td> 
+   <td colname="col02"> Gli amministratori possono creare metriche calcolate e <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> gruppi </a> per limitare i diritti degli utenti di creare metriche calcolate. </td> 
+   <td colname="col2"> Può essere condiviso con l’intera società, con i gruppi di utenti e con i singoli utenti. </td> 
+   <td colname="col3"> <span class="keyword"> [!UICONTROL Reports &amp; Analytics] </span>: Può visualizzare/modificare/eliminare/ecc. metriche calcolate personalizzate e di altri utenti. <p> <span class="keyword"> Analisi ad hoc </span> e Generatore di <span class="keyword"> report </span>: Può visualizzare/modificare/eliminare/ecc. le proprie metriche calcolate e quelle condivise con esse. </p> </td> 
+   <td colname="col4"> Può approvare metriche calcolate come canoniche. </td> 
+   <td colname="col5"> Può applicare qualsiasi metrica calcolata all'intera organizzazione. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Utenti non amministratori</b> </td> 
-   <td colname="col02"> Per impostazione predefinita, gli utenti possono creare metriche calcolate. Tuttavia, tali diritti possono essere limitati dagli amministratori. </td> 
-   <td colname="col2"> Può essere condiviso solo con singoli utenti </td> 
-   <td colname="col3"> Può visualizzare/modificare/eliminare/ecc. solo le proprie metriche calcolate. <p>Gli utenti non amministratori devono avere accesso a tutti gli eventi dei componenti per poter visualizzare una metrica condivisa (le autorizzazioni nell'Admin Console sono ancora applicate). </p> <p>Se una dashboard o un rapporto pianificato viene condiviso con un utente non amministratore e non dispone della metrica condivisa con loro, il rapporto verrà eseguito con la metrica applicata (purché abbiano le autorizzazioni per visualizzare gli eventi). Tuttavia, non potranno vedere la definizione o modificare la metrica. </p> </td> 
-   <td colname="col4"> Può utilizzare solo metriche calcolate approvate; non può essere contrassegnato come approvato. </td> 
-   <td colname="col5"> Può applicare le proprie metriche calcolate e segmenti che sono stati condivisi con loro. </td> 
+   <td colname="col02"> Per impostazione predefinita, gli utenti possono creare metriche calcolate. Tuttavia, questi diritti possono essere limitati dagli amministratori. </td> 
+   <td colname="col2"> Condivisione con singoli utenti </td> 
+   <td colname="col3">  Può visualizzare/modificare/eliminare/ecc. solo le proprie metriche calcolate. <p>Gli utenti non amministratori devono avere accesso a tutti gli eventi dei componenti per poter visualizzare le metriche condivise (le autorizzazioni in Admin Console sono ancora applicate). </p> <p>Se un dashboard o un report pianificato viene condiviso con un utente non amministratore e non ha la metrica condivisa con lui, il report verrà eseguito con la metrica applicata (sempre che disponga delle autorizzazioni necessarie per visualizzare gli eventi). Tuttavia, non potranno visualizzare la definizione o modificare la metrica. </p> </td> 
+   <td colname="col4"> Può utilizzare solo metriche calcolate approvate; impossibile contrassegnare come approvato. </td> 
+   <td colname="col5"> Può applicare le proprie metriche calcolate e i segmenti condivisi con loro. </td> 
   </tr> 
  </tbody> 
 </table>
