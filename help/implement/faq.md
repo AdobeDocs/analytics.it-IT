@@ -8,7 +8,7 @@ title: Domande frequenti sull’implementazione di Analytics
 topic: Sviluppatore e implementazione
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni
    <td colname="col3"> <p>Per informazioni sulla gestione di utenti e gruppi, consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external"> Gestione di utenti e prodotti </a> nella guida di Adobe Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Scadenza eVar: perché gli eVar vengono attribuiti a "Nessuno" nei rapporti? </p> </td> 
+   <td colname="col2"> <p>Scadenza eVar - Perché le eVar vengono attribuite a 'None' nei report? </p> </td> 
    <td colname="col3"> <p> <span class="uicontrol"> Dopo </span> specifica un periodo di tempo, o un evento, dopo la scadenza del valore eVar (non ricevono più crediti per eventi di successo). Se un evento di successo si verifica dopo la scadenza eVar, il valore None non riceve credito per l’evento (nessun eVar è attivo). Se selezioni un evento come valore di scadenza, la variabile scade solo se si verifica l’evento. Se l’evento non si verifica, la variabile non scade. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [Altro...] </a> </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni
 | Domanda | Risposta |
 |---|---|
 | Come posso gestire utenti e gruppi di Analytics? | Per informazioni sulla gestione di utenti e gruppi, consulta [Gestione di utenti e prodotti](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) Experience Cloud nell'Aiuto dei servizi di base di Adobe Experience Cloud. |
-| Scadenza eVar: perché gli eVar vengono attribuiti a "Nessuno" nei rapporti? | `Expire After` specifica un periodo di tempo, o un evento, dopo la scadenza del valore eVar (non riceve più crediti per eventi di successo). Se un evento di successo si verifica dopo la scadenza eVar, il valore None non riceve credito per l’evento (nessun eVar è attivo). Se selezioni un evento come valore di scadenza, la variabile scade solo se si verifica l’evento. Se l’evento non si verifica, la variabile non scade. [[Altro...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| Scadenza eVar - Perché le eVar vengono attribuite a 'None' nei report? | `Expire After` specifica un periodo di tempo, o un evento, dopo la scadenza del valore eVar (non riceve più crediti per eventi di successo). Se un evento di successo si verifica dopo la scadenza eVar, il valore None non riceve credito per l’evento (nessun eVar è attivo). Se selezioni un evento come valore di scadenza, la variabile scade solo se si verifica l’evento. Se l’evento non si verifica, la variabile non scade. [[Altro...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | Visibilità evento personalizzata: perché gli Eventi personalizzati non vengono visualizzati nel menu rapporti? | Nella colonna Visibilità puoi nascondere le metriche standard (integrate), gli eventi personalizzati e gli eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti. Questa impostazione non influisce sulla raccolta dei dati per quella metrica o evento; influisce solo sulla sua visibilità nell’interfaccia utente. [[Altro...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/metric-visibility.html) |
 | Marca temporale: cosa devo tenere in considerazione prima di cambiare le impostazioni di marca temporale? | Utilizzando la funzione facoltativa Marca temporale, puoi combinare dati senza marca temporale con dati con marca temporale senza la conseguente perdita di dati. I dati offline con marca temporale generata da un dispositivo mobile possono essere combinati con dati live e senza marca temporale da una pagina web, oppure integrati con dati provenienti da qualsiasi piattaforma mediante una chiamata di marca temporale lato client. [[Altro...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/timestamps-overview.html) |
 | ID visitatore: come funziona il periodo di tolleranza per il servizio ID visitatore e come è abilitato? | Se disponi di più file JavaScript che inviano dati alla stessa suite di rapporti o se utilizzi altre tecnologie sul tuo sito, ad esempio la misurazione video Flash, ti consigliamo di impostare un periodo di tolleranza.  [Altro...](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/grace-period.html) |
