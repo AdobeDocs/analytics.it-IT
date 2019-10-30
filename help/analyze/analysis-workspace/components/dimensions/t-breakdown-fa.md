@@ -5,10 +5,10 @@ seo-description: È possibile suddividere dimensioni ed elementi dimensionali in
 seo-title: Suddividere dimensioni
 solution: Analytics
 title: Suddividere dimensioni
-topic: Reports & Analytics
-uuid: 0 b 888 e 26-f 201-4405-99 f 9-755 b 3 ee 6 cd 18
+topic: Reports and Analytics
+uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
