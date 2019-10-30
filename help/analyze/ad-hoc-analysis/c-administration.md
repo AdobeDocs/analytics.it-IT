@@ -39,7 +39,7 @@ t_user_licenses.xml
  -->
 
 1. Log in to the [!DNL Experience Cloud].
-1. Clic **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Fai clic su **[!UICONTROL Edit Groups]**.
 
    Se la società ha acquistato licenze utente, il [!UICONTROL Ad Hoc Analysis License Users] gruppo viene visualizzato nella [!UICONTROL Group Name] colonna. Viene inoltre visualizzato il numero di licenze disponibili per gli accessi utente.
@@ -73,7 +73,7 @@ c_permissions.xml
 
  -->
 
-Puoi impostare l’accesso alle suite di rapporti nel [!DNL Administration Console]. Puoi configurare le autorizzazioni a livello di suite di rapporti. Ad esempio, se disponete di più suite di rapporti abilitate, ma non desiderate consentire a tutti gli utenti l'accesso a tutte le suite di rapporti, potete creare gruppi con suite di rapporti specifiche e quindi assegnare tali utenti al gruppo applicabile.
+Puoi impostare l’accesso alle suite di rapporti nel [!DNL Administration Console]. Puoi configurare le autorizzazioni a livello di suite di rapporti. Ad esempio, se disponete di più suite di rapporti abilitate, ma non desiderate consentire a tutti gli utenti l'accesso a tutte le suite di rapporti, potete creare gruppi con suite di rapporti specifiche e quindi assegnare tali utenti al gruppo appropriato.
 
 ## Aggiunta di un utente al gruppo di accesso a tutti i rapporti {#task_E821BF3B4FDB434D844A98AAB15487A9}
 
