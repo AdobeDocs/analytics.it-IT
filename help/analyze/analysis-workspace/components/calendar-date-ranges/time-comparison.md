@@ -1,11 +1,11 @@
 ---
-description: Il confronto delle date in Analysis Workspace consente di prendere qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comuni, ad esempio anno su anno, trimestre su trimestre, mese su mese, ecc.
-seo-description: Il confronto delle date in Analysis Workspace consente di prendere qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comuni, ad esempio anno su anno, trimestre su trimestre, mese su mese, ecc.
+description: Il confronto delle date in Analysis Workspace consente di prendere qualsiasi colonna contenente un intervallo di date e creare un confronto tra date comune, ad esempio anno su anno, trimestre su trimestre, mese su mese e così via.
+seo-description: Il confronto delle date in Analysis Workspace consente di prendere qualsiasi colonna contenente un intervallo di date e creare un confronto tra date comune, ad esempio anno su anno, trimestre su trimestre, mese su mese e così via.
 seo-title: Confronto delle date
 title: Confronto delle date
-uuid: ef 18 f 9 d 9-b 6 ad -4859-b 7 c 9-9750 ca 0 df 519
+uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,16 +16,16 @@ In Analysis Workspace, il confronto delle date ti consente di prendere una quals
 
 ## Confronta periodi di tempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda “Rispetto allo stesso periodo dello scorso anno, quanto stiamo andando meglio/peggio?” è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna “differenza” che mostra il cambiamento percentuale, confrontato a un periodo di tempo specificato.
+L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda “Rispetto allo stesso periodo dello scorso anno, quanto stiamo andando meglio/peggio?” è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna "differenza", che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
 
 1. Crea una tabella a forma libera, con qualsiasi dimensione e metrica desideri confrontare in un periodo di tempo.
-1. Right-click a table row and select **[!UICONTROL Compare Time Periods]**.
+1. Fare clic con il pulsante destro del mouse su una riga di tabella e selezionare **[!UICONTROL Compare Time Periods]**.
 
    ![](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
-   >Questa opzione di clic con il pulsante destro del mouse è disabilitata per le righe metriche, le righe di intervallo date e le righe di dimensione del tempo.
+   >Questa opzione è disabilitata per le righe di metrica, le righe di intervallo di date e le righe di dimensione ora.
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 
@@ -55,7 +55,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario corrente. Questa funzione offre un altro metodo per confrontare le date.
 
-1. Right-click a column in the table and select **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
+1. Fare clic con il pulsante destro del mouse su una colonna della tabella e selezionare **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 
@@ -81,7 +81,7 @@ Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo divers
 
 ## Align column dates to start on same row {#section_5085E200082048CB899C3F355062A733}
 
-A new setting for all tables lets you **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. “Si applica all’intera tabella” significa che se effettui, ad esempio, una suddivisione nella tabella, e se cambi questa impostazione per la suddivisione, questa modificherà l’impostazione per tutta la tabella.
+Una nuova impostazione per tutte le tabelle consente di **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. “Si applica all’intera tabella” significa che se effettui, ad esempio, una suddivisione nella tabella, e se cambi questa impostazione per la suddivisione, questa modificherà l’impostazione per tutta la tabella.
 
 ![](assets/date-comparison-setting.png)
 
