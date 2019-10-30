@@ -7,7 +7,7 @@ title: Pubblicare segmenti in Experience Cloud
 topic: Segmenti
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: cd2d9f90c548d3bb32a57faa47b185dc25db1d5a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ La pubblicazione di un segmento in Experience Cloud consente di utilizzare il se
 
 Ora, l'elaborazione può richiedere fino a 8 ore, ma a seconda del traffico e delle dimensioni del segmento, l'elaborazione potrebbe essere ancora più veloce. Tuttavia, al momento non è disponibile un modo per informarvi quando il segmento è disponibile, pertanto dovrete eseguire il controllo manualmente. Abbiamo anche aumentato il numero massimo di segmenti pubblicabili a 75 (da 20). Puoi visualizzare i segmenti pubblicati in Componenti &gt; Segmenti.
 
->[!NOTE]
->
->Adobe Campaign (Classic e Standard) si comporta in modo diverso in quanto richiede una latenza aggiuntiva di 24 ore sopra la latenza di 8 ore.
+> [!NOTE] Adobe Campaign (Classic e Standard) si comporta in modo diverso in quanto richiede una latenza aggiuntiva di 24 ore sopra la latenza di 8 ore.
 
 
 ## Prerequisiti
@@ -54,7 +52,7 @@ Ora, l'elaborazione può richiedere fino a 8 ore, ma a seconda del traffico e de
 
 1. Navigate to **[!UICONTROL Analytics > Workspace > Components > Segments]&gt; +**
 1. Crea un segmento nel [!UICONTROL Segment Builder].
-1. Immetti un titolo e una descrizione per il segmento. Altrimenti non potrai salvarlo.
+1. Immetti un titolo e una descrizione per il segmento. In caso contrario non potrai salvarlo.
 1. Controlla suite **[!UICONTROL Publish this segment to the Experience Cloud (for *di *rapporti)]**.
 
 ![](assets/publish-ec.png)
@@ -77,9 +75,7 @@ Ora, l'elaborazione può richiedere fino a 8 ore, ma a seconda del traffico e de
 
 Per eliminare un segmento pubblicato in Experience Cloud, devi prima annullarne la pubblicazione. Per annullare la pubblicazione di un segmento, **deseleziona** la casella di controllo utilizzata per pubblicarlo.
 
->[!NOTE]
->
->**Non** puoi annullare la pubblicazione di un segmento attualmente in uso da una delle seguenti soluzioni Adobe: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (per clienti [!DNL Core Service] e [!DNL Audience Manager]) e tutti gli altri partner esterni (per i clienti [!DNL Audience Manager]). **Puoi** annullare la pubblicazione di un segmento utilizzato da [!DNL Target].
+> [!NOTE]**Non** puoi annullare la pubblicazione di un segmento attualmente in uso da una delle seguenti soluzioni Adobe: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (per clienti [!DNL Core Service] e [!DNL Audience Manager]) e tutti gli altri partner esterni (per i clienti [!DNL Audience Manager]). **Puoi** annullare la pubblicazione di un segmento utilizzato da [!DNL Target].
 
 ## Visualizza lo stato di pubblicazione dei segmenti nel pannello [!UICONTROL Segment Manager]
 
