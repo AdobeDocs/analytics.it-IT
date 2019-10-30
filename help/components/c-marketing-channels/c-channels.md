@@ -1,64 +1,62 @@
 ---
-description: Aggiungi o abilita i canali di marketing in Marketing Channel Manager. Per le suite di rapporti che non hanno canali di marketing, una configurazione automatica ti consente di creare diversi canali, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze, oppure creare il vostro (fino a un totale di 25).
-seo-description: Aggiungi o abilita i canali di marketing in Marketing Channel Manager. Per le suite di rapporti che non hanno canali di marketing, una configurazione automatica ti consente di creare diversi canali, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze, oppure creare il vostro (fino a un totale di 25).
+description: Aggiungi o abilita canali di marketing in Marketing Channel Manager. Per le suite di rapporti prive di canali di marketing, una configurazione automatica consente di creare diversi canali per voi, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze o crearne di nuovi (fino a un totale di 25).
+seo-description: Aggiungi o abilita canali di marketing in Marketing Channel Manager. Per le suite di rapporti prive di canali di marketing, una configurazione automatica consente di creare diversi canali per voi, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze o crearne di nuovi (fino a un totale di 25).
 seo-title: Gestire i canali di marketing
 solution: Analytics
 subtopic: Canali di marketing
 title: Gestire i canali di marketing
-topic: Reports & Analytics
-uuid: 9 d 367 bb 6-a 17 b -49 b 8-9 cd 5-24 fac 35 ae 982
+topic: Reports and Analytics
+uuid: 9d367bb6-a17b-49b8-9cd5-24face35ae982
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Gestire i canali di marketing
 
-Aggiungi o abilita i canali di marketing in Marketing Channel Manager. Per le suite di rapporti che non hanno canali di marketing, una configurazione automatica ti consente di creare diversi canali, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze, oppure creare il vostro (fino a un totale di 25).
+Aggiungi o abilita canali di marketing in Marketing Channel Manager. Per le suite di rapporti prive di canali di marketing, una configurazione automatica consente di creare diversi canali per voi, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze o crearne di nuovi (fino a un totale di 25).
 
-## Manage marketing channels {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
+## Gestire i canali di marketing {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
 
-Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. Per le suite di rapporti che non hanno canali di marketing, una configurazione automatica ti consente di creare diversi canali, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze, oppure creare il vostro (fino a un totale di 25).
+Aggiungi o abilita canali di marketing nel [!UICONTROL Marketing Channel Manager]. Per le suite di rapporti prive di canali di marketing, una configurazione automatica consente di creare diversi canali per voi, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze o crearne di nuovi (fino a un totale di 25).
 
-Di seguito sono riportate le linee guida per la creazione di canali:
+Di seguito sono riportate alcune linee guida per la creazione di canali:
 
-* Pianifica anticipatamente un elenco di tutti i tuoi canali, in modo che tutti gli hit dei visitatori siano organizzati in categorie al canale giusto.
-* Always include channels for the categories of [Internal](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) hits and [Direct](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) hits.
+* Pianificate in anticipo creando un elenco di tutti i canali, in modo che tutti gli hit visitatore siano organizzati per categorie sul canale giusto.
+* Includi sempre canali per le categorie di hit [interni](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) e [diretti](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) .
 
-Adding channels to the [!UICONTROL Marketing Channels] page is done independently of creating rules on the [Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) page. Potete associare regole ai canali durante la creazione della regola.
+L'aggiunta di canali alla [!UICONTROL Marketing Channels] pagina viene effettuata indipendentemente dalla creazione di regole nella pagina Regole [di elaborazione dei canali](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) di marketing. Le regole vengono associate ai canali al momento della creazione della regola.
 
-## Add marketing channels {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
+## Aggiunta di canali di marketing {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
 
 Aggiungi canali di marketing in Marketing Channel Manager.
 
->[!NOTE]
->
->Non potete eliminare un canale. Se non desiderate usare un canale, potete disattivarlo o rinominarlo e conservarlo per l'utilizzo successivo.
+> [!NOTE] Non è possibile eliminare un canale. Se non si desidera utilizzare un canale, è possibile disattivarlo o rinominarlo e conservarlo per un uso successivo.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. On the [!UICONTROL Report Suite Manager] page, select a report suite.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Sulla [!UICONTROL Report Suite Manager] pagina, seleziona una suite di rapporti.
 
-   Se selezioni più suite di rapporti, seleziona un modello che copia le impostazioni dal modello alle suite di rapporti selezionate.
+   Se selezionate più suite di rapporti, selezionate un modello che copia le impostazioni dal modello alle suite di rapporti selezionate.
 
    See [Apply template report suite settings to multiple report suites](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays.
+   Se nella suite di rapporti non sono definiti canali, viene visualizzata la pagina Configurazione [](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) automatica.
 
-1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
+1. Sulla [!UICONTROL Marketing Channel Manager] pagina fare clic su **[!UICONTROL Add Channel]**.
 
-   Questa opzione non è disponibile quando sono stati definiti 25 canali.
+   Questa opzione non è disponibile quando sono definiti 25 canali.
 
 1. Fai clic su **[!UICONTROL Save.]**
-1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
+1. Per configurare le regole per il canale, fai clic su **[!UICONTROL Marketing Channel Processing Rules]**.
 
    See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08).
 
-## Marketing Channel Manager - interface definitions {#reference_01779A2928054BF48339897D4033AFB9}
+## Marketing Channel Manager - Definizioni dell'interfaccia {#reference_01779A2928054BF48339897D4033AFB9}
 
-Field definitions for the [!UICONTROL Marketing Channel Manager] page.
+Definizioni dei campi per la [!UICONTROL Marketing Channel Manager] pagina.
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -77,20 +75,20 @@ Field definitions for the [!UICONTROL Marketing Channel Manager] page.
    <td colname="col2"> <p>Il nome descrittivo del canale di marketing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Override Last-Touch Channel </p> </td> 
-   <td colname="col2"> <p> Consente di scegliere se sovrascrivere un canale precedente e permanente costante con il canale selezionato. Se selezionate questa casella di controllo, qualsiasi canale (incluso Diretto e Interno) sovrascrive un ultimo canale di tocco. Il risultato viene convertito in un canale che potrebbe non meritare credito. Ad esempio, questa opzione può garantire che il canale diretto non riceva credito per la conversione se l'utente è stato precedentemente acquisito tramite il canale di ricerca naturale. </p> </td> 
+   <td colname="col1"> <p>Ignora ultimo canale di tocco </p> </td> 
+   <td colname="col2"> <p> Consente di scegliere se ignorare un canale esistente persistente con il canale selezionato. Se selezionate questa casella di controllo, qualsiasi canale (inclusi Diretto e Interno) sovrascrive un canale dell’ultimo tocco esistente. Il risultato è che la conversione viene attribuita a un canale che potrebbe non meritare credito. Ad esempio, questa opzione può garantire che il canale Direct non riceva credito per la conversione se l'utente era stato precedentemente acquisito tramite il canale di ricerca naturale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Suddivisione canale </p> </td> 
-   <td colname="col2"> <p>Consente di suddividere un canale in base a questo valore. Puoi aggiungere possibili suddivisioni dei canali (sottocanali) durante la creazione di classificazioni dei canali di marketing. </p> </td> 
+   <td colname="col2"> <p>Consente di suddividere un canale per questo valore. Puoi aggiungere possibili analisi dei canali (canali secondari) durante la creazione di classificazioni dei canali di marketing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type (Tipo) </p> </td> 
-   <td colname="col2"> <p> Specifica in che modo l'utente è entrato nel sito. You can select <span class="uicontrol"> Online</span> or <span class="uicontrol"> Offline</span>. Utilizzate i canali online per i visitatori che arrivano attraverso un motore di ricerca o una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite i coupon di quotidiani o gli annunci pubblicitari delle riviste. I canali offline includono in genere i dati importati tramite il reporting Origini dati. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http"> Data Sources</a>. </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Specifica in che modo l’utente è arrivato sul sito. Potete selezionare <span class="uicontrol"> Online</span> o <span class="uicontrol"> Offline</span>. Utilizza i canali online per i visitatori che passano attraverso un motore di ricerca o una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite annunci pubblicitari di giornali o riviste. I canali offline in genere includono i dati importati tramite Origini dati di reporting. </p> <p>Vedere <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http"> Origini</a>dati. </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colore </p> </td> 
-   <td colname="col2"> <p>Colore associato a questo canale di marketing. This color represents the channel in the <span class="wintitle"> Marketing Channel</span> report. </p> </td> 
+   <td colname="col2"> <p>Colore associato a questo canale di marketing. Questo colore rappresenta il canale nel report <span class="wintitle"> Marketing Channel</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
