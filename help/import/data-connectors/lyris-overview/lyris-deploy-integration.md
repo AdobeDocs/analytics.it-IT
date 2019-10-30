@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementazione dell'integrazione
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -67,7 +67,7 @@ Passaggi che descrivono cosa configurare in Lyris al termine della procedura gui
 
    >[!NOTE]
    >
-   >Se state applicando lo strumento di analisi nativo di Lyris, *fate clic su Tracce* per contrassegnare tutte le variabili richieste aggiunte.
+   >Se state applicando lo strumento di analisi nativo di Lyris, *Click Tracks* tag tutte le variabili richieste che vengono aggiunte.
 
 ## Verifica dell'integrazione{#verifying-the-integration}
 
@@ -75,9 +75,7 @@ Passaggi per verificare che l'integrazione tra Lyris e Adobe Analytics sia stata
 
 Una volta completati tutti i passaggi di distribuzione, potete verificare che l'integrazione trasferisca correttamente i dati.
 
->[!NOTE]
->
->Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l'integrazione.
+> [!NOTE] Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l'integrazione.
 
 1. Passa alla tua integrazione Lyris all'interno dei connettori dati. Sotto la **[!UICONTROL Support]** scheda &gt; **[!UICONTROL Integration Activity Log]**, è possibile visualizzare eventi quali **[!UICONTROL Metric data imported successfully]** e/o **[!UICONTROL Classification data imported successfully]**:
 
@@ -91,9 +89,7 @@ Una volta completati tutti i passaggi di distribuzione, potete verificare che l'
 
 Mostra il codice del plug-in Lyris da utilizzare con Adobe Analytics.
 
->[!NOTE]
->
->Prima di utilizzare il codice riportato di seguito, accertati di aver riservato le eVar necessarie in Adobe Analytics Tool. Una volta a conoscenza delle eVar che hai riservato, sostituisci eVarN con l’eVar pertinente. Ad esempio, eVar10.
+> [!NOTE] Prima di utilizzare il codice riportato di seguito, accertati di aver riservato le eVar necessarie in Adobe Analytics Tool. Una volta a conoscenza delle eVar che hai riservato, sostituisci eVarN con l’eVar pertinente. Ad esempio, eVar10.
 
 ```
 /* 
