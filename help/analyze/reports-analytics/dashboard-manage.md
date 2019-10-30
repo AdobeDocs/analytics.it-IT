@@ -8,7 +8,7 @@ title: Dashboard Manager
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
 
 Le dashboard esistenti continueranno a essere eseguite e potrai comunque modificarle, scaricarle e pianificarle; tuttavia, non è più possibile creare nuove dashboard legacy. È consigliabile aggiornare le dashboard esistenti al formato dashboard più recente.
 
->[!NOTE]
->
->In futuro, prendi in considerazione l’utilizzo di progetti [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analysis Workspace e la possibilità di scaricarli e pianificarli.
+> [!NOTE] In futuro, prendi in considerazione l’utilizzo di progetti [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analysis Workspace e la possibilità di scaricarli e pianificarli.
 
 Quando copiate il dashboard legacy, il sistema apre il dashboard legacy per la modifica, dove potete aggiungere contenuto legacy o nuovo contenuto. Quando copiate una dashboard precedente, l’originale viene mantenuto nell’elenco delle dashboard precedenti.
 
->[!NOTE]
->
->L’aggiunta di contenuti legacy a una dashboard crea una dashboard basata sulle funzionalità più recenti della dashboard. Tuttavia, il minirapporto legacy potrebbe contenere dati basati sulla piattaforma dati precedente.
+> [!NOTE] L’aggiunta di contenuti legacy a una dashboard crea una dashboard basata sulle funzionalità più recenti della dashboard. Tuttavia, il minirapporto legacy potrebbe contenere dati basati sulla piattaforma dati precedente.
 
 **Per migrare una versione 14.x del dashboard legacy**
 
@@ -115,9 +111,7 @@ In [!UICONTROL Dashboard Manager], potete verificare se una dashboard è pianifi
 
 ## Archiviare un dashboard
 
->[!NOTE]
->
->Questa funzionalità non sarà più disponibile a gennaio 2020.
+> [!NOTE] Questa funzionalità non sarà più disponibile a gennaio 2020.
 
 Procedura che descrive come archiviare qualsiasi dashboard inviata come file PDF. Il sistema memorizza il file archiviato per due anni, o fino a quando non si raggiunge un limite massimo di 4 GB di rapporti archiviati, a seconda di quale sia il primo.
 
