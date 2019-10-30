@@ -5,7 +5,7 @@ seo-title: Connettore dati Silverpop per Adobe Analytics
 title: Connettore dati Silverpop per Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,9 +42,9 @@ Questa integrazione e-mail dei Connettori dati supporta segmenti di marketing di
 
 Questa integrazione include i seguenti segmenti di marketing:
 
-* **** Profili di acquisto:Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
-* **** Profilo comportamentale visualizzazione prodotto/contenuto:Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
-* **** Profilo abbandono carrello:Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
+* **** Profili di acquisto: Aumentare gli ordini ripetuti e il valore medio degli ordini attraverso campagne mirate da pattern di acquisto dei visitatori.
+* **** Profilo comportamentale visualizzazione prodotto/contenuto: Raggiungi potenziali clienti attraverso segmenti di marketing basati su viste di prodotto e profili di accesso ai contenuti.
+* **** Profilo abbandono carrello: Aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
 * **** Profilo di abbandono modulo (facoltativo): Incoraggiare i visitatori a compilare un modulo non completato attraverso campagne appositamente progettate per gli utenti che hanno iniziato e non hanno completato un modulo online. Questo segmento verrà creato solo se vengono creati 2 eventi per l'avvio del modulo e il completamento del modulo.
 * **** Profilo Di Download Del File (Facoltativo): Raggiungete i potenziali clienti attraverso campagne progettate per coloro che hanno mostrato interesse scaricando un white paper o altro tipo di download. Questo segmento verrà creato solo se viene creato 1 evento per il corretto download dei file.
 * I clienti possono anche creare e pianificare segmenti di remarketing personalizzati in base alle esigenze dei propri utenti.
