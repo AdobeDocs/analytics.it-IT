@@ -1,36 +1,36 @@
 ---
-description: Di seguito sono riportati alcuni insidie comuni quando si utilizza Generatore di report con Power BI.
-seo-description: Di seguito sono riportati alcuni insidie comuni quando si utilizza Generatore di report con Power BI.
-seo-title: Risoluzione dei problemi dell'integrazione Power BI
-title: Risoluzione dei problemi dell'integrazione Power BI
-uuid: c 1 e 7 e 164-4 bc 6-4513-9332-92 c 53 be 021 cc
+description: Di seguito sono riportati alcuni errori comuni nell'utilizzo di Generatore di report con Power BI.
+seo-description: Di seguito sono riportati alcuni errori comuni nell'utilizzo di Generatore di report con Power BI.
+seo-title: Risoluzione dei problemi di integrazione di Power BI
+title: Risoluzione dei problemi di integrazione di Power BI
+uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Risoluzione dei problemi dell'integrazione Power BI
+# Risoluzione dei problemi di integrazione di Power BI
 
-Di seguito sono riportati alcuni insidie comuni quando si utilizza Generatore di report con Power BI.
+Di seguito sono riportati alcuni errori comuni nell'utilizzo di Generatore di report con Power BI.
 
-## Passaggio 1: Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
+## Passaggio 1: Errore di pubblicazione in Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
 
-I documenti di lavoro pianificati che richiedono la pubblicazione Power BI dipendono dai servizi Power BI per essere operativi. Due motivi principali per un errore di pubblicazione sono:
+Le cartelle di lavoro pianificate che richiedono la pubblicazione di Power BI dipendono dall'attivazione e dall'esecuzione dei servizi Power BI. Due motivi principali per la mancata pubblicazione sono:
 
-* Power BI services may be down.
+* I servizi Power BI potrebbero non essere disponibili.
 * L'utente che ha pianificato la cartella di lavoro non dispone più di credenziali account Microsoft valide.
 
-Ogni attività pianificata per Generatore di report ha tre tentativi per esecuzione pianificata:
+A ogni attività pianificata del Generatore di report vengono assegnati tre tentativi per esecuzione programmata:
 
-* Dopo il primo tentativo non riuscito, riceverete questo messaggio: " Impossibile pubblicare questa cartella di lavoro pianificata su Microsoft Power BI. Riproveremo più tardi.»
-* Dopo il secondo tentativo non riuscito, non viene visualizzato alcun messaggio.
-* Dopo il terzo tentativo non riuscito, riceverete questo messaggio: " Impossibile pubblicare questa cartella di lavoro su Power BI. "
+* Dopo il primo tentativo non riuscito, riceverai il messaggio seguente: ""Impossibile pubblicare la cartella di lavoro pianificata in Microsoft Power BI. Riproveremo a breve."
+* Dopo il secondo tentativo non riuscito, non verrà visualizzato alcun messaggio.
+* Dopo il terzo tentativo non riuscito, riceverai il messaggio seguente: "Impossibile pubblicare la cartella di lavoro in Power BI."
 
-## Passaggio 2: Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
+## Passaggio 2: Visualizzazioni interrotte in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
 
-Di seguito sono illustrati i motivi principali per visualizzare visualizzazioni interrotte dopo la pubblicazione delle richieste di Generatore di report a Power BI:
+Di seguito sono riportati i motivi principali per cui è possibile ottenere visualizzazioni interrotte dopo la pubblicazione delle richieste del Generatore di report in Power BI:
 
-* Hai modificato una richiesta in Generatore di report, ad esempio la modifica delle metriche o delle dimensioni e la successiva pubblicazione su Power BI. Le richieste di modifica possono interrompere le visualizzazioni.
+* È stata modificata una richiesta in Generatore di report, ad esempio la modifica di metriche o dimensioni, quindi ripubblicata in Power BI. Le richieste di modifica possono interrompere le visualizzazioni.
 * Hai eliminato una richiesta utilizzata in una visualizzazione.
 
