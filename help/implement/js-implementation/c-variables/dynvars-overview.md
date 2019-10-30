@@ -1,59 +1,57 @@
 ---
-description: Le variabili dinamiche consentono di copiare i valori da una variabile all'altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
+description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
 keywords: Implementazione di Analytics
-seo-description: Le variabili dinamiche consentono di copiare i valori da una variabile all'altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
+seo-description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
 seo-title: Variabili dinamiche
 solution: Analytics
 subtopic: Variabili
 title: Variabili dinamiche
 topic: Sviluppatore e implementazione
-uuid: 1 c 6 db 083-570 e -4 bc 4-858 d -84 cf 46 e 7 bec 8
+uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Variabili dinamiche
 
-Le variabili dinamiche consentono di copiare i valori da una variabile all'altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
+Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
 
-Le variabili dinamiche vengono utilizzate quando si acquisiscono gli stessi dati (ad esempio, codici di tracciamento campagna) in più variabili contemporaneamente. Questa è una prassi comune nei casi in cui i rapporti diversi offrono metriche uniche e importanti. For example, capturing internal search keywords in a [!UICONTROL Custom Conversion] variable and in a [!UICONTROL Custom Traffic] variable lets you view the [!UICONTROL Revenue] and the [!UICONTROL Weekly Unique Visitors] metrics associated with these keywords, respectively.
+Le variabili dinamiche vengono utilizzate quando si acquisiscono gli stessi dati (ad esempio, codici di tracciamento campagna) in più variabili contemporaneamente. Si tratta di una pratica comune nei casi in cui report diversi offrono metriche univoche e importanti. Ad esempio, l'acquisizione di parole chiave di ricerca interne in una [!UICONTROL Custom Conversion] variabile e in una [!UICONTROL Custom Traffic] variabile consente di visualizzare rispettivamente le [!UICONTROL Revenue] metriche e le [!UICONTROL Weekly Unique Visitors] metriche associate a tali parole chiave.
 
-Le variabili dinamiche sono utili anche per visualizzare i dati in varie condizioni di reporting. Un codice di tracciamento campagna può essere acquisito in più evar con diverse impostazioni di scadenza e di scadenza cookie. Questo consente agli utenti di scegliere il modo in cui attribuire le metriche di conversione a queste campagne.
+Le variabili dinamiche sono utili anche per visualizzare i dati in varie condizioni di reporting. Un codice di tracciamento campagna può essere acquisito in più eVar con diverse impostazioni di allocazione e scadenza cookie. Questo consente agli utenti di scegliere il modo in cui attribuire le metriche di conversione a queste campagne.
 
->[!NOTE]
->
->Le variabili dinamiche non sono supportate in combinazione con cookie (s_ cc, s_ sq, s_ fid, s_ vi e cookie impostati da un plug-in). `D=<cookie value>`Non è possibile utilizzare.
+> [!NOTE] Le variabili dinamiche non sono supportate insieme ai cookie (s_cc, s_sq, s_fid, s_vi e qualsiasi cookie impostato da un plug-in). Non puoi usare `D=<cookie value>`.
 
-Un vantaggio significativo delle variabili dinamiche è la capacità di acquisire stringhe lunghe di dati in più variabili, senza passare più volte la stringa lunga. Alcuni browser limitano la lunghezza massima delle richieste HTTP GET (inclusa la richiesta di immagine Adobe). L'utilizzo delle variabili dinamiche garantisce che tutti i dati vengano acquisiti riducendo la lunghezza della richiesta ai server Adobe nei casi in cui i dati vengono duplicati su più variabili.
+Un vantaggio significativo delle variabili dinamiche è la capacità di acquisire lunghe stringhe di dati in più variabili senza passare la stringa lunga ripetutamente. Alcuni browser limitano la lunghezza massima delle richieste HTTP GET (inclusa la richiesta di immagini Adobe). L'utilizzo di variabili dinamiche garantisce che tutti i dati vengano acquisiti riducendo la lunghezza della richiesta ai server Adobe nei casi in cui i dati vengono duplicati su più variabili.
 
-In the Adobe image request that occurs on the page view, if you are using dynamic variables to copy the value of [!UICONTROL Custom Traffic 1] to [!UICONTROL Custom Conversion 1], you would see `v1=D=c1`. If eVar1 received a value previously in the request, Adobe's servers dynamically copy the value of [!UICONTROL Custom Traffic 1] to [!UICONTROL Custom Conversion 1] during data processing. As a result, the value originally passed using [!UICONTROL Custom Traffic 1] also appears in the [!UICONTROL Custom Conversion 1] reports.
+Nella richiesta di immagine Adobe che si verifica nella visualizzazione pagina, se utilizzate variabili dinamiche per copiare il valore di [!UICONTROL Custom Traffic 1] in [!UICONTROL Custom Conversion 1], vedrete `v1=D=c1`. Se eVar1 ha ricevuto un valore in precedenza nella richiesta, i server Adobe copiano in modo dinamico il valore di [!UICONTROL Custom Traffic 1] in [!UICONTROL Custom Conversion 1] durante l'elaborazione dei dati. Di conseguenza, nei [!UICONTROL Custom Traffic 1] rapporti appare [!UICONTROL Custom Conversion 1] anche il valore passato originariamente con l'aiuto.
 
-Dynamic variables are passed by setting a variable to the desired value and then setting other variables to `D=[variable abbreviation]`. For abbreviations for each variable, see [Data Collection Query Parameters](../../../implement/js-implementation/data-collection/query-parameters.md). Le variabili dinamiche possono estrarre dati dalle posizioni seguenti:
+Le variabili dinamiche vengono passate impostando una variabile sul valore desiderato e quindi impostando altre variabili su `D=[variable abbreviation]`. Per le abbreviazioni di ciascuna variabile, vedi Parametri [query raccolta](../../../implement/js-implementation/data-collection/query-parameters.md)dati. Le variabili dinamiche possono estrarre i dati dalle seguenti posizioni:
 
-* Altre variabili di stringa query
-* Intestazioni HTTP (fatta eccezione per l'intestazione HTTP cookie)
+* Altre variabili query-stringa
+* Intestazioni HTTP (tranne l’intestazione Cookie HTTP)
 
-Per creare una variabile dinamica, aggiungi un prefisso speciale all'inizio del valore. Il prefisso predefinito è "D =". Esistono due metodi per segnalazione di variabili dinamiche:
+Per creare una variabile dinamica, aggiungete un prefisso speciale all’inizio del valore. Il prefisso predefinito è "D=". Esistono due metodi per contrassegnare le variabili dinamiche:
 
-* Utilizzate un prefisso predefinito D = (ad esempio: s. prop 1 = "D = User-Agent")
-* Per le implementazioni non javascript, potete definire un prefisso personalizzato utilizzando il parametro di stringa query «D». For example, if the query-string parameter is `"&D=$"`, you can create a dynamic variable with the following command: `s.prop1="$User-Agent"` .
+* Usate il prefisso predefinito D= (ad esempio: s.prop1="D=User-Agent" )
+* Per le implementazioni non JavaScript, potete definire un prefisso personalizzato utilizzando il parametro della stringa di query "D". Ad esempio, se il parametro della stringa query è `"&D=$"`, è possibile creare una variabile dinamica con il seguente comando: `s.prop1="$User-Agent"` .
 
-L'abbreviazione variabile utilizzata deve corrispondere al nome del parametro variabile trasmesso nella richiesta di immagine. Alcune variabili presentano più parametri accettati in casi diversi. For example, `pageName=` and `gn=` both pass the page name, but the latter is most often used in mobile and hard-coded implementations. If the image request uses `pageName=` to pass the page name, then `D=pageName` is acceptable but `D=gn` is not. If the image request uses `gn=`, then `D=gn` is acceptable, but `D=pageName` is not.
+L’abbreviazione della variabile utilizzata deve corrispondere al nome del parametro della variabile passato nella richiesta di immagine. Alcune variabili presentano più parametri accettati utilizzati in casi diversi. Ad esempio, `pageName=` e `gn=` entrambi passano il nome della pagina, ma questi ultimi vengono utilizzati più spesso nelle implementazioni per dispositivi mobili e con codice rigido. Se la richiesta di immagine viene utilizzata `pageName=` per passare il nome della pagina, `D=pageName` è accettabile ma non lo `D=gn` è. Se la richiesta di immagine viene utilizzata `gn=`, `D=gn` è accettabile, ma non `D=pageName` lo è.
 
-Le informazioni seguenti si applicano alle variabili dinamiche:
+Le seguenti informazioni si applicano alle variabili dinamiche:
 
-* Le variabili dinamiche funzionano con tutte le versioni del codice appmeasurement.
-* Le variabili dinamiche sono con distinzione tra maiuscole e minuscole.
+* Le variabili dinamiche funzionano con tutte le versioni del codice AppMeasurement.
+* Le variabili dinamiche fanno distinzione tra maiuscole e minuscole.
 * Le variabili dinamiche supportano stringhe letterali contenute tra virgolette.
-* La sostituzione variabile dinamica si verifica prima delle regole di elaborazione, VISTA e di altro tipo.
-* Il prefisso variabile dinamico "D =" deve trovarsi all'inizio del valore della variabile non in mezzo. For example, use `c2='D="test7"+User-Agent'` rather than `c2='"test7"+D=User-Agent'` .
+* La sostituzione della variabile dinamica avviene prima delle regole di elaborazione, VISTA e altre elaborazioni.
+* Il prefisso della variabile dinamica "D=" deve trovarsi all’inizio del valore della variabile non al centro. Ad esempio, utilizzate `c2='D="test7"+User-Agent'` anziché `c2='"test7"+D=User-Agent'` .
 
-* Come per tutte le tecniche di implementazione, Adobe consiglia vivamente di testare le implementazioni dinamiche delle variabili in un ambiente di sviluppo prima di distribuire alla produzione. Poiché le stringhe complete copiate non sono visibili negli strumenti di debug lato client, controlla i report di Analytics interessati per confermare l'implementazione corretta.
-* Durante la copia di valori tra variabili con lunghezze massime diverse, notare che la copia di un valore che superi la lunghezza massima della variabile di destinazione causa il troncamento. For example, [!UICONTROL Custom Traffic] variables have 100-character limits and [!UICONTROL Custom Conversion] variables have 255-characters limits. When copying a 150-character value from s.eVar1 to s.prop1 using dynamic variables, this value is truncated in the [!UICONTROL Custom Traffic] report at 100 characters.
+* Come per tutte le tecniche di implementazione, Adobe consiglia vivamente di sottoporre a test implementazioni di variabili dinamiche in un ambiente di sviluppo molto complesso prima di distribuirle in produzione. Poiché le stringhe complete copiate non sono visibili negli strumenti di debug sul lato client, controlla i report di Analytics interessati per confermare l'implementazione corretta.
+* Durante la copia di valori tra variabili con lunghezze massime diverse, tenere presente che la copia di un valore superiore alla lunghezza massima della variabile di destinazione causa il troncamento. Ad esempio, [!UICONTROL Custom Traffic] le variabili hanno un limite di 100 caratteri e [!UICONTROL Custom Conversion] le variabili hanno un limite di 255 caratteri. Quando si copia un valore di 150 caratteri da s.eVar1 a s.prop1 utilizzando variabili dinamiche, questo valore viene troncato nel [!UICONTROL Custom Traffic] rapporto a 100 caratteri.
 
-## Dynamic Variable Examples {#section_5CE4468D978540FBA384B9D6477C92EC}
+## Esempi di variabili dinamiche {#section_5CE4468D978540FBA384B9D6477C92EC}
 
 <!-- 
 
@@ -63,61 +61,63 @@ dynvars_examples.xml
 
 Esempi di variabili dinamiche utilizzabili in Analytics.
 
-In the Adobe image request that occurs on the page view, if you are using dynamic variables to copy the value of [!UICONTROL Custom Traffic 1] to [!UICONTROL Custom Conversion 1], you would see `v1=D=c1`. If eVar1 received a value previously in the request, Adobe's servers dynamically copy the value of [!UICONTROL Custom Traffic 1] to [!UICONTROL Custom Conversion 1] during data processing. As a result, the value originally passed using [!UICONTROL Custom Traffic 1] also appears in the [!UICONTROL Custom Conversion 1] reports.
+Nella richiesta di immagine Adobe che si verifica nella visualizzazione pagina, se utilizzate variabili dinamiche per copiare il valore di [!UICONTROL Custom Traffic 1] in [!UICONTROL Custom Conversion 1], vedrete `v1=D=c1`. Se eVar1 ha ricevuto un valore in precedenza nella richiesta, i server Adobe copiano in modo dinamico il valore di [!UICONTROL Custom Traffic 1] in [!UICONTROL Custom Conversion 1] durante l'elaborazione dei dati. Di conseguenza, nei [!UICONTROL Custom Traffic 1] rapporti appare [!UICONTROL Custom Conversion 1] anche il valore passato originariamente con l'aiuto.
 
-Note that the `D=[variable]` value should be in quotes. Il codice Analytics considera questa stringa come una stringa. La stringa verrà codificata in URL quando viene trasmessa in Analytics (come vedrete se visualizzate la richiesta in digitalpulse Debugger o in un'utility simile). Questo è normale. Adobe's servers recognize the `D=[variable]` construction and will copy the appropriate value when they encounter this string.
+Il `D=[variable]` valore deve essere racchiuso tra virgolette. Il codice Analytics lo gestisce come una stringa. La stringa verrà codificata tramite URL quando viene passata in Analytics (come vedrete se visualizzi la richiesta nel DigitalPulse Debugger o in un'utilità simile). Questo è normale. I server di Adobe riconoscono la `D=[variable]` costruzione e copiano il valore appropriato quando incontrano questa stringa.
 
->[!NOTE]
->
->Quando si utilizza la richiesta di immagine per tenere traccia dei collegamenti, il tipo di collegamento (download = lnk_ d, exit = lnk_ e o custom link = lnk_ o) deve essere definito, così come l'URL/nome collegamento (pev 2). Links require manual implementation by inserting code within the `<a href>` tag.
+> [!NOTE] Quando si utilizza la richiesta di immagine per tracciare i collegamenti, è necessario definire il tipo di collegamento (download=lnk_d, exit=lnk_e o collegamento personalizzato=lnk_o), così come l’URL/nome collegamento (pev2). I collegamenti richiedono l’implementazione manuale mediante l’inserimento di codice all’interno del `<a href>` tag .
 
->[!NOTE]
->
->Le variabili dinamiche non sono supportate in combinazione con cookie (s_ cc, s_ sq, s_ fid, s_ vi e cookie impostati da un plug-in). `D=<cookie value>`Non è possibile utilizzare.
+> [!NOTE] Le variabili dinamiche non sono supportate insieme ai cookie (s_cc, s_sq, s_fid, s_vi e qualsiasi cookie impostato da un plug-in). Non puoi usare `D=<cookie value>`.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Esempio javascript </th> 
+   <th colname="col1" class="entry"> Esempio JavaScript </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">s. evar 1 = "D = pagename" </code>
-  </td> 
-   <td colname="col2"> <p>Acquisisce il valore pagename in evar 1. </p> </td> 
+    <code class="syntax javascript">
+      s.eVar1="D=pageName" 
+    </code> </td> 
+   <td colname="col2"> <p>Acquisisce il valore pageName in eVar1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">s. prop 1 ='D = v 2 + ": " + c 2 '&amp; amp; nbsp; </code>
-  </td> 
-   <td colname="col2"> <p>Concatena evar 2: prop 2 in prop 1. </p> </td> 
+    <code class="syntax javascript">
+      s.prop1='D=v2+":"+c2'&amp;nbsp; 
+    </code> </td> 
+   <td colname="col2"> <p>Concatenata eVar2:prop2 in prop1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">s. prop 1 = s. evar 1 = "D = g" &amp; amp; nbsp; </code>
-  </td> 
-   <td colname="col2"> <p>Trasmette l'URL della pagina sia a prop 1 che evar 1. </p> </td> 
+    <code class="syntax javascript">
+      s.prop1=s.eVar1="D=g"&amp;nbsp; 
+    </code> </td> 
+   <td colname="col2"> <p>Trasmette l’URL della pagina sia in prop1 che in eVar1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">s. evar 1 = "D = v 0" </code>
-  </td> 
-   <td colname="col2"> <p>Acquisisce la campagna in evar 1. </p> </td> 
+    <code class="syntax javascript">
+      s.eVar1="D=v0" 
+    </code> </td> 
+   <td colname="col2"> <p>Cattura la campagna in eVar 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">s. prop 1 ='D = User-Agent + "; - " + Accept-Language" </code>
-  </td> 
-   <td colname="col2"> <p>Concatena l'agente utente e accetta le intestazioni del linguaggio in prop 1. </p> </td> 
+    <code class="syntax javascript">
+      s.prop1='D=User-Agent+" ;- "+Accept-Language' 
+    </code> </td> 
+   <td colname="col2"> <p>Concatena l'agente utente e accetta le intestazioni della lingua in prop1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code>s. prop 1 = "D = User-Agent" </code>
-  </td> 
-   <td colname="col2"> <p>Acquisisce l'agente utente in prop 1, </p> </td> 
+    <code>
+      s.prop1="D=User-Agent" 
+    </code> </td> 
+   <td colname="col2"> <p>Acquisisce l’agente utente in prop1, </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,38 +132,44 @@ Note that the `D=[variable]` value should be in quotes. Il codice Analytics cons
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">/b/ss/rsid/? gn = Home &amp; D = ~ ~ &amp; c 1 = ~ ~ v 0 /b/ss/rsid/? gn = Home &amp; D = ~ ~ &amp; c 1 = ~ ~ campaign /b/ss/rsid/? gn = Home &amp; c 1 = D % 3 dv 0% 3 d is /b/ss/rsid/? gn = Home &amp; c 1 = % 5 b % 5 bv 0% 5 d % 5 d % 5 b </code>
-  </td> 
-   <td colname="col2"> <p>Quattro modi per impostare prop 1 su una campagna </p> </td> 
+    <code class="syntax javascript">
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+    </code> </td> 
+   <td colname="col2"> <p>Quattro modi per impostare prop1 su una campagna </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code>/b/ss/rsid/? gn = Home &amp; D = ~ ~ &amp; c 2 = ~ ~ x-up-subno </code>
-  </td> 
-   <td colname="col2"> <p> Estrae l'intestazione x-up-subno in prop 2 </p> </td> 
+    <code>
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c2=~~x-up-subno 
+    </code> </td> 
+   <td colname="col2"> <p> Inserisce l'intestazione x-su-subno in prop2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code>c 1 = D % 3 duser-Agent </code>
-  </td> 
-   <td colname="col2"> <p> Imposta prop 1 su una variabile dinamica riempita con l'intestazione HTTP dell'agente utente </p> </td> 
+    <code>
+      c1=D%3DUser-Agent 
+    </code> </td> 
+   <td colname="col2"> <p> Rende prop1 una variabile dinamica riempita con l'intestazione HTTP User-Agent </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">&amp; c 1 = D % 3 D % 22 test % 22 </code>
-  </td> 
-   <td colname="col2"> <p> Imposta prop 1 su variabile dinamica riempita con la stringa "test". Questo diventa più utile se utilizzato con la concatenazione che utilizza l'operatore +. </p> </td> 
+    <code class="syntax javascript">
+      &amp;c1=D%3D%22test%22 
+    </code> </td> 
+   <td colname="col2"> <p> Rende prop1 una variabile dinamica riempita con la stringa "test". Questo risulta più utile se utilizzato con la concatenazione che utilizza l'operatore +. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">&amp; c 1 = D % 3 D % 22 US % 3 A % 20% 22% 2 buser-Agent </code>
-  </td> 
-   <td colname="col2"> <p> Rende prop 1 una variabile dinamica riempita con l'agente utente prefissato da "UA: " " </p> </td> 
+    <code class="syntax javascript">
+      &amp;c1=D%3D%22US%3A%20%22%2BUser-Agent 
+    </code> </td> 
+   <td colname="col2"> <p> Rende prop1 una variabile dinamica riempita con l'agente utente con il prefisso "UA:" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <code class="syntax javascript">&amp; vid = D % 3 DX-TM-ANTID </code>
-  </td> 
+    <code class="syntax javascript">
+      &amp;vid=D%3DX-TM-ANTID 
+    </code> </td> 
    <td colname="col2"> <p> Questo esempio cerca un'intestazione univoca, che in questo caso è X-TM-ANTID. </p> </td> 
   </tr> 
  </tbody> 
