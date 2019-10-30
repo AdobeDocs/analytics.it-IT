@@ -1,33 +1,33 @@
 ---
-description: Passaggi amministrativi per abilitare i rapporti Activity Map in Analytics.
-seo-description: Passaggi amministrativi per abilitare i rapporti Activity Map in Analytics.
-seo-title: Generazione rapporti Activity Map
+description: Passaggi amministrativi per l'abilitazione del reporting Activity Map in Analytics.
+seo-description: Passaggi amministrativi per l'abilitazione del reporting Activity Map in Analytics.
+seo-title: Reportistica di Activity Map
 solution: Analytics
-title: Generazione rapporti Activity Map
+title: Reportistica di Activity Map
 topic: Rapporti
-uuid: 7636 c 670-bb 6 c -4 a 25-823 a -7 bbbba 0 b 747 b
+uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Generazione rapporti Activity Map
+# Reportistica di Activity Map
 
-Passaggi amministrativi per abilitare i rapporti Activity Map in Analytics.
+Passaggi amministrativi per l'abilitazione del reporting Activity Map in Analytics.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Activity Map]** &gt; **[!UICONTROL Activity Map Reporting]**
 
-Consente ad Analytics di raccogliere l'attività utente trasmessa dalla Mappa dell'attività (precedentemente clickmap). Questa integrazione
+Consente ad Analytics di raccogliere l'attività utente fornita dalla Activity Map (precedentemente ClickMap). Questa integrazione
 
-* Abilita i rapporti in Analytics.
-* Adds new reports under **[!UICONTROL View All Reports]** &gt; **[!UICONTROL Activity Map:]**
+* Abilita il reporting in Analytics.
+* Aggiunge nuovi report in **[!UICONTROL View All Reports]** &gt; **[!UICONTROL Activity Map:]**
 
    | Report  | Descrizione |
    |---|---|
    | Pagina della Activity Map | Elenca le pagine in cui è stato fatto clic su un collegamento. |
-   | Regione Activity Map | Elenca tutte le aree collegate ai collegamenti in tutto il sito Web. Se un'area viene visualizzata su più pagine, la metrica verrà aggregata in tutte le relative pagine. |
+   | Regione Activity Map | Elenca tutte le aree di collegamento raccolte nell'intero sito Web. Se un'area viene visualizzata su più pagine, la metrica verrà aggregata tra tutte le pagine. |
    | Collegamenti Activity Map | Elenca tutti i collegamenti raccolti nell'intero sito Web. |
-   | Collegamenti e regione dell'attività | Elenca tutti i collegamenti raccolti con la propria regione nell'intero sito Web. |
+   | Collegamenti Activity Map e regione | Elenca tutti i collegamenti raccolti con la relativa area geografica nell'intero sito Web. |
 
-For data to be populated, refer to the [Activity Map documentation](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/) for complete implementation instructions.
+Per i dati da compilare, consultate la documentazione [Mappa](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/) attività per istruzioni di implementazione complete.
