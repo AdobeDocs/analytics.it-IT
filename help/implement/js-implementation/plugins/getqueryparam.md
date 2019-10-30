@@ -1,44 +1,40 @@
 ---
-description: Restituisce il valore di un parametro stringa query specificato, se trovato nell'URL della pagina corrente. Dato che dati importanti (ad esempio, codici di tracciamento campagna, parole chiave di ricerca interna, ecc.) è disponibile nella stringa query su una pagina, getqueryparam è utile per acquisire i dati in variabili Analytics.
+description: Restituisce il valore di un parametro di stringa di query specificato, se presente nell’URL della pagina corrente. Perché dati importanti (come codici di tracciamento campagna, parole chiave di ricerca interne, ecc.) è disponibile nella stringa di query su una pagina, getQueryParam consente di acquisire i dati nelle variabili di Analytics.
 keywords: Implementazione di Analytics
-seo-description: Restituisce il valore di un parametro stringa query specificato, se trovato nell'URL della pagina corrente. Dato che dati importanti (ad esempio, codici di tracciamento campagna, parole chiave di ricerca interna, ecc.) è disponibile nella stringa query su una pagina, getqueryparam è utile per acquisire i dati in variabili Analytics.
-seo-title: Getqueryparam
+seo-description: Restituisce il valore di un parametro di stringa di query specificato, se presente nell’URL della pagina corrente. Perché dati importanti (come codici di tracciamento campagna, parole chiave di ricerca interne, ecc.) è disponibile nella stringa di query su una pagina, getQueryParam consente di acquisire i dati nelle variabili di Analytics.
+seo-title: getQueryParam
 solution: Analytics
 subtopic: Plug-in
-title: Getqueryparam
+title: getQueryParam
 topic: Sviluppatore e implementazione
-uuid: ba 202756-c 728-4 ebc -8 fd 9-5 bc 29 a 9 f 673 b
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Getqueryparam
+# getQueryParam
 
-Restituisce il valore di un parametro stringa query specificato, se trovato nell'URL della pagina corrente. Dato che dati importanti (ad esempio, codici di tracciamento campagna, parole chiave di ricerca interna, ecc.) è disponibile nella stringa query su una pagina, getqueryparam è utile per acquisire i dati in variabili Analytics.
+Restituisce il valore di un parametro di stringa di query specificato, se presente nell’URL della pagina corrente. Perché dati importanti (come codici di tracciamento campagna, parole chiave di ricerca interne, ecc.) è disponibile nella stringa di query su una pagina, getQueryParam consente di acquisire i dati nelle variabili di Analytics.
 
 >[!IMPORTANT]
 >
->Questo plug-in viene utilizzato solo da codice H. [Appmeasurement per javascript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) fornisce questa funzionalità in modo nativo tramite [Util. getqueryparam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Questo plug-in è utilizzato solo dal codice H. [AppMeasurement per JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) fornisce questa funzionalità in modo nativo utilizzando [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. Il plug-in rileva la stringa query specificata, se presente, e inserisce in esso la variabile selezionata. Se non viene trovato alcun parametro di stringa query con quel valore, viene restituita una stringa vuota. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+Una volta installato nel [!DNL AppMeasurement] codice JavaScript, il plug-in viene configurato selezionando una [!DNL Analytics] variabile da compilare utilizzando i dati presenti nella stringa di query e specificando i valori stringa di query da acquisire. Il plug-in rileva la stringa di query specificata, se presente, e compila la variabile scelta con il relativo valore. Se con tale valore non viene trovato alcun parametro di stringa di query, viene restituita una stringa vuota. Se un parametro di stringa di query esiste ma non ha un valore (come param1 in `?param1&param2=value`), viene restituita la parola *`true`* .
 
->[!NOTE]
->
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+> [!NOTE] Il codice di base per il plug-in deve essere installato nel codice JavaScript [!DNL AppMeasurement] per consentire il funzionamento degli esempi seguenti.
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+Se desiderate utilizzare *`s.campaign`* per acquisire i codici di tracciamento campagna disponibili come valori del parametro di *`cid`* query, immettete quanto segue nella *`doPlugins()`* funzione nel codice [!DNL AppMeasurement] per JavaScript:
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. This could be seen using the [!DNL DigitalPulse] [!UICONTROL Debugger], which should show *v0=123456* as part of the image request.
+In questo esempio, se l’utente arrivava a una pagina di destinazione sul sito in cui si trovava l’URL, [!DNL https://www.yoursite.com/index.html?cid=123456]riceverebbe un valore pari a *`s.campaign`* 123456 **. Questo potrebbe essere visualizzato utilizzando il [!DNL DigitalPulse] file [!UICONTROL Debugger], che dovrebbe mostrare *v0=123456* come parte della richiesta di immagine.
 
->[!NOTE]
->
->The parameter *`cid`* and others are used here as examples. Potete sostituirli con eventuali parametri stringa di query presenti sul sito.
+> [!NOTE] Il parametro *`cid`* e altri sono utilizzati come esempi. Potete sostituirli con eventuali parametri di stringa di query presenti sul sito.
 
-The *`getQueryParam`* plug-in has two additional arguments (options) that can be used to capture data into Analytics variables:
+Il *`getQueryParam`* plug-in dispone di due argomenti aggiuntivi (opzioni) che possono essere utilizzati per acquisire dati in variabili Analytics:
 
 ```js
 s.getQueryParam('p','d','u') 
@@ -49,7 +45,7 @@ d = delimiter for list of values (in case more than one specified parameter is f
 u = where to search for value (e.g., document.referrer); set to current page URL by default
 ```
 
-If *p* is a list of query string parameters and more than one query string parameter is found in the URL, all values are returned in a list separated by the delimiter, *d*, which can be a single character or a string of characters, such as " : " (space-colon-space). *Se d* viene omesso, tra i valori non viene utilizzato alcun delimitatore. If one query string parameter should take precedence over another, when both are found, use an *if* statement as shown below.
+Se *p* è un elenco di parametri di stringa di query e nell’URL si trova più di un parametro di stringa di query, tutti i valori vengono restituiti in un elenco separato dal carattere di delimitazione, *d*, che può essere un singolo carattere o una stringa di caratteri, ad esempio " : " (spazio-due punti). Se *d* viene omesso, non viene utilizzato alcun delimitatore tra i valori. Se un parametro della stringa di query ha la precedenza su un altro, quando entrambi vengono trovati, utilizzare un'istruzione *if* come illustrato di seguito.
 
 ```js
 // cid takes precedence over iid if both exist in the query string 
@@ -58,25 +54,23 @@ s.campaign=s.getQueryParam('cid');
  s.campaign=s.getQueryParam('iid'); 
 ```
 
-As of version *`getQueryParam`* v2.0, the plug-in accepts an optional third argument, *u*, which allows you to specify the URL from which you would like to extract query string parameters. Per impostazione predefinita (ovvero se questo terzo argomento viene omesso o lasciato vuoto), il plug-in utilizza l'URL della pagina. Ad esempio, se desiderate estrarre una stringa di query dal referente, potete utilizzare il seguente codice:
+A partire dalla versione *`getQueryParam`* v2.0, il plug-in accetta un terzo argomento opzionale, *u*, che consente di specificare l'URL dal quale si desidera estrarre i parametri delle stringhe di query. Per impostazione predefinita (ovvero se questo terzo argomento viene omesso o lasciato vuoto), il plug-in utilizza l’URL della pagina. Ad esempio, se desiderate estrarre una stringa di query dal referente, potete utilizzare il seguente codice:
 
 ```js
 // take the query string from the referrer 
  s.eVar1=s.getQueryParam('pid','',document.referrer); 
 ```
 
-Il flag "f" deve essere utilizzato in questo terzo argomento con frame, quando il parametro di stringa query necessario viene trovato nella barra degli indirizzi anziché nell'URL della cornice corrente:
+Il flag "f" deve essere utilizzato in questo terzo argomento con i frame, quando il parametro della stringa di query necessario viene trovato nella barra degli indirizzi e non nell'URL del frame corrente:
 
 ```js
 // take the query string from the parent frame 
  s.eVar1=s.getQueryParam('pid','',f); 
 ```
 
-When using frames and the *f* parameter, it is recommended that the *`getValOnce`* plug-in be used to prevent the campaign tracking code to be sent with each page view.
+Quando utilizzate i frame e il parametro *f* , si consiglia di utilizzare il *`getValOnce`* plug-in per impedire che il codice di tracciamento della campagna venga inviato con ciascuna visualizzazione di pagina.
 
->[!NOTE]
->
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
 **Codice plug-in**
 
