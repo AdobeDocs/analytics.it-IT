@@ -1,14 +1,14 @@
 ---
-description: Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storico.
+description: Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storici.
 keywords: Implementazione di Analytics
-seo-description: Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storico.
+seo-description: Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storici.
 seo-title: Attribuzione e persistenza
 solution: Analytics
 title: Attribuzione e persistenza
 topic: Sviluppatore e implementazione
-uuid: 5 dd 706 be -83 f 6-498 a-a 856-e 3 c 5 af 995348
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,52 +17,52 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Fai riferimento alla documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud Device Co-op.
 
-Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storico.
+Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storici.
 
-* When the variable `s.visitorID` is set and sent on a hit, the system checks for any other visitor profiles that have a matching visitor ID.
-* Se esiste un profilo, il profilo visitatore già presente nel sistema viene usato da quel momento in poi e il profilo visitatore precedente non viene più utilizzato.
+* Quando la variabile `s.visitorID` viene impostata e inviata su un hit, il sistema verifica la presenza di qualsiasi altro profilo visitatore con un ID visitatore corrispondente.
+* Se esiste un profilo, il profilo visitatore già presente nel sistema viene utilizzato da quel momento in poi e il profilo visitatore precedente non viene più utilizzato.
 * Se non viene trovato alcun ID visitatore corrispondente, viene creato un nuovo profilo.
 
-Quando un cliente autenticato arriva per la prima volta al sito, al cliente viene assegnato un profilo visitatore da Adobe Analytics. As shown in [Unique Visitor and Visits Counts](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), on authentication a new profile is created. Quando viene creato il nuovo profilo, una visita termina e inizia un'altra visita.
+Quando un cliente non autenticato arriva per la prima volta sul sito, ad esso viene assegnato un profilo visitatore da Adobe Analytics. Come mostrato in Conteggio visitatori e visite [univoci](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), al momento dell'autenticazione viene creato un nuovo profilo. Quando viene creato il nuovo profilo, una visita termina e un'altra inizia.
 
 **Sulla prima connessione dati**
 
-L'esempio seguente è una rappresentazione del modo in cui i dati vengono inviati ad Adobe Analytics quando un cliente si autentica per la prima volta, sul primo dispositivo:
+L'esempio seguente è una rappresentazione di come i dati vengono inviati ad Adobe Analytics quando un cliente si autentica per la prima volta, sul primo dispositivo:
 
 * `eVar16` ha una scadenza di 1 giorno e `evar17` scade alla visita.
 
-* The `post_visitor_id` column represents the profile maintained by Adobe Analytics.
-* The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
+* La `post_visitor_id` colonna rappresenta il profilo gestito da Adobe Analytics.
+* Le colonne `post_evar16` e `post_evar17` mostrano la persistenza delle eVar.
 
 * `cust_visid` rappresenta un valore impostato in `s.visitorID`.
 
-* Ogni riga è un'hit, una singola richiesta inviata ai server di raccolta dati di Adobe Analytics.
+* Ogni riga corrisponde a un "hit", una singola richiesta inviata ai server di raccolta dati di Adobe Analytics.
 
 ![](assets/xdevice_first.jpg)
 
-On the first data connection containing a previously unrecognized `s.visitorID` value ( `u999` above), the new profile is created. I valori persistenti del profilo precedente vengono trasferiti al nuovo profilo.
+Nella prima connessione dati contenente un `s.visitorID` valore non riconosciuto in precedenza ( `u999` sopra), viene creato il nuovo profilo. I valori persistenti del profilo precedente vengono trasferiti al nuovo profilo.
 
-* Le evar impostate per la scadenza della visita non vengono copiate nel profilo autenticato. Note the value `car` above is not persisted.
-* Le evar impostate per scadere da altre misure verranno copiate nel profilo autenticato. Note the value `apple` is persisted.
-* Per le evar persistenti, non viene registrata alcuna metrica Instance (Istanza). Ciò significa che quando si utilizza l'identificazione dei visitatori cross-device, è possibile visualizzare i rapporti in cui la metrica Visite uniche per un valore evar è più grande della metrica Instance (Istanza).
+* Le eVar impostate per scadere alla visita non vengono copiate nel profilo autenticato. Il valore `car` sopra riportato non è persistente.
+* Le eVar impostate per scadere da altre misure verranno copiate nel profilo autenticato. Il valore `apple` è persistente.
+* Per le eVar persistenti, non viene registrata alcuna metrica Instance (Istanza). Questo significa che quando si utilizza l'identificazione visitatore tra dispositivi, è possibile visualizzare rapporti in cui la metrica Visite univoche per un valore eVar è maggiore della metrica Istanza.
 
-**Connessioni dati successive**
+**Nelle successive connessioni dati**
 
-L'esempio seguente è una rappresentazione del modo in cui i dati vengono inviati ad Adobe Analytics quando un cliente si autentica su un nuovo dispositivo, dopo l'autenticazione in un dispositivo diverso:
+L'esempio seguente è una rappresentazione di come i dati vengono inviati ad Adobe Analytics quando un cliente si autentica su un nuovo dispositivo, dopo che è stato precedentemente autenticato su un dispositivo diverso:
 
 ![](assets/xdevice-subsequent.jpg)
 
-When the customer authenticates his or her id is matched to the previous 'authenticated' profile - `2947539300`. The profile used at the start of this visit ( `5477766334477`) is no longer used and no data persists from the file.
+Quando il cliente esegue l'autenticazione del proprio ID viene confrontato con il profilo "autenticato" precedente - `2947539300`. Il profilo utilizzato all'inizio della visita ( `5477766334477`) non è più utilizzato e il file non contiene dati.
 
-* I dati della geolocalizzazione vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato. Ciò significa che in una nuova connessione dati su un nuovo dispositivo, i dati di geolocalizzazione non sono generalmente inclusi.
-* Le colonne della tecnologia come browser, sistema operativo e profondità colore vengono registrate al primo hit di una visita. Come i valori di geolocalizzazione, questi non verranno copiati nel profilo cucito.
-* A Marketing Channel such as Direct or Internal which is commonly set up to not overwrite another channel will overwrite other channels on a subsequent data connection containing a first authentication for that device, such as the first authentication shown in [Unique Visitor and Visits Counts](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
+* I dati di geosegmentazione vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato. Ciò significa che in una connessione dati successiva su un nuovo dispositivo, i dati di geosegmentazione non sono in genere inclusi.
+* Le colonne tecnologiche come browser, sistema operativo e profondità del colore vengono registrate al primo hit di una visita. Come i valori di geosegmentazione, non saranno copiati nel profilo con punti.
+* Un Canale Marketing, come Diretto o Interno, comunemente configurato per non sovrascrivere un altro canale, sovrascriverà altri canali su una connessione dati successiva contenente una prima autenticazione per quel dispositivo, ad esempio la prima autenticazione mostrata in Conteggio Visitatori [univoci e Visite](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
 
 **Casi speciali**
 
-In alcuni altri casi i dati non vengono persistenti dall'autenticazione al profilo autenticato.
+In alcuni altri casi i dati non vengono memorizzati dal profilo non autenticato al profilo autenticato.
 
-* Se un utente è nuovo al sito (non ha mai visitato prima del dispositivo) E quell'utente si autentica entro circa 3 minuti dall'arrivo, nessun valore persiste al profilo autenticato.
+* Se un utente è nuovo al sito (non ha mai visitato prima su questo dispositivo) E che si autentica entro circa 3 minuti dall'arrivo, nessun valore persisterà nel profilo autenticato.
 
