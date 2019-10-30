@@ -5,7 +5,7 @@ seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,10 +21,10 @@ Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'
 | Campo | Descrizione |
 |--- |--- |
 | Suite di rapporti | La suite di rapporti che riceve i dati da questa integrazione. |
-| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'elenco Integrazione attiva della suite di rapporti. |
+| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'Elenco integrazione attiva della suite di rapporti. |
 | Indirizzo e-mail | Fornite un indirizzo e-mail per ricevere le informazioni relative all'integrazione. |
 | ID account | Questo è l’identificatore univoco assegnato all’organizzazione dal provider di servizi e-mail. Sarà utilizzato per richiedere i dati delle campagne e-mail (ad es. # Inviato, # Aperto, # Clic, ecc.) da e inviando segmenti di visitatori al provider di servizi e-mail. |
-| ID destinatario | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema di trasmissione di Reader®. Questo "ID destinatario" è associato al comportamento a valle dei visitatori sul sito (carrelli abbandonati, acquisti, ecc.) che viene inserito nel sistema di distribuzione del prodotto opzionale® e può essere sfruttato per scopi di remarketing. |
+| Recipient ID | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema di trasmissione di Reader®. Questo "ID destinatario" è associato al comportamento a valle dei visitatori sul sito (carrelli abbandonati, acquisti, ecc.) che viene inserito nel sistema di distribuzione del prodotto opzionale® e può essere sfruttato per scopi di remarketing. |
 | ID messaggio | (Obbligatorio) Memorizza l'ID univoco della posta. Queste dimensioni di classificazione vengono create dalla procedura guidata Connettori dati per l'ID messaggio: <br>a)**Campagne**: Campagne associate al messaggio. <br>b)**Canale**: Il canale di trasmissione, questo è costantemente "optivo broadcast". <br>c)Codice **** del paese: Questo campo contiene il codice del paese del paese mittente di origine. È una costante "DE". <br>d) **Strumento** di consegna: Metodo di trasmissione, sempre "Email".<br> e) Nome **** messaggio: Il nome della mailing, così come è configurato in optivo® broadcast. <br>f) Data **di** inizio: Timestamp dell'inizio della spedizione. |
 | Ora clic post | (Obbligatorio) Questa opzione è necessaria per trasmettere informazioni su un'azione del destinatario a un servizio di trasmissione optivo® dopo che il destinatario ha fatto clic su un collegamento in un messaggio. |
 | Post Click Product | (Obbligatorio) Questa opzione è necessaria per trasmettere informazioni su un'azione del destinatario a un servizio di trasmissione optivo® dopo che il destinatario ha fatto clic su un collegamento in un messaggio. |
