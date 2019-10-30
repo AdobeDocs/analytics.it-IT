@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Origini dati
 title: Elaborazione completa
 topic: Sviluppatore e implementazione
-uuid: 590 ae 89 c -6 e 17-453 b-b 701-ce 1 adbea 6 fa 4
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,30 +51,31 @@ Ad esempio, un utente con ID visitatore "user@example.com" visita il tuo sito da
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Nota: questa variabile è supportata anche da origini dati Standard come <code>codice valuta </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Codice valuta ricavi (ad esempio, USD) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Utilizzare il formato data ISO 8601 di <code>AAAA-MM-GGThh:mm:ss±UTC_offset</code> (ad esempio, <code>2013-09-01T12:00:00-07:00</code>), o il formato ora Unix (numero di secondi trascorsi dal 1 gennaio 1970). </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, es. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( <span class="varname"> Evar 1 </span> - <span class="varname"> evar 75 </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
+   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( eVar1 <span class="varname"> - </span> Var75 <span class="varname"> </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a>. </p> <p>Ad esempio: </p> 
-    <code>Cetd, event 1, event 7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, es. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome gerarchia. Puoi avere fino a 5 gerarchie ( <span class="varname"> hier 1 </span> - <span class="varname"> hier 5 </span>). </p> <p>You can specify the default hierarchy name ( <span class="varname"> hier2 </span>) or a friendly name ( <span class="term"> Yankees </span>). </p> </td> 
+   <td colname="col3"> <p>Nome gerarchia. Puoi avere fino a 5 gerarchie ( hier1 <span class="varname"> - </span> hier5 <span class="varname"> </span>). </p> <p>È possibile specificare il nome predefinito della gerarchia ( <span class="varname"> hier2 </span>) o un nome descrittivo ( <span class="term"> Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -114,10 +115,10 @@ Ad esempio, un utente con ID visitatore "user@example.com" visita il tuo sito da
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Elenco prodotti (ad esempio, <code>"Sport;Palla;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Elenco prodotti (ad esempio <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>prop 1 - prop 75 </p> </td> 
+   <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, es. &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
    <td colname="col3"> <p>Stringa Property# (ad esempio, <span class="term"> Sezione Sport </span>). </p> </td> 
   </tr> 
