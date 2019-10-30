@@ -1,34 +1,32 @@
 ---
-description: Passaggi per implementare il menu dei report semplificato in Reporting e analisi.
-seo-description: Passaggi per implementare il menu dei report semplificato in Reporting e analisi.
-seo-title: Menu dei rapporti semplificato
+description: Passaggi per implementare il menu dei report semplificati in Reporting e analisi.
+seo-description: Passaggi per implementare il menu dei report semplificati in Reporting e analisi.
+seo-title: Menu dei rapporti semplificati
 solution: Analytics
-title: Menu dei rapporti semplificato
+title: Menu dei rapporti semplificati
 topic: Strumenti di amministrazione
-uuid: cc 7023 e 4-9 e 28-477 e -9266-6 d 06 e 5379559
+uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Menu dei rapporti semplificato
+# Menu dei rapporti semplificati
 
-Passaggi per implementare il menu dei report semplificato in Reporting e analisi.
+Passaggi per implementare il menu dei report semplificati in Reporting e analisi.
 
-Il menu semplificato di Adobe Reporting e analisi consente di scegliere un menu alternativo e semplificato con cartelle ristrutturate sottostanti. Per impostazione predefinita, il menu semplificato presenta le seguenti opzioni:
+Il menu semplificato di Adobe Reports &amp; Analytics consente di applicare un menu alternativo e semplificato con cartelle ristrutturate al di sotto. Nel menu semplificato sono visualizzate le seguenti opzioni per impostazione predefinita:
 
 ![](assets/simplified-menu.png)
 
->[!NOTE]
->
->Tenete presente che l'applicazione del menu semplificato rimuove tutte le personalizzazioni eventualmente apportate alla struttura di menu predefinita. Implementa inoltre la struttura del menu semplificata per tutti i rapporti di marketing e gli utenti di analisi dell'organizzazione. Pensate attentamente alle ramificazioni (ad esempio la formazione sviluppata attorno alla struttura del menu esistente) prima di implementare questo nuovo menu, in quanto non potete ripristinare la personalizzazione nella struttura del menu esistente.
+> [!NOTE] L’applicazione del menu semplificato rimuove tutte le personalizzazioni eventualmente effettuate alla struttura di menu predefinita. Implementa inoltre la struttura del menu semplificata per tutti gli utenti di reporting e analisi di marketing della tua organizzazione. Prima di implementare questo nuovo menu, è necessario considerare attentamente le ramificazioni (come ad esempio la formazione sviluppata intorno alla struttura esistente), poiché non è possibile ripristinare alcuna personalizzazione nella struttura del menu esistente.
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the Report Suite Manager.
-1. Selezionate la suite di rapporti per la quale desiderate implementare la struttura del menu semplificata.
-1. Go to **[!UICONTROL Edit settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Customize Menus]**.
-1. Click **[!UICONTROL Restore Simplified]** to implement the simplified menu structure.
+1. Andate a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** per aprire Gestione suite di rapporti.
+1. Selezionate la suite di rapporti per la quale desiderate implementare la struttura di menu semplificata.
+1. Vai a **[!UICONTROL Edit settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Customize Menus]**.
+1. Fare clic **[!UICONTROL Restore Simplified]** per implementare la struttura del menu semplificata.
 
    ![](assets/restore-simplified.png)
 
-1. To go back to the (non-customized) default menu, click **[!UICONTROL Restore Defaults]**.
+1. Per tornare al menu predefinito (non personalizzato), fate clic **[!UICONTROL Restore Defaults]**.
