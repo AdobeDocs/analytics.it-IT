@@ -9,28 +9,26 @@ title: Variabili di configurazione
 topic: Sviluppatore e implementazione
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a340bb50ec437db64dafaddc0b20aec740aee299
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Panoramica delle variabili di configurazione
 
-Le variabili di configurazione controllano il modo in cui i dati vengono catturati ed elaborati nel reporting. The most-common configuration variables that are typically set in the main global JavaScript AppMeasurement.js). Queste variabili possono essere impostate all’interno del codice a livello di pagina di Analytics e, se appropriato, dei collegamenti.
+Le variabili di configurazione controllano il modo in cui i dati vengono catturati ed elaborati nel reporting. Le variabili di configurazione più comuni, solitamente impostate nel JavaScript AppMeasurement.js globale principale. Queste variabili possono essere impostate all’interno del codice a livello di pagina di Analytics e, se appropriato, dei collegamenti.
 
-Per impostazione predefinita, non tutte queste variabili vengono visualizzate nel codice quando si genera codice tramite **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. Some of these configuration variables may not be applicable to your site's implementation needs.
+Per impostazione predefinita, non tutte queste variabili vengono visualizzate nel codice quando si genera codice tramite **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. Alcune di queste variabili di configurazione potrebbero non essere applicabili alle esigenze di implementazione del sito.
 
 Alcuni degli obiettivi di utilizzo di queste variabili di configurazione sono:
 
-* Track multiple sites/domains.
-* Use any currency on purchases.
-* Capture data indifferent languages.
+* Consente di tenere traccia di più siti/domini.
+* Utilizzate qualsiasi valuta sugli acquisti.
+* Acquisire dati in lingue diverse.
 * Tracciamento dei collegamenti (numero di file scaricati, collegamenti a siti esterni).
 * Tieni traccia dei collegamenti personalizzati per scopi unici.
 
->[!NOTE]
->
->[!DNL AppMeasurement] richiede che tutte le variabili di configurazione siano impostate prima della chiamata iniziale alla funzione track, `t()`. Se le variabili di configurazione sono impostate dopo la chiamata a `t()`, potrebbero verificarsi risultati imprevisti. Per garantire la corretta raccolta dei dati, tutte le variabili di configurazione devono essere al di sopra della `doPlugins` funzione.
+> [!NOTE] [!DNL AppMeasurement] richiede che tutte le variabili di configurazione siano impostate prima della chiamata iniziale alla funzione track, `t()`. Se le variabili di configurazione sono impostate dopo la chiamata a `t()`, potrebbero verificarsi risultati imprevisti. Per garantire la corretta raccolta dei dati, tutte le variabili di configurazione devono essere al di sopra della `doPlugins` funzione.
 
 Per informazioni su variabili di configurazione specifiche, fate clic su uno dei seguenti collegamenti:
 
@@ -42,7 +40,7 @@ Per informazioni su variabili di configurazione specifiche, fate clic su uno dei
 
 * [s.dynamicAccountMatch](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-dynaccmatch.html): Utilizzare l'oggetto DOM per recuperare la sezione dell'URL a cui vengono applicate tutte le regole.
 
-* [s.dynamicVariablePrefix: Deploy flagging for dynamically-populated variables.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-dynvarprefix.html)
+* [s.dynamicVariablePrefix](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-dynvarprefix.html): Implementare il contrassegno per le variabili popolate in modo dinamico.
 
 * [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-charset.html): Converti i dati in ingresso in UTF-8 per l'archiviazione e la creazione di report in Analytics.
 
@@ -56,11 +54,11 @@ Per informazioni su variabili di configurazione specifiche, fate clic su uno dei
 
 * [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cooklifetime.html): Determinare la durata di vita di un cookie come elaborato sia dai server JavaScript che dai server di raccolta dei dati.
 
-* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-doplugins.html): Refer and allow the function to be called at the appropriate location within the JavaScript file.
+* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-doplugins.html): Fare riferimento alla funzione e consentire la chiamata nella posizione appropriata all'interno del file JavaScript.
 
-* [s.registerPreTrackCallback: Function for taking as parameters both the callback (a function), and the parameters to that function.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html)
+* [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Funzione che consente di utilizzare come parametri sia il callback (una funzione) che i parametri per la funzione.
 
-* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Function for taking as parameters both the callback (a function), and the parameters to that function.
+* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Funzione che consente di utilizzare come parametri sia il callback (una funzione) che i parametri per la funzione.
 
 * [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html): Consente di tenere traccia dei collegamenti ai file scaricabili sul sito.
 
@@ -68,15 +66,15 @@ Per informazioni su variabili di configurazione specifiche, fate clic su uno dei
 
 * [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html): Determinare se i dati ClickMap sono raccolti.
 
-* [s.linkDownloadFileTypes: Include a comma-separated list of file extensions.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html)
+* [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Includete un elenco separato da virgole di estensioni di file.
 
-* [s.linkInternalFilters: Includes a comma-separated list of filters that represent the links that are part of the site.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html)
+* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html): Include un elenco di filtri separati da virgole che rappresentano i collegamenti che fanno parte del sito.
 
-* [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html): Determine whether or not the query string should be included in the Exit Links and File Download reports.
+* [s.linkLeftQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html): Stabilire se la stringa di query deve essere inclusa o meno nei rapporti Exit Links e File Download.
 
-* [s.linkTrackVars: Include a comma-separated list of variables that are sent with custom, exit, and download links.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)
+* [s.linkTrackVars](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html): Includete un elenco separato da virgole di variabili inviate con collegamenti personalizzati, di uscita e di download.
 
-* [s.linkExternalFilters: Use to report on a specific subset of exit links.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html)
+* [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Utilizzare per creare rapporti su un sottoinsieme specifico di collegamenti di uscita.
 
-* [s.usePlugins: Call the  function prior to each image request.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html)`s_doPlugins`
+* [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Chiama la `s_doPlugins` funzione prima di ogni richiesta di immagine.
 
