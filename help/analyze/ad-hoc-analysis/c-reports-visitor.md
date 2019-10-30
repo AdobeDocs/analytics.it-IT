@@ -75,7 +75,7 @@ Questo rapporto si basa sui dati ID visitatore passati ad Adobe per ogni hit eff
 
 >[!NOTE]
 >
->Ciascun ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
+>Ogni ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
 
 ## Fedeltà cliente {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
