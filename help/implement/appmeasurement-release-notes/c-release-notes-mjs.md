@@ -8,7 +8,7 @@ title: AppMeasurement per JavaScript
 topic: Sviluppatore e implementazione
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -97,9 +97,7 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 Release Date: **05/24/2018**
 
->[!NOTE]
->
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe consiglia di eseguire l'aggiornamento alla versione più recente dell'API visitatore ogni volta che le librerie di codice associate vengono aggiornate ([!DNL at.js] e così via).[!DNL AppMeasurement.js]
+> [!NOTE]per i clienti che utilizzano il servizio ID è richiesto l'API visitatore 3.0 o la versione successiva.[!DNL Experience Cloud] Adobe consiglia di eseguire l'aggiornamento alla versione più recente dell'API visitatore ogni volta che le librerie di codice associate vengono aggiornate ([!DNL at.js] e così via).[!DNL AppMeasurement.js]
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * È stato corretto un problema a causa del quale il cookie di tracciamento dei collegamenti continuava a essere scritto dopo che il tracciamento dei collegamenti era disattivato. (AN-156332)
@@ -239,9 +237,7 @@ Aggiornato: 18/ **08/2016**
 * Updated [!DNL AppMeasurement] to read and write AMCV cookies. (AN-127098)
 * Inclusione di Visitor API 1.7.0.
 
->[!NOTE]
->
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
+> [!NOTE] Vedi anche le seguenti note sulla versione per la [!DNL JavaScript] versione 1.6.3, che include i requisiti aggiornati per il servizio Experience Cloud ID.
 
 ## Versione 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
@@ -264,7 +260,7 @@ Data di rilascio:**21 luglio 2016**
 <!-- 
 
 <note type="important">
-  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa. 
+  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa.
 </note>
 
  -->
@@ -443,9 +439,7 @@ Release Date: **August 21, 2014**
 
 È stato aggiunto il supporto per eVar [(76 - 250) ed eventi](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) aggiuntivi (101-1000).
 
->[!NOTE]
->
->H-Code non supporta eVar ed eventi aggiuntivi.
+> [!NOTE] H-Code non supporta eVar ed eventi aggiuntivi.
 
 [!DNL JavaScript]
 
@@ -543,6 +537,4 @@ In Gestione codici è ora disponibile una nuova [!DNL JavaScript][!DNL AppMeasur
 
 Consulta [AppMeasurement per Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) nella Guida all’ [!DNL Analytics] implementazione.
 
->[!NOTE]
->
->Alcuni plug-in non sono supportati in questa nuova versione. Per informazioni dettagliate, consultate Supporto [](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) plug-in.
+> [!NOTE] Alcuni plug-in non sono supportati in questa nuova versione. Per informazioni dettagliate, consultate Supporto [](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) plug-in.
