@@ -8,7 +8,7 @@ title: Classificazioni in canali di marketing
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Utilizzate le classificazioni per classificare i valori in gruppi correlati e pe
 
 Le classificazioni aggiunte in questa procedura vengono visualizzate nel [!UICONTROL Marketing Channel Overview] rapporto come [!UICONTROL Channel Values]. I valori dei canali sono valori non classificati nei dettagli dei canali.
 
->[!NOTE]
->
->Verifica di avere familiarità con la creazione di classificazioni nelle [classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) nella guida di riferimento di Analytics.
+> [!NOTE] Verifica di avere familiarità con la creazione di classificazioni nelle [classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) nella guida di riferimento di Analytics.
 
 >[!IMPORTANT]
 >
