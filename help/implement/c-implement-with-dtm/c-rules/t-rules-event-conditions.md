@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Creare condizioni per le regole basate su eventi
 uuid: a847391c-5aec-4d64-8a35-38858731598
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
