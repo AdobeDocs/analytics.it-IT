@@ -1,63 +1,63 @@
 ---
-description: Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono il ciclo di vita e altre metriche dalle applicazioni mobili.
-seo-description: Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono il ciclo di vita e altre metriche dalle applicazioni mobili.
-seo-title: Gestione mobile
+description: Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono lo stile di vita e altre metriche dalle applicazioni mobili.
+seo-description: Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono lo stile di vita e altre metriche dalle applicazioni mobili.
+seo-title: Gestione dispositivi mobili
 solution: Analytics
-title: Gestione mobile
+title: Gestione dispositivi mobili
 topic: Strumenti di amministrazione
-uuid: d 09 edf 72-bb 91-422 d-b 22 c -7 b 6971 f 228 de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Gestione mobile
+# Gestione dispositivi mobili
 
-Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono il ciclo di vita e altre metriche dalle applicazioni mobili.
+Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono lo stile di vita e altre metriche dalle applicazioni mobili.
 
 Questa integrazione tra Adobe Analytics e Mobile Services
 
 * Consente di condividere i dati KPI (Key Performance Indicator) da Mobile Services ad Adobe Analytics.
 * Consente di abilitare il tracciamento della posizione.
-* Aggiunge nuovi rapporti in Analytics &gt; Rapporti &gt; App mobile.
-* Aggiunge nuove 25 classificazioni Adobe Mobile.
-* Aggiunge altre 5 metriche di Adobe Mobile.
+* Aggiunge nuovi report in Analytics &gt; Report &gt; App mobile.
+* Aggiunge 25 nuove classificazioni Adobe Mobile.
+* Aggiunge 5 nuove metriche di Adobe Mobile.
 * Aggiunge nuove dimensioni di Adobe Mobile.
-* Sincronizza i dati ad Analytics ogni 15 minuti
+* Sincronizza i dati con Analytics ogni 15 minuti
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
-## Passaggio 1: Enable App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
+## Passaggio 1: Abilita rapporti app {#section_FBADF80AED2B4978A904ABB770B3B931}
 
-Abilita Report App v 3.0 per misurare le metriche seguenti:
+Abilita App Reports v3.0 per misurare le metriche seguenti:
 
 * **Acquisizione** - tieni traccia degli URL di provenienza per le campagne di download delle app.
-* **Ciclo di vita** : livello di base del reporting fornito dalla misurazione inviata per ogni lancio dell'app.
-* **Azioni** app: rapporti e percorsi basati sulle azioni in-app.
-* **Valore** del ciclo di vita: comprendere il valore degli utenti nel tempo utilizzando i KPI delle app (come acquisti, visualizzazioni di annunci pubblicitari, completamenti video, condivisioni social, caricamenti di foto).
-* **Eventi** temporizzati: misura il tempo trascorso (tempo in-app e totale) tra le azioni app chiave (ad esempio, l'ora prima del primo acquisto).
+* **Ciclo di vita** : livello base di reporting fornito dalle misurazioni inviate a ogni avvio dell'app.
+* **Azioni** app - rapporti e percorsi basati sulle azioni in-app.
+* **Valore** del ciclo di vita: scopri in che modo gli utenti maturano valore nel tempo utilizzando KPI per le app (come acquisti, visualizzazioni di annunci pubblicitari, completamenti di video, condivisioni social, caricamenti di foto).
+* **Eventi** temporizzati: misura il tempo (in-app e totale) che trascorre tra le azioni app chiave (ad esempio il tempo prima del primo acquisto).
 
-## Passaggio 2: Enable Location Tracking {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
+## Passaggio 2: Abilita tracciamento posizione {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
 
-Abilitazione tracciamento posizione consente di:
+L’attivazione del tracciamento della posizione consente di:
 
-* Tieni traccia dei dati di latitudine e longitudine e report su di esso in Analysis Workspace e Mobile Services.
-* Identifica, crea e visualizza specifici punti di interesse (POI) all'interno di Mobile Services. I POI devono essere definiti nel file di configurazione SDK di Mobile.
-* Tieni traccia dei beacon Bluetooth (UUID, principale, secondario e prossimità).
+* Tieni traccia dei dati di latitudine e longitudine e genera un rapporto su di essi in Analysis Workspace e Mobile Services.
+* Identifica, crea e visualizza punti di interesse specifici (POI) in Mobile Services. I POI devono essere definiti nel file di configurazione dell’SDK per dispositivi mobili.
+* Tracciare i beacon Bluetooth (UUID, principale, secondario e prossimità).
 
-## Passaggio 3: (Optional) Enable/Disable Legacy Reporting and Attribution for Background Hits {#section_1708BCAA87AA4884986F7532759C5DD4}
+## Passaggio 3: (Facoltativo) Attivare/disattivare rapporti legacy e attribuzione per hit in background {#section_1708BCAA87AA4884986F7532759C5DD4}
 
-Gli hit in background abilitati (hit generati quando l'app è in background) indicano che sono stati trattati come hit di primo piano regolari. Adesso vengono visualizzati nei rapporti regolari e ciò influisce sull'attribuzione. In genere, questa configurazione è utile solo per mantenere la coerenza con le implementazioni legacy.
+Gli hit in background abilitati (hit generati quando l’app è in background) indicano che sono trattati come normali hit in primo piano. Ora vengono visualizzati nei rapporti regolari e questo incide anche sull'attribuzione. Questa configurazione è in genere desiderabile solo per mantenere la coerenza con le implementazioni precedenti.
 
-Instead, we recommend that you “include background hits” in a [virtual report suite](../../components/vrs/vrs-about.md). Questo consente di visualizzare gli hit, ma non influirà negativamente sulla visita e sui conteggi dei visitatori.
-Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+È invece consigliabile "includere hit di background" in una suite [di rapporti](../../components/vrs/vrs-about.md)virtuale. Questo consente di visualizzare gli hit ma non influiscono negativamente sul numero di visite e visitatori.
+Le classificazioni per dispositivi mobili sono abilitate dopo aver attivato **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
-Le classificazioni vengono utilizzate per suddividere i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, potete classificare tutte le campagne Search Search in una categoria come «Condizioni musicali pop» e segnalare il successo della categoria relativo a metriche come Istanze (a. k. a. Click-through) e conversione in eventi di successo.
+Le classificazioni vengono utilizzate per classificare i valori in gruppi e per creare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come "termini musicali pop" e generare rapporti sul successo di quella categoria in relazione a metriche come Istanze (alias Click-through) e conversione in eventi di successo.
 
 | Classificazione | Definizione |
 |--- |--- |
-| Data primo avvio | Data del primo avvio dopo l'installazione o la reinstallazione. DD/MM/YYYY |
+| Data primo avvio | Data del primo avvio dopo l’installazione o reinstallazione.   DD/MM/YYYY |
 | ID app | Memorizza il nome e la versione dell'applicazione nel seguente formato:   `[AppName] [BundleVersion]`  Ad esempio, `myapp 1.1.` |
 | Numero di avvii | Numero di volte per cui l'applicazione è stata avviata o portata in primo piano. |
 | Giorni dal primo utilizzo | Numero di giorni dalla prima esecuzione.   |
@@ -67,13 +67,13 @@ Le classificazioni vengono utilizzate per suddividere i valori in gruppi e gener
 | Nome del dispositivo | Memorizza il nome del dispositivo.  Stringa di due cifre separate da virgola che identifica il dispositivo Di norma il primo numero rappresenta la generazione del dispositivo e il secondo numero indica membri diversi della famiglia di dispositivi. |
 | Versione sistema operativo | Versione del sistema operativo. |
 | Risoluzione | Larghezza x altezza in pixel reali. |
-| Valore del ciclo di vita (evar) | Viene compilata dai metodi trackLifetimeValue. |
-| Sorgente di acquisizione |  |
-| Media di acquisizione |  |
+| Valore "lifetime" del ciclo di vita (eVar) | Viene compilata dai metodi trackLifetimeValue. |
+| Origine acquisizione |  |
+| Supporto di acquisizione |  |
 | Termine acquisizione |  |
-| Contenuto di acquisizione |  |
+| Contenuto acquisizione |  |
 | Nome acquisizione |  |
-| Posizione (fino a 10 chilometri) | Viene compilata dai metodi trackLocation. |
+| Posizione (fino a 10 km) | Viene compilata dai metodi trackLocation. |
 | Posizione (fino a 100 m) | Viene compilata dai metodi trackLocation. |
 | Posizione (fino a 1 m) | Viene compilata dai metodi trackLocation. |
 | Nome del punto di interesse | Viene compilata dai metodi trackLocation quando il dispositivo si trova entro un POI definito. |
