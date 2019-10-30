@@ -2,7 +2,7 @@
 title: Analytics tra dispositivi
 description: Analisi cross-Device (Analisi multi-dispositivo) modifica i dati dall'essere incentrati sul dispositivo all'essere focalizzati sulla persona, impilando insieme i dati del dispositivo.
 translation-type: tm+mt
-source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
