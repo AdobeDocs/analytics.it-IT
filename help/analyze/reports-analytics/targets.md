@@ -1,34 +1,34 @@
 ---
-description: I target consentono di misurare le prestazioni del sito Web e di monitorare l'avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori derivanti da un'area geografica, dai ricavi ordinati in ordine o dal numero di hit derivanti da un referente specifico.
-seo-description: I target consentono di misurare le prestazioni del sito Web e di monitorare l'avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori derivanti da un'area geografica, dai ricavi ordinati in ordine o dal numero di hit derivanti da un referente specifico.
-seo-title: Destinazioni
+description: Le destinazioni consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
+seo-description: Le destinazioni consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
+seo-title: Target
 solution: Analytics
-title: Destinazioni
-topic: Reports & Analytics
-uuid: bfe 29 dc 8-8 da 8-4107-8 bb 1-4 a 7494 f 12 bc 9
+title: Target
+topic: Reports and Analytics
+uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Destinazioni
+# Target
 
-I target consentono di misurare le prestazioni del sito Web e di monitorare l'avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori derivanti da un'area geografica, dai ricavi ordinati in ordine o dal numero di hit derivanti da un referente specifico.
+Le destinazioni consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
 
-## Targets {#concept_6516E81923E845198B7FC5D8F81DC35C}
+## Target {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
-I target consentono di misurare le prestazioni del sito Web e di monitorare l'avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori derivanti da un'area geografica, dai ricavi ordinati in ordine o dal numero di hit derivanti da un referente specifico.
+Le destinazioni consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
 
-Quando crei delle destinazioni, seleziona le metriche degli attributi o le evar da misurare oppure puoi scegliere di misurare l'intero sito rispetto alla metrica selezionata.
+Quando create delle destinazioni, selezionate le metriche attributo o eVar da misurare oppure potete scegliere di misurare l'intero sito rispetto alle metriche selezionate.
 
-Ad esempio, potete misurare il numero di visitatori unici al sito Web e utilizzarlo come destinazione. In questo caso, scegliete l'intero sito Web. Tuttavia, se desiderate indirizzare il numero di visitatori unici al vostro sito Web da Chicago, potete specificare tale evar piuttosto che osservare l'intero sito.
+Ad esempio, potete misurare il numero di visitatori univoci del vostro sito Web e usarlo come destinazione. In questo caso, scegliete l’intero sito Web. Tuttavia, se desiderate eseguire il targeting del numero di visitatori univoci del vostro sito Web da Chicago, potete specificare tale eVar anziché guardare l'intero sito.
 
-## Target Field Descriptions {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## Descrizioni dei campi di destinazione {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 
-Descriptions of the fields and options on the [!UICONTROL Add/Edit Target] page.
+Descrizioni dei campi e delle opzioni della [!UICONTROL Add/Edit Target] pagina.
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -40,34 +40,34 @@ Descriptions of the fields and options on the [!UICONTROL Add/Edit Target] page.
  <tbody> 
   <tr> 
    <td colname="col1"> Target Nome </td> 
-   <td colname="col2">Provide a target name, which is displayed on the <span class="wintitle"> Target Manager</span> page. </td> 
+   <td colname="col2">Immettete un nome di destinazione, che viene visualizzato nella pagina <span class="wintitle"> Target Manager</span> . </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Applica a </td> 
-   <td colname="col2"> Consente di applicare la destinazione all'intero sito o a un attributo o evar selezionato. </td> 
+   <td colname="col2"> Consente di applicare la destinazione all'intero sito o a un attributo o a una eVar selezionati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Seleziona elemento </td> 
-   <td colname="col2"> <p>Visualizza il modulo di selezione per l'attributo selezionato o evar, in modo che possiate eseguire una ricerca avanzata per gli elementi correlati. For example, if you select the eVar <span class="uicontrol"> Countries</span>, the item list lets you specify which country. If you select the eVar <span class="uicontrol"> Products</span>, the item list lets you specify which product. Anche le variabili di insight personalizzate sono elencate nel menu. Se hai una variabile di insight personalizzata configurata per misurare gli intervalli di età dei visitatori, l'elenco degli elementi mostra gli intervalli di età, ad esempio 18-24, 25-35 e così via. </p> </td> 
+   <td colname="col2"> <p>Visualizza il modulo di selezione per l'attributo o l'eVar selezionato, in modo da poter eseguire una ricerca avanzata per gli elementi correlati. Ad esempio, se si seleziona l'opzione <span class="uicontrol"> Paesi</span>eVar, l'elenco di voci consente di specificare il paese. Se selezionate l'eVar <span class="uicontrol"> Products</span>, l'elenco degli articoli consente di specificare quale prodotto. Nel menu sono anche elencate le variabili di approfondimento personalizzate. Se hai una variabile di approfondimento personalizzata impostata per misurare gli intervalli di età dei visitatori, nell'elenco degli elementi vengono visualizzati gli intervalli delle pagine, ad esempio 18-24, 25-35 e così via. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Metrica </td> 
-   <td colname="col2">Consente di applicare la destinazione a una metrica. Questo menu visualizza solo le metriche che si applicano a una determinata evar. For example, if you select <span class="uicontrol"> Products</span> as the eVar, a metric such as <span class="uicontrol"> Page Exits</span> does not apply to it. The <span class="uicontrol"> Page Exits</span> metric can apply to a web page eVar. </td> 
+   <td colname="col2">Consente di applicare la destinazione a una metrica. Questo menu visualizza solo le metriche applicabili a una determinata eVar. Ad esempio, se selezionate <span class="uicontrol"> Prodotti</span> come eVar, una metrica come <span class="uicontrol"> Page Exits</span> non si applica ad essa. La metrica <span class="uicontrol"> Page Exits</span> (Esce pagina) può essere applicata a una eVar di pagina Web. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Punto </td> 
-   <td colname="col2"> <p>Lets you define the <span class="uicontrol"> Date Range</span> and <span class="uicontrol"> Granularity</span> settings of the target. A seconda delle specifiche dell'intervallo di date, alcune opzioni di granularità non sono applicabili. Quando digitate dei valori per le metriche, digitate un valore per ciascuna impostazione di granularità. Ad esempio, se l'intervallo di date è il mese di febbraio e la selezione della granularità è settimanale, digitate un valore per ogni settimana del mese di febbraio. I report di Target vengono visualizzati per ogni impostazione di granularità. </p> </td> 
+   <td colname="col2"> <p>Consente di definire le impostazioni <span class="uicontrol"> Intervallo</span> date e <span class="uicontrol"> Granularità</span> della destinazione. A seconda delle specifiche dell’intervallo di date, alcune opzioni di granularità non sono applicabili. Quando digitate dei valori per le metriche, digitate un valore per ciascuna impostazione di granularità. Ad esempio, se l’intervallo di date è il mese di febbraio e la selezione della granularità è settimanale, digitate un valore per ogni settimana del mese di febbraio. I report di destinazione vengono visualizzati per ogni impostazione di granularità. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Valori </td> 
-   <td colname="col2"> <p>Consente di specificare i valori di destinazione per il periodo di tempo e la metrica selezionata. Questo valore rappresenta i numeri di destinazione che si desidera raggiungere. Ad esempio, se la destinazione era basata sulle entrate e prevedeva $ 10,000 delle entrate per un mese specificato, immettete 10000 nel campo valore per il mese. </p> </td> 
+   <td colname="col2"> <p>Consente di specificare i valori di destinazione per il periodo di tempo e la metrica selezionata. Questo valore è il numero di destinazione che si sta tentando di raggiungere. Ad esempio, se il target era basato su ricavi e si mirava a $10.000 di ricavi per un dato mese, si immetterebbe 10.000 nel campo del valore per il mese. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Add a Target {#task_94915391E26E4F808F2538AA92BC7E71}
+## Aggiunta di una destinazione {#task_94915391E26E4F808F2538AA92BC7E71}
 
-Procedura che descrive come aggiungere una destinazione.
+Passaggi che descrivono come aggiungere una destinazione.
 
 <!-- 
 
@@ -75,14 +75,14 @@ t_add_a_target.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
-1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
-1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
+1. Sulla [!UICONTROL Target Manager] pagina fare clic su **[!UICONTROL Add New]**.
+1. Configura le opzioni descritte in Descrizioni [campo di](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
 1. Fai clic su **[!UICONTROL OK]**.
 
-## Edit a Target {#task_946C558D2ECC4922ABD4A5A6183A095A}
+## Modificare una destinazione {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
-1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configura le opzioni descritte in Descrizioni [campo di](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
 1. Fai clic su **[!UICONTROL OK]**.
