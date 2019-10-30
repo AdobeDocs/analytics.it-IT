@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Uso dei dati di audience in Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,7 +73,7 @@ Le audience possono essere utilizzate anche nelle visualizzazioni [Abbandono](ht
 
 Puoi includere le dimensioni Audiences nel Generatore [](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)segmenti di Analytics, insieme alle informazioni comportamentali raccolte da Analytics.
 
-1. Vai a **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** .
+1. Vai a  **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** .
 1. Click **[!UICONTROL Add]** to create a new segment.
 1. After naming the segment, drag the [!UICONTROL Audience Name] dimension into the Definitions panel.
 1. (Facoltativo): Aggiungi altri criteri al segmento.
