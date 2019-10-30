@@ -8,7 +8,7 @@ title: Domande frequenti ed esempi
 topic: Reports and Analytics
 uuid: 1c63a1b5-a191-4855-aa65-face19ab1037a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -81,9 +81,7 @@ Se le regole non acquisiscono dati o se le regole non sono configurate correttam
 
 Questo tipo di regola funge da clausola catch-all per garantire che il traffico dei canali corrisponda sempre al traffico esterno, e in genere non finisca in **[!UICONTROL No Channel Identified]**. Fare attenzione a non creare una regola che identifichi anche il traffico interno. L'impostazione del valore del canale su **[!UICONTROL Referring Domain]** o su **[!UICONTROL Page URL]** sono i modi più comuni e utili per creare un'altra regola efficace.
 
->[!NOTE]
->
->Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell'altro canale perché non c'è un dominio di riferimento.
+> [!NOTE] Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell'altro canale perché non c'è un dominio di riferimento.
 
 ## Ricerca pagata {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
