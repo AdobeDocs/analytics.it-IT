@@ -1,18 +1,18 @@
 ---
-description: Mostra il modo in cui varie categorie di prodotti influiscono sulle metriche di successo del sito.
-seo-description: Mostra il modo in cui varie categorie di prodotti influiscono sulle metriche di successo del sito.
+description: Mostra come diverse categorie di prodotti influiscono sulle metriche di successo del sito.
+seo-description: Mostra come diverse categorie di prodotti influiscono sulle metriche di successo del sito.
 seo-title: Categoria
 solution: Analytics
 title: Categoria
 topic: Rapporti
-uuid: d 255720 d -5253-43 cd -8 a 0 a -9 e 0 d 0 b 0 bbc 8 b
+uuid: d255720d-5253-43cd-8a0a-9e0d0b0bbc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Categoria
 
-Mostra il modo in cui varie categorie di prodotti influiscono sulle metriche di successo del sito.
+Mostra come diverse categorie di prodotti influiscono sulle metriche di successo del sito.
 
