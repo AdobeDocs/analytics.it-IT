@@ -8,7 +8,7 @@ title: Implementazione dell'integrazione
 topic: Connettori dati
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -57,7 +57,7 @@ Dopo aver completato la procedura guidata di integrazione, è necessario attivar
    ![](assets/advanced_options.png)
 
 1. Selezionate Configurazione Adobe Analytics, quindi fate clic su **[!UICONTROL Save]**. Se non sono disponibili configurazioni, è probabile che non sia ancora stata completata l'Integrazione guidata Adobe.
-   1. La **[!UICONTROL Include Partial Responses]** casella di controllo può essere utilizzata per indicare che desiderate acquisire dati in Adobe Analytics dopo che ciascuna schermata di sondaggio parziale è stata completata. Se non è selezionato, i dati vengono trasferiti solo per le indagini completate.
+   1. La **[!UICONTROL Include Partial Responses]** casella di controllo può essere utilizzata per indicare che si desidera acquisire dati in Adobe Analytics dopo che ciascuna schermata di sondaggio parziale è stata completata. Se non è selezionato, i dati vengono trasferiti solo per le indagini completate.
    1. La **[!UICONTROL Send Timestamp With Beacon]** casella di controllo deve essere utilizzata solo per l'integrazione con una suite di rapporti configurata per la ricezione di dati con marca temporale (non comune).
    ![](assets/integration_config.png)
 
