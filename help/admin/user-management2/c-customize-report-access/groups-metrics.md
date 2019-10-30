@@ -1,15 +1,15 @@
 ---
-description: Abilita le autorizzazioni per metriche traffico, metriche di conversione, eventi personalizzati, eventi delle soluzioni e contenuti.
-keywords: gruppi; permissions
-seo-description: Abilita le autorizzazioni per metriche traffico, metriche di conversione, eventi personalizzati, eventi delle soluzioni e contenuti.
+description: Attiva le autorizzazioni per le metriche di traffico, le metriche di conversione, gli eventi personalizzati, gli eventi delle soluzioni e il contenuto in base al contenuto.
+keywords: gruppi;autorizzazioni
+seo-description: Attiva le autorizzazioni per le metriche di traffico, le metriche di conversione, gli eventi personalizzati, gli eventi delle soluzioni e il contenuto in base al contenuto.
 seo-title: Personalizzare le autorizzazioni delle metriche
 solution: Analytics
 subtopic: Utenti e gruppi
 title: Personalizzare le autorizzazioni delle metriche
 topic: Strumenti di amministrazione
-uuid: 7 bfff 68 a -2 add -4068-a 07 d -87 a 4 f 624634 c
+uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,26 +18,26 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando sarà il momento di eseguire la migrazione degli utenti. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** verranno ritirati.
 
-Abilita le autorizzazioni per metriche traffico, metriche di conversione, eventi personalizzati, eventi delle soluzioni e contenuti.
+Attiva le autorizzazioni per le metriche di traffico, le metriche di conversione, gli eventi personalizzati, gli eventi delle soluzioni e il contenuto in base al contenuto.
 
 **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Metrics]** &gt; **[!UICONTROL Customize]**
 
-The settings on the Customize Metrics page apply to the report suites selected on the [!UICONTROL Define User Groups] page.
+Le impostazioni della pagina Personalizza metriche si applicano alle suite di rapporti selezionate nella [!UICONTROL Define User Groups] pagina.
 
 ![](assets/customize-metrics.png)
 
 ## Eventi della soluzione
 
-In addition to [Custom Events](https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html), this category includes Analytics solution events, including Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video, and Social.). Tutti i gruppi personalizzati con qualsiasi metrica avranno aggiunto come nuove metriche tutti gli eventi della soluzione Analytics.
+Oltre agli eventi [](https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html)personalizzati, questa categoria include eventi della soluzione Analytics, tra cui Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video e Social. A ogni gruppo personalizzato con qualsiasi metrica verranno aggiunti tutti gli eventi della soluzione Analytics come nuove metriche.
 
-Puoi impostare le autorizzazioni per eventi personalizzati Eventi e soluzioni Analytics (AEM, AMO, Mobile, Video e Social).
+Potete impostare le autorizzazioni per eventi personalizzati e eventi delle soluzioni Analytics (AEM, AMO, Mobile, Video e Social).
 
-Tutti i gruppi personalizzati con qualsiasi metrica avranno aggiunto come nuove metriche tutti gli eventi Analytics Solution.
+A ogni gruppo personalizzato con qualsiasi metrica verranno aggiunti tutti gli eventi della soluzione Analytics come nuove metriche.
 
-See [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) for information about metrics used in Analytics.
+Consulta Panoramica sulle [metriche](/help/components/c-variables/c-metrics/metricslist.md) per informazioni sulle metriche utilizzate in Analytics.
 
 ## In base al contenuto
 
-In base al contenuto sono incluse variabili che consentono di gestire le autorizzazioni relative alle metriche correlate alle integrazioni di soluzioni Experience Cloud. You can manage permissions on [!DNL Social], [!DNL Mobile], or any other data that was inserted through a [!DNL Experience Cloud] integration. Queste verranno attivate per impostazione predefinita.
+In base al contenuto sono incluse le variabili che consentono di gestire le autorizzazioni sulle metriche correlate alle integrazioni delle soluzioni Experience Cloud. Puoi gestire le autorizzazioni su [!DNL Social], [!DNL Mobile]o qualsiasi altro dato inserito tramite un' [!DNL Experience Cloud] integrazione. Questi verranno attivati per impostazione predefinita.
