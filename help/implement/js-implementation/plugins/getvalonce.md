@@ -1,26 +1,26 @@
 ---
-description: Il plug-in getvalonce impedisce che una determinata variabile venga impostata sul valore definito in precedenza. Utilizza un cookie per determinare l'ultimo valore visualizzato di una variabile. Se il valore corrente corrisponde al valore del cookie, la variabile viene sovrascritta con una stringa vuota prima che venga inviata ai server di elaborazione di Adobe. Questo plug-in è utile per impedire l'inflazione di istanza variabile di conversione causata dall'aggiornamento della pagina o dal pulsante Indietro.
+description: Il plug-in getValOnce impedisce che una determinata variabile venga impostata sul valore definito in precedenza. Utilizza un cookie per determinare l'ultimo valore visualizzato di una variabile. Se il valore corrente corrisponde al valore del cookie, la variabile viene sovrascritta con una stringa vuota prima di essere inviata ai server di elaborazione di Adobe. Questo plug-in è utile per evitare l’inflazione variabile di conversione causata dall’aggiornamento della pagina da parte degli utenti o facendo clic sul pulsante Indietro.
 keywords: Implementazione di Analytics
-seo-description: Il plug-in getvalonce impedisce che una determinata variabile venga impostata sul valore definito in precedenza. Utilizza un cookie per determinare l'ultimo valore visualizzato di una variabile. Se il valore corrente corrisponde al valore del cookie, la variabile viene sovrascritta con una stringa vuota prima che venga inviata ai server di elaborazione di Adobe. Questo plug-in è utile per impedire l'inflazione di istanza variabile di conversione causata dall'aggiornamento della pagina o dal pulsante Indietro.
-seo-title: Getvalonce
+seo-description: Il plug-in getValOnce impedisce che una determinata variabile venga impostata sul valore definito in precedenza. Utilizza un cookie per determinare l'ultimo valore visualizzato di una variabile. Se il valore corrente corrisponde al valore del cookie, la variabile viene sovrascritta con una stringa vuota prima di essere inviata ai server di elaborazione di Adobe. Questo plug-in è utile per evitare l’inflazione variabile di conversione causata dall’aggiornamento della pagina da parte degli utenti o facendo clic sul pulsante Indietro.
+seo-title: getValOnce
 solution: Analytics
 subtopic: Plug-in
-title: Getvalonce
+title: getValOnce
 topic: Sviluppatore e implementazione
-uuid: 82 fe 0 da 5-3 bc 4-4632-8 c 62-7 b 5683 f 6 b 587
+uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Getvalonce
+# getValOnce
 
-Il plug-in getvalonce impedisce che una determinata variabile venga impostata sul valore definito in precedenza. Utilizza un cookie per determinare l'ultimo valore visualizzato di una variabile. Se il valore corrente corrisponde al valore del cookie, la variabile viene sovrascritta con una stringa vuota prima che venga inviata ai server di elaborazione di Adobe. Questo plug-in è utile per impedire l'inflazione di istanza variabile di conversione causata dall'aggiornamento della pagina o dal pulsante Indietro.
+Il plug-in getValOnce impedisce che una determinata variabile venga impostata sul valore definito in precedenza. Utilizza un cookie per determinare l'ultimo valore visualizzato di una variabile. Se il valore corrente corrisponde al valore del cookie, la variabile viene sovrascritta con una stringa vuota prima di essere inviata ai server di elaborazione di Adobe. Questo plug-in è utile per evitare l’inflazione variabile di conversione causata dall’aggiornamento della pagina da parte degli utenti o facendo clic sul pulsante Indietro.
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Il plug-in non è stato convalidato per compatibilità con [AppMeasurement per JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
 
 **Parametri**
 
@@ -28,34 +28,30 @@ Il plug-in getvalonce impedisce che una determinata variabile venga impostata su
 s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 ```
 
-* **Variabile:** La variabile che verrà selezionata. In genere corrisponde alla stessa variabile definita.
-* **Cookie:** Il nome del cookie che memorizza il valore precedente da confrontare. Il cookie può essere un qualsiasi valore.
-* (Optional) **Expiration:** The number of days the cookie will expire. Se non viene impostata o impostata su 0, la scadenza predefinita è la sessione del browser.
-* (Optional) **Minute:** If you set this to the string value *`m`*, the expiration value is defined in minutes instead of days. If not set, *`days`* is the default expiration.
+* **** Variabile: Variabile da verificare. In genere corrisponde alla variabile definita.
+* **** Cookie: Nome del cookie in cui viene memorizzato il valore precedente da confrontare. Il cookie può essere di qualsiasi valore.
+* **(Facoltativo)** Scadenza: Il numero di giorni in cui il cookie scade. Se non è impostato o impostato su 0, la scadenza predefinita è la sessione del browser.
+* **(Facoltativo)** Minuto: Se si imposta questo valore sulla stringa *`m`*, il valore di scadenza è definito in minuti anziché in giorni. Se non è impostato, *`days`* è la scadenza predefinita.
 
 **Proprietà**
 
-* Questo plug-in viene comunemente utilizzato nelle variabili di conversione. However, you can use it on any [!DNL Analytics] variable.
-* Quando Javascript rileva questa funzione, confronta il valore definito con quello memorizzato nel cookie. Se il valore definito è diverso dal valore del cookie, viene impostato il valore definito. Se il valore definito è uguale al valore del cookie, viene restituita una stringa vuota.
-* Il cookie può memorizzare solo un singolo valore, il che significa che il plug-in avrà l'aspetto solo dell'ultimo valore definito.
-* Il plug-in non impedisce a tutti i valori di definire la variabile dopo che è stata definita. Il plug-in impedisce che l'ultimo valore venga impostato più volte consecutivamente.
-* Se l'utente finale blocca o rifiuta i cookie, il valore originale viene sempre restituito.
-* The plug-in's session is different from what [!DNL Analytics] defines as a session (or visit). [!DNL Analytics] termina una sessione dopo 12 ore di attività o 30 minuti di inattività. Poiché il plug-in utilizza la definizione sessione del browser, viene terminata solo dopo che l'utente chiude la scheda o esce dal browser.
+* Questo plug-in è comunemente utilizzato sulle variabili di conversione. Tuttavia, potete utilizzarlo su qualsiasi [!DNL Analytics] variabile.
+* Quando Javascript incontra questa funzione, confronta il valore definito con quello memorizzato nel cookie. Se il valore definito è diverso dal valore del cookie, viene impostato il valore definito. Se il valore definito è lo stesso del valore del cookie, viene restituita una stringa vuota.
+* Il cookie può contenere un solo valore, il che significa che il plug-in è solo l'ultimo valore definito.
+* Il plug-in non impedisce a tutti i valori di definire la variabile dopo che questa è stata definita. Il plug-in impedisce solo l'impostazione dell'ultimo valore più volte consecutiva.
+* Se l'utente finale blocca o rifiuta i cookie, viene sempre restituito il valore originale.
+* La sessione del plug-in è diversa da quella [!DNL Analytics] definita come sessione (o visita). [!DNL Analytics] termina una sessione dopo 12 ore di attività o 30 minuti di inattività. Poiché il plug-in utilizza la definizione di sessione del browser, viene terminato solo dopo che l'utente chiude la scheda o esce dal browser.
 
-   * If a user closes your page, opens a different tab and navigates back to your site within 30 minutes, the plug-in creates a new session while keeping the [!DNL Analytics] visit open.
-   * If a user keeps the browser window open without clicking on a link for more than 30 minutes, the [!DNL Analytics] visit expires while keeping the browser session open.
+   * Se un utente chiude la pagina, apre una scheda diversa e torna al sito entro 30 minuti, il plug-in crea una nuova sessione mantenendo aperta la [!DNL Analytics] visita.
+   * Se un utente tiene aperta la finestra del browser senza fare clic su un collegamento per più di 30 minuti, la [!DNL Analytics] visita scade mantenendo aperta la sessione del browser.
 
->[!NOTE]
->
->Le istruzioni seguenti richiedono di modificare il codice della raccolta dati sul sito. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
 ## Implementazione {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->If your organization uses Marketing Channels and has rules set up based on `s.campaign`, it is recommended that you not use the getValOnce plugin when setting the `s.campaign`value. Ciò potrebbe portare a un canale errato assegnato a un click-through della campagna secondaria.
+> [!NOTE] Se la vostra azienda utilizza Marketing Channels e dispone di regole configurate in base a `s.campaign`, si consiglia di non utilizzare il plug-in getValOnce quando impostate il `s.campaign`valore. In questo modo si potrebbe determinare l'assegnazione di un canale errato in un click-through di una campagna secondaria.
 
-To implement this plug-in, place the following code within your [!DNL s_code.js] file
+Per implementare questo plug-in, inserite il seguente codice nel [!DNL s_code.js] file
 
 ```js
 /******************************************************************** 
@@ -72,10 +68,13 @@ s.getValOnce=new Function("v","c","e","t",""
 +"==0?0:a);}return v==k?'':v");
 ```
 
-Once the above code is implemented, define the desired variable using the *`getValOnce`* function. Di seguito sono riportati alcuni esempi su come implementarlo:
+Una volta implementato il codice, definite la variabile desiderata utilizzando la *`getValOnce`* funzione. Di seguito sono riportati diversi esempi di come può essere implementato:
 
-**Non viene definito lo stesso valore della campagna se viene rilevato un valore duplicato entro 30 giorni dal cookie impostato:**`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`**Impedisce che venga definito lo stesso valore evar 1 se viene rilevato un valore duplicato entro 30 minuti dal cookie impostato:**`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`**Impedisce che lo stesso valore evar 2 venga definito più volte nella stessa sessione del browser:**`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`**Note**
+****`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`**Impedire la definizione dello stesso valore della campagna se viene rilevato un valore duplicato entro 30 giorni dall’impostazione del cookie:
+Impedisce** `s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`la definizione dello stesso valore eVar1 se viene rilevato un valore duplicato entro 30 minuti dall’impostazione del cookie:
+Impedisce****che lo stesso valore eVar2 venga definito più volte nella stessa sessione del browser:
+`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');` **Note**
 
-* Verifica sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dati sia come previsto prima della distribuzione in un ambiente di produzione.
-* Assicurati di eliminare il cookie o utilizzare nuovi valori univoci durante il test o le variabili non verranno inviate.
+* Verificate sempre in modo esteso le installazioni dei plug-in per garantire che la raccolta dei dati avvenga come previsto prima della distribuzione in un ambiente di produzione.
+* Accertatevi di eliminare il cookie o utilizzare nuovi valori univoci durante il test o che le variabili non vengano inviate.
 
