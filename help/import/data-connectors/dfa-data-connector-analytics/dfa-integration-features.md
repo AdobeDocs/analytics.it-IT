@@ -8,7 +8,7 @@ title: Funzioni di integrazione
 topic: Connettori dati
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Una volta attivata, l'integrazione DFA dei connettori dati fornisce le metriche 
 * (facoltativo) Dati sui costi DFA
 * (facoltativo) Errori query DFA, timeout
 
->[!NOTE]
->
->Questa integrazione non supporta i tracciatori di clic (precedentemente clic sui comandi). I tracciatori di clic vengono utilizzati per registrare il numero di clic su collegamenti di testo, collegamenti in messaggi e-mail o su altri elementi che sono codificati in un sito Web.
+> [!NOTE] Questa integrazione non supporta i tracciatori di clic (precedentemente clic sui comandi). I tracciatori di clic vengono utilizzati per registrare il numero di clic su collegamenti di testo, collegamenti in messaggi e-mail o su altri elementi che sono codificati in un sito Web.
 
 L’integrazione DFA dei connettori dati crea automaticamente i codici di monitoraggio DFA a partire dai dati restituiti dal DFA. Questi codici di tracciamento sono creati per identificare in modo univoco un annuncio insieme ai relativi Collocamenti e Creative. Di seguito viene illustrata la struttura del codice di tracciamento, a seconda della versione dell'integrazione. La versione 1.5 è simile alla seguente:
 
@@ -60,7 +58,5 @@ Se **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** è sele
 
 * Nel caso di una visualizzazione "through" DFAE, l’integrazione inserisce nella eVar SCM la stringa "DFA Viewthrough".
 
->[!NOTE]
->
->Se è abilitata la deduplicazione SearchCenter &gt; DFA e viene impostato il parametro della stringa di query SearchCenter, la visita non verrà considerata per l'elaborazione DFA. Ciò significa che il parametro della stringa di query SearchCenter deve essere diverso dal parametro click-through del DFA e che nessun annuncio display deve impostare il parametro della stringa di query SearchCenter.
+> [!NOTE] Se è abilitata la deduplicazione SearchCenter &gt; DFA e viene impostato il parametro della stringa di query SearchCenter, la visita non verrà considerata per l'elaborazione DFA. Ciò significa che il parametro della stringa di query SearchCenter deve essere diverso dal parametro click-through del DFA e che nessun annuncio display deve impostare il parametro della stringa di query SearchCenter.
 
