@@ -5,7 +5,7 @@ seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,13 +21,13 @@ Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'
 | Campo | Descrizione |
 |--- |--- |
 | Suite di rapporti | La suite di rapporti che riceve i dati da questa integrazione. |
-| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'elenco Integrazione attiva della suite di rapporti. |
+| Nome integrazione | Specifica il nome dell'integrazione visualizzato dai Connettori dati nell'Elenco integrazione attiva della suite di rapporti. |
 | ID account | Specificate il vostro ID account Aprimo. |
-| ID destinatario | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail del sistema Aprimo. Questo "ID destinatario" è associato al comportamento del visitatore a valle sull’ID destinatario del sito (carrello, acquisti, ecc.) che viene inserito nel sistema Aprimo e può essere sfruttato per scopi di remarketing. |
+| Recipient ID | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail del sistema Aprimo. Questo "ID destinatario" è associato al comportamento del visitatore a valle sull’ID destinatario del sito (abbandono del carrello, acquisti ecc.) che viene inserito nel sistema Aprimo e può essere sfruttato per scopi di remarketing. |
 | Clic | (Obbligatorio) Specificate l'evento Adobe Analytics in cui vengono memorizzati i dati e-mail Click importati dal sistema e-mail. L’evento Clic consente di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
 | ID messaggio | (Obbligatorio) Memorizza l'ID univoco della posta. |
 | Aperto | (Obbligatorio) Specificate l'evento Adobe Analytics in cui sono memorizzati i dati di apertura dell'e-mail importati dal sistema e-mail. L’evento Opened (Apertura) consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail. |
-| ID destinatario | (Obbligatorio) Memorizza l’ID visitatore univoco. |
+| Recipient ID | (Obbligatorio) Memorizza l’ID visitatore univoco. |
 | Inviato | (Obbligatorio) Specificate l'evento Adobe Analytics in cui sono memorizzati i dati e-mail inviati importati dal sistema e-mail. L'evento Inviato consente di visualizzare il numero di messaggi e-mail inviati. |
 | Bounce | (Obbligatorio) Specificate l'evento Adobe Analytics in cui sono memorizzati i dati e-mail Totale bacheche importati dal sistema e-mail. L'evento Totale rimbalzi consente di visualizzare il numero di messaggi e-mail che non sono stati inviati ai destinatari a causa di un problema di consegna. |
 | Annulla sottoscrizione | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati dell'e-mail Annulla sottoscrizione importati dal sistema e-mail. L’evento Annulla sottoscrizione consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail e hanno quindi fatto clic sul collegamento Annulla sottoscrizione per rifiutare i messaggi e-mail futuri della vostra organizzazione. |
