@@ -7,7 +7,7 @@ title: File di log
 topic: Analisi ad hoc
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ Un modo rapido per salvare e visualizzare un file di registro è:
 1. Fate clic sul **[!UICONTROL Ad Hoc Analysis]** logo.
 1. Fai clic su **[!UICONTROL Save Log File]**.
 
->[!NOTE]
->
->Il registro salvato con questa procedura è relativo alla sessione corrente.
+> [!NOTE] Il registro salvato con questa procedura è relativo alla sessione corrente.
 
