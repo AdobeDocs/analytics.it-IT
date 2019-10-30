@@ -1,20 +1,20 @@
 ---
-description: Il servizio identità sostituisce il meccanismo legacy di ID visitatore Analytics ed è richiesto dalla misurazione heartbeat video, Analytics for Target e dai servizi core e integrazioni futuri di Experience Cloud.
+description: Il servizio ID sostituisce il meccanismo legacy di ID visitatore di Analytics ed è richiesto dalla misurazione video heartbeat, Analytics per Target, nonché dai servizi e dalle integrazioni di base futuri di Experience Cloud.
 keywords: Implementazione di Analytics
-seo-description: Il servizio identità sostituisce il meccanismo legacy di ID visitatore Analytics ed è richiesto dalla misurazione heartbeat video, Analytics for Target e dai servizi core e integrazioni futuri di Experience Cloud.
+seo-description: Il servizio ID sostituisce il meccanismo legacy di ID visitatore di Analytics ed è richiesto dalla misurazione video heartbeat, Analytics per Target, nonché dai servizi e dalle integrazioni di base futuri di Experience Cloud.
 seo-title: Servizio identità
 solution: Analytics
 title: Servizio identità
 topic: Sviluppatore e implementazione
-uuid: 8 ae 013 d 4-d 5 a 9-4 b 20-bf 3 b -145 f 0 dcc 3 d 6 d
+uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Servizio identità
 
-The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
+Il servizio identità sostituisce il meccanismo legacy di ID visitatore di Analytics ed è richiesto dalla misurazione [!UICONTROL Heartbeat] video, da Analytics per Target e dai servizi e integrazioni di base futuri di Experience Cloud.
 
-See [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) for product documentation about this service.
+Consulta Servizio [](https://marketing.adobe.com/resources/help/en_US/mcvid/) identità per la documentazione di prodotto su questo servizio.
