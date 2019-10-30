@@ -1,39 +1,39 @@
 ---
-description: Descrive la collisione con hash e il modo in cui possono essere manifestati.
-keywords: Implementazione di Analytics; hash; collisione; prop; evar; hash
-seo-description: Descrive la collisione con hash e il modo in cui possono essere manifestati.
+description: Descrive cosa è una collisione hash e come può manifestarsi.
+keywords: Implementazione di Analytics;hash;collisione;prop;evar;hash
+seo-description: Descrive cosa è una collisione hash e come può manifestarsi.
 seo-title: Collisioni hash
 solution: Analytics
 title: Collisioni hash
 topic: Sviluppatore e implementazione
-uuid: 7 dfd 6 e 64-4 a 62-4087-bc 28-fb 867 ec 2 b 1 b 6
+uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Collisioni hash
 
-Descrive la collisione con hash e il modo in cui possono essere manifestati.
+Descrive cosa è una collisione hash e come può manifestarsi.
 
-Per impostazione predefinita, Adobe considera i valori prop e evar come stringhe, anche se il valore è un numero. A volte queste stringhe sono centinaia di caratteri, altre volte che sono brevi. Per risparmiare spazio, migliorare le prestazioni e rendere tutte le dimensioni uniformi, le stringhe non vengono utilizzate direttamente nelle tabelle di elaborazione. Al contrario, per ciascun valore viene calcolato un hash a 32 bit o a 64 bit. Tutti i rapporti vengono eseguiti su tali valori con hash fino alla presentazione dei dati, in cui ogni hash viene sostituito dal testo originale. Senza questa compressione, probabilmente i rapporti potrebbero richiedere minuti da eseguire.
+Per impostazione predefinita, Adobe tratta i valori prop ed eVar come stringhe, anche se il valore è un numero. A volte queste stringhe sono lunghe centinaia di caratteri, altre sono corte. Per risparmiare spazio, migliorare le prestazioni e ridurre le dimensioni uniformemente, le stringhe non vengono utilizzate direttamente nelle tabelle di elaborazione. Per ciascun valore viene invece calcolato un hash a 32 bit o a 64 bit. Tutti i rapporti vengono eseguiti su tali valori con hash fino alla presentazione dei dati, dove ogni hash viene sostituito dal testo originale. Senza questa compressione, i report potrebbero richiedere alcuni minuti.
 
-Per la maggior parte dei campi, la stringa viene dapprima convertita in minuscolo (riduzione del numero di valori univoci). I valori vengono hash su base mensile (la prima volta che vengono visti ogni mese). Da mese a mese esiste una piccola possibilità che due valori della variabile univoca vengano hash allo stesso valore hash. This is known as a *hash collision*.
+Per la maggior parte dei campi, la stringa viene prima convertita in lettere minuscole (riducendo il numero di valori univoci). I valori vengono impostati su base mensile (la prima volta che vengono visualizzati ogni mese). Da mese a mese esiste una piccola possibilità che due valori di variabili univoche siano associati allo stesso valore hash. Questa operazione è nota come *collisione* hash.
 
 Le collisioni hash possono manifestarsi nel reporting come segue:
 
-* Se state ottenendo un valore e visualizzate un picco per un mese, è probabile che un altro valore per tale variabile sia stato aggiunto con hash allo stesso valore del valore che state guardando.
-* Lo stesso accade per i segmenti per un valore specifico.
+* Se si tenta di ottenere un valore e si visualizza un picco per un mese, è probabile che altri valori per tale variabile siano stati crittografati con lo stesso valore del valore visualizzato.
+* Le stesse cose si verificano per i segmenti per un valore specifico.
 
 <p class="head"> <b>Esempio di collisione hash</b> </p>
 
-La probabilità di collisioni hash aumenta con il numero di valori univoci di una dimensione (evar). Ad esempio, uno dei valori che entrano in fine mese potrebbe ottenere lo stesso valore di hash di un valore precedente. L'esempio seguente potrebbe spiegare come questo può causare la modifica dei risultati dei segmenti. Supponiamo che evar 62 riceva "value 100" il 18 febbraio. Analytics manterrà una tabella che sarà simile a quella riportata di seguito:
+La probabilità di collisioni hash aumenta con il numero di valori univoci in una dimensione (eVar). Ad esempio, uno dei valori immessi alla fine del mese potrebbe avere lo stesso valore hash di un valore presente all'inizio del mese. L'esempio seguente spiega in che modo ciò può causare la modifica dei risultati dei segmenti. Supponiamo che eVar62 riceva "valore 100" il 18 febbraio. Analytics manterrà una tabella con il seguente aspetto:
 
 <table id="table_6A49D1D5932E485DB2083154897E5074"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Valore stringa evar 62 </th> 
+   <th colname="col1" class="entry"> Valore stringa eVar62 </th> 
    <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
@@ -53,12 +53,12 @@ La probabilità di collisioni hash aumenta con il numero di valori univoci di un
  </tbody> 
 </table>
 
-Se crei un segmento che cerca visite dove evar 62 = "value 500", Analytics determina se "value 500" contiene un hash. Poiché "value 500" non esiste, Analytics restituisce visite zero. Quindi, il 23 febbraio, evar 62 riceve "value 500" e l'hash per anche il 123. La tabella avrà l'aspetto seguente:
+Se create un segmento che cerca le visite in cui eVar62="valore 500", Analytics determina se "valore 500" contiene un hash. Poiché "valore 500" non esiste, Analytics restituisce zero visite. Quindi, il 23 febbraio, eVar62 riceve "valore 500", e l'hash per questo è anche 123. La tabella sarà così:
 
 <table id="table_5FCF0BCDA5E740CCA266A822D9084C49"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Valore stringa evar 62 </th> 
+   <th colname="col1" class="entry"> Valore stringa eVar62 </th> 
    <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
@@ -82,6 +82,6 @@ Se crei un segmento che cerca visite dove evar 62 = "value 500", Analytics deter
  </tbody> 
 </table>
 
-Quando lo stesso segmento viene rieseguito, cerca l'hash di "value 500", trova 123 e il rapporto restituisce tutte le visite contenenti hash 123. Ora, le visite avvenute il 18 febbraio saranno incluse nei risultati.
+Quando lo stesso segmento viene eseguito di nuovo, cerca l'hash "value 500", trova 123 e il rapporto restituisce tutte le visite che contengono hash 123. Ora, le visite che si sono verificate il 18 febbraio saranno incluse nei risultati.
 
-Questa situazione può creare problemi quando si utilizza Analytics. Adobe continua ad approfondire la probabilità di ridurre la probabilità di tali collisioni hash in futuro. I suggerimenti per evitare questa situazione sono trovare la possibilità di espandere i valori univoci tra le variabili, rimuovere valori non necessari con le regole di elaborazione o ridurre in altro modo il numero di valori per variabili.
+Questa situazione può creare problemi quando si utilizza Analytics. Adobe continua a studiare come ridurre la probabilità che in futuro si verifichino collisioni hash. Suggerimenti per evitare questa situazione sono di trovare il modo di distribuire i valori univoci tra le variabili, rimuovere i valori non necessari con le regole di elaborazione o altrimenti ridurre il numero di valori per variabile.
