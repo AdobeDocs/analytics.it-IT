@@ -1,27 +1,27 @@
 ---
-description: Caratteri e stringhe non consentite nelle variabili javascript.
+description: Caratteri e stringhe non consentiti nelle variabili JavaScript.
 keywords: Implementazione di Analytics
-seo-description: Caratteri e stringhe non consentite nelle variabili javascript.
-seo-title: Caratteri javascript non validi
+seo-description: Caratteri e stringhe non consentiti nelle variabili JavaScript.
+seo-title: Caratteri JavaScript non validi
 solution: Analytics
 subtopic: Variabili
-title: Caratteri javascript non validi
+title: Caratteri JavaScript non validi
 topic: Sviluppatore e implementazione
-uuid: 04 e 3 b 4 b 4-7 ff 5-4673-8060-34302 b 6 ee 545
+uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Caratteri javascript non validi
+# Caratteri JavaScript non validi
 
-Caratteri e stringhe non consentite nelle variabili javascript.
+Caratteri e stringhe non consentiti nelle variabili JavaScript.
 
-* Tab (0 x 09)
-* Ritorno a capo (0 x 0 D)
-* Newline (0 x 0 A)
-* ASCII characters with codes above 127 (unless multi-byte characters are enabled and *`charSet`* is populated appropriately)
-* HTML tags (e.g. <b></b> or &amp;#153)
+* Scheda (0x09)
+* Ritorno a capo (0x0D)
+* Newline (0x0A)
+* caratteri ASCII con codici superiori a 127 (a meno che i caratteri multibyte non siano attivati e *`charSet`* siano compilati in modo appropriato)
+* Tag HTML (ad esempio <b></b> &amp;#153)
 
-Molte variabili, soprattutto prodotti, gerarchia ed eventi, presentano limitazioni aggiuntive o requisiti di sintassi. For individual variable limitations and syntax requirements, see the section corresponding to the *`s_account`* variable parameters.
+Molte variabili, in particolare prodotti, gerarchia ed eventi, presentano limitazioni o requisiti di sintassi aggiuntivi. Per le limitazioni delle singole variabili e i requisiti di sintassi, consultare la sezione corrispondente ai parametri delle *`s_account`* variabili.
