@@ -3,12 +3,12 @@ description: È possibile combinare Generatore regole di classificazione con sot
 seo-description: È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
 seo-title: 'Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo'
 solution: Analytics
-subtopic: Classificazioni
+subtopic: Classifications
 title: 'Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo'
 topic: Strumenti di amministrazione
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,7 @@ t_rule_builder_subclass.xml
 
 Esempi di passaggi che descrivono come caricare le sottocategorie utilizzando il Generatore di regole.
 
->[!NOTE]
->
->Questi passaggi descrivono come eseguire il caso d’uso descritto in [Sottoclassificazioni e nel Generatore](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)di regole.
+> [!NOTE] Questi passaggi descrivono come eseguire il caso d’uso descritto in [Sottoclassificazioni e nel Generatore](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)di regole.
 
 1. Creare classificazioni e sottoclassificazioni in Gestione [classificazione](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
