@@ -1,16 +1,16 @@
 ---
 description: Nuove funzioni nella segmentazione di Adobe Analytics.
 seo-description: Nuove funzioni nella segmentazione di Adobe Analytics.
-seo-title: Novità nella segmentazione di Analytics
-title: Novità nella segmentazione di Analytics
-uuid: ac 53 e 984-9 af 5-4536-8105-345 d 78 cc 5653
+seo-title: Scopri le novità di Analysis Segmentation
+title: Scopri le novità di Analysis Segmentation
+uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Novità nella segmentazione di Analytics
+# Scopri le novità di Analysis Segmentation
 
 Nuove funzioni nella segmentazione di Adobe Analytics.
 
@@ -37,7 +37,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Supporto del calendario personalizzato nei segmenti </p> </td> 
+   <td colname="col1"> <p>Supporto calendario personalizzato nei segmenti </p> </td> 
    <td colname="col2"> <p>È stato aggiunto il supporto di calendari personalizzati nel generatore di segmenti quando si usano come regole delle dimensioni temporali. </p> <p>Nota: un segmento creato per una suite di rapporti con calendario personalizzato continua a non essere compatibile con altre suite di rapporti che non hanno lo stesso calendario personalizzato. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Intervalli di date nei segmenti </p> </td> 
-   <td colname="col2"> <p>Consente di creare segmenti che contengono intervalli di date dinamici per rispondere alle domande sulle campagne o gli eventi in corso. Ad esempio, ora si può facilmente creare un segmento che include “tutte le persone che hanno fatto un acquisto negli ultimi 60 giorni”. </p> <p> <p>Nota: Questa funzione non è disponibile in Analisi ad hoc. </p> </p> </td> 
+   <td colname="col2"> <p>Consente di creare segmenti che contengono intervalli di date dinamici per rispondere a domande su campagne o eventi in corso. Ad esempio, ora puoi creare facilmente un segmento che include "tutti coloro che hanno effettuato un acquisto negli ultimi 60 giorni". </p> <p> <p>Nota:  Questa funzione non è disponibile in Analisi ad hoc. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,15 +67,15 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Segmenti della sequenza Prima/Dopo </p> </td> 
-   <td colname="col2"> <p>Quando si creano segmenti sequenziali, ora è possibile filtrare il traffico “prima della sequenza” o “dopo la sequenza”. </p> <p> <p>Nota: Questa funzione non è disponibile in Analisi ad hoc. </p> </p> </td> 
+   <td colname="col1"> <p>Segmenti prima/dopo la sequenza </p> </td> 
+   <td colname="col2"> <p>Quando si creano segmenti sequenziali, ora è possibile filtrare il traffico “prima della sequenza” o “dopo la sequenza”. </p> <p> <p>Nota:  Questa funzione non è disponibile in Analisi ad hoc. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Vincoli della dimensione con segmenti sequenziali </p> </td> 
-   <td colname="col2"> <p>In una clausola “within” (entro), tra istruzioni THEN, è possibile aggiungere, ad esempio, “within 1 search keyword instance”, “within 1 eVar 47 instance”. In questo modo si vincola il segmento entro un’istanza di una dimensione. </p> </td> 
+   <td colname="col1"> <p>Vincoli dimensionali con segmenti sequenziali </p> </td> 
+   <td colname="col2"> <p>In una clausola "within", tra istruzioni THEN, è possibile aggiungere, ad esempio, "within 1 search keyword instance", "within 1 eVar 47 instance". In questo modo si vincola il segmento entro un’istanza di una dimensione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external"> Use segments in Fallout analysis </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: Utilizzare <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external"> i segmenti nell'analisi Abbandono </a> </p> </td> 
    <td colname="col2"> <p>Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punti di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -91,7 +91,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Modifica del nome della dimensione nel generatore di segmenti </p> </td> 
-   <td colname="col2"> <p>The <span class="wintitle"> Full Domain</span> dimension in the Segment Builder has been renamed to <span class="wintitle"> Domains</span> to match the permission name. </p> </td> 
+   <td colname="col2"> <p>La dimensione Dominio <span class="wintitle"> completo nel Generatore di segmenti è stata rinominata in</span> Domini <span class="wintitle"></span> in modo che corrisponda al nome dell’autorizzazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Crea autorizzazione segmento</span> </p> </td> 
-   <td colname="col2"> <p>If users do not have the <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> Create Segment permission</a>, they can no longer access the Segment Builder. </p> </td> 
+   <td colname="col2"> <p>Se gli utenti non dispongono dell’autorizzazione <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"></a>Crea segmento, non possono più accedere al Generatore di segmenti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,7 +136,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: scomposizione per segmento </p> </td> 
-   <td colname="col2"> <p>È stato aggiunto supporto per <span class="wintitle"> Scomposizione per segmento</span>. Oltre alle scomposizioni Standard (Elementi) e Personalizzate (Approfondimenti) ora potete scomporre i report per segmenti. When you select the <span class="wintitle"> Segments</span> tab, the list will be populated with the same set of segments offered in the <span class="wintitle"> Available segments </span>drop-down list. </p> <p>Gli elementi della riga con appartenenza nel segmento riporteranno un valore pari a "1" e gli elementi esterni al report del segmento "0".  </p> </td> 
+   <td colname="col2"> <p>È stato aggiunto supporto per <span class="wintitle"> Scomposizione per segmento</span>. Oltre alle scomposizioni Standard (Elementi) e Personalizzate (Approfondimenti) ora potete scomporre i report per segmenti. When you select the <span class="wintitle"> Segments</span> tab, the list will be populated with the same set of segments offered in the <span class="wintitle"> Available segments </span>drop-down list. </p> <p>Gli elementi di riga con appartenenza nel segmento segnaleranno un valore pari a "1" e gli elementi al di fuori del report del segmento "0". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -150,7 +150,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Data Warehouse: Sovrapposizione segmenti </p> </td> 
+   <td colname="col1"> <p>Data Warehouse: Stack di segmenti </p> </td> 
    <td colname="col2"> <p>Aggiunto a Data Warehouse il supporto per più segmenti (sovrapposizione segmenti). </p> <p>Quando si selezionano più segmenti, l'area di anteprima ora mostra un elenco di nomi separati da virgole (ad es. Segmento 1, Segmento 2). Abbiamo anche aggiornato la pagina Request Manager (Gestore richieste) la finestra popup Request Detail (Dettaglio richieste) per visualizzare l'elenco separato da virgole. </p> </td> 
   </tr> 
   <tr> 
@@ -169,8 +169,8 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Modifiche delle autorizzazioni in Segment Builder (Generatore segmenti) </p> </td> 
-   <td colname="col2"> <p>L'utente Admin può limitare gli utenti che possono creare nuovi segmenti. Per impostazione predefinita, tutti gli utenti possono creare segmenti. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Altro...</a> </p> </td> 
+   <td colname="col1"> <p>Modifiche alle autorizzazioni nel Generatore di segmenti </p> </td> 
+   <td colname="col2"> <p>L'utente amministratore può limitare quali utenti possono creare nuovi segmenti. Per impostazione predefinita, tutti gli utenti possono creare segmenti. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> Altro...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -227,8 +227,8 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Supporto per «corrisponde» e «non corrisponde» nei segmenti Data Warehouse </p> </td> 
-   <td colname="col2"> <p>Data Warehouse supporta ora «corrisponde» e «non corrisponde» nelle definizioni dei segmenti. (Reporting e analisi e Analisi ad hoc le supportano già). </p> <p>Segmenti precedentemente incompatibili con Data Warehouse perché Data Warehouse non supportava «corrisponde» e «Non corrisponde» diventeranno compatibili dopo la release (presupposto che sia l'unico motivo per cui il segmento era incompatibile). Altri segmenti possono essere visualizzati nell'elenco dei segmenti Data Warehouse dopo il rilascio. </p> </td> 
+   <td colname="col1"> <p> Supporto per "corrisponde" e "non corrisponde" nei segmenti Data Warehouse </p> </td> 
+   <td colname="col2"> <p>Data Warehouse ora supporta "corrisponde" e "non corrisponde" nelle definizioni dei segmenti. (Reporting e analisi e Analisi ad hoc le supportano già). </p> <p>I segmenti che erano precedentemente incompatibili con Data Warehouse perché Data Warehouse non supportava "corrisponde" e "non corrisponde" diventeranno compatibili dopo la release (presumendo che questo sia l'unico motivo per cui il segmento era incompatibile). Dopo il rilascio, nell'elenco dei segmenti di Data Warehouse potrebbero essere visualizzati altri segmenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segments.Save nell'API dei servizi Web </p> </td> 
@@ -251,7 +251,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reporting e analisi di : possibilità di creare segmenti dai report </p> </td> 
-   <td colname="col2"> <p>È stato aggiunto il collegamento Crea segmento dal percorso nei rapporti Abbandono che arrivano al Generatore di segmenti. Facendo clic sul collegamento si crea automaticamente una definizione del segmento in sequenza che utilizza i checkpoint dal report Fallout. </p> </td> 
+   <td colname="col2"> <p>È stato aggiunto un collegamento Crea segmento dal percorso nei report Abbandono che va al Generatore di segmenti. Facendo clic sul collegamento si crea automaticamente una definizione del segmento in sequenza che utilizza i checkpoint dal report Fallout. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -265,12 +265,12 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Versione iniziale del nuovo Generatore di segmenti/Gestore segmenti </p> </td> 
-   <td colname="col2"> <p>I segmenti vengono ora creati, gestiti e utilizzati nelle interfacce utente di Analytics e nelle suite di rapporti. </p> <p>Una nuova interfaccia di Generatore di segmenti consente di creare segmenti semplici, nidificati e sequenziali. Ora potete applicare più segmenti a un singolo report per evitare la duplicazione logica in più segmenti. </p> <p>Un nuovo Gestore segmenti consente di gestire, approvare, condividere e assegnare tag ai segmenti con facilità. I segmenti possono essere pubblicati in Experience Cloud for Analytics targeting. </p> </td> 
+   <td colname="col1"> <p> Versione iniziale del nuovo Generatore di segmenti/Gestore di segmenti </p> </td> 
+   <td colname="col2"> <p>I segmenti ora vengono creati, gestiti e utilizzati nelle interfacce utente di Analytics e nelle suite di rapporti. </p> <p>Una nuova interfaccia di Generatore di segmenti consente di creare segmenti semplici, nidificati e sequenziali. Ora puoi applicare più segmenti a un singolo report per evitare duplicazioni logiche in più segmenti. </p> <p>Un nuovo Gestore dei segmenti consente di gestire, approvare, condividere e assegnare tag ai segmenti in modo semplice. I segmenti possono essere pubblicati in Experience Cloud per il targeting basato su Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Creazione e gestione dei segmenti in Analisi ad hoc </p> </td> 
-   <td colname="col2"> <p>Ad Hoc Analysis è ora parte dell'ambiente di segmentazione unificata di Analytics, che offre funzioni per creare, gestire e condividere segmenti utilizzando Adobe Analytics. </p> <p>La console Segment Builder (Generatore di segmenti) in Analisi ad hoc è stata aggiornata con le nuove funzionalità, incluse le icone aggiornate, le modifiche alla funzionalità della console e la capacità di salvare i contenitori a tutti i livelli. Gestione segmenti (Organizza segmenti) è stato aggiornato con nuove funzioni per organizzare e assegnare tag ai segmenti all'interno di Analisi ad hoc. </p> </td> 
+   <td colname="col1"> <p>Creazione e gestione di segmenti in Analisi ad hoc </p> </td> 
+   <td colname="col2"> <p>Analisi ad hoc è ora parte dell'ambiente di segmentazione unificata di Analytics che consolida le funzionalità per creare, gestire e condividere segmenti tramite Adobe Analytics. </p> <p>La console Generatore di segmenti in Analisi ad hoc è stata aggiornata con nuove funzioni, tra cui icone aggiornate, modifiche alla funzionalità della console e la possibilità di salvare i contenitori a tutti i livelli. Il Gestore dei segmenti (Organizza segmenti) è stato aggiornato con nuove funzioni per organizzare e assegnare tag ai segmenti all’interno di Analisi ad hoc. </p> </td> 
   </tr> 
  </tbody> 
 </table>
