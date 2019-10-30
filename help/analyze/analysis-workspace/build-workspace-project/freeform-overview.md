@@ -2,18 +2,18 @@
 description: nulle
 keywords: Analysis Workspace
 seo-description: nulle
-seo-title: Crea progetto - Panoramica
+seo-title: 'Crea progetto: panoramica'
 solution: Analytics
-title: Crea progetto - Panoramica
-topic: Reports & Analytics
-uuid: a 68 be 05 d-f 31 e -4 e 6 d-ad 04-c 784 ecb 0 eb 00
+title: 'Crea progetto: panoramica'
+topic: Reports and Analytics
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Crea progetto - Panoramica
+# Crea progetto: panoramica
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
@@ -33,7 +33,7 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 
 | Elemento | Descrizione |
 |---|---|
-| Progetto  [Modelli](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) per progetti | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
+| Progetto  [Modelli](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
 | [Crea nuovo progetto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) | Fai clic su questo collegamento per iniziare un nuovo progetto da zero. |
 | Gestione progetti | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
 | Visualizza esercitazioni | Consente di accedere ai [video YouTube su Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
@@ -59,7 +59,7 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 | Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
 | Conteggio istanze ripetute nel progetto | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Se sono presenti più valori sequenziali per la stessa variabile, è possibile conteggiarli come una singola istanza o più istanze della variabile. |
 | Schema di colori di visualizzazione | È possibile modificare lo schema di colori utilizzato in Workspace, scegliendo una diversa palette di colori o specificandone una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
-| Densità di visualizzazione | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
+| Visualizza densità | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
 
 ## Menu Progetti {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
@@ -69,9 +69,7 @@ Il menu principale Progetti si presenta così:
 
 I sottomenu contengono le seguenti opzioni.
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] Le opzioni contrassegnate da un asterisco (*) vengono visualizzate solo con i progetti **salvati** .
 
 | Progetto | Modifica | Inserisci | Componenti | Condividi | Aiuto |
 |---|---|---|---|---|---|
