@@ -7,7 +7,7 @@ title: Metodologia di tracciamento dei collegamenti
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -18,9 +18,9 @@ Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi para
 
 >[!IMPORTANT]
 >
->Qualsiasi collegamento in cui il testo (non i href) può contenere informazioni PII (Personally Identifiable Information) deve essere implementato esplicitamente utilizzando [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Per maggiori informazioni su come [!DNL Activity Map] raccogliere i dati PII, consulta [qui](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Qualsiasi collegamento in cui il testo (non i href) può contenere informazioni PII (Personally Identifiable Information) deve essere implementato esplicitamente utilizzando [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Per ulteriori informazioni su come la Activity Map potrebbe raccogliere dati PII, [consulta](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
 
-[!DNL Activity Map] basa il tracciamento dei collegamenti su questi due ID:
+Activity Map basa il tracciamento dei collegamenti su questi due ID:
 
 * ID principale: questo è il parametro riconoscibile del collegamento.
 * Regione collegamento: si tratta di un parametro secondario che consente agli utenti di specificare una stringa rappresentativa dell’area di collegamento globale nella pagina o nell’area geografica. Questo parametro può essere generato automaticamente se non è fornito dall'utente.
@@ -48,7 +48,7 @@ Di conseguenza, l’utilizzo di InnerText offre i seguenti vantaggi rispetto all
 * È una buona rappresentazione dell'identità Collegamento. La duplicazione degli ID primari è notevolmente ridotta in quanto non è comune disporre di più collegamenti con lo stesso testo.
 * Garantisce la coerenza dell'ID principale tra dispositivi e tipi di browser.
 * Non viene interessato dal riposizionamento del collegamento sulla pagina.
-* Migliora la leggibilità, consentendo agli utenti di iniziare ad analizzare i rapporti di tracciamento dei collegamenti all'esterno [!DNL Activity Map].
+* Migliora la leggibilità, consentendo agli utenti di iniziare ad analizzare i rapporti di tracciamento dei collegamenti all'esterno della Activity Map.
 
 ## Area collegamenti {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
@@ -115,7 +115,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 
 ## Variabili di configurazione {#section_634197EACD404AC086DF9A03B813C8C3}
 
-Queste variabili sono elencate solo a scopo di riferimento. [!DNL Activity Map] deve essere configurata correttamente, ma puoi personalizzare l'implementazione utilizzando queste variabili.
+Queste variabili sono elencate solo a scopo di riferimento. La Activity Map deve essere configurata correttamente ma puoi personalizzare l'implementazione utilizzando queste variabili.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -153,7 +153,7 @@ Queste variabili sono elencate solo a scopo di riferimento. [!DNL Activity Map] 
     <code>
       //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
     </code> </td> 
-   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgole da cercare nel testo del collegamento. Se trovato, il collegamento è escluso dal tracciamento da parte di [!DNL Activity Map]. Se non è impostato, non viene eseguito alcun tentativo di interrompere il tracciamento del collegamento da parte di [!DNL Activity Map]. </p> </td> 
+   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgole da cercare nel testo del collegamento. Se trovato, il collegamento viene escluso dal tracciamento della Activity Map. In caso contrario, non viene eseguito alcun tentativo di interrompere il tracciamento del collegamento per Activity Map. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
@@ -161,7 +161,7 @@ Queste variabili sono elencate solo a scopo di riferimento. [!DNL Activity Map] 
     <code>
       //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
     </code> </td> 
-   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgole da cercare nel testo della regione. Se trovato, il collegamento è escluso dal tracciamento da parte di [!DNL Activity Map]. Se non è impostato, non viene eseguito alcun tentativo di interrompere il tracciamento del collegamento da parte di [!DNL Activity Map]. </p> </td> 
+   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgole da cercare nel testo della regione. Se trovato, il collegamento viene escluso dal tracciamento della Activity Map. In caso contrario, non viene eseguito alcun tentativo di interrompere il tracciamento del collegamento per Activity Map. </p> </td> 
   </tr> 
  </tbody> 
 </table>
