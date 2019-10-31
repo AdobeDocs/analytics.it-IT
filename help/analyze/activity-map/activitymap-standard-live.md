@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map] fornisce due modalità di base per la generazione di rapporti complementari sull''attività della pagina.'
-seo-description: '[!DNL Activity Map] fornisce due modalità di base per la generazione di rapporti complementari sull''attività della pagina.'
+description: Activity Map offre due modalità di base per la generazione di rapporti complementari sull'attività della pagina.
+seo-description: Activity Map offre due modalità di base per la generazione di rapporti complementari sull'attività della pagina.
 seo-title: Modalità standard e modalità Live
 solution: Analytics
 title: Modalità standard e modalità Live
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # Modalità standard e modalità Live
 
-[!DNL Activity Map] fornisce due modalità di base per la generazione di rapporti complementari sull'attività della pagina.
+Activity Map offre due modalità di base per la generazione di rapporti complementari sull'attività della pagina.
 
 * Modalità standard, in cui i [collegamenti ai](/help/analyze/activity-map/activitymap-links-report.md)rapporti sulle pagine mostrano dati di collegamento che vanno da un giorno all’altro, aggregati per l’intero intervallo di date.
 * La modalità Live mostra le tendenze dell'attività in tempo reale.
@@ -31,7 +31,7 @@ In questa modalità, le metriche Commerce per le quali non è abilitata la funzi
 
 D: Cosa succede se una pagina contiene collegamenti con lo stesso nome di collegamento in aree separate? I due collegamenti ricevono credito separatamente in quanto hanno regioni diverse ma lo stesso nome di collegamento in una pagina?
 
-A: Dipende da come si aggregano i dati del collegamento. In [!DNL Activity Map], osserviamo l'ID collegamento|Regione per una determinata pagina, in modo che i dati allocati siano per la combinazione "ID collegamento|Regione". In questo caso, poiché la regione è diversa, il collegamento|regione sarebbe distinto, e quindi qualsiasi ricavo allocato per la prima regione|collegamento sarà diverso da tutti i ricavi allocati per il secondo collegamento. Tuttavia, nell’interfaccia utente di Adobe Analytics, puoi consultare solo il rapporto ID collegamento (invece del rapporto Collegamento|Regione) per una determinata pagina (pagina suddivisa per Collegamento). In tal caso, le entrate sarebbero aggregate tra le due regioni.
+A: Dipende da come si aggregano i dati del collegamento. Nella Activity Map, osserviamo il collegamento ID|Regione per una determinata pagina, quindi i dati allocati saranno per la combinazione "Link ID|Region". In questo caso, poiché la regione è diversa, il collegamento|regione sarebbe distinto, e quindi qualsiasi ricavo allocato per la prima regione|collegamento sarà diverso da tutti i ricavi allocati per il secondo collegamento. Tuttavia, nell’interfaccia utente di Adobe Analytics, puoi consultare solo il rapporto ID collegamento (invece del rapporto Collegamento|Regione) per una determinata pagina (pagina suddivisa per Collegamento). In tal caso, le entrate sarebbero aggregate tra le due regioni.
 
 ## Modalità Live {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
