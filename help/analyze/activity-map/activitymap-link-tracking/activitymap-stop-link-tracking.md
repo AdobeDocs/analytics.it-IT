@@ -1,20 +1,20 @@
 ---
-description: Passaggi per arrestare il tracciamento dei collegamenti in [!DNL Activity Map] o legacy ClickMap.
-seo-description: Passaggi per arrestare il tracciamento dei collegamenti in [!DNL Activity Map] o legacy ClickMap.
+description: Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nella legacy ClickMap.
+seo-description: Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nella legacy ClickMap.
 seo-title: Interrompere il tracciamento dei collegamenti
 solution: Analytics
 title: Interrompere il tracciamento dei collegamenti
 topic: Activity Map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # Interrompere il tracciamento dei collegamenti
 
-Passaggi per interrompere il tracciamento dei collegamenti in [!DNL Activity Map] o nella mappa ClickMap legacy.
+Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nella legacy ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,7 +25,7 @@ Passaggi per interrompere il tracciamento dei collegamenti in [!DNL Activity Map
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL Activity Map] </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Rimuovete il contenuto seguente dal file Appmeasurement.js: 
     <code>
      /*
