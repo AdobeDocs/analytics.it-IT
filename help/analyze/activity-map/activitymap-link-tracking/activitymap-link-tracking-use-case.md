@@ -7,7 +7,7 @@ title: Differenziare i collegamenti che fanno riferimento allo stesso ID collega
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
 
-Ad esempio, supponiamo che tu disponga di più collegamenti "Acquista" identificati da [!DNL Activity Map] sotto lo stesso ID collegamento e regione:
+Ad esempio, supponiamo che tu disponga di più collegamenti "Acquista" identificati dalla Activity Map con lo stesso ID collegamento e regione:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -51,11 +51,11 @@ In che modo è possibile personalizzare la pagina Web e i tag per differenziare 
 
 ## Personalizzare l’ID collegamento utilizzando s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il [!DNL Activity Map] tracciamento o utilizzare [!DNL Activity Map] per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento. Fare clic [qui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) per ulteriori informazioni sulla variabile s_objectID.
+Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento delle Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull'URL del collegamento. Fare clic [qui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) per ulteriori informazioni sulla variabile s_objectID.
 
 >[!IMPORTANT]
 >
->Tenere presente che è necessario un punto e virgola finale (;) quando si utilizza s_objectID in [!DNL Activity Map].
+>  È necessario un punto e virgola finale (;) quando si utilizza s_objectID nella Activity Map.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
