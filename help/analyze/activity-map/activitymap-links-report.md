@@ -7,7 +7,7 @@ title: Rapporto dei collegamenti
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Il rapporto Collegamenti riporta i collegamenti presenti nella pagina corrente. Non crea rapporti su tutti i collegamenti raccolti per quella pagina.
 
-Il rapporto Collegamenti sulla pagina offre una visualizzazione tabulare dei collegamenti. A volte può essere utile visualizzare clic sui collegamenti (o altre metriche) classificati in una singola vista. Questo consente di confrontare meglio un collegamento con un altro. Create il rapporto Collegamenti sulla pagina, compreso un elenco classifica di tutti i collegamenti della pagina (per ID collegamento), delle informazioni sul clic (# e %) e della regione della pagina. Fate clic sul pulsante Collegamenti nel rapporto Pagina nella [!DNL Activity Map] barra degli strumenti.
+Il rapporto Collegamenti sulla pagina offre una visualizzazione tabulare dei collegamenti. A volte può essere utile visualizzare clic sui collegamenti (o altre metriche) classificati in una singola vista. Questo consente di confrontare meglio un collegamento con un altro. Create il rapporto Collegamenti sulla pagina, compreso un elenco classifica di tutti i collegamenti della pagina (per ID collegamento), delle informazioni sul clic (# e %) e della regione della pagina. Fate clic sul pulsante Collegamenti nel rapporto Pagina nella barra degli strumenti Activity Map (Mappa dell'attività).
 
-Il **[!UICONTROL Links On Page]** rapporto si apre sotto la cornice del browser nel [!DNL Activity Map] dashboard.
+Il **[!UICONTROL Links On Page]** rapporto si apre sotto il frame del browser nel dashboard Activity Map.
 
 ## Modalità standard {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -63,7 +63,7 @@ In modalità standard, il report "Links on Page" (Collegamenti sulla pagina) mos
 
 **Filtrare i dati**
 
-Se si desidera zero in un collegamento specifico, è possibile cercare un termine correlato nel **[!UICONTROL Filter Data]** campo. Solo i collegamenti corrispondenti alla ricerca avranno sovrapposizioni. Senza un filtro, verranno visualizzate le sovrapposizioni specificate nelle impostazioni [](/help/analyze/activity-map/activitymap-overlay-settings.md) [!DNL Activity Map].
+Se si desidera zero in un collegamento specifico, è possibile cercare un termine correlato nel **[!UICONTROL Filter Data]** campo. Solo i collegamenti corrispondenti alla ricerca avranno sovrapposizioni. Senza un filtro, verranno visualizzate le sovrapposizioni specificate nelle impostazioni [Mappa](/help/analyze/activity-map/activitymap-overlay-settings.md) attività.
 
 ## Modalità Live {#section_AC1967217B5A4532ACB01D33636F6770}
 
