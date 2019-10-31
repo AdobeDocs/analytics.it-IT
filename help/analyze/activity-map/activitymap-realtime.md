@@ -7,7 +7,7 @@ title: Analisi delle pagine in tempo reale (Live)
 topic: Activity Map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 L'analisi delle pagine in tempo reale (modalità Live) consente di ottenere risultati con granularità minima in tempo reale.
 
-[!DNL Activity Map] ora visualizza i dati analitici con incrementi di 1-15 minuti per monitorare la popolarità dei collegamenti in base alle micro-tendenze per le pagine selezionate. Ciò è particolarmente importante per le aziende di pubblicazione nel tracciamento e nella risposta all'interesse crescente o decrescente per le storie e per monitorare il flusso di traffico in tempo reale.
+Activity Map ora visualizza i dati analitici con incrementi di 1-15 minuti per monitorare la popolarità dei collegamenti in base alle micro-tendenze per le pagine selezionate. Ciò è particolarmente importante per le aziende di pubblicazione nel tracciamento e nella risposta all'interesse crescente o decrescente per le storie e per monitorare il flusso di traffico in tempo reale.
 
 In qualità di proprietario dei contenuti del sito, parte del tuo lavoro consiste nel capire quando promuovere e rimuovere contenuti e mantenere la nostra esperienza costantemente rilevante. I dati in tempo reale sono la linfa vitale di questa responsabilità. Se puoi capire quali collegamenti e contenuti sono più importanti in questo momento, puoi agire in modo rapido e deciso per coinvolgere lettori e clienti con il tuo marchio.
 
