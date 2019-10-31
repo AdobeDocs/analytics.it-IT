@@ -1,22 +1,22 @@
 ---
-description: Il pannello delle impostazioni [!DNL Activity Map] consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni delle sovrapposizioni.
-seo-description: Il pannello delle impostazioni [!DNL Activity Map] consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni delle sovrapposizioni.
-seo-title: Configurare le impostazioni di [!DNL Activity Map]
+description: Il pannello Impostazioni Activity Map consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
+seo-description: Il pannello Impostazioni Activity Map consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
+seo-title: Configurare le impostazioni di Activity Map
 solution: Analytics
-title: Configurare le impostazioni di [!DNL Activity Map]
+title: Configurare le impostazioni di Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Configurare [!DNL Activity Map] le impostazioni
+# Configurare le impostazioni di Activity Map
 
-Il pannello [!DNL Activity Map] Impostazioni consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
+Il pannello Impostazioni Activity Map consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
 
-Per accedere al pannello [!DNL Activity Map] Impostazioni, fai clic sull’icona a forma di ingranaggio nella [!DNL Activity Map] barra degli strumenti.
+Per accedere al pannello Impostazioni Activity Map, fate clic sull'icona a forma di ingranaggio nella barra degli strumenti Activity Map.
 
 Il pannello Impostazioni visualizza contenuti diversi in base alla modalità di applicazione selezionata. La scheda Altro contiene impostazioni generali.
 
@@ -97,7 +97,7 @@ Il pannello Impostazioni visualizza contenuti diversi in base alla modalità di 
  <tbody> 
   <tr> 
    <td colname="col1"> Suite di rapporti </td> 
-   <td colname="col2"> <p>L'elenco delle suite di rapporti a cui potete accedere non è più limitato alle suite di rapporti definite nel tag della pagina Web. Ora puoi sostituire la suite di rapporti selezionata (corrispondente a uno dei tag nella pagina) con un'altra suite di rapporti. La nuova suite di rapporti non deve necessariamente essere collegata a un tag sulla pagina. Se modificate la suite di rapporti selezionata nelle impostazioni [!DNL Activity Map], il processo di <span class="uicontrol"> salvataggio</span> causerà l'aggiornamento di tutti i rapporti di Analytics interessati. </p> <p> <p>Importante: Le suite di rapporti virtuali non sono compatibili con la modalità Live, solo con la modalità Standard. Se siete in modalità Live per una suite di rapporti standard, ma selezionate una suite di rapporti virtuale in questa finestra di dialogo, dopo aver fatto clic su <span class="uicontrol"> OK</span> qui, viene visualizzata la modalità Standard. </p> </p> <p>Inoltre, il controllo Calendar (Calendario) verrà reinizializzato in modo che corrisponda al tipo di calendario della suite di rapporti (gregoriano, retail, custom...). </p> </td> 
+   <td colname="col2"> <p>L'elenco delle suite di rapporti a cui potete accedere non è più limitato alle suite di rapporti definite nel tag della pagina Web. Ora puoi sostituire la suite di rapporti selezionata (corrispondente a uno dei tag nella pagina) con un'altra suite di rapporti. La nuova suite di rapporti non deve necessariamente essere collegata a un tag sulla pagina. Se modificate la suite di rapporti selezionata nelle impostazioni Activity Map, il processo di <span class="uicontrol"> salvataggio</span> causerà l'aggiornamento di tutti i rapporti Analytics interessati. </p> <p> <p>Importante: Le suite di rapporti virtuali non sono compatibili con la modalità Live, solo con la modalità Standard. Se siete in modalità Live per una suite di rapporti standard, ma selezionate una suite di rapporti virtuale in questa finestra di dialogo, dopo aver fatto clic su <span class="uicontrol"> OK</span> qui, viene visualizzata la modalità Standard. </p> </p> <p>Inoltre, il controllo Calendar (Calendario) verrà reinizializzato in modo che corrisponda al tipo di calendario della suite di rapporti (gregoriano, retail, custom...). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Lingua </td> 
