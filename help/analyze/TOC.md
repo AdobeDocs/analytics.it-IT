@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida all'analisi di Analytics
 user-guide-url: /content/help/it-IT/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
-      + Attribuzione {attribuzione}
+      + Attribution {#attribution}
          + [Panoramica sull’attribuzione](analysis-workspace/c-panels/attribution/attribution.md)
          + [Utilizzo del pannello Attribuzione](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Domande frequenti sull'attribuzione](analysis-workspace/c-panels/attribution/attribution-faq.md)
