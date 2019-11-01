@@ -7,7 +7,7 @@ title: Visualizzazioni di percorso
 topic: Metriche
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ Il termine [!UICONTROL Path View] viene utilizzato per indicare il numero di vol
 | Conversione | N/D |
 | Ad Hoc Analysis | Non è un'intera durata della visita. Solitamente una raccolta di percorsi, ciascuno dei quali ha in genere una lunghezza di 3-4 pagine. Mostra la frequenza delle visite su quel particolare percorso. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Report Percorsi](/help/components/c-variables/dimensionslist/reports-paths.md)
 
