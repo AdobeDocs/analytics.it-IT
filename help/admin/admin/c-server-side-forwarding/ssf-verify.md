@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Verificare l'implementazione lato server
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ Per verificare lo stato dell'inoltro lato server:
 >
 >Se la risposta contiene la coppia di valori chiave `"status":"SUCCESS"` o un'immagine 2 x 2, l'inoltro lato server * non è configurato correttamente. Verificate che il servizio identità sia stato distribuito correttamente, che il modulo App Measurement sia stato distribuito, che la suite di rapporti applicabile sia stata mappata sull'organizzazione IMS corretta e che l'inoltro lato server sia stato abilitato nella console di amministrazione di Analytics.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
 
