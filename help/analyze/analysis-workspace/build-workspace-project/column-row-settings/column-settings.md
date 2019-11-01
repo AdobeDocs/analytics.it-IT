@@ -5,7 +5,7 @@ seo-title: Impostazioni colonna
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 | Personalizzato | Puoi assegnare manualmente i valori per i campi Limite superiore, Punto intermedio e Limite inferiore per la formattazione condizionale. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
 | Table Cell Preview (Anteprima celle tabella) | Mostra un’anteprima di ciascuna cella con le opzioni di formattazione attualmente selezionate attive. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Gestione delle origini dati](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
