@@ -8,7 +8,7 @@ title: Creare regole di elaborazione per il canale di marketing
 topic: Reports and Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ Questa procedura utilizza una regola e-mail come esempio. L'esempio presuppone c
 1. Per assegnare priorità alle regole, trascinatele fino alla posizione desiderata.
 1. Fai clic su **[!UICONTROL Save.]**
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Domande frequenti ed esempi](/help/components/c-marketing-channels/c-faq.md)
 
