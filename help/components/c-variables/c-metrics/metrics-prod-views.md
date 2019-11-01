@@ -1,28 +1,28 @@
 ---
-description: Istanza della visualizzazione prodotto che viene impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodview.
-seo-description: Istanza della visualizzazione prodotto che viene impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodview.
+description: Istanza della visualizzazione prodotto impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodView.
+seo-description: Istanza della visualizzazione prodotto impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodView.
 seo-title: Visualizzazioni prodotto
 solution: Analytics
 title: Visualizzazioni prodotto
-topic: Metrics (Metriche)
-uuid: a 9 f 2 bbcd-e 9 ba -42 d 6-90 c 8-2 fd 4 e 6 c 9775 b
+topic: Metriche
+uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
 
 # Visualizzazioni prodotto
 
-Istanza della visualizzazione prodotto che viene impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodview.
+Istanza della visualizzazione prodotto impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodView.
 
 | Usi | Descrizione |
 |---|---|
-| Traffic (Traffico) | N/D |
-| Conversione   | Instance of the [!UICONTROL Product View] being set. Occurs when the [!UICONTROL Product Detail] page is viewed. |
-| Ad Hoc Analysis | Instance of the [!UICONTROL Product View] being set. Occurs when the [!UICONTROL Product Detail] page is viewed. |
+| Traffico | N/D |
+| Conversione | Istanza dell’ [!UICONTROL Product View] impostazione. Si verifica quando la [!UICONTROL Product Detail] pagina viene visualizzata. |
+| Ad Hoc Analysis | Istanza dell’ [!UICONTROL Product View] impostazione. Si verifica quando la [!UICONTROL Product Detail] pagina viene visualizzata. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORELIKETHIS]
 >
 >* [Report prodotti](/help/components/c-variables/dimensionslist/reports-products.md)
 
