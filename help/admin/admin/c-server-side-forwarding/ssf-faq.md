@@ -5,7 +5,7 @@ seo-title: Domande frequenti sull'inoltro lato server
 title: Domande frequenti sull'inoltro lato server
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ Domande frequenti su funzionalità, funzionalità e problemi relativi all'inoltr
 | D: Cosa succede se disponiamo di due organizzazioni Experience Cloud (o AAM) e vogliamo condividere i dati tra entrambe le organizzazioni Experience Cloud? Posso inoltrare sul lato server un singolo hit di Analytics a più organizzazioni Experience Cloud? | No. Se devi condividere i dati raccolti in un'organizzazione Experience Cloud con un'altra organizzazione Experience Cloud, ti consigliamo di inviare qualsiasi pubblico applicabile da un'istanza di Audience Manager a un'altra tramite il mercato del pubblico. |
 | D: L'inoltro lato server comporterà una fatturazione aggiuntiva in Audience Manager o Analytics? | In Analytics non si verificherà alcuna fatturazione aggiuntiva. In Audience Manager, gli hit inoltrati vengono trattati come qualsiasi altro hit e vengono fatturati.  Per questo motivo è importante non abilitare allo stesso tempo DIL e l'inoltro lato server, che potrebbe causare sia la doppia fatturazione che la duplicazione dei dati. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
