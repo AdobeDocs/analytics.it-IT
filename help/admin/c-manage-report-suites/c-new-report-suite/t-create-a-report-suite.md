@@ -7,7 +7,7 @@ title: Creare una suite di rapporti
 topic: Strumenti di amministrazione
 uuid: fada5b10-f574-4c3f-8704-679c992fc88
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -28,7 +28,7 @@ Procedura che descrive come creare una suite di rapporti e copiare le impostazio
 1. Compila i campi descritti in [Nuova suite di rapporti.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Fai clic su **[!UICONTROL Create Report Suite]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Creazione di suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-create.md)
 
