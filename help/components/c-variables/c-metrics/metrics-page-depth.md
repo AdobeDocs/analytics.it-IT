@@ -1,22 +1,22 @@
 ---
-description: Il numero medio di clic richiede agli utenti di passare a una determinata pagina del sito Web.
-seo-description: Il numero medio di clic richiede agli utenti di passare a una determinata pagina del sito Web.
+description: Numero medio di clic che gli utenti devono passare a una determinata pagina del sito Web.
+seo-description: Numero medio di clic che gli utenti devono passare a una determinata pagina del sito Web.
 seo-title: Profondità pagina
 solution: Analytics
 title: Profondità pagina
-topic: Metrics (Metriche)
-uuid: 28 ca 3652-049 e -46 a 8-a 2 a 1-fe 440 d 0 e 38 a 8
+topic: Metriche
+uuid: 28ca3652-049e-46a8-a2a1-fe440d0e38a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
 
 # Profondità pagina
 
-Il numero medio di clic richiede agli utenti di passare a una determinata pagina del sito Web.
+Numero medio di clic che gli utenti devono passare a una determinata pagina del sito Web.
 
->[!MORE_ LIKE_ THIS]
+>[!MORELIKETHIS]
 >
->* [Report profondità pagina](/help/components/c-variables/dimensionslist/reports-page-depth.md)
+>* [Rapporto Profondità pagina](/help/components/c-variables/dimensionslist/reports-page-depth.md)
 
