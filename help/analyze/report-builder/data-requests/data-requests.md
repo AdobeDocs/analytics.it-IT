@@ -5,7 +5,7 @@ seo-title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -32,6 +32,6 @@ Nella Richiesta guidata: Modulo Passaggio 1: seleziona la suite di rapporti, il 
 
 1. **Applica granularità**: Specifica il livello di dettaglio basato sul tempo incluso nel rapporto. Consultate [Granularità](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Create a Data Request (Creare una richiesta di archivio dati)](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
