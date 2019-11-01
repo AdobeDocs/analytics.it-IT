@@ -1,28 +1,28 @@
 ---
-description: Evento in cui il contenuto del carrello della spesa viene visualizzato dal cliente. Questo valore deriva dall'evento scview.
-seo-description: Evento in cui il contenuto del carrello della spesa viene visualizzato dal cliente. Questo valore deriva dall'evento scview.
+description: Evento in cui il contenuto del carrello viene visualizzato dal cliente. Questo valore deriva dall'evento scView.
+seo-description: Evento in cui il contenuto del carrello viene visualizzato dal cliente. Questo valore deriva dall'evento scView.
 seo-title: Visualizzazioni carrello
 solution: Analytics
 title: Visualizzazioni carrello
-topic: Metrics (Metriche)
-uuid: f 51213 ed-c 396-4 d 6 a -8 f 88-4 ea 870 e 5 bfed
+topic: Metriche
+uuid: f51213ed-c396-4d6a-8f88-4ea870e5bFeed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
 
 # Visualizzazioni carrello
 
-Evento in cui il contenuto del carrello della spesa viene visualizzato dal cliente. Questo valore deriva dall'evento scview.
+Evento in cui il contenuto del carrello viene visualizzato dal cliente. Questo valore deriva dall'evento scView.
 
 | Usi | Descrizione |
 |---|---|
-| Paramfic | N/D |
-| Conversione   | Instance of the [!UICONTROL cart view] event being set. Si verifica quando vengono visualizzati gli elementi in un carrello. |
-| Ad Hoc Analysis | Instance of the [!UICONTROL cart view] event being set. Si verifica quando vengono visualizzati gli elementi in un carrello. |
+| Traffico | N/D |
+| Conversione | Istanza dell’ [!UICONTROL cart view] evento da impostare. Si verifica quando gli elementi di un carrello vengono visualizzati. |
+| Ad Hoc Analysis | Istanza dell’ [!UICONTROL cart view] evento da impostare. Si verifica quando gli elementi di un carrello vengono visualizzati. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORELIKETHIS]
 >
->* [Report Carrello acquisti](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
+>* [Rapporto Carrello acquisti](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
 
