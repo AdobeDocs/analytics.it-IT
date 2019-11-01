@@ -8,7 +8,7 @@ title: Raccolta dati
 topic: Sviluppatore e implementazione
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -95,7 +95,7 @@ Per ulteriori dettagli consulta:
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html)
 * [Feed dati di Analytics](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >       
 >* [Experience Cloud Debugger](/help/implement/impl-testing/debugger.md)
 
