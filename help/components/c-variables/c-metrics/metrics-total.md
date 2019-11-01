@@ -1,20 +1,20 @@
 ---
-description: Il valore di tutte le voci di report per un periodo segnalato. Se è selezionato un filtro, il totale potrebbe rappresentare il totale filtrato invece della suite di rapporti totale. Se nessun filtro è selezionato, il totale rappresenta il totale della suite di rapporti.
-seo-description: Il valore di tutte le voci di report per un periodo segnalato. Se è selezionato un filtro, il totale potrebbe rappresentare il totale filtrato invece della suite di rapporti totale. Se nessun filtro è selezionato, il totale rappresenta il totale della suite di rapporti.
+description: Il valore di tutte le voci del rapporto per un periodo segnalato. Se un filtro è attualmente selezionato, il totale potrebbe rappresentare il totale filtrato anziché il totale della suite di rapporti. Se non viene selezionato alcun filtro, il totale della suite di rapporti è rappresentato.
+seo-description: Il valore di tutte le voci del rapporto per un periodo segnalato. Se un filtro è attualmente selezionato, il totale potrebbe rappresentare il totale filtrato anziché il totale della suite di rapporti. Se non viene selezionato alcun filtro, il totale della suite di rapporti è rappresentato.
 seo-title: Totale
 solution: Analytics
 title: Totale
-topic: Metrics (Metriche)
-uuid: b 0827325-9736-4 a 68-ade 2-3 fe 859 c 7 f 43 c
+topic: Metriche
+uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
 
 # Totale
 
-Il valore di tutte le voci di report per un periodo segnalato. Se è selezionato un filtro, il totale potrebbe rappresentare il totale filtrato invece della suite di rapporti totale. Se nessun filtro è selezionato, il totale rappresenta il totale della suite di rapporti.
+Il valore di tutte le voci del rapporto per un periodo segnalato. Se un filtro è attualmente selezionato, il totale potrebbe rappresentare il totale filtrato anziché il totale della suite di rapporti. Se non viene selezionato alcun filtro, il totale della suite di rapporti è rappresentato.
 
 <table id="table_0A2D5F3C927C42E583E8FD51240F2C86"> 
  <thead> 
@@ -25,12 +25,12 @@ Il valore di tutte le voci di report per un periodo segnalato. Se è selezionato
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Traffic (Traffico) </p> </td> 
-   <td colname="col2"> <p>Il valore di tutte le voci di report per un periodo segnalato. </p> </td> 
+   <td colname="col1"> <p>Traffico </p> </td> 
+   <td colname="col2"> <p>Il valore di tutte le voci del rapporto per un periodo segnalato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Conversione   </p> </td> 
-   <td colname="col2"> <p>Il valore di tutte le voci di report per un periodo segnalato. </p> </td> 
+   <td colname="col1"> <p>Conversione </p> </td> 
+   <td colname="col2"> <p>Il valore di tutte le voci del rapporto per un periodo segnalato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
@@ -39,7 +39,7 @@ Il valore di tutte le voci di report per un periodo segnalato. Se è selezionato
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORELIKETHIS]
 >
 >* [Report totali](/help/components/c-variables/dimensionslist/reports-totals.md)
 
