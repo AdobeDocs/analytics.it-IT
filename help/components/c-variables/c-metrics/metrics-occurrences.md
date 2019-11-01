@@ -7,7 +7,7 @@ title: Occorrenze
 topic: Metriche
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ Vengono elencate due metriche che appaiono simili:
 | Istanze superiori alle occorrenze | Ciò non è possibile nel reporting, in quanto tutte le istanze vengono registrate anche come occorrenze. |
 | Istanze uguali alle occorrenze | Questo è il più comune per le variabili di traffico, poiché per loro natura non persistono oltre la richiesta di immagine. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Istanze](/help/components/c-variables/c-metrics/metrics-instance.md)
 
