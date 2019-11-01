@@ -7,7 +7,7 @@ title: Partecipazione
 topic: Metriche
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -43,7 +43,7 @@ Quando si visualizzano i ricavi nel rapporto Termini di ricerca interna, viene v
 
    La partecipazione è simile all'allocazione lineare, tranne che il credito totale è dato a tutti i valori. Se utilizzate Revenue (Partecipazione) come metrica, l'allocazione viene ignorata. Revenue (Partecipazione) in questo esempio riporta $120 per entrambi i termini di ricerca.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Calcoli metrica](/help/components/c-variables/c-metrics/metrics-calculations.md)
 
