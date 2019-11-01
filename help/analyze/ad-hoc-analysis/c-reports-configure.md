@@ -5,7 +5,7 @@ seo-title: Configurare i rapporti esistenti
 title: Configurare i rapporti esistenti
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ Alcuni rapporti consentono di suddividere i dati della tabella in modo da poter 
    >
    >Per una maggiore flessibilità, utilizzate [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) per configurare un rapporto con suddivisioni. Dopo aver aperto un rapporto salvato o pianificato con suddivisioni, potrebbe essere necessario fare clic **[!UICONTROL Replace Table]** per aggiornare una suddivisione dei dati del rapporto dinamico. Ad esempio, potrebbe essere necessario aggiornare un rapporto pianificato contenente suddivisioni di elementi riga che possono essere modificati in base all'intervallo di date o all'attività del visitatore.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Generatore tabella](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    Questa opzione è disabilitata se [!UICONTROL Fit to Screen] è abilitata. 1. Specificate una larghezza in pixel, quindi fate clic **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Generatore tabella](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
