@@ -7,7 +7,7 @@ title: Visitatori unici
 topic: Metriche
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ La versione 15 rimuove i duplicati [!UICONTROL Visits] e [!UICONTROL Unique Visi
 
 Consulta Rapporto [Visitatori unici - Versione 15 e Analisi](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)ad hoc.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Visitatori giornalieri unici](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)
 
