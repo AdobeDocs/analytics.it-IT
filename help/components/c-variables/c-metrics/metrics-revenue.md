@@ -4,10 +4,10 @@ seo-description: Le entrate vengono acquisite nel momento in cui si verifica un 
 seo-title: Ricavi
 solution: Analytics
 title: Ricavi
-topic: Metrics (Metriche)
-uuid: d 0 c 2 c 012-42 a 7-4 ff 2-8224-6486 ab 956 d 98
+topic: Metriche
+uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -18,12 +18,12 @@ Le entrate vengono acquisite nel momento in cui si verifica un evento acquisto. 
 
 | Usi | Descrizione |
 |---|---|
-| Traffic (Traffico) | N/D |
-| Conversione   | Revenue is captured on the [!UICONTROL purchase] event, and is defined as the total dollar amount for the sum of the order and each product. |
+| Traffico | N/D |
+| Conversione | Revenue is captured on the [!UICONTROL purchase] event, and is defined as the total dollar amount for the sum of the order and each product. |
 | Ad Hoc Analysis | Revenue is captured on the [!UICONTROL purchase] event, and is defined as the total dollar amount for the sum of the order and each product. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORELIKETHIS]
 >
->* [Partecipazione visitatore - Analisi ad hoc](/help/components/c-variables/c-metrics/metrics-visitor-participation.md)
+>* [Partecipazione visitatore: Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md)
 >* [Partecipazione](/help/components/c-variables/c-metrics/metrics-participation.md)
 
