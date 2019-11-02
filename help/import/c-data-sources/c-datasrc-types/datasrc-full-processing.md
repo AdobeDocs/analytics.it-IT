@@ -8,7 +8,7 @@ title: Elaborazione completa
 topic: Sviluppatore e implementazione
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 ---
 
@@ -26,7 +26,7 @@ I dati di origini dati Elaborazione completa vengono elaborati come se fossero s
 
 I dati di origini dati Elaborazione completa vengono elaborati utilizzando profili visitatore separati, così anche se l'ID visitatore nei dati caricati corrisponde ai dati raccolti tramite JavaScript o un'altra libreria AppMeasurement, i profili visitatore non sono collegati da un punto di vista di allocazione eVar.
 
-Ad esempio, un utente con ID visitatore "user@example.com" visita il tuo sito da una campagna di marketing denominata "Vendita di primavera", archiviata nella variabile campagna. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna "Vendita di primavera" non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna "Vendita di primavera" non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
 
 ## Riferimento colonna {#section_92BAE76639E3404E97276B1BE0581078}
 
