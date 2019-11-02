@@ -4,7 +4,7 @@ seo-description: Accedere ai connettori dati; importare dati di tracciamento da 
 seo-title: Connettori dati di Analytics
 title: Guida introduttiva ai connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Per implementare correttamente i segmenti di remarketing, è necessario soddisfa
    * Acquisti: `purchase` evento
    * Visualizzazioni prodotto: `prodView` evento
 
-**** Nota: Se il prodotto è definito senza un evento associato, l'evento prodView si attiva automaticamente.
+> [!NOTE] Se il prodotto è definito senza un evento associato, l'evento prodView si attiva automaticamente.
 Se i requisiti di cui sopra non sono soddisfatti, i segmenti di remarketing corrispondenti non vengono segnalati correttamente.
 
 [!UICONTROL Cart Abandonment]: viene attivato dopo che l'utente aggiunge un prodotto al carrello:
