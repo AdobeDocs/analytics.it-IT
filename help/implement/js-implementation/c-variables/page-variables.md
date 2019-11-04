@@ -9,7 +9,7 @@ title: Variabili di pagina
 topic: Sviluppatore e implementazione
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
 
 ---
 
@@ -2055,13 +2055,11 @@ Per poter utilizzare questa variabile, è necessario abilitare una suite di rapp
 **Insidie, domande e suggerimenti**{#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
 * Le marche temporali sono utilizzate principalmente per tenere traccia dei dati offline sulle piattaforme mobili. Le marche temporali personalizzate sono generalmente disattivate, a meno che non raccogliiate sia dati app Web che offline nella stessa suite di rapporti.
-* I dati vengono contrassegnati con marca temporale quando i dati offline sono abilitati nell’SDK per dispositivi mobili (impostazione predefinita) o quando una suite di rapporti è configurata per accettare dati con marca temporale. I dati raccolti offline sui dispositivi mobili possono essere inviati ore o settimane dopo la data dell'avvenimento. Questi hit possono essere messi in coda nella piattaforma Analytics per minuti o ore più a lungo degli hit senza marca temporale:
+* I dati vengono contrassegnati con marca temporale quando i dati offline sono abilitati nell’SDK per dispositivi mobili (impostazione predefinita) o quando una suite di rapporti è configurata per accettare i dati con marca temporale. I dati raccolti offline possono essere inviati ore o settimane dopo la data in cui si è verificato l'evento in origine. Questi hit possono essere messi in coda nella piattaforma Analytics per minuti o ore più a lungo degli hit senza marca temporale:
 
-   * Per i dati con marca temporale inviati in prossimità dell'ora corrente, il probabile ritardo è di 10-15 minuti.
+   * Per i dati con marca temporale inviati in tempi molto prossimi, il ritardo probabile è di 10-15 minuti.
    * Per i dati con marca temporale inviati da ieri, il probabile ritardo è di circa 2 ore.
-   * Per i dati con marca temporale inviati prima di ieri, ogni giorno aggiunge circa 1 ora di ritardo, fino a 15 giorni prima, quando il ritardo smette di aumentare.
-
-* I dati delle sessioni con marca temporale abilitata vengono conservati fino a 92 giorni.
+   * Per i dati con marca temporale inviati in precedenza rispetto a ieri, ogni giorno aggiunge circa 2 ore di ritardo, fino a un massimo di 48 ore.
 
 ## trackingServer {#concept_45EE91B1A99B4A37AFAEF1C0A8A6B02F}
 
