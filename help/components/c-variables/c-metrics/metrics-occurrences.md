@@ -7,7 +7,7 @@ title: Occorrenze
 topic: Metriche
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Il numero di volte in cui un valore specifico viene acquisito, più il numero di
 
 Vengono elencate due metriche che appaiono simili:
 
-**[Istanze](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: Il numero di volte in cui un valore è stato impostato per una variabile.
+**[Istanze](/help/components/c-variables/c-metrics/metrics-instance.md)**: Il numero di volte in cui un valore è stato impostato per una variabile.
 
 **Occorrenze**: Il numero totale di volte in cui un valore è stato impostato o persistente.
 
