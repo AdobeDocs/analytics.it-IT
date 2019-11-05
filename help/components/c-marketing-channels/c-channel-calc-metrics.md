@@ -8,7 +8,7 @@ title: Metriche calcolate utilizzate per i rapporti sul canale di marketing
 topic: Reports and Analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Aggiungi metriche calcolate ai report Marketing Channel in Analytics.
 
-## Metriche calcolate utilizzate per i rapporti sul canale di marketing {#topic_4521D324A79E43EF99E69FCDE1E92F74}
-
-Aggiungi metriche calcolate ai report Marketing Channel in Analytics.
-
 Le metriche calcolate create in reporting e analisi sono disponibili nel [!UICONTROL Marketing Channel] rapporto, con equivalenti di primo e ultimo tocco. Ad esempio, se hai creato una metrica calcolata denominata Revenue per Order (Entrate per ordine), tale metrica è disponibile nel report Marketing Channel come *`First Touch Revenue per Order`* e *`Last Touch Revenue per Order`*.
 
 Puoi creare metriche calcolate direttamente dal [!UICONTROL Marketing Channel Report]. Le metriche calcolate consentono di effettuare confronti utili tra le metriche del canale del primo e dell’ultimo tocco. Ad esempio, potete visualizzare la differenza tra il primo e l'ultimo contatto con le entrate.
 
-## Aggiunta di metriche calcolate a un report Marketing Channel {#task_4A9E82ACA23A4071B58191C821DBD3D3}
+## Aggiunta di metriche calcolate a un report Marketing Channel {#add-calc-metrics}
 
 Aggiungi una metrica calcolata dal report Panoramica canale di marketing. Puoi aggiungere fino a quattro metriche al report.
 
 1. Aprire un [!UICONTROL Marketing Channel Overview Report].
 
-   See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84).
+   See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md).
 
 1. Nel rapporto, fai clic su **[!UICONTROL Edit.]**![](assets/metric_edit_icon.png)
 
