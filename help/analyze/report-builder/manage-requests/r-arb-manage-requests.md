@@ -7,7 +7,7 @@ title: 'Gestire le richieste: definizioni'
 topic: Generatore di report
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiungi </p> </td> 
-   <td colname="col2"> <p>Visualizza la finestra di dialogo Richiesta guidata. See <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> Create a Data Request</a>. </p> </td> 
+   <td colname="col2"> <p>Visualizza la finestra di dialogo Richiesta guidata. See <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modificare       </p> </td> 
-   <td colname="col2"> <p> (O Modifica multipla) Modifica una richiesta selezionata. Viene visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span> . See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (O Modifica multipla) Modifica una richiesta selezionata. Viene visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span> . See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Elimina </p> </td> 
@@ -80,7 +80,7 @@ Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!
   </tr> 
   <tr> 
    <td colname="col1"> <p> Aggiorna </p> </td> 
-   <td colname="col2"> <p>Aggiorna una singola richiesta o una selezione di richieste. (See <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> Refresh a Request</a>.) </p> </td> 
+   <td colname="col2"> <p>Aggiorna una singola richiesta o una selezione di richieste. (See <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Refresh a Request</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiorna elenco </p> </td> 
