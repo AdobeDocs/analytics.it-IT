@@ -7,7 +7,7 @@ title: Impostazioni account generali
 topic: Strumenti di amministrazione
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -34,7 +34,7 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL di base</span> </td> 
-   <td colname="col2"> <p>Specifica il sito Web principale della suite di rapporti. L'URL di base non influisce sul filtro del referente. Utilizzate invece filtri <a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local"> URL</a> interni. </p> </td> 
+   <td colname="col2"> <p>Specifica il sito Web principale della suite di rapporti. L'URL di base non influisce sul filtro del referente. Utilizzate invece filtri <a href="/help/admin/admin/internal-url-filter-admin.md"> URL</a> interni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Fuso orario</span> </td> 
@@ -54,11 +54,11 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Obfuscamento IP</span> </td> 
-   <td colname="col2"> <p>Trasforma gli indirizzi IP in stringhe non riconoscibili, sostanzialmente rimuovendoli dagli archivi dati Adobe. Quando l'offuscamento IP è abilitato, gli indirizzi IP originali vengono persi definitivamente. </p> <p>Nota:  Gli indirizzi IP sono oscurati ovunque in Analytics, incluso Data Warehouse. Tuttavia, l'impostazione IP in Target è controllata separatamente, pertanto questa impostazione non ha alcun impatto su Target. </p> <p>Se l'offuscamento IP è abilitato, l'esclusione IP avviene prima che l'indirizzo IP sia oscurato, in modo che i clienti non debbano cambiare nulla quando attivano l'offuscamento IP. </p> <p>Selezionando <span class="uicontrol"> Disattivato</span> , l'indirizzo IP viene lasciato nei dati. </p> <p>Selezionando l’indirizzo <span class="uicontrol"> IP</span> offuscato, l’IP viene modificato in un valore con hash (ad esempio, 234abc6493872038). </p> <p>Selezionando <span class="uicontrol"> Rimuovi indirizzo</span> IP, l'indirizzo IP viene sostituito con x.x.x.x nei dati, dopo la ricerca geografica. </p> <p>Nota: Questa impostazione potrebbe richiedere modifiche alle regole <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> bot personalizzate o alle</a> esclusioni<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"></a>IP. </p> </td> 
+   <td colname="col2"> <p>Trasforma gli indirizzi IP in stringhe non riconoscibili, sostanzialmente rimuovendoli dagli archivi dati Adobe. Quando l'offuscamento IP è abilitato, gli indirizzi IP originali vengono persi definitivamente. </p> <p>Nota:  Gli indirizzi IP sono oscurati ovunque in Analytics, incluso Data Warehouse. Tuttavia, l'impostazione IP in Target è controllata separatamente, pertanto questa impostazione non ha alcun impatto su Target. </p> <p>Se l'offuscamento IP è abilitato, l'esclusione IP avviene prima che l'indirizzo IP sia oscurato, in modo che i clienti non debbano cambiare nulla quando attivano l'offuscamento IP. </p> <p>Selezionando <span class="uicontrol"> Disattivato</span> , l'indirizzo IP viene lasciato nei dati. </p> <p>Selezionando l’indirizzo <span class="uicontrol"> IP</span> offuscato, l’IP viene modificato in un valore con hash (ad esempio, 234abc6493872038). </p> <p>Selezionando <span class="uicontrol"> Rimuovi indirizzo</span> IP, l'indirizzo IP viene sostituito con x.x.x.x nei dati, dopo la ricerca geografica. </p> <p>Nota: Questa impostazione potrebbe richiedere modifiche alle regole <a href="/help/admin/admin/bot-removal/bot-rules.md"> bot personalizzate o alle</a> esclusioni<a href="/help/admin/admin/exclude-ip.md"  ></a>IP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Archiviazione ID transazione</span> </td> 
-   <td colname="col2"> <p>Consente di utilizzare le origini dati ID <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external"></a> transazione. </p> </td> 
+   <td colname="col2"> <p>Consente di utilizzare le origini dati ID <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html"  ></a> transazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Attiva analisi ad hoc</span> </td> 
