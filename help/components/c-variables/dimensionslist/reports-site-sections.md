@@ -7,7 +7,7 @@ title: Sezione sito
 topic: Rapporti
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **Tutte le metriche** eCommerce standard: Entrate, ordini, unità, carrelli, viste carrello, Checkout, aggiunte carrello e rimozione carrello
    * **Tutti gli eventi** personalizzati: Eventi 1-80 ed Eventi 81-100 se nel codice H22 o versioni successive.
 
-Tutti gli eventi di conversione nell' [!UICONTROL Site Sections Report] ultima allocazione utilizzata. Vedrete la conversione divisa tra le pagine che non contengono eventi di successo all'interno dell'implementazione. È diverso dal report [](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)Pagine, che utilizza l'allocazione lineare.
+Tutti gli eventi di conversione nell' [!UICONTROL Site Sections Report] ultima allocazione utilizzata. Vedrete la conversione divisa tra le pagine che non contengono eventi di successo all'interno dell'implementazione. È diverso dal report [](/help/components/c-variables/dimensionslist/reports-pages.md)Pagine, che utilizza l'allocazione lineare.
 
 **Informazioni specifiche del prodotto**
 
