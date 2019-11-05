@@ -7,7 +7,7 @@ title: Gestione dispositivi mobili
 topic: Strumenti di amministrazione
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -50,7 +50,7 @@ L’attivazione del tracciamento della posizione consente di:
 
 Gli hit in background abilitati (hit generati quando l’app è in background) indicano che sono trattati come normali hit in primo piano. Ora vengono visualizzati nei rapporti regolari e questo incide anche sull'attribuzione. Questa configurazione è in genere desiderabile solo per mantenere la coerenza con le implementazioni precedenti.
 
-È invece consigliabile "includere hit di background" in una suite [di rapporti](../../components/vrs/vrs-about.md)virtuale. Questo consente di visualizzare gli hit ma non influiscono negativamente sul numero di visite e visitatori.
+È invece consigliabile "includere hit di background" in una suite [di rapporti](/help/components/vrs/vrs-about.md)virtuale. Questo consente di visualizzare gli hit ma non influiscono negativamente sul numero di visite e visitatori.
 Le classificazioni per dispositivi mobili sono abilitate dopo aver attivato **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 Le classificazioni vengono utilizzate per classificare i valori in gruppi e per creare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come "termini musicali pop" e generare rapporti sul successo di quella categoria in relazione a metriche come Istanze (alias Click-through) e conversione in eventi di successo.
