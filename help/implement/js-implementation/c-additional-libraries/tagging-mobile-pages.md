@@ -8,7 +8,7 @@ title: Assegnazione di tag alle pagine per i protocolli mobile
 topic: Sviluppatore e implementazione
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -52,4 +52,4 @@ Se il tipo di immagine predefinito non è supportato su un particolare dispositi
 
 * `/5.5/` restituisce sempre un’immagine WBMP.
 
-Consultate [Identificazione dei visitatori tramite protocolli](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49)mobili.
+Consultate [Identificazione dei visitatori tramite protocolli](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md)mobili.
