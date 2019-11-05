@@ -5,7 +5,7 @@ seo-title: Date e intervalli di date
 title: Date e intervalli di date
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **Per accedere alle sezioni di date storiche**
 
-1. [Crea o apri un progetto.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Aprite il [calendario](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), quindi selezionate **[!UICONTROL Quarter]** o **[!UICONTROL Year]**.
+1. [Crea o apri un progetto.](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. Aprite il [calendario](/help/analyze/ad-hoc-analysis/c-dates.md), quindi selezionate **[!UICONTROL Quarter]** o **[!UICONTROL Year]**.
 
 > [!NOTE] Le fette data storiche si trovano entro limiti di trimestre e anno. Non è possibile visualizzare i dati che attraversano il confine tra le sezioni legacy e la nuova piattaforma di elaborazione. Gli intervalli di date che si estendono su entrambi generano un errore. Inoltre, gli intervalli di date si applicano solo al calendario gregoriano, non al calendario personalizzato.
 
