@@ -5,7 +5,7 @@ seo-title: Integrazione Silverpop
 title: Integrazione Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ Per configurare l'integrazione:
   <tr valign="top"> 
    <td colname="col2"> <p>Raccolta dati </p> </td> 
    <td colname="col03"> <p>(3) Impostazioni dati </p> </td> 
-   <td colname="col3"> <p>Selezionate Plug-in <b></b> JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione (consultate <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> Codice</a>plug-in di Analytics). </p> <p>Selezionate <b>Automated Solution</b> se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. </p> <p>Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l'integrazione: </p> <p> <b>Parametro stringa query ID messaggio:</b>questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail. </p> <p> <b></b> Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail. </p> </td> 
+   <td colname="col3"> <p>Selezionate Plug-in <b></b> JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione (consultate <a href="../silverpop-overview/silverpop-analytics-code.md"> Codice</a>plug-in di Analytics). </p> <p>Selezionate <b>Automated Solution</b> se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. </p> <p>Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l'integrazione: </p> <p> <b>Parametro stringa query ID messaggio:</b>questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail. </p> <p> <b></b> Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Generazione di dashboard e segnalibri </p> </td> 
