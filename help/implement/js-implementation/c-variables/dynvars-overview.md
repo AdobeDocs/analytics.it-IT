@@ -9,7 +9,7 @@ title: Variabili dinamiche
 topic: Sviluppatore e implementazione
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ Un vantaggio significativo delle variabili dinamiche è la capacità di acquisir
 
 Nella richiesta di immagine Adobe che si verifica nella visualizzazione pagina, se utilizzate variabili dinamiche per copiare il valore di [!UICONTROL Custom Traffic 1] in [!UICONTROL Custom Conversion 1], vedrete `v1=D=c1`. Se eVar1 ha ricevuto un valore in precedenza nella richiesta, i server Adobe copiano in modo dinamico il valore di [!UICONTROL Custom Traffic 1] in [!UICONTROL Custom Conversion 1] durante l'elaborazione dei dati. Di conseguenza, nei [!UICONTROL Custom Traffic 1] rapporti appare [!UICONTROL Custom Conversion 1] anche il valore passato originariamente con l'aiuto.
 
-Le variabili dinamiche vengono passate impostando una variabile sul valore desiderato e quindi impostando altre variabili su `D=[variable abbreviation]`. Per le abbreviazioni di ciascuna variabile, vedi Parametri [query raccolta](../../../implement/js-implementation/data-collection/query-parameters.md)dati. Le variabili dinamiche possono estrarre i dati dalle seguenti posizioni:
+Le variabili dinamiche vengono passate impostando una variabile sul valore desiderato e quindi impostando altre variabili su `D=[variable abbreviation]`. Per le abbreviazioni di ciascuna variabile, vedi Parametri [query raccolta](/help/implement/js-implementation/data-collection/query-parameters.md)dati. Le variabili dinamiche possono estrarre i dati dalle seguenti posizioni:
 
 * Altre variabili query-stringa
 * Intestazioni HTTP (tranne l’intestazione Cookie HTTP)
