@@ -5,7 +5,7 @@ seo-title: Panoramica di Rilevamento delle anomalie
 title: Panoramica di Rilevamento delle anomalie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ Puoi visualizzare e analizzare le anomalie nei dati in modo contestuale in Analy
 
 [Analisi contributi su YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] Il rilevamento delle anomalie è disponibile solo in Analysis Workspace. I clienti di Adobe Analytics Select e Foundation possono accedere solo al rilevamento delle anomalie "giornaliero" in Workspace. Per ulteriori informazioni, consulta [Adesioni a Rilevamento delle anomalie e Analisi contributi](../contribution-analysis/ca-tokens.md).
+>[!IMPORTANT] Il rilevamento delle anomalie è stato rimosso dal set di funzioni Reporting e analisi ed è ora disponibile solo tramite Analysis Workspace. I clienti di Adobe Analytics Select e Adobe Analytics Foundation hanno accesso solo al rilevamento delle anomalie "giornaliero" in Workspace. Per ulteriori informazioni, consulta [Adesioni a Rilevamento delle anomalie e Analisi contributi](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 La funzione di rilevamento delle anomalie fornisce un metodo statistico per determinare la variazione di una particolare metrica rispetto ai dati precedenti.
 
