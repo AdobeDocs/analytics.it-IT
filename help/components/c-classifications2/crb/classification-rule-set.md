@@ -8,7 +8,7 @@ title: Set di regole di classificazione
 topic: Strumenti di amministrazione
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Un set di regole è un gruppo di regole di classificazione per una specifica variabile. Si applica una variabile al set di regole. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
 
-## Set di regole di classificazione {#concept_CD3D510F5070486584F3BB535AE41524}
+## Set di regole di classificazione
 
 Un set di regole è un gruppo di regole di classificazione per una specifica variabile. Si applica una variabile al set di regole. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
 
@@ -36,7 +36,7 @@ I campi e le opzioni seguenti sono disponibili sul [!UICONTROL Classifications R
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> Aggiungi set di regole</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Aggiungi set di regole</a> </p> </td> 
    <td colname="col2"> <p>Crea un set di regole. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ I campi e le opzioni seguenti sono disponibili sul [!UICONTROL Classifications R
  </tbody> 
 </table>
 
-## Creare un set di regole di classificazione {#task_86F216DFD2534FA181E64ABDF306782B}
+## Creare un set di regole di classificazione {#create-classification-rule-set}
 
 <!-- 
 
@@ -89,6 +89,6 @@ Denominate il set di regole di classificazione, applicate la variabile e specifi
 
    La suite di rapporti e l'elenco delle variabili vengono compilati con tutte le variabili classificate disponibili in tutte le suite di rapporti della società di accesso. Una singola variabile in una suite di rapporti può appartenere a un solo set di regole.
 
-   Per ulteriori informazioni, vedere *`Variable`* nelle definizioni della pagina [Generatore](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72) regole di classificazione.
+   Per ulteriori informazioni, vedere *`Variable`* nelle definizioni della pagina [Generatore](/help/components/c-classifications2/crb/classification-rule-definitions.md) regole di classificazione.
 1. Specifica le suite di rapporti e le variabili da utilizzare, quindi fai clic su **[!UICONTROL Save]**.
-1. Continua [aggiungendo regole](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) di classificazione al set di regole.
+1. Continua [aggiungendo regole](/help/components/c-classifications2/crb/classification-rule-set.md) di classificazione al set di regole.
