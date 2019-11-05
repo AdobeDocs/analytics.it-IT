@@ -7,7 +7,7 @@ title: Mobile
 topic: Rapporti
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ Sono disponibili i seguenti rapporti sui dispositivi mobili:
   </tr> 
   <tr> 
    <td colname="col1"> Sistema operativo (obsoleto) </td> 
-   <td colname="col2"> <p> Raggruppa i dispositivi mobili in base al sistema operativo mobile in esecuzione sul dispositivo. I sistemi operativi mobili includono Windows, RIM, iOS, Symbian e così via. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> <p>Nota: Questo rapporto è stato dichiarato obsoleto quando il report Tecnologia &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Sistemi</a> operativi è stato aggiornato per includere tutti i sistemi operativi, compresi quelli mobili. Puoi creare un segmento in cui esiste "dispositivo mobile" e applicarlo al rapporto Tecnologia &gt; Sistemi operativi per visualizzare solo i sistemi operativi mobili. </p> </td> 
+   <td colname="col2"> <p> Raggruppa i dispositivi mobili in base al sistema operativo mobile in esecuzione sul dispositivo. I sistemi operativi mobili includono Windows, RIM, iOS, Symbian e così via. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> <p>Nota: Questo rapporto è stato dichiarato obsoleto quando il report Tecnologia &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Sistemi</a> operativi è stato aggiornato per includere tutti i sistemi operativi, compresi quelli mobili. Puoi creare un segmento in cui esiste "dispositivo mobile" e applicarlo al rapporto Tecnologia &gt; Sistemi operativi per visualizzare solo i sistemi operativi mobili. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Versione Java </td> 
-   <td colname="col2"> <p> Raggruppa i dispositivi mobili in base alla versione Java supportata. Il rapporto Versione Java identifica la versione Java dalla JSR (Java Specification Request) supportata dal dispositivo. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> <p>Per ulteriori informazioni su una determinata JSR, consulta il sito Web <a href="https://jcp.org/en/jsr/overview" scope="external" format="html"> Java Community Process</a> . </p> </td> 
+   <td colname="col2"> <p> Raggruppa i dispositivi mobili in base alla versione Java supportata. Il rapporto Versione Java identifica la versione Java dalla JSR (Java Specification Request) supportata dal dispositivo. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> <p>Per ulteriori informazioni su una determinata JSR, consulta il sito Web <a href="https://jcp.org/en/jsr/overview"  > Java Community Process</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Lunghezza URL segnalibro </td> 
