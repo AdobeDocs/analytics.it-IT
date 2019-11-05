@@ -8,7 +8,7 @@ title: Impostazioni gruppo utenti
 topic: Strumenti di amministrazione
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -95,10 +95,10 @@ Descrizioni degli elementi nella pagina Definisci gruppo di utenti.
      </ul> </p> </td> 
    <td colname="col2"> <p>I membri del gruppo possono accedere a un sottoinsieme dei rapporti nel gruppo di report. Fate clic su <span class="uicontrol"> Personalizza</span> per aprire una pagina in cui potete selezionare i rapporti specifici nel gruppo di rapporti a cui i membri del gruppo possono accedere. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Strumenti</a>di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Generatore di report e integrazione dei connettori dati. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Strumenti</a>suite di rapporti: Abilita le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e Rapporti ed Elementi dashboard. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Metriche</a>: Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensioni</a>: Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Strumenti</a>di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Generatore di report e integrazione dei connettori dati. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Strumenti</a>suite di rapporti: Abilita le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e Rapporti ed Elementi dashboard. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> Metriche</a>: Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensioni</a>: Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Descrizioni degli elementi nella pagina Definisci gruppo di utenti.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Accesso completo, Personalizzazione, Nessun accesso) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Le autorizzazioni sono supportate per i clienti che dispongono di contenitori <span class="keyword"> TagManager</span> attivi. Non disponibile per i nuovi utenti. </p> <p>Adobe consiglia <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html" format="html" scope="external"> Gestione</a> tag dinamica per la distribuzione. </p> </td> 
+   <td colname="col2"> <p>Le autorizzazioni sono supportate per i clienti che dispongono di contenitori <span class="keyword"> TagManager</span> attivi. Non disponibile per i nuovi utenti. </p> <p>Adobe consiglia <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html"> Gestione</a> tag dinamica per la distribuzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Assegna login utente</b> </td> 
