@@ -9,7 +9,7 @@ title: Visitatori
 topic: Sviluppatore e implementazione
 uuid: 16cfdb64-a3c6-4056-97da-3227cdcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics conta ogni singolo ID visitatore effettivo come visitatore unico.
 
-Se si osserva la tabella [](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)precedente, si è verificato 3 volte: ai punti 1, 9 e 10. Ciò si verifica perché l’effetto effettivo [!UICONTROL visitor ID] è lo stesso per entrambe le chiamate server e si verifica anche se le visite potrebbero essere diverse ore di distanza e su dispositivi diversi.
+Se si osserva la tabella [](/help/implement/js-implementation/xdevice-visid/visit-example.md)precedente, si è verificato 3 volte: ai punti 1, 9 e 10. Ciò si verifica perché l’effetto effettivo [!UICONTROL visitor ID] è lo stesso per entrambe le chiamate server e si verifica anche se le visite potrebbero essere diverse ore di distanza e su dispositivi diversi.
 
 Questo può aumentare il numero di visitatori univoci che vengono visualizzati quando è abilitata l'identificazione dei visitatori su più dispositivi. Il visitatore potrebbe essere conteggiato due volte nella stessa visita: una volta per la visita iniziale e una volta autenticato l’utente.
 
