@@ -1,76 +1,76 @@
 ---
-description: Esistono ulteriori requisiti e configurazioni per implementare Analytics senza javascript.
-keywords: Implementazione di Analytics; distinzione tra maiuscole e minuscole; parametri di query di codifica; caratteri non validi; richieste di immagini sicure; lunghezza variabile massima; riferimento; url; memorizzazione nella cache; namespace
-seo-description: Esistono ulteriori requisiti e configurazioni per implementare Analytics senza javascript.
-seo-title: Implementazione senza linee guida javascript
+description: Esistono requisiti e configurazioni aggiuntivi per implementare Analytics senza JavaScript.
+keywords: Implementazione di Analytics;distinzione tra maiuscole e minuscole;parametri di query di codifica;caratteri non validi;richieste di immagini protette;lunghezza massima della variabile;riferimento;url;caching;namespace
+seo-description: Esistono requisiti e configurazioni aggiuntivi per implementare Analytics senza JavaScript.
+seo-title: Implementazione senza linee guida JavaScript
 solution: Analytics
-title: Implementazione senza linee guida javascript
+title: Implementazione senza linee guida JavaScript
 topic: Sviluppatore e implementazione
-uuid: c 672 dd 63-1 c 74-4 f 66-8992-9257 c 5 a 75 e 36
+uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Implementazione senza linee guida javascript
+# Implementazione senza linee guida JavaScript
 
-Esistono ulteriori requisiti e configurazioni per implementare Analytics senza javascript.
+Esistono requisiti e configurazioni aggiuntivi per implementare Analytics senza JavaScript.
 
-Puoi visualizzare il codice di esempio per comprendere ulteriormente l'implementazione. Le informazioni seguenti delineano i requisiti e le configurazioni aggiuntive:
+Potete visualizzare il codice di esempio per comprendere meglio l'implementazione. Le seguenti informazioni descrivono i requisiti e le configurazioni aggiuntivi:
 
 <!--Meike, I converted this from a table. Table within a table was a mess, and I'm not sure I captured everything. Please check this content against the orginal. -Bob -->
 
 **Distinzione tra maiuscole e minuscole**
 
-The parameter names (`pageName`, `purchaseID`, and so forth) are case-sensitive and will not properly record data unless they appear as designated in the table displayed in [Query Parameters](../../../implement/js-implementation/data-collection/query-parameters.md).
+I nomi dei parametri (`pageName`, `purchaseID`e così via) sono con distinzione tra maiuscole e minuscole e non registrano correttamente i dati a meno che non vengano visualizzati come indicato nella tabella visualizzata in Parametri [](/help/implement/js-implementation/data-collection/query-parameters.md)query.
 
-**Parametri di query codificati**
+**Codifica parametri query**
 
-I valori per ciascuno dei parametri della stringa query devono essere codificati dall'URL. URL encoding converts characters that are normally illegal when appearing in a query string, such as a space character, into an encoded character beginning with `%`. For example, a space character is converted into `%20`.
+I valori per ciascuno dei parametri della stringa di query devono essere codificati nell’URL. La codifica URL converte i caratteri normalmente non validi quando vengono visualizzati in una stringa di query, ad esempio un carattere spazio, in un carattere codificato che inizia con `%`. Ad esempio, un carattere spazio viene convertito in `%20`.
 
-La versione javascript di questa funzione è chiamata escape (e per decodificare, annullare la unescape). Microsoft IIS versione 5.0 include anche una funzione Esc e Unescape per le stringhe di query. Altri linguaggi di script del server Web offrono anche utilità di codifica/decodifica.
+La versione JavaScript di questa funzione è denominata escape (e per decodificare, unescape). Microsoft IIS versione 5.0 include anche una funzione Escape e Unescape per la codifica delle stringhe di query. Altri linguaggi di script del server Web forniscono anche utility di codifica/decodifica.
 
 **Lunghezza massima variabile**
 
-Ciascuna variabile ha una lunghezza massima. This length is specified for each variable in [Analytics Variables](../../../implement/js-implementation/c-variables/sc-variables.md). Il superamento della lunghezza massima di una variabile determina il troncamento del valore di questa variabile per l'archiviazione e la visualizzazione in Analytics.
+Ogni variabile ha una lunghezza massima. Questa lunghezza è specificata per ogni variabile in Variabili [](/help/implement/js-implementation/c-variables/sc-variables.md)Analytics. Se si supera la lunghezza massima per una variabile, il valore di questa variabile viene troncato per l'archiviazione e la visualizzazione in Analytics.
 
 **Caratteri non validi**
 
-I caratteri con codici di caratteri superiori a decimali 128 non sono validi, così come i codici di caratteri non stampabili inferiori a 128. Anche la formattazione HTML (" &lt; h 1 &gt;") non è valida, come marchi, marchi registrati e simboli di copyright.
+I caratteri con codici di carattere al di sopra della cifra decimale 128 non sono validi, così come i codici di carattere non stampabili al di sotto di 128. Anche la formattazione HTML ("&lt;h1&gt;") non è valida, così come i simboli di marchio, marchio registrato e copyright.
 
-**Protetto (&lt; https: &gt; vs. Non-Secure (&lt; http: &gt;) Richieste di immagini**
+**Richieste di immagini sicure (&lt;https:&gt; e non sicure (&lt;http:&gt;)**
 
-Nelle pagine accessibili tramite https (protocollo protetto), la porzione URL della richiesta di immagine cambia in modo da contenere un set diverso di server di raccolta dati.
+Nelle pagine a cui si accede tramite https (protocollo sicuro), la parte URL della richiesta di immagine viene modificata per contenere un set diverso di server di raccolta dati.
 
-Le informazioni seguenti illustrano i diversi URL utilizzati per richieste di immagini sicure e non sicure.
+Le informazioni seguenti illustrano i diversi URL utilizzati per le richieste di immagini sicure e non sicure.
 
-* The `*` in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Adobe utilizza diversi centri dati ed è necessario implementare l'URL corretto nell'organizzazione. Tutti i codici scaricati da Admin Console all'interno dell'account della società presentano automaticamente il centro dati corretto. Potrebbe essere necessario correggere il codice fornito da origini esterne per indirizzarlo al centro dati corretto.
-* Per i clienti che utilizzano più suite di rapporti, devono essere elencati solo nella sezione della directory e non nella sezione del dominio dell'URL, come illustrato di seguito.
-* The `*` in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Adobe utilizza diversi centri dati ed è necessario implementare l'URL corretto a cui è stata assegnata l'organizzazione.
+* L’URL `*` riportato sopra indica un URL specifico per il centro dati fornito dal consulente Adobe. Adobe utilizza diversi data center ed è necessario implementare l’URL corretto assegnato alla tua organizzazione. Per qualsiasi codice scaricato da Admin Console all'interno dell'account aziendale, viene automaticamente fornito il centro dati corretto. Il codice fornito da fonti esterne potrebbe dover essere corretto per puntare al centro dati corretto.
+* Per i client che utilizzano più suite di rapporti, devono essere elencati solo nella sezione directory, e non nella sezione dominio dell'URL, come mostrato di seguito.
+* L’URL `*` riportato sopra indica un URL specifico per il centro dati fornito dal consulente Adobe. Adobe utilizza diversi data center ed è necessario implementare l'URL corretto al quale è stata assegnata la tua organizzazione.
 
-**URL e URL di provenienza**
+**URL e URL di riferimento**
 
-The URL and Referring URL may be populated from the server in the `g=` and `r=` variables. Use the Request ServerVariables (`HTTP\_REFERRER`) or Request ServerVariables `(URL) (IIS/ASP)`, or the appropriate variable for your server/scripting technology. The referring URL `( r=)` is extremely important for tracking referring URLs, domains, search engines, and search terms.
+L’URL e l’URL di riferimento possono essere popolati dal server nelle `g=` variabili e `r=` . Utilizzare Request ServerVariables (`HTTP\_REFERRER`) o Request ServerVariables `(URL) (IIS/ASP)`, oppure la variabile appropriata per la tecnologia server/script. L’URL di provenienza `( r=)` è estremamente importante per tenere traccia degli URL di provenienza, dei domini, dei motori di ricerca e dei termini di ricerca.
 
-Se pagename non viene utilizzato, è necessario che il campo URL corrente sia compilato in modo univoco. If neither pageName nor Current URL `(g=)` is populated, the record is invalid and is not processed. Come minimo, l'URL è un campo obbligatorio per l'elaborazione del record.
+Se pageName non viene utilizzato, è fondamentale che il campo URL corrente sia popolato in modo univoco. Se né pageName né Current URL `(g=)` vengono compilati, il record non è valido e non viene elaborato. Come minimo, l'URL è un campo obbligatorio per l'elaborazione del record.
 
-**Effetti del caching**
+**Effetti della cache**
 
-HTML e altre pagine Web possono essere memorizzate nella cache da browser o server tra il visitatore e il sito Web che distribuisce il contenuto. La memorizzazione nella cache impedisce un conteggio accurato delle visualizzazioni di pagina e di altri eventi, a meno che non venga impiegata una tecnica "cache-broken".
+HTML e altre pagine Web possono essere memorizzate nella cache da browser o server che si trovano tra il visitatore e il sito Web che distribuisce il contenuto. La memorizzazione nella cache impedisce un conteggio accurato delle visualizzazioni di pagina e di altri eventi a meno che non venga utilizzata una tecnica di "cache-busting".
 
-Javascript standard di Adobe include un metodo dinamico di modifica della richiesta di immagini per evitare la cache delle pagine e delle immagini, consentendo un conteggio accurato delle visualizzazioni di pagina.
+Il codice JavaScript standard di Adobe include un metodo dinamico per modificare la richiesta di immagine per evitare il caching delle pagine e delle immagini, consentendo un conteggio accurato delle visualizzazioni delle pagine.
 
-Tuttavia, durante la creazione di una richiesta di immagine lato server, tale randomizzazione non viene eseguita. I ricarici delle pagine e le pagine memorizzate nella cache (nella cache del browser o in un server proxy) non vengono conteggiati in alcuni casi quando si utilizzano richieste di immagini lato server.
+Tuttavia, durante la creazione di una richiesta di immagine sul lato server, questa randomizzazione non si verifica. I ricarichi di pagina e le pagine memorizzate nella cache (nella cache del browser o in un server proxy) non vengono conteggiati in alcuni casi quando si utilizzano richieste di immagini sul lato server.
 
-SSL (`https:`) pages are not, by definition, ever cached so this warning applies only to non-secure (`http:`) pages. Additionally, pages with parameters (`https://www.samplesite.com/page.asp?parameter=1`) or certain file extensions (`.asp`, `.jsp`, etc.) non sono memorizzate nella cache.
+SSL (`https:`) le pagine non sono, per definizione, mai memorizzate nella cache, pertanto questo avviso si applica solo alle pagine non sicure (`http:`). Inoltre, pagine con parametri (`https://www.samplesite.com/page.asp?parameter=1`) o determinate estensioni di file (`.asp`, `.jsp`ecc.) non vengono memorizzate nella cache.
 
-Gli esempi seguenti illustrano anche una soluzione javascript minima che assembla principalmente la richiesta di immagine lato server e tattica su un numero casuale nel browser. Questo metodo sostituisce il caching che si verifica in caso contrario sulle pagine HTML statiche a cui si accede tramite https: protocollo.
+Gli esempi seguenti illustrano anche una soluzione JavaScript minima che assembla principalmente il lato server della richiesta di immagini e che effettua il tocco su un numero casuale nel browser. Questo metodo supera il caching che altrimenti si verificava sulle pagine HTML statiche a cui si accedeva tramite https: protocollo.
 
-**Variabile namespace**
+**nameSpace, variabile**
 
-Per le implementazioni non javascript è necessario il parametro della stringa query namespace.
+Il parametro della stringa di query nameSpace è richiesto per le implementazioni non JavaScript.
 
-Esempio: ns = namespace
+Esempio: ns=nameSpace
 
-Contattate il vostro Adobe Consulente o Account Manager per ottenere il valore namespace dell'organizzazione.
+Contatta il tuo consulente Adobe o l'Account Manager per ottenere il valore nameSpace della tua organizzazione.
