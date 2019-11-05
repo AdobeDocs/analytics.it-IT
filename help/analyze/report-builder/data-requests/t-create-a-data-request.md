@@ -7,7 +7,7 @@ title: Create a Data Request (Creare una richiesta di archivio dati)
 topic: Generatore di report
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 Procedura per creare una richiesta di dati di base.
 
 1. In Excel, fare clic su **[!UICONTROL Create]**.
-1. Nella [!UICONTROL Request Wizard: Step 1] finestra, seleziona una suite [di](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913)rapporti.
+1. Nella [!UICONTROL Request Wizard: Step 1] finestra, seleziona una suite [di](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)rapporti.
 1. (Facoltativo) Selezionate un segmento da applicare alla richiesta. Dopo aver selezionato uno o più segmenti, questi si sposteranno in cima all’elenco.
 
-   Generatore di report utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la Guida alla segmentazione di [Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 1. (Facoltativo) Selezionate un elenco [di](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C) pubblicazione da usare per la distribuzione.
-1. Select a [report type](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC).
-1. Specifica un intervallo [di](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) date e una [granularità](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB)del report.
+   Generatore di report utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la Guida alla segmentazione di [Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 1. (Facoltativo) Selezionate un elenco [di](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) pubblicazione da usare per la distribuzione.
+1. Select a [report type](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
+1. Specifica un intervallo [di](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) date e una [granularità](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)del report.
 1. Fai clic su **[!UICONTROL Next]**.
-1. Nella finestra [Layout - Richiesta guidata Passaggio 2](../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB) , specificare un layout:
+1. Nella finestra [Layout - Richiesta guidata Passaggio 2](/help/analyze/report-builder/layout/layout.md) , specificare un layout:
 
    | Elemento | Descrizione |
    |---|---|
@@ -36,4 +36,4 @@ Procedura per creare una richiesta di dati di base.
 
    Le [dimensioni](https://marketing.adobe.com/resources/help/en_US/reference/dimensions.html) disponibili nel Passaggio 2 dipendono dal rapporto di base selezionato al Passaggio 1 e dalla configurazione della suite di rapporti. Le dimensioni sono elementi che corrispondono, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale selezionata nella [!UICONTROL Request Wizard: Step 1] finestra. Il passo 2 prevede l’aggiunta di più dimensioni per la creazione di una suddivisione nella richiesta di dati.
 
-   Per ulteriori informazioni, consulta [Aggiungere metriche e dimensioni](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) .
+   Per ulteriori informazioni, consulta [Aggiungere metriche e dimensioni](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) .
