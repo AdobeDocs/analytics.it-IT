@@ -5,7 +5,7 @@ seo-title: Procedura di integrazione e prerequisiti
 title: Procedura di integrazione e prerequisiti
 uuid: d0cd9f08-b66e-470a-a5d2-08cbdc18275
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -26,4 +26,4 @@ Questa integrazione con i connettori dati richiede quanto segue:
 
 * Un account emarsys attivo
 
-Per istruzioni dettagliate sull'integrazione, vedere [Esecuzione dell'Integrazione guidata](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a)dei connettori dati.
+Per istruzioni dettagliate sull'integrazione, vedere [Esecuzione dell'integrazione guidata Connettori dati](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
