@@ -8,7 +8,7 @@ title: Dashboard Manager
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Quando copiate il dashboard legacy, il sistema apre il dashboard legacy per la m
 
    Il dashboard copiato si apre nell'editor di layout del dashboard.
 
-   Consultate [Modifica dei dati](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460)del dashboard e del minirapporto.
+   Consultate [Modifica dei dati](/help/analyze/reports-analytics/dashboard.md)del dashboard e del minirapporto.
 
 ## Condivisione di un dashboard
 
@@ -107,7 +107,7 @@ In [!UICONTROL Dashboard Manager], potete verificare se una dashboard è pianifi
 1. Aprite una dashboard.
 1. Fai clic su **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   Per ulteriori informazioni, consulta [Pianificazione e distribuzione](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) .
+   Per ulteriori informazioni, consulta [Pianificazione e distribuzione](/help/analyze/reports-analytics/scheduling.md) .
 
 ## Archiviare un dashboard
 
