@@ -8,7 +8,7 @@ title: 'Importazione classificazioni: panoramica'
 topic: Strumenti di amministrazione
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -23,6 +23,6 @@ I dati importati con lo strumento di importazione devono essere in un formato sp
 
 > [!NOTE] Adobe consiglia di limitare il numero di colonne di importazione ed esportazione a 30.
 
-Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, vedere Classificazioni [](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) numeriche 2.
+Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, vedere Classificazioni [](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) numeriche 2.
 
 Consultate [Problemi](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)comuni relativi al caricamento Saint Articolo della Knowledge Base che descrive i problemi derivanti da formati di file e contenuti di file non corretti.
