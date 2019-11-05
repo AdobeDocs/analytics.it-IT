@@ -5,7 +5,7 @@ seo-title: Introduzione
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -29,7 +29,7 @@ Queste funzioni consentono di rispondere alle domande sul traffico del sito, sul
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Log in to Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Andate a <a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>ed effettuate l'accesso utilizzando le vostre credenziali di Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>Andate a <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>ed effettuate l'accesso utilizzando le vostre credenziali di Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Avvia Analisi Ad Hoc. </p> </td> 
@@ -37,20 +37,20 @@ Queste funzioni consentono di rispondere alle domande sul traffico del sito, sul
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crea un progetto. </p> </td> 
-   <td colname="col2"> <p>Nella pagina iniziale, seleziona una suite di rapporti, quindi fai clic su <span class="uicontrol"> Crea progetto</span>. </p> <p>Consultate <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Progetti e aree di lavoro</a>. </p> </td> 
+   <td colname="col2"> <p>Nella pagina iniziale, seleziona una suite di rapporti, quindi fai clic su <span class="uicontrol"> Crea progetto</span>. </p> <p>Consultate <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Progetti e aree di lavoro</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Aprite un rapporto. </p> </td> 
-   <td colname="col2"> <p>Cerca un rapporto utilizzando il menu standard del rapporto Cloud. Potete anche scegliere un modello. </p> <p>Consultate <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_370F674C5B4C45368731AA801C5A45F8" type="concept" format="dita" scope="local"> Modelli</a>di report. </p> </td> 
+   <td colname="col2"> <p>Cerca un rapporto utilizzando il menu standard del rapporto Cloud. Potete anche scegliere un modello. </p> <p>Consultate <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Modelli</a>di report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. Configurare il rapporto. </p> </td> 
    <td colname="col2"> <p>Configurare i rapporti eseguendo attività quali: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Creazione di segmenti per approfondire i dati </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Aggiunta di metriche, dimensioni e segmenti al Generatore di <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> tabelle</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configurazione degli intervalli di <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date</a> </li> 
-     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Pianificazione</a> della consegna del rapporto </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Aggiunta di metriche, dimensioni e segmenti al Generatore di <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > tabelle</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configurazione degli intervalli di <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > date</a> </li> 
+     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Pianificazione</a> della consegna del rapporto </li> 
     </ul> <p>Cercate in questo sistema di Aiuto per individuare l'assistenza necessaria. </p> </td> 
   </tr> 
  </tbody> 
