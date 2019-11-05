@@ -8,7 +8,7 @@ title: Generare un modello di file di importazione
 topic: Sviluppatore e implementazione
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Il modello di file di importazione è progettato per aiutarti a iniziare l'importazione.
 
-Non sei limitato alle colonne definite nel modello. Puoi aggiungere qualsiasi altra colonna che ti serve, a condizione che la metrica o la definizione sia supportata per il tipo di elaborazione dati selezionato. Puoi visualizzare le metriche e le dimensioni supportate per ogni tipo nelle sezioni seguenti: Registro [](../../../import/c-data-sources/c-datasrc-types/datasrc-web-log.md#concept_E25D89C8B90A41FEB7DF4E936CACEE2B)Web, [Traffico](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC), [Conversione](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0), ID [](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)transazione, ID [](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)[](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)visitatore, Elaborazione completa). For example, for a traffic data type, you can add a column for any metric or dimensions listed in [Traffic](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC).
+Non sei limitato alle colonne definite nel modello. Puoi aggiungere qualsiasi altra colonna che ti serve, a condizione che la metrica o la definizione sia supportata per il tipo di elaborazione dati selezionato. Puoi visualizzare le metriche e le dimensioni supportate per ogni tipo nelle sezioni seguenti: Registro [](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)Web, [Traffico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversione](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), ID [](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)transazione, ID [](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)[](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)visitatore, Elaborazione completa). For example, for a traffic data type, you can add a column for any metric or dimensions listed in [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
 
 Una volta creato, puoi scaricare il modello, inserire i dati nel modello, quindi caricare i dati sul sito FTP Origini dati. Una volta elaborati dal server Origini dati, i dati importati sono disponibili per l'utilizzo nei report Analytics.
 
 Il modello Origine dati è un file .txt che puoi aprire con qualsiasi editor di testo. Tuttavia, è più semplice lavorare con il modello utilizzando Microsoft Excel o un'altra applicazione di fogli di calcolo. Il contenuto del modello varia in base alle selezioni nella procedura guidata Attivazione origine dati.
 
-Consulta  [Riferimento file di importazione](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD) per ulteriori dettagli.
+Consulta  [Riferimento file di importazione](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) per ulteriori dettagli.
 
 1. Effettuate l'accesso ad Analytics.
 1. Nell’intestazione Suite, selezionate **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
