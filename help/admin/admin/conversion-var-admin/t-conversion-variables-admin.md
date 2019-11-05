@@ -7,7 +7,7 @@ title: Modificare le variabili di conversione
 topic: Strumenti di amministrazione
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,5 +26,5 @@ Procedura che descrive come aggiungere o modificare variabili di conversione.
    Fai clic **[!UICONTROL Add New]** per aggiungere un'eVar inutilizzata alla suite di rapporti.
 1. Selezionare i campi della variabile di conversione da modificare.
 
-   Vedere Variabili [di conversione - Descrizioni](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Alcuni campi consentono di digitare il testo direttamente nel campo. Altri consentono di selezionare da un elenco a discesa di valori supportati.
+   Vedere Variabili [di conversione - Descrizioni](/help/admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Alcuni campi consentono di digitare il testo direttamente nel campo. Altri consentono di selezionare da un elenco a discesa di valori supportati.
 1. Fai clic su **[!UICONTROL Save]**.
