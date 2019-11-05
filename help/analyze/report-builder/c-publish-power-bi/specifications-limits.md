@@ -5,7 +5,7 @@ seo-title: Limiti e specifiche
 title: Limiti e specifiche
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ La modifica di una richiesta Generatore di report dopo la pubblicazione in Power
    **Esempio di interruzione della visualizzazione:**
 
    1. In Generatore di report, creare una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
-   1. [Pianificare la pubblicazione della richiesta](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) in Power BI.
+   1. [Pianificare la pubblicazione della richiesta](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) in Power BI.
    1. In Power BI, creare una visualizzazione per le visualizzazioni pagina e pagina.
    1. Modificare la cartella di lavoro rimuovendo Visualizzazioni pagina dalla richiesta.
    1. Modificare la pianificazione con la cartella di lavoro aggiornata e pubblicare nuovamente la richiesta in Power BI.
@@ -43,7 +43,7 @@ La modifica di una richiesta Generatore di report dopo la pubblicazione in Power
    **Di seguito è riportato un esempio di come LA visualizzazione NON verrà interrotta:**
 
    1. In Generatore di report, creare una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
-   1. [Pianificare la pubblicazione della richiesta](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) in Power BI.
+   1. [Pianificare la pubblicazione della richiesta](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) in Power BI.
    1. In Power BI, creare una visualizzazione per le visualizzazioni pagina e pagina.
    1. Ora modificate la cartella di lavoro in Generatore di report, aggiungendo la metrica Visita mantenendo le visualizzazioni pagina e pagina.
    1. Modificare la pianificazione con la cartella di lavoro aggiornata e pubblicare nuovamente la richiesta in Power BI.
