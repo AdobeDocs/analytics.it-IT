@@ -5,7 +5,7 @@ seo-title: Prima Di Attivare Questa Integrazione
 title: Prima Di Attivare Questa Integrazione
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ In questo modo, prima dell'attivazione verranno messe in atto le procedure ottim
 Leggi le seguenti informazioni sull’integrazione dei connettori dati in relazione ad Adobe Analytics:
 
 * **** Suite di rapporti specifica: Questa integrazione è specifica per la suite di rapporti. Prima di attivare l'integrazione, accertatevi di aver selezionato la suite di rapporti desiderata.
-* **** Variabili Analytics disponibili e configurate: Questa integrazione richiede 5 eventi personalizzati e 2 eVar personalizzate, ed eventualmente 3 eventi aggiuntivi e 3 eVar aggiuntive. Consulta Variabili [di integrazione di](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2)Analytics.
+* **** Variabili Analytics disponibili e configurate: Questa integrazione richiede 5 eventi personalizzati e 2 eVar personalizzate, ed eventualmente 3 eventi aggiuntivi e 3 eVar aggiuntive. Consulta Variabili [di integrazione di](/help/import/data-connectors/silverpop-overview/silverpop-variables.md)Analytics.
 
 * **** Rappresentante autorizzato: L'abilitazione di questa integrazione potrebbe indurre l'azienda a sostenere delle spese in conformità al contratto di servizio stipulato con Adobe, Inc. o al contratto di assistenza stipulato con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l'Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
 * **** Data Warehouse™: Questa integrazione richiede che Data Warehouse sia abilitato per generare segmenti di remarketing. Se non hai attivato Data Warehouse, contatta Adobe per ulteriori informazioni.
