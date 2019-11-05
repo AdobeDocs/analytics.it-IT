@@ -9,7 +9,7 @@ title: getQueryParam
 topic: Sviluppatore e implementazione
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Restituisce il valore di un parametro di stringa di query specificato, se presen
 
 >[!IMPORTANT]
 >
->Questo plug-in è utilizzato solo dal codice H. [AppMeasurement per JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) fornisce questa funzionalità in modo nativo utilizzando [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Questo plug-in è utilizzato solo dal codice H. [AppMeasurement per JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) fornisce questa funzionalità in modo nativo utilizzando [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 Una volta installato nel [!DNL AppMeasurement] codice JavaScript, il plug-in viene configurato selezionando una [!DNL Analytics] variabile da compilare utilizzando i dati presenti nella stringa di query e specificando i valori stringa di query da acquisire. Il plug-in rileva la stringa di query specificata, se presente, e compila la variabile scelta con il relativo valore. Se con tale valore non viene trovato alcun parametro di stringa di query, viene restituita una stringa vuota. Se un parametro di stringa di query esiste ma non ha un valore (come param1 in `?param1&param2=value`), viene restituita la parola *`true`* .
 
