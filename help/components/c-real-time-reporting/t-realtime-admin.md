@@ -7,7 +7,7 @@ title: Configurare rapporti in tempo reale
 topic: Strumenti di amministrazione
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ L'impostazione di rapporti in tempo reale all'interno [!UICONTROL Reports & Anal
 
    ![](assets/real_time_admin.png)
 
-   Per informazioni sulle metriche e dimensioni in tempo reale supportate, consultate Metriche e dimensioni [](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7)supportate.
+   Per informazioni sulle metriche e dimensioni in tempo reale supportate, consultate Metriche e dimensioni [](/help/components/c-real-time-reporting/realtime-metrics.md)supportate.
 
    Se avete creato delle classificazioni, queste appaiono rientrate sotto la dimensione per la quale sono definite:
 
@@ -47,7 +47,7 @@ L'impostazione di rapporti in tempo reale all'interno [!UICONTROL Reports & Anal
    >
    >Per un singolo rapporto in tempo reale, al momento non siamo in grado di abilitare dimensioni duplicate, anche se per ogni dimensione è selezionata una classificazione diversa.
 
-   Per ulteriori informazioni sulle classificazioni, vedere [Informazioni sulle classificazioni](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   Per ulteriori informazioni sulle classificazioni, vedere [Informazioni sulle classificazioni](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
