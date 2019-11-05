@@ -7,7 +7,7 @@ title: 'Nuova suite di rapporti: impostazioni'
 topic: Strumenti di amministrazione
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,7 +50,7 @@ Descrizioni degli elementi utilizzati per [creare una suite](/help/admin/c-manag
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vai alla data in diretta </p> </td> 
-   <td colname="col2">Indica ad Adobe la data prevista per l'attivazione di questa suite di rapporti. Se la pianificazione della distribuzione cambia, fornite una stima del traffico aggiornata utilizzando lo strumento <span class="wintitle"> Traffic</span> previsto permanente in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>(Gestionetraffico). </td> 
+   <td colname="col2">Indica ad Adobe la data prevista per l'attivazione di questa suite di rapporti. Se la pianificazione della distribuzione cambia, fornite una stima del traffico aggiornata utilizzando lo strumento <span class="wintitle"> Traffic</span> previsto permanente in <a href="/help/admin/c-traffic-management/traffic-management.md"> Traffic Management</a>(Gestionetraffico). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Viste stimate per pagina al giorno</span> </td> 
