@@ -5,7 +5,7 @@ seo-title: Avvisi intelligenti
 title: Avvisi intelligenti
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -75,7 +75,7 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: È possibile ottenere una tabella dei "valori previsti" che comprenda la linea tratteggiata, o una sorta di output dei valori? </b> </p> </td> 
-   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo fisso di 30 giorni, un intervallo fisso del 95% ed è simile al processo di <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>rilevamento delle anomalie di Reports &amp; Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo fisso di 30 giorni, un intervallo fisso del 95% ed è simile al processo di <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  ><span class="uicontrol"></span>rilevamento delle anomalie di Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
