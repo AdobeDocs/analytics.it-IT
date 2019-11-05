@@ -7,7 +7,7 @@ title: Modificare più richieste
 topic: Generatore di report
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ Puoi cambiare più richieste contemporaneamente, in base alla suite di rapporti,
    * **Per segmento**: Raggruppa le richieste in base al nome del segmento.
 
       * **Scegli segmento**: Visualizza se non esistono segmenti per le richieste. Per aggiungere segmenti, fai clic su **[!UICONTROL Edit Group]** e seleziona un segmento dal [!UICONTROL Edit Group] pannello.
-   * **Per metrica**: Consultate [Modificare Le Metriche Per Più Richieste](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+   * **** Per metrica: Consultate [Modificare Le Metriche Per Più Richieste](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **** Per intervallo di date e granularità: Raggruppa la visualizzazione delle richieste per intervallo di date e granularità dell'ora.
    * **** Per gruppo: Raggruppa la visualizzazione delle richieste per set di richieste raggruppate.
