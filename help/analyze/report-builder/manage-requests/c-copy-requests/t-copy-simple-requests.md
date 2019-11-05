@@ -7,7 +7,7 @@ title: Copia richieste semplici
 topic: Generatore di report
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
 
-Una richiesta [](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale. Questi filtri utilizzano la corrispondenza o la tendenza e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall'utente di una cella, denominata cella di input.
+Una richiesta [](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale. Questi filtri utilizzano la corrispondenza o la tendenza e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall'utente di una cella, denominata cella di input.
 1. Create una richiesta valida.
 1. Fate clic con il pulsante destro del mouse su una delle celle in cui è mappata la richiesta, oppure selezionate un'area di celle contenente richieste.
 
