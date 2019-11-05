@@ -8,7 +8,7 @@ title: Implementare rinunce Adobe
 topic: Sviluppatore e implementazione
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,7 +34,7 @@ I visitatori possono scoprire come Adobe utilizza generalmente le informazioni r
 
 Adobe offre tre tipi di optedout per Adobe Analytics (inclusi [!UICONTROL Reports & Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* Se implementate i prodotti Adobe Analytics con un cookie di prima parte, dovete [sviluppare un collegamento](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) di rinuncia personalizzato per i visitatori del sito Web.
+* Se implementate i prodotti Adobe Analytics con un cookie di prima parte, dovete [sviluppare un collegamento](/help/implement/js-implementation/data-collection/opt-out-link.md) di rinuncia personalizzato per i visitatori del sito Web.
 * I clienti hanno la possibilità di abilitare l'opzione di rifiuto utilizzando le impostazioni dei cookie del browser. See [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
 
 Indipendentemente dal meccanismo di rifiuto scelto, Adobe consiglia di descrivere chiaramente la disponibilità del meccanismo di rifiuto nell'informativa sulla privacy o come altrimenti richiesto dalla legge o consigliato in base alle best practice correnti.
