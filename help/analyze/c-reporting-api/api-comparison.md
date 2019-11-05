@@ -6,7 +6,7 @@ solution: Analytics
 title: Confronto delle API di reportistica di Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -36,7 +36,7 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
    <td colname="col5"> Dati completamente elaborati e finalizzati utilizzati per il pulling di grandi esportazioni di dati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf" format="https" scope="external"> Latenza</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latenza</a> </p> </td> 
    <td colname="col2"> 30-90 minuti </td> 
    <td colname="col3"> * Secondi -10 minuti </td> 
    <td colname="col4"> Secondi -10 minuti </td> 
@@ -50,7 +50,7 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
    <td colname="col5"> a schermo intero </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/" format="https" scope="external"> Interfacce di reporting</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Interfacce di reporting</a> </td> 
    <td colname="col2"> Reporting e analisi, Generatore di report, API </td> 
    <td colname="col3"> Report in tempo reale in Reporting e analisi, Generatore di report, API </td> 
    <td colname="col4"> Solo API </td> 
@@ -86,10 +86,10 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
   </tr> 
   <tr> 
    <td colname="col1"> <b>Documentazione</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B" format="https" scope="external"> Servizi web</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time" format="https" scope="external"> Rapporti in tempo reale</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B" format="https" scope="external"> Panoramica di Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Servizi web</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Rapporti in tempo reale</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Panoramica di Livestream</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
