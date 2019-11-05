@@ -5,7 +5,7 @@ seo-title: Avvisi sull’utilizzo delle chiamate server
 title: Avvisi sull’utilizzo delle chiamate server
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -67,12 +67,12 @@ Per gestire gli avvisi:
 
    | Azione | Definizione |
    |--- |--- |
-   | + Aggiungi | Access the [Alert Builder](../../admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add]. |
+   | + Aggiungi | Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add]. |
    | Tag | Assegnare tag agli avvisi per organizzarli in modo semplice. |
    | Elimina | È possibile eliminare tutti gli avvisi tranne quelli predefiniti. |
    | Rinomina | È possibile rinominare tutti gli avvisi tranne quelli predefiniti. |
    | Approva | Approvare gli avvisi per renderli "ufficiali". |
    | Attiva/Disattiva | Puoi attivare o disattivare tutti gli avvisi, anche quelli predefiniti. |
    | Rinnova | Se sono selezionati uno o più avvisi, è possibile rinnovarli. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
-   | Export to CSV (Esporta in CSV) | Consultate [Download del rapporto sull'utilizzo](../../admin/c-server-call-usage/report-suite-usage.md) |
+   | Export to CSV (Esporta in CSV) | Consultate [Download del rapporto sull'utilizzo](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
