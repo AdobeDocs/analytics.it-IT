@@ -8,7 +8,7 @@ title: Origini dati Manager
 topic: Sviluppatore e implementazione
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ Creare, gestire e visualizzare l'utilizzo di origini dati in una suite di rappor
 
 The [!UICONTROL Create] tab lets you configure a new data source for the currently selected report suite. When you activate a data source, the [!UICONTROL Data Sources Wizard] guides you through the process of creating a Data Sources template, and creates an FTP location for uploading data.
 
-La selezione eseguita nella scheda Crea determina i campi iniziali nel modello creato. See [Generating an Import File Template](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267).
+La selezione eseguita nella scheda Crea determina i campi iniziali nel modello creato. See [Generating an Import File Template](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## Scheda Gestisci {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ La selezione eseguita nella scheda Crea determina i campi iniziali nel modello c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Complete Processing (Completa elaborazione) </p> </td> 
-   <td colname="col2"> <p>Indica a Origini dati di chiudere qualsiasi visita aperta nel file e di terminare l'elaborazione del file Origini dati come se fosse stata completata. Questa opzione è utile in presenza di visite che si estendono in più file Origini dati. Questo vale solo per l'elaborazione <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"></a>completa. </p> </td> 
+   <td colname="col2"> <p>Indica a Origini dati di chiudere qualsiasi visita aperta nel file e di terminare l'elaborazione del file Origini dati come se fosse stata completata. Questa opzione è utile in presenza di visite che si estendono in più file Origini dati. Questo vale solo per l'elaborazione <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   ></a>completa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Disattiva </p> </td> 
@@ -49,7 +49,7 @@ La selezione eseguita nella scheda Crea determina i campi iniziali nel modello c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stop processing on errors/warnings (Interrompi elaborazione in caso di errori/avvisi) </p> </td> 
-   <td colname="col2"> <p> Indica al motore di elaborazione di Origini dati di interrompere l'elaborazione quando viene rilevato un errore. L'elaborazione dell'origine dati non riprende fino a quando non selezioni Restart Processing (Riavvia elaborazione). The Stop processing on warnings option applies only to <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Full Processing</a>. </p> <p>Quando Origini dati rileva un errore del file, ti avvisa dell'errore. Il sistema sposta il file Origini dati con l'errore in una cartella denominata <span class="filepath">files_with_errors</span> sul server FTP. Dopo aver risolto il problema, rinvia il file Origini dati per l'elaborazione. </p> </td> 
+   <td colname="col2"> <p> Indica al motore di elaborazione di Origini dati di interrompere l'elaborazione quando viene rilevato un errore. L'elaborazione dell'origine dati non riprende fino a quando non selezioni Restart Processing (Riavvia elaborazione). The Stop processing on warnings option applies only to <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Full Processing</a>. </p> <p>Quando Origini dati rileva un errore del file, ti avvisa dell'errore. Il sistema sposta il file Origini dati con l'errore in una cartella denominata <span class="filepath">files_with_errors</span> sul server FTP. Dopo aver risolto il problema, rinvia il file Origini dati per l'elaborazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configure (Configura) </p> </td> 
