@@ -8,7 +8,7 @@ title: Variabili di conversione (eVar)
 topic: Strumenti di amministrazione
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Le variabili di merchandising possono seguire una delle due sintassi: </p> <p> <b></b> Sintassi</span>prodotti: Associa il valore eVar a un prodotto. Nota:  Se Product Syntax (Sintassi prodotto) è selezionata, la sezione Merchandising Binding Event (Evento di binding merchandising) è disabilitata e non è selezionabile per la modifica. Per questa sintassi, gli eventi di binding non sono applicabili. </p> </p> <p> <b></b> Sintassi</span>variabile di conversione: Associa l'eVar a un prodotto solo se si verifica un evento di binding. In questo caso, è possibile selezionare gli eventi che fungono da eventi di binding. </p> <p>La modifica di questa impostazione senza aggiornare di conseguenza il codice JavaScript causa la perdita di dati. Consultate Variabili <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external"></a>di merchandising. </p> </td> 
+   <td colname="col2"> <p>Le variabili di merchandising possono seguire una delle due sintassi: </p> <p> <b></b> Sintassi</span>prodotti: Associa il valore eVar a un prodotto. Nota:  Se Product Syntax (Sintassi prodotto) è selezionata, la sezione Merchandising Binding Event (Evento di binding merchandising) è disabilitata e non è selezionabile per la modifica. Per questa sintassi, gli eventi di binding non sono applicabili. </p> </p> <p> <b></b> Sintassi</span>variabile di conversione: Associa l'eVar a un prodotto solo se si verifica un evento di binding. In questo caso, è possibile selezionare gli eventi che fungono da eventi di binding. </p> <p>La modifica di questa impostazione senza aggiornare di conseguenza il codice JavaScript causa la perdita di dati. Consultate Variabili <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html"></a>di merchandising. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento di binding Merchandising</span> </p> <p>(solo eVar) </p> </td> 
