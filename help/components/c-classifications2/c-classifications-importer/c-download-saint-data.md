@@ -8,7 +8,7 @@ title: Modello di classificazione
 topic: Strumenti di amministrazione
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 |---|---|
 | Seleziona suite di rapporti | Selezionate la suite di rapporti da usare nel modello. La suite di rapporti e il set di dati devono corrispondere. |
 | Set di dati da classificare | Selezionare il tipo di dati per il file di dati. Il menu include tutti i rapporti nelle suite di rapporti configurati per le classificazioni. |
-| Esporta numero 2 | È possibile importare classificazioni numeriche 2 nel sistema tramite Importazione. Le classificazioni numeriche 2 sono utili per le variabili che cambiano nel tempo per voci diverse, come i valori di costo e budget per il [!UICONTROL Marketing Channel] report. Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, vedere Classificazioni [](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) numeriche 2. |
+| Esporta numero 2 | È possibile importare classificazioni numeriche 2 nel sistema tramite Importazione. Le classificazioni numeriche 2 sono utili per le variabili che cambiano nel tempo per voci diverse, come i valori di costo e budget per il [!UICONTROL Marketing Channel] report. Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, vedere Classificazioni [](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) numeriche 2. |
 | Codifica | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8. |
 | Scarica | Scarica il file modello. |
 
@@ -35,7 +35,7 @@ Il modello include le classificazioni (intestazioni di colonna) attualmente defi
 
 > [!NOTE] Il metodo Template limita il download dei dati di classificazione a una singola suite di rapporti.
 
-Per ulteriori informazioni sulla struttura del file di dati, vedere [Informazioni sui file](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)di dati di classificazione.
+Per ulteriori informazioni sulla struttura del file di dati, vedere [Informazioni sui file](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)di dati di classificazione.
 
 ## Download di un modello dati classificazione (facoltativo) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -44,7 +44,7 @@ Il modello fornisce il formato di file da seguire per le classificazioni.
 > [!NOTE] Il metodo Template limita il download dei dati a una singola suite di rapporti.
 
 1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Nella **[!UICONTROL Download Template]** scheda, specifica la configurazione [del modello di](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417)dati.
+1. Nella **[!UICONTROL Download Template]** scheda, specifica la configurazione [del modello di](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)dati.
 1. Fai clic su **[!UICONTROL Download]**.
 1. Salvate il file modello nel sistema locale.
 
