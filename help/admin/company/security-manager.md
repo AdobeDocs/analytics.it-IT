@@ -7,7 +7,7 @@ title: Sicurezza Manager
 topic: Strumenti di amministrazione
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -48,7 +48,7 @@ Consente di controllare l'accesso ai dati di reporting. Le opzioni disponibili i
        192.168.10.[20-240]
      </code>). È inoltre possibile utilizzare i caratteri jolly (*) per specificare un numero qualsiasi compreso tra 0 e 255 (ad esempio, <code>
        192.168.[10-14].*
-     </code>) </p> <p>Gli accessi non riusciti vengono registrati e visualizzati dal registro <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local"></a>di utilizzo e accesso. </p> </td> 
+     </code>) </p> <p>Gli accessi non riusciti vengono registrati e visualizzati dal registro <a href="/help/admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232"></a>di utilizzo e accesso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Applica limitazioni dominio e-mail</span> </td> 
