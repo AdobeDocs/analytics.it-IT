@@ -2,7 +2,7 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -35,7 +35,7 @@ Adobe considera gli hit con marca temporale come se fossero stati ricevuti al mo
 
 **Come si confronta CDA con l’ID visitatore personalizzato?**
 
-[L’ID](../../implement/js-implementation/c-unique-visitors/visid-custom.md) visitatore personalizzato è un metodo legacy per [connettere gli utenti tra dispositivi](../../implement/js-implementation/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato, utilizzate la `s.visitorID` variabile per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La `s.visitorID` variabile ha la precedenza sugli ID basati su cookie presenti. Per ulteriori informazioni, consulta [Identificare visitatori](../../implement/js-implementation/c-unique-visitors/visid-overview.md) univoci nella guida Implementa.
+[L’ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) visitatore personalizzato è un metodo legacy per [connettere gli utenti tra dispositivi](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato, utilizzate la `s.visitorID` variabile per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La `s.visitorID` variabile ha la precedenza sugli ID basati su cookie presenti. Per ulteriori informazioni, consulta [Identificare visitatori](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) univoci nella guida Implementa.
 
 Gli ID visitatore personalizzati hanno una serie di effetti collaterali indesiderati che CDA è progettato per superare o ridurre al minimo. Ad esempio, la metodologia ID visitatore personalizzata non dispone di funzionalità di lookback. Se un utente si autentica nel bel mezzo di una visita, la prima parte della visita associa a un ID visitatore diverso da quello dell’ultima parte della visita. Gli ID visitatore separati generano l’inflazione delle visite e dei visitatori. La finestra di lookback di 30 giorni di CDA consente di tornare indietro nel tempo per riaffermare il comportamento precedente come appartenente alla stessa persona, portando un comportamento cross-device non autenticato insieme a un comportamento cross-device autenticato con un'inflazione zero o minima.
 
