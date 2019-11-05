@@ -7,7 +7,7 @@ title: Descrizioni dimensioni
 topic: Rapporti
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -48,7 +48,7 @@ Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che pos
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html" format="html" scope="external"> Dimensioni estese</a> </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > Dimensioni estese</a> </td> 
   </tr> 
  </tbody> 
 </table>
