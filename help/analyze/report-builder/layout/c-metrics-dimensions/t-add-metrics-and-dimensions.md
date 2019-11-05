@@ -7,7 +7,7 @@ title: Aggiungere metriche e dimensioni
 topic: Generatore di report
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Passaggi per aggiungere metriche e dimensioni a una richiesta.
 
-1. [Crea la richiesta](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) di dati sul [!UICONTROL Request Wizard: Step 1], quindi fai clic su **[!UICONTROL Next]**.
+1. [Crea la richiesta](/help/analyze/report-builder/data-requests/data-requests.md) di dati sul [!UICONTROL Request Wizard: Step 1], quindi fai clic su **[!UICONTROL Next]**.
 1. Fate [!UICONTROL Request Wizard: Step 2]doppio clic sulle metriche o trascinatele nella posizione desiderata.
 
    ![Informazioni sul passaggio](assets/adding_metrics.png)
@@ -64,7 +64,7 @@ La [!UICONTROL Date] dimensione viene aggiunta automaticamente. Le dimensioni de
     * Anno
     * Intervallo date (quando non è specificata alcuna granularità)
 
-1. Modifica metriche e dimensioni configurando opzioni [e filtri per il](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) formato.
+1. Modifica metriche e dimensioni configurando opzioni [e filtri per il](/help/analyze/report-builder/layout/t-format-display-headers.md) formato.
 1. Fai clic su **[!UICONTROL Finish]**.
 Nell'esempio seguente, le dimensioni si riferiscono alla [!UICONTROL Page] metrica. In questo caso, la [!UICONTROL Referring Domain] dimensione crea un rapporto di suddivisione tra [!UICONTROL Page] e [!UICONTROL Referring Domain]. La [!UICONTROL Dimension] scheda viene aggiornata con solo le dimensioni che è possibile aggiungere a un report dettagliato.
 
