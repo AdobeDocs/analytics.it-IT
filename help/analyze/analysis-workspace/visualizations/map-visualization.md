@@ -5,7 +5,7 @@ seo-title: Mappa
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -61,7 +61,7 @@ La visualizzazione mappa in Analysis Workspace:
       * Schema di colori verde/rosso: positivo/negativo
    * **Ruota** la mappa in 2D o 3D tenendo premuto il tasto [!UICONTROL Ctrl] mentre sposti la mappa.
 
-   * **Passa** a un’altra vista, ad esempio una mappa di calore, utilizzando le [impostazioni](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritte di seguito. La vista predefinita è la mappa a bolle.
+   * **Passa** a un’altra vista, ad esempio una mappa di calore, utilizzando le [impostazioni](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritte di seguito. La vista predefinita è la mappa a bolle.
 
 
 1. **Salva** il progetto per salvare tutte le impostazioni della mappa (coordinate, zoom, rotazione).
