@@ -5,7 +5,7 @@ seo-title: 'Pubblicare su Power BI: panoramica'
 title: 'Pubblicare su Power BI: panoramica'
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ Combinando la funzionalità di generazione dei report di Generatore di report co
 
 L'integrazione con Report Builder Adobe consente di
 
-* [Pubblicare cartelle di lavoro Generatore di report programmati su Power BI](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [Pubblicare tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [Pubblica tutte le richieste del Generatore di report come tabelle DataSet Power BI](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [Pubblicare cartelle di lavoro Generatore di report programmati su Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Pubblicare tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Pubblica tutte le richieste del Generatore di report come tabelle DataSet Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Requisiti di sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installato](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5 [installato](/help/analyze/report-builder/setup/t-install-arb.md)
 * Account Microsoft attivo che consente di accedere a Power BI
 
 ## Pubblica cartella di lavoro in Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ Anziché importare l'intera cartella di lavoro, è possibile importare solo il c
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Facoltativo) È possibile personalizzare il nome della risorsa pubblicata in Power BI. Questo può essere utile se utilizzate il controllo delle versioni come parte del nome della cartella di lavoro (ad esempio, myfolder_v1.1.xlsx) e non desiderate che il numero di versione venga visualizzato nel nome della risorsa Power BI pubblicata. Inoltre, se cambia il numero di versione, la risorsa pubblicata non subirà modifiche. (Vedi [le specifiche](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD) qui.)
+1. (Facoltativo) È possibile personalizzare il nome della risorsa pubblicata in Power BI. Questo può essere utile se utilizzate il controllo delle versioni come parte del nome della cartella di lavoro (ad esempio, myfolder_v1.1.xlsx) e non desiderate che il numero di versione venga visualizzato nel nome della risorsa Power BI pubblicata. Inoltre, se cambia il numero di versione, la risorsa pubblicata non subirà modifiche. (Vedi [le specifiche](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) qui.)
 
 **Visualizzazione dei dati della tabella in Power BI**
 
