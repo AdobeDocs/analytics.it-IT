@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Creare condizioni per le regole di chiamata diretta
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,5 +22,5 @@ Creare condizioni per le regole di chiamata diretta.
 
    >[!NOTE]
    >
-   >Se specificate la stringa a cui passare `_satellite.track()` nella chiamata diretta utilizzando l’interfaccia utente, come descritto sopra, non utilizzate le virgolette. Se si inserisce il codice [di pagina](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) personalizzato utilizzando l'editor, è necessario utilizzare le virgolette.
+   >Se specificate la stringa a cui passare `_satellite.track()` nella chiamata diretta utilizzando l’interfaccia utente, come descritto sopra, non utilizzate le virgolette. Se si inserisce il codice [di pagina](/help/implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md) personalizzato utilizzando l'editor, è necessario utilizzare le virgolette.
 
