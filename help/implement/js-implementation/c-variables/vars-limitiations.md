@@ -9,7 +9,7 @@ title: Variabili e limitazioni
 topic: Sviluppatore e implementazione
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -18,7 +18,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Osserva le variabili e i loro limiti di livello elevato.
 
-> [!NOTE] Consulta Variabili [di](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) configurazione e variabili [di](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) pagina per un'analisi approfondita delle variabiliAnalytics più comuni.
+>[!NOTE]
+>
+> Consulta Variabili [di](/help/implement/js-implementation/c-variables/configuration-variables.md) configurazione e variabili [di](/help/implement/js-implementation/c-variables/page-variables.md) pagina per un'analisi approfondita delle variabiliAnalytics più comuni.
 
 La tabella seguente fornisce informazioni dettagliate sulle [!DNL Analytics] variabili:
 
