@@ -8,7 +8,7 @@ title: AppMeasurement per JavaScript
 topic: Sviluppatore e implementazione
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -133,7 +133,7 @@ Release date: **01/18/2018**
 
 * Fine del supporto per IE da 6 a 9
 * Inclusione di Visitor API v3.0.0
-* Inclusione di DIL v7.00 
+* Inclusione di DIL v7.00
 
 ## Versione 2.6.0 {#section_229356205EAB4D05890A00B39C42A650}
 
@@ -349,11 +349,11 @@ Release Date: **May 21, 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Estensione iOS </span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external"> iOS Extension Implementation </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html"> iOS Extension Implementation </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Estensione Android </span> Wearable </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consultate <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external"> Estensione indossabile Android </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consultate <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html"> Estensione indossabile Android </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
