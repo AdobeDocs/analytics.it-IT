@@ -5,7 +5,7 @@ seo-title: Ottimizzare le prestazioni di Analysis Workspace
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ Laddove possibile, non inserire più dati del necessario.
 
 Ricorda che gli intervalli di date (componenti viola) ignorano l’intervallo date del pannello. Come risultato, se stai utilizzando diversi intervalli di date come colonne (ad es. colonne ultimo mese, ultima settimana e ieri), il pannello intervallo date non deve estendere tutti gli intervalli date delle colonne. Può essere impostato semplicemente su domani, in quanto gli intervalli di date utilizzati nella tabella a forma libera ignoreranno il pannello. Per ulteriori informazioni sulle attività con gli intervalli di date in Analysis Workspace, guarda [questo video](https://www.youtube.com/watch?v=ybmv6EBmhn0) .
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. Ad esempio, se vuoi visualizzare i dati del mese scorso rispetto ai dati dello stesso mese dello scorso anno, invece di impostare il pannello sugli ultimi 13 mesi di dati, puoi semplicemente utilizzare l’opzione di confronto di periodi di tempo per mostrare le prestazioni anno-su-anno.
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. Ad esempio, se vuoi visualizzare i dati del mese scorso rispetto ai dati dello stesso mese dello scorso anno, invece di impostare il pannello sugli ultimi 13 mesi di dati, puoi semplicemente utilizzare l’opzione di confronto di periodi di tempo per mostrare le prestazioni anno-su-anno.
 
 ## Numero di visualizzazioni
 
