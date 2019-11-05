@@ -7,7 +7,7 @@ title: Filtraggio dati dei rapporti
 topic: Reports and Analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -173,7 +173,7 @@ Puoi filtrare i dati visualizzati in un rapporto di correlazione utilizzando qua
 
 **Aggiunta di un filtro di correlazione**
 
-1. Eseguire un report che supporti le correlazioni. (Vedere [Esecuzione di un rapporto](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)di suddivisione.)
+1. Eseguire un report che supporti le correlazioni. (Vedere [Esecuzione di un rapporto](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)di suddivisione.)
 1. Nell’intestazione del rapporto, fate clic sul **[!UICONTROL Correlation Filter]** collegamento.
 1. In [!UICONTROL Filter Rule Creator]selezionare una categoria da correlare a un elemento.
 1. Fai clic su **[!UICONTROL OK.]**
