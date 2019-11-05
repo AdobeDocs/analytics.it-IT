@@ -5,7 +5,7 @@ seo-title: Panoramica dell'analisi dei contributi
 title: Panoramica dell'analisi dei contributi
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -70,7 +70,7 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come si limita l’accesso all’analisi dei contributi?</b> </p> </td> 
-   <td colname="col2"> <p>Per impostazione predefinita, solo gli amministratori hanno accesso per eseguire Analisi contributi, ma gli amministratori possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. È necessario concedere l’autorizzazione per utilizzare l’analisi dei contributi solo agli utenti che hanno un motivo legittimo per utilizzarla e che non abusino del loro accesso. </p> <p>Il titolo dell’autorizzazione è “Contribution Analysis” (Analisi contributi), alla voce <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span></span>. </p> </td> 
+   <td colname="col2"> <p>Per impostazione predefinita, solo gli amministratori hanno accesso per eseguire Analisi contributi, ma gli amministratori possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Admin Console </a>. È necessario concedere l’autorizzazione per utilizzare l’analisi dei contributi solo agli utenti che hanno un motivo legittimo per utilizzarla e che non abusino del loro accesso. </p> <p>Il titolo dell’autorizzazione è “Contribution Analysis” (Analisi contributi), alla voce <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come faccio per sapere a quanti token ha diritto mensilmente la mia azienda e quanti ne abbiamo utilizzati nel mese in corso?</b> </p> </td> 
@@ -103,17 +103,17 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
    <td colname="col3" colsep="1"> <p>Nessun token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external"> Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>Solo granularità giornaliera </p> </td> 
    <td colname="col3"> <p>Nessun token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external"> Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>10 token al mese </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>20 token al mese </p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
    <td colname="col3"> <p>2 token al mese </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external">Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>Token illimitati </p> </td> 
   </tr> 
