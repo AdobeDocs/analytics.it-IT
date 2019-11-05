@@ -7,7 +7,7 @@ title: Creare segmenti sequenziali
 topic: Segmenti
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ I segmenti sequenziali vengono creati utilizzando l'operatore THEN, anziché AND
 
 ![](assets/before-after-sequence.png)
 
-È inoltre possibile vincolare i segmenti sequenziali a una durata specifica di tempo, granularità e conteggi tra i punti di controllo utilizzando gli operatori [Dopo e Entro](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+È inoltre possibile vincolare i segmenti sequenziali a una durata specifica di tempo, granularità e conteggi tra i punti di controllo utilizzando gli operatori [Dopo e Entro](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ## Includi tutti {#section_75ADDD5D41F04800A09E592BB2940B35}
 
@@ -183,7 +183,7 @@ Ad esempio:
 * **Escludi i domini** di riferimento. Utilizza una regola che include solo i domini di riferimento da Google.com ed esclude tutti gli altri.
 * **Identificare i non acquirenti**. Identificare quando gli ordini sono maggiori di zero e quindi escludere il [!UICONTROL Visitor].
 
-L' [!UICONTROL Exclude] operatore può essere utilizzato per identificare una sequenza in cui visite o hit specifici non vengono eseguiti dal visitatore. [!UICONTROL Exclude Checkpoints] può essere incluso anche all'interno di un gruppo [](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112)logico.
+L' [!UICONTROL Exclude] operatore può essere utilizzato per identificare una sequenza in cui visite o hit specifici non vengono eseguiti dal visitatore. [!UICONTROL Exclude Checkpoints] può essere incluso anche all'interno di un gruppo [](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)logico.
 
 ### Escludi tra punti di controllo
 
@@ -324,7 +324,7 @@ Creare segmenti utilizzando le [!UICONTROL Logic Group] visualizzazioni di più 
 
 **Crea questo segmento**
 
-Crea questo segmento trascinando Dimensioni, Eventi e Segmenti predefiniti dai riquadri a sinistra. Vedere [Creazione di un segmento](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112)di gruppo logico.
+Crea questo segmento trascinando Dimensioni, Eventi e Segmenti predefiniti dai riquadri a sinistra. Vedere [Creazione di un segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)di gruppo logico.
 
 Dopo aver nidificato i valori all’interno del [!UICONTROL Logic Group], fate clic sul **[!UICONTROL Exclude]** pulsante all’interno del [!UICONTROL Logic Group] contenitore.
 
@@ -425,7 +425,7 @@ Utilizzate [!UICONTROL Within] e [!UICONTROL After] per fornire un endpoint mass
 
 **Corrisponde**
 
-Tutti i visitatori che hanno raggiunto la pagina A il 1° giugno 2019 ritornano dopo il 15 giugno 2019 00:01, ma *prima* del 1° luglio 2019 sono inclusi nel segmento. Confronta con [Time Between Exclusions](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)(Tempo tra le esclusioni).
+Tutti i visitatori che hanno raggiunto la pagina A il 1° giugno 2019 ritornano dopo il 15 giugno 2019 00:01, ma *prima* del 1° luglio 2019 sono inclusi nel segmento. Confronta con [Time Between Exclusions](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)(Tempo tra le esclusioni).
 
 Gli operatori [!UICONTROL After] e [!UICONTROL Within] possono essere utilizzati insieme per definire un segmento sequenziale.
 
