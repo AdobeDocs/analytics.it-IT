@@ -7,7 +7,7 @@ title: Configurare una richiesta in tempo reale
 topic: Generatore di report
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,4 +26,4 @@ Procedura che descrive come configurare le date delle richieste in tempo reale.
    ![Risultato passaggio](assets/real_time_select_date.png)
 
    Il reporting in tempo reale è disponibile solo per le ultime 20 ore. Per la granularità, potete scegliere tra 1 minuto di granularità e 30 minuti.
-1. Fate clic **[!UICONTROL Next]** e continuate a [configurare il layout](../../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB)della richiesta.
+1. Fate clic **[!UICONTROL Next]** e continuate a [configurare il layout](/help/analyze/report-builder/layout/layout.md)della richiesta.
