@@ -6,7 +6,7 @@ solution: Experience Cloud, Analytics
 title: Attributi cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,8 +19,8 @@ Domande frequenti su Analytics per gli attributi del cliente e come eseguire il 
 
 Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in una sorgente dati di attributi cliente in Experience Cloud. Dopo aver caricato i dati, puoi eseguire il rapporto Attributi del cliente in Reporting e analisi.
 
-* [Attributi del cliente e metriche di reporting in Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
-* [Domande frequenti - Attributi del cliente in Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
+* [Attributi del cliente e metriche di reporting in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
+* [Domande frequenti - Attributi del cliente in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
 Consulta Attributi [del](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) cliente nell'Aiuto di Experience Cloud per informazioni sul caricamento dei dati attributo del cliente.
 
