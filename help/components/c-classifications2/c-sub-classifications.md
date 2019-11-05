@@ -8,7 +8,7 @@ title: Informazioni sulle classificazioni secondarie
 topic: Strumenti di amministrazione
 uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ Ogni classificazione in questo modello è indipendente e corrisponde a una nuova
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Per ulteriori informazioni sul file di dati, vedere File [di dati di](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)classificazione.
+Per ulteriori informazioni sul file di dati, vedere File [di dati di](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)classificazione.
 
 <!-- 
 
@@ -54,7 +54,7 @@ Le classificazioni a più livelli sono composte da classificazioni padre e figli
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**** Classificazioni padre: Per classificazione padre si intende qualsiasi classificazione associata a una classificazione figlio. Una classificazione può essere sia una classificazione padre che una classificazione figlio. Le classificazioni principali corrispondono alle classificazioni a livello singolo (consultate Classificazioni [a livello](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)singolo).
+**** Classificazioni padre: Per classificazione padre si intende qualsiasi classificazione associata a una classificazione figlio. Una classificazione può essere sia una classificazione padre che una classificazione figlio. Le classificazioni principali corrispondono alle classificazioni a livello singolo (consultate Classificazioni [a livello](/help/components/c-classifications2/c-sub-classifications.md)singolo).
 
 **** Classificazioni figlio: Per classificazione figlio si intende qualsiasi classificazione con un'altra classificazione come padre invece della variabile. Le classificazioni figlio forniscono informazioni aggiuntive sulla classificazione padre. Ad esempio, una [!UICONTROL Campaigns] classificazione potrebbe avere una classificazione figlio Proprietario campagna. [!UICONTROL Numeric] Le classificazioni funzionano anche come metriche nei report di classificazione.
 
@@ -62,7 +62,7 @@ Ogni classificazione, principale o secondario, costituisce una colonna di dati n
 
 `<parent_name>^<child_name>`
 
-Per ulteriori informazioni sul formato del file di dati, vedere File [di dati di](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)classificazione.
+Per ulteriori informazioni sul formato del file di dati, vedere File [di dati di](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)classificazione.
 
 Ad esempio:
 
