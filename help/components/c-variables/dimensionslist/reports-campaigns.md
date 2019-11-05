@@ -1,25 +1,25 @@
 ---
-description: Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi pubblicitari pubblicitari forniscono il maggior traffico e quali dei dipendenti hanno la responsabilità di guidare tali sforzi.
-seo-description: Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi pubblicitari pubblicitari forniscono il maggior traffico e quali dei dipendenti hanno la responsabilità di guidare tali sforzi.
+description: Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi di iniziative pubblicitarie danno la maggior parte del traffico e quale dei vostri dipendenti è responsabile di tali sforzi.
+seo-description: Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi di iniziative pubblicitarie danno la maggior parte del traffico e quale dei vostri dipendenti è responsabile di tali sforzi.
 seo-title: Campagne
 solution: Analytics
 title: Campagne
 topic: Rapporti
-uuid: ce 6379 cb -8617-44 f 4-b 012-945 fe 1 bd 98 d 0
+uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
 # Campagne
 
-Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi pubblicitari pubblicitari forniscono il maggior traffico e quali dei dipendenti hanno la responsabilità di guidare tali sforzi.
+Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi di iniziative pubblicitarie danno la maggior parte del traffico e quale dei vostri dipendenti è responsabile di tali sforzi.
 
-In genere tali rapporti sono personalizzati e quindi diversi per ogni analista.
+Questi report sono generalmente personalizzati e quindi diversi per ogni analista.
 
-**Rapporti correlati**
+**Report correlati**
 
-[Funnel di conversione campagna](../../../components/c-variables/dimensionslist/reports-campaign-conversion-funnel.md#concept_DEF0050F45F74EC8BB08CDA03BB03A59)
+[Funnel di conversione campagna](/help/components/c-variables/dimensionslist/reports-campaign-conversion-funnel.md)
 
-[Report sui codici di tracciamento](../../../components/c-variables/dimensionslist/reports-tracking-codes.md#concept_CBCAE87060BC4BE1A335DDCA6F4396FB)
+[Report Codici di tracciamento](/help/components/c-variables/dimensionslist/reports-tracking-codes.md)
