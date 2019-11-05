@@ -8,7 +8,7 @@ title: Aggiungere un codice intestazione e piè di pagina
 topic: Sviluppatore e implementazione
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Gestione tag dinamica crea codici di incorporamento per l'area di produzione e l
 
    >[!NOTE]
    >
-   >Il codice da incorporare produzione riflette solo gli elementi pubblicati in quella [proprietà](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). Tuttavia, il codice da incorporare per l'staging riflette tutti gli elementi della proprietà associata, indipendentemente dallo stato Pubblicato o Non pubblicato. Per testare gli elementi non pubblicati sul sito di produzione, abilitate l'staging locale nella console seguendo le istruzioni riportate in [Test delle regole non pubblicate per l'hosting](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259)di Akamai.
+   >Il codice da incorporare produzione riflette solo gli elementi pubblicati in quella [proprietà](/help/implement/c-implement-with-dtm/t-create-web-property.md). Tuttavia, il codice da incorporare per l'staging riflette tutti gli elementi della proprietà associata, indipendentemente dallo stato Pubblicato o Non pubblicato. Per testare gli elementi non pubblicati sul sito di produzione, abilitate l'staging locale nella console seguendo le istruzioni riportate in [Test delle regole non pubblicate per l'hosting](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md)di Akamai.
 
 1. Copiate il codice piè di pagina di produzione e inseritelo nella [!DNL BODY] sezione HTML del sito.
 
