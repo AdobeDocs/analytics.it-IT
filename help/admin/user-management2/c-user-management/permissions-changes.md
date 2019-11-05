@@ -9,7 +9,7 @@ title: Modifiche alle autorizzazioni Utente e Gruppo
 topic: Strumenti di amministrazione
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,15 +40,15 @@ Poiché l'API e l'interfaccia utilizzano lo stesso sistema di autorizzazioni, in
    <td colname="col1"> <p id="reportaccess">Modifiche all'accesso <span class="uicontrol"> al</span> report (Personalizza gruppi) </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Aggiungi nuovo gruppo</span> &gt; Accesso ai <span class="uicontrol"> rapporti</span> </p> <p>The <span class="wintitle"> Report Access</span> section on the <span class="wintitle"> Define User Group</span> page has been streamlined to four categories, which enable you to customize permissions at a granular level. </p> <p><img  src="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>Elementi precedentemente in </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Strumenti</a>di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Generatore di report e integrazione dei connettori dati. </p> <p> <b>Nota:</b> le impostazioni aziendali della categoria Personalizza di Admin Console sono state trasferite negli strumenti di Analytics. </p> </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Strumenti</a>suite di rapporti: Attiva le autorizzazioni utente per i servizi Web, la gestione delle suite di rapporti, gli strumenti e i rapporti e gli elementi del dashboard. </p> </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Metriche</a>: Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via. </p> </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensioni</a>: Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi. </p> </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Strumenti</a>di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Generatore di report e integrazione dei connettori dati. </p> <p> <b>Nota:</b> le impostazioni aziendali della categoria Personalizza di Admin Console sono state trasferite negli strumenti di Analytics. </p> </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Strumenti</a>suite di rapporti: Attiva le autorizzazioni utente per i servizi Web, la gestione delle suite di rapporti, gli strumenti e i rapporti e gli elementi del dashboard. </p> </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> Metriche</a>: Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via. </p> </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensioni</a>: Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi. </p> </li> 
     </ul> <p>For example, you can create a group with access to multiple Analytics tools (<span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Reports &amp; Analytics</span>, and <span class="wintitle"> Report Builder</span>), with permission to specific metrics and dimensions (including eVars), and capabilities like segment or calculated metrics creation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifiche ai gruppi predefiniti </p> </td> 
-   <td colname="col2"> <p> <b></b> Accesso amministratore:I gruppi predefiniti non sono più necessari per gli amministratori. Gli amministratori possono ora accedere a tutti gli elementi (strumenti, metriche, dimensioni), nonché a Servizio Web, Generatore di report, Activity Map e Analisi ad hoc. </p> <p>In futuro, lo scopo dei gruppi è quello di concedere o limitare l'accesso agli utenti non amministrativi. </p> <p> <b></b> Gruppi personalizzati:I gruppi personalizzati hanno sostituito i gruppi predefiniti. I gruppi predefiniti esistenti verranno migrati in gruppi personalizzati, utilizzando lo stesso nome di gruppo. Eventuali gruppi personalizzati creati, comprese le relative impostazioni, verranno mantenuti. Tuttavia, noterete che la posizione delle impostazioni sarà stata spostata. Ad esempio, le impostazioni della società (in Personalizza Admin Console) ora sono in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Personalizza strumenti</a>Analytics. </p> <p> Gli utenti appartenenti a <span class="term"> All Report Access (Accesso</span> a tutti i rapporti) sono stati migrati in un gruppo personalizzato con accesso a: </p> 
+   <td colname="col2"> <p> <b></b> Accesso amministratore:I gruppi predefiniti non sono più necessari per gli amministratori. Gli amministratori possono ora accedere a tutti gli elementi (strumenti, metriche, dimensioni), nonché a Servizio Web, Generatore di report, Activity Map e Analisi ad hoc. </p> <p>In futuro, lo scopo dei gruppi è quello di concedere o limitare l'accesso agli utenti non amministrativi. </p> <p> <b></b> Gruppi personalizzati:I gruppi personalizzati hanno sostituito i gruppi predefiniti. I gruppi predefiniti esistenti verranno migrati in gruppi personalizzati, utilizzando lo stesso nome di gruppo. Eventuali gruppi personalizzati creati, comprese le relative impostazioni, verranno mantenuti. Tuttavia, noterete che la posizione delle impostazioni sarà stata spostata. Ad esempio, le impostazioni della società (in Personalizza Admin Console) ora sono in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizza strumenti</a>Analytics. </p> <p> Gli utenti appartenenti a <span class="term"> All Report Access (Accesso</span> a tutti i rapporti) sono stati migrati in un gruppo personalizzato con accesso a: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Tutte le dimensioni </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Tutte le metriche </li> 
@@ -57,19 +57,19 @@ Poiché l'API e l'interfaccia utilizzano lo stesso sistema di autorizzazioni, in
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Autorizzazione per il rapporto sul rilevamento delle anomalie </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Autorizzazione per il rapporto in tempo reale </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Autorizzazione all'accesso ad Analysis Workspace </li> 
-    </ul> <p>Gli amministratori possono eliminare i gruppi personalizzati e crearne uno proprio, poiché tutte le impostazioni precedentemente disponibili in gruppi predefiniti sono disponibili per la personalizzazione in base alle impostazioni <span class="wintitle"> Accesso</span> ai <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> rapporti in</a>Definisci gruppiutenti. </p> </td> 
+    </ul> <p>Gli amministratori possono eliminare i gruppi personalizzati e crearne uno proprio, poiché tutte le impostazioni precedentemente disponibili in gruppi predefiniti sono disponibili per la personalizzazione in base alle impostazioni <span class="wintitle"> Accesso</span> ai <a href="/help/admin/user-management2/c-user-groups/groups.md"> rapporti in</a>Definisci gruppiutenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Autorizzazioni a livello di dimensione </p> </td> 
    <td colname="col2"> <p>Puoi personalizzare le autorizzazioni per includere o escludere l’accesso alle dimensioni (oltre alle metriche). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Tutte le dimensioni e le metriche correnti all'interno dei gruppi personalizzati sono state migrate automaticamente nelle nuove categorie. Se un gruppo esistente dispone di metriche abilitate, per impostazione predefinita gli verranno assegnate tutte le dimensioni (sulla base delle eVar e dei contenuti) e le metriche a cui sono state appena assegnate delle autorizzazioni. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Autorizzazioni per Importazione classificazioni (in precedenza SAINT): l'accesso alle classificazioni è determinato dall'accesso alla <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">variabile</a> su cui è basata la classificazione. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Autorizzazioni per Importazione classificazioni (in precedenza SAINT): l'accesso alle classificazioni è determinato dall'accesso alla <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">variabile</a> su cui è basata la classificazione. </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>Consigliato solo per i nuovi clienti o clienti con società <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> predisposte in Experience Cloud</a>. È pianificata una migrazione dei clienti <span class="keyword"> Analytics</span> esistenti al sistema di gestione dell'identità di <span class="keyword"> Experience Cloud</span> . </p> <p>Ulteriori informazioni sono disponibili in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html" format="html" scope="external"> Gestione delle autorizzazioni del prodotto in Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Consigliato solo per i nuovi clienti o clienti con società <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html"> predisposte in Experience Cloud</a>. È pianificata una migrazione dei clienti <span class="keyword"> Analytics</span> esistenti al sistema di gestione dell'identità di <span class="keyword"> Experience Cloud</span> . </p> <p>Ulteriori informazioni sono disponibili in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> Gestione delle autorizzazioni del prodotto in Admin Console</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ Di seguito sono riportate nuove informazioni importanti sugli aggiornamenti nuov
    <td colname="col1"> <p>Quali modifiche alle autorizzazioni sono state apportate nella release di <b>ottobre 2016</b> ? </p> </td> 
    <td colname="col2"> <p>Sono disponibili i seguenti miglioramenti all'interfaccia <span class="wintitle"> Strumenti</span> di amministrazione: </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Modifiche alle autorizzazioni come descritto in Modifiche <a href="/help/admin/user-management2/c-user-management/permissions-changes.md" format="dita" scope="local"> amministrative - Autunno 2016</a>. </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Modifiche alle autorizzazioni come descritto in Modifiche <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"> amministrative - Autunno 2016</a>. </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">Sono stati rimossi i rapporti sul traffico obsoleti che non erano più presenti nel menu. </li> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">Autorizzazioni di classificazione: L'accesso alle classificazioni sarà determinato dall'accesso alla variabile per la quale è prevista la classificazione. </li> 
      </ul> </p> </td> 
@@ -140,15 +140,15 @@ Nella tabella seguente sono elencate le attività e le aree in cui possono aver 
  <tbody> 
   <tr> 
    <td colname="col1"> Creare un utente </td> 
-   <td colname="col2"> <p>Admin Console (quando crei un utente e lo aggiungi a una configurazione <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"></a> di prodotto Analytics, viene creato anche l’account utente in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> Strumenti di amministrazione</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (quando crei un utente e lo aggiungi a una configurazione <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"></a> di prodotto Analytics, viene creato anche l’account utente in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Strumenti di amministrazione</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Modificare un utente </td> 
-   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> Strumenti di amministrazione</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> <p> Strumenti di amministrazione - La modifica in Strumenti di amministrazione per gli utenti trasferiti è limitata alla gestione delle chiavi API, nonché all’eliminazione e al trasferimento di risorse. </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> <p> Strumenti di amministrazione - La modifica è limitata alla gestione delle chiavi API ed è possibile eliminare o trasferire risorse. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Strumenti di amministrazione</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> Strumenti di amministrazione - La modifica in Strumenti di amministrazione per gli utenti trasferiti è limitata alla gestione delle chiavi API, nonché all’eliminazione e al trasferimento di risorse. </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> Strumenti di amministrazione - La modifica è limitata alla gestione delle chiavi API ed è possibile eliminare o trasferire risorse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Eliminare un utente </td> 
@@ -165,8 +165,8 @@ Nella tabella seguente sono elencate le attività e le aree in cui possono aver 
   <tr> 
    <td colname="col1"> Create un gruppo </td> 
    <td colname="col2"> <p>Admin Console: quando un gruppo viene creato in Admin Console, un gruppo mappato in Analytics apparirà in Strumenti di amministrazione, ma questo gruppo mappato non può avere il suo nome cambiato da Strumenti di amministrazione o essere eliminato da Strumenti di amministrazione. </p> <p>Strumenti di amministrazione. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> crea configurazione</a>di prodotto) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> crea configurazione</a>di prodotto) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> crea configurazione</a>di prodotto) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> crea configurazione</a>di prodotto) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Modificare gli utenti di un gruppo </td> 
