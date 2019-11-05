@@ -8,7 +8,7 @@ title: Flusso di lavoro di Generatore regole di classificazione
 topic: Strumenti di amministrazione
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,14 +36,16 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 | Passaggio | Dove eseguito | Descrizione |
 |--- |--- |--- |
 | Passaggio 1 (prerequisito): [Configurare lo schema](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)di classificazione. | [!UICONTROL Admin] &gt; [!UICONTROL Report Suites] &gt; [!UICONTROL Edit Settings] &gt; &lt;Classificazioni traffico o classificazioni conversione&gt; | Scegliete una variabile e definite le classificazioni da utilizzare per tale variabile. <br>Prima di poter essere utilizzate nelle regole, le variabili devono avere almeno una colonna di classificazione.<br>Una volta abilitate le classificazioni, potete utilizzare l'utilità di importazione e il generatore di regole per classificare valori specifici. |
-| Passaggio 2: [Creare un set](../../../components/c-classifications2/crb/classification-rule-set.md)di regole. | [!UICONTROL Admin] &gt;  [!UICONTROL Classification Rule Builder] &gt; [!UICONTROL Add Rule Set] | Un set di regole è un gruppo di regole di classificazione per una specifica variabile. |
+| Passaggio 2: [Creare un set](/help/components/c-classifications2/crb/classification-rule-set.md)di regole. | [!UICONTROL Admin] &gt;  [!UICONTROL Classification Rule Builder] &gt; [!UICONTROL Add Rule Set] | Un set di regole è un gruppo di regole di classificazione per una specifica variabile. |
 | Passaggio 3: Configurare suite di rapporti e variabili. | [!UICONTROL Classification Rule Builder] &gt; &lt;set di regole&gt; | Applica il set di regole alle suite di rapporti e alle variabili. |
-| Passaggio 4: [Aggiungere regole di classificazione al set](../../../components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] &gt; &lt;set di regole&gt; | Associare una condizione a una classificazione, quindi specificare l'azione da intraprendere per la regola.  Conoscere le informazioni in [Modalità di elaborazione](../../../components/c-classifications2/crb/classification-quickstart-rules.md)delle regole. |
-| Passaggio 5: [Test di un set di regole di classificazione](../../../components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | È necessario verificare le regole per la convalida modificandole in modalità Bozza. In modalità Bozza non è possibile eseguire le regole.<br>Questo passaggio è importante quando si utilizzano le espressioni [](../../../components/c-classifications2/crb/classification-quickstart-rules.md)regolari. |
-| Passaggio 6: [Attiva regole](../../../components/c-classifications2/crb/classification-rule-definitions.md)valide. | [!DNL Rules Page] | Una volta che le regole sono valide, attivare il set di regole.  Se necessario, potete sovrascrivere le chiavi esistenti. Vedere [Modalità Di Elaborazione](../../../components/c-classifications2/crb/classification-quickstart-rules.md)Delle Regole. |
-| Passaggio 7 (facoltativo): [Eliminare le regole](../../../components/c-classifications2/crb/classification-rule-definitions.md)indesiderate. | [!DNL Rules Page] | Eliminare le regole indesiderate da un set.<br>Nota:  L'eliminazione delle regole non comporta l'eliminazione dei dati classificati caricati.  Per eliminare i dati classificati, vedere [Eliminare i dati](../../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) di classificazione. |
+| Passaggio 4: [Aggiungere regole di classificazione al set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] &gt; &lt;set di regole&gt; | Associare una condizione a una classificazione, quindi specificare l'azione da intraprendere per la regola.  Conoscere le informazioni in [Modalità di elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md)delle regole. |
+| Passaggio 5: [Test di un set di regole di classificazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | È necessario verificare le regole per la convalida modificandole in modalità Bozza. In modalità Bozza non è possibile eseguire le regole.<br>Questo passaggio è importante quando si utilizzano le espressioni [](/help/components/c-classifications2/crb/classification-quickstart-rules.md)regolari. |
+| Passaggio 6: [Attiva regole](/help/components/c-classifications2/crb/classification-rule-definitions.md)valide. | [!DNL Rules Page] | Una volta che le regole sono valide, attivare il set di regole.  Se necessario, potete sovrascrivere le chiavi esistenti. Vedere [Modalità Di Elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md)Delle Regole. |
+| Passaggio 7 (facoltativo): [Eliminare le regole](/help/components/c-classifications2/crb/classification-rule-definitions.md)indesiderate. | [!DNL Rules Page] | Eliminare le regole indesiderate da un set.<br>Nota:  L'eliminazione delle regole non comporta l'eliminazione dei dati classificati caricati.  Per eliminare i dati classificati, vedere [Eliminare i dati](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) di classificazione. |
 
-> [!NOTE] I gruppi con autorizzazioni per utilizzare lo strumento di importazione classificazione possono utilizzare le regole di classificazione. Per informazioni importanti sull'elaborazione, vedere [Elaborazione](../../../components/c-classifications2/crb/classification-quickstart-rules.md) delle regole.
+>[!NOTE]
+>
+> I gruppi con autorizzazioni per utilizzare lo strumento di importazione classificazione possono utilizzare le regole di classificazione. Per informazioni importanti sull'elaborazione, vedere [Elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md) delle regole.
 
 **Risorse aggiuntive**
 
