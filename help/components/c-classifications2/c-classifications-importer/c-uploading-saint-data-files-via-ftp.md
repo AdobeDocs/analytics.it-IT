@@ -8,7 +8,7 @@ title: Importazione FTP
 topic: Strumenti di amministrazione
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -38,7 +38,7 @@ Se hai superato i valori univoci per il mese, non vedrai i dati di classificazio
 
 > [!NOTE] Il tempo necessario per elaborare un file di dati di classificazione varia in base alle dimensioni del file e al numero corrente di file già elaborati dai server Adobe. L'elaborazione dei file di dati in genere non richiede più di 72 ore.
 
-Prima di caricare i dati tramite FTP, create un account FTP. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Prima di caricare i dati tramite FTP, create un account FTP. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importazione di classificazioni tramite FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -50,7 +50,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 Procedura che descrive come utilizzare un account FTP per importare classificazioni in Adobe Analytics.
 
-Per ulteriori informazioni sulla creazione di un account FTP, consultate [Creare un account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)FTP.
+Per ulteriori informazioni sulla creazione di un account FTP, consultate [Creare un account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)FTP.
 
 1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Fate clic **[!UICONTROL Import File]**, quindi fate clic **[!UICONTROL FTP Import]**.
