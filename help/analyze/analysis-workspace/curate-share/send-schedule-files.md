@@ -3,9 +3,9 @@ description: Puoi condividere e curare progetti e inviare file di progetto (in f
 seo-description: Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o CSV) immediatamente oppure puoi programmarne l’invio.
 seo-title: Condividere e programmare file di progetto
 title: Condividere e programmare file di progetto
-uuid: d 8539 e 0 b-eaa 5-4 a 3 d -8282-a 37 d 47 e 2 fe 96
+uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -26,7 +26,7 @@ Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o 
  <tbody> 
   <tr> 
    <td colname="col1"> Condividi progetto </td> 
-   <td colname="col2"><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Ulteriori informazioni</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Ulteriori informazioni</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ottieni collegamento progetto </td> 
@@ -38,11 +38,11 @@ Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o 
   </tr> 
   <tr> 
    <td colname="col1"> Invia file secondo programma </td> 
-   <td colname="col2"> <p>Specifica la data di inizio, l’intervallo e la frequenza e la data di fine. <a href="../../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local"> Ulteriori informazioni</a> </p> </td> 
+   <td colname="col2"> <p>Specifica la data di inizio, l’intervallo e la frequenza e la data di fine. <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Ulteriori informazioni</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cura dati progetto </td> 
-   <td colname="col2"> <p><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Ulteriori informazioni</a> </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Ulteriori informazioni</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
