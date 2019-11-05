@@ -7,7 +7,7 @@ title: Filtri specifici
 topic: Generatore di report
 uuid: b3a8187a-3d59-4da0-abca-e93364332e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
