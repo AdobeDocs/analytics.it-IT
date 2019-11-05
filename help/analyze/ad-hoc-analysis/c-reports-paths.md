@@ -7,7 +7,7 @@ title: Rapporti sui percorsi
 topic: Analisi ad hoc
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ I rapporti sui percorsi includono rapporti di analisi avanzati standard e facolt
 
 **[!UICONTROL Fallout]**: Visualizza l'attrito della visita e i tassi di conversione tra ciascun checkpoint definito. I passaggi sono disposti dall’alto verso il basso, con i numeri non elaborati e le percentuali visualizzate a sinistra, e le percentuali di conversione e di abbandono a destra.
 
-Per ulteriori informazioni, consulta [Rapporto](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) di abbandono.
+Per ulteriori informazioni, consulta [Rapporto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) di abbandono.
 
 **[!UICONTROL Path Length]**: Mostra la profondità di ricerca dei visitatori nel sito (sia in percentuale che in totale). In altre parole, il rapporto indica quante pagine viene visualizzato dal visitatore medio sul sito prima di uscire.
 
