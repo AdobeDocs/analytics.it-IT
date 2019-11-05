@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Creare un elemento di dati
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Crea un elemento dati in Gestione tag dinamica.
 
-1. [Crea proprietà](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)Web, se non lo hai già fatto.
+1. [Crea proprietà](/help/implement/c-implement-with-dtm/t-create-web-property.md)Web, se non lo hai già fatto.
 1. Nella proprietà Web, fate clic su **[!UICONTROL Rules]** &gt; **[!UICONTROL Data Elements]**.
 1. Fai clic su **[!UICONTROL Create New Data Element]**.
 1. Completa i campi e le opzioni seguenti:
@@ -28,15 +28,18 @@ Crea un elemento dati in Gestione tag dinamica.
     </thead> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Nome</strong></td> 
-      <td class="chdesc stentry"> <p>Il nome descrittivo dell'elemento dati che un esperto di marketing può riconoscere. Ad esempio, <code>ID prodotto </code>. </p> <p> <p>Nota:  Il generatore di regole fa riferimento al nome, non a un ID. Se si modifica il nome dell'elemento dati, è necessario modificarne il riferimento in ogni regola che lo utilizza. </p> </p> </td> 
+      <td class="chdesc stentry"> <p>Il nome descrittivo dell'elemento dati che un esperto di marketing può riconoscere. Ad esempio, 
+        <code>
+          Product ID
+        </code>. </p> <p> <p>Nota:Il generatore di regole fa riferimento al nome, non a un ID. Se si modifica il nome dell'elemento dati, è necessario modificarne il riferimento in ogni regola che lo utilizza. </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Tipo</strong></td> 
-      <td class="chdesc stentry"> <p> Specifica da dove vengono estratti i dati, ad esempio oggetto JS, selettore CSS, cookie, parametro URL o script personalizzato. </p> <p>A seconda del tipo selezionato, vengono visualizzate opzioni diverse. Per ulteriori informazioni ed esempi, consulta <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html" format="html" scope="external"> Tipi di elementi</a> di dati nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
+      <td class="chdesc stentry"> <p> Specifica da dove vengono estratti i dati, ad esempio oggetto JS, selettore CSS, cookie, parametro URL o script personalizzato. </p> <p>A seconda del tipo selezionato, vengono visualizzate opzioni diverse. Per ulteriori informazioni ed esempi, consulta <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html"> Tipi di elementi</a> di dati nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valore predefinito</strong></td> 
-      <td class="chdesc stentry"> <p>Elemento predefinito. Questo valore assicura che l'elemento dati abbia sempre un valore, anche se un parametro URL non esiste o non può essere trovato da Gestione tag dinamica. </p> <p> <p>Nota:  Se non è presente alcun valore e nessun valore predefinito, non viene restituito nulla. Qualsiasi variabile che fa riferimento a tale elemento dati non verrà impostata. Inoltre, il campo del valore predefinito viene ignorato se si tratta di un elemento dati "codice personalizzato". </p> </p> </td> 
+      <td class="chdesc stentry"> <p>Elemento predefinito. Questo valore assicura che l'elemento dati abbia sempre un valore, anche se un parametro URL non esiste o non può essere trovato da Gestione tag dinamica. </p> <p> <p>Nota:Se non è presente alcun valore e nessun valore predefinito, non viene restituito nulla. Qualsiasi variabile che fa riferimento a tale elemento dati non verrà impostata. Inoltre, il campo del valore predefinito viene ignorato se si tratta di un elemento dati "codice personalizzato". </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Forza valore in lettere minuscole</strong></td> 
