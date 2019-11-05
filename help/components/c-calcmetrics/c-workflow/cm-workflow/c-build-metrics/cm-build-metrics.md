@@ -5,7 +5,7 @@ seo-title: Creare metriche
 title: Creare metriche
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
 * In Analysis Workspace, apri un progetto e fai clic su **[!UICONTROL + New]** &gt; **[!UICONTROL Create Metric]** .
 * In [!DNL Analytics], andate a **[!UICONTROL Components]** &gt; **[!UICONTROL Calculated Metrics]**.
 
-* Fare clic **[!UICONTROL + Add]** nella parte superiore del Gestore [della metrica](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)calcolata oppure
+* Fare clic **[!UICONTROL + Add]** nella parte superiore del Gestore [della metrica](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)calcolata oppure
 
 * Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**, apri un rapporto e fai clic sull'icona Metriche ![](assets/metrics_icon.png) per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
 
@@ -87,7 +87,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Compatibilità prodotto </span> </td> 
-   <td colname="col3"> <p>La compatibilità del prodotto mostra se la metrica è compatibile con i dati <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external"> correnti </a>, con i dati elaborati completamente o solo con i rapporti sul canale di marketing (allocazione tramite primo tocco). <p>Nota:  Dati correnti non supporta tutte le metriche. Le metriche contenenti segmenti o funzioni non sono compatibili con i dati correnti. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> Altro... </a> </p> </p> </td> 
+   <td colname="col3"> <p>La compatibilità del prodotto mostra se la metrica è compatibile con i dati <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > correnti </a>, con i dati elaborati completamente o solo con i rapporti sul canale di marketing (allocazione tramite primo tocco). <p>Nota:  Dati correnti non supporta tutte le metriche. Le metriche contenenti segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Aggiungi </span> </td> 
@@ -100,11 +100,11 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> Icona ingranaggio ( <span class="uicontrol"> Tipo metrica </span>, <span class="uicontrol"> Attribuzione </span>) </td> 
-   <td colname="col3"> <p>Selezionando l'icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di <a href="../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E" format="dita" scope="local"> metrica e i modelli di attribuzione </a>. </p> </td> 
+   <td colname="col3"> <p>Selezionando l'icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metrica e i modelli di attribuzione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Nuova funzione </span> </td> 
-   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="https" scope="external"> segmenti </a>). </p> </td> 
+   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > segmenti </a>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Componenti di ricerca </p> </td> 
@@ -130,11 +130,11 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Elenco dei segmenti </p> </td> 
-   <td colname="col3"> <p>(Solo metriche calcolate avanzate) In qualità di Amministratore, questo elenco mostra tutti i segmenti creati nella società di accesso. Se sei un utente non amministratore, questo elenco mostra i segmenti che possiedi e quelli condivisi con te. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external"> Altro... </a> </p> </td> 
+   <td colname="col3"> <p>(Solo metriche calcolate avanzate) In qualità di Amministratore, questo elenco mostra tutti i segmenti creati nella società di accesso. Se sei un utente non amministratore, questo elenco mostra i segmenti che possiedi e quelli condivisi con te. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > Altro... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Elenco delle funzioni </p> </td> 
-   <td colname="col3"> <p>(Solo metriche calcolate avanzate) Le funzioni sono suddivise in due elenchi: <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Base </a> (utilizzato più spesso) e <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
+   <td colname="col3"> <p>(Solo metriche calcolate avanzate) Le funzioni sono suddivise in due elenchi: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Base </a> (utilizzato più spesso) e <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Selettore suite di rapporti </p> </td> 
