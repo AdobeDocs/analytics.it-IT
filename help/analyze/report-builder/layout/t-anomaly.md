@@ -7,7 +7,7 @@ title: Configurare una richiesta di rilevamento delle anomalie
 topic: Generatore di report
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,4 +38,4 @@ Procedura che descrive come creare una richiesta di rilevamento delle anomalie n
    Quando si seleziona una di queste opzioni, il sistema crea copie del rilevamento delle anomalie della metrica originale. Ad esempio, per la metrica Visita, al [!UICONTROL Metric] gruppo viene aggiunta una metrica Visita Bound inferiore.
 1. Fate clic su **[!UICONTROL Finish]** e selezionate la cella da restituire in Excel.
 
-   Consulta Rilevamento delle [anomalie](../../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_9476D6C093334B1A8044AE63835BDBE7) per le definizioni.
+   Consulta Rilevamento delle [anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) per le definizioni.
