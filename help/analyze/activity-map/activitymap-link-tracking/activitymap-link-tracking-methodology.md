@@ -7,7 +7,7 @@ title: Metodologia di tracciamento dei collegamenti
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi para
 
 >[!IMPORTANT]
 >
->Qualsiasi collegamento in cui il testo (non i href) può contenere informazioni PII (Personally Identifiable Information) deve essere implementato esplicitamente utilizzando [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Per ulteriori informazioni su come la Activity Map potrebbe raccogliere dati PII, [consulta](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Qualsiasi collegamento in cui il testo (non i href) può contenere informazioni PII (Personally Identifiable Information) deve essere implementato esplicitamente utilizzando [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Per ulteriori informazioni su come la Activity Map potrebbe raccogliere dati PII, [consulta](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map basa il tracciamento dei collegamenti su questi due ID:
 
@@ -113,7 +113,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Variabili di configurazione {#section_634197EACD404AC086DF9A03B813C8C3}
+## Variabili di configurazione {#configuration-vars}
 
 Queste variabili sono elencate solo a scopo di riferimento. La Activity Map deve essere configurata correttamente ma puoi personalizzare l'implementazione utilizzando queste variabili.
 
