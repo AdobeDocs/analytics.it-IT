@@ -5,7 +5,7 @@ seo-title: Metrica di partecipazione
 title: Metrica di partecipazione
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Di seguito sono riportati alcuni casi d’uso semplici: Il proprietario del cont
 
 1. Crea una nuova metrica nel Generatore di metrica calcolata.
 1. Trascinate l’evento di successo "Ordini" nell’area di lavoro Definizione.
-1. Modificate il modello [di](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) attribuzione dell’evento in **[!UICONTROL Participation]** corrispondenza della **[!UICONTROL Settings]** marcia. Selezionate **[!UICONTROL Visit]** lookback. La definizione deve essere simile a quella riportata di seguito:
+1. Modificate il modello [di](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) attribuzione dell’evento in **[!UICONTROL Participation]** corrispondenza della **[!UICONTROL Settings]** marcia. Selezionate **[!UICONTROL Visit]** lookback. La definizione deve essere simile a quella riportata di seguito:
 
    ![](assets/participation.png)
 
