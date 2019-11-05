@@ -7,7 +7,7 @@ title: Larghezza/Altezza browser
 topic: Metriche
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 Metriche che fanno riferimento alla distanza orizzontale/verticale dei dati solo nella finestra del browser. Più precisamente, il browser
 
 Adobe Analytics utilizza l’altezza e la larghezza del browser solo dal primo hit di una visita. Gli altri hit non ricevono l’attribuzione per la stessa visita.
-Le dimensioni larghezza/altezza del browser acquisiscono valori simili ma distinti rispetto alle dimensioni [dello schermo](../../../components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150)mobile.
+Le dimensioni larghezza/altezza del browser acquisiscono valori simili ma distinti rispetto alle dimensioni [dello schermo](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150)mobile.
 
 Ad esempio, quando si suddivide larghezza o altezza del browser per risoluzione mobile, è necessario essere consapevoli delle seguenti differenze:
 
