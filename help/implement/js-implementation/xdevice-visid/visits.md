@@ -9,7 +9,7 @@ title: Visite
 topic: Sviluppatore e implementazione
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics conta una visita ogni volta che si verifica una chiamata al server con un numero di pagina visita uguale a 1.
 
-Se si osserva la tabella [](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)precedente, si è verificato 4 volte: alle hit 1, 9, 11 e 12. Simile ai visitatori, questo valore torna alla normalità dopo l'associazione iniziale perché [!UICONTROL Visit Page Number] viene reimpostato su 1 a causa di una modifica nell'effetto [!UICONTROL visitor ID].
+Se si osserva la tabella [](/help/implement/js-implementation/xdevice-visid/visit-example.md)precedente, si è verificato 4 volte: alle hit 1, 9, 11 e 12. Simile ai visitatori, questo valore torna alla normalità dopo l'associazione iniziale perché [!UICONTROL Visit Page Number] viene reimpostato su 1 a causa di una modifica nell'effetto [!UICONTROL visitor ID].
