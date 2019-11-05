@@ -5,7 +5,7 @@ seo-title: Report sui dati pubblicitari in Adobe Analytics
 title: Report sui dati pubblicitari in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,9 @@ Dettagli sul modello Area di lavoro Analisi e reporting in Reporting e analisi e
 
 Questo modello consente a chiunque implementa questa integrazione con il motore di ricerca di accedere ai dati copiosi del motore di ricerca in Analytics. Potete accedervi tramite **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]****[!UICONTROL Search Engines.]**
 
-> [!NOTE] La categoria Modello pubblicitario è visibile a tutti i clienti, anche se non avete implementato alcun Account pubblicitario. Tuttavia, se provate ad aprire il modello Motori di ricerca per una società che non ha ancora effettuato il provisioning, un messaggio di errore vi spiegherà che non avete ancora configurato alcun account Motore di ricerca. In questo caso, fate clic su **[!UICONTROL Configure Now]**, per passare alla schermata [Impostazione](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) account pubblicitario.
+>[!NOTE]
+>
+> La categoria Modello pubblicitario è visibile a tutti i clienti, anche se non avete implementato alcun Account pubblicitario. Tuttavia, se provate ad aprire il modello Motori di ricerca per una società che non ha ancora effettuato il provisioning, un messaggio di errore vi spiegherà che non avete ancora configurato alcun account Motore di ricerca. In questo caso, fate clic su **[!UICONTROL Configure Now]**, per passare alla schermata [Impostazione](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) account pubblicitario.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
