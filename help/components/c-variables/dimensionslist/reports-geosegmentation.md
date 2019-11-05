@@ -7,7 +7,7 @@ title: Geosegmentazione
 topic: Rapporti
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ Tutte le metriche disponibili altrove in Reporting e analisi vengono automaticam
   </tr> 
   <tr> 
    <td colname="col1"> Aree geografiche </td> 
-   <td colname="col2"> <p> Area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. A destra di ciascuna regione visualizzata, il paese della regione è indicato anche tra parentesi. </p> <p>Nei dettagli della tabella, fai clic su Run a Cities Report for this Region (la lente di ingrandimento) per eseguire un report che mostra le prestazioni delle città di una regione selezionata rispetto alle altre città della regione. </p> <p>Consulta Regioni <a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local"> di segmentazione geografica e Uso del codice postale per paese</a> per vedere quali paesi utilizzano le aree. </p> </td> 
+   <td colname="col2"> <p> Area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. A destra di ciascuna regione visualizzata, il paese della regione è indicato anche tra parentesi. </p> <p>Nei dettagli della tabella, fai clic su Run a Cities Report for this Region (la lente di ingrandimento) per eseguire un report che mostra le prestazioni delle città di una regione selezionata rispetto alle altre città della regione. </p> <p>Consulta Regioni <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > di segmentazione geografica e Uso del codice postale per paese</a> per vedere quali paesi utilizzano le aree. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Città </td> 
