@@ -8,16 +8,12 @@ title: Scadenza dell'engagement dei visitatori
 topic: Reports and Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Scadenza dell'engagement dei visitatori
-
-Scoprite come specificare la scadenza del coinvolgimento dei visitatori nei canali di marketing.
-
-## Scadenza dell'engagement dei visitatori {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 Scoprite come specificare la scadenza del coinvolgimento dei visitatori nei canali di marketing.
 
@@ -31,7 +27,7 @@ Ad esempio, i visitatori spesso fanno clic su una campagna di ricerca a pagament
 | Mai | Il periodo di coinvolgimento del visitatore non scade. |
 | Ripristino canale | Scade tutti i periodi di coinvolgimento dei visitatori.  Se hai bisogno di ripristinare tutti i dati dei canali di marketing, puoi scadere tutti i periodi di coinvolgimento dei visitatori. Potrebbe essere necessario reimpostare i dati se le regole di elaborazione erano state precedentemente configurate in modo errato. Tutti i valori del primo e ultimo canale di tocco scadranno immediatamente e verranno reimpostati al ritorno dei visitatori. |
 
-## Specifica la scadenza del coinvolgimento del visitatore {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## Specifica la scadenza del coinvolgimento del visitatore {#specify-visitor-expire}
 
 Specifica la scadenza del coinvolgimento del visitatore.
 
