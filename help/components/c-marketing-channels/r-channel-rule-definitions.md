@@ -8,7 +8,7 @@ title: 'Regole di elaborazione per il canale di marketing: definizioni'
 topic: Reports and Analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,7 +43,7 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variabili di conversione </p> </td> 
-   <td colname="col2"> <p>È costituito da eVar abilitate per questa suite di rapporti e si applica solo quando queste variabili sono impostate tramite il codice Adobe sulla pagina. </p> <p>Consulta la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html"> guida all’implementazione </a>. </p> </td> 
+   <td colname="col2"> <p>È costituito da eVar abilitate per questa suite di rapporti e si applica solo quando queste variabili sono impostate tramite il codice Adobe sulla pagina. </p> <p>Consulta la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  > guida all’implementazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Esiste </p> </td> 
@@ -56,7 +56,7 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identificare il canale come </p> </td> 
-   <td colname="col2"> <p>Associa la regola a un canale di marketing aggiunto alla pagina <span class="wintitle"> Marketing Channel Manager </span> . </p> <p>Consultate <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Aggiunta di canali di marketing </a>. </p> </td> 
+   <td colname="col2"> <p>Associa la regola a un canale di marketing aggiunto alla pagina <span class="wintitle"> Marketing Channel Manager </span> . </p> <p>Consultate <a href="/help/components/c-marketing-channels/c-channels.md"   > Aggiunta di canali di marketing </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Corrisponde alle regole di rilevamento ricerche pagate </p> </td> 
@@ -72,7 +72,7 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Il Referente Non Corrisponde Ai Filtri URL Interni </p> </td> 
-   <td colname="col2"> <p>L'URL di provenienza non corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. Potete utilizzare questa impostazione con URL <span class="term"> pagina </span> ed <span class="term"> Esiste </span> per impostare una regola catch-all, in modo che nessuna visita venga effettuata nella sezione <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> Nessun canale identificato </a> del rapporto. </p> </td> 
+   <td colname="col2"> <p>L'URL di provenienza non corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. Potete utilizzare questa impostazione con URL <span class="term"> pagina </span> ed <span class="term"> Esiste </span> per impostare una regola catch-all, in modo che nessuna visita venga effettuata nella sezione <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > Nessun canale identificato </a> del rapporto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ignora gli hit corrispondenti ai filtri URL interni </p> </td> 
@@ -147,6 +147,3 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
   </tr> 
  </tbody> 
 </table>
-
-
-
