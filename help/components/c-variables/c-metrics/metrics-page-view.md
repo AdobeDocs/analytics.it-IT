@@ -7,7 +7,7 @@ title: Visualizzazioni di pagina
 topic: Metriche
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,4 +24,4 @@ Un modo utile per utilizzare la metrica Visualizzazione pagina è eseguire un ra
 | Conversione | Una visualizzazione di pagina si verifica quando un visitatore accede a una pagina del sito Web. |
 | Ad Hoc Analysis | Una visualizzazione di pagina si verifica quando un visitatore accede a una pagina del sito Web. |
 
-Vedere Rapporto Visualizzazioni [pagina](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33).
+Vedere Rapporto Visualizzazioni [pagina](/help/components/c-variables/dimensionslist/reports-page-views.md).
