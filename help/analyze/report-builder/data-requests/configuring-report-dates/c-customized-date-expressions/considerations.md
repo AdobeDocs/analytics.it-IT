@@ -7,7 +7,7 @@ title: Considerazioni sulle date personalizzate
 topic: Generatore di report
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ il giorno della settimana corrente a partire da domenica, 23 novembre meno sette
 
 il giorno della settimana corrente a partire da domenica, 23 novembre meno un giorno = sabato, 22 novembre
 
-In Europa e in altri paesi, la settimana inizia il lunedì, anziché la domenica. In questo caso, potete personalizzare il calendario per modificare la data di inizio. (Vedere Calendario [](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A)personalizzato.)
+In Europa e in altri paesi, la settimana inizia il lunedì, anziché la domenica. In questo caso, potete personalizzare il calendario per modificare la data di inizio. (Vedere Calendario [](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)personalizzato.)
