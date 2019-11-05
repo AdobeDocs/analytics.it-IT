@@ -7,7 +7,7 @@ solution: Analytics
 title: Destinazione feed
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ La tabella seguente mostra tutte le opzioni per tutti i canali di distribuzione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stucco </p> </td> 
-   <td colname="col2"> <p>Immettete la posizione del bucket Amazon S3. </p> <p>Questo valore deve corrispondere al formato fisso S3 corretto. Consultate <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>. </p> <p> <p>Nota: Per informazioni dettagliate sulle impostazioni di Amazon S3, consultate <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local"> Impostazione BucketOwnerFullControl per i feed</a>di dati Amazon S3. </p> </p> </td> 
+   <td colname="col2"> <p>Immettete la posizione del bucket Amazon S3. </p> <p>Questo valore deve corrispondere al formato fisso S3 corretto. Consultate <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>. </p> <p> <p>Nota: Per informazioni dettagliate sulle impostazioni di Amazon S3, consultate <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  > Impostazione BucketOwnerFullControl per i feed</a>di dati Amazon S3. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contenitore </p> </td> 
@@ -111,7 +111,7 @@ La tabella seguente mostra tutte le opzioni per tutti i canali di distribuzione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Percorso </p> </td> 
-   <td colname="col2"> <p>Selezionare il percorso dell'host o del bucket. Questo percorso deve esistere prima della creazione del feed. </p> <p> <p>Nota: Per informazioni dettagliate sulle impostazioni di Amazon S3, consultate <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local"> Impostazione BucketOwnerFullControl per i feed</a>di dati Amazon S3. </p> </p> </td> 
+   <td colname="col2"> <p>Selezionare il percorso dell'host o del bucket. Questo percorso deve esistere prima della creazione del feed. </p> <p> <p>Nota: Per informazioni dettagliate sulle impostazioni di Amazon S3, consultate <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  > Impostazione BucketOwnerFullControl per i feed</a>di dati Amazon S3. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account </p> </td> 
@@ -119,11 +119,11 @@ La tabella seguente mostra tutte le opzioni per tutti i canali di distribuzione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chiave pubblica </p> </td> 
-   <td colname="col2"> <p>Fornite la chiave pubblica SFTP. </p> <p>È necessario scaricare la chiave pubblica per configurare l'archivio SFTP. </p> <p> <p>Nota:  Il download della chiave pubblica non è necessario per creare il feed. </p> </p> <p>Potete utilizzare una chiave pubblica già scaricata al momento della creazione di un feed precedente. </p> <p>Per ulteriori informazioni, consultate <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external"> https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
+   <td colname="col2"> <p>Fornite la chiave pubblica SFTP. </p> <p>È necessario scaricare la chiave pubblica per configurare l'archivio SFTP. </p> <p> <p>Nota:  Il download della chiave pubblica non è necessario per creare il feed. </p> </p> <p>Potete utilizzare una chiave pubblica già scaricata al momento della creazione di un feed precedente. </p> <p>Per ulteriori informazioni, consultate <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  > https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chiave </p> <p>Conferma chiave </p> </td> 
-   <td colname="col2"> <p> Immettere la chiave di accesso all'archivio. Reinserite per confermare. </p> <p> <p>Nota: Consultate <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external"> https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> per accedere alle chiavi di accesso. </p> </p> </td> 
+   <td colname="col2"> <p> Immettere la chiave di accesso all'archivio. Reinserite per confermare. </p> <p> <p>Nota: Consultate <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  > https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> per accedere alle chiavi di accesso. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chiave segreta </p> <p>Conferma chiave segreta </p> </td> 
