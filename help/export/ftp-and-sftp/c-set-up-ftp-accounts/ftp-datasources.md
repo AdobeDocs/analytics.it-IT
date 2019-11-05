@@ -7,7 +7,7 @@ solution: Analytics
 title: Origini dati
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ La scheda [!UICONTROL Create] (Crea) in Gestione delle origini dati ti consente 
 
 Nella finestra [!UICONTROL Manage Data Sources] (Gestisci Origini dati) individua la tua origine dati e seleziona il link FTP Info. Your FTP login information is displayed in the [!UICONTROL Activate a Data Source] window in the [!UICONTROL Upload/FTP Information] section.
 
-Per informazioni sui limiti e la conservazione dei dati FTP, consulta Limiti e Conservazione [dei dati](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)FTP.
+Per informazioni sui limiti e la conservazione dei dati FTP, consulta Limiti e Conservazione [dei dati](/help/export/ftp-and-sftp/ftp-limits.md)FTP.
 
 ## Informazioni sul file .fin per gli upload Classificazioni e Origini dati {#section_1484719F8A134EAE91212DBD8F15174F}
 
