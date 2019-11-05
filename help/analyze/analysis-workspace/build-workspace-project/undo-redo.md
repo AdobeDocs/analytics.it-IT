@@ -5,7 +5,7 @@ seo-title: Impostazioni Annulla e Ripristina
 title: Impostazioni Annulla e Ripristina
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * L’utente può annullare/ripristinare le modifiche alla suite di rapporti.
 * Il messaggio Annulla/Ripristina visualizzato vicino al nome del progetto segnala l’esecuzione dell’azione di annullamento o ripristino in corso.
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* You can use these [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * Ctrl (Comando) + Z per Annulla
    * Ctrl (Comando) + Maiusc + Z per Ripristina
