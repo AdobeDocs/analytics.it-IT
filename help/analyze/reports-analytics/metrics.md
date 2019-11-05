@@ -7,7 +7,7 @@ title: Metriche
 topic: Reports and Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati e di abilitare confronti affiancati di diversi set di dati sul sito Web. Le metriche sono informazioni quantitative sull'attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, unità, ordini, ricavi e così via.
 
-## Metriche {#concept_EB00207C07BD4481AB116E62EC24E686}
+## Metriche
 
 Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati e di abilitare confronti affiancati di diversi set di dati sul sito Web. Le metriche sono informazioni quantitative sull'attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, unità, ordini, ricavi e così via.
 
 Metriche e dati associati sono visualizzati nelle colonne dei rapporti. Le metriche del traffico mostrano i dati sul volume dei visitatori. Le metriche di conversione mostrano i dati sugli eventi di successo, come acquisti, download o qualsiasi altra azione che gli utenti devono intraprendere sul sito Web.
 
-[Le metriche](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) calcolate vengono create combinando le metriche.
+[Le metriche](/help/components/c-calcmetrics/cm-overview.md) calcolate vengono create combinando le metriche.
 
-Per le definizioni, vedi [Metriche](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+Per le definizioni, consultate Panoramica [delle metriche](/help/components/c-variables/c-metrics/metricslist.md)
 
-## Seleziona metriche rapporto predefinite {#task_9537A607288A4450AE07EC7C070B47C6}
+## Seleziona metriche rapporto predefinite
 
 Passaggi che descrivono come selezionare le metriche predefinite a livello di rapporto.
 
