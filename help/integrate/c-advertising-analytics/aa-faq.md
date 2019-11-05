@@ -5,7 +5,7 @@ seo-title: Domande frequenti
 title: Domande frequenti
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>D: Quali SKU di <b>Adobe Analytics</b> consentono di utilizzare Analisi della pubblicità? </p> </td> 
-   <td colname="col2"> <p>A: Analisi della pubblicità è disponibile per gli <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external"> SKU Adobe Analytics Select </a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external"> Prime </a>e <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external"> Ultimate </a> . </p> </td> 
+   <td colname="col2"> <p>A: Analisi della pubblicità è disponibile per gli <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  > SKU Adobe Analytics Select </a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  > Prime </a>e <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  > Ultimate </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D: Dobbiamo <b>pagare di più</b> per utilizzare Analisi della pubblicità? </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>D: Sto cercando di <b>mappare i miei account Analisi della pubblicità su una suite</b>di rapporti specifica, ma non è disponibile nella modale Suite di rapporti. Perché? </p> </td> 
-   <td colname="col2"> <p>A: Prima di poter assegnare una suite di rapporti a un account Analytics pubblicitario, è necessario <a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local"> effettuare il provisioning della suite di rapporti desiderata per i report Analisi della pubblicità </a>. </p> <p>A questo scopo, puoi accedere a una pagina Amministratore separata da: <span class="ignoretag"><span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> [seleziona suite di rapporti con abilitazione Experience Cloud] </span> &gt; <span class="uicontrol"> Edit Settings </span> (Modifica impostazioni) &gt; <span class="uicontrol"> </span> </span>Advertising Analytics Configuration (Analisi della pubblicità) . </p> </td> 
+   <td colname="col2"> <p>A: Prima di poter assegnare una suite di rapporti a un account Analytics pubblicitario, è necessario <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > effettuare il provisioning della suite di rapporti desiderata per i report Analisi della pubblicità </a>. </p> <p>A questo scopo, puoi accedere a una pagina Amministratore separata da: <span class="ignoretag"><span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> [seleziona suite di rapporti con abilitazione Experience Cloud] </span> &gt; <span class="uicontrol"> Edit Settings </span> (Modifica impostazioni) &gt; <span class="uicontrol"> </span> </span>Advertising Analytics Configuration (Analisi della pubblicità) . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D: È possibile assegnare una suite <b>di rapporti</b> virtuale a un account Analytics pubblicitario? </p> </td> 
