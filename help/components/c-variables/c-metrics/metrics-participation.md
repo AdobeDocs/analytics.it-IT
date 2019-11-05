@@ -7,7 +7,7 @@ title: Partecipazione
 topic: Metriche
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 Le metriche di partecipazione assegnano l'intero credito dagli eventi di successo a tutti i valori di una eVar che sono stati passati durante una visita. Le metriche di partecipazione sono utili per determinare quali pagine, campagne o altri valori di variabili personalizzate contribuiscono maggiormente al successo del sito. La partecipazione si basa sulla visita. Tutti i valori eVar di una visita prima e incluso l'hit quando si verifica un evento ricevono il credito di partecipazione, indipendentemente dall'impostazione della scadenza.
 
-Consulta Partecipazione [del visitatore - Analisi](../../../components/c-variables/c-metrics/metrics-visitor-participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A) ad hoc per ulteriori informazioni su come Analisi ad hoc utilizza la partecipazione.
+Consulta Partecipazione [del visitatore - Analisi](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) ad hoc per ulteriori informazioni su come Analisi ad hoc utilizza la partecipazione.
 
 Le metriche di partecipazione hanno due impostazioni per l'evento di conversione:
 
