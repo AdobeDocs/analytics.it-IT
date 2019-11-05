@@ -7,7 +7,7 @@ title: Informazioni su segmenti e contenitori
 topic: Segmenti
 uuid: e8b1edd1-5d6c-4213-994b-feed789ad30a4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ I segmenti consentono di identificare sottoinsiemi di visitatori in base a carat
 
 I segmenti si basano su una gerarchia di [!UICONTROL Visitor]livello [!UICONTROL Visit] e di [!UICONTROL Hit] livello che utilizza un modello contenitore nidificato. I contenitori nidificati consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità nel [!DNL Adobe Experience Cloud]. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati come segnalibri per un accesso rapido.
 
-Puoi creare e salvare segmenti nel Generatore di segmenti, oppure generare segmenti da un rapporto di abbandono (in [!DNL ad hoc analysis]). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come segmenti [](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34)sovrapposti.
+Puoi creare e salvare segmenti nel Generatore di segmenti, oppure generare segmenti da un rapporto di abbandono (in [!DNL ad hoc analysis]). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come segmenti [](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)sovrapposti.
 
 ## Segmenti {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -113,7 +113,7 @@ I contenitori degli hit includono valori basati su singole suddivisioni di pagin
 
 **Contenitore gruppo logico**
 
-Il contenitore del gruppo logico consente di fornire un contenitore separato all'interno delle regole del segmento per filtrare le entità non basate sulla gerarchia. Ad esempio, puoi fornire un contenitore nidificato all'interno del segmento che si filtra in base al visitatore. Questo tipo di logica richiede l'interruzione della gerarchia (in quanto si dispone già di un contenitore Visitor di livello superiore) per filtrare solo i visitatori selezionati. Questo può essere ottenuto utilizzando il contenitore Gruppo logica. Per ulteriori informazioni, consulta Esempi [per i gruppi](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560) logici.
+Il contenitore del gruppo logico consente di fornire un contenitore separato all'interno delle regole del segmento per filtrare le entità non basate sulla gerarchia. Ad esempio, puoi fornire un contenitore nidificato all'interno del segmento che si filtra in base al visitatore. Questo tipo di logica richiede l'interruzione della gerarchia (in quanto si dispone già di un contenitore Visitor di livello superiore) per filtrare solo i visitatori selezionati. Questo può essere ottenuto utilizzando il contenitore Gruppo logica. Per ulteriori informazioni, consulta Esempi [per i gruppi](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) logici.
 
 ## Nesting di contenitori {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -154,13 +154,13 @@ La segmentazione sequenziale utilizza gli stessi contenitori di base, inclusi [!
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visitors] costituiscono il contenitore con l'ordine più alto nella segmentazione sequenziale, con [!UICONTROL Visits] contenuto all'interno del [!UICONTROL Visitors] contenitore e [!UICONTROL Hits] contenuto all'interno [!UICONTROL Visitors] o [!UICONTROL Visits] dei contenitori. Per creare segmenti sequenziali ben ordinati, è necessario mantenere questa gerarchia [di](../../components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) contenitori.
+[!UICONTROL Visitors] costituiscono il contenitore con l'ordine più alto nella segmentazione sequenziale, con [!UICONTROL Visits] contenuto all'interno del [!UICONTROL Visitors] contenitore e [!UICONTROL Hits] contenuto all'interno [!UICONTROL Visitors] o [!UICONTROL Visits] dei contenitori. Per creare segmenti sequenziali ben ordinati, è necessario mantenere questa gerarchia [di](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) contenitori.
 
 **Per creare segmenti** sequenziali, i contenitori sono nidificati e la logica sequenziale uniti utilizzando l' [!UICONTROL THEN] operatore che richiede che ogni contenitore sia true in base alla sequenza del visitatore.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-L'unica eccezione a questa gerarchia di contenitori è quando si utilizza il contenitore [Gruppo](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560)logica. Il [!UICONTROL Logic Group] contenitore consente di nidificare un hit all’interno di un contenitore senza l’ordine di acquisire eventi e dimensioni ma al di fuori di un ordine sequenziale.
+L'unica eccezione a questa gerarchia di contenitori è quando si utilizza il contenitore [Gruppo](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)logica. Il [!UICONTROL Logic Group] contenitore consente di nidificare un hit all’interno di un contenitore senza l’ordine di acquisire eventi e dimensioni ma al di fuori di un ordine sequenziale.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -253,7 +253,7 @@ Se si utilizza un segmento con un contenitore più piccolo dell'ambito di suddiv
 
 Il filtraggio per dimensioni che persistono in un intervallo di pagine, come una eVar campagna o una dimensione di riferimento, influisce sui dati raccolti a livello di contenitore e deve essere compreso per la precisione dei report.
 
-I dati del segmento possono variare in base alla persistenza di una dimensione o variabile applicata nelle pagine selezionate. Alcune dimensioni, come la dimensione Pagina, forniscono valori univoci a livello di pagina e vengono filtrate in base ai dati provenienti dal contenitore Hit. (Vedere l'esempio [Rapporti basati su Dati](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87) contenitore). Altre dimensioni, come la dimensione Dominio di riferimento, persistono su più pagine per una visita. Alcune dimensioni o variabili applicate, come Durata visita, si estendono sull'intera cronologia di un visitatore.
+I dati del segmento possono variare in base alla persistenza di una dimensione o variabile applicata nelle pagine selezionate. Alcune dimensioni, come la dimensione Pagina, forniscono valori univoci a livello di pagina e vengono filtrate in base ai dati provenienti dal contenitore Hit. (Vedere l'esempio [Rapporti basati su Dati](/help/components/c-segmentation/seg-overview.md) contenitore). Altre dimensioni, come la dimensione Dominio di riferimento, persistono su più pagine per una visita. Alcune dimensioni o variabili applicate, come Durata visita, si estendono sull'intera cronologia di un visitatore.
 
 ![](assets/RefDomain_aol.png)
 
