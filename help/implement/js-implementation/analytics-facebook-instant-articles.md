@@ -8,7 +8,7 @@ title: Articoli istantanei Facebook
 topic: Sviluppatore e implementazione
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ Il codice HTML di esempio riportato di seguito può essere utilizzato per acquis
    1. Il dominio del server di tracciamento della società.
    1. La variabile dello spazio dei nomi del visitatore. **** Nota: Molti di questi valori si trovano all'interno dell'implementazione standard di Analytics. Se necessario, l'Assistenza clienti o Adobe Consulting possono contribuire a fornire i valori appropriati.
 
-1. [Impostare il tracciamento](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B)personalizzato delle variabili e degli eventi.
+1. [Impostare il tracciamento](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B)personalizzato delle variabili e degli eventi.
 1. Includere la sintassi della richiesta di immagini della visualizzazione pagina `( s.t())`.
 
 ## Passaggio 3: Impostazione del tracciamento personalizzato delle variabili e degli eventi {#section_932C41BD21154C25B99389299BDF3E0B}
