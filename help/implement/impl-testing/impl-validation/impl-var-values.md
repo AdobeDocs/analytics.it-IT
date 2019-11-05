@@ -8,7 +8,7 @@ title: Variabili e valori
 topic: Sviluppatore e implementazione
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,4 +50,4 @@ I nomi delle pagine sono con distinzione tra maiuscole e minuscole e le differen
 
 > [!NOTE] Non è possibile combinare più record di pagina all'interno dei report.
 
-Convalidare che i collegamenti siano segnalati nel [!UICONTROL Custom Links] rapporto. Assicurarsi che i parametri corretti siano passati alla [!UICONTROL tl] funzione. Per ulteriori informazioni su [!UICONTROL custom links], consulta [Tracciamento](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E)collegamenti.
+Convalidare che i collegamenti siano segnalati nel [!UICONTROL Custom Links] rapporto. Assicurarsi che i parametri corretti siano passati alla [!UICONTROL tl] funzione. Per ulteriori informazioni su [!UICONTROL custom links], consulta [Tracciamento](/help/implement/js-implementation/function-tl.md)collegamenti.
