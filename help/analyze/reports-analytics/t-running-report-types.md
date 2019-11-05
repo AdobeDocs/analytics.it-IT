@@ -7,7 +7,7 @@ title: Eseguire diversi tipi di rapporto
 topic: Report,Reporting e analisi
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ Il rilevamento delle anomalie mostra due tipi di grafici: Un grafico di riepilog
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Se i limiti inferiori e il valore previsto sono uguali, la deviazione % è -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">In caso contrario, la deviazione % è ((valore associato inferiore - valore effettivo) / (valore previsto - valore associato inferiore) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Facendo clic su <span class="uicontrol"> Mostra segmenti </span> viene visualizzata la barra laterale del segmento che consente di applicare segmenti a un rapporto di rilevamento delle anomalie. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Ulteriori informazioni </a> sulla segmentazione. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Facendo clic su <span class="uicontrol"> Mostra segmenti </span> viene visualizzata la barra laterale del segmento che consente di applicare segmenti a un rapporto di rilevamento delle anomalie. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Ulteriori informazioni </a> sulla segmentazione. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Facendo clic su <span class="uicontrol"> Modifica metriche </span>puoi selezionare e deselezionare le metriche per le quali desideri rilevare delle anomalie. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ Potete impostare il rilevamento delle anomalie in modo indipendente per ogni sui
 
    Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la Guida [alla segmentazione di](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) Analytics. 1. (Facoltativo) Preferito o segnalibro per il rapporto.
 1. (Facoltativo) Modificare la data di fine del periodo di visualizzazione. Il valore predefinito è ieri.
-1. È ora possibile iniziare a interpretare il rapporto. [Visualizzazione dei grafici](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)di rilevamento delle anomalie.
+1. È ora possibile iniziare a interpretare il rapporto. [Visualizzazione dei grafici](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)di rilevamento delle anomalie.
 
 ## Eseguire un rapporto in tempo reale {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ Per informazioni sulla configurazione dei report in tempo reale, consulta la Gui
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Seleziona suite di rapporti</strong></td> 
-   <td class="chdesc stentry"> Mostra la suite di rapporti cui si riferisce il rapporto in tempo reale. Per modificare la suite di rapporti, vedi <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external"> Real-Time Reports Configuration </a>. </td> 
+   <td class="chdesc stentry"> Mostra la suite di rapporti cui si riferisce il rapporto in tempo reale. Per modificare la suite di rapporti, vedi <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  > Real-Time Reports Configuration </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Passaggio tra rapporti</strong></td> 
