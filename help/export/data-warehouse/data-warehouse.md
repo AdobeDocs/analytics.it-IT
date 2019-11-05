@@ -7,7 +7,7 @@ title: Panoramica di Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,7 +67,7 @@ Nella tabella seguente sono descritti i campi e le opzioni della [!UICONTROL Dat
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Ordinamento delle metriche</span> </td> 
-   <td colname="col2">Fornisce report dettagliati con classifica, ordinati per valore di metrica decrescente, simili a quanto visualizzato nell'interfaccia utente di Reporting e analisi, Workbench dati e così via. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> Altro...</a> </td> 
+   <td colname="col2">Fornisce report dettagliati con classifica, ordinati per valore di metrica decrescente, simili a quanto visualizzato nell'interfaccia utente di Reporting e analisi, Workbench dati e così via. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > Altro...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">Schedule Delivery (Pianifica consegna)</span> </td> 
