@@ -7,7 +7,7 @@ solution: Experience Cloud,Gestione tag dinamica
 title: Gestione della libreria
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -46,7 +46,7 @@ Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>In Gestione dinamica dei tag</b>: Puoi ospitare il <span class="filepath"> s_code</span> in Gestione tag dinamica. Fate clic su <span class="uicontrol"> Modifica codice</span> per tagliare e incollare il file direttamente nell’editor. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: Se disponete di un buon file <span class="filepath"> s_code</span> e siete soddisfatti del processo di aggiornamento, potete fornire l'URL al file qui. La gestione tag dinamica quindi utilizza il file <span class="filepath"> s_code</span> per l'implementazione di <span class="keyword"> Adobe Analytics</span>. </li> 
-    </ul> <p> <b>Apri editor: Consente </b>di <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> inserire il codice</a>AppMeasurement principale. Questo codice viene popolato automaticamente quando si utilizza il metodo di configurazione automatico descritto in Impostazioni <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> di</a>Adobe Analytics. </p> <p> <b>Nome variabile Tracker: </b>Se desiderate eseguire due istanze di <span class="keyword"> Adobe Analytics</span> in parallelo (una in Gestione tag dinamica e una in modo nativo), potete rinominare l' <span class="term"> oggetto s</span> principale. Se si rinomina il nome dell'oggetto, non si verificano conflitti. </p> </td> 
+    </ul> <p> <b>Apri editor: Consente </b>di <a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  > inserire il codice</a>AppMeasurement principale. Questo codice viene popolato automaticamente quando si utilizza il metodo di configurazione automatico descritto in Impostazioni <a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  > di</a>Adobe Analytics. </p> <p> <b>Nome variabile Tracker: </b>Se desiderate eseguire due istanze di <span class="keyword"> Adobe Analytics</span> in parallelo (una in Gestione tag dinamica e una in modo nativo), potete rinominare l' <span class="term"> oggetto s</span> principale. Se si rinomina il nome dell'oggetto, non si verificano conflitti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
