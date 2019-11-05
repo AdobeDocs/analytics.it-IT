@@ -5,7 +5,7 @@ title: Criteri di conservazione dei dati
 description: I criteri di conservazione dei dati determinano per quanto tempo Adobe memorizza i dati.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: b135a1d2ddea4857496e90921c22fb30bd44da50
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -45,7 +45,7 @@ I criteri di conservazione dei dati definiscono una finestra temporale dinamica 
 
 **Posso richiedere una copia dei miei dati prima che vengano cancellati?**
 
-Sì. Adobe può fornire un dump storico dei dati grezzi a livello di hit. Per ulteriori informazioni, consulta Feed [di](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) dati nella guida per l’utente relativa all’esportazione. Se hai dei requisiti per l’esportazione di dati che non rientrano nell’ambito di ciò che l’interfaccia utente può fornire, contatta l’account manager della tua organizzazione. È possibile effettuare sistemazioni speciali; i costi possono variare.
+Sì. Adobe può fornire un dump storico dei dati grezzi a livello di hit. Per ulteriori informazioni, consulta Feed [di](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) dati nella guida per l’utente relativa all’esportazione. Se hai dei requisiti per l’esportazione di dati che non rientrano nell’ambito di ciò che l’interfaccia utente può fornire, contatta l’account manager della tua organizzazione. È possibile effettuare sistemazioni speciali; i costi possono variare.
 
 **Quando vengono eliminati i dati da Adobe?**
 
