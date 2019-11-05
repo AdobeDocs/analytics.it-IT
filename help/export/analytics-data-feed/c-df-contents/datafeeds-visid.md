@@ -8,22 +8,22 @@ title: Identificare i visitatori
 topic: Reports and Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Identificare i visitatori
 
-Analytics offre diversi metodi per identificare i visitatori (elencati in [Identificazione dei visitatori](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)). Indipendentemente dal metodo utilizzato per identificare un visitatore, nei feed di dati l’ID visitatore finale utilizzato da Analytics viene suddiviso tra le `post_visid_high` e `post_visid_low` le colonne, anche quando si utilizza il servizio identità.
+Analytics offre diversi metodi per identificare i visitatori (elencati in [Identificazione dei visitatori](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md)). Indipendentemente dal metodo utilizzato per identificare un visitatore, nei feed di dati l’ID visitatore finale utilizzato da Analytics viene suddiviso tra le `post_visid_high` e `post_visid_low` le colonne, anche quando si utilizza il servizio identità.
 
 **Per identificare visitatori univoci:**
 
 1. Escludere tutte le righe in cui `exclude_hit > 0`.
-1. Escludi tutte le righe con `hit_source = 5,7,8,9`. 5, 8 e 9 sono righe di riepilogo caricate utilizzando le origini dati. 7 rappresenta i caricamenti dell'origine dati ID transazione che non devono essere inclusi nei conteggi delle visite e dei visitatori. See [Hit Source Lookup](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42)
+1. Escludi tutte le righe con `hit_source = 5,7,8,9`. 5, 8 e 9 sono righe di riepilogo caricate utilizzando le origini dati. 7 rappresenta i caricamenti dell'origine dati ID transazione che non devono essere inclusi nei conteggi delle visite e dei visitatori. See [Hit Source Lookup](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
 1. Combinate `post_visid_high` con `post_visid_low`. Tutti gli hit in tutte le date che contengono questa combinazione di `post_visid_high` e `post_visid_low` possono essere considerati come provenienti dallo stesso visitatore.
 
-Se desiderate determinare quale meccanismo è stato utilizzato per determinare il valore ID visitatore (ad esempio, per calcolare l’accettazione dei cookie), il `post_visid_type` contiene una chiave di ricerca che indica quale metodo ID è stato utilizzato. Le chiavi di ricerca sono elencate insieme ai meccanismi ID visitatore nella [tabella seguente](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A).
+Se desiderate determinare quale meccanismo è stato utilizzato per determinare il valore ID visitatore (ad esempio, per calcolare l’accettazione dei cookie), il `post_visid_type` contiene una chiave di ricerca che indica quale metodo ID è stato utilizzato. Le chiavi di ricerca sono elencate insieme ai meccanismi ID visitatore nella [tabella seguente](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#aa-vids).
 
 ## Experience Cloud ID {#section_1628ED37D31E4B0EB75632E397A06B29}
 
@@ -35,7 +35,7 @@ Se l’ID Experience Cloud è stato utilizzato per identificare il visitatore, l
 >
 > Quando utilizzi l’ID visitatore di Adobe Analytics come chiave per altri sistemi, usa sempre `post_visid_high` e `post_visid_low`. Questi campi sono gli unici campi ID visitatore cui è garantito un valore per ogni riga nel feed di dati.
 
-## ID visitatore di Analytics {#section_DE1DC9FC9B6D4388995B70E35B8BCDDF}
+## ID visitatore di Analytics {#aa-vids}
 
 Esistono diversi modi in cui un visitatore può essere identificato in Analytics (elencati nella tabella seguente in ordine di preferenza):
 
