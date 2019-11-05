@@ -8,7 +8,7 @@ title: File di dati di classificazione
 topic: Strumenti di amministrazione
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 Importazione consente di caricare in massa i dati delle classificazioni nei rapporti di analisi in un file. L’importazione richiede un formato file specifico per il caricamento dei dati.
 
-Per facilitare la creazione di file di dati validi, è possibile scaricare un file modello che fornisce una struttura di file in cui è possibile incollare i dati delle classificazioni. Per ulteriori informazioni, consulta [Scaricare il modello](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417)di classificazione.
+Per facilitare la creazione di file di dati validi, è possibile scaricare un file modello che fornisce una struttura di file in cui è possibile incollare i dati delle classificazioni. Per ulteriori informazioni, consulta [Scaricare il modello](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)di classificazione.
 
-Per ulteriori informazioni sui limiti dei caratteri nelle classificazioni, vedere Struttura [](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) generale dei file.
+Per ulteriori informazioni sui limiti dei caratteri nelle classificazioni, vedere Struttura [](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) generale dei file.
 
-Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, vedere Classificazioni [](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) numeriche 2.
+Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, vedere Classificazioni [](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) numeriche 2.
 
 ## Struttura generale dei file
 
@@ -34,7 +34,7 @@ Un file di dati deve rispettare le seguenti regole di struttura:
 * Le classificazioni non possono avere un valore pari a 0 (zero).
 *  Adobe consiglia di limitare il numero di colonne di importazione ed esportazione a 30.
 * I file caricati devono utilizzare UTF-8 senza codifica caratteri BOM.
-* All'interno di una cella è possibile incorporare caratteri speciali, ad esempio tabulazioni, newline e virgolette, a condizione che sia specificato il formato di file v2.1 e che la cella sia correttamente [preceduta](../../../components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md#task_EB47E80063F14F9CB2D186C0CAA9CBAD)da una sequenza di escape. I caratteri speciali includono:
+* All'interno di una cella è possibile incorporare caratteri speciali, ad esempio tabulazioni, newline e virgolette, a condizione che sia specificato il formato di file v2.1 e che la cella sia correttamente [preceduta](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md)da una sequenza di escape. I caratteri speciali includono:
 
    ```
    \t     tab character 
@@ -60,7 +60,7 @@ Un file di dati deve rispettare le seguenti regole di struttura:
    * I problemi possono sorgere quando v2.1 è specificato nel file, ma ciò che è effettivamente desiderato è v2.0 - vale a dire, quando le virgolette sono utilizzate in modi che è illegale in Excel formattazione. Ad esempio, se disponete di un valore: Vestito S/l "VP NO REPS" con sovrapposizione. Con v2.1, si tratta di una formattazione errata (il valore deve essere racchiuso tra virgolette di apertura e chiusura e le virgolette che fanno parte del valore effettivo devono essere precedute da virgolette) e le classificazioni non funzioneranno oltre questo punto.
    * Effettuate una delle seguenti operazioni: modificate il formato di file in v2.0 modificando l'intestazione (cella C1) nei file caricati, OPPURE implementate correttamente le virgolette Excel in tutti i file.
 
-* La prima riga (senza commenti) del file di dati contiene le intestazioni di colonna utilizzate per identificare i dati di classificazione in quella colonna. Importazione richiede un formato specifico per le intestazioni di colonna. Per ulteriori informazioni, vedere Formato [intestazione](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_ADC08C783477451B959782CEA23AF5EF)colonna.
+* La prima riga (senza commenti) del file di dati contiene le intestazioni di colonna utilizzate per identificare i dati di classificazione in quella colonna. Importazione richiede un formato specifico per le intestazioni di colonna. Per ulteriori informazioni, vedere Formato [intestazione](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)colonna.
 * Immediatamente dopo la riga di intestazione in un file di dati sono riportate le righe di dati. Ogni riga di dati deve contenere un campo dati per ogni intestazione di colonna.
 * Il file di dati supporta i seguenti codici di controllo, utilizzati da Adobe per fornire struttura al file, e importare correttamente i dati di classificazione:
 
@@ -78,11 +78,11 @@ Un file di dati deve rispettare le seguenti regole di struttura:
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Richiede che Adobe generi automaticamente un ID univoco per questo elemento. </p> <p>Nel contesto della campagna, questo valore di controllo indica ad Adobe di assegnare un identificatore a ciascun elemento creativo. Vedere <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443" format="dita" scope="local"> Chiave </a>. </p> </td> 
+   <td colname="col2"> <p>Richiede che Adobe generi automaticamente un ID univoco per questo elemento. </p> <p>Nel contesto della campagna, questo valore di controllo indica ad Adobe di assegnare un identificatore a ciascun elemento creativo. Vedere <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Chiave </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Indica che la colonna di dati rappresenta l'intervallo di date associato all'elemento. Vedere <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9ECCD5ED97764CDC90C0B7B0F9461825" format="dita" scope="local"> Data </a>. </p> </td> 
+   <td colname="col2"> <p>Indica che la colonna di dati rappresenta l'intervallo di date associato all'elemento. Vedere <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Data </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campo vuoto </p> </td> 
@@ -90,7 +90,7 @@ Un file di dati deve rispettare le seguenti regole di struttura:
   </tr> 
   <tr> 
    <td colname="col1"> <p>PER modificatori </p> </td> 
-   <td colname="col2"> <p>Indica che la colonna di dati rappresenta un campo <span class="wintitle"> PER Modificatore </span> . Vedere <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_7E199A26E3274B31B07CCAF8DFE3B274" format="dita" scope="local"> Per Intestazioni Modificatore </a>. </p> </td> 
+   <td colname="col2"> <p>Indica che la colonna di dati rappresenta un campo <span class="wintitle"> PER Modificatore </span> . Vedere <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Per Intestazioni Modificatore </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
