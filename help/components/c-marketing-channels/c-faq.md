@@ -8,29 +8,31 @@ title: Domande frequenti ed esempi
 topic: Reports and Analytics
 uuid: 1c63a1b5-a191-4855-aa65-face19ab1037a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Domande frequenti ed esempi
 
-Leggi le best practice ed esempi di come compilare varie regole che puoi impostare per i tuoi canali di marketing.
+<!--
+Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
 
-* [Domande frequenti](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
-* [Nessun canale identificato](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)
-* [Ricerca pagata](../../components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1)
-* [Ricerca naturale](../../components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386)
-* [Affiliati](../../components/c-marketing-channels/c-faq.md#section_8D142C7074CD4DEC87DF55B691107622)
-* [Social Network](../../components/c-marketing-channels/c-faq.md#section_492B72A3B261479D9C84F631E90C03D8)
-* [Visualizzazione](../../components/c-marketing-channels/c-faq.md#section_4FD846B89FCE4ECFB7781BD02874A1AB)
-* [Interno](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)
-* [E-mail](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
-* [Direct](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
+* [Frequently Asked Questions](/help/components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573) 
+* [No Channel Identified](/help/components/c-marketing-channels/c-faq.md##no-channel-identified) 
+* [Paid Search](/help/components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1) 
+* [Natural Search](/help/components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386) 
+* [Affiliates](/help/components/c-marketing-channels/c-faq.md#section_8D142C7074CD4DEC87DF55B691107622) 
+* [Social Networks](/help/components/c-marketing-channels/c-faq.md#section_492B72A3B261479D9C84F631E90C03D8) 
+* [Display](/help/components/c-marketing-channels/c-faq.md#section_4FD846B89FCE4ECFB7781BD02874A1AB) 
+* [Internal](/help/components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) 
+* [Email](/help/components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE) 
+* [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
+-->
 
-Consultate [Creare regole](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) di elaborazione del canale di marketing per le definizioni dei campi visualizzati sulla [!UICONTROL Marketing Channel Processing Rules] pagina.
+Consultate [Creare regole](/help/components/c-marketing-channels/t-rules.md) di elaborazione del canale di marketing per le definizioni dei campi visualizzati sulla [!UICONTROL Marketing Channel Processing Rules] pagina.
 
-## Domande frequenti {#section_E490CEAF0E76422C91D34D8A80A0C573}
+## Domande frequenti {#faq}
 
 Ogni implementazione delle regole di elaborazione del canale di marketing può variare a seconda dei codici di monitoraggio. La configurazione di regole che forniscono i risultati che state cercando può richiedere alcune riflessioni creative per risolvere i problemi.
 
@@ -65,15 +67,15 @@ Ogni implementazione delle regole di elaborazione del canale di marketing può v
 
 Accertatevi di disporre di un canale per queste tre possibilità. Ad esempio, creare regole che dicano:
 
-1. **[!UICONTROL Referrer]** e **[!UICONTROL Does Not Exist]** e **[!UICONTROL Is First Page of Visit]**. (Vedere [Diretta](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A).)
+1. **[!UICONTROL Referrer]** e **[!UICONTROL Does Not Exist]** e **[!UICONTROL Is First Page of Visit]**. (Vedere [Diretta.](/help/components/c-marketing-channels/c-faq.md))
 
-2. **[!UICONTROL Referrer Matches Internal URL Filters]** ed **[!UICONTROL Is First page of Visit]**. (Vedere [Interno](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947).)
+2. **[!UICONTROL Referrer Matches Internal URL Filters]** ed **[!UICONTROL Is First page of Visit]**. (Vedere [Interno](/help/components/c-marketing-channels/c-faq.md).)
 
 3. **[!UICONTROL Referrer]** e **[!UICONTROL Exists]** e **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
-Infine, create un canale *Altro* che acquisisca gli hit rimanenti, come descritto in [Nessun canale identificato](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7).
+Infine, create un canale *Altro* che acquisisca gli hit rimanenti, come descritto in [Nessun canale identificato](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
-## Nessun canale identificato {#section_451E42994DA247A8A7B8559C715A5EE7}
+## Nessun canale identificato {#no-channel-identified}
 
 Se le regole non acquisiscono dati o se le regole non sono configurate correttamente, il rapporto visualizza i dati nella [!UICONTROL No Channel Identified] riga del rapporto. Potete creare un set di regole denominato *Altro*, ad esempio, al termine dell'ordine di elaborazione, che identifichi anche il traffico interno.
 
@@ -83,7 +85,7 @@ Questo tipo di regola funge da clausola catch-all per garantire che il traffico 
 
 > [!NOTE] Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell'altro canale perché non c'è un dominio di riferimento.
 
-## Ricerca pagata {#section_E934BFE182E4404A93FE07AFEAE64DC1}
+## Ricerca pagata {#paid-search}
 
 Una ricerca a pagamento è una parola o una frase che viene pagata con un motore di ricerca per essere inserita nei risultati della ricerca. Per rispettare le regole di rilevamento delle ricerche pagate, il canale di marketing utilizza le impostazioni configurate sulla [!UICONTROL Paid Search Detection] pagina. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**). L'URL di destinazione corrisponde alla regola di rilevamento della ricerca a pagamento esistente per quel motore di ricerca.
 
@@ -93,7 +95,7 @@ Per la regola del canale di marketing, le [!UICONTROL Paid Search] impostazioni 
 
 Per ulteriori informazioni, consulta [Rilevamento](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) ricerca a pagamento in Amministratore.
 
-## Ricerca naturale {#section_A4C6B8F0360449BE94F0128FF7C71386}
+## Ricerca naturale {#natural-search}
 
 Una ricerca naturale si verifica quando i visitatori trovano il sito Web tramite una ricerca Web, dove il motore di ricerca ha classificare il sito senza pagare per l'elenco. Potete controllare l’URL di destinazione che il motore di ricerca utilizza per collegarsi al sito. Questo URL consente ad Analytics di identificare se una ricerca è naturale.
 
@@ -105,31 +107,31 @@ Per la regola del canale di marketing, le impostazioni di Ricerca naturale sono 
 
 Per ulteriori informazioni, consulta Rilevamento [ricerca a](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) pagamento nell’amministratore.
 
-## Affiliati {#section_8D142C7074CD4DEC87DF55B691107622}
+## Affiliati {#afilliates}
 
 Una regola di affiliazione identifica i visitatori che provengono da un set specificato di domini di provenienza. Nella regola, puoi elencare i domini delle filiali che desideri monitorare, come segue:
 
 ![](assets/example_affiliates.png)
 
-## Social Network {#section_492B72A3B261479D9C84F631E90C03D8}
+## Social Network {#social-networks}
 
 Questa regola identifica i visitatori provenienti da un social network, come Facebook*. Le impostazioni possono essere le seguenti:
 
 ![](assets/example_social.png)
 
-## Visualizzazione {#section_4FD846B89FCE4ECFB7781BD02874A1AB}
+## Visualizzazione {#display}
 
 Questa regola identifica i visitatori provenienti da annunci pubblicitari per banner. È identificato da un parametro di stringa di query nell'URL di destinazione, in questo caso *`Ad_01`*.
 
 ![](assets/example_display.png)
 
-## Interno {#section_179A2BE5C8E24719A9E5C0DC09AF0947}
+## Interno {#internal}
 
 Questa regola identifica i visitatori provenienti da un referente che corrisponde ai filtri URL interni per la suite di rapporti.
 
 ![](assets/example_internal.png)
 
-## E-mail {#section_4A927BE947B748E39595F4525B7280DE}
+## E-mail {#email}
 
 Per impostare questa regola, dovete fornire il parametro della stringa di query per la campagna e-mail. In questo esempio, il parametro è *`eml`*:
 
@@ -139,7 +141,7 @@ Se la regola contiene codici di tracciamento, immettete un valore per riga, come
 
 ![](assets/tracking_code.png)
 
-## Direct {#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A}
+## Direct {#direct}
 
 Questa regola identifica i visitatori che non dispongono di un dominio di riferimento. Questa regola include i visitatori che arrivano direttamente al sito, ad esempio da un collegamento Preferiti o incollando un collegamento nel browser.
 
