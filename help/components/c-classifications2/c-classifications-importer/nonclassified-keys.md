@@ -8,7 +8,7 @@ title: Tasti non classificati
 topic: Strumenti di amministrazione
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,4 +40,4 @@ Procedura che descrive come rinominare una chiave non classificata visualizzata 
    Per seguire l'esempio riportato in questa documentazione, potresti digitare "campagna non mobile" in una colonna denominata [!UICONTROL Mobile Campaign Name].
 
    Questa voce rinomina *`None`* in *`non-mobile campaign`* nel [!UICONTROL Mobile Campaign Type] report.
-1. [Importare nuovamente i dati](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) nel sistema.
+1. [Importare nuovamente i dati](/help/components/c-classifications2/c-classifications-importer/import-file.md) nel sistema.
