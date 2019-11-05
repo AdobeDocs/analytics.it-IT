@@ -8,7 +8,7 @@ title: Avvisi
 topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -103,17 +103,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi con uno slot ASI come suite di rapporti </p> </td> 
-   <td colname="col2"> <p>Non è più possibile <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external"> creare o modificare gli slot ASI </a> e non sono disponibili per l'utilizzo in Analysis Workspace. Pertanto, non sono supportati dai nuovi avvisi. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Non è più possibile <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  > creare o modificare gli slot ASI </a> e non sono disponibili per l'utilizzo in Analysis Workspace. Pertanto, non sono supportati dai nuovi avvisi. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi mediante metriche di partecipazione </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external"> Le metriche di partecipazione </a> sono disponibili in Reporting e analisi, ma al momento non sono disponibili nel nuovo sistema di avvisi in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > Le metriche di partecipazione </a> sono disponibili in Reporting e analisi, ma al momento non sono disponibili nel nuovo sistema di avvisi in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi mensili per suite di rapporti per il calendario personalizzate </p> </td> 
-   <td colname="col2"> <p>Questo interessa solo i clienti con avvisi impostati per le suite di rapporti che hanno date di inizio mese <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external"> personalizzate </a> (Federazione Nazionale Vendita al Dettaglio/NRF e Tipi di calendario personalizzati). </p> <p>Non influisce sugli avvisi relativi alle suite di rapporti gregoriane o gregoriane modificate. Precedentemente questi avvisi erano stati inviati il primo giorno del mese gregoriano (ad esempio, 1° gennaio, 1° febbraio ecc.). Ciò non funzionerà con la nuova funzione Anomaly Detection (Rilevamento anomalo) degli avvisi, che tiene conto dei dati dei mesi precedenti al momento del rilevamento delle anomalie. In futuro, aggiungeremo il supporto al nostro sistema di programmazione per i calendari personalizzati in modo che sia gli Avvisi che i Progetti programmati possano essere programmati per l'invio il primo giorno del mese di calendario personalizzato invece che il primo giorno del mese gregoriano. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Questo interessa solo i clienti con avvisi impostati per le suite di rapporti che hanno date di inizio mese <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  > personalizzate </a> (Federazione Nazionale Vendita al Dettaglio/NRF e Tipi di calendario personalizzati). </p> <p>Non influisce sugli avvisi relativi alle suite di rapporti gregoriane o gregoriane modificate. Precedentemente questi avvisi erano stati inviati il primo giorno del mese gregoriano (ad esempio, 1° gennaio, 1° febbraio ecc.). Ciò non funzionerà con la nuova funzione Anomaly Detection (Rilevamento anomalo) degli avvisi, che tiene conto dei dati dei mesi precedenti al momento del rilevamento delle anomalie. In futuro, aggiungeremo il supporto al nostro sistema di programmazione per i calendari personalizzati in modo che sia gli Avvisi che i Progetti programmati possano essere programmati per l'invio il primo giorno del mese di calendario personalizzato invece che il primo giorno del mese gregoriano. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non ancora disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
