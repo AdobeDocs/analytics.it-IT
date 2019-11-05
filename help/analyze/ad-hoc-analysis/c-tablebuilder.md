@@ -5,7 +5,7 @@ seo-title: Generatore tabella
 title: Generatore tabella
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -44,7 +44,7 @@ L'opzione [!UICONTROL Table Builder] non è disponibile per alcuni report di per
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifica elementi</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Scegliete un elenco di elementi dimensionali per creare un elenco fisso per le suddivisioni. Quando aggiungete elementi a questo elenco, questi diventano persistenti in un rapporto salvato e non verranno compressi quando aprite un rapporto salvato o pianificato. </p> <p>Vedere <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Scomposizione dei dati</a>di tabella. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Scegliete un elenco di elementi dimensionali per creare un elenco fisso per le suddivisioni. Quando aggiungete elementi a questo elenco, questi diventano persistenti in un rapporto salvato e non verranno compressi quando aprite un rapporto salvato o pianificato. </p> <p>Vedere <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Scomposizione dei dati</a>di tabella. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Colonne</span> </td> 
