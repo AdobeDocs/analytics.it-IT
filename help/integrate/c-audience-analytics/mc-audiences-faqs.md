@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Domande frequenti
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -24,7 +24,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Se hai indirizzi e-mail e simili in un prop o eVar, può essere utile usare funzioni hash per dati durante la raccolta. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external"> turn on IP obfuscation </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  > turn on IP obfuscation </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Parla con il tuo amministratore di Analytics per vedere quali dati stai raccogliendo. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Parla con il tuo ufficio legale per capire che cosa è considerato PII. </li> 
     </ul> </td> 
@@ -47,7 +47,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>D: Come si crea una destinazione Analytics in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Consultate <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configurare una destinazione Analytics in AAM </a>. </td> 
+   <td colname="col2"> Consultate <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > Configurare una destinazione Analytics in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Dopo aver creato e salvato una destinazione Analytics, quanto tempo ci vorrà fino alla visualizzazione dei dati nelle suite di rapporti selezionate?</b> </p> </td> 
@@ -138,11 +138,11 @@ Per ulteriori domande frequenti su questo argomento, consultate Domande frequent
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>D: Perché i conteggi dei visitatori del segmento sono diversi tra Audience Manager e Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> Visitor Count Differences </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Visitor Count Differences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Qual è la differenza tra "audience" in AAM e "segmenti" in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>I tipi di pubblico AAM vengono inviati e condivisi come componenti "dimensione" da utilizzare in Analytics. Ad esempio, non vengono visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui è possibile creare segmenti. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>I tipi di pubblico AAM vengono inviati e condivisi come componenti "dimensione" da utilizzare in Analytics. Ad esempio, non vengono visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui è possibile creare segmenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Qual è la differenza tra gli attributi cliente e i dati cliente integrati da AAM?</b> </p> </td> 
