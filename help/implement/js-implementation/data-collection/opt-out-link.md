@@ -9,7 +9,7 @@ title: Aggiungere un collegamento di rinuncia
 topic: Sviluppatore e implementazione
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,9 +30,9 @@ Se implementate prodotti e servizi Adobe Analytics con cookie impostati sui domi
 
 Per ulteriori informazioni sulle pratiche sulla privacy di Adobe Analytics, consultate [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
 
-* [Struttura URL pagina di rifiuto](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
-* [Esempio di URL di rifiuto](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
-* [Aggiunta del marchio all’URL di rifiuto](../../../implement/js-implementation/data-collection/opt-out-link.md#section_674AB62E810B414AB8F1615C0E3061F8)
+* [Struttura URL pagina di rifiuto](/help/implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
+* [Esempio di URL di rifiuto](/help/implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
+* [Aggiunta del marchio all’URL di rifiuto](/help/implement/js-implementation/data-collection/opt-out-link.md#section_674AB62E810B414AB8F1615C0E3061F8)
 
 ## Struttura URL pagina di rifiuto {#section_E0462428D2E440E7863E24D2F6DBF748}
 
