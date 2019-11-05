@@ -5,7 +5,7 @@ seo-title: Panoramica dei componenti
 title: Panoramica dei componenti
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e granularità temporali da trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
 
-To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. Puoi passare da Pannelli (pannello vuoto, pannello [](../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)a forma libera o pannello Confronto [](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) segmenti), [Visualizzazioni](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)e Componenti utilizzando le icone della barra a sinistra o i [tasti](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)di scelta rapida.
+To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. Puoi passare da Pannelli (pannello vuoto, pannello [](/help/analyze/analysis-workspace/visualizations/freeform-table.md)a forma libera o pannello Confronto [](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) segmenti), [Visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)e Componenti utilizzando le icone della barra a sinistra o i [tasti](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)di scelta rapida.
 
 ![](assets/components.png)
 
-See [Create a freeform analysis project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for information about using Components in a project.
+See [Create a freeform analysis project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for information about using Components in a project.
 
 ## Azioni dei componenti {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
