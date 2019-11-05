@@ -3,7 +3,7 @@ title: Casi di utilizzo del confronto dei segmenti
 description: Scopri i casi d’uso reali su come il pannello di confronto dei segmenti può essere utilizzato per acquisire informazioni approfondite sulla strategia di marketing.
 keywords: IQ segmento
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -56,7 +56,7 @@ Una grande azienda di servizi B2B desiderava capire il tipo di traffico che le p
 
 > *"Abbiamo scoperto che le persone che acquistano Fitbit avevano 6 volte più probabilità di ricevere un messaggio "esaurito" rispetto a tutti gli altri, così abbiamo rapidamente ordinato più Fitbit ed evitato di esaurire le scorte!"*
 
-Un importante rivenditore online era interessato a come Fitbit, uno dei prodotti più ricercati per le vacanze, vendeva e cosa rendeva unici gli acquirenti Fitbit tra gli altri. Utilizzando il confronto dei segmenti, gli utenti che acquistano Fitbit hanno una probabilità 6 volte superiore di ricevere un messaggio "esaurito" rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing ha indirizzato questi visitatori ai loro negozi di mattoni mentre attendevano che il loro reparto acquisti ordinasse più Fitbit da spedire. Di conseguenza, il rivenditore ha evitato più messaggi "fuori borsa" e ha soddisfatto più della loro domanda di vacanza.
+**** Scenario: Un importante rivenditore online era interessato alle vendite di Fitbit, uno dei prodotti più ricercati del periodo delle feste, e a ciò che rendeva unici gli acquirenti di Fitbit tra gli altri. Con un semplice clic con il pulsante destro del mouse sull’elemento di riga “Fitbit” nei rapporti sui prodotti, il team marketing ha potuto eseguire rapidamente un’analisi IQ segmento. Ciò che hanno scoperto è che gli acquirenti Fitbit avevano una probabilità di 6 volte superiore di ricevere il messaggio “esaurito” rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing è stato in grado di dirigere i visitatori ai negozi fisici mentre attendevano che il reparto acquisti ordinasse ulteriori Fitbit da spedire. Come risultato, il rivenditore ha evitato ulteriori messaggi di “esaurimento” ed è stato in grado di soddisfare la maggiore domanda del periodo festivo.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
