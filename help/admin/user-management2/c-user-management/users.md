@@ -8,7 +8,7 @@ title: Panoramica sulla gestione utente
 topic: Strumenti di amministrazione
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -82,7 +82,7 @@ Crea un dashboard predefinito per una suite di rapporti specificata.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Utente</span> </td> 
-   <td colname="col2"> <p> Concede all’utente solo le autorizzazioni del gruppo selezionato. Selezionate i gruppi desiderati nel campo Gruppi <span class="uicontrol"></span> disponibili (a sinistra), quindi fate clic su <span class="uicontrol"> Aggiungi</span>. I gruppi assegnati vengono visualizzati nel campo Gruppi <span class="uicontrol"></span> assegnati (a destra). Per informazioni sulla creazione e la gestione dei gruppi, consultate <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Gruppi</a>. </p> </td> 
+   <td colname="col2"> <p> Concede all’utente solo le autorizzazioni del gruppo selezionato. Selezionate i gruppi desiderati nel campo Gruppi <span class="uicontrol"></span> disponibili (a sinistra), quindi fate clic su <span class="uicontrol"> Aggiungi</span>. I gruppi assegnati vengono visualizzati nel campo Gruppi <span class="uicontrol"></span> assegnati (a destra). Per informazioni sulla creazione e la gestione dei gruppi, consultate <a href="/help/admin/user-management2/c-user-groups/groups.md"> Gruppi</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
