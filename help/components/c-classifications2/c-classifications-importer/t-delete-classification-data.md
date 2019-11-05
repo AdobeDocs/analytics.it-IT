@@ -8,7 +8,7 @@ title: Eliminare i dati di classificazione
 topic: Strumenti di amministrazione
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ Procedura che descrive come eliminare o rimuovere i dati di classificazione.
 
    In alternativa, utilizzate [!DNL ~deletekey~]. Questo comando considera la classificazione come se non si fosse mai verificata per la chiave specificata. La rimozione completa e tutti i dati delle colonne dalle tabelle di ricerca.
 
-   **Caveat**: È sufficiente una colonna contenente [!DNL ~deleteKey~]. Il comando [!DNL ~vuoto~] funziona a livello di cella (combinazione di tasti e colonne), pertanto è necessario [!DNL ~vuoto~] nella colonna classificazione che si desidera rimuovere. Tuttavia, [!DNL ~deleteKey~] funziona a livello di riga (la chiave e tutti i metadati associati), pertanto deve essere visualizzato solo in una delle colonne della riga. Questo comando rimuove tutti i metadati dalla riga. Adobe interpreta questo concetto come se la chiave non fosse mai stata classificata e la visualizzi nella categoria [Nessuno](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) .
+   **Caveat**: È sufficiente una colonna contenente [!DNL ~deleteKey~]. Il comando [!DNL ~vuoto~] funziona a livello di cella (combinazione di tasti e colonne), pertanto è necessario [!DNL ~vuoto~] nella colonna classificazione che si desidera rimuovere. Tuttavia, [!DNL ~deleteKey~] funziona a livello di riga (la chiave e tutti i metadati associati), pertanto deve essere visualizzato solo in una delle colonne della riga. Questo comando rimuove tutti i metadati dalla riga. Adobe interpreta questo concetto come se la chiave non fosse mai stata classificata e la visualizzi nella categoria [Nessuno](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) .
 
 1. Salvate il file e caricatelo utilizzando la [!UICONTROL Import File] scheda.
 
