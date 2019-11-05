@@ -8,7 +8,7 @@ title: Panoramica di prop ed eVar
 topic: Sviluppatore e implementazione
 uuid: 522CAB2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Le variabili di traffico personalizzate, denominate anche variabili di proprietà (s.prop) o di proprietà, sono contatori che contano il numero di volte in cui ogni valore viene inviato in Analytics.
 
-Per determinare quali variabili vengono assegnate dove, è importante comprendere le differenze tra le funzionalità Prop e eVar. Comprendere queste differenze consente all'organizzazione di decidere quale tipo di variabile è più adatto all'uso. Per informazioni dettagliate, consultate [Confronto tra proprietà ed eVar](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+Per determinare quali variabili vengono assegnate dove, è importante comprendere le differenze tra le funzionalità Prop e eVar. Comprendere queste differenze consente all'organizzazione di decidere quale tipo di variabile è più adatto all'uso. Per informazioni dettagliate, consultate [Confronto tra proprietà ed eVar](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 Le proprietà consentono inoltre di correlare dati personalizzati con eventi specifici relativi al traffico. Queste variabili sono incorporate nel [!DNL Analytics] codice presente in ciascuna pagina del sito Web. Attraverso [!UICONTROL s.prop] le variabili, [!DNL Analytics] puoi creare rapporti personalizzati, specifici per l'organizzazione, il settore e gli obiettivi aziendali.
 
@@ -40,4 +40,4 @@ In un sito di conversione, le eVar possono essere utilizzate per monitorare il m
 
 Per ulteriori informazioni, vedi Variabile [di](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) traffico nella guida e nei riferimenti di Analytics.
 
-Per informazioni sulla configurazione delle proprietà in Gestione tag digitale, consultate [Creare proprietà](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)Web.
+Per informazioni sulla configurazione delle proprietà in Gestione tag digitale, consultate [Creare proprietà](/help/implement/c-implement-with-dtm/t-create-web-property.md)Web.
