@@ -7,14 +7,14 @@ solution: Experience Cloud,Analytics,Gestione tag dinamica
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
 # Cookie
 
-Descrizioni dei campi per le impostazioni globali dei cookie utilizzate per la distribuzione [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
+Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
 **[!UICONTROL  *`Property`*]**&gt; **[!UICONTROL![](assets/settings_gear.png)
 
@@ -30,19 +30,19 @@ Modifica strumento]** &gt; **[!UICONTROL Cookies]**
  <tbody> 
   <tr> 
    <td colname="col1"> Visitor ID </td> 
-   <td colname="col2"> <p>Valore univoco che rappresenta un cliente sia nei sistemi online che offline. </p> </td> 
+   <td colname="col2"> <p>Valore univoco che rappresenta un cliente nei sistemi online e offline. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Spazio dei nomi dei visitatori </td> 
+   <td colname="col1"> Spazio nomi visitatore </td> 
    <td colname="col2"> <p>Variabile per identificare il dominio con cui sono impostati i cookie. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Periodi di dominio </td> 
-   <td colname="col2"> <p>The domain on which the Analytics cookie <code> s_cc</code> and <code> s_sq</code> are set by determining the number of periods in the domain of the page URL. Questa variabile viene utilizzata anche da alcuni plug-in per determinare il dominio corretto per impostare il cookie del plug-in. </p> </td> 
+   <td colname="col2"> <p>Il dominio in cui il cookie di Analytics <code> s_cc</code> e <code> s_sq</code> è impostato determinando il numero di periodi nel dominio dell'URL della pagina. Questa variabile viene utilizzata anche da alcuni plug-in per determinare il dominio corretto per impostare il cookie del plug-in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Periodi di dominio FP </td> 
-   <td colname="col2"> <p>La variabile <span class="term"> fpCookieDomainPeriods</span> è per i cookie impostati da JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-in) che sono intrinsecamente cookie di prime parti, anche se l’implementazione utilizza i domini di terze parti <span class="filepath"> 2o7.net</span> o <span class="filepath"> omtrdc.net</span> . </p> <p>Vedere <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Consulta <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID transazione </td> 
@@ -50,7 +50,7 @@ Modifica strumento]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> Durata cookie </td> 
-   <td colname="col2"> <p>Determina la durata di un cookie. </p> </td> 
+   <td colname="col2"> <p>Determina la durata di vita di un cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
