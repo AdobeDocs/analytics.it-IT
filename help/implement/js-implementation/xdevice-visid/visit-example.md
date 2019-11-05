@@ -1,15 +1,15 @@
 ---
-description: Esempio contenente un esempio di chiamate server inviate in un'interazione comune del cliente.
+description: Esempio contenente un esempio di chiamate server inviate in una comune interazione con il cliente.
 keywords: Implementazione di Analytics
-seo-description: Esempio contenente un esempio di chiamate server inviate in un'interazione comune del cliente.
+seo-description: Esempio contenente un esempio di chiamate server inviate in una comune interazione con il cliente.
 seo-title: Visita di esempio
 solution: Analytics
 subtopic: Visitatori
 title: Visita di esempio
 topic: Sviluppatore e implementazione
-uuid: bc 5 f 8 f 56-52 e 3-42 d 8-af 1 a -7 f 5 c 7 b 9496 c 0
+uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -18,16 +18,16 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Fai riferimento alla documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud Device Co-op.
 
-Esempio contenente un esempio di chiamate server inviate in un'interazione comune del cliente.
+Esempio contenente un esempio di chiamate server inviate in una comune interazione con il cliente.
 
 | Chiamata server | Azione | Cookie ID visitatore | Variabile ID visitatore | ID visitatore effettivo | Numero pagina visita | Numero visita |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Un visitatore fa clic su un collegamento in un messaggio e-mail di marketing e accede al sito dal computer di casa. Questo visitatore ha visitato il sito 7 volte in passato. | 1 | - | 1 | 1 | 8 |
-| 2-8 | Visita altre 7 pagine sul sito. | 1 | - | 1 | 2-8 | 8 |
-| 9 | Esegue l'autenticazione sul computer principale. | 1 | CID1 | CID1 | 9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
-| 10 | Visits 1 additional page. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Apre il sito dal laptop in ufficio. Questo visitatore non ha visitato il sito prima di usare il dispositivo. | 2 | - | 2 | 1 | 1 |
-| 12 | Esegue l'autenticazione su laptop. | 2 | CID1 | CID1 | 1 | 9 |
-| 13 | Visualizza 1 pagina aggiuntiva. | 2 | CID1 | CID1 | 2 | 9 |
+| 1 | Un visitatore fa clic su un collegamento in un messaggio e-mail di marketing e visita il sito dal computer di casa. Questo visitatore ha visitato il sito 7 altre volte in passato. | 1 | - | 1 | 1 | 8 |
+| 2-8 | Visita 7 pagine aggiuntive sul tuo sito. | 1 | - | 1 | 2-8 | 8 |
+| 9 | Effettua l'autenticazione sul computer di casa. | 1 | CID1 | CID1 | 9 <br>Questo è il primo hit di CID1 in assoluto, quindi prende il sopravvento e continua sul profilo del visitatore dall'ID visitatore 1.</br> | 8 |
+| 10 | Visita 1 pagina aggiuntiva. | 1 | CID1 | CID1 | 10 | 8 |
+| 11 | Apre il sito dal laptop in ufficio. Il visitatore non ha visitato il sito prima di utilizzare questo dispositivo. | 2 | - | 2 | 1 | 1 |
+| 12 | Effettua l'autenticazione sul laptop. | 2 | CID1 | CID1 | 1 | 9 |
+| 13 | Visualizzazioni 1 pagina aggiuntiva. | 2 | CID1 | CID1 | 2 | 9 |
