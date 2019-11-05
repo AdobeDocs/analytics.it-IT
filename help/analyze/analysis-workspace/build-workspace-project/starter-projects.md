@@ -5,7 +5,7 @@ seo-title: Modelli
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Puoi scegliere se creare un progetto da:
 
-* Un progetto vuoto (impostazione predefinita). Per istruzioni, consulta [Creazione di un progetto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)Analysis Workspace.
+* Un progetto vuoto (impostazione predefinita). Per istruzioni, consulta [Creazione di un progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)Analysis Workspace.
 * Un modello standard. Sono modelli già pronti creati e forniti da Adobe.
 * Un modello personalizzato. Questi modelli possono essere creati da utenti con o senza autorizzazioni di tipo amministratore, purché sia stata loro concessa l’autorizzazione “Salva come modello”. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [Creare un modello personalizzato](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [Modelli standard](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [Creare un modello personalizzato](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [Modelli standard](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## Creare un modello personalizzato {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Creare un modello personalizzato {#create-custom-template}
 
 Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato effettuando le seguenti operazioni:
 
