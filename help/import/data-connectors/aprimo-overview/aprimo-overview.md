@@ -5,7 +5,7 @@ seo-title: Connettore dati Aprimo per Adobe Analytics
 title: Connettore dati Aprimo per Adobe Analytics
 uuid: 590ded4b-b250-43b4-9set-68508b853e00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
