@@ -7,7 +7,7 @@ title: Interrompere il tracciamento dei collegamenti
 topic: Activity Map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -43,7 +43,7 @@ Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nel
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (già Visitor ClickMap) </td> 
-   <td colname="col2"> <p>Imposta la variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external"> trackInlineStats</a> su false (questa è l’impostazione predefinita). La sintassi è la seguente: 
+   <td colname="col2"> <p>Imposta la variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  > trackInlineStats</a> su false (questa è l’impostazione predefinita). La sintassi è la seguente: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
