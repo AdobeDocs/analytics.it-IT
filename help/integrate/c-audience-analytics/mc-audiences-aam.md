@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Panoramica di Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -49,4 +49,4 @@ Assicurati che vi siano i seguenti prerequisiti:
 * Le suite di rapporti AAM e Adobe Analytics sono [mappate sulla stessa organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)Experience Cloud.
 * Puoi utilizzare l’inoltro [lato](/help/admin/admin/c-server-side-forwarding/ssf.md) server e hai implementato il modulo [Gestione](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) dell’audience (nessun codice DIL) - AppMeasurement 1.5 o successivo.
 
-Questi prerequisiti sono descritti nel flusso di lavoro di [Audience Analytics](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83).
+Questi prerequisiti sono descritti nel flusso di lavoro di [Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
