@@ -1,21 +1,21 @@
 ---
-description: Procedura che descrive come creare una richiesta di Data Warehouse.
-seo-description: Procedura che descrive come creare una richiesta di Data Warehouse.
-seo-title: Creare una richiesta di Data Warehouse
+description: Passaggi che descrivono come creare una richiesta Data Warehouse.
+seo-description: Passaggi che descrivono come creare una richiesta Data Warehouse.
+seo-title: Create a Data Warehouse Request (Creare una richiesta di archivio dati)
 solution: Analytics
-title: Creare una richiesta di Data Warehouse
+title: Create a Data Warehouse Request (Creare una richiesta di archivio dati)
 topic: Data warehouse
-uuid: 7789 fbb 6-44 a 4-4 cc 5-9874-c 63 db 4 a 6 d 74 d
+uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Creare una richiesta di Data Warehouse
+# Create a Data Warehouse Request (Creare una richiesta di archivio dati)
 
-Procedura che descrive come creare una richiesta di Data Warehouse.
+Passaggi che descrivono come creare una richiesta Data Warehouse.
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Data Warehouse]**.
-1. On the [!UICONTROL Data Warehouse Request] tab, configure the options described in [Data Warehouse Requests Descriptions](../../export/data-warehouse/data-warehouse.md#section_F21C78ED36884C389C852E876AF5CDE8)
+1. Passa a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Data Warehouse]**.
+1. Nella [!UICONTROL Data Warehouse Request] scheda, configurare le opzioni descritte in Descrizioni richieste [Data Warehouse](/help/export/data-warehouse/data-warehouse.md#section_F21C78ED36884C389C852E876AF5CDE8)
 1. Fai clic su **[!UICONTROL Request this Report]**.
