@@ -7,7 +7,7 @@ title: Paths (Percorsi)
 topic: Rapporti
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ I rapporti sui percorsi includono rapporti di analisi avanzati standard e facolt
 
 ![](assets/fallout_graphic.png)
 
-Consultate Rapporto [Abbandono](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41).
+Consultate Rapporto [Abbandono](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: Consente di analizzare ulteriormente i percorsi completi in frammenti, ottenendo i pattern precisi che consentono di ottimizzare il sito. La procedura guidata Elaborazione tracciati consente di specificare i criteri di selezione utilizzati per generare il rapporto, in modo da poter analizzare i frammenti di percorso e le query per i componenti che iniziano con una determinata pagina, terminano con una determinata pagina o anche quelli che iniziano con una pagina e terminano con un'altra.
 
