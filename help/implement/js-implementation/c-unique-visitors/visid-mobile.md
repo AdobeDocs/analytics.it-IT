@@ -8,7 +8,7 @@ title: Identificare i dispositivi mobili
 topic: Sviluppatore e implementazione
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 La maggior parte dei dispositivi mobili accetta i cookie del browser. Tuttavia, se i dispositivi non accettano i cookie, viene utilizzato un altro metodo per identificare in modo univoco i dispositivi wireless.
 
-Adobe ha identificato una serie di intestazioni [ID](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) sottoscrittore HTTP che identificano in modo univoco la maggior parte dei dispositivi mobili. Tali intestazioni includono spesso il numero di telefono del dispositivo (o una versione con hash del numero), o altri identificatori. La maggior parte dei dispositivi correnti dispone di una o più intestazioni che identificano in modo univoco il dispositivo, e tutti i server di raccolta dati Adobe utilizzano automaticamente tali intestazioni al posto di un ID visitatore.
+Adobe ha identificato una serie di intestazioni [ID](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) sottoscrittore HTTP che identificano in modo univoco la maggior parte dei dispositivi mobili. Tali intestazioni includono spesso il numero di telefono del dispositivo (o una versione con hash del numero), o altri identificatori. La maggior parte dei dispositivi correnti dispone di una o più intestazioni che identificano in modo univoco il dispositivo, e tutti i server di raccolta dati Adobe utilizzano automaticamente tali intestazioni al posto di un ID visitatore.
 
 In una tipica richiesta di immagine, un '1' nel percorso ( `/b/ss/rsid/1`) fa sì che i server Adobe restituiscano un'immagine gif e tentino di impostare un [!UICONTROL visitor ID] cookie persistente ( `AMCV_` o `s_vi`). Tuttavia, se il dispositivo è riconosciuto come dispositivo mobile basato sulle intestazioni HTTP, viene trasmesso un "5" al posto di "1", il che indica che deve essere restituita un'immagine in formato wbmp e che il nostro elenco di intestazioni wireless riconosciute (non un cookie) deve essere utilizzato per identificare il dispositivo.
 
@@ -88,4 +88,4 @@ Il seguente elenco di intestazioni viene utilizzato per identificare i dispositi
 
 Ad esempio, "callinglineid" corrisponderebbe a "X-Up-Calling-Line-ID" e "nokia-callinglineid". Il tipo di intestazione indica cosa aspettarsi nell’intestazione. L’ordine di priorità dell’intestazione è riportato di seguito (se è presente un’intestazione "callinglineid", viene utilizzato invece di "subno").
 
-È possibile utilizzare Variabili [](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) dinamiche per estrarre valori specifici da un'intestazione.
+È possibile utilizzare Variabili [](/help/implement/js-implementation/c-variables/dynvars-overview.md) dinamiche per estrarre valori specifici da un'intestazione.
