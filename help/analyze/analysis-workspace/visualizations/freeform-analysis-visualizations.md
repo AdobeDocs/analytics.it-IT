@@ -8,7 +8,7 @@ title: Panoramica delle visualizzazioni
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a5455
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ Per accedere [!UICONTROL Visualization Settings]a una visualizzazione, trascinal
 
 >[!IMPORTANT]
 >
->Le impostazioni di visualizzazione visibili dipendono dalla visualizzazione. Alcune impostazioni non sono applicabili ad alcune visualizzazioni. Inoltre, alcune impostazioni avanzate sono disponibili **solo** per specifiche visualizzazioni, ad esempio le [impostazioni Istogramma](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>Le impostazioni di visualizzazione visibili dipendono dalla visualizzazione. Alcune impostazioni non sono applicabili ad alcune visualizzazioni. Inoltre, alcune impostazioni avanzate sono disponibili **solo** per specifiche visualizzazioni, ad esempio le [impostazioni Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ Per accedere [!UICONTROL Visualization Settings]a una visualizzazione, trascinal
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalizzazione </p> </td> 
-   <td colname="col2"> <p>Forza le metriche ad adeguarsi alle proporzioni. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalizzazione</a>. </p> </td> 
+   <td colname="col2"> <p>Forza le metriche ad adeguarsi alle proporzioni. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalizzazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visualizza asse doppia </p> </td> 
