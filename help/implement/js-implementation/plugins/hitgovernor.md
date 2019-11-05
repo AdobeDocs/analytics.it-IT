@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ L'utilizzo di questo plug-in consente di bloccare automaticamente il traffico pe
 
 ## Come funziona il plugin di Hit Governatore {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-Il plug-in incrementa il valore di un cookie ogni volta che una richiesta di immagine viene inviata ai server di tracciamento e lo tiene traccia di tale operazione in un intervallo di tempo continuo. L’intervallo di tempo predefinito è un minuto, anche se tale intervallo può essere ignorato. (vedere [Implementazione](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2), di seguito). Se il numero totale di hit durante tale intervallo di tempo supera la soglia di hit predefinita (60), viene inviata una richiesta di immagine collegamento personalizzata finale per impostare la variabile di dati di *`exceptionFlag`* contesto. È inoltre possibile ignorare la soglia di hit predefinita.
+Il plug-in incrementa il valore di un cookie ogni volta che una richiesta di immagine viene inviata ai server di tracciamento e lo tiene traccia di tale operazione in un intervallo di tempo continuo. L’intervallo di tempo predefinito è un minuto, anche se tale intervallo può essere ignorato. (vedere [Implementazione](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2), di seguito). Se il numero totale di hit durante tale intervallo di tempo supera la soglia di hit predefinita (60), viene inviata una richiesta di immagine collegamento personalizzata finale per impostare la variabile di dati di *`exceptionFlag`* contesto. È inoltre possibile ignorare la soglia di hit predefinita.
 
 Se lo desiderate, da quel momento in poi, è possibile impedire che il traffico venga raccolto per quel visitatore specifico per un periodo predefinito di sessanta giorni. Per bloccare il traffico è necessaria una riga di codice aggiuntiva nella funzione doPlugins, come indicato di seguito. È inoltre possibile regolare l'intervallo di tempo. La logica consente il tempo necessario per includere l'indirizzo IP del visitatore, l'agente utente o l'ID [!DNL Experience Cloud] visitatore nella logica di eccezione permanente corretta, oppure per ripristinare il periodo di timeout dopo che sono trascorsi i sessanta giorni. Se il traffico è identificato come fraudolento dal plug-in dopo sessanta giorni, il traffico viene nuovamente contrassegnato come eccezione e non viene raccolto per altri sessanta giorni.
 
@@ -55,7 +55,7 @@ Per implementare il plug-in hitGovernatore:
    }); 
    ```
 
-   Sotto la sezione doPlugins del file AppMeasurement, includi il codice plug-in contenuto nel codice [origine](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)plug-in, sotto.
+   Sotto la sezione doPlugins del file AppMeasurement, includi il codice plug-in contenuto nel codice [origine](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)plug-in, sotto.
 
    È possibile sovrascrivere la soglia di hit, la soglia di hit e i fotogrammi temporali di esclusione del traffico impostando queste variabili, al di fuori del plug-in stesso e preferibilmente con le altre variabili di configurazione:
 
