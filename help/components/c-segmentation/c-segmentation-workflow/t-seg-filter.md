@@ -7,7 +7,7 @@ title: Filtrare segmenti
 topic: Segmenti
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,12 +26,12 @@ Il filtro facilita la ricerca di segmenti nella barra dei segmenti.
 
    | Nome filtro | Descrizione |
    |---|---|
-   | Tag | Consente di filtrare i segmenti con [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50)specifici. La colonna Tag è visualizzata per impostazione predefinita. |
+   | Tag | Consente di filtrare i segmenti con [tag](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)specifici. La colonna Tag è visualizzata per impostazione predefinita. |
    | Proprietari | Consente di filtrare i segmenti in base al proprietario. |
    | Altri filtri &gt; Mostra tutto | **(Solo amministratore)** Mostra tutti i segmenti, il relativo proprietario e l’ultima data in cui sono stati modificati. |
    | Altri filtri &gt; Mine | Mostra tutti i segmenti di proprietà. |
-   | Altri filtri &gt; Condivisi con me | Mostra tutti i segmenti che altri utenti hanno [condiviso](../../../components/c-segmentation/c-segmentation-workflow/t-seg-share.md#task_7DC54643083E42C28F918E4F0845C5A5) con voi. |
-   | Altri filtri &gt; Preferiti | Mostra tutti i segmenti contrassegnati come [Preferiti](../../../components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md#task_F45DFA3FBF0C4082B46A0D032CB20FC5). |
-   | Altri filtri &gt; Approvati | Mostra tutti i segmenti [approvati](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) ufficialmente. |
+   | Altri filtri &gt; Condivisi con me | Mostra tutti i segmenti che altri utenti hanno [condiviso](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md) con voi. |
+   | Altri filtri &gt; Preferiti | Mostra tutti i segmenti contrassegnati come [Preferiti](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md). |
+   | Altri filtri &gt; Approvati | Mostra tutti i segmenti [approvati](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) ufficialmente. |
    | Segmenti di ricerca | Consente di cercare i segmenti in base al nome. |
 
