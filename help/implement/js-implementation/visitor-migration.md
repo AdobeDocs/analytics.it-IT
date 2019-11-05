@@ -8,7 +8,7 @@ title: Migrazione dei visitatori
 topic: Sviluppatore e implementazione
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -42,7 +42,7 @@ Nella tabella seguente sono elencate le attività richieste per la migrazione de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b></b> Per iniziare: <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external"> Contatta l’Assistenza clienti </a> con i domini che vuoi trasferire e il periodo di migrazione che desideri attivare (30, 60 o 90 giorni). Accertatevi di includere i domini non sicuri e protetti. </p> </td> 
+   <td colname="col1"> <p> <b></b> Per iniziare: <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  > Contatta l’Assistenza clienti </a> con i domini che vuoi trasferire e il periodo di migrazione che desideri attivare (30, 60 o 90 giorni). Accertatevi di includere i domini non sicuri e protetti. </p> </td> 
    <td colname="col3"> <p>Create un elenco con la sintassi <i>esatta</i> per i domini da cui eseguire la migrazione. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metriche.example.com </li> 
@@ -51,11 +51,11 @@ Nella tabella seguente sono elencate le attività richieste per la migrazione de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ ore dopo la modifica</b>della configurazione: Aggiorna le variabili <code> s.trackingServer</code> e <code> s.trackingServerSecure</code> il codice JavaScript di Analytics per utilizzare i nuovi server di raccolta dati. </p> </td> 
-   <td colname="col3"> <p>Dopo aver apportato questa modifica, usate un analizzatore <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> di</a> pacchetti per verificare che la richiesta di immagini Analytics vada al server di raccolta dati aggiornato. </p> </td> 
+   <td colname="col3"> <p>Dopo aver apportato questa modifica, usate un analizzatore <a href="/help/implement/impl-testing/packet-monitor.md"  > di</a> pacchetti per verificare che la richiesta di immagini Analytics vada al server di raccolta dati aggiornato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immediatamente dopo aver aggiornato il codice</b>Analytics: Verificare il sito per verificare che si verifichi il reindirizzamento al dominio di raccolta dati precedente. </p> </td> 
-   <td colname="col3"> <p>Usate un analizzatore <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> di</a> pacchetti per verificare che quando accedete al sito per la prima volta, o dopo aver cancellato i cookie, vengano visualizzati due codici di stato HTTP 302 (reindirizzamento) prima del codice di stato HTTP 200 (OK). Se uno di questi reindirizzamenti non riesce, contatta immediatamente l'Assistenza clienti per verificare che la migrazione sia configurata correttamente. </p> </td> 
+   <td colname="col3"> <p>Usate un analizzatore <a href="/help/implement/impl-testing/packet-monitor.md"  > di</a> pacchetti per verificare che quando accedete al sito per la prima volta, o dopo aver cancellato i cookie, vengano visualizzati due codici di stato HTTP 302 (reindirizzamento) prima del codice di stato HTTP 200 (OK). Se uno di questi reindirizzamenti non riesce, contatta immediatamente l'Assistenza clienti per verificare che la migrazione sia configurata correttamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Per l’intero periodo</b>di migrazione: Mantenere attivo il record DNS per il nome host precedente. </p> </td> 
