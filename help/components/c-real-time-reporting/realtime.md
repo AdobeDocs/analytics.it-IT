@@ -7,7 +7,7 @@ title: Panoramica reportistica in tempo reale
 topic: Rapporti
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Il reporting in tempo reale mostra il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale. Fornisce dati fruibili su cui basare le decisioni aziendali.
 
-> [!NOTE] Il rapporto in tempo reale non richiede alcuna implementazione o tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare i rapporti in tempo reale, consulta Configurazione [dei rapporti in tempo](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)reale.
+>[!NOTE]
+>
+>Il rapporto in tempo reale non richiede alcuna implementazione o tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare i rapporti in tempo reale, consulta Configurazione [dei rapporti in tempo](/help/components/c-real-time-reporting/t-realtime-admin.md)reale.
 
 **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Real-Time]**
 
@@ -42,7 +44,7 @@ In qualità di amministratore potete
 
 * Confronta, ad esempio, i valori della settimana scorsa con i valori dello scorso anno (oltre al totale odierno).
 
-Tenere presente che le eVar (metriche di conversione) non sono supportate, poiché non esiste un concetto di persistenza. Sebbene sia possibile selezionare le metriche di conversione, queste funzionano solo se sono impostate sulla stessa pagina delle dimensioni. Per ulteriori informazioni, vedere il messaggio di avviso acquisito in [Impostazione dei rapporti](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)in tempo reale.
+Tenere presente che le eVar (metriche di conversione) non sono supportate, poiché non esiste un concetto di persistenza. Sebbene sia possibile selezionare le metriche di conversione, queste funzionano solo se sono impostate sulla stessa pagina delle dimensioni. Per ulteriori informazioni, vedere il messaggio di avviso acquisito in [Impostazione dei rapporti](/help/components/c-real-time-reporting/t-realtime-admin.md)in tempo reale.
 
 L'impostazione e la visualizzazione dei rapporti in tempo reale è limitata agli amministratori o a qualsiasi utente nei gruppi di autorizzazioni "Accesso a tutti i rapporti" e "Rapporti avanzati". Tuttavia, in tempo reale le autorizzazioni vengono rispettate. Se, ad esempio, non disponete dei diritti per visualizzare le entrate, non sarete in grado di visualizzare un rapporto in tempo reale che include i dati sulle entrate.
 
