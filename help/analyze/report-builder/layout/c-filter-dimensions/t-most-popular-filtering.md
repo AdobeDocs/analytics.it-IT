@@ -7,7 +7,7 @@ title: Filtraggio più comune
 topic: Generatore di report
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Classificazione e filtri condizionali configurati mediante logica booleana con espressioni di ricerca AND/OR.
 
-La maggior parte dei filtri popolari sono filtri di espressione configurati utilizzando la logica booleana con condizioni AND/OR, ad esempio [!UICONTROL Page does not contain]*`<product name>`* con condizioni o gruppi di condizioni come [!UICONTROL Includes All], [!UICONTROL Includes Any]o [!UICONTROL Excludes All]. È possibile [salvare](../../../../analyze/report-builder/layout/c-filter-dimensions/saved-filters.md#concept_562AC2C5628247909FBA5E1867BB6AE5) queste espressioni per altre richieste nella cartella di lavoro o in altre cartelle di lavoro.
+La maggior parte dei filtri popolari sono filtri di espressione configurati utilizzando la logica booleana con condizioni AND/OR, ad esempio [!UICONTROL Page does not contain]*`<product name>`* con condizioni o gruppi di condizioni come [!UICONTROL Includes All], [!UICONTROL Includes Any]o [!UICONTROL Excludes All]. È possibile [salvare](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) queste espressioni per altre richieste nella cartella di lavoro o in altre cartelle di lavoro.
 
 **Per creare un filtro più popolare**
 
