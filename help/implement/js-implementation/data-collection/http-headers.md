@@ -8,7 +8,7 @@ title: Intestazioni HTTP della raccolta dati
 topic: Sviluppatore e implementazione
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ Le intestazioni di richiesta e risposta HTTP vengono utilizzate per raccogliere 
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Lettura dei cookie creati in precedenza dai nostri server di raccolta dati. </p> <p> A partire dal 2014, i server Adobe scaricheranno tutti i cookie che accompagnano una chiamata al server, ad eccezione di quelli impostati da Adobe. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external"> Cookie utilizzati in Experience Cloud</a> per l'elenco completo dei cookie Adobe. </p> </td> 
+   <td> <p>Lettura dei cookie creati in precedenza dai nostri server di raccolta dati. </p> <p> A partire dal 2014, i server Adobe scaricheranno tutti i cookie che accompagnano una chiamata al server, ad eccezione di quelli impostati da Adobe. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/"> Cookie utilizzati in Experience Cloud</a> per l'elenco completo dei cookie Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> Agente utente </td> 
