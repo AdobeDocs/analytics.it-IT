@@ -8,7 +8,7 @@ title: Casi di utilizzo di Analysis Workspace
 topic: Reports and Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ Immagina di essere un analista di marketing per un rivenditore di attrezzatura d
 
    I risultati ottenuti da questa analisi dei dati ti permetteranno di proporre suggerimenti e opportunità di cross-selling che il team merchandising potrà implementare in altre campagne, per incrementare il fatturato. Puoi effettuare ulteriori analisi fino a ottenere i risultati desiderati.
 
-   Ora puoi [condividere](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) il rapporto con il team merchandising.
+   Ora puoi [condividere](/help/analyze/analysis-workspace/curate-share/curate.md) il rapporto con il team merchandising.
 
