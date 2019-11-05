@@ -7,7 +7,7 @@ title: Panoramica sui report
 topic: Analisi ad hoc
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -148,7 +148,7 @@ In un rapporto che identifica i dati in un periodo di tempo, il **[!UICONTROL St
 
 ![](assets/overlay_calculations.png)
 
-Oltre ai calcoli [](../../analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585)statistici standard, potete selezionare le deviazioni standard 1, 2 e 3 nelle sovrapposizioni.
+Oltre ai calcoli [](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585)statistici standard, potete selezionare le deviazioni standard 1, 2 e 3 nelle sovrapposizioni.
 
 ## Manager gruppo {#concept_E1433974A61144858E87334C006982B2}
 
