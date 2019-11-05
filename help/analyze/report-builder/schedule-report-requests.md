@@ -1,17 +1,17 @@
 ---
-description: Potete pianificare le richieste di rapporti, specificare opzioni di consegna avanzate, specificare i destinatari e visualizzare la cronologia delle pianificazioni. Le opzioni di consegna avanzate consentono di configurare i rapporti che si desidera inviare a un determinato momento o a intervalli specifici. Potete anche specificare il formato di file in cui inviare il rapporto.
-seo-description: Potete pianificare le richieste di rapporti, specificare opzioni di consegna avanzate, specificare i destinatari e visualizzare la cronologia delle pianificazioni. Le opzioni di consegna avanzate consentono di configurare i rapporti che si desidera inviare a un determinato momento o a intervalli specifici. Potete anche specificare il formato di file in cui inviare il rapporto.
-seo-title: Richieste di rapporti pianificate
+description: Potete pianificare le richieste di rapporto, specificare opzioni di consegna avanzate, specificare i destinatari e visualizzare la cronologia del programma. Le opzioni di consegna avanzate consentono di configurare i rapporti che si desidera inviare in un momento specifico o a intervalli. Potete anche specificare il formato di file in cui inviare il rapporto.
+seo-description: Potete pianificare le richieste di rapporto, specificare opzioni di consegna avanzate, specificare i destinatari e visualizzare la cronologia del programma. Le opzioni di consegna avanzate consentono di configurare i rapporti che si desidera inviare in un momento specifico o a intervalli. Potete anche specificare il formato di file in cui inviare il rapporto.
+seo-title: Pianificare richieste di rapporti
 solution: Analytics
-title: Richieste di rapporti pianificate
+title: Pianificare richieste di rapporti
 topic: Generatore di report
-uuid: d 9 b 65 b 82-1975-403 b-bc 50-f 22 cfea 6019 f
+uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Pianificare una richiesta di report
+# Pianificare una richiesta di rapporto
 
-See [Schedule a data request](/help/analyze/report-builder/t-schedule-a-data-request.md).
+Consulta [Pianificare una richiesta](/help/analyze/report-builder/t-schedule-a-data-request.md)di dati.
