@@ -8,7 +8,7 @@ title: Informazioni sui canali e sulle regole
 topic: Reports and Analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,18 +21,20 @@ Considerate un canale come un contenitore per le visite. Le regole assegnano vis
 
 ![](assets/buckets_2.png)
 
-Adobe fornisce diversi canali predefiniti durante una configurazione [](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) automatica che potete modificare in base alle vostre esigenze.
+Adobe fornisce diversi canali predefiniti durante una configurazione [](/help/components/c-marketing-channels/c-channel-autosetup.md) automatica che potete modificare in base alle vostre esigenze.
 
-> [!NOTE] Adobe consiglia di impostare il rapporto in una suite di rapporti da utilizzare come modello a scopo di test. Potete utilizzare il modello per applicare canali e set di regole a livello globale a una o più suite di rapporti di produzione.
+>[!NOTE]
 >
->See [Apply Template Report Suite Settings to Multiple Report Suites](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+> Adobe consiglia di impostare il rapporto in una suite di rapporti da utilizzare come modello a scopo di test. Potete utilizzare il modello per applicare canali e set di regole a livello globale a una o più suite di rapporti di produzione.
+>
+>See [Apply Template Report Suite Settings to Multiple Report Suites](/help/components/c-marketing-channels/t-template.md).
 
 Esaminate i seguenti argomenti:
 
-* [Prerequisiti](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [Note importanti sull'elaborazione](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [Prerequisiti](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
+* [Note importanti sull'elaborazione](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## Prerequisiti {#section_9913D2932E3140C099B7978CA95378B2}
+## Prerequisiti {#prereqs}
 
 Se necessario, contattate l'Assistenza clienti per assistenza su questi prerequisiti:
 
@@ -42,11 +44,11 @@ Se necessario, contattate l'Assistenza clienti per assistenza su questi prerequi
 
 * Configurate l’accesso al gruppo di utenti **[!UICONTROL Marketing Channel Report]**.
 
-   See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
+   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
 
 * Verifica che il tuo account manager sia abilitato **[!UICONTROL Channel Reports]** per la suite di rapporti.
 
-## Note importanti sull'elaborazione {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Note importanti sull'elaborazione {#important-proc-rules}
 
 * Il sistema elabora le regole nell'ordine specificato e quando viene soddisfatta una regola, il sistema interrompe l'elaborazione delle regole rimanenti.
 * Le regole possono accedere alle variabili che VISTA ha impostato, ma non ai dati che VISTA ha eliminato.
