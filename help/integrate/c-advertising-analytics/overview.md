@@ -5,7 +5,7 @@ seo-title: Panoramica su Advertising Analytics
 title: Panoramica su Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ Analisi della pubblicità consente di visualizzare i dati Google e Bing Paid Sea
 
 > [!NOTE] Yahoo Gemini è stato assorbito da Microsoft Bing il 31 marzo 2019. Di conseguenza, l’opzione per l’account per annunci Yahoo Gemini non è più disponibile.
 
-Riunendo i dati di questi motori di ricerca in Adobe Analytics, puoi analizzare gli stessi dati utilizzando l’efficacia di Analysis Workspace. Un nuovo modello di prestazioni [della ricerca a](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) pagamento in Workspace facilita l’analisi.
+Riunendo i dati di questi motori di ricerca in Adobe Analytics, puoi analizzare gli stessi dati utilizzando l’efficacia di Analysis Workspace. Un nuovo modello di prestazioni [della ricerca a](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) pagamento in Workspace facilita l’analisi.
 
 ![](assets/aa_aw.png)
 
@@ -30,13 +30,13 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 * Analisi della pubblicità è disponibile solo per gli SKU Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html)e [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) .
 
 * Questa funzionalità è disponibile per i clienti non-Advertising Cloud e non-AMO.
-* Per poter accedere ad Analisi della pubblicità, devi essere un amministratore di Adobe Analytics. Successivamente, potete [concedere autorizzazioni](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) di accesso agli utenti non amministratori.
+* Per poter accedere ad Analisi della pubblicità, devi essere un amministratore di Adobe Analytics. Successivamente, potete [concedere autorizzazioni](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) di accesso agli utenti non amministratori.
 * Qualsiasi suite di rapporti Analytics in cui desideri visualizzare i dati di ricerca Google/Bing deve essere [mappata alla tua organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)Experience Cloud.
-* Per qualsiasi suite di rapporti in cui desideri visualizzare i dati di ricerca Google/Bing, devi [abilitare tali suite di rapporti per Analisi](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) pubblicitaria ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
+* Per qualsiasi suite di rapporti in cui desideri visualizzare i dati di ricerca Google/Bing, devi [abilitare tali suite di rapporti per Analisi](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) pubblicitaria ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
 
 * È necessario disporre delle credenziali di accesso per un utente con autorizzazioni di modifica per gli account di ricerca che si desidera integrare con Adobe Analytics, ad esempio un ID account Google e una password.
 * Nel caso di Bing Ads, è necessario anche il Bing Customer ID.
-* Se si utilizza Internet Explorer 11 (o versioni precedenti), non sarà possibile [impostare correttamente un account](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) pubblicitario per i tre motori di ricerca. Utilizzate altri browser Web.
+* Se si utilizza Internet Explorer 11 (o versioni precedenti), non sarà possibile [impostare correttamente un account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) pubblicitario per i tre motori di ricerca. Utilizzate altri browser Web.
 
 ## Autorizzazioni per l'analisi della pubblicità {#section_FCC58EB635954A32990D4E67B52B4369}
 
