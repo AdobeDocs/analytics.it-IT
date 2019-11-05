@@ -7,7 +7,7 @@ title: Flusso pagina successiva
 topic: Rapporti
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c34530f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ Utilizzate questo rapporto per:
  <tbody> 
   <tr> 
    <td colname="col1"> Reporting e analisi </td> 
-   <td colname="col2"> <p> Fate clic su <span class="uicontrol"> Grafica</span> per visualizzare due livelli delle pagine più popolari visualizzate dai visitatori dopo la pagina selezionata. Il rapporto evidenzia anche quando i visitatori escono dal sito. </p> <p>Fare clic su <b>Tabulare</b> per visualizzare le pagine successive in un elenco simile al report <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Pagina</a>successiva. Tuttavia, consente anche di approfondire ciascuna pagina <i></i> successiva per visualizzare le pagine successive in ciascun flusso di due pagine. </p> <p>Reporting e analisi utilizza le visualizzazioni dei percorsi. </p> </td> 
+   <td colname="col2"> <p> Fate clic su <span class="uicontrol"> Grafica</span> per visualizzare due livelli delle pagine più popolari visualizzate dai visitatori dopo la pagina selezionata. Il rapporto evidenzia anche quando i visitatori escono dal sito. </p> <p>Fare clic su <b>Tabulare</b> per visualizzare le pagine successive in un elenco simile al report <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Pagina</a>successiva. Tuttavia, consente anche di approfondire ciascuna pagina <i></i> successiva per visualizzare le pagine successive in ciascun flusso di due pagine. </p> <p>Reporting e analisi utilizza le visualizzazioni dei percorsi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
