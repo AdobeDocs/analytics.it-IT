@@ -7,7 +7,7 @@ solution: Analytics
 title: Risoluzione dei problemi dei feed dati
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,11 +40,11 @@ AWS consente inoltre a un utente di creare oggetti in un bucket che appartengono
 
 In caso di errore nel trasferimento FTP (accesso negato, connessione persa, fuori quota, ecc.), Adobe tenta di collegare e inviare automaticamente i dati fino a tre volte. Se gli errori persistono, il feed viene contrassegnato come non riuscito e viene inviata una notifica e-mail.
 
-In caso di mancata riuscita del trasferimento, è possibile [ripetere un processo](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) finché non riesce.
+In caso di mancata riuscita del trasferimento, è possibile [ripetere un processo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) finché non riesce.
 
 ## Ripeti opzioni {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Dopo aver verificato/corretto il problema di consegna, eseguite nuovamente il [processo](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) per ottenere i file.
+Dopo aver verificato/corretto il problema di consegna, eseguite nuovamente il [processo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) per ottenere i file.
 
 ## L'impatto del risparmio giornaliero sui feed di dati orari {#section_70E867D942054DD09048E027A9474FFD}
 
