@@ -8,7 +8,7 @@ title: Elaborazione completa
 topic: Sviluppatore e implementazione
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,8 +19,8 @@ Origini dati supporta le variabili seguenti durante l'elaborazione dei dati come
 
 I dati di origini dati Elaborazione completa vengono elaborati come se fossero stati ricevuti dai server Adobe al momento specificato (ogni hit contiene una marca temporale).
 
-* [Profilo visitatore](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
-* [Riferimento colonna](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
+* [Profilo visitatore](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
+* [Riferimento colonna](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## Profilo visitatore {#section_6065627D0C144506965F562C80AE67F8}
 
@@ -67,7 +67,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a>. </p> <p>Ad esempio: </p> 
+   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a>. </p> <p>Ad esempio: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -170,7 +170,7 @@ La tabella seguente contiene le variabili di traffico inserite automaticamente q
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. </p> <p>Consulta il white paper <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html" format="https" scope="external">Set di caratteri multibyte</a> (Internazionalizzazione) per un elenco completo. </p> </td> 
+   <td colname="col2"> <p>Set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. </p> <p>Consulta il white paper <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >Set di caratteri multibyte</a> (Internazionalizzazione) per un elenco completo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
