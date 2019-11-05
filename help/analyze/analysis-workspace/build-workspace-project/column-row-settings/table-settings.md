@@ -5,7 +5,7 @@ seo-title: Impostazioni riga
 title: Impostazioni riga
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
 
-In una tabella, puoi utilizzare anche le [azioni pulsante destro](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F) per gestire le righe selezionate.
+In una tabella, puoi utilizzare anche le [azioni pulsante destro](/help/analyze/analysis-workspace/visualizations/freeform-table.md) per gestire le righe selezionate.
 
 Per accedere alle impostazioni di riga, fai clic sull’icona Impostazioni accanto a una dimensione, a un segmento, a una metrica, a un periodo di tempo o a un’interruzione in ognuna di queste:
 
@@ -29,7 +29,7 @@ Per accedere alle impostazioni di riga, fai clic sull’icona Impostazioni accan
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Confronto date</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Confronto date</a> </p> </td> 
    <td colname="col2"> <p><b>Allinea le date di ogni colonna affinché inizino tutte sulla stessa riga. </b> </p> <p>Quando scegli di allineare le date, ad esempio in un confronto mese-su-mese tra ottobre e settembre 2016, la colonna a sinistra inizierà con il 1 ottobre e la colonna a destra inizierà con il 1 settembre: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Disabilitata per impostazione predefinita. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Per accedere alle impostazioni di riga, fai clic sull’icona Impostazioni accan
   </tr> 
   <tr> 
    <td colname="col1"> <p>Totali colonna </p> </td> 
-   <td colname="col2"> <p>Queste impostazioni vengono visualizzate solamente con <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local"> righe manuali (statiche)</a> (quando hai selezionato un set finito di elementi) e non con righe dinamiche (quando rilasci una dimensione che mostra tutti gli elementi). <p>Nota: per righe manuali <i>metriche</i>, l’impostazione è disabilitata in quanto non avrebbe alcun senso sommare ulteriori metriche oltre alle righe correnti in una tabella. </p> </p> <p><b>Calcola i totali, sommando i valori attualmente presenti in ciascuna colonna (abilitata per impostazione predefinita):</b> </p> <p>Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). </p> <p><b>Calcola i totali sulla base di tutte le righe di ogni metrica (disabilitata per impostazione predefinita):</b> </p> <p>Questa opzione include tutti gli elementi di questa dimensione anche quelli non elencati nella tabella (calcolo lato server). </p> </td> 
+   <td colname="col2"> <p>Queste impostazioni vengono visualizzate solamente con <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  > righe manuali (statiche)</a> (quando hai selezionato un set finito di elementi) e non con righe dinamiche (quando rilasci una dimensione che mostra tutti gli elementi). <p>Nota: per righe manuali <i>metriche</i>, l’impostazione è disabilitata in quanto non avrebbe alcun senso sommare ulteriori metriche oltre alle righe correnti in una tabella. </p> </p> <p><b>Calcola i totali, sommando i valori attualmente presenti in ciascuna colonna (abilitata per impostazione predefinita):</b> </p> <p>Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). </p> <p><b>Calcola i totali sulla base di tutte le righe di ogni metrica (disabilitata per impostazione predefinita):</b> </p> <p>Questa opzione include tutti gli elementi di questa dimensione anche quelli non elencati nella tabella (calcolo lato server). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Breakdowns (Suddivisioni) </p> </td> 
