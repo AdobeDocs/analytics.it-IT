@@ -7,7 +7,7 @@ title: Coda dei report pianificati
 topic: Rapporti
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,10 +20,10 @@ Consente agli utenti di livello amministratore di visualizzare e gestire i rappo
 
 Le funzionalità di livello amministratore in Scheduled Reports Manager includono:
 
-* Opzione per [visualizzare tutti i report](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) pianificati nella tua organizzazione.
-* [Funzionalità](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) di filtro avanzate in tutta l'organizzazione.
-* La nuova scheda Coda [](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) report in cui sono elencati tutti i report in coda per l'esecuzione sui server di report.
-* Esposizione dell'ID [](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) pianificazione nell'interfaccia Coda report.
+* Opzione per [visualizzare tutti i report](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) pianificati nella tua organizzazione.
+* [Funzionalità](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) di filtro avanzate in tutta l'organizzazione.
+* La nuova scheda Coda [](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) report in cui sono elencati tutti i report in coda per l'esecuzione sui server di report.
+* Esposizione dell'ID [](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) pianificazione nell'interfaccia Coda report.
 
 ## Mostra tutti i rapporti pianificati {#section_3F167CAAEEC24140B476CF95B7402690}
 
