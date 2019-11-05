@@ -5,7 +5,7 @@ seo-title: Tipo di metrica e attribuzione
 title: Tipo di metrica e attribuzione
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile specificare il tipo di metrica e il modello di attribuzione.
 
-* [Tipi di metriche](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [Modello di attribuzione colonna](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [Come funziona l'allocazione lineare (dal 19 luglio 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
+* [Tipi di metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
+* [Modello di attribuzione colonna](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
+* [Come funziona l'allocazione lineare (dal 19 luglio 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## Tipi di metriche {#section_34A86FB402F94E988724232283BF18B7}
 
@@ -35,7 +35,7 @@ Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile s
 >
 >* Per un elenco completo dei modelli di attribuzione e delle finestre di lookback non predefiniti supportati, consultate la documentazione di [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) .
 >* I modelli di allocazione "Marketing Channel Last Touch" e "Marketing Channel First Touch" verranno migrati rispettivamente ai nuovi modelli di attribuzione "Last Touch" e "First Touch" (Nota: "Marketing Channels" (Canali di marketing) non verrà dichiarato obsoleto; verranno visualizzati solo i due modelli di allocazione nelle metriche calcolate.
->* Inoltre, correggeremo il modo in cui viene calcolata l'allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione "Lineare", i report potrebbero leggermente cambiare per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Per ulteriori informazioni, vedere [Funzionamento dell'allocazione lineare (dal 19 luglio 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Inoltre, correggeremo il modo in cui viene calcolata l'allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione "Lineare", i report potrebbero leggermente cambiare per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Per ulteriori informazioni, vedere [Funzionamento dell'allocazione lineare (dal 19 luglio 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 
