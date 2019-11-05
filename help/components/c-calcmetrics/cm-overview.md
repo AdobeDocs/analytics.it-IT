@@ -6,7 +6,7 @@ seo-title: Metriche calcolate e metriche calcolate avanzate (derivate)
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ Metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzat
 >A luglio 2018, Adobe ha introdotto [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), che ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate in nuovi modelli di attribuzione migliorati:
 >
 >* I modelli di allocazione "Marketing Channel Last Touch" e "Marketing Channel First Touch" sono stati migrati rispettivamente ai nuovi modelli di attribuzione "Last Touch" e "First Touch" (Nota: "Marketing Channels" (Canali di marketing) non è stato dichiarato obsoleto; sono stati visualizzati solo i due modelli di allocazione nelle metriche calcolate.
->* Inoltre, abbiamo corretto il modo in cui viene calcolata l'allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione "Lineare", i report potrebbero leggermente cambiare per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Per ulteriori informazioni, vedere [Funzionamento dell'allocazione lineare a partire dal 19 luglio 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Inoltre, abbiamo corretto il modo in cui viene calcolata l'allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione "Lineare", i report potrebbero leggermente cambiare per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Per ulteriori informazioni, vedere [Funzionamento dell'allocazione lineare a partire dal 19 luglio 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 I nostri strumenti Metriche calcolate offrono un modo altamente flessibile di creare, gestire e curare le metriche. Consentono agli addetti al marketing, ai product manager e agli analisti di porre domande sui dati senza dover cambiare [!DNL Analytics] l'implementazione. Le metriche personalizzate disponibili in ciascun [!DNL Analytics] pacchetto sono:
@@ -34,13 +34,13 @@ Confronto tra le metriche calcolate e le funzionalità delle metriche calcolate 
 
 | Opzioni di generazione | Metriche calcolate | Metriche calcolate avanzate (derivate) |
 |---|---|---|
-| [Tipi di formato (decimale, ora, percentuale, valuta)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18) | Sì | Sì |
-| [Modifiche dell'attribuzione (default, lineare, partecipativo, ecc.)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | Sì | Sì |
-| [Tipi di metriche (standard, totale)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | Sì | Sì |
+| [Tipi di formato (decimale, ora, percentuale, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sì | Sì |
+| [Modifiche dell'attribuzione (default, lineare, partecipativo, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
+| [Tipi di metriche (standard, totale)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
 | Operatori di base (aggiungere, sottrarre, moltiplicare, dividere) | Sì | Sì |
-| [Applicare i segmenti](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E) | No | Sì |
-| [Funzioni di base (conteggio, valore abs, media, ecc.)](../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) | No | Sì |
-| [Funzioni avanzate (regressione, if/then, t-score, ecc.)](../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174) | No | Sì |
+| [Applicare i segmenti](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | No | Sì |
+| [Funzioni di base (conteggio, valore abs, media, ecc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | No | Sì |
+| [Funzioni avanzate (regressione, if/then, t-score, ecc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | No | Sì |
 
 ## Funzionalità {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
@@ -83,7 +83,7 @@ Di seguito viene fornita una breve panoramica degli [!UICONTROL Calculated Metri
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> Generatore di metrica calcolata</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > Generatore di metrica calcolata</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">Crea metriche calcolate e calcolate avanzate utilizzando modelli di allocazione avanzati. </li> 
@@ -98,7 +98,7 @@ Di seguito viene fornita una breve panoramica degli [!UICONTROL Calculated Metri
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653" format="dita" scope="local"> Metriche calcolate Manager</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Metriche calcolate Manager</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">Condividi le metriche con altri utenti. </li> 
@@ -110,10 +110,10 @@ Di seguito viene fornita una breve panoramica degli [!UICONTROL Calculated Metri
   </tr> 
   <tr> 
    <td colname="col1"> Barra di selezione della metrica </td> 
-   <td colname="col2"> <p>Sostituisce la finestra a comparsa <span class="uicontrol"> Mostra metriche</span> in <span class="uicontrol"> Reporting e analisi</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. Potete inoltre modificare l’ <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local"> ordine</a> (le opzioni sono: alfabetico, consigliato, utilizzato frequentemente, utilizzato di recente). Inoltre, puoi filtrare le suite di rapporti per mostrare solo le metriche create in una suite di rapporti specifica. </p> <p>Per accedere a questo Selettore metrica, fai clic sull’icona Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un rapporto. Questo è l'aspetto del selettore della metrica: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Sostituisce la finestra a comparsa <span class="uicontrol"> Mostra metriche</span> in <span class="uicontrol"> Reporting e analisi</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. Potete inoltre modificare l’ <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > ordine</a> (le opzioni sono: alfabetico, consigliato, utilizzato frequentemente, utilizzato di recente). Inoltre, puoi filtrare le suite di rapporti per mostrare solo le metriche create in una suite di rapporti specifica. </p> <p>Per accedere a questo Selettore metrica, fai clic sull’icona Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un rapporto. Questo è l'aspetto del selettore della metrica: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> API per le metriche calcolate</a> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API per le metriche calcolate</a> </td> 
    <td colname="col2"> <p>Parte del set di API Adobe Analytics 2.0. </p> </td> 
   </tr> 
  </tbody> 
