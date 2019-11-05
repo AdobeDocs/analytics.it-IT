@@ -8,7 +8,7 @@ title: Esecuzione di un rapporto di analisi per coorte
 topic: Reports and Analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -50,7 +50,7 @@ Crea una coorte ed esegui un rapporto di analisi per coorte in Analysis Workspac
 
    The saved segment is available for use in the [!UICONTROL Segment] panel in Analysis Workspace.
 1. Rinomina e salva il progetto della coorte.
-1. (Optional) [Curate and share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) the project components.
+1. (Optional) [Curate and share](/help/analyze/analysis-workspace/curate-share/curate.md) the project components.
 
    >[!NOTE]
    >
