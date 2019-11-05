@@ -5,7 +5,7 @@ seo-title: Metriche calcolate, diritti basati su ruoli
 title: Metriche calcolate, diritti basati su ruoli
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ I diritti delle metriche calcolate sono diversi tra utenti a livello di amminist
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Utenti a livello di amministratore</b> </td> 
-   <td colname="col02"> Gli amministratori possono creare metriche calcolate e <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> gruppi </a> per limitare i diritti degli utenti di creare metriche calcolate. </td> 
+   <td colname="col02"> Gli amministratori possono creare metriche calcolate e <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > gruppi </a> per limitare i diritti degli utenti di creare metriche calcolate. </td> 
    <td colname="col2"> Può essere condiviso con l’intera società, con i gruppi di utenti e con i singoli utenti. </td> 
    <td colname="col3"> <span class="keyword"> [!UICONTROL Reports &amp; Analytics] </span>: Può visualizzare/modificare/eliminare/ecc. metriche calcolate personalizzate e di altri utenti. <p> <span class="keyword"> Analisi ad hoc </span> e Generatore di <span class="keyword"> report </span>: Può visualizzare/modificare/eliminare/ecc. le proprie metriche calcolate e quelle condivise con esse. </p> </td> 
    <td colname="col4"> Può approvare metriche calcolate come canoniche. </td> 
