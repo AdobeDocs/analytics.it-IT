@@ -7,7 +7,7 @@ title: Avviare il tracciamento dei collegamenti
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -43,7 +43,7 @@ Passaggi per avviare il tracciamento dei collegamenti nella Activity Map o nella
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (già Visitor ClickMap) </td> 
-   <td colname="col2"> <p>Impostate la variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external"> trackInlineStats</a> su true. La sintassi è la seguente: 
+   <td colname="col2"> <p>Impostate la variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  > trackInlineStats</a> su true. La sintassi è la seguente: 
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
