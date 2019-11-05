@@ -5,7 +5,7 @@ seo-title: Differenze tra i conteggi dei visitatori
 title: Differenze tra i conteggi dei visitatori
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,11 +25,11 @@ Le metriche del visitatore sono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM:Popolazione segmento totale</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM:Popolazione segmento totale</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che erano membri del segmento durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM: Popolazione di segmenti in tempo reale</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: Popolazione di segmenti in tempo reale</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che appartenevano al segmento e che hanno raggiunto le tue proprietà durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
@@ -72,4 +72,4 @@ I visitatori di AAM in tempo reale per la popolazione di segmenti e di Analytics
  </tbody> 
 </table>
 
-Consulta [Informazioni sui segmenti in Analytics e Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) per ulteriori spiegazioni sulle sfumature tra i dati e la segmentazione di Analytics e Audience Manager.
+Consulta [Informazioni sui segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) per ulteriori spiegazioni sulle sfumature tra i dati e la segmentazione di Analytics e Audience Manager.
