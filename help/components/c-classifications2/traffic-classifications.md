@@ -8,7 +8,7 @@ title: Classificazioni traffico
 topic: Strumenti di amministrazione
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ Le classificazioni del traffico consentono di classificare le variabili di traff
 
 La pagina Classificazioni traffico consente di creare classificazioni per le suite di rapporti selezionate. Una volta classificato, qualsiasi rapporto che puoi generare utilizzando i dati chiave può essere generato anche utilizzando gli attributi associati.
 
-Dopo aver attivato le classificazioni, utilizza [Importazione](../../components/c-classifications2/c-classifications-importer/c-working-with-saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA) classificazioni per assegnare valori specifici alla classificazione appropriata.
+Dopo aver attivato le classificazioni, utilizza [Importazione](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) classificazioni per assegnare valori specifici alla classificazione appropriata.
 
 ## Aggiunta di una classificazione del traffico {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
