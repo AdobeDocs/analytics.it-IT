@@ -7,7 +7,7 @@ title: Visita singola pagina
 topic: Rapporti
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,8 +24,8 @@ Questo rapporto è utilizzato più comunemente nel contesto del [!UICONTROL Page
 
 * Una singola visita di pagina è considerata una visita contenente un valore univoco, non una singola richiesta di immagine.
 
-   * Nel contesto di un rapporto [sulle](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)pagine, all’interno della visita è possibile attivare solo una pagina univoca.
-   * Nel contesto di un rapporto [sulle sezioni del](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD)sito, viene attivata una singola sezione del sito all’interno della visita.
+   * Nel contesto di un rapporto [sulle](/help/components/c-variables/dimensionslist/reports-pages.md)pagine, all’interno della visita è possibile attivare solo una pagina univoca.
+   * Nel contesto di un rapporto [sulle sezioni del](/help/components/c-variables/dimensionslist/reports-site-sections.md)sito, viene attivata una singola sezione del sito all’interno della visita.
    * Nel contesto di una variabile [di](/help/admin/admin/c-traffic-variables/traffic-var.md)traffico, una visita compila il rapporto se viene attivato un singolo valore univoco.
 
 * Le visite a pagina singola possono essere costituite da molte richieste di immagini, purché la variabile nel contesto del rapporto contenga un unico valore. Non appena viene popolato un secondo valore univoco, la visita non viene più considerata una visita a una singola pagina.
