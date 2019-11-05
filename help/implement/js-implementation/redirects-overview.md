@@ -9,7 +9,7 @@ title: Reindirizzamenti e alias
 topic: Sviluppatore e implementazione
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2set2aae3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,8 +38,8 @@ redirects_sc.xml
 
 Gli esempi seguenti illustrano come la navigazione viene influenzata senza e con i reindirizzamenti:
 
-* [Esempio: Navigazione senza reindirizzamenti](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
-* [Esempio: Navigazione Con I Reindirizzamenti](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
+* [Esempio: Navigazione senza reindirizzamenti](/help/implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
+* [Esempio: Navigazione Con I Reindirizzamenti](/help/implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
 ## Esempio: Navigazione senza reindirizzamenti {#section_5C835A4D665A4625A23333C2C21F152D}
 
@@ -58,7 +58,7 @@ I reindirizzamenti possono causare la visualizzazione dell'URL di provenienza ef
 1. Nella barra degli indirizzi della finestra del browser sono visualizzati i termini di ricerca digitati dall'utente nel campo di ricerca `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. I termini di ricerca sono inclusi nei parametri di stringa della query URL che seguono `https://www.google.com/search?`. Il browser visualizza anche una pagina contenente i risultati della ricerca, compreso un collegamento a uno dei nomi di dominio: [!DNL https://www.flytohawaiiforfree.com/]. Questo dominio *personalizzato* è configurato per reindirizzare l'utente a `https://www.flywithus.com/`.
 1. L'utente fa clic sul collegamento `https://www.flytohawaiiforfree.com/` e viene reindirizzato dal server al sito principale, `https://www.flywithus.com`. Quando si verifica il reindirizzamento, i dati importanti per la raccolta di [!DNL Analytics] dati vengono persi perché il browser cancella l'URL di provenienza. Pertanto, le informazioni di ricerca originali utilizzate nei [!DNL Analytics] report (ad esempio, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) vengono perse.
 
-[Implementazione dei reindirizzamenti](../../implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) spiega come sfruttare [!DNL Analytics] le variabili per acquisire i dati persi nel reindirizzamento. In particolare, la sezione descrive come risolvere la situazione dei "biglietti aerei scontati" descritta sopra.
+[Implementazione dei reindirizzamenti](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) spiega come sfruttare [!DNL Analytics] le variabili per acquisire i dati persi nel reindirizzamento. In particolare, la sezione descrive come risolvere la situazione dei "biglietti aerei scontati" descritta sopra.
 
 ## Implementare i reindirizzamenti {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
