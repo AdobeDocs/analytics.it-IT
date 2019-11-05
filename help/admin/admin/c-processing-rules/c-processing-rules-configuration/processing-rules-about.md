@@ -8,7 +8,7 @@ title: Funzionamento delle regole di elaborazione
 topic: Strumenti di amministrazione
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ La tabella seguente contiene i concetti chiave che è necessario comprendere qua
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Le regole si applicano a una singola suite di rapporti. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Copiare le regole di elaborazione in un'altra suite di rapporti </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> Copiare le regole di elaborazione in un'altra suite di rapporti </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione vengono applicate nell'ordine indicato. </p> </td> 
@@ -41,15 +41,15 @@ La tabella seguente contiene i concetti chiave che è necessario comprendere qua
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione vengono applicate immediatamente alla suite di rapporti dopo il salvataggio. </p> </td> 
-   <td colname="col2"> <p>Le modifiche apportate alle regole di elaborazione devono essere visibili nella suite di rapporti entro pochi minuti dal salvataggio. Durante il test delle regole di elaborazione, consigliamo di configurare rapporti <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"></a> in tempo reale nella suite di rapporti di prova in modo da visualizzare rapidamente i risultati di una regola di elaborazione. </p> </td> 
+   <td colname="col2"> <p>Le modifiche apportate alle regole di elaborazione devono essere visibili nella suite di rapporti entro pochi minuti dal salvataggio. Durante il test delle regole di elaborazione, consigliamo di configurare rapporti <a href="/help/admin/admin/realtime/t-realtime-admin.md"></a> in tempo reale nella suite di rapporti di prova in modo da visualizzare rapidamente i risultati di una regola di elaborazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione sono l'unico modo per accedere alle variabili di dati di contesto. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiare una variabile di dati di contesto in una eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in una eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione vengono applicate prima delle regole VISTA e Marketing Channel. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Ordine di elaborazione </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Ordine di elaborazione </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gli hit non possono essere esclusi. </p> </td> 
@@ -81,7 +81,7 @@ La tabella seguente contiene i concetti chiave che è necessario comprendere qua
   </tr> 
   <tr> 
    <td colname="col1"> <p>I confronti di valori nell’interfaccia utente non fanno distinzione tra maiuscole e minuscole. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Pulizia dei valori in un report </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Pulizia dei valori in un report </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I nomi delle variabili di dati di contesto possono contenere solo caratteri alfanumerici, caratteri di sottolineatura e punti. Eventuali caratteri aggiuntivi vengono rimossi. </p> </td> 
