@@ -5,7 +5,7 @@ seo-title: Panoramica dei pannelli
 title: Panoramica dei pannelli
 uuid: 480700e6-332e-44f2-a486-e3d1852cdbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai 
 
 Il Pannello vuoto e il Pannello a forma libera sono i punti da cui iniziare la tua analisi, mentre Attribution IQ e Confronto segmenti si prestano ad analisi più avanzate. Inoltre, è stato aggiunto un pulsante di pannello “+” per consentirti di aggiungere in qualsiasi momento pannelli vuoti.
 
-Il pannello iniziale predefinito è il Pannello a forma libera, ma puoi anche decidere di rendere predefinito il [Pannello vuoto](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2).
+Il pannello iniziale predefinito è il Pannello a forma libera, ma puoi anche decidere di rendere predefinito il [Pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md).
 
 ## Filtri a discesa nei pannelli {#section_D2828EEDD52944528E87F470EAB581CF}
 
