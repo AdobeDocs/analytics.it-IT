@@ -8,16 +8,12 @@ title: Metriche utilizzate nei rapporti sul canale di marketing
 topic: Reports and Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Metriche utilizzate nei rapporti sul canale di marketing
-
-Come utilizzare le metriche nei report Marketing Channel.
-
-## Metriche utilizzate nei rapporti sul canale di marketing {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 Come utilizzare le metriche nei report Marketing Channel.
 
@@ -29,11 +25,11 @@ Aggiungi (o modifica) metriche.
 
 Aggiungi una colonna al rapporto.
 
-## Prima e ultima metrica di tocco {#concept_68D9A50204304BA58C1F8013451E7853}
+## Prima e ultima metrica di tocco {#first-and-last-touch}
 
 Gli attributi "first-touch" e "last-touch" sono gli attributi del canale che consentono di vedere quanti nuovi impegni (o dati di metriche come visualizzazioni di prodotto, ricavi e ordini) derivano dall'attività di un visitatore nel canale.
 
-Quando si verifica un evento di successo, Analytics esamina l'intera attività e la cronologia del visitatore (tornando alla scadenza [del coinvolgimento del](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)visitatore). Nota il primo canale che l'utente ha attraversato, così come il canale più recente. Successivamente, l'evento di successo viene accreditato a ogni canale appropriato.
+Quando si verifica un evento di successo, Analytics esamina l'intera attività e la cronologia del visitatore (tornando alla scadenza [del coinvolgimento del](/help/components/c-marketing-channels/visitor-engagement.md)visitatore). Nota il primo canale che l'utente ha attraversato, così come il canale più recente. Successivamente, l'evento di successo viene accreditato a ogni canale appropriato.
 
 <!-- 
 
@@ -65,7 +61,7 @@ Ogni istanza di evento di successo avrà esattamente un canale First Touch e un 
 
 > [!NOTE] Questo rapporto utilizza la versione con il primo o l'ultimo tocco di ogni metrica. Di conseguenza, i dati visualizzati in un [!UICONTROL Marketing Channel] report potrebbero non corrispondere ai dati mostrati in altri report.
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | Metrica | Definizione |
 |--- |--- |
@@ -73,7 +69,7 @@ Ogni istanza di evento di successo avrà esattamente un canale First Touch e un 
 | Visitatore principale | Nel reporting sui canali, un visitatore di primo contatto è un Visitatore unico giornaliero originato da un canale. Il coinvolgimento del visitatore viene memorizzato per tutta la durata del periodo di coinvolgimento con il sito, che può durare molte visite. |
 | Ultimo canale touch | Il canale di conversione, ovvero l'ultimo canale di marketing per coinvolgere il visitatore e ottenere una conversione. Solo un canale è impostato come primo canale touch. L'ultimo canale touch può cambiare con ogni visita di ritorno al sito. Ogni visita ha un canale di primo e ultimo tocco, ma il valore del canale di primo tocco non cambia mai con le visite successive. |
 
-## Click-through {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## Click-through {#click-through}
 
 Un click-through è un'istanza sul canale dell'ultimo tocco. È una eVar con l'allocazione più recente.
 
@@ -89,7 +85,7 @@ Ad esempio, supponiamo che un visitatore venga sul sito Web una volta al giorno,
 
 Il report First-Touch Channel (Canale di primo contatto) mostrerebbe 1 nuovo coinvolgimento per la ricerca a pagamento. Ogni altro canale mostrava 0 nuovi impegni. Il rapporto Last-Touch Channel (Ultimo canale touch) mostra 2 click-through per la ricerca a pagamento; 3 per il display; e 2 per Ricerca naturale.
 
-## Aggiunta di metriche a un report Marketing Channel {#task_D381139E00504666AB2402D553CFEA5B}
+## Aggiunta di metriche a un report Marketing Channel {#add-metrics-to-mktg-channel-rpt}
 
 Aggiungi metriche al report Marketing Channel. Puoi aggiungere fino a quattro metriche a ciascuna colonna del rapporto e quante colonne desideri.
 
