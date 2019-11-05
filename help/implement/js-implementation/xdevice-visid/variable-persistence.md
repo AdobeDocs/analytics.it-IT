@@ -8,7 +8,7 @@ title: Attribuzione e persistenza
 topic: Sviluppatore e implementazione
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ Quando i profili dei visitatori vengono uniti dopo essere stati associati alla s
 * Se esiste un profilo, il profilo visitatore già presente nel sistema viene utilizzato da quel momento in poi e il profilo visitatore precedente non viene più utilizzato.
 * Se non viene trovato alcun ID visitatore corrispondente, viene creato un nuovo profilo.
 
-Quando un cliente non autenticato arriva per la prima volta sul sito, ad esso viene assegnato un profilo visitatore da Adobe Analytics. Come mostrato in Conteggio visitatori e visite [univoci](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), al momento dell'autenticazione viene creato un nuovo profilo. Quando viene creato il nuovo profilo, una visita termina e un'altra inizia.
+Quando un cliente non autenticato arriva per la prima volta sul sito, ad esso viene assegnato un profilo visitatore da Adobe Analytics. Come mostrato in Conteggio visitatori e visite [univoci](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), al momento dell'autenticazione viene creato un nuovo profilo. Quando viene creato il nuovo profilo, una visita termina e un'altra inizia.
 
 **Sulla prima connessione dati**
 
@@ -58,7 +58,7 @@ Quando il cliente esegue l'autenticazione del proprio ID viene confrontato con i
 
 * I dati di geosegmentazione vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato. Ciò significa che in una connessione dati successiva su un nuovo dispositivo, i dati di geosegmentazione non sono in genere inclusi.
 * Le colonne tecnologiche come browser, sistema operativo e profondità del colore vengono registrate al primo hit di una visita. Come i valori di geosegmentazione, non saranno copiati nel profilo con punti.
-* Un Canale Marketing, come Diretto o Interno, comunemente configurato per non sovrascrivere un altro canale, sovrascriverà altri canali su una connessione dati successiva contenente una prima autenticazione per quel dispositivo, ad esempio la prima autenticazione mostrata in Conteggio Visitatori [univoci e Visite](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
+* Un Canale Marketing, come Diretto o Interno, comunemente configurato per non sovrascrivere un altro canale, sovrascriverà altri canali su una connessione dati successiva contenente una prima autenticazione per quel dispositivo, ad esempio la prima autenticazione mostrata in Conteggio Visitatori [univoci e Visite](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
 
 **Casi speciali**
 
