@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Gestione tag dinamica
 title: Variabili globali
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Descrizioni dei campi e informazioni sulle variabili quando si utilizza Gestione tag dinamica per distribuire Adobe Analytics.
 
-Queste variabili vengono attivate su tutti i beacon delle regole di caricamento della pagina. Potete ottenere lo stesso effetto utilizzando una regola di caricamento [pagina](../../../implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md#task_69B41CB230EE4530A755D91233F73706) impostata per essere attivata su tutte le pagine. Queste variabili potrebbero non essere attivate nelle regole [Direct-Call](../../../implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09) e [Basate](../../../implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC) sugli eventi.
+Queste variabili vengono attivate su tutti i beacon delle regole di caricamento della pagina. Potete ottenere lo stesso effetto utilizzando una regola di caricamento [pagina](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md) impostata per essere attivata su tutte le pagine. Queste variabili potrebbero non essere attivate nelle regole [Direct-Call](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md) e [Basate](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md) sugli eventi.
 
 ## Variabili globali - Descrizioni dei campi {#section_2917F62FCC8D43F982B2612A702DEF81}
 
