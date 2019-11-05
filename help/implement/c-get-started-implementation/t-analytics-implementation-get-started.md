@@ -9,7 +9,7 @@ title: Modalità di implementazione semplificata
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ Questa procedura ti consente di:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Livello dati </p> </td> 
-       <td colname="col2"> <p>(consigliato) un array di JavaScript utilizzato per archiviare informazioni. Se esegui una configurazione automatica tramite Gestione tag dinamica, utilizzerai un livello dati. </p> <p>For a blog on data layers, see <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
+       <td colname="col2"> <p>(consigliato) un array di JavaScript utilizzato per archiviare informazioni. Se esegui una configurazione automatica tramite Gestione tag dinamica, utilizzerai un livello dati. </p> <p>For a blog on data layers, see <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Repository dei dati (Suite per report) </p> </td> 
-       <td colname="col2"> <p> Una <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">suite per report</a> è un insieme di dati discreti che corrispondono solitamente a una singola proprietà (sito o app) o marchio. Ogni suite per report è dotata del proprio insieme di report e metriche. </p> </td> 
+       <td colname="col2"> <p> Una <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">suite per report</a> è un insieme di dati discreti che corrispondono solitamente a una singola proprietà (sito o app) o marchio. Ogni suite per report è dotata del proprio insieme di report e metriche. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Fuso orario </p> </td> 
@@ -108,7 +108,7 @@ Questa procedura ti consente di:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Scarica </p> </td> 
-       <td colname="col2"> <p> Scarica il file di installazione denominato <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span>. Questa opzione è dedicata agli utenti più esperti che conoscono l'<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">implementazione JavaScript</a>. </p> <p> <p>Importante: scaricare il codice non equivale a distribuire <span class="keyword">Analytics</span>. Questa è una distribuzione manuale che esegui sulle pagine del tuo sito o attraverso i servizi di consulenza Adobe. </p> </p> </td> 
+       <td colname="col2"> <p> Scarica il file di installazione denominato <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span>. Questa opzione è dedicata agli utenti più esperti che conoscono l'<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">implementazione JavaScript</a>. </p> <p> <p>Importante: scaricare il codice non equivale a distribuire <span class="keyword">Analytics</span>. Questa è una distribuzione manuale che esegui sulle pagine del tuo sito o attraverso i servizi di consulenza Adobe. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
