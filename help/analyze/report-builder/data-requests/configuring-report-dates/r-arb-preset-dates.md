@@ -1,20 +1,20 @@
 ---
-description: Le date dei predefiniti consentono di selezionare le date o le date più comunemente utilizzate. Nella procedura guidata Richiesta 1, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date dei predefiniti in Generatore di report.
-seo-description: Le date dei predefiniti consentono di selezionare le date o le date più comunemente utilizzate. Nella procedura guidata Richiesta 1, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date dei predefiniti in Generatore di report.
-seo-title: Definizioni della richiesta guidata - date preimpostate
+description: Le date preimpostate consentono di selezionare le date o le date usate più comunemente. Nel passaggio 1 della Richiesta guidata, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
+seo-description: Le date preimpostate consentono di selezionare le date o le date usate più comunemente. Nel passaggio 1 della Richiesta guidata, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
+seo-title: 'Definizioni di Creazione guidata richieste: date preimpostate'
 solution: Analytics
-title: Definizioni della richiesta guidata - date preimpostate
+title: 'Definizioni di Creazione guidata richieste: date preimpostate'
 topic: Generatore di report
-uuid: 5 eba 7 b 85-f 3 f 5-4 e 9 c-a 078-757 d 9 e 85 f 4 d 1
+uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Definizioni della richiesta guidata - date preimpostate
+# Definizioni di Creazione guidata richieste: date preimpostate
 
-Le date dei predefiniti consentono di selezionare le date o le date più comunemente utilizzate. Nella procedura guidata Richiesta: Passaggio 1, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date dei predefiniti in Generatore di report.
+Le date preimpostate consentono di selezionare le date o le date usate più comunemente. Nella Richiesta guidata: Passaggio 1, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -26,15 +26,15 @@ Le date dei predefiniti consentono di selezionare le date o le date più comunem
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Date comunemente utilizzate </p> </td> 
-   <td colname="col2"> <p>Visualizza gli intervalli di date più utilizzati. Questa impostazione è attivata per impostazione predefinita quando create una nuova richiesta. Se nella cartella di lavoro è presente almeno una richiesta, il generatore di report utilizza la data della richiesta esistente come impostazione predefinita. </p> </td> 
+   <td colname="col2"> <p>Visualizza gli intervalli di date più utilizzati. Questa impostazione è abilitata per impostazione predefinita quando si crea una nuova richiesta. Se la cartella di lavoro contiene almeno una richiesta, il generatore di report utilizza come impostazione predefinita la data della richiesta esistente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Modelli data salvati </p> </td> 
-   <td colname="col2"> <p>Visualizza i modelli di intervallo di date creati dall'utente corrente. You can save dates on the <span class="wintitle"> Fixed Dates</span> form. If you saved a date template for use with all report suites, you must enable <span class="wintitle"> Show Saved Date Templates for All Report Suites</span> in order to select it. </p> <p>See <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a>. </p> </td> 
+   <td colname="col1"> <p> Modelli di data salvati </p> </td> 
+   <td colname="col2"> <p>Visualizza i modelli dell'intervallo di date creati dall'utente corrente. È possibile salvare le date nel modulo Date <span class="wintitle"> fisse</span> . Se hai salvato un modello di data da utilizzare con tutte le suite di rapporti, devi abilitare <span class="wintitle"> Mostra modelli di data salvati per tutte le suite</span> di rapporti per selezionarlo. </p> <p>See <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Fixed Dates and Saved Date Ranges</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mostra data salvata per tutte le suite di rapporti </p> </td> 
-   <td colname="col2"> <p> Visualizza modelli che sono stati resi disponibili a tutte le suite di rapporti. Click <span class="wintitle"> Edit</span> to manage saved date ranges or to rename the currently selected saved date range. </p> <p>See <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a> for more information. </p> </td> 
+   <td colname="col1"> <p>Mostra intervallo date salvato per tutte le suite di rapporti </p> </td> 
+   <td colname="col2"> <p> Visualizza i modelli resi disponibili per tutte le suite di rapporti. Fare clic su <span class="wintitle"> Modifica</span> per gestire gli intervalli di date salvati o per rinominare l'intervallo di date salvato attualmente selezionato. </p> <p>Per ulteriori informazioni, consulta <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > fissaggi fissi e intervalli</a> di date salvati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
