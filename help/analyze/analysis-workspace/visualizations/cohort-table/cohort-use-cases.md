@@ -8,7 +8,7 @@ title: Casi di utilizzo dell’analisi per coorte
 topic: Reports and Analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
