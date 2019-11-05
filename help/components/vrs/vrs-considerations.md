@@ -8,7 +8,7 @@ title: VRS e considerazioni su tag globali/su più suite
 topic: Reports and Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -51,7 +51,7 @@ Riepilogo:
 * I rapporti in tempo reale non sono supportati nelle suite di rapporti virtuali, perché i dati sono segmentati.
 * "Dati correnti" non è supportato nelle suite di rapporti virtuali, perché non supporta la segmentazione.
 
-[I report](/help/admin/admin/realtime/t-realtime-admin.md) in tempo reale e ["Dati correnti"](../../technotes/latency.md) non sono disponibili nelle suite di rapporti virtuali. Queste funzioni di Reporting e analisi forniscono l'accesso a tipi limitati di dati in modo accelerato, in secondi o minuti. Una delle limitazioni di tali viste è che non supportano la segmentazione; in altre parole, non è possibile segmentare i dati in tempo reale in Reporting e analisi. Poiché una suite di rapporti virtuali è creata utilizzando la segmentazione, è incompatibile con i rapporti in tempo reale. Questo interessa gli utenti che rispondono alle tendenze rilevate in Adobe Analytics in pochi secondi o pochi minuti di raccolta dei dati, come gli editor in una newsroom che stanno regolando gli stack di titoli in base al consumo di contenuti in tempo reale. In questo caso, devi:
+[I report](/help/admin/admin/realtime/t-realtime-admin.md) in tempo reale e ["Dati correnti"](/help/technotes/latency.md) non sono disponibili nelle suite di rapporti virtuali. Queste funzioni di Reporting e analisi forniscono l'accesso a tipi limitati di dati in modo accelerato, in secondi o minuti. Una delle limitazioni di tali viste è che non supportano la segmentazione; in altre parole, non è possibile segmentare i dati in tempo reale in Reporting e analisi. Poiché una suite di rapporti virtuali è creata utilizzando la segmentazione, è incompatibile con i rapporti in tempo reale. Questo interessa gli utenti che rispondono alle tendenze rilevate in Adobe Analytics in pochi secondi o pochi minuti di raccolta dei dati, come gli editor in una newsroom che stanno regolando gli stack di titoli in base al consumo di contenuti in tempo reale. In questo caso, devi:
 
 * Considerate l'utilizzo di tag con più suite per garantire che ogni utente visualizzi solo i dati in tempo reale che dovrebbero essere visualizzati, oppure
 * Consentite a questi utenti di accedere a una suite di rapporti vera e propria (globale) se devono poter accedere al set di dati completo.
@@ -63,7 +63,7 @@ Riepilogo:
 * Le suite di rapporti virtuali non hanno limiti di valore univoci per le dimensioni e le ereditano dalla suite di rapporti principale.
 * Se gli utenti di Adobe Analytics devono poter accedere a ogni valore di una dimensione che riceve frequentemente più di 500.000 valori unici al mese, puoi continuare a utilizzare il tag per più suite.
 
-In caso di elevata cardinalità (un elevato numero di valori univoci in una data dimensione, come SKU di prodotto o Pagine), i bucket Adobe Analytics raramente hanno incontrato valori ogni mese in un elemento di riga "Basso traffico" aggregato all'interno di una qualsiasi dimensione in una suite di rapporti. I valori inclusi nel bucket "Basso traffico" non possono essere segmentati. Questo consente alle query di Adobe Analytics di tornare rapidamente, concentrandosi sui primi 500.000 elementi riga visualizzati più spesso per la dimensione sulle proprietà digitali. Ad esempio, potrebbe trattarsi dei primi 500.000 nomi di pagina. Per ulteriori informazioni sui limiti dei valori univoci, [consultate](../../technotes/low-traffic.md).
+In caso di elevata cardinalità (un elevato numero di valori univoci in una data dimensione, come SKU di prodotto o Pagine), i bucket Adobe Analytics raramente hanno incontrato valori ogni mese in un elemento di riga "Basso traffico" aggregato all'interno di una qualsiasi dimensione in una suite di rapporti. I valori inclusi nel bucket "Basso traffico" non possono essere segmentati. Questo consente alle query di Adobe Analytics di tornare rapidamente, concentrandosi sui primi 500.000 elementi riga visualizzati più spesso per la dimensione sulle proprietà digitali. Ad esempio, potrebbe trattarsi dei primi 500.000 nomi di pagina. Per ulteriori informazioni sui limiti dei valori univoci, [consultate](/help/technotes/low-traffic.md).
 
 Le suite di rapporti virtuali non dispongono di un set di 500.000 valori univoci per dimensione al mese. Se la suite di rapporti su cui si basa una VRS ha superato i 500.000 valori univoci per una determinata dimensione e ha iniziato a combinare valori di frequenza inferiore nell'elemento di linea "Basso traffico" per quella dimensione, potresti vedere anche "Basso traffico" nella suite di rapporti virtuali.
 
