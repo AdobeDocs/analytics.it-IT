@@ -7,7 +7,7 @@ title: Visualizzazioni pagina
 topic: Rapporti
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Un rapporto con tendenze che mostra il numero di volte in cui le pagine del sito Web sono state visualizzate per il periodo di tempo selezionato (ora, giorno, settimana, mese, trimestre o anno). Questo rapporto consente di tenere traccia delle visualizzazioni di pagina per ogni pagina del sito, nonché di un insieme di visualizzazioni di pagina per l’intero sito.
 
-La visualizzazione [](../../../components/c-variables/c-metrics/metrics-page-view.md#concept_ABB4C6725E844B13970D6BD625654F26) pagina è una richiesta per un documento a pagina intera anziché per un elemento di una pagina, ad esempio un’immagine o un video. Ad esempio, se un singolo visitatore visualizza 15 pagine durante una visita, vengono conteggiate 15 visualizzazioni di pagina. Se un visitatore visualizza la stessa pagina tre volte durante una visita, vengono conteggiate tre visualizzazioni di pagina.
+La visualizzazione [](/help/components/c-variables/c-metrics/metrics-page-view.md) pagina è una richiesta per un documento a pagina intera anziché per un elemento di una pagina, ad esempio un’immagine o un video. Ad esempio, se un singolo visitatore visualizza 15 pagine durante una visita, vengono conteggiate 15 visualizzazioni di pagina. Se un visitatore visualizza la stessa pagina tre volte durante una visita, vengono conteggiate tre visualizzazioni di pagina.
 
 **Proprietà report**
 
