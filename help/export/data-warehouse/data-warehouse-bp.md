@@ -1,29 +1,29 @@
 ---
-description: Data warehouse fornisce un'interfaccia flessibile per eseguire rapporti personalizzati. Le seguenti linee guida consentono di ridurre il tempo necessario per recuperare i dati.
-keywords: best practice; errore; timeout; risoluzione dei problemi
-seo-description: Data warehouse fornisce un'interfaccia flessibile per eseguire rapporti personalizzati. Le seguenti linee guida consentono di ridurre il tempo necessario per recuperare i dati.
-seo-title: Best practice di Data Warehouse
+description: Data warehouse offre un'interfaccia flessibile per l'esecuzione di report personalizzati. Seguendo queste linee guida è possibile ridurre il tempo necessario per recuperare i dati.
+keywords: procedure ottimali;errore;timeout;risoluzione dei problemi
+seo-description: Data warehouse offre un'interfaccia flessibile per l'esecuzione di report personalizzati. Seguendo queste linee guida è possibile ridurre il tempo necessario per recuperare i dati.
+seo-title: Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)
 solution: Analytics
-title: Best practice di Data Warehouse
+title: Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)
 topic: Data warehouse
-uuid: d 71 c 9138-22 d 9-4 f 92-885 e -593 f 83 f 2 bb 59
+uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Best practice di Data Warehouse
+# Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)
 
-Data Warehouse fornisce un'interfaccia flessibile per eseguire rapporti personalizzati. Le seguenti linee guida consentono di ridurre il tempo necessario per recuperare i dati.
+Data Warehouse offre un'interfaccia flessibile per l'esecuzione di report personalizzati. Seguendo queste linee guida è possibile ridurre il tempo necessario per recuperare i dati.
 
 
 
-| Linee guida | Descrizione |
+| Indirizzo | Descrizione |
 |--- |--- |
-| Eseguire visualizzazioni di pagina, visite, visitatori e altri rapporti standard in Reporting e analisi | Prima di creare un rapporto Data Warehouse, vedi se le informazioni che stai cercando sono già disponibili nei rapporti. In tal caso, il report verrà distribuito più rapidamente a causa dell'elaborazione preliminare eseguita da Reporting e analisi per le metriche comuni. |
-| Comprendere la quantità di dati richiesti | Un rapporto pluriennale su una grande suite di rapporti può contenere decine di miliardi di righe dati. L'elaborazione e la valutazione di questi dati possono richiedere giorni o addirittura settimane. Valuta in che modo il rapporto viene utilizzato per determinare se alcuni dei dati multipli sono disponibili o se il rapporto può essere interrotto in più richieste. |
-| Adattare il periodo di rapporto alla granularità | La granularità dei rapporti richiede tempo di elaborazione aggiuntivo. Se state segnalando una granularità mensile per un anno intero, i report vengono elaborati più rapidamente se inviate una richiesta di report ogni mese. |
-| Report sugli intervalli di dati completati | I rapporti Data Warehouse vengono generati quando l'intervallo di date richiesto è completo. Ad esempio, se richiedi un rapporto per la settimana corrente mercoledì, il rapporto non viene generato fino alla domenica della settimana seguente. |
-| Generare rapporti sui percorsi in Data Warehouse | Le metriche di percorsi (voci, uscite, rimbalzi ecc.) non sono disponibili in data warehouse. |
-| Suite di rapporti virtuali | La generazione di rapporti di Data Warehouse sulle suite di rapporti virtuali supporta il fuso orario alternativo configurato nella suite di rapporti virtuale. |
+| Eseguire visualizzazioni di pagina, visite, visitatori e altri rapporti standard in Reporting e analisi | Prima di creare un rapporto Data Warehouse, verificare se le informazioni che si desidera trovare sono già disponibili nei rapporti. In tal caso, il report verrà distribuito molto più rapidamente a causa della pre-elaborazione eseguita da Reporting e analisi per metriche comuni. |
+| Comprendere la quantità di dati da richiedere | Un rapporto pluriennale su una suite di rapporti di grandi dimensioni può contenere decine di miliardi di righe di dati. L'elaborazione e la valutazione di questi dati possono richiedere giorni o anche settimane. Valutare in che modo viene utilizzato il rapporto per determinare se alcuni dei dati pluriennali sono disponibili o se è possibile suddividere il rapporto in più richieste. |
+| Corrispondenza del periodo del rapporto con la granularità | La granularità del reporting richiede un tempo di elaborazione aggiuntivo. Se riferisci la granularità mensile per un intero anno, l'elaborazione dei rapporti risulta molto più rapida se invii una richiesta di rapporto per ogni mese. |
+| Report sugli intervalli di dati completati | I report Data Warehouse vengono generati al termine dell'intervallo di date richiesto. Ad esempio, se richiedi un rapporto per la settimana corrente il mercoledì, il rapporto non viene generato fino a domenica della settimana successiva. |
+| Generazione di rapporti di percorso in Data Warehouse | Le metriche di percorsi (voci, uscite, rimbalzi, ecc.) non sono disponibili in data warehouse. |
+| Suite di rapporti virtuali | Il reporting di Data Warehouse sulle suite di rapporti virtuali supporta il fuso orario alternativo configurato nella suite di rapporti virtuali. |
