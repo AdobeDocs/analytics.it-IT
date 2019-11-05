@@ -8,7 +8,7 @@ title: Configurare le opzioni di hosting
 topic: Sviluppatore e implementazione
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,7 +34,7 @@ Nella scheda Incorpora, selezionate un'opzione di hosting.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai </p> </td> 
-   <td colname="col2"> <p> L'opzione di hosting più semplice da implementare. </p> <p>Rete di distribuzione globale. </p> <p>Aggiunge ulteriori dipendenze dell'infrastruttura di terze parti (ricerca DNS, disponibilità Akamai). </p> <p>Per ulteriori informazioni, consulta <a href="https://marketing.adobe.com/resources/help/en_US/dtm/akamai.html" format="html" scope="external"> Akamai</a> nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
+   <td colname="col2"> <p> L'opzione di hosting più semplice da implementare. </p> <p>Rete di distribuzione globale. </p> <p>Aggiunge ulteriori dipendenze dell'infrastruttura di terze parti (ricerca DNS, disponibilità Akamai). </p> <p>Per ulteriori informazioni, consulta <a href="https://marketing.adobe.com/resources/help/en_US/dtm/akamai.html"> Akamai</a> nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_EF148EF091A645B3962B084963B3C0B0"> 
      <li id="li_7ECE0C331EEE4907A563D581DF1DFEFE">Gestione tag dinamica genera librerie JavaScript personalizzate. </li> 
@@ -44,7 +44,7 @@ Nella scheda Incorpora, selezionate un'opzione di hosting.
   </tr> 
   <tr> 
    <td colname="col1"> Self-hosting: Distribuzione FTP </td> 
-   <td colname="col2"> <p>Un approccio <span class="term"> push</span> , mediante il quale Gestione tag dinamica esporta librerie JavaScript personalizzate direttamente nell'host del server dei contenuti Web tramite il protocollo FTP. </p> <p>Questa soluzione richiede un server FTP e le credenziali per essere disponibili sul server di contenuti Web per pubblicare le modifiche alle librerie di gestione tag dinamica personalizzate. </p> <p>Per ulteriori informazioni, consulta <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_ftp.html" format="html" scope="external"> FTP</a> nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
+   <td colname="col2"> <p>Un approccio <span class="term"> push</span> , mediante il quale Gestione tag dinamica esporta librerie JavaScript personalizzate direttamente nell'host del server dei contenuti Web tramite il protocollo FTP. </p> <p>Questa soluzione richiede un server FTP e le credenziali per essere disponibili sul server di contenuti Web per pubblicare le modifiche alle librerie di gestione tag dinamica personalizzate. </p> <p>Per ulteriori informazioni, consulta <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_ftp.html"> FTP</a> nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_60348F9C991D4F2B9457006B0F98C834"> 
      <li id="li_24A141C3C7074BF9897C022A22CAE78C">Gestione tag dinamica genera librerie JavaScript personalizzate. </li> 
@@ -54,7 +54,7 @@ Nella scheda Incorpora, selezionate un'opzione di hosting.
   </tr> 
   <tr> 
    <td colname="col1"> Self-hosting: Download libreria </td> 
-   <td colname="col2"> <p>Un approccio <span class="term"> pull</span> , mediante il quale l'applicazione esporta librerie JavaScript personalizzate <!-- to Amazon S3-->. In questo caso, l'accesso alle librerie è possibile tramite un processo lato server ospitato. </p> <p>Inoltre, le librerie sono disponibili tramite download Web direttamente dall'interfaccia Gestione tag dinamica. </p> <p>Questa soluzione richiede il recupero e la pubblicazione manuali delle librerie Gestione tag dinamica o la creazione di un processo automatizzato che estrae le librerie da Akamai sul server dei contenuti Web. </p> <p>Questa impostazione richiede il massimo tempo, ma è anche l'opzione più sicura e flessibile. </p> <p>Per verificare se esiste un riferimento alla versione più recente del file libreria, utilizza il comando </p> <p>Per ulteriori informazioni, consulta<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_download.html" format="html" scope="external"> Library Download</a> nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
+   <td colname="col2"> <p>Un approccio <span class="term"> pull</span> , mediante il quale l'applicazione esporta librerie JavaScript personalizzate <!-- to Amazon S3-->. In questo caso, l'accesso alle librerie è possibile tramite un processo lato server ospitato. </p> <p>Inoltre, le librerie sono disponibili tramite download Web direttamente dall'interfaccia Gestione tag dinamica. </p> <p>Questa soluzione richiede il recupero e la pubblicazione manuali delle librerie Gestione tag dinamica o la creazione di un processo automatizzato che estrae le librerie da Akamai sul server dei contenuti Web. </p> <p>Questa impostazione richiede il massimo tempo, ma è anche l'opzione più sicura e flessibile. </p> <p>Per verificare se esiste un riferimento alla versione più recente del file libreria, utilizza il comando </p> <p>Per ulteriori informazioni, consulta<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_download.html"> Library Download</a> nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_F40B721306FE473496BD657262DFD585"> 
      <li id="li_4EA4D6B555CE4E9CA476C7550C18C061">Gestione tag dinamica genera librerie JavaScript personalizzate. </li> 
