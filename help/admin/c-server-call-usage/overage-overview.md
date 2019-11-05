@@ -5,7 +5,7 @@ seo-title: Panoramica sull'utilizzo delle chiamate server
 title: Panoramica sull'utilizzo delle chiamate server
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Precedentemente, mentre era possibile accedere ai dati di consumo delle chiamate
 
 ## Prerequisiti {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Autorizzazioni**: Per accedere al Dashboard sull'utilizzo delle chiamate server e al Generatore di avvisi/Manager, devi essere un amministratore di Adobe Analytics.
-* **Autorizzazioni**: Gli amministratori possono concedere l’accesso agli utenti non amministratori: si chiama il permesso **[!UICONTROL Server Call Usage]**. Consulta Autorizzazione [utilizzo chiamata](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)server.
+* **** Autorizzazioni: Per accedere al Dashboard sull'utilizzo delle chiamate server e al Generatore di avvisi/Manager, devi essere un amministratore di Adobe Analytics.
+* **** Autorizzazioni: Gli amministratori possono concedere l’accesso agli utenti non amministratori: si chiama il permesso **[!UICONTROL Server Call Usage]**. Consulta Autorizzazione [utilizzo chiamata](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)server.
 
 ## Terminologia importante {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Di seguito è riportato un breve primate sulla terminologia essenziale per l'uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di accesso </p> </td> 
-   <td colname="col2"> <p>Una società di fatturazione può avere <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external"> più società di accesso </a>. Una società di accesso è una raccolta di suite di rapporti utilizzata dalla vostra organizzazione. Alcune organizzazioni dispongono di più società di accesso che si applicano a parti diverse dell'organizzazione. Questo è particolarmente utile per le grandi organizzazioni che si occupano di business unit diverse, dove molte suite di rapporti non sono applicabili ad altre nell'azienda. </p> <p>Spesso si tratta delle filiali regionali di una società. Questo esempio mostra le società di accesso e le relative suite di rapporti associate: </p> 
+   <td colname="col2"> <p>Una società di fatturazione può avere <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html"> più società di accesso </a>. Una società di accesso è una raccolta di suite di rapporti utilizzata dalla vostra organizzazione. Alcune organizzazioni dispongono di più società di accesso che si applicano a parti diverse dell'organizzazione. Questo è particolarmente utile per le grandi organizzazioni che si occupano di business unit diverse, dove molte suite di rapporti non sono applicabili ad altre nell'azienda. </p> <p>Spesso si tratta delle filiali regionali di una società. Questo esempio mostra le società di accesso e le relative suite di rapporti associate: </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.world: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Nota:  I dati di utilizzo delle chiamate server per <u>tutte</u> le suite di rapporti all’interno di una società di fatturazione sono visibili a tutti gli utenti che dispongono dell’ <a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local"> autorizzazione</a>appropriata. </p> </td> 
+    </ul> <p>Nota:  I dati di utilizzo delle chiamate server per <u>tutte</u> le suite di rapporti all’interno di una società di fatturazione sono visibili a tutti gli utenti che dispongono dell’ <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369"> autorizzazione</a>appropriata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organizzazione Experience Cloud </p> </td> 
