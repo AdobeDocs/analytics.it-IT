@@ -7,7 +7,7 @@ title: Report Suite Manager
 topic: Strumenti di amministrazione
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ Nella tabella seguente sono descritti gli elementi della [!UICONTROL Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rollup</span> </td> 
-   <td colname="col2"> <p>Un rollup è una singola suite di rapporti che combina i dati di tracciamento di diverse altre suite di rapporti. </p> <p>Consultate <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Rollup delle suite</a>di rapporti. </p> </td> 
+   <td colname="col2"> <p>Un rollup è una singola suite di rapporti che combina i dati di tracciamento di diverse altre suite di rapporti. </p> <p>Consultate <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup delle suite</a>di rapporti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifica impostazioni</span> </td> 
@@ -62,7 +62,7 @@ Nella tabella seguente sono descritti gli elementi della [!UICONTROL Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Crea nuovo</span> </td> 
-   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local"> New Report Suite</a>. </td> 
+   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Personalizza colonne</span> </td> 
@@ -70,15 +70,15 @@ Nella tabella seguente sono descritti gli elementi della [!UICONTROL Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ID suite di rapporti</span> </td> 
-   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local"> New Report Suite</a>. </td> 
+   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titolo sito</span> </td> 
-   <td colname="col2"> <p>Identifica le suite di rapporti in Strumenti di amministrazione e nell’elenco a discesa suite di rapporti nell’intestazione del rapporto di marketing. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local"> New Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Identifica le suite di rapporti in Strumenti di amministrazione e nell’elenco a discesa suite di rapporti nell’intestazione del rapporto di marketing. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL di base</span> </td> 
-   <td colname="col2"> <p>Definisce il dominio di base per la suite di rapporti. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local"> New Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Definisce il dominio di base per la suite di rapporti. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
