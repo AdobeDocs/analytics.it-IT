@@ -1,48 +1,48 @@
 ---
 title: Creare una suite di rapporti
 seo-title: Creare una suite di rapporti in Adobe Analytics
-description: Creare un contenitore di base per la raccolta di dati in Adobe Analytics.
-seo-description: Creare un contenitore di base per la raccolta di dati in Adobe Analytics.
+description: Crea un contenitore di base per la raccolta dei dati in Adobe Analytics.
+seo-description: Crea un contenitore di base per la raccolta dei dati in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
 
 # Creare una suite di rapporti
 
-Una suite di rapporti è un silo di dati utilizzati da Adobe Analytics per inviare rapporti. Un'organizzazione può avere molte suite di rapporti, ciascuna contenente set di dati diversi. Sebbene in passato fossero importanti le suite di rapporti separate, una singola suite di rapporti diventa più vantaggiosa. L'introduzione alle suite di rapporti virtuali e all'elaborazione dei tempi di report consente all'utente di creare sottoinsiemi personalizzati di dati, consentendo la flessibilità di ottenere dati globali e specifici per il sito.
+Una suite di rapporti è un silo di dati che Adobe Analytics utilizza per estrarre i rapporti. Un'organizzazione può disporre di numerose suite di rapporti, ciascuna delle quali contiene set di dati diversi. Sebbene in passato fossero importanti suite di rapporti separate, avere una singola suite di rapporti è diventato più vantaggioso. L'introduzione alle suite di rapporti virtuali e l'elaborazione dei tempi di rapporto consente all'utente di creare sottoinsiemi di dati personali, consentendo la flessibilità di ottenere sia dati globali che specifici per il sito.
 
-Questo articolo è progettato per amministratori a livello di sistema o amministratori di analisi per prepararsi alla raccolta di dati.
+Questo articolo è progettato per amministratori di sistema o amministratori di analisi per prepararsi alla raccolta dei dati.
 
 ## Prerequisiti
 
-[Guida per il primo amministratore di Adobe Analytics](first-admin-guide.md): Assicurati che un amministratore a livello di sistema vi abbia concesso l'accesso ad Adobe Analytics tramite l'Admin Console di Experience Cloud
+[Guida](first-admin-guide.md)al primo amministratore di Adobe Analytics: Verifica che un amministratore a livello di sistema ti abbia concesso l’accesso ad Adobe Analytics tramite Experience Cloud Admin Console
 
 ## Creare una suite di rapporti
 
-> [!NOTE]Nota: Esiste inoltre un modo per creare una suite di rapporti in Adobe Analytics utilizzando l'amministratore legacy. Adobe consiglia di utilizzare la procedura guidata di configurazione della suite di rapporti descritta qui.
+> [!NOTE]Nota: Esiste anche un modo per creare una suite di rapporti in Adobe Analytics utilizzando l'amministratore legacy. Adobe consiglia di utilizzare la procedura guidata di configurazione della suite di rapporti descritta qui.
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-1. Fai clic sull'icona 9 quadrati in alto a destra, quindi fai clic sul logo di Analytics colorato.
-1. Dovresti visualizzare automaticamente una finestra modale «Benvenuti nella finestra modale di Adobe Analytics». In caso contrario, fate clic sull'icona della Guida in alto a destra, quindi selezionate Benvenuti in Adobe Analytics.
-1. Nella finestra modale, fate clic su Avvia configurazione.
-1. Seguite ogni prompt che delinea le nozioni di base come tipo di proprietà, settore e fuso orario. Fate clic su Avanti.
-1. La suite di rapporti è stata creata. Adobe consiglia anche di disporre di una suite di rapporti per la fase di sviluppo, pertanto il test non danneggia i dati dei clienti. Fai clic sull'icona della Guida in alto a destra, quindi seleziona nuovamente Benvenuti in Adobe Analytics.
-1. Nella finestra modale, fate clic su Avvia configurazione.
-Assegna un nome a questa suite di rapporti, tranne se aggiungi "- DEV" alla fine. Poiché questa suite di rapporti riceverà solo traffico interno, le dimensioni stimate possono essere il più piccolo.
-1. Fai clic su Avanti per terminare la creazione della suite di rapporti di sviluppo.
+1. Accedete a [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali ID Adobe.
+1. Fate clic sull'icona di 9 quadrati in alto a destra, quindi fate clic sul logo Analytics colorato.
+1. Dovresti visualizzare automaticamente una finestra modale "Benvenuti in Adobe Analytics". In caso contrario, fai clic sull'icona Aiuto in alto a destra, quindi seleziona Benvenuti in Adobe Analytics.
+1. Nella finestra modale, fate clic su Avvia impostazione.
+1. Seguite ogni prompt che illustra le nozioni di base come tipo di proprietà, settori e fuso orario. Fate clic su Avanti.
+1. La suite di rapporti ora viene creata. Adobe consiglia anche di disporre di una suite di rapporti per lo sviluppo, pertanto il test non tinge i dati dei clienti. Fate clic sull'icona Aiuto in alto a destra, quindi selezionate di nuovo Benvenuti in Adobe Analytics.
+1. Nella finestra modale, fate clic su Avvia impostazione.
+Denominate la suite di rapporti allo stesso modo, tranne l'aggiunta di "- DEV" alla fine. Poiché questa suite di rapporti riceve solo traffico interno, la dimensione stimata può essere la più piccola.
+1. Fai clic su Avanti per completare la creazione della suite di rapporti dev.
 
-## Risoluzione dei problemi   
+## Risoluzione dei problemi
 
-**Dopo aver eseguito l'accesso a Experience Cloud, l'icona Analisi è disattivata.**
+**Dopo l'accesso a Experience Cloud, l'icona Analytics è disattivata.**
 
-Ciò significa che al tuo account non sono state assegnate le autorizzazioni corrette ad Analytics. Lavorate con un amministratore a livello di sistema nella vostra organizzazione per fare in modo che apparteniate a un profilo con autorizzazioni adeguate per accedere ad Adobe Analytics.
+Ciò significa che al tuo account non sono state concesse le autorizzazioni corrette per Analytics. Lavora con un amministratore a livello di sistema nella tua organizzazione per assicurarti di appartenere a un profilo con autorizzazioni adeguate per accedere ad Adobe Analytics.
 
-**Dopo aver eseguito l'accesso ad Adobe Analytics, mancano i popup e il menu a discesa «Benvenuti in Adobe Analytics».**
+**Dopo l'accesso ad Adobe Analytics, il menu a comparsa e il menu a discesa Benvenuti in Adobe Analytics risultano mancanti.**
 
-Assicurati di aver effettuato l'accesso tramite Experience Cloud, non tramite my. omniture. com. L'utente che accede a my.omniture.com non dispone della procedura guidata di configurazione della suite di rapporti.
+Verifica di aver effettuato l’accesso tramite Experience Cloud e non tramite my.omniture.com. L'utente che accede tramite my.omniture.com non dispone della procedura guidata di configurazione della suite di rapporti.
 
 ## Passaggi successivi
 
-[Crea e configura una proprietà per Adobe Analytics in Launch](../../implement/implement-with-launch/create-analytics-property.md): Creare un'area per gestire l'implementazione di Analytics
+[Crea e configura una proprietà per Adobe Analytics in Launch](/help/implement/implement-with-launch/create-analytics-property.md): Creare un'area per gestire l'implementazione di Analytics
