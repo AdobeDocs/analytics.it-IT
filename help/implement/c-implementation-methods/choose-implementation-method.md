@@ -8,7 +8,7 @@ title: Scegliere un metodo di implementazione
 topic: Sviluppatore e implementazione
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,11 +35,11 @@ Per ulteriori informazioni, consulta [Guida introduttiva al lancio](https://docs
 È utile avere familiarità con JavaScript e comprendere la terminologia di base di Analytics, ad esempio
 
 * Che cos'è una [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) e come funziona
-* Quando utilizzare un evento [personalizzato](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* Quando utilizzare un evento [personalizzato](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)
 
 Per informazioni su come ottenere l’accesso a Gestione tag dinamica e come iniziare a utilizzare, consulta la [Guida introduttiva](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) nella Documentazione prodotto Gestione tag dinamica.
 
-Per ulteriori informazioni, consulta [Implementazione di Analytics con Gestione](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)tag dinamica.
+Per ulteriori informazioni, consulta [Implementazione di Analytics con Gestione](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md)tag dinamica.
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -50,4 +50,4 @@ L'implementazione JavaScript richiede:
 * Forti competenze JavaScript
 * Comprensione dei concetti e della terminologia di Analytics
 
-Per ulteriori informazioni, consultate [Implementazione di Analytics tramite JavaScript](../../implement/js-implementation/javascript-implementation-overview.md).
+Per ulteriori informazioni, consultate [Implementazione di Analytics tramite JavaScript](/help/implement/js-implementation/javascript-implementation-overview.md).
