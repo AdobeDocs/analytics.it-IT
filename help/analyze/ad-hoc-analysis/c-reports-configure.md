@@ -5,7 +5,7 @@ seo-title: Configurare i rapporti esistenti
 title: Configurare i rapporti esistenti
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -52,7 +52,7 @@ In un rapporto, fai clic sul **[!UICONTROL Report Actions]** menu a discesa.  ![
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opzioni di consegna </p> </td> 
-   <td colname="col2"> <p> Consultate Opzioni <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"></a>di consegna. </p> </td> 
+   <td colname="col2"> <p> Consultate Opzioni <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   ></a>di consegna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Stampa </p> </td> 
@@ -64,7 +64,7 @@ In un rapporto, fai clic sul **[!UICONTROL Report Actions]** menu a discesa.  ![
   </tr> 
   <tr> 
    <td colname="col1"> <p>Origini dati </p> </td> 
-   <td colname="col2"> <p>Vedere <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> Scheda Impostazioni generali - Definizioni</a>. </p> </td> 
+   <td colname="col2"> <p>Vedere <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > Scheda Impostazioni generali - Definizioni</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visualizzazione </p> </td> 
@@ -124,7 +124,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostra regressione lineare </p> </td> 
-   <td colname="col2"> <p>Per i grafici a <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986" format="dita" scope="local"> bolle</a>. Visualizza un'approssimazione statistica dei dati. </p> </td> 
+   <td colname="col2"> <p>Per i grafici a <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > bolle</a>. Visualizza un'approssimazione statistica dei dati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
