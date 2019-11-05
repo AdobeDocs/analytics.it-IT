@@ -3,12 +3,12 @@ description: Definizioni degli elementi di interfaccia nelle pagine del Generato
 seo-description: Definizioni degli elementi di interfaccia nelle pagine del Generatore di regole di classificazione.
 seo-title: 'Regole di classificazione: definizioni'
 solution: Analytics
-subtopic: Classificazioni
+subtopic: Classifications
 title: 'Regole di classificazione: definizioni'
 topic: Strumenti di amministrazione
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -35,7 +35,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selezione di suite per report e variabili </p> </td> 
-   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>È possibile applicare una sola variabile quando si crea un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set</span> di regole solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p>Ad esempio, per rendere <span class="term"> Pagine</span> disponibili come variabile per il set di regole, accertati che nella suite di rapporti siano implementate <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> classificazioni</a> di traffico per <span class="term"> Pagina</span>. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> (Amministratore) &gt; <span class="uicontrol"> Report Suites (Suite</span> di rapporti) &gt; <span class="uicontrol"> Traffic (Traffico</span> ) &gt; <span class="uicontrol"> Traffic Classifications (Classificazioni</span> traffico) (o <span class="uicontrol"> Conversion</span> (Conversione <span class="uicontrol"></span>) &gt; Conversion Classifications (Classificazioni conversione)). Quindi selezionate la variabile, quindi fate clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external"> Classificazioni</a> del traffico e classificazioni <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external"></a> di conversione nell'Aiuto di amministrazione. </p> </td> 
+   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>È possibile applicare una sola variabile quando si crea un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set</span> di regole solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p>Ad esempio, per rendere <span class="term"> Pagine</span> disponibili come variabile per il set di regole, accertati che nella suite di rapporti siano implementate <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  > classificazioni</a> di traffico per <span class="term"> Pagina</span>. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> (Amministratore) &gt; <span class="uicontrol"> Report Suites (Suite</span> di rapporti) &gt; <span class="uicontrol"> Traffic (Traffico</span> ) &gt; <span class="uicontrol"> Traffic Classifications (Classificazioni</span> traffico) (o <span class="uicontrol"> Conversion</span> (Conversione <span class="uicontrol"></span>) &gt; Conversion Classifications (Classificazioni conversione)). Quindi selezionate la variabile, quindi fate clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  > Classificazioni</a> del traffico e classificazioni <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  ></a> di conversione nell'Aiuto di amministrazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Attiva</span> </p> </td> 
@@ -47,7 +47,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurare suite di rapporti e variabili </p> </td> 
-   <td colname="col2"> <p>Visualizza la pagina <span class="wintitle"> Suite</span> di rapporti disponibili, in cui è possibile selezionare una o più suite di rapporti disponibili da utilizzare per tutti i set di regole. (Questa pagina viene visualizzata anche quando si esegue per la prima volta il Generatore <span class="wintitle"></span>regole di classificazione.) </p> <p>Questa funzione ha lo scopo di ridurre il tempo di caricamento della suite di rapporti, nel caso in cui disponiate di centinaia di suite di rapporti disponibili. </p> <p>Le suite di rapporti selezionate qui sono disponibili a livello di regola, quando fate clic su <span class="uicontrol"> Aggiungi suite</span> durante la creazione di una regola. </p> <p>Nota: Una suite di rapporti diventa disponibile <span class="term"> solo</span> quando nelle suite di rapporti è definita almeno una classificazione per la variabile in <span class="wintitle"> Strumenti</span>di amministrazione. <p>Per una spiegazione di questo prerequisito, vedere <span class="term"> Variabile</span> in <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Set</a> regole di classificazione. </p> </p> </td> 
+   <td colname="col2"> <p>Visualizza la pagina <span class="wintitle"> Suite</span> di rapporti disponibili, in cui è possibile selezionare una o più suite di rapporti disponibili da utilizzare per tutti i set di regole. (Questa pagina viene visualizzata anche quando si esegue per la prima volta il Generatore <span class="wintitle"></span>regole di classificazione.) </p> <p>Questa funzione ha lo scopo di ridurre il tempo di caricamento della suite di rapporti, nel caso in cui disponiate di centinaia di suite di rapporti disponibili. </p> <p>Le suite di rapporti selezionate qui sono disponibili a livello di regola, quando fate clic su <span class="uicontrol"> Aggiungi suite</span> durante la creazione di una regola. </p> <p>Nota: Una suite di rapporti diventa disponibile <span class="term"> solo</span> quando nelle suite di rapporti è definita almeno una classificazione per la variabile in <span class="wintitle"> Strumenti</span>di amministrazione. <p>Per una spiegazione di questo prerequisito, vedere <span class="term"> Variabile</span> in <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Set</a> regole di classificazione. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole sovrascrivono eventuali valori esistenti </p> </td> 
@@ -59,10 +59,10 @@ In questa pagina vengono visualizzate le regole in un set di regole.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Finestra di ricerca </p> </td> 
-   <td colname="col2"> <p>Quando attivate e convalidate le regole, potete specificare se queste devono sovrascrivere le classificazioni esistenti per le chiavi interessate. Vengono interessate solo le chiavi classificate che sono state passate in precedenza in <span class="keyword"> Adobe Analytics</span> nel periodo di tempo specificato. </p> <p>Se non si specifica una finestra <span class="term"> di</span>lookback, le regole tornano indietro di circa un mese (a seconda del giorno corrente del mese). Le classificazioni esistenti non vengono mai sovrascritte a meno che non sia stata abilitata questa opzione. </p> <p><b>Dev Center</b>: I partner possono creare regole di classificazione in <span class="wintitle"> Dev Center</span>. Queste regole vengono distribuite quando il cliente attiva un'integrazione. In <span class="wintitle"> Dev Center</span>, l'opzione <span class="uicontrol"> Sovrascrivi dal</span> consente al partner di specificare se il cliente può determinare il valore di sovrascrittura quando si attiva o si modifica un'integrazione. </p> <p>Per ulteriori informazioni sull'elaborazione delle regole, vedere <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local"> Elaborazione</a> delle regole. </p> </td> 
+   <td colname="col2"> <p>Quando attivate e convalidate le regole, potete specificare se queste devono sovrascrivere le classificazioni esistenti per le chiavi interessate. Vengono interessate solo le chiavi classificate che sono state passate in precedenza in <span class="keyword"> Adobe Analytics</span> nel periodo di tempo specificato. </p> <p>Se non si specifica una finestra <span class="term"> di</span>lookback, le regole tornano indietro di circa un mese (a seconda del giorno corrente del mese). Le classificazioni esistenti non vengono mai sovrascritte a meno che non sia stata abilitata questa opzione. </p> <p><b>Dev Center</b>: I partner possono creare regole di classificazione in <span class="wintitle"> Dev Center</span>. Queste regole vengono distribuite quando il cliente attiva un'integrazione. In <span class="wintitle"> Dev Center</span>, l'opzione <span class="uicontrol"> Sovrascrivi dal</span> consente al partner di specificare se il cliente può determinare il valore di sovrascrittura quando si attiva o si modifica un'integrazione. </p> <p>Per ulteriori informazioni sull'elaborazione delle regole, vedere <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Elaborazione</a> delle regole. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> Aggiungi regola </a> </td> 
+   <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Aggiungi regola </a> </td> 
    <td colname="col2"> <p>Consente di aggiungere regole al set di regole. </p> <p>Nota:  Se a un valore corrisponde due o più volte in un insieme di regole, il sistema utilizza l'ultima regola per classificare il valore. </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
    <td colname="col2"> Duplica (copia) un set di regole in modo da poter applicare il set di regole a un'altra variabile o alla stessa variabile in un'altra suite di rapporti. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158" format="dita" scope="local"> Set di regole di test </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Set di regole di test </a> </p> </td> 
    <td colname="col2"> <p>Consente di verificare la validità di un set di regole. </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numero della regola. </p> <p>Per ulteriori informazioni, vedere <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local"> Elaborazione</a> delle regole. </p> </td> 
+   <td colname="col2"> <p>Numero della regola. </p> <p>Per ulteriori informazioni, vedere <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Elaborazione</a> delle regole. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Seleziona tipo di regola</span> </td> 
@@ -96,7 +96,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Inizia con </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Termina con </li> 
      <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Contiene </li> 
-     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D" format="dita" scope="local"> Espressione regolare </a> </li> 
+     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Espressione regolare </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Potete modificare le espressioni regolari sulla [!UICONTROL Regular Expression] 
 | Corrispondenza gruppi |  Mostra come l'espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell'ID campagna. |
 | Risultato corrispondenza | Visualizza le parti di una stringa che corrispondono correttamente all'espressione regolare. |
 
-Vedere Espressioni [regolari nelle regole](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)di classificazione.
+Vedere Espressioni [regolari nelle regole](/help/components/c-classifications2/crb/classification-quickstart-rules.md)di classificazione.
 
 ## Pagina di test {#section_EC926F97901C4E65901413F9683AA70A}
 
