@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: Sviluppatore e implementazione
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Il plug-in getAndPersistValue ottiene un valore di scelta e lo compila in una va
 
 >[!IMPORTANT]
 >
->Il plug-in non è stato convalidato per compatibilità con [AppMeasurement per JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Il plug-in non è stato convalidato per compatibilità con [AppMeasurement per JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md). See [AppMeasurement Plug-in Support](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 Ad esempio, potete utilizzare questo plug-in per impostare un codice di tracciamento campagna dalla *`campaign`* variabile in una variabile Traffico personalizzato ( *`s.prop`*) per la visualizzazione della pagina di ogni visitatore creata per i 30 giorni successivi. Questo esempio consente di determinare quante pagine visualizzano il codice di tracciamento generato in seguito al click-through originale.
 
