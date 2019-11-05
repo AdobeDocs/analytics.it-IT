@@ -6,7 +6,7 @@ solution: Analytics
 title: Variabili per la generazione di rapporti sulla privacy
 topic: Strumenti di amministrazione
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -38,7 +38,7 @@ Tali variabili per segnalazioni relative alla privacy forniscono un’infrastrut
 Puoi abilitare le variabili per segnalazioni relative alla privacy tramite una nuova impostazione Privacy disponibile nell’Admin Console di Analytics.
 
 Ogni suite di rapporti può essere configurata come segue:
-1. In Reporting e analisi fai clic su **[!UICONTROL Admin > Report Suites.]**
+1. In Reports &amp; Analytics fai clic su **[!UICONTROL Admin > Report Suites.]**
 1. Seleziona le suite di rapporti in cui stai raccogliendo dati multimediali e fai clic su **[!UICONTROL Edit Settings > Privacy Management.]**
 
    ![](assets/rsm-privacy-select.png)
