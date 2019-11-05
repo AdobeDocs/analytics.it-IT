@@ -7,7 +7,7 @@ title: Abilitare Activity Map
 topic: Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,7 +24,7 @@ I dati della Activity Map non possono essere raccolti se non si esegue l'aggiorn
 
 1. Scarica il codice AppMeasurement più recente (AppMeasurement_Javascript-1.6.zip) andando a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** e [implementalo](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
 
-   Abbiamo incluso alcuni [esempi di codice](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) di implementazione per aiutarti a visualizzare le modifiche apportate al codice includendo il modulo Activity Map.
+   Abbiamo incluso alcuni [esempi di codice](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) di implementazione per aiutarti a visualizzare le modifiche apportate al codice includendo il modulo Activity Map.
 
 1. Convalida l’implementazione:
 
@@ -56,6 +56,6 @@ Innanzitutto, è necessario abilitare i rapporti Activity Map a livello di suite
 
 1. [Aggiungete utenti a questo gruppo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) e **[!UICONTROL Save Group]**.
 
-1. Questo consente agli utenti Admin di scaricare la Activity Map da **Adobe Analytics** &gt; **[!UICONTROL Tools]** &gt; **ActivityMap** .
+1. Questo consente agli utenti Admin di scaricare la Activity Map da **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
 > [!NOTE] Se desiderate che gli utenti non amministratori scarichino la Activity Map, create un nuovo gruppo di utenti che fornisca l'autorizzazione "Strumenti" e "Installazione legacy ClickMap". Questo livello di autorizzazione combinato con l'accesso alla Activity Map fornisce le autorizzazioni per scaricare e utilizzare lo strumento.
