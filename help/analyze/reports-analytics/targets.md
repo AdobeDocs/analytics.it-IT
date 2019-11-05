@@ -7,7 +7,7 @@ title: Target
 topic: Reports and Analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,12 +77,12 @@ t_add_a_target.xml
 
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. Sulla [!UICONTROL Target Manager] pagina fare clic su **[!UICONTROL Add New]**.
-1. Configura le opzioni descritte in Descrizioni [campo di](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
+1. Configura le opzioni descritte in Descrizioni [campo di](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
 1. Fai clic su **[!UICONTROL OK]**.
 
 ## Modificare una destinazione {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
-1. Configura le opzioni descritte in Descrizioni [campo di](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
+1. Configura le opzioni descritte in Descrizioni [campo di](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
 1. Fai clic su **[!UICONTROL OK]**.
