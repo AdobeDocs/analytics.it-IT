@@ -8,7 +8,7 @@ title: Panoramica di cura/condivisione
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -29,7 +29,7 @@ Utilizzando i componenti curati è possibile limitare i componenti disponibili p
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Crea e salva](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) un progetto, quindi fai clic su **[!UICONTROL Share]** &gt; **[!UICONTROL Curate Project Data]**.
+1. [Crea e salva](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un progetto, quindi fai clic su **[!UICONTROL Share]** &gt; **[!UICONTROL Curate Project Data]**.
 1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
 
    ![](assets/curated-components.png)
