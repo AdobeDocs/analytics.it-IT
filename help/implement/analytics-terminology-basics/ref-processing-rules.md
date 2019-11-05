@@ -1,36 +1,36 @@
 ---
-description: Le regole di elaborazione semplificano la raccolta dati e gestiscono il contenuto quando viene inviato ai rapporti.
-keywords: Implementazione di Analytics; regole di elaborazione; regole
-seo-description: Le regole di elaborazione semplificano la raccolta dati e gestiscono il contenuto quando viene inviato ai rapporti.
+description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l'invio ai report.
+keywords: Implementazione di Analytics;regole di elaborazione;regole
+seo-description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l'invio ai report.
 seo-title: Regole di elaborazione
 solution: Analytics
 title: Regole di elaborazione
 topic: Sviluppatore e implementazione
-uuid: 6655 a 82 f -4 eb 1-4 c 28-918 e -168254 ab 1 f 92
+uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
 # Regole di elaborazione
 
-Le regole di elaborazione semplificano la raccolta dati e gestiscono il contenuto quando viene inviato ai rapporti.
+Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l'invio ai report.
 
-Le regole di elaborazione semplificano l'interazione con i gruppi IT e gli sviluppatori Web fornendo un'interfaccia:
+Le regole di elaborazione semplificano l'interazione con i gruppi IT e gli sviluppatori Web fornendo un'interfaccia per:
 
-* Impostare un evento nella pagina Panoramica del prodotto
-* Compilare una campagna con un parametro di stringa query
-* Concatenazione di categoria e nome pagina in un prop per un rapporto più semplice
-* Copiare una evar in un prop per visualizzare i percorsi
-* Pulizia delle sezioni con errore ortografico
-* Estrarre termini di ricerca interni o un ID campagna dalla stringa query in una evar
+* Impostare un evento nella pagina della panoramica del prodotto
+* Compilare una campagna con un parametro stringa di query
+* Concatenate la categoria e il nome della pagina in una prop per una generazione di rapporti più semplice
+* Copia di un'eVar in una prop per visualizzare i percorsi
+* Pulizia delle sezioni di sito errate
+* Estrarre i termini di ricerca interni o l'ID di una campagna dalla stringa di query in una eVar
 
-Per informazioni dettagliate sulle regole di elaborazione, vedi:
+Per informazioni dettagliate sulle regole di elaborazione, vedere:
 
-* [Regole di elaborazione](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html) nella guida di Analytics e Guida di riferimento
-* [Creare una nuova regola](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) in questa documentazione
-* [Guida introduttiva ai canali di marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html) nella documentazione di Marketing Channels (Canali di marketing)
-* [Regole VISTA](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) nella guida di Guida e Guida di Analytics
-* [Regole bot](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html) nella guida di Aiuto e Guida di Analytics
+* [Regole](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html) di elaborazione nella guida di Analytics e nella guida di riferimento
+* [Crea nuova regola](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md) in questa documentazione della guida
+* [Guida introduttiva ai canali](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html) di marketing nella documentazione di Marketing Channels
+* [Regole](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) VISTA nella guida di Analytics e Guida di riferimento
+* [Regole](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html) bot nella guida di Analytics e Guida di riferimento
 
