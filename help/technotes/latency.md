@@ -9,7 +9,7 @@ title: Disponibilità e latenza dei dati
 topic: Rapporti
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -45,7 +45,7 @@ Alcune funzionalità di Adobe Experience Cloud offrono una quantità innata di l
 
 Esistono diverse strategie per evitare latenza o ridurre il tempo di recupero quando si verifica:
 
-* **** Notifica ad Adobe i picchi di traffico previsti: Anche se è impossibile prevedere ogni picco di traffico al tuo sito, ci possono essere casi in cui si prevede di ricevere un aumento significativo del traffico. Alcuni esempi includono un periodo di vacanza particolarmente positivo, o poco dopo un push di grandi dimensioni della campagna. In questi casi, Adobe offre alla tua organizzazione un modo per informarci degli aumenti di traffico previsti, in modo da poter allocare ulteriori risorse di elaborazione alla tua suite di rapporti. Consultate [Pianificare un picco](../admin/c-traffic-management/t-traffic-schedule-spike.md) di traffico nella guida utente per informazioni su come notificare ad Adobe l’aumento del traffico.
+* **** Notifica ad Adobe i picchi di traffico previsti: Anche se è impossibile prevedere ogni picco di traffico al tuo sito, ci possono essere casi in cui si prevede di ricevere un aumento significativo del traffico. Alcuni esempi includono un periodo di vacanza particolarmente positivo, o poco dopo un push di grandi dimensioni della campagna. In questi casi, Adobe offre alla tua organizzazione un modo per informarci degli aumenti di traffico previsti, in modo da poter allocare ulteriori risorse di elaborazione alla tua suite di rapporti. Consultate [Pianificare un picco](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) di traffico nella guida utente per informazioni su come notificare ad Adobe l’aumento del traffico.
 * **** Considerate l'elaborazione del carico durante l'attivazione delle nuove funzioni: Alcune funzioni richiedono più elaborazione di altre. Più funzioni sono abilitate in una suite di rapporti, più difficile è recuperare dalla latenza. Quando attivi le funzionalità in una suite di rapporti, tieni presente le seguenti funzionalità che aumentano la quantità di dati da elaborare:
 
    * Implementazione di più di 20 eventi sulla stessa pagina
