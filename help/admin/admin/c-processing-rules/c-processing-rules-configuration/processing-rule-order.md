@@ -8,7 +8,7 @@ title: Ordine di elaborazione
 topic: Strumenti di amministrazione
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -28,7 +28,7 @@ Nelle tabelle seguenti sono elencati i dati solitamente disponibili prima e dopo
 | Ricerca di variabili dinamiche | Le variabili vengono compilate in modo dinamico recuperando informazioni dalle intestazioni HTTP o da altre variabili. Ad esempio, `s.eVar5="D=c1"` inserirà il valore di prop1 in eVar5. |
 | AppMeasurement | Le funzioni e i plug-in utilizzati in AppMeasurement vengono eseguiti nel browser o nell'applicazione client. |
 | Dynamic Tag Management | Le regole definite in Gestione tag dinamica vengono eseguite come definito. |
-| Regole bot | [Le regole](../../../../admin/admin/bot-removal/bot-rules.md) bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. |
+| Regole bot | [Le regole](/help/admin/admin/bot-removal/bot-rules.md) bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. |
 
 ## Dopo le regole di elaborazione
 
