@@ -1,50 +1,50 @@
 ---
-description: Il supporto del plug-in è stato modificato nella nuova versione di javascript appmeasurement.
-keywords: Implementazione di Analytics; appmeasurement; javascript; plugin; plug-in
-seo-description: Il supporto del plug-in è stato modificato nella nuova versione di javascript appmeasurement.
-seo-title: Supporto per appmeasurement
+description: Il supporto del plug-in è stato modificato nella nuova versione di JavaScript AppMeasurement.
+keywords: Analytics Implementation;appmeasurement;javascript;plugin;plug-in
+seo-description: Il supporto del plug-in è stato modificato nella nuova versione di JavaScript AppMeasurement.
+seo-title: Supporto per plug-in AppMeasurement
 solution: Analytics
-subtopic: Javascript appmeasurement
-title: Supporto per appmeasurement
+subtopic: JavaScript AppMeasurement
+title: Supporto per plug-in AppMeasurement
 topic: Sviluppatore e implementazione
-uuid: e 048 e 16 b -994 a -4079-bde 4-3 faa 3 df 8 c 96 d
+uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Supporto per appmeasurement
+# Supporto per plug-in AppMeasurement
 
-Supporto plug-nella versione corrente di javascript appmeasurement.
+Supporto plug-in nella versione corrente di JavaScript AppMeasurement.
 
-## Tested Plug-ins {#section_48415FB895E6455FAC34B0B96DE6EBE7}
+## Plug-in testati {#section_48415FB895E6455FAC34B0B96DE6EBE7}
 
-I plug-in seguenti sono stati testati e verificati come compatibili:
+I seguenti plug-in sono stati testati e verificati come compatibili:
 
-* [flag s. abort](/help/implement/js-implementation/plugins/abort.md)
-* [Appendlist](/help/implement/js-implementation/plugins/appendlist.md)
-* [funzione doplugins](/help/implement/js-implementation/plugins/function-doplugins.md)
-* [Getandpersistvalue](/help/implement/js-implementation/plugins/getandpersistvalue.md)
-* [Getdayssincelastvisit](../../../implement/js-implementation/plugins/getdayssincelastvisit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
-* [Getloadtime](/help/implement/js-implementation/plugins/getloadtime.md)
-* [Getnewrepeat](../../../implement/js-implementation/plugins/getnewrepeat.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
-* [Getpagevisibility](/help/implement/js-implementation/plugins/pagevisibility.md)
-* [Getpercentpageviewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md)
-* [Getpreviousvalue](/help/implement/js-implementation/plugins/getpreviousvalue.md)
-* [Getqueryparam](/help/implement/js-implementation/plugins/getqueryparam.md)
-* [Gettimeparting](../../../implement/js-implementation/plugins/gettimeparting.md#concept_3746EA1D1EF746049AE84105B911F44A)
-* [Getvalonce](/help/implement/js-implementation/plugins/getvalonce.md)
-* [Getvisitnum](/help/implement/js-implementation/plugins/getvisitnum.md)
-* [Getvisitstart](/help/implement/js-implementation/plugins/getvisitstart.md)
-* [Hitboar](/help/implement/js-implementation/plugins/hitgovernor.md)
-* [Traffico interno](/help/implement/js-implementation/plugins/internal-traffic.md)
-* [Performancetiming](/help/implement/js-implementation/plugins/performancetiming.md)
-* [Tracktnt](/help/implement/js-implementation/plugins/tracktnt.md)
+* [Contrassegno s.abort](/help/implement/js-implementation/plugins/abort.md)
+* [appendList](/help/implement/js-implementation/plugins/appendlist.md)
+* [funzione doPlugins](/help/implement/js-implementation/plugins/function-doplugins.md)
+* [getAndPersistValue](/help/implement/js-implementation/plugins/getandpersistvalue.md)
+* [getDaysSinceLastVisit](/help/implement/js-implementation/plugins/getdayssincelastvisit.md)
+* [getLoadTime](/help/implement/js-implementation/plugins/getloadtime.md)
+* [getNewRepeat](/help/implement/js-implementation/plugins/getnewrepeat.md)
+* [getPageVisibility](/help/implement/js-implementation/plugins/pagevisibility.md)
+* [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md)
+* [getPreviousValue](/help/implement/js-implementation/plugins/getpreviousvalue.md)
+* [getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md)
+* [getTimeParting](/help/implement/js-implementation/plugins/gettimeparting.md)
+* [getValOnce](/help/implement/js-implementation/plugins/getvalonce.md)
+* [getVisitNum](/help/implement/js-implementation/plugins/getvisitnum.md)
+* [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)
+* [hitGovernor](/help/implement/js-implementation/plugins/hitgovernor.md)
+* [Internal Traffic](/help/implement/js-implementation/plugins/internal-traffic.md)
+* [performanceTiming](/help/implement/js-implementation/plugins/performancetiming.md)
+* [trackTNT](/help/implement/js-implementation/plugins/tracktnt.md)
 
-## Untested Plug-ins {#section_32BA7CAB37554A278170A728F1D65CE9}
+## Plug-in non testati {#section_32BA7CAB37554A278170A728F1D65CE9}
 
-I plug-in seguenti devono continuare a funzionare perché la funzionalità sottostante continua a essere supportata, ma non è stata testata e verificata come compatibile. Prima di eseguire la migrazione, verifica questi plug-nell'ambiente di sviluppo.
+I seguenti plug-in devono continuare a funzionare poiché la funzionalità sottostante è ancora supportata, ma non sono stati testati e verificati come compatibili. Prima di eseguire la migrazione, è necessario verificare questi plug-in nell'ambiente di sviluppo.
 
-* Getactiondepth
-* Getcookiesaccepted
+* getActionDepth
+* getCookiesAccepted
