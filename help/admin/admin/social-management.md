@@ -5,9 +5,9 @@ seo-title: Gestione social
 solution: Analytics
 title: Gestione social
 topic: Strumenti di amministrazione
-uuid: d 5159048-d 7 bc -4321-9753-9 b 4 d 733 e 529 f
+uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
