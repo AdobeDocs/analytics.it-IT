@@ -1,64 +1,64 @@
 ---
-description: Fornisce risposte e risoluzione di problemi ad alcune delle domande più frequenti di Analytics.
-keywords: Risoluzione dei problemi Analytics
-seo-description: Fornisce risposte e risoluzione di problemi ad alcune delle domande più frequenti di Analytics.
+description: Fornisce risposte e suggerimenti per la risoluzione dei problemi ad alcune delle domande più frequenti su Analytics.
+keywords: Risoluzione dei problemi di Analytics
+seo-description: Fornisce risposte e suggerimenti per la risoluzione dei problemi ad alcune delle domande più frequenti su Analytics.
 seo-title: Domande frequenti
 title: Domande frequenti
-uuid: 285 b 0 ea 4-aa 07-4 d 39-a 74 f -37 b 1 d 02 d 19 f 1
+uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # Domande frequenti
 
-Fornisce risposte e risoluzione di problemi ad alcune delle domande di Analytics più frequenti per Reporting e analisi. For frequently asked implementation questions, see the [FAQ](../../implement/faq.md) in the Implement user guide.
+Fornisce risposte e suggerimenti per la risoluzione dei problemi ad alcune delle domande più frequenti su Analytics per Reporting e analisi. Per le domande di implementazione più frequenti, consulta le [Domande frequenti](/help/implement/faq.md) nella guida Implementa.
 
-**Il mio account è stato bloccato; how do I unlock it?**
+**Il mio account è stato bloccato; come lo sblocco?**
 
-Per riattivare un account, contatta un amministratore all'interno dell'organizzazione. See also [Troubleshoot login issues with Adobe Analytics](../../technotes/troubleshoot-login.md) in the Technotes user guide.
+Per riattivare un account, contattate un amministratore all'interno dell'organizzazione. Consultate anche [Risoluzione dei problemi di accesso con Adobe Analytics](/help/technotes/troubleshoot-login.md) nella guida utente di Technotes.
 
-**Perché visualizzi un rapporto vuoto anche se so che i dati vengono raccolti?**
+**Perché viene visualizzato un rapporto vuoto anche se so che i dati vengono raccolti?**
 
-Esistono diversi elementi da controllare per risolvere i problemi dei rapporti:
+Per risolvere i problemi relativi ai dati del rapporto, è necessario controllare diversi elementi:
 
-* Controlla le metriche utilizzate: Alcuni report predefiniti sulle Entrate in Reporting e analisi. Assicurati che la metrica che stai visualizzando sia pertinente al rapporto.
-* Controlla l'intervallo di date: Gli intervalli di date, soprattutto quelli oltre i criteri di conservazione dei dati aziendali, non possono restituire dati. Verificate che l'intervallo di date sia impostato correttamente.
-* Controlla filtri URL interni: Alcuni rapporti di origini traffico non funzionano finché non definiti correttamente i filtri URL interni.
+* Controlla le metriche utilizzate: Per impostazione predefinita, alcuni report sono basati su Entrate in Reporting e analisi. Assicurati che la metrica visualizzata sia rilevante per il rapporto.
+* Controlla l’intervallo di date: Gli intervalli di date, in particolare quelli oltre i criteri di conservazione dei dati aziendali, non possono restituire alcun dato. Verificare che l'intervallo di date sia impostato correttamente.
+* Controlla filtri URL interni: Alcuni rapporti sulle origini di traffico non funzionano fino a quando non si definiscono correttamente i filtri URL interni.
 
-**Perché mancano alcuni rapporti nel menu di navigazione?**
+**Perché alcuni rapporti mancano nel menu di navigazione?**
 
-Tutti i report mancanti da un menu sono generalmente originati da autorizzazioni limitate o personalizzazione del menu. Contatta un amministratore di prodotto all'interno della tua organizzazione per verificare di avere accesso a tutte le dimensioni e le metriche necessarie e che la struttura del menu di una suite di rapporti non sia stata personalizzata.
+Qualsiasi rapporto mancante in un menu proviene in genere da autorizzazioni limitate o personalizzazione del menu. Contatta un amministratore di prodotto all'interno dell'organizzazione per assicurarti di avere accesso a tutte le dimensioni e metriche necessarie e che la struttura del menu di una suite di rapporti non sia stata personalizzata.
 
-**Perché vengono tagliati alcuni valori lunghi?**
+**Perché alcuni valori lunghi vengono tagliati?**
 
-Quasi tutte le variabili in Adobe Analytics hanno un limite di caratteri. Il nome della pagina ha un limite di 100 caratteri, mentre le variabili di conversione personalizzate (evar) hanno un limite di 255 caratteri. Adobe consiglia di garantire che i valori inviati ad Adobe siano concisi per impedire il troncamento.
+Quasi tutte le variabili in Adobe Analytics hanno un limite di caratteri. Il limite per il nome della pagina è di 100 caratteri, mentre per le variabili di conversione personalizzate (eVar) è previsto un limite di 255 caratteri. Adobe consiglia di assicurarsi che i valori inviati ad Adobe siano concisi per evitare il troncamento.
 
-**Perché trovo un ritardo importante nei rapporti?**
+**Perché si verifica un ritardo notevole nella segnalazione?**
 
-La generazione di rapporti in tempo reale consente di rendere disponibili alcune metriche di traffico entro pochi minuti, mentre la conversione e altri dati ricchi di elaborazione sono generalmente disponibili entro 30-90 minuti. Sebbene la piattaforma Experience Cloud sia affidabile, alcune situazioni potrebbero causare ritardi nei report. Questo ritardo è denominato latenza. See [Latency](../../technotes/latency.md) in the Technotes user guide for more information.
+Il reporting in tempo reale consente di rendere disponibili alcune metriche del traffico in pochi minuti, mentre la conversione e altri dati che richiedono molta elaborazione sono in genere disponibili entro 30-90 minuti. Anche se la piattaforma Experience Cloud è affidabile, ci sono alcune situazioni che possono causare ritardi nei rapporti. Tale ritardo è definito latenza. Per ulteriori informazioni, consulta [Latenza](/help/technotes/latency.md) nella guida utente di Technotes.
 
-**Perché non riesco a visualizzare la versione del dispositivo sugli iphone?**
+**Perché non è possibile visualizzare la versione del dispositivo su iPhone?**
 
-I dispositivi Apple segnalano la versione del firmware nella stringa agente utente, non la versione del dispositivo. È difficile determinare la versione del dispositivo iphone utilizzando le informazioni disponibili per Adobe Analytics. See [Comparing iPhone device versions](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) in the Analytics KB for more information.
+I dispositivi Apple segnalano la versione del firmware nella stringa agente utente, non nella versione del dispositivo. È difficile determinare la versione del dispositivo iPhone utilizzando le informazioni disponibili in Adobe Analytics. Per ulteriori informazioni, consultate [Confronto delle versioni](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) dei dispositivi iPhone nella KB di Analytics.
 
-**Perché i totali nella parte inferiore del report non corrispondono quando si somma i valori?**
+**Perché i totali nella parte inferiore del rapporto non corrispondono quando si calcolano i valori?**
 
-I valori Dimensione possono spesso essere applicati in più posizioni, ad esempio, visite che si estendono su mezzanotte o più prodotti appartenenti a un unico ordine. Il valore della dimensione viene riportato in tutte le righe applicabili, ma viene deduplicato nel totale del report. See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
+I valori delle dimensioni possono essere applicati spesso in più posizioni; ad esempio, visite che si estendono su mezzanotte o su più prodotti appartenenti a un singolo ordine. Il valore della dimensione viene riportato su tutte le voci applicabili, ma viene deduplicato nel totale del rapporto. Per ulteriori informazioni, consulta [Confrontare la somma degli elementi riga con il totale](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) del rapporto nella KB di Analytics.
 
-**Come posso escludere i dati da un particolare indirizzo IP nella mia suite di rapporti?**
+**Come si escludono i dati da un particolare indirizzo IP nella suite di rapporti?**
 
-Dai rapporti potete eliminare i dati delle attività interne del sito Web, ad esempio il testing di siti e l'utilizzo dei dipendenti. Questa funzione consente a voi e ai vostri colleghi di visitare il sito senza distorcere i dati sul traffico. See [Exclude by IP Address](../../admin/admin/exclude-ip.md) in the Admin user guide for more information.
+Puoi eliminare dai rapporti i dati dalle attività interne del sito Web, ad esempio i test del sito e l'utilizzo dei dipendenti. Questa funzione consente a voi e ai vostri colleghi di visitare il sito senza distorcere i dati del traffico. Per ulteriori informazioni, consulta [Escludi per indirizzo](/help/admin/admin/exclude-ip.md) IP nella guida utente per l’amministratore.
 
 **Posso eliminare una suite di rapporti?**
 
-Non è possibile eliminare una suite di rapporti. Tuttavia, una suite di rapporti può essere nascosta da tutte le visualizzazioni in Adobe Analytics. Tieni presente che le chiamate server inviate a una suite di rapporti nascosta continuano a essere conteggiate al limite contrattuale mensile. See [Hide report suites](../../admin/company/c-hide-report-suites.md) in the Admin user guide for more information.
+Non è possibile eliminare una suite di rapporti. Tuttavia, una suite di rapporti può essere nascosta da tutte le viste in Adobe Analytics. Le chiamate server inviate a una suite di rapporti nascosta continuano a essere conteggiate per il limite del contratto mensile. Per ulteriori informazioni, consulta [Nascondere le suite](/help/admin/company/c-hide-report-suites.md) di rapporti nella guida utente per l'amministratore.
 
-**Quando utilizzi la segmentazione, che contenitore devo usare? Page view, visit, or visitor?**
+**Quando si utilizza la segmentazione, quale contenitore è necessario utilizzare? Visualizzazione pagina, visita o visitatore?**
 
-Il contenitore di segmenti utilizzato dipende dalla larghezza di acquisizione dei dati. I contenitori di visualizzazione delle pagine portano solo hit che corrispondono ai criteri di segmento, utile per filtrare parti di visite irrilevanti. I contenitori delle visite hanno tutti gli hit di una visita in cui uno o più hit corrispondono ai criteri del segmento, utili per osservare le sessioni in generale. I contenitori dei visitatori portano tutte le visite in cui un hit corrisponde ai criteri di segmento, utile per osservare le persone. È tua scelta come analista determinare il contenitore di segmenti più adatto. See [Segmentation overview](../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+Il contenitore del segmento utilizzato dipende dalla larghezza di acquisizione dei dati. I contenitori di visualizzazione pagina consentono di inserire solo hit che corrispondono ai criteri dei segmenti, utili per filtrare parti irrilevanti delle visite. I contenitori delle visite consentono di visualizzare tutti gli hit di una visita in cui uno o più hit corrispondono ai criteri del segmento, utili per osservare le sessioni in generale. I contenitori dei visitatori consentono di effettuare tutte le visite in cui un hit corrisponde ai criteri dei segmenti, utili per osservare le persone. È la scelta da parte dell'utente come analista determinare quale contenitore di segmenti è più adatto da utilizzare. Per ulteriori informazioni, consulta Panoramica sulla [segmentazione](/help/components/c-segmentation/seg-overview.md) nella guida utente Componenti.
 
 **Perché il mio segmento non viene visualizzato in Data Warehouse?**
 
-A causa dell'architettura di elaborazione univoca di Data Warehouse, la piattaforma non è ottimizzata per gestire alcuni tipi di dati, come i percorsi. See [Data Warehouse segment compatibility](../../components/c-segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.
+A causa dell'architettura di elaborazione univoca di Data Warehouse, la piattaforma non è ottimizzata per gestire alcuni tipi di dati, ad esempio percorsi. Per ulteriori informazioni, consulta Compatibilità [dei segmenti di](/help/components/c-segmentation/seg-reference/seg-compatibility.md) Data Warehouse nella guida per l'utente dei componenti.
