@@ -7,7 +7,7 @@ title: Visitatori unici
 topic: Metriche
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ La versione 15 rimuove i duplicati [!UICONTROL Visits] e [!UICONTROL Unique Visi
 | Conversione | Un visitatore è una persona che accede al sito Web. Viene conteggiato quando si verifica un evento o un’azione correlati alla conversione. |
 | Ad Hoc Analysis | Un visitatore è una persona che accede al sito Web. Non richiede un cookie persistente. |
 
-Consulta Rapporto [Visitatori unici - Versione 15 e Analisi](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)ad hoc.
+Consulta Rapporto [Visitatori unici - Versione 15 e Analisi](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)ad hoc.
 
 >[!MORELIKETHIS]
 >
