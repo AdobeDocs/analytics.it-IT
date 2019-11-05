@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
 title: Personalizzare il codice della pagina
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Utilizzate le descrizioni dei campi in Gestione tag dinamica per personalizzare il codice della pagina durante la distribuzione di Analytics.
 
-Aggiungete i plug-in per assicurarvi che il codice venga eseguito contemporaneamente allo strumento Analytics. Per ulteriori informazioni sui plug-in di Analytics, consultate Plug-in [di](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)implementazione.
+Aggiungete i plug-in per assicurarvi che il codice venga eseguito contemporaneamente allo strumento Analytics. Per ulteriori informazioni sui plug-in di Analytics, consultate Plug-in [di](/help/implement/js-implementation/plugins/impl-plugins.md)implementazione.
 
 **[!UICONTROL  *`Property`*]**&gt; **[!UICONTROL![](assets/settings_gear.png)
 
@@ -31,8 +31,8 @@ Modifica strumento]** &gt; **[!UICONTROL Customize Page Code]**
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Apri editor </p> </td> 
-   <td colname="col2"> <p>Potete inserire qualsiasi chiamata JavaScript che deve essere attivata prima della chiamata <code> s.t()</code> finale, contenuta nel <code> s_code</code>. </p> </td> 
+   <td colname="col1"> <p>Open Editor </p> </td> 
+   <td colname="col2"> <p>Puoi inserire qualsiasi chiamata JavaScript che deve essere attivata prima della <code> s.t()</code> chiamata finale, contenuta nella <code> s_code</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Execute </p> </td> 
