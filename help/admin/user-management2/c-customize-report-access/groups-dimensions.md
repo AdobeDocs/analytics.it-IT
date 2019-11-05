@@ -9,7 +9,7 @@ title: Personalizzare le autorizzazioni della dimensione
 topic: Strumenti di amministrazione
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,19 +54,19 @@ I seguenti elementi sono dimensioni consentite.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md"> eVar </a> </p> </td> 
    <td colname="col2"> <p>Le eVar 1-250 dispongono di autorizzazioni individuali. Le eVar sono variabili di conversione personalizzate da utilizzare per segmentare le metriche di successo della conversione nei report personalizzati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Proprietà </a> </p> </td> 
-   <td colname="col2"> <p>Le proprietà sono variabili di traffico personalizzate. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Proprietà di traffico e eVar di conversione </a> nell'implementazione di Analytics. </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Proprietà </a> </p> </td> 
+   <td colname="col2"> <p>Le proprietà sono variabili di traffico personalizzate. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Proprietà di traffico e eVar di conversione </a> nell'implementazione di Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html" format="html" scope="external"> Gerarchia </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"> Gerarchia </a> </p> </td> 
    <td colname="col2"> <p> La variabile gerarchica (hierN) determina la posizione di una pagina nella gerarchia o nella struttura di pagina del sito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html" format="html" scope="external"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Simile alla funzione Elenco proprietà, le variabili elenco consentono più valori all’interno della stessa richiesta di immagine. </p> </td> 
   </tr> 
   <tr> 
@@ -74,19 +74,19 @@ I seguenti elementi sono dimensioni consentite.
    <td colname="col2"> <p>Si riferisce alle dimensioni standard (pronte all’uso) in Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/" format="https" scope="external"> AEM </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
    <td colname="col2"> <p>Adobe Experience Manager </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/" format="https" scope="external"> AMO </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/"> AMO </a> </p> </td> 
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"> Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Dimensioni di reporting Activity Map: Activity Map Page; Collegamento Activity Map; Regione Activity Map; Collegamento Activity Map Per Regione; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> Mobile </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/"> Mobile </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -94,8 +94,8 @@ I seguenti elementi sono dimensioni consentite.
    <td colname="col2"> <p>Questa integrazione con i partner non è più attiva. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html" format="html" scope="external"> Nielsen </a> </p> </td> 
-   <td colname="col2"> <p>Integrazioni per i partner. </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html"> Nielsen </a> </p> </td> 
+   <td colname="col2"> <p>Questa integrazione con i partner non è più attiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Social </p> </td> 
