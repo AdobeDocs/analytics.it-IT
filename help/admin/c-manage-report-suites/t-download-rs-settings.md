@@ -5,9 +5,9 @@ seo-title: Scaricare le impostazioni delle suite di rapporti
 solution: Analytics
 title: Scaricare le impostazioni delle suite di rapporti
 topic: Strumenti di amministrazione
-uuid: f 0 aa 19 a 5-eb 5 d -4 ad 4-b 463-9400 abb 07038
+uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,8 +16,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Procedura che descrive come generare un foglio di calcolo Excel contenente tutte le impostazioni per la suite di rapporti selezionata.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Select a report suite from the [!UICONTROL Report Suite] table.
+1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Seleziona una suite di rapporti dalla [!UICONTROL Report Suite] tabella.
 1. Fai clic su **[!UICONTROL Download]**.
 
-   Potete aprire direttamente il file del foglio di calcolo oppure salvarlo per la visualizzazione.
+   Potete aprire direttamente il file del foglio di calcolo o salvarlo per la visualizzazione.
