@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Sviluppatore e implementazione
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ Registra il numero di secondi in cui la pagina era la scheda attiva nel browser 
 
 > [!NOTE] Questa è una versione beta del plugin, e ulteriori aggiornamenti potrebbe essere disponibile.
 
-Questo plug-in richiede [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Questo plug-in richiede [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md).
 
 Questo plug-in registra anche i secondi totali in cui la pagina si trovava all’interno del browser (tempo di visualizzazione attivo e passivo). È necessario utilizzare il plug-in getPreviousValue per tenere traccia del nome di pagina precedente associato agli eventi di visibilità della pagina. Il tracciamento di questi valori consente di comprendere meglio il coinvolgimento dei visitatori e di monitorare più accuratamente il comportamento dei visitatori sui siti.
 
