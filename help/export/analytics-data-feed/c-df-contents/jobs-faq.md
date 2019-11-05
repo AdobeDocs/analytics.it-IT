@@ -1,13 +1,13 @@
 ---
 description: nulle
-keywords: Feed dati; processo; faq
+keywords: Feed dati;job;faq
 seo-description: nulle
 seo-title: Domande frequenti sui processi
 solution: Analytics
 title: Domande frequenti sui processi
-uuid: 6 da 2 c 3 a 0-79 f 9-4 d 0 a -9828-a 8 be 42 ce 2 f 3 c
+uuid: 6da2c3a0-79f9-4d0a-9828-a8be42ce2f3c
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
 
 ***Quali fattori possono influire sul tempo di consegna di un feed di dati orario?***
 
-Esistono diversi fattori che possono influire sul tempo di consegna di feed di dati orari, inclusi:
+Esistono diversi fattori che possono influire sul tempo di consegna di un feed di dati orario, tra cui:
 
-* Latenza suite di rapporti (ovvero picco non annunciato nel traffico)
+* Latenza suite di rapporti (ad es. picco non annunciato nel traffico)
 * Elaborazione a monte
-* Picco e ore non-picco
+* Picco e ore non di picco
 * Velocità di connessione Internet
