@@ -8,7 +8,7 @@ title: Panoramica su Origini dati
 topic: Sviluppatore e implementazione
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ Puoi utilizzare Origini dati per capire meglio i dati pre-clic importando i dati
 
 >[!IMPORTANT]
 >
->Affinché le origini dati ID transazione possano collegare i dati offline agli eventi online, la registrazione ID transazione deve essere abilitata dall'Assistenza clienti. Consulta [Registrazione ID transazione](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) per ulteriori informazioni.
+>Affinché le origini dati ID transazione possano collegare i dati offline agli eventi online, la registrazione ID transazione deve essere abilitata dall'Assistenza clienti. Consulta [Registrazione ID transazione](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) per ulteriori informazioni.
 
 Dopo l'importazione, la maggior parte dei dati Origini dati è disponibile in tutta la Digital Marketing Suite.
