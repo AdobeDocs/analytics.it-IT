@@ -8,7 +8,7 @@ title: Costi e budget
 topic: Reports and Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Scopri come assegnare importi di costo e budget ai canali.
 
-## Costi e budget {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-Scopri come assegnare importi di costo e budget ai canali.
-
 Il costo rappresenta ciò che si spende sul canale. Il budget rappresenta l'importo disponibile da spendere.
 
 Un modo utile per visualizzare il ROI è creare una metrica calcolata che mostra le entrate meno i costi. Oppure creane uno che mostri il costo totale insieme a una suddivisione del costo per nuovo impegno. Ad esempio, potete eseguire un [!UICONTROL First-Touch Channel] rapporto che mostra i nuovi impegni. Quindi aggiungi una metrica Costo primo contatto che ti mostra il costo per il nuovo coinvolgimento, creando una metrica calcolata.
 
-See [Calculated metrics used Marketing Channel reports](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+See [Calculated metrics used Marketing Channel reports](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 È possibile assegnare costi e budget solo ai canali. A tutti i costi viene assegnato un intervallo di tempo al quale si applicano nella segnalazione. Quando i costi sono associati direttamente a un canale, viene scelta una metrica di allocazione per mostrare come i costi si suddividono tra le campagne all'interno di un canale.
 
 Dopo aver aggiunto voci di costo e budget, potete esportare i dati della tabella in un file CSV. Potete anche importare un file CSV nella pagina Costi canale marketing.
 
-## Aggiunta di voci di costo e budget {#task_9238A033994440748960DE21593E6388}
+## Aggiunta di voci di costo e budget {#add-cost-and-budget}
 
 Aggiungi elementi di costo e budget a Marketing Channels.
 
@@ -45,11 +41,9 @@ Aggiungi elementi di costo e budget a Marketing Channels.
 
 1. (Facoltativo) Per esportare o importare file CSV, accedete alla [!UICONTROL Marketing Channel Costs] pagina, fate clic **[!UICONTROL Export File]** o **[!UICONTROL Import File]**, quindi seguite le istruzioni.
 
-## Costi del canale di marketing - definizioni {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Costi del canale di marketing - definizioni {#mktg-channel-costs}
 
 Definizioni dei campi per i costi o i budget del canale di marketing.
-
-
 
 | Campo | Definizione |
 |--- |--- |
