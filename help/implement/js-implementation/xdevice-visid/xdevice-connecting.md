@@ -9,7 +9,7 @@ title: Connettere gli utenti tra i dispositivi
 topic: Sviluppatore e implementazione
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ Quando fornisci una [!UICONTROL visitor ID] variabile con un hit, il sistema ver
 
 In genere [!UICONTROL visitor ID] viene impostato dopo l’autenticazione, o dopo che un visitatore esegue altre azioni che consentono di identificarli in modo univoco indipendentemente dal dispositivo utilizzato. È consigliabile creare un hash del nome utente o un ID interno che non contenga alcuna informazione personale.
 
-Nell'esempio [precedente](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md), dopo che il cliente ha effettuato l'accesso da ciascun dispositivo, tutti i componenti sono associati allo stesso profilo utente. Se il visitatore si disconnette successivamente su un dispositivo, l'unione continua a funzionare poiché [!UICONTROL visitor ID]gli elementi memorizzati in un cookie su ciascun dispositivo sono già associati allo stesso profilo visitatore. È consigliabile compilare la [!UICONTROL s.visitorID] variabile quando possibile nel caso in cui il [!UICONTROL visitor ID] cookie venga eliminato.
+Nell'esempio [precedente](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md), dopo che il cliente ha effettuato l'accesso da ciascun dispositivo, tutti i componenti sono associati allo stesso profilo utente. Se il visitatore si disconnette successivamente su un dispositivo, l'unione continua a funzionare poiché [!UICONTROL visitor ID]gli elementi memorizzati in un cookie su ciascun dispositivo sono già associati allo stesso profilo visitatore. È consigliabile compilare la [!UICONTROL s.visitorID] variabile quando possibile nel caso in cui il [!UICONTROL visitor ID] cookie venga eliminato.
 
 ## Conteggio unico visitatori e visite {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
