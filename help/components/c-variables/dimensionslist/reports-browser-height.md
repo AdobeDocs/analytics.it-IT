@@ -7,7 +7,7 @@ title: Altezza browser
 topic: Rapporti
 uuid: 4b824167-4a4e-40e9-bf00-957655bdb3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ Indica la distanza verticale dei dati solo nella finestra del browser. Le barre 
 
 Adobe Analytics utilizza l’altezza e la larghezza del browser solo dal primo hit di una visita. Gli altri hit non ricevono l’attribuzione per la stessa visita.
 
-Per ulteriori informazioni, vedere Larghezza/Altezza [](../../../components/c-variables/dimensionslist/browser-width.md#concept_5354E211256B40C1B47599FCC48ABA18)browser.
+Per ulteriori informazioni, vedere Larghezza/Altezza [](/help/components/c-variables/dimensionslist/browser-width.md)browser.
