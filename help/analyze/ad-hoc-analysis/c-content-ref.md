@@ -7,7 +7,7 @@ title: Generare segmenti
 topic: Analisi ad hoc
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ Ad Hoc Analysis include funzionalità familiari per la creazione di segmenti, ol
 
 Per informazioni e istruzioni sulla creazione e la gestione di segmenti nell’ambiente di segmentazione unificata, comprese le funzioni di analisi ad hoc, consulta la documentazione relativa alla segmentazione [](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) unificata.
 
-* [Nuove funzionalità](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [Nuove funzionalità](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Modifiche alla definizione del segmento](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [Cosa è successo ai segmenti esistenti?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [Cos'è successo alle cartelle dei segmenti esistenti?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [Posso gestire tutti i segmenti di Analytics in Segment Manager?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [Cos'è un contenitore Hit? È diverso da un contenitore Visualizzazione pagina?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [Quali diritti e privilegi devo utilizzare, creare e gestire i segmenti?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [Cosa devo fare con segmenti duplicati che hanno...](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [In che modo Adobe consiglia di pulire i segmenti?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [Perché non posso eliminare questo segmento?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [Ulteriori informazioni su cosa accade ai segmenti esistenti](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [Cosa è successo ai segmenti esistenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [Cos'è successo alle cartelle dei segmenti esistenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [Posso gestire tutti i segmenti di Analytics in Segment Manager?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [Cos'è un contenitore Hit? È diverso da un contenitore Visualizzazione pagina?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [Quali diritti e privilegi devo utilizzare, creare e gestire i segmenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [Cosa devo fare con segmenti duplicati che hanno...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [In che modo Adobe consiglia di pulire i segmenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [Perché non posso eliminare questo segmento?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [Ulteriori informazioni su cosa accade ai segmenti esistenti](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Funzioni {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ Se il segmento è stato [pubblicato in Experience Cloud](https://marketing.adobe
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visite da ricerca a pagamento </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visite con il cookie ID visitatore </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Questi segmenti verranno trasferiti come modelli <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> di</a> segmento nel generatore di segmenti. </p> <p>I rapporti esistenti con questi segmenti continueranno a funzionare correttamente. </p> </td> 
+   <td colname="col2"> <p>Questi segmenti verranno trasferiti come modelli <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > di</a> segmento nel generatore di segmenti. </p> <p>I rapporti esistenti con questi segmenti continueranno a funzionare correttamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmenti Experience Cloud (Suite): 
@@ -130,7 +130,7 @@ Se il segmento è stato [pubblicato in Experience Cloud](https://marketing.adobe
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visite con 5+ visite precedenti* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visite da Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) verrà migrata come modelli <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> di</a> segmento nel generatore di segmenti. Sono stati inoltre aggiunti diversi nuovi modelli di segmento. </p> <p>I rapporti esistenti con questi segmenti continueranno a funzionare correttamente. </p> </td> 
+   <td colname="col2"> <p> La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) verrà migrata come modelli <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > di</a> segmento nel generatore di segmenti. Sono stati inoltre aggiunti diversi nuovi modelli di segmento. </p> <p>I rapporti esistenti con questi segmenti continueranno a funzionare correttamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmenti di amministrazione <p>(noti anche come segmenti "globali") </p> </td> 
