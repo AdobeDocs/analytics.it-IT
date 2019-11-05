@@ -8,7 +8,7 @@ title: Dashboard e minirapporti
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -58,7 +58,7 @@ Questa dashboard fornisce una panoramica delle metriche chiave correlate alle op
 
 Utilizzate le icone [!UICONTROL Dashboard Manager] per modificare e gestire le dashboard e abilitarle per DirectAccess.
 
-Consultate [Gestione dei dashboard](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+Consultate [Gestione dei dashboard](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## Creare un dashboard {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -84,10 +84,10 @@ Prima di aggiungere un rapporto (come minirapporto) a una dashboard, definite il
 
 1. Aggiungete il contenuto disponibile al dashboard trascinando gli elementi nel quadro del rapporto.
 
-   Consultate [Creazione di un minirapporto](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) e [Modifica delle impostazioni](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)del dashboard.
+   Consultate [Creazione di un minirapporto](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) e [Modifica delle impostazioni](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)del dashboard.
 1. Fai clic su **[!UICONTROL Save.]**
 
-   Il salvataggio di un dashboard lo rende disponibile nel **[!UICONTROL Dashboard]** menu. La nuova dashboard è disponibile anche in [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), dove puoi modificare, organizzare, condividere, pianificare, archiviare dashboard e molto altro. Consultate [Gestione dei dashboard](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+   Il salvataggio di un dashboard lo rende disponibile nel **[!UICONTROL Dashboard]** menu. La nuova dashboard è disponibile anche in [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), dove puoi modificare, organizzare, condividere, pianificare, archiviare dashboard e molto altro. Consultate [Gestione dei dashboard](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 1. (Facoltativo) Per impostare il dashboard come pagina di destinazione, fate clic su **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
