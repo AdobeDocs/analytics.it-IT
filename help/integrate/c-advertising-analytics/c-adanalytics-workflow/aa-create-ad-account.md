@@ -3,7 +3,7 @@ seo-title: Configurare un account Advertising
 title: Configurare un account Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Gli amministratori di Adobe Analytics possono creare nuovi account pubblicitari e mappare più account a più suite di rapporti (1:1, 1:Molti, Molti:Molti).
 
-Gli amministratori possono anche [concedere l'accesso agli utenti non amministratori](../../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) per l'impostazione di account pubblicitari.
+Gli amministratori possono anche [concedere l'accesso agli utenti non amministratori](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) per l'impostazione di account pubblicitari.
 
 ![](assets/aa_accounts.png)
 
@@ -47,7 +47,7 @@ Gli amministratori possono anche [concedere l'accesso agli utenti non amministra
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Fornite l'ID account Google. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Fornite l'ID account Bing e l'ID cliente Bing. </li> 
-        </ul> <p>Per informazioni su questi ID, consultate <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Individuare l'ID</a> account. </p> <p>Dopo aver eseguito l'accesso, viene visualizzato il campo Token OAuth 
+        </ul> <p>Per informazioni su questi ID, consultate <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Individuare l'ID</a> account. </p> <p>Dopo aver eseguito l'accesso, viene visualizzato il campo Token OAuth 
         <systemoutput>
           Recuperato
         </systemoutput>. </p> </td> 
@@ -75,7 +75,7 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">Il parametro e il valore "s_kwcid" verranno aggiunti ai modelli di tracciamento dell'account o agli URL delle pagine di destinazione nell'account che si sta aggiungendo. Questo verrà inserito alla fine dell’URL. Di conseguenza, potrebbe essere necessaria un'azione aggiuntiva da parte dell'utente se il server Web richiede una coppia chiave=valore alla fine dell'URL OPPURE un aggiornamento per supportare qualsiasi nuova coppia chiave=valore nell'URL. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">Inoltre, le parole chiave possono essere inserite nell'URL di destinazione come parte del valore "s_kwcid", quindi se contengono caratteri speciali o simboli, si prega di confermare che il server Web può supportare tali caratteri (un esempio di caratteri speciali comuni è "+", utilizzato nelle parole chiave "Broad Match Modified"). </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuale</span>: Consente di gestire il modo in cui i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Fare riferimento a questi esempi di tracciamento manuale per ciascun motore</a>di ricerca. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuale</span>: Consente di gestire il modo in cui i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Fare riferimento a questi esempi di tracciamento manuale per ciascun motore</a>di ricerca. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -99,7 +99,7 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Mappatura suite di rapporti </p> </td> 
-      <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> <p>Se la suite di rapporti non è elencata, puoi <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external"> mappare la tua suite di rapporti su un'organizzazione</a> Experience Cloud utilizzando questo strumento. </p> </td> 
+      <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> <p>Se la suite di rapporti non è elencata, puoi <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  > mappare la tua suite di rapporti su un'organizzazione</a> Experience Cloud utilizzando questo strumento. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -107,7 +107,7 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
 1. Fai clic su **[!UICONTROL Save]**.
 1. Dopo il salvataggio, una liberatoria visualizza un elenco di avvertenze. Vi verrà chiesto di confermare di aver letto e di comprendere il presente contratto. Click the checkbox, then click **[!UICONTROL OK]**.
 
-   Ora puoi passare all’interfaccia utente [di](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB)gestione degli account pubblicitari, in cui deve essere elencato l’account appena creato.
+   Ora puoi passare all’interfaccia utente [di](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)gestione degli account pubblicitari, in cui deve essere elencato l’account appena creato.
 
 > [!NOTE] Devi aspettare almeno 24 ore prima che i dati del motore di ricerca inizino a compilare i report di Analytics.
 
