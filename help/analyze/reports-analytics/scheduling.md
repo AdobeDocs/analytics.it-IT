@@ -8,7 +8,7 @@ title: Pianificazione e distribuzione del rapporto
 topic: Reports and Analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -142,4 +142,4 @@ Per annullare l’iscrizione a un rapporto pianificato:
 
 L'annullamento della sottoscrizione a un rapporto non annulla il rapporto pianificato.
 
-Per annullare un rapporto pianificato, andate al Gestore pianificazione e fate clic sulla X rossa accanto al nome del rapporto. [Altro...](../../analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
+Per annullare un rapporto pianificato, andate al Gestore pianificazione e fate clic sulla X rossa accanto al nome del rapporto. [Altro...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
