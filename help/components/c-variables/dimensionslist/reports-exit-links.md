@@ -7,7 +7,7 @@ title: Esci dai collegamenti
 topic: Rapporti
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ Affinché la pagina possa essere compilata correttamente, è necessario soddisfa
 * Puoi visualizzare questo rapporto in formati con tendenze e classifica.
 * Questo rapporto può utilizzare un filtro di ricerca per individuare specifici elementi di riga.
 * Puoi creare [suddivisioni](/help/analyze/reports-analytics/reports-customize/breakdowns.md) con qualsiasi altra variabile tramite Strumenti di amministrazione.
-* [Le istanze](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) sono le uniche metriche disponibili per impostazione predefinita in questo rapporto, contando il numero di volte in cui il collegamento di uscita è attivato.
+* [Le istanze](/help/components/c-variables/c-metrics/metrics-instance.md) sono le uniche metriche disponibili per impostazione predefinita in questo rapporto, contando il numero di volte in cui il collegamento di uscita è attivato.
 * Per questo rapporto è possibile abilitare i visitatori giornalieri, settimanali, mensili e trimestrali. Tuttavia, solo un rappresentante Adobe può attivarli a un costo aggiuntivo. Abilitando visitatori univoci per qualsiasi variabile di tracciamento dei collegamenti personalizzata si aumenta notevolmente la latenza per la suite di rapporti.
 
