@@ -1,24 +1,24 @@
 ---
-description: Descrive un flusso di lavoro consigliato per segmenti creati con Segment Builder (Generatore segmenti) e gestito tramite Gestione segmenti.
-seo-description: Descrive un flusso di lavoro consigliato per segmenti creati con Segment Builder (Generatore segmenti) e gestito tramite Gestione segmenti.
-seo-title: Panoramica sul flusso di lavoro di segmentazione
+description: Descrive un flusso di lavoro consigliato per i segmenti creati con Segment Builder e gestiti tramite Segment Manager (Gestore segmenti).
+seo-description: Descrive un flusso di lavoro consigliato per i segmenti creati con Segment Builder e gestiti tramite Segment Manager (Gestore segmenti).
+seo-title: Panoramica sulla segmentazione del flusso di lavoro
 solution: Analytics
-title: Panoramica sul flusso di lavoro di segmentazione
+title: Panoramica sulla segmentazione del flusso di lavoro
 topic: Segmenti
-uuid: e 15 aaa 2 f-a 604-46 dd -9 bdd-e 2 a 340 c 74927
+uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: baab08155127871a28a885bbadf21ecaf94ca9d1
+source-git-commit: 29bff19e4d33402e8fb65192d7eee134c76c537d
 
 ---
 
 
-# Panoramica sul flusso di lavoro di segmentazione
+# Panoramica sulla segmentazione del flusso di lavoro
 
-Descrive un flusso di lavoro consigliato per segmenti creati con Segment Builder (Generatore segmenti) e gestito tramite Gestione segmenti.
+Descrive un flusso di lavoro consigliato per i segmenti creati con Segment Builder e gestiti tramite Segment Manager (Gestore segmenti).
 
-## Segmentation workflow overview {#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF}
+## Panoramica sulla segmentazione del flusso di lavoro
 
-Descrive un flusso di lavoro consigliato per segmenti creati con Segment Builder (Generatore segmenti) e gestito tramite Gestione segmenti.
+Descrive un flusso di lavoro consigliato per i segmenti creati con Segment Builder e gestiti tramite Segment Manager (Gestore segmenti).
 
 <!-- 
 
@@ -29,42 +29,42 @@ seg_workflow.xml
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png)[ Pianifica segmenti](../../../components/c-segmentation/c-segmentation-workflow/seg-plan.md#concept_D8BE6AB8D8E540E58C3462F9E02F4847)
+![](assets/step1_icon.png) Segmenti [ del piano](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
 
-Hai inoltrato tutte le domande giuste prima di creare segmenti e configurare un ambiente di gestione dei segmenti? Hai progettato il segmento con il suo obiettivo e utilizzo distinto?
+Hai posto tutte le domande giuste prima di creare segmenti e configurare un ambiente di gestione dei segmenti? Hai progettato il segmento con il suo scopo previsto e con un utilizzo preciso in mente?
 
-Consulta l'elenco di controllo Pianificazione segmento per informazioni su come pianificare e organizzare i segmenti.
+Consulta l'elenco di controllo Pianificazione segmenti per informazioni sulla pianificazione e l'organizzazione dei segmenti.
 
-![](assets/step2_icon.png)[Creare segmenti](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)
+![](assets/step2_icon.png) Segmenti [di compilazione](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)
 
-Crea e modifica segmenti da usare in tutte le funzionalità di Analytics.
+Creazione e modifica di segmenti da utilizzare in tutte le funzionalità di Analytics.
 
-See [Build Sequential Segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560) for how to build segments with the THEN operator.
+Consulta [Creazione di segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) sequenziali per informazioni su come creare segmenti con l'operatore THEN.
 
-![](assets/step3_icon.png)[ Segmenti di tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50)
+![](assets/step3_icon.png) Segmenti [ di tag](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
-Assegna tag ai segmenti per semplificare l'organizzazione e la condivisione. La gestione dei tag sostituisce gerarchie di cartelle in analisi ad hoc. Scopri come pianificare e assegnare tag per ricerche e organizzazione semplici e avanzate.
+Assegnare tag ai segmenti per semplificare l’organizzazione e la condivisione. I tag sostituiscono le gerarchie di cartelle nelle analisi ad hoc. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate.
 
-![](assets/step4_icon.png)[ Approva segmenti](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953)
+![](assets/step4_icon.png) Approvare i segmenti [](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md)
 
-Approva i segmenti per renderli canonici.
+Approvare i segmenti per renderli canonici.
 
-![](assets/step5_icon.png)[ Applica segmenti](../../../components/c-segmentation/c-segmentation-workflow/t-seg-apply.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)
+![](assets/step5_icon.png) [ Applica segmenti](/help/components/c-segmentation/c-segmentation-workflow/t-seg-apply.md)
 
-Puoi applicare segmenti direttamente da un rapporto, dalla barra Segmenti (Mostra segmenti).
+Puoi applicare segmenti direttamente da un rapporto, dalla barra dei segmenti (Mostra segmenti).
 
-![](assets/step6_icon.png)[ Condividi segmenti](../../../components/c-segmentation/c-segmentation-workflow/t-seg-share.md#task_7DC54643083E42C28F918E4F0845C5A5)
+![](assets/step6_icon.png) [ Condivisione segmenti](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md)
 
-Condividi i tuoi segmenti con il pubblico desiderato in altri strumenti Analytics, ad Adobe Target e in Adobe Experience Cloud.
+Condividi i tuoi segmenti con l'audience prevista in altri strumenti Analytics, in Adobe Target e Adobe Experience Cloud.
 
-![](assets/step7_icon.png)[ Filtra segmenti](../../../components/c-segmentation/c-segmentation-workflow/t-seg-filter.md#task_B59946C6D38945629C1FEACF80A85746)
+![](assets/step7_icon.png) Segmenti [ filtro](/help/components/c-segmentation/c-segmentation-workflow/t-seg-filter.md)
 
-Filtrare per tag, proprietari e altri filtri (Mostra tutti, Personale, Condiviso con me, Preferiti e Approvato).
+Filtrare per tag, proprietari e altri filtri (Mostra tutto, Personale, Condiviso con me, Preferiti e Approvato).
 
-![](assets/step8_icon.png)[ Contrassegna segmento come preferiti](../../../components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md#task_F45DFA3FBF0C4082B46A0D032CB20FC5)
+![](assets/step8_icon.png) Segmento [ Contrassegna come preferiti](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
 
-La contrassegnazione dei segmenti come preferiti rappresenta un altro modo per organizzarli per semplificarne l'utilizzo.
+Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
 
-[Gestire i segmenti](../../../components/c-segmentation/c-segmentation-workflow/seg-manage.md#concept_7A2E019317864065B7C641DC3315928F)
+[Gestisci segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)
 
-Gestione segmenti offre diversi modi per curare segmenti, ad esempio condividere, filtrare, aggiungere tag, approvare, copiare, eliminare e contrassegnare i preferiti.
+Il Gestore dei segmenti offre diversi modi per curare i segmenti, come la condivisione, il filtro, l’assegnazione di tag, l’approvazione, la copia, l’eliminazione e la marcatura come preferiti.
