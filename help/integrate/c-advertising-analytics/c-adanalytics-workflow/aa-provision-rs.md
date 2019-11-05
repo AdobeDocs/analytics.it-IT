@@ -5,7 +5,7 @@ seo-title: Abilita suite di rapporti per Advertising Analytics
 title: Abilita suite di rapporti per Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,5 +34,5 @@ Per visualizzare i dati di ricerca Analisi della pubblicità in Analytics, devi 
    | Più recente (ultimo) | L'ultimo valore visualizzato ottiene il credito di allocazione completo per l'evento di successo, indipendentemente dalle variabili attivate prima di esso. |
    | Scade dopo | Consente di specificare un periodo di tempo, o un evento, dopo il quale scade il valore eVar (ovvero, non riceve più credito per gli eventi di successo).  Se un evento di successo si verifica dopo la scadenza eVar, il valore None non riceve credito per l’evento (nessun eVar è attivo). |
 
-1. Fate clic **[!UICONTROL Enable Advertising Analytics Reporting]** (prima volta) o **[!UICONTROL Update Advertising Analytics Reporting]** (ora successiva). La tua suite di rapporti è ora pronta per ricevere i dati di ricerca di Analisi della pubblicità. Non sei pronto a [creare account](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)pubblicitari.
+1. Fate clic **[!UICONTROL Enable Advertising Analytics Reporting]** (prima volta) o **[!UICONTROL Update Advertising Analytics Reporting]** (ora successiva). La tua suite di rapporti è ora pronta per ricevere i dati di ricerca di Analisi della pubblicità. Non sei pronto a [creare account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)pubblicitari.
 
