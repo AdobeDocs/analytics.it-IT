@@ -5,7 +5,7 @@ seo-title: Quale strumento Adobe Analytics usare?
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni sui confronti tra i prodotti Adobe Analytics, consult
 * Se si desidera organizzare il lavoro del progetto tramite tabulazioni.
 * Per utilizzare il rapporto Analisi sito (rapporto percorsi 3D).
 
-**[Utilizzare Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** dati:
+**[Utilizzare Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** dati:
 
 * Come opzione dello strumento Analytics più flessibile (fino all’analisi a livello di visitatore e a livello di hit).
 * Per creare un dataset multicanale di interazioni online e offline da CRM a POS a Web.
