@@ -136,4 +136,4 @@ I servizi tecnici devono essere utilizzati quando:
 * Sono presenti più origini dati.
 * Sono presenti requisiti ETL di dati complessi (Extract-Transform-Load).
 * Desiderate un marchio personalizzato.
-* Vuoi visualizzare [!UICONTROL Analytics Live Stream].
+* Vuoi visualizzare [!UICONTROL Analytics Live Stream]
