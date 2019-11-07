@@ -1,11 +1,9 @@
 ---
 description: Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
-seo-description: Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
-seo-title: Privacy dei dati e Data Connectors (Genesis)
 title: Privacy dei dati e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
