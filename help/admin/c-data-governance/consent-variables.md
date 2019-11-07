@@ -1,12 +1,10 @@
 ---
 description: Variabili per la generazione di rapporti sulla privacy in Privacy dei dati.
-seo-description: Variabili per la generazione di rapporti sulla privacy in Privacy dei dati.
-seo-title: Variabili per la generazione di rapporti sulla privacy
 solution: Analytics
 title: Variabili per la generazione di rapporti sulla privacy
 topic: Strumenti di amministrazione
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -38,12 +36,14 @@ Tali variabili per segnalazioni relative alla privacy forniscono un’infrastrut
 Puoi abilitare le variabili per segnalazioni relative alla privacy tramite una nuova impostazione Privacy disponibile nell’Admin Console di Analytics.
 
 Ogni suite di rapporti può essere configurata come segue:
-1. In Reports &amp; Analytics fai clic su **[!UICONTROL Admin > Report Suites.]**
-1. Seleziona le suite di rapporti in cui stai raccogliendo dati multimediali e fai clic su **[!UICONTROL Edit Settings > Privacy Management.]**
+1. In Reports &amp; Analytics fai clic su **[!UICONTROL Admin > Report Suites]**.
+1. Seleziona le suite di rapporti in cui stai raccogliendo dati multimediali e fai clic su **[!UICONTROL Edit Settings > Privacy Management]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Enable Data Privacy Reports]**. **Nota:** una volta abilitate queste variabili non possono essere disattivate.
+1. Fai clic sul pulsante **[!UICONTROL Enable Data Privacy Reports]**. 
+
+   > [!NOTE] Una volta abilitate queste variabili non possono essere disattivate.
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -65,14 +65,14 @@ Consulta [Variabili di dati di contesto](https://docs.adobe.com/help/en/analytic
 
 * Dati contestuali: `contextData.['cm.ssf']`
 * Valori accettati:
-   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * Nessun altro valore è accettato per questo parametro.
 
 ### DMP
 
 * Dati contestuali: `contextData.['opt.dmp']`
 * Valori accettati:
-   * N: quando si invia il valore “N”, indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati. **Nota:** l’impostazione di questa variabile su “N” al momento non blocca la condivisione su AAM, tuttavia, il blocco delle chiamate alla funzionalità AAM verrà aggiunto all’inizio del 2020. Per il momento Adobe consiglia di impostare `c.cm.ssf=1` e `c.opt.dmp=N` per bloccare l’invio degli hit ad AAM.
+   * N: quando si invia il valore “N”, indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati. **Nota**: L'impostazione di questa variabile su "N" al momento non blocca la condivisione su AAM, tuttavia, il blocco delle chiamate alla funzionalità AAM verrà aggiunto all'inizio del 2020. Per il momento Adobe consiglia di impostare `c.cm.ssf=1` e `c.opt.dmp=N` per bloccare l’invio degli hit ad AAM.
    * Y: quando si invia il valore “Y”, indica che il consumatore sta accettando la condivisione sulle piattaforme di gestione dei dati.
 
 ### SELL
