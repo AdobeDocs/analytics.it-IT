@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Etichette Privacy dei dati per le variabili di Analytics
 title: Etichette Privacy dei dati per le variabili di Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
