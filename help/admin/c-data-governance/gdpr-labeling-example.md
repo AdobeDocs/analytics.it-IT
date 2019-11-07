@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Esempi di etichettatura
 title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -67,7 +65,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Sono interessate solo le celle nelle righe contenenti AAID = 77 e un’etichetta DEL-DEVICE.
+> [!NOTE] Sono interessate solo le celle nelle righe contenenti AAID = 77 e un’etichetta DEL-DEVICE.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -81,7 +79,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “Privacy-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
+> [!NOTE] sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “Privacy-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
