@@ -1,19 +1,37 @@
 ---
-title: Aiuto sull’implementazione di Analytics
-seo-title: Aiuto sull’implementazione di Analytics
+title: Implementazione di Analytics per dispositivi mobili
+seo-title: Implementazione di Analytics per dispositivi mobili
 description: nulle
 seo-description: nulle
 translation-type: tm+mt
-source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# Guida all’implementazione di Analytics
+# Implementazione di Analytics per dispositivi mobili
 
 ![Banner](../../assets/doc_banner_implement.png)
 
-Questa guida descrive i diversi metodi di implementazione di Adobe Analytics.
+Per implementare Analytics per dispositivi mobili, consulta il seguente elenco di repository e documentazione dell’SDK:
+
+SDK della piattaforma Experience
+
+
+SDK della piattaforma Experience
+
+Documentazione SDK per la piattaforma Experience
+
+SDK 4.x:
+
+Documentazione SDK 4.x
+
+3.x Documentazione SDK: Sebbene gli SDK di Analytics 3.x per dispositivi mobili non siano più supportati, potete accedere alla seguente documentazione:
+
+
+
+
+
 
 * **Adobe Experience Platform Launch:** metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Inserisci un tag loader in ciascuna pagina e utilizza l’interfaccia di Launch per determinare come viene definita ogni variabile.
 * **Dynamic Tag Management:** predecessore di Launch, DTM offre un’interfaccia simile per implementare Analytics, ma non viene più aggiornato e non offre flessibilità. Adobe consiglia di implementare Adobe Analytics tramite Launch.
