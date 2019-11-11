@@ -1,42 +1,42 @@
 ---
-description: AppMeasurement 3.x per Android
-seo-description: Documentazione precedente per AppMeasurement 3.x per Android
-seo-title: AppMeasurement 3.x per Android
+description: AppMeasurement 3.x per iOS
+seo-description: Documentazione precedente per AppMeasurement 3.x per iOS
+seo-title: AppMeasurement 3.x per iOS
 solution: Analytics
 subtopic: Segnalibri
-title: AppMeasurement 3.x per Android
+title: AppMeasurement 3.x per iOS
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# AppMeasurement 3.x per Android
+# AppMeasurement 3.x per iOS
 
-*Nota: Questo documento contiene informazioni legacy per le versioni precedenti di AppMeasurement, in particolare per le versioni 3.x per Android.
+*Nota: Questo documento contiene informazioni legacy per le versioni precedenti di AppMeasurement, in particolare per le versioni 3.x per iOS.
 Per informazioni sull’implementazione AppMeasurement corrente, consultate[Informazioni su AppMeasurement per Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).*
 
-*Ultimo aggiornamento 15/3/2018 AppMeasurement 3.x per Android*
+*Ultimo aggiornamento 15/3/2018 AppMeasurement 3.x per iOS*
 
-Adobe AppMeasurement per Android consente di misurare le applicazioni Android native in Adobe Experience Cloud.
+Adobe AppMeasurement per iOS consente di misurare le applicazioni native per iPhone e iPad in Adobe Experience Cloud.
 
-Questa guida è divisa in due sezioni: una sezione per l'analista con esperienza Adobe Analytics e una sezione per lo sviluppatore Android con esperienza di sviluppo di app mobili.
+Questa guida è divisa in due sezioni: una sezione per l'analista con esperienza Adobe Analytics e una sezione per lo sviluppatore iOS con esperienza di sviluppo di app mobili.
 
-**Versioni** supportate: Android 2.0 o versione successiva.
+**Versioni** supportate: iOS 4.3 o successivo.
 
-**Scarica la libreria** Le istruzioni e i collegamenti per il download per tutte le piattaforme mobili AppMeasurement sono disponibili nella pagina Measuring and OptimizingMobile Applications in Developer Connection. Per scaricare le librerie è necessario disporre di un account Developer Connection gratuito o di un account SiteCatalyst. I collegamenti per il download non vengono visualizzati finché non avete effettuato l'accesso.
+**Scarica la libreria** Le istruzioni e i collegamenti per il download per tutte le piattaforme mobili AppMeasurement sono disponibili nella pagina Measuring and OptimizingMobile Applications in Developer Connection. Per scaricare le librerie è necessario disporre di un account Developer Connection gratuito o di un login di reporting e analisi. I collegamenti per il download non vengono visualizzati finché non avete effettuato l'accesso.
 
 ## Avvio rapido di Analytics
 
-Questa sezione illustra come implementare la libreria Android e aggiungere il codice necessario per un’implementazione standard. I passaggi sono inclusi per mostrare come inviare eventi personalizzati e altri dati.
+Questa sezione illustra come implementare la libreria iOS e aggiungere il codice necessario per un’implementazione standard. I passaggi sono inclusi per mostrare come inviare eventi personalizzati e altri dati.
 
 Come analista, devi abilitare i rapporti per l’applicazione mobile per la suite di rapporti. Se hai altre metriche da acquisire, devi fornire allo sviluppatore una descrizione delle variabili di dati di contesto che devono essere inviate dall'applicazione. Ad esempio, per raccogliere un nome utente dopo l’accesso, potete fare in modo che lo sviluppatore imposti il nome utente in una variabile di dati contestuali denominata `myco.username`.
 
-### Abilitare i rapporti sulle applicazioni mobili in SiteCatalyst
+### Abilitare i rapporti delle applicazioni mobili in Analytics
 
-SiteCatalyst fornisce un'interfaccia per abilitare il tracciamento del ciclo di vita delle app mobili. Questa mappatura consente a SiteCatalyst di generare automaticamente i rapporti sulle applicazioni mobili.
+Analytics fornisce un'interfaccia per abilitare il tracciamento del ciclo di vita delle app mobili. Questa mappatura consente ad Analytics di generare automaticamente i rapporti sulle applicazioni mobili.
 
 1. Apri Admin Console &gt; Suite di rapporti &gt; Modifica impostazioni &gt; Gestione mobile &gt; Generazione rapporti applicazioni mobili.
 1. Fate clic su Abilita tracciamento del ciclo di vita delle app mobili.
@@ -57,19 +57,17 @@ Se intendi memorizzare gli hit quando il dispositivo è offline, le marche tempo
 
 Dopo aver attivato il tracciamento offline, tutti gli hit devono essere contrassegnati con marca temporale o non vengono raccolti. Se i dati AppMeasurement vengono inviati a una suite di rapporti che raccoglie anche dati da JavaScript, potrebbe essere necessario impostare una suite di rapporti distinta per i dati mobili per evitare la perdita di dati, o includere una marca temporale personalizzata negli hit JavaScript utilizzando la variabile s.timestamp.
 
-Se non sei sicuro se le marche temporali sono abilitate nella suite di rapporti, contatta l'Assistenza clienti.
+Se non sei sicuro se le marche temporali sono abilitate nella suite di rapporti, contatta l’Assistenza clienti.
 
 ## Guida introduttiva per sviluppatori
 
-Questa sezione descrive come selezionare e configurare gli eventi, le eVar e le proprietà da utilizzare per la raccolta dei dati Android. Sono inclusi anche i passaggi per creare regole di elaborazione per copiare i dati contestuali inviati dalle librerie Android a queste variabili.
-
-I passaggi per implementare la libreria Android e iniziare a inviare i dati di misurazione sono i seguenti:
+Questa sezione descrive i passaggi necessari per implementare la libreria iOS e iniziare a inviare i dati di misurazione, tra cui:
 
 * Ottenere la libreria
 * Aggiungere la libreria al progetto
-* Aggiungere le autorizzazioni dell'app
 * Parola rapida su TrackingHelper
 * Implementazione
+
 
 ### Ottenere la libreria
 
