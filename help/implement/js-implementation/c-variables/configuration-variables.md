@@ -9,24 +9,24 @@ title: Variabili di configurazione
 topic: Sviluppatore e implementazione
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 ---
 
 
 # Panoramica delle variabili di configurazione
 
-Le variabili di configurazione controllano il modo in cui i dati vengono catturati ed elaborati nel reporting. Le variabili di configurazione più comuni, solitamente impostate nel JavaScript AppMeasurement.js globale principale. Queste variabili possono essere impostate all’interno del codice a livello di pagina di Analytics e, se appropriato, dei collegamenti.
+Le variabili di configurazione controllano il modo in cui i dati vengono catturati ed elaborati nel reporting. Le variabili di configurazione più comuni generalmente impostate nel JavaScript AppMeasurement.js globale principale. Queste variabili possono essere impostate all’interno del codice a livello di pagina di Analytics e, se appropriato, dei collegamenti.
 
 Per impostazione predefinita, non tutte queste variabili vengono visualizzate nel codice quando si genera codice tramite **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. Alcune di queste variabili di configurazione potrebbero non essere applicabili alle esigenze di implementazione del sito.
 
 Alcuni degli obiettivi di utilizzo di queste variabili di configurazione sono:
 
-* Consente di tenere traccia di più siti/domini.
-* Utilizzate qualsiasi valuta sugli acquisti.
-* Acquisire dati in lingue diverse.
+* Tracciare più siti/domini
+* Usa qualsiasi valuta per gli acquisti
+* Acquisire dati in lingue diverse
 * Tracciamento dei collegamenti (numero di file scaricati, collegamenti a siti esterni).
-* Tieni traccia dei collegamenti personalizzati per scopi unici.
+* Tracciare collegamenti personalizzati per scopi univoci
 
 > [!NOTE] [!DNL AppMeasurement] richiede che tutte le variabili di configurazione siano impostate prima della chiamata iniziale alla funzione track, `t()`. Se le variabili di configurazione sono impostate dopo la chiamata a `t()`, potrebbero verificarsi risultati imprevisti. Per garantire la corretta raccolta dei dati, tutte le variabili di configurazione devono essere al di sopra della `doPlugins` funzione.
 
@@ -74,7 +74,7 @@ Per informazioni su variabili di configurazione specifiche, fate clic su uno dei
 
 * [s.linkTrackVars](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html): Includete un elenco separato da virgole di variabili inviate con collegamenti personalizzati, di uscita e di download.
 
-* [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Utilizzare per creare rapporti su un sottoinsieme specifico di collegamenti di uscita.
+* [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Utilizzare per eseguire rapporti su un sottoinsieme specifico di collegamenti di uscita.
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Chiama la `s_doPlugins` funzione prima di ogni richiesta di immagine.
 
