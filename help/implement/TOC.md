@@ -4,15 +4,15 @@ audience: utente finale
 user-guide-title: Guida all’implementazione di Analytics
 user-guide-url: /content/help/it-IT/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
 
 # Guida all’implementazione di Analytics {#implementation}
 
-+ [Aiuto sull'implementazione di Analytics](home.md)
-+ Note sulla versione AppMeasurement {#appmeasurement-release-notes}
++ [Aiuto per l’implementazione di Analytics](home.md)
++ Note sulla versione di AppMeasurement {#appmeasurement-release-notes}
    + [AppMeasurement per JavaScript](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [Codice H JavaScript: legacy](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [Rapporto sulla mappatura variabile](impl-testing/report-variable-mapping.md)
    + [Variabile per mappatura rapporti](impl-testing/var-report-mapping.md)
 + [Implementazione di Analytics per gli assistenti digitali](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [Implementazione di Analytics per dispositivi mobili](mobile-device-sdk.md)
