@@ -5,12 +5,13 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
 
-# s.account
+# s.useForcedLinkTracking
+
 
 La variabile determina la suite di rapporti in cui i dati vengono memorizzati e segnalati.
 
@@ -20,7 +21,7 @@ Se si inviano a più suite di rapporti (tag con più suite), `s.account` può tr
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |--- |--- |--- |--- |
-| 40 Bytes | Nel percorso URL | N/D | N/D |
+| 40 byte | Nel percorso URL | N/D | N/D |
 
 Ogni ID suite di rapporti deve corrispondere al valore creato nel [!DNL Admin Console]. Ogni ID suite di rapporti deve essere di 40 byte o inferiore, ma l'aggregazione di tutte le suite di rapporti (l'intero elenco separato da virgole) non ha limiti.
 
@@ -61,7 +62,7 @@ var s_account="mycompanycom,mycompanysection"
 
 Il nome descrittivo associato a ciascun ID suite di rapporti può essere modificato da Adobe [!DNL Customer Care]. Il nome descrittivo è visibile [!DNL Analytics] nella casella a discesa del sito, nella sezione superiore sinistra della schermata.
 
-## Pitfalls, Questions, and Tips
+## Insidie, domande e suggerimenti
 
 * Se `s_account` è vuoto, non dichiarato o contiene un valore imprevisto, non viene raccolto alcun dato.
 * Se la `s_account` variabile è un elenco separato da virgole (tag per più suite), non inserite spazi tra gli ID delle suite di rapporti.
