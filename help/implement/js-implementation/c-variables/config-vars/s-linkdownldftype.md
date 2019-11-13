@@ -5,7 +5,7 @@ seo-description: Le variabili dinamiche consentono di copiare i valori da una va
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -56,3 +56,55 @@ Nessuno
 * L'inclusione di un'estensione di file comune in *`linkDownloadFileTypes`* potrebbe aumentare notevolmente il totale delle chiamate server inviate ai server Adobe.
 * I collegamenti ai reindirizzamenti sul lato server o alle pagine HTML che iniziano automaticamente il download di un file non vengono conteggiati a meno che l'estensione del file non sia inclusa *`linkDownloadFileTypes`*.
 * I collegamenti che utilizzano JavaScript (come javascript:openLink( )) non vengono conteggiati nei download dei file.
+
+## Tracciamento automatico dei collegamenti di uscita e dei download dei file
+
+Il file JavaScript può essere configurato per tenere traccia automaticamente dei download dei file e dei collegamenti di uscita, in base ai parametri che definiscono i tipi di file di download e i collegamenti di uscita.
+
+I parametri che controllano il tracciamento automatico sono i seguenti:
+
+```
+s.trackDownloadLinks=true 
+s.trackExternalLinks=true 
+s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,doc,pdf,xls" 
+s.linkInternalFilters="javascript:,mysite.com,[more filters here]" 
+s.linkLeaveQueryString=false 
+```
+
+I parametri `trackDownloadLinks` e `trackExternalLinks` determinare se sono abilitati il download automatico dei file e il tracciamento dei collegamenti di uscita. Quando attivato, qualsiasi collegamento con un tipo di file che corrisponda a uno dei valori in `linkDownloadFileTypes` viene tracciato automaticamente come download di file. Qualsiasi collegamento con un URL che non contiene uno dei valori in `linkInternalFilters` viene tracciato automaticamente come collegamento di uscita.
+
+In JavaScript H.25.4 (rilasciato a febbraio 2013), il tracciamento automatico dei collegamenti di uscita è stato aggiornato per ignorare sempre i collegamenti con `HREF` gli attributi che iniziano con `#`, `about:`, o `javascript:`.
+
+### Esempio 1
+
+I tipi di file `.jpg` e `.aspx` non sono inclusi in `linkDownloadFileTypes` precedenza, pertanto nessun clic su di essi viene tracciato automaticamente e segnalato come download di file.
+
+Il parametro `linkLeaveQueryString` modifica la logica utilizzata per determinare i collegamenti di uscita. Se `linkLeaveQueryString`=false, i collegamenti di uscita sono determinati utilizzando solo il dominio, il percorso e la parte file dell’URL del collegamento. Se `linkLeaveQueryString`=true, per determinare un collegamento di uscita viene utilizzata anche la porzione stringa della query dell’URL del collegamento.
+
+### Esempio 2
+
+Con le seguenti impostazioni, l'esempio seguente verrà conteggiato come collegamento di uscita:
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=false 
+ 
+//HTML file 
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site!</a> 
+```
+
+### Esempio 3
+
+Con le seguenti impostazioni, il collegamento seguente non viene conteggiato come collegamento di uscita:
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=true 
+ 
+//HTML  
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
+```
+
+*Nota: È possibile tenere traccia di un singolo collegamento solo come collegamento di download o uscita del file, con il download prioritario. Se un collegamento è un collegamento di uscita e un download di file basato sui parametri`linkDownloadFileTypes`e`linkInternalFilters`, viene tracciato e segnalato come download di file e non come collegamento di uscita.*
