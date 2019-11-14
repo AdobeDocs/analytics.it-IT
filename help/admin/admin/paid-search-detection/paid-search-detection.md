@@ -1,13 +1,11 @@
 ---
 description: La funzione Rilevamento ricerca a pagamento si distingue dalle ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. Potete specificare i motori di ricerca in cui utilizzate gli annunci a pagamento e specificare una stringa di caratteri nell'URL di una visita da un annuncio a pagamento.
-seo-description: La funzione Rilevamento ricerca a pagamento si distingue dalle ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. Potete specificare i motori di ricerca in cui utilizzate gli annunci a pagamento e specificare una stringa di caratteri nell'URL di una visita da un annuncio a pagamento.
-seo-title: Rilevamento di ricerca a pagamento
 solution: Analytics
 title: Rilevamento di ricerca a pagamento
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
