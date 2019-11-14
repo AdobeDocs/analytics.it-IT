@@ -1,11 +1,9 @@
 ---
 description: Mostra come rimuovere o eliminare un evento da un hit utilizzando la regola di elaborazione, senza implementare una modifica nella pagina.
-seo-description: Mostra come rimuovere o eliminare un evento da un hit utilizzando la regola di elaborazione, senza implementare una modifica nella pagina.
-seo-title: Rimozione di un evento da un'occorrenza
 title: Rimozione di un evento da un'occorrenza
 uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
