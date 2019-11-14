@@ -1,14 +1,12 @@
 ---
 description: Informazioni sul modello Origini dati, che forniscono un framework di dati idoneo all'invio di un set specifico di dati esterni a Origini dati.
-seo-description: Informazioni sul modello Origini dati, che forniscono un framework di dati idoneo all'invio di un set specifico di dati esterni a Origini dati.
-seo-title: Panoramica modello Origini dati
 solution: Analytics
-subtopic: Origini dati
+subtopic: Data sources
 title: Panoramica modello Origini dati
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
