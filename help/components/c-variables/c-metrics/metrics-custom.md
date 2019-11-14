@@ -1,13 +1,11 @@
 ---
 description: Le metriche personalizzate consentono di tenere traccia di metriche di successo aggiuntive sul sito.
-seo-description: Le metriche personalizzate consentono di tenere traccia di metriche di successo aggiuntive sul sito.
-seo-title: Metriche personalizzate
 solution: Analytics
 title: Metriche personalizzate
-topic: Metriche
+topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
