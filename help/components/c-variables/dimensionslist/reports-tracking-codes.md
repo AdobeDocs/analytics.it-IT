@@ -1,13 +1,11 @@
 ---
 description: Misura il modo in cui vari codici di monitoraggio pubblicitario influiscono sui diversi eventi di conversione sul sito. Questo rapporto può essere utilizzato per misurare le prestazioni di campagne specifiche per diversi eventi di successo o per vedere in che modo le campagne aiutano o ostacolano le iniziative del sito, ad esempio quali campagne generano il maggior numero di entrate.
-seo-description: Misura il modo in cui vari codici di monitoraggio pubblicitario influiscono sui diversi eventi di conversione sul sito. Questo rapporto può essere utilizzato per misurare le prestazioni di campagne specifiche per diversi eventi di successo o per vedere in che modo le campagne aiutano o ostacolano le iniziative del sito, ad esempio quali campagne generano il maggior numero di entrate.
-seo-title: Codici di tracciamento
 solution: Analytics
 title: Codici di tracciamento
-topic: Rapporti
+topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
