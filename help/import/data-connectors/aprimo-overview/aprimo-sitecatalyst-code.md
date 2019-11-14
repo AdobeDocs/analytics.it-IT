@@ -1,11 +1,9 @@
 ---
 description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Adobe Analytics presente sulle pagine.
-seo-description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Adobe Analytics presente sulle pagine.
-seo-title: Codice plug-in di Adobe Analytics
 title: Codice plug-in di Adobe Analytics
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
