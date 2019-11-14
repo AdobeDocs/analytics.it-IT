@@ -1,12 +1,11 @@
 ---
 keywords: Analysis Workspace
-seo-title: Panoramica di Analysis Workspace
 solution: Analytics
 title: Panoramica di Analysis Workspace
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
