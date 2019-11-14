@@ -1,10 +1,8 @@
 ---
 title: Creare un livello di dati
-seo-title: Creare un livello di dati
 description: Scopri cos’è un livello dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
-seo-description: Scopri cos’è un livello dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
