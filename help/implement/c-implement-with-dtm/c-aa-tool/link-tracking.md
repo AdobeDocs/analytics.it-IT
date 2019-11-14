@@ -1,13 +1,11 @@
 ---
 description: Descrizioni dei campi in Gestione tag dinamica per il tracciamento dei collegamenti durante la distribuzione di Analytics.
-keywords: Gestione tag dinamica;tracciamento collegamenti;abilita clic;tracciare collegamenti per il download;scaricare estensioni;tracciare collegamenti in uscita;mantenere i parametri degli URL
-seo-description: Descrizioni dei campi in Gestione tag dinamica per il tracciamento dei collegamenti durante la distribuzione di Analytics.
-seo-title: Tracciamento dei collegamenti
-solution: Experience Cloud,Analytics,Gestione tag dinamica
+keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Tracciamento dei collegamenti
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
