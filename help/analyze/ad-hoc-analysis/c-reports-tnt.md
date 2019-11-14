@@ -1,13 +1,11 @@
 ---
 description: Visualizzare e segmentare i dati di traffico di Adobe Target in un report Analytics.
-seo-description: Visualizzare e segmentare i dati di traffico di Adobe Target in un report Analytics.
-seo-title: Adobe Target
 solution: Analytics
 title: Adobe Target
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
