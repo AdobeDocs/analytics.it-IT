@@ -1,13 +1,11 @@
 ---
 description: In modalità standard, esportate i dati di Analytics dalla Activity Map in un file CSV (Comma Separated Values).
-seo-description: In modalità standard, esportate i dati di Analytics dalla Activity Map in un file CSV (Comma Separated Values).
-seo-title: Esportare in file CSV
 solution: Analytics
 title: Esportare in file CSV
-topic: Activity Map
+topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
