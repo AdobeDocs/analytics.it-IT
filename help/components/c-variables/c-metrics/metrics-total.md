@@ -1,13 +1,11 @@
 ---
 description: Il valore di tutte le voci del rapporto per un periodo segnalato. Se un filtro è attualmente selezionato, il totale potrebbe rappresentare il totale filtrato anziché il totale della suite di rapporti. Se non viene selezionato alcun filtro, il totale della suite di rapporti è rappresentato.
-seo-description: Il valore di tutte le voci del rapporto per un periodo segnalato. Se un filtro è attualmente selezionato, il totale potrebbe rappresentare il totale filtrato anziché il totale della suite di rapporti. Se non viene selezionato alcun filtro, il totale della suite di rapporti è rappresentato.
-seo-title: Totale
 solution: Analytics
 title: Totale
-topic: Metriche
+topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
