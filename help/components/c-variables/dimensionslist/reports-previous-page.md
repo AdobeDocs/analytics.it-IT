@@ -1,13 +1,11 @@
 ---
 description: Un rapporto sul percorso che fornisce un'analisi dettagliata dei percorsi del sito mostrandovi le pagine del sito visualizzate dai visitatori prima di visualizzare una pagina selezionata sul sito.
-seo-description: Un rapporto sul percorso che fornisce un'analisi dettagliata dei percorsi del sito mostrandovi le pagine del sito visualizzate dai visitatori prima di visualizzare una pagina selezionata sul sito.
-seo-title: Pagina precedente
 solution: Analytics
 title: Pagina precedente
-topic: Rapporti
+topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
