@@ -1,13 +1,11 @@
 ---
 description: Procedura per creare una richiesta di dati Generatore di report di base.
-seo-description: Procedura per creare una richiesta di dati Generatore di report di base.
-seo-title: Creare una richiesta di dati Generatore di report
 solution: Analytics
 title: Create a Data Request (Creare una richiesta di archivio dati)
-topic: Generatore di report
+topic: Report builder
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
