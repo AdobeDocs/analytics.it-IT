@@ -1,12 +1,10 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Implementazione dell'integrazione
 solution: Analytics
 title: Implementazione dell'integrazione
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -53,7 +51,7 @@ Passaggi per visualizzare la configurazione dell’integrazione VoiceStorm del s
    1. Cerca voci come **[!UICONTROL Classification Data imported successfully]**. Queste voci devono essere visualizzate entro 24 ore dalla distribuzione completata.
 1. Rivedete i rapporti del segnale dinamico all'interno di Adobe Analytics utilizzando il dashboard creato automaticamente tramite la procedura guidata di integrazione Adobe (passaggio 7). In alternativa, puoi passare al reporting del segnale dinamico all'interno della struttura del menu di Adobe Analytics. Fai riferimento alle seguenti schermate.
 
-   **Nota**:Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
+   **Nota**: Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
 
    ![](assets/reporting.png)
 
