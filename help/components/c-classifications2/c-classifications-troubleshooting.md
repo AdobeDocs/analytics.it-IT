@@ -1,14 +1,12 @@
 ---
 description: Risorse utili per la risoluzione dei problemi con Importazione.
-seo-description: Risorse utili per la risoluzione dei problemi con Importazione.
-seo-title: Risoluzione dei problemi relativi alle classificazioni
 solution: Analytics
 subtopic: Classifications
 title: Risoluzione dei problemi relativi alle classificazioni
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: e8273635-28b7-4264-aca5-c5307f313e81
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
