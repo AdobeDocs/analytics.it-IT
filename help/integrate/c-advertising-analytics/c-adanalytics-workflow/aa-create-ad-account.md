@@ -1,9 +1,8 @@
 ---
-seo-title: Configurare un account Advertising
 title: Configurare un account Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -72,7 +71,7 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
         <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
         <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Auto</span>: Consente al motore di Advertising Cloud di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. Questo è l'approccio più semplice, ma non può portare al miglior set di dati integrato. <p>Importante: Per configurare un account del motore di ricerca in modalità automatica, è necessario effettuare le seguenti operazioni: 
           <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">Il parametro e il valore "s_kwcid" verranno aggiunti ai modelli di tracciamento dell'account o agli URL delle pagine di destinazione nell'account che si sta aggiungendo. Questo verrà inserito alla fine dell’URL. Di conseguenza, potrebbe essere necessaria un'azione aggiuntiva da parte dell'utente se il server Web richiede una coppia chiave=valore alla fine dell'URL OPPURE un aggiornamento per supportare qualsiasi nuova coppia chiave=valore nell'URL. </li> 
+            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">Il parametro e il valore "s_kwcid" verranno aggiunti ai modelli di tracciamento dell'account o agli URL delle pagine di destinazione nell'account che si sta aggiungendo. Questo verrà inserito alla fine dell’URL. Di conseguenza, potrebbe essere necessaria un'azione aggiuntiva da parte dell'utente se il server Web richiede una determinata coppia chiave=valore alla fine dell'URL OPPURE un aggiornamento per supportare qualsiasi nuova coppia chiave=valore nell'URL. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">Inoltre, le parole chiave possono essere inserite nell'URL di destinazione come parte del valore "s_kwcid", quindi se contengono caratteri speciali o simboli, si prega di confermare che il server Web può supportare tali caratteri (un esempio di caratteri speciali comuni è "+", utilizzato nelle parole chiave "Broad Match Modified"). </li> 
           </ul> </p> </li> 
         <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuale</span>: Consente di gestire il modo in cui i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Fare riferimento a questi esempi di tracciamento manuale per ciascun motore</a>di ricerca. </li> 
