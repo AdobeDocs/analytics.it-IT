@@ -1,13 +1,11 @@
 ---
 description: La partecipazione del visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni del visitatore nei canali di marketing, nelle campagne, nelle entrate e così via. Ad esempio, il credito per acquisti e ricavi può essere attribuito ad altri punti di contatto marketing che si verificavano prima della visita in cui ha avuto luogo l'ordine. L'analisi ad hoc fornisce la partecipazione dei visitatori attraverso le visite.
-seo-description: La partecipazione del visitatore è una serie di metriche che consente di visualizzare la partecipazione tra le sessioni del visitatore nei canali di marketing, nelle campagne, nelle entrate e così via. Ad esempio, il credito per acquisti e ricavi può essere attribuito ad altri punti di contatto marketing che si verificavano prima della visita in cui ha avuto luogo l'ordine. L'analisi ad hoc fornisce la partecipazione dei visitatori attraverso le visite.
-seo-title: 'Partecipazione visitatore: Ad Hoc Analysis'
 solution: Analytics
 title: 'Partecipazione visitatore: Ad Hoc Analysis'
-topic: Metriche
+topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
