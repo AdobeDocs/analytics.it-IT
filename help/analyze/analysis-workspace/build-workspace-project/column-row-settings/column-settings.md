@@ -1,11 +1,9 @@
 ---
 description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
-seo-description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
-seo-title: Impostazioni colonna
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
