@@ -1,11 +1,9 @@
 ---
 description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
-seo-description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
-seo-title: Panoramica del calendario e degli intervalli di date
 title: Panoramica del calendario e degli intervalli di date
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
