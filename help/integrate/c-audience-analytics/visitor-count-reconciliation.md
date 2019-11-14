@@ -1,11 +1,9 @@
 ---
 description: In Adobe Analytics e Adobe Audience Manager sono presenti metriche dei visitatori con definizioni simili, ma che non sono allineate al 100% per vari motivi.
-seo-description: In Adobe Analytics e Adobe Audience Manager sono presenti metriche dei visitatori con definizioni simili, ma che non sono allineate al 100% per vari motivi.
-seo-title: Differenze tra i conteggi dei visitatori
 title: Differenze tra i conteggi dei visitatori
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Le metriche del visitatore sono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM:Popolazione segmento totale</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: Popolazione segmento totale</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che erano membri del segmento durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +41,7 @@ Le metriche del visitatore sono:
  </tbody> 
 </table>
 
-I visitatori di AAM in tempo reale per la popolazione di segmenti e di Analytics con Experience Cloud ID utilizzati nel reporting di Audience Analytics saranno i più simili. A breve termine, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
+I visitatori di AAM in tempo reale per la popolazione di segmenti e di Analytics con Experience Cloud ID utilizzati nella generazione dei rapporti di Audience Analytics saranno i più simili. A breve termine, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
