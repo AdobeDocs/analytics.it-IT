@@ -1,13 +1,11 @@
 ---
 description: Puoi assegnare un nome al rapporto e configurare la modalità di visualizzazione delle intestazioni di riga e colonna. Il collegamento Opzioni formato è disponibile per i tipi di layout pivot e personalizzato.
-seo-description: Puoi assegnare un nome al rapporto e configurare la modalità di visualizzazione delle intestazioni di riga e colonna. Il collegamento Opzioni formato è disponibile per i tipi di layout pivot e personalizzato.
-seo-title: Formattare le intestazioni di visualizzazione
 solution: Analytics
 title: Formattare le intestazioni di visualizzazione
-topic: Generatore di report
+topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
