@@ -1,11 +1,9 @@
 ---
 description: 'Le note sulla versione sono disponibili nelle seguenti posizioni '
-seo-description: 'Le note sulla versione sono disponibili nelle seguenti posizioni '
-seo-title: Note sulla versione
 title: Note sulla versione
-uuid: 07 f 8 a 612-e 1 ba -4 bcn-a 547-8 c 34 eb 1 a 7 c 88
+uuid: 07f8a612-e1ba-4bcc-a547-8c34eb1a7c88
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -15,5 +13,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Le note sulla versione sono disponibili nelle seguenti posizioni:
 
 * [Experience Cloud - Tutte le soluzioni](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Librerie appmeasurement - Tutte le piattaforme](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/)
+* [Librerie AppMeasurement - Tutte le piattaforme](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/)
 
