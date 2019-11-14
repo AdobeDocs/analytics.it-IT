@@ -1,14 +1,12 @@
 ---
 description: Gli ID visitatore possono essere integrati selezionando la categoria Generico (ID transazione).
-seo-description: Gli ID visitatore possono essere integrati selezionando la categoria Generico (ID transazione).
-seo-title: Visitor ID
 solution: Analytics
-subtopic: Origini dati
+subtopic: Data sources
 title: Visitor ID
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
