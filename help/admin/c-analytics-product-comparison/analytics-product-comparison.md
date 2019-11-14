@@ -1,12 +1,10 @@
 ---
 description: Requisiti di sistema e un confronto tra Analysis Workspace, Reporting e analisi, Analisi ad hoc, Generatore di report, Data Warehouse e Workbench dati
-seo-description: Requisiti di sistema e un confronto tra Analysis Workspace, Reporting e analisi, Analisi ad hoc, Generatore di report, Data Warehouse e Workbench dati
-seo-title: Requisiti e confronto dei prodotti Analytics
 solution: Analytics
 title: Requisiti e confronto dei prodotti Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
