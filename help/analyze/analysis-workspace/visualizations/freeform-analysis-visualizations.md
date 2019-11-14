@@ -1,14 +1,12 @@
 ---
 description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
-seo-title: Panoramica delle visualizzazioni
 solution: Analytics
 title: Panoramica delle visualizzazioni
-topic: Reports and Analytics
-uuid: 318dea64-6277-4ec3-ad48-4dfcb7a5455
+topic: Reports and analytics
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
