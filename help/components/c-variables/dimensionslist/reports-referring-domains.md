@@ -1,13 +1,11 @@
 ---
 description: Mostra i domini che fanno riferimento ai clienti che hanno più inciso sulle metriche di successo del sito. I referenti appartengono a due categorie principali Domini e URL. I domini fanno riferimento al nome del dominio e vengono visualizzati come dominio di base senza la stringa di query o le sottodirectory associate. Gli URL includono il nome del dominio di base, nonché eventuali stringhe di query o sottodirectory.
-seo-description: Mostra i domini che fanno riferimento ai clienti che hanno più inciso sulle metriche di successo del sito. I referenti appartengono a due categorie principali Domini e URL. I domini fanno riferimento al nome del dominio e vengono visualizzati come dominio di base senza la stringa di query o le sottodirectory associate. Gli URL includono il nome del dominio di base, nonché eventuali stringhe di query o sottodirectory.
-seo-title: Domini di riferimento
 solution: Analytics
 title: Domini di riferimento
-topic: Rapporti
+topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
