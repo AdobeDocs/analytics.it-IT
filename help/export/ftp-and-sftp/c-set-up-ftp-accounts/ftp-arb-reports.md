@@ -1,13 +1,11 @@
 ---
 description: Utilizzate il componente aggiuntivo Adobe Report Builder per Microsoft Excel per creare richieste personalizzate partendo dai dati di analisi Web, che potete inserire nei fogli di lavoro Excel.
 keywords: ftp;sftp
-seo-description: Utilizzate il componente aggiuntivo Adobe Report Builder per Microsoft Excel per creare richieste personalizzate partendo dai dati di analisi Web, che potete inserire nei fogli di lavoro Excel.
-seo-title: Report consegnati del Report Builder
 solution: Analytics
 title: Report consegnati del Report Builder
-uuid: 94070700-4073-499a-afe2-10a30eab79f
+uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
