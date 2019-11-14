@@ -1,13 +1,11 @@
 ---
 description: Puoi utilizzare Analytics per creare e gestire origini dati basate su FTP, che sfruttano il trasferimento file FTP per importare dati offline o storici in Experience Cloud.
 keywords: ftp;sftp
-seo-description: Puoi utilizzare Analytics per creare e gestire origini dati basate su FTP, che sfruttano il trasferimento file FTP per importare dati offline o storici in Experience Cloud.
-seo-title: Origini dati
 solution: Analytics
 title: Origini dati
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
