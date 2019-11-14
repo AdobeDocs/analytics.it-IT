@@ -1,11 +1,10 @@
 ---
 description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
-keywords: Implementazione di Analytics
-seo-description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
+keywords: Analytics Implementation
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +31,7 @@ Vedere anche [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/an
 
 >[!NOTE]
 >
-> Alcuni servizi di cloud computing sono considerati Domini di primo livello, che non consentono la scrittura di cookie. (ad esempio `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`ecc.) Se implementi questi servizi, potresti essere potenzialmente influenzato dall'impostazione della privacy di Analytics che rimuove gli utenti che hanno bloccato tutti i cookie se non hai impostato il tuo dominio (ad esempio, se stai testando la tua implementazione). In questo caso, qualsiasi hit in cui il sistema ha determinato che i cookie sono disattivati, non funzionali o inaccessibili viene escluso e quindi escluso dalla segnalazione.
+>Alcuni servizi di cloud computing sono considerati Domini di primo livello, che non consentono la scrittura di cookie. (ad esempio `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`ecc.) Se implementi questi servizi, potresti essere potenzialmente influenzato dall'impostazione della privacy di Analytics che rimuove gli utenti che hanno bloccato tutti i cookie se non hai impostato il tuo dominio (ad esempio, se stai testando la tua implementazione). In questo caso, qualsiasi hit in cui il sistema ha determinato che i cookie sono disattivati, non funzionali o inaccessibili viene escluso e quindi escluso dalla segnalazione.
 
 ## Esempi
 
