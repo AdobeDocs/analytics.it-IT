@@ -1,14 +1,12 @@
 ---
 description: nulle
-keywords: DFAE
-seo-description: nulle
-seo-title: Connettore dati DFA per Adobe Analytics
+keywords: DFA
 solution: Analytics
 title: Connettore dati DFA per Adobe Analytics
-topic: Connettori dati
+topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -66,7 +64,7 @@ Quando i dati arrivano o richiedono troppo tempo, viene attivato l’hit sui ser
 
 Il modulo Integrate è uno speciale modulo JavaScript di base di Adobe che causa il ritardo del beacon immagine Adobe, in attesa di una richiesta di terze parti per un periodo di tempo specifico (`s.maxDelay`). `s.maxDelay` definisce per quanto tempo il modulo Integrate attenderà i dati dal DFA Floodlight Server prima di attivare il tag immagine nel browser del visitatore. Questo comportamento è importante in modo che i dati visitatore di base vengano ancora raccolti, anche quando i server DFA Floodlight sono inattivi o fortemente caricati. Se i dati di Floodlight arrivano prima della `s.maxDelay` scadenza, i dati di tracciamento Adobe verranno attivati immediatamente e conterranno i dati DFA aggiuntivi.
 
-Quando si verifica un timeout, il codice della pagina può specificare un evento Adobe Reports &amp; Analytics da utilizzare come evento di timeout. Questo evento è utile per diagnosticare problemi con l'integrazione o per la regolazione `s.maxDelay`. Nei casi in cui si verificano timeout eccessivi, aumentare `s.maxDelay`. `s.maxDelay` può tuttavia essere impostato su un valore troppo elevato, in cui i visitatori potrebbero lasciare il sito prima della scadenza del `s.maxDelay` timer..
+Quando si verifica un timeout, il codice della pagina può specificare un evento Adobe Reports &amp; Analytics da utilizzare come evento di timeout. Questo evento è utile per diagnosticare problemi con l'integrazione o per la regolazione `s.maxDelay`. Nei casi in cui si verificano timeout eccessivi, aumentare `s.maxDelay`. `s.maxDelay` può tuttavia essere impostato su un valore troppo elevato, in cui i visitatori potrebbero lasciare il sito prima della scadenza del `s.maxDelay` timer. .
 
 A volte il server di Floodlight risponde con errori relativi al visitatore. In genere questo si verifica quando il server di Floodlight non sa nulla del visitatore, perché quest'ultimo non ha ancora visto annunci o non dispone di un cookie visitatore DFA. Il codice della pagina può specificare una variabile Conversione personalizzata (eVar) che raccoglierà tali errori e può aiutare a risolvere i problemi di implementazione o segnalare i problemi con la transazione Google. Gli errori più comuni sono: Nessuna cronologia, Nessun cookie, Errore query e Rifiuto, come descritto nella tabella seguente:
 
