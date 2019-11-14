@@ -1,13 +1,11 @@
 ---
 description: Visualizza un elenco dettagliato dei dispositivi mobili utilizzati per accedere al sito.
-seo-description: Visualizza un elenco dettagliato dei dispositivi mobili utilizzati per accedere al sito.
-seo-title: Dispositivi
 solution: Analytics
 title: Dispositivi
-topic: Rapporti
+topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
