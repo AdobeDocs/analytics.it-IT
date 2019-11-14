@@ -1,15 +1,13 @@
 ---
 description: L’identificazione dei visitatori tra dispositivi consente di collegare i visitatori tra più dispositivi. L’identificazione dei visitatori su più dispositivi utilizza la variabile ID visitatore, s.visitorID, per associare un utente a più dispositivi.
-keywords: Implementazione di Analytics
-seo-description: L’identificazione dei visitatori tra dispositivi consente di collegare i visitatori tra più dispositivi. L’identificazione dei visitatori su più dispositivi utilizza la variabile ID visitatore, s.visitorID, per associare un utente a più dispositivi.
-seo-title: Connettere gli utenti tra i dispositivi
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visitatori
+subtopic: Visitors
 title: Connettere gli utenti tra i dispositivi
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
