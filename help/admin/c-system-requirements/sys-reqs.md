@@ -1,12 +1,10 @@
 ---
 description: In questo argomento sono illustrati i requisiti di sistema per ogni interfaccia utente di Adobe Analytics.
-seo-description: In questo argomento sono illustrati i requisiti di sistema per ogni interfaccia utente di Adobe Analytics.
-seo-title: Requisiti di sistema
 solution: Analytics
 title: Requisiti di sistema
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
