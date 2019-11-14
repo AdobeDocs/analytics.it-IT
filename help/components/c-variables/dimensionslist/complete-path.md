@@ -1,18 +1,16 @@
 ---
-description: Set di rapporti percorsi che consentono di visualizzare tali metriche come lunghezza del percorso, percorso più lungo, percorso completo e così via.
-seo-description: Set di rapporti percorsi che consentono di visualizzare tali metriche come lunghezza del percorso, percorso più lungo, percorso completo e così via.
-seo-title: Percorso completo
+description: Set di rapporti di percorsi che consentono di visualizzare metriche quali lunghezza del percorso, percorso più lungo, percorso completo e così via.
 solution: Analytics
 title: Percorso completo
-topic: Rapporti
-uuid: ea 5 f 0 f 6 c -8 e 2 a -448 e -8096-b 0 d 6339360 ff
+topic: Reports
+uuid: ea5f0f6c-8e2a-448e-8096-b0d6339360ff
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Percorso completo
 
-Set di rapporti percorsi che consentono di visualizzare tali metriche come lunghezza del percorso, percorso più lungo, percorso completo e così via.
+Set di rapporti di percorsi che consentono di visualizzare metriche quali lunghezza del percorso, percorso più lungo, percorso completo e così via.
 
