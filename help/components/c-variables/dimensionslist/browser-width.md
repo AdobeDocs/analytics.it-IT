@@ -1,13 +1,11 @@
 ---
 description: Metriche che fanno riferimento alla distanza orizzontale/verticale dei dati solo nella finestra del browser. Più precisamente, il browser
-seo-description: Metriche che fanno riferimento alla distanza orizzontale/verticale dei dati solo nella finestra del browser. Più precisamente, il browser
-seo-title: Larghezza/Altezza browser
 solution: Analytics
 title: Larghezza/Altezza browser
-topic: Metriche
+topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
