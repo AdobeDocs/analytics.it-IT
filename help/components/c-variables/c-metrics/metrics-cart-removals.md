@@ -1,24 +1,22 @@
 ---
-description: Numero di volte in cui un elemento è stato rimosso da un carrello. Questo valore deriva dall'evento scremove.
-seo-description: Numero di volte in cui un elemento è stato rimosso da un carrello. Questo valore deriva dall'evento scremove.
-seo-title: Rimozioni carrello
+description: Numero di volte in cui un articolo è stato rimosso da un carrello. Questo valore deriva dall'evento scRemove.
 solution: Analytics
 title: Rimozioni carrello
-topic: Metrics (Metriche)
-uuid: bddd 5 c 63-e 906-472 a -8 aec-a 342 f 417 ddfa
+topic: Metrics
+uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Rimozioni carrello
 
-Numero di volte in cui un elemento è stato rimosso da un carrello. Questo valore deriva dall'evento scremove.
+Numero di volte in cui un articolo è stato rimosso da un carrello. Questo valore deriva dall'evento scRemove.
 
 | Usi | Descrizione |
 |---|---|
-| Traffic (Traffico) | N/D |
-| Conversione   | Instance of the [!UICONTROL Cart Remove] event being set. Si verifica quando un prodotto viene rimosso dal carrello. |
-| Ad Hoc Analysis | Instance of the [!UICONTROL Cart Remove] event being set. Si verifica quando un prodotto viene rimosso dal carrello. |
+| Traffico | N/D |
+| Conversione | Istanza dell’ [!UICONTROL Cart Remove] evento da impostare. Si verifica quando un prodotto viene rimosso dal carrello. |
+| Ad Hoc Analysis | Istanza dell’ [!UICONTROL Cart Remove] evento da impostare. Si verifica quando un prodotto viene rimosso dal carrello. |
 
