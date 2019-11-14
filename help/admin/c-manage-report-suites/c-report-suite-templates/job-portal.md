@@ -1,13 +1,11 @@
 ---
 description: Definisce le impostazioni comuni per un portale di lavoro o un sito Web di ricerca delle carriere.
-seo-description: Definisce le impostazioni comuni per un portale di lavoro o un sito Web di ricerca delle carriere.
-seo-title: Portale dei processi
 solution: Analytics
 title: Portale dei processi
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,15 +31,15 @@ La tabella seguente contiene un elenco degli eventi commerciali standard. La con
 
 | Eventi Commerce Standard | Type (Tipo) | `s_code` variable |
 |---|---|---|
-| Ricavi |  Contatore | `purchase` |
-| Ordini |  Contatore | `purchase` |
-| Unità |  Contatore | `purchase` |
-| Carrelli |  Contatore | `scOpen` |
-| Visualizzazioni carrello |  Contatore | `scView` |
-| Istanze |  Contatore | N/D |
-| Pagamenti |  Contatore | `scCheckout` |
-| Aggiunte carrello |  Contatore | `scAdd` |
-| Rimozioni carrello |  Contatore | `scRemove` |
+| Ricavi | Contatore | `purchase` |
+| Ordini | Contatore | `purchase` |
+| Unità | Contatore | `purchase` |
+| Carrelli | Contatore | `scOpen` |
+| Visualizzazioni carrello | Contatore | `scView` |
+| Istanze | Contatore | N/D |
+| Pagamenti | Contatore | `scCheckout` |
+| Aggiunte carrello | Contatore | `scAdd` |
+| Rimozioni carrello | Contatore | `scRemove` |
 | Visite | Contatore (nessuna sottorelazione) | N/D |
 | Visualizzazioni pagina | Contatore (nessuna sottorelazione) | N/D |
 | Visitatori giornalieri unici | Contatore (nessuna sottorelazione) | N/D |
