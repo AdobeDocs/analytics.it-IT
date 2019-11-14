@@ -1,14 +1,12 @@
 ---
 description: Avvisi intelligenti consentono di creare e gestire gli avvisi in Analysis Workspace, con anteprima degli avvisi e contributo delle regole.
-keywords: Implementazione di Analytics;alert;anomalie;email;sms;metriche multiple
-seo-description: Avvisi intelligenti consentono di creare e gestire gli avvisi in Analysis Workspace, con anteprima degli avvisi e contributo delle regole.
-seo-title: Avvisi
+keywords: Analytics Implementation;alert;anomalies;anomaly;email;sms;multiple metrics
 solution: Analytics
 title: Avvisi
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
