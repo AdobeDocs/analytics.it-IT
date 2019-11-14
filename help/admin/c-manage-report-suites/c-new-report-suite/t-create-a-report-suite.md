@@ -1,13 +1,11 @@
 ---
 description: Procedura che descrive come creare una suite di rapporti e copiare le impostazioni di una suite di rapporti in una nuova.
-seo-description: Procedura che descrive come creare una suite di rapporti e copiare le impostazioni di una suite di rapporti in una nuova.
-seo-title: Creare una suite di rapporti
 solution: Analytics
 title: Creare una suite di rapporti
-topic: Strumenti di amministrazione
-uuid: fada5b10-f574-4c3f-8704-679c992fc88
+topic: Admin tools
+uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
