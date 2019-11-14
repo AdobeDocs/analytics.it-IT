@@ -1,11 +1,9 @@
 ---
 description: La procedura guidata di integrazione dei connettori dati illustra il processo di integrazione dei connettori dati.
-seo-description: La procedura guidata di integrazione dei connettori dati illustra il processo di integrazione dei connettori dati.
-seo-title: Integrazione Silverpop
 title: Integrazione Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -116,7 +114,7 @@ Per configurare l'integrazione:
    <td colname="col3"> <p>Questa integrazione crea i segmenti definiti dal partner visualizzati nella sezione Segmenti partner. </p> <p>Inoltre, puoi selezionare segmenti esistenti a livello di suite di rapporti da includere nell'integrazione. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> Richieste di accesso </p> </td> 
+   <td colname="col2"> <p>Richieste di accesso </p> </td> 
    <td colname="col03"> <p>(3) Impostazioni dati </p> </td> 
    <td colname="col3"> <p> (Obbligatorio) Abilita <span class="uicontrol"> Consenti integrazione di scaricare i dati</span>del prodotto. </p> <p>Facoltativo: Consenti a questa integrazione di scaricare ricavi, ordini e unità. </p> </td> 
   </tr> 
