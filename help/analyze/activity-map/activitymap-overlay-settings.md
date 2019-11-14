@@ -1,13 +1,11 @@
 ---
 description: Il pannello Impostazioni Activity Map consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
-seo-description: Il pannello Impostazioni Activity Map consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
-seo-title: Configurare le impostazioni di Activity Map
 solution: Analytics
 title: Configurare le impostazioni di Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
