@@ -1,13 +1,11 @@
 ---
 description: Domande frequenti su come impostare, configurare e utilizzare le funzioni nella Activity Map.
-seo-description: Domande frequenti su come impostare, configurare e utilizzare le funzioni nella Activity Map.
-seo-title: Domande frequenti su Activity Map
 solution: Analytics
 title: Domande frequenti su Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
