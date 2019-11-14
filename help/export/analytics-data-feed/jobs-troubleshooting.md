@@ -1,13 +1,11 @@
 ---
 description: Se si verifica un errore, viene riportato un errore nella colonna Stato processo.
-keywords: Feed dati;processo;risoluzione dei problemi;errore;ftp;chdir;connect;login;put
-seo-description: Se si verifica un errore, viene riportato un errore nella colonna Stato processo.
-seo-title: Risoluzione dei problemi dei processi
+keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 solution: Analytics
 title: Risoluzione dei problemi dei processi
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
