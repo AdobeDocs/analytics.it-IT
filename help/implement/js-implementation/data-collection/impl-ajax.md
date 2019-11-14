@@ -1,14 +1,12 @@
 ---
 description: L’implementazione con AJAX è esattamente come la distribuzione del codice su una pagina HTML standard.
-keywords: Implementazione di Analytics
-seo-description: L’implementazione con AJAX è esattamente come la distribuzione del codice su una pagina HTML standard.
-seo-title: Implementazione con AJAX
+keywords: Analytics Implementation
 solution: Analytics
 title: Implementazione con AJAX
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
