@@ -1,13 +1,11 @@
 ---
 description: L'interfaccia utente Feed dati è accessibile dalla scheda Admin.
-keywords: Feed dati;pagina di destinazione feed dati;elenco feed
-seo-description: L'interfaccia utente Feed dati è accessibile dalla scheda Admin.
-seo-title: Aprire l'interfaccia feed dati
+keywords: Data Feed;data feed landing page;feeds list
 solution: Analytics
 title: Aprire l'interfaccia feed dati
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
