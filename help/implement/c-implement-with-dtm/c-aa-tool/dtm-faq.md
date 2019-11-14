@@ -1,13 +1,11 @@
 ---
 description: Domande frequenti sulla configurazione automatica della distribuzione di Adobe Analytics. Il metodo di configurazione automatico gestisce il codice AppMeasurement per voi.
-keywords: Gestione tag dinamica;plugin;staging;effetto sulle impostazioni correnti;cronologia revisioni;potenziali insidie;ID suite di rapporti;codice valuta;server di tracciamento;ssl tracking server;codice personalizzato;gestione libreria
-seo-description: Domande frequenti sulla configurazione automatica della distribuzione di Adobe Analytics. Il metodo di configurazione automatico gestisce il codice AppMeasurement per voi.
-seo-title: Domande frequenti sullo strumento Adobe Analytics
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Domande frequenti sullo strumento Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
