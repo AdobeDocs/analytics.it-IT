@@ -1,13 +1,11 @@
 ---
 description: Visualizza le visualizzazioni dei percorsi oppure il numero di volte e percentuali di visualizzazione di una pagina entro i limiti dei percorsi. Ad esempio, una pagina dell'Informativa sulla privacy potrebbe avere 10.000 visualizzazioni totali di pagina, ma solo 500 di tali visualizzazioni si sono verificate immediatamente prima di una pagina principale. In questo caso, vedreste 500 visualizzazioni di percorso. Puoi visualizzare il rapporto a livello di visita o visitatore. Le percentuali per ogni pagina vengono visualizzate accanto al nome della pagina. La larghezza di una linea collegata a una pagina rappresenta la percentuale relativa di visite.
-seo-description: Visualizza le visualizzazioni dei percorsi oppure il numero di volte e percentuali di visualizzazione di una pagina entro i limiti dei percorsi. Ad esempio, una pagina dell'Informativa sulla privacy potrebbe avere 10.000 visualizzazioni totali di pagina, ma solo 500 di tali visualizzazioni si sono verificate immediatamente prima di una pagina principale. In questo caso, vedreste 500 visualizzazioni di percorso. Puoi visualizzare il rapporto a livello di visita o visitatore. Le percentuali per ogni pagina vengono visualizzate accanto al nome della pagina. La larghezza di una linea collegata a una pagina rappresenta la percentuale relativa di visite.
-seo-title: Flusso pagina successiva
 solution: Analytics
 title: Flusso pagina successiva
-topic: Rapporti
-uuid: d3d2a461-63ee-4bf7-9e68-1ce1c34530f
+topic: Reports
+uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ Per impostazione predefinita, questo rapporto mostra le prime 10 pagine su cui g
 Utilizzate questo rapporto per:
 
 * Scoprite i passaggi più frequenti dopo la visualizzazione di una pagina selezionata.
-* Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
+* Ottimizzate la progettazione del percorso del sito per rendere il traffico scorrevole verso una pagina di destinazione desiderata.
 * Identificate dove vanno i visitatori al posto delle pagine di obiettivi desiderate.
 
 **Informazioni specifiche del prodotto**
