@@ -1,13 +1,11 @@
 ---
 description: Fornisce un'analisi completa, accurata e dettagliata dell'attività del cliente. Metriche come la gestione delle campagne, il ciclo di vendita, l'abbandono del cliente e la conversione del cliente consentono di misurare le transazioni di e-commerce, le fonti di vendita, l'efficacia della pubblicità, la fedeltà dei clienti e altro ancora.
-seo-description: Fornisce un'analisi completa, accurata e dettagliata dell'attività del cliente. Metriche come la gestione delle campagne, il ciclo di vendita, l'abbandono del cliente e la conversione del cliente consentono di misurare le transazioni di e-commerce, le fonti di vendita, l'efficacia della pubblicità, la fedeltà dei clienti e altro ancora.
-seo-title: Conversione
 solution: Analytics
 title: Conversione
-topic: Rapporti
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
