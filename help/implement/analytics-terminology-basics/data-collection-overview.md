@@ -1,14 +1,12 @@
 ---
 description: Scopri come le visite al tuo sito Web diventano un rapporto in Adobe Analytics.
-keywords: Implementazione di Analytics;raccolta dati
-seo-description: Scopri come le visite al tuo sito Web diventano un rapporto in Adobe Analytics.
-seo-title: Raccolta dati
+keywords: Analytics Implementation;data collection
 solution: Analytics
 title: Raccolta dati
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
