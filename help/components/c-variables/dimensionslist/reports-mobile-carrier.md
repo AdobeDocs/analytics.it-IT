@@ -1,18 +1,16 @@
 ---
-description: Mostra il provider di servizi wireless (Verizon, AT e T, Sprint e così via) utilizzato dai visitatori del sito e dell'app. Guarda questo report su Visitor Profile > Technology.
-seo-description: Mostra il provider di servizi wireless (Verizon, AT e T, Sprint e così via) utilizzato dai visitatori del sito e dell'app. Guarda questo report su Visitor Profile > Technology.
-seo-title: Gestore di telefonia mobile
+description: Mostra il provider di servizi wireless (Verizon, AT&T, Sprint e così via) utilizzato dai visitatori del sito e dell'app. Visualizza il rapporto in Visitor Profile (Profilo visitatore) > Technology (Tecnologia).
 solution: Analytics
 title: Gestore di telefonia mobile
-topic: Rapporti
-uuid: 85 cc 65 ce -772 e -4 a 86-bf 11-ee 85 ca 693134
+topic: Reports
+uuid: 85cc65ce-772e-4a86-bf11-ee85ca693134
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Gestore di telefonia mobile
 
-Mostra il provider di servizi wireless (Verizon, AT e T, Sprint e così via) utilizzato dai visitatori del sito e dell'app. Guarda questo report su Visitor Profile &gt; Technology.
+Mostra il provider di servizi wireless (Verizon, AT&amp;T, Sprint e così via) utilizzato dai visitatori del sito e dell'app. Visualizza il rapporto in Visitor Profile (Profilo visitatore) &gt; Technology (Tecnologia).
 
