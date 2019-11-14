@@ -1,19 +1,17 @@
 ---
-description: Visualizza i referenti originali che hanno prodotto i clienti sul sito. Poiché i clienti possono visitare il tuo sito più volte e avere un referente diverso per ogni visita, i domini di riferimento originali mostrano come sono stati citati al loro primo accesso al sito. Questi riferimenti di dimensione fanno riferimento solo al relativo dominio di base (aol.com, yahoo.com e così via).
-seo-description: Visualizza i referenti originali che hanno prodotto i clienti sul sito. Poiché i clienti possono visitare il tuo sito più volte e avere un referente diverso per ogni visita, i domini di riferimento originali mostrano come sono stati citati al loro primo accesso al sito. Questi riferimenti di dimensione fanno riferimento solo al relativo dominio di base (aol.com, yahoo.com e così via).
-seo-title: Domini di riferimento originali
+description: Visualizza i referenti originali che hanno prodotto i clienti sul sito. Poiché i clienti possono visitare il sito più volte e disporre di un referente diverso per ogni visita, i Domini di riferimento originali mostrano come sono stati rimandati la prima volta che sono arrivati sul sito. Questa dimensione fa riferimento ai riferimenti solo per il dominio di base (aol.com, yahoo.com e così via).
 solution: Analytics
 title: Domini di riferimento originali
-topic: Rapporti
-uuid: 4 a 21 c 2 a 2-8507-4 d 25-8 d 75-f 5 a 5 a 20409 b 0
+topic: Reports
+uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Domini di riferimento originali
 
-Visualizza i referenti originali che hanno prodotto i clienti sul sito. Poiché i clienti possono visitare il tuo sito più volte e avere un referente diverso per ogni visita, i domini di riferimento originali mostrano come sono stati citati al loro primo accesso al sito. Questi riferimenti di dimensione fanno riferimento solo al relativo dominio di base (aol.com, yahoo.com e così via).
+Visualizza i referenti originali che hanno prodotto i clienti sul sito. Poiché i clienti possono visitare il sito più volte e disporre di un referente diverso per ogni visita, i Domini di riferimento originali mostrano come sono stati rimandati la prima volta che sono arrivati sul sito. Questa dimensione fa riferimento ai riferimenti solo per il dominio di base (aol.com, yahoo.com e così via).
 
-Potete visualizzare il numero di visitatori generati da un referente originale o scoprire il numero di entrate che ogni referente originale è responsabile per la produzione. I rapporti di referrer possono essere popolati ogni volta che un visitatore accede al sito, anche se il visitatore accede più volte al sito durante una sessione (prima della scadenza della visita).
+Puoi visualizzare il numero di visitatori generati da un referente originale o scoprire il fatturato generato da ciascun referente originale. I rapporti del referente possono essere compilati ogni volta che un visitatore accede al sito, anche se il visitatore accede più volte al sito durante una sessione (prima della scadenza della visita).
