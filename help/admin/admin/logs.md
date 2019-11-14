@@ -1,13 +1,11 @@
 ---
 description: Registrate i file per consentirvi di vedere quando gli utenti accedono, quando ne utilizzano, quando accedono, quando le suite di rapporti e quando l'amministratore cambia.
-seo-description: Registrate i file per consentirvi di vedere quando gli utenti accedono, quando ne utilizzano, quando accedono, quando le suite di rapporti e quando l'amministratore cambia.
-seo-title: Registri
 solution: Analytics
 title: Registri
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,7 +27,7 @@ Consente di [!UICONTROL Usage and Access Log] valutare l'utilizzo dei rapporti a
 | Elemento | Descrizione |
 |---|---|
 | Intervallo date | Specifica un filtro per l’intervallo di date. È possibile immettere una data manualmente nel formato AAAA-MM-GG oppure fare clic sull'icona Calendario per selezionare una data. |
-| Login | Filtrare il registro per nome utente. |
+|  Login | Filtrare il registro per nome utente. |
 | IP | Filtrare il registro per un indirizzo IP. |
 | Suite di rapporti | Filtrare il registro per un ID suite di rapporti specifico. |
 | Tipo evento | Filtrare il registro in base a un tipo di evento. Selezionate un tipo di evento dall'elenco a discesa. |
@@ -50,7 +48,7 @@ Gli strumenti che possono modificare una suite di rapporti dall'esterno [!UICONT
 |---|---|
 | Intervallo date | Specifica un filtro per l’intervallo di date. È possibile immettere una data manualmente nel formato AAAA-MM-GG oppure fare clic sull'icona Calendario per selezionare una data. |
 | Azienda | Filtrare il registro in base al nome della società. |
-| Login | Filtrare il registro per nome utente. |
+|  Login | Filtrare il registro per nome utente. |
 | IP | Filtrare il registro per un indirizzo IP. |
 | Evento | Filtrare il registro per parola o frase nella descrizione dell'evento. |
 |  Scarica rapporto | Esporta il contenuto del file [!UICONTROL Usage & Access Log] in un file delimitato da tabulazioni. |
