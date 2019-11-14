@@ -1,13 +1,11 @@
 ---
 description: Le sezioni Traffico permanente consentono di modificare i livelli di traffico previsti in modo che Adobe possa riassegnare le risorse per gestire il nuovo livello di traffico.
-seo-description: Le sezioni Traffico permanente consentono di modificare i livelli di traffico previsti in modo che Adobe possa riassegnare le risorse per gestire il nuovo livello di traffico.
-seo-title: Specificare aumento traffico permanente
 solution: Analytics
 title: Specificare aumento traffico permanente
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
