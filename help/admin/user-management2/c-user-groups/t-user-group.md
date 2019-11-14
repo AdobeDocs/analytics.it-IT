@@ -1,14 +1,12 @@
 ---
 description: Procedura per l’aggiunta di un gruppo di utenti.
-seo-description: Procedura per l’aggiunta di un gruppo di utenti.
-seo-title: Aggiungere un gruppo utenti
 solution: Analytics
-subtopic: Utenti e gruppi
+subtopic: Users and groups
 title: Aggiungere un gruppo utenti
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,7 +25,7 @@ Procedura per l’aggiunta di un gruppo di utenti.
    Collegamenti rapidi:
 
    * [Strumenti](/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md)di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Generatore di report e integrazione dei connettori dati.
-   * [Strumenti](/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md)suite di rapporti: Abilita le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e Rapporti ed Elementi dashboard.
+   * [Strumenti](/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md)suite di rapporti:Abilita le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e Rapporti ed Elementi dashboard.
    * [Metriche](/help/admin/user-management2/c-customize-report-access/groups-metrics.md): Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via.
    * [Dimensioni](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md): Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi.
 
