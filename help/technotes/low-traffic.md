@@ -1,13 +1,11 @@
 ---
 description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che i valori più importanti vengano visualizzati nel rapporto.
-seo-description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che i valori più importanti vengano visualizzati nel rapporto.
-seo-title: Valore di traffico basso in Adobe Analytics
 solution: Analytics
 title: Valore di traffico basso in Adobe Analytics
-topic: Metriche
+topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
