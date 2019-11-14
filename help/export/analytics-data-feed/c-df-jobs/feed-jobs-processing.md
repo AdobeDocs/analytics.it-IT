@@ -1,13 +1,11 @@
 ---
 description: Utilizzate la scheda Processi per visualizzare la cronologia dei processi e eseguire le attività di gestione dei processi.
-keywords: Feed dati;job;configure
-seo-description: Utilizzate la scheda Processi per visualizzare la cronologia dei processi e eseguire le attività di gestione dei processi.
-seo-title: 'Processi feed dati: panoramica'
+keywords: Data Feed;job;configure
 solution: Analytics
 title: 'Processi feed dati: panoramica'
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,9 +28,9 @@ Nome feed, Ora di inizio e Stato sono colonne obbligatorie e non possono essere 
 
 | Colonna | Descrizione |
 |---|---|
-|  ID feed | Identificatore univoco per il feed. |
+| ID feed | Identificatore univoco per il feed. |
 | ID processo | Identificatore univoco per il processo. |
-|  Nome feed | Nome del feed. |
+| Nome feed | Nome del feed. |
 | Ora di inizio | Nome iniziale del processo, visualizzato nel fuso orario. |
 | Tempo di esecuzione | Il tempo necessario per l'esecuzione del processo. Mostrato come gg hh:mm:ss. |
 | Stato | The current [status](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md) of the job. |
