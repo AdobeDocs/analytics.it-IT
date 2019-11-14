@@ -1,21 +1,19 @@
 ---
 description: 'Se desideri tenere traccia di informazioni aggiuntive ma non disponi di un numero sufficiente di variabili per farlo, ora puoi accedere ad eVar ed eventi di successo aggiuntivi '
-keywords: Implementazione di Analytics;evar;eventi;numero evar;quante evar;quanti eventi
-seo-description: 'Se desideri tenere traccia di informazioni aggiuntive ma non disponi di un numero sufficiente di variabili per farlo, ora puoi accedere ad eVar ed eventi di successo aggiuntivi '
-seo-title: eVar ed eventi aggiuntivi
+keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
 solution: Analytics
 title: eVar ed eventi aggiuntivi
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # eVar ed eventi aggiuntivi
 
-Se desiderate tenere traccia di informazioni aggiuntive, ma non disponete di un numero sufficiente di variabili per farlo, ora potete accedere a eVar ed eventi di successo aggiuntivi:
+Se desiderate tenere traccia di informazioni aggiuntive, ma non disponete di un numero sufficiente di variabili, ora potete accedere ad eVar ed eventi di successo aggiuntivi:
 
 > [!NOTE] JavaScript H-Code non supporta tali eVar ed eventi aggiuntivi.
 
