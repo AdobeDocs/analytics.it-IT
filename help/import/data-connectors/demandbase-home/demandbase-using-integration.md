@@ -1,11 +1,9 @@
 ---
 description: Una volta implementata l'integrazione, potete iniziare a utilizzare le funzionalità aggiuntive che fornisce.
-seo-description: Una volta implementata l'integrazione, potete iniziare a utilizzare le funzionalità aggiuntive che fornisce.
-seo-title: Utilizzo dell'integrazione
 title: Utilizzo dell'integrazione
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
