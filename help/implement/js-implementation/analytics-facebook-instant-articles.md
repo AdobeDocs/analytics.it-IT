@@ -1,14 +1,12 @@
 ---
 description: Come implementare Analytics negli articoli istantanei di Facebook.
-keywords: Implementazione di Analytics;incorpora;variabile personalizzata;evento personalizzato;tracciamento dei visitatori;limitazioni
-seo-description: Come implementare Analytics negli articoli istantanei di Facebook.
-seo-title: Articoli istantanei Facebook
+keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
 solution: Analytics
 title: Articoli istantanei Facebook
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
