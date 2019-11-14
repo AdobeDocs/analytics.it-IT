@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Implementazione roadmap
 title: Implementazione roadmap
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -73,7 +71,7 @@ Se non hai mai utilizzato Adobe Analytics, puoi creare rapidamente la tua prima 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Convalida l’implementazione. </td> 
+   <td colname="col1"> Confermare l’implementazione. </td> 
    <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> Test e convalida </a> Fornisce informazioni sulla convalida dell'implementazione. </p> </td> 
   </tr> 
   <tr> 
