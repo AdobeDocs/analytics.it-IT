@@ -1,13 +1,11 @@
 ---
 description: Mostra il numero di visitatori unici del sito per un'ora, un giorno, una settimana, un mese, un trimestre o un anno selezionati. Un visitatore univoco viene conteggiato una sola volta per l'intervallo di tempo selezionato. I visitatori che tornano al sito non vengono più conteggiati come utenti univoci finché l’intervallo di tempo non è scaduto.
-seo-description: Mostra il numero di visitatori unici del sito per un'ora, un giorno, una settimana, un mese, un trimestre o un anno selezionati. Un visitatore univoco viene conteggiato una sola volta per l'intervallo di tempo selezionato. I visitatori che tornano al sito non vengono più conteggiati come utenti univoci finché l’intervallo di tempo non è scaduto.
-seo-title: Visitatori
 solution: Analytics
 title: Visitatori
-topic: Rapporti
+topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
