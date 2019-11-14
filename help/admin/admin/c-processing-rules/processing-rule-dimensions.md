@@ -1,14 +1,12 @@
 ---
 description: Le dimensioni che è possibile leggere e scrivere (se non diversamente specificato) utilizzando le regole di elaborazione.
-seo-description: Le dimensioni che è possibile leggere e scrivere (se non diversamente specificato) utilizzando le regole di elaborazione.
-seo-title: Dimensioni disponibili per le regole di elaborazione
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Dimensioni disponibili per le regole di elaborazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
