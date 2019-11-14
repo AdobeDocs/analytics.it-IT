@@ -1,13 +1,11 @@
 ---
 description: In Segment Manager (Gestore segmenti) puoi impostare un flusso di lavoro che include l'approvazione dei segmenti per vari livelli di applicazione, per reparti o gruppi specifici e in linea con i criteri di reporting.
-seo-description: In Segment Manager (Gestore segmenti) puoi impostare un flusso di lavoro che include l'approvazione dei segmenti per vari livelli di applicazione, per reparti o gruppi specifici e in linea con i criteri di reporting.
-seo-title: Approvare segmenti
 solution: Analytics
 title: Approvare segmenti
-topic: Segmenti
+topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ In Segment Manager (Gestore segmenti) puoi impostare un flusso di lavoro che inc
 Ecco come contrassegnare un segmento come approvato:
 
 1. In Gestore segmenti, seleziona la casella di controllo a sinistra del titolo del segmento.
-1. Fate clic **[!UICONTROL Approve]** nella barra delle attività di gestione segmenti.
+1. Fate clic su **[!UICONTROL Approve]** nella barra delle attività di gestione dei segmenti.
 1. Considera la condivisione dei segmenti approvati con la tua organizzazione.
 1. Fai clic su **[!UICONTROL OK]**.
 1. Osservate l’icona di approvazione accanto al segmento nell’elenco.
