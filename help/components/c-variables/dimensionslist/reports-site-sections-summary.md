@@ -1,22 +1,20 @@
 ---
-description: Un rapporto di riepilogo per sezioni del sito che visualizzano punti di immissione delle pagine precedenti, punti di uscita della pagina successiva e informazioni sulle istanze (chiamate visualizzazioni di pagina nell'interfaccia), profondità delle sezioni del sito, tempo trascorso sulle sezioni del sito e così via.
-seo-description: Un rapporto di riepilogo per sezioni del sito che visualizzano punti di immissione delle pagine precedenti, punti di uscita della pagina successiva e informazioni sulle istanze (chiamate visualizzazioni di pagina nell'interfaccia), profondità delle sezioni del sito, tempo trascorso sulle sezioni del sito e così via.
-seo-title: Riepilogo sezioni del sito
+description: Un rapporto di riepilogo per le sezioni del sito che mostra i punti di ingresso della pagina precedente, i punti di uscita della pagina successiva e informazioni sulle istanze (o visualizzazioni di pagina in questa interfaccia), la profondità delle sezioni del sito, il tempo trascorso sulle sezioni del sito e così via.
 solution: Analytics
 title: Riepilogo sezioni del sito
-topic: Rapporti
-uuid: 5 bee 04 ea -5414-4538-b 0 d 1-120700982762
+topic: Reports
+uuid: 5bee04ea-5414-4538-b0d1-120700982762
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Riepilogo sezioni del sito
 
-Un rapporto di riepilogo per sezioni del sito che visualizzano punti di immissione delle pagine precedenti, punti di uscita della pagina successiva e informazioni sulle istanze (chiamate visualizzazioni di pagina nell'interfaccia), profondità delle sezioni del sito, tempo trascorso sulle sezioni del sito e così via.
+Un rapporto di riepilogo per le sezioni del sito che mostra i punti di ingresso della pagina precedente, i punti di uscita della pagina successiva e informazioni sulle istanze (o visualizzazioni di pagina in questa interfaccia), la profondità delle sezioni del sito, il tempo trascorso sulle sezioni del sito e così via.
 
-Again, the Page Views shown under **[!UICONTROL Details]** should be interpreted as Instances:
+Anche in questo caso, le visualizzazioni pagina visualizzate in **[!UICONTROL Details]** devono essere interpretate come Istanze:
 
 ![](assets/site_sec_summ.png)
 
