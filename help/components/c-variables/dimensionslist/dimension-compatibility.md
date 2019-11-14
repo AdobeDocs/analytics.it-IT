@@ -1,214 +1,212 @@
 ---
-title: Compatibilità dimensioni analisi
-seo-title: Dimensioni e rapporti di Analytics compatibili con Analysis Workspace, Reporting e analisi o con entrambi.
-description: Riferimento per dimensioni e rapporti di Analytics.
-seo-description: Dimensioni di Analysis Workspace, dimensioni e dimensioni di Reporting e analisi, dimensioni, dimensioni R e A, Dimensioni Workspace
+title: Compatibilità delle dimensioni di Analytics
+description: Riferimento per le dimensioni e i report di Analytics.
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Compatibilità dimensioni analisi
+# Compatibilità delle dimensioni di Analytics
 
-Questo articolo di riferimento elenca le dimensioni/i report supportati in Reporting e analisi e Area di lavoro Analisi, solo in Analysis Workspace, e solo in Reporting e analisi.
+Questo articolo di riferimento elenca le dimensioni/i rapporti supportati sia in Reporting e analisi che in Analysis Workspace, solo in Analysis Workspace e solo in Reporting e analisi.
 
-Tenete presente che
+Ricorda che
 
-* Non sono elenchi completi. Ogni suite di rapporti può avere o meno un determinato set di variabili di prodotto abilitate. Inoltre, una qualsiasi suite di rapporti può avere un numero qualsiasi di variabili personalizzate abilitate o disabilitate o mappate alle variabili di prodotto. Abbiamo anche abbandonato gli attributi dei visitatori e le classificazioni, perché sono univoci per ogni suite di rapporti.
+* Non si tratta di elenchi esaustivi. Ciascuna suite di rapporti può avere o meno attivato un determinato set di variabili di prodotto. Inoltre, qualsiasi suite di rapporti può avere un numero qualsiasi di variabili personalizzate abilitate o disabilitate o mappate a variabili di prodotto. Abbiamo anche omesso gli attributi e le classificazioni dei visitatori, poiché sono univoci per ogni suite di rapporti.
 
-* There are some cases of overlap, where Analytics tools use different terms for what is essentially the same thing, for example: `browserwidth` and `browserwidthbucketed`.
+* Esistono alcuni casi di sovrapposizione, in cui gli strumenti Analytics utilizzano termini diversi per ciò che è sostanzialmente la stessa cosa, ad esempio: `browserwidth` e `browserwidthbucketed`.
 
-## Dimensioni supportate in Reporting e analisi e Analysis Workspace
+## Dimensioni supportate sia in Reporting e analisi che in Analysis Workspace
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |---|---|
-| Analytics per Target | targetraw |
-| ID audience | mcaudiences |
+| Analisi per Target | targetraw |
+| ID pubblico | mescolanza |
 | Browser | browser |
 | Tipo di browser | browsertype |
 | Categoria | categoria |
-| Città | geocity |
-| Profondità colore | colordepth |
+| Città | geocità |
+| Profondità colore | colorimetria |
 | Tipo connessione | connectiontype |
-| Supporto cookie | cookie |
-| Paesi | geocountry |
-| Fedeltà cliente | customerfedeltà |
-| Variabili conversione personalizzate | evar 1, evar 2, ecc. |
-| Custom Insight Vars | prop 1, prop 2, ecc. |
+| Supporto per cookie | cookie |
+| Paesi | paese |
+| Fedeltà cliente | fedeltà dei clienti |
+| Variabili di conversione personalizzate | evar1, evar2, ecc. |
+| Varie di visualizzazione personalizzate | prop1, prop2, ecc. |
 | Collegamento personalizzato | customlink |
-| Giorni prima del primo acquisto | daysbeforefirstpurchase |
+| Giorni precedenti al primo acquisto | daysbeforePurchase |
 | Giorni dall'ultimo acquisto | dayssincelastpurchase |
 | Dominio | filtereddomain |
-| Collegamento download | downloadlink |
-| Pagina di immissione | entrypage |
-| Pagina di immissione originale | entrypageoriginal |
-| Chiudi collegamento | exitlink |
+| Collegamento di download | downloadlink |
+| Pagina di entrata | entrata |
+| Pagina di entrata originale | entrypageOriginal |
+| Collegamento di uscita | exitlink |
 | Primo canale touch | firsttouchchannel |
-| Primo dettaglio canale touch | firsttouchchanneldetail |
+| Primo dettaglio canale touch | firsttouchchanneldettaglio |
 | Java abilitato | javaenabled |
 | Lingua | language |
 | Ultimo canale touch | lasttouchchannel |
-| Dettagli ultimo canale touch | dettagli su layout |
+| Ultimo dettaglio canale touch | lasttouchchanneldettaglio |
 | Variabili elenco | listvariables |
-| Canale di marketing | marketingchannel |
-| Supporto audio per dispositivi mobili | supporto mobileaudiosupporto |
-| Gestore di telefonia mobile | mobilecarrier |
-| Profondità colore mobile | mobilecolordepth |
-| Supporto per cookie mobili | mobilecookiesupport |
+| Canale di marketing | canale di marketing |
+| Supporto audio per dispositivi mobili | mobileaudiosupporto |
+| Gestore di telefonia mobile | operatore |
+| Profondità colore mobile | mobilecolorprofondità |
+| Supporto dei cookie per dispositivi mobili | mobilecookiesupport |
 | Dispositivo mobile | mobiledevicename |
-| Tipo dispositivo mobile | mobiledevicetype |
-| Lunghezza e-mail max-mobile | mobileemaillength |
+| Tipo di dispositivo mobile | mobiledevicetype |
+| Lunghezza max e-mail mobile | mobileemaillength |
 | Supporto per immagini mobili | mobileimagesupport |
-| Produttore mobile | mobilemanufacturer |
+| Produttore di dispositivi mobili | mobilemanificatore |
 | Sistema operativo mobile (obsoleto) | mobileos |
 | Altezza schermo mobile | mobilescreenheight |
 | Dimensioni dello schermo del dispositivo mobile | mobilescreensize |
 | Larghezza schermo mobile | mobilescreenwidth |
-| Lunghezza URL max browser mobile | mobileurllength |
-| Supporto video per dispositivi mobili | mobilevideosupport |
-| Risoluzione monitor | risoluzione dello spostamento |
-| Sistemi operativi | operatingsystem |
-| Dominio di riferimento originale | referringdomainoriginal |
+| Lunghezza massima URL browser mobile | mobileurllength |
+| Supporto per video mobile | mobilevideosupport |
+| Risoluzione monitor | monitorresolution |
+| Sistemi operativi | sistema operativo |
+| Dominio di riferimento originale | referringdomainoriginale |
 | Pagina | page |
 | Pagine non trovate | pagesnotfound |
 | Prodotto | prodotto |
 | Referrer | referrer |
-| Tipo referente | referrertype |
+| Tipo di riferimento | referrertype |
 | Dominio di riferimento | referringdomain |
-| Aree geografiche | georegion |
-| Restituisci frequenza | returnfrequency |
-| SC-tnt | tntbase |
-| Motore di ricerca | searchengine |
-| Ricerca parola chiave | parola chiave searchengineering |
-| Motore di ricerca - Naturale | searchenginenatural |
-| Motore di ricerca - Paid | searchengineering searchenginepaid |
-| Ricerca parola chiave - Naturale | searchenginenaturalkeyword |
-| Parola chiave Cerca - Pagamento | searchengineering paidkeyword |
-| Tutte le classificazioni di ricerca | searchengineering pagerank |
+| Aree geografiche | georegione |
+| Restituisci frequenza | frequenza di ritorno |
+| SC-TnT | tntbase |
+| Motore di ricerca | ricercatore |
+| Cerca parola chiave | searchEnginekeyword |
+| Motore di ricerca - Naturale | search enginenatural |
+| Motore di ricerca - Pagato | search enginepaid |
+| Parola chiave di ricerca - Naturale | search enginaturalkeyword |
+| Parola chiave di ricerca - pagata | search ingegnpaidkeyword |
+| Seleziona tutte le pagine di ricerca | search enginepagerank |
 | Server | server |
-| Visite a pagina singola | singlepagevisit |
-| Sezione sito | sezioni di siti |
+| Visite a pagina singola | singlepfacilitisits |
+| Sezione del sito | sezioni di sito |
 | Tempo trascorso per visita - Granulare | sitetime |
 | Codice di tracciamento | campaign |
 | DMA USA | geodma |
 | Stati Uniti | state |
-| Tempo precedente all'evento | timebefore |
-| Tempo trascorso per visita - Perforato | timapent |
+| Tempo precedente all'evento | time before |
+| Tempo trascorso per visita - A intervalli | durata |
 | Profondità visita | pathlength |
 | Numero visita | visitnumber |
 | Codice postale | zip |
 
 ## Dimensioni supportate solo in Analysis Workspace
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| AM/PM | timepartampm |
-| Altezza browser - Bande | browserheightbucketed |
-| Larghezza browser - Bande | browserwidthbucketed |
-| Giorno | daterangeday |
-| Giorno del mese | timepartdayofmonth |
-| Giorno della settimana | dayofweek |
-| Giorno della settimana | timepartdayofweek |
-| Giorno dell’anno | timepartdayofyear |
+| AM/PM | timpartampm |
+| Altezza browser - Esteso | browserheightbuck |
+| Larghezza browser - Estremità | browserwidthbuck |
+| Day | daterangeday |
+| Giorno del mese | time partday of month |
+| Giorno della settimana | giorno della settimana |
+| Giorno della settimana | time partday of week |
+| Giorno dell’anno | timepartday of year |
 | Giorni dall'ultima visita | dayssincelastvisit |
-| Approfondimenti personalizzati | entryprop |
-| Variabili elenco di voci | entrylistvariables |
-| Server di immissione | entryserver |
-| Sezione Site Site | sezioni entrysitesections |
-| Esci da approfondimenti personalizzati | exitprop |
-| Esci da variabili elenco | exitlistvariables |
+| Approfondimenti personalizzati | entryprops |
+| Variabili elenco voci | entrylistvariables |
+| Entry Server | entryserver |
+| Sezione Sito di entrata | sezioni di entrata |
+| Esci da approfondimenti personalizzati | exitprops |
+| Variabili elenco di uscita | exitlistvariables |
 | Esci da pagina | exitpage |
 | Exit Server | exitserver |
-| Esci da sezione del sito | exitsitesezioni |
-| Profondità hit | hitdepth |
-| Tipo di hit | hittype |
+| Esci dalla sezione del sito | exitsitesections |
+| Profondità di hit | profondità |
+| Tipo di occorrenza | tipo |
 | Ora | daterangehour |
 | Ora del giorno | timeparthourofday |
-| Dettaglio canale marketing | dettagli su marketingchanneldetail |
+| Dettagli canale di marketing | marketingchanneldetail |
 | Minuto | daterangeminute |
-| Lunghezza segnalibro max. mobile | mobilebookmarklength |
+| Lunghezza massima segnalibro per dispositivi mobili | mobilebookmarklength |
 | Numero dispositivo mobile | mobiledevicenumber |
-| DRM Mobile | mobiledrm |
+| DRM mobile | mobiledrm |
 | Mobile Information Services | mobileinformationservices |
-| Mobile Java VM | mobilejavavm |
+| VM Java mobile | mobilejavavavm |
 | Decorazione di Mobile Mail | mobilemaildecoration |
 | Protocolli di Mobile Net | mobilenetprotocolli |
-| Push Push per parlare | mobilepushtospeak |
+| Invio Per Dispositivi Mobili Per Parlare | mobilepushtotalk |
 | Mese | daterangemonth |
-| Mese dell’anno | timepartmonthofyear |
+| Mese dell’anno | timepartmonthof year |
 | Tipi di sistemi operativi | operatingsystemgroup |
 | Ricerca pagata | paidsearch |
-| Supporto cookie persistente | persistentcookie |
+| Supporto Cookie Persistente | persistentcookie |
 | Trimestre | daterangequarter |
 | Trimestre dell’anno | timepartquarterofyear |
-| Sondaggio | querybase |
-| Tempo trascorso sulla pagina - Piegato | averagepagetime |
+| Sondaggio | topografia |
+| Tempo trascorso sulla pagina - Interrotto | averagepagetime |
 | Tempo trascorso sulla pagina - Granulare | pagetimeseconds |
-| Motivo di rifiuto del tracciamento | optoutreason |
-| Settimana/fine settimana | timepartweekdayweekend |
+| Motivo rifiuto tracciamento | optoutreason |
+| Giorno feriale/Fine settimana | weekend |
 | Settimana | daterangeweek |
 | Anno | daterangeyear |
 
-## Dimensioni basate sul contenuto supportate solo in Analysis Workspace
+## Dimensioni in base al contenuto supportate solo in Analysis Workspace
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| Activity Map XY | clickmapxy |
-| ID sessione multimediale | videosessionid |
-| Metodo di accesso Nielsen | nielsenaccmethod |
-| Nielsen App ID | nielsenappid |
-| Nielsen Channel Asset | nielsenchannelasset |
+|  Activity Map XY | clickmapxy |
+| ID sessione multimediale | videosess ionid |
+| Metodo di accesso Nielsen | nielsenacmetodo |
+| ID app Nielsen | nielsenappid |
+| Risorsa canale Nielsen | nielsenchannelasset |
 | Nielsen Content Type | nielsencontenttype |
 
 ## Dimensioni supportate solo in Reporting e analisi
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Altezza browser | browserheight |
 | Larghezza browser | browserwidth |
-| Clienti univoci giornalieri | dailyuniquecustomers |
+| Clienti univoci giornalieri | dailyunicecustomers |
 | JavaScript | javascriptsupport |
 | JavaScript versione | javascriptversion |
-| Clienti univoci mensili | monthlyustomers |
-| Clienti unici trimestrali | quarterlyuniquecustomers |
+| Clienti univoci mensili | clienti unici mensili |
+| Clienti univoci trimestrali | clienti di quarterlyuniveca |
 | Fusi orari | timezone |
-| Domini di livello principale | topleveldomain |
+| Domini di livello principali | topleveldomain |
 | Stato visitatore | legacystate |
-| Clienti univoci settimanali | weeklyuniquecustomers |
-| Clienti annuali univoci | yearlyuniquecustomers |
+| Clienti unici settimanali | weekend esclusivamente clienti |
+| Clienti univoci annuali | yearlyunicecustomers |
 
-## Report pre-configurati in Reporting e analisi
+## Report preconfigurati in Reporting e analisi
 
-Reporting e analisi contiene più rapporti preconfigurati che non possono essere mappati su una dimensione specifica oppure se il rapporto utilizza una classe di dimensioni. Questi rapporti sono elencati qui:
+Reporting e analisi contiene più report preconfigurati che non vengono mappati a una dimensione specifica, oppure il report utilizza una classe di dimensioni. Questi rapporti sono elencati di seguito:
 
 * Lunghezza URL segnalibro
 * Browser
 * Tipi di browser
 * Funnel di conversione campagna
-* Funnel di conversione carrello
+* Funnel di conversione del carrello
 * Città
-* Clic su pagina
+* Clic sulla pagina
 * Paesi
-* Cross-sell
+* Vendita incrociata
 * Funnel eventi personalizzati
 * Supporto per Decoration Mail
-* Trasmissione numero dispositivo (Attivato/Disattivato)
+* Trasmissione numero dispositivo (ON/OFF)
 * Domains (Domini)
 * DRM
-* Pagine di immissione
+* Pagine di entrata
 * Esci da pagine
 * Abbandono
 * Percorsi completi
-* Icities
+* ICities
 * Servizi informativi
 * Versione Java
 * Lingue
 * Percorsi più lunghi
 * Visualizzatori simultanei
-* Media giornaliero
-* Dettagli file multimediali
-* Panoramica file multimediali
+* Daypart Media
+* Dettagli supporto
+* Panoramica sui supporti
 * Risoluzioni monitor
 * Protocolli di rete
 * Plug-in Netscape
@@ -218,192 +216,192 @@ Reporting e analisi contiene più rapporti preconfigurati che non possono essere
 * Tipi di sistemi operativi
 * Profondità pagina
 * Riepilogo pagina
-* Pathfinder
+* PathFinder
 * Flusso pagina precedente
 * Pagina precedente
 * PTT
 * Funnel di conversione prodotti
-* Funnel di conversione acquisto
+* Funnel di conversione acquisti
 * Domini di riferimento
 * Aree geografiche
-* Ricarica
+* Ricariche
 * Motori di ricerca - Tutti
 * Motori di ricerca - Naturale
-* Motori di ricerca - Paid
+* Motori di ricerca - Pagati
 * Cerca parole chiave - Tutto
-* Ricerca parole chiave - Naturale
-* Parole chiave Search - Paid
+* Cerca parole chiave - Naturale
+* Cerca parole chiave - A pagamento
 * Dettagli attività Target
-* Tempo trascorso sulla pagina
+* Tempo trascorso nella pagina
 * Fusi orari
-* Domini di livello principale
+* Domini di livello principali
 * DMA USA
-* Stati Stati Uniti
+* Stati Uniti
 * Numero visita
 * Home page visitatori
 
-## Dimensioni basate sul contenuto supportate da Reporting e analisi e da Analysis Workspace
+## Dimensioni in base al contenuto supportate da Reporting e analisi e Analysis Workspace
 
 ### Video (Media Analytics)
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Contenuto | video |
-| Segmento contenuto | videosegmento |
+| Segmento di contenuto | videosegmento |
 | Tipo di contenuto | videocontenttype |
-| Nome lettore | videoadplayername |
-| Annuncio nella posizione del contenitore | videoadinpod |
+| Nome lettore annuncio | videoadplayername |
+| Aggiungi in posizione contenitore | videoadinpod |
 | Fotogrammi rilasciati | videoqoedroppedframecountevar |
 | Errori | videoqoeerrorcountevar |
 | Bitrate medio | videoqoebitrateaverageevar |
 | Modifiche bitrate | videoqoebitratechangecountevar |
-| Durata buffer totale | videoqoebuffertimeevar |
+| Durata totale buffer | videoqoebuffertimevar |
 | Eventi buffer | videoqoebuffercountevar |
-| Tempo di inizio | videoqoetimetostartevar |
-| Ad pod | videoadpod |
-| Percorso media | videopath |
+| Ora di inizio | videoqetimetostartevar |
+| Ad Pod | videoadpod |
+| Percorso supporto | videopath |
 | Annuncio | videoad |
-| Nome lettore contenuto | videoplayername |
-| Canale contenuto | videochannel |
+| Nome lettore contenuti | videoplayername |
+| Canale contenuto | videocanale |
 | Capitolo | videocapitolo |
 | Nome contenuto (variabile) | videoname |
-| Lunghezza contenuto (variabile) | videolength |
+| Lunghezza contenuto (variabile) | lunghezza video |
 | Nome annuncio (variabile) | videoadname |
 | Lunghezza annuncio (variabile) | videoadlength |
 | Mostra le informazioni | videoshow |
-| Stagione | videoseason |
+| Stagione | videoconferenza |
 | Episodio | videoepisodio |
 | Rete | videonetwork |
 | Mostra tipo | videoshowtype |
 | Caricamenti annunci | videoadload |
 | MVPD | videomvpd |
-| Part Part | videodaypart |
-| Inserzionista | videoadadvertiser |
+| Parte giorno | videodaypart |
+| Inserzionista | videoinserzionista |
 | ID campagna | videoadcampaign |
-| Genere | videogenre |
+| Genere | videogenere |
 | Tipo di flusso | videostreamtype |
-| ID errore SDK di Player | videoqoeplayersdkerrors |
-| ID errore esterni | videoqoeextneralerrors |
-| Tipo feed multimediale | videofeedtype |
-| Percorso media media | entryvideopath |
-| Esci da percorso multimediale | exitvideopath |
-| Voce di ingresso | entryvideogenre |
-| Esci da genere | exitvideogenre |
-| ID errore SDK di Adobe Entry Player | entryvideoqoeplayersdkerrors |
-| ID errore SDK di uscita da Player | exitvideoqoeplayersdkerrors |
-| ID errore esterni | entryvideoqoeextneralerrors |
-| Uscire dagli ID errore esterni | exitvideoqoeextneralerrors |
+| ID errore SDK lettore | videoqoeplayersderrori |
+| ID errore esterni | videoqoeextneralerrori |
+| Tipo di feed multimediale | videofeedtype |
+| Percorso file multimediali | entryvideopath |
+| Esci da percorso supporto | exitvideopath |
+| Genere di ingresso | entryvideogenere |
+| Tipo di uscita | exitvideogenere |
+| ID errore SDK del lettore entry-level | entryvideoqoeplayersdkerror |
+| Esci dagli ID errore SDK Player | exitvideoqoeplayersderrori |
+| ID errore esterno voce | entryvideoqoeextneralerrori |
+| Esci da ID errore esterni | exitvideoqoeextneralerrori |
 
 ### Adobe Social
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Termini | socialterm |
-| Piattaforme/proprietà social | socialcontentprovider |
-| Autori | socialauthor |
-| Lingua | sociallanguage |
+| Piattaforme/Proprietà social | socialcontentprovider |
+| Autori | socialautore |
+| Lingua | socialingua |
 | Latitudine/longitudine | sociallatlong |
-| Codici di tracciamento risorse | socialassettrackingcode |
-| Proprietà social di proprietà | socialaccountandappids |
+| Codici di tracciamento delle risorse | socialassettrackingcode |
+| Proprietà Social | socialaccountandappids |
 | ID post di proprietà | socialownedpostids |
-| Definizioni social di proprietà | socialinteractiontype |
-| ID proprietà di proprietà | socialownedpropertyid |
-| Proprietà di proprietà rispetto all'applicazione | socialownedpropertypropertyvsapp |
-| Nome proprietà di proprietà | socialownedpropertyname |
-| Proprietà di definizione di proprietà rispetto Post | socialowneddefinitionpropertyvspost |
-| Tipo di Visual Insight di proprietà | socialowneddefinitioninsighttype |
-| Valore di Insight definizione di proprietà | socialowneddefinitioninsightvalue |
-| Metrica di definizione di proprietà | socialowneddefinitionmetric |
+| Definizioni social network di proprietà | socialinteractiontype |
+| ID proprietà | socialownedproperty |
+| Proprietà di proprietà e applicazione | socialownedProprietà yvsapp |
+| Nome proprietà | socialownedpropertyName |
+| Proprietà definizione di proprietà e post | socialownddefinition ionproperty yvspost |
+| Tipo di visione della definizione di proprietà | socialowneddefinition insighype |
+| Valore Insight definizione di proprietà | socialowneddefinition insightvalue |
+| Metrica definizione di proprietà | socialowneddefinition |
 | Risorsa | socialmediaid |
 
-### SDK di Mobile
+### SDK per dispositivi mobili
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| Data primo avvio | mobileinstall data |
+| Data primo avvio | mobileinstalldate |
 | ID app | mobileappid |
 | Numero di avvii | mobilelaunchnumber |
 | Giorni dal primo utilizzo | mobiledayssincefirstuse |
 | Giorni dall'ultimo utilizzo | mobiledayssincelastuse |
 | Ora del giorno (SDK) | mobilehourofday |
 | Giorno della settimana (SDK) | mobiledayofweek |
-| Sistema operativo (SDK) | mobileosenvironment |
+| Sistema operativo (SDK) | mobileosenenvironment |
 | Giorni dall'ultimo aggiornamento | mobiledayssincelastupgrade |
 | Avvii dall'ultimo aggiornamento | mobilelaunchessincelastupgrade |
 | Nome dispositivo (SDK) | mobiledevice |
 | Versione sistema operativo (SDK) | mobileosversion |
-| Beacon Major | mobilebeaconmajor |
-| Beacon secondario | mobilebeacon |
-| UUCON BEUID | mobilebeaconuuid |
-| Prossimità beacon | mobilebeaconproximity |
+| Beacon principale | mobilebeaconmajor |
+| Beacon minore | mobilebeaconminor |
+| Beacon UUID | mobilebeaconuid |
+| Prossimità beacon | mobilebeaconprossimità |
 | Posizione (fino a 10 chilometri) | latlon1 |
 | Posizione (fino a 100 m) | latlon23 |
 | Posizione (fino a 1 m) | latlon45 |
-| Nome del punto di interesse | pointofinterest |
-| Distanza dal centro del punto di interesse | pointofinterestdistance |
-| Precisione posizione | precisione mobileplace |
-| Categoria Inserisci | mobileplacecategory |
-| Inserisci ID | mobileplaceid |
-| Grande beacon di ingresso | entrymobilebeacon |
-| Exit Beacon Major | exitmobilebeacon |
-| Beacon di ingresso | entrymobilebeacon |
-| Esci da beacon secondario | exitmobilebeacon |
-| UUID Beacon | entrymobilebeaconuuid |
-| Exit Beacon UUID | exitmobilebeacon uuid |
-| Prossimità beacon di ingresso | entrymobilebeacon |
-| Chiudi vicinanza beacon | exitmobilebeacon |
+| Nome del punto di interesse | puntiniere |
+| Distanza dal centro del punto di interesse | puntofinterestdistanze |
+| Precisione posizione | mobilesegnaposto |
+| Categoria posto | mobileplacecategory |
+| ID posizione | mobilesegnaposto |
+| Beacon principale voce | entrymobilebeaconmajor |
+| Esci dal beacon principale | exitmobilebeaconmajor |
+| Beacon voce secondaria | entrymobilebeaconminor |
+| Esci da beacon secondario | exitmobilebeaconminor |
+| UUID beacon voce | entrymobilebeaconuid |
+| Exit Beacon UUID | exitmobilebeaconuid |
+| Prossimità beacon di ingresso | entrymobilebeaconprossimità |
+| Esci da prossimità beacon | exitmobilebeaconprossimità |
 
 ### Adobe Advertising Cloud (AMO)
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| AMO EF ID | amo_ ef_ id |
-| ID AMO | amo_ cid |
+| ID EF AMO | amo_ef_id |
+| ID AMO | amo_cid |
 
 ### Activity Map
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| Collegamento mappa dell'attività per regione | clickmaplinkbyarea |
+| Collegamento Activity Map Per Regione | clickmaplinkbyregion |
 | Regione Activity Map | clickmapregion |
 | Collegamento alla Activity Map | clickmaplink |
 | Pagina della Activity Map | clickmappage |
 
 ### Integrazione Nielsen
 
-For more information on how to implement this integration, see [Nielsen partnership](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
+Per ulteriori informazioni su come implementare questa integrazione, consulta [Nielsen partnership](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| Nielsen Ad Model | nielsenadmodel |
-| Segmento Nielsen C | nielsensegmentc |
+| Modello pubblicitario Nielsen | nielsenadmodel |
+| Segmento Nielsen C | nielsensegmenta |
 | Segmento Nielsen B | nielsensegmentb |
 | Segmento Nielsen A | nielsensegmenta |
-| ID contenuto Nielsen | nielsencontentid |
-| Nielsen Asset/Program | nielsenasset |
+| Nielsen Content ID | nielsencontentid |
+| Risorse/Programma Nielsen | nielsenasset |
 | Nielsen VCID | nielsenvcid |
-| Nielsen Opout | nielsenoptout |
-| Nielsen Client ID + VCID | nielsenclientidvcid |
+| Rifiuto Nielsen | nielsenoptout |
+| ID client Nielsen + VCID | nielsenclientidvcid |
 | ID client Nielsen | nielsenclientid |
-| Voce Nielsen | entrynielsenoptout |
-| Esci da Nielsen Opout | exitnielsenoptout |
-| Voce Nielsen Client ID + VCID | entrynielsenclientidvcid |
-| Exit Nielsen Client ID + VCID | exitnielsenclientidvcid |
+| Rifiuto Nielsen | entrynielsenoptout |
+| Esci da Nielsen Rifiuta | exitnielsenoptout |
+| ID client Nielsen + VCID | entrynielsenclientidvcid |
+| Esci da ID client Nielsen + VCID | exitnielsenclientidvcid |
 | ID client Nielsen | entrynielsenclientid |
-| Esci da ID client Nielsen | exitnielsenclientid |
+| Esci dall'ID client Nielsen | exitnielsenclientid |
 
 ### Adobe Experience Manager (AEM)
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | ID risorsa | aemassetid |
-| Origine risorse | aemassetsource |
-| ID risorsa con clic | aemclickedassetid |
-| ID risorsa di ingresso | entryaemassetid |
-| Exit Asset ID | exitaemassetid |
+| Origine risorsa | aemassetsource |
+| ID risorsa selezionata | aemclickedassetid |
+| ID risorsa voce | entryaemassetid |
+| Esci ID risorsa | exitaemassetid |
 
 ### Adobe Campaign
 
-| Nome dimensione (visibile nell'interfaccia utente di Analytics) | ID dimensione (usato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| ID consegna eseguito Adobe Campaign | ac_ delivery_ internal_ name |
+| ID consegna eseguita da Adobe Campaign | ac_delivery_internal_name |
