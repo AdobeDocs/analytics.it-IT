@@ -1,13 +1,11 @@
 ---
 description: Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un report. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
-seo-description: Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un report. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
-seo-title: Dimensioni
 solution: Analytics
 title: Dimensioni
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
