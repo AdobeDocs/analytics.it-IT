@@ -1,11 +1,9 @@
 ---
 description: Inizia con Analisi ad hoc.
-seo-description: Inizia con Analisi ad hoc.
-seo-title: Introduzione
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,7 +31,7 @@ Queste funzioni consentono di rispondere alle domande sul traffico del sito, sul
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Avvia Analisi Ad Hoc. </p> </td> 
-   <td colname="col2">Fai clic <span class="uicontrol"> su Adobe Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol"> Analisiad hoc</span>, quindi fai clic sul <span class="uicontrol"> pulsante Avvia analisi</span> ad hoc. <p> <p>Nota:Se non trovi il pulsante <b>Avvia analisi</b> ad hoc in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo Utente <i>licenza</i> Ad Hoc Analysis in Strumenti di amministrazione. </p> </p> </td> 
+   <td colname="col2">Fai clic <span class="uicontrol"> su Adobe Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol"> Analisiad hoc</span>, quindi fai clic sul <span class="uicontrol"> pulsante Avvia analisi</span> ad hoc. <p> <p>Nota: Se non trovi il pulsante <b>Avvia analisi</b> ad hoc in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo Utente <i>licenza</i> Ad Hoc Analysis in Strumenti di amministrazione. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crea un progetto. </p> </td> 
@@ -122,7 +120,7 @@ t_login_suite.xml
 1. Digitate il nome della società, il nome utente e la password. Quindi fai clic su **[!UICONTROL Sign In]**.
 1. Clic **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Ad Hoc Analysis]**.
 
-   Se non trovi il pulsante **Avvia analisi** ad hoc in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo Utente *licenza* Ad Hoc Analysis in Strumenti di amministrazione.
+    Se non trovi il pulsante **Avvia analisi** ad hoc in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo Utente *licenza* Ad Hoc Analysis in Strumenti di amministrazione.
 1. Fai clic su **[!UICONTROL Launch Ad Hoc Analysis]**.
 1. Salvate il [!DNL discover.jnlp] file localmente.
 
