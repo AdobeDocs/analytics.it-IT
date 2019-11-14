@@ -1,18 +1,16 @@
 ---
-description: Visualizza tutti i server del sito Web tracciati e indica quali server sono maggiormente accessibili.
-seo-description: Visualizza tutti i server del sito Web tracciati e indica quali server sono maggiormente accessibili.
-seo-title: Più server
+description: Visualizza tutti i server del sito Web che vengono monitorati e indica quali server sono maggiormente accessibili.
 solution: Analytics
-title: Più server
-topic: Rapporti
-uuid: dd 7 e 1346-4 fa 6-4258-9 bcn -00 acf 67 c 3238
+title: Server più popolari
+topic: Reports
+uuid: dd7e1346-4fa6-4258-9bcc-00acf67c3238
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Più server
+# Server più popolari
 
-Visualizza tutti i server del sito Web tracciati e indica quali server sono maggiormente accessibili.
+Visualizza tutti i server del sito Web che vengono monitorati e indica quali server sono maggiormente accessibili.
 
