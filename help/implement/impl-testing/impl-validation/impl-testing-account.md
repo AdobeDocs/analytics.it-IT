@@ -1,25 +1,23 @@
 ---
-description: Quando esegui il debugger Experience Cloud, potresti voler cercare la variabile s_ account.
-keywords: Implementazione di Analytics
-seo-description: Quando esegui il debugger Experience Cloud, potresti voler cercare la variabile s_ account.
-seo-title: Identificare la variabile s_ account nel debugger
+description: Quando esegui Experience Cloud Debugger, potresti voler cercare la variabile s_account.
+keywords: Analytics Implementation
 solution: Analytics
-title: Identificare la variabile s_ account nel debugger
-topic: Sviluppatore e implementazione
-uuid: aae 1763 a -07 e 0-45 e 7-9695-15862 d 77 c 0 ec
+title: Identificare la variabile s_account nel debugger
+topic: Developer and implementation
+uuid: aae1763a-07e0-45e7-9695-15862d77c0ec
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Identificare la variabile s_ account nel debugger
+# Identificare la variabile s_account nel debugger
 
-Quando esegui il debugger Experience Cloud, potresti voler cercare la variabile s_ account.
+Quando esegui Experience Cloud Debugger, potresti voler cercare la variabile s_account.
 
-La convalida e il test devono essere sempre eseguiti in una suite di rapporti per la fase di sviluppo.
+La convalida e il test devono sempre essere eseguiti su una suite di rapporti per lo sviluppo.
 
-The following figure shows the location of the *`s_account`* variable.
+La figura seguente mostra la posizione della *`s_account`* variabile.
 
 ![](assets/debugger_code.png)
 
