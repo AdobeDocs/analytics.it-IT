@@ -1,11 +1,9 @@
 ---
 description: Con il generatore Calculated Metric, chiunque può creare una metrica di partecipazione.
-seo-description: Con il generatore Calculated Metric, chiunque può creare una metrica di partecipazione.
-seo-title: Metrica di partecipazione
 title: Metrica di partecipazione
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
