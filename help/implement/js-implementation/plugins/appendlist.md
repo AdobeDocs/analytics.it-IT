@@ -1,15 +1,13 @@
 ---
 description: Il plug-in apl (o appendList) consente di aggiungere un valore a qualsiasi elenco delimitato, con l'opzione di un controllo sensibile alle maiuscole/minuscole o senza distinzione tra maiuscole e minuscole per verificare che il valore non sia già presente nell'elenco. Il plug-in APL è indicato da diversi plug-in standard, ma può essere utilizzato direttamente in diverse situazioni.
-keywords: Implementazione di Analytics
-seo-description: Il plug-in apl (o appendList) consente di aggiungere un valore a qualsiasi elenco delimitato, con l'opzione di un controllo sensibile alle maiuscole/minuscole o senza distinzione tra maiuscole e minuscole per verificare che il valore non sia già presente nell'elenco. Il plug-in APL è indicato da diversi plug-in standard, ma può essere utilizzato direttamente in diverse situazioni.
-seo-title: appendList
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Plug-in
+subtopic: Plug-ins
 title: appendList
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
