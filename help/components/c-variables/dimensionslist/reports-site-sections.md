@@ -1,13 +1,11 @@
 ---
 description: ' Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall''utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l''impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.'
-seo-description: ' Mostra le aree del sito a cui i visitatori accedono maggiormente. Le sezioni del sito possono includere gruppi di prodotti, simili alle categorie definite dall''utente. Ad esempio, puoi avere un gruppo di pagine Fotocamere, un gruppo Computer e così via. I dati per il report Sezioni sito di conversione vengono importati dal report Sezione sito nel gruppo Traffico, che riceve le informazioni dalla variabile canale nel codice di tracciamento. È possibile utilizzare questo rapporto per identificare l''impatto maggiore sulle statistiche del sito dagli elementi in varie sezioni del sito.'
-seo-title: Sezione sito
 solution: Analytics
 title: Sezione sito
-topic: Rapporti
+topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
