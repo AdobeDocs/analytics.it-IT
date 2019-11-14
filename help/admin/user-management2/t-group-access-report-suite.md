@@ -1,14 +1,12 @@
 ---
 description: Passaggi che descrivono come assegnare gruppi di utenti a una suite di rapporti.
-seo-description: Passaggi che descrivono come assegnare gruppi di utenti a una suite di rapporti.
-seo-title: Assegnare gruppi di utenti a una suite di rapporti
 solution: Analytics
-subtopic: Utenti e gruppi
+subtopic: Users and groups
 title: Assegnare gruppi di utenti a una suite di rapporti
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
