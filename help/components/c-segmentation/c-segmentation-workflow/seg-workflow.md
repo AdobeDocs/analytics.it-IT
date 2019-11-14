@@ -1,13 +1,11 @@
 ---
 description: Descrive un flusso di lavoro consigliato per i segmenti creati con Segment Builder e gestiti tramite Segment Manager (Gestore segmenti).
-seo-description: Descrive un flusso di lavoro consigliato per i segmenti creati con Segment Builder e gestiti tramite Segment Manager (Gestore segmenti).
-seo-title: Panoramica sulla segmentazione del flusso di lavoro
 solution: Analytics
 title: Panoramica sulla segmentazione del flusso di lavoro
-topic: Segmenti
+topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 29bff19e4d33402e8fb65192d7eee134c76c537d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,7 +29,7 @@ seg_workflow.xml
 
 ![](assets/step1_icon.png) Segmenti [ del piano](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
 
-Hai posto tutte le domande giuste prima di creare segmenti e configurare un ambiente di gestione dei segmenti? Hai progettato il segmento con il suo scopo previsto e con un utilizzo preciso in mente?
+Hai posto tutte le domande giuste prima di creare segmenti e configurare un ambiente di gestione dei segmenti? Hai progettato il segmento con il suo scopo previsto e con un utilizzo specifico in mente?
 
 Consulta l'elenco di controllo Pianificazione segmenti per informazioni sulla pianificazione e l'organizzazione dei segmenti.
 
