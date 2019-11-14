@@ -1,13 +1,11 @@
 ---
 description: 'Di seguito sono riportate alcune best practice per l''elaborazione e la distribuzione dei feed di dati. Dovrebbe '
-keywords: Feed dati;best practice;impennata del traffico;ora;ftp
-seo-description: 'Di seguito sono riportate alcune best practice per l''elaborazione e la distribuzione dei feed di dati. Dovrebbe '
-seo-title: Procedure consigliate e informazioni generali
+keywords: Data Feed;best practices;traffic spike;hourly;ftp
 solution: Analytics
 title: Procedure consigliate e informazioni generali
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
