@@ -1,13 +1,11 @@
 ---
 description: Descrive i passaggi necessari per applicare filtri a un rapporto di abbandono.
-seo-description: Descrive i passaggi necessari per applicare filtri a un rapporto di abbandono.
-seo-title: Filtrare un rapporto di fallout mediante la Creazione guidata richieste
 solution: Analytics
 title: Filtrare un rapporto di fallout mediante la Creazione guidata richieste
-topic: Generatore di report
-uuid: 269e900e-23bd-48d8-9back-69e3167a9c18
+topic: Report builder
+uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
