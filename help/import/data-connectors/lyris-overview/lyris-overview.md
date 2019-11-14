@@ -1,12 +1,10 @@
 ---
 description: Descrive le efficienze di marketing ottenute grazie all'integrazione.
-seo-description: Descrive le efficienze di marketing ottenute grazie all'integrazione.
-seo-title: Connettore dati Lyris per Adobe Analytics
 solution: Analytics
 title: Connettore dati Lyris per Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -50,7 +48,7 @@ In questo modo, prima dell'attivazione verranno messe in atto le procedure ottim
 
 ### Prerequisiti per Adobe Analytics {#section-ddb9d4f3b283438ea33788f47f35e69a}
 
-* **Suite di rapporti specifica**: Questa integrazione è specifica per la suite di rapporti. Accertatevi di aver selezionato la suite di rapporti desiderata prima di attivare l'integrazione
+* **Suite di rapporti specifica**:Questa integrazione è specifica per la suite di rapporti. Accertatevi di aver selezionato la suite di rapporti desiderata prima di attivare l'integrazione
 * **Variabili** Analytics disponibili e configurate: Questa integrazione richiede eventi personalizzati e eVar personalizzati, ed eventualmente eventi aggiuntivi e eVar aggiuntive.
 
 * **Rappresentante** autorizzato: L'abilitazione di questa integrazione potrebbe indurre l'azienda a sostenere delle spese in conformità al contratto di servizio stipulato con Adobe, Inc. o al contratto di assistenza stipulato con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l'Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
@@ -101,37 +99,37 @@ Questa integrazione richiede che siano riservate almeno 2 eVar per ogni implemen
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - E-Mail Inviate </td> 
    <td colname="col3"> Per memorizzare il numero. delle email inviate da Lyris </td> 
-   <td colname="col4">Tipo:Numerico <p>Partecipazione: Abilitato </p> </td> 
+   <td colname="col4">Tipo: Numerico <p>Partecipazione: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - E-mail aperte </td> 
    <td colname="col3"> Per memorizzare il numero. di e-mail che sono state aperte </td> 
-   <td colname="col4">Tipo:Numerico <p>Partecipazione: Abilitato </p> </td> 
+   <td colname="col4">Tipo: Numerico <p>Partecipazione: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - E-Mail Uniche Aperte </td> 
    <td colname="col3"> Per memorizzare il numero. di e-mail univoche aperte </td> 
-   <td colname="col4">Tipo:Numerico <p>Partecipazione: Abilitato </p> </td> 
+   <td colname="col4">Tipo: Numerico <p>Partecipazione: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Click-through e-mail </td> 
    <td colname="col3"> Per memorizzare il numero. di volte in cui è stato fatto clic su qualsiasi e-mail </td> 
-   <td colname="col4">Tipo:Numerico <p>Partecipazione: Abilitato </p> </td> 
+   <td colname="col4">Tipo: Numerico <p>Partecipazione: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - E-Mail Bounce </td> 
    <td colname="col3"> Per memorizzare il no. di e-mail rimbalzate </td> 
-   <td colname="col4">Tipo:Numerico <p>Partecipazione: Abilitato </p> </td> 
+   <td colname="col4">Tipo: Numerico <p>Partecipazione: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - E-Mail Annulla sottoscrizione </td> 
    <td colname="col3"> Per memorizzare il no. di iscrizioni e-mail disattivate </td> 
-   <td colname="col4">Tipo:Numerico <p>Partecipazione: Abilitato </p> </td> 
+   <td colname="col4">Tipo: Numerico <p>Partecipazione: Abilitato </p> </td> 
   </tr> 
  </tbody> 
 </table>
