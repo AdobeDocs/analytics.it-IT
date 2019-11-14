@@ -1,12 +1,10 @@
 ---
 description: Devi soddisfare questi requisiti di soluzione, servizio e codice Experience Cloud per implementare l'inoltro lato server. Questi requisiti includono anche istruzioni su come verificare la disponibilità di versioni di codice e su dove reperire le ultime librerie di codici.
-seo-description: Devi soddisfare questi requisiti di soluzione, servizio e codice Experience Cloud per implementare l'inoltro lato server. Questi requisiti includono anche istruzioni su come verificare la disponibilità di versioni di codice e su dove reperire le ultime librerie di codici.
-seo-title: Requisiti per l'inoltro lato server
 solution: Audience Manager
 title: Requisiti per l'inoltro lato server
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
