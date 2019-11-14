@@ -1,15 +1,13 @@
 ---
 description: Note di rilascio cumulative per il feed di dati Analytics.
-keywords: Feed di dati
-seo-description: Note di rilascio cumulative per il feed di dati Analytics.
-seo-title: Note sulla versione feed dati
+keywords: Data Feed
 solution: Analytics
-subtopic: feed di dati
+subtopic: data feeds
 title: Note sulla versione feed dati
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4b2b2165-d8b3-4dc0-98a8-0121de7e26a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
