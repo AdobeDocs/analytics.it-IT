@@ -1,11 +1,9 @@
 ---
-seo-description: I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specifico. Il momento in cui Adobe mantiene questi dati varia da contratto a contratto ed è delineato nei criteri di conservazione dei dati dell'organizzazione.
-seo-title: Criteri di conservazione dei dati per Adobe Analytics
 title: Criteri di conservazione dei dati
 description: I criteri di conservazione dei dati determinano per quanto tempo Adobe memorizza i dati.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
