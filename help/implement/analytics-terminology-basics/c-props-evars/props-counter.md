@@ -1,14 +1,12 @@
 ---
 description: Un contatore memorizza (e talvolta visualizza) il numero di volte in cui si è verificato un particolare evento o processo.
-keywords: Implementazione di Analytics;prop;s.prop;traffico personalizzato;contatori
-seo-description: Un contatore memorizza (e talvolta visualizza) il numero di volte in cui si è verificato un particolare evento o processo.
-seo-title: Utilizzo di prop come contatori
+keywords: Analytics Implementation;props;s.prop;custom traffic;counters
 solution: Analytics
 title: Utilizzo di prop come contatori
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
