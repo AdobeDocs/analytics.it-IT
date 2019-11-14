@@ -1,11 +1,9 @@
 ---
 description: I pacchetti di contenuti di Adobe Analytics forniscono dashboard Power BI predefiniti e una serie di report Power BI che forniscono informazioni dettagliate sul traffico del sito e sulle dimensioni dell'utente. Potete utilizzare il dashboard e i rapporti forniti oppure personalizzarli per evidenziare le informazioni che vi interessano maggiormente. I dati vengono aggiornati automaticamente una volta al giorno.
-seo-description: I pacchetti di contenuti di Adobe Analytics forniscono dashboard Power BI predefiniti e una serie di report Power BI che forniscono informazioni dettagliate sul traffico del sito e sulle dimensioni dell'utente. Potete utilizzare il dashboard e i rapporti forniti oppure personalizzarli per evidenziare le informazioni che vi interessano maggiormente. I dati vengono aggiornati automaticamente una volta al giorno.
-seo-title: Pacchetti di contenuto Adobe Analytics per Power BI
 title: Pacchetti di contenuto Adobe Analytics per Power BI
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
