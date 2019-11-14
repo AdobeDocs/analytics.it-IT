@@ -1,15 +1,13 @@
 ---
 description: La variabile s.products può essere la variabile più sintatticamente complessa utilizzata per la raccolta dei dati.
-keywords: Implementazione di Analytics
-seo-description: La variabile s.products può essere la variabile più sintatticamente complessa utilizzata per la raccolta dei dati.
-seo-title: Errori comuni nella variabile Products
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Risoluzione dei problemi
+subtopic: Troubleshooting
 title: Errori comuni nella variabile Products
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
