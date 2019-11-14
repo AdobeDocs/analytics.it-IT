@@ -1,13 +1,11 @@
 ---
 description: Visualizza le medie per le metriche nel gruppo di reporting Campagne. Le metriche predefinite sono Click-through, Vendite totali, Ordini e Entrate.
-seo-description: Visualizza le medie per le metriche nel gruppo di reporting Campagne. Le metriche predefinite sono Click-through, Vendite totali, Ordini e Entrate.
-seo-title: Funnel di conversione campagna
 solution: Analytics
 title: Funnel di conversione campagna
-topic: Rapporti
+topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
