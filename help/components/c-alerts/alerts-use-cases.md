@@ -1,16 +1,14 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Avvisi intelligenti - Casi d'uso
-title: Avvisi intelligenti - Casi d'uso
-uuid: 2 aa 8 e 00 f -4885-4861-a 47 f -40 c 8 df 1 f 8539
+title: 'Avvisi intelligenti: casi di utilizzo'
+uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Avvisi intelligenti - Casi d'uso
+# Avvisi intelligenti: casi di utilizzo
 
 ## Creare un semplice avviso filtrato da due segmenti {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
