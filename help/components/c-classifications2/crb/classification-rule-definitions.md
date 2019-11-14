@@ -1,14 +1,12 @@
 ---
 description: Definizioni degli elementi di interfaccia nelle pagine del Generatore di regole di classificazione.
-seo-description: Definizioni degli elementi di interfaccia nelle pagine del Generatore di regole di classificazione.
-seo-title: 'Regole di classificazione: definizioni'
 solution: Analytics
 subtopic: Classifications
 title: 'Regole di classificazione: definizioni'
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -129,7 +127,7 @@ Potete modificare le espressioni regolari sulla [!UICONTROL Regular Expression] 
 | Elemento | Descrizione |
 |---|---|
 | Chiave di esempio | Stringa di prova da utilizzare. Ad esempio, puoi creare una classificazione da caratteri specifici in un codice di tracciamento. È possibile associare caratteri, parole o pattern particolari di caratteri. |
-| Corrispondenza gruppi |  Mostra come l'espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell'ID campagna. |
+| Corrispondenza gruppi | Mostra come l'espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell'ID campagna. |
 | Risultato corrispondenza | Visualizza le parti di una stringa che corrispondono correttamente all'espressione regolare. |
 
 Vedere Espressioni [regolari nelle regole](/help/components/c-classifications2/crb/classification-quickstart-rules.md)di classificazione.
