@@ -1,18 +1,18 @@
 ---
 description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
-keywords: Implementazione di Analytics
+keywords: Analytics Implementation
 seo-description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 2d8b6c453ba11fa14bec86f3ebaef9a47388cf2f
 
 ---
 
 
 # s-linkURL
 
-L'URL del collegamento, che funge da nome se non esiste un linkName. Può essere impostato su qualsiasi stringa URL. Questo è il `pev1` parametro nella richiesta di immagine.
+L'URL del collegamento, che funge da nome se `linkName` non esiste. Può essere impostato su qualsiasi stringa URL. Questo è il `pev1` parametro nella richiesta di immagine.
 
 Se impostato con `linkType`, una richiesta di immagine verrà inviata come collegamento di download, personalizzato o uscita.
 
