@@ -1,13 +1,11 @@
 ---
 description: I rapporti sulle origini del traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
-seo-description: I rapporti sulle origini del traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
-seo-title: Rapporti fonti traffico
 solution: Analytics
 title: Rapporti fonti traffico
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -41,11 +39,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Search Keywords - All]**:Visualizza una suddivisione di ogni parola chiave di ricerca utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
+**[!UICONTROL Search Keywords - All]**: Visualizza una suddivisione di ogni parola chiave di ricerca utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
 
-**[!UICONTROL Search Keywords - Paid]**:Visualizza una suddivisione di ogni parola chiave di ricerca a pagamento utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
+**[!UICONTROL Search Keywords - Paid]**: Visualizza una suddivisione di ogni parola chiave di ricerca a pagamento utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
 
-**[!UICONTROL Search Keywords - Natural]**:Visualizza una suddivisione di ogni parola chiave di ricerca naturale utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
+**[!UICONTROL Search Keywords - Natural]**: Visualizza una suddivisione di ogni parola chiave di ricerca naturale utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito.
 
 ## Motori di ricerca {#concept_351CDE4F5FC44371B6B657064E125134}
 
