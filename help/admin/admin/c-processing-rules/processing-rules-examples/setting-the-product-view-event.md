@@ -1,26 +1,24 @@
 ---
-description: Gli eventi possono essere impostati in base ai valori della pagina o basati su valori specifici in una variabile.
-seo-description: Gli eventi possono essere impostati in base ai valori della pagina o basati su valori specifici in una variabile.
-seo-title: Impostare l'evento di visualizzazione prodotto dalla pagina Panoramica prodotto
+description: Gli eventi possono essere impostati in base ai valori della pagina o a valori specifici di una variabile.
 solution: Analytics
-subtopic: Regole di elaborazione
-title: Impostare l'evento di visualizzazione prodotto dalla pagina Panoramica prodotto
-topic: Strumenti di amministrazione
-uuid: caa 7 a 077-dd 47-460 e-b 14 d-fe 10 c 4 e 61 f 97
+subtopic: Processing rules
+title: Impostare l'evento di visualizzazione prodotto dalla pagina di panoramica prodotto
+topic: Admin tools
+uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Impostare l'evento di visualizzazione prodotto dalla pagina Panoramica prodotto
+# Impostare l'evento di visualizzazione prodotto dalla pagina di panoramica prodotto
 
-Gli eventi possono essere impostati in base ai valori della pagina o basati su valori specifici in una variabile.
+Gli eventi possono essere impostati in base ai valori della pagina o a valori specifici di una variabile.
 
 | Set di regole | Valore |
 |---|---|
-| Condizione | Se il nome pagina è uguale alla panoramica prodotto |
-| Azione | Imposta l'evento visualizzazioni prodotto evento su Valore personalizzato 1 |
+| Condizione | Se il nome pagina è uguale a Panoramica del prodotto |
+| Azione | Imposta Evento Visualizzazioni Prodotto Evento Su Valore Personalizzato 1 |
 
 Ad esempio:
 
