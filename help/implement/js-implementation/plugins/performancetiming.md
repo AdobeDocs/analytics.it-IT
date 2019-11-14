@@ -1,14 +1,12 @@
 ---
 description: Questo plug-in funziona utilizzando l'API JavaScript di temporizzazione navigazione per misurare con precisione le prestazioni sul Web. Questo fornisce un metodo nativo per ottenere statistiche precise e dettagliate sui tempi di caricamento delle pagine e sui tempi di caricamento delle risorse. Precedentemente, misurazioni di questo tipo hanno utilizzato l'oggetto Date JavaScript per le metriche di temporizzazione, oppure un'estrapolazione rudimentale delle metriche di navigazione. Entrambe le metodologie, anche se forniscono alcuni dati con tendenze per i tempi di caricamento delle pagine, non sono affidabili.
-keywords: Implementazione di Analytics
-seo-description: Questo plug-in funziona utilizzando l'API JavaScript di temporizzazione navigazione per misurare con precisione le prestazioni sul Web. Questo fornisce un metodo nativo per ottenere statistiche precise e dettagliate sui tempi di caricamento delle pagine e sui tempi di caricamento delle risorse. Precedentemente, misurazioni di questo tipo hanno utilizzato l'oggetto Date JavaScript per le metriche di temporizzazione, oppure un'estrapolazione rudimentale delle metriche di navigazione. Entrambe le metodologie, anche se forniscono alcuni dati con tendenze per i tempi di caricamento delle pagine, non sono affidabili.
-seo-title: performanceTiming
+keywords: Analytics Implementation
 solution: Analytics
 title: performanceTiming
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -36,7 +34,7 @@ Questo plug-in utilizza i seguenti eventi dettagliati per tenere traccia dei sin
 | 7 | Tempo di elaborazione | loadEventStart - domLoading |
 | 8 | tempo di caricamento | loadEventEnd - loadEventStart |
 | 9 | Tempo di caricamento totale pagina | loadEventEnd - navigationStart |
-| 10 | Istanze prestazioni |  Contatore |
+| 10 | Istanze prestazioni | Contatore |
 
 Il grafico seguente illustra gli attributi di temporizzazione definiti dall'interfaccia PerformanceTiming e dall'interfaccia PerformanceNavigation rispettivamente con o senza reindirizzamento.
 
