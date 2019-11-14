@@ -1,13 +1,11 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Panoramica di Ad Hoc Analysis
 solution: Analytics
 title: Panoramica di Ad Hoc Analysis
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: 49836551-9162-4dc4-b1d4-5c3d0f549dcd
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
