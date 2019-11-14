@@ -1,18 +1,16 @@
 ---
-description: Utilizza la geosegmentazione per riportare lo stato USA di un visitatore.
-seo-description: Utilizza la geosegmentazione per riportare lo stato USA di un visitatore.
-seo-title: Stato Stati Uniti
+description: Utilizza la geosegmentazione per creare rapporti sullo stato statunitense di un visitatore.
 solution: Analytics
-title: Stato Stati Uniti
-topic: Rapporti
-uuid: 422083 d 1-c 9 b 3-42 e 6-b 4 f 6-ea 6 b 52 c 79 f 56
+title: Stato degli Stati Uniti
+topic: Reports
+uuid: 422083d1-c9b3-42e6-b4f6-ea6b52c79f56
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Stato Stati Uniti
+# Stato degli Stati Uniti
 
-Utilizza la geosegmentazione per riportare lo stato USA di un visitatore.
+Utilizza la geosegmentazione per creare rapporti sullo stato statunitense di un visitatore.
 
