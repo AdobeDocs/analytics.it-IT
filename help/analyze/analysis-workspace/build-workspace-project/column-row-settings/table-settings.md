@@ -1,11 +1,9 @@
 ---
 description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
-seo-description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
-seo-title: Impostazioni riga
 title: Impostazioni riga
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
