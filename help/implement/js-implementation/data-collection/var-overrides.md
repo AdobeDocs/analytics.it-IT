@@ -1,24 +1,22 @@
 ---
-description: Le sostituzioni variabili consentono di modificare un valore di variabile per una singola chiamata di collegamento o tracciamento.
-keywords: Implementazione di Analytics
-seo-description: Le sostituzioni variabili consentono di modificare un valore di variabile per una singola chiamata di collegamento o tracciamento.
-seo-title: Impostazioni locali variabili
+description: Le sostituzioni delle variabili consentono di modificare il valore di una variabile per una singola chiamata di tracciamento o di tracciamento dei collegamenti.
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variabili
-title: Impostazioni locali variabili
-topic: Sviluppatore e implementazione
-uuid: 3 ec 09 ae 8-b 9 df -426 f -8065-42 b 4518 e 6 c 5 f
+subtopic: Variables
+title: Override variabili
+topic: Developer and implementation
+uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Impostazioni locali variabili
+# Override variabili
 
-Le sostituzioni variabili consentono di modificare un valore di variabile per una singola chiamata di collegamento o tracciamento.
+Le sostituzioni delle variabili consentono di modificare il valore di una variabile per una singola chiamata di tracciamento o di tracciamento dei collegamenti.
 
-To override variables, create a new object, assign variable values, and pass this object as the first parameter to `s.t()`, or as the fourth parameter to `s.tl()`:
+Per ignorare le variabili, create un nuovo oggetto, assegnate valori variabili e passate l’oggetto come primo parametro a `s.t()`oppure come quarto parametro a `s.tl()`:
 
 ```js
 s.eVar1="one"; 
