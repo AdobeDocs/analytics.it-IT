@@ -1,13 +1,11 @@
 ---
 description: Raggruppa i dispositivi mobili in cellulari, tablet, e-reader, console per videogiochi, televisori, set-top box, lettori multimediali e altre categorie di alto livello per visualizzare la distribuzione tra i tipi di dispositivi mobili.
-seo-description: Raggruppa i dispositivi mobili in cellulari, tablet, e-reader, console per videogiochi, televisori, set-top box, lettori multimediali e altre categorie di alto livello per visualizzare la distribuzione tra i tipi di dispositivi mobili.
-seo-title: Tipi di dispositivi
 solution: Analytics
 title: Tipi di dispositivi
-topic: Rapporti
+topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
