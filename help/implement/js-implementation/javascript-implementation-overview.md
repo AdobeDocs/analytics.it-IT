@@ -1,14 +1,12 @@
 ---
 description: Per iniziare a utilizzare Analytics, i dati devono essere inviati a una suite di rapporti per essere visualizzati nel reporting.
-keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compressione
-seo-description: Per iniziare a utilizzare Analytics, i dati devono essere inviati a una suite di rapporti per essere visualizzati nel reporting.
-seo-title: Panoramica sull'implementazione JavaScript
+keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compression
 solution: Analytics
 title: Panoramica sull'implementazione JavaScript
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,7 +33,7 @@ La procedura seguente illustra un'implementazione di base di Analytics.
 | 4. Host `AppMeasurement.js` e `VisitorAPI.js`. | Questi file JavaScript di base devono essere ospitati su un server Web accessibile a tutte le pagine del sito. È necessario definire il percorso di questi file nella fase successiva. |
 | 5. Reference `AppMeasurement.js` and `VisitorAPI.js`  on all site pages. | <ul><li>Includi il servizio ID visitatore aggiungendo la seguente riga di codice nel `head` tag o `body` tag di ogni pagina. (`VisitorAPI.js` deve essere incluso prima `AppMeasurement.js`).<br>`script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"`</br></li><li>Include AppMeasurement for JavaScript by adding the following line of code in the `head` or `body` tag on each page:<br>`script language="JavaScript" type="text/javascript"  src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"`</br></li></ul> |
 | 6. Aggiorna e distribuisci il codice della pagina. | Copiate il codice [di pagina di](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7) esempio e incollatelo subito dopo il `body` tag di apertura su ogni pagina da monitorare. Come minimo, aggiorna le seguenti variabili:<ul><li>var s=s_gi("INSERT-RSID-HERE")</li><li>s.pageName="INSERT-NAME-HERE" (ad esempio, s.pageName=document.title)</li></ul> |
-| 7. Usa Experience Cloud Debugger per verificare che i dati vengano inviati. | Installa [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html#concept_B26FFE005EDD4E0FACB3117AE3E95AA2). Una volta installato, carica una pagina in cui hai distribuito il codice della pagina e apri il debugger. Il debugger visualizza i dettagli relativi ai dati di raccolta inviati. |
+| 7. Usa Experience Cloud Debugger per verificare che i dati vengano inviati. | Install the [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html#concept_B26FFE005EDD4E0FACB3117AE3E95AA2). Una volta installato, carica una pagina in cui hai distribuito il codice della pagina e apri il debugger. Il debugger visualizza i dettagli relativi ai dati di raccolta inviati. |
 
 ## Cache {#section_4E2D1D962DF046418134C43CFC49AD4A}
 
