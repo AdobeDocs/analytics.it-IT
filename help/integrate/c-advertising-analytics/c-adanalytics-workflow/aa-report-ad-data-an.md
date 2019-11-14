@@ -1,11 +1,9 @@
 ---
 description: Dettagli sul modello Area di lavoro Analisi e reporting in Reporting e analisi e Generatore di report.
-seo-description: Dettagli sul modello Area di lavoro Analisi e reporting in Reporting e analisi e Generatore di report.
-seo-title: Report sui dati pubblicitari in Adobe Analytics
 title: Report sui dati pubblicitari in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Questo modello consente a chiunque implementa questa integrazione con il motore 
 
 >[!NOTE]
 >
-> La categoria Modello pubblicitario è visibile a tutti i clienti, anche se non avete implementato alcun Account pubblicitario. Tuttavia, se provate ad aprire il modello Motori di ricerca per una società che non ha ancora effettuato il provisioning, un messaggio di errore vi spiegherà che non avete ancora configurato alcun account Motore di ricerca. In questo caso, fate clic su **[!UICONTROL Configure Now]**, per passare alla schermata [Impostazione](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) account pubblicitario.
+>La categoria Modello pubblicitario è visibile a tutti i clienti, anche se non avete implementato alcun Account pubblicitario. Tuttavia, se provate ad aprire il modello Motori di ricerca per una società che non ha ancora effettuato il provisioning, un messaggio di errore vi spiegherà che non avete ancora configurato alcun account Motore di ricerca. In questo caso, fate clic su **[!UICONTROL Configure Now]**, per passare alla schermata [Impostazione](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) account pubblicitario.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
