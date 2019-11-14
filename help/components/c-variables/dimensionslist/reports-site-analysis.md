@@ -1,13 +1,11 @@
 ---
 description: Un rapporto Analisi ad hoc. L'analisi del sito mostra il modo in cui i visitatori si spostano tra le pagine e gli eventi specificati. Ad esempio, puoi vedere il flusso di traffico tra le pagine, l'affinità tra i prodotti e i canali di marketing e il modo in cui le campagne e i canali confluiscono negli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) ed eventi delle metriche. Ogni cilindro rappresenta uno o più elementi dimensionali (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni dei cilindri (X e Y), alla larghezza del cilindro, all’altezza del cilindro e al colore. La posizione, le dimensioni e il colore cambiano a seconda dei valori delle metriche.
-seo-description: Un rapporto Analisi ad hoc. L'analisi del sito mostra il modo in cui i visitatori si spostano tra le pagine e gli eventi specificati. Ad esempio, puoi vedere il flusso di traffico tra le pagine, l'affinità tra i prodotti e i canali di marketing e il modo in cui le campagne e i canali confluiscono negli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) ed eventi delle metriche. Ogni cilindro rappresenta uno o più elementi dimensionali (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni dei cilindri (X e Y), alla larghezza del cilindro, all’altezza del cilindro e al colore. La posizione, le dimensioni e il colore cambiano a seconda dei valori delle metriche.
-seo-title: Analisi del sito
 solution: Analytics
 title: Analisi del sito
-topic: Rapporti
+topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
