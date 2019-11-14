@@ -1,20 +1,18 @@
 ---
-description: Il report Metriche chiave consente di confrontare le metriche per verificare se la tendenza è stata messa insieme. Ad esempio, quando le visualizzazioni della pagina aumentano, il numero di visitatori aumenta?
-seo-description: Il report Metriche chiave consente di confrontare le metriche per verificare se la tendenza è stata messa insieme. Ad esempio, quando le visualizzazioni della pagina aumentano, il numero di visitatori aumenta?
-seo-title: Metriche chiave
+description: Il rapporto Metriche chiave consente di confrontare le metriche per vedere se tendono insieme. Ad esempio, con l’aumento delle visualizzazioni delle pagine, il conteggio dei visitatori aumenta?
 solution: Analytics
 title: Metriche chiave
-topic: Rapporti
-uuid: 33 e 57 c 24-66 e 6-40 a 5-a 1 b 0-dc 6 a 66 a 74 a 1 c
+topic: Reports
+uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Metriche chiave
 
-Il report Metriche chiave consente di confrontare le metriche per verificare se la tendenza è stata messa insieme. Ad esempio, quando le visualizzazioni della pagina aumentano, il numero di visitatori aumenta?
+Il rapporto Metriche chiave consente di confrontare le metriche per vedere se tendono insieme. Ad esempio, con l’aumento delle visualizzazioni delle pagine, il conteggio dei visitatori aumenta?
 
 ![](assets/reports_key_metrics.png)
 
