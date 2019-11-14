@@ -1,13 +1,11 @@
 ---
 description: Impostazioni che definiscono l’aspetto di tutti i rapporti e le informazioni che mappano le opzioni di menu predefinite alla loro posizione nel menu semplificato.
-seo-description: Impostazioni che definiscono l’aspetto di tutti i rapporti e le informazioni che mappano le opzioni di menu predefinite alla loro posizione nel menu semplificato.
-seo-title: Impostazioni di visualizzazione e navigazione del rapporto
 solution: Analytics
 title: Impostazioni di visualizzazione e navigazione del rapporto
-topic: Report,Reporting e analisi
+topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,7 +28,7 @@ Impostazioni che definiscono l’aspetto di tutti i rapporti e le informazioni c
 | Mostra struttura menu predefinita di Adobe | Ignora le impostazioni in Strumenti di amministrazione, in cui gli amministratori personalizzano i menu dei rapporti in base alle preferenze degli utenti, e di nuovo il menu del rapporto alle impostazioni predefinite. |
 | Forza la larghezza delle colonne durante la visualizzazione dei rapporti | Forza la larghezza delle colonne del report a una coerenza esteticamente gradevole. Questa impostazione è utile quando vengono visualizzate più di tre metriche. |
 | **Grafici e grafici** |  |
-| Evidenzia i fine settimana sui grafici di tendenza | Evidenzia verticalmente le date di fine settimana dei grafici con tendenze dei report. I report con tendenze possono essere molto più facili da valutare quando i fine settimana sono identificati. |
+| Evidenzia i fine settimana sui grafici di tendenza | Evidenzia verticalmente le date del fine settimana dei grafici con tendenze dei report. I report con tendenze possono essere molto più facili da valutare quando i fine settimana sono identificati. |
 | Includi previsione nel grafico e nel riepilogo | Stima quanto si verificherà in futuro una particolare statistica. La previsione viene visualizzata nella sezione di riepilogo del rapporto quando abilitata. |
 | Includi eventi calendario nei rapporti | Monitora le prestazioni del sito rispetto a eventi specifici. Quando attivato, questi eventi vengono visualizzati nei rapporti. |
 | Utilizzare i grafici Flash | Abilita grafici Flash nei rapporti. I grafici Flash forniscono immagini più nitide e interattive per i rapporti, ma non consentono di copiare o salvare facilmente le immagini. Per una rapida funzionalità di copia o salvataggio delle immagini, disattivate questa opzione (le immagini saranno in formato .gif). Se deselezionate questa opzione, il pulsante Copia grafico non viene visualizzato nella barra degli strumenti del rapporto. |
