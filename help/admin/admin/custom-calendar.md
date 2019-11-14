@@ -1,13 +1,11 @@
 ---
 description: Opzioni di calendario diverse dal modello gregoriano. Le opzioni includono i modelli di calendario 4-4-5, 4-5-4 e 5-4-4, tutti utilizzati come standard per il settore retail. Inoltre, il reporting offre un'opzione per un calendario completamente personalizzabile che è possibile configurare autonomamente.
-seo-description: Opzioni di calendario diverse dal modello gregoriano. Le opzioni includono i modelli di calendario 4-4-5, 4-5-4 e 5-4-4, tutti utilizzati come standard per il settore retail. Inoltre, il reporting offre un'opzione per un calendario completamente personalizzabile che è possibile configurare autonomamente.
-seo-title: Personalizza calendario
 solution: Analytics
 title: Personalizza calendario
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Opzioni di calendario diverse dal modello gregoriano. Le opzioni includono i mod
 >
 >Modificando il calendario si modifica il modo in cui i dati vengono elaborati (ovvero la definizione di visitatori univoci settimanali e mensili). Quando la definizione di un calendario di settimane e mesi cambia, i dati storici non vengono modificati.
 
-Potete utilizzare il calendario per definire il primo giorno della settimana e dell'anno, oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati calendario sono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l'analisi dei costi del ciclo paghe o la regolamentazione del conteggio delle scorte fisiche. Ad esempio, il settore retail utilizza il calendario contabile 4-5-4 per supportare la particolare stagione di vendita per il settore retail. Ciascuno dei formati di calendario è descritto di seguito.
+Potete utilizzare il calendario per definire il primo giorno della settimana e dell'anno, oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario sono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l'analisi dei costi del ciclo paghe o la regolamentazione del conteggio delle scorte fisiche. Ad esempio, il settore retail utilizza il calendario contabile 4-5-4 per supportare la particolare stagione di vendita per il settore retail. Ciascuno dei formati di calendario è descritto di seguito.
 
 ## Personalizzare le descrizioni del calendario {#section_B0D224DACB914A378902A4E0E1234889}
 
