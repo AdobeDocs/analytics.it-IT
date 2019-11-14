@@ -1,13 +1,11 @@
 ---
 description: Raccoglie e organizza informazioni specifiche per una pagina su una singola pagina e le presenta in un unico rapporto. Può essere utilizzato per comprendere in che modo i visitatori raggiungono una determinata pagina e se procedono oltre il sito o se escono.
-seo-description: Raccoglie e organizza informazioni specifiche per una pagina su una singola pagina e le presenta in un unico rapporto. Può essere utilizzato per comprendere in che modo i visitatori raggiungono una determinata pagina e se procedono oltre il sito o se escono.
-seo-title: Riepilogo pagina
 solution: Analytics
 title: Riepilogo pagina
-topic: Rapporti
+topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
