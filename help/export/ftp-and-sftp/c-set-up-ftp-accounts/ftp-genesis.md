@@ -1,13 +1,11 @@
 ---
 description: Quando crei un'integrazione con un partner Adobe utilizzando connettori dati, Adobe può effettuare il push dei dati di remarketing o di altro tipo a un account FTP, che tu o il tuo collaboratore potete poi scaricare.
 keywords: ftp;sftp
-seo-description: Quando crei un'integrazione con un partner Adobe utilizzando connettori dati, Adobe può effettuare il push dei dati di remarketing o di altro tipo a un account FTP, che tu o il tuo collaboratore potete poi scaricare.
-seo-title: Data Connectors
 solution: Analytics
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
