@@ -1,25 +1,23 @@
 ---
 description: Le regole di elaborazione possono essere ripristinate dalla cronologia.
-seo-description: Le regole di elaborazione possono essere ripristinate dalla cronologia.
-seo-title: Ripristino delle regole di elaborazione
 solution: Analytics
-subtopic: Regole di elaborazione
-title: Ripristino delle regole di elaborazione
-topic: Strumenti di amministrazione
-uuid: 4 ee 8 afca -8 bcn -42 b 9-8 f 20-31 db 11 c 71 c 81
+subtopic: Processing rules
+title: Ripristinare le regole di elaborazione
+topic: Admin tools
+uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Ripristino delle regole di elaborazione
+# Ripristinare le regole di elaborazione
 
 Le regole di elaborazione possono essere ripristinate dalla cronologia.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
-1. On the **[!UICONTROL Processing Rules]** page, click the **[!UICONTROL View History]** tab.
-1. Select the last known working rule set, and click **[!UICONTROL Copy to Current Ruleset]**.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
+1. Sulla **[!UICONTROL Processing Rules]** pagina, fare clic sulla **[!UICONTROL View History]** scheda.
+1. Selezionare l'ultimo set di regole di lavoro noto e fare clic **[!UICONTROL Copy to Current Ruleset]**.
 1. Fai clic su **[!UICONTROL Save]**.
