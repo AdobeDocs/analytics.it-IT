@@ -1,14 +1,12 @@
 ---
 description: nulle
-keywords: Implementazione di Analytics
-seo-description: nulle
-seo-title: Implementare rinunce Adobe
+keywords: Analytics Implementation
 solution: Analytics
 title: Implementare rinunce Adobe
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
