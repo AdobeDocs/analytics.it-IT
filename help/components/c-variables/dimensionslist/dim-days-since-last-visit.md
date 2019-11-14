@@ -1,24 +1,22 @@
 ---
-description: Giorni dall'ultima visita è una dimensione Analytics che viene esclusa dalla casella di lavoro Analysis Workspace.
-seo-description: Giorni dall'ultima visita è una dimensione Analytics che viene esclusa dalla casella di lavoro Analysis Workspace.
-seo-title: Giorni dall'ultima visita
+description: Giorni dall’ultima visita è una dimensione Analytics che viene fornita con Analysis Workspace.
 title: Giorni dall'ultima visita
-uuid: d 7726 a 7 c -7 c 4 b -45 c 2-ace 9-444 eb 2 d 3 a 4 d 0
+uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Giorni dall'ultima visita
 
-Giorni dall'ultima visita è una dimensione Analytics che viene esclusa dalla casella di lavoro Analysis Workspace.
+Giorni dall’ultima visita è una dimensione Analytics che viene fornita con Analysis Workspace.
 
-Determina il numero di giorni trascorsi dall'ultima visita di un utente sul sito. Se un hit avvia una nuova visita, verifica la marca temporale dell'ultimo hit (se presente) e la visita in base al numero di giorni passati che si sono verificati dall'hit precedente.
+Determina il numero di giorni trascorsi dall’ultima visita effettuata da un utente sul sito. Se un hit avvia una nuova visita, controlla la marca temporale dell’ultimo hit (se presente) e la bussa in base al numero di giorni passati in cui si è verificato l’hit precedente.
 
-I dati di frequenza restituiti possono essere utilizzati per rispondere alle seguenti domande:
+Questi dati sulla frequenza di ritorno possono essere utilizzati per rispondere alle seguenti domande:
 
-* Con quale frequenza gli utenti riprendono il mio sito?
-* How does return frequency related with conversion? Gli acquirenti ripetono la visita frequente o raramente?
-* Gli utenti che fanno clic sulle mie campagne tornano spesso?
+* Con quale frequenza gli utenti rivisitano il sito?
+* In che modo la frequenza di ritorno è correlata con la conversione? Gli acquirenti ripetuti visitano spesso o raramente?
+* Gli utenti che fanno clic sulle campagne restituiscono frequentemente?
 
