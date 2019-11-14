@@ -1,32 +1,30 @@
 ---
-description: Panoramica del modo in cui l'abilitazione dell'identificazione dei visitatori cross-device influisce sui dati visualizzati nei report.
-keywords: Implementazione di Analytics
-seo-description: Panoramica del modo in cui l'abilitazione dell'identificazione dei visitatori cross-device influisce sui dati visualizzati nei report.
-seo-title: Impatto dei dati sull'identificazione dei visitatori cross-device
+description: Panoramica di come l’abilitazione dell’identificazione dei visitatori tra dispositivi influenzi i dati visualizzati nei rapporti.
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visitatori
-title: Impatto dei dati sull'identificazione dei visitatori cross-device
-topic: Sviluppatore e implementazione
-uuid: 1 db 4 d 149-cd 50-4 b 41-a 850-988901 f 25051
+subtopic: Visitors
+title: Impatto dei dati sull'identificazione tra i visitatori dei visitatori
+topic: Developer and implementation
+uuid: 1db4d149-cd50-4b41-a850-988901f25051
 translation-type: tm+mt
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Impatto dei dati sull'identificazione dei visitatori cross-device
+# Impatto dei dati sull'identificazione tra i visitatori dei visitatori
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori su dispositivi non è più consigliato. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Fai riferimento alla documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud Device Co-op.
 
-Panoramica del modo in cui l'abilitazione dell'identificazione dei visitatori cross-device influisce sui dati visualizzati nei report.
+Panoramica di come l’abilitazione dell’identificazione dei visitatori tra dispositivi influenzi i dati visualizzati nei rapporti.
 
-Per capire in che modo questa funzione influisce sulla raccolta dati, è utile comprendere i campi dati dei visitatori in un profilo visitatore:
+Per comprendere in che modo questa funzione influisce sulla raccolta dei dati, è utile comprendere i campi dati visitatore in un profilo visitatore:
 
 | Campo dati | Descrizione |
 |---|---|
-| ID visitatore cookie | ID generated automatically on the first visit from a device or browser and stored in the `s_vi` cookie. |
-| Variabile ID visitatore | Optional [!UICONTROL visitor ID] that is set using the `s.visitorID` variable. Questo valore viene popolato dopo l'autenticazione e potrebbe corrispondere a un ID utilizzato dall'azienda per tenere traccia di un utente su più canali di marketing digitali. |
-| ID visitatore effettivo | The effective [!UICONTROL visitor ID] is the actual ID for the user profile. This value is set to the [!UICONTROL visitor ID] cookie, or to the [!UICONTROL visitor ID] variable if one is provided. |
+| Cookie ID visitatore | ID generato automaticamente alla prima visita da un dispositivo o browser e memorizzato nel `s_vi` cookie. |
+| Variabile ID visitatore | Facoltativo [!UICONTROL visitor ID] impostato utilizzando la `s.visitorID` variabile. Questo valore viene popolato dopo l’autenticazione di un utente e potrebbe corrispondere a un ID utilizzato dalla società per monitorare un utente su più canali di marketing digitale. |
+| ID visitatore effettivo | L’ID effettivo [!UICONTROL visitor ID] è l’ID effettivo per il profilo utente. Questo valore viene impostato sul [!UICONTROL visitor ID] cookie o sulla [!UICONTROL visitor ID] variabile, se presente. |
 
