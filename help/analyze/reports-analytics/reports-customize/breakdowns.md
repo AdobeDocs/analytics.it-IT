@@ -1,13 +1,11 @@
 ---
 description: Utilizzare le suddivisioni quando si desidera sapere di più su come un elemento o segmento del rapporto si relaziona con altri rapporti. Questo è spesso chiamato "scomposizione" di un rapporto di un altro rapporto.
-seo-description: Utilizzare le suddivisioni quando si desidera sapere di più su come un elemento o segmento del rapporto si relaziona con altri rapporti. Questo è spesso chiamato "scomposizione" di un rapporto di un altro rapporto.
-seo-title: Breakdowns (Suddivisioni)
 solution: Analytics
 title: Breakdowns (Suddivisioni)
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
