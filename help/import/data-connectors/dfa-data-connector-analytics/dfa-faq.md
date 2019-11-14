@@ -1,14 +1,12 @@
 ---
 description: nulle
-keywords: DFAE
-seo-description: nulle
-seo-title: Domande frequenti
+keywords: DFA
 solution: Analytics
 title: Domande frequenti
-topic: Connettori dati
+topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ Se avete verificato la validità delle credenziali di accesso, verificate quindi
 
 ## Perché non visualizzo alcun dato dalle metriche caricate notturne (Impressioni DFA, Clic DFA, ecc.)? {#section-465fd22ae6b447ffb6baf20b57daa433}
 
-Se utilizzate la versione 1.5 dell'integrazione, ciò potrebbe essere dovuto al fatto che all'integrazione non è ancora stato assegnato un ID sito client. È necessario un ID del sito client (CSID) per lo scambio notturno e per richiedere i dati al DFA e al server. I CSID possono richiedere fino a 3 giorni dalla data di integrazione per essere scambiati con Google. Una volta ricevuto il CSID da Google, riceverai una notifica tramite l'indirizzo e-mail dell'integrazione del nuovo CSID, insieme al codice JavaScript più recente.
+Se utilizzate la versione 1.5 dell'integrazione, ciò potrebbe essere dovuto al fatto che all'integrazione non è ancora stato assegnato un ID sito client. È necessario un ID del sito client (CSID) per lo scambio notturno e per richiedere i dati al DFA e al server. I CSID possono richiedere fino a 3 giorni dalla data di integrazione da scambiare con Google. Una volta ricevuto il CSID da Google, riceverai una notifica tramite l'indirizzo e-mail dell'integrazione del nuovo CSID, insieme al codice JavaScript più recente.
 
 Se sono trascorsi più di 3 giorni e non avete ricevuto l’e-mail di configurazione e le metriche non sono in flusso, il problema più probabile è che il CSID è già stato assegnato a un’altra integrazione. Google gestisce una mappatura da 1 a 1 tra CSID e Suite di rapporti, il che significa che se un'integrazione in una suite di rapporti utilizza lo stesso ID inserzionista di un'altra integrazione in un'altra suite di rapporti, solo alla prima verrà assegnato un ID CS. Per modificare la suite di rapporti o l'ID pubblicitario a cui è mappato un CSID, è necessario aprire un ticket con il supporto Google.
 
