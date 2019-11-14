@@ -1,13 +1,11 @@
 ---
 description: La metrica Visualizzazioni percorso si basa sui dati del percorso, che vengono tracciati per tutti gli utenti che accettano cookie persistenti.
-seo-description: La metrica Visualizzazioni percorso si basa sui dati del percorso, che vengono tracciati per tutti gli utenti che accettano cookie persistenti.
-seo-title: Visualizzazioni di percorso
 solution: Analytics
 title: Visualizzazioni di percorso
-topic: Metriche
+topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
