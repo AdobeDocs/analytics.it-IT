@@ -1,13 +1,11 @@
 ---
 description: Creare regole che determinano sulle pagine in cui viene attivata una regola.
-keywords: Gestione tag dinamica;regola;crea regola;nuova regola;regola di caricamento pagina
-seo-description: Creare regole che determinano sulle pagine in cui viene attivata una regola.
-seo-title: Creare condizioni per le regole di caricamento delle pagine
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creare condizioni per le regole di caricamento delle pagine
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
