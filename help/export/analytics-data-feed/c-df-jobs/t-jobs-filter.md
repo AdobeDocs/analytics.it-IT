@@ -1,22 +1,20 @@
 ---
-description: La ricerca e il filtro consentono di individuare un processo nell'elenco.
-keywords: Feed dati; processo; filter; search
-seo-description: La ricerca e il filtro consentono di individuare un processo nell'elenco.
-seo-title: Elenco dei processi filtro
+description: La ricerca e il filtro consentono di individuare un processo nell’elenco.
+keywords: Data Feed;job;filter;search
 solution: Analytics
-title: Elenco dei processi filtro
-uuid: 811990 bb-b 721-42 c 3-9262-2 ec 2 ba 262087
+title: Filtra elenco processi
+uuid: 811990bb-b721-42c3-9262-2ec2ba262087
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Elenco dei processi filtro
+# Filtra elenco processi
 
-La ricerca e il filtro consentono di individuare un processo nell'elenco.
+La ricerca e il filtro consentono di individuare un processo nell’elenco.
 
-1. Fate clic o passate il mouse sull'icona Filtro per visualizzare le opzioni di filtro.
+1. Per visualizzare le opzioni di filtro, fate clic o passate il mouse sull'icona Filtro.
 
    ![Filtro processo](assets/jobs-filter.jpg)
 
@@ -29,8 +27,8 @@ La ricerca e il filtro consentono di individuare un processo nell'elenco.
    * Tempo completamento
    * Data richiesta
 
-1. Inserite un termine di ricerca per eseguire la ricerca nell'elenco Processi.
+1. Immettete un termine di ricerca per cercare nell’elenco Processi.
 
    ![Ricerca](assets/search.jpg)
 
-Potete combinare i filtri e le ricerche per trovare i processi. Più filtri e termini di ricerca sono uniti con un'operazione AND.
+Potete combinare filtri e ricerche per trovare i processi. Filtri multipli e termini di ricerca vengono uniti con un'operazione AND.
