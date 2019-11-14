@@ -1,14 +1,12 @@
 ---
 description: Elenco di eventi predefiniti.
-keywords: Implementazione di Analytics;evento
-seo-description: Elenco di eventi predefiniti.
-seo-title: L'evento predefinito
+keywords: Analytics Implementation;event
 solution: Analytics
 title: L'evento predefinito
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
