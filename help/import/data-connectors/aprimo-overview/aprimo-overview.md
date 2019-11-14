@@ -1,11 +1,9 @@
 ---
 description: Questa integrazione e-mail di Adobe® Data Connectors™ combina le informazioni comportamentali di Adobe Analytics® con il marketing e-mail per creare uno strumento efficace per ridefinire la misurazione del successo e indirizzare i tipi di pubblico a messaggi più pertinenti.
-seo-description: Questa integrazione e-mail di Adobe® Data Connectors™ combina le informazioni comportamentali di Adobe Analytics® con il marketing e-mail per creare uno strumento efficace per ridefinire la misurazione del successo e indirizzare i tipi di pubblico a messaggi più pertinenti.
-seo-title: Connettore dati Aprimo per Adobe Analytics
 title: Connettore dati Aprimo per Adobe Analytics
-uuid: 590ded4b-b250-43b4-9set-68508b853e00
+uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
