@@ -1,21 +1,19 @@
 ---
-description: È possibile utilizzare l'opzione concatenazione per compilare i valori combinando altri valori.
-seo-description: È possibile utilizzare l'opzione concatenazione per compilare i valori combinando altri valori.
-seo-title: Aggiungete una sottocategoria concatenando la categoria e il nome della pagina
+description: È possibile utilizzare l'opzione concatenate per compilare i valori combinando altri valori.
 solution: Analytics
-subtopic: Regole di elaborazione
-title: Aggiungete una sottocategoria concatenando la categoria e il nome della pagina
-topic: Strumenti di amministrazione
-uuid: 45 e 5 b 004-690 f -4 d 66-98 f 1-29 baf 9 a 954 d 0
+subtopic: Processing rules
+title: Aggiungere una sottocategoria concatenando la categoria e il nome della pagina
+topic: Admin tools
+uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Aggiungete una sottocategoria concatenando la categoria e il nome della pagina
+# Aggiungere una sottocategoria concatenando la categoria e il nome della pagina
 
-È possibile utilizzare l'opzione concatenazione per compilare i valori combinando altri valori.
+È possibile utilizzare l'opzione concatenate per compilare i valori combinando altri valori.
 
 <table id="table_FF761C2011CD456B9A466C054A54FC30"> 
  <thead> 
@@ -27,7 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> Condizione </td> 
-   <td colname="col2"> Nessuno (esegui sempre) </td> 
+   <td colname="col2"> None (execute always) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Azione </td> 
