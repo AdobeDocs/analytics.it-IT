@@ -1,14 +1,12 @@
 ---
 description: Verifica che la libreria Gestione tag dinamica sia caricata correttamente sul sito.
-keywords: Analytics Implementation;metodo di implementazione;gestione tag dinamica;dtm;codice;codice pagina;codice intestazione;codice piè di pagina;codice incorporato;verifica codice intestazione;verifica codice intestazione;verifica codice piè di pagina;scheda incorpora;embed
-seo-description: Verifica che la libreria Gestione tag dinamica sia caricata correttamente sul sito.
-seo-title: Verificare il codice di intestazione e piè di pagina
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
 solution: Analytics
 title: Verificare il codice di intestazione e piè di pagina
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
