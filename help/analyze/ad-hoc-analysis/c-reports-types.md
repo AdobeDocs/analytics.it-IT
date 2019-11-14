@@ -1,13 +1,11 @@
 ---
 description: Descrizioni dei tipi di report utilizzati in Experience Cloud.
-seo-description: Descrizioni dei tipi di report utilizzati in Experience Cloud.
-seo-title: Tipi di rapporto
 solution: Analytics
 title: Tipi di rapporto
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -108,7 +106,7 @@ Per impostazione predefinita, questo rapporto mostra le prime 10 pagine su cui g
 Utilizzate questo rapporto per:
 
 * Scoprite i passaggi più frequenti dopo la visualizzazione di una pagina selezionata.
-* Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
+* Ottimizzate la progettazione del percorso del sito per rendere il traffico scorrevole verso una pagina di destinazione desiderata.
 * Identificate dove vanno i visitatori al posto delle pagine di obiettivi desiderate.
 
 ## Flusso server successivo {#concept_DB8C20E18AEA4051903C47A16C0E9C4E}
@@ -148,7 +146,7 @@ c_reports_previous_page_flow.xml
 Utilizzate questo rapporto per:
 
 * Scopri i passaggi più frequenti prima di visualizzare una pagina selezionata.
-* Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
+* Ottimizzate la progettazione del percorso del sito per rendere il traffico scorrevole verso una pagina di destinazione desiderata.
 
 ## Flusso sezione precedente {#concept_30688D97B48449E1958866BAF376FA8C}
 
