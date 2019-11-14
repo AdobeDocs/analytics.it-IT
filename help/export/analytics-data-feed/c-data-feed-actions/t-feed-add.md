@@ -1,13 +1,11 @@
 ---
 description: Create un nuovo feed.
-keywords: Feed dati;add
-seo-description: Create un nuovo feed.
-seo-title: Aggiungere un feed
+keywords: Data Feed;add
 solution: Analytics
 title: Aggiungere un feed
 uuid: e6767e2d-3283-4cdd-a972-475517f820bb
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
