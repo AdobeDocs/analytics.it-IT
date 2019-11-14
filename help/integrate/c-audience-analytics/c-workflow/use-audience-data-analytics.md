@@ -1,12 +1,10 @@
 ---
 description: 'Puoi utilizzare le dimensioni AAM Audience in tutta Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome audience e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. In Feed dati, gli ID audience sono memorizzati nella colonna "mc_audiences". Queste dimensioni non sono attualmente disponibili in Workbench dati o Livestream. Alcuni esempi di come sfruttare le dimensioni Audiences includono '
-seo-description: 'Puoi utilizzare le dimensioni AAM Audience in tutta Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome audience e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. In Feed dati, gli ID audience sono memorizzati nella colonna "mc_audiences". Queste dimensioni non sono attualmente disponibili in Workbench dati o Livestream. Alcuni esempi di come sfruttare le dimensioni Audiences includono '
-seo-title: Uso dei dati di audience in Analytics
 solution: Experience Cloud
 title: Uso dei dati di audience in Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
