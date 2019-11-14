@@ -1,33 +1,31 @@
 ---
-description: Analytics offre diverse variabili per la raccolta dei dati di Analytics. Ad esempio, il valore nella variabile pagename è il nome della pagina Web segnalata. In questa sezione sono elencate le variabili supportate da appmeasurement.
-keywords: Implementazione di Analytics; variabili di misurazione
-seo-description: Analytics offre diverse variabili per la raccolta dei dati di Analytics. Ad esempio, il valore nella variabile pagename è il nome della pagina Web segnalata. In questa sezione sono elencate le variabili supportate da appmeasurement.
-seo-title: Panoramica delle variabili
+description: Analytics fornisce una serie di variabili per raccogliere i dati di Analytics. Ad esempio, il valore nella variabile pageName corrisponde al nome della pagina Web segnalata. In questa sezione sono elencate le variabili supportate da AppMeasurement.
+keywords: Analytics Implementation;appmeasurement variables
 solution: Analytics
-subtopic: Variabili
+subtopic: Variables
 title: Panoramica delle variabili
-topic: Sviluppatore e implementazione
-uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
+topic: Developer and implementation
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Panoramica delle variabili
 
-Analytics offre diverse variabili per la raccolta dei dati di Analytics. Ad esempio, il valore nella variabile pagename è il nome della pagina Web segnalata. In questa sezione sono elencate le variabili supportate da appmeasurement.
+Analytics fornisce una serie di variabili per raccogliere i dati di Analytics. Ad esempio, il valore nella variabile pageName corrisponde al nome della pagina Web segnalata. In questa sezione sono elencate le variabili supportate da AppMeasurement.
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+Per ulteriori informazioni sulle variabili di pagina, vedere [qui](/help/implement/js-implementation/c-variables/page-variables.md).
+Per ulteriori informazioni sulle variabili di configurazione, consulta [qui](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
-## How to Set Variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## Come impostare le variabili {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement richiede che tutte le variabili di configurazione siano impostate prima della chiamata iniziale alla funzione track, *`t()`*. Se le variabili di configurazione sono impostate dopo la chiamata a *`t()`*, potrebbero verificarsi risultati imprevisti.
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. Ciò lascia il modulo clickmap in uno stato indeterminato, il che provoca la successiva aggiunta della stringa "undefined" al beacon di Adobe Analytics, che interessa il codice della valuta.
+Le variabili di configurazione sono impostate all'interno della *`doPlugins`* funzione, che viene chiamata durante l'esecuzione della funzione track. La specifica variabile di configurazione che causa questo problema è *`trackInlineStats`*, che abilita la raccolta dati ClickMap. Questo lascia il modulo ClickMap in uno stato indeterminato, il che comporta la prima chiamata di tracciamento che aggiunge la stringa "undefined" al beacon di Adobe Analytics, influendo sul codice della valuta.
 
-Per risolvere il problema, sposta tutte le variabili di configurazione sopra la funzione doplugins.
+Per risolvere questo problema, spostare tutte le variabili di configurazione sopra la funzione doPlugins.
 
 ```
 /************************** CONFIG SECTION **************************/ 
