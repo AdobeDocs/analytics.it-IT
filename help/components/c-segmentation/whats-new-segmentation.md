@@ -1,11 +1,9 @@
 ---
 description: Nuove funzioni nella segmentazione di Adobe Analytics.
-seo-description: Nuove funzioni nella segmentazione di Adobe Analytics.
-seo-title: Scopri le novità di Analysis Segmentation
 title: Scopri le novità di Analysis Segmentation
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -150,7 +148,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Data Warehouse: Stack di segmenti </p> </td> 
+   <td colname="col1"> <p>Data Warehouse:Stack di segmenti </p> </td> 
    <td colname="col2"> <p>Aggiunto a Data Warehouse il supporto per più segmenti (sovrapposizione segmenti). </p> <p>Quando si selezionano più segmenti, l'area di anteprima ora mostra un elenco di nomi separati da virgole (ad es. Segmento 1, Segmento 2). Abbiamo anche aggiornato la pagina Request Manager (Gestore richieste) la finestra popup Request Detail (Dettaglio richieste) per visualizzare l'elenco separato da virgole. </p> </td> 
   </tr> 
   <tr> 
