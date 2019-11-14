@@ -1,13 +1,11 @@
 ---
 description: Visualizza il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale. Fornisce dati fruibili su cui basare le decisioni aziendali.
-seo-description: Visualizza il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale. Fornisce dati fruibili su cui basare le decisioni aziendali.
-seo-title: Rapporti in tempo reale
 solution: Analytics
 title: Rapporti in tempo reale
-topic: Rapporti
+topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
