@@ -1,13 +1,11 @@
 ---
 description: Spiega i passaggi necessari per l'amministratore di Analytics per abilitare la raccolta di collegamenti Activity Map e il download degli utenti.
-seo-description: Spiega i passaggi necessari per l'amministratore di Analytics per abilitare la raccolta di collegamenti Activity Map e il download degli utenti.
-seo-title: Abilitare Activity Map
 solution: Analytics
 title: Abilitare Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ I dati della Activity Map non possono essere raccolti se non si esegue l'aggiorn
 
    Abbiamo incluso alcuni [esempi di codice](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) di implementazione per aiutarti a visualizzare le modifiche apportate al codice includendo il modulo Activity Map.
 
-1. Convalida l’implementazione:
+1. Confermare l’implementazione:
 
    1. Quando si fa clic su un elemento selezionabile, i dati vengono memorizzati in un cookie denominato s_sq.
    1. I dati della Activity Map sono visibili nella stringa query nella chiamata di tracciamento. Ad esempio:
