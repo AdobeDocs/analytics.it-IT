@@ -1,12 +1,10 @@
 ---
 description: Per verificare che l'inoltro lato server sia abilitato correttamente, è necessario esaminare la risposta HTTP dalla richiesta di tracciamento di Analytics. Questo può essere fatto utilizzando gli strumenti di sviluppo di un browser o utilizzando uno strumento proxy come Charles Web Debugger. Le istruzioni seguenti illustrano gli indicatori che devono essere presenti per garantire che l'inoltro lato server sia correttamente abilitato.
-seo-description: Per verificare che l'inoltro lato server sia abilitato correttamente, è necessario esaminare la risposta HTTP dalla richiesta di tracciamento di Analytics. Questo può essere fatto utilizzando gli strumenti di sviluppo di un browser o utilizzando uno strumento proxy come Charles Web Debugger. Le istruzioni seguenti illustrano gli indicatori che devono essere presenti per garantire che l'inoltro lato server sia correttamente abilitato.
-seo-title: Verificare l'implementazione lato server
 solution: Audience Manager
 title: Verificare l'implementazione lato server
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
