@@ -1,14 +1,12 @@
 ---
 description: Esistono requisiti e configurazioni aggiuntivi per implementare Analytics senza JavaScript.
-keywords: Implementazione di Analytics;distinzione tra maiuscole e minuscole;parametri di query di codifica;caratteri non validi;richieste di immagini protette;lunghezza massima della variabile;riferimento;url;caching;namespace
-seo-description: Esistono requisiti e configurazioni aggiuntivi per implementare Analytics senza JavaScript.
-seo-title: Implementazione senza linee guida JavaScript
+keywords: Analytics Implementation;case sensitive;encode query parameters;invalid characters;secure image requests;maximum variable length;referring;url;caching;namespace
 solution: Analytics
 title: Implementazione senza linee guida JavaScript
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
