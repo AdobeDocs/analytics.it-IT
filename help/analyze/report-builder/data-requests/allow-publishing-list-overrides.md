@@ -1,20 +1,18 @@
 ---
-description: Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da utilizzare per la distribuzione.
-seo-description: Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da utilizzare per la distribuzione.
-seo-title: Consenti sostituzioni elenco di pubblicazione
+description: ' Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da utilizzare per la distribuzione.'
 solution: Analytics
 title: Consenti sostituzioni elenco di pubblicazione
-topic: Generatore di report
+topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Consenti sostituzioni elenco di pubblicazione
 
-Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da utilizzare per la distribuzione.
+ Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da utilizzare per la distribuzione.
 
 Gli elenchi di pubblicazione sono configurati negli strumenti di amministrazione di Analytics.
 
