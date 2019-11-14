@@ -1,14 +1,12 @@
 ---
 description: La maggior parte dei dispositivi mobili accetta i cookie del browser. Tuttavia, se i dispositivi non accettano i cookie, viene utilizzato un altro metodo per identificare in modo univoco i dispositivi wireless.
-keywords: Implementazione di Analytics
-seo-description: La maggior parte dei dispositivi mobili accetta i cookie del browser. Tuttavia, se i dispositivi non accettano i cookie, viene utilizzato un altro metodo per identificare in modo univoco i dispositivi wireless.
-seo-title: Identificare i dispositivi mobili
+keywords: Analytics Implementation
 solution: Analytics
 title: Identificare i dispositivi mobili
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
