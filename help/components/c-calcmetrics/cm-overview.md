@@ -1,12 +1,10 @@
 ---
 description: Metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che potete creare dalle metriche esistenti.
-keywords: Metriche calcolate;Metriche derivate;Metriche calcolate avanzate
-seo-description: Metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che potete creare dalle metriche esistenti.
-seo-title: Metriche calcolate e metriche calcolate avanzate (derivate)
+keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzat
 
 I nostri strumenti Metriche calcolate offrono un modo altamente flessibile di creare, gestire e curare le metriche. Consentono agli addetti al marketing, ai product manager e agli analisti di porre domande sui dati senza dover cambiare [!DNL Analytics] l'implementazione. Le metriche personalizzate disponibili in ciascun [!DNL Analytics] pacchetto sono:
 
-* Adobe [!DNL Analytics] Foundation: Calcolato
+* Adobe [!DNL Analytics] Foundation:Calcolato
 * [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calcolato + Calcolato avanzato
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Calcolato + Calcolato avanzato
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): Calcolato + Calcolato avanzato
