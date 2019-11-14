@@ -1,13 +1,11 @@
 ---
 description: Crea un elemento dati in Gestione tag dinamica.
-keywords: Gestione tag dinamica;elemento dati;creare un nuovo elemento dati;nome;tipo;valore predefinito;forza valore in lettere minuscole;ricorda questo valore per
-seo-description: Crea un elemento dati in Gestione tag dinamica.
-seo-title: Creare un elemento di dati
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creare un elemento di dati
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 Crea un elemento dati in Gestione tag dinamica.
 
 1. [Crea proprietà](/help/implement/c-implement-with-dtm/t-create-web-property.md)Web, se non lo hai già fatto.
-1. Nella proprietà Web, fate clic su **[!UICONTROL Rules]** &gt; **[!UICONTROL Data Elements]**.
+1. In the web property, click **[!UICONTROL Rules]** &gt; **[!UICONTROL Data Elements]**.
 1. Fai clic su **[!UICONTROL Create New Data Element]**.
 1. Completa i campi e le opzioni seguenti:
 
@@ -31,7 +29,7 @@ Crea un elemento dati in Gestione tag dinamica.
       <td class="chdesc stentry"> <p>Il nome descrittivo dell'elemento dati che un esperto di marketing può riconoscere. Ad esempio, 
         <code>
           Product ID
-        </code>. </p> <p> <p>Nota:Il generatore di regole fa riferimento al nome, non a un ID. Se si modifica il nome dell'elemento dati, è necessario modificarne il riferimento in ogni regola che lo utilizza. </p> </p> </td> 
+        </code>. </p> <p> <p>Nota:  Il generatore di regole fa riferimento al nome, non a un ID. Se si modifica il nome dell'elemento dati, è necessario modificarne il riferimento in ogni regola che lo utilizza. </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Tipo</strong></td> 
@@ -39,7 +37,7 @@ Crea un elemento dati in Gestione tag dinamica.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valore predefinito</strong></td> 
-      <td class="chdesc stentry"> <p>Elemento predefinito. Questo valore assicura che l'elemento dati abbia sempre un valore, anche se un parametro URL non esiste o non può essere trovato da Gestione tag dinamica. </p> <p> <p>Nota:Se non è presente alcun valore e nessun valore predefinito, non viene restituito nulla. Qualsiasi variabile che fa riferimento a tale elemento dati non verrà impostata. Inoltre, il campo del valore predefinito viene ignorato se si tratta di un elemento dati "codice personalizzato". </p> </p> </td> 
+      <td class="chdesc stentry"> <p>Elemento predefinito. Questo valore assicura che l'elemento dati abbia sempre un valore, anche se un parametro URL non esiste o non può essere trovato da Gestione tag dinamica. </p> <p> <p>Nota:  Se non è presente alcun valore e nessun valore predefinito, non viene restituito nulla. Qualsiasi variabile che fa riferimento a tale elemento dati non verrà impostata. Inoltre, il campo del valore predefinito viene ignorato se si tratta di un elemento dati "codice personalizzato". </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Forza valore in lettere minuscole</strong></td> 
@@ -50,7 +48,7 @@ Crea un elemento dati in Gestione tag dinamica.
       <td class="chdesc stentry"> <p>Per quanto tempo desiderate che Gestione tag dinamica ricordi questo valore. </p> <p> I valori validi includono: </p> 
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
         <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>Sessione: I tempi di esecuzione basati sulle sessioni possono variare a seconda dell'implementazione. Gli elementi dei dati della sessione sono impostati sul cookie della sessione. Tuttavia, questa impostazione potrebbe essere basata su un server Web o un browser. Non è correlato alla sessione utilizzata in reporting e analisi di marketing. </p> </li> 
-        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>Pageview </p> </li> 
+        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p> Pageview </p> </li> 
         <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>Visitatore </p> </li> 
       </ul> </td> 
     </tr> 
