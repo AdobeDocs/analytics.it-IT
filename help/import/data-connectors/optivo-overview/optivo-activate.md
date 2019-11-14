@@ -1,11 +1,9 @@
 ---
 description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
-seo-description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
-seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -36,6 +34,6 @@ Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'
 | Inviato | (Obbligatorio) Specificate l'evento Adobe Analytics in cui vengono memorizzati i dati e-mail inviati importati dal sistema e-mail. L'evento Inviato consente di visualizzare il numero di messaggi e-mail inviati. |
 | Annulla sottoscrizione | (Obbligatorio) Specificate l'evento Adobe Analytics che memorizza i dati di annullamento della sottoscrizione dell'e-mail importati dal sistema e-mail. L’evento Annulla sottoscrizione consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail e hanno quindi fatto clic sul collegamento Annulla sottoscrizione per rifiutare i messaggi e-mail futuri della vostra organizzazione. |
 | Segmenti | Consente l'utilizzo di segmenti esistenti con questa integrazione (facoltativo). |
-|  Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
+| Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
 | Raccolta dati | Selezionate Plug-in **** JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione. Selezionate **Automated Solution** se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l'integrazione:<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail.</li><li>Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail.</li></ul> |
 | Generazione di dashboard e segnalibri | Genera automaticamente dashboard e segnalibri per l'integrazione. |
