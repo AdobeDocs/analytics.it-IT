@@ -1,13 +1,11 @@
 ---
 description: Passaggi che descrivono come gli amministratori possono abilitare l'accesso ai rapporti di Data Warehouse per un gruppo di utenti.
-seo-description: Passaggi che descrivono come gli amministratori possono abilitare l'accesso ai rapporti di Data Warehouse per un gruppo di utenti.
-seo-title: Aggiungere un gruppo utenti di Data Warehouse
 solution: Analytics
 title: Aggiungere un gruppo utenti di Data Warehouse
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
