@@ -1,12 +1,10 @@
 ---
 description: Puoi nascondere metriche standard (integrate), eventi personalizzati ed eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti.
-seo-description: Puoi nascondere metriche standard (integrate), eventi personalizzati ed eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti.
-seo-title: Visibilità della metrica
 solution: Analytics
 title: Visibilità della metrica
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
