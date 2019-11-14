@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Barre e barre sovrapposte
 title: Barre e barre sovrapposte
-uuid: 45 d 2 d 9 f 3-3 fb 3-460 f-bc 87-7 d 6 e 3 cc 44494
+uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
