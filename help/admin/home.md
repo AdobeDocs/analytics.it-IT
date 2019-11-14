@@ -1,10 +1,8 @@
 ---
 title: Aiuto per l’amministratore di Analytics
-seo-title: Confronto tra i prodotti Analytics
 description: Aiuto di amministrazione per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti in Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
-seo-description: Aiuto di amministrazione per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti in Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
 translation-type: tm+mt
-source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
