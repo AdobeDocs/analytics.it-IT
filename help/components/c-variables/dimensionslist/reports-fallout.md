@@ -1,13 +1,11 @@
 ---
 description: Mostra dove i visitatori escono (abbandono) e proseguono attraverso (fallthrough) una sequenza di pagine specificata in precedenza. Visualizza i tassi di conversione e di abbandono tra ciascun passaggio. Ad esempio, puoi tenere traccia dei punti di abbandono di un visitatore durante un processo di acquisto. Selezionate un punto iniziale e un punto finale, quindi aggiungete punti intermedi per creare un percorso di navigazione nel sito Web.
-seo-description: Mostra dove i visitatori escono (abbandono) e proseguono attraverso (fallthrough) una sequenza di pagine specificata in precedenza. Visualizza i tassi di conversione e di abbandono tra ciascun passaggio. Ad esempio, puoi tenere traccia dei punti di abbandono di un visitatore durante un processo di acquisto. Selezionate un punto iniziale e un punto finale, quindi aggiungete punti intermedi per creare un percorso di navigazione nel sito Web.
-seo-title: Abbandono
 solution: Analytics
 title: Abbandono
-topic: Rapporti
+topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
