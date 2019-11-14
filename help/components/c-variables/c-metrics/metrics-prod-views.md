@@ -1,13 +1,11 @@
 ---
 description: Istanza della visualizzazione prodotto impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodView.
-seo-description: Istanza della visualizzazione prodotto impostata. Si verifica quando viene visualizzata la pagina dei dettagli del prodotto. Questo valore deriva dall'evento prodView.
-seo-title: Visualizzazioni prodotto
 solution: Analytics
 title: Visualizzazioni prodotto
-topic: Metriche
+topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
