@@ -1,14 +1,12 @@
 ---
 description: Passaggi che descrivono come aggiungere un account utente.
-seo-description: Passaggi che descrivono come aggiungere un account utente.
-seo-title: Aggiungere un account utente
 solution: Analytics
-subtopic: Utenti e gruppi
+subtopic: Users and groups
 title: Aggiungere un account utente
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
