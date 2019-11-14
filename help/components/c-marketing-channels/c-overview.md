@@ -1,14 +1,12 @@
 ---
 description: I rapporti sui canali di marketing ti consentono di conoscere il fatturato generato dai tuoi canali di marketing. Questi rapporti includono una panoramica dell'allocazione dei canali di primo e ultimo contatto, con metriche standard fondamentali come entrate, ordini e costi.
-seo-description: I rapporti sui canali di marketing ti consentono di conoscere il fatturato generato dai tuoi canali di marketing. Questi rapporti includono una panoramica dell'allocazione dei canali di primo e ultimo contatto, con metriche standard fondamentali come entrate, ordini e costi.
-seo-title: Informazioni sui rapporti nel canale di marketing
 solution: Analytics
-subtopic: Canali di marketing
+subtopic: Marketing channels
 title: Informazioni sui rapporti nel canale di marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
