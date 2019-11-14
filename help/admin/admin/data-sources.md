@@ -1,13 +1,11 @@
 ---
 description: La funzione Origini dati consente di importare dati in Analytics da origini offline. Una volta importati, questi dati possono essere trattati e gestiti in modo simile ai dati raccolti in modo nativo.
-seo-description: La funzione Origini dati consente di importare dati in Analytics da origini offline. Una volta importati, questi dati possono essere trattati e gestiti in modo simile ai dati raccolti in modo nativo.
-seo-title: Origini dati
 solution: Analytics
 title: Origini dati
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
