@@ -1,15 +1,13 @@
 ---
 description: Attiva le autorizzazioni per le metriche di traffico, le metriche di conversione, gli eventi personalizzati, gli eventi delle soluzioni e il contenuto in base al contenuto.
-keywords: gruppi;autorizzazioni
-seo-description: Attiva le autorizzazioni per le metriche di traffico, le metriche di conversione, gli eventi personalizzati, gli eventi delle soluzioni e il contenuto in base al contenuto.
-seo-title: Personalizzare le autorizzazioni delle metriche
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utenti e gruppi
+subtopic: Users and groups
 title: Personalizzare le autorizzazioni delle metriche
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
