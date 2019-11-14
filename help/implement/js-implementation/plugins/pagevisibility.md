@@ -1,14 +1,12 @@
 ---
 description: Registra il numero di secondi in cui la pagina era la scheda attiva nel browser e trasmette tale valore in una metrica nella visualizzazione pagina successiva.
-keywords: Implementazione di Analytics
-seo-description: Registra il numero di secondi in cui la pagina era la scheda attiva nel browser e trasmette tale valore in una metrica nella visualizzazione pagina successiva.
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
