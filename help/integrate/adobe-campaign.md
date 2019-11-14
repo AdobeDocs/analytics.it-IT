@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Reportistica di Adobe Campaign
 title: Reportistica di Adobe Campaign
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
