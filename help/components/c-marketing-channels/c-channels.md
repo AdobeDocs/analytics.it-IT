@@ -1,14 +1,12 @@
 ---
 description: Aggiungi o abilita canali di marketing in Marketing Channel Manager. Per le suite di rapporti prive di canali di marketing, una configurazione automatica consente di creare diversi canali per voi, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze o crearne di nuovi (fino a un totale di 25).
-seo-description: Aggiungi o abilita canali di marketing in Marketing Channel Manager. Per le suite di rapporti prive di canali di marketing, una configurazione automatica consente di creare diversi canali per voi, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze o crearne di nuovi (fino a un totale di 25).
-seo-title: Gestire i canali di marketing
 solution: Analytics
-subtopic: Canali di marketing
+subtopic: Marketing channels
 title: Gestire i canali di marketing
-topic: Reports and Analytics
-uuid: 9d367bb6-a17b-49b8-9cd5-24face35ae982
+topic: Reports and analytics
+uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ L'aggiunta di canali alla [!UICONTROL Marketing Channels] pagina viene effettuat
 
 Aggiungi canali di marketing in Marketing Channel Manager.
 
-> [!NOTE] Non è possibile eliminare un canale. Se non si desidera utilizzare un canale, è possibile disattivarlo o rinominarlo e conservarlo per un uso successivo.
+> [!NOTE] Non è possibile eliminare un canale. Se non si desidera utilizzare un canale, è possibile disattivarlo o rinominarlo e mantenerlo per un uso successivo.
 
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Sulla [!UICONTROL Report Suite Manager] pagina, seleziona una suite di rapporti.
