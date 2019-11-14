@@ -1,14 +1,12 @@
 ---
 description: Una proprietà Web può essere un qualsiasi raggruppamento di uno o più domini e sottodomini con una libreria di regole, inclusa in un unico codice da incorporare.
-keywords: Implementazione di Analytics;metodo di implementazione;gestione tag dinamica;dtm;proprietà web;property
-seo-description: Una proprietà Web può essere un qualsiasi raggruppamento di uno o più domini e sottodomini con una libreria di regole, inclusa in un unico codice da incorporare.
-seo-title: Creare proprietà Web
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
 solution: Analytics
 title: Creare proprietà Web
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
