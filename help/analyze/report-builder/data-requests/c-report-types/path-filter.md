@@ -1,13 +1,11 @@
 ---
 description: Descrive i passaggi necessari per applicare filtri a un report di percorsi.
-seo-description: Descrive i passaggi necessari per applicare filtri a un report di percorsi.
-seo-title: Filtrare un rapporto di percorso mediante la Creazione guidata richieste
 solution: Analytics
 title: Filtrare un rapporto di percorso mediante la Creazione guidata richieste
-topic: Generatore di report
+topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
