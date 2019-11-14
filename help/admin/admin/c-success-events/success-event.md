@@ -1,14 +1,12 @@
 ---
 description: Gli eventi di successo sono azioni che possono essere tracciate. È possibile determinare l'evento di successo. Ad esempio, se un visitatore acquista un elemento, l'evento di acquisto potrebbe essere considerato l'evento di successo.
-keywords: prodView
-seo-description: Gli eventi di successo sono azioni che possono essere tracciate. È possibile determinare l'evento di successo. Ad esempio, se un visitatore acquista un elemento, l'evento di acquisto potrebbe essere considerato l'evento di successo.
-seo-title: Panoramica eventi di successo
+keywords: event
 solution: Analytics
 title: Panoramica eventi di successo
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
