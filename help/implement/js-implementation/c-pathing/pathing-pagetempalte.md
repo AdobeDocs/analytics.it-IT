@@ -1,14 +1,12 @@
 ---
 description: Se il sito contiene tipi di pagine o modelli di pagina, è possibile utilizzare il percorso per comprendere in che modo si spostano dal tipo al tipo.
-keywords: Implementazione di Analytics
-seo-description: Se il sito contiene tipi di pagine o modelli di pagina, è possibile utilizzare il percorso per comprendere in che modo si spostano dal tipo al tipo.
-seo-title: Passa da modello pagina a modello pagina
+keywords: Analytics Implementation
 solution: Analytics
 title: Passa da modello pagina a modello pagina
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
