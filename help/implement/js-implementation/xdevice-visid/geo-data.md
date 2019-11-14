@@ -1,14 +1,12 @@
 ---
 description: I dati di segmentazione geografica vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
-keywords: Implementazione di Analytics
-seo-description: I dati di segmentazione geografica vengono registrati in base al primo hit della visita e non vengono modificati per una singola visita, indipendentemente dal dispositivo utilizzato.
-seo-title: Dati di geo-segmentazione
+keywords: Analytics Implementation
 solution: Analytics
 title: Dati di geo-segmentazione
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
