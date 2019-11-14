@@ -1,15 +1,13 @@
 ---
 description: Variabili di configurazione impostate in AppMeasurement.js.
-keywords: Implementazione di Analytics
-seo-description: Variabili di configurazione impostate in AppMeasurement.js per Adobe Analytics
-seo-title: Variabili di configurazione
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variabili
+subtopic: Variables
 title: Variabili di configurazione
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
