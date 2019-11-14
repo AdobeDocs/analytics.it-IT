@@ -1,14 +1,12 @@
 ---
 description: L’integrazione dei connettori dati per il DFA utilizza le variabili di Analytics per tenere traccia dei risultati delle campagne DFA.
-keywords: DFAE
-seo-description: L’integrazione dei connettori dati per il DFA utilizza le variabili di Analytics per tenere traccia dei risultati delle campagne DFA.
-seo-title: Variabili ed eventi di Analytics
+keywords: DFA
 solution: Analytics
 title: Variabili ed eventi di Analytics
-topic: Connettori dati
+topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
