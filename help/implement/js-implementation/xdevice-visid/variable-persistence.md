@@ -1,14 +1,12 @@
 ---
 description: Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storici.
-keywords: Implementazione di Analytics
-seo-description: Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l'attribuzione non viene modificata nel set di dati storici.
-seo-title: Attribuzione e persistenza
+keywords: Analytics Implementation
 solution: Analytics
 title: Attribuzione e persistenza
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
