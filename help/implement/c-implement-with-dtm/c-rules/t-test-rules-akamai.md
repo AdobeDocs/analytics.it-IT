@@ -1,13 +1,11 @@
 ---
 description: Eseguite il test delle regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
 keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
-seo-description: Eseguite il test delle regole non pubblicate dalla console se utilizzate l'hosting di Akamai.
-seo-title: Verificare le regole non pubblicate per hosting Akamai
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Verificare le regole non pubblicate per hosting Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
