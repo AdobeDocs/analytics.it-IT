@@ -1,15 +1,13 @@
 ---
 description: Osserva le variabili e i loro limiti di livello elevato.
-keywords: Implementazione di Analytics;variabile;limitazioni;limiti
-seo-description: Osserva le variabili e i loro limiti di livello elevato.
-seo-title: Variabili e limitazioni
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
-subtopic: Variabili
+subtopic: Variables
 title: Variabili e limitazioni
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ Osserva le variabili e i loro limiti di livello elevato.
 
 >[!NOTE]
 >
-> Consulta Variabili [di](/help/implement/js-implementation/c-variables/configuration-variables.md) configurazione e variabili [di](/help/implement/js-implementation/c-variables/page-variables.md) pagina per un'analisi approfondita delle variabiliAnalytics più comuni.
+>Consulta Variabili [di](/help/implement/js-implementation/c-variables/configuration-variables.md) configurazione e variabili [di](/help/implement/js-implementation/c-variables/page-variables.md) pagina per un'analisi approfondita delle variabiliAnalytics più comuni.
 
 La tabella seguente fornisce informazioni dettagliate sulle [!DNL Analytics] variabili:
 
