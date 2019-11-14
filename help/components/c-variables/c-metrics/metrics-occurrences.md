@@ -1,13 +1,11 @@
 ---
 description: Il numero di volte in cui un valore specifico viene acquisito, più il numero di visualizzazioni di pagina per cui il valore specificato è persistente. In altre parole, le occorrenze sono una somma delle visualizzazioni di pagina e degli eventi di pagina. Le occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
-seo-description: Il numero di volte in cui un valore specifico viene acquisito, più il numero di visualizzazioni di pagina per cui il valore specificato è persistente. In altre parole, le occorrenze sono una somma delle visualizzazioni di pagina e degli eventi di pagina. Le occorrenze sono disponibili in Analysis Workspace e in Analisi ad hoc.
-seo-title: Occorrenze
 solution: Analytics
 title: Occorrenze
-topic: Metriche
+topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
