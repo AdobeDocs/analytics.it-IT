@@ -1,11 +1,9 @@
 ---
 description: Il tempo è una dimensione di reporting utile per le tendenze in ore, giorni, settimane e intervalli di date. Ad esempio, in un rapporto sui prodotti viene visualizzato il fatturato prodotto durante l'intervallo di date selezionato. Puoi aggiungere una dimensione Giorno per visualizzare la tendenza in ogni giorno del periodo di reporting. Il tempo fornisce le impostazioni di granularità Ora, Giorno, Settimana, Mese, Trimestre e Anno. I predefiniti per intervalli di date includono impostazioni quali Oggi, Ieri e Ultimi 7 giorni.
-seo-description: Il tempo è una dimensione di reporting utile per le tendenze in ore, giorni, settimane e intervalli di date. Ad esempio, in un rapporto sui prodotti viene visualizzato il fatturato prodotto durante l'intervallo di date selezionato. Puoi aggiungere una dimensione Giorno per visualizzare la tendenza in ogni giorno del periodo di reporting. Il tempo fornisce le impostazioni di granularità Ora, Giorno, Settimana, Mese, Trimestre e Anno. I predefiniti per intervalli di date includono impostazioni quali Oggi, Ieri e Ultimi 7 giorni.
-seo-title: Tempo
 title: Tempo
-uuid: a6efbf80-342c-4aeb-80f3-91a3dbd33c
+uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
