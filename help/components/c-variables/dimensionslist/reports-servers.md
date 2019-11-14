@@ -1,18 +1,16 @@
 ---
-description: Consente di raggruppare le pagine ospitate da un particolare server. Elenca tutti i server del sito Web e indica quali server sono maggiormente accessibili. Ad esempio, se disponete di un sito Web ospitato su due server diversi, potrebbe essere utile verificare se un server sta erogando più impression rispetto all'altro server.
-seo-description: Consente di raggruppare le pagine ospitate da un particolare server. Elenca tutti i server del sito Web e indica quali server sono maggiormente accessibili. Ad esempio, se disponete di un sito Web ospitato su due server diversi, potrebbe essere utile verificare se un server sta erogando più impression rispetto all'altro server.
-seo-title: Server
+description: ' Consente di raggruppare le pagine ospitate da un particolare server. Elenca tutti i server del sito Web e indica quali server sono maggiormente accessibili. Ad esempio, se disponete di un sito Web ospitato su due server diversi, potete verificare se un server trasmette più impression rispetto all’altro.'
 solution: Analytics
 title: Server
-topic: Rapporti
-uuid: af 4391 de -8 dfa -48 fe -88 af -81 ce 4 ec 8 cf 03
+topic: Reports
+uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Server
 
-Consente di raggruppare le pagine ospitate da un particolare server. Elenca tutti i server del sito Web e indica quali server sono maggiormente accessibili. Ad esempio, se disponete di un sito Web ospitato su due server diversi, potrebbe essere utile verificare se un server sta erogando più impression rispetto all'altro server.
+ Consente di raggruppare le pagine ospitate da un particolare server. Elenca tutti i server del sito Web e indica quali server sono maggiormente accessibili. Ad esempio, se disponete di un sito Web ospitato su due server diversi, potete verificare se un server trasmette più impression rispetto all’altro.
 
