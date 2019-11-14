@@ -1,13 +1,11 @@
 ---
 description: Procedura che descrive come aggiungere o modificare variabili di conversione.
-seo-description: Procedura che descrive come aggiungere o modificare variabili di conversione.
-seo-title: Modificare le variabili di conversione
 solution: Analytics
 title: Modificare le variabili di conversione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
