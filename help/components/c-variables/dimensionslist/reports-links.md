@@ -1,13 +1,11 @@
 ---
 description: ' Mostra i collegamenti sui quali i visitatori fanno clic sul sito Web, compresi i collegamenti sui quali è stato fatto clic per uscire dal sito o i collegamenti per il download.'
-seo-description: ' Mostra i collegamenti sui quali i visitatori fanno clic sul sito Web, compresi i collegamenti sui quali è stato fatto clic per uscire dal sito o i collegamenti per il download.'
-seo-title: Collegamenti
 solution: Analytics
 title: Collegamenti
-topic: Rapporti
+topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
