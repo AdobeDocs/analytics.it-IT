@@ -1,15 +1,13 @@
 ---
 description: Restituisce il valore di un parametro di stringa di query specificato, se presente nell’URL della pagina corrente. Perché dati importanti (come codici di tracciamento campagna, parole chiave di ricerca interne, ecc.) è disponibile nella stringa di query su una pagina, getQueryParam consente di acquisire i dati nelle variabili di Analytics.
-keywords: Implementazione di Analytics
-seo-description: Restituisce il valore di un parametro di stringa di query specificato, se presente nell’URL della pagina corrente. Perché dati importanti (come codici di tracciamento campagna, parole chiave di ricerca interne, ecc.) è disponibile nella stringa di query su una pagina, getQueryParam consente di acquisire i dati nelle variabili di Analytics.
-seo-title: getQueryParam
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Plug-in
+subtopic: Plug-ins
 title: getQueryParam
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -68,7 +66,7 @@ Il flag "f" deve essere utilizzato in questo terzo argomento con i frame, quando
  s.eVar1=s.getQueryParam('pid','',f); 
 ```
 
-Quando utilizzate i frame e il parametro *f* , si consiglia di utilizzare il *`getValOnce`* plug-in per impedire che il codice di tracciamento della campagna venga inviato con ciascuna visualizzazione di pagina.
+Quando si utilizzano i frame e il parametro *f* , si consiglia di utilizzare il *`getValOnce`* plug-in per impedire che il codice di tracciamento della campagna venga inviato con ciascuna visualizzazione di pagina.
 
 > [!NOTE] Le istruzioni seguenti richiedono di modificare il codice di raccolta dei dati sul sito. Questo può influenzare la raccolta di dati sul sito e dovrebbe essere eseguito solo da uno sviluppatore con esperienza di utilizzo e implementazione [!DNL Analytics].
 
