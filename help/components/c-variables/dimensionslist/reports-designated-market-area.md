@@ -1,18 +1,16 @@
 ---
-description: Separa gli Stati Uniti nelle aree di marketing. I provider di servizi Internet (ISP) in ciascuna area di mercato forniscono il registro di sistema statunitense (ARIN) con gli indirizzi IP utilizzati. I partner Adobe con Digital Emissy ricevono dati di geolocalizzazione che corrispondono all'indirizzo IP utilizzato da un visitatore di siti Web con la città geografica, lo stato, il codice postale e il DMA per quell'indirizzo IP.
-seo-description: Separa gli Stati Uniti nelle aree di marketing. I provider di servizi Internet (ISP) in ciascuna area di mercato forniscono il registro di sistema statunitense (ARIN) con gli indirizzi IP utilizzati. I partner Adobe con Digital Emissy ricevono dati di geolocalizzazione che corrispondono all'indirizzo IP utilizzato da un visitatore di siti Web con la città geografica, lo stato, il codice postale e il DMA per quell'indirizzo IP.
-seo-title: Area mercato designata (DMA)
+description: Segrega gli Stati Uniti in aree di marketing. I provider di servizi Internet (ISP) in ogni area di mercato forniscono al Registro americano dei nomi Internet (ARIN) gli indirizzi IP utilizzati. Adobe collabora con l’inviato digitale per ricevere i dati di segmentazione geografica corrispondenti all’indirizzo IP utilizzato da un visitatore del sito Web con la città geografica, lo stato, il codice postale e il DMA per tale indirizzo IP.
 solution: Analytics
-title: Area mercato designata (DMA)
-topic: Rapporti
-uuid: c 1 fea 458-9 a 90-4440-b 62 f-d 8 d 85090 e 9 f 8
+title: Designated Market Area (DMA) (Area mercato designata)
+topic: Reports
+uuid: c1fea458-9a90-4440-b62f-d8d85090e9f8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Area mercato designata (DMA)
+# Designated Market Area (DMA) (Area mercato designata)
 
-Separa gli Stati Uniti nelle aree di marketing. I provider di servizi Internet (ISP) in ciascuna area di mercato forniscono il registro di sistema statunitense (ARIN) con gli indirizzi IP utilizzati. I partner Adobe con Digital Emissy ricevono dati di geolocalizzazione che corrispondono all'indirizzo IP utilizzato da un visitatore di siti Web con la città geografica, lo stato, il codice postale e il DMA per quell'indirizzo IP.
+Segrega gli Stati Uniti in aree di marketing. I provider di servizi Internet (ISP) in ogni area di mercato forniscono al Registro americano dei nomi Internet (ARIN) gli indirizzi IP utilizzati. Adobe collabora con l’inviato digitale per ricevere i dati di segmentazione geografica corrispondenti all’indirizzo IP utilizzato da un visitatore del sito Web con la città geografica, lo stato, il codice postale e il DMA per tale indirizzo IP.
 
