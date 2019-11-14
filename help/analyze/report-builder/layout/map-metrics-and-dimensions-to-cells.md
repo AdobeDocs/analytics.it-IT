@@ -1,13 +1,11 @@
 ---
 description: Prima di iniziare a mappare gli elementi sul foglio di calcolo, accertatevi che il foglio di calcolo non sia protetto. Se lo schema di protezione del foglio di lavoro non consente azioni da parte dell'utente, non sarà possibile selezionare le celle nel foglio di calcolo. Innanzitutto, rimuovere la protezione dal foglio e aggiungere le mappature delle celle.
-seo-description: Prima di iniziare a mappare gli elementi sul foglio di calcolo, accertatevi che il foglio di calcolo non sia protetto. Se lo schema di protezione del foglio di lavoro non consente azioni da parte dell'utente, non sarà possibile selezionare le celle nel foglio di calcolo. Innanzitutto, rimuovere la protezione dal foglio e aggiungere le mappature delle celle.
-seo-title: Mappare metriche e dimensioni alle celle
 solution: Analytics
 title: Mappare metriche e dimensioni alle celle
-topic: Generatore di report
+topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
