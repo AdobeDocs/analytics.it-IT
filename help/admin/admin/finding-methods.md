@@ -1,13 +1,11 @@
 ---
 description: La pagina Metodi di ricerca identifica il modo in cui i vari rapporti sui metodi di ricerca ricevono credito per gli eventi di successo di conversione sul sito. Ad esempio, se un motore di ricerca fa riferimento a un visitatore del sito che effettua un acquisto, i metodi di ricerca specificano il modo in cui il motore di ricerca riceve il credito per il riferimento.
-seo-description: La pagina Metodi di ricerca identifica il modo in cui i vari rapporti sui metodi di ricerca ricevono credito per gli eventi di successo di conversione sul sito. Ad esempio, se un motore di ricerca fa riferimento a un visitatore del sito che effettua un acquisto, i metodi di ricerca specificano il modo in cui il motore di ricerca riceve il credito per il riferimento.
-seo-title: Metodi di ricerca
 solution: Analytics
 title: Metodi di ricerca
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
