@@ -1,13 +1,11 @@
 ---
 description: Descrive come impostare le autorizzazioni e quali dimensioni sono disponibili in Analytics.
-seo-description: Descrive come impostare le autorizzazioni e quali dimensioni sono disponibili in Analytics.
-seo-title: Generazione di rapporti Activity Map in Analytics
 solution: Analytics
 title: Generazione di rapporti Activity Map in Analytics
-topic: Activity Map
+topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
