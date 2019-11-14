@@ -1,14 +1,12 @@
 ---
 description: Utilizzate Importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
-seo-description: Utilizzate Importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
-seo-title: 'Importazione classificazioni: panoramica'
 solution: Analytics
 subtopic: Classifications
 title: 'Importazione classificazioni: panoramica'
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
