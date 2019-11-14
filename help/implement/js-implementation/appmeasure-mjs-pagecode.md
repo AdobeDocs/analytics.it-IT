@@ -1,15 +1,13 @@
 ---
 description: Questa sezione contiene il codice di esempio per il file JavaScript di base e le pagine del sito.
-keywords: Implementazione di Analytics;codice appmeasurement.js;codice di pagina di esempio
-seo-description: Questa sezione contiene il codice di esempio per il file JavaScript di base e le pagine del sito.
-seo-title: Esempio di codice della pagina e configurazione globale
+keywords: Analytics Implementation;appmeasurement.js code;example page code
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Esempio di codice della pagina e configurazione globale
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
