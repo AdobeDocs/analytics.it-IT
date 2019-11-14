@@ -1,11 +1,9 @@
 ---
 description: L'integrazione dei Connettori dati per emarsys utilizza le variabili di Analytics per tenere traccia di varie metriche di emarsys.
-seo-description: L'integrazione dei Connettori dati per emarsys utilizza le variabili di Analytics per tenere traccia di varie metriche di emarsys.
-seo-title: Variabili di Analytics
 title: Variabili di Analytics
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -60,9 +58,9 @@ Dopo aver identificato gli eventi e le eVar da utilizzare con l'integrazione ema
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
-   <td colname="col2"> ID destinatario </td> 
+   <td colname="col2"> Recipient ID </td> 
    <td colname="col3"> <p>Raccolti da parametri di query nei collegamenti e-mail tramite il metodo di raccolta automatizzata o un plug-in JavaScript. </p> </td> 
-   <td colname="col4"> ID destinatario </td> 
+   <td colname="col4"> Recipient ID </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eVar o s.campaign </td> 
