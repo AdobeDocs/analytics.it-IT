@@ -1,13 +1,11 @@
 ---
 description: Panoramica dei dati raccolti da Adobe Analytics e di altre considerazioni sulla privacy.
 keywords: privacy
-seo-description: Panoramica dei dati raccolti da Adobe Analytics e di altre considerazioni sulla privacy.
-seo-title: Panoramica sulla privacy
 solution: Analytics
 title: Panoramica sulla privacy
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
