@@ -1,13 +1,11 @@
 ---
 description: Se hai copiato le impostazioni da una suite di rapporti esistente, un messaggio di sistema identifica le impostazioni non copiate nella nuova suite di rapporti.
-seo-description: Se hai copiato le impostazioni da una suite di rapporti esistente, un messaggio di sistema identifica le impostazioni non copiate nella nuova suite di rapporti.
-seo-title: Impostazioni non copiate da un'origine di rapporti
 solution: Analytics
 title: Impostazioni non copiate da un'origine di rapporti
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
