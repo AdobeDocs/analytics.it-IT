@@ -1,14 +1,12 @@
 ---
 description: Un "livello dati" è un framework di oggetti JavaScript che gli sviluppatori inseriscono nelle pagine.
 keywords: Analytics Implementation;data layer;digitalData
-seo-description: Un "livello dati" è un framework di oggetti JavaScript che gli sviluppatori inseriscono nelle pagine. I livelli di dati possono essere utilizzati dagli strumenti di tracciamento (compresi i sistemi di gestione tag come Gestione tag dinamica) per compilare i rapporti.
-seo-title: Livello dati
 solution: Analytics
 title: Livello dati
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
