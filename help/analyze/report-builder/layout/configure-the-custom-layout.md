@@ -1,13 +1,11 @@
 ---
 description: Il layout personalizzato fornisce la maggior parte delle funzionalità del layout pivot, ma consente di scegliere dove posizionare ogni elemento della griglia nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti, inclusa l'aggiunta di suddivisioni e micrografici.
-seo-description: Il layout personalizzato fornisce la maggior parte delle funzionalità del layout pivot, ma consente di scegliere dove posizionare ogni elemento della griglia nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti, inclusa l'aggiunta di suddivisioni e micrografici.
-seo-title: Configurare il layout personalizzato
 solution: Analytics
 title: Configurare il layout personalizzato
-topic: Generatore di report
+topic: Report builder
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
