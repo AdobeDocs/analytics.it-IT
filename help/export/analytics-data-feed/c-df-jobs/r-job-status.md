@@ -1,13 +1,11 @@
 ---
 description: I processi possono essere visualizzati con diverse etichette di stato.
-keywords: Feed dati;processo;stato;attesa di dati;non riuscito;pronto;elaborazione;completo;nessun dato
-seo-description: I processi possono essere visualizzati con diverse etichette di stato.
-seo-title: Stato del processo
+keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
 solution: Analytics
 title: Stato del processo
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
