@@ -1,11 +1,9 @@
 ---
 description: Il confronto delle date in Analysis Workspace consente di prendere qualsiasi colonna contenente un intervallo di date e creare un confronto tra date comune, ad esempio anno su anno, trimestre su trimestre, mese su mese e così via.
-seo-description: Il confronto delle date in Analysis Workspace consente di prendere qualsiasi colonna contenente un intervallo di date e creare un confronto tra date comune, ad esempio anno su anno, trimestre su trimestre, mese su mese e così via.
-seo-title: Confronto delle date
 title: Confronto delle date
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
