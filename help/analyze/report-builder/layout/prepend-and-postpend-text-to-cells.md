@@ -1,23 +1,21 @@
 ---
-description: Nelle richieste di Layout pivot e Layout personalizzato, per i valori numerici o delle stringhe, potete anteporre stringhe o caratteri postpend o caratteri alle celle.
-seo-description: Nelle richieste di Layout pivot e Layout personalizzato, per i valori numerici o delle stringhe, potete anteporre stringhe o caratteri postpend o caratteri alle celle.
-seo-title: Prefisso e testo postpend alle celle
+description: Nelle richieste di layout pivot e personalizzato, per i valori numerici o stringa è possibile anteporre o inviare stringhe o caratteri alle celle.
 solution: Analytics
-title: Prefisso e testo postpend alle celle
-topic: Generatore di report
-uuid: d 31 af 8 a 7-67 fb -435 f -80 d 1-dee 7 acb 3411 e
+title: Anteporre e posporre testo alle celle
+topic: Report builder
+uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Prefisso e testo postpend alle celle
+# Anteporre e posporre testo alle celle
 
-Nelle richieste di Layout pivot e Layout personalizzato, per i valori numerici o delle stringhe, potete anteporre stringhe o caratteri postpend o caratteri alle celle.
+Nelle richieste di layout pivot e personalizzato, per i valori numerici o stringa è possibile anteporre o inviare stringhe o caratteri alle celle.
 
-This option is available on the [!UICONTROL Request Wizard: Step 2].
+Questa opzione è disponibile sul [!UICONTROL Request Wizard: Step 2].
 
-**Testo anteponi:** Aggiunge nella cella un prefisso di valori numerici o stringa.
+**** Testo anteprime: Aggiunge un prefisso di valori numerici o di stringa nella cella.
 
-**Testo postpend:** Aggiunge nella cella valori numerici o stringa.
+**** Testo postpend: Aggiunge valori numerici o di stringa nella cella.
