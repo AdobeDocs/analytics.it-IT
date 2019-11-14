@@ -1,13 +1,11 @@
 ---
 description: Visualizza i dati delle metriche per i tipi di contenuto, inclusi video, prodotti, articoli e così via.
-seo-description: Visualizza i dati delle metriche per i tipi di contenuto, inclusi video, prodotti, articoli e così via.
-seo-title: Tipi di contenuto
 solution: Analytics
 title: Tipi di contenuto
-topic: Rapporti
-uuid: fc 838250-a 0 b 8-4 c 37-a 2 fb -5 b 9 cc 93 b 90 a 2
+topic: Reports
+uuid: fc838250-a0b8-4c37-a2fb-5b9cc93b90a2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
