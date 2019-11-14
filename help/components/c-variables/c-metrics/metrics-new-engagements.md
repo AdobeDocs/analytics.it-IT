@@ -1,19 +1,17 @@
 ---
-description: La nuova Engagement è una metrica di reporting Canale marketing che indica che un nuovo canale di tocco è stato appena impostato per un visitatore. Questo può verificarsi la prima volta che un visitatore visita il sito o quando torna al sito dopo che un primo canale di primo tocco è scaduto. (La scadenza del canale di marketing può essere impostata come desiderato dalla suite di rapporti regolando la scadenza del coinvolgimento del visitatore in Strumenti di amministrazione. Se non viene impostato per la suite di rapporti, la scadenza sarà predefinita 30 giorni dall'ultima visita o dal visitatore del visitatore.
-seo-description: La nuova Engagement è una metrica di reporting Canale marketing che indica che un nuovo canale di tocco è stato appena impostato per un visitatore. Questo può verificarsi la prima volta che un visitatore visita il sito o quando torna al sito dopo che un primo canale di primo tocco è scaduto. (La scadenza del canale di marketing può essere impostata come desiderato dalla suite di rapporti regolando la scadenza del coinvolgimento del visitatore in Strumenti di amministrazione. Se non viene impostato per la suite di rapporti, la scadenza sarà predefinita 30 giorni dall'ultima visita o dal visitatore del visitatore.
-seo-title: Nuove coinvolgimenti
+description: New Engagement è una metrica di reporting del canale di marketing che indica che per un visitatore è stato impostato un canale di primo tocco. Questo può verificarsi la prima volta che un visitatore visita il sito o quando il visitatore ritorna al sito dopo che un canale di primo tocco precedente è scaduto. (La scadenza del canale di marketing può essere impostata come desiderato dalla suite di rapporti regolando la scadenza del coinvolgimento del visitatore in Strumenti di amministrazione. Se non è impostata per la suite di rapporti, per impostazione predefinita la scadenza è di 30 giorni dall’ultima visita o dall’ultimo hit del visitatore.)
 solution: Analytics
-title: Nuove coinvolgimenti
-topic: Metrics (Metriche)
-uuid: 2 d 1 dc 194-10 f 3-4 bfd-ba 60-2 a 57 fc 2 ad 2 a 8
+title: Nuovi engagement
+topic: Metrics
+uuid: 2d1dc194-10f3-4bfd-ba60-2a57fc2ad2a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Nuove coinvolgimenti
+# Nuovi engagement
 
-La nuova Engagement è una metrica di reporting Canale marketing che indica che un nuovo canale di tocco è stato appena impostato per un visitatore. Questo può verificarsi la prima volta che un visitatore visita il sito o quando torna al sito dopo che un primo canale di primo tocco è scaduto. (La scadenza del canale di marketing può essere impostata come desiderato dalla suite di rapporti regolando la scadenza del coinvolgimento del visitatore in Strumenti di amministrazione. Se non viene impostato per la suite di rapporti, la scadenza sarà predefinita 30 giorni dall'ultima visita o dal visitatore del visitatore.
+New Engagement è una metrica di reporting del canale di marketing che indica che per un visitatore è stato impostato un canale di primo tocco. Questo può verificarsi la prima volta che un visitatore visita il sito o quando il visitatore ritorna al sito dopo che un canale di primo tocco precedente è scaduto. (La scadenza del canale di marketing può essere impostata come desiderato dalla suite di rapporti regolando la scadenza del coinvolgimento del visitatore in Strumenti di amministrazione. Se non è impostata per la suite di rapporti, per impostazione predefinita la scadenza è di 30 giorni dall’ultima visita o dall’ultimo hit del visitatore.)
 
-[Aiuto sui canali di marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/)
+[Aiuto canali di marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/)
