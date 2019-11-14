@@ -1,16 +1,14 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Paginazione, filtro e ordinamento delle tabelle
-title: Paginazione, filtro e ordinamento delle tabelle
-uuid: 53263 cec-c 378-459 b -9689-6 adaeb 66 e 5 c 9
+title: Paginazione, filtri e ordinamento di tabelle
+uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Paginazione, filtro e ordinamento delle tabelle
+# Paginazione, filtri e ordinamento di tabelle
 
 Per una panoramica, guarda questo video di YouTube:
 
