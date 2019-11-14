@@ -1,13 +1,11 @@
 ---
 description: Utilizzate la sezione Informazioni feed per denominare il feed, specificare la suite di rapporti con cui eseguire il feed, determinare la ricorrenza del feed e specificare quando il feed inizia e termina.
-keywords: Feed di dati;informazioni;nome;suite di rapporti;e-mail quando completo;intervallo;feed;ritardo;ritardo;inizio;fine;data;feed continuo
-seo-description: Utilizzate la sezione Informazioni feed per denominare il feed, specificare la suite di rapporti con cui eseguire il feed, determinare la ricorrenza del feed e specificare quando il feed inizia e termina.
-seo-title: Informazioni sui feed
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: Informazioni sui feed
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
