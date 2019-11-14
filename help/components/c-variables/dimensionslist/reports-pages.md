@@ -1,13 +1,11 @@
 ---
 description: ' Consente di classificare le pagine del sito in base alle pagine che ricevono più traffico. Se la domanda aziendale tratta dati quantitativi per le pagine, potete utilizzare questo rapporto per rispondere a tale domanda, aggiungendo le metriche corrette.'
-seo-description: ' Consente di classificare le pagine del sito in base alle pagine che ricevono più traffico. Se la domanda aziendale tratta dati quantitativi per le pagine, potete utilizzare questo rapporto per rispondere a tale domanda, aggiungendo le metriche corrette.'
-seo-title: Pagine
 solution: Analytics
 title: Pagine
-topic: Rapporti
+topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
