@@ -1,14 +1,12 @@
 ---
 description: Le regole di elaborazione vengono utilizzate per spostare i valori dalle variabili di dati di contesto a proprietà ed eVar.
-seo-description: Le regole di elaborazione vengono utilizzate per spostare i valori dalle variabili di dati di contesto a proprietà ed eVar.
-seo-title: Copiare una variabile di dati di contesto in una eVar
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Copiare una variabile di dati di contesto in una eVar
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
