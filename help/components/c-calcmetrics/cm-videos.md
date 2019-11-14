@@ -1,21 +1,19 @@
 ---
-description: Questi brevi video (almeno 8 minuti) forniscono una panoramica su come ottimizzare l'utilizzo degli strumenti Metriche calcolate.
-seo-description: Questi brevi video (almeno 8 minuti) forniscono una panoramica su come ottimizzare l'utilizzo degli strumenti Metriche calcolate.
-seo-title: Video sulle procedure
+description: Questi brevi video (almeno 8 minuti) forniscono una panoramica su come ottimizzare l’uso degli strumenti Metrica calcolata.
 title: Video sulle procedure
-uuid: b 6920 b 20-4 c 38-4017-bb 10-cb 187 d 39 fd 77
+uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Video sulle procedure
 
-Questi brevi video (almeno 8 minuti) forniscono una panoramica su come ottimizzare l'utilizzo degli strumenti Metriche calcolate.
+Questi brevi video (almeno 8 minuti) forniscono una panoramica su come ottimizzare l’uso degli strumenti Metrica calcolata.
 
 * [Selettore metrica](https://youtu.be/jCJ7XEJxcYo)
-* [Generatore di metriche](https://youtu.be/wpdWYWaf0uo)
+* [Generatore metriche](https://youtu.be/wpdWYWaf0uo)
 * [Metriche segmentate](https://youtu.be/YtikkXvOrS8)
 * [Metriche senza implementazione](https://youtu.be/CuQTm9RaUpY)
 * [Funzioni](https://youtu.be/SSyWvomnewI)
