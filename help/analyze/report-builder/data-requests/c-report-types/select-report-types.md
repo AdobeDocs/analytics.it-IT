@@ -1,24 +1,22 @@
 ---
-description: Potete selezionare il tipo di rapporto di base per la richiesta dati, ad esempio Metriche del sito, Contenuto del sito e Video.
-seo-description: Potete selezionare il tipo di rapporto di base per la richiesta dati, ad esempio Metriche del sito, Contenuto del sito e Video.
-seo-title: Panoramica sui tipi di rapporto
+description: Potete selezionare il tipo di rapporto di base per la richiesta di dati, ad esempio Metriche del sito, Contenuto sito e Video.
 solution: Analytics
 title: Panoramica sui tipi di rapporto
-topic: Generatore di report
-uuid: 63 e 656 d 0-f 22 e -4846-9 e 24-7 ef 3299 dde 5 a
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Panoramica sui tipi di rapporto
 
-Potete selezionare il tipo di rapporto di base per la richiesta dati, ad esempio Metriche del sito, Contenuto del sito e Video.
+Potete selezionare il tipo di rapporto di base per la richiesta di dati, ad esempio Metriche del sito, Contenuto sito e Video.
 
-Potete scegliere un solo tipo di rapporto base per una serie di celle di fogli di calcolo. If you are editing a previously created request, you can change the report type on the [!UICONTROL Request Wizard: Step 1] window without having to reconfigure other settings in the request.
+Potete scegliere un solo tipo di rapporto di base per un intervallo di celle del foglio di calcolo. Se modificate una richiesta creata in precedenza, potete modificare il tipo di rapporto nella [!UICONTROL Request Wizard: Step 1] finestra senza dover riconfigurare altre impostazioni nella richiesta.
 
-Potete cercare i rapporti utilizzando la barra di ricerca completa automatica. Dopo aver selezionato un rapporto da questo controllo, la vista ad albero seleziona automaticamente il nodo corrispondente.
+Potete cercare i rapporti utilizzando la barra di ricerca completa automatica. Dopo aver selezionato un rapporto da questo controllo, la visualizzazione ad albero selezionerà automaticamente il nodo corrispondente.
 
 ![](assets/search_reports.png)
 
