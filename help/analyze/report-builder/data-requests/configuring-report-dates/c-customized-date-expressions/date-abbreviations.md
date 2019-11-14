@@ -1,13 +1,11 @@
 ---
 description: Le abbreviazioni di ora si riferiscono a una data particolare in cui inizia un periodo, non a un intervallo di giorni. Un intervallo di giorni è espresso specificando una data di inizio e una data di fine per due abbreviazioni di ora (o termini).
-seo-description: Le abbreviazioni di ora si riferiscono a una data particolare in cui inizia un periodo, non a un intervallo di giorni. Un intervallo di giorni è espresso specificando una data di inizio e una data di fine per due abbreviazioni di ora (o termini).
-seo-title: Abbreviazioni data
 solution: Analytics
 title: Abbreviazioni data
-topic: Generatore di report
+topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
