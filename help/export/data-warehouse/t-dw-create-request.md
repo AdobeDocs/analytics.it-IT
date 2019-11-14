@@ -1,13 +1,11 @@
 ---
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
-seo-description: Passaggi che descrivono come creare una richiesta Data Warehouse.
-seo-title: Create a Data Warehouse Request (Creare una richiesta di archivio dati)
 solution: Analytics
 title: Create a Data Warehouse Request (Creare una richiesta di archivio dati)
 topic: Data warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
