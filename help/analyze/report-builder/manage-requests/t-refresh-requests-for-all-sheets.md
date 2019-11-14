@@ -1,13 +1,11 @@
 ---
 description: Potete aggiornare le richieste per tutti i fogli o per più richieste.
-seo-description: Potete aggiornare le richieste per tutti i fogli o per più richieste.
-seo-title: Aggiornare le richieste di tutti i fogli
 solution: Analytics
 title: Aggiornare le richieste di tutti i fogli
-topic: Generatore di report
+topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
