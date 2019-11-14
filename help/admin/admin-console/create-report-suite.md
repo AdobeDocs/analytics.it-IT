@@ -1,10 +1,8 @@
 ---
 title: Creare una suite di rapporti
-seo-title: Creare una suite di rapporti in Adobe Analytics
 description: Crea un contenitore di base per la raccolta dei dati in Adobe Analytics.
-seo-description: Crea un contenitore di base per la raccolta dei dati in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
