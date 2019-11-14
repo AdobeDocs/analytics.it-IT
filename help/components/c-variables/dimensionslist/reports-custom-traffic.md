@@ -1,13 +1,11 @@
 ---
 description: I rapporti sul traffico personalizzati consentono a ciascuna organizzazione di generare rapporti sulle dimensioni aggiuntive non implementate per impostazione predefinita. I report Traffico personalizzati possono essere utilizzati in diversi modi, più comunemente per misurare il traffico e il percorso.
-seo-description: I rapporti sul traffico personalizzati consentono a ciascuna organizzazione di generare rapporti sulle dimensioni aggiuntive non implementate per impostazione predefinita. I report Traffico personalizzati possono essere utilizzati in diversi modi, più comunemente per misurare il traffico e il percorso.
-seo-title: Traffico personalizzato
 solution: Analytics
 title: Traffico personalizzato
-topic: Rapporti
+topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
