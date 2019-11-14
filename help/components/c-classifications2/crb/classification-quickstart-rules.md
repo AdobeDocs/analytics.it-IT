@@ -1,14 +1,12 @@
 ---
 description: Le regole di classificazione ricercano regolarmente termini non classificati. Se viene trovata una corrispondenza di regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Potete inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
-seo-description: Le regole di classificazione ricercano regolarmente termini non classificati. Se viene trovata una corrispondenza di regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Potete inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
-seo-title: Regole di classificazione
 solution: Analytics
 subtopic: Classifications
 title: Regole di classificazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -34,7 +32,7 @@ Ad esempio, supponiamo che un codice di tracciamento per un ID campagna e-mail s
 
 È possibile impostare tre regole in un set di regole che identificano le parti della stringa, quindi classificano i valori:
 
-| Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
 |---|---|---|---|
 | Inizia con | em: | Canale | E-mail |
 | Termina con | Vendita | Type (Tipo) | Vendita |
@@ -130,7 +128,7 @@ Modo in cui l'espressione regolare è correlata all'ID campagna:
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]: Mostra come l'espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell'ID campagna.
+[!UICONTROL Match Groups]:Mostra come l'espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell'ID campagna.
 
 ![](assets/regex_tracking_code.png)
 
@@ -140,7 +138,7 @@ Questo esempio indica la regola secondo cui la data della campagna `20140601` si
 
 In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-| Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
 |---|---|---|---|
 | Espressione regolare | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data campagna | $3 |
 
@@ -168,7 +166,7 @@ Un modo per utilizzare un'espressione regolare è classificare un carattere spec
 
 In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-| Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
 |--- |--- |--- |--- |
 | Espressione regolare | `^.(s).*$` | Marchio e motore | `$0` Acquisisce i primi due caratteri per il marchio e il motore di ricerca. |
 | Espressione regolare | `^.(s).*$` | Motore di ricerca | `$1` Acquisisce il secondo carattere per Google. |
@@ -193,7 +191,7 @@ Tasti di esempio:
 
 In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-| Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
 |--- |--- |--- |--- |
 | Espressione regolare Per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Espressione regolare Per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
@@ -276,7 +274,7 @@ Se si creano più regole che non condividono la stessa classificazione, l'ordine
 
 Esempio di regola a termine per la ricerca che classifica i tipi di ricerca per un atleta:
 
-| Numero regola | Tipo di regola | Corrispondenza | Imposta classificazione | A |
+| Numero regola | Tipo di regola | Corrispondenza |  Imposta classificazione |  A |
 |---|---|---|---|---|
 | 1 | Contiene | Cowboy | Tipo di ricerca | Team |
 | 2 | Contiene | Fantasia | Tipo di ricerca | Fantasia |
@@ -286,7 +284,7 @@ Se un utente cerca *`Cowboys fantasy Tony Romo`*, il termine *`Player`* viene cl
 
 Allo stesso modo, supponete di impostare due regole in un set per i seguenti termini di ricerca:
 
-| Numero regola | Tipo di regola | Corrispondenza | Imposta classificazione | A |
+| Numero regola | Tipo di regola | Corrispondenza |  Imposta classificazione |  A |
 |---|---|---|---|---|
 | 1 | Contiene | Cowboy | Città | Dallas |
 | 2 | Contiene | Broncos | Città | Denver |
@@ -307,7 +305,7 @@ Aggiungere regole facendo corrispondere una condizione a una classificazione e s
 
 >[!NOTE]
 >
-> In questa procedura è necessario applicare le regole a una o più suite di rapporti. Il numero consigliato di regole per set di regole è compreso tra 500 e 1000, anche se non esistono limiti. Se disponete di oltre 100 regole, provate a semplificare il set di regole utilizzando [sottoclassificazioni](/help/components/c-classifications2/c-sub-classifications.md).
+>In questa procedura è necessario applicare le regole a una o più suite di rapporti. Il numero consigliato di regole per set di regole è compreso tra 500 e 1000, anche se non esistono limiti. Se disponete di oltre 100 regole, provate a semplificare il set di regole utilizzando [sottoclassificazioni](/help/components/c-classifications2/c-sub-classifications.md).
 
 1. [Creare un set](/help/components/c-classifications2/crb/classification-rule-set.md) di regole di classificazione.
 1. Nella pagina del set di regole, fate clic su **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ Aggiungere regole facendo corrispondere una condizione a una classificazione e s
    Viene **[!UICONTROL Select Report Suites]** visualizzata la pagina.
 
    >[!NOTE]
-   Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:&gt;
+   Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:        &gt;
 
    * Le suite di rapporti hanno almeno una classificazione definita per quella variabile in [!UICONTROL Admin Tools].
    Per una spiegazione di questo prerequisito, vedere *`Variable`* in Set [regole di](/help/components/c-classifications2/crb/classification-rule-set.md) classificazione.
