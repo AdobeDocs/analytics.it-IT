@@ -1,14 +1,12 @@
 ---
 description: Consente di nascondere le suite di rapporti nell'interfaccia utente di Adobe Analytics.
-keywords: elimina suite di rapporti
-seo-description: Consente di nascondere le suite di rapporti nell'interfaccia utente di Adobe Analytics.
-seo-title: Nascondere suite di rapporti
+keywords: delete report suite
 solution: Analytics
 title: Nascondere suite di rapporti
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
