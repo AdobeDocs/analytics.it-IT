@@ -1,14 +1,12 @@
 ---
 description: Talvolta, alcune metriche potrebbero non rientrare in una differenza accettabile quando si confrontano metriche Adobe Analytics con metriche DFA. Di seguito è riportato un elenco delle definizioni delle metriche e dei possibili motivi delle varianti.
-keywords: DFAE
-seo-description: Talvolta, alcune metriche potrebbero non rientrare in una differenza accettabile quando si confrontano metriche Adobe Analytics con metriche DFA. Di seguito è riportato un elenco delle definizioni delle metriche e dei possibili motivi delle varianti.
-seo-title: Riconciliazione delle discrepanze metriche
+keywords: DFA
 solution: Analytics
 title: Riconciliazione delle discrepanze metriche
-topic: Connettori dati
+topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
