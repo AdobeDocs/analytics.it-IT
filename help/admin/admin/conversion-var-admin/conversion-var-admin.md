@@ -1,14 +1,12 @@
 ---
 description: La variabile di conversione dell'intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
 keywords: eVar
-seo-description: La variabile di conversione dell'intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
-seo-title: Variabili di conversione (eVar)
 solution: Analytics
 title: Variabili di conversione (eVar)
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
