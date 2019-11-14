@@ -1,13 +1,11 @@
 ---
 description: Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati.
-seo-description: Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati.
-seo-title: Operatori di confronto per i segmenti
 solution: Analytics
 title: Operatori di confronto per i segmenti
-topic: Segmenti
+topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
