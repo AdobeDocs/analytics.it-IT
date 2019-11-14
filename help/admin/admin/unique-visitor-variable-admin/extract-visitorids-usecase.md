@@ -1,13 +1,11 @@
 ---
 description: Data Warehouse offre una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID di cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l'esempio seguente è un collegamento per la generazione di una richiesta Data Warehouse.
-seo-description: Data Warehouse offre una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID di cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l'esempio seguente è un collegamento per la generazione di una richiesta Data Warehouse.
-seo-title: 'Caso di utilizzo: estrazione degli ID visitatore'
 solution: Analytics
 title: 'Caso di utilizzo: estrazione degli ID visitatore'
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
