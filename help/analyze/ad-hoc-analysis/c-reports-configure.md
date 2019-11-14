@@ -1,11 +1,9 @@
 ---
 description: Scopri le diverse azioni che puoi eseguire su un rapporto, come la configurazione di grafici, grafici, suddivisioni ed estrazione di dati.
-seo-description: Scopri le diverse azioni che puoi eseguire su un rapporto, come la configurazione di grafici, grafici, suddivisioni ed estrazione di dati.
-seo-title: Configurare i rapporti esistenti
 title: Configurare i rapporti esistenti
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -52,7 +50,7 @@ In un rapporto, fai clic sul **[!UICONTROL Report Actions]** menu a discesa.  ![
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opzioni di consegna </p> </td> 
-   <td colname="col2"> <p> Consultate Opzioni <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   ></a>di consegna. </p> </td> 
+   <td colname="col2"> <p> Consulta <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > Opzioni</a>di consegna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Stampa </p> </td> 
