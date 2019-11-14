@@ -1,13 +1,11 @@
 ---
 description: Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono lo stile di vita e altre metriche dalle applicazioni mobili.
-seo-description: Abilitando la gestione mobile vengono attivate le variabili della soluzione mobile che acquisiscono lo stile di vita e altre metriche dalle applicazioni mobili.
-seo-title: Gestione dispositivi mobili
 solution: Analytics
 title: Gestione dispositivi mobili
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
