@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Gestire gli account pubblicitari
 title: Gestire gli account pubblicitari
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,7 +35,7 @@ Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]*
    <td colname="col2"> <p>Rinomina questo account in tutte le suite di rapporti a cui è associato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Mappa suite di rapporti </p> </td> 
+   <td colname="col1"> <p>Mappa suite di rapporti </p> </td> 
    <td colname="col2"> <p>Consente di modificare le mappature delle suite di rapporti. </p> </td> 
   </tr> 
   <tr> 
