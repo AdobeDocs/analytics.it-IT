@@ -1,14 +1,12 @@
 ---
 description: Le regole di elaborazione possono attivare eventi in base a variabili di dati contestuali.
-seo-description: Le regole di elaborazione possono attivare eventi in base a variabili di dati contestuali.
-seo-title: Impostare un evento utilizzando una variabile di dati di contesto
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Impostare un evento utilizzando una variabile di dati di contesto
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
