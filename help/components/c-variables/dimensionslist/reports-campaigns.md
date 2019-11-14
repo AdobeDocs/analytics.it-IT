@@ -1,13 +1,11 @@
 ---
 description: Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi di iniziative pubblicitarie danno la maggior parte del traffico e quale dei vostri dipendenti è responsabile di tali sforzi.
-seo-description: Visualizza informazioni sull'efficacia delle attività pubblicitarie. Potete vedere quali tipi di iniziative pubblicitarie danno la maggior parte del traffico e quale dei vostri dipendenti è responsabile di tali sforzi.
-seo-title: Campagne
 solution: Analytics
 title: Campagne
-topic: Rapporti
+topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
