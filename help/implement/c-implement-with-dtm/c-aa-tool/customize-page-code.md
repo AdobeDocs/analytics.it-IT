@@ -1,13 +1,11 @@
 ---
 description: Utilizzate le descrizioni dei campi in Gestione tag dinamica per personalizzare il codice della pagina durante la distribuzione di Analytics.
-keywords: Dynamic Tag Management;personalizzare il codice della pagina;open editor;execute
-seo-description: Utilizzate le descrizioni dei campi in Gestione tag dinamica per personalizzare il codice della pagina durante la distribuzione di Analytics.
-seo-title: Personalizzare il codice della pagina
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+keywords: Dynamic Tag Management;customize page code;open editor;execute
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Personalizzare il codice della pagina
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
