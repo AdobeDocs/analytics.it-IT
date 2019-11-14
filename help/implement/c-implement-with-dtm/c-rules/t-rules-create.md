@@ -1,13 +1,11 @@
 ---
 description: Procedura che descrive come creare regole in Gestione tag dinamica.
-keywords: Gestione tag dinamica;regola;crea regola;nuova regola;regola basata su eventi;regola di caricamento pagina;regola di chiamata diretta
-seo-description: Procedura che descrive come creare regole in Gestione tag dinamica.
-seo-title: Creare una nuova regola
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creare una nuova regola
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
