@@ -1,14 +1,12 @@
 ---
 description: Descrizioni dei campi per le impostazioni Generali in Gestione tag dinamica per l'implementazione di Adobe Analytics.
-keywords: Implementazione di Analytics;metodo di implementazione;gestione tag dinamica;dtm;impostazioni generali;conformità eu;set di caratteri;codice valuta;server di tracciamento;ssl server di tracciamento
-seo-description: Descrizioni dei campi per le impostazioni Generali in Gestione tag dinamica per l'implementazione di Adobe Analytics.
-seo-title: Generale
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
 solution: Analytics
 title: Generale
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
