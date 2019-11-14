@@ -1,15 +1,13 @@
 ---
 description: nulle
-keywords: gruppi;autorizzazioni
-seo-description: nulle
-seo-title: Modifiche alle autorizzazioni Utente e Gruppo
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utenti e gruppi
+subtopic: Users and groups
 title: Modifiche alle autorizzazioni Utente e Gruppo
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -88,7 +86,7 @@ Di seguito sono riportate nuove informazioni importanti sugli aggiornamenti nuov
  <tbody> 
   <tr> 
    <td colname="col1">Quali modifiche alle autorizzazioni sono state introdotte nella release di <b>luglio 2016</b> ? </td> 
-   <td colname="col2"> <p> <b>Accesso a tutte le suite di rapporti</b> </p> <p> Quando aggiungete delle suite di rapporti da includere in un gruppo, potete specificare <span class="uicontrol"> Accesso</span>a tutte le suite di rapporti. Questa impostazione applica le autorizzazioni del gruppo a tutte le suite di rapporti correnti e future. </p> <p>To enable this feature, navigate to <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Add New User Group</span>, then select <span class="uicontrol"> All Report Suite Access</span>. </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
+   <td colname="col2"> <p> <b>Accesso a tutte le suite di rapporti</b> </p> <p>Quando aggiungete delle suite di rapporti da includere in un gruppo, potete specificare <span class="uicontrol"> Accesso</span>a tutte le suite di rapporti. Questa impostazione applica le autorizzazioni del gruppo a tutte le suite di rapporti correnti e future. </p> <p>To enable this feature, navigate to <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Add New User Group</span>, then select <span class="uicontrol"> All Report Suite Access</span>. </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Devo utilizzare Admin Console per gestire gli utenti o la gestione degli utenti di Analytics? </p> </td> 
