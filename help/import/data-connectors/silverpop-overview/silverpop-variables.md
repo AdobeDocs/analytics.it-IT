@@ -1,11 +1,9 @@
 ---
 description: L'integrazione dei Connettori dati per Silverpop utilizza le variabili di Analytics per tenere traccia di varie metriche Silverpop.
-seo-description: L'integrazione dei Connettori dati per Silverpop utilizza le variabili di Analytics per tenere traccia di varie metriche Silverpop.
-seo-title: Variabili di integrazione di Analytics
 title: Variabili di integrazione di Analytics
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
