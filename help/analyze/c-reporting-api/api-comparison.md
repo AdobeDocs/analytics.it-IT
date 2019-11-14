@@ -1,12 +1,10 @@
 ---
 description: Una tabella di confronto per le API di reporting di Analytics. Vengono forniti collegamenti alla documentazione di supporto.
-seo-description: Una tabella di confronto per le API di reporting di Analytics. Vengono forniti collegamenti alla documentazione di supporto.
-seo-title: Confronto delle API di reportistica di Analytics
 solution: Analytics
 title: Confronto delle API di reportistica di Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
