@@ -1,14 +1,12 @@
 ---
 description: Create un gruppo che conceda diritti amministrativi limitati agli utenti del rapporto Canale di marketing, quindi assegnate gli utenti a tale gruppo. Ad esempio, potete creare un gruppo che consenta agli utenti non amministrativi di inserire costi o importi di budget.
-seo-description: Create un gruppo che conceda diritti amministrativi limitati agli utenti del rapporto Canale di marketing, quindi assegnate gli utenti a tale gruppo. Ad esempio, potete creare un gruppo che consenta agli utenti non amministrativi di inserire costi o importi di budget.
-seo-title: Concessione di diritti amministrativi limitati
 solution: Analytics
-subtopic: Canali di marketing
+subtopic: Marketing channels
 title: Concessione di diritti amministrativi limitati
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
