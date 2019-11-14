@@ -1,14 +1,12 @@
 ---
 description: È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
-seo-description: È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
-seo-title: 'Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo'
 solution: Analytics
 subtopic: Classifications
 title: 'Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo'
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,7 +47,7 @@ Esempi di passaggi che descrivono come caricare le sottocategorie utilizzando il
 
 >[!NOTE]
 >
-> Questi passaggi descrivono come eseguire il caso d’uso descritto in [Sottoclassificazioni e nel Generatore](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)di regole.
+>Questi passaggi descrivono come eseguire il caso d’uso descritto in [Sottoclassificazioni e nel Generatore](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)di regole.
 
 1. Creare classificazioni e sottoclassificazioni in Gestione [classificazione](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
@@ -61,7 +59,7 @@ Esempi di passaggi che descrivono come caricare le sottocategorie utilizzando il
 
    A tale scopo, è necessario utilizzare un'espressione regolare. In questo esempio, la regola da compilare *`Broad Campaign code`* utilizzerebbe questa espressione regolare:
 
-   | `#` | Tipo di regola | Corrispondenza | Imposta classificazione | A |
+   | `#` | Tipo di regola | Corrispondenza |  Imposta classificazione |  A |
    |---|---|---|---|---|
    |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice campagna ampio | `$1` |
    |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice creativo | `$2` |
