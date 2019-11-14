@@ -1,13 +1,11 @@
 ---
 description: Data Warehouse fa riferimento alla copia dei dati di Analytics per l'archiviazione e i report personalizzati, che puoi eseguire filtrando i dati. Puoi chiedere ai rapporti di visualizzare relazioni avanzate tra i dati, partendo da dati grezzi basati su tue precise domande. I report data warehouse vengono inviati via e-mail o tramite FTP e possono richiedere fino a 72 ore di elaborazione. Il tempo di elaborazione dipende dalla complessità della query e dalla quantità di dati richiesti.
-seo-description: Data Warehouse fa riferimento alla copia dei dati di Analytics per l'archiviazione e i report personalizzati, che puoi eseguire filtrando i dati. Puoi chiedere ai rapporti di visualizzare relazioni avanzate tra i dati, partendo da dati grezzi basati su tue precise domande. I report data warehouse vengono inviati via e-mail o tramite FTP e possono richiedere fino a 72 ore di elaborazione. Il tempo di elaborazione dipende dalla complessità della query e dalla quantità di dati richiesti.
-seo-title: Panoramica di Data Warehouse
 solution: Analytics
 title: Panoramica di Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
