@@ -1,13 +1,11 @@
 ---
 description: Passaggi che descrivono come configurare gli eventi di successo.
-seo-description: Passaggi che descrivono come configurare gli eventi di successo.
-seo-title: Configurare eventi di successo
 solution: Analytics
 title: Configurare eventi di successo
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -41,7 +39,7 @@ Passaggi che descrivono come configurare gli eventi di successo.
 
    >[!NOTE]
    >
-   >Potete abilitare la partecipazione per un massimo di 100 eventi personalizzati. Oltre a ciò, potete creare metriche di partecipazione nel generatore Metriche [](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) calcolate.
+   > Potete abilitare la partecipazione per un massimo di 100 eventi personalizzati. Oltre a ciò, potete creare metriche di partecipazione nel generatore Metriche [](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) calcolate.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
