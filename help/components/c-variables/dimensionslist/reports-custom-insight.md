@@ -1,18 +1,16 @@
 ---
-description: Il set di report correlati al gruppo di variabili di traffico personalizzate (variabili proprietà). Ogni rapporto prop è un rapporto di approfondimenti personalizzato separato.
-seo-description: Il set di report correlati al gruppo di variabili di traffico personalizzate (variabili proprietà). Ogni rapporto prop è un rapporto di approfondimenti personalizzato separato.
-seo-title: Custom Insight
+description: Set di rapporti relativi al gruppo di variabili di traffico personalizzate (variabili di proprietà). Ogni rapporto prop è un rapporto personalizzato separato.
 solution: Analytics
 title: Custom Insight
-topic: Rapporti
-uuid: bdfe 3578-765 a -42 d 2-98 ea-d 575743 f 8 be 2
+topic: Reports
+uuid: bdfe3578-765a-42d2-98ea-d575743f8be2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Custom Insight
 
-Il set di report correlati al gruppo di variabili di traffico personalizzate (variabili proprietà). Ogni rapporto prop è un rapporto di approfondimenti personalizzato separato.
+Set di rapporti relativi al gruppo di variabili di traffico personalizzate (variabili di proprietà). Ogni rapporto prop è un rapporto personalizzato separato.
 
