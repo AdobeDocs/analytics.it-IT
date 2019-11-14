@@ -1,14 +1,12 @@
 ---
 description: Aggiunta di dati offline ai rapporti del canale di marketing.
-seo-description: Aggiunta di dati offline ai rapporti del canale di marketing.
-seo-title: Aggiungere dati offline
 solution: Analytics
-subtopic: Canali di marketing
+subtopic: Marketing channels
 title: Aggiungere dati offline
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
