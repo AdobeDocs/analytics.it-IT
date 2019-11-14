@@ -1,14 +1,12 @@
 ---
 description: Come iniziare a utilizzare Adobe Analytics.
 keywords: Analysis Workspace
-seo-description: Come iniziare a utilizzare Adobe Analytics.
-seo-title: Guida introduttiva
 solution: Analytics
 title: Guida introduttiva
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,7 +35,7 @@ Richiama un report classifica di base utilizzando Analysis Workspace. Un rapport
 
 ## Estrazione di un rapporto con tendenze di base in Workspace
 
-Estrarre un rapporto con tendenze di base utilizzando Analysis Workspace. Un rapporto con tendenze mostra una visualizzazione temporale delle metriche utilizzando l'intervallo di date selezionato. Questi tipi di report sono utili per identificare le tendenze nel tempo e possono essere utilizzati per misurare il successo o il fallimento delle decisioni aziendali prese. Ad esempio, potete esaminare un rapporto sulle visualizzazioni di pagina con tendenze nel tempo per verificare se una riprogettazione del sito ha contribuito ad aumentare o ridurre il traffico.
+Richiama un report con tendenze di base tramite Analysis Workspace. Un rapporto con tendenze mostra una visualizzazione temporale delle metriche utilizzando l'intervallo di date selezionato. Questi tipi di report sono utili per identificare le tendenze nel tempo e possono essere utilizzati per misurare il successo o il fallimento delle decisioni aziendali prese. Ad esempio, potete esaminare un rapporto sulle visualizzazioni di pagina con tendenze nel tempo per verificare se una riprogettazione del sito ha contribuito ad aumentare o ridurre il traffico.
 
 1. Accedete a [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali ID Adobe.
 2. Fate clic sull'icona di 9 quadrati in alto a destra, quindi fate clic sul logo Analytics colorato.
