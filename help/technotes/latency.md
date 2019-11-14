@@ -1,15 +1,13 @@
 ---
 description: Le seguenti informazioni possono essere utili per risolvere i problemi di latenza della suite di rapporti nei dati di Analytics.
-keywords: dati mancanti;lento
-seo-description: Le seguenti informazioni possono essere utili per risolvere i problemi di latenza della suite di rapporti nei dati di Analytics.
-seo-title: Disponibilità e latenza dei dati
+keywords: missing data;slow
 solution: Analytics
-subtopic: Dati correnti
+subtopic: Current data
 title: Disponibilità e latenza dei dati
-topic: Rapporti
+topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
