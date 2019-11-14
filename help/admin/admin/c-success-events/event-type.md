@@ -1,13 +1,11 @@
 ---
 description: Descrive le conseguenze della modifica di un tipo di evento dopo la raccolta dei dati.
-seo-description: Descrive le conseguenze della modifica di un tipo di evento dopo la raccolta dei dati.
-seo-title: Informazioni sulla modifica del tipo di evento
 solution: Analytics
 title: Informazioni sulla modifica del tipo di evento
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
