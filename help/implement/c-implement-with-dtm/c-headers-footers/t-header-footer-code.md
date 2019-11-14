@@ -1,14 +1,12 @@
 ---
 description: Utilizzate Gestione tag dinamica per aggiungere codice di intestazione e piè di pagina che determini il caricamento di JavaScript e del contenuto della pagina sul sito. È necessario installare sia il codice di intestazione che il codice di piè di pagina in ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
-keywords: Analytics Implementation;metodo di implementazione;gestione tag dinamica;dtm;codice;codice pagina;codice intestazione;codice piè di pagina;codice incorporato;scheda incorpora
-seo-description: Utilizzate Gestione tag dinamica per aggiungere codice di intestazione e piè di pagina che determini il caricamento di JavaScript e del contenuto della pagina sul sito. È necessario installare sia il codice di intestazione che il codice di piè di pagina in ogni pagina del sito, indipendentemente dall'opzione di hosting utilizzata.
-seo-title: Aggiungere un codice intestazione e piè di pagina
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 solution: Analytics
 title: Aggiungere un codice intestazione e piè di pagina
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
