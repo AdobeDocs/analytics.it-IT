@@ -1,25 +1,23 @@
 ---
-description: Le classificazioni vengono create raggruppando (classificando) dati granulari da un rapporto sorgente.
-keywords: Implementazione di Analytics; classificazione
-seo-description: Le classificazioni vengono create raggruppando (classificando) dati granulari da un rapporto sorgente.
-seo-title: Classificazioni
+description: Le classificazioni vengono create raggruppando (classificando) i dati granulari da un report di origine.
+keywords: Analytics Implementation;classification
 solution: Analytics
-title: Classificazioni
-topic: Sviluppatore e implementazione
-uuid: 6 bbb 1113-9 fc 9-4 e 9 d -90 dd-d 2 d 9 d 6 b 67 b 73
+title: Classifications
+topic: Developer and implementation
+uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Classificazioni
+# Classifications
 
-Le classificazioni vengono create raggruppando (classificando) dati granulari da un rapporto sorgente.
+Le classificazioni vengono create raggruppando (classificando) i dati granulari da un report di origine.
 
-Ad esempio, puoi analizzare gli annunci visualizzati, ma sono misti con posta elettronica, partner, annunci di testo e campagne social media. Potete creare gruppi per analizzarli separatamente.
+Ad esempio, potreste voler analizzare gli annunci visualizzati, ma sono combinati con campagne e-mail, partner, di testo e social media. Potete creare dei gruppi in modo da poterli analizzare separatamente.
 
 Per ulteriori dettagli consulta:
 
-* [Classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) nella guida di Guida e Guida di Analytics
+* [Classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) nella guida di Analytics e nella guida di riferimento
 
