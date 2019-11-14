@@ -1,13 +1,11 @@
 ---
 description: Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
-seo-description: Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
-seo-title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 solution: Analytics
 title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
-topic: Activity Map
+topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
