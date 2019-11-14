@@ -1,14 +1,12 @@
 ---
 description: Questa sezione contiene le linee guida per testare le regole di elaborazione e un elenco di errori comuni da evitare.
-seo-description: Questa sezione contiene le linee guida per testare le regole di elaborazione e un elenco di errori comuni da evitare.
-seo-title: Suggerimenti e trucchi per le regole di elaborazione
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Suggerimenti e trucchi per le regole di elaborazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
