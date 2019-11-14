@@ -1,11 +1,9 @@
 ---
 description: Configura gli utenti e scopri ulteriori informazioni sul campionamento dei dati.
-seo-description: Configura gli utenti e scopri ulteriori informazioni sul campionamento dei dati.
-seo-title: Amministrazione
 title: Amministrazione
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
