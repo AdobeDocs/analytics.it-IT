@@ -1,13 +1,11 @@
 ---
 description: Visualizza le informazioni relative all'ordine in cui viene effettuato l'accesso alle pagine del tuo sito Web. Puoi raccogliere informazioni sulla posizione del visitatore prima e dopo qualsiasi pagina visitata sul tuo sito.
-seo-description: Visualizza le informazioni relative all'ordine in cui viene effettuato l'accesso alle pagine del tuo sito Web. Puoi raccogliere informazioni sulla posizione del visitatore prima e dopo qualsiasi pagina visitata sul tuo sito.
-seo-title: Paths (Percorsi)
 solution: Analytics
 title: Paths (Percorsi)
-topic: Rapporti
+topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ I rapporti sui percorsi includono rapporti di analisi avanzati standard e facolt
 **[!UICONTROL Next Page Flow]** o **[!UICONTROL Next Site Flow]**: Consente di visualizzare un elemento grafico a due livelli con ramificazione profonda di una pagina (o sezione, dipartimento e così via) selezionata, che i visitatori possono visualizzare dopo essersi allontanati dalla pagina selezionata. Utilizzate questo rapporto per analizzare e identificare i passi che i visitatori effettuano più spesso dopo aver visualizzato una pagina selezionata. Puoi:
 
 * Scoprite i passaggi più frequenti dopo la visualizzazione di una pagina selezionata.
-* Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
+* Ottimizzate la progettazione del percorso del sito per rendere il traffico scorrevole verso una pagina di destinazione desiderata.
 * Identificate dove vanno i visitatori al posto delle pagine di obiettivi desiderate.
 
 **[!UICONTROL Next Page]** (o categorie successive): Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine del sito visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata. Ad esempio, quando si seleziona e si crea un rapporto sull’intero sito, il rapporto mostra le prime dieci pagine di destinazione, con le cinque pagine successive più popolari elencate sotto ogni pagina di destinazione. Questi dati possono aiutarti a capire quali contenuti, funzionalità e altri dati, più spesso obbligando i visitatori a spostarsi all'interno del sito
@@ -34,7 +32,7 @@ I rapporti sui percorsi includono rapporti di analisi avanzati standard e facolt
 
 **[!UICONTROL Previous Page]** (o altre categorie precedenti): Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine del sito visualizzate dai visitatori prima di visualizzare una pagina selezionata sul sito.
 
-**[!UICONTROL Fallout]**: Visualizza l'attrito della visita e i tassi di conversione tra ciascun checkpoint definito. I passaggi sono disposti dall’alto verso il basso, con i numeri non elaborati e le percentuali visualizzate a sinistra, e le percentuali di conversione e di abbandono a destra.
+**[!UICONTROL Fallout]**: Visualizza l'attrito della visita e i tassi di conversione tra ciascun checkpoint definito. I passaggi sono disposti dall’alto verso il basso, con i numeri non elaborati e le percentuali visualizzate a sinistra, e le percentuali di conversione e abbandono a destra.
 
 ![](assets/fallout_graphic.png)
 
