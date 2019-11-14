@@ -1,11 +1,9 @@
 ---
 description: Calculated Metrics Builder (Generatore di metriche calcolate) fornisce un quadro per trascinare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
-seo-description: Calculated Metrics Builder (Generatore di metriche calcolate) fornisce un quadro per trascinare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
-seo-title: Creare metriche
 title: Creare metriche
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
