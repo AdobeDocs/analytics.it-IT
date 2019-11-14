@@ -1,15 +1,13 @@
 ---
 description: Informazioni sui caratteri speciali utilizzati nel feed di dati.
-keywords: Feed dati;processo;caratteri speciali;hit_data;variabili con più valori;events_list;products_list;mvar
-seo-description: Informazioni sui caratteri speciali utilizzati nel feed di dati.
-seo-title: Caratteri speciali
+keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
-subtopic: feed di dati
+subtopic: data feeds
 title: Caratteri speciali
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
