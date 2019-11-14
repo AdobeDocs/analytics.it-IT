@@ -1,14 +1,12 @@
 ---
 description: Data warehouse offre un'interfaccia flessibile per l'esecuzione di report personalizzati. Seguendo queste linee guida è possibile ridurre il tempo necessario per recuperare i dati.
-keywords: procedure ottimali;errore;timeout;risoluzione dei problemi
-seo-description: Data warehouse offre un'interfaccia flessibile per l'esecuzione di report personalizzati. Seguendo queste linee guida è possibile ridurre il tempo necessario per recuperare i dati.
-seo-title: Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)
+keywords: best practices;failure;timeout;troubleshooting
 solution: Analytics
 title: Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)
 topic: Data warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
