@@ -1,24 +1,22 @@
 ---
-description: Ora potete combinare questi due tipi di metriche in una e la stessa richiesta, anziché dover creare richieste separate.
-seo-description: Ora potete combinare questi due tipi di metriche in una e la stessa richiesta, anziché dover creare richieste separate.
-seo-title: Combinare le metriche del traffico e del commercio nella stessa richiesta
+description: Ora potete combinare questi due tipi di metriche in una stessa richiesta, invece di dover creare richieste separate.
 solution: Analytics
 title: Combinare le metriche del traffico e del commercio nella stessa richiesta
-topic: Generatore di report
-uuid: 2813 d 594-f 4 ec -4 f 6 a -8539-ec 7 d 954 a 392 f
+topic: Report builder
+uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Combinare le metriche del traffico e del commercio nella stessa richiesta
 
-Ora potete combinare questi due tipi di metriche in una e la stessa richiesta, anziché dover creare richieste separate.
+Ora potete combinare questi due tipi di metriche in una stessa richiesta, invece di dover creare richieste separate.
 
-Le metriche Traffico e Traffico ora vengono visualizzate nella stessa categoria di metriche al Passaggio 2 della Richiesta guidata. In precedenza, queste metriche venivano separate in categoria Commerce e Categoria Traffico.
+Le metriche relative al traffico e al commercio ora vengono visualizzate nella stessa categoria di metriche nel passaggio 2 della Richiesta guidata. Precedentemente, queste metriche erano separate in una categoria Commerce (Commercio) e una categoria Traffic (Traffico).
 
-The new grouped category is labeled **[!UICONTROL Standard]**. .
+La nuova categoria raggruppata è etichettata **[!UICONTROL Standard]**. .
 
 ![](assets/standard_metrics.png)
 
