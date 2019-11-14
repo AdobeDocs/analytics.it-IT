@@ -1,14 +1,12 @@
 ---
 description: Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni.
-keywords: Implementazione di Analytics; faq; domande frequenti; scadenza evar; visibilità evento personalizzata; timestamp; periodo di tolleranza per ID visitatore; ID visitatore; ID visitatore Experience Cloud; ID visitatore analytics; dtm; heartbeat; cookie; server di tracciamento; prestazioni; javascript; raccolta dati; s_ code version; s_ code debug; monitoraggio tipi di collegamento; tracciare video; app per dispositivi mobili; cookie dei siti Web visualizzati; certificato ssl; scadenza della certificazione; scadenza del certificato; plug-in; api di inserimento dati; errore 500; 500; Gestisci utente;gestisci gruppo; utenti; gruppi
-seo-description: Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni.
-seo-title: Domande frequenti sull’implementazione di Analytics
+keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
 solution: Analytics
 title: Domande frequenti sull’implementazione di Analytics
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
