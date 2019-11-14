@@ -1,15 +1,13 @@
 ---
 description: La distribuzione di Analytics è organizzata in tre fasi principali.
-keywords: Implementazione di Analytics
-seo-description: La distribuzione di Analytics è organizzata in tre fasi principali.
-seo-title: Panoramica sull'ottimizzazione
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Risoluzione dei problemi
+subtopic: Troubleshooting
 title: Panoramica sull'ottimizzazione
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
