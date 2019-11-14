@@ -1,14 +1,12 @@
 ---
 description: L'ID organizzazione è richiesto per completare la procedura guidata di integrazione. Per trovare questo ID è necessario effettuare le seguenti operazioni.
-seo-description: L'ID organizzazione è richiesto per completare la procedura guidata di integrazione. Per trovare questo ID è necessario effettuare le seguenti operazioni.
-seo-title: Ricerca del tuo ID organizzazione per la qualità
 solution: Analytics
-subtopic: Qualtric
+subtopic: Qualtrics
 title: Ricerca del tuo ID organizzazione per la qualità
-topic: Connettori dati
+topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
