@@ -1,13 +1,11 @@
 ---
 description: Oltre alle opzioni di formattazione standard disponibili tramite la funzione Formato > Celle di Excel (Ctrl+1), con il generatore di report puoi applicare una formattazione limitata agli intervalli di celle. Queste scelte di formattazione dipendono dalla metrica scelta.
-seo-description: Oltre alle opzioni di formattazione standard disponibili tramite la funzione Formato > Celle di Excel (Ctrl+1), con il generatore di report puoi applicare una formattazione limitata agli intervalli di celle. Queste scelte di formattazione dipendono dalla metrica scelta.
-seo-title: Formattare la data
 solution: Analytics
 title: Formattare la data
-topic: Generatore di report
+topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
