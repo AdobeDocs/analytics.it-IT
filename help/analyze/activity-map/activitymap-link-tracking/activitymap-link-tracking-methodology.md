@@ -1,13 +1,11 @@
 ---
 description: Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi parametri di tracciamento dei collegamenti sono incentrati su come garantire l’univocità e la coerenza dei collegamenti tra browser e dispositivi e come migliorare la gestione del riposizionamento dei collegamenti su una pagina.
-seo-description: Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi parametri di tracciamento dei collegamenti sono incentrati su come garantire l’univocità e la coerenza dei collegamenti tra browser e dispositivi e come migliorare la gestione del riposizionamento dei collegamenti su una pagina.
-seo-title: Metodologia di tracciamento dei collegamenti
 solution: Analytics
 title: Metodologia di tracciamento dei collegamenti
-topic: Activity Map
+topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
