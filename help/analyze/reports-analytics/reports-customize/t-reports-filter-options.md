@@ -1,13 +1,11 @@
 ---
 description: I filtri consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
-seo-description: I filtri consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
-seo-title: Filtraggio dati dei rapporti
 solution: Analytics
 title: Filtraggio dati dei rapporti
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
