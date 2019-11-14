@@ -1,13 +1,11 @@
 ---
 description: I rapporti standard mostrano i dati per il sito Web e l'attività del visitatore, i pattern di traffico, i dati di riferimento, le campagne pubblicitarie, la conservazione dei visitatori, i dati sui prodotti e altro ancora. Puoi eseguire report e quindi accedere a strumenti per configurare segmenti, metriche e confronti di report.
-seo-description: I rapporti standard mostrano i dati per il sito Web e l'attività del visitatore, i pattern di traffico, i dati di riferimento, le campagne pubblicitarie, la conservazione dei visitatori, i dati sui prodotti e altro ancora. Puoi eseguire report e quindi accedere a strumenti per configurare segmenti, metriche e confronti di report.
-seo-title: Panoramica sui report
 solution: Analytics
 title: Panoramica sui report
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -95,7 +93,7 @@ c_Statistical_Calculation_ad_hoc.xml
 | Quartiles | Un quartile è l'insieme di valori nel set di dati identificato da tre punti che dividono l'insieme di dati in quattro gruppi uguali, ciascuno dei quali comprende un quarto dell'insieme di dati. Il primo quartile è il 25° percentile, e il terzo quartile è il 75° percentile. (Il secondo quartile è la mediana e il quarto quartile è la Somma.) |
 | Count | Restituisce il numero di righe in un dataset. |
 
-## Esempio di calcoli medi e totali delle metriche {#section_7C49196503964FB0A429FA347BC92D09}
+## Esempio di calcoli medi rispetto al totale della metrica {#section_7C49196503964FB0A429FA347BC92D09}
 
 La funzione Media è calcolata in modo simile alle colonne di dati in Microsoft Excel. In particolare, ciò significa che la **media** di un rapporto (come la determinazione del tasso di rimbalzo medio) sarebbe la media dei rapporti, non il rapporto delle medie. Il rapporto delle medie include il **totale** della metrica del tasso di rimbalzo.
 
