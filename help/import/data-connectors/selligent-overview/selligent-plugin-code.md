@@ -1,12 +1,10 @@
 ---
 description: Prendete le eVar necessarie in Admin Tool di Adobe Analytics prima di lavorare con il codice seguente.
-seo-description: Prendete le eVar necessarie in Admin Tool di Adobe Analytics prima di lavorare con il codice seguente.
-seo-title: Codice Plug-In Param Stringa Query
 solution: Analytics
 title: Codice Plug-In Param Stringa Query
-uuid: a71e7774-bc7a-414e-a116-73970b900bf
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
