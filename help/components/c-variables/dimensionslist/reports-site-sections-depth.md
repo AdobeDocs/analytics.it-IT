@@ -1,18 +1,16 @@
 ---
-description: Disponibile se il percorso è abilitato. I clic sulla pagina indicano il numero di visualizzazioni di pagina che hanno preceduto la visualizzazione della prima pagina del visitatore all'interno della sezione del sito specificata.
-seo-description: Disponibile se il percorso è abilitato. I clic sulla pagina indicano il numero di visualizzazioni di pagina che hanno preceduto la visualizzazione della prima pagina del visitatore all'interno della sezione del sito specificata.
-seo-title: Profondità sezione sito
+description: Disponibile se il percorso è abilitato. Fate clic sulla pagina per indicare il numero di visualizzazioni di pagina che hanno preceduto la prima visualizzazione di pagina del visitatore all’interno della sezione del sito specificata.
 solution: Analytics
 title: Profondità sezione sito
-topic: Rapporti
-uuid: 117 ec 0 ed-ade 0-4382-8756-d 7 d 5 ea 3530 bf
+topic: Reports
+uuid: 117ec0ed-ade0-4382-8756-d7d5ea3530bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Profondità sezione sito
 
-Disponibile se il percorso è abilitato. I clic sulla pagina indicano il numero di visualizzazioni di pagina che hanno preceduto la visualizzazione della prima pagina del visitatore all'interno della sezione del sito specificata.
+Disponibile se il percorso è abilitato. Fate clic sulla pagina per indicare il numero di visualizzazioni di pagina che hanno preceduto la prima visualizzazione di pagina del visitatore all’interno della sezione del sito specificata.
 
