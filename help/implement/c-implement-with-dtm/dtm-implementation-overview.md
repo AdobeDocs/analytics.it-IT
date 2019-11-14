@@ -1,14 +1,12 @@
 ---
 description: nulle
-keywords: Implementazione di Analytics;metodo di implementazione;gestione tag dinamica;dtm
-seo-description: nulle
-seo-title: Panoramica dell’implementazione di Gestione dinamica dei tag
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm
 solution: Analytics
 title: Panoramica dell’implementazione di Gestione dinamica dei tag
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,7 +27,7 @@ Questa guida illustra i passaggi seguenti per implementare Analytics con DTM:
 1. [Configurare le opzioni](/help/implement/c-implement-with-dtm/t-configure-hosting.md)di hosting.
 1. [Aggiungete il codice di intestazione e piè di pagina a ciascuna pagina](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)gestita.
 1. [Aggiunta dello strumento Adobe Analytics](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
-1. Creare elementi [](/help/implement/c-implement-with-dtm/t-data-element.md)di dati, [regole e condizioni](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)e [azioni](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md).
+1. Creare elementi [](/help/implement/c-implement-with-dtm/t-data-element.md)dati, [regole e condizioni](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)e [azioni](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md).
 
 1. Pubblicate strumenti e regole sul server di produzione.
 
