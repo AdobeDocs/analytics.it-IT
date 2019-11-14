@@ -1,11 +1,9 @@
 ---
 description: Come interagire con le righe statiche nelle tabelle.
-seo-description: Come interagire con le righe statiche nelle tabelle.
-seo-title: Righe statiche e dinamiche
 title: Righe statiche e dinamiche
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
