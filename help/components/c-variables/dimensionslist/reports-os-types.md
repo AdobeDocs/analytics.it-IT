@@ -1,13 +1,11 @@
 ---
 description: Riporta le versioni specifiche del report Sistemi operativi nel report Sistemi operativi ai principali tipi di sistemi operativi per la semplificazione dei report e la segmentazione.
-seo-description: Riporta le versioni specifiche del report Sistemi operativi nel report Sistemi operativi ai principali tipi di sistemi operativi per la semplificazione dei report e la segmentazione.
-seo-title: Tipi di sistemi operativi
 solution: Analytics
 title: Tipi di sistemi operativi
-topic: Rapporti
+topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
