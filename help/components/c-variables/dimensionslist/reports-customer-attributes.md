@@ -1,12 +1,10 @@
 ---
 description: Domande frequenti su Analytics per gli attributi del cliente e come eseguire il rapporto Attributi del cliente.
-seo-description: Domande frequenti su Analytics per gli attributi del cliente e come eseguire il rapporto Attributi del cliente.
-seo-title: Attributi cliente
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Attributi cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
