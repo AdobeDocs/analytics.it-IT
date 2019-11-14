@@ -1,14 +1,12 @@
 ---
 description: La distribuzione di questa integrazione è un processo semplice che richiede le seguenti azioni.
-seo-description: La distribuzione di questa integrazione è un processo semplice che richiede le seguenti azioni.
-seo-title: Implementazione dell'integrazione
 solution: Analytics
-subtopic: Qualtric
+subtopic: Qualtrics
 title: Implementazione dell'integrazione
-topic: Connettori dati
+topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ Per attivare l'integrazione è necessario completare l'integrazione guidata Qual
    |---|---|
    | Eventi | Seleziona fino a cinque eventi personalizzati da esporre per l'esportazione in modalità Qualtrics |
    | Proprietà | Seleziona fino a cinque delle tue Prop da esporre per l'esportazione in Qualtrics |
-   |  Richieste di accesso | Selezionate la casella di controllo per le metriche e le dimensioni standard da esportare in metriche. L’ `visitor_id` opzione è necessaria per consentire il corretto funzionamento dell’esportazione. |
+   | Richieste di accesso | Selezionate la casella di controllo per le metriche e le dimensioni standard da esportare in metriche. L’ `visitor_id` opzione è necessaria per consentire il corretto funzionamento dell’esportazione. |
 
 1. **Passaggio procedura guidata 5**: Rivedete la configurazione e fate clic **[!UICONTROL Activate Now]**.
 
