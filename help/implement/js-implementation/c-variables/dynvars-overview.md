@@ -1,15 +1,13 @@
 ---
 description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
-keywords: Implementazione di Analytics
-seo-description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
-seo-title: Variabili dinamiche
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variabili
+subtopic: Variables
 title: Variabili dinamiche
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
