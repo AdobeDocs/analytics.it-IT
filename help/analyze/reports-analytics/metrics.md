@@ -1,13 +1,11 @@
 ---
 description: Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati e di abilitare confronti affiancati di diversi set di dati sul sito Web. Le metriche sono informazioni quantitative sull'attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, unità, ordini, ricavi e così via.
-seo-description: Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati e di abilitare confronti affiancati di diversi set di dati sul sito Web. Le metriche sono informazioni quantitative sull'attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, unità, ordini, ricavi e così via.
-seo-title: Metriche
 solution: Analytics
 title: Metriche
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
