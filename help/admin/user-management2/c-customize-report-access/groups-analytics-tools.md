@@ -1,15 +1,13 @@
 ---
 description: Attiva le autorizzazioni degli utenti per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Report Builder e integrazione dei Data Connectors.
-keywords: gruppi;autorizzazioni
-seo-description: Attiva le autorizzazioni degli utenti per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Report Builder e integrazione dei Data Connectors.
-seo-title: Personalizzare le autorizzazioni degli strumenti di Analytics
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utenti e gruppi
+subtopic: Users and groups
 title: Personalizzare le autorizzazioni degli strumenti di Analytics
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
