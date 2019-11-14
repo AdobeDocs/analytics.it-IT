@@ -1,13 +1,11 @@
 ---
 description: 'L’interfaccia utente della Activity Map è composta da due parti '
-seo-description: 'L’interfaccia utente della Activity Map è composta da due parti '
-seo-title: Interfaccia utente di Activity Map
 solution: Analytics
 title: Interfaccia utente di Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
