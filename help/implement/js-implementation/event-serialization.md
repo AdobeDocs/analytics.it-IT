@@ -1,14 +1,12 @@
 ---
 description: La serializzazione degli eventi è il processo di implementazione delle misure per impedire che gli eventi duplicati entrino nel reporting di Analytics. Ciò può verificarsi in genere quando un utente aggiorna la pagina più volte, accede a una determinata pagina più volte o salva la pagina Web nel proprio computer (ad esempio, se un cliente salva una pagina di conferma dell'acquisto nel proprio computer, ogni volta che visualizza gli ordini e le entrate vengono nuovamente conteggiate se la serializzazione dell'evento non è stata implementata).
-keywords: Implementazione di Analytics
-seo-description: La serializzazione degli eventi è il processo di implementazione delle misure per impedire che gli eventi duplicati entrino nel reporting di Analytics. Ciò può verificarsi in genere quando un utente aggiorna la pagina più volte, accede a una determinata pagina più volte o salva la pagina Web nel proprio computer (ad esempio, se un cliente salva una pagina di conferma dell'acquisto nel proprio computer, ogni volta che visualizza gli ordini e le entrate vengono nuovamente conteggiate se la serializzazione dell'evento non è stata implementata).
-seo-title: Panoramica sulla serializzazione degli eventi
+keywords: Analytics Implementation
 solution: Analytics
 title: Panoramica sulla serializzazione degli eventi
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
