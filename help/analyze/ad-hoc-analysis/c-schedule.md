@@ -1,13 +1,11 @@
 ---
 description: Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
-seo-description: Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
-seo-title: Pianificazione Manager
 solution: Analytics
 title: Pianificazione Manager
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
