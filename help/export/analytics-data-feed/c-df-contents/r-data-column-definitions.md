@@ -1,13 +1,11 @@
 ---
 description: Utilizzare questa sezione per selezionare le colonne di dati da includere nel feed e come i dati del feed devono essere elaborati e assemblati prima della consegna.
-keywords: Feed dati;data;colonna;definizioni;selezionare i modelli di colonna;clickstream;colonne disponibili;colonne incluse;formato di compressione;tipo di imballaggio;includere il manifesto di dati;rimuovere i caratteri di escape;scaricare csv
-seo-description: Utilizzare questa sezione per selezionare le colonne di dati da includere nel feed e come i dati del feed devono essere elaborati e assemblati prima della consegna.
-seo-title: Definizioni delle colonne dati
+keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
 solution: Analytics
 title: Definizioni delle colonne dati
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
