@@ -1,13 +1,11 @@
 ---
 description: Potete pianificare l’invio dei rapporti in base all’ora e al formato definiti.
-seo-description: Potete pianificare l’invio dei rapporti in base all’ora e al formato definiti.
-seo-title: Pianificazione di una richiesta di dati
 solution: Analytics
 title: Pianificazione di una richiesta di dati
-topic: Generatore di report
+topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,8 +47,8 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generat
 | Seleziona Rapporto | Nome della cartella di lavoro. Per i nuovi rapporti pianificati, questo campo viene popolato con il nome attivo della cartella di lavoro. |
 | Seleziona | Visualizza la pagina Seleziona rapporto. È possibile selezionare un rapporto dal server (in cui sono memorizzate tutte le cartelle di lavoro pianificate in precedenza) o dal computer locale. Se si seleziona una cartella di lavoro dall'unità locale in formato .xls, il file viene convertito in .xlsx dal sistema. Come parte di tale conversione, il file viene aperto in Excel e reso attivo. Se la cartella di lavoro selezionata per il rapporto pianificato ha lo stesso nome file della cartella di lavoro attualmente aperta in Excel, il sistema seleziona il file locale invece del file caricato in precedenza. Se si seleziona un rapporto dall'archivio di programmazione, viene creata una copia della cartella di lavoro sul server, con il nome file aggiornato con 1. Il nuovo report pianificato creato utilizza la cartella di lavoro copiata. |
 | Personalizza | Consente di personalizzare il formato della data. |
-| A | Visualizza la Rubrica di Outlook, se applicabile. |
-| Invia a:E-mail | Destinatario e-mail della cartella di lavoro. |
+|  A | Visualizza la Rubrica di Outlook, se applicabile. |
+| Invia a: E-mail | Destinatario e-mail della cartella di lavoro. |
 | Invia a: Elenco di pubblicazione | Visualizza un elenco di elenchi di distribuzione disponibili per la società. |
 | Power BI | Per ulteriori informazioni, vedere [Pubblica cartella di lavoro in Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) . |
 | Oggetto | Una descrizione definita dall'utente. |
