@@ -1,14 +1,12 @@
 ---
 description: Una suite di rapporti definisce il reporting indipendente e completo su un sito Web scelto, su un insieme di siti Web o su un sottoinsieme di pagine Web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando effettui l’accesso ai rapporti marketing, alle analisi ad hoc e al generatore di report, selezioni una suite di rapporti da utilizzare (eccetto quando utilizzi roll-up, in cui sono combinate più suite di rapporti).
-keywords: Implementazione di Analytics;report;suite di report;report di analisi;segmento globale;roll-up;rollups;combinare suite di report;traffico;conversione;percorso
-seo-description: Una suite di rapporti definisce il reporting indipendente e completo su un sito Web scelto, su un insieme di siti Web o su un sottoinsieme di pagine Web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando effettui l’accesso ai rapporti marketing, alle analisi ad hoc e al generatore di report, selezioni una suite di rapporti da utilizzare (eccetto quando utilizzi roll-up, in cui sono combinate più suite di rapporti).
-seo-title: Report e suite per report
+keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
 solution: Analytics
 title: Report e suite per report
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
