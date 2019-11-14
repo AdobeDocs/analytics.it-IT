@@ -1,13 +1,11 @@
 ---
 description: Definisce le impostazioni comuni per un sito Web che sviluppa il contenuto originale e visualizza articoli e video.
-seo-description: Definisce le impostazioni comuni per un sito Web che sviluppa il contenuto originale e visualizza articoli e video.
-seo-title: Contenuto e media
 solution: Analytics
 title: Contenuto e media
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -40,15 +38,15 @@ La tabella seguente contiene un elenco degli eventi commerciali standard. La con
 
 | Eventi Commerce Standard | Type (Tipo) | `s_code` variable |
 |---|---|---|
-| Ricavi |  Contatore | `purchase` |
-| Ordini |  Contatore | `purchase` |
-| Unità |  Contatore | `purchase` |
-| Carrelli |  Contatore | `scOpen` |
-| Visualizzazioni carrello |  Contatore | `scView` |
-| Istanze |  Contatore | N/D |
-| Pagamenti |  Contatore | `scCheckout` |
-| Aggiunte carrello |  Contatore | `scAdd` |
-| Rimozioni carrello |  Contatore | `scRemove` |
+| Ricavi | Contatore | `purchase` |
+| Ordini | Contatore | `purchase` |
+| Unità | Contatore | `purchase` |
+| Carrelli | Contatore | `scOpen` |
+| Visualizzazioni carrello | Contatore | `scView` |
+| Istanze | Contatore | N/D |
+| Pagamenti | Contatore | `scCheckout` |
+| Aggiunte carrello | Contatore | `scAdd` |
+| Rimozioni carrello | Contatore | `scRemove` |
 | Visite | Contatore (nessuna sottorelazione) | N/D |
 | Visualizzazioni pagina | Contatore (nessuna sottorelazione) | N/D |
 | Visitatori giornalieri unici | Contatore (nessuna sottorelazione) | N/D |
