@@ -1,13 +1,11 @@
 ---
 description: Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nella legacy ClickMap.
-seo-description: Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nella legacy ClickMap.
-seo-title: Interrompere il tracciamento dei collegamenti
 solution: Analytics
 title: Interrompere il tracciamento dei collegamenti
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
