@@ -1,13 +1,11 @@
 ---
 description: 'Activity Map tiene traccia dei collegamenti con un algoritmo più affidabile '
-seo-description: 'Activity Map tiene traccia dei collegamenti con un algoritmo più affidabile '
-seo-title: Tracciamento solido dei collegamenti
 solution: Analytics
 title: Tracciamento solido dei collegamenti
-topic: Activity Map
+topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -23,7 +21,7 @@ Per ulteriori informazioni sul tracciamento dei collegamenti nella Activity Map,
 
 ## Come il tracciamento dei collegamenti Activity Map può raccogliere dati PII {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
-> [!CAUTION] Attivando il tracciamento Activity Map, potete raccogliere dati personali (PII). Questi dati possono essere utilizzati in modo indipendente o con altre informazioni per identificare, contattare o individuare una singola persona, o per identificare un individuo nel contesto.
+> [!CAUTION] Attivando il tracciamento Activity Map, potete raccogliere dati personali (PII).  Questi dati possono essere utilizzati in modo indipendente o con altre informazioni per identificare, contattare o individuare una singola persona, o per identificare un individuo nel contesto.
 
 Di seguito sono riportati alcuni casi noti in cui i dati PII potrebbero essere raccolti utilizzando il tracciamento delle mappe di attività:
 
