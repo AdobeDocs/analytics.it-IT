@@ -1,26 +1,24 @@
 ---
-description: I click-through rappresentano le istanze di canale di marketing e di marketing.
-keywords: Visualizzazioni campagna
-seo-description: I click-through rappresentano le istanze di canale di marketing e di marketing.
-seo-title: Click-through
+description: I click-through rappresentano a) istanze di campagne e b) istanze di canali di marketing.
+keywords: Campaign Views
 solution: Analytics
-title: Click-through
-topic: Metrics (Metriche)
-uuid: da 605430-24 aa -4713-a 5 c 3-735 fac 0 a 3441
+title: Clickthrough
+topic: Metrics
+uuid: da605430-24aa-4713-a5c3-735fac0a3441
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Click-through
+# Clickthrough
 
-I click-through rappresentano le istanze di canale di marketing e di marketing.
+I click-through rappresentano a) istanze di campagne e b) istanze di canali di marketing.
 
-a) Le istanze della campagna riflettono il numero di volte in cui un codice di tracciamento di una determinata campagna è stato passato in reporting. When a visitor clicks on an affiliate link that has been tagged with one of these tracking codes, the visitor is taken to your landing page and the tracking code is captured in *`s.campaign`*. Tali dati vengono inviati al reporting e viene registrato un click-through.
+a) Le istanze della campagna riflettono il numero di volte in cui un codice di tracciamento per una determinata campagna è stato passato nel reporting. Quando un visitatore fa clic su un collegamento affiliato a cui è stato assegnato un tag con uno di questi codici di tracciamento, viene portato alla pagina di destinazione e il codice di tracciamento viene acquisito in *`s.campaign`*. Tali dati vengono inviati nel reporting e viene registrato un click-through.
 
-b) Nel contesto dei canali di marketing, i click-through sono il numero di volte in cui un hit è stato aggiunto a un canale di marketing.
+b) Nel contesto dei canali di marketing, i click-through rappresentano il numero di volte in cui un hit è stato inserito in un canale di marketing.
 
-*`Click-through rate`* è il modo in cui misurare l'efficacia di un annuncio Web. La frequenza di click-through si verifica quando un utente segue un collegamento ipertestuale (in genere un annuncio pubblicitario).
+*`Click-through rate`* è il modo per misurare l'efficacia di un annuncio pubblicitario Web. La frequenza di click-through si verifica quando un utente segue un collegamento ipertestuale (in genere un annuncio Web).
 
-I click-through in data warehouse sono denominati «visualizzazioni campagna».
+I click-through nel data warehouse sono denominati "visualizzazioni delle campagne".
