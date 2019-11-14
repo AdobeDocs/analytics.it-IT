@@ -1,13 +1,11 @@
 ---
 description: Il processo di installazione varia a seconda del browser in uso.
-seo-description: Il processo di installazione varia a seconda del browser in uso.
-seo-title: Installazione dei plug-in di Activity Map nel browser
 solution: Analytics
 title: Installazione dei plug-in di Activity Map nel browser
-topic: Activity Map
+topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
