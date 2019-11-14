@@ -1,13 +1,11 @@
 ---
 description: Procedura che descrive come creare una richiesta di rilevamento delle anomalie nel generatore di report.
-seo-description: Procedura che descrive come creare una richiesta di rilevamento delle anomalie nel generatore di report.
-seo-title: Configurare una richiesta di rilevamento delle anomalie
 solution: Analytics
 title: Configurare una richiesta di rilevamento delle anomalie
-topic: Generatore di report
+topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
