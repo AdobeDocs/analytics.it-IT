@@ -1,13 +1,11 @@
 ---
 description: Se si sta modificando la cartella di lavoro e si desidera fare spazio alle nuove richieste, potrebbe essere necessario eliminare le richieste.
-seo-description: Se si sta modificando la cartella di lavoro e si desidera fare spazio alle nuove richieste, potrebbe essere necessario eliminare le richieste.
-seo-title: Eliminare la mappatura output
 solution: Analytics
 title: Eliminare la mappatura output
-topic: Generatore di report
-uuid: a6805800-4cb9-4ccc-ada-198a15def643
+topic: Report builder
+uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
