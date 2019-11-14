@@ -1,14 +1,12 @@
 ---
 description: La chiave per una corretta implementazione del tracciamento dei collegamenti è comprendere le variabili s.linkTrackVars e s.linkTrackEvents. Questo consente di trasmettere valori di variabili personalizzate alle azioni dell'utente.
-keywords: Implementazione di Analytics
-seo-description: La chiave per una corretta implementazione del tracciamento dei collegamenti è comprendere le variabili s.linkTrackVars e s.linkTrackEvents. Questo consente di trasmettere valori di variabili personalizzate alle azioni dell'utente.
-seo-title: Utilizzo di s.linkTrackVars e s.linkTrackEvents
+keywords: Analytics Implementation
 solution: Analytics
 title: Utilizzo di s.linkTrackVars e s.linkTrackEvents
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
