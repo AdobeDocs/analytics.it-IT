@@ -1,13 +1,11 @@
 ---
 description: Informazioni utili per comprendere la funzione dei pulsanti nella barra degli strumenti Generatore di report.
-seo-description: Informazioni utili per comprendere la funzione dei pulsanti nella barra degli strumenti Generatore di report.
-seo-title: Barra degli strumenti di Report Builder
 solution: Analytics
 title: Barra degli strumenti di Report Builder
-topic: Generatore di report
+topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -36,6 +34,6 @@ Dopo aver installato Generatore di report e avviato Excel, fai clic su **[!UICON
 
 **** Opzioni: Consente di specificare se la data **[!UICONTROL As Of]** (Ora) deve essere specificata per l'aggiornamento delle richieste e di abilitare la registrazione per la risoluzione dei problemi. Vedere [Opzioni](/help/analyze/report-builder/options.md).
 
-**** Bloccato/Sbloccato:È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente. See [Lock/Unlock Workbooks](/help/analyze/report-builder/workbook-library/protect-wb.md).
+**** Bloccato/Sbloccato: È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente. See [Lock/Unlock Workbooks](/help/analyze/report-builder/workbook-library/protect-wb.md).
 
 **** Aiuto: Viene avviata la documentazione della guida del Generatore di report attualmente in esame.
