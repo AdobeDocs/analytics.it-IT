@@ -1,30 +1,28 @@
 ---
-description: Potete eseguire nuovamente uno o più processi nell'elenco Processi.
-keywords: Feed dati; processo; rerun
-seo-description: Potete eseguire nuovamente uno o più processi nell'elenco Processi.
-seo-title: Ripristino di un processo
+description: Potete eseguire nuovamente uno o più processi dall’elenco Processi.
+keywords: Data Feed;job;rerun
 solution: Analytics
 title: Ripristino di un processo
-uuid: 5 caf 95 da-dd 88-4 b 1 a-a 081-684 f 4 fd 1 f 714
+uuid: 5caf95da-dd88-4b1a-a081-684f4fd1f714
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Ripristino di un processo
 
-Potete eseguire nuovamente uno o più processi nell'elenco Processi.
+Potete eseguire nuovamente uno o più processi dall’elenco Processi.
 
 1. Selezionate uno o più processi da ripetere.
 1. Fai clic su **[!UICONTROL Rerun Job]**.
 
-   Il processo di ripristino dipende dallo stato corrente del processo:
+   Il processo di ripetizione dipende dallo stato corrente del processo:
 
-   | Stato | Nome file memorizzato nella cache sul server | Processo |
+   | Stato | Nome file memorizzato nella cache del server | Processo |
    |---|---|---|
-   | Completato | Sì | Il file viene inviato nuovamente. |
-   | Completato | No | Il processo viene rielaborato e quindi inviato nuovamente. |
-   | Non riuscito | No | Il processo viene rielaborato e quindi inviato nuovamente. |
+   | Completato | Sì | File inviato di nuovo. |
+   | Completato | No | Il processo viene rielaborato e inviato di nuovo. |
+   | Non riuscito | No | Il processo viene rielaborato e inviato di nuovo. |
    | Altro stato | N/D | Non supportato. |
 
