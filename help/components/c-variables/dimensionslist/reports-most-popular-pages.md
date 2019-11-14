@@ -1,18 +1,16 @@
 ---
-description: Visualizza tutte le pagine del sito Web tracciate e indica le pagine più visitate.
-seo-description: Visualizza tutte le pagine del sito Web tracciate e indica le pagine più visitate.
-seo-title: Pagine più popolari
+description: Visualizza tutte le pagine del sito Web che vengono monitorate e indica quali sono le pagine visitate di più.
 solution: Analytics
 title: Pagine più popolari
-topic: Rapporti
-uuid: 6 ad 02 e 5 d -7 ed 7-4 a 63-b 963-3 c 683 b 27 fb 5 a
+topic: Reports
+uuid: 6ad02e5d-7ed7-4a63-b963-3c683b27fb5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Pagine più popolari
 
-Visualizza tutte le pagine del sito Web tracciate e indica le pagine più visitate.
+Visualizza tutte le pagine del sito Web che vengono monitorate e indica quali sono le pagine visitate di più.
 
