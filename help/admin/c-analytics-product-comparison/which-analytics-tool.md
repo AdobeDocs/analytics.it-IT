@@ -1,11 +1,9 @@
 ---
 description: Questa pagina dell'Aiuto contiene casi d'uso consigliati per ogni strumento Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le esigenze, passare a quello successivo per essere preso in considerazione.
-seo-description: Questa pagina dell'Aiuto contiene casi d'uso consigliati per ogni strumento Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le esigenze, passare a quello successivo per essere preso in considerazione.
-seo-title: Quale strumento Adobe Analytics usare?
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -136,4 +134,4 @@ I servizi tecnici devono essere utilizzati quando:
 * Sono presenti più origini dati.
 * Sono presenti requisiti ETL di dati complessi (Extract-Transform-Load).
 * Desiderate un marchio personalizzato.
-* Vuoi visualizzare [!UICONTROL Analytics Live Stream]
+* Vuoi visualizzare [!UICONTROL Analytics Live Stream].
