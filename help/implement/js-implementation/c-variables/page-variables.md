@@ -1,15 +1,13 @@
 ---
 description: Le variabili di pagina popolano direttamente un report, ad esempio pageName, List Props, List Variables e così via.
-keywords: Implementazione di Analytics
-seo-description: Le variabili di pagina popolano direttamente un report, ad esempio pageName, List Props, List Variables e così via.
-seo-title: Variabili di pagina
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variabili
+subtopic: Variables
 title: Variabili di pagina
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -1448,7 +1446,7 @@ Nessuno
 
 **Insidie, domande e suggerimenti**{#section_943681AB01FE47BEAC72E93CB60C53C8}
 
-Per acquisire altri errori sul lato server (ad esempio, 500 errori), utilizzate un prop per acquisire il messaggio di errore e inserite "`500 Error: <URL>`" dove `<URL>` è l'URL richiesto nella *`pageName`* variabile. Seguendo questo corso di azione, puoi utilizzare [!UICONTROL Pathing] i rapporti per vedere quali percorsi hanno causato 500 errori agli utenti. Il prop spiega quale messaggio di errore viene fornito dal server.
+Per acquisire altri errori sul lato server (ad esempio 500 errori), utilizzate una prop per acquisire il messaggio di errore e inserite "`500 Error: <URL>`" dove `<URL>` è l'URL richiesto nella *`pageName`* variabile. Seguendo questo corso di azione, puoi utilizzare [!UICONTROL Pathing] i rapporti per vedere quali percorsi hanno causato 500 errori agli utenti. Il prop spiega quale messaggio di errore viene fornito dal server.
 
 ## pageURL {#concept_A15F710CD0174297A2286BF3E7452113}
 
@@ -2022,7 +2020,7 @@ La *`timestamp`* variabile deve essere nel formato descritto nella sezione succe
 Le marche temporali devono essere in formato UNIX (in secondi dal 1° gennaio 1970) o ISO-8601, con le seguenti limitazioni al formato ISO-8601 accettato:
 
 * Devono essere fornite sia la data che l'ora, separate da "T"
-* La data deve essere una data di calendario con precisione completa (anno, mese e giorno).. Le date della settimana e quelle ordinali non sono supportate.
+* La data deve essere una data di calendario con precisione completa (anno, mese e giorno). . Le date della settimana e quelle ordinali non sono supportate.
 * La data può essere in formato standard o esteso ( `YYYY-MM-DD` o `YYYYMMDD`), ma deve includere l’ora e il minuto. I secondi sono facoltativi ( `HH:MM`, `HH:MM:SS`, `HHMM`o `HHMMSS`). È possibile trasmettere minuti e secondi frazionari, ma la parte frazionaria viene ignorata.
 
 * Un fuso orario opzionale può essere specificato in formato standard o esteso ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`o Z)
