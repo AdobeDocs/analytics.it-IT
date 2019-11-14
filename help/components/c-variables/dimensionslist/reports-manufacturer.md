@@ -1,18 +1,16 @@
 ---
-description: Raggruppa al sito gli hit dei dispositivi mobili per dispositivi mobili. Visualizza il tipo di produttore, il numero di visualizzazioni per ciascun produttore e le percentuali corrispondenti.
-seo-description: Raggruppa al sito gli hit dei dispositivi mobili per dispositivi mobili. Visualizza il tipo di produttore, il numero di visualizzazioni per ciascun produttore e le percentuali corrispondenti.
-seo-title: Produttore
+description: Raggruppa gli hit del dispositivo mobile sul sito in base al produttore del dispositivo mobile. Visualizza il tipo di produttore, il numero di visualizzazioni per ciascun produttore e le percentuali corrispondenti.
 solution: Analytics
 title: Produttore
-topic: Rapporti
-uuid: 561403 bb -2 d 87-4 bda-a 98 e -41667 be 655 e 5
+topic: Reports
+uuid: 561403bb-2d87-4bda-a98e-41667be655e5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Produttore
 
-Raggruppa al sito gli hit dei dispositivi mobili per dispositivi mobili. Visualizza il tipo di produttore, il numero di visualizzazioni per ciascun produttore e le percentuali corrispondenti.
+Raggruppa gli hit del dispositivo mobile sul sito in base al produttore del dispositivo mobile. Visualizza il tipo di produttore, il numero di visualizzazioni per ciascun produttore e le percentuali corrispondenti.
 
