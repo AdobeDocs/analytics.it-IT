@@ -1,13 +1,11 @@
 ---
 description: Potete copiare le celle mappate con più di una richiesta e incollare il contenuto in un'area vuota e selezionata del foglio di calcolo.
-seo-description: Potete copiare le celle mappate con più di una richiesta e incollare il contenuto in un'area vuota e selezionata del foglio di calcolo.
-seo-title: Panoramica delle richieste copia
 solution: Analytics
 title: Panoramica delle richieste copia
-topic: Generatore di report
+topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
