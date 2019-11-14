@@ -1,10 +1,8 @@
 ---
 title: Implementare Adobe Analytics in un ambiente di sviluppo
-seo-title: Implementare Adobe Analytics in un ambiente di sviluppo
 description: Scopri come utilizzare Adobe Experience Platform Launch per distribuire Adobe Analytics al tuo ambiente di sviluppo.
-seo-description: Scopri come utilizzare Adobe Experience Platform Launch per distribuire Adobe Analytics al tuo ambiente di sviluppo.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -58,7 +56,7 @@ Sul sito, aprite la console per sviluppatori del browser (in genere F12). Osserv
 
 * Nella console non sono presenti errori JavaScript. Collabora con i proprietari del sito Web della tua organizzazione per verificare che tutti gli errori JS siano risolti.
 * Il codice intestazione è implementato correttamente: Verificate che il codice dell'intestazione sia all'interno del `<head>` tag e che il file esista.
-* Libreria AppMeasurement esistente: Andate direttamente all'origine JS per essere sicuri che il file JS contenga del codice. In caso contrario, accertatevi che ogni ambiente sia creato e che la libreria sia pubblicata nel relativo ambiente.
+* Libreria AppMeasurement esistente: Andate direttamente all'origine JS per essere sicuri che il file JS contenga del codice. In caso contrario, accertatevi che ogni ambiente sia creato e che la libreria sia pubblicata nel rispettivo ambiente.
 * Plug-in di interesse: Alcuni plug-in Chrome possono impedire l'attivazione di richieste di immagini. Disattiva eventuali plug-in che potrebbero impedire l'invio di dati ai server Adobe.
 
 ## Passaggi successivi
