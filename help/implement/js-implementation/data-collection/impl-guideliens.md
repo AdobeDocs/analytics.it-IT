@@ -1,14 +1,12 @@
 ---
 description: Seguendo queste linee guida si ottiene l’uso degli stessi domini di cookie, che consente di monitorare le visite tra i vari tipi di implementazioni.
-keywords: Implementazione di Analytics
-seo-description: Seguendo queste linee guida si ottiene l’uso degli stessi domini di cookie, che consente di monitorare le visite tra i vari tipi di implementazioni.
-seo-title: Linee guida sull'implementazione
+keywords: Analytics Implementation
 solution: Analytics
 title: Linee guida sull'implementazione
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
