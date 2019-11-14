@@ -1,14 +1,12 @@
 ---
 description: Importazione consente di caricare in massa i dati delle classificazioni nei rapporti di analisi in un file. L’importazione richiede un formato file specifico per il caricamento dei dati.
-seo-description: Importazione consente di caricare in massa i dati delle classificazioni nei rapporti di analisi in un file. L’importazione richiede un formato file specifico per il caricamento dei dati.
-seo-title: File di dati di classificazione
 solution: Analytics
 subtopic: Classifications
 title: File di dati di classificazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
