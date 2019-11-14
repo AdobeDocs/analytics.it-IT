@@ -1,14 +1,12 @@
 ---
 description: Utilizzando i componenti curati è possibile limitare i componenti disponibili prima di condividere un progetto. Puoi condividere all’interno dell’azienda un progetto e i relativi componenti con gli addetti al marketing e altri dipendenti non addetti alle analisi. Aggiungi commenti e tag ai progetti.
 keywords: Analysis Workspace
-seo-description: Utilizzando i componenti curati è possibile limitare i componenti disponibili prima di condividere un progetto. Puoi condividere all’interno dell’azienda un progetto e i relativi componenti con gli addetti al marketing e altri dipendenti non addetti alle analisi. Aggiungi commenti e tag ai progetti.
-seo-title: Panoramica di cura/condivisione
 solution: Analytics
 title: Panoramica di cura/condivisione
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
