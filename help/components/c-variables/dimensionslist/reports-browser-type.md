@@ -1,13 +1,11 @@
 ---
 description: Si riferisce al tipo di browser utilizzato dal visitatore, ad esempio Internet Explorer, Mozilla Firefox, Google Chrome e così via.
-seo-description: Si riferisce al tipo di browser utilizzato dal visitatore, ad esempio Internet Explorer, Mozilla Firefox, Google Chrome e così via.
-seo-title: Tipi di browser
 solution: Analytics
 title: Tipi di browser
-topic: Rapporti
-uuid: c 755 abce-ac 24-42 b 6-b 118-a 971 af 7 f 6 a 59
+topic: Reports
+uuid: c755abce-ac24-42b6-b118-a971af7f6a59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Si riferisce al tipo di browser utilizzato dal visitatore, ad esempio Internet Explorer, Mozilla Firefox, Google Chrome e così via.
 
-I tipi di browser non ancora identificati appaiono come «non specificati».
+I tipi di browser non ancora identificati vengono visualizzati come "non specificati".
 
 Ad esempio:
 
@@ -36,5 +34,5 @@ Ad esempio:
 
 | Data | Modifica |
 |---|---|
-| 18 novembre 2013 | I browser Web per dispositivi mobili sono stati aggiunti al report sui tipi di browser. Prima di questa data, i browser Web per dispositivi mobili non erano inclusi in questo report. |
+| 18 novembre 2013 | I browser Web per dispositivi mobili sono stati aggiunti al report sui tipi di browser. Prima di tale data, i browser Web per dispositivi mobili non erano inclusi in questo rapporto. |
 
