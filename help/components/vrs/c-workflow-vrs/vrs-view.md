@@ -1,14 +1,12 @@
 ---
 description: Fate clic sull'icona i (Info) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
-keywords: Suite di rapporti virtuali
-seo-description: Fate clic sull'icona i (Info) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
-seo-title: Visualizzazione delle informazioni sulle suite di rapporti virtuali
+keywords: Virtual Report Suite
 solution: Analytics
 title: Visualizzazione delle informazioni sulle suite di rapporti virtuali
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
