@@ -1,13 +1,11 @@
 ---
 description: Visualizza informazioni sulle statistiche di accesso ai supporti online. I rapporti visualizzano i dati su video e altri supporti di accesso.
-seo-description: Visualizza informazioni sulle statistiche di accesso ai supporti online. I rapporti visualizzano i dati su video e altri supporti di accesso.
-seo-title: Video
 solution: Analytics
 title: Video
-topic: Rapporti
+topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
