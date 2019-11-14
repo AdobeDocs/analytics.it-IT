@@ -1,14 +1,12 @@
 ---
 description: Ciascuna tabella di confronto principale mostra un punteggio di differenza calcolato da vari test statistici, in base al confronto eseguito. Tuttavia, indipendentemente dal test utilizzato, il punteggio di differenza è incluso tra 0 e 1.
-keywords: Analysis Workspace;IQ segmento
-seo-description: Ciascuna tabella di confronto principale mostra un punteggio di differenza calcolato da vari test statistici, in base al confronto eseguito. Tuttavia, indipendentemente dal test utilizzato, il punteggio di differenza è incluso tra 0 e 1.
-seo-title: Test statistici utilizzati nel confronto dei segmenti
+keywords: Analysis Workspace;Segment IQ
 solution: Analytics
 title: Test statistici utilizzati nel confronto dei segmenti
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
