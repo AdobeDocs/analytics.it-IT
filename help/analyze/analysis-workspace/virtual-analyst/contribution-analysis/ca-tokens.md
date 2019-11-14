@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Panoramica dell'analisi dei contributi
 title: Panoramica dell'analisi dei contributi
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ L’analisi dei contributi consente di valutare immediatamente i dati per indivi
 
 [Rilevamento](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) delle anomalie identifica picchi di dati e cali statistici estremi in base a metriche selezionate e a segmenti di pubblico selezionati. Definisce una norma storica basata su un periodo di formazione e quindi traccia gli offset estremi correlati a eventi specifici. Può segnalare un aumento precipitoso in una metrica Ordini positivi o un aumento in una metrica Saldi negativi, o un calo in entrambe, catturando i punti dati statisticamente rilevanti che devono essere valutati dall’analisi dei contributi. Una volta identificata un’anomalia statistica, Analisi contributi consente di approfondire e valutare le variabili di marketing e campagne rilevanti in tutti i punti dati anomali. Esegue algoritmi avanzati e processi di machine-learning per valutare le associazioni che hanno contribuito a un picco o a un calo significativo. Questi calcoli vengono quindi visualizzati in visualizzazioni interattive progettate per fornire prospettive diverse per spiegare perché è accaduto qualcosa e cosa fare al riguardo.
 
-Contribution Analysis consente di sviluppare una narrazione per descrivere il motivo e la modalità di risposta a un’anomalia, acquisire le metriche rilevanti e identificare punti nascosti che forniscono una ragione generale per le interazioni tra il pubblico e gli interessi dei clienti più importanti. A volte un'anomalia è facile da vedere e correggere, come un ordine errante per 2.000 kayak. A volte è complesso, come identificare una tendenza emergente in un periodo di tempo in una regione che reagisce solo a una campagna mirata specifica. La combinazione di elementi che contribuiscono alle metriche per diverse dimensioni e associazioni offre un'idea generale delle interazioni tra il pubblico e contribuisce a fornire contesto per punti dati anomali.
+Contribution Analysis consente di sviluppare una narrazione per descrivere il motivo e la modalità di risposta a un’anomalia, acquisire le metriche rilevanti e identificare punti nascosti che forniscono una ragione generale per le interazioni tra il pubblico e gli interessi dei clienti più importanti. A volte un'anomalia è facile da vedere e correggere, come un ordine errante per 2.000 kayak. A volte è complesso, come identificare una tendenza emergente in un periodo di tempo in una regione che reagisce solo a una campagna mirata specifica. La combinazione di elementi che contribuiscono alle metriche per diverse dimensioni e associazioni offre un'idea generale delle interazioni tra il pubblico e consente di fornire contesto per punti dati anomali.
 
 Ecco alcune idee:
 
