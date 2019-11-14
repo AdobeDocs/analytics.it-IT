@@ -1,14 +1,12 @@
 ---
 description: nulle
-keywords: segmentazione;segmenti
-seo-description: nulle
-seo-title: Domande frequenti
+keywords: segmentation;segments
 solution: Analytics
 title: Domande frequenti
-topic: Segmenti
+topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -93,7 +91,7 @@ Sì, tutti i segmenti possono essere gestiti in Gestore segmenti in Analysis Wor
 
 Gli amministratori possono visualizzare tutti i segmenti all’interno di Analysis Workspace e delle interfacce [!DNL Reports & Analytics] utente.
 
-In Analisi ad hoc e Generatore di report sono visualizzati solo i segmenti generati dall'utente o che sono stati condivisi specificatamente con l'utente.
+Analisi ad hoc e Generatore di report mostrano solo i segmenti generati dall'utente stesso o che sono stati condivisi specificatamente con l'utente.
 
 **Perché non posso eliminare questo segmento?**
 
@@ -101,8 +99,7 @@ Se il segmento è stato [pubblicato in Experience Cloud](/help/components/c-segm
 
 ## Best practice {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
-**Cosa devo fare con segmenti duplicati con lo stesso nome ma con definizioni diverse?**
-Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. È consigliabile
+**Cosa devo fare con segmenti duplicati con lo stesso nome ma con definizioni diverse?** Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. È consigliabile
 
 * Rinominare segmenti con lo stesso nome, ma definizioni diverse, oppure
 * Elimina segmenti non più necessari.
