@@ -1,13 +1,11 @@
 ---
 description: Caricate una cartella di lavoro Excel Generatore di report da condividere.
-seo-description: Caricate una cartella di lavoro Excel Generatore di report da condividere.
-seo-title: Caricare una cartella di lavoro
 solution: Analytics
 title: Caricare una cartella di lavoro
-topic: Generatore di report
+topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
