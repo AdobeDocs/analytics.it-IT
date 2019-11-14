@@ -1,14 +1,12 @@
 ---
 description: Le classificazioni numeriche 2 forniscono metriche flessibili e personalizzate che puoi importare in Adobe Experience Cloud tramite l'importatore.
-seo-description: Le classificazioni numeriche 2 forniscono metriche flessibili e personalizzate che puoi importare in Adobe Experience Cloud tramite l'importatore.
-seo-title: Panoramica delle classificazioni numeriche 2
 solution: Analytics
 subtopic: Classifications
 title: Panoramica delle classificazioni numeriche 2
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
