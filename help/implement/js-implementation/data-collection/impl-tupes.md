@@ -1,14 +1,12 @@
 ---
 description: Queste informazioni sono destinate agli utenti avanzati che hanno esperienza sia nel reporting che nell'implementazione. Non tentare di modificare l'implementazione senza comprenderne le conseguenze. Se hai bisogno di modifiche all'implementazione, contatta l'Account Manager della tua organizzazione.
-keywords: Implementazione di Analytics
-seo-description: Queste informazioni sono destinate agli utenti avanzati che hanno esperienza sia nel reporting che nell'implementazione. Non tentare di modificare l'implementazione senza comprenderne le conseguenze. Se hai bisogno di modifiche all'implementazione, contatta l'Account Manager della tua organizzazione.
-seo-title: Tracciare diversi tipi di implementazione
+keywords: Analytics Implementation
 solution: Analytics
 title: Tracciare diversi tipi di implementazione
-topic: Sviluppatore e implementazione
-uuid: a0a3229a-79a2-4dc2-b0be-4b8face2efa3a
+topic: Developer and implementation
+uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
