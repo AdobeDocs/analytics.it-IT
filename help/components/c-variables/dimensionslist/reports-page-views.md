@@ -1,13 +1,11 @@
 ---
 description: Un rapporto con tendenze che mostra il numero di volte in cui le pagine del sito Web sono state visualizzate per il periodo di tempo selezionato (ora, giorno, settimana, mese, trimestre o anno). Questo rapporto consente di tenere traccia delle visualizzazioni di pagina per ogni pagina del sito, nonché di un insieme di visualizzazioni di pagina per l’intero sito.
-seo-description: Un rapporto con tendenze che mostra il numero di volte in cui le pagine del sito Web sono state visualizzate per il periodo di tempo selezionato (ora, giorno, settimana, mese, trimestre o anno). Questo rapporto consente di tenere traccia delle visualizzazioni di pagina per ogni pagina del sito, nonché di un insieme di visualizzazioni di pagina per l’intero sito.
-seo-title: Visualizzazioni pagina
 solution: Analytics
 title: Visualizzazioni pagina
-topic: Rapporti
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
