@@ -1,13 +1,11 @@
 ---
 description: È importante comprendere i termini chiave quando si utilizza l'interfaccia Feed dati di Analytics.
-keywords: Feed dati;termini;terminologia;processo
-seo-description: È importante comprendere i termini chiave quando si utilizza l'interfaccia Feed dati di Analytics.
-seo-title: Terminologia
+keywords: Data Feed;terms;terminology;job
 solution: Analytics
 title: Terminologia
 uuid: 87368708-aaac-40a5-bd00-b0964bcf3507
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
