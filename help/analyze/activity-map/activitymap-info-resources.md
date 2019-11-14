@@ -1,13 +1,11 @@
 ---
 description: Accedete a ulteriori risorse di informazioni per Adobe Activity Map.
-seo-description: Accedete a ulteriori risorse di informazioni per Adobe Activity Map.
-seo-title: Risorse relative alla conoscenza
 solution: Analytics
 title: Risorse relative alla conoscenza
-topic: Activity Map
+topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
 translation-type: tm+mt
-source-git-commit: fb1afe4d1050d5351a62abebe012637d8c8186f9
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
