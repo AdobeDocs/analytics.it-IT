@@ -1,15 +1,13 @@
 ---
 description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
-keywords: Implementazione di Analytics
-seo-description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
-seo-title: Analizzatore pacchetti
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Strumento di debug
+subtopic: Debugger
 title: Analizzatore pacchetti
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
