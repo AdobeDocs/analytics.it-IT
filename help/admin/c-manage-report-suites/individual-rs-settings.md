@@ -1,13 +1,11 @@
 ---
 description: Le impostazioni delle singole suite di rapporti consentono di modificare le impostazioni predefinite delle suite di rapporti. Gli strumenti includono un modo per rimuovere i record per le pagine indesiderate o obsolete, impostare le metriche predefinite e configurare i segmenti delle suite di rapporti.
-seo-description: Le impostazioni delle singole suite di rapporti consentono di modificare le impostazioni predefinite delle suite di rapporti. Gli strumenti includono un modo per rimuovere i record per le pagine indesiderate o obsolete, impostare le metriche predefinite e configurare i segmenti delle suite di rapporti.
-seo-title: Impostazioni suite di rapporti singole
 solution: Analytics
 title: Impostazioni suite di rapporti singole
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
