@@ -1,14 +1,12 @@
 ---
 description: Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcune cose.
-keywords: Suite di rapporti virtuali
-seo-description: Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcune cose.
-seo-title: Creare suite di rapporti
+keywords: Virtual Report Suite
 solution: Analytics
 title: Creare suite di rapporti
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcu
 
 * Gli utenti non amministratori non possono visualizzare Virtual Report Suite Manager.
 * Impossibile condividere le suite di rapporti virtuali. "Condivisione" viene eseguita tramite gruppi/autorizzazioni.
-*  In Virtual Report Suite Manager (Gestione suite di rapporti virtuali) puoi visualizzare solo le suite di rapporti virtuali. Devi fare clic su "Mostra tutti" per vedere quelli di tutti gli altri.
+* In Virtual Report Suite Manager (Gestione suite di rapporti virtuali) puoi visualizzare solo le suite di rapporti virtuali. Devi fare clic su "Mostra tutti" per vedere quelli di tutti gli altri.
 
 1. Passa a **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
 1. Fai clic su **[!UICONTROL Add +]**.
