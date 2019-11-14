@@ -1,13 +1,11 @@
 ---
 description: Passaggi sull'esecuzione dei diversi tipi di rapporto.
-seo-description: Passaggi sull'esecuzione dei diversi tipi di rapporto.
-seo-title: Eseguire diversi tipi di rapporto
 solution: Analytics
 title: Eseguire diversi tipi di rapporto
-topic: Report,Reporting e analisi
+topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
