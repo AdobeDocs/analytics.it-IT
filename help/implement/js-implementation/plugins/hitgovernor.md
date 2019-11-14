@@ -1,11 +1,9 @@
 ---
 description: Il plug-in s.hitGovernatore tiene traccia del numero totale di richieste di immagini Analytics inviate durante un intervallo di tempo continuo predefinito e può eseguire logica aggiuntiva se tale totale supera una determinata soglia.
-seo-description: Il plug-in s.hitGovernatore tiene traccia del numero totale di richieste di immagini Analytics inviate durante un intervallo di tempo continuo predefinito e può eseguire logica aggiuntiva se tale totale supera una determinata soglia.
-seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
