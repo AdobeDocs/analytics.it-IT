@@ -1,12 +1,10 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Connettore dati intelligente per Adobe Analytics
 solution: Analytics
 title: Connettore dati intelligente per Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ Elenca le azioni necessarie da eseguire in Adobe Analytics prima di poter distri
 
 | Prerequisito | Note |
 |---|---|
-| Seleziona suite di rapporti |  Questa integrazione è specifica per la suite di rapporti. Prima di attivare l'integrazione, accertatevi di aver selezionato la suite di rapporti desiderata. |
+| Seleziona suite di rapporti | Questa integrazione è specifica per la suite di rapporti. Prima di attivare l'integrazione, accertatevi di aver selezionato la suite di rapporti desiderata. |
 | Configurare le variabili di Analytics |  Questa integrazione richiede eventi personalizzati e eVar personalizzati, ed eventualmente eventi aggiuntivi e eVar aggiuntive. Consultate Configurazione delle variabili Analytics per la firma. |
 | Rappresentante autorizzato |  L'abilitazione di questa integrazione potrebbe indurre l'azienda a sostenere delle spese in conformità al contratto di servizio stipulato con Adobe, Inc. o al contratto di assistenza stipulato con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l'Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto. |
 | Abilita Adobe Data Warehouse™ |  Questa integrazione richiede che Data Warehouse sia abilitato per generare segmenti di remarketing. Se non hai attivato Adobe Data Warehouse, contatta Adobe per ulteriori informazioni. |
@@ -82,31 +80,31 @@ A parte queste eVar, alcuni eventi possono essere riservati in base ai dati di S
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Inviato </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail inviate da Selligent. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Consegnato </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail distribuite. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Viste </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail univoche visualizzate. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Clic </td> 
    <td colname="col3"> Per memorizzare il numero di volte in cui è stato fatto clic su un messaggio e-mail. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Bloccato </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail rimbalzate. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
  </tbody> 
 </table>
