@@ -1,11 +1,9 @@
 ---
 description: Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile specificare il tipo di metrica e il modello di attribuzione.
-seo-description: Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile specificare il tipo di metrica e il modello di attribuzione.
-seo-title: Tipo di metrica e attribuzione
 title: Tipo di metrica e attribuzione
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile s
 
 ## Come funziona l'allocazione lineare (dal 19 luglio 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-Nel luglio 2018, Adobe ha modificato il modo in cui viene riportata l'allocazione lineare per le metriche calcolate. Questa modifica interessa Analysis Workspace, Analisi ad hoc, [!UICONTROL Reports & Analytics], Generatore di report, Activity Map e le API di reporting. La modifica interesserà principalmente le eVar e altre dimensioni persistenti. Queste modifiche si applicano solo alle metriche calcolate e non avranno alcun impatto sugli altri report che utilizzano l'allocazione lineare (come il report Pagine in [!UICONTROL Reports & Analytics]). Altri rapporti che utilizzano l'allocazione lineare continueranno a utilizzare il metodo esistente di allocazione lineare.
+Nel luglio 2018, Adobe ha modificato il modo in cui viene riportata l'allocazione lineare per le metriche calcolate. Questa modifica interessa Analysis Workspace, Analisi ad hoc, [!UICONTROL Reports & Analytics], Generatore di report, Activity Map e le API di reporting. La modifica interesserà principalmente le eVar e altre dimensioni persistenti. Si noti che queste modifiche saranno applicate solo alle metriche calcolate e non avranno alcun impatto sugli altri report che utilizzano l'allocazione lineare (come il report Pagine in [!UICONTROL Reports & Analytics]). Altri rapporti che utilizzano l'allocazione lineare continueranno a utilizzare il metodo esistente di allocazione lineare.
 
 L'esempio seguente illustra come le metriche calcolate con allocazione lineare cambieranno nei report:
 
