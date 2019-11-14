@@ -1,14 +1,12 @@
 ---
 description: Una classificazione è un modo per classificare i dati variabili di Analytics e quindi per visualizzare i dati in modi diversi quando si generano i rapporti.
-seo-description: Una classificazione è un modo per classificare i dati variabili di Analytics e quindi per visualizzare i dati in modi diversi quando si generano i rapporti.
-seo-title: Informazioni sulle classificazioni
 solution: Analytics
 subtopic: Classifications
 title: Informazioni sulle classificazioni
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
