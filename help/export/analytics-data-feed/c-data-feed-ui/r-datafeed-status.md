@@ -1,13 +1,11 @@
 ---
 description: I feed possono essere visualizzati con una delle diverse etichette di stato.
-keywords: Feed dati;stato;attivo;approvazione in sospeso;eliminato;completo;in sospeso;inattivo
-seo-description: I feed possono essere visualizzati con una delle diverse etichette di stato.
-seo-title: Stato feed dati
+keywords: Data Feed;status;active;approval pending;deleted;complete;pending;inactive
 solution: Analytics
 title: Stato feed dati
 uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
