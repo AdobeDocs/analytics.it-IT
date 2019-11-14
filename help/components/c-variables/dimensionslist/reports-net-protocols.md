@@ -1,13 +1,11 @@
 ---
 description: Raggruppa i dispositivi mobili in base ai protocolli di rete (GPRS, CSD, EDGE, HSCSD e così via) che supportano. Il rapporto include anche un gruppo sconosciuto per i protocolli di rete non identificati.
-seo-description: Raggruppa i dispositivi mobili in base ai protocolli di rete (GPRS, CSD, EDGE, HSCSD e così via) che supportano. Il rapporto include anche un gruppo sconosciuto per i protocolli di rete non identificati.
-seo-title: Protocolli di rete
 solution: Analytics
 title: Protocolli di rete
-topic: Rapporti
+topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
