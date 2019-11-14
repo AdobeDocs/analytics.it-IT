@@ -1,41 +1,39 @@
 ---
-description: Descrive come creare rapporti sul percorso con filtri predefiniti.
-seo-description: Descrive come creare rapporti sul percorso con filtri predefiniti.
-seo-title: Filtrare i rapporti sul tracciato aggiungendo richieste dipendenti
+description: Viene descritto come creare rapporti sui percorsi con filtri predefiniti.
 solution: Analytics
-title: Filtrare i rapporti sul tracciato aggiungendo richieste dipendenti
-topic: Generatore di report
-uuid: dd 1294 f 8-a 26 b -4254-a 9 f 6-1365 b 2912 adf
+title: Filtrare i rapporti di percorso aggiungendo richieste dipendenti
+topic: Report builder
+uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Filtrare i rapporti sul tracciato aggiungendo richieste dipendenti
+# Filtrare i rapporti di percorso aggiungendo richieste dipendenti
 
-Descrive come creare rapporti sul percorso con filtri predefiniti.
+Viene descritto come creare rapporti sui percorsi con filtri predefiniti.
 
-Marketing Reports &amp; Analytics offers a few standalone reports that are top path reports with predefined filters, such as [!UICONTROL Next] and [!UICONTROL Previous Site Section] reports, Entry and [!UICONTROL Exit Site Section] reports, and [!UICONTROL Single Site Section] report.
+Marketing Reports &amp; Analytics offre alcuni report standalone che sono i migliori report di percorso con filtri predefiniti, come [!UICONTROL Next] e [!UICONTROL Previous Site Section] report, ingressi e [!UICONTROL Exit Site Section] report e [!UICONTROL Single Site Section] report.
 
-Report Builder does not offer these as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** &gt; **[!UICONTROL Path]** context menus. Sono disponibili i seguenti rapporti:
+Generatore di report non offre questi come rapporti standalone, ma potete crearli tramite i menu di scelta rapida **[!UICONTROL Add dependent request]** &gt; **[!UICONTROL Path]** . Sono disponibili i seguenti rapporti:
 
 * Percorso &gt; Abbandono pagina
-* Percorso &gt; Percorso di ingresso
-* Percorso &gt; Esci da percorso
+* Percorso &gt; Percorso di immissione
+* Percorso &gt; Percorso di uscita
 * Percorso &gt; Pagina successiva
-* Percorso &gt; Percorso di ingresso &gt; Pagina successiva
+* Percorso &gt; Percorso di immissione &gt; Pagina successiva
 * Percorso &gt; Pagina precedente
 * Percorso &gt; Esci da percorso &gt; Pagina precedente
-* Percorso &gt; Percorso di ingresso &gt; Come pagina di immissione
-* Percorso &gt; Esci da percorso &gt; Come uscita dalla pagina
+* Percorso &gt; Percorso di immissione &gt; Come pagina di immissione
+* Percorso &gt; Exit Path &gt; As Exit Page
 
-1. Select multiple rows from an existing request, then right-click **[!UICONTROL Add Dependent Request]** &gt; **[!UICONTROL Path]**.
+1. Selezionate più righe da una richiesta esistente, quindi fate clic con il pulsante destro del mouse **[!UICONTROL Add Dependent Request]** &gt; **[!UICONTROL Path]**.
 
-   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
+   (Per visualizzare la voce di **[!UICONTROL Page Fallout]** menu è necessario selezionare almeno 3 righe.)
 
    ![](assets/dependen_request.png)
 
-1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
+1. Selezionate, ad esempio, il filtro predefinito **[!UICONTROL Previous Page]**.
 
-   Viene visualizzata la richiesta guidata, con la metrica Pagina precedente già selezionata. 1. Continuate a perfezionare la richiesta nella procedura guidata Richiesta e generare la richiesta.
+   Viene visualizzata la Richiesta guidata, con la metrica Pagina precedente già selezionata. 1. Continuate a perfezionare la richiesta nella Richiesta guidata e generate la richiesta.
