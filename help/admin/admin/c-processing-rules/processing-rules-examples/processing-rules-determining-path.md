@@ -1,14 +1,12 @@
 ---
 description: È possibile copiare il valore di un'eVar su una prop per abilitare il percorso.
-seo-description: È possibile copiare il valore di un'eVar su una prop per abilitare il percorso.
-seo-title: Determinare un percorso copiando un valore eVar in un prop
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Determinare un percorso copiando un valore eVar in un prop
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
