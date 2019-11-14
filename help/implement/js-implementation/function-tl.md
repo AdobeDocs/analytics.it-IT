@@ -1,15 +1,13 @@
 ---
 description: I download dei file e i collegamenti di uscita possono essere tracciati automaticamente in base ai parametri impostati in AppMeasurement per il file JavaScript.
-keywords: Implementazione di Analytics
-seo-description: I download dei file e i collegamenti di uscita possono essere tracciati automaticamente in base ai parametri impostati in AppMeasurement per il file JavaScript.
-seo-title: 'Funzione s.tl(): tracciamento dei collegamenti'
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Tracciamento dei collegamenti
+subtopic: Link tracking
 title: 'Funzione s.tl(): tracciamento dei collegamenti'
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
