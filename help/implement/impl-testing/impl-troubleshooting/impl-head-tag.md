@@ -1,14 +1,12 @@
 ---
 description: Il codice di Analytics crea un oggetto immagine, un'immagine non visibile che non viene visualizzata sulla pagina.
-keywords: Implementazione di Analytics
-seo-description: Il codice di Analytics crea un oggetto immagine, un'immagine non visibile che non viene visualizzata sulla pagina.
-seo-title: Inserimento del codice Analytics nel tag head
+keywords: Analytics Implementation
 solution: Analytics
 title: Inserimento del codice Analytics nel tag head
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Il codice di Analytics crea un oggetto immagine, un'immagine non visibile che no
 
 >[!NOTE]
 >
-> Questa sezione si applica solo all'implementazione s_code.js legacy. [AppMeasurement per JavaScript 1.0](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) supporta la distribuzione della libreria e del codice della pagina nel `<head>` tag.
+>Questa sezione si applica solo all'implementazione s_code.js legacy. [AppMeasurement per JavaScript 1.0](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) supporta la distribuzione della libreria e del codice della pagina nel `<head>` tag.
 
 In precedenza, una pratica comune di implementazione consisteva nell'inserire il codice JavaScript di Analytics tra <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> e </head> tag. Posizionando il codice tra questi tag, si evita che l'immagine da 1 x 1 pixel restituita dalla richiesta che inviava dati ai server Adobe influenzi in alcun modo il layout di pagina. Se si inserisce del codice nell'intestazione del documento, il codice viene visualizzato prima nel codice. Questo consente di eseguire prima, contando in modo più efficace le visualizzazioni di pagina per i caricamenti parziali delle pagine.
 
