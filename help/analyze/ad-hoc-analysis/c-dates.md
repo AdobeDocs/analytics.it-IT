@@ -1,11 +1,9 @@
 ---
 description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito. Potete effettuare selezioni di calendario a livello di progetto, area di lavoro e rapporto. L'intervallo di date di un progetto è la data predefinita. Tuttavia, un intervallo di date dell'area di lavoro ha la priorità sull'intervallo di date del progetto. Analogamente, l'intervallo di date di un rapporto ha la priorità sulle impostazioni di data di un'area di lavoro e di un progetto. Non puoi selezionare un intervallo di date al di fuori dell'intervallo di disponibilità dei dati.
-seo-description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito. Potete effettuare selezioni di calendario a livello di progetto, area di lavoro e rapporto. L'intervallo di date di un progetto è la data predefinita. Tuttavia, un intervallo di date dell'area di lavoro ha la priorità sull'intervallo di date del progetto. Analogamente, l'intervallo di date di un rapporto ha la priorità sulle impostazioni di data di un'area di lavoro e di un progetto. Non puoi selezionare un intervallo di date al di fuori dell'intervallo di disponibilità dei dati.
-seo-title: Date e intervalli di date
 title: Date e intervalli di date
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
