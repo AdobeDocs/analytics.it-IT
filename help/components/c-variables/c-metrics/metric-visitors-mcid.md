@@ -1,11 +1,9 @@
 ---
 description: Disponibile in Analysis Workspace e nel Generatore di segmenti.
-seo-description: Disponibile in Analysis Workspace e nel Generatore di segmenti.
-seo-title: Visitatori con Experience Cloud ID
 title: Visitatori con Experience Cloud ID
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,7 +36,7 @@ Aggiungendo la metrica calcolata al rapporto, puoi ordinare il rapporto Pagine i
 
 Ora puoi vedere rapidamente che le pagine "Visualizzazioni rapide del prodotto" non sono correttamente implementate con il servizio identità e dovrebbero essere aggiornate il prima possibile. Un rapporto simile può essere costruito intorno a qualsiasi tipo di dimensione, ad esempio tipo di browser, sezione del sito o tipo di contenuto.
 
-Dopo aver identificato le pagine con visitatori senza MCID, dovresti essere in grado di riportarle al team di implementazione in modo che possano correggere tali pagine.
+Una volta identificate le pagine che contengono visitatori senza MCID, dovreste essere in grado di riportarle al team di implementazione in modo che possano correggere tali pagine.
 
 In alcuni casi, è possibile che un numero limitato di MCID non sia impostato per alcuni visitatori anche se il servizio MCID è stato implementato sulla pagina. In questi casi, ciò è più probabile a causa di una configurazione errata comune di Analytics JavaScript o DTM in cui viene chiamata la funzione AppMeasurement prima di fornire una suite di rapporti. Per evitare questo problema, accertati di [inserire correttamente il codice](https://marketing.adobe.com/resources/help/en_US/sc/implement/dtm/t_appmeasurement-code.html) AppMeasurement principale.
 
