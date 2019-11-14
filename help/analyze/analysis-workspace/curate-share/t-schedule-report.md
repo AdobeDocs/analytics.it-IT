@@ -1,14 +1,12 @@
 ---
 description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 keywords: Analysis Workspace
-seo-description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
-seo-title: 'Invio di file: programmazione di un progetto per la consegna'
 solution: Analytics
 title: 'Invio di file: programmazione di un progetto per la consegna'
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
