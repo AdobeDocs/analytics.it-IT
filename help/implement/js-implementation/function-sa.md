@@ -1,34 +1,32 @@
 ---
-description: La funzione s. sa () consente di modificare dinamicamente una suite di rapporti in qualsiasi momento sulla pagina, prima o dopo l'attivazione di una richiesta di immagine.
-keywords: Implementazione di Analytics
-seo-description: La funzione s. sa () consente di modificare dinamicamente una suite di rapporti in qualsiasi momento sulla pagina, prima o dopo l'attivazione di una richiesta di immagine.
-seo-title: La funzione s. sa ()
+description: La funzione s.sa() consente di modificare dinamicamente una suite di rapporti in qualsiasi momento della pagina, prima o dopo l'attivazione di una richiesta di immagine.
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Funzioni
-title: La funzione s. sa ()
-topic: Sviluppatore e implementazione
-uuid: a 6 aacd 10-2 a 5 b -448 b-b 3 b 7-bed 5590 b 71 d 4
+subtopic: Functions
+title: La funzione s.sa()
+topic: Developer and implementation
+uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# La funzione s. sa ()
+# La funzione s.sa()
 
-La funzione s. sa () consente di modificare dinamicamente una suite di rapporti in qualsiasi momento sulla pagina, prima o dopo l'attivazione di una richiesta di immagine.
+La funzione s.sa() consente di modificare dinamicamente una suite di rapporti in qualsiasi momento della pagina, prima o dopo l'attivazione di una richiesta di immagine.
 
-Se l'organizzazione desidera inviare dati a suite di rapporti diverse senza ricaricare la pagina, l'utilizzo di questa funzione è fortemente consigliato.
+Se l'organizzazione desidera inviare dati a suite di rapporti diverse senza ricaricare la pagina, è vivamente consigliato utilizzare questa funzione.
 
-Queste informazioni sono adatte agli utenti avanzati che sono ben orientati sia in reporting che nell'implementazione. Non tentare di apportare modifiche alla vostra implementazione senza conoscerne le conseguenze. Se avete bisogno di modifiche di implementazione, contattate l'Account Manager della vostra organizzazione.
+Queste informazioni sono adatte agli utenti avanzati che hanno una buona conoscenza sia del reporting che dell'implementazione. Non tentare di apportare modifiche alla tua implementazione senza una conoscenza completa delle sue conseguenze. Se hai bisogno di modifiche all'implementazione, contatta l'Account Manager della tua organizzazione.
 
-## Properties of the Function {#section_E10CB41A0CF749F4A24C8377958E3671}
+## Proprietà della funzione {#section_E10CB41A0CF749F4A24C8377958E3671}
 
-L'impostazione di questa funzione utilizza tutte le variabili definite in precedenza e ne consente l'utilizzo in una suite di rapporti diversa.
+L'impostazione di questa funzione prende tutte le variabili definite in precedenza e le consente di utilizzarle in una suite di rapporti diversa.
 
-## Implementation Examples {#section_14B0B8C853244D5F82B08B995773640C}
+## Esempi di implementazione {#section_14B0B8C853244D5F82B08B995773640C}
 
-Invio di dati video a una suite di rapporti durante l'invio del resto a un altro:
+Invio di dati video a una suite di rapporti durante l’invio del resto a un’altra:
 
 ```js
 // Set in the core JS file by default 
@@ -39,7 +37,7 @@ s.sa('videorsid');
 s.t(); // Sends an image request
 ```
 
-Utilizzo di s. sa () e di tag per più suite:
+Utilizzo di s.sa() e tag per più suite:
 
 ```js
 // Set in the core JS file by default 
