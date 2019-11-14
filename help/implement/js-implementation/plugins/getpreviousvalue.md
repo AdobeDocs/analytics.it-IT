@@ -1,15 +1,13 @@
 ---
 description: Acquisisce il valore di una variabile di Analytics nella visualizzazione pagina successiva. Ad esempio, potete utilizzare il plug-in per acquisire il valore s.pageName dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. È inoltre disponibile un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo specifici.
-keywords: Implementazione di Analytics
-seo-description: Acquisisce il valore di una variabile di Analytics nella visualizzazione pagina successiva. Ad esempio, potete utilizzare il plug-in per acquisire il valore s.pageName dalla visualizzazione pagina precedente in una variabile Traffico personalizzato. È inoltre disponibile un'opzione per acquisire un valore precedente solo quando sono impostati eventi di successo specifici.
-seo-title: getPreviousValue
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Plug-in
+subtopic: Plug-ins
 title: getPreviousValue
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
