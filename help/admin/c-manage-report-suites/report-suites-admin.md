@@ -1,13 +1,11 @@
 ---
 description: Una suite di rapporti definisce il reporting indipendente e completo su un sito Web scelto, su un insieme di siti Web o su un sottoinsieme di pagine Web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando accedete a una soluzione Adobe Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito. Le soluzioni Analytics si aggregano e generano report su questi data store. L'amministratore di Report Suite Manager consente di definire le regole che determinano il modo in cui i dati vengono elaborati in una suite di rapporti.
-seo-description: Una suite di rapporti definisce il reporting indipendente e completo su un sito Web scelto, su un insieme di siti Web o su un sottoinsieme di pagine Web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando accedete a una soluzione Adobe Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito. Le soluzioni Analytics si aggregano e generano report su questi data store. L'amministratore di Report Suite Manager consente di definire le regole che determinano il modo in cui i dati vengono elaborati in una suite di rapporti.
-seo-title: Report Suite Manager
 solution: Analytics
 title: Report Suite Manager
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
