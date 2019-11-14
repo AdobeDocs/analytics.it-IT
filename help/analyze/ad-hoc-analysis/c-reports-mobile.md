@@ -1,11 +1,9 @@
 ---
 description: Visualizza informazioni sull'accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l'identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
-seo-description: Visualizza informazioni sull'accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l'identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
-seo-title: Rapporti sui dispositivi mobili
 title: Rapporti sui dispositivi mobili
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
