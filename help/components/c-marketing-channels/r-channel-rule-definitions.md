@@ -1,14 +1,12 @@
 ---
 description: Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete selezionare nella pagina Regole di elaborazione del canale di marketing.
-seo-description: Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete selezionare nella pagina Regole di elaborazione del canale di marketing.
-seo-title: 'Regole di elaborazione per il canale di marketing: definizioni'
 solution: Analytics
-subtopic: Canali di marketing
+subtopic: Marketing channels
 title: 'Regole di elaborazione per il canale di marketing: definizioni'
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,7 +33,7 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
   </tr>
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
-   <td colname="col2"> <p>Il codice di tracciamento principale utilizzato dalle integrazioni Advertising Cloud e Advertising Analytics. Quando una di queste integrazioni è abilitata, il prefisso del codice di tracciamento può essere utilizzato per identificare canali specifici di Advertising Cloud. L'utilizzo di "AMO ID" inizia con "AL" per la ricerca, "AC" per la visualizzazione o "AO" per Social. Quando l'ID AMO viene utilizzato nei canali di marketing, le metriche click/cost/impression possono essere attribuite al canale corretto (se non configurate, queste metriche andranno a Direct o Nessuno). </p> </td> 
+   <td colname="col2"> <p>Il codice di tracciamento principale utilizzato dalle integrazioni Advertising Cloud e Advertising Analytics. Quando una di queste integrazioni è abilitata, il prefisso del codice di tracciamento può essere utilizzato per identificare canali specifici di Advertising Cloud. L'utilizzo di "AMO ID" inizia con "AL" per la ricerca, "AC" per la visualizzazione o "AO" per Social. Quando l’ID AMO viene utilizzato nei canali di marketing, le metriche click/cost/impression possono essere attribuite al canale corretto (se non configurate, queste metriche andranno a Direct o Nessuno). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID AMO ED </p> </td> 
