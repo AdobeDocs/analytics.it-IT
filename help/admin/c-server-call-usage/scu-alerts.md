@@ -1,11 +1,9 @@
 ---
 description: Aggiungi o gestisci tutti gli avvisi di utilizzo del server. Quando configurate un avviso, questo si applica a tutte le suite di rapporti in tutte le società di accesso di una società di fatturazione.
-seo-description: Aggiungi o gestisci tutti gli avvisi di utilizzo del server. Quando configurate un avviso, questo si applica a tutte le suite di rapporti in tutte le società di accesso di una società di fatturazione.
-seo-title: Avvisi sull’utilizzo delle chiamate server
 title: Avvisi sull’utilizzo delle chiamate server
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
