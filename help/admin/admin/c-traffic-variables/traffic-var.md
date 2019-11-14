@@ -1,13 +1,11 @@
 ---
 description: Le variabili di traffico di analisi personalizzate (o prop) consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito Web.
-seo-description: Le variabili di traffico di analisi personalizzate (o prop) consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito Web.
-seo-title: Panoramica della variabile traffico (prop)
 solution: Analytics
 title: Panoramica della variabile traffico (prop)
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
