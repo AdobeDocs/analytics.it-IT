@@ -1,13 +1,11 @@
 ---
 description: Le metriche sono calcolate utilizzando metodi di allocazione standard, partecipativi, recenti e lineari. Ogni metodo calcola i valori in modo diverso in base alle formule.
-seo-description: Le metriche sono calcolate utilizzando metodi di allocazione standard, partecipativi, recenti e lineari. Ogni metodo calcola i valori in modo diverso in base alle formule.
-seo-title: Calcoli delle metriche
 solution: Analytics
 title: Calcoli delle metriche
-topic: Metriche
-uuid: 2af58f1e-12c5-4828-ae39-c9eaef6b705
+topic: Metrics
+uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
