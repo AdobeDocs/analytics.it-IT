@@ -1,13 +1,11 @@
 ---
 description: Activity Map offre due modalità di base per la generazione di rapporti complementari sull'attività della pagina.
-seo-description: Activity Map offre due modalità di base per la generazione di rapporti complementari sull'attività della pagina.
-seo-title: Modalità standard e modalità Live
 solution: Analytics
 title: Modalità standard e modalità Live
-topic: Activity Map
+topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
