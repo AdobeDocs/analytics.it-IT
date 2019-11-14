@@ -1,14 +1,12 @@
 ---
 description: (Facoltativo) Prima di importare le classificazioni nei rapporti di marketing, puoi scaricare un modello che consente di creare un file di dati per le classificazioni. Il file di dati utilizza le classificazioni desiderate come intestazioni di colonna, quindi organizza il set di dati di reporting sotto le intestazioni di classificazione appropriate.
-seo-description: (Facoltativo) Prima di importare le classificazioni nei rapporti di marketing, puoi scaricare un modello che consente di creare un file di dati per le classificazioni. Il file di dati utilizza le classificazioni desiderate come intestazioni di colonna, quindi organizza il set di dati di reporting sotto le intestazioni di classificazione appropriate.
-seo-title: Modello di classificazione
 solution: Analytics
 subtopic: Classifications
 title: Modello di classificazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
