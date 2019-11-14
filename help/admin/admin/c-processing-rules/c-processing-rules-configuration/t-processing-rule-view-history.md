@@ -1,24 +1,22 @@
 ---
-description: Le modifiche alle regole di elaborazione possono essere visualizzate nella cronologia.
-seo-description: Le modifiche alle regole di elaborazione possono essere visualizzate nella cronologia.
-seo-title: Visualizzare la cronologia delle regole di elaborazione
+description: Le modifiche alle regole di elaborazione possono essere visualizzate in History (Cronologia).
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Visualizzare la cronologia delle regole di elaborazione
-topic: Strumenti di amministrazione
-uuid: 8020 d 27 b -8 c 9 d -4 caf -92 c 2-03 adba 76 a 94 b
+topic: Admin tools
+uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Visualizzare la cronologia delle regole di elaborazione
 
-Le modifiche alle regole di elaborazione possono essere visualizzate nella cronologia.
+Le modifiche alle regole di elaborazione possono essere visualizzate in History (Cronologia).
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
+1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
 
-1. On the **[!UICONTROL Processing Rules]** page, click the **[!UICONTROL View History]** tab.
+1. Sulla **[!UICONTROL Processing Rules]** pagina, fare clic sulla **[!UICONTROL View History]** scheda.
