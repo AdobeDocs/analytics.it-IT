@@ -1,14 +1,12 @@
 ---
 description: Per utilizzare in modo efficace le regole di elaborazione, è essenziale comprendere quando vengono applicate durante la raccolta dei dati.
-seo-description: Per utilizzare in modo efficace le regole di elaborazione, è essenziale comprendere quando vengono applicate durante la raccolta dei dati.
-seo-title: Ordine di elaborazione
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Ordine di elaborazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
