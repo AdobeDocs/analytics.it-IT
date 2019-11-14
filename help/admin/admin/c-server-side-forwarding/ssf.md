@@ -1,12 +1,10 @@
 ---
 description: L’inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale i dati da Analytics ad altre soluzioni Experience Cloud. Se abilitata, l'inoltro lato server consente anche ad Analytics di inviare dati ad altre soluzioni Experience Cloud e a queste soluzioni di inviare dati in push ad Analytics durante il processo di raccolta dei dati.
-seo-description: L’inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale i dati da Analytics ad altre soluzioni Experience Cloud. Se abilitata, l'inoltro lato server consente anche ad Analytics di inviare dati ad altre soluzioni Experience Cloud e a queste soluzioni di inviare dati in push ad Analytics durante il processo di raccolta dei dati.
-seo-title: Panoramica sull'inoltro lato server
 solution: Audience Manager
 title: Panoramica sull'inoltro lato server
-uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
+uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -34,7 +32,7 @@ Per comprendere a che punto si trova l'organizzazione in termini di implementazi
 
 Verifica se il servizio Experience Cloud ID (MID) è implementato, esaminando la richiesta [di tracciamento di](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)Analytics.
 
-Nella scheda Richiesta, verifica che sia impostato un valore MID. Questo indica che il servizio identità è stato implementato correttamente, un prerequisito per l'inoltro lato server.
+Nella scheda Richiesta, verifica che sia impostato un valore MID. Questo indica che il servizio identità è implementato correttamente, un prerequisito per l'inoltro lato server.
 
 * Se viene visualizzato un valore MID, continuate con il passaggio 2.
 * Se non trovi un valore MID, [implementa il servizio](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) identità prima di procedere con il passaggio 2.
