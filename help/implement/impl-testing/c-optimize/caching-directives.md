@@ -1,15 +1,13 @@
 ---
 description: Il file di libreria JavaScript deve essere memorizzato nella cache del browser dell'utente dopo il primo caricamento di una pagina da parte dell'utente.
-keywords: Implementazione di Analytics
-seo-description: Il file di libreria JavaScript deve essere memorizzato nella cache del browser dell'utente dopo il primo caricamento di una pagina da parte dell'utente.
-seo-title: Direttive sulla memorizzazione nella cache
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Risoluzione dei problemi
+subtopic: Troubleshooting
 title: Direttive sulla memorizzazione nella cache
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
