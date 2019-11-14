@@ -1,13 +1,11 @@
 ---
 description: Descrive come il generatore di report supporta i report di percorsi e di abbandono e come l'implementazione differisce da Reporting e analisi.
-seo-description: Descrive come il generatore di report supporta i report di percorsi e di abbandono e come l'implementazione differisce da Reporting e analisi.
-seo-title: Rapporti di percorso e fallout percorso in Report Builder
 solution: Analytics
 title: Rapporti di percorso e fallout percorso in Report Builder
-topic: Generatore di report
+topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ Descrive come il generatore di report supporta i report di percorsi e di abbando
 |--- |--- |
 | Flusso dimensione successivo/precedente | Non fornito come rapporto standalone. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
 | Dimensioni successivo/precedente | Non fornito come rapporto standalone. Può essere riprodotto con un rapporto Percorso e utilizzando un filtro. |
-| Abbandono | Supportato e fornito come rapporto standalone (Percorsi &gt; Dimensioni &gt; Abbandono dimensione). |
+| Abbandono | Supportato e fornito come rapporto standalone ( Percorsi &gt; Dimensioni &gt; Abbandono dimensione). |
 | Percorsi completi | Non supportato. |
 | PathFinder | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando un filtro. |
 | Lunghezza percorso | Supportato solo per la dimensione Pagina. |
