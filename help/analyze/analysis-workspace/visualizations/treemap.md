@@ -1,11 +1,9 @@
 ---
 description: Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati.
-seo-description: Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati.
-seo-title: Mappa ad albero
 title: Mappa ad albero
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
