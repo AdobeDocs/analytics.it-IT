@@ -1,14 +1,12 @@
 ---
 description: Le classificazioni vengono utilizzate per classificare i valori in gruppi e per creare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come i termini musicali pop e generare report sul successo di quella categoria in relazione a metriche come Istanze (click-through) e conversione in eventi di successo.
-seo-description: Le classificazioni vengono utilizzate per classificare i valori in gruppi e per creare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come i termini musicali pop e generare report sul successo di quella categoria in relazione a metriche come Istanze (click-through) e conversione in eventi di successo.
-seo-title: Classificazioni di conversione
 solution: Analytics
 subtopic: Classifications
 title: Classificazioni di conversione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
