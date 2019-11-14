@@ -1,15 +1,13 @@
 ---
 description: Personalizza le autorizzazioni del gruppo per gli strumenti Analytics, gli strumenti della suite di rapporti, le metriche e le dimensioni.
-keywords: gruppi;autorizzazioni
-seo-description: Personalizza le autorizzazioni del gruppo per gli strumenti Analytics, gli strumenti della suite di rapporti, le metriche e le dimensioni.
-seo-title: Panoramica di personalizzazione accesso ai rapporti
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utenti e gruppi
+subtopic: Users and groups
 title: Panoramica di personalizzazione accesso ai rapporti
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
