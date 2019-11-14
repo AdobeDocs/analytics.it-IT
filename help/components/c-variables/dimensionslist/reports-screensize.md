@@ -1,13 +1,11 @@
 ---
 description: Raggruppa gli hit del dispositivo mobile sul sito in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che ha utilizzato ogni dimensione dello schermo e ogni dimensione dello schermo come percentuale del totale delle visualizzazioni. Dimensioni schermo mostra l’altezza e la larghezza dello schermo rispetto all’altezza e alla larghezza dello schermo.
-seo-description: Raggruppa gli hit del dispositivo mobile sul sito in base alle dimensioni dello schermo del dispositivo. Mostra ogni dimensione dello schermo, il numero di visitatori del sito che ha utilizzato ogni dimensione dello schermo e ogni dimensione dello schermo come percentuale del totale delle visualizzazioni. Dimensioni schermo mostra l’altezza e la larghezza dello schermo rispetto all’altezza e alla larghezza dello schermo.
-seo-title: Dimensioni dello schermo del dispositivo
 solution: Analytics
 title: Dimensioni dello schermo del dispositivo
-topic: Rapporti
+topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
