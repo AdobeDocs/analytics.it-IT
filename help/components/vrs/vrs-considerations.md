@@ -1,14 +1,12 @@
 ---
 description: Le suite di rapporti virtuali possono essere utilizzate per sostituire i tag per più suite. Ad esempio, invece di inviare dati a due suite di rapporti separate, puoi inviare dati a una e utilizzare suite di rapporti virtuali per limitare il numero di dati a cui gli utenti hanno accesso. Tuttavia, l'accesso ai dati è solo uno dei motivi per cui suite di rapporti separate possono essere vantaggiose. Considera attentamente i seguenti casi di utilizzo prima di apportare modifiche all’implementazione per quanto riguarda le suite di rapporti virtuali.
-keywords: Suite di rapporti virtuali
-seo-description: Le suite di rapporti virtuali possono essere utilizzate per sostituire i tag per più suite. Ad esempio, invece di inviare dati a due suite di rapporti separate, puoi inviare dati a una e utilizzare suite di rapporti virtuali per limitare il numero di dati a cui gli utenti hanno accesso. Tuttavia, l'accesso ai dati è solo uno dei motivi per cui suite di rapporti separate possono essere vantaggiose. Considera attentamente i seguenti casi di utilizzo prima di apportare modifiche all’implementazione per quanto riguarda le suite di rapporti virtuali.
-seo-title: VRS e considerazioni su tag globali/su più suite
+keywords: Virtual Report Suite
 solution: Analytics
 title: VRS e considerazioni su tag globali/su più suite
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: a835e5f4d7569532f220dc3d59f88ee7468a909e
 
 ---
 
