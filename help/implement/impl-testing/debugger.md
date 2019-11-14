@@ -1,10 +1,8 @@
 ---
 description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger esamina i tag per Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
-seo-description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger esamina i tag per Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
-seo-title: Adobe Experience Cloud Debugger precedente
 title: Adobe Experience Cloud Debugger precedente
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,25 +25,25 @@ Copia il codice seguente negli Appunti:
 javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
 ```
 
-### Step 2: Paste bookmarklet code into a bookmark
+### Passaggio 2: Incolla il codice del bookmarklet in un segnalibro
 
-Each browser has different ways of handling bookmarks, but the concept is the same. A bookmark is created with the desired name and the bookmarklet code as the URL.
+Ogni browser dispone di diversi metodi per gestire i segnalibri, ma il concetto è lo stesso. Viene creato un segnalibro con il nome desiderato e il codice del bookmarklet come URL.
 
 #### Chrome
 
-If you insist on not using the chrome extension, the legacy debugger bookmarklet can be used instead.[](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+Se si insiste a non utilizzare l'estensione [](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)chrome, è possibile utilizzare il bookmarklet precedente del debugger.
 
-1. Click the three dots in the top right, then go to Bookmarks &gt; Bookmark Manager. You can also press  +  +  (Windows) or  +  +  (Mac).`Ctrl``Shift``O``Cmd``Shift``O`
-2. In the top right of the bookmark manager, click the three dots, then click 'Add new bookmark'.
-3. In the Name field, label it "Adobe Experience Cloud Debugger", and paste the code snippet into the URL field.
-4. Use the bookmark manager to place your new bookmarklet in the desired location.
+1. Fare clic sui tre punti in alto a destra, quindi passare a Segnalibri &gt; Gestione segnalibri. Potete anche premere `Ctrl` + `Shift` + `O` (Windows) o `Cmd` + `Shift` + `O` (Mac).
+2. In alto a destra del gestore dei segnalibri, fare clic sui tre punti, quindi fare clic su 'Aggiungi nuovo segnalibro'.
+3. Nel campo Nome, etichettatelo "Adobe Experience Cloud Debugger" e incollate lo snippet di codice nel campo URL.
+4. Utilizzare il gestore dei segnalibri per posizionare il nuovo bookmarklet nella posizione desiderata.
 
 #### Firefox
 
-1. Click the three lines in the top right, then go to Library &gt; Bookmarks &gt; Show All Bookmarks. You can also press  +  +  (Windows) or  +  +  (Mac).`Ctrl``Shift``B``Cmd``Shift``B`
-2. Click Organize &gt; New Bookmark.
-3. In the Name field, label it "Adobe Experience Cloud Debugger", and paste the code snippet into the Location field. The Tags and Keyword fields are not required.
-4. Use the library window to place your new bookmarklet in the desired location.
+1. Fare clic sulle tre righe in alto a destra, quindi passare a Libreria &gt; Segnalibri &gt; Mostra tutti i segnalibri. Potete anche premere `Ctrl` + `Shift` + `B` (Windows) o `Cmd` + `Shift` + `B` (Mac).
+2. Fare clic su Organizza &gt; Nuovo segnalibro.
+3. Nel campo Nome, etichettalo "Adobe Experience Cloud Debugger" e incolla lo snippet di codice nel campo Posizione. I campi Tag e Parola chiave non sono obbligatori.
+4. Utilizzare la finestra della libreria per posizionare il nuovo bookmarklet nella posizione desiderata.
 
 #### Edge
 
@@ -79,4 +77,4 @@ Il debugger dispone di diverse opzioni, tutte per personalizzare la modalità di
 * **** Aggiornamento automatico: Aggiorna automaticamente la finestra a comparsa ogni pochi secondi per verificare la presenza di ulteriori richieste di immagini sulla pagina. Se è necessario copiare/incollare contenuto nel debugger, disattivare l'aggiornamento automatico in modo che la selezione rimanga invariata.
 * **** Formato intuitivo: Attiva/disattiva il formato di visualizzazione tra etichette utili e stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, vedi Parametri [query di raccolta](../js-implementation/data-collection/query-parameters.md) dati.
 
-Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento Adobe Debugger nell'angolo in alto a destra, quindi copia l'indirizzo del collegamento. Modificate il bookmarklet del debugger corrente e incollate lo snippet di codice aggiornato nel campo URL.
+Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento Adobe Debugger nell'angolo in alto a destra, quindi copia l'indirizzo del collegamento. Modificare il bookmarklet del debugger corrente e incollare lo snippet di codice aggiornato nel campo URL.
