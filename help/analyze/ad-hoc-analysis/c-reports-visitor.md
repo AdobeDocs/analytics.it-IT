@@ -1,13 +1,11 @@
 ---
 description: Visualizza informazioni sui visitatori, quali conteggio dei visitatori, fedeltà dei clienti e caratteristiche dei visitatori.
-seo-description: Visualizza informazioni sui visitatori, quali conteggio dei visitatori, fedeltà dei clienti e caratteristiche dei visitatori.
-seo-title: Rapporti sui visitatori
 solution: Analytics
 title: Rapporti sui visitatori
-topic: Analisi ad hoc
+topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -106,11 +104,11 @@ c_reports_visitor_profile.xml
 
 **[!UICONTROL Languages]**:Visualizza le lingue preferite dai visitatori, acquisisce la lingua predefinita del browser e visualizza le lingue che i visitatori utilizzano più spesso sul sito.
 
-**[!UICONTROL Domains]**: Elenca le organizzazioni e gli ISP utilizzati dai visitatori per accedere al sito. Questo rapporto è diverso dal [!UICONTROL Full Domains] rapporto in quanto il rapporto Domini completi registra l'intero dominio ISP, mentre questo rapporto elenca il dominio secondario.
+**[!UICONTROL Domains]**:Elenca le organizzazioni e gli ISP utilizzati dai visitatori per accedere al sito. Questo rapporto è diverso dal [!UICONTROL Full Domains] rapporto in quanto il rapporto Domini completi registra l'intero dominio ISP, mentre questo rapporto elenca il dominio secondario.
 
-**[!UICONTROL Top Level Domains]**: Identifica le regioni del mondo da cui provengono i visitatori in base all’estensione del dominio di origine e mostra quanti visitatori provengono da tali paesi. I domini che terminano in Commercial (.com), Network (.net), Education (.edu), Government (.gov) e Organization (.org) sono generalmente residenti negli Stati Uniti e sono elencati separatamente dal resto dei domini.
+**[!UICONTROL Top Level Domains]**:Identifica le regioni del mondo da cui provengono i visitatori in base all’estensione del dominio di origine e mostra quanti visitatori provengono da tali paesi. I domini che terminano in Commercial (.com), Network (.net), Education (.edu), Government (.gov) e Organization (.org) sono generalmente residenti negli Stati Uniti e sono elencati separatamente dal resto dei domini.
 
-**[!UICONTROL Visitor ZIP/Postal Code]**: Visualizza i codici postali e postali che hanno prodotto i clienti che hanno avuto il maggiore effetto sulle metriche di successo degli acquisti.
+**[!UICONTROL Visitor ZIP/Postal Code]**:Visualizza i codici postali e postali che hanno prodotto i clienti che hanno avuto il maggiore effetto sulle metriche di successo degli acquisti.
 
 ## Geosegmentazione {#concept_7C1B930F90F945B49205D3855CAE1813}
 
