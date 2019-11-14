@@ -1,18 +1,16 @@
 ---
-description: Gli eventi di pagina sono dati di richiesta di immagini provenienti da richieste di immagini non standard. Origini di richieste di immagini non standard sono collegamenti di download, collegamenti di uscita e tracciamento personalizzato dei collegamenti.
-seo-description: Gli eventi di pagina sono dati di richiesta di immagini provenienti da richieste di immagini non standard. Origini di richieste di immagini non standard sono collegamenti di download, collegamenti di uscita e tracciamento personalizzato dei collegamenti.
-seo-title: Eventi pagina
+description: Gli eventi pagina sono costituiti dai dati delle richieste di immagini provenienti da richieste di immagini non standard. Le origini delle richieste di immagini non standard sono collegamenti per il download, collegamenti di uscita e tracciamento dei collegamenti personalizzati.
 solution: Analytics
 title: Eventi pagina
-topic: Metrics (Metriche)
-uuid: 8386 ce 4 f -0935-4660-99 d 4-1 d 57 b 98 ea 964
+topic: Metrics
+uuid: 8386ce4f-0935-4660-99d4-1d57b98ea964
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Eventi pagina
 
-Gli eventi di pagina sono dati di richiesta di immagini provenienti da richieste di immagini non standard. Origini di richieste di immagini non standard sono collegamenti di download, collegamenti di uscita e tracciamento personalizzato dei collegamenti.
+Gli eventi pagina sono costituiti dai dati delle richieste di immagini provenienti da richieste di immagini non standard. Le origini delle richieste di immagini non standard sono collegamenti per il download, collegamenti di uscita e tracciamento dei collegamenti personalizzati.
 
