@@ -1,13 +1,11 @@
 ---
 description: Le condizioni determinano quando viene attivata una regola basata sugli eventi.
-keywords: Gestione tag dinamica;regola;crea regola;nuova regola;regola basata sugli eventi;attivazione dei collegamenti ritardati;applica il gestore eventi direttamente all'elemento;bubbling;bolla eventi
-seo-description: Le condizioni determinano quando viene attivata una regola basata sugli eventi.
-seo-title: Creare condizioni per le regole basate su eventi
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creare condizioni per le regole basate su eventi
-uuid: a847391c-5aec-4d64-8a35-38858731598
+uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
