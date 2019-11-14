@@ -1,41 +1,39 @@
 ---
-description: Procedura che descrive come inserire i dati di classificazione nel file di classificazione.
-seo-description: Procedura che descrive come inserire i dati di classificazione nel file di classificazione.
-seo-title: Dati di classificazione Escape
+description: Passaggi che descrivono la modalità di escape dei dati di classificazione nel file di classificazione.
 solution: Analytics
-subtopic: Classificazioni
-title: Dati di classificazione Escape
-topic: Strumenti di amministrazione
-uuid: 724 edcc 5-4990-4 f 24-afbb -9 aef 301791 a 7
+subtopic: Classifications
+title: Esci dai dati di classificazione
+topic: Admin tools
+uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Dati di classificazione Escape
+# Esci dai dati di classificazione
 
-Procedura che descrive come inserire i dati di classificazione nel file di classificazione.
+Passaggi che descrivono la modalità di escape dei dati di classificazione nel file di classificazione.
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 
-1. Accertarsi che il formato di file di classificazione sia v 2.1.
+1. Assicurarsi che il formato del file di classificazione sia v2.1.
 
-   Se la versione v 2.1 è attivata, viene visualizzata una linea simile a:
+   Se la versione v2.1 è abilitata, verrà visualizzata una riga simile alla seguente:
 
    >[!NOTE]
    >
-   >To specify a format of v2.1, enable **[!UICONTROL Quoted Output]** when exporting the file on the [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] or [!UICONTROL FTP Export]).
+   >Per specificare un formato v2.1, attivare **[!UICONTROL Quoted Output]** durante l’esportazione del file sulla [!UICONTROL Classification Importer] pagina ( [!UICONTROL Browser Export] o [!UICONTROL FTP Export]).
 
-1. Surround the field containing special characters in double quotes (`"`).
+1. Circondare il campo contenente caratteri speciali tra virgolette (`"`).
 
-A double quote character can appear in an escaped cell by replacing it with two double quote characters (`" "`). Ad esempio:
+Una doppia citazione può essere visualizzata in una cella con escape sostituendola con due virgolette doppie (`" "`). Ad esempio:
 
 ```
 My String "of data"
 ```
 
-Escaped would be:
+La fuga sarebbe:
 
 ```
 "My String ""of data"""
