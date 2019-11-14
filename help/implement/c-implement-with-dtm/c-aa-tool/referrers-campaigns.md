@@ -1,13 +1,11 @@
 ---
 description: Descrizioni dei campi in Gestione tag dinamica per referenti e opzioni delle campagne durante la distribuzione di Gestione tag dinamica in Adobe Analytics.
-keywords: Gestione tag dinamica;referenti;campagne;referrer override;campaign variable;query param
-seo-description: Descrizioni dei campi in Gestione tag dinamica per referenti e opzioni delle campagne durante la distribuzione di Gestione tag dinamica in Adobe Analytics.
-seo-title: Riferimenti e campagne
-solution: Experience Cloud,Analytics,Gestione tag dinamica
+keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Riferimenti e campagne
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
