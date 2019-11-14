@@ -1,13 +1,11 @@
 ---
 description: Consente di visualizzare informazioni sulle attività di vendita, distribuzione o visualizzazione sul sito Web. Potete visualizzare i dati sugli ordini o sui download per prodotti, applicazioni o contenuti.
-seo-description: Consente di visualizzare informazioni sulle attività di vendita, distribuzione o visualizzazione sul sito Web. Potete visualizzare i dati sugli ordini o sui download per prodotti, applicazioni o contenuti.
-seo-title: Rapporti sui prodotti
 solution: Analytics
 title: Rapporti sui prodotti
-topic: Analisi ad hoc
-uuid: e2a8814b-735d-4f63-97ee-af1aface4d75d
+topic: Ad hoc analysis
+uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
