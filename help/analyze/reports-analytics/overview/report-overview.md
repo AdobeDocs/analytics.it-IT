@@ -1,13 +1,11 @@
 ---
 description: Un'introduzione alle funzioni di un rapporto, inclusa la barra degli strumenti, il calendario e la tabella dei dettagli.
-seo-description: Un'introduzione alle funzioni di un rapporto, inclusa la barra degli strumenti, il calendario e la tabella dei dettagli.
-seo-title: Funzioni rapporto
 solution: Analytics
 title: Funzioni rapporto
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
