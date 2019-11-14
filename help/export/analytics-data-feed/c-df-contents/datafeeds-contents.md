@@ -1,15 +1,13 @@
 ---
 description: In questa sezione vengono descritti i file trovati in una distribuzione di feed di dati.
-keywords: Feed dati;job;contents;manifest;file;search;hit data;delivery contents;contents;contents;contents;contents;contents;manifest;file;search;hit data;delivery contents;delivery contents
-seo-description: In questa sezione vengono descritti i file trovati in una distribuzione di feed di dati.
-seo-title: 'Contenuti feed dati: panoramica'
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: feed di dati
+subtopic: data feeds
 title: 'Contenuti feed dati: panoramica'
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
