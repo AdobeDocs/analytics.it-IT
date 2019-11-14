@@ -1,13 +1,11 @@
 ---
 description: Visualizza informazioni sui luoghi sul Web che determinano il traffico verso il sito. Puoi vedere quali motori di ricerca e siti Web esterni al tuo dominio inviano i visitatori.
-seo-description: Visualizza informazioni sui luoghi sul Web che determinano il traffico verso il sito. Puoi vedere quali motori di ricerca e siti Web esterni al tuo dominio inviano i visitatori.
-seo-title: Origini del traffico
 solution: Analytics
 title: Origini del traffico
-topic: Rapporti
+topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -36,15 +34,15 @@ I report in questo menu sono suddivisi in tre categorie di base:
  <tbody> 
   <tr> 
    <td colname="col1"> Cerca parole chiave - Tutto </td> 
-   <td colname="col2"> <p> Visualizza una suddivisione di ogni parola chiave di ricerca utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito. </p> </td> 
+   <td colname="col2"> <p>  Visualizza una suddivisione di ogni parola chiave di ricerca utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cerca parole chiave - A pagamento </td> 
-   <td colname="col2"> <p> Visualizza una suddivisione di ogni parola chiave di ricerca a pagamento utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito. </p> </td> 
+   <td colname="col2"> <p>  Visualizza una suddivisione di ogni parola chiave di ricerca a pagamento utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cerca parole chiave - Naturale </td> 
-   <td colname="col2"> <p> Visualizza una suddivisione di ogni parola chiave di ricerca naturale utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito. </p> </td> 
+   <td colname="col2"> <p>  Visualizza una suddivisione di ogni parola chiave di ricerca naturale utilizzata per trovare il sito. Potete ordinare l’elenco per visualizzazioni di pagina o per parole chiave di ricerca facendo clic sul titolo della colonna sopra l’elenco. Fai clic sulla lente di ingrandimento accanto a una parola chiave di ricerca per visualizzare i risultati della ricerca per il tuo sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Motori di ricerca - Tutti </td> 
@@ -72,7 +70,7 @@ I report in questo menu sono suddivisi in tre categorie di base:
   </tr> 
   <tr> 
    <td colname="col1"> Riferimenti </td> 
-   <td colname="col2"> <p> Visualizza il dominio o l’URL da cui i visitatori sono arrivati prima del loro arrivo sul sito, i metodi utilizzati dai visitatori per trovare il sito Web e il numero di visite al sito provenienti da queste posizioni di riferimento. </p> <p>Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l’implementazione, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web (anche questo può essere fatto dopo l’implementazione). Tutti i domini o gli URL che non fanno parte di tali domini e URL definiti sono considerati referenti. </p> <p>Ad esempio, se al filtro URL interno vengono aggiunte le pagine Web A e B, ma non la pagina Web C, la pagina Web C viene considerata un referente. </p> <p>See <a href="/help/admin/admin/internal-url-filter-admin.md"> Internal URL Filters</a></p>  <p>Nota: Analytics registra un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento a un messaggio e-mail contenente il protocollo <code> imap://</code> o <span class="filepath"> mail://</span> e arrivano al sito. </p> <p>Ad esempio, qualsiasi cosa proveniente da <code> https://mail.yahoo.com</code> viene conteggiata come referente e-mail perché il protocollo è <span class="filepath"> https://</span>. Le e-mail di Outlook sono riportate nella riga <span class="wintitle"> Typed/Bookmarked</span> . Qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore <span class="wintitle"></span> di ricerca. </p> </td> 
+   <td colname="col2"> <p> Visualizza il dominio o l’URL da cui i visitatori sono arrivati prima del loro arrivo sul sito, i metodi utilizzati dai visitatori per trovare il sito Web e il numero di visite al sito provenienti da queste posizioni di riferimento. </p> <p>Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l’implementazione, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web (anche questo può essere fatto dopo l’implementazione). Tutti i domini o gli URL che non fanno parte di tali domini e URL definiti sono considerati referenti. </p> <p>Ad esempio, se le pagine Web A e B vengono aggiunte al filtro URL interno ma la pagina Web C non lo è, la pagina Web C viene considerata un referente. </p> <p>See <a href="/help/admin/admin/internal-url-filter-admin.md"> Internal URL Filters</a></p>  <p>Nota: Analytics registra un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento a un messaggio e-mail contenente il protocollo <code> imap://</code> o <span class="filepath"> mail://</span> e arrivano al sito. </p> <p>Ad esempio, qualsiasi cosa proveniente da <code> https://mail.yahoo.com</code> viene conteggiata come referente e-mail perché il protocollo è <span class="filepath"> https://</span>. Le e-mail di Outlook sono riportate nella riga <span class="wintitle"> Typed/Bookmarked</span> . Qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore <span class="wintitle"></span> di ricerca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipi di referente </td> 
