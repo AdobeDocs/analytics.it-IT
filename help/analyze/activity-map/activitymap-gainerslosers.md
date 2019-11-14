@@ -1,13 +1,11 @@
 ---
 description: Le sovrapposizioni offrono diversi metodi per configurare la visualizzazione dei dati in modo da poter vedere e comprendere facilmente la popolarità dei collegamenti su una pagina.
-seo-description: Le sovrapposizioni offrono diversi metodi per configurare la visualizzazione dei dati in modo da poter vedere e comprendere facilmente la popolarità dei collegamenti su una pagina.
-seo-title: Sovrapposizioni personalizzabili
 solution: Analytics
 title: Sovrapposizioni personalizzabili
-topic: Activity Map
+topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -46,7 +44,7 @@ Queste metriche vengono sovrapposte ai collegamenti della pagina come una sorta 
 
 La sovrapposizione Bolla mostra il contenuto della sovrapposizione (metrica, percentuale o classificazione) in una piccola bolla di callout.
 
-Le sovrapposizioni delle bolle vengono visualizzate quando selezionate questa sovrapposizione nel tipo di sovrapposizione nella barra degli strumenti.. Le sovrapposizioni delle bolle vengono visualizzate per tutti i collegamenti che corrispondono alla selezione nelle impostazioni [delle mappe](/help/analyze/activity-map/activitymap-overlay-settings.md) attività (primi 30, primi 50, tutti...). Se questa opzione non è selezionata, vengono visualizzate le sovrapposizioni sfumatura.
+Le sovrapposizioni delle bolle vengono visualizzate quando selezionate questa sovrapposizione nel tipo di sovrapposizione nella barra degli strumenti. . Le sovrapposizioni delle bolle vengono visualizzate per tutti i collegamenti che corrispondono alla selezione nelle impostazioni [delle mappe](/help/analyze/activity-map/activitymap-overlay-settings.md) attività (primi 30, primi 50, tutti...). Se questa opzione non è selezionata, vengono visualizzate le sovrapposizioni sfumatura.
 
 ![](assets/bubble_overlay.png)
 
