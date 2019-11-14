@@ -1,13 +1,11 @@
 ---
 description: Copiare un intero foglio di calcolo in una cartella di lavoro di origine in un foglio di calcolo in una o più cartelle di lavoro di destinazione.
-seo-description: Copiare un intero foglio di calcolo in una cartella di lavoro di origine in un foglio di calcolo in una o più cartelle di lavoro di destinazione.
-seo-title: Copiare richieste e fogli di lavoro tra le cartelle di lavoro
 solution: Analytics
 title: Copiare richieste e fogli di lavoro tra le cartelle di lavoro
-topic: Generatore di report
+topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
