@@ -1,13 +1,11 @@
 ---
 description: Visualizza i collegamenti preferiti dai visitatori del sito. Ad esempio, la home page del sito probabilmente contiene più collegamenti che visualizzano la stessa pagina. È possibile che sia presente un collegamento grafico che un collegamento testuale colleghino entrambi alla stessa pagina. Questo rapporto mostra la percentuale di visitatori che hanno utilizzato il collegamento grafico rispetto al collegamento di testo.
-seo-description: Visualizza i collegamenti preferiti dai visitatori del sito. Ad esempio, la home page del sito probabilmente contiene più collegamenti che visualizzano la stessa pagina. È possibile che sia presente un collegamento grafico che un collegamento testuale colleghino entrambi alla stessa pagina. Questo rapporto mostra la percentuale di visitatori che hanno utilizzato il collegamento grafico rispetto al collegamento di testo.
-seo-title: Collegamento personalizzato
 solution: Analytics
 title: Collegamento personalizzato
-topic: Rapporti
+topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
