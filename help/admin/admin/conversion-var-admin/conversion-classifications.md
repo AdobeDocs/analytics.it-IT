@@ -1,30 +1,28 @@
 ---
-description: Le classificazioni vengono utilizzate per suddividere i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, potete classificare tutte le campagne Search Search in una categoria come i termini musicali pop-up e segnalare il successo della categoria rispetto a metriche quali istanze (click-through) e conversione in eventi di successo.
-seo-description: Le classificazioni vengono utilizzate per suddividere i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, potete classificare tutte le campagne Search Search in una categoria come i termini musicali pop-up e segnalare il successo della categoria rispetto a metriche quali istanze (click-through) e conversione in eventi di successo.
-seo-title: Classificazioni conversione
+description: Le classificazioni vengono utilizzate per classificare i valori in gruppi e per creare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come i termini musicali pop e generare report sul successo di quella categoria in relazione a metriche come Istanze (click-through) e conversione in eventi di successo.
 solution: Analytics
-subtopic: Classificazioni
-title: Classificazioni conversione
-topic: Strumenti di amministrazione
-uuid: b 088 ea 4 b -8 ab 7-4 ccf -96 c 6-8567 d 91 fb 8 cf
+subtopic: Classifications
+title: Classificazioni di conversione
+topic: Admin tools
+uuid: b088ea4b-8ab7-4ccf-96c6-8567d91fb8cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Classificazioni conversione
+# Classificazioni di conversione
 
-Le classificazioni vengono utilizzate per suddividere i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, potete classificare tutte le campagne Search Search in una categoria come i termini musicali pop-up e segnalare il successo della categoria rispetto a metriche quali istanze (click-through) e conversione in eventi di successo.
+Le classificazioni vengono utilizzate per classificare i valori in gruppi e per creare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come i termini musicali pop e generare report sul successo di quella categoria in relazione a metriche come Istanze (click-through) e conversione in eventi di successo.
 
-Le classificazioni di conversione consentono di classificare le variabili di conversione. Una volta classificati, qualsiasi rapporto che è possibile generare utilizzando i dati chiave può essere generato anche utilizzando le proprietà dei dati associate.
+Le classificazioni di conversione consentono di classificare le variabili di conversione. Una volta classificati, qualsiasi rapporto che è possibile generare utilizzando i dati chiave può essere generato anche utilizzando le proprietà dati associate.
 
-After enabling classifications, use the [Classification Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
+Dopo aver attivato le classificazioni, utilizzare Importazione [](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) classificazione per assegnare valori specifici alla classificazione appropriata.
 
-## Conversion Classifications Descriptions {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
+## Descrizioni classificazioni conversione {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
 | Elemento | Descrizione |
 |---|---|
-| [!UICONTROL Name] | Il nome della classificazione. |
-| [!UICONTROL Options (Text Only)] | Crea un elenco di valori di classificazione disponibili per questa classificazione. Use [!UICONTROL Options] with campaign variables to provide users with a list of supported values for the classification in the [!UICONTROL Campaign Manager]. |
+| [!UICONTROL Name] | Nome della classificazione. |
+| [!UICONTROL Options (Text Only)] | Crea un elenco di valori di classificazione disponibili per questa classificazione. Utilizzate [!UICONTROL Options] con le variabili della campagna per fornire agli utenti un elenco di valori supportati per la classificazione in [!UICONTROL Campaign Manager]. |
 
