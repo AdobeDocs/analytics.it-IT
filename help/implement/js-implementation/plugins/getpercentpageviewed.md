@@ -1,15 +1,13 @@
 ---
 description: Misura l'attività di scorrimento di un visitatore per vedere la quantità di una pagina visualizzata prima di passare a un'altra pagina. Questo plug-in consente di determinare la quantità di contenuto che gli utenti visualizzano in media, in modo da poter ottimizzare la lunghezza e i layout della pagina in base ai comportamenti degli utenti.
-keywords: Implementazione di Analytics
-seo-description: Misura l'attività di scorrimento di un visitatore per vedere la quantità di una pagina visualizzata prima di passare a un'altra pagina. Questo plug-in consente di determinare la quantità di contenuto che gli utenti visualizzano in media, in modo da poter ottimizzare la lunghezza e i layout della pagina in base ai comportamenti degli utenti.
-seo-title: getPercentPageViewed
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Plug-in
+subtopic: Plug-ins
 title: getPercentPageViewed
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
