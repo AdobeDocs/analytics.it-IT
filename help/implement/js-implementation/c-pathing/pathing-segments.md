@@ -1,14 +1,12 @@
 ---
 description: La segmentazione dei percorsi in base al tipo di utente è una richiesta comune per cercare di capire in che modo specifici tipi di utente si trovano sul sito.
-keywords: Implementazione di Analytics
-seo-description: La segmentazione dei percorsi in base al tipo di utente è una richiesta comune per cercare di capire in che modo specifici tipi di utente si trovano sul sito.
-seo-title: Percorsi di segmento per tipo di utente
+keywords: Analytics Implementation
 solution: Analytics
 title: Percorsi di segmento per tipo di utente
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
