@@ -1,15 +1,13 @@
 ---
 description: L'inserimento della chiamata al file di libreria JavaScript nella parte superiore della pagina fa sì che l'immagine sia uno dei primi elementi da scaricare.
-keywords: Implementazione di Analytics
-seo-description: L'inserimento della chiamata al file di libreria JavaScript nella parte superiore della pagina fa sì che l'immagine sia uno dei primi elementi da scaricare.
-seo-title: Posizione file JavaScript e relativa contemporaneità
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Risoluzione dei problemi
+subtopic: Troubleshooting
 title: Posizione file JavaScript e relativa contemporaneità
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
