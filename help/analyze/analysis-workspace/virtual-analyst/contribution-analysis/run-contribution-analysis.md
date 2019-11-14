@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Eseguire l’analisi dei contributi
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
