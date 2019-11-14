@@ -1,18 +1,16 @@
 ---
-description: Utilizzato nelle sezioni Acquisti, Carrello e Eventi personalizzati. Come per Visualizzazioni di pagina, ogni dato visualizza dati per una metrica di successo in un periodo di tempo specifico, ad esempio giorno, settimana, mese ecc.
-seo-description: Utilizzato nelle sezioni Acquisti, Carrello e Eventi personalizzati. Come per Visualizzazioni di pagina, ogni dato visualizza dati per una metrica di successo in un periodo di tempo specifico, ad esempio giorno, settimana, mese ecc.
-seo-title: Nel tempo
+description: Utilizzata nelle sezioni di reporting Acquisti, Carrello acquisti e Eventi personalizzati. Simile alle visualizzazioni pagina, ciascuna di esse visualizza i dati per una metrica di successo in un periodo di tempo specifico, ad esempio un giorno, una settimana, un mese e così via.
 solution: Analytics
 title: Nel tempo
-topic: Rapporti
-uuid: 4 cd 8492 b -319 e -4 a 55-8 d 99-70 dd 6 ec 9 b 4 ba
+topic: Reports
+uuid: 4cd8492b-319e-4a55-8d99-70dd6ec9b4ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Nel tempo
 
-Utilizzato nelle sezioni Acquisti, Carrello e Eventi personalizzati. Come per Visualizzazioni di pagina, ogni dato visualizza dati per una metrica di successo in un periodo di tempo specifico, ad esempio giorno, settimana, mese ecc.
+Utilizzata nelle sezioni di reporting Acquisti, Carrello acquisti e Eventi personalizzati. Simile alle visualizzazioni pagina, ciascuna di esse visualizza i dati per una metrica di successo in un periodo di tempo specifico, ad esempio un giorno, una settimana, un mese e così via.
 
