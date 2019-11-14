@@ -1,13 +1,11 @@
 ---
 description: Passaggi per aggiungere metriche e dimensioni a una richiesta.
-seo-description: Passaggi per aggiungere metriche e dimensioni a una richiesta.
-seo-title: Aggiungere metriche e dimensioni
 solution: Analytics
 title: Aggiungere metriche e dimensioni
-topic: Generatore di report
+topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
