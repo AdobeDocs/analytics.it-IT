@@ -1,13 +1,11 @@
 ---
 description: I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità quando si aggiornano le richieste del generatore di report.
-seo-description: I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità quando si aggiornano le richieste del generatore di report.
-seo-title: Controlli interattivi
 solution: Analytics
 title: Controlli interattivi
-topic: Generatore di report
+topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
