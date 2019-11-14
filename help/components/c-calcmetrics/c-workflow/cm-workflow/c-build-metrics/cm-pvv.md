@@ -1,11 +1,9 @@
 ---
 description: Mostra come creare una semplice metrica "Visualizzazioni di pagina per visita".
-seo-description: Mostra come creare una semplice metrica "Visualizzazioni di pagina per visita".
-seo-title: Creare una semplice metrica "Visualizzazioni pagina in base alle visite"
 title: Creare una semplice metrica "Visualizzazioni pagina in base alle visite"
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
