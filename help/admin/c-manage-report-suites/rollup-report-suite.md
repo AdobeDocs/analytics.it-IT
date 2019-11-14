@@ -1,13 +1,11 @@
 ---
 description: Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio e li visualizzano in un set di dati riepilogato.
-seo-description: Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio e li visualizzano in un set di dati riepilogato.
-seo-title: Suite di rapporti rollup e globali
 solution: Analytics
 title: Suite di rapporti rollup e globali
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
