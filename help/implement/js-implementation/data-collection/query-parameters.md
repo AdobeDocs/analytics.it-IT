@@ -1,14 +1,12 @@
 ---
 description: Nelle tabelle seguenti è riportato il parametro di query che contiene il valore per ogni variabile di analisi inviata alla raccolta dati.
-keywords: Implementazione di Analytics
-seo-description: Nelle tabelle seguenti è riportato il parametro di query che contiene il valore per ogni variabile di analisi inviata alla raccolta dati.
-seo-title: Parametri query della raccolta dati
+keywords: Analytics Implementation
 solution: Analytics
 title: Parametri query della raccolta dati
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
