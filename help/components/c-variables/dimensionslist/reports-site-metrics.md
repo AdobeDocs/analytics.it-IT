@@ -1,13 +1,11 @@
 ---
 description: I rapporti Metriche del sito mostrano informazioni quantitative sul sito Web. Ad esempio, mostrano quante volte i visitatori hanno guardato le pagine, il numero di acquisti effettuati da pagine specifiche, il tempo trascorso sulle pagine, i ricavi e dati quantitativi simili. Ciascuno di questi rapporti è una metrica che puoi inserire in altri rapporti basati sugli elementi.
-seo-description: I rapporti Metriche del sito mostrano informazioni quantitative sul sito Web. Ad esempio, mostrano quante volte i visitatori hanno guardato le pagine, il numero di acquisti effettuati da pagine specifiche, il tempo trascorso sulle pagine, i ricavi e dati quantitativi simili. Ciascuno di questi rapporti è una metrica che puoi inserire in altri rapporti basati sugli elementi.
-seo-title: Metriche del sito
 solution: Analytics
 title: Metriche del sito
-topic: Rapporti
+topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
