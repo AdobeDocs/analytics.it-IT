@@ -1,11 +1,9 @@
 ---
 description: Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
-seo-description: Attività e informazioni necessarie prima di eseguire l'integrazione guidata Connettori dati per implementare l'integrazione dei Connettori dati.
-seo-title: Preparazione all'integrazione e-mail dei connettori dati
 title: Preparazione all'integrazione e-mail dei connettori dati
 uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
