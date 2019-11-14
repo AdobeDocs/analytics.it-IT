@@ -1,13 +1,11 @@
 ---
 description: Nel pannello Opzioni, potete specificare le impostazioni di data, latenza (Dati correnti), informazioni di registro e configurare gli aggiornamenti.
-seo-description: Nel pannello Opzioni, potete specificare le impostazioni di data, latenza (Dati correnti), informazioni di registro e configurare gli aggiornamenti.
-seo-title: Opzioni di Report Builder
 solution: Analytics
 title: Opzioni di Report Builder
-topic: Generatore di report
+topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
