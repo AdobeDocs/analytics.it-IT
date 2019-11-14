@@ -1,13 +1,11 @@
 ---
 description: Le destinazioni consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
-seo-description: Le destinazioni consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
-seo-title: Target
 solution: Analytics
 title: Target
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
