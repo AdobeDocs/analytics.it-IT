@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Domande frequenti sull'utilizzo delle chiamate server
 title: Domande frequenti sull'utilizzo delle chiamate server
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -50,7 +48,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Il mio contratto non include un provisioning per le chiamate server secondarie, ma lo visualizzo ancora nelle schede Uso corrente e Uso suite di rapporti. Questo significa che inizierò a incorrere in sovracompensamenti?</b> </p> </td> 
-   <td colname="col2"> <p>A: A seconda del contratto, è possibile che si verifichino delle interruzioni quando si inviano chiamate server secondarie senza che sia stato effettuato il provisioning per tali chiamate. In alcuni casi, il consumo di chiamate server secondarie potrebbe essere legato al vostro impegno per le chiamate server primarie, implementandole ad un ritmo più veloce di quanto anticipato. In altri casi, potete essere fatturati per chiamate server secondarie anche se non avete utilizzato tutte le chiamate server primarie. Consultare il contratto o contattare il Customer Success Manager per confermare. </p> </td> 
+   <td colname="col2"> <p>A: A seconda del contratto, è possibile che si verifichino delle interruzioni quando si inviano chiamate server secondarie senza che sia stato effettuato il provisioning per tali chiamate. In alcuni casi, il consumo di chiamate server secondarie potrebbe essere in rapporto al vostro impegno per le chiamate server primarie, implementandole ad un ritmo più veloce di quanto anticipato. In altri casi, potete essere fatturati per chiamate server secondarie anche se non avete utilizzato tutte le chiamate server primarie. Consultare il contratto o contattare il Customer Success Manager per confermare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Il mio contratto/periodo di utilizzo è appena iniziato e sto già ricevendo avvisi circa il superamento del mio impegno di chiamate server secondarie. È un bug e inizierò ad essere fatturati overages? </b> </p> </td> 
