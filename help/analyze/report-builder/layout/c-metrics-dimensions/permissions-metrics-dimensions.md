@@ -1,13 +1,11 @@
 ---
 description: Adobe Report Builder ora offre impostazioni di autorizzazione simili a quelle degli Strumenti di amministrazione di Analytics.
-seo-description: Adobe Report Builder ora offre impostazioni di autorizzazione simili a quelle degli Strumenti di amministrazione di Analytics.
-seo-title: Autorizzazioni di accesso utente per dimensioni e metriche
 solution: Analytics
 title: Autorizzazioni di accesso utente per dimensioni e metriche
-topic: Generatore di report
+topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
