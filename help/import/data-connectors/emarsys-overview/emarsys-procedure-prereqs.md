@@ -1,11 +1,9 @@
 ---
 description: Utilizzando una procedura guidata "plug and play", i processi passo-passo intuitivi consentono di individuare i punti di sincronizzazione del sistema e di inizializzare l'integrazione.
-seo-description: Utilizzando una procedura guidata "plug and play", i processi passo-passo intuitivi consentono di individuare i punti di sincronizzazione del sistema e di inizializzare l'integrazione.
-seo-title: Procedura di integrazione e prerequisiti
 title: Procedura di integrazione e prerequisiti
-uuid: d0cd9f08-b66e-470a-a5d2-08cbdc18275
+uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
