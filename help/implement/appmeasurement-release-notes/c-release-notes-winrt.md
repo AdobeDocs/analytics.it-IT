@@ -1,14 +1,12 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: WinRT per Windows 8
 solution: Analytics,Experience Cloud
-subtopic: Note sulla versione
+subtopic: Release notes
 title: WinRT per Windows 8
-topic: Sviluppatore e implementazione
-uuid: set19d63-114c-4ef6-a55e-db6aad4e948b
+topic: Developer and implementation
+uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,13 +15,13 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 >[!NOTE]
 >
->Per trovare la versione corrente della libreria, attivate la registrazione di debug.
+> Per trovare la versione corrente della libreria, attivate la registrazione di debug.
 
 I [download](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) della libreria mobile sono disponibili in [!DNL Developer Connection].
 
 >[!NOTE]
 >
-> L’SDK [!DNL WinRT] per [!DNL Windows] 8 è sostituito dall’SDK [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) . In questa SDK non si verificheranno ulteriori sviluppi.
+>L’SDK [!DNL WinRT] per [!DNL Windows] 8 è sostituito dall’SDK [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) . In questa SDK non si verificheranno ulteriori sviluppi.
 
 ## Versione 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
