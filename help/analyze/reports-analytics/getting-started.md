@@ -1,14 +1,12 @@
 ---
 description: Prima di utilizzare Reporting e analisi, è importante comprendere le attività di accesso e configurazione di base e come accedere alle informazioni sull'account.
-seo-description: Prima di utilizzare Reporting e analisi, è importante comprendere le attività di accesso e configurazione di base e come accedere alle informazioni sull'account.
-seo-title: Introduzione a Reports and Analytics
 solution: Analytics
-subtopic: introduzione
+subtopic: Get started
 title: Introduzione a Reports and Analytics
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -115,7 +113,7 @@ Tutti gli utenti hanno accesso alla [!UICONTROL Account Information] pagina. Son
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p> Login </p> </td> 
+   <td> <p>  Login </p> </td> 
    <td> <p>Visualizza il nome utente dell’account e consente di modificare la password dell’account. </p> <p>Vedi anche: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  > Come ripristinare la password</a>dell'account Reporting e analisi. </p> </td> 
   </tr> 
   <tr> 
