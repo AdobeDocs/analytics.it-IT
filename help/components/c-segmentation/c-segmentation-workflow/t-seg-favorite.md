@@ -1,23 +1,21 @@
 ---
-description: La contrassegnazione dei segmenti come preferiti rappresenta un altro modo per organizzarli per semplificarne l'utilizzo.
-seo-description: La contrassegnazione dei segmenti come preferiti rappresenta un altro modo per organizzarli per semplificarne l'utilizzo.
-seo-title: Contrassegnare i segmenti come preferiti
+description: Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
 solution: Analytics
 title: Contrassegnare i segmenti come preferiti
-topic: Segmenti
-uuid: 0 bc 1 f 19 c -4 ab 1-47 a 2-8 dd 4-9 aa 0015846 ed
+topic: Segments
+uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Contrassegnare i segmenti come preferiti
 
-La contrassegnazione dei segmenti come preferiti rappresenta un altro modo per organizzarli per semplificarne l'utilizzo.
+Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
 
-1. In Gestione segmenti, controlla la stella accanto a qualsiasi segmento da contrassegnare come preferito. Ora deve essere visualizzata come stella gialla:
+1. In Segment Manager (Gestore segmenti), seleziona la stella accanto a qualsiasi segmento da contrassegnare come preferito. Dovrebbe ora apparire come stella gialla:
 
    ![](assets/favorites.png)
 
-1. You can also filter on favorites under **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Favorites]**.
+1. Potete anche filtrare i preferiti in **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Favorites]**.
