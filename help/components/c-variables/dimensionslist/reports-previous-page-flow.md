@@ -1,18 +1,16 @@
 ---
-description: Il rapporto Flusso pagina precedente mostra più livelli delle pagine più popolari visualizzate dalla pagina prima della pagina selezionata. Il rapporto evidenzia inoltre le pagine da cui i visitatori accedono al sito.
-seo-description: Il rapporto Flusso pagina precedente mostra più livelli delle pagine più popolari visualizzate dalla pagina prima della pagina selezionata. Il rapporto evidenzia inoltre le pagine da cui i visitatori accedono al sito.
-seo-title: Flusso pagina precedente
+description: Il rapporto Flusso pagina precedente mostra più livelli delle pagine più popolari visualizzate dai visitatori prima della pagina selezionata. Il rapporto evidenzia anche le pagine dalle quali i visitatori accedono al sito.
 solution: Analytics
 title: Flusso pagina precedente
-topic: Rapporti
-uuid: 836 ca 86 f-c 7 f 0-4 e 91-94 e 3-a 50232325 abe
+topic: Reports
+uuid: 836ca86f-c7f0-4e91-94e3-a50232325abe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Flusso pagina precedente
 
-Il rapporto Flusso pagina precedente mostra più livelli delle pagine più popolari visualizzate dalla pagina prima della pagina selezionata. Il rapporto evidenzia inoltre le pagine da cui i visitatori accedono al sito.
+Il rapporto Flusso pagina precedente mostra più livelli delle pagine più popolari visualizzate dai visitatori prima della pagina selezionata. Il rapporto evidenzia anche le pagine dalle quali i visitatori accedono al sito.
 
