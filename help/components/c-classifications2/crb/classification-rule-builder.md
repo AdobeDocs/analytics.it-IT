@@ -1,14 +1,12 @@
 ---
 description: Invece di mantenere e caricare le classificazioni ogni volta che i codici di monitoraggio cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
-seo-description: Invece di mantenere e caricare le classificazioni ogni volta che i codici di monitoraggio cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
-seo-title: Flusso di lavoro di Generatore regole di classificazione
 solution: Analytics
 subtopic: Classifications
 title: Flusso di lavoro di Generatore regole di classificazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 >[!NOTE]
 >
-> I gruppi con autorizzazioni per utilizzare lo strumento di importazione classificazione possono utilizzare le regole di classificazione. Per informazioni importanti sull'elaborazione, vedere [Elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md) delle regole.
+>I gruppi con autorizzazioni per utilizzare lo strumento di importazione classificazione possono utilizzare le regole di classificazione. Per informazioni importanti sull'elaborazione, vedere [Elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md) delle regole.
 
 **Risorse aggiuntive**
 
