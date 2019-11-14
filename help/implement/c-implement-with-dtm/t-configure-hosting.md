@@ -1,14 +1,12 @@
 ---
 description: Puoi distribuire Gestione tag dinamica utilizzando una o più delle opzioni di hosting disponibili.
-keywords: Analytics Implementation;metodo di implementazione;gestione tag dinamica;dtm;hosting;opzioni di hosting;akamai;hosting autonomo;hosting autonomo;consegna ftp;hosting ftp;download libreria
-seo-description: Puoi distribuire Gestione tag dinamica utilizzando una o più delle opzioni di hosting disponibili.
-seo-title: Configurare le opzioni di hosting
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
 solution: Analytics
 title: Configurare le opzioni di hosting
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
