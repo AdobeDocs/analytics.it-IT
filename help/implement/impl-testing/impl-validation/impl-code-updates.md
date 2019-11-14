@@ -1,25 +1,23 @@
 ---
-description: La verifica di eventuali modifiche al file. JS o HTML è responsabilità del cliente. Deve essere completato prima di pubblicare le modifiche ai siti Web di produzione.
-keywords: Implementazione di Analytics
-seo-description: La verifica di eventuali modifiche al file. JS o HTML è responsabilità del cliente. Deve essere completato prima di pubblicare le modifiche ai siti Web di produzione.
-seo-title: Modifiche al codice
+description: La verifica di eventuali modifiche al file .JS o al codice HTML è responsabilità del cliente. Deve essere compilato prima di pubblicare le modifiche sui siti web di produzione.
+keywords: Analytics Implementation
 solution: Analytics
 title: Modifiche al codice
-topic: Sviluppatore e implementazione
-uuid: efac 045 e -15 f 5-45 f 6-a 21 a-de 6 c 4 b 0 a 8185
+topic: Developer and implementation
+uuid: efac045e-15f5-45f6-a21a-de6c4b0a8185
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Modifiche al codice
 
-La verifica di eventuali modifiche al file. JS o HTML è responsabilità del cliente. Deve essere completato prima di pubblicare le modifiche ai siti Web di produzione.
+La verifica di eventuali modifiche al file .JS o al codice HTML è responsabilità del cliente. Deve essere compilato prima di pubblicare le modifiche sui siti web di produzione.
 
-Ensure that the linefeeds/return characters are not stripped or altered from the code that is placed within the HTML, or from within the [!DNL .JS] file. Assicurarsi che javascript venga eseguito senza un errore su tutte le pagine e i modelli delle pagine (in Opzioni Internet Explorer, selezionate la scheda Avanzate e fate clic su Visualizza una notifica su ogni errore di script.
+Verificate che i caratteri linefeeds/return non vengano rimossi o modificati dal codice inserito all'interno dell'HTML o dall'interno del [!DNL .JS] file. Assicurarsi che il codice JavaScript venga eseguito senza errori su tutte le pagine e i modelli di pagina (in Opzioni Internet Explorer, selezionare la scheda Avanzate e fare clic su Visualizza una notifica su ogni errore di script in Internet Explorer).
 
-Durante la verifica di errori, incollate il codice in una pagina HTML predefinita per determinare se l'errore si verifica a causa di altri elementi/oggetti della pagina.
+Quando si verificano degli errori, incollare il codice in una pagina HTML predefinita per determinare se l'errore si verifica a causa di altri elementi/oggetti della pagina.
 
 ```js
 <html><head></head><body>
