@@ -1,10 +1,8 @@
 ---
 title: Prima guida dell'amministratore di Adobe Analytics
-seo-title: Prima guida dell'amministratore di Adobe Analytics
 description: Scopri come iniziare a usare Adobe Analytics, i tipi di ruolo generali e come accedere all’interfaccia utente.
-seo-description: Scopri come iniziare a usare Adobe Analytics, i tipi di ruolo generali e come accedere all’interfaccia utente.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
