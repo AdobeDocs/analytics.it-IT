@@ -1,13 +1,11 @@
 ---
 description: Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in Gestione tag dinamica.
-keywords: gestione libreria;codice pagina;caricare la libreria in;gestito da adobe;custom;code hosting;s_code hosting
-seo-description: Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in Gestione tag dinamica.
-seo-title: Gestione della libreria
-solution: Experience Cloud,Gestione tag dinamica
+keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
+solution: Experience Cloud,Dynamic Tag Management
 title: Gestione della libreria
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,11 +40,11 @@ Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in
   </tr> 
   <tr> 
    <td colname="col1"> <p> Personalizzato </p> </td> 
-   <td colname="col2"> <p>Potete configurare il codice della libreria. </p> <p>Se selezionate questa opzione, diventano disponibili le seguenti opzioni: </p> <p> <b>Imposta le suite di rapporti utilizzando il codice personalizzato seguente: </b>Quando questa casella è selezionata, Gestione tag dinamica cerca una variabile nel codice personalizzato denominata <span class="varname"> s_account</span>. Questa variabile deve contenere un elenco separato da virgole delle suite di rapporti a cui si desidera inviare i dati. </p> <p> <b>Codice ospitato: </b>Scegliete un’opzione per ospitare il <span class="filepath"> codice</span>s_code: </p> 
+   <td colname="col2"> <p>Potete configurare il codice della libreria. </p> <p>Se selezionate questa opzione, diventano disponibili le seguenti opzioni: </p> <p> <b>Imposta le suite di rapporti utilizzando il codice personalizzato seguente: </b>Quando questa casella è selezionata, Gestione tag dinamica cerca una variabile nel codice personalizzato denominata <span class="varname"> s_account</span>. Questa variabile deve contenere un elenco separato da virgole delle suite di rapporti a cui desideri inviare i dati. </p> <p> <b>Codice ospitato: </b>Scegliete un’opzione per ospitare il <span class="filepath"> codice</span>s_code: </p> 
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>In Gestione dinamica dei tag</b>: Puoi ospitare il <span class="filepath"> s_code</span> in Gestione tag dinamica. Fate clic su <span class="uicontrol"> Modifica codice</span> per tagliare e incollare il file direttamente nell’editor. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: Se disponete di un buon file <span class="filepath"> s_code</span> e siete soddisfatti del processo di aggiornamento, potete fornire l'URL al file qui. La gestione tag dinamica quindi utilizza il file <span class="filepath"> s_code</span> per l'implementazione di <span class="keyword"> Adobe Analytics</span>. </li> 
-    </ul> <p> <b>Apri editor: Consente </b>di <a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  > inserire il codice</a>AppMeasurement principale. Questo codice viene popolato automaticamente quando si utilizza il metodo di configurazione automatico descritto in Impostazioni <a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  > di</a>Adobe Analytics. </p> <p> <b>Nome variabile Tracker: </b>Se desiderate eseguire due istanze di <span class="keyword"> Adobe Analytics</span> in parallelo (una in Gestione tag dinamica e una in modo nativo), potete rinominare l' <span class="term"> oggetto s</span> principale. Se si rinomina il nome dell'oggetto, non si verificano conflitti. </p> </td> 
+    </ul> <p> <b>Open Editor</b> (Apri editor): consente di <a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  >inserire il codice AppMeasurement principale</a>. Questo codice viene popolato automaticamente quando si utilizza il metodo di configurazione automatico descritto in <a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  >Impostazioni di Adobe Analytics</a>. </p> <p> <b>Nome variabile Tracker: </b>Se desiderate eseguire due istanze di <span class="keyword"> Adobe Analytics</span> in parallelo (una in Gestione tag dinamica e una in modo nativo), potete rinominare l' <span class="term"> oggetto s</span> principale. Se rinomini il nome dell’oggetto, non si verificano conflitti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
