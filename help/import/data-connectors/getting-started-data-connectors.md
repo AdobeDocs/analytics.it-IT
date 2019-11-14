@@ -1,10 +1,8 @@
 ---
 description: Importa dati di monitoraggio da applicazioni di terze parti in Analytics.
-seo-description: Accedere ai connettori dati; importare dati di tracciamento da applicazioni di terze parti in Analytics, aggiungere integrazioni e connettori dati.
-seo-title: Connettori dati di Analytics
 title: Guida introduttiva ai connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
