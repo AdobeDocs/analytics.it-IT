@@ -1,14 +1,12 @@
 ---
 description: Anche se i rapporti sui percorsi sono disponibili out-of-the-box per le pagine, i percorsi possono essere abilitati anche per le variabili di traffico personalizzate.
-keywords: Implementazione di Analytics
-seo-description: Anche se i rapporti sui percorsi sono disponibili out-of-the-box per le pagine, i percorsi possono essere abilitati anche per le variabili di traffico personalizzate.
-seo-title: Abilita tracciatura percorso in un prop
+keywords: Analytics Implementation
 solution: Analytics
 title: Abilita tracciatura percorso in un prop
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
