@@ -1,21 +1,19 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Test e processo di convalida
 title: Test e processo di convalida
-uuid: 136 f 8 e 76-d 54 f -4445-a 663-ddc 0 c 8 eeb 5 b 7
+uuid: 136f8e76-d54f-4445-a663-ddc0c8eeb5b7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Panoramica sul processo di test e convalida
+# Panoramica del processo di verifica e convalida
 
 <!-- Write summary -->
 
-+ [Identificare la variabile s_ account nel debugger](impl-testing-account.md)
-+ [Javascript JS, file](impl-js-file.md)
++ [Identificare la variabile s_account nel debugger](impl-testing-account.md)
++ [File JavaScript JS](impl-js-file.md)
 + [Modifiche al codice](impl-code-updates.md)
 + [Variabili e valori](impl-var-values.md)
 + [Variabili personalizzate](impl-custom-vars.md)
