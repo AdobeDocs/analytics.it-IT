@@ -1,13 +1,11 @@
 ---
 description: Consente di accedere a un set completo di metriche da Adobe Analytics nella barra degli strumenti Activity Map.
-seo-description: Consente di accedere a un set completo di metriche da Adobe Analytics nella barra degli strumenti Activity Map.
-seo-title: Set completo di metriche
 solution: Analytics
 title: Set completo di metriche
-topic: Activity Map
+topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
