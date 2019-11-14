@@ -1,14 +1,12 @@
 ---
 description: Implementate Analytics utilizzando un tag immagine HTML (richiesta immagine hardcoded).
 keywords: Analytics Implementation;html image tag;hardcoded image request
-seo-description: Implementate Analytics utilizzando un tag immagine HTML (richiesta immagine hardcoded).
-seo-title: Implementazione di Analytics tramite tag immagine HTML
 solution: Analytics
 title: Implementazione di Analytics tramite tag immagine HTML
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
