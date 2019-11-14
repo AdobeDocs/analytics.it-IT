@@ -1,11 +1,9 @@
 ---
 description: Domande frequenti su funzionalità, funzionalità e problemi relativi all'inoltro lato server.
-seo-description: Domande frequenti su funzionalità, funzionalità e problemi relativi all'inoltro lato server.
-seo-title: Domande frequenti sull'inoltro lato server
 title: Domande frequenti sull'inoltro lato server
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
