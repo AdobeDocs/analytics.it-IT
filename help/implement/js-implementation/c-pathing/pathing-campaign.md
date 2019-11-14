@@ -1,14 +1,12 @@
 ---
 description: Consente di rispondere alla domanda "Dopo che un utente fa clic sul mio sito da una campagna, dove si trova sul sito?"
-keywords: Implementazione di Analytics
-seo-description: Consente di rispondere alla domanda "Dopo che un utente fa clic sul mio sito da una campagna, dove si trova sul sito?"
-seo-title: Percorsi per campagna o codice di tracciamento
+keywords: Analytics Implementation
 solution: Analytics
 title: Percorsi per campagna o codice di tracciamento
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
