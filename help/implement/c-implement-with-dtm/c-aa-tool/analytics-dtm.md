@@ -1,14 +1,12 @@
 ---
 description: Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
-keywords: Analytics Implementation;metodo di implementazione;gestione tag dinamica;dtm;strumento di analisi;proprietà;tipo di strumento;nome strumento;metodo di configurazione;Analytics premium;evar;eventi
-seo-description: Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
-seo-title: Aggiunta dello strumento Adobe Analytics
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: Aggiunta dello strumento Adobe Analytics
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -52,10 +50,10 @@ Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strume
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuale</b>: Gestisci manualmente il codice AppMeasurement. Puoi scaricare il codice <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> da Strumenti <span class="ignoretag"><span class="uicontrol"> di amministrazione &gt;</span> Gestionecodici <span class="uicontrol"></span></span>. </p> <p>Fate clic su <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html"> JavaScript (nuovo)</a> per informazioni su come scaricare localmente il codice per copiare e incollare nel campo <span class="wintitle"> Modifica codice</span> in Gestione <a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md"></a>libreria. </p> <p>Compila i campi specifici per una configurazione manuale: </p> 
+   <td colname="col2"> <p> <b>Manuale</b>: Gestisci manualmente il codice AppMeasurement. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Fate clic su <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html"> JavaScript (nuovo)</a> per informazioni su come scaricare localmente il codice per copiare e incollare nel campo <span class="wintitle"> Modifica codice</span> in Gestione <a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md"></a>libreria. </p> <p>Compila i campi specifici per una configurazione manuale: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID account produzione: </b>(Obbligatorio) Account di produzione per la raccolta dei dati. Per Analytics, questo è il tuo ID suite di rapporti. Gestione tag dinamica installa automaticamente l'account corretto nell'ambiente di produzione e di staging. </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID account di gestione temporanea: </b>(Obbligatorio) Utilizzato nell'ambiente di sviluppo o di test. Per Analytics, questo è il tuo ID suite di rapporti. Un account di verifica mantiene i dati di test separati dalla produzione. </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID account produzione: </b>(Obbligatorio) Account di produzione per la raccolta dei dati. Per Analytics, questo è l’ID della tua suite di rapporti. Dynamic Tag Management installa automaticamente l’account corretto nell’ambiente di produzione e di staging. </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID account di gestione temporanea: </b>(Obbligatorio) Utilizzato nell'ambiente di sviluppo o di test. Per Analytics, questo è l’ID della tua suite di rapporti. Un account di staging mantiene i dati di test separati dalla produzione. </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Server di tracciamento: </b>Specificate le informazioni per il server di tracciamento. </p> <p>Le variabili <span class="wintitle"> Tracking Server</span> e <span class="wintitle"> SSL Tracking Server</span> vengono utilizzate per l’implementazione dei cookie di prime parti per specificare il dominio in cui vengono scritti la richiesta di immagine e il cookie. Per ulteriori informazioni, consulta <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html"> Aggiunta corretta delle variabili trackingServer e trackingServerSecure</a> . </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>Server di tracciamento SSL: </b>Specificate le informazioni per il server di tracciamento SSL. </p> </li> 
     </ul> </td> 
