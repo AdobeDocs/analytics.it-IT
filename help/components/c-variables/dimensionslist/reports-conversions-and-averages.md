@@ -1,18 +1,16 @@
 ---
-description: Visualizza le entrate in base agli eventi specificati e mostra la media a discesa dall'evento all'evento.
-seo-description: Visualizza le entrate in base agli eventi specificati e mostra la media a discesa dall'evento all'evento.
-seo-title: Conversioni e medie
+description: Visualizza le entrate in base a eventi specifici e mostra la media degli abbandoni tra eventi ed eventi.
 solution: Analytics
 title: Conversioni e medie
-topic: Rapporti
-uuid: 693 b 12 b 8-bca 7-4972-a 7 b 6-a 7059701 f 574
+topic: Reports
+uuid: 693b12b8-bca7-4972-a7b6-a7059701f574
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Conversioni e medie
 
-Visualizza le entrate in base agli eventi specificati e mostra la media a discesa dall'evento all'evento.
+Visualizza le entrate in base a eventi specifici e mostra la media degli abbandoni tra eventi ed eventi.
 
