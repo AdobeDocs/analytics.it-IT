@@ -1,82 +1,80 @@
 ---
-description: Un elenco completo e descrizioni delle variabili di configurazione, delle intestazioni HTTP e dei segnali dati nelle chiamate di inoltro lato server.
-seo-description: Un elenco completo e descrizioni delle variabili di configurazione, delle intestazioni HTTP e dei segnali dati nelle chiamate di inoltro lato server.
-seo-title: Dati inoltri lato server e riferimento a un codice
-title: Dati inoltri lato server e riferimento a un codice
-uuid: 3 eb 3 ea 0 f-a 530-448 d-bba 5-6408 b 2490 dc 8
+description: Un elenco completo e una descrizione delle variabili di configurazione, delle intestazioni HTTP e dei segnali di dati nelle chiamate di inoltro lato server.
+title: Dati inoltri lato server e riferimento al codice
+uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Dati inoltri lato server e riferimento a un codice
+# Dati inoltri lato server e riferimento al codice
 
-Un elenco completo e descrizioni delle variabili di configurazione, delle intestazioni HTTP e dei segnali dati nelle chiamate di inoltro lato server.
+Un elenco completo e una descrizione delle variabili di configurazione, delle intestazioni HTTP e dei segnali di dati nelle chiamate di inoltro lato server.
 
 ## Variabili di configurazione {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). See also [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parametri con prefisso per `d_*` identificare coppie chiave-valore a livello di sistema speciali utilizzate dai nostri server [di raccolta](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) dati (DCS). Consultate anche Attributi [supportati per le chiamate](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)API DCS.
 
 | Parametro | Descrizione |
 |--- |--- |
-| d_ rs | (Gets set with legacy/tracking-server-based server-side forwarding) <br>Set to the report suites passed in with the hit to Analytics. |
-| d_ dst_ filter | (Gets set with report-suite-based server-side forwarding)  <br>Set to the report suite IDs passed in with the hit to Analytics. |
-| d_ dst | Set  d_dst=1  <br>if the request to Analytics is expecting content about the destination to be sent back to the client. |
-| d_mid | L'ID Experience Cloud passato ad Analytics. |
+| d_rs | (Ottiene l'impostazione con l'inoltro lato server legacy/di tracciamento) <br>Impostato sulle suite di rapporti passate con l'hit in Analytics. |
+| d_dst_filter | (Ottiene l'impostazione con l'inoltro lato server basato su suite di rapporti) <br>Impostato sugli ID suite di rapporti passati con l'hit ad Analytics. |
+| d_dst | Impostate d_dst=1 <br>se la richiesta ad Analytics è in attesa che il contenuto della destinazione venga restituito al client. |
+| d_mid | L’ID Experience Cloud passato ad Analytics. |
 
-## HTTP Headers {#section_0549705E76004F9585224AEF872066C0}
+## Intestazioni HTTP {#section_0549705E76004F9585224AEF872066C0}
 
-Tali intestazioni contengono informazioni come richieste di dati e risposte in una chiamata HTTP.
+Queste intestazioni sono campi che contengono informazioni come richieste di dati e risposte in una chiamata HTTP.
 
 <!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
 
 | Intestazione HTTP | Descrizione |
 |--- |--- |
-| Host | Viene impostato sul nome host della raccolta dati del client specificato nel file di configurazione host di Analytics. It appears as   `host name .demdex.net` .  Vedi Informazioni sulle chiamate al dominio demdex . |
-| Agente utente | Impostare sull'intestazione Agente utente trasmesso ad Analytics. |
-| X-Original-User-Agent | Only set if an alternate user agent was specified by one of these headers: </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
-| X-inoltr@-@ for | Impostare l'indirizzo IP del client richiedente. Analytics will have already parsed the incoming  `X-Forwarded-For`  header and determined the correct IP address to use. |
-| Accept-Language | Set to the  `Accept-Language`  header passed in to Analytics. |
-| Referente | Imposta l'URL della pagina trasmesso ad Analytics o raccolto dall'intestazione Referer passata ad Analytics. |
+| Host | Questo è impostato sul nome host di raccolta dati specifico del client specificato nel file di configurazione dell'host di Analytics. Viene visualizzato come `host name .demdex.net` .  Vedi Informazioni sulle chiamate al dominio demdex . |
+| Agente utente | Impostato sull’intestazione Agente utente passata ad Analytics. |
+| X-Original-User-Agent | Impostato solo se un agente utente alternativo è stato specificato da una delle seguenti intestazioni: </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
+| X-Forwarded-For | Impostate l'indirizzo IP del client richiedente. Analytics avrà già analizzato l’ `X-Forwarded-For` intestazione in entrata e determinato l’indirizzo IP corretto da utilizzare. |
+| Accept-Language | Impostato sull’ `Accept-Language` intestazione passata ad Analytics. |
+| Referente | Impostato sull’URL della pagina passato ad Analytics o raccolto dall’intestazione Referente passato ad Analytics. |
 
-## Customer-Defined Signals {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
+## Segnali definiti dal cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parametri con prefisso per `c_` identificare le variabili definite dal cliente. Consultate anche Attributi [supportati per le chiamate](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)API DCS.
 
 | Segnale | Descrizione |
 |--- |--- |
-| c_ browserwidth e c_ browserheight | Larghezza e altezza della finestra del browser. |
-| c_ campaign | Impostato per s. campaign. |
-| c_ channel | Impostato da s. channel. |
-| c_ clientdatetime | Timestamp formattato come gg/mm/aaaa hh: mm: ss W TZ. TZ è in minuti e corrisponde al ritorno del metodo Date. gettimezoneoffset. |
-| c_ colordepth | Specificato come colore a 16 o 32 bit. |
-| c_ connectiontype | Specifica il tipo di connessione. Le opzioni includono:<ul><li>modem</li><li>lan</li></ul> |
-| c_ contextdata.* | Esempi:<ul><li>Appmeasurement: s. contextdata</li><li>[" category "] =" news ";</li><li>Segnale: c_ contextdata. category = news</li></ul> |
-| c_ cookiesenabled | Specifica se i cookie possono essere abilitati. Le opzioni includono: yes, no, unknown |
-| c_ currencycode | Tipo di valuta utilizzata per la transazione. |
-| c_ evar # | Variabili evar personalizzate |
-| c_ events | Impostato per s. events. |
-| c_ hier # | Variabili gerarchiche personalizzate. |
-| c_ javaenabled | Specifica se è possibile abilitare Java. Le opzioni includono: yes, no, unknown |
-| c_ javascriptversion | Versione di javascript supportata da un browser. |
-| c_ latitude | Latitudine numerica |
-| c_ linkclick | Le opzioni includono: custom, download exit |
-| c_ linkcustomname | Eventuale nome personalizzato fornito per il collegamento. |
-| c_ linkdownloadurl | L'URL dei collegamenti di download. |
-| c_ linkexiturl | L'URL di collegamento uscita. |
-| c_ list # | Variabili elenco personalizzate. |
-| c_ longitude | Longitudine numerica. |
-| c_ mediaplayertype | Per richieste di tracciamento flussi multimediali. Le opzioni includono: other, primetime |
-| c_ pagename | Il nome della pagina (se impostato). |
-| c_ pageurl | L'indirizzo della pagina nella barra degli indirizzi del browser. |
-| c_ products | Stringa di prodotto (impostata da s. products). |
-| c_ prop | Proprietà personalizzate. |
-| c_ purchaseid | ID univoco per l'acquisto. |
-| c_ referrer | Pagina prima della pagina corrente. |
-| c_ screenresolution | Larghezza e altezza dello schermo (in pixel). |
-| c_ server | Nome server Web (impostato da s. server). |
-| c_ state | Area geografica (impostata da s. state). |
-| c_ timezone | Offset tempo (in ore). |
-| c_ transactionid | Un ID univoco per una transazione. |
-| c_ zip | Codice postale (impostato da s.zip). |
+| c_browserWidth e c_browserHeight | Larghezza e altezza della finestra del browser. |
+| c_campaign | Impostato da s.campaign. |
+| c_channel | Impostato da s.channel. |
+| c_clientDateTime | Timestamp formattato come gg/mm/aaaa hh:mm:ss W TZ.    TZ è espresso in minuti e corrisponde al valore restituito dal metodo Date.getTimezoneOffset. |
+| c_colorDepth | Specificato come colore a 16 o 32 bit. |
+| c_connectionType | Specifica il tipo di connessione. Le opzioni includono:<ul><li>modem</li><li>lan</li></ul> |
+| c_contextData.* | Esempi:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Segnale:  c_contextData.category=news</li></ul> |
+| c_cookiesEnabled | Specifica se i cookie possono essere attivati. Le opzioni includono: sì, no, sconosciuto |
+| c_currencyCode | Tipo di valuta utilizzata per la transazione. |
+| c_evar# | Evar personalizzati |
+| c_events | Impostato da s.events. |
+| c_hier# | Variabili della gerarchia personalizzata. |
+| c_javaEnabled | Specifica se Java può essere abilitato. Le opzioni includono: sì, no, sconosciuto |
+| c_javaScriptVersion | Versione di JavaScript supportata da un browser. |
+| c_latitude | Latitudine numerica |
+| c_linkClick | Le opzioni includono: custom, download exit |
+| c_linkCustomName | Il nome personalizzato (se presente) fornito per il collegamento. |
+| c_linkDownloadURL | URL dei collegamenti di download. |
+| c_linkExitURL | L’URL del collegamento di uscita. |
+| c_list# | Variabili elenco personalizzate. |
+| c_longitude | longitudine numerica. |
+| c_mediaPlayerType | Per richieste di tracciamento del flusso multimediale. Le opzioni includono:  altro, primetime |
+| c_pageName | Il nome della pagina (se impostato). |
+| c_pageURL | Indirizzo della pagina nella barra degli indirizzi del browser. |
+| c_products | Stringa del prodotto (impostata da s.products ). |
+| c_prop | Proprietà personalizzate. |
+| c_purchaseID | Un ID univoco per l'acquisto. |
+| c_referrer | La pagina precedente a quella corrente. |
+| c_screenResolution | Larghezza e altezza dello schermo (in pixel). |
+| c_server | Nome server Web (impostato da s.server). |
+| c_state | Area geografica (impostata da s.state). |
+| c_timezone | Offset tempo (in ore). |
+| c_transactionID | Un ID univoco per una transazione. |
+| c_zip | Codice postale (impostato da s.zip). |
