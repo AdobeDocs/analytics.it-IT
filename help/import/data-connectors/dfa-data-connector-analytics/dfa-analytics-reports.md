@@ -1,14 +1,12 @@
 ---
 description: Una volta che i server di raccolta DFA e Adobe® possono comunicare, potete generare report in Reporting e analisi che includono dati DFA.
-keywords: DFAE
-seo-description: Una volta che i server di raccolta DFA e Adobe® possono comunicare, potete generare report in Reporting e analisi che includono dati DFA.
-seo-title: Report di analisi con dati DFA
+keywords: DFA
 solution: Analytics
 title: Report di analisi con dati DFA
-topic: Connettori dati
+topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
