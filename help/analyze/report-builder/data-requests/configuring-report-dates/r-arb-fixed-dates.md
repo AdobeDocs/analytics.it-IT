@@ -1,13 +1,11 @@
 ---
 description: Definizioni per date fisse nel generatore di report.
-seo-description: Definizioni per date fisse nel generatore di report.
-seo-title: 'Definizioni di Creazione guidata richieste: date fisse'
 solution: Analytics
 title: 'Definizioni di Creazione guidata richieste: date fisse'
-topic: Generatore di report
-uuid: bd65a312-bab6-46d7-ba30-57077344cc9
+topic: Report builder
+uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
