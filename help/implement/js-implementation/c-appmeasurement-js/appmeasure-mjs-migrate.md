@@ -1,15 +1,13 @@
 ---
 description: La tabella seguente contiene un elenco delle attività da eseguire per migrare l’implementazione.
-keywords: Implementazione di Analytics;app measurement;migrate;migrazione;javascript
-seo-description: La tabella seguente contiene un elenco delle attività da eseguire per migrare l’implementazione.
-seo-title: Migrazione ad AppMeasurement per JavaScript
+keywords: Analytics Implementation;appmeasurement;migrate;migrating;javascript
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Migrazione ad AppMeasurement per JavaScript
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ La tabella seguente contiene un elenco delle attività da eseguire per migrare l
 
 >[!NOTE]
 >
-> È consigliabile eseguire la migrazione al servizio [](/help/implement/js-implementation/c-unique-visitors/visid-service.md) identità al momento della migrazione a [!DNL AppMeasurement] JavaScript.
+>È consigliabile eseguire la migrazione al servizio [](/help/implement/js-implementation/c-unique-visitors/visid-service.md) identità al momento della migrazione a [!DNL AppMeasurement] JavaScript.
 
 ![](assets/step1_icon.png) Verifica compatibilità plug-in
 
