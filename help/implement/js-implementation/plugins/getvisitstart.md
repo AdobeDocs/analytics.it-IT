@@ -1,21 +1,19 @@
 ---
-description: Determina se avviare una nuova visita.
-keywords: Implementazione di Analytics
-seo-description: Determina se avviare una nuova visita.
-seo-title: Getvisitstart
+description: Determina se iniziare una nuova visita.
+keywords: Analytics Implementation
 solution: Analytics
-title: Getvisitstart
-topic: Sviluppatore e implementazione
-uuid: 7 dd 3 e 51 f -2 f 73-4452-a 9 fb-cac 513 cd 28 eb
+title: getVisitStart
+topic: Developer and implementation
+uuid: 7dd3e51f-2f73-4452-a9fb-cac513cd28eb
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Getvisitstart
+# getVisitStart
 
-Determina se avviare una nuova visita.
+Determina se iniziare una nuova visita.
 
 **Variabili di configurazione**
 
@@ -27,7 +25,7 @@ c = (stringa) nome del cookie per il tracciamento.
 
 **Restituisce**
 
-(integer) 1 nella prima pagina di visita, altrimenti 0.
+(integer) 1 nella prima pagina della visita, altrimenti 0.
 
 **Chiamate di esempio**
 
