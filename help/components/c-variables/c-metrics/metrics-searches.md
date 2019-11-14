@@ -1,13 +1,11 @@
 ---
 description: La metrica predefinita consigliata per motori di ricerca e parole chiave. Questa metrica rappresenta le istanze di un click-through e mostra la pagina associata a un motore o a una parola chiave specifici. I dati delle metriche delle ricerche possono essere segnalati retroattivamente all'inizio del set di dati.
-seo-description: La metrica predefinita consigliata per motori di ricerca e parole chiave. Questa metrica rappresenta le istanze di un click-through e mostra la pagina associata a un motore o a una parola chiave specifici. I dati delle metriche delle ricerche possono essere segnalati retroattivamente all'inizio del set di dati.
-seo-title: Ricerche
 solution: Analytics
 title: Ricerche
-topic: Metriche
+topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
