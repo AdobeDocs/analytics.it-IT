@@ -1,13 +1,11 @@
 ---
 description: Le tempistiche di elaborazione di un qualsiasi file FTP, sia per le classificazioni che per le origini dati, si basano sul numero di file già presenti nella coda di elaborazione e dalla dimensione del file in questione.
 keywords: ftp;sftp
-seo-description: Le tempistiche di elaborazione di un qualsiasi file FTP, sia per le classificazioni che per le origini dati, si basano sul numero di file già presenti nella coda di elaborazione e dalla dimensione del file in questione.
-seo-title: Tempistiche di elaborazione FTP
 solution: Analytics
 title: Tempistiche di elaborazione FTP
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
