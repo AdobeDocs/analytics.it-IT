@@ -1,10 +1,8 @@
 ---
 title: Aiuto sull’esportazione di Analytics
-seo-title: Aiuto sull’esportazione di Analytics
 description: nulle
-seo-description: nulle
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,7 +28,7 @@ Questa guida descrive diversi modi di estrarre dati da Adobe Analytics. Include:
 
 ## Risorse chiave per Analytics
 
-* [Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
+* [Contatta l’Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=it#recommended/solutions/analytics)
+* [Experience League](https://landing.adobe.com/experience-league/)
