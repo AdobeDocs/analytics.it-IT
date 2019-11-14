@@ -1,18 +1,16 @@
 ---
-description: Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata sul sito. Ad esempio, selezionando e reportando rapporti sull'intero sito, il rapporto mostra le dieci pagine di destinazione più importanti, con le cinque pagine più popolari elencate in ciascuna pagina di destinazione. Questi dati consentono di comprendere quali contenuti e funzionalità più spesso impediscono ai visitatori di spostarsi nel sito.
-seo-description: Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata sul sito. Ad esempio, selezionando e reportando rapporti sull'intero sito, il rapporto mostra le dieci pagine di destinazione più importanti, con le cinque pagine più popolari elencate in ciascuna pagina di destinazione. Questi dati consentono di comprendere quali contenuti e funzionalità più spesso impediscono ai visitatori di spostarsi nel sito.
-seo-title: Pagina successiva
+description: Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata sul sito. Ad esempio, quando si seleziona e si crea un rapporto sull’intero sito, il rapporto mostra le prime dieci pagine di destinazione, con le cinque pagine successive più popolari elencate sotto ogni pagina di destinazione. Questi dati possono essere utili per comprendere quali contenuti e funzionalità richiedono più spesso ai visitatori di spostarsi all'interno del sito.
 solution: Analytics
 title: Pagina successiva
-topic: Rapporti
-uuid: 4 abecb 9 c-efc 4-4844-9712-f 352 b 2570936
+topic: Reports
+uuid: 4abecb9c-efc4-4844-9712-f352b2570936
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Pagina successiva
 
-Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata sul sito. Ad esempio, selezionando e reportando rapporti sull'intero sito, il rapporto mostra le dieci pagine di destinazione più importanti, con le cinque pagine più popolari elencate in ciascuna pagina di destinazione. Questi dati consentono di comprendere quali contenuti e funzionalità più spesso impediscono ai visitatori di spostarsi nel sito.
+Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata sul sito. Ad esempio, quando si seleziona e si crea un rapporto sull’intero sito, il rapporto mostra le prime dieci pagine di destinazione, con le cinque pagine successive più popolari elencate sotto ogni pagina di destinazione. Questi dati possono essere utili per comprendere quali contenuti e funzionalità richiedono più spesso ai visitatori di spostarsi all'interno del sito.
 
