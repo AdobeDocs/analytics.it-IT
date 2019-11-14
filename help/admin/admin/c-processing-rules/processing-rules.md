@@ -1,14 +1,12 @@
 ---
 description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l'invio ai report.
-seo-description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l'invio ai report.
-seo-title: Panoramica sulle regole di elaborazione
 solution: Analytics
-subtopic: Regole di elaborazione
+subtopic: Processing rules
 title: Panoramica sulle regole di elaborazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
