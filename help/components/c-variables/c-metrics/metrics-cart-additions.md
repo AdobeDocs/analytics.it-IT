@@ -1,24 +1,22 @@
 ---
-description: Numero di volte in cui un elemento è stato aggiunto a un carrello. Questo valore deriva dall'evento neard.
-seo-description: Numero di volte in cui un elemento è stato aggiunto a un carrello. Questo valore deriva dall'evento neard.
-seo-title: Aggiunte carrello
+description: Il numero di volte in cui un articolo è stato aggiunto a un carrello. Questo valore deriva dall'evento scAdd.
 solution: Analytics
 title: Aggiunte carrello
-topic: Metrics (Metriche)
-uuid: d 034 ba 4 c-f 78 b -4 ce 3-9 ba 2-dd 158 e 26 ede 5
+topic: Metrics
+uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Aggiunte carrello
 
-Numero di volte in cui un elemento è stato aggiunto a un carrello. Questo valore deriva dall'evento neard.
+Il numero di volte in cui un articolo è stato aggiunto a un carrello. Questo valore deriva dall'evento scAdd.
 
 | Usi | Descrizione |
 |---|---|
-| Traffic (Traffico) | N/D |
-| Conversione   | Instance of the [!UICONTROL cart add] event being set. Si verifica quando un elemento viene aggiunto al carrello. |
-| Analisi ad hoc | Instance of the [!UICONTROL cart add] event being set. Si verifica quando un elemento viene aggiunto al carrello. |
+| Traffico | N/D |
+| Conversione | Istanza dell’ [!UICONTROL cart add] evento da impostare. Si verifica quando un elemento viene aggiunto al carrello. |
+| Analisi ad hoc | Istanza dell’ [!UICONTROL cart add] evento da impostare. Si verifica quando un elemento viene aggiunto al carrello. |
 
