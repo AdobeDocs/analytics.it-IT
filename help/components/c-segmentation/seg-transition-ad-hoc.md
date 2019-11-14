@@ -1,14 +1,12 @@
 ---
 description: Se sei abituato a lavorare con Segment Builder (Generatore di segmenti) in Analisi ad hoc, questa domanda frequente spiega cosa accade ai segmenti e alle cartelle esistenti e quali azioni devi intraprendere.
-keywords: segmentazione;segmenti
-seo-description: Se sei abituato a lavorare con Segment Builder (Generatore di segmenti) in Analisi ad hoc, questa domanda frequente spiega cosa accade ai segmenti e alle cartelle esistenti e quali azioni devi intraprendere.
-seo-title: Guida alla transizione per Ad Hoc Analysis
+keywords: segmentation;segments
 solution: Analytics
 title: Guida alla transizione per Ad Hoc Analysis
-topic: Segmenti
+topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -62,7 +60,6 @@ Vengono visualizzati tutti i segmenti di analisi ad hoc di proprietà e quelli s
 L'analisi ad hoc visualizza solo i segmenti generati dall'utente stesso o quelli condivisi specificatamente con l'utente. Solo per l’analisi ad hoc, puoi usare Segment Manager (Organizza segmenti) per gestire segmenti di analisi ad hoc. Utilizza Segment Manager (Gestore segmenti) in Unified Segmentation per gestire tutti i segmenti di Analytics.
 
 ## Cosa devo fare con segmenti duplicati con lo stesso nome ma con definizioni diverse? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
-
 
 Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. È consigliabile
 
