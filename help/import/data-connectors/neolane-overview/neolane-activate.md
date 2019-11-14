@@ -1,11 +1,9 @@
 ---
 description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
-seo-description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
-seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,6 +33,6 @@ Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'
 | Aperture univoche | Numero di aperture distinte. |
 | Annulla sottoscrizione | Numero di visitatori che hanno aperto il messaggio e-mail e che hanno quindi fatto clic sul collegamento Annulla sottoscrizione per rifiutare i messaggi e-mail futuri della vostra organizzazione. |
 | Segmenti | Questa integrazione crea i segmenti definiti dal partner visualizzati nella sezione Segmenti partner. Inoltre, puoi selezionare segmenti esistenti a livello di suite di rapporti da includere nell'integrazione. |
-|  Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
+| Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
 | Raccolta dati | Selezionate Plug-in **** JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione. Selezionate **Automated Solution** se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l'integrazione: <ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail.</li><li>Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail.</li></ul> |
 | Generazione di dashboard e segnalibri | Genera automaticamente dashboard e segnalibri per l'integrazione. |
