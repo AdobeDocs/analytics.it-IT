@@ -1,18 +1,16 @@
 ---
-description: Mostra la larghezza dello schermo per i vari dispositivi mobili e il numero di visualizzazioni per ogni larghezza dello schermo. Potete inoltre visualizzare Dimensioni schermo per visualizzare l'altezza e la larghezza dello schermo.
-seo-description: Mostra la larghezza dello schermo per i vari dispositivi mobili e il numero di visualizzazioni per ogni larghezza dello schermo. Potete inoltre visualizzare Dimensioni schermo per visualizzare l'altezza e la larghezza dello schermo.
-seo-title: Larghezza schermo
+description: Mostra la larghezza dello schermo per vari dispositivi mobili e il numero di visualizzazioni per ogni larghezza dello schermo. È inoltre possibile visualizzare Dimensione schermo per visualizzare l'altezza e la larghezza dello schermo.
 solution: Analytics
 title: Larghezza schermo
-topic: Rapporti
-uuid: 2 a 3258 fb-c 973-4 a 0 a-b 7 d 8-e 916 fcd 5 a 30 d
+topic: Reports
+uuid: 2a3258fb-c973-4a0a-b7d8-e916fcd5a30d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Larghezza schermo
 
-Mostra la larghezza dello schermo per i vari dispositivi mobili e il numero di visualizzazioni per ogni larghezza dello schermo. Potete inoltre visualizzare Dimensioni schermo per visualizzare l'altezza e la larghezza dello schermo.
+Mostra la larghezza dello schermo per vari dispositivi mobili e il numero di visualizzazioni per ogni larghezza dello schermo. È inoltre possibile visualizzare Dimensione schermo per visualizzare l'altezza e la larghezza dello schermo.
 
