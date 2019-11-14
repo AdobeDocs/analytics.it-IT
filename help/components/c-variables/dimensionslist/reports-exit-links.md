@@ -1,13 +1,11 @@
 ---
 description: Mostra i collegamenti più comuni sui quali gli utenti fanno clic e che portano a posizioni esterne al sito. Questi collegamenti in genere fanno riferimento a siti partner o affiliati. Tuttavia, possono essere ovunque tu abbia implementato un collegamento esterno. Puoi utilizzare questo rapporto per visualizzare i collegamenti di affiliazione più popolari o per aiutare a convalidare il numero di riferimenti forniti dallo stato dei partner.
-seo-description: Mostra i collegamenti più comuni sui quali gli utenti fanno clic e che portano a posizioni esterne al sito. Questi collegamenti in genere fanno riferimento a siti partner o affiliati. Tuttavia, possono essere ovunque tu abbia implementato un collegamento esterno. Puoi utilizzare questo rapporto per visualizzare i collegamenti di affiliazione più popolari o per aiutare a convalidare il numero di riferimenti forniti dallo stato dei partner.
-seo-title: Esci dai collegamenti
 solution: Analytics
 title: Esci dai collegamenti
-topic: Rapporti
+topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
