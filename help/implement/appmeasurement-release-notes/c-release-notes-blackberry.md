@@ -1,14 +1,12 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: BlackBerry
 solution: Analytics
-subtopic: Note sulla versione
+subtopic: Release notes
 title: BlackBerry
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 1e4e037f-2a8b-4051-9327-c9949efff7b7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
