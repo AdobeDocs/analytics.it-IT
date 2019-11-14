@@ -1,15 +1,13 @@
 ---
 description: Le variabili di dati di contesto consentono di definire variabili personalizzate su ogni pagina che possono essere lette dalle regole di elaborazione.
-keywords: Implementazione di Analytics;contextdata;s.contextdata
-seo-description: Le variabili di dati di contesto consentono di definire variabili personalizzate su ogni pagina che possono essere lette dalle regole di elaborazione.
-seo-title: Variabili di dati di contesto
+keywords: Analytics Implementation;contextdata;s.contextdata
 solution: Analytics
-subtopic: Variabili
+subtopic: Variables
 title: Variabili di dati di contesto
-topic: Sviluppatore e implementazione
-uuid: 4b215803-99d4-46f2-b3c1-e7858987764
+topic: Developer and implementation
+uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,11 +19,13 @@ Le variabili di dati di contesto consentono di definire variabili personalizzate
 Invece di assegnare in modo esplicito valori a prop ed eVar nel codice, potete inviare dati in variabili di dati di contesto mappate utilizzando le regole di elaborazione. Le regole di elaborazione forniscono una potente interfaccia grafica per apportare modifiche ai dati durante la ricezione. In base ai valori inviati nei dati contestuali, è possibile impostare eventi, copiare valori in eVar e prop ed eseguire istruzioni condizionali aggiuntive.
 
 > [!NOTE] Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Ad esempio, le due variabili seguenti sono effettivamente identiche:
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >e
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
@@ -37,11 +37,11 @@ Ad esempio, puoi definire la seguente *`s.contextData`* variabile:
 s.contextData['myco.rsid'] = 'value'
 ```
 
-Utilizzando le regole di elaborazione è possibile aggiungere una condizione che verifica la presenza di una variabile di dati di `myco.rsid` contesto. Una volta trovata questa variabile, potete aggiungere un'azione per copiarla in una prop o eVar.
+Utilizzando le regole di elaborazione è possibile aggiungere una condizione che verifica la presenza di una variabile di dati di `myco.rsid` contesto. Una volta trovata questa variabile, puoi aggiungere un'azione per copiarla in una prop o eVar.
 
 Le variabili di dati di contesto possono essere definite direttamente nell'interfaccia delle regole di elaborazione per memorizzare temporaneamente un valore, o per raccogliere valori da una variabile di dati di contesto che sai verrà utilizzata nella suite di rapporti. Ad esempio, se è necessario scambiare due valori, è possibile creare una variabile di dati di contesto per memorizzare un valore durante lo scambio.
 
-Poiché le regole di elaborazione vengono applicate solo quando i dati vengono raccolti, è importante impostare le regole di elaborazione prima di iniziare a inviare i dati contestuali. I valori dei dati di contesto che non vengono letti dalle regole di elaborazione quando un hit viene elaborato vengono scartati.
+Poiché le regole di elaborazione vengono applicate solo quando i dati vengono raccolti, è importante impostare le regole di elaborazione prima di iniziare a inviare i dati contestuali. I valori dei dati contestuali che non vengono letti dalle regole di elaborazione quando un hit viene elaborato vengono scartati.
 
 ## Regole {#section_2229739F6B1A4C1CAD7140BDF4687523}
 
