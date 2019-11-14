@@ -1,20 +1,18 @@
 ---
-description: Crea uno strumento Adobe Analytics per la distribuzione tramite Gestione tag dinamica. Questa procedura descrive un'implementazione manuale (legacy).
+description: Crea uno strumento Adobe Analytics per la distribuzione tramite Gestione tag dinamica. Questa procedura descrive un’implementazione manuale (legacy).
 keywords: Dynamic Tag Management
-seo-description: Crea uno strumento Adobe Analytics per la distribuzione tramite Gestione tag dinamica. Questa procedura descrive un'implementazione manuale (legacy).
-seo-title: Implementazione manuale di Adobe Analytics (legacy)
-solution: Experience Cloud,Analytics,Target,Gestione tag dinamica
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Implementazione manuale di Adobe Analytics (legacy)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Implementazione manuale di Adobe Analytics (legacy)
 
-Crea uno strumento Adobe Analytics per la distribuzione tramite [!UICONTROL Dynamic Tag Management]. Questa procedura descrive un'implementazione manuale (legacy).
+Crea uno strumento Adobe Analytics per la distribuzione tramite [!UICONTROL Dynamic Tag Management]. Questa procedura descrive un’implementazione manuale (legacy).
 
 Per informazioni sulla gestione automatica dell'implementazione, consultate [Aggiunta di Adobe Analytics Tool](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
 
@@ -42,8 +40,8 @@ Se si desidera modificare la configurazione manuale in automatico, modificare un
       |---|---|
       | Tipo di strumento | La soluzione Experience Cloud, come Analytics, Target, Social e così via. |
       | Nome dello strumento | Nome dello strumento. Questo nome viene visualizzato sulla [!UICONTROL Overview] scheda sotto [!UICONTROL Installed Tools]. |
-      | ID account produzione | Un numero per l'account di produzione per la raccolta dei dati. Gestione tag dinamica installa automaticamente l'account corretto nell'ambiente di produzione e di staging. |
-      | ID account di gestione temporanea | Numero utilizzato nell'ambiente di sviluppo o di test. Un account di verifica mantiene i dati di test separati dalla produzione. |
+      | ID account produzione | Un numero per l'account di produzione per la raccolta dei dati. Dynamic Tag Management installa automaticamente l’account corretto nell’ambiente di produzione e di staging. |
+      | ID account di gestione temporanea | Numero utilizzato nell'ambiente di sviluppo o di test. Un account di staging mantiene i dati di test separati dalla produzione. |
 
 1. Fai clic su **[!UICONTROL Create Tool]**.
 
