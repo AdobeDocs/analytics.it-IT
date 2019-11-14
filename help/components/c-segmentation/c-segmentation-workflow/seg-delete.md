@@ -1,13 +1,11 @@
 ---
 description: Elenca alcune considerazioni di cui tenere conto prima di eliminare i segmenti.
-seo-description: Elenca alcune considerazioni di cui tenere conto prima di eliminare i segmenti.
-seo-title: Eliminare segmenti
 solution: Analytics
 title: Eliminare segmenti
-topic: Segmenti
+topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
