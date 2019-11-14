@@ -1,11 +1,9 @@
 ---
 description: L'integrazione appFigures è spesso utilizzata per raccogliere dati per più applicazioni in più app store. Puoi creare segmenti per isolare i dati del rapporto per un'app o un app store specifico.
-seo-description: L'integrazione appFigures è spesso utilizzata per raccogliere dati per più applicazioni in più app store. Puoi creare segmenti per isolare i dati del rapporto per un'app o un app store specifico.
-seo-title: Segmentazione dei dati delle app
 title: Segmentazione dei dati delle app
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: 84c40be45ed4b03435451c12b000910579d75ba1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
