@@ -1,10 +1,8 @@
 ---
 title: Risoluzione dei problemi delle sessioni in Adobe Analytics
 description: Scopri come risolvere i problemi relativi alla disconnessione da Adobe Analytics.
-seo-title: Risoluzione dei problemi delle sessioni in Adobe Analytics
-seo-description: Scopri come risolvere i problemi relativi alla disconnessione da Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
