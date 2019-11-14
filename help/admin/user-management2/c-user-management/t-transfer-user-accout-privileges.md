@@ -1,36 +1,34 @@
 ---
-description: Procedura che descrive come assegnare gli elementi degli account utente (dashboard, metriche calcolate, eventi calendario, avvisi, segnalibri, segmenti, Analysis Workspace e progetti pianificati) da un account utente a quello di un altro utente.
-seo-description: Procedura che descrive come assegnare gli elementi degli account utente (dashboard, metriche calcolate, eventi calendario, avvisi, segnalibri, segmenti, Analysis Workspace e progetti pianificati) da un account utente a quello di un altro utente.
-seo-title: Trasferimento degli elementi dell'account utente
+description: Procedura che descrive come assegnare gli elementi dell’account utente (dashboard, metriche calcolate, eventi di calendario, avvisi, segnalibri, segmenti, progetti di Analysis Workspace e progetti pianificati) da un account utente a quello di un altro utente.
 solution: Analytics
-subtopic: Utenti e gruppi
-title: Trasferimento degli elementi dell'account utente
-topic: Strumenti di amministrazione
-uuid: b 083 c 622-1397-45 ab -8796-f 7 cdc 7043 ec 6
+subtopic: Users and groups
+title: Trasferimento elementi dell'account utente
+topic: Admin tools
+uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Trasferimento degli elementi dell'account utente
+# Trasferimento elementi dell'account utente
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando sarà il momento di eseguire la migrazione degli utenti. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** verranno ritirati.
 
-Procedura che descrive come assegnare gli elementi degli account utente (dashboard, metriche calcolate, eventi calendario, avvisi, segnalibri, segmenti, Analysis Workspace e progetti pianificati) da un account utente a quello di un altro utente.
+Procedura che descrive come assegnare gli elementi dell’account utente (dashboard, metriche calcolate, eventi di calendario, avvisi, segnalibri, segmenti, progetti di Analysis Workspace e progetti pianificati) da un account utente a quello di un altro utente.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Fai clic su **[!UICONTROL Edit Users]**.
-1. Click **[!UICONTROL Transfer]** in the row of the user account you want to transfer.
-1. On the **[!UICONTROL Transfer]** page, select the user account that is to receive this user's account items.
-1. Select the account items to transfer, then click **[!UICONTROL Transfer]**.
-1. Click **[!UICONTROL OK]** to confirm that you want to transfer the selected account resources.
+1. Fate clic **[!UICONTROL Transfer]** nella riga dell’account utente da trasferire.
+1. Nella **[!UICONTROL Transfer]** pagina, selezionate l'account utente che deve ricevere gli elementi account di questo utente.
+1. Selezionate gli elementi account da trasferire, quindi fate clic su **[!UICONTROL Transfer]**.
+1. Fate clic **[!UICONTROL OK]** per confermare che desiderate trasferire le risorse account selezionate.
 
-   L'utente ricevente riceve tutti i diritti per le risorse selezionate dell'account di proprietà dell'utente originale, fatta eccezione per i diritti ai report pianificati.
+   L'utente ricevente riceve tutti i diritti per le risorse account selezionate di proprietà dell'utente originale, fatta eccezione per i diritti per i rapporti pianificati.
 
    >[!NOTE]
    >
-   >Le risorse Analisi ad hoc non possono essere trasferite. Se la vostra organizzazione utilizza più società di accesso, non potete trasferire nulla tra le società di accesso.
+   >Impossibile trasferire le risorse Analisi ad hoc. Se la vostra organizzazione utilizza più società di accesso, non potete trasferire nulla tra le società di accesso.
 
