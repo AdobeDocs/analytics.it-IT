@@ -1,14 +1,12 @@
 ---
 description: Ottiene il tempo di caricamento della pagina in decimi di secondo e consente di memorizzare il valore in un prop, eVar e/o un evento numerico.
-keywords: Implementazione di Analytics
-seo-description: Ottiene il tempo di caricamento della pagina in decimi di secondo e consente di memorizzare il valore in un prop, eVar e/o un evento numerico.
-seo-title: getLoadTime
+keywords: Analytics Implementation
 solution: Analytics
 title: getLoadTime
-topic: Sviluppatore e implementazione
-uuid: 5d26a69b-cbde-4be1-back1-5ee8a4e55ca3
+topic: Developer and implementation
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
