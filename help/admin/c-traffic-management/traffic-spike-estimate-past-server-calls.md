@@ -1,12 +1,10 @@
 ---
 description: Puoi ottenere, ad esempio, la media delle chiamate server giornaliere dello scorso anno in un intervallo di tempo specifico, più un aumento previsto del volume delle chiamate server per quest'anno. Puoi quindi pianificare i picchi di traffico in base a questo fattore di moltiplicazione.
-seo-description: Puoi ottenere, ad esempio, la media delle chiamate server giornaliere dello scorso anno in un intervallo di tempo specifico, più un aumento previsto del volume delle chiamate server per quest'anno. Puoi quindi pianificare i picchi di traffico in base a questo fattore di moltiplicazione.
-seo-title: Stimare chiamate server passate e pianificare un picco di traffico
 solution: Analytics
 title: Stimare chiamate server passate e pianificare un picco di traffico
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
