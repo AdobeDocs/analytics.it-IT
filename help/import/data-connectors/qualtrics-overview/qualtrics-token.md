@@ -1,14 +1,12 @@
 ---
 description: Per completare la procedura guidata di integrazione è necessario un token. Per trovare questo ID, completa quanto segue.
-seo-description: Per completare la procedura guidata di integrazione è necessario un token. Per trovare questo ID, completa quanto segue.
-seo-title: Generazione del token Adobe Analytics Qualtrics
 solution: Analytics
-subtopic: Qualtric
+subtopic: Qualtrics
 title: Generazione del token Adobe Analytics Qualtrics
-topic: Connettori dati
+topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
