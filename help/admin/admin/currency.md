@@ -1,13 +1,11 @@
 ---
 description: Codici valuta utilizzati in Experience Cloud.
-seo-description: Codici valuta utilizzati in Experience Cloud.
-seo-title: Codici valuta
 solution: Analytics
 title: Codici valuta
-topic: Strumenti di amministrazione
-uuid: 73 c 7476 b-f 09 c -4459-8 e 72-da 6 fa 85 ff 533
+topic: Admin tools
+uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,190 +14,190 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Codici valuta utilizzati in Experience Cloud.
 
-| USD | Dollari Stati Uniti |
+| USD | Dollari USA |
 |---|---|
-| AEM | Dirhams Arabi Arabi |
-| AFA | Afghanistan afghani |
+| AED | Dirhams degli Emirati Arabi Uniti |
+| AFA | Afganistan |
 | ALL | Albania Leke |
-| AMD | Drams Armenia |
-| ANG | Querders Antille olandesi |
+| AMD | Armenia Drams |
+| ANG | Antille Olandesi |
 | AOA | Angola Kwanza |
-| ARS | Pesos argentina |
+| ARS | Pesos Argentina |
 | AUD | Dollari Australia |
 | AWG | Aruba Guilders |
-| AZM | Azerbaigian Manats |
-| BAM | Marcature convertibile Bosnia ed Erzegovina |
-| BBD | Dollari Barbados |
+| AZM | Manat Azerbaijan |
+| BAM | Bosnia-Erzegovina Marka convertibile |
+| BBD | Barbados Dollari |
 | BDT | Bangladesh Taka |
-| BGN | Bulgaria Leverage |
-| BHD | Dinaro Bahrein |
-| BIF | Franco del Burundi |
-| BMD | Dollaro Bermuda |
-| BND | Dollari Brunei |
-| BOB | Bolivboliviani |
+| BGN | Bulgaria Leva |
+| BHD | Dinari del Bahrein |
+| BIF | Franchi Burundi |
+| BMD | Dollaro delle Bermuda |
+| BND | Dollaro del Brunei |
+| BOB | Bolivia |
 | BRL | Brasile Reais |
-| BSD | Dollari Bahamas |
+| BSD | Dollaro delle Bahamas |
 | BTN | Bhutan Ngultrum |
 | BWP | Botswana Pulas |
-| BYR | Rubles bielorusso |
-| BZD | Dollaro di Belize |
+| BYR | Rubli della Bielorussia |
+| BZD | Dollaro Belize |
 | CAD | Dollaro canadese |
-| CDF | Congo/Francs di Kinshasa |
-| CHF | Franco Svizzera |
-| CLP | Cile Pesos |
-| CNY | China Yuan Renminbi |
-| COP | Colombia Pesos |
-| CRC | Costa Rica Colones |
-| CSD | Dinaro Serbia |
-| COPPA | Cuba Pesos |
-| CVE | Contea di Cape Verde |
-| CYP | Lira sterlina |
-| CZK | Repubblica Ceca Koruny |
-| DJF | Franco gibuti |
+| CDF | Congo/Kinshasa Francs |
+| CHF | franchi svizzeri |
+| CLP | Pesos Cile |
+| CNY | renminbi cinese Yuan |
+| COP | Pesos Colombia |
+| CRC | Coloni Costa Rica |
+| CSD | Dinari serbi |
+| CUP | Cuba Pesos |
+| CVE | Escudos del Capo Verde |
+| CYP | Sterlina di Cipro |
+| CZK | Repubblica Ceca, Corea |
+| DJF | Djibouti Francs |
 | DKK | Corona danese |
-| DOP | Dominicani Repubblica dominicano |
-| DZD | Dinaro algerini |
+| DOP | Pesos Repubblica Dominicana |
+| DZD | Dinari algerini |
 | EEK | Estonia Krooni |
-| EGP | Lira Egitto |
+| EGP | Sterlina egiziana |
 | ERN | Eritrea Nakfa |
 | ETB | Birr Etiopia |
 | EUR | Euro |
-| FJD | Dollari Fiji |
-| FKP | Libbre delle isole Falkland |
-| GBP | Lira sterlina Regno Unito |
+| FJD | Dollaro delle Figi |
+| FKP | Ferite delle Isole Falkland |
+| GBP | Sterlina britannica |
 | GEL | Georgia Lari |
-| GGP | Guernsey Pound |
+| GGP | Ferite di Guernsey |
 | GHC | Ghana Cedis |
-| GIP | Gibilterra Lina |
-| GMD | Dalasi Gambia |
-| GNF | Franco Guinea |
+| GIP | Margini di Gibilterra |
+| GMD | Gambia Dalasi |
+| GNF | Francia |
 | GTQ | Guatemala Quetzales |
-| GYD | Dollari Guyana |
-| HKD | Dollari Hong Kong |
-| HNL | Lempiras Honduras |
-| HRK | Kuna della Croazia |
+| GYD | Dollaro della Guyana |
+| HKD | Dollaro di Hong Kong |
+| HNL | Honduras Lempiras |
+| HRK | Croazia Kuna |
 | HTG | Haiti Gourdes |
-| HUF | Forint ungherese |
-| IDR | Rupiahs Indonesia |
-| ILS | Israele New Shekels |
-| IMP | Isola di Man Pound |
-| INR | Rupia indiana |
-| IQD | Dinaro Iraq |
-| IRR | Rials Iran |
-| ISK | Islanda Kronur |
-| JEP | Lira Jersey |
-| JMD | Dollaro Jamaica |
-| JOD | Dinaro Giordania |
-| JPY | Yen giapponese |
-| KES | Shillings Kenie |
-| KGS | Kirghizistan Soms |
-| KHR | Riel Cambogia |
-| KMF | Comoros Francs |
+| HUF | Forint Ungheria |
+| IDR | Rupie indonesiane |
+| ILS | Israele - nuovi Shekel |
+| IMP | Isola di Man |
+| INR | Rupie indiane |
+| IQD | Dinari iracheni |
+| IRR | Iran Rials |
+| ISK | Corona islandese |
+| JEP | Limiti di Jersey |
+| JMD | Dollari Giamaica |
+| JOD | Dinari giordani |
+| JPY | Yen del Giappone |
+| KES | Kenia |
+| KGS | Soma del Kirghizistan |
+| KHR | Cambogia Riels |
+| KMF | Comore Francs |
 | KPW | Corea del Nord |
 | KRW | Corea del Sud |
-| KWD | Dinaro Kuwait |
+| KWD | Dinari del Kuwait |
 | KYD | Dollaro delle Isole Cayman |
-| KZT | Kazakhstan Tenge |
-| LAK | Kips Laos |
-| LBP | Chilo libanese |
-| LKR | Rupia Sri Lanka |
-| LRD | Dollaro Liberia |
-| LSL | Lesotho Malhino |
+| KZT | Tenge Kazakistan |
+| LAK | Laos Kips |
+| LBP | Libano: ferite |
+| LKR | Rupie dello Sri Lanka |
+| LRD | Dollaro liberiano |
+| LSL | Lesotho Maloti |
 | LTL | Lituania Litai |
-| LVL | Lettonia lati |
-| LYD | Dinaro Libia |
-| MAD | Dirsilari marocchini |
-| MDL | Moldavia Lei |
-| MGA | Ariary |
-| MKD | Denar Macedonia |
+| LVL | Lettonia Lati |
+| LYD | Dinari libici |
+| MAD | Marocco |
+| MDL | Moldavia |
+| MGA | Ariete Madagascar |
+| MKD | Macedonia - Denar |
 | MMK | Myanmar Kyats |
-| MNT | Tugriks della Mongolia |
+| MNT | Mongolia Tugriks |
 | MOP | Macau Patacas |
-| MRO | Ouguiyas |
+| MRO | Mauritania Ouguiyas |
 | MTL | Malta Liri |
-| MUR | Rupia di Mauritius |
-| MVR | Maldives Rufiyaa |
-| MWK | Kwacha malawi |
-| MXN | Messico Pesos |
-| MYR | Malesia |
+| MUR | Rupie Mauritius |
+| MVR | Maldive Rufiyaa |
+| MWK | Malawi Kwacha |
+| MXN | Pesos messicani |
+| MYR | Malesia Ringget |
 | MZM | Mozambico Meticais |
-| NAD | Dollari namibia |
+| NAD | Dollari Namibia |
 | NGN | Nigeria Nairas |
-| NIO | Cordova Nicaragua |
-| NOK | Corona norvegese |
-| NPR | Rupia Nepal |
-| NZD | Dollaro nuova Zelanda |
-| OMR | Oman Rials |
-| PAB | Boas panama |
-| PEN | Soles Peres |
-| PGK | Papua New Guinea Kina |
-| PHP | Philippines Pethers |
-| PKR | Rupia pakistana |
+| NIO | Cordobas Nicaragua |
+| NOK | Norvegia Kroner |
+| NPR | Rupie Nepal |
+| NZD | Dollaro neozelandese |
+| OMR. | Oman Rials |
+| PAB | Panama Balbos |
+| PENNA | Sole Nuevose Perù |
+| PGK | Papua Nuova Guinea Kina |
+| PHP | Pesos Filippine |
+| PKR | Rupie pakistane |
 | PLN | Polonia Zlotych |
 | PYG | Paraguay Guarani |
-| QAR | Riyals qatar |
-| ROL | Romania |
-| RUR | Rubles russe |
-| RWF | Franco ruanda |
-| SAR | Riyals Arabia Saudita |
-| SBD | Dollaro delle Isole Solomon |
-| SCR | Rupia Seychelles |
-| SDD | Dinaro Sudan |
+| QAR | Qatar Riyals |
+| ROL | Romania Lei |
+| RUR | Rubli della Russia |
+| RWF | Francese del Ruanda |
+| SAR | Arabia Saudita Riyals |
+| SBD | Dollaro delle Isole Salomone |
+| SCR | Rupie Seychelles |
+| SDD | Dinari sudanesi |
 | SEK | Corona svedese |
-| SGD | Dollari di Singapore |
-| SHP | Saint Helena Pound |
-| SIT | Slovenia Tolars |
-| SKK | Corona slovacca |
-| SLL | Sierra Leone Leones |
-| SOS | Shillings Somalia |
+| SGD | Dollari Singapore |
+| SHP | Sant'Elena |
+| SIT | Talleri Slovenia |
+| SKK | Slovacchia |
+| SLL | Sierra Leone |
+| SOS | Somalia Scellino |
 | SPL | Seborga Luigini |
-| SRG | Breadame Guilders |
+| SRG | Guilder Suriname |
 | STD | São Tomé e Principe Dobras |
-| SVC | El Salvador Colones |
-| SYP | Lira siriana |
+| SVC | Coloni El Salvador |
+| SYP | Sterlina siriana |
 | SZL | Swaziland Emalangeni |
-| THB | Tailandese |
-| TJS | Somoni del tagikistan |
-| TMM | Turkmenistan Manats |
-| TND | Dinaro Tunisia |
-| TOP | Tonga Pà anga |
-| TRL | Lira turca |
-| TTD | Dollaro Trinidad e Tobago |
-| TVD | Dollaro Tuvalu |
-| TWD | Taiwan New Dollari |
-| TZS | Shillings della Tanzania |
-| UAH | Ucraina Hryvnia |
-| UGX | Shillings Uganda |
-| UYU | Uruguay Pesos |
-| UZS | Somme Uzbekistan |
-| VEB | Venezuela bolivares |
-| VND | Vietnam Dong |
+| THB | Baht Thailandia |
+| TJS | Tagikistan Somoni |
+| TMM | Turkmenistan Manat |
+| TND | Dinari tunisini |
+| TOP | Tonga Pa'anga |
+| CTRL | Turchia Liras |
+| TTD | Dollaro di Trinidad e Tobago |
+| TVD | Tuvalu Dollari |
+| TWD | Nuovi dollari di Taiwan |
+| TZS | Scellino della Tanzania |
+| UAH | Ucraina |
+| UGX | Scelte ugandesi |
+| UYU | Pesos Uruguay |
+| UZS | Uzbekistan |
+| VEB | Venezuela Bolivares |
+| VND | Dong del Vietnam |
 | VUV | Vanuatu Vatu |
 | WST | Samoa Tala |
-| XAF | Franco CFA centrale centrale |
-| XAG | Ounces |
-| XAU | Ounces |
-| XCD | Dollaro orientale |
-| XDR | Diritti di disegno speciali per fondi monetario internazionale |
-| XOF | Communaut 順 inanci 貥 Francs BCEAO |
-| XPD | Edt di palladio |
-| XPF | Comptoirs Fran 硩 Pacifique Francs |
-| XPT | Platinum Ounces |
-| YER | Rials Yemen |
-| ZAR | RAND Sudafrica |
-| ZMK | Kwaa Kwacha |
-| ZWD | Dollaro Zimbabwe |
-| SRD | Dollaro rinominato |
-| CUC | Cuba convertibili |
+| XAF | Franco centrafricano CFA |
+| XAG | Argento |
+| XAU | Oscursioni Gold |
+| XCD | Dollaro dei Caraibi orientali |
+| XDR | Fondo Monetario Internazionale |
+| XOF | Comunauta 順 inanciata Africaine Francs BCEAO |
+| XPD | Palladio |
+| XPF | Compagnie Fran硩 s du Pacifique Francs |
+| XPT | Platinum |
+| YER | Yemen Rials |
+| ZAR | Rand sudafricano |
+| ZMK | Zambia Kwacha |
+| ZWD | Dollari Zimbabwe |
+| SRD | Dollaro di Suriname |
+| CUC | Cuba - Prezzi Convergenti |
 | TRY | Lira turca |
-| RUB | Rubles russe |
-| RON | Romania New Lei |
-| AFN | Afghanistan afghani |
-| AZN | Azerbaigian New Manats |
+| RUB | Rubli della Russia |
+| RON | Romania Nuova Lei |
+| AFN | Afganistan |
+| AZN | Azerbaijan: nuovi manat |
 | MZN | Mozambico Meticais |
 | GHS | Ghana Cedis |
-| RSD | Dinaro Serbia |
-| SDG | Lira in Sudan |
-| VEF | Bolivares Bolivares Fuerte |
-| TMT | Turkmenistan New Manats |
+| RSD | Dinari serbi |
+| SDG | Sterline sudanesi |
+| VEF | Venezuela Bolivares Fuertes |
+| TMT | Turkmenistan: nuovi Manat |
 
