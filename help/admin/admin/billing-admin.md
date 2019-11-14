@@ -1,13 +1,11 @@
 ---
 description: La pagina Fatturazione consente di accedere alle informazioni di fatturazione, inclusi i dettagli di traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
-seo-description: La pagina Fatturazione consente di accedere alle informazioni di fatturazione, inclusi i dettagli di traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
-seo-title: Fatturazione
 solution: Analytics
 title: Fatturazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -34,8 +32,8 @@ Il [!UICONTROL Monthly Invoice] rapporto risultante include le informazioni segu
 |--- |--- |
 | Suite di rapporti | La suite di rapporti coinvolta nell'attività di raccolta dati. |
 | Posizione | Il centro dati che memorizza i dati della suite di rapporti: San Jose (California), Dallas (Texas), Pacific Northwest (USA), Londra (Regno Unito) o Singapore. Nella maggior parte dei casi, tutte le suite di rapporti aziendali si trovano nello stesso centro dati. |
-| Chiamate server principali | Richieste ricevute direttamente dai browser dei visitatori del sito Web o dall’API di inserimento dati. Include hit principali (Visualizzazioni di pagina), eventi personalizzati principali, eventi di download principali ed eventi di uscita principali. |
-| Chiamate server secondarie | Copie di chiamate server primarie create da tag con più suite o copiate/spostate da una regola VISTA.  Se una chiamata server secondaria è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, la pagina Fatturazione identifica il trasferimento con un numero negativo. In questo caso, le chiamate secondarie accumulate vengono detratte dalle chiamate server principali. |
+| Chiamate server principali |  Richieste ricevute direttamente dai browser dei visitatori del sito Web o dall’API di inserimento dati. Include hit principali (Visualizzazioni di pagina), eventi personalizzati principali, eventi di download principali ed eventi di uscita principali. |
+| Chiamate server secondarie |  Copie di chiamate server primarie create da tag con più suite o copiate/spostate da una regola VISTA.  Se una chiamata server secondaria è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, la pagina Fatturazione identifica il trasferimento con un numero negativo. In questo caso, le chiamate secondarie accumulate vengono detratte dalle chiamate server principali. |
 | Totale chiamate server | Totale combinato delle chiamate al server primario e secondario per questa suite di rapporti nel percorso specificato. |
 | Visualizzazioni pagina | Totali della visualizzazione pagina per ciascuna suite di rapporti. Potete confermare i valori di visualizzazione della pagina in Metriche del sito &gt; Visualizzazioni pagina. |
 | Download | Scarica totali per ogni suite di rapporti. Potete confermare i valori di download in Contenuto sito &gt; Collegamenti &gt; Download file. |
