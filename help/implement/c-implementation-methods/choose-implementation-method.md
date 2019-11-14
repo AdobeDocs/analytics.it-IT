@@ -1,14 +1,12 @@
 ---
 description: Esistono diversi modi per implementare Adobe Analytics.
-keywords: Implementazione di Analytics;metodo di implementazione;gestione tag dinamica;dtm;javascript
-seo-description: Esistono diversi modi per implementare Adobe Analytics.
-seo-title: Scegliere un metodo di implementazione
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;javascript
 solution: Analytics
 title: Scegliere un metodo di implementazione
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
