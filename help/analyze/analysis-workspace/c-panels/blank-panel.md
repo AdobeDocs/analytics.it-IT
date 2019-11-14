@@ -1,11 +1,9 @@
 ---
 description: nulle
-seo-description: nulle
-seo-title: Pannello vuoto
 title: Pannello vuoto
-uuid: 3 d 25 b 221-59 f 5-4574-b 06 e -48 f 036 f 525 aa
+uuid: 3d25b221-59f5-4574-b06e-48f036f525aa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
