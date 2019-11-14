@@ -1,15 +1,13 @@
 ---
 description: Specificate un collegamento di rinuncia e personalizzate il marchio del collegamento. I visitatori del sito Web possono scegliere di non tenere traccia dell'attività nei prodotti Adobe Analytics visitando la pagina di rifiuto del dominio di raccolta dati.
-keywords: Implementazione di Analytics
-seo-description: Specificate un collegamento di rinuncia e personalizzate il marchio del collegamento. I visitatori del sito Web possono scegliere di non tenere traccia dell'attività nei prodotti Adobe Analytics visitando la pagina di rifiuto del dominio di raccolta dati.
-seo-title: Aggiungere un collegamento di rinuncia
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Risoluzione dei problemi
+subtopic: Troubleshooting
 title: Aggiungere un collegamento di rinuncia
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
