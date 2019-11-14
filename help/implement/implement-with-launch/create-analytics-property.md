@@ -1,10 +1,8 @@
 ---
 title: Creare una proprietà Analytics in Launch
-seo-title: Creare una proprietà Adobe Analytics in Adobe Experience Platform Launch
 description: Crea uno spazio per personalizzare il modo in cui vengono raccolti i dati, utilizzando Adobe Experience Platform Launch.
-seo-description: Crea uno spazio per personalizzare il modo in cui i dati vengono raccolti in Adobe Analytics, utilizzando Adobe Experience Platform Launch.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ Gli elementi dati sono riferimenti a parti specifiche del sito per raccogliere i
    * Percorso della variabile: `window.document.title`
       > [!NOTE] Nota: Si tratta di un valore di esempio per iniziare a utilizzarlo. Se l’organizzazione definisce un valore migliore per il nome della pagina, ad esempio un valore per il livello dati, potete immetterlo qui.
    * Testo pulito selezionato
-   * Durata:Pageview
+   * Durata: Pageview
 5. Fate clic su Salva.
 
 ## Creare regole per Adobe Analytics
@@ -61,13 +59,13 @@ Le regole mappano gli elementi dati ai valori variabili di Analytics e determina
    * Ordine: 50
 1. Fare clic su Mantieni modifiche.
 1. In Azioni, fai clic su Aggiungi e immetti le seguenti impostazioni:
-   * Estensione:Adobe Analytics
+   * Estensione: Adobe Analytics
    * Tipo azione: Imposta variabili
    * Nome pagina: fate clic sull'icona del contenitore e selezionate l'elemento `Page Name` dati.
    * Campaign: Parametro query con valore di `cid`
 1. Fare clic su Mantieni modifiche.
 1. Fai clic sul segno più accanto alle azioni per aggiungere un’altra azione e immetti le seguenti impostazioni:
-   * Estensione:Adobe Analytics
+   * Estensione: Adobe Analytics
    * Tipo azione: Invia beacon
    * Nome: Adobe Analytics - Send Beacon
    * Tracciamento: s.t()
