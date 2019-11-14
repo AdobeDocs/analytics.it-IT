@@ -1,13 +1,11 @@
 ---
 description: Request Manager consente di visualizzare, duplicare e riassegnare le priorità alle richieste.
-seo-description: Request Manager consente di visualizzare, duplicare e riassegnare le priorità alle richieste.
-seo-title: Gestire le richieste di Data Warehouse
 solution: Analytics
 title: Gestire le richieste di Data Warehouse
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
