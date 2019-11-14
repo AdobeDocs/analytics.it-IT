@@ -1,11 +1,9 @@
 ---
 description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
-seo-description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
-seo-title: Attivare l'integrazione
 title: Attivare l'integrazione
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,6 +36,6 @@ Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'
 | Valore Spotlight | Evento Revenue che può essere esportato nei segmenti di ricommercializzazione. |
 | TotaleClic | L’evento Clic consente di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
 | Segmenti | Questa integrazione crea i segmenti definiti dal partner visualizzati nella sezione Segmenti partner. Inoltre, puoi selezionare segmenti esistenti a livello di suite di rapporti da includere nell'integrazione. |
-|  Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
+| Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
 | Raccolta dati | Selezionate Plug-in **** JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione (vedete ). Selezionate **Automated Solution** se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l'integrazione:<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail.</li><li>Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail.</li></ul> |
 | Generazione di dashboard e segnalibri | Genera automaticamente dashboard e segnalibri per l'integrazione. |
