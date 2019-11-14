@@ -1,14 +1,12 @@
 ---
 description: Un set di regole è un gruppo di regole di classificazione per una specifica variabile. Si applica una variabile al set di regole. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
-seo-description: Un set di regole è un gruppo di regole di classificazione per una specifica variabile. Si applica una variabile al set di regole. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
-seo-title: Set di regole di classificazione
 solution: Analytics
 subtopic: Classifications
 title: Set di regole di classificazione
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -52,7 +50,7 @@ I campi e le opzioni seguenti sono disponibili sul [!UICONTROL Classifications R
    <td colname="col2"> Indica quando è stato modificato il set di regole. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Duplica </p> </td> 
+   <td colname="col1"> <p> Duplica </p> </td> 
    <td colname="col2"> Duplica (copia) un set di regole in modo da poter applicare il set di regole a un'altra variabile o alla stessa variabile in un'altra suite di rapporti. </td> 
   </tr> 
  </tbody> 
