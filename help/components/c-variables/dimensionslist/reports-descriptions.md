@@ -1,13 +1,11 @@
 ---
 description: Definizioni dei report predefiniti disponibili in Reporting e analisi e delle dimensioni disponibili in altri strumenti Analytics, come Analysis Workspace.
-seo-description: Definizioni dei report predefiniti disponibili in Reporting e analisi e delle dimensioni disponibili in altri strumenti Analytics, come Analysis Workspace.
-seo-title: Descrizioni dimensioni
 solution: Analytics
 title: Descrizioni dimensioni
-topic: Rapporti
+topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
