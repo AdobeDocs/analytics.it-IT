@@ -1,25 +1,23 @@
 ---
-description: Numero di visitatori non duplicati (conteggiati solo una volta) al sito Web nell'arco di un mese.
-seo-description: Numero di visitatori non duplicati (conteggiati solo una volta) al sito Web nell'arco di un mese.
-seo-title: Visitatori unici mensili
+description: Numero di visitatori non duplicati (contati solo una volta) nel sito Web nel corso di un mese.
 solution: Analytics
 title: Visitatori unici mensili
-topic: Metrics (Metriche)
-uuid: b 11555 b 6-b 4 df -4 ebf-ba 2 c -2 f 31651256 f 6
+topic: Metrics
+uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Visitatori unici mensili
 
-Numero di visitatori non duplicati (conteggiati solo una volta) al sito Web nell'arco di un mese.
+Numero di visitatori non duplicati (contati solo una volta) nel sito Web nel corso di un mese.
 
 | Usi | Descrizione |
 |---|---|
-| Traffic (Traffico) | Visitatore univoco che accede al sito per un mese. Multiple visits in one month count for a one [!UICONTROL Monthly Unique Visitor]. |
-| Conversione   | N/D |
-| Ad Hoc Analysis | Visitatore univoco che accede al sito per un mese. Multiple visits in one month count for a one [!UICONTROL Monthly Unique Visitor]. |
+| Traffico | Visitatore univoco che accede al sito per un mese. Più visite in un mese contano per una [!UICONTROL Monthly Unique Visitor]. |
+| Conversione | N/D |
+| Ad Hoc Analysis | Visitatore univoco che accede al sito per un mese. Più visite in un mese contano per una [!UICONTROL Monthly Unique Visitor]. |
 
-See [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
+Consulta Visitatori [](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)univoci.
