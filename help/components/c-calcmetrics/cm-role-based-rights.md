@@ -1,11 +1,9 @@
 ---
 description: I diritti delle metriche calcolate sono diversi tra utenti a livello di amministratore e non amministratori.
-seo-description: I diritti delle metriche calcolate sono diversi tra utenti a livello di amministratore e non amministratori.
-seo-title: Metriche calcolate, diritti basati su ruoli
 title: Metriche calcolate, diritti basati su ruoli
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
