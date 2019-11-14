@@ -1,14 +1,12 @@
 ---
 description: La pre colonna contiene i dati durante l'invio alla raccolta dati. La colonna post contiene il valore dopo l'elaborazione.
-keywords: Feed dati;processo;pre-colonna;post-colonna;case Sensibilità
-seo-description: La pre colonna contiene i dati durante l'invio alla raccolta dati. La colonna post contiene il valore dopo l'elaborazione.
-seo-title: Colonne pre e post
+keywords: Data Feed;job;pre column;post column;case sensitivity
 solution: Analytics
 title: Colonne pre e post
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
