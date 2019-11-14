@@ -1,13 +1,11 @@
 ---
 description: Le sottorelazioni complete sono abilitate su tutti i rapporti di conversione, in modo da poter suddividere qualsiasi eVar per un'altra eVar. Il menu Suddivisione per nella tabella dei rapporti corrisponde al menu standard di reporting di Analytics, mantenendo le selezioni coerenti
-seo-description: Le sottorelazioni complete sono abilitate su tutti i rapporti di conversione, in modo da poter suddividere qualsiasi eVar per un'altra eVar. Il menu Suddivisione per nella tabella dei rapporti corrisponde al menu standard di reporting di Analytics, mantenendo le selezioni coerenti
-seo-title: Sottorelazioni
 solution: Analytics
 title: Sottorelazioni
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
