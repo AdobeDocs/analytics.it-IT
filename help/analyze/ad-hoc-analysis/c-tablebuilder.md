@@ -1,11 +1,9 @@
 ---
 description: Utilizzate il Generatore di tabelle per creare un rapporto con qualsiasi configurazione di metriche, dimensioni e segmenti. Ad esempio, puoi aggiungere più metriche al Generatore di tabelle, quindi applicare il segmento a tutte contemporaneamente. È possibile applicare elementi dai riquadri degli strumenti come righe e suddivisioni o come colonne e ruotare facilmente la tabella per una visualizzazione diversa. Dopo aver creato la tabella, puoi interagire direttamente con la tabella di dati risultante per un'ulteriore analisi. Tenere presente che la generazione di una tabella di dati dal Generatore tabelle esegue una query e crea una nuova tabella di dati.
-seo-description: Utilizzate il Generatore di tabelle per creare un rapporto con qualsiasi configurazione di metriche, dimensioni e segmenti. Ad esempio, puoi aggiungere più metriche al Generatore di tabelle, quindi applicare il segmento a tutte contemporaneamente. È possibile applicare elementi dai riquadri degli strumenti come righe e suddivisioni o come colonne e ruotare facilmente la tabella per una visualizzazione diversa. Dopo aver creato la tabella, puoi interagire direttamente con la tabella di dati risultante per un'ulteriore analisi. Tenere presente che la generazione di una tabella di dati dal Generatore tabelle esegue una query e crea una nuova tabella di dati.
-seo-title: Generatore tabella
 title: Generatore tabella
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
