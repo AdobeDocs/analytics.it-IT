@@ -1,14 +1,12 @@
 ---
-description: Le origini dati Registro web ti consentono di importare file di registro del server web standard.
-seo-description: Le origini dati Registro web ti consentono di importare file di registro del server web standard.
-seo-title: Registro web
+description: Le origini dati Registro web ti consentono di importare file di registro del server Web standard.
 solution: Analytics
-subtopic: Origini dati
+subtopic: Data sources
 title: Registro web
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
