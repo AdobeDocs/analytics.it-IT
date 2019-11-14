@@ -1,13 +1,11 @@
 ---
 description: Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attività interne sul sito Web, test del sito e utilizzo dei dipendenti. Escludendo i dati si migliora la precisione dei report escludendo i dati degli indirizzi IP. Inoltre, puoi rimuovere i dati dal rifiuto del servizio o da altri eventi dannosi che possono distorcere i dati del rapporto. È possibile configurare l'esclusione o utilizzando il firewall.
-seo-description: Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attività interne sul sito Web, test del sito e utilizzo dei dipendenti. Escludendo i dati si migliora la precisione dei report escludendo i dati degli indirizzi IP. Inoltre, puoi rimuovere i dati dal rifiuto del servizio o da altri eventi dannosi che possono distorcere i dati del rapporto. È possibile configurare l'esclusione o utilizzando il firewall.
-seo-title: Escludi per indirizzo IP
 solution: Analytics
 title: Escludi per indirizzo IP
-topic: Strumenti di amministrazione
+topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
