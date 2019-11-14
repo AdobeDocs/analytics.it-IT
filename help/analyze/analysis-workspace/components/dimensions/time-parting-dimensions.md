@@ -1,11 +1,9 @@
 ---
 description: Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che vengono quindi suddivisi in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
-seo-description: Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che vengono quindi suddivisi in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
-seo-title: Suddividere le dimensioni in base al tempo
 title: Suddividere le dimensioni in base al tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
