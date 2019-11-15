@@ -1,13 +1,11 @@
 ---
 description: Mostra la percentuale di visite che contengono un singolo hit.
-seo-description: Mostra la percentuale di visite che contengono un singolo hit.
-seo-title: Percentuale non recapitate
 solution: Analytics
 title: Percentuale non recapitate
-topic: Metriche
+topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
