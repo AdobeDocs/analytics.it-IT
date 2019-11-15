@@ -1,20 +1,18 @@
 ---
-description: È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.
-seo-description: È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.
-seo-title: Bloccare/sbloccare le cartelle di lavoro
+description: ' È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall''aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.'
 solution: Analytics
 title: Bloccare/sbloccare le cartelle di lavoro
-topic: Generatore di report
+topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Bloccare/sbloccare le cartelle di lavoro
 
-È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.
+ È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente.
 
 In qualità di analista, il blocco di una cartella di lavoro consente di proteggere le richieste della cartella di lavoro da manomissioni da parte di altri utenti all'interno dell'organizzazione. Allo stesso tempo, tali utenti possono comunque aggiornare le richieste nella cartella di lavoro.
 
