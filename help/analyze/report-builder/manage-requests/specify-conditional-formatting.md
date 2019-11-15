@@ -1,13 +1,11 @@
 ---
 description: Dopo aver creato rapporti con richieste incorporate, è possibile applicare la formattazione condizionale alle celle della cartella di lavoro.
-seo-description: Dopo aver creato rapporti con richieste incorporate, è possibile applicare la formattazione condizionale alle celle della cartella di lavoro.
-seo-title: Specificare la formattazione condizionale
 solution: Analytics
 title: Specificare la formattazione condizionale
-topic: Generatore di report
+topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
