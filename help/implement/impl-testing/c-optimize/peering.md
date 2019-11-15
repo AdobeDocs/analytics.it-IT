@@ -1,15 +1,13 @@
 ---
 description: La funzione Peering di rete privata consente di trasferire i dati dalla rete di un ISP alla rete Analytics in modo più efficiente.
-keywords: Implementazione di Analytics
-seo-description: La funzione Peering di rete privata consente di trasferire i dati dalla rete di un ISP alla rete Analytics in modo più efficiente.
-seo-title: Peering
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Risoluzione dei problemi
+subtopic: Troubleshooting
 title: Peering
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
