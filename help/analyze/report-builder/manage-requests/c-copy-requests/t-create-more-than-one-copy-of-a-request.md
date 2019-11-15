@@ -1,13 +1,11 @@
 ---
 description: Potete creare più copie di una richiesta originale riempiendo un’area selezionata di celle con il numero massimo di copie della richiesta che sarà possibile immettere.
-seo-description: Potete creare più copie di una richiesta originale riempiendo un’area selezionata di celle con il numero massimo di copie della richiesta che sarà possibile immettere.
-seo-title: Creare più copie di una richiesta
 solution: Analytics
 title: Creare più copie di una richiesta
-topic: Generatore di report
+topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
