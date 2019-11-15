@@ -1,14 +1,12 @@
 ---
 description: Scopri come vengono raccolti i dati per Adobe Analytics.
-seo-description: Scopri come vengono raccolti i dati per Adobe Analytics.
-seo-title: Informazioni sulla raccolta di dati regionali
 solution: Analytics
-subtopic: introduzione
+subtopic: Get started
 title: Informazioni sulla raccolta di dati regionali
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
