@@ -1,14 +1,12 @@
 ---
 description: La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché della quantità di acquisto e del prezzo di acquisto).
-keywords: Implementazione di Analytics;variabile di prodotti;visualizzazione di prodotto;evento di successo
-seo-description: La variabile "products" viene utilizzata per tenere traccia dei prodotti e delle categorie di prodotti (nonché della quantità di acquisto e del prezzo di acquisto).
-seo-title: Pagina dettagliata di visualizzazione del prodotto
+keywords: Analytics Implementation;products variable;product view;success event
 solution: Analytics
 title: Pagina dettagliata di visualizzazione del prodotto
-topic: Sviluppatore e implementazione
+topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
