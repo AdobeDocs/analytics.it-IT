@@ -1,17 +1,17 @@
 ---
-description: Le suite di rapporti virtuali possono essere utilizzate per sostituire i tag per più suite. Ad esempio, invece di inviare dati a due suite di rapporti separate, puoi inviare dati a una e utilizzare suite di rapporti virtuali per limitare il numero di dati a cui gli utenti hanno accesso. Tuttavia, l'accesso ai dati è solo uno dei motivi per cui suite di rapporti separate possono essere vantaggiose. Considera attentamente i seguenti casi di utilizzo prima di apportare modifiche all’implementazione per quanto riguarda le suite di rapporti virtuali.
-keywords: Virtual Report Suite
+description: Le suite di rapporti virtuali e i tag con più suite presentano vantaggi diversi. Scoprite quale è la soluzione migliore per la vostra organizzazione.
+keywords: Virtual Report Suite,VRS
 solution: Analytics
-title: VRS e considerazioni su tag globali/su più suite
-topic: Reports and analytics
+title: Suite di rapporti virtuali e considerazioni sui tag con più suite
+topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a835e5f4d7569532f220dc3d59f88ee7468a909e
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
 
-# VRS e considerazioni su tag globali/su più suite
+# Suite di rapporti virtuali e considerazioni sui tag con più suite
 
 Suite di rapporti virtuali (VRS) consente di visualizzare i dati di una suite di rapporti che raccoglie dati dalle proprietà digitali, ma con un segmento applicato in modo permanente.
 
