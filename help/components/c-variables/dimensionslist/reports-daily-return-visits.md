@@ -1,18 +1,16 @@
 ---
-description: Consente di visualizzare più volte il numero di visitatori sul sito Web in un determinato giorno. Un giorno è definito come ultimo periodo di 24 ore.
-seo-description: Consente di visualizzare più volte il numero di visitatori sul sito Web in un determinato giorno. Un giorno è definito come ultimo periodo di 24 ore.
-seo-title: Visite giornaliere di ritorno
+description: Visualizza il numero di visitatori del sito Web più di una volta al giorno specificato. Un giorno è definito come l’ultimo periodo di 24 ore.
 solution: Analytics
 title: Visite giornaliere di ritorno
-topic: Rapporti
-uuid: 8 a 881347-392 e -4 b 8 a -9745-825 b 103 d 7104
+topic: Reports
+uuid: 8a881347-392e-4b8a-9745-825b103d7104
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Visite giornaliere di ritorno
 
-Consente di visualizzare più volte il numero di visitatori sul sito Web in un determinato giorno. Un giorno è definito come ultimo periodo di 24 ore.
+Visualizza il numero di visitatori del sito Web più di una volta al giorno specificato. Un giorno è definito come l’ultimo periodo di 24 ore.
 
