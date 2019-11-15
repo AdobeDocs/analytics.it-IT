@@ -1,65 +1,63 @@
 ---
-description: Descrive i due modi principali per trovare l'ordinamento e il filtro delle metriche.
-seo-description: Descrive i due modi principali per trovare l'ordinamento e il filtro delle metriche.
-seo-title: Trovare le metriche
-title: Trovare le metriche
-uuid: 60 c 8 e 02 c -736 d -4 d 20-8799-69 f 6 ca 250033
+description: Vengono descritti i due modi principali per trovare l'ordinamento e il filtro delle metriche.
+title: Trovare metriche
+uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Trovare le metriche
+# Trovare metriche
 
 Descrive i due modi principali per trovare le metriche: ordinamento e filtro.
 
-## Sorting {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Ordinamento {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-When you open a report and click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, the **[!UICONTROL Sort By]** drop-down list in the Metrics Selector shows four sorting options:
+Quando apri un rapporto e fai clic sull’icona Metriche ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche, l’elenco a **[!UICONTROL Sort By]** discesa nel selettore metriche mostra quattro opzioni di ordinamento:
 
 ![](assets/cm_sort.png)
 
 | Opzione | Quando utilizzarlo |
 |---|---|
 | Alfabetico | Utile se conosci il nome. |
-| Consigliato | Metriche comuni utilizzate da persone nel rapporto: questa viene raccolta dal back-end dalle metriche comunemente utilizzate dagli utenti con questo rapporto. |
-| Frequente | Utile se sei un principiante e vuoi vedere cosa viene comunemente utilizzato nel rapporto. |
-| Utilizzati di recente | Utile se lavorate su un progetto e utilizzate lo stesso set di metriche sopra e sopra. |
+| Consigliato | Metriche comuni che le persone utilizzano nel rapporto, raccolte dal back-end dalle metriche comunemente utilizzate dagli utenti con questo rapporto. |
+| Utilizzati frequentemente | Utile se sei un principiante e devi vedere cosa viene comunemente utilizzato nel rapporto. |
+| Utilizzati di recente | Utile se lavori su un progetto e utilizzi lo stesso set di metriche più e più volte. |
 
-## Filtering - Advanced Selection {#section_33818CC048C04F098703AC229693F8CA}
+## Filtro - Selezione avanzata {#section_33818CC048C04F098703AC229693F8CA}
 
-When you open a report and click the Metrics icon, then click **[!UICONTROL Manage]**. Fate clic sull'icona Filtro. Potete filtrare in molti modi diversi.
+Quando apri un rapporto e fai clic sull’icona Metriche, fai clic su **[!UICONTROL Manage]**. Fate clic sull'icona Filtro. Potete filtrare in diversi modi.
 
 ![](assets/cm_advanced_sel.png)
 
 <table id="table_269081BC9DF54FFDA4E949FFC7488F42"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Se desiderate </th> 
-   <th colname="col2" class="entry"> Ordinate quindi </th> 
+   <th colname="col1" class="entry"> Se vuoi </th> 
+   <th colname="col2" class="entry"> Quindi ordina per </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Mostra tutte le metriche in questa suite di rapporti. </td> 
-   <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Altri filtri</span> &gt; <span class="uicontrol"> Mostra tutto</span></span> </td> 
+   <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Altri filtri</span> &gt; <span class="uicontrol"> Mostra tutti</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mostra solo le metriche </td> 
-   <td colname="col2"><span class="uicontrol"> Altri filtri</span> &gt; <span class="uicontrol"> Personale</span> </td> 
+   <td colname="col2"><span class="uicontrol"> Altri filtri</span> &gt; <span class="uicontrol"> Mine</span> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Mostra metriche condivise con me da qualcun altro </td> 
-   <td colname="col2"><span class="uicontrol"> Proprietari</span> o <p><span class="uicontrol"> Altri filtri</span> &gt; <span class="uicontrol"> Condiviso con me</span> </p> </td> 
+   <td colname="col1"> Mostra metriche condivise con me da un altro utente </td> 
+   <td colname="col2">Proprietari <span class="uicontrol"></span> o <p><span class="uicontrol"> Altri filtri</span> &gt; <span class="uicontrol"> Condiviso con me</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Mostra solo metriche approvate dalla società. </td> 
+   <td colname="col1"> Mostra solo le metriche approvate dalla società. </td> 
    <td colname="col2"><span class="uicontrol"> Approvato</span> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Filtra le metriche per un progetto su cui stai lavorando. </td> 
-   <td colname="col2">One of the <span class="uicontrol"> Tags</span>. </td> 
+   <td colname="col1"> Filtrate le metriche per un progetto su cui state lavorando. </td> 
+   <td colname="col2">Uno dei <span class="uicontrol"> tag</span>. </td> 
   </tr> 
  </tbody> 
 </table>
