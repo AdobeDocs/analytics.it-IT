@@ -1,13 +1,11 @@
 ---
 description: Il rapporto Panoramica canale di marketing è progettato per fornire informazioni di alto livello sui metodi più efficaci per i clienti che arrivano sul sito. Utilizzate questo rapporto per allocare metriche di successo e ricavi a vari canali. Puoi anche visualizzare le campagne o le parole chiave specifiche all'interno di ciascun canale che hanno maggior successo. Contiene una propria interfaccia univoca e intuitiva che consente di visualizzare contemporaneamente sia la prima che l’ultima metrica touch.
-seo-description: Il rapporto Panoramica canale di marketing è progettato per fornire informazioni di alto livello sui metodi più efficaci per i clienti che arrivano sul sito. Utilizzate questo rapporto per allocare metriche di successo e ricavi a vari canali. Puoi anche visualizzare le campagne o le parole chiave specifiche all'interno di ciascun canale che hanno maggior successo. Contiene una propria interfaccia univoca e intuitiva che consente di visualizzare contemporaneamente sia la prima che l’ultima metrica touch.
-seo-title: Panoramica sul canale di marketing
 solution: Analytics
 title: Panoramica sul canale di marketing
-topic: Rapporti
+topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
