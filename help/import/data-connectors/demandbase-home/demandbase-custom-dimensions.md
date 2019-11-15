@@ -1,11 +1,9 @@
 ---
 description: Elenca gli identificatori di dimensione facoltativi che possono essere forniti al passaggio 4 della procedura guidata di integrazione di Adobe.
-seo-description: Elenca gli identificatori di dimensione facoltativi che possono essere forniti al passaggio 4 della procedura guidata di integrazione di Adobe.
-seo-title: Demandbase - Dimensioni personalizzate
 title: Demandbase - Dimensioni personalizzate
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
