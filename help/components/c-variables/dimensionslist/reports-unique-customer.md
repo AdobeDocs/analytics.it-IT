@@ -1,13 +1,11 @@
 ---
 description: Visitatore univoco che effettua un acquisto. Un cliente univoco viene conteggiato una volta per tale intervallo di tempo, ma non può essere conteggiato di nuovo, indipendentemente dal numero di volte in cui il visitatore ritorna per effettuare un acquisto. Un Visitatore univoco viene conteggiato una volta per la prima visita in un periodo specificato e non viene nuovamente conteggiato fino alla scadenza del periodo. Dopo la scadenza del periodo, viene conteggiato di nuovo il Visitatore univoco. I clienti univoci vengono sempre contati come Visitatori univoci perché devono visitare il sito per effettuare l'acquisto.
-seo-description: Visitatore univoco che effettua un acquisto. Un cliente univoco viene conteggiato una volta per tale intervallo di tempo, ma non può essere conteggiato di nuovo, indipendentemente dal numero di volte in cui il visitatore ritorna per effettuare un acquisto. Un Visitatore univoco viene conteggiato una volta per la prima visita in un periodo specificato e non viene nuovamente conteggiato fino alla scadenza del periodo. Dopo la scadenza del periodo, viene conteggiato di nuovo il Visitatore univoco. I clienti univoci vengono sempre contati come Visitatori univoci perché devono visitare il sito per effettuare l'acquisto.
-seo-title: Clienti unici
 solution: Analytics
 title: Clienti unici
-topic: Rapporti
+topic: Reports
 uuid: f4fb15e8-482d-4467-81dc-58ade7743822
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
