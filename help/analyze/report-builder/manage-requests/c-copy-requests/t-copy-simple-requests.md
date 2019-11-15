@@ -1,13 +1,11 @@
 ---
 description: Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
-seo-description: Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
-seo-title: Copia richieste semplici
 solution: Analytics
 title: Copia richieste semplici
-topic: Generatore di report
+topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
