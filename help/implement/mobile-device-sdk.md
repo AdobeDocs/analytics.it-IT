@@ -2,7 +2,7 @@
 title: Implementazione di Analytics per dispositivi mobili
 description: nulle
 translation-type: tm+mt
-source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
+source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
 
 ---
 
@@ -21,7 +21,6 @@ Per implementare Analytics per dispositivi mobili, consulta i seguenti archivi e
 
 ## SDK per dispositivi mobili versione 4
 
-
 * [archivio SDK](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
 
 * [Documentazione iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
@@ -32,7 +31,6 @@ Per implementare Analytics per dispositivi mobili, consulta i seguenti archivi e
 ## AppMeasurement 3.x
 
 *Nota: Gli SDK AppMeasurement 3.x per dispositivi mobili non sono più supportati. Tuttavia, la documentazione relativa agli SDK è disponibile come indicato di seguito.*
-
 
 * [Documentazione iOS](/assets/adobe_mobile_ios_3.x.pdf)
 * [Documentazione Android](/assets/android_3.x.pdf)
