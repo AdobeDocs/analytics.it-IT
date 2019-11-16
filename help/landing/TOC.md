@@ -14,7 +14,7 @@ source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 + [Home](home.md)
 * [Concetti chiave di Analytics](an-key-concepts.md)
 * [Guida agli strumenti](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
-* [Guida per l'amministratore](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
+* [Guida per l'amministratore](/help/analytics/admin/home.html)
 * [Guida ai componenti](https://docs.adobe.com/content/help/en/analytics/components/home.html)
 * [Guida all'esportazione](https://docs.adobe.com/content/help/en/analytics/export/home.html)
 * [Guida all'implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
