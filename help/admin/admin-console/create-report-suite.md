@@ -2,7 +2,7 @@
 title: Creare una suite di rapporti
 description: Crea un contenitore di base per la raccolta dei dati in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -19,7 +19,7 @@ Questo articolo è progettato per amministratori di sistema o amministratori di 
 
 ## Creare una suite di rapporti
 
-> [!NOTE]Nota: Esiste anche un modo per creare una suite di rapporti in Adobe Analytics utilizzando l'amministratore legacy. Adobe consiglia di utilizzare la procedura guidata di configurazione della suite di rapporti descritta qui.
+> [!NOTE] Esiste anche un modo per creare una suite di rapporti in Adobe Analytics utilizzando l'amministratore legacy. Adobe consiglia di utilizzare la procedura guidata di configurazione della suite di rapporti descritta qui.
 
 1. Accedete a [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali ID Adobe.
 1. Fate clic sull'icona di 9 quadrati in alto a destra, quindi fate clic sul logo Analytics colorato.
