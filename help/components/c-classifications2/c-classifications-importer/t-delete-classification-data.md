@@ -6,38 +6,55 @@ title: Eliminare i dati di classificazione
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
 
 # Eliminare i dati di classificazione
 
-Procedura che descrive come eliminare o rimuovere i dati di classificazione.
+A volte è necessario rimuovere i dati di classificazione dopo il caricamento. Utilizzate `~empty~` o `~deletekey~`, a seconda di cosa desiderate rimuovere.
+
+## Passaggi per rimuovere i dati di classificazione
+
+La rimozione dei dati di classificazione comporta il caricamento di un file di classificazione contenente `~empty~` o `~deletekey~` nelle celle appropriate.
 
 1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Fai clic su **[!UICONTROL Browser Export]**.
 1. Seleziona la suite di rapporti e il set di dati da cui desideri rimuovere i dati di classificazione.
 1. Regolate le impostazioni facoltative per filtrare i dati specifici che state cercando, quindi fate clic **[!UICONTROL Export File]**.
-1. Una volta scaricato il file, aprite il file e sostituite i valori di classificazione che desiderate eliminare con [!DNL ~vuoti~].
+1. Una volta scaricato il file, aprite il file e sostituite eventuali valori di classificazione con `~empty~` o `~deletekey~`.
+1. Salvate il file come file di testo delimitato da tabulazioni.
+1. Fai clic su **[!UICONTROL Import File]** e carica di nuovo il file di classificazione salvato in Adobe Analytics.
 
-   In alternativa, utilizzate [!DNL ~deletekey~]. Questo comando considera la classificazione come se non si fosse mai verificata per la chiave specificata. La rimozione completa e tutti i dati delle colonne dalle tabelle di ricerca.
+## Eliminazione di un singolo valore di classificazione
 
-   **Caveat**: È sufficiente una colonna contenente [!DNL ~deleteKey~]. Il comando [!DNL ~vuoto~] funziona a livello di cella (combinazione di tasti e colonne), pertanto è necessario [!DNL ~vuoto~] nella colonna classificazione che si desidera rimuovere. Tuttavia, [!DNL ~deleteKey~] funziona a livello di riga (la chiave e tutti i metadati associati), pertanto deve essere visualizzato solo in una delle colonne della riga. Questo comando rimuove tutti i metadati dalla riga. Adobe interpreta questo concetto come se la chiave non fosse mai stata classificata e la visualizzi nella categoria [Nessuno](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) .
+Più classificazioni possono appartenere alla stessa variabile. Ad esempio, puoi avere 2 diverse classificazioni di eVar1. Se si desidera rimuovere un solo valore classificato, sostituire il valore di classificazione con `~empty~`. Ad esempio:
 
-1. Salvate il file e caricatelo utilizzando la [!UICONTROL Import File] scheda.
+| SKU magazzino (eVar8) | Nome magazzino | Categoria magazzino |
+| --- | --- | --- |
+| 857467 | Maglione con collo a V | Vestiti da donna |
+| 948203 | braccialetto per caviglia | Gioielli |
+| 174391 | Pantaloni cordili bianchi | `~empty~` |
 
-   Dopo aver caricato il file, il sistema riconosce [!DNL ~vuoto~] come comando per eliminare il valore di classificazione.
+L'utilizzo `~empty~` nella classificazione Categoria magazzino conserva i dati per la classificazione Nome magazzino. Il `~empty~` valore elimina solo i dati di classificazione per quella cella.
 
-   **Proprietà di questo comando**
+## Eliminazione di un'intera riga di classificazione
 
-* [!DNL ~vuoto~] deve essere minuscolo senza spazi. Le seguenti voci non sono valide:
+Utilizzare `~deletekey~` in qualsiasi colonna per eliminare l'intera riga di classificazione. Ad esempio:
 
-   * [!DNL ~VUOTO~]
-   * [!DNL ~ empty ~]
-   * [!DNL ~Vuoto~]
+| SKU magazzino (eVar8) | Nome magazzino | Categoria magazzino |
+| --- | --- | --- |
+| 857467 | Maglione con collo a V | Vestiti da donna |
+| 948203 | braccialetto per caviglia | Gioielli |
+| 174391 | Pantaloni cordili bianchi | `~deletekey~` |
 
-* Non è possibile eliminare i valori nella colonna chiave. Si tratta di dati passati direttamente nel reporting ed è permanente.
-* Se si rimuove un valore di classificazione con sottoclassificazioni, vengono anche rimossi. Le classificazioni non possono esistere senza un valore chiave, e l'elemento padre di una sottoclassificazione è il relativo valore chiave.
+Utilizzando `~deletekey~` nella classificazione Categoria magazzino vengono eliminati tutti i dati di classificazione per il valore chiave `174391`. Diventa come se la riga non fosse mai stata classificata.
+
+## Cascate e suggerimenti
+
+* Se si utilizza `~deletekey~`, è necessario solo uno per riga in un file di classificazione.
+* `~empty~` e `~deletekey~` devono essere corrispondenze *esatte* . Non sono consentiti spazi o maiuscole.
+* Non è possibile eliminare i valori nella colonna chiave. Questi valori vengono passati direttamente nella variabile ed è permanente.
+* Se si rimuove un valore di classificazione con sottoclassificazioni, anche queste sottocategorie vengono rimosse. Le classificazioni non possono esistere senza un valore chiave, e l'elemento padre di una sottoclassificazione è il relativo valore chiave.
 * È possibile rimuovere i dati di sottoclassificazione lasciando intatta la classificazione padre.
-
