@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **Considerazioni**
 
-* Le proprietà elenco sono abilitate solo sulle variabili di traffico ( [prop](/help/implement/js-implementation/c-variables/page-variables.md)).
+* Le proprietà elenco sono abilitate solo sulle variabili di traffico ( [prop](/help/implement/js-implementation/page-variables/propn.md)).
 * Impossibile abilitare percorsi e correlazioni per le proprietà dell'elenco.
 * Analytics fornisce visite e visitatori unici a quasi tutti i report, inclusi tutti i report prop degli elenchi.
 * Le classificazioni sono supportate per le proprietà elenco.
-* Qualsiasi variabile di traffico personalizzata può diventare una proprietà elenco. (Eccezioni: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [channel](/help/implement/js-implementation/c-variables/page-variables.md)e [server](/help/implement/js-implementation/c-variables/page-variables.md).)
+* Qualsiasi variabile di traffico personalizzata può diventare una proprietà elenco. (Eccezioni: [pageName](/help/implement/js-implementation/page-variables/pagename.md), [channel](/help/implement/js-implementation/page-variables/channel.md)e [server](/help/implement/js-implementation/page-variables/server.md).)
 
 * Quando si definiscono valori duplicati nella stessa richiesta di immagine, le istanze non vengono deduplicate.
 
 È possibile modificare una proprietà in una proprietà elenco nella pagina Strumenti di amministrazione &gt; Suite di rapporti &gt; Variabili di traffico abilitando Supporto elenco e selezionando un carattere di delimitazione. I delimitatori più comuni sono due punti, due punti e virgola, una virgola o un’estremità. Il delimitatore può essere tecnicamente uno dei primi 127 caratteri ASCII.
 
-**Esempi** di implementazione {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**Esempi di implementazione**
 
 Quando si richiede l'abilitazione di prop elenco, indicare il delimitatore da utilizzare. Dopo aver attivato *`s.prop`* la scelta, nella variabile possono essere impostati più valori, come illustrato negli esempi seguenti:
 
