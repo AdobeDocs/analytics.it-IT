@@ -5,7 +5,7 @@ title: Codici di tracciamento
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ Misura il modo in cui vari codici di monitoraggio pubblicitario influiscono sui 
 
 **Proprietà generali**
 
-* Questo rapporto fa riferimento direttamente ai dati della variabile [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) implementata sul sito Web.
+* Questo rapporto fa riferimento direttamente ai dati della variabile [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) implementata sul sito Web.
 * La variabile su cui si basa il rapporto è una variabile [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)conversione. Ciò significa che può persistere oltre la visualizzazione della pagina e associarsi alle metriche entro la scadenza specificata.
 * La metrica predefinita del report è Revenue (Entrate). È possibile modificare questo valore predefinito nella [!UICONTROL Report Suite Manager] casella in [!UICONTROL Admin Tools]. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
