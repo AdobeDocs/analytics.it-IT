@@ -7,14 +7,14 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
 
 # propN
 
-Le variabili di proprietà ( [!UICONTROL prop]) vengono utilizzate per creare rapporti personalizzati all'interno del [!UICONTROL Traffic Module].
+Le variabili di proprietà (`prop`) vengono utilizzate per creare rapporti personalizzati all'interno del modulo Traffico.
 
 <!-- 
 
@@ -28,7 +28,7 @@ La variabile props può essere utilizzata come contatori (per contare il numero 
 |---|---|---|---|
 | 100 byte | c1-c75 | Traffico personalizzato | "" |
 
-**Sintassi e valori** possibili {#section_4D3013AF2979426B9589CA2BB9D254CD}
+**Sintassi e valori possibili**
 
 ```js
 s.propN="value"
@@ -36,7 +36,7 @@ s.propN="value"
 
 Non esistono limitazioni sulle [!UICONTROL property] variabili al di fuori delle limitazioni standard.
 
-**Esempi** {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+**Esempi**
 
 ```js
 s.prop2="editorial" 
@@ -46,6 +46,6 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-**Impostazioni** di configurazione {#section_25FDEB6ECA8242A2A44EE540C083078A}
+**Impostazioni di configurazione**
 
-Contatta l'Assistenza clienti Adobe per visualizzare [!UICONTROL Visit], [!UICONTROL Visitor]e [!UICONTROL Path] le metriche per [!UICONTROL prop] le variabili.
+Contatta l’Assistenza clienti Adobe per visualizzare le metriche Visita, Visitatore e Percorso per `prop` le variabili.
