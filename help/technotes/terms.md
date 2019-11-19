@@ -2,7 +2,7 @@
 title: Termini utilizzati in Adobe Analytics
 description: Glossario per Adobe Analytics, definizione dei termini comuni utilizzati.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,14 +23,14 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **** Rimbalzo: Una visita che consiste di un singolo hit. Consulta [Blocchi](/help/components/c-variables/c-metrics/metrics-bounces.md) nella guida utente Componenti. Vedere anche Accesso singolo.
 * **** Metrica calcolata: Consente la combinazione di metriche, funzioni statistiche e formule esistenti da utilizzare nei report. Consulta [Metriche](/help/components/c-calcmetrics/cm-overview.md) calcolate nella guida utente Componenti.
 * **** Campaign: Può fare riferimento a:
-   * La variabile Campagna, che popola la dimensione Codice di tracciamento. Consultate Variabili [di](/help/implement/js-implementation/c-variables/page-variables.md) pagina nella guida utente Implementa.
+   * La variabile Campagna, che popola la dimensione Codice di tracciamento. Consultate Variabili [di](/help/implement/js-implementation/page-variables/page-variables.md) pagina nella guida utente Implementa.
    * Una classificazione predefinita della dimensione Codice tracciamento; creata automaticamente per tutte le suite di rapporti.
    * Adobe Campaign, parte di Adobe Experience Cloud. Ulteriori informazioni su [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canale: Può fare riferimento a:
-   * Variabile Canale, che popola la dimensione Sezioni sito. Consultate Variabili [di](/help/implement/js-implementation/c-variables/page-variables.md) pagina nella guida utente Implementa.
+   * Variabile Canale, che popola la dimensione Sezioni sito. Consultate Variabili [di](/help/implement/js-implementation/page-variables/page-variables.md) pagina nella guida utente Implementa.
    * Canali di marketing, un componente che aiuta a capire come gli utenti arrivano al sito. Consulta [Canali](/help/components/c-marketing-channels/c-overview.md) di marketing nella guida utente dei componenti.
 * **** Classificazione: Funzione in Adobe Analytics che consente il raggruppamento di valori di dimensione. Consulta [Classificazioni](/help/components/c-classifications2/c-classifications.md) nella guida utente Componenti.
-* **** Clickmap: Non più utilizzato. Un plug-in del browser precedente che mostra quali aree del sito sono state maggiormente selezionate. Questo strumento è stato ritirato a favore di Activity Map.
+* **** Clickmap:Non più utilizzato. Un plug-in del browser precedente che mostra quali aree del sito sono state maggiormente selezionate. Questo strumento è stato ritirato a favore di Activity Map.
 * **** Feed di dati clickstream: Consultate Feed di dati.
 * **** Coorte: Un gruppo di persone che condividono caratteristiche comuni in un determinato periodo di tempo. Vedi [Cos’è un’analisi per coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella guida utente Analisi.
 * **** Server raccolta: Vedi Server di raccolta dati.
@@ -53,7 +53,7 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **** Evento: Consultate Evento di successo.
 * **** ExcelClient: Non più utilizzato come termine. Nome del predecessore del Generatore di report.
 * **** Scadenza: Nel contesto di una variabile di conversione, per quanto tempo il valore persiste sul backend. Questa persistenza consente agli eventi di essere associati ai valori variabili prima dell'hit dell'evento. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida utente di amministrazione.
-* **** Flusso: Tipo di visualizzazione in Analysis Workspace che mostra i percorsi seguiti dagli utenti sul sito. Consulta Visualizzazione [del](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) flusso nella guida utente Analisi.
+* **** Flusso: Tipo di visualizzazione in Analysis Workspace che mostra i percorsi seguiti dagli utenti sul sito. Consultate Visualizzazione [del](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) flusso nella guida utente Analisi.
 * **** Genesi: Non più utilizzato come termine. Nome precedente dei connettori dati.
 * **** Suite di rapporti globale: Termine informale designato per una suite di rapporti che raccoglie hit da più siti.
 * **** Codice H: Un predecessore di AppMeasurement. Nelle versioni precedenti di Adobe Analytics, le versioni del codice venivano misurate dalla "versione H", come H.27.5, H.26 e così via.
@@ -65,8 +65,8 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **** KPI: Abbreviazione per indicatore prestazioni chiave. Metriche che aiutano un'azienda a capire le prestazioni del sito. Ogni organizzazione ha KPI diversi che misurano diversi aspetti della propria attività. Consultate [Creare un documento](/help/implement/prepare/solution-design.md) sulla progettazione di una soluzione nella guida per l'utente Implementa.
 * **** Latenza: Il ritardo tra quando i dati vengono raccolti e quando sono disponibili nei report. La latenza tipica in una suite di rapporti è di 30-90 minuti. Consultate [Latenza](/help/technotes/latency.md) nella guida utente di Technotes.
 * **** Avvia: Breve per Adobe Experience Platform Launch, l'attuale soluzione di implementazione di Adobe. Consulta [Panoramica](https://docs.adobe.com/content/help/en/launch/using/overview.html) nella guida utente di Adobe Experience Platform Launch.
-* **** Elenco proprietà: Un'impostazione che converte una variabile di traffico tipica per supportare più valori nello stesso hit. Qualsiasi variabile di traffico personalizzata può diventare una proprietà elenco se l'impostazione è abilitata. Consultate Variabili [di](/help/implement/js-implementation/c-variables/page-variables.md) pagina nella guida utente Implementa.
-* **** List var: Variabile distinta separata dalle variabili di conversione. Le variabili di elenco supportano più valori nello stesso hit e i valori delle variabili vengono mantenuti in una visita, in modo simile alle variabili di conversione. Solo tre variabili elenco sono disponibili per un'organizzazione. Consultate Variabili [di](/help/implement/js-implementation/c-variables/page-variables.md) pagina nella guida utente Implementa.
+* **** Elenco proprietà: Un'impostazione che converte una variabile di traffico tipica per supportare più valori nello stesso hit. Qualsiasi variabile di traffico personalizzata può diventare una proprietà elenco se l'impostazione è abilitata. Consultate Variabili [di](/help/implement/js-implementation/page-variables/page-variables.md) pagina nella guida utente Implementa.
+* **** List var: Variabile distinta separata dalle variabili di conversione. Le variabili di elenco supportano più valori nello stesso hit e i valori delle variabili vengono mantenuti in una visita, in modo simile alle variabili di conversione. Solo tre variabili elenco sono disponibili per un'organizzazione. Consultate Variabili [di](/help/implement/js-implementation/page-variables/page-variables.md) pagina nella guida utente Implementa.
 * **** Società di accesso: Una raccolta di suite di rapporti utilizzata dall'organizzazione. Alcune organizzazioni dispongono di più società di accesso che si applicano a parti diverse dell'organizzazione.
 * **** Canale di marketing: Funzione in Adobe Analytics che classifica gli hit in base a come sono arrivati sul sito. La logica utilizzata per classificare gli hit può essere personalizzata utilizzando le regole di elaborazione dei canali di marketing. Consulta [Guida introduttiva a Marketing Channels (Canali](/help/components/c-marketing-channels/c-getting-started-mchannel.md) di marketing) nella guida utente Components (Componenti).
 * **** Metrica: Tipo di componente che contiene dati quantitativi. I valori delle metriche in genere contengono numeri, come Visualizzazioni pagina, Visite e Entrate. Una dimensione è in genere la sua controparte.
