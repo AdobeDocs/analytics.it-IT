@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -46,13 +46,13 @@ Un sito [!UICONTROL event] deve essere considerato una pietra miliare. Gli event
 
 Per impostazione predefinita, gli eventi di successo sono configurati come eventi *contatore* . Gli eventi contatore contano il numero di volte in cui un evento di successo viene impostato (x+1). Gli eventi possono essere configurati anche come eventi *numerici* . Gli eventi numerici consentono di specificare il numero da incrementare (come potrebbe essere necessario quando si contano valori dinamici o arbitrari, ad esempio il numero di risultati restituiti da una ricerca interna).
 
-Un tipo di evento finale, *valuta*, consente di definire l'importo da aggiungere (simile agli eventi numerici), ma viene visualizzato come valuta nei rapporti ed è soggetto a conversioni valutarie basate su s. valore *`currencyCode`* e impostazione della valuta predefinita per la suite di rapporti. Per ulteriori informazioni sull'utilizzo di eventi numerici e valutari, vedere [Prodotti](/help/implement/js-implementation/c-variables/page-variables.md).
+Un tipo di evento finale, *valuta*, consente di definire l'importo da aggiungere (simile agli eventi numerici), ma viene visualizzato come valuta nei rapporti ed è soggetto a conversioni valutarie basate su s. valore *`currencyCode`* e impostazione della valuta predefinita per la suite di rapporti. Per ulteriori informazioni sull'utilizzo di eventi numerici e valutari, vedere [Prodotti](/help/implement/js-implementation/page-variables/page-variables.md).
 
-**Configurazione della variabile**{#section_9195286C34C54B02B2598E2B856492C3}
+**Configurazione della variabile**
 
-La [!UICONTROL s.events] variabile è abilitata per impostazione predefinita per tutte le implementazioni. I sette eventi di conversione preconfigurati vengono automaticamente attivati per tutte le nuove suite di rapporti. I nuovi eventi personalizzati (event1- [event100 o event1000](/help/implement/js-implementation/c-variables/page-variables.md)) possono essere attivati da qualsiasi utente a livello di amministratore tramite Admin Console.
+La `s.events` variabile è abilitata per impostazione predefinita per tutte le implementazioni. I sette eventi di conversione preconfigurati vengono automaticamente attivati per tutte le nuove suite di rapporti. I nuovi eventi personalizzati (event1- [event100 o event1000](/help/implement/js-implementation/page-variables/page-variables.md)) possono essere attivati da qualsiasi utente a livello di amministratore tramite Admin Console.
 
-**Valori possibili**{#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
+**Valori possibili**
 
 Di seguito è riportato un elenco di valori possibili per la variabile event:
 
@@ -67,9 +67,9 @@ Di seguito è riportato un elenco di valori possibili per la variabile event:
 | purchase | Completamento di un acquisto (ordine) | Ordini |
 | event1 - event1000 (event100 per il prodotto principale) | Eventi personalizzati | Eventi personalizzati |
 
-**Sintassi ed esempi**{#section_45A159DF00114066B8551DDEB15E084C}
+**Sintassi ed esempi**
 
-Gli eventi contatore vengono impostati posizionando gli eventi desiderati nella [!UICONTROL s.events] variabile, in un elenco separato da virgole (se devono essere passati più eventi).
+Gli eventi contatore vengono impostati posizionando gli eventi desiderati nella `s.events` variabile, in un elenco separato da virgole (se devono essere passati più eventi).
 
 ```js
 s.events="scAdd"
@@ -100,19 +100,19 @@ s.events="scRemove=3,event6,event2=4"
 Gli eventi contatore di implementazione con valori interi assegnati gestiscono l’evento come se fosse stato attivato più volte all’interno della richiesta di immagine. Gli eventi contatore non consentono i decimali. È consigliabile utilizzare gli eventi numerici invece se questa funzionalità è necessaria.
 Gli eventi numerici e valutari devono essere inclusi nella [!UICONTROL s.events] variabile, anche se in genere ricevono il valore numerico (ad esempio, 24,99) nella [!UICONTROL s.products] variabile. Questo consente di collegare valori numerici e valutari specifici a singole voci di prodotto.
 
-**Serializzazione degli eventi** {#section_A89488EF4471405AAFC4D6DD05E77621}
+**Serializzazione degli eventi**
 
 Per impostazione predefinita, un evento viene conteggiato ogni volta che l’evento viene impostato sul sito.
 
 Per ulteriori informazioni, consultate Serializzazione [degli](/help/implement/js-implementation/event-serialization.md) eventi.
 
-**Sintassi** {#section_8559D42D3F344AF3BB3C0125F78C4989}
+**Sintassi**
 
 ```js
 s.events="event1:3167fhjkah"
 ```
 
-**Esempi** {#section_7B5B5728A59648ADB3E2548CDAD2C9D4}
+**Esempi**
 
 ```js
 s.events="scAdd:003717174"
