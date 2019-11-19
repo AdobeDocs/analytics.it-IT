@@ -2,9 +2,9 @@
 description: Mostra il tempo dedicato dai visitatori alla pagina
 solution: Analytics
 title: Tempo trascorso nella pagina
-topic: Rapporti
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -40,4 +40,4 @@ Il tempo trascorso sulla pagina misura il tempo trascorso tra gli hit in una vis
 
 Questa dimensione è basata sugli hit, che se utilizzata come suddivisione può fornire dati più significativi. Confronta questa dimensione con il [tempo trascorso per visita](reports-time-spent-per-visit.md), una dimensione basata sulle visite.
 
-![Tempo trascorso](assets/time-spent1.png)
+![Tempo trascorso](/help/components/c-variables/c-metrics/assets/time-spent1.png)
