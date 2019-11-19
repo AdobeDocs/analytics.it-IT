@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -57,7 +57,7 @@ La *`products`* variabile deve sempre essere impostata insieme a un evento succe
  </tbody> 
 </table>
 
-**Sintassi** {#section_ABA3682985E540E6AA67A510176CCFFC}
+**Sintassi**
 
 ```js
 "Category;Product;Quantity;Price;eventN=X[|eventN2=X2];eVarN=merch_category[|eVarN2=merch_category2]"
@@ -66,23 +66,23 @@ La *`products`* variabile deve sempre essere impostata insieme a un evento succe
 | Campo | Definizione |
 |---|---|
 | Categoria | Contiene la categoria di prodotti associata. Nella versione 15, i prodotti possono essere associati a più categorie, il che risolve una limitazione presente nella versione 14. Se in precedenza non si registrava una categoria di prodotti, si consiglia di iniziare a compilare il campo per le suite di rapporti che si trovano sulla versione 15. |
-| Prodotto | (Obbligatorio) Identificatore utilizzato per tenere traccia di un prodotto. Questo identificatore viene utilizzato per compilare il [!UICONTROL Products] rapporto. Assicuratevi di utilizzare lo stesso identificatore attraverso il processo di estrazione. |
-| Quantità | Numero di unità acquistate. Questo campo deve essere impostato con un [!UICONTROL purchase] evento da registrare. |
-| Prezzo | Si riferisce al costo combinato della quantità totale acquistata (unità x prezzo unitario singolo), non al prezzo individuale. Questo campo deve essere impostato con un [!UICONTROL purchase] evento da registrare. |
-| Eventi | Eventi valuta associati al prodotto specificato. Vedere Eventi [valuta specifici per](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) il prodotto ed Eventi [valuta a livello di](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)ordine. |
+| Prodotto | (Obbligatorio) Identificatore utilizzato per tenere traccia di un prodotto. Questo identificatore viene utilizzato per compilare il rapporto Prodotti. Assicuratevi di utilizzare lo stesso identificatore attraverso il processo di estrazione. |
+| Quantità | Numero di unità acquistate. Questo campo deve essere impostato con un evento di acquisto da registrare. |
+| Prezzo | Si riferisce al costo combinato della quantità totale acquistata (unità x prezzo unitario singolo), non al prezzo individuale. Questo campo deve essere impostato con un evento di acquisto da registrare. |
+| Eventi | Eventi valuta associati al prodotto specificato. Vedere Eventi [valuta specifici per](https://helpx.adobe.com/analytics/kb/comparing-event-types.html) il prodotto ed Eventi [valuta a livello di](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)ordine. |
 | eVar | Valore eVar di merchandising associato a un prodotto specifico. Consultate Variabili [di](/help/components/c-variables/c-merch-variables/var-merchandising.md)merchandising. |
 
 I valori inclusi nella *`products`* variabile si basano sul tipo di evento che si sta registrando. Il delimitatore di categoria/prodotto (;) è richiesto come segnaposto quando si omette Categoria. Altri delimitatori sono richiesti solo se sono necessari per distinguere il parametro da includere, come mostrato negli esempi in questa pagina.
 
-**Impostazione di prodotti con eventi** non di acquisto {#section_D5E689D4AAE941EC851CA9B98328A4DE}
+**Impostazione di prodotti con eventi non di acquisto**
 
 La *`products`* variabile deve essere impostata insieme a un evento success.
 
-**Impostazione di prodotti con un evento** di acquisto {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
+**Impostazione di prodotti con un evento di acquisto**
 
 L' *`purchase`* evento deve essere impostato sulla conferma finale ("Grazie!") pagina del processo di ordine. Il nome del prodotto, la categoria, la quantità e il prezzo sono tutti acquisiti nella *`products`* variabile. Sebbene la *`purchaseID`* variabile non sia obbligatoria, è fortemente consigliata per evitare ordini duplicati.
 
-**Eventi** valuta specifici per il prodotto {#section_F814DF053C0D463A97DA039E6323720C}
+**Eventi valuta specifici per il prodotto**
 
 Se un evento relativo alla valuta riceve un valore nella variabile anziché nella variabile *`products`* event, esso si applica solo a tale valore. Questo è utile per monitorare gli sconti specifici per prodotto, la spedizione di prodotti e valori simili. Ad esempio, se hai configurato l'evento 1 per monitorare la spedizione del prodotto, un prodotto con una spesa di spedizione "4.50" potrebbe essere simile al seguente:
 
@@ -93,7 +93,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 In questo esempio, il valore 4.50 è associato direttamente al prodotto "Running Shoes". Se aggiungete event1 al rapporto sui prodotti, vedrete "4.50" elencato per la voce "Scarpe in esecuzione". Simile a Prezzo, questo valore deve riflettere il totale per la quantità indicata. Se avete 2 articoli con una spesa di spedizione di 4.50 ciascuno, event1 deve essere "9.00".
 
-**Eventi** valuta a livello di ordine {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
+**Eventi valuta a livello di ordine**
 
 Se un evento relativo alla valuta riceve un valore nell'elenco eventi anziché nella *`products`* variabile, questo viene applicato a tutti i prodotti della *`products`* variabile. Questo è utile per tenere traccia degli sconti, delle spedizioni e di valori simili a livello di ordine, senza modificare il prezzo del prodotto o registrarlo separatamente nell'elenco dei prodotti.
 
@@ -109,15 +109,15 @@ Nei rapporti evento valuta, il totale del rapporto rappresenta il totale degli e
 
 > [!NOTE] se un valore per lo stesso evento Numerico/Valuta è specificato nella *`products`* variabile e nella *`events`* variabile, viene utilizzato il valore del *`events`* .
 
-**Insidie, domande e suggerimenti**{#section_D38FD0B79C0347B9AB4CF1632183DA2E}
+**Insidie, domande e suggerimenti**
 
-* La *`products`* variabile deve sempre essere impostata insieme a un [!UICONTROL success] evento (eventi). Se non viene [!UICONTROL success] specificato alcun evento, l'evento predefinito è [!UICONTROL prodView].
+* La *`products`* variabile deve sempre essere impostata insieme a un evento di successo (eventi). Se non viene specificato alcun evento di successo, l'evento predefinito è prodView.
 
 * Rimuovere tutte le virgole e i punti e virgola dai nomi di prodotti e categorie prima di compilare i prodotti.
 * Rimuovete tutti i caratteri HTML (simboli registrati, marchi registrati e così via).
 * Elimina simboli di valuta ($) dal prezzo.
 
-**Esempi** {#section_FCC6EF43D3534ECB9A95CDB05820F564}
+**Esempi**
 
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
