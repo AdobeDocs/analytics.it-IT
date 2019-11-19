@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -26,11 +26,11 @@ Quando un eVar viene impostato su un valore per un visitatore, il valore viene m
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
-| 255 byte | V1-v75 ( [o v100 o v250](/help/implement/js-implementation/c-variables/page-variables.md)) | Conversione personalizzata | "" |
+| 255 byte | V1-v75 ( [o v100 o v250](/help/implement/js-implementation/page-variables/page-variables.md)) | Conversione personalizzata | "" |
 
-**Scadenza**{#section_6DB5882B960D4660AE248B91B76883C4}
+**Scadenza**
 
-[!UICONTROL eVars] scade dopo un periodo di tempo specificato. Dopo la scadenza dell'eVar, non riceve più credito per gli eventi di successo. Le eVar possono anche essere configurate per scadere in caso di eventi di successo. Ad esempio, se si dispone di una promozione interna che scade al termine di una visita, la promozione interna riceve credito solo per gli acquisti o le registrazioni che si verificano durante la visita in cui sono stati attivati.
+`eVars` scade dopo un periodo di tempo specificato. Dopo la scadenza dell'eVar, non riceve più credito per gli eventi di successo. Le eVar possono anche essere configurate per scadere in caso di eventi di successo. Ad esempio, se si dispone di una promozione interna che scade al termine di una visita, la promozione interna riceve credito solo per gli acquisti o le registrazioni che si verificano durante la visita in cui sono stati attivati.
 
 Esistono due modi per scadere di un'eVar:
 
@@ -39,21 +39,21 @@ Esistono due modi per scadere di un'eVar:
 
 Se un eVar viene utilizzato in maggio per riflettere le promozioni interne e scade dopo 21 giorni, e in giugno viene utilizzato per acquisire le parole chiave di ricerca interna, il 1 giugno è necessario forzare la scadenza o reimpostare la variabile. In questo modo, i rapporti di giugno consentiranno di mantenere i valori di promozione interni.
 
-**Sensibilità** caso {#section_6E9145B7FCC2438E95BB35AAE3857412}
+**Sensibilità maiuscole/minuscole**
 
 Le eVar non fanno distinzione tra maiuscole e minuscole, ma vengono visualizzate nelle maiuscole della prima occorrenza. Ad esempio, se la prima istanza di eVar1 è impostata su "Accesso", ma tutte le istanze successive vengono passate come "Accesso", i rapporti mostrano sempre "Accesso" come valore dell'eVar.
 
-**Contatori**{#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**Contatori**
 
 Sebbene le eVar siano utilizzate più spesso per contenere valori stringa, possono anche essere configurate per fungere da contatori. Le eVar sono utili come contatori quando si tenta di contare il numero di azioni eseguite da un utente prima di un evento. Ad esempio, potete utilizzare un'eVar per acquisire il numero di ricerche interne prima dell'acquisto. Ogni volta che un visitatore effettua una ricerca, l'eVar deve contenere il valore '+1.' Se un visitatore effettua una ricerca quattro volte prima di un acquisto, verrà visualizzata un’istanza per ciascun conteggio totale: 1,00, 2,00, 3,00 e 4,00. Tuttavia, solo la versione 4.00 riceve credito per l'evento di acquisto (Metriche Ordini e Entrate). Solo i numeri positivi sono consentiti come valori di un contatore eVar.
 
-**Sottorelazioni** {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
+**Sottorelazioni**
 
-Un requisito comune per un [!UICONTROL Custom eVar] rapporto è la possibilità di suddividere un [!UICONTROL Custom eVar] rapporto per un altro. Ad esempio, se una eVar contiene il genere e un'altra contiene lo stipendio, è possibile porre la seguente domanda: delle donne che hanno visitato il mio sito, quante entrate sono state generate dalle donne che guadagnano più di 50.000 dollari l'anno. Qualsiasi eVar completamente correlata consente questo tipo di suddivisione nei rapporti. Ad esempio, se per l'eVar per genere sono abilitate le sottorelazioni complete, tutti gli altri rapporti eVar personalizzati possono essere suddivisi per genere e il genere può essere suddiviso per tutti gli altri. Per visualizzare la relazione tra due rapporti, è necessario abilitare solo una delle due sottorelazioni complete. Per impostazione predefinita, [!UICONTROL Campaigns], [!UICONTROL Products]e [!UICONTROL Category] i rapporti sono completamente correlati sotto-livello (qualsiasi eVar può essere suddiviso per campagna o prodotti).
+Un requisito comune per un report eVar personalizzato è la possibilità di suddividere un report eVar personalizzato per un altro. Ad esempio, se una eVar contiene il genere e un'altra contiene lo stipendio, è possibile porre la seguente domanda: delle donne che hanno visitato il mio sito, quante entrate sono state generate dalle donne che guadagnano più di 50.000 dollari l'anno. Qualsiasi eVar completamente correlata consente questo tipo di suddivisione nei rapporti. Ad esempio, se per l'eVar per genere sono abilitate le sottorelazioni complete, tutti gli altri rapporti eVar personalizzati possono essere suddivisi per genere e il genere può essere suddiviso per tutti gli altri. Per visualizzare la relazione tra due rapporti, è necessario abilitare solo una delle due sottorelazioni complete. Per impostazione predefinita, i rapporti Campagna, Prodotti e Categoria sono completamente correlati (qualsiasi eVar può essere suddiviso per campagna o prodotti).
 
-**Sintassi e valori** possibili {#section_BD46438B14F3488FB9AC42994C317B06}
+**Sintassi e valori possibili**
 
-Anche se le eVar possono essere rinominate, devono sempre essere indicate nel file JavaScript da eVarX, dove X è un numero compreso tra 1 e 75 ( [o 100 o 250](/help/implement/js-implementation/c-variables/page-variables.md)).
+Anche se le eVar possono essere rinominate, devono sempre essere indicate nel file JavaScript da eVarX, dove X è un numero compreso tra 1 e 75 ( [o 100 o 250](/help/implement/js-implementation/page-variables/page-variables.md)).
 
 ```js
 s.eVarX="value"
@@ -61,7 +61,7 @@ s.eVarX="value"
 
 Se non viene utilizzato come contatore, le eVar hanno le stesse limitazioni di tutte le altre variabili. Se l'eVar è un "contatore", si prevede che riceva valori numerici come "1" o "2.5". Se vengono date più di due posizioni decimali, il contatore eVar arrotonda a due posizioni decimali. Un contatore eVar non può contenere numeri negativi.
 
-**Esempi** {#section_B37F4B0D56734DA3AB02BB218825BA4E}
+**Esempi**
 
 ```js
 s.eVar1="logged in"
@@ -71,9 +71,9 @@ s.eVar1="logged in"
 s.eVar23="internal spring promo 4"
 ```
 
-**Impostazioni** di configurazione {#section_BD1FE63001C84D3DB69F3DEE243960B6}
+**Impostazioni di configurazione**
 
-Le eVar possono essere configurate in [!UICONTROL Analytics > Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]. Tutte le eVar possono essere configurate con un [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Allocation], [!UICONTROL Expire After Setting]o [!UICONTROL Reset]. Ogni impostazione di configurazione è indirizzata separatamente.
+Le eVar possono essere configurate in Analytics &gt; Amministratore &gt; Suite di rapporti &gt; Modifica impostazioni &gt; Conversione &gt; Variabili di conversione]. Tutte le eVar possono essere configurate con Nome, Tipo, Allocazione, Scadenza dopo l'impostazione o Reimposta. Ogni impostazione di configurazione è indirizzata separatamente.
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -106,7 +106,7 @@ Le eVar possono essere configurate in [!UICONTROL Analytics > Admin > Report Sui
  </tbody> 
 </table>
 
-**Insidie, domande e suggerimenti**{#section_DA6912C802E445F986C6DE4234C6C737}
+**Insidie, domande e suggerimenti**
 
 * A differenza delle [!UICONTROL prop] variabili, le variabili eVar non possono essere elenchi di valori delimitati. Se si compila un eVar con un elenco di valori, ad esempio "uno,due,tre", la stringa esatta verrà visualizzata nei report.
 * I contatori eVar non possono contenere numeri negativi.
