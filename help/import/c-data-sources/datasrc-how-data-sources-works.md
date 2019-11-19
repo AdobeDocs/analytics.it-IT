@@ -6,7 +6,7 @@ title: Funzionamento di Origini dati
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -32,4 +32,4 @@ Puoi creare e gestire origini dati basate su FTP tramite rapporti di marketing, 
 
 Adobe offre un'API Origini dati che ti consente di collegare sistematicamente le tue applicazioni in Origini dati. Ciò elimina la necessità di un server FTP intermediario e trasferisce i dati tramite HTTP, SOAP e REST.
 
-Consulta [Documentazione sull'API Origini dati](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api).
+Consulta [Documentazione sull'API Origini dati](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).
