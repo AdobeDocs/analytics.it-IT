@@ -1,12 +1,13 @@
 ---
 description: Le variabili dinamiche consentono di copiare i valori da una variabile all’altra senza digitare più volte i valori completi nelle richieste di immagini sul sito.
-keywords: Implementazione di Analytics
+keywords: Analytics Implementation
 solution: null
 title: Variabili dinamiche
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
+
 
 
 # s.useForcedLinkTracking
@@ -22,9 +23,8 @@ In JavaScript H.25.4 (rilasciato a febbraio 2013), le seguenti limitazioni dell'
 * Non `HREF` può iniziare con `#`, `about:`, o `javascript:`.
 * L' `TARGET` attributo non deve essere impostato, o `TARGET` deve fare riferimento alla finestra corrente ( `_self`, `_top`, o al valore di `window.name`).
 
-Valore predefinito = true
+Default value = `true`
 
 ## Esempio 
 
 `s.useForcedLinkTracking = false`
-
