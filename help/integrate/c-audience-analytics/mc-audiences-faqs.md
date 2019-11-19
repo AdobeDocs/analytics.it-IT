@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Domande frequenti
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -84,7 +84,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Dove posso usare queste dimensioni in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Quasi ovunque; vengono trattati come qualsiasi altra dimensione raccolta in Analytics. Esistono due eccezioni: per il momento, i dati non sono disponibili in Workbench dati o Livestream. </p> </td> 
+   <td colname="col2"> <p>Quasi ovunque; vengono trattati come qualsiasi altra dimensione raccolta in Analytics. Esiste un'eccezione: per il momento, i dati non saranno disponibili in Workbench dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Perché non vedo i dati in arrivo in Analytics?</b> </p> </td> 
