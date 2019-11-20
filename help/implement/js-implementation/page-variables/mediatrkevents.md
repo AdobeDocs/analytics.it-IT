@@ -7,12 +7,12 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
 
 ---
 
 
-# Media.trackEvents
+# media.trackEvents
 
 La variabile identifica gli eventi da inviare con un hit per contenuti multimediali.
 
