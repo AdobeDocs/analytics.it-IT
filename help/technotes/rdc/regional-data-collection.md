@@ -2,7 +2,7 @@
 title: Raccolta di dati regionali
 description: Informazioni sulla raccolta dati regionali
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -20,7 +20,6 @@ RDC attualmente include le seguenti posizioni (soggette a modifica):
 | RDC Type | Centri di raccolta dati |
 |---------------------|-------------------|
 | impostazione predefinita | San Jose, Virginia, Londra, Singapore, Hong Kong, Sydney, Amsterdam |
-| Solo Cina | Pechino |
 
 Nota: Se la richiesta di immagine di Analytics viene inviata agli `2o7.net` o `omtdrc.net` agli endpoint, avrai a disposizione una raccolta dati di terze parti. Potete determinare questo valore se visualizzate uno degli endpoint nell'URL delle richieste.
 
