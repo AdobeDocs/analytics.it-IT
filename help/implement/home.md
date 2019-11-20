@@ -1,13 +1,13 @@
 ---
-title: Implementazione di Analytics per dispositivi mobili
+title: Implementazione di Adobe Analytics
 description: nulle
 translation-type: tm+mt
-source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
+source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
 
 
-# Implementazione di Analytics per dispositivi mobili
+# Implementazione di Adobe Analytics
 
 ![Banner](../../assets/doc_banner_implement.png)
 
@@ -16,7 +16,7 @@ source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 * **Dynamic Tag Management:** predecessore di Launch, DTM offre un’interfaccia simile per implementare Analytics, ma non viene più aggiornato e non offre flessibilità. Adobe consiglia di implementare Adobe Analytics tramite Launch.
 * **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Consente di specificare le variabili e le impostazioni utilizzate in un’implementazione e può essere utile per le implementazioni di Launch basate su regole con codice personalizzato.
 
-## Articoli chiave di importazione di Analytics
+## Articoli chiave per l'implementazione di Analytics
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Creare una proprietà in Experience Platform Launch](implement-with-launch/create-analytics-property.md)
