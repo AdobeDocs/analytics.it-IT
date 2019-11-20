@@ -4,7 +4,7 @@ solution: Analytics
 title: Durata
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ Il **numeratore** in tutti i calcoli del tempo trascorso è il totale dei second
 
 Il **denominatore** non è disponibile come metrica separata in Adobe Analytics. Per le metriche "tempo trascorso" a livello di hit, il denominatore è sequenze. Una sequenza è un insieme consecutivo di hit in cui una determinata variabile contiene lo stesso valore (sia che venga impostata, estesa in avanti o persistente). Per "Spread forward" si intende la persistenza di prop tra le visualizzazioni di pagina (ossia tra eventi di collegamento successivi), ai fini del calcolo del tempo trascorso.
 
-* Ad esempio, nel caso di [!UICONTROL Page Name] o di altre dimensioni a livello di hit, il denominatore è essenzialmente "Istanze" o "Visualizzazioni di pagina", ma con ricariche e valori non impostati (ad esempio, eventi di collegamento) conteggiati come singola interazione (una sequenza).
+* Ad esempio, nel caso di [!UICONTROL Page Name] o di altre dimensioni a livello di hit, il denominatore è essenzialmente [!UICONTROL 'Instances'] o [!UICONTROL 'Page Views'], ma con ricariche e valori non impostati (ad esempio, eventi di collegamento) conteggiati come singola interazione (una sequenza).
 
 * Anche gli hit di rimbalzo e di uscita vengono rimossi dal denominatore perché non è possibile conoscere il tempo trascorso.
 
 ## Domande frequenti
 
-**Q1: È possibile applicare tutte le metriche "tempo trascorso" a qualsiasi dimensione?** A: Le metriche "tempo trascorso" che possono essere applicate a qualsiasi dimensione sono:
+**Q1: È possibile applicare tutte le metriche "tempo trascorso" a qualsiasi dimensione?**
+
+A: Le metriche "tempo trascorso" che possono essere applicate a qualsiasi dimensione sono:
 
 * [!UICONTROL Total seconds spent]
 
@@ -62,16 +64,22 @@ Il **denominatore** non è disponibile come metrica separata in Adobe Analytics.
 
 * [!UICONTROL Average time spent on site] (Secondi)
 
-**Q2: Qual è la dimensione del tempo trascorso più utilizzata nelle suddivisioni con altre dimensioni?** A: La [!UICONTROL Time Spent on Page – granular] dimensione è una dimensione a livello di hit. Suddividendo questa dimensione per un’altra dimensione, potrai vedere i secondi in cui è durato un hit in cui era presente anche la dimensione di suddivisione.
+**Q2: Qual è la dimensione del tempo trascorso più utilizzata nelle suddivisioni con altre dimensioni?**
+
+A: La [!UICONTROL Time Spent on Page – granular] dimensione è una dimensione a livello di hit. Suddividendo questa dimensione per un’altra dimensione, potrai vedere i secondi in cui è durato un hit in cui era presente anche la dimensione di suddivisione.
 Nell’esempio seguente, il termine di ricerca "classifieds" è associato a un hit time di 54 secondi, 59 secondi ecc., ad esempio per indicare ai visitatori che stanno trascorrendo del tempo a leggere il contenuto restituito per quel termine.
 
 ![](assets/time-spent1.png)
 
-**Q3: Quale metrica è appropriata rispetto alla dimensione di[!UICONTROL Time Spent on Page – granular]?** A: Qualsiasi metrica. La dimensione mostra il tempo trascorso sull’hit esatto in cui si è verificato l’evento. Un tempo maggiore impiegato indica che un visitatore è rimasto più a lungo in una pagina (hit) in cui si è verificato l’evento.
+**Q3: Quale metrica è appropriata rispetto alla dimensione di[!UICONTROL Time Spent on Page – granular]?**
+
+A: Qualsiasi metrica. La dimensione mostra il tempo trascorso sull’hit esatto in cui si è verificato l’evento. Un tempo maggiore impiegato indica che un visitatore è rimasto più a lungo in una pagina (hit) in cui si è verificato l’evento.
 
 ![](assets/time-spent2.png)
 
-**Q4: Come[!UICONTROL Average Time Spent on Site]differisce da[!UICONTROL Time Spent per Visit]?** A: La differenza è il denominatore della metrica:
+**Q4: Come[!UICONTROL Average Time Spent on Site]differisce da[!UICONTROL Time Spent per Visit]?**
+
+A: La differenza è il denominatore della metrica:
 
 * [!UICONTROL Average time spent on site] utilizza le sequenze che includono un elemento dimensione.
 
@@ -88,7 +96,7 @@ Supponiamo che il seguente set di chiamate server riguardi un singolo visitatore
 | **Tempo trascorso visita (in sec)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Secondi passati** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo di hit** | Pagina | Collegamento | Pagina | Pagina | Pagina | Pagina | Pagina |
-| **Nome pagina** | Home | - | Prodotto | Home | Home (ricarica) | Carrello | Conferma ordine |
+| **Nome pagina** | Home | - | Prodotto | Home | Home (ricarica) | Carrello | Conferma d'ordine |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (set) | A (differenziale in avanti) | not set | B (set) | B (set) | A(set) | C (set) |
 | **prop1 secondi trascorsi** | 30 | 50 | - | 10 | 40 | 60 | - |
