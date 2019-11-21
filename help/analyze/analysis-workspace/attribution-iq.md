@@ -1,7 +1,7 @@
 ---
 title: Attribution IQ
-description: IQ attribuzione è una serie di funzioni di Adobe Analytics che fornisce informazioni aggiuntive su come le attività di marketing contribuiscono alla conversione.
-translation-type: tm+mt
+description: Attribution IQ è una serie di funzioni di Adobe Analytics che fornisce informazioni aggiuntive sul modo in cui le attività di marketing contribuiscono alla conversione.
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -9,13 +9,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 # Attribution IQ
 
-IQ attribuzione è una serie di funzioni di Adobe Analytics che fornisce informazioni aggiuntive su come le attività di marketing contribuiscono alla conversione.
+Attribution IQ è una serie di funzioni di Adobe Analytics che fornisce informazioni aggiuntive sul modo in cui le attività di marketing contribuiscono alla conversione.
 
-Un determinato percorso del cliente non è lineare e spesso imprevedibile. Ogni cliente procede secondo il proprio ritmo; spesso si raddoppiano, si bloccano, si riavviano o si impegnano in altri comportamenti non lineari. Queste azioni organiche rendono difficile conoscere l'impatto delle attività di marketing lungo il percorso del cliente. Inoltre, ostacola gli sforzi volti a collegare più canali di dati tra loro.
+Un determinato percorso del cliente non è lineare e spesso imprevedibile. Ogni cliente procede secondo il proprio ritmo: spesso si torna indietro, si ferma, inizia di nuovo o si impegna in altri comportamenti non lineari. Queste azioni organiche rendono difficile conoscere l’impatto effettivo delle attività di marketing lungo il percorso del cliente. Inoltre, ostacola gli sforzi volti a collegare più canali di dati tra loro.
 
-Adobe Analytics Attribution IQ (IQ) consente ai moderni team di intelligence di comprendere in che modo il coinvolgimento significativo ha luogo nel percorso del cliente, identificando i punti di flessione che portano i clienti a raggiungere risultati. Comprendere questo aspetto del percorso del cliente ottimizza efficacemente le iniziative di marketing.
+Attribution IQ di Adobe Analytics consente di comprendere come si verifica un coinvolgimento significativo lungo il percorso del cliente, identificando i punti di flesso che conducono i clienti verso gli obiettivi desiderati. Comprendere questo aspetto del percorso del cliente ottimizza efficacemente le iniziative di marketing.
 
-![Problema di attribuzione IQ](c-panels/attribution/assets/attribution_iq_problem.png)
+![Problema di Attribution IQ](c-panels/attribution/assets/attribution_iq_problem.png)
 
 Adobe Analytics migliora l’attribuzione consentendo di:
 
@@ -24,12 +24,12 @@ Adobe Analytics migliora l’attribuzione consentendo di:
 * Evitare le modifiche di implementazione: con l’elaborazione al momento della generazione del rapporto e le sessioni in base al contesto, è possibile integrare e applicare il contesto del percorso del cliente in fase di esecuzione.
 * Costruire la sessione che si adatta al meglio allo scenario di attribuzione.
 * Suddividere l’attribuzione in base ai segmenti: è possibile confrontare facilmente le prestazioni dei canali di marketing in qualsiasi segmento importante (ad es. clienti nuovi rispetto a clienti di ritorno, prodotto X rispetto a prodotto Y, livello di fedeltà rispetto a Customer Lifetime Value).
-* Analisi multi-touch e multicanale: Utilizzate diagramma di Venn e istogrammi e i risultati di attribuzione delle tendenze.
-* Analizzare visivamente le sequenze di marketing chiave: esplorate i percorsi che hanno portato alla conversione visiva con visualizzazioni di flusso e abbandono con più nodi.
+* Ispezionare l’analisi incrociata e a più contatti dei canali: è possibile utilizzare diagrammi di Venn, istogrammi e risultati di attribuzione di tendenze.
+* Analizzare visivamente sequenze di marketing principali: è possibile esplorare in modo visivo i percorsi che hanno condotto alla conversione, con visualizzazioni di abbandono e di flusso a più nodi.
 * Costruire metriche calcolate: è possibile utilizzare un qualsiasi numero di metodi di allocazione di attribuzione.
 
 ## Funzioni
 
-L'QI di attribuzione include le seguenti funzionalità:
+Attribution IQ include le seguenti funzionalità:
 
 * [Pannello Attribuzione:](c-panels/attribution/attribution.md)
