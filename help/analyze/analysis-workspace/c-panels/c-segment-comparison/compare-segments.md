@@ -1,12 +1,12 @@
 ---
-title: Reindirizza
+title: Reindirizzamento
 description: Questa pagina è stata spostata.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Reindirizza
+# Reindirizzamento
 
-Questa è una pagina temporanea. Consulta Panoramica [sul confronto dei](segment-comparison.md)segmenti.
+Questa è una pagina temporanea. Vedi [Panoramica sul confronto dei segmenti](segment-comparison.md).
