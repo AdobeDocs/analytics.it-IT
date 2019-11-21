@@ -5,7 +5,7 @@ title: Compatibilità con i segmenti di Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
 
 ---
 
@@ -36,7 +36,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
   <tr> 
    <td colname="col1"> <b>AND e OR possono essere combinati senza limiti</b> </td> 
    <td colname="col2"> Supportate </td> 
-   <td colname="col3"> Alcune limitazioni </td> 
+   <td colname="col3"> Alcune limitazioni. Vedere *note* sotto la tabella. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Contenitori nidificati</b> </td> 
@@ -94,3 +94,4 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
  </tbody> 
 </table>
 
+*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un`exclusion`contenitore o`without`contenitore durante l'utilizzo`AND/OR`. Quando si utilizza tale combinazione, solo i segmenti che possono essere riscritti come`A AND NOT B`(o **includere questa caratteristica**ed **escludere questa caratteristica**) sono supportati in Data Warehouse.*
