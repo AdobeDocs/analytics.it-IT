@@ -1,12 +1,12 @@
 ---
 title: Utilizzare l’attribuzione nelle metriche calcolate
-description: Reindirizza pagina
-translation-type: tm+mt
+description: Pagina di reindirizzamento
+translation-type: ht
 source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
-# Reindirizza
+# Reindirizzamento
 
-Consulta [IQ](../c-panels/attribution/attribution.md)attribuzione.
+Vedi [Attribution IQ](../c-panels/attribution/attribution.md).
