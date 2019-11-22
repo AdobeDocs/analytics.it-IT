@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # pageType
 
 La variabile viene utilizzata solo per designare una pagina di errore 404 Pagina non trovata.
+
 
 <!-- 
 
@@ -67,5 +68,5 @@ Nessuno
 
 **Insidie, domande e suggerimenti**{#section_943681AB01FE47BEAC72E93CB60C53C8}
 
-Per acquisire altri errori sul lato server (ad esempio 500 errori), utilizzate una prop per acquisire il messaggio di errore e inserite "`500 Error: <URL>`" dove `<URL>` è l'URL richiesto nella *`pageName`* variabile. Seguendo questo corso di azione, puoi utilizzare [!UICONTROL Pathing] i rapporti per vedere quali percorsi hanno causato 500 errori agli utenti. Il prop spiega quale messaggio di errore viene fornito dal server.
+Per acquisire altri errori sul lato server (ad esempio, 500 errori), utilizzate un prop per acquisire il messaggio di errore e inserite "`500 Error: <URL>`" dove `<URL>` è l'URL richiesto nella *`pageName`* variabile. Seguendo questo corso di azione, puoi utilizzare [!UICONTROL Pathing] i rapporti per vedere quali percorsi hanno causato 500 errori agli utenti. Il prop spiega quale messaggio di errore viene fornito dal server.
 
