@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # Proprietà elenco
 
 Le proprietà elenco sono un elenco delimitato di valori che vengono passati in una variabile e quindi segnalati come singole voci. Le proprietà elenco sono comunemente implementate nelle pagine che contengono valori selezionabili dall'utente, come gli elementi elencati con caselle di controllo o pulsanti di scelta. Sono utili in qualsiasi circostanza in cui si desidera definire più valori in una variabile senza inviare più richieste di immagini.
+
 
 <!-- 
 
