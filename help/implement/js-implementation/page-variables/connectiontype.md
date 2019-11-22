@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # connectionType
 
 La variabile, in Internet Explorer, indica se il browser è configurato su una connessione LAN o modem.
+
 
 <!-- 
 
@@ -30,6 +31,6 @@ Questa variabile viene compilata dopo il codice della pagina e prima dell' *`doP
 
 Potete leggere questi valori e copiarli in `props/eVars`, ma non dovreste mai modificarli. Questa variabile viene introdotta con la versione H.11 del file JavaScript.
 
-| Query Param | Valore | Esempio  | Report interessati |
+| Query Param | Valore | Esempio | Report interessati |
 |---|---|---|---|
 | ct | lan o modem | lan | Traffico &gt; Tecnologia &gt; Tipo di connessione |
