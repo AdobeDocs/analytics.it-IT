@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,13 +16,14 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 
 [!UICONTROL Integration Data Sources] utilizzare [!UICONTROL transaction ID] per collegare i dati offline a una transazione online (come un lead o un acquisto generato online).
 
+
 <!-- 
 
 transactionID.xml
 
  -->
 
-Ogni singolo *`transactionID`* inviato ad Adobe viene registrato in preparazione del [!UICONTROL Data Sources] caricamento di informazioni offline sulla transazione. Vedere [Origini](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)dati.
+Ogni singolo *`transactionID`* inviato ad Adobe viene registrato in preparazione del [!UICONTROL Data Sources] caricamento di informazioni offline sulla transazione. See [Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/).
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
