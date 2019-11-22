@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # server
 
 La variabile viene utilizzata per mostrare il dominio di una pagina Web (per mostrare i domini a cui arrivano gli utenti) o il server che distribuisce la pagina (per un riferimento rapido per il bilanciamento del carico).
+
 
 <!-- 
 
