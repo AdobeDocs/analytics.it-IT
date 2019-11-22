@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # mediaName
 
 Questa variabile specifica il nome del video o dell’elemento multimediale.
+
 
 <!-- 
 
@@ -26,7 +27,7 @@ mediaName.xml
 
 | Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
 |---|---|---|---|
-| 64 KB | pev3 | Video; Flusso video successivo; Flusso video precedente; Segmenti Video Visualizzati; Tempo trascorso sul video | Nessuno |
+| 64 KB | pev3 | Video; Flusso video successivo; Flusso video precedente; Segmenti Video Visualizzati;Tempo trascorso sul video | Nessuno |
 
 **Sintassi e valori** possibili {#section_F97A2253BBD24FEBBC225F233A319F5D}
 
