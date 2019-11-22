@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 # trackingServer
 
 La variabile viene utilizzata per l’implementazione dei cookie di prime parti per specificare il dominio in cui vengono scritti la richiesta immagine e il cookie.
+
 
 <!-- 
 
