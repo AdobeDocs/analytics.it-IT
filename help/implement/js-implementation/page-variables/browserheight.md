@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # browserHeight
 
 La variabile visualizza l'altezza della finestra del browser.
+
 
 <!-- 
 browserheight.xml
@@ -33,7 +34,7 @@ Potete leggere questi valori e copiarli in prop/eVar, ma non dovreste mai modifi
   <tr> 
    <th class="entry"> Query Param </th> 
    <th class="entry"> Valore </th> 
-   <th class="entry"> Esempio  </th> 
+   <th class="entry"> Esempio </th> 
    <th class="entry"> Report interessati </th> 
   </tr> 
  </thead>
