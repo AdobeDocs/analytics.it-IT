@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
 # media.trackVars
 
 La variabile identifica le variabili da inviare con un hit per file multimediali.
+
 
 <!-- 
 
