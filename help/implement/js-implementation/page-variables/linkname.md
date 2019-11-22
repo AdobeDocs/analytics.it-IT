@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # linkName
 
 La variabile è una variabile opzionale utilizzata in [!UICONTROL Link Tracking] che determina il nome di un collegamento personalizzato, di download o di uscita.
+
 
 <!-- 
 
