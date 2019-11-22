@@ -7,7 +7,7 @@ title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # Variabile elenco
 
 Noto anche come Var elenco. Analogamente alla funzione Elenco proprietà, le Var elenco consentono più valori all’interno della stessa richiesta di immagine. Inoltre, agiscono in modo simile alle eVar, che persistono oltre la richiesta di immagine sulla quale sono state definite. Potete utilizzare queste variabili per visualizzare la causa e l'effetto tra più elementi su una singola pagina, come elenchi di prodotti, elenchi di desideri, elenchi di miglioramenti della ricerca o elenchi di annunci visualizzati.
+
 
 <!-- 
 
@@ -32,7 +33,7 @@ listN.xml (bob edit)
 * L'utilizzo di List Vars richiede il codice H23 o superiore.
 * Le variabili elenco possono essere classificate.
 * Se i valori duplicati sono definiti nella stessa richiesta di immagine, le variabili elenco deduplicano tutte le istanze di tali valori.
-* Le variabili di elenco più granulari possono essere segmentate a livello di hit (o visualizzazione pagina). Se nella stessa richiesta di immagine è presente una variabile di elenco con tre valori, tutte e tre le regole di segmento che corrispondono a un valore verranno sottoposte a reporting. Al contrario, se viene definita una regola di esclusione che corrisponde a un singolo valore, vengono esclusi tutti e tre i valori.
+* Le variabili di elenco più granulari possono essere segmentate a livello di hit (o visualizzazione pagina). Se nella stessa richiesta di immagine è presente una variabile di elenco con tre valori, tutte le regole di segmento che corrispondono a un valore verranno richiamate nei rapporti. Al contrario, se viene definita una regola di esclusione che corrisponde a un singolo valore, tutti e tre i valori sono esclusi.
 
 **Configurazione** {#section_8CADFF581D2447518BA3F7F79B2D80A9}
 
