@@ -2,7 +2,7 @@
 title: Canale interno (aggiornamento sessione)
 description: Informazioni sul canale interno (aggiornamento sessione).
 translation-type: tm+mt
-source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -38,15 +38,15 @@ Esempio:
 
 ## Relazione tra il primo e l'ultimo tocco
 
-Per comprendere l’interazione tra il primo e l’ultimo tocco e per confermare che le impostazioni locali funzionano come previsto, potete eseguire il pulling di un rapporto sui canali di primo tocco, relativo in parte a un rapporto sull’ultimo canale, con l’aggiunta della metrica di successo chiave (vedere l’esempio di seguito). L’esempio illustra l’interazione tra canali primo e ultimo contatto.
+Per comprendere l’interazione tra il primo e l’ultimo tocco e per confermare che le impostazioni locali funzionano come previsto, potete eseguire il pulling di un rapporto sui canali di primo tocco, relativo in parte a un rapporto sull’ultimo canale, con l’aggiunta della metrica di successo chiave (vedere l’esempio di seguito). L’esempio illustra l’interazione tra il primo e l’ultimo canale di tocco.
 
 ![](assets/int-channel3.png)
 
-L’intersezione in cui prima corrisponde all’ultimo tocco è evidenziata in arancione. Sia l'aggiornamento diretto che l'aggiornamento della sessione ottengono solo l'ultimo tocco di credito se erano anche il primo canale touch, perché non possono ottenere credito da altri canali persistenti (righe evidenziate in grigio).
+L'intersezione in cui prima corrisponde all'ultimo tocco è evidenziata in arancione. Sia l'aggiornamento diretto che l'aggiornamento della sessione ottengono solo l'ultimo tocco di credito se erano anche il primo canale touch, perché non possono ottenere credito da altri canali persistenti (righe evidenziate in grigio).
 
 ## Perché si verifica l'aggiornamento della sessione?
 
-Poiché sappiamo che l’aggiornamento dell’ultima sessione può avvenire solo se è stato anche il primo tocco, gli scenari seguenti spiegano come l’aggiornamento della sessione potrebbe essere un canale di primo tocco.
+Poiché sappiamo che l’ultimo aggiornamento della sessione può avvenire solo se si tratta anche del primo tocco, gli scenari seguenti spiegano come l’aggiornamento della sessione potrebbe essere un canale di primo tocco.
 
 ### Scenario 1: Timeout sessione
 
@@ -58,7 +58,7 @@ Un visitatore arriva sulla pagina A senza tag, quindi passa alla pagina B con ta
 
 ### Scenario 3: Reindirizza
 
-Se un reindirizzamento non è impostato per trasmettere i dati del referente alla nuova pagina di destinazione, i dati del referente di entrata vera andranno persi e ora la pagina di reindirizzamento (probabilmente una pagina interna) verrà visualizzata come dominio di riferimento. La visita verrà classificata come Aggiornamento sessione.
+Se un reindirizzamento non è impostato per trasmettere i dati del referente alla nuova pagina di destinazione, i dati del referente di immissione vera andranno persi e ora la pagina di reindirizzamento (probabilmente una pagina interna) verrà visualizzata come dominio di riferimento. La visita verrà classificata come Aggiornamento sessione.
 
 ### Scenario 4: Traffico tra domini
 
