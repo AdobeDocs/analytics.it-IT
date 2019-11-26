@@ -6,7 +6,7 @@ title: Domande frequenti sull’implementazione di Analytics
 topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c3bdd39808041b2e716d3e6bbdcfbf23c37b7a24
 
 ---
 
@@ -87,7 +87,7 @@ Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni
   </tr> 
   <tr> 
    <td> Qual è la versione più recente del file s_code? </td> 
-   <td> Questa sezione contiene la cronologia delle versioni delle librerie [!DNL AppMeasurement] su piattaforme web e mobile. L’ultima versione di ciascuna libreria può essere scaricata in Reports &amp; Analytics &gt; Strumenti di amministrazione &gt; Codice manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [Altro...] </a> </td> 
+   <td> This section contains a release history for <code>AppMeasurement</code> libraries across web and mobile platforms. L’ultima versione di ciascuna libreria può essere scaricata in Reports &amp; Analytics &gt; Strumenti di amministrazione &gt; Codice manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [Altro...] </a> </td> 
   </tr> 
   <tr> 
    <td> Come si esegue il debug del file s_code? </td> 
