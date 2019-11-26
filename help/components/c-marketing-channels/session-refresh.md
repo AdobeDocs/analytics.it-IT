@@ -2,7 +2,7 @@
 title: Canale interno (aggiornamento sessione)
 description: Informazioni sul canale interno (aggiornamento sessione).
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
 
 ---
 
@@ -66,7 +66,7 @@ Un visitatore passa da un dominio che viene attivato alla Suite A a un altro che
 
 ### Scenario 5: Lunghi tempi di caricamento delle pagine
 
-Un visitatore arriva sulla pagina A che si trova in condizioni di aumento e il codice Adobe Analytics si trova nella parte superiore della pagina. Prima che tutti i contenuti con aumento (inclusa la richiesta di immagini di Adobe Analytics) possano essere caricati, l'aumento dei clic del pulsante a pagina B. La pagina B avvia la richiesta di immagine di Adobe Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in Adobe Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
+Un visitatore arriva sulla pagina A, che pesa sul contenuto, e il codice Adobe Analytics si trova nella parte inferiore della pagina. Prima che tutto il contenuto (inclusa la richiesta di immagini di Adobe Analytics) possa essere caricato, il visitatore fa clic sulla pagina B. La pagina B avvia la richiesta di immagine di Adobe Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in Adobe Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
 
 ### Scenario 6: Cancellazione dei cookie nel sito centrale
 
