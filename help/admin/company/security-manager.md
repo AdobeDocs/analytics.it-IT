@@ -5,7 +5,7 @@ title: Sicurezza Manager
 topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 229ce50a24bd7b86e3859775bb4fbeba1c6a5668
 
 ---
 
@@ -42,7 +42,7 @@ Consente di controllare l'accesso ai dati di reporting. Le opzioni disponibili i
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Applica limitazioni di accesso IP</span> </td> 
-   <td colname="col2"> <p>(Questa funzionalità non può essere utilizzata insieme all'accesso a Experience Cloud. Questa funzionalità non sarà più disponibile a partire da gennaio 2020.) Limita l'accesso al report a indirizzi IP o intervalli di indirizzi IP specifici. </p> <p>È possibile aggiungere fino a 100 voci nell'elenco Filtro indirizzi IP e ogni voce può essere un indirizzo specifico o un intervallo di indirizzi. </p> <p> <span class="wintitle"> Applica restrizioni</span> di accesso IP non viene applicata finché non è presente almeno una voce nell'elenco Filtro indirizzi IP. </p> <p> <span class="uicontrol"> Indirizzo</span>IP accettato: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio, <code>
+   <td colname="col2"> <p>(Questa funzionalità non può essere utilizzata insieme all'accesso a Experience Cloud. Questa funzionalità non sarà più disponibile a partire da ottobre 2020.) Limita l'accesso al report a indirizzi IP o intervalli di indirizzi IP specifici. </p> <p>È possibile aggiungere fino a 100 voci nell'elenco Filtro indirizzi IP e ogni voce può essere un indirizzo specifico o un intervallo di indirizzi. </p> <p> <span class="wintitle"> Applica restrizioni</span> di accesso IP non viene applicata finché non è presente almeno una voce nell'elenco Filtro indirizzi IP. </p> <p> <span class="uicontrol"> Indirizzo</span>IP accettato: Per specificare un intervallo di indirizzi IP, racchiudere l'intervallo tra parentesi (ad esempio, <code>
        192.168.10.[20-240]
      </code>). È inoltre possibile utilizzare i caratteri jolly (*) per specificare un numero qualsiasi compreso tra 0 e 255 (ad esempio, <code>
        192.168.[10-14].*
@@ -63,3 +63,39 @@ Consente di controllare l'accesso ai dati di reporting. Le opzioni disponibili i
  </tbody> 
 </table>
 
+## Fine del ciclo di vita [!UICONTROL Enforce IP login restrictions]
+
+La **[!UICONTROL Enforce IP login restrictions]** funzione è una funzionalità di Analytics di prossima introduzione che consente di inserire in una whitelist indirizzi IP specifici ritenuti sicuri, per consentire l'accesso e l'accesso all'ambiente Adobe Analytics. In molti casi, questa funzione viene utilizzata per impostare un indirizzo IP aziendale come unico indirizzo IP protetto da cui gli utenti possono accedere. Pertanto, per utilizzare Adobe Analytics, questo richiede che gli utenti si trovino in un ufficio aziendale o che accedano alla rete tramite VPN.
+
+### Perché lo stiamo considerando per la fine della vita?
+
+Questa funzione viene interrotta in alcune circostanze dalla migrazione dell'accesso a Experience Cloud e/o dall'accesso a Experience Cloud. È noto per interrompere per i clienti che utilizzano **[!UICONTROL Customer Attributes]** o **[!UICONTROL Audience Library]**.
+
+Inoltre, se disponi di più soluzioni Experience Cloud, puoi eludere questo requisito effettuando l'accesso a Experience Cloud con una delle altre soluzioni, in quanto questa funzione non esiste o non è supportata al di fuori di Analytics stesso. Gli utenti potrebbero anche aggirare questo problema tramite lo spoofing IP.
+
+Infine, Adobe dispone di una soluzione alternativa efficiente e di gran lunga superiore tramite Single Sign-On e Federated ID. Questa funzione offre maggiore controllo e sicurezza sull’esperienza di accesso degli utenti.
+
+### In che modo la rimozione di questa funzione ha un impatto su di te?
+
+Per tutti i clienti che hanno **[!UICONTROL Enforce IP login restrictions]** configurato questa funzione, questa verrà rimossa a ottobre 2020. In quel momento, eventuali restrizioni di accesso IP ancora in vigore non saranno più applicate. Se devi comunque limitare l’accesso per indirizzo IP, consulta e implementa la soluzione consigliata per ID Single Sign-On e Federated ID (ulteriori informazioni e risorse di seguito).
+
+Inoltre, il **[!UICONTROL Enforce IP login restrictions]** manager verrà rimosso dall' **[!UICONTROLAamministratore &gt; Impostazioni società &gt; Gestione]** sicurezza nell'interfaccia utente di Analytics (come mostrato di seguito).
+
+![](assets/sec-manager2.png)
+
+### Quali sono le altre opzioni?
+
+Come già detto, questa funzione di Analytics terminerà. Per darti il tempo di implementare SSO e Federated ID, abbiamo posticipato la data EOL a ottobre 2020.
+
+Sia SSO che Federated ID sono soluzioni superiori alla funzione Limitazione di accesso IP che abbiamo già installato oggi e vi fornirà maggiore controllo, sicurezza e funzionalità.
+
+Per informazioni su come impostare SSO/Federated ID, è disponibile la seguente documentazione di aiuto. Consigliamo di leggerli accuratamente e di collaborare con il reparto IT per implementarli:
+
+* [Single Sign-On e Experience Cloud](https://spark.adobe.com/page/JeSB8EPEQIvjD/)
+* [Admin Console - Documentazione di impostazione identità](https://helpx.adobe.com/enterprise/using/set-up-identity.html)
+* [Admin Console - Esercitazione sull’impostazione dell’identità (video)](https://helpx.adobe.com/enterprise/how-to/identity-directories-domains.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [Configurare l’esercitazione Federated ID (video)](https://helpx.adobe.com/enterprise/how-to/identity-configure-ids.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [Single Sign-On - Domande frequenti](https://helpx.adobe.com/enterprise/using/sso-faq.html)
+* [Tipi di identità supportati da Adobe](https://helpx.adobe.com/enterprise/using/identity.html)
+
+Se desiderate continuare a supportare le restrizioni di accesso IP e richiedete che siano fornite da Experience Cloud, potete votare questa funzione nella nostra pagina [](https://forums.adobe.com/ideas/11648)Forum. Per ulteriori domande o informazioni sugli SSO/Federated ID e l'EXC, contattate Ryan Monger (monger@adobe.com).
