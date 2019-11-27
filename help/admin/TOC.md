@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Guida dell’amministratore di Analytics
-user-guide-url: /content/help/it-IT/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Co-branding](company/co-branding-admin.md)
    + [Nascondere suite di rapporti](company/c-hide-report-suites.md)
    + [Sicurezza Manager](company/security-manager.md)
+   + [Fine del ciclo di vita per l'applicazione delle restrizioni di accesso IP](company/login-restrictions-eol.md)
 + Gestione suite di rapporti {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Suite di rapporti rollup e globali](c-manage-report-suites/rollup-report-suite.md)
@@ -172,9 +173,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Espansione dell’ID](c-data-governance/gdpr-id-expansion.md)
    + [Tecniche di etichettatura consigliate](c-data-governance/gdpr-analytics-ids.md)
    + [Esempi di etichettatura](c-data-governance/gdpr-labeling-example.md)
-   + [Privacy dei dati e Connettori dati (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [Privacy dei dati e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologia sulla privacy dei dati](c-data-governance/gdpr-terminology.md)
-   + [Variabili di rapporti sulla privacy](c-data-governance/consent-variables.md)
+   + [Variabili per la generazione di rapporti sulla privacy](c-data-governance/consent-variables.md)
 + Utilizzo delle chiamate server {#server-call-usage}
    + [Panoramica sull'utilizzo delle chiamate server](c-server-call-usage/overage-overview.md)
    + [Visualizzazione dell'utilizzo della chiamata server corrente](c-server-call-usage/server-call-usage-dashboard.md)
