@@ -3,7 +3,7 @@ description: La funzione Modifica metriche in più richieste consente di aggiung
 title: Modifica metriche in più richieste
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -14,7 +14,7 @@ La funzione Modifica metriche in più richieste consente di aggiungere, rimuover
 
 ## Aggiunta di metriche {#section_3FBDA9668039404895059618D70FCBCD}
 
-Aspetti da considerare:
+Nota bene
 
 * Le metriche possono essere aggiunte solo alle richieste di layout pivot. Se alcune delle richieste selezionate sono Layout personalizzati, non è possibile aggiungere metriche. Il motivo è che Generatore di report non sa dove inserire la nuova metrica nel foglio di calcolo, poiché il layout è personalizzato.
 * Di conseguenza, se avete selezionato solo richieste di layout personalizzato, l' **[!UICONTROL Add Metric/s]** opzione non è disponibile.
@@ -32,7 +32,7 @@ Per aggiungere una o più metriche:
 
 ## Sostituire la metrica {#section_D773AAC7B30C4FBEBDB66B203C217818}
 
-Aspetti da considerare:
+Nota bene
 
 * Sono consentite solo sostituzioni 1:1, non 1:many o many:1.
 * Se la metrica selezionata per la sostituzione non è presente in una delle richieste selezionate, la richiesta rimane invariata.
@@ -45,7 +45,7 @@ Aspetti da considerare:
 
 Per sostituire una metrica
 
-1. Selezionate una o più richieste in Excel e fate clic con il pulsante destro del mouse per selezionarle **[!UICONTROL Edit Metrics]**. Oppure, fate clic **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[scegliete la metrica]]** &gt; **[!UICONTROL Edit Group]** **** per selezionare il gruppo di richieste da modificare.
+1. Selezionate una o più richieste in Excel e fate clic con il pulsante destro del mouse per selezionarle **[!UICONTROL Edit Metrics]**. In alternativa, fate clic su **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** per selezionare il gruppo di richieste da modificare.
 
 1. Seleziona **[!UICONTROL Replace Metric]**.
 
@@ -56,7 +56,7 @@ Per sostituire una metrica
 
 ## Rimuovere le metriche {#section_D3CD5BAC7670416593B633B2B8423C60}
 
-Aspetti da considerare:
+Nota bene
 
 * Se una delle metriche selezionate per la rimozione non è presente in una delle richieste selezionate, la richiesta rimane invariata.
 * In un layout pivot, la rimozione di una metrica determina lo spostamento del layout per le metriche che si trovano dopo la metrica rimossa.
@@ -65,7 +65,7 @@ Aspetti da considerare:
 
 Per rimuovere le metriche:
 
-1. Selezionate una o più richieste in Excel e fate clic con il pulsante destro del mouse per selezionarle **[!UICONTROL Edit Metrics]**. Oppure, fate clic **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[scegliete la metrica]]** &gt; **[!UICONTROL Edit Group]** **** per selezionare il gruppo di richieste da modificare.
+1. Selezionate una o più richieste in Excel e fate clic con il pulsante destro del mouse per selezionarle **[!UICONTROL Edit Metrics]**. In alternativa, fate clic su **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** per selezionare il gruppo di richieste da modificare.
 
 1. Seleziona **[!UICONTROL Remove Metric(s)]**.
 
