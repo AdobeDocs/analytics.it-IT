@@ -5,7 +5,7 @@ title: Generare segmenti
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -56,13 +56,12 @@ Accedi a Segment Builder tramite:
    * **[!UICONTROL + Add container from selection]**: Consente di creare un nuovo contenitore dagli elementi selezionati (per più) nel campo Definizioni.
    * **[!UICONTROL Exclude]**: Consente di definire il segmento escludendo una o più dimensioni, segmenti o metriche.
 
-**[!UICONTROL Attribution Models]**: Per segmentazione della dimensione. I modelli di dimensioni sono particolarmente utili nella segmentazione sequenziale, ad esempio in quelli che supportano le visualizzazioni Flusso:
+1. **[!UICONTROL Attribution Models]**: Per segmentazione della dimensione. I modelli di dimensioni sono particolarmente utili nella segmentazione sequenziale, ad esempio in quelli che supportano le visualizzazioni Flusso:
 
-    * **[!UICONTROL Ripetizione]** (predefinito): Include istanze e valori persistenti per la dimensione.
-    **[!Istanza CONTROL]**: Include le istanze per la dimensione.
-    **[!UICONTROL Istanza non ripetuta]**: Include istanze univoche (non ripetute) per la dimensione.
-
-![](assets/attribution-models.jpg)
+   * **[!UICONTROL Repeating]** (predefinito): Include istanze e valori persistenti per la dimensione.
+   * **[!UICONTROL Instance]**: Include le istanze per la dimensione.
+   * **[!UICONTROL Non-repeating instance]**: Include istanze univoche (non ripetute) per la dimensione.
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensions]**: Le dimensioni vengono trascinate e rilasciate dall'elenco Dimensioni (barra laterale arancione).
 1. **[!UICONTROL Comparison]**: È possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
@@ -118,7 +117,7 @@ Ora puoi passare a Gestione [](/help/components/c-segmentation/c-segmentation-wo
 
 È possibile [creare una struttura di contenitori](/help/components/c-segmentation/seg-overview.md) e quindi inserire regole logiche e operatori tra loro.
 
-1. Fai clic su **[!UICONTROL Options > Add Container]**.
+1. Fai clic su **[!UICONTROL Options > Add Container]** (Genera).
 
    ![](assets/add_container.png)
 
