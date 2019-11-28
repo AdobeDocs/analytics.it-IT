@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Terminologia RGPD
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **Sede principale**: il luogo all’interno dell’Unione in cui vengono prese le decisioni più importanti sul trattamento dei dati, relativamente al responsabile.
 
-**Dati** personali - qualsiasi informazione relativa a una persona fisica o a un "soggetto", che può essere utilizzata per identificare direttamente o indirettamente la persona
+**Dati personali**: qualsiasi informazione correlata a una persona fisica o a una “persona interessata” che può essere usata per identificare direttamente o indirettamente la persona.
 
 **Violazione dei dati personali**: una violazione della sicurezza che comporta accesso accidentale o illegittimo, distruzione, uso improprio e così via dei dati personali.
 
