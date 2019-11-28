@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -36,14 +36,14 @@ Se si invia una richiesta di accesso, il file di riepilogo conterrà i valori in
 
 | Valori API | Valori API | Tipo di file restituito | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> |
 |--- |--- |--- |---|---|---|---|---|
-| **Namespace/ID** | **expandIDs** |  | **MyProp1** | **ID visitatore** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **Namespace/ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
 | AAID=77 | true | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
 | user=Mary | false | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | true | dispositivo | assente | 77, 88 | assente | N, P | U, W |
-| user=Mary  AAID=66 | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true | dispositivo | assente | 66, 77, 88 | assente | N, P | U, W, Z |
+| user=Mary | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true | dispositivo | assente | 77, 88 | assente | N, P | U, W |
+| user=Mary AAID=66 | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true | dispositivo | assente | 66, 77, 88 | assente | N, P | U, W, Z |
 | xyz=X | false | dispositivo | assente | 55, 77 | assente | M, R | X |
 | xyz=X | true | dispositivo | assente | 55, 77 | assente | M, P, R | W, X |
 
