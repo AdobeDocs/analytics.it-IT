@@ -2,7 +2,7 @@
 description: Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le etichette e le relative definizioni.
 title: Etichettare i dati della suite di rapporti
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -45,7 +45,7 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
    >[!NOTE]
    >
-   >Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per soluzioni/servizi/piattaforme al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, i dati sensibili e i vincoli del contratto associati a questi.
+   >Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per soluzioni/servizi/piattaforme al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, dati sensibili e vincoli di contratto associati a questi.
 
    ![](assets/identity_labels.png)
 
