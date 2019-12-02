@@ -3,122 +3,53 @@ description: Informazioni sui caratteri speciali utilizzati nel feed di dati.
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
 subtopic: data feeds
-title: Caratteri speciali
+title: Caratteri speciali nei feed di dati
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# Caratteri speciali
+# Caratteri speciali nei feed di dati
 
-Informazioni sui caratteri speciali utilizzati nel feed di dati.
+Adobe utilizza la logica di escape per assicurarsi che i valori inviati ai server di raccolta dati non corrompa o non danneggi i file di feed di dati. I seguenti caratteri sono riservati da Adobe ai seguenti scopi in `hit_data.tsv`.
 
-* [Caratteri speciali nel file hit_data](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [Caratteri speciali nelle variabili con più valori (events_list, products_list, mvvar)](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [Flusso di lavoro di esempio](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+## Caratteri speciali in qualsiasi colonna
 
-## Caratteri speciali nel file hit_data {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
+| Carattere | Descrizione |
+|--- |--- |
+| `\t` | Rappresenta una scheda. Indica la fine di una colonna o di un campo di dati. |
+| `\n` | Rappresenta una nuova riga. Indica la fine di una riga o di un hit. |
+| `\` | Barra rovesciata. Rimuove i caratteri quando vengono inviati come parte della raccolta di dati. |
 
-I seguenti caratteri hanno un significato speciale nel file hit_data:
+Quando questi valori riservati sono preceduti da una barra rovesciata, sono stati inviati come parte della raccolta di dati.
 
-| Carattere | Significato | Descrizione |
-|--- |--- |--- |
-| \t (carattere di tabulazione) | Fine colonna | Indica la fine di un campo di dati. |
-| \n (carattere nuova riga) | Fine riga | Indica la fine di una riga di dati. |
-| \ (barra rovesciata) | Carattere di escape | Scheda Esc, nuova riga e barra rovesciata quando il carattere faceva parte del valore inviato durante la raccolta di dati. |
+| Carattere | Descrizione |
+|--- |--- |
+| `\\t` | Il valore '`\t`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `\\n` | Il valore '`\n`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `\\` | Il valore '`\`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
 
-Quando uno dei caratteri speciali è preceduto da una barra rovesciata, rappresenta un carattere letterale.
+Ad esempio, un visitatore del sito utilizza la ricerca interna e cerca "search\nstring". Compila eVar1 con "search\nstring" e invialo ad Adobe. Adobe riceve l’hit ed evita la newline inclusa nella stringa. Il valore effettivo inserito nei dati non elaborati è "search\\nstring".
 
-| Carattere | Significato | Descrizione |
-|--- |--- |--- |
-| \\t | Tab | Carattere tabulazione letterale. Questo carattere faceva parte del valore inviato durante la raccolta dei dati. |
-| \\n | Newline | Newline letterale. Questo carattere faceva parte del valore inviato durante la raccolta dei dati. |
-| \\ | Barra rovesciata | Carattere barra rovesciata letterale. Questo carattere faceva parte del valore inviato durante la raccolta dei dati. |
+## Caratteri speciali nelle variabili con più valori (events_list, products_list, mvvar)
 
-## Caratteri speciali nelle variabili con più valori (events_list, products_list, mvvar) {#section_056F8D540FFC4F24A001DC74331C2AAC}
+I seguenti caratteri hanno un significato speciale nelle colonne che possono contenere più valori.
 
-I seguenti caratteri hanno un significato speciale nelle variabili con più valori:
+| Carattere | Descrizione |
+|--- |--- |
+| `,` | Virgola. Rappresenta la fine di un singolo valore. Separa le stringhe di prodotto, gli ID evento o altri valori. |
+| `;` | Semi-due punti. Rappresenta la fine di un singolo valore in `product_list`. Separa i campi all'interno di una singola stringa di prodotto. |
+| `=` | È uguale al segno. Assegna un valore a un evento in `product_list`. |
+| `^` | Accento circonflesso. Rimuove i caratteri quando vengono inviati come parte della raccolta di dati. |
 
-<table id="table_FDA13DE05A784ED4972C2955BD2642C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Carattere </th> 
-   <th colname="col02" class="entry"> Significato </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <code> , </code> (virgola) </td> 
-   <td colname="col02"> Fine del valore </td> 
-   <td colname="col2"> <p>Separa le stringhe di prodotto, gli ID evento o altri valori in variabili con più valori. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> ; </code> (punto e virgola) </td> 
-   <td colname="col02"> Fine del sotto-valore all'interno di un singolo valore di prodotto </td> 
-   <td colname="col2"> <p>Separa i valori associati a un singolo prodotto nel <code> product_list </code>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> = </code> (uguale a carattere) </td> 
-   <td colname="col02"> Assegnazione valore </td> 
-   <td colname="col2"> <p>Assegna un valore a un evento nel <code> event_list </code>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Quando questi valori riservati sono preceduti da un oggetto, sono stati inviati come parte della raccolta di dati.
 
-Quando uno dei caratteri speciali è preceduto da un punto di vista, essi rappresentano un carattere letterale.
-
-| Carattere | Significato | Descrizione |
-|--- |--- |--- |
-| ^, | Virgola | Carattere letterale virgola. Questo carattere faceva parte del valore inviato durante la raccolta dei dati. |
-| ^; | Semicolon | Carattere punto e virgola letterale. Questo carattere faceva parte del valore inviato durante la raccolta dei dati. |
-| ^= | È uguale a | Letterale uguale a carattere. Questo carattere faceva parte del valore inviato durante la raccolta dei dati. |
-| ^^ | Accento circonflesso | Carattere alfabeto letterale. Questo carattere faceva parte del valore inviato durante la raccolta dei dati. |
-
-## Flusso di lavoro di esempio {#section_97F8C2925A35433DA2E7E8BE60037E37}
-
-Se alcune colonne del feed di dati contengono dati inviati dall'utente, è necessario verificare la presenza di caratteri speciali prima di separare i dati per colonna o riga utilizzando `split` o `readLine`, o similare.
-
-Considerare i dati seguenti:
-
-| Larghezza browser | Altezza browser | eVar1 | prop1 |
-|---|---|---|---|
-| 1680 | 1050 | search\nstring | en |
-| 800 | 600 | search\tstring | en |
-
-Durante l'esportazione, i caratteri newline e tab nei valori eVar1 sono preceduti da escape. Il feed di dati per queste righe viene visualizzato come segue:
-
-```
-1680\t1050\tsearch\\nstring\ten\n 
-800\t600\tsearch\\tstring\ten\n
-```
-
-Una chiamata `readLine()` alla prima riga restituisce la seguente stringa parziale:
-
-```
-800\t600\tsearch\
-```
-
-Una chiamata `split("\t")` alla seconda riga restituisce il seguente array di stringhe:
-
-```
-800 
-600 
-search\ 
-string 
-en
-```
-
-Per evitare questo problema, utilizzate una soluzione simile a quella indicata di seguito:
-
-1. A partire dall'inizio del file, leggere fino a individuare un carattere tabulazione, newline, barra rovesciata o punto di inserimento.
-1. Eseguire un'azione in base al carattere speciale rilevato:
-
-   * Tab - inserire la stringa su quel punto in una cella dell'archivio dati e continuare.
-   * Newline: completa la riga dell'archivio dati.
-   * Barra rovesciata: leggere il carattere successivo, inserire il valore letterale di stringa appropriato e continuare.
-   * Caret - leggere il carattere successivo, inserire il valore letterale di stringa appropriato e continuare.
-
+| Carattere | Descrizione |
+|--- |--- |
+| `^,` | Il valore '`,`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `^;` | Il valore '`;`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `^=` | Il valore '`=`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `^^` | Il valore '`^`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
