@@ -2,7 +2,7 @@
 title: Termini utilizzati in Adobe Analytics
 description: Glossario per Adobe Analytics, definizione dei termini comuni utilizzati.
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **** Activity Map: Un plug-in per browser che mostra quali aree del sito sono state maggiormente selezionate. Consultate Mappa [](/help/analyze/activity-map/activity-map.md) dell'attività nella guida utente Analisi.
 * **** Admin Console: Può fare riferimento a:
    * Strumenti di amministrazione legacy, in cui vengono gestite le impostazioni delle suite di rapporti in Adobe Analytics. Nelle versioni precedenti di Adobe Analytics, anche le autorizzazioni degli utenti venivano gestite qui. Consulta Strumenti [di](/help/admin/admin/c-admin-tools.md) amministrazione nella guida utente di amministrazione.
-   * La console di amministrazione di Adobe, in cui viene fornito l’accesso al prodotto e vengono gestite le autorizzazioni degli utenti. Consulta [Admin Console](/help/admin/admin-console/home.md) nella guida utente di Admin.
+   * La console di amministrazione di Adobe, in cui viene fornito l’accesso al prodotto e vengono gestite le autorizzazioni degli utenti. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** Allocazione: Se una variabile di conversione rileva più di un valore durante una visita, l'impostazione di allocazione della variabile determina quale valore viene mantenuto. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida utente di amministrazione.
 * **** Anomalia: Rilevato utilizzando la modellazione statistica per individuare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Consultate Rilevamento delle [anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) nella guida utente Analisi.
 * **** AppMeasurement: Libreria dei codici utilizzata per raccogliere i dati e inviarli ad Adobe. Consultate la [homepage](/help/implement/home.md) della guida utente Implementa.
@@ -43,7 +43,7 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **** Delegato assistenza clienti: Un utente designato autorizzato a interagire direttamente con l'Assistenza clienti Adobe. Consulta Delegati [di assistenza](https://helpx.adobe.com/experience-cloud/supported-users.html) clienti nella Knowledgebase di Experience Cloud.
 * **** Server di raccolta dati: Server di proprietà Adobe che ricevono ed elaborano i dati. Le richieste di immagini vengono inviate ai server di raccolta dati di Adobe da utilizzare nei rapporti.
 * **** Connettori dati: Una soluzione di sviluppo completa che consente a terzi di automatizzare il caricamento di dati in Adobe Analytics. I clienti di terze parti possono utilizzare un connettore dati per arricchire i propri dati in Adobe Analytics. La maggior parte dei connettori dati utilizza un flusso di lavoro simile in Origini dati. Consulta Connettori dati nella guida per l’utente di importazione.
-* **** Feed dati: Un'esportazione di dati non elaborati che elenca ogni hit come riga e variabili come colonne separate. Utilizzata più comunemente per esportare dati di Adobe Analytics in un database di terze parti. Consultate Feed [di](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) dati nella guida utente all'esportazione.
+* **** Feed dati: Un'esportazione di dati non elaborati che elenca ogni hit come riga e variabili come colonne separate. Utilizzata più comunemente per esportare dati di Adobe Analytics in un database di terze parti. Consultate Feed [di](/help/export/analytics-data-feed/data-feed-overview.md) dati nella guida utente all'esportazione.
 * **** Origini dati: Consente a un utente di caricare dati da un file in Adobe Analytics. Il file viene in genere estratto da un sito FTP. Consulta [Origini](/help/import/c-data-sources/datasrc-home.md) dati nella guida utente di importazione.
 * **** Data Warehouse: Funzione in Adobe Analytics che consente di richiedere report di dimensioni maggiori. Consulta [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) nella guida per l’utente relativa all’esportazione.
 * **** Dimensione: Tipo di componente che contiene valori variabili, come il testo. Alcuni esempi includono Nome pagina, Codice tracciamento o Dominio di riferimento. Una metrica è in genere la sua controparte.
@@ -53,7 +53,7 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **** Evento: Consultate Evento di successo.
 * **** ExcelClient: Non più utilizzato come termine. Nome del predecessore del Generatore di report.
 * **** Scadenza: Nel contesto di una variabile di conversione, per quanto tempo il valore persiste sul backend. Questa persistenza consente agli eventi di essere associati ai valori variabili prima dell'hit dell'evento. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida utente di amministrazione.
-* **** Flusso: Tipo di visualizzazione in Analysis Workspace che mostra i percorsi seguiti dagli utenti sul sito. Consultate Visualizzazione [del](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) flusso nella guida utente Analisi.
+* **** Flusso: Tipo di visualizzazione in Analysis Workspace che mostra i percorsi seguiti dagli utenti sul sito. Consulta Visualizzazione [del](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) flusso nella guida utente Analisi.
 * **** Genesi: Non più utilizzato come termine. Nome precedente dei connettori dati.
 * **** Suite di rapporti globale: Termine informale designato per una suite di rapporti che raccoglie hit da più siti.
 * **** Codice H: Un predecessore di AppMeasurement. Nelle versioni precedenti di Adobe Analytics, le versioni del codice venivano misurate dalla "versione H", come H.27.5, H.26 e così via.
