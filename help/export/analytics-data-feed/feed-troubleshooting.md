@@ -5,7 +5,7 @@ solution: Analytics
 title: Risoluzione dei problemi dei feed dati
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
@@ -38,11 +38,11 @@ AWS consente inoltre a un utente di creare oggetti in un bucket che appartengono
 
 In caso di errore nel trasferimento FTP (accesso negato, connessione persa, fuori quota, ecc.), Adobe tenta di collegare e inviare automaticamente i dati fino a tre volte. Se gli errori persistono, il feed viene contrassegnato come non riuscito e viene inviata una notifica e-mail.
 
-In caso di mancata riuscita del trasferimento, è possibile [ripetere un processo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) finché non riesce.
+In caso di mancata riuscita del trasferimento, potete eseguire nuovamente un processo finché non riesce.
 
 ## Ripeti opzioni {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Dopo aver verificato/corretto il problema di consegna, eseguite nuovamente il [processo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) per ottenere i file.
+Dopo aver verificato/corretto il problema di consegna, eseguite nuovamente il processo per ottenere i file.
 
 ## L'impatto del risparmio giornaliero sui feed di dati orari {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -56,7 +56,7 @@ Quando si creano transizioni DST -&gt; STD, ("Autunno Indietro"), il cliente ric
 
 Facoltativamente, puoi configurare un feed di dati per la distribuzione di un file manifesto se non vengono raccolti dati per un periodo specifico. Se attivate questa opzione, riceverete un file manifesto simile al seguente:
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0
@@ -65,7 +65,7 @@ Datafeed-Manifest-Version: 1.0
 
 ## Nessuna informazione di dominio per il reporting del dominio {#section_B7508D65370442C7A314EAED711A2C75}
 
-  Alcuni gestori di dispositivi mobili (come T-Mobile e O1) non forniscono più informazioni di dominio per le ricerche DNS inverse. Pertanto, tali dati non sono disponibili per la generazione di rapporti sul dominio.
+Alcuni gestori di dispositivi mobili (come T-Mobile e O1) non forniscono più informazioni di dominio per le ricerche DNS inverse. Pertanto, tali dati non sono disponibili per la generazione di rapporti sul dominio.
 
 ## Panoramica sull'elaborazione dei dati {#section_6346328F8D8848A7B81474229481D404}
 
