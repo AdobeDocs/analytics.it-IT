@@ -5,16 +5,14 @@ title: Generare segmenti
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: a50b08cba865b61bc647ba6af9e678ef8edfe3bc
 
 ---
 
 
 # Generatore di segmenti
 
-Il Generatore di segmenti fornisce un quadro per trascinare e rilasciare Dimensioni metriche, Segmenti ed Eventi per segmentare i visitatori in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori per visite ed hit di pagina.
-
-Fornisce [!UICONTROL Segment Builder] un quadro per trascinare e rilasciare dimensioni metriche, segmenti ed eventi per segmentare i visitatori in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori per visite ed hit di pagina.
+Fornisce [!UICONTROL Segment Builder] un quadro per trascinare Metriche, Dimensioni, Segmenti ed Eventi per segmentare i visitatori in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori per visite ed hit di pagina.
 
 >[!IMPORTANT]
 >
