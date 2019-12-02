@@ -2,7 +2,7 @@
 title: Report sull'audience in Adobe Analytics
 description: Scopri come creare rapporti basati sul pubblico utilizzando Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -50,7 +50,7 @@ Il rapporto Audiences in Google Analytics richiede la configurazione dell'audien
 Il rapporto di Esplora utenti consente a un analista di visualizzare singole visite tramite identificatori anonimi. Adobe non visualizza gli identificatori di backend al di fuori dei feed di dati, che sono esportazioni di dati non elaborati a livello di hit.
 
 * Se questi dati sono richiesti in Analysis Workspace, è possibile collaborare con un consulente di implementazione per passare il valore del cookie univoco dell'identificatore anonimo in un'eVar. Questo funziona solo con implementazioni più piccole, consistenti in meno di 1 milione di visitatori unici al mese.
-* Se questi dati sono desiderati all'interno dei feed di dati, le colonne concatenate `visid_high` e `visid_low` rappresentano il modo più comune per identificare i visitatori univoci. Per ulteriori informazioni sui feed [di](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) dati, consulta la guida per l’utente relativa all’esportazione.
+* Se questi dati sono desiderati all'interno dei feed di dati, le colonne concatenate `visid_high` e `visid_low` rappresentano il modo più comune per identificare i visitatori univoci. Per ulteriori informazioni sui feed [di](/help/export/analytics-data-feed/data-feed-overview.md) dati, consulta la guida per l’utente relativa all’esportazione.
 
 ## Rapporti su demografia e interessi
 
@@ -132,7 +132,7 @@ Nel rapporto Browser e sistema operativo sono disponibili più dimensioni princi
 * La dimensione principale Colori **** schermo è disponibile in Analysis Workspace come dimensione Profondità **** colore.
 * La dimensione principale della versione **** Flash non è disponibile in Adobe Analytics, ma questi dati possono essere raccolti da un'eVar, se necessario.
 
-1. Nel menu dei componenti, individuate la dimensione desiderata indicata sopra e trascinatela nell’area grande della tabella a forma libera con l’etichetta "Rilasciate qui una dimensione".
+1. Nel menu dei componenti, individuare la dimensione desiderata indicata sopra e trascinarla nell’area grande della tabella a forma libera con l’etichetta "Rilasciare qui una dimensione".
 2. Trascina le metriche desiderate nell'area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine seguenti nella guida utente Componenti:
