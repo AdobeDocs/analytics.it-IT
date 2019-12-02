@@ -3,7 +3,7 @@ title: Criteri di conservazione dei dati
 description: I criteri di conservazione dei dati determinano per quanto tempo Adobe memorizza i dati.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -21,7 +21,7 @@ I dati conservati si basano sulla data corrente e sulla data/ora dei dati storic
 Per ridurre o estendere il periodo predefinito di conservazione dei dati, contatta il responsabile commerciale aziendale.
 
 * Non è previsto alcun costo per la riduzione del periodo predefinito di conservazione dei dati.
-* L'estensione della conservazione dei dati oltre il periodo predefinito di conservazione di 25 mesi richiede l'acquisto di estensioni, disponibili in incrementi di un anno l'una. È possibile acquistare fino a otto estensioni per un totale di 10 anni e 1 mese (2 anni e 1 mese per il mantenimento del valore predefinito, più 8 anni acquistati).
+* L'estensione della conservazione dei dati oltre il periodo predefinito di conservazione di 25 mesi richiede l'acquisto di estensioni, disponibili in incrementi di un anno ciascuna. È possibile acquistare fino a otto estensioni per un totale di 10 anni e 1 mese (2 anni e 1 mese per il mantenimento del valore predefinito, più 8 anni acquistati).
 
 ## Conservazione dei dati e Privacy dei dati
 
@@ -43,7 +43,7 @@ I criteri di conservazione dei dati definiscono una finestra temporale dinamica 
 
 **Posso richiedere una copia dei miei dati prima che vengano cancellati?**
 
-Sì. Adobe può fornire un dump storico dei dati grezzi a livello di hit. Per ulteriori informazioni, consulta Feed [di](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) dati nella guida per l’utente relativa all’esportazione. Se hai dei requisiti per l’esportazione di dati che non rientrano nell’ambito di ciò che l’interfaccia utente può fornire, contatta l’account manager della tua organizzazione. È possibile effettuare sistemazioni speciali; i costi possono variare.
+Sì. Adobe può fornire un dump storico dei dati grezzi a livello di hit. Per ulteriori informazioni, consulta Feed [di](/help/export/analytics-data-feed/data-feed-overview.md) dati nella guida per l’utente relativa all’esportazione. Se hai dei requisiti per l’esportazione di dati che non rientrano nell’ambito di ciò che l’interfaccia utente può fornire, contatta l’account manager della tua organizzazione. È possibile effettuare sistemazioni speciali; i costi possono variare.
 
 **Quando vengono eliminati i dati da Adobe?**
 
