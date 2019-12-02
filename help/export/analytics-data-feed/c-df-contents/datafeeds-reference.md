@@ -7,7 +7,7 @@ title: Riferimento colonna dati
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La maggior parte delle implementazioni non utilizza tutte le colonne, pertanto è possibile fare riferimento a questa pagina per determinare quali colonne includere in un'esportazione di feed di dati.
 
-> [!IMPORTANT] Per qualsiasi colonna (ad esempio, una con 255 caratteri), un feed di dati può inviare caratteri aggiuntivi a causa dell'aggiunta di caratteri che sfuggono ai valori di una stringa. Tieni presente questo argomento se la tua implementazione invia regolarmente valori che superano i limiti dei caratteri.
+> [!IMPORTANT] Per qualsiasi colonna (ad esempio, una con 255 caratteri), un feed di dati può inviare caratteri aggiuntivi a causa dell'aggiunta di caratteri che sfuggono ai valori di una stringa. Tieni presente questi potenziali caratteri aggiuntivi se la tua implementazione invia regolarmente valori che superano i limiti dei caratteri.
 
 ## Colonne, descrizioni e tipi di dati
 
-> [!NOTE] La maggior parte delle colonne contiene una colonna simile con il prefisso `post_`. Le colonne post contengono valori dopo la logica lato server, le regole di elaborazione e le regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare le colonne di post.
+> [!NOTE] La maggior parte delle colonne contiene una colonna simile con il prefisso `post_`. Le colonne post contengono valori dopo la logica lato server, le regole di elaborazione e le regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare le colonne di post. Per ulteriori informazioni, consulta [Domande frequenti](../df-faq.md) sui feed di dati.
 
 | Nome colonna | Descrizione colonna | Tipo di dati |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | ef_id | ef_id utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
 | evar1 - evar250 | Variabili personalizzate 1-250. Ogni organizzazione utilizza eVar in modo diverso. Il luogo migliore per ulteriori informazioni su come la tua organizzazione compila le rispettive eVar sarebbe un documento di progettazione della soluzione specifico per la tua organizzazione. | varchar(255) |
 | event_list | Elenco separato da virgole di ID numerici che rappresentano gli eventi attivati sull’hit. Include sia gli eventi predefiniti che gli eventi personalizzati 1-1000. Utilizza la ricerca event.tsv. | text |
-| exclude_hit | Flag che indica che l’hit è escluso dal reporting. La colonna visit_num non viene incrementata per gli hit esclusi.<br>1:Non utilizzato. Parte di una feature di scarto.<br>2:Non utilizzato. Parte di una feature di scarto.<br>3:Non più utilizzato. Esclusione<br>agente utente 4: Esclusione basata sull'indirizzo<br>IP 5: Informazioni hit vitali mancanti, ad esempio page_url, page_name, page_event o event_list<br>6: JavaScript non ha elaborato correttamente l'hit<br>7: Esclusione specifica dell'account, ad esempio in una regola<br>VISTA 8:Non utilizzato. Esclusione specifica per l'account alternativa.<br>9:Non utilizzato. Parte di una feature di scarto.<br>10: Codice<br>valuta 11 non valido: Hit manca una marca temporale in una suite di rapporti con solo marca temporale o un hit contiene una marca temporale in una suite<br>12 di rapporti con marca non temporale:Non utilizzato. Parte di una feature di scarto.<br>13.Non utilizzato. Parte di una feature di scarto.<br>14. Hit di destinazione che non corrisponde a un hit<br>15 di Analytics: Al momento non utilizzato.<br>16. Hit di Advertising Cloud non corrispondente a un hit di Analytics | tinyint non firmato |
+| exclude_hit | Flag che indica che l’hit è escluso dal reporting. La colonna visit_num non viene incrementata per gli hit esclusi.<br>1: Non utilizzato. Parte di una feature di scarto.<br>2: Non utilizzato. Parte di una feature di scarto.<br>3:Non più utilizzato. Esclusione<br>agente utente 4: Esclusione basata sull'indirizzo<br>IP 5: Informazioni hit vitali mancanti, ad esempio page_url, page_name, page_event o event_list<br>6: JavaScript non ha elaborato correttamente l'hit<br>7: Esclusione specifica dell'account, ad esempio in una regola<br>VISTA 8: Non utilizzato. Esclusione specifica per l'account alternativa.<br>9: Non utilizzato. Parte di una feature di scarto.<br>10: Codice<br>valuta 11 non valido: Hit manca una marca temporale in una suite di rapporti con solo marca temporale o un hit contiene una marca temporale in una suite<br>12 di rapporti con marca non temporale: Non utilizzato. Parte di una feature di scarto.<br>13. Non utilizzato. Parte di una feature di scarto.<br>14. Hit di destinazione che non corrisponde a un hit<br>15 di Analytics: Al momento non utilizzato.<br>16. Hit di Advertising Cloud non corrispondente a un hit di Analytics | tinyint non firmato |
 | first_hit_page_url | Il primo URL del visitatore. | varchar(255) |
 | first_hit_pagename | Variabile utilizzata nella dimensione Originale pagina di immissione. Il nome originale della pagina di immissione del visitatore. | varchar(100) |
 | first_hit_ref_domain | Variabile utilizzata nella dimensione Dominio di riferimento originale. Basato su first_hit_referrer. Il primo dominio di riferimento del visitatore. | varchar(100) |
@@ -78,14 +78,14 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | geo_region | Nome dello stato o della regione da cui proveniva l’hit, in base all’IP. Adobe collabora con Digital Inviate per far corrispondere l'indirizzo IP allo stato/regione. | char(32) |
 | geo_zip | Il codice zip dal quale proveniva l’hit, basato su IP. Adobe collabora con Digital Inviate per far corrispondere l'indirizzo IP al codice postale. | varchar(16) |
 | hier1 - hier5 | Utilizzata dalle variabili della gerarchia. Contiene un elenco delimitato di valori. Il carattere di delimitazione è selezionato nelle impostazioni della suite di rapporti. | varchar(255) |
-| hit_source | Indica da quale origine è provenuto l’hit. <br>1: Richiesta immagine standard senza timestamp <br>2: Richiesta immagine standard con marca temporale <br>3: Caricamento origine dati live con marca temporale <br>4: Non utilizzato <br>5: Caricamento origine dati generica <br>6: Elaborazione completa del caricamento dell'origine dati <br>7: Caricamento origine dati ID transazione <br>8: Non più utilizzato; Versioni precedenti delle origini dati Adobe Advertising Cloud <br>9: Non più utilizzato;Metriche di riepilogo di Adobe Social | tinyint non firmato |
+| hit_source | Indica da quale origine è provenuto l’hit. <br>1: Richiesta immagine standard senza timestamp <br>2: Richiesta immagine standard con marca temporale <br>3: Caricamento origine dati live con marca temporale <br>4: Non utilizzato <br>5: Caricamento origine dati generica <br>6: Elaborazione completa del caricamento dell'origine dati <br>7: Caricamento origine dati ID transazione <br>8: Non più utilizzato; Versioni precedenti delle origini dati Adobe Advertising Cloud <br>9: Non più utilizzato; Metriche di riepilogo di Adobe Social | tinyint non firmato |
 | hit_time_gmt | La marca temporale dei server di raccolta dati Adobe hit ha ricevuto l’hit, in base all’ora Unix. | int |
 | hitid_high | Utilizzata in combinazione con hitid_low per identificare in modo univoco un hit. | bigint non firmato |
 | hitid_low | Utilizzata in combinazione con hitid_high per identificare in modo univoco un hit. | bigint non firmato |
 | homepage | Non più utilizzato. Indicato se l’URL corrente è la home page del browser. | char(1) |
 | horly_visitor | Flag per determinare se l’hit è un nuovo visitatore orario. | tinyint non firmato |
 | ip | Indirizzo IP, basato sull’intestazione HTTP della richiesta di immagine. | char(20) |
-| ip2 | Non utilizzato. Variabile di riferimento di back-end per le suite di rapporti contenenti regole VISTA basate sull'indirizzo IP. | char(20) |
+| ip2 |  Non utilizzato. Variabile di riferimento di back-end per le suite di rapporti contenenti regole VISTA basate sull'indirizzo IP. | char(20) |
 | j_jscript | Versione di JavaScript supportata dal browser. | char(5) |
 | java_enabled | Flag che indica se Java è abilitato. <br>Y: Abilitato <br>N: Disattivato <br>U: Sconosciuto | char(1) |
 | javascript | ID di ricerca della versione JavaScript, basato su j_jscript. Utilizza la tabella di ricerca. | tinyint non firmato |
@@ -142,7 +142,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | mobileresolution | Risoluzione del dispositivo mobile. Larghezza x altezza in pixel. | varchar(255) |
 | month_visitor | Flag che indica che il visitatore è univoco per il mese corrente. | tinyint non firmato |
 | mvvar1 - mvvar3 | Elenca i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell'implementazione. | text |
-| namespace | Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(50) |
+| namespace |  Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(50) |
 | new_visit | Flag che determina se l’hit corrente è una nuova visita. Impostato dai server Adobe dopo 30 minuti di inattività della visita. | tinyint non firmato |
 | os | ID numerico che rappresenta il sistema operativo del visitatore. Basato sulla colonna user_agent. Utilizza la ricerca os. | int non firmato |
 | p_plugins | Non più utilizzato. Elenco di plug-in disponibili per il browser. Utilizzata la funzione JavaScript navigator.plugins(). | text |
@@ -154,15 +154,15 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | page_url | URL dell’hit. Non utilizzato nelle richieste di immagini per il tracciamento dei collegamenti. | varchar(255) |
 | nomepagina | Utilizzato per compilare la dimensione Pagine. Se la variabile nome pagina è vuota, Analytics utilizza invece page_url. | varchar(100) |
 | paid_search | Flag impostato se l’hit corrisponde al rilevamento della ricerca a pagamento. | tinyint non firmato |
-| partner_plugins | Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(255) |
+| partner_plugins |  Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(255) |
 | persistente_cookie | Utilizzata dalla dimensione Supporto cookie persistente. Indica se il visitatore supporta i cookie che non vengono scartati dopo ogni hit. | char(1) |
 | plugins | Non più utilizzato. Elenco di ID numerici che corrispondono ai plug-in disponibili nel browser. Utilizza la ricerca plugins.tsv. | varchar(180) |
 | puntiniere | Nome del punto di interesse di Mobile Services | varchar(255) |
 | puntofinterestdistanze | Distanza da Mobile Services a punto di interesse | varchar(255) |
 | post_Columns | Contiene il valore utilizzato in ultima analisi nei report. Ogni colonna di post viene compilata dopo logica lato server, regole di elaborazione e regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare le colonne di post. | Vedere le rispettive colonne non post |
-| prev_page | Non utilizzato. Identificatore proprietario Adobe della pagina precedente. | int non firmato |
+| prev_page |  Non utilizzato. Identificatore proprietario Adobe della pagina precedente. | int non firmato |
 | product_list | Elenco prodotti come passato attraverso la variabile products. I prodotti sono delimitati da virgole, mentre le singole proprietà del prodotto sono delimitate da punto e virgola. | text |
-| product_merchandising | Non utilizzato. Utilizzare product_list. | text |
+| product_merchandising |  Non utilizzato. Utilizzare product_list. | text |
 | prop1 - prop75 | Variabili di traffico personalizzate 1-75. | varchar(100) |
 | purchaseid | Identificatore univoco per un acquisto, impostato utilizzando la variabile s_purchaseID. Utilizzato dalla colonna duplicate_purchase. | char(20) |
 | trimestrali_visitor | Flag per determinare se l’hit è un nuovo visitatore trimestrale. | tinyint non firmato |
@@ -176,7 +176,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | search_Engine | ID numerico che rappresenta il motore di ricerca che ha indirizzato il visitatore al sito. Utilizza la ricerca search_Engine.tsv. | numero piccolo senza segno |
 | search_page_num | Utilizzata dalla dimensione Classifica pagina di ricerca. Indica in quale pagina di risultati di ricerca il sito è stato visualizzato prima che l’utente facesse clic sul sito. | numero piccolo senza segno |
 | secondaria_hit | Flag che tiene traccia degli hit secondari. Di norma l’origine viene dai tag con più suite e dalle regole VISTA che copiano gli hit. | tinyint non firmato |
-| service | Non utilizzato. Utilizzare invece page_event. | char(2) |
+| service |  Non utilizzato. Utilizzare invece page_event. | char(2) |
 | socialaccountandappids | Non più utilizzato. Account social e ID app | varchar(255) |
 | socialassettrackingcode | Non più utilizzato. Variabile campagna social | varchar(255) |
 | socialautore | Non più utilizzato. Variabile Autori social | varchar(255) |
@@ -204,7 +204,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | ua_os | Non più utilizzato. Precedentemente utilizzato come fallback per il sistema operativo. | char(80) |
 | ua_pixel | Non più utilizzato. Precedentemente usato come fallback per l’altezza e la larghezza del browser. | char(20) |
 | user_agent | Stringa agente utente inviata nell’intestazione HTTP della richiesta di immagine. | text |
-| user_hash | Non è utile. Hash sull'ID suite di rapporti. Utilizzate il nome utente. | int non firmato |
+| user_hash | Non è utile. Hash sull'ID della suite di rapporti. Utilizzate il nome utente. | int non firmato |
 | user_server | Variabile utilizzata nella dimensione Server. | varchar(100) |
 | userid | Non è utile. ID numerico per l'ID suite di rapporti. Utilizzate il nome utente. | int non firmato |
 | username | ID suite di rapporti per l’hit. | char(40) |
