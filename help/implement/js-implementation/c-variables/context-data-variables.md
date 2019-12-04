@@ -19,13 +19,11 @@ Le variabili di dati di contesto consentono di definire variabili personalizzate
 Invece di assegnare in modo esplicito valori a prop ed eVar nel codice, potete inviare dati in variabili di dati di contesto mappate utilizzando le regole di elaborazione. Le regole di elaborazione forniscono una potente interfaccia grafica per apportare modifiche ai dati durante la ricezione. In base ai valori inviati nei dati contestuali, è possibile impostare eventi, copiare valori in eVar e prop ed eseguire istruzioni condizionali aggiuntive.
 
 > [!NOTE] Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Ad esempio, le due variabili seguenti sono effettivamente identiche:
->
-```
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >e
->
-```
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
