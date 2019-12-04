@@ -27,11 +27,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |Nome|Un nome descrittivo per questo segnalibro.
-    |
- |—|—|     |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.
-|     |Rendi pubblico| Rende questo segnalibro disponibile per gli utenti che hanno accesso alla suite di rapporti.
-|     |Visualizza il rapporto all'accesso| Visualizza il rapporto al momento dell'accesso.|
+    |Nome|Un nome descrittivo per questo segnalibro.|
+    |---|---|     
+    |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.|
+    |Rendi pubblico| Rende questo segnalibro disponibile per gli utenti che hanno accesso alla suite di rapporti.| 
+    |Visualizza il rapporto all'accesso| Visualizza il rapporto al momento dell'accesso.|
    
 ## Gestire i segnalibri {#task_1EE793CB52EA467787817BBD98DEF150}
 
