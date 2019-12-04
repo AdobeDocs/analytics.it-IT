@@ -4,7 +4,7 @@ solution: Audience Manager
 title: Panoramica sull'inoltro lato server
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -24,18 +24,18 @@ L'inoltro lato server migliora la raccolta dati perché:
 >I clienti correnti di Audience Manager che utilizzano Analytics devono effettuare la migrazione all’inoltro lato server. I nuovi clienti Adobe Analytics e Audience Manager devono implementare l’inoltro lato server (invece di DIL) come metodo di raccolta e trasferimento dei dati predefinito.
 
 >[!IMPORTANT]
->In base al regolamento UE sulla conformità ai cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati al server ad Adobe Audience Manager (AAM). Una nuova variabile di contesto dell'implementazione consente di contrassegnare le richieste dove non è stato ricevuto il consenso. La variabile, quando impostata, impedisce che queste richieste vengano inviate all'AAM fino al ricevimento del consenso. Per ulteriori informazioni, consulta Conformità GDPR_ePrivacy e inoltro lato server.
+>In base al regolamento UE sulla conformità ai cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati al server ad Adobe Audience Manager (AAM). Una nuova variabile di contesto dell'implementazione consente di contrassegnare le richieste dove non è stato ricevuto il consenso. La variabile, quando impostata, impedisce che queste richieste vengano inviate all'AAM fino al ricevimento del consenso. Per ulteriori informazioni, consultate Conformità [GDPR_ePrivacy e inoltro](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)lato server.
 
 Per comprendere a che punto si trova l'organizzazione in termini di implementazione dell'inoltro lato server, procedere come segue:
 
-## ![step1_icon.png immagine](assets/step1_icon.png) Verifica implementazione del servizio MID
+## ![step1_icon.png immagine](assets/step1_icon.png) Verificare l'implementazione del servizio ECID
 
-Verifica se il servizio Experience Cloud ID (MID) è implementato, esaminando la richiesta [di tracciamento di](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)Analytics.
+Verifica se il servizio Experience Cloud ID (ECID) è implementato, esaminando la richiesta [di tracciamento di](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)Analytics.
 
-Nella scheda Richiesta, verifica che sia impostato un valore MID. Questo indica che il servizio identità è implementato correttamente, un prerequisito per l'inoltro lato server.
+Nella scheda Richiesta, verificare che sia stato impostato un valore ECID. Questo indica che il servizio identità è implementato correttamente, un prerequisito per l'inoltro lato server.
 
-* Se viene visualizzato un valore MID, continuate con il passaggio 2.
-* Se non trovi un valore MID, [implementa il servizio](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) identità prima di procedere con il passaggio 2.
+* Se viene visualizzato un valore ECID, continuate con il passaggio 2.
+* Se non viene visualizzato un valore ECID, [implementa Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) prima di procedere con il passaggio 2.
 
 ## ![step2_icon.png immagine](assets/step2_icon.png) Verificare la versione di implementazione dell'inoltro lato server
 
@@ -62,11 +62,9 @@ L’inoltro lato server a livello di suite di rapporti è consigliato rispetto a
 
 Vai a **Analytics** &gt; **Amministratore** &gt; **Suite** di rapporti &gt; (seleziona suite **di** rapporti) &gt; **Modifica impostazioni** **** ****&gt; Generale &gt; Inoltro lato server. Se la casella di controllo è:
 
-* **Inattivo** (non è possibile effettuare una selezione o il menu non esiste): le suite di rapporti selezionate non sono mappate sull’organizzazione IMS. Accertatevi che le suite di rapporti applicabili siano mappate sull’organizzazione IMS corretta tramite l’interfaccia utente [Mappatura suite di](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)rapporti.
+* **Inattivo** (non è possibile effettuare una selezione o il menu non esiste): le suite di rapporti selezionate non sono mappate sull’organizzazione IMS. Assicurati che le suite di rapporti applicabili siano mappate sulla corretta organizzazione Experience Cloud tramite l'interfaccia utente [di mappatura delle suite di](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)rapporti.
 * **Disattivato**: Il nuovo inoltro lato server non è attivato. Leggete il contenuto della pagina e continuate ad attivare la funzione.
 * **Abilitato**: È stato effettuato il provisioning per l'inoltro lato server. Puoi anche configurare questa integrazione con Audience Analytics.
-
-<!-- Meike, check Report Suite Mapping UI link above -->
 
 > [!NOTE] I dati non verranno visualizzati in altre soluzioni Experience Cloud, come [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) o [Audience](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) finché tutti e tre i passaggi non saranno completati. Una volta attivata questa opzione, per rendere effettive le impostazioni sono necessarie diverse ore.
 
