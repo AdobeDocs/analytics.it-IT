@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -80,6 +80,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
    + Inoltro lato server {#server-side-forwarding}
       + [Panoramica sull'inoltro lato server](admin/c-server-side-forwarding/ssf.md)
+      + [Conformità GDPR/ePrivacy e inoltro lato server](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Requisiti per l'inoltro lato server](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Dati inoltri lato server e riferimento al codice](admin/c-server-side-forwarding/ssf-reference.md)
       + [Verificare l'implementazione lato server](admin/c-server-side-forwarding/ssf-verify.md)
@@ -135,7 +136,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Salvare una ricerca suite di rapporti](c-manage-report-suites/t-report-suite-saved-search.md)
    + [Impostazioni suite di rapporti singole](c-manage-report-suites/individual-rs-settings.md)
    + [Scaricare le impostazioni delle suite di rapporti](c-manage-report-suites/t-download-rs-settings.md)
-   + New Report Suite (Nuova suite di rapporti){#new-report-suite}
+   + New Report Suite (Nuova suite di rapporti) {#new-report-suite}
       + [Creare una suite di rapporti](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
       + [Nuova suite di rapporti: impostazioni](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [Impostazioni non copiate da un'origine di rapporti](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -168,7 +169,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti](c-data-governance/gdpr-view-settings.md)
    + [Etichettare i dati della suite di rapporti](c-data-governance/gdpr-setup-reportsuite.md)
    + [Inviare richieste di accesso e cancellazione](c-data-governance/gdpr-submit-access-delete.md)
-   + [Etichette sulla privacy dei dati per le variabili Analytics](c-data-governance/gdpr-labels.md)
+   + [Etichette Privacy dei dati per le variabili di Analytics](c-data-governance/gdpr-labels.md)
    + [Namespace](c-data-governance/gdpr-namespaces.md)
    + [Espansione dell’ID](c-data-governance/gdpr-id-expansion.md)
    + [Tecniche di etichettatura consigliate](c-data-governance/gdpr-analytics-ids.md)
