@@ -2,7 +2,7 @@
 title: Analytics tra dispositivi
 description: Analisi cross-Device (Analisi multi-dispositivo) modifica i dati dall'essere incentrati sul dispositivo all'essere focalizzati sulla persona, impilando insieme i dati del dispositivo.
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c358df811f23a57441e6f9410c957e34954de712
 
 ---
 
@@ -49,10 +49,12 @@ Analisi cross-device è una funzione innovativa e affidabile, ma presenta dei li
 * Non è possibile unire più suite di rapporti come descritto nei prerequisiti sopra.
 * Le suite di rapporti di Adobe Analytics non possono mappare più di una organizzazione IMS. Poiché CDA blocca i dispositivi all’interno di una determinata suite di rapporti, non è possibile utilizzare CDA per unire i dati tra più organizzazioni IMS.
 * CDA non è attualmente compatibile con gli attributi cliente. Gli attributi del cliente non possono essere utilizzati per creare una suite di rapporti virtuali CDA, all’interno di segmenti cross-device o per generare rapporti all’interno di un progetto di area di lavoro Analisi basato su una suite di rapporti virtuale CDA.
+   > [!TIP] Sebbene gli attributi del cliente non possano essere utilizzati in CDA, entrambe le funzioni dipendono dalla `setCustomerIDs` funzione. Queste due funzioni possono coincidere in suite di rapporti separate (virtuali).
 * CDA richiede Co-op Graph o Private Graph. I grafici dei dispositivi 3rd-party non sono supportati.
 * Gli ID Analytics legacy non sono supportati. Solo i visitatori con Experience Cloud ID sono cuciti.
 * L'Assistenza clienti non supporta ancora completamente questa funzione. Il forum [Analisi](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) multi-dispositivo può essere utilizzato per il supporto su questa funzione, che include il coinvolgimento attivo e diretto dei Product Manager Adobe.
 * Analytics cross-Device utilizza una suite di rapporti virtuale e l'elaborazione dei tempi di rapporto, che hanno le proprie limitazioni. Per ulteriori informazioni su queste limitazioni, consulta Suite [di rapporti](../vrs/vrs-about.md) virtuali ed elaborazione [dei tempi di](../vrs/vrs-report-time-processing.md) rapporto.
+* L'API 1.4 non è supportata. I connettori Power BI e Generatore di report si basano entrambi sull'API 1.4 e non sono quindi compatibili con CDA.
 * I nuovi dispositivi che visitano il sito possono richiedere fino a due settimane per essere elaborati dal Co-op Graph o dal grafico privato. Il livello di cucitura in CDA per le ultime due settimane è generalmente inferiore a quello degli intervalli di date superiori a due settimane. Adobe pianifica di migliorare Adobe Experience Platform Identity Service per unire in tempo reale nuovi dispositivi.
 * I dati storici nella suite di rapporti virtuali cambiano in base al riconoscimento e all'unione dei dispositivi da parte di Adobe. I dati nella suite di rapporti di origine non vengono modificati.
 
