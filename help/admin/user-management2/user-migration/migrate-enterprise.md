@@ -3,7 +3,7 @@ description: Come eseguire la migrazione degli account utente di Analytics come 
 title: Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
 
@@ -64,9 +64,9 @@ Se ti occorre trasferire gli account utente Adobe ID esistenti a un Enterprise I
 
       > [!TIP] Durante questo passaggio, Adobe consiglia di ottimizzare l’elenco di utenti in modo che solo gli utenti con un ID e-mail valido siano inclusi nella migrazione di Enterprise ID o Federated ID.
 
-1. Nell’Admin Console, scarica un elenco di utenti di Admin Console:
+1. In the [!UICONTROL Admin Console], download a list of Admin Console users:
 
-   1. Passa a [Admin Console](http://adminconsole.adobe.html/#) &gt; **[!UICONTROL Users]**, quindi fai clic su [Esporta elenco utenti a CSV](https://helpx.adobe.com/enterprise/using/users.html).
+   1. Navigate to [!UICONTROL Admin Console] &gt; **[!UICONTROL Users]**, then click [Export users list to CSV](https://helpx.adobe.com/enterprise/using/users.html).
 
       ![](assets/export-csv.png)
 
@@ -119,7 +119,7 @@ Se ti occorre trasferire gli account utente Adobe ID esistenti a un Enterprise I
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>Assicurati che i domini nelle colonne Le colonne <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondono ai domini stabiliti nei <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  > prerequisiti</a>. </p> </td> 
+   <td colname="col2"> <p>Assicurati che i domini nelle colonne Le colonne <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondono ai domini stabiliti nei  prerequisiti</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codice paese </p> </td> 
@@ -130,16 +130,16 @@ Se ti occorre trasferire gli account utente Adobe ID esistenti a un Enterprise I
 
 Per ulteriori informazioni sui campi nel file [!DNL .csv], consulta [Formato del file CSV](https://helpx.adobe.com/enterprise/using/users.html).
 
-> [!NOTE] Altre colonne, ad esempio *`Product Configurations`* e *`Admin Roles`*, possono restare vuote.
+> [!NOTE] Altre colonne, ad esempio [!UICONTROL Product Configurations] e [!UICONTROL Admin Roles], possono restare vuote.
 
 1. Sulla scheda Utenti nell’Admin Console, carica il file modello facendo clic su **[!UICONTROL Add users by CSV]** (come indicato nel passaggio 3).
-1. In Analytics, esegui lo strumento di migrazione (come descritto in [Eseguire la migrazione degli account utente di Analytics ](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)).
+1. In Analytics, esegui lo strumento di migrazione (come descritto in [Eseguire la migrazione degli account utente di Analytics ](/help/admin/user-management2/user-migration/t-migrate-users.md)).
 1. Fai clic su **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![Informazioni sul passaggio](assets/migrate-as-enterprise.png)
 
    Quando fai clic su **[!UICONTROL Migrate]**, gli utenti vengono collegati all’account Enterprise ID/Federated ID nell’Admin Console. Le autorizzazioni dell’account utente legacy in Analytics corrisponderanno alle autorizzazioni concesse all’accesso Enterprise ID/Federated ID in **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Product Profiles]**. L’ID utente viene visualizzato nel bucket Migrazione completata. Puoi disabilitare l’accesso legacy [!DNL my.omniture.com].
 
-   Dopo avere eseguito la migrazione degli utenti, lo stato della colonna Stato di migrazione cambia da *`Not Initiated`* a *`Migrated`*.
+   Dopo avere eseguito la migrazione degli utenti, lo stato della colonna Stato di migrazione cambia da **[!UICONTROL Not Initiated]** a **[!UICONTROL Migrated]**.
 
    Anche gli utenti Adobe ID visualizzati nello strumento di migrazione possono essere migrati in questa procedura. Fino a quando non viene eseguito un trasferimento di identità, devono ancora accedere con il proprio Adobe ID. Contatta l’Assistenza clienti di Adobe per ricevere assistenza nel trasferimento di identità.
