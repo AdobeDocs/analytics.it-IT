@@ -2,7 +2,7 @@
 description: Istruzioni per l'impostazione delle scorecard dell'app mobile.
 title: Guida alla cura delle app Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
+source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
 
 ---
 
@@ -32,15 +32,18 @@ La tabella seguente descrive i termini per comprendere l'audience, le funzioni e
 Una scorecard mobile visualizza le visualizzazioni dei dati chiave per gli utenti con layout a sezioni, come illustrato di seguito:
 
 
+![Esempio di scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
+
 Come curatore di questa scorecard, è possibile utilizzare il Generatore scorecard per configurare quali sezioni visualizzare sulla scorecard per il consumatore. È inoltre possibile configurare la modalità di modifica delle viste dettagliate o delle suddivisioni dopo aver toccato le sezioni. L'interfaccia di Scorecard Builder è mostrata di seguito:
+
+![Scorecard Builder](help/analyze/mobile-app/assets/scorecard_builder.png)
+
 
 Per creare la scorecard, è necessario effettuare le seguenti operazioni:
 
 1. Accedi al modello Scorecard mobile vuoto.
 2. Configura la scorecard con i dati e salvala.
-
-![Esempio di scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
-
 
 
 ### Accesso al modello Scorecard mobile vuoto
@@ -49,94 +52,97 @@ Puoi accedere al modello Blank Mobile Scorecard in uno dei modi seguenti:
 
 **Creare un nuovo progetto**
 
-1. Apri Adobe Analytics e fai clic sulla scheda Workspace.
-2. Fate clic sul pulsante Crea nuovo progetto e selezionate il modello di progetto Bianco scorecard mobile.
+1. Apri Adobe Analytics e fai clic sulla scheda **Workspace** .
+2. Fate clic sul pulsante **Crea nuovo progetto** e selezionate il modello di progetto della scorecard **mobile** vuota.
 3. Click the **Create** button.
+
+![Modello Scorecard](help/analyze/mobile-app/assets/new_template.png)
+
 
 *Nota: Se non visualizzi il modello Scorecard mobile vuota, come illustrato di seguito, la tua società non è ancora stata attivata per la versione beta. Contatta il tuo Customer Service Manager.*
 
 
 **Aggiungere un progetto**
 
-Nella schermata Progetti, nella scheda Componenti, fate clic sul pulsante Aggiungi e selezionate Scorecard mobile.
+Dalla schermata **Progetti** , nella scheda **Componenti** , fate clic sul pulsante **Aggiungi** e selezionate **Mobile Scorecard**.
 
-
-
+![Aggiunta di progetti](help/analyze/mobile-app/assets/add_project.png)
 
 **Utilizzare gli strumenti di Analytics**
 
-In Analytics, fai clic sul menu Strumenti e seleziona App mobile. Nella schermata successiva, fare clic sul pulsante Crea scorecard.
+In Analytics, fai clic sul menu **Strumenti** e seleziona App **** mobile. Nella schermata successiva, fare clic sul pulsante **Crea scorecard** .
 
 ### Configurare la scorecard con i dati e salvarla
 
 Per implementare il modello Scorecard:
 
-1. In Proprietà (nella barra a destra), specificate una suite di rapporti di progetto dalla quale desiderate utilizzare i dati.
+1. In **Proprietà** (nella barra a destra), specificate una suite **di rapporti** progetto da cui desiderate utilizzare i dati.
+
+   ![Selezione suite di rapporti](help/analyze/mobile-app/assets/properties_save.png)
+
+2. Per aggiungere una nuova sezione alla scorecard, trascina una metrica dal pannello a sinistra e rilasciala nella zona **Trascina qui** le metriche di rilascio. È inoltre possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+
+   ![Aggiungere sezioni](help/analyze/mobile-app/assets/build_list.png)
 
 
-
-2. Per aggiungere una nuova sezione alla scorecard, trascinate una metrica dal pannello a sinistra e rilasciatela nella zona Trascinate qui le metriche. È inoltre possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
-
-
-   Da ciascuna sezione potete accedere a una visualizzazione dettagliata in cui sono visualizzate informazioni aggiuntive sulla metrica, come gli elementi principali per un elenco di dimensioni correlate.
+   *Da ciascuna sezione potete accedere a una visualizzazione dettagliata in cui sono visualizzate informazioni aggiuntive sulla metrica, come gli elementi principali per un elenco di dimensioni correlate.*
 
 
-3. Per aggiungere una dimensione correlata a una metrica, trascinala dal pannello a sinistra e rilasciala su una sezione. Ad esempio, puoi aggiungere dimensioni appropriate (come Regione DMA, in questo esempio) alla metrica Visitatori unici trascinandola e rilasciandola nella sezione; le dimensioni aggiunte verranno visualizzate nella sezione di suddivisione delle proprietà specifiche della sezione. Potete aggiungere più dimensioni a ciascuna sezione.
+3. Per aggiungere una dimensione correlata a una metrica, trascinala dal pannello a sinistra e rilasciala su una sezione. Ad esempio, puoi aggiungere dimensioni appropriate (come Regione **** DMA, in questo esempio) alla metrica Visitatori **** unici trascinandola sulla sezione; le dimensioni aggiunte verranno visualizzate nella sezione di suddivisione delle **proprietà** specifiche della sezione. Potete aggiungere più dimensioni a ciascuna sezione.
+
+   ![Aggiungi dimensioni](help/analyze/mobile-app/assets/layer_dimensions.png)
+
+   *Nota: È inoltre possibile aggiungere una dimensione a tutte le sezioni rilasciandola nell'area di lavoro Scorecard.*
+
+   Quando si fa clic su una sezione nel Generatore scorecard, nella barra a destra vengono visualizzate le proprietà e le caratteristiche associate a tale sezione. In questa barra, potete fornire un nuovo **Titolo** per la sezione e, in alternativa, configurare la sezione specificando i componenti invece di trascinarli dalla barra a sinistra.
 
 
-   *Nota: È inoltre possibile aggiungere una dimensione a tutte le sezioni rilasciandola nell'area di lavoro Scorecard. *
+   Inoltre, se fate clic sulle sezioni, un pop-up dinamico mostrerà la visualizzazione Suddivisione all'utente esecutivo nell'app. Se non è stata applicata alcuna dimensione alla sezione, la dimensione di suddivisione sarà **ora** o **giorni**, a seconda dell’intervallo di date predefinito.
 
-   Quando si fa clic su una sezione nel Generatore scorecard, nella barra a destra vengono visualizzate le proprietà e le caratteristiche associate a tale sezione. In questa barra, potete fornire un nuovo Titolo per la sezione e in alternativa configurare la sezione specificando i componenti invece di trascinarli e rilasciarli dalla barra a sinistra.
+   ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
 
-
-
-
-
-
-
-
-   Inoltre, se fate clic sulle sezioni, un pop-up dinamico mostrerà la visualizzazione Suddivisione all'utente esecutivo nell'app. Se non è stata applicata alcuna dimensione alla sezione, la dimensione di suddivisione sarà ora o giorni, a seconda dell’intervallo di date predefinito.
-
-
-
-
-   Facendo clic su una sezione viene visualizzata la visualizzazione Suddivisione della sezione sul lato della scorecard.
-Ogni dimensione aggiunta alla sezione verrà visualizzata in un elenco a discesa nella visualizzazione dettagliata dell'app. L'utente esecutivo può quindi scegliere tra le opzioni elencate nell'elenco a discesa.
+   *Ogni dimensione aggiunta alla sezione verrà visualizzata in un elenco a discesa nella visualizzazione dettagliata dell'app. L'utente esecutivo può quindi scegliere tra le opzioni elencate nell'elenco a discesa.*
 
 4. Per applicare segmenti a singole sezioni, trascinate un segmento dal pannello sinistro e rilasciatelo direttamente sulla parte superiore della sezione. Se si desidera applicare il segmento a tutte le sezioni della scorecard, posizionare la sezione sopra la scorecard.
 
-5. Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fare clic in un punto qualsiasi della scorecard all’esterno delle sezioni e rimuoverlo facendo clic sulla x visualizzata al passaggio del mouse sul componente, come illustrato di seguito per il segmento Clienti mobili:
+5. Analogamente, per rimuovere un componente applicato all’intera scorecard, fare clic in un punto qualsiasi della scorecard all’esterno delle sezioni e rimuoverlo facendo clic sulla **x** visualizzata al passaggio del mouse sul componente, come illustrato di seguito per il segmento Clienti **** mobili:
 
-6. In Proprietà scorecard è inoltre possibile specificare quanto segue:
+   ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
 
-   * Un Intervallo Di Date Predefinito. Gli intervalli qui specificati saranno gli stessi applicati al primo accesso dell'utente esecutivo alla scorecard nella sua app.
+6. In **Proprietà** scorecard è inoltre possibile specificare quanto segue:
 
-   * Un intervallo di date di confronto
+   * Un Intervallo **Di Date** Predefinito. Gli intervalli qui specificati saranno gli stessi applicati al primo accesso dell'utente esecutivo alla scorecard nella sua app.
 
-   * Qualsiasi segmento da applicare all’intera scorecard
+   * Un Intervallo Di Date **Di Confronto**
+
+   * Qualsiasi **segmento** da applicare all’intera scorecard
 
 7. Per assegnare un nome alla scorecard, fare clic sullo spazio dei nomi in alto a sinistra nella schermata e digitare il nuovo nome.
+
+   ![Denominazione_scorecards](help/analyze/mobile-app/assets/new_name.png)
 
 ## Condivisione della scorecard
 
 Per condividere la scorecard con un utente esecutivo:
 
-1. Fate clic sul menu Condividi e selezionate Condivisione scorecard.
+1. Fate clic sul menu **Condivisione** e selezionate **Condivisione scorecard**.
 
-2. Nel modulo Condivisione, completa i campi:
+2. Nel modulo **Condivisione** , completa i campi nei seguenti modi:
 
    * Nome della scorecard
    * Descrizione della scorecard
    * Aggiunta di tag rilevanti
    * Specifica dei destinatari della scorecard
-   * Selezionare l'opzione Condividi componenti incorporati con destinatari per garantire che l'utente esecutivo abbia accesso a tutti i componenti della scorecard.
+   * Selezionare l'opzione per **condividere i componenti incorporati con i destinatari** per garantire che l'utente esecutivo abbia accesso a tutti i componenti della scorecard.
 
-3. Fai clic su Condividi.
+3. Fai clic su **Condividi**.
+
+![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+
 
 Dopo aver condiviso una scorecard, i destinatari possono accedervi dall'app mobile Analytics. Se si apportano modifiche successive alla scorecard nel Generatore scorecard, queste verranno aggiornate automaticamente nella scorecard condivisa. Gli utenti esecutivi visualizzeranno quindi le modifiche dopo l'aggiornamento della scorecard nella loro app.
 
-*Nota: Se si aggiorna la scorecard aggiungendo nuovi componenti, è possibile condividere di nuovo la scorecard (e selezionare l'opzione Condividi automaticamente componenti incorporati con i destinatari) per essere certi che gli utenti esecutivi abbiano accesso a tali modifiche.*
-
+*Nota: Se si aggiorna la scorecard aggiungendo nuovi componenti, è possibile condividere di nuovo la scorecard (e selezionare l'opzione Condividi **automaticamente i componenti incorporati con i destinatari**) per essere certi che gli utenti esecutivi abbiano accesso a tali modifiche.*
 
 ## Impostazione di utenti esecutivi con l'app
 
@@ -150,23 +156,48 @@ Per aiutare gli utenti esecutivi ad accedere ai tuoi scorecard nell'app, accerta
     * Hanno un accesso valido in Adobe Analytics
     * Sono state create delle scorecard mobili per loro correttamente e le condividono con loro.
     * Hanno accesso ad Analysis Workspace e alla suite di rapporti basata
-    sulla scorecard* Hanno accesso ai componenti inclusi nella scorecard. Nota: Potete selezionare un’opzione quando condividete gli scorecard per condividere automaticamente i componenti incorporati con i destinatari.
-
+    sulla scorecard* Hanno accesso ai componenti inclusi nella scorecard. Nota: È possibile selezionare un'opzione quando si condividono le scorecard con **Condivisione automatica dei componenti incorporati con i destinatari**.
 
 ### Aiutare gli utenti esecutivi a utilizzare l'app
 
-1. Per aiutare gli utenti esecutivi, accertatevi che siano in grado di scaricare e installare l'app in base al sistema operativo del dispositivo mobile.
+Durante la fase beta, e prima che l'app venga rivelata al pubblico, potete controllare chi ha accesso all'app.
 
-   **iOS**
+1. Aiuta gli utenti esecutivi a scaricare e installare l'app. A questo scopo, fornisci i seguenti passaggi per estendere l'accesso ai tuoi utenti esecutivi, a seconda che utilizzino un dispositivo iOS o Android.
+
+   **Per gli utenti esecutivi su iOS:**
+
+   1. Fai clic sul seguente collegamento pubblico (è disponibile anche in Analytics in **Strumenti** &gt; App **** mobile):
+
+      [Collegamento](https://testflight.apple.com/join/WtXMQxlI)iOS: `https://testflight.apple.com/join/WtXMQxlI`
+
+      Dopo aver fatto clic sul collegamento, viene visualizzata la seguente schermata Verifica:
+
+      ![Schermata di verifica](help/analyze/mobile-app/assets/testflight1.png)
+
+   2. Toccate il collegamento **Visualizza in App Store** sullo schermo per scaricare l'app TestFlight.
+
+   3. Dopo aver installato l'app Testflight, trova e installa l'app mobile Adobe Analytics dall'interno di TestFlight come mostrato di seguito:
+   ![Schermata di verifica](help/analyze/mobile-app/assets/testflight2.png)
+
+   **Per gli utenti esecutivi su Android:**
+
+   1. Toccate il seguente collegamento Play Store sul dispositivo dell'utente (è disponibile anche in Analytics in **Strumenti** &gt; App **** mobile):
 
 
+      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-   **Android**
+      Dopo aver toccato il collegamento, toccate il collegamento Diventa un tester nella schermata seguente:
 
+      ![Riproduci store, schermata](help/analyze/mobile-app/assets/play.png)
 
+   2. Toccate il **download sul collegamento Google Play** nella schermata seguente:
 
+      ![Collegamento di download](help/analyze/mobile-app/assets/playnext.png)
 
+   3. Scaricate e installate l'app.
+   Una volta scaricati e installati, gli utenti esecutivi possono accedere all'app utilizzando le credenziali Adobe Analytics esistenti; supportiamo sia Adobe che Enterprise/Federated ID.
 
+   ![Schermata di benvenuto dell'app](help/analyze/mobile-app/assets/welcome.png)
 
 2. Aiutali ad accedere alla tua scorecard. Dopo che gli utenti esecutivi hanno effettuato l'accesso all'app, viene visualizzata la schermata Scegli una società. In questa schermata sono elencate le società di accesso alle quali appartiene l’utente esecutivo. Per aiutarli a raggiungere la scorecard:
 
