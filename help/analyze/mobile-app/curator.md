@@ -2,7 +2,7 @@
 description: Istruzioni per l'impostazione delle scorecard dell'app mobile.
 title: Guida alla cura delle app Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: 13fddb340dd05a24234814f7ca8579e9861335bd
+source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
 
 ---
 
@@ -24,7 +24,7 @@ Questa guida è stata creata per aiutare i curatori dei dati di Adobe Analytics 
 
 La tabella seguente descrive i termini per comprendere l'audience, le funzioni e il funzionamento dell'app mobile Analytics.
 
-|Termine|Definizione||—|—||Consumatore| Personale esecutivo che visualizza metriche chiave e informazioni da Analytics su un dispositivo mobile||Curatore|Persona di livello dati che trova e distribuisce approfondimenti da Analytics e configura le scorecard da visualizzare dal consumatore||Cura|L'atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore||Scorecard|Vista app mobile contenente uno o più riquadri||Tile|Rendering di una metrica in una vista scorecard||Suddivisione|Vista secondaria accessibile toccando una sezione nella scorecard. Questa visualizzazione si espande sulla metrica visualizzata nella sezione e, facoltativamente, riporta ulteriori dimensioni di suddivisione.||Intervallo di date|Intervallo di date principale per il reporting delle app mobili||Intervallo di date di confronto|Intervallo di date confrontato con l'intervallo di date principale.|
+|Termine|Definizione||—|—||Consumatore| Personale esecutivo che visualizza metriche chiave e informazioni da Analytics su un dispositivo mobile||Curatore|Persona di livello dati che trova e distribuisce approfondimenti da Analytics e configura le scorecard da visualizzare dal consumatore||Cura|L'atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore||Scorecard|Vista app mobile contenente uno o più riquadri||Tile|Rendering di una metrica in una vista scorecard||Suddivisione|Vista secondaria accessibile toccando una sezione nella scorecard. Questa visualizzazione si espande sulla metrica visualizzata nella sezione e, facoltativamente, riporta ulteriori dimensioni di suddivisione.||Intervallo di date|Intervallo di date principale per il reporting delle app mobili||Intervallo di date di confronto|Intervallo di date confrontato con l'intervallo di date principale|
 
  
 ## Creare una scorecard per gli utenti esecutivi
@@ -38,6 +38,9 @@ Per creare la scorecard, è necessario effettuare le seguenti operazioni:
 
 1. Accedi al modello Scorecard mobile vuoto.
 2. Configura la scorecard con i dati e salvala.
+
+![Esempio di scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
 
 
 ### Accesso al modello Scorecard mobile vuoto
