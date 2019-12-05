@@ -2,7 +2,7 @@
 title: Guide tecniche di Adobe Analytics
 description: Guide per gli utenti e risorse di Analytics
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -11,23 +11,23 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 Benvenuti nella home page del prodotto Adobe Analytics e della documentazione tecnica. Qui puoi trovare informazioni di supporto e supporto per strumenti di reporting come [!UICONTROL Analysis Workspace], [!UICONTROL Report Buidler], API di reporting [!UICONTROL Data Workbench]e [!UICONTROL Activity Map]. Puoi anche accedere alla documentazione per l'amministrazione di prodotti e utenti, l'implementazione e tutte le funzioni supportate in Adobe Analytics.
 
-[![Strumenti](assets/analyze_50px.png)](/help/analyze/home.md) [Guida agli strumenti di Analytics](/help/analyze/home.md): descrive tutti gli strumenti di analisi disponibili in Adobe Analytics. In particolare, è una documentazione dettagliata su Analysis Workspace, lo strumento di analisi e visualizzazione innovativo di Analytics.
+[![Strumenti](assets/analyze_50px.png)](/help/analyze/home.md)[Analytics Tools Guide](/help/analyze/home.md) - Fornisce l'accesso ad [Analysis Workspace](/help/analyze/analysis-workspace/home.md), lo strumento di analisi e visualizzazione principale per Analytics. Sono inoltre disponibili tutti gli strumenti di analisi ([!UICONTROL Report Buidler], API di reporting [!UICONTROL Data Workbench]e [!UICONTROL Activity Map]) utilizzabili in Adobe Analytics.
 
-[![Amministrazione](assets/admin_50px.png)](/help/admin/home.md) [Guida all’amministrazione](/help/admin/home.md): descrive le attività di amministrazione per configurare le suite di rapporti, la governance dei dati, l’utilizzo delle chiamate al server e altro ancora.
+[![Guida](assets/admin_50px.png)](/help/admin/home.md)per l'[amministratore](/help/admin/home.md) - Scopri come gestire utenti e prodotti in Experience Cloud Admin Console, configurare suite di rapporti, impostazioni aziendali, governance dei dati, utilizzo delle chiamate al server, gestione del traffico e altro ancora.
 
-[![Implementazione](assets/implement_50px.png)](/help/implement/home.md) [Guida all’implementazione](/help/implement/home.md): descrive come specificare quali dati raccogliere per sfruttare al meglio Adobe Analytics. Include contenuti sulle implementazioni di Adobe Experience Platform Launch e JavaScript.
+[![Implementazione](assets/implement_50px.png)](/help/implement/home.md) [Guida all’implementazione](/help/implement/home.md): descrive come specificare quali dati raccogliere per sfruttare al meglio Adobe Analytics. Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![Componenti](assets/components_50px.png)](/help/components/home.md) [Guida ai componenti](/help/components/home.md): descrive le funzioni utili per organizzare i dati. I componenti includono segmenti, metriche calcolate, suite di rapporti virtuali, avvisi e altro ancora. Questa guida include anche una sezione di riferimento sulle variabili che descrive tutte le dimensioni e le metriche disponibili.
 
-[![Esportazione](assets/export_50px.png)](/help/export/home.md) [Guida all’esportazione](/help/export/home.md): descrive come estrarre i dati da Adobe Analytics tramite Data Warehouse, Data Feed e altro ancora.
+[![Guida all](assets/export_50px.png)](/help/export/home.md)'[esportazione](/help/export/home.md) - Ottenete i dati da Adobe Analytics: Utilizzare [!UICONTROL Data Feeds] per ricevere un'esportazione oraria o giornaliera di dati grezzi. Recuperare l'output dei dati tramite foglio di calcolo utilizzando [!UICONTROL Data Warehouse].
 
-[![Importazione](assets/import_50px.png)](/help/import/home.md) [Guida all’importazione](/help/import/home.md): descrive come importare i dati in Analytics da fonti esterne, in modalità collettiva o in tempo reale. Gli argomenti trattati comprendono origini di dati, API di inserimento dati e Data Connectors.
+[![Importazione](assets/import_50px.png)](/help/import/home.md) [Guida all’importazione](/help/import/home.md): descrive come importare i dati in Analytics da fonti esterne, in modalità collettiva o in tempo reale. Include [!UICONTROL Data Sources], [!UICONTROL Data Insertion API]e [!UICONTROL Data Connectors].
 
-[![Integrazione](assets/integrate_50px.png)](/help/integrate/home.md) [Guida all’integrazione](/help/integrate/home.md): descrive come configurare le integrazioni con altre soluzioni Adobe Experience Cloud come Audience Manager, Advertising Cloud o Target.
+[![Guida](assets/integrate_50px.png)](/help/integrate/home.md)all'[integrazione](/help/integrate/home.md) - Configura le integrazioni con altre soluzioni Adobe Experience Cloud, come Audience Manager, Advertising Cloud e Target.
 
 [![Guida](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)all'analisi[dei supporti multimediali](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - Implementare l'analisi delle origini audio o video. Gli argomenti trattati comprendono Media SDK e Media Collection API.
 
-[![Guida per](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)Workbench[dati DWB](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Client Workbench dati, installazione, configurazione del set di dati e altro ancora
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)[Data Workbench Guide](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Scopri le funzionalità multi-canale, potenti e altamente flessibili di [!UICONTROL Data Workbench]. Include [!UICONTROL Data Workbench Client], installazione, [!UICONTROL Dataset Configuration] guide e altro.
 
 [![Note tecniche](assets/technotes_50px.png)](/help/technotes/home.md) [Note tecniche di Analytics](/help/technotes/home.md): knowledge base contenente articoli utili per strumenti o componenti di analisi specifici.
 
