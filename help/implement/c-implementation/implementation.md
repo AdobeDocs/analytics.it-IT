@@ -1,9 +1,9 @@
 ---
-description: nulle
+description: 'null'
 title: Implementazione roadmap
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9d0b8e1e9bc2d92fb949ceed7bcfaa31818d02b8
 
 ---
 
@@ -42,7 +42,7 @@ Se non hai mai utilizzato Adobe Analytics, puoi creare rapidamente la tua prima 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
-   <td colname="col1">  Configurare il servizio identità. </td> 
+   <td colname="col1"> Configurare il servizio identità. </td> 
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) Consultate <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html"> Configurare il servizio identità per Analytics </a>. </p> 
     <draft-comment> 
      <p>In <code> VisitorAPI.js </code>, aggiungi il seguente codice di inizializzazione ID visitatore all’inizio del file: </p> 
@@ -70,12 +70,7 @@ Se non hai mai utilizzato Adobe Analytics, puoi creare rapidamente la tua prima 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Confermare l’implementazione. </td> 
-   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> Test e convalida </a> Fornisce informazioni sulla convalida dell'implementazione. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Usa Adobe Experience Cloud Debugger per verificare che i dati vengano inviati. </td> 
    <td colname="col2"> <p>Install the <a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger </a>. Una volta installato, carica una pagina in cui hai distribuito il codice della pagina e apri il debugger. Il debugger visualizza i dettagli relativi ai dati di raccolta inviati. </p> </td> 
   </tr> 
