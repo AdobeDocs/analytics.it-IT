@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
 
 ---
 
@@ -266,26 +266,13 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
    + [Servizi di base di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + Identificazione dei visitatori tra i dispositivi {#cross-device-visitor-id}
       + [Connettere gli utenti tra i dispositivi](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [Impatto dei dati sull'identificazione tra i visitatori dei visitatori](js-implementation/xdevice-visid/xdevice-data.md)
-      + [Visita di esempio](js-implementation/xdevice-visid/visit-example.md)
-      + [Visitatori](js-implementation/xdevice-visid/visitors.md)
-      + [Visite](js-implementation/xdevice-visid/visits.md)
-      + [Creare un segmento](js-implementation/xdevice-visid/segments.md)
-      + [Dati di geo-segmentazione](js-implementation/xdevice-visid/geo-data.md)
+      + [Esempio tra dispositivi](js-implementation/xdevice-visid/visit-example.md)
       + [Attribuzione e persistenza](js-implementation/xdevice-visid/variable-persistence.md)
+      + [Domande frequenti su più dispositivi](js-implementation/xdevice-visid/xdevice-faq.md)
    + [Migrazione dei visitatori](js-implementation/visitor-migration.md)
    + [Utilizzo dei timestamp opzionali](js-implementation/timestamps-overview.md)
    + [Reindirizzamenti e alias](js-implementation/redirects-overview.md)
 + Test e convalida {#testing-and-validation}
-   + Test e processo di convalida {#testing-and-validation-process}
-      + [Panoramica sulla verifica e sulla convalida](impl-testing/impl-validation/impl-validation.md)
-      + [Identificare la variabile s_account nel debugger](impl-testing/impl-validation/impl-testing-account.md)
-      + [File JavaScript JS](impl-testing/impl-validation/impl-js-file.md)
-      + [Modifiche al codice](impl-testing/impl-validation/impl-code-updates.md)
-      + [Variabili e valori](impl-testing/impl-validation/impl-var-values.md)
-      + [Variabili personalizzate](impl-testing/impl-validation/impl-custom-vars.md)
-      + [Accettazione dell'implementazione](impl-testing/impl-validation/impl-acceptance.md)
-      + [Convalida accurata dei dati](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud Debugger](impl-testing/debugger.md)
    + [Analizzatore pacchetti](impl-testing/packet-monitor.md)
    + Risoluzione dei problemi di implementazione {#implementation-troubleshooting}
