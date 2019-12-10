@@ -2,7 +2,7 @@
 description: Istruzioni per l'impostazione delle scorecard dell'app mobile.
 title: Guida alla cura delle app Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -24,7 +24,16 @@ Questa guida è stata creata per aiutare i curatori dei dati di Adobe Analytics 
 
 La tabella seguente descrive i termini per comprendere l'audience, le funzioni e il funzionamento dell'app mobile Analytics.
 
-|Termine|Definizione||—|—||Consumatore| Personale esecutivo che visualizza metriche chiave e informazioni da Analytics su un dispositivo mobile||Curatore|Persona di livello dati che trova e distribuisce approfondimenti da Analytics e configura le scorecard da visualizzare dal consumatore||Cura|L'atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore||Scorecard|Vista app mobile contenente uno o più riquadri||Tile|Rendering di una metrica in una vista scorecard||Suddivisione|Vista secondaria accessibile toccando una sezione nella scorecard. Questa visualizzazione si espande sulla metrica visualizzata nella sezione e, facoltativamente, riporta ulteriori dimensioni di suddivisione.||Intervallo di date|Intervallo di date principale per il reporting delle app mobili||Intervallo di date di confronto|Intervallo di date confrontato con l'intervallo di date principale|
+| Termine | Definizione |
+|--- |--- |
+| Consumer | Personalità esecutiva che visualizza metriche chiave e informazioni da Analytics su un dispositivo mobile |
+| Curatore | Persona con informazioni sui dati che trova e distribuisce approfondimenti da Analytics e configura gli scorecard da visualizzare per il consumatore |
+| Cura | Creazione o modifica di una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore |
+| Scorecard | Visualizzazione app mobile contenente uno o più riquadri |
+| Affianca | Rendering di una metrica in una visualizzazione scorecard |
+| Suddividi | Vista secondaria accessibile toccando una sezione nella scorecard. Questa visualizzazione si espande sulla metrica visualizzata nella sezione e, facoltativamente, riporta ulteriori dimensioni di suddivisione. |
+| Intervallo date | L'intervallo di date principale per il reporting delle app mobili |
+| Intervallo date confronto | Intervallo di date confrontato con l'intervallo di date principale |
 
  
 ## Creare una scorecard per gli utenti esecutivi
@@ -32,12 +41,12 @@ La tabella seguente descrive i termini per comprendere l'audience, le funzioni e
 Una scorecard mobile visualizza le visualizzazioni dei dati chiave per gli utenti con layout a sezioni, come illustrato di seguito:
 
 
-![Esempio di scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+![Esempio di scorecard](assets/intro_scorecard.png)
 
 
 Come curatore di questa scorecard, è possibile utilizzare il Generatore scorecard per configurare quali sezioni visualizzare sulla scorecard per il consumatore. È inoltre possibile configurare la modalità di modifica delle viste dettagliate o delle suddivisioni dopo aver toccato le sezioni. L'interfaccia di Scorecard Builder è mostrata di seguito:
 
-![Scorecard Builder](help/analyze/mobile-app/assets/scorecard_builder.png)
+![Scorecard Builder](assets/scorecard_builder.png)
 
 
 Per creare la scorecard, è necessario effettuare le seguenti operazioni:
@@ -56,7 +65,7 @@ Puoi accedere al modello Blank Mobile Scorecard in uno dei modi seguenti:
 2. Fate clic sul pulsante **Crea nuovo progetto** e selezionate il modello di progetto della scorecard **mobile** vuota.
 3. Click the **Create** button.
 
-![Modello Scorecard](help/analyze/mobile-app/assets/new_template.png)
+![Modello Scorecard](assets/new_template.png)
 
 
 *Nota: Se non visualizzi il modello Scorecard mobile vuota, come illustrato di seguito, la tua società non è ancora stata attivata per la versione beta. Contatta il tuo Customer Service Manager.*
@@ -66,7 +75,7 @@ Puoi accedere al modello Blank Mobile Scorecard in uno dei modi seguenti:
 
 Dalla schermata **Progetti** , nella scheda **Componenti** , fate clic sul pulsante **Aggiungi** e selezionate **Mobile Scorecard**.
 
-![Aggiunta di progetti](help/analyze/mobile-app/assets/add_project.png)
+![Aggiunta di progetti](assets/add_project.png)
 
 **Utilizzare gli strumenti di Analytics**
 
@@ -78,11 +87,11 @@ Per implementare il modello Scorecard:
 
 1. In **Proprietà** (nella barra a destra), specificate una suite **di rapporti** progetto da cui desiderate utilizzare i dati.
 
-   ![Selezione suite di rapporti](help/analyze/mobile-app/assets/properties_save.png)
+   ![Selezione suite di rapporti](assets/properties_save.png)
 
 2. Per aggiungere una nuova sezione alla scorecard, trascina una metrica dal pannello a sinistra e rilasciala nella zona **Trascina qui** le metriche di rilascio. È inoltre possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
-   ![Aggiungere sezioni](help/analyze/mobile-app/assets/build_list.png)
+   ![Aggiungere sezioni](assets/build_list.png)
 
 
    *Da ciascuna sezione potete accedere a una visualizzazione dettagliata in cui sono visualizzate informazioni aggiuntive sulla metrica, come gli elementi principali per un elenco di dimensioni correlate.*
@@ -90,7 +99,7 @@ Per implementare il modello Scorecard:
 
 3. Per aggiungere una dimensione correlata a una metrica, trascinala dal pannello a sinistra e rilasciala su una sezione. Ad esempio, puoi aggiungere dimensioni appropriate (come Regione **** DMA, in questo esempio) alla metrica Visitatori **** unici trascinandola sulla sezione; le dimensioni aggiunte verranno visualizzate nella sezione di suddivisione delle **proprietà** specifiche della sezione. Potete aggiungere più dimensioni a ciascuna sezione.
 
-   ![Aggiungi dimensioni](help/analyze/mobile-app/assets/layer_dimensions.png)
+   ![Aggiungi dimensioni](assets/layer_dimensions.png)
 
    *Nota: È inoltre possibile aggiungere una dimensione a tutte le sezioni rilasciandola nell'area di lavoro Scorecard.*
 
@@ -99,7 +108,7 @@ Per implementare il modello Scorecard:
 
    Inoltre, se fate clic sulle sezioni, un pop-up dinamico mostrerà la visualizzazione Suddivisione all'utente esecutivo nell'app. Se non è stata applicata alcuna dimensione alla sezione, la dimensione di suddivisione sarà **ora** o **giorni**, a seconda dell’intervallo di date predefinito.
 
-   ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
+   ![Breakdown_view](assets/break_view.png)
 
    *Ogni dimensione aggiunta alla sezione verrà visualizzata in un elenco a discesa nella visualizzazione dettagliata dell'app. L'utente esecutivo può quindi scegliere tra le opzioni elencate nell'elenco a discesa.*
 
@@ -107,7 +116,7 @@ Per implementare il modello Scorecard:
 
 5. Analogamente, per rimuovere un componente applicato all’intera scorecard, fare clic in un punto qualsiasi della scorecard all’esterno delle sezioni e rimuoverlo facendo clic sulla **x** visualizzata al passaggio del mouse sul componente, come illustrato di seguito per il segmento Clienti **** mobili:
 
-   ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
+   ![Remove_components](assets/new_remove.png)
 
 6. In **Proprietà** scorecard è inoltre possibile specificare quanto segue:
 
@@ -119,7 +128,7 @@ Per implementare il modello Scorecard:
 
 7. Per assegnare un nome alla scorecard, fare clic sullo spazio dei nomi in alto a sinistra nella schermata e digitare il nuovo nome.
 
-   ![Denominazione_scorecards](help/analyze/mobile-app/assets/new_name.png)
+   ![Denominazione_Schede](assets/new_name.png)
 
 ## Condivisione della scorecard
 
@@ -137,7 +146,7 @@ Per condividere la scorecard con un utente esecutivo:
 
 3. Fai clic su **Condividi**.
 
-![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+![Share_Scorecards](assets/new_share.png)
 
 
 Dopo aver condiviso una scorecard, i destinatari possono accedervi dall'app mobile Analytics. Se si apportano modifiche successive alla scorecard nel Generatore scorecard, queste verranno aggiornate automaticamente nella scorecard condivisa. Gli utenti esecutivi visualizzeranno quindi le modifiche dopo l'aggiornamento della scorecard nella loro app.
@@ -152,11 +161,11 @@ In alcuni casi, gli utenti esecutivi potrebbero aver bisogno di ulteriore assist
 
 Per aiutare gli utenti esecutivi ad accedere ai tuoi scorecard nell'app, accertati che:
 
-    * I requisiti minimi del sistema operativo mobile sui loro dispositivi sono iOS versione 10 o successiva, o Android versione 4.4 (KitKat) o superiore
-    * Hanno un accesso valido in Adobe Analytics
-    * Sono state create delle scorecard mobili per loro correttamente e le condividono con loro.
-    * Hanno accesso ad Analysis Workspace e alla suite di rapporti basata
-    sulla scorecard* Hanno accesso ai componenti inclusi nella scorecard. Nota: È possibile selezionare un'opzione quando si condividono le scorecard con **Condivisione automatica dei componenti incorporati con i destinatari**.
+* I requisiti minimi del sistema operativo mobile sui loro dispositivi sono iOS versione 10 o successiva o Android versione 4.4 (KitKat) o superiore
+* Hanno un accesso valido ad Adobe Analytics
+* Sono state create delle scorecard mobili per loro correttamente e le potete condividere.
+* Hanno accesso ad Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
+* Hanno accesso ai componenti inclusi nella scorecard. Nota: Potete selezionare un’opzione quando condividete gli scorecard per condividere **automaticamente i componenti incorporati con i destinatari**.
 
 ### Aiutare gli utenti esecutivi a utilizzare l'app
 
@@ -166,119 +175,98 @@ Durante la fase beta, e prima che l'app venga rivelata al pubblico, potete contr
 
    **Per gli utenti esecutivi su iOS:**
 
-   1. Fai clic sul seguente collegamento pubblico (è disponibile anche in Analytics in **Strumenti** &gt; App **** mobile):
+   1. Fai clic sul seguente collegamento pubblico (disponibile anche in Analytics in **Strumenti** &gt; App **** mobile):
 
       [Collegamento](https://testflight.apple.com/join/WtXMQxlI)iOS: `https://testflight.apple.com/join/WtXMQxlI`
 
       Dopo aver fatto clic sul collegamento, viene visualizzata la seguente schermata Verifica:
 
-      ![Schermata di verifica](help/analyze/mobile-app/assets/testflight1.png)
+      ![Schermata di verifica](assets/testflight1.png)
 
    2. Toccate il collegamento **Visualizza in App Store** sullo schermo per scaricare l'app TestFlight.
 
    3. Dopo aver installato l'app Testflight, trova e installa l'app mobile Adobe Analytics dall'interno di TestFlight come mostrato di seguito:
-   ![Schermata di verifica](help/analyze/mobile-app/assets/testflight2.png)
 
+      ![Schermata di verifica](assets/testflight2.png)
    **Per gli utenti esecutivi su Android:**
 
-   1. Toccate il seguente collegamento Play Store sul dispositivo dell'utente (è disponibile anche in Analytics in **Strumenti** &gt; App **** mobile):
-
-
+   1. Toccate il seguente collegamento Play Store sul dispositivo dell'utente (è disponibile anche in Analytics in **Strumenti** &gt; App ****mobile):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Dopo aver toccato il collegamento, toccate il collegamento Diventa un tester nella schermata seguente:
 
-      ![Riproduci store, schermata](help/analyze/mobile-app/assets/play.png)
+      ![Riproduci store, schermata](assets/play.png)
 
    2. Toccate il **download sul collegamento Google Play** nella schermata seguente:
-
-      ![Collegamento di download](help/analyze/mobile-app/assets/playnext.png)
+      ![Collegamento di download](assets/playnext.png)
 
    3. Scaricate e installate l'app.
-   Una volta scaricati e installati, gli utenti esecutivi possono accedere all'app utilizzando le credenziali Adobe Analytics esistenti; supportiamo sia Adobe che Enterprise/Federated ID.
+Una volta scaricati e installati, gli utenti esecutivi possono accedere all'app utilizzando le credenziali Adobe Analytics esistenti; supportiamo sia Adobe che Enterprise/Federated ID.
+   ![Schermata di benvenuto dell'app](assets/welcome.png)
 
-   ![Schermata di benvenuto dell'app](help/analyze/mobile-app/assets/welcome.png)
+2. Aiutali ad accedere alla tua scorecard. Dopo che gli utenti esecutivi hanno effettuato l'accesso all'app, viene visualizzata la schermata **Scegli una società** . In questa schermata sono elencate le società di accesso alle quali appartiene l’utente esecutivo. Per aiutarli a raggiungere la scorecard:
 
-2. Aiutali ad accedere alla tua scorecard. Dopo che gli utenti esecutivi hanno effettuato l'accesso all'app, viene visualizzata la schermata Scegli una società. In questa schermata sono elencate le società di accesso alle quali appartiene l’utente esecutivo. Per aiutarli a raggiungere la scorecard:
-
-* Toccate il nome della società di accesso o dell’organizzazione Experience Cloud applicabile alla scorecard condivisa. Nell'elenco Scorecard vengono quindi visualizzate tutte le scorecard condivise con il manager all'interno della società di accesso.
-* Aiutateli a ordinare l’elenco in base all’ultima modifica, se applicabile.
-* Toccate il nome della scorecard per visualizzarla.
-
-
-1. Scegliete una società toccandola.
-2. Toccate una scorecard dall'elenco Scorecard.
+   * Toccate il nome della società di accesso o dell’organizzazione Experience Cloud applicabile alla scorecard condivisa. Nell'elenco Scorecard vengono quindi visualizzate tutte le scorecard condivise con il manager all'interno della società di accesso.
+   * Aiutateli a ordinare l’elenco in base all’ **ultima modifica**, se applicabile.
+   * Toccate il nome della scorecard per visualizzarla.
+   ![Scegliere una società](assets/accesscard.png)
 
    Nota: Se l'utente esecutivo accede e visualizza un messaggio che indica che non è stato condiviso nulla:
 
    * L'utente esecutivo potrebbe aver selezionato l'istanza di Analytics sbagliata
-   * La scorecard non è stata condivisa con l'utente esecutivo
+   * La scorecard potrebbe non essere stata condivisa con l'utente esecutivo
 
-3. Mostra l’aspetto delle sezioni nella scorecard condivisa.
+      ![Nessuna condivisione](assets/nothing.png)
+   Verifica che l'utente esecutivo possa accedere all'istanza di Analytics corretta e che la scorecard sia stata condivisa.
 
+3. Spiegate all’utente esecutivo in che modo le sezioni vengono visualizzate nelle scorecard condivise.
+
+   ![Spiega sezioni](assets/newexplain.png)
 
 
    Ulteriori informazioni sulle sezioni:
 
-       
- * La granularità dei grafici sparkline dipende dalla lunghezza dell'intervallo di date:       * Un giorno mostra una tendenza
- oraria     * Più di un giorno e meno di un anno mostra una tendenza
- giornaliera     * Un anno o più mostra una tendenza
-     settimanale* La formula della variazione del valore della percentuale è totale della metrica (intervallo di date corrente) - totale della metrica (intervallo di date di confronto) / totale della metrica (intervallo di date di confronto).
-       * Per aggiornare la scorecard è possibile spostare lo schermo verso il basso.
-   
+   * La granularità dei grafici sparkline dipende dalla lunghezza dell'intervallo di date:
+      * Un giorno mostra una tendenza oraria
+      * Più di un giorno e meno di un anno mostra una tendenza giornaliera
+      * Un anno o più mostra una tendenza settimanale
+   * La formula di variazione del valore percentuale è totale della metrica (intervallo di date corrente) - totale della metrica (intervallo di date di confronto) / totale della metrica (intervallo di date di confronto).
+   * Per aggiornare la scorecard è possibile spostare lo schermo verso il basso.
 
-4. Toccate una sezione per visualizzare il funzionamento di un rapporto dettagliato o con tendenze per la sezione.
+
+4. Toccate una sezione per vedere come funziona una suddivisione dettagliata per la sezione.
+
+   ![Visualizzazione per sottogruppi di lavoro](assets/sparkline.png)
 
 
 5. Per modificare gli intervalli di date per la scorecard:
 
+   ![Modifica date](assets/changedate.png)
 
+   *Nota: Puoi anche modificare allo stesso modo gli intervalli di date all’interno della visualizzazione Suddivisione mostrata sopra.*
 
-   *1. Toccate l’intestazione Data. 2. Nella schermata Intervallo date, toccate l’intervallo di tempo con cui desiderate lavorare.*
-
-   A seconda dell’intervallo di tempo che toccate (Giorno, Settimana, Mese o Anno), vengono visualizzate due opzioni per gli intervalli di date, ossia l’intervallo di tempo corrente o quello immediatamente precedente. Toccate una di queste due opzioni per selezionare il primo intervallo. Nell'elenco COMPARE A, toccare una delle opzioni presentate per confrontare i dati di questo periodo di tempo con il primo intervallo di date selezionato. Toccate Fine in alto a destra nella schermata. I campi Intervalli di date e Scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
-
+   A seconda dell’intervallo di tempo che toccate (**Giorno**, **Settimana**, **Mese** o **Anno**), verranno visualizzate due opzioni per gli intervalli di date, quella attuale o quella immediatamente precedente. Toccate una di queste due opzioni per selezionare il primo intervallo. Nell'elenco **COMPARE A** , toccare una delle opzioni presentate per confrontare i dati di questo periodo di tempo con il primo intervallo di date selezionato. Toccate **Fine** in alto a destra nella schermata. I campi **Intervalli** di date e Scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
 6. Per lasciare un feedback su questa app:
 
-
    1. Toccate l'icona utente in alto a destra della schermata dell'app.
-   2. Nella schermata Account personale, toccate l'opzione Feedback.
+   2. Nella schermata **Account** personale, toccate l'opzione **Feedback** .
    3. Toccate per visualizzare le opzioni per lasciare il feedback.
+   ![Lascia feedback](assets/feedback.png)
+   ![Opzioni di feedback](assets/feedback_option.png)
 
 
+**Per segnalare un bug**:
 
-*Toccate l'icona Utente in alto a destra. 2. Toccate il tipo di feedback. 3. Toccate l’opzione di feedback applicabile.*
-
-
-
+Toccate l’opzione e scegliete una sottocategoria del bug. Nel modulo per segnalare un bug, fornite il vostro indirizzo e-mail nel campo superiore e la descrizione del bug nel campo sottostante. Al messaggio viene automaticamente collegata una schermata delle informazioni dell'account, ma è possibile eliminarla toccando la **X** nell'immagine dell'allegato. Sono inoltre disponibili opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare il rapporto, toccare l'icona del piano carta in alto a destra nel modulo.
 
 
+![Segnala bug](assets/newbug.png)
 
+**Per suggerire un miglioramento**:
 
+Toccate l’opzione e scegliete una sottocategoria per il suggerimento. Nel modulo dei suggerimenti, fornite il vostro indirizzo e-mail nel campo superiore e la descrizione del bug nel campo sottostante. Al messaggio viene automaticamente collegata una schermata delle informazioni dell'account, ma è possibile eliminarla toccando la **X** nell'immagine dell'allegato. Sono inoltre disponibili opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare il suggerimento, toccate l'icona del piano carta in alto a destra nel modulo.
 
-Per segnalare un bug:
+**Per porre una domanda**:
 
-Toccate l’opzione e scegliete una sottocategoria del bug. Nel modulo per segnalare un bug, fornite il vostro indirizzo e-mail nel campo superiore e la descrizione del bug nel campo sottostante. Al messaggio viene automaticamente collegata una schermata delle informazioni dell'account, ma è possibile eliminarla toccando la X nell'immagine dell'allegato. Sono inoltre disponibili opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare il rapporto, toccare l'icona del piano carta in alto a destra nel modulo.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Per suggerire un miglioramento:
-
-Toccate l’opzione e scegliete una sottocategoria per il suggerimento. Nel modulo dei suggerimenti, fornite il vostro indirizzo e-mail nel campo superiore e la descrizione del bug nel campo sottostante. Al messaggio viene automaticamente collegata una schermata delle informazioni dell'account, ma è possibile eliminarla toccando la X nell'immagine dell'allegato. Sono inoltre disponibili opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare il suggerimento, toccate l'icona del piano carta in alto a destra nel modulo.
-
-Per porre una domanda:
-
-Toccate l’opzione e fornite il vostro indirizzo e-mail nel campo superiore e la domanda nel campo sottostante. Una schermata viene attaccata automaticamente al messaggio, ma è possibile eliminarla toccando la X nell'immagine dell'allegato. Sono inoltre disponibili opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare la domanda, toccate l'icona del piano carta in alto a destra nel modulo.
+Toccate l’opzione e fornite il vostro indirizzo e-mail nel campo superiore e la domanda nel campo sottostante. Una schermata viene automaticamente collegata al messaggio, ma è possibile eliminarla toccando la **X** nell'immagine dell'allegato. Sono inoltre disponibili opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare la domanda, toccate l'icona del piano carta in alto a destra nel modulo.
