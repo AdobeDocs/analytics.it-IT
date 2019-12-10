@@ -1,10 +1,9 @@
 ---
 description: Variabili per la generazione di rapporti sulla privacy in Privacy dei dati.
-solution: Analytics
 title: Variabili per la generazione di rapporti sulla privacy
-topic: Strumenti di amministrazione
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+topic: Admin tools
+translation-type: tm+mt
+source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
 
 ---
 
@@ -59,14 +58,14 @@ Ogni suite di rapporti può essere configurata come segue:
 
 Tre variabili di dati di contesto sono state predefinite per l’utilizzo con le variabili riservate per la gestione dei rapporti sulla privacy.  È compito di ogni tecnico dell’implementazione determinare come gestire e mantenere l’impostazione di tali variabili.
 
-Consulta [Variabili di dati di contesto](https://docs.adobe.com/content/help/it-IT/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.translate.html) per informazioni generali sull’implementazione delle variabili di dati di contesto.
+Consulta [Variabili di dati di contesto](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) per informazioni generali sull’implementazione delle variabili di dati di contesto.
 
 ### SSF
 
 * Dati contestuali: `contextData.['cm.ssf']`
 * Valori accettati:
-   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://docs.adobe.com/content/help/it-IT/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.translate.html).
-   * Nessun altro valore è accettato per questo parametro.
+   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 0 - Facoltativo. Utilizzate il valore "0" per i clienti che hanno acconsentito al marketing di destinazione. Anche se non si imposta la variabile si ottengono gli stessi risultati.
 
 ### DMP
 
