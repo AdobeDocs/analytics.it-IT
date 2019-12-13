@@ -3,18 +3,12 @@ description: Per accedere a queste funzioni, selezionare Mostra avanzate dall'el
 title: Funzioni avanzate di riferimento
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Riferimento: funzioni avanzate
-
-<!-- 
-
-cm_adv_functions.xml
-
- -->
 
 Accedere a queste funzioni selezionando **[!UICONTROL Show Advanced]** l'elenco a **[!UICONTROL Functions]** discesa.
 
