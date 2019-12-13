@@ -3,18 +3,12 @@ description: Il Generatore di metriche calcolate consente di applicare funzioni 
 title: Funzioni di base di riferimento
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Riferimento: funzioni di base
-
-<!-- 
-
-cm_functions.xml
-
- -->
 
 Il Generatore di metriche calcolate consente di applicare funzioni statistiche e matematiche per creare metriche calcolate avanzate.
 
