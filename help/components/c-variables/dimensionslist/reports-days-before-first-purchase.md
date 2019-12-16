@@ -1,11 +1,10 @@
 ---
 description: Visualizza il numero di giorni trascorsi tra la prima visita dei clienti sul sito e la data in cui effettuano finalmente un acquisto.
-solution: Analytics
 title: Giorni precedenti al primo acquisto
 topic: Reports
 uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
