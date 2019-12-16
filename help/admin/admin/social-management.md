@@ -1,11 +1,10 @@
 ---
 description: Se Adobe Social è abilitato, questa opzione consente di classificare le variabili Social.
-solution: Analytics
 title: Gestione social
 topic: Admin tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
