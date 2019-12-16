@@ -1,12 +1,11 @@
 ---
 description: Gli ID transazione possono essere integrati selezionando la categoria Generico (ID transazione).
-solution: Analytics
 subtopic: Data sources
 title: ID transazione
 topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
