@@ -1,11 +1,10 @@
 ---
 description: Mostra i domini che fanno riferimento ai clienti che hanno più inciso sulle metriche di successo del sito. I referenti appartengono a due categorie principali Domini e URL. I domini fanno riferimento al nome del dominio e vengono visualizzati come dominio di base senza la stringa di query o le sottodirectory associate. Gli URL includono il nome del dominio di base, nonché eventuali stringhe di query o sottodirectory.
-solution: Analytics
 title: Domini di riferimento
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Mostra i domini che fanno riferimento ai clienti che hanno più inciso sulle met
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Reporting e analisi </th> 
+   <th colname="col2" class="entry"> Reports &amp; Analytics </th> 
    <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr>
