@@ -1,11 +1,10 @@
 ---
 description: Visualizza una suddivisione delle parole chiave di ricerca.
-solution: Analytics
 title: Parole chiave di ricerca
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -30,7 +29,7 @@ Visualizza una suddivisione delle parole chiave di ricerca.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reporting e analisi </p> </th> 
+   <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </th> 
    <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr> 
@@ -52,7 +51,7 @@ Visualizza una suddivisione delle parole chiave di ricerca.
    <td colname="col1"> Limiti valore </td> 
    <td colname="col2"> Nessun limite (potrebbe essere modificato in una versione futura) </td> 
    <td colname="col3"> Nessun limite (potrebbe essere modificato in una versione futura) </td> 
-   <td colname="col4"> none </td> 
+   <td colname="col4">  none </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Valori speciali </td> 
