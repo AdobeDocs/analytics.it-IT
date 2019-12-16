@@ -1,11 +1,10 @@
 ---
 description: Visualizza un elenco dettagliato dei dispositivi mobili utilizzati per accedere al sito.
-solution: Analytics
 title: Dispositivi
 topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
