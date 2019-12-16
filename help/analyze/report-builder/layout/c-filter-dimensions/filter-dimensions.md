@@ -1,11 +1,10 @@
 ---
 description: È possibile filtrare le dimensioni aggiunte alla griglia Etichette righe. I filtri restringono i dati restituiti dalle richieste e possono essere applicati dai layout pivot o personalizzati. Quando si configura il filtro delle dimensioni dal layout pivot, è possibile specificare anche il numero di voci dalla cella.
-solution: Analytics
 title: Panoramica delle dimensioni filtro
 topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Le tabelle seguenti contengono esempi e informazioni sui filtri:
   <tr> 
    <th colname="col1" class="entry"> Filtro </th> 
    <th colname="col02" class="entry"> Descrizione </th> 
-   <th colname="col2" class="entry"> Esempio  Filtro </th> 
+   <th colname="col2" class="entry"> Esempio di filtro </th> 
    <th colname="col3" class="entry"> Risultati corrispondenza </th> 
   </tr> 
  </thead>
