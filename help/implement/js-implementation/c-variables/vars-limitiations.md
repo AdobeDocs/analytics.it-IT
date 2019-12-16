@@ -1,13 +1,12 @@
 ---
 description: Osserva le variabili e i loro limiti di livello elevato.
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: Variabili e limitazioni
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
