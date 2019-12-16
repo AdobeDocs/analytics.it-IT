@@ -1,12 +1,11 @@
 ---
 description: Il numero di visitatori unici del sito per un'ora, un giorno, una settimana, un mese, un trimestre o un anno selezionati.
 keywords: visitors
-solution: Analytics
 title: Visitatori
 topic: Metrics
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
