@@ -1,12 +1,11 @@
 ---
 description: La variabile pageName deve essere compilata con un identificatore di pagina intuitivo e di facile lettura.
 keywords: Analytics Implementation
-solution: Analytics
 title: Strategie di denominazione delle pagine
 topic: Developer and implementation
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ Sebbene la *`pageName`* variabile sia fondamentale per identificare il comportam
 
 I livelli di dettaglio variano a seconda delle proprietà, come illustrato di seguito:
 
-| Variabile | Livello di dettaglio | Esempio  |
+| Variabile | Livello di dettaglio | Esempio |
 |---|---|---|
 | Canale | Sezione Generale | Elettronica |
 | Prop1 | Sezione | Sport: Sport locali |
