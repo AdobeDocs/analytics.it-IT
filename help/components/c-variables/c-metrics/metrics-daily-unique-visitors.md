@@ -1,11 +1,10 @@
 ---
 description: Numero di visitatori non duplicati (contati solo una volta) nel sito Web nel corso di un singolo giorno. La visita del Visitatore univoco giornaliero termina a mezzanotte per il fuso orario selezionato nella suite di rapporti.
-solution: Analytics
 title: Visitatori giornalieri unici
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
