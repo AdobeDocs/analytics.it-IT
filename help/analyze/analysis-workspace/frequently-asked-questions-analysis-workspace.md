@@ -1,12 +1,11 @@
 ---
 description: Requisiti di sistema per Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Requisiti di amministrazione
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Requisiti di sistema per Analysis Workspace.
 
-## Administration and access requirements {#section_FD3737DE452F4F6CA181F13FF3DC668F}
+## Amministrazione e requisiti di accesso {#section_FD3737DE452F4F6CA181F13FF3DC668F}
 
 <table id="table_3065772701A64D4EB5F175100A60F284"> 
  <thead> 
@@ -27,7 +26,7 @@ Requisiti di sistema per Analysis Workspace.
  <tbody> 
   <tr> 
    <td colname="col1"> SKU del prodotto </td> 
-   <td colname="col2"> <p> Devi disporre di <span class="keyword">Adobe Analytics</span> o di <span class="keyword">Adobe Analytics</span> Premium. Se hai accesso solo allo strumento di Reports &amp; Analytics come prodotto standalone, ti consigliamo di collaborare con il team del tuo account per acquistare una soluzione <span class="keyword">Adobe Analytics</span>. </p> </td> 
+   <td colname="col2"> <p> Devi disporre di <span class="keyword">Adobe Analytics Standard</span> o di <span class="keyword">Adobe Analytics</span> Premium. Se hai accesso solo a Reports &amp; Analytics come prodotto standalone, ti consigliamo di collaborare con il team del tuo account per acquistare una soluzione <span class="keyword">Adobe Analytics</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Amministratori </td> 
