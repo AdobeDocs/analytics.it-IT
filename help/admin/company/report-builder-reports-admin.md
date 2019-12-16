@@ -1,11 +1,10 @@
 ---
 description: Gestisci licenza assegnata agli utenti del generatore di report.
-solution: Analytics
 title: Report del Report Builder
 topic: Admin tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
