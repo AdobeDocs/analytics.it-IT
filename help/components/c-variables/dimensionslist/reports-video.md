@@ -1,11 +1,10 @@
 ---
 description: Visualizza informazioni sulle statistiche di accesso ai supporti online. I rapporti visualizzano i dati su video e altri supporti di accesso.
-solution: Analytics
 title: Video
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,4 +44,4 @@ Visualizza informazioni sulle statistiche di accesso ai supporti online. I rappo
  </tbody> 
 </table>
 
-Consultate [Misurazione di audio e video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
