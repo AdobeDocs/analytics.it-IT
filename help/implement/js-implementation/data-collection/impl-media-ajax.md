@@ -1,12 +1,11 @@
 ---
 description: AJAX è un concetto emergente nella progettazione Web che utilizza più tecnologie per creare e gestire contenuti dinamici sulle pagine Web.
 keywords: Analytics Implementation
-solution: Analytics
 title: Applicazioni Rich Media per AJAX
 topic: Developer and implementation
 uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Cosa succede se vuoi capire il flusso tra le attività, o quali funzioni ottengo
 L'attività a livello di macro in genere costituisce il caricamento dell'applicazione. Questo fornisce informazioni su visite, visitatori, istanze, valore per azioni future e così via. Può e deve anche rappresentare una tappa importante del processo. Una buona regola è che se un'azione RIA modifica l'applicazione di oltre il 50% (o qualsiasi cosa venga considerata un cambiamento significativo dell'esperienza utente o del contenuto), si tratta di un livello macro e deve essere monitorata come una visualizzazione di pagina.
 L'attività a più livelli include modifiche inferiori al 50% (o non considerate un cambiamento significativo dell'esperienza utente o del contenuto). Il passaggio tra le selezioni di colore, ad esempio, sarebbe considerato attività di micro livello. Adobe consiglia di tenere traccia dei microlivelli in relazione alle funzioni. Ad esempio, nel caso di alternare tra i colori, è davvero importante capire quali colori sono stati considerati? O è più importante sapere che è stata utilizzata la funzione di selezione del colore? Forse entrambi sono importanti, e in tal caso, catturate entrambi, ma quando misurate l'efficacia di RIA, considerate l'attività a livello di funzionalità più preziosa.
 
-Tutte le attività di micro-livello devono essere tracciate come collegamenti personalizzati con specifiche misurate tramite variabili di traffico associate (prop ed eVar se l'uso deve essere misurato in base a eventi di successo). In questo modo le visualizzazioni di pagina non vengono ingrandite dall’attività di micro livello e viene consentita l’analisi dei percorsi attraverso la variabile di traffico.
+Tutte le attività di micro-livello devono essere tracciate come collegamenti personalizzati con specifiche misurate tramite variabili di traffico associate (prop ed eVar se l'uso deve essere misurato in base a eventi di successo). In questo modo le visualizzazioni di pagina non vengono ingrandite dall’attività di micro livello e viene consentito l’analisi dei percorsi attraverso la variabile di traffico.
 
 ## Cosa analizzare {#section_56824EF675874BA99127A566F6B1383F}
 
