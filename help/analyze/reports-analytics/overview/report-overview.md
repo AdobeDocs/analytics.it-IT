@@ -1,11 +1,10 @@
 ---
 description: Un'introduzione alle funzioni di un rapporto, inclusa la barra degli strumenti, il calendario e la tabella dei dettagli.
-solution: Analytics
 title: Funzioni rapporto
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Un esempio di rapporto Pagine ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site
 
 ![](assets/pages_report.png){width="672px"}
 
-## Report Toolbar {#section_0D674177AE6C4A71B07234DB25910ECD}
+## Barra degli strumenti Rapporto {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Condividi i dati del tuo rapporto con i responsabili decisionali che possono modificare il tuo sito o le strategie di marketing in base ai dati.
 
