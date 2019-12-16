@@ -1,12 +1,11 @@
 ---
 description: Le categorie di origine dati identificano diversi tipi di origini dati che forniscono funzionalità simili.
-solution: Analytics
 subtopic: Data sources
 title: Panoramica dei tipi di dati e categorie
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -165,7 +164,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Origine dati generica (ID transazione) </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID transazione </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > ID visitatore </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID transazione </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > Visitor ID </a> </p> </td> 
    <td colname="col3"> <p>Consente di collegare qualsiasi evento offline a un evento online. L'ID transazione funge da chiave tra gli eventi offline e online. </p> </td> 
   </tr> 
  </tbody> 
