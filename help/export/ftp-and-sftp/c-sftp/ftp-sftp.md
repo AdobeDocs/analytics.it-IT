@@ -1,11 +1,10 @@
 ---
 description: SFTP è un protocollo sicuro per il trasferimento di dati che assicura che nessuno possa vedere i tuoi dati tranne te. Adobe Engineering Services può configurare un account SFTP per conservare in modo sicuro i dati.
 keywords: ftp;sftp
-solution: Analytics
 title: 'Secure File Transfer Protocol (protocollo di trasferimento file sicuro): panoramica'
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Significa che i server Adobe inviano i file in modalità "push" ai tuoi server; 
 
 The following Analytics tools **cannot** push data via SFTP:
 
-* Reporting e analisi
+* Reports &amp; Analytics
 * Ad Hoc Analysis
 * Report Builder
 
