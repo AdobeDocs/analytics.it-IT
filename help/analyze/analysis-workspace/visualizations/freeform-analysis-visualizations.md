@@ -1,12 +1,11 @@
 ---
 description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Panoramica delle visualizzazioni
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,21 +16,21 @@ Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzaz
 
 [Tipi di visualizzazione in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
-## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## Pannello Visualizzazioni {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations](Visualizzazioni) nel pannello laterale.**
+Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations]** (Visualizzazioni) nel pannello laterale.
 
 ![Risultato passaggio](assets/visualizations.png)
 
 Se usi già Adobe Analytics, la maggior parte dei tipi di visualizzazione (come ad area, a barre, a torta e a linee) ti sarà familiare. Tuttavia, Analysis Workspace consente di configurare le impostazioni di visualizzazione e offre molti tipi di visualizzazioni nuovi o unici, con funzionalità interattive.
 
-## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## Impostazioni visualizzazione {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Per accedere [!UICONTROL Visualization Settings]a una visualizzazione, trascinala [!UICONTROL Freeform Panel], quindi fai clic sull’icona dell’ [!UICONTROL Visualization Settings] ingranaggio.
+Per accedere a [!UICONTROL Visualization Settings] (Impostazioni visualizzazione), trascina una visualizzazione sul [!UICONTROL Freeform Panel] (Pannello a forma libera), quindi fai clic sull’icona [!UICONTROL Visualization Settings] (Impostazioni visualizzazione) a forma di ingranaggio.
 
 >[!IMPORTANT]
 >
->Le impostazioni di visualizzazione visibili dipendono dalla visualizzazione. Alcune impostazioni non sono applicabili ad alcune visualizzazioni. Inoltre, alcune impostazioni avanzate sono disponibili **solo** per specifiche visualizzazioni, ad esempio le [impostazioni Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>Le impostazioni disponibili dipendono dal tipo di visualizzazione. Alcune impostazioni non sono applicabili ad alcune visualizzazioni. Inoltre, alcune impostazioni avanzate sono disponibili **solo** per specifiche visualizzazioni, ad esempio le [impostazioni Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -65,11 +64,11 @@ Per accedere [!UICONTROL Visualization Settings]a una visualizzazione, trascinal
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalizzazione </p> </td> 
-   <td colname="col2"> <p>Forza le metriche ad adeguarsi alle proporzioni. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalizzazione</a>. </p> </td> 
+   <td colname="col2"> <p>Forza le metriche ad adeguarsi alle proporzioni. Vedi <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalizzazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visualizza asse doppia </p> </td> 
-   <td colname="col2"> <p>Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e a destra (per l’altra metrica). </p> </td> 
+   <td colname="col2"> <p>Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostra anomalie </p> </td> 
@@ -78,13 +77,13 @@ Per accedere [!UICONTROL Visualization Settings]a una visualizzazione, trascinal
  </tbody> 
 </table>
 
-## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Icona “Crea elemento visivo” {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row. Questa icona appare quando il mouse viene passato sulla riga di tabella. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, selezionando fino a 3 segmenti, si crea un diagramma di Venn. Per più di 3 segmenti, crea un grafico a barre. Per altri tipi di dati, potrebbe creare un grafico a linee, ecc.
+Se non sai quale visualizzazione scegliere, fai clic sull’icona **[!UICONTROL Create Visual]** (Crea elemento visivo) in una delle righe della tabella. Questa icona appare quando il mouse viene passato sulla riga di tabella. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, selezionando fino a 3 segmenti, si crea un diagramma di Venn. Per più di 3 segmenti, crea un grafico a barre. Per altri tipi di dati, potrebbe creare un grafico a linee, ecc.
 
 ![](assets/create-visual.png)
 
-## Right-click visualization/panel menu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## Menu di scelta rapida visualizzazione/pannello {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 Per accedere alle impostazioni contestuali disponibili per un grafico, fai clic con il pulsante destro del mouse accanto all’intestazione di una visualizzazione o di un pannello. Saranno disponibili tutte o alcune delle seguenti impostazioni:
 
@@ -99,12 +98,12 @@ Per accedere alle impostazioni contestuali disponibili per un grafico, fai clic 
 | Comprimi tutte le visualizzazioni nel pannello | Comprime tutte le visualizzazioni nel pannello di progetto corrente. |
 | Espandi tutti i pannelli | Espande tutti i pannelli del progetto. |
 | Espandi tutte le visualizzazioni nel pannello | Espande tutte le visualizzazioni nel pannello di progetto corrente. |
-| Modifica descrizione | Aggiungi (o modifica) un testo descrittivo per la visualizzazione o il pannello. La descrizione viene visualizzata in Progetto &gt; Informazioni e impostazioni progetto . |
+| Modifica descrizione | Aggiungi (o modifica) un testo descrittivo per la visualizzazione o il pannello. La descrizione viene visualizzata in Progetto &gt; Informazioni e impostazioni progetto. |
 | Ottieni collegamento pannello | Consente di indirizzare un utente a uno specifico pannello in un progetto. |
 | Ottieni collegamento visualizzazione | Consente di copiare e condividere il collegamento per far sì che altri utenti possano accedere direttamente a questa visualizzazione. Gli utenti dovranno effettuare l’accesso. |
 | Ricomincia | (Per Flusso, Venn, Istogramma) Elimina la configurazione della visualizzazione corrente e apre un nuovo pannello dove la puoi riconfigurare. |
 
-## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## Modifica delle etichette delle legende {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 È possibile modificare i nomi delle serie nelle legende delle visualizzazioni (Abbandono, Superfici, Superfici sovrapposte, Barre, Barre sovrapposte, Anello, Istogramma, Barre orizzontali, Barre orizzontali sovrapposte, Linee, Dispersione e Venn) per facilitare la lettura dei grafici.
 
@@ -113,11 +112,11 @@ La modifica della legenda **non** è disponibile per le visualizzazioni Mappa ad
 Ad esempio, per modificare un’etichetta di legenda in un grafico a linee:
 
 1. Fai clic su una delle etichette della legenda.
-1. Fai clic su **[!UICONTROL Edit Label]**.
+1. Fai clic su **[!UICONTROL Edit Label]** (Modifica etichetta).
 
    ![](assets/edit-label.png)
 
 1. Inserisci il nuovo testo dell’etichetta.
-1. Press **[!UICONTROL Enter]** to save.
+1. Fai clic su **[!UICONTROL Enter]** per salvare.
 
 Per approfondire, utilizza questo [collegamento a un video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sull’argomento.
