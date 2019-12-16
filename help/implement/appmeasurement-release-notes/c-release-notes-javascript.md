@@ -1,12 +1,11 @@
 ---
 description: Note cumulative sulla versione per il codice JavaScript H legacy.
-solution: Analytics
 subtopic: Release notes
 title: 'Codice H JavaScript: legacy'
 topic: Developer and implementation
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
