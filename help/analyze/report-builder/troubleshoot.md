@@ -1,11 +1,10 @@
 ---
 description: Consente di ottimizzare la distribuzione del generatore di report e un elenco di messaggi di errore che possono verificarsi occasionalmente.
-solution: Analytics
 title: Risoluzione dei problemi e Procedure consigliate per Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ Si verificherà il seguente effetto collaterale all'apertura di una cartella di 
 * Quando si apre la cartella di lavoro, viene visualizzato il seguente avviso: "L'ultima cartella di lavoro è stata salvata con Generatore di report v5.1. Questa versione ha introdotto alcune funzionalità incompatibili con la versione del Generatore di report installata nel computer. Prima di aggiornare la cartella di lavoro, si consiglia di effettuare l'aggiornamento alla versione più recente del Generatore di report."
 * Se fai clic con il pulsante destro del mouse su una richiesta ARB con classificazione, i menu contestuali del Generatore di report (richiesta di modifica, aggiunta di richiesta dipendente...) non verranno visualizzati.
 * Se si esegue un aggiornamento di tutti, facendo clic sul terzo pulsante o aggiornando un set di richieste dal modulo Request Manager, la richiesta di classificazione verrà eseguita senza errore. Tuttavia, i valori delle classificazioni non saranno scritti.
-* È comunque possibile modificare la richiesta aprendo Request Manager, passando da una riga all'altra fino a raggiungere la richiesta corretta.
+* È comunque possibile modificare la richiesta aprendo Request Manager, quindi passando da una riga all'altra fino a raggiungere la richiesta corretta.
 * Se modificate la richiesta e lasciate tutti i parametri identici e fate clic su Fine, la risposta verrà scritta correttamente. La modifica della richiesta risolve il problema mano a mano che i parametri del layout di risposta vengono serializzati nuovamente. C'è una soluzione alternativa, anche se richiede tempo.
 
 ## Problemi di autenticazione nel Generatore di report {#section_FD79104DF1414FE2B36591606C963DE6}
