@@ -1,11 +1,10 @@
 ---
 description: Report che ti aiutano a visualizzare i modelli di acquisto dei clienti da varie categorie di profilo come paesi, stati, codici di avviamento postale e domini.
-solution: Analytics
 title: Profilo visitatore
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Report che ti aiutano a visualizzare i modelli di acquisto dei clienti da varie 
   </tr> 
   <tr> 
    <td colname="col1"> Domains (Domini) </td> 
-   <td colname="col2"> <p> Elenca le organizzazioni e gli ISP utilizzati dai visitatori per accedere al sito. Questo rapporto è diverso dal <span class="wintitle"> rapporto Domini</span> completi in quanto il rapporto Domini <span class="wintitle"></span> completi registra l'intero dominio ISP, mentre questo rapporto elenca il dominio secondario. </p> <p> <p>Nota:  Alcuni gestori di dispositivi mobili (come T-Mobile e O1) non forniscono più informazioni di dominio per le ricerche DNS inverse. I dati di tali gestori non sono disponibili per la generazione di rapporti sul dominio. </p> </p> </td> 
+   <td colname="col2"> <p> Elenca le organizzazioni e gli ISP utilizzati dai visitatori per accedere al sito. Questo rapporto è diverso dal <span class="wintitle"> rapporto Domini</span> completi in quanto il rapporto Domini <span class="wintitle"></span> completi registra l'intero dominio ISP, mentre questo rapporto elenca il dominio secondario. </p> <p> <p>Nota:Alcuni gestori di dispositivi mobili (come T-Mobile e O1) non forniscono più informazioni di dominio per le ricerche DNS inverse. I dati di tali gestori non sono disponibili per la generazione di rapporti sul dominio. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domini di livello principali </td> 
