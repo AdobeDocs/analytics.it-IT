@@ -1,11 +1,10 @@
 ---
 description: Filtrare per tag, proprietari e altri filtri (Mostra tutto, Personale, Condiviso con me, Preferiti e Approvato).
-solution: Analytics
 title: Filtrare segmenti
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
