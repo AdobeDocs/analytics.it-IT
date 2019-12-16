@@ -1,12 +1,11 @@
 ---
 description: Procedura che descrive come inviare un messaggio e-mail a tutti gli utenti della società.
-solution: Analytics
 subtopic: Users and groups
 title: Invia e-mail agli utenti
 topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,4 +30,4 @@ Procedura che descrive come inviare un messaggio e-mail a tutti gli utenti della
    **[!UICONTROL Subject:]** Specifica il testo che verrà visualizzato nella riga dell'oggetto del messaggio e-mail.
 
    **[!UICONTROL Body:]** Digitate il testo che verrà visualizzato nel corpo del messaggio e-mail.
-1. Fai clic su **[!UICONTROL Send Message Now]**.
+1. Fai clic su **[!UICONTROL Send Message Now]** (Genera).
