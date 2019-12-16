@@ -1,11 +1,10 @@
 ---
 description: Passaggi che descrivono come creare una suite di rapporti rollup.
-solution: Analytics
 title: Creare una suite di rapporti rollup
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,4 +22,4 @@ Passaggi che descrivono come creare una suite di rapporti rollup.
    **[!UICONTROL Report Suite Title:]** Titolo della suite di rapporti che viene visualizzato nel menu Sito.
 
    **[!UICONTROL Time Zone:]** Fuso orario in cui vengono segnalati i dati.
-1. Fai clic su **[!UICONTROL Create Rollup]**.
+1. Fai clic su **[!UICONTROL Create Rollup]** (Genera).
