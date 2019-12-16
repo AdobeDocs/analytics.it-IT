@@ -1,11 +1,10 @@
 ---
 description: Tracciando e registrando i siti di riferimento dei visitatori per ogni visita, puoi determinare in che modo i visitatori hanno scoperto il sito per ogni visita.
-solution: Analytics
 title: Tipo di riferimento
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ L'elenco seguente definisce i vari tipi di referenti:
 
 **Altri siti web**: i referenti vengono registrati quando i visitatori fanno clic su un collegamento situato su una pagina di un altro sito Web (non definito come parte del sito) e arrivano al sito Web.
 
-**Motori** di ricerca:I referenti del motore di ricerca vengono registrati quando i visitatori accedono al sito tramite un motore di ricerca. Il valore di riferimento deve essere considerato da Adobe come un motore di ricerca e non può essere un sottodominio che non viene considerato un motore di ricerca (ad es. [!DNL mail.yahoo.com] non è un motore di ricerca, in quanto questo dominio viene utilizzato per le e-mail).
+**Motori** di ricerca: I referenti del motore di ricerca vengono registrati quando i visitatori accedono al sito tramite un motore di ricerca. Il valore di riferimento deve essere considerato da Adobe come un motore di ricerca e non può essere un sottodominio che non viene considerato un motore di ricerca (ad es. [!DNL mail.yahoo.com] non è un motore di ricerca, in quanto questo dominio viene utilizzato per le e-mail).
 
 **[!UICONTROL Social networks]**: Il valore di riferimento deve essere considerato da Adobe come un social network. Consultate [Elenco dei social network](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
 
