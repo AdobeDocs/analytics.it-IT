@@ -1,11 +1,10 @@
 ---
 description: Illustra i passaggi e le procedure ottimali da seguire per la pianificazione dei segmenti.
-solution: Analytics
 title: Pianificare segmenti
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
