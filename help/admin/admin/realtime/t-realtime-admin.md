@@ -1,11 +1,10 @@
 ---
 description: Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
-solution: Analytics
 title: Configurazione rapporti in tempo reale
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -35,7 +34,7 @@ L'impostazione di report in tempo reale in Reporting e analisi consiste nella se
 
    ![](assets/real_time_admin.png)
 
-   Per informazioni sulle metriche e dimensioni in tempo reale supportate, consultate Metriche e dimensioni [](/help/admin/admin/realtime/realtime-metrics.md)supportate.
+   Per informazioni sulle metriche e dimensioni in tempo reale supportate, vedi Metriche e dimensioni [](/help/admin/admin/realtime/realtime-metrics.md)supportate.
 
    Se avete creato delle classificazioni, queste appaiono rientrate sotto la dimensione per la quale sono definite:
 
