@@ -1,11 +1,10 @@
 ---
 description: Potete pianificare l’invio dei rapporti in base all’ora e al formato definiti.
-solution: Analytics
 title: Pianificazione di una richiesta di dati
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,10 +44,10 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generat
 | Campo | Descrizione |
 |--- |--- |
 | Seleziona Rapporto | Nome della cartella di lavoro. Per i nuovi rapporti pianificati, questo campo viene popolato con il nome attivo della cartella di lavoro. |
-| Seleziona | Visualizza la pagina Seleziona rapporto. È possibile selezionare un rapporto dal server (in cui sono memorizzate tutte le cartelle di lavoro pianificate in precedenza) o dal computer locale. Se si seleziona una cartella di lavoro dall'unità locale in formato .xls, il file viene convertito in .xlsx dal sistema. Come parte di tale conversione, il file viene aperto in Excel e reso attivo. Se la cartella di lavoro selezionata per il rapporto pianificato ha lo stesso nome file della cartella di lavoro attualmente aperta in Excel, il sistema seleziona il file locale invece del file caricato in precedenza. Se si seleziona un rapporto dall'archivio di programmazione, viene creata una copia della cartella di lavoro sul server, con il nome file aggiornato con 1. Il nuovo report pianificato creato utilizza la cartella di lavoro copiata. |
+| Select | Visualizza la pagina Seleziona rapporto. È possibile selezionare un rapporto dal server (in cui sono memorizzate tutte le cartelle di lavoro pianificate in precedenza) o dal computer locale. Se si seleziona una cartella di lavoro dall'unità locale in formato .xls, il file viene convertito in .xlsx dal sistema. Come parte di tale conversione, il file viene aperto in Excel e reso attivo. Se la cartella di lavoro selezionata per il rapporto pianificato ha lo stesso nome file della cartella di lavoro attualmente aperta in Excel, il sistema seleziona il file locale invece del file caricato in precedenza. Se si seleziona un rapporto dall'archivio di programmazione, viene creata una copia della cartella di lavoro sul server, con il nome file aggiornato con 1. Il nuovo report pianificato creato utilizza la cartella di lavoro copiata. |
 | Personalizza | Consente di personalizzare il formato della data. |
-|  A | Visualizza la Rubrica di Outlook, se applicabile. |
-| Invia a: E-mail | Destinatario e-mail della cartella di lavoro. |
+| A | Visualizza la Rubrica di Outlook, se applicabile. |
+| Invia a:E-mail | Destinatario e-mail della cartella di lavoro. |
 | Invia a: Elenco di pubblicazione | Visualizza un elenco di elenchi di distribuzione disponibili per la società. |
 | Power BI | Per ulteriori informazioni, vedere [Pubblica cartella di lavoro in Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) . |
 | Oggetto | Una descrizione definita dall'utente. |
@@ -73,7 +72,7 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generat
 | Pubblicazione in Power BI | <ul><li>Pubblica cartella di lavoro in Power BI</li><li>Pubblica tutte le richieste del Generatore di report come set di dati Power BI</li><li>Pubblica tutte le tabelle formattate come set di dati Power BI</li></ul> |
 | Etichetta il report Power BI come | Etichettatura |
 
-1. Fate clic **[!UICONTROL OK]**, quindi fate clic **[!UICONTROL Exit]**.
+1. Fai clic su **[!UICONTROL OK]**, quindi su **[!UICONTROL Exit]**.
 
    Generatore di report visualizza la cartella di lavoro pianificata in Task Manager [pianificato](/help/analyze/report-builder/r-arb-scheduled-reports.md).
 
