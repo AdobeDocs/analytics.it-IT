@@ -1,11 +1,10 @@
 ---
 description: Il rapporto Pagina di partecipazione mostra, in percentuale e per totale, quali pagine del sito sono le prime viste da nuove visite.
-solution: Analytics
 title: Entrate e uscite
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
