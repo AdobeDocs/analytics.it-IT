@@ -1,11 +1,10 @@
 ---
 description: I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità quando si aggiornano le richieste del generatore di report.
-solution: Analytics
 title: Controlli interattivi
 topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,7 +47,7 @@ Sono stati creati controlli interattivi in risposta a un flusso di lavoro comune
    * Se questa opzione è selezionata, tutte le richieste che utilizzano questo controllo vengono aggiornate.
    * Se non è selezionata, i parametri di richiesta associati vengono aggiornati, ma la richiesta non viene aggiornata.
 
-1. Fai clic su **[!UICONTROL OK]**. Il controllo viene visualizzato nella posizione cella specificata:
+1. Fai clic su **[!UICONTROL OK]** (Genera). Il controllo viene visualizzato nella posizione cella specificata:
 
    ![](assets/date_range_control_interactive.png)
 
