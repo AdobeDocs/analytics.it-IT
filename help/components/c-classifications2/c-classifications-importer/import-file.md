@@ -1,12 +1,11 @@
 ---
 description: Dopo aver copiato i dati appropriati nel file modello classificazioni, puoi importarli (caricarli) nei server di raccolta dati Adobe.
-solution: Analytics
 subtopic: Classifications
 title: Importazione browser e FTP
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
