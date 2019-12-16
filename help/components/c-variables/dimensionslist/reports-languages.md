@@ -1,11 +1,10 @@
 ---
 description: Acquisisce l’impostazione della lingua nel browser del visitatore, consentendo di visualizzare le entrate e i visitatori unici correlati all’impostazione della lingua. Quando sai l'effetto delle lingue preferite sulle metriche di successo del tuo sito, puoi decidere come presentare il tuo sito in altre lingue. Ad esempio, se notate che un gran numero di clienti di lingua tedesca generano attività di carrello sul sito, potete tradurre il sito in quella lingua e implementare una campagna di marketing per indirizzare il traffico verso il sito tedesco.
-solution: Analytics
 title: Lingua
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Acquisisce l’impostazione della lingua nel browser del visitatore, consentendo di visualizzare le entrate e i visitatori unici correlati all’impostazione della lingua. Quando sai l'effetto delle lingue preferite sulle metriche di successo del tuo sito, puoi decidere come presentare il tuo sito in altre lingue. Ad esempio, se notate che un gran numero di clienti di lingua tedesca generano attività di carrello sul sito, potete tradurre il sito in quella lingua e implementare una campagna di marketing per indirizzare il traffico verso il sito tedesco.
 
-**[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Languages]**
+**[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Languages]** (Componenti &gt; Nuovo intervallo di date)
 
 Il rapporto viene compilato in base alla parte in lingua di accettazione della richiesta di intestazione http. L’intestazione HTTP che supporta l’uso della lingua viene configurata come parte delle impostazioni di preferenza della lingua di ciascun browser:
 
