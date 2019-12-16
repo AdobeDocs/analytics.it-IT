@@ -1,12 +1,11 @@
 ---
 description: Crea un progetto e aggiungi componenti (dimensioni, metriche, segmenti e intervalli di date) al pannello a forma libera.
 keywords: Analysis Workspace
-solution: Analytics
 title: Creare un progetto Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Crea un progetto e aggiungi componenti (dimensioni, metriche, segmenti e intervalli di date) al pannello a forma libera.
 
-Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e mostra come creare un progetto. Per casi d’uso specifici, consulta Casi [d’uso per Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e mostra come creare un progetto. Per casi di utilizzo specifici, vedi [Casi di utilizzo per Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
 ## Creazione di un progetto
 
 1. Specifica le autorizzazioni per l’utente per creare e curare progetti.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Prima di creare o curare un progetto di Analysis Workspace, gli amministratori devono aggiungere gli utenti a un gruppo su cui sia abilitata l’autorizzazione **[!UICONTROL Create / Curate Projects in Analysis Workspace]** (Crea/Cura progetti in Analysis Workspace) oppure al gruppo di utenti **[!UICONTROL All Report Access]** (Accesso a tutti i rapporti). ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html), ovvero Amministratore &gt; Gestione utente &gt; Gruppi).
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. In [!DNL Experience Cloud], fai clic su **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -31,9 +30,9 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
 
    ![](assets/analysis-app-search.png)
 
-1. Fai clic su **[!UICONTROL Create New Project]**.
+1. Fai clic su **[!UICONTROL Create New Project]** per creare un nuovo progetto.
 
-   Puoi scegliere di creare un progetto in base a:
+   Puoi scegliere di creare un progetto in base a
 
 * Un progetto vuoto (impostazione predefinita). Per le istruzioni del caso, leggi di seguito.
 * Un modello standard. Sono modelli già pronti creati e forniti da Adobe. Per le istruzioni del caso, vedi [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
@@ -41,17 +40,17 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. Per creare un nuovo progetto da un progetto vuoto, fai clic su **[!UICONTROL Blank Project]** (Progetto vuoto).
 
-   * Then click **[!UICONTROL Create]**, or
-   * Basta fare clic **[!UICONTROL Enter]**.
+   * Quindi fai clic su **[!UICONTROL Create]** (Crea), oppure
+   * Fai clic su **[!UICONTROL Enter]** (Invio).
    Viene visualizzato un progetto vuoto con un pannello a forma libera e una visualizzazione della tabella di dati.
 
    ![](assets/fa_project_new.png)
 
    >[!NOTE]
    >
-   >A volte, durante il caricamento di un progetto (o il passaggio a una suite di rapporti) viene visualizzato un messaggio "Suite di rapporti non compatibile" in cui non tutti i componenti (metriche/dimensioni) inclusi nel progetto sono inclusi nella suite di rapporti. Viene visualizzato un elenco dei componenti non compatibili, per segnalare all’utente il motivo della generazione di questo messaggio.
+   >Talvolta compare il messaggio “Suite di rapporti non compatibile” durante il caricamento di un progetto (o il passaggio a una suite di rapporti), se non tutti i componenti (metriche/dimensioni) inclusi nel progetto compaiono anche nella suite di rapporti. Viene visualizzato un elenco dei componenti non compatibili, per segnalare all’utente il motivo della generazione di questo messaggio.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -76,7 +75,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
  </tbody> 
 </table>
 
-1. Salva il progetto. Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. Salva il progetto. Assegna un nome al progetto, fornisci una descrizione (facoltativa, ma utile) e assegna i tag desiderati al progetto (facoltativo), quindi fai clic su **[!UICONTROL Save Project]** (Salva progetto).
 
    ![](assets/save_project.png)
 
@@ -86,11 +85,11 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
 
    >[!NOTE]
    >
-   >Dopo l’operazione di copia/salvataggio con nome, gli intra-link sono ora relativi al progetto a cui sono collegati, non al progetto originale da cui sono stati copiati.
+   >Dopo l’operazione di copia o salvataggio con nome, gli intra-link sono relativi al progetto a cui sono collegati, non a quello originale dal quale sono stati copiati.
 
 ## Aggiungere componenti e visualizzazioni {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Create il progetto trascinando *`components`* e *`visualizations`* fino al progetto.
+1. Crea il progetto trascinando *`components`* (Componenti) e *`visualizations`* (Visualizzazioni) nel progetto.
 
    **Componenti**
 
@@ -110,11 +109,11 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
   </tr> 
   <tr> 
    <td colname="col1"> Metriche (verde) </td> 
-   <td colname="col2"> <p>Sono componenti a livello di progetto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occorrenze</span> è la metrica predefinita per la tabella di dati. </p> </td> 
+   <td colname="col2"> <p>Sono componenti a livello di progetto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occorrenze</span> è la metrica predefinita selezionata per la tabella di dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmenti (blu) </td> 
-   <td colname="col2"> <p>Sono trascinabili solo a livello di pannello, tuttavia puoi creare segmenti in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casi di utilizzo per Analysis Workspace</a> . </p> </td> 
+   <td colname="col2"> <p>Sono trascinabili solo a livello di pannello, tuttavia puoi creare segmenti in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, vedi <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Casi di utilizzo per Analysis Workspace</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalli di date e granularità temporali (viola) </td> 
@@ -125,7 +124,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
 
 **[Visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-Il [!UICONTROL Visualizations] pannello fornisce grafici standard di Analytics, grafici, ciambelle, tabelle di dati, tabelle di [coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) , diagrammi di Venn e così via. Puoi trascinare diverse visualizzazioni all’interno del progetto.
+Il pannello [!UICONTROL Visualizations] (Visualizzazioni) fornisce grafici, grafici a torta, tabelle di dati, tabelle di [coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), diagrammi di Venn e così via nel formato standard di Analytics. Puoi trascinare diverse visualizzazioni all’interno del progetto.
 
 ![Risultato passaggio](assets/visualizations.png)
 
@@ -133,7 +132,7 @@ Il [!UICONTROL Visualizations] pannello fornisce grafici standard di Analytics, 
 
 1. Passaggio
 
-## Usa il menu di scelta rapida per personalizzare i dati.{#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## Usa il menu di scelta rapida per personalizzare i dati {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 Il menu di scelta rapida consente di effettuare le seguenti azioni in base alla cella su cui fai clic con il pulsante destro, all’interno di una tabella.
 
@@ -164,7 +163,7 @@ Il menu di scelta rapida consente di effettuare le seguenti azioni in base alla 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md"  > Creazione di un avviso da una selezione</a> </td> 
+   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md"  > Crea avviso da selezione</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -208,4 +207,4 @@ Il menu di scelta rapida consente di effettuare le seguenti azioni in base alla 
  </tbody> 
 </table>
 
-See [Keyboard and Mouse Interactions Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for information about copying and selecting rows.
+Vedi [Interazioni con la tastiera e con il mouse in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) per ulteriori informazioni su come copiare e selezionare le righe.
