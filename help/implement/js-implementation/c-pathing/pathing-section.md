@@ -1,12 +1,11 @@
 ---
 description: Per sapere come i visitatori si spostano da una sezione all’altra del sito, è innanzitutto necessario assicurarsi di assegnare tag alle sezioni con la variabile del canale.
 keywords: Analytics Implementation
-solution: Analytics
 title: Passa da sezione a sezione
 topic: Developer and implementation
 uuid: 987cdaf3-4daf-423a-bcfe-226d8e7c3648
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
