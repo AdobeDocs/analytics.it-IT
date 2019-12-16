@@ -1,10 +1,9 @@
 ---
 description: Consente di valutare il successo delle campagne in Adobe Analytics nello stesso modo in cui lo facevate in Target Classic in passato.
-solution: Analytics
 title: Incremento e confidenza Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
