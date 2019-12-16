@@ -1,12 +1,11 @@
 ---
 description: Note di rilascio cumulative per AppMeasurement per JavaScript.
-solution: Analytics
 subtopic: Release notes
 title: AppMeasurement per JavaScript
 topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
