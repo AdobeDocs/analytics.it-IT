@@ -1,13 +1,12 @@
 ---
 description: I plug-in JavaScript vengono in genere chiamati dalla funzione doPlugins, che viene eseguita quando la funzione t() viene chiamata nel codice da incollare.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: Funzione doPlugins
 topic: Developer and implementation
 uuid: 367d5550-f8e2-477d-8681-18ae9665d699
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
