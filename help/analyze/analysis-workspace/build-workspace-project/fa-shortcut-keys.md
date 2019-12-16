@@ -1,12 +1,11 @@
 ---
 description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-clic di Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Tasti di scelta rapida disponibili in Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -151,7 +150,7 @@ Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-cl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ripristina </p> </td> 
-   <td colname="col2"> <p>Ctrl (o Comando) + Maiusc + Z </p> </td> 
+   <td colname="col2"> <p>Ctrl/Comando + Maiusc + Z </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Annulla </p> </td> 
