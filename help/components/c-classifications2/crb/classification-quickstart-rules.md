@@ -1,12 +1,11 @@
 ---
 description: Le regole di classificazione ricercano regolarmente termini non classificati. Se viene trovata una corrispondenza di regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Potete inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
-solution: Analytics
 subtopic: Classifications
 title: Regole di classificazione
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Le regole di classificazione ricercano regolarmente termini non classificati. Se viene trovata una corrispondenza di regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Potete inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 Il Generatore di regole consente di creare un *`classification rule set`*, che è un elenco di *`classification rules`*. Una regola corrisponde ai criteri specificati, quindi esegue un'azione.
 
@@ -32,7 +31,7 @@ Ad esempio, supponiamo che un codice di tracciamento per un ID campagna e-mail s
 
 È possibile impostare tre regole in un set di regole che identificano le parti della stringa, quindi classificano i valori:
 
-|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |---|---|---|---|
 | Inizia con | em: | Canale | E-mail |
 | Termina con | Vendita | Type (Tipo) | Vendita |
@@ -138,7 +137,7 @@ Questo esempio indica la regola secondo cui la data della campagna `20140601` si
 
 In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |---|---|---|---|
 | Espressione regolare | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data campagna | $3 |
 
@@ -166,7 +165,7 @@ Un modo per utilizzare un'espressione regolare è classificare un carattere spec
 
 In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |--- |--- |--- |--- |
 | Espressione regolare | `^.(s).*$` | Marchio e motore | `$0` Acquisisce i primi due caratteri per il marchio e il motore di ricerca. |
 | Espressione regolare | `^.(s).*$` | Motore di ricerca | `$1` Acquisisce il secondo carattere per Google. |
@@ -191,7 +190,7 @@ Tasti di esempio:
 
 In [!UICONTROL Rule Builder], configurate la regola come segue:
 
-|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza |  Imposta classificazione |  A |
+|  Seleziona tipo di regola |  Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |--- |--- |--- |--- |
 | Espressione regolare Per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Espressione regolare Per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
@@ -274,7 +273,7 @@ Se si creano più regole che non condividono la stessa classificazione, l'ordine
 
 Esempio di regola a termine per la ricerca che classifica i tipi di ricerca per un atleta:
 
-| Numero regola | Tipo di regola | Corrispondenza |  Imposta classificazione |  A |
+| Numero regola | Tipo di regola | Corrispondenza | Imposta classificazione | A |
 |---|---|---|---|---|
 | 1 | Contiene | Cowboy | Tipo di ricerca | Team |
 | 2 | Contiene | Fantasia | Tipo di ricerca | Fantasia |
@@ -284,7 +283,7 @@ Se un utente cerca *`Cowboys fantasy Tony Romo`*, il termine *`Player`* viene cl
 
 Allo stesso modo, supponete di impostare due regole in un set per i seguenti termini di ricerca:
 
-| Numero regola | Tipo di regola | Corrispondenza |  Imposta classificazione |  A |
+| Numero regola | Tipo di regola | Corrispondenza | Imposta classificazione | A |
 |---|---|---|---|---|
 | 1 | Contiene | Cowboy | Città | Dallas |
 | 2 | Contiene | Broncos | Città | Denver |
@@ -317,7 +316,7 @@ Aggiungere regole facendo corrispondere una condizione a una classificazione e s
    Viene **[!UICONTROL Select Report Suites]** visualizzata la pagina.
 
    >[!NOTE]
-   Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:        &gt;
+   Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni: &gt;
 
    * Le suite di rapporti hanno almeno una classificazione definita per quella variabile in [!UICONTROL Admin Tools].
    Per una spiegazione di questo prerequisito, vedere *`Variable`* in Set [regole di](/help/components/c-classifications2/crb/classification-rule-set.md) classificazione.
@@ -372,7 +371,7 @@ Passaggi che descrivono come verificare una regola di classificazione o un set d
    * Codici di tracciamento
    * Cerca parole chiave o frasi
    Per informazioni sul test delle espressioni regolari, consultate Espressioni [regolari nelle regole](/help/components/c-classifications2/crb/classification-quickstart-rules.md) di classificazione.
-1. Fai clic su **[!UICONTROL Run Test]**.
+1. Fai clic su **[!UICONTROL Run Test]** (Genera).
 
    Le regole corrispondenti vengono visualizzate nella [!UICONTROL Results] tabella.
 1. (Facoltativo) Fate clic **[!UICONTROL Activate]** per attivare la regola e per sovrascrivere le classificazioni esistenti.
