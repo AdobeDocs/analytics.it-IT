@@ -1,12 +1,11 @@
 ---
 description: Quando un utente visita il sito, un cookie permanente viene impostato dal server Web Adobe includendo il cookie nella risposta HTTP al browser. Questo cookie viene impostato sul dominio di raccolta dati specificato.
 keywords: Analytics Implementation
-solution: Analytics
 title: ID visitatore Analytics
 topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
