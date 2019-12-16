@@ -1,11 +1,10 @@
 ---
 description: Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
-solution: Analytics
 title: Copia richieste semplici
 topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Una richiesta [](/help/analyze/report-builder/manage-requests/c-copy-requests/t-
 1. In un’altra parte del foglio di calcolo, fate clic con il pulsante destro del mouse su una cella vuota (una cella che non contiene richieste).
 
    Per evitare di perdere o di danneggiare le richieste già create, non è possibile incollare celle contenenti richieste alle celle attualmente associate a richieste. Se copiate o tagliate le celle contenenti richieste, il menu di scelta rapida non rende disponibile l' [!UICONTROL Paste Requests] opzione quando si fa clic con il pulsante destro del mouse sulle celle (o sul set di celle) contenenti richieste. È necessario selezionare una cella diversa come destinazione dell'operazione Incolla in modo che le richieste non si sovrappongano. Ciò si applica sia alla selezione di una cella singola con una richiesta di incolla, sia a un'area di celle contenente richieste.
-1. Fai clic su **[!UICONTROL Paste Request]**.
+1. Fai clic su **[!UICONTROL Paste Request]** (Genera).
 
    Una copia della richiesta originale viene inserita nelle celle, in una posizione o nelle posizioni relative alla richiesta originale.
 
