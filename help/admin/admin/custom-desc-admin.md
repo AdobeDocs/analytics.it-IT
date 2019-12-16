@@ -1,11 +1,10 @@
 ---
 description: Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
-solution: Analytics
 title: Descrizioni report personalizzati
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificaz
 ![](assets/report_descriptions.png)
 
 1. Fornire una descrizione per il rapporto. Il numero massimo di caratteri è 255.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
 
 La descrizione è visibile in due punti:
 
