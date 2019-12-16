@@ -1,11 +1,10 @@
 ---
 description: Mostra le medie per le metriche Visualizzazioni prodotto, Incrementi carrello, Ordini, Entrate e Unità. Inoltre mostra le conversioni chiave tra dati importanti in ciascun gruppo di reporting e metriche di conversione standard (Ordini, Unità e Entrate). La parte superiore (panoramica) dell'imbuto fornisce un riepilogo visivo dei dati di conversione. La sezione funnel mostra le statistiche per tutti gli eventi nella sezione panoramica basata su Ordini e fino a due altre metriche, come Entrate e Unità.
-solution: Analytics
 title: Funnel di conversione prodotti
 topic: Reports
 uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
