@@ -1,12 +1,11 @@
 ---
 description: Una proprietà Web può essere un qualsiasi raggruppamento di uno o più domini e sottodomini con una libreria di regole, inclusa in un unico codice da incorporare.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
-solution: Analytics
 title: Creare proprietà Web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -83,4 +82,4 @@ Per informazioni generali sulle proprietà Web e sulle procedure ottimali, veder
     </tbody> 
     </table>
 
-1. Fai clic su **[!UICONTROL Create Property]**.
+1. Fai clic su **[!UICONTROL Create Property]** (Genera).
