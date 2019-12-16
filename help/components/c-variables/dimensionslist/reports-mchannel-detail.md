@@ -1,11 +1,10 @@
 ---
 description: Questi rapporti forniscono informazioni approfondite sulle campagne o sulle parole chiave più efficaci sul sito. Puoi utilizzare questo rapporto per allocare metriche di successo e ricavi a vari dettagli di canale, indipendentemente dal canale in cui si trovano. Ad esempio, potete vedere come una certa parola chiave di ricerca a pagamento viene confrontata con una determinata campagna e-mail. A differenza del rapporto Panoramica canale di marketing, questo rapporto è simile a un rapporto di marketing standard.
-solution: Analytics
 title: 'Dettaglio canale marketing: primo e ultimo tocco'
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
