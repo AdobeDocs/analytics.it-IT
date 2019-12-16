@@ -1,11 +1,10 @@
 ---
 description: Le voci rappresentano il numero di volte in cui un dato valore viene acquisito come il primo valore di una visita. Le voci possono verificarsi solo una volta per visita. Tuttavia, non è necessariamente il primo hit se la variabile non è definita.
-solution: Analytics
 title: Voci
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
