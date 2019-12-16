@@ -1,11 +1,10 @@
 ---
 description: L'analisi delle pagine in tempo reale (modalità Live) consente di ottenere risultati con granularità minima in tempo reale.
-solution: Analytics
 title: Analisi delle pagine in tempo reale (Live)
 topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
