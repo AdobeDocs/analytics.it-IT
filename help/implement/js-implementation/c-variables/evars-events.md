@@ -1,12 +1,11 @@
 ---
 description: 'Se desideri tenere traccia di informazioni aggiuntive ma non disponi di un numero sufficiente di variabili per farlo, ora puoi accedere ad eVar ed eventi di successo aggiuntivi '
 keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
-solution: Analytics
 title: eVar ed eventi aggiuntivi
 topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
