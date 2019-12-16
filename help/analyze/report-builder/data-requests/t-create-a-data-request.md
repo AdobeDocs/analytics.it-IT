@@ -1,11 +1,10 @@
 ---
 description: Procedura per creare una richiesta di dati Generatore di report di base.
-solution: Analytics
 title: Create a Data Request (Creare una richiesta di archivio dati)
 topic: Report builder
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ Procedura per creare una richiesta di dati di base.
    Generatore di report utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la Guida alla segmentazione di [Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 1. (Facoltativo) Selezionate un elenco [di](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) pubblicazione da usare per la distribuzione.
 1. Select a [report type](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Specifica un intervallo [di](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) date e una [granularità](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)del report.
-1. Fai clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Next]** (Genera).
 1. Nella finestra [Layout - Richiesta guidata Passaggio 2](/help/analyze/report-builder/layout/layout.md) , specificare un layout:
 
    | Elemento | Descrizione |
