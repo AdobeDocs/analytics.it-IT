@@ -1,12 +1,11 @@
 ---
 description: Le classificazioni numeriche 2 vengono create nello stesso modo in cui vengono create le altre classificazioni. È possibile aggiungere classificazioni numeriche 2 solo alle variabili di conversione o di canale.
-solution: Analytics
 subtopic: Classifications
 title: Creare classificazioni numeriche 2
 topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,10 +21,10 @@ Le classificazioni numeriche 2 vengono create nello stesso modo in cui vengono c
 1. Click the **[!UICONTROL Add Classification]** icon.
 1. Compila i campi:
 
-   **** Selezionate Tipo: Selezionare **[!UICONTROL Numeric 2]**.
+   **** Selezionate Tipo:Selezionare **[!UICONTROL Numeric 2]**.
 
    **** Nome: Specifica un nome per la classificazione.
 
    **** Numerico: Selezionare se la classificazione è **[!UICONTROL Percent (%)]** o **[!UICONTROL Currency ($)]**.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
