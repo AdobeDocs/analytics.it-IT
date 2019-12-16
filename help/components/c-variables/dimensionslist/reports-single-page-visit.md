@@ -1,11 +1,10 @@
 ---
 description: Per non confondersi con la metrica Visite di pagina singola in Analisi ad hoc, il rapporto Visite di pagina singola mostra le pagine inserite e uscite dai visitatori del sito Web, senza adottare misure per visualizzare altre pagine.
-solution: Analytics
 title: Visita singola pagina
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
