@@ -1,11 +1,10 @@
 ---
 description: I rapporti sulle origini del traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
-solution: Analytics
 title: Rapporti fonti traffico
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -55,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Search Engines - All]**:Visualizza i motori di ricerca utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - All]**: Visualizza i motori di ricerca utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
-**[!UICONTROL Search Engines - Paid]**:Visualizza i motori di ricerca con parole chiave a pagamento utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - Paid]**: Visualizza i motori di ricerca con parole chiave a pagamento utilizzati dagli utenti per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
-**[!UICONTROL Search Engines - Natural]**:Consente di visualizzare i motori di ricerca con parole chiave naturali che gli utenti usano per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
+**[!UICONTROL Search Engines - Natural]**: Consente di visualizzare i motori di ricerca con parole chiave naturali che gli utenti usano per trovare la pagina Web. Il grafico mostra la suddivisione percentuale dei motori di ricerca utilizzati per trovare il sito.
 
 ## Domini di riferimento {#concept_804614DF21C14C9FB542451B30F92788}
 
