@@ -1,11 +1,10 @@
 ---
 description: Una suite di rapporti definisce il reporting indipendente e completo su un sito Web scelto, su un insieme di siti Web o su un sottoinsieme di pagine Web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando accedete a una soluzione Adobe Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito. Le soluzioni Analytics si aggregano e generano report su questi data store. L'amministratore di Report Suite Manager consente di definire le regole che determinano il modo in cui i dati vengono elaborati in una suite di rapporti.
-solution: Analytics
 title: Report Suite Manager
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Una suite di rapporti definisce il reporting indipendente e completo su un sito Web scelto, su un insieme di siti Web o su un sottoinsieme di pagine Web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando accedete a una soluzione Adobe Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito. Le soluzioni Analytics si aggregano e generano report su questi data store. L'amministratore di Report Suite Manager consente di definire le regole che determinano il modo in cui i dati vengono elaborati in una suite di rapporti.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 > [!NOTE] Le suite di rapporti virtuali sono gestite tramite **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Consulta la documentazione [Suite di rapporti](/help/components/vrs/vrs-about.md)virtuale.
 
