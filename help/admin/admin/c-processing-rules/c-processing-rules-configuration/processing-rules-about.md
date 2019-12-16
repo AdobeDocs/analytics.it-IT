@@ -1,12 +1,11 @@
 ---
 description: Le regole di elaborazione consentono di apportare modifiche ai dati in base a condizioni definite. Quando gli attributi o i valori corrispondono a condizioni definite, i valori possono essere impostati ed eliminati e gli eventi possono essere impostati.
-solution: Analytics
 subtopic: Processing rules
 title: Funzionamento delle regole di elaborazione
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
