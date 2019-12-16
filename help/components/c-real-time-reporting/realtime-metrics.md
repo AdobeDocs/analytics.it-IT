@@ -1,11 +1,10 @@
 ---
 description: Elenca le metriche e le dimensioni supportate dai report in tempo reale. Sono inoltre supportate le classificazioni, se le avete definite.
-solution: Analytics
 title: Metriche e dimensioni in tempo reale supportate
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
