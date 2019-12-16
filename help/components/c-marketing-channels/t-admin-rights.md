@@ -1,12 +1,11 @@
 ---
 description: Create un gruppo che conceda diritti amministrativi limitati agli utenti del rapporto Canale di marketing, quindi assegnate gli utenti a tale gruppo. Ad esempio, potete creare un gruppo che consenta agli utenti non amministrativi di inserire costi o importi di budget.
-solution: Analytics
 subtopic: Marketing channels
 title: Concessione di diritti amministrativi limitati
 topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Create un gruppo che conceda diritti amministrativi limitati agli utenti del rap
 
 1. In Accesso ai rapporti, individua Amministratore e fai clic su **[!UICONTROL Customize.]**
 1. Abilita **[!UICONTROL Channels]** e **[!UICONTROL Costs.]**
-1. Fate clic **[!UICONTROL OK]** e fate clic su **[!UICONTROL Save.]**
+1. Fai clic su **[!UICONTROL OK]**, quindi su **[!UICONTROL Save.]**
 
 Definizioni dei campi per definire i gruppi di utenti in Strumenti di amministrazione:
 
