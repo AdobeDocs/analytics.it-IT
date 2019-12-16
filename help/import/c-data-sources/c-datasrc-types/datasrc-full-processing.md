@@ -1,12 +1,11 @@
 ---
 description: Origini dati supporta le variabili seguenti durante l'elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
-solution: Analytics
 subtopic: Data sources
 title: Elaborazione completa
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
