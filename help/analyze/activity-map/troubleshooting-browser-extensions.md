@@ -1,11 +1,10 @@
 ---
 description: Elenca i parametri del browser che non sono compatibili con l'uso di Activity Map. È consigliabile disattivare queste impostazioni.
-solution: Analytics
 title: Risoluzione dei problemi relativi alle estensioni del browser
 topic: Activity map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
