@@ -1,12 +1,11 @@
 ---
 description: La funzione s_gi() viene utilizzata per creare o trovare l'istanza di AppMeasurement per ID suite di rapporti. Internamente, AppMeasurement tiene traccia di ogni istanza creata e s_gi() restituisce l'istanza esistente per una suite di rapporti, se esistente. Se un'istanza non esiste, viene creata e restituita una nuova istanza.
 keywords: Analytics Implementation
-solution: Analytics
 title: La funzione s_gi()
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
