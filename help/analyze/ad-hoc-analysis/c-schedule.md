@@ -1,11 +1,10 @@
 ---
 description: Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
-solution: Analytics
 title: Pianificazione Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -42,7 +41,7 @@ t_schedule_delivery.xml
 
  -->
 
-1. Fate clic **[!UICONTROL Tools]**, quindi fate clic **[!UICONTROL Schedule Manager]**.
+1. Fai clic su **[!UICONTROL Tools]**, quindi su **[!UICONTROL Schedule Manager]**.
 1. Fate clic su [!UICONTROL Schedule Manager]**[!UICONTROL New.]**
 
 ## Opzioni di consegna - Definizioni {#reference_CA49AC560258471AAE959BCA243F170C}
