@@ -1,11 +1,10 @@
 ---
 description: Le date preimpostate consentono di selezionare le date o le date usate più comunemente. Nel passaggio 1 della Richiesta guidata, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
-solution: Analytics
 title: 'Definizioni di Creazione guidata richieste: date preimpostate'
 topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
