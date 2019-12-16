@@ -1,10 +1,9 @@
 ---
-description: nulle
-solution: Analytics
+description: 'null'
 title: Implementazione dell'integrazione
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ Procedura per completare la procedura guidata di integrazione nell'interfaccia C
    |---|---|
    | Indirizzo e-mail | Indirizzo e-mail del contatto principale |
    | Descrizione | (Facoltativo) Descrizione per questa configurazione di integrazione |
-   | ID account | Ottenuto contattando il team di assistenza di Responsys all'indirizzo support@responsys.com |
+   |  ID account | Ottenuto contattando il team di assistenza di Responsys all'indirizzo support@responsys.com |
 
 1. Configurate i seguenti **[!UICONTROL Variable Mappings]** elementi:
 
