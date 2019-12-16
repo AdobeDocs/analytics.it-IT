@@ -1,11 +1,10 @@
 ---
 description: La sezione Schedule Spike (Spike pianificazione) consente di avvisare Adobe dei picchi di traffico temporanei in modo che le risorse appropriate possano essere allocate per gestirli.
-solution: Analytics
 title: Pianificare un picco di traffico
 topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
