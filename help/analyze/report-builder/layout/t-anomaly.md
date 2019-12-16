@@ -1,11 +1,10 @@
 ---
 description: Procedura che descrive come creare una richiesta di rilevamento delle anomalie nel generatore di report.
-solution: Analytics
 title: Configurare una richiesta di rilevamento delle anomalie
 topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
