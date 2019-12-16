@@ -1,11 +1,10 @@
 ---
 description: I filtri URL interni identificano i referenti considerati interni al sito. Aiutano i rapporti sulle origini del traffico a compilare i dati e a filtrare il traffico interno.
-solution: Analytics
 title: Filtri URL interni
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
