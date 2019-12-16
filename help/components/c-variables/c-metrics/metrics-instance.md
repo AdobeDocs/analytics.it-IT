@@ -1,12 +1,11 @@
 ---
 description: Il numero di volte in cui un valore è stato impostato per una variabile.
 keywords: instances
-solution: Analytics
 title: Istanze
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
