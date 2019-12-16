@@ -1,12 +1,11 @@
 ---
 description: È possibile combinare Generatore regole di classificazione con sottoclassificazioni per semplificare la gestione delle classificazioni e ridurre il numero di regole richieste. Potrebbe essere utile eseguire questa operazione se il codice di tracciamento è composto da codici da classificare separatamente.
-solution: Analytics
 subtopic: Classifications
 title: 'Sottoclassificazioni e Generatore regole di classificazione: casi di utilizzo'
 topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,7 +58,7 @@ Esempi di passaggi che descrivono come caricare le sottocategorie utilizzando il
 
    A tale scopo, è necessario utilizzare un'espressione regolare. In questo esempio, la regola da compilare *`Broad Campaign code`* utilizzerebbe questa espressione regolare:
 
-   | `#` | Tipo di regola | Corrispondenza |  Imposta classificazione |  A |
+   | `#` | Tipo di regola | Corrispondenza | Imposta classificazione | A |
    |---|---|---|---|---|
    |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice campagna ampio | `$1` |
    |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice creativo | `$2` |
