@@ -1,11 +1,10 @@
 ---
 description: Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
-solution: Analytics
 title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -53,7 +52,7 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
 
 >[!IMPORTANT]
 >
->  È necessario un punto e virgola finale (;) quando si utilizza s_objectID nella Activity Map.
+>È necessario un punto e virgola finale (;) quando si utilizza s_objectID nella Activity Map.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -78,7 +77,7 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Prodotto 2 </p> <p> </p> <p> </p> <p>Prodotto 3 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p> Prodotto 2 </p> <p> </p> <p> </p> <p>Prodotto 3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> </td> 
   </tr> 
  </tbody> 
