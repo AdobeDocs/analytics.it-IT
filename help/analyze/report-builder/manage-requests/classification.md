@@ -1,16 +1,15 @@
 ---
 description: Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting dell'analisi alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono utilizzate più comunemente per classificare i codici di tracciamento delle campagne (sia interni che esterni) e gli ID prodotto.
-solution: Analytics
 title: Classificazione
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Classifications
+# Classificazioni
 
 Le suddivisioni di classificazione vengono utilizzate per mappare i dati di reporting dell'analisi alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono utilizzate più comunemente per classificare i codici di tracciamento delle campagne (sia interni che esterni) e gli ID prodotto.
 
