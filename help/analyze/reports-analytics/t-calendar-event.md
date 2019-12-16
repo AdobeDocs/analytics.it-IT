@@ -1,11 +1,10 @@
 ---
 description: Passaggi per aggiungere eventi di calendario e per gestire eventi condivisi.
-solution: Analytics
 title: Eventi calendario
 topic: Reports and analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
