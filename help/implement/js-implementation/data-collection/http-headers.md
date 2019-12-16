@@ -1,12 +1,11 @@
 ---
 description: Le intestazioni di richiesta e risposta HTTP vengono utilizzate per raccogliere dati aggiuntivi oltre a quanto raccolto da AppMeasurement. Questa sezione descrive le intestazioni utilizzate durante la raccolta dei dati.
 keywords: Analytics Implementation
-solution: Analytics
 title: Intestazioni HTTP della raccolta dati
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
