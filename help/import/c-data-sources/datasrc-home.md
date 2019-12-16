@@ -1,12 +1,11 @@
 ---
 description: Le origini dati Adobe Analytics ti consentono di importare manualmente altri dati online e offline per il reporting.
-solution: Analytics
 subtopic: Data sources
 title: Panoramica su Origini dati
 topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
