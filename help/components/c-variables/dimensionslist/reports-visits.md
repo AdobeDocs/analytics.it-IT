@@ -1,11 +1,10 @@
 ---
 description: Visualizza il numero di visite effettuate all’intero sito Web durante un periodo di tempo specificato.
-solution: Analytics
 title: Visite
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,7 +39,7 @@ Per ulteriori informazioni sull’elaborazione di questa metrica da parte di Exp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Reporting e analisi </p> </td> 
+   <td colname="col1"> <p> Reports &amp; Analytics </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Metriche</span> del sito &gt; <span class="uicontrol"> Visite</span> </p> <p>Puoi eseguire un rapporto <span class="wintitle"> sulle</span> visite su una pagina selezionata. Le visite che si estendono su tutta la mezzanotte sono conteggiate sia nel giorno in cui la visita ha avuto inizio che in cui è terminata. Tuttavia, il totale per l'intervallo di date specificato viene deduplicato. </p> </td> 
   </tr> 
   <tr> 
