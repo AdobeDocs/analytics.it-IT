@@ -1,11 +1,10 @@
 ---
 description: Visualizza informazioni su quali pagine e aree del tuo sito risultano più attive e quali server vengono utilizzati maggiormente.
-solution: Analytics
 title: Contenuto del sito
 topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
