@@ -1,12 +1,11 @@
 ---
 description: Origini dati offre due modi aggiuntivi per integrare gli eventi che si verificano offline nei dati online.
-solution: Analytics
 subtopic: Data sources
 title: Integrazione transazione e cliente
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,7 +49,7 @@ Gli ID cliente vengono utilizzati per specificare l'attività offline di un clie
 * Un ID cliente è inserito nella variabile *`visitorID`* variable.
 * Non esiste un punto designato in cui l'attività del cliente passa offline, ad esempio un invio lead o acquisto.
 
-Per configurare questo tipo di origine dati, consulta [ID visitatore](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+Per configurare questo tipo di origine dati, consulta [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Integrazione transazione {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
