@@ -1,13 +1,12 @@
 ---
 description: La variabile s.products può essere la variabile più sintatticamente complessa utilizzata per la raccolta dei dati.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Errori comuni nella variabile Products
 topic: Developer and implementation
 uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Le virgole, i punti e i punti e le tubazioni, nonché i segni uguali, svolgono t
 
 Di seguito sono riportati alcuni errori estremamente facili da commettere che possono causare problemi a qualsiasi implementazione.
 
-Accertatevi che i [!UICONTROL category]totali, [!UICONTROL product name]e [!UICONTROL revenue] i totali non contengano virgole e punti e virgola. La virgola viene utilizzata per separare le voci nella [!UICONTROL s.products] stringa. Ciò si verifica quando nella stessa transazione sono presenti due prodotti, il punto e virgola viene utilizzato per delimitare i campi all'interno di una voce. Se si utilizza una virgola o un punto e virgola in qualsiasi altro modo, la raccolta dati presuppone che si stiano separando le voci di prodotto. Prendi in considerazione l'esempio seguente:
+Accertatevi che i [!UICONTROL category]totali, [!UICONTROL product name]e [!UICONTROL revenue] i totali non contengano virgole e punti e virgola. La virgola viene utilizzata per separare le voci nella [!UICONTROL s.products] stringa. Ciò si verifica quando nella stessa transazione sono presenti due prodotti, il punto e virgola viene utilizzato per delimitare i campi all'interno di una voce. Se si utilizza una virgola o un punto e virgola in qualsiasi altro modo, la raccolta dati presuppone che si stiano separando le voci di prodotto. Prendi in considerazione l’esempio seguente:
 
 ```js
 s.products="widgets;large widget, 40′x40′;1;19.99,wugs;tiny wug;2;1,999.98";
