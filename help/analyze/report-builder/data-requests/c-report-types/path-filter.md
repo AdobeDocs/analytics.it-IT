@@ -1,11 +1,10 @@
 ---
 description: Descrive i passaggi necessari per applicare filtri a un report di percorsi.
-solution: Analytics
 title: Filtrare un rapporto di percorso mediante la Creazione guidata richieste
 topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ In questo esempio vengono utilizzati i percorsi di sezione del sito.
    ![](assets/site_section_path_1.png)
 
 1. Specificate le date appropriate.
-1. Fai clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Next]** (Genera).
 1. Nel Passaggio 2 della procedura guidata, in **[!UICONTROL Row Labels]**, fare clic sul **[!UICONTROL Top 1-10 (pattern applied)]** collegamento. In un rapporto percorso, per impostazione predefinita viene applicato un pattern.
 
    ![](assets/site_section_path_2.png)
@@ -48,7 +47,7 @@ In questo esempio vengono utilizzati i percorsi di sezione del sito.
 1. Per modificare un pattern predefinito,
    1. Selezionatela. Ad esempio, selezionare **[!UICONTROL Exited Site Pattern]**: ![](assets/exited_site_pattern.png)
 
-   1. A questo punto è necessario definire il percorso della sezione del sito che l'utente segue prima di uscire. Fai clic su **[!UICONTROL Specific Item(s): 0 selected]**. È possibile definire questo percorso selezionando da un intervallo di celle (se si sta modificando una richiesta esistente) oppure selezionando da un elenco di sezioni.
+   1. A questo punto è necessario definire il percorso della sezione del sito che l'utente segue prima di uscire. Fai clic su **[!UICONTROL Specific Item(s): 0 selected]** (Genera). È possibile definire questo percorso selezionando da un intervallo di celle (se si sta modificando una richiesta esistente) oppure selezionando da un elenco di sezioni.
    1. Per selezionare da un intervallo di celle da una richiesta precedente, selezionare **[!UICONTROL From range of cells]** e fare clic sull'icona del selettore di celle. Quindi scegliete le celle dal rapporto. ![](assets/choose_site_section_paths.png)
 
    1. Per selezionare da un elenco di sezioni del sito, selezionare **[!UICONTROL From list]** e fare clic su **[!UICONTROL Add]**.
