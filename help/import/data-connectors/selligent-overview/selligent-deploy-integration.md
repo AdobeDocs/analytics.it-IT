@@ -1,10 +1,9 @@
 ---
 description: L'implementazione di questa integrazione è un semplice processo in 3 fasi.
-solution: Analytics
 title: Implementazione dell'integrazione
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
