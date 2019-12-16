@@ -1,11 +1,10 @@
 ---
 description: Quando specificate una data o un intervallo di date fisso, il generatore di report visualizza il calendario di reporting, che consente di selezionare una data, un intervallo di date o una data preimpostata. Puoi anche salvare una data fissa da usare come modello e specificare se le date salvate sono disponibili per la suite di rapporti corrente o per tutte le suite di rapporti.
-solution: Analytics
 title: Date corrette e intervalli di date salvati
 topic: Report builder
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
