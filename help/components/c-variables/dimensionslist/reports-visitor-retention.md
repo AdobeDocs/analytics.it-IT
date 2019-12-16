@@ -1,11 +1,10 @@
 ---
 description: Visualizza informazioni sulla fidelizzazione dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza. I report in questa categoria visualizzano informazioni sulla fedeltà dei clienti. Potete vedere quanti visitatori tornano al sito e con quale frequenza.
-solution: Analytics
 title: Conservazione dei visitatori
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
