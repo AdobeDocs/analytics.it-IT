@@ -1,13 +1,12 @@
 ---
 description: Analytics fornisce una serie di variabili per raccogliere i dati di Analytics. Ad esempio, il valore nella variabile pageName corrisponde al nome della pagina Web segnalata. In questa sezione sono elencate le variabili supportate da AppMeasurement.
 keywords: Analytics Implementation;appmeasurement variables
-solution: Analytics
 subtopic: Variables
 title: Panoramica delle variabili
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
