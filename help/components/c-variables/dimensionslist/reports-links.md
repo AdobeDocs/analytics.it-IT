@@ -1,18 +1,17 @@
 ---
-description: ' Mostra i collegamenti sui quali i visitatori fanno clic sul sito Web, compresi i collegamenti sui quali è stato fatto clic per uscire dal sito o i collegamenti per il download.'
-solution: Analytics
+description: Mostra i collegamenti sui quali i visitatori fanno clic sul sito Web, compresi i collegamenti sui quali è stato fatto clic per uscire dal sito o i collegamenti per il download.
 title: Collegamenti
 topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Collegamenti
 
- Mostra i collegamenti sui quali i visitatori fanno clic sul sito Web, compresi i collegamenti sui quali è stato fatto clic per uscire dal sito o i collegamenti per il download.
+Mostra i collegamenti sui quali i visitatori fanno clic sul sito Web, compresi i collegamenti sui quali è stato fatto clic per uscire dal sito o i collegamenti per il download.
 
 * **[!UICONTROL Exit Links]**: Visualizza i collegamenti su cui l'utente ha fatto clic per uscire dal sito Web. Tali collegamenti includono collegamenti a siti Web partner o affiliati.
 * **[!UICONTROL File Downloads]**: Visualizza i file scaricati dal sito Web. Questi file possono essere di qualsiasi tipo di file da monitorare, inclusi manuali utente, presentazioni, file audio o video. Questo rapporto richiede che sul sito in cui si sta effettuando il tracciamento sia installato il codice di tracciamento dei collegamenti. Per ulteriori informazioni, consulta la Guida all’implementazione.
