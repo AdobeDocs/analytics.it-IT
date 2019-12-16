@@ -1,9 +1,8 @@
 ---
 description: Diversi report in Adobe Analytics possono mostrare Non specificato, Altro o Sconosciuto, a seconda del rapporto specifico visualizzato. In genere, questo elemento di riga indica che la variabile non era definita o altrimenti non disponibile.
-solution: Analytics
 title: Non specificato, Altro e Sconosciuto nel reporting
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
