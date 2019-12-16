@@ -1,13 +1,12 @@
 ---
 description: Scopri la prima esperienza cliente per implementare l’implementazione di Adobe Analytics.
 keywords: Getting Started
-solution: Analytics
 subtopic: Analysis Workspace
 title: Modalità di implementazione semplificata
 topic: Reports and analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -86,7 +85,7 @@ Questa procedura ti consente di:
      </tbody> 
     </table>
 
-1. Fai clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Next]** (Genera).
 
    Il sistema crea una suite per report.
 
