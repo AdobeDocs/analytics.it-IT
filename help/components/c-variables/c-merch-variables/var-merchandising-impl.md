@@ -1,11 +1,10 @@
 ---
 description: Descrive come abilitare e implementare una variabile merchandising.
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
-solution: Analytics
 title: Implementazione di una variabile di merchandising
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Il merchandising può essere abilitato per qualsiasi eVar personalizzato in **[!
 | Impostazione | Descrizione |
 |--- |--- |
 | Scade dopo | Determina per quanto tempo i valori merchandising devono persistere. |
-|  Merchandising | **** Sintassi prodotto: Il valore è impostato all'interno `s.products`.<br>**** Sintassi della variabile di conversione: Il valore viene impostato nell'eVar di merchandising designata. |
+| Merchandising | **** Sintassi prodotto: Il valore è impostato all'interno `s.products`.<br>**** Sintassi della variabile di conversione: Il valore viene impostato nell'eVar di merchandising designata. |
 | Evento di binding Merchandising (solo sintassi della variabile Conversion) | Indica se un prodotto deve essere associato alla categoria di merchandising corrente. Per selezionare più eventi, tenete premuto Ctrl e fate clic su più elementi nell’elenco. È possibile selezionare un evento solo quando è selezionata la "Sintassi variabile di conversione". |
 
 ## Implementazione tramite sintassi prodotto
@@ -36,7 +35,7 @@ Quando Product Syntax (Sintassi prodotto) è abilitata, la categoria merchandisi
 s.products="category;product;quantity;price;event_incrementer;eVarN=merch_category|eVarM=merch_category2";
 ```
 
-### Esempio 
+### Esempio
 
 ```js
 s.events="prodView";
@@ -66,7 +65,7 @@ s.events="prodView";
 s.products="category;product";
 ```
 
-### Esempio 
+### Esempio
 
 A pagina 1 della visita:
 
