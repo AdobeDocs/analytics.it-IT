@@ -1,12 +1,11 @@
 ---
 description: Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
-solution: Analytics
 title: Aggiunta dello strumento Adobe Analytics
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -98,4 +97,4 @@ Potete modificare uno strumento Adobe Analytics esistente per modificarne le imp
 </table>
 
 1. (Condizionale) Configurate ulteriormente lo strumento seguendo le indicazioni riportate di seguito ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies]e [!UICONTROL Customize Page Code]).
-1. Fai clic su **[!UICONTROL Save Changes]**.
+1. Fai clic su **[!UICONTROL Save Changes]** (Genera).
