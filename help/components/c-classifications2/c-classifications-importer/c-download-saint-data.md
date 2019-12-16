@@ -1,12 +1,11 @@
 ---
 description: (Facoltativo) Prima di importare le classificazioni nei rapporti di marketing, puoi scaricare un modello che consente di creare un file di dati per le classificazioni. Il file di dati utilizza le classificazioni desiderate come intestazioni di colonna, quindi organizza il set di dati di reporting sotto le intestazioni di classificazione appropriate.
-solution: Analytics
 subtopic: Classifications
 title: Modello di classificazione
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -43,7 +42,7 @@ Il modello fornisce il formato di file da seguire per le classificazioni.
 
 1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Nella **[!UICONTROL Download Template]** scheda, specifica la configurazione [del modello di](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)dati.
-1. Fai clic su **[!UICONTROL Download]**.
+1. Fai clic su **[!UICONTROL Download]** (Genera).
 1. Salvate il file modello nel sistema locale.
 
    Il file modello è un file di dati delimitato da tabulazioni (estensione del [!DNL .tab] nome file) supportato dalla maggior parte delle applicazioni per fogli di calcolo.
