@@ -1,12 +1,11 @@
 ---
-description: nulle
-solution: Analytics
+description: 'null'
 subtopic: Release notes
 title: Windows Silverlight, NET, IIS, XBOX
 topic: Developer and implementation
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Release Date: **August 2014**
 
-* Rimosso il supporto per l' [!DNL Microsoft Silverlight Analytics Framework]. Adobe non supporta più o distribuisce l' [!DNL Microsoft Silverlight Analytics Framework] integrazione per [!DNL AppMeasurement].
+* Rimosso il supporto per il [!DNL Microsoft Silverlight Analytics Framework]. Adobe non supporta più o distribuisce l' [!DNL Microsoft Silverlight Analytics Framework] integrazione per [!DNL AppMeasurement].
 
 * Modifiche interne per supportare le funzionalità in arrivo.
 
