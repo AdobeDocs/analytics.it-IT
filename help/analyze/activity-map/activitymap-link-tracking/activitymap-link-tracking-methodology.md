@@ -1,11 +1,10 @@
 ---
 description: Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi parametri di tracciamento dei collegamenti sono incentrati su come garantire l’univocità e la coerenza dei collegamenti tra browser e dispositivi e come migliorare la gestione del riposizionamento dei collegamenti su una pagina.
-solution: Analytics
 title: Metodologia di tracciamento dei collegamenti
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -119,7 +118,7 @@ Queste variabili sono elencate solo a scopo di riferimento. La Activity Map deve
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Nome della variabile </th> 
-   <th colname="col2" class="entry"> Esempio  </th> 
+   <th colname="col2" class="entry"> Esempio </th> 
    <th colname="col3" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
