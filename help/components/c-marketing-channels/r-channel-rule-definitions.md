@@ -1,12 +1,11 @@
 ---
 description: Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete selezionare nella pagina Regole di elaborazione del canale di marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: 'Regole di elaborazione per il canale di marketing: definizioni'
 topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
