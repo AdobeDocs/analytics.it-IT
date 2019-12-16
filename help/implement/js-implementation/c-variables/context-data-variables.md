@@ -1,13 +1,12 @@
 ---
 description: Le variabili di dati di contesto consentono di definire variabili personalizzate su ogni pagina che possono essere lette dalle regole di elaborazione.
 keywords: Analytics Implementation;contextdata;s.contextdata
-solution: Analytics
 subtopic: Variables
 title: Variabili di dati di contesto
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,13 @@ Le variabili di dati di contesto consentono di definire variabili personalizzate
 Invece di assegnare in modo esplicito valori a prop ed eVar nel codice, potete inviare dati in variabili di dati di contesto mappate utilizzando le regole di elaborazione. Le regole di elaborazione forniscono una potente interfaccia grafica per apportare modifiche ai dati durante la ricezione. In base ai valori inviati nei dati contestuali, è possibile impostare eventi, copiare valori in eVar e prop ed eseguire istruzioni condizionali aggiuntive.
 
 > [!NOTE] Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Ad esempio, le due variabili seguenti sono effettivamente identiche:
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >e
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
