@@ -1,11 +1,10 @@
 ---
 description: Un rapporto sul percorso che fornisce un'analisi dettagliata dei percorsi del sito mostrandovi le pagine del sito visualizzate dai visitatori prima di visualizzare una pagina selezionata sul sito.
-solution: Analytics
 title: Pagina precedente
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ Ad esempio, potrebbe essere utile sapere da dove sono arrivate le persone che ha
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Reporting e analisi </td> 
+   <td colname="col1"> Reports &amp; Analytics </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Percorsi</span> &gt; <span class="uicontrol"> Pagine</span> &gt; <span class="uicontrol"> Pagina precedente</span> </p> <p>Mostra da dove provengono i visitatori di ciascuna pagina. Ad esempio, se disponete di una pagina Funzioni, questo rapporto mostra le prime cinque pagine di provenienza dei visitatori per passare alla pagina Funzioni. La relazione: </p> 
     <ul id="ul_940C3FBD466A49CFB0AC56C170997031"> 
      <li id="li_3C27174CC49D4BF7A76227BE1CD44CCC">Identifica il percorso seguito da un visitatore per l’immissione di una pagina sul sito. </li> 
