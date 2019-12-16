@@ -1,11 +1,10 @@
 ---
 description: Viene conteggiata una visualizzazione di pagina per ogni chiamata server inviata. Questa metrica rappresenta le istanze totali di Visualizzazioni di pagina. Le chiamate TrackLink non vengono conteggiate come visualizzazioni di pagina e non incrementano la metrica Visualizzazioni di pagina.
-solution: Analytics
 title: Visualizzazioni di pagina
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
