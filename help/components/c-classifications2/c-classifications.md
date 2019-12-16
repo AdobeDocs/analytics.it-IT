@@ -1,12 +1,11 @@
 ---
 description: Una classificazione è un modo per classificare i dati variabili di Analytics e quindi per visualizzare i dati in modi diversi quando si generano i rapporti.
-solution: Analytics
 subtopic: Classifications
 title: Informazioni sulle classificazioni
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,7 +47,7 @@ Nella tabella seguente sono descritti i diversi tipi di classificazioni disponib
   <tr> 
    <th colname="col1" class="entry"> <p>TYPE </p> </th> 
    <th colname="col2" class="entry"> <p>DISPONIBILITÀ </p> </th> 
-   <th colname="col3" class="entry"> <p>DESCRIPTION </p> </th> 
+   <th colname="col3" class="entry"> <p>DESCRIZIONE </p> </th> 
   </tr> 
  </thead>
  <tbody> 
