@@ -1,11 +1,10 @@
 ---
 description: Il numero di volte in cui un cliente ha aperto un carrello aggiungendo il primo articolo. Si verifica la prima volta che un elemento viene aggiunto al carrello. Questo valore deriva dall'evento scOpen.
-solution: Analytics
 title: Apri carrello
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
