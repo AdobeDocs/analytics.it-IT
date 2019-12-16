@@ -1,12 +1,11 @@
 ---
-description: Le regole bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web.
-solution: Analytics
+description: Regole bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web.
 subtopic: Bot rules
 title: Panoramica delle regole bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -75,7 +74,7 @@ Specificare gli intervalli iniziale e finale degli indirizzi IP da associare. So
 
 1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**, seleziona una o più suite di rapporti e fai clic su **[!UICONTROL General]** &gt; **[!UICONTROL Bot Rules]**.
 1. Fate clic su **[!UICONTROL Add Rule]** e definite una o più condizioni di corrispondenza.
-1. Fai clic su **[!UICONTROL Save]**. La modifica dovrebbe avere effetto entro 30 minuti.
+1. Fai clic su **[!UICONTROL Save]** (Genera). La modifica dovrebbe avere effetto entro 30 minuti.
 
 ## Caricare regole bot
 
