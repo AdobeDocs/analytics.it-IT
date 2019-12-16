@@ -1,10 +1,9 @@
 ---
 description: Mostra il tempo dedicato dai visitatori alla pagina
-solution: Analytics
 title: Tempo trascorso nella pagina
 topic: Reports
 translation-type: tm+mt
-source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
