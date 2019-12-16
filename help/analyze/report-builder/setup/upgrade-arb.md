@@ -1,11 +1,10 @@
 ---
 description: Passaggi e considerazioni relativi all'aggiornamento del Generatore di report.
-solution: Analytics
 title: Aggiornare Report Builder
 topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -53,7 +52,7 @@ A: No, tutte le impostazioni, comprese quelle di autenticazione, continueranno a
 Puoi sempre ottenere la versione più recente di Generatore di report da Adobe Analytics.
 
 1. Accedete ad Adobe Analytics e passate a **[!UICONTROL Tools]**.
-1. Fai clic su **[!UICONTROL Report Builder]**.
+1. Fai clic su **[!UICONTROL Report Builder]** (Genera).
 1. Sullo **[!UICONTROL Overview]** schermo, selezionate la versione a 32 bit o a 64 bit.
-1. Fai clic su **[!UICONTROL Download Now!]**.
+1. Fai clic su **[!UICONTROL Download Now!]** (Genera).
 
