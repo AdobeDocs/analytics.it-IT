@@ -1,11 +1,10 @@
 ---
 description: A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
-solution: Analytics
 title: Condividere segmenti
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
 
-|  Amministratore | Può condividere segmenti con tutti, con gruppi e con utenti. I gruppi sono configurati come gruppi di autorizzazioni nell’Admin Console. |
+| Amministratore | Può condividere segmenti con tutti, con gruppi e con utenti. I gruppi sono configurati come gruppi di autorizzazioni nell’Admin Console. |
 |---|---|
 | Non amministratore | Condivisione di segmenti solo con singoli utenti. |
 
@@ -29,7 +28,7 @@ Quando devi condividere i segmenti con l’intera azienda anziché con un solo g
 
    ![](assets/segment_mgmt_toolbar.png)
 
-1. Fai clic su **[!UICONTROL Share]**.
+1. Fai clic su **[!UICONTROL Share]** (Genera).
 
    ![](assets/sharing_segments.png)
 
