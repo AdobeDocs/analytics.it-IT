@@ -1,12 +1,11 @@
 ---
 description: Eseguite l'impostazione una tantum per il report Marketing Channel.
-solution: Analytics
 subtopic: Marketing channels
 title: Impostazione automatica
 topic: Reports and analytics
 uuid: 737dd1c8-dc65-4d02-bba0-1d471f093593
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,4 +36,4 @@ Come eseguire la configurazione automatica di Marketing Channels.
 
    Consulta [Marketing Channel Manager](/help/components/c-marketing-channels/c-channels.md).
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
