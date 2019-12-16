@@ -1,12 +1,11 @@
 ---
 description: Passaggi che descrivono come assegnare gruppi di utenti a una suite di rapporti.
-solution: Analytics
 subtopic: Users and groups
 title: Assegnare gruppi di utenti a una suite di rapporti
 topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,4 +28,4 @@ La [!UICONTROL Report Suites] pagina consente di visualizzare e configurare le s
    **[!UICONTROL Available Groups:]** Visualizza tutti i gruppi attualmente definiti. Selezionate i gruppi desiderati, quindi fate clic **[!UICONTROL Add]**. I gruppi assegnati vengono visualizzati nel campo Gruppo contenitore (a destra).
 
    **[!UICONTROL Group Containing:]** Visualizza tutti i gruppi attualmente assegnati alla suite di rapporti. Per rimuovere un gruppo, selezionatelo e fate clic su **[!UICONTROL Remove]**.
-1. Fai clic su **[!UICONTROL Save Changes]**.
+1. Fai clic su **[!UICONTROL Save Changes]** (Genera).
