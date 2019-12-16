@@ -1,12 +1,11 @@
 ---
 description: Prima che i canali e i dati dei canali possano essere visualizzati nel rapporto, crea i canali e le regole sottostanti che elaborano i dati. Potete anche creare importi di costo e budget per i canali associati e specificare per quanto tempo il periodo di coinvolgimento del visitatore deve durare. Esegui le attività di configurazione dei rapporti in Strumenti di amministrazione.
-solution: Analytics
 subtopic: Marketing channels
 title: Informazioni sui canali e sulle regole
 topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
