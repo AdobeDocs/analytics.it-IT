@@ -1,12 +1,11 @@
 ---
 description: Invece di mantenere e caricare le classificazioni ogni volta che i codici di monitoraggio cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
-solution: Analytics
 subtopic: Classifications
 title: Flusso di lavoro di Generatore regole di classificazione
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Questa è la **soluzione alternativa** per coloro che hanno più di 10 milioni d
 
 ## Guida introduttiva alle regole di classificazione {#section_3FF666EF9D5B4E37A23B3FB400CDA2E6}
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]**
+**[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** (Componenti &gt; Nuovo intervallo di date)
 
 Di seguito sono riportati i passaggi di alto livello da effettuare per implementare le regole di classificazione:
 
