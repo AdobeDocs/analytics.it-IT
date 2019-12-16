@@ -1,12 +1,11 @@
 ---
 description: Le classificazioni vengono utilizzate per classificare i valori in gruppi e per creare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come i termini musicali pop e generare report sul successo di quella categoria in relazione a metriche come Istanze (click-through) e conversione in eventi di successo.
-solution: Analytics
 subtopic: Classifications
 title: Classificazioni di conversione
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -80,7 +79,7 @@ Procedura che descrive come aggiungere classificazioni di conversione in Amminis
 1. Nella finestra di **[!UICONTROL Dropdown List]** dialogo, aggiungere o rimuovere le opzioni.
 
    L'aggiunta di opzioni crea un elenco di valori di classificazione disponibili per questa classificazione. Puoi utilizzare questa opzione con le variabili Campaign per fornire agli utenti un elenco di valori supportati per la classificazione in Campaign Manager. Utilizzate questa opzione per le dimensioni di classificazione in cui è presente un numero limitato di valori consentiti che raramente o mai cambiano. Ad esempio, potete eseguire diverse campagne mirate a diversi livelli di fedeltà dei clienti: Argento, Oro e Platino. Potreste quindi utilizzare l'elenco a discesa per assicurarvi che gli unici valori accettati siano quelli che corrispondono ai vostri tre livelli. Se qualcuno tenta di utilizzare un valore diverso, viene eliminato.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
 
 ## Eliminare una classificazione di conversione {#task_566651BC245944618A6A833E58211FDE}
 
