@@ -1,12 +1,11 @@
 ---
 description: Poiché i dispositivi mobili sono tracciati tramite un beacon, come gli altri visitatori, la maggior parte dei rapporti sono disponibili e corretti.
 keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
-solution: Analytics
 title: Rapporti per dispositivi mediante protocolli mobile
 topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,7 +30,7 @@ I domini sono anche basati sull'indirizzo IP del gateway, il che significa che i
 
 ## Tipi di connessione {#section_0E7FA18178B848AEBB839B1694B4D691}
 
-Adobe mantiene una gamma nota di indirizzi IP appartenenti a gestori di dispositivi mobili. Quando un hit viene ricevuto da un intervallo IP che appartiene a un vettore mobile noto, l'hit viene visualizzato come "Mobile Carrier" nel report sul tipo di connessione. In caso contrario, il traffico mobile è elencato in "Lan/Wifi".
+Adobe mantiene una gamma nota di indirizzi IP appartenenti a gestori di dispositivi mobili. Quando un hit viene ricevuto da un intervallo IP che appartiene a un vettore mobile noto, l’hit viene visualizzato come "Mobile Carrier" nel report sul tipo di connessione. In caso contrario, il traffico mobile è elencato in "Lan/Wifi".
 
 ## Fusi orari, Cookie, Java, JavaScript, Colori e risoluzioni monitor, Larghezza e Altezza browser e Plug-in Netscape {#section_158C848273AE4691B4413767E849E846}
 
