@@ -1,12 +1,11 @@
 ---
 description: Una suite di rapporti definisce il reporting indipendente e completo su un sito Web scelto, su un insieme di siti Web o su un sottoinsieme di pagine Web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando effettui l’accesso ai rapporti marketing, alle analisi ad hoc e al generatore di report, selezioni una suite di rapporti da utilizzare (eccetto quando utilizzi roll-up, in cui sono combinate più suite di rapporti).
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: Report e suite per report
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -42,7 +41,7 @@ Puoi utilizzare [Analysis Workspace](https://marketing.adobe.com/resources/help/
 <p class="head"> <b>Consulta anche</b> </p>
 
 * [Aiuto per Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
-* [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
+* [Reporting e analisi](/help/analyze/reports-analytics/overview/report-overview.md)
 * [Rapporti in tempo reale](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * [Guida di Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/)
 * [Estratti di dati](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
