@@ -1,13 +1,12 @@
 ---
 description: Personalizza le autorizzazioni del gruppo per gli strumenti Analytics, gli strumenti della suite di rapporti, le metriche e le dimensioni.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Panoramica di personalizzazione accesso ai rapporti
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Personalizza le autorizzazioni del gruppo per gli strumenti Analytics, gli strumenti della suite di rapporti, le metriche e le dimensioni.
 
-**[!UICONTROL Add New Group]** &gt; **[!UICONTROL Report Access]**
+**[!UICONTROL Add New Group]** &gt; **[!UICONTROL Report Access]** (Componenti &gt; Nuovo intervallo di date)
 
 La [!UICONTROL Report Access] sezione della [!UICONTROL Define User Group] pagina fornisce categorie di accesso che consentono di personalizzare le autorizzazioni a livello granulare.
 
@@ -40,17 +39,17 @@ For example, you can create a group with access to multiple Analytics tools ( [!
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Accesso amministratore / gruppi predefiniti </p> </td> 
-   <td colname="col2"> <p> I gruppi predefiniti non sono più necessari per gli amministratori. Gli amministratori possono ora accedere a tutti gli elementi (strumenti, metriche, dimensioni), nonché a Servizio Web, Generatore di report, Activity Map e Analisi ad hoc. </p> <p>Lo scopo dei gruppi è concedere o limitare l'accesso agli utenti non amministrativi. </p> </td> 
+   <td colname="col2"> <p>  I gruppi predefiniti non sono più necessari per gli amministratori. Gli amministratori possono ora accedere a tutti gli elementi (strumenti, metriche, dimensioni), nonché a Servizio Web, Generatore di report, Activity Map e Analisi ad hoc. </p> <p>Lo scopo dei gruppi è concedere o limitare l'accesso agli utenti non amministrativi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gruppi personalizzati </p> </td> 
-   <td colname="col2"> <p> I gruppi personalizzati hanno sostituito i gruppi predefiniti. I gruppi predefiniti esistenti verranno migrati in gruppi personalizzati, utilizzando lo stesso nome di gruppo. Eventuali gruppi personalizzati creati, comprese le relative impostazioni, verranno mantenuti. Tuttavia, noterete che la posizione delle impostazioni sarà stata spostata. Ad esempio, le impostazioni della società (in Personalizza Admin Console) ora sono in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizza strumenti</a>Analytics. </p> <p> Gli utenti appartenenti a <span class="term"> All Report Access (Accesso</span> a tutti i rapporti) sono stati migrati in un gruppo personalizzato con accesso a: </p> 
+   <td colname="col2"> <p>  I gruppi personalizzati hanno sostituito i gruppi predefiniti. I gruppi predefiniti esistenti verranno migrati in gruppi personalizzati, utilizzando lo stesso nome di gruppo. Eventuali gruppi personalizzati creati, comprese le relative impostazioni, verranno mantenuti. Tuttavia, noterete che la posizione delle impostazioni sarà stata spostata. Ad esempio, le impostazioni della società (in Personalizza Admin Console) ora sono in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizza strumenti</a>Analytics. </p> <p> Gli utenti appartenenti a <span class="term"> All Report Access (Accesso</span> a tutti i rapporti) sono stati migrati in un gruppo personalizzato con accesso a: </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">Tutte le dimensioni </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">Tutte le metriche </li> 
      <li id="li_265830A2C6B94AF28720DA99980EAA51">Tutte le suite di rapporti </li> 
      <li id="li_685B99DEAB814D7B9C11B14AA4CB8CD4">Report canale </li> 
-     <li id="li_B35420302AAB42509BD6AF0FA6349BF8">Detección de anomalías </li> 
+     <li id="li_B35420302AAB42509BD6AF0FA6349BF8">Rilevamento delle anomalie </li> 
      <li id="li_3787E4696C454D3ABD1D75F6C282A9A2">Report in tempo reale </li> 
      <li id="li_3797DF9C40D1426588819116362962F5">Accesso all'Area di lavoro Analisi </li> 
     </ul> <p>Gli amministratori possono eliminare i gruppi personalizzati e crearne uno proprio, poiché tutte le impostazioni precedentemente disponibili in gruppi predefiniti sono disponibili per la personalizzazione in base alle impostazioni di accesso <span class="wintitle"> ai</span> rapporti in Definisci gruppi</a>utenti. </p> </td> 
