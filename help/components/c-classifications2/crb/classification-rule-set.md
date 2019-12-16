@@ -1,12 +1,11 @@
 ---
 description: Un set di regole è un gruppo di regole di classificazione per una specifica variabile. Si applica una variabile al set di regole. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
-solution: Analytics
 subtopic: Classifications
 title: Set di regole di classificazione
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ Un set di regole è un gruppo di regole di classificazione per una specifica var
 
 ## Classification Rule Builder Page {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 I campi e le opzioni seguenti sono disponibili sul [!UICONTROL Classifications Rule Builder].
 
@@ -83,7 +82,7 @@ Denominate il set di regole di classificazione, applicate la variabile e specifi
 
    ![](assets/classification_rules_page.png)
 
-1. Fai clic su **[!UICONTROL Select Report Suites and Variables]**.
+1. Fai clic su **[!UICONTROL Select Report Suites and Variables]** (Genera).
 
    La suite di rapporti e l'elenco delle variabili vengono compilati con tutte le variabili classificate disponibili in tutte le suite di rapporti della società di accesso. Una singola variabile in una suite di rapporti può appartenere a un solo set di regole.
 
