@@ -1,11 +1,10 @@
 ---
 description: Consente di visualizzare informazioni sulle attività di vendita, distribuzione o visualizzazione sul sito Web. Potete visualizzare i dati sugli ordini o sui download per prodotti, applicazioni o contenuti.
-solution: Analytics
 title: Rapporti sui prodotti
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
