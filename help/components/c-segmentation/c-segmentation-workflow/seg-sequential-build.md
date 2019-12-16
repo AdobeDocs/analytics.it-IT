@@ -1,11 +1,10 @@
 ---
 description: I segmenti sequenziali vengono creati utilizzando l'operatore THEN, anziché AND o OR. Ciò implica che si verifica un criterio di segmento, seguito da un altro. Per impostazione predefinita, un segmento sequenziale identifica tutti i dati corrispondenti, mostrando il filtro "Includi tutti". I segmenti sequenziali possono essere ulteriormente filtrati in un sottoinsieme di hit corrispondenti utilizzando le opzioni "Solo prima della sequenza" e "Solo dopo la sequenza".
-solution: Analytics
 title: Creare segmenti sequenziali
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,7 +39,7 @@ Ad esempio, considerate una sequenza di B -&gt; D. I tre filtri identificano gli
 
 **Esempio 1: B e D appaiono una volta**
 
-| Esempio  | Una  | B | C | D | E | F |
+| Esempio | Una  | B | C | D | E | F |
 |---|---|---|---|---|---|---|
 | Includi tutti | Una  | B | C | D | E | F |
 | Solo prima della sequenza | Una  | B |  |  |  |  |
@@ -48,7 +47,7 @@ Ad esempio, considerate una sequenza di B -&gt; D. I tre filtri identificano gli
 
 **Esempio 2: B e D appaiono più volte**
 
-| Esempio  | Una  | B | C | D | B | C | D | E |
+| Esempio | Una  | B | C | D | B | C | D | E |
 |---|---|---|---|---|---|---|---|---|
 | Includi tutti | Una  | B | C | D | B | C | D | E |
 | Solo prima della sequenza | Una  | B | C | D | B |  |  |  |
