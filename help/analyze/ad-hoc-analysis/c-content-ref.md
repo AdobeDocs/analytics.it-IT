@@ -1,11 +1,10 @@
 ---
 description: Analisi ad hoc si integra con l'ambiente di segmentazione di Analytics, consentendo di creare, condividere, gestire e applicare segmenti di visitatori tra i prodotti Adobe. Analisi ad hoc fornisce un'interfaccia utente basata su Java per il Segment Builder e il Segment Manager identica agli strumenti basati sul Web utilizzati da altri strumenti Analytics, che corrispondono alle chiamate dei server e forniscono le stesse funzionalità e funzionalità da una console basata su Java.
-solution: Analytics
 title: Generare segmenti
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
