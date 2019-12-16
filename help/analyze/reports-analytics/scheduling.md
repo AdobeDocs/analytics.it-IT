@@ -1,12 +1,11 @@
 ---
 description: Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
-solution: Analytics
 subtopic: Schedule
 title: Pianificazione e distribuzione del rapporto
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ A causa delle differenze nei meccanismi di elaborazione e nelle piattaforme, i v
 
 * Word, CSV, Excel, HTML e PDF: Lo stesso numero di righe visibili nel report. Per impostazione predefinita, questo limite è di 50 righe ma può aumentare fino a 200. I rapporti di suddivisione hanno un limite rigido di 50 righe.
 * Estratti dati: 50.000 righe
-* Data Warehouse:Senza limiti
+* Data Warehouse: Senza limiti
 
 Tali limitazioni riguardano i singoli rapporti pianificati e scaricati; le dashboard sono limitate alla quantità di spazio disponibile all'interno di un reportlet.
 
@@ -59,7 +58,7 @@ Passaggi che descrivono come scaricare e inviare i rapporti per e-mail in vari f
 | Invia file firma digitale | Quando si richiede un rapporto, ad esempio un rapporto con segnalibro o richieste di data warehouse, è possibile richiedere una firma dati. La firma digitale di Adobe non limita l'accesso ai dati da parte degli utenti, ma lo scopo del file di firma digitale (.sig) è di verificare la validità del file di rapporto consegnato. Utilizzando la firma digitale, i destinatari del rapporto possono verificare che il file provenga da Adobe e non sia stato modificato. |
 | Destinazione report | <ul><li>E-mail: Consente di configurare le impostazioni dell’indirizzo e-mail, l’oggetto e le note.</li><li>FTP: Consente di configurare le impostazioni FTP, inclusi host, porta, directory, nome utente e password.</li></ul> |
 
-1. Fai clic su **[!UICONTROL Scheduling Options]**.
+1. Fai clic su **[!UICONTROL Scheduling Options]** (Genera).
 
 | Opzione | Descrizione |
 |--- |--- |
@@ -74,14 +73,14 @@ Passaggi che descrivono come scaricare e inviare i rapporti per e-mail in vari f
 Passaggi che descrivono come stampare un rapporto.
 
 1. Esegui un report.
-1. Clic **[!UICONTROL More]** &gt; **[!UICONTROL Print]**.  ![](assets/print.png)
+1. Fai clic su **[!UICONTROL More]** &gt; **[!UICONTROL Print]**.  ![](assets/print.png)
 
 ## Download a report using basic options {#task_43660107A1C9485D92981CD75B562577}
 
 Scarica informazioni dettagliate su un rapporto specifico nei formati PDF, CSV, Excel o Raw Data Export.
 
 1. In **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** , selezionate un rapporto da visualizzare.
-1. Fai clic su **[!UICONTROL Download]**.
+1. Fai clic su **[!UICONTROL Download]** (Genera).
 
    ![](assets/download_basic.png)
 
