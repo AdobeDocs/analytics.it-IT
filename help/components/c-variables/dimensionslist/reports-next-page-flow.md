@@ -1,11 +1,10 @@
 ---
 description: Visualizza le visualizzazioni dei percorsi oppure il numero di volte e percentuali di visualizzazione di una pagina entro i limiti dei percorsi. Ad esempio, una pagina dell'Informativa sulla privacy potrebbe avere 10.000 visualizzazioni totali di pagina, ma solo 500 di tali visualizzazioni si sono verificate immediatamente prima di una pagina principale. In questo caso, vedreste 500 visualizzazioni di percorso. Puoi visualizzare il rapporto a livello di visita o visitatore. Le percentuali per ogni pagina vengono visualizzate accanto al nome della pagina. La larghezza di una linea collegata a una pagina rappresenta la percentuale relativa di visite.
-solution: Analytics
 title: Flusso pagina successiva
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Per impostazione predefinita, questo rapporto mostra le prime 10 pagine su cui g
 Utilizzate questo rapporto per:
 
 * Scoprite i passaggi più frequenti dopo la visualizzazione di una pagina selezionata.
-* Ottimizzate la progettazione del percorso del sito per rendere il traffico scorrevole verso una pagina di destinazione desiderata.
+* Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
 * Identificate dove vanno i visitatori al posto delle pagine di obiettivi desiderate.
 
 **Informazioni specifiche del prodotto**
@@ -33,7 +32,7 @@ Utilizzate questo rapporto per:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Reporting e analisi </td> 
+   <td colname="col1"> Reports &amp; Analytics </td> 
    <td colname="col2"> <p> Fate clic su <span class="uicontrol"> Grafica</span> per visualizzare due livelli delle pagine più popolari visualizzate dai visitatori dopo la pagina selezionata. Il rapporto evidenzia anche quando i visitatori escono dal sito. </p> <p>Fare clic su <b>Tabulare</b> per visualizzare le pagine successive in un elenco simile al report <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Pagina</a>successiva. Tuttavia, consente anche di approfondire ciascuna pagina <i></i> successiva per visualizzare le pagine successive in ciascun flusso di due pagine. </p> <p>Reporting e analisi utilizza le visualizzazioni dei percorsi. </p> </td> 
   </tr> 
   <tr> 
