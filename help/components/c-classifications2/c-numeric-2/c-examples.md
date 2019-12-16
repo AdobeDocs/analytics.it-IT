@@ -1,12 +1,11 @@
 ---
 description: Esempi per fornire indicazioni per l'importazione di classificazioni numeriche 2.
-solution: Analytics
 subtopic: Classifications
 title: Esempi
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -116,8 +115,8 @@ c_example_3__fixed.xml
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
-| 2010/03/01 - 2010/03/31 | fixed | none |
-| 2010/03/01 - 2010/03/31 | fixed | none |
+| 2010/03/01 - 2010/03/31 | fixed |  none |
+| 2010/03/01 - 2010/03/31 | fixed |  none |
 
 ## Risultato {#section_674B57ADB8284B878F9E670038C31464}
 
@@ -150,9 +149,9 @@ In questo esempio, si aggiunge una spesa di spedizione di $500 al Prodotto1 per 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
 | 2010/01/01 - 2010/01/31 | ricavo | ricavo |
-| 2010/01/01 - 2010/01/31 | fixed | none |
+| 2010/01/01 - 2010/01/31 | fixed |  none |
 | 2010/02/01 - 2010/01/31 | ricavo | ricavo |
-| 2010/02/01 - 2010/01/31 | fixed | none |
+| 2010/02/01 - 2010/01/31 | fixed |  none |
 
 Le righe precedentemente importate hanno un ID che indica che non sono nuovi costi.
 
@@ -192,9 +191,9 @@ Un esempio di output del rapporto è illustrato di seguito:
 
 Periodo: Mar 2010
 
-Rapporto:Prodotti per pagina
+Rapporto: Prodotti per pagina
 
-| Prodotti per pagina | Ordini | MyCost |
+|  Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $1000.00 |
 | Home page | 600 | $600 |
@@ -213,8 +212,8 @@ c_example_5__fixed_no_hinge.xml
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
-| 2010/03/01 - 2010/03/31 | fixed | none |
-| 2010/03/01 - 2010/03/31 | fixed | none |
+| 2010/03/01 - 2010/03/31 | fixed |  none |
+| 2010/03/01 - 2010/03/31 | fixed |  none |
 
 ## Risultato {#section_7F5F5970077D4E14A5DC91495E23540D}
 
@@ -222,9 +221,9 @@ Un esempio di output del rapporto è illustrato di seguito:
 
 Periodo: Mar 2010
 
-Rapporto:Prodotti per pagina
+Rapporto: Prodotti per pagina
 
-| Prodotti per pagina | Ordini | MyCost |
+|  Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Home page | 600 | 0 |
@@ -254,9 +253,9 @@ Un esempio di output del rapporto è illustrato di seguito:
 
 Periodo: Mar 2010
 
-Rapporto:Prodotti per pagina
+Rapporto: Prodotti per pagina
 
-| Prodotti per pagina | Ordini | MyCost |
+|  Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Home page | 600 | $1800.00 |
@@ -284,9 +283,9 @@ Un esempio di output del rapporto è illustrato di seguito:
 
 Periodo: Mar 2010
 
-Rapporto:Prodotti per pagina
+Rapporto: Prodotti per pagina
 
-| Prodotti per pagina | Ordini | MyCost |
+|  Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Home page | 600 | $1,000.00 |
