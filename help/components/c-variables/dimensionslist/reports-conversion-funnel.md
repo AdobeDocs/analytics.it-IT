@@ -1,11 +1,10 @@
 ---
 description: I rapporti di conversione in genere misurano la conversione tra gli eventi o i punti di conversione iniziali, finali e milestone. Dopo aver codificato gli eventi di successo sul sito, il rapporto crea i rapporti tra questi diversi eventi di successo e li mostra in un rapporto sul funnel di conversione.
-solution: Analytics
 title: Funnel di conversione
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
