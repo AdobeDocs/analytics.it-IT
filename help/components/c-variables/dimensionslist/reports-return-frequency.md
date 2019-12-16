@@ -1,11 +1,10 @@
 ---
 description: Mostra il tempo che trascorre tra le visite dei visitatori di ritorno e il numero di visite che rientrano in ogni categoria di lunghezza di tempo. Utilizzate il rapporto per visualizzare la quantità media di tempo che i visitatori ripetuti passano senza visitare il sito e le tendenze dei clienti ripetuti.
-solution: Analytics
 title: Restituisci frequenza
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
