@@ -1,11 +1,10 @@
 ---
 description: 'Gran parte dell''engagement ai servizi tecnici Adobe prevede lo scambio di dati, attività che spesso richiede l''uso di un FTP. '
 keywords: ftp;sftp
-solution: Analytics
 title: Engagement ai servizi tecnici con FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
