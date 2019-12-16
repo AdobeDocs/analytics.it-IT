@@ -1,12 +1,11 @@
 ---
 description: Elenco di eventi predefiniti.
 keywords: Analytics Implementation;event
-solution: Analytics
 title: L'evento predefinito
 topic: Developer and implementation
 uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
