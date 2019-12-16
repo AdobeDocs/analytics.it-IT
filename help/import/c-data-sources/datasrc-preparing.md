@@ -1,12 +1,11 @@
 ---
 description: 'Procedura per prepararsi all''utilizzo di Origini dati:'
-solution: Analytics
 subtopic: Data sources
 title: Preparazione all'utilizzo di Origini dati
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Consulta [Eventi di successo](https://marketing.adobe.com/resources/help/en_US/r
 
 ## Identificare le dimensioni dei dati {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-Identificare e raccogliere i dati (rapporti) da utilizzare per suddividere le metriche importate tramite Origine dati. Questi dati sono noti come *`data dimensions`*.
+Identificare e raccogliere i dati (rapporti) da utilizzare per suddividere le metriche importate tramite Origine dati. Questi dati sono noti come *`data dimensions`* (giornaliero).
 
 Ad esempio, se una metrica Origini dati misura ad impression, la dimensione dati è probabilmente il codice di tracciamento campagna. Se stai misurando una vendita offline, potresti voler utilizzare il codice prodotto (o SKU) come dimensione dati.
 
