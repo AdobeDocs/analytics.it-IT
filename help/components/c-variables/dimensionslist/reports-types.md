@@ -1,11 +1,10 @@
 ---
 description: Descrizioni delle categorie di rapporti utilizzate in Experience Cloud.
-solution: Analytics
 title: Categorie di rapporti
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
