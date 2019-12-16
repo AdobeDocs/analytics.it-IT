@@ -1,12 +1,11 @@
 ---
 description: La maggior parte dei dispositivi mobili accetta i cookie del browser. Tuttavia, se i dispositivi non accettano i cookie, viene utilizzato un altro metodo per identificare in modo univoco i dispositivi wireless.
 keywords: Analytics Implementation
-solution: Analytics
 title: Identificare i dispositivi mobili
 topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -67,7 +66,7 @@ Il seguente elenco di intestazioni viene utilizzato per identificare i dispositi
 1. converti il tasto intestazione in minuscolo
 1. confronta la fine della chiave con quelle nella tabella seguente per trovare una corrispondenza:
 
-| Intestazione | Type (Tipo) | Esempio  |
+| Intestazione | Type (Tipo) | Esempio |
 |---|---|---|
 | callinglineid | ID | X-Up-Calling-Line-ID: 8613802423312 |
 | subno | ID | x-up-subno: swm_10448371100_vmag.mycingular.net |
