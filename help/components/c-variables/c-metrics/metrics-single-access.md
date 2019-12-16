@@ -1,11 +1,10 @@
 ---
 description: Accesso singolo è definito dal numero di visite al sito che contenevano un singolo valore Nome pagina univoco. Se un utente accede al sito e fa clic su un collegamento tracciato, attiva un evento (ad esempio una visualizzazione video) o ricarica la pagina, la visita è comunque considerata una visita a accesso singolo. Fintanto che il valore della variabile pageName non cambia, è possibile inviare un numero qualsiasi di richieste e la visita viene comunque considerata un accesso singolo.
-solution: Analytics
 title: Accesso singolo
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
