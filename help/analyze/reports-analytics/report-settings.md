@@ -1,11 +1,10 @@
 ---
 description: Impostazioni che definiscono l’aspetto di tutti i rapporti e le informazioni che mappano le opzioni di menu predefinite alla loro posizione nel menu semplificato.
-solution: Analytics
 title: Impostazioni di visualizzazione e navigazione del rapporto
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Impostazioni che definiscono l’aspetto di tutti i rapporti e le informazioni c
 
 ## Impostazioni di visualizzazione e navigazione del rapporto {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Report Settings]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Report Settings]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -28,7 +27,7 @@ Impostazioni che definiscono l’aspetto di tutti i rapporti e le informazioni c
 | Mostra struttura menu predefinita di Adobe | Ignora le impostazioni in Strumenti di amministrazione, in cui gli amministratori personalizzano i menu dei rapporti in base alle preferenze degli utenti, e di nuovo il menu del rapporto alle impostazioni predefinite. |
 | Forza la larghezza delle colonne durante la visualizzazione dei rapporti | Forza la larghezza delle colonne del report a una coerenza esteticamente gradevole. Questa impostazione è utile quando vengono visualizzate più di tre metriche. |
 | **Grafici e grafici** |  |
-| Evidenzia i fine settimana sui grafici di tendenza | Evidenzia verticalmente le date del fine settimana dei grafici con tendenze dei report. I report con tendenze possono essere molto più facili da valutare quando i fine settimana sono identificati. |
+| Evidenzia i fine settimana sui grafici di tendenza | Evidenzia verticalmente le date di fine settimana dei grafici con tendenze dei report. I report con tendenze possono essere molto più facili da valutare quando i fine settimana sono identificati. |
 | Includi previsione nel grafico e nel riepilogo | Stima quanto si verificherà in futuro una particolare statistica. La previsione viene visualizzata nella sezione di riepilogo del rapporto quando abilitata. |
 | Includi eventi calendario nei rapporti | Monitora le prestazioni del sito rispetto a eventi specifici. Quando attivato, questi eventi vengono visualizzati nei rapporti. |
 | Utilizzare i grafici Flash | Abilita grafici Flash nei rapporti. I grafici Flash forniscono immagini più nitide e interattive per i rapporti, ma non consentono di copiare o salvare facilmente le immagini. Per una rapida funzionalità di copia o salvataggio delle immagini, disattivate questa opzione (le immagini saranno in formato .gif). Se deselezionate questa opzione, il pulsante Copia grafico non viene visualizzato nella barra degli strumenti del rapporto. |
@@ -71,7 +70,7 @@ Se si utilizza il menu predefinito, la tabella seguente semplifica la ricerca de
 |  | Carrello | Metriche &gt; Carrello acquisti |
 |  | Eventi personalizzati | Metriche &gt; Eventi personalizzati |
 |  | Bot | Pubblico &gt; Bots |
-|  | Detección de anomalías | Metriche &gt; Rilevamento delle anomalie |
+|  | Rilevamento delle anomalie | Metriche &gt; Rilevamento delle anomalie |
 |  | Real-Time (Tempo reale) | Metriche &gt; Tempo reale |
 | **Contenuto del sito** |  |  |
 |  | Pagine | Contenuto &gt; Pagine |
