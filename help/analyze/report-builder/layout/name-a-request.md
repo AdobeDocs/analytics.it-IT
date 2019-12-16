@@ -1,11 +1,10 @@
 ---
 description: Potete specificare un nome personalizzato per la richiesta, che verrà visualizzato in Gestore richieste.
-solution: Analytics
 title: Assegnare un nome a una richiesta
 topic: Report builder
 uuid: 111326eb-33e2-490b-9a04-0f481a70e072
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
