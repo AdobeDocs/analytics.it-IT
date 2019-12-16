@@ -1,11 +1,10 @@
 ---
 description: I filtri consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
-solution: Analytics
 title: Filtraggio dati dei rapporti
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -153,7 +152,7 @@ Quando accedete a questi filtri, potete visualizzare le metriche dei rapporti pe
 1. Nell’intestazione del rapporto, fate clic sul **[!UICONTROL Filter]** collegamento.
 1. Sulla [!UICONTROL Filter Selector] pagina, fate clic **[!UICONTROL Apply a Filter]**, quindi selezionate un tipo di filtro.
 1. Per cercare un elemento, digitare una stringa di caratteri nel **[!UICONTROL Search]** campo.
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]** (Genera).
 
 ## Add a correlation filter {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
