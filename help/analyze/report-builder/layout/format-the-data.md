@@ -1,11 +1,10 @@
 ---
 description: Oltre alle opzioni di formattazione standard disponibili tramite la funzione Formato > Celle di Excel (Ctrl+1), con il generatore di report puoi applicare una formattazione limitata agli intervalli di celle. Queste scelte di formattazione dipendono dalla metrica scelta.
-solution: Analytics
 title: Formattare la data
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ La tabella seguente descrive come utilizzare le abbreviazioni di data nel [!UICO
 | M | Numero di mesi | 3 |
 | MM | Numero di mesi con 0 riempimento per mesi &lt; 10 | 03 |
 | MMM | Nome breve del mese | Mar |
-| MMMM | Nome lungo del mese | marzo |
+| MMMM | Nome lungo del mese | Marzo |
 | D | Nome lungo della data | mercoledì 14 marzo 2012 |
 | d | Numero di giorni | 14 |
 | dd | Numero di giorni con 0 spazi per giorni &lt; 10 | 01 - 09 |
