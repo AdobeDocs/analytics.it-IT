@@ -1,11 +1,10 @@
 ---
 description: Potete aggiornare le richieste dopo averle aggiornate con modifiche, filtri o visualizzare dati più recenti. È possibile selezionare più richieste in un foglio di lavoro e aggiornarle tutte contemporaneamente.
-solution: Analytics
 title: Aggiornare una richiesta
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,6 +23,6 @@ Se aumentate l'intervallo di date di una richiesta e quindi aggiornate la richie
    **** Data: Data in cui si desidera basare l'aggiornamento. Also known as the [!UICONTROL As Of] date.
 
    **** Impostato su Data corrente per le azioni di aggiornamento future: Abilitando questa opzione, al generatore di report viene indicato di utilizzare sempre la data corrente come data [!UICONTROL Now] (o [!UICONTROL As Of]). È possibile ripristinare questa impostazione facendo clic [!UICONTROL Options] sulla barra degli strumenti.
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]** (Genera).
 
    Quando l'aggiornamento ha esito positivo, il sistema lo segnala con un'icona verde sul [!UICONTROL Request Manager].
