@@ -1,11 +1,10 @@
 ---
 description: Gli amministratori possono configurare un rapporto con metriche specifiche e un intervallo di date specifico, quindi salvarlo nei menu del rapporto affinché tutti possano utilizzarlo.
-solution: Analytics
 title: Personalizzato
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
