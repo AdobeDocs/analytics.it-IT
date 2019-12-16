@@ -1,12 +1,11 @@
 ---
 description: Il codice di Analytics crea un oggetto immagine, un'immagine non visibile che non viene visualizzata sulla pagina.
 keywords: Analytics Implementation
-solution: Analytics
 title: Inserimento del codice Analytics nel tag head
 topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
