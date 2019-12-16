@@ -1,11 +1,10 @@
 ---
-description: nulle
-solution: Analytics
+description: 'null'
 title: Esempio di codice di implementazione
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
