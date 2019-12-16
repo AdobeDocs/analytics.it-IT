@@ -1,11 +1,10 @@
 ---
 description: Quando un determinato segmento su cui si sta creando un rapporto è importante, potresti voler saperne di più su di esso e come si collega ad altre dimensioni. Questa operazione è spesso denominata suddivisione di una dimensione per un’altra dimensione. Una suddivisione è l'azione di integrazione di due o più variabili Analytics.
-solution: Analytics
 title: Suddividi
 topic: Reports
 uuid: 0f2c8c37-f46e-4d6c-9ac2-eace48e8708f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
