@@ -1,12 +1,11 @@
 ---
 description: nulle
 keywords: Analysis Workspace
-solution: Analytics
 title: 'Crea progetto: panoramica'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ La query va direttamente al generatore di rapporti: per creare un’analisi, pot
 
 ## Pagina dell’elenco dei progetti Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-Quando scegli **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, vengono elencati tutti i progetti di cui sei l’autore o a cui puoi accedere. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. Se non trovi questa impostazione, come illustrato nella videata qui sotto, è possibile che la pagina sia già stata impostata come pagina di destinazione.
+Quando scegli **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, vengono elencati tutti i progetti di cui sei l’autore o a cui puoi accedere. Per impostare questa pagina come pagina di destinazione di Adobe Analytics, fai clic su **[!UICONTROL Set as Landing Page]** (Imposta come pagina di destinazione). Se non trovi questa impostazione, come illustrato nella videata qui sotto, è possibile che la pagina sia già stata impostata come pagina di destinazione.
 
 ![](assets/sample-project.png)
 
@@ -31,33 +30,33 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 
 | Elemento | Descrizione |
 |---|---|
-| Progetto  [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
+| Progetto [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
 | [Crea nuovo progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Fai clic su questo collegamento per iniziare un nuovo progetto da zero. |
-| Gestione progetti | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
+| Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**, ovvero Analytics &gt; Componenti &gt; Progetti), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
 | Visualizza esercitazioni | Consente di accedere ai [video YouTube su Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nome | Nome del progetto Workspace. |
 | Creato da | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
-| Tag | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info & Settings]**. |
+| Tag | Tag applicati al progetto, nel modulo di gestione dei componenti o in **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info & Settings]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto). |
 | Ultima modifica | Data e ora dell’ultima volta che il progetto è stato modificato. |
 
 ## Informazioni e impostazioni progetto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info & Settings]**
+**[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info & Settings]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Project Info & Settings]** fornisce informazioni a livello di progetto sul progetto attualmente attivo.
+**[!UICONTROL Project Info & Settings]** (Informazioni e impostazioni progetto) fornisce informazioni a livello di progetto sul progetto attualmente attivo.
 
 | Impostazione | Descrizione |
 |---|---|
-| Nome progetto | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
+| Progetto Nome | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
 | Creato da | Nome del proprietario del progetto |
 | Ultima modifica | Data dell’ultima modifica apportata al progetto. |
-| Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. Puoi anche assegnare i tag ai progetti al momento del salvataggio. View a project's tags on the Workspace Landing Page in the [!UICONTROL Tags] column. |
+| Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. Puoi anche assegnare i tag ai progetti al momento del salvataggio. Puoi vedere i tag di un progetto nella colonna [!UICONTROL Tags] che si trova nella pagina di destinazione di Workspace. |
 | Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
 | Conteggio istanze ripetute nel progetto | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Se sono presenti più valori sequenziali per la stessa variabile, è possibile conteggiarli come una singola istanza o più istanze della variabile. |
 | Schema di colori di visualizzazione | È possibile modificare lo schema di colori utilizzato in Workspace, scegliendo una diversa palette di colori o specificandone una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
-| Visualizza densità | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
+| Densità di visualizzazione | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
 
 ## Menu Progetti {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
@@ -67,11 +66,11 @@ Il menu principale Progetti si presenta così:
 
 I sottomenu contengono le seguenti opzioni.
 
-> [!NOTE] Le opzioni contrassegnate da un asterisco (*) vengono visualizzate solo con i progetti **salvati** .
+> [!NOTE] Le opzioni contrassegnate da un asterisco (*) vengono visualizzate solo con progetti **salvati**.
 
-| Progetto | Modifica | Inserisci | Componenti | Condividi | Aiuto |
+| Progetto | Modificare | Inserisci | Componenti | Condividi | Aiuto |
 |---|---|---|---|---|---|
-| Nuovo | Annulla | Nuovo pannello | Nuovo segmento | Condividi progetto | Video |
+| Nuovo i | Annulla | Nuovo pannello | Nuovo segmento | Condividi progetto | Video |
 | Apri | Cancella | Nuovo pannello a forma libera | Nuova metrica | Ottieni collegamento progetto* | Tasti di scelta rapida |
 | Salva | Cancella tutto | Nuovo pannello Confronto segmenti | Nuovo intervallo date | Invia file ora* | Forum di Aiuto |
 | Salva con nome* |  | Nuova tabella a forma libera | Nuovo avviso | Invia file secondo programma* |  |
@@ -83,8 +82,8 @@ I sottomenu contengono le seguenti opzioni.
 
 ## Barra a sinistra {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+La barra a sinistra include 3 icone, che consentono di accedere a Pannelli, [Visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e [Componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) (Dimensioni, Metriche, Segmenti, Intervalli dati) con un clic:
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-L'opzione **[!UICONTROL Blank Panel](Pannello vuoto) è stata aggiunta all'elenco di pannelli accessibile dalla barra a sinistra.** Per creare un **nuovo pannello coorte**, trascina un pannello vuoto nella tabella coorte.
+L’opzione **[!UICONTROL Blank Panel]** (Pannello vuoto) è stata aggiunta all’elenco di pannelli accessibile dalla barra a sinistra. Per creare un **nuovo pannello coorte**, trascina un pannello vuoto nella tabella coorte.
