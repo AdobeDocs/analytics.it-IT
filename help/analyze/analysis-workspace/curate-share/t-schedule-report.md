@@ -1,12 +1,11 @@
 ---
 description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 keywords: Analysis Workspace
-solution: Analytics
 title: 'Invio di file: programmazione di un progetto per la consegna'
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 
 1. [Crea un progetto di Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/t_freeform_project.html) e salvalo.
-1. Fai clic su **[!UICONTROL Share]** &gt; **[!UICONTROL Send File On Schedule]**.
+1. Fai clic su **[!UICONTROL Share]** &gt; **[!UICONTROL Send File On Schedule]** (Condividi &gt; Invia file secondo programma).
 
    ![Risultato passaggio](assets/send-file.png)
 
@@ -24,6 +23,6 @@ Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 
    ![Risultato passaggio](assets/send-file-pop-up.png)
 
-1. Add recipients email addresses or names, the click **[!UICONTROL Send Now]**.
-1. (Optional) Click **[!UICONTROL Show Scheduling Options]** to specify a delivery schedule, then click **[!UICONTROL Send on Schedule]**.
-1. Gestisci progetti programmati in **[!UICONTROL Components]** &gt; Progetti [pianificati](/help/analyze/analysis-workspace/curate-share/schedule-projects.md).
+1. Aggiungi i nomi o gli indirizzi e-mail dei destinatari, quindi fai clic su **[!UICONTROL Send Now]** (Invia).
+1. (Facoltativo) Fai clic su **[!UICONTROL Show Scheduling Options]** (Mostra opzioni di programmazione) per specificare la programmazione della consegna, quindi fai clic su **[!UICONTROL Send on Schedule]** (Invia in base a programmazione).
+1. Gestisci progetti programmati in **[!UICONTROL Components]** &gt; [Scheduled Projects](/help/analyze/analysis-workspace/curate-share/schedule-projects.md) (Componenti &gt; Progetti programmati).
