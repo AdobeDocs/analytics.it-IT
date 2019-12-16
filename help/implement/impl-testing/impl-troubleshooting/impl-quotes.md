@@ -1,13 +1,12 @@
 ---
 description: Quando si inseriscono valori in una variabile, è possibile seguire alcune best practice.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Utilizzo delle virgolette
 topic: Developer and implementation
 uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ s.prop2='test' (single quotes)
 s.prop2="test" (double quotes)
 ```
 
-Accertatevi che le virgolette intelligenti siano disattivate. Se usate virgolette singole e disponete di un apostrofo nel valore della variabile, JavaScript interpreta l’apostrofo come virgolette singole. Ciò significa che è la fine della stringa. Prendi in considerazione l'esempio seguente:
+Accertatevi che le virgolette intelligenti siano disattivate. Se usate virgolette singole e disponete di un apostrofo nel valore della variabile, JavaScript interpreta l’apostrofo come virgolette singole. Ciò significa che è la fine della stringa. Prendi in considerazione l’esempio seguente:
 
 ```js
 s.pageName='John's Home Page'
