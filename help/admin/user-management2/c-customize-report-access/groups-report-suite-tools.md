@@ -1,13 +1,12 @@
 ---
 description: Abilita le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e Rapporti ed Elementi dashboard.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Personalizzare le autorizzazioni degli strumenti delle suite di rapporti
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -66,8 +65,8 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | [Detección de anomalías](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | Concede l'autorizzazione al rilevamento delle anomalie, che fornisce un metodo statistico per determinare in che modo una determinata metrica è cambiata rispetto ai dati precedenti. |
 | [Report canale](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Concede l'autorizzazione per i rapporti sul canale di marketing, disponibile in Rapporti &gt; Rapporti sul canale di marketing. |
 | [Report in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md) | Consente l'accesso al report in tempo reale. |
-| [Pagine bot](/help/admin/admin/bot-removal/bot-rules.md) | Le regole bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web. |
-| [Bot](/help/admin/admin/bot-removal/bot-rules.md) | Le regole bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web. |
+| [Pagine bot](/help/admin/admin/bot-removal/bot-rules.md) | Regole bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web. |
+| [Bot](/help/admin/admin/bot-removal/bot-rules.md) | Regole bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web. |
 | [Report data warehouse personalizzato](/help/export/data-warehouse/data-warehouse.md) | Data warehouse si basa su copie di dati grezzi e non ancora elaborati per l'archiviazione e la creazione di report personalizzati, che puoi eseguire filtrando i dati. Puoi chiedere ai report di visualizzare relazioni avanzate tra i dati, partendo da dati grezzi basati su tue precise domande. |
 | [Visite giornaliere di ritorno](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Legacy) Report che visualizza il numero di visitatori del sito Web più di una volta in un dato giorno. Un giorno è definito come l’ultimo periodo di 24 ore. |
 | [Origini dati Manager](/help/admin/admin/data-sources.md) | La funzione Origini dati consente di importare dati in Analytics da origini offline. |
@@ -77,7 +76,7 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | [Visite di ritorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Un rapporto che mostra il numero di visite in cui il numero di visite è maggiore di 1. Il rapporto Return Visits (Visite di ritorno) include i visitatori non inclusi nel cookie. |
 | [Importatore](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) classificazioni / Esportatore e Generatore di [regole](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | Consolidato in Classificazioni (vedi sotto). |
 | Gestione feed dati | Concede i diritti al feed di dati di Analytics. |
-| Classifications | Combina le seguenti autorizzazioni: "Classificazioni traffico", "Classificazioni video", "Classificazioni conversione", "Gerarchie classificazione", "Gestione classificazioni" e "Importazione/Esportatore classificazioni e Generatore regole".  Nota:  Con questa autorizzazione, gli utenti possono modificare le classificazioni per tutte le suite di rapporti, non solo per quelle selezionate. |
+| Classificazioni | Combina le seguenti autorizzazioni: "Classificazioni traffico", "Classificazioni video", "Classificazioni conversione", "Gerarchie classificazione", "Gestione classificazioni" e "Importazione/Esportatore classificazioni e Generatore regole".  Nota:  Con questa autorizzazione, gli utenti possono modificare le classificazioni per tutte le suite di rapporti, non solo per quelle selezionate. |
 | [Analisi contributi](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede i diritti per l’utilizzo di Analisi contributi in Analysis Workspace. |
 | **Elementi dashboard** |  |
 | Le impostazioni in Elementi dashboard consentono l'accesso ai [minirapporti](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reporting e analisi:, Report consigliati, Report riepilogo società, Immagine, Report KPI/Gage, Totali suite di rapporti, Testo, Report, Report di riepilogo dell'uso e Risorse Web |  |
