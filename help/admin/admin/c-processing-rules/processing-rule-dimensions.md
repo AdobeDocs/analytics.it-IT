@@ -1,12 +1,11 @@
 ---
 description: Le dimensioni che è possibile leggere e scrivere (se non diversamente specificato) utilizzando le regole di elaborazione.
-solution: Analytics
 subtopic: Processing rules
 title: Dimensioni disponibili per le regole di elaborazione
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
