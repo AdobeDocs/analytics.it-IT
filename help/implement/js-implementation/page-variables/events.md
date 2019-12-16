@@ -1,13 +1,12 @@
 ---
 description: Le variabili di pagina popolano direttamente un report, ad esempio pageName, List Props, List Variables e così via.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variabili di pagina
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
