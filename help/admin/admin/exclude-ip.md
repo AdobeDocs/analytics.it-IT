@@ -1,11 +1,10 @@
 ---
 description: Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attività interne sul sito Web, test del sito e utilizzo dei dipendenti. Escludendo i dati si migliora la precisione dei report escludendo i dati degli indirizzi IP. Inoltre, puoi rimuovere i dati dal rifiuto del servizio o da altri eventi dannosi che possono distorcere i dati del rapporto. È possibile configurare l'esclusione o utilizzando il firewall.
-solution: Analytics
 title: Escludi per indirizzo IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attività interne sul sito Web, test del sito e utilizzo dei dipendenti. Escludendo i dati si migliora la precisione dei report escludendo i dati degli indirizzi IP. Inoltre, puoi rimuovere i dati dal rifiuto del servizio o da altri eventi dannosi che possono distorcere i dati del rapporto. È possibile configurare l'esclusione o utilizzando il firewall.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Exclude by IP]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Exclude by IP]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 > [!NOTE] Gli hit esclusi dall'indirizzo IP vengono fatturati come chiamate [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)server.
 
