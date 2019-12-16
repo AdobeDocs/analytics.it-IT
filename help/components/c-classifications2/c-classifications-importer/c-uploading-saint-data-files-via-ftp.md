@@ -1,12 +1,11 @@
 ---
 description: Procedura che descrive come caricare i file di dati tramite FTP.
-solution: Analytics
 subtopic: Classifications
 title: Importazione FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -51,7 +50,7 @@ Procedura che descrive come utilizzare un account FTP per importare classificazi
 Per ulteriori informazioni sulla creazione di un account FTP, consultate [Creare un account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)FTP.
 
 1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Fate clic **[!UICONTROL Import File]**, quindi fate clic **[!UICONTROL FTP Import]**.
+1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.
 1. Accanto all'account FTP che desideri utilizzare, fai clic su **[!UICONTROL View]**.
 1. Utilizzate le informazioni di accesso FTP (Host, Login, Password) per accedere al server FTP utilizzando un client FTP di vostra scelta.
 1. Caricate il file di dati ( [!DNL .tab] o [!DNL .txt]) sul server FTP.
@@ -74,7 +73,7 @@ t_create_an_ftp_account.xml
 Per ulteriori informazioni sui server Adobe FTP, consultate [FTP e sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/) .
 
 1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Fate clic **[!UICONTROL Import File]**, quindi fate clic **[!UICONTROL FTP Import]**.
+1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.
 1. Nella **[!UICONTROL Import File]** scheda fare clic su **[!UICONTROL Add New]**.
 1. Specificate i dettagli dell'account FTP:
 
@@ -88,6 +87,6 @@ Per ulteriori informazioni sui server Adobe FTP, consultate [FTP e sFTP](https:/
    | Destinatario delle notifiche | Specificate l'indirizzo e-mail per ricevere le notifiche su questo account FTP. |
    | Autorizza | (Obbligatorio) Autorizza Adobe a importare automaticamente tutti i file di dati inviati al nuovo account FTP. |
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
 
 Una volta creati, potete modificare o eliminare gli account FTP facendo clic sul collegamento appropriato accanto all'account FTP desiderato.
