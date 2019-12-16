@@ -1,11 +1,10 @@
 ---
 description: Mostra il numero di visitatori univoci che hanno effettuato l’accesso al sito. Ogni visitatore viene conteggiato una volta, indipendentemente dal numero di visite effettuate dal visitatore del sito Web.
-solution: Analytics
 title: Visitatori unici
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -105,7 +104,7 @@ Inoltre, ogni data riceve credito per aver avuto quel visitatore in quella data.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 gennaio </p> </td> 
+   <td colname="col1"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +139,7 @@ Inoltre, ogni data riceve credito per aver avuto quel visitatore in quella data.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 gennaio </p> </td> 
+   <td colname="col1"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -177,7 +176,7 @@ I visitatori univoci basati sul periodo vengono conteggiati solo per la prima vi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 gennaio </p> </td> 
+   <td colname="col1"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -210,7 +209,7 @@ Il rapporto seguente verrà visualizzato per Visitatori giornalieri univoci.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 gennaio </p> </td> 
+   <td colname="col1"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -278,7 +277,7 @@ Per i visitatori unici settimanali in cui Pagina = A, i rapporti di marketing es
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 gennaio </p> </td> 
+   <td colname="col1"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -311,7 +310,7 @@ Per i visitatori unici settimanali in cui Page = B, l'unica data in cui si verif
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 gennaio </p> </td> 
+   <td colname="col1"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -348,7 +347,7 @@ Puoi aggiungere metriche Visitatore univoco basate su un periodo ai report non c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Una  </p> </td> 
-   <td colname="col02"> <p>1 gennaio </p> </td> 
+   <td colname="col02"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -392,7 +391,7 @@ Una metrica Visitatori univoci giornalieri su un [!UICONTROL Pages Report] eleme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Una  </p> </td> 
-   <td colname="col02"> <p>1 gennaio </p> </td> 
+   <td colname="col02"> <p>Gennaio 1 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
