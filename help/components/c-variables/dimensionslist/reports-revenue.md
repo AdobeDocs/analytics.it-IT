@@ -1,11 +1,10 @@
 ---
 description: Misura l'ammontare del reddito generato attraverso tutti i prodotti in un periodo di tempo specifico.
-solution: Analytics
 title: Ricavi
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
