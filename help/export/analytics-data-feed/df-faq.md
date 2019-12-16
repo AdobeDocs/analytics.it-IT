@@ -1,10 +1,9 @@
 ---
 description: Domande frequenti sui feed di dati
 keywords: Data Feed;job;pre column;post column;case sensitivity
-solution: Analytics
 title: Domande frequenti sui feed di dati
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
