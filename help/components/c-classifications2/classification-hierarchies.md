@@ -1,12 +1,11 @@
 ---
 description: La pagina Gerarchie classificazione consente di definire gerarchie di classificazione da utilizzare per creare rapporti Gerarchia con lo stesso nome.
-solution: Analytics
 subtopic: Classifications
 title: Gerarchie di classificazione
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,4 +43,4 @@ t_classification_heirarchy.xml
 1. Trascinare una classificazione nel **[!UICONTROL Drag new hierarchy root here]** campo per includerla nella gerarchia di classificazione.
 
    Trascinare le classificazioni nella gerarchia nell'ordine in cui si desidera visualizzarle nella gerarchia. La prima classificazione è la radice della gerarchia, la seconda è la prima sottocategoria e così via.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
