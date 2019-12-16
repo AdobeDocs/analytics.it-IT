@@ -1,12 +1,11 @@
 ---
 description: Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcune cose.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Creare suite di rapporti
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcu
 * In Virtual Report Suite Manager (Gestione suite di rapporti virtuali) puoi visualizzare solo le suite di rapporti virtuali. Devi fare clic su "Mostra tutti" per vedere quelli di tutti gli altri.
 
 1. Passa a **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
-1. Fai clic su **[!UICONTROL Add +]**.
+1. Fai clic su **[!UICONTROL Add +]** (Genera).
 
    ![](assets/new_vrs.png)
 
