@@ -1,11 +1,10 @@
 ---
 description: Visualizza le medie per le metriche nel gruppo di reporting Campagne. Le metriche predefinite sono Click-through, Vendite totali, Ordini e Entrate.
-solution: Analytics
 title: Funnel di conversione campagna
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Visualizza le medie per le metriche nel gruppo di reporting Campagne. Le metriche predefinite sono Click-through, Vendite totali, Ordini e Entrate.
 
-**[!UICONTROL Campaigns]** &gt; **[!UICONTROL Campaign Conversion Funnel]**
+**[!UICONTROL Campaigns]** &gt; **[!UICONTROL Campaign Conversion Funnel]** (Componenti &gt; Nuovo intervallo di date)
 
 Nella parte superiore di un elemento grafico funnel sono visualizzati i dati di conversione. Il basso visualizza le statistiche per tutti gli eventi nell'area superiore, in base agli Ordini e fino a due altre metriche, Entrate e Unità.
 
