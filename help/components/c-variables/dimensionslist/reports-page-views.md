@@ -1,11 +1,10 @@
 ---
 description: Un rapporto con tendenze che mostra il numero di volte in cui le pagine del sito Web sono state visualizzate per il periodo di tempo selezionato (ora, giorno, settimana, mese, trimestre o anno). Questo rapporto consente di tenere traccia delle visualizzazioni di pagina per ogni pagina del sito, nonché di un insieme di visualizzazioni di pagina per l’intero sito.
-solution: Analytics
 title: Visualizzazioni pagina
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,7 +30,7 @@ La visualizzazione [](/help/components/c-variables/c-metrics/metrics-page-view.m
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Reporting e analisi </p> </td> 
+   <td colname="col1"> <p> Reports &amp; Analytics </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Contenuto</span> del sito &gt; Visualizzazioni di <span class="uicontrol"> pagina</span> </p> <p>Questo rapporto può usare segmenti. </p> </td> 
   </tr> 
   <tr> 
