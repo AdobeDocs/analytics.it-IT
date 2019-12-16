@@ -1,10 +1,9 @@
 ---
 description: Adobe Analytics offre diverse metriche e dimensioni Time Spent. Scopri cosa sono e come vengono calcolati.
-solution: Analytics
 title: Durata
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
