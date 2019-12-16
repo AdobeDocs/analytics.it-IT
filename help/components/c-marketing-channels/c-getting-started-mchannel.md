@@ -1,12 +1,11 @@
 ---
 description: I canali di marketing sono comunemente utilizzati per fornire informazioni dettagliate su come i visitatori arrivano sul sito. Potete personalizzare le regole di elaborazione del canale di marketing in base ai canali da monitorare e alla modalità di tracciamento.
-solution: Analytics
 subtopic: Marketing channels
 title: Introduzione ai canali di marketing
 topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -46,7 +45,7 @@ Consulta [Aggiunta di canali](/help/components/c-marketing-channels/c-channels.m
 
 ![](assets/step3_icon.png) Configura o perfeziona le regole di ogni canale sulla [!UICONTROL Marketing Channel Processing Rules] pagina.
 
-Dopo aver creato i canali sulla [!UICONTROL Marketing Channel Manager] pagina, configurate le regole in modo che i canali possano recuperare e segnalare i dati.
+Dopo aver creato i canali sulla [!UICONTROL Marketing Channel Manager] pagina, puoi configurare le regole in modo che i canali possano recuperare e segnalare i dati.
 
 Consultate Regole [di elaborazione del canale](/help/components/c-marketing-channels/c-rules.md)di marketing.
 
