@@ -1,12 +1,11 @@
 ---
 description: Aggiungi metriche calcolate ai report Marketing Channel in Analytics.
-solution: Analytics
 subtopic: Marketing channels
 title: Metriche calcolate utilizzate per i rapporti sul canale di marketing
 topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Aggiungi una metrica calcolata dal report Panoramica canale di marketing. Puoi a
 
    See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md).
 
-1. Nel rapporto, fai clic su **[!UICONTROL Edit.]**![](assets/metric_edit_icon.png)
+1. In the report, click **[!UICONTROL Edit.]** ![](assets/metric_edit_icon.png)
 
    >[!NOTE]
    >
