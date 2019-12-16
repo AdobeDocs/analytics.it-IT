@@ -1,12 +1,11 @@
 ---
-description: nulle
+description: 'null'
 keywords: segmentation;segments
-solution: Analytics
 title: Domande frequenti
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -53,9 +52,9 @@ Per accedere al Generatore di segmenti:
 
 Accedi a Segment Manager tramite:
 
-* Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** nella navigazione superiore. Then click **[!UICONTROL Segments]**, or
+* Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** nella navigazione superiore. Quindi fai clic su **[!UICONTROL Segments]** (Crea), oppure
 
-* Visualizzare un rapporto esistente e fare clic sull'icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Then click **[!UICONTROL Manage]**, or
+* Visualizzare un rapporto esistente e fare clic sull'icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]** (Crea), oppure
 
 * Premere il tasto barra '/' ovunque nell'interfaccia e cercare Segment Manager.
 
@@ -91,7 +90,7 @@ Sì, tutti i segmenti possono essere gestiti in Gestore segmenti in Analysis Wor
 
 Gli amministratori possono visualizzare tutti i segmenti all’interno di Analysis Workspace e delle interfacce [!DNL Reports & Analytics] utente.
 
-Analisi ad hoc e Generatore di report mostrano solo i segmenti generati dall'utente stesso o che sono stati condivisi specificatamente con l'utente.
+In Analisi ad hoc e Generatore di report sono visualizzati solo i segmenti generati dall'utente o che sono stati condivisi specificatamente con l'utente.
 
 **Perché non posso eliminare questo segmento?**
 
@@ -221,7 +220,7 @@ La tabella seguente contiene un elenco di dimensioni rinominate in Segment Build
  <tbody> 
   <tr> 
    <td colname="col1"> Tipi di sistemi operativi </td> 
-   <td colname="col2"> Nuovo </td> 
+   <td colname="col2"> Nuovo i </td> 
    <td colname="col3"> Aggiunto nella primavera 2015. </td> 
   </tr> 
   <tr> 
