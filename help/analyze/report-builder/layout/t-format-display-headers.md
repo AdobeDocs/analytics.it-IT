@@ -1,11 +1,10 @@
 ---
 description: Puoi assegnare un nome al rapporto e configurare la modalità di visualizzazione delle intestazioni di riga e colonna. Il collegamento Opzioni formato è disponibile per i tipi di layout pivot e personalizzato.
-solution: Analytics
 title: Formattare le intestazioni di visualizzazione
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,9 +14,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Puoi assegnare un nome al rapporto e configurare la modalità di visualizzazione delle intestazioni di riga e colonna. Il collegamento Opzioni formato è disponibile per i tipi di layout pivot e personalizzato.
 
 1. Create una richiesta sul [!UICONTROL Request Wizard: Step 1].
-1. Fai clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Next]** (Genera).
 1. Sul [!UICONTROL Request Wizard: Step 2] modulo, aggiungere dati di dimensioni e metriche alla richiesta, come desiderato.
-1. Fai clic su **[!UICONTROL Format Options]**.
+1. Fai clic su **[!UICONTROL Format Options]** (Genera).
 1. Configurare le [!UICONTROL Display] opzioni:
 
    | Elemento | Descrizione |
@@ -43,4 +42,4 @@ Puoi assegnare un nome al rapporto e configurare la modalità di visualizzazione
 
    **** Denominate questa richiesta: Consente di digitare un nome definito dall'utente per la richiesta o di utilizzare il nome predefinito selezionato al passaggio 1. Questo nome viene visualizzato come [!UICONTROL Report] nome nel [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
 
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]** (Genera).
