@@ -1,11 +1,10 @@
 ---
 description: Informazioni sui tre modi in cui accedere al Generatore di report.
-solution: Analytics
 title: Accesso di Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -36,7 +35,7 @@ Utilizzate questo login per accedere al Generatore di report utilizzando le cred
 | Ricorda utente | Le informazioni di login vengono crittografate e memorizzate in un file di profilo utente nel computer in cui è installato Generatore di report. Poiché le informazioni di login vengono salvate, chiunque utilizzi lo stesso PC del creatore di report che apre un foglio di calcolo contenente un report può aggiornare e modificare i dati. Se condividete il computer con altri utenti e desiderate mantenere privati i dati del foglio di calcolo, non attivate questa opzione.  Per disattivare l'impostazione di accesso automatico, fate clic **[!UICONTROL Log in With Different Credentials]** sulla barra degli strumenti e disattivate **[!UICONTROL Remember Me]**. |
 | Utilizzare un server proxy | Abilitate questa opzione se state effettuando l'accesso a Internet tramite un server proxy e dovete fornire un nome utente e una password proxy. |
 
-## Single sign-on {#section_6970A5F926774976B85FFE576610E85F}
+## Single Sign-On {#section_6970A5F926774976B85FFE576610E85F}
 
 Questo single sign-on (legacy) consente di accedere solo ad Adobe Analytics, non all’intero Experience Cloud.
 
