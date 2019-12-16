@@ -1,11 +1,10 @@
 ---
 description: Adobe supporta l'esportazione di richieste di data warehouse a server SFTP.
 keywords: ftp;sftp
-solution: Analytics
 title: Invio di richieste di Data Warehouse a server SFTP
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -42,7 +41,7 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 1. Inserisci il nome della cartella in cui desideri collocare il file nel campo Folder (Cartella). É necessaria una cartella.
 1. Inserisci lo stesso nome utente e password utilizzata al Passaggio 2.
-1. Fai clic su **[!UICONTROL Send]**.
+1. Fai clic su **[!UICONTROL Send]** (Genera).
 
 Il comando sftp PUT colloca un file temporaneo con estensione .part all'interno di una directory specificata. Al termine del caricamento, l'estensione del file viene rinominata nell'estensione definitiva. A questo punto è pronto per essere utilizzato.
 
