@@ -1,11 +1,10 @@
 ---
 description: Visualizza il dominio o l’URL da cui i visitatori sono arrivati prima del loro arrivo sul sito, i metodi utilizzati dai visitatori per trovare il sito Web e il numero di visite al sito provenienti da queste posizioni di riferimento.
-solution: Analytics
 title: Riferimenti
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -46,13 +45,13 @@ I domini o gli URL che non fanno parte di tali domini definiti e gli URL sono co
    <td colname="col1"> Limiti valore </td> 
    <td colname="col2"> Nessun limite (potrebbe essere modificato in una versione futura) </td> 
    <td colname="col3"> Nessun limite (potrebbe essere modificato in una versione futura) </td> 
-   <td colname="col4"> none </td> 
+   <td colname="col4">  none </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Valori speciali </td> 
    <td colname="col2"> <p>"None": totali a livello di sito che non avevano un referente durante la visita. </p> </td> 
    <td colname="col3"> <p>"None": totali a livello di sito che non avevano un referente durante la visita. </p> </td> 
-   <td colname="col4"> <p> Vuoto: equivalente a "None" (Nessuno), totali complessivi del sito che non avevano un referente durante la visita. </p> </td> 
+   <td colname="col4"> <p> Vuoto: equivalente a "None" (Nessuno), totali per l'intero sito che non avevano un referente durante la visita. </p> </td> 
   </tr> 
  </tbody> 
 </table>
