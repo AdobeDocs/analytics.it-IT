@@ -1,11 +1,10 @@
 ---
 description: Registrate i file per consentirvi di vedere quando gli utenti accedono, quando ne utilizzano, quando accedono, quando le suite di rapporti e quando l'amministratore cambia.
-solution: Analytics
 title: Registri
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Registrate i file per consentirvi di vedere quando gli utenti accedono, quando ne utilizzano, quando accedono, quando le suite di rapporti e quando l'amministratore cambia.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Logs]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Logs]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 ## Registro Amministratore {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
