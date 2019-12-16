@@ -1,13 +1,12 @@
 ---
 description: Restituisce il valore di un parametro di stringa di query specificato, se presente nell’URL della pagina corrente. Perché dati importanti (come codici di tracciamento campagna, parole chiave di ricerca interne, ecc.) è disponibile nella stringa di query su una pagina, getQueryParam consente di acquisire i dati nelle variabili di Analytics.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
 topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
