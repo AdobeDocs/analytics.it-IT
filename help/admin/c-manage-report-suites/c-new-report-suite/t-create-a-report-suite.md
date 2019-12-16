@@ -1,11 +1,10 @@
 ---
 description: Procedura che descrive come creare una suite di rapporti e copiare le impostazioni di una suite di rapporti in una nuova.
-solution: Analytics
 title: Creare una suite di rapporti
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Procedura che descrive come creare una suite di rapporti e copiare le impostazio
    >È possibile copiare solo le impostazioni, non i dati. Se l'Assistenza clienti sta copiando le impostazioni, dovrai fornire una conferma scritta alla dichiarazione di non responsabilità fornita dall'Assistenza clienti sui rischi implicati. Per ulteriori informazioni, vedi [Impostazioni non copiate da una suite](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) di rapporti di origine.
 
 1. Compila i campi descritti in [Nuova suite di rapporti.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-1. Fai clic su **[!UICONTROL Create Report Suite]**.
+1. Fai clic su **[!UICONTROL Create Report Suite]** (Genera).
 
 >[!MORELIKETHIS]
 >
