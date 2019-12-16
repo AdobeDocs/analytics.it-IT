@@ -1,11 +1,10 @@
 ---
 description: Definizioni dei report predefiniti disponibili in Reporting e analisi e delle dimensioni disponibili in altri strumenti Analytics, come Analysis Workspace.
-solution: Analytics
 title: Descrizioni dimensioni
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che pos
    <td colname="col2"> <p><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Workspace</span> &gt; <span class="uicontrol"> [seleziona o crea progetto]</span> &gt; icona <span class="uicontrol"> Componente (nella parte sinistra)</span></span> </p> <p>Visualizzare e aggiungere dimensioni dall'elenco Dimensioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Reporting e analisi </p> </td> 
+   <td colname="col1"> <p>Reports &amp; Analytics </p> </td> 
    <td colname="col2"> <p><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Report</span> &gt; <span class="uicontrol"> Visualizza tutti i report</span> </p> </td> 
   </tr> 
   <tr> 
