@@ -1,11 +1,10 @@
 ---
 description: Codici valuta utilizzati in Experience Cloud.
-solution: Analytics
 title: Codici valuta
 topic: Admin tools
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
