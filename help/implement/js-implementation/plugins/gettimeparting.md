@@ -1,13 +1,12 @@
 ---
 description: Il plug-in getTimeParting popola le variabili personalizzate con i valori dell'ora del giorno, del giorno della settimana e del fine settimana e del giorno della settimana in variabili personalizzate. Analysis Workspace offre dimensioni pronte per la suddivisione del tempo. Il plug-in deve essere utilizzato se le dimensioni suddivise in base al tempo sono necessarie in altre soluzioni Analytics, al di fuori di Analysis Workspace.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getTimeParting
 topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
