@@ -1,11 +1,10 @@
 ---
 description: Potete ordinare le richieste elencate in Request Manager in ordine crescente o decrescente.
-solution: Analytics
 title: Ordinare in modo crescente o decrescente
 topic: Report builder
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
