@@ -1,11 +1,10 @@
 ---
 description: I download dei file consentono di capire con quale frequenza i visitatori scaricano i file dal sito. Esempi di download di file possono essere documenti del processore testi, fogli di calcolo, file audio, file video, manuali utente e così via. Ciò include sia i file salvati e aperti direttamente dal browser, sia i file salvati nel computer dell'utente. Il rapporto mostra il nome del file che si sta scaricando, incluso l'URL completo richiesto per accedere al file.
-solution: Analytics
 title: Download dei file
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
