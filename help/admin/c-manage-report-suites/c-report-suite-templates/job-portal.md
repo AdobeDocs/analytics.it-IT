@@ -1,11 +1,10 @@
 ---
 description: Definisce le impostazioni comuni per un portale di lavoro o un sito Web di ricerca delle carriere.
-solution: Analytics
 title: Portale dei processi
 topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
