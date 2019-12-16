@@ -1,11 +1,10 @@
 ---
 description: Definisce le impostazioni comuni per un sito Web di e-commerce.
-solution: Analytics
 title: Commercio
 topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
