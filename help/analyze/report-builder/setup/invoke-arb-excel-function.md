@@ -1,11 +1,10 @@
 ---
 description: Questa funzionalità integra ulteriormente l'utilizzo del Generatore di report nel flusso di lavoro Excel naturale, senza che sia necessario accedere all'interfaccia utente del Generatore di report.
-solution: Analytics
 title: Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -65,7 +64,7 @@ Le due funzioni che utilizzano un parametro possono essere utilizzate con il con
 
    ![](assets/format_control.png)
 
-1. Fate clic sulla [!UICONTROL Alt Text] scheda.
+1.  Fate clic sulla [!UICONTROL Alt Text] scheda.
 
    ![](assets/alt_text.png)
 
