@@ -1,11 +1,10 @@
 ---
 description: Puoi aggiungere metriche e dimensioni al Passaggio 2 della Richiesta guidata per definire il layout di Analytics dei dati nella richiesta. L'elenco di metriche e dimensioni nel Generatore di report segue il layout del menu visualizzato in Reporting e analisi.
-solution: Analytics
 title: Panoramica delle metriche e delle dimensioni
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
