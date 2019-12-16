@@ -1,12 +1,11 @@
 ---
 description: Questo plug-in funziona utilizzando l'API JavaScript di temporizzazione navigazione per misurare con precisione le prestazioni sul Web. Questo fornisce un metodo nativo per ottenere statistiche precise e dettagliate sui tempi di caricamento delle pagine e sui tempi di caricamento delle risorse. Precedentemente, misurazioni di questo tipo hanno utilizzato l'oggetto Date JavaScript per le metriche di temporizzazione, oppure un'estrapolazione rudimentale delle metriche di navigazione. Entrambe le metodologie, anche se forniscono alcuni dati con tendenze per i tempi di caricamento delle pagine, non sono affidabili.
 keywords: Analytics Implementation
-solution: Analytics
 title: performanceTiming
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
