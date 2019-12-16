@@ -1,12 +1,11 @@
 ---
 description: Procedura che descrive come copiare le regole di elaborazione da una suite di rapporti e sostituire o aggiungere queste regole a un'altra suite di rapporti.
-solution: Analytics
 subtopic: Processing rules
 title: Copiare le regole di elaborazione in un'altra suite di rapporti
 topic: Admin tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
