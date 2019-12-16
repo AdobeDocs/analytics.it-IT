@@ -1,11 +1,10 @@
 ---
 description: Domande frequenti sul tracciamento dei collegamenti nella Activity Map.
-solution: Analytics
 title: Domande frequenti sul tracciamento dei collegamenti
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -53,7 +52,7 @@ Di seguito sono riportati alcuni casi noti in cui i dati PII potrebbero essere r
      <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Tramite la <code> s_objectID </code> variabile</b> <p>Esempio: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-       </code> </p> <p>Importante:  È necessario un punto e virgola finale (;) quando si utilizza s_objectID nella Activity Map. </p> </li> 
+       </code> </p> <p>Importante:È necessario un punto e virgola finale (;) quando si utilizza s_objectID nella Activity Map. </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
