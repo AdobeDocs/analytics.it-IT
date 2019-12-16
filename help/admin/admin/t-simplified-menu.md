@@ -1,11 +1,10 @@
 ---
 description: Passaggi per implementare il menu dei report semplificati in Reporting e analisi.
-solution: Analytics
 title: Menu dei rapporti semplificati
 topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
