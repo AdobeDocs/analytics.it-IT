@@ -1,11 +1,10 @@
 ---
 description: Descrizioni dei tipi di report utilizzati in Experience Cloud.
-solution: Analytics
 title: Tipi di rapporto
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -106,7 +105,7 @@ Per impostazione predefinita, questo rapporto mostra le prime 10 pagine su cui g
 Utilizzate questo rapporto per:
 
 * Scoprite i passaggi più frequenti dopo la visualizzazione di una pagina selezionata.
-* Ottimizzate la progettazione del percorso del sito per rendere il traffico scorrevole verso una pagina di destinazione desiderata.
+* Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
 * Identificate dove vanno i visitatori al posto delle pagine di obiettivi desiderate.
 
 ## Flusso server successivo {#concept_DB8C20E18AEA4051903C47A16C0E9C4E}
@@ -146,7 +145,7 @@ c_reports_previous_page_flow.xml
 Utilizzate questo rapporto per:
 
 * Scopri i passaggi più frequenti prima di visualizzare una pagina selezionata.
-* Ottimizzate la progettazione del percorso del sito per rendere il traffico scorrevole verso una pagina di destinazione desiderata.
+* Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
 
 ## Flusso sezione precedente {#concept_30688D97B48449E1958866BAF376FA8C}
 
@@ -219,7 +218,7 @@ Fare clic con il pulsante destro del mouse sui cilindri per modificarli o rimuov
 
 | Opzione | Descrizione |
 |--- |--- |
-| Modificare       | Consente di aggiungere o rimuovere pagine da un cilindro. |
+| Modificare | Consente di aggiungere o rimuovere pagine da un cilindro. |
 | Rimuovi | Consente di rimuovere un cilindro. |
 | Rapporti | Consente di avviare un altro rapporto dal cilindro. |
 | Salva grafico con nome | Consente di salvare il grafico come .png o .jpg. Se modificate i controlli del grafico (angolo grafico, dimensioni) prima di salvare, le modifiche vengono mantenute nell’output. |
