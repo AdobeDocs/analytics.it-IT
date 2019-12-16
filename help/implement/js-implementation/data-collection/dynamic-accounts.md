@@ -1,12 +1,11 @@
 ---
 description: Il file .js può essere configurato per selezionare automaticamente un ID suite di rapporti.
 keywords: Analytics Implementation
-solution: Analytics
 title: 'ID suite di rapporti: account dinamici'
 topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -47,7 +46,7 @@ URL di esempio: `https://www.client.com/directory1/directory2/filename.html?para
 | Percorso e stringa query | `window.location.pathname+(window.location.search?window.location.search:"?")` |
 | URL | `window.location.href` |
 
-Prendi in considerazione l'esempio seguente:
+Prendi in considerazione l’esempio seguente:
 
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite2=clientdirectory;reportsuite1=client.com"`
