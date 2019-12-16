@@ -1,11 +1,10 @@
 ---
 description: Consente di controllare l'accesso ai dati di reporting. Le opzioni disponibili includono password complesse, scadenza password, restrizioni di accesso IP e limitazioni del dominio e-mail.
-solution: Analytics
 title: Sicurezza Manager
 topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 28c18d4bab00ad1fe7b8fbd147003ec178a32da6
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
