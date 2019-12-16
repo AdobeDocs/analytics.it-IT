@@ -1,12 +1,11 @@
 ---
 description: Gestione dashboard consente di copiare, condividere, archiviare e pianificare le dashboard per la distribuzione.
-solution: Analytics
 subtopic: Dashboards
 title: Dashboard Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -94,7 +93,7 @@ Procedura che descrive come un amministratore può condividere (o inviare) una d
 1. Fai clic su **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
 1. Nella [!UICONTROL Push Dashboard] pagina, selezionate gli utenti di destinazione o fate clic su **[!UICONTROL Check All]**.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
 
 Se gli utenti condivisi del dashboard non riescono a vedere le modifiche apportate nel dashboard, controllate che il manager del dashboard verifichi se gli utenti hanno scelto l' **[!UICONTROL Copy Me]** opzione. Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate dall'utente. Per visualizzare tutte le modifiche/gli aggiornamenti, gli utenti condivisi devono selezionare l' **[!UICONTROL On Menu]** opzione in Dashboard Manager.
 
