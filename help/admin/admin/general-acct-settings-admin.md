@@ -1,11 +1,10 @@
 ---
 description: Descrizioni dei campi per le impostazioni generali dell'account della suite di rapporti in Amministratore.
-solution: Analytics
 title: Impostazioni account generali
 topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 22fbe95ec5534694187b2015dd4ed39aa6b9398d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
