@@ -1,11 +1,10 @@
 ---
 description: Mostra dove i visitatori escono (abbandono) e proseguono attraverso (fallthrough) una sequenza di pagine specificata in precedenza. Visualizza i tassi di conversione e di abbandono tra ciascun passaggio. Ad esempio, puoi tenere traccia dei punti di abbandono di un visitatore durante un processo di acquisto. Selezionate un punto iniziale e un punto finale, quindi aggiungete punti intermedi per creare un percorso di navigazione nel sito Web.
-solution: Analytics
 title: Abbandono
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Questo rapporto è utile per analizzare:
 
 See [Customer Journey - Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
 
-**Reports and Analytics**
+**Reporting e analisi**
 
 Per informazioni sulla configurazione, consulta [Esecuzione di un rapporto](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html) di fallout nell’Aiuto.
 
