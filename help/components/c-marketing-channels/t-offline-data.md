@@ -1,12 +1,11 @@
 ---
 description: Aggiunta di dati offline ai rapporti del canale di marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Aggiungere dati offline
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
