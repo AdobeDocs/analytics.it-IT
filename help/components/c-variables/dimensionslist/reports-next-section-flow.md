@@ -1,11 +1,10 @@
 ---
 description: Flusso sezione successiva è simile al Flusso pagina successivo. Visualizza i dati per le sezioni del sito (gruppi di pagine Web correlate). Se una pagina è contenuta in più sezioni del sito, vengono visualizzati i dati per tutte le sezioni del sito.
-solution: Analytics
 title: Flusso sezione successiva
 topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
