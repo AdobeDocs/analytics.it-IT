@@ -1,11 +1,10 @@
 ---
 description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità per garantire che i valori più importanti vengano visualizzati nel rapporto.
-solution: Analytics
 title: Valore di traffico basso in Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzio
    * Se un valore è già presente nei rapporti, aggiungetelo normalmente.
    * Se un valore non è ancora nel reporting, verificare che sia stato visualizzato più di 100 volte al giorno d'oggi. In caso affermativo, aggiungete il valore al reporting. In caso contrario, lasciatela sotto traffico limitato.
 
-> [!NOTE] Se un valore di variabile riceve un traffico sufficiente a lasciare l'intervallo di traffico basso, i primi valori raccolti non si spostano sull'elemento corrispondente. Quelle prime 10-100 istanze rimangono sotto il traffico basso.
+> [!NOTE] Se un valore di variabile riceve un traffico sufficiente per lasciare l'intervallo di traffico basso, i primi valori raccolti non si spostano sull'elemento corrispondente. Quelle prime 10-100 istanze rimangono sotto il traffico basso.
 
 ## Modifica di soglie univoche
 
