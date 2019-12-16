@@ -1,11 +1,10 @@
 ---
 description: Le destinazioni consentono di misurare le prestazioni del sito Web e di monitorare i progressi rispetto agli obiettivi. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un'area geografica, le entrate per ordine o il numero di hit derivanti da uno specifico referente.
-solution: Analytics
 title: Target
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Ad esempio, potete misurare il numero di visitatori univoci del vostro sito Web 
 
 ## Descrizioni dei campi di destinazione {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]** (Analytics &gt; Componenti &gt; Progetti programmati)
 
 Descrizioni dei campi e delle opzioni della [!UICONTROL Add/Edit Target] pagina.
 
@@ -76,11 +75,11 @@ t_add_a_target.xml
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. Sulla [!UICONTROL Target Manager] pagina fare clic su **[!UICONTROL Add New]**.
 1. Configura le opzioni descritte in Descrizioni [campo di](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]** (Genera).
 
 ## Modificare una destinazione {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
 1. Configura le opzioni descritte in Descrizioni [campo di](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)Target.
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]** (Genera).
