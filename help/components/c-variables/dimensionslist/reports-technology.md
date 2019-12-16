@@ -1,11 +1,10 @@
 ---
 description: Questi rapporti mostrano informazioni sui browser, i sistemi operativi, le risoluzioni dei monitor e così via che i visitatori utilizzano.
-solution: Analytics
 title: Tecnologia
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
