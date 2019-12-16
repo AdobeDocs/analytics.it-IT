@@ -1,13 +1,12 @@
 ---
 description: I download dei file e i collegamenti di uscita possono essere tracciati automaticamente in base ai parametri impostati in AppMeasurement per il file JavaScript.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Link tracking
 title: 'Funzione s.tl(): tracciamento dei collegamenti'
 topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,7 +39,7 @@ s.tl(this,'o','Example Link');
 
 Il primo argomento determina se il browser attende fino a 500 ms prima di spostarsi lontano dalla pagina. Se una richiesta di immagine viene inviata prima di 500 ms, la pagina passa immediatamente al collegamento selezionato.
 
-* `this`: Attendi fino a 500 ms per concedere ad AppMeasurement il tempo necessario per inviare una richiesta di immagine. Valore predefinito.
+* `this`: Attendi fino a 500 ms per concedere ad AppMeasurement il tempo necessario per inviare una richiesta di immagine.  Valore predefinito.
 * `true`: Non aspetti. Se il collegamento si allontana dalla pagina, è possibile che non venga inviata alcuna richiesta di immagine.
 
 Il ritardo è necessario solo quando un collegamento esce dalla pagina.
