@@ -1,12 +1,11 @@
 ---
 description: Le chiavi non classificate sono raggruppate nei rapporti sulla classificazione come un singolo elemento con etichetta Nessuno. Può essere utile rinominare None in modo più descrittivo.
-solution: Analytics
 subtopic: Classifications
 title: Tasti non classificati
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
