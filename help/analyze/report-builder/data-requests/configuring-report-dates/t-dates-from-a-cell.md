@@ -1,11 +1,10 @@
 ---
 description: È possibile specificare un intervallo di date selezionando le celle da un foglio di lavoro che contiene una richiesta. Il generatore di report utilizza le informazioni specifiche dell'intervallo di date in tali richieste. Se selezionate la data odierna, vengono visualizzati i dati parziali in base all'ora del giorno in cui viene eseguita la richiesta.
-solution: Analytics
 title: Date da una cella
 topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
