@@ -1,11 +1,10 @@
 ---
 description: Visualizza in media la distanza all’interno di una visita in cui è stato attivato ogni valore. Questa metrica è utile per determinare fino a che punto all’interno di una visita il pubblico raggiunge una determinata pagina o un determinato valore di proprietà. Profondità pagina media è disponibile su qualsiasi variabile con percorso abilitato.
-solution: Analytics
 title: Profondità media della pagina
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
