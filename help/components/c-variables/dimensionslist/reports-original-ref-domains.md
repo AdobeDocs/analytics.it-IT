@@ -1,11 +1,10 @@
 ---
 description: Visualizza i referenti originali che hanno prodotto i clienti sul sito. Poiché i clienti possono visitare il sito più volte e disporre di un referente diverso per ogni visita, i Domini di riferimento originali mostrano come sono stati rimandati la prima volta che sono arrivati sul sito. Questa dimensione fa riferimento ai riferimenti solo per il dominio di base (aol.com, yahoo.com e così via).
-solution: Analytics
 title: Domini di riferimento originali
 topic: Reports
 uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
