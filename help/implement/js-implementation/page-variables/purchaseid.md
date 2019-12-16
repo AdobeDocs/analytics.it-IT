@@ -1,57 +1,28 @@
 ---
-description: Le variabili di pagina popolano direttamente un report, ad esempio pageName, List Props, List Variables e così via.
-keywords: Analytics Implementation
-solution: Analytics
+description: Scopri la variabile purchaseID, che impedisce la visualizzazione di acquisti duplicati in Adobe Analytics.
+keywords: duplicate,purchase,purchaseid,s.purchaseid
 subtopic: Variables
-title: Variabili di pagina
+title: purchaseID
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # purchaseID
 
-Viene utilizzato per impedire che un ordine venga conteggiato più volte nel reporting.
+La `purchaseID` variabile viene utilizzata per impedire che un ordine venga conteggiato più volte nel reporting. Ogni volta che l'evento di acquisto viene utilizzato sul sito, Adobe consiglia di utilizzare la `purchaseID` variabile.
 
+Quando un visitatore acquista un elemento dal sito, `purchaseID` viene in genere popolato nella pagina "Conferma" o "Conferma ordine". Impostare la `purchaseID` variabile contemporaneamente all'attivazione di un evento di acquisto. Quando `purchaseID` è definito su un valore univoco, i valori delle variabili di conversione contano solo per hit con tale ID acquisto univoco. La definizione `purchaseID` è utile perché i visitatori segnalano comunemente una pagina di conferma dell'acquisto per i propri scopi. Se l’implementazione non viene utilizzata `purchaseID`, i dati di conversione (come le entrate) possono facilmente aumentare a causa dell’aggiornamento delle pagine da parte dei visitatori.
 
-<!-- 
+Oltre ai dati di acquisto, tutte le variabili e gli eventi di conversione non vengono conteggiati più volte per gli hit con lo stesso ID acquisto.
 
-purchaseID.xml
+## Sintassi
 
- -->
-
-Ogni volta che l’ [!UICONTROL purchase] evento viene utilizzato sul sito, dovreste utilizzare la *`purchaseID`* variabile.
-
-| Dimensioni massime | Parametro debugger | Report compilati | Valore predefinito |
-|---|---|---|---|
-| 20 byte | purchaseID | Conversione &gt; Acquisti &gt; Conversione ricavi | "" |
-
-Quando un visitatore acquista un elemento dal sito, *`purchaseID`* viene popolato sulla pagina "Grazie" nello stesso punto in cui viene attivato l’ [!UICONTROL purchase] evento. Se *`purchaseID`* viene compilato, i prodotti nella pagina "Grazie" vengono conteggiati una sola volta *`purchaseID`*. Questo è importante perché molti visitatori del sito salveranno la pagina di ringraziamento o di conferma per i propri scopi. Gli acquisti *`purchaseID`* vengono conteggiati ogni volta che viene visualizzata la pagina.
-
-Oltre a impedire che i dati di acquisto vengano conteggiati due volte, *`purchaseID`* quando vengono utilizzati, tutti i dati di conversione vengono conteggiati due volte nei rapporti.
-
-**Sintassi e valori** possibili {#section_E352CE2370D54BA69A368E1F63A9C32D}
+La `purchaseID` variabile può contenere qualsiasi valore alfanumerico, fino a un massimo di 20 byte. Se imposti un ID di acquisto maggiore di 20 byte, il valore viene troncato.
 
 ```js
-s.purchaseID="unique_id"
+s.purchaseID = "uniqueid";
 ```
-
-Deve *`purchaseID`* contenere un massimo di 20 caratteri ed essere in formato ASCII standard.
-
-**Esempi** {#section_60A5C1EAF42F4611898CD6A4F4CF5A28}
-
-```js
-s.purchaseID="11223344" 
-s.purchaseID="a8g784hjq1mnp3"
-```
-
-**Impostazioni** di configurazione {#section_1808631C96674380BF9C4A6D9A2C568E}
-
-Nessuno
-
-**Insidie, domande e suggerimenti**{#section_F5D010F234ED43F19AD1FCD2CD64E060}
-
-La *`purchaseID`* variabile consente di contare tutte le variabili di conversione sulla pagina solo una volta nei rapporti.
