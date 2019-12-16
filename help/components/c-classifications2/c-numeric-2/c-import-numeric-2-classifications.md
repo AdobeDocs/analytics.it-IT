@@ -1,12 +1,11 @@
 ---
 description: Il file di importazione ed esportazione include sei colonne per ogni classificazione numerica 2.
-solution: Analytics
 subtopic: Classifications
 title: Importare classificazioni numeriche 2
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
