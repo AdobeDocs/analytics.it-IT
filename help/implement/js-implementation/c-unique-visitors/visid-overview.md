@@ -1,13 +1,12 @@
 ---
 description: Adobe utilizza un cookie per tenere traccia di browser/dispositivi univoci.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: Identificare visitatori unici
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
