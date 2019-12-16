@@ -1,11 +1,10 @@
 ---
 description: Un visitatore univoco si riferisce a un individuo che ha visitato un sito la prima volta in un determinato periodo di tempo. Ad esempio, il visitatore unico potrebbe aver visitato un sito 10 volte alla settimana, ma se il periodo di tempo specifica visitatori univoci per quella settimana, un singolo visitatore unico verrà conteggiato una sola volta per quella settimana. Una volta terminata la settimana, quel visitatore unico può essere conteggiato di nuovo per un nuovo periodo di tempo specificato.
-solution: Analytics
 title: Visitatori unici settimanali
 topic: Metrics
 uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
