@@ -1,11 +1,10 @@
 ---
 description: Tutti i rapporti con segnalibro e dashboard sono ora elencati come dimensioni nel passaggio 1 della Richiesta guidata e possono essere importati come richieste del generatore di report.
-solution: Analytics
 title: Importare rapporti con segnalibri e minirapporti dashboard
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
