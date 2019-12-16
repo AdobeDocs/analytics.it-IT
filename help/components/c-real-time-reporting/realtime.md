@@ -1,11 +1,10 @@
 ---
 description: Visualizza il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale. Fornisce dati fruibili su cui basare le decisioni aziendali.
-solution: Analytics
 title: Panoramica reportistica in tempo reale
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,9 +15,9 @@ Il reporting in tempo reale mostra il traffico delle pagine Web e classifica le 
 
 >[!NOTE]
 >
->Il rapporto in tempo reale non richiede alcuna implementazione o tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare i rapporti in tempo reale, consulta Configurazione [dei rapporti in tempo](/help/components/c-real-time-reporting/t-realtime-admin.md)reale.
+> Il rapporto in tempo reale non richiede alcuna implementazione o tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare i rapporti in tempo reale, consulta Configurazione [dei rapporti in tempo](/help/components/c-real-time-reporting/t-realtime-admin.md)reale.
 
-**[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Real-Time]**
+**[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Real-Time]** (Componenti &gt; Nuovo intervallo di date)
 
 Risposta in tempo reale alle seguenti domande: Che cosa è tendenza sul mio sito, e perché? Consente agli esperti di marketing di rispondere e gestire attivamente le prestazioni dei contenuti e delle campagne di marketing in modo rapido. I dati in tempo reale segnalati sono latenti di meno di due minuti e si aggiornano automaticamente di minuto per minuto.
 
