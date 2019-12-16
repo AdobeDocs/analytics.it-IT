@@ -1,12 +1,11 @@
 ---
-description: nulle
+description: 'null'
 keywords: DFA
-solution: Analytics
 title: Connettore dati DFA per Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Nel sempre più complesso e competitivo mercato online di oggi, gli inserzionist
 
 L'integrazione DoubleClick for Advertiser (DFA) risolve questo problema utilizzando Adobe® Data Connectors™ per consentire a DoubleClick DFA di trasmettere automaticamente i dati a Reporting e analisi.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
 
 ![](assets/data-connectors-home.png)
 
@@ -96,7 +95,7 @@ La tabella seguente riassume le funzioni di ciascuna versione dell'integrazione.
 | Stringhe query oltre 2 Kbyte | No | Sì | Sì |
 | Utilizza il modulo Integrate per una raccolta dati ottimale di terze parti | No | Sì | Sì |
 | Timeout e tracciamento errori | No | Sì | Sì |
-| No necessità di un ID lato client negoziato | No | No | Sì |
+| Non è necessario un ID lato client negoziato | No | No | Sì |
 
 ### Informazioni sulla versione 1.5 {#section-b5a3e967cfa141ea8f740612336181be}
 
