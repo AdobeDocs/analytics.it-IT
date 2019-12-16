@@ -1,12 +1,11 @@
 ---
 description: Le seguenti variabili e funzioni consentono di memorizzare le chiamate di misurazione quando l’applicazione è offline.
 keywords: Analytics Implementation
-solution: Analytics
 title: Tracciamento offline
 topic: Developer and implementation
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -42,7 +41,7 @@ Ad ogni hit successivo, o all’intervallo definito da `offlineThrottleDelay`, A
   </tr> 
   <tr> 
    <td colname="col1"> <p>offlineLimit </p> </td> 
-   <td colname="col2"> <p> Predefinito: nessun limite </p> <p>Numero massimo di hit offline memorizzati nella coda. </p> <p> <b>Esempi:</b> </p> 
+   <td colname="col2"> <p>Predefinito: nessun limite </p> <p>Numero massimo di hit offline memorizzati nella coda. </p> <p> <b>Esempi:</b> </p> 
     <code class="syntax c">
       s.offlineHitLimit=100; 
     </code> </td> 
@@ -56,7 +55,7 @@ Ad ogni hit successivo, o all’intervallo definito da `offlineThrottleDelay`, A
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p>  Impostare manualmente lo stato online o offline dell'oggetto di misura. La libreria rileva automaticamente quando il dispositivo è offline o online, pertanto questi metodi sono necessari solo se si desidera forzare la misurazione offline. <code> forceOnline </code> viene utilizzato solo per tornare allo stato online dopo essere stato disconnesso manualmente. </p> <p>Quando la misurazione è offline: </p> 
+   <td colname="col2"> <p> Impostare manualmente lo stato online o offline dell'oggetto di misura. La libreria rileva automaticamente quando il dispositivo è offline o online, pertanto questi metodi sono necessari solo se si desidera forzare la misurazione offline. <code> forceOnline </code> viene utilizzato solo per tornare allo stato online dopo essere stato disconnesso manualmente. </p> <p>Quando la misurazione è offline: </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
      <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Se <code> trackOffline </code> è vero: gli hit vengono memorizzati finché la misurazione non è online. </li> 
      <li id="li_6A623377462548DB97C31654EADCFAF3"> Se <code> trackOffline </code> è false: gli hit vengono scartati. </li> 
