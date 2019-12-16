@@ -1,11 +1,10 @@
 ---
 description: Descrizioni dei campi per Gestisci richieste nel Generatore di report.
-solution: Analytics
 title: 'Gestire le richieste: definizioni'
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -61,7 +60,7 @@ Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!
    <td colname="col2"> <p>Visualizza la finestra di dialogo Richiesta guidata. See <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Modificare       </p> </td> 
+   <td colname="col1"> <p>Modificare </p> </td> 
    <td colname="col2"> <p> (O Modifica multipla) Modifica una richiesta selezionata. Viene visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span> . See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
