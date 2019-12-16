@@ -1,12 +1,11 @@
 ---
 description: I click-through rappresentano a) istanze di campagne e b) istanze di canali di marketing.
 keywords: Campaign Views
-solution: Analytics
 title: Clickthrough
 topic: Metrics
 uuid: da605430-24aa-4713-a5c3-735fac0a3441
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
