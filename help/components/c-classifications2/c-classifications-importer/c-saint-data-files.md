@@ -1,12 +1,11 @@
 ---
 description: Importazione consente di caricare in massa i dati delle classificazioni nei rapporti di analisi in un file. L’importazione richiede un formato file specifico per il caricamento dei dati.
-solution: Analytics
 subtopic: Classifications
 title: File di dati di classificazione
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -66,7 +65,7 @@ Un file di dati deve rispettare le seguenti regole di struttura:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> CODICE DI CONTROLLO </th> 
-   <th colname="col2" class="entry"> DESCRIPTION </th> 
+   <th colname="col2" class="entry"> DESCRIZIONE </th> 
   </tr> 
  </thead>
  <tbody> 
