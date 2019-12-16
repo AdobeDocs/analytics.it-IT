@@ -1,11 +1,10 @@
 ---
 description: Spiega i passaggi necessari per l'amministratore di Analytics per abilitare la raccolta di collegamenti Activity Map e il download degli utenti.
-solution: Analytics
 title: Abilitare Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,7 +47,7 @@ Innanzitutto, è necessario abilitare i rapporti Activity Map a livello di suite
 
 ## Passaggio 3: Aggiunta di utenti al gruppo di accesso Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
-1. Fai clic su **[!UICONTROL Add Users to Group]**.
+1. Fai clic su **[!UICONTROL Add Users to Group]** (Genera).
 
    Viene visualizzata la pagina Gestione dei gruppi in Admin Console.
 
