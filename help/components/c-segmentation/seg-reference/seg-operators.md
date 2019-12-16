@@ -1,11 +1,10 @@
 ---
 description: Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati.
-solution: Analytics
 title: Operatori di confronto per i segmenti
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,12 +43,12 @@ L'unico carattere jolly supportato è l'asterisco: *. Se è necessario cercare *
 | **Data Warehouse** |  |
 | è minore di | Restituisce elementi il cui conteggio numerico è inferiore al valore immesso. |
 | è minore o uguale a | Restituisce elementi il cui conteggio numerico è minore o uguale al valore immesso. |
-| è maggiore di | Restituisce elementi il cui conteggio numerico è maggiore del valore immesso. |
+|  è maggiore di | Restituisce elementi il cui conteggio numerico è maggiore del valore immesso. |
 | è maggiore o uguale a | Restituisce elementi il cui conteggio numerico è maggiore o uguale al valore immesso. |
 | **Conteggio distinto** | Potete segmentare su un numero distinto di elementi all'interno di una dimensione. Esempio: “Visitatori che hanno visualizzato più di 5 prodotti distinti” o “Visite in cui sono state visualizzate più di 5 pagine distinte”. |
 | è uguale a | Restituisce elementi dimensione il cui conteggio univoco è uguale al valore immesso. |
 | è diverso da | Restituisce elementi dimensione il cui conteggio univoco non è uguale al valore immesso. |
-| è maggiore di | Restituisce elementi dimensione il cui conteggio univoco è maggiore del valore immesso. |
+|  è maggiore di | Restituisce elementi dimensione il cui conteggio univoco è maggiore del valore immesso. |
 | è minore di | Restituisce elementi dimensione il cui conteggio univoco è inferiore al valore immesso. |
 | è maggiore o uguale a | Restituisce elementi dimensione il cui conteggio univoco è maggiore o uguale al valore immesso. |
 | è minore o uguale a | Restituisce elementi dimensione il cui conteggio univoco è minore o uguale al valore immesso. |
