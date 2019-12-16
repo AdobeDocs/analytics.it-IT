@@ -1,11 +1,10 @@
 ---
 description: Classificazione e filtri condizionali configurati mediante logica booleana con espressioni di ricerca AND/OR.
-solution: Analytics
 title: Filtraggio più comune
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,9 +44,9 @@ La maggior parte dei filtri popolari sono filtri di espressione configurati util
 
    **** Aggiungi condizione: Aggiunge una condizione all'espressione. Non esiste alcun limite al numero di condizioni che è possibile aggiungere.
 
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]** (Genera).
 
    ![Informazioni sul passaggio](assets/choose_page_02.png)
 
 1. Nel [!UICONTROL Choose Page] modulo fare clic su **[!UICONTROL Save]** per salvare l'espressione.
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]** (Genera).
