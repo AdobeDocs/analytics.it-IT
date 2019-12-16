@@ -1,12 +1,11 @@
 ---
 description: Una volta che i server di raccolta DFA e Adobe® possono comunicare, potete generare report in Reporting e analisi che includono dati DFA.
 keywords: DFA
-solution: Analytics
 title: Report di analisi con dati DFA
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,10 +31,10 @@ I rapporti DFA precompilati includono quanto segue:
 Per generare un rapporto DFA:
 
 1. Accedi ad Adobe Experience Cloud.
-1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports & Analytics]**. Accertatevi di aver selezionato la suite di rapporti in cui avete installato l'integrazione DFA.
+1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports & Analytics]** (Progetto &gt; Salva come modello). Accertatevi di aver selezionato la suite di rapporti in cui avete installato l'integrazione DFA.
 
 1. Nella navigazione a sinistra, selezionate la variabile Conversione che acquisisce i dati di click-through del DFA, quindi selezionate il rapporto DFA desiderato.
-1. Fai clic su **[!UICONTROL Add Metrics]**. Viene visualizzata la finestra di dialogo Selettore metrica.
+1. Fai clic su **[!UICONTROL Add Metrics]** (Genera). Viene visualizzata la finestra di dialogo Selettore metrica.
 1. Controlla le metriche Impression e Clic nell' **[!UICONTROL Available Metrics]** elenco e fai clic su **[!UICONTROL Apply]**.
 
    Nel rapporto risultante sono visualizzati i dati Impression, Clic e Revenue, per vedere come i servizi DFA si traducono in ricavi di linea.
