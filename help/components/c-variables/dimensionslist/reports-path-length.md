@@ -1,11 +1,10 @@
 ---
 description: Visualizza, in percentuale e in totale, la profondità di ogni visita al sito. In altre parole, il rapporto indica quante pagine viene visualizzato dal visitatore medio sul sito prima di uscire.
-solution: Analytics
 title: Lunghezza percorso
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
