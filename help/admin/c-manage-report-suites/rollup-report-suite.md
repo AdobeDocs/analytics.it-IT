@@ -1,11 +1,10 @@
 ---
 description: Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio e li visualizzano in un set di dati riepilogato.
-solution: Analytics
 title: Suite di rapporti rollup e globali
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -43,7 +42,7 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 
 **Intervallo** di tempo: I rollup vengono elaborati solo a mezzanotte ogni notte, mentre le suite per report globali riportano i dati con latenza standard.
 
-**Larghezza**:I rollup non possono comunicare tra le suite di rapporti.  Le suite per report globali possono attribuire credito alle variabili di conversione tra suite per report, nonché fornire percorsi tra suite per report.
+**Larghezza**: I rollup non possono comunicare tra le suite di rapporti. Le suite per report globali possono attribuire credito alle variabili di conversione tra suite per report, nonché fornire percorsi tra suite per report.
 
 **Dati** storici: I rollup possono aggregare i dati storici, mentre le suite di rapporti globali riportano solo i dati dal momento in cui sono stati implementati.
 
