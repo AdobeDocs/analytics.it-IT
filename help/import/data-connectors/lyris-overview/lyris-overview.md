@@ -1,10 +1,9 @@
 ---
 description: Descrive le efficienze di marketing ottenute grazie all'integrazione.
-solution: Analytics
 title: Connettore dati Lyris per Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,7 +47,7 @@ In questo modo, prima dell'attivazione verranno messe in atto le procedure ottim
 
 ### Prerequisiti per Adobe Analytics {#section-ddb9d4f3b283438ea33788f47f35e69a}
 
-* **Suite di rapporti specifica**:Questa integrazione è specifica per la suite di rapporti. Accertatevi di aver selezionato la suite di rapporti desiderata prima di attivare l'integrazione
+* **Suite di rapporti specifica**: Questa integrazione è specifica per la suite di rapporti. Accertatevi di aver selezionato la suite di rapporti desiderata prima di attivare l'integrazione
 * **Variabili** Analytics disponibili e configurate: Questa integrazione richiede eventi personalizzati e eVar personalizzati, ed eventualmente eventi aggiuntivi e eVar aggiuntive.
 
 * **Rappresentante** autorizzato: L'abilitazione di questa integrazione potrebbe indurre l'azienda a sostenere delle spese in conformità al contratto di servizio stipulato con Adobe, Inc. o al contratto di assistenza stipulato con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l'Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
