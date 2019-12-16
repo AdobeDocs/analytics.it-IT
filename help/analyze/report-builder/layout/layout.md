@@ -1,11 +1,10 @@
 ---
 description: La finestra Richiesta guidata Passaggio 2 consente di configurare il layout del report, la formattazione dell'intestazione e il filtro delle dimensioni per l'output. È possibile utilizzare un layout pivot per configurare la richiesta, simile alla creazione di una tabella pivot Excel.
-solution: Analytics
 title: 'Layout: Creazione guidata richieste passaggio 2'
 topic: Report builder
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
