@@ -1,12 +1,11 @@
 ---
 description: Nelle tabelle riportate di seguito viene visualizzato il rapporto sulla mappatura delle variabili, oppure i rapporti e le variabili in essi utilizzate.
 keywords: Analytics Implementation
-solution: Analytics
 title: Rapporto sulla mappatura variabile
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
