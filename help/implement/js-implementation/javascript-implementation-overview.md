@@ -1,12 +1,11 @@
 ---
 description: Per iniziare a utilizzare Analytics, i dati devono essere inviati a una suite di rapporti per essere visualizzati nel reporting.
 keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compression
-solution: Analytics
 title: Panoramica sull'implementazione JavaScript
 topic: Developer and implementation
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ La procedura seguente illustra un'implementazione di base di Analytics.
 | Attività | Descrizione |
 |--- |--- |
 | 1. Scarica AppMeasurement per JavaScript e il servizio ID. | Accedi ad Analytics tramite Experience Cloud. Il file di download è disponibile in Analytics &gt; Amministratore &gt; Code Manager (Gestione codici).  Questo zip di download contiene diversi file.  AppMeasurement.js e VisitorAPI.js sono i file rilevanti per l’implementazione di Analytics. |
-| 2. Configurare il servizio identità. (precedentemente servizio ID visitatore) | Consultate [Configurare il servizio identità per Analytics](https://docs.adobe.com/content/help/en/id-service/using/home.html) |
+| 2.Configurare il servizio identità. (precedentemente servizio ID visitatore) | Consultate [Configurare il servizio identità per Analytics](https://docs.adobe.com/content/help/en/id-service/using/home.html) |
 | 3. Update `AppMeasurement.js`. | Copia il codice [AppMeasurement.js di](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_4351543F2D6049218E18B48769D471E2) esempio e incollalo all’inizio del `AppMeasurement.js` file. Come minimo, aggiorna le seguenti variabili:<ul><li>s.account="INSERT-RSID-HERE"</li><li>s.trackingServer="INSERT-TRACKING-SERVER-HERE"</li><li>s.visitorNamespace = "INSERT-NAMESPACE-HERE"</li><li>s.visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE")</li></ul><br>Vedi [Compilazione corretta delle variabili](https://helpx.adobe.com/analytics/kb/determining-data-center.html) trackingServer e trackingServerSecure oppure contatta Client Care se non sei sicuro di questi valori. Se non sono impostati correttamente, i dati non saranno raccolti dall’implementazione.</br> |
 | 4. Host `AppMeasurement.js` e `VisitorAPI.js`. | Questi file JavaScript di base devono essere ospitati su un server Web accessibile a tutte le pagine del sito. È necessario definire il percorso di questi file nella fase successiva. |
 | 5. Reference `AppMeasurement.js` and `VisitorAPI.js`  on all site pages. | <ul><li>Includi il servizio ID visitatore aggiungendo la seguente riga di codice nel `head` tag o `body` tag di ogni pagina. (`VisitorAPI.js` deve essere incluso prima `AppMeasurement.js`).<br>`script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"`</br></li><li>Include AppMeasurement for JavaScript by adding the following line of code in the `head` or `body` tag on each page:<br>`script language="JavaScript" type="text/javascript"  src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"`</br></li></ul> |
