@@ -1,11 +1,10 @@
 ---
 description: Consente di visualizzare informazioni quantitative sul sito Web, ad esempio quante volte i visitatori hanno guardato determinate pagine, il numero di acquisti complessivi effettuati da pagine specifiche, quando sono arrivati, e dati quantitativi simili. Ciascuno di questi rapporti è una metrica che puoi inserire in altri rapporti basati sugli elementi.
-solution: Analytics
 title: Rapporti sulle metriche del sito
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
