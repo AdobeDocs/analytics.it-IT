@@ -1,12 +1,11 @@
 ---
 description: Procedura che descrive come eliminare o rimuovere i dati di classificazione.
-solution: Analytics
 subtopic: Classifications
 title: Eliminare i dati di classificazione
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ A volte è necessario rimuovere i dati di classificazione dopo il caricamento. U
 La rimozione dei dati di classificazione comporta il caricamento di un file di classificazione contenente `~empty~` o `~deletekey~` nelle celle appropriate.
 
 1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Fai clic su **[!UICONTROL Browser Export]**.
+1. Fai clic su **[!UICONTROL Browser Export]** (Genera).
 1. Seleziona la suite di rapporti e il set di dati da cui desideri rimuovere i dati di classificazione.
 1. Regolate le impostazioni facoltative per filtrare i dati specifici che state cercando, quindi fate clic **[!UICONTROL Export File]**.
 1. Una volta scaricato il file, aprite il file e sostituite eventuali valori di classificazione con `~empty~` o `~deletekey~`.
