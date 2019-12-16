@@ -1,47 +1,31 @@
 ---
 description: L’identificazione dei visitatori tra dispositivi consente di collegare i visitatori tra più dispositivi. L’identificazione dei visitatori su più dispositivi utilizza la variabile ID visitatore, s.visitorID, per associare un utente a più dispositivi.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: Connettere gli utenti tra i dispositivi
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Connettere gli utenti tra i dispositivi
 
->[!IMPORTANT]
->
->Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Fai riferimento alla documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud Device Co-op.
+> [!IMPORTANT] Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consultate Analisi [](/help/components/cda/cda-home.md) multi-dispositivo nella guida utente dei componenti.
 
-L’identificazione dei visitatori tra dispositivi consente di collegare i visitatori tra più dispositivi. L’identificazione dei visitatori su più dispositivi utilizza la variabile ID visitatore, s.visitorID, per associare un utente a più dispositivi.
+L’identificazione dei visitatori tra dispositivi consente di collegare i visitatori tra più dispositivi. L’identificazione dei visitatori su più dispositivi utilizza la `visitorID` variabile per associare un utente a più dispositivi. La `visitorID` variabile assume la priorità più alta quando si [identificano visitatori](../c-unique-visitors/visid-overview.md)univoci.
 
-Quando fornisci una [!UICONTROL visitor ID] variabile con un hit, il sistema verifica la presenza di qualsiasi altro profilo visitatore con una corrispondenza [!UICONTROL visitor ID]. Se ne esiste uno, il profilo visitatore già presente nel sistema viene utilizzato da quel momento in poi e il profilo visitatore precedente non viene più utilizzato.
+Quando invii un hit con un ID visitatore personalizzato, Adobe verifica la presenza di eventuali profili visitatore con un ID visitatore corrispondente. Se ne esiste uno, il profilo visitatore già presente nel sistema viene utilizzato da quel momento in poi e il profilo visitatore precedente non viene più utilizzato.
 
-In genere [!UICONTROL visitor ID] viene impostato dopo l’autenticazione, o dopo che un visitatore esegue altre azioni che consentono di identificarli in modo univoco indipendentemente dal dispositivo utilizzato. È consigliabile creare un hash del nome utente o un ID interno che non contenga alcuna informazione personale.
+L’impostazione della `visitorID` variabile viene in genere impostata dopo l’autenticazione o dopo che un visitatore esegue altre azioni che consentono di identificarle in modo univoco indipendentemente dal dispositivo utilizzato. Gli identificatori efficaci includono un hash del proprio nome utente, indirizzo e-mail o un ID interno che non contiene informazioni personali.
 
-Nell'esempio [precedente](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md), dopo che il cliente ha effettuato l'accesso da ciascun dispositivo, tutti i componenti sono associati allo stesso profilo utente. Se il visitatore si disconnette successivamente su un dispositivo, l'unione continua a funzionare poiché [!UICONTROL visitor ID]gli elementi memorizzati in un cookie su ciascun dispositivo sono già associati allo stesso profilo visitatore. È consigliabile compilare la [!UICONTROL s.visitorID] variabile quando possibile nel caso in cui il [!UICONTROL visitor ID] cookie venga eliminato.
+Dopo che il cliente ha effettuato l'accesso da ciascun dispositivo, tutti i collegamenti sono legati allo stesso profilo utente. Se il visitatore si disconnette successivamente su un dispositivo, continua a appartenere allo stesso profilo del visitatore perché Adobe riconosce che il cookie del browser su ciascun dispositivo appartiene allo stesso profilo del visitatore. Adobe consiglia di utilizzare la `visitorID` variabile quando possibile, nel caso in cui il cookie del browser venga eliminato.
 
-## Conteggio unico visitatori e visite {#section_70330AB6724C4E419A4BD0BDD54641AC}
+## Limitazioni
 
-Considerare la seguente sequenza di connessione per due dispositivi:
+L’utilizzo del proprio ID visitatore personalizzato offre maggiore controllo sulle modalità di identificazione dei visitatori, ma presenta anche dei limiti.
 
-![](assets/xdevice-counts.png)
-
-**Sulla prima connessione dati**
-
-* La deduplicazione dei visitatori non è retroattiva.
-
-Dopo l'autenticazione sul laptop, gli hit con ID visitatore ( `nv1` o `cust1`) saranno considerati come lo stesso individuo da Adobe Analytics. Tuttavia, la deduplicazione dei visitatori non è retroattiva, quindi vengono conteggiati due visitatori unici.
-
-Sulla prima connessione dati sul dispositivo mobile, il cliente non viene riconosciuto, quindi viene conteggiato un nuovo visitatore univoco. Una volta che l'utente è autenticato ( `cust1`) sul dispositivo mobile, Adobe Analytics `cust1` torna all'ID visitatore fornito sul sito principale, per cui non vengono incrementate ulteriori visite univoche.
-
-Ogni nuovo dispositivo o browser autenticato aggiungerà 1 visitatore univoco.
-
-**Nelle successive connessioni dati**
-
-Nelle successive connessioni dati a dispositivi autenticati, i visitatori univoci non vengono incrementati.
+* **La deduplicazione dei visitatori non è retroattiva**: Se un visitatore accede al sito per la prima volta, quindi esegue l'autenticazione, vengono contati due visitatori unici. Un singolo conteggio dei visitatori per l’ID Analytics generico generato automaticamente e un altro per l’ID visitatore personalizzato al momento dell’accesso. Questa duplicazione di visitatori univoci è presente ogni volta che un visitatore utilizza un nuovo dispositivo o cancella i cookie.
+* **Incompatibilità con il servizio** Experience Cloud ID: Dall'introduzione dell'identificazione dei visitatori su più dispositivi, Adobe ha rilasciato modi più potenti e affidabili per monitorare i visitatori su più dispositivi. Questi nuovi metodi di identificazione non sono compatibili con l’override dell’ID visitatore personalizzato. Se intendi utilizzare il servizio ID, l’analisi cross-device (CDA) o Device Co-op, Adobe consiglia vivamente di non utilizzare la `visitorID` variabile.
