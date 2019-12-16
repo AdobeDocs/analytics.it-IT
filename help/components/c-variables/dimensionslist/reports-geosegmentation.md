@@ -1,11 +1,10 @@
 ---
 description: Visualizza i dati sulla posizione del visitatore. I report di geosegmentazione includono Paesi, Regioni, Città, Stati Uniti e DMA (area di marketing digitale) statunitense. I rapporti di geosegmentazione sono abilitati per tutti i clienti.
-solution: Analytics
 title: Geosegmentazione
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
