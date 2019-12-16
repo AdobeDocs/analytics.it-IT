@@ -1,11 +1,10 @@
 ---
 description: Identifica la modalità in cui i singoli prodotti e i gruppi di prodotti (categorie) contribuiscono alle varie metriche di conversione personali, come Entrate o Checkout.
-solution: Analytics
 title: Prodotti
 topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
