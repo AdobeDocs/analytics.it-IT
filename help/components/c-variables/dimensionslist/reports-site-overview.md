@@ -1,11 +1,10 @@
 ---
 description: Il rapporto Metriche del sito > Panoramica del sito viene visualizzato al momento del login e consente di visualizzare e interagire immediatamente con i dati pertinenti. Puoi modificare il layout, salvarlo come dashboard e approfondire i dati per un'analisi più approfondita.
-solution: Analytics
 title: Panoramica del sito
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
