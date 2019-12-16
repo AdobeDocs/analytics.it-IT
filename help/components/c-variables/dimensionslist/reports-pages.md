@@ -1,18 +1,17 @@
 ---
-description: ' Consente di classificare le pagine del sito in base alle pagine che ricevono più traffico. Se la domanda aziendale tratta dati quantitativi per le pagine, potete utilizzare questo rapporto per rispondere a tale domanda, aggiungendo le metriche corrette.'
-solution: Analytics
+description: Consente di classificare le pagine del sito in base alle pagine che ricevono più traffico. Se la domanda aziendale tratta dati quantitativi per le pagine, potete utilizzare questo rapporto per rispondere a tale domanda, aggiungendo le metriche corrette.
 title: Pagine
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Pagine
 
- Consente di classificare le pagine del sito in base alle pagine che ricevono più traffico. Se la domanda aziendale tratta dati quantitativi per le pagine, potete utilizzare questo rapporto per rispondere a tale domanda, aggiungendo le metriche corrette.
+Consente di classificare le pagine del sito in base alle pagine che ricevono più traffico. Se la domanda aziendale tratta dati quantitativi per le pagine, potete utilizzare questo rapporto per rispondere a tale domanda, aggiungendo le metriche corrette.
 
 ## Assegnazione, scadenza e valori speciali {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -54,7 +53,7 @@ In Reporting e analisi, le metriche nel report Pagine utilizzano l'allocazione l
    <td colname="col1"> Valori speciali </td> 
    <td colname="col2"> <p>(traffico limitato) rappresenta valori oltre i primi 500 k che non hanno ricevuto abbastanza traffico per essere segnalati. </p> </td> 
    <td colname="col3"> <p>(traffico limitato) rappresenta valori oltre i primi 500 k che non hanno ricevuto abbastanza traffico per essere segnalati. </p> </td> 
-   <td colname="col4"> none </td> 
+   <td colname="col4">  none </td> 
    <td colname="col5"> <p>(traffico limitato) rappresenta valori oltre i primi 500 k che non hanno ricevuto abbastanza traffico per essere segnalati. </p> </td> 
   </tr> 
  </tbody> 
