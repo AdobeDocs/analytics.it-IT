@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics offre un'interfaccia di reporting flessibile che consente di generare diversi report complessi. Anche se la maggior parte dei report vengono generati molto rapidamente, è possibile che si verifichino dei report con timeout o che non vengano generati correttamente. Per evitare errori di generazione dei report, questa sezione spiega molti fattori che influiscono sulla velocità di generazione dei report. Comprendere queste informazioni può aiutarti a strutturare i rapporti in modo che siano più propensi a generare con successo.
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: Tecniche consigliate e risoluzione dei problemi per i rapporti
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
