@@ -1,12 +1,11 @@
 ---
 description: Utilizzate le classificazioni per classificare i valori in gruppi correlati e per creare rapporti a livello di gruppo. Ad esempio, potete classificare tutte le campagne di ricerca a pagamento in una categoria come le schede video. Potete quindi generare rapporti sul successo di quella categoria in relazione a metriche come Istanze (o click-through).
-solution: Analytics
 subtopic: Marketing channels
 title: Classificazioni in canali di marketing
 topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -36,7 +35,7 @@ Le classificazioni aggiunte in questa procedura vengono visualizzate nel [!UICON
 Crea classificazioni per il [!UICONTROL Marketing Channel] rapporto.
 
 1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In [!UICONTROL Report Suite Manager], fate clic su **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
+1. In [!UICONTROL Report Suite Manager], fai clic su **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
 <!--
 1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md) page, specify the classification type.
 -->
