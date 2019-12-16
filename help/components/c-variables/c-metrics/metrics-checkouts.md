@@ -1,11 +1,10 @@
 ---
 description: Un evento che si verifica quando i clienti arrivano alla fase di estrazione di un acquisto. La fase di checkout si verifica solitamente prima della finalizzazione di un acquisto e in genere comporta l'immissione di informazioni personali da parte del cliente (come le informazioni di spedizione e fatturazione). Potete controllare gli eventi sul sito che possono essere considerati come pagamenti. Questo valore deriva dall'evento scCheckout.
-solution: Analytics
 title: Pagamenti
 topic: Metrics
 uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
