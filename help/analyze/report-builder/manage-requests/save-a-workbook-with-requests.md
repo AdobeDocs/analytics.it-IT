@@ -1,11 +1,10 @@
 ---
 description: Dopo aver creato rapporti con richieste incorporate, puoi salvarle facendo clic su File > Salva o File > Salva con nome in Excel. Generatore di report rileva se il report contiene richieste. Quando si fa clic su una di queste opzioni di salvataggio, viene visualizzato il modulo Salva cartella di lavoro con nome.
-solution: Analytics
 title: Salvare una cartella di lavoro con le richieste
 topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
