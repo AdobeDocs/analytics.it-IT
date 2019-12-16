@@ -1,12 +1,11 @@
 ---
 description: Gestire utenti e gruppi di rapporti nella pagina Gestione utenti consente di gestire utenti e gruppi e di controllare l’accesso a rapporti, strumenti e suite di rapporti.
-solution: Analytics
 subtopic: Users and groups
 title: Panoramica sulla gestione utente
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
