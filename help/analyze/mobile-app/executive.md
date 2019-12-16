@@ -2,7 +2,7 @@
 description: Istruzioni per l'impostazione delle scorecard dell'app mobile.
 title: Guida alla cura delle app Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: 4d1184f7b7c7f683fc3da2ea42a6e5911c60427b
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -19,7 +19,16 @@ L'app mobile Adobe Analytics fornisce informazioni ovunque e in qualsiasi moment
 
 ## Glossario dei termini
 
-|Termine|Definizione||—|—||Consumatore|Personale esecutivo che visualizza metriche chiave e informazioni da Analytics su un dispositivo mobile||Curatore|Persona di livello dati che trova e distribuisce approfondimenti da Analytics e configura le scorecard da visualizzare dal consumatore||Cura|L'atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore||Scorecard|Vista app mobile contenente uno o più riquadri||Tile|Rendering di una metrica in una vista scorecard||Suddivisione|Vista secondaria accessibile toccando una sezione nella scorecard. Questa visualizzazione si espande sulla metrica visualizzata nella sezione e, facoltativamente, riporta ulteriori dimensioni di suddivisione.||Intervallo di date|Intervallo di date principale per il reporting delle app mobili||Intervallo di date di confronto|Intervallo di date confrontato con l'intervallo di date principale|
+| Termine | Definizione |
+|--- |--- |
+| Consumer | Personalità esecutiva che visualizza metriche chiave e informazioni da Analytics su un dispositivo mobile |
+| Curatore | Persona con informazioni sui dati che trova e distribuisce approfondimenti da Analytics e configura gli scorecard da visualizzare per il consumatore |
+| Cura | Creazione o modifica di una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore |
+| Scorecard | Visualizzazione app mobile contenente uno o più riquadri |
+| Affianca | Rendering di una metrica in una visualizzazione scorecard |
+| Suddividi | Vista secondaria accessibile toccando una sezione nella scorecard. Questa visualizzazione si espande sulla metrica visualizzata nella sezione e, facoltativamente, riporta ulteriori dimensioni di suddivisione. |
+| Intervallo date | L'intervallo di date principale per il reporting delle app mobili |
+| Intervallo date confronto | Intervallo di date confrontato con l'intervallo di date principale |
 
 ## Ottenere la configurazione dell'app sul dispositivo
 
@@ -32,41 +41,40 @@ Per accedere alle scorecard nell'app, accertati che:
 * Hai un accesso valido ad Adobe Analytics
 * Il vostro curatore ha creato correttamente le scorecard mobili e le ha condivise con voi
 
-
 ### Scaricate e installate l'app
 
 Per scaricare e installare l'app, segui i passaggi descritti in base al sistema operativo sul tuo dispositivo.
 
-    **Per i dispositivi iOS:**
-    
-    1. Fai clic sul seguente collegamento pubblico (È disponibile anche in Analytics in **Strumenti** &gt; **App mobile**):
-    
-    [collegamento iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-    
-    Dopo aver fatto clic sul collegamento, viene visualizzata la seguente schermata TestFlight:
-    
-    ![Schermata di verifica](assets/testflight1.png)
-    
-    2. Toccate il collegamento **View in App Store** sullo schermo per scaricare l'app Testflight.
-    
-    3. Dopo aver installato l'app Testflight, trova e installa l'app mobile Adobe Analytics dall'interno di TestFlight come mostrato di seguito:
-    
-    ![Schermata di verifica](assets/testflight2.png)
-    
-    **Per dispositivi Android:**
-    
-    1. Toccate il seguente collegamento Play Store sul dispositivo dell'utente (è disponibile anche in Analytics in **Tools** &gt; **Mobile App**):
-    
-    
-    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-    
-    Dopo aver toccato il collegamento, toccate il collegamento Diventa un tester nella schermata seguente:
-    
-    ![Schermata Play Store](assets/play.png)
-    
-    2. Toccate il collegamento **download su Google Play** nella schermata seguente:
-    
-    ![Collegamento per il download](assets/playnext.png)
+**Per i dispositivi iOS:**
+
+1. Fai clic sul seguente collegamento pubblico (è disponibile anche in Analytics in **Strumenti** &gt; App **** mobile):
+
+   [Collegamento](https://testflight.apple.com/join/WtXMQxlI)iOS: `https://testflight.apple.com/join/WtXMQxlI`
+
+   Dopo aver fatto clic sul collegamento, viene visualizzata la seguente schermata Verifica:
+
+   ![Schermata di verifica](assets/testflight1.png)
+
+2. Toccate il collegamento **Visualizza in App Store** sullo schermo per scaricare l'app TestFlight.
+
+3. Dopo aver installato l'app Testflight, trova e installa l'app mobile Adobe Analytics dall'interno di TestFlight come mostrato di seguito:
+
+   ![Schermata di verifica](assets/testflight2.png)
+
+**Per i dispositivi Android:**
+
+1. Toccate il seguente collegamento Play Store sul dispositivo dell'utente (è disponibile anche in Analytics in **Strumenti** &gt; App **** mobile):
+
+
+   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+
+   Dopo aver toccato il collegamento, toccate il collegamento Diventa un tester nella schermata seguente:
+
+   ![Riproduci store, schermata](assets/play.png)
+
+2. Toccate il **download sul collegamento Google Play** nella schermata seguente:
+
+   ![Collegamento di download](assets/playnext.png)
 
 ## Utilizzo dell'app
 
@@ -86,7 +94,8 @@ Per utilizzare l'app:
 
    * *Puoi accedere all’istanza di Analytics giusta*
    * *La scorecard è stata condivisa con voi*
-   ![Nessuna condivisione](assets/nothing.png)
+
+      ![Nessuna condivisione](assets/nothing.png)
 
 4. Esaminare l'aspetto delle sezioni nella scorecard.
 
