@@ -1,13 +1,12 @@
 ---
 description: Il plug-in getVisitNum determina il numero di visite effettuate da un utente al sito e acquisisce tale numero in una variabile di Analytics.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getVisitNum
 topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
