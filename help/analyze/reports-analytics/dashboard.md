@@ -1,12 +1,11 @@
 ---
 description: Una dashboard è una raccolta di miniature di rapporti denominati minirapporti. Una dashboard è particolarmente utile quando contiene minirapporti correlati che forniscono una panoramica completa di alcuni aspetti del sito, ad esempio metodi di ricerca, profili dei visitatori e così via.
-solution: Analytics
 subtopic: Dashboards
 title: Dashboard e minirapporti
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -71,7 +70,7 @@ t_dashboard_add.xml
 Prima di aggiungere un rapporto (come minirapporto) a una dashboard, definite il layout della dashboard.
 
 1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Manage Dashboards]**.
-1. Fai clic su **[!UICONTROL Add Dashboard]**.
+1. Fai clic su **[!UICONTROL Add Dashboard]** (Genera).
 1. Digitate un nome per il dashboard.
 1. Fate clic **[!UICONTROL 3 x 2]** o **[!UICONTROL 2 x 2]** per specificare il numero di rapporti desiderati nella pagina del dashboard.
 1. Configurare il layout della pagina del dashboard:
@@ -111,7 +110,7 @@ t_dashboard_add_report.xml
 
    **[!UICONTROL Publishing List Override]**: Se attivate questa opzione, la suite di rapporti a cui si fa riferimento in questo minirapporto viene sempre utilizzata quando distribuita in un elenco di pubblicazione. Se disabilitate questa opzione, la suite di rapporti identificata nell'elenco di pubblicazione sostituisce la suite di rapporti in questo minirapporto.
 
-1. Fai clic su **[!UICONTROL Create New]**.
+1. Fai clic su **[!UICONTROL Create New]** (Genera).
 
    Il minirapporto viene aggiunto al **[!UICONTROL Dashboard Contents]** menu nell'editor dashboard.
 
@@ -183,9 +182,9 @@ t_dashboard_edit.xml
 **Per modificare i dati del dashboard e del minirapporto**
 
 1. Fate clic **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; Nome ** dashboard per aprire una dashboard.
-1. Fai clic su **[!UICONTROL Layout]**.
+1. Fai clic su **[!UICONTROL Layout]** (Genera).
 
-|  A | Procedura |
+| A | Procedura |
 |--- |--- |
 | Modificare la suite di rapporti di una dashboard | Fai clic sul menu nell'intestazione di Experience Cloud, quindi seleziona una suite di rapporti. |
 | Modificare la suite di rapporti di un minirapporto | Nel minirapporto, fai clic sul nome della suite di rapporti, quindi seleziona una suite di rapporti dal [!UICONTROL Report Suite] menu. |
@@ -210,9 +209,9 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** (Analytics &gt; Componenti &gt; Progetti programmati)
 1. Sulla [!UICONTROL Company Settings] pagina fare clic su **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
-1. Fai clic su **[!UICONTROL Enable Co-Branding]**.
+1. Fai clic su **[!UICONTROL Enable Co-Branding]** (Genera).
 1. Sfoglia per caricare l’immagine, quindi fai clic su **[!UICONTROL Save.]**
 
    Per risultati ottimali quando visualizzate l’immagine in un browser, caricate un’immagine da 100 pixel per 30 pixel. Per risultati ottimali nell’output PDF, caricate un’immagine da 417px per 125px (300 dpi). Le immagini di dimensioni eccessive vengono ridotte e vengono mantenute le proporzioni.
