@@ -1,13 +1,12 @@
 ---
 description: Personalizza nel dettaglio le opzioni di accesso degli utenti, ad esempio per eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti di percorsi.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Personalizzare le autorizzazioni della dimensione
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -97,7 +96,7 @@ I seguenti elementi sono dimensioni consentite.
   </tr> 
   <tr> 
    <td colname="col1"> <p> Social </p> </td> 
-   <td colname="col2"> <p>Non utilizzato. </p> </td> 
+   <td colname="col2"> <p> Non utilizzato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
