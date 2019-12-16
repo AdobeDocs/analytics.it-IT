@@ -1,11 +1,10 @@
 ---
 description: Le metriche di partecipazione assegnano l'intero credito dagli eventi di successo a tutti i valori di una eVar che sono stati passati durante una visita. Le metriche di partecipazione sono utili per determinare quali pagine, campagne o altri valori di variabili personalizzate contribuiscono maggiormente al successo del sito. La partecipazione si basa sulla visita. Tutti i valori eVar di una visita prima e incluso l'hit quando si verifica un evento ricevono il credito di partecipazione, indipendentemente dall'impostazione della scadenza.
-solution: Analytics
 title: Partecipazione
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
