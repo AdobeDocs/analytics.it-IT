@@ -1,11 +1,10 @@
 ---
 description: Passaggi che descrivono come personalizzare il grafico in modo che sia più utile per il pubblico desiderato.
-solution: Analytics
 title: Modificare i grafici dei rapporti
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Il tipo di grafici disponibili dipende dal tipo di rapporto eseguito. Ad esempio
 **Per modificare un grafico di rapporti**
 
 1. Esegui un report.
-1. Fai clic su **[!UICONTROL Configure Graph]**.
+1. Fai clic su **[!UICONTROL Configure Graph]** (Genera).
 1. Selezionate un tipo di grafico.
 
    **[!UICONTROL Trend Line]**: Le linee di tendenza mostrano le tendenze giornaliere per le metriche del rapporto e sono utili per tendere una metrica nel tempo per riga.
