@@ -1,12 +1,11 @@
 ---
 description: Esistono diversi tipi di variabili in Experience Cloud. I due tipi più diffusi, Prop ed eVar, consentono alla vostra organizzazione di creare rapporti sulle dimensioni personalizzate sul sito che i report standard out-of-the-box non offrono.
 keywords: Analytics Implementation;prop;evar;props vs evars;naming convention;traffic variables;persistence;success event;pathing
-solution: Analytics
 title: Confronto di eventi, prop ed eVar
 topic: Developer and implementation
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -52,7 +51,7 @@ Di seguito sono riportate le principali differenze tra prop ed eVar:
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_09D486144CEA4293A505DCA3F90B82EC" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Bounce </p> </td> 
+   <td colname="col1"> <p>Rimbalzi </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_471A02B78FD842BB97ED3FF4A5908B03" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_D2F11B5687484D9EBF6D1DEB3F303A20" /> </p> </td> 
   </tr> 
