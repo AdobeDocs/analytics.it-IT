@@ -1,11 +1,10 @@
 ---
 description: Dopo aver eseguito un rapporto, puoi personalizzare il rapporto per visualizzare e analizzare i dati in base alle tue esigenze. Potete filtrare i dati del rapporto, modificare il modo in cui i dati vengono presentati graficamente, modificare la granularità della data e così via.
-solution: Analytics
 title: Panoramica della personalizzazione dei rapporti
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Dopo aver eseguito un rapporto, puoi personalizzare il rapporto per visualizzare e analizzare i dati in base alle tue esigenze. Potete filtrare i dati del rapporto, modificare il modo in cui i dati vengono presentati graficamente, modificare la granularità della data e così via.
 
-## Creare un rapporto personalizzato {#task_BA6EACA3039C40AEA5605E1D8C76E646}
+## Create a custom report {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
 Passaggi che descrivono come salvare la configurazione corrente di un rapporto come nuovo rapporto personalizzato da visualizzare a tutti gli utenti.
 
@@ -57,7 +56,7 @@ Quando apri una dashboard con minirapporti con intervalli di date diversi, puoi 
 
 1. Esegui un report.
 1. Fate clic sull'icona del calendario in alto a destra.
-1. Selezionare una data.
+1.  Selezionare una data.
 
    Puoi:
 
@@ -68,7 +67,7 @@ Quando apri una dashboard con minirapporti con intervalli di date diversi, puoi 
    * Fate clic **[!UICONTROL Select Preset]** per selezionare una data preimpostata.
    * Confronta le date.
 
-1. Fai clic su **[!UICONTROL Run Report]**.
+1. Fai clic su **[!UICONTROL Run Report]** (Genera).
 
 ## Confronta date {#task_95155C3700774B709F5FB81AE96B0824}
 
@@ -88,9 +87,9 @@ Per confrontare le date tra i report classifica in Reporting e analisi:
 
 1. Esegui un report.
 1. Fare clic sul calendario in alto a destra.
-1. Fai clic su **[!UICONTROL Compare Dates]**.
+1. Fai clic su **[!UICONTROL Compare Dates]** (Genera).
 1. Selezionare le date da utilizzare.
-1. Fai clic su **[!UICONTROL Run Report]**.
+1. Fai clic su **[!UICONTROL Run Report]** (Genera).
 
 ## Visualizza una percentuale come grafico {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -105,7 +104,7 @@ t_reports_graph_percent.xml
 Questa visualizzazione è disponibile anche nei minirapporti della dashboard.
 
 1. Eseguire un rapporto che supporti le percentuali, ad esempio un [!UICONTROL Pages Report].
-1. Fai clic su **[!UICONTROL Percent Shown As: Graph]**.
+1. Fai clic su **[!UICONTROL Percent Shown As: Graph]** (Genera).
 
 ## Normalizza i dati del report {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
@@ -123,8 +122,8 @@ Dopo aver eseguito un rapporto con date confrontate, o per confronti A/B, è pos
 
 1. Eseguire un report che supporti i confronti delle date.
 1. Fai clic **[!UICONTROL Compare Dates]**, quindi specifica il confronto tra le date.
-1. Fai clic su **[!UICONTROL Run Report]**.
-1. Fai clic su **[!UICONTROL Normalize Data: Yes]**.
+1. Fai clic su **[!UICONTROL Run Report]** (Genera).
+1. Fai clic su **[!UICONTROL Normalize Data: Yes]** (Genera).
 
 ## Selezionare una pagina per un rapporto {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
