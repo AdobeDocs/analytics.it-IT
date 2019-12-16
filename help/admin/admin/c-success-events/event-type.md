@@ -1,11 +1,10 @@
 ---
 description: Descrive le conseguenze della modifica di un tipo di evento dopo la raccolta dei dati.
-solution: Analytics
 title: Informazioni sulla modifica del tipo di evento
 topic: Admin tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
