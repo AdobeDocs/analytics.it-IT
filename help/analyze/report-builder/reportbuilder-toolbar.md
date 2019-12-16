@@ -1,11 +1,10 @@
 ---
 description: Informazioni utili per comprendere la funzione dei pulsanti nella barra degli strumenti Generatore di report.
-solution: Analytics
 title: Barra degli strumenti di Report Builder
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
