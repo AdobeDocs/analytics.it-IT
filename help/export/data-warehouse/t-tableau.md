@@ -1,11 +1,10 @@
 ---
 description: Data Warehouse può distribuire report in formato TDE (Tableau Data Extract) che consentono di visualizzare dati e livelli in dati aggiuntivi dall'esterno di Adobe Analytics. Puoi inviare queste informazioni via e-mail o FTP a un sito FTP.
-solution: Analytics
 title: File di dati Tableau
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ Per ulteriori informazioni, consultate [Tableau e Adobe Analytics](https://www.t
 1. Scegliere se inviare o meno il rapporto come file compresso.
 1. Invia il rapporto tramite e-mail o FTP.
 
-1. Vai a **[!UICONTROL Schedule Delivery]** &gt; **[!UICONTROL Advanced Delivery Options]** .
+1. Vai a **[!UICONTROL Schedule Delivery]** &gt; **[!UICONTROL Advanced Delivery Options]** (Progetto &gt; Salva come modello).
 1. In **[!UICONTROL Report Destination]**, selezionare **[!UICONTROL FTP]**.
 1. Compila il **[!UICONTROL Host]**, **[!UICONTROL Directory]**, **[!UICONTROL Username]**, e **[!UICONTROL Password]**.
 
