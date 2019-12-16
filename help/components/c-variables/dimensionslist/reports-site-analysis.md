@@ -1,11 +1,10 @@
 ---
 description: Un rapporto Analisi ad hoc. L'analisi del sito mostra il modo in cui i visitatori si spostano tra le pagine e gli eventi specificati. Ad esempio, puoi vedere il flusso di traffico tra le pagine, l'affinità tra i prodotti e i canali di marketing e il modo in cui le campagne e i canali confluiscono negli ordini dei prodotti. Puoi trascinare pagine, elementi dimensionali (ed elenchi) ed eventi delle metriche. Ogni cilindro rappresenta uno o più elementi dimensionali (pagine) o un evento. Le frecce rappresentano il flusso tra i valori del cilindro. Le metriche sono assegnate alle posizioni dei cilindri (X e Y), alla larghezza del cilindro, all’altezza del cilindro e al colore. La posizione, le dimensioni e il colore cambiano a seconda dei valori delle metriche.
-solution: Analytics
 title: Analisi del sito
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -70,7 +69,7 @@ Fare clic con il pulsante destro del mouse sui cilindri per modificarli o rimuov
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Modificare       </p> </td> 
+   <td colname="col1"> <p>Modificare </p> </td> 
    <td colname="col2"> <p>Consente di aggiungere o rimuovere pagine da un cilindro. </p> </td> 
   </tr> 
   <tr> 
