@@ -1,11 +1,10 @@
 ---
 description: Passaggi per aggiungere metriche e dimensioni a una richiesta.
-solution: Analytics
 title: Aggiungere metriche e dimensioni
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -63,7 +62,7 @@ La [!UICONTROL Date] dimensione viene aggiunta automaticamente. Le dimensioni de
     * Intervallo date (quando non è specificata alcuna granularità)
 
 1. Modifica metriche e dimensioni configurando opzioni [e filtri per il](/help/analyze/report-builder/layout/t-format-display-headers.md) formato.
-1. Fai clic su **[!UICONTROL Finish]**.
+1. Fai clic su **[!UICONTROL Finish]** (Genera).
 Nell'esempio seguente, le dimensioni si riferiscono alla [!UICONTROL Page] metrica. In questo caso, la [!UICONTROL Referring Domain] dimensione crea un rapporto di suddivisione tra [!UICONTROL Page] e [!UICONTROL Referring Domain]. La [!UICONTROL Dimension] scheda viene aggiornata con solo le dimensioni che è possibile aggiungere a un report dettagliato.
 
 ![](assets/page_pageview_02.png)
