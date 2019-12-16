@@ -1,11 +1,10 @@
 ---
 description: Il processo di installazione varia a seconda del browser in uso.
-solution: Analytics
 title: Installazione dei plug-in di Activity Map nel browser
 topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,8 +26,8 @@ Plug-in del browser Activity Map:
 
 1. Vai a **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Activity Map]**.  ![](assets/install_am.png)
 
-1. Fai clic su **[!UICONTROL Download Activity Map]**.
-1. Fai clic su **[!UICONTROL Install the Activity Map Plug-in]**.
+1. Fai clic su **[!UICONTROL Download Activity Map]** (Genera).
+1. Fai clic su **[!UICONTROL Install the Activity Map Plug-in]** (Genera).
 1. Rispondete **[!UICONTROL Yes]** quando l'avviso di sicurezza vi chiede se desiderate scaricare il plug-in del browser Activity Map.
 1. Al termine del download, individuate il percorso del file .zip e decomprimetene il contenuto.
 1. Tornate alla barra degli indirizzi di Chrome e immettete `chrome://extensions`.
@@ -38,13 +37,13 @@ Plug-in del browser Activity Map:
 
 ## Installare il plug-in Activity Map su Firefox {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
-1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]**.
+1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]** (Progetto &gt; Salva come modello).
 
-1. Fai clic su **[!UICONTROL Download Activity Map]**.
-1. Fai clic su **[!UICONTROL Install the Activity Map Plug-in]**.
+1. Fai clic su **[!UICONTROL Download Activity Map]** (Genera).
+1. Fai clic su **[!UICONTROL Install the Activity Map Plug-in]** (Genera).
 1. Fare clic **[!UICONTROL Allow]** quando viene visualizzato il messaggio: ![](assets/firefox_install2.png)
 
-1. Fai clic su **[!UICONTROL Install Now]**.
+1. Fai clic su **[!UICONTROL Install Now]** (Genera).
 1. Fate clic sull' **[!UICONTROL Open Menu]** icona in alto a destra e selezionate **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. La Activity Map deve essere elencata come uno dei componenti aggiuntivi di Firefox.
@@ -52,10 +51,10 @@ Plug-in del browser Activity Map:
 
 ## Installare il plug-in Activity Map su Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
-1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]**.
+1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]** (Progetto &gt; Salva come modello).
 
-1. Fai clic su **[!UICONTROL Download Activity Map]**.
-1. Fai clic su **[!UICONTROL Install the Activity Map Plug-in]**.
+1. Fai clic su **[!UICONTROL Download Activity Map]** (Genera).
+1. Fai clic su **[!UICONTROL Install the Activity Map Plug-in]** (Genera).
 1. Fate clic **[!UICONTROL Run]** per avviare l'installazione della Activity Map.
 1. Fare clic **[!UICONTROL Yes]** sulla finestra a comparsa per consentire al programma di apportare modifiche al computer.
 1. Seguite le istruzioni fornite nella procedura guidata di installazione.
