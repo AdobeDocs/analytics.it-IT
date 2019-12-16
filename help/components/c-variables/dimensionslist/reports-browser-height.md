@@ -1,11 +1,10 @@
 ---
 description: Indica la distanza verticale dei dati solo nella finestra del browser. Le barre degli strumenti, i menu, i pulsanti e così via sono tutti esclusi come parte della dimensione dell'altezza del browser.
-solution: Analytics
 title: Altezza browser
 topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
