@@ -1,12 +1,11 @@
 ---
 description: Aggiungi o abilita canali di marketing in Marketing Channel Manager. Per le suite di rapporti prive di canali di marketing, una configurazione automatica consente di creare diversi canali per voi, insieme alle relative regole. Potete modificare i canali predefiniti in base alle vostre esigenze o crearne di nuovi (fino a un totale di 25).
-solution: Analytics
 subtopic: Marketing channels
 title: Gestire i canali di marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -78,7 +77,7 @@ Definizioni dei campi per la [!UICONTROL Marketing Channel Manager] pagina.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type (Tipo) </p> </td> 
-   <td colname="col2"> <p> Specifica in che modo l’utente è arrivato sul sito. Potete selezionare <span class="uicontrol"> Online</span> o <span class="uicontrol"> Offline</span>. Utilizza i canali online per i visitatori che passano attraverso un motore di ricerca o una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite annunci pubblicitari di giornali o riviste. I canali offline in genere includono i dati importati tramite Origini dati di reporting. </p> <p>Vedere <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  > Origini</a>dati. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Specifica in che modo l’utente è arrivato sul sito. Potete selezionare <span class="uicontrol"> Online</span> o <span class="uicontrol"> Offline</span>. Utilizza i canali online per i visitatori che passano attraverso un motore di ricerca o una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite annunci pubblicitari di giornali o riviste. I canali offline in genere includono i dati importati tramite Origini dati di reporting. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  > Data Sources</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colore </p> </td> 
