@@ -1,11 +1,10 @@
 ---
 description: Un gruppo di rapporti basati sull'analisi dei percorsi. Tecnicamente, per percorso si intende lo spostamento da un nome di pagina all’altro (da un valore all’altro).
-solution: Analytics
 title: Tracciatura percorso
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
