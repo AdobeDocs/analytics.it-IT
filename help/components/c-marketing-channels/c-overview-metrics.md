@@ -1,12 +1,11 @@
 ---
 description: Come utilizzare le metriche nei report Marketing Channel.
-solution: Analytics
 subtopic: Marketing channels
 title: Metriche utilizzate nei rapporti sul canale di marketing
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -74,11 +73,11 @@ Un click-through è un'istanza sul canale dell'ultimo tocco. È una eVar con l'a
 Ad esempio, supponiamo che un visitatore venga sul sito Web una volta al giorno, con ogni visita proveniente da un canale di marketing diverso:
 
 * Giorno 1: Ricerca a pagamento
-* Giorno 2: Display
+* Giorno 2:Display
 * Giorno 3: Ricerca naturale
-* Giorno 4: Display
+* Giorno 4:Display
 * Giorno 5: Ricerca a pagamento
-* Giorno 6: Display
+* Giorno 6:Display
 * Giorno 7: Ricerca naturale
 
 Il report First-Touch Channel (Canale di primo contatto) mostrerebbe 1 nuovo coinvolgimento per la ricerca a pagamento. Ogni altro canale mostrava 0 nuovi impegni. Il rapporto Last-Touch Channel (Ultimo canale touch) mostra 2 click-through per la ricerca a pagamento; 3 per il display; e 2 per Ricerca naturale.
