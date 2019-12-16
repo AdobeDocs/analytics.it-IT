@@ -1,11 +1,10 @@
 ---
 description: Visualizza il layout gerarchico delle pagine del sito Web e le visualizza in ordine in base alla configurazione nella variabile hierN. Questo rapporto viene compilato con la corretta configurazione della variabile impostata per ogni pagina che si desidera partecipare alla gerarchia. Questo rapporto consente di visualizzare le metriche selezionate (ad esempio Visitatori unici) per la gerarchia.
-solution: Analytics
 title: Gerarchia
 topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
