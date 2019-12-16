@@ -1,12 +1,11 @@
 ---
 description: È possibile acquisire i valori degli elementi del modulo, come ad esempio gli elementi di un pulsante di scelta e di una casella di controllo, nei rapporti. Questo consente di analizzare le scelte più comuni nei moduli online.
 keywords: Analytics Implementation
-solution: Analytics
 title: Raccogliere dati dagli elementi modulo
 topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
