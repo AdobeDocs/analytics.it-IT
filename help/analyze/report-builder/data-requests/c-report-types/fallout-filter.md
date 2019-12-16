@@ -1,11 +1,10 @@
 ---
 description: Descrive i passaggi necessari per applicare filtri a un rapporto di abbandono.
-solution: Analytics
 title: Filtrare un rapporto di fallout mediante la Creazione guidata richieste
 topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Questo esempio mostra il rapporto Abbandono pagina.
    ![](assets/page_fallout.png)
 
 1. Configura gli intervalli di [date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)appropriati.
-1. Fai clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Next]** (Genera).
 1. Nel Passaggio 2 della procedura guidata, in **[!UICONTROL Row Labels]**, fare clic sul **[!UICONTROL Define Checkpoints]** collegamento. In un rapporto di abbandono, è sempre necessario definire gli elementi del percorso, a differenza di un rapporto sul percorso, in cui un pattern è già applicato.
 
    ![](assets/define_checkpoints.png)
