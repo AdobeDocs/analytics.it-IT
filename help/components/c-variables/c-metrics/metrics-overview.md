@@ -1,11 +1,10 @@
 ---
 description: Elenca le metriche standard in Adobe Analytics.
-solution: Analytics
 title: Riferimento rapido metriche
 topic: Metrics
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Elenca le metriche standard in Adobe Analytics.
 | Tempo medio trascorso sulla pagina | Rappresenta il tempo medio trascorso su una pagina all’interno di una visita. | Traffico |
 | Tempo medio trascorso sul sito | Rappresenta il tempo medio trascorso su un sito all’interno di una visita. | Traffico |
 | Percentuale non recapitate | Mostra la percentuale di visite che contengono un singolo hit. Il tasso di rimbalzo utilizza la metrica Blocchi ed è calcolato come segue: Sfondi divisi per Voci. | Conversione |
-| Bounce | Una visita che consiste in una singola chiamata server. Ad esempio, una visita a una sola pagina viene considerata bounce se un visitatore non interagisce con la pagina in modo da inviare dati ad Adobe, come ad esempio fare clic su un collegamento o avviare un video. Se durante una visita viene ricevuto più di un hit, non viene conteggiato un bounce. | Conversione |
+| Rimbalzi | Una visita che consiste in una singola chiamata server. Ad esempio, una visita a una sola pagina viene considerata bounce se un visitatore non interagisce con la pagina in modo da inviare dati ad Adobe, come ad esempio fare clic su un collegamento o avviare un video. Se durante una visita viene ricevuto più di un hit, non viene conteggiato un bounce. | Conversione |
 | Click-through delle campagne | I click-through rappresentano il numero di volte in cui un codice di tracciamento per una determinata campagna è stato passato nel reporting. Quando un visitatore fa clic su un collegamento affiliato a cui è stato assegnato un tag con uno di questi codici di tracciamento, viene portato alla pagina di destinazione e il codice di tracciamento viene acquisito in s.campaign. Tali dati vengono inviati nel reporting e viene registrato un click-through. | Conversione |
 | Aggiunte carrello | Il numero di volte in cui un articolo è stato aggiunto a un carrello. Questo valore deriva dall'evento scAdd. | Conversione |
 | Apri carrello | Il numero di volte in cui un cliente ha aperto un carrello aggiungendo il primo articolo. Si verifica la prima volta che un elemento viene aggiunto al carrello. Questo valore deriva dall'evento scOpen. | Conversione |
