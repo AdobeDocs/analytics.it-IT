@@ -1,11 +1,10 @@
 ---
 description: Adobe richiede avvisi anticipati per nuove impostazioni account, picchi di traffico e aumenti di traffico. L'hardware deve essere assegnato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sul sistema.
-solution: Analytics
 title: Tempo di lead richiesto per aumento di traffico
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
