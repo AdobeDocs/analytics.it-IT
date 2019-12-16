@@ -1,11 +1,10 @@
 ---
 description: Fornisce un'analisi completa, accurata e dettagliata dell'attività del cliente. Metriche come la gestione delle campagne, il ciclo di vendita, l'abbandono del cliente e la conversione del cliente consentono di misurare le transazioni di e-commerce, le fonti di vendita, l'efficacia della pubblicità, la fedeltà dei clienti e altro ancora.
-solution: Analytics
 title: Conversione
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,7 +39,7 @@ Alcuni report out-of-the-box contengono sia le metriche Traffic (Traffico) che C
    * Numero visita
    * Molti rapporti sul profilo dei visitatori e sulla tecnologia
    * Tutte le altre eVar
-   * Canali di marketing - Primo e ultimo tocco
+   *  Canali di marketing - Primo e ultimo tocco
 
 * I seguenti eventi possono essere utilizzati come metriche:
 
