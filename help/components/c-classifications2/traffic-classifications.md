@@ -1,12 +1,11 @@
 ---
 description: Le classificazioni del traffico consentono di classificare le variabili di traffico (prop). Le classificazioni del traffico possono utilizzare solo classificazioni di testo.
-solution: Analytics
 subtopic: Classifications
 title: Classificazioni traffico
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -46,4 +45,4 @@ Procedura che descrive come aggiungere o modificare le classificazioni per le su
    **[!UICONTROL Name:]** Specificate il nome della classificazione.
 
    **[!UICONTROL Description]**: Fornire una descrizione più dettagliata.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]** (Genera).
