@@ -1,11 +1,10 @@
 ---
 description: Passaggi sull'esecuzione dei diversi tipi di rapporto.
-solution: Analytics
 title: Eseguire diversi tipi di rapporto
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -80,7 +79,7 @@ Scopri il nuovo pannello Analisi [](https://marketing.adobe.com/resources/help/e
    ![Risultato passaggio](assets/fallout_add_items.png)
 
 1. Nella [!UICONTROL Define Checkpoints] pagina, specificate i punti di controllo da utilizzare per il rapporto.
-1. Fai clic su **[!UICONTROL Run Report]**.
+1. Fai clic su **[!UICONTROL Run Report]** (Genera).
 
    ![Risultato passaggio](assets/fallout_report.png)
 
