@@ -1,11 +1,10 @@
 ---
 description: La pagina Gestione azioni in sospeso consente di visualizzare un elenco delle azioni in sospeso nell’ambiente Analytics. Un'azione in sospeso è qualsiasi modifica del sistema che richiede l'approvazione di Adobe prima dell'implementazione.
-solution: Analytics
 title: Azioni in sospeso
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
