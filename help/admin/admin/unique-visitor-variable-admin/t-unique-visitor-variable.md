@@ -1,11 +1,10 @@
 ---
 description: Passaggi che descrivono come specificare quale eVar contiene l’identificatore del visitatore.
-solution: Analytics
 title: Specificare la variabile Visitatore univoco
 topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
