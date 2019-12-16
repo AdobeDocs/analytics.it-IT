@@ -1,12 +1,11 @@
 ---
 description: Gli estratti di dati consentono di scegliere i parametri che verranno visualizzati sia sugli assi X che Y del rapporto, nonché sull'elemento tramite il quale il rapporto viene filtrato.
-solution: Analytics
 subtopic: Schedule
 title: Estrarre dati
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
