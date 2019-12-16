@@ -1,12 +1,11 @@
 ---
 description: Descrive cosa è una collisione hash e come può manifestarsi.
 keywords: Analytics Implementation;hash;collision;prop;evar;hash
-solution: Analytics
 title: Collisioni hash
 topic: Developer and implementation
 uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Descrive cosa è una collisione hash e come può manifestarsi.
 
 Per impostazione predefinita, Adobe tratta i valori prop ed eVar come stringhe, anche se il valore è un numero. A volte queste stringhe sono lunghe centinaia di caratteri, altre sono corte. Per risparmiare spazio, migliorare le prestazioni e ridurre le dimensioni uniformemente, le stringhe non vengono utilizzate direttamente nelle tabelle di elaborazione. Per ciascun valore viene invece calcolato un hash a 32 bit o a 64 bit. Tutti i rapporti vengono eseguiti su tali valori con hash fino alla presentazione dei dati, dove ogni hash viene sostituito dal testo originale. Senza questa compressione, i report potrebbero richiedere alcuni minuti.
 
-Per la maggior parte dei campi, la stringa viene prima convertita in lettere minuscole (riducendo il numero di valori univoci). I valori vengono impostati su base mensile (la prima volta che vengono visualizzati ogni mese). Da mese a mese esiste una piccola possibilità che due valori di variabili univoche siano associati allo stesso valore hash. Questa operazione è nota come *collisione* hash.
+Per la maggior parte dei campi, la stringa viene convertita in lettere maiuscole e minuscole (riducendo il numero di valori univoci). I valori vengono impostati su base mensile (la prima volta che vengono visualizzati ogni mese). Da mese a mese esiste una piccola possibilità che due valori di variabili univoche siano associati allo stesso valore hash. Questa operazione è nota come *collisione* hash.
 
 Le collisioni hash possono manifestarsi nel reporting come segue:
 
