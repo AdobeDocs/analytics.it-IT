@@ -1,12 +1,11 @@
 ---
 description: In questo argomento sono fornite risposte alle domande comuni.
-solution: Analytics
 subtopic: Data sources
 title: Domande frequenti su Origini dati
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -113,7 +112,7 @@ Il numero di Visitatori unici in un registro server Web è calcolato come le div
 
 ## In Origini dati, come si può sapere quali login appartengono a quale suite di rapporti? {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
-In Origini dati, l'ID suite di rapporti è la prima parte del login aggiunto da un numero casuale che identifica l'origine dati specifica configurata. Ad esempio, `RSID-drmossdev5 Login-drmossdev5_0001343430`.
+In Origini dati, l'ID suite di rapporti è la prima parte del login aggiunto da un numero casuale che identifica l'origine dati specifica configurata. Ad esempio, `RSID-drmossdev5 Login-drmossdev5_0001343430` (Indirizzo IP).
 
 ## In che modo la versione 15 e la segmentazione influiscono sulle origini dati? {#section_7E9E541DB73C49CDAADC031B678F8678}
 
