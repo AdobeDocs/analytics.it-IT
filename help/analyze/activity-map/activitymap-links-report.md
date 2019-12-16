@@ -1,11 +1,10 @@
 ---
 description: Il rapporto Collegamenti riporta i collegamenti presenti nella pagina corrente. Non crea rapporti su tutti i collegamenti raccolti per quella pagina.
-solution: Analytics
 title: Rapporto dei collegamenti
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
