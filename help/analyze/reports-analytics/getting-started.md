@@ -1,12 +1,11 @@
 ---
 description: Prima di utilizzare Reporting e analisi, è importante comprendere le attività di accesso e configurazione di base e come accedere alle informazioni sull'account.
-solution: Analytics
 subtopic: Get started
 title: Introduzione a Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
