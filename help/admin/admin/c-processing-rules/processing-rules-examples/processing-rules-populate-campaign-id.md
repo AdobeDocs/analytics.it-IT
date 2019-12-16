@@ -1,12 +1,11 @@
 ---
 description: È possibile compilare una variabile utilizzando un parametro di stringa di query.
-solution: Analytics
 subtopic: Processing rules
 title: Compilare un ID campagna da un parametro di stringa query
 topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
