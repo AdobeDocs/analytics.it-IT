@@ -1,11 +1,10 @@
 ---
 description: Se proteggete il foglio di lavoro (bloccando le celle), non potete creare, modificare o aggiornare le richieste. Rimuovere tutta la protezione dal foglio di lavoro prima di utilizzare Request Manager.
-solution: Analytics
 title: Elementi del foglio di lavoro protetto
 topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
