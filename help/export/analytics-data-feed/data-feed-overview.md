@@ -1,11 +1,10 @@
 ---
 description: I dati raccolti da siti Web, app mobili o caricati tramite API di servizi Web o origini dati, vengono elaborati e memorizzati in Adobe Data Warehouse. Questi dati clickstream non elaborati formano il set di dati utilizzato da Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Panoramica sui feed dati di Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,10 @@ Prima di utilizzare i feed di dati, accertatevi di soddisfare tutti i seguenti r
 
 Una volta compreso il flusso di lavoro di base per l’ottenimento dei feed di dati, potete collaborare con i team all’interno dell’organizzazione per memorizzare o trasferire dati non elaborati in un database.
 
-[Creare un feed](create-feed.md)di dati: Dettagli tecnici per la creazione di un feed di dati, che spiegano i singoli campi in modo più dettagliato[Gestire i feed](df-manage-feeds.md)di dati: Ulteriori informazioni sulla navigazione nell'interfaccia[feed di dati Contenuti](c-df-contents/datafeeds-contents.md)feed di dati: Comprendere cosa si trova all'interno delle definizioni[delle colonne](c-df-contents/datafeeds-reference.md)di fileDati compressi: Un elenco completo di tutte le colonne disponibili
+* [Creare un feed](create-feed.md)di dati: Dettagli tecnici per la creazione di un feed di dati, con informazioni più dettagliate sui singoli campi
+* [Gestire i feed](df-manage-feeds.md)di dati: Scopri di più sulla navigazione nell'interfaccia del feed di dati
+* [Contenuto](c-df-contents/datafeeds-contents.md)feed dati: Comprendere cosa contiene il file compresso
+* [Definizioni](c-df-contents/datafeeds-reference.md)delle colonne di dati: Un elenco completo di tutte le colonne disponibili
 
 ## Risorse aggiuntive
 
