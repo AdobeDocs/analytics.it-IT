@@ -1,11 +1,10 @@
 ---
 description: I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti Web. I segmenti sono progettati come approfondimenti di audience codificati che puoi creare in base alle tue esigenze specifiche, e quindi verificare, modificare e condividere con altri membri del team o utilizzarli in altri prodotti Adobe e funzionalità di Analytics.
-solution: Analytics
 title: Informazioni su segmenti e contenitori
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -170,7 +169,7 @@ I dati acquisiti a ogni livello della gerarchia Visitatore &gt; Visita &gt; Cont
 
 ## Nozioni di base dei dati del contenitore {#section_9576D970F912450191AFB5B83F7F1656}
 
-Ad esempio, il visitatore descritto di seguito ha visitato un sito alla prima visita, è atterrato sulla home page e poi ha visitato tre pagine aggiuntive e convertito la visita in una vendita. In una visita separata, il visitatore è atterrato questa volta attraverso la pagina Prodotto, poi alla pagina Home, di nuovo alla pagina Prodotto, e poi ha chiuso la sessione dopo aver guardato i cappelli invernali. In base ai dati acquisiti per ciascun contenitore per il segmento, nel rapporto vengono visualizzati valori diversi.
+Ad esempio, il visitatore descritto di seguito ha visitato un sito alla prima visita, è atterrato sulla home page e poi ha visitato tre pagine aggiuntive e convertito la visita in una vendita. In una visita separata, il visitatore è atterrato questa volta attraverso la pagina Prodotto, poi alla pagina Home, di nuovo alla pagina Prodotto, e poi ha chiuso la sessione dopo aver guardato i cappelli invernali. In base ai dati acquisiti per ciascun contenitore per il segmento, nel rapporto verranno visualizzati valori diversi.
 
 Le *pagine equivalgono al segmento del cappotto* invernale riportato di seguito viene applicato al report **** Pagine.
 
