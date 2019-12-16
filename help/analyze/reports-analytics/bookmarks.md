@@ -1,12 +1,11 @@
 ---
 description: I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come connettori dati.
-solution: Analytics
 subtopic: Bookmarks
 title: Segnalibro Manager
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-    |Nome|Un nome descrittivo per questo segnalibro.|
-    |---|---|     
-    |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.|
-    |Rendi pubblico| Rende questo segnalibro disponibile per gli utenti che hanno accesso alla suite di rapporti.| 
-    |Visualizza il rapporto all'accesso| Visualizza il rapporto al momento dell'accesso.|
+       |Nome|Un nome descrittivo per questo segnalibro.
+    |
+ |—|—|     |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.
+|     |Rendi pubblico| Rende questo segnalibro disponibile per gli utenti che hanno accesso alla suite di rapporti.
+|     |Visualizza il rapporto all'accesso| Visualizza il rapporto al momento dell'accesso.|
    
 ## Gestire i segnalibri {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -43,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Bookmarks]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Bookmarks]** (Analytics &gt; Componenti &gt; Progetti programmati)
 
 **Segnalibri personali**
 
