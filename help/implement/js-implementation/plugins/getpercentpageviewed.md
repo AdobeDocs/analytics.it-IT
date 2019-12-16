@@ -1,13 +1,12 @@
 ---
 description: Misura l'attività di scorrimento di un visitatore per vedere la quantità di una pagina visualizzata prima di passare a un'altra pagina. Questo plug-in consente di determinare la quantità di contenuto che gli utenti visualizzano in media, in modo da poter ottimizzare la lunghezza e i layout della pagina in base ai comportamenti degli utenti.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getPercentPageViewed
 topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -74,7 +73,7 @@ Esempio di codice riportato sopra:
    * Il codice imposta anche s.prop2 uguale alla percentuale più alta visualizzata della pagina precedente e alla percentuale iniziale visualizzata della pagina precedente.
 
 >[!NOTE]
->Se un’intera pagina è visibile al primo caricamento, sia la percentuale più elevata visualizzata che la percentuale iniziale visualizzata saranno uguali a 100. Tuttavia, se una pagina intera non è visibile al primo caricamento, ma il visitatore non scorre mai verso il basso prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
+>Se un’intera pagina è visibile al primo caricamento, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali a 100. Tuttavia, se una pagina intera non è visibile al primo caricamento, ma il visitatore non scorre mai verso il basso prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
 
 **Esempio di chiamata 2**
 
