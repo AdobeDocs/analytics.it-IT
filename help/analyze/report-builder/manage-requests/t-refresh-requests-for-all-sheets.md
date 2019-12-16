@@ -1,11 +1,10 @@
 ---
 description: Potete aggiornare le richieste per tutti i fogli o per più richieste.
-solution: Analytics
 title: Aggiornare le richieste di tutti i fogli
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Per aggiornare tutte le richieste, dovete avere accesso a tutte le suite di rapp
 
 Quando aggiornate più richieste, il sistema raccoglie e dà priorità alle richieste in base al fatto che si tratti di una richiesta originale o dipendente. Il sistema visualizza messaggi sull'avanzamento dell'aggiornamento. Il processo di aggiornamento può richiedere fino a diversi minuti, a seconda della quantità di dati richiesta.
 
-1. Fai clic su **[!UICONTROL Manage]**.
+1. Fai clic su **[!UICONTROL Manage]** (Genera).
 1. Enable **[!UICONTROL All Sheets]**.
-1. Fai clic su **[!UICONTROL Refresh]**.
+1. Fai clic su **[!UICONTROL Refresh]** (Genera).
 1. Specificate un riferimento alla data, quindi fate clic **[!UICONTROL OK]**.
