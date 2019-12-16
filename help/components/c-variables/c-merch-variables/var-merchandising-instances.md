@@ -1,12 +1,11 @@
 ---
 description: Descrive come vengono conteggiate le istanze sulle variabili di merchandising.
 keywords: Analytics Implementation
-solution: Analytics
 title: Istanze sulle variabili merchandising
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
