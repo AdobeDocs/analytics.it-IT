@@ -1,12 +1,11 @@
 ---
 description: Panoramica dei passaggi necessari per pianificare e implementare le suite di rapporti virtuali.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Flusso di lavoro suite di rapporti virtuali
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
