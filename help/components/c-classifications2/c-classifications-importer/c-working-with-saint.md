@@ -1,12 +1,11 @@
 ---
 description: Utilizzate Importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
-solution: Analytics
 subtopic: Classifications
 title: 'Importazione classificazioni: panoramica'
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Utilizzate Importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**
+**[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]** (Componenti &gt; Nuovo intervallo di date)
 
 I dati importati con lo strumento di importazione devono essere in un formato specifico. Adobe offre l’opzione di scaricare un modello di dati con tutti i dettagli di intestazione corretti in un file di dati delimitato da tabulazioni. Puoi aggiungere i nuovi dati a questo modello e quindi importare il file di dati nel browser utilizzando l'FTP.
 
