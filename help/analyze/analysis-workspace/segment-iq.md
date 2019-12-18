@@ -1,9 +1,9 @@
 ---
 title: Panoramica del segmento IQ
 description: Scopri le funzionalità del segmento IQ di Adobe Analytics e in che modo può essere utile per la tua organizzazione.
-keywords: Analysis Workspace, segmento IQ
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+keywords: Analysis Workspace;Segment IQ
+translation-type: tm+mt
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 Gli analisti possono passare molte ore o persino giorni ricercando differenze rilevanti tra i segmenti di ampi gruppi di dimensioni e metriche della tua azienda. Questa analisi non solo è tediosa e dispendiosa dal punto di vista del tempo, ma non consente neanche di rilevare con certezza tutte le differenze chiave di un segmento, con un possibile conseguente grosso impatto sulle tue attività di marketing mirate.
 
-Molte organizzazioni hanno risolto questo problema utilizzando le funzionalità fornite dal segmento IQ. Vedi [Casi di utilizzo di Confronto segmenti](c-panels/c-segment-comparison/segment-compare-use-cases.md) per scenari reali che hanno fornito informazioni utili alle organizzazioni.
+Molte organizzazioni hanno risolto questo problema utilizzando le funzionalità fornite dal segmento IQ. See [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare-use-cases.md) for real-world scenarios that provide organizations valuable insight.
 
 ## Funzioni
 
