@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: Elenco di limitazioni note in Adobe Analysis Workspace e relativi componenti
 title: Limitazioni note in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -13,45 +13,45 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 ## Tabelle
 
-* Non è possibile aggiungere colonne di confronto delle date quando intervalli di date o metriche sono utilizzate come righe di una tabella.
-* La funzione Crea metrica dalla selezione è disabilitata quando i segmenti sono utilizzati come righe di una tabella. Inoltre, la funzione Crea metrica dalla selezione non deve essere applicata alle colonne allineate alla data.
+* Non è possibile aggiungere colonne di confronto delle date quando si utilizzano intervalli di date o metriche di date nelle righe di una tabella.
+* La funzione Create metric from selection (Crea metrica da selezione) è disabilitata quando i segmenti sono utilizzati come righe di una tabella. Inoltre, la funzione Create metric from selection (Crea metrica da selezione) non deve essere applicata a colonne allineate su data.
 * La formattazione condizionale per le righe di suddivisione non può utilizzare intervalli personalizzati.
-* Le righe totali della tabella non possono essere con tendenze quando si applica il calcolo dei totali sommando l'impostazione dei valori delle righe (generalmente utilizzato con gli elementi delle righe statiche).
-* [!UICONTROL Contribution Analysis] può essere eseguito [!UICONTROL daily] solo _alla_ granularità. Non può essere eseguito con dati [!UICONTROL hourly], [!UICONTROL weekly]ecc.
+* Le righe dei totali della tabella non possono includere tendenze quando si applica l’impostazione di calcolo dei totali sommando i valori delle righe (generalmente utilizzato per righe con elementi statici).
+* [!UICONTROL Contribution Analysis] (Analisi dei contributi) può essere eseguita con granularità [!UICONTROL daily] _esclusivamente_. Non può essere eseguita con dati [!UICONTROL hourly] (orari), [!UICONTROL weekly] (settimanali), ecc.
 
 ## Visualizzazioni
 
-* Le visualizzazioni che sfruttano la segmentazione, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort]e [!UICONTROL Histogram], non possono accettare metriche calcolate come input.
-* [!UICONTROL Flow]: Dimensioni di entrata/uscita, ad esempio Non [!UICONTROL Entry page]può essere utilizzato in Flusso.
-* [!UICONTROL Cohort]: I non interi non possono essere utilizzati come criteri di coorte.
+* Le visualizzazioni che sfruttano la segmentazione, come [!UICONTROL Fallout] (Abbandono), [!UICONTROL Flow] (Flusso), [!UICONTROL Cohort] (Coorte) e [!UICONTROL Histogram] (Istogramma), non possono accettare metriche calcolate come input.
+* [!UICONTROL Flow] (Flusso): dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page] (pagina di entrata), non possono essere utilizzate in Flusso.
+* [!UICONTROL Cohort] (Coorte): i valori non interi non possono essere utilizzati come criteri di coorte.
 
 ## Pannelli
 
-* Confronto segmenti: Il [!UICONTROL Everyone Else] segmento non viene creato se viene utilizzato un modello di segmento nella zona di rilascio iniziale.
+* Confronto segmenti: il segmento [!UICONTROL Everyone Else] (Tutti) non viene creato se viene utilizzato un modello di segmento nella zona di rilascio iniziale.
 
 ## Componenti &gt; Segmenti
 
-* Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors]ecc.
-* Alcuni componenti e operatori non sono disponibili se un segmento viene creato da Workspace (anziché da [!UICONTROL Components > Segments]). Ad esempio, Indirizzo IP.
+* Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences] (Occorrenze), [!UICONTROL Unique Visitors] (Visitatori unici), ecc.
+* Alcuni componenti e operatori non sono disponibili se un segmento viene creato da Workspace (anziché da [!UICONTROL Components > Segments], ovvero Componenti &gt; Segmenti). Ad esempio, Indirizzo IP.
 
 ## Componenti &gt; Metriche calcolate
 
-* Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Vedi 'Visualizations' sopra.
-* Le metriche calcolate non possono essere utilizzate nel [!UICONTROL Attribution] pannello, poiché le metriche calcolate possono includere modelli di attribuzione separati.
-* Alcuni componenti e operatori non sono disponibili se viene creata una metrica calcolata da Workspace (anziché da [!UICONTROL Components > Segments]). Ad esempio, [!UICONTROL IP Address].
+* Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Vedi “Visualizzazioni” sopra.
+* Le metriche calcolate non possono essere utilizzate nel pannello [!UICONTROL Attribution] (Attribuzione), poiché possono includere modelli di attribuzione separati.
+* Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Components > Segments], ovvero Componenti &gt; Segmenti). Ad esempio, [!UICONTROL IP Address] (Indirizzo IP).
 
-## Componenti &gt; Intervalli di date
+## Componenti &gt; Intervallo date
 
-* Gli intervalli di date personalizzati non supportano [!UICONTROL This day last year], [!UICONTROL This day last month]ecc.
+* Gli intervalli di date personalizzati non supportano [!UICONTROL This day last year] (Questo giorno l’anno scorso), [!UICONTROL This day last month] (Questo giorno il mese scorso), ecc.
 
 ## Componenti &gt; Suite di rapporti virtuali
 
-* Quando l'elaborazione del tempo del rapporto è abilitata, alcuni componenti non sono supportati. Per un elenco completo, consultate [Elaborazione](/help/components/vrs/vrs-report-time-processing.md)dei tempi di rapporto.
+* Quando l’elaborazione dei tempi di report è abilitata, alcuni componenti non sono supportati. Per un elenco completo, vedi [Elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md).
 
-## Componenti &gt; Impostazioni rapporto
+## Componenti &gt; Impostazioni report
 
-* Alcune delle impostazioni sulla [!UICONTROL Report Settings] pagina non sono applicabili. Analysis Workspace utilizza solo le [!UICONTROL Language/Currency/Encoding] impostazioni in basso: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], e [!UICONTROL CSV Separator Character].
+* Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] (Impostazioni report) non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] (Lingua/Valuta/Codifica) in basso: [!UICONTROL Thousands separator] (Separatore delle migliaia), [!UICONTROL Scheduled Report Encoding] (Codifica rapporti pianificati) e [!UICONTROL CSV Separator Character] (Separatore CSV).
 
 ## Attribution IQ
 
-* Un sottoinsieme di metriche non è supportato in [!UICONTROL Attribution IQ]. Per un elenco completo, consultate le domande frequenti relative all’ [attribuzione](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
+* Un sottoinsieme di metriche non è supportato in [!UICONTROL Attribution IQ]. Per un elenco completo, vedi le [domande frequenti relative ad Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
