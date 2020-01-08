@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
+source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
       + [Requisiti per l&#39;inoltro lato server: guida dell&#39;amministratore](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [Verifica dell&#39;implementazione lato server: guida dell&#39;amministratore](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [Domande frequenti sull&#39;inoltro lato server: guida dell&#39;amministratore](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [Creare una destinazione Analytics](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Crea destinazione Analytics - Guida AAM](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Uso dei dati di audience in Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casi di utilizzo di Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Domande frequenti](c-audience-analytics/mc-audiences-faqs.md)
