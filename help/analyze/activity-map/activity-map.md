@@ -4,7 +4,7 @@ title: Panoramica di Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
+source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 # Panoramica di Activity Map
 
 >[!IMPORTANT]
->Il 16 gennaio 2020, Adobe Analytics inizierà a spostarsi su un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe causare l&#39;interruzione del funzionamento della Activity Map per alcuni clienti in casi specifici. Come sapete, Activity Map viene inserita nella pagina del cliente in un iframe (un iframe per la barra degli strumenti Activity Map e un iframe per il pannello Activity Map Bottom). È possibile che nella pagina Web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di funzionare quando viene visitata una pagina &quot;.adobe.com&quot;. Per risolvere il problema dovrete aggiungere &quot;.adobe.com&quot; alla direttiva informativa sulla sicurezza dei contenuti.
+>Il 16 gennaio 2020, Adobe Analytics inizierà a spostarsi su un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe causare l&#39;interruzione del funzionamento della Activity Map per alcuni clienti in casi specifici. Come sapete, Activity Map viene inserita nella pagina del cliente in un iframe (un iframe per la barra degli strumenti Activity Map e un iframe per il pannello Activity Map Bottom). È possibile che nella pagina Web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di utilizzare tale pagina Web.
 
 Activity Map è un&#39;applicazione Adobe Analytics progettata per classificare l&#39;attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine Web.
 
