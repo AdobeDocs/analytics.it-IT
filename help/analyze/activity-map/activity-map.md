@@ -4,14 +4,17 @@ title: Panoramica di Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 
 ---
 
 
 # Panoramica di Activity Map
 
-Activity Map è un'applicazione Adobe Analytics progettata per classificare l'attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine Web.
+>[!IMPORTANT]
+>Il 16 gennaio 2020, Adobe Analytics inizierà a spostarsi su un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe causare l&#39;interruzione del funzionamento della Activity Map per alcuni clienti in casi specifici. Come sapete, Activity Map viene inserita nella pagina del cliente in un iframe (un iframe per la barra degli strumenti Activity Map e un iframe per il pannello Activity Map Bottom). È possibile che nella pagina Web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di funzionare quando viene visitata una pagina &quot;.adobe.com&quot;. Per risolvere il problema dovrete aggiungere &quot;.adobe.com&quot; alla direttiva informativa sulla sicurezza dei contenuti.
+
+Activity Map è un&#39;applicazione Adobe Analytics progettata per classificare l&#39;attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine Web.
 
 Activity Map ti permette di configurare varie viste per identificare visivamente l’accelerazione dell’attività dei clienti, quantificare le iniziative di marketing e intervenire sulle esigenze e i comportamenti del tuo pubblico.
 
@@ -20,7 +23,7 @@ Activity Map ti permette di configurare varie viste per identificare visivamente
 * [Abilitare Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Esempio di codice di implementazione](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**Guida introduttiva per gli utenti**
+**Guida introduttiva per utenti**
 
 * [Installazione dei plug-in di Activity Map nel browser](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Avviare Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
