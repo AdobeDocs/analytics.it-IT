@@ -2,7 +2,7 @@
 description: Confronta la terminologia e le attività di Ad Hoc Analysis ad Analysis Workspace.
 title: Confronto tra Analysis Workspace e Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Confronta la terminologia e le attività di Ad Hoc Analysis ad Analysis Workspac
 
 Analysis Workspace porta moltissime delle funzionalità di Ad Hoc Analysis nel flusso di lavoro del browser. Anche se alcuni termini e funzionalità restano invariati tra i prodotti, in Analysis Workspace sono stati introdotti nuovi termini e approcci all’analisi.
 
-Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html).
+Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://marketing.adobe.com/resources/help/it_IT/reference/analytics-product-comparison.html).
 
 ## Confronto della terminologia chiave {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -34,7 +34,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Attività Ad Hoc Analysis </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis Attività </th> 
    <th colname="col2" class="entry"> Attività Analysis Workspace </th> 
   </tr>
  </thead>
@@ -63,11 +63,11 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Creare segmenti interni (“ad hoc”) </p> </td> 
-   <td colname="col2"> <p>Puoi <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >segmenti istantanei e interni (“ad hoc”)</a> in Analysis Workspace trascinando elementi dimensionali nella zona di rilascio del segmento nella parte superiore del pannello. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Segmenti ad hoc in Analysis Workspace</a> </p> </td> 
+   <td colname="col2"> <p>Puoi <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >creare segmenti istantanei e interni (“ad hoc”)</a> in Analysis Workspace trascinando elementi dimensionali nella zona di rilascio del segmento nella parte superiore del pannello. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Segmenti ad hoc in Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Usare l’abbandono e i funnel di conversione </p> </td> 
-   <td colname="col2"> <p> Le <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualizzazioni Abbandono</a> sono disponibili in Analysis Workspace nel menu del componente Visualizzazione. Simile ad Ad Hoc Analysis </p> 
+   <td colname="col2"> <p>Le <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualizzazioni Abbandono</a> sono disponibili in Analysis Workspace nel menu del componente Visualizzazione. Simile ad Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Abbandono può abbracciare una visita o un visitatore e, se lo desideri, è possibile includere “Tutte le visite”. Le tendenze dell’abbandono possono essere rapidamente elaborate mediante il menu di scelta rapida. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Gli elementi dimensionali possono essere connessi da un operatore OR (simile ai gruppi) ed è possibile utilizzare gli eventi nel funnel. </li> 
@@ -76,7 +76,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Esaminare il flusso (percorso) </p> </td> 
-   <td colname="col2"> <p> Le <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >visualizzazioni Abbandono</a> sono disponibili in Analysis Workspace nel menu del componente Visualizzazione. Simile ad Ad Hoc Analysis </p> 
+   <td colname="col2"> <p>Le <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >visualizzazioni Flusso</a> sono disponibili in Analysis Workspace nel menu del componente Visualizzazione. Simile ad Ad Hoc Analysis: </p> 
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Flow può estendere una visita o un visitatore. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Le statistiche chiave vengono visualizzate in termini di visualizzazioni di percorso %. </li> 
@@ -84,7 +84,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">Disattivare istanze ripetute. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Consentire agli utenti di scegliere un evento di successo. </li> 
-    </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Video: panoramica della Visualizzazione Flusso</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Video: Flusso multidimensionale</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Video: Creazione dei segmenti da Flusso</a> </p> </td> 
+    </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Video: Panoramica della Visualizzazione Flusso</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Video: Flusso multidimensionale</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Video: Creazione dei segmenti da Flusso</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eseguire suddivisioni illimitate </p> </td> 
@@ -92,11 +92,11 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dati di tendenza rapidi </p> </td> 
-   <td colname="col2"> <p>I dati possono essere visualizzati rapidamente facendo clic sull’icona del grafico nella riga rapporto Inoltre, queste visualizzazioni rapide verranno collegate alla tabella d’origine in modo che tu possa fare clic da un valore all’altro nella tabella e vedere il grafico aggiornarsi automaticamente. </p> <p><a href="https://www.youtube.com/watch?v=kzlPjsBVYFQ"  > Video: collegamento in tempo reale del grafico dimensionale</a> </p> </td> 
+   <td colname="col2"> <p>I dati possono essere visualizzati rapidamente facendo clic sull’icona del grafico nella riga rapporto Inoltre, queste visualizzazioni rapide verranno collegate alla tabella d’origine in modo che tu possa fare clic da un valore all’altro nella tabella e vedere il grafico aggiornarsi automaticamente. </p> <p><a href="https://www.youtube.com/watch?v=kzlPjsBVYFQ"  > Video: Collegamento in tempo reale del grafico dimensionale</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Selezionare suite di rapporti </p> </td> 
-   <td colname="col2"> <p>Così come per Ad Hoc Analysis, per un progetto Workspace è possibile selezionare solamente una suite di rapporti. è comunque prevista la gestione di una suite multi-rapporto. </p> </td> 
+   <td colname="col2"> <p>Così come per Ad Hoc Analysis, per un progetto Workspace è possibile selezionare solamente una suite di rapporti. È comunque prevista la gestione di una suite multi-rapporto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
