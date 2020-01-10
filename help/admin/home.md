@@ -1,7 +1,7 @@
 ---
-title: Aiuto per l’amministratore di Analytics
-description: Aiuto di amministrazione per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti in Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
-translation-type: tm+mt
+title: Guida per l’amministratore di Analytics
+description: Guida per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti nell'Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ![Banner](/assets/doc_banner_admin.png)
 
-Questa guida è destinata agli amministratori di Adobe Analytics. Include informazioni sulla gestione di utenti e prodotti in Admin Console, sulla configurazione di suite di rapporti, variabili, classificazioni e raccolta dati.
+Questa guida è destinata agli amministratori di Adobe Analytics. Include informazioni sulla gestione di utenti e prodotti nell'Admin Console, sulla configurazione di suite di rapporti, variabili, classificazioni e raccolta dati.
 
 Adobe Analytics dispone attualmente di due aree per gli amministratori:
 
-* Adobe Admin Console: utilizza quest’area per il provisioning degli strumenti Experience Cloud e per gestire le autorizzazioni degli utenti. It is located at [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Adobe Admin Console: utilizza quest’area per il provisioning degli strumenti Experience Cloud e per gestire le autorizzazioni degli utenti. È disponibile all’indirizzo [adminconsole.adobe.com](https://adminconsole.adobe.com).
 * Admin Console di Analytics: utilizza quest’area per la gestione delle suite di rapporti e delle variabili. Per accedervi, fai clic su Amministrazione nell’intestazione superiore di Adobe Analytics.
 
 Questa guida tratta i seguenti argomenti:
@@ -23,7 +23,7 @@ Questa guida tratta i seguenti argomenti:
 * Tutte le attività eseguite in Admin Console di Analytics, compresa la configurazione di suite di rapporti, variabili, classificazioni o governance dei dati. Per un elenco delle impostazioni aziendali e per suite di rapporti disponibili, consulta [Strumenti di amministrazione](admin/c-admin-tools.md).
 * Tutte le attività specifiche di Analytics che vengono eseguite in Adobe Admin Console, compresi il provisioning dei prodotti e la gestione delle autorizzazioni degli utenti. Consulta [Adobe Analytics in Adobe Admin Console](admin-console/home.md) per un elenco delle azioni che possono essere eseguite in Adobe Admin Console.
 
-Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Admin Console, Al contrario, vedi [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) nella guida utente di Enterprise.
+Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Admin Console, che puoi invece trovare nella sezione [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) della guida utente Enterprise.
 
 ## Articoli chiave
 
@@ -36,7 +36,7 @@ Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Adm
 
 ## Risorse chiave per Analytics
 
-* [Contatta l’Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l’Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
