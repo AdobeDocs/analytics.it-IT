@@ -2,7 +2,7 @@
 description: Modifiche e miglioramenti all’opzione Annulla in Analysis Workspace.
 title: Impostazioni Annulla e Ripristina
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,22 +10,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Impostazioni Annulla e Ripristina
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Undo/Redo]**
+**[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Undo/Redo]** (Workspace &gt; Progetto &gt; Annulla/Ripristina)
 
-* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
+* L’opzione **[!UICONTROL Redo]** (Ripristina), che consente di ripristinare un’azione di annullamento, si trova nel menu **[!UICONTROL Edit]** (Modifica).
 
-* Clicking **[!UICONTROL Save]** does not clear the **[!UICONTROL Undo]** stack.
+* Quando fai clic su **[!UICONTROL Save]** (Salva) non si cancella la sequenza **[!UICONTROL Undo]** (Annulla).
 
-* **[!UICONTROL New Project]** o **[!UICONTROL Open Existing Project]** cancellare lo **[!UICONTROL Undo]** stack
+* **[!UICONTROL New Project]** (Nuovo progetto) o **[!UICONTROL Open Existing Project]** (Apri progetto esistente) cancella la sequenza **[!UICONTROL Undo]** (Ripristina).
 
 * L’utente può annullare/ripristinare le modifiche alla suite di rapporti.
 * Il messaggio Annulla/Ripristina visualizzato vicino al nome del progetto segnala l’esecuzione dell’azione di annullamento o ripristino in corso.
-* You can use these [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
+* Puoi utilizzare i seguenti [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * Ctrl (Comando) + Z per Annulla
    * Ctrl (Comando) + Maiusc + Z per Ripristina
 
-## What you can undo and redo {#section_1E94152CC206470D84FC11710311DA12}
+## Azioni annullabili o ripristinabili {#section_1E94152CC206470D84FC11710311DA12}
 
 * Cura
 * Cancella tutto
@@ -58,7 +58,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Modifica descrizione
 * Duplica visualizzazione
 
-## What you cannot undo and redo {#section_65BB313E048F4744B692926362873230}
+## Azioni non annullabili né ripetibili {#section_65BB313E048F4744B692926362873230}
 
 * Modifiche a Informazioni e impostazioni progetto (aggiunta di tag, modifiche alla descrizione, impostazione di Conta istanze ripetute)
 * Imposta come pagina di destinazione
