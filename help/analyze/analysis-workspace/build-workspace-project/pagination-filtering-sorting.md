@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Paginazione, filtri e ordinamento di tabelle
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Per una panoramica, guarda questo video di YouTube:
 
 [Paginazione, filtri e ordinamento di tabelle in Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
 
-## Advanced filtering options {#section_36E92E31442B4EBCB052073590C1F025}
+## Opzioni di filtro avanzate {#section_36E92E31442B4EBCB052073590C1F025}
 
 Facendo clic sull’icona di filtro e poi su Mostra avanzate, accanto a una dimensione in una tabella a forma libera, puoi applicare dei filtri utilizzando i criteri seguenti:
 
