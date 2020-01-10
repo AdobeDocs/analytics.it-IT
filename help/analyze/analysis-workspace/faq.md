@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Domande frequenti
 uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Quali sono i requisiti di amministrazione e di accesso per Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>Consulta  <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Requisiti di amministrazione</a>. </p> </td> 
+   <td colname="col2"> <p>Consulta <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Requisiti di amministrazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quante suite di rapporti è possibile visualizzare in un progetto di Analysis Workspace? </p> </td> 
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Come sono le funzionalità di Analysis Workspace rispetto ad Ad Hoc Analysis? </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
+   <td colname="col2"> <p>Vedi <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  >Confronto tra Analysis Workspace e Ad Hoc Analysis</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
