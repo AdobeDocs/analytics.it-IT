@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Panoramica dei pannelli
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -35,15 +35,15 @@ Nota bene:
 
 **Per creare e utilizzare filtri a discesa:**
 
-1. Select any items from the left rail and, **while holding down the  key**, drop them into the panel drop zone.
+1. Seleziona qualsiasi elemento dalla barra a sinistra e, **tenendo premuto il tasto**, rilascia l’elemento nella zona di rilascio del pannello.
 
    ![](assets/create_dropdown.png)
 
-   Questo trasforma il componente in un elenco a discesa, anziché in un segmento. È inoltre possibile aggiungere segmenti senza tenere premuto il tasto.
+   Questo trasforma il componente in un elenco a discesa, anziché in un segmento (puoi inoltre continuare ad aggiungere segmenti senza tenere premuto il tasto).
 
    ![](assets/dropdown.png)
 
-1. Seleziona una delle opzioni dal menu a discesa per modificare i dati nel pannello sottostante. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
+1. Seleziona una delle opzioni dal menu a discesa per modificare i dati nel pannello sottostante (puoi anche scegliere di non filtrare nessuno dei dati del pannello selezionando **[!UICONTROL No filter]** (Nessun filtro)).
 1. Ad esempio, se desideri anche suddividere i dati per canale di marketing, puoi aggiungere un altro menu a discesa denominato “Canale di marketing”:
 
    ![](assets/mc_dropdown.png)
