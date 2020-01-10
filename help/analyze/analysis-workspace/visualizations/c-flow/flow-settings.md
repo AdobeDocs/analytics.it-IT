@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Impostazioni del flusso
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Impostazione | Descrizione |
 |--- |--- |
 | Contenitore flusso | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
-| Opzioni di Flusso | <ul><li>Etichette wrap</li></ul> Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta.  Impostazione predefinita = non selezionata.<ul><li>Includi istanze ripetute</li></ul> Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProps, s.product, eVar di merchandising, ecc. |
+| Opzioni di Flusso | <ul><li>Etichette wrap</li></ul> Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta.  Impostazione predefinita = non selezionata.<ul><li>Includi istanze ripetute</li></ul> Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProps, s.product, eVars di merchandising, ecc. |
 
-## Opzioni clic con il pulsante destro del mouse
+## Opzioni di clic con il pulsante destro
 
 | Opzione | Descrizione |
 |--- |--- |
