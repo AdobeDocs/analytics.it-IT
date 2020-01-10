@@ -2,7 +2,7 @@
 description: Come interagire con le righe statiche nelle tabelle.
 title: Righe statiche e dinamiche
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -25,12 +25,12 @@ Invece, ogni volta che selezioni e trascini manualmente una metrica specifica, u
 
    ![](assets/static_rows.png)
 
-Inoltre, (solo) in modalità riga statica, ora è possibile modificare il modo in cui vengono calcolati i totali delle colonne. Basta fare clic sull’icona a ingranaggio e scegliere tra queste 2 opzioni:
+Inoltre, (solo) in modalità di riga statica, puoi modificare le modalità di calcolo dei totali della colonna. Basta fare clic sull’icona a ingranaggio e scegliere tra queste 2 opzioni:
 
 ![](assets/column-totals.png)
 
 | Opzione | Descrizione |
 |---|---|
-| (Impostazione predefinita) Calcola i totali sommando i valori presenti in ciascuna colonna. | Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). |
+| (Impostazione predefinita) Calcola i totali, sommando i valori presenti in ciascuna colonna. | Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). |
 | Calcola i totali, basandosi su tutte le righe per ciascuna metrica. | Questa opzione include tutti gli elementi di questa dimensione anche quelli non elencati nella tabella (calcolo lato server). |
 
