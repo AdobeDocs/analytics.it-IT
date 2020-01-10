@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Disattivare il rilevamento delle anomalie
 uuid: d270d530-19da-4ee5-99a9-258050f8ae95
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Disattivare il rilevamento delle anomalie
 
-You can turn off anomaly detection at the column level by going to the column settings and un-checking **[!UICONTROL Anomalies]**.
+Per disattivare il rilevamento delle anomalie a livello di colonna, deseleziona **[!UICONTROL Anomalies]** (Anomalie) nelle impostazioni della colonna.
 
 ![](assets/turnoff_anomalies.png)
 
