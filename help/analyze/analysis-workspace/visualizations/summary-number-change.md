@@ -1,14 +1,14 @@
 ---
-description: nulle
-title: Numero riepilogo e Modifica riepilogo
+description: 'null'
+title: Numero di riepilogo e Variazione di riepilogo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Numero riepilogo e Modifica riepilogo
+# Numero di riepilogo e Variazione di riepilogo
 
 ## Visualizzazione Numero di riepilogo
 
@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
 * È possibile controllare il colore verde e rosso della variazione di riepilogo tramite:
 
-   * [Polarità di un evento personalizzato](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
-   * Opzione [Show Upward Trend As](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html) (Mostra tendenza ascendente come) per una metrica calcolata.
+   * [Polarità di un evento personalizzato](https://marketing.adobe.com/resources/help/it_IT/reference/success_event.html).
+   * Opzione [Show Upward Trend As](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/cm_build_metrics.html) (Mostra tendenza ascendente come) per una metrica calcolata.
 
-## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
+## Impostazioni di Variazione di riepilogo {#section_2581AC0107634FB4990AB8347E5897AA}
 
 Fai clic sull’icona dell’ingranaggio accanto alla visualizzazione per configurare le impostazioni Riepilogo:
 
