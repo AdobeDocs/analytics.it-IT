@@ -1,6 +1,6 @@
 ---
 title: Home note tecniche
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
@@ -20,7 +20,7 @@ Questa guida fornisce informazioni utili su argomenti che non appartengono a uno
 
 ## Risorse chiave per Analytics
 
-* [Contatta l’Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contattare l’Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
