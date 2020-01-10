@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Anteprima dimensioni
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Anteprima dimensioni
 
-## Dimension preview {#section_13D5A69AE6194715A721BC87D283F6F2}
+## Anteprima dimensione {#section_13D5A69AE6194715A721BC87D283F6F2}
 
 Passa il cursore sull’icona Informazioni (i) accanto a una dimensione. Vengono visualizzate le 5 dimensioni principali per le dimensioni non temporali (e 15 per le dimensioni temporali). Precedentemente questi valori erano statici e i 5 valori scelti non cambiavano mai.
 
@@ -24,8 +24,8 @@ Ora, per impostazione predefinita, vengono visualizzati valori dinamici anziché
 
 ![](assets/dimension_static.png)
 
-## Show dimension items {#section_A074B3A984634AC7B1362889088E0A42}
+## Mostra elementi dimensionali {#section_A074B3A984634AC7B1362889088E0A42}
 
 Se passi il cursore su una dimensione e fai clic sulla freccia destra grigia posta a lato, compare l’elenco degli elementi dimensionali corrispondenti. In genere vengono elencati gli elementi principali degli ultimi 30 giorni.
 
-Se scorrete verso il basso fino alla parte inferiore dell’elenco, compare una **[!UICONTROL Show Top Items From Last 6 Months]**. Fai clic su questa opzione per visualizzare gli elementi dimensionali principali degli ultimi 180 giorni.
+Se scorri verso il basso fino alla parte inferiore dell’elenco, visualizzerai l’opzione **[!UICONTROL Show Top Items From Last 6 Months]** (Mostra articoli principali degli ultimi 6 mesi). Fai clic su questa opzione per visualizzare gli elementi dimensionali principali degli ultimi 180 giorni.
