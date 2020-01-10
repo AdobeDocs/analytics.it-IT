@@ -2,7 +2,7 @@
 description: Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
 title: Flussi interdimensionali
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ Verranno esaminati due casi di utilizzo: per un’app e per un sito Web.
 
 ## Caso di utilizzo 1: app {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
+La dimensione [!UICONTROL Action Name] (Nome azione) è stata aggiunta al flusso, e il primo elemento restituito è [!UICONTROL ItemAdded]:
 
 ![](assets/multi-dimensional-flow.png)
 
@@ -48,7 +48,7 @@ Quando si aggiunge un’altra dimensione Nome azione alla fine della visualizzaz
 
 Questo ti permette di ottenere informazioni approfondite e di apportare eventuali modifiche all’app che stai analizzando.
 
-## Caso di utilizzo due: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Caso di utilizzo 2: web {#section_8D55983FA0C84926995270052AE01CD8}
 
 Questo caso di utilizzo mostra come individuare le campagne che generano il maggior numero di accessi al sito Web.
 
