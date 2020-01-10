@@ -45,7 +45,7 @@ Quando Adobe esegue l’espansione dell’ID, può richiedere un’ulteriore sca
 
 ## Altri flag di richiesta di Privacy dei dati
 
-Oltre al flag “expandiDS”, Analytics supporta altri due flag che possono essere passati come parte di una richiesta di Privacy dei dati. Questi flag con i loro valori predefiniti sono:
+Oltre al flag “expandIDS”, Analytics supporta altri due flag che possono essere passati come parte di una richiesta di Privacy dei dati. Questi flag con i loro valori predefiniti sono:
 
 ```
 "analyticsDeleteMethod": "anonymize"
