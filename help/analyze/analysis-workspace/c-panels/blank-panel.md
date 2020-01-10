@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Pannello vuoto
 uuid: 3d25b221-59f5-4574-b06e-48f036f525aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
