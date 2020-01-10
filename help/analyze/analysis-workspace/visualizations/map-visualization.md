@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La visualizzazione mappa in Analysis Workspace:
 
-* Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate).
+* Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate) ed
 * è utile per identificare e confrontare dati di metriche per diverse aree geografiche;
 * supporta due origini di dati: latitudine/longitudine per l’utilizzo da dispositivo mobile e dimensione geografica per l’utilizzo Web;
-* Supporta l’esportazione PDF.
+* supporta l’esportazione PDF;
 * sfrutta la visualizzazione grafica WebGL; se il driver della scheda grafica non supporta il rendering WebGL, può essere necessario aggiornare i driver.
 
-## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## Creare una visualizzazione mappa {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
+1. Dall’elenco delle visualizzazioni, trascina **[!UICONTROL Map]** (Mappa) in un pannello a forma libera:
 
    ![](assets/map-viz1.png)
 
@@ -33,7 +33,7 @@ La visualizzazione mappa in Analysis Workspace:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Lat./Long. mobile</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Amministratore</span> &gt; <span class="uicontrol">Suite di rapporti</span> &gt; <span class="uicontrol">&lt;seleziona una suite di rapporti&gt;</span> &gt; <span class="uicontrol">Modifica impostazioni</span> &gt; <span class="uicontrol">Gestione mobile</span> &gt; <span class="uicontrol">Abilita tracciamento posizione </span> </span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
+   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione </span> </span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensione geografica</b> </p> </td> 
@@ -42,7 +42,7 @@ La visualizzazione mappa in Analysis Workspace:
  </tbody> 
 </table>
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Fai clic su **[!UICONTROL Build]** (Genera).
 
    La prima vista sarà quella del mondo con una mappa a bolle, simile a quella illustrata di seguito.
 
@@ -67,9 +67,9 @@ La visualizzazione mappa in Analysis Workspace:
 
    ![](assets/location-dimensions.png)
 
-## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
+## Impostazioni della visualizzazione mappa {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-Per Mappa sono disponibili 2 set di impostazioni:
+Per la mappa sono disponibili 2 set di impostazioni:
 
 L’**icona chiave inglese** in alto a destra permette di tornare alla finestra di dialogo iniziale, dove puoi cambiare la metrica e l’origine dati:
 
@@ -84,4 +84,4 @@ L’**icona ingranaggio** presenta invece queste impostazioni:
 | Stili: Tema colore | Mostra lo schema di colori utilizzato per la mappa di calore e le bolle. Puoi scegliere tra Corallo, Rossi, Verdi e Blu. Il valore predefinito è Corallo. |
 | Stili: Stile mappa | Puoi scegliere tra Base, Strade, Vivace, Chiaro, Scuro e Satellite. |
 | Raggio cluster | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50. |
-| Valore massimo personalizzato | Consente di modificare la soglia per il valore massimo per la mappa. Regolando questo valore si regola la scala per i valori di bolle/mappa di calore (colore e dimensione) rispetto al valore massimo personalizzato impostato. |
+| Valore massimo personalizzato | Permette di modificare la soglia del valore massimo per la mappa. Quando regoli questo valore, viene regolata la scala dei valori per le bolle o la mappa di calore (colore e dimensioni) rispetto al valore massimo personalizzato impostato. |
