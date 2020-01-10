@@ -103,7 +103,7 @@ Nota che ci sono tre blocchi nella sezione dell’utente, che rappresentano tre 
 * La seconda è una richiesta di accesso che però usa un cookie MCID/ECID.
 * La terza richiede sia l’accesso che la cancellazione per ID specifici. Sebbene l’espansione dell’ID sia specificata per tutte le richieste, essa si applica maggiormente alla terza richiesta perché è l’unica che non usa ID cookie. Di conseguenza questa richiesta individuerà anche gli ID cookie associati a dispositivi con questo CRM-ID o indirizzo e-mail ed espanderà la richiesta per includere anche questi ID.
 
-Aspetti da considerare:
+Nota bene
 
 * Il valore “5D7236525AA6D9580A495C6C@AdobeOrg” nella sezione “companyContexts” deve essere aggiornato con il valore dell’organizzazione Experience Cloud.
 * I campi “type” e “namespace” sono descritti più dettagliatamente nella sezione [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md).
