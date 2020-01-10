@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Configurare una visualizzazione di flusso
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,12 +32,12 @@ Il diagramma di flusso è interattivo. Passa il cursore del mouse sul diagramma 
 
 I percorsi nel diagramma sono proporzionali. I percorsi con maggiore attività sono più spessi.
 
-Quando fai clic su un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. For example, if you click **[!UICONTROL Search Results]** at the top right in the top diagram above, the diagram expands to show more details about the search results node. Fai di nuovo clic sul nodo per chiuderlo.
+Quando fai clic su un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Ad esempio, se fai clic su **[!UICONTROL Search Results]** (Risultati ricerca) in alto a destra nel diagramma superiore illustrato qui sopra, il diagramma si espande per mostrare più dettagli sul nodo dei risultati di ricerca. Fai di nuovo clic sul nodo per chiuderlo.
 
 ![](assets/flow3.jpg)
 
-Per impostazione predefinita, il diagramma mostra i primi cinque flussi. If you click on the **[!UICONTROL More]** node at the bottom of the diagram, the diagram expands down to show five more flows. Continue clicking **[!UICONTROL More]** to expand until there are no additional flows to show.
+Per impostazione predefinita, il diagramma mostra i primi cinque flussi. Se fai clic sul nodo **[!UICONTROL More]** (Altro) in fondo al diagramma, quest’ultimo si espande verso il basso per visualizzare altri cinque flussi. Continua a fare clic su **[!UICONTROL More]** (Altro) fino a visualizzare tutti i flussi disponibili.
 
 Non vi è alcun limite alla navigazione nel diagramma di flusso.
 
-You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]**.
+Puoi anche esportare e analizzare ulteriormente il diagramma di flusso come parte del file .CSV di un progetto, da **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]** (Progetto &gt; Scarica CSV).
