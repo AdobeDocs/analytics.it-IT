@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Alert Builder (Generatore di avvisi)
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Gli avvisi intelligenti sono disponibili solo per i clienti Adobe Analytics Prime e Adobe Analytics Ultimate.
+>Gli Avvisi intelligenti sono disponibili solo per i clienti di Adobe Analytics Prime e Adobe Analytics Ultimate.
 
-## Access Alert Builder
+## Accedere al generatore di avvisi
 
 Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* Da **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]** (Workspace &gt; Componenti &gt; Nuovo avviso).
+* Selezionando una o più voci di tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione).
+* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** (Altro &gt; Aggiungi avviso).
 
 ## Creare avvisi
 
@@ -41,7 +41,7 @@ Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o 
 
 Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
 
-> [!NOTE] Per le suite di rapporti con un calendario personalizzato, nel Generatore di avvisi non è supportata la granularità mensile.
+> [!NOTE] Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
 
 **Recipients (Destinatari)**
 
@@ -49,9 +49,9 @@ Specifica a chi deve essere inviato l’avviso. Può essere inviato a un utente 
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>Il numero telefonico deve essere preceduto dal segno “+” e dal [prefisso del paese](https://countrycode.org/).
 
-Il messaggio e-mail che un utente riceverebbe dopo l’attivazione di un avviso è simile al seguente:
+Il messaggio e-mail che un utente riceve dopo l’attivazione di un avviso è simile al seguente:
 
 ![](assets/alerts-email.PNG)
 
@@ -63,9 +63,9 @@ Imposta la data di scadenza dell’avviso.
 
 *... Any of These Metrics trigger (...si verifica uno di questi attivatori di metrica)*
 
-* Trascina la metrica nell’area per l’aggiunta degli attivatori.
+* Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti selezionati, viene visualizzato un messaggio con riferimento a **“componenti non compatibili”**.
 * Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
    * anomaly exists (l’anomalia esiste)
