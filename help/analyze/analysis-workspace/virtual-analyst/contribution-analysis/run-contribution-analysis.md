@@ -1,8 +1,8 @@
 ---
-description: nulle
+description: 'null'
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,15 +16,15 @@ L’analisi dei contributi è un potente processo di machine learning progettato
 
 In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 
-* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. L’analisi può essere eseguita anche sulle righe in cui non sono visualizzate anomalie.
+* In una tabella a forma libera con granularità giornaliera, fai clic con il pulsante destro del mouse su una riga e seleziona **[!UICONTROL Run Contribution Analysis]** (Esegui analisi contributi). L’analisi può essere eseguita anche sulle righe in cui non sono visualizzate anomalie.
 
    >[!NOTE]
    >
-   >Al momento l’analisi dei contributi è supportata solo con granularità giornaliera.
+   >Al momento l’analisi dei contributi è supportata solo per la granularità giornaliera.
 
    ![](assets/run_ca.png)
 
-* In un grafico a linee, fai clic con il pulsante destro del mouse su un punto dati anomalo. Click the **[!UICONTROL Analyze]** link that appears.
+* In un grafico a linee, fai clic con il pulsante destro del mouse su un punto dati anomalo. Fai clic sul link **[!UICONTROL Analyze]** (Analizza) visualizzato.
 
    ![](assets/contribution-analysis.png)
 
@@ -49,22 +49,22 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
    * [Creazione di avvisi.](/help/components/c-alerts/intellligent-alerts.md)
    * [Creazione o confronto di segmenti.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-> [!NOTE] Evidenziamo l’anomalia analizzata con un punto blu all’interno dell’analisi dei contributi e dei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata.
+> [!NOTE] Un punto blu evidenzia l’anomalia nell’analisi dei contributi e nei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata.
 
-## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Escludere alcune dimensioni dall’analisi dei contributi {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
 In alcune situazioni può essere utile escludere delle dimensioni dall’analisi dei contributi. Ad esempio, se non ti interessano le dimensioni relative a browser o hardware, puoi escluderle per velocizzare l’analisi.
 
-1. After you have clicked **[!UICONTROL Run Contribution Analysis]** (or **[!UICONTROL Analyze]** in a line chart), the **[!UICONTROL Excluded Dimensions]** panel displays.
+1. Fai clic su **[!UICONTROL Run Contribution Analysis]** (Esegui analisi contributi) o su **[!UICONTROL Analyze]** (Analizza) in un grafico a linee per visualizzare il pannello **[!UICONTROL Excluded Dimensions]** (Dimensioni escluse).
 
-1. Just drag any unwanted dimensions into the **[!UICONTROL Excluded Dimensions]** panel, then save the list by clicking **[!UICONTROL Set as Default]**. Oppure fai clic su **[!UICONTROL Clear All](Cancella tutto) per iniziare di nuovo selezionando le dimensioni da escludere.**
+1. Trascina le dimensioni da escludere nel pannello **[!UICONTROL Excluded Dimensions]** (Dimensioni escluse), quindi salva l’elenco facendo clic su **[!UICONTROL Set as Default]** (Imposta come predefinito). Oppure fai clic su **[!UICONTROL Clear All]** (Cancella tutto) per iniziare di nuovo selezionando le dimensioni da escludere.
 
    ![](assets/exclude_dimensions.png)
 
-1. Dopo aver aggiunto le dimensioni da escludere (o scelto di non escluderne) fai di nuovo clic su **[!UICONTROL Run Contribution Analysis](Esegui analisi contributi).**
+1. Dopo aver aggiunto le dimensioni da escludere (o scelto di non escluderne) fai di nuovo clic su **[!UICONTROL Run Contribution Analysis]** (Esegui analisi contributi).
 1. Per modificare l’elenco delle dimensioni escluse, fai doppio clic su Dimensions (Dimensioni) per visualizzare l’elenco delle dimensioni escluse:
 
    ![](assets/excluded-dimensions.png)
 
-1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
+1. Fai clic sulla x accanto alle dimensioni da eliminare, quindi salva il nuovo elenco facendo clic su **[!UICONTROL Set as Default]** (Imposta come predefinito).
 
