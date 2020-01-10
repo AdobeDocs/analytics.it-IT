@@ -2,7 +2,7 @@
 description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
 title: Impostazioni riga
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,7 +40,7 @@ Per accedere alle impostazioni di riga, fai clic sull’icona Impostazioni accan
   </tr> 
   <tr> 
    <td colname="col1"> <p>Breakdowns (Suddivisioni) </p> </td> 
-   <td colname="col2"> <p><b>Suddivisione per posizione:</b> </p> <p>È possibile mostrare le suddivisioni in base a una posizione fissa in una tabella a forma libera. Ad esempio, puoi specificare di suddividere sempre le prime sette righe. </p> <p>(In precedenza, i valori elencati nella suddivisione erano bloccati. This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. Se avessi salvato questo rapporto e lo avessi eseguito di nuovo un mese più tardi, le prime 50 pagine sarebbero probabilmente cambiate. Analysis Workspace utilizzava comunque i risultati della suddivisione originale e restituiva le stesse pagine, ma con il mese corrente come intervallo di date.) </p> <p>Per eseguire suddivisioni sulla base di una posizione fissa: </p> 
+   <td colname="col2"> <p><b>Suddivisione per posizione:</b> </p> <p>È possibile mostrare le suddivisioni in base a una posizione fissa in una tabella a forma libera. Ad esempio, puoi specificare di suddividere sempre le prime sette righe. </p> <p>(In precedenza, i valori elencati nella suddivisione erano “bloccati”. Ciò portava a una situazione in cui, ad esempio, se eseguivi una suddivisione di <span class="term">Data</span> per <span class="term">Pagina</span>, ottenevi un elenco delle prime 50 pagine per l’intervallo date selezionato. Se avessi salvato questo rapporto e lo avessi eseguito di nuovo un mese più tardi, le prime 50 pagine sarebbero probabilmente cambiate. Analysis Workspace utilizzava comunque i risultati della suddivisione originale e restituiva le stesse pagine, ma con il mese corrente come intervallo di date.) </p> <p>Per eseguire suddivisioni sulla base di una posizione fissa: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Suddividi alcune delle righe nella tua tabella. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">Fai clic sull’icona Impostazioni (ingranaggio) accanto alla riga della tabella che desideri mettere in posizione fissa. </li> 
