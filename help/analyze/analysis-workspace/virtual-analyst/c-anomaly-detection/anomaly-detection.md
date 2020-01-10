@@ -2,7 +2,7 @@
 description: In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 title: Panoramica di Rilevamento delle anomalie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Panoramica di Rilevamento delle anomalie
 
-Puoi visualizzare e analizzare le anomalie nei dati in modo contestuale in Analysis Workspace.
+In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 
-[Rilevamento delle anomalie su YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[Rilevamento anomalie su YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[Analisi contributi su YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[Analisi dei contributi su YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT] Il rilevamento delle anomalie è stato rimosso dal set di funzioni Reporting e analisi ed è ora disponibile solo tramite Analysis Workspace. I clienti di Adobe Analytics Select e Adobe Analytics Foundation hanno accesso solo al rilevamento delle anomalie "giornaliero" in Workspace. Per ulteriori informazioni, consulta [Adesioni a Rilevamento delle anomalie e Analisi contributi](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
+>[!IMPORTANT] La funzione Rilevamento delle anomalie è stata rimossa da Reports &amp; Analytics ed è ora disponibile solo tramite Analysis Workspace. I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace. Per ulteriori informazioni, consulta [Adesioni a Rilevamento delle anomalie e Analisi contributi](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 La funzione di rilevamento delle anomalie fornisce un metodo statistico per determinare la variazione di una particolare metrica rispetto ai dati precedenti.
 
