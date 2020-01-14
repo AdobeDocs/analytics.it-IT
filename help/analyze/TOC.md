@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [Paginazione, filtri e ordinamento di tabelle](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Visualizza densità](analysis-workspace/build-workspace-project/view-density.md)
-      + [Totali area di lavoro](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [Totali in Workspace](analysis-workspace/build-workspace-project/workspace-totals.md)
    + Componenti {#components}
       + [Panoramica dei componenti](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensioni {#dimensions}
@@ -49,12 +49,12 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
       + [Tabella a forma libera](analysis-workspace/visualizations/freeform-table.md)
       + Tabella coorte {#cohort-table}
-         + [L'analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [L&#39;analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare un rapporto di analisi per coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casi di utilizzo dell’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abbandono {#fallout}
-         + [Panoramica dell'abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Configurare una visualizzazione dell'abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Panoramica dell&#39;abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configurare una visualizzazione dell&#39;abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono interdimensionale](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Applicare i segmenti nell’analisi dell’abbandono](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flusso {#flow}
@@ -79,11 +79,11 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + Attribution {#attribution}
-         + [Panoramica sull’attribuzione](analysis-workspace/c-panels/attribution/attribution.md)
+         + [Panoramica su Attribution](analysis-workspace/c-panels/attribution/attribution.md)
          + [Utilizzo del pannello Attribuzione](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Domande frequenti su Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison {#segment-comparison}
+      + Confronto tra segmenti {#segment-comparison}
          + [Panoramica del segmento IQ](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi d’utilizzo del segmento IQ](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -102,7 +102,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
          + [Disattivare il rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
          + [Tecniche di statistica utilizzate nel rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
       + Analisi contributi {#contribution-analysis}
-         + [Panoramica dell'analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+         + [Panoramica dell&#39;analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [Eseguire l’analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [Tecniche di statistica utilizzate nell’analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
       + Avvisi intelligenti {#intelligent-alerts}
@@ -266,7 +266,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
 + Reports and Analytics {#reports-analytics}
    + [Introduzione a Reports and Analytics](reports-analytics/getting-started.md)
    + [Adobe Analytics: concetti chiave](reports-analytics/key-concepts.md)
-   + Panoramica dell'interfaccia di reportistica {#reporting-interface}
+   + Panoramica dell&#39;interfaccia di reportistica {#reporting-interface}
       + [Informazioni sulla raccolta di dati regionali](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapporti](reports-analytics/overview/reports-menu.md)
       + [Funzioni rapporto](reports-analytics/overview/report-overview.md)
@@ -329,7 +329,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
 + App mobile {#mobapp}
    + [Panoramica di Mobile App](mobile-app/home.md)
    + [Guida al curatore](mobile-app/curator.md)
-   + [Guida introduttiva per l'utente esecutivo](mobile-app/executive.md)
+   + [Guida introduttiva per l&#39;utente esecutivo](mobile-app/executive.md)
 + App web progressive {#pwa}
    + [App web progressive](pwa/pwa.md)
 + API di reportistica di Analytics {#analytics-reporting-api}
