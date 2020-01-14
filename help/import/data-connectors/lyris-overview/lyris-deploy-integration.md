@@ -1,34 +1,34 @@
 ---
 description: Descrive il processo di distribuzione in tre fasi.
-title: Implementazione dell'integrazione
+title: Distribuzione dell'integrazione
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
 
 
-# Implementazione dell'integrazione{#deploying-the-integration}
+# Distribuzione dell&#39;integrazione{#deploying-the-integration}
 
 Descrive il processo di distribuzione in tre fasi.
 
 La distribuzione di questa integrazione è un processo semplice che richiede le seguenti azioni:
 
-## Completamento dell'Integrazione guidata{#completing-the-integration-wizard}
+## Completamento dell&#39;Integrazione guidata{#completing-the-integration-wizard}
 
 Procedura per utilizzare la procedura guidata di integrazione.
 
-Per attivare l'integrazione, è necessario completare la procedura guidata di integrazione di Lyris all'interno dell'interfaccia Connettori dati.
+Per attivare l&#39;integrazione, è necessario completare la procedura guidata di integrazione di Lyris all&#39;interno dell&#39;interfaccia Connettori dati.
 
-1. Passa all'area Connettori dati (precedentemente Genesis) in Adobe Experience Cloud.
+1. Passa all&#39;area Connettori dati (precedentemente Genesis) in Adobe Experience Cloud.
 
    ![](assets/data_connectors.png)
 
-1. In **[!UICONTROL Add Integration]**, trascina e rilascia il plug-in Lyris in Adobe Experience Cloud. Si apre l'integrazione del connettore dati Lyris.
+1. In **[!UICONTROL Add Integration]**, sotto Lyris HQ, fare clic su**[!UICONTROL Activate]**.
 
    ![](assets/add_integration.png)
 
-1. In **[!UICONTROL General Settings]**, scegliete la suite di rapporti desiderata e fornite un nome per l'integrazione.
+1. In **[!UICONTROL General Settings]**, scegliete la suite di rapporti desiderata e fornite un nome per l&#39;integrazione.
 1. Compila tutte le informazioni relative al tuo account Lyris in **[!UICONTROL Custom Values]**.
 
    ![](assets/general_settings.png)
@@ -37,9 +37,9 @@ Per attivare l'integrazione, è necessario completare la procedura guidata di in
 
    ![](assets/variable_mapping.png)
 
-1. Puoi scegliere i tuoi segmenti **[!UICONTROL Your Segments]** - oltre ai 3 segmenti partner automatizzati.
-1. Questa integrazione potrebbe richiedere il download di alcuni punti dati al tuo account Lyris. È possibile scegliere di consentire l'accesso a questa sezione **[!UICONTROL Access Request]**.
-1. In **[!UICONTROL Data Collection]**, potete scegliere una soluzione automatica o manuale (plug-in JavaScript) per raccogliere i parametri della stringa di query dall'URL della pagina di destinazione. Se scegli di disporre di una soluzione automatizzata, immetti il parametro della stringa di query per ID messaggio e ID destinatario. Per un plug-in JavaScript, contattate il consulente Adobe.
+1. Puoi scegliere i tuoi segmenti **[!UICONTROL Your Segments]**- oltre ai 3 segmenti partner automatizzati.
+1. Questa integrazione potrebbe richiedere il download di alcuni punti dati al tuo account Lyris. È possibile scegliere di consentire l&#39;accesso a questa sezione **[!UICONTROL Access Request]**.
+1. In **[!UICONTROL Data Collection]**, potete scegliere una soluzione automatica o manuale (plug-in JavaScript) per raccogliere i parametri della stringa di query dall&#39;URL della pagina di destinazione. Se scegli di disporre di una soluzione automatizzata, immetti il parametro della stringa di query per ID messaggio e ID destinatario. Per un plug-in JavaScript, contattate il consulente Adobe.
 
    ![](assets/data_collection.png)
 
@@ -47,14 +47,14 @@ Per attivare l'integrazione, è necessario completare la procedura guidata di in
 
    ![](assets/dashboard_generation.png)
 
-1. Rivedete il riepilogo dell'integrazione e fate clic su **[!UICONTROL Activate]**.
+1. Rivedete il riepilogo dell&#39;integrazione e fate clic su **[!UICONTROL Activate]**.
 
 ## Configurazione in Lyris EmailLabs{#configuration-within-the-lyris-emaillabs}
 
 Passaggi che descrivono cosa configurare in Lyris al termine della procedura guidata.
 
-1. Dopo aver completato la procedura guidata di integrazione, devi lavorare con il team Lyris Professional per completare l'integrazione con il tuo account Lyris HQ e facilitare il test.
-1. Aggiungi parametri stringa query URL: Verificare che la stringa di aggiunta dell'URL sia correttamente inserita nelle aree delle impostazioni dell'organizzazione dell'interfaccia utente. Deve contenere l’ID a livello di campagna (hq_m) e l’ID a livello di destinatario (hq_v).
+1. Dopo aver completato la procedura guidata di integrazione, devi lavorare con il team Lyris Professional per completare l&#39;integrazione con il tuo account Lyris HQ e facilitare il test.
+1. Aggiungi parametri stringa query URL: Verificare che la stringa di aggiunta dell&#39;URL sia correttamente inserita nelle aree delle impostazioni dell&#39;organizzazione dell&#39;interfaccia utente. Deve contenere l’ID a livello di campagna (hq_m) e l’ID a livello di destinatario (hq_v).
 
    Un esempio di ID stringa è:
 
@@ -66,23 +66,23 @@ Passaggi che descrivono cosa configurare in Lyris al termine della procedura gui
    >
    >Se state applicando lo strumento di analisi nativo di Lyris, *Click Tracks* tag tutte le variabili richieste che vengono aggiunte.
 
-## Verifica dell'integrazione{#verifying-the-integration}
+## Verifica dell&#39;integrazione{#verifying-the-integration}
 
-Passaggi per verificare che l'integrazione tra Lyris e Adobe Analytics sia stata completata correttamente.
+Passaggi per verificare che l&#39;integrazione tra Lyris e Adobe Analytics sia stata completata correttamente.
 
-Una volta completati tutti i passaggi di distribuzione, potete verificare che l'integrazione trasferisca correttamente i dati.
+Una volta completati tutti i passaggi di distribuzione, potete verificare che l&#39;integrazione trasferisca correttamente i dati.
 
-> [!NOTE] Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l'integrazione.
+> [!NOTE] Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l&#39;integrazione.
 
-1. Passa alla tua integrazione Lyris all'interno dei connettori dati. Sotto la **[!UICONTROL Support]** scheda &gt; **[!UICONTROL Integration Activity Log]**, è possibile visualizzare eventi quali **[!UICONTROL Metric data imported successfully]** e/o **[!UICONTROL Classification data imported successfully]**:
+1. Passa alla tua integrazione Lyris all&#39;interno dei connettori dati. Sotto la **[!UICONTROL Support]**scheda >**[!UICONTROL Integration Activity Log]**, è possibile visualizzare eventi quali **[!UICONTROL Metric data imported successfully]**e/o**[!UICONTROL Classification data imported successfully]**:
 
    ![](assets/integration_info.png)
 
 1. Ora puoi visualizzare i tuoi rapporti sui messaggi di Lyris con le metriche appropriate. In Adobe Experience Cloud, seleziona **[!UICONTROL Reports & Analytics]**.
 1. Selezionate la suite di rapporti appropriata.
-1. In **[!UICONTROL Custom Conversions]**, selezionate il **[!UICONTROL Message ID Reports]** pulsante e scegliete **[!UICONTROL Message ID/Message Name]**.
+1. In **[!UICONTROL Custom Conversions]**, selezionate il**[!UICONTROL Message ID Reports]** pulsante e scegliete **[!UICONTROL Message ID/Message Name]**.
 
-## Codice Plug-In Param Stringa Query{#query-string-param-plug-in-code}
+## Codice Plug-in parametro di stringa query{#query-string-param-plug-in-code}
 
 Mostra il codice del plug-in Lyris da utilizzare con Adobe Analytics.
 
