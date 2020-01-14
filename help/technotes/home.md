@@ -1,7 +1,7 @@
 ---
 title: Home note tecniche
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
 
@@ -13,14 +13,15 @@ Questa guida fornisce informazioni utili su argomenti che non appartengono a uno
 ## Articoli principali sulle note tecniche
 
 * [Transizione da una piattaforma di analisi di terze parti ad Adobe Analytics](ga-to-aa/home.md)
+* [Raccolta di dati regionali](/help/technotes/rdc/regional-data-collection.md)
 
 ## Altre guide utente di Analytics
 
 [Guide utente di Analytics](/help/landing/home.md)
 
-## Risorse chiave per Analytics
+## Altre risorse di Analytics
 
-* [Contattare l’Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
+* [Contattare l’Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
