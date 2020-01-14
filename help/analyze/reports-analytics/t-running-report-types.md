@@ -4,14 +4,14 @@ title: Eseguire diversi tipi di rapporto
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
 
 
 # Eseguire diversi tipi di rapporto
 
-Passaggi sull'esecuzione dei diversi tipi di rapporto.
+Passaggi sull&#39;esecuzione dei diversi tipi di rapporto.
 
 
 ## Eseguire un report classifica {#task_C570BA4A213F4F2EB7B30E012934BE7D}
@@ -24,9 +24,9 @@ t_reports_ranked.xml
 
  -->
 
-1. Generate un rapporto, ad esempio [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**).
+1. Generate un rapporto, ad esempio [!UICONTROL Pages Report] ( **[!UICONTROL Reports]**>**[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
 1. Nell’intestazione del rapporto, fai clic su **[!UICONTROL Ranked.]**
-1. Per classificare il rapporto, fare clic sull'intestazione di una colonna nella tabella.
+1. Per classificare il rapporto, fare clic sull&#39;intestazione di una colonna nella tabella.
 
    I rapporti con classifica possono contenere fino a 200 elementi elencati nella tabella (quali prodotti, categorie, pagine Web e così via) e dieci metriche (ricavi, ordini, viste e così via).
 
@@ -44,12 +44,12 @@ La maggior parte dei report Conversione e Traffico dispone di una visualizzazion
 
 **Per eseguire un report con tendenze**
 
-1. Eseguite un rapporto di conversione o traffico, ad esempio **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**.
-1. Alla voce **[!UICONTROL Report Type]**, fai clic su **[!UICONTROL Trended.]**
+1. Eseguite un rapporto di conversione o traffico, ad esempio **[!UICONTROL Reports]**>**[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Alla voce **[!UICONTROL Report Type]**, fai clic su**[!UICONTROL Trended.]**
 
-## Eseguire un rapporto sull'imbuto di conversione {#task_B926A74AA6A641138C2986C1635120CB}
+## Eseguire un rapporto sull&#39;imbuto di conversione {#task_B926A74AA6A641138C2986C1635120CB}
 
-I rapporti sul funnel di conversione mostrano la percentuale di visitatori che hanno fatto avanzare un insieme di eventi per eseguire l'azione desiderata. Ad esempio, potete vedere quanti visitatori hanno progredito dalla visita alla pagina Web, dall'aggiunta di elementi al carrello e dall'acquisto di un elemento. Questo rapporto mostra anche il numero di coloro che sono caduti lungo la strada.
+I rapporti sul funnel di conversione mostrano la percentuale di visitatori che hanno fatto avanzare un insieme di eventi per eseguire l&#39;azione desiderata. Ad esempio, potete vedere quanti visitatori hanno progredito dalla visita alla pagina Web, dall&#39;aggiunta di elementi al carrello e dall&#39;acquisto di un elemento. Questo rapporto mostra anche il numero di coloro che sono caduti lungo la strada.
 
 <!-- 
 
@@ -57,7 +57,7 @@ t_reports_conversion_funnel.xml
 
  -->
 
-Per eseguire questo rapporto, selezionare un rapporto, ad esempio un rapporto Pagine ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
+Per eseguire questo rapporto, selezionare un rapporto, ad esempio un rapporto Pagine ( **[!UICONTROL Reports]**>**[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]**>**[!UICONTROL Campaign Conversion Funnel]**).
 
 Per una descrizione, vedere Report [](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) conversione.
 
@@ -73,13 +73,13 @@ t_reports_fallout.xml
 
 Scopri il nuovo pannello Analisi [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) abbandono in Analysis Workspace!
 
-1. In [!UICONTROL Adobe Analytics], fate clic su **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Fallout]**.
+1. In [!UICONTROL Adobe Analytics], fate clic su **[!UICONTROL Reports]**>**[!UICONTROL Paths]** > **[!UICONTROL Pages]**>**[!UICONTROL Fallout]**.
 1. Sulla [!UICONTROL Fallout Report] pagina fare clic su **[!UICONTROL Launch the Fallout Report Builder]**.
 
    ![Risultato passaggio](assets/fallout_add_items.png)
 
 1. Nella [!UICONTROL Define Checkpoints] pagina, specificate i punti di controllo da utilizzare per il rapporto.
-1. Fai clic su **[!UICONTROL Run Report]** (Genera).
+1. Fai clic su **[!UICONTROL Run Report]**.
 
    ![Risultato passaggio](assets/fallout_report.png)
 
@@ -92,17 +92,11 @@ Scopri il nuovo pannello Analisi [](https://marketing.adobe.com/resources/help/e
 
 I rapporti sul flusso di pagina mostrano l’ordine in cui i visitatori accedono alle pagine e si spostano nel sito. Questo rapporto aiuta a rispondere
 
-<!-- 
-
-t_reports_page_flow.xml
-
- -->
-
 Scopri la nuova visualizzazione [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) Flusso in Analysis Workspace!
 
 Eseguire un rapporto [Percorsi](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) .
 
-Ad esempio, fare clic su **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
+Ad esempio, fare clic su **[!UICONTROL Reports]**>**[!UICONTROL Paths]** > **[!UICONTROL Pages]**>**[!UICONTROL Next Page Flow]**.
 
 ![](assets/page_flow.png)
 
@@ -112,9 +106,9 @@ La percentuale di visualizzazione di ogni pagina successiva viene visualizzata a
 
 **[!UICONTROL Path Views]**: Indica il numero di volte in cui è stata visualizzata una pagina, se vincolata ai percorsi visualizzati.
 
-Ad esempio, la pagina dell'Informativa sulla privacy potrebbe avere 10.000 visualizzazioni totali di pagina, ma solo 500 di queste si sono verificate immediatamente dopo la pagina principale. Viene quindi utilizzato il termine visualizzazione percorso.
+Ad esempio, la pagina dell&#39;Informativa sulla privacy potrebbe avere 10.000 visualizzazioni totali di pagina, ma solo 500 di queste si sono verificate immediatamente dopo la pagina principale. Viene quindi utilizzato il termine visualizzazione percorso.
 
-La percentuale relativa è rappresentata dalla larghezza relativa della linea. Per impostazione predefinita, questo rapporto mostra cinque rami di secondo livello e cinque rami di terzo livello. È possibile espandere il numero di rami per visualizzare fino a dieci rami di secondo livello e cinque rami di terzo livello. In questo modo l'altezza del rapporto aumenta e molto probabilmente richiede lo scorrimento per visualizzare l'intero grafico.
+La percentuale relativa è rappresentata dalla larghezza relativa della linea. Per impostazione predefinita, questo rapporto mostra cinque rami di secondo livello e cinque rami di terzo livello. È possibile espandere il numero di rami per visualizzare fino a dieci rami di secondo livello e cinque rami di terzo livello. In questo modo l&#39;altezza del rapporto aumenta e molto probabilmente richiede lo scorrimento per visualizzare l&#39;intero grafico.
 
 ## Eseguire un rapporto Funnel {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
@@ -126,11 +120,11 @@ t_reports_funnel.xml
 
  -->
 
-1. Fate clic su **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel (Funnel di conversione prodotti)](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. Fate clic su **[!UICONTROL Reports]**>**[!UICONTROL Products]** > [Products Conversion Funnel (Funnel di conversione prodotti)](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## Eseguire un report canale di marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
-Il reporting sul canale di marketing fornisce una panoramica dell'allocazione dei canali di primo e ultimo contatto, con metriche di reporting standard come entrate, ordini e costi. Questi rapporti consentono di analizzare il fatturato generato da ogni canale.
+Il reporting sul canale di marketing fornisce una panoramica dell&#39;allocazione dei canali di primo e ultimo contatto, con metriche di reporting standard come entrate, ordini e costi. Questi rapporti consentono di analizzare il fatturato generato da ogni canale.
 
 <!-- 
 
@@ -152,7 +146,7 @@ t_anomaly_view.xml
 
 Scopri le nuove funzioni [Rilevamento anomalie e Analisi](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) contributi di Analysis Workspace!
 
-**[!UICONTROL Reports]** &gt; **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Anomaly Detection]** .
+**[!UICONTROL Reports]**>**[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]**.
 
 > [!NOTE] Puoi anche eseguire il rilevamento delle anomalie dai progetti di Analysis Workspace. [Altro...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
@@ -217,22 +211,22 @@ t_anomaly_config.xml
 
 Potete impostare il rilevamento delle anomalie in modo indipendente per ogni suite di rapporti.
 
-1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
+1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]**.
 1. Selezionate la suite di rapporti per la quale desiderate tenere traccia del rilevamento giornaliero delle anomalie. Per visualizzare un elenco di suite di rapporti, fai clic sul menu a discesa del selettore Suite di rapporti.
-1. Per selezionare le metriche e/o definire le metriche filtrate, fai clic **[!UICONTROL Edit Metrics]** in alto a destra nella schermata: ![](assets/metrics_icon.png).
+1. Per selezionare le metriche e/o definire le metriche filtrate, fai clic **[!UICONTROL Edit Metrics]**in alto a destra nella schermata:![](assets/metrics_icon.png).
 
-   Puoi scegliere le metriche dall'elenco (comprese le metriche calcolate) di tutte le metriche o da un elenco di metriche tracciate. Potete anche filtrare l’elenco in base a termini specifici. 1. Una volta generato il rapporto, definisci il **[!UICONTROL Training Period]** e il **[!UICONTROL View Period]** metodo di rilevamento delle anomalie. (Pensate al periodo di formazione come al "periodo di apprendimento" per l’algoritmo.)
+   Puoi scegliere le metriche dall&#39;elenco (comprese le metriche calcolate) di tutte le metriche o da un elenco di metriche tracciate. Potete anche filtrare l’elenco in base a termini specifici. 1. Una volta generato il rapporto, definisci il **[!UICONTROL Training Period]**e il**[!UICONTROL View Period]** metodo di rilevamento delle anomalie. (Pensate al periodo di formazione come al &quot;periodo di apprendimento&quot; per l’algoritmo.)
 
    ![](assets/view_training_periods.png)
 
    Nota bene:
 
-* Il periodo di formazione termina immediatamente prima dell'inizio del periodo di visualizzazione.
+* Il periodo di formazione termina immediatamente prima dell&#39;inizio del periodo di visualizzazione.
 * Il valore predefinito per entrambi è 30 giorni e potete estenderlo a 60 o 90 giorni.
 * Estendendo il periodo di formazione i dati vengono inseriti in un contesto più ampio e possono ridurre le dimensioni di un’anomalia.
 
    Il rapporto sulle metriche di rilevamento delle anomalie viene aggiornato ogni volta che si modifica un parametro.
-1. (Facoltativo) Per applicare segmenti al rapporto, fai clic su **[!UICONTROL Show Segments]** e seleziona uno o più segmenti esistenti o crea un nuovo segmento e applicalo.
+1. (Facoltativo) Per applicare segmenti al rapporto, fai clic su **[!UICONTROL Show Segments]**e seleziona uno o più segmenti esistenti o crea un nuovo segmento e applicalo.
 
    ![](assets/ad_top_menu.png)
 
@@ -250,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Reports > Site Metrics > Real-Time]** .
+**[!UICONTROL Reports > Site Metrics > Real-Time]**.
 
 Il reporting in tempo reale offre due report principali: una panoramica e un report dettagliato. Ciascuno di essi consiste in una serie di minirapporti.
 
 Per informazioni sulla configurazione dei report in tempo reale, consulta la Guida [di riferimento di](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration)Analytics.
 
-1. Guardate il **[!UICONTROL Overview]** rapporto e i suoi componenti:  ![](assets/rtr_overview_report.png)
+1. Guardate il **[!UICONTROL Overview]**rapporto e i suoi componenti:![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -320,10 +314,10 @@ Per informazioni sulla configurazione dei report in tempo reale, consulta la Gui
    </tr> 
    </table>
 
-1. Fate clic su una voce di elenco nel minirapporto principale per avviare la **[!UICONTROL Details]** visualizzazione della voce di elenco:  ![](assets/rtr_detail_report.png)
+1. Fate clic su una voce di elenco nel minirapporto principale per avviare la **[!UICONTROL Details]**visualizzazione della voce di elenco:![](assets/rtr_detail_report.png)
 
    | **Report tendenze articolo** | Mostra la linea di tendenza dell’elemento selezionato nel rapporto Panoramica per gli ultimi N minuti. N è configurabile tramite il selettore Intervallo di tempo. |
    |---|---|
-   | **Report Totale articolo** | Mostra un conteggio totale delle metriche per l'elemento selezionato nel report Panoramica per gli ultimi N minuti. N è configurabile tramite il selettore Intervallo di tempo. |
-   | **Report secondario 1 correlato** | Questo rapporto è molto simile al report secondario 1. L'unica differenza è l'origine dati utilizzata per compilare il report: in questo esempio, mostra la correlazione (o suddivisione) tra una pagina specifica (quella selezionata nel minirapporto principale del rapporto Panoramica) e le istanze visualizzate. |
-   | **Report secondario correlato 2** | Questo rapporto è molto simile al report secondario 2. L'unica differenza è l'origine dati utilizzata per compilare il report: in questo esempio, mostra la correlazione (o suddivisione) tra una pagina specifica (quella selezionata nel minirapporto principale del rapporto Panoramica) e la dimensione della lingua. |
+   | **Report Totale articolo** | Mostra un conteggio totale delle metriche per l&#39;elemento selezionato nel report Panoramica per gli ultimi N minuti. N è configurabile tramite il selettore Intervallo di tempo. |
+   | **Report secondario 1 correlato** | Questo rapporto è molto simile al report secondario 1. L&#39;unica differenza è l&#39;origine dati utilizzata per compilare il report: in questo esempio, mostra la correlazione (o suddivisione) tra una pagina specifica (quella selezionata nel minirapporto principale del rapporto Panoramica) e le istanze visualizzate. |
+   | **Report secondario correlato 2** | Questo rapporto è molto simile al report secondario 2. L&#39;unica differenza è l&#39;origine dati utilizzata per compilare il report: in questo esempio, mostra la correlazione (o suddivisione) tra una pagina specifica (quella selezionata nel minirapporto principale del rapporto Panoramica) e la dimensione della lingua. |
