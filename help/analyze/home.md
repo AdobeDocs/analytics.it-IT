@@ -1,8 +1,8 @@
 ---
-title: Aiuto per Analysis Workspace
-description: Documentazione del prodotto e supporto autonomo per Analysis Workspace, Activity Map, Generatore di report, API di reporting e analisi (precedentemente prodotti Omniture Analytics).
+title: Guida all’analisi di Analytics
+description: Documentazione del prodotto e supporto autonomo per Analysis Workspace, Activity Map, Report Builder, API di reporting e Reports & Analytics (precedentemente prodotti Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -13,12 +13,12 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 Questa guida fornisce la documentazione del prodotto e il supporto autonomo per i seguenti strumenti di reporting e analisi di Adobe Analytics:
 
-* **[!UICONTROL Analysis Workspace]** : La funzionalità principale di Adobe Analytics. Workspace offre un’area di lavoro in cui puoi soddisfare le tue esigenze di reporting tramite il semplice trascinamento dei componenti necessari.
+* **[!UICONTROL Analysis Workspace]:** questa è la funzionalità principale di Adobe Analytics. Workspace offre un’area di lavoro in cui puoi soddisfare le tue esigenze di reporting tramite il semplice trascinamento dei componenti necessari.
 * **[!UICONTROL Activity Map]:** questo plug-in per browser mostra gli elementi più selezionati del tuo sito tramite sovrapposizioni visive.
-* **[!UICONTROL Ad Hoc Analysis]** : Un&#39;applicazione Java standalone con funzionalità di reporting affidabili. Questo strumento non viene più aggiornato e in futuro verrà dismesso.
+* **[!UICONTROL Ad Hoc Analysis]:** applicazione Java indipendente con solide funzionalità di reporting. Questo strumento non viene più aggiornato e in futuro verrà dismesso.
 * **[!UICONTROL Reporting API]** : Eseguite query di report direttamente sui server Adobe e ottenete risposte da utilizzare nei vostri strumenti di reporting dei clienti.
 * **[!UICONTROL Report Builder]:** componente aggiuntivo per Excel che consente di recuperare i dati di Analytics e inserirli direttamente in una cartella di lavoro.
-* **[!UICONTROL Reports & Analytics]** : Uno strumento con dozzine di report predefiniti. Per la maggior parte delle esigenze di reporting, Adobe consiglia di utilizzare Analysis Workspace.
+* **[!UICONTROL Reports & Analytics]:** strumento con decine di rapporti predefiniti. Per la maggior parte delle esigenze di reporting, Adobe consiglia di utilizzare Analysis Workspace.
 
 ## Articoli chiave sugli strumenti di Analytics
 
