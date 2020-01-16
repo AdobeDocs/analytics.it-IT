@@ -5,7 +5,7 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -35,7 +35,7 @@ Nuove funzionalità e miglioramenti rilasciati il 17 gennaio 2019.
 | Funzione | Descrizione |
 |--- |--- |
 | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | I miglioramenti principali dell’Analisi per coorte consentono di:<ul><li>Applicare separatamente le metriche di inclusione e di restituzione di un segmento. </li><li>Visualizzare l’abbandono invece della fidelizzazione.</li><li>Visualizzare tabelle di latenza (tempo trascorso prima e dopo un evento di inclusione).</li><li>Personalizzare la dimensione delle coorti (per raggruppare i visitatori in base a una eVar, non solo al tempo).</li><li>Eseguire un calcolo continuo per coorti: calcolare fidelizzazione e abbandono in base al periodo di tempo precedente, non alla coorte originale. </li><li>Aggiungere più metriche nei campi di inclusione e di ritorno, oltre che applicare i segmenti. (Le metriche calcolate non sono supportate)</li></ul> |
-| [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Questa nuova impostazione consente di visualizzare più dati in una singola schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. Accessibile da Progetto &gt; Informazioni e impostazioni progetto. |
+| [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Questa nuova impostazione consente di visualizzare più dati in una singola schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. Accessibile da Progetto > Informazioni e impostazioni progetto. |
 | [Supporto per variabili con più valori in Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Alcune dimensioni in Analytics possono contenere più valori in un singolo hit, come ad esempio listVars, la variabile di prodotto, proprietà di elenco o eVars per merchandising. Analysis Workspace consente di applicare Attribution IQ a uno qualsiasi di questi tipi di variabili a livello di hit. |
 | Miglioramenti delle prestazioni | È stata migliorata la velocità delle visualizzazioni con suddivisioni: i progetti con molte suddivisioni vengono caricati più rapidamente. |
 
@@ -246,7 +246,7 @@ Nuove funzionalità e miglioramenti rilasciati il giovedì 12 aprile 2018.
    <td colname="col2"> <p>Una nuova impostazione per la visualizzazione dei grafici Superfici sovrapposte, Barre sovrapposte e Barre orizzontali sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%, permettendo di misurare le proporzioni relative. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Le funzioni <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  >Rilevamento anomalie e Analisi contributi</a> sono ora disponibili solo in Analysis Workspace </p> </td> 
+   <td colname="col1"> <p> Le funzioni <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >Rilevamento anomalie e Analisi contributi</a> sono ora disponibili solo in Analysis Workspace </p> </td> 
    <td colname="col2"> <p>Le funzioni Rilevamento delle anomalie e Analisi contributi sono state rimosse da Reports &amp; Analytics e sono ora disponibili solo in Analysis Workspace. </p> <p>I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -397,7 +397,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analisi dei contributi: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > notifica token </a> </p> </td> 
-   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.&amp;nbsp; </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span>).  </p> </td> 
+   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.  </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span>).  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File CSV con caratteri multibyte </p> </td> 
@@ -447,7 +447,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualizzazione mappa </a> </p> </td> 
-   <td colname="col2"> <p>La nuova visualizzazione mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>È possibile visualizzare i dati relativi alla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano SDK per Mobile) in Analysis Workspace.&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>La nuova visualizzazione mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>È possibile visualizzare i dati relativi alla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano SDK per Mobile) in Analysis Workspace.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Selettore di granularità per le visualizzazioni con tendenze </a> </p> </td> 
@@ -901,7 +901,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
 
 Nuove funzionalità rilasciate il 16 giugno 2016:
 
-* [Nuova autorizzazione di gruppo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html), che consente agli amministratori di concedere o negare l’accesso alla scheda **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**. Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
+* [Nuova autorizzazione](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) di gruppo che consente agli amministratori di consentire o negare l’accesso agli utenti **[!UICONTROL Analytics]**>**[!UICONTROL Workspace]** . Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
 * Il [Pannello Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) rileva le differenze più importanti dal punto di vista statistico tra due segmenti attraverso un’analisi automatizzata di ciascuna metrica e dimensione a cui accedi.
 * [Nuova struttura menu di progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), che ridispone il menu principale e lo rende più estendibile. Ad esempio, la creazione di un **new Cohort Panel** (nuovo pannello coorte) implica la creazione di un pannello vuoto e il trascinamento nella tabella coorte.
 * [Nuova barra a sinistra](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Pannelli, Visualizzazioni, Componenti
@@ -960,17 +960,17 @@ Nuove funzionalità rilasciate il 21 gennaio 2016.
 
 Puoi annullare la maggior parte delle azioni effettuate in Analysis Workspace.
 
-Per annullare, fai clic su **[!UICONTROL Undo]** (Annulla) nel menu Azioni.
+Per annullare, fai clic su **[!UICONTROL Undo]**(Annulla) nel menu Azioni.
 
 ![](assets/undo.png)
 
 Per annullare è inoltre possibile utilizzare i [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) standard di Windows e Mac (Ctrl/Comando+Z).
 
-*`Undo`* è un comando particolarmente utile quando si vogliono annullare le analisi nella tabella.
+*`Undo`*è un comando particolarmente utile quando si vogliono annullare le analisi nella tabella.
 
-Azioni *`not`* (non) eseguibili:
+Azioni *`not`*(non) eseguibili:
 
-* Modifica della configurazione [!UICONTROL Cohort Table] (Tabella coorte) (come trascinamento di dati e modifica di valori). Tuttavia, puoi fare clic su **[!UICONTROL Undo]** (Annulla) dopo aver fatto clic su **[!UICONTROL Run]** (Esegui).
+* Modifica della configurazione [!UICONTROL Cohort Table] (Tabella coorte) (come trascinamento di dati e modifica di valori). Tuttavia, puoi fare clic su **[!UICONTROL Undo]**(Annulla) dopo aver fatto clic su**[!UICONTROL Run]** (Esegui).
 
 * Ridimensionamento o spostamento di pannelli e sottopannelli.
 
@@ -981,7 +981,7 @@ Azioni che eliminano la cronologia degli annullamenti:
 
 ## Collega a questo progetto {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-In un progetto, fai clic su **[!UICONTROL Link to This Project]** (Collega a questo progetto) nel menu Azioni per inviare ad altri utenti, tramite e-mail, l’URL di un progetto salvato. In questo modo, i destinatari con autorizzazioni di livello amministratore potranno modificare e salvare un progetto condiviso. Diversamente, i progetti sono di sola lettura.
+In un progetto, fai clic su **[!UICONTROL Link to This Project]**(Collega a questo progetto) nel menu Azioni per inviare ad altri utenti, tramite e-mail, l’URL di un progetto salvato. In questo modo, i destinatari con autorizzazioni di livello amministratore potranno modificare e salvare un progetto condiviso. Diversamente, i progetti sono di sola lettura.
 
 ![](assets/link-to-this-project.png)
 
@@ -1017,17 +1017,17 @@ Quando il colore e le dimensioni sono in qualche modo legate con la struttura de
 
 ## Opzione Salva con nome per segmenti, metriche e date {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-Durante la modifica di un segmento esistente (salvato) con il Generatore di segmenti di Analysis Workspace, fai clic su **[!UICONTROL Save As]** (Salva con nome) per creare una copia.
+Durante la modifica di un segmento esistente (salvato) con il Generatore di segmenti di Analysis Workspace, fai clic su **[!UICONTROL Save As]**(Salva con nome) per creare una copia.
 
 ![](assets/segment-save-as.png)
 
 Il nuovo segmento viene visualizzato nel gruppo [!UICONTROL Segments] (Segmenti) nel pannello [!UICONTROL Components] (Componenti).
 
-*`Save As`* (Salva con nome) è disponibile anche per il [!UICONTROL Calculated Metric Builder] (Generatore di metrica calcolata) e il [!UICONTROL Date Range Builder] (Generatore intervalli di date).
+*`Save As`*(Salva con nome) è disponibile anche per il[!UICONTROL Calculated Metric Builder](Generatore di metrica calcolata) e il[!UICONTROL Date Range Builder](Generatore intervalli di date).
 
 ## Pulsante Aggiungi nuovo segmento {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-Il pulsante **[!UICONTROL Add New Segment]** (Aggiungi nuovo segmento) è stato aggiunto nel punto in cui vengono trascinati i segmenti in un progetto.
+Il pulsante **[!UICONTROL Add New Segment]**(Aggiungi nuovo segmento) è stato aggiunto nel punto in cui vengono trascinati i segmenti in un progetto.
 
 ![](assets/add-new-segment.png)
 
@@ -1075,13 +1075,13 @@ Nel pannello dei componenti [!UICONTROL Dimensions] (Dimensioni), puoi passare i
 
 ## Visualizzazione legenda {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-In [!UICONTROL Visualization Settings] (Impostazioni visualizzazione) l’opzione **[!UICONTROL Legend Visible]** (Visualizzazione legenda) mostra o nasconde la legenda della visualizzazione.
+In [!UICONTROL Visualization Settings] (Impostazioni visualizzazione) l’opzione **[!UICONTROL Legend Visible]**(Visualizzazione legenda) mostra o nasconde la legenda della visualizzazione.
 
 ![](assets/legend-visible.png)
 
 ## Ancoraggio asse Y su zero {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-A seconda dei valori specificati per i grafici a linee o area, la parte inferiore dell’asse Y potrebbe non corrispondere a zero. Attivando l’opzione **[!UICONTROL Anchor Y Axis at Zero]** (Ancoraggio asse Y su zero) in [!UICONTROL Visualization Settings] (Impostazioni visualizzazione), si forza la corrispondenza a zero dell’asse Y per ottenere una visualizzazione più precisa delle tendenze. Gli esempi che seguono mostrano come un grafico sulle entrate possa variare con questa impostazione abilitata o disabilitata:
+A seconda dei valori specificati per i grafici a linee o area, la parte inferiore dell’asse Y potrebbe non corrispondere a zero. Attivando l’opzione **[!UICONTROL Anchor Y Axis at Zero]**(Ancoraggio asse Y su zero) in[!UICONTROL Visualization Settings](Impostazioni visualizzazione), si forza la corrispondenza a zero dell’asse Y per ottenere una visualizzazione più precisa delle tendenze. Gli esempi che seguono mostrano come un grafico sulle entrate possa variare con questa impostazione abilitata o disabilitata:
 
 **Opzione Ancoraggio asse Y su zero disattivata**
 
@@ -1099,4 +1099,4 @@ Quando si salva un progetto, il titolo della scheda nel browser verrà visualizz
 
 Gli amministratori possono trasferire i progetti di [!UICONTROL Analysis Workspace] da un utente all’altro.
 
-Accedi a **[!UICONTROL Admin]** (Amministratore) &gt; **[!UICONTROL User Management]** (Gestione utenti) &gt; **[!UICONTROL Transfer]** (Trasferisci) per trasferire i progetti.
+Navigate to **[!UICONTROL Admin]**>**[!UICONTROL User Management]** > **[!UICONTROL Transfer]**to transfer projects.
