@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
+source-git-commit: 1aaba87b40f1715fe8365b60b6a4afab9b4b3a3d
 
 ---
 
@@ -51,22 +51,22 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Confronto di eventi, prop ed eVar](analytics-terminology-basics/c-props-evars/props-vs-evars.md)
       + [Utilizzo di prop come contatori](analytics-terminology-basics/c-props-evars/props-counter.md)
       + [Conteggio gerarchie di contenuto](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
-      + [L'evento predefinito](analytics-terminology-basics/c-props-evars/event-predefined.md)
+      + [L&#39;evento predefinito](analytics-terminology-basics/c-props-evars/event-predefined.md)
       + [Pagina dettagliata di visualizzazione del prodotto](analytics-terminology-basics/c-props-evars/prodview-page.md)
-      + [L'evento personalizzato](analytics-terminology-basics/c-props-evars/event-custom.md)
+      + [L&#39;evento personalizzato](analytics-terminology-basics/c-props-evars/event-custom.md)
       + [Collisioni hash](analytics-terminology-basics/c-props-evars/hash-collisions.md)
-+ [Domande frequenti sull'implementazione di Analytics](faq.md)
++ [Domande frequenti sull&#39;implementazione di Analytics](faq.md)
 + Preparare l’implementazione di {#prepare}
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
    + [Creare un livello di dati](prepare/data-layer.md)
    + [Scegliere un metodo di implementazione](c-implementation-methods/choose-implementation-method.md)
-+ [Introduzione all'implementazione di Analytics](c-get-started-implementation/t-analytics-implementation-get-started.md)
++ [Introduzione all&#39;implementazione di Analytics](c-get-started-implementation/t-analytics-implementation-get-started.md)
 + Implementazione di Analytics con Adobe Experience Platform Launch {#implement-with-launch}
    + [Creare una proprietà Analytics in Experience Platform Launch](implement-with-launch/create-analytics-property.md)
-   + [Distribuire un'implementazione in un ambiente di sviluppo](implement-with-launch/deploy-dev.md)
-   + [Convalidare un'implementazione di sviluppo e pubblicare in produzione](implement-with-launch/validate-publish-prod.md)
+   + [Distribuire un&#39;implementazione in un ambiente di sviluppo](implement-with-launch/deploy-dev.md)
+   + [Convalidare un&#39;implementazione di sviluppo e pubblicare in produzione](implement-with-launch/validate-publish-prod.md)
 + Implementare Analytics con DTM {#implement-analytics-with-dtm}
-   + [Panoramica sull'implementazione della Dynamic Tag Management](c-implement-with-dtm/dtm-implementation-overview.md)
+   + [Panoramica sull&#39;implementazione della Dynamic Tag Management](c-implement-with-dtm/dtm-implementation-overview.md)
    + [Creare proprietà Web](c-implement-with-dtm/t-create-web-property.md)
    + [Configurare le opzioni di hosting](c-implement-with-dtm/t-configure-hosting.md)
    + Intestazioni e piè di pagina {#headers-footers}
@@ -95,7 +95,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Verificare le regole non pubblicate per hosting Akamai](c-implement-with-dtm/c-rules/t-test-rules-akamai.md)
       + [Regole di test per download o FTP della libreria](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
 + Implementazione di Analytics tramite JavaScript {#javascript-implementation}
-   + [Panoramica sull'implementazione JavaScript](js-implementation/javascript-implementation-overview.md)
+   + [Panoramica sull&#39;implementazione JavaScript](js-implementation/javascript-implementation-overview.md)
    + [Esempio di codice della pagina e configurazione globale](js-implementation/appmeasure-mjs-pagecode.md)
    + AppMeasurement per JavaScript {#appmeasurement-js}
       + [Informazioni su AppMeasurement per JavaScript](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
@@ -136,7 +136,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
          + [s.trackInlineStats](js-implementation/c-variables/config-vars/s-trackinlinestats.md)
          + [s.linkDownloadFileTypes](js-implementation/c-variables/config-vars/s-linkdownldftype.md)
          + [s.linkInternalFilters](js-implementation/c-variables/config-vars/s-trackintfilters.md)
-         + [s.linkLeftQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
+         + [s.linkLeaveQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
          + [s.linkTrackVars](js-implementation/c-variables/config-vars/s-linktrackvars.md)
          + [s.linkExternalFilters](js-implementation/c-variables/config-vars/s-linkextfilters.md)
          + [s.useBeacon](js-implementation/c-variables/config-vars/s-usebeacon.md)
@@ -144,7 +144,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
          + [s.useForcedLinkTracking](js-implementation/c-variables/config-vars/s-useforcedlinktracking.md)
          + [s.linkType](js-implementation/c-variables/config-vars/s-linktype.md)
          + [s.linkName](js-implementation/c-variables/config-vars/s-linkname.md)
-         + [s.forzatoLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
+         + [s.forcedLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
          + [s.linkTrackEvents](js-implementation/c-variables/config-vars/s-linktrackevents.md)
          + [s.linkURL](js-implementation/c-variables/config-vars/s-linkurl.md)
          + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)
@@ -156,7 +156,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
          + [browserWidth](js-implementation/page-variables/browserwidth.md)
          + [campagna](js-implementation/page-variables/campaign.md)
          + [channel](js-implementation/page-variables/channel.md)
-         + [colorimetria](js-implementation/page-variables/colordepth.md)
+         + [colordepth](js-implementation/page-variables/colordepth.md)
          + [connectionType](js-implementation/page-variables/connectiontype.md)
          + [cookiesEnabled](js-implementation/page-variables/cookiesenabled.md)
          + [dc](js-implementation/page-variables/dc.md)
@@ -216,7 +216,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Errori comuni](js-implementation/data-collection/common-errors.md)
       + [Raccogliere dati dagli elementi modulo](js-implementation/data-collection/data-elements.md)
       + [Tracciare diversi tipi di implementazione](js-implementation/data-collection/impl-tupes.md)
-      + [Linee guida sull'implementazione](js-implementation/data-collection/impl-guideliens.md)
+      + [Linee guida sull&#39;implementazione](js-implementation/data-collection/impl-guideliens.md)
       + [Esempio di implementazione](js-implementation/data-collection/impl-examples.md)
       + [Applicazioni Rich Media per AJAX](js-implementation/data-collection/impl-media-ajax.md)
       + [Implementazione con AJAX](js-implementation/data-collection/impl-ajax.md)
@@ -263,6 +263,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [ID visitatore Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Metodi di fallback ID](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificare i dispositivi mobili](js-implementation/c-unique-visitors/visid-mobile.md)
+      + [Browser e cookie di Analytics](js-implementation/c-unique-visitors/cookie-changes.md)
    + [Servizi di base di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + Identificazione dei visitatori tra i dispositivi {#cross-device-visitor-id}
       + [Connettere gli utenti tra i dispositivi](js-implementation/xdevice-visid/xdevice-connecting.md)
@@ -286,8 +287,8 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Sostituzione del codice di Analytics](impl-testing/impl-troubleshooting/impl-update-code.md)
       + [Errori comuni di sintassi](impl-testing/impl-troubleshooting/impl-syntax-troubleshooting.md)
    + [Vulnerabilità scanner](impl-testing/vulnerability-scanner.md)
-   + Ottimizzazione dell'implementazione {#optimize-implementation}
-      + [Panoramica sull'ottimizzazione](impl-testing/c-optimize/impl-optimization.md)
+   + Ottimizzazione dell&#39;implementazione {#optimize-implementation}
+      + [Panoramica sull&#39;ottimizzazione](impl-testing/c-optimize/impl-optimization.md)
       + [Denominazione delle pagine](impl-testing/c-optimize/page-naming.md)
       + [Strategie di denominazione delle pagine](impl-testing/c-optimize/page-naming-strategies.md)
       + [Lunghezza della variabile](impl-testing/c-optimize/var-length.md)
