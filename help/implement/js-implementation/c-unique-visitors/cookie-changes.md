@@ -3,7 +3,7 @@ description: Cookie di Analytics
 title: Domande frequenti sui cookie di browser e analisi
 uuid: null
 translation-type: tm+mt
-source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
+source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 ---
 
@@ -71,7 +71,7 @@ Per i browser che Google ha identificato come la gestione errata dei cookie quan
 La tabella seguente riepiloga i cookie di Analytics:
 
 
-![Tabella dei cookie di Analytics](assets/cookie_table.png)
+![Tabella dei cookie di Analytics](assets/cookietable.png)
 
 
 ## Qual è il modo migliore per preparare il mio sito per le modifiche Chrome, Firefox ed Edge?
