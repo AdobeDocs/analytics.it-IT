@@ -5,12 +5,56 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ---
 
 
 # Scopri le novità di Analysis Workspace
+
+## Gennaio 2020
+
+Nuova funzionalità rilasciata il 16 gennaio 2020.
+
+| Funzione | Descrizione |
+|--- |--- |
+| [Generatore tabella a forma libera](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Con il Generatore di tabelle abilitato, puoi trascinare e rilasciare più dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a esigenze aziendali più complesse. I dati non verranno aggiornati immediatamente. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Questa funzione offre inoltre:<ul><li>**Anteprima**: Puoi visualizzare in anteprima il formato di una tabella prima di trascorrere del tempo a eseguire il rendering dei dati reali.</li><li>**Impostazioni di riga flessibile e raggruppamento**: Puoi impostare i livelli di riga e raggruppamento per ogni riga delle dimensioni. In precedenza, Workspace impostava valori predefiniti che non potevano essere modificati fino a quando non venivano restituiti i dati.</li><li>**Raggruppamento per posizione**: Puoi impostare le righe delle dimensioni in modo da effettuare sempre il _raggruppamento per posizione_ anziché _per elemento specifico_ (impostazione predefinita).</li><li>**Ordinamento manuale delle righe statiche**: Puoi ordinare manualmente le righe statiche in modo che vengano visualizzate esattamente come necessario. In precedenza, le righe statiche potevano essere ordinate solo in base a una colonna metrica o in ordine alfabetico.</li></ul> |
+
+## ottobre 2019
+
+Miglioramenti rilasciati il 10 ottobre 2019.
+
+| Miglioramento | Descrizione |
+|--- |--- |
+| Aggiornamento dei totali delle tabelle a forma libera | Le tabelle a forma libera ora includono due totali, uno **[!UICONTROL Table total]**e**[!UICONTROL Grand total]**. Il conteggio delle righe totali della tabella tiene ora conto i [filtri dei report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) applicati. Precedentemente, solo la segmentazione interessava i totali. [Ulteriori](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>informazioniInoltre, **[!UICONTROL Show Totals]**sono state aggiunte**[!UICONTROL Show Grand Total]** opzioni e opzioni a **[!UICONTROL Column Settings]**.<br/>Con questa modifica ai totali a forma libera, le visualizzazioni dipendenti verranno aggiornate (ad es.**[!UICONTROL Summary Number]** visualizzazioni collegate), nonché i dati CSV e PDF esportati. |
+| Opzione per rimuovere Non specificato/Nessuno | La possibilità di rimuovere facilmente “Non specificato (Nessuno)” è stata aggiunta come opzione per segnalare i filtri. |
+| Deprecazione dei componenti di granularità viola | I componenti tempo per granularità di colore viola (Minuto, Ora, Giorno, Settimana, Mese, Trimestre, Anno) sono stati resi obsoleti. I componenti tempo viola si sono sempre comportati esattamente come le loro controparti di colore arancione relativi alle dimensioni, pertanto questa modifica semplificherà l’esperienza. **Non è necessario eseguire alcuna azione** se in precedenza è stato utilizzato uno dei componenti tempo viola.<br/>Con questa modifica, anche la sezione viola **[!UICONTROL Time]**è stata rinominata in**[!UICONTROL Date Ranges]**. |
+
+## agosto 2019
+
+Miglioramento rilasciato l&#39;8 agosto 2019.
+
+| Miglioramento | Descrizione |
+|--- |--- |
+| limite di elementi per filtro a discesa aumentato da 50 a 200 | Il limite di elementi che possono essere inseriti in un filtro a discesa è stato aumentato da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
+
+## Luglio 2019
+
+Miglioramenti rilasciati il 18 luglio 2019.
+
+| Miglioramento | Descrizione |
+|--- |--- |
+| Miglioramenti dell’analisi per coorte | Sono state aggiunte nuove [impostazioni di Analisi per coorte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html): <ul><li>Only show percent (Mostra solo percentuale)</li><li>Round percent to nearest whole (Arrotonda percentuale a intero più prossimo)</li><li>Show average percent row (Mostra riga di media percentuale)</li></ul> |
+| Mostra elementi degli ultimi 18 mesi | Nella barra a sinistra, gli utenti ora possono _visualizzare gli elementi degli ultimi 18 mesi_. In precedenza, il periodo di lookback era limitato a 6 mesi. Questo semplifica il confronto con pagine o campagne dell’anno prima, fino a 18 mesi fa. |
+| Nuovo modello Analysis Workspace | In Analysis Workspace è stato aggiunto il nuovo modello [“Magento: Marketing e commerce”](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). È progettato appositamente per i clienti e-commerce di Magento, ma può essere usato da chiunque desideri ottenere informazioni specifiche sulle proprie attività di e-commerce. |
+
+## Giugno 2019
+
+Miglioramento rilasciato il 13 giugno 2019.
+
+| Miglioramento | Descrizione |
+|--- |--- |
+| Nuovi filtri out-of-the-box | Alla barra di ricerca di sinistra sono stati aggiunti dei nuovi filtri pronti all’uso. Oltre a quelli già disponibili (Dimensioni, Metriche, Approvato, ecc.), sono stati aggiunti nuovi filtri come Metriche calcolate, Attributi cliente, eVar, Prop, Video e così via per facilitare la ricerca dei componenti necessari. |
 
 ## Maggio 2019
 
