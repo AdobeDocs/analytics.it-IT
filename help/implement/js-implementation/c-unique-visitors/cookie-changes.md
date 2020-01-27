@@ -3,7 +3,7 @@ description: Cookie di Analytics
 title: Domande frequenti sui cookie di browser e analisi
 uuid: null
 translation-type: tm+mt
-source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
+source-git-commit: b25c052dee5ee22ca009cbe43356007210a06d19
 
 ---
 
@@ -34,7 +34,7 @@ I cookie di prime parti vengono creati dai siti Web dei clienti (specifici per i
 
 I cookie di terze parti non vengono creati dai siti Web visitati dagli utenti. Sebbene i browser trattino tutti i cookie di terze parti allo stesso modo e li memorizzino di conseguenza, i cookie di terze parti stessi possono comportarsi in modi diversi e importanti. Con l’implementazione di cookie di terze parti di Analytics da parte del cliente, il cliente effettua chiamate solo ad Adobe e non a domini di terze parti sconosciuti o sospetti. Questo è il metodo corrente per implementare Analytics per un tracciamento sicuro (HTTPS) e affidabile con identificatori persistenti. Questo metodo viene implementato configurando il file AppMeasurement.js. Per ulteriori informazioni, consulta [Cookie e il servizio](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Experience Platform Identity.
 
-![Differenze tra cookie](assets/cookieimage.PNG)
+![](assets/cookies2.png)
 
 ## In che modo i browser memorizzano e gestiscono attualmente i cookie di Analytics?
 
@@ -70,9 +70,7 @@ Per i browser che Google ha identificato come la gestione errata dei cookie quan
 
 La tabella seguente riepiloga i cookie di Analytics:
 
-
-![Tabella dei cookie di Analytics](assets/cookietable.png)
-
+![](assets/cookies1.png)
 
 ## Qual è il modo migliore per preparare il mio sito per le modifiche Chrome, Firefox ed Edge?
 
