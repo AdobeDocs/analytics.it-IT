@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
 
 ---
 
@@ -232,7 +232,20 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Risoluzione dei problemi e Procedure consigliate per Report Builder](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Panoramica di Activity Map](activity-map/activity-map.md)
+   + introduzione {#getting-started}
+      + Introduzione per gli amministratori {#get-started-admins}
+         + [Abilitare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [Esempio di codice di implementazione](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+      + Introduzione per gli utenti {#get-started-users}
+         + [Installazione dei plug-in di Activity Map nel browser](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+         + [Avviare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [Tracciamento solido dei collegamenti](activity-map/lnk-tracking-overview.md)
+   + Tracciamento dei collegamenti {#link-tracking}
+      + [Metodologia di tracciamento dei collegamenti](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
+      + [Domande frequenti sul tracciamento dei collegamenti](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [Interrompere il tracciamento dei collegamenti](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
+      + [Utilizzare la funzione s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Modalità standard e modalità Live](activity-map/activitymap-standard-live.md)
    + [Rapporto dei collegamenti](activity-map/activitymap-links-report.md)
    + [Dettagli pagina](activity-map/activitymap-page-flow.md)
@@ -244,20 +257,6 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Esportare in file CSV](activity-map/activitymap-csv.md)
    + [Sistemi e requisiti supportati](activity-map/activitymap-sysreqs.md)
    + [Domande frequenti su Activity Map](activity-map/activitymap-faq.md)
-   + introduzione {#getting-started}
-      + Introduzione per gli amministratori {#get-started-admins}
-         + [Abilitare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Esempio di codice di implementazione](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + Introduzione per gli utenti {#get-started-users}
-         + [Installazione dei plug-in di Activity Map nel browser](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Avviare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-   + Tracciamento dei collegamenti {#link-tracking}
-      + [Metodologia di tracciamento dei collegamenti](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [Domande frequenti sul tracciamento dei collegamenti](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [Avviare il tracciamento dei collegamenti](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
-      + [Interrompere il tracciamento dei collegamenti](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [Utilizzare la funzione s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Configurare le impostazioni di Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interfaccia utente di Activity Map](activity-map/activitymap-user-interface.md)
    + [Generazione di rapporti Activity Map in Analytics](activity-map/activitymap-reporting-analytics.md)
