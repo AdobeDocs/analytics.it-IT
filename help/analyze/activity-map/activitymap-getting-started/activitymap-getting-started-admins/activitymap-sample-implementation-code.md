@@ -4,14 +4,14 @@ title: Esempio di codice di implementazione
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
 
 # Sample implementation code{#sample-implementation-code}
 
-## Esempio di file AppMeasurement.js {#section_CD6E603EB41141E587B71E138FE99F52}
+## Esempio di file AppMeasurement.js
 
 Di seguito è riportato un esempio di come la libreria AppMeasurement e il modulo Activity Map sono combinati nel [!DNL AppMeasurement.js] file.
 
