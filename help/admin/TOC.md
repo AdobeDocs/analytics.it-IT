@@ -4,15 +4,15 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
 
 # Guida dell’amministratore di Analytics {#admin}
 
-+ [Aiuto per l'amministratore di Analytics](home.md)
-+ Panoramica dell'amministrazione di Analytics {#admin-overview}
++ [Aiuto per l&#39;amministratore di Analytics](home.md)
++ Panoramica dell&#39;amministrazione di Analytics {#admin-overview}
    + [Quale strumento Adobe Analytics usare?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Requisiti e confronto dei prodotti Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
 + [Requisiti di sistema](c-system-requirements/sys-reqs.md)
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Conversion Variables (Variabili di conversione) (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modificare le variabili di conversione](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificazioni di conversione](admin/conversion-var-admin/conversion-classifications.md)
+      + [Elenca le variabili](admin/conversion-var-admin/list-var-admin.md)
    + [Codici valuta](admin/currency.md)
    + [Descrizioni report personalizzati](admin/custom-desc-admin.md)
    + [Personalizza calendario](admin/custom-calendar.md)
@@ -59,19 +60,19 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
          + [Visualizzare le regole di elaborazione attive](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Visualizzare la cronologia delle regole di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
          + [Ripristinare le regole di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-         + [Copiare le regole di elaborazione in un'altra suite di rapporti](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+         + [Copiare le regole di elaborazione in un&#39;altra suite di rapporti](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
       + [Dimensioni disponibili per le regole di elaborazione](admin/c-processing-rules/processing-rule-dimensions.md)
       + Regole di elaborazione, esempi {#processing-rules-examples}
          + [Esempi di regole di elaborazione](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
          + [Compilare un ID campagna da un parametro di stringa query](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [Impostare l'evento di visualizzazione prodotto dalla pagina di panoramica prodotto](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+         + [Impostare l&#39;evento di visualizzazione prodotto dalla pagina di panoramica prodotto](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [Aggiungere una sottocategoria concatenando la categoria e il nome della pagina](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [Determinare un percorso copiando un valore eVar in un prop](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [Pulizia dei valori in un rapporto](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
          + [Compilare termini di ricerca interni utilizzando un parametro di stringa query](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
          + [Copiare una variabile di dati di contesto in una eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
          + [Impostare un evento utilizzando una variabile di dati di contesto](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [Rimozione di un evento da un'occorrenza](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+         + [Rimozione di un evento da un&#39;occorrenza](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [Suggerimenti e trucchi per le regole di elaborazione](admin/c-processing-rules/processing-rules-tips.md)
    + Rapporti in tempo reale {#real-time-reports}
       + [Panoramica rapporti in tempo reale](admin/realtime/realtime.md)
@@ -79,12 +80,12 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Metriche e dimensioni in tempo reale supportate](admin/realtime/realtime-metrics.md)
    + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
    + Inoltro lato server {#server-side-forwarding}
-      + [Panoramica sull'inoltro lato server](admin/c-server-side-forwarding/ssf.md)
+      + [Panoramica sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf.md)
       + [Conformità GDPR/ePrivacy e inoltro lato server](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Requisiti per l'inoltro lato server](admin/c-server-side-forwarding/ssf-requirements.md)
+      + [Requisiti per l&#39;inoltro lato server](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Dati inoltri lato server e riferimento al codice](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Verificare l'implementazione lato server](admin/c-server-side-forwarding/ssf-verify.md)
-      + [Domande frequenti sull'inoltro lato server](admin/c-server-side-forwarding/ssf-faq.md)
+      + [Verificare l&#39;implementazione lato server](admin/c-server-side-forwarding/ssf-verify.md)
+      + [Domande frequenti sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf-faq.md)
    + [Menu dei rapporti semplificati](admin/t-simplified-menu.md)
    + [Gestione social](admin/social-management.md)
    + Eventi di successo {#success-events}
@@ -106,7 +107,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Aiuto per il profilo prodotto](admin-console/permissions/product-profile.md)
       + [Autorizzazione degli elementi per gli strumenti della suite di rapporti](admin-console/permissions/report-suite-tools.md)
       + [Autorizzazioni degli strumenti di Analytics](admin-console/permissions/analytics-tools.md)
-   + [Prima guida dell'amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Prima guida dell&#39;amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
    + [Creare una suite di rapporti](admin-console/create-report-suite.md)
 + Impostazioni aziendali {#company-settings}
    + [Panoramica delle impostazioni aziendali](company/c-company-settings.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [Co-branding](company/co-branding-admin.md)
    + [Nascondere suite di rapporti](company/c-hide-report-suites.md)
    + [Sicurezza Manager](company/security-manager.md)
-   + [Fine del ciclo di vita per l'applicazione delle restrizioni di accesso IP](company/login-restrictions-eol.md)
+   + [Fine di &quot;Applica restrizioni di accesso IP&quot;](company/login-restrictions-eol.md)
 + Gestione suite di rapporti {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Suite di rapporti rollup e globali](c-manage-report-suites/rollup-report-suite.md)
@@ -139,7 +140,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + New Report Suite (Nuova suite di rapporti) {#new-report-suite}
       + [Creare una suite di rapporti](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
       + [Nuova suite di rapporti: impostazioni](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [Impostazioni non copiate da un'origine di rapporti](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + [Impostazioni non copiate da un&#39;origine di rapporti](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [Creare un gruppo suite di rapporti](c-manage-report-suites/t-create-rs-group.md)
 + Gestione di utenti e prodotti (Legacy) {#user-product-management}
    + [Gestione di utenti e prodotti](user-management2/user-management.md)
@@ -148,7 +149,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Panoramica sulla gestione utente](user-management2/c-user-management/users.md)
       + [Aggiungere un account utente](user-management2/c-user-management/t-add-user-account.md)
       + [Modifiche alle autorizzazioni Utente e Gruppo](user-management2/c-user-management/permissions-changes.md)
-      + [Trasferimento elementi dell'account utente](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
+      + [Trasferimento elementi dell&#39;account utente](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [Aggiungere un utente a un gruppo](user-management2/c-user-management/t-add-user-to-group.md)
       + Migrazione degli utenti ad Adobe Admin Console {#migrate-users}
          + [Migrazione degli utenti di Analytics all’Admin Console](user-management2/user-migration/c-migration-tool.md)
@@ -160,7 +161,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + Gruppi utente {#user-groups}
       + [Aggiungere un gruppo utenti](user-management2/c-user-groups/t-user-group.md)
       + [Impostazioni gruppo utenti](user-management2/c-user-groups/groups.md)
-   + Personalizzare l'accesso ai rapporti {#customize-report-access}
+   + Personalizzare l&#39;accesso ai rapporti {#customize-report-access}
       + [Panoramica di personalizzazione accesso ai rapporti](user-management2/c-customize-report-access/groups-customize-report-access.md)
       + [Personalizzare le autorizzazioni degli strumenti di Analytics](user-management2/c-customize-report-access/groups-analytics-tools.md)
       + [Personalizzare le autorizzazioni degli strumenti delle suite di rapporti](user-management2/c-customize-report-access/groups-report-suite-tools.md)
@@ -184,11 +185,11 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [Terminologia sulla privacy dei dati](c-data-governance/gdpr-terminology.md)
    + [Variabili per la generazione di rapporti sulla privacy](c-data-governance/consent-variables.md)
 + Utilizzo delle chiamate server {#server-call-usage}
-   + [Panoramica sull'utilizzo delle chiamate server](c-server-call-usage/overage-overview.md)
-   + [Visualizzazione dell'utilizzo della chiamata server corrente](c-server-call-usage/server-call-usage-dashboard.md)
-   + [Visualizzazione dell'utilizzo della suite di rapporti](c-server-call-usage/report-suite-usage.md)
+   + [Panoramica sull&#39;utilizzo delle chiamate server](c-server-call-usage/overage-overview.md)
+   + [Visualizzazione dell&#39;utilizzo della chiamata server corrente](c-server-call-usage/server-call-usage-dashboard.md)
+   + [Visualizzazione dell&#39;utilizzo della suite di rapporti](c-server-call-usage/report-suite-usage.md)
    + [Avvisi di utilizzo delle chiamate server](c-server-call-usage/scu-alerts.md)
-   + [Domande frequenti sull'utilizzo delle chiamate server](c-server-call-usage/overage-faq.md)
+   + [Domande frequenti sull&#39;utilizzo delle chiamate server](c-server-call-usage/overage-faq.md)
 + Gestione traffico {#traffic-management}
    + [Gestione del traffico](c-traffic-management/traffic-management.md)
    + [Pianificare un picco di traffico](c-traffic-management/t-traffic-schedule-spike.md)
