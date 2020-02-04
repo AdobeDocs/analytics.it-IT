@@ -3,7 +3,7 @@ description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaS
 title: Codice plug-in di Analytics
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
