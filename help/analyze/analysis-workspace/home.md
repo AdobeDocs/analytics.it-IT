@@ -5,7 +5,7 @@ title: Guida introduttiva
 topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -16,7 +16,7 @@ Analysis Workspace è uno degli strumenti principali di Adobe che consente di pr
 
 ## Prerequisiti
 
-[Invia dati ad Adobe Analytics tramite Adobe Experience Platform Launch](/help/implement/implement-with-launch/validate-publish-prod.md): l’utilizzo di Analysis Workspace richiede un’implementazione funzionante. Prima di utilizzare lo strumento, è necessario assicurarsi che l’organizzazione invii dati ad Adobe. Possono funzionare anche altre implementazioni, come DTM o implementazioni manuali precedenti.
+[Invia dati ad Adobe Analytics tramite Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): l’utilizzo di Analysis Workspace richiede un’implementazione funzionante. Prima di utilizzare lo strumento, è necessario assicurarsi che l’organizzazione invii dati ad Adobe. Possono funzionare anche altre implementazioni, come DTM o implementazioni manuali precedenti.
 
 ## Recuperare un report classifica di base in Workspace
 
@@ -30,7 +30,7 @@ Recupera un report classifica di base utilizzando Analysis Workspace. Un report 
 6. A sinistra appare un elenco di dimensioni, metriche, segmenti e intervalli di date. Individua la dimensione Pages (Pagine) (di colore arancione) e trascinala sull’area di lavoro dove è indicato “Drop a Dimension Here” (Rilascia qui una dimensione).
 7. Se la suite di rapporti contiene dati, è possibile visualizzare un report che mostra le pagine principali del mese in corso. Analysis Workspace ha popolato automaticamente il report con la metrica [Occorrenze](/help/components/c-variables/c-metrics/metrics-occurrences.md).
 8. Individua la metrica Visite (di colore verde) e trascinala **sopra** o **accanto** all’intestazione della metrica Occorrenze (evita di posizionarla al di sopra della metrica). Se trascini la metrica Visite al di sopra di Occorrenze, la metrica viene sostituita durante la generazione del report. Se trascini la metrica Visite accanto a Occorrenze, entrambe le metriche vengono visualizzate una accanto all’altra.
-9. Per salvare il progetto, fai clic su *[!UICONTROL Project] &gt; [!UICONTROL Save]* nel menu in alto a sinistra.
+9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
 
 ## Recuperare un report con tendenze di base in Workspace
 
@@ -46,13 +46,13 @@ Recupera un report con tendenze di base utilizzando Analysis Workspace. Un repor
 8. Individua l’intervallo di data “Week” (Settimana) (di colore viola) nell’elenco dei componenti dell’intervallo di date a sinistra. Fai clic sul titolo dell’intervallo di date per espandere e visualizzare tutti i componenti dell’intervallo di date, oppure utilizza la barra di ricerca.
 9. Trascina l’intervallo di date “Week” (Settimana) sopra l’intestazione dell’intervallo di date “Day” (Giorno) nell’area di lavoro per sostituirlo.
 10. Il report con tendenze ora è aggregato per settimana anziché per giorno.
-11. Per salvare il progetto, fai clic su *[!UICONTROL Project] &gt; [!UICONTROL Save]* nel menu in alto a sinistra.
+11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
 
 ## Esercitarsi con lo strumento
 
 Poiché Analysis Workspace è uno strumento di reporting, non ha alcun impatto sulla raccolta dei dati. Non ci saranno ripercussioni in seguito al trascinamento di componenti all’interno di un progetto per scoprire come funziona lo strumento. Trascina nel progetto Workspace diverse combinazioni di dimensioni e metriche per scoprire quali sono le opzioni disponibili.
 
-Se trascini accidentalmente un componente non valido nel progetto Workspace o desideri tornare indietro di un passo, premi Ctrl+Z (Windows) o Comando+Z (Mac) per annullare l’ultima azione eseguita. È anche possibile iniziare con un’area di lavoro pulita facendo clic su *[!UICONTROL Project] &gt; [!UICONTROL New]* nel menu in alto a sinistra.
+Se trascini accidentalmente un componente non valido nel progetto Workspace o desideri tornare indietro di un passo, premi Ctrl+Z (Windows) o Comando+Z (Mac) per annullare l’ultima azione eseguita. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
 
 ## Risoluzione dei problemi
 
@@ -73,7 +73,7 @@ Se crei correttamente un report Workspace ma non sono presenti dati, puoi contro
 
 * [Note sulla versione di Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): leggi le funzioni più recenti introdotte nello strumento.
 * [Analysis Workspace su YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): scopri come utilizzare la maggior parte delle funzioni di Analysis Workspace tramite questa ampia playlist.
-* Suggerimenti interni ai prodotti: i suggerimenti della giornata, oltre a brevi video, vengono visualizzati occasionalmente nell’angolo inferiore destro di Analysis Workspace. Se questi suggerimenti vengono chiusi, possono essere recuperati in qualsiasi momento andando su *[!UICONTROL Help] &gt; [!UICONTROL Tips]*.
+* Suggerimenti interni ai prodotti: i suggerimenti della giornata, oltre a brevi video, vengono visualizzati occasionalmente nell’angolo inferiore destro di Analysis Workspace. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
 * [Community di Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): discuti di Analysis Workspace con altri utenti e vota le funzioni che vorresti vedere nello strumento.
 * Post sul blog:
    * [Un’analisi più intelligente per dare più strumenti alle aziende](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
