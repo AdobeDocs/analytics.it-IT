@@ -2,7 +2,7 @@
 title: ' addProductEvar'
 description: Aggiunge eVar di merchandising alla variabile products.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: d73ba14ac217ad6a46c16a29b4e19b265573fdda
 
 ---
 
@@ -23,7 +23,10 @@ Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug
 1. Fate clic sulla proprietà desiderata.
 1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
 1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
-1. Per qualsiasi regola di avvio in cui desiderate utilizzare il plug-in, aggiungete un’azione con la seguente configurazione:
+1. Se non lo avete già fatto, create una nuova regola di avvio denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+   * Condizione: None
+   * Evento: Core - Libreria caricata (Page Top)
+1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
    * Estensione: Plug-in comuni di Analytics
    * Tipo azione: Initialize addProductEvar
 1. Salvataggio e pubblicazione delle modifiche alla regola
