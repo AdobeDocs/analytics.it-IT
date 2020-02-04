@@ -1,105 +1,35 @@
 ---
-description: AppMeasurement per i plug-in JavaScript sono programmi o funzioni che eseguono diverse funzioni avanzate.
-keywords: Analytics Implementation
-subtopic: Plug-ins
-title: Utilizzare i plug-in di implementazione
-topic: Developer and implementation
-uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
+title: Panoramica sui plug-in
+description: Incolla il codice sul sito per introdurre nuove funzionalità.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
-# Utilizzare i plug-in di implementazione
+# Panoramica sui plug-in
 
-I plug-in sono frammenti di codice che eseguono diverse funzioni avanzate per facilitare l&#39;implementazione di Analytics.
+I plug-in sono frammenti di codice che eseguono diverse funzioni avanzate per facilitare l&#39;implementazione di Analytics. Questi plug-in estendono le funzionalità del file JavaScript per offrire ulteriori funzionalità non disponibili con un’implementazione di base. Adobe offre molti altri plug-nell’ambito delle soluzioni avanzate.
 
-Questi plug-in estendono le funzionalità del file JavaScript per offrire ulteriori funzionalità non disponibili con un’implementazione di base. Adobe offre molti altri plug-nell’ambito delle soluzioni avanzate. Contatta l’Account Manager per acquisire i dati utilizzando JavaScript, ma non sei sicuro su come procedere.
+> [!IMPORTANT] I plug-in sono forniti da Adobe Consulting per cortesia, al fine di consentirvi di trarre maggior valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questi plug-in, inclusi l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con un plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-I plug-in JavaScript vengono in genere chiamati dalla funzione doPlugins, che viene eseguita quando il `t` metodo viene chiamato in Code to Paste.
+Adobe offre diversi modi per installare un determinato plug-in:
 
-Di conseguenza, se impostate una variabile nella *`doPlugins`*funzione, potete sovrascrivere una variabile impostata nella pagina HTML. L&#39;unica volta che la*`doPlugins`* funzione non viene chiamata è quando la [!UICONTROL usePlugins] variabile è impostata su &#39;false&#39;.
+1. Utilizzo dell&#39;estensione &#39;Common Analytics Plugins&#39; tramite Adobe Experience Platform Launch
+2. Incolla il codice del plug-in utilizzando l&#39;editor di codice personalizzato Launch
+3. Incolla il codice del plug-in nel `AppMeasurement.js` file
 
-## Esempio di codice {#section_6940FD16F2E94753A1C39694D0CF5FBA}
+Ogni organizzazione ha esigenze di implementazione diverse, pertanto puoi decidere come includerle nella tua implementazione. Quando includete il codice nel sito, accertatevi di soddisfare i seguenti criteri:
 
-L&#39;esempio di codice riportato di seguito illustra l&#39;aspetto della *`doPlugins`*funzione nel file JavaScript:
+1. Creare innanzitutto un&#39;istanza dell&#39;oggetto di tracciamento di Analytics (che utilizza `s_gi`).
+   * Avvia crea automaticamente un&#39;istanza dell&#39;oggetto di tracciamento quando Adobe Analytics viene caricato.
+   * Le implementazioni che utilizzano in `AppMeasurement.js` genere inizializzano l&#39;oggetto di tracciamento nella parte superiore del file JavaScript.
+2. Includi codice plug-in secondo.
+   * L&#39;estensione &#39;Common Analytics Plugins&#39; ha una configurazione di azione in cui è possibile inizializzare i plug-in.
+   * Se non desiderate utilizzare il plug-in, potete incollare il codice plug-in nell&#39;editor di codice personalizzato durante la configurazione dell&#39;estensione Analytics.
+   * Se l’implementazione non utilizza Launch, puoi incollare il codice plug-in in ovunque dopo aver creato un’istanza dell’oggetto di tracciamento `AppMeasurement.js` in oggetto.
+3. Chiamate il plug-in terzo.
+   * Tutte le implementazioni, sia all&#39;interno che all&#39;esterno di Launch, utilizzano JavaScript per chiamare i plug-in. Chiamate il plug-in utilizzando il formato documentato nella pagina del plug-in.
+4. Convalidate l’implementazione e pubblicate.
 
-AppMeasurement per JavaScript:
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
-}
-```
-
-Codice H:
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-function s_doPlugins(s) {
- /* Add calls to plug-ins here */
-}
-s.doPlugins=s_doPlugins
-```
-
-> [!NOTE] Il codice H e le versioni precedenti utilizzano una sintassi diversa per supportare alcuni browser molto vecchi (come IE 4 e 5).
-
-## Ridenominazione della funzione doPlugins {#section_70B7D58E057B48058E25907AB3726725}
-
-La *`doPlugins`*funzione viene in genere chiamata*`s_doPlugins`*. In alcune circostanze, (in genere quando più versioni di codice possono essere visualizzate su una sola pagina) il nome della *`doPlugins`*funzione può essere modificato. Se è necessario rinominare la*`doPlugins`* funzione standard per evitare conflitti, assicurarsi che *`doPlugins`*sia assegnato il nome corretto, come illustrato nell&#39;esempio seguente.
-
-```js
-/* Plugin Config */
-s_mc.usePlugins=true
-function s_mc_doPlugins(s_mc) {
- /* Add calls to plug-ins here */
-}
-s_mc.doPlugins=s_mc_doPlugins
-```
-
-## Utilizzo di doPlugins {#section_FA5D901CC5214D54BCD08AB77BED7925}
-
-La *`doPlugins`*funzione fornisce un modo semplice per assegnare valori predefiniti alle variabili o per acquisire valori da qualsiasi[!UICONTROL query string parameters]pagina del sito. L&#39;utilizzo*`doPlugins`* è spesso più semplice che compilare i valori nella pagina HTML, perché è necessario aggiornare solo un file. Tenere presente che le modifiche al file JavaScript non sono sempre immediate. I visitatori del sito spesso utilizzano versioni memorizzate nella cache del file JavaScript. Ciò significa che gli aggiornamenti al file potrebbero non essere applicati a tutti i visitatori per un massimo di un mese dopo la modifica.
-
-L&#39;esempio seguente mostra come è possibile utilizzare la *`doPlugins`*funzione per impostare un valore predefinito per una variabile e ottenere un valore dalla stringa di query.
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
- // if prop1 doesn't have a value, set it to "Default Value"
- if(!s.prop1)
-s.prop1="Default Value"
-
- // if campaign doesn't have a value, get cid from the query string
- if(!s.campaign)
-s.campaign=s.getQueryParam('cid');
-
-// Note: The code to read query parameters is different for
-// Appmeasurement for JavaScript since a plug-in is not required:
-// s.campaign=s.Util.getQueryParam('cid');
-}
-```
-
-## Plug-in installati {#section_C5494347D85940A78670032199787CD0}
-
-Per verificare se un plug-in è incluso nel file JavaScript ed è pronto per l&#39;uso, consultare il [!UICONTROL Plugins Section] file JavaScript. L&#39;esempio seguente mostra la [!UICONTROL getQueryParam] funzione.
-
-```js
-/************************** PLUGINS SECTION *************************/
-/* You may insert any plug-ins you wish to use here.                 */
-/*
- * Plugin: getQueryParam 1.3 - Return query string parameter values
- */
-s.getQueryParam=new Function("qp","d",""
-+"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l"
-//
-// ... more code below ...
-//
-```
-
+Molte organizzazioni chiamano i plug-in utilizzando la [`doPlugins`](../functions/doplugins.md) funzione. Anche se questa funzione non è necessaria, Adobe considera l&#39;utilizzo di questa funzione una procedura consigliata. AppMeasurement chiama questa funzione appena prima di compilare e inviare una richiesta di immagine, il che è ideale in quanto diversi plug-in dipendono da altre variabili Analytics.
