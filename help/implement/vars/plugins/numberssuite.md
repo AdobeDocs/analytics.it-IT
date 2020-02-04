@@ -2,7 +2,7 @@
 title: Suite numeri
 description: Produrre e manipolare i numeri da utilizzare in altre variabili JavaScript.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -25,10 +25,13 @@ Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug
 1. Fate clic sulla proprietà desiderata.
 1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
 1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
-1. Per qualsiasi regola di avvio in cui desiderate utilizzare il plug-in, aggiungete un’azione con la seguente configurazione:
+1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
+   * Condizione: None
+   * Evento: Core - Libreria caricata (Page Top)
+1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
    * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Initialize addProductEvar
-1. Salvataggio e pubblicazione delle modifiche alla regola
+   * Tipo azione: Inizializza suite di numeri
+1. Salvate e pubblicate le modifiche alla regola.
 
 ## Installare il plug-in utilizzando l&#39;editor di codice personalizzato Launch
 
