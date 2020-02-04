@@ -3,8 +3,8 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
+translation-type: tm+mt
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
@@ -26,15 +26,19 @@ source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
       + [Conversioni](ga-to-aa/reports/conversions-reports.md)
    + [Domande frequenti](ga-to-aa/faq.md)
    + [Differenze di elaborazione tra piattaforme](ga-to-aa/processing-differences.md)
-+ [Conservazione dati](data-retention.md)
++ [Conservazione dei dati](data-retention.md)
 + [Latenza](latency.md)
 + [Valore traffico ridotto](low-traffic.md)
 + [Panoramica sulla privacy](privacy-overview.md)
++ [Reindirizzamenti e alias](redirects.md)
 + Raccolta di dati regionali {rdc}
    + [Aiuto per la raccolta dati regionali](rdc/regional-data-collection.md)
    + [Caratteristiche ambientali](rdc/rdc-environment-characteristics.md)
    + [Licenza di certificazione SSL](rdc/ssl-cert-licensing.md)
 + [Termini utilizzati (glossario)](terms.md)
++ [Marca temporale opzionale](timestamps-optional.md)
 + [Risoluzione dei problemi di accesso](troubleshoot-login.md)
 + [Risoluzione dei problemi di disconnessione](troubleshoot-sessions.md)
 + [Non specificato, altro e sconosciuto](unspecified.md)
++ [Identificazione visitatore](visitor-identification.md)
++ [Migrazione dei visitatori](visitor-migration.md)
