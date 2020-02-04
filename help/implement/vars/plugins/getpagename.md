@@ -2,14 +2,14 @@
 title: getPageName
 description: Crea un pageName di facile lettura dal percorso del sito Web corrente.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Plug-in Adobe:getPageName
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come servizio di cortesia per trarre maggior valore dall&#39;utilizzo di Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `getPageName` plug-in crea una versione semplice e intuitiva dell’URL corrente. Adobe consiglia di utilizzare questo plug-in se desiderate un `pageName` valore facile da impostare e comprendere nei rapporti. Questo plug-in non è necessario se disponete già di una struttura di denominazione per la `pageName` variabile, ad esempio attraverso un livello dati. È indicato quando non si dispone di un&#39;altra soluzione per impostare la `pageName` variabile.
 
