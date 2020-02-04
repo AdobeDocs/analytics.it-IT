@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe analytics
+product: analytics
 solution: Analytics
 solution-title: Informazioni e supporto
 solution-hub-url: https://helpx.adobe.com/it/support/analytics.html
@@ -12,7 +12,7 @@ tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
 translation-type: tm+mt
-source-git-commit: 2a304dd963273b43d23d5f39fbc9d4000d893f32
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
