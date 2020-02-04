@@ -2,14 +2,14 @@
 title: inList
 description: Verificare se un valore è contenuto in un altro valore delimitato da caratteri.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Plug-in Adobe:inList
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come servizio di cortesia per trarre maggior valore dall&#39;utilizzo di Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `inList` plug-in consente di verificare se un valore esiste già all&#39;interno di una stringa delimitata o di un oggetto matrice JavaScript. Molti altri plug-in dipendono dal `inList` funzionamento del plug-in. Questo plug-in fornisce un vantaggio distinto rispetto al metodo JavaScript `indexOf()` in cui non corrisponde a stringhe parziali. Ad esempio, se avete utilizzato questo plug-in per verificare la presenza `"event2"`, non corrisponderà a una stringa contenente `"event25"`. Questo plug-in non è necessario se non è necessario verificare la presenza di valori in stringhe o array delimitati o se si desidera utilizzare una propria `indexOf()` logica.
 
