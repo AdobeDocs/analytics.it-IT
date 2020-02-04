@@ -5,18 +5,18 @@ title: Variabili di conversione (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
 
 # Conversion Variables (Variabili di conversione) (eVars)
 
-La variabile di conversione dell'intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
+La variabile di conversione dell&#39;intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l&#39;utente per un periodo di tempo predeterminato.
 
 Quando un eVar viene impostato su un valore per un visitatore, Adobe ricorda automaticamente tale valore fino alla scadenza. Eventuali eventi di successo riscontrati da un visitatore mentre il valore eVar è attivo vengono conteggiati per il valore eVar.
 
-Le eVar vengono utilizzate in modo ottimale per misurare la causa e l'effetto, ad esempio:
+Le eVar vengono utilizzate in modo ottimale per misurare la causa e l&#39;effetto, ad esempio:
 
 * Quali campagne interne hanno influenzato le entrate
 * Quali banner pubblicitari sono risultati in ultima istanza una registrazione
@@ -92,3 +92,22 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
   </tr> 
  </tbody> 
 </table>
+
+**Scadenza**
+
+`eVars` scade dopo un periodo di tempo specificato. Dopo la scadenza dell&#39;eVar, non riceve più credito per gli eventi di successo. Le eVar possono anche essere configurate per scadere in caso di eventi di successo. Ad esempio, se si dispone di una promozione interna che scade al termine di una visita, la promozione interna riceve credito solo per gli acquisti o le registrazioni che si verificano durante la visita in cui sono stati attivati.
+
+Esistono due modi per scadere di un&#39;eVar:
+
+* Potete impostare la scadenza dell&#39;eVar dopo un periodo di tempo o un evento specificato.
+* È possibile utilizzare Forza scadenza di un&#39;eVar, utile per riproporre una variabile.
+
+Se un eVar viene utilizzato in maggio per riflettere le promozioni interne e scade dopo 21 giorni, e in giugno viene utilizzato per acquisire le parole chiave di ricerca interna, il 1 giugno è necessario forzare la scadenza o reimpostare la variabile. In questo modo, i rapporti di giugno consentiranno di mantenere i valori di promozione interni.
+
+**Sensibilità maiuscole/minuscole**
+
+Le eVar non fanno distinzione tra maiuscole e minuscole, ma vengono visualizzate nelle maiuscole della prima occorrenza. Ad esempio, se la prima istanza di eVar1 è impostata su &quot;Accesso&quot;, ma tutte le istanze successive vengono passate come &quot;Accesso&quot;, i rapporti mostrano sempre &quot;Accesso&quot; come valore dell&#39;eVar.
+
+**Contatori**
+
+Sebbene le eVar siano utilizzate più spesso per contenere valori stringa, possono anche essere configurate per fungere da contatori. Le eVar sono utili come contatori quando si tenta di contare il numero di azioni eseguite da un utente prima di un evento. Ad esempio, potete utilizzare un&#39;eVar per acquisire il numero di ricerche interne prima dell&#39;acquisto. Ogni volta che un visitatore effettua una ricerca, l&#39;eVar deve contenere il valore &#39;+1.&#39; Se un visitatore effettua una ricerca quattro volte prima di un acquisto, verrà visualizzata un’istanza per ciascun conteggio totale: 1,00, 2,00, 3,00 e 4,00. Tuttavia, solo la versione 4.00 riceve credito per l&#39;evento di acquisto (Metriche Ordini e Entrate). Solo i numeri positivi sono consentiti come valori di un contatore eVar.
