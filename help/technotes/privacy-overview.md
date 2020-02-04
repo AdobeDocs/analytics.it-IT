@@ -4,14 +4,16 @@ keywords: privacy
 title: Panoramica sulla privacy
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
 
 # Panoramica sulla privacy
 
-Panoramica dei dati raccolti da Adobe Analytics e di altre considerazioni sulla privacy.
+Adobe consiglia di fornire ai visitatori del sito Web informazioni facili da trovare e di facile comprensione sulla possibilità di scegliere di non utilizzare le informazioni di navigazione raccolte da prodotti o servizi Adobe.
+
+I visitatori possono apprendere come Adobe utilizza generalmente le informazioni raccolte nel Centro [per la privacy di](https://www.adobe.com/privacy.html)Adobe. È compito della vostra organizzazione divulgare in che modo utilizzate i prodotti e i servizi Adobe, in quanto la vostra organizzazione controlla esclusivamente come implementare i servizi di Adobe. L&#39;Utente è responsabile della creazione della propria informativa sulla privacy, del rispetto della propria informativa sulla privacy, del rispetto del contratto di servizio con Adobe e del rispetto di tutte le leggi applicabili.
 
 ## Suddivisione raccolta dati {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -35,17 +37,17 @@ Adobe Analytics raccoglie i dati seguenti:
 | Indirizzo IP (utilizzato per approssimare la posizione) | Sì* |
 | Informazioni fornite dai consumatori nei moduli sul sito del cliente | Sì |
 | Informazioni fornite dai consumatori nei moduli sui siti sociali | **No** |
-| Se il consumatore ha fatto clic sull'annuncio | Sì |
+| Se il consumatore ha fatto clic sull&#39;annuncio | Sì |
 | Se il consumatore ha fatto clic su un collegamento, un’immagine o un testo sul sito | Sì |
 | Se il consumatore ha scaricato un file, un’immagine ecc. | Sì |
 | Articoli consumer acquistati | Sì |
 | Oggetti rimasti nel carrello | Sì |
 | Informazioni social network (incluse foto, ID utente, età, genere, luogo) | **No** |
-| Informazioni personali fornite dall'utente al di fuori dei nostri servizi | Sì |
+| Informazioni personali fornite dall&#39;utente al di fuori dei nostri servizi | Sì |
 | Tassi di successo delle campagne pubblicitarie | Sì |
 | Informazioni sul prodotto, ad esempio colori, prezzi, stili, foto | Sì |
 
-*A meno che il cliente Adobe non scelga di rimuovere l'IP.
+*A meno che il cliente Adobe non scelga di rimuovere l&#39;IP.
 
 ## Altre considerazioni sulla privacy {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
