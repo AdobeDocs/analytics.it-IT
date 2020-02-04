@@ -2,14 +2,14 @@
 title: getNewRepeat
 description: Consente di tenere traccia dell’attività dei visitatori nuovi e ripetuti.
 translation-type: tm+mt
-source-git-commit: aa4e1e71b8962fca8c880b9efe2b0a2b8b9e1360
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Plug-in Adobe: getNewRepeat
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come servizio di cortesia per trarre maggior valore dall&#39;utilizzo di Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `getNewRepeat` plug-in consente di determinare se un visitatore del sito è un nuovo visitatore o un altro visitatore entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se desiderate identificare i visitatori come &quot;nuovi&quot; utilizzando un numero personalizzato di giorni. Questo plug-in non è necessario se le dimensioni Nuovo/Ripeti visitatore in Analysis Workspace soddisfano le esigenze aziendali.
 
