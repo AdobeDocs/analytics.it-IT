@@ -2,7 +2,7 @@
 title: eVar
 description: Variabili personalizzate utilizzabili nell’implementazione.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 Se vengono date più di due posizioni decimali, il contatore eVar arrotonda a due posizioni decimali. Un contatore eVar non può contenere numeri negativi.
 
+> [!IMPORTANT] Prima di utilizzare le eVar dei contatori, devi configurare le eVar su &#39;Contatore&#39; nell&#39;Admin Console. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida di amministrazione.
+
 ## Vantaggi esclusivi per proprietà o eVar
 
 Nella versione corrente di Adobe Analytics, prop ed eVar sono entrambe variabili personalizzate con funzionalità simili. Tuttavia, le differenze sono diverse:
@@ -61,4 +63,4 @@ Nella versione corrente di Adobe Analytics, prop ed eVar sono entrambe variabili
 * I dati nelle proprietà sono disponibili nel reporting in pochi minuti. Le eVar possono richiedere fino a 30 minuti per essere visualizzate nel reporting.
 * Le proprietà hanno un limite di 100 byte nei report. Le eVar hanno un limite di 255 byte.
 * Le proprietà possono diventare proprietà elenco, che accettano più valori nello stesso hit. Le variabili elenco sono separate e sono disponibili solo tre variabili elenco.
-* Per impostazione predefinita, le proprietà non persistono oltre l’hit impostato. Le eVar hanno una scadenza personalizzata, che consente di determinare quando un&#39;eVar non ottiene più credito per un evento successivo. Se utilizzate l&#39;elaborazione [del tempo del](../../../components/vrs/vrs-report-time-processing.md)rapporto, sia prop che eVar possono utilizzare qualsiasi modello di attribuzione desiderato.
+* Per impostazione predefinita, le proprietà non persistono oltre l’hit impostato. Le eVar hanno una scadenza personalizzata, che consente di determinare quando un&#39;eVar non ottiene più credito per un evento successivo. Tuttavia, se utilizzate l&#39;elaborazione [del tempo del](../../../components/vrs/vrs-report-time-processing.md)rapporto, sia le prop che le eVar possono utilizzare un modello di attribuzione personalizzato.
