@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Documentation
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -13,14 +13,14 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 * [Home](home.md)
 * [Concetti chiave di Analytics](an-key-concepts.md)
-* [Guida agli strumenti di analisi](../analyze/home.md)
-* [Guida per l&#39;amministratore](../admin/home.md)
-* [Guida ai componenti](../components/home.md)
-* [Guida all&#39;esportazione](../export/home.md)
-* [Guida all&#39;implementazione](../implement/home.md)
-* [Guida all&#39;importazione](../import/home.md)
-* [Guida all&#39;integrazione](../integrate/home.md)
-* [Guida agli appunti](../technotes/home.md)
+* [Guida agli strumenti di analisi](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
+* [Guida per l&#39;amministratore](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
+* [Guida ai componenti](https://docs.adobe.com/content/help/en/analytics/components/home.html)
+* [Guida all&#39;esportazione](https://docs.adobe.com/content/help/en/analytics/export/home.html)
+* [Guida all&#39;implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
+* [Guida all&#39;importazione](https://docs.adobe.com/content/help/en/analytics/import/home.html)
+* [Guida all&#39;integrazione](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Guida agli appunti](https://docs.adobe.com/content/help/en/analytics/technotes/home.html)
 * [Guida all&#39;analisi dei supporti](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Guida di Workbench dati](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
