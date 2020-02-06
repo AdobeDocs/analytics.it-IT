@@ -5,7 +5,7 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -26,9 +26,9 @@ Miglioramenti rilasciati il 10 ottobre 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
-| Aggiornamento dei totali delle tabelle a forma libera | Le tabelle a forma libera ora includono due totali, uno **[!UICONTROL Table total]**e**[!UICONTROL Grand total]**. Il conteggio delle righe totali della tabella tiene ora conto i [filtri dei report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) applicati. Precedentemente, solo la segmentazione interessava i totali. [Ulteriori](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>informazioniInoltre, **[!UICONTROL Show Totals]**sono state aggiunte**[!UICONTROL Show Grand Total]** opzioni e opzioni a **[!UICONTROL Column Settings]**.<br/>Con questa modifica ai totali a forma libera, le visualizzazioni dipendenti verranno aggiornate (ad es.**[!UICONTROL Summary Number]** visualizzazioni collegate), nonché i dati CSV e PDF esportati. |
+| Aggiornamento dei totali delle tabelle a forma libera | Le tabelle a forma libera ora includono due totali, uno **[!UICONTROL Table total]** e **[!UICONTROL Grand total]**. Il conteggio delle righe totali della tabella tiene ora conto i [filtri dei report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) applicati. Precedentemente, solo la segmentazione interessava i totali. [Ulteriori](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>informazioniInoltre, **[!UICONTROL Show Totals]** sono state aggiunte **[!UICONTROL Show Grand Total]** opzioni e opzioni a **[!UICONTROL Column Settings]**.<br/>Con questa modifica ai totali a forma libera, le visualizzazioni dipendenti verranno aggiornate (ad es. **[!UICONTROL Summary Number]** visualizzazioni collegate), nonché i dati CSV e PDF esportati. |
 | Opzione per rimuovere Non specificato/Nessuno | La possibilità di rimuovere facilmente “Non specificato (Nessuno)” è stata aggiunta come opzione per segnalare i filtri. |
-| Deprecazione dei componenti di granularità viola | I componenti tempo per granularità di colore viola (Minuto, Ora, Giorno, Settimana, Mese, Trimestre, Anno) sono stati resi obsoleti. I componenti tempo viola si sono sempre comportati esattamente come le loro controparti di colore arancione relativi alle dimensioni, pertanto questa modifica semplificherà l’esperienza. **Non è necessario eseguire alcuna azione** se in precedenza è stato utilizzato uno dei componenti tempo viola.<br/>Con questa modifica, anche la sezione viola **[!UICONTROL Time]**è stata rinominata in**[!UICONTROL Date Ranges]**. |
+| Deprecazione dei componenti di granularità viola | I componenti tempo per granularità di colore viola (Minuto, Ora, Giorno, Settimana, Mese, Trimestre, Anno) sono stati resi obsoleti. I componenti tempo viola si sono sempre comportati esattamente come le loro controparti di colore arancione relativi alle dimensioni, pertanto questa modifica semplificherà l’esperienza. **Non è necessario eseguire alcuna azione** se in precedenza è stato utilizzato uno dei componenti tempo viola.<br/>Con questa modifica, anche la sezione viola **[!UICONTROL Time]** è stata rinominata in **[!UICONTROL Date Ranges]**. |
 
 ## agosto 2019
 
@@ -584,7 +584,7 @@ Nuove funzionalità rilasciate il 21 settembre 2017.
    <td colname="col2"> <p>Invece di eliminare singolarmente ogni elemento, ora puoi usare il pulsante Clear All (Cancella tutto) per eliminare tutti gli elementi nelle seguenti aree di Workspace: </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > Componenti esclusi da Contribution Analysis (Analisi contributi) </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md"> Componenti esclusi da Segment Comparison (Confronto fra segmenti) </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> Componenti esclusi da Segment Comparison (Confronto fra segmenti) </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -945,7 +945,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
 
 Nuove funzionalità rilasciate il 16 giugno 2016:
 
-* [Nuova autorizzazione](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) di gruppo che consente agli amministratori di consentire o negare l’accesso agli utenti **[!UICONTROL Analytics]**>**[!UICONTROL Workspace]** . Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
+* [Nuova autorizzazione](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) di gruppo che consente agli amministratori di consentire o negare l’accesso agli utenti **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** . Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
 * Il [Pannello Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) rileva le differenze più importanti dal punto di vista statistico tra due segmenti attraverso un’analisi automatizzata di ciascuna metrica e dimensione a cui accedi.
 * [Nuova struttura menu di progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), che ridispone il menu principale e lo rende più estendibile. Ad esempio, la creazione di un **new Cohort Panel** (nuovo pannello coorte) implica la creazione di un pannello vuoto e il trascinamento nella tabella coorte.
 * [Nuova barra a sinistra](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Pannelli, Visualizzazioni, Componenti
@@ -1004,17 +1004,17 @@ Nuove funzionalità rilasciate il 21 gennaio 2016.
 
 Puoi annullare la maggior parte delle azioni effettuate in Analysis Workspace.
 
-Per annullare, fai clic su **[!UICONTROL Undo]**(Annulla) nel menu Azioni.
+Per annullare, fai clic su **[!UICONTROL Undo]** (Annulla) nel menu Azioni.
 
 ![](assets/undo.png)
 
 Per annullare è inoltre possibile utilizzare i [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) standard di Windows e Mac (Ctrl/Comando+Z).
 
-*`Undo`*è un comando particolarmente utile quando si vogliono annullare le analisi nella tabella.
+*`Undo`* è un comando particolarmente utile quando si vogliono annullare le analisi nella tabella.
 
-Azioni *`not`*(non) eseguibili:
+Azioni *`not`* (non) eseguibili:
 
-* Modifica della configurazione [!UICONTROL Cohort Table] (Tabella coorte) (come trascinamento di dati e modifica di valori). Tuttavia, puoi fare clic su **[!UICONTROL Undo]**(Annulla) dopo aver fatto clic su**[!UICONTROL Run]** (Esegui).
+* Modifica della configurazione [!UICONTROL Cohort Table] (Tabella coorte) (come trascinamento di dati e modifica di valori). Tuttavia, puoi fare clic su **[!UICONTROL Undo]** (Annulla) dopo aver fatto clic su **[!UICONTROL Run]** (Esegui).
 
 * Ridimensionamento o spostamento di pannelli e sottopannelli.
 
@@ -1025,7 +1025,7 @@ Azioni che eliminano la cronologia degli annullamenti:
 
 ## Collega a questo progetto {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-In un progetto, fai clic su **[!UICONTROL Link to This Project]**(Collega a questo progetto) nel menu Azioni per inviare ad altri utenti, tramite e-mail, l’URL di un progetto salvato. In questo modo, i destinatari con autorizzazioni di livello amministratore potranno modificare e salvare un progetto condiviso. Diversamente, i progetti sono di sola lettura.
+In un progetto, fai clic su **[!UICONTROL Link to This Project]** (Collega a questo progetto) nel menu Azioni per inviare ad altri utenti, tramite e-mail, l’URL di un progetto salvato. In questo modo, i destinatari con autorizzazioni di livello amministratore potranno modificare e salvare un progetto condiviso. Diversamente, i progetti sono di sola lettura.
 
 ![](assets/link-to-this-project.png)
 
@@ -1061,17 +1061,17 @@ Quando il colore e le dimensioni sono in qualche modo legate con la struttura de
 
 ## Opzione Salva con nome per segmenti, metriche e date {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-Durante la modifica di un segmento esistente (salvato) con il Generatore di segmenti di Analysis Workspace, fai clic su **[!UICONTROL Save As]**(Salva con nome) per creare una copia.
+Durante la modifica di un segmento esistente (salvato) con il Generatore di segmenti di Analysis Workspace, fai clic su **[!UICONTROL Save As]** (Salva con nome) per creare una copia.
 
 ![](assets/segment-save-as.png)
 
 Il nuovo segmento viene visualizzato nel gruppo [!UICONTROL Segments] (Segmenti) nel pannello [!UICONTROL Components] (Componenti).
 
-*`Save As`*(Salva con nome) è disponibile anche per il[!UICONTROL Calculated Metric Builder](Generatore di metrica calcolata) e il[!UICONTROL Date Range Builder](Generatore intervalli di date).
+*`Save As`* (Salva con nome) è disponibile anche per il [!UICONTROL Calculated Metric Builder] (Generatore di metrica calcolata) e il [!UICONTROL Date Range Builder] (Generatore intervalli di date).
 
 ## Pulsante Aggiungi nuovo segmento {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-Il pulsante **[!UICONTROL Add New Segment]**(Aggiungi nuovo segmento) è stato aggiunto nel punto in cui vengono trascinati i segmenti in un progetto.
+Il pulsante **[!UICONTROL Add New Segment]** (Aggiungi nuovo segmento) è stato aggiunto nel punto in cui vengono trascinati i segmenti in un progetto.
 
 ![](assets/add-new-segment.png)
 
@@ -1119,13 +1119,13 @@ Nel pannello dei componenti [!UICONTROL Dimensions] (Dimensioni), puoi passare i
 
 ## Visualizzazione legenda {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-In [!UICONTROL Visualization Settings] (Impostazioni visualizzazione) l’opzione **[!UICONTROL Legend Visible]**(Visualizzazione legenda) mostra o nasconde la legenda della visualizzazione.
+In [!UICONTROL Visualization Settings] (Impostazioni visualizzazione) l’opzione **[!UICONTROL Legend Visible]** (Visualizzazione legenda) mostra o nasconde la legenda della visualizzazione.
 
 ![](assets/legend-visible.png)
 
 ## Ancoraggio asse Y su zero {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-A seconda dei valori specificati per i grafici a linee o area, la parte inferiore dell’asse Y potrebbe non corrispondere a zero. Attivando l’opzione **[!UICONTROL Anchor Y Axis at Zero]**(Ancoraggio asse Y su zero) in[!UICONTROL Visualization Settings](Impostazioni visualizzazione), si forza la corrispondenza a zero dell’asse Y per ottenere una visualizzazione più precisa delle tendenze. Gli esempi che seguono mostrano come un grafico sulle entrate possa variare con questa impostazione abilitata o disabilitata:
+A seconda dei valori specificati per i grafici a linee o area, la parte inferiore dell’asse Y potrebbe non corrispondere a zero. Attivando l’opzione **[!UICONTROL Anchor Y Axis at Zero]** (Ancoraggio asse Y su zero) in [!UICONTROL Visualization Settings] (Impostazioni visualizzazione), si forza la corrispondenza a zero dell’asse Y per ottenere una visualizzazione più precisa delle tendenze. Gli esempi che seguono mostrano come un grafico sulle entrate possa variare con questa impostazione abilitata o disabilitata:
 
 **Opzione Ancoraggio asse Y su zero disattivata**
 
@@ -1143,4 +1143,4 @@ Quando si salva un progetto, il titolo della scheda nel browser verrà visualizz
 
 Gli amministratori possono trasferire i progetti di [!UICONTROL Analysis Workspace] da un utente all’altro.
 
-Navigate to **[!UICONTROL Admin]**>**[!UICONTROL User Management]** > **[!UICONTROL Transfer]**to transfer projects.
+Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** to transfer projects.
