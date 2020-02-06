@@ -2,7 +2,7 @@
 title: tl
 description: Invia una chiamata di tracciamento dei collegamenti ad Adobe.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,11 +18,11 @@ Se `trackDownloadLinks` o `trackExternalLinks` sono abilitati, AppMeasurement ch
 Launch ha una posizione dedicata impostata come chiamata di tracciamento dei collegamenti.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
-4. In [!UICONTROL Actions], fare clic sull&#39;icona &quot;+&quot;
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e su [!UICONTROL Action Type] Invia beacon.
-6. Click the `s.tl()` radio button.
+1. Fate clic sulla proprietà desiderata.
+1. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
+1. In [!UICONTROL Actions], fare clic sull&#39;icona &quot;+&quot;
+1. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e su [!UICONTROL Action Type] Invia beacon.
+1. Click the `s.tl()` radio button.
 
 Non è possibile impostare argomenti facoltativi in Launch.
 
