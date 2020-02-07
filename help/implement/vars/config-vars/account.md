@@ -2,14 +2,14 @@
 title: account
 description: Utilizzate la variabile di account per determinare la suite di rapporti a cui vengono inviati i dati.
 translation-type: tm+mt
-source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
 
 ---
 
 
 # account
 
-> [!IMPORTANT] Questa variabile è ritirata. Utilizzate la [`s.sa()`](../functions/sa.md) funzione se la vostra implementazione richiede che modificate la destinazione della suite di rapporti.
+> [!IMPORTANT] Questa variabile è ritirata. Utilizzate la [`s.sa()`](../functions/sa-method.md) funzione se la vostra implementazione richiede che modificate la destinazione della suite di rapporti.
 
 Nelle versioni precedenti di Adobe Analytics, la `account` variabile determinava la suite di rapporti a cui si desidera inviare i dati. Per inviare dati ad Adobe Analytics è necessario un ID suite di rapporti.
 
