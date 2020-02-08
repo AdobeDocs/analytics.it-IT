@@ -2,7 +2,7 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -33,11 +33,11 @@ L&#39;utilizzo del tipo di dispositivo mobile come illustrato sopra consente di 
 
 Adobe considera gli hit con marca temporale come se fossero stati ricevuti al momento della marca temporale, non come ricevuti da Adobe. Gli hit con marca temporale maggiore di 1 mese non possono essere cuciti, in quanto non rientrano nell’intervallo di tempo, i dati utilizzati da Adobe per le cuciture sono conservati.
 
-**Come si confronta CDA con l’ID visitatore personalizzato?**
+**In che modo CDA si confronta con gli ID visitatore personalizzati?**
 
 [L’ID](/help/implement/vars/config-vars/visitorid.md) visitatore personalizzato è un metodo legacy per [connettere gli utenti tra dispositivi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato, utilizzate la `s.visitorID` variabile per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La `s.visitorID` variabile ha la precedenza sugli ID basati su cookie presenti.
 
-Gli ID visitatore personalizzati hanno una serie di effetti collaterali indesiderati che CDA è progettato per superare o ridurre al minimo. Ad esempio, la metodologia ID visitatore personalizzata non dispone di funzionalità di lookback. Se un utente si autentica nel bel mezzo di una visita, la prima parte della visita associa a un ID visitatore diverso da quello dell’ultima parte della visita. Gli ID visitatore separati generano l’inflazione delle visite e dei visitatori. La finestra di lookback di 30 giorni di CDA consente di tornare indietro nel tempo per riaffermare il comportamento precedente come appartenente alla stessa persona, portando un comportamento cross-device non autenticato insieme a un comportamento cross-device autenticato con un&#39;inflazione zero o minima.
+Gli ID visitatore personalizzati hanno diversi effetti collaterali indesiderati che CDA supera o riduce al minimo. Ad esempio, la metodologia ID visitatore personalizzata non dispone di funzionalità di lookback. Se un utente si autentica nel bel mezzo di una visita, la prima parte della visita associa a un ID visitatore diverso da quello dell’ultima parte della visita. Gli ID visitatore separati generano l’inflazione delle visite e dei visitatori. La finestra di lookback di 30 giorni di CDA consente di tornare indietro nel tempo per riaffermare il comportamento precedente come appartenente alla stessa persona, portando un comportamento cross-device non autenticato insieme a un comportamento cross-device autenticato con un&#39;inflazione zero o minima.
 
 **Posso effettuare l’aggiornamento dall’ID visitatore personalizzato a CDA?**
 
@@ -50,3 +50,28 @@ In alcune situazioni è possibile che più persone accedano dallo stesso disposi
 **In che modo il grafico del dispositivo gestisce le situazioni in cui una singola persona dispone di MOLTI dispositivi/ECID?**
 
 In alcune situazioni, un singolo utente può associarsi a un numero elevato di ECID. Questo può verificarsi se l&#39;individuo utilizza molti browser o app, e può essere esacerbato se spesso cancellano i cookie o utilizzano la modalità di navigazione privata o incognito del browser. Il grafico del dispositivo limita a 200 il numero di ECID associati a un determinato ID utente. Se un ID utente si associa a troppi ECID, il grafico del dispositivo presuppone che l&#39;ID utente non sia valido e rimuove il cluster associato a tale ID utente. L&#39;ID utente verrà quindi inserito in una blacklist per non essere più incluso in futuro. Il risultato in CDA è che il comportamento dell&#39;ID utente non è bloccato su più dispositivi.
+
+**Qual è la differenza tra la metrica &#39;Persone&#39; in CDA e la metrica &#39;Visitatori unici&#39; all&#39;esterno di CDA?**
+
+La metrica &quot;Persone&quot; è simile alla metrica &quot;Visitatori unici&quot; in quanto segnala il numero di individui univoci. Tuttavia, quando si utilizza Analytics tra dispositivi, i visitatori univoci vengono combinati quando altrimenti vengono registrati come due visitatori univoci separati al di fuori di CDA. La metrica &#39;Persone&#39; sostituisce la metrica &#39;Visitatori unici&#39; quando è abilitata l&#39;analisi tra dispositivi.
+
+**Qual è la differenza tra la metrica &quot;Dispositivi univoci&quot; in CDA e la metrica &quot;Visitatori unici&quot; al di fuori di CDA?**
+
+Queste due metriche sono approssimativamente equivalenti tra loro.
+
+**Posso includere le metriche CDA utilizzando l&#39;API 2.0?**
+
+Sì. Analysis Workspace utilizza l’API 2.0 per richiedere dati dai server Adobe e puoi visualizzare le chiamate API che Adobe usa per creare i tuoi rapporti:
+
+1. Effettuando l’accesso ad Analysis Workspace, apri gli strumenti di sviluppo del browser (F12 per la maggior parte dei browser).
+1. Nella console del browser, digitate `adobeTools.showDebugger()`. La pagina viene ricaricata con icone di debug nell’angolo superiore destro di ciascun pannello.
+1. Fate clic sull&#39;icona di debug nel pannello desiderato, quindi selezionate la visualizzazione desiderata e l&#39;ora della richiesta.
+1. Individuate la richiesta JSON, che potete utilizzare nella chiamata API ad Adobe.
+
+**Analytics cross-device può unire visitatori univoci. Può fare visite insieme?**
+
+Sì. Se un singolo utente invia hit da due dispositivi separati entro il timeout di visita della suite di rapporti virtuale (per impostazione predefinita, 30 minuti), viene bloccato nella stessa visita.
+
+**Qual è l’ID visitatore finale utilizzato da CDA? Posso esportarlo da Adobe Analytics?**
+
+Analytics tra dispositivi calcola i dati uniti utilizzando un &quot;ID cluster&quot;. Questo identificatore viene calcolato da Adobe al momento dell&#39;esecuzione del rapporto, noto anche come elaborazione del rapporto. La natura dell&#39;elaborazione del tempo per i report implica che non è compatibile con Data Warehouse, feed di dati o altre funzioni di esportazione offerte da Adobe.
