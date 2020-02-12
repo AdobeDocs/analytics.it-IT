@@ -2,7 +2,7 @@
 title: Report di acquisizione in Adobe Analytics
 description: Scopri come creare rapporti basati sull’acquisizione tramite Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
 
 ---
 
@@ -15,7 +15,7 @@ In Adobe Analytics, questi rapporti sono noti come canali **** marketing. Richie
 
 > [!IMPORTANT]
 >
-> Configurate le regole di elaborazione del canale di marketing per utilizzare questi rapporti. Consultate [Guida introduttiva ai canali](/help/components/c-marketing-channels/c-getting-started-mchannel.md) di marketing per informazioni su come configurare al meglio i canali di marketing nella vostra organizzazione.
+> Configurate le regole di elaborazione del canale di marketing per utilizzare questi rapporti. Consultate [Guida introduttiva ai canali](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) di marketing per informazioni su come configurare al meglio i canali di marketing nella vostra organizzazione.
 
 Questa pagina presuppone che l’utente disponga di conoscenze di base sull’utilizzo di Analysis Workspace. Consultate [Creare un rapporto di base in Analysis Workspace per gli utenti](create-report.md) di Google Analytics se non avete ancora familiarità con lo strumento in Adobe Analytics.
 
