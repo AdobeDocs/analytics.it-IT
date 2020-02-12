@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: ht
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+translation-type: tm+mt
+source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Creare metriche](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Tipo di metrica e attribuzione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Creare una semplice metrica "Visualizzazioni pagina in base alle visite"](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Metriche segmentate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Sovrapponi e sostituisci segmenti](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Metriche filtrate e ponderate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
@@ -69,7 +69,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Cura dei componenti di suite di rapporti virtuali](vrs/vrs-components.md)
    + [Supporto VRS in Mobile Services](vrs/vrs-mobile-services.md)
    + [Adobe Context-Aware Sessions](vrs/vrs-mobile-visit-processing.md)
-   + [Elaborazione dell'ora rapporto](vrs/vrs-report-time-processing.md)
+   + [Elaborazione dell&#39;ora rapporto](vrs/vrs-report-time-processing.md)
    + [Domande frequenti su VRS](vrs/vrs-faq.md)
    + [VRS e considerazioni su tag globali/su più suite](vrs/vrs-considerations.md)
    + Flusso di lavoro VRS {#vrs-workflow}
@@ -153,8 +153,8 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Fedeltà cliente](c-variables/dimensionslist/reports-customer-loyalty.md)
       + [Visite giornaliere di ritorno](c-variables/dimensionslist/reports-daily-return-visits.md)
       + [Giorni precedenti al primo acquisto](c-variables/dimensionslist/reports-days-before-first-purchase.md)
-      + [Giorni dall'ultima visita](c-variables/dimensionslist/dim-days-since-last-visit.md)
-      + [Giorni dall'ultimo acquisto](c-variables/dimensionslist/reports-days-before-last-purchase.md)
+      + [Giorni dall&#39;ultima visita](c-variables/dimensionslist/dim-days-since-last-visit.md)
+      + [Giorni dall&#39;ultimo acquisto](c-variables/dimensionslist/reports-days-before-last-purchase.md)
       + [Designated Market Area (DMA) (Area mercato designata)](c-variables/dimensionslist/reports-designated-market-area.md)
       + [Transizione numero dispositivo](c-variables/dimensionslist/reports-device-number-transit.md)
       + [Tipi di dispositivi](c-variables/dimensionslist/reports-device-types.md)
@@ -246,7 +246,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Esperienze Target](c-variables/dimensionslist/report-target-experiences.md)
       + [Incremento e confidenza Target](c-variables/dimensionslist/report-target-lift-confidence.md)
       + [Tecnologia](c-variables/dimensionslist/reports-technology.md)
-      + [Tempo precedente all'evento](c-variables/dimensionslist/reports-time-prior-to-event.md)
+      + [Tempo precedente all&#39;evento](c-variables/dimensionslist/reports-time-prior-to-event.md)
       + [Tempo trascorso nella pagina](c-variables/dimensionslist/reports-time-spent-on-page.md)
       + [Tempo trascorso nella sezione del sito](c-variables/dimensionslist/reports-time-spent-on-ss.md)
       + [Tempo trascorso per ciascuna visita](c-variables/dimensionslist/reports-time-spent-per-visit.md)
@@ -327,24 +327,25 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Configurare rapporti in tempo reale](c-real-time-reporting/t-realtime-admin.md)
    + [Metriche e dimensioni in tempo reale supportate](c-real-time-reporting/realtime-metrics.md)
 + Canali marketing {#marketing-channels}
-   + [Introduzione ai canali di marketing](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Informazioni sui rapporti nel canale di marketing](c-marketing-channels/c-overview.md)
-   + [Informazioni sui canali e sulle regole](c-marketing-channels/c-channels-rules.md)
-   + [Impostazione automatica](c-marketing-channels/c-channel-autosetup.md)
-   + [Gestire i canali di marketing](c-marketing-channels/c-channels.md)
-   + [Canale interno (aggiornamento sessione)](c-marketing-channels/session-refresh.md)
-   + [Regole di elaborazione per i canali di marketing](c-marketing-channels/c-rules.md)
-   + [Creare regole di elaborazione per il canale di marketing](c-marketing-channels/t-rules.md)
-   + [Regole di elaborazione per il canale di marketing: definizioni](c-marketing-channels/r-channel-rule-definitions.md)
-   + [Domande frequenti ed esempi](c-marketing-channels/c-faq.md)
-   + [Applicazione delle impostazioni suite di rapporti per più suite di rapporti](c-marketing-channels/t-template.md)
-   + [Classificazioni in canali di marketing](c-marketing-channels/classifictions-mchannel.md)
-   + [Scadenza dell'engagement dei visitatori](c-marketing-channels/visitor-engagement.md)
-   + [Metriche utilizzate nei rapporti sul canale di marketing](c-marketing-channels/c-overview-metrics.md)
-   + [Metriche calcolate utilizzate per i rapporti sul canale di marketing](c-marketing-channels/c-channel-calc-metrics.md)
-   + [Costi e budget](c-marketing-channels/c-overview-budget.md)
-   + [Aggiungere dati offline](c-marketing-channels/t-offline-data.md)
-   + [Accesso ai rapporti](c-marketing-channels/c-channel-report-access.md)
-   + [Configurare l'accesso a un gruppo utenti](c-marketing-channels/t-user-groups.md)
-   + [Concessione di diritti amministrativi limitati](c-marketing-channels/t-admin-rights.md)
-   + [Eseguire rapporti sul canale di marketing](c-marketing-channels/t-reports-sc.md)
+   + [Guida introduttiva ai canali] di marketing {#mc-get-started}
+      + [introduzione](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
+      + [Impostazione automatica](c-marketing-channels/getting-started/c-channel-autosetup.md)
+      + [Applicazione delle impostazioni suite di rapporti per più suite di rapporti](c-marketing-channels/getting-started/t-template.md)
+   + [Marketing Channels manager]{#mc-manager}
+      + [Gestire i canali di marketing](c-marketing-channels/mark-channel-mgr/c-channels.md)
+      + [Informazioni sui canali e sulle regole](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
+   + [Regole] di elaborazione canali di marketing {#mc-proc-rules}
+      + [Regole di elaborazione per i canali di marketing](c-marketing-channels/mc-proc-rules/c-rules.md)
+      + [Creare regole di elaborazione per il canale di marketing](c-marketing-channels/mc-proc-rules/t-rules.md)
+      + [Criteri regola canale di marketing](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
+      + [Canale interno (aggiornamento sessione)](c-marketing-channels/mc-proc-rules/session-refresh.md)
+   + [Classificazioni] canali di marketing {#mc-classifications}
+      + [Classificazioni in canali di marketing](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
+   + [Scadenza] canali di marketing {#mc-expire}
+      + [Scadenza dell&#39;engagement dei visitatori](c-marketing-channels/mc-expiration/visitor-engagement.md)
+   + [Analisi dei canali] di marketing {#mc-analyze}
+      + [Analisi dei canali di marketing](c-marketing-channels/mc-analyze/analyze-mc.md)
+   + [Accesso ai canali] di marketing {#mc-access}
+      + [Autorizzazioni canale di marketing](c-marketing-channels/mc-access/c-channel-report-access.md)
+   + [Domande frequenti] sul canale di marketing {#mc-faq}
+      + [Domande frequenti e esempi su Marketing Channels](c-marketing-channels/mc-faq/c-faq.md)
