@@ -5,7 +5,7 @@ title: Tasti di scelta rapida disponibili in Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -18,144 +18,43 @@ Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-cl
 
 `command` = Mac
 
-<table id="table_01F961F4F7E644E682B8A95B44F14FEE"> 
- <tbody> 
-  <tr> 
-   <td> <b> Azione</b> </td> 
-   <td> <b>Tasti di scelta rapida</b> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cancella tutto </p> </td> 
-   <td colname="col2"> <p>Alt + W </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Copia </p> </td> 
-   <td colname="col2"> <p>Ctrl/Comando + C </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Creazione di un avviso </p> </td> 
-   <td colname="col2"> <p>Ctrl/Comando + Maiusc + A </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Crea dato calcolato </p> </td> 
-   <td> <p> Ctrl/Comando + Maiusc + C </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Crea un intervallo di date </p> </td> 
-   <td colname="col2"> <p> Ctrl/Comando + Maiusc + D </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Crea nuovo progetto </p> </td> 
-   <td colname="col2"> <p> Ctrl/Comando + Maiusc + P </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Crea un segmento </p> </td> 
-   <td colname="col2"> <p> Ctrl/Comando + Maiusc + E </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cura dati progetto </p> </td> 
-   <td colname="col2"> <p>Ctrl/Comando + Maiusc + G </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Scarica come CSV </p> </td> 
-   <td colname="col2"> <p>Ctrl/Comando + Maiusc + V </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Scarica come PDF </p> </td> 
-   <td colname="col2"> <p>Ctrl/Comando + Maiusc + B </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ottieni collegamento progetto </p> </td> 
-   <td colname="col2"> <p>Alt + L </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vai al riquadro Panels (Pannelli) </p> </td> 
-   <td colname="col2"> <p>Alt + Maiusc + 1 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vai al riquadro Visualizations (Visualizzazioni) </p> </td> 
-   <td colname="col2"> <p>Alt + Maiusc + 2 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vai al riquadro Components (Componenti) </p> </td> 
-   <td colname="col2"> <p>Alt + Maiusc + 3 </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Apri progetto esistente </p> </td> 
-   <td> <p> Ctrl/Comando + O </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nuovo pannello Attribuzione </p> </td> 
-   <td colname="col2"> <p>Alt + E </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nuovo grafico a barre </p> </td> 
-   <td colname="col2"> <p>Alt + 3 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nuovo pannello vuoto </p> </td> 
-   <td colname="col2"> <p>Alt + B </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nuovo pannello a forma libera </p> </td> 
-   <td colname="col2"> <p>Alt + A </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nuova tabella a forma libera </p> </td> 
-   <td colname="col2"> <p>Alt + 1 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nuovo grafico a linee </p> </td> 
-   <td colname="col2"> <p>Alt + 2 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Nuovo pannello Confronto segmenti </p> </td> 
-   <td colname="col2"> <p>Alt + C </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Aggiorna componenti </p> </td> 
-   <td colname="col2"> <p>Alt + Maiusc + R </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Aggiorna progetto </p> </td> 
-   <td colname="col2"> <p>Alt + R </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Salva progetto </p> </td> 
-   <td> <p> Ctrl/Comando + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Salva progetto come </p> </td> 
-   <td> <p> Ctrl/Comando + Maiusc + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Salva come modello </td> 
-   <td colname="col2"> Alt + T </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Invia subito file </p> </td> 
-   <td colname="col2"> <p>Alt + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Invia file secondo programma </p> </td> 
-   <td> <p>Maiusc + Alt + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Imposta come pagina di destinazione </p> </td> 
-   <td colname="col2"> Ctrl/Comando + Maiusc + L </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Condividi progetto </p> </td> 
-   <td> <p> Ctrl/Comando + G </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ripristina </p> </td> 
-   <td colname="col2"> <p>Ctrl/Comando + Maiusc + Z </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Annulla </p> </td> 
-   <td> <p>Ctrl/Comando + Z </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Azione | Tasti di scelta rapida |
+|---|---|
+| Cancella tutto | Alt + W |
+| Comprimi/Espandi tutti i pannelli | Alt + M |
+| Comprimi/Espandi pannello attivo | Alt + Ctrl + M |
+| Copia | Ctrl/Comando + C |
+| Creazione di un avviso | Ctrl/Comando + Maiusc + A |
+| Crea dato calcolato | Ctrl/Comando + Maiusc + C |
+| Crea un intervallo di date | Ctrl/Comando + Maiusc + D |
+| Crea nuovo progetto | Ctrl/Comando + Maiusc + P |
+| Crea un segmento | Ctrl/Comando + Maiusc + E |
+| Cura dati progetto | Ctrl/Comando + Maiusc + G |
+| Scarica come CSV | Ctrl/Comando + Maiusc + V |
+| Scarica come PDF | Ctrl/Comando + Maiusc + B |
+| Ottieni collegamento progetto | Alt + L |
+| Vai al riquadro Panels (Pannelli) | Alt + Maiusc + 1 |
+| Vai al riquadro Visualizations (Visualizzazioni) | Alt + Maiusc + 2 |
+| Vai al riquadro Components (Componenti) | Alt + Maiusc + 3 |
+| Passa al pannello successivo | Alt + tasto destro |
+| Passa al pannello precedente | Alt + Tasto sinistro |
+| Nuovo pannello Attribuzione | Alt + E |
+| Nuovo grafico a barre | Alt + 3 |
+| Nuovo pannello vuoto | Alt + B |
+| Nuovo pannello a forma libera | Alt + A |
+| Nuova tabella a forma libera | Alt + 1 |
+| Nuovo grafico a linee | Alt + 2 |
+| Nuovo pannello Confronto segmenti | Alt + C |
+| Apri progetto esistente | Ctrl/Comando + O |
+| Aggiorna componenti | Alt + Maiusc + R |
+| Aggiorna progetto | Alt + R |
+| Salva progetto | Ctrl/Comando + S |
+| Salva progetto come | Ctrl/Comando + Maiusc + S |
+| Salva come modello | Alt + T |
+| Barra di ricerca sinistra | Ctrl + / |
+| Invia subito file | Alt + S |
+| Invia file secondo programma | Maiusc + Alt + S |
+| Imposta come pagina di destinazione | Ctrl/Comando + Maiusc + L |
+| Condividi progetto | Ctrl/Comando + G |
+| Ripristina | Ctrl/Comando + Maiusc + Z |
+| Annulla | Ctrl/Comando + Z |
