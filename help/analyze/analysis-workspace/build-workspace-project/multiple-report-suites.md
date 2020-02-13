@@ -2,7 +2,7 @@
 title: Più suite di rapporti in Workspace
 description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
 translation-type: tm+mt
-source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
+source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
 
 ---
 
@@ -10,7 +10,7 @@ source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
 # Più suite di rapporti in Workspace
 
 >[!IMPORTANT]
->Più suite di rapporti in Workspace sono attualmente in rilascio limitato. A partire dal 20 febbraio 2020, la funzionalità verrà distribuita a tutti i clienti nel corso di diverse settimane.
+>Più suite di rapporti in Workspace sono attualmente in rilascio limitato.
 
 Ora puoi creare progetti in Analysis Workspace con dati provenienti da più suite di rapporti. Le suite di rapporti ora sono selezionate a livello di pannello, per cui potete scegliere una suite di rapporti diversa per ciascun pannello all’interno dello stesso progetto Workspace.
 
