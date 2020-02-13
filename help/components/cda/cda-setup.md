@@ -2,7 +2,7 @@
 title: Configurazione di Analytics tra dispositivi
 description: Scopri come configurare Analytics cross-Device dopo aver soddisfatto i prerequisiti.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ Adobe offre un modello per visualizzare i dati essenziali sulle prestazioni cros
 1. Se richiesto, modificate la suite di rapporti in una che supporti CDA.
 
 Viene creato un progetto di Analysis Workspace contenente diversi pannelli. Nella parte superiore, viene visualizzato un sommario e un’introduzione che consentono di visualizzare il contesto del rapporto e di passare ai singoli rapporti. Fate clic su un collegamento all’interno del sommario o espandete la struttura di navigazione di un pannello per visualizzarli.
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **Nota speciale per i membri del Co-op Graph**: Mostra quale parte della suite di rapporti contiene i visitatori nelle aree in cui è supportato il grafico della cooperativa e nelle aree in cui non è supportato.
 * **Identificazione degli utenti**: Mostra la frequenza con cui i visitatori del sito vengono identificati utilizzando metodi basati su Analisi cross-device.
