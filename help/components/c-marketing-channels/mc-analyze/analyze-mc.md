@@ -2,7 +2,7 @@
 title: Analisi dei canali di marketing
 description: Scopri come utilizzare le dimensioni Marketing Channels (Canali di marketing) in Workspace.
 translation-type: tm+mt
-source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
+source-git-commit: 49e349b2caefdad09ff31550649b5dc35656b9bb
 
 ---
 
@@ -18,7 +18,7 @@ Probabilmente vuoi sapere quale dei tuoi canali di marketing è il più efficace
 | Canale di marketing | Questa è la dimensione Canali di marketing che consigliamo di usare. I modelli di Attribution IQ possono essere applicati a esso in fase di esecuzione. La dimensione &quot;Canali di marketing generici&quot; si comporta in modo identico alle dimensioni &quot;Ultimo canale di contatto&quot;, ma viene etichettata in modo diverso per evitare confusione quando viene utilizzata con un modello di attribuzione diverso. |
 | Ultimo canale touch | Dimensione legacy, con modello di attribuzione preapplicato e non modificabile. |
 | Primo canale touch | Dimensione legacy, con modello di attribuzione preapplicato e non modificabile. |
-| [Istanze canale marketingQuesta metrica...] |
+| Istanze canale di marketing | Questa metrica... |
 | Nuovi impegni | Si tratta di una metrica legacy che viene incrementata solo quando a un canale è applicata l&#39;allocazione del &quot;primo tocco&quot;. |
 
 ## Analisi di base
@@ -57,4 +57,4 @@ Utilizzando il canale First Touch precedente e l’ultimo canale di contatto, pu
 
 ![](assets/mc-viz6.png)
 
-Ulteriori informazioni in [questo video](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Ulteriori informazioni sull&#39;analisi di marketing a schede in [questo video](https://www.youtube.com/watch?v=M3EOdONa-3E).
