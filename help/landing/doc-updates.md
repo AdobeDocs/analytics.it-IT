@@ -3,7 +3,7 @@ title: Aggiornamenti alla documentazione di Adobe Analytics
 description: Aggiornamenti alla documentazione tecnica di Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Data | Descrizione |
 |---|---|
-| 12 febbraio 2020 | Aggiornamenti e riorganizzazione della documentazione di Marketing Channels. |
+| 12 febbraio 2020 | Aggiornamenti e riorganizzazione della documentazione [Marketing Channels (Canali](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) di marketing). |
 | 7 febbraio 2020 | Aggiornamenti alla [configurazione di analisi](../components/cda/cda-setup.md) e [domande frequenti tra dispositivi](../components/cda/cda-faq.md) |
 | 4 febbraio 2020 | Riscrittura completa della guida [utente](../implement/home.md)Implementazione. |
 | 22 gennaio 2020 | Pagina Tabella a mano libera aggiornata, include informazioni sul nuovo [Generatore di tabelle a mano libera](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
