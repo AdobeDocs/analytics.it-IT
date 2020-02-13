@@ -5,12 +5,23 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
+source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
 
 ---
 
 
 # Scopri le novità di Analysis Workspace
+
+## Febbraio 2020
+
+Nuove funzionalità rilasciate il 20 febbraio 2020.
+
+| Funzione | Descrizione |
+|--- |--- |
+| Supporto per più suite di rapporti in Workspace | Ora puoi inserire dati da più suite di rapporti in un unico progetto per visualizzarli uno accanto all&#39;altro. A partire dal 20 febbraio 2020, la funzionalità verrà distribuita a tutti i clienti nel corso di diverse settimane. [Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Nuovo modello Workspace per le organizzazioni che utilizzano l’analisi tra dispositivi | Questo modello mostra l’efficacia di CDA nel raggruppare le visite e nel fornire informazioni sulle dimensioni e metriche esclusive di CDA. È necessaria una suite di rapporti che utilizza CDA. Per ulteriori informazioni, consulta [Configurazione di analisi](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) cross-device. |
+| Nuovi tasti di scelta rapida in Workspace | <ul><li>Comprimi/Espandi tutti i pannelli: `alt + m`</li><li>Comprimi/Espandi pannello attivo: `alt + ctrl + m`</li><li>Cerca nella barra a sinistra: `ctrl + /`</li><li>Passa al pannello successivo: `alt + Right Key`</li><li>Passa al pannello precedente: `alt + Left Key`</li></ul>[Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Altri miglioramenti apportati a Workspace | <ul><li>Quando un pannello o una visualizzazione viene rilasciato in Workspace, la barra a sinistra passa automaticamente ai componenti per un flusso di lavoro più semplice.</li><li>I componenti modello ora possono essere attivati (ad esempio con tag, preferiti, approvati).</li><li>Gli elenchi di metriche filtrate e segmenti offrono il pulsante + per aggiungere un nuovo componente, se non trovate ciò che vi serve.</li></ul> |
 
 ## Gennaio 2020
 
