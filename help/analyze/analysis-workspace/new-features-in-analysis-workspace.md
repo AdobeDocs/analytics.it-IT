@@ -5,7 +5,7 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
+source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ---
 
@@ -22,6 +22,7 @@ Nuove funzionalità rilasciate il 20 febbraio 2020.
 | Nuovo modello Workspace per le organizzazioni che utilizzano l’analisi tra dispositivi | Questo modello mostra l’efficacia di CDA nel raggruppare le visite e nel fornire informazioni sulle dimensioni e metriche esclusive di CDA. È necessaria una suite di rapporti che utilizza CDA. Per ulteriori informazioni, consulta [Configurazione di analisi](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) cross-device. |
 | Nuovi tasti di scelta rapida in Workspace | <ul><li>Comprimi/Espandi tutti i pannelli: `alt + m`</li><li>Comprimi/Espandi pannello attivo: `alt + ctrl + m`</li><li>Cerca nella barra a sinistra: `ctrl + /`</li><li>Passa al pannello successivo: `alt + Right Key`</li><li>Passa al pannello precedente: `alt + Left Key`</li></ul>[Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Altri miglioramenti apportati a Workspace | <ul><li>Quando un pannello o una visualizzazione viene rilasciato in Workspace, la barra a sinistra passa automaticamente ai componenti per un flusso di lavoro più semplice.</li><li>I componenti modello ora possono essere attivati (ad esempio con tag, preferiti, approvati).</li><li>Gli elenchi di metriche filtrate e segmenti offrono il pulsante + per aggiungere un nuovo componente, se non trovate ciò che vi serve.</li></ul> |
+| Debugger Workspace | Workspace Debugger è stato aggiunto al menu Aiuto, per consentirvi di eseguire il debug delle richieste Workspace. [Per saperne di più...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Gennaio 2020
 
