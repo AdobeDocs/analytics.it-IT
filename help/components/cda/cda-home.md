@@ -2,7 +2,7 @@
 title: Analytics tra dispositivi
 description: Analisi cross-Device (Analisi multi-dispositivo) modifica i dati dall'essere incentrati sul dispositivo all'essere focalizzati sulla persona, impilando insieme i dati del dispositivo.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 ---
 
@@ -55,7 +55,8 @@ Analisi cross-device è una funzione innovativa e affidabile, ma presenta dei li
 * L&#39;Assistenza clienti non supporta ancora completamente questa funzione. Il forum [Analisi](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) multi-dispositivo può essere utilizzato per il supporto su questa funzione, che include il coinvolgimento attivo e diretto dei Product Manager Adobe.
 * Analytics cross-Device utilizza una suite di rapporti virtuale e l&#39;elaborazione dei tempi di rapporto, che hanno le proprie limitazioni. Per ulteriori informazioni su queste limitazioni, consulta Suite [di rapporti](../vrs/vrs-about.md) virtuali ed elaborazione [dei tempi di](../vrs/vrs-report-time-processing.md) rapporto.
 * L&#39;API 1.4 non è supportata. I connettori Power BI e Generatore di report si basano entrambi sull&#39;API 1.4 e non sono quindi compatibili con CDA.
-* I nuovi dispositivi che visitano il sito possono richiedere fino a due settimane per essere elaborati da Co-op Graph. Il livello di cucitura in CDA per le ultime due settimane è generalmente inferiore a quello degli intervalli di date superiori a due settimane. Adobe pianifica di migliorare Adobe Experience Platform Identity Service per unire in tempo reale nuovi dispositivi.
+* Se l’organizzazione utilizza Private Graph, i nuovi dispositivi impiegano fino a 24 ore per essere uniti.
+* I nuovi dispositivi che visitano il sito possono richiedere fino a due settimane per essere elaborati da Co-op Graph. Il livello di cucitura in CDA per le ultime due settimane è generalmente inferiore a quello degli intervalli di date superiori a due settimane. Adobe pianifica di migliorare il grafico Co-op in modo da ottenere in futuro un grafico aggiornato ogni giorno.
 * I dati storici nella suite di rapporti virtuali cambiano in base al riconoscimento e all&#39;unione dei dispositivi da parte di Adobe. I dati nella suite di rapporti di origine non vengono modificati.
 
 Una volta che l&#39;organizzazione avrà soddisfatto tutti i requisiti e compreso i limiti, puoi iniziare a [configurare l&#39;analisi](cda-setup.md)tra dispositivi.
