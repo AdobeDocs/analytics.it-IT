@@ -3,7 +3,7 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note di rilascio cumulative per AppMeasurement per JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -18,7 +18,7 @@ Puoi scaricare l’ultima versione di AppMeasurement in [Code Manager](/help/adm
 
 ## Versione 2.18.0
 
-Data di rilascio:**20 febbraio 2020**
+Data di rilascio:**13 febbraio 2020**
 
 * AppMeasurement ora può forzare i cookie ad includere il tag protetto impostando `writeSecureCookies` su &#39;true&#39;. Il requisito per questa impostazione è che l&#39;intero sito Web client sia servito in modo sicuro (https). (AN-204604)
 
