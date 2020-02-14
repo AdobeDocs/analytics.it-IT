@@ -2,7 +2,7 @@
 title: Termini utilizzati in Adobe Analytics
 description: Glossario per Adobe Analytics, definizione dei termini comuni utilizzati.
 translation-type: tm+mt
-source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
+source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
 
@@ -27,8 +27,8 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
    * Una classificazione predefinita della dimensione Codice tracciamento; creata automaticamente per tutte le suite di rapporti.
    * Adobe Campaign, parte di Adobe Experience Cloud. Ulteriori informazioni su [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canale: Può fare riferimento a:
-   * Variabile Canale, che popola la dimensione Sezioni sito. Consultate [i canali](../implement/vars/page-vars/channel.md) nella guida utente Implementa.
-   * Canali di marketing, un componente che aiuta a capire come gli utenti arrivano al sito. Consulta [Canali](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) di marketing nella guida utente dei componenti.
+   * Variabile Canale, che popola la dimensione Sezioni sito. Consultate Variabili [di](/help/implement/vars/page-vars/page-variables.md) pagina nella guida utente Implementa.
+   * Canali di marketing, un componente che aiuta a capire come gli utenti arrivano al sito. Consulta [Canali](/help/components/c-marketing-channels/c-getting-started-mchannel.md) di marketing nella guida utente dei componenti.
 * **** Classificazione: Funzione in Adobe Analytics che consente il raggruppamento di valori di dimensione. Consulta [Classificazioni](/help/components/c-classifications2/c-classifications.md) nella guida utente Componenti.
 * **** Clickmap: Non più utilizzato. Un plug-in del browser precedente che mostra quali aree del sito sono state maggiormente selezionate. Questo strumento è stato ritirato a favore di Activity Map.
 * **** Feed di dati clickstream: Consultate Feed di dati.
@@ -68,7 +68,7 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **** Elenco proprietà: Un&#39;impostazione che converte una variabile di traffico tipica per supportare più valori nello stesso hit. Qualsiasi variabile di traffico personalizzata può diventare una proprietà elenco se l&#39;impostazione è abilitata. Consultate [prop](../implement/vars/page-vars/prop.md) nella guida utente Implementa.
 * **** List var: Variabile distinta separata dalle variabili di conversione. Le variabili di elenco supportano più valori nello stesso hit e i valori delle variabili vengono mantenuti in una visita, in modo simile alle variabili di conversione. Solo tre variabili elenco sono disponibili per un&#39;organizzazione. Consultate [l’elenco](../implement/vars/page-vars/list.md) nella guida per l’utente Implementa.
 * **** Società di accesso: Una raccolta di suite di rapporti utilizzata dall&#39;organizzazione. Alcune organizzazioni dispongono di più società di accesso che si applicano a parti diverse dell&#39;organizzazione.
-* **** Canale di marketing: Funzione in Adobe Analytics che classifica gli hit in base a come sono arrivati sul sito. La logica utilizzata per classificare gli hit può essere personalizzata utilizzando le regole di elaborazione dei canali di marketing. Consulta [Guida introduttiva a Marketing Channels (Canali](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) di marketing) nella guida utente Components (Componenti).
+* **** Canale di marketing: Funzione in Adobe Analytics che classifica gli hit in base a come sono arrivati sul sito. La logica utilizzata per classificare gli hit può essere personalizzata utilizzando le regole di elaborazione dei canali di marketing. Consulta [Guida introduttiva a Marketing Channels (Canali](/help/components/c-marketing-channels/c-getting-started-mchannel.md) di marketing) nella guida utente Components (Componenti).
 * **** Metrica: Tipo di componente che contiene dati quantitativi. I valori delle metriche in genere contengono numeri, come Visualizzazioni pagina, Visite e Entrate. Una dimensione è in genere la sua controparte.
 * **** Assegnazione di tag a più suite: È prassi inviare lo stesso hit a più suite di rapporti. Con l&#39;introduzione alle suite di rapporti virtuali, questa pratica non è più necessaria. La maggior parte delle attività relative ai tag per più suite consente di disporre di una suite di rapporti globale.
 * **** Normalizzazione: Un modo per organizzare una visualizzazione che prende tutte le metriche e le costringe a corrispondere le proporzioni, consentendo un confronto più semplice delle tendenze.
