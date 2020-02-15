@@ -3,7 +3,7 @@ description: Variabili per la generazione di rapporti sulla privacy in Privacy d
 title: Variabili per la generazione di rapporti sulla privacy
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
+source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
 
@@ -50,9 +50,9 @@ Ogni suite di rapporti può essere configurata come segue:
 
    ![](assets/rsm-privacy-config.png)
 
-1. Le variabili riservate sono ora disponibili per la generazione di rapporti.  Consulta Consent Management Opt-Out e Consent Management Opt-In.
+1. Le variabili riservate sono ora disponibili per l&#39;analisi in Reporting e analisi e Workspace. Consulta Consent Management Opt-Out e Consent Management Opt-In.
 
-   ![](assets/rsm-privacy-reports.png)
+   ![](assets/consent-management.png)
 
 ## Implementazione
 
@@ -65,13 +65,13 @@ Consulta [Variabili di dati di contesto](https://docs.adobe.com/help/en/analytic
 * Dati contestuali: `contextData.['cm.ssf']`
 * Valori accettati:
    * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
-   * 0 - Facoltativo. Utilizzate il valore "0" per i clienti che hanno acconsentito al marketing di destinazione. Anche se non si imposta la variabile si ottengono gli stessi risultati.
+   * 0: facoltativo. Utilizza il valore “0” per i clienti che hanno acconsentito al marketing mirato. Si ottengono gli stessi risultati anche senza impostare la variabile.
 
 ### DMP
 
 * Dati contestuali: `contextData.['opt.dmp']`
 * Valori accettati:
-   * N: quando si invia il valore “N”, indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati. **Nota**: l’impostazione di questa variabile su “N” al momento non blocca la condivisione su AAM, tuttavia, il blocco delle chiamate alla funzionalità AAM verrà aggiunto all’inizio del 2020. Per il momento Adobe consiglia di impostare `c.cm.ssf=1` e `c.opt.dmp=N` per bloccare l’invio degli hit ad AAM.
+   * N: quando si invia il valore “N”, indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati.  **Nota**: A partire dal 15 gennaio 2020, l’impostazione di questa variabile su &quot;N&quot; blocca la condivisione lato server dell’hit in AAM.
    * Y: quando si invia il valore “Y”, indica che il consumatore sta accettando la condivisione sulle piattaforme di gestione dei dati.
 
 ### SELL
