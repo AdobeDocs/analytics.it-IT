@@ -2,7 +2,7 @@
 title: Più suite di rapporti in Workspace
 description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
 translation-type: tm+mt
-source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
+source-git-commit: 1a08003170ba07a722927e935ecda26e1d189235
 
 ---
 
@@ -22,16 +22,16 @@ Questa funzionalità è utile, ad esempio, per
 
 ## Pannello attivo
 
-Con questa funzione viene introdotto il concetto di &quot;pannello attivo&quot; e &quot;pannello inattivo&quot;. Il pannello attivo è riconoscibile dal bordo blu chiaro intorno ad esso. Facendo clic all’interno di un pannello, il pannello diventa attivo.
+Con questa funzione viene introdotto il concetto di &quot;pannello attivo&quot; e &quot;pannello inattivo&quot;. Potete riconoscere il pannello attivo dal bordo blu chiaro intorno ad esso. Se si fa clic all’interno di un pannello, il pannello diventa attivo.
 
 >[!IMPORTANT]
->Puoi trascinare e rilasciare componenti **solo nel pannello** attivo, anche se altri pannelli hanno la stessa suite di rapporti. Per modificare il pannello mentre si trascina o si rilascia, è possibile utilizzare un breve taglio: premere `shift` mentre si trascina per convertire un pannello inattivo in un pannello attivo.
+>Puoi trascinare e rilasciare i contenuti in qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. Trascinando in un pannello inattivo della stessa suite di rapporti, il pannello diventa attivo.
 
 | Attività | Pannello attivo | Pannello inattivo |
 |---|---|---|
 | Cambia suite di rapporti | Sì | No |
-| Trascinare i componenti | Sì | No |
-| Inserimento tramite trascinamento di visualizzazioni | Sì | No |
+| Trascinare i componenti | Sì | Sì, per qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. |
+| Inserimento tramite trascinamento di visualizzazioni | Sì | Sì, per qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. |
 
 ## Utilizzo di più suite di rapporti
 
@@ -43,18 +43,18 @@ Con questa funzione viene introdotto il concetto di &quot;pannello attivo&quot; 
 
 
    >[!NOTE]
-   >A volte, durante il caricamento di un progetto (o il passaggio a una suite di rapporti) viene visualizzato un messaggio &quot;Suite di rapporti non compatibile&quot; in cui non tutti i componenti inclusi nel progetto sono inclusi nella suite di rapporti. Vengono elencati i componenti mancanti. Seguite [queste istruzioni](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) per impostare le autorizzazioni per le metriche/dimensioni richieste.
+   >A volte, quando carichi un progetto (o passa a una suite di rapporti) viene visualizzato un banner in cui non tutti i componenti inclusi nel progetto sono inclusi nella suite di rapporti. Vengono elencati i componenti mancanti. Seguite [queste istruzioni](/help/admin/admin-console/permissions/product-profile.md) per impostare le autorizzazioni per le metriche/dimensioni richieste.
 
    ![](assets/incompat-rs.png)
 
    Hai 3 opzioni per affrontare questa incompatibilità:
-   * Continuate con alcuni componenti mancanti. Ciò non comporterà alcun dato per tali componenti e/o visualizzazioni vuote.
-   * Annulla.
+   * Abilita le dimensioni/metriche richieste
    * Cambia la suite di rapporti.
+   * Continuate con alcuni componenti mancanti. Ciò non comporterà alcun dato per tali componenti e/o visualizzazioni vuote.
 
 1. Modificate il pannello in un’altra suite di rapporti e notate come l’etichetta del componente (attualmente attiva suite di rapporti) e i componenti elencati si stanno aggiornando in base alla nuova suite di rapporti.
 
-1. Utilizzate la scelta rapida da tastiera (`shift` durante il trascinamento) per ruotare un pannello inattivo su un pannello attivo.
+1. Usate una scelta rapida da tastiera (`shift` durante il trascinamento) per ruotare un pannello inattivo su un pannello attivo.
 
 1. (Facoltativo) Puoi anche andare ad altri sviluppatori di componenti Analytics e accertarti che ora visualizzino un&#39;etichetta della suite di rapporti che indica
 
