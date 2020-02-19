@@ -4,7 +4,7 @@ title: 'Espressioni data personalizzate: panoramica'
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
 
    Ad esempio, se modificate le date sopra in modo che scorrano mensilmente dal primo giorno di tre mesi fa al primo giorno di questo mese, le date nella porzione Opzioni anticipo si aggiornano automaticamente per riflettere quanto segue:
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
