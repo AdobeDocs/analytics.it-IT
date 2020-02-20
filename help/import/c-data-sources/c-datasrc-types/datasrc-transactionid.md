@@ -2,7 +2,7 @@
 title: Origini dati ID transazione
 description: Scopri il flusso di lavoro generale dell'utilizzo delle origini dati ID transazione.
 translation-type: tm+mt
-source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
+source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 ---
 
@@ -30,9 +30,8 @@ Se hai caricato il seguente file di origini dati e implementato il seguente codi
 
 Scarica il modello, aggiorna i valori, quindi caricalo nel percorso FTP delle origini dati:
 
-| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
-|---|---|---|---|
 | `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+|---|---|---|---|
 | `Date` | `Evar 1` | `Event 1` | `transactionID` |
 | `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
 
