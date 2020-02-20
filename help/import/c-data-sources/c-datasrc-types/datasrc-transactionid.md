@@ -1,52 +1,23 @@
 ---
-description: Gli ID transazione possono essere integrati selezionando la categoria Generico (ID transazione).
-subtopic: Data sources
-title: ID transazione
-topic: Developer and implementation
-uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
+title: Origini dati ID transazione
+description: Scopri il flusso di lavoro generale dell'utilizzo delle origini dati ID transazione.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 
 ---
 
 
-# ID transazione
+# Origini dati ID transazione
 
-Gli ID transazione possono essere integrati selezionando la categoria Generico (ID transazione).
+Le origini dati ID transazione consentono non solo di visualizzare i dati online e offline affiancati, ma anche di collegare i dati. Richiede l&#39;utilizzo della [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabile nell&#39;implementazione di Analytics.
 
-Consulta [Integrazione dei dati](/help/import/c-data-sources/datasrc-integrating-offline-data.md)offline.
+Quando inviate un hit online contenente un `transactionID` valore, Adobe crea uno &quot;snapshot&quot; di tutte le variabili impostate o persistenti in quel momento. Se viene trovato un ID transazione corrispondente caricato tramite Origini dati, i dati offline e online vengono legati insieme. Non importa quale origine di dati viene visualizzata per prima.
 
-Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
+## Flusso di lavoro complessivo delle origini dati ID transazione
 
-**Dimensioni ID transazione**
+Utilizza il seguente flusso di lavoro generico per iniziare a utilizzare le origini dati ID transazione:
 
-| Nome colonna | Descrizione |
-|--- |--- |
-| ID transazione | (Obbligatorio) Valore univoco che rappresenta una transazione online generata nell'attività offline. |
-| Data | Utilizzare il formato data seguente: MM/GG/AAAA/HH/mm/SS (ad esempio, 01/01/2015/06/00/00). |
-| Codice di tracciamento | Nome del codice di tracciamento. |
-| Categoria | Nome della categoria.  Se specifichi una categoria, devi anche selezionare un prodotto. |
-| Canale | Nome del canale. |
-| eVarN | Nome eVarN. I valori validi per N sono numeri interi 1 - 250. |
-| Prodotto | Nome del prodotto. |
-| Stato | Nome dello stato. |
-| ZIP | Nome dello ZIP. |
-
-<p class="head"> <b>Metriche ID transazione</b> </p>
-
-
-
-| Nome colonna | Descrizione |
-|--- |--- |
-| ClickThrough | Numero di visualizzazioni del codice di tracciamento. |
-| Aggiunte al carrello | Numero di aggiunte al carrello. |
-| Aperture carrello | Numero di aperture del carrello. |
-| Rimozioni dal carrello | Numero di rimozioni dal carrello. |
-| Visualizzazioni carrello | Numero di visualizzazioni del carrello. |
-| Pagamenti | Numero di pagamenti. |
-| EventN | Numero di volte in cui si è verificato eventN. I valori validi per N sono numeri interi 1 - 1000.  Se specifichi un evento Visualizzazione, devi specificare anche la dimensione dei dati corrispondenti (eVar). Ad esempio, se includi visualizzazioni eVar2, devi elencare eVar2 con un valore. |
-| Visualizzazioni eVarN | Numero di volte in cui è stata visualizzata eVarN. I valori validi per N sono numeri interi 1 - 250. |
-| Prezzo | Prezzo del prodotto. |
-| Ordini | Numero di ordini inseriti. |
-| Visualizzazioni prodotto | Numero di visualizzazioni del prodotto. |
-| Quantità | Numero di unità vendute. |
+1. Creare un&#39;origine dati (tipo &quot;Generico&quot; e &quot;Origine dati generica (ID transazione)&quot;).
+1. Segui la procedura guidata di configurazione dei feed di dati per ottenere un percorso FTP per caricare i dati e scaricare un file modello origini dati.
+1. Aggiornate l&#39;implementazione per includere la `transactionID` variabile.
+1. Carica un file origini dati sul sito FTP con un `.fin` file.
