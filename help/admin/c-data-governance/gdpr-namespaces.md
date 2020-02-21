@@ -84,7 +84,7 @@ Questo codice JavaScript compila il JSON con altre coppie chiave/valore oltre a 
 }
 ```
 
-Anche il namespace è predefinito per l'ID visitatore personalizzato.
+Anche il namespace è predefinito per l&#39;ID visitatore personalizzato.
 
 ## ID nelle variabili personalizzate
 
