@@ -12,13 +12,13 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le etichette e le relative definizioni.
 
-> [!NOTE] Ricorda che l’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l'etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
+> [!NOTE] Ricorda che l&#39;etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all&#39;interno di una suite di rapporti. Potrebbe essere necessario rivedere l&#39;etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
 
 ## Assegnare o modificare le etichette della suite di rapporti {#section_39F829F35A274EACA532E2F6FF392996}
 
-**Esempio**: in qualità di titolare del trattamento dei dati, pianifica di raccogliere gli indirizzi e-mail e gli ID cookie delle persone interessate per elaborare le loro richieste di Privacy dei dati. Gli ID cookie vengono archiviati in una suite di rapporti in Adobe Analytics. Per creare un'etichetta per gli indirizzi e-mail e gli ID cookie, devi usare il framework DULE (Data Usage Labeling &amp; Enforcement, Etichettatura e applicazione dell'uso dei dati) di Adobe Cloud Platform in Analytics.
+**Esempio**: in qualità di titolare del trattamento dei dati, pianifica di raccogliere gli indirizzi e-mail e gli ID cookie delle persone interessate per elaborare le loro richieste di Privacy dei dati. Gli ID cookie vengono archiviati in una suite di rapporti in Adobe Analytics. Per creare un&#39;etichetta per gli indirizzi e-mail e gli ID cookie, devi usare il framework DULE (Data Usage Labeling &amp; Enforcement, Etichettatura e applicazione dell&#39;uso dei dati) di Adobe Cloud Platform in Analytics.
 
-1. In Analytics, passa a **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. In Analytics, passa a **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
 
 1. Seleziona il gruppo di variabili che vuoi etichettare.
 
@@ -31,9 +31,9 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
    * **Dimensioni conversione** (eVar non merchandising)
    * **Dimensioni del traffico personalizzate** (proprietà)
    * **Eventi e dimensioni della soluzione** (Dimensioni/eventi correlati a soluzioni quali Dispositivi mobili, Video, Activity Map e così via, e integrazioni con soluzioni quali Adobe Campaign, Adobe Experience Manager, Advertising Cloud e così via)
-   * **Dimensioni di elaborazione dei dati** (variabili non esposte direttamente nel rapporto tramite l'interfaccia utente di Adobe Analytics, ma disponibili tramite le richieste di feed dei dati e/o Data Warehouse)
+   * **Dimensioni di elaborazione dei dati** (variabili non esposte direttamente nel rapporto tramite l&#39;interfaccia utente di Adobe Analytics, ma disponibili tramite le richieste di feed dei dati e/o Data Warehouse)
 
-1. (Facoltativo). Fai clic sull'icona delle informazioni (i) accanto a ciascuna variabile per avere maggiori informazioni sui valori più comuni oltre i 90 giorni. (Questa funzionalità non è disponibile per le dimensioni di elaborazione dei dati, perché queste non sono disponibili nell'interfaccia utente di Analytics).
+1. (Facoltativo) Fai clic sull&#39;icona delle informazioni (i) accanto a ciascuna variabile per avere maggiori informazioni sui valori più comuni oltre i 90 giorni. (Questa funzionalità non è disponibile per le dimensioni di elaborazione dei dati, perché queste non sono disponibili nell&#39;interfaccia utente di Analytics).
 
    ![](assets/info.png)
 
@@ -53,7 +53,7 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
    ![](assets/sensitive_data.png)
 
-1. Apri la sezione Data Privacy Data (Dati Privacy dei dati) per impostare le etichette di **governance dei dati**. Usa questa sezione per dare istruzioni ad Adobe su come gestire le variabili per le richieste di accesso e di cancellazione della Privacy dei dati, nonché per definire le variabili da esaminare per trovare gli ID delle persone interessate per queste richieste. Per altre informazioni su queste opzioni, fai riferimento alle [Etichette di governance dei dati (Privacy dei dati).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
+1. Apri la sezione Dati Privacy dei dati per impostare le etichette di **governance dei dati**. Usa questa sezione per dare istruzioni ad Adobe su come gestire le variabili per le richieste di accesso e di cancellazione della Privacy dei dati, nonché per definire le variabili da esaminare per trovare gli ID delle persone interessate per queste richieste. Per altre informazioni su queste opzioni, fai riferimento alle [Etichette di governance dei dati (Privacy dei dati).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
