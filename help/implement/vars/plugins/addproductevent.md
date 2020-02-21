@@ -2,7 +2,7 @@
 title: addProductEvent
 description: Aggiunge eventi personalizzati alla variabile "products and events".
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 ---
 
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Il `addProductEvent` metodo utilizza i seguenti argomenti:
 
-* **`en`**(obbligatorio, stringa): L’evento da aggiungere all’ultima voce della`products`variabile. Se la`products`variabile è vuota, viene creata una voce di prodotto &quot;vuota&quot; a cui è associato l&#39;evento (e il relativo valore).
-* **`ev`**(obbligatorio, stringa): Il valore assegnato all&#39;evento numerico o valutario nell&#39;`en`argomento.  Il valore predefinito è`1`se non è impostato.
-* **`ap`**(facoltativo, booleano): Se la variabile products contiene attualmente più di una voce di prodotto, il valore`true`(o`1`) aggiunge l’evento a tutte le voci di prodotto.  Il valore predefinito è`false`se non è impostato.
+* **`en`** (obbligatorio, stringa): L’evento da aggiungere all’ultima voce della `products` variabile. Se la `products` variabile è vuota, viene creata una voce di prodotto &quot;vuota&quot; a cui è associato l&#39;evento (e il relativo valore).
+* **`ev`** (obbligatorio, stringa): Il valore assegnato all&#39;evento numerico o valutario nell&#39; `en` argomento.  Il valore predefinito è `1` se non è impostato.
+* **`ap`** (facoltativo, booleano): Se la variabile products contiene attualmente più di una voce di prodotto, il valore `true` (o `1`) aggiunge l’evento a tutte le voci di prodotto.  Il valore predefinito è `false` se non è impostato.
 
 Non `addProductEvent` restituisce nulla. ma aggiunge l&#39;evento e il relativo valore alla `products` variabile. Il plug-in aggiunge automaticamente anche l’evento alla `events` variabile, in quanto è necessario anche in questo caso.
 
@@ -75,126 +75,66 @@ Il plug-in addProductEvent non crea né utilizza cookie
 
 ### Esempio n. 1
 
-Se viene mostrato...
+Il codice seguente imposta la `s.products` variabile su `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase"
-```
-
-...e viene eseguito il codice seguente...
-
-```js
+s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-... il valore finale di s.products sarà:
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
-```
-
-...e il valore finale di s.events sarà:
-
-```js
-s.events="purchase,event35"
-```
+Il codice riportato sopra imposta anche la `s.events` variabile su `"purchase,event35"`
 
 ### Esempio n. 2
 
-Se viene mostrato...
+Il codice seguente imposta la `s.products` variabile su `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-```
-
-...e viene eseguito il codice seguente...
-
-```js
+s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-... il valore finale di s.products sarà:
-
-```js
-s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
-```
-
-Quando il terzo argomento è uguale a true (o 1), per ogni voce di prodotto viene aggiunto al valore l’evento specificato nella chiamata
+Quando il terzo argomento della `addProductEvent` chiamata è `true` (o `1`), ogni voce di prodotto ha l’evento specificato nella chiamata, aggiunto al suo valore.
 
 ### Esempio n. 3
 
-Se viene mostrato...
+Il codice seguente imposta la `s.products` variabile su `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
-s.events="purchase,event2"
-```
-
-...e viene eseguito il codice seguente...
-
-```js
+s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
+s.events="purchase,event2";
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-... il valore finale di s.products sarà...
-
-```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
-```
-
-...e s.events verranno impostati come segue:
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+Il codice riportato sopra imposta anche la `s.events` variabile su `"purchase,event2,event33,event34,event35"`
 
 ### Esempio n. 4
 
-Se viene mostrato...
+Il codice seguente imposta la `s.products` variabile su `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-```
-
-...e viene eseguito il codice seguente...
-
-```js
 s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
+s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-... il valore finale di s.products sarà...
+Il codice riportato sopra imposta anche la `s.events` variabile su `"purchase,event2,event33,event34,event35"`.
 
-```js
-s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
-```
-
-...e s.events verranno impostati come segue:
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+> [!NOTE] Il secondo argomento della chiamata può essere un numero intero **o** una stringa che rappresenta un numero intero
 
 ### Esempio n. 5
 
-Se s.products non è impostato ed è in esecuzione il codice seguente...
+Se `s.products` non è già impostato, il codice seguente lo imposta su `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-... il valore finale di s.products sarà:
-
-```js
-s.products=";;;;event35=25"
-```
-
-In questo caso, event35 verrà aggiunto anche alla fine di s.events
+Il codice riportato sopra viene aggiunto anche `"event35"` alla fine di `s.events` o, se **non è già stato impostato, ai set di codici indicati**`s.events` `s.events` di seguito viene aggiunto `"event35"`
 
 ## Cronologia versioni
 
