@@ -20,7 +20,7 @@ Supponi di avere i dati seguenti:
 
 | Etichette | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome variabile**<br>**(Namespace)** | **MyProp1**<br>**(utente)** | **ID visitatore**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nome variabile **<br>**(Namespace)** | **MyProp1 **<br>**(utente)** | **ID visitatore **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -42,8 +42,8 @@ Se si invia una richiesta di accesso, il file di riepilogo conterrà i valori in
 | user=Mary | false | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | dispositivo | assente | 77, 88 | assente | N, P | U, W |
-| user=Mary AAID=66 | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary AAID=66 | true | dispositivo | assente | 66, 77, 88 | assente | N, P | U, W, Z |
+| user=Mary  AAID=66 | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  AAID=66 | true | dispositivo | assente | 66, 77, 88 | assente | N, P | U, W, Z |
 | xyz=X | false | dispositivo | assente | 55, 77 | assente | M, R | X |
 | xyz=X | true | dispositivo | assente | 55, 77 | assente | M, P, R | W, X |
 
