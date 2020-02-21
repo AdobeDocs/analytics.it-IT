@@ -12,7 +12,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti di accesso e cancellazione delle persone interessate in base al RGPD.
 
-## Panoramica di Adobe {#section_E582A1D77583410EBB790BB646854A2C}
+## Panoramica di Adobe  {#section_E582A1D77583410EBB790BB646854A2C}
 
 > [!IMPORTANT] Il contenuto di questo documento non rappresenta e non intende sostituirsi a una consulenza legale. Fai riferimento all’ufficio legale della tua azienda per una consulenza relativa al RGPD.
 
@@ -26,7 +26,7 @@ In qualità di Titolare del trattamento dei dati, l’utente determina i dati pe
 
 ## In che modo Adobe gestisce i dati in base al RGPD {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Adobe Cloud Platform (ACP) fornisce una soluzione integrata che collega l'infrastruttura per la governance dei dati del tuo marchio agli strumenti di Adobe usati per creare e gestire l'esperienza del consumatore. Le funzioni di governance dei dati di Adobe Cloud Platform consentono un collegamento diretto tra i criteri di governance dei dati e l'utilizzo dei dati.
+Adobe Cloud Platform (ACP) fornisce una soluzione integrata che collega l&#39;infrastruttura per la governance dei dati del tuo marchio agli strumenti di Adobe usati per creare e gestire l&#39;esperienza del consumatore. Le funzioni di governance dei dati di Adobe Cloud Platform consentono un collegamento diretto tra i criteri di governance dei dati e l&#39;utilizzo dei dati.
 
 Acquisisci familiarità con [il modo in cui Adobe Analytics gestisce il RGPD](https://www.adobe.com/it/data-analytics-cloud/analytics/general-data-protection-regulation.html): l’articolo illustra la procedura per prepararsi al RGPD e le modalità di integrazione con l’API del RGPD di Adobe Experience Cloud.
 
@@ -34,9 +34,9 @@ Acquisisci familiarità con [il modo in cui Adobe Analytics gestisce il RGPD](ht
 
 Poiché Adobe riconosce che l’utente ha più familiarità con i dati personalizzati nelle suite di rapporti, consente all’utente stesso di definire le impostazioni e le preferenze di governance dei dati.
 
-A tal fine, Adobe Analytics fornisce un’interfaccia utente per la governance dei dati che ti consente, in qualità di titolare del trattamento dei dati, di impostare le [etichette sulla privacy](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels), oltre a tutte le dimensioni e le metriche, nelle suite di rapporti di Analytics. Puoi identificare le colonne nel set di dati che contengono i dati direttamente o indirettamente identificabili in modo da poter inviare le richieste di accesso e cancellazione per il trattamento di tali dati. Per ogni richiesta, le etichette definite nell'interfaccia utente per la governance dei dati di Analytics verranno rispettate per l'identificatore specifico che corrisponde a tale richiesta.
+A tal fine, Adobe Analytics fornisce un’interfaccia utente per la governance dei dati che ti consente, in qualità di titolare del trattamento dei dati, di impostare le [etichette sulla privacy](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels), oltre a tutte le dimensioni e le metriche, nelle suite di rapporti di Analytics. Puoi identificare le colonne nel set di dati che contengono i dati direttamente o indirettamente identificabili in modo da poter inviare le richieste di accesso e cancellazione per il trattamento di tali dati. Per ogni richiesta, le etichette definite nell&#39;interfaccia utente per la governance dei dati di Analytics verranno rispettate per l&#39;identificatore specifico che corrisponde a tale richiesta.
 
-Consulta [Etichettare i dati della suite di rapporti](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) per altre informazioni su come impostare le etichette.
+Consulta  [Etichettare i dati della suite di rapporti](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) per altre informazioni su come impostare le etichette.
 
 ## Prerequisiti {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -47,4 +47,4 @@ Consulta [Etichettare i dati della suite di rapporti](/help/admin/c-data-governa
 
    > [!NOTE] Adobe Analytics non offre assistenza per elaborare le richieste per l’API RGPD, ovvero per elaborare le richieste di accesso o cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati.
 
-* Controlla le tue autorizzazioni: per usare l'interfaccia di gestione della governance dei dati in Adobe Analytics, devi essere un amministratore di Adobe Analytics.
+* Controlla le tue autorizzazioni: per usare l&#39;interfaccia di gestione della governance dei dati in Adobe Analytics, devi essere un amministratore di Adobe Analytics.
