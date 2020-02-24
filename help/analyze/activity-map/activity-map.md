@@ -4,7 +4,7 @@ title: Panoramica di Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
+source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
 
 ---
 
@@ -48,3 +48,4 @@ Activity Map ti permette di configurare varie viste per identificare visivamente
 * [Generazione di rapporti Activity Map in Analytics](activitymap-reporting-analytics.md)
 * [Risoluzione dei problemi relativi alle estensioni del browser](troubleshooting-browser-extensions.md)
 * [Risorse relative alla conoscenza](activitymap-info-resources.md)
+
