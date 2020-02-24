@@ -4,7 +4,7 @@ title: 'Espressioni data personalizzate: panoramica'
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 1. Abilita **[!UICONTROL Customize Expression]**. Selezionando le opzioni in **[!UICONTROL Rolling Dates]**, è possibile visualizzare facilmente la sintassi delle espressioni di data personalizzate.
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    È possibile utilizzare Opzioni avanzate per combinare e far corrispondere espressioni di data personalizzate. Ad esempio, se si desidera visualizzare i dati dal primo dell&#39;anno alla fine dell&#39;ultimo mese completo, è possibile scrivere quanto segue:Da: cy To: cm-1d. Potete vedere che nella procedura guidata vengono confermate le date indicate come 1/1/2020-1/31/2020.
 
    Ad esempio, se modificate le date sopra in modo che scorrano mensilmente dal primo giorno di tre mesi fa al primo giorno di questo mese, le date nella porzione Opzioni anticipo si aggiornano automaticamente per riflettere quanto segue:
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
