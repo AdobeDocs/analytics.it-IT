@@ -2,7 +2,7 @@
 description: 'null'
 title: API interessate dalla migrazione
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
@@ -41,8 +41,8 @@ Se la tua società non utilizza nessuno di questi metodi, non è necessaria alcu
 
 Per ulteriori informazioni:
 
-* [Informazioni generali sulla gestione utenti](https://helpx.adobe.com/enterprise/help/users.html)
+* [Informazioni generali sulla gestione utenti](https://helpx.adobe.com/it/enterprise/help/users.html)
 * [Gestione utenti tramite adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [Forum della API di gestione utenti](https://forums.adobe.com/community/umapi/overview)
-* [Migrazione dell’accesso e della gestione utenti di Analytics a Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+* [Migrazione dell’accesso e della gestione utenti di Analytics a Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/experience-cloud/admin-console/analytics-migration/)
 
