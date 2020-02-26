@@ -2,7 +2,7 @@
 description: Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’Admin Console.
 title: Eseguire la migrazione degli account utente di Analytics per Adobe ID
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -20,7 +20,7 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
 
 **Per eseguire la migrazione degli utenti di Analytics**
 
-1. Passa a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User ID Migration]**.
+1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
 
    ![](assets/migration-progress.png)
 
@@ -61,11 +61,11 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Dominio </p> </td> 
-      <td colname="col2"> <p>I domini sono specifici degli ID e-mail dell’attuale base di utenti di Analytics. Un dominio può essere registrato da una sola organizzazione ed esclusivamente dagli amministratori di sistema. Per ulteriori informazioni, vedi <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">Richiedere l’accesso a un dominio registrato</a>. </p> </td> 
+      <td colname="col2"> <p>I domini sono specifici degli ID e-mail dell’attuale base di utenti di Analytics. Un dominio può essere registrato da una sola organizzazione ed esclusivamente dagli amministratori di sistema. Per ulteriori informazioni, vedi <a href="https://helpx.adobe.com/it/enterprise/help/request-access-to-claimed-domain.html">Richiedere l’accesso a un dominio registrato</a>. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Dominio registrato </p> </td> 
-      <td colname="col2"> <p>Se desideri trasferire gli utenti come Enterprise ID o Federated ID, devi essere amministratore di sistema e registrare un dominio disponibile tramite l’Admin Console prima di eseguire la migrazione degli utenti. Puoi trovare ulteriori informazioni <a href="https://helpx.adobe.com/enterprise/help/identity.html">qui</a>. </p> <p>Se non desideri registrare domini per Enterprise ID o Federated ID, salta questo passaggio ed esegui la migrazione degli utenti come Adobe ID. <a href="https://helpx.adobe.com/enterprise/help/identity.html">Qui</a> puoi trovare ulteriori informazioni sui tipi di ID. </p> </td> 
+      <td colname="col2"> <p>Se desideri trasferire gli utenti come Enterprise ID o Federated ID, devi essere amministratore di sistema e registrare un dominio disponibile tramite l’Admin Console prima di eseguire la migrazione degli utenti. Puoi trovare ulteriori informazioni <a href="https://helpx.adobe.com/it/enterprise/help/identity.html">qui</a>. </p> <p>Se non desideri registrare domini per Enterprise ID o Federated ID, salta questo passaggio ed esegui la migrazione degli utenti come Adobe ID. <a href="https://helpx.adobe.com/it/enterprise/help/identity.html">Qui</a> puoi trovare ulteriori informazioni sui tipi di ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
