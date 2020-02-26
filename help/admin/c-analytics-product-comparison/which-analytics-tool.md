@@ -2,7 +2,7 @@
 description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per ogni strumento di Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le tue esigenze, passa a quello successivo.
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
@@ -30,7 +30,7 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 * Accedere a visualizzazioni video univoche per visualizzatori simultanei, video Daypart e abbandono dei visualizzatori
 * Sfruttare gli elenchi di pubblicazione nei rapporti pianificati
 
-L’**[interfaccia utente di Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**è indicata per:
+L’**[interfaccia utente di Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html)**è indicata per:
 
 * Ottenere una visualizzazione in silos dei dati di app mobile
 * Gestire l’implementazione dell’SDK per app mobile
@@ -73,7 +73,7 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)**sono utili nei
    * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
    * Elaborazione completa: origini dati con marca temporale, elaborate come gli hit raccolti dai server Adobe. Ad esempio, i dati vengono inseriti direttamente nel percorso del visitatore.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(noti in precedenza come Genesis)** sono indicati nei seguenti casi:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(noti in precedenza come Genesis)**sono indicati nei seguenti casi:
 
 * Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. In genere, i Data Connectors incorporano dati di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
 
@@ -115,7 +115,7 @@ Gli **[Attributi cliente](/help/components/c-variables/dimensionslist/reports-cu
 * Se il cliente desidera che i dati Adobe siano memorizzati in un database lato client, con il massimo della granularità
 * Se il cliente desidera sviluppare uno strumento di Business Intelligence (BI) o immettere dati Adobe a livello di hit in uno strumento di terze parti
 
-Utilizza le **[API per la generazione di rapporti](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**quando le altre opzioni di visualizzazione non soddisfano le tue esigenze. Le 3 opzioni di API includono:
+Utilizza le **[API di reporting](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**quando le altre opzioni di visualizzazione non soddisfano le tue esigenze. Le 3 opzioni di API includono:
 
 * **Dati con elaborazione completa**: per dati completi (compresi visite, visitatori e segmenti). Si tratta solitamente di dati di riepilogo dall’interfaccia utente di Analytics, disponibili entro circa 30-90 minuti. Possono essere utilizzati tramite Report Builder.
 * **Dati in tempo reale**: per visualizzare alcune metriche e dimensioni con pochi secondi di latenza. Si tratta di dati limitati, parzialmente elaborati e di riepilogo disponibili entro circa 30 secondi. Includono algoritmi univoci per dati di tipo Più popolari, Più redditizi e Meno redditizi. Possono essere utilizzati tramite Report Builder.
