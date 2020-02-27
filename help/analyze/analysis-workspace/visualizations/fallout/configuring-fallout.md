@@ -28,7 +28,7 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 
    I numeri cerchiati nella porzione grigia della barra mostrano l’abbandono tra i punti di contatto (non l’abbandono complessivo per quel punto). Punto di contatto % mostra il corretto proseguimento dal passaggio precedente verso il passaggio corrente nel rapporto di abbandono.
 
-   Puoi anche aggiungere una sola pagina al rapporto di abbandono, invece che l’intera dimensione. Fai clic sulla freccia destra “&gt;” sulla dimensione pagina per scegliere la specifica pagina da aggiungere al rapporto di abbandono.
+   Puoi anche aggiungere una sola pagina al rapporto di abbandono, invece che l’intera dimensione. Fai clic sulla freccia destra “>” sulla dimensione pagina per scegliere la specifica pagina da aggiungere al rapporto di abbandono.
 
 1. Continua ad aggiungere punti di contatto fino a completare la sequenza.
 
