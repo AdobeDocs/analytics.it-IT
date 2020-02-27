@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Casi di utilizzo dell’analisi per coorte
 topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Puoi creare un’analisi per coorte di sei mesi
 
 **Metrica di ritorno**: sessioni o avvii
 
-I visitatori non vengono considerati *`engaged`* nei mesi successivi a meno che non abbiano sessioni attive o abbiano almeno avviato l’app. L’analisi per coorte mostrerebbe quindi i pattern di utilizzo in cui si verifica *`App Install`* (installazioni dell’app) sempre nel mese 0. Potresti notare dei cali di utilizzo dell’app nel mese 2, indipendentemente da quando gli utenti l’hanno installata. (Per coloro che hanno installato l’app a gennaio 2015, il mese 2 è marzo 2015. Per coloro che hanno installato l’app a febbraio 2015, il mese 2 è aprile 2015, e così via). A seguito di questa analisi, potresti ad esempio inviare un’e-mail o un messaggio push a tutti gli utenti nel corso del mese due per ricordare loro di utilizzare l’app.
+I visitatori non vengono considerati  *`engaged`* nei mesi successivi a meno che non abbiano sessioni attive o abbiano almeno avviato l’app. L’analisi per coorte mostrerebbe quindi i pattern di utilizzo in cui si verifica *`App Install`* (installazioni dell’app) sempre nel mese 0. Potresti notare dei cali di utilizzo dell’app nel mese 2, indipendentemente da quando gli utenti l’hanno installata. (Per coloro che hanno installato l’app a gennaio 2015, il mese 2 è marzo 2015. Per coloro che hanno installato l’app a febbraio 2015, il mese 2 è aprile 2015, e così via). A seguito di questa analisi, potresti ad esempio inviare un’e-mail o un messaggio push a tutti gli utenti nel corso del mese due per ricordare loro di utilizzare l’app.
 
 ## Caso di utilizzo: abbonamento {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
@@ -60,6 +60,6 @@ Una multinazionale nel settore dei media usa campagne mirate per incentivare gli
 
 Un grande rivenditore di abbigliamento ha diversi segmenti di clienti che contribuiscono a grandi porzioni del fatturato. Ogni segmento ha specifici prodotti progettati e creati appositamente per tale segmento. Con ogni lancio di nuovi prodotti, vuole sapere in che modo il nuovo prodotto incrementa le vendite per varie coorti nel tempo. Con la tabella per coorti Latency (Latenza) è possibile analizzare il comportamento e il ricavo generato da un particolare segmento di clienti nei periodi precedente e successivo al lancio. Utilizzando tali informazioni si possono individuare i prodotti che generano nuovi ricavi e quelli che invece non risultano convincenti.
 
-## Utenti più fedeli – Caso d’utilizzo
+## Utenti più fedeli  – Caso d’utilizzo
 
 Una grande compagnia aerea deve il suo successo e il suo fatturato soprattutto ai clienti fedeli che ritornano nel tempo. In molti casi, i viaggiatori più fedeli rappresentano la maggior parte del fatturato e per il successo a lungo termine è quindi fondamentale assicurare di mantenere tali clienti nel tempo. Può essere difficile individuare i clienti più fedeli e coerenti. Tuttavia, con la nuova impostazione Rolling Calculation (Calcolo continuo) nelle tabelle coorte, è possibile analizzare i segmenti dei clienti fedeli e individuare i viaggiatori che hanno effettuato più acquisti, mese dopo mese. La compagnia può quindi riservare a tali viaggiatori premi ed altri bonus come riconoscimento della loro fedeltà. Inoltre, cambiando il tipo di coorte da Retention (Fidelizzazione) a Churn (Abbandono), può identificare i clienti che non hanno effettuato acquisti ripetuti e riservare a tali segmenti specifiche promozioni volte a coinvolgerli nuovamente e incentivarne la fidelizzazione.
