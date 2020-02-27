@@ -26,9 +26,9 @@ Sono disponibili diversi metodi di gestione dei componenti (singolarmente o sele
 
 | Azione del componente | Descrizione |
 |--- |--- |
-| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics &gt; Componenti &gt; Segmenti o Analytics &gt; Componenti &gt; Progetti |
-| Preferito | Aggiungere il componente all’elenco dei preferiti. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics &gt; Componenti &gt; Segmenti o Analytics &gt; Componenti &gt; Progetti. |
-| Approva | Approvare il componente per renderlo canonico. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics &gt; Componenti &gt; Segmenti o Analytics &gt; Componenti &gt; Progetti |
+| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
+| Preferito | Aggiungere il componente all’elenco dei preferiti. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti. |
+| Approva | Approvare il componente per renderlo canonico. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
 | Condividi | Applicabile solo ai segmenti. |
 | Elimina | Applicabile solo ai segmenti. |
 
