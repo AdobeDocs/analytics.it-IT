@@ -40,7 +40,7 @@ Ciò consente di confrontare in modo rapido e semplice un modello di attribuzion
 
 ## Pannello Attribuzione e visualizzazioni {#section_6B02F28182F14ECC9FC5020F224726E6}
 
-Il pannello Attribuzione permette di strutturare facilmente un’analisi confrontando diversi modelli di attribuzione. Per accedere al pannello Attribuzione:
+Il pannello Attribuzione permette di strutturare facilmente un’analisi confrontando diversi modelli di attribuzione. Per accedere al pannello Attribuzione: 
 
 1. Fai clic sull’icona del pannello all’estremità sinistra.
 1. Trascina il pannello Attribuzione nel progetto di Analysis Workspace.
