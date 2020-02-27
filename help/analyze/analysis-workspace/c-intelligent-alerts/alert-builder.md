@@ -21,9 +21,9 @@ Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Da **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]** (Workspace &gt; Componenti &gt; Nuovo avviso).
-* Selezionando una o più voci di tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione).
-* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** (Altro &gt; Aggiungi avviso).
+* Da **[!UICONTROL Workspace]** (Workspace) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL New Alert]** (Nuovo avviso).
+* Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione).
+* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** (Altro) > **[!UICONTROL Add Alert]** (Aggiungi avviso).
 
 ## Creare avvisi
 
