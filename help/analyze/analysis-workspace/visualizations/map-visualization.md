@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Panoramica {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
-La visualizzazione mappa in Analysis Workspace:
+La visualizzazione mappa in Analysis Workspace: 
 
 * Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate) ed
 * è utile per identificare e confrontare dati di metriche per diverse aree geografiche;
@@ -33,7 +33,7 @@ La visualizzazione mappa in Analysis Workspace:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Lat./Long. mobile</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione </span> </span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
+   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione</span></span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensione geografica</b> </p> </td> 
@@ -42,15 +42,15 @@ La visualizzazione mappa in Analysis Workspace:
  </tbody> 
 </table>
 
-1. Fai clic su **[!UICONTROL Build]** (Genera).
+1. Fai clic su **[!UICONTROL Build]** (Crea).
 
    La prima vista sarà quella del mondo con una mappa a bolle, simile a quella illustrata di seguito.
 
    ![](assets/bubble-world-view.png)
 
-1. A questo punto puoi eseguire le seguenti operazioni:
+1. A questo punto puoi eseguire le seguenti operazioni: 
 
-   * Fai uno **zoom** nella mappa per ingrandire l’area che ti interessa, facendo doppio clic o utilizzando la rotellina del mouse. La mappa viene ingrandita sul punto in cui si trova il cursore. Quando esegui lo zoom, la dimensione richiesta viene automaticamente aggiornata (Paese &gt; stato/provincia &gt; città), a seconda del livello di zoom.
+   * Fai uno **zoom** nella mappa per ingrandire l’area che ti interessa, facendo doppio clic o utilizzando la rotellina del mouse. La mappa viene ingrandita sul punto in cui si trova il cursore. Quando esegui lo zoom, la dimensione richiesta viene automaticamente aggiornata (Paese > stato/provincia > città), a seconda del livello di zoom.
    * **Confronta** due o più visualizzazioni mappa nello stesso progetto, affiancandole.
    * **Mostra i dati a confronto per specifici periodi (ad esempio, su base annua)**:
 
