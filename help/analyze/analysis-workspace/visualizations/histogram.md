@@ -46,7 +46,7 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 
 ## Visualizzare e modificare i dati dell’istogramma {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic sul punto accanto all’intestazione Istogramma per passare a **[!UICONTROL Data Source Settings]** &gt; **[!UICONTROL Show Data Source]** (Impostazioni dell’origine dati &gt; Mostra origine dati).
+Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic sul punto accanto all’intestazione Istogramma per passare a **[!UICONTROL Data Source Settings]** (Impostazioni dell’origine dati) > **[!UICONTROL Show Data Source]** (Mostra origine dati).
 
 ![](assets/manage-data-source.png)
 
