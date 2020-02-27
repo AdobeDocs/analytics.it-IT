@@ -18,7 +18,7 @@ Puoi trascinare una metrica standard, una metrica calcolata o un modello di metr
 
 > [!NOTE] Anche se questo è apparentemente semplice, l’uso delle metriche è piuttosto elaborato. Puoi aggiungere metriche a un report trascinando la metrica appropriata nella sezione delle metriche di una tabella. Puoi anche suddividere le dimensioni per metriche per avere un controllo preciso sulla visualizzazione della tabella. Inoltre, puoi inserire una metrica come dimensione e una dimensione come metrica per creare un rapporto nel tempo. Usa i vari componenti e scopri cosa puoi fare. Le possibilità sono infinite.
 
-Oppure puoi fare clic su **[!UICONTROL Components]** &gt; **[!UICONTROL New Metric]** (Componenti &gt; Nuova metrica). Verrà visualizzato il [Generatore di metrica calcolata](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/), in cui puoi creare metriche personalizzate basate su metriche esistenti.
+Oppure puoi fare clic su **[!UICONTROL Components]** (Componenti) > **[!UICONTROL New Metric]** (Nuova metrica). Verrà visualizzato il [Generatore di metrica calcolata](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/), in cui puoi creare metriche personalizzate basate su metriche esistenti.
 
 Per accelerare e semplificare la creazione delle metriche calcolate, al menu di scelta rapida delle colonne delle tabelle a forma libera è stato aggiunto il comando **[!UICONTROL Create metric from selection]** (Crea metrica da selezione). Questa opzione viene visualizzata quando è selezionata almeno una cella di intestazione di colonna.
 
