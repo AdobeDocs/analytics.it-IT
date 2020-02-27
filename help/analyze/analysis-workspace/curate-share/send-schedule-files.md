@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o CSV) immediatamente oppure puoi programmarne l’invio.
 
-**[!UICONTROL Workplace]** &gt; **[!UICONTROL Share]**
+**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
