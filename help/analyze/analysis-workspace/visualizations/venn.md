@@ -18,7 +18,7 @@ Puoi passare il mouse sui segmenti per avere più informazioni dettagliate sulle
 
 ![](assets/venn_hover.png)
 
-Per trasformare il diagramma di Venn in una tabella a forma libera, fai clic sul punto colorato accanto all’intestazione **[!UICONTROL Venn]** e seleziona **[!UICONTROL Manage Data Sources]** &gt; **[!UICONTROL Available Data Sources]** &gt; **[!UICONTROL Freeform Table]** (Gestisci origini dati &gt; Origini dati disponibili &gt; Tabella a forma libera).
+Per trasformare il diagramma di Venn in una tabella a forma libera, fai clic sul punto colorato accanto all’intestazione **[!UICONTROL Venn]** (Venn) e seleziona **[!UICONTROL Manage Data Sources]** (Gestisci origini dati) > **[!UICONTROL Available Data Sources]** (Origini dati disponibili) > **[!UICONTROL Freeform Table]** (Tabella a forma libera).
 
 Per normalizzare il diagramma di Venn (estrarre la dimensione), fai clic sulla relativa icona Impostazioni visualizzazione e seleziona **[!UICONTROL Normalization]** (Normalizzazione).
 
