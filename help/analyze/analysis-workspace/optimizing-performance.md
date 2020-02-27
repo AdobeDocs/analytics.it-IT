@@ -27,9 +27,9 @@ Segmenti complessi possono avere un impatto significativo sulle prestazioni del 
 
 Mentre alcuni dei fattori di complessità non possono essere evitati, pensa alle opportunità di ridurre la complessità dei tuoi segmenti. In generale, più si può essere specifici con i propri criteri di segmento, meglio è. Ad esempio:
 
-* Con i contenitori, l'utilizzo di un singolo contenitore nella parte superiore del segmento sarà più veloce di una serie di contenitori nidificati.
+* Con i contenitori, l’utilizzo di un singolo contenitore nella parte superiore del segmento sarà più veloce di una serie di contenitori nidificati.
 * Con l’utilizzo degli operatori, “uguale a” sarà più veloce di “contiene” e “uguale a qualsiasi di” sarà più veloce di “contiene qualsiasi di”.
-* Con molti criteri, gli operatori AND saranno più veloci di una serie di operatori OR. Inoltre, cerca opportunità per ridurre molte istruzioni OR in un'unica istruzione “uguale a qualsiasi di”.
+* Con molti criteri, gli operatori AND saranno più veloci di una serie di operatori OR. Inoltre, cerca opportunità per ridurre molte istruzioni OR in un’unica istruzione “uguale a qualsiasi di”.
 
 Inoltre, l’uso delle [classificazioni](/help/components/c-classifications2/c-classifications.md) può aiutare a consolidare più valori in gruppi compatti, dai quali è possibile creare dei segmenti. La segmentazione dei gruppi di classificazione offre vantaggi in termini di prestazioni, in particolare per i segmenti che contengono numerose istruzioni OR o criteri “contiene”.
 
