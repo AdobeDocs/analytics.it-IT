@@ -33,7 +33,7 @@ Ecco alcuni esempi di anomalie da esaminare:
 
 [Rilevamento delle anomalie](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
 
-L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
+L’algoritmo di rilevazione delle anomalie di Analysis Workspace include: 
 
 * Supporto per la granularità oraria, settimanale e mensile, oltre a quella giornaliera già supportata
 * Supporto per la stagionalità (ad esempio “Black Friday”) e le festività
