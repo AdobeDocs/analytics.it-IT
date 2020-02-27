@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Impostazioni Annulla e Ripristina
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Undo/Redo]** (Workspace &gt; Progetto &gt; Annulla/Ripristina)
+**[!UICONTROL Workspace]** (Workspace) > **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Undo/Redo]** (Annulla/Ripeti)
 
 * L’opzione **[!UICONTROL Redo]** (Ripristina), che consente di ripristinare un’azione di annullamento, si trova nel menu **[!UICONTROL Edit]** (Modifica).
 
