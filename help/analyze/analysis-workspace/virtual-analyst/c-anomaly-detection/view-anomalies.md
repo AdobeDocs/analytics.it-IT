@@ -26,8 +26,8 @@ Il grafico a linee mostra la banda di valori affidabili in verde chiaro e i valo
 
 Se fai clic su un punto bianco, questo diventerà verde e mostrerà:
 
-* la data in cui si è verificata l'anomalia
-* il valore non elaborato dell'anomalia
+* la data in cui si è verificata l’anomalia
+* il valore non elaborato dell’anomalia
 * La percentuale superiore o inferiore al valore previsto rappresentata dalla linea verde continua.
 * Collegamento Analizza per iniziare un’[Analisi contributi](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
 
