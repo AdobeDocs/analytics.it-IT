@@ -1,9 +1,9 @@
 ---
 keywords: Analysis Workspace
-title: Panoramica di Analysis Workspace
+title: Analysis Workspace  panoramica
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace rimuove tutte le limitazioni tipiche di un rapporto singolo di Analytics. Offre un’area di lavoro solida e flessibile su cui realizzare analisi di progetti personalizzati. Trascina su un progetto un numero qualsiasi di tabelle di dati, visualizzazioni e componenti (dimensioni, metriche, segmenti e granularità temporali). Crea all’istante suddivisioni e segmenti, coorti per analisi e avvisi, confronta segmenti, esegue analisi di flusso e di abbandono, cura e programma i rapporti da condividere con i tuoi colleghi.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 ## Video introduttivo {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -71,7 +71,7 @@ Se il progetto contiene visualizzazioni o pannelli compressi, quando si fa clic 
 
 ## Collegamenti ad altri progetti {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-Per collegare gli utenti ad altri progetti di loro interesse, scegli **[!UICONTROL Share]** &gt; **[!UICONTROL Get Project Link]** (Condividi &gt; Ottieni collegamento progetto) e incorpora il collegamento risultante, ad esempio nelle descrizioni del progetto.
+Per collegare gli utenti ad altri progetti di loro interesse, scegli **[!UICONTROL Share]** (Condividi) > **[!UICONTROL Get Project Link]** (Ottieni collegamento progetto) e incorpora il collegamento risultante, ad esempio nelle descrizioni del progetto.
 
 ## Visualizzazione dinamica delle celle selezionate {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
@@ -89,7 +89,7 @@ Vedi [Gestione delle origini dati](/help/analyze/analysis-workspace/visualizatio
 
 ## Visualizzazioni delle tendenze dalle celle selezionate {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Crea una visualizzazione dalle celle selezionate. (Clic con il pulsante destro del mouse &gt; **[!UICONTROL Trend Selection]** per selezionare una tendenza).
+Crea una visualizzazione dalle celle selezionate. (Clic con il pulsante destro del mouse > **[!UICONTROL Trend Selection]** per selezionare una tendenza).
 
 ![](assets/trend-selection.png)
 
@@ -123,7 +123,7 @@ Vedi [Segmenti](/help/analyze/analysis-workspace/components/t-freeform-project-s
 
 Puoi assegnare i tag a progetti e componenti in Analysis Workspace:
 
-* Applica o crea dei tag a livello di progetto nel pannello di informazioni. ![](assets/information_icon.png)
+* Applica o crea dei tag a livello di progetto nel pannello di informazioni ![](assets/information_icon.png).
 
 * Fai clic con il pulsante destro del mouse sui componenti a cui applicare (o per cui creare) il tag dal pannello Componenti.
 * Usa il simbolo # nel campo di ricerca per individuare i tag.
@@ -134,9 +134,9 @@ Per eseguire azioni a livello di componente puoi usare il menu Azioni nella part
 
 | Azione del componente | Descrizione |
 |--- |--- |
-| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics &gt; Componenti &gt; Segmenti o Analytics &gt; Componenti &gt; Progetti |
-| Preferito | Aggiungere il componente all’elenco dei preferiti. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics &gt; Componenti &gt; Segmenti o Analytics &gt; Componenti &gt; Progetti. |
-| Approva | Approvare il componente per renderlo canonico. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics &gt; Componenti &gt; Segmenti o Analytics &gt; Componenti &gt; Progetti |
+| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
+| Preferito | Aggiungere il componente all’elenco dei preferiti. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti. |
+| Approva | Approvare il componente per renderlo canonico. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
 | Condividi | Applicabile solo ai segmenti. |
 | Elimina | Applicabile solo ai segmenti. |
 
@@ -163,7 +163,7 @@ Non esiste un limite tecnico per il numero di tabelle a forma libera e visualizz
 * Ordina predefiniti di intervalli date (non include gli intervalli date personalizzati).
 * Ctrl/Comando + trascinamento di una colonna per copiarla; trascina la copia per incollarla nella nuova posizione nella tabella.
 
-Consulta [Tasti di scelta rapida disponibili in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) per ottenere ulteriori informazioni.
+Consulta  [Tasti di scelta rapida disponibili in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) per ottenere ulteriori informazioni.
 
 **Selezioni e azioni**
 
@@ -187,4 +187,4 @@ Un segmento unico predefinito per Analysis Workspace. *`All Visits`* (Tutte le v
 
 Utilizza i calcoli nello stesso modo in cui usi le metriche standard.
 
-Consulta [Metriche calcolate](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Consulta [Metriche calcolate](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/).
