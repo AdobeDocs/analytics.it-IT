@@ -53,7 +53,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario corrente. Questa funzione offre un altro metodo per confrontare le date.
 
-1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png) (Aggiungi una colonna periodo di tempo)
+1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png) (Aggiungi una colonna periodo di tempo)
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 
