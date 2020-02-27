@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Suddividere le dimensioni in base al tempo
 
-Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che vengono quindi suddivisi in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
+Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
 
 Le dimensioni suddivise in base al tempo sono relative al fuso orario della suite di rapporti o della suite di rapporti virtuale. Sono disponibili in Analysis Workspace e sono utili per rispondere a domande di tipo:
 
