@@ -40,4 +40,4 @@ Per impostazione predefinita, il diagramma mostra i primi cinque flussi. Se fai 
 
 Non vi è alcun limite alla navigazione nel diagramma di flusso.
 
-Puoi anche esportare e analizzare ulteriormente il diagramma di flusso come parte del file .CSV di un progetto, da **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]** (Progetto &gt; Scarica CSV).
+Puoi anche esportare e analizzare ulteriormente il diagramma di flusso come parte del file .CSV di un progetto, da **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Download CSV]** (Scarica CSV).
