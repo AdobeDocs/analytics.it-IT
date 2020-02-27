@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Crea intervalli di date personalizzati in Analysis Workspace e salvali come componenti Tempo.
 
-**[!UICONTROL Components]** &gt; **[!UICONTROL New Date Range]** (Componenti &gt; Nuovo intervallo di date)
+**[!UICONTROL Components]** (Componenti) > **[!UICONTROL New Date Range]** (Nuovo intervallo di dati)
 
-Un intervallo di date si applica a livello del pannello. Per aggiungere al progetto un intervallo di date, fai clic su **Panels** (Pannelli) &gt; *`<select panel>`* e specifica un nuovo intervallo di date.
+Un intervallo di date si applica a livello del pannello. Per aggiungere al progetto un intervallo di date, fai clic su **Panels** (Pannelli) > *`<select panel>`* e specifica un nuovo intervallo di date.
 
 ## Intervallo di date per “Due mesi fa” {#section_C4109C57CB444BB2A79CC8082BD67294}
 
@@ -34,7 +34,7 @@ Puoi trascinare l’intervallo di date personalizzato all’interno di una colon
 
 ## Utilizzare un intervallo di date continuo di 7 giorni {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-Un intervallo di date si applica a livello del pannello. Per aggiungere al progetto un intervallo di date, fai clic su **Azioni** &gt; **Aggiungi pannello** e specifica un nuovo intervallo di date.
+Un intervallo di date si applica a livello del pannello. Per aggiungere al progetto un intervallo di date, fai clic su **Azioni** > **Aggiungi pannello** e specifica un nuovo intervallo di date.
 
 Nel Generatore intervalli di date, puoi creare un intervallo di date personalizzato che viene visualizzato nel pannello Componenti insieme agli altri intervalli di date.
 
@@ -42,7 +42,7 @@ Ad esempio, puoi creare un intervallo di date che specifica una finestra di 7 gi
 
 ![](assets/create_date_range.png)
 
-Seleziona *`rolling daily`* (giornaliero).
+Seleziona  *`rolling daily`*.
 
 * Le impostazioni Inizio corrispondono a *`current day minus 14 days`* (data attuale meno 14 giorni).
 
