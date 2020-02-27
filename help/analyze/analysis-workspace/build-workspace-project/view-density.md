@@ -20,6 +20,6 @@ Sono disponibili 3 pulsanti di scelta per cambiare la densità di visualizzazion
 
 Per impostare la densità di visualizzazione:
 
-1. In Workspace, passa a **[!UICONTROL Projects]** &gt; **[!UICONTROL Project Info and Settings]** (Progetti &gt; Informazioni e impostazioni progetto).
+1. In Workspace, passa a **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
 
 1. Scegli una delle tre opzioni descritte qui sopra e fai clic su **[!UICONTROL Save]** (Salva).
