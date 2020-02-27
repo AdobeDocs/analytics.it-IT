@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 'Invio di file: programmazione di un progetto per la consegna'
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,8 +14,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 
-1. [Crea un progetto di Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/t_freeform_project.html) e salvalo.
-1. Fai clic su **[!UICONTROL Share]** &gt; **[!UICONTROL Send File On Schedule]** (Condividi &gt; Invia file secondo programma).
+1. [Crea un progetto di Analysis Workspace](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/t_freeform_project.html) e salvalo.
+1. Fai clic su **[!UICONTROL Share]** (Condividi)> **[!UICONTROL Send File On Schedule]** (Invia file secondo programma).
 
    ![Risultato passaggio](assets/send-file.png)
 
@@ -25,4 +25,4 @@ Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 
 1. Aggiungi i nomi o gli indirizzi e-mail dei destinatari, quindi fai clic su **[!UICONTROL Send Now]** (Invia).
 1. (Facoltativo) Fai clic su **[!UICONTROL Show Scheduling Options]** (Mostra opzioni di programmazione) per specificare la programmazione della consegna, quindi fai clic su **[!UICONTROL Send on Schedule]** (Invia in base a programmazione).
-1. Gestisci progetti programmati in **[!UICONTROL Components]** &gt; [Scheduled Projects](/help/analyze/analysis-workspace/curate-share/schedule-projects.md) (Componenti &gt; Progetti programmati).
+1. Gestisci progetti programmati in **[!UICONTROL Components]** (Componenti)> [Progetti programmati](/help/analyze/analysis-workspace/curate-share/schedule-projects.md).
