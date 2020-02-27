@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-La Gestione avvisi disponibile da **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** (Analytics &gt; Componenti &gt; Avvisi) è strutturata in modo analogo alla [Gestione segmenti](https://marketing.adobe.com/resources/help/it_IT/analytics/segment/seg_manage.html) e alla [Gestione metriche calcolate](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/cm_manager.html) e consente di:
+La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://marketing.adobe.com/resources/help/it_IT/analytics/segment/seg_manage.html) e alla [Gestione metriche calcolate](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/cm_manager.html) e consente di: 
 
 ![](assets/alert-manager-tasks.png)
 
