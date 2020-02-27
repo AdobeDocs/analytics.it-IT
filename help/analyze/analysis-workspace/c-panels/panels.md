@@ -16,7 +16,7 @@ Il Pannello vuoto e il Pannello a forma libera sono i punti da cui iniziare la t
 
 Il pannello iniziale predefinito è il Pannello a forma libera, ma puoi anche decidere di rendere predefinito il [Pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md).
 
-## Filtri a discesa nei pannelli {#section_D2828EEDD52944528E87F470EAB581CF}
+## Filtri a discesa nei pannelli  {#section_D2828EEDD52944528E87F470EAB581CF}
 
 La zona di rilascio dei pannelli ora dispone di funzionalità di filtro a discesa. Questi filtri ti consentono di interagire con i dati del progetto in modo controllato in modo da poter eseguire analisi approfondite, semplificare i tuoi progetti e/o condividere informazioni con altri.
 
