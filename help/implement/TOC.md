@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ddea67f331aec8cf82bf5bdfdebddf88c1646ad4
+source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 
 ---
 
@@ -51,6 +51,7 @@ source-git-commit: ddea67f331aec8cf82bf5bdfdebddf88c1646ad4
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variabili di pagina {page-vars}
+      + [Panoramica delle variabili di pagina](vars/page-vars/page-variables.md)
       + [campagna](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
