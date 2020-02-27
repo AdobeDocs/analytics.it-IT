@@ -25,17 +25,17 @@ Le nuove funzioni Generatore di avvisi e Gestione avvisi di Analysis Workspace s
 
 È possibile accedere al Generatore di avvisi in quattro modi:
 
-* Andando direttamente al Generatore di avvisi: **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** (Componenti &gt; Avvisi)
+* Andando direttamente al Generatore di avvisi: **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
 * Utilizzando i tasti di scelta rapida in Workspace: `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac)
 * Selezionando una o più voci di tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione). Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso.
 
    ![Crea avviso da selezione](assets/create-alert-from-selection.png)
 
-* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** (Altro &gt; Aggiungi avviso). Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal report. Se necessario, puoi quindi modificare l’avviso.
+* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** (Altro) > **[!UICONTROL Add Alert]** (Aggiungi avviso). Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal report. Se necessario, puoi quindi modificare l’avviso.
 
    ![Aggiungi avviso](assets/add-alert.png)
 
-Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99,75%).
+Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati  [modelli differenti](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99,75%).
 
 > [!IMPORTANT] L’utilizzo di dati con marcatura temporale per la creazione di avvisi potrebbe causarne l’attivazione in modo errato. Per gli avvisi intelligenti, Adobe consiglia di utilizzare dati privi di marcatura temporale.
 
@@ -43,9 +43,9 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
 
 Se un avviso utilizza il rilevamento delle anomalie, il periodo di formazione varia in base alla granularità selezionata per l’avviso.
 
-* Granularità mensile = 15 mesi + lo stesso intervallo relativo allo scorso anno
-* Granularità settimanale = 15 settimane + lo stesso intervallo relativo allo scorso anno
-* Granularità giornaliera = 35 giorni + lo stesso intervallo relativo allo scorso anno
+* Granularità mensile: 15 mesi + lo stesso intervallo relativo allo scorso anno
+* Granularità settimanale: 15 settimane + lo stesso intervallo relativo allo scorso anno
+* Granularità giornaliera: 35 giorni + lo stesso intervallo relativo allo scorso anno
 * Granularità oraria: 336 ore
 
 Per ulteriori informazioni, vedi [Tecniche di statistica utilizzate nel rilevamento delle anomalie](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md).
