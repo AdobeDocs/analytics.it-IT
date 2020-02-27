@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
 
-[Tipi di visualizzazione in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Tipi di visualizzazione in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Pannello Visualizzazioni {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -98,7 +98,7 @@ Per accedere alle impostazioni contestuali disponibili per un grafico, fai clic 
 | Comprimi tutte le visualizzazioni nel pannello | Comprime tutte le visualizzazioni nel pannello di progetto corrente. |
 | Espandi tutti i pannelli | Espande tutti i pannelli del progetto. |
 | Espandi tutte le visualizzazioni nel pannello | Espande tutte le visualizzazioni nel pannello di progetto corrente. |
-| Modifica descrizione | Aggiungi (o modifica) un testo descrittivo per la visualizzazione o il pannello. La descrizione viene visualizzata in Progetto &gt; Informazioni e impostazioni progetto. |
+| Modifica descrizione | Aggiungi (o modifica) un testo descrittivo per la visualizzazione o il pannello. La descrizione viene visualizzata in Progetto > Informazioni e impostazioni progetto. |
 | Ottieni collegamento pannello | Consente di indirizzare un utente a uno specifico pannello in un progetto. |
 | Ottieni collegamento visualizzazione | Consente di copiare e condividere il collegamento per far sì che altri utenti possano accedere direttamente a questa visualizzazione. Gli utenti dovranno effettuare l’accesso. |
 | Ricomincia | (Per Flusso, Venn, Istogramma) Elimina la configurazione della visualizzazione corrente e apre un nuovo pannello dove la puoi riconfigurare. |
@@ -109,7 +109,7 @@ Per accedere alle impostazioni contestuali disponibili per un grafico, fai clic 
 
 La modifica della legenda **non** è disponibile per le visualizzazioni Mappa ad albero, Bullet, Variazione di riepilogo o Numero di riepilogo, Testo, Forma libera, Istogramma, Coorte o Flusso.
 
-Ad esempio, per modificare un’etichetta di legenda in un grafico a linee:
+Ad esempio, per modificare un’etichetta di legenda in un grafico a linee: 
 
 1. Fai clic su una delle etichette della legenda.
 1. Fai clic su **[!UICONTROL Edit Label]** (Modifica etichetta).
@@ -119,4 +119,4 @@ Ad esempio, per modificare un’etichetta di legenda in un grafico a linee:
 1. Inserisci il nuovo testo dell’etichetta.
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
 
-Per approfondire, utilizza questo [collegamento a un video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sull’argomento.
+Per approfondire, utilizza questo [collegamento a un video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sull’argomento.
