@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Gestione progetti programmati
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Gestisci progetti programmati di Analysis Workspace.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Scheduled Projects]** (Analytics &gt; Componenti &gt; Progetti programmati)
+**[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL Scheduled Projects]** (Progetti programmati).
 
 ![](assets/components-scheduled-projects.png)
 
