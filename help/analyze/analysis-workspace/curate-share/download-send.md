@@ -19,10 +19,10 @@ Il nome del file PDF o CSV corrisponde al nome corrente del progetto. Per i prog
 > [!NOTE] Quando si esegue il rendering di un progetto in PDF, questo conterrà solo ciò che si trova sulla pagina. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarli per il ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
 
 1. Crea o apri un progetto.
-1. Fai clic su **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV (or Download PDF).]** (Progetto &gt; Scarica CVS (o Scarica PDF)).
+1. Fai clic su **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Download CSV (or Download PDF).]** (Scarica CSV (o Scarica PDF))
 
 A partire dall’11 aprile 2019 sono state apportate diverse modifiche a **[!CSV download]** (e **[!CCopia negli Appunti]**) da Analysis Workspace, per rimuovere la formattazione dai dati esportati.
-* Il separatore di migliaia non è più incluso. Il separatore decimale continua a essere incluso e si attiene al formato definito in **[!UICONTROL Components > Report Settings > Thousands Separator]** (Componenti &gt; Impostazioni report &gt; Separatore delle migliaia).
+* Il separatore di migliaia non è più incluso. Il separatore decimale continua a essere incluso e si attiene al formato definito in **[!UICONTROL Components > Report Settings > Thousands Separator]** (Componenti > Impostazioni report > Separatore delle migliaia).
 * Non vengono visualizzati simboli di valuta.
 * Non vengono visualizzati simboli di percentuale.
 * Le percentuali sono espresse in forma decimale. Ad esempio, 75% è rappresentato da 0,75.
