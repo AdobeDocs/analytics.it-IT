@@ -1,7 +1,7 @@
 ---
-description: Elenco di limitazioni note in Adobe Analysis Workspace e relativi componenti
+description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -29,28 +29,28 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 * Confronto segmenti: il segmento [!UICONTROL Everyone Else] (Tutti) non viene creato se viene utilizzato un modello di segmento nella zona di rilascio iniziale.
 
-## Componenti &gt; Segmenti
+## Componenti > Segmenti
 
 * Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences] (Occorrenze), [!UICONTROL Unique Visitors] (Visitatori unici), ecc.
-* Alcuni componenti e operatori non sono disponibili se un segmento viene creato da Workspace (anziché da [!UICONTROL Components > Segments], ovvero Componenti &gt; Segmenti). Ad esempio, Indirizzo IP.
+* Alcuni componenti e operatori non sono disponibili se un segmento viene creato da Workspace (anziché da [!UICONTROL Components > Segments], ovvero Componenti > Segmenti). Ad esempio, Indirizzo IP.
 
-## Componenti &gt; Metriche calcolate
+## Componenti > Metriche calcolate
 
 * Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Vedi “Visualizzazioni” sopra.
 * Le metriche calcolate non possono essere utilizzate nel pannello [!UICONTROL Attribution] (Attribuzione), poiché possono includere modelli di attribuzione separati.
-* Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Components > Segments], ovvero Componenti &gt; Segmenti). Ad esempio, [!UICONTROL IP Address] (Indirizzo IP).
+* Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Components > Segments], ovvero Componenti > Segmenti). Ad esempio, [!UICONTROL IP Address] (Indirizzo IP).
 
-## Componenti &gt; Intervallo date
+## Componenti > Intervallo date
 
 * Gli intervalli di date personalizzati non supportano [!UICONTROL This day last year] (Questo giorno l’anno scorso), [!UICONTROL This day last month] (Questo giorno il mese scorso), ecc.
 
-## Componenti &gt; Suite di rapporti virtuali
+## Componenti > Suite di rapporti virtuali
 
 * Quando l’elaborazione dei tempi di report è abilitata, alcuni componenti non sono supportati. Per un elenco completo, vedi [Elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md).
 
-## Componenti &gt; Impostazioni report
+## Componenti > Impostazioni report
 
-* Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] (Impostazioni report) non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] (Lingua/Valuta/Codifica) in basso: [!UICONTROL Thousands separator] (Separatore delle migliaia), [!UICONTROL Scheduled Report Encoding] (Codifica rapporti pianificati) e [!UICONTROL CSV Separator Character] (Separatore CSV).
+* Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] (Impostazioni report) non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] (Lingua/Valuta/Codifica) in basso:[!UICONTROL Thousands separator] (Separatore delle migliaia), [!UICONTROL Scheduled Report Encoding] (Codifica rapporti pianificati) e [!UICONTROL CSV Separator Character] (Separatore CSV).
 
 ## Attribution IQ
 
