@@ -45,28 +45,28 @@ Prendi in considerazione l’esempio seguente:
 
 1. Il 15 settembre, un visitatore arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
 2. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
-3. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
+3. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
 
 A seconda dell’intervallo di lookback e del modello di attribuzione definiti, ai canali saranno assegnati crediti diversi. Di seguito sono riportati alcuni esempi significativi:
 
-* Utilizzando il **primo contatto** e un **intervallo di lookback su visita**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene 100% di credito per l’acquisto di 50 $.
-* Utilizzando il **primo contatto** e un **intervallo di lookback su visitatore**, l’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
-* Utilizzando un modello **lineare** e un **intervallo di lookback su visita**, il credito è diviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
-* Utilizzando un modello **lineare** e un **intervallo di lookback su visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
+* Utilizzando il **primo contatto** e un **intervallo di lookback su visita**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene 100% di credito per l’acquisto di 50 $.
+* Utilizzando il **primo contatto** e un **intervallo di lookback su visitatore**, l’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
+* Utilizzando un modello **lineare** e un **intervallo di lookback su visita**, il credito è diviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
+* Utilizzando un modello **lineare** e un **intervallo di lookback su visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
 * Utilizzando un modello **a forma di J** e un **intervallo di lookback su visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
-   * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
-   * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
-   * Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.
+   * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
+   * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
+   * Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.
 * Utilizzando **Decadimento nel tempo** e un **intervallo di lookback su visitatore**, il credito è diviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
    * Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2`<sup>`(-0/7)`</sup> `= 1`
    * Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2`<sup>`(-0/7)`</sup> `= 1`
    * Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2`<sup>`(-6/7)`</sup> `= 0.552`
    * Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2`<sup>`(-9/7)`</sup> `= 0.41`
    * La normalizzazione di questi valori determina quanto segue:
-      * Visualizzazione: 33,8%, ovvero 16,88 $
-      * E-mail: 33,8% ovvero 16,88 $
-      * Social: 18,6%, ovvero 9,32 $
-      * Ricerca a pagamento: 13,8%, ovvero 6,92 $
+      * Visualizzazione: 33,8%, ovvero 16,88 $
+      * E-mail: 33,8% ovvero 16,88 $
+      * Social: 18,6%, ovvero 9,32 $
+      * Ricerca a pagamento: 13,8%, ovvero 6,92 $
 
 > [!TIP] Anche altri eventi di conversione, come ordini o eventi personalizzati, saranno suddivisi se il credito è associato a più di un canale. Ad esempio, se due canali contribuiscono a un evento personalizzato utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 dell’evento personalizzato. Queste frazioni di eventi vengono sommate tra tutte le visite, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
 
