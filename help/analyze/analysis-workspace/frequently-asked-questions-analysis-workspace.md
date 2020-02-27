@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Requisiti di amministrazione
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,7 +34,7 @@ Requisiti di sistema per Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Utenti </td> 
-   <td colname="col2"> <p>Per abilitare l’accesso alla scheda Workspace in Analytics, gli amministratori devono aggiungere gli utenti al gruppo <span class="uicontrol">Accesso ad Analysis Workspace</span> in <span class="uicontrol">Amministratore</span> &gt; <span class="uicontrol">Gestione utente</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Gruppi</a>. </p> </td> 
+   <td colname="col2"> <p>Per abilitare l’accesso alla scheda Workspace in Analytics, gli amministratori devono aggiungere gli utenti al gruppo <span class="uicontrol">Accesso ad Analysis Workspace</span> in <span class="uicontrol">Amministratore</span> &gt; <span class="uicontrol">Gestione utente</span> &gt; <a href="https://marketing.adobe.com/resources/help/it_IT/reference/groups.html"  >Gruppi</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Trasferimento di progetti </td> 
@@ -45,7 +45,7 @@ Requisiti di sistema per Analysis Workspace.
    <td colname="col2"> <p> Browser </p> 
     <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
      <li id="li_5A905B0F5342443B96433FDBB1015CA9">Preferiti: ultime versioni di Firefox, Chrome, Safari o Edge. </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Ultima versione di Microsoft Internet Explorer 11. <p> Nota: Adobe ha terminato il supporto per Internet Explorer 11 in riferimento ad Adobe Analytics il 13 novembre 2018. Passa al più presto a Microsoft Edge o a un altro browser supportato.</p> </li> 
+     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Ultima versione di Microsoft Internet Explorer 11. <p> Nota: Adobe ha terminato il supporto per Internet Explorer 11 in riferimento ad Adobe Analytics il 13 novembre 2018. Passa al più presto a Microsoft Edge o a un altro browser supportato.</p> </li> 
     </ul> 
     <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
      <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> Devono essere abilitati i cookie e JavaScript. </li> 
