@@ -16,7 +16,7 @@ Analysis Workspace porta moltissime delle funzionalità di Ad Hoc Analysis nel f
 
 Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://marketing.adobe.com/resources/help/it_IT/reference/analytics-product-comparison.html).
 
-## Confronto della terminologia chiave {#section_6109406B83B043A18E46D38F130B1D2E}
+## Confronto della terminologia chiave  {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -24,17 +24,17 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
 | Workspace | Pannello |
 | Rapporto | Tabella a forma libera |
 | Grafici | Visualizzazione |
-| Gerarchia: Progetto &gt; Workspace &gt; Rapporti | Gerarchia: Progetto &gt; Pannelli &gt; Tabelle |
+| Gerarchia: Progetto > Workspace > Rapporti | Gerarchia: Progetto > Pannelli > Tabelle |
 | Classificati, Con tendenze, modelli rapporto dei totali | Visualizzazione tabella a forma libera |
 | Modello di flusso | Visualizzazione flusso |
 | Abbandono | Visualizzazione abbandono |
 
-## Confronto delle attività chiave {#section_F31446F1DFA742D794A30D713E223440}
+## Confronto delle attività chiave  {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis Attività </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis  Attività </th> 
    <th colname="col2" class="entry"> Attività Analysis Workspace </th> 
   </tr>
  </thead>
@@ -72,7 +72,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Abbandono può abbracciare una visita o un visitatore e, se lo desideri, è possibile includere “Tutte le visite”. Le tendenze dell’abbandono possono essere rapidamente elaborate mediante il menu di scelta rapida. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Gli elementi dimensionali possono essere connessi da un operatore OR (simile ai gruppi) ed è possibile utilizzare gli eventi nel funnel. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Mediante il menu di scelta rapida è inoltre possibile effettuare il rendering dei passi successivi di Prosecuzione e Abbandono. </li> 
-    </ol> <p>Inoltre, Abbandono in Analysis Workspace consente <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensioni diverse</a> tra le varie fasi, un miglioramento rispetto ad Ad Hoc Analysis. Dimensioni diverse nei passaggi vengono gestite con un operatore AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Abbandono e Funnel</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Utilizzo di più dimensioni di abbandono</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Confronto di segmenti in Abbandono</a> </p> </td> 
+    </ol> <p>Inoltre, Abbandono in Analysis Workspace consente  <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensioni diverse</a> tra le varie fasi, un miglioramento rispetto ad Ad Hoc Analysis. Dimensioni diverse nei passaggi vengono gestite con un operatore AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Abbandono e Funnel</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Utilizzo di più dimensioni di abbandono</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Confronto di segmenti in Abbandono</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Esaminare il flusso (percorso) </p> </td> 
@@ -80,7 +80,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Flow può estendere una visita o un visitatore. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Le statistiche chiave vengono visualizzate in termini di visualizzazioni di percorso %. </li> 
-    </ul> <p>Inoltre, Flusso consente <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensioni diverse</a> e la possibilità di fare clic con il pulsante destro del mouse e creare un segmento, un miglioramento rispetto all’Ad Hoc Analysis. </p> <p>Attualmente, Flusso in Analysis Workspace <b>non è in grado di</b>: </p> 
+    </ul> <p>Inoltre, Flusso consente  <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensioni diverse</a> e la possibilità di fare clic con il pulsante destro del mouse e creare un segmento, un miglioramento rispetto all’Ad Hoc Analysis. </p> <p>Attualmente, Flusso in Analysis Workspace <b>non è in grado di</b>: </p> 
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">Disattivare istanze ripetute. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Consentire agli utenti di scegliere un evento di successo. </li> 
