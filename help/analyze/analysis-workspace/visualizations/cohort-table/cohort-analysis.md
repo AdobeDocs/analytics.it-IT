@@ -3,7 +3,7 @@ keywords: Analysis Workspace
 title: Cos’è un’analisi per coorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ Esempi di cosa è possibile fare con un’analisi per coorte:
 
 La funzione di analisi per coorte è disponibile per tutti i clienti di Analytics che dispongono dei diretti di accesso ad Analysis Workspace.
 
-[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -63,9 +63,9 @@ Misura il tempo trascorso prima e dopo il verificarsi dell’evento di inclusion
 
 ### Coorte con dimensione personalizzata
 
-Puoi creare le coorti in base a una dimensione selezionata, anziché in base al tempo come avviene per impostazione predefinita. Puoi usare dimensioni quali canale di marketing, campagna, prodotto, pagina, regione, o qualsiasi altra dimensione in Adobe Analytics per mostrare in che modo la fidelizzazione cambia per valori diversi di tali dimensioni.
+Puoi creare le coorti in base a una dimensione selezionata, anziché in base al tempo come avviene per impostazione predefinita. Puoi usare dimensioni quali canale di marketing, campagna, prodotto, pagina, regione, o qualsiasi altra dimensione in Adobe Analytics per mostrare in che modo la fidelizzazione cambia, in base a valori diversi di tali dimensioni.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta  [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
