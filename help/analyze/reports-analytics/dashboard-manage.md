@@ -5,7 +5,7 @@ title: Dashboard Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 92eaaeafdd587febcfe7fe60f696baca0691b4bc
 
 ---
 
@@ -22,13 +22,13 @@ Gestione dashboard consente di copiare, condividere, archiviare e pianificare le
 
 Gestione dashboard consente di copiare, condividere, archiviare e pianificare le dashboard per la distribuzione.
 
-Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]**.
+Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
 | Elemento | Descrizione |
 |--- |--- |
 | Shared | Indica se il dashboard è condiviso. |
 | Pianificato | Consente di pianificare la consegna del dashboard. |
-| Visualizza archivio | Consente di visualizzare l'archivio del dashboard. Questa funzionalità non sarà più disponibile a gennaio 2020. |
+| Visualizza archivio | Questa funzionalità non è più disponibile. |
 | Invia agli utenti | Consente di condividere una dashboard. |
 | Gestire i   | Consente di modificare, copiare ed eliminare una dashboard. |
 
@@ -36,7 +36,7 @@ Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONT
 
 Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard condiviso.
 
-1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]**.
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 1. In [!UICONTROL Shared Dashboards]questa sezione, individuate il dashboard condiviso (o legacy) da gestire e scegliete una o più delle seguenti opzioni:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -45,8 +45,8 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
   <th class="chdeschd"> Descrizione </th> 
  </thead> 
  <tr class="chrow strow"> 
-  <td class="choption"><strong>Visualizza archivio</strong></td> 
-  <td class="chdesc stentry"> Consente di visualizzare l'archivio dei report per il dashboard condiviso, se esiste un archivio. </td> 
+  <td class="choption"><strong>Visualizzazione Archivia</strong></td> 
+  <td class="chdesc stentry"> Questa funzionalità non è più disponibile. </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboard Player</strong></td> 
@@ -78,31 +78,31 @@ Quando copiate il dashboard legacy, il sistema apre il dashboard legacy per la m
 
 **Per migrare una versione 14.x del dashboard legacy**
 
-1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Manage Dashboards]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Nella [!UICONTROL Manage] colonna, sotto [!UICONTROL Legacy Dashboards], fare clic **[!UICONTROL Copy to New Dashboard]**.
 
-   Il dashboard copiato si apre nell'editor di layout del dashboard.
+   Il dashboard copiato si apre nell&#39;editor di layout del dashboard.
 
    Consultate [Modifica dei dati](/help/analyze/reports-analytics/dashboard.md)del dashboard e del minirapporto.
 
 ## Condivisione di un dashboard
 
-Procedura che descrive come un amministratore può condividere (o inviare) una dashboard a più utenti. Quando si inviano dashboard agli utenti, queste diventano disponibili nel [!UICONTROL Shared Dashboards] menu dell'utente.
+Procedura che descrive come un amministratore può condividere (o inviare) una dashboard a più utenti. Quando si inviano dashboard agli utenti, queste diventano disponibili nel [!UICONTROL Shared Dashboards] menu dell&#39;utente.
 
 1. Individuate il [!UICONTROL Dashboard Manager]dashboard, quindi abilitate **[!UICONTROL Shared]**.
 1. Fai clic su **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
 1. Nella [!UICONTROL Push Dashboard] pagina, selezionate gli utenti di destinazione o fate clic su **[!UICONTROL Check All]**.
-1. Fai clic su **[!UICONTROL Save]** (Genera).
+1. Fai clic su **[!UICONTROL Save]** (Fine).
 
-Se gli utenti condivisi del dashboard non riescono a vedere le modifiche apportate nel dashboard, controllate che il manager del dashboard verifichi se gli utenti hanno scelto l' **[!UICONTROL Copy Me]** opzione. Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate dall'utente. Per visualizzare tutte le modifiche/gli aggiornamenti, gli utenti condivisi devono selezionare l' **[!UICONTROL On Menu]** opzione in Dashboard Manager.
+Se gli utenti condivisi del dashboard non riescono a vedere le modifiche apportate nel dashboard, controllate che il manager del dashboard verifichi se gli utenti hanno scelto l&#39; **[!UICONTROL Copy Me]** opzione. Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate dall&#39;utente. Per visualizzare tutte le modifiche/gli aggiornamenti, gli utenti condivisi devono selezionare l&#39; **[!UICONTROL On Menu]** opzione in Dashboard Manager.
 
 ## Pianificazione di un dashboard per la consegna
 
 In [!UICONTROL Dashboard Manager], potete verificare se una dashboard è pianificata per la consegna e modificare la pianificazione. Le opzioni di consegna del dashboard sono identiche alle opzioni di consegna del rapporto.
 
 1. Aprite una dashboard.
-1. Fai clic su **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
+1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
    Per ulteriori informazioni, consulta [Pianificazione e distribuzione](/help/analyze/reports-analytics/scheduling.md) .
 
@@ -113,8 +113,8 @@ In [!UICONTROL Dashboard Manager], potete verificare se una dashboard è pianifi
 Procedura che descrive come archiviare qualsiasi dashboard inviata come file PDF. Il sistema memorizza il file archiviato per due anni, o fino a quando non si raggiunge un limite massimo di 4 GB di rapporti archiviati, a seconda di quale sia il primo.
 
 1. Aprite una dashboard.
-1. Fai clic su **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
+1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Send]**.
 1. Nel [!UICONTROL Email Report] gruppo, abilita **[!UICONTROL Archive]**.
 1. Specificate le opzioni di consegna, quindi fate clic su **[!UICONTROL Send]**.
 
-   Potete visualizzare le dashboard archiviate in Dashboard Manager. In alternativa, aprite un dashboard e fate clic su **[!UICONTROL More]** &gt; **[!UICONTROL View Archive]**.
+   Potete visualizzare le dashboard archiviate in Dashboard Manager. In alternativa, aprite un dashboard e fate clic su **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
