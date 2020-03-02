@@ -1,8 +1,8 @@
 ---
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ L’elemento di riga “None” è un elemento catch-all che rappresenta tutte l
 
 **Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?**
 
-Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
+Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
 
 **È possibile utilizzare un intervallo di lookback personalizzato con i modelli di attribuzione?**
 
@@ -56,13 +56,9 @@ Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non suppor
 * Visite a pagina singola
 * Accesso singolo
 
-**In che modo l’attribuzione in Analysis Workspace differisce dall’attribuzione in Data Workbench?**
+**È possibile utilizzare un intervallo di lookback personalizzato con i modelli di attribuzione?**
 
-Data Workbench offre in modo incrementale:
-
-* La capacità di assegnare l’attribuzione per più sorgenti dati per visitatore, ad esempio impressioni di annunci e punto vendita.
-* Modellazione algoritmica. L’attribuzione in Analysis Workspace include solo modelli basati su regole. Vedi il modello [Best Fit Attribution](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html) nella guida utente di Data Workbench.
-* Visualizzazioni aggiuntive, come ad esempio tabelle di latenza. Vedi [Tabelle di latenza](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html) nella guida utente di Data Workbench.
+Sì, utilizzando l&#39;opzione della finestra di lookback personalizzata, le finestre di lookback possono essere configurate in qualsiasi intervallo di date fino a 90 giorni prima della finestra di reporting. Per ulteriori informazioni, vedi [Elaborazione dei tempi di report](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 **L’attribuzione funziona con le classificazioni?**
 
