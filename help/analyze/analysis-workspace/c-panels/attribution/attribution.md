@@ -2,8 +2,8 @@
 description: 'null'
 title: Panoramica del pannello Attribuzione
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -31,13 +31,17 @@ Il pannello Attribuzione è una funzione di [Attribution IQ](../../attribution-i
 | ![Personalizzato](assets/custom.png) | Personalizzato | Consente di specificare i valori da assegnare ai punti di contatto, agli ultimi punti di contatto e a eventuali punti di contatto intermedi. I valori specificati vengono normalizzati al 100% anche se la somma dei numeri personalizzati immessi è inferiore a 100. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le interazioni con due punti di contatto, il parametro intermedio viene ignorato. Il primo e l’ultimo punto di contatto vengono quindi normalizzati al 100% e il credito viene assegnato di conseguenza. | Si tratta di un modello perfetto per avere pieno controllo sul proprio modello di attribuzione e rispondere a esigenze specifiche che altri modelli di attribuzione non soddisfano. |
 | ![Decadimento nel tempo](assets/time_decay.png) | Decadimento nel tempo | Segue un decadimento esponenziale con un parametro di mezza durata personalizzato, dove il valore predefinito è 7 giorni. Il valore di ciascun canale dipende dalla quantità di tempo trascorsa tra l’avvio del punto di contatto e l’eventuale conversione. La formula utilizzata per determinare il credito è `2`<sup>`(-t/halflife)`</sup>, dove `t` è il tempo tra un punto di contatto e una conversione. Tutti i punti di contatto vengono quindi normalizzati al 100%. | Si tratta di un modello ideale per i team che eseguono regolarmente campagne pubblicitarie video o che mirano su eventi basati su data prestabilita. Più una conversione si verifica dopo un evento di marketing, meno credito viene assegnato. |
 | ![Partecipazione](assets/participation.png) | Partecipazione | Assegna il 100% di credito a tutti i punti di contatto unici. Il numero totale di conversioni è aumentato rispetto ad altri modelli di attribuzione. La partecipazione deduplica i canali visualizzati più volte. | Si tratta di un modello ottimo per comprendere quanto spesso i clienti sono esposti a una determinata interazione. Le società di comunicazioni utilizzano spesso questo modello per calcolare la velocità del contenuto. Le società di commercio al dettaglio usano spesso questo modello per capire quali sono le parti del sito che sono fondamentali per la conversione. |
+| ![Algoritmo](assets/algorithmic.png) | [Algoritmo](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Utilizza tecniche statistiche per determinare in modo dinamico l&#39;allocazione ottimale del credito per la metrica selezionata. | Utile per evitare tentativi o euristica quando si sceglie il modello di attribuzione corretto per la propria attività. |
 
 ## Intervalli di lookback
 
 Per intervallo di lookback si intende la quantità di tempo che una conversione deve recuperare nel passato per includere i punti di contatto. I modelli di attribuzione che attribuiscono maggiore credito alle prime interazioni visualizzano differenze più importanti quando si visualizzano diversi intervalli di lookback.
 
 * **Intervallo di lookback su visita:** considera fino l’inizio di una visita che ha generato una conversione. Gli intervalli di lookback sono ridotti perché considerano esclusivamente la visita. Gli intervalli di lookback su visita rispettano la definizione di visita modificata nelle suite di rapporti virtuali.
+
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
+
+* **** Finestra di lookback personalizzata: Consente di espandere la finestra di attribuzione oltre l&#39;intervallo di date del rapporto fino a un massimo di 90 giorni. Le finestre di lookback personalizzate vengono valutate per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, una finestra di lookback di 10 giorni valuterà tutti i punti di contatto di dimensione dal 10 al 20 febbraio nel modello di attribuzione.
 
 ## Esempio
 
@@ -51,8 +55,10 @@ A seconda dell’intervallo di lookback e del modello di attribuzione definiti, 
 
 * Utilizzando il **primo contatto** e un **intervallo di lookback su visita**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene 100% di credito per l’acquisto di 50 $.
 * Utilizzando il **primo contatto** e un **intervallo di lookback su visitatore**, l’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
+* Utilizzando **il primo tocco** e una finestra **di lookback** personalizzata, di sette giorni, l&#39;attribuzione esamina solo le due visite più recenti. In questa finestra di rapporto, il collegamento social media è stato il primo, quindi riceve un credito del 100% per l&#39;acquisto da 50 dollari.
 * Utilizzando un modello **lineare** e un **intervallo di lookback su visita**, il credito è diviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
 * Utilizzando un modello **lineare** e un **intervallo di lookback su visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
+* Utilizzando una finestra **di lookback** lineare **e** personalizzata di sette giorni, il credito è diviso tra social, e-mail e visualizzazione. Ciascuno di questi canali ottiene un credito di $12,50 per questo acquisto. La ricerca a pagamento è esclusa perché non si verifica all&#39;interno della finestra di lookback specificata.
 * Utilizzando un modello **a forma di J** e un **intervallo di lookback su visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
    * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
    * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
