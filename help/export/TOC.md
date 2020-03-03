@@ -3,30 +3,30 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
-# Guida all'esportazione di Analytics {#export}
+# Guida all’esportazione di Analytics {#export}
 
 + [Home page di Analytics Export](home.md)
 + Feed dati di Analytics {#analytics-data-feed}
-   + [Panoramica sui feed di dati](analytics-data-feed/data-feed-overview.md)
-   + [Creazione o modifica di un feed di dati](analytics-data-feed/create-feed.md)
-   + [Gestire i feed di dati](analytics-data-feed/df-manage-feeds.md)
-   + [Gestire i processi di feed di dati](analytics-data-feed/df-manage-jobs.md)
+   + [Panoramica sui feed dati](analytics-data-feed/data-feed-overview.md)
+   + [Creare o modificare un feed dati](analytics-data-feed/create-feed.md)
+   + [Gestire i feed dati](analytics-data-feed/df-manage-feeds.md)
+   + [Gestire i lavori sui feed dati](analytics-data-feed/df-manage-jobs.md)
    + Contenuti feed dati {#data-feed-contents}
-      + [Panoramica sui contenuti dei feed di dati](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Panoramica sui contenuti dei feed dati](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcolare metriche](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Riferimento colonna dati](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Ricerca evento pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Ricerca eventi pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Caratteri speciali](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-   + [Domande frequenti sui feed di dati](analytics-data-feed/df-faq.md)
-   + [Best practice relative ai feed di dati](analytics-data-feed/data-feeds-best-practices.md)
-   + [Risoluzione dei problemi relativi ai feed di dati](analytics-data-feed/feed-troubleshooting.md)
+   + [Domande frequenti sui feed dati](analytics-data-feed/df-faq.md)
+   + [Procedure consigliate per il feed dati](analytics-data-feed/data-feeds-best-practices.md)
+   + [Risoluzione dei problemi dei feed dati](analytics-data-feed/feed-troubleshooting.md)
    + [Risoluzione dei problemi dei processi](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Panoramica di Data Warehouse](data-warehouse/data-warehouse.md)
@@ -51,7 +51,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [Report consegnati di Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report consegnati del Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Engagement ai servizi tecnici con FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
-   + [Conservazione dei dati e limitazioni dell'FTP](ftp-and-sftp/ftp-limits.md)
+   + [Conservazione dei dati e limitazioni dell&#39;FTP](ftp-and-sftp/ftp-limits.md)
    + [Eliminazione dei dati e degli account FTP](ftp-and-sftp/ftp-delete.md)
    + [Ripristino dei dati e degli account FTP eliminati](ftp-and-sftp/ftp-restore.md)
    + [Aggiornamento dei server Adobe FTP](ftp-and-sftp/ftp-upgrade.md)
