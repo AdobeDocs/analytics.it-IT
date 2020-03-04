@@ -1,14 +1,13 @@
 ---
-description: 'null'
-title: Utilizzare Attribution IQ in Analysis Workspace
-uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Utilizzare Attribution in Analysis Workspace
+description: Scopri i luoghi in Adobe Analytics in cui puoi usare l’attribuzione.
+translation-type: tm+mt
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
 
-# Utilizzare Attribution IQ in Analysis Workspace
+# Utilizzare Attribution in Analysis Workspace
 
 Attribution IQ in Analysis Workspace consente di confrontare tra di loro tutti i modelli di attribuzione supportati; visualizzare le sequenze di marketing chiave che conducono a una conversione con visualizzazioni avanzate di abbandono e flusso; seguire facilmente le tendenze di canale o campagna di marketing per vedere le prestazioni nel corso del tempo; trovare anomalie statistiche nelle prestazioni di un canale o di una campagna; essere avvisati se le prestazioni calano o aumentano.
 
