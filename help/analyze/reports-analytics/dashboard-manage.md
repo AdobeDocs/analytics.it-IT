@@ -37,7 +37,7 @@ Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICON
 Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard condiviso.
 
 1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
-1. In [!UICONTROL Shared Dashboards]questa sezione, individuate il dashboard condiviso (o legacy) da gestire e scegliete una o più delle seguenti opzioni:
+1. In [!UICONTROL Shared Dashboards]questa sezione, individuate il dashboard condiviso (o il dashboard legacy) da gestire e scegliete una o più delle seguenti opzioni:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -68,11 +68,11 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
 
 ## Migrazione di un dashboard legacy
 
-Le dashboard esistenti continueranno a essere eseguite e potrai comunque modificarle, scaricarle e pianificarle; tuttavia, non è più possibile creare nuove dashboard legacy. È consigliabile aggiornare le dashboard esistenti al formato dashboard più recente.
+Le dashboard esistenti continueranno a essere eseguite e potrai comunque modificarle, scaricarle e pianificarle; tuttavia, non è più possibile creare nuove dashboard legacy. Si consiglia vivamente di aggiornare le dashboard esistenti al formato dashboard più recente.
 
 > [!NOTE] In futuro, prendi in considerazione l’utilizzo di progetti [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analysis Workspace e la possibilità di scaricarli e pianificarli.
 
-Quando copiate il dashboard legacy, il sistema apre il dashboard legacy per la modifica, dove potete aggiungere contenuto legacy o nuovo contenuto. Quando copiate una dashboard precedente, l’originale viene mantenuto nell’elenco delle dashboard precedenti.
+Quando copiate il dashboard legacy, il sistema apre il dashboard legacy per la modifica, in cui potete aggiungere contenuto legacy o nuovo contenuto. Quando copiate una dashboard precedente, l’originale viene mantenuto nell’elenco delle dashboard precedenti.
 
 > [!NOTE] L’aggiunta di contenuti legacy a una dashboard crea una dashboard basata sulle funzionalità più recenti della dashboard. Tuttavia, il minirapporto legacy potrebbe contenere dati basati sulla piattaforma dati precedente.
 
