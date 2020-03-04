@@ -1,8 +1,8 @@
 ---
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
-translation-type: ht
-source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -54,4 +54,4 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 ## Attribution IQ
 
-* Un sottoinsieme di metriche non è supportato in [!UICONTROL Attribution IQ]. Per un elenco completo, vedi le [domande frequenti relative ad Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
+* Un sottoinsieme di metriche non è supportato in [!UICONTROL Attribution IQ]. Per un elenco completo, vedi le [domande frequenti relative ad Attribution IQ](c-panels/attribution/attribution-faq.md).
