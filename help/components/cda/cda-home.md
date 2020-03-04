@@ -2,14 +2,14 @@
 title: Analytics tra dispositivi
 description: Analisi cross-Device (Analisi multi-dispositivo) modifica i dati dall'essere incentrati sul dispositivo all'essere focalizzati sulla persona, impilando insieme i dati del dispositivo.
 translation-type: tm+mt
-source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
+source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
 
 ---
 
 
 # Analytics tra dispositivi
 
-> [!NOTE] La documentazione di Analytics tra dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
+> [!NOTE] La documentazione di Analytics su più dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
 
 Analytics tra dispositivi è una funzione che trasforma Analytics da una vista incentrata sui dispositivi a una vista incentrata sulle persone. Questa funzione utilizza Adobe Experience Platform Identity Service Co-op Graph o Private Graph per identificare i dispositivi appartenenti a individui e unire questi due elementi. Di conseguenza, gli analisti possono comprendere il comportamento degli utenti che utilizza browser, dispositivi o app diversi. Utilizzando CDA potrete rispondere a domande quali:
 
@@ -21,11 +21,11 @@ Analytics tra dispositivi è una funzione che trasforma Analytics da una vista i
 
 Quando i dispositivi vengono cuciti, la persistenza variabile viene mantenuta su tutti i dispositivi. Ad esempio, un utente visita prima il sito tramite un annuncio pubblicitario sul computer desktop. L’utente trova l’app mobile, la installa e alla fine effettua un acquisto sul proprio dispositivo mobile. Con Analytics multi-dispositivo, i ricavi possono essere attribuiti all&#39;annuncio che hanno fatto clic sul computer desktop.
 
-Consulta [IQ viaggio: Pagina](http://adobe.ly/aacda) Spark di Analytics per dispositivi diversi per ulteriori informazioni sulle funzionalità e le funzionalità di Analytics multi-dispositivo.
+Consulta IQ [del viaggio: Pagina](http://adobe.ly/aacda) Spark di Analytics per dispositivi diversi per ulteriori informazioni sulle funzionalità e le funzionalità di Analytics multi-dispositivo.
 
 ## Prerequisiti
 
-A partire da settembre 2019, Analytics cross-device richiede quanto segue. Collaborate con i team all&#39;interno dell&#39;organizzazione e con l&#39;Account Manager Adobe per assicurarvi di soddisfare tutti i requisiti seguenti.
+A partire da settembre 2019, Analytics cross-device richiede quanto segue. Collaborate con i team all&#39;interno dell&#39;organizzazione e con l&#39;Account Manager Adobe per assicurarvi di soddisfare tutti i requisiti indicati di seguito.
 
 > [!IMPORTANT] Se non vengono soddisfatti tutti i prerequisiti, potrebbe non essere possibile abilitare l&#39;analisi multi-dispositivo o non essere possibile ottenere risultati soddisfacenti durante l&#39;unione dei dati.
 
@@ -33,10 +33,10 @@ A partire da settembre 2019, Analytics cross-device richiede quanto segue. Colla
 * Contatta l&#39;Account Manager della tua organizzazione per stabilire i seguenti punti chiave:
    * È necessario firmare un contratto con Adobe che includa Adobe Analytics Ultimate.
    * L’organizzazione deve utilizzare Adobe Experience Platform Identity Service Co-op Graph o Private Graph. Vedi la [home page](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) nella guida utente di Device Co-op.
-   * L&#39;organizzazione deve accettare di consentire ad Adobe di elaborare e archiviare i dati di Analytics sui server Microsoft Azure. Adobe utilizza Azure per memorizzare i dati del grafico del dispositivo ed eseguire la cucitura del dispositivo. Di conseguenza, i dati di Adobe Analytics vengono trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e la presenza di Adobe in Microsoft Azure.
-* Analisi tra dispositivi è abilitata per ogni suite di rapporti. Le suite di rapporti abilitate per CDA richiedono quanto segue:
-   * La suite di rapporti non può avere più di 100 milioni di hit al giorno. Tale soglia aumenterà nei prossimi mesi.
-   * Adobe consiglia una suite di rapporti contenente dati per più dispositivi, ossia dati provenienti da più tipi di dispositivi (Web, app, ecc.). Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti &quot;globale&quot;, anche se CDA non deve essere necessariamente globale da una prospettiva geografica. L&#39;analisi tra più dispositivi non funziona tra le suite di rapporti, né combina i dati di più suite di rapporti.
+   * Grazie a uno spirito di collaborazione e trasparenza, vogliamo che i nostri clienti siano consapevoli del nostro utilizzo di Microsoft Azure in associazione con Analytics multi-dispositivo. Adobe utilizza Azure per memorizzare i dati del grafico del dispositivo e per eseguire l&#39;unione tra dispositivi. Di conseguenza, i dati di Adobe Analytics vengono trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e le istanze di Microsoft Azure con provisioning di Adobe.
+* Analisi tra dispositivi è abilitata per ogni suite di rapporti. Le suite di rapporti che sono state abilitate per CDA richiedono quanto segue:
+   * La suite di rapporti non può avere più di 500 milioni di hit al giorno.
+   * Adobe consiglia una suite di rapporti contenente dati per più dispositivi, ossia dati provenienti da più tipi di dispositivi (Web, app, ecc.). Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti &quot;globale&quot;, anche se CDA non deve necessariamente essere rigorosamente globale da una prospettiva geografica. L&#39;analisi tra più dispositivi non funziona tra le suite di rapporti, né combina i dati provenienti da più suite di rapporti.
 * L&#39;implementazione deve soddisfare i seguenti requisiti:
    * È necessario distribuire la versione più recente del servizio Experience Cloud ID. Vedi la [home page](https://docs.adobe.com/content/help/en/id-service/using/home.html) nella guida utente del servizio Experience Cloud Identity. La maggior parte delle implementazioni che utilizzano Adobe Experience Platform Launch probabilmente hanno già implementato ECID.
    * Chiama la `setCustomerIDs` funzione ogni volta che è possibile identificare un individuo, ad esempio quando un utente accede o apre un messaggio e-mail. Questo requisito si applica a tutte le piattaforme, comprese le app mobili se utilizzate. Consulta [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio Experience Cloud Identity.
@@ -52,11 +52,11 @@ Analisi cross-device è una funzione innovativa e affidabile, ma presenta dei li
    > [!TIP] Sebbene gli attributi del cliente non possano essere utilizzati in CDA, entrambe le funzioni dipendono dalla `setCustomerIDs` funzione. Queste due funzioni possono coincidere in suite di rapporti separate (virtuali).
 * CDA richiede Co-op Graph o Private Graph. I grafici dei dispositivi 3rd-party non sono supportati.
 * Gli ID Analytics legacy non sono supportati. Solo i visitatori con Experience Cloud ID sono cuciti.
-* L&#39;Assistenza clienti non supporta ancora completamente questa funzione. Il forum [Analisi](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) multi-dispositivo può essere utilizzato per il supporto su questa funzione, che include il coinvolgimento attivo e diretto dei Product Manager Adobe.
+* L&#39;Assistenza clienti non supporta ancora completamente questa funzione. Il forum [Analisi](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) multi-dispositivo può essere utilizzato per il supporto su questa funzione, che include il coinvolgimento attivo e diretto dei Product Manager di Adobe.
 * Analytics cross-Device utilizza una suite di rapporti virtuale e l&#39;elaborazione dei tempi di rapporto, che hanno le proprie limitazioni. Per ulteriori informazioni su queste limitazioni, consulta Suite [di rapporti](../vrs/vrs-about.md) virtuali ed elaborazione [dei tempi di](../vrs/vrs-report-time-processing.md) rapporto.
 * L&#39;API 1.4 non è supportata. I connettori Power BI e Generatore di report si basano entrambi sull&#39;API 1.4 e non sono quindi compatibili con CDA.
 * Se l’organizzazione utilizza Private Graph, i nuovi dispositivi impiegano fino a 24 ore per essere uniti.
 * I nuovi dispositivi che visitano il sito possono richiedere fino a due settimane per essere elaborati da Co-op Graph. Il livello di cucitura in CDA per le ultime due settimane è generalmente inferiore a quello degli intervalli di date superiori a due settimane. Adobe pianifica di migliorare il grafico Co-op in modo da ottenere in futuro un grafico aggiornato ogni giorno.
-* I dati storici nella suite di rapporti virtuali cambiano in base al riconoscimento e all&#39;unione dei dispositivi da parte di Adobe. I dati nella suite di rapporti di origine non vengono modificati.
+* I dati storici nella suite di rapporti virtuali vengono modificati in base al riconoscimento e all&#39;unione dei dispositivi da parte di Adobe. I dati nella suite di rapporti di origine non vengono modificati.
 
 Una volta che l&#39;organizzazione avrà soddisfatto tutti i requisiti e compreso i limiti, puoi iniziare a [configurare l&#39;analisi](cda-setup.md)tra dispositivi.
