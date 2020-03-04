@@ -3,7 +3,7 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note di rilascio cumulative per AppMeasurement per JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
+source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
 
 ---
 
@@ -15,6 +15,12 @@ Note di rilascio cumulative per [!DNL AppMeasurement] JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puoi scaricare la versione più recente di AppMeasurement in [Code Manager](/help/admin/admin/code-manager-admin.md).
+
+## Versione 2.20.0
+
+Release Date: **March 5, 2020**
+
+* È stato risolto un problema relativo alla sicurezza.
 
 ## Versione 2.19.0
 
@@ -404,7 +410,7 @@ Data di rilascio: **14 novembre 2013**
 
 Release Date: **September 18, 2013**
 
-* È stato corretto il supporto per il posizionamento della libreria e del codice della pagina nel `head` tag.
+* È stato corretto il supporto per l&#39;inserimento della libreria e del codice della pagina nel `head` tag.
 * È stato aggiunto il supporto del modulo `onLoad` mancante.
 
 ## Versione 1.0.3
@@ -433,6 +439,6 @@ Release Date: **May 23, 2013**
 In Gestione codici è ora disponibile una nuova [!DNL JavaScript][!DNL AppMeasurement] libreria. Questa libreria fornisce le stesse funzionalità di base di [!DNL s_code.js], ma è più leggera e veloce da utilizzare sia sui siti mobili che su quelli desktop.
 
 * 3-7x più veloce del codice H.25.
-* Solo 21 k non compressi e 8 k gzip (H.25 codice 33 k non compresso e 13 k gzip).
+* Solo 21 k non compressi e 8 k gzip (H.25 codice è 33 k non compresso e 13 k gzip).
 * Supporto nativo per ottenere parametri di query, cookie di lettura e scrittura ed eseguire il tracciamento avanzato dei collegamenti.
 * Piccoli e veloci da usare con i siti mobili e sufficientemente robusti da essere utilizzati su tutto il Web desktop, per sfruttare una singola libreria in tutti gli ambienti Web.
