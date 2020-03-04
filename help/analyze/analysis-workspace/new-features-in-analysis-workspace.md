@@ -5,7 +5,7 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -19,10 +19,10 @@ Nuove funzionalità rilasciate il 20 febbraio 2020.
 | Funzione | Descrizione |
 |--- |--- |
 | Supporto per più suite di rapporti in Workspace | Ora puoi inserire dati da più suite di rapporti in un unico progetto per visualizzarli uno accanto all&#39;altro. A partire dal 20 febbraio 2020, la funzionalità verrà distribuita a tutti i clienti nel corso di diverse settimane. [Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| Nuovo modello Workspace per le organizzazioni che utilizzano l’analisi tra dispositivi | Questo modello mostra l’efficacia di CDA nel raggruppare le visite e nel fornire informazioni sulle dimensioni e metriche esclusive di CDA. È necessaria una suite di rapporti che utilizza CDA. Per ulteriori informazioni, consulta [Configurazione di analisi](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) cross-device. |
-| Nuovi tasti di scelta rapida in Workspace | <ul><li>Comprimi/Espandi tutti i pannelli: `alt + m`</li><li>Comprimi/Espandi pannello attivo: `alt + ctrl + m`</li><li>Cerca nella barra a sinistra: `ctrl + /`</li><li>Passa al pannello successivo: `alt + Right Key`</li><li>Passa al pannello precedente: `alt + Left Key`</li></ul>[Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| Altri miglioramenti apportati a Workspace | <ul><li>Quando un pannello o una visualizzazione viene rilasciato in Workspace, la barra a sinistra passa automaticamente ai componenti per un flusso di lavoro più semplice.</li><li>I componenti modello ora possono essere attivati (ad esempio con tag, preferiti, approvati).</li><li>Gli elenchi di metriche filtrate e segmenti offrono il pulsante + per aggiungere un nuovo componente, se non trovate ciò che vi serve.</li></ul> |
-| Debugger Workspace | Workspace Debugger è stato aggiunto al menu Aiuto, per consentirvi di eseguire il debug delle richieste Workspace. [Per saperne di più...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| Nuovo modello Workspace per le organizzazioni che utilizzano l’analisi tra dispositivi | Questo modello mostra l’efficacia di CDA nel raggruppare le visite e nel fornire informazioni sulle dimensioni e metriche esclusive di CDA. È necessaria una suite di report che utilizza CDA. Per ulteriori informazioni, consulta [Configurazione di Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html). |
+| Nuovi tasti di scelta rapida in Workspace | <ul><li>Collapse/Expand All panels (Comprimi/espandi tutti i pannelli): `alt + m`</li><li>Collapse/Expand Active panel (Comprimi/espandi pannello attivo): `alt + ctrl + m`</li><li>Search left rail (Barra sinistra di ricerca): `ctrl + /`</li><li>Move to next panel (Passa al pannello successivo): `alt + Right Key`</li><li>Move to previous panel (Passa al pannello precedente): `alt + Left Key`</li></ul>[Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Altri miglioramenti di Workspace | <ul><li>Quando un pannello o una visualizzazione viene rilasciato in Workspace, la barra a sinistra passa automaticamente ai componenti per un flusso di lavoro più semplice.</li><li>I componenti modello ora possono essere attivati (ad esempio con tag, preferiti, approvati).</li><li>Gli elenchi di metriche filtrate e segmenti offrono il pulsante + per aggiungere un nuovo componente, se non trovate ciò che vi serve.</li></ul> |
+| Debugger Workspace | Il debugger di Workspace è stato aggiunto al menu Aiuto per consentirti di eseguire il debug delle richieste di Workspace in modo più semplice. [Per saperne di più...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Gennaio 2020
 
@@ -30,21 +30,21 @@ Nuova funzionalità rilasciata il 16 gennaio 2020.
 
 | Funzione | Descrizione |
 |--- |--- |
-| [Generatore tabella a forma libera](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Con il Generatore di tabelle abilitato, puoi trascinare e rilasciare più dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a esigenze aziendali più complesse. I dati non verranno aggiornati immediatamente. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Questa funzione offre inoltre:<ul><li>**Anteprima**: Puoi visualizzare in anteprima il formato di una tabella prima di trascorrere del tempo a eseguire il rendering dei dati reali.</li><li>**Impostazioni di riga flessibile e raggruppamento**: Puoi impostare i livelli di riga e raggruppamento per ogni riga delle dimensioni. In precedenza, Workspace impostava valori predefiniti che non potevano essere modificati fino a quando non venivano restituiti i dati.</li><li>**Raggruppamento per posizione**: Puoi impostare le righe delle dimensioni in modo da effettuare sempre il _raggruppamento per posizione_ anziché _per elemento specifico_ (impostazione predefinita).</li><li>**Ordinamento manuale delle righe statiche**: Puoi ordinare manualmente le righe statiche in modo che vengano visualizzate esattamente come necessario. In precedenza, le righe statiche potevano essere ordinate solo in base a una colonna metrica o in ordine alfabetico.</li></ul> |
+| [Generatore di tabelle a forma libera](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Con il Generatore di tabelle abilitato, puoi trascinare e rilasciare più dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a esigenze aziendali più complesse. I dati non verranno aggiornati immediatamente. Al contrario, gli aggiornamenti si verificano dopo aver fatto clic su **[!UICONTROL Build]** Genera: sapendo quale tabella desideri creare, ciò ti permette di risparmiare tempo. Questa funzione offre inoltre:<ul><li>**Anteprima**: Puoi visualizzare in anteprima il formato di una tabella prima di trascorrere del tempo a eseguire il rendering dei dati reali.</li><li>**Impostazioni di riga flessibile e raggruppamento**: Puoi impostare i livelli di riga e raggruppamento per ogni riga delle dimensioni. In precedenza, Workspace impostava valori predefiniti che non potevano essere modificati fino a quando non venivano restituiti i dati.</li><li>**Raggruppamento per posizione**: Puoi impostare le righe delle dimensioni in modo da effettuare sempre il _raggruppamento per posizione_ anziché _per elemento specifico_ (impostazione predefinita).</li><li>**Ordinamento manuale delle righe statiche**: Puoi ordinare manualmente le righe statiche in modo che vengano visualizzate esattamente come necessario. In precedenza, le righe statiche potevano essere ordinate solo in base a una colonna metrica o in ordine alfabetico.</li></ul> |
 
 ## ottobre 2019
 
-Miglioramenti rilasciati il 10 ottobre 2019.
+Miglioramenti rilasciati giovedì 10 ottobre 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
-| Aggiornamento dei totali delle tabelle a forma libera | Le tabelle a forma libera ora includono due totali, uno **[!UICONTROL Table total]** e **[!UICONTROL Grand total]**. Il conteggio delle righe totali della tabella tiene ora conto i [filtri dei report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) applicati. Precedentemente, solo la segmentazione interessava i totali. [Ulteriori](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>informazioniInoltre, **[!UICONTROL Show Totals]** sono state aggiunte **[!UICONTROL Show Grand Total]** opzioni e opzioni a **[!UICONTROL Column Settings]**.<br/>Con questa modifica ai totali a forma libera, le visualizzazioni dipendenti verranno aggiornate (ad es. **[!UICONTROL Summary Number]** visualizzazioni collegate), nonché i dati CSV e PDF esportati. |
+| Aggiornamento dei totali delle tabelle a forma libera | Le tabelle a forma libera ora includono due totali, **[!UICONTROL Table total]** e **[!UICONTROL Grand total]**. Il conteggio delle righe totali della tabella tiene ora conto i [filtri dei report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) applicati. Precedentemente, solo la segmentazione interessava i totali. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Inoltre, sono state aggiunte le opzioni **[!UICONTROL Show Totals]** (Mostra totale) e **[!UICONTROL Show Grand Total]** (Mostra totale complessivo) a **[!UICONTROL Column Settings]** (Impostazioni colonna).<br/>Con questa modifica ai totali delle tabelle a forma libera verranno aggiornate le visualizzazioni dipendenti (ad esempio le visualizzazioni **[!UICONTROL Summary Number]** Numero di riepilogo collegate), nonché i dati CSV e PDF esportati. |
 | Opzione per rimuovere Non specificato/Nessuno | La possibilità di rimuovere facilmente “Non specificato (Nessuno)” è stata aggiunta come opzione per segnalare i filtri. |
-| Deprecazione dei componenti di granularità viola | I componenti tempo per granularità di colore viola (Minuto, Ora, Giorno, Settimana, Mese, Trimestre, Anno) sono stati resi obsoleti. I componenti tempo viola si sono sempre comportati esattamente come le loro controparti di colore arancione relativi alle dimensioni, pertanto questa modifica semplificherà l’esperienza. **Non è necessario eseguire alcuna azione** se in precedenza è stato utilizzato uno dei componenti tempo viola.<br/>Con questa modifica, anche la sezione viola **[!UICONTROL Time]** è stata rinominata in **[!UICONTROL Date Ranges]**. |
+| deprecazione dei componenti di granularità viola | I componenti tempo per granularità di colore viola (Minuto, Ora, Giorno, Settimana, Mese, Trimestre, Anno) sono stati resi obsoleti. I componenti tempo viola si sono sempre comportati esattamente come le loro controparti di colore arancione relativi alle dimensioni, pertanto questa modifica semplificherà l’esperienza. **Non è necessario eseguire alcuna azione** se in precedenza è stato utilizzato uno dei componenti tempo viola.<br/>Con questa modifica, anche la sezione viola **[!UICONTROL Time]** (Tempo) è stata rinominata in **[!UICONTROL Date Ranges]** (Intervalli di dati). |
 
 ## agosto 2019
 
-Miglioramento rilasciato l&#39;8 agosto 2019.
+Miglioramento rilasciato giovedì 8 agosto 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
@@ -52,7 +52,7 @@ Miglioramento rilasciato l&#39;8 agosto 2019.
 
 ## Luglio 2019
 
-Miglioramenti rilasciati il 18 luglio 2019.
+Miglioramenti rilasciati giovedì 18 luglio 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
@@ -62,11 +62,11 @@ Miglioramenti rilasciati il 18 luglio 2019.
 
 ## Giugno 2019
 
-Miglioramento rilasciato il 13 giugno 2019.
+Miglioramento rilasciato giovedì 13 giugno 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
-| Nuovi filtri out-of-the-box | Alla barra di ricerca di sinistra sono stati aggiunti dei nuovi filtri pronti all’uso. Oltre a quelli già disponibili (Dimensioni, Metriche, Approvato, ecc.), sono stati aggiunti nuovi filtri come Metriche calcolate, Attributi cliente, eVar, Prop, Video e così via per facilitare la ricerca dei componenti necessari. |
+| Nuovi filtri pronti all’uso | Alla barra di ricerca di sinistra sono stati aggiunti dei nuovi filtri pronti all’uso. Oltre a quelli già disponibili (Dimensioni, Metriche, Approvato, ecc.), sono stati aggiunti nuovi filtri come Metriche calcolate, Attributi cliente, eVar, Prop, Video e così via per facilitare la ricerca dei componenti necessari. |
 
 ## Maggio 2019
 
@@ -86,13 +86,13 @@ Miglioramento rilasciato l’11 aprile 2019.
 
 ## Gennaio 2019
 
-Nuove funzionalità e miglioramenti rilasciati il 17 gennaio 2019.
+Nuove funzionalità e miglioramenti rilasciati il 17 gennaio 2019.
 
 | Funzione | Descrizione |
 |--- |--- |
 | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | I miglioramenti principali dell’Analisi per coorte consentono di:<ul><li>Applicare separatamente le metriche di inclusione e di restituzione di un segmento. </li><li>Visualizzare l’abbandono invece della fidelizzazione.</li><li>Visualizzare tabelle di latenza (tempo trascorso prima e dopo un evento di inclusione).</li><li>Personalizzare la dimensione delle coorti (per raggruppare i visitatori in base a una eVar, non solo al tempo).</li><li>Eseguire un calcolo continuo per coorti: calcolare fidelizzazione e abbandono in base al periodo di tempo precedente, non alla coorte originale. </li><li>Aggiungere più metriche nei campi di inclusione e di ritorno, oltre che applicare i segmenti. (Le metriche calcolate non sono supportate)</li></ul> |
 | [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Questa nuova impostazione consente di visualizzare più dati in una singola schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. Accessibile da Progetto > Informazioni e impostazioni progetto. |
-| [Supporto per variabili con più valori in Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Alcune dimensioni in Analytics possono contenere più valori in un singolo hit, come ad esempio listVars, la variabile di prodotto, proprietà di elenco o eVars per merchandising. Analysis Workspace consente di applicare Attribution IQ a uno qualsiasi di questi tipi di variabili a livello di hit. |
+| [Supporto per variabili con più valori in Attribution IQ](attribution-iq.md) | Alcune dimensioni in Analytics possono contenere più valori in un singolo hit, come ad esempio listVars, la variabile di prodotto, proprietà di elenco o eVars per merchandising. Analysis Workspace consente di applicare Attribution IQ a uno qualsiasi di questi tipi di variabili a livello di hit. |
 | Miglioramenti delle prestazioni | È stata migliorata la velocità delle visualizzazioni con suddivisioni: i progetti con molte suddivisioni vengono caricati più rapidamente. |
 
 ## Novembre 2018
@@ -103,7 +103,7 @@ Nuove funzionalità e miglioramenti rilasciati il 1° novembre 2018.
 |--- |--- |
 | [Cura di progetti e VRS - Miglioramenti](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) | Le presenti modifiche sono state implementate in ottobre 2018. Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. <br> In precedenza, chiunque poteva vedere i componenti non curati facendo clic sul pulsante Mostra tutti i componenti. L’esperienza di gestione aggiornata consente un controllo più dettagliato sui componenti visibili.</br> |
 
-## Ottobre 2018
+## ottobre 2018
 
 Nuove funzionalità e ottimizzazioni rilasciate l’11 ottobre 2018.
 
@@ -117,7 +117,7 @@ Nuove funzionalità e ottimizzazioni rilasciate l’11 ottobre 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Gestione degli elenchi a discesa dei pannelli</b> </p> </td> 
-   <td colname="col2"> <p>Sono state apportate alcune modifiche alla gestione degli elenchi a discesa dei pannelli, introdotti con la versione di settembre. Quando si fa clic con il pulsante destro del mouse nell’elenco a discesa, ora è possibile: </p> 
+   <td colname="col2"> <p>Sono state apportate alcune modifiche alla gestione degli elenchi a discesa dei pannelli, introdotti con la versione di settembre. Quando si fa clic con il pulsante destro del mouse nell’elenco a discesa, ora è possibile:  </p> 
     <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD"> 
      <li id="li_EF8277BE972540D3B2604D82BC7C0918">Eliminare un elenco a discesa (questa opzione è sempre presente) </li> 
      <li id="li_6A991208F2744274817DBE1E9D1B443F">Eliminare un’etichetta (se era visualizzata) </li> 
@@ -153,7 +153,7 @@ Nuove funzionalità e ottimizzazioni rilasciate il 13 settembre 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nuovo modello: Consumo audio</b> </p> </td> 
-   <td colname="col2"> <p>Vedere <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Vedere <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,7 +193,7 @@ Nuove funzionalità e ottimizzazioni rilasciate il 19 luglio 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ consente di eseguire analisi più sofisticate e intelligenti sulle prestazioni di marketing. È possibile utilizzare nuovi modelli di attribuzione per le metriche in Analysis Workspace (su qualsiasi tabella o suddivisione) e le metriche calcolate. Il nuovo pannello Attribuzione facilita la visualizzazione e il raffronto. </p> </td> 
   </tr> 
   <tr> 
@@ -260,7 +260,7 @@ Nuove funzionalità e miglioramenti rilasciati il giovedì 10 maggio 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Suggerimento del giorno</b> </p> </td> 
-   <td colname="col2"> <p>Nell'angolo in fondo a destra dell'interfaccia saranno presenti i suggerimenti del giorno (insieme a un breve video). I suggerimenti ti consentono di acquisire familiarità con tantissime utili funzioni di Analysis Workspace. Puoi scegliere di ignorarli o di accedervi in qualsiasi momento tramite <span class="uicontrol">Guida</span> &gt; <span class="uicontrol">Tips</span> (Suggerimenti). </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
+   <td colname="col2"> <p>Nell’angolo in fondo a destra dell’interfaccia saranno presenti i suggerimenti del giorno (insieme a un breve video). I suggerimenti ti consentono di acquisire familiarità con tantissime utili funzioni di Analysis Workspace. Puoi scegliere di ignorarli o di accedervi in qualsiasi momento tramite <span class="uicontrol">Guida</span> &gt; <span class="uicontrol">Tips</span> (Suggerimenti). </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Modelli di segmento </a> e <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modelli di metriche calcolate </a></b> </p> </td> 
@@ -268,11 +268,11 @@ Nuove funzionalità e miglioramenti rilasciati il giovedì 10 maggio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Possibilità di scorrimento durante il trascinamento dei componenti</b> </p> </td> 
-   <td colname="col2"> <p>È ora possibile scorrere verso l'alto e verso il basso mentre si trascinano i componenti per spostarli in una nuova posizione. </p> </td> 
+   <td colname="col2"> <p>È ora possibile scorrere verso l’alto e verso il basso mentre si trascinano i componenti per spostarli in una nuova posizione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Informazioni aggiuntive sulle <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalie </a></b> </p> </td> 
-   <td colname="col2"> <p>Quando si passa il mouse su un'anomalia in un grafico a linee, l'informazione mostra la data e il valore non elaborato dell'anomalia. </p> </td> 
+   <td colname="col1"> <p><b>Informazioni aggiuntive sulle  <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalie </a></b> </p> </td> 
+   <td colname="col2"> <p>Quando si passa il mouse su un’anomalia in un grafico a linee, l’informazione mostra la data e il valore non elaborato dell’anomalia. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -339,7 +339,7 @@ Nuove funzionalità e miglioramenti rilasciati l’8 marzo 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Aggiornamenti dei modelli personalizzati </a> </p> </td> 
-   <td colname="col2"> <p>Per gli ultimi modelli rilasciati: </p> 
+   <td colname="col2"> <p>Per gli ultimi modelli rilasciati:  </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">È stata aggiunta un’icona modello nella parte superiore del progetto (vicino al titolo) che permette di differenziare meglio la modalità di modifica del modello rispetto all’utilizzo del modello come punto di partenza per un progetto. </li> 
      <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Gli utenti non amministratore possono creare (con Salva con nome) e modificare modelli di progetto Workspace, purché sia stata loro concessa l’autorizzazione per creare e curare i progetti in Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utenti)</span> &gt; <span class="uicontrol">Groups (Gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Analytics Tools (Personalizza strumenti di Analytics)</span> &gt; <span class="uicontrol">Create/Curate Projects in Analysis Workspace (Crea/Cura progetti in Analysis Workspace)</span></span>). </li> 
@@ -366,7 +366,7 @@ Nuove funzionalità e ottimizzazioni rilasciate l’8 febbraio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Finestra modale per l’avvio di un nuovo progetto </a> </p> </td> 
-   <td colname="col2"> <p>Facendo clic su “nuovo progetto” si apre una nuova finestra che permette di iniziare da: </p> 
+   <td colname="col2"> <p>Facendo clic su “nuovo progetto” si apre una nuova finestra che permette di iniziare da:  </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">un progetto vuoto, oppure </li> 
      <li id="li_23BD391D68674C299858A97BFE10598B">un modello Workspace standard (integrato), oppure </li> 
@@ -398,7 +398,7 @@ Nuove funzionalità e ottimizzazioni rilasciate l’8 febbraio 2018.
 
 ## Gennaio 2018
 
-Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
+Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
 
 <table id="table_7A2E678577F94BDABB1276C826E6554F"> 
  <thead> 
@@ -452,8 +452,8 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
    <td colname="col2"> <p>Precedentemente, quando copiavi un progetto o utilizzavi il comando “salva con nome”, tutti gli intra-link salvati nel progetto puntavano al progetto originale e non a quello copiato. </p> <p>Gli intra-link ora fanno riferimento al progetto a cui sono collegati, dopo l’operazione di copia o salvataggio con nome. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analisi dei contributi: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > notifica token </a> </p> </td> 
-   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.  </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span>).  </p> </td> 
+   <td colname="col1"> <p>Analisi dei contributi:<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > notifica token </a> </p> </td> 
+   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.  </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span>).  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File CSV con caratteri multibyte </p> </td> 
@@ -489,7 +489,7 @@ Nuova funzionalità rilasciata il 9 novembre 2017.
  </tbody> 
 </table>
 
-## Ottobre 2017
+## ottobre 2017
 
 Nuove funzionalità rilasciate il 26 ottobre 2017.
 
@@ -503,7 +503,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualizzazione mappa </a> </p> </td> 
-   <td colname="col2"> <p>La nuova visualizzazione mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>È possibile visualizzare i dati relativi alla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano SDK per Mobile) in Analysis Workspace.  </p> </td> 
+   <td colname="col2"> <p>La nuova visualizzazione mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>È possibile visualizzare i dati relativi alla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano SDK per Mobile) in Analysis Workspace.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Selettore di granularità per le visualizzazioni con tendenze </a> </p> </td> 
@@ -539,7 +539,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md"  > Avvisi: aggiunta dell’opzione <b>Rinnova</b> </a> </p> </td> 
-   <td colname="col2"> <p>In Gestione avvisi, quando sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su <span class="uicontrol"> Rinnova </span>. </p> <p>Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno in cui l’utente ha fatto clic su <span class="uicontrol">Rinnova </span>, indipendentemente dalla data di scadenza originale. </p> </td> 
+   <td colname="col2"> <p>In Gestione avvisi, quando sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su <span class="uicontrol">Rinnova</span>. </p> <p>Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno in cui l’utente ha fatto clic su <span class="uicontrol">Rinnova </span>, indipendentemente dalla data di scadenza originale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Miglioramenti dell’interfaccia utente </p> </td> 
@@ -762,7 +762,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nuovo <b>i <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > tasti di scelta rapida </a></b> </p> </td> 
+   <td colname="col1"> <p>Nuovo <b>i  <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > tasti di scelta rapida </a></b> </p> </td> 
    <td colname="col2"> <p>Sono stati aggiunti i seguenti tasti di scelta rapida: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Maiusc + 1 = vai al riquadro Panels (Pannelli) </li> 
@@ -787,11 +787,11 @@ Nuove funzionalità rilasciate il 20 aprile 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Modello Persone </a> </p> </td> 
-   <td colname="col2"> <p>Nota: il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op </a>. </p> <p>Il modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. </p> </td> 
+   <td colname="col2"> <p>Nota: il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a>. </p> <p>Il modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Miglioramenti all’opzione Annulla/Ripeti </p> </td> 
-   <td colname="col2"> <p>Questi elenchi mostrano quali azioni si possono <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > annullare/ripetere in Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>Questi elenchi mostrano quali azioni si possono  <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >annullare/ripetere in Analysis Workspace</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -864,12 +864,12 @@ Nuova funzionalità rilasciata il 10 novembre 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Confronto delle date </a> </p> </td> 
-   <td colname="col2"> <p>La nuova funzione di confronto delle date consente di utilizzare qualsiasi colonna per creare un confronto tra date comuni, ad esempio anno su anno, trimestre su trimestre, mese su mese e così via. </p> <p>I confronti tra date includono automaticamente una colonna Differenza, che mostra la variazione percentuale. </p> </td> 
+   <td colname="col2"> <p>La nuova funzione di confronto delle date consente di utilizzare qualsiasi colonna per creare un confronto tra date comuni, ad esempio anno su anno, trimestre su trimestre, mese su mese e così via. </p> <p>I confronti tra date includono automaticamente una colonna  Differenza, che mostra la variazione percentuale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Ottobre 2016
+## ottobre 2016
 
 Nuove funzionalità rilasciate il 20 ottobre 2016:
 
@@ -883,7 +883,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > Analisi abbandono </a></b> </td> 
-   <td colname="col2"> <p>La nuova funzione Abbandono integra in Analysis Workspace le funzionalità di marketing funnel. Un funnel consente di identificare dove i clienti abbandonano una campagna di marketing o deviano da un percorso di conversione definito durante l’interazione con il sito Web o una campagna su più canali. Analisi abbandono consente di creare funnel solidi con nuove visualizzazioni e con la flessibilità offerta da Analysis Workspace per identificare la conversione per metriche chiave di misurazione del successo. Analisi abbandono consente di: </p> <p> </p> 
+   <td colname="col2"> <p>La nuova funzione Abbandono integra in Analysis Workspace le funzionalità di marketing funnel. Un funnel consente di identificare dove i clienti abbandonano una campagna di marketing o deviano da un percorso di conversione definito durante l’interazione con il sito Web o una campagna su più canali. Analisi abbandono consente di creare funnel solidi con nuove visualizzazioni e con la flessibilità offerta da Analysis Workspace per identificare la conversione per metriche chiave di misurazione del successo. Analisi abbandono consente di:  </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto) </li> 
      <li id="li_CC85524BC64546CD84794CC02C24CF21">Effettuare analisi multidimensionali (combinando diversi valori, da varie dimensioni e metriche) </li> 
@@ -892,7 +892,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > Visualizzazione Flusso </a></b> </td> 
-   <td colname="col2"> <p>La nuova funzione flusso consente di visualizzare il flusso o il percorso dei clienti attraverso siti o app, tramite nuove visualizzazioni flessibili disponibili in Analysis Workspace, per scoprire come si spostano i clienti nei siti e nelle app. Flusso consente di: </p> <p> </p> 
+   <td colname="col2"> <p>La nuova funzione flusso consente di visualizzare il flusso o il percorso dei clienti attraverso siti o app, tramite nuove visualizzazioni flessibili disponibili in Analysis Workspace, per scoprire come si spostano i clienti nei siti e nelle app. Flusso consente di:  </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">Visualizzare il percorso seguito dal cliente attraverso le risorse </li> 
      <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">Analizzare i passaggi immediatamente successivi all’entrata, all’uscita o a uno specifico elemento dimensione nel percorso del cliente </li> 
@@ -919,7 +919,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Progetti iniziali </a></b> </td> 
-   <td colname="col2"> Per agevolare l’utilizzo di Analysis Workspace, sono disponibili alcuni modelli di progetto per problemi di business comuni, quali: <p> </p> 
+   <td colname="col2"> Per agevolare l’utilizzo di Analysis Workspace, sono disponibili alcuni modelli di progetto per problemi di business comuni, quali:  <p> </p> 
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
      <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">Mantenimento utenti </li> 
      <li id="li_7240EE8852FC4642B3AD4837C990A775">Acquisizione da app mobile </li> 
@@ -941,7 +941,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
      <li id="li_946EC05568D4447193E9307546DF6F9B">Filtro aggiunto alla barra di ricerca che consente di filtrare tag, preferiti, elementi approvati e componenti. </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Icona di anteprima aggiunta alle righe manuali (non alle righe dinamiche in cui vengono elencati gli elementi dimensione) tramite cui è possibile visualizzare in anteprima segmenti, metriche e intervalli di date. </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Collegamento YouTube alle esercitazioni di Analysis Workspace aggiornato in: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS </a>. </li> 
+      <!--AN-128702: -->Collegamento YouTube alle esercitazioni di Analysis Workspace aggiornato in: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>. </li> 
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->Per le visualizzazioni, è stata aggiunta al menu di scelta rapida l’opzione <span class="uicontrol">Ricomincia</span> (puoi utilizzarla da Flusso, Venn, Istogramma) che consente di eliminare la configurazione della visualizzazione corrente e di aprirla in un nuovo pannello da cui sarà possibile riconfigurarla. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">Una nuova impostazione di visualizzazione denominata “Visualizzazione legenda” consente di nascondere il testo dei dettagli del filtro della visualizzazione Numero di riepilogo/Variazione di riepilogo. </li> 
@@ -957,7 +957,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
 
 Nuove funzionalità rilasciate il 16 giugno 2016:
 
-* [Nuova autorizzazione](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) di gruppo che consente agli amministratori di consentire o negare l’accesso agli utenti **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** . Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
+* [Nuova autorizzazione di gruppo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html), che consente agli amministratori di concedere o negare l’accesso alla scheda **[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Workspace]** (Workspace). Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
 * Il [Pannello Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) rileva le differenze più importanti dal punto di vista statistico tra due segmenti attraverso un’analisi automatizzata di ciascuna metrica e dimensione a cui accedi.
 * [Nuova struttura menu di progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), che ridispone il menu principale e lo rende più estendibile. Ad esempio, la creazione di un **new Cohort Panel** (nuovo pannello coorte) implica la creazione di un pannello vuoto e il trascinamento nella tabella coorte.
 * [Nuova barra a sinistra](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Pannelli, Visualizzazioni, Componenti
@@ -969,7 +969,7 @@ Nuove funzionalità rilasciate il 16 giugno 2016:
 * Aggiornamenti minori:
 
    * Possibilità di eliminare tutte le visualizzazioni in un pannello e tutti i pannelli in un progetto. (In precedenza, era necessario mantenere almeno una visualizzazione o un pannello).
-   * Modifiche dei [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (tasti di scelta) che possono facilitare l’utilizzo di Analysis Workspace.
+   * Modifiche dei  [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (tasti di scelta) che possono facilitare l’utilizzo di Analysis Workspace.
    * Modifiche dello stile: font più piccoli nelle visualizzazioni; campioni colore sulle righe; spostamento in basso del selettore data (sui pannelli).
 
 ## Aprile 2016
@@ -986,7 +986,7 @@ Nuove funzionalità rilasciate il 21 aprile 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> Invia file </td> 
-   <td colname="col2"> <p>Invia un progetto di Analysis Workspace via e-mail o programmane la consegna. Vedi <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Invio di file - Programmazione di un progetto per la consegna </a>. </p> </td> 
+   <td colname="col2"> <p>Invia un progetto di Analysis Workspace via e-mail o programmane la consegna. Vedi <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >Invio di file - Programmazione di un progetto per la consegna</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Scarica PDF </td> 
@@ -1022,7 +1022,7 @@ Per annullare, fai clic su **[!UICONTROL Undo]** (Annulla) nel menu Azioni.
 
 Per annullare è inoltre possibile utilizzare i [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) standard di Windows e Mac (Ctrl/Comando+Z).
 
-*`Undo`* è un comando particolarmente utile quando si vogliono annullare le analisi nella tabella.
+*`Undo`* (Annulla) è un comando particolarmente utile quando si vogliono annullare le analisi nella tabella.
 
 Azioni *`not`* (non) eseguibili:
 
@@ -1035,7 +1035,7 @@ Azioni che eliminano la cronologia degli annullamenti:
 * Salvataggio del progetto.
 * Modifica della suite di rapporti.
 
-## Collega a questo progetto {#section_453E70F7409F4501B8E976A0D18C9A46}
+## Collega a questo progetto  {#section_453E70F7409F4501B8E976A0D18C9A46}
 
 In un progetto, fai clic su **[!UICONTROL Link to This Project]** (Collega a questo progetto) nel menu Azioni per inviare ad altri utenti, tramite e-mail, l’URL di un progetto salvato. In questo modo, i destinatari con autorizzazioni di livello amministratore potranno modificare e salvare un progetto condiviso. Diversamente, i progetti sono di sola lettura.
 
@@ -1071,7 +1071,7 @@ Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettan
 
 Quando il colore e le dimensioni sono in qualche modo legate con la struttura dell’albero, spesso si notano modelli che sarebbe difficile individuare in altri modi, ad esempio se un determinato colore è particolarmente rilevante. Un secondo vantaggio della struttura ad albero è rappresentato, per sua stessa natura, da un utilizzo efficiente dello spazio.
 
-## Opzione Salva con nome per segmenti, metriche e date {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## Opzione Salva con nome per segmenti, metriche e date  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Durante la modifica di un segmento esistente (salvato) con il Generatore di segmenti di Analysis Workspace, fai clic su **[!UICONTROL Save As]** (Salva con nome) per creare una copia.
 
@@ -1123,7 +1123,7 @@ In Impostazioni colonna, puoi applicare la formattazione condizionale ai dati de
  </tbody> 
 </table>
 
-## Anteprima dimensione {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Anteprima dimensione  {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Nel pannello dei componenti [!UICONTROL Dimensions] (Dimensioni), puoi passare il cursore sull’icona delle informazioni accanto a una dimensione per visualizzare un’anteprima delle cinque dimensioni principali.
 
@@ -1147,12 +1147,12 @@ A seconda dei valori specificati per i grafici a linee o area, la parte inferior
 
 ![](assets/anchor_Y_axis.png)
 
-## Nome progetto nel titolo della scheda {#section_497C61A030984BCCA2CEA553312C3226}
+## Nome progetto nel titolo della scheda  {#section_497C61A030984BCCA2CEA553312C3226}
 
 Quando si salva un progetto, il titolo della scheda nel browser verrà visualizzato come “`<Project Name>` (Nome progetto) - Analysis Workspace”. Questo miglioramento è utile se apri più progetti in più schede del browser.
 
-## Trasferimento della proprietà del progetto {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Trasferimento della proprietà del progetto  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Gli amministratori possono trasferire i progetti di [!UICONTROL Analysis Workspace] da un utente all’altro.
 
-Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** to transfer projects.
+Accedi a **[!UICONTROL Admin]** (Amministratore) > **[!UICONTROL User Management]** (Gestione utenti) > **[!UICONTROL Transfer]** (Trasferisci) per trasferire i progetti.
