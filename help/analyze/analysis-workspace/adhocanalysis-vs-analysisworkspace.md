@@ -2,8 +2,8 @@
 description: Confronta la terminologia e le attività di Ad Hoc Analysis ad Analysis Workspace.
 title: Confronto tra Analysis Workspace e Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,7 +14,7 @@ Confronta la terminologia e le attività di Ad Hoc Analysis ad Analysis Workspac
 
 Analysis Workspace porta moltissime delle funzionalità di Ad Hoc Analysis nel flusso di lavoro del browser. Anche se alcuni termini e funzionalità restano invariati tra i prodotti, in Analysis Workspace sono stati introdotti nuovi termini e approcci all’analisi.
 
-Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://marketing.adobe.com/resources/help/it_IT/reference/analytics-product-comparison.html).
+Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html).
 
 ## Confronto della terminologia chiave  {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +100,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Non incluso </p> </td> 
