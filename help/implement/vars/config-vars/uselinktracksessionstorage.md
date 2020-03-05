@@ -2,7 +2,7 @@
 title: useLinkTrackSessionStorage
 description: Archivia i dati di tracciamento dei collegamenti nell'archivio delle sessioni invece di un cookie.
 translation-type: tm+mt
-source-git-commit: e1a08ecd3d5eb41bce7ca91027249871c3b5b22f
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -14,9 +14,10 @@ Se l’organizzazione utilizza il tracciamento dei collegamenti, AppMeasurement 
 L&#39;utilizzo dell&#39;archivio delle sessioni di un browser per il tracciamento dei collegamenti presenta diverse limitazioni:
 
 * L&#39;archiviazione della sessione non funziona tra i protocolli. Ad esempio, è disponibile una pagina su HTTP e la pagina successiva su HTTPS. AppMeasurement non è in grado di accedere ai dati di tracciamento dei collegamenti nell&#39;archiviazione delle sessioni a causa delle differenze di protocollo.
-* L&#39;archiviazione delle sessioni non funziona tra i sottodomini. Ad esempio, un visitatore passa a `store.example.com`, quindi passa a `toys.example.com`. AppMeasurement non è in grado di accedere ai dati di tracciamento dei collegamenti nell&#39;archiviazione delle sessioni a causa di sottodomini diversi.
+* L&#39;archiviazione delle sessioni non funziona tra i sottodomini. Ad esempio, un visitatore passa a `store.example.com`, quindi passa a `toys.example.com`. AppMeasurement non può accedere ai dati di tracciamento dei collegamenti nell&#39;archiviazione delle sessioni a causa di sottodomini diversi.
 
 > [!TIP] L’implementazione più affidabile mediante l’archiviazione delle sessioni per il tracciamento dei collegamenti distribuisce tutto il contenuto tramite HTTPS su un singolo sottodominio.
+
 AppMeasurement rimuove i dati di tracciamento dei collegamenti dell&#39;archiviazione sessione dopo l&#39;invio di un hit ad Adobe. Inoltre scade automaticamente quando la scheda del browser viene chiusa.
 
 ## Utilizzare l&#39;archiviazione delle sessioni di tracciamento dei collegamenti in Adobe Experience Platform Launch
