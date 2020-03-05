@@ -11,7 +11,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
-Questa guida è incentrata sull'integrazione di più soluzioni Experience Cloud. Se cerchi connettori dati di Analytics, consulta la pagina [Connettori dati](/help/import/data-connectors/getting-started-data-connectors.md) nella guida utente Importazione.
+Questa guida è incentrata sull&#39;integrazione di più soluzioni Experience Cloud. Se cerchi connettori dati di Analytics, consulta la pagina [Connettori dati](/help/import/data-connectors/getting-started-data-connectors.md) nella guida utente Importazione.
 
 Descrive come configurare le integrazioni con altre soluzioni Adobe Experience Cloud come Audience Manager, Advertising Cloud o Target. Include:
 
