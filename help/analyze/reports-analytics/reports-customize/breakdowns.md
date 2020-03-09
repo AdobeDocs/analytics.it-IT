@@ -1,27 +1,27 @@
 ---
 description: Utilizzare le suddivisioni quando si desidera sapere di più su come un elemento o segmento del rapporto si relaziona con altri rapporti. Questo è spesso chiamato "scomposizione" di un rapporto di un altro rapporto.
-title: Breakdowns (Suddivisioni)
+title: Suddivisioni
 topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
 
 ---
 
 
-# Breakdowns (Suddivisioni)
+# Suddivisioni
 
-Utilizzare le suddivisioni quando si desidera sapere di più su come un elemento o segmento del rapporto si relaziona con altri rapporti. Questo è spesso chiamato "scomposizione" di un rapporto di un altro rapporto.
+Utilizzare le suddivisioni quando si desidera sapere di più su come un elemento o segmento del rapporto si relaziona con altri rapporti. Questo è spesso chiamato &quot;scomposizione&quot; di un rapporto di un altro rapporto.
 
-Un esempio è la suddivisione di un report sul traffico personalizzato denominato Age Group, in cui sono state raccolte le età dei visitatori del sito da un sondaggio. Questo rapporto consente di vedere quale fascia di età è responsabile per la maggior parte del traffico sul sito. Tuttavia, se hai avuto il problema di acquisire elementi come l’età di un visitatore, potresti voler sapere qualcosa di più che semplici visualizzazioni di pagina. È possibile generare un rapporto dettagliato sul motore di ricerca utilizzato, sulle parole chiave utilizzate o sulla posizione geografica. Si sta correlando il gruppo di età e il motore di ricerca.
+Un esempio è la suddivisione di un report sul traffico personalizzato denominato Age Group, in cui sono state raccolte le età dei visitatori del sito da un sondaggio. Questo rapporto consente di vedere quale fascia di età è responsabile per la maggior parte del traffico sul sito. Tuttavia, se hai avuto il problema di acquisire elementi come l’età di un visitatore, potresti voler sapere qualcosa di più che semplici visualizzazioni di pagina. È possibile generare un rapporto dettagliato sul motore di ricerca utilizzato, sulle parole chiave utilizzate o sulla posizione geografica in cui si trovano. Si sta correlando il gruppo di età e il motore di ricerca.
 
-Se si suddivide un rapporto per *`Referrer Type`*, è possibile che venga visualizzato un punto dati per *`Inside Your Site`*. Questo valore indica una pagina referente presente nell’elenco Filtri URL interni. Consultate Filtri [URL](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter.html) interni in Riferimento amministratore.
+Se si suddivide un rapporto per *`Referrer Type`*, è possibile che venga visualizzato un punto dati per *`Inside Your Site`*. Questo valore indica una pagina referente presente nell’elenco Filtri URL interni. Consultate Filtri [URL](/help/admin/admin/internal-url-filter-admin.md) interni in Riferimento amministratore.
 
 Puoi suddividere qualsiasi variabile di Analytics (eVar o prop) per qualsiasi altra variabile. Il **[!UICONTROL Breakdown By]** menu nella tabella dei report corrisponde al menu standard di reporting di Analytics, mantenendo le selezioni coerenti
 
 ## Eseguire un rapporto dettagliato {#task_F685624830E64C829C8BE6435A107F69}
 
-Passaggi che descrivono come eseguire un rapporto dettagliato.
+Passaggi che descrivono come eseguire un rapporto di suddivisione.
 
 <!-- 
 
@@ -29,10 +29,10 @@ t_reports_breakdown.xml
 
  -->
 
-1. Aprite il rapporto, ad esempio **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**.
+1. Aprite il rapporto, ad esempio **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
 1. Nella tabella del rapporto, fai clic sull’ **[!UICONTROL Breakdown By]** icona .
 
-   Se l' **[!UICONTROL Breakdown By]** icona non è visibile, la funzione non è disponibile o non è abilitata.
+   Se l&#39; **[!UICONTROL Breakdown By]** icona non è visibile, la funzione non è disponibile o non è abilitata.
 
    ![](assets/breakdown.png)
 
