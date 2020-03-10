@@ -4,7 +4,7 @@ title: Pubblicare segmenti in Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -118,6 +118,7 @@ In AAM, l&#39;elenco di visitatori con ECID per un determinato segmento viene va
 ![](assets/aam-traits.png)
 
 * Viene creato un segmento con una sola caratteristica. Utilizza l’origine dati associata alla suite di rapporti in cui hai pubblicato il segmento.
+* La scadenza della caratteristica ora è impostata su 16 giorni (in precedenza era di 2 giorni).
 
 ## Visualizza il segmento in [!DNL Adobe Target]
 
