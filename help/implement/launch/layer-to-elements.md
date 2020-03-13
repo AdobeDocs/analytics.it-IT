@@ -1,44 +1,36 @@
 ---
-description: 'null'
-title: Mappa oggetti livello dati su elementi dati
-uuid: null
+title: Mappatura di oggetti livello dati su elementi dati
+description: Configura Launch per la lettura dal livello dati.
 translation-type: tm+mt
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
 
-# Mappa oggetti livello dati su elementi dati
+# Mappatura di oggetti livello dati su elementi dati
 
+Una volta che l&#39;organizzazione ha stabilito e implementato un livello dati sul sito, è possibile mappare gli oggetti livello dati agli elementi dati all&#39;interno di Launch.
 
-Dopo aver [creato un livello](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html) dati per l’implementazione, puoi mappare gli oggetti al suo interno su elementi [dati in Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element). Gli elementi dati sono elementi costitutivi della mappa dati che possono essere utilizzati in diversi modi. Puoi utilizzare gli elementi dati per raccogliere, organizzare e distribuire dati tra le soluzioni Adobe Platform, inclusi i report di Analytics.
+## Prerequisiti
 
-Per mappare gli oggetti livello dati su elementi di dati di Launch:
+[Create un livello](../prepare/data-layer.md)dati: Assicuratevi che sul sito esista un livello dati. Sebbene sia tecnicamente possibile mappare qualsiasi oggetto JavaScript o scollegare elementi CSS direttamente dalla pagina, Adobe consiglia questa procedura come ultima risorsa. Se il layout del sito cambia, i selettori CSS utilizzati in Launch cessano di funzionare, causando la perdita di dati.
 
-1. In Launch, fare clic sul nome della proprietà a cui si desidera aggiungere l&#39;elemento dati. Se non è già stata impostata una proprietà, vedere le istruzioni per [creare una proprietà](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html)di avvio.
+## Utilizzo di Adobe Experience Platform Launch per creare elementi di dati
 
-2. Fai clic su **Elementi** dati e quindi su **Crea nuovo elemento** dati.
+[Gli elementi](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) dati sono componenti di Launch utilizzabili in tutto lo strumento. Puoi assegnare valori variabili nell’estensione Adobe Analytics utilizzando gli elementi dati.
+
+1. Vai ad [Adobe Experience Platform Launch](https://launch.adobe.com) ed effettua l&#39;accesso, se richiesto.
+1. Fare clic sulla proprietà Launch desiderata.
+1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
 
    ![crea elemento dati](assets/createelement.png)
 
+1. Inserisci un nome per l’elemento dati. Può trattarsi di un&#39;etichetta semplice che corrisponde a una variabile JavaScript nel livello dati da monitorare.
+1. Nel [!UICONTROL Extension] menu a discesa, selezionate [!UICONTROL Core].
+1. Nel [!UICONTROL Data Element Type] menu a discesa, selezionate [!UICONTROL JavaScript Variable]. A destra viene visualizzato un campo di testo che consente di inserire la variabile JavaScript da associare a questo elemento di dati.
+1. Inserite la variabile Javascript desiderata, in genere all’interno del livello dati. Ad esempio, se il livello dati della tua organizzazione corrisponde strettamente alla pratica consigliata da Adobe, un valore potrebbe essere `digitalData.page.pageInfo.pageName`. È possibile utilizzare la console del browser per convalidare la sintassi e i valori delle variabili JavaScript.
+1. Fai clic su [!UICONTROL Save].
 
-3. Inserisci un nome per l’elemento dati. Questo nome deve essere una semplice etichetta che corrisponde a una variabile JavaScript nel livello dati da monitorare.
+## Passaggi successivi
 
-4. Per Estensione, selezionate **Core.** Questa estensione include tutte le variabili necessarie.
-
-5. For **Data Element Type**, select **JavaScript Variable**. Immettete il nome **della variabile** Javascript nel campo applicabile. Deve corrispondere al nome esatto dell&#39;oggetto nel livello dati JavaScript.
-
-6. Per Valore **** predefinito, immettete il valore da stabilire per impostazione predefinita oppure lasciatelo vuoto, se appropriato.
-
-7. In base alle procedure, è possibile selezionare le opzioni per applicare valori in lettere minuscole e applicare testo pulito (Launch applica la spaziatura convenzionale).
-
-8. Specificate la durata per la quale desiderate avere i valori dello store Launch per il nuovo elemento dati.
-
-9. Fai clic su **Salva.**
-
-L’esempio seguente mostra un elemento dati Nome pagina in Launch creato per la variabile JavaScript ``pageName`` nel livello dati:
-
-![Specifica elemento](assets/new_element.png)
-
-
-Con gli oggetti livello dati mappati a elementi dati, puoi utilizzarli per compilare le variabili Analytics. Per ulteriori informazioni, vedi [Mappare gli elementi dati alle variabili](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html)Analytics.
+[Mappatura degli elementi dati sulle variabili](elements-to-variable.md)di Analytics: Assegnare elementi di dati alle variabili di Analytics in modo da poterli utilizzare come dimensioni in Analysis Workspace.
