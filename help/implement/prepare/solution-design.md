@@ -2,7 +2,7 @@
 title: Creare un documento di progettazione della soluzione
 description: Scopri cos’è un documento di progettazione della soluzione e come utilizzarlo nell’organizzazione.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ Esistono anche diversi partner Adobe specializzati nella creazione di documenti 
 
 Implementa le variabili nel documento di progettazione della soluzione.
 
-* Introduzione alle eVar: Scopri cos&#39;è un&#39;eVar, come funziona e come utilizzarne una nell&#39;implementazione
-* Introduzione agli eventi: Scopri cos’è un evento di successo, come funziona e come utilizzarlo nell’implementazione
+[Create un livello](data-layer.md)dati: Tradurre le variabili nel documento di progettazione in variabili JavaScript sul sito.
