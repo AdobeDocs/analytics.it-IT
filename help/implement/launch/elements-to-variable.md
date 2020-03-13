@@ -1,38 +1,52 @@
 ---
-description: 'null'
-title: Mappatura di elementi dati su variabili Analytics
-uuid: null
+title: Mappatura degli elementi dei dati di Launch alle variabili Analytics
+description: Assegnare elementi di dati alle variabili di Analytics in modo da poterli utilizzare come dimensioni in Analysis Workspace.
 translation-type: tm+mt
 source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
 
 ---
 
 
-# Mappa gli elementi dei dati di avvio sulle variabili di Analytics
+# Mappatura degli elementi dei dati di Launch alle variabili Analytics
 
+Dopo aver memorizzato un archivio degli elementi di dati in Adobe Experience Platform Launch, puoi assegnarli alle dimensioni di Analytics.
 
-Dopo aver [mappato gli oggetti del livello dati sugli elementi](https://docs.adobe.com/content/help/en/analytics/implementation/layer-to-elements.md)di dati di Launch, puoi mappare gli elementi dati sulle variabili [di](https://docs.adobe.com/content/help/en/analytics/implementation/vars/overview.html)Analytics.
+## Prerequisiti
 
-Per mappare gli elementi dei dati di Launch alle variabili di Analytics:
+[Mappare gli oggetti livello dati agli elementi](layer-to-elements.md)dati: Accertatevi di comprendere gli elementi dei dati in Launch e di disporre di diversi elementi con cui lavorare.
 
-1. Se applicabile, assegnare l’elemento dati a una variabile globale. Alcuni elementi di dati, come Nome ** pagina, si applicano a tutte le pagine di una proprietà. In casi come questo, potete impostare la variabile a livello globale effettuando le seguenti operazioni:
+[Crea un documento](../prepare/solution-design.md)di progettazione della soluzione: Un documento di progettazione della soluzione è fondamentale per rimanere organizzati. Seguendo il documento di progettazione della soluzione, l&#39;assegnazione di elementi di dati alle variabili Analytics risulta semplificata.
 
-2. In Launch, scorri verso il basso e fai clic su **Extensions Catalog**.
+## Assegnazione di elementi dati alle variabili di Analytics
 
-   ![Catalogo delle estensioni](assets/extensions.png)
+La pubblicazione di una libreria in Launch dopo aver seguito questi passaggi consente di utilizzare dimensioni personalizzate in Analysis Workspace. Puoi impostare le variabili di Analytics a livello globale o in singole regole.
 
-3. Fai clic su **Configura** in Analytics.
+### Imposta variabili globali
 
-   ![Estensione Analytics](assets/configure.png)
+Le variabili globali sono ideali nei casi in cui si desidera impostare valori variabili su tutte le pagine in cui esiste l’elemento dati.
 
+1. Vai ad [Adobe Experience Platform Launch](https://launch.adobe.com) ed effettua l&#39;accesso, se richiesto.
+1. Fare clic sulla proprietà Launch desiderata.
+1. Fai clic su [!UICONTROL Extensions tab], quindi fai clic [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Fare clic sul [!UICONTROL Global variables] pannello a soffietto, che mostra l&#39;interfaccia per assegnare variabili globali.
 
-4. In **eVar** in Variabili **** globali, selezionate la [eVar impostata](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) per essere associata alla variabile. Selezionate **Imposta come**, quindi fate clic sull&#39;icona a barre nel campo più a destra per specificare l&#39;elemento dati.
+### Impostazione di variabili nelle regole
 
-   ![Specifica eVar](assets/evars.png)
+Le variabili impostate nelle regole sono ideali nei casi in cui non si desidera impostare variabili su ogni pagina. Definite i criteri nella regola. Consulta [Regole](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) nella guida utente di Adobe Experience Platform Launch.
 
-5. Nella finestra a comparsa **Seleziona elemento** dati, selezionare l&#39;elemento dati da applicare alla variabile.
+1. Vai ad [Adobe Experience Platform Launch](https://launch.adobe.com) ed effettua l&#39;accesso, se richiesto.
+1. Fare clic sulla proprietà Launch desiderata.
+1. Fare clic sulla [!UICONTROL Rules] scheda, quindi sulla regola desiderata (o crearne una).
+1. Click the [!UICONTROL Add] button under [!UICONTROL Actions].
+1. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e su [!UICONTROL Action Type] Imposta variabili.
+1. Fate clic sull&#39;icona dell&#39;elemento [!D](assets/data-element.png) dati a destra della variabile Analytics desiderata. Il documento [di progettazione della](../prepare/solution-design.md) soluzione dell&#39;organizzazione stabilisce quale variabile Analytics usare.
+1. Selezionare l&#39;elemento dati desiderato nella finestra modale. Fai clic su [!UICONTROL Select].
+1. Il nome dell’elemento dati viene aggiunto al campo di testo circondato da `%` segni. Ad esempio, se l&#39;elemento dati è denominato &quot;Nome pagina&quot;, verrà visualizzata la stringa `%Page name%` quando si assegna un elemento dati a una variabile.
 
-6. Fai clic su **Salva.**
+> [!TIP] È possibile concatenare elementi di dati nella stessa variabile. Ad esempio, se disponete di un elemento dati &quot;Nome host&quot; e di un elemento dati &quot;Nome percorso&quot;, potete combinare entrambi in una singola variabile utilizzando `%Hostname%%Pathname%`.
 
+## Passaggi successivi
 
-In alternativa, se l&#39;elemento dati non è associato a una variabile globale, è possibile [creare semplicemente una regola](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) che assegna gli elementi dati a prop o evar.
+[Variabili](../vars/page-vars/page-variables.md)pagina: Scopri le variabili a livello di pagina che puoi utilizzare nell’implementazione per ottenere di più dalle dimensioni in Analysis Workspace.
+
+[Variabili](../vars/config-vars/configuration-variables.md)di configurazione: Scopri le variabili di configurazione che puoi utilizzare nella tua implementazione per sbloccare ulteriori funzionalità in Adobe Analytics.
