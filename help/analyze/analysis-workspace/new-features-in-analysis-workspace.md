@@ -5,12 +5,21 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
 
 # Scopri le novità di Analysis Workspace
+
+## Marzo 2020
+
+Nuove funzionalità rilasciate il 12 marzo 2020.
+
+| Funzione | Descrizione |
+|--- |--- |
+| Supporto per più suite di rapporti in Workspace | Ora puoi inserire dati da più suite di rapporti in un unico progetto per visualizzarli uno accanto all&#39;altro. [Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Modello Esercitazione formazione | Questo nuovo modello standard illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco. [Per saperne di più...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Febbraio 2020
 
@@ -18,7 +27,6 @@ Nuove funzionalità rilasciate il 20 febbraio 2020.
 
 | Funzione | Descrizione |
 |--- |--- |
-| Supporto per più suite di rapporti in Workspace | Ora puoi inserire dati da più suite di rapporti in un unico progetto per visualizzarli uno accanto all&#39;altro. A partire dal 20 febbraio 2020, la funzionalità verrà distribuita a tutti i clienti nel corso di diverse settimane. [Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Nuovo modello Workspace per le organizzazioni che utilizzano l’analisi tra dispositivi | Questo modello mostra l’efficacia di CDA nel raggruppare le visite e nel fornire informazioni sulle dimensioni e metriche esclusive di CDA. È necessaria una suite di report che utilizza CDA. Per ulteriori informazioni, consulta [Configurazione di Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html). |
 | Nuovi tasti di scelta rapida in Workspace | <ul><li>Collapse/Expand All panels (Comprimi/espandi tutti i pannelli): `alt + m`</li><li>Collapse/Expand Active panel (Comprimi/espandi pannello attivo): `alt + ctrl + m`</li><li>Search left rail (Barra sinistra di ricerca): `ctrl + /`</li><li>Move to next panel (Passa al pannello successivo): `alt + Right Key`</li><li>Move to previous panel (Passa al pannello precedente): `alt + Left Key`</li></ul>[Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Altri miglioramenti di Workspace | <ul><li>Quando un pannello o una visualizzazione viene rilasciato in Workspace, la barra a sinistra passa automaticamente ai componenti per un flusso di lavoro più semplice.</li><li>I componenti modello ora possono essere attivati (ad esempio con tag, preferiti, approvati).</li><li>Gli elenchi di metriche filtrate e segmenti offrono il pulsante + per aggiungere un nuovo componente, se non trovate ciò che vi serve.</li></ul> |
