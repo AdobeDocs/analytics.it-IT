@@ -3,7 +3,7 @@ description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 Puoi scegliere di creare un progetto in base a:
 
-* **Progetto vuoto (predefinito)**: Per istruzioni, consulta [Creazione di un progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)Analysis Workspace.
+* **Progetto vuoto (predefinito)**: Per istruzioni, consulta [Creazione di un progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)di Analysis Workspace.
 * **Modello** standard: Questi modelli vengono creati da Adobe e vengono forniti con il prodotto.
 * **Modello** personalizzato: Questi modelli possono essere creati, condivisi o eliminati da utenti con diritti di amministratore o da non amministratori, a condizione che dispongano dell’ [!UICONTROL Analysis Workspace: Save as Template] autorizzazione in Admin Console. [Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
@@ -25,7 +25,7 @@ Puoi scegliere di creare un progetto in base a:
 Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato effettuando le seguenti operazioni:
 
 1. Apri il progetto.
-1. Vai a **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
+1. Vai a **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Save As Template]** (Salva come modello).
 
    ![](assets/save_project_template.png)
 
@@ -33,7 +33,7 @@ Gli utenti con diritti di amministratore possono trasformare qualunque progetto 
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, i modelli di progetto sono visibili a tutti gli utenti dell’organizzazione. Puoi utilizzare dei tag per organizzare i modelli. (Go to **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** to edit tags and descriptions.)
+   >Per impostazione predefinita, i modelli di progetto sono visibili a tutti gli utenti dell’organizzazione. Puoi utilizzare dei tag per organizzare i modelli. (Vai a **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Project Info & Settings]** (Informazioni e impostazioni progetto) per modificare tag e descrizioni.)
 
 ### Azioni eseguibili sui modelli personalizzati
 
@@ -41,7 +41,7 @@ Gli utenti con diritti di amministratore possono trasformare qualunque progetto 
 
 | Azione | Descrizione |
 |--- |--- |
-| Modificare un modello | Consente a un amministratore di modificare il modello cambiandone l’origine dati e modificando componenti, visualizzazioni, intervalli di date ecc.  Sono disponibili due modi per modificare un modello personalizzato:<ul><li>Visualizza l’elenco dei modelli personalizzati in Analysis Workspace, selezionane uno e fai clic su Modifica modello, oppure</li><li>In Analytics, vai a Componenti > Progetti, quindi applica il filtro Modelli. Fai clic sul nome del modello da modificare.</li></ul>**Nota:** dopo aver modificato un modello, a seconda della situazione, puoi scegliere Salva o Salva con nome. Queste sono le differenze tra le due opzioni:<ul><li>**** Salva: Aggiorna il modello personalizzato per tutti gli utenti. Quando un altro utente crea un progetto basato su questo modello personalizzato, vedrà le modifiche che hai apportato.</li><li>**** Salva con nome: Crea una copia del modello personalizzato con le modifiche apportate. (Per verificare che sia attiva la modalità di modifica, controlla che la voce di menu Condividi > Condividi progetto sia disabilitata.)</li></ul> |
+| Modificare  un modello | Consente a un amministratore di modificare il modello cambiandone l’origine dati e modificando componenti, visualizzazioni, intervalli di date ecc.  Sono disponibili due modi per modificare un modello personalizzato: <ul><li>Visualizza l’elenco dei modelli personalizzati in Analysis Workspace, selezionane uno e fai clic su Modifica modello, oppure</li><li>In Analytics, vai a Componenti > Progetti, quindi applica il filtro Modelli. Fai clic sul nome del modello da modificare.</li></ul>**Nota:** dopo aver modificato un modello, a seconda della situazione, puoi scegliere Salva o Salva con nome. Queste sono le differenze tra le due opzioni:<ul><li>**Salva:** Aggiorna il modello personalizzato per tutti gli utenti. Quando un altro utente crea un progetto basato su questo modello personalizzato, vedrà le modifiche che hai apportato.</li><li>**Salva con nome:** Crea una copia del modello personalizzato con le modifiche apportate. (Per verificare che sia attiva la modalità di modifica, controlla che la voce di menu Condividi > Condividi progetto sia disabilitata.)</li></ul> |
 | Cercare nei modelli | Nella finestra di dialogo Modelli personalizzati, fai clic su Cerca modelli. |
 | Ordinare i modelli | Puoi organizzare i modelli in ordine alfabetico, per rilevanza e per data di creazione.  Nella finestra di dialogo Modelli personalizzati, fai clic su Ordina:. |
 | Applicare tag a un modello | Apri il modello e vai a Progetto > Informazioni e impostazioni progetto. Fai clic su Aggiungi tag. |
@@ -56,7 +56,9 @@ Puoi usare questi modelli precompilati così come sono o adattarli alle tue esig
 
 [Modelli standard in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Di seguito sono riportati i modelli disponibili e le domande che ogni modello può rispondere:
+Di seguito sono riportati i modelli disponibili e le domande che ogni modello può rispondere.
+
+* **Esercitazione** di formazione: Questo modello standard illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
 
 ### Pubblicità
 
@@ -64,7 +66,7 @@ Di seguito sono riportati i modelli disponibili e le domande che ogni modello pu
 >
 >I modelli pubblicitari sono disponibili solo se la suite di rapporti è abilitata per Advertising Cloud.
 
-* **Motori di ricerca**: questo modello suddivide tendenze pubblicitarie, piattaforme di annunci, parole chiave, account, campagne e altro ancora.
+* **Motori** di ricerca a pagamento: Questo modello suddivide tendenze pubblicitarie, piattaforme di annunci, parole chiave, account, campagne e altro ancora.
 
 ### Commercio
 
@@ -106,7 +108,7 @@ Di seguito sono riportati i modelli disponibili e le domande che ogni modello pu
 
 > [!NOTE] Il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
-Si basa sulla metrica Persone, una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di:
+Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di: 
 
 * Segmentare i dati relativi a USA/Canada rispetto al resto del mondo. Device Co-op attualmente è disponibile solo nel Nord America.
 * Affiancare e confrontare le metriche Persone e Visitatori unici.
@@ -128,7 +130,7 @@ Questo modello consente di visualizzare dati di prestazioni cross-device vitali.
    * **Utilizzando il grafico Co-op o il grafico** Privato: In generale, le organizzazioni che utilizzano la cooperativa dispositivi tendono a visualizzare tassi di compressione migliori rispetto alle organizzazioni che utilizzano il grafico privato.
    * **Velocità** di accesso: Più utenti accedono al sito, più Adobe è in grado di identificare e unire i visitatori tra i dispositivi. Anche i siti con un basso tasso di accesso hanno bassi tassi di compressione.
    * **Copertura** Experience Cloud ID: È possibile unire solo i visitatori con un ECID. Una percentuale inferiore di visitatori del sito che utilizza un ECID è correlata a tassi di compressione più bassi.
-   * **Utilizzo** di più dispositivi: Se i visitatori del sito non utilizzano più dispositivi, è possibile visualizzare percentuali di compressione inferiori.
+   * **Utilizzo** di più dispositivi: Se i visitatori del sito non utilizzano più dispositivi, è possibile visualizzare percentuali di compressione più basse.
    * **Granularità** del reporting: La compressione per giorno è generalmente inferiore alla compressione per mese o anno. Le possibilità di un singolo di utilizzare più dispositivi diventano più ridotte entro un singolo giorno rispetto a un intero mese. Segmentazione, filtraggio o utilizzo di dimensioni di suddivisione può anche mostrare una minore frequenza di compressione.
 * **Segmenti** basati sulle persone: Contiene un elenco a discesa dei segmenti che consente di visualizzare dati specifici per il dispositivo. Questo pannello incoraggia la sperimentazione con i segmenti per vedere in che modo i report possono essere influenzati dall&#39;inclusione o esclusione di tipi di dispositivi.
 * **Analisi del percorso** cross-device: Fornisce rapporti di flusso e di abbandono in base al tipo di dispositivo.
