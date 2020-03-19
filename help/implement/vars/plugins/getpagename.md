@@ -2,16 +2,16 @@
 title: getPageName
 description: Crea un pageName di facile lettura dal percorso del sito Web corrente.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:getPageName
+# Plug-in Adobe: getPageName
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `getPageName` plug-in crea una versione semplice e intuitiva dell’URL corrente. Adobe consiglia di utilizzare questo plug-in se desiderate un `pageName` valore facile da impostare e comprendere nei rapporti. Questo plug-in non è necessario se disponete già di una struttura di denominazione per la `pageName` variabile, ad esempio attraverso un livello dati. È indicato quando non si dispone di un&#39;altra soluzione per impostare la `pageName` variabile.
+Il `getPageName` plug-in crea una versione semplice e intuitiva dell’URL corrente. Adobe consiglia di utilizzare questo plug-in se desiderate un [`pageName`](../page-vars/pagename.md) valore facile da impostare e comprendere nei rapporti. Questo plug-in non è necessario se disponete già di una struttura di denominazione per la `pageName` variabile, ad esempio attraverso un livello dati. È indicato quando non si dispone di un&#39;altra soluzione per impostare la `pageName` variabile.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ var getPageName=function(si,qv,hv,de){var c=location.hostname,f=location.pathnam
 
 Il `getPageName` metodo utilizza i seguenti argomenti:
 
-* **`si`**(facoltativo, stringa): Un ID inserito all&#39;inizio della stringa che rappresenta l&#39;ID del sito. Questo valore può essere un ID numerico o un nome descrittivo. Se non è impostata, viene impostata automaticamente sul dominio corrente.
-* **`qv`**(facoltativo, stringa): Elenco delimitato da virgole di parametri di stringa di query che, se trovati nell’URL, vengono aggiunti alla stringa
-* **`hv`**(facoltativo, stringa): Elenco delimitato da virgole di parametri trovati nell’hash dell’URL che, se trovati nell’URL, vengono aggiunti alla stringa
-* **`de`**(facoltativo, stringa): Il delimitatore per suddividere singole parti della stringa. Impostazione predefinita di una tubazione (`|`).
+* **`si`** (facoltativo, stringa): Un ID inserito all&#39;inizio della stringa che rappresenta l&#39;ID del sito. Questo valore può essere un ID numerico o un nome descrittivo. Se non è impostata, viene impostata automaticamente sul dominio corrente.
+* **`qv`** (facoltativo, stringa): Elenco delimitato da virgole di parametri di stringa di query che, se trovati nell’URL, vengono aggiunti alla stringa
+* **`hv`** (facoltativo, stringa): Elenco delimitato da virgole di parametri trovati nell’hash dell’URL che, se trovati nell’URL, vengono aggiunti alla stringa
+* **`de`** (facoltativo, stringa): Il delimitatore per suddividere singole parti della stringa. Impostazione predefinita di una tubazione (`|`).
 
 Il metodo restituisce una stringa contenente una versione in formato semplice dell&#39;URL. Questa stringa viene in genere assegnata alla `pageName` variabile, ma può essere utilizzata anche in altre variabili.
 
