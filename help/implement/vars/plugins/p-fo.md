@@ -2,16 +2,16 @@
 title: p_fo (solo pagina prima)
 description: Assicurarsi che alcune routine vengano attivate una sola volta per pagina.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:p_fo (solo pagina prima)
+# Plug-in Adobe: p_fo (solo pagina prima)
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `p_fo` plug-in è un&#39;utility che verifica l&#39;esistenza di un oggetto JavaScript specifico. Se l&#39;oggetto non esiste, il plug-in crea l&#39;oggetto e restituisce `true`. Se l&#39;oggetto JavaScript esiste già sulla pagina, restituisce `false`. Questo plug-in è utile per eseguire il codice esattamente una volta su una pagina. Molti altri plug-in dipendono da questo codice per funzionare. Questo plug-in non è necessario se non siete preoccupati del numero di volte in cui il codice viene eseguito su una pagina o se non utilizzate plug-in dipendenti.
+Il `p_fo` plug-in è un&#39;utility che verifica l&#39;esistenza di un oggetto JavaScript specifico. Se l&#39;oggetto non esiste, il plug-in crea l&#39;oggetto e restituisce `true`. Se l&#39;oggetto JavaScript esiste già sulla pagina, restituisce `false`. Questo plug-in è utile per eseguire il codice esattamente una volta su una pagina. Molti altri plug-in dipendono da questo codice per funzionare. Questo plug-in non è necessario se non si è preoccupati del numero di volte in cui il codice viene eseguito su una pagina o se non si utilizzano plug-in dipendenti.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -74,7 +74,7 @@ if(s.p_fo("myobject"))
 }
 ```
 
-**** NOTA: Ogni volta che un nuovo oggetto pagina/DOM viene caricato (o la pagina corrente viene ricaricata), l&#39;oggetto specificato nell&#39;argomento on non esisterà più e quindi il plug-in p_for restituirà nuovamente true la prima volta che viene eseguito al termine del caricamento della pagina.
+**NOTA:** Ogni volta che un nuovo oggetto pagina/DOM viene caricato (o la pagina corrente viene ricaricata), l&#39;oggetto specificato nell&#39;argomento on non esisterà più e quindi il plug-in p_for restituirà nuovamente true la prima volta che viene eseguito al termine del caricamento della pagina.
 
 ## Cronologia versioni
 
