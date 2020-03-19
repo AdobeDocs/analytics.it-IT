@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 Per i siti che utilizzano il commercio, le entrate e la valuta sono una parte importante di Analytics. Molti siti, soprattutto quelli che si estendono su più paesi, utilizzano valute diverse. Utilizzare la `currencyCode` variabile per assicurarsi che gli attributi delle entrate siano nella valuta corretta.
 
-Se non `currencyCode` è definito, i valori monetari definiti dalla `products` variabile e gli eventi valutari sono trattati come se fossero uguali alla valuta della suite di rapporti. Consulta Impostazioni [account](/help/admin/admin/general-acct-settings-admin.md) generali nella guida per l&#39;utente amministratore per visualizzare la valuta della suite di rapporti.
+Se non `currencyCode` è definito, i valori monetari definiti dalla [`products`](../page-vars/products.md) variabile e gli eventi valutari sono trattati come se fossero uguali alla valuta della suite di rapporti. Consulta Impostazioni [account](/help/admin/admin/general-acct-settings-admin.md) generali nella guida per l&#39;utente amministratore per visualizzare la valuta della suite di rapporti.
 
 Se `currencyCode` è definito e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
 
@@ -30,7 +30,7 @@ Codice valuta è un campo situato sotto la struttura di [!UICONTROL General] nav
 3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
 4. Espandere la [!UICONTROL General] struttura a soffietto, che mostra il [!UICONTROL Currency Code] campo.
 
-È possibile utilizzare un codice di valuta predefinito o personalizzato. Se si utilizza un codice valuta personalizzato, assicurarsi che il codice sia valido.
+È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se si utilizza un codice valuta personalizzato, assicurarsi che il codice sia valido.
 
 ## s.currencyCode nell&#39;editor di codice personalizzato AppMeasurement e Launch
 
@@ -40,7 +40,7 @@ La `s.currencyCode` variabile è una stringa contenente un codice maiuscolo di 3
 s.currencyCode = "USD";
 ```
 
-Sono validi i seguenti codici valuta:
+Sono validi i seguenti codici di valuta:
 
 | Codice della valuta | Descrizione valuta |
 | --- | --- |
@@ -51,7 +51,7 @@ Sono validi i seguenti codici valuta:
 | `ANG` | Guilde d&#39;Atille Olandesi |
 | `AOA` | Angola Kwanza |
 | `ARS` | Pesos Argentina |
-| `AUD` | Dollari Australia |
+| `AUD` | Dollaro australiano |
 | `AWG` | Aruba Guilders |
 | `AZM` | Manat Azerbaijan |
 | `BAM` | Bosnia-Erzegovina Marka convertibile |
@@ -59,7 +59,7 @@ Sono validi i seguenti codici valuta:
 | `BDT` | Bangladesh Taka |
 | `BGN` | Bulgaria Leva |
 | `BHD` | Dinari del Bahrein |
-| `BIF` | Franchi Burundi |
+| `BIF` | Franchi del Burundi |
 | `BMD` | Dollaro delle Bermuda |
 | `BND` | Dollaro del Brunei |
 | `BOB` | Bolivia |
@@ -117,7 +117,7 @@ Sono validi i seguenti codici valuta:
 | `JMD` | Dollari Giamaica |
 | `JOD` | Dinari giordani |
 | `JPY` | Yen del Giappone |
-| `KES` | Kenia |
+| `KES` | Kenia Scillings |
 | `KGS` | Soma del Kirghizistan |
 | `KHR` | Cambogia Riels |
 | `KMF` | Comore Francs |
@@ -147,13 +147,13 @@ Sono validi i seguenti codici valuta:
 | `MVR` | Maldive Rufiyaa |
 | `MWK` | Malawi Kwacha |
 | `MXN` | Pesos messicani |
-| `MYR` | Malesia Ringget |
+| `MYR` | Malesia Ringgits |
 | `MZM` | Mozambico Meticais |
 | `NAD` | Dollari Namibia |
 | `NGN` | Nigeria Nairas |
 | `NIO` | Nicaragua Gold Cordobas |
 | `NOK` | Norvegia Kroner |
-| `NPR` | Rupie Nepal |
+| `NPR` | Rupie del Nepal |
 | `NZD` | Dollaro neozelandese |
 | `OMR` | Oman Rials |
 | `PAB` | Panama Balbos |
@@ -173,9 +173,9 @@ Sono validi i seguenti codici valuta:
 | `SDD` | Dinari sudanesi |
 | `SEK` | Corona svedese |
 | `SGD` | Dollari Singapore |
-| `SHP` | Sant&#39;Elena |
+| `SHP` | Sant&#39;Helena |
 | `SIT` | Talleri Slovenia |
-| `SKK` | Slovacchia |
+| `SKK` | Repubblica Slovacca |
 | `SLL` | Sierra Leone |
 | `SOS` | Somalia Scellino |
 | `SPL` | Seborga Luigini |
@@ -198,7 +198,7 @@ Sono validi i seguenti codici valuta:
 | `UAH` | Ucraina |
 | `UGX` | Scelte ugandesi |
 | `USD` | Dollaro statunitense |
-| `UYU` | Pesos Uruguay |
+| `UYU` | Pesos dell&#39;Uruguay |
 | `UZS` | Uzbekistan |
 | `VEB` | Venezuela Bolivares |
 | `VND` | Dong del Vietnam |
