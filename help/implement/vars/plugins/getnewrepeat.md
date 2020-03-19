@@ -2,7 +2,7 @@
 title: getNewRepeat
 description: Consente di tenere traccia dell’attività dei visitatori nuovi e ripetuti.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,7 +55,7 @@ s.getNewRepeat=function(d){d=d?d:30;var s=this,p="s_nr"+d,b=new Date,e=s.c_r(p),
 
 Il `getNewRepeat` metodo utilizza i seguenti argomenti:
 
-* **`d`**(numero intero, facoltativo): Il numero minimo di giorni necessari tra le visite per ripristinare i visitatori`"New"`. Se questo argomento non è impostato, per impostazione predefinita è 30 giorni.
+* **`d`** (numero intero, facoltativo): Il numero minimo di giorni necessari tra le visite per ripristinare i visitatori `"New"`. Se questo argomento non è impostato, per impostazione predefinita è 30 giorni.
 
 Questo metodo restituisce il valore di `"New"` se il cookie impostato dal plug-in non esiste o è scaduto. Restituisce il valore di `"Repeat"` se il cookie impostato dal plug-in esiste e la quantità di tempo dall&#39;hit corrente e l&#39;ora impostata nel cookie è maggiore di 30 minuti. Questo metodo restituisce lo stesso valore per un’intera visita.
 
