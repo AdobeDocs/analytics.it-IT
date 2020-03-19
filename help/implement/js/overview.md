@@ -2,7 +2,7 @@
 title: AppMeasurement per JavaScript
 description: Scopri come implementare Adobe Analytics utilizzando JavaScript senza un sistema di gestione dei tag.
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -29,7 +29,7 @@ AppMeasurement per JavaScript è stato storicamente un metodo comune per impleme
    s.trackingServer = "example.omtrdc.net";
    ```
 
-3. Definite le variabili a livello di pagina nel codice della pagina del sito. Queste variabili determinano specifiche dimensioni e metriche inviate ad Adobe. Consulta Variabili [di](../vars/page-vars/page-variables.md) pagina per un elenco completo delle variabili definibili.
+3. Definite le variabili a livello di pagina nel codice della pagina del sito. Queste variabili determinano specifiche dimensioni e metriche inviate ad Adobe. Consulta Variabili [di](../vars/page-vars/page-variables.md) pagina per un elenco completo delle variabili che puoi definire.
 
    ```js
    s.pageName = "Example page";
@@ -37,7 +37,7 @@ AppMeasurement per JavaScript è stato storicamente un metodo comune per impleme
    s.events = "event1";
    ```
 
-4. Quando tutte le variabili a livello di pagina sono definite, inviate i dati ad Adobe utilizzando la `t` funzione. See [t](../vars/functions/t-method.md) for more information.
+4. Quando tutte le variabili a livello di pagina sono definite, inviate i dati ad Adobe utilizzando il `t()` metodo . See [t](../vars/functions/t-method.md) for more information.
 
    ```js
    s.t();
