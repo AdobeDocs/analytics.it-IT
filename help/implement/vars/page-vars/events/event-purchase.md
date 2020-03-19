@@ -1,15 +1,15 @@
 ---
-title: Evento acquisto
+title: Evento di acquisto
 description: Utilizzare l'evento di acquisto per raccogliere i dati per le metriche 'Ordini', 'Unità' e 'Entrate'.
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Evento acquisto
+# Evento di acquisto
 
-L&#39;evento acquisto è un valore nella `events` variabile. Questo valore è utile per le organizzazioni che desiderano raccogliere dati sulle entrate generate dal loro sito. Dipende fortemente dalle `products` e dalle `purchaseID` variabili.
+L&#39;evento acquisto è un valore nella `events` variabile. Questo valore è utile per le organizzazioni che desiderano raccogliere dati sulle entrate generate dal loro sito. Dipende fortemente dalle [`products`](../products.md) e dalle [`purchaseID`](../purchaseid.md) variabili.
 
 Quando imposti un evento di acquisto, questo incide sulle metriche seguenti:
 
