@@ -2,7 +2,7 @@
 title: getPreviousValue
 description: Ottenere l'ultimo valore passato in una variabile.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 
 Il `getPreviousValue` metodo utilizza i seguenti argomenti:
 
-* **`v`**(stringa, obbligatorio): Variabile con il valore che si desidera passare alla richiesta immagine successiva. Una variabile comune utilizzata è`s.pageName`per recuperare il valore della pagina precedente.
-* **`c`**(stringa, facoltativo): Nome del cookie che memorizza il valore.  Se questo argomento non è impostato, per impostazione predefinita viene impostato su`"s_gpv"`.
+* **`v`** (stringa, obbligatorio): Variabile con il valore che si desidera passare alla richiesta immagine successiva. Una variabile comune utilizzata è `s.pageName` per recuperare il valore della pagina precedente.
+* **`c`** (stringa, facoltativo): Nome del cookie che memorizza il valore.  Se questo argomento non è impostato, per impostazione predefinita viene impostato su `"s_gpv"`.
 
-Quando si chiama questo metodo, restituisce il valore stringa contenuto nel cookie. Il plug-in quindi ripristina la scadenza del cookie e gli assegna il valore variabile dall&#39; `v` argomento. Il cookie scade dopo 30 minuti di inattività.
+Quando si chiama questo metodo, restituisce il valore stringa contenuto nel cookie. Il plug-in quindi ripristina la scadenza del cookie e gli assegna il valore della variabile dall&#39; `v` argomento. Il cookie scade dopo 30 minuti di inattività.
 
 ## Chiamate di esempio
 
@@ -92,7 +92,7 @@ if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 
 ### Esempio n. 4
 
-Il codice seguente imposta s.eVar10 come valore passato in s.eVar1 nella richiesta di immagine precedente.   Il precedente valore eVar1 sarebbe stato contenuto nel cookie &quot;s_gpv&quot;.  Il codice imposta quindi il cookie &quot;s_gpv&quot; uguale al valore corrente di s.eVar1.
+Il codice seguente imposta s.eVar10 uguale al valore passato in s.eVar1 nella richiesta di immagine precedente.   Il valore eVar1 precedente sarebbe stato contenuto nel cookie &quot;s_gpv&quot;.  Il codice imposta quindi il cookie &quot;s_gpv&quot; uguale al valore corrente di s.eVar1.
 
 ```js
 s.eVar10 = s.getPreviousValue(s.eVar1)
@@ -126,7 +126,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
 
-Quando viene eseguita la funzione di chiamata s.t(), viene creata una richiesta di immagine in cui s.pageName=&quot;page 2&quot; e s.prop7 è uguale a &quot;Happy value&quot;, che era il valore di s.pageName quando è stata effettuata l’ultima chiamata a getPreviousValue.   Il valore s.prop7 di &quot;home&quot; non è mai stato incluso in alcuna richiesta di immagine reale anche se &quot;home&quot; era il primo valore passato in s.pageName.
+Quando viene eseguita la funzione di chiamata s.t(), viene creata una richiesta di immagine in cui s.pageName=&quot;page 2&quot; e s.prop7 è uguale a &quot;Happy value&quot;, che era il valore di s.pageName quando è stata effettuata l’ultima chiamata a getPreviousValue.   Il valore s.prop7 di &quot;home&quot; non è mai stato incluso in alcuna richiesta di immagine reale, anche se &quot;home&quot; era il primo valore passato in s.pageName.
 
 ## Cronologia versioni
 
