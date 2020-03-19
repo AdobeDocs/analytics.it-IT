@@ -2,16 +2,16 @@
 title: linkExternalFilters
 description: Utilizza la variabile linkExternalFilters per facilitare il tracciamento automatico dei collegamenti in uscita.
 translation-type: tm+mt
-source-git-commit: 8f7baa770f800ffe800e760f1eca59911d3db348
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkExternalFilters
 
-AppMeasurement consente di tenere traccia automaticamente dei collegamenti che puntano all’esterno del sito. In caso `trackExternalLinks` affermativo, `true`viene inviata una richiesta di immagine ad Adobe direttamente quando un visitatore fa clic su un collegamento per uscire dal sito. Le `linkTrackExternalFilters` e `linkTrackInternalFilters` le variabili determinano quali collegamenti vengono considerati interni/esterni.
+AppMeasurement offre la possibilità di tracciare automaticamente i collegamenti che puntano all&#39;esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) è abilitata, una richiesta di immagine viene inviata ad Adobe direttamente quando un visitatore fa clic su un collegamento per uscire dal sito. Le `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) le variabili determinano quali collegamenti vengono considerati interni/esterni.
 
-Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta in modo simile alla whitelist. Se un clic di collegamento non corrisponde ad alcun `linkExternalFilters` valore, non viene considerato un collegamento di uscita. L’intero URL viene analizzato rispetto a questa variabile. Se `linkLeaveQueryString` è `true`, viene esaminata anche la stringa di query.
+Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta in modo simile alla whitelist. Se un clic di collegamento non corrisponde ad alcun `linkExternalFilters` valore, non viene considerato un collegamento di uscita. L’intero URL viene analizzato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
 
 > [!TIP] Utilizzate questa variabile solo se conoscete esattamente i domini che desiderate considerare come collegamenti di uscita. Molte organizzazioni ritengono che l&#39;uso `linkInternalFilters` sia sufficiente per le loro esigenze di tracciamento dei collegamenti in uscita e non lo utilizzano `linkExternalFilters`.
 
@@ -44,7 +44,7 @@ Considerate il seguente esempio di implementazione come se fosse attivato `adobe
   s.linkExternalFilters = "example.com,example.net";
 </script>
 
-<!-- The following link is not considered an exit link, even though the link is outside adobe.com -->
+<!-- The following link is NOT considered an exit link, even though the link is outside adobe.com -->
 <a href = "example.org">Example link 1</a>
 
 <!-- The following link is an exit link because it matches the linkExternalFilters whitelist -->
