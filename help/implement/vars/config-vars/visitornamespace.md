@@ -2,16 +2,16 @@
 title: visitorNameSpace
 description: Variabile ritirata che ha determinato il dominio del cookie.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # visitorNamespace
 
-> [!IMPORTANT] Questa variabile è ritirata. Usa `trackingServer` invece.
+> [!IMPORTANT] Questa variabile è ritirata. Usa [`trackingServer`](trackingserver.md) invece.
 
-Nelle versioni precedenti di Adobe Analytics, AppMeasurement utilizzava la `visitorNameSpace` variabile per determinare il sottodominio di `2o7.net` dove vengono memorizzati i cookie dei visitatori. L&#39;aumento delle pratiche di privacy nei browser moderni rende meno affidabili i cookie di terze parti. Con l&#39;introduzione delle `trackingServer` variabili e delle `trackingServerSecure` variabili, non `visitorNameSpace` è più necessario.
+Nelle versioni precedenti di Adobe Analytics, AppMeasurement utilizzava la `visitorNameSpace` variabile per determinare il sottodominio di `2o7.net` dove vengono memorizzati i cookie dei visitatori. L&#39;aumento delle pratiche di privacy nei browser moderni rende meno affidabili i cookie di terze parti. Con l&#39;introduzione delle `trackingServer` variabili e delle [`trackingServerSecure`](trackingserversecure.md) variabili, non `visitorNameSpace` è più necessario.
 
 > [!TIP] Adobe consiglia di utilizzare cookie di prime parti sul sito. I cookie di prime parti non utilizzano questa variabile.
 
@@ -30,7 +30,7 @@ Adobe consiglia di non utilizzare questo campo. Usa `trackingServer` e `tracking
 
 La `s.visitorNamespace` variabile è una stringa che contiene un valore univoco per organizzazione. Le vecchie librerie AppMeasurement includevano automaticamente questo valore univoco quando venivano scaricate dalle versioni precedenti di Adobe Analytics. Le librerie AppMeasurement correnti non utilizzano questa variabile a meno che `trackingServer` e non `trackingServerSecure` siano impostate.
 
-Se la vostra organizzazione richiede ancora questa variabile, scegliete un valore che rappresenti la vostra organizzazione. Puoi archiviare questo valore in un documento [di progettazione di una](../../prepare/solution-design.md)soluzione.
+Se la vostra organizzazione richiede ancora questa variabile, scegliete un valore che rappresenti la vostra organizzazione. È possibile memorizzare questo valore in un documento [di progettazione di una](../../prepare/solution-design.md)soluzione.
 
 ```js
 // If trackingServer is not set, cookies are stored under example.112.2o7.net
