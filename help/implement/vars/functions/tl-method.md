@@ -2,16 +2,16 @@
 title: tl
 description: Invia una chiamata di tracciamento dei collegamenti ad Adobe.
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # tl
 
-Il `tl` metodo è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe. Funziona in modo simile al `t` metodo, ma questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati un caricamento di pagina completo.
+Il `tl()` metodo è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe. Funziona in modo simile al [`t()`](t-method.md) metodo, ma questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati un caricamento di pagina completo.
 
-Se `trackDownloadLinks` o `trackExternalLinks` sono abilitati, AppMeasurement chiama automaticamente il `tl` metodo per inviare i dati di tracciamento dei collegamenti di download e di uscita. Se l&#39;organizzazione preferisce avere maggiore controllo sui collegamenti da monitorare e sul loro comportamento, puoi chiamare il `tl` metodo manualmente. I collegamenti personalizzati possono essere tracciati solo manualmente.
+Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) sono abilitati, AppMeasurement chiama automaticamente il `tl()` metodo per inviare i dati di tracciamento dei collegamenti di download e di uscita. Se l&#39;organizzazione preferisce avere maggiore controllo sui collegamenti da monitorare e sul loro comportamento, puoi chiamare il `tl()` metodo manualmente. I collegamenti personalizzati possono essere tracciati solo manualmente.
 
 ## Chiamata di tracciamento dei collegamenti in Adobe Experience Platform Launch
 
@@ -44,10 +44,10 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 L&#39;argomento dell&#39;oggetto link determina se il browser attende fino a 500 ms prima di uscire dalla pagina. Se una richiesta di immagine viene inviata prima di 500 ms, la pagina passa immediatamente al collegamento selezionato.
 
-> [!NOTE] AppMeasurement abilita automaticamente la `useBeacon` variabile per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più comunemente nelle versioni precedenti di AppMeasurement.
+> [!NOTE] AppMeasurement abilita automaticamente la [`useBeacon`](../config-vars/usebeacon.md) variabile per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più frequentemente nelle versioni precedenti di AppMeasurement.
 
 * `this`: Attendi fino a 500 ms per concedere ad AppMeasurement il tempo necessario per inviare una richiesta di immagine. Valore predefinito.
-* `true`: Non aspetti.
+* `true`: Non aspettate.
 
 ```JavaScript
 // Include a 500ms delay
@@ -59,7 +59,7 @@ s.tl(true);
 
 ### Tipo di collegamento
 
-L’argomento tipo di collegamento è una stringa a lettera singola che determina il tipo di chiamata di tracciamento dei collegamenti. È la stessa impostazione della `linkType` variabile.
+L’argomento del tipo di collegamento è una stringa a lettera singola che determina il tipo di chiamata di tracciamento dei collegamenti. È la stessa impostazione della [`linkType`](../config-vars/linktype.md) variabile.
 
 ```js
 // Send a custom link
@@ -74,7 +74,7 @@ s.tl(true,"e");
 
 ### Nome collegamento
 
-L’argomento nome collegamento è una stringa che determina il valore della dimensione di tracciamento del collegamento. È la stessa impostazione della `linkName` variabile.
+L’argomento del nome del collegamento è una stringa che determina il valore della dimensione di tracciamento del collegamento. È la stessa impostazione della [`linkName`](../config-vars/linkname.md) variabile.
 
 ```js
 s.tl(true,"d","Example download link");
