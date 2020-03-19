@@ -2,7 +2,7 @@
 title: rfl
 description: Rimuovere un valore specifico da una stringa delimitata da caratteri.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `rfl` plug-in consente di rimuovere in modo &quot;sicuro&quot; i valori dalle stringhe delimitate, come `events`, `products`, le variabili di elenco e altri. Questo plug-in è utile per rimuovere valori specifici da una stringa delimitata senza preoccuparsi dei delimitatori. Molti altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta, o se non si utilizzano plug-in dipendenti.
+Il `rfl` plug-in consente di rimuovere in modo &quot;sicuro&quot; i valori dalle stringhe delimitate, ad esempio [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)ecc. Questo plug-in è utile per rimuovere valori specifici da una stringa delimitata senza preoccuparsi dei delimitatori. Molti altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta, o se non si utilizzano plug-in dipendenti.
 
 Il plug-in utilizza la logica seguente:
 
@@ -47,7 +47,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,11 +60,11 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 Il `rfl` metodo utilizza i seguenti argomenti:
 
-* **`lv`**(obbligatorio, stringa): Variabile (o stringa) contenente un elenco di valori delimitati
-* **`vr`**(obbligatorio, stringa): Il valore da rimuovere dall&#39;`lv`argomento. Adobe consiglia di rimuovere più valori durante una singola`rfl`chiamata.
-* **`d1`**(facoltativo, stringa): Il delimitatore utilizzato dall&#39;`lv`argomento. Il valore predefinito è una virgola (`,`).
-* **`d2`**(facoltativo, stringa): Il delimitatore da utilizzare per la stringa di ritorno. Il valore predefinito è lo stesso dell&#39;`d1`argomento.
-* **`df`**(facoltativo, booleano): Se`true`, forza solo le istanze duplicate dell&#39;`vr`argomento dall&#39;`lv`argomento invece di tutte le istanze. Il valore predefinito è`false`se non è impostato.
+* **`lv`** (obbligatorio, stringa): Variabile (o stringa) contenente un elenco di valori delimitati
+* **`vr`** (obbligatorio, stringa): Il valore da rimuovere dall&#39; `lv` argomento. Adobe consiglia di rimuovere più valori durante una singola `rfl` chiamata.
+* **`d1`** (facoltativo, stringa): Il delimitatore utilizzato dall&#39; `lv` argomento. Il valore predefinito è una virgola (`,`).
+* **`d2`** (facoltativo, stringa): Il delimitatore da utilizzare per la stringa di ritorno. Il valore predefinito è lo stesso dell&#39; `d1` argomento.
+* **`df`** (facoltativo, booleano): Se `true`, forza solo le istanze duplicate dell&#39; `vr` argomento dall&#39; `lv` argomento invece di tutte le istanze. Il valore predefinito è `false` se non è impostato.
 
 Se si chiama questo metodo, viene restituita una stringa modificata contenente l’ `lv` argomento ma senza le istanze (o istanze duplicate) del valore specificato nell’ `vr` argomento.
 
@@ -328,7 +328,7 @@ s.events = s.rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-L&#39;impostazione di più valori nell&#39;argomento vr non è supportata. La logica rfl nell&#39;esempio precedente suddividerebbe prima i valori nell&#39;argomento lv (cioè s.events), quindi provate a far corrispondere ogni valore delimitato al valore completo dell&#39;argomento vr (cioè &quot;event23,event24&quot;).
+L&#39;impostazione di più valori nell&#39;argomento vr non è supportata. La logica rfl nell&#39;esempio precedente suddividerebbe prima i valori nell&#39;argomento lv (es.s.events), quindi provate a far corrispondere ogni valore delimitato al valore completo dell&#39;argomento vr (es. &quot;event23,event24&quot;).
 
 ### Esempio n. 13
 
@@ -373,7 +373,7 @@ s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-Gli ultimi tre argomenti (cioè &quot;,&quot;,&quot;,&quot;, false) alla fine di questa chiamata s.rfl non sono necessari ma non &quot;fanno male a nulla&quot; se ci sono presenti perché corrispondono alle impostazioni predefinite.
+Gli ultimi tre argomenti (vale a dire &quot;,&quot;,&quot;,&quot;, false) alla fine di questa chiamata s.rfl non sono necessari ma non &quot;fanno male a nulla&quot; se ci sono presenti perché corrispondono alle impostazioni predefinite.
 
 ### Esempio n. 15
 
