@@ -2,7 +2,7 @@
 title: contextData
 description: Le variabili di dati di contesto consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere.
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -36,7 +36,7 @@ s.contextData["example_variable"] = "Example value";
 
 1. Aggiorna l’implementazione per impostare i nomi e i valori delle variabili di dati di contesto.
 2. Accedete ad Adobe Analytics e andate ad Admin > Suite di rapporti.
-3. Selezionate la suite di rapporti desiderata, quindi selezionate Modifica impostazioni > Generale > Regole di elaborazione.
+3. Selezionate la suite di rapporti desiderata, quindi passate a Modifica impostazioni > Generale > Regole di elaborazione.
 4. Crea una regola di elaborazione che imposta una variabile di Analytics sul valore della variabile di dati di contesto.
 5. Salvare le modifiche.
 
@@ -44,7 +44,7 @@ Le regole di elaborazione diventano effettive immediatamente dopo il salvataggio
 
 ## Invio di dati contestuali in una chiamata di tracciamento dei collegamenti
 
-Includi la variabile di dati contestuali come proprietà di `contextData` in `s.linkTrackVars`:
+Includi la variabile di dati contestuali come proprietà di `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
