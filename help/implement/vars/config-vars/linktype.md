@@ -2,7 +2,7 @@
 title: linkType
 description: Utilizzate la variabile linkType per determinare a quale dimensione di tracciamento dei collegamenti appartiene l’hit.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,11 +15,11 @@ Gli hit di tracciamento dei collegamenti possono compilare una delle tre dimensi
 * Collegamenti di uscita
 * Collegamenti di download
 
-Utilizzare la `linkType` variabile per determinare quale dimensione si desidera compilare quando si esegue la `tl()` funzione successiva.
+Utilizzare la `linkType` variabile per determinare quale dimensione si desidera compilare quando si esegue la [`tl()`](../functions/tl-method.md) funzione successiva.
 
 ## Tipo di collegamento in Adobe Experience Platform Launch
 
-Impostate il tipo di collegamento quando configurate una regola per l&#39;invio di un beacon.
+Impostate il tipo di collegamento al momento della configurazione di una regola per l&#39;invio di un beacon.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
@@ -32,13 +32,13 @@ Impostate il tipo di collegamento quando configurate una regola per l&#39;invio 
 
 ## s.linkType nell&#39;editor di codice personalizzato AppMeasurement e Launch
 
-La `s.linkType` variabile è una stringa che accetta uno dei tre valori a carattere singolo: `o`, `d`o `e`. Se una `tl()` funzione viene chiamata senza un tipo di collegamento, per impostazione predefinita viene impostata su Personalizza.
+La `s.linkType` variabile è una stringa che accetta uno dei tre valori a carattere singolo: `o`, `d`o `e`. Se un `tl()` metodo viene chiamato senza un tipo di collegamento, per impostazione predefinita viene utilizzato il collegamento Personalizzato.
 
 * `o` - Collegamenti personalizzati
 * `d` - Collegamenti di download
 * `e` - Collegamenti di uscita
 
-> [!TIP] Questa variabile è il secondo parametro della `tl()` funzione e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkType` variabile se non si desidera impostare i valori come argomenti nella `tl()` funzione.
+> [!TIP] Questa variabile è il secondo parametro del `tl()` metodo e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkType` variabile se non si desidera impostare i valori come argomenti nel `tl()` metodo.
 
 ```js
 s.linkType = "e";
