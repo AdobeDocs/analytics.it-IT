@@ -2,7 +2,7 @@
 title: getPercentPageViewed
 description: Recuperate la percentuale della pagina visualizzata dal visitatore.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -26,7 +26,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -45,8 +45,8 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 Il `getPercentPageViewed` metodo utilizza i seguenti argomenti:
 
-* **`pid`**(facoltativo, stringa):  Un identificatore basato sulla pagina può essere correlato alle percentuali fornite dalle misurazioni del plug-in.  Il valore predefinito è la`pageName`variabile.
-* **`ch`**(facoltativo, booleano):  Impostate questo valore su`false`(o`0`) se non desiderate che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il caricamento iniziale. Se omesso, l&#39;argomento verrà impostato per impostazione predefinita su`true`. Nella maggior parte dei casi, Adobe consiglia di omettere questo argomento.
+* **`pid`** (facoltativo, stringa):  Un identificatore basato sulla pagina può essere correlato alle percentuali fornite dalle misurazioni del plug-in.  Il valore predefinito è la `pageName` variabile.
+* **`ch`** (facoltativo, booleano):  Impostate questo valore su `false` (o `0`) se non desiderate che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il caricamento iniziale. Se omesso, l&#39;argomento verrà impostato per impostazione predefinita su `true`. Nella maggior parte dei casi, Adobe consiglia di omettere questo argomento.
 
 La chiamata di questo metodo non restituisce nulla; imposta invece le seguenti variabili:
 
@@ -82,7 +82,7 @@ if(s._ppvPreviousPage)
    * Il codice imposta s.prop1 uguale al valore di s._ppvPreviousPage (ovvero il valore precedente di s.pageName o la pagina precedente)
    * Il codice imposta anche s.prop2 uguale alla percentuale più alta visualizzata della pagina precedente e alla percentuale iniziale visualizzata della pagina precedente, insieme al numero di cartelle raggiunte dal visitatore e al numero di cartelle disponibili
 
-**Nota**:  Se un’intera pagina viene visualizzata al primo caricamento, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali a 100, sia le cartelle visualizzate che le cartelle disponibili saranno uguali a 1.   Quando un&#39;intera pagina NON è visibile quando viene caricata per la prima volta ma il visitatore non scorre mai verso il basso prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
+**Nota**:  Se un’intera pagina viene visualizzata al primo caricamento, sia la percentuale massima visualizzata che la percentuale iniziale visualizzata saranno uguali a 100, sia le cartelle visualizzate che le cartelle disponibili saranno uguali a 1.   Quando un&#39;intera pagina NON è visibile quando viene caricata per la prima volta ma il visitatore non scorre mai verso il basso prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
 
 ### Esempio n. 2
 
@@ -111,5 +111,5 @@ if(s._ppvPreviousPage)
 
 ### v3.0 (13 aprile 2018)
 
-* Rilascio punto (ricompilato, dimensioni codice più piccole)
+* Rilascio punto (ricompilato, dimensioni del codice più piccole)
 * Il plug-in ora crea variabili da assegnare alle variabili Adobe Analytics invece dei valori restituiti
