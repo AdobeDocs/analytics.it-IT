@@ -2,7 +2,7 @@
 title: trackingServerSecure
 description: Consente di determinare la posizione in cui le richieste di immagini vengono inviate sulle pagine HTTPS.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -22,7 +22,7 @@ Adobe raccoglie i dati sul sito ricevendo una richiesta di immagine generata dal
 3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
 4. Espandere la [!UICONTROL General] struttura a soffietto, che mostra il [!UICONTROL SSL Tracking Server] campo.
 
-Se questo campo viene lasciato vuoto, per impostazione predefinita viene utilizzato il valore nella `trackingServer` variabile.
+Se questo campo viene lasciato vuoto, per impostazione predefinita viene utilizzato il valore nella [`trackingServer`](trackingserver.md) variabile.
 
 ## s.trackingServerSecure in AppMeasurement e Launch editor di codice personalizzato
 
