@@ -2,14 +2,14 @@
 title: clearVars
 description: Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (li imposta come "undefined").
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # clearVars
 
-Alcune implementazioni, come nelle applicazioni a pagina singola, richiedono più hit inviati sullo stesso caricamento di pagina. Utilizzare il `clearVars` metodo per cancellare i valori delle variabili in modo che non persistano negli hit successivi.
+Alcune implementazioni, come nelle applicazioni a pagina singola, richiedono più hit inviati sullo stesso caricamento di pagina. Utilizzare il `clearVars()` metodo per cancellare i valori delle variabili in modo che non persistano negli hit successivi.
 
 Questo metodo non accetta argomenti e non restituisce alcun valore. Il suo unico scopo è cancellare i valori variabili dall&#39;oggetto instance. Questo metodo imposta gli elementi seguenti su `undefined`:
 
