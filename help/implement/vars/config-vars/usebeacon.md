@@ -2,7 +2,7 @@
 title: useBeacon
 description: useBeacon consente di forzare AppMeasurement a utilizzare l'API sendBeacon dei browser
 translation-type: tm+mt
-source-git-commit: 58513f012bdbd1143601221985a399ed46916664
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 58513f012bdbd1143601221985a399ed46916664
 
 La maggior parte dei browser moderni include il metodo nativo `navigator.sendBeacon()`. Invia in modo asincrono una piccola quantità di dati su HTTP a un server Web. AppMeasurement può utilizzare il `navigator.sendBeacon()` metodo se la `useBeacon` variabile è abilitata. È utile per i collegamenti di uscita e altre situazioni in cui si desidera inviare informazioni prima che la pagina venga scaricata.
 
-Se `useBeacon` è abilitata, l&#39;hit successivo inviato ad Adobe utilizza il metodo del browser `navigator.sendBeacon()` invece di una richiesta di `GET` immagine standard. Questa variabile si applica sia alle richieste `s.t()` che alle richieste di `s.tl()` immagini. Richiede AppMeasurement 2.17.0 o versione successiva.
+Se `useBeacon` è abilitata, l&#39;hit successivo inviato ad Adobe utilizza il metodo del browser `navigator.sendBeacon()` invece di una richiesta di `GET` immagine standard. Questa variabile si applica sia alle richieste [`s.t()`](../functions/t-method.md) che alle richieste di [`s.tl()`](../functions/tl-method.md) immagini. Richiede AppMeasurement 2.17.0 o versione successiva.
 
 > [!TIP] AppMeasurement abilita automaticamente `useBeacon` le richieste di immagini di collegamento in uscita.
 
