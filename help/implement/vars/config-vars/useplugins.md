@@ -2,14 +2,14 @@
 title: usePlugins
 description: Abilitare o disabilitare la funzione doPlugins().
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # usePlugins
 
-Se `usePlugins` è abilitata, la `doPlugins()` funzione viene eseguita immediatamente prima della compilazione di AppMeasurement e invia un hit ad Adobe. Abilitate questa variabile se utilizzate la `doPlugins()` funzione.
+Se `usePlugins` è abilitata, la [`doPlugins()`](../functions/doplugins.md) funzione viene eseguita immediatamente prima della compilazione di AppMeasurement e invia un hit ad Adobe. Abilitare questa variabile se si utilizza la `doPlugins()` funzione.
 
 ## Utilizzo dei plug-in in Adobe Experience Platform Launch
 
