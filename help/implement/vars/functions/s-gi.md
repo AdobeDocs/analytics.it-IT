@@ -2,7 +2,7 @@
 title: s_gi()
 description: Crea e monitora le istanze di AppMeasurement.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel documento [di progettazione della](../../prepare/solution-design.md)soluzione aziendale.
+> [!CAUTION] Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel documento [di progettazione della](../../prepare/solution-design.md)soluzione aziendale.
 
 ## Gestire più implementazioni utilizzando diversi oggetti di tracciamento
 
