@@ -2,7 +2,7 @@
 title: Panoramica sui plug-in
 description: Incolla il codice sul sito per introdurre nuove funzionalità.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,7 +21,7 @@ Adobe offre diversi modi per installare un determinato plug-in:
 
 Ogni organizzazione ha esigenze di implementazione diverse, pertanto puoi decidere come includerle nella tua implementazione. Quando includete il codice nel sito, accertatevi di soddisfare i seguenti criteri:
 
-1. Creare innanzitutto un&#39;istanza dell&#39;oggetto di tracciamento di Analytics (che utilizza `s_gi`).
+1. Creare innanzitutto un&#39;istanza dell&#39;oggetto di tracciamento di Analytics (che utilizza [`s_gi`](../functions/s-gi.md)).
    * Avvia crea automaticamente un&#39;istanza dell&#39;oggetto di tracciamento quando Adobe Analytics viene caricato.
    * Le implementazioni che utilizzano in `AppMeasurement.js` genere inizializzano l&#39;oggetto di tracciamento nella parte superiore del file JavaScript.
 2. Includi codice plug-in secondo.
