@@ -2,16 +2,16 @@
 title: getVisitDuration
 description: Tieni traccia del tempo trascorso sul sito da un visitatore.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:getVisitDuration
+# Plug-in Adobe: getVisitDuration
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `getVisitDuration` plug-in tiene traccia del tempo in minuti trascorso sul sito fino a quel momento. Adobe consiglia di utilizzare questo plug-in se desiderate tenere traccia del tempo cumulativo sul sito fino a quel momento, o per tenere traccia del tempo necessario per eseguire un&#39;attività. Questo plug-in non tiene traccia del tempo intercorso tra gli eventi; se questa funzionalità è desiderata, utilizzate il `getTimeBetweenEvents` plug-in.
+Il `getVisitDuration` plug-in tiene traccia della quantità di tempo in minuti che il visitatore ha trascorso sul sito fino a quel momento. Adobe consiglia di utilizzare questo plug-in se desiderate tenere traccia del tempo cumulativo sul sito fino a quel momento, o per tenere traccia del tempo necessario per eseguire un&#39;attività. Questo plug-in non tiene traccia del tempo intercorso tra gli eventi; se questa funzionalità è desiderata, utilizzate il [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
