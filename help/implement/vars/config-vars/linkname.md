@@ -2,20 +2,20 @@
 title: linkName
 description: Impostate il nome dell’hit di collegamento personalizzato.
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkName
 
-Utilizzare la `linkName` variabile per determinare il valore della dimensione dei collegamenti personalizzati, dei collegamenti di download o dei collegamenti di uscita quando si esegue la `tl()` funzione successiva.
+Utilizzare la `linkName` variabile per determinare il valore della dimensione dei collegamenti personalizzati, dei collegamenti di download o dei collegamenti di uscita quando si esegue il [`tl()`](../functions/tl-method.md) metodo successivo.
 
-Se questa variabile è vuota, AppMeasurement ripristina la `linkURL` variabile.
+Se questa variabile è vuota, AppMeasurement ripristina la [`linkURL`](linkurl.md) variabile.
 
 ## Nome collegamento in Adobe Experience Platform Launch
 
-Potete impostare il campo del nome del collegamento quando configurate una regola per l&#39;invio di un beacon.
+È possibile impostare il campo del nome del collegamento quando si configura una regola per l&#39;invio di un beacon.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
@@ -26,9 +26,9 @@ Potete impostare il campo del nome del collegamento quando configurate una regol
 
 ## s.linkName nell&#39;editor di codice personalizzato AppMeasurement e Launch
 
-La `s.linkName` variabile è una stringa che determina il valore della dimensione per i collegamenti personalizzati, i collegamenti di download o i collegamenti di uscita (a seconda di cosa `s.linkType` si tratta). Può contenere fino a 100 byte.
+La `s.linkName` variabile è una stringa che determina il valore della dimensione per i collegamenti personalizzati, i collegamenti di download o i collegamenti di uscita (a seconda di cosa [`s.linkType`](linktype.md) si tratta). Può contenere fino a 100 byte.
 
-> [!TIP] Questa variabile è il terzo parametro della `tl()` funzione e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkName` variabile se non si desidera impostare i valori come argomenti nella `tl()` funzione.
+> [!TIP] Questa variabile è il terzo parametro del `tl()` metodo e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkName` variabile se non si desidera impostare i valori come argomenti nel `tl()` metodo.
 
 ```js
 s.linkName = "Example custom link";
