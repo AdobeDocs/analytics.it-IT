@@ -2,7 +2,7 @@
 title: referrer
 description: Ignora il referente raccolto automaticamente per un hit.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -36,7 +36,7 @@ Evitate di impostare questa variabile su valori non URL.
 
 ## Esempio
 
-Molte organizzazioni si occupano di implementazioni relative ai reindirizzamenti. Potete utilizzare l&#39; [`getQueryParam`](../functions/util-getqueryparam.md) utility per ottenere il referente dall&#39;URL se il sito lo contiene. Accertatevi di codificare URL eventuali valori inclusi nella stringa di query.
+Molte organizzazioni si occupano di implementazioni relative ai reindirizzamenti. Potete utilizzare l&#39; [`Util.getQueryParam()`](../functions/util-getqueryparam.md) utility per ottenere il referente dall&#39;URL se il sito lo contiene. Accertatevi di codificare URL eventuali valori inclusi nella stringa di query.
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
