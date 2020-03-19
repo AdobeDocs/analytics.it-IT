@@ -2,7 +2,7 @@
 title: getAndPersistValue
 description: Memorizzare un valore che può essere recuperato in un secondo momento.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,9 +55,9 @@ s.getAndPersistValue=function(vtp,cn,ex){var b=new Date;cn=cn?cn:"s_gapv";(ex=ex
 
 Il `getAndPersist` metodo utilizza i seguenti argomenti:
 
-* **`vtp`**(obbligatorio): Il valore da mantenere da una pagina all’altra
-* **`cn`**(facoltativo): Nome del cookie in cui memorizzare il valore. Se questo argomento non è impostato, il cookie viene denominato`"s_gapv"`
-* **`ex`**(facoltativo): Il numero di giorni prima della scadenza del cookie. Se questo argomento è`0`o non è impostato, il cookie scade alla fine della visita (30 minuti di inattività).
+* **`vtp`** (obbligatorio): Il valore da mantenere da una pagina all’altra
+* **`cn`** (facoltativo): Nome del cookie in cui memorizzare il valore. Se questo argomento non è impostato, il cookie viene denominato `"s_gapv"`
+* **`ex`** (facoltativo): Il numero di giorni prima della scadenza del cookie. Se questo argomento è `0` o non è impostato, il cookie scade alla fine della visita (30 minuti di inattività).
 
 Se la variabile nell&#39; `vtp` argomento è impostata, il plug-in imposta il cookie e quindi restituisce il valore del cookie. Se la variabile nell&#39; `vtp` argomento non è impostata, il plug-in restituisce solo il valore del cookie.
 
@@ -82,7 +82,7 @@ s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 
 ### Esempio n. 3
 
-Si supponga che eVar21 non sia ancora stato impostato sulla pagina corrente ma sia stato impostato come &quot;hello&quot; in una pagina precedente negli ultimi 28 giorni.  Il codice seguente imposta solo prop35 uguale al valore del cookie ev21gapv (ovvero &quot;hello&quot;).  Non imposta eVar21.
+Si supponga che eVar21 non sia ancora stato impostato sulla pagina corrente ma sia stato impostato come &quot;hello&quot; in una pagina precedente negli ultimi 28 giorni.  Il codice seguente imposta solo prop35 uguale al valore del cookie ev21gapv (es. &quot;hello&quot;).  Non imposta eVar21.
 
 ```js
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
@@ -107,14 +107,14 @@ s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 
 ### Esempio n. 6
 
-Il codice seguente imposta eVar30 su &quot;shopping&quot;.  Quindi imposta il cookie s_gapv, che scade alla fine della sessione del browser, pari al valore di s.eVar30 (ovvero &quot;shopping&quot;).  Quindi, imposta s.eVar30 uguale al valore del cookie s_gapv (cioè la chiamata getAndPersistValue restituisce il valore del cookie s_gapv, che in questo caso è &quot;shopping&quot;).
+Il codice seguente imposta eVar30 su &quot;shopping&quot;.  Quindi imposta il cookie s_gapv, che scade alla fine della sessione del browser, pari al valore di s.eVar30 (ovvero &quot;shopping&quot;).  Quindi, imposta s.eVar30 uguale al valore del cookie s_gapv (ovvero, la chiamata getAndPersistValue restituisce il valore del cookie s_gapv, che in questo caso è &quot;shopping&quot;).
 
 ```js
 s.eVar30 = "shopping";
 s.eVar30 = s.getAndPersistValue(s.eVar30);
 ```
 
-Se s.eVar30 non è impostato su un valore esplicito su alcuna pagina aggiuntiva visualizzata durante la sessione, ma è impostato (in doPlugins) tramite il codice seguente...
+Se s.eVar30 non è impostato su un valore esplicito su alcuna pagina aggiuntiva visualizzata durante la sessione, ma è impostato (in doPlugins) tramite il seguente codice...
 
 ```js
 s.eVar30 = s.getAndPersistValue(s.eVar30);
