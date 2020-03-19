@@ -2,16 +2,16 @@
 title: linkTrackVars
 description: Specifica quali variabili includere nelle richieste di immagini per il tracciamento dei collegamenti.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackVars
 
-Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini per il tracciamento dei collegamenti. Usa le `linkTrackVars` variabili e le `linkTrackEvents` variabili per includere in modo selettivo dimensioni e metriche nelle `tl()` chiamate.
+Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini per il tracciamento dei collegamenti. Usa le `linkTrackVars` variabili e le [`linkTrackEvents`](linktrackevents.md) variabili per includere in modo selettivo dimensioni e metriche nelle [`tl()`](../functions/tl-method.md) chiamate.
 
-Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina (`t()` funzione).
+Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina (`t()` metodo).
 
 ## Variabili nelle chiamate di tracciamento dei collegamenti mediante Adobe Experience Platform Launch
 
@@ -21,7 +21,7 @@ Launch compila automaticamente questa variabile sul backend in base alle variabi
 
 ## s.linkTrackVars in AppMeasurement e Launch editor di codice personalizzato
 
-La `s.linkTrackVars` variabile è una stringa contenente un elenco delimitato da virgole di variabili che si desidera includere nelle richieste di immagini per il tracciamento dei collegamenti (`tl()` funzione). Per includere le dimensioni negli hit di tracciamento dei collegamenti, è necessario soddisfare entrambi i criteri seguenti:
+La `s.linkTrackVars` variabile è una stringa contenente un elenco delimitato da virgole di variabili che si desidera includere nelle richieste di tracciamento dei collegamenti delle immagini (`tl()` metodo). Per includere le dimensioni negli hit di tracciamento dei collegamenti, è necessario soddisfare entrambi i criteri seguenti:
 
 * Impostate il valore della variabile desiderata. Ad esempio, `s.eVar1 = "Example value";` (Indirizzo IP).
 * Impostate la variabile desiderata nella `linkTrackVars` variabile. Ad esempio, `s.linkTrackEvents = "eVar1";` (Indirizzo IP).
