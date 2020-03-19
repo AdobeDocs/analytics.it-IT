@@ -2,7 +2,7 @@
 title: prop
 description: Variabili personalizzate utilizzabili nell’implementazione.
 translation-type: tm+mt
-source-git-commit: ddab63a4fe3b8f1a3187893eba1ac3a1eda3bc41
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Le proprietà elenco sono un&#39;impostazione applicata alle proprietà che cons
 
 ### Configurare le proprietà dell&#39;elenco
 
-Abilitare le proprietà elenco nelle impostazioni della suite di rapporti. Consultate Variabili [di](/help/admin/admin/c-traffic-variables/traffic-var.md) traffico nella guida utente di amministrazione. Accertatevi che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
+Abilitare le proprietà dell&#39;elenco nelle impostazioni della suite di rapporti. Consultate Variabili [di](/help/admin/admin/c-traffic-variables/traffic-var.md) traffico nella guida utente di amministrazione. Accertatevi che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
 > [!TIP] I delimitatori comuni utilizzati nelle implementazioni sono virgole (`,`), due punti (`:`), un punto e virgola (`;`) o una barra verticale (`|`). Potete utilizzare un carattere di delimitazione adatto alla vostra implementazione.
 
@@ -56,3 +56,5 @@ s.prop1 = "value1,value2,value3";
 ```
 
 > [!IMPORTANT] Le proprietà elenco sono ancora soggette alla lunghezza massima di 100 byte. Le proprietà elenco sono più facili da raggiungere e troncare, poiché possono contenere più valori. Se raggiungete questo limite di 100 byte, prendete in considerazione l&#39;uso di abbreviazioni o valori abbreviati.
+
+Se imposti lo stesso valore più di una volta in un elenco di proprietà, questi vengono deduplicati nel reporting. Analysis Workspace conta il numero di hit in cui viene visualizzato un valore e non il numero di volte in cui un valore esiste nei dati.
