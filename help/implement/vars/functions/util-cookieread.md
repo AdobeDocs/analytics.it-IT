@@ -2,14 +2,14 @@
 title: Util.cookieRead
 description: Ottiene il valore di un cookie.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.cookieRead
 
-I cookie possono memorizzare e recuperare informazioni tra le pagine dello stesso dominio. Utilizzare il `Util.cookieRead` metodo per recuperare un valore da un cookie.
+I cookie possono memorizzare e recuperare informazioni tra le pagine dello stesso dominio. Utilizzare il `Util.cookieRead()` metodo per recuperare un valore da un cookie.
 
 ## Leggi i cookie in Adobe Experience Platform Launch
 
