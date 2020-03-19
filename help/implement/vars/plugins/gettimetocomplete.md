@@ -2,12 +2,12 @@
 title: getTimeToComplete
 description: Misurare il tempo necessario per completare un'attività.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:getTimeToComplete
+# Plug-in Adobe: getTimeToComplete
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Il `getTimeToComplete` metodo utilizza i seguenti argomenti:
 
-* **`sos`**(facoltativo, stringa): Impostare su`"start"`quando si desidera avviare il timer. Impostare su`"stop"`quando si desidera arrestare il timer. Il valore predefinito è`"start"`.
-* **`cn`**(facoltativo, stringa): Nome del cookie in cui memorizzare l&#39;ora di inizio. Il valore predefinito è`"s_gttc"`.
-* **`exp`**(facoltativo, numero intero): Numero di giorni di scadenza del cookie (e del timer). Il valore predefinito è`0`, che rappresenta la fine della sessione del browser.
+* **`sos`** (facoltativo, stringa): Impostare su `"start"` quando si desidera avviare il timer. Impostare su `"stop"` quando si desidera arrestare il timer. Il valore predefinito è `"start"`.
+* **`cn`** (facoltativo, stringa): Nome del cookie in cui memorizzare l&#39;ora di inizio. Il valore predefinito è `"s_gttc"`.
+* **`exp`** (facoltativo, numero intero): Il numero di giorni di scadenza del cookie (e del timer). Il valore predefinito è `0`, che rappresenta la fine della sessione del browser.
 
 Se si chiama questo metodo, viene restituita una stringa che contiene il numero di giorni, ore, minuti e/o secondi trascorsi tra l’azione `"start"` e `"stop"` l’azione.
 
@@ -71,7 +71,7 @@ Se si chiama questo metodo, viene restituita una stringa che contiene il numero 
 
 ### Esempio n. 1
 
-Utilizzate queste chiamate per determinare l&#39;ora tra l&#39;avvio del processo di checkout da parte di un visitatore e l&#39;esecuzione di un acquisto.
+Utilizzate queste chiamate per determinare l&#39;ora tra l&#39;avvio del processo di checkout da parte di un visitatore e la data in cui effettua un acquisto.
 
 Avviate il timer quando il visitatore avvia il checkout:
 
