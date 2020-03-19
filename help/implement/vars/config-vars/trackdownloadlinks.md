@@ -2,16 +2,16 @@
 title: trackDownloadLinks
 description: Abilita o disabilita il tracciamento automatico dei collegamenti per i collegamenti di download.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # trackDownLoadLinks
 
-Adobe offre la possibilità di tenere traccia dei collegamenti di download senza impostare manualmente la `tl()` funzione per ciascun collegamento di download. Abilita questa variabile se desideri usare il tracciamento automatico dei collegamenti per i collegamenti di download.
+Adobe offre la possibilità di tenere traccia dei collegamenti di download senza impostare manualmente il [`tl()`](../functions/tl-method.md) metodo per ciascun collegamento di download. Abilita questa variabile se desideri usare il tracciamento automatico dei collegamenti per i collegamenti di download.
 
-Quando abilitata, AppMeasurement confronta qualsiasi URL di collegamento su cui è stato fatto clic con valori in `downloadLinkFileTypes`. In caso di corrispondenza, viene automaticamente attivata una chiamata di tracciamento dei collegamenti di download.
+Quando abilitata, AppMeasurement confronta qualsiasi URL di collegamento su cui è stato fatto clic con valori in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). In presenza di una corrispondenza, viene automaticamente attivata una chiamata di tracciamento dei collegamenti di download.
 
 ## Tracciare i collegamenti di download in Adobe Experience Platform Launch
 
@@ -26,7 +26,7 @@ Fai clic sulla casella di controllo per abilitare il tracciamento automatico dei
 
 ## s.trackDownloadLinks in AppMeasurement e Launch editor di codice personalizzato
 
-Il `s.trackDownloadLinks` valore booleano consente o disabilita il tracciamento automatico dei collegamenti per il download. Se non si desidera tracciare i collegamenti di download, o si preferisce chiamare manualmente la `tl()` funzione per tracciare i download, impostare questa variabile su `false`.
+Il `s.trackDownloadLinks` valore booleano consente o disabilita il tracciamento automatico dei collegamenti per il download. Se non desiderate tenere traccia dei collegamenti di download o preferite chiamare manualmente il `tl()` metodo per tracciare i download, impostate questa variabile su `false`.
 
 ```js
 s.trackDownloadLinks = true;
