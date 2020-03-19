@@ -1,15 +1,15 @@
 ---
-title: linkLeftQueryString
+title: linkLeaveQueryString
 description: Consente di mantenere le stringhe di query nelle dimensioni del tracciamento dei collegamenti.
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# linkLeftQueryString
+# linkLeaveQueryString
 
-Per impostazione predefinita, AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizzare la variabile linkLeftQueryString per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
+Per impostazione predefinita, AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizzate la `linkLeaveQueryString` variabile per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
 Per alcuni collegamenti di uscita e di download, la parte importante dell’URL può essere rappresentata dalla stringa di query. Ad esempio, un collegamento di download, come `https://example.com/download.asp?filename=myfile.exe` contiene informazioni importanti sul collegamento nella stringa di query.
 
@@ -17,7 +17,7 @@ Se le informazioni sul tracciamento dei collegamenti non sono negli URL del sito
 
 L’abilitazione `linkLeaveQueryString` si applica a tutte le dimensioni di tracciamento dei collegamenti (inclusi collegamenti personalizzati, collegamenti di uscita e collegamenti per il download).
 
-> [!TIP] Questa variabile non influisce sulle dimensioni esterne al tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti di download.
+> [!TIP] Questa variabile non influisce sulle dimensioni al di fuori del tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti per il download.
 
 ## Mantieni parametri URL nel lancio di Adobe Experience Platform
 
@@ -43,7 +43,7 @@ s.linkLeaveQueryString = true;
 
 ## Esempio
 
-Presta attenzione quando imposti questa variabile su true, in quanto può influenzare filtri di tracciamento dei collegamenti come `linkInternalFilters`, `linkExternalFilters`e `linkDownloadFiletypes`.
+Presta attenzione quando imposti questa variabile su true, in quanto può influenzare filtri di tracciamento dei collegamenti come [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md)e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
 Considerare l&#39;esempio seguente come se fosse in `adobe.com`:
 
