@@ -2,16 +2,16 @@
 title: linkTrackEvents
 description: Determinare gli eventi da includere nelle richieste di tracciamento dei collegamenti per le immagini.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackEvents
 
-Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini per il tracciamento dei collegamenti. Usa le `linkTrackVars` variabili e le `linkTrackEvents` variabili per includere in modo selettivo dimensioni e metriche nelle `tl()` chiamate.
+Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini per il tracciamento dei collegamenti. Usa le [`linkTrackVars`](linktrackvars.md) variabili e le `linkTrackEvents` variabili per includere in modo selettivo dimensioni e metriche nelle [`tl()`](../functions/tl-method.md) chiamate.
 
-Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina (`t()` funzione).
+Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina ([`t()`](../functions/t-method.md) metodo).
 
 ## Eventi nelle chiamate di tracciamento dei collegamenti tramite Adobe Experience Platform Launch
 
@@ -21,9 +21,9 @@ Launch rileva automaticamente gli eventi definiti nell’interfaccia e li includ
 
 ## s.linkTrackEvents in AppMeasurement e Launch editor di codice personalizzato
 
-La `s.linkTrackEvents` variabile è una stringa contenente un elenco delimitato da virgole di eventi che si desidera includere nelle richieste di tracciamento dei collegamenti alle immagini (`tl()` funzione). Per includere le metriche negli hit di tracciamento dei collegamenti, devono essere soddisfatti i tre criteri seguenti:
+La `s.linkTrackEvents` variabile è una stringa contenente un elenco delimitato da virgole di eventi che si desidera includere nelle richieste di tracciamento dei collegamenti delle immagini (`tl()` metodo). Per includere le metriche negli hit di tracciamento dei collegamenti, devono essere soddisfatti i tre criteri seguenti:
 
-* Impostate l’evento desiderato nella `events` variabile. Ad esempio, `s.events = "event1";` (Indirizzo IP).
+* Impostate l’evento desiderato nella [`events`](../page-vars/events/events-overview.md) variabile. Ad esempio, `s.events = "event1";` (Indirizzo IP).
 * Set the `events` variable in `linkTrackVars`. Ad esempio, `s.linkTrackVars = "events";` (Indirizzo IP).
 * Impostate l’evento desiderato nella `linkTrackEvents` variabile. Ad esempio, `s.linkTrackEvents = "event1";` (Indirizzo IP).
 
