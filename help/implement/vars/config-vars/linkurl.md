@@ -2,7 +2,7 @@
 title: linkURL
 description: Ignora gli URL del collegamento generato automaticamente che AppMeasurement utilizza nelle chiamate di tracciamento dei collegamenti.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -23,4 +23,4 @@ La `s.linkURL` variabile è una stringa contenente l’URL del browser su cui è
 s.linkURL = "https://example.com";
 ```
 
-Se la `linkName` variabile non è impostata per una chiamata di tracciamento dei collegamenti, viene utilizzata la `linkURL` variabile.
+Se la [`linkName`](linkname.md) variabile non è impostata per una chiamata di tracciamento dei collegamenti, viene utilizzata la `linkURL` variabile.
