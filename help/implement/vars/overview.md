@@ -3,7 +3,7 @@ title: Panoramica su variabili, funzioni, metodi e plug-in
 description: Scopri quali variabili puoi includere nei dati inviati ad Adobe per migliorare la generazione dei rapporti.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -26,7 +26,7 @@ Le librerie AppMeasurement pubblicate da Adobe Analytics seguono un ordine speci
 
 1. Se il sito utilizza un livello dati, accertatevi che tutte le variabili applicabili siano compilate per prime. Per ulteriori informazioni, vedi [Livello](../prepare/data-layer.md) dati.
 2. Utilizzate il livello dati per compilare le variabili di Analytics. Se si utilizza Launch, l&#39;attività viene eseguita facilmente utilizzando gli elementi dati, quindi assegnando l&#39;elemento dati a una variabile. Consulta Elementi [](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) dati nella guida utente di Launch.
-3. Chiama la funzione di tracciamento. La maggior parte delle librerie AppMeasurement utilizza la `t()` funzione, tuttavia alcuni SDK mobili vengono utilizzati `track()`. Quando viene chiamata la funzione di tracciamento, tutte le variabili supportate definite nell&#39;oggetto Analytics vengono inviate ad Adobe sotto forma di richiesta di immagine.
+3. Chiama la funzione di tracciamento. La maggior parte delle librerie AppMeasurement utilizza il `t()` metodo, tuttavia alcuni SDK per dispositivi mobili vengono utilizzati `track()`. Quando viene chiamata la funzione di tracciamento, tutte le variabili supportate definite nell&#39;oggetto Analytics vengono inviate ad Adobe sotto forma di richiesta di immagine.
 
 ## Caratteri non validi
 
