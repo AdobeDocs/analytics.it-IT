@@ -2,7 +2,7 @@
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e Adobe analizza il valore in valori di dimensione separati.
 
-> [!NOTE] Se questa variabile viene impostata in un hit senza un evento del carrello della spesa nella `events` variabile, la metrica &quot;Visualizzazioni prodotto&quot; viene incrementata di 1. Accertatevi di impostare l&#39;evento del carrello appropriato su ogni hit.
+> [!NOTE] Se questa variabile viene impostata in un hit senza un evento del carrello della spesa nella [`events`](events/events-overview.md) variabile, la metrica &quot;Visualizzazioni prodotto&quot; viene incrementata di 1. Accertatevi di impostare l&#39;evento del carrello appropriato su ogni hit.
 
 ## Prodotti in Adobe Experience Platform Launch
 
@@ -31,7 +31,7 @@ La `s.products` variabile è una stringa che contiene più campi delimitati per 
 * **Categoria** (facoltativo): La categoria di prodotto globale. L&#39;organizzazione decide come raggruppare i prodotti in categorie.
 * **Nome** prodotto (obbligatorio): Nome del prodotto.
 * **Quantità** (facoltativo): Quanti di questi prodotti sono nel carrello. Questo campo si applica solo agli hit con l’evento di acquisto.
-* **Prezzo** (facoltativo): Il prezzo totale del prodotto come decimale. Se la quantità è maggiore di una, impostare il prezzo sul totale e non sul prezzo del singolo prodotto. Allineare la valuta di questo valore in modo che corrisponda alla `currencyCode` variabile. Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
+* **Prezzo** (facoltativo): Il prezzo totale del prodotto come decimale. Se la quantità è maggiore di una, impostare il prezzo sul totale e non sul prezzo del singolo prodotto. Allineare la valuta di questo valore in modo che corrisponda alla [`currencyCode`](../config-vars/currencycode.md) variabile. Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
 * **Eventi** (facoltativo): Eventi collegati al prodotto. Delimitare più eventi con una tubazione (`|`). See [events](events/events-overview.md) for more information.
 * **eVar** (facoltativo): eVar di merchandising collegate al prodotto. Delimitare più eVar di merchandising con una tubazione (`|`). Per ulteriori informazioni, vedi eVar [merchandising](../../../components/c-variables/c-merch-variables/var-merchandising.md) .
 
@@ -47,7 +47,7 @@ Questa variabile supporta più prodotti nello stesso hit. È utile per il carrel
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Assicurati di rimuovere tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
+> [!IMPORTANT] Rimuovete tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
 
 ## Esempi
 
