@@ -2,14 +2,14 @@
 title: cookieDomainPeriods
 description: Aiuta AppMeasurement a capire quale dominio memorizzare i cookie se il dominio ha un punto nel suo suffisso.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # fpCookieDomainPeriods
 
-La `fpCookieDomainPeriods` variabile aiuta AppMeasurement a determinare dove vengono impostati i cookie di Analytics richiamando che il suffisso del dominio contiene un periodo aggiuntivo. Questa variabile consente ad AppMeasurement di contenere il periodo aggiuntivo nel suffisso del dominio e di impostare i cookie nella posizione giusta. Eredita il valore di `cookieDomainPeriods`, ma è comunque una procedura consigliata se si utilizza un&#39;implementazione di cookie di prime parti.
+La `fpCookieDomainPeriods` variabile aiuta AppMeasurement a determinare dove vengono impostati i cookie di Analytics richiamando che il suffisso del dominio contiene un periodo aggiuntivo. Questa variabile consente ad AppMeasurement di contenere il periodo aggiuntivo nel suffisso del dominio e di impostare i cookie nella posizione giusta. Eredita il valore di [`cookieDomainPeriods`](cookiedomainperiods.md), ma è comunque una procedura consigliata se si utilizza un&#39;implementazione di cookie di prime parti.
 
 * Per domini come `example.com` o `www.example.com`, questa variabile non deve essere impostata. Se necessario, potete impostare questa variabile su `"2"`.
 * Per domini come `example.co.uk` o `www.example.co.jp`, imposta questa variabile su `"3"`.
