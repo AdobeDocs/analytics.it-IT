@@ -2,7 +2,7 @@
 title: getQueryParam
 description: Estrarre il valore del parametro di una stringa di query dell'URL.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 Il `getQueryParam` plug-in consente di estrarre il valore di qualsiasi parametro di stringa di query contenuto in un URL. È utile per estrarre i codici campagna, sia interni che esterni, dagli URL delle pagine di destinazione. È inoltre utile per estrarre i termini di ricerca o altri parametri di stringa di query.
 
-Questo plug-in fornisce funzioni affidabili nell’analisi di URL complessi, inclusi hash e URL contenenti più parametri di stringa di query. Se è necessario solo un parametro di stringa di query semplice, Adobe consiglia di utilizzare le funzionalità dei parametri URL in Launch o il `Util.getQueryParam` metodo incluso in AppMeasurement.
+Questo plug-in fornisce funzioni affidabili nell’analisi di URL complessi, inclusi hash e URL contenenti più parametri di stringa di query. Se è necessario solo un parametro di stringa di query semplice, Adobe consiglia di utilizzare le funzionalità dei parametri URL in Launch o il [`Util.getQueryParam()`](../functions/util-getqueryparam.md) metodo incluso in AppMeasurement.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
@@ -56,9 +56,9 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 Il `getQueryParam` metodo utilizza i seguenti argomenti:
 
-* **`qsp`**(obbligatorio): Elenco delimitato da virgole di parametri di stringa query da cercare all’interno dell’URL. Non fa distinzione tra maiuscole e minuscole.
-* **`de`**(facoltativo): Il delimitatore da utilizzare se più parametri di stringa di query corrispondono. Il valore predefinito è una stringa vuota.
-* **`url`**(facoltativo): Un URL personalizzato, una stringa o una variabile da cui estrarre i valori dei parametri della stringa di query. Il valore predefinito è`window.location`.
+* **`qsp`** (obbligatorio): Elenco delimitato da virgole di parametri di stringa query da cercare all’interno dell’URL. Non fa distinzione tra maiuscole e minuscole.
+* **`de`** (facoltativo): Il delimitatore da utilizzare se più parametri di stringa di query corrispondono. Il valore predefinito è una stringa vuota.
+* **`url`** (facoltativo): Un URL personalizzato, una stringa o una variabile da cui estrarre i valori dei parametri della stringa di query. Il valore predefinito è `window.location`.
 
 La chiamata di questo metodo restituisce un valore in base agli argomenti di cui sopra e all’URL:
 
@@ -139,7 +139,7 @@ Il codice seguente imposta s.campaign su &quot;123456&quot;
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**** Nota: Il plug-in sostituisce l&#39;URL del carattere hash del controllo con un punto interrogativo se non esiste un punto interrogativo.  Se l&#39;URL contiene un punto interrogativo che viene prima del carattere hash, il plug-in sostituirà l&#39;URL del carattere hash di Check con una e commerciale;
+**Nota:** Il plug-in sostituisce l&#39;URL del carattere hash del controllo con un punto interrogativo se non esiste un punto interrogativo.  Se l&#39;URL contiene un punto interrogativo che viene prima del carattere hash, il plug-in sostituirà l&#39;URL del carattere hash di Check con una e commerciale;
 
 ### Esempio n. 6
 
@@ -167,7 +167,7 @@ Tuttavia, il codice seguente imposta s.campaign su &quot;trackingcode1&quot;:
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**** Nota: il terzo parametro può essere qualsiasi stringa/variabile che il codice utilizzerà per cercare di trovare i parametri della stringa di query in
+**Nota:** il terzo parametro può essere qualsiasi stringa/variabile che il codice utilizzerà per cercare di trovare i parametri della stringa di query in
 
 Il codice seguente imposta s.eVar2 su &quot;123456|trackingcode1|true|300&quot;:
 
