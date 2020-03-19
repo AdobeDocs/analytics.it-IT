@@ -2,7 +2,7 @@
 title: Variabili di configurazione
 description: Utilizzate le variabili di configurazione per determinare in che modo vengono raccolti i dati.
 translation-type: tm+mt
-source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -18,7 +18,7 @@ Nelle implementazioni JavaScript che utilizzano `AppMeasurement.js`, le variabil
 Nelle implementazioni tramite Adobe Experience Platform Launch, le variabili di configurazione si trovano solitamente configurando l&#39;estensione Adobe Analytics:
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your Adobe ID credentials.
-2. Fare clic sulla proprietà da modificare.
-3. Fai clic sulla [!UICONTROL Extensions] scheda, quindi su [!UICONTROL Configure] in Adobe Analytics.
+2. Fare clic sulla proprietà che si desidera modificare.
+3. Fai clic sulla [!UICONTROL Extensions] scheda, quindi fai clic [!UICONTROL Configure] sotto Adobe Analytics.
 
-> [!IMPORTANT] Assicurarsi che tutte le variabili di configurazione siano impostate prima di chiamare una funzione di tracciamento (`t()` o `tl()`). Evitare di impostare le variabili di configurazione nella `doPlugins()` funzione.
+> [!IMPORTANT] Assicurati che tutte le variabili di configurazione siano impostate prima di chiamare un metodo di tracciamento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)). Evitare di impostare le variabili di configurazione nella [`doPlugins()`](../functions/doplugins.md) funzione.
