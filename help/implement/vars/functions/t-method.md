@@ -2,14 +2,14 @@
 title: t
 description: Inviare una chiamata di tracciamento della visualizzazione della pagina ad Adobe.
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# t
+# t()
 
-Il `t` metodo è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe.
+Il `t()` metodo è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe.
 
 Ad esempio, prendere in considerazione il seguente codice JavaScript:
 
@@ -25,7 +25,7 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-L’esecuzione del `t` metodo prende tutte le variabili Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre determinano i valori dei parametri delle stringhe di query.
+L’esecuzione del `t()` metodo prende tutte le variabili Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre determinano i valori dei parametri delle stringhe di query.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
