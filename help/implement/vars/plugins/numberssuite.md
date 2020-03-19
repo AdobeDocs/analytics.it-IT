@@ -2,18 +2,18 @@
 title: Suite numeri
 description: Produrre e manipolare i numeri da utilizzare in altre variabili JavaScript.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:Suite numeri
+# Plug-in Adobe: Suite numeri
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Numeri Suite una serie di funzioni JavaScript. Include i seguenti plug-in:
 
-* **`zeroPad`**: Aggiungete un numero specifico di zeri all&#39;inizio di un numero. Questo plug-in è utile se una variabile richiede un certo numero di cifre, ad esempio se si lavora con oggetti data JavaScript e si desidera formattare il mese e il giorno di una data con due cifre invece di una sola cifra. Ad esempio,`01/09/2020`anziché`1/9/2020`.
+* **`zeroPad`**: Aggiungete un numero specifico di zeri all&#39;inizio di un numero. Questo plug-in è utile se una variabile richiede un certo numero di cifre, ad esempio se si lavora con oggetti data JavaScript e si desidera formattare il mese e il giorno di una data con due cifre invece di una sola cifra. Ad esempio, `01/09/2020` anziché `1/9/2020`.
 * **`randomNumber`**: Genera un numero casuale con un numero specifico di cifre. Questo plug-in è utile se distribuite tag di terze parti e desiderate un numero casuale con cache-busting.
 * **`twoDecimals`**: Arrotondare un numero al centesimo più vicino. Questo plug-in è utile a scopo valutario e consente di arrotondare un numero a un valore di valuta valido.
 
@@ -46,7 +46,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -66,7 +66,7 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 Il `zeroPad` metodo utilizza i seguenti argomenti:
 
 * **num** (obbligatorio, numero intero): Numero da aggiungere al pad. Il metodo arrotonda il valore di questo argomento se contiene decimali.
-* **nod** (obbligatorio, numero intero): Numero di cifre nel valore restituito finale. Se il numero del tastierino contiene meno cifre del numero di cifre a cui aggiungere il pad, il plug-in aggiunge zeri all&#39;inizio dell&#39; `num` argomento.
+* **nod** (obbligatorio, numero intero): Il numero di cifre nel valore restituito finale. Se il numero del tastierino contiene meno cifre del numero di cifre a cui aggiungere il pad, il plug-in aggiunge zeri all&#39;inizio dell&#39; `num` argomento.
 
 Il `randomNumber` metodo utilizza i seguenti argomenti:
 
