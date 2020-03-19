@@ -2,23 +2,23 @@
 title: cookieDomain
 description: La variabile cookieDomain consente di determinare il dominio in cui impostare i cookie.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # cookieDomain
 
-> [!IMPORTANT] Questa variabile è ritirata. Usa `trackingServer` invece.
+> [!IMPORTANT] Questa variabile è ritirata. Usa [`trackingServer`](trackingserver.md) invece.
 
-La `cookieDomain` variabile determina il dominio in cui AppMeasurement imposta i cookie. È possibile utilizzare questa variabile per impostare esplicitamente il dominio dei cookie invece di utilizzare la `cookieDomainPeriods` variabile.
+La `cookieDomain` variabile determina il dominio in cui AppMeasurement imposta i cookie. È possibile utilizzare questa variabile per impostare esplicitamente il dominio dei cookie invece di utilizzare la [`cookieDomainPeriods`](cookiedomainperiods.md) variabile.
 
 Questa variabile deve essere utilizzata solo se sono soddisfatte **entrambe** le seguenti condizioni:
 
-* Se l’implementazione utilizza cookie di prime parti. Questa variabile non è obbligatoria per le implementazioni che utilizzano un `trackingServer` valore contenente `sc.omtrdc.net`.
+* Se l’implementazione utilizza cookie di prime parti. Questa variabile non è obbligatoria per le implementazioni che utilizzano un [`trackingServer`](trackingserver.md) valore contenente `sc.omtrdc.net`.
 * Se il dominio ha un punto nel relativo suffisso. Ad esempio, `example.co.uk` potrebbe utilizzare la `cookieDomain` variabile per indicare esplicitamente che il dominio del cookie è `example.co.uk` e non è `co.uk`.
 
-Per la `cookieDomain` variabile è stato utilizzato solo un numero limitato di implementazioni, e anche in seguito è possibile utilizzare variabili alternative come `cookieDomainPeriods` ad esempio.
+Per la `cookieDomain` variabile è stato utilizzato solo un numero limitato di implementazioni, e anche in seguito è possibile utilizzare variabili alternative come [`cookieDomainPeriods`](cookiedomainperiods.md) ad esempio.
 
 ## Dominio dei cookie in Adobe Experience Platform Launch
 
