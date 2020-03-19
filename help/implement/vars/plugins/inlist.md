@@ -2,12 +2,12 @@
 title: inList
 description: Verificare se un valore è contenuto in un altro valore delimitato da caratteri.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:inList
+# Plug-in Adobe: inList
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Il `inList` metodo utilizza i seguenti argomenti:
 
-* **`lv`**(obbligatorio, stringa o array): Un elenco delimitato di valori o un oggetto matrice JavaScript da cercare
-* **`vtc`**(obbligatorio, stringa): Il valore da cercare
-* **`d`**(facoltativo, stringa): Il delimitatore utilizzato per separare i singoli valori nell&#39;`lv`argomento. Il valore predefinito è una virgola (`,`) se non è impostato.
-* **`cc`**(facoltativo, booleano): Se impostato su`true`, viene effettuato un controllo con distinzione tra maiuscole e minuscole. Se impostato su`false`o omesso, viene effettuato un controllo senza distinzione tra maiuscole e minuscole. Il valore predefinito è`false`.
+* **`lv`** (obbligatorio, stringa o array): Un elenco delimitato di valori o un oggetto matrice JavaScript da cercare
+* **`vtc`** (obbligatorio, stringa): Il valore da cercare
+* **`d`** (facoltativo, stringa): Il delimitatore utilizzato per separare i singoli valori nell&#39; `lv` argomento. Il valore predefinito è una virgola (`,`) se non è impostato.
+* **`cc`** (facoltativo, booleano): Se impostato su `true`, viene effettuato un controllo con distinzione tra maiuscole e minuscole. Se impostato su `false` o omesso, viene effettuato un controllo senza distinzione tra maiuscole e minuscole. Il valore predefinito è `false`.
 
 La chiamata di questo metodo restituisce `true` se trova una corrispondenza e `false` se non trova una corrispondenza.
 
@@ -142,7 +142,7 @@ s.linkTrackVars = "events,eVar1";
 if(s.inList(s.linkTrackVars,"eVar1","|"))
 ```
 
-...l&#39;istruzione if condizionale sarà false.  Il valore dell&#39;argomento d passato nella chiamata (ovvero &quot;|&quot;) presuppone che i singoli valori in s.linkTrackVars siano delimitati da un carattere di barra verticale, mentre in realtà i valori sono delimitati da una virgola.  In questo caso, il plug-in tenta di effettuare una corrispondenza tra l’intero valore di s.linkTrackVars (ovvero &quot;events,eVar1&quot;) e il valore da cercare (es. &quot;eVar1&quot;).
+...l&#39;istruzione if condizionale sarà false.  Il valore dell&#39;argomento d passato nella chiamata (ovvero &quot;|&quot;) presuppone che i singoli valori in s.linkTrackVars siano delimitati da un carattere di barra verticale, mentre in realtà i valori sono delimitati da una virgola.  In questo caso, il plug-in tenterà di effettuare una corrispondenza tra l’intero valore di s.linkTrackVars (ovvero &quot;events,eVar1&quot;) e il valore da cercare (ad es. &quot;eVar1&quot;).
 
 ## Cronologia versioni
 
