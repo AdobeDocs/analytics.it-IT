@@ -2,16 +2,16 @@
 title: trackExternalLinks
 description: Abilita o disabilita il tracciamento automatico dei collegamenti per i collegamenti di uscita.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # trackExternalLinks
 
-Adobe offre la possibilità di tracciare i collegamenti in uscita senza impostare manualmente la `tl()` funzione per ciascun collegamento in uscita. Abilita questa variabile se desideri usare il tracciamento automatico dei collegamenti per i collegamenti di uscita.
+Adobe offre la possibilità di tracciare i collegamenti in uscita senza impostare manualmente il [`tl()`](../functions/tl-method.md) metodo per ciascun collegamento in uscita. Abilita questa variabile se desideri usare il tracciamento automatico dei collegamenti per i collegamenti di uscita.
 
-Quando è abilitata, AppMeasurement confronta qualsiasi URL di collegamento su valori in `linkInternalFilters` e `linkExternalFilters`. In caso di corrispondenza, viene automaticamente attivata una chiamata di tracciamento dei collegamenti di uscita.
+Quando è abilitata, AppMeasurement confronta qualsiasi URL di collegamento su valori in [`linkInternalFilters`](linkinternalfilters.md) e [`linkExternalFilters`](linkexternalfilters.md). In caso di corrispondenza, viene automaticamente attivata una chiamata di tracciamento dei collegamenti di uscita.
 
 ## Tracciare i collegamenti in uscita nel lancio di Adobe Experience Platform
 
@@ -26,7 +26,7 @@ Fai clic sulla casella di controllo per abilitare il tracciamento automatico dei
 
 ## s.trackExternalLinks in AppMeasurement e Launch editor di codice personalizzato
 
-Il valore booleano `s.trackExternalLinks` consente o disabilita il tracciamento automatico dei collegamenti di uscita. Se non si desidera tracciare i collegamenti in uscita o se si preferisce chiamare manualmente la `tl()` funzione per tracciare i collegamenti in uscita, impostare questa variabile su `false`.
+Il valore booleano `s.trackExternalLinks` consente o disabilita il tracciamento automatico dei collegamenti di uscita. Se non si desidera tracciare i collegamenti in uscita o se si preferisce chiamare manualmente il `tl()` metodo per tracciare i collegamenti in uscita, impostare questa variabile su `false`.
 
 ```js
 s.trackDownloadLinks = true;
