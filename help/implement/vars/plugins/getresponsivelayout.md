@@ -1,8 +1,8 @@
 ---
-title: ' getResponsiveLayout'
+title: getResponsiveLayout
 description: Determinare il layout di un sito Web attualmente visualizzato.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,9 +55,9 @@ var getResponsiveLayout=function(ppw,plw,tw){if(!(isNaN(ppw)||isNaN(plw)||isNaN(
 
 Il `getResponsiveLayout` metodo utilizza i seguenti argomenti:
 
-* **`ppw`**(obbligatorio, numero intero): Larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout telefono verticale a un layout telefono orizzontale
-* **`plw`**(obbligatorio, numero intero): La larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout telefono orizzontale a un layout basato su tablet
-* **`tw`**(obbligatorio, booleano): Larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout tablet a un layout basato su desktop
+* **`ppw`** (obbligatorio, numero intero): Larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout telefono verticale a un layout telefono orizzontale
+* **`plw`** (obbligatorio, numero intero): Larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout telefono orizzontale a un layout basato su tablet
+* **`tw`** (obbligatorio, booleano): Larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout tablet a un layout basato su desktop
 
 La chiamata di questo metodo restituisce una stringa contenente due parti. La prima parte utilizza uno dei seguenti valori, a seconda della larghezza del browser e degli argomenti precedenti:
 
