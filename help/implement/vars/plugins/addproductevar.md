@@ -1,8 +1,8 @@
 ---
-title: ' addProductEvar'
+title: addProductEvar
 description: Aggiunge eVar di merchandising alla variabile products.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `addProductEvar` plug-in consente di aggiungere facilmente un&#39;eVar merchandising di Adobe Analytics che utilizza la sintassi del prodotto alla variabile products, senza preoccuparsi se il contenuto già esistente della variabile products verrà modificato/spostato/eliminato. Adobe consiglia di utilizzare questo plug-in per aggiungere facilmente eVar di merchandising con sintassi di prodotto alla `products` variabile. Non è necessario utilizzare il `addProductEvar` plug-in se non si utilizzano eVar di merchandising con sintassi di prodotto.
+Il `addProductEvar` plug-in consente di aggiungere facilmente un&#39;eVar merchandising di Adobe Analytics che utilizza la sintassi del prodotto alla variabile products, senza preoccuparsi se il contenuto già esistente della variabile products verrà modificato/spostato/eliminato. Adobe consiglia di utilizzare questo plug-in per aggiungere facilmente eVar di merchandising con sintassi di prodotto alla [`products`](../page-vars/products.md) variabile. Non è necessario utilizzare il `addProductEvar` plug-in se non si utilizzano eVar di merchandising con sintassi di prodotto.
 
 > [!NOTE] Questo plug-in non sostituisce le eVar già esistenti in una voce di prodotto. Aggiunge solo i valori impostati con questo plug-in. Prestate attenzione quando aggiungete eVar già esistenti per quel prodotto.
 
@@ -44,7 +44,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,9 +57,9 @@ s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof e
 
 Il `addProductEvar` plug-in utilizza gli argomenti seguenti:
 
-* **`en`**(obbligatorio, stringa): L&#39;eVar da aggiungere all&#39;ultima voce attualmente contenuta nella variabile products. Se la variabile products è vuota, il plug-in crea una voce di prodotto &quot;vuota&quot; con il valore eVar associato alla fine della voce.
-* **`ev`**(obbligatorio, stringa): Il valore assegnato all&#39;eVar.
-* **`ap`**(facoltativo, booleano): Se la variabile products contiene attualmente più di una voce di prodotto, il valore true (o 1) aggiunge l&#39;eVar a** tutte **le voci di prodotto.  Il valore predefinito è false (o 0), che aggiunge l&#39;eVar solo all&#39;** ultima **voce contenuta nella variabile products.
+* **`en`** (obbligatorio, stringa): L&#39;eVar da aggiungere all&#39;ultima voce attualmente contenuta nella variabile products. Se la variabile products è vuota, il plug-in crea una voce di prodotto &quot;vuota&quot; con il valore eVar associato alla fine della voce.
+* **`ev`** (obbligatorio, stringa): Il valore assegnato all&#39;eVar.
+* **`ap`** (facoltativo, booleano): Se la variabile products contiene attualmente più di una voce di prodotto, il valore true (o 1) aggiunge l&#39;eVar a **tutte** le voci di prodotto.  Il valore predefinito è false (o 0), che aggiunge l&#39;eVar solo all&#39; **ultima** voce contenuta nella variabile products.
 
 Il `addProductEvar` plug-in non restituisce nulla. ma aggiunge alla `en` variabile l&#39;eVar (eVar) specificato nell&#39;argomento `ev` e `products` .
 
