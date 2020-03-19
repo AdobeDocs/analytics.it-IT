@@ -1,8 +1,8 @@
 ---
 title: events
-description: Impostate la variabile eventi, che regola la maggior parte delle metriche sul sito.
+description: Impostate la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -35,14 +35,14 @@ La `s.events` variabile è una stringa che contiene un elenco delimitato da virg
 
 * `event1` - `event1000`: Eventi personalizzati, impostati come desiderato. Registrazione dell&#39;utilizzo di ogni evento nel documento [di progettazione della](../../../prepare/solution-design.md)soluzione aziendale. Il numero di eventi disponibili dipende dal contratto Analytics dell&#39;organizzazione. La maggior parte delle organizzazioni per i contratti non legacy dispone di 1000 eventi personalizzati. Contatta il responsabile commerciale dell&#39;azienda se non sei sicuro di quanti eventi personalizzati sono disponibili.
 * `purchase`: Aumenta la metrica &#39;Ordini&#39; di 1 e prende i valori impostati nella `products` variabile per calcolare &#39;Unità&#39; e &#39;Entrate&#39;. Per ulteriori informazioni, consulta Evento [di](event-purchase.md) acquisto.
-* `prodView`: Incrementa la metrica &quot;Visualizzazioni prodotto&quot;.
+* `prodView`: Incrementa la metrica &#39;Product Views&#39; (Visualizzazioni prodotto).
 * `scOpen`: Aumenta la metrica &#39;Carts&#39;.
 * `scAdd`: Incrementa la metrica &#39;Incrementi carrello&#39;.
 * `scRemove`: Incrementa la metrica &quot;Rimozione carrello&quot;.
 * `scView`: Incrementa la metrica &#39;Visualizzazioni carrello&#39;.
 * `scCheckout`: Aumenta la metrica &#39;Checkout&#39;.
 
-> [!TIP] Questa variabile fa distinzione tra maiuscole e minuscole. Evitate di usare valori di evento con maiuscole/minuscole errate per garantire una raccolta dati accurata.
+> [!NOTE] Questa variabile fa distinzione tra maiuscole e minuscole. Evitate di usare valori di evento con maiuscole/minuscole errate per garantire una raccolta accurata dei dati.
 
 ```js
 // Set the events variable to a single value
@@ -68,7 +68,7 @@ s.events = "event1=2,event2";
 
 ### Utilizzare gli eventi valuta
 
-È possibile modificare un evento personalizzato per utilizzare la valuta invece dei numeri interi. Gli eventi di valuta vengono convertiti automaticamente nella valuta della suite di rapporti se la valuta della suite di rapporti e la `currencyCode` variabile non corrispondono. Sono utili per calcolare i costi di spedizione, gli sconti o i rimborsi. Potete impostare gli eventi di valuta nella `products` variabile se desiderate attribuire l&#39;evento solo a tale prodotto.
+È possibile modificare un evento personalizzato per utilizzare la valuta invece dei numeri interi. Gli eventi di valuta vengono convertiti automaticamente nella valuta della suite di rapporti se la valuta della suite di rapporti e la `currencyCode` variabile non corrispondono. Sono utili per calcolare i costi di spedizione, gli sconti o i rimborsi. È possibile impostare gli eventi di valuta nella `products` variabile se si desidera attribuire l&#39;evento solo a tale prodotto.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
