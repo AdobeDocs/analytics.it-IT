@@ -1,8 +1,8 @@
 ---
-title: ' formatTime'
+title: formatTime
 description: Convertire un numero di secondi in minuti, ore, ecc.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,13 +58,13 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Il `formatTime` metodo utilizza i seguenti argomenti:
 
-* **`ns`**(obbligatorio, numero intero): Il numero di secondi di conversione o formattazione
-* **`tf`**(facoltativo, stringa): il tipo di formato per restituire i secondi in; impostazione predefinita: secondi
+* **`ns`** (obbligatorio, numero intero): Il numero di secondi per la conversione o il formato
+* **`tf`** (facoltativo, stringa): il tipo di formato per restituire i secondi in; impostazione predefinita: secondi
    * Imposta su `"d"` se si desidera l&#39;ora in giorni (arrotondato al valore di riferimento di 1/4 più vicino per impostazione predefinita)
    * Imposta su `"h"` se desideri il tempo in ore (arrotondato al valore di riferimento di 1/4 ore più vicino per impostazione predefinita)
    * Imposta su `"m"` se desideri il tempo in minuti (arrotondato al valore di riferimento di 1/2 minuti più vicino per impostazione predefinita)
    * Imposta su `"s"` se si desidera ottenere il tempo in secondi (arrotondato per impostazione predefinita a 5 secondi più vicino)
-* **`bml`**(facoltativo, numero): Lunghezza dei benchmark di arrotondamento. Impostazione predefinita dei parametri di riferimento elencati nell’`tf`argomento
+* **`bml`** (facoltativo, numero): Lunghezza dei benchmark di arrotondamento. Impostazione predefinita dei parametri di riferimento elencati nell’ `tf` argomento
 
 Il metodo restituisce il numero di secondi formattati utilizzando l&#39;unità specificata nell&#39; `tf` argomento. Se l&#39; `tf` argomento non è impostato:
 
