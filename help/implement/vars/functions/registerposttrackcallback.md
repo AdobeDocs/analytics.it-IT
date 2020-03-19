@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Crea funzioni di callback dopo l’invio di un hit ad Adobe.
 translation-type: tm+mt
-source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 La `registerPostTrackCallback` variabile consente all&#39;organizzazione di collegare una funzione JavaScript immediatamente dopo che un hit è stato inviato ad Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un&#39;infrastruttura interna, oppure per ripulire i valori variabili nelle applicazioni a pagina singola.
 
-> [!IMPORTANT] Non invocare funzioni di tracciamento come `t` o `tl` all’interno della `registerPostTrackCallback` variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
+> [!IMPORTANT] Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all’interno della `registerPostTrackCallback` variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
 
 Ogni volta che si chiama la `registerPostTrackCallback` variabile, si aggancia la funzione per l’esecuzione immediatamente dopo l’invio di una richiesta di immagine. Evitare di registrare la stessa funzione più volte nello stesso caricamento di pagina.
 
-> [!NOTE] I tempi e l&#39;ordine delle funzioni attivate tra `registerPreTrackCallback` e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
+> [!NOTE] I tempi e l&#39;ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
 
 ## Registra il richiamo del post-traccia nel lancio di Adobe Experience Platform
 
@@ -50,7 +50,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Esempio di caso di utilizzo
 
-La registrazione della `clearVars()` funzione nel callback post-traccia può essere utile per le applicazioni a pagina singola. Ogni volta che viene inviato un hit ad Adobe, la `clearVars()` funzione viene eseguita. L’implementazione può quindi definire di nuovo le variabili senza preoccuparsi di valori che persistono in modo errato.
+La registrazione della [`clearVars()`](clearvars.md) funzione nel callback post-traccia può essere utile per le applicazioni a pagina singola. Ogni volta che viene inviato un hit ad Adobe, la `clearVars()` funzione viene eseguita. L’implementazione può quindi definire di nuovo le variabili senza preoccuparsi di valori che persistono in modo errato.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
