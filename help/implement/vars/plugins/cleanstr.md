@@ -1,8 +1,8 @@
 ---
-title: ' cleanStr'
+title: cleanStr
 description: Rimuovere o sostituire tutti i caratteri non necessari da una stringa.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `cleanStr` plug-in rimuove o sostituisce tutti i caratteri non necessari da una stringa, inclusi i caratteri tag HTML, gli spazi bianchi, le schede e i ritorni a capo/riga. Sostituisce anche le virgolette singole (`‘` e `’`) singole (`'`) dritte. Adobe consiglia di utilizzare questo plug-in se desiderate rimuovere caratteri non necessari dai valori delle variabili e la funzione &quot;Testo pulito&quot; di Launch non soddisfa le vostre esigenze di implementazione. Questo plug-in non è necessario se i dati raccolti non contengono caratteri superflui o se la funzione &quot;Testo pulito&quot; di Launch è sufficiente.
+Il `cleanStr` plug-in rimuove o sostituisce tutti i caratteri non necessari da una stringa, inclusi i caratteri tag HTML, gli spazi bianchi, le schede e i ritorni a capo/riga. Sostituisce inoltre le virgolette singole (`‘` e `’`) sinistre/destre con virgolette singole (`'`) semplici diritte. Adobe consiglia di utilizzare questo plug-in se desiderate rimuovere caratteri non necessari dai valori delle variabili e la funzione &quot;Testo pulito&quot; di Launch non soddisfa le vostre esigenze di implementazione. Questo plug-in non è necessario se i dati raccolti non contengono caratteri superflui o se la funzione &quot;Testo pulito&quot; di Launch è sufficiente.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,7 +55,7 @@ function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)
 
 Il `cleanStr` metodo utilizza i seguenti argomenti:
 
-* **`str`**(obbligatorio, stringa): Il valore che si desidera eliminare la codifica HTML, gli spazi bianchi, le schede o altri caratteri non necessari.
+* **`str`** (obbligatorio, stringa): Il valore che si desidera eliminare la codifica HTML, gli spazi bianchi, le schede o altri caratteri non necessari.
 
 Il metodo restituisce il valore dell&#39; `str` argomento e tutti i caratteri non necessari vengono rimossi.
 
