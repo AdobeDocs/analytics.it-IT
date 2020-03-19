@@ -2,12 +2,12 @@
 title: getTimeBetweenEvents
 description: Misurare il tempo tra due eventi.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:getTimeBetweenEvents
+# Plug-in Adobe: getTimeBetweenEvents
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Il `getTimeBetweenEvents` metodo utilizza i seguenti argomenti:
 
-* **`ste`**(obbligatorio, stringa): Avviate gli eventi timer. Una stringa delimitata da virgole di eventi Analytics per &quot;avviare il timer&quot;.
-* **`rt`**(obbligatorio, booleano): Riavvia timer. Impostare su`true`se si desidera riavviare il timer ogni volta che la`events`variabile contiene un evento timer di avvio. Impostare su`false`se non si desidera che il timer venga riavviato quando viene visualizzato un evento timer di avvio.
-* **`stp`**(obbligatorio, stringa): Arrestate gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics che &quot;arresta il timer&quot;.
-* **`res`**(obbligatorio, booleano): Opzione Reimposta timer. Impostare su`true`se si desidera registrare l&#39;ora dall&#39;avvio del timer E reimpostare il timer dopo l&#39;arresto. Impostare su`false`se si desidera registrare l&#39;ora ma non arrestare il timer. Se impostato su`false`, il timer continua a essere eseguito dopo che la variabile degli eventi ha registrato un evento stop.
+* **`ste`** (obbligatorio, stringa): Avviate gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics per &quot;avviare il timer&quot;.
+* **`rt`** (obbligatorio, booleano): Riavvia timer. Impostare su `true` se si desidera riavviare il timer ogni volta che la `events` variabile contiene un evento timer di avvio. Impostare su `false` se non si desidera che il timer venga riavviato quando viene visualizzato un evento timer di avvio.
+* **`stp`** (obbligatorio, stringa): Arrestate gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics che &quot;arresta il timer&quot;.
+* **`res`** (obbligatorio, booleano): Opzione Reimposta timer. Impostare su `true` se si desidera registrare l&#39;ora dall&#39;avvio del timer E reimpostare il timer dopo l&#39;arresto. Impostare su `false` se si desidera registrare l&#39;ora ma non arrestare il timer. Se impostato su `false`, il timer continua a essere eseguito dopo che la variabile degli eventi ha registrato un evento stop.
    > [!TIP] Se si imposta questo argomento su `false`, è consigliabile impostare l&#39; `rte` argomento seguente.
-* **`cn`**(facoltativo, stringa): Il nome del cookie in cui è memorizzata l&#39;ora del primo evento. Il valore predefinito è`"s_tbe"`.
-* **`etd`**(facoltativo, numero intero): Tempo di scadenza per il cookie in giorni. Impostato`0`per scadere alla fine della sessione del browser. Il valore predefinito è 1 giorno se non è impostato.
-* **`fmt`**(facoltativo, stringa): Formato del tempo in cui viene restituito il numero di secondi (impostazione predefinita: niente)
+* **`cn`** (facoltativo, stringa): Il nome del cookie in cui è memorizzata l&#39;ora del primo evento. Il valore predefinito è `"s_tbe"`.
+* **`etd`** (facoltativo, numero intero): Tempo di scadenza per il cookie in giorni. Impostato `0` per scadere alla fine della sessione del browser. Il valore predefinito è 1 giorno se non è impostato.
+* **`fmt`** (facoltativo, stringa): Formato del tempo in cui viene restituito il numero di secondi (impostazione predefinita: niente)
    * `"s"` in secondi
    * `"m"` per minuti
    * `"h"` per ore
@@ -78,8 +78,8 @@ Il `getTimeBetweenEvents` metodo utilizza i seguenti argomenti:
       * Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento più vicino di 1/2 minuti. Ad esempio, 30,5 minuti, 31 minuti
       * Qualsiasi valore compreso tra un&#39;ora e un giorno viene arrotondato al valore di riferimento del trimestre più vicino. Ad esempio, 2,25 ore, 3,5 ore
       * Qualsiasi valore maggiore di un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
-* **`bml`**(facoltativo, numero): Lunghezza del parametro di riferimento di arrotondamento in base al formato dell&#39;`fmt`argomento. Ad esempio, se l&#39;`fmt`argomento è`"s"`e questo argomento è`2`, il valore restituito viene arrotondato al valore di riferimento di 2 secondi più vicino. Se`fmt`l&#39;argomento è`"m"`e questo è`0.5`, il valore restituito viene arrotondato al valore di riferimento di mezzo minuto più vicino.
-* **`rte`**(facoltativo, stringa): Stringa delimitata da virgole di eventi Analytics che rimuovono o eliminano il timer. Il valore predefinito è Nothing.
+* **`bml`** (facoltativo, numero): Lunghezza del parametro di riferimento per l&#39;arrotondamento in base al formato dell&#39; `fmt` argomento. Ad esempio, se l&#39; `fmt` argomento è `"s"` e questo argomento è `2`, il valore restituito viene arrotondato al valore di riferimento di 2 secondi più vicino. Se `fmt` l&#39;argomento è `"m"` e questo è `0.5`, il valore restituito viene arrotondato al valore di riferimento di mezzo minuto più vicino.
+* **`rte`** (facoltativo, stringa): Stringa delimitata da virgole di eventi di Analytics che rimuovono o eliminano il timer. Il valore predefinito è Nothing.
 
 Se si chiama questo metodo, viene restituito un numero intero che rappresenta la quantità di tempo tra l&#39;evento timer di avvio e l&#39;evento timer di arresto nel formato desiderato.
 
