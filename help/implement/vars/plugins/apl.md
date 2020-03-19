@@ -1,8 +1,8 @@
 ---
-title: ' apl (appendToList)'
+title: apl (appendToList)
 description: Aggiungere valori alle variabili che supportano più valori.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `apl` plug-in consente di aggiungere in modo sicuro nuovi valori a variabili delimitate da elenchi, quali `events`, `linkTrackVars`, variabili di elenco e altri.
+Il `apl` plug-in consente di aggiungere in modo sicuro nuovi valori a variabili delimitate da elenchi, come [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)e altri.
 
 * Se il valore che si desidera aggiungere non esiste nella variabile, il codice aggiunge il valore alla fine della stringa.
 * Se il valore che si desidera aggiungere esiste già nella variabile, questo plug-in non modifica il valore. Questa funzione consente all’implementazione di evitare valori duplicati.
@@ -48,7 +48,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,11 +64,11 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Il `apl` metodo utilizza i seguenti argomenti:
 
-* **`lv`**(obbligatorio, stringa): Variabile che contiene un elenco delimitato di elementi a cui aggiungere un nuovo valore
-* **`vta`**(obbligatorio, stringa): Elenco delimitato da virgole dei nuovi valori da aggiungere al valore dell&#39;`lv`argomento.
-* **`d1`**(facoltativo, stringa): Il delimitatore utilizzato per separare i singoli valori già contenuti nell&#39;`lv`argomento.  Il valore predefinito è una virgola (`,`) se non è impostato.
-* **`d2`**(facoltativo, stringa): Il delimitatore di output. Il valore predefinito è lo stesso di quando`d1`non è impostato.
-* **`cc`**(facoltativo, booleano): Flag che indica se viene utilizzata una verifica con distinzione tra maiuscole e minuscole. Se`true`il controllo di duplicazione è sensibile alle maiuscole/minuscole. Se`false`non è impostato, il controllo di duplicazione non fa distinzione tra maiuscole e minuscole. Il valore predefinito è`false`.
+* **`lv`** (obbligatorio, stringa): Variabile che contiene un elenco delimitato di elementi a cui aggiungere un nuovo valore
+* **`vta`** (obbligatorio, stringa): Elenco delimitato da virgole dei nuovi valori da aggiungere al valore dell&#39; `lv` argomento.
+* **`d1`** (facoltativo, stringa): Il delimitatore utilizzato per separare i singoli valori già contenuti nell&#39; `lv` argomento.  Il valore predefinito è una virgola (`,`) se non è impostato.
+* **`d2`** (facoltativo, stringa): Il delimitatore di output. Il valore predefinito è lo stesso di quando `d1` non è impostato.
+* **`cc`** (facoltativo, booleano): Flag che indica se viene utilizzata una verifica con distinzione tra maiuscole e minuscole. Se `true`il controllo di duplicazione è sensibile alle maiuscole/minuscole. Se `false` non è impostato, il controllo di duplicazione non fa distinzione tra maiuscole e minuscole. Il valore predefinito è `false`.
 
 Il `apl` metodo restituisce il valore dell&#39; `lv` argomento più eventuali valori non duplicati nell&#39; `vta` argomento.
 
@@ -88,7 +88,7 @@ s.events = "event22,event24";
 s.events = s.apl(s.events, "event23");
 ```
 
-...il valore finale di s.events sarà:
+... il valore finale di s.events sarà:
 
 ```js
 s.events = "event22,event24,event23";
@@ -108,7 +108,7 @@ s.events = "event22,event23";
 s.events = s.apl(s.events, "event23");
 ```
 
-...il valore finale di s.events sarà comunque:
+... il valore finale di s.events sarà comunque:
 
 ```js
 s.events = "event22,event23";
@@ -150,7 +150,7 @@ s.prop4 = "hello|people";
 s.eVar5 = s.apl(s.prop4, "today", "|");
 ```
 
-...il valore finale di s.prop4 sarà ancora...
+... il valore finale di s.prop4 sarà ancora...
 
 ```js
 s.prop4 = "hello|people";
@@ -184,7 +184,7 @@ s.prop4 = s.apl(s.prop4, "today");
 s.prop4 = "hello|people,today";
 ```
 
-Assicuratevi di mantenere il delimitatore coerente tra ciò che si trova nel valore dell&#39;argomento lv e ciò che si trova negli argomenti d1/d2
+Assicuratevi di mantenere il delimitatore coerente tra ciò che è presente nel valore dell&#39;argomento lv e ciò che è contenuto negli argomenti d1/d2
 
 ### Esempio n. 6
 
@@ -200,7 +200,7 @@ s.events = "event22,event23";
 s.events = s.apl(s.events,"EVenT23", ",", ",", true);
 ```
 
-...il valore finale di s.events sarà:
+... il valore finale di s.events sarà:
 
 ```js
 s.events = "event22,event23,EVentT23";
@@ -222,7 +222,7 @@ s.events = "event22,event23";
 s.events = s.apl(s.events, "event23,event24,event25");
 ```
 
-...il valore finale di s.events sarà:
+... il valore finale di s.events sarà:
 
 ```js
 s.events = "event22,event23,event24,event25");
@@ -244,13 +244,13 @@ s.linkTrackVars = "events,eVar1";
 s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
 ```
 
-...il valore finale di s.linkTrackVars sarà:
+... il valore finale di s.linkTrackVars sarà:
 
 ```js
 s.linkTrackVars = "events,eVar1,campaign";
 ```
 
-Gli ultimi tre argomenti (cioè &quot;,&quot;, &quot;,&quot;, false) alla fine di questa chiamata apl non sono necessari ma non &quot;fanno male a nulla&quot; perché vengono impostati in quanto corrispondono ai valori dell&#39;argomento predefinito.
+Gli ultimi tre argomenti (vale a dire &quot;,&quot;, &quot;,&quot;, false) alla fine di questa chiamata apl non sono necessari ma non &quot;fanno male a nulla&quot; perché vengono impostati in quanto corrispondono ai valori dell&#39;argomento predefinito.
 
 ### Esempio n. 9
 
@@ -266,7 +266,7 @@ s.events = "event22,event24";
 s.apl(s.events, "event23");
 ```
 
-...il valore finale di s.events sarà comunque:
+... il valore finale di s.events sarà comunque:
 
 ```js
 s.events = "event22,event24";
