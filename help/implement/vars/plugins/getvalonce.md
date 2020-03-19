@@ -2,7 +2,7 @@
 title: getValOnce
 description: Impedisci che una variabile di Analytics venga impostata sullo stesso valore due volte nella riga.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep
 
 Il `getValOnce` metodo utilizza i seguenti argomenti:
 
-* **`vtc`**(obbligatorio, stringa): Variabile da verificare e verificare se è stata precedentemente impostata su un valore identico
-* **`cn`**(facoltativo, stringa): Nome del cookie che contiene il valore da verificare. Il valore predefinito è`"s_gvo"`
-* **`et`**(facoltativo, numero intero): Scadenza del cookie in giorni (o minuti, a seconda dell&#39;`ep`argomento). Il valore predefinito è`0`, che scade alla fine della sessione del browser
-* **`ep`**(facoltativo, stringa): Impostate questo argomento solo se è impostato anche l&#39;`et`argomento. Impostate questo argomento su`"m"`se desiderate che l&#39;`et`argomento scada in minuti invece che in giorni. Il valore predefinito è`"d"`, che imposta l&#39;`et`argomento in giorni.
+* **`vtc`** (obbligatorio, stringa): La variabile da verificare e verificare se è stata precedentemente impostata su un valore identico
+* **`cn`** (facoltativo, stringa): Nome del cookie che contiene il valore da verificare. Il valore predefinito è `"s_gvo"`
+* **`et`** (facoltativo, numero intero): Scadenza del cookie in giorni (o minuti, a seconda dell&#39; `ep` argomento). Il valore predefinito è `0`, che scade alla fine della sessione del browser
+* **`ep`** (facoltativo, stringa): Impostate questo argomento solo se è impostato anche l&#39; `et` argomento. Impostate questo argomento su `"m"` se desiderate che l&#39; `et` argomento scada in minuti invece che in giorni. Il valore predefinito è `"d"`, che imposta l&#39; `et` argomento in giorni.
 
 Se l&#39; `vtc` argomento e il valore del cookie corrispondono, questo metodo restituisce una stringa vuota. Se l&#39; `vtc` argomento e il valore del cookie non corrispondono, il metodo restituisce l&#39; `vtc` argomento come una stringa.
 
