@@ -2,7 +2,7 @@
 title: offlineHitLimit
 description: Determinare il numero massimo di hit da mettere in coda per il tracciamento offline.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 Il tracciamento offline è un metodo facoltativo per raccogliere dati in Adobe Analytics. Se un visitatore si disconnette da Internet ma continua a sfogliare il sito, gli hit vengono memorizzati in una coda offline fino a quando il dispositivo non si riconnette a Internet. Il tracciamento offline viene utilizzato principalmente per le applicazioni mobili.
 
-La `offlineHitLimit` variabile inserisce un limite al numero di hit memorizzati localmente dal dispositivo. Questa variabile funziona solo se `trackOffline` è `true`.
+La `offlineHitLimit` variabile inserisce un limite al numero di hit memorizzati localmente dal dispositivo. Questa variabile funziona solo se [`trackOffline`](trackoffline.md) è abilitata.
 
 ## Limite hit offline in Adobe Experience Platform Launch
 
