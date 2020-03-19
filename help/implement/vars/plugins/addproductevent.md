@@ -2,16 +2,16 @@
 title: addProductEvent
 description: Aggiunge eventi personalizzati alla variabile "products and events".
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in Adobe:addProductEvent
+# Plug-in Adobe: addProductEvent
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `addProductEvent` plug-in aggiunge un evento numerico o valutario alla `products` variabile. Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario alla `products` variabile senza preoccuparsi del formato stringa prodotto. Questo plug-in non è necessario se nella `products` variabile non vengono utilizzati eventi numerici o valutari.
+Il `addProductEvent` plug-in aggiunge un evento numerico o valutario alla [`products`](../page-vars/products.md) variabile. Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario alla `products` variabile senza preoccuparsi del formato stringa prodotto. Questo plug-in non è necessario se nella `products` variabile non vengono utilizzati eventi numerici o valutari.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,7 +65,7 @@ Il `addProductEvent` metodo utilizza i seguenti argomenti:
 * **`ev`** (obbligatorio, stringa): Il valore assegnato all&#39;evento numerico o valutario nell&#39; `en` argomento.  Il valore predefinito è `1` se non è impostato.
 * **`ap`** (facoltativo, booleano): Se la variabile products contiene attualmente più di una voce di prodotto, il valore `true` (o `1`) aggiunge l’evento a tutte le voci di prodotto.  Il valore predefinito è `false` se non è impostato.
 
-Non `addProductEvent` restituisce nulla. ma aggiunge l&#39;evento e il relativo valore alla `products` variabile. Il plug-in aggiunge automaticamente anche l’evento alla `events` variabile, in quanto è necessario anche in questo caso.
+Non `addProductEvent` restituisce nulla. Al contrario, aggiunge l&#39;evento e il relativo valore alla `products` variabile. Il plug-in aggiunge automaticamente anche l’evento alla [`events`](../page-vars/events/events-overview.md) variabile, in quanto è necessario anche in questo caso.
 
 ## Cookie
 
