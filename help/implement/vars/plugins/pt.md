@@ -1,8 +1,8 @@
 ---
-title: ' pt'
+title: pt
 description: Esegue una funzione in un elenco di variabili.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `pt` plug-in esegue una funzione o un metodo in un elenco di variabili Analytics. Ad esempio, è possibile eseguire selettivamente il `clearVars` metodo su più variabili senza chiamare manualmente il metodo ogni volta. Molti altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta, o se non si utilizzano plug-in dipendenti.
+Il `pt` plug-in esegue una funzione o un metodo in un elenco di variabili di Analytics. Ad esempio, è possibile eseguire selettivamente il [`clearVars`](../functions/clearvars.md) metodo su più variabili senza chiamare manualmente il metodo ogni volta. Molti altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta, o se non si utilizzano plug-in dipendenti.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
@@ -42,7 +42,7 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite `s_gi`). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasuremen
 
 Il `pt` metodo utilizza i seguenti argomenti:
 
-* **`l`**(obbligatorio, stringa): Un elenco di variabili con cui la funzione contenuta nell&#39;`cf`argomento può essere eseguita.
-* **`de`**(facoltativo, stringa): Il delimitatore che separa l&#39;elenco di variabili nell&#39;`l`argomento. Il valore predefinito è una virgola (`,`).
-* **`cf`**(obbligatorio, stringa): Il nome della funzione di callback contenuta nell&#39;oggetto AppMeasurement da chiamare rispetto a ciascuna delle variabili contenute nell&#39;`l`argomento.
-* **`fa`**(facoltativo, stringa): Se la funzione nell&#39;`cf`argomento richiede argomenti aggiuntivi durante l&#39;esecuzione, includeteli qui. Il valore predefinito è`undefined`.
+* **`l`** (obbligatorio, stringa): Un elenco di variabili per le quali la funzione contenuta nell&#39; `cf` argomento può essere eseguita.
+* **`de`** (facoltativo, stringa): Il delimitatore che separa l&#39;elenco di variabili nell&#39; `l` argomento. Il valore predefinito è una virgola (`,`).
+* **`cf`** (obbligatorio, stringa): Il nome della funzione di callback contenuta nell&#39;oggetto AppMeasurement da chiamare rispetto a ciascuna delle variabili contenute nell&#39; `l` argomento.
+* **`fa`** (facoltativo, stringa): Se la funzione nell&#39; `cf` argomento richiede argomenti aggiuntivi durante l&#39;esecuzione, includeteli qui. Il valore predefinito è `undefined`.
 
 La chiamata di questo metodo restituisce un valore se la funzione di callback (nell’ `cf` argomento) restituisce un valore.
 
