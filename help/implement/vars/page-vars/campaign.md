@@ -2,7 +2,7 @@
 title: campagna
 description: Compilare la dimensione "Codice di tracciamento".
 translation-type: tm+mt
-source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -24,11 +24,11 @@ Puoi impostare la campagna sia durante la configurazione dell&#39;estensione di 
 5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuare la [!UICONTROL Campaign] sezione.
 
-Potete impostare la campagna su un valore o su un parametro di stringa di query.
+È possibile impostare la campagna su un valore o su un parametro di stringa di query.
 
 ## s.campaign in AppMeasurement e Launch editor di codice personalizzato
 
-La `s.campaign` variabile è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La sua lunghezza massima è di 255 byte; i valori superiori a 100 byte vengono troncati automaticamente quando inviati ad Adobe.
+La `s.campaign` variabile è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La sua lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando inviati ad Adobe.
 
 ```js
 // Set the campaign variable to a static value
