@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
       + [Traffico](c-data-sources/c-datasrc-types/datasrc-traffic.md)
       + [Conversione](c-data-sources/c-datasrc-types/datasrc-conversion.md)
       + [ID transazione](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
-      + [Visitor ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+      + [ID visitatore](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Elaborazione completa](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
    + [Integrazione transazione e cliente](c-data-sources/datasrc-integrating-offline-data.md)
    + [ID transazione e profili visitatore](c-data-sources/datasrc-tid-visitor-profile.md)
@@ -74,7 +74,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
       + [Rapporti di Analytics con dati DFA](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
       + [Riconciliazione delle discrepanze metriche](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
       + [Domande frequenti](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
-      + [Ritardo max](data-connectors/dfa-data-connector-analytics/maxdelay.md)
+      + [Ritardo massimo](data-connectors/dfa-data-connector-analytics/maxdelay.md)
    + Connettore dati DreamMail per Adobe Analytics {#dreammail}
       + [Connettore dati DreamMail per Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
       + [Attivare l&#39;integrazione](data-connectors/dreammail-overview/t-dreammail-activate.md)
