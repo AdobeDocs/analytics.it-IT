@@ -4,15 +4,18 @@ title: Panoramica di Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
+source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 ---
 
 
 # Panoramica di Activity Map
 
+>[!Note]
+>Scoprite come Activity Map supporta le applicazioni SPA (Single Page Applications) nella nostra pagina [FAQ](/help/analyze/activity-map/activitymap-faq.md) .
+
 >[!IMPORTANT]
->Il 16 gennaio 2020, Adobe Analytics inizierà a spostarsi su un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe causare l&#39;interruzione del funzionamento della Activity Map per alcuni clienti in casi specifici. Come sapete, Activity Map viene inserita nella pagina del cliente in un iframe (un iframe per la barra degli strumenti Activity Map e un iframe per il pannello Activity Map Bottom). È possibile che nella pagina Web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di utilizzare tale pagina Web.
+>Il 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi in un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe causare l&#39;interruzione del funzionamento della Activity Map per alcuni clienti in casi specifici. Come sapete, Activity Map viene inserita nella pagina del cliente in un iframe (un iframe per la barra degli strumenti Activity Map e un iframe per il pannello Activity Map Bottom). È possibile che nella pagina Web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di utilizzare tale pagina Web.
 
 Activity Map è un&#39;applicazione Adobe Analytics progettata per classificare l&#39;attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine Web.
 
