@@ -3,7 +3,7 @@ description: 'null'
 title: Panoramica del pannello Attribuzione
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -96,3 +96,5 @@ L’attribuzione viene sempre eseguita prima della segmentazione e la segmentazi
 Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit di visualizzazione”, potresti vedere altri canali sotto forma di tabella utilizzando alcuni modelli di attribuzione.
 
 ![Suite di rapporti virtuali di sola visualizzazione](assets/vrs-aiq-example.png)
+
+> [!NOTE] Se un segmento sopprime gli hit che contengono la metrica, queste istanze della metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro di report simile nasconderà semplicemente alcuni valori di dimensione, senza alcun impatto sulle metriche elaborate per il modello di attribuzione. Di conseguenza, un segmento e un filtro con definizioni comparabili possono a volte restituire valori inferiori per il segmento.
