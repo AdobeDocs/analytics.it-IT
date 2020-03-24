@@ -5,7 +5,7 @@ title: Informazioni sulle classificazioni secondarie
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -15,18 +15,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Adobe Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
 
 > [!NOTE] Per sottocategoria si intende la capacità di creare classificazioni di classificazioni. Tuttavia, non è lo stesso utilizzato [!UICONTROL Classification Hierarchy] per creare [!UICONTROL Hierarchy] rapporti. Per ulteriori informazioni sulle gerarchie di classificazione, vedere Gerarchie [di](classification-hierarchies.md)classificazione.
-
-<!-- 
-
-<p>Removed sub-classifications in rule builder. Preserve subclass files in project for future reference. </p>
-
- -->
-
-<!-- 
-
-c_single-level_classifications.xml
-
- -->
 
 Ad esempio:
 
@@ -41,19 +29,13 @@ Ogni classificazione in questo modello è indipendente e corrisponde a una nuova
 
 Per ulteriori informazioni sul file di dati, vedere File [di dati di](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)classificazione.
 
-<!-- 
-
-c_multiple-level_classifications.xml
-
- -->
-
 Le classificazioni a più livelli sono composte da classificazioni padre e figlio. Ad esempio:
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**** Classificazioni padre: Per classificazione padre si intende qualsiasi classificazione associata a una classificazione figlio. Una classificazione può essere sia una classificazione padre che una classificazione figlio. Le classificazioni principali corrispondono alle classificazioni a livello singolo (consultate Classificazioni [a livello](/help/components/c-classifications2/c-sub-classifications.md)singolo).
+**Classificazioni padre:** Per classificazione padre si intende qualsiasi classificazione associata a una classificazione figlio. Una classificazione può essere sia una classificazione padre che una classificazione figlio. Le classificazioni principali corrispondono alle classificazioni a livello singolo (consultate Classificazioni [a livello](/help/components/c-classifications2/c-sub-classifications.md)singolo).
 
-**** Classificazioni figlio: Per classificazione figlio si intende qualsiasi classificazione con un'altra classificazione come padre invece della variabile. Le classificazioni figlio forniscono informazioni aggiuntive sulla classificazione padre. Ad esempio, una [!UICONTROL Campaigns] classificazione potrebbe avere una classificazione figlio Proprietario campagna. [!UICONTROL Numeric] Le classificazioni funzionano anche come metriche nei report di classificazione.
+**Classificazioni figlio:** Per classificazione figlio si intende qualsiasi classificazione con un&#39;altra classificazione come padre invece della variabile. Le classificazioni figlio forniscono informazioni aggiuntive sulla classificazione padre. Ad esempio, una [!UICONTROL Campaigns] classificazione potrebbe avere una classificazione figlio Proprietario campagna. [!UICONTROL Numeric] Le classificazioni funzionano anche come metriche nei report di classificazione.
 
 Ogni classificazione, principale o secondario, costituisce una colonna di dati nel file di dati. Intestazione della colonna per una classificazione figlio utilizzando il seguente formato di denominazione:
 
@@ -74,11 +56,7 @@ Anche se il modello di file per una classificazione a più livelli è più compl
 
 Consulta [Problemi](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) comuni relativi al caricamento delle classificazioni per la risoluzione dei problemi.
 
-<!-- 
-
-c_classifications_example.xml
-
- -->
+## Esempi
 
 ![](assets/sample-product-classifications.png)
 
@@ -86,23 +64,23 @@ c_classifications_example.xml
 
 Quando caricate i file di dati per questa classificazione di prodotto, potete caricare i dati di classificazione come un singolo file o più file (vedete di seguito). Separando il codice colore nel file 1 e il nome del colore nel file 2, i dati del nome del colore (che possono essere solo poche righe) devono essere aggiornati solo quando vengono creati nuovi codici colore. Questo elimina il campo del nome del colore (CODE&amp;Hat;COLOR) dal file 1 aggiornato con maggiore frequenza e riduce la dimensione e la complessità del file durante la generazione del file di dati.
 
-## Classificazione prodotto - File singolo {#section_E8C5E031869C449F9B636F5EB3BFEC17}
+### Classificazione prodotto - File singolo {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
 | CHIAVE | NOME PRODOTTO | DETTAGLI DEL PRODOTTO | GENERE | DIMENSIONE | CODICE | CODE&amp;Cappello;COLORE |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-SS | Camicia Polo, manica corta (M,01) | M | M | 01 | Pietra |
-| 410390014 | Polo-SS | Camicia Polo, manica corta (L,03) | M | L | 03 | Heather |
+| 410390014 | Polo-SS | Camicia Polo, manica corta (L,03) da uomo | M | L | 03 | Heather |
 | 410390015 | Polo-LS | Camicia Polo femminile, manica lunga (S,23) | F | S | 23 | Aqua |
 
-## Classificazione prodotto - Più file (file 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Classificazione prodotto - Più file (file 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | CHIAVE | NOME PRODOTTO | DETTAGLI DEL PRODOTTO | GENERE | DIMENSIONE | CODICE |
 |---|---|---|---|---|---|
 | 410390013 | Polo-SS | Camicia Polo, manica corta (M,01) | M | M | 01 |
-| 410390014 | Polo-SS | Camicia Polo, manica corta (L,03) | M | L | 03 |
+| 410390014 | Polo-SS | Camicia Polo, manica corta (L,03) da uomo | M | L | 03 |
 | 410390015 | Polo-LS | Camicia Polo femminile, manica lunga (S,23) | F | S | 23 |
 
-## Classificazione prodotto - Più file (file 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Classificazione prodotto - Più file (file 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CHIAVE | CODICE | CODE&amp;Cappello;COLORE |
 |---|---|---|
