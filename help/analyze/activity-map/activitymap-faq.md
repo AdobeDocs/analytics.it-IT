@@ -4,7 +4,7 @@ title: Domande frequenti su Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
+source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
 
 ---
 
@@ -37,23 +37,23 @@ A: AppMeasurement viene implementato a livello di suite di rapporti. Il livello 
 
 **D: Gestione dinamica dei tag carica automaticamente una versione precedente (1.3.4) dell’API del visitatore rispetto a quella desiderata dalla Activity Map (1.5.1). Questo è un problema?**
 
-R: No. La funzionalità Activity Map non dipende da VisitorAPI.
+A: No. La funzionalità Activity Map non dipende da VisitorAPI.
 
 ## Applicazione Activity Map
 
-**D: In che modo Activity Map supporta le applicazioni SPA (Single Page Applications)?**
+<!--**Q: How does Activity Map support Single-Page Applications (SPA)?**
 
-A:
+A: 
 
-* Ogni pochi secondi, Activity Map analizza la pagina Web, alla ricerca di modifiche alla pagina. ActivityMap trova nuovo contenuto nella pagina senza dover caricare una nuova pagina, ma questo nuovo contenuto viene sempre attribuito al primo pageName trovato al caricamento della pagina.
+* Every few seconds, Activity Map scans the web page, looking for changes to the page. ActivityMap finds new content on the page without needing a new page load, but this new content is always attributed to the first pageName found when the page loaded.
 
-* Activity Map controlla se la visibilità dei collegamenti di cui è a conoscenza è cambiata. Se viene rilevata una modifica nella visibilità, la colonna [Collegamenti sulla pagina](/help/analyze/activity-map/activitymap-links-report.md) presente della tabella del collegamento si aggiorna con **[!UICONTROL Displayed]** o **[!UICONTROL Hidden]**.
+* Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the [Links On Page](/help/analyze/activity-map/activitymap-links-report.md) table's Present column for that link updates with **[!UICONTROL Displayed]** or **[!UICONTROL Hidden]**.
 
-* Quando l&#39;interazione dell&#39;utente crea nuovo contenuto, tutti i nuovi elementi che AppMeasurement identifica come collegamento verranno aggiunti alla **[!UICONTROL Links On Page]** tabella. Activity Map invia una nuova richiesta di dati che include questi nuovi collegamenti. I nuovi collegamenti dovrebbero essere visualizzati nella **[!UICONTROL Links On Page]** tabella quando la richiesta di dati viene gestita dall&#39;interfaccia utente.
+* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
 **D: Activity Map fornisce dati sulle &quot;viste&quot;?**
 
-A: No, il tracciamento di tutti i collegamenti visualizzati su ogni caricamento di pagina richiede la raccolta di molti più dati. Come componente aggiuntivo gratuito, Activity Map non fornisce questa funzionalità.
+A: No, Adobe non tiene traccia dei collegamenti visualizzati.
 
 **D: Posso usare Activity Map se in precedenza non ho utilizzato Visitor ClickMap sul mio sito Web?**
 
@@ -130,7 +130,7 @@ Viene visualizzato un messaggio di avviso che indica che è necessario richieder
 
 **D: Posso esportare i dati Activity Map (contextData) tramite Feed[dati](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html)Analytics?**
 
-R: No.
+A: No.
 
 ## Segmentazione in Activity Map
 
