@@ -2,7 +2,7 @@
 title: Più suite di rapporti in Workspace
 description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -16,6 +16,12 @@ Questa funzionalità è utile, ad esempio, per:
 * Confrontare i dati provenienti da due aree geografiche diverse: i dati risiedono in due suite di rapporti diverse. Puoi creare tabelle e visualizzazioni per eseguire confronti affiancati dei dati.
 
 * Creare un dashboard di metriche e visualizzazioni da segnalare ad altre organizzazioni. Ora puoi estrarre dati da varie suite di rapporti nello stesso progetto.
+
+## Applica suite di rapporti a tutti i pannelli
+
+Per applicare una suite di rapporti a tutti i pannelli contemporaneamente, fai clic con il pulsante destro del mouse sull’intestazione del pannello e seleziona **[!UICONTROL Apply Report Suite to All Panels]**.
+
+![](assets/apply-rs-all-panels.png)
 
 ## Pannello attivo
 
