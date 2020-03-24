@@ -5,7 +5,7 @@ title: Set di regole di classificazione
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -20,7 +20,7 @@ Un set di regole è un gruppo di regole di classificazione per una specifica var
 
 ## Classification Rule Builder Page {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** (Workspace &gt; Progetto &gt; Informazioni e impostazioni progetto)
+**[!UICONTROL Analytics]** (Workspace) > **[!UICONTROL Admin]** (Progetto) > **[!UICONTROL Classification Rule Builder]** (Annulla/Ripeti)
 
 I campi e le opzioni seguenti sono disponibili sul [!UICONTROL Classifications Rule Builder].
 
@@ -49,7 +49,7 @@ I campi e le opzioni seguenti sono disponibili sul [!UICONTROL Classifications R
    <td colname="col2"> Indica quando è stato modificato il set di regole. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Duplica </p> </td> 
+   <td colname="col1"> <p>Duplica </p> </td> 
    <td colname="col2"> Duplica (copia) un set di regole in modo da poter applicare il set di regole a un'altra variabile o alla stessa variabile in un'altra suite di rapporti. </td> 
   </tr> 
  </tbody> 
@@ -57,23 +57,17 @@ I campi e le opzioni seguenti sono disponibili sul [!UICONTROL Classifications R
 
 ## Creare un set di regole di classificazione {#create-classification-rule-set}
 
-<!-- 
-
-t_classification_rule_set.xml
-
- -->
-
 Denominate il set di regole di classificazione, applicate la variabile e specificate le impostazioni di sovrascrittura.
 
-1. (Prerequisito) Definite la struttura di classificazione in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. (Prerequisito) Definite la struttura di classificazione in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
    (vedere [Classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Strumenti di amministrazione per l’aggiunta di classificazioni).
 
    Le variabili vengono visualizzate nel [!UICONTROL New Rule Set] pannello solo dopo che è stata definita almeno una classificazione per quella variabile.
 
-   Potete creare classificazioni su una variabile in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]** (o **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**). Selezionate quindi la variabile e fate clic su **[!UICONTROL Add Classification]**.
+   Potete creare classificazioni su una variabile in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]** (o **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**). Selezionate quindi la variabile e fate clic su **[!UICONTROL Add Classification]**.
 
-1. Per creare il set di regole, fate clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Add Rule Set]**.
+1. Per creare il set di regole, fate clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]** > **[!UICONTROL Add Rule Set]**.
 
    ![](assets/new_rule_set.png)
 
@@ -82,10 +76,10 @@ Denominate il set di regole di classificazione, applicate la variabile e specifi
 
    ![](assets/classification_rules_page.png)
 
-1. Fai clic su **[!UICONTROL Select Report Suites and Variables]** (Genera).
+1. Fai clic su **[!UICONTROL Select Report Suites and Variables]**.
 
-   La suite di rapporti e l'elenco delle variabili vengono compilati con tutte le variabili classificate disponibili in tutte le suite di rapporti della società di accesso. Una singola variabile in una suite di rapporti può appartenere a un solo set di regole.
+   La suite di rapporti e l&#39;elenco delle variabili vengono compilati con tutte le variabili classificate disponibili in tutte le suite di rapporti della società di accesso. Una singola variabile in una suite di rapporti può appartenere a un solo set di regole.
 
    Per ulteriori informazioni, vedere *`Variable`* nelle definizioni della pagina [Generatore](/help/components/c-classifications2/crb/classification-rule-definitions.md) regole di classificazione.
 1. Specifica le suite di rapporti e le variabili da utilizzare, quindi fai clic su **[!UICONTROL Save]**.
-1. Continua [aggiungendo regole](/help/components/c-classifications2/crb/classification-rule-set.md) di classificazione al set di regole.
+1. Continuate [aggiungendo regole](/help/components/c-classifications2/crb/classification-rule-set.md) di classificazione al set di regole.
