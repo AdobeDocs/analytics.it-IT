@@ -3,33 +3,31 @@ description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 ---
 
 
 # Modelli
 
-## Modelli {#topic_40932F09E18A467983AFBB29908E1CB8}
-
 Puoi scegliere di creare un progetto in base a:
 
 * **Progetto vuoto (predefinito)**: Per istruzioni, consulta [Creazione di un progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)di Analysis Workspace.
 * **Modello** standard: Questi modelli vengono creati da Adobe e vengono forniti con il prodotto.
-* **Modello** personalizzato: Questi modelli possono essere creati, condivisi o eliminati da utenti con diritti di amministratore o da non amministratori, a condizione che dispongano dell’ [!UICONTROL Analysis Workspace: Save as Template] autorizzazione in Admin Console. [Per saperne di più...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
+* **Modello** personalizzato: Questi modelli possono essere creati, condivisi o eliminati da utenti con diritti di amministratore o da non amministratori, a condizione che dispongano dell’ [!UICONTROL Analysis Workspace: Save as Template] autorizzazione in Admin Console. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
 ## Creare un modello personalizzato {#create-custom-template}
 
-Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato effettuando le seguenti operazioni:
+Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato Di seguito viene illustrato come:
 
 1. Apri il progetto.
 1. Vai a **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Save As Template]** (Salva come modello).
 
    ![](assets/save_project_template.png)
 
-   Il progetto viene salvato con il nome corrente, seguito dalla parola (Modello) tra parentesi. Gli amministratori possono cambiare questo nome modificando il modello.
+   Il progetto verrà salvato con il nome corrente del progetto, seguito dalla parola (Modello) tra parentesi. Gli amministratori possono cambiare questo nome modificando il modello.
 
    >[!NOTE]
    >
@@ -41,22 +39,24 @@ Gli utenti con diritti di amministratore possono trasformare qualunque progetto 
 
 | Azione | Descrizione |
 |--- |--- |
-| Modificare  un modello | Consente a un amministratore di modificare il modello cambiandone l’origine dati e modificando componenti, visualizzazioni, intervalli di date ecc.  Sono disponibili due modi per modificare un modello personalizzato: <ul><li>Visualizza l’elenco dei modelli personalizzati in Analysis Workspace, selezionane uno e fai clic su Modifica modello, oppure</li><li>In Analytics, vai a Componenti > Progetti, quindi applica il filtro Modelli. Fai clic sul nome del modello da modificare.</li></ul>**Nota:** dopo aver modificato un modello, a seconda della situazione, puoi scegliere Salva o Salva con nome. Queste sono le differenze tra le due opzioni:<ul><li>**Salva:** Aggiorna il modello personalizzato per tutti gli utenti. Quando un altro utente crea un progetto basato su questo modello personalizzato, vedrà le modifiche che hai apportato.</li><li>**Salva con nome:** Crea una copia del modello personalizzato con le modifiche apportate. (Per verificare che sia attiva la modalità di modifica, controlla che la voce di menu Condividi > Condividi progetto sia disabilitata.)</li></ul> |
+| Modificare  un modello | Consente a un amministratore di modificare il modello cambiandone l’origine dati, modificando componenti, visualizzazioni, intervalli di date, ecc.  Sono disponibili due modi per modificare un modello personalizzato: <ul><li>Visualizza l’elenco dei modelli personalizzati in Analysis Workspace, selezionane uno e fai clic su Modifica modello, oppure</li><li>In Analytics, vai a Componenti > Progetti, quindi applica il filtro Modelli. Fai clic sul nome del modello da modificare.</li></ul>**Nota:** Dopo aver modificato un modello, a seconda della situazione, sono disponibili due opzioni: Salva, Salva Con Nome. Le differenze tra i due modelli sono le seguenti:<ul><li>**Salva:** Aggiorna il modello personalizzato per tutti gli utenti. Quando un altro utente crea un progetto da questo modello personalizzato, vedrà le modifiche apportate.</li><li>**Salva con nome:** Crea una copia del modello personalizzato con le modifiche apportate. (Per verificare che sia attiva la modalità di modifica, controlla che la voce di menu Condividi > Condividi progetto sia disabilitata.)</li></ul> |
 | Cercare nei modelli | Nella finestra di dialogo Modelli personalizzati, fai clic su Cerca modelli. |
-| Ordinare i modelli | Puoi organizzare i modelli in ordine alfabetico, per rilevanza e per data di creazione.  Nella finestra di dialogo Modelli personalizzati, fai clic su Ordina:. |
+| Ordinare i modelli | Potete ordinare i modelli in ordine alfabetico, per rilevanza e per data di creazione.  Nella finestra di dialogo Modelli personalizzati, fai clic su Ordina:. |
 | Applicare tag a un modello | Apri il modello e vai a Progetto > Informazioni e impostazioni progetto. Fai clic su Aggiungi tag. |
 | Modificare la descrizione di un modello | Apri il modello e vai a Progetto > Informazioni e impostazioni progetto. Fai doppio clic sulla descrizione e modificala. |
 
 
-## Modelli standard {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## Modelli standard
 
-La prima volta che si apre un’Workspace i modelli sono disponibili nella barra a sinistra. I modelli di Analysis Workspace coprono i casi d’uso più comuni. Sono raggruppati in base all’applicazione verticale a cui fanno riferimento e sono compilati con dimensioni, segmenti, metriche e visualizzazioni, a seconda della suite per rapporti selezionata.
+La prima volta che si apre un’Workspace i modelli sono disponibili nella barra a sinistra. I modelli di Analysis Workspace coprono i casi d’uso più comuni. Sono raggruppati in base all’orientamento verticale a cui appartengono e vengono compilati con dimensioni, segmenti, metriche e visualizzazioni diverse, a seconda della suite di rapporti selezionata.
 
 Puoi usare questi modelli precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome.
 
 [Modelli standard in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Di seguito sono riportati i modelli disponibili e le domande che ogni modello può rispondere.
+
+### Formazione
 
 * **Esercitazione** di formazione: Questo modello standard illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
 
@@ -108,15 +108,15 @@ Di seguito sono riportati i modelli disponibili e le domande che ogni modello pu
 
 > [!NOTE] Il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
-Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di: 
+Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone fornisce una misura della frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di: 
 
-* Segmentare i dati relativi a USA/Canada rispetto al resto del mondo. Device Co-op attualmente è disponibile solo nel Nord America.
-* Affiancare e confrontare le metriche Persone e Visitatori unici.
-* Visualizzare il “tasso di compressione”, una metrica calcolata che mostra lo scarto della metrica Persone come percentuale di Visitatori unici.
-* Confrontare i totali dei diversi tipi di dispositivi utilizzati dalla clientela
-* Verificare la media dei dispositivi pro capite.
-* Scoprire come raggruppare i segmenti con la metrica Persone.
-* Capire in che modo l’uso di Experience Cloud ID nel tuo ambiente riesca a ottimizzare l’efficacia della metrica Persone.
+* Segmentare i dati relativi a USA/Canada rispetto al resto del mondo. Device Co-op è attualmente disponibile solo in Nord America.
+* Confronta le metriche Persone e Visitatori unici affiancati.
+* Visualizzare il &quot;tasso di compressione&quot;, una metrica calcolata che calcola quanto sia più piccola la metrica Persone come percentuale di Visitatori unici.
+* Confrontare i totali dei tipi di dispositivi utilizzati dai clienti
+* Verificare la media dei dispositivi per persona utilizzati.
+* Scopri come utilizzare lo stack di segmenti con la metrica Persone.
+* Scopri in che modo l’utilizzo di Experience Cloud ID nel tuo ambiente migliora l’efficacia della metrica Persone.
 
 ### IQ viaggio: Modello di analisi multi-dispositivo
 
