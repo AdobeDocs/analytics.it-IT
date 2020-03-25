@@ -2,8 +2,8 @@
 description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per ogni strumento di Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le tue esigenze, passa a quello successivo.
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+translation-type: tm+mt
+source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 
 ---
 
@@ -26,11 +26,10 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 * Impostare eventi di Calendario
 * Impostare le destinazioni
 * Visualizzare i rapporti generati da bot
-* Esaminare più suite di rapporti in un singolo dashboard nell’interfaccia utente
 * Accedere a visualizzazioni video univoche per visualizzatori simultanei, video Daypart e abbandono dei visualizzatori
 * Sfruttare gli elenchi di pubblicazione nei rapporti pianificati
 
-L’**[interfaccia utente di Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html)**è indicata per:
+L’**[interfaccia utente di Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**è indicata per:
 
 * Ottenere una visualizzazione in silos dei dati di app mobile
 * Gestire l’implementazione dell’SDK per app mobile
