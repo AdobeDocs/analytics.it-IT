@@ -2,26 +2,26 @@
 title: PWA per Analytics
 description: App Web progressive per Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
 
 
 # PWA per Analytics
 
-Questa guida descrive come utilizzare Adobe Analytics con le app Web progressive (PWA).
+Questa pagina descrive come utilizzare Adobe Analytics con le app Web progressive (PWA).
 
 ## Introduzione
 
 I file PWA possono fornire un’esperienza app nativa e funzionalità offline per un sito Web. Di solito le PWA includono un service worker, disposizioni di caching e un file manifesto, il tutto in grado di fornire assistenza con tempi di caricamento più rapidi, navigazione più semplice e un comportamento reattivo.
 
-Adobe Analytics funziona perfettamente con le PWA come con i siti Web tradizionali. Sebbene i PWA abbiano alcuni requisiti in più per comportarsi progressivamente all'interno e all'esterno di se stessi, non creano barriere o limitazioni sul modo in cui Analytics raccoglie o segnala i dati da tali siti in modo diverso rispetto ai siti Web tradizionali. Infatti, poiché Analytics già include funzionalità di tracciamento offline, le PWA possono aiutarti a sfruttare questa funzionalità integrata più facilmente che con i siti Web tradizionali.
+Adobe Analytics funziona perfettamente con le PWA come con i siti Web tradizionali. Sebbene i PWA abbiano alcuni requisiti in più per comportarsi progressivamente all&#39;interno e all&#39;esterno di se stessi, non creano barriere o limitazioni sul modo in cui Analytics raccoglie o segnala i dati da tali siti in modo diverso rispetto ai siti Web tradizionali. Infatti, poiché Analytics già include funzionalità di tracciamento offline, le PWA possono aiutarti a sfruttare questa funzionalità integrata più facilmente che con i siti Web tradizionali.
 
-## Ottenimento dei dati PWA Analytics
+## Ottenere i dati PWA Analytics
 
-Per raccogliere e analizzare i dati PWA con Analytics, non è necessario apportare modifiche alla configurazione. Analytics fornisce automaticamente tutte le stesse funzionalità e funzionalità di un sito Web tradizionale.
+Per raccogliere e analizzare i dati PWA con Analytics, non è necessario apportare alcuna modifica alla configurazione. Analytics fornisce automaticamente tutte le stesse funzionalità e funzionalità di un sito Web tradizionale.
 
-## Aggiunta del tracciamento offline per aumentare l'efficacia del PWA
+## Aggiunta del tracciamento offline per aumentare l&#39;efficacia del PWA
 
 Puoi aumentare l’efficacia del tuo PWA utilizzando le funzionalità [di tracciamento](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) offline di Analytics. Per impostazione predefinita, questa funzione è disattivata, ma potete aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
 
@@ -40,10 +40,8 @@ s.linkLeaveQueryString=false
 s.linkTrackVars="None" 
 s.linkTrackEvents="None" 
 s.trackOffline=true
-***
-    
+*** 
 ```
-
 
 Per ulteriori informazioni sulla modifica del file AppMeasurement.js, vedi [Inserimento di codice nel file](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)AppMeasurement.js.
 
