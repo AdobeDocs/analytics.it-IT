@@ -2,12 +2,14 @@
 title: eVar
 description: Variabili personalizzate utilizzabili nell’implementazione.
 translation-type: tm+mt
-source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
 # eVar
+
+*Questa pagina della Guida descrive come implementare le eVar. Per informazioni sul funzionamento delle eVar come una dimensione, vedi[eVar](../../../components/c-variables/dimensionslist/reports-conversion.md)nella guida utente Componenti.*
 
 Le eVar sono variabili personalizzate che potete utilizzare come desiderate.
 
@@ -42,7 +44,7 @@ s.eVar1 = "Example custom value";
 
 ## eVar contatore
 
-I valori eVar in genere contengono un valore stringa. Tuttavia, puoi configurare le eVar in modo che contengano un contatore. Ad esempio, conteggiare il numero di ricerche interne effettuate prima di un acquisto. Anziché impostare un valore di testo, è necessario utilizzare la sintassi seguente:
+I valori eVar in genere contengono un valore stringa. Tuttavia, puoi configurare le eVar in modo che contengano un contatore. Ad esempio, si desidera conteggiare il numero di ricerche interne effettuate prima di un acquisto. Anziché impostare un valore di testo, è necessario utilizzare la sintassi seguente:
 
 ```js
 // Increment a counter eVar by 1
