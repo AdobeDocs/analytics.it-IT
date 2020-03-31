@@ -2,7 +2,7 @@
 title: Mappatura degli elementi dei dati di Launch alle variabili Analytics
 description: Assegnare elementi di dati alle variabili di Analytics in modo da poterli utilizzare come dimensioni in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -39,7 +39,7 @@ Le variabili impostate nelle regole sono ideali nei casi in cui non si desidera 
 1. Fare clic sulla [!UICONTROL Rules] scheda, quindi sulla regola desiderata (o crearne una).
 1. Click the [!UICONTROL Add] button under [!UICONTROL Actions].
 1. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e su [!UICONTROL Action Type] Imposta variabili.
-1. Fate clic sull&#39;icona dell&#39;elemento [!D](assets/data-element.png) dati a destra della variabile Analytics desiderata. Il documento [di progettazione della](../prepare/solution-design.md) soluzione dell&#39;organizzazione stabilisce quale variabile Analytics usare.
+1. Fai clic sull&#39;icona dell&#39;elemento ![](assets/data-element.png) Dati a destra della variabile Analytics desiderata. Il documento [di progettazione della](../prepare/solution-design.md) soluzione dell&#39;organizzazione stabilisce quale variabile Analytics usare.
 1. Selezionare l&#39;elemento dati desiderato nella finestra modale. Fai clic su [!UICONTROL Select].
 1. Il nome dell’elemento dati viene aggiunto al campo di testo circondato da `%` segni. Ad esempio, se l&#39;elemento dati è denominato &quot;Nome pagina&quot;, verrà visualizzata la stringa `%Page name%` quando si assegna un elemento dati a una variabile.
 
