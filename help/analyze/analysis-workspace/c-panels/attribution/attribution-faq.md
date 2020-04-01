@@ -2,7 +2,7 @@
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
 translation-type: tm+mt
-source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
+source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **Qual è l’elemento di riga “None” quando si utilizza l’attribuzione?**
 
-L’elemento di riga “None” è un elemento catch-all che rappresenta tutte le conversioni che si sono verificate senza punti di contatto all’interno dell’intervallo di lookback. Prova a includere un intervallo di tempo più lungo nel periodo definito per la generazione del rapporto.
+L&#39;elemento di riga &#39;None&#39; è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all&#39;interno della finestra di lookback. Prova a includere un intervallo di tempo più lungo nel periodo definito per la generazione del rapporto.
 
 **Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?**
 
@@ -46,9 +46,9 @@ Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non suppor
 * Occorrenze
 * Visualizzazioni pagina
 * Metriche A4T
-* Metriche Tempo trascorso
+* Metriche tempo trascorso
 * Rimbalzi
-* Percentuale non recapitate
+* Tasso di utilizzo
 * Voci
 * Uscite
 * Pagine non trovate
