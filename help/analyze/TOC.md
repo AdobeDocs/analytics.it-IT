@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -13,8 +13,8 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 + [Guida all’analisi di Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Aiuto per Analysis Workspace](analysis-workspace/home.md)
    + [Funzioni di Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
+   + [Aiuto per Analysis Workspace](analysis-workspace/home.md)
    + [Casi di utilizzo di Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Scopri le novità di Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Generare un progetto Workspace {#build-workspace-project}
@@ -95,11 +95,6 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
       + [Condividere e programmare file di progetto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Invio di file: programmazione di un progetto per la consegna](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestione progetti programmati](analysis-workspace/curate-share/schedule-projects.md)
-   + [Domande frequenti](analysis-workspace/faq.md)
-   + [Requisiti di amministrazione](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Ottimizzare le prestazioni di Analysis Workspace](analysis-workspace/optimizing-performance.md)
-   + [Confronto tra Analysis Workspace e Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Limiti di Analysis Workspace](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [Segmento IQ](analysis-workspace/segment-iq.md)
    + Analista virtuale {#virtual-analyst}
@@ -118,6 +113,12 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
          + [Alert Builder (Generatore di avvisi)](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Gestione avvisi](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Avvisi intelligenti: casi di utilizzo](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + Domande frequenti su Workspace {#workspace-faq}
+      + [Domande frequenti](analysis-workspace/workspace-faqs/faq.md)
+      + [Ottimizzare le prestazioni di Analysis Workspace](analysis-workspace/workspace-faqs/optimizing-performance.md)
+      + [Confronto tra Analysis Workspace e Ad Hoc Analysis](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
+      + [Limiti di Analysis Workspace](analysis-workspace/workspace-faqs/aw-limitations.md)
+      + [Requisiti di amministrazione](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Aiuto per Adobe Report Builder](report-builder/home.md)
    + [Scopri le novità di Report Builder](report-builder/whats-new-arb.md)
