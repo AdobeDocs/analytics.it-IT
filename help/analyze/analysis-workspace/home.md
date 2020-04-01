@@ -2,10 +2,8 @@
 description: Introduzione ad Adobe Analytics.
 keywords: Analysis Workspace
 title: Guida introduttiva
-topic: Reports and analytics
-uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -30,7 +28,7 @@ Recupera un report classifica di base utilizzando Analysis Workspace. Un report 
 6. A sinistra appare un elenco di dimensioni, metriche, segmenti e intervalli di date. Individua la dimensione Pages (Pagine) (di colore arancione) e trascinala sull’area di lavoro dove è indicato “Drop a Dimension Here” (Rilascia qui una dimensione).
 7. Se la suite di rapporti contiene dati, è possibile visualizzare un report che mostra le pagine principali del mese in corso. Analysis Workspace ha popolato automaticamente il report con la metrica [Occorrenze](/help/components/c-variables/c-metrics/metrics-occurrences.md).
 8. Individua la metrica Visite (di colore verde) e trascinala **sopra** o **accanto** all’intestazione della metrica Occorrenze (evita di posizionarla al di sopra della metrica). Se trascini la metrica Visite al di sopra di Occorrenze, la metrica viene sostituita durante la generazione del report. Se trascini la metrica Visite accanto a Occorrenze, entrambe le metriche vengono visualizzate una accanto all’altra.
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+9. Per salvare il progetto, fai clic su *[!UICONTROL Project] > [!UICONTROL Save]*nel menu in alto a sinistra.
 
 ## Recuperare un report con tendenze di base in Workspace
 
@@ -46,13 +44,13 @@ Recupera un report con tendenze di base utilizzando Analysis Workspace. Un repor
 8. Individua l’intervallo di data “Week” (Settimana) (di colore viola) nell’elenco dei componenti dell’intervallo di date a sinistra. Fai clic sul titolo dell’intervallo di date per espandere e visualizzare tutti i componenti dell’intervallo di date, oppure utilizza la barra di ricerca.
 9. Trascina l’intervallo di date “Week” (Settimana) sopra l’intestazione dell’intervallo di date “Day” (Giorno) nell’area di lavoro per sostituirlo.
 10. Il report con tendenze ora è aggregato per settimana anziché per giorno.
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+11. Per salvare il progetto, fai clic su *[!UICONTROL Project] > [!UICONTROL Save]*nel menu in alto a sinistra.
 
 ## Esercitarsi con lo strumento
 
 Poiché Analysis Workspace è uno strumento di reporting, non ha alcun impatto sulla raccolta dei dati. Non ci saranno ripercussioni in seguito al trascinamento di componenti all’interno di un progetto per scoprire come funziona lo strumento. Trascina nel progetto Workspace diverse combinazioni di dimensioni e metriche per scoprire quali sono le opzioni disponibili.
 
-Se trascini accidentalmente un componente non valido nel progetto Workspace o desideri tornare indietro di un passo, premi Ctrl+Z (Windows) o Comando+Z (Mac) per annullare l’ultima azione eseguita. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+Se trascini accidentalmente un componente non valido nel progetto Workspace o desideri tornare indietro di un passo, premi Ctrl+Z (Windows) o Comando+Z (Mac) per annullare l’ultima azione eseguita. È anche possibile iniziare con un’area di lavoro pulita facendo clic su *[!UICONTROL Project] > [!UICONTROL New]*nel menu in alto a sinistra.
 
 ## Risoluzione dei problemi
 
@@ -73,7 +71,7 @@ Se crei correttamente un report Workspace ma non sono presenti dati, puoi contro
 
 * [Note sulla versione di Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): leggi le funzioni più recenti introdotte nello strumento.
 * [Analysis Workspace su YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): scopri come utilizzare la maggior parte delle funzioni di Analysis Workspace tramite questa ampia playlist.
-* Suggerimenti interni ai prodotti: i suggerimenti della giornata, oltre a brevi video, vengono visualizzati occasionalmente nell’angolo inferiore destro di Analysis Workspace. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
+* Suggerimenti interni ai prodotti: i suggerimenti della giornata, oltre a brevi video, vengono visualizzati occasionalmente nell’angolo inferiore destro di Analysis Workspace. Se questi suggerimenti vengono chiusi, possono essere recuperati in qualsiasi momento andando su *[!UICONTROL Help] > [!UICONTROL Tips]*.
 * [Community di Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): discuti di Analysis Workspace con altri utenti e vota le funzioni che vorresti vedere nello strumento.
 * Post sul blog:
    * [Un’analisi più intelligente per dare più strumenti alle aziende](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
@@ -89,17 +87,16 @@ Esistono altre risorse per approfondire le tue conoscenze di Analysis Workspace.
 ### Per gli utenti finali che desiderano ampliare le conoscenze sull’utilizzo di Analysis Workspace
 
 * [Dettagli sull’interfaccia Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): ora che hai creato un report di base, acquisisci maggiore familiarità con il resto dell’interfaccia.
-* [Visualizzazioni in Workspace](visualizations/freeform-analysis-visualizations.md): le tabelle a forma libera è solo uno dei tipi di visualizzazione disponibili in Analysis Workspace. Scopri come utilizzare altre visualizzazioni quali grafici a linee, grafici a barre e mappe geografiche.
+* [Visualizzazioni in Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): le tabelle a forma libera è solo uno dei tipi di visualizzazione disponibili in Analysis Workspace. Scopri come utilizzare altre visualizzazioni quali grafici a linee, grafici a barre e mappe geografiche.
 * [Dimensioni in Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): scopri di più sulle dimensioni e come utilizzarle in report classifica più elaborati.
 * [Metriche in Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): ulteriori informazioni sulle metriche e su come utilizzarle in altre sezioni delle tabelle a forma libera.
 * [Introduzione alla segmentazione](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): scopri cosa sono i segmenti e crea un report di base utilizzando un segmento.
 * [Intervalli di date in Workspace](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): scopri le date relative e continue e utilizzale nei progetti Workspace.
 * Condivisione di progetti in Workspace: mostra ai tuoi colleghi il fantastico progetto Workspace che hai creato.
-* [(Avanzato) Pannelli in Workspace](c-panels/panels.md): utilizzare funzioni avanzate in Workspace, ad esempio Attribuzione e Confronto segmenti.
+* [(Avanzato) Pannelli in Workspace](/help/analyze/analysis-workspace/c-panels/panels.md): utilizzare funzioni avanzate in Workspace, ad esempio Attribuzione e Confronto segmenti.
 
 ### Per analisti e amministratori che desiderano migliorare la qualità di Workspace nella propria organizzazione
 
 * [Autorizzazioni di Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): assegna agli utenti le autorizzazioni d’utilizzo di Workspace tramite Adobe Admin Console.
-* [Crea un documento di progettazione della soluzione](/help/implement/prepare/solution-design.md): inizia a pianificare in che modo la tua organizzazione raccolga dimensioni o metriche aggiuntive specifiche per il tuo sito.
 * [Modelli in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): puoi creare dei modelli in modo che i tuoi colleghi possano iniziare con uno spazio di progetto adatto alle loro esigenze.
-* [Gestione di Workspace](curate-share/curate.md): crea un progetto che limiti i componenti disponibili, rendendo Workspace più accessibile a chi ha meno familiarità con lo strumento.
+* [Gestione di Workspace](/help/analyze/analysis-workspace/curate-share/curate.md): crea un progetto che limiti i componenti disponibili, rendendo Workspace più accessibile a chi ha meno familiarità con lo strumento.
