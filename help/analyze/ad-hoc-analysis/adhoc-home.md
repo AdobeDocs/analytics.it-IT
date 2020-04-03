@@ -2,7 +2,7 @@
 description: Introduzione ad Analisi ad hoc
 title: Panoramica di Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -17,5 +17,5 @@ Ad Hoc Analysis ti aiuta a identificare segmenti cliente di alto valore con info
 ## Argomenti nuovi e popolari
 
 * Ora puoi convertire facilmente i tuoi progetti Ad Hoc Analysis in progetti Analysis Workspace. Vai alla [Panoramica di Adobe Ad Hoc Analysis Project Converter](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) per scoprire come!
-* Consulta la sezione [Confronto tra Analysis Workspace e Ad Hoc Analysis](/help/analyze/analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md): Analysis Workspace porta moltissime della funzionalità di Ad Hoc Analysis nel flusso di lavoro del browser. Anche se alcuni termini e funzionalità restano invariati tra i prodotti, in Analysis Workspace sono stati introdotti nuovi termini e approcci all’analisi.
+* Consulta la sezione [Confronto tra Analysis Workspace e Ad Hoc Analysis](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md): Analysis Workspace porta moltissime della funzionalità di Ad Hoc Analysis nel flusso di lavoro del browser. Anche se alcuni termini e funzionalità restano invariati tra i prodotti, in Analysis Workspace sono stati introdotti nuovi termini e approcci all’analisi.
 * [Amministrazione](/help/analyze/ad-hoc-analysis/c-administration.md): scopri come configurare utenti e dati di esempio.
