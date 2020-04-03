@@ -3,7 +3,7 @@ title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Notevoli aggiornamenti all'archivio della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -43,7 +43,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 10 giugno 2019 | Nuovo articolo sulla [Raccolta di dati regionali (RDC) per la Cina](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
 | 4 giugno 2019 | Nuova guida su come [passare da una piattaforma di analisi di terze parti ad Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 maggio 2019 | Revisione della [sezione sulla colonna Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| 11 aprile 2019 | Aggiornamento della sezione su come [ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md). |
+| 11 aprile 2019 | Aggiornamento della sezione su come [ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 marzo 2019 | Aggiornamento importante sulla [raccolta di dati regionali](/help/technotes/rdc/regional-data-collection.md). |
 | 7 febbraio 2019 | Aggiornamento minore delle impostazioni “Replace the last octet of IP addresses with 0” (Sostituisci con 0 ultimo ottetto indirizzi IP) e “IP Obfuscation” (Offuscamento IP) nella sezione sulle [impostazioni generali dell’account](/help/admin/admin/general-acct-settings-admin.md). |
 | 1 febbraio 2019 | Aggiornamento importante del plug-in di implementazione [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
