@@ -5,7 +5,7 @@ title: Tecniche consigliate e risoluzione dei problemi per i rapporti
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: dca5bac72a2cf5f5ded5072e1867676392a7850e
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics offre un&#39;interfaccia di reporting flessibile che consente di
 
 >[!Note]
 >Queste raccomandazioni si applicano a Reporting e analisi, Analisi ad hoc e Generatore di report.
->Non sono applicabili ad Analysis Workspace, che dispone di un proprio set di [best practice](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md). Inoltre, non si applicano alle [best practice](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)di Data Warehouse. Un altro set di
+>Non sono applicabili ad Analysis Workspace, che dispone di un proprio set di [best practice](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). Inoltre, non si applicano alle [best practice](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)di Data Warehouse. Un altro set di
 >[le best practice](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) sono disponibili per l&#39;API di reporting di Adobe Analytics.
 
 ## Timeout report e coda richieste {#section_A42AD7E487C749B7B879BAFA814FFEF9}
