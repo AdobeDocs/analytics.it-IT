@@ -2,7 +2,7 @@
 title: pageURL
 description: Ignorate l’URL di pagina raccolto automaticamente sul sito.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 AppMeasurement raccoglie automaticamente l’URL della pagina in ogni hit. Se desiderate ignorare l’URL della pagina raccolto automaticamente da AppMeasurement, potete usare questa variabile. Nella maggior parte dei casi non è necessario impostare questa variabile.
 
-> [!NOTE] Questa variabile non è una dimensione disponibile in Analysis Workspace. È disponibile solo in Data Warehouse e nei feed di dati. Per utilizzare l’URL della pagina come dimensione in Analysis Workspace, considera di passare la `pageURL` variabile in una eVar per ogni hit.
+>[!NOTE] Questa variabile non è una dimensione disponibile in Analysis Workspace. È disponibile solo in Data Warehouse e nei feed di dati. Per utilizzare l’URL della pagina come dimensione in Analysis Workspace, considera di passare la `pageURL` variabile in una eVar per ogni hit.
 
 A volte gli URL superano i 255 byte. AppMeasurement utilizza il parametro della stringa di `g` query per i primi 255 byte dell’URL nelle richieste di immagini. Se un URL supera i 255 byte, il resto dell&#39;URL viene memorizzato nel parametro della stringa di `-g` query. Le stringhe di protocollo e query nell’URL sono incluse in questa variabile.
 
