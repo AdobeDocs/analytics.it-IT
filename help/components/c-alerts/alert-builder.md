@@ -1,9 +1,9 @@
 ---
-description: nulle
+description: 'null'
 title: Alert Builder (Generatore di avvisi)
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,14 +14,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
+Accedi al Generatore di avvisi in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a [!UICONTROL Reports & Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* Da **[!UICONTROL Workspace]** (Workspace) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL New Alert]** (Nuovo avviso).
+* Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione).
+* From within a [!UICONTROL Reports & Analytics] report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
 
@@ -29,21 +29,21 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 **Alert Name (Nome avviso)**
 
-Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o la soglia di metrica.
+Specificate un nome per l’avviso. Il nome dell&#39;avviso può contenere il nome del rapporto o la soglia delle metriche.
 
 **Time Granularity (Granularità tempo)**
 
 Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
 
-> [!NOTE] Per le suite di rapporti con un calendario personalizzato, nel Generatore di avvisi non è supportata la granularità mensile.
+>[!NOTE] Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
 
 **Recipients (Destinatari)**
 
-Specifica a chi deve essere inviato l’avviso. An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
+Specifica dove può essere inviato l’avviso. Un avviso può essere inviato a un [!DNL Analytics] utente, un [!DNL Analytics] gruppo, un indirizzo e-mail non elaborato o a un numero di telefono.
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>Il numero telefonico deve essere preceduto dal segno “+” e dal [prefisso del paese](https://countrycode.org/).
 
 **Expiration Date (Data di scadenza)**
 
@@ -53,29 +53,29 @@ Imposta la data di scadenza dell’avviso.
 
 *... Any of These Metrics trigger (...si verifica uno di questi attivatori di metrica)*
 
-* Trascina la metrica nell’area per l’aggiunta degli attivatori.
+* Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
-   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **&quot;incompatible components&quot;** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
-* Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
+* Determinare la soglia che la metrica deve superare prima che venga impostato un avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
-   * anomaly exists (l’anomalia esiste)
-   * anomaly is above expected (l’anomalia supera il valore previsto)
-   * l’anomalia è inferiore al valore previsto
-   * l’anomalia eccede
+   * anomalia esistente
+   * anomalia al di sopra del previsto
+   * anomalia al di sotto del previsto
+   * l&#39;anomalia eccede
    * è superiore o uguale a
-   * is below or equals (è inferiore o uguale a)
-   * cambia di
+   * è inferiore o uguale a
+   * modifiche di
 
-* “L’anomalia eccede” è una nuova condizione che va oltre le soglie esistenti (statiche). Richiama gli algoritmi di rilevamento anomalie che definiscono l’attivatore in modo dinamico. Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
-* Le granularità orarie sono impostate con una soglia di 99,75% e quelle giornaliere con una soglia del 99%.
+* &quot;L&#39;anomalia eccede&quot; è una nuova condizione che va oltre le soglie esistenti (statiche). Richiama gli algoritmi di rilevamento delle anomalie che definiscono l’attivatore in modo dinamico. Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
+* Le granularità orarie sono impostate su una soglia del 99,75% e le granularità giornaliere su un valore del 99%.
 * È anche possibile utilizzare metriche calcolate.
 
 *... With These Filters (...con questi filtri)*
 
-Trascina segmenti o dimensioni per aggiungere i filtri. Ad esempio, se si aggiunge un segmento “Mobile Devices Only” (Solo dispositivi mobili) la regola viene attivata solo per i dispositivi mobili.
+Trascina segmenti o dimensioni per aggiungere filtri. Ad esempio, se si aggiunge un segmento &quot;Solo dispositivi mobili&quot; la regola viene attivata solo per i dispositivi mobili.
 
-Per aggiungere altri segmenti si utilizza l’operatore AND.
+Altri filtri verranno aggiunti utilizzando un&#39;istruzione AND.
 
 **Aggiungere una regola**
 
@@ -83,10 +83,10 @@ Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio
 
 ## Anteprima avvisi {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.
+L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso in base all’esperienza passata.
 
-Ad esempio, se imposti la granularità su Ogni giorno, l’anteprima indicherà che l’avviso è stato attivato x volte per una specifica metrica negli ultimi 30 o 31 giorni.
+Ad esempio, se imposti la granularità dell’ora su Ogni giorno, l’anteprima indicherà che l’avviso sarebbe stato attivato x volte per una metrica specifica negli ultimi 30 o 31 giorni.
 
-Se sono stati attivati troppi avvisi, puoi regolare la soglia in [Alert Manager](/help/components/c-alerts/alert-manager.md) (Gestione avvisi).
+Se si è scoperto che troppi avvisi sarebbero stati attivati, è possibile regolare la soglia nella Gestione [](/help/components/c-alerts/alert-manager.md)avvisi.
 
 ![](assets/alert_preview.png)
