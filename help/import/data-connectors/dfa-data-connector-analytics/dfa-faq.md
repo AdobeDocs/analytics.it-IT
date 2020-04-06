@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: nulle
 keywords: DFA
 title: Domande frequenti
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,25 +14,25 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Perché la procedura guidata Connettori dati non accetta le mie credenziali di accesso? {#section-f019b3de18774df3954af7881aa564fa}
 
-Se avete verificato la validità delle credenziali di accesso, verificate quindi che il nome utente fornito all'integrazione sia abilitato per l'accesso all'API. La procedura guidata Connettori dati utilizza l’API DFA per convalidare le credenziali di accesso, nonché per disattivare e attivare le impostazioni specifiche di Adobe nell’API DFA. Accesso API è un'impostazione che deve essere attivata da un amministratore dall'interfaccia DFA. Quindi, accertatevi di disporre dell'autorizzazione per accedere all'ID inserzionista o all'ID di configurazione del faro selezionato nella procedura guidata.
+Se avete verificato la validità delle credenziali di accesso, verificate quindi che il nome utente fornito all&#39;integrazione sia abilitato per l&#39;accesso all&#39;API. La procedura guidata Connettori dati utilizza l’API DFA per convalidare le credenziali di accesso, nonché per disattivare e attivare le impostazioni specifiche di Adobe nell’API DFA. Accesso API è un&#39;impostazione che deve essere attivata da un amministratore dall&#39;interfaccia DFA. Quindi, accertatevi di disporre dell&#39;autorizzazione per accedere all&#39;ID inserzionista o all&#39;ID di configurazione del faro selezionato nella procedura guidata.
 
 ## Perché non visualizzo alcun dato dalle metriche caricate notturne (Impressioni DFA, Clic DFA, ecc.)? {#section-465fd22ae6b447ffb6baf20b57daa433}
 
-Se utilizzate la versione 1.5 dell'integrazione, ciò potrebbe essere dovuto al fatto che all'integrazione non è ancora stato assegnato un ID sito client. È necessario un ID del sito client (CSID) per lo scambio notturno e per richiedere i dati al DFA e al server. I CSID possono richiedere fino a 3 giorni dalla data di integrazione da scambiare con Google. Una volta ricevuto il CSID da Google, riceverai una notifica tramite l'indirizzo e-mail dell'integrazione del nuovo CSID, insieme al codice JavaScript più recente.
+Se utilizzate la versione 1.5 dell&#39;integrazione, ciò potrebbe essere dovuto al fatto che all&#39;integrazione non è ancora stato assegnato un ID del sito client. È necessario un ID del sito client (CSID) per lo scambio notturno e per richiedere i dati al DFA e al server. I CSID possono richiedere fino a 3 giorni dalla data di integrazione da scambiare con Google. Una volta ricevuto il CSID da Google, riceverai una notifica tramite l&#39;indirizzo e-mail dell&#39;integrazione del nuovo CSID, insieme al codice JavaScript più recente.
 
-Se sono trascorsi più di 3 giorni e non avete ricevuto l’e-mail di configurazione e le metriche non sono in flusso, il problema più probabile è che il CSID è già stato assegnato a un’altra integrazione. Google gestisce una mappatura da 1 a 1 tra CSID e Suite di rapporti, il che significa che se un'integrazione in una suite di rapporti utilizza lo stesso ID inserzionista di un'altra integrazione in un'altra suite di rapporti, solo alla prima verrà assegnato un ID CS. Per modificare la suite di rapporti o l'ID pubblicitario a cui è mappato un CSID, è necessario aprire un ticket con il supporto Google.
+Se sono trascorsi più di 3 giorni e non avete ricevuto l’e-mail di configurazione e le metriche non sono in flusso, il problema più probabile è che il CSID è già stato assegnato a un’altra integrazione. Google gestisce una mappatura da 1 a 1 tra CSID e Suite di rapporti, il che significa che se un&#39;integrazione in una suite di rapporti utilizza lo stesso ID inserzionista di un&#39;altra integrazione in un&#39;altra suite di rapporti, solo alla prima verrà assegnato un ID CS. Per modificare la suite di rapporti o l&#39;ID pubblicitario a cui è mappato un CSID, è necessario aprire un ticket con il supporto Google.
 
-Ad esempio, supponiamo che esista un'integrazione nella Suite di rapporti A con l'ID inserzionista Z a cui sia assegnato un CSID. Se un'altra integrazione viene successivamente configurata nella Suite di rapporti B con l'inserzionista Z, questa nuova integrazione NON verrà riassegnata al CSID. Questo richiederebbe un biglietto Google. Dall'altro lato, prendete l'esempio di un'integrazione in Report Suite A, con Advertiser ID Z, e successivamente un'altra integrazione in Report Suite A, Advertiser Z è configurato. Solo la prima integrazione riceverà i dati per l'integrazione; tuttavia, in questo caso, la prima integrazione può essere disattivata e i dati passeranno alla seconda integrazione.
+Ad esempio, supponiamo che esista un&#39;integrazione nella Suite di rapporti A con l&#39;ID inserzionista Z a cui sia assegnato un CSID. Se un&#39;altra integrazione viene successivamente configurata nella Suite di rapporti B con l&#39;inserzionista Z, questa nuova integrazione NON verrà riassegnata al CSID. Questo richiederebbe un biglietto Google. Dall&#39;altro lato, prendete l&#39;esempio di un&#39;integrazione in Report Suite A, con Advertiser ID Z, e successivamente un&#39;altra integrazione in Report Suite A, Advertiser Z è configurato. Solo la prima integrazione riceverà i dati per l&#39;integrazione; tuttavia, in questo caso, la prima integrazione può essere disattivata e i dati passeranno alla seconda integrazione.
 
-> [!NOTE] I CSID non vengono utilizzati nella versione 2.0 dell'integrazione, pertanto il processo di negoziazione CSID non è applicabile.
+>[!NOTE] I CSID non vengono utilizzati nella versione 2.0 dell&#39;integrazione, pertanto il processo di negoziazione CSID non è applicabile.
 
-## Sto utilizzando la versione 2.0 dell'integrazione e le metriche dei costi non vengono visualizzate per i miei annunci DFA. Perché questo potrebbe essere? {#section-805748111bbe4bbf918d6dbbb2641fff}
+## Sto utilizzando la versione 2.0 dell&#39;integrazione e le metriche dei costi non vengono visualizzate per i miei annunci DFA. Perché questo potrebbe essere? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
-Le metriche dei costi devono essere sia attivate dal lato Google DFA sia fornite nell'interfaccia DFA, sia attivate nella procedura guidata Connettori dati. Il primo punto da verificare è che è stato mappato un evento Analytics per DFA Media Cost e fornito un codice valuta. Se hai mappato l’evento Media Cost e hai completato e salvato la procedura guidata, il flag DFA omnitureCostData sarà attivato nell’API DFA. Questo indicherà a Google che le metriche devono essere inviate nel file notturno. È possibile controllare due volte tramite l'interfaccia DFA che omnitureCostData sia attivato esaminando le proprietà sul Floodlight integrato. Infine, dopo aver controllato questi due luoghi, accertati che gli annunci che fanno parte del Floodlight integrato specifichino i dati dei costi e le strutture dei costi. Se i dati dei costi non vengono forniti nell'interfaccia DFA, non verranno visualizzati in Analytics.
+Le metriche dei costi devono essere sia attivate dal lato Google DFA sia fornite nell&#39;interfaccia DFA, sia attivate nella procedura guidata Connettori dati. Il primo punto da verificare è che è stato mappato un evento Analytics per DFA Media Cost e fornito un codice valuta. Se hai mappato l’evento Media Cost, e hai completato e salvato la procedura guidata, il flag DFA omnitureCostData sarà attivato nell’API DFA. Questo indicherà a Google che le metriche devono essere inviate nel file notturno. È possibile controllare due volte tramite l&#39;interfaccia DFA che omnitureCostData sia attivato esaminando le proprietà sul Floodlight integrato. Infine, dopo aver controllato questi due luoghi, accertati che gli annunci che fanno parte del Floodlight integrato specifichino i dati dei costi e le strutture dei costi. Se i dati dei costi non vengono forniti nell&#39;interfaccia DFA, non verranno visualizzati in Analytics.
 
 ## Perché alcuni annunci non mostrano alcuna impressione o visualizzazione DFA, ma mostrano clic e click-through? {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
-Ci sono alcuni annunci che registrano solo dati di clic, chiamati clicktrackers. Questi tipi di annunci non restituiscono i dati dell'ultima impressione dal momento in cui viene interrogato il server Floodlight. Per verificare se un determinato annuncio è un click-tracker o un annuncio di solo clic, contatta la tua agenzia DFAE o il tuo rappresentante del supporto Google.
+Ci sono alcuni annunci che registrano solo dati di clic, chiamati clicktrackers. Questi tipi di annunci non restituiscono i dati dell&#39;ultima impressione dal momento in cui viene interrogato il server Floodlight. Per verificare se un determinato annuncio è un click-tracker o un annuncio di solo clic, contatta la tua agenzia DFAE o il tuo rappresentante del supporto Google.
 
 ## Perché non ci sono click-through per gli annunci che mostrano clic su DFA? {#section-758c1f1fc5b54bfc9294dcdc71bbd96a}
 
