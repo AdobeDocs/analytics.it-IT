@@ -2,14 +2,14 @@
 title: addProductEvent
 description: Aggiunge eventi personalizzati alla variabile "products and events".
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: addProductEvent
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `addProductEvent` plug-in aggiunge un evento numerico o valutario alla [`products`](../page-vars/products.md) variabile. Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario alla `products` variabile senza preoccuparsi del formato stringa prodotto. Questo plug-in non è necessario se nella `products` variabile non vengono utilizzati eventi numerici o valutari.
 
@@ -124,7 +124,7 @@ s.addProductEvent("event35", "15", 1);
 
 Il codice riportato sopra imposta anche la `s.events` variabile su `"purchase,event2,event33,event34,event35"`.
 
-> [!NOTE] Il secondo argomento della chiamata può essere un numero intero **o** una stringa che rappresenta un numero intero
+>[!NOTE] Il secondo argomento della chiamata può essere un numero intero **o** una stringa che rappresenta un numero intero
 
 ### Esempio n. 5
 
