@@ -2,7 +2,7 @@
 title: cookieDomainPeriods
 description: Aiuta AppMeasurement a capire quale dominio memorizzare i cookie se il dominio ha un punto nel suo suffisso.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ La `cookieDomainPeriods` variabile aiuta AppMeasurement a determinare dove vengo
 * Per domini come `example.com` o `www.example.com`, questa variabile non deve essere impostata. Se necessario, potete impostare questa variabile su `"2"`.
 * Per domini come `example.co.uk` o `www.example.co.jp`, imposta questa variabile su `"3"`.
 
-> [!IMPORTANT] Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostate `cookieDomainPeriods` sull’URL di esempio `store.toys.example.com`. AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati `example.com`, anche sugli URL con molti sottodomini.
+>[!IMPORTANT] Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostate `cookieDomainPeriods` sull’URL di esempio `store.toys.example.com`. AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati `example.com`, anche sugli URL con molti sottodomini.
 
 ## Periodi di dominio in Adobe Experience Platform Launch
 
