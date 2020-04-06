@@ -1,8 +1,8 @@
 ---
 title: Variabili dinamiche
-description: Copiare le variabili senza aumentare la lunghezza della richiesta immagine.
+description: Copiare le variabili senza aumentare la lunghezza della richiesta di immagini.
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,11 +17,11 @@ Le variabili dinamiche supportano i parametri delle stringhe di query o le intes
 
 Quando Adobe riconosce un prefisso di variabile dinamica, copia automaticamente la stringa di query o il valore di intestazione HTTP nella suite di rapporti. Questa azione viene eseguita prima di qualsiasi altra elaborazione, incluse le regole di elaborazione e le regole VISTA.
 
-> [!TIP] Durante la copia delle variabili, tieni presente il limite massimo di caratteri. Ad esempio, se si copia `eVar1` in `prop1`, `prop1` è possibile che il valore venga troncato poiché presenta un limite di 100 byte (mentre `eVar1` ha un limite di 255 byte).
+>[!TIP] Durante la copia delle variabili, tieni presente il limite massimo di caratteri. Ad esempio, se si copia `eVar1` in `prop1`, `prop1` è possibile che il valore venga troncato poiché presenta un limite di 100 byte (mentre `eVar1` ha un limite di 255 byte).
 
 ## Variabili dinamiche in Adobe Experience Platform Launch
 
-È possibile utilizzare variabili dinamiche in qualsiasi campo dimensione che accetta una stringa. I valori delle dimensioni vengono generalmente impostati durante la configurazione dell&#39;estensione Analytics (variabili globali) o in base a regole.
+È possibile utilizzare variabili dinamiche in qualsiasi campo dimensione che accetta una stringa. I valori delle dimensioni vengono generalmente impostati durante la configurazione dell&#39;estensione di Analytics (variabili globali) o in base a regole.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
@@ -48,4 +48,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] Le variabili dinamiche vengono visualizzate come stringhe durante il debug dell’implementazione. I valori vengono copiati sul lato server dai server di raccolta dati Adobe.
+>[!NOTE] Le variabili dinamiche vengono visualizzate come stringhe durante il debug dell&#39;implementazione. I valori vengono copiati sul lato server dai server di raccolta dati Adobe.
