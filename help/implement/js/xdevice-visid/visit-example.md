@@ -6,14 +6,14 @@ title: Esempio di identificazione visitatore tra dispositivi
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Esempio di identificazione visitatore tra dispositivi
 
-> [!IMPORTANT] Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consultate Analisi [](/help/components/cda/cda-home.md) multi-dispositivo nella guida utente dei componenti.
+>[!IMPORTANT] Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consultate Analisi [](/help/components/cda/cda-home.md) multi-dispositivo nella guida utente dei componenti.
 
 L’esempio seguente illustra il funzionamento dell’identificazione dei visitatori su più dispositivi mediante un esempio di chiamate server inviate in una comune interazione con il cliente.
 
