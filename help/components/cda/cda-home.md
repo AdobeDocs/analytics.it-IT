@@ -2,14 +2,14 @@
 title: Analytics tra dispositivi
 description: Analisi cross-Device (Analisi multi-dispositivo) modifica i dati dall'essere incentrati sul dispositivo all'essere focalizzati sulla persona, impilando insieme i dati del dispositivo.
 translation-type: tm+mt
-source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Analytics tra dispositivi
 
-> [!NOTE] La documentazione di Analytics su più dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
+>[!NOTE] La documentazione di Analytics su più dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
 
 Analytics tra dispositivi è una funzione che trasforma Analytics da una vista incentrata sui dispositivi a una vista incentrata sulle persone. Questa funzione utilizza Adobe Experience Platform Identity Service Co-op Graph o Private Graph per identificare i dispositivi appartenenti a individui e unire questi due elementi. Di conseguenza, gli analisti possono comprendere il comportamento degli utenti che utilizza browser, dispositivi o app diversi. Utilizzando CDA potrete rispondere a domande quali:
 
@@ -27,18 +27,18 @@ Consulta IQ [del viaggio: Pagina](http://adobe.ly/aacda) Spark di Analytics per 
 
 A partire da settembre 2019, Analytics cross-device richiede quanto segue. Collaborate con i team all&#39;interno dell&#39;organizzazione e con l&#39;Account Manager Adobe per assicurarvi di soddisfare tutti i requisiti indicati di seguito.
 
-> [!IMPORTANT] Se non vengono soddisfatti tutti i prerequisiti, potrebbe non essere possibile abilitare l&#39;analisi multi-dispositivo o non essere possibile ottenere risultati soddisfacenti durante l&#39;unione dei dati.
+>[!IMPORTANT] Se non vengono soddisfatti tutti i prerequisiti, potrebbe non essere possibile abilitare l&#39;analisi multi-dispositivo o non essere possibile ottenere risultati soddisfacenti durante l&#39;unione dei dati.
 
 * I dati dell&#39;organizzazione devono risiedere nel centro dati di Adobe Pacific Northwest. è previsto il sostegno ai centri dati in altre regioni del mondo.
 * Contatta l&#39;Account Manager della tua organizzazione per stabilire i seguenti punti chiave:
    * È necessario firmare un contratto con Adobe che includa Adobe Analytics Ultimate.
-   * L’organizzazione deve utilizzare Adobe Experience Platform Identity Service Co-op Graph o Private Graph. Vedi la [home page](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) nella guida utente di Device Co-op.
+   * L’organizzazione deve utilizzare Adobe Experience Platform Identity Service Co-op Graph o Private Graph. Vedi la [home page](https://docs.adobe.com/content/help/it-IT/device-co-op/using/home.html) nella guida utente di Device Co-op.
    * Grazie a uno spirito di collaborazione e trasparenza, vogliamo che i nostri clienti siano consapevoli del nostro utilizzo di Microsoft Azure in associazione con Analytics multi-dispositivo. Adobe utilizza Azure per memorizzare i dati del grafico del dispositivo e per eseguire l&#39;unione tra dispositivi. Di conseguenza, i dati di Adobe Analytics vengono trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e le istanze di Microsoft Azure con provisioning di Adobe.
 * Analisi tra dispositivi è abilitata per ogni suite di rapporti. Le suite di rapporti che sono state abilitate per CDA richiedono quanto segue:
    * La suite di rapporti non può avere più di 500 milioni di hit al giorno.
    * Adobe consiglia una suite di rapporti contenente dati per più dispositivi, ossia dati provenienti da più tipi di dispositivi (Web, app, ecc.). Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti &quot;globale&quot;, anche se CDA non deve necessariamente essere rigorosamente globale da una prospettiva geografica. L&#39;analisi tra più dispositivi non funziona tra le suite di rapporti, né combina i dati provenienti da più suite di rapporti.
 * L&#39;implementazione deve soddisfare i seguenti requisiti:
-   * È necessario distribuire la versione più recente del servizio Experience Cloud ID. Vedi la [home page](https://docs.adobe.com/content/help/en/id-service/using/home.html) nella guida utente del servizio Experience Cloud Identity. La maggior parte delle implementazioni che utilizzano Adobe Experience Platform Launch probabilmente hanno già implementato ECID.
+   * È necessario distribuire la versione più recente del servizio Experience Cloud ID. Vedi la [home page](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) nella guida utente del servizio Experience Cloud Identity. La maggior parte delle implementazioni che utilizzano Adobe Experience Platform Launch probabilmente hanno già implementato ECID.
    * Chiama la `setCustomerIDs` funzione ogni volta che è possibile identificare un individuo, ad esempio quando un utente accede o apre un messaggio e-mail. Questo requisito si applica a tutte le piattaforme, comprese le app mobili se utilizzate. Consulta [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio Experience Cloud Identity.
 
 ## Limitazioni
