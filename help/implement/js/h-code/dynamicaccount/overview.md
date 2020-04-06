@@ -2,20 +2,20 @@
 title: Panoramica account dinamici
 description: Scopri come selezionare in modo dinamico una suite di rapporti utilizzando il codice H.
 translation-type: tm+mt
-source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Panoramica account dinamici
 
-> [!IMPORTANT] Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né nel lancio della piattaforma Adobe Experience.
+>[!IMPORTANT] Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né nel lancio della piattaforma Adobe Experience.
 
 Gli account dinamici è una funzione di implementazione che consente di determinare quale suite di rapporti utilizzare in base ai criteri definiti dall&#39;utente. Se la tua organizzazione richiede più suite di rapporti ma desidera utilizzare la stessa implementazione tra i tuoi siti, gli account dinamici sono una buona soluzione.
 
-> [!TIP] Adobe consiglia di inviare dati a una singola suite di rapporti, quindi di utilizzare suite di rapporti virtuali per separare i dati, se necessario. Per ulteriori informazioni, consulta Considerazioni [](../../../prepare/global-rs.md) globali sulla suite di rapporti.
+>[!TIP] Adobe consiglia di inviare dati a una singola suite di rapporti, quindi di utilizzare suite di rapporti virtuali per separare i dati, se necessario. Per ulteriori informazioni, consulta Considerazioni [](../../../prepare/global-rs.md) globali sulla suite di rapporti.
 
-3 variabili vengono utilizzate per selezionare dinamicamente una suite di rapporti.
+3 variabili vengono utilizzate per selezionare in modo dinamico una suite di rapporti.
 
 * [`dynamicAccountSelection`](dynamicaccountselection.md): Attiva o disattiva la selezione dinamica dell&#39;account.
 * [`dynamicAccountMatch`](dynamicaccountmatch.md): Determina il valore da osservare. Ad esempio, l’URL o una stringa di query.
