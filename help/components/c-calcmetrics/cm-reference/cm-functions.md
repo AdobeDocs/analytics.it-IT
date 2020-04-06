@@ -3,7 +3,7 @@ description: Il Generatore di metriche calcolate consente di applicare funzioni 
 title: Funzioni di base di riferimento
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,11 +14,11 @@ Il Generatore di metriche calcolate consente di applicare funzioni statistiche e
 
 Elenco alfabetico delle funzioni e delle relative definizioni.
 
-> [!NOTE] Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [!DNL MAXV(metrics)] consente [!DNL MAXV(PageViews + Visits).]
+>[!NOTE] Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [!DNL MAXV(metrics)] consente [!DNL MAXV(PageViews + Visits).]
 
 ## Funzioni tabella e funzioni riga {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Una funzione di tabella è una in cui l'output è lo stesso per ogni riga della tabella. Una funzione di riga è una in cui l'output è diverso per ogni riga della tabella.
+Una funzione di tabella è una in cui l&#39;output è lo stesso per ogni riga della tabella. Una funzione di riga è una in cui l&#39;output è diverso per ogni riga della tabella.
 
 ## Valore assoluto (riga) {#concept_4CC47884F7CA49D5B84AC898EA596673}
 
@@ -34,7 +34,7 @@ ABS(metric)
 
 ## Massimo colonna {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
-Restituisce il valore più grande in un insieme di elementi dimensionali per una colonna metrica. MAXV valuta verticalmente all'interno di una singola colonna (metrica) tra gli elementi dimensionali.
+Restituisce il valore più grande in un insieme di elementi dimensionali per una colonna metrica. MAXV valuta verticalmente all&#39;interno di una singola colonna (metrica) tra gli elementi dimensionali.
 
 ```
 MAXV(metric)
@@ -46,7 +46,7 @@ MAXV(metric)
 
 ## Minima colonna {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
-Restituisce il valore più piccolo in un insieme di elementi dimensionali per una colonna metrica. MINV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi dimensione.
+Restituisce il valore più piccolo in un insieme di elementi dimensionali per una colonna metrica. MINV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi di dimensione.
 
 ```
 MINV(metric)
@@ -70,7 +70,7 @@ SUM(metric)
 
 ## Count (Tabella) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
-Restituisce il numero o il conteggio di valori diversi da zero per una metrica all'interno di una colonna (il numero di elementi univoci segnalati all'interno di una dimensione).
+Restituisce il numero o il conteggio di valori diversi da zero per una metrica all&#39;interno di una colonna (il numero di elementi univoci segnalati all&#39;interno di una dimensione).
 
 ```
 COUNT(metric)
@@ -82,7 +82,7 @@ COUNT(metric)
 
 ## Esponente (riga) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
-Restituisce *e* elevato alla potenza di un numero specificato. La costante *e* è uguale a 2,71828182845904, base del logaritmo naturale. EXP è l'inverso di LN, il logaritmo naturale di un numero.
+Restituisce *e* elevato alla potenza di un numero specificato. La costante *e* è uguale a 2,71828182845904, la base del logaritmo naturale. EXP è l&#39;inverso di LN, il logaritmo naturale di un numero.
 
 ```
 EXP(metric)
@@ -90,11 +90,11 @@ EXP(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L'esponente applicato all' *e* di base. |
+| *metrica* | L&#39;esponente applicato all&#39; *e* di base. |
 
 ## Esponenziazione {#concept_941578534F1E4583B1BEB067C8113A21}
 
-Operatore
+Operatore di alimentazione
 
 <pre>
 pow(x,y) =<sup>xy</sup> = x*x*x*... (y volte)
@@ -102,7 +102,7 @@ pow(x,y) =<sup>xy</sup> = x*x*x*... (y volte)
 
 ## Media (tabella) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
-Restituisce la media aritmetica o media di una metrica in una colonna.
+Restituisce la media aritmetica, o media, di una metrica in una colonna.
 
 ```
 MEAN(metric)
@@ -134,7 +134,7 @@ Restituisce il resto dopo la divisione x per y.
 x = floor(x/y) + modulo(x,y)
 ```
 
-Il valore restituito ha lo stesso segno dell'input (o è zero).
+Il valore restituito ha lo stesso segno dell&#39;input (o è zero).
 
 ```
 modulo(4,3) = 1 
@@ -150,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentile (tabella) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Restituisce il k-esimo percentile di valori per una metrica. Potete utilizzare questa funzione per stabilire una soglia di accettazione. Ad esempio, puoi decidere di esaminare gli elementi dimensionali con un punteggio superiore al 90 percentile.
+Restituisce il k-esimo percentile di valori per una metrica. È possibile utilizzare questa funzione per stabilire una soglia di accettazione. Ad esempio, puoi decidere di esaminare gli elementi dimensionali con un punteggio superiore al 90 percentile.
 
 ```
 PERCENTILE(metric,k)
@@ -204,7 +204,7 @@ QUARTILE(metric,quart)
 
 *Se *quart* = 0, QUARTILE restituisce il valore minimo. Se *quart* = 1, QUARTILE restituisce il primo quartile (25 percentile). Se *quart* = 2, QUARTILE restituisce il primo quartile (50 percentile). Se *quart* = 3, QUARTILE restituisce il primo quartile (75 percentile). Se *quart* = 4, QUARTILE restituisce il valore massimo.
 
-## Turno {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
+## Round {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
 Restituisce il numero intero più vicino per un valore specificato. Ad esempio, se si desidera evitare di riportare i decimali della valuta per le entrate e un prodotto ha $569,34, utilizzare la formula Round( *Revenue*) per arrotondare le entrate al dollaro più vicino, oppure $569. Un prodotto che riporta $569,51 sarà arrotondato al dollaro più vicino, o $570.
 
@@ -227,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## Conteggio righe {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Restituisce il numero di righe per una colonna specificata (il numero di elementi univoci segnalati all'interno di una dimensione). "Superato il numero di errori" viene conteggiato come 1.
+Restituisce il numero di righe per una colonna specificata (il numero di elementi univoci segnalati all&#39;interno di una dimensione). &quot;Superato il numero di errori&quot; viene conteggiato come 1.
 
 ## Riga max {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -257,7 +257,7 @@ SQRT(metric)
 
 Restituisce la deviazione standard, o radice quadrata della varianza, in base a una popolazione di dati di esempio.
 
-L'equazione per STDEV è:
+L&#39;equazione per STDEV è:
 
 ![](assets/std_dev.png)
 
@@ -284,7 +284,7 @@ STDEV(metric)
 
 Restituisce la varianza in base a una popolazione di dati di esempio.
 
-L'equazione per VARIANCE è:
+L&#39;equazione per VARIANCE è:
 
 ![](assets/variance_eq.png)
 
@@ -298,7 +298,7 @@ VARIANCE(metric)
 |---|---|
 | *metrica* | La metrica per la quale si desidera la varianza. |
 
-Per calcolare una varianza si osserva un'intera colonna di numeri. Da tale elenco di numeri si calcola prima la media. Una volta ottenuta la media, si passa attraverso ogni voce ed è possibile effettuare le seguenti operazioni:
+Per calcolare una varianza si osserva un&#39;intera colonna di numeri. Da tale elenco di numeri si calcola prima la media. Una volta ottenuta la media, si passa attraverso ogni voce ed è possibile effettuare le seguenti operazioni:
 
 1. Sottrai la media dal numero.
 
@@ -306,9 +306,9 @@ Per calcolare una varianza si osserva un'intera colonna di numeri. Da tale elenc
 
 3. Aggiungetelo al totale.
 
-Dopo aver ripetuto l'intera colonna, si ottiene un singolo totale. Dividi quindi il totale per il numero di elementi nella colonna. Tale numero è la varianza della colonna. È un singolo numero. Viene tuttavia visualizzata come una colonna di numeri.
+Dopo aver ripetuto l&#39;intera colonna, si ottiene un singolo totale. Dividi quindi il totale per il numero di elementi nella colonna. Tale numero è la varianza della colonna. È un singolo numero. Viene tuttavia visualizzata come una colonna di numeri.
 
-Ad esempio, supponiamo che la colonna contenga tre elementi:
+Ad esempio, supponiamo che sia presente una colonna a tre elementi:
 
 1
 
@@ -316,7 +316,7 @@ Ad esempio, supponiamo che la colonna contenga tre elementi:
 
 3
 
-La media di questa colonna è 2. La varianza per la colonna sarà ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Analisi ad hoc l'aspetto sarà:
+La media di questa colonna è 2. La varianza per la colonna sarà ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Analisi ad hoc l&#39;aspetto sarà:
 
 1 2/3
 
