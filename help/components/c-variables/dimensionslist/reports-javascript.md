@@ -4,16 +4,16 @@ title: Supporto JavaScript
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Supporto JavaScript
 
-Mostra le metriche in base al fatto che il dispositivo abbia abilitato o meno JavaScript o che sia conteggiato come "non identificato".
+Mostra le metriche in base al fatto che il dispositivo abbia abilitato o meno JavaScript o che sia conteggiato come &quot;non identificato&quot;.
 
-> [!NOTE] All'inizio di novembre 2016, è prevista la rimozione della restrizione in cui JavaScript viene sempre elencato come *`disabled / unidentified`* per i dispositivi mobili.
+>[!NOTE] All&#39;inizio di novembre 2016, è prevista la rimozione della restrizione in cui JavaScript viene sempre elencato come *`disabled / unidentified`* per i dispositivi mobili.
 
 Il rapporto JavaScript corrisponde al javascript delle colonne nei dati non elaborati.
 
