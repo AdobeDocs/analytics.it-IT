@@ -4,7 +4,7 @@ title: Personalizzazione del menu
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,14 +15,14 @@ Questa funzione consente di personalizzare i menu dei rapporti visualizzati da u
 
 Le modifiche al menu si applicano a tutti gli utenti che accedono alla suite di rapporti. Tuttavia, gli utenti possono ripristinare la configurazione predefinita di un menu mentre utilizzano la suite di rapporti.
 
-> [!NOTE] Qualsiasi modifica nella struttura del menu non influisce sul Generatore di report e sull'analisi ad hoc. Tuttavia, la ridenominazione di un rapporto si riflette in entrambi gli strumenti.
+>[!NOTE] Qualsiasi modifica nella struttura del menu non influisce sul Generatore di report e sull&#39;analisi ad hoc. Tuttavia, la ridenominazione di un rapporto si riflette in entrambi gli strumenti.
 
 ## Descrizioni Personalizzazione menu {#section_B0D224DACB914A378902A4E0E1234889}
 
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Calendario       </th> 
+   <th colname="col1" class="entry"> Calendario </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
