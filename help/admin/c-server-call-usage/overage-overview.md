@@ -3,35 +3,35 @@ description: nulle
 title: Panoramica sull'utilizzo delle chiamate server
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Panoramica sull'utilizzo delle chiamate server
+# Panoramica sull&#39;utilizzo delle chiamate server
 
-## Perché monitorare e inviare avvisi all'utilizzo delle chiamate server? {#section_060C29BF1D00444B85892AD1FCF55290}
+## Perché monitorare e inviare avvisi all&#39;utilizzo delle chiamate server? {#section_060C29BF1D00444B85892AD1FCF55290}
 
 L’utilizzo delle chiamate di Adobe Analytics Server risponde alle richieste di trasparenza sia nei dati di utilizzo delle chiamate del browser che nei server mobili. Consente di accedere a:
 
 * Pannello Utilizzo chiamate server che tiene traccia dei dati di consumo delle chiamate server e li confronta con il limite contrattuale. (**[!UICONTROL Analytics > Admin > Server Call Usage]**)
 * Un tipo di avviso Utilizzo chiamate server nel Generatore di avvisi che consente di impostare avvisi per evitare sovrapposizioni (**[!UICONTROL Analytics > Components >Alerts]**)
 
-I vantaggi principali dell'utilizzo delle chiamate server sono:
+I vantaggi principali dell&#39;utilizzo delle chiamate server sono:
 
-* **Visibilità** dei dati relativi al consumo e all'impegno delle chiamate al server, compreso il consumo mobile rispetto al limite di utilizzo contrattuale delle chiamate al server.
-* **Avvisi** per avvisarvi del rischio o del verificarsi di un'overage e prepararvi/agire sulla possibilità di incorrere in sovracompensazioni.
+* **Visibilità** dei dati relativi al consumo e all&#39;impegno delle chiamate al server, compreso il consumo mobile rispetto al limite di utilizzo contrattuale delle chiamate al server.
+* **Avvisi** per avvisarvi del rischio o del verificarsi di un&#39;overage e prepararvi/agire sulla possibilità di incorrere in sovracompensazioni.
 
-Precedentemente, mentre era possibile accedere ai dati di consumo delle chiamate server mensili in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Billing]** , questi dati venivano aggiornati solo 6 giorni dopo la chiusura della fatturazione per quel mese. Inoltre, i dati non includevano il consumo mobile. Questa funzione sostituirà anche il rapporto corrente **[!UICONTROL Billing Information]** in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** .
+Precedentemente, mentre era possibile accedere ai dati di consumo delle chiamate server mensili in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Billing]** , questi dati venivano aggiornati solo 6 giorni dopo la chiusura della fatturazione per quel mese. Inoltre, i dati non includevano il consumo mobile. Questa funzione sostituirà anche il rapporto corrente **[!UICONTROL Billing Information]** in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** .
 
 ## Prerequisiti {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **** Autorizzazioni: Per accedere al Dashboard sull'utilizzo delle chiamate server e al Generatore di avvisi/Manager, devi essere un amministratore di Adobe Analytics.
-* **** Autorizzazioni: Gli amministratori possono concedere l’accesso agli utenti non amministratori: si chiama il permesso **[!UICONTROL Server Call Usage]**. Consulta Autorizzazione [utilizzo chiamata](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)server.
+* **Autorizzazioni:** Per accedere al Dashboard sull&#39;utilizzo delle chiamate server e al Generatore di avvisi/Manager, devi essere un amministratore di Adobe Analytics.
+* **Autorizzazioni:** Gli amministratori possono concedere l’accesso agli utenti non amministratori: si chiama il permesso **[!UICONTROL Server Call Usage]**. Consulta Autorizzazione [utilizzo chiamata](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)server.
 
 ## Terminologia importante {#section_CBA348A039F34563B097CD8890AB358D}
 
-Di seguito è riportato un breve primate sulla terminologia essenziale per l'utilizzo delle chiamate server:
+Di seguito è riportato un breve primate sulla terminologia essenziale per l&#39;utilizzo delle chiamate server:
 
 <table id="table_4E97F85F13344A2C962FA4FA5A51642E"> 
  <thead> 
@@ -43,11 +43,11 @@ Di seguito è riportato un breve primate sulla terminologia essenziale per l'uti
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Chiamata server </p> </td> 
-   <td colname="col2"> <p>Una chiamata server, detta anche "hit" o "image request" (richiesta immagine), è un'istanza in cui i dati vengono inviati ai server Adobe per l'elaborazione. Il tipo più comune di chiamata server è una visualizzazione pagina. Una visualizzazione di pagina si verifica quando un visitatore visualizza una pagina sul sito Web e viene generata una chiamata al server ad Adobe, dove le informazioni vengono raccolte, elaborate e quindi incluse nelle metriche del rapporto. </p> <p>Esistono altri tipi di chiamate server, inclusi collegamenti di uscita e download di file, in cui i dati vengono inviati ad Adobe per l'elaborazione, ma non vengono registrati come nuova visualizzazione di pagina. Anche le visualizzazioni di pagina "escluse" (escluse dai rapporti dall’intervallo di indirizzi IP configurato, ad esempio) sono chiamate server perché vengono ricevute ed elaborate da Adobe ma non vengono mai visualizzate nei rapporti. </p> <p><b>Chiamata</b>server principale: Richieste ricevute direttamente dai browser dei visitatori del sito Web o dall’API di inserimento dati. Include hit principali (Visualizzazioni di pagina), eventi personalizzati principali, eventi di download principali ed eventi di uscita principali. </p> <p><b>Chiamata</b>server secondaria: Copie di chiamate server primarie create da tag con più suite o copiate/spostate da una regola VISTA. Se una chiamata al server secondario è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, le chiamate secondarie accumulate vengono detratte dalle chiamate al server principale. </p> <p><b>Chiamata al server principale mobile </b> </p> <p>Richieste ricevute direttamente da uno degli SDK di Mobile. Include trackAction, trackState, trackApp Crash, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Chiamata al server secondario mobile</b> </p> <p> Copie di chiamate server primarie create da tag con più suite o copiate/spostate da una regola VISTA. Se una chiamata al server secondario è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, le chiamate secondarie accumulate vengono detratte dalle chiamate al server principale. </p> <p>Nota:  Se l'azienda ha diritto contrattualmente solo alle chiamate per Mobile Server (Primarie o Secondarie), sia l'utilizzo specifico per Web che per dispositivi mobili verrà conteggiato rispetto all'impegno specifico per Mobile. </p> </td> 
+   <td colname="col2"> <p>Una chiamata server, detta anche "hit" o "image request" (richiesta immagine), è un'istanza in cui i dati vengono inviati ai server Adobe per l'elaborazione. Il tipo più comune di chiamata server è una visualizzazione pagina. Una visualizzazione di pagina si verifica quando un visitatore visualizza una pagina sul sito Web e viene generata una chiamata al server ad Adobe, dove le informazioni vengono raccolte, elaborate e quindi incluse nelle metriche del rapporto. </p> <p>Esistono altri tipi di chiamate server, inclusi collegamenti di uscita e download di file, in cui i dati vengono inviati ad Adobe per l'elaborazione, ma non vengono registrati come nuova visualizzazione di pagina. Anche le visualizzazioni di pagina "escluse" (escluse dai rapporti dall’intervallo di indirizzi IP configurato, ad esempio) sono chiamate server perché vengono ricevute ed elaborate da Adobe ma non vengono mai visualizzate nei rapporti. </p> <p><b>Chiamata</b>server principale: Richieste ricevute direttamente dai browser dei visitatori del sito Web o dall’API di inserimento dati. Include gli hit principali (Visualizzazioni di pagina), gli eventi personalizzati principali, gli eventi di download principali e gli eventi di uscita principali. </p> <p><b>Chiamata</b>server secondaria: Copie di chiamate server primarie create da tag con più suite o copiate/spostate da una regola VISTA. Se una chiamata al server secondario è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, le chiamate secondarie accumulate vengono detratte dalle chiamate al server principale. </p> <p><b>Chiamata al server principale mobile </b> </p> <p>Richieste ricevute direttamente da uno degli SDK di Mobile. Include trackAction, trackState, trackApp Crash, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Chiamata al server secondario mobile</b> </p> <p>Copie di chiamate server primarie create da tag con più suite o copiate/spostate da una regola VISTA. Se una chiamata al server secondario è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, le chiamate secondarie accumulate vengono detratte dalle chiamate al server principale. </p> <p>Nota:  Se l'azienda ha diritto contrattualmente solo alle chiamate per Mobile Server (Primarie o Secondarie), sia l'utilizzo specifico per Web che per dispositivi mobili verrà conteggiato in base all'impegno specifico per Mobile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di fatturazione (ID fatturazione) </p> </td> 
-   <td colname="col2"> <p>Persona giuridica fatturata per le chiamate server. Ad esempio, adobe.com. Ogni società di fatturazione ha un Billing ID utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID di fatturazione potrebbe essere associato a più organizzazioni Experience Cloud; non esiste sempre una relazione 1:1 tra un'organizzazione e un ID di fatturazione. </p> </td> 
+   <td colname="col2"> <p>Persona giuridica fatturata per le chiamate server. Ad esempio, adobe.com. Ogni società di fatturazione dispone di un Billing ID utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID di fatturazione potrebbe essere associato a più organizzazioni Experience Cloud; non esiste sempre una relazione 1:1 tra un'organizzazione e un ID di fatturazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di accesso </p> </td> 
@@ -61,11 +61,11 @@ Di seguito è riportato un breve primate sulla terminologia essenziale per l'uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organizzazione Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L'organizzazione funziona come una società di accesso che abbraccia tutti i prodotti e le soluzioni Experience Cloud. </p> <p>Nella maggior parte dei casi, un'organizzazione è il nome dell'azienda. Tuttavia, un'azienda può avere molte organizzazioni. </p> </td> 
+   <td colname="col2"> <p>Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L'organizzazione funziona come una società di accesso che si estende su tutti i prodotti e le soluzioni Experience Cloud. </p> <p>Nella maggior parte dei casi, un'organizzazione è il vostro nome aziendale. Tuttavia, un'azienda può avere molte organizzazioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Impegno di chiamata server </p> </td> 
-   <td colname="col2"> <p>Quando l'azienda firma un contratto con Adobe, il team vendite Adobe si identifica con l'utente, il cliente, i tipi (Primario, Secondario, Primario mobile, Secondario mobile) e il numero approssimativo di chiamate server che si prevede di effettuare nel corso del periodo contrattuale. Questo è il totale del vostro impegno di chiamata server. </p> </td> 
+   <td colname="col2"> <p>Quando l'azienda firma un contratto con Adobe, il team Vendite Adobe si identifica con l'utente, il cliente, i tipi (Primario, Secondario, Primario mobile, Secondario mobile) e il numero approssimativo di chiamate server che si prevede di effettuare nel corso del periodo contrattuale. Questo è il totale del vostro impegno di chiamata server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Periodo di utilizzo </p> </td> 
@@ -73,16 +73,16 @@ Di seguito è riportato un breve primate sulla terminologia essenziale per l'uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Periodo contratto </p> </td> 
-   <td colname="col2"> <p>I periodi di contratto possono durare più anni. Supponiamo che la tua azienda abbia un impegno di chiamata server di 6 milioni di chiamate per un periodo contrattuale di 3 anni. Ai fini del monitoraggio dell’utilizzo delle chiamate server, questo periodo di 3 anni può essere suddiviso in periodi di utilizzo più brevi per facilitare i confronti su base annua. </p> </td> 
+   <td colname="col2"> <p>I periodi di contratto possono durare più anni. Supponiamo che la tua azienda abbia un impegno di chiamate server di 6 milioni di chiamate per un periodo contrattuale di 3 anni. Ai fini del monitoraggio dell’utilizzo delle chiamate server, questo periodo di 3 anni può essere suddiviso in periodi di utilizzo più brevi per facilitare i confronti su base annua. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Server Call Usage Permission {#section_FCC58EB635954A32990D4E67B52B4369}
 
-L'autorizzazione Utilizzo chiamate server viene concessa automaticamente agli amministratori di Analytics. Consente agli utenti di visualizzare il dashboard e creare avvisi relativi alle chiamate server. Gli amministratori possono scegliere di concedere questa autorizzazione agli utenti non amministratori.
+L&#39;autorizzazione Utilizzo chiamate server viene concessa automaticamente agli amministratori di Analytics. Consente agli utenti di visualizzare il dashboard e creare avvisi relativi alle chiamate al server. Gli amministratori possono scegliere di concedere questa autorizzazione agli utenti non amministratori.
 
-> [!NOTE] La società può scegliere quali società di accesso hanno accesso a Utilizzo chiamate server.
+>[!NOTE] La società può scegliere quali società di accesso hanno accesso a Utilizzo chiamate server.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
