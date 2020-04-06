@@ -1,26 +1,26 @@
 ---
-description: Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
+description: Puoi distinguere i collegamenti personalizzando l’ID del collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
 title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 
-Puoi distinguere i collegamenti personalizzando l’ID collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
+Puoi distinguere i collegamenti personalizzando l’ID del collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
 
-Ad esempio, supponiamo che tu disponga di più collegamenti "Acquista" identificati dalla Activity Map con lo stesso ID collegamento e regione:
+Ad esempio, supponiamo che tu disponga di più collegamenti &quot;Acquista&quot; identificati dalla Activity Map con lo stesso ID collegamento e regione:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Esempio di codice </th> 
    <th colname="col2" class="entry"> ID collegamento </th> 
-   <th colname="col3" class="entry"> Area geografica </th> 
+   <th colname="col3" class="entry"> Regione </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -48,7 +48,7 @@ In che modo è possibile personalizzare la pagina Web e i tag per differenziare 
 
 ## Personalizzare l’ID collegamento utilizzando s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento delle Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull'URL del collegamento. Fare clic [qui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) per ulteriori informazioni sulla variabile s_objectID.
+Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento delle Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull&#39;URL del collegamento. Fare clic [qui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) per ulteriori informazioni sulla variabile s_objectID.
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
   <tr> 
    <th colname="col02" class="entry"> Esempio di codice </th> 
    <th colname="col2" class="entry"> ID collegamento </th> 
-   <th colname="col3" class="entry"> Area geografica </th> 
+   <th colname="col3" class="entry"> Regione </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -77,7 +77,7 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p> Prodotto 2 </p> <p> </p> <p> </p> <p>Prodotto 3 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Prodotto 2 </p> <p> </p> <p> </p> <p>Prodotto 3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> <p> </p> <p>pannello di raccomandazione </p> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -85,16 +85,16 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
 
 ## Personalizzare la regione {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Puoi personalizzare l'area facendo in modo che ogni collegamento "acquista" abbia una propria regione definita. A tal fine, aggiungete un parametro "id" a uno dei principali tag di ancoraggio "Buy".
+Puoi personalizzare l&#39;area facendo in modo che ogni collegamento &quot;acquista&quot; abbia una propria regione definita. A tal fine, aggiungete un parametro &quot;id&quot; a uno dei principali tag di ancoraggio &quot;Buy&quot;.
 
-> [!NOTE] Non sei strettamente limitato al parametro "id" come identificatore di regione. Potete anche impostare un identificatore personalizzato utilizzando la variabile JavaScript "s.ActivityMap.regionIDAtribute".
+>[!NOTE] Non sei strettamente limitato al parametro &quot;id&quot; come identificatore di regione. Potete anche impostare un identificatore personalizzato utilizzando la variabile JavaScript &quot;s.ActivityMap.regionIDAtribute&quot;.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
   <tr> 
    <th colname="col02" class="entry"> Esempio di codice </th> 
    <th colname="col2" class="entry"> ID collegamento </th> 
-   <th colname="col3" class="entry"> Area geografica </th> 
+   <th colname="col3" class="entry"> Regione </th> 
   </tr> 
  </thead>
  <tbody> 
