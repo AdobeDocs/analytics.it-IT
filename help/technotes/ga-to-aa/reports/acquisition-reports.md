@@ -2,7 +2,7 @@
 title: Report di acquisizione in Adobe Analytics
 description: Scopri come creare rapporti basati sull’acquisizione tramite Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 2e3896501a036e20f9f392c325e0c8ff1d586fba
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ I rapporti di acquisizione mostrano come si ottengono i visitatori del sito.
 
 In Adobe Analytics, questi rapporti sono noti come canali **** marketing. Richiedono una configurazione iniziale di base, ma consentono una visualizzazione dei canali molto più personalizzata.
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
 > Configurate le regole di elaborazione del canale di marketing per utilizzare questi rapporti. Consultate [Guida introduttiva ai canali](/help/components/c-marketing-channels/c-getting-started-mchannel.md) di marketing per informazioni su come configurare al meglio i canali di marketing nella vostra organizzazione.
 
@@ -42,16 +42,16 @@ Le mappe ad albero possono essere applicate a qualsiasi dimensione, non solo ai 
 
 ## Tutto il traffico - Origine/Medio
 
-I rapporti origine e media mostrano i domini che hanno portato il traffico al sito.
+I rapporti di origine e media mostrano i domini che hanno portato il traffico al sito.
 
 * La dimensione principale **Origine** è disponibile in Analysis Workspace come dimensione Dominio **di** riferimento.
 * La dimensione primaria **Media** è disponibile in Analysis Workspace come dimensione Tipo **** referente.
 * La dimensione principale della parola **chiave** è disponibile in Analysis Workspace come dimensione della parola chiave **di** ricerca.
 
-1. Nel menu dei componenti, individuate la dimensione desiderata indicata sopra e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilasciate qui una dimensione&quot;.
+1. Nel menu dei componenti, individuare la dimensione desiderata indicata sopra e trascinarla nell’area grande della tabella a forma libera con l’etichetta &quot;Rilasciare qui una dimensione&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
-Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine seguenti nella guida utente Componenti:
+Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine seguenti nella guida per l’utente Componenti:
 
 * [Dominio di riferimento](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
 * [Tipo di riferimento](/help/components/c-variables/dimensionslist/reports-ref-types.md)
@@ -84,15 +84,15 @@ A volte i visitatori raggiungono il sito attraverso più canali nella stessa ses
 Il rapporto Riferimenti di rete mostra quali domini di social network hanno portato il traffico al sito. Questi dati sono disponibili in Analysis Workspace utilizzando la dimensione Dominio **di** riferimento e il segmento **Visite dai siti** social.
 
 1. Nel menu Componenti, individua la dimensione Dominio **di** riferimento e trascinala nell’area della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
-2. Nel menu Componenti, individua il segmento **Visite dai siti** social e trascina nell&#39;area piccola appena sopra la tabella a forma libera con l&#39;etichetta &quot;Rilascia qui un segmento&quot;.
+2. Nel menu Componenti, individua il segmento **Visite dai siti** social e trascina nell’area piccola appena sopra la tabella a forma libera con l’etichetta &quot;Rilascia qui un segmento&quot;.
 3. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ### Social - Pagine di destinazione
 
-Il rapporto Pagine di destinazione mostra su quali pagine sono arrivati i visitatori dopo aver fatto clic su un collegamento tramite un social network. Questi dati sono disponibili in Analysis Workspace utilizzando la dimensione **Pagina** di immissione e il segmento **Visite dai siti** social.
+Il rapporto Pagine di destinazione mostra le pagine sulle quali i visitatori sono arrivati dopo aver fatto clic su un collegamento tramite un social network. Questi dati sono disponibili in Analysis Workspace utilizzando la dimensione **Pagina** di immissione e il segmento **Visite dai siti** social.
 
 1. Nel menu Componenti, individua la dimensione Pagina **** di immissione e trascinala nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
-2. Nel menu Componenti, individua il segmento **Visite dai siti** social e trascina nell&#39;area piccola appena sopra la tabella a forma libera con l&#39;etichetta &quot;Rilascia qui un segmento&quot;.
+2. Nel menu Componenti, individua il segmento **Visite dai siti** social e trascina nell’area piccola appena sopra la tabella a forma libera con l’etichetta &quot;Rilascia qui un segmento&quot;.
 3. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ### Social - Conversioni
@@ -101,7 +101,7 @@ Il rapporto Conversioni mostra i dati e-commerce nel contesto dei social network
 
 ### Social - Plugin
 
-Il rapporto Plugins mostra in che modo i visitatori interagiscono con i plug-in per social media incorporati nel sito. È richiesta un’ulteriore implementazione per l’utilizzo in Analysis Workspace. Adobe consiglia di collaborare con un consulente per l&#39;implementazione per garantire che i dati vengano raccolti con precisione.
+Il rapporto Plugins mostra in che modo i visitatori interagiscono con i plug-in per social media incorporati nel sito. È necessaria un’implementazione aggiuntiva per l’utilizzo in Analysis Workspace. Adobe consiglia di collaborare con un consulente per l&#39;implementazione per garantire che i dati vengano raccolti con precisione.
 
 ### Social - Flusso utenti
 
@@ -115,7 +115,7 @@ Il rapporto Flusso utenti mostra i dati del percorso nel contesto in cui i visit
 
 ## Campagne - Tutte
 
-Il rapporto sulle campagne è disponibile in Analysis Workspace utilizzando la dimensione Codice **di** tracciamento. Tenere presente che l&#39;utilizzo della dimensione Codice tracciamento richiede un&#39;implementazione aggiuntiva per la raccolta dei dati.
+Il rapporto sulle campagne è disponibile in Analysis Workspace utilizzando la dimensione Codice **di** tracciamento. Tenere presente che l&#39;utilizzo della dimensione Codice di tracciamento richiede un&#39;implementazione aggiuntiva per la raccolta dei dati.
 
 È possibile raccogliere parametri UTM in Adobe Analytics utilizzando variabili personalizzate (eVar). Adobe consiglia di collaborare con un consulente per l&#39;implementazione per garantire che i valori dei codici di tracciamento vengano raccolti con precisione in Adobe Analytics.
 
@@ -133,7 +133,7 @@ Il rapporto sulle parole chiave pagate mostra le prestazioni di ogni parola chia
 
 Il rapporto sulle parole chiave organiche mostra le prestazioni di ogni parola chiave dopo che un visitatore fa clic su un collegamento di ricerca organico da un motore di ricerca. La dimensione naturale **** Cerca parole chiave è disponibile in Analysis Workspace. Se il rilevamento della ricerca a pagamento non è impostato, questa dimensione raccoglie le parole chiave a pagamento e naturali.
 
-1. Nel menu Componenti, individuate la parola chiave **Cerca - Dimensione naturale** e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
+1. Nel menu Componenti, individuate la parola chiave **Cerca - Dimensione naturale** e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilasciate qui una dimensione&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ## Analisi costi
