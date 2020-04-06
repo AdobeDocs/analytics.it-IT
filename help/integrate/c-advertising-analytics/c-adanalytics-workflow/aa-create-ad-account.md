@@ -2,7 +2,7 @@
 title: Configurare un account Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,12 +11,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Gli amministratori di Adobe Analytics possono creare nuovi account pubblicitari e mappare più account a più suite di rapporti (1:1, 1:Molti, Molti:Molti).
 
-Gli amministratori possono anche [concedere l'accesso agli utenti non amministratori](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) per l'impostazione di account pubblicitari.
+Gli amministratori possono anche [concedere l&#39;accesso agli utenti non amministratori](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) per l&#39;impostazione di account pubblicitari.
 
 ![](assets/aa_accounts.png)
 
-1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
-1. (Solo per uso iniziale) Accettate i termini del contratto di licenza con l'utente finale.
+1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+1. (Solo per uso iniziale) Accettate i termini del contratto di licenza con l&#39;utente finale.
 1. Fai clic su **[!UICONTROL + Add]**.
 1. Viene [!UICONTROL New Search Engine Account] visualizzata la finestra di dialogo:
 
@@ -34,7 +34,7 @@ Gli amministratori possono anche [concedere l'accesso agli utenti non amministra
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> <p>Sono disponibili due opzioni: Google AdWords e Microsoft Bing Ads. </p> <p>Nota: Yahoo Gemini è stato assorbito da Microsoft Bing il 31 marzo 2019. Di conseguenza, l’opzione per l’account per annunci Yahoo Gemini non è più disponibile.  </p> </td> 
+      <td colname="col2"> <p>Sono disponibili due opzioni: Google AdWords e Microsoft Bing Ads. </p> <p>Nota: Yahoo Gemini è stato assorbito da Microsoft Bing il 31 marzo 2019. Di conseguenza, l'opzione dell'account pubblicitario Yahoo Gemini non è più disponibile.  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Nome account </p> </td> 
@@ -80,11 +80,11 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
     </tbody> 
     </table>
 
-1. Nella **[!UICONTROL Mapping]** sezione, scegliete le suite di rapporti da collegare a questo account del motore di ricerca. Devi fornire almeno una suite di rapporti prima di poter salvare l'account pubblicitario. Potete mappare più account a più suite di rapporti (1:1, 1:Molti, Molti:Molti). Notate che i dati che AMO estrae dal motore di ricerca vengono semplicemente copiati in qualsiasi suite di rapporti mappata, quindi non c'è divisione dei dati.
+1. Nella **[!UICONTROL Mapping]** sezione, scegliete le suite di rapporti da collegare a questo account del motore di ricerca. Devi fornire almeno una suite di rapporti prima di poter salvare l&#39;account pubblicitario. Potete mappare più account a più suite di rapporti (1:1, 1:Molti, Molti:Molti). Notate che i dati che AMO estrae dal motore di ricerca vengono semplicemente copiati in qualsiasi suite di rapporti mappata, quindi non c&#39;è divisione dei dati.
 
    >[!IMPORTANT]
    >
-   >Solo le suite di rapporti che sono state [mappate a un'organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) Experience Cloud saranno disponibili per la selezione. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Analisi](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)pubblicitaria.
+   >Solo le suite di rapporti che sono state [mappate a un&#39;organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) Experience Cloud saranno disponibili per la selezione. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Analisi](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)pubblicitaria.
 
    Per i **[!UICONTROL Mapping Settings]** seguenti orientamenti:
 
@@ -108,5 +108,5 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
 
    Ora puoi passare all’interfaccia utente [di](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)gestione degli account pubblicitari, in cui deve essere elencato l’account appena creato.
 
-> [!NOTE] Devi aspettare almeno 24 ore prima che i dati del motore di ricerca inizino a compilare i report di Analytics.
+>[!NOTE] Devi aspettare almeno 24 ore prima che i dati del motore di ricerca inizino a compilare i report di Analytics.
 
