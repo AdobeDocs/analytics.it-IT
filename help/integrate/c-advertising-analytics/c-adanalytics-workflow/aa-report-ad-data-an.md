@@ -3,7 +3,7 @@ description: Dettagli sul modello Area di lavoro Analisi e reporting in Reportin
 title: Report sui dati pubblicitari in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Dettagli sul modello Area di lavoro Analisi e reporting in Reporting e analisi e Generatore di report.
 
-> [!NOTE] Devi aspettare almeno 24 ore prima che i dati del motore di ricerca inizino a riempire i tuoi report di Analytics. Inoltre, il reporting di Analytics non restituirà i dati per la granularità oraria, perché i dati AMO non supportano la granularità oraria.
+>[!NOTE] Devi aspettare almeno 24 ore prima che i dati del motore di ricerca inizino a riempire i tuoi report di Analytics. Inoltre, il reporting di Analytics non restituirà i dati per la granularità oraria, perché i dati AMO non supportano la granularità oraria.
 
 ## Analysis Workspace: Motori di ricerca {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Questo modello consente a chiunque implementa questa integrazione con il motore di ricerca di accedere ai dati copiosi del motore di ricerca in Analytics. Potete accedervi tramite **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]****[!UICONTROL Search Engines.]**
+Questo modello consente a chiunque implementa questa integrazione con il motore di ricerca di accedere ai dati copiosi del motore di ricerca in Analytics. Potete accedervi tramite **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]****[!UICONTROL Search Engines.]**
 
 >[!NOTE]
 >
@@ -28,19 +28,19 @@ Questo modello consente a chiunque implementa questa integrazione con il motore 
 |--- |--- |
 | Tendenze della pubblicità | Panoramica con tendenze giornaliere per le impression AMO, i clic AMO e il costo AMO. |
 | Piattaforme pubblicitarie | Grafico ad anello per il costo delle prime 2 piattaforme (Google, Bing). |
-| Totali della piattaforma di annunci | Tabella a forma libera delle piattaforme principali suddivise per Impression AMO, Clic AMO, Costi AMO, Avg AMO. Posizione, AMO Avg. Punteggio di qualità. |
+| Totali della piattaforma di annunci | Tabella a forma libera delle piattaforme principali suddivise per Impression AMO, Clic AMO, Costi AMO, Avg AMO. Posizione, AMO Avg. punteggio di qualità. |
 | Account | Area di costo sovrapposta. |
 | Totali account | Tabella a forma libera degli account principali suddivisa per le metriche associate. |
 | Campagne | Grafico a barre del costo della campagna. |
 | Totali campagna | Tabella a forma libera delle campagne principali suddivise per le metriche associate. |
-| Groups (Gruppi) | Mappa ad albero del costo. |
+| Gruppi | Mappa ad albero del costo. |
 | Totali gruppo | Tabella a forma libera dei principali gruppi pubblicitari suddivisi per le metriche associate. |
 | Annunci | Grafico a barre orizzontale di impression, clic e costi. |
 | Totali annuncio | Tabella a forma libera degli annunci principali suddivisa per le metriche associate. |
 | Parole chiave | Grafico a dispersione di impression, clic e costi per tutte le combinazioni di parole chiave/tipo di corrispondenza. |
 | Totali parola chiave | Tabella a forma libera delle principali combinazioni di parole chiave/tipi di corrispondenza suddivise per le metriche associate. |
 
-## Reporting e analisi {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
+## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 
 Non appena avrai configurato un account Analisi della pubblicità, il report Analisi della pubblicità sarà disponibile.
 
