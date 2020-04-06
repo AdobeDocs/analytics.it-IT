@@ -2,18 +2,18 @@
 title: addProductEvar
 description: Aggiunge eVar di merchandising alla variabile products.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: addProductEvar
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `addProductEvar` plug-in consente di aggiungere facilmente un&#39;eVar merchandising di Adobe Analytics che utilizza la sintassi del prodotto alla variabile products, senza preoccuparsi se il contenuto già esistente della variabile products verrà modificato/spostato/eliminato. Adobe consiglia di utilizzare questo plug-in per aggiungere facilmente eVar di merchandising con sintassi di prodotto alla [`products`](../page-vars/products.md) variabile. Non è necessario utilizzare il `addProductEvar` plug-in se non si utilizzano eVar di merchandising con sintassi di prodotto.
 
-> [!NOTE] Questo plug-in non sostituisce le eVar già esistenti in una voce di prodotto. Aggiunge solo i valori impostati con questo plug-in. Prestate attenzione quando aggiungete eVar già esistenti per quel prodotto.
+>[!NOTE] Questo plug-in non sostituisce le eVar già esistenti in una voce di prodotto. Aggiunge solo i valori impostati con questo plug-in. Prestate attenzione quando aggiungete eVar già esistenti per quel prodotto.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
