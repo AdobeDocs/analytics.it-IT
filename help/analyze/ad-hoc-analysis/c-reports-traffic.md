@@ -4,7 +4,7 @@ title: Rapporti fonti traffico
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,7 +26,7 @@ I rapporti sulle origini di traffico consentono di:
 
 **Persistenza comune**
 
-In [!UICONTROL Traffic Sources]questo caso, tutti i valori del rapporto persistono e ricevono credito fino a quando non vengono sovrascritti o fino alla fine della visita, a seconda di quale sia il primo. Precedentemente, erano persistenti solo le parole chiave e i domini di riferimento. Ad esempio, se un visitatore esegue una ricerca Google per "DVD", che li porta sul sito per un acquisto da $ 100, il rapporto assegna un credito da $ 100 alla parola chiave "DVD" e anche al motore di ricerca Google. Questa funzionalità è inalterabile, indipendentemente dalle [!DNL Admin Console] impostazioni.
+In [!UICONTROL Traffic Sources]questo caso, tutti i valori del rapporto persistono e ricevono credito fino a quando non vengono sovrascritti o fino alla fine della visita, a seconda di quale sia il primo. Precedentemente, erano persistenti solo le parole chiave e i domini di riferimento. Ad esempio, se un visitatore esegue una ricerca Google per &quot;DVD&quot;, che li porta sul sito per un acquisto da $ 100, il rapporto assegna un credito da $ 100 alla parola chiave &quot;DVD&quot; e anche al motore di ricerca Google. Questa funzionalità è inalterabile, indipendentemente dalle [!DNL Admin Console] impostazioni.
 
 ## Parole chiave di ricerca {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -90,13 +90,13 @@ c_reports_referrers.xml
 
  -->
 
-Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l'implementazione di reporting e analisi di marketing, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web. (Questa modifica può essere eseguita dopo l’implementazione).
+Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l&#39;implementazione di reporting e analisi di marketing, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web. (Questa modifica può essere eseguita dopo l’implementazione).
 
 I domini o gli URL che non fanno parte di tali domini definiti e gli URL sono considerati referenti. Ad esempio, la pagina Web A e la pagina Web B vengono aggiunte al filtro URL interno, ma non la pagina Web C. In questo caso, la pagina Web C è considerata un referente.
 
 Per ulteriori informazioni, consulta Filtri [URL](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) interni nella [!DNL Admin Console] guida.
 
-> [!NOTE] I report e le analisi di marketing registrano un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento di messaggio e-mail contenente il protocollo [!DNL imap://] o [!DNL mail://] e arrivano sul sito. Ad esempio, qualsiasi cosa proveniente da [!DNL https://mail.yahoo.com] viene conteggiata come referente e-mail perché il protocollo è [!DNL https://]. Le e-mail di Outlook vengono riportate nella riga Typed/Bookmarked, mentre qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore di ricerca.
+>[!NOTE] I report e le analisi di marketing registrano un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento di messaggio e-mail contenente il protocollo [!DNL imap://] o [!DNL mail://] e arrivano sul sito. Ad esempio, qualsiasi cosa proveniente da [!DNL https://mail.yahoo.com] viene conteggiata come referente e-mail perché il protocollo è [!DNL https://]. Le e-mail di Outlook vengono riportate nella riga Typed/Bookmarked, mentre qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore di ricerca.
 
 ## Tipo di riferimento {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -108,26 +108,26 @@ c_reports_ref_types.xml
 
  -->
 
-L'elenco seguente definisce i vari tipi di referenti:
+L&#39;elenco seguente definisce i vari tipi di referenti:
 
 * *Quando i visitatori fanno clic su un collegamento situato in una pagina di un altro sito Web (non definito come parte del sito) e arrivano al sito Web, vengono registrati altri riferimenti* al sito Web.
 * *I referenti del motore* di ricerca vengono registrati quando i visitatori accedono al sito tramite un motore di ricerca.
 * *Vengono registrati i riferimenti digitati/con segnalibro*
 
    * Se un visitatore accede al sito tramite un collegamento non del browser (ad esempio, in un messaggio e-mail).
-   * Se un visitatore digita l'URL del sito direttamente nel browser.
+   * Se un visitatore digita l&#39;URL del sito direttamente nel browser.
    * Se un visitatore fa clic su un collegamento HTML sul suo disco rigido personale.
    * Se un visitatore accede al sito selezionando i segnalibri del browser.
 
 **Definizioni**
 
-Durante l'esecuzione di questo rapporto potrebbero essere visualizzati i seguenti elementi di riga:
+Durante l&#39;esecuzione di questo rapporto potrebbero essere visualizzati i seguenti elementi di riga:
 
-**All'interno del sito**: Questi elementi sono URL ai quali vengono assegnati tag dai filtri URL interni. Questi elementi non vengono conteggiati come istanze di riferimento, ma possono essere visualizzati durante la generazione di rapporti su altre metriche.
+**All&#39;interno del sito**: Si tratta di URL dotati di tag per i filtri URL interni. Questi elementi non vengono conteggiati come istanze di riferimento, ma possono essere visualizzati durante la generazione di rapporti su altre metriche.
 
-**Nessun Java Script**: Non era presente un codice JavaScript, pertanto il tipo non era identificabile (sconosciuto). Ciò significa che non sono state fornite informazioni sul referente da un client in un browser, che non segnala il supporto di Javascript. Questi non vengono contati come "istanze di referente", ma possono essere visualizzati quando si riferiscono ad altre metriche.
+**Nessun Java Script**: Non era presente un codice JavaScript, pertanto il tipo non era identificabile (sconosciuto). Ciò significa che non sono state fornite informazioni sul referente da un client in un browser, che non segnala il supporto di Javascript. Questi non vengono contati come &quot;istanze di referente&quot;, ma possono essere visualizzati quando si riferiscono ad altre metriche.
 
-**USENET (newsgroup)**: Ciò significa che l'URL di un referente è iniziato con `news://`. Come tale, il collegamento del referente è stato pubblicato su un newsgroup Usenet anziché su una pagina Web.
+**USENET (newsgroup)**: Ciò significa che l&#39;URL di un referente è iniziato con `news://`. Come tale, il collegamento del referente è stato pubblicato su un newsgroup Usenet anziché su una pagina Web.
 
-> [!NOTE] La logica Tipo referente corrisponde ad altri rapporti origini traffico (ad esempio [!UICONTROL Referrers] e [!UICONTROL Referring Domains]). In questo modo si riducono o si eliminano le occorrenze degli elementi di riga all'interno del sito e non vi sono elementi JavaScript nel [!UICONTROL Referrer Type] rapporto.
+>[!NOTE] La logica Tipo referente corrisponde ad altri rapporti origini traffico (ad esempio [!UICONTROL Referrers] e [!UICONTROL Referring Domains]). In questo modo si riducono o si eliminano le occorrenze degli elementi di riga all&#39;interno del sito e non è presente alcun elemento JavaScript nel [!UICONTROL Referrer Type] rapporto.
 
