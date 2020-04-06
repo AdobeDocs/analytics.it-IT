@@ -4,22 +4,22 @@ title: Tracciatura percorso
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Tracciatura percorso
 
-Un gruppo di rapporti basati sull'analisi dei percorsi. Tecnicamente, per percorso si intende lo spostamento da un nome di pagina all’altro (da un valore all’altro).
+Un gruppo di rapporti basati sull&#39;analisi dei percorsi. Tecnicamente, per percorso si intende lo spostamento da un nome di pagina all’altro (da un valore all’altro).
 
-Utilizzate Flusso [di](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) Analysis Workspace per opzioni di percorso più flessibili.
+Utilizzate Flusso [di](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/flow.html) Analysis Workspace per opzioni di percorso più flessibili.
 
-> [!NOTE] Per abilitare il percorso, passare a **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Per abilitare il percorso nei rapporti Sezione del sito e Server, contatta l'Assistenza clienti.
+>[!NOTE] Per abilitare il percorso, passare a **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Per abilitare il percorso nei rapporti Sezione del sito e Server, contatta l&#39;Assistenza clienti.
 
-Per conoscere l'ordine in cui vengono raccolti i valori, è necessario abilitare il percorso per la variabile che raccoglie tali valori. Il percorso è attivato per impostazione predefinita per le pagine. Il percorso non è abilitato per le proprietà per impostazione predefinita, perché è appropriato solo in alcuni casi. Contatta l’Assistenza clienti per abilitare il percorso di una prop.
+Per conoscere l&#39;ordine in cui vengono raccolti i valori, è necessario abilitare il percorso per la variabile che raccoglie tali valori. Il percorso è attivato per impostazione predefinita per le pagine. Il percorso non è abilitato per le proprietà per impostazione predefinita, perché è appropriato solo in alcuni casi. Contatta l’Assistenza clienti per abilitare il percorso di una prop.
 
-> [!NOTE] In Analisi ad hoc, quando attivi le classificazioni su una prop, le metriche di percorso diventano disponibili per tutte le classificazioni configurate per la prop abilitata.
+>[!NOTE] In Analisi ad hoc, quando attivi le classificazioni su una prop, le metriche di percorso diventano disponibili per tutte le classificazioni configurate per la prop abilitata.
 
 **Esempio - Percorsi sulle sezioni del sito**
 
@@ -47,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Quindi, abilitate il percorso *`s.prop19`* per vedere come i membri si muovono attraverso le pagine.
 
-> [!NOTE] Se si esegue un'analisi ad hoc, è possibile segmentare i percorsi di pagina senza la necessità di concatenare i valori dei segmenti e applicare qualsiasi segmento ai rapporti sui percorsi.
+>[!NOTE] Se si esegue un&#39;analisi ad hoc, è possibile segmentare i percorsi di pagina senza la necessità di concatenare i valori dei segmenti e applicare qualsiasi segmento ai rapporti sui percorsi.
 
