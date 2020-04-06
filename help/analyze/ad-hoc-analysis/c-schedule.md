@@ -1,33 +1,33 @@
 ---
-description: Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
+description: Potete personalizzare la pianificazione della consegna per i rapporti. È possibile interrompere la consegna a una determinata ora, oppure specificare quante volte si desidera inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 title: Pianificazione Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Pianificazione Manager
 
-Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
+Potete personalizzare la pianificazione della consegna per i rapporti. È possibile interrompere la consegna a una determinata ora, oppure specificare quante volte si desidera inviare un rapporto. Le nuove pianificazioni utilizzano l&#39;intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 
 ## Pianificazione Manager {#concept_A1CDE14B72A54DD6AE17B816092CAB8B}
 
-Potete personalizzare la pianificazione della consegna per i rapporti. Puoi interrompere la consegna a una determinata ora, oppure specificare quante volte inviare un rapporto. Le nuove pianificazioni utilizzano l'intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
+Potete personalizzare la pianificazione della consegna per i rapporti. È possibile interrompere la consegna a una determinata ora, oppure specificare quante volte si desidera inviare un rapporto. Le nuove pianificazioni utilizzano l&#39;intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 
-> [!NOTE] Quando un account utente è disattivato, tutte le consegne programmate dei rapporti create da tale utente vengono sospese.
+>[!NOTE] Quando un account utente è disattivato, tutte le consegne programmate dei rapporti create da tale utente vengono sospese.
 
 Per garantire che gli elementi di riga in una suddivisione siano persistenti nei rapporti salvati e pianificati, utilizzate la **[!UICONTROL Edit Items]** funzione in Generatore [di](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tabelle per creare elenchi di dimensioni fisse nelle suddivisioni.
 
 >[!IMPORTANT]
 >
->Analisi ad hoc ti consente di definire e pianificare rapidamente i rapporti per specifiche esigenze di reporting ad hoc, tempestive. Non è progettato per l'esportazione completa di dati con un numero o più righe, colonne, valutazioni metriche o dettagliate suddivisioni utilizzando estratti di dati.
+>Analisi ad hoc consente di definire e pianificare rapidamente i rapporti per specifiche esigenze di reporting ad hoc, tempestive e specifiche. Non è progettato per l&#39;esportazione completa di dati con un numero o più righe, colonne, valutazioni metriche o dettagliate suddivisioni utilizzando estratti di dati.
 >
 >I vincoli pratici per i rapporti pianificati in Analisi ad hoc si basano su questo principio: Se il rapporto non viene generato entro dieci minuti (il timeout per Analisi ad hoc), è probabile che sia troppo complesso.
 >
->Molto probabilmente il rapporto contiene troppe metriche, troppe suddivisioni di elementi dimensionali, troppe righe o colonne o altri estremi che rendono troppo lungo un processo di generazione del rapporto per Analisi ad hoc. Questo tipo di report deve essere eseguito in Data Warehouse, una funzionalità di Adobe Analytics creata per l'estrazione dati completa in esecuzione offline con generazione di report che può richiedere molte ore o giorni.
+>Molto probabilmente il rapporto contiene troppe metriche, troppe suddivisioni di elementi dimensionali, troppe righe o colonne o altri estremi che rendono troppo lungo un processo di generazione del rapporto per Analisi ad hoc. Questo tipo di report deve essere eseguito in Data Warehouse, una funzionalità di Adobe Analytics creata per l&#39;estrazione dati completa in esecuzione offline con generazione di report che può richiedere molte ore o giorni.
 >
 >Ad esempio, Analisi ad hoc può gestire 50.000 righe di dati, ma suddividere tali dati per dieci tipi di browser significa 50.000 volte 10, un aumento esponenziale che potrebbe essere troppo complesso per uno strumento di reporting ad hoc. Ulteriori analisi approfondite aumentano di nuovo le righe di dati in modo esponenziale. La definizione del numero o delle righe, colonne e suddivisioni effettivi da vincolare per il reporting di Analisi ad hoc non può essere definita in termini netti, ma è una combinazione di tutti questi fattori.
 
@@ -42,7 +42,7 @@ t_schedule_delivery.xml
  -->
 
 1. Fai clic su **[!UICONTROL Tools]**, quindi su **[!UICONTROL Schedule Manager]**.
-1. Fate clic su [!UICONTROL Schedule Manager]**[!UICONTROL New.]**
+1. On the [!UICONTROL Schedule Manager], click **[!UICONTROL New.]**
 
 ## Opzioni di consegna - Definizioni {#reference_CA49AC560258471AAE959BCA243F170C}
 
@@ -59,7 +59,7 @@ Potete inviare le informazioni visualizzate nel rapporto attualmente selezionato
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Campo </p> </th> 
+   <th colname="col1" class="entry"> <p>Field </p> </th> 
    <th colname="col2" class="entry"> <p>Definizione </p> </th> 
   </tr> 
  </thead>
@@ -84,8 +84,8 @@ Potete inviare le informazioni visualizzate nel rapporto attualmente selezionato
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Advanced </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col1"> <p> Avanzate </p> </td> 
+   <td colname="col2"> <p> Consultate <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Impostazioni</a>di formato avanzate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Destinazione file </p> </td> 
@@ -111,7 +111,7 @@ r_advanced_format_settings_dsc.xml
 <table id="table_CD0888E8390745F4B83DF6AC69CB0854"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Campo </p> </th> 
+   <th colname="col1" class="entry"> <p>Field </p> </th> 
    <th colname="col2" class="entry"> <p>Definizione </p> </th> 
   </tr> 
  </thead>
@@ -130,9 +130,9 @@ r_advanced_format_settings_dsc.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lingua </p> </td> 
-   <td colname="col2"> <p> Consente di selezionare una lingua per il rapporto. Puoi inviare il rapporto in una delle seguenti lingue, indipendentemente dalla lingua utilizzata </p> 
+   <td colname="col2"> <p> Consente di selezionare una lingua per il rapporto. Puoi inviare il rapporto in una qualsiasi delle seguenti lingue, indipendentemente dalla lingua utilizzata </p> 
     <ul id="ul_BD3D331B0D6146F79A6D254136E43920"> 
-     <li id="li_0EE6A371B1BB4627BD3F64BD0EF07E44">English </li> 
+     <li id="li_0EE6A371B1BB4627BD3F64BD0EF07E44">Inglese </li> 
      <li id="li_5EF76261928543FDB36D99E4C89DE994">Spagnolo </li> 
      <li id="li_FABF47E8CD64486BA1567E02460422C5">Cinese semplificato </li> 
      <li id="li_8A6BC2DE92DB47DA9397B8931D8DCC6E">Cinese tradizionale </li> 
