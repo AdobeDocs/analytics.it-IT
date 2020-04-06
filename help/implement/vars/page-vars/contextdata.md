@@ -2,7 +2,7 @@
 title: contextData
 description: Le variabili di dati di contesto consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Utilizzare le regole di elaborazione per compilare le variabili di analisi
 
-> [!IMPORTANT] Le variabili di dati di contesto vengono eliminate dopo l&#39;esecuzione delle regole di elaborazione. Se non sono attive regole di elaborazione che inseriscono i valori nelle variabili, i dati andranno persi definitivamente.
+>[!IMPORTANT] Le variabili di dati di contesto vengono eliminate dopo l&#39;esecuzione delle regole di elaborazione. Se non sono attive regole di elaborazione che inseriscono i valori nelle variabili, i dati andranno persi definitivamente.
 
 1. Aggiorna l’implementazione per impostare i nomi e i valori delle variabili di dati di contesto.
 2. Accedete ad Adobe Analytics e andate ad Admin > Suite di rapporti.
