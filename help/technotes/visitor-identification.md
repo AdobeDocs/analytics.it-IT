@@ -6,7 +6,7 @@ title: Identificare visitatori unici
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ Adobe utilizza un cookie per tenere traccia di browser/dispositivi univoci.
 
 Adobe Analytics offre diversi metodi per identificare i visitatori. Nella tabella seguente sono elencati i diversi modi in cui un visitatore può essere identificato in Analytics (in ordine di preferenza):
 
-| Ordine | Parametro query (metodo di raccolta) | Presente se |
+| Ordine utilizzato | Parametro query (metodo di raccolta) | Presenta quando |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID è impostato |
 | 2 | aid (cookie s_vi) | Il visitatore aveva un cookie s_vi esistente prima dell’implementazione del servizio ID visitatore, oppure era configurato un periodo di tolleranza ID visitatore. |
@@ -27,9 +27,9 @@ Adobe Analytics offre diversi metodi per identificare i visitatori. Nella tabell
 | 4 | fid (cookie di fallback) | Il browser del visitatore accetta i cookie (di prime parti) |
 | 5 | Indirizzo IP, agente utente, indirizzo IP gateway | Il browser del visitatore non accetta i cookie. |
 
-In molti scenari potrebbero essere presenti due o tre ID diversi in una chiamata, ma Analytics utilizza il primo ID presente nella tabella precedente come ID visitatore ufficiale. Ad esempio, se imposti un ID visitatore personalizzato (incluso nel parametro di query “vid”), questo ID verrà usato prima degli altri ID visualizzati per lo stesso hit.
+In molti scenari potrebbero essere presenti due o tre ID diversi in una chiamata, ma Analytics utilizzerà il primo ID presente nella tabella precedente come ID visitatore ufficiale. Ad esempio, se imposti un ID visitatore personalizzato (incluso nel parametro di query “vid”), questo ID verrà usato prima degli altri ID visualizzati per lo stesso hit.
 
-> [!NOTE] Ogni ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
+>[!NOTE] Ogni ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
 
 ## ID visitatore personalizzato
 
@@ -52,13 +52,13 @@ Se hai la capacità di derivare e gestire i [!UICONTROL visitor IDs] tuoi utenti
 
 Quando un utente visita il sito, un cookie permanente viene impostato dal server Web Adobe includendo il cookie nella risposta HTTP al browser. Questo cookie viene impostato sul dominio di raccolta dati specificato.
 
-When a request is sent to the Adobe data collection server, the header is checked for the visitor ID cookie ( `s_vi`). Se il cookie è presente nella richiesta, viene utilizzato per identificare il visitatore. Se il cookie non è presente, il server genera un ID visitatore univoco, lo imposta come cookie nell’intestazione della risposta HTTP e lo invia nuovamente insieme alla richiesta. Il cookie viene memorizzato nel browser e inviato nuovamente al server di raccolta dati durante le visite successive al sito, consentendo al visitatore di essere identificato attraverso le visite.
+When a request is sent to the Adobe data collection server, the header is checked for the visitor ID cookie ( `s_vi`). Se il cookie è presente nella richiesta, viene utilizzato per identificare il visitatore. Se il cookie non è presente, il server genera un ID visitatore univoco, lo imposta come cookie nell’intestazione della risposta HTTP e lo invia nuovamente insieme alla richiesta. Il cookie viene memorizzato nel browser e inviato di nuovo al server di raccolta dati durante le visite successive al sito, consentendo al visitatore di essere identificato attraverso le visite.
 
 ### Record di cookie e CNAME di terze parti {#section_61BA46E131004BB2B75929C1E1C93139}
 
 Alcuni browser, come Apple Safari, non memorizzano più i cookie impostati nell’intestazione HTTP da domini che non corrispondono al dominio del sito Web corrente (si tratta di un cookie utilizzato in un contesto di terze parti o di un cookie di terze parti). Ad esempio, se accedi a `mysite.com` e il server di raccolta dati è `mysite.omtrdc.net` il cookie restituito nell&#39;intestazione HTTP da `mysite.omtrdc.net` potrebbe essere rifiutato dal browser.
 
-Per evitare questo problema, molti clienti hanno implementato record CNAME per i propri server di raccolta dati nell&#39;ambito di un&#39;implementazione [di cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)di prime parti. If a CNAME record is configured to map a hostname on the customer&#39;s domain to the data collection server (for example, mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the visitor ID cookie is stored since the data collection domain now matches the domain of the website. Questo aumenta la probabilità che il cookie dell’ID visitatore venga memorizzato, ma introduce alcuni overhead in quanto è necessario configurare i record CNAME e mantenere i certificati SSL per i server di raccolta dati.
+Per evitare questo problema, molti clienti hanno implementato record CNAME per i propri server di raccolta dati nell&#39;ambito di un&#39;implementazione [di cookie](https://marketing.adobe.com/resources/help/it_IT/whitepapers/first_party_cookies/)di prime parti. If a CNAME record is configured to map a hostname on the customer&#39;s domain to the data collection server (for example, mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the visitor ID cookie is stored since the data collection domain now matches the domain of the website. Questo aumenta la probabilità che il cookie dell’ID visitatore venga memorizzato, ma introduce alcuni overhead in quanto è necessario configurare i record CNAME e mantenere i certificati SSL per i server di raccolta dati.
 
 ### Cookie su dispositivi mobili {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -68,11 +68,11 @@ Quando i dispositivi mobili vengono tracciati utilizzando i cookie, è possibile
 
 Il servizio identità sostituisce il meccanismo legacy di ID visitatore di Analytics ed è richiesto dalla misurazione [!UICONTROL Heartbeat] video, da Analytics per Target e dai servizi e integrazioni di base futuri di Experience Cloud.
 
-Consulta Servizio [](https://marketing.adobe.com/resources/help/en_US/mcvid/) identità per la documentazione di prodotto su questo servizio.
+Consulta Servizio [](https://marketing.adobe.com/resources/help/it_IT/mcvid/) identità per la documentazione di prodotto su questo servizio.
 
 ## Identificare i dispositivi mobili
 
-La maggior parte dei dispositivi mobili accetta i cookie del browser. Tuttavia, se i dispositivi non accettano i cookie, viene utilizzato un altro metodo per identificare in modo univoco i dispositivi wireless.
+La maggior parte dei dispositivi mobili accetta i cookie del browser. Tuttavia, nei casi in cui i dispositivi non accettano i cookie, viene utilizzato un altro metodo per identificare in modo univoco i dispositivi wireless.
 
 Adobe ha identificato una serie di intestazioni di ID di sottoscrittore HTTP che identificano in modo univoco la maggior parte dei dispositivi mobili. Tali intestazioni includono spesso il numero di telefono del dispositivo (o una versione con hash del numero), o altri identificatori. La maggior parte dei dispositivi correnti dispone di una o più intestazioni che identificano in modo univoco il dispositivo, e tutti i server di raccolta dati Adobe utilizzano automaticamente tali intestazioni al posto di un ID visitatore.
 
@@ -90,7 +90,7 @@ Nella tabella seguente è riportato l’ordine dei metodi ID utilizzati in base 
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>impostazione predefinita: </p> 
+   <td colname="col2"> <p>Predefinito: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">ID visitatore personalizzato </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
@@ -111,7 +111,7 @@ Nella tabella seguente è riportato l’ordine dei metodi ID utilizzati in base 
  </tbody> 
 </table>
 
-Potete anche passare un &#39;1&#39; o un &#39;5&#39; nelle richieste di immagini manuali, ma tenete presente che questi codici si escludono a vicenda, pertanto, se si passa sempre &#39;5&#39; non si utilizza un cookie quando è supportato. Potete includere un meccanismo personalizzato per determinare se un dispositivo supporta i cookie e, in tal caso, trasmettere un &#39;1&#39; nell&#39;immagine anziché un &#39;5&#39;. Il miglioramento della precisione in questa situazione è limitato al numero di dispositivi mobili che supportano i cookie.
+Potete anche passare un &#39;1&#39; o un &#39;5&#39; nelle richieste di immagini manuali, ma tenete presente che questi codici si escludono a vicenda, pertanto, se si passa sempre &#39;5&#39; non si utilizza un cookie quando è supportato. È possibile includere un meccanismo personalizzato per determinare se un dispositivo supporta i cookie e, in tal caso, passare un &#39;1&#39; nell&#39;immagine anziché un &#39;5&#39;. Il miglioramento della precisione in questa situazione è limitato al numero di dispositivi mobili che supportano i cookie.
 
 ### Intestazioni ID sottoscrittore {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
@@ -121,12 +121,12 @@ Potete migliorare le modifiche per identificare un visitatore aggiungendo alla w
 
 Il seguente elenco di intestazioni viene utilizzato per identificare i dispositivi wireless. L&#39;algoritmo per l&#39;elaborazione delle intestazioni è:
 
-1. estraete la chiave di intestazione HTTP (il nome dell’intestazione, ad esempio &quot;X-Up-Calling-Line-ID&quot;)
+1. estraete la chiave di intestazione HTTP (il nome dell’intestazione, ad esempio, &quot;X-Up-Calling-Line-ID&quot;)
 1. rifilare tutti i caratteri non alfa (A-Z e a-z)
-1. converti il tasto intestazione in minuscolo
+1. converti il tasto di intestazione in minuscolo
 1. confronta la fine della chiave con quelle nella tabella seguente per trovare una corrispondenza:
 
-| Intestazione | Type (Tipo) | Esempio |
+| Intestazione | Tipo | Esempio |
 |---|---|---|
 | callinglineid | ID | X-Up-Calling-Line-ID: 8613802423312 |
 | subno | ID | x-up-subno: swm_10448371100_vmag.mycingular.net |
