@@ -2,16 +2,16 @@
 title: Stato
 description: Compila il "Rapporto sullo stato del visitatore" in Reporting e analisi.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # state
 
-> [!IMPORTANT] Questa variabile viene ritirata e non è disponibile in Analysis Workspace. Utilizzate invece la dimensione &quot;Stati Uniti&quot;, che AppMeasurement raccoglie automaticamente in base alla posizione del visitatore.
+>[!IMPORTANT] Questa variabile viene ritirata e non è disponibile in Analysis Workspace. Utilizzate invece la dimensione &quot;Stati Uniti&quot;, che AppMeasurement raccoglie automaticamente in base alla posizione del visitatore.
 
-Nelle versioni precedenti di Adobe Analytics, la `state` variabile era utilizzata quando i visitatori compilavano le informazioni di spedizione sui siti di vendita al dettaglio. Funzionalmente identico a una proprietà, ma non disponibile in Analysis Workspace.
+Nelle versioni precedenti di Adobe Analytics, la `state` variabile era utilizzata quando i visitatori compilavano le informazioni di spedizione sui siti di vendita al dettaglio. Funzionalmente identico a un prop, ma non disponibile in Analysis Workspace.
 
 ## Stato del lancio di Adobe Experience Platform
 
