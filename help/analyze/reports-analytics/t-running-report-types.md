@@ -4,7 +4,7 @@ title: Eseguire diversi tipi di rapporto
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ Passaggi sull&#39;esecuzione dei diversi tipi di rapporto.
 
 ## Eseguire un report classifica {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-In un rapporto con classifica, la tabella mostra le classificazioni delle pagine del rapporto in relazione alla metrica, in base al numero o alla percentuale. I report Ranked possono mostrare più metriche in uno stesso report.
+In un rapporto con classifica, la tabella mostra le classificazioni delle pagine del rapporto in relazione alla metrica, in base al numero o alla percentuale. I report con classifica possono visualizzare più metriche in un report.
 
 <!-- 
 
@@ -24,7 +24,7 @@ t_reports_ranked.xml
 
  -->
 
-1. Generate un rapporto, ad esempio [!UICONTROL Pages Report] ( **[!UICONTROL Reports]**>**[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
+1. Generate un rapporto, ad esempio [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
 1. Nell’intestazione del rapporto, fai clic su **[!UICONTROL Ranked.]**
 1. Per classificare il rapporto, fare clic sull&#39;intestazione di una colonna nella tabella.
 
@@ -32,7 +32,7 @@ t_reports_ranked.xml
 
 ## Eseguire un report con tendenze {#task_F03B4E760B9E4EA29FC3F654E6316887}
 
-I report con tendenze mostrano le metriche nel tempo. Puoi utilizzare questo tipo di report quando desideri sapere quali sono le prestazioni di un segmento da un periodo di tempo al successivo.
+I report con tendenze mostrano le metriche nel tempo. Questo tipo di rapporto viene utilizzato quando si desidera visualizzare le prestazioni di un segmento da un periodo di tempo all&#39;altro.
 
 <!-- 
 
@@ -44,8 +44,8 @@ La maggior parte dei report Conversione e Traffico dispone di una visualizzazion
 
 **Per eseguire un report con tendenze**
 
-1. Eseguite un rapporto di conversione o traffico, ad esempio **[!UICONTROL Reports]**>**[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. Alla voce **[!UICONTROL Report Type]**, fai clic su**[!UICONTROL Trended.]**
+1. Eseguite un rapporto di conversione o di traffico, ad esempio **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Alla voce **[!UICONTROL Report Type]**, fai clic su **[!UICONTROL Trended.]**
 
 ## Eseguire un rapporto sull&#39;imbuto di conversione {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,9 +57,9 @@ t_reports_conversion_funnel.xml
 
  -->
 
-Per eseguire questo rapporto, selezionare un rapporto, ad esempio un rapporto Pagine ( **[!UICONTROL Reports]**>**[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]**>**[!UICONTROL Campaign Conversion Funnel]**).
+Per eseguire questo rapporto, selezionare un rapporto, ad esempio un rapporto Pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
 
-Per una descrizione, vedere Report [](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) conversione.
+Per una descrizione, consulta Report [](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) conversione.
 
 ## Eseguire un rapporto di abbandono {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -71,15 +71,15 @@ t_reports_fallout.xml
 
  -->
 
-Scopri il nuovo pannello Analisi [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) abbandono in Analysis Workspace!
+Scopri il nuovo pannello Analisi [](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/fallout_flow.html) abbandono in Analysis Workspace!
 
-1. In [!UICONTROL Adobe Analytics], fate clic su **[!UICONTROL Reports]**>**[!UICONTROL Paths]** > **[!UICONTROL Pages]**>**[!UICONTROL Fallout]**.
-1. Sulla [!UICONTROL Fallout Report] pagina fare clic su **[!UICONTROL Launch the Fallout Report Builder]**.
+1. In [!UICONTROL Adobe Analytics], fate clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
+1. On the [!UICONTROL Fallout Report] page, click **[!UICONTROL Launch the Fallout Report Builder]**.
 
    ![Risultato passaggio](assets/fallout_add_items.png)
 
 1. Nella [!UICONTROL Define Checkpoints] pagina, specificate i punti di controllo da utilizzare per il rapporto.
-1. Fai clic su **[!UICONTROL Run Report]**.
+1. Fai clic su **[!UICONTROL Run Report]** (Crea).
 
    ![Risultato passaggio](assets/fallout_report.png)
 
@@ -92,11 +92,11 @@ Scopri il nuovo pannello Analisi [](https://marketing.adobe.com/resources/help/e
 
 I rapporti sul flusso di pagina mostrano l’ordine in cui i visitatori accedono alle pagine e si spostano nel sito. Questo rapporto aiuta a rispondere
 
-Scopri la nuova visualizzazione [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) Flusso in Analysis Workspace!
+Scopri la nuova visualizzazione [](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/flow.html) Flusso in Analysis Workspace!
 
 Eseguire un rapporto [Percorsi](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) .
 
-Ad esempio, fare clic su **[!UICONTROL Reports]**>**[!UICONTROL Paths]** > **[!UICONTROL Pages]**>**[!UICONTROL Next Page Flow]**.
+Ad esempio, fare clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
 
 ![](assets/page_flow.png)
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Fate clic su **[!UICONTROL Reports]**>**[!UICONTROL Products]** > [Products Conversion Funnel (Funnel di conversione prodotti)](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. Fate clic su **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel (Funnel di conversione prodotti)](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## Eseguire un report canale di marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -146,9 +146,9 @@ t_anomaly_view.xml
 
 Scopri le nuove funzioni [Rilevamento anomalie e Analisi](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) contributi di Analysis Workspace!
 
-**[!UICONTROL Reports]**>**[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]**.
+**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
-> [!NOTE] Puoi anche eseguire il rilevamento delle anomalie dai progetti di Analysis Workspace. [Altro...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>[!NOTE] Puoi anche eseguire il rilevamento delle anomalie dai progetti di Analysis Workspace. [Altro...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Per informazioni sulla configurazione del rilevamento delle anomalie, fare riferimento alla Guida di [riferimento](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -177,7 +177,7 @@ Il rilevamento delle anomalie mostra due tipi di grafici: Un grafico di riepilog
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Se i limiti inferiori e il valore previsto sono uguali, la deviazione % è -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">In caso contrario, la deviazione % è ((valore associato inferiore - valore effettivo) / (valore previsto - valore associato inferiore) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Facendo clic su <span class="uicontrol"> Mostra segmenti </span> viene visualizzata la barra laterale del segmento che consente di applicare segmenti a un rapporto di rilevamento delle anomalie. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Ulteriori informazioni </a> sulla segmentazione. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Facendo clic su <span class="uicontrol"> Mostra segmenti </span> viene visualizzata la barra laterale del segmento che consente di applicare segmenti a un rapporto di rilevamento delle anomalie. <a href="https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.translate.html"  > Ulteriori informazioni </a> sulla segmentazione. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Facendo clic su <span class="uicontrol"> Modifica metriche </span>puoi selezionare e deselezionare le metriche per le quali desideri rilevare delle anomalie. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 Potete impostare il rilevamento delle anomalie in modo indipendente per ogni suite di rapporti.
 
-1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]**.
+1. Passa a  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
 1. Selezionate la suite di rapporti per la quale desiderate tenere traccia del rilevamento giornaliero delle anomalie. Per visualizzare un elenco di suite di rapporti, fai clic sul menu a discesa del selettore Suite di rapporti.
-1. Per selezionare le metriche e/o definire le metriche filtrate, fai clic **[!UICONTROL Edit Metrics]**in alto a destra nella schermata:![](assets/metrics_icon.png).
+1. Per selezionare le metriche e/o definire le metriche filtrate, fai clic **[!UICONTROL Edit Metrics]** in alto a destra nella schermata:  ![](assets/metrics_icon.png).
 
-   Puoi scegliere le metriche dall&#39;elenco (comprese le metriche calcolate) di tutte le metriche o da un elenco di metriche tracciate. Potete anche filtrare l’elenco in base a termini specifici. 1. Una volta generato il rapporto, definisci il **[!UICONTROL Training Period]**e il**[!UICONTROL View Period]** metodo di rilevamento delle anomalie. (Pensate al periodo di formazione come al &quot;periodo di apprendimento&quot; per l’algoritmo.)
+   Puoi scegliere le metriche dall&#39;elenco (comprese le metriche calcolate) di tutte le metriche o da un elenco di metriche tracciate. Potete anche filtrare l’elenco in base a termini specifici. 1. Una volta generato il rapporto, definisci il **[!UICONTROL Training Period]** e il **[!UICONTROL View Period]** metodo di rilevamento delle anomalie. (Pensate al periodo di formazione come al &quot;periodo di apprendimento&quot; per l’algoritmo.)
 
    ![](assets/view_training_periods.png)
 
@@ -226,11 +226,11 @@ Potete impostare il rilevamento delle anomalie in modo indipendente per ogni sui
 * Estendendo il periodo di formazione i dati vengono inseriti in un contesto più ampio e possono ridurre le dimensioni di un’anomalia.
 
    Il rapporto sulle metriche di rilevamento delle anomalie viene aggiornato ogni volta che si modifica un parametro.
-1. (Facoltativo) Per applicare segmenti al rapporto, fai clic su **[!UICONTROL Show Segments]**e seleziona uno o più segmenti esistenti o crea un nuovo segmento e applicalo.
+1. (Facoltativo) Per applicare segmenti al rapporto, fai clic su **[!UICONTROL Show Segments]** e seleziona uno o più segmenti esistenti o crea un nuovo segmento e applicalo.
 
    ![](assets/ad_top_menu.png)
 
-   Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la Guida [alla segmentazione di](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) Analytics. 1. (Facoltativo) Preferito o segnalibro per il rapporto.
+   Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la Guida [alla segmentazione di](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.translate.html) Analytics. 1. (Facoltativo) Preferito o segnalibro per il rapporto.
 1. (Facoltativo) Modificare la data di fine del periodo di visualizzazione. Il valore predefinito è ieri.
 1. È ora possibile iniziare a interpretare il rapporto. [Visualizzazione dei grafici](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)di rilevamento delle anomalie.
 
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Reports > Site Metrics > Real-Time]**.
+**[!UICONTROL Reports > Site Metrics > Real-Time]** .
 
-Il reporting in tempo reale offre due report principali: una panoramica e un report dettagliato. Ciascuno di essi consiste in una serie di minirapporti.
+Il reporting in tempo reale offre due report principali: un report di panoramica e un report dettagliato. Ciascuno di essi è costituito da una serie di minirapporti.
 
 Per informazioni sulla configurazione dei report in tempo reale, consulta la Guida [di riferimento di](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration)Analytics.
 
-1. Guardate il **[!UICONTROL Overview]**rapporto e i suoi componenti:![](assets/rtr_overview_report.png)
+1. Guardate il **[!UICONTROL Overview]** rapporto e i suoi componenti:  ![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -262,7 +262,7 @@ Per informazioni sulla configurazione dei report in tempo reale, consulta la Gui
    <td class="chdesc stentry"> Mostra la suite di rapporti cui si riferisce il rapporto in tempo reale. Per modificare la suite di rapporti, vedi <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  > Real-Time Reports Configuration </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
-   <td class="choption"><strong>Passaggio tra rapporti</strong></td> 
+   <td class="choption"><strong>Passa tra i rapporti</strong></td> 
    <td class="chdesc stentry"> Consente di passare ai rapporti impostati (massimo 3). </td> 
    </tr> 
    <tr class="chrow strow"> 
@@ -279,7 +279,7 @@ Per informazioni sulla configurazione dei report in tempo reale, consulta la Gui
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report sul traffico del sito</strong></td> 
-   <td class="chdesc stentry"> I dati blu della linea di tendenza mostrano il totale del traffico per il sito complessivo. L'asse X utilizza etichette letterali (15 minuti fa, 10 minuti fa) tranne che per il valore corrente, visualizzato come espressione in tempo reale. </td> 
+   <td class="chdesc stentry"> I dati blu della linea di tendenza mostrano il totale del traffico per il sito complessivo. L'asse X utilizza etichette letterali (15 minuti fa, 10 minuti fa) tranne che per il valore corrente, che viene visualizzato come espressione in tempo reale. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report Totale sito</strong></td> 
@@ -306,7 +306,7 @@ Per informazioni sulla configurazione dei report in tempo reale, consulta la Gui
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report secondario 1</strong></td> 
-   <td class="chdesc stentry"> Presenta report in tempo reale per la dimensione del secondo report con provisioning e per la metrica. <p>Il rapporto secondario 1 mostra le prime quattro categorie; il quinto è un insieme di tutti i valori rimanenti. Per ogni categoria, viene fornita la visualizzazione non elaborata totale di tale categoria. Inoltre, il totale per tutte le categorie è riportato al centro. </p> <p> Quando si passa il puntatore del mouse su una sezione viene evidenziata la categoria associata e viene visualizzata la linea di tendenza della categoria sotto la ciambella. </p> <p> Quando si passa il puntatore del mouse su un elemento di riga, l'elemento di riga più la sezione associata viene evidenziato e la linea di tendenza della categoria viene visualizzata sotto l'elemento. </p> </td> 
+   <td class="chdesc stentry"> Presenta report in tempo reale per la dimensione del secondo report con provisioning e per la metrica. <p>Il rapporto secondario 1 mostra le prime quattro categorie; il quinto è un'aggregazione di tutti i valori rimanenti. Per ogni categoria, viene fornita la visualizzazione non elaborata totale di tale categoria. Inoltre, il totale per tutte le categorie è riportato al centro. </p> <p> Quando si passa il puntatore del mouse su una sezione viene evidenziata la categoria associata e viene visualizzata la linea di tendenza della categoria sotto la ciambella. </p> <p> Quando si passa il puntatore del mouse su un elemento di riga, l'elemento di riga più la sezione associata viene evidenziato e la linea di tendenza della categoria viene visualizzata sotto l'elemento di ciambella. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report secondario 2</strong></td> 
@@ -314,7 +314,7 @@ Per informazioni sulla configurazione dei report in tempo reale, consulta la Gui
    </tr> 
    </table>
 
-1. Fate clic su una voce di elenco nel minirapporto principale per avviare la **[!UICONTROL Details]**visualizzazione della voce di elenco:![](assets/rtr_detail_report.png)
+1. Fate clic su una voce di elenco nel minirapporto principale per avviare la **[!UICONTROL Details]** visualizzazione della voce di elenco:  ![](assets/rtr_detail_report.png)
 
    | **Report tendenze articolo** | Mostra la linea di tendenza dell’elemento selezionato nel rapporto Panoramica per gli ultimi N minuti. N è configurabile tramite il selettore Intervallo di tempo. |
    |---|---|
