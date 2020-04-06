@@ -2,7 +2,7 @@
 title: events
 description: Impostate la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -42,7 +42,7 @@ La `s.events` variabile è una stringa che contiene un elenco delimitato da virg
 * `scView`: Incrementa la metrica &#39;Visualizzazioni carrello&#39;.
 * `scCheckout`: Aumenta la metrica &#39;Checkout&#39;.
 
-> [!NOTE] Questa variabile fa distinzione tra maiuscole e minuscole. Evitate di usare valori di evento con maiuscole/minuscole errate per garantire una raccolta accurata dei dati.
+>[!NOTE] Questa variabile fa distinzione tra maiuscole e minuscole. Evitate di usare valori di evento con maiuscole/minuscole errate per garantire una raccolta accurata dei dati.
 
 ```js
 // Set the events variable to a single value
@@ -64,7 +64,7 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
-> [!NOTE] Gli eventi contatore non supportano valori di valuta o decimali. Utilizzare gli eventi di valuta per la valuta o gli eventi numerici per i valori decimali.
+>[!NOTE] Gli eventi contatore non supportano valori di valuta o decimali. Utilizzare gli eventi di valuta per la valuta o gli eventi numerici per i valori decimali.
 
 ### Utilizzare gli eventi valuta
 
@@ -81,7 +81,7 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
-> [!NOTE] Se si imposta un valore di valuta sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore di valuta in `events` . Evitare di impostare i valori di valuta sia nelle `events` variabili che nelle `products` variabili.
+>[!NOTE] Se si imposta un valore di valuta sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore di valuta in `events` . Evitare di impostare i valori di valuta sia nelle `events` variabili che nelle `products` variabili.
 
 ### Uso di eventi numerici
 
@@ -96,4 +96,4 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
-> [!NOTE] Se si imposta un valore numerico sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore numerico in `events` . Evitare di impostare valori numerici sia nelle `events` variabili che nelle `products` variabili.
+>[!NOTE] Se si imposta un valore numerico sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore numerico in `events` . Evitare di impostare valori numerici sia nelle `events` variabili che nelle `products` variabili.
