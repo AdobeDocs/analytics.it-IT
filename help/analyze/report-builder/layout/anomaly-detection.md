@@ -4,7 +4,7 @@ title: Rilevamento delle anomalie
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,16 +13,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Il rilevamento delle anomalie utilizza la modellazione statistica per individuare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o un rilascio imprevisto, il sistema ti avvisa nel report.
 
-Ecco alcuni esempi di anomalie da esaminare:
+Esempi di anomalie che potrebbero essere analizzate:
 
-* Drastico calo nel valore medio degli ordini
-* Picchi negli ordini con fatturato basso
-* Picchi o calo nelle registrazioni di prova
+* Drastico calo nel valore medio dell&#39;ordine
+* Picchi negli ordini con ricavi ridotti
+* Picchi o cali nelle registrazioni di prova
 * Calo nelle visualizzazioni della pagina di destinazione
 * Spezie negli eventi del buffer video
-* Picchi nei valori più bassi di bitrate video
+* Picchi in bitrate video ridotti
 
-> [!NOTE] Il rilevamento delle anomalie è disponibile solo quando si seleziona la granularità Giorno.
+>[!NOTE] Il rilevamento delle anomalie è disponibile solo quando si seleziona la granularità Giorno.
 
 <p class="head"> <b>Metriche di rilevamento delle anomalie</b> </p>
 
@@ -42,7 +42,7 @@ Il rilevamento delle anomalie aggiunge nuovi valori di metrica per ogni metrica 
   </tr> 
   <tr> 
    <td colname="col1"> Previsto </td> 
-   <td colname="col2"> <p>Valore previsto basato sull'analisi dei dati. Questo valore è anche il punto centrale tra i limiti superiore e inferiore. </p> </td> 
+   <td colname="col2"> <p>Il valore previsto basato sull'analisi dei dati. Questo valore è anche il punto centrale tra i limiti superiore e inferiore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Limite superiore </td> 
@@ -53,11 +53,11 @@ Il rilevamento delle anomalie aggiunge nuovi valori di metrica per ogni metrica 
 
 Generatore di report applica questi valori alle metriche selezionate. Ad esempio, se selezionate una metrica Visualizzazioni di pagina e applicate il rilevamento delle anomalie, viene utilizzata una *`Page Views Lower Bound`* metrica.
 
-**Calcolo del rilevamento delle anomalie**
+**Modalità di calcolo del rilevamento delle anomalie**
 
-Il rilevamento delle anomalie utilizza un periodo di formazione per calcolare, apprendere e riportare i dati dell'intervallo di previsione al giorno. Il periodo di formazione è il periodo storico che identifica ciò che è normale e ciò che è anomalo e applica ciò che viene appreso al periodo di reporting. Nei rapporti di marketing sono disponibili periodi di formazione di 30, 60 e 90. Nel generatore di report sono disponibili 30 giorni.
+Il rilevamento delle anomalie utilizza un periodo di formazione per calcolare, apprendere e riportare i dati dell&#39;intervallo di previsione al giorno. Il periodo di formazione è il periodo storico che identifica ciò che è normale e ciò che è anomalo e applica ciò che viene appreso al periodo di reporting. Nei rapporti di marketing sono disponibili periodi di formazione di 30, 60 e 90. Nel generatore di report sono disponibili 30 giorni.
 
-Il periodo di formazione non è necessariamente lo stesso del periodo di reporting selezionato. Un grafico del rapporto mostra l'intervallo di date specificato nel calendario.
+Il periodo di formazione non è necessariamente lo stesso del periodo di reporting selezionato. Un grafico del rapporto mostra l&#39;intervallo di date specificato nel calendario.
 
 Per calcolare i dati, il totale giornaliero di ciascuna metrica viene confrontato con il periodo di formazione utilizzando ciascuno dei seguenti algoritmi:
 
@@ -65,7 +65,7 @@ Per calcolare i dati, il totale giornaliero di ciascuna metrica viene confrontat
 * Additivo per inverni Holt (triplo arrotondamento esponenziale)
 * Tendenza fori corretta (doppio arrotondamento esponenziale)
 
-Ogni algoritmo viene applicato per determinare l’algoritmo con la somma minima di errori al quadrato (SSE). L'errore percentuale assoluta media (MAPE) e l'errore standard corrente vengono quindi calcolati per verificare che il modello sia statisticamente valido.
+Ogni algoritmo viene applicato per determinare l’algoritmo con la somma minima di errori al quadrato (SSE). L&#39;errore percentuale assoluta media (MAPE) e l&#39;errore standard corrente vengono quindi calcolati per verificare che il modello sia statisticamente valido.
 
 Questi algoritmi possono essere estesi per fornire previsioni predittive delle metriche nei periodi futuri.
 
