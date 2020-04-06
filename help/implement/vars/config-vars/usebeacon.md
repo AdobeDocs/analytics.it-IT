@@ -2,7 +2,7 @@
 title: useBeacon
 description: useBeacon consente di forzare AppMeasurement a utilizzare l'API sendBeacon dei browser
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ La maggior parte dei browser moderni include il metodo nativo `navigator.sendBea
 
 Se `useBeacon` è abilitata, l&#39;hit successivo inviato ad Adobe utilizza il metodo del browser `navigator.sendBeacon()` invece di una richiesta di `GET` immagine standard. Questa variabile si applica sia alle richieste [`s.t()`](../functions/t-method.md) che alle richieste di [`s.tl()`](../functions/tl-method.md) immagini. Richiede AppMeasurement 2.17.0 o versione successiva.
 
-> [!TIP] AppMeasurement abilita automaticamente `useBeacon` le richieste di immagini di collegamento in uscita.
+>[!TIP] AppMeasurement abilita automaticamente `useBeacon` le richieste di immagini di collegamento in uscita.
 
 La `useBeacon` variabile viene ignorata quando il visitatore utilizza un browser che non supporta `navigator.sendBeacon()`. L&#39;utilizzo di questa variabile richiede AppMeasurement 2.16.0 o versione successiva.
 
@@ -29,4 +29,4 @@ La `s.useBeacon` variabile è un valore booleano che determina se AppMeasurement
 s.useBeacon = true;
 ```
 
-> [!NOTE] Dopo l’esecuzione di una chiamata di tracciamento, questa variabile viene reimpostata su `false`. Se l’implementazione invia più richieste di immagini nello stesso caricamento di pagina (ad esempio, applicazioni a pagina singola), imposta questa variabile `true` prima di ogni chiamata di tracciamento.
+>[!NOTE] Dopo l’esecuzione di una chiamata di tracciamento, questa variabile viene reimpostata su `false`. Se l’implementazione invia più richieste di immagini nello stesso caricamento di pagina (ad esempio, applicazioni a pagina singola), imposta questa variabile `true` prima di ogni chiamata di tracciamento.
