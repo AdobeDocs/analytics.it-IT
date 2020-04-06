@@ -2,7 +2,7 @@
 title: forceOffline
 description: Imposta manualmente lo stato online di AppMeasurement.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 Il `forceOffline()` metodo consente di ignorare lo stato rilevato automaticamente di AppMeasurement.
 
-> [!IMPORTANT] Utilizzare questa funzione solo quando [`trackOffline`](../config-vars/trackoffline.md) è abilitata. L&#39;utilizzo di questa funzione al di fuori del tracciamento offline può causare la perdita di dati.
+>[!IMPORTANT] Utilizzare questa funzione solo quando [`trackOffline`](../config-vars/trackoffline.md) è abilitata. L&#39;utilizzo di questa funzione al di fuori del tracciamento offline può causare la perdita di dati.
 
 AppMeasurement rileva automaticamente lo stato online del dispositivo. Puoi usare il `forceOffline()` metodo per forzare AppMeasurement a trattare gli hit come se il dispositivo fosse offline. Questo metodo non accetta argomenti e non restituisce alcun valore. Il suo unico scopo è quello di ignorare lo stato online in AppMeasurement.
 
