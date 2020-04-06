@@ -6,20 +6,20 @@ title: Riferimento colonna dati
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: e9158f4c1ea2fc338116df34d6c6edf93ff7050e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Riferimento colonna dati
 
-Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La maggior parte delle implementazioni non utilizza tutte le colonne, pertanto è possibile fare riferimento a questa pagina per determinare quali colonne includere in un&#39;esportazione di feed di dati.
+Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna colonna. La maggior parte delle implementazioni non utilizza tutte le colonne, pertanto è possibile fare riferimento a questa pagina per determinare quali colonne includere in un&#39;esportazione di feed di dati.
 
-> [!IMPORTANT] Per qualsiasi colonna (ad esempio, una con 255 caratteri), un feed di dati può inviare caratteri aggiuntivi a causa dell&#39;aggiunta di caratteri che sfuggono ai valori di una stringa. Tieni presente questi potenziali caratteri aggiuntivi se la tua implementazione invia regolarmente valori che superano i limiti dei caratteri.
+>[!IMPORTANT] Per qualsiasi colonna (ad esempio, una con 255 caratteri), un feed di dati può inviare caratteri aggiuntivi a causa dell&#39;aggiunta di caratteri che sfuggono ai valori di una stringa. Tieni presente questi potenziali caratteri aggiuntivi se la tua implementazione invia regolarmente valori che superano i limiti dei caratteri.
 
 ## Colonne, descrizioni e tipi di dati
 
-> [!NOTE] La maggior parte delle colonne contiene una colonna simile con il prefisso `post_`. Le colonne post contengono valori dopo la logica lato server, le regole di elaborazione e le regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare le colonne di post. Per ulteriori informazioni, consulta [Domande frequenti](../df-faq.md) sui feed di dati.
+>[!NOTE] La maggior parte delle colonne contiene una colonna simile con il prefisso `post_`. Le colonne post contengono valori dopo la logica lato server, le regole di elaborazione e le regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare le colonne di post. Per ulteriori informazioni, consulta [Domande frequenti](../df-faq.md) sui feed di dati.
 
 | Nome colonna | Descrizione colonna | Tipo di dati |
 | --- | --- | --- |
@@ -34,12 +34,12 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `campaign` | Variabile utilizzata nella dimensione Codice tracciamento. | varchar(255) |
 | `carrier` | Variabile di integrazione di Adobe Advertising Cloud. Specifica il vettore del dispositivo mobile. Fa riferimento alla tabella di ricerca del vettore. | varchar(100) |
 | `channel` | Variabile utilizzata nella dimensione Sezioni del sito. | varchar(100) |
-| `click_action` |  Non più utilizzato. Indirizzo del collegamento su cui è stato fatto clic nello strumento ClickMap legacy. | varchar(100) |
-| `click_action_type` |  Non più utilizzato. Tipo di collegamento dello strumento ClickMap precedente.<br>0: URL<br>1 HREF: ID<br>personalizzato 2: Evento<br>3 JavaScript onClick: Elemento modulo | tinyint non firmato |
-| `click_context` |  Non più utilizzato. Nome pagina in cui si è verificato il clic sul collegamento. Parte dello strumento ClickMap legacy. | varchar(255) |
-| `click_context_type` |  Non più utilizzato. Indica se click_context ha un nome di pagina o se è stato impostato automaticamente sull’URL della pagina.<br>0: URL<br>pagina 1: Nome pagina | tinyint non firmato |
-| `click_sourceid` |  Non più utilizzato. ID numerico per la posizione sulla pagina del collegamento selezionato. Parte dello strumento ClickMap legacy. | int non firmato |
-| `click_tag` |  Non più utilizzato. Tipo di elemento HTML su cui è stato fatto clic. | char(10) |
+| `click_action` | Non più utilizzato. Indirizzo del collegamento su cui è stato fatto clic nello strumento ClickMap legacy. | varchar(100) |
+| `click_action_type` | Non più utilizzato. Tipo di collegamento dello strumento ClickMap precedente.<br>0: URL<br>1 HREF: ID<br>personalizzato 2: Evento<br>3 JavaScript onClick: Elemento modulo | tinyint non firmato |
+| `click_context` | Non più utilizzato. Nome pagina in cui si è verificato il clic sul collegamento. Parte dello strumento ClickMap legacy. | varchar(255) |
+| `click_context_type` | Non più utilizzato. Indica se click_context ha un nome di pagina o se è stato impostato automaticamente sull’URL della pagina.<br>0: URL<br>pagina 1: Nome pagina | tinyint non firmato |
+| `click_sourceid` | Non più utilizzato. ID numerico per la posizione sulla pagina del collegamento selezionato. Parte dello strumento ClickMap legacy. | int non firmato |
+| `click_tag` | Non più utilizzato. Tipo di elemento HTML su cui è stato fatto clic. | char(10) |
 | `clickmaplink` | Collegamento Activity Map | varchar(255) |
 | `clickmaplinkbyregion` | Collegamento Activity Map per regione | varchar(255) |
 | `clickmappage` | Activity Map | varchar(255) |
@@ -61,7 +61,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `duplicate_events` | Elenca ogni evento conteggiato come duplicato. | varchar(255) |
 | `duplicate_purchase` | Flag che indica che l&#39;evento di acquisto per l&#39;hit deve essere ignorato perché è un duplicato. | tinyint non firmato |
 | `duplicated_from` | Utilizzata solo nelle suite di rapporti contenenti regole VISTA della copia hit. Indica da quale suite di rapporti è stato copiato l’hit. | varchar(40) |
-| `ef_id` | ef_id utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
+| `ef_id` | Il ef_id utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variabili personalizzate 1-250. Ogni organizzazione utilizza eVar in modo diverso. Il luogo migliore per ulteriori informazioni su come la tua organizzazione compila le rispettive eVar sarebbe un documento di progettazione della soluzione specifico per la tua organizzazione. | varchar(255) |
 | `event_list` | Elenco separato da virgole di ID numerici che rappresentano gli eventi attivati sull’hit. Include sia gli eventi predefiniti che gli eventi personalizzati 1-1000. Utilizza la ricerca event.tsv. | text |
 | `exclude_hit` | Flag che indica che l’hit è escluso dal reporting. La colonna visit_num non viene incrementata per gli hit esclusi.<br>1: Non utilizzato. Parte di una feature di scarto.<br>2: Non utilizzato. Parte di una feature di scarto.<br>3: Non più utilizzato. Esclusione<br>agente utente 4: Esclusione basata sull&#39;indirizzo<br>IP 5: Informazioni hit vitali mancanti, ad esempio page_url, page_name, page_event o event_list<br>6: JavaScript non ha elaborato correttamente l&#39;hit<br>7: Esclusione specifica dell&#39;account, ad esempio in una regola<br>VISTA 8: Non utilizzato. Esclusione specifica per l&#39;account alternativa.<br>9: Non utilizzato. Parte di una feature di scarto.<br>10: Codice<br>valuta 11 non valido: Hit manca una marca temporale in una suite di rapporti con solo marca temporale o un hit contiene una marca temporale in una suite<br>12 di rapporti con marca non temporale: Non utilizzato. Parte di una feature di scarto.<br>13. Non utilizzato. Parte di una feature di scarto.<br>14. Hit di destinazione che non corrisponde a un hit<br>15 di Analytics: Al momento non utilizzato.<br>16. Hit di Advertising Cloud non corrispondente a un hit di Analytics | tinyint non firmato |
@@ -71,7 +71,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `first_hit_ref_type` | ID numerico che rappresenta il tipo di referente del primo referente del visitatore. Utilizza la ricerca referrer_type.tsv. | tinyint non firmato |
 | `first_hit_referrer` | Il primo URL di riferimento del visitatore. | varchar(255) |
 | `first_hit_time_gmt` | Timestamp del primo hit del visitatore in Unix time. | int |
-| `geo_city` | Nome della città da cui proveniva l’hit, basato su IP. Adobe collabora con Digital Enviy per adattare l&#39;indirizzo IP alla città. | char(32) |
+| `geo_city` | Nome della città da cui proveniva l’hit, basato su IP. Adobe collabora con Digital Enviy per far corrispondere l&#39;indirizzo IP alla città. | char(32) |
 | `geo_country` | Abbreviazione del paese da cui l&#39;hit è venuto, basato su IP. Adobe collabora con Digital Inviate per far corrispondere l&#39;indirizzo IP al Paese. | char(4) |
 | `geo_dma` | ID numerico dell’area demografica da cui proveniva l’hit, basato su IP. Adobe collabora con Digital Inviate per far corrispondere l&#39;indirizzo IP all&#39;area demografica. | int non firmato |
 | `geo_region` | Nome dello stato o della regione da cui proveniva l’hit, in base all’IP. Adobe collabora con Digital Inviate per far corrispondere l&#39;indirizzo IP allo stato/regione. | char(32) |
@@ -81,10 +81,10 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `hit_time_gmt` | La marca temporale dei server di raccolta dati Adobe hit ha ricevuto l’hit, in base all’ora Unix. | int |
 | `hitid_high` | Utilizzata in combinazione con hitid_low per identificare in modo univoco un hit. | bigint non firmato |
 | `hitid_low` | Utilizzata in combinazione con hitid_high per identificare in modo univoco un hit. | bigint non firmato |
-| `homepage` |  Non più utilizzato. Indicato se l’URL corrente è la home page del browser. | char(1) |
+| `homepage` | Non più utilizzato. Indicato se l’URL corrente è la home page del browser. | char(1) |
 | `hourly_visitor` | Flag per determinare se l’hit è un nuovo visitatore orario. | tinyint non firmato |
 | `ip` | Indirizzo IP, basato sull’intestazione HTTP della richiesta di immagine. | char(20) |
-| `ip2` |  Non utilizzato. Variabile di riferimento di back-end per le suite di rapporti contenenti regole VISTA basate sull&#39;indirizzo IP. | char(20) |
+| `ip2` | Non utilizzato. Variabile di riferimento di back-end per le suite di rapporti contenenti regole VISTA basate sull&#39;indirizzo IP. | char(20) |
 | `j_jscript` | Versione di JavaScript supportata dal browser. | char(5) |
 | `java_enabled` | Flag che indica se Java è abilitato. <br>Y: Abilitato <br>N: Disattivato <br>U: Sconosciuto | char(1) |
 | `javascript` | ID di ricerca della versione JavaScript, basato su j_jscript. Utilizza la tabella di ricerca. | tinyint non firmato |
@@ -107,11 +107,11 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `mobilebeaconminor` | beacon secondario di Mobile Services | varchar(100) |
 | `mobilebeaconproximity` | Prossimità beacon Mobile Services | varchar(255) |
 | `mobilebeaconuuid` | UUID beacon Mobile Services | varchar(100) |
-| `mobilecampaigncontent` | Nome o ID del contenuto in cui è stato visualizzato il collegamento. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
+| `mobilecampaigncontent` | Nome o ID del contenuto che ha visualizzato il collegamento. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | `mobilecampaignmedium` | Canale di marketing, ad esempio banner o e-mail. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | `mobilecampaignname` | Nome della campagna, memorizzato anche nella variabile della campagna. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
-| `mobilecampaignsource` | Referente originale, ad esempio una newsletter o una rete social media. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
-| `mobilecampaignterm` | Keyword a pagamento o altri termini di cui si desidera tenere traccia con questa acquisizione. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
+| `mobilecampaignsource` | Referente originale, ad esempio newsletter o social media network. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
+| `mobilecampaignterm` | Parole chiave a pagamento o altri termini da monitorare con questa acquisizione. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | `mobiledayofweek` | Numero del giorno feriale in cui è stata avviata l’app. | varchar(255) |
 | `mobiledayssincefirstuse` | Numero di giorni dalla prima esecuzione dell&#39;app. | varchar(255) |
 | `mobiledayssincelastupgrade` | Raccolte dalla variabile di dati contestuali a.DaysSinceLastUpgrade. Il numero di giorni trascorsi dalla sessione precedente. | varchar(255) |
@@ -122,7 +122,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `mobileinstalldate` | Data di installazione per dispositivi mobili. Fornisce la data della prima volta che un utente apre l&#39;app mobile. | varchar(255) |
 | `mobilelaunchessincelastupgrade` | Raccolti dalla variabile di dati contestuali a.LaunchesSinceUpgrade. Segnala il numero di avvii dall&#39;ultimo aggiornamento. | varchar(255) |
 | `mobilelaunchnumber` | Aumenta di una volta ogni volta che l&#39;app mobile viene avviata. | varchar(255) |
-| `mobileltv` |  Non più utilizzato. Viene compilata dai metodi trackLifetimeValue. | varchar(255) |
+| `mobileltv` | Non più utilizzato. Viene compilata dai metodi trackLifetimeValue. | varchar(255) |
 | `mobilemessagebuttonname` | Raccolte dalla variabile dei dati contestuali a.<span>message</span>.button.id. Utilizzata per i messaggi in-app per identificare il pulsante che ha chiuso il messaggio. | varchar(100) |
 | `mobilemessageid` | ID messaggio in-app | varchar(255) |
 | `mobilemessageonline` | Messaggio in-app online | varchar(255) |
@@ -131,9 +131,9 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `mobileosenvironment` | Raccolto dalla variabile di dati contestuali a.OSEnenvironment. Ambiente operativo stato, ad esempio Android o iOS. | varchar(255) |
 | `mobileosversion` | Versione del sistema operativo Mobile Services | varchar(255) |
 | `mobileplaceaccuracy` | Raccolte dalla variabile di dati contestuali a.loc.acc. Indica la precisione del GPS in metri al momento della raccolta. | varchar(255) |
-| `mobileplacecategory` | Raccolto dalla variabile di dati contestuali a.loc.category. Descrive la categoria di un luogo specifico. | varchar(255) |
+| `mobileplacecategory` | Raccolti dalla variabile di dati contestuali a.loc.category. Descrive la categoria di un luogo specifico. | varchar(255) |
 | `mobileplaceid` | Raccolte dalla variabile di dati contestuali a.<span>loc</span>.id. Identificatore per un dato punto di interesse. | varchar(255) |
-| `mobilerelaunchcampaigncontent` | Contenuto lancio Mobile Services | varchar(255) |
+| `mobilerelaunchcampaigncontent` | Contenuto lancio di Mobile Services | varchar(255) |
 | `mobilerelaunchcampaignmedium` | Media di avvio di Mobile Services | varchar(255) |
 | `mobilerelaunchcampaignsource` | Origine avvio di Mobile Services | varchar(255) |
 | `mobilerelaunchcampaignterm` | Termine di avvio di Mobile Services | varchar(255) |
@@ -141,27 +141,27 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `mobileresolution` | Risoluzione del dispositivo mobile. Larghezza x altezza in pixel. | varchar(255) |
 | `monthly_visitor` | Flag che indica che il visitatore è univoco per il mese corrente. | tinyint non firmato |
 | `mvvar1` - `mvvar3` | Elenca i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell&#39;implementazione. | text |
-| `namespace` |  Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(50) |
+| `namespace` | Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(50) |
 | `new_visit` | Flag che determina se l’hit corrente è una nuova visita. Impostato dai server Adobe dopo 30 minuti di inattività della visita. | tinyint non firmato |
 | `os` | ID numerico che rappresenta il sistema operativo del visitatore. Basato sulla colonna user_agent. Utilizza la ricerca os. | int non firmato |
-| `p_plugins` |  Non più utilizzato. Elenco di plug-in disponibili per il browser. Utilizzata la funzione JavaScript navigator.plugins(). | text |
+| `p_plugins` | Non più utilizzato. Elenco di plug-in disponibili per il browser. Utilizzata la funzione JavaScript navigator.plugins(). | text |
 | `page_event` | Tipo di hit inviato nella richiesta di immagine (hit standard, collegamento per il download, collegamento personalizzato, collegamento di uscita). See [Page event lookup](datafeeds-page-event.md). | tinyint non firmato |
-| `page_event_var1` | Utilizzata solo nelle richieste di tracciamento collegamenti delle immagini. È stato fatto clic sull’URL del collegamento di download, del collegamento di uscita o del collegamento personalizzato. | text |
-| `page_event_var2` | Utilizzata solo nelle richieste di tracciamento collegamenti delle immagini. Nome personalizzato (se specificato) del collegamento. | varchar(100) |
-| `page_event_var3` |  Non più utilizzato. Dati del modulo Survey e Media contenuti. Vengono compilati rapporti video precedenti nelle versioni precedenti di Adobe Analytics. | text |
+| `page_event_var1` | Utilizzata solo nelle richieste di tracciamento dei collegamenti per le immagini. È stato fatto clic sull’URL del collegamento di download, del collegamento di uscita o del collegamento personalizzato. | text |
+| `page_event_var2` | Utilizzata solo nelle richieste di tracciamento dei collegamenti per le immagini. Nome personalizzato (se specificato) del collegamento. | varchar(100) |
+| `page_event_var3` | Non più utilizzato. Dati del modulo Survey e Media contenuti. Vengono compilati rapporti video precedenti nelle versioni precedenti di Adobe Analytics. | text |
 | `page_type` | Viene utilizzata per compilare la dimensione Pagine non trovate, utilizzata esclusivamente per 404 pagine. Questa variabile deve essere vuota o contenere &quot;ErrorPage&quot;. | char(20) |
 | `page_url` | URL dell’hit. Non utilizzato nelle richieste di immagini per il tracciamento dei collegamenti. | varchar(255) |
 | `pagename` | Utilizzato per compilare la dimensione Pagine. Se la variabile nome pagina è vuota, Analytics utilizza invece page_url. | varchar(100) |
 | `paid_search` | Flag impostato se l’hit corrisponde al rilevamento della ricerca a pagamento. | tinyint non firmato |
-| `partner_plugins` |  Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(255) |
+| `partner_plugins` | Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(255) |
 | `persistent_cookie` | Utilizzata dalla dimensione Supporto cookie persistente. Indica se il visitatore supporta i cookie che non vengono scartati dopo ogni hit. | char(1) |
-| `plugins` |  Non più utilizzato. Elenco di ID numerici che corrispondono ai plug-in disponibili nel browser. Utilizza la ricerca plugins.tsv. | varchar(180) |
+| `plugins` | Non più utilizzato. Elenco di ID numerici che corrispondono ai plug-in disponibili nel browser. Utilizza la ricerca plugins.tsv. | varchar(180) |
 | `pointofinterest` | Nome del punto di interesse di Mobile Services | varchar(255) |
 | `pointofinterestdistance` | Distanza da Mobile Services a punto di interesse | varchar(255) |
 | `post_ columns` | Contiene il valore utilizzato in ultima analisi nei report. Ogni colonna di post viene compilata dopo logica lato server, regole di elaborazione e regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare le colonne di post. | Vedere le rispettive colonne non post |
-| `prev_page` |  Non utilizzato. Identificatore proprietario Adobe della pagina precedente. | int non firmato |
-| `product_list` | Elenco prodotti come passato attraverso la variabile products. I prodotti sono delimitati da virgole, mentre le singole proprietà del prodotto sono delimitate da punto e virgola. | text |
-| `product_merchandising` |  Non utilizzato. Utilizzare product_list. | text |
+| `prev_page` | Non utilizzato. Identificatore proprietario Adobe della pagina precedente. | int non firmato |
+| `product_list` | Elenco prodotti come trasmesso tramite la variabile &quot;products&quot;. I prodotti sono delimitati da virgole, mentre le singole proprietà del prodotto sono delimitate da punto e virgola. | text |
+| `product_merchandising` | Non utilizzato. Utilizzare product_list. | text |
 | `prop1` - `prop75` | Variabili di traffico personalizzate 1-75. | varchar(100) |
 | `purchaseid` | Identificatore univoco per un acquisto, impostato utilizzando la variabile s_purchaseID. Utilizzato dalla colonna duplicate_purchase. | char(20) |
 | `quarterly_visitor` | Flag per determinare se l’hit è un nuovo visitatore trimestrale. | tinyint non firmato |
@@ -171,37 +171,37 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `resolution` | ID numerico che rappresenta la risoluzione del monitor. Compila la dimensione Risoluzione monitor. Utilizza la tabella di ricerca resolution.tsv. | numero piccolo senza segno |
 | `s_kwcid` | ID parola chiave utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
 | `s_resolution` | Valore di risoluzione dello schermo non elaborato. Raccolte utilizzando la funzione JavaScript screen.width x screen.height. | char(20) |
-| `sampled_hit` |  Non più utilizzato. In precedenza veniva utilizzato per il campionamento in Analisi ad hoc. | char(1) |
+| `sampled_hit` | Non più utilizzato. In precedenza veniva utilizzato per il campionamento in Analisi ad hoc. | char(1) |
 | `search_engine` | ID numerico che rappresenta il motore di ricerca che ha indirizzato il visitatore al sito. Utilizza la ricerca search_Engine.tsv. | numero piccolo senza segno |
 | `search_page_num` | Utilizzata dalla dimensione Classifica pagina di ricerca. Indica in quale pagina di risultati di ricerca il sito è stato visualizzato prima che l’utente facesse clic sul sito. | numero piccolo senza segno |
 | `secondary_hit` | Flag che tiene traccia degli hit secondari. Di norma l’origine viene dai tag con più suite e dalle regole VISTA che copiano gli hit. | tinyint non firmato |
-| `service` |  Non utilizzato. Utilizzare invece page_event. | char(2) |
-| `socialaccountandappids` |  Non più utilizzato. Account social e ID app | varchar(255) |
-| `socialassettrackingcode` |  Non più utilizzato. Variabile campagna social | varchar(255) |
-| `socialauthor` |  Non più utilizzato. Variabile Autori social | varchar(255) |
-| `socialcontentprovider` |  Non più utilizzato. Piattaforme/Proprietà social | varchar(255) |
-| `socialinteractiontype` |  Non più utilizzato. Tipo di interazione Social | varchar(255) |
-| `sociallanguage` |  Non più utilizzato. Lingua sociale | varchar(255) |
-| `sociallatlong` |  Non più utilizzato. Latitudine/longitudine social | varchar(255) |
-| `socialowneddefinitioninsighttype` |  Non più utilizzato. Tipo di informazioni sulla definizione di proprietà sociale | varchar(255) |
-| `socialowneddefinitioninsightvalue` |  Non più utilizzato. Valore di approfondimento della definizione di proprietà sociale | varchar(255) |
-| `socialowneddefinitionmetric` |  Non più utilizzato. Metrica di definizione social | varchar(255) |
-| `socialowneddefinitionpropertyvspost` |  Non più utilizzato. Proprietà definizione di proprietà social network vs post | varchar(255) |
-| `socialownedpostids` |  Non più utilizzato. ID post di proprietà sociale | varchar(255) |
-| `socialownedpropertyid` |  Non più utilizzato. ID proprietà social | varchar(255) |
-| `socialownedpropertyname` |  Non più utilizzato. Nome proprietà di proprietà di Social | varchar(255) |
-| `socialownedpropertypropertyvsapp` |  Non più utilizzato. Proprietà di proprietà social vs app | varchar(255) |
+| `service` | Non utilizzato. Utilizzare invece page_event. | char(2) |
+| `socialaccountandappids` | Non più utilizzato. Account social e ID app | varchar(255) |
+| `socialassettrackingcode` | Non più utilizzato. Variabile campagna social | varchar(255) |
+| `socialauthor` | Non più utilizzato. Variabile Autori social | varchar(255) |
+| `socialcontentprovider` | Non più utilizzato. Piattaforme/Proprietà social | varchar(255) |
+| `socialinteractiontype` | Non più utilizzato. Tipo di interazione Social | varchar(255) |
+| `sociallanguage` | Non più utilizzato. Lingua sociale | varchar(255) |
+| `sociallatlong` | Non più utilizzato. Latitudine/longitudine social | varchar(255) |
+| `socialowneddefinitioninsighttype` | Non più utilizzato. Tipo di informazioni sulla definizione di proprietà sociale | varchar(255) |
+| `socialowneddefinitioninsightvalue` | Non più utilizzato. Valore di approfondimento della definizione di proprietà sociale | varchar(255) |
+| `socialowneddefinitionmetric` | Non più utilizzato. Metrica di definizione social | varchar(255) |
+| `socialowneddefinitionpropertyvspost` | Non più utilizzato. Proprietà definizione di proprietà social network vs post | varchar(255) |
+| `socialownedpostids` | Non più utilizzato. ID post di proprietà sociale | varchar(255) |
+| `socialownedpropertyid` | Non più utilizzato. ID proprietà social | varchar(255) |
+| `socialownedpropertyname` | Non più utilizzato. Nome proprietà di proprietà di Social | varchar(255) |
+| `socialownedpropertypropertyvsapp` | Non più utilizzato. Proprietà di proprietà social vs app | varchar(255) |
 | `state` | Variabile di stato. | varchar(50) |
 | `stats_server` | Non è utile. Server interno Adobe che ha elaborato l’hit. | char(30) |
-| `t_time_info` | Ora locale del visitatore. Il formato è il seguente: M/G/AAAA HH:MM:SS Mese (0-11, 0=gennaio) Offset fuso orario (in minuti) | varchar(100) |
-| `tnt` | Utilizzata nelle integrazioni Adobe Target. | text |
-| `tnt_action` | Utilizzata nelle integrazioni Adobe Target. | text |
-| `tnt_post_vista` |  Non più utilizzato. Utilizzare post_tnt. | text |
+| `t_time_info` | Ora locale per il visitatore. Il formato è il seguente: M/G/AAAA HH:MM:SS Mese (0-11, 0=gennaio) Offset fuso orario (in minuti) | varchar(100) |
+| `tnt` | Utilizzata nelle integrazioni di Adobe Target. | text |
+| `tnt_action` | Utilizzata nelle integrazioni di Adobe Target. | text |
+| `tnt_post_vista` | Non più utilizzato. Utilizzare invece post_tnt. | text |
 | `transactionid` | Un identificatore univoco in cui è possibile caricare vari punti dati in un secondo momento tramite origini dati. | text |
 | `truncated_hit` | Flag che indica che la richiesta di immagine è stata troncata. Indica che è stato ricevuto un hit parziale. <br>Y: Hit è stato troncato; hit parziale ricevuto <br>N: Hit non è stato troncato; hit completo ricevuto | char(1) |
-| `ua_color` |  Non più utilizzato. Precedentemente usato come fallback per la profondità del colore. | char(20) |
-| `ua_os` |  Non più utilizzato. Precedentemente utilizzato come fallback per il sistema operativo. | char(80) |
-| `ua_pixels` |  Non più utilizzato. Precedentemente usato come fallback per l’altezza e la larghezza del browser. | char(20) |
+| `ua_color` | Non più utilizzato. Precedentemente usato come fallback per la profondità del colore. | char(20) |
+| `ua_os` | Non più utilizzato. Precedentemente utilizzato come fallback per il sistema operativo. | char(80) |
+| `ua_pixels` | Non più utilizzato. Precedentemente usato come fallback per l’altezza e la larghezza del browser. | char(20) |
 | `user_agent` | Stringa agente utente inviata nell’intestazione HTTP della richiesta di immagine. | text |
 | `user_hash` | Non è utile. Hash sull&#39;ID della suite di rapporti. Utilizzate il nome utente. | int non firmato |
 | `user_server` | Variabile utilizzata nella dimensione Server. | varchar(100) |
@@ -212,7 +212,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `va_finder_detail` | Variabile utilizzata nella dimensione Primo dettaglio touch. | varchar(255) |
 | `va_finder_id` | ID numerico che identifica la dimensione Primo canale di contatto. È possibile cercare questo ID in Marketing Channel Manager. | tinyint non firmato |
 | `va_instance_event` | Flag per identificare le istanze del canale di marketing. Utilizzata dalla metrica Istanze ultimo contatto canale di marketing. | tinyint non firmato |
-| `va_new_engagement` | Contrassegno per identificare i nuovi impegni del canale di marketing. Utilizzata dalla metrica New Engagement (Nuovi impegni). | tinyint non firmato |
+| `va_new_engagement` | Contrassegno per identificare i nuovi impegni del canale di marketing. Utilizzata dalla metrica New Engagement (Nuovi coinvolgimenti). | tinyint non firmato |
 | `video` | Contenuto video | varchar(255) |
 | `videoad` | Nome annuncio video | varchar(255) |
 | `videoadinpod` | Annuncio video nella posizione del contenitore | varchar(255) |
@@ -233,7 +233,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `videochapter` | Nome del capitolo video | varchar(255) |
 | `videocontenttype` | Tipo di contenuto video. Imposta su &quot;Video&quot; automaticamente per tutte le viste video | varchar(255) |
 | `videodaypart` | Parte giorno video | varchar(255) |
-| `videoepisode` | Video | varchar(255) |
+| `videoepisode` | episodio video | varchar(255) |
 | `videofeedtype` | Tipo di feed video | varchar(255) |
 | `videogenre` | Genere video | text |
 | `videolength` | Lunghezza video | varchar(255) |
@@ -269,7 +269,7 @@ Utilizzare questa pagina per conoscere i dati contenuti in ciascuna colonna. La 
 | `visit_referrer` | Il primo referente della visita. | varchar(255) |
 | `visit_search_engine` | ID numerico del primo motore di ricerca della visita. Utilizza la tabella di ricerca search_Engine.tsv. | numero piccolo senza segno |
 | `visit_start_page_url` | Il primo URL della visita. | varchar(255) |
-| `visit_start_pagename` | Nome pagina della visita. | varchar(100) |
+| `visit_start_pagename` | Il nome della prima pagina della visita. | varchar(100) |
 | `visit_start_time_gmt` | Timestamp (in tempo Unix) del primo hit della visita. | int |
 | `weekly_visitor` | Flag per determinare se l’hit è un nuovo visitatore settimanale. | tinyint non firmato |
 | `yearly_visitor` | Flag per determinare se l’hit è un nuovo visitatore annuale. | tinyint non firmato |
@@ -294,7 +294,7 @@ Il seguente elenco di colonne non è utilizzato e non contiene dati:
 * mobileappstoreinavvicinare
 * mobileappstoreobjectid<span>.</span>app-store-user
 * mobileappstoreobjectid<span>.</span>application-name
-* mobileappstoreobjectid<span>.</span>versione applicazione
+* mobileappstoreobjectid<span>.</span>application-version
 * mobileappstoreobjectid<span>.</span>appstore-name
 * mobileappstoreobjectid<span>.</span>category-name
 * mobileappstoreobjectid<span>.</span>country-name
@@ -327,23 +327,23 @@ Il seguente elenco di colonne non è utilizzato e non contiene dati:
 * mobilemessageid<span>.</span>type
 * mobilemessageimpression
 * mobilemessagepushpayloadid<span><span>.</span></span>nome
-* mobilemessfacilità
-* mobilemonthengagedusers
+* mobilemessfacilitiews
+* mobilemonthlyengagedusers
 * mobileplacedwelltime
-* mobilesegnaposto
-* mobilesegnaposto exit
-* mobilepresession length
-* mobilerelaunchcampaign trackingcode<span><span>.</span></span>nome
-* mobileupgrade
+* mobileplaceentry
+* mobileplaceexit
+* mobileprevsessionlength
+* mobilerelaunchcampaigntrackingcode<span><span>.</span></span>nome
+* mobileupgrades
 * socialaveragesentiment
 * socialaveragesentiment (obsoleto)
 * socialfonstorie
 * socialfbstorytellers
 * socialinteractioncount
-* sociallikeadd
+* sociallikeadds
 * sociallink
-* sociallink (obsoleto)
-* socialmenità
+* sociallink (deprecated)
+* socialmentions
 * socialpageviews
 * socialpostviews
 * socialproperty
@@ -361,7 +361,7 @@ Il seguente elenco di colonne non è utilizzato e non contiene dati:
 * videoaverageminuteaudience
 * videochaptercomplete
 * videochapterstart
-* videoclip
+* videochaptertime
 * videopause
 * videopausecount
 * videopausetime
