@@ -4,7 +4,7 @@ title: Consenti sostituzioni elenco di pubblicazione
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,9 +19,9 @@ Consultate Gestione elenchi di [pubblicazione](https://marketing.adobe.com/resou
 
 Per attivare questa funzione, passare alla [!UICONTROL Request Wizard: Step 1] finestra.
 
-Se attivato, [!UICONTROL Allow Publishing List Override]la suite di rapporti assegnata a ciascun destinatario nell'elenco di pubblicazione sostituisce la suite di rapporti per questa richiesta. Inoltre, se la cartella di lavoro contiene diverse suite di rapporti, viene utilizzato l'ID suite di rapporti associato all'elenco di pubblicazione.
+Se attivato, [!UICONTROL Allow Publishing List Override]la suite di rapporti assegnata a ciascun destinatario nell&#39;elenco di pubblicazione sostituisce la suite di rapporti per questa richiesta. Inoltre, se la cartella di lavoro contiene diverse suite di rapporti, viene utilizzato l&#39;ID suite di rapporti associato all&#39;elenco di pubblicazione.
 
 Questa opzione non è disponibile per le suite di rapporti selezionate tra le celle.
 
-> [!NOTE] Se inviate il rapporto pianificato a più elenchi di pubblicazione, il rapporto viene eseguito una volta per ciascun elenco. Le suite per report variabili vengono sostituite dalla suite per report assegnata all'elenco di pubblicazione.
+>[!NOTE] Se inviate il rapporto pianificato a più elenchi di pubblicazione, il rapporto viene eseguito una volta per ciascun elenco. Le suite per report variabili vengono sostituite dalla suite per report assegnata all&#39;elenco di pubblicazione.
 
