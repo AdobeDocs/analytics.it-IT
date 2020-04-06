@@ -2,7 +2,7 @@
 title: transactionID
 description: Utilizzate questa variabile per collegare insieme dati online e offline.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 La `transactionID` variabile identifica in modo univoco una transazione in modo che l’hit possa collegarsi ai dati caricati tramite Origini dati. Questa variabile è utile nei casi in cui si desidera utilizzare dati provenienti da altri canali e collegarla ai dati raccolti con AppMeasurement.
 
-> [!NOTE] Prima di usare questa variabile, accertatevi che [!UICONTROL Transaction ID Storage] sia abilitata in una suite di rapporti. Per ulteriori informazioni, consulta Impostazioni [account](/help/admin/admin/general-acct-settings-admin.md) generali nella guida utente per l&#39;amministratore.
+>[!NOTE] Prima di usare questa variabile, accertatevi che [!UICONTROL Transaction ID Storage] sia abilitata in una suite di rapporti. Per ulteriori informazioni, consulta Impostazioni [account](/help/admin/admin/general-acct-settings-admin.md) generali nella guida utente per l&#39;amministratore.
 
 Quando si imposta `transactionID` un hit, Adobe crea uno &quot;snapshot&quot; di tutte le variabili Analytics impostate o persistenti in quel momento. I dati caricati tramite Origini dati con un ID transazione corrispondente sono legati in modo permanente a tali valori variabili.
 
@@ -44,4 +44,4 @@ Se disponi di più ID transazione per un hit, puoi delimitare ciascuno con una v
 s.transactionID = "ABC123,XYZ456";
 ```
 
-> [!NOTE] Se integrate più canali offline utilizzando questa variabile, accertatevi che i diversi canali non si sovrappongano agli ID transazione. Ad esempio, se hai un valore ID transazione call center di `1234` e un valore ID transazione lead di vendita di `1234`, possono creare conflitti e causare risultati imprevisti. Assicurati che gli ID transazione contengano formati univoci per canale offline e distinguili, se necessario. Ad esempio, imposta l&#39;ID transazione call center su `call_1234` `lead_1234` e l&#39;ID transazione lead di vendita sia in Origini dati che in AppMeasurement.
+>[!NOTE] Se integrate più canali offline utilizzando questa variabile, accertatevi che i diversi canali non si sovrappongano agli ID transazione. Ad esempio, se hai un valore ID transazione call center di `1234` e un valore ID transazione lead di vendita di `1234`, possono creare conflitti e causare risultati imprevisti. Assicurati che gli ID transazione contengano formati univoci per canale offline e distinguili, se necessario. Ad esempio, imposta l&#39;ID transazione call center su `call_1234` `lead_1234` e l&#39;ID transazione lead di vendita sia in Origini dati che in AppMeasurement.
