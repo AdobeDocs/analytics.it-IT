@@ -3,8 +3,8 @@ description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti c
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Applicare i segmenti nell’analisi dell’abbandono
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace.
 
-> [!IMPORTANT] I segmenti utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con un Abbandono in contesto visitatore, i segmenti utilizzati come punti di controllo devono essere segmenti basati su visite o hit. Con un Abbandono in contesto visita, i segmenti utilizzati come punto di controllo devono essere segmenti basati su hit. Se si usa una combinazione non valida, l’abbandono sarà 100%. È stato aggiunto un avviso alla visualizzazione Abbandono che verrà attivato se aggiungi un segmento incompatibile come punto di contatto. Alcune combinazioni di contenitori di segmenti non valide genereranno diagrammi di abbandono non validi, ad esempio:
+>[!IMPORTANT] I segmenti utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con un Abbandono in contesto visitatore, i segmenti utilizzati come punti di controllo devono essere segmenti basati su visite o hit. Con un Abbandono in contesto visita, i segmenti utilizzati come punto di controllo devono essere segmenti basati su hit. Se si usa una combinazione non valida, l’abbandono sarà 100%. È stato aggiunto un avviso alla visualizzazione Abbandono che verrà attivato se aggiungi un segmento incompatibile come punto di contatto. Alcune combinazioni di contenitori di segmenti non valide genereranno diagrammi di abbandono non validi, ad esempio:
 
 * Utilizzo di un segmento basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono in un contesto Visitatore
 * Utilizzo di un segmento basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono in un contesto Visita
@@ -35,7 +35,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
 ## Aggiungere un segmento come punto di contatto {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Per vedere ad esempio come gli utenti USA influenzano le metriche di abbandono, trascina il segmento degli utenti USA nella sezione Abbandono:
+Per vedere, ad esempio, in che modo gli utenti USA tendono e influenzano l’abbandono, trascina il segmento degli utenti USA nell’abbandono:
 
 ![](assets/segment-touchpoint.png)
 
@@ -46,7 +46,7 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono.
 
 1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Segments] (Segmenti) a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
-1. Trascinali nella zona di rilascio Segmento, in alto.
+1. Trascinali nella zona di rilascio Segmento nella parte superiore.
 
    ![](assets/segment-drop.png)
 
@@ -54,4 +54,4 @@ Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandon
 
    ![](assets/seg-compare.png)
 
-1. Ora puoi confrontare i dati di abbandono tra i due segmenti, ad esempio dove un segmento ha prestazioni migliori dell’altro.
+1. Ora puoi confrontare l&#39;abbandono tra i due segmenti, ad esempio dove un segmento ha prestazioni migliori di un altro, o di altre informazioni.
