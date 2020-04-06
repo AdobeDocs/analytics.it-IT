@@ -2,7 +2,7 @@
 title: Integrate Module
 description: Il modulo Integrate consente ai partner Adobe di integrare le attività di raccolta dei dati con la propria organizzazione.
 translation-type: tm+mt
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 Il modulo Integrate consente ai partner Adobe di integrare le attività di raccolta dei dati con la propria organizzazione. Questa integrazione offre l&#39;opportunità di una connessione dati bidirezionale. In genere, l&#39;utilizzo del modulo Integrate è gestito da un partner Adobe.
 
-> [!NOTE] La richiesta di dati del partner nell&#39;implementazione può aumentare i ritardi tra il caricamento delle pagine e i dati inviati ai server di raccolta dati Adobe. Se un visitatore carica una nuova pagina prima dell’invio dei dati, la pagina non viene registrata.
+>[!NOTE] La richiesta di dati del partner nell&#39;implementazione può aumentare i ritardi tra il caricamento delle pagine e i dati inviati ai server di raccolta dati Adobe. Se un visitatore carica una nuova pagina prima dell’invio dei dati, la pagina non viene registrata.
 
 ## Flusso di lavoro Integrate Module
 
@@ -42,7 +42,7 @@ L&#39;implementazione del modulo Integrate sul sito richiede l&#39;accesso ad Ad
 2. Fare clic sulla proprietà Launch che si desidera modificare.
 3. Fai clic sulla scheda Estensioni, quindi su Configura in Adobe Analytics.
 4. Aprite la struttura di navigazione &#39;Configura tracciamento tramite codice personalizzato&#39;, quindi fate clic su &#39;&lt;/> Apri editor&#39;.
-5. Incollate il codice Modulo integrato nella finestra modale del codice. Al termine, fate clic su Salva.
+5. Incollate il codice del modulo Integrate nella finestra modale del codice. Al termine, fate clic su Salva.
 
 ## Metodi di integrazione del modulo
 
@@ -66,7 +66,7 @@ Il `beacon` metodo crea una richiesta di immagine e la indirizza all’URL speci
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 ```
 
-La vostra organizzazione collabora solitamente con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell&#39;URL sono facoltative e dipendono dal partner. Il modulo Integrate include automaticamente una stringa di query contenente un numero casuale per impedire il caching del browser.
+In genere, l’organizzazione collabora con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell&#39;URL sono facoltative e dipendono dal partner. Il modulo Integrate include automaticamente una stringa di query contenente un numero casuale per impedire il caching del browser.
 
 ### delay
 
@@ -80,9 +80,9 @@ Il `get` metodo consente a un client di importare le variabili del partner e di 
 s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 ```
 
-* **** Nome partner:La vostra organizzazione collabora solitamente con il partner Adobe per determinare il valore del nome del partner.
-* **** URL dell&#39;oggetto JSON: L&#39;URL di un oggetto JSON che contiene le variabili partner da incorporare in una richiesta di immagine.
-* **** Parametri stringa query: Informazioni sull&#39;account del partner che identificano l&#39;organizzazione nel sistema del partner. Il partner Adobe utilizza queste informazioni per identificare il set di dati.
+* **Nome partner:** In genere, l’organizzazione collabora con il partner Adobe per determinare il valore del nome del partner.
+* **URL dell&#39;oggetto JSON:** L&#39;URL di un oggetto JSON che contiene le variabili partner da incorporare in una richiesta di immagine.
+* **Parametri stringa query:** Informazioni sull&#39;account del partner che identificano l&#39;organizzazione nel sistema del partner. Il partner Adobe utilizza queste informazioni per identificare il set di dati.
 
 Il modulo Integrate aggiunge automaticamente ulteriori stringhe di query all’URL. Una stringa di query var specifica il nome dell&#39;oggetto JSON che il modulo si aspetta di nuovo dal partner. È stato aggiunto anche un numero casuale per impedire il caching dei browser.
 
@@ -124,4 +124,4 @@ Questo `script` metodo consente a un partner Adobe di chiamare JavaScript aggiun
 p.script("<partner_url>/script?qs1=value1&qs2=value2");
 ```
 
-La vostra organizzazione collabora solitamente con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell&#39;URL sono facoltative e dipendono dal partner. Il modulo Integrate include automaticamente una stringa di query contenente un numero casuale per impedire il caching del browser.
+In genere, l’organizzazione collabora con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell&#39;URL sono facoltative e dipendono dal partner. Il modulo Integrate include automaticamente una stringa di query contenente un numero casuale per impedire il caching del browser.
