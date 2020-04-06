@@ -4,7 +4,7 @@ title: 'Nuova suite di rapporti: impostazioni'
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ Puoi creare una nuova suite di rapporti selezionando un modello predefinito o ut
 
 Descrizioni degli elementi utilizzati per [creare una suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)di rapporti.
 
-> [!NOTE] La documentazione [della suite di rapporti](/help/components/vrs/c-workflow-vrs/vrs-create.md) virtuale illustra come creare suite di rapporti virtuali.
+>[!NOTE] La documentazione [della suite di rapporti](/help/components/vrs/c-workflow-vrs/vrs-create.md) virtuale illustra come creare suite di rapporti virtuali.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -27,10 +27,10 @@ Descrizioni degli elementi utilizzati per [creare una suite](/help/admin/c-manag
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ID suite di rapporti </span> </td> 
-   <td colname="col2"> <p>Specifica un ID univoco che può contenere solo caratteri alfanumerici. Questo ID non può essere modificato dopo la creazione. Adobe imposta il prefisso ID richiesto e non può essere modificato. </p> <p>Quando crei più suite di rapporti, assicurati che la convenzione di denominazione utilizzata garantisca ID univoci per le suite di rapporti. </p> </td> 
+   <td colname="col2"> <p>Specifica un ID univoco che può contenere solo caratteri alfanumerici. Questo ID non può essere modificato dopo che è stato creato. Adobe imposta il prefisso ID richiesto e non può essere modificato. </p> <p>Quando crei più suite di rapporti, accertati che la convenzione di denominazione utilizzata garantisca ID univoci per le suite di rapporti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Titolo sito</span> </td> 
+   <td colname="col1"> <span class="wintitle"> Titolo del sito</span> </td> 
    <td colname="col2">Identifica la suite di rapporti in <span class="wintitle"> Strumenti</span>di amministrazione. Questo titolo viene utilizzato anche nell’elenco a discesa <span class="wintitle"> Report Suite</span> (Suitedi rapporti) nell’intestazione della suite. </td> 
   </tr> 
   <tr> 
@@ -39,11 +39,11 @@ Descrizioni degli elementi utilizzati per [creare una suite](/help/admin/c-manag
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL di base</span> </td> 
-   <td colname="col2"> (Facoltativo) Definisce il dominio di base per la suite di rapporti. Questo URL funge da filtro URL interno se non si definiscono esplicitamente filtri URL interni per la suite di rapporti. </td> 
+   <td colname="col2"> (Facoltativo) Definisce il dominio di base per la suite di rapporti. Questo URL funge da filtro URL interno se non si definiscono in modo esplicito filtri URL interni per la suite di rapporti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pagina predefinita</span> </td> 
-   <td colname="col2"> <p>(Facoltativo) Rimuove le occorrenze del valore Pagina <span class="wintitle"></span> predefinita dagli URL che incontra. Se il rapporto Pagine <span class="wintitle"></span> più popolari contiene URL invece dei nomi di pagina, questa impostazione impedisce l'utilizzo di più URL per la stessa pagina Web. </p> <p>Ad esempio, gli URL<span class="filepath"> https://mysite.com</span> e <span class="filepath"> https://mysite.com/index.html</span> sono in genere la stessa pagina. Potete rimuovere i nomi file estranei in modo che entrambi gli URL vengano visualizzati come <span class="filepath"> https://mysite.com</span> nei rapporti. </p> <p>Se non imposti questo valore, Analytics rimuove automaticamente i seguenti nomi file dagli URL: <span class="filepath"> index.html</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span>, default.html, default.htmlpredefinito.cgi, default.cgi, default.cgi.html, home.cgi.htmle htmhome.asp. </p> <p>Per disattivare lo stripping del nome file, specificate un valore Pagina predefinita che non si verifica mai negli URL. </p> </td> 
+   <td colname="col2"> <p>(Facoltativo) Rimuove le occorrenze del valore Pagina <span class="wintitle"></span> predefinita dagli URL che incontra. Se il rapporto Pagine <span class="wintitle"></span> più popolari contiene URL invece dei nomi di pagina, questa impostazione impedisce l'utilizzo di più URL per la stessa pagina Web. </p> <p>Ad esempio, gli URL<span class="filepath"> https://mysite.com</span> e <span class="filepath"> https://mysite.com/index.html</span> sono in genere la stessa pagina. Potete rimuovere i nomi file estranei in modo che entrambi gli URL vengano visualizzati come <span class="filepath"> https://mysite.com</span> nei rapporti. </p> <p>Se non imposti questo valore, Analytics rimuove automaticamente i seguenti nomi file dagli URL: <span class="filepath"> index.html</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span><span class="filepath"></span>, default.html, default.htmlpredefinito, default.cgi, default.asp, home.htm, home.html.html.html. </p> <p>Per disattivare lo stripping del nome file, specificate un valore Pagina predefinita che non si verifica mai negli URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vai alla data in diretta </p> </td> 
