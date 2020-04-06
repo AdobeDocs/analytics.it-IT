@@ -2,7 +2,7 @@
 title: cookieLifetime
 description: Ignorate la scadenza per i cookie creati da AppMeasurement.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 I cookie impostati da AppMeasurement hanno in genere una scadenza di 2 anni. Utilizzate la `cookieLifetime` variabile per ignorare la data di scadenza per i cookie impostati da AppMeasurement.
 
-> [!NOTE] Questa variabile interessa i conteggi e l’attribuzione univoci dei visitatori. Prestate attenzione quando impostate questa variabile.
+>[!NOTE] Questa variabile interessa i conteggi e l’attribuzione univoci dei visitatori. Prestate attenzione quando impostate questa variabile.
 
 ## Cookie Lifetime in Adobe Experience Platform Launch
 
