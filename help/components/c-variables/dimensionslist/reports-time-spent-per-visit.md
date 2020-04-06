@@ -1,10 +1,10 @@
 ---
-description: 'null'
+description: nulle
 title: Tempo trascorso per ciascuna visita
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,15 +19,15 @@ Adobe Analytics offre diversi modi per determinare il tempo trascorso nei report
 
 Quando visualizzi i dati della dimensione del tempo trascorso, tieni presente quanto segue:
 
-* Sia le visualizzazioni di pagina che i tipi di hit di tracciamento dei collegamenti vengono considerati nel calcolo del tempo trascorso.
+* Sia le visualizzazioni di pagina che i tipi di hit di tracciamento dei collegamenti vengono considerati nel calcolo del tempo impiegato per i dati.
 * Il tempo trascorso non viene misurato durante l’ultimo hit della visita, in quanto non esiste una richiesta immagine successiva per misurare il tempo trascorso.
 * I rimbalzi non possono misurare il tempo trascorso, poiché la visita consiste in un singolo hit.
 
 Il tempo trascorso per visita misura il tempo totale trascorso in una visita. Esistono dimensioni separate tra **granulare** e **fisso**.
 
-* **** Granulare: Ogni valore di dimensione è un numero diverso di secondi che compongono una visita.
-* **** Esteso: Ogni valore di dimensione è un bucket predefinito:
-   * Meno di 1 minuto
+* **Granulare:** Ogni valore di dimensione è un numero diverso di secondi che compongono una visita.
+* **Esteso:** Ogni valore di dimensione è un bucket predefinito:
+   * Inferiore a 1 minuto
    * 1-5 minuti
    * 5-10 minuti
    * 30-60 minuti
@@ -37,6 +37,6 @@ Il tempo trascorso per visita misura il tempo totale trascorso in una visita. Es
    * 10-15 ore
    * 15+ ore
 
-> [!NOTE] Le [visite](../c-metrics/metrics-visit.md) generalmente terminano dopo 12 ore di attività. Tuttavia, le visite possono superare le 12 ore utilizzando hit con marca temporale o origini dati.
+>[!NOTE] Le [visite](../c-metrics/metrics-visit.md) generalmente terminano dopo 12 ore di attività. Tuttavia, le visite possono superare le 12 ore se si utilizzano hit con marca temporale o origini dati.
 
 Questa dimensione è basata sulle visite. Confronta questa dimensione con il [tempo trascorso sulla pagina](reports-time-spent-on-page.md), che è una dimensione basata sugli hit.
