@@ -1,13 +1,13 @@
 ---
-title: Implementazione modale
+title: Modale di implementazione
 description: Scopri la prima esperienza cliente per implementare l’implementazione di Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Implementazione modale
+# Modale di implementazione
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 -->
 
@@ -27,7 +27,7 @@ Accedi alla modalità per creare una suite di rapporti utilizzando i passaggi se
 2. Fate clic sull&#39;icona a 9 griglie nella parte superiore, quindi fate clic [!UICONTROL Adobe Analytics].
 3. Se non hai ancora creato una suite di rapporti, la modale viene visualizzata automaticamente. Se esiste una suite di rapporti per questa società di accesso, fai clic sull’icona Aiuto in alto a destra, quindi fai clic su [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] L&#39; [!UICONTROL Welcome to Adobe Analytics] opzione viene visualizzata solo se accedete tramite Adobe Experience Cloud. Se accedete tramite domini legacy, la modalità non è disponibile.
+>[!NOTE] L&#39; [!UICONTROL Welcome to Adobe Analytics] opzione viene visualizzata solo se accedete tramite Adobe Experience Cloud. Se accedete tramite domini legacy, la modalità non è disponibile.
 
 ## Creare una suite di rapporti
 
@@ -67,7 +67,7 @@ Stimare il traffico giornaliero generato dal sito Web o dall’app. Queste infor
 
 Determinare la valuta in cui la suite di rapporti memorizza i valori monetari.
 
-> [!IMPORTANT] Assicurarsi di specificare la valuta corretta, soprattutto se si dispone di requisiti di reporting relativi alle entrate. È difficile modificare la valuta di base dopo l&#39;inizio della raccolta dei dati.
+>[!IMPORTANT] Assicurarsi di specificare la valuta corretta, soprattutto se si dispone di requisiti di reporting relativi alle entrate. È difficile modificare la valuta di base dopo l&#39;inizio della raccolta dei dati.
 
 ## Risorse di implementazione
 
