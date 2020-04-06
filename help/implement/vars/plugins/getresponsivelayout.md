@@ -2,14 +2,14 @@
 title: getResponsiveLayout
 description: Determinare il layout di un sito Web attualmente visualizzato.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: getResponsiveLayout
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `getResponsiveLayout` plug-in consente di tenere traccia della versione del sito Web reattivo basato sul design che un visitatore sta attualmente visualizzando. Adobe consiglia di utilizzare questo plug-in se il sito utilizza una progettazione reattiva e desideri monitorare la versione del sito visualizzato da un visitatore. Questo plug-in non è necessario se il sito non utilizza la progettazione reattiva.
 
@@ -67,13 +67,13 @@ La chiamata di questo metodo restituisce una stringa contenente due parti. La pr
 * `"tablet layout"`
 * `"desktop layout"`
 
-La seconda parte della stringa restituita corrisponde alle dimensioni di larghezza e altezza del browser. Ad esempio, `"desktop layout:1243x700"` (Indirizzo IP).
+La seconda parte della stringa restituita corrisponde alle dimensioni di larghezza e altezza del browser. Ad esempio, `"desktop layout:1243x700"`.
 
 ## Chiamate di esempio
 
 ### Esempio n. 1
 
-Se viene mostrato...
+Se...
 
 * Il sito passa dalla modalità verticale del telefono alla modalità orizzontale del telefono quando la larghezza del browser è maggiore di 500 pixel
 * Il sito passa dalla modalità orizzontale del telefono alla modalità tablet quando la larghezza del browser è superiore a 700 pixel
@@ -87,7 +87,7 @@ s.eVar10 = getResponsiveLayout(500, 700, 1000);
 
 ### Esempio n. 2
 
-Se viene mostrato...
+Se...
 
 * Il sito dispone solo di una modalità telefono, tablet e desktop
 * Il sito passa dalla modalità telefono alla modalità tablet quando la larghezza del browser è superiore a 500 pixel
