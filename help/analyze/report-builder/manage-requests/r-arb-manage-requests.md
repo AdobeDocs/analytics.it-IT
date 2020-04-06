@@ -4,7 +4,7 @@ title: 'Gestire le richieste: definizioni'
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,14 +19,14 @@ Viene [!UICONTROL Request Manager] fornita una visualizzazione dettagliata dello
 
 Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) nella barra degli strumenti Generatore di report).
 
-> [!NOTE] Adobe Report Builder applica le dipendenze delle richieste solo all'interno dello stesso foglio di lavoro, non tra fogli di lavoro. Limitarsi alle dipendenze all'interno di un singolo foglio di lavoro garantisce la tempestività dell'esecuzione.
+>[!NOTE] Adobe Report Builder applica le dipendenze delle richieste solo all&#39;interno dello stesso foglio di lavoro, non tra fogli di lavoro. Limitarsi alle dipendenze all&#39;interno di un singolo foglio di lavoro garantisce la tempestività dell&#39;esecuzione.
 
 ## Definizioni {#section_FD29D8614DE74F32A0027FA130F40304}
 
 <table id="table_0880204181074BDBBA37E3DF2972A672"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Campo </th> 
+   <th colname="col1" class="entry"> Field </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -60,7 +60,7 @@ Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!
    <td colname="col2"> <p>Visualizza la finestra di dialogo Richiesta guidata. See <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Modificare </p> </td> 
+   <td colname="col1"> <p>Modificare  </p> </td> 
    <td colname="col2"> <p> (O Modifica multipla) Modifica una richiesta selezionata. Viene visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span> . See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
