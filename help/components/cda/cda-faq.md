@@ -2,14 +2,14 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Domande frequenti
 
-> [!NOTE] La documentazione di Analytics tra dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
+>[!NOTE] La documentazione di Analytics su più dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
 
 **Come posso usare CDA per vedere come le persone si spostano da un tipo di dispositivo all&#39;altro?**
 
@@ -20,14 +20,14 @@ Puoi utilizzare una visualizzazione Flusso con la dimensione Tipo dispositivo mo
 3. Fare clic sulla scheda Componenti a sinistra, quindi trascinare la dimensione &#39;Tipo di dispositivo mobile&#39; nella posizione centrale denominata &#39;Dimensione o elemento&#39;.
 4. Questo rapporto di flusso è interattivo. Fate clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Per espandere o comprimere le colonne, usate il menu di scelta rapida. All’interno dello stesso rapporto di flusso possono essere utilizzate dimensioni diverse.
 
-**Posso vedere in che modo le persone si spostano tra diverse esperienze utente (ad esempio browser desktop e browser mobile e app mobile)?**
+**Posso vedere in che modo le persone si spostano tra diverse esperienze utente (ad es. browser desktop e browser mobile e app mobile)?**
 
 L&#39;utilizzo del tipo di dispositivo mobile come illustrato sopra consente di vedere come le persone si spostano tra i tipi di dispositivi mobili e di dispositivi desktop. Tuttavia è possibile distinguere i browser desktop dai browser mobili. Un modo per farlo è creare una eVar che registri se l&#39;esperienza si è verificata in un browser desktop, in un browser mobile o in un&#39;app mobile. Quindi create un diagramma di flusso come descritto sopra, utilizzando la dimensione &quot;experience&quot; eVar anziché la dimensione Mobile Device Type (Tipo dispositivo mobile). Questo fornisce una vista leggermente diversa sul comportamento tra dispositivi.
 
 **Quanto tempo fa i visitatori di CDA possono contare?**
 
 * Adobe conserva i dati relativi alle cuciture dei dispositivi per circa 30 giorni. Se un dispositivo non è inizialmente identificato dal grafico Co-op o dal grafico Privato, ma viene successivamente identificato entro 30 giorni, CDA torna indietro e riafferma che il dispositivo appartiene a una persona identificata fino a 30 giorni nel passato. Se alcuni dei comportamenti non identificati di un utente non rientrano nella finestra di lookback di 30 giorni, la parte del percorso dell&#39;utente non viene bloccata.
-* Adobe conserva le mappature dei dispositivi in Co-op Graph e Private Graph per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafico. I dati già uniti in CDA non vengono modificati, ma gli hit successivi per tale ECID vengono trattati come un nuovo individuo.
+* Adobe conserva le mappature dei dispositivi in Co-op Graph e Private Graph per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafico. I dati già cuciti in CDA non vengono modificati, ma gli hit successivi per tale ECID vengono trattati come un nuovo individuo.
 
 **In che modo CDA gestisce gli hit con marca temporale?**
 
@@ -53,7 +53,7 @@ In alcune situazioni, un singolo utente può associarsi a un numero elevato di E
 
 **Qual è la differenza tra la metrica &#39;Persone&#39; in CDA e la metrica &#39;Visitatori unici&#39; all&#39;esterno di CDA?**
 
-La metrica &quot;Persone&quot; è simile alla metrica &quot;Visitatori unici&quot; in quanto segnala il numero di individui univoci. Tuttavia, quando si utilizza Analytics tra dispositivi, i visitatori univoci vengono combinati quando altrimenti vengono registrati come due visitatori univoci separati al di fuori di CDA. La metrica &#39;Persone&#39; sostituisce la metrica &#39;Visitatori unici&#39; quando è abilitata l&#39;analisi tra dispositivi.
+La metrica &quot;Persone&quot; è simile alla metrica &quot;Visitatori unici&quot;, in quanto segnala il numero di individui univoci. Tuttavia, quando si utilizza Analytics tra dispositivi, i visitatori univoci vengono combinati quando altrimenti vengono registrati come due visitatori univoci separati al di fuori di CDA. La metrica &#39;Persone&#39; sostituisce la metrica &#39;Visitatori unici&#39; quando è abilitata l&#39;analisi tra dispositivi.
 
 **Qual è la differenza tra la metrica &quot;Dispositivi univoci&quot; in CDA e la metrica &quot;Visitatori unici&quot; al di fuori di CDA?**
 
@@ -64,7 +64,7 @@ Queste due metriche sono approssimativamente equivalenti tra loro.
 Sì. Analysis Workspace utilizza l’API 2.0 per richiedere dati dai server Adobe e puoi visualizzare le chiamate API che Adobe usa per creare i tuoi rapporti:
 
 1. Effettuando l’accesso ad Analysis Workspace, apri gli strumenti di sviluppo del browser (F12 per la maggior parte dei browser).
-1. Nella console del browser, digitate `adobeTools.showDebugger()`. La pagina viene ricaricata con icone di debug nell’angolo superiore destro di ciascun pannello.
+1. Nella console del browser, digitate `adobeTools.showDebugger()`. La pagina viene ricaricata con le icone di debug nell’angolo superiore destro di ciascun pannello.
 1. Fate clic sull&#39;icona di debug nel pannello desiderato, quindi selezionate la visualizzazione desiderata e l&#39;ora della richiesta.
 1. Individuate la richiesta JSON, che potete utilizzare nella chiamata API ad Adobe.
 
