@@ -2,7 +2,7 @@
 title: linkInternalFilters
 description: Utilizza la variabile linkInternalFilters per facilitare il tracciamento automatico dei collegamenti in uscita.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ Se questa variabile contiene un valore, il tracciamento automatico dei collegame
 
 Se utilizzate sia `linkInternalFilters` che `linkExternalFilters` simultaneamente, il collegamento su cui avete fatto clic deve corrispondere `linkExternalFilters` e non deve corrispondere **** `linkInternalFilters` a quello su cui avete fatto clic per essere considerato un collegamento di uscita. Se un collegamento selezionato corrisponde ai criteri di collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
-> [!NOTE] I filtri `linkInternalFilters` URL [e](/help/admin/admin/internal-url-filter-admin.md) interni sono funzioni distinte che soddisfano scopi separati. La `linkInternalFilters` variabile funziona in modo specifico per il tracciamento dei collegamenti di uscita. I filtri URL interni sono un&#39;impostazione Amministratore che consente di gestire le dimensioni delle origini del traffico come Dominio di riferimento.
+>[!NOTE] I filtri `linkInternalFilters` URL [e](/help/admin/admin/internal-url-filter-admin.md) interni sono funzioni distinte che soddisfano scopi separati. La `linkInternalFilters` variabile funziona in modo specifico per il tracciamento dei collegamenti di uscita. I filtri URL interni sono un&#39;impostazione Amministratore che consente di gestire le dimensioni delle origini del traffico come Dominio di riferimento.
 
 ## Collegamenti in uscita - Non tenere traccia del lancio della piattaforma Adobe Experience
 
