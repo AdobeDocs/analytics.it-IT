@@ -4,7 +4,7 @@ title: Tracciamento solido dei collegamenti
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,11 +20,11 @@ Per ulteriori informazioni sul tracciamento dei collegamenti nella Activity Map,
 
 ## Come il tracciamento dei collegamenti Activity Map può raccogliere dati PII {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
-> [!CAUTION] Attivando il tracciamento Activity Map, potete raccogliere dati personali (PII). Questi dati possono essere utilizzati in modo indipendente o con altre informazioni per identificare, contattare o individuare una singola persona, o per identificare un individuo nel contesto.
+>[!CAUTION] Attivando il tracciamento Activity Map, potete raccogliere dati personali (PII). Questi dati possono essere utilizzati in modo indipendente o con altre informazioni per identificare, contattare o individuare una singola persona, o per identificare un individuo nel contesto.
 
 Di seguito sono riportati alcuni casi noti in cui i dati PII potrebbero essere raccolti utilizzando il tracciamento delle mappe di attività:
 
-* `Mailto` collegamenti. Un collegamento mailto è un tipo di collegamento HTML che attiva il client di posta elettronica predefinito sul computer per l'invio di un messaggio e-mail.
+* `Mailto` collegamenti. Un collegamento mailto è un tipo di collegamento HTML che attiva il client di posta elettronica predefinito sul computer per l&#39;invio di un messaggio e-mail.
 * `User ID` collegamenti che possono essere visualizzati nell’intestazione o piè di pagina di un sito Web dopo che l’utente ha eseguito l’accesso.
 * Per gli istituti finanziari, il numero del conto può essere indicato come collegamento. Facendo clic su di esso verrà raccolto il testo del collegamento.
 * I siti Web per il settore sanitario possono anche avere dati PII visualizzati come collegamenti. Facendo clic su questi collegamenti si raccoglierà il testo del collegamento, raccogliendo quindi i dati PII.
