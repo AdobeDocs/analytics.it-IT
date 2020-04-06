@@ -2,7 +2,7 @@
 title: pageName
 description: Il nome della pagina sul sito.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 In genere, la `pageName` variabile memorizza il nome di una determinata pagina. È utile determinare quali singole pagine sono più popolari. Questa variabile popola la dimensione &#39;Nome pagina&#39;.
 
-> [!NOTE] Questa dimensione viene sempre esclusa dalle chiamate di tracciamento dei collegamenti. Per visualizzare il nome della pagina in cui è stato tracciato un collegamento, considera la possibilità di copiare la variabile in una eVar.
+>[!NOTE] Questa dimensione viene sempre esclusa dalle chiamate di tracciamento dei collegamenti. Per visualizzare il nome della pagina in cui è stato tracciato un collegamento, considera la possibilità di copiare la variabile in una eVar.
 
 Se questa variabile non è definita in una determinata chiamata di tracciamento della pagina, viene utilizzata la [`pageURL`](pageurl.md) variabile.
 
