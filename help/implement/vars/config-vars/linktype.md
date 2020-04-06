@@ -2,7 +2,7 @@
 title: linkType
 description: Utilizzate la variabile linkType per determinare a quale dimensione di tracciamento dei collegamenti appartiene l’hit.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ La `s.linkType` variabile è una stringa che accetta uno dei tre valori a caratt
 * `d` - Collegamenti di download
 * `e` - Collegamenti di uscita
 
-> [!TIP] Questa variabile è il secondo parametro del `tl()` metodo e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkType` variabile se non si desidera impostare i valori come argomenti nel `tl()` metodo.
+>[!TIP] Questa variabile è il secondo parametro del `tl()` metodo e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkType` variabile se non si desidera impostare i valori come argomenti nel `tl()` metodo.
 
 ```js
 s.linkType = "e";
