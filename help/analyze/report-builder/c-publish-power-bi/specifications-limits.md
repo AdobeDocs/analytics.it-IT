@@ -3,7 +3,7 @@ description: nulle
 title: Limiti e specifiche
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,17 +12,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Limitazioni di pubblicazione di Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
-> [!NOTE] Queste restrizioni si applicano solo all'opzione "Pubblica richieste Generatore di report come tabelle DataSet Power BI".
+>[!NOTE] Queste restrizioni si applicano solo all&#39;opzione &quot;Pubblica richieste Generatore di report come tabelle DataSet Power BI&quot;.
 
 * È possibile esportare fino a 100 richieste Generatore di report in Power BI per cartella di lavoro.
-* Il processo di pianificazione interrompe l'esportazione delle richieste quando viene raggiunta la 101a richiesta.
+* Il processo di pianificazione interrompe l&#39;esportazione delle richieste quando viene raggiunta la 101a richiesta.
 * Solo le prime 10.000 righe di dati Analytics verranno inviate a Power BI per ogni richiesta di Generatore di report. Le righe rimanenti verranno ignorate.
 
 ## Modificare una richiesta di Generatore di report dopo la pubblicazione in Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
-> [!NOTE] Questa specifica si applica alle opzioni "Pubblica tutte le richieste del Generatore di report come tabelle DataSet Power BI" e "Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI".
+>[!NOTE] Questa specifica si applica alle opzioni &quot;Pubblica tutte le richieste del Generatore di report come tabelle DataSet Power BI&quot; e &quot;Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI&quot;.
 
-La modifica di una richiesta Generatore di report dopo la pubblicazione in Power BI potrebbe causare problemi.
+La modifica di una richiesta di Generatore di report dopo la pubblicazione in Power BI potrebbe causare problemi.
 
 * **Caso 1**: È possibile pubblicare una cartella di lavoro in Power BI e creare una visualizzazione basata sui relativi dati. Quindi, è possibile apportare modifiche alla cartella di lavoro, causando la scomparsa di una delle colonne del set di dati a cui fa riferimento. Quindi ripubblicate. In questo modo si interrompe la visualizzazione in Power BI.
 
@@ -56,11 +56,11 @@ La modifica di una richiesta Generatore di report dopo la pubblicazione in Power
 
 ## Modificare il nome di un report Power BI {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
-Per impostazione predefinita, il nome viene popolato dal nome del file della cartella di lavoro (senza l’estensione xlsx), ma gli spazi vengono sostituiti con caratteri di sottolineatura.
+Per impostazione predefinita, il nome viene popolato dal nome del file della cartella di lavoro (senza l’estensione .xlsx), ma gli spazi vengono sostituiti con caratteri di sottolineatura.
 
-Aspetti da considerare:
+Nota bene
 
-* L'etichetta non può essere una combinazione di lettere e numeri che potrebbero essere erroneamente scambiate per un indirizzo di riga e colonna. Ad esempio, A100 non può essere un'etichetta perché corrisponde all'indirizzo di una cella in un foglio di lavoro.
-* I seguenti caratteri non sono caratteri di etichetta validi: '#', '@', '!', '$', '^', '&amp;', '*', '`', '~', ' ' ' . Saranno sostituiti da un carattere di sottolineatura.
-* Quando si immette un nome non valido, viene visualizzato un messaggio di avviso che suggerisce un nome generato automaticamente. Se fai clic **[!UICONTROL Yes]**, verrà utilizzato questo nome. Se si fa clic su **[!UICONTROL No]**, l'interfaccia utente della procedura guidata Avanzate consente di immettere il nuovo nome.
+* L&#39;etichetta non può essere una combinazione di lettere e numeri che potrebbero essere erroneamente scambiate per un indirizzo di riga e colonna. Ad esempio, A100 non può essere un&#39;etichetta perché corrisponde all&#39;indirizzo di una cella in un foglio di lavoro.
+* I seguenti caratteri non sono caratteri di etichetta validi: &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39; &#39; &#39; . Saranno sostituiti da un carattere di sottolineatura.
+* Quando si immette un nome non valido, viene visualizzato un messaggio di avviso che suggerisce un nome generato automaticamente. Se fai clic **[!UICONTROL Yes]**, verrà utilizzato questo nome. Se si fa clic su **[!UICONTROL No]**, l&#39;interfaccia utente della procedura guidata Avanzate consente di immettere il nuovo nome.
 
