@@ -5,7 +5,7 @@ solution: Experience Cloud,Dynamic Tag Management
 title: Gestione della libreria
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in Gestione tag dinamica.
 
-**[!UICONTROL  *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
+**[!UICONTROL  *`Property`*]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
-> [!NOTE] Se in un&#39;unica proprietà Web vengono utilizzati più strumenti Adobe Analytics, ogni strumento deve avere un nome univoco per la variabile di tracciamento. I nomi di variabili oggetto duplicati tra gli strumenti Adobe Analytics all&#39;interno di una singola proprietà Web causeranno conflitti.
+>[!NOTE] Se in un&#39;unica proprietà Web vengono utilizzati più strumenti Adobe Analytics, ogni strumento deve avere un nome univoco per la variabile di tracciamento. I nomi di variabili oggetto duplicati tra gli strumenti Adobe Analytics all&#39;interno di una singola proprietà Web causeranno conflitti.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -28,7 +28,7 @@ Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Il codice della pagina è già presente </p> </td> 
-   <td colname="col2"> <p> Impedisce a Gestione tag dinamica di installare il codice di pagina di <span class="keyword"> Adobe Analytics</span> se il codice è già presente sul sito. </p> <p>Questa funzione consente di utilizzare Gestione tag dinamica per aggiungere nuovi elementi all'implementazione esistente anziché iniziare da zero. Quando selezionate questa casella, accertatevi di impostare correttamente il nome della variabile di tracciamento. </p> </td> 
+   <td colname="col2"> <p> Impedisce a Gestione tag dinamica di installare il codice di pagina di <span class="keyword"> Adobe Analytics</span> se il codice è già presente sul sito. </p> <p>Questa funzione consente di utilizzare Gestione tag dinamica per aggiungere nuovi elementi all'implementazione esistente, anziché iniziare da zero. Quando selezionate questa casella, accertatevi di impostare correttamente il nome della variabile di tracciamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carica libreria in &lt;<span class="term"> Page Top</span> o <span class="term"> Page Bottom</span>&gt; </p> </td> 
@@ -36,7 +36,7 @@ Descrizioni dei campi e delle opzioni nelle impostazioni di Gestione libreria in
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestito da Adobe (consigliato) </p> </td> 
-   <td colname="col2"> <p>Abilita Gestione tag dinamica per gestire la libreria. </p> <p>Se selezioni questa opzione, diventa disponibile l'opzione seguente: </p> <p> <b>Library Version: </b>(Versione libreria) seleziona la versione più recente dal menu <span class="wintitle">Library Version. </span> Gestione tag dinamica invia una notifica quando sono disponibili nuove versioni. Se necessario, potete ripristinare una versione precedente. </p> </td> 
+   <td colname="col2"> <p>Abilita Gestione tag dinamica per gestire la libreria. </p> <p>Se selezionate questa opzione, diventa disponibile l'opzione seguente: </p> <p> <b>Versione libreria: </b>Selezionate la versione più recente dal menu Versione <span class="wintitle"></span> libreria. Gestione tag dinamica invia una notifica quando sono disponibili nuove versioni. Se necessario, potete ripristinare una versione precedente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Personalizzato </p> </td> 
