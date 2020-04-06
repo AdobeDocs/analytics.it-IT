@@ -5,14 +5,14 @@ title: Attribuzione e persistenza
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Attribuzione e persistenza
 
-> [!IMPORTANT] Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consultate Analisi [](/help/components/cda/cda-home.md) multi-dispositivo nella guida utente dei componenti.
+>[!IMPORTANT] Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consultate Analisi [](/help/components/cda/cda-home.md) multi-dispositivo nella guida utente dei componenti.
 
 Quando i profili dei visitatori vengono uniti dopo essere stati associati alla stessa variabile ID visitatore, l&#39;attribuzione non viene modificata nel set di dati storici.
 
@@ -20,7 +20,7 @@ Quando i profili dei visitatori vengono uniti dopo essere stati associati alla s
 * Se esiste un profilo, il profilo visitatore già presente nel sistema viene utilizzato da quel momento in poi e il profilo visitatore precedente non viene più utilizzato.
 * Se non viene trovato alcun ID visitatore corrispondente, viene creato un nuovo profilo.
 
-Quando un cliente non autenticato arriva per la prima volta sul sito, ad esso viene assegnato un profilo visitatore da Adobe Analytics. Quando viene creato il nuovo profilo, una visita termina e un&#39;altra inizia.
+Quando un cliente non autenticato arriva per la prima volta sul tuo sito, ad esso viene assegnato un profilo visitatore da Adobe Analytics. Quando viene creato il nuovo profilo, una visita termina e un&#39;altra inizia.
 
 ## Esempio 1
 
@@ -40,7 +40,7 @@ Nella prima connessione dati contenente un `s.visitorID` valore non riconosciuto
 * Le eVar impostate per scadere da altre misure verranno copiate nel profilo autenticato. Il valore `apple` è persistente.
 * Per le eVar persistenti, non viene registrata alcuna metrica Instance (Istanza). Questo significa che quando si utilizza l&#39;identificazione visitatore tra dispositivi, è possibile visualizzare rapporti in cui la metrica Visite univoche per un valore eVar è maggiore della metrica Istanza.
 
-> [!NOTE] Se un utente è nuovo al sito (non ha mai visitato prima su questo dispositivo) e si autentica entro circa 3 minuti dall&#39;arrivo, nessun valore persiste nel profilo autenticato.
+>[!NOTE] Se un utente è nuovo al sito (non ha mai visitato prima su questo dispositivo) e si autentica entro circa 3 minuti dall&#39;arrivo, nessun valore persiste nel profilo autenticato.
 
 ## Esempio 2
 
