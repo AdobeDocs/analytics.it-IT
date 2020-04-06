@@ -5,7 +5,7 @@ title: Variabili di conversione (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 76613290f4496a400ba9c16171cef7e161a29cf3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Le eVar vengono utilizzate in modo ottimale per misurare la causa e l&#39;effett
 
 Se si desidera misurare il traffico o il percorso, è consigliabile utilizzare le variabili di traffico.
 
-> [!NOTE] In una richiesta di immagine è possibile memorizzare un solo valore in una eVar. Se più valori sono desiderati in un valore eVar, si consiglia di implementare le variabili [Elenco (variabili elenco)](https://marketing.adobe.com/resources/help/it_IT/sc/implement/listN.html).
+>[!NOTE] In una richiesta di immagine è possibile memorizzare un solo valore in una eVar. Se più valori sono desiderati in un valore eVar, si consiglia di implementare le variabili [Elenco (variabili elenco)](https://marketing.adobe.com/resources/help/it_IT/sc/implement/listN.html).
 
 ## Variabili di conversione - Descrizioni {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
