@@ -4,14 +4,14 @@ title: Suite di rapporti rollup e globali
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Suite di rapporti rollup e globali
 
-Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio e li visualizzano in un set di dati riepilogato. Offrono una posizione ideale per visualizzare i totali sommati come visualizzazioni di pagina, ricavi o altre dimensioni di base. I rollup vengono utilizzati di frequente perché non richiedono un'implementazione aggiuntiva.
+Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio e li visualizzano in un set di dati riepilogato. Offrono una posizione ideale per visualizzare i totali sommati come visualizzazioni di pagina, ricavi o altre dimensioni di base. I rollup vengono utilizzati di frequente perché non richiedono un&#39;implementazione aggiuntiva.
 
 ## Definizioni dei tipi di suite di rapporti
 
@@ -19,7 +19,7 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 
 **Suite** di rapporti rollup: Creato in Strumenti di amministrazione. Prende la somma di ogni metrica alla fine di ogni giorno.
 
-* I rollup sono gratuiti e non aumentano l'utilizzo delle chiamate server.
+* I rollup sono gratuiti e non aumentano l&#39;utilizzo delle chiamate server.
 * I rollup forniscono dati totali, ma non segnalano valori singoli nei report. Ad esempio, i valori eVar1 non sono inclusi, ma il totale aggregato può essere incluso.
 * I dati non vengono deduplicati quando si combinano dati tra suite per report.
 * I rollup vengono eseguiti su base notturna.
@@ -34,9 +34,9 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 
 **Chiamate** server secondarie: I rollup non comportano chiamate server aggiuntive oltre le raccolte da una singola suite di rapporti. Se l’organizzazione utilizza i tag per più suite, vengono effettuate chiamate server secondarie per ogni suite di rapporti aggiuntiva inclusa in una richiesta di immagine.
 
-> [!TIP] Se utilizzi solo una suite di rapporti globale con suite [di rapporti](../../components/vrs/vrs-considerations.md)virtuali, non sono necessarie chiamate server secondarie.
+>[!TIP] Se utilizzi solo una suite di rapporti globale con suite [di rapporti](../../components/vrs/vrs-considerations.md)virtuali, non sono necessarie chiamate server secondarie.
 
-**Modifiche** di implementazione: I rollup non richiedono alcuna modifica di implementazione, mentre le suite per report globali richiedono di includere l'ID suite per report globale nella tua implementazione.
+**Modifiche** di implementazione: I rollup non richiedono alcuna modifica di implementazione, mentre le suite per report globali richiedono di includere l&#39;ID suite per report globale nella tua implementazione.
 
 **Duplicazione**: Le suite di rapporti globali deduplicano i visitatori univoci, mentre i rollup no. Ad esempio, se un utente visita tre dei tuoi domini nello stesso giorno, i rollup contano tre visitatori unici al giorno. Le suite di rapporti globali registrerebbero un visitatore unico.
 
