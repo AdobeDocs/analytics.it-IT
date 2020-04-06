@@ -2,14 +2,14 @@
 title: cleanStr
 description: Rimuovere o sostituire tutti i caratteri non necessari da una stringa.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: cleanStr
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `cleanStr` plug-in rimuove o sostituisce tutti i caratteri non necessari da una stringa, inclusi i caratteri tag HTML, gli spazi bianchi, le schede e i ritorni a capo/riga. Sostituisce inoltre le virgolette singole (`‘` e `’`) sinistre/destre con virgolette singole (`'`) semplici diritte. Adobe consiglia di utilizzare questo plug-in se desiderate rimuovere caratteri non necessari dai valori delle variabili e la funzione &quot;Testo pulito&quot; di Launch non soddisfa le vostre esigenze di implementazione. Questo plug-in non è necessario se i dati raccolti non contengono caratteri superflui o se la funzione &quot;Testo pulito&quot; di Launch è sufficiente.
 
@@ -79,7 +79,7 @@ s.eVar1 = cleanStr(s.eVar1)
 
 ### Esempio n. 2
 
-Se viene mostrato...
+Se...
 
 ```js
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
