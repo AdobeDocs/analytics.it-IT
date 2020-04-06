@@ -3,7 +3,7 @@ description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaS
 title: Codice di plug-in di Adobe Analytics
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,5 +22,5 @@ Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia 
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Adobe Analytics, sostituitele semplicemente con quelle disponibili.
+>[!NOTE] Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Adobe Analytics, sostituitele semplicemente con quelle disponibili.
 
