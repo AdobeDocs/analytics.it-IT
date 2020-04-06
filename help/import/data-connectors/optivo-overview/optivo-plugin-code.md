@@ -3,7 +3,7 @@ description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaS
 title: Codice di plug-in di Adobe Analytics
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -50,5 +50,5 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
-> [!NOTE] Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Adobe Analytics, sostituitele semplicemente con quelle disponibili.
+>[!NOTE] Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Adobe Analytics, sostituitele semplicemente con quelle disponibili.
 
