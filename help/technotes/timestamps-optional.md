@@ -5,7 +5,7 @@ title: Utilizzo dei timestamp opzionali
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,11 +16,11 @@ Scoprite i vantaggi e i vincoli dell&#39;utilizzo dell&#39;impostazione Marca te
 
 Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite di rapporti.
 
-* Inserite sia i dati con marca temporale sia quelli privi di marca nella stessa suite per report globale.
-* Inviate dati con marca temporale da un app per dispositivo mobile a una suite per report globale.
+* Combinare dati con marca temporale e non con marca temporale nella stessa suite di rapporti globale.
+* Invia dati con marca temporale da un’app mobile a una suite di rapporti globale.
 * Aggiornate le app per utilizzare le marche temporali senza dover creare una nuova suite di rapporti.
 
-> [!NOTE]Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite per report generate da un modello Le nuove suite di rapporti copiate da una suite esistente erediteranno le impostazioni dall&#39;originale.
+>[!NOTE] Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite di rapporti generate da un modello. Le nuove suite di rapporti copiate da una suite esistente erediteranno le impostazioni dall&#39;originale.
 
 Per ulteriori informazioni sulla configurazione, consultate [Marca temporale opzionale](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) .
 
@@ -52,7 +52,7 @@ Marca temporale opzionale consente di integrare e generare report tra più suite
 
 La combinazione di dati in una suite di rapporti globale può essere eseguita in diversi modi, tra cui l&#39;assegnazione di tag a più suite, le regole Vista e i file batch importati da origini offline.
 
-> [!IMPORTANT] Pianificate attentamente la progettazione di ciascun set di dati dei componenti in modo che la combinazione abbia senso in una suite di rapporti globale.
+>[!IMPORTANT] Pianificate attentamente la progettazione di ciascun set di dati dei componenti in modo che la combinazione abbia senso in una suite di rapporti globale.
 
 ## Best practice per l&#39;impiego di marche temporali {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -62,7 +62,7 @@ Di seguito sono riportate le best practice e alcuni requisiti e restrizioni da t
 
    I dati fuori ordine possono includere dati in arrivo ritardati dalla raccolta dati offline e hit in arrivo ritardati, o orologi non sincronizzati su dispositivi mobili offline. I dati fuori ordine possono avere un impatto negativo sui calcoli del tempo (come i valori del tempo trascorso), sull&#39;attribuzione (persistenza eVar), sui conteggi dei numeri di visita/visita e sui rapporti dei percorsi.
 
-* L’utilizzo delle marche temporali quando si imposta un [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) non è consigliato. Può portare a dati fuori ordine.
+* L’utilizzo delle marche temporali quando si imposta un [s.visitorID](https://marketing.adobe.com/resources/help/it_IT/sc/implement/visid_custom.html) non è consigliato. Può portare a dati fuori ordine.
 
 * Le app ibride composte da un&#39;app (con marca temporale e dati offline) che apre un browser Web (con marca temporale e dati dal vivo) non devono utilizzare marche temporali. Ne risulta una segnalazione non accurata della sessione.
 
