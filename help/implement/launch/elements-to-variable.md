@@ -2,7 +2,7 @@
 title: Mappatura degli elementi dei dati di Launch alle variabili Analytics
 description: Assegnare elementi di dati alle variabili di Analytics in modo da poterli utilizzare come dimensioni in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Le variabili globali sono ideali nei casi in cui si desidera impostare valori va
 
 ### Impostazione di variabili nelle regole
 
-Le variabili impostate nelle regole sono ideali nei casi in cui non si desidera impostare variabili su ogni pagina. Definite i criteri nella regola. Consulta [Regole](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) nella guida utente di Adobe Experience Platform Launch.
+Le variabili impostate nelle regole sono ideali nei casi in cui non si desidera impostare variabili su ogni pagina. Definite i criteri nella regola. Consulta [Regole](https://docs.adobe.com/content/help/it-IT/launch/using/reference/manage-resources/rules.html) nella guida utente di Adobe Experience Platform Launch.
 
 1. Vai ad [Adobe Experience Platform Launch](https://launch.adobe.com) ed effettua l&#39;accesso, se richiesto.
 1. Fare clic sulla proprietà Launch desiderata.
@@ -43,7 +43,7 @@ Le variabili impostate nelle regole sono ideali nei casi in cui non si desidera 
 1. Selezionare l&#39;elemento dati desiderato nella finestra modale. Fai clic su [!UICONTROL Select].
 1. Il nome dell’elemento dati viene aggiunto al campo di testo circondato da `%` segni. Ad esempio, se l&#39;elemento dati è denominato &quot;Nome pagina&quot;, verrà visualizzata la stringa `%Page name%` quando si assegna un elemento dati a una variabile.
 
-> [!TIP] È possibile concatenare elementi di dati nella stessa variabile. Ad esempio, se disponete di un elemento dati &quot;Nome host&quot; e di un elemento dati &quot;Nome percorso&quot;, potete combinare entrambi in una singola variabile utilizzando `%Hostname%%Pathname%`.
+>[!TIP] È possibile concatenare elementi di dati nella stessa variabile. Ad esempio, se disponete di un elemento dati &quot;Nome host&quot; e di un elemento dati &quot;Nome percorso&quot;, potete combinare entrambi in una singola variabile utilizzando `%Hostname%%Pathname%`.
 
 ## Passaggi successivi
 
