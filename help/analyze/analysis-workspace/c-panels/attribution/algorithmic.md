@@ -2,14 +2,14 @@
 title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 59ca7a8b6f067d62c4abea572c199fb95897d854
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Attribuzione algoritmica
 
-> [!NOTE] L&#39;attribuzione algoritmica è attualmente disponibile solo tramite [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). La funzione farà infine parte di una release generale.
+>[!NOTE] L&#39;attribuzione algoritmica è attualmente disponibile solo tramite [Adobe Analytics Labs](https://docs.adobe.com/content/help/it-IT/analytics/analyze/tech-previews/overview.html). La funzione farà infine parte di una release generale.
 
 Il modello [di](attribution.md) attribuzione algoritmica in Analysis Workspace è diverso dagli altri modelli in quanto utilizza tecniche statistiche per allocare crediti nei valori delle dimensioni del rapporto o della tabella a forma libera. Come tutti gli altri modelli di attribuzione in Analysis Workspace, può essere utilizzato su qualsiasi dimensione o metrica e supporta segmentazione e suddivisioni illimitate e distribuisce il 100% delle conversioni alle dimensioni nella tabella (detta anche attribuzione &quot;frazionaria&quot;).
 
@@ -20,4 +20,4 @@ Ad un livello elevato, il calcolo dell&#39;attribuzione del credito di conversio
 * Shapley, Lloyd S. (1953). Un valore per i giochi di persona. *Contributi alla Teoria dei Giochi, 2(28)*, 307-317.
 * Harsanyi, John C. (1963). Un modello di negoziazione semplificato per il gioco cooperativo n-persona. *Revisione economica internazionale 4(2)*, 194-220.
 
-> [!NOTE] Il risultato dell&#39;attribuzione algoritmica differisce solo dagli altri modelli quando nella finestra di lookback sono presenti più punti di contatto. Le conversioni con un singolo punto di contatto ricevono un credito del 100% indipendentemente dal modello di attribuzione.
+>[!NOTE] Il risultato dell&#39;attribuzione algoritmica differisce solo dagli altri modelli quando nella finestra di lookback sono presenti più punti di contatto. Le conversioni con un singolo punto di contatto ricevono un credito del 100% indipendentemente dal modello di attribuzione.
