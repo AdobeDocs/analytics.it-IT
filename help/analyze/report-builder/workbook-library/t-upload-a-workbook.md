@@ -4,7 +4,7 @@ title: Caricare una cartella di lavoro
 topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Caricate una cartella di lavoro Excel Generatore di report da condividere.
 
-Consente di [!UICONTROL Workbook Library] caricare una cartella di lavoro Excel Generatore di report da condividere. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Durante la migrazione da ExcelClient a Generatore di report, si consiglia di scaricare le cartelle di lavoro dall'archivio ExcelClient e quindi di caricarle nell'archivio del Generatore di report.
+Consente di [!UICONTROL Workbook Library] caricare una cartella di lavoro Excel Generatore di report da condividere. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Durante la migrazione da ExcelClient a Generatore di report, si consiglia di scaricare le cartelle di lavoro dall&#39;archivio ExcelClient e quindi di caricarle nell&#39;archivio del Generatore di report.
 
-> [!NOTE] È possibile caricare solo le cartelle di lavoro con le richieste del Generatore di report. Inoltre, potete distribuire i rapporti del Generatore di report alle persone che non utilizzano Generatore di report. Gli utenti non devono effettuare il login per visualizzare i dati.
+>[!NOTE] È possibile caricare solo le cartelle di lavoro con le richieste del Generatore di report. Inoltre, potete distribuire i rapporti del Generatore di report alle persone che non utilizzano Generatore di report. Gli utenti non devono effettuare il login per visualizzare i dati.
 
 1. Creare ed eseguire una richiesta.
 1. Dopo aver salvato il rapporto, fai clic su **[!UICONTROL Share]**.
