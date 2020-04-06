@@ -1,25 +1,25 @@
 ---
 description: La distribuzione di questa integrazione è un processo semplice che richiede le seguenti azioni.
-title: Implementazione dell'integrazione
+title: Distribuzione dell'integrazione
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Implementazione dell'integrazione{#deploying-the-integration}
+# Distribuzione dell&#39;integrazione{#deploying-the-integration}
 
 La distribuzione di questa integrazione è un processo semplice che richiede le seguenti azioni.
 
 ## Completamento della procedura guidata di integrazione di Adobe{#completing-the-adobe-integration-wizard}
 
-Per attivare l'integrazione, è necessario completare la procedura guidata di configurazione all'interno dell'interfaccia Connettori dati.
+Per attivare l&#39;integrazione, è necessario completare la procedura guidata di configurazione all&#39;interno dell&#39;interfaccia Connettori dati.
 
-1. Passa all'area Connettori dati (precedentemente Genesis) in Adobe Experience Cloud.
+1. Passa all&#39;area Connettori dati (precedentemente Genesis) in Adobe Experience Cloud.
 1. Avviate la procedura guidata di integrazione Demandbase 2.0.
-1. Scegliete la suite di rapporti desiderata e specificate un nome per l'integrazione.
-1. Configura i seguenti elementi:
+1. Scegliete la suite di rapporti desiderata e specificate un nome per l&#39;integrazione.
+1. Configurate i seguenti elementi:
 
 <table id="table_8D60DC7C48C144DC9934749E7F9F65FF"> 
  <thead> 
@@ -31,7 +31,7 @@ Per attivare l'integrazione, è necessario completare la procedura guidata di co
  <tbody> 
   <tr> 
    <td colname="col1"> Indirizzo e-mail </td> 
-   <td colname="col2"> Indirizzo e-mail del contatto principale. </td> 
+   <td colname="col2"> L'indirizzo e-mail del contatto principale. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Descrizione </td> 
@@ -39,7 +39,7 @@ Per attivare l'integrazione, è necessario completare la procedura guidata di co
   </tr> 
   <tr> 
    <td colname="col1"> Chiave API Demandbase </td> 
-   <td colname="col2"> Puoi ottenere questo da Demandbase. </td> 
+   <td colname="col2"> Puoi ottenere questo dal tuo rappresentante Demandbase. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dimensione Demandbase personalizzata #N </td> 
@@ -61,8 +61,8 @@ Per attivare l'integrazione, è necessario completare la procedura guidata di co
 
 1. Configura i nomi per la Dimensione personalizzata (se applicabile).
 
-   1. Se al punto 4 avete scelto di includere le dimensioni personalizzate e mappato l'eVar opzionale al punto 5, dovete fornire nomi descrittivi per tali dimensioni. Ad esempio, se si sceglie di immettere "stock_ticker" come Dimensione personalizzata 1, è necessario modificare la casella contenente "Dimension 1" in "Stock Ticker".
-   1. NON **modificate** i nomi delle dimensioni standard 8 (ad esempio Demandbase SID, Nome società, Industria, ecc.).
+   1. Se al punto 4 avete scelto di includere le dimensioni personalizzate e mappato l&#39;eVar opzionale al punto 5, dovete fornire nomi descrittivi per tali dimensioni. Ad esempio, se si sceglie di immettere &quot;stock_ticker&quot; come Dimensione personalizzata 1, è necessario modificare la casella contenente &quot;Dimension 1&quot; in &quot;Stock Ticker&quot;.
+   1. NON **modificate** i nomi delle dimensioni standard 8 (ad es. Demandbase SID, Nome società, Industria, ecc.).
 
 1. Selezionare la casella per creare automaticamente il dashboard Integrazione Demandbase (consigliato).
 1. Rivedete tutti gli elementi di configurazione e fate clic su **[!UICONTROL Activate Now]**.
@@ -71,9 +71,9 @@ Per attivare l'integrazione, è necessario completare la procedura guidata di co
 
 Dopo aver completato la procedura guidata di integrazione, devi distribuire il codice di integrazione nel codice di distribuzione di Adobe Analytics (s_code).
 
-> [!NOTE] Se per distribuire Adobe Analytics avete utilizzato Adobe TagManager o Gestione tag dinamica, potete aggiungere facilmente il codice di integrazione utilizzando uno di questi strumenti.
+>[!NOTE] Se per distribuire Adobe Analytics avete utilizzato Adobe TagManager o Gestione tag dinamica, potete aggiungere facilmente il codice di integrazione utilizzando uno di questi strumenti.
 
-1. Passate alla **[!UICONTROL Support]** scheda e scaricate e salvate la `integration code v2_0_1` risorsa dall'area Risorse dell'integrazione.
+1. Passate alla **[!UICONTROL Support]** scheda e scaricate e salvate la `integration code v2_0_1` risorsa dall&#39;area Risorse dell&#39;integrazione.
 
 1. Se del caso, apportare le modifiche necessarie al codice. Per ulteriori informazioni, consultate Modifica del codice di integrazione (in questa pagina).
 1. Includete il modulo Integrate se non è già presente nel codice di distribuzione di Adobe Analytics.
@@ -84,13 +84,13 @@ Dopo aver completato la procedura guidata di integrazione, devi distribuire il c
 
 >[!IMPORTANT]
 >
->Prima di distribuirla in un ambiente di produzione, verificate che la distribuzione dell'integrazione sia verificata in un ambiente di sviluppo/pre-produzione.
+>Prima di distribuirla in un ambiente di produzione, verificate che la distribuzione dell&#39;integrazione sia verificata in un ambiente di sviluppo/pre-produzione.
 
 ## Modifica del codice di integrazione{#modifying-the-integration-code}
 
 Nella maggior parte dei casi, non sarà necessario apportare alcuna modifica al codice di integrazione prodotto dalla procedura guidata Connettore dati.
 
-Tuttavia, se è necessario apportare modifiche, alcune delle impostazioni del codice sono descritte di seguito.
+Tuttavia, se è necessario apportare delle modifiche, alcune delle impostazioni del codice sono descritte di seguito.
 
 <table id="table_5405A73CEFD44466B3C39559F4A037C9"> 
  <thead> 
@@ -114,7 +114,7 @@ Tuttavia, se è necessario apportare modifiche, alcune delle impostazioni del co
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Il delimitatore utilizzato per separare i valori delle dimensioni Demandbase quando vengono inviati ad Adobe Analytics. La modifica di questa impostazione potrebbe causare il malfunzionamento delle regole di classificazione predefinite. </td> 
+   <td colname="col2"> Il delimitatore utilizzato per separare i valori delle dimensioni Demandbase quando vengono inviati ad Adobe Analytics. Modificando questa impostazione è possibile che le regole di classificazione predefinite non funzionino correttamente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
@@ -155,18 +155,18 @@ Se non disponete già del modulo Integrate come parte della distribuzione, compl
 
 ### Per AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Decomprimete il file zip AppMeasurement scaricato da **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL CodeManager]**.
+1. Decomprimete il file zip AppMeasurement scaricato da **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
 1. Aprire il file denominato [!DNL AppMeasurement_Module_Integrate.js].
-1. Copiare e incollare il contenuto di questo file nel [!DNL AppMeasurement.js] file principale.
+1. Copiate e incollate il contenuto di questo file nel [!DNL AppMeasurement.js] file principale.
 
    >[!NOTE]
    >
-   >Incollarla immediatamente prima del commento NON MODIFICARE NULLA SOTTO QUESTA RIGA all'interno del file.
+   >Incollarla immediatamente prima del commento NON MODIFICARE NULLA SOTTO QUESTA RIGA all&#39;interno del file.
 
 ### Per codice legacy (H-code) {#section-bba8ad8c715e4f97883e7de3269f681a}
 
-1. Scaricate il modulo Integrate dall'area "Risorse" nell'interfaccia utente dei Connettori dati (nella scheda Assistenza).
+1. Scaricate il modulo Integrate dall&#39;area &quot;Risorse&quot; nell&#39;interfaccia utente dei Connettori dati (nella scheda Assistenza).
 
    ![](assets/h_code.png)
 
@@ -174,11 +174,11 @@ Se non disponete già del modulo Integrate come parte della distribuzione, compl
 
    >[!NOTE]
    >
-   >Incollarla immediatamente prima del commento NON MODIFICARE NULLA SOTTO QUESTA RIGA all'interno del file.
+   >Incollarla immediatamente prima del commento NON MODIFICARE NULLA SOTTO QUESTA RIGA all&#39;interno del file.
 
-## Verifica dell'integrazione{#verifying-the-integration}
+## Verifica dell&#39;integrazione{#verifying-the-integration}
 
-Verificare che l'integrazione acquisisca correttamente i dati controllando il tracciamento live e la generazione di rapporti.
+Verificare che l&#39;integrazione acquisisca correttamente i dati controllando il tracciamento live e la generazione di rapporti.
 
 ### Tracciamento live {#section-9c20e8ff6b404ae09387ee07d675c9e2}
 
@@ -188,8 +188,8 @@ Utilizzate lo strumento DigitalPulse Debugger per verificare che i dati della di
 
 ![](assets/debugger1.png)
 
-****Mbox di Target include i parametri del profilo Demandbase:
-Questo aspetto verrà visualizzato solo se sulla pagina è stato implementato Target E se l'integrazione è stata configurata per Adobe Target. Consultate il Passaggio 4 nella procedura guidata di integrazione di Adobe.
+**Mbox di Target include i parametri del profilo Demandbase:**
+Questo aspetto verrà visualizzato solo se sulla pagina è stato implementato Target E se l&#39;integrazione è stata configurata per Adobe Target. Consultate il Passaggio 4 nella procedura guidata di integrazione di Adobe.
 
 ![](assets/debugger2.png)
 
@@ -199,7 +199,7 @@ Rivedete i rapporti Demandbase in Adobe Analytics utilizzando il dashboard creat
 
 In alternativa, puoi passare al reporting Demandbase nella struttura del menu di Adobe Analytics; vedi le schermate di seguito.
 
-> [!NOTE] Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
+>[!NOTE] Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
 
 ![](assets/reporting1.png)
 
@@ -207,18 +207,18 @@ In alternativa, puoi passare al reporting Demandbase nella struttura del menu di
 
 ### Domande frequenti {#section-d926b160a2ef4f07b43ea1bc67ac2a0a}
 
-**Cosa significa "[n/a]"?**
+**Cosa significa &quot;[n/a]&quot;?**
 
-Il connettore dati Demandbase indica se un attributo è "Non disponibile" impostando questo valore predefinito. Esistono due scenari comuni in cui è impostato il valore predefinito:
+Il connettore dati Demandbase indica se un attributo è &quot;Non disponibile&quot; impostando questo valore predefinito. Esistono due scenari comuni in cui è impostato il valore predefinito:
 
 * Demandbase rileva che il visitatore proviene da un indirizzo IP che non appartiene a una società.
-* Viene utilizzato un attributo Account Watch (che inizia con "watch_list"), ma la società non è inclusa nell'elenco Account Watch.
+* Viene utilizzato un attributo Account Watch (che inizia con &quot;watch_list&quot;), ma la società non è inclusa nell&#39;elenco Account Watch.
 
-**Perché`[n/a]`" appare più spesso per alcuni attributi?**
+**Perché`[n/a]`&quot; appare più spesso per alcuni attributi?**
 
-Demandbase classifica tutti gli indirizzi IP e fornisce gli attributi audience e audience_segmento anche quando il visitatore non proviene da un IP aziendale. Quando l'audience restituisce valori come "Residenziale", "Wireless" e "Ospitalità", gli altri attributi probabilmente non sono disponibili.
+Demandbase classifica tutti gli indirizzi IP e fornisce gli attributi audience e audience_segmento anche quando il visitatore non proviene da un IP aziendale. Quando l&#39;audience restituisce valori come &quot;Residenziale&quot;, &quot;Wireless&quot; e &quot;Ospitalità&quot;, gli altri attributi probabilmente non sono disponibili.
 
-A volte, il pubblico di un visitatore sarà "SMB", ma altri attributi saranno mostrati "`[n/a]`". Ciò significa che Demandbase è in grado di classificare il visitatore come una piccola azienda, ma il profilo aziendale completo non è disponibile. Questo accade generalmente per le aziende più piccole, quando più piccole imprese utilizzano lo stesso provider di servizi o un blocco di indirizzi IP.
+A volte, il pubblico di un visitatore sarà &quot;SMB&quot;, ma altri attributi saranno mostrati &quot;`[n/a]`&quot;. Ciò significa che Demandbase è in grado di classificare il visitatore come una piccola azienda, ma il profilo aziendale completo non è disponibile. Questo accade generalmente per le aziende più piccole, quando più piccole imprese utilizzano lo stesso provider di servizi o lo stesso blocco di indirizzi IP.
 
 ### Considerazioni per sviluppatori {#section-d33fff55bc4b4db99f82dee418ef1bc2}
 
