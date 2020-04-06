@@ -3,7 +3,7 @@ description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ La prima volta che si apre un’Workspace i modelli sono disponibili nella barra
 
 Puoi usare questi modelli precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome.
 
-[Modelli standard in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[Modelli standard in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
 Di seguito sono riportati i modelli disponibili e le domande che ogni modello può rispondere.
 
@@ -106,7 +106,7 @@ Di seguito sono riportati i modelli disponibili e le domande che ogni modello pu
 
 ### Persone
 
-> [!NOTE] Il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE] Il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/it_IT/mcdc/mcdc-people.html).
 
 Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone fornisce una misura della frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di: 
 
@@ -122,7 +122,7 @@ Questo modello è basato sulla metrica Persone, che è una versione deduplicata 
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-Questo modello consente di visualizzare dati di prestazioni cross-device vitali. È disponibile solo per i clienti che hanno accesso a [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
+Questo modello consente di visualizzare dati di prestazioni cross-device vitali. È disponibile solo per i clienti che hanno accesso a [Cross-Device Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/cda-home.html) (CDA).
 
 * **Nota speciale per i membri del Co-op Graph**: Mostra quale parte della suite di rapporti contiene i visitatori nelle aree in cui è supportato il grafico della cooperativa e nelle aree in cui non è supportato.
 * **Identificazione degli utenti**: Mostra la frequenza con cui i visitatori del sito vengono identificati utilizzando metodi basati su Analisi cross-device.
