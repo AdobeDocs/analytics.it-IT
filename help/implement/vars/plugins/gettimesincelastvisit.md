@@ -2,14 +2,14 @@
 title: getTimeSinceLastVisit
 description: Misurare il tempo trascorso tra due visite.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: getTimeSinceLastVisit
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `getTimeSinceLastVisit` plug-in consente di tenere traccia del tempo impiegato dal visitatore per tornare al sito dopo l’ultima visita.
 
@@ -66,7 +66,7 @@ Il `getTimeSinceLastVisit` metodo non utilizza argomenti. Restituisce il tempo t
 * Il tempo maggiore di un giorno è arrotondato al valore di riferimento del giorno più vicino. Ad esempio, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
 * Se un visitatore non ha visitato prima o il tempo trascorso è maggiore di due anni, il valore è impostato su `"New Visitor"`.
 
-> [!NOTE] Questo plug-in restituisce solo un valore sul primo hit di una visita.
+>[!NOTE] Questo plug-in restituisce solo un valore sul primo hit di una visita.
 
 Questo plug-in crea un cookie first-party denominato `"s_tslv"` set a una marca temporale Unix dell’ora corrente. Il cookie scade dopo due anni di inattività.
 
