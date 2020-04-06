@@ -3,32 +3,32 @@ description: Per accedere a queste funzioni, selezionare Mostra avanzate dall'el
 title: Funzioni avanzate di riferimento
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Riferimento: funzioni avanzate
 
-Accedere a queste funzioni selezionando **[!UICONTROL Show Advanced]** l'elenco a **[!UICONTROL Functions]** discesa.
+Accedere a queste funzioni selezionando **[!UICONTROL Show Advanced]** l&#39;elenco a **[!UICONTROL Functions]** discesa.
 
 ## Funzioni tabella e funzioni riga {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Una funzione di tabella è una in cui l'output è lo stesso per ogni riga della tabella. Una funzione di riga è una in cui l'output è diverso per ogni riga della tabella.
+Una funzione di tabella è una in cui l&#39;output è lo stesso per ogni riga della tabella. Una funzione di riga è una in cui l&#39;output è diverso per ogni riga della tabella.
 
-## Cosa significa il parametro Include-Zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Che cosa significa il parametro Include-Zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
-Indica se includere zeri nel calcolo. A volte zero significa "niente", ma a volte è importante.
+Indica se includere zeri nel calcolo. A volte zero significa &quot;niente&quot;, ma a volte è importante.
 
 Ad esempio, se hai una metrica Revenue (Entrate) e aggiungi una metrica Page Views (Visualizzazioni pagina) al report, improvvisamente ci sono più righe per le tue entrate che sono tutte pari a zero. Probabilmente non volete che questo influenzi i MEAN, MIN, QUARTILE, ecc. calcoli disponibili nella colonna Entrate. In questo caso, controllate il parametro include-zeros.
 
-D'altra parte, se hai due metriche che ti interessano, potrebbe non essere giusto dire che una ha una media o un minimo più alti perché alcune delle sue righe erano zeri, quindi non controllereste il parametro per includere gli zeri.
+D&#39;altra parte, se hai due metriche che ti interessano, potrebbe non essere giusto dire che una ha una media o un minimo più alti perché alcune delle sue righe erano zeri, quindi non controllereste il parametro per includere gli zeri.
 
 ## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Restituisce il valore del relativo argomento. Utilizzare NOT per assicurarsi che un valore non sia uguale a un particolare valore.
 
-> [!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
+>[!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -53,19 +53,19 @@ Approximate Count Distinct (dimension)
 
 ## Esempio di caso di utilizzo {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
-L'eVar per l'ID cliente approssimativo (Approximate Count Distinct) è un caso d'uso comune per questa funzione.
+L&#39;eVar per l&#39;ID cliente approssimativo (Approximate Count Distinct) è un caso d&#39;uso comune per questa funzione.
 
-Definizione per una nuova metrica calcolata 'clienti prossimi':
+Definizione per una nuova metrica calcolata &#39;clienti prossimi&#39;:
 
 ![](assets/approx-count-distinct.png)
 
-Questo è il modo in cui la metrica "Approximate Customers" (Clienti approssimati) può essere utilizzata nei report:
+Questo è il modo in cui la metrica &quot;Approximate Customers&quot; (Clienti approssimati) può essere utilizzata nei report:
 
 ![](assets/approx-customers.png)
 
 ## Superato il numero di errori {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai limiti [di](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)"univesità superate". Se per una dimensione viene raggiunto il limite di "univoci superate" entro un mese specifico, il valore viene conteggiato come 1 elemento dimensione.
+Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai limiti [di](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)&quot;univesità superate&quot;. Se per una dimensione viene raggiunto il limite di &quot;univoci superate&quot; entro un mese specifico, il valore viene conteggiato come 1 elemento dimensione.
 
 ## Confronto delle funzioni di conteggio {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -75,7 +75,7 @@ Questa funzione sarà leggermente meno accurata di Count() e RowCount() perché 
 
 ## Arco coseno (riga) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
-Restituisce l'arcocoseno, o l'inverso del coseno, di una metrica. L'arcoseno è l'angolo il cui coseno è numero. L'angolo restituito è espresso in radianti compresi tra 0 (zero) e pi. Per convertire il risultato dai radianti in gradi, moltiplicatelo per 180/PI( ).
+Restituisce l&#39;arccosina, o l&#39;inverso del coseno, di una metrica. L&#39;arcoseno è l&#39;angolo il cui coseno è numero. L&#39;angolo restituito è espresso in radianti compresi tra 0 (zero) e pi. Per convertire il risultato dai radianti in gradi, moltiplicatelo per 180/PI( ).
 
 ```
 ACOS(metric)
@@ -83,11 +83,11 @@ ACOS(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Coseno dell'angolo desiderato da -1 a 1. |
+| *metrica* | Coseno dell&#39;angolo desiderato da -1 a 1. |
 
 ## Arco sinusoidale (riga) {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
-Restituisce l'arcoseno, o seno inverso, di un numero. L'arcsina è l'angolo il cui seno è numero. L’angolo restituito è espresso in radianti nell’intervallo da -pi/2 a pi/2. Per esprimere l'arcsina in gradi, moltiplicate il risultato per 180/PI( ).
+Restituisce l&#39;arcoseno, o seno inverso, di un numero. L&#39;arcsina è l&#39;angolo il cui seno è numero. L’angolo restituito è espresso in radianti nell’intervallo da -pi/2 a pi/2. Per esprimere l&#39;arcsina in gradi, moltiplicate il risultato per 180/PI( ).
 
 ```
 ASIN(metric) 
@@ -95,11 +95,11 @@ ASIN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Coseno dell'angolo desiderato da -1 a 1. |
+| *metrica* | Coseno dell&#39;angolo desiderato da -1 a 1. |
 
 ## Tangente arco (riga) {#concept_3408520673774A10998E9BD8B909E90C}
 
-Restituisce l'arcotangente, o tangente inversa, di un numero. L'arctangent è l'angolo la cui tangente è un numero. L’angolo restituito è espresso in radianti nell’intervallo da -pi/2 a pi/2. Per esprimere l’angolo di inclinazione in gradi, moltiplicate il risultato per 180/PI( ).
+Restituisce l&#39;arcotangente, o tangente inversa, di un numero. L&#39;arctangent è l&#39;angolo la cui tangente è un numero. L’angolo restituito è espresso in radianti nell’intervallo da -pi/2 a pi/2. Per esprimere l’angolo di inclinazione in gradi, moltiplicate il risultato per 180/PI( ).
 
 ```
 ATAN(metric)
@@ -107,11 +107,11 @@ ATAN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Coseno dell'angolo desiderato da -1 a 1. |
+| *metrica* | Coseno dell&#39;angolo desiderato da -1 a 1. |
 
 ## Regressione esponenziale: Predicato Y (riga) {#concept_25615693312B4A7AB09A2921083502AD}
 
-Calcola i valori y previsti (metrica_Y), in base ai valori x noti (metrica_X) utilizzando il metodo dei "minimi quadrati" per calcolare la riga di adattamento ottimale in base a .
+Calcola i valori y previsti (metrica_Y), in base ai valori x noti (metrica_X) utilizzando il metodo dei &quot;minimi quadrati&quot; per calcolare la riga di adattamento ottimale in base a .
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -161,7 +161,7 @@ CEILING(metric)
 
 ## Coseno (riga) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
-Restituisce il coseno dell'angolo specificato. Se l'angolo è in gradi, moltiplicate l'angolo per PI( )/180.
+Restituisce il coseno dell&#39;angolo specificato. Se l&#39;angolo è in gradi, moltiplicate l&#39;angolo per PI( )/180.
 
 ```
 COS(metric)
@@ -204,7 +204,7 @@ Restituisce la media delle ultime righe N.
 
 Se N &lt;= 0 utilizza tutte le righe precedenti. Poiché è ordinato dalla dimensione, è utile solo per le dimensioni che hanno un ordine naturale come data o lunghezza del percorso.
 
-> [!NOTE] Ciò non funziona come previsto con metriche di tasso come entrate/visitatori: essa calcola la media dei tassi invece di sommare le entrate rispetto all'ultima N e sommare i visitatori rispetto all'ultima N e quindi dividendoli. Utilizzate
+>[!NOTE] Questo non funziona come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi invece di sommare le entrate rispetto all&#39;ultima N e sommare i visitatori rispetto all&#39;ultima N e quindi dividendoli. Utilizzate
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -216,7 +216,7 @@ Restituisce elementi che corrispondono esattamente a un valore numerico o a una 
 
 ## Coefficiente di correlazione esponenziale (tabella) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Restituisce il coefficiente di correlazione, *r*, tra due colonne metriche ( *metriche_A* e *metriche_B*) per l'equazione di regressione.
+Restituisce il coefficiente di correlazione, *r*, tra due colonne metriche ( *metriche_A* e *metriche_B*) per l&#39;equazione di regressione.
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -229,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## Regressione esponenziale: Intercept (tabella) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Restituisce l'intercetta, *b*, tra due colonne metriche ( *metriche_X* e *metriche_Y*) per
+Restituisce l&#39;intercetta, *b*, tra due colonne metriche ( *metriche_X* e *metriche_Y*) per
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -265,11 +265,11 @@ FLOOR(metric)
 |---|---|
 | *metrica* | La metrica da arrotondare. |
 
-## Greater Than {#concept_A83734A0C0C14646B76D2CC5E677C644}
+## Maggiore di {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
 Restituisce elementi il cui conteggio numerico è maggiore del valore immesso.
 
-## Greater Than or Equal {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
+## Maggiore o uguale a {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
 
 Restituisce elementi il cui conteggio numerico è maggiore o uguale al valore immesso.
 
@@ -320,8 +320,8 @@ IF(logical_test, [value_if_true], [value_if_false])
 | Argomento | Descrizione |
 |---|---|
 | *logical_test* | Obbligatorio. Qualsiasi valore o espressione che può essere valutata su TRUE o FALSE. |
-| *[value_if_true]* | Il valore che si desidera restituire se l'argomento *logical_test* restituisce TRUE. (Questo argomento per impostazione predefinita è 0 se non è incluso.) |
-| *[value_if_false]* | Il valore che si desidera restituire se l'argomento *logical_test* restituisce FALSE. (Questo argomento per impostazione predefinita è 0 se non è incluso.) |
+| *[value_if_true]* | Il valore che si desidera restituire se l&#39;argomento *logical_test* restituisce TRUE. (Questo argomento per impostazione predefinita è 0 se non è incluso.) |
+| *[value_if_false]* | Il valore che si desidera restituire se l&#39;argomento *logical_test* restituisce FALSE. (Questo argomento per impostazione predefinita è 0 se non è incluso.) |
 
 ## Less Than {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -359,9 +359,9 @@ LOG10(metric)
 |---|---|
 | *metrica* | Numero reale positivo per il quale si desidera il logaritmo base 10. |
 
-## Regolazione log: Coefficiente di correlazione (tabella) {#concept_F3EB35016B754E74BE41766E46FDC246}
+## regressione del registro: Coefficiente di correlazione (tabella) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Restituisce il coefficiente di correlazione, *r*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per l'equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l'equazione CORREL.
+Restituisce il coefficiente di correlazione, *r*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per l&#39;equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l&#39;equazione CORREL.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -372,9 +372,9 @@ CORREL.LOG(metric_X,metric_Y)
 | *metriche_X* | Metrica che si desidera correlare con *metriche_Y*. |
 | *metriche_Y* | Metrica che si desidera correlare con *metriche_X*. |
 
-## Regolazione log: Intercept (tabella) {#concept_75A3282EDF54417897063DC26D4FA363}
+## regressione del registro: Intercept (tabella) {#concept_75A3282EDF54417897063DC26D4FA363}
 
-Restituisce l'intercetta *b* come regressione dei minimi quadrati tra due colonne metriche (*metriche_X* e *metriche_Y*) per l'equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l'equazione INTERCEPT.
+Restituisce l&#39;intercetta *b* come regressione dei minimi quadrati tra due colonne metriche (*metriche_X* e *metriche_Y*) per l&#39;equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l&#39;equazione INTERCEPT.
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
@@ -387,9 +387,9 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Regressione registro: Predicato Y (riga) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calcola i [!DNL y] valori previsti (metrica_Y), in base ai [!DNL x] valori noti (metrica_X) utilizzando il metodo "minimi quadrati" per calcolare la riga di adattamento ottimale in base a [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l'equazione STIMATE.
+Calcola i [!DNL y] valori previsti (metrica_Y), in base ai [!DNL x] valori noti (metrica_X) utilizzando il metodo &quot;minimi quadrati&quot; per calcolare la riga di adattamento ottimale in base a [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l&#39;equazione STIMATE.
 
-Nell'analisi di regressione, questa funzione calcola i [!DNL y] valori previsti (*metriche_Y*), dati i [!DNL x] valori noti (*metriche_X*) utilizzando il logaritmo per calcolare la linea più adatta all'equazione di regressione [!DNL Y = a ln(X) + b]. I [!DNL a] valori corrispondono a ciascun valore x ed [!DNL b] è un valore costante.
+Nell&#39;analisi di regressione, questa funzione calcola i [!DNL y] valori previsti (*metriche_Y*), dati i [!DNL x] valori noti (*metriche_X*) utilizzando il logaritmo per calcolare la linea più adatta all&#39;equazione di regressione [!DNL Y = a ln(X) + b]. I [!DNL a] valori corrispondono a ciascun valore x ed [!DNL b] è un valore costante.
 
 ```
 ESTIMATE.LOG(metric_X, metric_Y)
@@ -400,9 +400,9 @@ ESTIMATE.LOG(metric_X, metric_Y)
 | *metriche_X* | Una metrica da designare come dati dipendenti. |
 | *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
-## Regolazione log: Pendenza (tabella) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
+## regressione del registro: Pendenza (tabella) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Restituisce la pendenza, *a*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per l'equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l'equazione SLOPE.
+Restituisce la pendenza, *a*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per l&#39;equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l&#39;equazione SLOPE.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -415,7 +415,7 @@ SLOPE.LOG(metric_A, metric_B)
 
 ## Registro naturale {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
-Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano sulla costante *e* (2.71828182845904). LN è l'inverso della funzione EXP.
+Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano sulla costante *e* (2.71828182845904). LN è l&#39;inverso della funzione EXP.
 
 ```
 LN(metric)
@@ -435,9 +435,9 @@ NOT(logical)
 
 | Argomento | Descrizione |
 |---|---|
-| *logico* | Obbligatorio. Un valore o un'espressione che può essere valutata su TRUE o FALSE. |
+| *logico* | Obbligatorio. Un valore o un&#39;espressione che può essere valutata su TRUE o FALSE. |
 
-Per utilizzare NOT è necessario verificare se le espressioni (&lt;, &gt;, =, &lt;&gt;, ecc.) restituisce 0 o 1 valori.
+Per utilizzare NOT è necessario verificare se le espressioni (&lt;, >, =, &lt;>, ecc.) restituisce 0 o 1 valori.
 
 ## Non uguale {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -447,7 +447,7 @@ Restituisce tutti gli elementi che non contengono la corrispondenza esatta del v
 
 Restituisce TRUE se un qualsiasi argomento è TRUE o FALSE se tutti gli argomenti sono FALSE.
 
-> [!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
+>[!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -483,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## Regolazione di potenza: Intercept (tabella) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Restituisce l'intercetta, *b*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per [!DNL Y = b*X].
+Restituisce l&#39;intercetta, *b*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per [!DNL Y = b*X].
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -496,7 +496,7 @@ Restituisce l'intercetta, *b*, tra due colonne metriche (*metriche_X* e *metrich
 
 ## Regolazione di potenza: Predicato Y (riga) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calcola i [!DNL y] valori previsti ( [!DNL metric_Y]), in base ai [!DNL x] valori noti ( [!DNL metric_X]) utilizzando il metodo dei "minimi quadrati" per calcolare la riga di migliore adattamento [!DNL Y = b*X].
+Calcola i [!DNL y] valori previsti ( [!DNL metric_Y]), in base ai [!DNL x] valori noti ( [!DNL metric_X]) utilizzando il metodo dei &quot;minimi quadrati&quot; per calcolare la riga di migliore adattamento [!DNL Y = b*X].
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -535,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## Regolazione quadratica: Intercept (tabella) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Restituisce l'intercetta, *b*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per [!DNL Y=(a*X+b)]***.
+Restituisce l&#39;intercetta, *b*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per [!DNL Y=(a*X+b)]***.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -587,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## Regolazione reciproca: Intercept (tabella) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Restituisce l'intercetta, *b*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per [!DNL Y = a/X+b].
+Restituisce l&#39;intercetta, *b*, tra due colonne metriche (*metriche_X* e *metriche_Y*) per [!DNL Y = a/X+b].
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -626,7 +626,7 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 ## Sinusoidale (riga) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
-Restituisce il seno dell'angolo specificato. Se l'angolo è in gradi, moltiplicate l'angolo per PI( )/180.
+Restituisce il seno dell&#39;angolo specificato. Se l&#39;angolo è in gradi, moltiplicate l&#39;angolo per PI( )/180.
 
 ```
 SIN(metric)
@@ -668,7 +668,7 @@ Il valore restituito è la probabilità di visualizzare la statistica x del test
 
 ## Tangente {#concept_C25E00CB17054263AB0460D9EF94A700}
 
-Restituisce la tangente dell'angolo specificato. Se l'angolo è in gradi, moltiplicate l'angolo per PI( )/180.
+Restituisce la tangente dell&#39;angolo specificato. Se l&#39;angolo è in gradi, moltiplicate l&#39;angolo per PI( )/180.
 
 ```
 TAN (metric)
@@ -680,15 +680,15 @@ TAN (metric)
 
 ## Punteggio Z (riga) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-Restituisce il punteggio Z, o il punteggio normale, in base a una distribuzione normale. Il punteggio Z è il numero di deviazioni standard che un'osservazione è dalla media. Un punteggio Z pari a 0 (zero) indica che il punteggio è uguale alla media. Un punteggio Z può essere positivo o negativo, indicando se è superiore o inferiore alla media e il numero di deviazioni standard.
+Restituisce il punteggio Z, o il punteggio normale, in base a una distribuzione normale. Il punteggio Z è il numero di deviazioni standard che un&#39;osservazione è dalla media. Un punteggio Z pari a 0 (zero) indica che il punteggio è uguale alla media. Un punteggio Z può essere positivo o negativo, indicando se è superiore o inferiore alla media e il numero di deviazioni standard.
 
-L'equazione per il punteggio Z è:
+L&#39;equazione per il punteggio Z è:
 
 ![](assets/z_score.png)
 
 dove [!DNL x] è il punteggio grezzo, [!DNL μ] è la media della popolazione, ed [!DNL σ] è la deviazione standard della popolazione.
 
-> [!NOTE] [!DNL μ] (mu) e (sigma) vengono calcolati automaticamente dalla metrica[!DNL σ] .
+>[!NOTE] [!DNL μ] (mu) e (sigma) vengono calcolati automaticamente dalla metrica[!DNL σ] .
 
 Z-score(metrica)
 
@@ -709,9 +709,9 @@ Z-score(metrica)
 
 ## Z-Test {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
 
-Esegue un test Z con Z-taglia di A.
+Effettua un test Z con Z-code con Z-score di A.
 
 Restituisce la probabilità che la riga corrente possa essere vista per caso nella colonna.
 
-> [!NOTE] Presuppone che i valori siano normalmente distribuiti.
+>[!NOTE] Presuppone che i valori siano normalmente distribuiti.
 
