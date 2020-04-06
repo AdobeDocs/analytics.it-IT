@@ -2,7 +2,7 @@
 title: timestamp
 description: Imposta manualmente il timestamp dell’hit.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 La `timestamp` variabile imposta manualmente il timestamp dell’hit per le suite di rapporti abilitate per le marche temporali.
 
-> [!WARNING] Non utilizzate questa variabile se la suite di rapporti non è configurata in modo esplicito per accettare hit con marca temporale. AppMeasurement imposta automaticamente l’ora di un hit per le suite di rapporti che non supportano gli hit con marca temporale. Se invii un hit con questa variabile a una suite di rapporti che non supporta le marche temporali, quei dati andranno persi definitivamente.
+>[!WARNING] Non utilizzate questa variabile se la suite di rapporti non è configurata in modo esplicito per accettare gli hit con marca temporale. AppMeasurement imposta automaticamente l’ora di un hit per le suite di rapporti che non supportano gli hit con marca temporale. Se invii un hit con questa variabile a una suite di rapporti che non supporta le marche temporali, quei dati andranno persi definitivamente.
 
 ## Timestamp in Adobe Experience Platform Launch
 
