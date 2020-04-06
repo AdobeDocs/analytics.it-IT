@@ -2,7 +2,7 @@
 title: eVar
 description: Variabili personalizzate utilizzabili nell’implementazione.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 Le eVar sono variabili personalizzate che potete utilizzare come desiderate.
 
-> [!TIP] Nella maggior parte dei casi, Adobe consiglia di utilizzare le eVar sulle proprietà. Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia, Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop.
+>[!TIP] Nella maggior parte dei casi, Adobe consiglia di utilizzare le eVar sulle proprietà. Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia, Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop.
 
 Assicurati di registrare come utilizzi ogni eVar e la relativa logica nel documento [di progettazione della](../../prepare/solution-design.md)soluzione.
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 Se vengono date più di due posizioni decimali, il contatore eVar arrotonda a due posizioni decimali. Un contatore eVar non può contenere numeri negativi.
 
-> [!IMPORTANT] Prima di utilizzare le eVar dei contatori, devi configurare le eVar su &#39;Contatore&#39; nell&#39;Admin Console. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida di amministrazione.
+>[!IMPORTANT] Prima di utilizzare le eVar dei contatori, devi configurare le eVar su &#39;Contatore&#39; nell&#39;Admin Console. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida di amministrazione.
 
 ## Vantaggi esclusivi per proprietà o eVar
 
