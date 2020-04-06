@@ -2,8 +2,8 @@
 description: 'null'
 title: Alert Builder (Generatore di avvisi)
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Accedere al generatore di avvisi
 
-Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
+Accedi al Generatore di avvisi in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
@@ -35,17 +35,17 @@ Se hai già avuto modo di creare segmenti o metriche calcolate in Analytics, l�
 
 **Alert Name (Nome avviso)**
 
-Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o la soglia di metrica.
+Specificate un nome per l’avviso. Il nome dell&#39;avviso può contenere il nome del rapporto o la soglia delle metriche.
 
 **Time Granularity (Granularità tempo)**
 
 Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
 
-> [!NOTE] Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
+>[!NOTE] Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
 
 **Recipients (Destinatari)**
 
-Specifica a chi deve essere inviato l’avviso. Può essere inviato a un utente o un gruppo di Analytics, a un indirizzo e-mail o a un numero telefonico.
+Specifica dove può essere inviato l’avviso. Un avviso può essere inviato a un utente Analytics, a un gruppo Analytics, a un indirizzo e-mail non elaborato o a un numero di telefono.
 
 >[!IMPORTANT]
 >
@@ -66,21 +66,21 @@ Imposta la data di scadenza dell’avviso.
 * Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
    Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti selezionati, viene visualizzato un messaggio con riferimento a **“componenti non compatibili”**.
-* Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
+* Determinare la soglia che la metrica deve superare prima che venga impostato un avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
-   * anomaly exists (l’anomalia esiste)
-   * anomaly is above expected (l’anomalia supera il valore previsto)
-   * anomaly is below expected (l’anomalia è inferiore al valore previsto)
-   * is above or equals (è superiore o uguale a)
-   * is below or equals (è inferiore o uguale a)
-   * changes by (cambia di)
+   * anomalia esistente
+   * anomalia al di sopra del previsto
+   * anomalia al di sotto del previsto
+   * è superiore o uguale a
+   * è inferiore o uguale a
+   * modifiche di
    * Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
    È anche possibile utilizzare metriche calcolate.
 
 *... With These Filters (...con questi filtri)*
 
-* Trascina segmenti o dimensioni per aggiungere i filtri. Ad esempio, se si aggiunge un segmento “Mobile Devices Only” (Solo dispositivi mobili) la regola viene attivata solo per i dispositivi mobili.
-* Per aggiungere altri segmenti si utilizza l’operatore AND.
+* Trascina segmenti o dimensioni per aggiungere filtri. Ad esempio, se si aggiunge un segmento &quot;Solo dispositivi mobili&quot; la regola viene attivata solo per i dispositivi mobili.
+* Altri filtri verranno aggiunti utilizzando un&#39;istruzione AND.
 
 **Aggiungere una regola**
 
@@ -88,10 +88,10 @@ Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio
 
 ## Anteprima avvisi {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.
+L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso in base all’esperienza passata.
 
-Ad esempio, se imposti la granularità su Ogni giorno, l’anteprima indicherà che l’avviso è stato attivato x volte per una specifica metrica negli ultimi 30 o 31 giorni.
+Ad esempio, se imposti la granularità dell’ora su Ogni giorno, l’anteprima indicherà che l’avviso sarebbe stato attivato x volte per una metrica specifica negli ultimi 30 o 31 giorni.
 
-Se sono stati attivati troppi avvisi, puoi regolare la soglia in [Alert Manager](/help/components/c-alerts/alert-manager.md) (Gestione avvisi).
+Se si è scoperto che troppi avvisi sarebbero stati attivati, è possibile regolare la soglia nella Gestione [](/help/components/c-alerts/alert-manager.md)avvisi.
 
 ![](assets/alert_preview.png)
