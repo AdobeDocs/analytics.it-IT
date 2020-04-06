@@ -2,14 +2,14 @@
 title: s_objectID
 description: Help Activity Map identifica i collegamenti univoci sul sito.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s_objectID
 
-La `s_objectID` variabile fornisce un identificatore univoco per un collegamento. Viene utilizzato per rendere più precisi i rapporti nella Mappa [](/help/analyze/activity-map/activity-map.md) attività. Se in una pagina sono presenti collegamenti che si modificano di frequente, è possibile utilizzare la `s_objectID` variabile per indicare la Activity Map di una posizione di collegamento univoca in modo che possa raggruppare correttamente i dati come desiderato.
+La `s_objectID` variabile fornisce un identificatore univoco per un collegamento. Viene utilizzato per rendere più precisi i rapporti nella Mappa [](/help/analyze/activity-map/activity-map.md) dell&#39;attività. Se in una pagina sono presenti collegamenti che si modificano di frequente, è possibile utilizzare la `s_objectID` variabile per indicare la Activity Map di una posizione di collegamento univoca in modo che possa raggruppare correttamente i dati come desiderato.
 
 Se la precisione della Activity Map è fondamentale per la vostra organizzazione, Adobe consiglia di includere la `s_objectID` variabile in `onClick` caso di collegamenti sul sito. Per ulteriori informazioni, consulta la sezione relativa al tracciamento dei collegamenti nella guida per l’analisi dei casi [di utilizzo della mappa di](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) attività.
 
@@ -27,15 +27,15 @@ Questa variabile viene generalmente impostata in `onClick` caso di collegamento 
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-> [!NOTE] Includere sempre il punto e virgola che termina un&#39;istruzione JavaScript. Il punto e virgola è richiesto per il funzionamento della Activity Map.
+>[!NOTE] Includere sempre il punto e virgola che termina un&#39;istruzione JavaScript. Il punto e virgola è richiesto per il funzionamento della Activity Map.
 
-## Casi di utilizzo
+## Casi d’uso
 
 La `s_objectID` variabile è utile ogni volta che si desidera una maggiore precisione nei rapporti Activity Map.
 
 ### Aggrega collegamenti da contenuti altamente dinamici
 
-Alcuni siti presentano contenuti altamente dinamici, come siti di notizie o siti di vendita al dettaglio con articoli che vengono spesso ruotati. Poiché Activity Map utilizza l&#39;URL del collegamento come identificatore per impostazione predefinita, è difficile comprendere le aree su cui si fa clic di più sulle pagine in cui i collegamenti cambiano spesso. Se utilizzate i collegamenti `s_objectID` all&#39;interno di tali collegamenti, Activity Map comprende quali collegamenti possono essere aggregati, indipendentemente dagli URL a cui fanno riferimento.
+Alcuni siti presentano contenuti altamente dinamici, come siti di notizie o siti di vendita al dettaglio con articoli che vengono spesso ruotati. Poiché Activity Map utilizza l&#39;URL del collegamento come identificatore per impostazione predefinita, è difficile comprendere le aree su cui si fa clic di più sulle pagine in cui i collegamenti si modificano frequentemente. Se utilizzate i collegamenti `s_objectID` all&#39;interno di tali collegamenti, Activity Map comprende quali collegamenti possono essere aggregati, indipendentemente dagli URL a cui fanno riferimento.
 
 ```HTML
 <a href="story1.html" onClick="s_objectID='Top left link';">Story 1</a>
