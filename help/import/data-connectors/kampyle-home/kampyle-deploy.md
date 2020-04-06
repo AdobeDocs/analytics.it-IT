@@ -3,7 +3,7 @@ description: nulle
 title: Distribuzione dell'integrazione
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ Per attivare l&#39;integrazione, completare la procedura guidata di configurazio
 
 Dopo aver completato la procedura guidata di integrazione, distribuite l&#39;oggetto di configurazione dell&#39;integrazione nella proprietà Web. In molti casi, il modo più semplice per distribuire l&#39;oggetto di configurazione dell&#39;integrazione consiste nell&#39;includerlo nel codice di distribuzione di Adobe Analytics.
 
-> [!NOTE] Se utilizzi Adobe Experience Platform Launch, puoi facilmente aggiungere l&#39;oggetto di configurazione dell&#39;integrazione tramite tale strumento.
+>[!NOTE] Se utilizzi Adobe Experience Platform Launch, puoi facilmente aggiungere l&#39;oggetto di configurazione dell&#39;integrazione tramite tale strumento.
 
 1. Passate alla scheda **[!UICONTROL Resources]** > **[!UICONTROL Support]** dell&#39;integrazione.
 1. Scaricate e salvate la **[!UICONTROL Kampyle Integration Code (JS)]** risorsa. Il codice è simile al seguente:
@@ -61,7 +61,7 @@ Verificare che l&#39;integrazione trasferisca correttamente i dati completando u
 
 Visualizza la configurazione dell’integrazione di Kampyle in Adobe Experience Cloud accedendo a **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Nella **[!UICONTROL Data In]** scheda, è possibile visualizzare le voci che indicano che i dati di classificazione sono stati importati correttamente.
 
-> [!NOTE] Le voci di registro vengono visualizzate in genere entro 24 ore dalla distribuzione completata.
+>[!NOTE] Le voci di registro vengono visualizzate in genere entro 24 ore dalla distribuzione completata.
 
 ![Registro attività integrazione](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ Visualizza la configurazione dell’integrazione di Kampyle in Adobe Experience 
 
 Visualizzare i rapporti di feedback di Kampyle con Adobe Analytics andando alla generazione di rapporti di Kampyle all&#39;interno della struttura di menu appropriata.
 
-> [!NOTE] I dati di reporting devono essere visualizzati entro 24-48 ore dalla distribuzione riuscita, partendo dal presupposto che i moduli di feedback integrati ricevano attivamente gli invii.
+>[!NOTE] I dati di reporting devono essere visualizzati entro 24-48 ore dalla distribuzione riuscita, partendo dal presupposto che i moduli di feedback integrati ricevano attivamente gli invii.
 
 ![Dati di reporting Adobe](assets/adobe_reporting_data.png)
