@@ -5,14 +5,14 @@ title: Esempi
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Esempi
 
-Esempi per fornire indicazioni per l'importazione di classificazioni numeriche 2.
+Esempi per fornire indicazioni per l&#39;importazione di classificazioni numeriche 2.
 
 <!-- 
 
@@ -55,7 +55,7 @@ c_example_2__rate.xml
 
 | Chiave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_jan_var` | 1 | 0,2 |
+| Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product2 | Text2 | `Cost2_jan_var` | 2 | .3 |
 | Product1 | Text1 | `Cost1_feb_var` |  | .15 |
 | Product2 | Text2 | `Cost2_feb_var` |  | .25 |
@@ -67,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | ricavo | ricavo |
 | 2010/02/01 - 2010/02/28 | ricavo | ricavo |
 
-A febbraio, il costo dell'utente per Product1 è sceso al 15% delle entrate, e Product2 è sceso al 25% delle entrate.
+A febbraio, il costo dell&#39;utente per Product1 è sceso al 15% delle entrate, e Product2 è sceso al 25% delle entrate.
 
 ## Risultato {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -115,8 +115,8 @@ c_example_3__fixed.xml
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
-| 2010/03/01 - 2010/03/31 | fixed |  none |
-| 2010/03/01 - 2010/03/31 | fixed |  none |
+| 2010/03/01 - 2010/03/31 | fixed | none |
+| 2010/03/01 - 2010/03/31 | fixed | none |
 
 ## Risultato {#section_674B57ADB8284B878F9E670038C31464}
 
@@ -141,7 +141,7 @@ In questo esempio, si aggiunge una spesa di spedizione di $500 al Prodotto1 per 
 
 | Chiave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_jan_var` | 1 | 0,2 |
+| Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product1 | Text1 | `Cost2_jan_fixed` |  | 500 |
 | Product1 | Text1 | `Cost1_feb_var` | 2 | .15 |
 | Product1 | Text1 | `Cost2_feb_fixed` |  | 600 |
@@ -149,11 +149,11 @@ In questo esempio, si aggiunge una spesa di spedizione di $500 al Prodotto1 per 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
 | 2010/01/01 - 2010/01/31 | ricavo | ricavo |
-| 2010/01/01 - 2010/01/31 | fixed |  none |
+| 2010/01/01 - 2010/01/31 | fixed | none |
 | 2010/02/01 - 2010/01/31 | ricavo | ricavo |
-| 2010/02/01 - 2010/01/31 | fixed |  none |
+| 2010/02/01 - 2010/01/31 | fixed | none |
 
-Le righe precedentemente importate hanno un ID che indica che non sono nuovi costi.
+Le righe precedentemente importate dispongono di un ID che indica che non sono nuovi costi.
 
 ## Risultato {#section_2096084176614B9AA60F97D5853CB9EA}
 
@@ -167,7 +167,7 @@ Rapporto: Prodotti
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
-> [!NOTE] Questa funzione consente agli utenti avanzati di approssimare i valori. Le informazioni risultanti non devono essere trattate come valori esatti.
+>[!NOTE] Questa funzione consente agli utenti avanzati di approssimare i valori. Le informazioni risultanti non devono essere trattate come valori esatti.
 
 <!-- 
 
@@ -175,7 +175,7 @@ c_example_5__identical_rate_hinge.xml
 
  -->
 
-L'esempio seguente illustra:
+L&#39;esempio seguente illustra quanto segue:
 
 | Chiave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
@@ -193,7 +193,7 @@ Periodo: Mar 2010
 
 Rapporto: Prodotti per pagina
 
-|  Prodotti per pagina | Ordini | MyCost |
+| Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $1000.00 |
 | Home page | 600 | $600 |
@@ -212,8 +212,8 @@ c_example_5__fixed_no_hinge.xml
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
-| 2010/03/01 - 2010/03/31 | fixed |  none |
-| 2010/03/01 - 2010/03/31 | fixed |  none |
+| 2010/03/01 - 2010/03/31 | fixed | none |
+| 2010/03/01 - 2010/03/31 | fixed | none |
 
 ## Risultato {#section_7F5F5970077D4E14A5DC91495E23540D}
 
@@ -223,7 +223,7 @@ Periodo: Mar 2010
 
 Rapporto: Prodotti per pagina
 
-|  Prodotti per pagina | Ordini | MyCost |
+| Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Home page | 600 | 0 |
@@ -255,7 +255,7 @@ Periodo: Mar 2010
 
 Rapporto: Prodotti per pagina
 
-|  Prodotti per pagina | Ordini | MyCost |
+| Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Home page | 600 | $1800.00 |
@@ -285,7 +285,7 @@ Periodo: Mar 2010
 
 Rapporto: Prodotti per pagina
 
-|  Prodotti per pagina | Ordini | MyCost |
+| Prodotti per pagina | Ordini | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Home page | 600 | $1,000.00 |
