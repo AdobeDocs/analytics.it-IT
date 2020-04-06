@@ -2,7 +2,7 @@
 title: t
 description: Inviare una chiamata di tracciamento della visualizzazione della pagina ad Adobe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -60,4 +60,4 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
-> [!NOTE] Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo, che comprendeva soluzioni storicamente adattate per diversi browser. La standardizzazione e le best practice nei browser più recenti non richiedono più questo blocco di codice. È necessaria solo la chiamata del metodo `s.t()` ora.
+>[!NOTE] Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo, che comprendeva soluzioni storicamente adattate per diversi browser. La standardizzazione e le best practice nei browser più recenti non richiedono più questo blocco di codice. È necessaria solo la chiamata del metodo `s.t()` ora.
