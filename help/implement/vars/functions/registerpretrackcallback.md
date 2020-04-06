@@ -2,7 +2,7 @@
 title: registerPreTrackCallback
 description: Create le funzioni di callback prima di inviare un hit ad Adobe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 La `registerPreTrackCallback` variabile consente all’organizzazione di collegare una funzione JavaScript dopo che l’URL di una richiesta di immagine è stato compilato ma prima che venga inviato. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un&#39;infrastruttura partner o interna.
 
-> [!IMPORTANT] Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all’interno della [`registerPostTrackCallback`](registerposttrackcallback.md) variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
+>[!IMPORTANT] Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all’interno della [`registerPostTrackCallback`](registerposttrackcallback.md) variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
 
 Ogni volta che chiamate la `registerPreTrackCallback` variabile, agganciate la funzione per l’esecuzione ogni volta che viene compilato l’URL di una richiesta di immagine. Evitare di registrare la stessa funzione più volte nello stesso caricamento di pagina.
 
-> [!NOTE] I tempi e l&#39;ordine delle funzioni attivate tra `registerPreTrackCallback` e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
+>[!NOTE] I tempi e l&#39;ordine delle funzioni attivate tra `registerPreTrackCallback` e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
 
 ## Registra il callback pre-traccia nel lancio della piattaforma Adobe Experience
 
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-> [!NOTE] L&#39;impostazione di variabili di pagina o la modifica della `requestUrl` stringa all&#39;interno di questa funzione **non** influiscono sulla richiesta di immagine inviata subito dopo la chiamata di questa funzione. Utilizzare invece la [`doPlugins()`](doplugins.md) variabile.
+>[!NOTE] L&#39;impostazione di variabili di pagina o la modifica della `requestUrl` stringa all&#39;interno di questa funzione **non** influiscono sulla richiesta di immagine inviata subito dopo la chiamata di questa funzione. Utilizzare invece la [`doPlugins()`](doplugins.md) variabile.
