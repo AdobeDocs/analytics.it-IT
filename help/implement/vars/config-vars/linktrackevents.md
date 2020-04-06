@@ -2,7 +2,7 @@
 title: linkTrackEvents
 description: Determinare gli eventi da includere nelle richieste di tracciamento dei collegamenti per le immagini.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,15 +17,15 @@ Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina 
 
 Launch rileva automaticamente gli eventi definiti nell’interfaccia e li include negli hit di tracciamento dei collegamenti.
 
-> [!IMPORTANT] Se si impostano gli eventi in Launch utilizzando l&#39;editor di codice personalizzato, è necessario includere l&#39;evento anche nell&#39; `linkTrackEvents` uso del codice personalizzato.
+>[!IMPORTANT] Se si impostano gli eventi in Launch utilizzando l&#39;editor di codice personalizzato, è necessario includere l&#39;evento anche nell&#39; `linkTrackEvents` uso del codice personalizzato.
 
 ## s.linkTrackEvents in AppMeasurement e Launch editor di codice personalizzato
 
 La `s.linkTrackEvents` variabile è una stringa contenente un elenco delimitato da virgole di eventi che si desidera includere nelle richieste di tracciamento dei collegamenti delle immagini (`tl()` metodo). Per includere le metriche negli hit di tracciamento dei collegamenti, devono essere soddisfatti i tre criteri seguenti:
 
-* Impostate l’evento desiderato nella [`events`](../page-vars/events/events-overview.md) variabile. Ad esempio, `s.events = "event1";` (Indirizzo IP).
-* Set the `events` variable in `linkTrackVars`. Ad esempio, `s.linkTrackVars = "events";` (Indirizzo IP).
-* Impostate l’evento desiderato nella `linkTrackEvents` variabile. Ad esempio, `s.linkTrackEvents = "event1";` (Indirizzo IP).
+* Impostate l’evento desiderato nella [`events`](../page-vars/events/events-overview.md) variabile. Ad esempio, `s.events = "event1";`.
+* Set the `events` variable in `linkTrackVars`. Ad esempio, `s.linkTrackVars = "events";`.
+* Impostate l’evento desiderato nella `linkTrackEvents` variabile. Ad esempio, `s.linkTrackEvents = "event1";`.
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
@@ -33,7 +33,7 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 Il valore predefinito per questa variabile è una stringa vuota. Se questa variabile non è definita, tutti gli eventi vengono inclusi nelle richieste di immagini per il tracciamento dei collegamenti. Si noti che Launch compila automaticamente questa variabile in base agli eventi impostati nell&#39;interfaccia, pertanto è sempre impostata nelle implementazioni tramite Launch.
 
-> [!TIP] Evitare di utilizzare l&#39;identificatore oggetto (`s.`) di Analytics quando si specificano gli eventi in questa variabile. Ad esempio, `s.linkTrackEvents = "event1";` è corretta, mentre `s.linkTrackEvents = "s.event1";` è errata.
+>[!TIP] Evitare di utilizzare l&#39;identificatore oggetto (`s.`) di Analytics quando si specificano gli eventi in questa variabile. Ad esempio, `s.linkTrackEvents = "event1";` è corretta, mentre `s.linkTrackEvents = "s.event1";` è errata.
 
 ## Esempio
 
