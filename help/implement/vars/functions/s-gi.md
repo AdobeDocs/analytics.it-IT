@@ -2,7 +2,7 @@
 title: s_gi()
 description: Crea e monitora le istanze di AppMeasurement.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,7 +26,7 @@ Il campo di testo della variabile globale consente di impostare un oggetto di tr
 
 Chiamare la `s_gi()` funzione per creare un&#39;istanza di un oggetto di tracciamento. L&#39;unico argomento contiene una stringa delimitata da virgole di ID suite di rapporti. L&#39;argomento ID suite di rapporti è obbligatorio.
 
-> [!TIP] Adobe consiglia di utilizzare la `s` variabile come oggetto di tracciamento. Adobe utilizza `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, potete utilizzare qualsiasi variabile purché sia coerente sul sito.
+>[!TIP] Adobe consiglia di utilizzare la `s` variabile come oggetto di tracciamento. Adobe utilizza `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, potete utilizzare qualsiasi variabile purché sia coerente sul sito.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel documento [di progettazione della](../../prepare/solution-design.md)soluzione aziendale.
+>[!CAUTION] Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel documento [di progettazione della](../../prepare/solution-design.md)soluzione aziendale.
 
 ## Gestire più implementazioni utilizzando diversi oggetti di tracciamento
 
