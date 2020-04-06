@@ -3,7 +3,7 @@ description: Le suite di rapporti virtuali possono essere curate per includere e
 title: Cura dei componenti di suite di rapporti virtuali
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Le suite di rapporti virtuali possono essere curate per includere ed escludere componenti in Analysis Workspace.
 
-> [!NOTE]Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. In precedenza, facendo clic su **[!UICONTROL Show all Components]**. The [updated curation experience](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
+>[!NOTE]Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. Precedentemente, per visualizzare i componenti non curati era sufficiente fare clic su **[!UICONTROL Show all Components]**. The [updated curation experience](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
 
 Per abilitare la cura dei componenti,
 
-1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]** &gt; **[!UICONTROL Create new virtual report suite]**.
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
 1. Dopo aver definito la **[!UICONTROL Settings]**, fare clic sulla **[!UICONTROL Components]** scheda.
 
 1. Selezionate la casella di controllo **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
@@ -32,7 +32,7 @@ Per abilitare la cura dei componenti,
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * API di reportistica di Analytics
-   Una volta selezionato, puoi aggiungere i componenti che desideri includere nella suite di rapporti virtuali trascinando i componenti applicabili dalla colonna "Componenti esclusi" alla colonna "Componenti inclusi". I componenti che possono essere inclusi ed esclusi sono:
+   Una volta selezionato, puoi aggiungere i componenti che desideri includere nella suite di rapporti virtuali trascinando i componenti applicabili dalla colonna &quot;Componenti esclusi&quot; alla colonna &quot;Componenti inclusi&quot;. I componenti che possono essere inclusi ed esclusi sono:
 
    * Dimensioni
    * Metriche
@@ -40,9 +40,9 @@ Per abilitare la cura dei componenti,
    * Intervalli di date
    >[!NOTE]
    >
-   >There is no need to *share* curated components (segments, calculated metrics, date ranges). Saranno sempre visibili in Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
+   >Non è necessario *condividere* componenti curati (segmenti, metriche calcolate, intervalli di date). Saranno sempre visibili in Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
 
-1. È inoltre possibile filtrare o cercare i componenti e aggiungere l'intera selezione filtrata alla colonna inclusa facendo clic **[!UICONTROL Add All]**.
+1. È inoltre possibile filtrare o cercare i componenti e aggiungere l&#39;intera selezione filtrata alla colonna inclusa facendo clic **[!UICONTROL Add All]**.
 
    ![](assets/vrs-add-all.png)
 
@@ -58,10 +58,10 @@ In Analysis Workspace, fai clic sull’icona delle informazioni relativa a quals
 
 ## Gruppi di componenti {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-Utilizza i gruppi di componenti per aggiungere componenti in massa alla suite di rapporti virtuale. Ad esempio, se desiderate importare un set predefinito di componenti specifico per l'analisi delle app mobili, selezionate il gruppo di app per dispositivi mobili. Un set di dimensioni e metriche corrispondente (già rinominato) viene aggiunto automaticamente all'elenco delle suite di rapporti virtuali Incluso.
+Utilizza i gruppi di componenti per aggiungere componenti in massa alla suite di rapporti virtuale. Ad esempio, se desiderate importare un set predefinito di componenti specifico per l&#39;analisi delle app mobili, selezionate il gruppo di app per dispositivi mobili. Un set di dimensioni e metriche corrispondente (già rinominato) viene aggiunto automaticamente all&#39;elenco delle suite di rapporti virtuali Incluso.
 
 ![](assets/vrs-comp-grp.png)
 
 ## Comportamento Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html).
+Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/curate.html).
