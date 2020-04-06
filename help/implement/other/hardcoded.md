@@ -2,7 +2,7 @@
 title: Implementazione con richieste di immagini hardcoded
 description: Implementare Adobe Analytics utilizzando un tag immagine HTML (richiesta immagine hardcoded)
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Librerie AppMeasurement fornite da variabili di compilazione Adobe presenti sull
 
 Questo metodo di implementazione può essere utilizzato su qualsiasi piattaforma in cui siano visualizzate immagini provenienti da origini esterne. Non si basa affatto su JavaScript.
 
-> [!NOTE] Sebbene le richieste di immagini hardcoded siano facili da configurare, è difficile eseguire il debug, la manutenzione e la modifica in scala per progetti più grandi. Prima di continuare, assicuratevi che le richieste di immagini hardcoded siano l&#39;opzione migliore.
+>[!NOTE] Sebbene le richieste di immagini hardcoded siano facili da configurare, è difficile eseguire il debug, la manutenzione e la modifica in scala per progetti più grandi. Prima di continuare, assicuratevi che le richieste di immagini hardcoded siano l’opzione migliore.
 
 ## Sintassi richiesta immagine
 
