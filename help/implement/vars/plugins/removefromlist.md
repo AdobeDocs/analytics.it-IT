@@ -2,14 +2,14 @@
 title: rfl
 description: Rimuovere un valore specifico da una stringa delimitata da caratteri.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: rfl (Rimuovi da elenco)
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `rfl` plug-in consente di rimuovere in modo &quot;sicuro&quot; i valori dalle stringhe delimitate, ad esempio [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)ecc. Questo plug-in è utile per rimuovere valori specifici da una stringa delimitata senza preoccuparsi dei delimitatori. Molti altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta, o se non si utilizzano plug-in dipendenti.
 
@@ -72,7 +72,7 @@ Se si chiama questo metodo, viene restituita una stringa modificata contenente l
 
 ### Esempio n. 1
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event24,event25";
@@ -92,7 +92,7 @@ s.events = "event22,event25";
 
 ### Esempio n. 2
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event24,event25";
@@ -114,7 +114,7 @@ In questo esempio, la chiamata rfl non ha apportato modifiche a s.events in quan
 
 ### Esempio n. 3
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event24,event25";
@@ -136,7 +136,7 @@ Se l&#39;argomento lv o vr è vuoto in una chiamata s.rfl, il plug-in non restit
 
 ### Esempio n. 4
 
-Se viene mostrato...
+Se...
 
 ```js
 s.prop4 = "hello|people|today";
@@ -164,7 +164,7 @@ Tenere presente che il plug-in restituisce solo un valore; in realtà non &quot;
 
 ### Esempio n. 5
 
-Se viene mostrato...
+Se...
 
 ```js
 s.prop4 = "hello|people|today";
@@ -186,7 +186,7 @@ Accertatevi di impostare l&#39;argomento d1 nei casi in cui il valore dell&#39;a
 
 ### Esempio n. 6
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23,event25";
@@ -208,7 +208,7 @@ Anche se questo esempio non è pratico, dimostra la necessità di trasmettere va
 
 ### Esempio n. 7
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23:12345,event25";
@@ -228,7 +228,7 @@ s.events = "event22,event25";
 
 ### Esempio n. 8
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23:12345,event25";
@@ -250,7 +250,7 @@ Per rimuovere un evento che utilizza la serializzazione e/o la sintassi numerica
 
 ### Esempio n. 9
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23,event23,event23,event24,event25";
@@ -270,7 +270,7 @@ s.events = "event22,event24,event25");
 
 ### Esempio n. 10
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23,event23,event23,event24,event25";
@@ -290,7 +290,7 @@ s.events = "event22,event23,event24,event25");
 
 ### Esempio n. 11
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23,event23,event23,event24,event25";
@@ -310,7 +310,7 @@ s.events = "event22|event23|event24|event25");
 
 ### Esempio n. 12
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23,event24,event25";
@@ -332,7 +332,7 @@ L&#39;impostazione di più valori nell&#39;argomento vr non è supportata. La lo
 
 ### Esempio n. 13
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23,event24,event25";
@@ -355,7 +355,7 @@ Ogni valore da rimuovere dall&#39;elenco deve essere contenuto all&#39;interno d
 
 ### Esempio n. 14
 
-Se viene mostrato...
+Se...
 
 ```js
 s.linkTrackVars = "events,eVar1,eVar2,eVar3";
@@ -377,7 +377,7 @@ Gli ultimi tre argomenti (vale a dire &quot;,&quot;,&quot;,&quot;, false) alla f
 
 ### Esempio n. 15
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23,event24";
