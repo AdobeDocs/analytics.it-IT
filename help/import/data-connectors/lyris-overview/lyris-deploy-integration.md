@@ -3,7 +3,7 @@ description: Descrive il processo di distribuzione in tre fasi.
 title: Distribuzione dell'integrazione
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Per attivare l&#39;integrazione, è necessario completare la procedura guidata d
 
    ![](assets/data_connectors.png)
 
-1. In **[!UICONTROL Add Integration]**, sotto Lyris HQ, fare clic su**[!UICONTROL Activate]**.
+1. In **[!UICONTROL Add Integration]**, sotto Lyris HQ, fare clic su **[!UICONTROL Activate]**.
 
    ![](assets/add_integration.png)
 
@@ -37,9 +37,9 @@ Per attivare l&#39;integrazione, è necessario completare la procedura guidata d
 
    ![](assets/variable_mapping.png)
 
-1. Puoi scegliere i tuoi segmenti **[!UICONTROL Your Segments]**- oltre ai 3 segmenti partner automatizzati.
+1. Puoi scegliere i tuoi segmenti **[!UICONTROL Your Segments]** - oltre ai 3 segmenti partner automatizzati.
 1. Questa integrazione potrebbe richiedere il download di alcuni punti dati al tuo account Lyris. È possibile scegliere di consentire l&#39;accesso a questa sezione **[!UICONTROL Access Request]**.
-1. In **[!UICONTROL Data Collection]**, potete scegliere una soluzione automatica o manuale (plug-in JavaScript) per raccogliere i parametri della stringa di query dall&#39;URL della pagina di destinazione. Se scegli di disporre di una soluzione automatizzata, immetti il parametro della stringa di query per ID messaggio e ID destinatario. Per un plug-in JavaScript, contattate il consulente Adobe.
+1. In **[!UICONTROL Data Collection]**, è possibile scegliere una soluzione automatizzata o manuale (plug-in JavaScript) per raccogliere i parametri della stringa di query dall&#39;URL della pagina di destinazione. Se scegli di disporre di una soluzione automatizzata, immetti il parametro della stringa di query per ID messaggio e ID destinatario. Per un plug-in JavaScript, contattate il vostro consulente Adobe.
 
    ![](assets/data_collection.png)
 
@@ -72,21 +72,21 @@ Passaggi per verificare che l&#39;integrazione tra Lyris e Adobe Analytics sia s
 
 Una volta completati tutti i passaggi di distribuzione, potete verificare che l&#39;integrazione trasferisca correttamente i dati.
 
-> [!NOTE] Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l&#39;integrazione.
+>[!NOTE] Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l&#39;integrazione.
 
-1. Passa alla tua integrazione Lyris all&#39;interno dei connettori dati. Sotto la **[!UICONTROL Support]**scheda >**[!UICONTROL Integration Activity Log]**, è possibile visualizzare eventi quali **[!UICONTROL Metric data imported successfully]**e/o**[!UICONTROL Classification data imported successfully]**:
+1. Passa alla tua integrazione Lyris all&#39;interno dei connettori dati. Sotto la **[!UICONTROL Support]** scheda > **[!UICONTROL Integration Activity Log]**, è possibile visualizzare eventi quali **[!UICONTROL Metric data imported successfully]** e/o **[!UICONTROL Classification data imported successfully]**:
 
    ![](assets/integration_info.png)
 
 1. Ora puoi visualizzare i tuoi rapporti sui messaggi di Lyris con le metriche appropriate. In Adobe Experience Cloud, seleziona **[!UICONTROL Reports & Analytics]**.
 1. Selezionate la suite di rapporti appropriata.
-1. In **[!UICONTROL Custom Conversions]**, selezionate il**[!UICONTROL Message ID Reports]** pulsante e scegliete **[!UICONTROL Message ID/Message Name]**.
+1. In **[!UICONTROL Custom Conversions]**, selezionate il **[!UICONTROL Message ID Reports]** pulsante e scegliete **[!UICONTROL Message ID/Message Name]**.
 
 ## Codice Plug-in parametro di stringa query{#query-string-param-plug-in-code}
 
 Mostra il codice del plug-in Lyris da utilizzare con Adobe Analytics.
 
-> [!NOTE] Prima di utilizzare il codice riportato di seguito, accertati di aver riservato le eVar necessarie in Adobe Analytics Tool. Una volta a conoscenza delle eVar che hai riservato, sostituisci eVarN con l’eVar pertinente. Ad esempio, eVar10.
+>[!NOTE] Prima di utilizzare il codice riportato di seguito, accertati di aver riservato le eVar necessarie in Adobe Analytics Tool. Una volta a conoscenza delle eVar che hai riservato, sostituisci eVarN con l’eVar pertinente. Ad esempio, eVar10.
 
 ```
 /* 
