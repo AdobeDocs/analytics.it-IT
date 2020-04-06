@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Crea funzioni di callback dopo l’invio di un hit ad Adobe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 La `registerPostTrackCallback` variabile consente all&#39;organizzazione di collegare una funzione JavaScript immediatamente dopo che un hit è stato inviato ad Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un&#39;infrastruttura interna, oppure per ripulire i valori variabili nelle applicazioni a pagina singola.
 
-> [!IMPORTANT] Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all’interno della `registerPostTrackCallback` variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
+>[!IMPORTANT] Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all’interno della `registerPostTrackCallback` variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
 
 Ogni volta che si chiama la `registerPostTrackCallback` variabile, si aggancia la funzione per l’esecuzione immediatamente dopo l’invio di una richiesta di immagine. Evitare di registrare la stessa funzione più volte nello stesso caricamento di pagina.
 
-> [!NOTE] I tempi e l&#39;ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
+>[!NOTE] I tempi e l&#39;ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
 
 ## Registra il richiamo del post-traccia nel lancio di Adobe Experience Platform
 
