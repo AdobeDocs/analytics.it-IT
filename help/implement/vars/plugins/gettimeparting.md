@@ -2,20 +2,20 @@
 title: getTimeParting
 description: Misurare il tempo in cui avviene un'azione specifica.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: getTimeParting
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `getTimeParting` plug-in consente di acquisire i dettagli del momento in cui si svolge un&#39;attività misurabile sul sito. Questo plug-in è utile per suddividere le metriche in base a una suddivisione ripetibile del tempo in un dato intervallo di date. Ad esempio, è possibile confrontare i tassi di conversione tra due giorni diversi della settimana, ad esempio tutti i giorni di domenica rispetto a tutti i giovedì. È inoltre possibile confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
+Il `getTimeParting` plug-in consente di acquisire i dettagli del momento in cui si svolge qualsiasi attività misurabile sul sito. Questo plug-in è utile per suddividere le metriche in base a una suddivisione ripetibile del tempo in un dato intervallo di date. Ad esempio, è possibile confrontare i tassi di conversione tra due giorni diversi della settimana, ad esempio tutti i giorni di domenica rispetto a tutti i giovedì. È inoltre possibile confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
 
 Analysis Workspace offre dimensioni simili e pronte all’uso, formattate in modo leggermente diverso rispetto a questo plug-in. Per ulteriori informazioni, consulta la sezione [Suddivisione delle dimensioni](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analisi. Alcune organizzazioni ritengono che le dimensioni predefinite di Analysis Workspace siano sufficienti.
 
-> [IMPORTANTE] versione 4.0+ di questo plug-in è notevolmente diversa rispetto alle versioni precedenti. Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in prima della versione 4.0 non è compatibile con la versione corrente del plug-in.
+>[IMPORTANTE] versione 4.0+ di questo plug-in è notevolmente diversa rispetto alle versioni precedenti. Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in prima della versione 4.0 non è compatibile con la versione corrente del plug-in.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
 
