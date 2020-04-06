@@ -2,7 +2,7 @@
 title: zip
 description: Compilare manualmente la dimensione "Codice ZIP" se le impostazioni della suite di rapporti lo consentono.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 La `zip` variabile consente di compilare manualmente la dimensione &quot;Codice ZIP&quot; se è consentita dalle impostazioni [!UICONTROL Zip Option] della suite di rapporti. Nelle versioni precedenti di Adobe Analytics, questa variabile poteva essere impostata solo manualmente, in genere quando si immettevano informazioni sulla spedizione in un sito per la vendita al dettaglio. I miglioramenti ad Adobe Analytics consentono di impostare automaticamente questa variabile utilizzando i dati di geolocalizzazione. Questa variabile non persiste oltre l’hit impostato.
 
-> [!IMPORTANT] Accertatevi che le impostazioni della suite di rapporti [!UICONTROL Zip Option] in siano impostate sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL geo zip] viene sempre utilizzata. Per ulteriori informazioni, consulta Impostazioni [account](/help/admin/admin/general-acct-settings-admin.md) generali nella guida utente per l&#39;amministratore.
+>[!IMPORTANT] Accertatevi che le impostazioni della suite di rapporti [!UICONTROL Zip Option] in siano impostate sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL geo zip] viene sempre utilizzata. Per ulteriori informazioni, consulta Impostazioni [account](/help/admin/admin/general-acct-settings-admin.md) generali nella guida utente per l&#39;amministratore.
 
 ## Zip in Adobe Experience Platform Launch
 
