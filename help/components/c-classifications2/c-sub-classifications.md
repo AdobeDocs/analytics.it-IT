@@ -5,7 +5,7 @@ title: Informazioni sulle classificazioni secondarie
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
 
-> [!NOTE] Per sottocategoria si intende la capacità di creare classificazioni di classificazioni. Tuttavia, non è lo stesso utilizzato [!UICONTROL Classification Hierarchy] per creare [!UICONTROL Hierarchy] rapporti. Per ulteriori informazioni sulle gerarchie di classificazione, vedere Gerarchie [di](classification-hierarchies.md)classificazione.
+>[!NOTE] Per sottocategoria si intende la capacità di creare classificazioni di classificazioni. Tuttavia, non è lo stesso utilizzato [!UICONTROL Classification Hierarchy] per creare [!UICONTROL Hierarchy] rapporti. Per ulteriori informazioni sulle gerarchie di classificazione, vedere Gerarchie [di](classification-hierarchies.md)classificazione.
 
 Ad esempio:
 
@@ -52,7 +52,7 @@ Ad esempio:
 
 Anche se il modello di file per una classificazione a più livelli è più complesso, la potenza delle classificazioni a più livelli è che i livelli separati possono essere caricati come file separati. Questo approccio può essere utilizzato per ridurre al minimo la quantità di dati da caricare periodicamente (quotidianamente, settimanalmente e così via) raggruppando i dati in livelli di classificazione che si modificano nel tempo rispetto a quelli che non lo sono.
 
-> [!NOTE] Se la [!UICONTROL Key] colonna in un file di dati è vuota, Adobe genera automaticamente chiavi univoche per ogni riga di dati. Per evitare possibili danneggiamenti del file durante il caricamento di un file di dati con dati di classificazione di secondo livello o di livello superiore, compilare ciascuna riga della [!UICONTROL Key] colonna con un asterisco (*).
+>[!NOTE] Se la [!UICONTROL Key] colonna in un file di dati è vuota, Adobe genera automaticamente chiavi univoche per ogni riga di dati. Per evitare possibili danneggiamenti del file durante il caricamento di un file di dati con dati di classificazione di secondo livello o di livello superiore, compilare ciascuna riga della [!UICONTROL Key] colonna con un asterisco (*).
 
 Consulta [Problemi](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) comuni relativi al caricamento delle classificazioni per la risoluzione dei problemi.
 
