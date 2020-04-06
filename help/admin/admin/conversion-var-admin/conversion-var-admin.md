@@ -5,12 +5,12 @@ title: Variabili di conversione (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 76613290f4496a400ba9c16171cef7e161a29cf3
 
 ---
 
 
-# Conversion Variables (Variabili di conversione) (eVars)
+# Variabili di conversione (eVar)
 
 La variabile di conversione dell&#39;intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l&#39;utente per un periodo di tempo predeterminato.
 
@@ -24,7 +24,7 @@ Le eVar vengono utilizzate in modo ottimale per misurare la causa e l&#39;effett
 
 Se si desidera misurare il traffico o il percorso, è consigliabile utilizzare le variabili di traffico.
 
-> [!NOTE] In una richiesta di immagine è possibile memorizzare un solo valore in una eVar. Se più valori sono desiderati in un valore eVar, si consiglia di implementare le variabili [Elenco (variabili elenco)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+> [!NOTE] In una richiesta di immagine è possibile memorizzare un solo valore in una eVar. Se più valori sono desiderati in un valore eVar, si consiglia di implementare le variabili [Elenco (variabili elenco)](https://marketing.adobe.com/resources/help/it_IT/sc/implement/listN.html).
 
 ## Variabili di conversione - Descrizioni {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -39,12 +39,12 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Nome </span> </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol">Nome</span> </p> </td> 
    <td colname="col2"> <p>Il nome descrittivo della variabile di conversione. Questo nome è il riferimento all'eVar nel reporting generale e sarà il nome del report nel menu a sinistra. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Tipo</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Il tipo di valore variabile: </p> <p> <b></b> Stringa</span>di testo: Acquisisce i valori di testo utilizzati nel sito. Si tratta del tipo di eVar più comune e dell'impostazione predefinita. Funziona in modo simile ad altre variabili, dove il valore al suo interno è una stringa di testo statica. Se tieni traccia di elementi quali campagne interne o parole chiave di ricerca interna, questa è l’impostazione consigliata. </p> <p> <b></b> Contatore</span>: Conta il numero di volte in cui un'azione si verifica prima dell'evento di successo. Ad esempio, se utilizzate un eVar per tenere traccia delle ricerche interne sul sito, impostate questo valore su <span class="uicontrol"> Stringa</span> di testo per tenere traccia dell'uso dei termini di ricerca. Impostate questo valore su <span class="uicontrol"> Contatore</span> per calcolare il numero di ricerche effettuate, indipendentemente dai termini di ricerca utilizzati. Ad esempio, è possibile utilizzare un'eVar contatore per tenere traccia del numero di volte in cui un utente ha utilizzato la ricerca interna prima di effettuare un acquisto. </p> </td> 
+   <td colname="col2"> <p>Il tipo di valore variabile: </p> <p> <b>Stringa</b>di testo:</span> Acquisisce i valori di testo utilizzati nel sito. Si tratta del tipo di eVar più comune e dell'impostazione predefinita. Funziona in modo simile ad altre variabili, dove il valore al suo interno è una stringa di testo statica. Se tieni traccia di elementi quali campagne interne o parole chiave di ricerca interna, questa è l’impostazione consigliata. </p> <p> <b>Contatore</b>:</span> Conta il numero di volte in cui un'azione si verifica prima dell'evento di successo. Ad esempio, se utilizzate un'eVar per tenere traccia delle ricerche interne sul sito, impostate questo valore su <span class="uicontrol"> Stringa</span> di testo per tenere traccia dell'uso dei termini di ricerca. Impostate questo valore su <span class="uicontrol"> Contatore</span> per calcolare il numero di ricerche effettuate, indipendentemente dai termini di ricerca utilizzati. Ad esempio, è possibile utilizzare un'eVar contatore per tenere traccia del numero di volte in cui un utente ha utilizzato la ricerca interna prima di effettuare un acquisto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Allocazione </span> </p> </td> 
@@ -54,7 +54,7 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
    <td colname="col1"> <p> <span class="uicontrol"> Scade dopo</span> </p> </td> 
    <td colname="col2"> <p>Specifica un periodo di tempo, o un evento, dopo il quale il valore eVar scade (non riceve più credito per gli eventi di successo). Se un evento di successo si verifica dopo la scadenza eVar, il valore None non riceve credito per l’evento (nessun eVar è attivo). </p> <p>Se selezioni un evento come valore di scadenza, la variabile scade solo se si verifica l’evento. Se l’evento non si verifica, la variabile non scade. </p> <p>Le opzioni di scadenza disponibili possono essere classificate in quattro categorie principali: </p> 
     <ul id="ul_810A37C9B6624F429F2FB45C18F7B43F"> 
-     <li id="li_654D9D9044EC4E61AA7ABA372DBF8A93"><b>A livello di visualizzazione pagina o visita.</b> Gli eventi di conversione oltre la visualizzazione della pagina o la visita non vengono associati all'eVar. </li> 
+     <li id="li_654D9D9044EC4E61AA7ABA372DBF8A93"><b>A livello di visualizzazione pagina o visita.</b> Gli eventi di conversione oltre la visualizzazione della pagina o la visita non si associano all'eVar. </li> 
      <li id="li_689FBC8B4DAC41B3B0166E6586DD1990"><b>In base a un periodo di tempo, ad esempio giorno, settimana, mese o anno.</b> Gli eventi di conversione oltre il periodo di tempo specificato non vengono associati all'eVar. Il periodo di scadenza inizia quando la variabile viene impostata. Le eVar scadono in base all'ora impostata, al secondo (minuto, ora, giorno, mese, ecc.): 
       <ul id="ul_80C7E3182B6B4356B8A3CA920B81C6D5"> 
        <li id="li_F16F60319CCE406D9EDEFEC0A200BC4D">MINUTO=60 secondi </li> 
@@ -76,15 +76,15 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Stato</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Definisce lo stato eVar: </p> <p><b></b> Disattivato</span>: Disattiva l'eVar. Rimuove l'eVar dall'elenco delle variabili di conversione. </p> <p> <b></b> Nessuna sottorelazione</span>: Impedisce la suddivisione dell'eVar con una sottorelazione. </p> <p> <b>Subrelazioni</b>di base: Consente di </span>suddividere un'eVar in base a qualsiasi rapporto con relazioni complete (ad esempio, Prodotti o Campagna). </p> </td> 
+   <td colname="col2"> <p>Definisce lo stato eVar: </p> <p><b>Disattivato</b>:</span> Disattiva l'eVar. Rimuove l'eVar dall'elenco delle variabili di conversione. </p> <p> <b>Nessuna sottorelazione</b>:</span> Impedisce la suddivisione dell'eVar con una sottorelazione. </p> <p> <b>Subrelazioni</b>di base: Consente di </span>suddividere un'eVar in base a qualsiasi rapporto con relazioni complete (ad esempio, Prodotti o Campagna). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Reset</span> </p> </td> 
-   <td colname="col2"> <p>Ripristina qualsiasi valore esistente nell'eVar. </p> <p>Utilizzare questa impostazione quando si ripropone un'eVar in modo da combinare un valore precedente in un nuovo rapporto. La reimpostazione non cancella i dati storici. </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Reimpostare</span> </p> </td> 
+   <td colname="col2"> <p>Reimposta eventuali valori esistenti nell'eVar. </p> <p>Utilizzare questa impostazione quando si ripropone un'eVar in modo da mixare un valore precedente in un nuovo rapporto. La reimpostazione non cancella i dati storici. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Le variabili di merchandising possono seguire una delle due sintassi: </p> <p> <b></b> Sintassi</span>prodotti: Associa il valore eVar a un prodotto. Nota:  Se Product Syntax (Sintassi prodotto) è selezionata, la sezione Merchandising Binding Event (Evento di binding merchandising) è disabilitata e non è selezionabile per la modifica. Per questa sintassi, gli eventi di binding non sono applicabili. </p> </p> <p> <b></b> Sintassi</span>variabile di conversione: Associa l'eVar a un prodotto solo se si verifica un evento di binding. In questo caso, è possibile selezionare gli eventi che fungono da eventi di binding. </p> <p>La modifica di questa impostazione senza aggiornare di conseguenza il codice JavaScript causa la perdita di dati. Consultate Variabili <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html"></a>di merchandising. </p> </td> 
+   <td colname="col2"> <p>Le variabili di merchandising possono seguire una delle due sintassi: </p> <p> <b>Sintassi</b>prodotti:</span> Associa il valore eVar a un prodotto. Nota:  Se Product Syntax (Sintassi prodotto) è selezionata, la sezione Merchandising Binding Event (Evento di binding merchandising) è disabilitata e non è selezionabile per la modifica. Per questa sintassi, gli eventi di binding non sono applicabili. </p> </p> <p> <b>Sintassi</b>variabile di conversione:</span> Associa l'eVar a un prodotto solo se si verifica un evento di binding. In questo caso, è possibile selezionare gli eventi che fungono da eventi di binding. </p> <p>La modifica di questa impostazione senza aggiornare di conseguenza il codice JavaScript causa la perdita di dati. Consultate Variabili <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html"></a>di merchandising. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento di binding Merchandising</span> </p> <p>(solo eVar) </p> </td> 
@@ -100,9 +100,11 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
 Esistono due modi per scadere di un&#39;eVar:
 
 * Potete impostare la scadenza dell&#39;eVar dopo un periodo di tempo o un evento specificato.
-* È possibile utilizzare Forza scadenza di un&#39;eVar, utile per riproporre una variabile.
+* È possibile utilizzare Forza scadenza di una eVar reimpostandola, utile per riproporre una variabile.
 
-Se un eVar viene utilizzato in maggio per riflettere le promozioni interne e scade dopo 21 giorni, e in giugno viene utilizzato per acquisire le parole chiave di ricerca interna, il 1 giugno è necessario forzare la scadenza o reimpostare la variabile. In questo modo, i rapporti di giugno consentiranno di mantenere i valori di promozione interni.
+Ad esempio, se cambi la scadenza di un eVar da 30 a 90 giorni, i valori eVar raccolti continueranno a persistere per la durata del nuovo set di scadenza (in questo caso, 90 giorni). Il sistema guarda semplicemente l&#39;impostazione della scadenza corrente e l&#39;ultima marca temporale impostata del valore eVar raccolta per determinare la scadenza. Solo l’ **[!UICONTROL Reset]** opzione scade i valori ed effettua questa operazione immediatamente.
+
+Un altro esempio: Se un eVar viene utilizzato in maggio per riflettere le promozioni interne e scade dopo 21 giorni, e in giugno viene utilizzato per acquisire le parole chiave di ricerca interna, il 1 giugno è necessario forzare la scadenza o reimpostare la variabile. In questo modo, i rapporti di giugno consentiranno di mantenere i valori di promozione interni.
 
 **Sensibilità maiuscole/minuscole**
 
