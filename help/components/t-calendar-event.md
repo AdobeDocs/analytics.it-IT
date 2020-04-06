@@ -3,8 +3,8 @@ description: Passaggi per aggiungere eventi di calendario e per gestire eventi c
 title: Eventi calendario
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Passaggi per aggiungere eventi di calendario e per gestire eventi condivisi.
 
-> [!NOTE] Per migliorare le prestazioni di reporting, gli ultimi 20 eventi di calendario principali vengono visualizzati su grafici con tendenze e tempo eccessivo.
+>[!NOTE] Per migliorare le prestazioni di reporting, gli ultimi 20 eventi di calendario principali vengono visualizzati su grafici con tendenze e tempo eccessivo.
 
 Per i report con tendenze nel tempo, puoi visualizzare in modo grafico gli eventi e vedere se campagne o altri eventi hanno interessato il traffico del tuo sito, le entrate o qualsiasi altra metrica. Il processo di configurazione di un evento calendario prevede la denominazione dell’evento, l’impostazione delle date, l’aggiunta di note e l’impostazione di un’icona. Ad esempio, se utilizzi Social, puoi creare un evento calendario per mostrare che esiste una correlazione tra un aumento del traffico del sito e la menzione di un prodotto tramite una celebrità utilizzando Twitter.
 
@@ -30,7 +30,7 @@ Per i report con tendenze nel tempo, puoi visualizzare in modo grafico gli event
    1. Fai clic su **[!UICONTROL Push To Users]**.
    1. Fai clic su **[!UICONTROL Check All]** o controlla la casella accanto al nome utente.
    1. Fai clic su **[!UICONTROL Save]**.
-   In questo modo gli eventi del calendario sono maggiormente utilizzabili. Analytics ora può forzare una sovrapposizione nel report dell&#39;utente per fornire più contesto.
+   Questo rende gli eventi del calendario molto più utilizzabili. Gli analisti ora possono forzare una sovrapposizione nei rapporti degli utenti per fornire più contesto.
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. In **[!UICONTROL Shared Calendar Events]**, specifica una delle seguenti opzioni:
 
