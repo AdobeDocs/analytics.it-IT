@@ -2,14 +2,14 @@
 title: dynamicAccountList
 description: Stabilite la logica su come l'implementazione determina la suite di rapporti.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né nel lancio della piattaforma Adobe Experience.
+>[!IMPORTANT] Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né nel lancio della piattaforma Adobe Experience.
 
 La `s.dynamicAccountList` variabile determina in modo dinamico il valore di `s_account`. Se `dynamicAccountSelection` è impostata su `true`, la `dynamicAccountMatch` variabile viene confrontata con `dynamicAccountList`. Se viene trovata una corrispondenza, viene utilizzato l&#39;ID suite di rapporti corrispondente.
 
@@ -21,13 +21,13 @@ Questa variabile è una stringa che viene analizzata automaticamente dal file Ja
 s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 ```
 
-Un input valido è un elenco separato da punto e virgola di coppie rsid e valore. Ciascun elenco contiene i seguenti elementi:
+Un input valido è un elenco separato da punto e virgola di coppie rsid e valore. Ogni elenco contiene i seguenti elementi:
 
 * Uno o più ID suite di rapporti (separati da virgole)
 * Simbolo uguale a
 * Una o più stringhe alle quali conformarsi (separate da virgole)
 
-Nella stringa devono essere utilizzati solo caratteri ASCII standard. Non includete spazi.
+Nella stringa devono essere utilizzati solo i caratteri ASCII standard. Non includete spazi.
 
 ## Esempi
 
