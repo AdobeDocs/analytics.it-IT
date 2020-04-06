@@ -4,7 +4,7 @@ title: Filtraggio dati dei rapporti
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ I filtri consentono di restringere il rapporto per includere o escludere element
 
 ![](assets/filter.png)
 
-Nella maggior parte dei rapporti viene visualizzato un semplice filtro che consente di individuare rapidamente specifici elementi di riga. I filtri semplici non utilizzano caratteri speciali, pertanto `-, ", ', +` e altri caratteri speciali corrispondono al valore letterale nel rapporto. È possibile trovare righe contenenti più termini utilizzando uno spazio.
+Il filtro semplice viene visualizzato nella maggior parte dei rapporti per individuare rapidamente elementi di riga specifici. I filtri semplici non utilizzano caratteri speciali, pertanto `-, ", ', +` e altri caratteri speciali corrispondono al valore letterale nel rapporto. È possibile trovare righe contenenti più termini utilizzando uno spazio.
 
 Ad esempio:
 
@@ -37,28 +37,28 @@ help:Internal Search Term
 
 ## Filtri avanzati {#section_E016626C084640E8A066B2FDA5B932BF}
 
-I filtri avanzati consentono di controllare l'ambito della ricerca utilizzando una raccolta di filtri. È possibile scegliere se applicare tutti i filtri o altri filtri.
+I filtri avanzati consentono di controllare l&#39;ambito della ricerca utilizzando una raccolta di filtri. È possibile scegliere se applicare tutti i filtri o altri filtri.
 
 ![](assets/advanced_filter.png)
 
 **Contiene**
 
-Corrisponde se il termine è trovato in un punto qualsiasi dell'elemento della riga. Funziona come il filtro semplice.
+Corrisponde se il termine è trovato in un punto qualsiasi dell&#39;elemento della riga. Funziona come il filtro semplice.
 
-> [!NOTE] Gli spazi non possono essere utilizzati nei filtri, perché gli spazi sono delimitatori nelle ricerche
+>[!NOTE] Gli spazi non possono essere utilizzati nei filtri, perché gli spazi sono delimitatori nelle ricerche
 
 **Non contiene**
 
-Corrisponde se il termine non viene trovato in alcun punto dell'elemento della riga. Potete filtrare "unspecified", "none", "keyword non disponibile" e altri valori [](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) speciali dai rapporti utilizzando "non contiene".
+Corrisponde se il termine non viene trovato in alcun punto dell&#39;elemento della riga. Potete filtrare &quot;unspecified&quot;, &quot;none&quot;, &quot;keyword non disponibile&quot; e altri valori [](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) speciali dai rapporti utilizzando &quot;non contiene&quot;.
 
-Non contiene: `none`
+Does not contain: `none`
 
 Per un filtro più preciso, potete usare un filtro Avanzate (Caratteri speciali):
 
 * Avanzate (carattere speciale): `-^none$`
 * Avanzate (carattere speciale): `-"keyword unavailable"`
 
-Ad esempio, l'elemento di riga seguente viene filtrato in base ai criteri "Non contiene", ma non in base ai criteri "Avanzate (Carattere speciale)":
+Ad esempio, l&#39;elemento di riga seguente viene filtrato in base ai criteri &quot;Non contiene&quot;, ma non in base ai criteri &quot;Avanzate (Carattere speciale)&quot;:
 
 ```
 help:Rename the None classification key
@@ -66,7 +66,7 @@ help:Rename the None classification key
 
 **Contiene Uno**
 
-Corrisponde se nell'elemento della riga sono presenti termini, separati da spazi. Il filtro seguente mostra tutte le pagine che contengono "mens" o "sale":
+Corrisponde se nell&#39;elemento della riga sono presenti termini, separati da spazi. Il filtro seguente mostra tutte le pagine che contengono &quot;mens&quot; o &quot;sale&quot;:
 
 Contiene Uno Dei Seguenti Elementi: `mens sale`
 
@@ -79,17 +79,17 @@ Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
 Sale & Values
 ```
 
-**È uguale a**
+**Uguale a**
 
-Corrisponde se l'intero elemento della riga, compresi gli spazi e altri caratteri, corrisponde alla frase specificata.
+Corrisponde se l&#39;intero elemento della riga, compresi gli spazi e altri caratteri, corrisponde alla frase specificata.
 
-È uguale a: `mens:desk & travel`
+Uguale a: `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
 **Inizia con**
 
-Corrisponde se l'elemento di riga, compresi gli spazi e altri caratteri, inizia con la frase specificata.
+Corrisponde se l&#39;elemento di riga, compresi gli spazi e altri caratteri, inizia con la frase specificata.
 
 Inizia con: `mens`
 
@@ -105,7 +105,7 @@ Mens Hemp/Bamboo Flip Flops
 
 **Termina con**
 
-Corrisponde se l'elemento di riga, compresi gli spazi e altri caratteri, termina con la frase specificata.
+Corrisponde se l&#39;elemento di riga, compresi gli spazi e altri caratteri, termina con la frase specificata.
 
 Termina con: `jean`
 
@@ -126,7 +126,7 @@ Avanzate consente di eseguire caratteri jolly e altre ricerche complesse.
 | Avanzate (carattere speciale) | Descrizione |
 |--- |--- |
 | `" "` | Corrispondenza esatta. |
-| `*` | Carattere jolly, corrispondenza avida. <br>Ad esempio, `r*p` corrisponde a "Registrazione". |
+| `*` | Carattere jolly, corrispondenza avida. <br>Ad esempio, `r*p` corrisponde a &quot;Registrazione&quot;. |
 | `^` | Inizia con. <br>Non includete uno spazio tra il carattere speciale e la frase di ricerca. |
 | `$` | Termina con. <br>Non includete uno spazio tra il carattere speciale e la frase di ricerca. |
 | `-` | No. <br>Non includete uno spazio tra il carattere speciale e la frase di ricerca. |
@@ -134,7 +134,7 @@ Avanzate consente di eseguire caratteri jolly e altre ricerche complesse.
 
 ## Creare filtri specifici per i rapporti {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Procedura per la creazione di filtri per i rapporti.
+Passaggi che descrivono come creare filtri per i rapporti.
 
 <!-- 
 
@@ -144,15 +144,15 @@ t_reports_filter_specific.xml
 
 Alcuni rapporti contengono un filtro specifico per il rapporto. Ad esempio, un [!UICONTROL Purchase Conversion Funnel Report] consente di filtrare per pagine Web. A [!UICONTROL Geosegmentation Report] consente di filtrare per area geografica. I rapporti aggiuntivi contengono altri filtri specifici per tali rapporti.
 
-Quando accedete a questi filtri, potete visualizzare le metriche dei rapporti per gli elementi specificati nell'elenco.
+Quando accedete a questi filtri, potete visualizzare le metriche dei rapporti per gli elementi specificati nell&#39;elenco.
 
 **Creazione di filtri specifici per i rapporti**
 
-1. Generate un rapporto, ad esempio [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
+1. Generate un rapporto, ad esempio [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
 1. Nell’intestazione del rapporto, fate clic sul **[!UICONTROL Filter]** collegamento.
 1. Sulla [!UICONTROL Filter Selector] pagina, fate clic **[!UICONTROL Apply a Filter]**, quindi selezionate un tipo di filtro.
 1. Per cercare un elemento, digitare una stringa di caratteri nel **[!UICONTROL Search]** campo.
-1. Fai clic su **[!UICONTROL OK]** (Genera).
+1. Fai clic su **[!UICONTROL OK]**.
 
 ## Add a correlation filter {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
