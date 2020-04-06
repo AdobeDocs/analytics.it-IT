@@ -2,7 +2,7 @@
 title: linkDownloadFileTypes
 description: Determinare le estensioni di file che vengono tracciate automaticamente come collegamenti per il download.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Quando [`trackDownloadLinks`](trackdownloadlinks.md) è attivato e un visitatore
 
 Utilizzare `linkDownloadFileTypes` per personalizzare le estensioni di file da conteggiare come collegamenti di download.
 
-> [!NOTE] Solo i clic effettivi vengono tracciati automaticamente. I seguenti tipi di collegamenti non vengono tracciati automaticamente:
+>[!NOTE] Solo i clic effettivi vengono tracciati automaticamente. I seguenti tipi di collegamenti non vengono tracciati automaticamente:
 >
 > * Download di file che si avviano automaticamente al caricamento di una pagina
 > * Download attivabili dopo un reindirizzamento
