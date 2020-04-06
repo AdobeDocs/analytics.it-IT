@@ -2,7 +2,7 @@
 title: visitorID
 description: Utilizza un ID visitatore personalizzato.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 Adobe utilizza diversi metodi per identificare i visitatori sul sito. La `visitorID` variabile ha la priorità su tutti gli altri metodi di identificazione del visitatore.
 
-> [!IMPORTANT] Adobe consiglia di non utilizzare questa variabile. Utilizzate invece il servizio [](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Cloud Identity.
+>[!IMPORTANT] Adobe consiglia di non utilizzare questa variabile. Utilizzate invece il servizio [](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) Adobe Experience Cloud Identity.
 
 ## ID visitatore in Adobe Experience Platform Launch
 
@@ -28,7 +28,7 @@ Assegna questo campo all’elemento dati contenente l’ID visitatore personaliz
 
 La `s.visitorID` variabile è una stringa che contiene un identificatore univoco personalizzato per il visitatore. I valori validi includono caratteri alfanumerici fino a 100 byte. Evitate di usare trattini, spazi, caratteri di sottolineatura o simboli in questa variabile.
 
-> [!WARNING] Se imposti la `visitorID` variabile partiway in una visita, i dati generano due visitatori univoci separati.
+>[!WARNING] Se imposti la `visitorID` variabile partiway in una visita, i dati generano due visitatori univoci separati.
 
 ```js
 s.visitorID = "abc123";
