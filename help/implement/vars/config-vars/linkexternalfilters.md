@@ -2,7 +2,7 @@
 title: linkExternalFilters
 description: Utilizza la variabile linkExternalFilters per facilitare il tracciamento automatico dei collegamenti in uscita.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ AppMeasurement offre la possibilità di tracciare automaticamente i collegamenti
 
 Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta in modo simile alla whitelist. Se un clic di collegamento non corrisponde ad alcun `linkExternalFilters` valore, non viene considerato un collegamento di uscita. L’intero URL viene analizzato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
 
-> [!TIP] Utilizzate questa variabile solo se conoscete esattamente i domini che desiderate considerare come collegamenti di uscita. Molte organizzazioni ritengono che l&#39;uso `linkInternalFilters` sia sufficiente per le loro esigenze di tracciamento dei collegamenti in uscita e non lo utilizzano `linkExternalFilters`.
+>[!TIP] Utilizzate questa variabile solo se conoscete esattamente i domini che desiderate considerare come collegamenti di uscita. Molte organizzazioni ritengono che l&#39;uso `linkInternalFilters` sia sufficiente per le loro esigenze di tracciamento dei collegamenti in uscita e non lo utilizzano `linkExternalFilters`.
 
 Se utilizzate sia `linkInternalFilters` che `linkExternalFilters` simultaneamente, il collegamento su cui avete fatto clic deve corrispondere `linkExternalFilters` e non deve corrispondere **** `linkInternalFilters` a quello su cui avete fatto clic per essere considerato un collegamento di uscita. Se un collegamento selezionato corrisponde ai criteri di collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
