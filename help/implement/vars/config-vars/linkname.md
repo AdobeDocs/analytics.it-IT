@@ -2,7 +2,7 @@
 title: linkName
 description: Impostate il nome dell’hit di collegamento personalizzato.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -28,7 +28,7 @@ Se questa variabile è vuota, AppMeasurement ripristina la [`linkURL`](linkurl.m
 
 La `s.linkName` variabile è una stringa che determina il valore della dimensione per i collegamenti personalizzati, i collegamenti di download o i collegamenti di uscita (a seconda di cosa [`s.linkType`](linktype.md) si tratta). Può contenere fino a 100 byte.
 
-> [!TIP] Questa variabile è il terzo parametro del `tl()` metodo e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkName` variabile se non si desidera impostare i valori come argomenti nel `tl()` metodo.
+>[!TIP] Questa variabile è il terzo parametro del `tl()` metodo e in genere non deve essere impostata come variabile standalone. Tuttavia, è possibile utilizzare la `linkName` variabile se non si desidera impostare i valori come argomenti nel `tl()` metodo.
 
 ```js
 s.linkName = "Example custom link";
