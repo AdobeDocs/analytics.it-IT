@@ -3,7 +3,7 @@ description: Le funzioni consentono di filtrare/ordinare i dati e di eseguire an
 title: Usare le funzioni
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,6 +14,6 @@ Le funzioni consentono di filtrare/ordinare i dati e di eseguire analisi statist
 
 Per un elenco di tutte le funzioni, fare riferimento a Funzioni [](/help/components/c-calcmetrics/cm-reference/cm-functions.md) di base e Funzioni [](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)avanzate.
 
-> [!NOTE] Quando si includono funzioni in una formula di metrica calcolata, applicare sempre la funzione prima di trascinare in metriche o segmenti.
+>[!NOTE] Quando si includono funzioni in una formula di metrica calcolata, applicare sempre la funzione prima di trascinare in metriche o segmenti.
 
-Guardate questo [video](https://youtu.be/SSyWvomnewI) per comprendere l'uso delle funzioni.
+Guardate questo [video](https://youtu.be/SSyWvomnewI) per comprendere l&#39;uso delle funzioni.
