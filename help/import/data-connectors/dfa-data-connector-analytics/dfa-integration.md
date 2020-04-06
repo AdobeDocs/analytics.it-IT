@@ -5,7 +5,7 @@ title: Integrazione DFA
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -18,24 +18,24 @@ La configurazione dell’integrazione del DFAE comporta le seguenti attività:
 
 Integrazione dei connettori dati del DFA.
 
-Le pagine di configurazione forniscono una panoramica dell'integrazione, insieme a utili collegamenti per ulteriori informazioni. A questa integrazione sono associate sia le tariffe Adobe che DoubleClick. Contatta i rappresentanti di vendita appropriati per entrambe le organizzazioni e assicurati di conoscere la struttura delle tariffe.
+Le pagine di configurazione forniscono una panoramica dell&#39;integrazione, insieme a utili collegamenti per ulteriori informazioni. A questa integrazione sono associate sia le tariffe Adobe che DoubleClick. Contatta i rappresentanti di vendita appropriati per entrambe le organizzazioni e assicurati di conoscere la struttura delle tariffe.
 
-1. Log in to the [!DNL Adobe Analytics].
-1. Fai clic su **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
+1. Accedi a [!DNL Adobe Analytics].
+1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
 
-1. Locate **[!UICONTROL DoubleClick DFA]**, then click **[!UICONTROL Add New]**.
+1. Individua **[!UICONTROL DoubleClick DFA]**, quindi fai clic su **[!UICONTROL Add New]**.
 
    ![Risultato passaggio](assets/wizard-01.png)
 
-   In ogni pagina della procedura guidata di integrazione, fornire le informazioni richieste, quindi fare clic **[!UICONTROL Next]**. Nella tabella seguente sono illustrate le informazioni necessarie per completare l'integrazione tramite la procedura guidata.
+   In ogni pagina della procedura guidata di integrazione, fornire le informazioni richieste, quindi fare clic su **[!UICONTROL Next]**. Nella tabella seguente sono illustrate le informazioni necessarie per completare l&#39;integrazione tramite la procedura guidata.
 
 <table id="table_8F6F7F304C36431DA5FD6E5D54F60FC0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Pagina della procedura guidata # </th> 
-   <th colname="col2" class="entry"> Campo </th> 
+   <th colname="col1" class="entry"> Pagina procedura guidata </th> 
+   <th colname="col2" class="entry"> Field </th> 
    <th colname="col3" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -53,7 +53,7 @@ Le pagine di configurazione forniscono una panoramica dell'integrazione, insieme
   <tr> 
    <td colname="col1"> 2 </td> 
    <td colname="col2"> Nome utente </td> 
-   <td colname="col3"> Il nome utente dell’API DFA da utilizzare con questa integrazione. Per abilitare un utente per l'accesso alle API, controllate l'attributo API nell'interfaccia DFA. Dopo aver attivato il login all'API, viene visualizzato un campo password per fornire una password all'utente. Questa password viene inserita insieme al nome utente nella procedura guidata di autenticazione. </td> 
+   <td colname="col3"> Il nome utente dell’API DFA da utilizzare con questa integrazione. Per abilitare un utente per l'accesso alle API, controllate l'attributo API nell'interfaccia DFA. Dopo aver attivato l'accesso all'API, viene visualizzato un campo password per fornire una password all'utente. Questa password viene immessa insieme al nome utente nella procedura guidata di autenticazione. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 2 </td> 
@@ -78,7 +78,7 @@ Le pagine di configurazione forniscono una panoramica dell'integrazione, insieme
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> Clic </td> 
-   <td colname="col3"> Selezionate l’evento personalizzato che riceve i dati delle metriche Clic DFA. I clic indicano il numero di volte in cui i visitatori hanno fatto clic sull’annuncio, misurato dal reindirizzamento del DFAE. La metrica Click è correlata alla metrica Click-through di Analytics. <p>Nota:  Clic DFA e Click-through di Analytics potrebbero non corrispondere esattamente a causa delle differenze nelle modalità di raccolta dei dati. </a>. </p> </td> 
+   <td colname="col3"> Selezionate l’evento personalizzato che riceve i dati delle metriche Clic DFA. I clic indicano il numero di volte in cui i visitatori hanno fatto clic sull’annuncio, misurato dal reindirizzamento del DFAE. La metrica Click è correlata alla metrica Click-through di Analytics. <p>Nota:  Clic DFA e Click-through di Analytics potrebbero non corrispondere esattamente a causa delle differenze nelle modalità di raccolta dei dati.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -88,7 +88,7 @@ Le pagine di configurazione forniscono una panoramica dell'integrazione, insieme
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Ora dall’ultima visualizzazione (variabile periodo fisso vista-through) </td> 
-   <td colname="col3"> L'eVar di Analytics che riceve l'ora DFA dall'ultima visualizzazione dati. L’ora dall’ultima visualizzazione indica il tempo trascorso dall’ultima visualizzazione annuncio. </td> 
+   <td colname="col3"> L'eVar di Analytics che riceve l'ora DFA dall'ultima visualizzazione dati. L’indicazione Ora dall’ultima visualizzazione indica il tempo trascorso dall’ultima visualizzazione annuncio. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -114,21 +114,21 @@ Le pagine di configurazione forniscono una panoramica dell'integrazione, insieme
  </tbody> 
 </table>
 
-## Aggiornamenti del sito Web per l'integrazione DFA{#web-site-updates-for-the-dfa-integration}
+## Aggiornamenti del sito Web per l&#39;integrazione DFA{#web-site-updates-for-the-dfa-integration}
 
-Dopo che Genesis ha configurato la suite di rapporti di Analytics per l'integrazione DFA, devi effettuare le seguenti operazioni per configurare il tuo sito Web e l'ambiente DFA per supportare l'integrazione:
+Dopo che Genesis ha configurato la suite di rapporti di Analytics per l&#39;integrazione DFA, devi effettuare le seguenti operazioni per configurare il tuo sito Web e l&#39;ambiente DFA per supportare l&#39;integrazione:
 
 ### Verifica spazio cookie sul dominio{#verify-cookie-space-on-the-domain}
 
 L’integrazione dei connettori dati per DFA richiede l’impostazione di un cookie sul dominio della pagina.
 
-Anche se è raro, alcuni domini hanno raggiunto la capacità massima di cookie per alcuni browser Web. Per evitare di influenzare l'esperienza di navigazione di un visitatore sul sito Web, rivolgiti alle operazioni di rete, al team di sviluppo o al gruppo di tecnici per verificare che l'aggiunta di un altro cookie al dominio delle pagine utilizzate per l'integrazione DFA non influisca sull'esperienza dell'utente. Sarà inoltre necessario selezionare un nome per il cookie.
+Anche se è raro, alcuni domini hanno raggiunto la capacità massima di cookie per alcuni browser Web. Per evitare di influenzare l&#39;esperienza di navigazione di un visitatore sul sito Web, rivolgiti alle operazioni di rete, al team di sviluppo o al gruppo di tecnici per verificare che l&#39;aggiunta di un altro cookie al dominio delle pagine utilizzate per l&#39;integrazione DFAE non influisca sull&#39;esperienza dell&#39;utente. Sarà inoltre necessario selezionare un nome per il cookie.
 
 ### Aggiorna il parametro query-stringa DFA{#update-your-dfa-query-string-parameter}
 
-Se hai già eseguito il tracciamento delle campagne pubblicitarie con Adobe Analytics prima dell'integrazione DFA, è possibile che tutte le campagne (e-mail, ricerca o banner) utilizzino lo stesso parametro della stringa di query per identificare l'ID campagna di provenienza sulla pagina di destinazione.
+Se hai già eseguito il tracciamento delle campagne pubblicitarie con Adobe Analytics prima dell&#39;integrazione DFA, è possibile che tutte le campagne (e-mail, ricerca o banner) utilizzino lo stesso parametro della stringa di query per identificare l&#39;ID campagna di provenienza sulla pagina di destinazione.
 
-Per capire quando richiedere dati di visualizzazione e click-through dai dati DFA per le campagne DFA Ad, i Connettori dati devono identificare quando un visitatore ha fatto clic su un banner pubblicitario di campagna DFA. Per rendere possibile questa operazione, devi aggiungere un parametro di stringa di query differenziata all'URL della pagina di destinazione della campagna DFA Ad in modo che i Connettori dati possano distinguere tra le pagine della campagna DFA Ad e altre pagine della campagna pubblicitaria che potresti avere sul tuo sito Web. Il plug- `dfa_overrideParam` in JavaScript utilizzato per il DFA.
+Per capire quando richiedere dati di visualizzazione e click-through dai dati DFA per le campagne DFA Ad, i Connettori dati devono identificare quando un visitatore ha fatto clic su un banner pubblicitario di campagna DFA. Per rendere possibile questa operazione, devi aggiungere un parametro di stringa di query differenziata all&#39;URL della pagina di destinazione della campagna DFA Ad in modo che i Connettori dati possano distinguere tra le pagine della campagna DFA Ad e altre pagine della campagna pubblicitaria che potresti avere sul tuo sito Web. Il plug- `dfa_overrideParam` in JavaScript utilizzato per il DFA.
 
 >[!CAUTION]
 >
@@ -138,29 +138,29 @@ Per capire quando richiedere dati di visualizzazione e click-through dai dati DF
 
 L’integrazione di Genesis per il DFA sfrutta l’ID di configurazione DFA Floodlight (dfa_SPOTID), che migliora la coerenza dei rapporti tra il DFA e il sistema di raccolta dei dati Adobe.
 
-> [!NOTE] Il termine Spotlight è stato modificato in Floodlight in una recente release di Google DFA. Il parametro JavaScript `dfa_SPOTID` è stato denominato in base alla terminologia Spotlight, ma viene utilizzato per entrambe le versioni.
+>[!NOTE] Il termine Spotlight è stato modificato in Floodlight in una recente release di Google DFA. Il parametro JavaScript `dfa_SPOTID` è stato denominato in base alla terminologia di Spotlight, ma viene utilizzato per entrambe le versioni.
 
-Per abilitare l'integrazione DFA sul sito Web, è necessario aggiornare il codice di raccolta dati JavaScript aggiungendo quanto segue:
+Per abilitare l&#39;integrazione DFA sul sito Web, è necessario aggiornare il codice di raccolta dati JavaScript aggiungendo quanto segue:
 
 * Modulo integrato per DFA
 * Aggiunta al codice della raccolta
 
 ### Modulo integrato per DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-L’integrazione DFA sfrutta il modulo Adobe Experience Cloud Integrate, che aggiunge funzionalità al codice di raccolta dati JavaScript di base ( `s_code.js`). Il modulo Integrate fa parte del file .zip quando si scarica il codice AppMeasurement per JavaScript da Gestione codici. Contatta il tuo Adobe Consultant solo se hai bisogno di ulteriore aiuto per trovarla.
+L’integrazione DFA sfrutta il modulo Adobe Experience Cloud Integrate, che aggiunge funzionalità al codice di raccolta dati JavaScript di base ( `s_code.js`). Il modulo Integrate fa parte del file .zip quando si scarica il codice AppMeasurement per Javascript da Gestione codici. Contatta il tuo Adobe Consultant solo se hai bisogno di ulteriore aiuto per trovarla.
 
 Inserite il codice Modulo integrato nella `Modules` sezione del `s_code.js` file del sito Web.
 
 ### Aggiunta al codice della raccolta {#section-8f98c727f1ba414fb8b4f02d696b8791}
 
-In base alle selezioni effettuate durante l'attivazione dell'integrazione DFA nella procedura guidata di integrazione, i Connettori dati generano ed inviano tramite e-mail un'aggiunta personalizzata al codice di raccolta dati JavaScript. Inserire questo codice nella sezione principale del `s_code.js` file (non nella `doPlugins` funzione o in qualsiasi altra funzione).
+In base alle selezioni effettuate durante l&#39;attivazione dell&#39;integrazione DFA nella procedura guidata di integrazione, i Connettori dati generano ed inviano tramite e-mail un&#39;aggiunta personalizzata al codice di raccolta dati JavaScript. Inserire questo codice nella sezione principale del `s_code.js` file (non nella `doPlugins` funzione o in qualsiasi altra funzione).
 
-Il codice di esempio riportato di seguito è solo a scopo illustrativo; utilizzare il codice che ti è stato inviato via e-mail dopo aver completato l'Integrazione guidata Connettori dati.
+Il codice di esempio riportato di seguito è solo a scopo illustrativo; utilizzare il codice che ti è stato inviato via e-mail dopo aver completato l&#39;Integrazione guidata Connettori dati.
 
 Il codice della raccolta è costituito dai seguenti componenti:
 
 * Impostazioni di integrazione DFA
-* Plug-in richiesti per l'integrazione
+* Plug-in richiesti per l&#39;integrazione
 
 **Impostazioni di integrazione DFA**
 
@@ -187,11 +187,11 @@ Fdfa_echo%3Fvar%3D[VAR]%26AQE%3D1%26A2S%3D1&ord=[RAND]",
 
 Il blocco delle impostazioni integrate DFAE imposta le variabili richieste dall’integrazione del DFAE. I valori per ciascuna di queste variabili provengono dalle origini seguenti:
 
-**CSID**: ID lato client. Generato dal DFA una volta completata l'Integrazione guidata. Connettori dati precompila questa variabile con il tuo DFA CS ID e invia anche questo valore nel messaggio e-mail di configurazione dopo il completamento dell'Integrazione guidata. Questa variabile non è necessaria se sul vostro account è abilitato Advanced Ad Serving.
+**CSID**: ID lato client. Generato dal DFA una volta completata l&#39;Integrazione guidata. Connettori dati precompila questa variabile con il tuo DFA CS ID e invia anche questo valore nel messaggio e-mail di configurazione dopo il completamento dell&#39;Integrazione guidata. Questa variabile non è necessaria se sul vostro account è abilitato Advanced Ad Serving.
 
 **SPOTID**: Configurazione di Floodlight (precedentemente denominato Spotlight ID). I Connettori dati precompilano questa variabile con l’ID di configurazione DFA Floodlight, in base alle informazioni sull’account DFA specificate nella procedura guidata di integrazione.
 
-**Evar**: Variabile di trasferimento. Connettori dati precompila questa variabile con il nome della variabile Analytics specificato per la variabile View-Through nella procedura guidata di integrazione. Non modificate questo valore senza un'attenta coordinazione con Adobe Engineering o Engineering Services.
+**Evar**: Variabile di trasferimento. Connettori dati precompila questa variabile con il nome della variabile Analytics specificato per la variabile View-Through nella procedura guidata di integrazione. Non modificate questo valore senza un&#39;attenta coordinazione con Adobe Engineering o Engineering Services.
 
 **errorEvar**: Variabile di errore. Connettori dati precompila questa variabile con il nome della variabile Analytics specificato per la variabile Errore query DFA nella procedura guidata di integrazione.
 
@@ -203,23 +203,23 @@ Il blocco delle impostazioni integrate DFAE imposta le variabili richieste dall�
 
 **visitCookie**: Nome del cookie utilizzato per limitare le chiamate DFA a una volta per visita.
 
-**clickThroughParam**: Una stringa di query, solitamente inclusa in tutti gli annunci, che notifica al modulo Integrate che si è appena verificato un clic. La presenza di questo parametro nella stringa di query determina l'esecuzione della richiesta ai server DFA Floodlight, indipendentemente dal fatto che il visitatore sia già stato interrogato negli ultimi 30 minuti.
+**clickThroughParam**: Una stringa di query, solitamente inclusa in tutti gli annunci, che notifica al modulo Integrate che si è appena verificato un clic. La presenza di questo parametro nella stringa di query determina l&#39;esecuzione della richiesta ai server DFA Floodlight, indipendentemente dal fatto che il visitatore sia già stato interrogato negli ultimi 30 minuti.
 
 **newRsidsProp**: (Facoltativo) Mappata a una variabile della proprietà Traffico non utilizzata. L’integrazione DFAE raccoglie e memorizza questo valore nel cookie della visita per identificare le suite di rapporti che hanno raccolto i dati per un particolare visitatore. Questa proprietà è necessaria solo con le implementazioni personalizzate con i servizi tecnici Adobe.
 
-**Plug-in richiesti per l'integrazione**
+**Plug-in richiesti per l&#39;integrazione**
 
-L'aggiunta del codice di raccolta include plug-in aggiuntivi che migliorano il funzionamento dell'integrazione DFAE:
+L&#39;aggiunta del codice di raccolta include plug-in aggiuntivi che migliorano il funzionamento dell&#39;integrazione DFAE:
 
 * Limita le query DFA a una sola visita
-* Offre flessibilità per il nome dei cookie. Anche se la maggior parte delle organizzazioni utilizza s_dfa, è possibile utilizzare qualsiasi nome di cookie valido per l'integrazione DFA.
+* Offre flessibilità per il nome dei cookie. Anche se la maggior parte delle organizzazioni utilizza s_dfa, è possibile utilizzare qualsiasi nome di cookie valido per l&#39;integrazione DFA.
 * Elimina i reindirizzamenti non necessari. Poiché i dati di visualizzazione vengono raccolti in tempo reale, i server di raccolta Adobe e il DFA potrebbero potenzialmente scambiare dati su ogni visualizzazione di pagina. Il plug-in blocca questi scambi di dati quando le informazioni non sono necessarie.
 
 >[!CAUTION]
 >
->Uno dei meccanismi utilizzati dal plug-in per eliminare le query DFA non necessarie è un cookie di visita basato su dominio. Una suite di rapporti per l'integrazione che si estende su più domini aumenta i dati di click-through e visualizzazione through quando i visitatori attraversano più domini dopo una visualizzazione o un click-through influenzati dal DFA.
+>Uno dei meccanismi utilizzati dal plug-in per eliminare le query DFA non necessarie è un cookie di visita basato su dominio. Una suite di rapporti per l&#39;integrazione che si estende su più domini aumenta i dati di click-through e visualizzazione through quando i visitatori attraversano più domini dopo una visualizzazione o un click-through influenzati dal DFA.
 
-## Conferma di un'integrazione DFA di successo{#confirming-a-successful-dfa-integration}
+## Conferma di un&#39;integrazione DFA di successo{#confirming-a-successful-dfa-integration}
 
 Dopo aver effettuato tutti gli aggiornamenti necessari al sito Web, potete utilizzare un visualizzatore del traffico di rete, come Charles*, Chrome Developer Tools o Firebug*, per confermare che DFA sta comunicando con i server di raccolta Adobe.
 
@@ -227,10 +227,10 @@ Dopo aver distribuito il `s_code.js` file abilitato per il DFA, utilizzate il vi
 
 * Una richiesta al `fls.doubleclick.net/json` servizio del DFAE. Questo servizio può rispondere in modo diverso a seconda della versione del DFAE in uso. Con la versione 1.5 dell’integrazione DFAE:
 
-   * Reindirizzamento HTTP 302 a [!DNL ad.doubleclick.net]. Verrà inviata una posizione: nella risposta che contiene informazioni sul visitatore dell'annuncio.
-   * Questo tag Location causa il reindirizzamento a [!DNL integrate.112.2o7.net/dfa_echo]. Questo servizio traduce le informazioni sul visitatore dell'annuncio in una stringa codificata JSON (JavaScript Object Notati on). Questi dati vengono restituiti con una risposta HTTP di 200 OK.
+   * Reindirizzamento HTTP 302 a [!DNL ad.doubleclick.net]. Verrà inviata una posizione: nella risposta che contiene informazioni sul visitatore dell&#39;annuncio.
+   * Questo tag Location causa il reindirizzamento a [!DNL integrate.112.2o7.net/dfa_echo]. Questo servizio traduce le informazioni sul visitatore dell&#39;annuncio in una stringa codificata JSON (JavaScript Object Notati on). Questi dati vengono restituiti con una risposta HTTP di 200 OK.
 
-* Con l'integrazione DFA versione 2.0 (Advanced Ad Serving enabled):
+* Con l&#39;integrazione DFA versione 2.0 (Advanced Ad Serving enabled):
 
    * [!DNL fls.doubleclick.net] risponderà direttamente con 200 OK.
 
@@ -242,15 +242,15 @@ Per ottenere una corretta implementazione DFA è necessario ottimizzare s.maxDel
 
 In generale, la decisione di aumentare o diminuire *`s.maxDelay`* comporta un compromesso tra l’ottenimento di più dati visitatore DFA e la raccolta dei dati dei visitatori Adobe in pericolo. Aumentando *`s.maxDelay`* ottiene più dati visitatore DFA, ma (inseriti eccessivamente alti) potrebbe compromettere la raccolta dei dati visitatore Adobe. La riduzione di s.maxDelay assicura la raccolta dei dati dei visitatori Adobe, ma potrebbe perdere i dati dei visitatori DFA.
 
-*`s.maxDelay`* incapsula più del semplice tempo di comunicazione in rete per contattare il DFAE; rappresenta anche i ritardi del browser per attivare e valutare il codice JavaScript da cui si basano tali comunicazioni. Questo perché il modulo Integrate avvia il *`s.maxDelay`* timer dopo che ha inserito l'elemento HTML nel DOM che estrae i dati dal server DFA Floodlight. Il tempo necessario affinché il browser avvii effettivamente la richiesta HTTP in base a questo nuovo elemento HTML varia in base ad altre immagini o file JavaScript che vengono caricati contemporaneamente, alla velocità del computer dei visitatori e a specifiche implementazioni del browser. Inoltre, quando i dati JSON vengono recuperati dal server DFA Floodlight, JavaScript deve essere valutato dal browser. Anche questa operazione è controllata completamente dal browser e può essere ritardata in caso di grandi quantità di codice JavaScript in esecuzione simultanea o di molte richieste JavaScript asincrone.
+*`s.maxDelay`* incapsula più del semplice tempo di comunicazione in rete per contattare il DFAE; rappresenta anche i ritardi del browser per attivare e valutare il codice JavaScript da cui si basano tali comunicazioni. Questo perché il modulo Integrate avvia il *`s.maxDelay`* timer dopo che ha inserito l&#39;elemento HTML nel DOM che estrae i dati dal server DFA Floodlight. Il tempo necessario affinché il browser avvii effettivamente la richiesta HTTP in base a questo nuovo elemento HTML varia in base ad altre immagini o file JavaScript che vengono caricati contemporaneamente, alla velocità del computer dei visitatori e a specifiche implementazioni del browser. Inoltre, quando i dati JSON vengono recuperati dal server DFA Floodlight, JavaScript deve essere valutato dal browser. Anche questa operazione è controllata completamente dal browser e può essere ritardata in caso di grandi quantità di codice JavaScript in esecuzione simultanea o di molte richieste JavaScript asincrone.
 
-A tal fine, *`s.maxDelay`* è necessario impostare la pagina di destinazione in base alla complessità della pagina e al ritardo della rete con il DFAE. In alcuni siti, un modo possibile per ridurre la complessità consiste nell'attivare il codice di raccolta Adobe all'inizio del caricamento della pagina, in modo che il browser non venga utilizzato al momento della richiesta del server Floodlight.
+A tal fine, *`s.maxDelay`* è necessario impostare la pagina di destinazione in base alla complessità della pagina e al ritardo della rete con il DFAE. In alcuni siti, un modo possibile per ridurre la complessità consiste nell&#39;attivare il codice di raccolta Adobe all&#39;inizio del caricamento della pagina, in modo che il browser non venga utilizzato al momento della richiesta del server Floodlight.
 
-La variabile Timeout è assolutamente necessaria durante l'ottimizzazione *`s.maxDelay`*, perché viene incrementata ogni volta che viene raggiunto il timeout s.maxDelay. Per decidere se aumentare o diminuire *`s.maxDelay`* consigliamo di seguire questo processo:
+La variabile Timeout è assolutamente necessaria durante l&#39;ottimizzazione *`s.maxDelay`*, perché viene incrementata ogni volta che viene raggiunto il timeout s.maxDelay. Per decidere se aumentare o diminuire *`s.maxDelay`* consigliamo di seguire questo processo:
 
 1. Raccogliere diversi giorni di dati con *`s.maxDelay`* un valore particolare.
 1. Eseguire un [!DNL Daily Unique Visitors Report] intervallo di tempo.
-1. Eseguite il comando [!DNL Timeout Event Report] per controllare il numero di timeout che stanno arrivando. Ricorda che un timeout viene raccolto solo una volta per visitatore.
+1. Eseguite il comando [!DNL Timeout Event Report] per controllare il numero di timeout che stanno arrivando. Ricorda che un timeout viene raccolto solo una volta per ogni visitatore.
 
 Ora con le cifre in mano, calcolare
 
@@ -258,10 +258,10 @@ Ora con le cifre in mano, calcolare
 Timeout Percentage = [Step 3] / [Step 2] * 100
 ```
 
-La percentuale di timeout sta prendendo in considerazione tutti i visitatori del sito. Alcuni di questi visitatori non sarebbero stati legati al DFAE, quindi il timeout è fuorviante. Per migliorare questo calcolo, un'altra analisi potrebbe considerare solo i visitatori univoci nelle pagine con il `clickThroughParam` set (ad esempio, `?CID=1`). Questo mostrerà più precisione.
+La percentuale di timeout sta prendendo in considerazione tutti i visitatori del sito. Alcuni di questi visitatori non sarebbero stati legati al DFAE, quindi il timeout è fuorviante. Per migliorare questo calcolo, un&#39;altra analisi potrebbe considerare solo i visitatori univoci nelle pagine con il `clickThroughParam` set (ad esempio, `?CID=1`). Questo mostrerà più precisione.
 
-Se la percentuale di timeout è molto bassa, prendete in considerazione la riduzione *`s.maxDelay`*. Se è molto alto, aumentare *`s.maxDelay`*. In caso di diminuzione, *`s.maxDelay`* si desidera ripetere l'operazione per [!DNL Timeout Report] garantire che i timeout non siano aumentati drasticamente. Con *`s.maxDelay`* l'aumento, è necessario eseguire un'operazione [!DNL Page Views Report] per verificare che le visualizzazioni delle pagine non risultino compromesse a causa della perdita di dati. Ogni volta *`s.maxDelay`* viene modificato osservano i dati per diversi giorni al fine di garantire che i dati rappresentino una tendenza, e non solo una fluttuazione giornaliera.
+Se la percentuale di timeout è molto bassa, prendete in considerazione la riduzione *`s.maxDelay`*. Se è molto alto, aumentare *`s.maxDelay`*. In caso di diminuzione, *`s.maxDelay`* si desidera ripetere l&#39;operazione per [!DNL Timeout Report] garantire che i timeout non siano aumentati drasticamente. Con *`s.maxDelay`* l&#39;aumento, è necessario eseguire un&#39;operazione [!DNL Page Views Report] per verificare che le visualizzazioni delle pagine non risultino compromesse a causa della perdita di dati. Ogni volta *`s.maxDelay`* viene modificato osservano i dati per diversi giorni al fine di garantire che i dati rappresentino una tendenza, e non solo una fluttuazione giornaliera.
 
 L’impostazione ottimale per *`s.maxDelay`* è il punto in cui la percentuale di timeout viene ridotta a icona mentre le visualizzazioni pagina non vengono eliminate.
 
-I timeout dovrebbero diminuire quando si passa alla versione 2.0 dell'integrazione, a causa delle eliminazioni dei reindirizzamenti 302. Le prime scoperte con i client beta hanno mostrato una consistente riduzione dei timeout, e quindi la raccolta di più dati DFA
+I timeout dovrebbero diminuire quando si passa alla versione 2.0 dell&#39;integrazione, a causa delle eliminazioni dei reindirizzamenti 302. Le prime scoperte con i client beta hanno mostrato una consistente riduzione dei timeout, e quindi la raccolta di più dati DFA
