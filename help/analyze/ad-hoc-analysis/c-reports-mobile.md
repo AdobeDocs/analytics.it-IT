@@ -3,36 +3,36 @@ description: Visualizza informazioni sull'accesso ai siti Web da un dispositivo 
 title: Rapporti sui dispositivi mobili
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Rapporti sui dispositivi mobili
 
-Visualizza informazioni sull'accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l'identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
+Visualizza informazioni sull&#39;accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l&#39;identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
 
 ## Rapporti sui dispositivi mobili {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
-Visualizza informazioni sull'accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l'identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
+Visualizza informazioni sull&#39;accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l&#39;identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
 
-Per migliorare l'identificazione dei visitatori per i dispositivi mobili, dovete essere nell'elenco dei portatori (white list) per l'invio degli ID degli abbonati a un dominio. (È possibile visualizzare il vettore nel rapporto **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** .)
+Per migliorare l&#39;identificazione dei visitatori per i dispositivi mobili, dovete essere nell&#39;elenco dei portatori (white list) per l&#39;invio degli ID degli abbonati a un dominio. (È possibile visualizzare il vettore nel rapporto **[!UICONTROL Visitor Profile]** > **[!UICONTROL Domains]** .)
 
-> [!NOTE] Per visualizzare i rapporti su un dispositivo mobile, accedi a [Experience Cloud](https://login.experiencecloud.adobe.com).
+>[!NOTE] Per visualizzare i rapporti su un dispositivo mobile, accedi a [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il sito [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) .
 
 <table id="table_8862E941EF5A41EFB0E7FADEEA86C37D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Report  </th> 
+   <th colname="col1" class="entry"> Rapporto </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Report sui dispositivi </p> </td> 
-   <td colname="col2"> <p>Visualizza il numero di visitatori che hanno eseguito l'accesso al sito utilizzando dispositivi mobili, ad esempio dispositivi con iOS o Android. Questo rapporto può aiutarvi a comprendere l'impatto delle iniziative per dispositivi mobili e a pianificare di conseguenza. </p> <p>Puoi utilizzare questo rapporto per: </p> 
+   <td colname="col2"> <p>Visualizza il numero di visitatori che hanno eseguito l'accesso al sito utilizzando dispositivi mobili, ad esempio dispositivi con iOS o Android. Questo rapporto può aiutarvi a comprendere l'impatto delle iniziative per dispositivi mobili, in modo da poter pianificare di conseguenza. </p> <p>Puoi utilizzare questo rapporto per: </p> 
     <ul id="ul_76899F0390C64BF7BC8B3763E5E77CE9"> 
      <li id="li_0DB05A8459634EE59833540F67773298"> Sviluppare strategie per gli utenti di dispositivi mobili </li> 
      <li id="li_8B3381798A24476DBEF1C55B01D53FEF"> Identificare le preferenze del pubblico </li> 
@@ -61,15 +61,15 @@ Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report di supporto delle immagini </p> </td> 
-   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai tipi di immagini supportati. Ad esempio, se il telefono di un visitatore che supporta immagini <span class="filepath"> .jpg</span> accede a un sito, il rapporto Supporto <span class="wintitle"> immagini</span> viene incrementato di almeno uno. Se il telefono supporta più di un formato immagine, la visita a un sito potrebbe comportare più incrementi per la visita. In altre parole, se il telefono supporta i formati <span class="filepath"> .jpg</span>, <span class="filepath"> .png</span>e <span class="filepath"> .gif</span> , ogni gruppo del rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato in fondo al rapporto. </p> </td> 
+   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai tipi di immagini supportati. Ad esempio, se il telefono di un visitatore che supporta immagini <span class="filepath"> .jpg</span> accede a un sito, il rapporto Supporto <span class="wintitle"> immagini</span> viene incrementato di almeno uno. Se il telefono supporta più di un formato immagine, la visita a un sito potrebbe comportare più incrementi per la visita. In altre parole, se il telefono supporta i formati <span class="filepath"> .jpg</span>, <span class="filepath"> .png</span>e <span class="filepath"> .gif</span> , ciascuno di questi gruppi nel rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato in fondo al rapporto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporto Profondità colore </p> </td> 
-   <td colname="col2"> <p>Raggruppa gli hit del dispositivo mobile per il numero di colori supportati. Il rapporto mostra il numero totale di visitatori del sito che hanno utilizzato un dispositivo mobile e li suddivide in gruppi in base al numero di colori configurati nei loro dispositivi mobili. Ad esempio, se il cellulare del visitatore supporta 24 colori, reporting e analisi di marketing incrementa l'elemento di riga corrispondente a 24 colori. </p> </td> 
+   <td colname="col2"> <p>Raggruppa gli hit del dispositivo mobile in base al numero di colori supportati. Il rapporto mostra il numero totale di visitatori del sito che hanno utilizzato un dispositivo mobile e li suddivide in gruppi in base al numero di colori configurati nei loro dispositivi mobili. Ad esempio, se il cellulare del visitatore supporta 24 colori, reporting e analisi di marketing incrementa l'elemento di riga corrispondente a 24 colori. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report di supporto audio </p> </td> 
-   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai tipi di formati audio supportati. Ad esempio, se il telefono di un visitatore supporta il formato <span class="filepath"> .mp3</span> , il rapporto <span class="wintitle"> Supporto</span> audio incrementa di almeno uno. Se il telefono supporta più di un formato immagine, una visita a un sito potrebbe causare incrementi per ciascun tipo audio supportato. In altre parole, se un telefono supporta i formati <span class="filepath"> .mp3</span>, <span class="filepath"> .aac</span>e <span class="filepath"> .amr</span> , ogni gruppo del rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato in fondo al rapporto. </p> </td> 
+   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai tipi di formati audio supportati. Ad esempio, se il telefono di un visitatore supporta il formato <span class="filepath"> .mp3</span> , il rapporto <span class="wintitle"> Supporto</span> audio incrementa di almeno uno. Se il telefono supporta più di un formato immagine, una visita a un sito potrebbe causare incrementi per ciascun tipo audio supportato. In altre parole, se un telefono supporta i formati <span class="filepath"> .mp3</span>, <span class="filepath"> .aac</span>e <span class="filepath"> .amr</span> , ciascuno di questi gruppi nel rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato in fondo al rapporto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report di supporto video </p> </td> 
@@ -85,11 +85,11 @@ Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il 
   </tr> 
   <tr> 
    <td colname="col1"> Report sul sistema operativo </td> 
-   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base al sistema operativo mobile in esecuzione sul dispositivo. I sistemi operativi mobili includono Windows, RIM, iOS, Symbian e così via. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> </td> 
+   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base al sistema operativo mobile in esecuzione sul dispositivo. I sistemi operativi per dispositivi mobili includono Windows, RIM, iOS, Symbian e così via. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Report versione Java </td> 
-   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base alla versione Java supportata. Il rapporto Versione Java identifica la versione Java dalla JSR (Java Specification Request) supportata dal dispositivo. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> <p>Per ulteriori informazioni su una determinata JSR, consulta il sito Web <a href="https://jcp.org/en/jsr/overview"  > Java Community Process</a> . </p> </td> 
+   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base alla versione Java da essi supportata. Il rapporto sulla versione Java identifica la versione Java dalla JSR (Java Specification Request) supportata dal dispositivo. Il rapporto include anche un gruppo sconosciuto per i sistemi operativi mobili non identificati. </p> <p>Per ulteriori informazioni su una determinata JSR, consulta il sito Web <a href="https://jcp.org/en/jsr/overview"  > Java Community Process</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Report Lunghezza URL segnalibro </td> 
@@ -116,7 +116,7 @@ Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il 
    <td colname="col2"> <p>Raggruppa i dispositivi mobili in base al supporto del dispositivo DecoMail, che consente all’utente di decorare la posta con grafica e animazioni. Il rapporto include anche un gruppo <span class="term"> Unknown</span> per i dispositivi in cui non è possibile determinare il supporto per Decoration Mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Report servizi informazioni </td> 
+   <td colname="col1"> Report servizi di informazione </td> 
    <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai servizi di informazione (Channel I/B, EZ News Flash, W+INFO, ecc.). che supportano. Quando un visitatore utilizza un dispositivo mobile con supporto per i servizi di news per accedere al sito, il rapporto Servizi informazioni incrementa di almeno uno. Se il telefono supporta più servizi di notizie, ciascuno di questi gruppi nel rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato nella parte inferiore del rapporto. </p> </td> 
   </tr> 
  </tbody> 
