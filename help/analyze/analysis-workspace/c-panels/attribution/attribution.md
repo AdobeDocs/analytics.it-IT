@@ -3,7 +3,7 @@ description: 'null'
 title: Panoramica del pannello Attribuzione
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Il pannello Attribuzione è una funzione di [Attribution IQ](../../attribution-i
 | ![Decadimento nel tempo](assets/time_decay.png) | Decadimento nel tempo | Segue un decadimento esponenziale con un parametro di mezza durata personalizzato, dove il valore predefinito è 7 giorni. Il valore di ciascun canale dipende dalla quantità di tempo trascorsa tra l’avvio del punto di contatto e l’eventuale conversione. La formula utilizzata per determinare il credito è `2^(-t/halflife)`, dove `t` è il tempo tra un punto di contatto e una conversione. Tutti i punti di contatto vengono quindi normalizzati al 100%. | Si tratta di un modello ideale per i team che eseguono regolarmente campagne pubblicitarie video o che mirano su eventi basati su data prestabilita. Più una conversione si verifica dopo un evento di marketing, meno credito viene assegnato. |
 | ![Partecipazione](assets/participation.png) | Partecipazione | Assegna il 100% di credito a tutti i punti di contatto unici. Il numero totale di conversioni è aumentato rispetto ad altri modelli di attribuzione. La partecipazione deduplica i canali visualizzati più volte. | Si tratta di un modello ottimo per comprendere quanto spesso i clienti sono esposti a una determinata interazione. Le società di comunicazioni utilizzano spesso questo modello per calcolare la velocità del contenuto. Le società di commercio al dettaglio usano spesso questo modello per capire quali sono le parti del sito che sono fondamentali per la conversione. |
 
-> [!NOTE] Il seguente modello di attribuzione algoritmica è attualmente disponibile in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) e finirà per far parte di una release generale.
+>[!NOTE] Il seguente modello di attribuzione algoritmica è attualmente disponibile in [Adobe Analytics Labs](https://docs.adobe.com/content/help/it-IT/analytics/analyze/tech-previews/overview.html) e finirà per far parte di una release generale.
 
 | Icona interfaccia utente | Modello di attribuzione | Definizione | Quando utilizzare |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ A seconda dell’intervallo di lookback e del modello di attribuzione definiti, 
       * Social: 18,6%, ovvero 9,32 $
       * Ricerca a pagamento: 13,8%, ovvero 6,92 $
 
-> [!TIP] Anche altri eventi di conversione, come ordini o eventi personalizzati, saranno suddivisi se il credito è associato a più di un canale. Ad esempio, se due canali contribuiscono a un evento personalizzato utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 dell’evento personalizzato. Queste frazioni di eventi vengono sommate tra tutte le visite, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
+>[!TIP] Anche altri eventi di conversione, come ordini o eventi personalizzati, saranno suddivisi se il credito è associato a più di un canale. Ad esempio, se due canali contribuiscono a un evento personalizzato utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 dell’evento personalizzato. Queste frazioni di eventi vengono sommate tra tutte le visite, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
 
 ## Utilizzo dell’attribuzione con i canali di marketing
 
@@ -97,4 +97,4 @@ Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit
 
 ![Suite di rapporti virtuali di sola visualizzazione](assets/vrs-aiq-example.png)
 
-> [!NOTE] Se un segmento sopprime gli hit che contengono la metrica, queste istanze della metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro di report simile nasconderà semplicemente alcuni valori di dimensione, senza alcun impatto sulle metriche elaborate per il modello di attribuzione. Di conseguenza, un segmento e un filtro con definizioni comparabili possono a volte restituire valori inferiori per il segmento.
+>[!NOTE] Se un segmento sopprime gli hit che contengono la metrica, queste istanze della metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro di report simile nasconderà semplicemente alcuni valori di dimensione, senza alcun impatto sulle metriche elaborate per il modello di attribuzione. Di conseguenza, un segmento e un filtro con definizioni comparabili possono a volte restituire valori inferiori per il segmento.
