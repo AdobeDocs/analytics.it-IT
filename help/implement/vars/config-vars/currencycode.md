@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Se `currencyCode` è definito e corrisponde alla valuta della suite di rapporti,
 
 Se `currencyCode` è definito ed è diverso dalla valuta della suite di rapporti, Adobe applica una conversione valutaria basata sul tasso di cambio del giorno corrente. Adobe collabora con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nei server di raccolta dati vengono in ultima istanza memorizzati nella valuta della suite di rapporti.
 
-> [!IMPORTANT] Se `currencyCode` contiene un valore non valido, l&#39;intero hit viene eliminato causando la perdita di dati. Accertatevi che questa variabile sia definita correttamente se la utilizzate nell’implementazione.
+>[!IMPORTANT] Se `currencyCode` contiene un valore non valido, l&#39;intero hit viene eliminato causando la perdita di dati. Accertatevi che questa variabile sia definita correttamente se la utilizzate nell’implementazione.
 
 Questa variabile non persiste tra gli hit. Accertatevi che questa variabile sia definita in ogni pagina che include eventi di ricavi o di valuta.
 
