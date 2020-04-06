@@ -2,7 +2,7 @@
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e Adobe analizza il valore in valori di dimensione separati.
 
-> [!NOTE] Se questa variabile viene impostata in un hit senza un evento del carrello della spesa nella [`events`](events/events-overview.md) variabile, la metrica &quot;Visualizzazioni prodotto&quot; viene incrementata di 1. Accertatevi di impostare l&#39;evento del carrello appropriato su ogni hit.
+>[!NOTE] Se questa variabile viene impostata in un hit senza un evento del carrello della spesa nella [`events`](events/events-overview.md) variabile, la metrica &quot;Visualizzazioni prodotto&quot; viene incrementata di 1. Accertatevi di impostare l&#39;evento del carrello appropriato su ogni hit.
 
 ## Prodotti in Adobe Experience Platform Launch
 
@@ -47,7 +47,7 @@ Questa variabile supporta più prodotti nello stesso hit. È utile per il carrel
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Rimuovete tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
+>[!IMPORTANT] Rimuovete tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
 
 ## Esempi
 
