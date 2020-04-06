@@ -1,8 +1,8 @@
 ---
 description: Istruzioni per la configurazione delle scorecard dell’app mobile.
 title: Guida per i curatori dell’app mobile di Adobe Analytics
-translation-type: ht
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+translation-type: tm+mt
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -198,6 +198,7 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
       ![Schermata del Play Store](assets/play.png)
 
    2. Toccare il link **scarica su Google Play** nella seguente schermata:
+
       ![Link di download](assets/playnext.png)
 
    3. Scaricare e installare l’app.
