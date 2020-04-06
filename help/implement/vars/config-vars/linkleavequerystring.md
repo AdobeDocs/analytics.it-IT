@@ -2,7 +2,7 @@
 title: linkLeaveQueryString
 description: Consente di mantenere le stringhe di query nelle dimensioni del tracciamento dei collegamenti.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Se le informazioni sul tracciamento dei collegamenti non sono negli URL del sito
 
 L’abilitazione `linkLeaveQueryString` si applica a tutte le dimensioni di tracciamento dei collegamenti (inclusi collegamenti personalizzati, collegamenti di uscita e collegamenti per il download).
 
-> [!TIP] Questa variabile non influisce sulle dimensioni al di fuori del tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti per il download.
+>[!TIP] Questa variabile non influisce sulle dimensioni al di fuori del tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti per il download.
 
 ## Mantieni parametri URL nel lancio di Adobe Experience Platform
 
