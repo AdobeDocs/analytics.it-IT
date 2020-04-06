@@ -3,7 +3,7 @@ description: Panoramica del menu Report in Reporting e analisi.
 title: Menu Rapporti
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ Panoramica del menu Report in Reporting e analisi.
 
 Il menu Rapporti fornisce:
 
-* Accesso all'intero set di rapporti
+* Accesso all&#39;intero set di rapporti
 * Possibilità di impostare i rapporti preferiti per un accesso rapido
 * Rapporti visualizzati di frequente
 * Ricerca avanzata
@@ -25,26 +25,26 @@ I miei preferiti, Visualizzati di frequente e Cronologia rapporti sono tutti spe
 
 I rapporti vengono esplorati utilizzando una vista a colonne gerarchica. Fare clic **[!UICONTROL View All Reports]** o premere il tasto barra (/), quindi premere il tasto freccia giù (?) per visualizzare e navigare rapidamente nel menu utilizzando i tasti freccia. Premere il tasto Esc per chiudere il menu senza modificare il rapporto corrente oppure premere Invio per caricare il rapporto selezionato.
 
-![](assets/reports-landing.png){width="672px"}
+![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
+For details on individual reports, see [Report Descriptions](https://marketing.adobe.com/resources/help/it_IT/reference/reports_descriptions.html).
 
 ## Cerca report {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-Il menu Rapporti offre un'esperienza di ricerca avanzata. Fare clic **[!UICONTROL View All Reports]** o premere il tasto Barra (/) , quindi iniziare a digitare per trovare rapidamente un rapporto. La ricerca del report è stata estesa per includere qualsiasi cosa presente nella barra di navigazione a sinistra di Analytics (Amministratore, Componenti, ecc.).
+Il menu Rapporti offre un&#39;esperienza di ricerca avanzata. Fare clic **[!UICONTROL View All Reports]** o premere il tasto Barra (/) , quindi iniziare a digitare per trovare rapidamente un rapporto. La ricerca dei report è stata estesa per includere tutto ciò che si trova nella navigazione a sinistra di Analytics (Amministratore, Componenti, ecc.).
 
 ![](assets/menu-search.png)
 
 Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei rapporti. Premere il tasto ESC per chiudere la ricerca senza modificare il rapporto corrente oppure premere Invio per caricare il rapporto selezionato.
 
-> [!NOTE] Potete anche cercare l'elenco dei rapporti per proprietà, eVar e numero evento. Nella barra di ricerca, immettete la proprietà, l'eVar o il numero dell'evento.
+>[!NOTE] Potete anche cercare l&#39;elenco dei rapporti per proprietà, eVar e numero evento. Nella barra di ricerca, immettete la proprietà, l&#39;eVar o il numero dell&#39;evento.
 
 ## Panoramica sulla navigazione {#section_A6A0A369207149BABE504753B48A42D7}
 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Opzione di menu </th> 
+   <th colname="col1" class="entry"> Voce di menu </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr>
  </thead>
@@ -59,7 +59,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmenti <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Consente di visualizzare la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder</a> e <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  > Segment Manager</a> dalla barra dei segmenti. </td> 
+   <td colname="col2">Consente di visualizzare la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder</a> e <a href="https://marketing.adobe.com/resources/help/it_IT/analytics/segment/seg_manage.html"  > Segment Manager</a> dalla barra dei segmenti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -71,11 +71,11 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1">Barra di ricerca in <span class="uicontrol"> Visualizza tutti i rapporti</span> </td> 
-   <td colname="col2"> <p> Consente di cercare la risorsa desiderata. Utilizza la ricerca "sfocata", quindi non è necessario inserire la formulazione esatta che si sta cercando. I risultati della ricerca vengono visualizzati in un elenco retto che consente di spostarsi utilizzando frecce verso l’alto, il basso e laterali. Premendo <span class="uicontrol"> Invio</span> su un risultato di ricerca si passa direttamente al report. </p> </td> 
+   <td colname="col2"> <p> Consente di cercare la risorsa desiderata. Utilizza la ricerca "sfocata", quindi non è necessario inserire la formulazione esatta che si sta cercando. I risultati della ricerca vengono visualizzati in un elenco rettilineo che consente di spostarsi utilizzando frecce verso l’alto, il basso e laterali. Premendo <span class="uicontrol"> Invio</span> su un risultato di ricerca si passa direttamente al report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Preferiti </span> </td> 
-   <td colname="col2">Da questa area potete facilmente recuperare i rapporti contrassegnati come <span class="uicontrol"> Preferiti</span> . <span class="uicontrol"> Per ogni utente e per ogni suite di rapporti, vengono visualizzati dieci preferiti e un </span> altro... se hai più di dieci preferiti. <p>È possibile rinominare i rapporti ma non le dashboard nei Preferiti. </p> <p>I preferiti sono simili ai segnalibri, ma non sono memorizzati in una cartella o gestiti tramite <a href="/help/analyze/reports-analytics/bookmarks.md"  > Gestione</a> segnalibri come i segnalibri. </p> </td> 
+   <td colname="col2">Da questa area potete facilmente recuperare i rapporti contrassegnati come <span class="uicontrol"> Preferiti</span> . Per ogni utente e per ogni suite di rapporti, vengono visualizzati dieci preferiti e un <span class="uicontrol"> altro...</span> se hai più di dieci preferiti. <p>È possibile rinominare i rapporti ma non le dashboard nei Preferiti. </p> <p>I preferiti sono simili ai segnalibri, ma non sono memorizzati in una cartella o gestiti tramite <a href="/help/analyze/reports-analytics/bookmarks.md"  > Gestione</a> segnalibri come i segnalibri. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Visualizzato frequentemente</span> </td> 
@@ -83,7 +83,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Cronologia report</span> </td> 
-   <td colname="col2"> Di seguito sono elencati i dieci rapporti o le dashboard più recenti a cui avete avuto accesso negli ultimi 90 giorni. Puoi tornare facilmente a un passaggio precedente nell'analisi o nella generazione dei rapporti. </td> 
+   <td colname="col2"> Di seguito sono elencati i dieci rapporti o le dashboard più recenti a cui avete effettuato l'accesso negli ultimi 90 giorni. Puoi tornare facilmente a un passaggio precedente nell'analisi o nella generazione dei rapporti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Scarica</span> </td> 
@@ -118,4 +118,4 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
 
 ## Personalizzazione del menu Tutti i rapporti {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti. Consultate Personalizzazione [del](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) menu (Menu Customizing) nell'Aiuto di amministrazione.
+Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti. Consultate Personalizzazione [del](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) menu (Menu Customizing) nell&#39;Aiuto di amministrazione.
