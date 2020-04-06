@@ -2,7 +2,7 @@
 title: maxDelay
 description: Determinate la quantità massima di tempo in cui AppMeasurement attende una risposta dal DFA prima di inviare una richiesta di immagine.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 La `s.maxDelay` variabile viene utilizzata nel connettore dati DFA per determinare il periodo di timeout durante il contatto con l’host del DFA. Se Adobe non riceve una risposta dai server del DFA entro il periodo specificato impostato in questa variabile, la connessione viene interrotta e i dati vengono elaborati normalmente. Includete questa variabile nell’implementazione se avete a che fare con il tempo di risposta del DFAE su ogni pagina. Adobe consiglia di provare questo valore per determinare il periodo di timeout ottimale.
 
-Questa variabile viene utilizzata solo nelle implementazioni tramite il connettore dati DFA. Anche con le implementazioni che utilizzano il DFA, questa variabile è facoltativa.
+Questa variabile viene utilizzata solo nelle implementazioni che utilizzano il connettore dati DFA. Anche con le implementazioni che utilizzano il DFA, questa variabile è facoltativa.
 
 ## Ritardo massimo nel lancio della piattaforma Adobe Experience
 
@@ -31,4 +31,4 @@ s.maxDelay = 750;
 * La riduzione del tempo di attesa riduce il rischio di perdita dei dati hit di Analytics, ma può ridurre la quantità di dati DFA inviati con i dati hit.
 * La perdita dei dati di integrazione DFAE avviene quando il `s.maxDelay` periodo non è sufficiente per consentire all’ospitante del DFAE di rispondere.
 
-> [!NOTE] Adobe non ha il controllo sui tempi di risposta del DFAE. Se riscontri problemi coerenti anche dopo aver aumentato il periodo di ritardo massimo a un intervallo di tempo ragionevole, consulta l’amministratore di account DFA della tua organizzazione.
+>[!NOTE] Adobe non ha il controllo sui tempi di risposta del DFAE. Se riscontri problemi coerenti anche dopo aver aumentato il periodo di ritardo massimo a un intervallo di tempo ragionevole, consulta l’amministratore di account DFA della tua organizzazione.
