@@ -2,7 +2,7 @@
 description: Leggi le best practice ed esempi di come compilare varie regole che puoi impostare per i tuoi canali di marketing.
 title: Domande frequenti e esempi su Marketing Channels
 translation-type: tm+mt
-source-git-commit: 21f4b9df688776f7a1db96f76e258031ae3abb3d
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Ogni implementazione delle regole di elaborazione del canale di marketing può v
 
 **Domanda**: I miei codici di monitoraggio non seguono un pattern, e ho migliaia che devono essere specificati per il mio canale Affiliates.
 
-* Utilizzate il processo di eliminazione. Se i canali E-mail e Affiliati utilizzano lo stesso parametro della stringa di query, ma disponete solo di alcuni codici di tracciamento e-mail, potete specificare i codici di tracciamento e-mail in un set di regole che definisce l&#39;e-mail. Quindi puoi classificare tutti gli altri codici di tracciamento con *`affiliates.`*
+* Utilizzate il processo di eliminazione. Se i canali E-mail e Affiliati utilizzano lo stesso parametro della stringa di query, ma disponete solo di alcuni codici di tracciamento e-mail, potete specificare i codici di tracciamento e-mail in un set di regole che definisce l&#39;e-mail. Quindi, puoi classificare tutti gli altri codici di tracciamento con *`affiliates.`*
 * Nel sistema e-mail, aggiungete un parametro di stringa di query a tutti gli URL della pagina di destinazione, ad esempio *`&ch=eml`*. Create un set di regole per rilevare se il parametro query ch è uguale a *`eml`*. Se non contiene *`eml`*, è una filiale.
 
 **Domanda**: I domini di riferimento contengono più dati di quanto mi aspetto.
@@ -48,7 +48,7 @@ Accertatevi di disporre di un canale per queste tre possibilità. Ad esempio, cr
 
 1. **[!UICONTROL Referrer]** e **[!UICONTROL Does Not Exist]** e **[!UICONTROL Is First Page of Visit]**. (Vedere [Diretta.](/help/components/c-marketing-channels/c-faq.md))
 
-2. **[!UICONTROL Referrer Matches Internal URL Filters]** e **[!UICONTROL Is First page of Visit]**. (Vedere [Interno](/help/components/c-marketing-channels/c-faq.md).)
+2. **[!UICONTROL Referrer Matches Internal URL Filters]** ed **[!UICONTROL Is First page of Visit]**. (Vedere [Interno](/help/components/c-marketing-channels/c-faq.md).)
 
 3. **[!UICONTROL Referrer]** e **[!UICONTROL Exists]** e **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
@@ -62,9 +62,9 @@ Se le regole non acquisiscono dati o se le regole non sono configurate correttam
 
 Questo tipo di regola funge da clausola catch-all per garantire che il traffico dei canali corrisponda sempre al traffico esterno, e in genere non finisca in **[!UICONTROL No Channel Identified]**. Fare attenzione a non creare una regola che identifichi anche il traffico interno. L&#39;impostazione del valore del canale su **[!UICONTROL Referring Domain]** o su **[!UICONTROL Page URL]** sono i modi più comuni e utili per creare un&#39;altra regola efficace.
 
-> [!NOTE] Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell&#39;altro canale perché non c&#39;è un dominio di riferimento.
+>[!NOTE] Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell&#39;altro canale perché non c&#39;è un dominio di riferimento.
 
-## Ricerca pagata {#paid-search}
+## Ricerca a pagamento {#paid-search}
 
 Una ricerca a pagamento è una parola o una frase che viene pagata con un motore di ricerca per essere inserita nei risultati della ricerca. Per rispettare le regole di rilevamento delle ricerche pagate, il canale di marketing utilizza le impostazioni configurate sulla [!UICONTROL Paid Search Detection] pagina. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). L&#39;URL di destinazione corrisponde alla regola di rilevamento della ricerca a pagamento esistente per quel motore di ricerca.
 
@@ -94,7 +94,7 @@ Una regola di affiliazione identifica i visitatori che provengono da un set spec
 
 ## Social Network {#social-networks}
 
-Questa regola identifica i visitatori provenienti da un social network, come Facebook*. Le impostazioni possono essere le seguenti:
+Questa regola identifica i visitatori che provengono da un social network, come Facebook*. Le impostazioni possono essere le seguenti:
 
 ![](assets/example_social.png)
 
