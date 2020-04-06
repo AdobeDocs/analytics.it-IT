@@ -2,14 +2,14 @@
 title: apl (appendToList)
 description: Aggiungere valori alle variabili che supportano più valori.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: apl (appendToList)
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `apl` plug-in consente di aggiungere in modo sicuro nuovi valori a variabili delimitate da elenchi, come [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)e altri.
 
@@ -76,7 +76,7 @@ Il `apl` metodo restituisce il valore dell&#39; `lv` argomento più eventuali va
 
 ### Esempio n. 1
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event24";
@@ -96,7 +96,7 @@ s.events = "event22,event24,event23";
 
 ### Esempio n. 2
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23";
@@ -118,7 +118,7 @@ In questo esempio, la chiamata apl non ha apportato modifiche a s.events in quan
 
 ### Esempio n. 3
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = ""; //blank value
@@ -138,7 +138,7 @@ s.events = "event23";
 
 ### Esempio n. 4
 
-Se viene mostrato...
+Se...
 
 ```js
 s.prop4 = "hello|people";
@@ -166,7 +166,7 @@ Tenere presente che il plug-in restituisce solo un valore; non reimposta necessa
 
 ### Esempio n. 5
 
-Se viene mostrato...
+Se...
 
 ```js
 s.prop4 = "hello|people";
@@ -188,7 +188,7 @@ Assicuratevi di mantenere il delimitatore coerente tra ciò che è presente nel 
 
 ### Esempio n. 6
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23";
@@ -210,7 +210,7 @@ Anche se questo esempio non è pratico, dimostra la necessità di prestare atten
 
 ### Esempio n. 7
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23";
@@ -232,7 +232,7 @@ Il plug-in non aggiungerà &quot;event23&quot; a s.events perché esiste già in
 
 ### Esempio n. 8
 
-Se viene mostrato...
+Se...
 
 ```js
 s.linkTrackVars = "events,eVar1";
@@ -254,7 +254,7 @@ Gli ultimi tre argomenti (vale a dire &quot;,&quot;, &quot;,&quot;, false) alla 
 
 ### Esempio n. 9
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event24";
@@ -276,7 +276,7 @@ L&#39;esecuzione del plug-in da sola (senza assegnare il valore restituito a una
 
 ### Esempio n. 10
 
-Se viene mostrato...
+Se...
 
 ```js
 s.list2 = "casesensitivevalue|casesensitiveValue"
