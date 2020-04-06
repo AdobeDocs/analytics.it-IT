@@ -2,14 +2,14 @@
 title: inList
 description: Verificare se un valore è contenuto in un altro valore delimitato da caratteri.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in Adobe: inList
 
-> [!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `inList` plug-in consente di verificare se un valore esiste già all&#39;interno di una stringa delimitata o di un oggetto matrice JavaScript. Molti altri plug-in dipendono dal `inList` funzionamento del plug-in. Questo plug-in fornisce un vantaggio distinto rispetto al metodo JavaScript `indexOf()` in cui non corrisponde a stringhe parziali. Ad esempio, se avete utilizzato questo plug-in per verificare la presenza `"event2"`, non corrisponderà a una stringa contenente `"event25"`. Questo plug-in non è necessario se non è necessario verificare la presenza di valori in stringhe o array delimitati o se si desidera utilizzare una propria `indexOf()` logica.
 
@@ -66,7 +66,7 @@ La chiamata di questo metodo restituisce `true` se trova una corrispondenza e `f
 
 ### Esempio n. 1
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events="event22,event24";
@@ -82,7 +82,7 @@ if(s.inList(s.events,"event22"))
 
 ### Esempio n. 2
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events="event22,event24";
@@ -98,7 +98,7 @@ if(s.inList(s.events,"event2"))
 
 ### Esempio n. 3
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events="event22,event24";
@@ -114,7 +114,7 @@ if(!s.inList(s.events,"event23"))
 
 ### Esempio n. 4
 
-Se viene mostrato...
+Se...
 
 ```js
 s.events = "event22,event23";
@@ -130,7 +130,7 @@ if(s.inList(s.events,"EVenT23","",1))
 
 ### Esempio n. 5
 
-Se viene mostrato...
+Se...
 
 ```js
 s.linkTrackVars = "events,eVar1";
