@@ -4,7 +4,7 @@ title: Sovrapposizioni personalizzabili
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,11 +31,11 @@ Quando si passa il mouse su una sovrapposizione, vengono visualizzati [i relativ
 
 Con la sovrapposizione sfumatura, l’intensità del colore si basa sulla popolarità del collegamento. Questa intensità può essere normalizzata per le prime 30 classificazioni, o per una funzione del valore della metrica assoluta.
 
-Queste metriche vengono sovrapposte ai collegamenti della pagina come una sorta di "mappa termica" per rispondere a domande critiche, tra cui:
+Queste metriche vengono sovrapposte ai collegamenti della pagina come una sorta di &quot;mappa termica&quot; per rispondere a domande critiche, tra cui:
 
 * Qual è il valore di una singola pagina?
 * Qual è il valore di un singolo elemento in una pagina?
-* Qual è il "patrimonio immobiliare digitale" più prezioso di una pagina?
+* Qual è il &quot;patrimonio immobiliare digitale&quot; più prezioso di una pagina?
 
 ![](assets/gradient.png)
 
@@ -47,13 +47,13 @@ Le sovrapposizioni delle bolle vengono visualizzate quando selezionate questa so
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] Le sovrapposizioni per i sottomenu vengono visualizzate solo quando viene visualizzato il sottomenu:
+>[!NOTE] Le sovrapposizioni per i sottomenu vengono visualizzate solo quando viene visualizzato il sottomenu:
 >
->![](assets/bubbles_submenu.png)&gt;
+>![](assets/bubbles_submenu.png)>
 
 ## Sovrapposizioni per guadagno e perdenti {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Gainers and losers overlays]** sono disponibili solo in modalità Live. Segnalano le modifiche in tempo reale nell'attività dei collegamenti confrontando le metriche del periodo corrente con quelle dell'ultimo periodo. Offrono un modo visivamente accattivante per visualizzare le tendenze in tempo reale.
+**[!UICONTROL Gainers and losers overlays]** sono disponibili solo in modalità Live. Segnalano le modifiche in tempo reale nell&#39;attività dei collegamenti confrontando le metriche del periodo corrente con quelle dell&#39;ultimo periodo. Offrono un modo visivamente accattivante per visualizzare le tendenze in tempo reale.
 
 Questa sovrapposizione in tempo reale classifica i clic in base alle modifiche nel valore della metrica tra il periodo precedente e quello corrente.
 
