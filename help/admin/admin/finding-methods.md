@@ -4,7 +4,7 @@ title: Metodi di ricerca
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 La pagina Metodi di ricerca identifica il modo in cui i vari rapporti sui metodi di ricerca ricevono credito per gli eventi di successo di conversione sul sito. Ad esempio, se un motore di ricerca fa riferimento a un visitatore del sito che effettua un acquisto, i metodi di ricerca specificano il modo in cui il motore di ricerca riceve il credito per il riferimento.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Finding Methods]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
 
 ## Ricerca di descrizioni dei metodi {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -52,5 +52,5 @@ La pagina Metodi di ricerca identifica il modo in cui i vari rapporti sui metodi
  </tbody> 
 </table>
 
-> [!NOTE] Tutti i metodi di ricerca scadono al termine della visita. Se si sceglie Scade dopo un altro evento (ad esempio, Cart Checkout), il metodo di ricerca scade quando si verifica il Cart Checkout durante la visita. Se durante la visita non si verifica un checkout carrello, il metodo di ricerca continua a scadere al termine della visita.
+>[!NOTE] Tutti i metodi di ricerca scadono al termine della visita. Se si sceglie Scade dopo un altro evento (ad esempio, Cart Checkout), il metodo di ricerca scade quando si verifica il Cart Checkout durante la visita. Se durante la visita non si verifica un checkout carrello, il metodo di ricerca continua a scadere al termine della visita.
 
