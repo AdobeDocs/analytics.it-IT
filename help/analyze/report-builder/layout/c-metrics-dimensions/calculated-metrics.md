@@ -3,7 +3,7 @@ description: Generatore di report 5.2 supporta le metriche calcolate unificate d
 title: Metriche calcolate
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
 
 ---
 
@@ -26,7 +26,7 @@ Nel passaggio 2 della Richiesta guidata, puoi filtrare e applicare le metriche c
 
 I filtri disponibili includono:
 
-![](assets/advanced_filters_(2).png)
+![](assets/advanced_filters.png)
 
 | Nome filtro | Descrizione |
 |---|---|
