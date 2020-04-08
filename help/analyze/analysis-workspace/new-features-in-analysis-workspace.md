@@ -5,7 +5,7 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
 
 ---
 
@@ -307,8 +307,8 @@ Nuove funzionalità e miglioramenti rilasciati il giovedì 12 aprile 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Impostazione di visualizzazione “Sovrapposizione 100%” </a> </p> </td> 
-   <td colname="col2"> <p>Una nuova impostazione per la visualizzazione dei grafici Superfici sovrapposte, Barre sovrapposte e Barre orizzontali sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%, permettendo di misurare le proporzioni relative. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Una nuova impostazione per la visualizzazione dei grafici Superfici sovrapposte, Barre sovrapposte e Barre orizzontali sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%, permettendo di misurare le proporzioni relative. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> Le funzioni <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >Rilevamento anomalie e Analisi contributi</a> sono ora disponibili solo in Analysis Workspace </p> </td> 
    <td colname="col2"> <p>Le funzioni Rilevamento delle anomalie e Analisi contributi sono state rimosse da Reports &amp; Analytics e sono ora disponibili solo in Analysis Workspace. </p> <p>I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace. </p> </td> 
