@@ -2,7 +2,7 @@
 title: Guida utente Labs
 description: Anteprima di progetti prototipo per Adobe Analytics
 translation-type: tm+mt
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -24,7 +24,7 @@ Per accedere ai laboratori:
 
 1. Se non disponete già dell&#39;accesso a Workspace e Labs, chiedete all&#39;amministratore le autorizzazioni necessarie.
 
-1. Click the **Labs** tab.
+1. Fare clic sulla scheda **Labs** .
 
 ## Valutare un prototipo
 
@@ -38,7 +38,7 @@ Per avviare e valutare un prototipo:
 
    ![opzioni di anteprima](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. Utilizzare il prototipo. Quando si lavora nell&#39;ambiente prototipo:
+1. Lavorate con il prototipo. Quando si lavora nell&#39;ambiente prototipo:
 
 * I progetti creati nell&#39;ambiente prototipo non possono essere salvati o condivisi.
 
@@ -48,7 +48,7 @@ Per avviare e valutare un prototipo:
 
 * Le modifiche apportate mediante la creazione o la modifica di segmenti, metriche calcolate e avvisi persistono al di fuori dell&#39;ambiente del prototipo.
 
-## Lascia feedback
+## Lasciare un feedback
 
 1. Fate clic sul pulsante **Invia feedback** per fornire un feedback nella finestra di messaggio in qualsiasi momento durante l’utilizzo del prototipo.
 
@@ -58,11 +58,11 @@ Per avviare e valutare un prototipo:
 
 1. Per provare un altro prototipo, o per uscire dall&#39;ambiente del prototipo, fare clic sul pulsante **Lascia prototipo** in alto a destra dello schermo e completare il breve sondaggio per il prototipo. Eventuali modifiche apportate a un progetto prototipo vengono perdute all&#39;uscita dall&#39;ambiente del prototipo.
 
-   ![nuovo feedback](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![nuovo feedback](assets/short-survey.png)
 
 1. Fate clic su **Invia** per tornare al portale Anteprime principale.
 
 ## Informazioni aggiuntive
 
-* Alcuni prototipi in Labs diventano funzioni di Analytics, altri no. I vostri commenti guidano la decisione, quindi rivedete i prototipi e informate Adobe del loro valore.
+* Alcuni prototipi in Labs diventano funzioni di Analytics, altri potrebbero non esserlo. I vostri commenti guidano la decisione, quindi rivedete i prototipi e informate Adobe del loro valore.
 * Labs è disponibile per tutte le adesioni SKU.
