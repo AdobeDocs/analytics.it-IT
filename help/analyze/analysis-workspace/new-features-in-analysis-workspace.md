@@ -5,12 +5,20 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Scopri le novità di Analysis Workspace
+
+## Aprile 2020
+
+Nuova funzionalità rilasciata il 16 aprile 2020.
+
+| Funzione | Descrizione |
+|--- |--- |
+| Genera automaticamente [!UICONTROL Freeform Tables] da uno stato vuoto | In precedenza, non era possibile rilasciare componenti direttamente in un progetto vuoto o in un pannello vuoto; prima era necessario aggiungere una tabella a forma libera. Ora è possibile rilasciare i componenti direttamente in un progetto o pannello vuoto e una tabella a forma libera sarà automaticamente creata in un formato consigliato. Sono stati inoltre apportati miglioramenti al modo in cui vengono gestiti i tipi di componenti misti (ad esempio, dimensioni e metriche) quando vengono rilasciati [!UICONTROL Freeform Table] insieme in uno spazio vuoto. |
 
 ## Marzo 2020
 
