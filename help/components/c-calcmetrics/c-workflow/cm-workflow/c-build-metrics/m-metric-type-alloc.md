@@ -1,9 +1,9 @@
 ---
-description: Selezionando l'icona a forma di ingranaggio accanto a una metrica è possibile specificare il tipo di metrica e il modello di attribuzione.
+description: 'Ulteriori informazioni '
 title: Tipo di metrica e attribuzione
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ Selezionando l&#39;icona a forma di ingranaggio accanto a una metrica è possibi
 * [Modello di attribuzione colonna](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [Come funziona l&#39;allocazione lineare (dal 19 luglio 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## Tipo di metrica {#section_34A86FB402F94E988724232283BF18B7}
+## Tipo di metrica
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ Selezionando l&#39;icona a forma di ingranaggio accanto a una metrica è possibi
 | Standard | Queste metriche sono le stesse utilizzate per il [!DNL Analytics] reporting standard. Se una formula è costituita da una singola metrica standard, vengono visualizzati dati identici a quelli della corrispondente metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento riga. Ad esempio, [Ordini] / [Visite] riceve gli ordini per quell&#39;articolo specifico e lo divide per il numero di visite per quell&#39;articolo specifico. |
 | Totale | Utilizzare il totale per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica totale, visualizza lo stesso numero totale su ogni elemento riga. Le metriche totali sono utili per creare metriche calcolate confrontate con i dati totali del sito. Ad esempio, [Ordini] / Visite [] totali mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite all&#39;elemento riga specifico. |
 
-## Modello di attribuzione colonna {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Modello di attribuzione colonna
 
 >[!IMPORTANT]
 >
@@ -40,68 +40,25 @@ Selezionando l&#39;icona a forma di ingranaggio accanto a una metrica è possibi
 
 ## Come funziona l&#39;allocazione lineare (dal 19 luglio 2018)
 
-Nel luglio 2018, Adobe ha modificato il modo in cui viene riportata l&#39;allocazione lineare per le metriche calcolate. Questa modifica interessa Analysis Workspace, Analisi ad hoc, Reporting e analisi, Generatore di report, Activity Map e le API di reporting. La modifica interesserà principalmente le eVar e altre dimensioni con persistenza. Si noti che queste modifiche saranno applicate solo alle metriche calcolate e non avranno alcun impatto sugli altri report che utilizzano l&#39;allocazione lineare (come il report Pagine in Reporting e analisi). Altri rapporti che utilizzano l&#39;allocazione lineare continueranno a utilizzare il metodo esistente di allocazione lineare.
+Nel luglio 2018, Adobe ha modificato il modo in cui viene riportata l&#39;allocazione lineare per le metriche calcolate. Questa modifica interessa Analysis Workspace, Analisi ad hoc, Reporting e analisi, Generatore di report, Activity Map e le API di reporting. La modifica interessa principalmente le eVar e altre dimensioni persistenti. Tenete presente che queste modifiche si applicano solo alle metriche calcolate e non hanno alcun impatto sugli altri report che utilizzano l&#39;allocazione lineare (come il report Pagine in Reporting e analisi). Altri rapporti che utilizzano l&#39;allocazione lineare continueranno a utilizzare il metodo esistente di allocazione lineare.
 
 L&#39;esempio seguente illustra come le metriche calcolate con allocazione lineare cambieranno nei report:
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Hit 1 </th> 
-   <th colname="col3" class="entry"> Hit 2 </th> 
-   <th colname="col4" class="entry"> Hit 3 </th> 
-   <th colname="col5" class="entry"> Hit 4 </th> 
-   <th colname="col6" class="entry"> Hit 5 </th> 
-   <th colname="col7" class="entry"> Hit 6 </th> 
-   <th colname="col8" class="entry"> Hit 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Dati inviati in </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ultima eVar tocco </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> PROMO B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First Touch eVar </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO A </td> 
-   <td colname="col6"> PROMO A </td> 
-   <td colname="col7"> PROMO A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Esempio di proprietà </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| Dati inviati in | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| Ultima eVar tocco | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| First Touch eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| Esempio di proprietà | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 
 In questo esempio, i valori A, B e C sono stati inviati in una variabile sugli hit 1, 3, 4 e 6 prima che un acquisto di $10 fosse effettuato sull&#39;hit 7. Nella seconda riga, questi valori persistono tra gli hit in base all’ultima visita di tocco. La terza riga illustra una persistenza della visita di primo tocco. Infine, l&#39;ultima riga illustra come i dati verrebbero registrati per una prop che non ha persistenza.
+
+## Differenze nel funzionamento dell&#39;allocazione lineare in Reporting e analisi rispetto a Workspace
+
+Esistono alcune differenze nel funzionamento dell&#39;attribuzione lineare tra questi due strumenti:
+
+* In Reporting e analisi, l&#39;attribuzione lineare (elaborata) è sempre basata sulle visite, mentre in Workspace può essere basata sulle visite o sui visitatori.
+* In Reporting e analisi, se nessun valore veniva passato al primo hit di una visita, il valore (iniziale) persisteva dalla visita precedente. NON è questo il caso in Workspace (Attribution IQ). Se non viene passato alcun valore al primo hit di una visita, &#39;None&#39; è il valore iniziale.
 
 ## Funzionamento dell&#39;allocazione lineare prima di luglio 2018
 
