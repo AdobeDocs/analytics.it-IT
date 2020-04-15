@@ -1,44 +1,44 @@
 ---
-description: Istruzioni per la configurazione delle scorecard dell’app mobile.
-title: Guida per i curatori dell’app mobile di Adobe Analytics
+description: Istruzioni per l'impostazione delle scorecard delle dashboard.
+title: Guida alla gestione delle dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
+source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
 
 ---
 
 
 
-# BETA: Guida per i curatori dell’app mobile di Analytics
+# BETA: Guida del curatore per le dashboard di Adobe Analytics
 
 
 ## Introduzione
 
-L’app mobile di Adobe Analytics fornisce ovunque e in qualsiasi momento dati relativi ad Adobe Analytics.   L’app ti consente di accedere da dispositivi mobili a scorecard intuitive che crei e condividi dall’interfaccia utente desktop di Adobe Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. L’app mobile è supportata sia su sistemi operativi iOS che Android.
+Le dashboard di Adobe Analytics forniscono informazioni ovunque e in qualsiasi momento da Adobe Analytics. L’app ti consente di accedere da dispositivi mobili a scorecard intuitive che crei e condividi dall’interfaccia utente desktop di Adobe Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. Le dashboard di Analytics sono supportate sia sui sistemi operativi iOS che su quelli Android.
 
 ## Informazioni su questa guida
 
-Questa guida ha lo scopo di aiutare i curatori di dati Adobe Analytics a configurare le scorecard per i loro utenti esecutivi sull’app mobile di Analytics. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali dell’app mobile di Analytics, questa guida aiuterà i curatori dei dati a configurare l’app in modo efficace per questi utenti.
+Questa guida è stata creata per aiutare i curatori dei dati di Adobe Analytics a configurare le scorecard per i propri utenti esecutivi sulle dashboard di Analytics. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali delle dashboard di Analytics, questa guida aiuterà i curatori di dati a configurare l&#39;app in modo efficace per tali utenti.
 
 
 ## Glossario dei termini
 
-La tabella seguente descrive i termini per comprendere il pubblico, le funzioni e il funzionamento dell’app mobile di Analytics.
+Nella tabella seguente sono descritti i termini per comprendere l&#39;audience, le funzioni e il funzionamento delle dashboard di Analytics.
 
 | Termine | Definizione |
 |--- |--- |
 | Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
 | Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
-| Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
-| Scorecard | Una vista dell’app mobile contenente una o più tessere |
+| Cura | Creazione o modifica di una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore |
+| Scorecard | Una vista per dashboard contenente una o più sezioni |
 | Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
 | Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive. |
-| Intervallo date | L’intervallo date primario per la generazione di rapporti dell’app mobile |
+| Intervallo date | Intervallo di date principale per il reporting dei dashboard |
 | Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
 
  
 ## Creare una scorecard per utenti esecutivi
 
-Una Scorecard per dispositivi mobili mostra le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come mostrato di seguito:
+Una scorecard visualizza le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a sezioni, come illustrato di seguito:
 
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
@@ -79,7 +79,7 @@ Dalla schermata **Progetti**, sotto la scheda **Componenti**, fai clic sul pulsa
 
 **Usare gli strumenti di Analytics**
 
-In Analytics, fai clic sul menu **Strumenti** e seleziona **App mobile**. Nella schermata successiva, fai clic sul pulsante **Crea scorecard**.
+In Analytics, click the **Tools** menu and select **dashboards**. Nella schermata successiva, fai clic sul pulsante **Crea scorecard**.
 
 ### Configura la scorecard con i dati e salvala
 
@@ -149,7 +149,7 @@ Per condividere la scorecard con un utente esecutivo:
 ![Condividere_scorecard](assets/new_share.png)
 
 
-Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulla loro app mobile di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
+Dopo aver condiviso una scorecard, i destinatari possono accedervi mediante le dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
 *Nota: se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividere nuovamente la scorecard (e di selezionare l’opzione **Condividi automaticamente i componenti incorporati con i destinatari**) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.*
 
@@ -175,7 +175,7 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
 
    **Per gli utenti esecutivi su iOS:**
 
-   1. Fare clic sul seguente link pubblico (è disponibile anche in Analytics alla voce **Strumenti** > **App mobile**):
+   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
 
       [Link iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -185,13 +185,12 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
 
    2. Toccare il link **Visualizza nell’App Store** sullo schermo per scaricare l’app Testflight.
 
-   3. Dopo aver installato l’app Testflight, trovare e installare l’app mobile di Adobe Analytics all’interno di Testflight come mostrato di seguito:
+   3. Dopo aver installato l’app Testflight, trova e installa le dashboard di Adobe Analytics dall’interno di Testflight come mostrato di seguito:
 
       ![Schermata di Testflight](assets/testflight2.png)
-
    **Per gli utenti esecutivi su Android:**
 
-   1. Toccare il seguente link al Play Store sul dispositivo dell’utente (è disponibile anche in Analytics alla voce **Strumenti** > **App mobile**):
+   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Dopo aver toccato il link, toccare il link Diventa un tester nella seguente schermata:
