@@ -1,53 +1,53 @@
 ---
-description: Istruzioni per la configurazione delle scorecard dell’app mobile.
-title: Guida per i curatori dell’app mobile di Adobe Analytics
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+description: Istruzioni per l'uso delle scorecard delle dashboard.
+title: Guida esecutiva delle dashboard di Adobe Analytics
+translation-type: tm+mt
+source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
 
 ---
 
 
-# App mobile di Analytics: guida rapida introduttiva per gli utenti esecutivi
+# Dashboard di Adobe Analytics: guida introduttiva per l&#39;utente esecutivo
 
 ## Introduzione
 
-L’app mobile di Adobe Analytics fornisce ovunque e in qualsiasi momento dati relativi ad Adobe Analytics.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
+Le dashboard di Adobe Analytics forniscono informazioni ovunque e in qualsiasi momento da Adobe Analytics.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. I dashboard sono supportati sia sui sistemi operativi iOS che su quelli Android.
 
 ## Informazioni su questa guida
 
-Questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretare le scorecard sull’app mobile di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
+Questa guida è destinata ad aiutare gli utenti esecutivi a leggere e interpretare le scorecard nelle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
 ## Glossario dei termini
 
 | Termine | Definizione |
 |--- |--- |
-| Consumatore | Dirigenti che visualizzano metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
+| Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
 | Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
-| Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore |
-| Scorecard | Una vista dell’app mobile contenente una o più tessere |
+| Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
+| Scorecard | Una vista per dashboard contenente una o più sezioni |
 | Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
 | Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive. |
-| Intervallo date | L’intervallo date primario per il reporting dell’app mobile |
+| Intervallo date | Intervallo di date principale per il reporting dei dashboard |
 | Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
 
-## Configura l’app sul tuo dispositivo
+## Ottenere la configurazione delle dashboard sul dispositivo
 
-Per utilizzare l’app in modo efficace, è necessario che il curatore della scorecard ti aiuti a configurarla. Questa sezione fornisce informazioni per aiutarti a effettuare la configurazione con l’assistenza del tuo curatore.
+Per utilizzare le dashboard in modo efficace, è necessario che il curatore Scorecard vi aiuti a configurarlo. Questa sezione fornisce informazioni per aiutarti a effettuare la configurazione con l’assistenza del tuo curatore.
 
 ### Ottenere l’accesso
 
-Per accedere alle scorecard sull’app, assicurati:
+Per accedere alle scorecard nelle dashboard, assicurarsi che:
 
 * Di avere un accesso valido ad Adobe Analytics
 * Che il tuo curatore abbia creato correttamente le scorecard per dispositivi mobili e le abbia condivise con te
 
-### Scaricare e installare l’app
+### Download e installazione di dashboard
 
 Per scaricare e installare l’app, segui i passaggi relativi al sistema operativo del tuo dispositivo.
 
 **Per dispositivi iOS:**
 
-1. Fare clic sul seguente link pubblico (è disponibile anche in Analytics alla voce **Strumenti** > **App mobile**):
+1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
 
    [Link iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -57,13 +57,13 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 2. Toccare il link **Visualizza nell’App Store** sullo schermo per scaricare l’app Testflight.
 
-3. Dopo aver installato l’app Testflight, trovare e installare l’app mobile di Adobe Analytics all’interno di Testflight come mostrato di seguito:
+3. Dopo aver installato l’app Testflight, trova e installa le dashboard di Adobe Analytics dall’interno di Testflight come mostrato di seguito:
 
    ![Schermata di Testflight](assets/testflight2.png)
 
 **Per dispositivi Android:**
 
-1. Toccare il seguente link al Play Store sul dispositivo dell’utente (è disponibile anche in Analytics alla voce **Strumenti** > **App mobile**):
+1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -76,15 +76,15 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
    ![Link di download](assets/playnext.png)
 
-## Utilizzare l’app
+## Utilizzare le dashboard
 
-Per utilizzare l’app:
+Per utilizzare le dashboard:
 
-1. Accedi all’app. La schermata di accesso verrà visualizzata all’avvio dell’app. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
+1. Accedi all’app. La schermata di accesso verrà visualizzata all&#39;avvio delle dashboard. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
 
    ![Sequenza di accesso](assets/signseq.png)
 
-2. Scegli un’azienda. Dopo che accedi all’app, viene visualizzata la schermata **Scegli un’azienda**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
+2. Scegli un’azienda. After you sign into dashboards, the **Choose a company** screen appears. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
 3. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
 
@@ -129,7 +129,7 @@ Per utilizzare l’app:
 
 8. Lasciare un feedback. Per lasciare un feedback:
 
-   1. Toccare l’icona dell’utente in alto a destra della schermata dell’app.
+   1. Toccate l&#39;icona utente in alto a destra della schermata delle dashboard.
    2. Nella schermata **Il mio account**, toccare l’opzione **Feedback**.
    3. Toccare per visualizzare le opzioni per lasciare un feedback.
    ![Lasciare un feedback](assets/feedback.png)
