@@ -2,7 +2,7 @@
 title: trackExternalLinks
 description: Abilita o disabilita il tracciamento automatico dei collegamenti per i collegamenti di uscita.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
 
@@ -29,5 +29,5 @@ Fai clic sulla casella di controllo per abilitare il tracciamento automatico dei
 Il valore booleano `s.trackExternalLinks` consente o disabilita il tracciamento automatico dei collegamenti di uscita. Se non si desidera tracciare i collegamenti in uscita o se si preferisce chiamare manualmente il `tl()` metodo per tracciare i collegamenti in uscita, impostare questa variabile su `false`.
 
 ```js
-s.trackDownloadLinks = true;
+s.trackExternalLinks = true;
 ```
