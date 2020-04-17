@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + Casi d’uso {#use-cases}
       + [Escludi date specifiche](c-segmentation/use-cases/exclude-date-range.md)
    + [Domande frequenti](c-segmentation/seg-transition.md)
-   + [Scopri le novità di Analysis Segmentation](c-segmentation/whats-new-segmentation.md)
+   + [Novità nella segmentazione di Analytics](c-segmentation/whats-new-segmentation.md)
    + [Guida alla transizione per Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Metriche calcolate {#calculated-metrics}
-   + [Metriche calcolate e metriche calcolate avanzate (derivate)](c-calcmetrics/cm-overview.md)
-   + [Domande frequenti](c-calcmetrics/cm-transition.md)
-   + [Video sulle procedure](c-calcmetrics/cm-videos.md)
+   + [Metriche calcolate e avanzate (derivate)](c-calcmetrics/cm-overview.md)
    + Flusso di lavoro per le metriche calcolate {#calcmetric-workflow}
       + [Flusso di lavoro per le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [Compatibilità delle metriche](c-calcmetrics/cm-compatibility.md)
       + [Metriche calcolate: diritti basati su ruolo](c-calcmetrics/cm-role-based-rights.md)
       + [Totali delle metriche calcolate](c-calcmetrics/cm-totals.md)
+   + [Dati derivati interessati dagli eventi](c-calcmetrics/cm-events.md)
+   + [Domande frequenti](c-calcmetrics/cm-transition.md)
+   + [Video sulle procedure](c-calcmetrics/cm-videos.md)
 + Suite di rapporti virtuali {#virtual-report-suites}
    + [Panoramica delle suite di rapporti virtuali](vrs/vrs-about.md)
    + [Cura dei componenti di suite di rapporti virtuali](vrs/vrs-components.md)
