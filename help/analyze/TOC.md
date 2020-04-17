@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida all’analisi di Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -44,6 +44,7 @@ source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
          + [Panoramica del calendario e degli intervalli di date](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Creazione di intervalli di date personalizzati](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Confronto delle date](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Confronto delle date interessate da un evento](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
