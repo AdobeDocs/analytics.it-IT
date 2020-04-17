@@ -2,7 +2,7 @@
 title: Analisi dei dati interessati dagli eventi
 description: Comprendere in che modo i dati influenzati da un evento contribuiscono alla qualità generale dei dati.
 translation-type: tm+mt
-source-git-commit: e3360e15de14f594e62b4be6316f8b095091ec1f
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -13,7 +13,7 @@ A volte un evento può avere un impatto sulla qualità dei dati nell&#39;organiz
 
 * Un bot che invia dati esterni, come milioni di dollari in entrate
 * L&#39;organizzazione ha inviato un aggiornamento al sito Web che ha avuto un impatto negativo sull&#39;implementazione di Analytics
-* Consente di uscire dalla qualità del server, sia alla fine dell&#39;azienda che alla fine di Adobe
+* Altri aspetti che influiscono sulla qualità o completezza dei dati
 
 Se il sito ha riscontrato problemi di qualità dei dati, problemi di implementazione o altri difetti nei dati, potrebbe essere utile escluderlo dal reporting per evitare di prendere decisioni su dati parziali. Utilizzare queste sezioni per misurare l&#39;impatto dell&#39;evento sui dati e determinare come si desidera procedere.
 
