@@ -2,16 +2,14 @@
 title: Escludere date specifiche nell'analisi
 description: Suggerimenti per escludere date o intervalli di date se non si desidera includerli nei rapporti.
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # Escludere date specifiche nell&#39;analisi
 
-A volte un intervallo di date contiene dati che non si desidera analizzare. Ad esempio, un bot invia un hit aberrante contenente una quantità errata di ricavi, che aumenta drasticamente la metrica. Se il sito ha riscontrato problemi di implementazione o altri difetti di dati, potrebbe essere utile escluderlo dai rapporti e impedire di prendere decisioni su dati parziali.
-
-Puoi utilizzare un segmento per escludere qualsiasi intervallo di date che non desideri includere nei tuoi rapporti.
+Se un evento [ha un impatto](/help/technotes/event-impacted.md)sui dati, puoi utilizzare un segmento per escludere qualsiasi intervallo di date che non desideri includere nei rapporti. La segmentazione delle date interessate dall&#39;evento può aiutare a impedire all&#39;organizzazione di prendere decisioni sui dati parziali.
 
 ## Isolare i giorni interessati
 
@@ -67,15 +65,3 @@ Puoi utilizzare il segmento in una suite [di rapporti](../../vrs/vrs-about.md) v
 5. Fate clic **[!UICONTROL Continue]** in alto a destra, quindi fate clic su **[!UICONTROL Save]**.
 
 ![Segmento applicato alla VRS](../assets/exclude_segment_vrs.png)
-
-## Alternative in altri strumenti
-
-Se utilizzate Reporting e analisi, potete utilizzare un evento [del](../../t-calendar-event.md) calendario per evidenziare i giorni interessati in qualsiasi rapporto con tendenze.
-
->[!NOTE] Questo metodo non si applica ad Analysis Workspace.
-
-1. Passa a **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Inserite il titolo, l’intervallo di date e il testo della nota desiderati.
-3. Fai clic su **[!UICONTROL Save]**.
-
-![Evento calendario](../assets/exclude_calendar_event.jpg)
