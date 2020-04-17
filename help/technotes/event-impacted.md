@@ -2,7 +2,7 @@
 title: Analisi dei dati interessati dagli eventi
 description: Comprendere in che modo i dati influenzati da un evento contribuiscono alla qualità generale dei dati.
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -24,6 +24,10 @@ Adobe Analytics offre un modo semplice e affidabile di focalizzare o escludere i
 ## Confronto di un evento con intervalli di date precedenti
 
 Per saperne di più sull’impatto che un evento ha avuto sui dati nel tempo, puoi utilizzare il confronto delle date in Analysis Workspace. Questa funzione consente di confrontare i dati giorno per giorno, settimana per settimana o mese per mese per vedere il confronto con gli intervalli precedenti. È quindi possibile utilizzare questo confronto per determinare l&#39;effetto di un evento sulle tendenze. Consultate [Confrontare le date interessate da un evento con gli intervalli](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) precedenti nella guida utente Analisi.
+
+## Correggere i dati con tendenze utilizzando metriche calcolate
+
+Dopo aver creato segmenti e utilizzato il confronto delle date, puoi combinare entrambi questi concetti per correggere i dati con tendenze utilizzando metriche calcolate. Includi i segmenti all’interno di una metrica calcolata, quindi moltiplica i giorni interessati per l’offset rilevato durante il confronto delle date. Consulta [Derive data impression by events](/help/components/c-calcmetrics/cm-events.md) (derivare i dati influenzati dagli eventi) nella guida utente Components (Componenti).
 
 ## Utilizzo di un evento del calendario in Reporting e analisi
 
