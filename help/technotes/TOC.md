@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics tech notes
+user-guide-title: Note tecniche di Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -26,13 +26,14 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
       + [Conversioni](ga-to-aa/reports/conversions-reports.md)
    + [Domande frequenti](ga-to-aa/faq.md)
    + [Differenze di elaborazione tra piattaforme](ga-to-aa/processing-differences.md)
-+ [Cookie browser](cookies.md)
-+ [Conservazione dei dati](data-retention.md)
++ [Analisi dei dati interessati dagli eventi](event-impacted.md)
++ [Browser cookie](cookies.md)
++ [Conservazione dati](data-retention.md)
 + [Latenza](latency.md)
 + [Valore traffico ridotto](low-traffic.md)
 + [Panoramica sulla privacy](privacy-overview.md)
 + [Reindirizzamenti e alias](redirects.md)
-+ [Supporto multivaluta](multicurrency.md)
++ [Supporto multi-valuta](multicurrency.md)
 + Raccolta di dati regionali {rdc}
    + [Aiuto per la raccolta dati regionali](rdc/regional-data-collection.md)
    + [Licenza di certificazione SSL](rdc/ssl-cert-licensing.md)
