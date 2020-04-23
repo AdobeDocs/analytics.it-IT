@@ -2,14 +2,14 @@
 title: Dati derivati interessati dagli eventi
 description: Utilizzare le metriche calcolate per correggere i dati con tendenze interessati da un evento.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 
 ---
 
 
 # Dati derivati interessati dagli eventi
 
-Se i dati [sono influenzati da un evento](/help/technotes/event-impacted.md), puoi utilizzare le metriche calcolate per derivare i valori con tendenze per la durata dell&#39;evento. Ad esempio, in presenza di un evento che ha causato un calo del 25% dei dati, puoi utilizzarlo come moltiplicatore in una metrica calcolata.
+Se i dati [sono influenzati da un evento](/help/technotes/event-impacted.md), puoi utilizzare le metriche calcolate per derivare i valori con tendenze per la durata dell&#39;evento. Ad esempio, in presenza di un evento che ha causato un calo del 25% dei dati, puoi utilizzarlo come moltiplicatore in una metrica calcolata. Questo metodo è utile se non hai il tempo o le risorse per inserire dati in Adobe Analytics utilizzando origini [](/help/import/c-data-sources/datasrc-home.md) dati o l&#39;API [di inserimento](/help/import/c-data-insertion-api/c-data-insertion-api.md)dati.
 
 >[!NOTE] Questi passaggi consentono di comprendere meglio l&#39;impatto di un evento, sia dal punto di vista della segmentazione che del confronto delle date. Seguire [Confrontare le date interessate da un evento con gli intervalli](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) precedenti ed [Escludere date specifiche nell&#39;analisi](../c-segmentation/use-cases/exclude-date-range.md) prima di seguire questa pagina.
 
