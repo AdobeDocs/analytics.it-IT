@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Visualizzazioni di pagina e contenuto
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Descrizioni dei campi in Gestione tag dinamica per le visualizzazioni di pagina e le impostazioni di contenuto durante la distribuzione di Analytics.
 
-**[!UICONTROL  *`Property`*]**> Icona![](assets/settings_gear.png)ingranaggio**[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
+**[!UICONTROL  *`Property`*]** > Icona ![](assets/settings_gear.png) ingranaggio **[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -26,19 +26,19 @@ Descrizioni dei campi in Gestione tag dinamica per le visualizzazioni di pagina 
  <tbody>
   <tr>
    <td colname="col1"> Nome pagina </td>
-   <td colname="col2"> <p>Nome di ogni pagina del sito. </p> <p>Vedere [pageName](../../../vars/page-vars/pagename.md). </p> </td>
+   <td colname="col2"> <p>Nome di ogni pagina del sito. </p> <p>Vedere <a href="../../../vars/page-vars/pagename.md">pageName</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Override URL pagina </td>
-   <td colname="col2"> <p> Sostituisce l’URL effettivo della pagina. </p> <p>Consultate [pageURL](../../../vars/page-vars/pageurl.md). </p> </td>
+   <td colname="col2"> <p> Sostituisce l’URL effettivo della pagina. </p> <p>Consulta <a href="../../../vars/page-vars/pageurl.md">pageURL</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Canale (sezione Sito) </td>
-   <td colname="col2"> <p>Identifica una sezione del sito. </p> <p>Consultate [channel](../../../vars/page-vars/channel.md). </p> </td>
+   <td colname="col2"> <p>Identifica una sezione del sito. </p> <p>Vedere <a href="../../../vars/page-vars/channel.md">canale</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Gerarchia </td>
-   <td colname="col2"> <p>Determina la posizione di una pagina nella gerarchia del sito. </p> <p>Vedete [hier](../../../vars/page-vars/hier.md). </p> </td>
+   <td colname="col2"> <p>Determina la posizione di una pagina nella gerarchia del sito. </p> <p>Vedi <a href="../../../vars/page-vars/hier.md">qui</a>. </p> </td>
   </tr>
  </tbody>
 </table>
