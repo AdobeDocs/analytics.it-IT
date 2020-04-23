@@ -2,7 +2,7 @@
 description: nulle
 title: Generatore di informazioni rapide
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ Di seguito sono riportati alcuni dei termini di base con cui hai bisogno di aver
 
    * Tabella a forma libera con la dimensione (qui, Stati Uniti) verticale e la metrica (qui, Visite) orizzontalmente nella parte superiore. Consulta questa tabella:
    ![](assets/qibuilder3.png)
-
 
    * Una visualizzazione associata, in questo caso un grafico a [barre](/help/analyze/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati aggiunto alla tabella. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia a discesa accanto a **[!UICONTROL Bar]**.
 
