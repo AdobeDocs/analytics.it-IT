@@ -5,16 +5,16 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Riferimenti e campagne
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
 
 # Riferimenti e campagne
 
-Descrizioni dei campi in [!UICONTROL Dynamic Tag Management] per referenti e opzioni della campagna durante la distribuzione [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
+Descrizioni dei campi in [!UICONTROL Dynamic Tag Management] per i referenti e le opzioni della campagna durante la distribuzione [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
 
-**[!UICONTROL  *`Property`*]**> Icona![](assets/settings_gear.png)ingranaggio**[!UICONTROL Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
+**[!UICONTROL  *`Property`*]** > Icona ![](assets/settings_gear.png) ingranaggio **[!UICONTROL Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -26,16 +26,16 @@ Descrizioni dei campi in [!UICONTROL Dynamic Tag Management] per referenti e opz
  <tbody>
   <tr>
    <td colname="col1"> Override Referrer </td>
-   <td colname="col2"> <p>Sostituisce il valore impostato nella variabile <span class="varname"> s.referrer</span> , generalmente popolata dal set di referrer nel browser. </p> <p>Consultate [referrer](../../../vars/page-vars/referrer.md). </p> </td>
+   <td colname="col2"> <p>Sostituisce il valore impostato nella variabile <span class="varname"> s.referrer</span> , generalmente popolata dal set di referrer nel browser. </p> <p>Vedere <a href="../../../vars/page-vars/referrer.md">referrer</a>. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> Campagna </td>
-   <td colname="col2"> <p>Variabile che identifica le campagne di marketing utilizzate per portare i visitatori sul sito. Il valore della campagna viene in genere ricavato da un parametro di stringa di query. </p> <p>Consultate [campaign](../../../vars/page-vars/campaign.md). </p> </td>
+   <td colname="col1"> Campaign </td>
+   <td colname="col2"> <p>Variabile che identifica le campagne di marketing utilizzate per portare i visitatori sul sito. Il valore della campagna viene in genere ricavato da un parametro di stringa di query. </p> <p>Consultate <a href="../../../vars/page-vars/campaign.md">campagna</a>. </p> </td>
   </tr>
  </tbody>
 </table>
 
-Utilizzate l&#39;interfaccia di Gestione dinamica dei tag per scegliere se utilizzare una stringa o un valore di query (che può essere estratta da un elemento dati):
+Utilizzate l&#39;interfaccia di Gestione dinamica dei tag per scegliere se utilizzare una stringa o un valore di query (che può essere estratta da un elemento di dati):
 
 ![Parametro query](assets/dtm-queryparam.png)
 
