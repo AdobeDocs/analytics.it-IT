@@ -13,6 +13,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 When you create an integration with an Adobe partner using [data connectors](https://www.adobeexchange.com/experiencecloud.html), Adobe can push re-marketing or other data to an FTP account, which you or the partner can download.
 
-Ci si aspetta che tu gestisca i file sull'account FTP in modo da assicurarti che l'integrazione disponga di spazio sufficiente sull'account FTP per ricevere i dati qui inviati da Adobe. Questo tipo di account FTP ha un limite di archiviazione dati di 2 GB (o 63 file).
+Ci si aspetta che tu gestisca i file sull&#39;account FTP in modo da assicurarti che l&#39;integrazione disponga di spazio sufficiente sull&#39;account FTP per ricevere i dati qui inviati da Adobe. Questo tipo di account FTP ha un limite di archiviazione dati di 2 GB (o 63 file).
 
-Per informazioni sulla conservazione dei dati e sui limiti dell'FTP, consulta [Conservazione dei dati e limitazioni dell'FTP](/help/export/ftp-and-sftp/ftp-limits.md).
+Per informazioni sulla conservazione dei dati e sui limiti dell&#39;FTP, consulta [Conservazione dei dati e limitazioni dell&#39;FTP](/help/export/ftp-and-sftp/ftp-limits.md).
