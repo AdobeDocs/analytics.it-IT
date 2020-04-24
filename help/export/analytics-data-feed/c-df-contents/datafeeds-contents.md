@@ -50,13 +50,13 @@ Datafeed-Manifest-Version: 1.0
  Record-Count: 611
 ```
 
-Ogni file manifesto contiene un'intestazione che indica il numero totale di file di ricerca, file di dati e il numero totale di record in tutti i file di dati. Questa intestazione è seguita da più sezioni contenenti informazioni per ciascun file incluso nella distribuzione dei feed di dati.
+Ogni file manifesto contiene un&#39;intestazione che indica il numero totale di file di ricerca, file di dati e il numero totale di record in tutti i file di dati. Questa intestazione è seguita da più sezioni contenenti informazioni per ciascun file incluso nella distribuzione dei feed di dati.
 
 Alcuni feed sono configurati per ricevere un `.fin` file invece di un `.txt` manifesto. Indica `.fin` che il caricamento è completo, ma non contiene metadati relativi al caricamento.
 
 ## Ricerca di file
 
-Alcune colonne di feed di dati restituiscono un numero corrispondente al valore effettivo. I file di ricerca vengono utilizzati per far corrispondere un numero da una colonna feed di dati e per adattarlo a un valore effettivo. Ad esempio, un valore pari a "497" nella colonna dei dati di `browser` hit indica che l’hit proviene da "Microsoft Internet Explorer 8" se si cerca in `browser.tsv`.
+Alcune colonne di feed di dati restituiscono un numero corrispondente al valore effettivo. I file di ricerca vengono utilizzati per far corrispondere un numero da una colonna feed di dati e per adattarlo a un valore effettivo. Ad esempio, un valore pari a &quot;497&quot; nella colonna dei dati di `browser` hit indica che l’hit proviene da &quot;Microsoft Internet Explorer 8&quot; se si cerca in `browser.tsv`.
 
 Tieni presente che `column_headers.tsv` e `event_list.tsv` sono specifici per il feed di dati e la suite di rapporti. Altri file, come `browser.tsv`, sono generici.
 
@@ -87,13 +87,13 @@ I dati degli hit vengono forniti in un [!DNL hit_data.tsv] file. La quantità di
 
 I file inviati da Adobe variano in base al tipo di feed di dati configurato. Tutti i file vengono codificati tramite lo standard ISO-8859-1.
 
-* `[rsid]` si riferisce all'ID suite di rapporti da cui proviene il feed di dati.
-* `[index]` viene utilizzato solo in più feed di file e fa riferimento all'ordine corretto dei file impaginati.
+* `[rsid]` si riferisce all&#39;ID suite di rapporti da cui proviene il feed di dati.
+* `[index]` viene utilizzato solo in più feed di file e fa riferimento all&#39;ordine corretto dei file impaginati.
 * `[YYYY-mm-dd]` si riferisce al giorno iniziale per il quale è destinato il feed di dati.
-* `[HHMMSS]` viene utilizzato solo nei feed orari e fa riferimento all'ora di inizio per la quale è destinato il feed di dati.
+* `[HHMMSS]` viene utilizzato solo nei feed orari e fa riferimento all&#39;ora di inizio per la quale è destinato il feed di dati.
 * `[compression_suffix]` si riferisce al tipo di compressione utilizzato. In genere i feed di dati vengono compressi in `tar.gz` o `zip` file.
 
-### Giorno, file singolo
+### Giornaliero, file singolo
 
 Una volta raccolti i dati per un giorno, riceverete un singolo file di dati compresso e un file manifesto. Il file di dati è denominato:
 
@@ -109,17 +109,17 @@ Una volta raccolti i dati per un giorno, riceverete uno o più file di dati comp
 
 Quando estratto, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi, nonché file di ricerca per qualsiasi colonna richiesta.
 
-### File singolo ogni ora
+### Singolo file ogni ora
 
-Una volta raccolti i dati per un'ora, riceverete un singolo file di dati compresso e un file manifesto. Il file di dati è denominato:
+Una volta raccolti i dati per un&#39;ora, riceverete un singolo file di dati compresso e un file manifesto. Il file di dati è denominato:
 
 `[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
 
-Se estratto, il file di dati contiene un singolo `hit_data.tsv` file con tutti i dati per quell'ora, nonché file di ricerca per le colonne richieste.
+Se estratto, il file di dati contiene un singolo `hit_data.tsv` file con tutti i dati per quell&#39;ora, nonché file di ricerca per le colonne richieste.
 
 ### Ogni ora, più file
 
-Una volta raccolti i dati per un'ora, riceverete uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
+Una volta raccolti i dati per un&#39;ora, riceverete uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
 
 `[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
 
