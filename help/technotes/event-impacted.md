@@ -2,7 +2,7 @@
 title: Analisi dei dati interessati dagli eventi
 description: Comprendere in che modo i dati influenzati da un evento contribuiscono alla qualità generale dei dati.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -32,3 +32,9 @@ Dopo aver creato segmenti e utilizzato il confronto delle date, puoi combinare e
 ## Comunicare l’impatto agli utenti nell’organizzazione
 
 Una volta preparato il modo in cui intendete gestire un evento, potete [comunicare con gli utenti dell&#39;organizzazione](event/event-communicate.md). Adobe offre diverse aree all’interno di Analytics in cui è possibile inserire del testo per comunicare agli utenti cosa è accaduto e quali componenti possono utilizzare.
+
+## Video
+
+Questo video illustra i passaggi descritti qui sopra.
+
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
