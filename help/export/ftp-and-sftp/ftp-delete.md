@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Eliminazione dei dati e degli account FTP
 
-La politica di Adobe prevede la disattivazione automatica dell'accesso agli account FTP che rimangono inattivi per 90 giorni consecutivi.
+La politica di Adobe prevede la disattivazione automatica dell&#39;accesso agli account FTP che rimangono inattivi per 90 giorni consecutivi.
 
 Adobe quindi rimuove gli account FTP disabilitati (e rimuove in maniera definitiva tutti i dati archiviati in tali account) dopo un ulteriore proroga di 90 giorni. Ad esempio, un account FTP che rimane inattivo per 90 giorni (dal 5 luglio 2012 al 2 ottobre 2012) viene disattivato il 3 ottobre 2012. Viene quindi rimosso definitivamente il 2 gennaio 2013.
 
@@ -21,7 +21,7 @@ Adobe inoltre rimuove definitivamente i vecchi dati presenti in account non atti
 
 Queste politiche restano valide per tutti gli account FTP a partire dal 5 luglio 2012.
 
-Per aiutarci in questa procedura e per accertarsi che l'ambiente FTP migliorato continui ad assicurare trasferimenti di dati sicuri e affidabili per i nostri clienti, ti chiediamo di:
+Per aiutarci in questa procedura e per accertarsi che l&#39;ambiente FTP migliorato continui ad assicurare trasferimenti di dati sicuri e affidabili per i nostri clienti, ti chiediamo di:
 
 * Rimuovere i dati in uscita dal sistema FTP dopo che questi sono stati correttamente trasferiti nel tuo ambiente personale. Adobe identifica e rimuove eventuali file presenti sul sistema trascorsi 90 giorni.
 * Informare Adobe nel caso gli account FTP non dovessero più servire, in modo che possano essere disattivati e rimossi.
