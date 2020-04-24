@@ -13,6 +13,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Data Warehouse ti consente di richiedere rapporti che mostrano relazioni avanzate tra i dati da dati non elaborati in base alle tue domande univoche.
 
-FTP delivery, in this case, is available as a part of the [!UICONTROL Advanced Delivery Options] setup. Per utilizzare l'FTP hai bisogno di un account FTP interno o un account FTP Adobe. Adobe non configura automaticamente il tuo account FTP attraverso l'interfaccia data warehouse. La consegna FTP è solitamente immediata, ma dipende delle dimensioni del file e dal numero di report in elaborazione.
+FTP delivery, in this case, is available as a part of the [!UICONTROL Advanced Delivery Options] setup. Per utilizzare l&#39;FTP hai bisogno di un account FTP interno o un account FTP Adobe. Adobe non configura automaticamente il tuo account FTP attraverso l&#39;interfaccia data warehouse. La consegna FTP è solitamente immediata, ma dipende delle dimensioni del file e dal numero di report in elaborazione.
 
-Per informazioni sulla conservazione dei dati e sui limiti dell'FTP, consulta [Conservazione dei dati e limitazioni dell'FTP](/help/export/ftp-and-sftp/ftp-limits.md).
+Per informazioni sulla conservazione dei dati e sui limiti dell&#39;FTP, consulta [Conservazione dei dati e limitazioni dell&#39;FTP](/help/export/ftp-and-sftp/ftp-limits.md).
