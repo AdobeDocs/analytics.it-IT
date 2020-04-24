@@ -20,6 +20,6 @@ Se una colonna non contiene una `post_` versione (ad esempio, `visit_num`), la c
 
 ## In che modo i feed di dati gestiscono la sensibilità alle maiuscole/minuscole?
 
-In Adobe Analytics, la maggior parte delle variabili viene considerata senza distinzione tra maiuscole e minuscole ai fini del reporting. Ad esempio, 'neve', 'neve', 'Snow' e 'sNow' sono tutti considerati allo stesso valore. La sensibilità delle maiuscole e delle minuscole viene mantenuta nei feed di dati.
+In Adobe Analytics, la maggior parte delle variabili viene considerata senza distinzione tra maiuscole e minuscole ai fini del reporting. Ad esempio, &#39;neve&#39;, &#39;neve&#39;, &#39;Snow&#39; e &#39;sNow&#39; sono tutti considerati allo stesso valore. La sensibilità delle maiuscole e delle minuscole viene mantenuta nei feed di dati.
 
-Se si visualizzano diverse varianti di maiuscole e minuscole dello stesso valore tra colonne non post e post (ad esempio, 'neve' nella precolonna e 'neve' nella colonna post), l'implementazione utilizza sia valori maiuscoli che minuscoli nel sito. La variante case nella colonna post è stata precedentemente passata e memorizzata nel cookie virtuale, oppure è stata elaborata più o meno allo stesso tempo per quella suite di rapporti.
+Se si visualizzano diverse varianti di maiuscole e minuscole dello stesso valore tra colonne non post e post (ad esempio, &#39;neve&#39; nella precolonna e &#39;neve&#39; nella colonna post), l&#39;implementazione utilizza sia valori maiuscoli che minuscoli nel sito. La variante case nella colonna post è stata precedentemente passata e memorizzata nel cookie virtuale, oppure è stata elaborata più o meno nello stesso momento per quella suite di rapporti.
