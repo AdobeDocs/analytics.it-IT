@@ -107,11 +107,11 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `mobilebeaconminor` | beacon secondario di Mobile Services | varchar(100) |
 | `mobilebeaconproximity` | Prossimità beacon Mobile Services | varchar(255) |
 | `mobilebeaconuuid` | UUID beacon Mobile Services | varchar(100) |
-| `mobilecampaigncontent` | Nome o ID del contenuto che ha visualizzato il collegamento. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
+| `mobilecampaigncontent` | Nome o ID del contenuto in cui è stato visualizzato il collegamento. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | `mobilecampaignmedium` | Canale di marketing, ad esempio banner o e-mail. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | `mobilecampaignname` | Nome della campagna, memorizzato anche nella variabile della campagna. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
-| `mobilecampaignsource` | Referente originale, ad esempio newsletter o social media network. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
-| `mobilecampaignterm` | Parole chiave a pagamento o altri termini da monitorare con questa acquisizione. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
+| `mobilecampaignsource` | Referente originale, ad esempio una newsletter o una rete social media. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
+| `mobilecampaignterm` | Keyword a pagamento o altri termini di cui si desidera tenere traccia con questa acquisizione. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | `mobiledayofweek` | Numero del giorno feriale in cui è stata avviata l’app. | varchar(255) |
 | `mobiledayssincefirstuse` | Numero di giorni dalla prima esecuzione dell&#39;app. | varchar(255) |
 | `mobiledayssincelastupgrade` | Raccolte dalla variabile di dati contestuali a.DaysSinceLastUpgrade. Il numero di giorni trascorsi dalla sessione precedente. | varchar(255) |
@@ -328,22 +328,22 @@ Il seguente elenco di colonne non è utilizzato e non contiene dati:
 * mobilemessageimpression
 * mobilemessagepushpayloadid<span><span>.</span></span>nome
 * mobilemessfacilitiews
-* mobilemonthlyengagedusers
+* mobilemonthengagedusers
 * mobileplacedwelltime
-* mobileplaceentry
-* mobileplaceexit
-* mobileprevsessionlength
-* mobilerelaunchcampaigntrackingcode<span><span>.</span></span>nome
-* mobileupgrades
+* mobilesegnaposto
+* mobilesegnaposto exit
+* mobilepresession length
+* mobilerelaunchcampaign trackingcode<span><span>.</span></span>nome
+* mobileupgrade
 * socialaveragesentiment
 * socialaveragesentiment (obsoleto)
 * socialfonstorie
 * socialfbstorytellers
 * socialinteractioncount
-* sociallikeadds
+* sociallikeadd
 * sociallink
-* sociallink (deprecated)
-* socialmentions
+* sociallink (obsoleto)
+* socialmenità
 * socialpageviews
 * socialpostviews
 * socialproperty
