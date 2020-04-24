@@ -1,5 +1,5 @@
 ---
-description: Data Warehouse fa riferimento alla copia dei dati di Analytics per l'archiviazione e i report personalizzati, che puoi eseguire filtrando i dati. Puoi richiedere rapporti per visualizzare relazioni avanzate tra i dati da dati non elaborati in base alle tue domande univoche. I report data warehouse vengono inviati via e-mail o tramite FTP e possono richiedere fino a 72 ore di elaborazione. Il tempo di elaborazione dipende dalla complessità della query e dalla quantità di dati richiesti.
+description: Data Warehouse fa riferimento alla copia dei dati di Analytics per l'archiviazione e i report personalizzati, che puoi eseguire filtrando i dati. Puoi chiedere ai rapporti di visualizzare relazioni avanzate tra i dati, partendo da dati grezzi basati su tue precise domande. I report data warehouse vengono inviati via e-mail o tramite FTP e possono richiedere fino a 72 ore di elaborazione. Il tempo di elaborazione dipende dalla complessità della query e dalla quantità di dati richiesti.
 title: Panoramica di Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Panoramica di Data Warehouse
 
-Data Warehouse fa riferimento alla copia dei dati di Analytics per l&#39;archiviazione e i report personalizzati, che puoi eseguire filtrando i dati. Puoi richiedere rapporti per visualizzare relazioni avanzate tra i dati da dati non elaborati in base alle tue domande univoche. I report data warehouse vengono inviati via e-mail o tramite FTP e possono richiedere fino a 72 ore di elaborazione. Il tempo di elaborazione dipende dalla complessità della query e dalla quantità di dati richiesti.
+Data Warehouse fa riferimento alla copia dei dati di Analytics per l&#39;archiviazione e i report personalizzati, che puoi eseguire filtrando i dati. Puoi chiedere ai rapporti di visualizzare relazioni avanzate tra i dati, partendo da dati grezzi basati su tue precise domande. I report data warehouse vengono inviati via e-mail o tramite FTP e possono richiedere fino a 72 ore di elaborazione. Il tempo di elaborazione dipende dalla complessità della query e dalla quantità di dati richiesti.
 
 Adobe abilita Data Warehouse solo per gli utenti a livello di amministratore, per suite di rapporti specifiche. Può essere abilitata per le suite di rapporti globali e secondarie, ma non per le suite di rapporti rollup. L&#39;amministratore può creare un gruppo che dispone dell&#39;accesso a Data Warehouse, quindi associare utenti di livello non amministratore a tale gruppo.
 
@@ -42,7 +42,7 @@ Nella tabella seguente sono descritti i campi e le opzioni della [!UICONTROL Dat
    <td colname="col2"> Identifica la richiesta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Data reporting</span> </td> 
+   <td colname="col1"> <span class="wintitle">Reporting Date (Data rapporto)</span> </td> 
    <td colname="col2"> <p>Data e granularità della richiesta. </p> 
     <ul id="ul_C00F4529BD9E4113B517A61751B1DD5C"> 
      <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle"> Personalizzato</span>: Un intervallo di date configurato nel calendario. </li> 
@@ -51,7 +51,7 @@ Nella tabella seguente sono descritti i campi e le opzioni della [!UICONTROL Dat
     </ul> <p>I report di Data Warehouse sulle suite di rapporti virtuali supportano il fuso orario alternativo configurato nella suite di rapporti virtuali. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Segmenti disponibili</span> </td> 
+   <td colname="col1"> <span class="wintitle">Available Segments (Segmenti disponibili)</span> </td> 
    <td colname="col2"> <p>Consente di selezionare la parte della popolazione di visitatori che si desidera esaminare e generare segmenti complessi. Puoi caricare segmenti preconfigurati, creare nuovi segmenti e archiviare componenti di segmenti in una libreria da utilizzare per la creazione di segmenti aggiuntivi. </p> <p>Ora puoi impilare i segmenti. Quando si selezionano più segmenti, l’area di anteprima, il Gestore richieste e la finestra a comparsa Dettagli richiesta visualizzano un elenco di nomi separati da virgola (ad esempio Segmento1, Segmento2). </p> <p>Per ulteriori informazioni, consulta la <a href="/help/components/c-segmentation/seg-home.md"> guida</a> alla segmentazione. </p> <p>Nota:  Non puoi includere sia un filtro segmento che una suddivisione sullo stesso segmento, nello stesso rapporto Data Warehouse. In questo modo si verificherà un errore. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Nella tabella seguente sono descritti i campi e le opzioni della [!UICONTROL Dat
    <td colname="col2">Fornisce report dettagliati con classifica, ordinati per valore di metrica decrescente, simili a quanto visualizzato nell'interfaccia utente di Reporting e analisi, Workbench dati e così via. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > Altro...</a> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Pianificazione consegna</span> </td> 
+   <td colname="col1"> <span class="wintitle">Schedule Delivery (Pianifica consegna)</span> </td> 
    <td colname="col2"> <p>Consente di pianificare le richieste di consegna automatica a intervalli selezionati o come rapporto una tantum. Se utilizzate il formato predefinito, il rapporto viene inviato in un messaggio e-mail come file .csv. </p> <p>Per aggiungere l’intervallo di date, includete <span class="filepath"> %R</span> nel nome del file. Questo valore rappresenta i valori data richiesti nel report. Ad esempio, se si richiedono dati dal 1 maggio 2013 al 7 maggio 2013, il <span class="filepath"> %R</span> mostra un nome di file che include l'intervallo di date 20130501 - 20130507. </p> </td> 
   </tr> 
  </tbody> 
