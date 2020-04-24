@@ -21,17 +21,17 @@ Adobe utilizza la logica di escape per assicurarsi che i valori inviati ai serve
 |--- |--- |
 | `\t` | Rappresenta una scheda. Indica la fine di una colonna o di un campo di dati. |
 | `\n` | Rappresenta una nuova riga. Indica la fine di una riga o di un hit. |
-| `\` | Barra rovesciata. Rimuove i caratteri quando vengono inviati come parte della raccolta di dati. |
+| `\` | Barra rovesciata. Consente di rimuovere i caratteri quando vengono inviati come parte della raccolta di dati. |
 
 Quando questi valori riservati sono preceduti da una barra rovesciata, sono stati inviati come parte della raccolta di dati.
 
 | Carattere | Descrizione |
 |--- |--- |
-| `\\t` | Il valore '`\t`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
-| `\\n` | Il valore '`\n`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
-| `\\` | Il valore '`\`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `\\t` | Il valore &#39;`\t`&#39; è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `\\n` | Il valore &#39;`\n`&#39; è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `\\` | Il valore &#39;`\`&#39; è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
 
-Ad esempio, un visitatore del sito utilizza la ricerca interna e cerca "search\nstring". Compila eVar1 con "search\nstring" e invialo ad Adobe. Adobe riceve l’hit ed evita la newline inclusa nella stringa. Il valore effettivo inserito nei dati non elaborati è "search\\nstring".
+Ad esempio, un visitatore del sito utilizza la ricerca interna e cerca &quot;search\nstring&quot;. Compila eVar1 con &quot;search\nstring&quot; e invialo ad Adobe. Adobe riceve l’hit ed evita la newline inclusa nella stringa. Il valore effettivo inserito nei dati non elaborati è &quot;search\\nstring&quot;.
 
 ## Caratteri speciali nelle variabili con più valori (events_list, products_list, mvvar)
 
@@ -40,15 +40,15 @@ I seguenti caratteri hanno un significato speciale nelle colonne che possono con
 | Carattere | Descrizione |
 |--- |--- |
 | `,` | Virgola. Rappresenta la fine di un singolo valore. Separa le stringhe di prodotto, gli ID evento o altri valori. |
-| `;` | Semi-due punti. Rappresenta la fine di un singolo valore in `product_list`. Separa i campi all'interno di una singola stringa di prodotto. |
+| `;` | Semi-due punti. Rappresenta la fine di un singolo valore in `product_list`. Separa i campi all&#39;interno di una singola stringa di prodotto. |
 | `=` | È uguale al segno. Assegna un valore a un evento in `product_list`. |
-| `^` | Accento circonflesso. Rimuove i caratteri quando vengono inviati come parte della raccolta di dati. |
+| `^` | Accento circonflesso. Consente di rimuovere i caratteri quando vengono inviati come parte della raccolta di dati. |
 
 Quando questi valori riservati sono preceduti da un oggetto, sono stati inviati come parte della raccolta di dati.
 
 | Carattere | Descrizione |
 |--- |--- |
-| `^,` | Il valore '`,`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
-| `^;` | Il valore '`;`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
-| `^=` | Il valore '`=`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
-| `^^` | Il valore '`^`' è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `^,` | Il valore &#39;`,`&#39; è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `^;` | Il valore &#39;`;`&#39; è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `^=` | Il valore &#39;`=`&#39; è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
+| `^^` | Il valore &#39;`^`&#39; è stato inviato durante la raccolta dei dati, con escape da parte di Adobe. |
