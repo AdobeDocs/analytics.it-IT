@@ -1,5 +1,5 @@
 ---
-description: Data that is collected from web sites, mobile apps, or is uploaded using web service APIs or data sources, is processed and stored in Adobe's Data Warehouse. Questi dati clickstream non elaborati formano il set di dati utilizzato da Adobe Analytics.
+description: I dati raccolti da siti Web, app mobili o caricati tramite API di servizi Web o origini dati, vengono elaborati e memorizzati in Adobe Data Warehouse. Questi dati clickstream non elaborati formano il set di dati utilizzato da Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Panoramica sui feed dati di Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
@@ -21,15 +21,15 @@ Prima di utilizzare i feed di dati, accertatevi di soddisfare tutti i seguenti r
 * Un&#39;implementazione di lavoro che invia dati ai server di raccolta dati Adobe. Consulta [Convalida e pubblicazione di un’implementazione in Launch](/help/implement/launch/validate-publish-prod.md) nella guida per l’utente Implementa.
 * Il tuo account è un amministratore di prodotto Analytics oppure il tuo account appartiene a un profilo di prodotto con accesso ai feed di dati.
 
-## Steps to get started
+## Passaggi per iniziare
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 2. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
-3. In the top navigation bar, navigate to Admin > Data feeds.
-4. Fai clic su [!UICONTROL Add]. A new page appears with three main categories: [!UICONTROL Feed information], [!UICONTROL Destination], and [!UICONTROL Data Column Definitions].
-5. Fill out [!UICONTROL Feed Information] fields.
-   * Name: Any desired name, such as &quot;Test data feed&quot;.
-   * Report suite: Select the desired report suite.
+3. Nella barra di navigazione superiore, andate a Admin (Amministratore) > Data Feed (Feed dati).
+4. Fai clic su [!UICONTROL Add]. Viene visualizzata una nuova pagina con tre categorie principali: [!UICONTROL Feed information], [!UICONTROL Destination], e [!UICONTROL Data Column Definitions].
+5. Compila [!UICONTROL Feed Information] i campi.
+   * Nome: Qualsiasi nome desiderato, ad esempio &quot;Feed dati di prova&quot;.
+   * Suite di rapporti: Seleziona la suite di rapporti desiderata.
    * E-mail al termine: Inserite il messaggio e-mail.
    * Intervallo feed: Selezionate l’intervallo desiderato (orario o giornaliero).
    * Elaborazione ritardata: Può essere lasciato come [!UICONTROL No Delay].
@@ -48,8 +48,8 @@ Prima di utilizzare i feed di dati, accertatevi di soddisfare tutti i seguenti r
 8. Fate clic [!UICONTROL Save] in alto a destra.
 9. Una volta salvato, viene avviata l&#39;elaborazione dei dati storici. Al termine dell&#39;elaborazione dei dati per un giorno, il file viene inserito sul sito FTP.
 10. Effettuate l&#39;accesso al sito FTP utilizzando Esplora risorse o un client FTP dedicato.
-11. Download the compressed data feed file to your local machine.
-12. Unzip the compressed file using a program that supports `.tar.gz` file extensions.
+11. Scaricate il file di feed di dati compressi nel computer locale.
+12. Decomprimete il file compresso utilizzando un programma che supporta le estensioni di `.tar.gz` file.
 13. Aprite il `hit_data.tsv` file nel foglio di calcolo o nell’applicazione di database desiderata per visualizzare i dati non elaborati per quel giorno.
 
 ## Passaggi successivi
