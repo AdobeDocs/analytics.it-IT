@@ -1,5 +1,5 @@
 ---
-description: Tutti gli account Adobe FTP hanno un limite di archiviazione dati di 2 GB (o 63 file). I file vengono conservati su questi account FTP per 90 giorni.
+description: Tutti gli account FTP Adobe hanno un limite di archiviazione dati di 2 GB (o 63 file). I file vengono conservati su questi account FTP per 90 giorni.
 keywords: ftp;sftp
 title: Conservazione dei dati e limitazioni dell'FTP
 uuid: deb807c9-e988-4587-b518-881857cad1cf
