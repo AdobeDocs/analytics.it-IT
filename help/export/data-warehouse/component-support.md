@@ -39,11 +39,11 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
    * AM/PM
    * Giorno del mese
    * Giorno della settimana
-   * Giorno dell&#39;anno
+   * Giorno dell’anno
    * Ora del giorno
    * Minuto
-   * Mese dell&#39;anno
-   * Trimestre dell&#39;anno
+   * Mese dell’anno
+   * Trimestre dell’anno
    * Giorno feriale/Fine settimana
    * Anno
 * Alcune dimensioni basate su percorsi, tra cui:
@@ -56,10 +56,10 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
    * Tempo trascorso per visita - A intervalli
    * Profondità visita
 * Seleziona tutte le pagine di ricerca
-* Variabili gerarchiche
+* Variabili di gerarchia
 * Tipo di occorrenza
 * Pagine non trovate (disponibili come dimensione); non supportato per la segmentazione)
-* Ricerca a pagamento
+* Ricerca pagata
 * Visite a pagina singola
 * Motivo rifiuto tracciamento
 * Stati Uniti
