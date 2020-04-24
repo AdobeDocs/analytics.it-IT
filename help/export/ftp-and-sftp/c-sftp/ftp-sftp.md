@@ -15,19 +15,19 @@ SFTP è un protocollo sicuro per il trasferimento di dati che assicura che nessu
 
 ## Consegna push {#section_A47831BB1DCA490BB57F0940617AA506}
 
-Significa che i server Adobe inviano i file in modalità "push" ai tuoi server; in altre parole i file vengono consegnati presso il tuo end point.
+Significa che i server Adobe inviano i file in modalità &quot;push&quot; ai tuoi server; in altre parole i file vengono consegnati presso il tuo end point.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e Feed [dati](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) Analytics possono inviare dati push tramite SFTP.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e Feed [dati di](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) Analytics possono inviare dati push tramite SFTP.
 
 The following Analytics tools **cannot** push data via SFTP:
 
 * Reports &amp; Analytics
-* Ad Hoc Analysis
+* Ad Hoc Analysis 
 * Report Builder
 
 ## Consegna pull {#section_FA29FAEF02FE40B8B32452146A036F48}
 
-Ciò significa che il file viene inviato a uno dei server Adobe utilizzando il normale FTP. Se desideri il file sul tuo server, devi estrarlo dal server di Adobe utilizzando SFTP dal server al server FTP di Adobe. Puoi eseguire questa operazione seguendo uno di questi tre metodi:
+Ciò significa che il file viene inviato a uno dei server Adobe utilizzando il normale FTP. Se desideri il file sul tuo server, devi estrarlo dal server di Adobe utilizzando SFTP dal tuo server al server FTP di Adobe. Puoi eseguire questa operazione seguendo uno di questi tre metodi:
 
 * [Connessione ad Adobe tramite SFTP senza password.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 * [Connessione a un account Adobe FTP con SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
