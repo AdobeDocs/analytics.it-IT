@@ -13,4 +13,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Il gruppo Adobe Engineering Services può configurare un progetto personalizzato per reindirizzare i dati a un account FTP esterno tramite SFTP.
 
-Si tratta di un'opzione di valore in quanto i tuoi dati vengono inviati in maniera sicura e protetta, senza doverli recuperare da un sito Adobe FTP. Per determinare l'ambito del progetto, contatta il tuo Adobe Account Manager.
+Si tratta di un&#39;opzione di valore in quanto i tuoi dati vengono inviati in maniera sicura e protetta, senza doverli recuperare da un sito Adobe FTP. Per determinare l&#39;ambito del progetto, contatta il tuo Adobe Account Manager.
