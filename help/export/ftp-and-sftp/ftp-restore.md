@@ -13,4 +13,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 I dati che sono stati eliminati da un account FTP non possono essere ripristinati da Adobe.
 
-Se l'account FTP che desideravi utilizzare è stato disabilitato, contatta il tuo Adobe Account Manager che può illustrarti maggiori opzioni a tua disposizione.
+Se l&#39;account FTP che desideravi utilizzare è stato disabilitato, contatta il tuo Adobe Account Manager che può illustrarti maggiori opzioni a tua disposizione.
