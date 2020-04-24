@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Report consegnati delle Ad Hoc Analysis
 
-Puoi impostare una programmazione di consegna per l'invio automatico di report a un indirizzo e-mail o a un server FTP.
+Puoi impostare una programmazione di consegna per l&#39;invio automatico di report a un indirizzo e-mail o a un server FTP.
 
 Una programmazione di consegna può essere impostata per un periodo selezionato. I report vengono generalmente inviati il primo giorno del periodo seguente, ma non oltre la mattinata del secondo giorno. Puoi modificare o interrompere queste consegne programmate in qualsiasi momento. For more information on [!UICONTROL Ad Hoc Analysis] delivered reports, see the [Ad Hoc Analysis Help](https://marketing.adobe.com/resources/help/en_US/dsc/index.html#Discover_Help).
 
