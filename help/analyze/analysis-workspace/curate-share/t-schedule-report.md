@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 'Invio di file: programmazione di un progetto per la consegna'
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
