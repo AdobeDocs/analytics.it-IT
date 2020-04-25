@@ -20,7 +20,7 @@ Il primo clic su un calendario avvia una selezione di intervalli di date. Con un
 
 È inoltre possibile trascinare le date (e dimensioni orarie) in un progetto Workspace. Puoi selezionare specifici giorni, settimane, mesi, anni, oppure una data continua.
 
-[Utilizzo degli intervalli di date e del calendario in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Utilizzo degli intervalli di date e del calendario in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
 
 | Impostazione | Descrizione |
 |--- |--- |
