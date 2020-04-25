@@ -97,6 +97,6 @@ Esistono altre risorse per approfondire le tue conoscenze di Analysis Workspace.
 
 ### Per analisti e amministratori che desiderano migliorare la qualità di Workspace nella propria organizzazione
 
-* [Autorizzazioni di Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): assegna agli utenti le autorizzazioni d’utilizzo di Workspace tramite Adobe Admin Console.
+* [Autorizzazioni di Analysis Workspace](https://marketing.adobe.com/resources/help/it_IT/mcloud/admin_getting_started.html): assegna agli utenti le autorizzazioni d’utilizzo di Workspace tramite Adobe Admin Console.
 * [Modelli in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): puoi creare dei modelli in modo che i tuoi colleghi possano iniziare con uno spazio di progetto adatto alle loro esigenze.
 * [Gestione di Workspace](/help/analyze/analysis-workspace/curate-share/curate.md): crea un progetto che limiti i componenti disponibili, rendendo Workspace più accessibile a chi ha meno familiarità con lo strumento.
