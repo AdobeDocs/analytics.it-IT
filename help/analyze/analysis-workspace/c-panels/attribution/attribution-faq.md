@@ -15,7 +15,7 @@ L&#39;elemento di riga &#39;None&#39; è un elemento catch-all che rappresenta t
 
 **Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?**
 
-Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
+Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
 
 **È possibile utilizzare un intervallo di lookback personalizzato con i modelli di attribuzione?**
 
@@ -46,9 +46,9 @@ Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non suppor
 * Occorrenze
 * Visualizzazioni pagina
 * Metriche A4T
-* Metriche tempo trascorso
+* Metriche Tempo trascorso
 * Rimbalzi
-* Tasso di utilizzo
+* Percentuale non recapitate
 * Voci
 * Uscite
 * Pagine non trovate
