@@ -16,7 +16,7 @@ Il sistema intelligente di avvisi offre un controllo più granulare sugli avvisi
 
 ## Panoramica
 
-Il nuovo Generatore di avvisi e Gestione avvisi in Analysis Workspace sostituisce la funzionalità di avvisi esistente in Reporting e analisi. La funzione Avvisi intelligenti permette di:
+Le nuove funzioni Generatore di avvisi e Gestione avvisi di Analysis Workspace sostituiscono la funzione di avvisi di Reports &amp; Analytics. La funzione Avvisi intelligenti permette di:
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore)
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi
