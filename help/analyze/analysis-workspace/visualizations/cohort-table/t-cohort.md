@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Esecuzione di un rapporto di analisi per coorte
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
