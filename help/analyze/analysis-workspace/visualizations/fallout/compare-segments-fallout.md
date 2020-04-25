@@ -35,7 +35,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
 ## Aggiungere un segmento come punto di contatto {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Per vedere, ad esempio, in che modo gli utenti USA tendono e influenzano l’abbandono, trascina il segmento degli utenti USA nell’abbandono:
+Per vedere ad esempio come gli utenti USA influenzano le metriche di abbandono, trascina il segmento degli utenti USA nella sezione Abbandono:
 
 ![](assets/segment-touchpoint.png)
 
@@ -46,7 +46,7 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono.
 
 1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Segments] (Segmenti) a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
-1. Trascinali nella zona di rilascio Segmento nella parte superiore.
+1. Trascinali nella zona di rilascio Segmento, in alto.
 
    ![](assets/segment-drop.png)
 
@@ -54,4 +54,4 @@ Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandon
 
    ![](assets/seg-compare.png)
 
-1. Ora puoi confrontare l&#39;abbandono tra i due segmenti, ad esempio dove un segmento ha prestazioni migliori di un altro, o di altre informazioni.
+1. Ora puoi confrontare i dati di abbandono tra i due segmenti, ad esempio dove un segmento ha prestazioni migliori dell’altro.
