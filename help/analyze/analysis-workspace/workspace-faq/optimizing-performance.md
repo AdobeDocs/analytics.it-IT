@@ -17,15 +17,15 @@ Alcuni fattori possono influenzare le prestazioni di un progetto in Analysis Wor
 Segmenti complessi possono avere un impatto significativo sulle prestazioni del progetto. I fattori che aggiungono complessità a un segmento (in ordine approssimativo di impatto) includono:
 
 * Operatori di “contiene”, “contiene”, “contiene qualsiasi di”, “corrisponde”, “inizia con” o “finisce con”
-* Segmentazione sequenziale, in particolare quando vengono utilizzate le limitazioni di dimensione (Entro/Dopo)
-* Numero di elementi di dimensione univoci all&#39;interno delle dimensioni utilizzate nel segmento (ad esempio, Pagina = &#39;A&#39; quando Pagina contiene 10 elementi univoci sarà più veloce di Pagina = &#39;A&#39; quando Pagina contiene 100000 elementi univoci)
-* Numero di dimensioni diverse utilizzate (ad esempio, Pagina = &#39;Home&#39; e Pagina = &#39;Risultati ricerca&#39; sarà più veloce di eVar 1 = &#39;rosso&#39; ed eVar 2 = &#39;blu&#39;)
+* La segmentazione sequenziale avviene specialmente quando si utilizzano restrizioni delle dimensioni (entro/dopo)
+* Numero di elementi di dimensione unica, compresa nelle dimensioni utilizzate nel segmento, (ad es. Pagina = “A” quando la Pagina ha 10 elementi unici sarà più veloce della Pagina = “A” quando la Pagina ha 100.000 elementi unici)
+* Numero di diverse dimensioni utilizzate (ad es. Pagina = “Home” e Pagina = “Risultati della ricerca” sarà più veloce di eVar 1 = “rosso” ed eVar 2 = “blu”).
 * Molti operatori OR (invece di AND)
 * Contenitori nidificati di vario ambito (ad es., “Hit” all’interno di “Visita” all’interno di “Visitatore”)
 
 **Procedure consigliate per la complessità logica**
 
-Anche se non è possibile evitare alcuni fattori di complessità, è opportuno riflettere sulle opportunità per ridurre la complessità dei segmenti. In generale, più specifici potete essere con i vostri criteri di segmento, meglio sarà. Ad esempio:
+Mentre alcuni dei fattori di complessità non possono essere evitati, pensa alle opportunità di ridurre la complessità dei tuoi segmenti. In generale, più si può essere specifici con i propri criteri di segmento, meglio è. Ad esempio:
 
 * Con i contenitori, l’utilizzo di un singolo contenitore nella parte superiore del segmento sarà più veloce di una serie di contenitori nidificati.
 * Con l’utilizzo degli operatori, “uguale a” sarà più veloce di “contiene” e “uguale a qualsiasi di” sarà più veloce di “contiene qualsiasi di”.
@@ -51,17 +51,17 @@ Il numero di visualizzazioni di grafico contenute in un progetto influenzeranno 
 
 **Procedure consigliate per il numero di visualizzazioni**
 
-Diminuisci il numero di visualizzazioni nel tuo progetto. Analysis Workspace esegue un sacco di elaborazione dietro le quinte per ogni elemento visivo aggiunto, pertanto assegna priorità agli elementi visivi più importanti per il consumatore del rapporto e suddivide gli elementi visivi di supporto in un progetto separato e più dettagliato, se necessario.
+Diminuisci il numero di visualizzazioni nel tuo progetto. Analysis Workspace effettua un gran numero di elaborazioni in background per ogni visualizzazione che aggiungi; pertanto dai priorità alle visualizzazioni più importanti per l’utilizzatore del rapporto e, se necessario, suddividi le visualizzazioni di supporto in progetti separati e più dettagliati.
 
 ## Complessità delle visualizzazioni (segmenti, metriche, filtri)
 
-Il tipo di visualizzazione (ad es. abbandono rispetto a una tabella a forma libera) aggiunta a un progetto di per sé non influenza molto le prestazioni del progetto. È la complessità della visualizzazione che influenzerà il tempo di elaborazione. I fattori che aggiungono complessità a una visualizzazione includono:
+Il tipo di visualizzazione (ad es. abbandono rispetto a una tabella a forma libera) aggiunta a un progetto di per sé non influenza molto le prestazioni del progetto. È la complessità della visualizzazione che influenzerà il tempo di elaborazione. Fattori che aggiungono complessità a una visualizzazione includono:
 
-* Intervallo di dati richiesti, come indicato sopra
-* Numero di segmenti applicati; ad esempio, segmenti utilizzati come righe di una tabella a forma libera
-* Utilizzo di segmenti intricati
-* Righe o colonne di elementi statici in tabelle a forma libera
-* Filtri applicati alle righe nelle tabelle a forma libera
+* Intervallo dei dati richiesti, così come riportato sopra
+* Numero di segmenti applicati; ovvero segmenti utilizzati come righe di una tabella a forma libera
+* Utilizzo di segmenti complessi
+* Righe o colonne statiche di elementi in tabelle a forma libera
+* Filtri applicati a righe in tabelle a forma libera
 * Numero di metriche incluse, in particolare metriche calcolate che utilizzano segmenti
 
 **Procedure consigliate per la complessità delle visualizzazioni**
@@ -76,14 +76,14 @@ Un pannello può contenere diverse visualizzazioni e, come risultato, il numero 
 
 **Procedure consigliate per il numero di pannelli**
 
-Non cercare di aggiungere tutti gli elementi a un progetto; piuttosto crea progetti diversi per uno scopo preciso o per un determinato gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi chiave e condividi i progetti correlati con i gruppi di soggetti interessati.
+Non cercare di aggiungere tutti gli elementi a un progetto; piuttosto crea progetti diversi per uno scopo preciso o per un determinato gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi chiave e condividi i progetti correlati con i soggetti interessati.
 
 Se desideri progetti più organizzati, ricorda che il [collegamento diretto](https://www.youtube.com/watch?v=6IOEewflG2U) al tuo prodotto potrebbe rappresentare una possibilità. Crea un indice interno di progetti in modo che i soggetti interessati possano trovare più facilmente ciò di cui hanno bisogno.
 
 Se sono necessari più pannelli in Workspace, comprimili prima di salvare e condividere. Al caricamento di un progetto, Analysis Workspace caricherà solo i contenuti dei pannelli espansi. I pannelli compressi vengono caricati solo se l’utente li espande. Questo approccio è utile in due modi:
 
-* I pannelli compressi consentono di risparmiare sul tempo di caricamento complessivo di un progetto
-* I pannelli compressi sono un ottimo modo per organizzare i progetti in modo logico per il consumatore del rapporto
+* I pannelli compressi consentono di ridurre il tempo di caricamento complessivo di un progetto
+* I pannelli compressi sono molto utili per organizzare i progetti in modo logico per l’utente del rapporto
 
 ## Dimensione della suite di rapporti
 
