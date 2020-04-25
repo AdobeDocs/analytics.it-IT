@@ -36,7 +36,7 @@ Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-cl
 | Vai al riquadro Panels (Pannelli) | Alt + Maiusc + 1 |
 | Vai al riquadro Visualizations (Visualizzazioni) | Alt + Maiusc + 2 |
 | Vai al riquadro Components (Componenti) | Alt + Maiusc + 3 |
-| Passa al pannello successivo | Alt + tasto destro |
+| Passa al pannello successivo | Alt + Tasto destro |
 | Passa al pannello precedente | Alt + Tasto sinistro |
 | Nuovo pannello Attribuzione | Alt + E |
 | Nuovo grafico a barre | Alt + 3 |
