@@ -61,6 +61,6 @@ Con questa funzione viene introdotto il concetto di “pannello attivo” e “p
 
 1. (Facoltativo) Puoi anche passare ad altri generatori di componenti Analytics e accertarti che ora visualizzino l’etichetta della suite di rapporti che indica
 
-   * Dove verrà creato un segmento: [Generatore di segmenti](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * Dove verrà creata una metrica calcolata: [Generatore di metrica calcolata](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Dove verrà generato un avviso: [Generatore di avvisi](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * Dove verrà creato un segmento: [Generatore di segmenti](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Dove verrà creata una metrica calcolata: [Generatore di metrica calcolata](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Dove verrà generato un avviso: [Generatore di avvisi](https://docs.adobe.com/content/help/it-IT/analytics/components/alerts/alert-builder.html).
