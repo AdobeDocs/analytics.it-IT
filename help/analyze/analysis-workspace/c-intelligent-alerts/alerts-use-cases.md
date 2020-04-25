@@ -2,7 +2,7 @@
 description: 'null'
 title: 'Avvisi intelligenti: casi di utilizzo'
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
