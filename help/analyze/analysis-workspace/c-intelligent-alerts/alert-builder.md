@@ -16,7 +16,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Accedere al generatore di avvisi
 
-Accedi al Generatore di avvisi in quattro modi:
+Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
@@ -35,7 +35,7 @@ Se hai già avuto modo di creare segmenti o metriche calcolate in Analytics, l�
 
 **Alert Name (Nome avviso)**
 
-Specificate un nome per l’avviso. Il nome dell&#39;avviso può contenere il nome del rapporto o la soglia delle metriche.
+Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o la soglia di metrica.
 
 **Time Granularity (Granularità tempo)**
 
@@ -45,7 +45,7 @@ Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o m
 
 **Recipients (Destinatari)**
 
-Specifica dove può essere inviato l’avviso. Un avviso può essere inviato a un utente Analytics, a un gruppo Analytics, a un indirizzo e-mail non elaborato o a un numero di telefono.
+Specifica a chi deve essere inviato l’avviso. Può essere inviato a un utente o un gruppo di Analytics, a un indirizzo e-mail o a un numero telefonico.
 
 >[!IMPORTANT]
 >
@@ -66,21 +66,21 @@ Imposta la data di scadenza dell’avviso.
 * Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
    Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti selezionati, viene visualizzato un messaggio con riferimento a **“componenti non compatibili”**.
-* Determinare la soglia che la metrica deve superare prima che venga impostato un avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
+* Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
-   * anomalia esistente
-   * anomalia al di sopra del previsto
-   * anomalia al di sotto del previsto
-   * è superiore o uguale a
-   * è inferiore o uguale a
-   * modifiche di
+   * anomaly exists (l’anomalia esiste)
+   * anomaly is above expected (l’anomalia supera il valore previsto)
+   * anomaly is below expected (l’anomalia è inferiore al valore previsto)
+   * is above or equals (è superiore o uguale a)
+   * is below or equals (è inferiore o uguale a)
+   * changes by (cambia di)
    * Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
    È anche possibile utilizzare metriche calcolate.
 
 *... With These Filters (...con questi filtri)*
 
-* Trascina segmenti o dimensioni per aggiungere filtri. Ad esempio, se si aggiunge un segmento &quot;Solo dispositivi mobili&quot; la regola viene attivata solo per i dispositivi mobili.
-* Altri filtri verranno aggiunti utilizzando un&#39;istruzione AND.
+* Trascina segmenti o dimensioni per aggiungere i filtri. Ad esempio, se si aggiunge un segmento “Mobile Devices Only” (Solo dispositivi mobili) la regola viene attivata solo per i dispositivi mobili.
+* Per aggiungere altri segmenti si utilizza l’operatore AND.
 
 **Aggiungere una regola**
 
@@ -88,10 +88,10 @@ Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio
 
 ## Anteprima avvisi {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso in base all’esperienza passata.
+L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.
 
-Ad esempio, se imposti la granularità dell’ora su Ogni giorno, l’anteprima indicherà che l’avviso sarebbe stato attivato x volte per una metrica specifica negli ultimi 30 o 31 giorni.
+Ad esempio, se imposti la granularità su Ogni giorno, l’anteprima indicherà che l’avviso è stato attivato x volte per una specifica metrica negli ultimi 30 o 31 giorni.
 
-Se si è scoperto che troppi avvisi sarebbero stati attivati, è possibile regolare la soglia nella Gestione [](/help/components/c-alerts/alert-manager.md)avvisi.
+Se sono stati attivati troppi avvisi, puoi regolare la soglia in [Alert Manager](/help/components/c-alerts/alert-manager.md) (Gestione avvisi).
 
 ![](assets/alert_preview.png)
