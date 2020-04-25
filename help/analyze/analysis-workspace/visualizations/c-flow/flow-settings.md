@@ -2,7 +2,7 @@
 description: 'null'
 title: Impostazioni del flusso
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
