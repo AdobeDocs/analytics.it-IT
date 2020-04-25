@@ -17,15 +17,15 @@ Dopo aver generato un rapporto sulla coorte, puoi curarne i componenti (dimensio
 
 Esempi di cosa è possibile fare con un’analisi per coorte:
 
-* Lanciare campagne progettate per stimolare un’azione desiderata.
-* Spostare il budget marketing al momento giusto nel ciclo di vita del cliente.
-* Riconoscere quando terminare una versione di prova o un&#39;offerta per massimizzare il valore.
-* Idee per test A/B in aree quali prezzi, percorso di aggiornamento e così via.
-* Visualizzare un rapporto Analisi per coorte all’interno di un rapporto Analisi guidata.
+* Lanciare campagne sviluppate per promuovere un’azione desiderata.
+* Spostare il budget marketing nel momento giusto del ciclo di vita di un cliente.
+* Riconoscere quando interrompere una versione di prova o un’offerta per massimizzare il valore.
+* Sviluppare idee per il test A/B in aree come prezzo, percorso di upgrade ecc.
+* Visualizzare un’analisi per coorte all’interno di un rapporto di analisi guidata.
 
-L’analisi per coorte è disponibile per tutti i clienti Analytics che dispongono dei diritti di accesso ad Analysis Workspace.
+La funzione di analisi per coorte è disponibile per tutti i clienti di Analytics che dispongono dei diretti di accesso ad Analysis Workspace.
 
-[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ L’analisi per coorte è disponibile per tutti i clienti Analytics che dispongo
 
 ## Capacità dell’analisi per coorte
 
-A gennaio 2019, Adobe ha rilasciato una nuova versione significativamente migliorata dell’analisi per coorte. Consente un controllo molto più preciso sulle coorti che si stanno costruendo. Di seguito sono riportati i miglioramenti introdotti:
+A gennaio 2019, Adobe ha rilasciato una nuova versione significativamente migliorata dell’analisi per coorte. Consente di controllare in modo più dettagliato le coorti create. I miglioramenti comprendono:
 
 ### Tabella “Retention” (Fidelizzazione)
 
@@ -55,13 +55,13 @@ Consente di calcolare il livello di fidelizzazione o abbandono dei visitatori in
 
 ### Tabella “Latency” (Latenza)
 
-Misura il tempo trascorso prima e dopo l&#39;evento di inclusione. Questo è uno strumento eccellente per l&#39;analisi pre/post. La colonna &quot;Incluso&quot; si trova al centro della tabella e i periodi di tempo prima e dopo che l&#39;evento di inclusione viene visualizzato su entrambi i lati.
+Misura il tempo trascorso prima e dopo il verificarsi dell’evento di inclusione. È un ottimo strumento di analisi pre/post. La colonna Included (Incluso) è al centro della tabella ed è preceduta e seguita dai periodi di tempo prima e dopo l’evento di inclusione.
 
 ![](assets/cohort-latency.png)
 
 ### Coorte con dimensione personalizzata
 
-Crea coorti in base a una dimensione selezionata e non a coorti basati sul tempo, che sono le impostazioni predefinite. Puoi usare dimensioni quali canale di marketing, campagna, prodotto, pagina, regione, o qualsiasi altra dimensione in Adobe Analytics per mostrare in che modo la fidelizzazione cambia, in base a valori diversi di tali dimensioni.
+Puoi creare le coorti in base a una dimensione selezionata, anziché in base al tempo come avviene per impostazione predefinita. Puoi usare dimensioni quali canale di marketing, campagna, prodotto, pagina, regione, o qualsiasi altra dimensione in Adobe Analytics per mostrare in che modo la fidelizzazione cambia, in base a valori diversi di tali dimensioni.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
