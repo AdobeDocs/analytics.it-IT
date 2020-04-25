@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Suddividere dimensioni
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
