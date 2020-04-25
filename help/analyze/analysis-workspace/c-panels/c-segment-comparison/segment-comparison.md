@@ -58,7 +58,7 @@ Al termine dell’analisi dei due segmenti desiderati, Adobe mostra i risultati 
 
 ### Dimensione e sovrapposizione
 
-Illustra le dimensioni comparative di ciascun segmento selezionato e il livello di sovrapposizione tra di essi mediante un diagramma di Venn. Potete passare il puntatore del mouse sull’elemento visivo per vedere quanti visitatori si trovavano in ciascuna sezione sovrapposta o non sovrapposta. Puoi anche fare clic con il pulsante destro del mouse sulla sovrapposizione per creare un nuovo segmento da analizzare ulteriormente. Se i due segmenti si escludono a vicenda, non viene visualizzata alcuna sovrapposizione tra i due cerchi (generalmente visualizzata con i segmenti che utilizzano un contenitore di hit).
+Illustra le dimensioni comparative di ciascun segmento selezionato e il livello di sovrapposizione tra di essi mediante un diagramma di Venn. Puoi passare il mouse sull’elemento visivo per vedere quanti visitatori si trovavano in ciascuna sezione di sovrapposizione o non sovrapposizione. Puoi fare clic con il pulsante destro del mouse sulla sovrapposizione per creare un nuovo segmento per un’ulteriore analisi. Se i due segmenti si escludono a vicenda, non viene visualizzata alcuna sovrapposizione tra i due cerchi (generalmente visualizzata con i segmenti che utilizzano un contenitore di hit).
 
 ![Dimensione e sovrapposizione](assets/size-overlap.png)
 
