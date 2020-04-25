@@ -1,7 +1,7 @@
 ---
 title: Cura di progetti e VRS
 description: Impara a curare i componenti e i progetti VRS
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
