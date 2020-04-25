@@ -2,7 +2,7 @@
 description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
 title: Impostazioni riga
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5c2f2d098398927d8379f2eb9ea69ca9acbfd726
 
 ---
