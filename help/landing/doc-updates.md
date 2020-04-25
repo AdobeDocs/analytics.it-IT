@@ -12,9 +12,9 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da gennaio 2019.
 
-* Per un elenco completo delle nuove funzionalità, degli avvisi dell&#39;amministratore e delle correzioni di bug, consulta le ultime [note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* Per un elenco completo delle nuove funzionalità, degli avvisi dell&#39;amministratore e delle correzioni di bug, consulta le ultime [note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
 * Per informazioni dettagliate sulle nuove funzioni, consultate [Nuove funzioni di Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) nella guida utente Strumenti.
-* Per informazioni su Adobe Analytics per audio e video, consulta [Misurazione di audio e video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+* Per informazioni su Adobe Analytics per audio e video, consulta [Misurazione di audio e video in Analytics](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html).
 
 ## Dettagli degli aggiornamenti
 
@@ -28,12 +28,12 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 22 gennaio 2020 | Pagina Tabella a mano libera aggiornata, include informazioni sul nuovo [Generatore di tabelle a mano libera](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 gennaio 2020 | Sono stati aggiunti [Adobe Analytics e cookie](../technotes/cookies.md)del browser. |
 | 29 novembre 2019 | Revisione della [Documentazione del feed dati](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 25 novembre 2019 | Nuovo argomento su [Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 25 novembre 2019 | Nuovo argomento su [Canale di marketing interno (aggiornamento sessione)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| 25 novembre 2019 | Nuovo argomento su [Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP](https://docs.adobe.com/content/help/it-IT/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 25 novembre 2019 | Nuovo argomento su [Canale di marketing interno (aggiornamento sessione)](https://docs.adobe.com/content/help/it-IT/analytics/components/marketing-channels/session-refresh.html) |
 | 21 novembre 2019 | Nuova documentazione impostata per l&#39;[Analisi del percorso del cliente](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
-| 28 settembre 2019 | Nuovi articoli sulle [variabili di configurazione per l&#39;implementazione Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| 12 settembre 2019 | Nuova documentazione per [Journey IQ: analisi multi-dispositivo](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
-| 28 agosto 2019 | Nuovo articolo sulle [App web progressive (PWA) per Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
+| 28 settembre 2019 | Nuovi articoli sulle [variabili di configurazione per l&#39;implementazione Javascript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
+| 12 settembre 2019 | Nuova documentazione per [Journey IQ: analisi multi-dispositivo](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/cda-home.html) |
+| 28 agosto 2019 | Nuovo articolo sulle [App web progressive (PWA) per Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/pwa/pwa.html) |
 | 8 agosto 2019 | Nuovo articolo sui [Totali delle metriche calcolate](/help/components/c-calcmetrics/cm-totals.md) |
 | 8 agosto 2019 | Chiarimento sui [dati della sessione abilitati per data e ora](/help/admin/admin/timestamp-optional.md) |
 | 5 agosto 2019 | Aggiornamenti a [Concetti chiave](/help/analyze/reports-analytics/key-concepts.md) |
