@@ -2,7 +2,7 @@
 title: Casi di utilizzo del confronto dei segmenti
 description: Scopri casi d’utilizzo reali che illustrano il modo in cui il pannello di confronto dei segmenti può essere utilizzato per acquisire informazioni approfondite sulla strategia di marketing.
 keywords: Segment IQ
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
