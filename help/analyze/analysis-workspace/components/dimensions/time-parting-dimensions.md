@@ -12,24 +12,24 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
 
-Le dimensioni suddivise in base al tempo si basano sul fuso orario della suite di rapporti o della suite di rapporti virtuale. Queste dimensioni sono disponibili in Analysis Workspace e possono essere utili per rispondere alle seguenti domande:
+Le dimensioni suddivise in base al tempo sono relative al fuso orario della suite di rapporti o della suite di rapporti virtuale. Sono disponibili in Analysis Workspace e sono utili per rispondere a domande di tipo:
 
-* In un intervallo di date ampio, qual è l’ora più popolare in cui i visitatori possono accedere al sito o all’app?
-* Are there days of the week, or hours of the day, on which conversion is higher on my site or app?
+* Su un grande intervallo di dati, qual è l’ora di maggior afflusso al sito o all’app?
+* In quale ora del giorno o giorno della settimana si verifica il maggior numero di conversioni sul sito o sull’app?
 * Come sono le vendite nel fine settimana rispetto ai giorni feriali?
-* Una certa campagna di marketing genera maggiori conversioni al mattino o nel pomeriggio?
+* Una certa campagna di marketing ha generato più conversioni nelle ore della mattina o del pomeriggio?
 
 >[!NOTE] le dimensioni suddivise in base al tempo sono disponibili solo in Analysis Workspace. Per usare le dimensioni suddivise in base al tempo in altre soluzioni Analytics, è necessario implementare il [plug-in getTimeParting](https://marketing.adobe.com/resources/help/it_IT/sc/implement/getTimeParting.html).
 
-Le dimensioni suddivise in base al tempo in Analysis Workspace includono:
+In Analysis Workspace, le dimensioni suddivise in base al tempo comprendono:
 
 | Dimensione | Valori di esempio |
 |--- |--- |
 | Ora del giorno | 0-23 |
 | AM/PM | AM, PM |
 | Giorno della settimana | Lunedì, martedì, mercoledì, giovedì, venerdì, sabato |
-| Fine settimana/Giorno feriale | Fine settimana, Giorno feriale |
+| Fine settimana/Giorno feriale | Fine settimana, giorno feriale |
 | Giorno del mese | 1-31 |
-| Mese dell&#39;anno | Gennaio-Dicembre |
-| Giorno dell&#39;anno | 1-366 |
-| Trimestre dell&#39;anno | Q1, Q2, Q3, Q4 |
+| Mese dell’anno | Gennaio-Dicembre |
+| Giorno dell’anno | 1-366 |
+| Trimestre dell’anno | Q1, Q2, Q3, Q4 |
