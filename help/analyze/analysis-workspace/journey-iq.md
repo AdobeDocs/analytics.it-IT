@@ -1,7 +1,7 @@
 ---
 title: Journey IQ
 description: Comprendi lo strumento Journey IQ, un insieme di funzioni che fanno parte di Adobe Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
