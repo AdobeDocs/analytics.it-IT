@@ -2,7 +2,7 @@
 description: Il rilevamento delle anomalie in Analysis Workspace utilizza una serie di tecniche di statistica avanzate per determinare se un’osservazione debba essere considerata come anomalia o meno.
 title: Tecniche di statistica utilizzate nel rilevamento delle anomalie
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ L’algoritmo verifica quale di queste combinazioni è la più adatta selezionan
 Dopo la selezione del modello, l’algoritmo regola i risultati in base a festività e stagionalità anno su anno. Per le festività, l’algoritmo verifica la presenza delle seguenti festività nell’intervallo di date del rapporto:
 
 * Memorial Day
-* 4 luglio
+* Luglio 4
 * Giorno del Ringraziamento
 * Black Friday
 * Cyber Monday
