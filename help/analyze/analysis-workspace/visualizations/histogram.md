@@ -1,5 +1,5 @@
 ---
-description: Un istogramma è un nuovo tipo di visualizzazione disponibile in Analysis Workspace.
+description: L’istogramma è un nuovo tipo di visualizzazione disponibile in Analysis Workspace.
 title: Istogramma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Istogramma
 
-Un istogramma è simile a un grafico a barre, ma raggruppa i numeri in intervalli (intervalli). Analytics automatizza la creazione di intervalli di numeri, ma puoi modificare le impostazioni in Impostazioni [](#section_09D774C584864D4CA6B5672DC2927477)avanzate.
+Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. Analytics automatizza la creazione di intervalli di numeri, ma puoi comunque cambiare le impostazioni in [Impostazioni avanzate](#section_09D774C584864D4CA6B5672DC2927477).
 
 ## Creare un istogramma {#section_74647707CC984A1CB6D3097F43A30B45}
 
@@ -24,20 +24,20 @@ Per creare un istogramma:
 
 >[!NOTE] Gli istogrammi supportano solo metriche standard; le metriche calcolate non sono supportate.
 
-Abbiamo utilizzato la metrica Visualizzazioni di pagina per Visitatori unici. Il primo intervallo (a sinistra) corrisponde a 1 visualizzazione di pagina per visitatore univoco, il secondo a due visualizzazioni di pagina, ecc.
+In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori unici. Il primo intervallo (a sinistra) corrisponde a 1 visualizzazione di pagina per visitatore univoco; il secondo a 2 visualizzazioni di pagina, ecc.
 
 ![](assets/histogram2.png)
 
 ## Impostazioni avanzate {#section_09D774C584864D4CA6B5672DC2927477}
 
-Per regolare le impostazioni dell’istogramma, fate clic sull’icona Impostazioni (&quot;ingranaggio&quot;) nell’angolo in alto a destra. Di seguito sono elencate le impostazioni che è possibile modificare:
+Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazioni (a forma di ingranaggi) in alto a destra. Puoi modificare le seguenti impostazioni:
 
 | Impostazioni istogramma | Funzione |
 |---|---|
-| Inizio intervallo | Determina con quale intervallo inizia l&#39;istogramma. &quot;1&quot; è il valore predefinito. È possibile impostare i numeri iniziali da 0 all&#39;infinito (nessun numero negativo). |
-| Intervalli di metrica | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo di bucket è 50. |
-| Dimensione intervalli di metrica | Consente di impostare la dimensione di ogni intervallo. Ad esempio, è possibile modificare la dimensione del bucket da 1 a 2 visualizzazioni di pagina. |
-| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/it_IT/reference/metrics_visit.html)o [Hit](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Ad esempio, visualizzazioni di pagina per visita o visualizzazioni di pagina per visitatore o visualizzazioni di pagina per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
+| Intervallo iniziale | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
+| Intervalli di metrica | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo consentito è 50. |
+| Dimensione intervalli di metrica | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
+| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/it_IT/reference/metrics_visit.html) o [Hit](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Ad esempio, visualizzazioni di pagina per visita, per visitatore o per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
 
 **Esempi**:
 
