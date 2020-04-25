@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Casi di utilizzo di Analysis Workspace
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
