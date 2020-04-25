@@ -2,7 +2,7 @@
 description: 'null'
 title: Gestione avvisi
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
