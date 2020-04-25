@@ -2,7 +2,7 @@
 description: Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o CSV) immediatamente oppure puoi programmarne l’invio.
 title: Condividere e programmare file di progetto
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
