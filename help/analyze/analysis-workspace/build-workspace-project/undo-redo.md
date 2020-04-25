@@ -2,7 +2,7 @@
 description: Modifiche e miglioramenti all’opzione Annulla in Analysis Workspace.
 title: Impostazioni Annulla e Ripristina
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
