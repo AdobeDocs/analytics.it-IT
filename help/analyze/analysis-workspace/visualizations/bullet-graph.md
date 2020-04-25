@@ -2,7 +2,7 @@
 description: È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
 title: Grafico bullet
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
