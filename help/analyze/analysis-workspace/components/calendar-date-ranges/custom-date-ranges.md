@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
