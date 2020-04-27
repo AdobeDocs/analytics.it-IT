@@ -27,7 +27,7 @@ Utilizzate questo login per accedere al Generatore di report utilizzando le cred
 
 **Login del Generatore di report - Definizioni dei campi**
 
-| Field | Definizione |
+| Campo | Definizione |
 |--- |--- |
 | Azienda | La credenziale di accesso della società utilizzata per Adobe Analytics. |
 | Nome utente | L’accesso al nome utente utilizzato per Adobe Analytics. Le attività pianificate per un utente sono collegate al nome utente. È possibile visualizzare le attività pianificate da qualsiasi computer se si accede al generatore di report con le stesse credenziali di accesso. |
