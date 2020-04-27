@@ -13,22 +13,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Procedura che descrive come creare una richiesta di rilevamento delle anomalie nel generatore di report.
 
-1. Selezionate un rapporto con tendenze, ad esempio un rapporto **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Traffic]** .
+1. Selezionate un rapporto con tendenze, ad esempio un rapporto **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** .
 1. Nel [!UICONTROL Apply Granularity] menu selezionare **[!UICONTROL Day]**.
 
    >[!NOTE]
    >
-   >Il [!UICONTROL Anomaly Detection] menu è disponibile solo quando si seleziona la granularità Giorno. I precedenti 30 giorni di dati vengono utilizzati come periodo di formazione per i dati statistici, indipendentemente dall'intervallo di date selezionato.
+   >Il [!UICONTROL Anomaly Detection] menu è disponibile solo quando si seleziona la granularità Giorno. I precedenti 30 giorni di dati vengono utilizzati come periodo di formazione per i dati statistici, indipendentemente dall&#39;intervallo di date selezionato.
 
 1. Dopo aver configurato gli intervalli di date, fai clic su **[!UICONTROL Next]**.
 
-   Passaggio 1. Nella Richiesta guidata: Passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
+   Passo Risultato 1. Nella Richiesta guidata: Passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
 
-   Passaggio 1. Per la metrica aggiunta, fai clic sul **[!UICONTROL None]** collegamento.
+   Passo Risultato 1. Per la metrica aggiunta, fai clic sul **[!UICONTROL None]** collegamento.
 
    ![Risultato passaggio](assets/anomaly_select.png)
 
-1. Seleziona **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
+1. Select **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]**.
 
    ![Informazioni sul passaggio](assets/anomaly_visit.png)
 
