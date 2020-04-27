@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Pubblicare su Power BI: panoramica
 
-Microsoft Power BI è una suite di dashboard di analisi aziendale per l&#39;analisi dei dati e la condivisione di approfondimenti. L&#39;integrazione di Adobe Analytics con Power BI consente di visualizzare i dati analitici del Generatore di report in Microsoft Power BI e di condividerli facilmente all&#39;interno dell&#39;organizzazione.
+Microsoft Power BI è una suite di dashboard di analisi business per l&#39;analisi dei dati e la condivisione di approfondimenti. L&#39;integrazione di Adobe Analytics con Power BI consente di visualizzare i dati analitici del Generatore di report in Microsoft Power BI e di condividerli facilmente all&#39;interno dell&#39;organizzazione.
 
 Precedentemente, come analista, pianificavi la diffusione delle cartelle di lavoro del Generatore di report tramite e-mail (o ftp). È ora possibile consentire agli utenti aziendali interessati di accedere (dall&#39;interno dei loro account Power BI) a dati precisi e aggiornati in un ambiente basato sul Web accessibile su piattaforme e dispositivi.
 
@@ -27,15 +27,15 @@ L&#39;integrazione con Report Builder Adobe consente di
 ## Requisiti di sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
 * Adobe Report Builder 5.5 [installato](/help/analyze/report-builder/setup/t-install-arb.md)
-* Active Microsoft account that enables you to sign in to Power BI
+* Account Microsoft attivo che consente di accedere a Power BI
 
-## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
+## Pubblica cartella di lavoro in Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-Scheduled workbooks are formatted Excel spreadsheets populated with data from Adobe Analytics and sent on a regularly scheduled basis.
+Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dati di Adobe Analytics e inviati su base regolare.
 
 **Pubblica cartella di lavoro nel Generatore di report**
 
-1. In Report Builder, generate and save a workbook.
+1. In Generatore di report, genera e salva una cartella di lavoro.
 1. Nella barra degli strumenti del Generatore di report, fai clic su **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Nella Pianificazione guidata di base, selezionare la casella accanto a **[!UICONTROL Publish Workbook to Microsoft Power BI]**.
@@ -59,7 +59,7 @@ Scheduled workbooks are formatted Excel spreadsheets populated with data from Ad
 
 1. È quindi possibile fissare un&#39;area della cartella di lavoro per includerla in qualsiasi dashboard di Power BI.
 
-## Pubblicare tutte le tabelle formattate nella cartella di lavoro come tabelle di set di dati Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
 >[!NOTE] Se la cartella di lavoro contiene una macro, l&#39;opzione &quot;Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI&quot; verrà disattivata.
 
