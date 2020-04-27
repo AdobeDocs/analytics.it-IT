@@ -11,21 +11,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Funzioni rapporto
 
-Un'introduzione alle funzioni di un rapporto, inclusa la barra degli strumenti, il calendario e la tabella dei dettagli.
+Un&#39;introduzione alle funzioni di un rapporto, inclusa la barra degli strumenti, il calendario e la tabella dei dettagli.
 
 Questo esempio mostra un [!UICONTROL Pages Report]. Le opzioni di configurazione possono variare a seconda del rapporto eseguito. Ad esempio, anziché selezionare con tendenze o classifica in un [!UICONTROL Site Content] rapporto, potete specificare la granularità e il nome della pagina per un [!UICONTROL Site Metrics] rapporto.
 
 ## Esempio di rapporto Pagine {#section_288CC85536684C2DB184141358481EF0}
 
-Un esempio di rapporto Pagine ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
+Un esempio di rapporto Pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width="672px"}
+![](assets/pages_report.png){width=&quot;672px&quot;}
 
 ## Barra degli strumenti Rapporto {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Condividi i dati del tuo rapporto con i responsabili decisionali che possono modificare il tuo sito o le strategie di marketing in base ai dati.
 
-![](assets/toolbar.png){width="672px"}
+![](assets/toolbar.png){width=&quot;672px&quot;}
 
 Consultare anche [Personalizzazione di un report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -33,7 +33,7 @@ Consultare anche [Personalizzazione di un report](/help/analyze/reports-analytic
 
 Visualizza le impostazioni del rapporto e ti consente di configurare il tipo di rapporto, selezionare metriche e altro. Le opzioni disponibili in questo gruppo variano a seconda del rapporto eseguito.
 
-![](assets/settings_header.png){width="672px"}
+![](assets/settings_header.png){width=&quot;672px&quot;}
 
 Per ulteriori informazioni, consulta [Personalizzazione di un rapporto](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) .
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni, consulta [Personalizzazione di un rapporto](/help/an
 
 Specificate la data facendo clic sul pulsante del calendario e selezionando un intervallo di date. È inoltre possibile selezionare due intervalli di tempo per confrontare le prestazioni.
 
-![](assets/calendar_large.png){width="672px"}
+![](assets/calendar_large.png){width=&quot;672px&quot;}
 
 Vedere [Selezione di un intervallo](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) di date o date e [confronto di date](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
