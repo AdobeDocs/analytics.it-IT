@@ -11,21 +11,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Rapporti di percorso e fallout percorso in Report Builder
 
-Descrive come il generatore di report supporta i report di percorsi e di abbandono e come l'implementazione differisce da Reporting e analisi.
+Descrive come il generatore di report supporta i report di percorsi e di abbandono e come l&#39;implementazione differisce da Reporting e analisi.
 
-| Nome report percorso in Reporting e analisi (percorsi &gt; dimensione &gt;) | Supportato in Generatore di report? |
+| Nome report percorso in Reporting e analisi (percorsi > dimensione >) | Supportato in Generatore di report? |
 |--- |--- |
 | Flusso dimensione successivo/precedente | Non fornito come rapporto standalone. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
-| Dimensioni successivo/precedente | Non fornito come rapporto standalone. Può essere riprodotto con un rapporto Percorso e utilizzando un filtro. |
-| Abbandono | Supportato e fornito come rapporto standalone (Percorsi &gt; Dimensioni &gt; Abbandono dimensione). |
+| Dimensioni Successivo/Precedente | Non fornito come rapporto standalone. Può essere riprodotto con un rapporto Percorso e utilizzando un filtro. |
+| Abbandono | Supportato e fornito come rapporto standalone (Percorsi > Dimensioni > Abbandono dimensione). |
 | Percorsi completi | Non supportato. |
 | PathFinder | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando un filtro. |
 | Lunghezza percorso | Supportato solo per la dimensione Pagina. |
-| Analisi pagina &gt; Riepilogo dimensioni | Non fornito come rapporto standalone. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
-| Analisi pagina &gt; Ricarica | Non fornito come rapporto standalone. Può essere riprodotto con un rapporto dimensione utilizzando la metrica Ricarica. |
-| Analisi pagina &gt; Profondità dimensione | Supportato solo per la dimensione Pagina. |
-| Analisi pagina &gt; Tempo trascorso sulla dimensione | Non supportato. |
-| Voci ed uscite &gt; Pagine di entrata | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando il filtro predefinito Inserito nel sito. |
-| Voci ed uscite &gt; Pagine di entrata originali | Supportato solo per la dimensione Pagina. |
-| Voci ed uscite &gt; Visite a pagina singola | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando un filtro predefinito. |
-| Voci ed uscite &gt; Dimensione di uscita | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando il filtro preimpostato Exited Site (Sito esaurito). |
+| Analisi pagina > Riepilogo dimensioni | Non fornito come rapporto standalone. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
+| Analisi pagina > Ricarica | Non fornito come rapporto standalone. Può essere riprodotto con un rapporto dimensione utilizzando la metrica Ricarica. |
+| Analisi pagina > Profondità dimensione | Supportato solo per la dimensione Pagina. |
+| Analisi pagina > Tempo trascorso sulla dimensione | Non supportato. |
+| Voci ed uscite > Pagine di entrata | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando il filtro predefinito Inserito nel sito. |
+| Voci ed uscite > Pagine di entrata originali | Supportato solo per la dimensione Pagina. |
+| Voci ed uscite > Visite a pagina singola | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando un filtro predefinito. |
+| Voci ed uscite > Dimensione di uscita | Non fornito come rapporto standalone. Può essere riprodotto come rapporto Percorso utilizzando il filtro preimpostato Exited Site (Sito esaurito). |
