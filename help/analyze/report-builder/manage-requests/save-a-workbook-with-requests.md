@@ -11,19 +11,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Salvare una cartella di lavoro con le richieste
 
-Dopo aver creato rapporti con richieste incorporate, puoi salvarle facendo clic su File &gt; Salva o File &gt; Salva con nome in Excel. Generatore di report rileva se il report contiene richieste. Quando si fa clic su una di queste opzioni di salvataggio, viene visualizzato il modulo Salva cartella di lavoro con nome.
+Dopo aver creato rapporti con richieste incorporate, puoi salvarle facendo clic su File > Salva o File > Salva con nome in Excel. Generatore di report rileva se il report contiene richieste. Quando si fa clic su una di queste opzioni di salvataggio, viene visualizzato il modulo Salva cartella di lavoro con nome.
 
-* Come procedura ottimale per l'utilizzo esteso delle applicazioni Windows, Adobe consiglia di salvare le richieste nel foglio di calcolo spesso e regolarmente per evitare una perdita imprevista delle richieste nel foglio di lavoro.
+* Come procedura ottimale per l&#39;utilizzo esteso delle applicazioni Windows, Adobe consiglia di salvare le richieste nel foglio di calcolo spesso e regolarmente per evitare una perdita imprevista delle richieste nel foglio di lavoro.
 * Quando si assegna un nome alla cartella di lavoro, è consigliabile utilizzare un numero di versione nel nome del file per mantenere la cronologia del lavoro. Ad esempio, assegnare un nome alla prima cartella di lavoro [!DNL web_forecast_01_01.xlsx].
 * Se il rapporto è già stato salvato, il [!UICONTROL Save Template] modulo non viene visualizzato al salvataggio del rapporto una seconda volta. Se il rapporto non contiene richieste, questa finestra di dialogo non viene visualizzata. Viene invece visualizzato il [!UICONTROL Save As] modulo Excel standard.
 
 ## Nome file e posizione {#section_2406629E9B644CE08430826948977D5D}
 
-Il [!UICONTROL Save Template] modulo ha alcune delle stesse funzioni della finestra di dialogo standard Excel [!UICONTROL File] &gt; [!UICONTROL Save As] , ad esempio una casella di testo per immettere il nome del file del rapporto del foglio di calcolo utilizzando l'estensione del [!DNL .xls] file convenzionale.
+Il [!UICONTROL Save Template] modulo ha alcune delle stesse funzioni della finestra di dialogo standard Excel [!UICONTROL File] > [!UICONTROL Save As] , ad esempio una casella di testo per immettere il nome del file del rapporto del foglio di calcolo utilizzando l&#39;estensione del [!DNL .xls] file convenzionale.
 
 Il nome file utilizzato deve contenere un massimo di 255 caratteri. Inoltre, il nome del file non può contenere i seguenti caratteri:
 
-\ ? | &gt; &lt; : / * ' "
+\ ? | > &lt; : / * &#39; &quot;
 
 Infine, non è possibile utilizzare caratteri Unicode oltre il set di caratteri ASCII estesi.
 
