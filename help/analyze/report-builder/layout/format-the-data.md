@@ -11,11 +11,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Formattare la data
 
-Oltre alle opzioni di formattazione standard disponibili tramite la funzione Formato &gt; Celle di Excel (Ctrl+1), con il generatore di report puoi applicare una formattazione limitata agli intervalli di celle. Queste scelte di formattazione dipendono dalla metrica scelta.
+Oltre alle opzioni di formattazione standard disponibili tramite la funzione Formato > Celle di Excel (Ctrl+1), con il generatore di report puoi applicare una formattazione limitata agli intervalli di celle. Queste scelte di formattazione dipendono dalla metrica scelta.
 
 Dopo aver [aggiunto le dimensioni](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) alla griglia Etichette righe, fare clic su **[!UICONTROL Format]**.
 
-Nel **[!UICONTROL Format]** menu, fate clic su **[!UICONTROL Custom Format]** per applicare formati personalizzati per date simili alla funzione di inoltro e postpend. Ad esempio, è possibile immettere testo che si verifica sempre dopo la data (ad esempio A.D. B.C.E. A.H. ecc.). Potete aggiungere del testo prima della data, ad esempio [!UICONTROL Start Date] e [!UICONTROL Start and End Date]. È inoltre possibile creare un'espressione data personalizzata a partire da abbreviazioni di giorno, mese e anno, e utilizzare un separatore personalizzato tra parti della data. Tutti i formati di data devono essere composti da tre abbreviazioni racchiuse tra parentesi.
+Nel **[!UICONTROL Format]** menu, fate clic su **[!UICONTROL Custom Format]** per applicare formati personalizzati per date simili alla funzione di inoltro e postpend. Ad esempio, è possibile immettere testo che si verifica sempre dopo la data (ad esempio A.D. B.C.E. A.H. ecc.). È possibile aggiungere del testo prima della data, ad esempio [!UICONTROL Start Date] e [!UICONTROL Start and End Date]. È inoltre possibile creare un&#39;espressione data personalizzata a partire da abbreviazioni di giorno, mese e anno, e utilizzare un separatore personalizzato tra parti della data. Tutti i formati di data devono essere composti da tre abbreviazioni racchiuse tra parentesi.
 
 La tabella seguente descrive come utilizzare le abbreviazioni di data nel [!UICONTROL Custom Format] campo:
 
