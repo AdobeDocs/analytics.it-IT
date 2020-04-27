@@ -13,6 +13,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 I messaggi diagnostici forniscono informazioni sullo stato della richiesta quando viene aggiornata.
 
-![icon_Notice_success.gif](assets/icon_notice_success.gif) Indica che la richiesta è stata aggiornata correttamente dall'apertura della cartella di lavoro. La colonna diagnostica fornisce altre informazioni sulla richiesta, incluso l'ora utilizzata dalla richiesta, l'ora di mappatura della richiesta e se la richiesta utilizza informazioni precedentemente memorizzate nella cache.
+![icon_Notice_success.gif](assets/icon_notice_success.gif) Indica che la richiesta è stata aggiornata correttamente dall&#39;apertura della cartella di lavoro. La colonna diagnostica fornisce altre informazioni sulla richiesta, incluso l&#39;ora utilizzata dalla richiesta, l&#39;ora di mappatura della richiesta e se la richiesta utilizza informazioni precedentemente memorizzate nella cache.
 
-![icon_Notice_Warning.gif](assets/icon_notice_warn.gif) Questo avviso viene visualizzato quando una richiesta non viene aggiornata correttamente. L'errore è indicato nella colonna diagnostica che indica la causa probabile dell'errore. Consulta la sezione [](/help/analyze/report-builder/troubleshoot.md) Risoluzione dei problemi per informazioni su alcuni messaggi di errore.
+![icon_Notice_Warning.gif](assets/icon_notice_warn.gif) Questo avviso viene visualizzato quando una richiesta non viene aggiornata correttamente. L&#39;errore è indicato nella colonna diagnostica che indica la causa probabile dell&#39;errore. Consulta la sezione [](/help/analyze/report-builder/troubleshoot.md) Risoluzione dei problemi per informazioni su alcuni messaggi di errore.
