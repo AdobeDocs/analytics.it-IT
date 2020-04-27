@@ -329,7 +329,7 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
    + [Tempo](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Panoramica di Labs](tech-previews/overview.md)
-+ dashboard {#mobapp}
++ dashboards {#mobapp}
    + [panoramica delle dashboard](mobile-app/home.md)
    + [Guida al curatore](mobile-app/curator.md)
    + [Guida introduttiva per l&#39;utente esecutivo](mobile-app/executive.md)
