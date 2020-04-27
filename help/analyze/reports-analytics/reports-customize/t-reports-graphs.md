@@ -18,10 +18,10 @@ Il tipo di grafici disponibili dipende dal tipo di rapporto eseguito. Ad esempio
 **Per modificare un grafico di rapporti**
 
 1. Esegui un report.
-1. Fai clic su **[!UICONTROL Configure Graph]** (Genera).
+1. Fai clic su **[!UICONTROL Configure Graph]**.
 1. Selezionate un tipo di grafico.
 
-   **[!UICONTROL Trend Line]**: Le linee di tendenza mostrano le tendenze giornaliere per le metriche del rapporto e sono utili per tendere una metrica nel tempo per riga.
+   **[!UICONTROL Trend Line]**: Le linee di tendenza mostrano le tendenze giornaliere per le metriche del rapporto e sono utili per la tendenza di una metrica nel tempo per riga.
 
    ![](assets/graph_trend_line.png)
 
@@ -29,11 +29,11 @@ Il tipo di grafici disponibili dipende dal tipo di rapporto eseguito. Ad esempio
 
    ![](assets/graph_smooth_line.png)
 
-   **[!UICONTROL Area]**: Il grafico Area è simile al grafico Trend Line (Linea di tendenza), ma si riempie nell’area sotto le linee. È necessario visualizzare un rapporto con tendenze per visualizzare il grafico Area.
+   **[!UICONTROL Area]**: Il grafico Area è simile al grafico Trend Line (Linea di tendenza), ma si riempie nell’area sotto le linee. È necessario visualizzare un rapporto con tendenze per visualizzare il grafico dell&#39;area.
 
    ![](assets/graph_area.png)
 
-   **[!UICONTROL Stacked Area]**: I grafici ad area sovrapposta sono utili per la tendenza di una serie di prodotti o campagne nel tempo. Ad esempio, se si tende i primi cinque prodotti con entrate, è possibile vedere rapidamente il fatturato totale generato da tali prodotti nel tempo. Potete ridefinire la visualizzazione utilizzando un filtro di ricerca per includere o escludere prodotti specifici.
+   **[!UICONTROL Stacked Area]**: I grafici ad area sovrapposta sono utili per la tendenza di una serie di prodotti o campagne nel tempo. Ad esempio, se si tende i primi cinque prodotti con entrate, è possibile vedere rapidamente il fatturato totale che tali prodotti generano nel tempo. Potete ridefinire la visualizzazione utilizzando un filtro di ricerca per includere o escludere prodotti specifici.
 
    ![](assets/graph_stacked_area.png)
 
@@ -53,15 +53,15 @@ Il tipo di grafici disponibili dipende dal tipo di rapporto eseguito. Ad esempio
 
    ![](assets/graph_stacked_horizontal.png)
 
-   **[!UICONTROL Pie]**: Il grafico a torta mostra le percentuali dei valori delle metriche principali in relazione tra loro e mostra la percentuale delle metriche selezionate in relazione all'intero insieme. È possibile visualizzare il grafico a torta per i rapporti con classifica.
+   **[!UICONTROL Pie]**: Il grafico a torta mostra le percentuali dei valori delle metriche principali in relazione tra loro e mostra la percentuale delle metriche selezionate in relazione all&#39;intero insieme. È possibile visualizzare il grafico a torta per i rapporti con classifica.
 
    ![](assets/graph_pie.png)
 
-   **[!UICONTROL Scatter]**: Il grafico Dispersione mostra una visualizzazione a dispersione delle metriche selezionate in relazione l'una all'altra. I grafici a dispersione consentono di visualizzare i dati in due dimensioni, in modo da identificare quali elementi sono meno importanti.
+   **[!UICONTROL Scatter]**: Il grafico Dispersione mostra una visualizzazione a dispersione delle metriche selezionate in relazione l&#39;una all&#39;altra. I grafici a dispersione consentono di visualizzare i dati in due dimensioni, in modo da identificare quali elementi sono meno importanti.
 
    ![](assets/graph_scatter.png)
 
-   **[!UICONTROL Bubble]**: Il grafico a bolle mostra una bolla delle metriche selezionate in relazione l'una all'altra. La posizione delle bolle mostra le relazioni tra le metriche sull'asse orizzontale e verticale, mentre la dimensione della bolla mostra la metrica del report principale. I grafici a bolle consentono di visualizzare i dati in due dimensioni, in modo da identificare quali elementi sono di default.
+   **[!UICONTROL Bubble]**: Il grafico a bolle mostra una bolla delle metriche selezionate in relazione l&#39;una all&#39;altra. La posizione delle bolle mostra le relazioni tra le metriche sull&#39;asse orizzontale e verticale, mentre la dimensione della bolla mostra la metrica del report principale. I grafici a bolle consentono di visualizzare i dati in due dimensioni, in modo da identificare quali elementi sono di default.
 
    ![](assets/graph_bubble.png)
 
