@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Questa procedura descrive come nascondere o mostrare le intestazioni.
 
-Fare clic **[!UICONTROL Hide/Show]** nel [!UICONTROL Pivot Layout] modulo o [!UICONTROL Custom Layout] nell'output [!UICONTROL Request Wizard: Step 2] .
+Fare clic **[!UICONTROL Hide/Show]** nel [!UICONTROL Pivot Layout] modulo o [!UICONTROL Custom Layout] nell&#39;output del [!UICONTROL Request Wizard: Step 2] modulo.
 
 ![](assets/hide_show_header.png)
 
