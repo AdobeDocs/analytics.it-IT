@@ -17,22 +17,22 @@ Dopo aver installato Generatore di report e avviato Excel, fai clic su **[!UICON
 
 ![](assets/report_builder_toolbar.png)
 
-**** Accesso: Visualizza il [!UICONTROL Login] modulo in modo da poter accedere con le credenziali dell'utente specificato o come utente diverso. Visualizza anche il nome della società dopo l’accesso. Consultate [Accedere Al Generatore](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md)Di Report.
+**Accesso:** Visualizza il [!UICONTROL Login] modulo in modo da poter accedere con le credenziali dell&#39;utente specificato o come utente diverso. Consente di visualizzare anche il nome della società dopo l’accesso. Consultate [Accedere Al Generatore](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md)Di Report.
 
-**** Crea: Avvia il [!UICONTROL Request Wizard]. Se non avete effettuato l’accesso, vi verrà richiesto di farlo. Consulta Richieste [di](/help/analyze/report-builder/data-requests/data-requests.md)dati.
+**Crea:** Avvia il [!UICONTROL Request Wizard]. Se non avete effettuato l’accesso, vi verrà richiesto di farlo. Consulta Richieste [di](/help/analyze/report-builder/data-requests/data-requests.md)dati.
 
-**** Gestisci: Avvia il [!UICONTROL Request Manager]. Puoi visualizzare lo stato, modificare, aggiornare, eliminare e gestire tutte le richieste di dati del Generatore di report incorporate nella cartella di lavoro Excel. Potete eseguire queste funzioni su singole richieste o su più richieste contemporaneamente. Consultate [Gestione richieste](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md).
+**Gestisci:** Avvia il [!UICONTROL Request Manager]. Puoi visualizzare lo stato, modificare, aggiornare, eliminare e gestire tutte le richieste di dati del Generatore di report incorporate nella cartella di lavoro di Excel. Potete eseguire queste funzioni su singole richieste o su più richieste contemporaneamente. Consultate [Gestire le richieste](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md).
 
-**** Aggiorna: Aggiorna i dati per tutte le richieste incorporate nella cartella di lavoro di Excel. See [Refresh a Request](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md).
+**Aggiorna:** Aggiorna i dati per tutte le richieste incorporate nella cartella di lavoro di Excel. See [Refresh a Request](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md).
 
-**** Formato: Consente di impostare la formattazione condizionale per le celle del foglio di calcolo. See [Specify Conditional Formatting](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md).
+**Formato:** Consente di impostare la formattazione condizionale per le celle del foglio di calcolo. See [Specify Conditional Formatting](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md).
 
-**** Pianificazione: Consente di pianificare l'invio dei rapporti in base all'ora e al formato di file definiti. See [Schedule Report Requests](/help/analyze/report-builder/schedule-report-requests.md).
+**Pianificazione:** Consente di pianificare l&#39;invio dei rapporti in base all&#39;ora e al formato di file definiti. See [Schedule Report Requests](/help/analyze/report-builder/schedule-report-requests.md).
 
-**** Libreria: Avvia la cartella di lavoro di Excel del generatore di report [!UICONTROL Workbook Library] in modo da poter caricare la cartella di lavoro che si desidera condividere. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Vedere [Utilizzo della libreria](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)della cartella di lavoro.
+**Libreria:** Avvia la cartella di lavoro di Excel del generatore di report [!UICONTROL Workbook Library] in modo da poter caricare la cartella di lavoro che si desidera condividere. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Vedere [Utilizzo della libreria](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)della cartella di lavoro.
 
-**** Opzioni: Consente di specificare se la data **[!UICONTROL As Of]** (Ora) deve essere specificata per l'aggiornamento delle richieste e di abilitare la registrazione per la risoluzione dei problemi. Vedere [Opzioni](/help/analyze/report-builder/options.md).
+**Opzioni:** Consente di specificare se la data **[!UICONTROL As Of]** (Ora) deve essere specificata per l&#39;aggiornamento delle richieste e di abilitare la registrazione per la risoluzione dei problemi. Vedere [Opzioni](/help/analyze/report-builder/options.md).
 
-**** Bloccato/Sbloccato: È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall'aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente. See [Lock/Unlock Workbooks](/help/analyze/report-builder/workbook-library/protect-wb.md).
+**Bloccato/Sbloccato:** È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall&#39;aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente. See [Lock/Unlock Workbooks](/help/analyze/report-builder/workbook-library/protect-wb.md).
 
-**** Aiuto: Viene avviata la documentazione della guida del Generatore di report attualmente in esame.
+**Aiuto:** Viene avviata la documentazione della guida del Generatore di report attualmente in esame.
