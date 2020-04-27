@@ -14,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
 
-Quando pianifichi la consegna di un rapporto in un&#39;applicazione Adobe Analytics, puoi utilizzare gli strumenti di programmazione e distribuzione per visualizzare i file che sono stati automaticamente inviati e modificati o per terminare le consegne.
+Quando pianifichi la consegna di un report in un&#39;applicazione di Adobe Analytics puoi utilizzare gli strumenti Scheduling (Pianificazione) e Distribution (Distribuzione) per visualizzare i file automaticamente inviati e modificati o per terminare le consegne.
 
 A causa delle differenze nei meccanismi di elaborazione e nelle piattaforme, i vari tipi di rapporti scaricabili e pianificati disponibili in Adobe Analytics presentano limitazioni diverse rispetto al numero massimo di righe che possono elaborare in un&#39;unica richiesta. Di seguito sono riportati i limiti di ciascuna:
 
@@ -38,7 +38,7 @@ Tali limitazioni riguardano i singoli rapporti pianificati e scaricati; le dashb
 
 Passaggi che descrivono come scaricare e inviare i rapporti per e-mail in vari formati e pianificare la consegna di un rapporto.
 
-1. Esegui un rapporto, quindi fai clic su **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Send]**.
 1. Specificate le opzioni di consegna:
 
    | Opzione | Descrizione |
@@ -72,10 +72,10 @@ Passaggi che descrivono come scaricare e inviare i rapporti per e-mail in vari f
 
 Passaggi che descrivono come stampare un rapporto.
 
-1. Eseguire un report.
+1. Esegui un report.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
 
-## Download di un rapporto utilizzando le opzioni di base {#task_43660107A1C9485D92981CD75B562577}
+## Download a report using basic options {#task_43660107A1C9485D92981CD75B562577}
 
 Scarica informazioni dettagliate su un rapporto specifico nei formati PDF, CSV, Excel o Raw Data Export.
 
@@ -98,9 +98,9 @@ Scarica informazioni dettagliate su un rapporto specifico nei formati PDF, CSV, 
 
 Informazioni sulla gestione dei rapporti pianificati.
 
-In [!UICONTROL Schedule Reports Manager], puoi modificare ed eliminare consegne ricorrenti di rapporti. Puoi creare programmi di consegna che inviano i rapporti via e-mail o FTP a un indirizzo specificato. Puoi configurare queste pianificazioni per inviare automaticamente i rapporti a intervalli specificati per una durata di tempo o indefinita, oppure per interrompere la consegna di un rapporto periodico.
+In [!UICONTROL Schedule Reports Manager], puoi modificare ed eliminare consegne ricorrenti di rapporti. Puoi programmare le consegne in modo che i rapporti vengano inviati via e-mail o FTP a un indirizzo specifico. Puoi configurare queste pianificazioni per inviare automaticamente i rapporti a intervalli specificati per una durata di tempo o indefinita, oppure per interrompere la consegna di un rapporto periodico.
 
-The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. Se l&#39;account utente è disabilitato nell&#39;applicazione, tutte le consegne programmate vengono interrotte.
+The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
 
 1. Per accedere al manager, fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**.
 
@@ -112,7 +112,7 @@ Quando il destinatario fa clic sul collegamento, il sistema richiede le credenzi
 
 **Condivisione di un collegamento a un rapporto**
 
-1. Eseguire un report.
+1. Esegui un report.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
 
 ## Annullamento dell&#39;iscrizione ai rapporti pianificati {#concept_6B48360F935740B6851BA85D32DEF637}
