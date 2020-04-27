@@ -11,13 +11,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Panoramica delle metriche e delle dimensioni
 
-Puoi aggiungere metriche e dimensioni alla Richiesta guidata: Passaggio 2 per definire il layout di Analytics dei dati nella richiesta. L'elenco di metriche e dimensioni nel Generatore di report segue il layout del menu visualizzato in Reporting e analisi.
+Puoi aggiungere metriche e dimensioni alla Richiesta guidata: Passaggio 2 per definire il layout di Analytics dei dati nella richiesta. L&#39;elenco di metriche e dimensioni nel Generatore di report segue il layout del menu visualizzato in Reporting e analisi.
 
 Le metriche sono valori numerici. Sono costituite da informazioni quantitative sulle attività sul sito Web, come [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units]e così via. Generatore di report organizza le metriche in diversi gruppi, che seguono il raggruppamento standard in Analytics:
 
-* Traffico standard: Visualizza la metrica in base all'elemento della riga specificato. Ad esempio, in un rapporto Pagine, la metrica Visite mostra il numero di visite a quella specifica pagina.
+* Traffico standard: Visualizza la metrica in base all&#39;elemento della riga specificato. Ad esempio, in un rapporto Pagine, la metrica Visite mostra il numero di visite a quella specifica pagina.
 * Commercio standard: Metriche quali Entrate, Ordini e Checkout.
-* Metriche totali: Visualizza la metrica in base all'intervallo di date del rapporto, indipendentemente dall'elemento della riga. Questa metrica è identica al totale alla fine del rispettivo report di analisi.
+* Metriche totali: Visualizza la metrica in base all&#39;intervallo di date del rapporto, indipendentemente dall&#39;elemento della riga. Questa metrica è identica al totale alla fine del rispettivo report di analisi.
 * Partecipazione
 * Calcolato
 
