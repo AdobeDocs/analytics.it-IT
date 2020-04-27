@@ -3,7 +3,7 @@ description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ---
 
@@ -58,7 +58,11 @@ Di seguito sono riportati i modelli disponibili e le domande che ogni modello pu
 
 ### Formazione
 
-* **Esercitazione** di formazione: Questo modello standard illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
+Questi modelli standard illustrano la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. Sono disponibili come modello standard nella modalità Nuovo progetto e sostituiscono il progetto di esempio esistente oggi per i nuovi utenti che non hanno altri progetti nel loro elenco.
+
+* **Esercitazione di formazione - Analisi** di ricerca interna: L’esercitazione Internal Search (Ricerca interna) consente di comprendere cosa i visitatori cercano sul sito Web o sull’app, ma non di trovare. L&#39;analisi di questo tipo di dati può determinare opportunità di ottimizzazione dei contenuti.
+
+* **Esercitazione di formazione - Analisi** di marketing: Questa esercitazione mostra come creare un&#39;analisi di marketing per i tuoi dirigenti, con informazioni sulle dimensioni e metriche personalizzate che sono importanti.
 
 ### Pubblicità
 
