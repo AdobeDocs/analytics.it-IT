@@ -26,7 +26,7 @@ Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!
 <table id="table_0880204181074BDBBA37E3DF2972A672"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Field </th> 
+   <th colname="col1" class="entry"> Campo </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
