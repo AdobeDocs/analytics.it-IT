@@ -27,7 +27,7 @@ Informazioni sui tipi di report di base, compresi Traffico, Conversione e Percor
   </tr> 
   <tr> 
    <td colname="col1"> Conversione </td> 
-   <td colname="col2"> <p>Riporta informazioni sugli indicatori di successo da te definiti. Quando si acquisiscono inizialmente le licenze, è disponibile un'opzione per definire metriche che indicano o forniscono informazioni aggiuntive sulle vendite o sulle consegne di contenuto riuscite. I report mostrano qui i numeri per queste metriche. Alcuni esempi includono i tipi di pagamento, i costi di spedizione e i buoni online utilizzati. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html"  > Report</a>conversione. </p> </td> 
+   <td colname="col2"> <p>Riporta informazioni sugli indicatori di successo da te definiti. Quando si acquisiscono inizialmente le licenze, è disponibile un'opzione per definire metriche che indicano o forniscono informazioni aggiuntive sulle vendite o sulle consegne di contenuto riuscite. I report mostrano qui i numeri per queste metriche. Alcuni esempi includono i tipi di pagamento, i costi di spedizione e i buoni online utilizzati. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html"  > Report</a>di conversione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Paths (Percorsi) </td> 
@@ -36,6 +36,6 @@ Informazioni sui tipi di report di base, compresi Traffico, Conversione e Percor
  </tbody> 
 </table>
 
-Per informazioni sulle funzioni dell'interfaccia, consultate [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) (Funzionidei rapporti).
+Per informazioni sulle funzioni dell&#39;interfaccia, consultate [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) (Funzionidei rapporti).
 
-Per le descrizioni, vedere Descrizioni dei [rapporti](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) in *`Analytics Reference Help`* .
+Per le descrizioni, vedere Descrizioni dei [rapporti](https://marketing.adobe.com/resources/help/it_IT/reference/reports_descriptions.html) in *`Analytics Reference Help`* .
