@@ -15,7 +15,7 @@ Esempi, note e note di sintassi sull&#39;uso degli intervalli di date nelle espr
 
 La tabella presuppone che la data odierna sia lunedì 10 novembre 2011, utilizzando il calendario gregoriano.
 
-| Esempio | Intervallo date | Personalizza espressione | Intervallo date del rapporto |
+| Esempio | Intervallo date | Personalizza espressione | Intervallo di date del report |
 |---|---|---|---|
 |  |  | **Da** | **A** |  |
 | 1 | Due settimane fa | cw-2w | cw-1w-1d | Da 26 ott a 1 nov |
@@ -23,7 +23,7 @@ La tabella presuppone che la data odierna sia lunedì 10 novembre 2011, utilizza
 | 3 | Una settimana intera, a partire da 4 settimane fa | cw-4w | cw-3w-1d | 12 ott-18 ott |
 | 4 | Ultima settimana dell&#39;anno precedente | cw-53w | cw-52w-1d | Nov. - 9 Nov. 2010 |
 | 5 | Un mese a partire da 2 mesi fa | cm-2m | cm-1m-1d | 1 settembre al 30 settembre |
-| 6 | 12 mesi fa | cm-12m | cm-11m-1d | dal 1 o novembre al 30 novembre 2010 |
+| 6 | 12 mesi fa nell&#39;anno precedente | cm-12m | cm-11m-1d | dal 1 o novembre al 30 novembre 2010 |
 
 ## Note sugli esempi {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
@@ -33,7 +33,7 @@ Se oggi è lunedì 10 novembre 2011, prendere la data corrente e sottrarre una s
 
 **Esempio 2**
 
-aggiungere quattro mesi all&#39;inizio dell&#39;anno (il mese di gennaio) per ottenere il mese di maggio; aggiungere due giorni al primo giorno del mese per ottenere il terzo giorno del mese.
+aggiungere quattro mesi all&#39;inizio dell&#39;anno (il mese di gennaio) per ottenere il mese di maggio; aggiungete due giorni al primo giorno del mese per ottenere il terzo giorno del mese.
 
 ## Note sulla sintassi {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
