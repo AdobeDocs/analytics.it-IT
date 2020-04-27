@@ -1,5 +1,5 @@
 ---
-description: Le date preimpostate consentono di selezionare le date o le date usate più comunemente. Nel passaggio 1 della Richiesta guidata, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
+description: Le date preimpostate consentono di selezionare le date o le date usate più frequentemente per il salvataggio. Nel passaggio 1 della Richiesta guidata, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
 title: 'Definizioni di Creazione guidata richieste: date preimpostate'
 topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Definizioni di Creazione guidata richieste: date preimpostate
 
-Le date preimpostate consentono di selezionare le date o le date usate più comunemente. Nella Richiesta guidata: Passaggio 1, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
+Le date preimpostate consentono di selezionare le date o le date usate più frequentemente per il salvataggio. Nella Richiesta guidata: Passaggio 1, scegliete Date predefinite. Di seguito sono riportate le definizioni dei campi per le date preimpostate nel Generatore di report.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -23,7 +23,7 @@ Le date preimpostate consentono di selezionare le date o le date usate più comu
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Date comunemente utilizzate </p> </td> 
-   <td colname="col2"> <p>Visualizza gli intervalli di date più utilizzati. Questa impostazione è abilitata per impostazione predefinita quando si crea una nuova richiesta. Se la cartella di lavoro contiene almeno una richiesta, il generatore di report utilizza come impostazione predefinita la data della richiesta esistente. </p> </td> 
+   <td colname="col2"> <p>Visualizza gli intervalli di date più utilizzati. Questa impostazione è abilitata per impostazione predefinita quando si crea una nuova richiesta. Se nella cartella di lavoro è presente almeno una richiesta, il generatore di report utilizza come impostazione predefinita la data della richiesta esistente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Modelli di data salvati </p> </td> 
