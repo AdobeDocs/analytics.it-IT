@@ -22,10 +22,10 @@ Per attivare la modalità offline:
    ![](assets/offline_mode.png)
 
 1. Selezionare la casella di controllo accanto a **[!UICONTROL Turn on offline mode for creating and editing requests]**.
-1. Nel **[!UICONTROL Display Metric Data as]** campo, inserite i dati segnaposto che desiderate vengano restituiti nella richiesta. Ad esempio, immettete "1".
-1. Fai clic su **[!UICONTROL OK]** (Genera).
+1. Nel **[!UICONTROL Display Metric Data as]** campo, inserite i dati segnaposto che desiderate vengano restituiti nella richiesta. Ad esempio, immettete &quot;1&quot;.
+1. Fai clic su **[!UICONTROL OK]**.
 1. Create ed eseguite la richiesta (in modalità offline) tramite la Richiesta guidata.
-1. La tua richiesta con "1" come dati segnaposto sarà simile a quella riportata di seguito:
+1. La tua richiesta con &quot;1&quot; come dati segnaposto sarà simile a quella riportata di seguito:
 
    ![](assets/offline_mode_example.png)
 
