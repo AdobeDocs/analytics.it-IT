@@ -19,14 +19,14 @@ Spiega come estrarre le risorse pubblicate dal Generatore di report in Power BI 
 
 ## Processo {#section_CB03E6E1B066457EA0F6FC08FFF5EFDD}
 
-Nell'aggiornamento di aprile 2017 di Power BI Desktop, Microsoft ha rilasciato la possibilità di connettersi ai dataset nel servizio Power BI. Questa funzione consente di creare nuovi rapporti dei set di dati esistenti già pubblicati nel cloud. Potete sfruttare questa funzione per collaborare meglio e ridurre il doppio impegno in tutto il team.
+Nell&#39;aggiornamento di aprile 2017 di Power BI Desktop, Microsoft ha rilasciato la possibilità di connettersi ai dataset nel servizio Power BI. Questa funzione consente di creare nuovi rapporti dei set di dati esistenti già pubblicati nel cloud. Potete sfruttare questa funzione per collaborare meglio e ridurre il doppio impegno in tutto il team.
 
-1. In Power BI Desktop, passare a **[!UICONTROL File]** &gt; **[!UICONTROL Options and settings]** &gt; **[!UICONTROL Options]** &gt; **[!UICONTROL Preview features.]**
+1. In Power BI Desktop, passare a **[!UICONTROL File]** > **[!UICONTROL Options and settings]** > **[!UICONTROL Options]** > **[!UICONTROL Preview features.]**
 1. Abilita **[!UICONTROL Power BI Service Live Connection]** e fai clic su **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
 
 1. Riavviare Power BI Desktop.
-1. Dopo aver riavviato il desktop, andate a **[!UICONTROL Home]** &gt; **[!UICONTROL Get Data]** &gt; **[!UICONTROL More...]**.
+1. Dopo aver riavviato il desktop, andate a **[!UICONTROL Home]** > **[!UICONTROL Get Data]** > **[!UICONTROL More...]**.
 1. Cercare e selezionare **[!UICONTROL Power BI service]**.
-1. In **[!UICONTROL Microsoft Power BI service]** &gt; **[!UICONTROL My Workspace]**, selezionate il set di dati precedentemente pubblicato da Generatore di report.
+1. In **[!UICONTROL Microsoft Power BI service]** > **[!UICONTROL My Workspace]**, selezionate il set di dati precedentemente pubblicato da Generatore di report.
 
 Per ulteriori informazioni, consultate questo post [di blog](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)Microsoft.
