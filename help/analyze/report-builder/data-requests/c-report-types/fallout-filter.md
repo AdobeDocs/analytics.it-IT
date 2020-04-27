@@ -17,17 +17,17 @@ Questo esempio mostra il rapporto Abbandono pagina.
 
 1. In Generatore di report Adobe, fate clic **[!UICONTROL Create]** per aprire la Richiesta guidata.
 1. Seleziona la suite di rapporti giusta.
-1. Nella vista ad albero a sinistra, selezionate **[!UICONTROL Paths]** &gt; **[!UICONTROL Page]** &gt; **[!UICONTROL Page Fallout]**.
+1. Nella vista ad albero a sinistra, selezionate **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]**.
 
    ![](assets/page_fallout.png)
 
 1. Configura gli intervalli di [date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)appropriati.
-1. Fai clic su **[!UICONTROL Next]** (Genera).
+1. Fai clic su **[!UICONTROL Next]**.
 1. Nel Passaggio 2 della procedura guidata, in **[!UICONTROL Row Labels]**, fare clic sul **[!UICONTROL Define Checkpoints]** collegamento. In un rapporto di abbandono, è sempre necessario definire gli elementi del percorso, a differenza di un rapporto sul percorso, in cui un pattern è già applicato.
 
    ![](assets/define_checkpoints.png)
 
-1. Seleziona l'opzione **[!UICONTROL Filter]**.
+1. Seleziona l&#39;opzione **[!UICONTROL Filter]**.
 
 1. Nella finestra di **[!UICONTROL Define Site Section Fallout Checkpoints]** dialogo, definire punti di controllo da un intervallo di celle o da un elenco. Quindi fai clic su **[!UICONTROL OK]**.
 1. Decidete se selezionare da un intervallo di celle o da un elenco.
