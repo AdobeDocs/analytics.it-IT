@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Procedura che descrive come configurare le date delle richieste in tempo reale.
 
 1. Assicurati che i rapporti in tempo reale siano abilitati in [Strumenti](https://marketing.adobe.com/resources/help/en_US/reference/real_time_admin.html) di amministrazione in reporting e analisi di marketing.
-1. Fate clic su [!UICONTROL Request Wizard: Step 1], **[!UICONTROL Real-Time Report]** &gt; **[!UICONTROL `<report type>`]**
+1. On the [!UICONTROL Request Wizard: Step 1], click **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
 
    Ad esempio, selezionare un rapporto sul traffico. Quando selezionate un tipo di rapporto in tempo reale, vengono visualizzate le [!UICONTROL Select Time Range] opzioni.
 
