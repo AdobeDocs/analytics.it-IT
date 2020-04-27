@@ -15,6 +15,6 @@ Nelle richieste di layout pivot e personalizzato, per i valori numerici o string
 
 Questa opzione è disponibile sul [!UICONTROL Request Wizard: Step 2].
 
-**** Testo anteprime: Aggiunge un prefisso di valori numerici o di stringa nella cella.
+**Testo anteprime:** Aggiunge un prefisso di valori numerici o di stringa nella cella.
 
-**** Testo postpend: Aggiunge valori numerici o di stringa nella cella.
+**Testo postpend:** Aggiunge valori numerici o di stringa nella cella.
