@@ -17,7 +17,7 @@ Il modulo filtro selezionato viene popolato in base all’elemento e alla metric
 
 ## Definire il filtro - valori e caratteri speciali {#section_15840216A4044C40974945FAA435AD93}
 
-Informazioni sui filtri nel **[!UICONTROL Most Popular Filter]** &gt; **[!UICONTROL Define Filter]** pannello.
+Informazioni sui filtri nel **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** pannello.
 
 ![](assets/define_filter.png)
 
