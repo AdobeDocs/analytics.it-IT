@@ -2,7 +2,7 @@
 title: Analisi dei dati interessati dagli eventi
 description: Comprendere in che modo i dati influenzati da un evento contribuiscono alla qualità generale dei dati.
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Una volta preparato il modo in cui intendete gestire un evento, potete [comunica
 Questo video illustra i passaggi descritti qui sopra.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**: Escludere i dati utilizzando la segmentazione
+* **2:55**: Confronto di un evento con gli intervalli precedenti
+* **8:42**: Derivare dati utilizzando metriche calcolate
+* **11:46**: Comunicare l’impatto agli utenti
