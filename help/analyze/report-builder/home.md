@@ -2,7 +2,7 @@
 title: Aiuto per Adobe Report Builder
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * [Pagina principale documentazione del prodotto](https://marketing.adobe.com/resources/help/it_IT/home/index.html)
 * [Sviluppatori](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
-* [Formazione ed esercitazioni Adobe](https://helpx.adobe.com/it/learning.html?promoid=KAUDK)
+* [Formazione e tutorial di Adobe](https://helpx.adobe.com/it/learning.html?promoid=KAUDK)
 * [Centro soluzioni supportate](https://www.omniture.com/en/products/online_business_optimization)
 
 ## Guida di Reports &amp; Analytics
