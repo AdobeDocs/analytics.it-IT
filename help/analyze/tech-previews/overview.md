@@ -24,7 +24,7 @@ Per accedere ai laboratori:
 
 1. Se non disponete già dell&#39;accesso a Workspace e Labs, chiedete all&#39;amministratore le autorizzazioni necessarie.
 
-1. Fare clic sulla scheda **Labs** .
+1. Click the **Labs** tab.
 
 ## Valutare un prototipo
 
