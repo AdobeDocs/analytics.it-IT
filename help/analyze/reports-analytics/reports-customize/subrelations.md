@@ -11,19 +11,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Sottorelazioni
 
-Le sottorelazioni complete sono abilitate su tutti i rapporti di conversione, in modo da poter suddividere qualsiasi eVar per un'altra eVar. Il menu Suddivisione per nella tabella dei rapporti corrisponde al menu standard di reporting di Analytics, mantenendo le selezioni coerenti
+Le sottorelazioni complete sono abilitate su tutti i rapporti di conversione, in modo da poter suddividere qualsiasi eVar per un&#39;altra eVar. Il menu Suddivisione per nella tabella dei rapporti corrisponde al menu standard di reporting di Analytics, mantenendo le selezioni coerenti
 
 ![](assets/subrelations.png)
 
 ## Come funzionano le sottorelazioni {#section_5BD862BB74FE411B96B59204520E4631}
 
-Per illustrare il funzionamento delle sottorelazioni, prendere in considerazione l'esempio seguente:
+Per illustrare il funzionamento delle sottorelazioni, prendere in considerazione l&#39;esempio seguente:
 
 1. Un utente accede al sito tramite Campaign_A e arriva sulla pagina principale.
-1. L'utente cerca 'gatti' e visualizza i risultati della ricerca. eVar1 tiene traccia dei termini di ricerca interni.
-1. L'utente si iscrive a una mailing list, tracciata utilizzando event1.
+1. L&#39;utente cerca &#39;gatti&#39; e visualizza i risultati della ricerca. eVar1 tiene traccia dei termini di ricerca interni.
+1. L&#39;utente si iscrive a una mailing list, tracciata utilizzando event1.
 1. Un altro utente accede al sito anche tramite Campaign_A e arriva sulla pagina principale.
-1. Questo utente cerca 'gattini', visualizza i risultati di ricerca (eVar1), e anche gli abbonati alla mailing list (event1).
+1. Questo utente cerca &#39;gattini&#39;, visualizza i risultati di ricerca (eVar1), e anche gli abbonati alla mailing list (event1).
 
 Se hai estratto un rapporto sul codice di tracciamento, vedrai quanto segue:
 
@@ -41,7 +41,7 @@ Se hai correlato il rapporto eVar1 per Campagne, ottieni quanto segue:
 
 ![](assets/subrel_4.png)
 
-A causa della natura persistente delle variabili di conversione, per memorizzare i valori eVar sono utilizzate due colonne di dati. il valore che viene attivato e il valore che persiste. Se si considerasse un'esportazione di dati non elaborati per questo esempio, si verificherebbe quanto segue (semplificato per questo esempio):
+A causa della natura persistente delle variabili di conversione, per memorizzare i valori eVar sono utilizzate due colonne di dati. il valore che viene attivato e il valore che persiste. Se si considerasse un&#39;esportazione di dati non elaborati per questo esempio, si verificherebbe quanto segue (semplificato per questo esempio):
 
 ![](assets/subrel_5.png)
 
@@ -51,5 +51,5 @@ In sostanza, le sottorelazioni seguono questi passaggi per compilare il rapporto
 
 * Isolate le richieste di immagini contenenti gli eventi di successo che state visualizzando nel rapporto.
 * Restituisce i valori persistenti da ogni variabile di conversione utilizzata nella sottorelazione.
-* Organizzare i valori in base all'ordine della sottorelazione. Se una variabile non ha un valore persistente (ad esempio, se un'eVar non è mai stata definita o è scaduta), verrà creata con un pacchetto "None".
+* Organizzare i valori in base all&#39;ordine della sottorelazione. Se una variabile non ha un valore persistente (ad esempio, se un&#39;eVar non è mai stata definita o è scaduta), verrà creata con un pacchetto &quot;None&quot;.
 
