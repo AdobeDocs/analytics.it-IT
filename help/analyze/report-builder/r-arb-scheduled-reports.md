@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Descrizioni dei campi per Task Manager pianificato.
 
-Task Manager pianificato consente di visualizzare un elenco dei rapporti pianificati esistenti, insieme ai destinatari, ai dettagli della pianificazione e ai formati dei file. Consente inoltre di riattivare le cartelle di lavoro pianificate che non sono state eseguite.
+Task Manager pianificato consente di visualizzare un elenco dei rapporti pianificati esistenti, insieme ai destinatari, ai dettagli della pianificazione e ai formati dei file. Consente inoltre di riattivare le cartelle di lavoro pianificate che non sono state eseguite correttamente.
 
 <table id="table_21B07A0B5F1D4435A4E882E45A7A6B6E"> 
  <thead> 
@@ -33,7 +33,7 @@ Task Manager pianificato consente di visualizzare un elenco dei rapporti pianifi
   </tr> 
   <tr> 
    <td colname="col1"> <p> E-mail/FTP </p> </td> 
-   <td colname="col2"> <p>Indirizzo e-mail o FTP del destinatario. </p> <p>Nota:  Se è selezionata l’opzione e-mail, i rapporti superiori a 1 MB vengono automaticamente allegati all’e-mail come file .zip. Questa funzione consente di ridurre le dimensioni del file allegato e non può essere disattivata. </p> </td> 
+   <td colname="col2"> <p>L'indirizzo e-mail o FTP del destinatario. </p> <p>Nota:  Se è selezionata l’opzione e-mail, i rapporti superiori a 1 MB vengono automaticamente allegati all’e-mail come file .zip. Questa funzione consente di ridurre le dimensioni del file allegato e non può essere disattivata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opzioni di pubblicazione </p> </td> 
