@@ -27,11 +27,11 @@ I rapporti vengono esplorati utilizzando una vista a colonne gerarchica. Fare cl
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-For details on individual reports, see [Report Descriptions](https://marketing.adobe.com/resources/help/it_IT/reference/reports_descriptions.html).
+Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://marketing.adobe.com/resources/help/it_IT/reference/reports_descriptions.html).
 
 ## Cerca report {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-Il menu Rapporti offre un&#39;esperienza di ricerca avanzata. Fare clic **[!UICONTROL View All Reports]** o premere il tasto Barra (/) , quindi iniziare a digitare per trovare rapidamente un rapporto. La ricerca dei report è stata estesa per includere tutto ciò che si trova nella navigazione a sinistra di Analytics (Amministratore, Componenti, ecc.).
+Il menu Rapporti offre un&#39;esperienza di ricerca avanzata. Fare clic **[!UICONTROL View All Reports]** o premere il tasto Barra (/) , quindi iniziare a digitare per trovare rapidamente un rapporto. La ricerca del report è stata estesa per includere qualsiasi cosa presente nella barra di navigazione a sinistra di Analytics (Amministratore, Componenti, ecc.).
 
 ![](assets/menu-search.png)
 
@@ -44,7 +44,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Voce di menu </th> 
+   <th colname="col1" class="entry"> Opzione di menu </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr>
  </thead>
