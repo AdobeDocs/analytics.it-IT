@@ -18,8 +18,8 @@ Scaricare e modificare le cartelle di lavoro condivise.
 1. Salvate il file.
 >Le seguenti opzioni sono disponibili solo per i proprietari di una cartella di lavoro:
 >
->* **** Modifica: Scarica e apre una cartella di lavoro per la modifica. Se si desidera caricare una cartella di lavoro scaricata per la modifica, è necessario caricarla manualmente.
->* **** Elimina: Consente di eliminare una cartella di lavoro caricata. Per eliminarla, è necessario essere il proprietario della cartella di lavoro.
+>* **Modifica:** Scarica e apre una cartella di lavoro per la modifica. Se si desidera caricare una cartella di lavoro scaricata per la modifica, è necessario caricarla manualmente.
+>* **Elimina:** Consente di eliminare una cartella di lavoro caricata. Per eliminarla, è necessario essere il proprietario della cartella di lavoro.
 >
 
 
