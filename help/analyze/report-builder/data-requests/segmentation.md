@@ -114,7 +114,7 @@ Generatore di report 5.4 consente di aggiungere, rimuovere, sostituire e sostitu
 
    | Opzione | Descrizione |
    |---|---|
-   | Aggiungi segmento | Consente di scegliere uno o più segmenti da aggiungere all’elenco dei segmenti correnti. |
+   | Zona di rilascio | Consente di scegliere uno o più segmenti da aggiungere all’elenco dei segmenti correnti. |
    | Sostituisci segmenti | Consente di scegliere quali segmenti sostituire con uno o più segmenti. |
    | Sostituisci tutti i segmenti per | Consente di scegliere uno o più segmenti con cui sostituire i segmenti correnti. |
    | Rimuovi segmenti | Consente di rimuovere segmenti dalle richieste. |
