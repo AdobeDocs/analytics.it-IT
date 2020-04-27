@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Questa funzionalità integra ulteriormente l&#39;utilizzo del Generatore di report nel flusso di lavoro Excel naturale, senza che sia necessario accedere all&#39;interfaccia utente del Generatore di report.
 
-Ad esempio, potrebbe essere utile aggiornare automaticamente le richieste Generatore di report il cui filtro di input è basato sui dati estratti in Excel da altre origini. Ora è possibile eseguire questa operazione utilizzando la stringa RefreshRequestsInCellsRange(..) function. Tutte le chiamate sono asincrone. Essi restituiscono immediatamente e non aspettano che una chiamata venga eseguita completamente.
+Ad esempio, potrebbe essere utile aggiornare automaticamente le richieste Generatore di report il cui filtro di input è basato sui dati estratti in Excel da altre origini. Ora è possibile eseguire questa operazione utilizzando la stringa RefreshRequestsInCellsRange(..) . Tutte le chiamate sono asincrone. Essi restituiscono immediatamente e non aspettano che una chiamata venga eseguita completamente.
 
 >[!NOTE] Per poter utilizzare questa funzionalità, è necessario che sia installato Generatore di report 5.0 (o successivo).
 
