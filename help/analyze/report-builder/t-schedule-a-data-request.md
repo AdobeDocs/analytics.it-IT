@@ -41,9 +41,9 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generat
 
 1. In [!UICONTROL Basic Scheduling Wizard], configurate le seguenti opzioni:
 
-| Field | Descrizione |
+| Campo | Descrizione |
 |--- |--- |
-| Seleziona rapporto | Nome della cartella di lavoro. Per i nuovi rapporti pianificati, questo campo viene popolato con il nome attivo della cartella di lavoro. |
+| Seleziona Rapporto | Nome della cartella di lavoro. Per i nuovi rapporti pianificati, questo campo viene popolato con il nome attivo della cartella di lavoro. |
 | Select | Visualizza la pagina Seleziona rapporto. È possibile selezionare un rapporto dal server (in cui sono memorizzate tutte le cartelle di lavoro pianificate in precedenza) o dal computer locale. Se si seleziona una cartella di lavoro dall&#39;unità locale in formato .xls, il file viene convertito in .xlsx dal sistema. Come parte di tale conversione, il file viene aperto in Excel e reso attivo. Se la cartella di lavoro selezionata per il rapporto pianificato ha lo stesso nome file della cartella di lavoro attualmente aperta in Excel, il sistema seleziona il file locale invece del file caricato in precedenza. Se si seleziona un rapporto dall&#39;archivio di programmazione, viene creata una copia della cartella di lavoro sul server, con il nome file aggiornato con 1. Il nuovo report pianificato creato utilizza la cartella di lavoro copiata. |
 | Personalizza | Consente di personalizzare il formato della data. |
 | A | Visualizza la Rubrica di Outlook, se applicabile. |
@@ -57,7 +57,7 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generat
 
 1. Fate clic **[!UICONTROL Advanced Delivery Options]** per configurare il file e le opzioni di pubblicazione:
 
-| Field | Descrizione |
+| Campo | Descrizione |
 |--- |--- |
 | **Scheda Pianificazione** |  |
 | Tempo di consegna | Consente di pianificare la cartella di lavoro immediatamente o per un momento successivo. L&#39;ora del giorno è relativa al fuso orario specificato nel computer. |
@@ -65,7 +65,7 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generat
 | Intervallo di ricorrenza | Consente di specificare quando avviare e interrompere la ricezione della cartella di lavoro.   Nota:  La pianificazione di una cartella di lavoro il primo giorno di un periodo corrente (settimana, mese, trimestre o anno) restituisce i dati solo per il primo giorno. |
 | **Opzioni file, scheda** |  |
 | Formato file | Consente di selezionare un formato di consegna di Excel 2007 ( .xlsx) o 2003 ( .xls), .pdf, .csv, .mht, .txt e .xml. |
-| Destinazione file | Specifica E-mail o FTP. Le opzioni sulla pagina cambiano a seconda della selezione. Per l&#39;FTP, devi accertarti che l&#39;host sia disponibile esternamente. |
+| Destinazione file | Specifica E-mail o FTP. Le opzioni sulla pagina cambiano a seconda della selezione. Per l&#39;FTP, dovrai accertarti che l&#39;host sia disponibile all&#39;esterno. |
 | Elenco di pubblicazione | Se si invia la cartella di lavoro pianificata a più elenchi di pubblicazione, la cartella di lavoro verrà eseguita una volta per ciascun elenco. Le suite per report variabili vengono sostituite dalla suite per report assegnata all&#39;elenco di pubblicazione. |
 | Lingua contenuto file | Specifica la lingua da utilizzare per la lettera di copertina. Potete selezionare Cinese (semplificato o Tradizionale), Tedesco, Francese, Giapponese, Coreano, Portoghese brasiliano o Spagnolo. |
 | **Opzioni di pubblicazione, scheda** |  |
