@@ -16,7 +16,7 @@ Passaggi sull&#39;esecuzione dei diversi tipi di rapporto.
 
 ## Eseguire un report classifica {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-In un rapporto con classifica, la tabella mostra le classificazioni delle pagine del rapporto in relazione alla metrica, in base al numero o alla percentuale. I report con classifica possono visualizzare più metriche in un report.
+In un rapporto con classifica, la tabella mostra le classificazioni delle pagine del rapporto in relazione alla metrica, in base al numero o alla percentuale. I report Ranked possono mostrare più metriche in uno stesso report.
 
 <!-- 
 
@@ -32,7 +32,7 @@ t_reports_ranked.xml
 
 ## Eseguire un report con tendenze {#task_F03B4E760B9E4EA29FC3F654E6316887}
 
-I report con tendenze mostrano le metriche nel tempo. Questo tipo di rapporto viene utilizzato quando si desidera visualizzare le prestazioni di un segmento da un periodo di tempo all&#39;altro.
+I report con tendenze mostrano le metriche nel tempo. Puoi utilizzare questo tipo di report quando desideri sapere quali sono le prestazioni di un segmento da un periodo di tempo al successivo.
 
 <!-- 
 
