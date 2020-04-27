@@ -188,7 +188,6 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
    3. Dopo aver installato l’app Testflight, trova e installa le dashboard di Adobe Analytics dall’interno di Testflight come mostrato di seguito:
 
       ![Schermata di Testflight](assets/testflight2.png)
-   
    **Per gli utenti esecutivi su Android:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
