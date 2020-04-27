@@ -13,6 +13,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Potete ordinare le richieste elencate in Request Manager in ordine crescente o decrescente.
 
-Fare clic sui nomi delle colonne nell'intestazione della tabella. La colonna mostra l’ordinamento visualizzando un’icona a forma di triangolo nell’intestazione della tabella. Se il triangolo è rivolto verso il basso, l'ordine di ordinamento è decrescente (per i dati alfanumerici 9-1 e Z-A), mentre se il puntatore è rivolto verso l'alto, l'ordine di ordinamento è crescente (per i dati alfanumerici 1-9 e A-Z).
+Fare clic sui nomi delle colonne nell&#39;intestazione della tabella. La colonna mostra l’ordinamento visualizzando un’icona a forma di triangolo nell’intestazione della tabella. Se il triangolo è rivolto verso il basso, l&#39;ordine di ordinamento è decrescente (per i dati alfanumerici 9-1 e Z-A), mentre se il puntatore è rivolto verso l&#39;alto, l&#39;ordine di ordinamento è crescente (per i dati alfanumerici 1-9 e A-Z).
 
-L'ordine di ordinamento predefinito è crescente.
+L&#39;ordine di ordinamento predefinito è crescente.
