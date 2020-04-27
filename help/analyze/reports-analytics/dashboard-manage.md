@@ -30,7 +30,7 @@ Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICON
 | Pianificato | Consente di pianificare la consegna del dashboard. |
 | Visualizza archivio | Questa funzionalità non è più disponibile. |
 | Invia agli utenti | Consente di condividere una dashboard. |
-| Gestisci | Consente di modificare, copiare ed eliminare una dashboard. |
+| Gestire i   | Consente di modificare, copiare ed eliminare una dashboard. |
 
 ## Gestione di dashboard condivisi
 
