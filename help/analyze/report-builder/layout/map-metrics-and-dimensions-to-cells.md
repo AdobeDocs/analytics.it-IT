@@ -1,5 +1,5 @@
 ---
-description: Prima di iniziare a mappare gli elementi sul foglio di calcolo, accertatevi che il foglio di calcolo non sia protetto. Se lo schema di protezione del foglio di lavoro non consente azioni da parte dell'utente, non sarà possibile selezionare le celle nel foglio di calcolo. Innanzitutto, rimuovere la protezione dal foglio e aggiungere le mappature delle celle.
+description: Prima di iniziare a mappare gli elementi sul foglio di calcolo, accertatevi che il foglio di calcolo non sia protetto. Se lo schema di protezione del foglio di lavoro non consente azioni da parte dell'utente, non sarà possibile selezionare le celle nel foglio di calcolo. Innanzitutto, rimuovere la protezione dal foglio e quindi aggiungere le mappature delle celle.
 title: Mappare metriche e dimensioni alle celle
 topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
@@ -11,9 +11,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Mappare metriche e dimensioni alle celle
 
-Prima di iniziare a mappare gli elementi sul foglio di calcolo, accertatevi che il foglio di calcolo non sia protetto. Se lo schema di protezione del foglio di lavoro non consente azioni da parte dell'utente, non sarà possibile selezionare le celle nel foglio di calcolo. Innanzitutto, rimuovere la protezione dal foglio e aggiungere le mappature delle celle.
+Prima di iniziare a mappare gli elementi sul foglio di calcolo, accertatevi che il foglio di calcolo non sia protetto. Se lo schema di protezione del foglio di lavoro non consente azioni da parte dell&#39;utente, non sarà possibile selezionare le celle nel foglio di calcolo. Innanzitutto, rimuovere la protezione dal foglio e quindi aggiungere le mappature delle celle.
 
-Il numero di aree e celle da mappare varia a seconda della metrica selezionata, della granularità, dell'intervallo di date e dei filtri impostati. Ad esempio, se si seleziona [!UICONTROL Site Metric] &gt; [!UICONTROL Traffic Report], si imposta [!UICONTROL Week] la granularità e si imposta l'intervallo di date per [!UICONTROL Last 2 Weeks], viene richiesto di mappare tre celle (quando si utilizza [!UICONTROL Custom Layout]) sul [!UICONTROL Request Wizard: Step 2]. La richiesta recupera i dati per la prima settimana e i dati per la seconda settimana, dove ogni valore punto dati = il valore di una visualizzazione pagina. La terza cella funge da intestazione di riga, che è possibile configurare utilizzando [!UICONTROL Format Options].
+Il numero di aree e celle da mappare varia a seconda della metrica selezionata, della granularità, dell&#39;intervallo di date e dei filtri impostati. Ad esempio, se si seleziona [!UICONTROL Site Metric] > [!UICONTROL Traffic Report], si imposta [!UICONTROL Week] la granularità e si imposta l&#39;intervallo di date per [!UICONTROL Last 2 Weeks], viene richiesto di mappare tre celle (quando si utilizza [!UICONTROL Custom Layout]) sul [!UICONTROL Request Wizard: Step 2]. La richiesta recupera i dati per la prima settimana e i dati per la seconda settimana, dove ogni valore punto dati = il valore di una visualizzazione pagina. La terza cella funge da intestazione di riga, che è possibile configurare utilizzando [!UICONTROL Format Options].
 
 Se mappate erroneamente posizioni incompatibili nel foglio di calcolo, il generatore di report genera un errore.
 
@@ -31,10 +31,10 @@ Fate clic sul file **[!UICONTROL Range Selector]** ![select_cell_icon.png](asset
 
 accanto all’elemento da mappare.
 
-* **** Tutte le celle nell'intervallo: Richiede di selezionare un gruppo di celle per una richiesta di [!UICONTROL Custom Layout] stile.
-* **** Prima cella dell'intervallo: Consente di selezionare la cella superiore sinistra dell'intervallo e visualizza l' [!UICONTROL Range] orientamento per specificare l'orientamento orizzontale o verticale delle celle di input e output (colonna o riga). Utilizzare questa opzione per fare in modo che il generatore di report selezioni le celle.
-* **** Orientamento intervallo: Consente di orientare gli intervalli di celle come colonne o righe.
-* **** Seleziona Posizione cella superiore intervallo: Visualizza i riferimenti delle celle.
+* **Tutte le celle nell&#39;intervallo:** Richiede la selezione di un gruppo di celle per una richiesta di [!UICONTROL Custom Layout] stile.
+* **Prima cella dell&#39;intervallo:** Consente di selezionare la cella superiore sinistra dell&#39;intervallo e visualizza l&#39; [!UICONTROL Range] orientamento per specificare l&#39;orientamento orizzontale o verticale delle celle di input e output (colonna o riga). Utilizzare questa opzione per fare in modo che il generatore di report selezioni le celle.
+* **Orientamento intervallo:** Consente di orientare gli intervalli di celle come colonne o righe.
+* **Seleziona Posizione cella superiore intervallo:** Visualizza i riferimenti delle celle.
 
 ## Tecniche per la selezione delle celle {#section_760421C3D7F84D67A639174710C93B22}
 
@@ -48,7 +48,7 @@ Le righe selezionate separate hanno un sottile bordo bianco intorno a ciascuna r
 
 ![](assets/twoXten_cells_highlighted.gif)
 
-Per mappare righe separate in una richiesta, usate il [!UICONTROL Control] tasto, quindi fate clic e trascinate il cursore sulle celle desiderate. Lo fareste se la vostra richiesta richiedesse quattro aree con dieci celle ciascuna, piuttosto che un'area continua con 40 celle insieme.
+Per mappare righe separate in una richiesta, usate il [!UICONTROL Control] tasto, quindi fate clic e trascinate il cursore sulle celle desiderate. Lo fareste se la vostra richiesta richiedesse quattro aree con dieci celle ciascuna, piuttosto che un&#39;area continua con 40 celle insieme.
 
 ![](assets/map4.png)
 
@@ -56,7 +56,7 @@ Dopo aver selezionato le celle, fare di **[!UICONTROL Range Selector]** nuovo cl
 
 ## Problemi durante la mappatura {#section_CC1BCF841291447EB3A994EB08F3A099}
 
-Se si sceglie erroneamente di eseguire il mapping a una cella che ha già una mappatura attiva, nella casella di testo accanto all'icona del selettore dell'intervallo non viene visualizzato alcun riferimento di cella. Quando fai clic [!UICONTROL OK], generatore di report visualizza l'errore "L'intervallo selezionato interseca l'intervallo di un'altra richiesta. Cambia la selezione."
+Se si sceglie erroneamente di eseguire il mapping a una cella che ha già una mappatura attiva, nella casella di testo accanto all&#39;icona del selettore dell&#39;intervallo non viene visualizzato alcun riferimento di cella. Quando fai clic [!UICONTROL OK], generatore di report visualizza l&#39;errore &quot;L&#39;intervallo selezionato interseca l&#39;intervallo di un&#39;altra richiesta. Cambia la selezione.&quot;
 
 * Se è comunque necessario utilizzare la cella, fare clic con il pulsante destro del mouse sulla cella o sulle celle desiderate e selezionare **[!UICONTROL Delete Request]**.
 
@@ -68,5 +68,5 @@ Per evitare questo messaggio, puoi adottare due approcci:
 Per verificare le aree con richieste incorporate, potete:
 
 * Avviate la tabella [!UICONTROL Request Manager] e fate clic sulle singole richieste elencate nella tabella. Facendo clic sulla richiesta vengono evidenziate le celle del foglio di calcolo in cui è mappata la richiesta.
-* Selezionate le celle nel foglio di calcolo che intendete utilizzare per una nuova mappatura e fate clic su [!UICONTROL From Sheet]. Seleziona [!UICONTROL Request Manager] nell'elenco la richiesta contenente un elemento di output che interseca la cella selezionata. Se non è selezionata alcuna richiesta, la cella è disponibile.
+* Selezionate le celle nel foglio di calcolo che intendete utilizzare per una nuova mappatura e fate clic su [!UICONTROL From Sheet]. Seleziona [!UICONTROL Request Manager] nell&#39;elenco la richiesta contenente un elemento di output che interseca la cella selezionata. Se non è selezionata alcuna richiesta, la cella è disponibile.
 * Selezionate le celle nel foglio di calcolo, fate clic con il pulsante destro del mouse nel menu di scelta rapida e verificate se [!UICONTROL Edit Request] sono disponibili. In tal caso, è presente una richiesta associata a tali celle.
