@@ -18,7 +18,7 @@ Passaggi che descrivono come installare Generatore di report.
 1. Apri il pacchetto d’installazione scaricato.
 1. Segui la procedura guidata di installazione.
 1. Aprire/riavviare MS Excel per visualizzare il [!UICONTROL Add-Ins] menu.
-1. Vai a **[!UICONTROL Add-Ins]** > **[!UICONTROL Sign In]**.
+1. Vai a **[!UICONTROL Add-Ins]** (Progetto) > **[!UICONTROL Sign In]** (Salva come modello).
 
    Seguite le istruzioni in Accesso al Generatore di [report](/help/analyze/report-builder/setup/login.md).
 
