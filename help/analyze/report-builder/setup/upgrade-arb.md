@@ -11,11 +11,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Aggiornare Report Builder
 
-Passaggi e considerazioni relativi all'aggiornamento del Generatore di report.
+Passaggi e considerazioni relativi all&#39;aggiornamento del Generatore di report.
 
-## Domande frequenti sull'aggiornamento {#section_AFE40FF5544C418790A1C298C25CC18A}
+## Domande frequenti sull&#39;aggiornamento {#section_AFE40FF5544C418790A1C298C25CC18A}
 
-**D: Mantengo la vecchia versione di Generatore di report al momento dell'aggiornamento?**
+**D: Mantengo la vecchia versione di Generatore di report al momento dell&#39;aggiornamento?**
 
 A: No, la versione precedente verrà rimossa.
 
@@ -27,14 +27,14 @@ A: No, tutti i rapporti esistenti continueranno a funzionare.
 
 A: No, tutte le impostazioni, comprese quelle di autenticazione, continueranno a funzionare.
 
-## Istruzioni per l'aggiornamento {#section_73B8110A619549189A30079735E81867}
+## Istruzioni per l&#39;aggiornamento {#section_73B8110A619549189A30079735E81867}
 
 1. Accedi alla versione corrente del Generatore di report.
-1. Vai al **[!UICONTROL Options]** menu per effettuare l'aggiornamento alla versione più recente. Il numero di versione corrente viene visualizzato nella parte inferiore della finestra di dialogo Opzioni.
+1. Vai al **[!UICONTROL Options]** menu per effettuare l&#39;aggiornamento alla versione più recente. Il numero di versione corrente viene visualizzato nella parte inferiore della finestra di dialogo Opzioni.
 
    ![](assets/upgrade.png)
 
-1. Se è disponibile una nuova versione, fate clic su **[!UICONTROL Update...]**. Il pulsante mostra la versione da aggiornare, ad esempio: "Aggiornamento alla versione 5.0.50"
+1. Se è disponibile una nuova versione, fate clic su **[!UICONTROL Update...]**. Il pulsante mostra la versione da aggiornare, ad esempio: &quot;Aggiornamento alla versione 5.0.50&quot;
 
    >[!NOTE]
    >
@@ -45,14 +45,14 @@ A: No, tutte le impostazioni, comprese quelle di autenticazione, continueranno a
 
    ![](assets/setup.png)
 
-1. Una volta completato l'aggiornamento, accedi di nuovo al generatore di report.
+1. Una volta completato l&#39;aggiornamento, accedi di nuovo al generatore di report.
 
-## Istruzioni per l'aggiornamento manuale {#section_27A0200010DC4747A718F1A65B180599}
+## Istruzioni per l&#39;aggiornamento manuale {#section_27A0200010DC4747A718F1A65B180599}
 
 Puoi sempre ottenere la versione più recente di Generatore di report da Adobe Analytics.
 
 1. Accedete ad Adobe Analytics e passate a **[!UICONTROL Tools]**.
-1. Fai clic su **[!UICONTROL Report Builder]** (Genera).
+1. Fai clic su **[!UICONTROL Report Builder]**.
 1. Sullo **[!UICONTROL Overview]** schermo, selezionate la versione a 32 bit o a 64 bit.
-1. Fai clic su **[!UICONTROL Download Now!]** (Genera).
+1. Fai clic su **[!UICONTROL Download Now!]**.
 
