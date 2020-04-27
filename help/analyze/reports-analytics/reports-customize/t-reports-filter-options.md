@@ -51,7 +51,7 @@ Corrisponde se il termine è trovato in un punto qualsiasi dell&#39;elemento del
 
 Corrisponde se il termine non viene trovato in alcun punto dell&#39;elemento della riga. Potete filtrare &quot;unspecified&quot;, &quot;none&quot;, &quot;keyword non disponibile&quot; e altri valori [](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) speciali dai rapporti utilizzando &quot;non contiene&quot;.
 
-Does not contain: `none`
+Non contiene: `none`
 
 Per un filtro più preciso, potete usare un filtro Avanzate (Caratteri speciali):
 
@@ -79,11 +79,11 @@ Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
 Sale & Values
 ```
 
-**Uguale a**
+**È uguale a**
 
 Corrisponde se l&#39;intero elemento della riga, compresi gli spazi e altri caratteri, corrisponde alla frase specificata.
 
-Uguale a: `mens:desk & travel`
+È uguale a: `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
