@@ -11,18 +11,18 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Copia richieste semplici
 
-Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un'altra richiesta o al contenuto di una cella.
+Copiate una richiesta semplice invece di una richiesta referenziale. Una semplice richiesta non contiene riferimenti a un&#39;altra richiesta o al contenuto di una cella.
 
-Una richiesta [](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale. Questi filtri utilizzano la corrispondenza o la tendenza e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall'utente di una cella, denominata cella di input.
+Una richiesta [](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) referenziale utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale. Questi filtri utilizzano la corrispondenza o la tendenza e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall&#39;utente di una cella, denominata cella di input.
 1. Create una richiesta valida.
-1. Fate clic con il pulsante destro del mouse su una delle celle in cui è mappata la richiesta, oppure selezionate un'area di celle contenente richieste.
+1. Fate clic con il pulsante destro del mouse su una delle celle in cui è mappata la richiesta, oppure selezionate un&#39;area di celle contenente richieste.
 
-   Scegliete una cella da cui copiare nel gruppo di celle coperto dalla richiesta. La scelta preferita è la cella superiore e sinistra del set di celle coperto dalla richiesta e funziona da sinistra a destra. Questo perché il foglio di calcolo Excel ha centinaia di colonne e migliaia di righe disponibili per l'espansione verso destra e verso il basso. Se si decide di avviare una copia della richiesta dalla cella più a destra o più in basso in un insieme di celle associate a una richiesta, il sistema non consente di incollare la richiesta se le celle da incollare si estendono oltre il bordo sinistro o superiore del foglio di calcolo.
-1. Seleziona **[!UICONTROL Copy Request]**.
+   Scegliete una cella da cui copiare nel gruppo di celle coperto dalla richiesta. La scelta preferita è la cella superiore e sinistra del set di celle coperto dalla richiesta e funziona da sinistra a destra. Questo perché il foglio di calcolo Excel ha centinaia di colonne e migliaia di righe disponibili per l&#39;espansione verso destra e verso il basso. Se si decide di avviare una copia della richiesta dalla cella più a destra o più in basso in un insieme di celle associate a una richiesta, il sistema non consente di incollare la richiesta se le celle da incollare si estendono oltre il bordo sinistro o superiore del foglio di calcolo.
+1. Select **[!UICONTROL Copy Request]**.
 1. In un’altra parte del foglio di calcolo, fate clic con il pulsante destro del mouse su una cella vuota (una cella che non contiene richieste).
 
-   Per evitare di perdere o di danneggiare le richieste già create, non è possibile incollare celle contenenti richieste alle celle attualmente associate a richieste. Se copiate o tagliate le celle contenenti richieste, il menu di scelta rapida non rende disponibile l' [!UICONTROL Paste Requests] opzione quando si fa clic con il pulsante destro del mouse sulle celle (o sul set di celle) contenenti richieste. È necessario selezionare una cella diversa come destinazione dell'operazione Incolla in modo che le richieste non si sovrappongano. Ciò si applica sia alla selezione di una cella singola con una richiesta di incolla, sia a un'area di celle contenente richieste.
-1. Fai clic su **[!UICONTROL Paste Request]** (Genera).
+   Per evitare di perdere o di danneggiare le richieste già create, non è possibile incollare celle contenenti richieste alle celle attualmente associate a richieste. Se copiate o tagliate le celle contenenti richieste, il menu di scelta rapida non rende disponibile l&#39; [!UICONTROL Paste Requests] opzione quando si fa clic con il pulsante destro del mouse sulle celle (o sul set di celle) contenenti richieste. È necessario selezionare una cella diversa come destinazione dell&#39;operazione Incolla in modo che le richieste non si sovrappongano. Ciò si applica sia alla selezione di una cella singola con una richiesta di incolla, sia a un&#39;area di celle contenente richieste.
+1. Fai clic su **[!UICONTROL Paste Request]**.
 
    Una copia della richiesta originale viene inserita nelle celle, in una posizione o nelle posizioni relative alla richiesta originale.
 
