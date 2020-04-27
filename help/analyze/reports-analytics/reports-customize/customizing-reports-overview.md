@@ -54,7 +54,7 @@ Quando apri una dashboard con minirapporti con intervalli di date diversi, puoi 
 
 **Selezione di un intervallo di date**
 
-1. Eseguire un report.
+1. Esegui un report.
 1. Fate clic sull&#39;icona del calendario in alto a destra.
 1. Selezionare una data.
 
@@ -85,7 +85,7 @@ Non è possibile confrontare le date tra i report con tendenze.
 
 Per confrontare le date tra i report classifica in Reporting e analisi:
 
-1. Eseguire un report.
+1. Esegui un report.
 1. Fare clic sul calendario in alto a destra.
 1. Fai clic su **[!UICONTROL Compare Dates]**.
 1. Selezionare le date che si desidera utilizzare.
