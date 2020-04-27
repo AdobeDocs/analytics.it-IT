@@ -13,14 +13,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Il rilevamento delle anomalie utilizza la modellazione statistica per individuare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o un rilascio imprevisto, il sistema ti avvisa nel report.
 
-Esempi di anomalie che potrebbero essere analizzate:
+Ecco alcuni esempi di anomalie da esaminare:
 
-* Drastico calo nel valore medio dell&#39;ordine
-* Picchi negli ordini con ricavi ridotti
-* Picchi o cali nelle registrazioni di prova
+* Drastico calo nel valore medio degli ordini
+* Picchi negli ordini con fatturato basso
+* Picchi o calo nelle registrazioni di prova
 * Calo nelle visualizzazioni della pagina di destinazione
 * Spezie negli eventi del buffer video
-* Picchi in bitrate video ridotti
+* Picchi nei valori più bassi di bitrate video
 
 >[!NOTE] Il rilevamento delle anomalie è disponibile solo quando si seleziona la granularità Giorno.
 
