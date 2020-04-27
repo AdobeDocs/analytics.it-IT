@@ -1,5 +1,5 @@
 ---
-description: I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come connettori dati.
+description: I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come i connettori dati.
 subtopic: Bookmarks
 title: Segnalibro Manager
 topic: Reports and analytics
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Segnalibro Manager
 
-I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come connettori dati.
+I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come i connettori dati.
 
 ## Creare un segnalibro {#task_305BDB470E374026AD48F19D11A387A6}
 
@@ -27,14 +27,14 @@ t_bookmarks_creating.xml
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
        |Nome|Un nome descrittivo per questo segnalibro.|
-       |—|—|
-       |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.|
-       |Rendi pubblico| Rende questo segnalibro disponibile per gli utenti che hanno accesso alla suite di rapporti.|
-       |Visualizza il rapporto all'accesso| Visualizza il rapporto al momento dell'accesso.|
+    |—|—|
+    |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.|
+    |Rendi pubblico| Rende questo segnalibro disponibile per gli utenti che hanno accesso alla suite di rapporti.|
+    |Visualizza il rapporto all&#39;accesso| Visualizza il rapporto al momento dell&#39;accesso.|
    
 ## Gestire i segnalibri {#task_1EE793CB52EA467787817BBD98DEF150}
 
-Dopo aver creato i segnalibri per report, è possibile gestirli nel [!UICONTROL Bookmark Manager]. È possibile modificare, eliminare e organizzare segnalibri e cartelle da una posizione centrale.
+Dopo aver creato i segnalibri per report, è possibile gestirli nel [!UICONTROL Bookmark Manager]. È possibile modificare, eliminare e organizzare i segnalibri e le cartelle da una posizione centrale.
 
 <!-- 
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Bookmarks]** (Analytics &gt; Componenti &gt; Progetti programmati)
+**[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL Bookmarks]** (Progetti programmati).
 
 **Segnalibri personali**
 
