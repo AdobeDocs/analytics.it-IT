@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Calendario personalizzato
 
-Il generatore di report utilizza il calendario personalizzato di Analytics. Potete utilizzare il calendario per definire il primo giorno della settimana e dell'anno, oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario sono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l'analisi dei costi del ciclo paghe o la regolamentazione del conteggio delle scorte fisiche.
+Il generatore di report utilizza il calendario personalizzato di Analytics. Potete utilizzare il calendario per definire il primo giorno della settimana e dell&#39;anno, oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario sono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l&#39;analisi dei costi del ciclo paghe o la regolamentazione del conteggio delle scorte fisiche.
 
 Ciascuno dei formati di calendario è descritto di seguito.
 
