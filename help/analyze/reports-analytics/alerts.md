@@ -1,5 +1,5 @@
 ---
-description: 'null'
+description: nulle
 subtopic: Alerts
 title: Avvisi
 topic: Reports and analytics
@@ -14,14 +14,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Avvisi {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Il nuovo sistema di avvisi globale di Adobe Analytics, Avvisi intelligenti, consente di creare e gestire gli avvisi , , anche con l'ausilio di anteprime e regole. È possibile
+Il nuovo sistema di avvisi globale di Adobe Analytics, Avvisi intelligenti, consente di creare e gestire gli avvisi , , anche con l&#39;ausilio di anteprime e regole. È possibile
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95% o 99%; modifica della percentuale; superiore/inferiore).
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi.
 * Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente.
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso.
 
-Puoi accedere a questo nuovo sistema di avvisi da **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in qualsiasi rapporto in Reporting e analisi.
+Puoi accedere a questo nuovo sistema di avvisi da **[!UICONTROL More]** > **[!UICONTROL Alerts]** in qualsiasi rapporto in Reporting e analisi.
 
 Per ulteriori informazioni, consulta la documentazione di Analysis Workspace su Avvisi [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)intelligenti.
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-Passa al nuovo Generatore di avvisi nel menu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** . Tuttavia, puoi comunque accedervi dall'interno dei report in Reporting e analisi:
+Passa al nuovo Generatore di avvisi nel menu **[!UICONTROL Analytics]** > **[!UICONTROL Components]** . Tuttavia, puoi comunque accedervi dall&#39;interno dei report in Reporting e analisi:
 
 1. In Reporting e analisi, apri il rapporto in cui vuoi impostare un avviso.
-1. Fai clic su **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. Viene visualizzato il [nuovo Generatore](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html)di avvisi.
 
 ## Visualizzare o modificare avvisi esistenti {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contesto attività
 
-1. Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]**. Viene aperta la nuova [Gestione](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)avvisi.
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Viene aperta la nuova [Gestione](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)avvisi.
 
 ## Migrazione avvisi legacy {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -69,7 +69,7 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Totali (tutti gli elementi) </p> </td> 
    <td colname="col2"> <p>Creare avvisi su tutti gli elementi di un rapporto dimensione. </p> </td> 
-   <td colname="col3"> <p>In alcuni casi, se si crea un avviso su tutti gli elementi di un rapporto dimensione o se si imposta l'avviso solo sulla metrica aggregata di per sé (non applicata a una dimensione), si verifica lo stesso risultato. Ad esempio, crei un avviso mensile Tutti gli articoli sulla metrica "Entrate". Si otterrebbe lo stesso risultato semplicemente eseguendo il report Revenue (Entrate) e configurando un avviso mensile su esso. </p> <p>In questa situazione, l'avviso Totals (Tutti gli elementi) legacy non sarà più disponibile e verrà migrato a quest'ultima versione, più semplice. </p> <p> </p> </td> 
+   <td colname="col3"> <p>In alcuni casi, se si crea un avviso su tutti gli elementi di un rapporto dimensione o se si imposta l'avviso solo sulla metrica aggregata di per sé (non applicata a una dimensione), si verifica lo stesso risultato. Ad esempio, crei un avviso mensile Tutti gli articoli relativo alla metrica "Entrate". Si otterrebbe lo stesso risultato semplicemente eseguendo il report Revenue (Entrate) e configurando un avviso mensile su esso. </p> <p>In questa situazione, l'avviso Totals (Tutti gli elementi) legacy non sarà più disponibile e verrà migrato a quest'ultima versione, più semplice. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Primi 1000 elementi </p> <p> </p> </td> 
@@ -79,7 +79,7 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Avvisi univoci dei visitatori basati su tempo (giornalieri, settimanali, mensili, ecc.) Visitatori unici) </p> <p> </p> </td> 
    <td colname="col2"> <p>Creare avvisi per rapporti sui visitatori univoci su base oraria, giornaliera, settimanale e mensile. </p> </td> 
-   <td colname="col3"> <p>Nella nuova Gestione avvisi, alcuni avvisi per visitatori univoci basati su tempo non saranno più supportati. Ad esempio, se in precedenza era possibile impostare un avviso settimanale per Visitatori giornalieri univoci, sarà possibile impostare un avviso giornaliero, settimanale e così via. avvisi relativi alla metrica Visitatori unici in corso. Analysis Workspace supporta una metrica Visitatori unici, ma non giornaliera/settimanale/mensile/ecc. Metriche univoche dei visitatori. </p> <p> </p> </td> 
+   <td colname="col3"> <p>Nella nuova Gestione avvisi, alcuni avvisi per visitatori univoci basati su tempo non saranno più supportati. Ad esempio, se in precedenza era possibile impostare un avviso settimanale per Visitatori giornalieri univoci, sarà possibile impostare un avviso giornaliero, settimanale e così via. avvisi relativi alla metrica Visitatori unici in corso. Analysis Workspace supporta una metrica Visitatori unici, ma non giornaliera/settimanale/mensile/ecc. Metriche univoche dei visitatori.) </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cerca </p> </td> 
@@ -100,11 +100,11 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi con uno slot ASI come suite di rapporti </p> </td> 
-   <td colname="col2"> <p>Non è più possibile <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  > creare o modificare gli slot ASI </a> e non sono disponibili per l'utilizzo in Analysis Workspace. Pertanto, non sono supportati dai nuovi avvisi. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Non è più possibile <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  > creare o modificare gli slot ASI </a> e non sono disponibili per l'utilizzo in Analysis Workspace. Di conseguenza, non sono supportati dai nuovi avvisi. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Avvisi mediante metriche di partecipazione </p> </td> 
+   <td colname="col1"> <p>Avvisi che utilizzano le metriche di partecipazione </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > Le metriche di partecipazione </a> sono disponibili in Reporting e analisi, ma al momento non sono disponibili nel nuovo sistema di avvisi in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
