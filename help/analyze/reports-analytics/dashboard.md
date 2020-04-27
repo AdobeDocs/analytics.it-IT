@@ -18,11 +18,11 @@ Una dashboard è una raccolta di miniature di rapporti denominati minirapporti. 
 
 Una dashboard è una raccolta di rapporti di miniature denominata *`reportlets`*. Una dashboard è particolarmente utile quando contiene minirapporti correlati che forniscono una panoramica completa di alcuni aspetti del sito, ad esempio metodi di ricerca, profili dei visitatori e così via.
 
-Puoi aggiungere la maggior parte dei rapporti di marketing a una dashboard, compresi quelli grafici intensi come [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report]e [!UICONTROL Pathfinder Report].
+Puoi aggiungere la maggior parte dei rapporti di marketing a una dashboard, compresi quelli grafici come il [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report]e il [!UICONTROL Pathfinder Report].
 
 Potete anche impostare una dashboard come pagina di destinazione, condividere le dashboard con altri utenti e pianificarne la consegna. Se non si imposta una dashboard (o un segnalibro) come pagina di destinazione, viene visualizzato il [!UICONTROL My Recommended Reports] dashboard. **[!UICONTROL My Recommended Reports]** mostra il **[!UICONTROL Key Metrics]** rapporto e i cinque rapporti visualizzati più di frequente. È dinamico e si basa sui report attuali che vengono maggiormente visualizzati.
 
-Tenete presente che alcuni rapporti visualizzati di frequente non possono essere decodificati e non vengono visualizzati. Tra questi:
+Tenete presente che alcuni rapporti visualizzati di frequente non possono essere decodificati e non vengono visualizzati. Questi includono:
 
 * Rapporti sul rilevamento delle anomalie
 * Report Analisi contributi
@@ -98,7 +98,7 @@ t_dashboard_add_report.xml
 
  -->
 
-1. Eseguire un report.
+1. Esegui un report.
 1. Fai clic su **[!UICONTROL Dashboard.]**
 1. Nella [!UICONTROL Add Reportlet] pagina, assegna un nome al rapporto, quindi seleziona una dashboard da **[!UICONTROL Place in Dashboard]**.
 1. (Facoltativo) Configura l’intervallo di date.
@@ -190,7 +190,7 @@ t_dashboard_edit.xml
 | Modificare la suite di rapporti di un minirapporto | Nel minirapporto, fai clic sul nome della suite di rapporti, quindi seleziona una suite di rapporti dal [!UICONTROL Report Suite] menu. |
 | Applicazione di un segmento a un dashboard | Nell&#39;intestazione di Experience Cloud, fai clic su [!UICONTROL Show Segments], quindi seleziona un segmento. |
 | Applicazione di un segmento a un minirapporto | Nel dashboard, fate clic su Layout per modificare una dashboard.   Nel minirapporto, fai clic sul nome della suite di rapporti, quindi seleziona un valore dal campo Segmento e fai clic su Aggiorna. |
-| Blocca una suite di rapporti (impedisce la modifica della suite di rapporti in un minirapporto) | Nel minirapporto, fai clic sul nome della suite di rapporti, quindi abilita [!UICONTROL Lock Report Suite]. Fate clic su Aggiorna. |
+| Blocca una suite di rapporti (impedisce la modifica della suite di rapporti in un minirapporto) | Nel minirapporto, fai clic sul nome della suite di rapporti, quindi abilita [!UICONTROL Lock Report Suite]. Fai clic su Aggiorna. |
 | Modificare una data di reporting | Per una dashboard, fai clic sul calendario. Tutti i minirapporti nel dashboard riflettono la modifica.<br>Per un rapporto, fai clic sul collegamento della data, quindi configura il calendario. |
 | Denominare un dashboard | Aprite una dashboard, quindi fate clic su [!UICONTROL More] > [!UICONTROL Rename]. |
 | Visualizzazione di un archivio dashboard | Fai clic su  [!UICONTROL More] >  [!UICONTROL View Archive]. |
