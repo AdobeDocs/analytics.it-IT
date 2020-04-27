@@ -24,7 +24,7 @@ Si verificherà il seguente effetto collaterale all&#39;apertura di una cartella
 * Quando si apre la cartella di lavoro, viene visualizzato il seguente avviso: &quot;La cartella di lavoro è stata salvata per l&#39;ultima volta con Generatore di report v5.1. Questa versione ha introdotto alcune funzionalità incompatibili con la versione del Generatore di report installata nel computer. Prima di aggiornare la cartella di lavoro, si consiglia di effettuare l&#39;aggiornamento alla versione più recente del Generatore di report.&quot;
 * Se fai clic con il pulsante destro del mouse su una richiesta ARB con classificazione, i menu contestuali del Generatore di report (richiesta di modifica, aggiunta di richiesta dipendente...) non verranno visualizzati.
 * Se si esegue un aggiornamento di tutti, facendo clic sul terzo pulsante o aggiornando un set di richieste dal modulo Request Manager, la richiesta di classificazione verrà eseguita senza errore. Tuttavia, i valori delle classificazioni non saranno scritti.
-* È comunque possibile modificare la richiesta aprendo Request Manager, passando da una riga all&#39;altra fino a raggiungere la richiesta corretta.
+* È comunque possibile modificare la richiesta aprendo Request Manager, quindi passando da una riga all&#39;altra fino a raggiungere la richiesta corretta.
 * Se modificate la richiesta e lasciate tutti i parametri identici e fate clic su Fine, la risposta verrà scritta correttamente. La modifica della richiesta risolve il problema mano a mano che i parametri del layout di risposta vengono serializzati nuovamente. C&#39;è una soluzione alternativa, anche se richiede tempo.
 
 ## Problemi di autenticazione nel Generatore di report {#section_FD79104DF1414FE2B36591606C963DE6}
@@ -88,7 +88,7 @@ Programmazione scaglionata su un periodo di 24 ore (vedere la tabella seguente).
 
 Programmare richieste più grandi e complesse nelle prime ore del mattino per consentire l&#39;esecuzione di rilasci manuali e rinfrescanti durante la giornata lavorativa.
 
-| Tempo di programmazione | 1:00 - 2.00 | 2 - 7.00 | 7 del mattino - 18:00 | 18 - Midnight |
+| Tempo di programmazione | 1:00 - 14.00 | 2 - 7.00 | 7 del mattino - 18:00 | 18 - Midnight |
 |--- |--- |--- |--- |--- |
 | Utilizzo di Generatore di report | Tranquillo | Molto occupato | Utilizzo lato client.<br>Volumi più elevati di utenti che aggiornano localmente e richiedono di inviarli immediatamente.<br>Inoltre, verificare se la coda API viene cancellata quando i libri di lavoro pianificati scadono. | Non occupato |
 
@@ -104,7 +104,7 @@ Eventuali report pianificati scadono dopo quattro ore. Il sistema tenta di esegu
 
 Elenco di messaggi di errore che possono verificarsi occasionalmente durante l&#39;utilizzo di Generatore di report.
 
->[!NOTE] Si tratta solo di una selezione di messaggi di errore e non di un elenco esaustivo. Per ulteriori informazioni sulla risoluzione degli errori, contattare l&#39;amministratore.
+>[!NOTE] Si tratta solo di una selezione di messaggi di errore e non di un elenco completo. Per ulteriori informazioni sulla risoluzione degli errori, contattare l&#39;amministratore.
 
 **Questa funzione può essere applicata solo a una cartella di lavoro aperta.**
 
