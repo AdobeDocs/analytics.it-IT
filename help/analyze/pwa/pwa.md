@@ -23,7 +23,7 @@ Per raccogliere e analizzare i dati PWA con Analytics, non è necessario apporta
 
 ## Aggiunta del tracciamento offline per aumentare l&#39;efficacia del PWA
 
-Puoi aumentare l’efficacia del tuo PWA utilizzando le funzionalità [di tracciamento](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) offline di Analytics. Per impostazione predefinita, questa funzione è disattivata, ma potete aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
+Puoi aumentare l’efficacia del tuo PWA utilizzando le funzionalità [di tracciamento](https://docs.adobe.com/content/help/it-IT/analytics/implementation/javascript-implementation/offline-tracking.html) offline di Analytics. Per impostazione predefinita, questa funzione è disattivata, ma potete aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
 
 Ad esempio, nel seguente file AppMeasurement.js, la proprietà viene aggiunta alla fine del `CONFIG SECTION`:
 
@@ -47,4 +47,4 @@ Per ulteriori informazioni sulla modifica del file AppMeasurement.js, vedi [Inse
 
 Per esempi di configurazioni nel file AppMeasurement.js, consultate [Configurazione del file](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)AppMeasurement.js.
 
-Per ulteriori informazioni sulle caratteristiche del file AppMeasurement.js, consulta la panoramica [sull’implementazione di](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)Javascript.
+Per ulteriori informazioni sulle caratteristiche del file AppMeasurement.js, consulta la panoramica [sull’implementazione di](https://docs.adobe.com/content/help/it-IT/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)Javascript.
