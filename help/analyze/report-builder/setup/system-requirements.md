@@ -19,7 +19,7 @@ Raccomandazioni e prerequisiti del sistema.
 
 **Prerequisiti**
 
-* Il contratto dell'organizzazione include Generatore di report per Excel.
+* Il contratto dell&#39;organizzazione include Generatore di report per Excel.
 * Il nome utente fa parte del gruppo di utenti Generatore di report predefinito. Questo requisito include [!DNL Analytics] gli amministratori.
-* L'utente deve eseguire Windows ed effettuare l'accesso come amministratore.
+* L&#39;utente deve eseguire Windows ed effettuare l&#39;accesso come amministratore.
 
