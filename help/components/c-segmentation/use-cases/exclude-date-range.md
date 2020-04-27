@@ -2,7 +2,7 @@
 title: Escludere date specifiche nell'analisi
 description: Suggerimenti per escludere date o intervalli di date se non si desidera includerli nei rapporti.
 translation-type: tm+mt
-source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
+source-git-commit: 29f6b302fecd18a9be70c2246c0d1227af82d00f
 
 ---
 
@@ -45,6 +45,10 @@ Dopo aver creato il segmento di esclusione, puoi utilizzarlo esattamente come fa
 Puoi applicare sia il segmento &quot;Giorni interessati&quot; che il segmento &quot;Escludi giorni interessati&quot; in un rapporto per confrontarli affiancati. Trascina entrambi i segmenti sopra o sotto una metrica per confrontarli:
 
 ![Entrambi i segmenti](../assets/affected_and_exclude.png)
+
+Se non si desidera visualizzare zeri nella tabella o nelle visualizzazioni (con conseguente diminuzione), attivare **[!UICONTROL Interpret zero as no value]** le impostazioni delle colonne.
+
+![Interpreta zero](../assets/interpret_zero.jpg)
 
 ### Applicazione del segmento di esclusione a un progetto
 
