@@ -17,6 +17,6 @@ Puoi utilizzare Analytics per iOS in qualsiasi momento o ovunque per visualizzar
 
 ![](assets/ipad.png)
 
-Potete visualizzare i dati delle tendenze per giorno, settimana, mese o fino a 90 giorni. L'interfaccia chiara e semplice da usare consente di accedere rapidamente e presentare report sui dati delle tendenze con un massimo di tre metriche.
+Potete visualizzare i dati delle tendenze per giorno, settimana, mese o fino a 90 giorni. L&#39;interfaccia chiara e semplice da usare consente di accedere rapidamente e presentare report sui dati delle tendenze con un massimo di tre metriche.
 
-Scarica Adobe Analytics per iOS dall'App Store. Se il vostro iPad richiede una versione più recente di iOS, potete utilizzare iTunes per scaricare l'aggiornamento. Utilizzate sempre la versione più recente di iTunes per ottenere risultati ottimali.
+Scarica Adobe Analytics per iOS dall&#39;App Store. Se il vostro iPad richiede una versione più recente di iOS, potete utilizzare iTunes per scaricare l&#39;aggiornamento. Utilizzate sempre la versione più recente di iTunes per ottenere risultati ottimali.
