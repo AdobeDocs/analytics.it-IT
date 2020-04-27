@@ -24,21 +24,21 @@ Per ulteriori informazioni, consultate [Modificare le metriche in più richieste
 
 **Pubblicare su Power BI con Report Builder 5.5**
 
-Microsoft Power BI è una suite di dashboard di analisi business per l'analisi dei dati e la condivisione di approfondimenti. L'integrazione di Adobe Analytics con Power BI consente di visualizzare i dati analitici del Generatore di report in Microsoft Power BI e di condividerli facilmente all'interno dell'organizzazione.
+Microsoft Power BI è una suite di dashboard di analisi business per l&#39;analisi dei dati e la condivisione di approfondimenti. L&#39;integrazione di Adobe Analytics con Power BI consente di visualizzare i dati analitici del Generatore di report in Microsoft Power BI e di condividerli facilmente all&#39;interno dell&#39;organizzazione.
 
-Precedentemente, come analista, pianificavi la diffusione delle cartelle di lavoro del Generatore di report tramite e-mail (o ftp). È ora possibile consentire agli utenti aziendali interessati di accedere (dall'interno dei loro account Power BI) a dati precisi e aggiornati in un ambiente basato sul Web accessibile su piattaforme e dispositivi.
+Precedentemente, come analista, pianificavi la diffusione delle cartelle di lavoro del Generatore di report tramite e-mail (o ftp). È ora possibile consentire agli utenti aziendali interessati di accedere (dall&#39;interno dei loro account Power BI) a dati precisi e aggiornati in un ambiente basato sul Web accessibile su piattaforme e dispositivi.
 
-Combinando la funzionalità di generazione dei report di Generatore di report con le funzioni di visualizzazione di Power BI, le informazioni sono più accessibili a tutti gli utenti dell'azienda. Con Power BI, puoi anche integrare Adobe Analytics con altre origini dati (ad esempio, punti vendita, CRM) per scoprire approfondimenti unici dei clienti, associazioni e opportunità. [Altro...](/help/analyze/report-builder/c-publish-power-bi/power-bi.md)
+Combinando la funzionalità di generazione dei report di Generatore di report con le funzioni di visualizzazione di Power BI, le informazioni sono più accessibili a tutti gli utenti dell&#39;organizzazione. Con Power BI, puoi anche integrare Adobe Analytics con altre origini dati (ad esempio, punti vendita, CRM) per scoprire approfondimenti unici dei clienti, associazioni e opportunità. [Altro...](/help/analyze/report-builder/c-publish-power-bi/power-bi.md)
 
 ## Report Builder 5.4{#rb-5-4-section}
 
-* **Gestione e modifica migliorate dei segmenti su più richieste.** Le nuove opzioni in [!UICONTROL Edit Multiple Requests] questa sezione consentono di aggiungere, rimuovere, sostituire e sostituire tutti i segmenti all'interno di più richieste target. [Altro...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **Gestione e modifica migliorate dei segmenti su più richieste.** Le nuove opzioni in [!UICONTROL Edit Multiple Requests] questa sezione consentono di aggiungere, rimuovere, sostituire e sostituire tutti i segmenti all&#39;interno di più richieste target. [Altro...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
-* **Nuovo collegamento alla community** di Generatore di report Adobe Il nuovo collegamento della community Adobe in Aiuto consente di accedere al forum della community Adobe, con la ricerca limitata ai problemi relativi al Generatore di report. La community di Adobe è un ottimo modo per porre ai colleghi del Generatore di report domande sull'applicazione e per scoprire o condividere le best practice.
+* **Nuovo collegamento alla community** di Generatore di report Adobe Il nuovo collegamento della community Adobe in Aiuto consente di accedere al forum della community Adobe, con la ricerca limitata ai problemi relativi al Generatore di report. La community di Adobe è un ottimo modo per porre ai colleghi del Generatore di report domande sull&#39;applicazione e per scoprire o condividere le best practice.
 
    >[!NOTE]
    >
-   >Per passare a un'altra impostazione internazionale, vai alla pagina [](https://forums.adobe.com/welcome)principale dei forum Adobe, in Forum internazionali.
+   >Per passare a un&#39;altra impostazione internazionale, vai alla pagina [](https://forums.adobe.com/welcome)principale dei forum Adobe, in Forum internazionali.
 
 * **Protezione** di accesso avanzata Oltre a una [nuova schermata](/help/analyze/report-builder/setup/login.md)di accesso, il Generatore di report standard dispone di un processo di autenticazione più sicuro, basato sul framework di autorizzazione OAuth.
 
@@ -54,5 +54,5 @@ Combinando la funzionalità di generazione dei report di Generatore di report co
 
 * **Ricerca migliorata per report e metriche** Con un numero maggiore di [eVar ed eventi](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) aggiunti ad Adobe Analytics, il numero di report e metriche offerte in Adobe Report Builder sta aumentando in modo significativo. Per semplificare la ricerca, alla Richiesta guidata sono state aggiunte due nuove barre di ricerca: uno per la ricerca [di](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) report e uno per la ricerca di [metriche](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
 
-* **Attributi** del cliente Gli attributi del cliente sono memorizzati nel nuovo tipo di elemento denominato VisAttr, che può essere configurato come dimensione o metrica. Per informazioni dettagliate su come caricare gli attributi del cliente, consulta l’Aiuto [di](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)Experience Cloud.
+* **Attributi** del cliente Gli attributi del cliente sono memorizzati in un nuovo tipo di elemento denominato VisAttr, che può essere configurato come dimensione o metrica. Per informazioni dettagliate su come caricare gli attributi del cliente, consulta l’Aiuto [di](https://marketing.adobe.com/resources/help/it_IT/mcloud/attributes.html)Experience Cloud.
 
