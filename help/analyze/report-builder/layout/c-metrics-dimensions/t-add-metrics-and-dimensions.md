@@ -18,7 +18,7 @@ Passaggi per aggiungere metriche e dimensioni a una richiesta.
 
    ![Informazioni sul passaggio](assets/adding_metrics.png)
 
-   Quando aggiungi delle metriche, queste non vengono rimosse dalla [!UICONTROL Metrics] scheda, perché puoi visualizzare le metriche più volte all'interno di una richiesta. Ad esempio, puoi visualizzare il subtotale della metrica oltre a ciascun valore. Tuttavia, l’elenco delle metriche disponibili cambia ogni volta che aggiungete o rimuovete una dimensione.
+   Quando aggiungi delle metriche, queste non vengono rimosse dalla [!UICONTROL Metrics] scheda, perché puoi visualizzare le metriche più volte all&#39;interno di una richiesta. Ad esempio, puoi visualizzare il subtotale della metrica oltre a ciascun valore. Tuttavia, l’elenco delle metriche disponibili cambia ogni volta che aggiungete o rimuovete una dimensione.
 
    È possibile aggiungere solo metriche alla sezione [!UICONTROL Metrics] del layout. Le metriche vengono aggiunte al [!UICONTROL Column Label] layout come [!UICONTROL Metric Header]. Se spostate un [!UICONTROL Metric Header] oggetto da [!UICONTROL Column Layout] a [!UICONTROL Row Layout], questo viene visualizzato e utilizzato come suddivisione.
 
@@ -28,8 +28,8 @@ Passaggi per aggiungere metriche e dimensioni a una richiesta.
 
    Nota bene:
 
-   * Quando immetti un termine di ricerca, l'elenco si aggiorna automaticamente per visualizzare solo le metriche la cui etichetta corrisponde al termine di ricerca.
-   * La corrispondenza non fa distinzione tra maiuscole e minuscole ed equivale a una ricerca "contains".
+   * Quando immetti un termine di ricerca, l&#39;elenco si aggiorna automaticamente per visualizzare solo le metriche la cui etichetta corrisponde al termine di ricerca.
+   * La corrispondenza non fa distinzione tra maiuscole e minuscole ed equivale a una ricerca &quot;contains&quot;.
    * Ricerche full-word o altri flag di ricerca speciale (inizia con, termina con, AND, OR, ecc.) non sono supportati.
 
       Il termine di ricerca verrà cancellato se si esce dalla Richiesta guidata (ad esempio, fare clic su Fine o Annulla), oppure tornare al Passaggio 1 della Richiesta guidata oppure modificare la categoria Metrica.
@@ -39,10 +39,10 @@ Passaggi per aggiungere metriche e dimensioni a una richiesta.
    * Trascinate e rilasciate (o fate doppio clic) una delle metriche dall’elenco in modo che venga aggiunta al pannello Metriche layout pivot/personalizzato.
    * È possibile rimuovere uno o più elementi della metrica dal pannello Metrica layout pivot/personalizzato.
    * Fai clic sulla scheda Dimensione, quindi torna alla scheda Metrica.
-   * È possibile richiamare altri sottomoduli (modali o modelli) che all'uscita torneranno al Passaggio 2 della Richiesta guidata. Esempi di questi moduli sono
+   * È possibile richiamare altri sottomoduli (modali o modelli) che all&#39;uscita torneranno al Passaggio 2 della Richiesta guidata. Alcuni esempi di questi moduli sono
 
       * Moduli filtro dimensioni
-      * Moduli di formattazione intervallo date
+      * Moduli di formattazione dell&#39;intervallo date
       * Formato opzioni
       * Modulo testo pre-postpend
       * Modulo posizione intervallo di output
@@ -62,7 +62,7 @@ La [!UICONTROL Date] dimensione viene aggiunta automaticamente. Le dimensioni de
     * Intervallo date (quando non è specificata alcuna granularità)
 
 1. Modifica metriche e dimensioni configurando opzioni [e filtri per il](/help/analyze/report-builder/layout/t-format-display-headers.md) formato.
-1. Fai clic su **[!UICONTROL Finish]** (Genera).
-Nell'esempio seguente, le dimensioni si riferiscono alla [!UICONTROL Page] metrica. In questo caso, la [!UICONTROL Referring Domain] dimensione crea un rapporto di suddivisione tra [!UICONTROL Page] e [!UICONTROL Referring Domain]. La [!UICONTROL Dimension] scheda viene aggiornata con solo le dimensioni che è possibile aggiungere a un report dettagliato.
+1. Fai clic su **[!UICONTROL Finish]**.
+Nell&#39;esempio seguente, le dimensioni si riferiscono alla [!UICONTROL Page] metrica. In questo caso, la [!UICONTROL Referring Domain] dimensione crea un rapporto di suddivisione tra [!UICONTROL Page] e [!UICONTROL Referring Domain]. La [!UICONTROL Dimension] scheda viene aggiornata con solo le dimensioni che è possibile aggiungere a un report dettagliato.
 
 ![](assets/page_pageview_02.png)
