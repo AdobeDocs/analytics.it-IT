@@ -26,7 +26,7 @@ Definizioni dei campi per le date continue nel Generatore di report.
    <td colname="col2"> <p>Consultate Espressioni <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   ></a>di data personalizzate. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Data </p> </td> 
+   <td colname="col1"> <p> A decorrere dalla data </p> </td> 
    <td colname="col2"> <p>Il riferimento data da utilizzare per l'intervallo continuo. I valori sono: </p> 
     <ul id="ul_6B73B707B7CB4C7D88299A8337260800"> 
      <li id="li_48FD414FCF884F3AADB7CFBC90C7EF51"> Specificato in fase di esecuzione: Consente di inserire una data ogni volta che la richiesta viene eseguita. </li> 
