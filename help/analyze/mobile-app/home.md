@@ -1,13 +1,13 @@
 ---
-title: Panoramica delle dashboard
+title: panoramica delle dashboard
 description: Documentazione del prodotto e supporto autonomo per dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 246093efc32e20f114a81f7ff8bb17131b3aafb2
+source-git-commit: 87355158ed62246d1ef8569383160b1d3ffc9b17
 
 ---
 
 
-# Panoramica delle dashboard
+# panoramica delle dashboard
 
 >[!IMPORTANT]
 >
