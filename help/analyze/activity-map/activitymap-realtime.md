@@ -3,7 +3,7 @@ description: L'analisi delle pagine in tempo reale (modalità Live) consente di 
 title: Analisi delle pagine in tempo reale (Live)
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,13 +32,13 @@ Se desiderate verificare su quale elemento viene fatto clic principalmente in mo
 
 ## Latenza dei dati come risultato della configurazione A4T
 
-Dopo l&#39;abilitazione dell&#39;integrazione [](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T in Adobe Target, si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente la memorizzazione dei dati da Analytics e Target nello stesso hit, con conseguente possibilità di suddividere i test per pagina e sezione del sito.
+Dopo l&#39;abilitazione dell&#39;integrazione [](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t.translate.html) A4T in Adobe Target, si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente la memorizzazione dei dati da Analytics e Target nello stesso hit, con conseguente possibilità di suddividere i test per pagina e sezione del sito.
 
 Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi lo streaming live e il reporting in tempo reale e si applica nei seguenti scenari:
 
 * Per lo streaming live, i rapporti in tempo reale e le richieste API e per i dati correnti per le variabili di traffico, vengono ritardati solo gli insiemi con ID di dati supplementari.
 * Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit sono ritardati di altri 5-7 minuti.
 
-Be aware that the latency increase starts after you implement the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), even if you have not fully implemented this integration.
+Be aware that the latency increase starts after you implement the [Identity Service](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html), even if you have not fully implemented this integration.
 
 Maggiori informazioni [qui](/help/analyze/activity-map/activitymap-standard-live.md).
