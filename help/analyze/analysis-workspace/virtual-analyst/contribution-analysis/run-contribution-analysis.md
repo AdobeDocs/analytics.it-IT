@@ -3,7 +3,7 @@ description: 'null'
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,9 +35,9 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 
    * Visualizzazione del numero di **Visite** in un dato giorno.
    * **Linea delle tendenze di visita** mensile per contesto.
-   * **Elementi principali** che hanno contribuito a questa anomalia, ordinati per [punteggio contributo](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_contribution_score.html), e la metrica in questione, più una metrica di visitatori univoci per contestualizzarla dal punto di vista delle dimensioni.
+   * **Elementi principali** che hanno contribuito a questa anomalia, ordinati per [punteggio contributo](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), e la metrica in questione, più una metrica di visitatori univoci per contestualizzarla dal punto di vista delle dimensioni.
 
-   * La tabella dei [segmenti principali](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_workflow_premium.html) (cluster di elementi principali) identifica le associazioni di elementi principali in base al punteggio contributo, alle occorrenze di anomalie e alla percentuale complessiva che ha contribuito alla metrica anomala. Questo viene quindi acquisito come segmento di pubblico (segmento contributo 1, segmento contributo 2, ecc...). Fai clic sul pulsante “i” (Info) per visualizzare la definizione di ciascun segmento automatico e dei principali elementi che lo compongono:
+   * La tabella dei [segmenti principali](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-build.html) (cluster di elementi principali) identifica le associazioni di elementi principali in base al punteggio contributo, alle occorrenze di anomalie e alla percentuale complessiva che ha contribuito alla metrica anomala. Questo viene quindi acquisito come segmento di pubblico (segmento contributo 1, segmento contributo 2, ecc...). Fai clic sul pulsante “i” (Info) per visualizzare la definizione di ciascun segmento automatico e dei principali elementi che lo compongono:
 
       ![](assets/auto_segment.png)
 
