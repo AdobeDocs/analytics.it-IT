@@ -4,7 +4,7 @@ title: Generare segmenti
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 * **[!UICONTROL Analysis Workspace]**: Fate clic **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, aprite un progetto e fate clic su **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri un rapporto esistente e fai clic sull&#39;icona Segmenti ![](assets/segment_icon.png) nella barra di navigazione a sinistra, quindi fai clic su **[!UICONTROL Add]**.
 * **[!UICONTROL Ad Hoc Analysis]**: Creazione di segmenti [in Analisi](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)ad hoc.
-* **[!UICONTROL Report Builder]**: Aggiunta o [modifica di segmenti in Generatore](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)di report.
+* **[!UICONTROL Report Builder]**: Aggiunta o [modifica di segmenti in Generatore](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)di report.
 
 ## Interfaccia utente di Segment Builder {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -81,13 +81,13 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 
 **[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**: (Non visualizzato sullo schermo) Questa opzione viene visualizzata solo se la suite di rapporti in cui si sta salvando questo segmento è [abilitata per Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Pubblicando un segmento in Experience Cloud, puoi utilizzare il segmento per l&#39;attività di marketing in [!UICONTROL Audience Library], [!DNL Target], e [!DNL Audience Manager]. Titolo e descrizione del segmento richiesti.
 
->[!NOTE] In Analytics puoi modificare o eliminare un segmento pubblicato. Se il segmento è in uso, quando si modifica un segmento viene emesso un messaggio di avviso. Non potete eliminare un segmento pubblicato in uso da Adobe [!DNL Target].
+>[!NOTE] In Analytics puoi modificare o eliminare un segmento pubblicato. Se il segmento è in uso, quando modifichi un segmento compare un messaggio di avviso. Non puoi eliminare un segmento modificato che risulta in uso in Adobe [!DNL Target].
 
 ![](assets/segment_publish_to_mac_copy.png)
 
 >[!IMPORTANT]
 >
->Devi limitare il numero di audience condivise da Analytics a 20 per evitare ulteriori ritardi nell&#39;elaborazione. Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri unici. Inoltre, a causa della cache, sono necessarie 12 ore prima che l&#39;eliminazione delle suite di rapporti in Analytics possa essere visibile in Experience Cloud.
+>Devi limitare il numero di audience condivise da Analytics a 20 per evitare ulteriori ritardi nell&#39;elaborazione. Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri unici. Inoltre, a causa della cache, sono necessarie 12 ore prima che l&#39;eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -146,7 +146,7 @@ L&#39;impilamento dei segmenti funziona combinando i criteri in ciascun segmento
 
 Ad esempio, l&#39;impilamento di un segmento &quot;utenti di telefoni cellulari&quot; e di un segmento &quot;geografia USA&quot; restituirebbe i dati solo agli utenti di telefoni cellulari negli Stati Uniti.
 
-Considera questi segmenti come blocchi o moduli di base che possono essere inclusi in una libreria di segmenti, affinché gli utenti possano utilizzarli nel modo desiderato. In questo modo, puoi ridurre notevolmente il numero di segmenti necessari. Ad esempio, supponiamo di avere 40 segmenti:
+Considera questi segmenti come elementi costitutivi o moduli che possono essere inclusi in una libreria di segmenti, affinché gli utenti possano utilizzarli nel modo desiderato. In questo modo, puoi ridurre notevolmente il numero di segmenti necessari. Ad esempio, supponiamo di avere 40 segmenti:
 
 * 20 per gli utenti di telefoni cellulari in diversi paesi (US_mobile, Germany_mobile, France_mobile, Brasile_mobile, ecc.)
 * 20 per gli utenti di tablet in diversi paesi (US_tablet, Germany_tablet, France_tablet, Brasile_tablet, ecc.)
@@ -194,7 +194,7 @@ Potete trascinare questi modelli nell’area di lavoro Definizioni e usarli come
  <tbody> 
   <tr> 
    <td colname="col1"> Abbandona carrello </td> 
-   <td colname="col2">Visualizzare i dati per i visitatori che hanno aggiunto elementi ai loro carrelli ma non hanno ordinato nulla. Nella definizione del segmento, il contenitore è Visita. La regola per questo segmento sequenziale è <p> Le aggiunte al carrello non sono nulle </p> <p>Quindi </p> <p>Ordini è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizzare i dati per i visitatori che hanno aggiunto elementi ai loro carrelli ma non hanno ordinato nulla. Nella definizione del segmento, il contenitore è Visita. La regola per questo segmento sequenziale è <p> Le aggiunte al carrello non sono nulle </p> <p>Then </p> <p>Ordini è uguale a 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prima visita </td> 
@@ -209,7 +209,7 @@ Potete trascinare questi modelli nell’area di lavoro Definizioni e usarli come
    <td colname="col2">Visualizzare i dati per i visitatori che hanno visitato più di una volta. Nella definizione del segmento, il contenitore è Visitatore. Questo segmento utilizza la logica Exclude. La regola è <p>Accesso singolo non è nullo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ricerca a pagamento </td> 
+   <td colname="col1"> Ricerca pagata </td> 
    <td colname="col2">Visualizzare i dati dei visitatori provenienti da una ricerca a pagamento. Nella definizione del segmento, il contenitore è Visita. La regola è <p>La ricerca a pagamento è uguale a 1. </p> </td> 
   </tr> 
   <tr> 
@@ -226,7 +226,7 @@ Potete trascinare questi modelli nell’area di lavoro Definizioni e usarli come
   </tr> 
   <tr> 
    <td colname="col1"> Prodotto visualizzato non aggiunto al carrello </td> 
-   <td colname="col2">Visualizzate i dati per i visitatori che hanno visualizzato i prodotti ma non hanno aggiunto aggiunte al carrello. Nella definizione del segmento, il contenitore è Visita. La regola per questo segmento sequenziale è <p>Visualizzazioni prodotto non nulle </p> <p>Quindi </p> <p> Incrementi carrello è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizzate i dati per i visitatori che hanno visualizzato i prodotti ma non hanno aggiunto aggiunte al carrello. Nella definizione del segmento, il contenitore è Visita. La regola per questo segmento sequenziale è <p>Visualizzazioni prodotto non nulle </p> <p>Then </p> <p> Incrementi carrello è uguale a 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da Campaign </td> 
