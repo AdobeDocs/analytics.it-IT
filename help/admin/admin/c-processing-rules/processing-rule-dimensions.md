@@ -5,7 +5,7 @@ title: Dimensioni disponibili per le regole di elaborazione
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -37,8 +37,8 @@ Le dimensioni che è possibile leggere e scrivere (se non diversamente specifica
    <td colname="col2"> <p>Se un valore di variabile viene modificato utilizzando le regole di elaborazione, il valore modificato viene utilizzato nelle condizioni e nelle regole successive. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Variabili dati di contesto </p> </td> 
-   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota:  Tutti i dati contenuti in una variabile dati contestuali devono essere copiati in una variabile di reporting per essere visualizzati in un report. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Impostazione di un evento utilizzando una variabile di dati di contesto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Variabili dati di contesto</a> </p> </td> 
+   <td colname="col1"> <p>Variabili di dati di contesto </p> </td> 
+   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota:  Tutti i dati contenuti in una variabile dati contestuali devono essere copiati in una variabile di reporting per essere visualizzati in un report. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Impostazione di un evento utilizzando una variabile di dati di contesto </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variabili di dati di contesto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
