@@ -5,7 +5,7 @@ title: Tecniche consigliate e risoluzione dei problemi per i rapporti
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Adobe Analytics offre un&#39;interfaccia di reporting flessibile che consente di generare diversi report complessi. Anche se la maggior parte dei report vengono generati molto rapidamente, è possibile che si verifichino dei report con timeout o che non vengano generati correttamente. Per evitare errori di generazione dei report, questa sezione spiega molti fattori che influiscono sulla velocità di generazione dei report. Comprendere queste informazioni può aiutarti a strutturare i rapporti in modo che siano più propensi a generare con successo.
 
->[!Note]
+>[!NOTE]
 >Queste raccomandazioni si applicano a Reporting e analisi, Analisi ad hoc e Generatore di report.
->Non sono applicabili ad Analysis Workspace, che dispone di un proprio set di [best practice](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). Inoltre, non si applicano alle [best practice](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)di Data Warehouse. Un altro set di
->[le best practice](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) sono disponibili per l&#39;API di reporting di Adobe Analytics.
+>Non sono applicabili ad Analysis Workspace, che dispone di un proprio set di [best practice](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). Inoltre, non si applicano alle [best practice](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)di Data Warehouse. Un altro set di
+>[le best practice](https://www.adobe.io) sono disponibili per l&#39;API di reporting di Adobe Analytics.
 
 ## Timeout report e coda richieste {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
