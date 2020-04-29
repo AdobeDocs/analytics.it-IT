@@ -3,7 +3,7 @@ description: Aggiungi o gestisci tutti gli avvisi di utilizzo del server. Quando
 title: Avvisi sull’utilizzo delle chiamate server
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,20 +14,20 @@ Quando configurate un avviso, questo si applica a tutte le suite di rapporti in 
 
 ## Panoramica
 
-Una nuova categoria di avvisi denominata **[!UICONTROL Server Calls Usage Alert]** fa parte dell'interfaccia utente [Gestione](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) avvisi esistente.
+Una nuova categoria di avvisi denominata **[!UICONTROL Server Calls Usage Alert]** fa parte dell&#39;interfaccia utente [Gestione](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) avvisi esistente.
 
 Viene precompilato con **1 avviso** predefinito che viene visualizzato all’interno di qualsiasi società di accesso che dispone dell’accesso alla funzione Utilizzo chiamate server. Questi avvisi attivano una notifica indirizzata a tutti gli amministratori della società di accesso se uno dei seguenti criteri è soddisfatto:
 
-* "Qualsiasi" utilizzo di chiamate server "superiore o uguale a" 100% per qualsiasi tipo di chiamata server a cui si ha diritto, OPPURE
-* "Qualsiasi" utilizzo di chiamate server "superiore o uguale a" 90% per qualsiasi tipo di chiamata server a cui si ha diritto, OPPURE
-* "Qualsiasi" utilizzo di chiamate server "superiore o uguale a" 75% per qualsiasi tipo di chiamata server a cui si ha diritto, E "Il periodo di utilizzo trascorso" "è inferiore o uguale" al 75% del periodo di utilizzo.
+* &quot;Qualsiasi&quot; utilizzo di chiamate server &quot;superiore o uguale a&quot; 100% per qualsiasi tipo di chiamata server a cui si ha diritto, OPPURE
+* &quot;Qualsiasi&quot; utilizzo di chiamate server &quot;superiore o uguale a&quot; 90% per qualsiasi tipo di chiamata server a cui si ha diritto, OPPURE
+* &quot;Qualsiasi&quot; utilizzo di chiamate server &quot;superiore o uguale a&quot; 75% per qualsiasi tipo di chiamata server a cui si ha diritto, E &quot;Il periodo di utilizzo trascorso&quot; &quot;è inferiore o uguale&quot; al 75% del periodo di utilizzo.
 
 ![](assets/alerts.png)
 
 Puoi accedere agli avvisi di utilizzo delle chiamate server in due modi:
 
-* Fate clic **[!UICONTROL Manage Alerts]** nell'angolo superiore destro della scheda Utilizzo corrente o della scheda Utilizzo suite di rapporti oppure
-* Passa a **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** in Adobe Analytics.
+* Fate clic **[!UICONTROL Manage Alerts]** nell&#39;angolo superiore destro della scheda Utilizzo corrente o della scheda Utilizzo suite di rapporti oppure
+* Passa a **[!UICONTROL Components]** > **[!UICONTROL Alerts]** in Adobe Analytics.
 
 ## Create Server Call Usage Alerts {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
@@ -42,8 +42,8 @@ Per creare avvisi aggiuntivi,
    ![](assets/sc_alert.png)
 
    * **Titolo**: Specificate un nome descrittivo. Non è possibile salvare l’avviso senza un nome.
-   * **Granularità** tempo: Indica la frequenza con cui verrà controllato l’avviso. *Al momento supportiamo solo la granularità settimanale.* Questo significa che l'avviso verrà controllato su base settimanale e che guarderà indietro ai dati del periodo di utilizzo corrente.
-   * **Destinatari**: Specifica chiunque nell'organizzazione debba ricevere un'e-mail quando l'avviso attiva la soglia specificata.
+   * **Granularità** tempo: Indica la frequenza con cui verrà controllato l’avviso. *Al momento supportiamo solo la granularità settimanale.* Questo significa che l&#39;avviso verrà controllato su base settimanale e che guarderà indietro ai dati del periodo di utilizzo corrente.
+   * **Destinatari**: Specifica chiunque nell&#39;organizzazione debba ricevere un&#39;e-mail quando l&#39;avviso attiva la soglia specificata.
    * **Data** di scadenza: Per impostazione predefinita, la data di scadenza è un anno dalla data di creazione dell’avviso.
    * **Invia un avviso quando**:
 
@@ -69,8 +69,8 @@ Per gestire gli avvisi:
    | Tag | Assegnare tag agli avvisi per organizzarli in modo semplice. |
    | Elimina | È possibile eliminare tutti gli avvisi tranne quelli predefiniti. |
    | Rinomina | È possibile rinominare tutti gli avvisi tranne quelli predefiniti. |
-   | Approva | Approvare gli avvisi per renderli "ufficiali". |
+   | Approva | Approvare gli avvisi per renderli &quot;ufficiali&quot;. |
    | Attiva/Disattiva | Puoi attivare o disattivare tutti gli avvisi, anche quelli predefiniti. |
    | Rinnova | Se sono selezionati uno o più avvisi, è possibile rinnovarli. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
-   | Export to CSV (Esporta in CSV) | Consultate [Download del rapporto sull'utilizzo](/help/admin/c-server-call-usage/report-suite-usage.md) |
+   | Export to CSV (Esporta in CSV) | Consultate [Download del rapporto sull&#39;utilizzo](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
