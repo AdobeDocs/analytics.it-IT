@@ -4,7 +4,7 @@ title: Rapporti fonti traffico
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -94,7 +94,7 @@ Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul 
 
 I domini o gli URL che non fanno parte di tali domini definiti e gli URL sono considerati referenti. Ad esempio, la pagina Web A e la pagina Web B vengono aggiunte al filtro URL interno, ma non la pagina Web C. In questo caso, la pagina Web C è considerata un referente.
 
-Per ulteriori informazioni, consulta Filtri [URL](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) interni nella [!DNL Admin Console] guida.
+Per ulteriori informazioni, consulta Filtri [URL](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html) interni nella [!DNL Admin Console] guida.
 
 >[!NOTE] I report e le analisi di marketing registrano un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento di messaggio e-mail contenente il protocollo [!DNL imap://] o [!DNL mail://] e arrivano sul sito. Ad esempio, qualsiasi cosa proveniente da [!DNL https://mail.yahoo.com] viene conteggiata come referente e-mail perché il protocollo è [!DNL https://]. Le e-mail di Outlook vengono riportate nella riga Typed/Bookmarked, mentre qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore di ricerca.
 
