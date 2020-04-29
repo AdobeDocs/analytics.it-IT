@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Panoramica di Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,16 +13,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Audience Manager (AAM) è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico unici da integrazioni di dati di prime, seconda e terze parti. Per gli inserzionisti, questi profili di pubblico consentono di definire i segmenti più importanti da usare tra i canali digitali.
 
-Con l'integrazione di Audience Analytics, puoi incorporare dati di audience AAM come informazioni demografiche (ad esempio, genere o livello di reddito), informazioni psicografiche (ad esempio, interessi e hobby), dati CRM e dati di impressioni pubblicitarie in qualsiasi flusso di lavoro Analytics.
+Con l&#39;integrazione di Audience Analytics, puoi incorporare dati di audience AAM come informazioni demografiche (ad esempio, genere o livello di reddito), informazioni psicografiche (ad esempio, interessi e hobby), dati CRM e dati di impressioni pubblicitarie in qualsiasi flusso di lavoro di Analytics.
 
 ## Vantaggi chiave {#section_94816D17283349E0BA28521BE55BB868}
 
-L'integrazione di Audience Analytics offre i seguenti vantaggi principali:
+L&#39;integrazione di Audience Analytics offre i seguenti vantaggi principali:
 
 * Si tratta della prima integrazione prodotta tra una piattaforma di gestione dati (DMP) e un motore di analisi sul mercato.
-* I segmenti vengono condivisi da AAM ad Analytics in tempo reale, per informare l'audience su scoperta, segmentazione e ottimizzazione.
+* I segmenti vengono condivisi da AAM ad Analytics in tempo reale, per informare l&#39;audience su scoperta, segmentazione e ottimizzazione.
 * Tutti i segmenti AAM sono condivisi per impostazione predefinita, arricchendo completamente i profili cliente in Analytics.
-* Gli amministratori delle soluzioni possono consentire l'integrazione tramite l'interfaccia utente, con modifiche minime del codice richieste.
+* Gli amministratori delle soluzioni possono consentire l&#39;integrazione tramite l&#39;interfaccia utente, con modifiche minime del codice richieste.
 * Vengono condivisi solo i segmenti che aderiscono ai controlli di esportazione dei dati di Audience Manager.
 
 ## Come funziona {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
@@ -30,10 +30,10 @@ L'integrazione di Audience Analytics offre i seguenti vantaggi principali:
 ![](assets/mc-aud-dataflow.png)
 
 1. Ogni volta che un visitatore accede alle proprietà digitali, gli hit vengono raccolti e inviati ad Analytics.
-1. Con l'inoltro [lato](/help/admin/admin/c-server-side-forwarding/ssf.md)server, ogni hit ricevuto da Analytics viene inviato automaticamente ad AAM in tempo reale.
-1. Attraverso l'integrazione di Audience Analytics, per ogni hit, l'iscrizione di un visitatore all'audience viene cercata in AAM e un elenco di ID segmento viene restituito ad Analytics per l'elaborazione in tempo reale.
+1. Con l&#39;inoltro [lato](/help/admin/admin/c-server-side-forwarding/ssf.md)server, ogni hit ricevuto da Analytics viene inviato automaticamente ad AAM in tempo reale.
+1. Attraverso l&#39;integrazione di Audience Analytics, per ogni hit, l&#39;iscrizione di un visitatore viene cercata in AAM e viene restituito un elenco di ID segmento ad Analytics per l&#39;elaborazione in tempo reale.
 
-Poiché i segmenti AAM vengono inseriti in base alla stessa hit, puoi essere sicuro che qualsiasi dato sia disponibile in AAM su un visitatore non verrà perso e sarà aggiornato per quell’hit. Ciò è superiore a un plug-in AppMeasurement perché un plug-in può rendere tali segmenti disponibili solo sull'hit successiva (e non sulla hit corrente).
+Poiché i segmenti AAM vengono inseriti in base alla stessa hit, puoi essere sicuro che qualsiasi dato sia disponibile in AAM su un visitatore non verrà perso e che sarà aggiornato per quell’hit. Ciò è superiore a un plug-in AppMeasurement perché un plug-in può rendere tali segmenti disponibili solo sull&#39;hit successiva (e non sulla hit corrente).
 
 Inoltre, classifichiamo automaticamente gli ID del segmento AAM in base ai loro nomi descrittivi, in modo da non dover guardare gli ID alfanumerici nei report di Analytics.
 
@@ -44,7 +44,7 @@ Assicurati che vi siano i seguenti prerequisiti:
 * Sei cliente di Audience Manager e Adobe Analytics.
 * Sei un amministratore di Audience Manager.
 * State utilizzando il servizio identità v1.5 o successivo.
-* Le suite di rapporti AAM e Adobe Analytics sono [mappate sulla stessa organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)Experience Cloud.
-* Puoi utilizzare l’inoltro [lato](/help/admin/admin/c-server-side-forwarding/ssf.md) server e hai implementato il modulo [Gestione](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) dell’audience (nessun codice DIL) - AppMeasurement 1.5 o successivo.
+* Le suite di rapporti AAM e Adobe Analytics sono [mappate sulla stessa organizzazione](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html)Experience Cloud.
+* Puoi utilizzare l’inoltro [lato](/help/admin/admin/c-server-side-forwarding/ssf.md) server e hai implementato il modulo [Gestione](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) dell’audience (nessun codice DIL) - AppMeasurement 1.5 o successivo.
 
 Questi prerequisiti sono descritti nel flusso di lavoro di [Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
