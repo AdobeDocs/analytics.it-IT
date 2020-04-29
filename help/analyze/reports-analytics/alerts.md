@@ -5,7 +5,7 @@ title: Avvisi
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ Il nuovo sistema di avvisi globale di Adobe Analytics, Avvisi intelligenti, cons
 
 Puoi accedere a questo nuovo sistema di avvisi da **[!UICONTROL More]** > **[!UICONTROL Alerts]** in qualsiasi rapporto in Reporting e analisi.
 
-Per ulteriori informazioni, consulta la documentazione di Analysis Workspace su Avvisi [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)intelligenti.
+Per ulteriori informazioni, consulta la documentazione di Analysis Workspace su Avvisi [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)intelligenti.
 
 ## Aggiunta di un avviso {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -39,13 +39,13 @@ Passa al nuovo Generatore di avvisi nel menu **[!UICONTROL Analytics]** > **[!UI
 
 1. In Reporting e analisi, apri il rapporto in cui vuoi impostare un avviso.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. Viene visualizzato il [nuovo Generatore](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html)di avvisi.
+1. Viene visualizzato il [nuovo Generatore](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)di avvisi.
 
 ## Visualizzare o modificare avvisi esistenti {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contesto attività
 
-1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Viene aperta la nuova [Gestione](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)avvisi.
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Viene aperta la nuova [Gestione](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)avvisi.
 
 ## Migrazione avvisi legacy {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi con uno slot ASI come suite di rapporti </p> </td> 
-   <td colname="col2"> <p>Non è più possibile <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  > creare o modificare gli slot ASI </a> e non sono disponibili per l'utilizzo in Analysis Workspace. Di conseguenza, non sono supportati dai nuovi avvisi. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Non è più possibile creare o modificare gli slot ASI e non sono disponibili per l'utilizzo in Analysis Workspace. Di conseguenza, non sono supportati dai nuovi avvisi. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi che utilizzano le metriche di partecipazione </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > Le metriche di partecipazione </a> sono disponibili in Reporting e analisi, ma al momento non sono disponibili nel nuovo sistema di avvisi in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > Le metriche di partecipazione </a> sono disponibili in Reporting e analisi, ma al momento non sono disponibili nel nuovo sistema di avvisi in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi mensili per suite di rapporti per il calendario personalizzate </p> </td> 
-   <td colname="col2"> <p>Questo interessa solo i clienti con avvisi impostati per le suite di rapporti che hanno date di inizio mese <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  > personalizzate </a> (Federazione Nazionale Vendita al Dettaglio/NRF e Tipi di calendario personalizzati). </p> <p>Non influisce sugli avvisi relativi alle suite di rapporti gregoriane o gregoriane modificate. Precedentemente questi avvisi erano stati inviati il primo giorno del mese gregoriano (ad esempio, 1° gennaio, 1° febbraio ecc.). Ciò non funzionerà con la nuova funzione Anomaly Detection (Rilevamento anomalo) degli avvisi, che tiene conto dei dati dei mesi precedenti al momento del rilevamento delle anomalie. In futuro, aggiungeremo il supporto al nostro sistema di programmazione per i calendari personalizzati in modo che sia gli Avvisi che i Progetti programmati possano essere programmati per l'invio il primo giorno del mese di calendario personalizzato invece che il primo giorno del mese gregoriano. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Questo interessa solo i clienti con avvisi impostati per le suite di rapporti che hanno date di inizio mese <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > personalizzate </a> (Federazione Nazionale Vendita al Dettaglio/NRF e Tipi di calendario personalizzati). </p> <p>Non influisce sugli avvisi relativi alle suite di rapporti gregoriane o gregoriane modificate. Precedentemente questi avvisi erano stati inviati il primo giorno del mese gregoriano (ad esempio, 1° gennaio, 1° febbraio ecc.). Ciò non funzionerà con la nuova funzione Anomaly Detection (Rilevamento anomalo) degli avvisi, che tiene conto dei dati dei mesi precedenti al momento del rilevamento delle anomalie. In futuro, aggiungeremo il supporto al nostro sistema di programmazione per i calendari personalizzati in modo che sia gli Avvisi che i Progetti programmati possano essere programmati per l'invio il primo giorno del mese di calendario personalizzato invece che il primo giorno del mese gregoriano. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non ancora disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
