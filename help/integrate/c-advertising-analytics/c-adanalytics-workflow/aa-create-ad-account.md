@@ -2,7 +2,7 @@
 title: Configurare un account Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -34,7 +34,7 @@ Gli amministratori possono anche [concedere l&#39;accesso agli utenti non ammini
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> <p>Sono disponibili due opzioni: Google AdWords e Microsoft Bing Ads. </p> <p>Nota: Yahoo Gemini è stato assorbito da Microsoft Bing il 31 marzo 2019. Di conseguenza, l'opzione dell'account pubblicitario Yahoo Gemini non è più disponibile.  </p> </td> 
+      <td colname="col2"> <p>Sono disponibili due opzioni: Google AdWords e Microsoft Bing Ads. </p> <p>Nota: Yahoo Gemini è stato assorbito da Microsoft Bing il 31 marzo 2019. Di conseguenza, l’opzione per l’account per annunci Yahoo Gemini non è più disponibile.  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Nome account </p> </td> 
@@ -84,7 +84,7 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
 
    >[!IMPORTANT]
    >
-   >Solo le suite di rapporti che sono state [mappate a un&#39;organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) Experience Cloud saranno disponibili per la selezione. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Analisi](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)pubblicitaria.
+   >Solo le suite di rapporti che sono state [mappate a un&#39;organizzazione](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html) Experience Cloud saranno disponibili per la selezione. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Analisi](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)pubblicitaria.
 
    Per i **[!UICONTROL Mapping Settings]** seguenti orientamenti:
 
@@ -98,7 +98,7 @@ Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Mappatura suite di rapporti </p> </td> 
-      <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> <p>Se la suite di rapporti non è elencata, puoi <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  > mappare la tua suite di rapporti su un'organizzazione</a> Experience Cloud utilizzando questo strumento. </p> </td> 
+      <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> <p>Se la suite di rapporti non è elencata, puoi <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html"  > mappare la tua suite di rapporti su un'organizzazione</a> Experience Cloud utilizzando questo strumento. </p> </td> 
       </tr> 
     </tbody> 
     </table>
