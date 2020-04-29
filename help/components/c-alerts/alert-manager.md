@@ -1,9 +1,9 @@
 ---
-description: nulle
+description: 'null'
 title: Gestione avvisi
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-The Alert Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) and the [Calculated Metric Manager](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_manager.html) and allows you to
+La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) e alla [Gestione metriche calcolate](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) e consente di: 
 
 ![](assets/alert-manager-tasks.png)
 
-* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
+* Accedere al generatore di avvisi facendo clic su **[!UICONTROL + Add]** (Crea nuovo avviso).
 * Assegnare tag agli avvisi per agevolarne l’organizzazione
 * Eliminare gli avvisi
 * Rinominare gli avvisi
