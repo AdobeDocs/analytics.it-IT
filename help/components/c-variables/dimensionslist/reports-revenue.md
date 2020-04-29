@@ -4,14 +4,14 @@ title: Ricavi
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
 
 # Ricavi
 
-Misura l'ammontare del reddito generato attraverso tutti i prodotti in un periodo di tempo specifico.
+Misura l&#39;ammontare del reddito generato attraverso tutti i prodotti in un periodo di tempo specifico.
 
 Utilizzate Revenue (Entrate) per visualizzare il successo e la tendenza generali del sito. Potete anche utilizzarlo per periodi singoli in cui il sito ha avuto un successo particolare, per trovare la fonte e utilizzarlo per campagne future.
 
@@ -32,20 +32,20 @@ Utilizzate Revenue (Entrate) per visualizzare il successo e la tendenza generali
        s.events="purchase"
       ```
 
-* Se nella [!UICONTROL s.products] variabile è presente più di un prodotto, tutti i conteggi per il rapporto sulle entrate. Ad esempio, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] passerebbe $9 in ricavi a reporting.
+* Se nella [!UICONTROL s.products] variabile è presente più di un prodotto, tutti i conti vengono conteggiati per il rapporto sulle entrate. Ad esempio, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] passerebbe $9 in ricavi a reporting.
 
    >[!NOTE]
    >
-   >Le entrate non vengono moltiplicate se la quantità viene aumentata in un singolo prodotto. Ad esempio, [!DNL s.products="Womens;Socks;5;4.50"] non passa $22,50 nel reporting, ma passa $4,50. Assicurarsi che l'implementazione superi le entrate totali per la quantità indicata ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >Le entrate non vengono moltiplicate se la quantità viene aumentata in un singolo prodotto. Ad esempio, [!DNL s.products="Womens;Socks;5;4.50"] non passa $22,50 nel reporting, ma passa $4,50. Assicurarsi che l&#39;implementazione superi le entrate totali per la quantità indicata ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
-* [!UICONTROL Revenue] arrotonda l'importo totale per un periodo di tempo al valore della valuta più vicino. Non arrotonda ogni singolo prodotto o hit.
-* Dal momento che Analytics arrotonda ogni giorno alla valuta intera più vicina, il confronto tra la somma di ogni giorno e il totale mensile è di un importo molto ridotto. Questo perché il totale mensile non è la somma di ogni giorno arrotondato, è la somma assoluta arrotondata alla valuta intera più vicina.
-* È possibile creare un rapporto che non arrotonda le entrate alla valuta intera più vicina utilizzando una metrica [](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)calcolata.
+* [!UICONTROL Revenue] arrotonda l&#39;importo totale per un periodo di tempo al valore della valuta più vicino. Non arrotonda ogni singolo prodotto o hit.
+* Dal momento che Analytics arrotonda ogni giorno alla valuta intera più vicina, il confronto tra la somma di ogni giorno e il totale mensile è disattivato di un importo molto limitato. Questo perché il totale mensile non è la somma di ogni giorno arrotondato, è la somma assoluta arrotondata alla valuta intera più vicina.
+* È possibile creare un rapporto che non arrotonda le entrate alla valuta intera più vicina utilizzando una metrica [](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html)calcolata.
 * A meno che non venga utilizzata la `purchaseID` variabile, gli utenti che aggiornano la pagina possono incrementare le entrate man mano che invia più volte tali dati ad Adobe.
 * Le suddivisioni orari si basano sul fuso orario della suite di rapporti.
 * Questo rapporto non contiene elementi di riga. Può essere visualizzato solo in formato con tendenze.
-* È possibile applicare la granularità di ora, giorno, settimana, mese, trimestre e anno. Tali granularità sono disponibili a seconda dell'intervallo di date del rapporto.
-* Questo rapporto può essere suddiviso per i seguenti rapporti (a seconda delle impostazioni dell'organizzazione e della suite di rapporti):
+* È possibile applicare la granularità di ora, giorno, settimana, mese, trimestre e anno. Tali granularità sono disponibili a seconda dell&#39;intervallo di date del rapporto.
+* Questo rapporto può essere suddiviso per i seguenti rapporti (a seconda delle impostazioni dell&#39;organizzazione e della suite di rapporti):
 
    * [!UICONTROL Time Spent per Visit] rapporto.
    * [!UICONTROL Pages and Site Sections] rapporto.
@@ -64,23 +64,23 @@ Utilizzate Revenue (Entrate) per visualizzare il successo e la tendenza generali
 
 ## Proprietà specifiche del prodotto {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* Per accedere a questo rapporto, vai su **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Per accedere a questo rapporto, vai su **[!UICONTROL Conversion]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
 
 * [!UICONTROL Traffic Sources] le suddivisioni sono disponibili in [!UICONTROL Finding Methods].
 
-* Per accedere a questo rapporto, vai su **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Per accedere a questo rapporto, vai su **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
 
 * Oltre a tutte le suddivisioni elencate in precedenza, [!UICONTROL First and Last Touch Marketing Channel] sono disponibili anche le suddivisioni.
 
-* Per accedere a questo rapporto, vai a **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Per accedere a questo rapporto, vai a **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
 
-* Oltre alle suddivisioni precedentemente citate, è possibile utilizzare [!UICONTROL List]le variabili e le [!UICONTROL Video] variabili correnti.
+* Oltre alle disaggregazioni precedentemente citate, è possibile utilizzare [!UICONTROL List]le variabili e le [!UICONTROL Video] variabili correnti.
 
 * Questo rapporto può utilizzare segmenti.
 
 * È possibile suddividere ogni elemento di questo rapporto per tutti gli altri rapporti e variabili, consentendo di visualizzare le suddivisioni per ogni granularità desiderata.
-* Puoi utilizzare tutte [!UICONTROL conversion] e [!UICONTROL traffic] le metriche insieme a [!UICONTROL Revenue]. Puoi utilizzare un'allocazione diversa per tutte [!UICONTROL conversion] le metriche.
+* Puoi utilizzare tutte [!UICONTROL conversion] e [!UICONTROL traffic] le metriche insieme a [!UICONTROL Revenue]. Puoi utilizzare un&#39;allocazione diversa per tutte [!UICONTROL conversion] le metriche.
 
 * Questo report può utilizzare più segmenti altamente avanzati.
 
-Se il rapporto non è disponibile nel percorso specificato, rivolgiti all'amministratore. Potrebbero aver modificato il nome predefinito o la struttura del menu per soddisfare meglio le esigenze specifiche della tua organizzazione.
+Se il rapporto non è disponibile nel percorso specificato, rivolgiti all&#39;amministratore. Potrebbero aver modificato il nome predefinito o la struttura del menu per soddisfare meglio le esigenze specifiche della tua organizzazione.
