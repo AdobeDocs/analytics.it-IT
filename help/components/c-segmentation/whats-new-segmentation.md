@@ -3,7 +3,7 @@ description: Nuove funzioni nella segmentazione di Adobe Analytics.
 title: Scopri le novità di Analysis Segmentation
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
    <td colname="col2"> <p>In una clausola "within", tra istruzioni THEN, è possibile aggiungere, ad esempio, "within 1 search keyword instance", "within 1 eVar 47 instance". In questo modo si vincola il segmento entro un’istanza di una dimensione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: Utilizzare <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  > i segmenti nell'analisi Abbandono </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: Utilizzare <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  > i segmenti nell'analisi Abbandono </a> </p> </td> 
    <td colname="col2"> <p>Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punti di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Area di lavoro Analisi &gt; Confronto segmenti </p> </td> 
-   <td colname="col2"> <p> The <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  > Segment Comparison</a> (Segment IQ) Panel in Analysis Workspace allows customers to quickly compare any two Analytics segments to find the most significant differences between them across all data points. </p> </td> 
+   <td colname="col2"> <p> The <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  > Segment Comparison</a> (Segment IQ) Panel in Analysis Workspace allows customers to quickly compare any two Analytics segments to find the most significant differences between them across all data points. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Crea autorizzazione segmento</span> </p> </td> 
-   <td colname="col2"> <p>Se gli utenti non dispongono dell’autorizzazione <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  ></a>Crea segmento, non possono più accedere al Generatore di segmenti. </p> </td> 
+   <td colname="col2"> <p>Se gli utenti non dispongono dell’autorizzazione <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html"  ></a>Crea segmento, non possono più accedere al Generatore di segmenti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: scomposizione per segmento </p> </td> 
-   <td colname="col2"> <p>È stato aggiunto supporto per <span class="wintitle"> Scomposizione per segmento</span>. Oltre alle scomposizioni Standard (Elementi) e Personalizzate (Approfondimenti) ora potete scomporre i report per segmenti. When you select the <span class="wintitle"> Segments</span> tab, the list will be populated with the same set of segments offered in the <span class="wintitle"> Available segments </span>drop-down list. </p> <p>Gli elementi di riga con appartenenza nel segmento segnaleranno un valore pari a "1" e gli elementi al di fuori del report del segmento "0". </p> </td> 
+   <td colname="col2"> <p>È stato aggiunto supporto per <span class="wintitle"> Scomposizione per segmento </span>. Oltre alle scomposizioni Standard (Elementi) e Personalizzate (Approfondimenti) ora è possibile scomporre i rapporti per segmenti. When you select the <span class="wintitle"> Segments</span> tab, the list will be populated with the same set of segments offered in the <span class="wintitle"> Available segments </span>drop-down list. </p> <p>Gli elementi di riga con appartenenza nel segmento segnaleranno un valore pari a "1" e gli elementi al di fuori del report del segmento "0". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,12 +148,12 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Data Warehouse:Stack di segmenti </p> </td> 
-   <td colname="col2"> <p>Aggiunto a Data Warehouse il supporto per più segmenti (sovrapposizione segmenti). </p> <p>Quando si selezionano più segmenti, l'area di anteprima ora mostra un elenco di nomi separati da virgole (ad es. Segmento 1, Segmento 2). Abbiamo anche aggiornato la pagina Request Manager (Gestore richieste) la finestra popup Request Detail (Dettaglio richieste) per visualizzare l'elenco separato da virgole. </p> </td> 
+   <td colname="col1"> <p>Data Warehouse: Stack di segmenti </p> </td> 
+   <td colname="col2"> <p>Aggiunto a Data Warehouse il supporto per più segmenti (sovrapposizione segmenti). </p> <p>Quando si selezionano più segmenti, l’area di anteprima ora mostra un elenco di nomi separati da virgole (ad es. Segmento 1, Segmento 2). Abbiamo anche aggiornato la pagina Request Manager (Gestore richieste) la finestra popup Request Detail (Dettaglio richieste) per visualizzare l'elenco separato da virgole. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analisi ad hoc: creazione di segmenti dai report di fallout </p> </td> 
-   <td colname="col2"> <p>È stata apportata una modifica alla modalità in cui Analisi ad hoc crea segmenti da un report di fallout. </p> <p>In precedenza, il segmento creato dal report di fallout ignorava tutti i segmenti applicati al report o al livello dell'area di lavoro e includeva solamente regole sequenziali per i punti di controllo nel report. </p> <p>Affinché il segmento generato nel report di fallout produca gli stessi dati del report di fallout, ora integriamo i segmenti provenienti dal report e dall'area di lavoro in ogni punto di controllo del report di fallout. </p> </td> 
+   <td colname="col1"> <p>Ad Hoc Analysis: creazione di segmenti dai report di fallout </p> </td> 
+   <td colname="col2"> <p>È stata apportata una modifica alla modalità in cui Ad Hoc Analysis crea segmenti da un report di fallout. </p> <p>In precedenza, il segmento creato dal report di fallout ignorava tutti i segmenti applicati al report o al livello dell'area di lavoro e includeva solamente regole sequenziali per i punti di controllo nel report. </p> <p>Affinché il segmento generato nel report di fallout produca gli stessi dati del report di fallout, ora integriamo i segmenti provenienti dal report e dall'area di lavoro in ogni punto di controllo del report di fallout. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Modifiche alle autorizzazioni nel Generatore di segmenti </p> </td> 
-   <td colname="col2"> <p>L'utente amministratore può limitare quali utenti possono creare nuovi segmenti. Per impostazione predefinita, tutti gli utenti possono creare segmenti. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Altro...</a> </p> </td> 
+   <td colname="col2"> <p>L'utente amministratore può limitare quali utenti possono creare nuovi segmenti. Per impostazione predefinita, tutti gli utenti possono creare segmenti. <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html"  > Altro...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,7 +263,7 @@ Nuove funzioni nella segmentazione di Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Versione iniziale del nuovo Generatore di segmenti/Gestore di segmenti </p> </td> 
+   <td colname="col1"> <p> Rilascio iniziale del nuovo Segment Builder/Segment Manager (Generatore di segmenti/Gestore di segmenti) </p> </td> 
    <td colname="col2"> <p>I segmenti ora vengono creati, gestiti e utilizzati nelle interfacce utente di Analytics e nelle suite di rapporti. </p> <p>Una nuova interfaccia di Generatore di segmenti consente di creare segmenti semplici, nidificati e sequenziali. Ora puoi applicare più segmenti a un singolo report per evitare duplicazioni logiche in più segmenti. </p> <p>Un nuovo Gestore dei segmenti consente di gestire, approvare, condividere e assegnare tag ai segmenti in modo semplice. I segmenti possono essere pubblicati in Experience Cloud per il targeting basato su Analytics. </p> </td> 
   </tr> 
   <tr> 
