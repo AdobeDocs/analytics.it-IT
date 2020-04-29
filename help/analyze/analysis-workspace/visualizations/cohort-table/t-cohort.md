@@ -5,7 +5,7 @@ title: Esecuzione di un rapporto di analisi per coorte
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -45,7 +45,7 @@ Creare una coorte ed eseguire un rapporto di analisi per coorte in Analysis Work
 
    Seleziona le celle (contigue o non contigue), quindi fai clic con il pulsante destro del mouse e scegli > **[!UICONTROL Create Segment From Selection]** (Crea segmento da selezione).
 
-1. In [Segment Builder](https://marketing.adobe.com/resources/help/it_IT/analytics/segment/seg_build.html) (Generatore di segmenti), modifica ulteriormente il segmento, quindi fai clic su **[!UICONTROL Save]** (Salva).
+1. In [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) (Generatore di segmenti), modifica ulteriormente il segmento, quindi fai clic su **[!UICONTROL Save]** (Salva).
 
    Il segmento salvato è disponibile per l’utilizzo nel pannello [!UICONTROL Segment] (Segmento) di Analysis Workspace.
 1. Rinomina e salva il progetto della coorte.
