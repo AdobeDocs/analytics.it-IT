@@ -4,7 +4,7 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,15 +15,15 @@ Metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzat
 
 >[!IMPORTANT]
 >
->A luglio 2018, Adobe ha introdotto [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), che ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate in nuovi modelli di attribuzione migliorati:
+>A luglio 2018, Adobe ha introdotto [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), che ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate in nuovi modelli di attribuzione migliorati:
 >
->* I modelli di allocazione "Marketing Channel Last Touch" e "Marketing Channel First Touch" sono stati migrati rispettivamente ai nuovi modelli di attribuzione "Last Touch" e "First Touch" (Nota: "Marketing Channels" (Canali di marketing) non è stato dichiarato obsoleto; sono stati visualizzati solo i due modelli di allocazione nelle metriche calcolate.
->* Inoltre, abbiamo corretto il modo in cui viene calcolata l'allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione "Lineare", i report potrebbero leggermente cambiare per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Per ulteriori informazioni, vedere [Funzionamento dell'allocazione lineare a partire dal 19 luglio 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* I modelli di allocazione &quot;Marketing Channel Last Touch&quot; e &quot;Marketing Channel First Touch&quot; sono stati migrati rispettivamente ai nuovi modelli di attribuzione &quot;Last Touch&quot; e &quot;First Touch&quot; (Nota: &quot;Marketing Channels&quot; (Canali di marketing) non è stato dichiarato obsoleto; sono stati visualizzati solo i due modelli di allocazione nelle metriche calcolate.
+>* Inoltre, abbiamo corretto il modo in cui viene calcolata l&#39;allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione &quot;Lineare&quot;, i report potrebbero subire lievi modifiche per riflettere il nuovo modello di attribuzione corretto. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Per ulteriori informazioni, vedere [Funzionamento dell&#39;allocazione lineare a partire dal 19 luglio 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
-I nostri strumenti Metriche calcolate offrono un modo altamente flessibile di creare, gestire e curare le metriche. Consentono agli addetti al marketing, ai product manager e agli analisti di porre domande sui dati senza dover cambiare [!DNL Analytics] l'implementazione. Le metriche personalizzate disponibili in ciascun [!DNL Analytics] pacchetto sono:
+I nostri strumenti Metriche calcolate offrono un modo altamente flessibile di creare, gestire e curare le metriche. Consentono agli addetti al marketing, ai product manager e agli analisti di porre domande sui dati senza dover cambiare [!DNL Analytics] l&#39;implementazione. Le metriche personalizzate disponibili in ciascun [!DNL Analytics] pacchetto sono:
 
-* Adobe [!DNL Analytics] Foundation:Calcolato
+* Adobe [!DNL Analytics] Foundation: Calcolato
 * [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calcolato + Calcolato avanzato
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Calcolato + Calcolato avanzato
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): Calcolato + Calcolato avanzato
@@ -33,7 +33,7 @@ Confronto tra le metriche calcolate e le funzionalità delle metriche calcolate 
 | Opzioni di generazione | Metriche calcolate | Metriche calcolate avanzate (derivate) |
 |---|---|---|
 | [Tipi di formato (decimale, ora, percentuale, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sì | Sì |
-| [Modifiche dell'attribuzione (default, lineare, partecipativo, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
+| [Modifiche dell&#39;attribuzione (default, lineare, partecipativo, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
 | [Tipi di metriche (standard, totale)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
 | Operatori di base (aggiungere, sottrarre, moltiplicare, dividere) | Sì | Sì |
 | [Applicare i segmenti](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | No | Sì |
@@ -45,15 +45,15 @@ Confronto tra le metriche calcolate e le funzionalità delle metriche calcolate 
 È possibile
 
 * Crea metriche tra [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection]e [!UICONTROL Contribution Analysis].
-* Crea metriche segmentate derivate in fase di esecuzione dei report, [senza dover modificare l'implementazione](https://youtu.be/CuQTm9RaUpY). Questi possono essere visualizzati storicamente perché sono basati su segmenti.
+* Crea metriche segmentate derivate in fase di esecuzione dei report, [senza dover modificare l&#39;implementazione](https://youtu.be/CuQTm9RaUpY). Questi possono essere visualizzati storicamente perché sono basati su segmenti.
 * Condividi le metriche tra le suite di rapporti. Ciò significa che tutte le metriche create di recente si applicano a tutte le suite di rapporti nella stessa società di accesso.
-* (Solo metriche calcolate avanzate) Segmento sulle metriche. Ad esempio, puoi creare una metrica per "Nuovi visitatori", con un numero di persone per le quali questa è la prima sessione.
+* (Solo metriche calcolate avanzate) Segmento sulle metriche. Ad esempio, puoi creare una metrica per &quot;Nuovi visitatori&quot;, con un numero di persone per le quali questa è la prima sessione.
 * (Solo Metriche calcolate avanzate) Incorpora funzioni statistiche per descrivere meglio i dati. Ad esempio, puoi contare il numero di elementi in un rapporto o aggiungere il numero di deviazioni standard per ogni elemento.
 * Utilizzare le metriche create in [!UICONTROL Ad Hoc Analysis] negli altri [!DNL Analytics] strumenti e viceversa.
 
    >[!NOTE]
    >
-   >Puoi continuare a creare metriche in Analisi ad hoc. L'interfaccia utente del generatore di metriche calcolate è ora simile al nuovo generatore di metriche.
+   >Puoi continuare a creare metriche in Analisi ad hoc. L&#39;interfaccia utente del generatore di metriche calcolate è ora simile al nuovo generatore di metriche.
 
 ## Limitazioni {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -92,7 +92,7 @@ Di seguito viene fornita una breve panoramica degli [!UICONTROL Calculated Metri
      <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">Copia le definizioni in nuove metriche. </li> 
      <li id="li_8C21F55015D44910904202D2BF74221C">Fornisce un'anteprima delle metriche in linea. </li> 
      <li id="li_3704F66C321C477F9D4F52E068C231BD">Imposta la polarità della metrica, che indica se è buono o cattivo se un dato evento personalizzato (metrica) viene alzato. </li> 
-     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Tag delle metriche. </li> 
+     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Applicare tag alle metriche. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -108,11 +108,11 @@ Di seguito viene fornita una breve panoramica degli [!UICONTROL Calculated Metri
   </tr> 
   <tr> 
    <td colname="col1"> Barra di selezione della metrica </td> 
-   <td colname="col2"> <p>Sostituisce la finestra a comparsa <span class="uicontrol"> Mostra metriche</span> in <span class="uicontrol"> Reporting e analisi</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. Potete inoltre modificare l’ <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > ordine</a> (le opzioni sono: alfabetico, consigliato, utilizzato frequentemente, utilizzato di recente). Inoltre, puoi filtrare le suite di rapporti per mostrare solo le metriche create in una suite di rapporti specifica. </p> <p>Per accedere a questo Selettore metrica, fai clic sull’icona Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un rapporto. Questo è l'aspetto del selettore della metrica: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Sostituisce la finestra a comparsa <span class="uicontrol"> Mostra metriche</span> in <span class="uicontrol"> Reporting e analisi</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. Potete inoltre modificare l’ <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > ordine</a> di ordinamento (le opzioni sono: alfabetico, consigliato, utilizzato frequentemente, utilizzato di recente). Inoltre, puoi filtrare le suite di rapporti per mostrare solo le metriche create in una suite di rapporti specifica. </p> <p>Per accedere a questo Selettore metrica, fai clic sull’icona Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un rapporto. Questo è l'aspetto del selettore della metrica: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API per le metriche calcolate</a> </td> 
-   <td colname="col2"> <p>Parte del set di API Adobe Analytics 2.0. </p> </td> 
+   <td colname="col2"> <p>Parte del set di API di Adobe Analytics 2.0. </p> </td> 
   </tr> 
  </tbody> 
 </table>
