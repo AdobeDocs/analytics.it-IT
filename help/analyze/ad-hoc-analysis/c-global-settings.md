@@ -3,7 +3,7 @@ description: Configurare le impostazioni comportamentali globali. Ad esempio, è
 title: Impostazioni
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ Configurare le impostazioni comportamentali globali. Ad esempio, è possibile co
 
 Configurare le impostazioni comportamentali globali. Ad esempio, è possibile configurare le impostazioni di salvataggio automatico, grafico e tabella e specificare il font e le impostazioni internazionali.
 
-Fate clic **[!UICONTROL Tools]** &gt; **[!UICONTROL Settings]** per accedere [!UICONTROL Global Settings].
+Fate clic su **[!UICONTROL Tools]** > **[!UICONTROL Settings]** per accedere [!UICONTROL Global Settings].
 
 ## Scheda Impostazioni generali - Definizioni {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
@@ -38,7 +38,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Impostazioni dati </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Conteggio istanze</span>ripetute: Specifica se le istanze vengono conteggiate nei report. Ciò significa che, se si dispone di più valori sequenziali per la stessa variabile, è possibile conteggiarli come una o più istanze della variabile. </p> <p>Ad esempio, è possibile che vengano visualizzati ricarichi di pagina ripetuti, ovvero il numero di volte che le pagine del sito Web vengono ricaricate o aggiornate durante una singola visita. Questa opzione consente di specificare se più hit sulla stessa pagina vengono conteggiati come una o più visualizzazioni di pagina. </p> <p> <span class="uicontrol"> <span class="keyword"> Ad Hoc</span> </span>: Specifica <span class="keyword"> Ad Hoc</span> come unica origine di dati per il reporting. Questi dati provengono dalle richieste di immagini generate dalle pagine Web. </p> <p> <span class="uicontrol"> <span class="keyword"> Origini</span> dati </span>: Specifica se utilizzare i dati caricati da altre origini Adobe o da origini dati personalizzate. Questi dati diventano disponibili per i prodotti in <span class="keyword"> Experience Cloud</span>. Per ulteriori informazioni, consulta <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html"  > Origini</a> dati. </p> <p> <span class="uicontrol"> Entrambi</span>: (Impostazione predefinita) Utilizza i dati provenienti da analisi <span class="keyword"></span> ad hoc e da altre origini dati. </p> <p>Nota: La modifica di queste opzioni può causare discrepanze di reporting tra i dati di analisi <span class="keyword"> ad</span> hoc e i dati di reporting e analisi di <span class="keyword"> marketing.</span> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Conteggio istanze</span>ripetute: Specifica se le istanze vengono conteggiate nei report. Ciò significa che, se si dispone di più valori sequenziali per la stessa variabile, è possibile conteggiarli come una o più istanze della variabile. </p> <p>Ad esempio, è possibile che vengano visualizzati ricarichi di pagina ripetuti, ovvero il numero di volte in cui le pagine del sito Web vengono ricaricate o aggiornate durante una singola visita. Questa opzione consente di specificare se più hit sulla stessa pagina vengono conteggiati come uno o più visualizzazioni di pagina. </p> <p> <span class="uicontrol"> <span class="keyword"> Ad Hoc</span> </span>: Specifica <span class="keyword"> Ad Hoc</span> come unica origine di dati per il reporting. Questi dati provengono dalle richieste di immagini generate dalle pagine Web. </p> <p> <span class="uicontrol"> <span class="keyword"> Origini</span> dati </span>: Specifica se utilizzare i dati caricati da altre origini Adobe o da origini dati personalizzate. Questi dati diventano disponibili per i prodotti in <span class="keyword"> Experience Cloud</span>. Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/it-IT/analytics/import/data-sources/datasrc-home.html"  > Origini</a> dati. </p> <p> <span class="uicontrol"> Entrambi</span>: (Impostazione predefinita) Utilizza i dati provenienti da analisi <span class="keyword"></span> ad hoc e da altre origini dati. </p> <p>Nota: La modifica di queste opzioni può causare discrepanze di reporting tra i dati di analisi <span class="keyword"> ad</span> hoc e i dati di reporting e analisi di <span class="keyword"> marketing.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Salva automaticamente </p> </td> 
@@ -97,5 +97,5 @@ r_dsc_font_locale.xml
 
 | Campo | Definizione |
 |--- |--- |
-| Selezionare le impostazioni internazionali | Consente di specificare la lingua da visualizzare nell'interfaccia utente. |
+| Selezionare le impostazioni internazionali | Consente di specificare la lingua da visualizzare nell&#39;interfaccia utente. |
 | Selezionare un font | Consente di specificare un font da visualizzare. |
