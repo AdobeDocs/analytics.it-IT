@@ -3,7 +3,7 @@ description: Un flusso interdimensionale consente di esaminare i percorsi seguit
 title: Flussi interdimensionali
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ Trascina la dimensione Nome campagna in un nuovo flusso:
 Per vedere le pagine per le quali queste campagne generano traffico, trascina la dimensione Pagina a destra dei risultati del flusso per aggiungere altri dati alla visualizzazione:
 
 ![](assets/multi-dimensional-flow9.png)
-
-Ora puoi suddividere il risultato in base ad altre dimensioni o metriche, come ricavo, visite, ecc.
