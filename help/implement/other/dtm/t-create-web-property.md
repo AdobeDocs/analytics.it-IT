@@ -5,7 +5,7 @@ title: Creare proprietà Web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Una proprietà Web può essere un qualsiasi raggruppamento di uno o più domini e sottodomini con una libreria di regole, inclusa in un unico codice da incorporare.
 
->[!NOTE] Solo un utente con diritti di amministratore può creare una proprietà. Per ulteriori informazioni sui ruoli, consulta [Creazione e gestione di gruppi in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) nella Documentazione prodotto Gestione tag dinamica.
+>[!NOTE] Solo un utente con diritti di amministratore può creare una proprietà. Per ulteriori informazioni sui ruoli, consulta [Creazione e gestione di gruppi in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) nella Documentazione prodotto Gestione tag dinamica.
 
 Puoi gestire e tenere traccia di queste risorse con Gestione dinamica dei tag. Ad esempio, supponete di disporre di più siti Web basati su un modello e di voler tenere traccia delle stesse risorse su tutti questi siti Web. È possibile applicare una proprietà Web a più domini.
 
-Per informazioni generali sulle proprietà Web e sulle procedure ottimali, vedere Proprietà [](https://marketing.adobe.com/resources/help/it_IT/dtm/web_property.html) Web nella Documentazione prodotto Gestione tag dinamica.
+Per informazioni generali sulle proprietà Web e sulle procedure ottimali, vedere Proprietà [](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) Web nella Documentazione prodotto Gestione tag dinamica.
 
 1. Andate alla pagina della società, quindi fate clic su **[!UICONTROL Add Property]**.
 
