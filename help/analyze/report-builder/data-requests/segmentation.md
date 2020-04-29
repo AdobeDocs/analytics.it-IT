@@ -4,7 +4,7 @@ title: Gestire segmenti
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Generatore di report dispone di un pannello di segmentazione nel Passaggio 1 del
 >[!NOTE] Per aggiungere o modificare segmenti, l’interfaccia del segmento Generatore di report avvia il generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione del generatore di report rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
 
 1. Nel pannello dei segmenti del Passaggio 1 della Richiesta guidata, fate clic su **[!UICONTROL Add]**.
-1. Viene aperta una finestra di Internet Explorer che apre l’interfaccia di Analytics Segment Builder. Per informazioni su come creare segmenti, consulta [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.translate.html).
+1. Viene aperta una finestra di Internet Explorer che apre l’interfaccia di Analytics Segment Builder. Per informazioni su come creare segmenti, consulta Segmentazione di [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html).
 1. Dopo aver definito e salvato il segmento, tornate alla Richiesta guidata.
 1. Fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 
@@ -39,7 +39,7 @@ Potrebbero essere presenti combinazioni specifiche di dimensioni del rapporto ch
 
    ![](assets/seg_in_context.png)
 
-   Per ulteriori informazioni sui contenitori, consulta la Guida alla [segmentazione](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.translate.html).
+   Per ulteriori informazioni sui contenitori, consulta la Guida alla [segmentazione](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html).
 
 1. L&#39;interfaccia utente di Segment Builder (Generatore di segmenti) verrà ora avviata in Internet Explorer. L’interfaccia utente di Generatore di segmenti verrà inizializzata con il contenitore e il filtro specificati.
 1. Dopo aver aggiunto un nome e una descrizione al segmento, salvatelo.
