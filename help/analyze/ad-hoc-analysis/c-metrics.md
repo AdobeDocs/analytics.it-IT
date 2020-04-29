@@ -3,18 +3,18 @@ description: Le metriche sono informazioni quantitative sull'attività del visit
 title: Metriche
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Metriche
 
-Le metriche sono informazioni quantitative sull'attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, date, unità, ordini, ricavi e così via. Metriche e dati associati sono visualizzati nelle colonne dei rapporti.
+Le metriche sono informazioni quantitative sull&#39;attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, date, unità, ordini, ricavi e così via. Metriche e dati associati sono visualizzati nelle colonne dei rapporti.
 
 ## Metriche {#concept_46A67930CFDB4A078225C5B189688AF3}
 
-Le metriche sono informazioni quantitative sull'attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, date, unità, ordini, ricavi e così via. Metriche e dati associati sono visualizzati nelle colonne dei rapporti.
+Le metriche sono informazioni quantitative sull&#39;attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, date, unità, ordini, ricavi e così via. Metriche e dati associati sono visualizzati nelle colonne dei rapporti.
 
 Le metriche standard includono:
 
@@ -22,7 +22,7 @@ Le metriche standard includono:
 * **Conversione**: Visualizzate sul sito Web i dati relativi agli eventi di successo. Gli eventi di successo possono includere acquisti, download o qualsiasi altra azione che desideri che gli utenti intraprendano sul tuo sito Web.
 * **Calcolato**: Metriche personalizzabili create combinando altre metriche. Ad esempio, puoi creare una metrica che sottrae il costo della parola chiave e il costo delle merci dalle entrate per ottenere le entrate nette. È quindi possibile suddividere questo importo per il numero totale di ordini per ottenere ricavi netti medi per ordine.
 
-Consulta Definizioni [](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) metriche nella Guida di riferimento *di* Analytics per informazioni sull'utilizzo delle metriche nel [!DNL Experience Cloud].
+Consulta Definizioni [](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html) metriche nella Guida di riferimento *di* Analytics per informazioni sull&#39;utilizzo delle metriche nel [!DNL Experience Cloud].
 
 Potete usare lo [!UICONTROL Organize Metrics] strumento per creare nuove cartelle per le metriche. Potete quindi raggruppare le metriche nel modo desiderato. L’organizzatore consente di copiare le metriche esistenti nelle cartelle personalizzate tramite trascinamento.
 
@@ -80,7 +80,7 @@ c_calc_metric_builder.xml
 
  -->
 
-Per ulteriori informazioni sulle modalità di creazione e gestione delle metriche calcolate, consulta la Guida [alla metrica](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)calcolata.
+Per ulteriori informazioni sulle modalità di creazione e gestione delle metriche calcolate, consulta la Guida [alla metrica](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html)calcolata.
 
 Di seguito è illustrato come accedere al Generatore di metriche calcolate in Analisi ad hoc:
 
@@ -88,7 +88,7 @@ Di seguito è illustrato come accedere al Generatore di metriche calcolate in An
 
    ![](assets/more_options_calc.png)
 
-1. L'interfaccia Calculated Metric Builder (Generatore di metriche calcolate) consente di trascinare metriche, segmenti e funzioni per creare metriche personalizzate:
+1. L&#39;interfaccia Calculated Metric Builder (Generatore di metriche calcolate) consente di trascinare metriche, segmenti e funzioni per creare metriche personalizzate:
 
    ![](assets/calc_metrics.png)
 
