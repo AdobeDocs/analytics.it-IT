@@ -5,7 +5,7 @@ title: Aggiunta dello strumento Adobe Analytics
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strumento Adobe Analytics e configurando il codice di pagina automaticamente o manualmente. Il metodo automatico è consigliato per la maggior parte degli utenti.
 
->[!NOTE] Per migliorare il tracciamento dei visitatori, ti consigliamo vivamente di abilitare [Identity Service](https://marketing.adobe.com/resources/help/it_IT/mcvid/).
+>[!NOTE] Per migliorare il tracciamento dei visitatori, ti consigliamo vivamente di abilitare [Identity Service](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -37,7 +37,7 @@ Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strume
    <td colname="col2">Tipo di strumento, ad esempio <span class="keyword"> Adobe Analytics</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nome strumento </p> </td> 
+   <td colname="col1"> <p>Nome dello strumento </p> </td> 
    <td colname="col2">Un nome descrittivo per lo strumento. Questo nome viene visualizzato nella scheda <span class="wintitle"> Panoramica</span> in <span class="wintitle"> Strumenti</span>installati. </td> 
   </tr> 
   <tr> 
@@ -45,11 +45,11 @@ Distribuisci Adobe Analytics utilizzando Gestione tag dinamica creando lo strume
    <td colname="col2"> <p> <b>Automatico</b> (consigliato): Utilizzate la gestione tag dinamica per gestire la configurazione. Questo metodo abilita la sincronizzazione automatica delle suite di rapporti di <span class="keyword"> Adobe Analytics</span> tramite un accesso <span class="keyword"> Experience Cloud</span> o un ID di servizi Web e gestisce il codice AppMeasurement. </p> <p>Una volta connessi gli account, Gestione tag dinamica porta gli ID e i nomi delle suite di rapporti di <span class="keyword"> Adobe Analytics</span> nell'interfaccia di configurazione dello strumento, consentendo una maggiore velocità nella distribuzione degli strumenti con minori possibilità di errori da parte degli utenti. </p> <p> <p>Nota: È necessario scegliere l'opzione <span class="wintitle"> Automatico</span> se siete clienti <span class="keyword"> Adobe Analytics Premium</span> . </p> </p> <p>Compila i campi specifici per la configurazione automatica: </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>: (Impostazione predefinita) Utilizza il single sign-on <span class="keyword"> Experience Cloud</span> . Specifica il tuo Experience Cloud ID e la password. </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Servizi</b>Web: Specifica il tuo nome utente Servizi Web e il segreto condiviso. </p> <p>Le credenziali segrete condivise si trovano in <span class="uicontrol"> Admin </span> (Amministratore) &gt; <span class="uicontrol"> Company Settings (Impostazioni</span> società) &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html"> Web Services (Servizi</a>Web). </p> <p>Per informazioni su come ottenere le credenziali dei servizi Web, vedere <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api"> Accesso ai servizi Web nell'API</a> Enterprise. </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Servizi</b>Web: Specifica il tuo nome utente Servizi Web e il segreto condiviso. </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html"> Web Services</a>. </p> <p>Per informazioni su come ottenere le credenziali dei servizi Web, vedere <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api"> Accesso ai servizi Web nell'API</a> Enterprise. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuale</b>: Gestisci manualmente il codice AppMeasurement. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Fate clic su <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html"> JavaScript (nuovo)</a> per informazioni su come scaricare localmente il codice per copiare e incollare nel campo <span class="wintitle"> Modifica codice</span> in Gestione <a href="/help/implement/other/dtm/c-aa-tool/library-management.md"></a>libreria. </p> <p>Compila i campi specifici per una configurazione manuale: </p> 
+   <td colname="col2"> <p> <b>Manuale</b>: Gestisci manualmente il codice AppMeasurement. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Fate clic su <a href="https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html"> JavaScript (nuovo)</a> per informazioni su come scaricare localmente il codice per copiare e incollare nel campo <span class="wintitle"> Modifica codice</span> in Gestione <a href="/help/implement/other/dtm/c-aa-tool/library-management.md"></a>libreria. </p> <p>Compila i campi specifici per una configurazione manuale: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID account produzione: </b>(Obbligatorio) Account di produzione per la raccolta dei dati. Per Analytics, questo è l’ID della tua suite di rapporti. Dynamic Tag Management installa automaticamente l’account corretto nell’ambiente di produzione e di staging. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID account di gestione temporanea: </b>(Obbligatorio) Utilizzato nell'ambiente di sviluppo o di test. Per Analytics, questo è l’ID della tua suite di rapporti. Un account di staging mantiene i dati di test separati dalla produzione. </p> </li> 
