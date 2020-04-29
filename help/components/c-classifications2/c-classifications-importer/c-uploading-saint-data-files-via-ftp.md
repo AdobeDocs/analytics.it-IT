@@ -5,7 +5,7 @@ title: Importazione FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ Se hai superato i valori univoci per il mese, non vedrai i dati di classificazio
 
 >[!NOTE] Il tempo necessario per elaborare un file di dati di classificazione varia in base alle dimensioni del file e al numero corrente di file già elaborati dai server Adobe. L&#39;elaborazione dei file di dati in genere non richiede più di 72 ore.
 
-Prima di caricare i dati tramite FTP, create un account FTP. Per ulteriori informazioni, consulta [Creazione di un account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)FTP.
+Prima di caricare i dati tramite FTP, create un account FTP. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importazione di classificazioni tramite FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -70,7 +70,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-Per ulteriori informazioni sui server Adobe FTP, consultate [FTP e sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/) .
+Per ulteriori informazioni sui server Adobe FTP, consultate [FTP e sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html) .
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.
@@ -81,7 +81,7 @@ Per ulteriori informazioni sui server Adobe FTP, consultate [FTP e sFTP](https:/
    |---|---|
    | Nome | Nome account FTP. |
    | Set di dati da classificare | Dall&#39;elenco a discesa, selezionate il set di dati (variabile del rapporto di marketing) da classificare. |
-   | Seleziona suite di rapporti | Selezionare le suite di rapporti in cui si desidera classificare il set di dati selezionato. Per selezionare più suite di rapporti, le classificazioni per ciascuna delle suite selezionate devono essere identiche. |
+   | Selezionare suite di rapporti | Selezionare le suite di rapporti in cui si desidera classificare il set di dati selezionato. Per selezionare più suite di rapporti, le classificazioni per ciascuna delle suite selezionate devono essere identiche. |
    | Sovrascrivi dati sui conflitti | Selezionare questa opzione per sovrascrivere i dati duplicati. Questa opzione è utile se state aggiornando le classificazioni esistenti. Se state aggiungendo classificazioni aggiuntive, questa opzione non è consigliata. |
    | Dopo l&#39;importazione è stata completata | Selezionate questa opzione per esportare automaticamente il set di dati aggiornato sullo stesso account FTP una volta che Specificate l&#39;indirizzo e-mail per la ricezione delle notifiche su questo account FTP una volta completata l&#39;importazione. |
    | Destinatario delle notifiche | Specificate l&#39;indirizzo e-mail per ricevere le notifiche su questo account FTP. |
