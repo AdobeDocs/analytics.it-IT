@@ -2,18 +2,12 @@
 title: Implementazione di Analytics per gli assistenti digitali
 description: Implementare Adobe Analytics sugli assistenti digitali, come Amazon Alexa o Google Home.
 translation-type: tm+mt
-source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Implementazione di Analytics per gli assistenti digitali
-
-<!-- 
-https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper
-https://marketing.adobe.com/resources/help/en_US/sc/implement/digital-assistants-white-paper.html
-Ticket: https://jira.corp.adobe.com/browse/AN-157750
--->
 
 Con i recenti progressi nel cloud computing, nell&#39;apprendimento automatico e nell&#39;elaborazione del linguaggio naturale, gli assistenti digitali stanno diventando parte della vita quotidiana. I consumatori stanno iniziando a parlare con i loro dispositivi e si aspettano che capiscano e rispondano in modi simili a quelli umani. Man mano che queste piattaforme diventano più affermate, i marchi possono presentare i loro servizi ai consumatori in questi stessi modi realistici e realistici. Ad esempio, i consumatori possono chiedere cose come:
 
@@ -42,7 +36,7 @@ Durante una richiesta sono presenti due volte che possono essere utili per invia
 1. Quando la richiesta viene inviata all&#39;app.
 1. Dopo che la risposta viene restituita dall&#39;app.
 
-Se sei interessato a registrare ciò che è successo al cliente per un&#39;ottimizzazione futura, invia una richiesta ad Adobe Analytics dopo la restituzione della risposta. Il contesto completo della richiesta e della risposta del sistema.
+Se sei interessato a registrare ciò che è successo con il cliente per un&#39;ottimizzazione futura, invia una richiesta ad Adobe Analytics dopo la restituzione della risposta. Il contesto completo della richiesta e della risposta del sistema.
 
 ## Nuove installazioni
 
@@ -77,7 +71,7 @@ Cache-Control: no-cache
 
 ## Identificazione utente/visitatore
 
-Adobe Analytics utilizza il servizio [](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Cloud Identity per collegare le interazioni nel tempo alla stessa persona. La maggior parte degli assistenti digitali restituisce un `userID` valore che è possibile utilizzare per mantenere l&#39;attività per utenti diversi. Nella maggior parte dei casi, questo valore è quello che potete trasmettere come identificatore univoco. Alcune piattaforme restituiscono un identificatore che supera i 100 caratteri consentiti. In questi casi, Adobe consiglia di applicare l’hash dell’identificatore univoco a un valore di lunghezza fissa utilizzando un algoritmo di hash standard, ad esempio MD5 o Sha1.
+Adobe Analytics utilizza il servizio [](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) Adobe Experience Cloud Identity per collegare le interazioni nel tempo alla stessa persona. La maggior parte degli assistenti digitali restituisce un `userID` valore che è possibile utilizzare per mantenere l&#39;attività per utenti diversi. Nella maggior parte dei casi, questo valore è quello che potete trasmettere come identificatore univoco. Alcune piattaforme restituiscono un identificatore che supera i 100 caratteri consentiti. In questi casi, Adobe consiglia di applicare l’hash dell’identificatore univoco a un valore di lunghezza fissa utilizzando un algoritmo di hash standard, ad esempio MD5 o Sha1.
 
 L’utilizzo del servizio ID fornisce il massimo valore quando si esegue la mappatura di ECID su diversi dispositivi (ad esempio, Web-assistente digitale). Se l’app è un’app mobile, usa gli SDK della piattaforma Experience così com’è e invia l’ID utente utilizzando il `setCustomerID` metodo . Tuttavia, se l’app è un servizio, utilizzate l’ID utente fornito dal servizio come ECID, nonché impostatelo in `setCustomerID`.
 
@@ -91,17 +85,17 @@ Cache-Control: no-cache
 
 Poiché gli assistenti digitali sono conversazionali, spesso hanno il concetto di sessione. Ad esempio:
 
-**** Consumatore: &quot;Ok Google, chiama un taxi per me&quot;
+**Consumatore:** &quot;Ok Google, chiama un taxi per me&quot;
 
 **Google:**: &quot;Certo, a che ora vuoi?&quot;
 
-**** Consumatore: &quot;8:30 pm&quot;
+**Consumatore:** &quot;8:30 pm&quot;
 
-**** Google: &quot;Suona bene, il driver sarà entro le 8:30 pm&quot;
+**Google:** &quot;Suona bene, il driver sarà entro le 8:30 pm&quot;
 
 Le sessioni sono importanti per mantenere il contesto e aiutare a raccogliere più dettagli per rendere più naturale l&#39;assistente digitale. Quando si implementa Analytics in una conversazione, all&#39;avvio di una nuova sessione è necessario eseguire due operazioni:
 
-1. **Rivolgiti ad Audience Manager**: Ottenete i segmenti rilevanti di cui l’utente fa parte per personalizzare la risposta. Ad esempio, questa persona attualmente si qualifica per lo sconto multicanale.
+1. **Rivolgiti ad Audience Manager**: Ottenete i segmenti rilevanti di cui l’utente fa parte in modo da poter personalizzare la risposta. Ad esempio, questa persona attualmente si qualifica per lo sconto multicanale.
 2. **Invia in una nuova sessione o in un nuovo evento** di avvio: Quando inviate la prima risposta ad Analytics, includete un evento di avvio. Solitamente, questo può essere inviato impostando i dati contestuali di `a.LaunchEvent=1`.
 
 ```text
@@ -160,7 +154,7 @@ Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
-## Funzionalità dispositivo
+## Funzionalità del dispositivo
 
 Anche se la maggior parte delle piattaforme non espone il dispositivo a cui l&#39;utente ha parlato, espone le capacità del dispositivo. Ad esempio, Audio, Schermo, Video, ecc. Questa informazione è utile perché definisce i tipi di contenuto che possono essere utilizzati per interagire con gli utenti. Per misurare le funzionalità dei dispositivi, è consigliabile concatenarle (in ordine alfabetico).
 
@@ -178,7 +172,7 @@ I punti iniziali e finali sono utili per la creazione di segmenti. Ad esempio, m
 | Installa spoofide | Nessuna risposta | Installazione | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Riproduci spoofide | &quot;Ok, giocare a Spoofify&quot; | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Cambia canzone | &quot;Ok, che canzone vuoi?&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Gioca &quot;Baby Shark&quot; | &quot;Ok, giocando &#39;Baby Shark&#39; di PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Gioca &quot;Baby Shark&quot; | &quot;Ok, suonando &#39;Baby Shark&#39; di PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Cambia playlist | &quot;Ok, quale playlist vuoi?&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Riproduci la playlist delle mie canzoni preferite | &quot;Ok, suonate la playlist dei vostri brani preferiti&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Spegni musica | Nessuna risposta, la musica si spegne | Disattivato | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Disattivazione della musica | Nessuna risposta, la musica si spegne | Disattivato | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
