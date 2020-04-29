@@ -3,7 +3,7 @@ description: Per accedere a queste funzioni, selezionare Mostra avanzate dall'el
 title: Funzioni avanzate di riferimento
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -65,7 +65,7 @@ Questo è il modo in cui la metrica &quot;Approximate Customers&quot; (Clienti a
 
 ## Superato il numero di errori {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai limiti [di](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)&quot;univesità superate&quot;. Se per una dimensione viene raggiunto il limite di &quot;univoci superate&quot; entro un mese specifico, il valore viene conteggiato come 1 elemento dimensione.
+Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai limiti [di](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html)&quot;univesità superate&quot;. Se per una dimensione viene raggiunto il limite di &quot;univoci superate&quot; entro un mese specifico, il valore viene conteggiato come 1 elemento dimensione.
 
 ## Confronto delle funzioni di conteggio {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -265,11 +265,11 @@ FLOOR(metric)
 |---|---|
 | *metrica* | La metrica da arrotondare. |
 
-## Maggiore di {#concept_A83734A0C0C14646B76D2CC5E677C644}
+## Greater Than {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
 Restituisce elementi il cui conteggio numerico è maggiore del valore immesso.
 
-## Maggiore o uguale a {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
+## Greater Than or Equal {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
 
 Restituisce elementi il cui conteggio numerico è maggiore o uguale al valore immesso.
 
