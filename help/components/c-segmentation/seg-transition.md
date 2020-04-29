@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: nulle
 keywords: segmentation;segments
 title: Domande frequenti
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,19 +18,19 @@ Risposte alle domande frequenti su funzioni di segmentazione, accesso, autorizza
 
 * Segmentazione in Analysis Workspace:
 
-   * Puoi [confrontare i segmenti](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html).
-   * Utilizza [i segmenti come dimensioni](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) in un confronto.
-   * Use segments in [fallout analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
+   * Puoi [confrontare i segmenti](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+   * Utilizza [i segmenti come dimensioni](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/audience-library.html) in un confronto.
+   * Use segments in [fallout analysis](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
-* Puoi [applicare più segmenti a un rapporto o progetto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* Puoi [applicare più segmenti a un rapporto o a un progetto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * I segmenti sono universali per tutte le suite di rapporti.
 * Il Generatore di [segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) semplifica la creazione di segmenti.
 * Gestione [](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) segmenti consente di impostare [flussi di lavoro](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) con funzioni di condivisione dei segmenti, assegnazione di tag, verifica e approvazione.
 
-* Puoi assegnare [tag ai segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) per organizzarli ed effettuare ricerche in un secondo momento, anziché utilizzare le cartelle. Precedentemente, per organizzare i segmenti erano state utilizzate le cartelle [!DNL Ad Hoc Analysis].
+* Puoi assegnare [tag ai segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) per organizzarli ed effettuare ricerche in un secondo momento, anziché utilizzare le cartelle. Precedentemente, per organizzare i segmenti erano state utilizzate le cartelle (in [!DNL Ad Hoc Analysis]).
 
 * Puoi creare segmenti [](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) sequenziali all’esterno di Analisi ad hoc.
-* Il contenitore Visualizzazione pagina è stato rinominato nel contenitore Hit per indicare che questo contenitore segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore degli hit. Notate che non c'è stata una modifica al modo in cui funziona questo contenitore - è stato semplicemente rinominato.
+* Il contenitore Visualizzazione pagina è stato rinominato nel contenitore Hit per indicare che questo contenitore segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore degli hit. Notate che non c&#39;è stata una modifica al modo in cui funziona questo contenitore - è stato semplicemente rinominato.
 
 Per ulteriori informazioni, consulta il post [Miglioramento della segmentazione in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) sul blog Digital Marketing.
 
@@ -40,7 +40,7 @@ Per ulteriori informazioni, consulta il post [Miglioramento della segmentazione 
 
 Per accedere al Generatore di segmenti:
 
-* Visualizzare un rapporto esistente e fare clic sull'icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]** oppure
+* Visualizzare un rapporto esistente e fare clic sull&#39;icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]** oppure
 
 * Nella parte superiore del Gestore segmenti, fai clic su **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
@@ -52,21 +52,21 @@ Per accedere al Generatore di segmenti:
 
 Accedi a Segment Manager tramite:
 
-* Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** nella navigazione superiore. Quindi fai clic su **[!UICONTROL Segments]** (Crea), oppure
+* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** nella navigazione superiore. Quindi fai clic su **[!UICONTROL Segments]** (Crea), oppure
 
-* Visualizzare un rapporto esistente e fare clic sull'icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]** (Crea), oppure
+* Visualizzare un rapporto esistente e fare clic sull&#39;icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]** (Crea), oppure
 
-* Premere il tasto barra '/' ovunque nell'interfaccia e cercare Segment Manager.
+* Premere il tasto barra &#39;/&#39; ovunque nell&#39;interfaccia e cercare Segment Manager.
 
-**Dov'è andato a discesa il segmento legacy?**
+**Dov&#39;è andato a discesa il segmento legacy?**
 
-Il menu a discesa dei segmenti in Reporting e analisi è stato sostituito da un'interfaccia molto più ampia di Generatore [di](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) segmenti che consente di creare segmenti "universali" utilizzabili tra le suite di rapporti e tra le soluzioni Adobe Analytics. Per visualizzare un elenco dei segmenti esistenti, fai clic sull’icona Segmenti ![](assets/segment_icon.png)
+Il menu a discesa dei segmenti in Reporting e analisi è stato sostituito da un&#39;interfaccia molto più ampia di Generatore [di](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) segmenti che consente di creare segmenti &quot;universali&quot; utilizzabili tra le suite di rapporti e tra le soluzioni Adobe Analytics. Per visualizzare un elenco dei segmenti esistenti, fai clic sull’icona Segmenti ![](assets/segment_icon.png)
 
 nella barra di navigazione a sinistra e viene visualizzata la barra dei segmenti.
 
-**Dov'è andato a discesa la suite di rapporti legacy?**
+**Dov&#39;è andato a discesa la suite di rapporti legacy?**
 
-Il menu a discesa della suite di rapporti è stato spostato accanto al selettore di date nell'angolo superiore destro di ciascun rapporto o dashboard.
+Il menu a discesa della suite di rapporti è stato spostato accanto al selettore di date nell&#39;angolo superiore destro di ciascun rapporto o dashboard.
 
 ![](assets/report_suite_selector.png)
 
@@ -74,9 +74,9 @@ Il menu a discesa della suite di rapporti è stato spostato accanto al selettore
 
 **Quali diritti e privilegi devo utilizzare, creare e gestire i segmenti?**
 
-Per impostazione predefinita, tutti gli utenti possono creare e modificare segmenti personali. Tuttavia, gli amministratori possono decidere chi deve disporre [delle autorizzazioni per creare segmenti](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) e assegnarli a gruppi specifici. Questi segmenti possono essere condivisi direttamente con qualsiasi altro utente Analytics.
+Per impostazione predefinita, tutti gli utenti possono creare e modificare segmenti personali. Tuttavia, gli amministratori possono decidere chi deve disporre [delle autorizzazioni per creare segmenti](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html) e assegnarli a gruppi specifici. Questi segmenti possono essere condivisi direttamente con qualsiasi altro utente Analytics.
 
-Gli amministratori possono modificare qualsiasi segmento e condividere i segmenti con i gruppi e con tutti gli altri membri dell'organizzazione. [Altro...](/help/components/c-segmentation/seg-reference/seg-rights.md)
+Gli amministratori possono modificare qualsiasi segmento e condividere i segmenti con i gruppi e con tutti gli altri membri dell&#39;organizzazione. [Altro...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **Posso visualizzare tutti i segmenti nella mia azienda?**
 
@@ -86,11 +86,11 @@ Analisi ad hoc e Generatore di report mostrano segmenti di proprietà e segmenti
 
 **Posso gestire tutti i segmenti di Analytics in Segment Manager?**
 
-Sì, tutti i segmenti possono essere gestiti in Gestore segmenti in Analysis Workspace, Reporting e analisi e Analisi ad hoc. Segment Manager (Gestione segmenti) visualizza i segmenti che sono visibili al proprietario (utente che ha creato il segmento), agli utenti condivisi e agli utenti amministratori. Il selettore dei segmenti visualizza i segmenti di proprietà e condivisi con l’utente.
+Sì, tutti i segmenti possono essere gestiti in Segment Manager (Gestore segmenti) in Analysis Workspace, Reporting e analisi e Analisi ad hoc. Segment Manager (Gestione segmenti) visualizza i segmenti che sono visibili al proprietario (utente che ha creato il segmento), agli utenti condivisi e agli utenti di amministrazione. Il selettore dei segmenti visualizza i segmenti di proprietà e condivisi con l’utente.
 
 Gli amministratori possono visualizzare tutti i segmenti all’interno di Analysis Workspace e delle interfacce [!DNL Reports & Analytics] utente.
 
-In Analisi ad hoc e Generatore di report sono visualizzati solo i segmenti generati dall'utente o che sono stati condivisi specificatamente con l'utente.
+Analisi ad hoc e Generatore di report mostrano solo i segmenti generati dall&#39;utente stesso o che sono stati condivisi specificatamente con l&#39;utente.
 
 **Perché non posso eliminare questo segmento?**
 
@@ -98,7 +98,8 @@ Se il segmento è stato [pubblicato in Experience Cloud](/help/components/c-segm
 
 ## Best practice {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
-**Cosa devo fare con segmenti duplicati con lo stesso nome ma con definizioni diverse?** Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. È consigliabile
+**Cosa devo fare con segmenti duplicati con lo stesso nome ma con definizioni diverse?**
+Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. È consigliabile
 
 * Rinominare segmenti con lo stesso nome, ma definizioni diverse, oppure
 * Elimina segmenti non più necessari.
@@ -106,14 +107,14 @@ Se il segmento è stato [pubblicato in Experience Cloud](/help/components/c-segm
 **Cosa consiglia Adobe per quanto riguarda la pulizia dei segmenti?**
 
 * Assegna tag a tutti i segmenti con tag legacy.
-* Rivedete i segmenti disponibili.
+* Rivedete i segmenti che avete.
 * Aggiungeteli alla libreria dei segmenti, se applicabile.
 * Approva segmenti canonici.
 * Assegnare tag ai segmenti in base alle [best practice](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Gestione dei segmenti legacy {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-**Cosa è successo ai segmenti esistenti?**
+**Cos&#39;è successo ai segmenti esistenti?**
 
 I segmenti esistenti continueranno a funzionare come prima. Tutti i report a cui sono applicati questi segmenti continueranno a funzionare correttamente. [Altro...](/help/components/c-segmentation/seg-transition.md)
 
@@ -123,11 +124,11 @@ I modelli di segmento sono contrassegnati da un’icona speciale in Generatore d
 
 ![](assets/seg_templates.png)
 
-**Cos'è successo alle cartelle dei segmenti esistenti?**
+**Cos&#39;è successo alle cartelle dei segmenti esistenti?**
 
 Invece delle cartelle (Analisi ad hoc), il Gestore dei segmenti utilizza i tag. I nomi delle cartelle vengono automaticamente convertiti in tag e tali tag vengono applicati ai rispettivi segmenti.
 
-**Cos'è successo ai report pianificati con segmenti applicati?**
+**Cos&#39;è successo ai report pianificati con segmenti applicati?**
 
 I report pianificati continuano a essere eseguiti correttamente con i segmenti definiti.
 
@@ -137,7 +138,7 @@ I rapporti pianificati non vengono aggiornati quando si modifica un segmento con
 
 ![](assets/duplicate_seg_names.png)
 
-È presente un segnalibro che fa riferimento al segmento della suite di rapporti principale. Quindi si elimina quel segmento perché è un duplicato. Il segnalibro continuerà a essere eseguito, facendo riferimento alla definizione del segmento eliminato. Se si modifica la definizione del segmento per il segmento principale in modo da includere Catalina Island e Tijuana Mexico, il segmento applicato al segnalibro non verrà modificato. Utilizzerà la vecchia definizione. Per risolvere il problema, aggiornare il segnalibro in modo che faccia riferimento alla nuova definizione. Se non sei sicuro se un segnalibro, una dashboard o un rapporto pianificato utilizza un segmento eliminato, puoi modificare il nome del segmento rimanente in modo che sia più chiaro se il segnalibro utilizza il segmento rimanente.
+È presente un segnalibro che fa riferimento al segmento per la suite di rapporti principale. Quindi si elimina quel segmento perché è un duplicato. Il segnalibro continuerà a essere eseguito, facendo riferimento alla definizione del segmento eliminato. Se si modifica la definizione del segmento per il segmento principale in modo da includere Catalina Island e Tijuana Mexico, il segmento applicato al segnalibro non verrà modificato. Utilizzerà la vecchia definizione. Per risolvere il problema, aggiornare il segnalibro in modo che faccia riferimento alla nuova definizione. Se non sei sicuro se un segnalibro, una dashboard o un rapporto pianificato utilizza un segmento eliminato, puoi modificare il nome del segmento rimanente in modo che sia più chiaro se il segnalibro utilizza il segmento rimanente.
 
 **Cosa succede ai segmenti Data Warehouse?**
 
@@ -177,7 +178,7 @@ La maggior parte di questi segmenti (tranne quelli contrassegnati con un asteris
 
 I rapporti esistenti con questi segmenti continueranno a funzionare correttamente.
 
-**Cosa succede ai segmenti Admin (noti anche come segmenti "globali")?**
+**Cosa succede ai segmenti Admin (noti anche come segmenti &quot;globali&quot;)?**
 
 **I segmenti amministratore** verranno migrati nella nuova interfaccia del segmento e visualizzati come segmenti condivisi con tutti.
 
@@ -191,11 +192,11 @@ seg_definition.xml
 
  -->
 
-I segmenti esistenti che utilizzano la logica modificata come descritto in questo documento continuano a funzionare correttamente, anche se devono essere aggiornati prima di poter essere salvati di nuovo. Ad esempio, se hai un segmento esistente in cui Stati Uniti contiene 'New York', continua a funzionare correttamente, anche se la prossima volta che modifichi il segmento dovrai aggiornarlo per utilizzare il tipo enumerato con una condizione uguale.
+I segmenti esistenti che utilizzano la logica modificata come descritto in questo documento continuano a funzionare correttamente, anche se devono essere aggiornati prima di poter essere salvati di nuovo. Ad esempio, se hai un segmento esistente in cui Stati Uniti contiene &#39;New York&#39;, continua a funzionare correttamente, anche se la prossima volta che modifichi il segmento dovrai aggiornarlo per utilizzare il tipo enumerato con una condizione uguale.
 
 **Suggerimenti sulla migrazione**
 
-I seguenti suggerimenti sono utili per migrare dimensioni comuni:
+I seguenti suggerimenti sono utili per migrare le dimensioni comuni:
 
 * Geo-city/region/country - cerca e seleziona città, regioni o paesi specifici invece di utilizzare una partita parziale.
 * Browser - utilizzare la dimensione Tipi di browser per ottenere tutti i browser in un tipo, ad esempio Google Chrome
@@ -256,11 +257,11 @@ La tabella seguente contiene un elenco di dimensioni rinominate in Segment Build
   <tr> 
    <td colname="col1"> - </td> 
    <td colname="col2"> "App - *" </td> 
-   <td colname="col3"> i prefissi "App -" sono stati rimossi da diversi tipi di dimensioni. Poiché i dati delle app mobili vengono generalmente acquisiti in una suite di rapporti che non contiene dati Web, questi prefissi non erano necessari. </td> 
+   <td colname="col3"> i prefissi "App -" sono stati rimossi da diversi tipi di dimensioni. Poiché i dati dell'app mobile vengono generalmente acquisiti in una suite di rapporti che non contiene dati Web, questi prefissi non erano necessari. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Pagina di entrata originale </td> 
-   <td colname="col2"> Pagina iniziale originale </td> 
+   <td colname="col2"> Pagina di entrata originale </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
@@ -328,7 +329,7 @@ La tabella seguente contiene un elenco di dimensioni rinominate in Segment Build
 
 ## Modifiche alle dimensioni basate su stringhe con valori noti {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
-Le dimensioni basate sulle stringhe con un insieme noto di valori sono state modificate in tipi enumerati. Quando create un segmento utilizzando queste dimensioni, l'elenco viene precompilato con tutti i valori noti e l'unico operatore supportato è uguale. Questo consente di segmentare rapidamente i valori esatti cercati senza selezionare valori non desiderati quando si utilizza una corrispondenza meno restrittiva.
+Le dimensioni basate sulle stringhe con un insieme noto di valori sono state modificate in tipi enumerati. Quando si crea un segmento utilizzando queste dimensioni, l&#39;elenco viene precompilato con tutti i valori noti e l&#39;unico operatore supportato è uguale. Questo consente di segmentare rapidamente i valori esatti cercati senza selezionare valori non desiderati quando si utilizza una corrispondenza meno restrittiva.
 
 Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
@@ -350,8 +351,8 @@ Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
 ## Modifiche alle dimensioni basate su numeri interi con valori noti {#section_84A8AAD0344148AD9F9211D3EB271903}
 
-Le dimensioni basate su numeri interi (come la larghezza del browser) con un set noto di valori sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Questi elenchi enumerati vengono aggiunti con " - Buckets" dopo il nome della dimensione. La schermata seguente illustra come queste dimensioni vengono segmentate utilizzando le interfacce generatore di segmenti precedente e nuova:
+Le dimensioni basate su numeri interi (come la larghezza del browser) con un set noto di valori sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Questi elenchi enumerati vengono aggiunti con &quot; - Buckets&quot; dopo il nome della dimensione. La schermata seguente illustra come queste dimensioni vengono segmentate utilizzando le interfacce generatore di segmenti precedente e nuova:
 
 ![](assets/seg_browser_dimension.png)
 
-Gli operatori minore, maggiore di e simili ora sono compatibili solo con i segmenti Data Warehouse. I segmenti destinati ad essere compatibili con tutte le interfacce di reporting devono utilizzare la versione "Bucketing" della metrica con l'operatore equals.
+Gli operatori minore, maggiore di e simili ora sono compatibili solo con i segmenti Data Warehouse. I segmenti destinati ad essere compatibili con tutte le interfacce di reporting devono utilizzare la versione &quot;Bucketing&quot; della metrica con l&#39;operatore equals.
