@@ -5,7 +5,7 @@ title: 'Invio di file: programmazione di un progetto per la consegna'
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 
-1. [Crea un progetto di Analysis Workspace](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/t_freeform_project.html) e salvalo.
+1. [Crea un progetto di Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) e salvalo.
 1. Fai clic su **[!UICONTROL Share]** (Condividi)> **[!UICONTROL Send File On Schedule]** (Invia file secondo programma).
 
    ![Risultato passaggio](assets/send-file.png)
