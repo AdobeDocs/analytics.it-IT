@@ -4,7 +4,7 @@ title: Configurare eventi di successo
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -13,14 +13,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Passaggi che descrivono come configurare gli eventi di successo.
 
-1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
-1. Clic **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**.
+1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**.
 
    ![Risultato passaggio](assets/success_event_page.png)
 
 1. Nella **[!UICONTROL Name]** colonna, selezionate la casella di controllo accanto a ciascun elemento per attivare la modifica, quindi specificate il nome desiderato.
-1. Nella **[!UICONTROL Type]** colonna, selezionare la casella di controllo accanto a ogni elemento per attivare l'elenco a discesa, quindi selezionare il tipo desiderato.
+1. Nella **[!UICONTROL Type]** colonna, selezionare la casella di controllo accanto a ogni elemento per attivare l&#39;elenco a discesa, quindi selezionare il tipo desiderato.
 
    >[!NOTE]
    >
@@ -38,7 +38,7 @@ Passaggi che descrivono come configurare gli eventi di successo.
 
    >[!NOTE]
    >
-   >Potete abilitare la partecipazione per un massimo di 100 eventi personalizzati. Oltre a ciò, potete creare metriche di partecipazione nel generatore Metriche [](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) calcolate.
+   >Potete abilitare la partecipazione per un massimo di 100 eventi personalizzati. Oltre a ciò, potete creare metriche di partecipazione nel generatore Metriche [](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html) calcolate.
 
-1. Fai clic su **[!UICONTROL Save]** (Genera).
+1. Fai clic su **[!UICONTROL Save]**.
 
