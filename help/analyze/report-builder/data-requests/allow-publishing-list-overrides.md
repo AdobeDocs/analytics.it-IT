@@ -4,7 +4,7 @@ title: Consenti sostituzioni elenco di pubblicazione
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Quando pianificate un rapporto, potete scegliere un elenco di pubblicazione da u
 
 Gli elenchi di pubblicazione sono configurati negli strumenti di amministrazione di Analytics.
 
-Consultate Gestione elenchi di [pubblicazione](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html) in Analytics Reference.
+Consultate Gestione elenchi di [pubblicazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html) in Analytics Reference.
 
 Per attivare questa funzione, passare alla [!UICONTROL Request Wizard: Step 1] finestra.
 
