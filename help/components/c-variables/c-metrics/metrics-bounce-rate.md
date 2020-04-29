@@ -4,7 +4,7 @@ title: Percentuale non recapitate
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ Frequenza rimbalzi non include visite in cui si sono verificate più azioni su u
 
 >[!NOTE] Le implementazioni esistenti possono a volte contenere una metrica calcolata diversa dalla metrica predefinita di Analytics. Controlla la definizione della metrica calcolata per essere sicuro che non ci siano differenze.
 
-Per ulteriori informazioni, consultate questo articolo della [Knowledgebase](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access) .
+Per ulteriori informazioni, consultate questo articolo della [Knowledgebase](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html) .
