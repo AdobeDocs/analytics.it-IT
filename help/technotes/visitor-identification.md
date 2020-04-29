@@ -6,7 +6,7 @@ title: Identificare visitatori unici
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Adobe utilizza un cookie per tenere traccia di browser/dispositivi univoci.
 
 Adobe Analytics offre diversi metodi per identificare i visitatori. Nella tabella seguente sono elencati i diversi modi in cui un visitatore può essere identificato in Analytics (in ordine di preferenza):
 
-| Ordine utilizzato | Parametro query (metodo di raccolta) | Presenta quando |
+| Ordine | Parametro query (metodo di raccolta) | Presente se |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID è impostato |
 | 2 | aid (cookie s_vi) | Il visitatore aveva un cookie s_vi esistente prima dell’implementazione del servizio ID visitatore, oppure era configurato un periodo di tolleranza ID visitatore. |
@@ -58,7 +58,7 @@ When a request is sent to the Adobe data collection server, the header is checke
 
 Alcuni browser, come Apple Safari, non memorizzano più i cookie impostati nell’intestazione HTTP da domini che non corrispondono al dominio del sito Web corrente (si tratta di un cookie utilizzato in un contesto di terze parti o di un cookie di terze parti). Ad esempio, se accedi a `mysite.com` e il server di raccolta dati è `mysite.omtrdc.net` il cookie restituito nell&#39;intestazione HTTP da `mysite.omtrdc.net` potrebbe essere rifiutato dal browser.
 
-Per evitare questo problema, molti clienti hanno implementato record CNAME per i propri server di raccolta dati nell&#39;ambito di un&#39;implementazione [di cookie](https://marketing.adobe.com/resources/help/it_IT/whitepapers/first_party_cookies/)di prime parti. If a CNAME record is configured to map a hostname on the customer&#39;s domain to the data collection server (for example, mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the visitor ID cookie is stored since the data collection domain now matches the domain of the website. Questo aumenta la probabilità che il cookie dell’ID visitatore venga memorizzato, ma introduce alcuni overhead in quanto è necessario configurare i record CNAME e mantenere i certificati SSL per i server di raccolta dati.
+Per evitare questo problema, molti clienti hanno implementato record CNAME per i propri server di raccolta dati nell&#39;ambito di un&#39;implementazione [di cookie](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-first-party.html)di prime parti. If a CNAME record is configured to map a hostname on the customer&#39;s domain to the data collection server (for example, mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the visitor ID cookie is stored since the data collection domain now matches the domain of the website. Questo aumenta la probabilità che il cookie dell’ID visitatore venga memorizzato, ma introduce alcuni overhead in quanto è necessario configurare i record CNAME e mantenere i certificati SSL per i server di raccolta dati.
 
 ### Cookie su dispositivi mobili {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -68,7 +68,7 @@ Quando i dispositivi mobili vengono tracciati utilizzando i cookie, è possibile
 
 Il servizio identità sostituisce il meccanismo legacy di ID visitatore di Analytics ed è richiesto dalla misurazione [!UICONTROL Heartbeat] video, da Analytics per Target e dai servizi e integrazioni di base futuri di Experience Cloud.
 
-Consulta Servizio [](https://marketing.adobe.com/resources/help/it_IT/mcvid/) identità per la documentazione di prodotto su questo servizio.
+Consulta Servizio [](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) identità per la documentazione di prodotto su questo servizio.
 
 ## Identificare i dispositivi mobili
 
@@ -90,7 +90,7 @@ Nella tabella seguente è riportato l’ordine dei metodi ID utilizzati in base 
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>Predefinito: </p> 
+   <td colname="col2"> <p>impostazione predefinita: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">ID visitatore personalizzato </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
