@@ -3,7 +3,7 @@ description: nulle
 title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -18,7 +18,7 @@ Nella Richiesta guidata: Modulo Passaggio 1: seleziona la suite di rapporti, il 
 
 1. **Selettore** intervallo: Consente di selezionare un ID suite di rapporti da una cella in Excel. Consultate [Selezionare le suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)di rapporti.
 
-1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall&#39;utente. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la Guida [alla segmentazione di](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.translate.html) Analytics.
+1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall&#39;utente. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la Guida [alla segmentazione di](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) Analytics.
 
    Ad esempio, puoi eseguire un [!UICONTROL Pages Report], quindi applicare un segmento Prima visita.
 
