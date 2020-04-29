@@ -5,14 +5,14 @@ title: Elaborazione completa
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Elaborazione completa
 
-Origini dati supporta le variabili seguenti durante l'elaborazione dei dati come chiamata server standard (Generic (Generico) &gt; Full Processing (Elaborazione completa)).
+Origini dati supporta le variabili seguenti durante l&#39;elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 
 I dati di origini dati Elaborazione completa vengono elaborati come se fossero stati ricevuti dai server Adobe al momento specificato (ogni hit contiene una marca temporale).
 
@@ -21,9 +21,9 @@ I dati di origini dati Elaborazione completa vengono elaborati come se fossero s
 
 ## Profilo visitatore {#section_6065627D0C144506965F562C80AE67F8}
 
-I dati di origini dati Elaborazione completa vengono elaborati utilizzando profili visitatore separati, così anche se l'ID visitatore nei dati caricati corrisponde ai dati raccolti tramite JavaScript o un'altra libreria AppMeasurement, i profili visitatore non sono collegati da un punto di vista di allocazione eVar.
+I dati di origini dati Elaborazione completa vengono elaborati utilizzando profili visitatore separati, così anche se l&#39;ID visitatore nei dati caricati corrisponde ai dati raccolti tramite JavaScript o un&#39;altra libreria AppMeasurement, i profili visitatore non sono collegati da un punto di vista di allocazione eVar.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna "Vendita di primavera" non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named &quot;Spring Sale&quot;, which is stored in the campaign variable. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna &quot;Vendita di primavera&quot; non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
 
 ## Riferimento colonna {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -37,8 +37,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col1"> <p>campagna </p> </td> 
+   <td colname="col2"> <p>campagna </p> </td> 
    <td colname="col3"> <p>Codice di tracciamento campagna di conversione </p> </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a>. </p> <p>Ad esempio: </p> 
+   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Ad esempio: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -167,7 +167,7 @@ La tabella seguente contiene le variabili di traffico inserite automaticamente q
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. </p> <p>Consulta il white paper <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >Set di caratteri multibyte</a> (Internazionalizzazione) per un elenco completo. </p> </td> 
+   <td colname="col2"> <p>Set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. </p> <p>Consulta il white paper <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Set di caratteri multibyte</a> (Internazionalizzazione) per un elenco completo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
