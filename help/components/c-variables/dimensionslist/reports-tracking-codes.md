@@ -4,7 +4,7 @@ title: Codici di tracciamento
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,9 +15,9 @@ Misura il modo in cui vari codici di monitoraggio pubblicitario influiscono sui 
 
 **Proprietà generali**
 
-* Questo rapporto fa riferimento ai dati direttamente dalla campagna [s.campaign](/help/implement/vars/page-vars/campaign.md)
+* Questo rapporto fa riferimento direttamente ai dati provenienti dalla campagna [s.campaign](/help/implement/vars/page-vars/campaign.md)
 * La variabile su cui si basa il rapporto è una variabile [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)conversione. Ciò significa che può persistere oltre la visualizzazione della pagina e associarsi alle metriche entro la scadenza specificata.
-* La metrica predefinita del report è Revenue (Entrate). È possibile modificare questo valore predefinito nella [!UICONTROL Report Suite Manager] casella in [!UICONTROL Admin Tools]. ( **[!UICONTROL Edit Settings]**>**[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**.)
+* La metrica predefinita del report è Revenue (Entrate). È possibile modificare questo valore predefinito nella [!UICONTROL Report Suite Manager] casella in [!UICONTROL Admin Tools]. ( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**.)
 
 * Questo rapporto può essere visualizzato sia in formato con tendenze che in formato classifica.
 * Questo rapporto può utilizzare un filtro di ricerca per individuare specifici elementi di riga.
@@ -36,16 +36,16 @@ Misura il modo in cui vari codici di monitoraggio pubblicitario influiscono sui 
 
 * Le metriche seguenti possono essere utilizzate in questo rapporto (a seconda delle impostazioni dell&#39;organizzazione e della suite di rapporti):
 
-   * Click-through: il numero di volte in cui è definita la *`s.campaign`*variabile
-   * Tutte le metriche eCommerce standard: Entrate, Ordini, Unità, Carrelli, Visualizzazioni Carrello, Checkout, Aggiunte Carrello, Rimozioni Carrello.
+   * Click-through: il numero di volte in cui è definita la *`s.campaign`* variabile
+   * Tutte le metriche standard di eCommerce: Entrate, Ordini, Unità, Carrelli, Visualizzazioni Carrello, Checkout, Aggiunte Carrello, Rimozioni Carrello.
    * Tutti gli eventi personalizzati: Eventi 1-80 ed Eventi 81-100 se con codice H22 o superiore
    * Visite e visitatori: la disponibilità dipende dall&#39;organizzazione e dalla suite di rapporti. Per ulteriori informazioni, contattate l&#39;Account Manager.
 
 **Proprietà Reporting e analisi**
 
-* Fate clic **[!UICONTROL Conversion]**>**[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]**per individuare il rapporto, a meno che il menu non sia personalizzato.
+* Fate clic **[!UICONTROL Conversion]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** per individuare il rapporto, a meno che il menu non sia personalizzato.
 
-* Questo rapporto può essere suddiviso per tutte le variabili [](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)elenco.
+* Questo rapporto può essere anche suddiviso per tutte le variabili [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html)elenco.
 * Visualizzazioni di pagina, Visite e Visitatori unici sono disponibili come metriche.
 * Questo report può utilizzare segmenti.
 
