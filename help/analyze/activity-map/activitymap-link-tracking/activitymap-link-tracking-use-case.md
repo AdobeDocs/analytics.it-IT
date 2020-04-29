@@ -4,7 +4,7 @@ title: Differenziare i collegamenti che fanno riferimento allo stesso ID collega
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ Ad esempio, supponiamo che tu disponga di più collegamenti &quot;Acquista&quot;
   <tr> 
    <th colname="col1" class="entry"> Esempio di codice </th> 
    <th colname="col2" class="entry"> ID collegamento </th> 
-   <th colname="col3" class="entry"> Regione </th> 
+   <th colname="col3" class="entry"> Area geografica </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -48,7 +48,7 @@ In che modo è possibile personalizzare la pagina Web e i tag per differenziare 
 
 ## Personalizzare l’ID collegamento utilizzando s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento delle Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull&#39;URL del collegamento. Fare clic [qui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) per ulteriori informazioni sulla variabile s_objectID.
+Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento delle Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull&#39;URL del collegamento. Fare clic [qui](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html) per ulteriori informazioni sulla variabile s_objectID.
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
   <tr> 
    <th colname="col02" class="entry"> Esempio di codice </th> 
    <th colname="col2" class="entry"> ID collegamento </th> 
-   <th colname="col3" class="entry"> Regione </th> 
+   <th colname="col3" class="entry"> Area geografica </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -94,7 +94,7 @@ Puoi personalizzare l&#39;area facendo in modo che ogni collegamento &quot;acqui
   <tr> 
    <th colname="col02" class="entry"> Esempio di codice </th> 
    <th colname="col2" class="entry"> ID collegamento </th> 
-   <th colname="col3" class="entry"> Regione </th> 
+   <th colname="col3" class="entry"> Area geografica </th> 
   </tr> 
  </thead>
  <tbody> 
