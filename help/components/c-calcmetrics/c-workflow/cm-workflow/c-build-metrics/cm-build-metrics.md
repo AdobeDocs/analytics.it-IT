@@ -3,7 +3,7 @@ description: Calculated Metrics Builder (Generatore di metriche calcolate) forni
 title: Creare metriche
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,12 +14,12 @@ Calculated Metrics Builder (Generatore di metriche calcolate) fornisce un quadro
 
 Esistono diversi modi per accedere al Generatore di metriche calcolate:
 
-* In Analysis Workspace, apri un progetto e fai clic su **[!UICONTROL + New]** &gt; **[!UICONTROL Create Metric]** .
-* In [!DNL Analytics], andate a **[!UICONTROL Components]** &gt; **[!UICONTROL Calculated Metrics]**.
+* In Analysis Workspace, apri un progetto e fai clic su **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
+* In [!DNL Analytics], andate a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
 * Fare clic **[!UICONTROL + Add]** nella parte superiore del Gestore [della metrica](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)calcolata oppure
 
-* Vai a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**, apri un rapporto e fai clic sull'icona Metriche ![](assets/metrics_icon.png) per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
+* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri un rapporto e fai clic sull&#39;icona Metriche ![](assets/metrics_icon.png) per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -77,7 +77,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Operatore </span> </td> 
-   <td colname="col3"> <p>Diviso da ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) è l'operatore predefinito, più gli operatori +, - e x. </p> </td> 
+   <td colname="col3"> <p>Diviso da ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) è l'operatore predefinito, più vi sono gli operatori +, - e x. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Anteprima </span> </td> 
@@ -85,7 +85,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Compatibilità prodotto </span> </td> 
-   <td colname="col3"> <p>La compatibilità del prodotto mostra se la metrica è compatibile con i dati <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > correnti </a>, con i dati elaborati completamente o solo con i rapporti sul canale di marketing (allocazione tramite primo tocco). <p>Nota:  Dati correnti non supporta tutte le metriche. Le metriche contenenti segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> </td> 
+   <td colname="col3"> <p>La compatibilità del prodotto mostra se la metrica è compatibile con i dati <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > correnti </a>, con i dati elaborati completamente o solo con i rapporti sul canale di marketing (allocazione tramite primo tocco). <p>Nota:  Dati correnti non supporta tutte le metriche. Le metriche che contengono segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Aggiungi </span> </td> 
@@ -101,8 +101,8 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
    <td colname="col3"> <p>Selezionando l'icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metrica e i modelli di attribuzione </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> + Nuova funzione </span> </td> 
-   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > segmenti </a>). </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> + Nuovo </span>i  </td> 
+   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > segmenti </a>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Componenti di ricerca </p> </td> 
@@ -123,12 +123,12 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">La formula di calcolo. </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">Una tendenza di anteprima della metrica. </li> 
-     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">Un'icona di modifica (matita) in alto a destra che ti porterà al Generatore metriche calcolate dove puoi modificare questa metrica calcolata. </li> 
+     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">Un'icona di modifica (matita) in alto a destra che ti porterà al Generatore di metriche calcolate dove puoi modificare questa metrica calcolata. </li> 
     </ul> <p><img placement="break" align="center"  src="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Elenco dei segmenti </p> </td> 
-   <td colname="col3"> <p>(Solo metriche calcolate avanzate) In qualità di Amministratore, questo elenco mostra tutti i segmenti creati nella società di accesso. Se sei un utente non amministratore, questo elenco mostra i segmenti che possiedi e quelli condivisi con te. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > Altro... </a> </p> </td> 
+   <td colname="col3"> <p>(Solo metriche calcolate avanzate) In qualità di Amministratore, questo elenco mostra tutti i segmenti creati nella società di accesso. Se sei un utente non amministratore, questo elenco mostra i segmenti che possiedi e quelli condivisi con te. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > Altro... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Elenco delle funzioni </p> </td> 
