@@ -4,7 +4,7 @@ keywords: privacy
 title: Panoramica sulla privacy
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 Adobe consiglia di fornire ai visitatori del sito Web informazioni facili da trovare e di facile comprensione sulla possibilità di scegliere di non utilizzare le informazioni di navigazione raccolte da prodotti o servizi Adobe.
 
-I visitatori possono apprendere come Adobe utilizza generalmente le informazioni raccolte nel Centro [per la privacy di](https://www.adobe.com/privacy.html)Adobe. È compito della vostra organizzazione divulgare in che modo utilizzate i prodotti e i servizi Adobe, in quanto la vostra organizzazione controlla esclusivamente come implementare i servizi di Adobe. L&#39;Utente è responsabile della creazione della propria informativa sulla privacy, del rispetto della propria informativa sulla privacy, del rispetto del contratto di servizio con Adobe e del rispetto di tutte le leggi applicabili.
+I visitatori possono apprendere come Adobe utilizza generalmente le informazioni raccolte nel Centro [per la privacy di](https://www.adobe.com/it/privacy.html)Adobe. È compito della vostra organizzazione divulgare in che modo utilizzate i prodotti e i servizi Adobe, in quanto la vostra organizzazione controlla esclusivamente come implementare i servizi di Adobe. L&#39;Utente è responsabile della creazione della propria informativa sulla privacy, del rispetto della propria informativa sulla privacy, del rispetto del contratto di servizio con Adobe e del rispetto di tutte le leggi applicabili.
 
 ## Suddivisione raccolta dati {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -31,7 +31,7 @@ Adobe Analytics raccoglie i dati seguenti:
 | Ricerca quando il consumatore fa clic sul collegamento alla pagina del cliente | Sì |
 | Tipo di browser | Sì |
 | Tipo di dispositivo | Sì |
-| Versione | Sì |
+| Sistema operativo | Sì |
 | Velocità di connessione ISP | Sì |
 | Impostazioni di visualizzazione (ad esempio, dimensioni e risoluzione dello schermo) | Sì |
 | Indirizzo IP (utilizzato per approssimare la posizione) | Sì* |
@@ -69,7 +69,7 @@ Adobe Analytics raccoglie i dati seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Globale </td> 
-   <td colname="col2"> Se utilizzate i cookie di prime parti, la rinuncia Analytics è univoca per un cliente; non potete fare affidamento su una rinuncia su Adobe.com. </td> 
+   <td colname="col2"> Se utilizzate i cookie di prime parti, la rinuncia ad Analytics è univoca per un cliente; non potete fare affidamento su una rinuncia su Adobe.com. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Globale </td> 
@@ -89,7 +89,7 @@ Adobe Analytics raccoglie i dati seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha attivato l'impostazione IP-Obfuscation: Abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell'area EMEA. Con questa impostazione, l'indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geolookup e non sarà più disponibile come punto dati. <p>Questo metodo di sostituzione di base non può essere decodificato in un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP; è irreversibilmente anonimo. Per maggiori informazioni sulle altre impostazioni di oscuramento IP, consulta </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe ha attivato l'impostazione IP-Obfuscation: Abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell'area EMEA. Con questa impostazione, l'indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geolookup e non sarà più disponibile come punto dati. <p>Questo metodo di sostituzione di base non può essere decodificato in un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP; è irreversibilmente anonimo. Per maggiori informazioni sulle altre impostazioni di oscuramento IP, consulta </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Globale </td> 
