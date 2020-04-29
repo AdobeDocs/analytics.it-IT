@@ -1,18 +1,18 @@
 ---
-description: Definizioni degli elementi di interfaccia nelle pagine del Generatore di regole di classificazione.
+description: Definizioni degli elementi dell'interfaccia nelle pagine del Generatore di regole di classificazione.
 subtopic: Classifications
 title: 'Regole di classificazione: definizioni'
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Regole di classificazione: definizioni
 
-Definizioni degli elementi di interfaccia nelle pagine del Generatore di regole di classificazione.
+Definizioni degli elementi dell&#39;interfaccia nelle pagine del Generatore di regole di classificazione.
 
 ## Pagina Regole {#section_4A5BF384EEEE4994B6DC888339833529}
 
@@ -32,7 +32,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selezione di suite per report e variabili </p> </td> 
-   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>È possibile applicare una sola variabile quando si crea un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set</span> di regole solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p>Ad esempio, per rendere <span class="term"> Pagine</span> disponibili come variabile per il set di regole, accertati che nella suite di rapporti siano implementate <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  > classificazioni</a> di traffico per <span class="term"> Pagina</span>. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> (Amministratore) &gt; <span class="uicontrol"> Report Suites (Suite</span> di rapporti) &gt; <span class="uicontrol"> Traffic (Traffico</span> ) &gt; <span class="uicontrol"> Traffic Classifications (Classificazioni</span> traffico) (o <span class="uicontrol"> Conversion</span> (Conversione <span class="uicontrol"></span>) &gt; Conversion Classifications (Classificazioni conversione)). Quindi selezionate la variabile, quindi fate clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  > Classificazioni</a> del traffico e classificazioni <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  ></a> di conversione nell'Aiuto di amministrazione. </p> </td> 
+   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>È possibile applicare una sola variabile quando si crea un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set</span> di regole solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p>Ad esempio, per rendere <span class="term"> Pagine</span> disponibili come variabile per il set di regole, accertati che nella suite di rapporti siano implementate <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  > classificazioni</a> di traffico per <span class="term"> Pagina</span>. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> (Amministratore) &gt; <span class="uicontrol"> Report Suites (Suite</span> di rapporti) &gt; <span class="uicontrol"> Traffic (Traffico</span> ) &gt; <span class="uicontrol"> Traffic Classifications (Classificazioni</span> traffico) (o <span class="uicontrol"> Conversion</span> (Conversione <span class="uicontrol"></span>) &gt; Conversion Classifications (Classificazioni conversione)). Quindi selezionate la variabile, quindi fate clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  > Classificazioni</a> del traffico e classificazioni <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  ></a> di conversione nell'Aiuto di amministrazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Attiva</span> </p> </td> 
@@ -84,7 +84,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numero della regola. </p> <p>Per ulteriori informazioni, vedere <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Elaborazione</a> delle regole. </p> </td> 
+   <td colname="col2"> <p>Numero della regola. </p> <p>Per ulteriori informazioni, vedere <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Modalità di elaborazione</a> delle regole. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Seleziona tipo di regola</span> </td> 
@@ -126,8 +126,8 @@ Potete modificare le espressioni regolari sulla [!UICONTROL Regular Expression] 
 | Elemento | Descrizione |
 |---|---|
 | Chiave di esempio | Stringa di prova da utilizzare. Ad esempio, puoi creare una classificazione da caratteri specifici in un codice di tracciamento. È possibile associare caratteri, parole o pattern particolari di caratteri. |
-| Corrispondenza gruppi | Mostra come l'espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell'ID campagna. |
-| Risultato corrispondenza | Visualizza le parti di una stringa che corrispondono correttamente all'espressione regolare. |
+| Corrispondenza gruppi | Mostra come l&#39;espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell&#39;ID campagna. |
+| Risultato corrispondenza | Visualizza le parti di una stringa che corrispondono correttamente all&#39;espressione regolare. |
 
 Vedere Espressioni [regolari nelle regole](/help/components/c-classifications2/crb/classification-quickstart-rules.md)di classificazione.
 
