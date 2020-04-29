@@ -5,7 +5,7 @@ title: Dashboard Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
 
 Le dashboard esistenti continueranno a essere eseguite e potrai comunque modificarle, scaricarle e pianificarle; tuttavia, non è più possibile creare nuove dashboard legacy. Si consiglia vivamente di aggiornare le dashboard esistenti al formato dashboard più recente.
 
->[!NOTE] In futuro, prendi in considerazione l’utilizzo di progetti [](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/) Analysis Workspace e la possibilità di scaricarli e pianificarli.
+>[!NOTE] In futuro, prendi in considerazione l’utilizzo di progetti [](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html) Analysis Workspace e la possibilità di scaricarli e pianificarli.
 
 Quando copiate il dashboard legacy, il sistema apre il dashboard legacy per la modifica, in cui potete aggiungere contenuto legacy o nuovo contenuto. Quando copiate una dashboard precedente, l’originale viene mantenuto nell’elenco delle dashboard precedenti.
 
