@@ -3,7 +3,7 @@ description: In Adobe Analytics e Adobe Audience Manager sono presenti metriche 
 title: Differenze tra i conteggi dei visitatori
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -23,32 +23,32 @@ Le metriche del visitatore sono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: Popolazione segmento totale</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Popolazione segmento totale</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che erano membri del segmento durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: Popolazione di segmenti in tempo reale</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Popolazione di segmenti in tempo reale</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che appartenevano al segmento e che hanno raggiunto le tue proprietà durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analisi: Visitatori unici </p> </td> 
+   <td colname="col2"> <p>Analytics: Visitatori unici </p> </td> 
    <td colname="col3"> <p>Mostra il numero di visitatori univoci che hanno raggiunto le vostre proprietà durante la finestra di rapporto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analisi: Visitatori con Experience Cloud ID </p> </td> 
+   <td colname="col2"> <p>Analytics: Visitatori con Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>Mostra il numero di visitatori univoci con un Experience Cloud ID che ha raggiunto le tue proprietà durante la finestra di rapporto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-I visitatori di AAM in tempo reale per la popolazione di segmenti e di Analytics con Experience Cloud ID utilizzati nella generazione dei rapporti di Audience Analytics saranno i più simili. A breve termine, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
+I visitatori di AAM in tempo reale per la popolazione di segmenti e di Analytics con Experience Cloud ID utilizzati nel reporting di Audience Analytics saranno i più simili. A breve termine, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Factor </th> 
    <th colname="col2" class="entry"> AAM: Popolazione segmenti in tempo reale </th> 
-   <th colname="col3" class="entry"> Analisi: Visitatori con Experience Cloud ID </th> 
+   <th colname="col3" class="entry"> Analytics: Visitatori con Experience Cloud ID </th> 
   </tr>
  </thead>
  <tbody> 
