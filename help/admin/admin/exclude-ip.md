@@ -4,7 +4,7 @@ title: Escludi per indirizzo IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -15,7 +15,7 @@ Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attivit
 
 **[!UICONTROL Analytics]** (Workspace) > **[!UICONTROL Admin]** (Progetto) > **[!UICONTROL Exclude by IP]** (Annulla/Ripeti)
 
->[!NOTE] Gli hit esclusi dall&#39;indirizzo IP vengono fatturati come chiamate [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)server.
+>[!NOTE] Gli hit esclusi dall&#39;indirizzo IP vengono fatturati come chiamate [](https://docs.adobe.com/content/help/it-IT/analytics/technotes/terms.translate.html)server.
 
 ## Escludi per cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -46,7 +46,7 @@ Le visualizzazioni di pagina vengono conteggiate e i visitatori di pagina univoc
 
 È inoltre possibile bloccare la raccolta di dati da indirizzi IP specifici tramite un firewall.
 
-Consulta gli indirizzi [IP utilizzati nell&#39;articolo Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses) .
+Consulta gli indirizzi [IP utilizzati nell&#39;articolo Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) .
 
 ## Impatto dell&#39;offuscamento IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
