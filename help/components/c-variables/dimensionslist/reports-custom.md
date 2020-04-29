@@ -4,7 +4,7 @@ title: Personalizzato
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,6 +19,6 @@ Gli amministratori possono configurare un rapporto con metriche specifiche e un 
 
 I report personalizzati possono fornire un valore maggiore a voi come analisti. Se nell’interfaccia SiteCatalyst sono presenti rapporti che non corrispondono a quelli di altri utenti (ad esempio in Formazione), l’amministratore potrebbe aver impostato alcuni di questi rapporti personalizzati.
 
-Inoltre, puoi salvare i rapporti importanti per te. Questi rapporti sono denominati segnalibri. Puoi anche inserire diversi report in un'unica area di lavoro per visualizzare rapidamente i report più importanti. Questi sono denominati dashboard e sono specifici per l'utente. L'interfaccia mostra una barra sopra il grafico che elenca i segnalibri e le dashboard.
+Inoltre, puoi salvare i rapporti importanti per te. Questi rapporti sono denominati segnalibri. Puoi anche inserire diversi report in un&#39;unica area di lavoro per visualizzare rapidamente i report più importanti. Questi sono denominati dashboard e sono specifici per l&#39;utente. L&#39;interfaccia mostra una barra sopra il grafico che elenca i segnalibri e le dashboard.
 
-Per ulteriori informazioni, consulta [Segnalibri](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html) e [dashboard e minirapporti](https://marketing.adobe.com/resources/help/en_US/sc/user/c_dashboard.html) .
+Per ulteriori informazioni, consulta [Gestione](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) segnalibri e [dashboard e minirapporti](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) .
