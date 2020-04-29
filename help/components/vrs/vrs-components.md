@@ -3,7 +3,7 @@ description: Le suite di rapporti virtuali possono essere curate per includere e
 title: Cura dei componenti di suite di rapporti virtuali
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Le suite di rapporti virtuali possono essere curate per includere ed escludere componenti in Analysis Workspace.
 
->[!NOTE]Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. Precedentemente, per visualizzare i componenti non curati era sufficiente fare clic su **[!UICONTROL Show all Components]**. The [updated curation experience](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
+>[!NOTE]Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. Precedentemente, per visualizzare i componenti non curati era sufficiente fare clic su **[!UICONTROL Show all Components]**. The [updated curation experience](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
 
 Per abilitare la cura dei componenti,
 
@@ -40,7 +40,7 @@ Per abilitare la cura dei componenti,
    * Intervalli di date
    >[!NOTE]
    >
-   >Non è necessario *condividere* componenti curati (segmenti, metriche calcolate, intervalli di date). Saranno sempre visibili in Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
+   >There is no need to *share* curated components (segments, calculated metrics, date ranges). Saranno sempre visibili in Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
 
 1. È inoltre possibile filtrare o cercare i componenti e aggiungere l&#39;intera selezione filtrata alla colonna inclusa facendo clic **[!UICONTROL Add All]**.
 
@@ -64,4 +64,4 @@ Utilizza i gruppi di componenti per aggiungere componenti in massa alla suite di
 
 ## Comportamento Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/curate.html).
+Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate.html).
