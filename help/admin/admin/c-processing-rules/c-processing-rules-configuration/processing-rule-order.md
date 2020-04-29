@@ -5,7 +5,7 @@ title: Ordine di elaborazione
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -34,9 +34,9 @@ Nelle tabelle seguenti sono elencati i dati solitamente disponibili prima e dopo
 | Dati aggiunti da VISTA | Le regole di elaborazione vengono applicate prima di VISTA. |
 | Numero pagina visita | Come regola generale, le regole di elaborazione sono a conoscenza dei dati contenuti solo nell&#39;hit corrente. Il numero di pagina della visita viene compilato dopo l&#39;applicazione delle regole di elaborazione. |
 | L’URL pulito viene aggiunto come nome di pagina se non è impostato | Dopo aver applicato le regole di elaborazione e VISTA, l’URL pulito viene aggiunto come nome della pagina se non è impostato alcun nome pagina. Poiché questo si verifica dopo l&#39;applicazione delle regole di elaborazione, si consiglia di aggiungere una condizione per verificare se il nome della pagina è vuoto.  Se eseguite il report Contenuto sito > Pagine e visualizzate i valori https:// per i nomi delle pagine, è probabile che il nome della pagina sia vuoto e che l&#39;URL sia utilizzato.  È possibile impostare una condizione per verificare la presenza di un nome di pagina vuoto o per verificare se il nome della pagina o l’URL della pagina contiene un valore specifico. Il nome della pagina può quindi essere impostato come necessario. |
-| Regole di elaborazione del canale di marketing | Potete utilizzare le regole di elaborazione per preparare i dati per l&#39;elaborazione tramite le regole [di elaborazione dei canali](https://marketing.adobe.com/resources/help/en_US/mchannel/c_rules.html)Marketing. |
+| Regole di elaborazione del canale di marketing | Potete utilizzare le regole di elaborazione per preparare i dati per l&#39;elaborazione tramite le regole [di elaborazione dei canali](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html)Marketing. |
 | Ricerca GEO | Questo include i valori del codice postale per lo stato del visitatore e il codice postale del visitatore. |
-| persistenza eVar | Le eVar contenute in un hit precedente non persistono in ogni hit durante l&#39;elaborazione della regola. Sono disponibili solo le eVar impostate sull’hit corrente in elaborazione. |
+| persistenza eVar | Le eVar contenute in un hit precedente non persistono in ogni hit durante l&#39;elaborazione della regola. Sono disponibili solo le eVar impostate sull’hit corrente in fase di elaborazione. |
 
 ## Modalità di applicazione delle regole di elaborazione durante la copia degli hit tramite VISTA {#section_576EE8C240A24CBA979BD614E8D5338D}
 
