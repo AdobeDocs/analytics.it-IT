@@ -3,7 +3,7 @@ description: Una volta implementata l'integrazione, potete iniziare a utilizzare
 title: Utilizzo dell'integrazione
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ Ad esempio, puoi creare un segmento che includerà solo le visite dalle organizz
 
 Audience equivale a SMB.
 
-Per ulteriori informazioni su come creare segmenti, consulta la Guida alla segmentazione di [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.translate.html).
+Per ulteriori informazioni su come creare segmenti, consulta la Guida alla segmentazione di [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html).
 
 Questo segmento può quindi essere applicato a praticamente qualsiasi rapporto; un esempio è il rapporto Tempo trascorso per visita che vedete qui: ![](assets/segment_applied_report.png)
