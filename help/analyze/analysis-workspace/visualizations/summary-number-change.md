@@ -3,7 +3,7 @@ description: 'null'
 title: Numero di riepilogo e Variazione di riepilogo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * Se è selezionato un intervallo di celle, vengono confrontate la prima e l’ultima cella selezionata nell’intervallo.
 * Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
 * È possibile controllare il colore verde e rosso della variazione di riepilogo tramite:
-   * [Polarità di un evento personalizzato](https://marketing.adobe.com/resources/help/it_IT/reference/success_event.html).
-   * Opzione [Show Upward Trend As](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/cm_build_metrics.html) (Mostra tendenza ascendente come) per una metrica calcolata.
+   * [Polarità di un evento personalizzato](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/success-events/success-event.html).
+   * Opzione [Show Upward Trend As](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) (Mostra tendenza ascendente come) per una metrica calcolata.
 
 ## Impostazioni di Variazione di riepilogo {#section_2581AC0107634FB4990AB8347E5897AA}
 
