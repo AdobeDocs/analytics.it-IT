@@ -5,35 +5,35 @@ title: Panoramica sulle regole di elaborazione
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Panoramica sulle regole di elaborazione
 
-Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l'invio ai report. Le regole di elaborazione semplificano l'interazione con i gruppi IT e gli sviluppatori Web fornendo un'interfaccia per:
+Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l&#39;invio ai report. Le regole di elaborazione semplificano l&#39;interazione con i gruppi IT e gli sviluppatori Web fornendo un&#39;interfaccia per:
 
 * Impostare un evento nella pagina della panoramica del prodotto
 * Compilare una campagna con un parametro stringa di query
 * Concatenate la categoria e il nome della pagina in una prop per una generazione di rapporti più semplice
-* Copia di un'eVar in una prop per visualizzare i percorsi
+* Copia di un&#39;eVar in una prop per visualizzare i percorsi
 * Pulizia delle sezioni di sito errate
-* Estrarre i termini di ricerca interni o l'ID di una campagna dalla stringa di query in una eVar
+* Estrarre i termini di ricerca interni o l&#39;ID di una campagna dalla stringa di query in una eVar
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://tv.adobe.com/embed/1181/16506/?captions=ita)
 
 *Consulta la panoramica sulle regole di elaborazione e i corsi di formazione di Adobe Summit per scoprire perché devi usare le regole di elaborazione.*
 
 ## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}
 
-Prima del 20 aprile 2017, per usare le regole di elaborazione tutti gli utenti (anche gli amministratori) dovevano superare un esame e ottenere l'autorizzazione dell'assistenza clienti Adobe.
+Prima del 20 aprile 2017, per usare le regole di elaborazione tutti gli utenti (anche gli amministratori) dovevano superare un esame e ottenere l&#39;autorizzazione dell&#39;assistenza clienti Adobe.
 
-Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole di elaborazione **per impostazione predefinita**. L'esame non è più necessario. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l'interfaccia Strumenti di amministrazione. effettuando le seguenti operazioni:
+Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole di elaborazione **per impostazione predefinita**. L&#39;esame non è più necessario. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. effettuando le seguenti operazioni:
 
-1. Se non lo avete ancora fatto, [create un gruppo](/help/admin/user-management2/c-user-groups/groups.md) che includa solo i non amministratori che devono disporre dell'autorizzazione per utilizzare le regole di elaborazione.
+1. Se non lo avete ancora fatto, [create un gruppo](/help/admin/user-management2/c-user-groups/groups.md) che includa solo i non amministratori che devono disporre dell&#39;autorizzazione per utilizzare le regole di elaborazione.
 1. [Aggiungete i non amministratori a tale gruppo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Quindi, andate a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL[nome]gruppo]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** **[!UICONTROL Report Suite Tools]** **[!UICONTROL Customize]** **[!UICONTROL Report Suite Management]**&gt; &gt; &gt; &gt; .
+1. Quindi passate a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** **[!UICONTROL Report Suite Management]**.
 1. Selezionare la casella accanto a [!UICONTROL Processing Rules] e fare clic su **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
@@ -44,11 +44,11 @@ Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole 
 
 ## Utilizzare i dati contestuali per semplificare la raccolta dei dati {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Le variabili di dati di contesto sono un nuovo tipo di variabile disponibile solo per l'elaborazione delle regole. Per utilizzare le variabili di dati di contesto, le coppie di dati chiave/valore vengono inviate dall'implementazione e le regole di elaborazione vengono utilizzate per acquisire questi valori in variabili Analytics standard. Questo consente ai programmatori di capire esattamente quale prop e/o eVar deve contenere tale valore.
+Le variabili di dati di contesto sono un nuovo tipo di variabile disponibile solo per l&#39;elaborazione delle regole. Per utilizzare le variabili di dati di contesto, le coppie di dati chiave/valore vengono inviate dall&#39;implementazione e le regole di elaborazione vengono utilizzate per acquisire questi valori in variabili Analytics standard. Questo consente ai programmatori di capire esattamente quale prop e/o eVar deve contenere tale valore.
 
 ![](assets/evar-context-map.png)
 
-Consulta Variabili [di dati di](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) contesto nella guida all'implementazione.
+Consulta Variabili [di dati di](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) contesto nella guida all&#39;implementazione.
 
 ## Utilizzare le regole di elaborazione per trasformare gli eventi Hit e Triggers {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -56,6 +56,6 @@ Le regole di elaborazione possono monitorare i valori in arrivo per trasformare 
 
 ## Utilizzo delle variabili di dati contestuali nei rapporti {#section_BD098BC503024A0B8703596628071134}
 
-Una volta definite le variabili di dati di contesto all'interno dell'implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei report.
+Una volta definite le variabili di dati di contesto all&#39;interno dell&#39;implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei report.
 
 Per maggiori informazioni, vai [qui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) e [qui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
