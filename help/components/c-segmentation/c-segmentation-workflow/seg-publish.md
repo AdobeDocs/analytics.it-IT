@@ -4,7 +4,7 @@ title: Pubblicare segmenti in Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 3b7e79cf26c8dccd9c8090df48a556419995ebd7
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -99,13 +99,13 @@ Le schermate seguenti mostrano come recuperare l’UUID AAM nel browser e utiliz
 **Metodo 2: Utilizzare Chrome Developer Tools (o altri strumenti per sviluppatori di browser)**
 
 1. Avviare Chrome Developer Tools prima di caricare una pagina
-1. Caricate la pagina e selezionate Applicazioni > Cookie. L’UUID AAM deve essere impostato nel cookie 3rd-partyDemdex ([adobe.demdex.net](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/reference/demdex-calls.translate.html) nell’esempio di seguito). Il demdex del campo è l’impostazione AAM UUID nel browser (`50814298273775797762943354787774730612` nell’esempio di seguito).
+1. Caricate la pagina e selezionate Applicazioni > Cookie. L’UUID AAM deve essere impostato nel cookie 3rd-partyDemdex ([adobe.demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) nell’esempio di seguito). Il demdex del campo è l’impostazione AAM UUID nel browser (`50814298273775797762943354787774730612` nell’esempio di seguito).
 
 ![Strumenti per sviluppatori Chrome](assets/ggogle-uuid.png)
 
 ## Utilizzo di Audience Manager [!UICONTROL Visitor Profile Viewer]
 
-L&#39;UUID AAM nel browser verrà utilizzato per impostazione predefinita quando [!UICONTROL Visitor Profile Viewer] viene caricato. Se verifica le realizzazioni delle caratteristiche per altri utenti, immetti un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta Visualizzatore [profilo](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) visitatori.
+L&#39;UUID AAM nel browser verrà utilizzato per impostazione predefinita quando [!UICONTROL Visitor Profile Viewer] viene caricato. Se verifica le realizzazioni delle caratteristiche per altri utenti, immetti un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta Visualizzatore [profilo](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/visitor-profile-viewer.html) visitatori.
 
 ![](assets/aam-vpv.png)
 
