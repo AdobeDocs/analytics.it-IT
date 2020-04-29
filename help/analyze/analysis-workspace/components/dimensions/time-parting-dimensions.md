@@ -3,7 +3,7 @@ description: Con la suddivisione in base al tempo, viene considerato il timestam
 title: Suddividere le dimensioni in base al tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ Le dimensioni suddivise in base al tempo sono relative al fuso orario della suit
 * Come sono le vendite nel fine settimana rispetto ai giorni feriali?
 * Una certa campagna di marketing ha generato più conversioni nelle ore della mattina o del pomeriggio?
 
->[!NOTE] le dimensioni suddivise in base al tempo sono disponibili solo in Analysis Workspace. Per usare le dimensioni suddivise in base al tempo in altre soluzioni Analytics, è necessario implementare il [plug-in getTimeParting](https://marketing.adobe.com/resources/help/it_IT/sc/implement/getTimeParting.html).
+>[!NOTE] le dimensioni suddivise in base al tempo sono disponibili solo in Analysis Workspace. Per usare le dimensioni suddivise in base al tempo in altre soluzioni Analytics, è necessario implementare il [plug-in getTimeParting](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
 
 In Analysis Workspace, le dimensioni suddivise in base al tempo comprendono:
 
