@@ -3,7 +3,7 @@ description: 'null'
 title: Configurare una visualizzazione dell’abbandono
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ Puoi perfino aggiungere segmenti all’interno di un punto di contatto. Ad esemp
 
 Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
 
-Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://marketing.adobe.com/resources/help/it_IT/sc/implement/listN.html) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe,camicie” su una pagina e “camicie,calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe,camicie” su una pagina e “camicie,calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
 1. Trascina una visualizzazione [!UICONTROL Fallout] (Abbandono) dal menu a discesa Visualizzazioni in una [!UICONTROL Freeform Table] (Tabella a forma libera).
 
