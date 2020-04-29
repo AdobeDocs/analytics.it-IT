@@ -5,7 +5,7 @@ title: Set di regole di classificazione
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -61,7 +61,7 @@ Denominate il set di regole di classificazione, applicate la variabile e specifi
 
 1. (Prerequisito) Definite la struttura di classificazione in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (vedere [Classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Strumenti di amministrazione per l’aggiunta di classificazioni).
+   (vedere [Classificazioni](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in Strumenti di amministrazione per l’aggiunta di classificazioni).
 
    Le variabili vengono visualizzate nel [!UICONTROL New Rule Set] pannello solo dopo che è stata definita almeno una classificazione per quella variabile.
 
