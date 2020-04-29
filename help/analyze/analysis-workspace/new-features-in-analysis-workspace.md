@@ -5,7 +5,7 @@ title: Scopri le novità di Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -169,7 +169,7 @@ Nuove funzionalità e ottimizzazioni rilasciate il 13 settembre 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nuovo modello: Consumo audio</b> </p> </td> 
-   <td colname="col2"> <p>Vedere <a href="https://marketing.adobe.com/resources/help/it_IT/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics</a>. </p> </td> 
+   <td colname="col2"> <p>Vedere <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Audio Analytics</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +468,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
    <td colname="col2"> <p>Precedentemente, quando copiavi un progetto o utilizzavi il comando “salva con nome”, tutti gli intra-link salvati nel progetto puntavano al progetto originale e non a quello copiato. </p> <p>Gli intra-link ora fanno riferimento al progetto a cui sono collegati, dopo l’operazione di copia o salvataggio con nome. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analisi dei contributi:<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > notifica token </a> </p> </td> 
+   <td colname="col1"> <p>Analisi dei contributi:<a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > notifica token </a> </p> </td> 
    <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.  </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span>).  </p> </td> 
   </tr> 
   <tr> 
@@ -803,7 +803,7 @@ Nuove funzionalità rilasciate il 20 aprile 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Modello Persone </a> </p> </td> 
-   <td colname="col2"> <p>Nota: il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di <a href="https://marketing.adobe.com/resources/help/it_IT/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a>. </p> <p>Il modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. </p> </td> 
+   <td colname="col2"> <p>Nota: il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a>. </p> <p>Il modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Miglioramenti all’opzione Annulla/Ripeti </p> </td> 
@@ -973,7 +973,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
 
 Nuove funzionalità rilasciate il 16 giugno 2016:
 
-* [Nuova autorizzazione di gruppo](https://marketing.adobe.com/resources/help/it_IT/reference/groups.html), che consente agli amministratori di concedere o negare l’accesso alla scheda **[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Workspace]** (Workspace). Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
+* [Nuova autorizzazione di gruppo](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html), che consente agli amministratori di concedere o negare l’accesso alla scheda **[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Workspace]** (Workspace). Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
 * Il [Pannello Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) rileva le differenze più importanti dal punto di vista statistico tra due segmenti attraverso un’analisi automatizzata di ciascuna metrica e dimensione a cui accedi.
 * [Nuova struttura menu di progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), che ridispone il menu principale e lo rende più estendibile. Ad esempio, la creazione di un **new Cohort Panel** (nuovo pannello coorte) implica la creazione di un pannello vuoto e il trascinamento nella tabella coorte.
 * [Nuova barra a sinistra](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Pannelli, Visualizzazioni, Componenti
