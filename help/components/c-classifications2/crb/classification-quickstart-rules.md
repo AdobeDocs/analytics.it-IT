@@ -5,7 +5,7 @@ title: Regole di classificazione
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -55,7 +55,7 @@ about_classification_rules.xml
 
 ## Informazioni importanti sulle regole
 
-* Specificate le autorizzazioni [del](https://marketing.adobe.com/resources/help/it_IT/reference/groups.html) gruppo per le classificazioni in [!UICONTROL Admin Tools].
+* Specificate le autorizzazioni [del](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html) gruppo per le classificazioni in [!UICONTROL Admin Tools].
 
 * **Espressioni** regolari: La Guida è disponibile in Espressioni [regolari nelle regole](/help/components/c-classifications2/crb/classification-quickstart-rules.md)di classificazione.
 
@@ -117,7 +117,7 @@ In questo esempio, supponete di voler classificare il seguente ID campagna:
 
 Le parti del codice di tracciamento da classificare sono:
 
-* `em` = email
+* `em` = e-mail
 * `JuneSale` = nome campagna
 * `20130601` = date
 
@@ -328,7 +328,7 @@ Aggiungere regole facendo corrispondere una condizione a una classificazione e s
 
    | **Le regole sovrascrivono eventuali valori esistenti** | (Impostazione predefinita) Sovrascrivi sempre le chiavi di classificazione esistenti, comprese le classificazioni caricate tramite l&#39;importatore (SAINT). |
    |---|---|
-   | **Le regole sovrascrivono solo i valori non impostati** | Compilare solo celle vuote (non impostate). Le classificazioni esistenti non verranno modificate. |
+   | **Le regole sovrascrivono solo i valori non impostati** | Compilare solo celle vuote (non impostate). Le classificazioni esistenti non saranno modificate. |
 
 1. [Definire la regola o le regole](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
@@ -374,7 +374,7 @@ Passaggi che descrivono come verificare una regola di classificazione o un set d
 1. Fai clic su **[!UICONTROL Run Test]**.
 
    Le regole corrispondenti vengono visualizzate nella [!UICONTROL Results] tabella.
-1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
+1. (Facoltativo) Fate clic **[!UICONTROL Activate]** per attivare la regola e per sovrascrivere le classificazioni esistenti.
 
    Per ulteriori informazioni sull&#39;uso delle regole per sovrascrivere le classificazioni esistenti, vedere.
 
