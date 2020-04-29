@@ -5,7 +5,7 @@ title: Informazioni sulle classificazioni
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -38,7 +38,7 @@ Supponiamo che, invece di visualizzare le campagne solo tramite il codice di tra
 
 Reporting e analisi include classificazioni predefinite per la variabile del codice di tracciamento, che offre rapporti basati sulla classificazione denominati Creative Elements e Campagne. Devi configurare manualmente le classificazioni per tutte le altre variabili di conversione e di traffico.
 
-Consulta Classificazioni [del traffico e classificazioni](/help/admin/admin/c-traffic-variables/traffic-classifications.md) [](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)di conversione.
+Consulta Classificazioni [del traffico e classificazioni](/help/admin/admin/c-traffic-variables/traffic-classifications.md) [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)di conversione.
 
 Nella tabella seguente sono descritti i diversi tipi di classificazioni disponibili e i tipi di variabili che li supportano. Esaminare le informazioni in Struttura [file](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) generale prima di caricare i file di dati.
 
@@ -62,7 +62,7 @@ Nella tabella seguente sono descritti i diversi tipi di classificazioni disponib
    <td colname="col3"> <p>Una classificazione di testo abilitata per la data consente di assegnare intervalli di date a una classificazione di testo. Questa funzione è in genere utilizzata con le classificazioni delle campagne, in modo da poter sfruttare la visualizzazione Diagramma di Gantt nel rapporto <span class="wintitle"> Campagne</span> . </p> <p>È possibile includere nel file di dati le date effettive della campagna per la compilazione dei dati di classificazione. </p> <p>Reporting e analisi raccoglie i codici di tracciamento campagna anche se la data di fine della campagna è già passata, ma i dati della campagna raccolti dopo la data di fine della campagna non sono associati alla campagna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Numerico</span> <p>Nota:  Nella versione di manutenzione del 10 maggio 2018 di Analytics, Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> Numeriche</span> <p>Nota:  Nella versione di manutenzione del 10 maggio 2018 di Analytics, Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti. </p> </p> </td> 
    <td colname="col2"> <p>Variabili di conversione </p> </td> 
    <td colname="col3"> <p>Le classificazioni numeriche consentono di applicare valori numerici fissi ai rapporti <span class="wintitle"> Conversione</span> . Tali classificazioni vengono visualizzate come metriche nei report. </p> <p>Quando si considera l'aggiunta di una classificazione <span class="wintitle"> Numerica</span> , il valore numerico deve essere fisso e immutabile nel tempo. </p> </td> 
   </tr> 
