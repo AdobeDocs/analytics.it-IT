@@ -4,7 +4,7 @@ title: Domande frequenti su Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ A: I clienti di Adobe SiteCatalyst non hanno accesso alla pagina Abilitazione Ac
 
 **D: Il nuovo codice AppMeasurement può essere configurato tramite Gestione tag dinamica (DTM)?**
 
-A: Sì, puoi implementare [](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) manualmente il nuovo codice AppMeasurement.
+A: Sì, puoi implementare [](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) manualmente il nuovo codice AppMeasurement.
 
 **D: Quali sono le grandi modifiche nella libreria AppMeasurement v1.6?**
 
@@ -37,7 +37,7 @@ A: AppMeasurement viene implementato a livello di suite di rapporti. Il livello 
 
 **D: Gestione dinamica dei tag carica automaticamente una versione precedente (1.3.4) dell’API del visitatore rispetto a quella desiderata dalla Activity Map (1.5.1). Questo è un problema?**
 
-A: No. La funzionalità Activity Map non dipende da VisitorAPI.
+R: No. La funzionalità Activity Map non dipende da VisitorAPI.
 
 ## Applicazione Activity Map
 
@@ -128,9 +128,9 @@ Viene visualizzato un messaggio di avviso che indica che è necessario aggiornar
 
 Viene visualizzato un messaggio di avviso che indica che è necessario richiedere all&#39;amministratore di \[Abilitare il rapporto Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
-**D: Posso esportare i dati Activity Map (contextData) tramite Feed[dati](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html)Analytics?**
+**D: Posso esportare i dati Activity Map (contextData) tramite Feed[dati](https://docs.adobe.com/content/help/it-IT/analytics/export/analytics-data-feed/data-feed-overview.html)Analytics?**
 
-A: No.
+R: No.
 
 ## Segmentazione in Activity Map
 
