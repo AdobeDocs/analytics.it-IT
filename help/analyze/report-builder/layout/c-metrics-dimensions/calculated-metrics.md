@@ -3,7 +3,7 @@ description: Generatore di report 5.2 supporta le metriche calcolate unificate d
 title: Metriche calcolate
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ Generatore di report 5.2 supporta le metriche calcolate unificate di Adobe Analy
 
 >[!NOTE] Le cartelle di lavoro esistenti potrebbero puntare a richieste con ID di metriche precedenti. Quando si utilizza Generatore di report 5.2, questi ID di metriche precedenti verranno convertiti nel nuovo ID globale. Se condividete la cartella di lavoro con un utente di Generatore di report v5.1 o versioni precedenti, tale utente non sarà in grado di visualizzare le metriche calcolate.
 
-Per ulteriori informazioni su come creare e gestire le metriche calcolate con il nuovo Generatore e Manager metriche calcolate, consulta la Guida alle metriche [](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics) calcolate.
+Per ulteriori informazioni su come creare e gestire le metriche calcolate con il nuovo Generatore e Manager metriche calcolate, consulta la Guida alle metriche [](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html) calcolate.
 
 Nel passaggio 2 della Richiesta guidata, puoi filtrare e applicare le metriche calcolate.
 
