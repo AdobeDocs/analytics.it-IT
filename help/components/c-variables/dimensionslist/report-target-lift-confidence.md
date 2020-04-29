@@ -3,7 +3,7 @@ description: Consente di valutare il successo delle campagne in Adobe Analytics 
 title: Incremento e confidenza Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -12,15 +12,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL View All Reports]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics for Target]** &gt; **[!UICONTROL Target Activities]** .
+**[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics for Target]** > **[!UICONTROL Target Activities]** .
 
-La documentazione di Adobe Target contiene ulteriori informazioni su [Lift](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) e [Confidence](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
+La documentazione di Adobe Target contiene ulteriori informazioni su [Lift](https://docs.adobe.com/content/help/en/target/using/administer/preferences/estimating-lift-in-revenue.html) and [Confidence](https://docs.adobe.com/help/en/target/using/reports/settings/average-lift-bounds-and-confidence-interval.html)(Incremento e confidenza).
 
-Per calcolare l'incremento e la confidenza:
+Per calcolare l&#39;incremento e la confidenza:
 
-1. Nel **[!UICONTROL Target Activities]** rapporto, fate clic su un'attività per visualizzarne i dettagli.
-1. In Tipo rapporto, selezionare **[!UICONTROL Lift and Confidence]**.
-1. Fate clic **[!UICONTROL Show Metrics]** per aggiungere una metrica. Non è possibile aggiungere più di una metrica per questo tipo di rapporto, poiché è consigliabile valutare un test in base a una sola metrica. Più metriche aggiungerebbero solo rumore e ridurrebbero il segnale del test.
+1. Nel **[!UICONTROL Target Activities]** rapporto, fate clic su un&#39;attività per visualizzarne i dettagli.
+1. In Tipo di rapporto, selezionare **[!UICONTROL Lift and Confidence]**.
+1. Fate clic **[!UICONTROL Show Metrics]** per aggiungere una metrica. Non è possibile aggiungere più di una metrica per questo tipo di rapporto, in quanto è consigliabile valutare un test in base a una sola metrica. Più metriche aggiungerebbero solo rumore e ridurrebbero il segnale del test.
 1. (Facoltativo) In **[!UICONTROL Normalizing Metric]**, selezionare una delle opzioni seguenti: Visitatori, Visite o Impressioni. Nella maggior parte dei casi, questo sarà il valore predefinito, Visitatori.
 
 1. Il report aggiungerà queste metriche, incluso il rapporto tra le metriche e la metrica di normalizzazione.
