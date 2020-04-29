@@ -4,7 +4,7 @@ title: Tipi di rapporto
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,19 +23,19 @@ Informazioni sui tipi di report di base, compresi Traffico, Conversione e Percor
  <tbody> 
   <tr> 
    <td colname="col1"> Traffico </td> 
-   <td colname="col2"> <p>I report Traffic ti consentono di conoscere in maniera approfondita il modo in cui i visitatori interagiscono con il tuo sito Web e le tue statistiche sul traffico personalizzate.  </p> <p>Consultate <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html"  > Rapporti</a>sul traffico. </p> </td> 
+   <td colname="col2"> <p>I report Traffic ti consentono di conoscere in maniera approfondita il modo in cui i visitatori interagiscono con il tuo sito Web e le tue statistiche sul traffico personalizzate.  </p> <p>Consultate <a href="/help/analyze/ad-hoc-analysis/c-reports-traffic.md"  > Rapporti</a>sul traffico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Conversione </td> 
-   <td colname="col2"> <p>Riporta informazioni sugli indicatori di successo da te definiti. Quando si acquisiscono inizialmente le licenze, è disponibile un'opzione per definire metriche che indicano o forniscono informazioni aggiuntive sulle vendite o sulle consegne di contenuto riuscite. I report mostrano qui i numeri per queste metriche. Alcuni esempi includono i tipi di pagamento, i costi di spedizione e i buoni online utilizzati. </p> <p>Consulta <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html"  > Report</a>di conversione. </p> </td> 
+   <td colname="col2"> <p>Riporta informazioni sugli indicatori di successo da te definiti. Quando si acquisiscono inizialmente le licenze, è disponibile un'opzione per definire metriche che indicano o forniscono informazioni aggiuntive sulle vendite o sulle consegne di contenuto riuscite. I report mostrano qui i numeri per queste metriche. Alcuni esempi includono i tipi di pagamento, i costi di spedizione e i buoni online utilizzati. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html"  > Report</a>di conversione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Paths (Percorsi) </td> 
-   <td colname="col2"> <p>I report Paths, così come Fallout (Ricaduta) e PathFinder (Apripista) ti consentono di monitorare e registrare tutti i percorsi di navigazione dei visitatori e dei clienti. Potete visualizzare il traffico del sito man mano che scorre da una pagina o un elemento all'altro, scoprire nuovi pattern e percorsi popolari o cercare i percorsi specifici seguiti dai visitatori. </p> <p>Consultate Report <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html"  > Percorsi</a>. </p> </td> 
+   <td colname="col2"> <p>I report Paths, così come Fallout (Ricaduta) e PathFinder (Apripista) ti consentono di monitorare e registrare tutti i percorsi di navigazione dei visitatori e dei clienti. Potete visualizzare il traffico del sito man mano che scorre da una pagina o un elemento all'altro, scoprire nuovi pattern e percorsi popolari o cercare i percorsi specifici seguiti dai visitatori. </p> <p>Consultate Report <a href="https://docs.adobe.com/content/help/it-IT/analytics/components/variables/dimensions-reports/reports-paths.html"  > Percorsi</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Per informazioni sulle funzioni dell&#39;interfaccia, consultate [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) (Funzionidei rapporti).
 
-Per le descrizioni, vedere Descrizioni dei [rapporti](https://marketing.adobe.com/resources/help/it_IT/reference/reports_descriptions.html) in *`Analytics Reference Help`* .
+Per le descrizioni, vedere Descrizioni dei [rapporti](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) in *`Analytics Reference Help`* .
