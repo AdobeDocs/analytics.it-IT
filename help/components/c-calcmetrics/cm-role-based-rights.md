@@ -3,7 +3,7 @@ description: I diritti delle metriche calcolate sono diversi tra utenti a livell
 title: Metriche calcolate, diritti basati su ruoli
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,9 +26,9 @@ I diritti delle metriche calcolate sono diversi tra utenti a livello di amminist
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Utenti a livello di amministratore</b> </td> 
-   <td colname="col02"> Gli amministratori possono creare metriche calcolate e <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > gruppi </a> per limitare i diritti degli utenti di creare metriche calcolate. </td> 
+   <td colname="col02"> Gli amministratori possono creare metriche calcolate e <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html"  > gruppi </a> per limitare i diritti degli utenti di creare metriche calcolate. </td> 
    <td colname="col2"> Può essere condiviso con l’intera società, con i gruppi di utenti e con i singoli utenti. </td> 
-   <td colname="col3"> <span class="keyword"> Reporting e analisi</span>:Può visualizzare/modificare/eliminare/ecc. metriche calcolate personalizzate e di altri utenti. <p> <span class="keyword"> Analisi ad hoc </span> e Generatore di <span class="keyword"> report </span>:Può visualizzare/modificare/eliminare/ecc. le proprie metriche calcolate e quelle condivise con esse. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Reporting e analisi</span>: Può visualizzare/modificare/eliminare/ecc. metriche calcolate personalizzate e di altri utenti. <p> <span class="keyword"> Analisi ad hoc </span> e Generatore di <span class="keyword"> report </span>: Può visualizzare/modificare/eliminare/ecc. le proprie metriche calcolate e quelle condivise con esse. </p> </td> 
    <td colname="col4"> Può approvare metriche calcolate come canoniche. </td> 
    <td colname="col5"> Può applicare qualsiasi metrica calcolata all'intera organizzazione. </td> 
   </tr> 
