@@ -5,7 +5,7 @@ title: Panoramica delle regole bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,7 @@ Adobe non è in grado di fornire ai clienti l&#39;elenco dettagliato dei bot IAB
 
 ## Regole bot personalizzate
 
->[!NNota] L&#39;interfaccia utente consente di definire manualmente 500 regole. Una volta raggiunto questo limite, le regole devono essere gestite in blocco tramite le opzioni Importa file ed Esporta regole bot.
+>[!NOTE]L&#39;interfaccia utente consente di definire manualmente 500 regole. Una volta raggiunto questo limite, le regole devono essere gestite in blocco tramite le opzioni Importa file ed Esporta regole bot.
 
 Le regole bot personalizzate consentono di filtrare le condizioni basate sul traffico definite dall&#39;utente.
 
