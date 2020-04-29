@@ -2,7 +2,7 @@
 title: Dettagli del canale di marketing - primo e ultimo tocco
 description: Alloca metriche di successo e ricavi a vari dettagli di canale, indipendentemente dal canale in cui si trovano.
 translation-type: tm+mt
-source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -32,4 +32,4 @@ Questi rapporti forniscono informazioni approfondite sulle campagne o sulle paro
    * Tutte le metriche standard di eCommerce: Entrate, Ordini, Unità, Carrelli, Visualizzazioni Carrello, Checkout, Aggiunte Carrello, Rimozioni Carrello.
    * Tutti gli eventi personalizzati: Eventi 1-80 ed Eventi 81-100 se nel codice H22 o versioni successive.
    * Visite e visitatori: la disponibilità dipende dall&#39;organizzazione e dalla suite di rapporti. Per ulteriori informazioni, contattate l&#39;Account Manager.
-   Consulta [Metriche](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) nell’ [!UICONTROL Marketing Channel] Aiuto.
+   Consulta [Metriche](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) nell’ [!UICONTROL Marketing Channel] Aiuto.
