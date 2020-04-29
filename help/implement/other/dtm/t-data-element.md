@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creare un elemento di dati
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 Crea un elemento dati in Gestione tag dinamica.
 
 1. [Crea proprietà](/help/implement/other/dtm/t-create-web-property.md)Web, se non lo hai già fatto.
-1. In the web property, click **[!UICONTROL Rules]**>**[!UICONTROL Data Elements]**.
+1. In the web property, click **[!UICONTROL Rules]** > **[!UICONTROL Data Elements]**.
 1. Fai clic su **[!UICONTROL Create New Data Element]**.
 1. Completa i campi e le opzioni seguenti:
 
@@ -26,13 +26,14 @@ Crea un elemento dati in Gestione tag dinamica.
     </thead> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Nome</strong></td> 
-      <td class="chdesc stentry"> <p>Il nome descrittivo dell'elemento dati che un esperto di marketing può riconoscere. Ad esempio, <code>
+      <td class="chdesc stentry"> <p>Il nome descrittivo dell'elemento dati che un esperto di marketing può riconoscere. Ad esempio, 
+        <code>
           Product ID
-        </code> (Indirizzo IP). </p> <p> <p>Nota:  Il generatore di regole fa riferimento al nome, non a un ID. Se si modifica il nome dell'elemento dati, è necessario modificarne il riferimento in ogni regola che lo utilizza. </p> </p> </td> 
+        </code>. </p> <p> <p>Nota:  Il generatore di regole fa riferimento al nome, non a un ID. Se si modifica il nome dell'elemento dati, è necessario modificarne il riferimento in ogni regola che lo utilizza. </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
-      <td class="choption"><strong>Type (Tipo)</strong></td> 
-      <td class="chdesc stentry"> <p> Specifica da dove vengono estratti i dati, ad esempio oggetto JS, selettore CSS, cookie, parametro URL o script personalizzato. </p> <p>A seconda del tipo selezionato, vengono visualizzate opzioni diverse. Per ulteriori informazioni ed esempi, consulta <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html"> Tipi di elementi</a> di dati nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
+      <td class="choption"><strong>Tipo</strong></td> 
+      <td class="chdesc stentry"> <p> Specifica da dove vengono estratti i dati, ad esempio oggetto JS, selettore CSS, cookie, parametro URL o script personalizzato. </p> <p>A seconda del tipo selezionato, vengono visualizzate opzioni diverse. Per ulteriori informazioni ed esempi, consulta <a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html"> Tipi di elementi</a> di dati nella Documentazione prodotto Gestione tag dinamica. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valore predefinito</strong></td> 
@@ -40,7 +41,7 @@ Crea un elemento dati in Gestione tag dinamica.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Forza valore in lettere minuscole</strong></td> 
-      <td class="chdesc stentry"> <p>Gestione tag dinamica rende automaticamente il valore più basso. </p> </td> 
+      <td class="chdesc stentry"> <p>Gestione tag dinamica rende automaticamente il valore più minuscolo. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Ricorda questo valore per</strong></td> 
@@ -53,5 +54,5 @@ Crea un elemento dati in Gestione tag dinamica.
     </tr> 
    </table>
 
-   Per ulteriori informazioni sull&#39;utilizzo degli elementi di dati, consulta [Elementi](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html) di dati nella Documentazione prodotto di Adobe Tag Management.
+   Per ulteriori informazioni sull&#39;utilizzo degli elementi di dati, consulta [Elementi](https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html) di dati nella Documentazione prodotto di Adobe Tag Management.
 1. Fai clic su **[!UICONTROL Save Data Element]**.
