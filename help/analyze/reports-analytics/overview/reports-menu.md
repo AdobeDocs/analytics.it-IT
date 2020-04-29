@@ -3,7 +3,7 @@ description: Panoramica del menu Report in Reporting e analisi.
 title: Menu Rapporti
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,7 +27,7 @@ I rapporti vengono esplorati utilizzando una vista a colonne gerarchica. Fare cl
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://marketing.adobe.com/resources/help/it_IT/reference/reports_descriptions.html).
+Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
 
 ## Cerca report {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmenti <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Consente di visualizzare la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder</a> e <a href="https://marketing.adobe.com/resources/help/it_IT/analytics/segment/seg_manage.html"  > Segment Manager</a> dalla barra dei segmenti. </td> 
+   <td colname="col2">Consente di visualizzare la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > Segment Builder</a> e <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segment Manager</a> dalla barra dei segmenti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -107,7 +107,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1">Selettore suite di rapporti <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Consente di selezionare suite <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  > di rapporti di base o suite</a> <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  ></a>di rapporti virtuali. </td> 
+   <td colname="col2">Consente di selezionare suite <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/report-suites-admin.html"  > di rapporti di base o suite</a> <a href="https://docs.adobe.com/help/it-IT/analytics/components/virtual-report-suites/vrs-about.html"  ></a>di rapporti virtuali. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendario <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
 
 ## Personalizzazione del menu Tutti i rapporti {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti. Consultate Personalizzazione [del](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) menu (Menu Customizing) nell&#39;Aiuto di amministrazione.
+Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti. Consultate Personalizzazione [del](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) menu (Menu Customizing) nell&#39;Aiuto di amministrazione.
