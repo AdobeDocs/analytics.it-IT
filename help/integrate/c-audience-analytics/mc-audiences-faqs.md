@@ -4,14 +4,14 @@ solution: Experience Cloud
 title: Domande frequenti
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Domande frequenti
 
-Risposte alle domande che potresti avere durante l'implementazione di Audience Analytics.
+Risposte alle domande che potresti avere durante l&#39;implementazione di Audience Analytics.
 
 ## Domande frequenti legali {#section_B51CFC961C0B45A2BE5F4A4404620764}
 
@@ -22,7 +22,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Se hai indirizzi e-mail e simili in un prop o eVar, può essere utile usare funzioni hash per dati durante la raccolta. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  > turn on IP obfuscation </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/exclude-ip.html"  > turn on IP obfuscation </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Parla con il tuo amministratore di Analytics per vedere quali dati stai raccogliendo. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Parla con il tuo ufficio legale per capire che cosa è considerato PII. </li> 
     </ul> </td> 
@@ -45,7 +45,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>D: Come si crea una destinazione Analytics in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Consultate <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > Configurare una destinazione Analytics in AAM </a>. </td> 
+   <td colname="col2"> Consultate <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configurare una destinazione Analytics in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Dopo aver creato e salvato una destinazione Analytics, quanto tempo ci vorrà fino alla visualizzazione dei dati nelle suite di rapporti selezionate?</b> </p> </td> 
@@ -100,7 +100,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Perché nel mio rapporto di Analytics viene visualizzato il limite di pubblico raggiunto? (Nota: questo verrà anche rappresentato come ID pubblico = -1 e "::max_audiences_Exceder::" in Data Warehouse)</b> </p> </td> 
-   <td colname="col2"> <p>Per impostazione predefinita, l'integrazione di Audience Analytics per AAM invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all'hit. Se un visitatore appartiene a più di 150 segmenti AAM su un singolo hit, i <b>150 segmenti</b> qualificati più di recente vengono inviati ad Analytics, mentre il resto dell'elenco viene troncato. </p> <p>Viene inviato un flag aggiuntivo ad Analytics per indicare che l’elenco dei segmenti è stato troncato e viene visualizzato come "Limite pubblico raggiunto" nella dimensione Nome pubblico e come "-1" nella dimensione ID pubblico. </p> <p>Anche se è improbabile che un visitatore sia idoneo per più di 150 segmenti su un particolare hit, potrebbe verificarsi una piccola percentuale del tempo. Se nei rapporti si verifica il "limite di audience raggiunto", avete due opzioni: </p> 
+   <td colname="col2"> <p>Per impostazione predefinita, l'integrazione di Audience Analytics per AAM invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all'hit. Se un visitatore appartiene a più di 150 segmenti AAM per un singolo hit, i <b>150 segmenti</b> qualificati più di recente vengono inviati ad Analytics, mentre il resto dell'elenco viene troncato. </p> <p>Viene inviato un flag aggiuntivo ad Analytics per indicare che l’elenco dei segmenti è stato troncato e viene visualizzato come "Limite pubblico raggiunto" nella dimensione Nome pubblico e come "-1" nella dimensione ID pubblico. </p> <p>Anche se è improbabile che un visitatore sia idoneo per più di 150 segmenti su un particolare hit, potrebbe verificarsi una piccola percentuale del tempo. Se nei rapporti si verifica il "limite di audience raggiunto", avete due opzioni: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opzione 1</b>: Continua a consentire il funzionamento dell’integrazione nello stato out-of-the-box, inviando i 150 segmenti qualificati più di recente per un particolare visitatore. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Opzione 2</b>: In AAM, scegli i 150 segmenti più importanti per la tua attività per l'integrazione. AAM controlla quindi i visitatori rispetto ai soli 150 segmenti. Lo svantaggio di questo approccio è che ricevi solo quei 150 segmenti tra tutti i visitatori. D'altro canto, l'approccio Opzione 1 può offrire segmenti illimitati grazie alla natura per hit dell'integrazione. </li> 
@@ -113,7 +113,7 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
  </tbody> 
 </table>
 
-## Domande frequenti sull'inoltro lato server (SSF) {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## Domande frequenti sull&#39;inoltro lato server (SSF) {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
@@ -122,13 +122,13 @@ Risposte alle domande che potresti avere durante l'implementazione di Audience A
    <td colname="col2"> <p>Sì. Nella configurazione di destinazione AAM, verranno visualizzate solo le suite di rapporti che hanno SSF attivato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>D: Perché non posso attivare determinate suite di rapporti per SSF in Analytics Admin?</b> </p> </td> 
+   <td colname="col1"> <p><b>D: Perché non è possibile attivare determinate suite di rapporti per SSF in Analytics Admin?</b> </p> </td> 
    <td colname="col2"> <p>È possibile abilitare solo le suite mappate all’organizzazione Experience Cloud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori domande frequenti su questo argomento, consultate Domande frequenti sull'inoltro lato [server](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+Per ulteriori domande frequenti su questo argomento, consultate Domande frequenti sull&#39;inoltro lato [server](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
 
 ## Domande frequenti generiche {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -144,10 +144,10 @@ Per ulteriori domande frequenti su questo argomento, consultate Domande frequent
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Qual è la differenza tra gli attributi cliente e i dati cliente integrati da AAM?</b> </p> </td> 
-   <td colname="col2"> <p>Gli attributi del cliente non sono basati sul tempo; si applicano retroattivamente e vanno avanti. I dati integrati di AAM sono basati sul tempo e proseguono solo. Inoltre, Attributi del cliente è una tabella di ricerca per gli ID visitatore di Experience Cloud, mentre l'integrazione di AAM è costituita da dati uniti in ciascun hit per un visitatore. </p> </td> 
+   <td colname="col2"> <p>Gli attributi del cliente non sono basati sul tempo; si applicano retroattivamente e vanno avanti. I dati integrati di AAM sono basati sul tempo e proseguono solo. Inoltre, Attributi del cliente è una tabella di ricerca per gli ID visitatore di Experience Cloud, mentre l'integrazione di AAM è costituita da dati raggruppati in ciascun hit per un visitatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>D: Quali sono gli approcci legacy a questo problema, ad esempio la vecchia versione beta o le destinazioni di cookie del plug-in Consulting?</b> </p> </td> 
+   <td colname="col1"> <p><b>D: Quali sono gli approcci legacy a questo problema, ad esempio la vecchia versione beta o le destinazioni dei cookie dei plug-in di Consulting?</b> </p> </td> 
    <td colname="col2"> <p>È consigliabile implementare la nuova integrazione e rimuovere le vecchie destinazioni. </p> </td> 
   </tr> 
  </tbody> 
