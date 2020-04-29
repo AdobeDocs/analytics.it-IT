@@ -2,7 +2,7 @@
 description: Non è possibile combinare Generatore regole di classificazione con sottoclassificazioni.
 title: Sottoclassificazioni e Generatore di regole
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,7 +37,7 @@ Esempi di passaggi che descrivono come caricare le sottocategorie utilizzando il
 >
 >Questi passaggi descrivono come eseguire il caso d’uso descritto in [Sottoclassificazioni e nel Generatore](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)di regole.
 
-1. Creare classificazioni e sottoclassificazioni in Gestione [classificazione](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
+1. Creare classificazioni e sottoclassificazioni in Gestione [classificazione](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
 
    Esempio:
 
@@ -64,8 +64,8 @@ Esempi di passaggi che descrivono come caricare le sottocategorie utilizzando il
 
    | Chiave | Canale | Ampio codice campagna | Ampio codice campagna;Hat;Tipo campagna | Ampio codice campagna&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | Marchio | Suzanne |  |
-   | * |  | 222 | Marchio | Frank |  |
+   | * |  | 111 | Brand (Marchio) | Suzanne |  |
+   | * |  | 222 | Brand (Marchio) | Frank |  |
 
 1. Per mantenere le tabelle di ricerca, caricate un file piccolo (come mostrato sopra).
 
