@@ -4,12 +4,12 @@ title: Impostazioni non copiate da un'origine di rapporti
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
-# Impostazioni non copiate da un'origine di rapporti
+# Impostazioni non copiate da un&#39;origine di rapporti
 
 Se hai copiato le impostazioni da una suite di rapporti esistente, un messaggio di sistema identifica le impostazioni non copiate nella nuova suite di rapporti.
 
@@ -25,7 +25,7 @@ Le seguenti impostazioni non vengono copiate da modelli o suite di rapporti dupl
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dati classificazione (struttura classificazione copiata) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> Documentazione di Importazione classificazioni (caricamento)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentazione di Importazione classificazioni (caricamento)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abilita registrazione ID transazione </p> </td> 
@@ -45,7 +45,7 @@ Le seguenti impostazioni non vengono copiate da modelli o suite di rapporti dupl
    <td colname="col2"> 
     <ol id="ol_A3277C5843704DEA902DF030099E9227"> 
      <li id="li_8B3A5974466C4D9D9A3D3D0C6A30F414"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Amministratore</span> &gt; <span class="uicontrol"> Suite</span>di rapporti, quindi seleziona una suite di rapporti. </li> 
-     <li id="li_1B44AFD4026346698F3CB75E2CBF1959">Fate clic su <span class="uicontrol"> Modifica impostazioni</span> &gt; <span class="uicontrol"> Generale</span> &gt; Menu <span class="uicontrol"> cliente</span> </li> 
+     <li id="li_1B44AFD4026346698F3CB75E2CBF1959">Fate clic su <span class="uicontrol"> Modifica impostazioni</span> &gt; <span class="uicontrol"> Generale</span> &gt; Menu <span class="uicontrol"> del cliente</span> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Le seguenti impostazioni non vengono copiate da modelli o suite di rapporti dupl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor Clickmap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Aggiornamento a Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Aggiornamento a Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regole VISTA </p> </td> 
