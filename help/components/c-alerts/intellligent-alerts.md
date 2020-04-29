@@ -3,7 +3,7 @@ description: Il nuovo sistema intelligente di avvisi offre un controllo più gra
 title: Avvisi intelligenti
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,26 +18,26 @@ Il nuovo sistema intelligente di avvisi offre un controllo più granulare sugli 
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-Il nuovo Generatore di avvisi e Gestione avvisi sostituiscono la funzionalità di avvisi esistente in Adobe [!DNL Analytics]. La funzione Avvisi intelligenti permette di:
+Il nuovo Generatore di avvisi e Gestione avvisi sostituiscono la funzionalità di avvisi esistente in Adobe [!DNL Analytics]. La funzione Avvisi intelligenti permette di
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore).
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi.
 * Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente.
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso.
 
-I componenti del nuovo sistema di avvisi sono: Generatore di avvisi, Gestione avvisi, Anteprima avvisi e miglior accesso contestuale per la creazione di avvisi. L’interfaccia del precedente sistema di avvisi non sarà più disponibile, mentre gli avvisi veri e propri vengono trasferiti al nuovo sistema. Alcune delle precedenti funzioni per avvisi [non saranno più disponibili](https://marketing.adobe.com/resources/help/en_US/sc/user/deprecated_alerts.html).
+I componenti del nuovo sistema di avvisi sono: Generatore di avvisi, Gestione avvisi, Anteprima avvisi e miglior accesso contestuale per la creazione di avvisi. L’interfaccia del precedente sistema di avvisi non sarà più disponibile, mentre gli avvisi veri e propri vengono trasferiti al nuovo sistema. Alcune delle precedenti funzioni per avvisi [non saranno più disponibili](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
 
 È possibile accedere al Generatore di avvisi in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Passando direttamente al Generatore di avvisi:  **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]** .
+* By going directly to the Alert Builder:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
 * By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Viene aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso.
 
    ![](assets/create-alert-from-selection.png)
 
-* From within a [!UICONTROL Reports & Analytics] report, by going to  **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** . Viene aperto il nuovo Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal rapporto. Se necessario, puoi quindi modificare l’avviso.
+* From within a [!UICONTROL Reports & Analytics] report, by going to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Viene aperto il nuovo Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal rapporto. Se necessario, puoi quindi modificare l’avviso.
 
    ![](assets/add-alert.png)
 
@@ -55,7 +55,7 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>D: Quale intervallo di tempo passato può prendere in considerazione il processo di rilevamento delle anomalie per stabilire eventuali anomalie nei dati?</b> </p> </td> 
-   <td colname="col2"> <p>Il periodo di rilevamento varia in base al tipo di granularità selezionato. Per ulteriori informazioni, consulta Tecniche statistiche utilizzate nel rilevamento delle <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">anomalie</a> . Segue un breve riepilogo: </p> 
+   <td colname="col2"> <p>Il periodo di rilevamento varia in base al tipo di granularità selezionato. See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. Segue un breve riepilogo: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensile = 15 mesi + lo stesso intervallo relativo allo scorso anno </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Settimanale = 15 settimane + lo stesso intervallo relativo allo scorso anno </li> 
@@ -73,7 +73,7 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: È possibile ottenere una tabella dei "valori previsti" che comprenda la linea tratteggiata, o una sorta di output dei valori? </b> </p> </td> 
-   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo fisso di 30 giorni, un intervallo fisso del 95% ed è simile al processo di <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  ><span class="uicontrol"></span>rilevamento delle anomalie di Reports &amp; Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo fisso di 30 giorni, un intervallo fisso del 95% ed è simile al processo di <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  ><span class="uicontrol"></span>rilevamento delle anomalie di Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
