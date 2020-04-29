@@ -3,7 +3,7 @@ description: Spiega le tre opzioni di compatibilità dei prodotti.
 title: Compatibilità delle metriche
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,7 +24,7 @@ Quando crei metriche calcolate o calcolate avanzate nel Generatore metriche calc
  <tbody> 
   <tr> 
    <td colname="col1"> Dati correnti </td> 
-   <td colname="col2"> <p>L'opzione Includi dati correnti in Analytics consente di visualizzare gli ultimi dati di Analytics, spesso prima che i dati vengano elaborati e finalizzati completamente. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > I dati</a> correnti mostrano la maggior parte delle metriche in pochi minuti, fornendo dati fruibili per il processo decisionale rapido. </p> <p>Dati correnti supporta solo metriche calcolate (che includono moltiplicazione, divisione, addizione e sottrazione). I dati correnti non supportano metriche calcolate avanzate (che contengono segmenti o funzioni). </p> </td> 
+   <td colname="col2"> <p>L'opzione Includi dati correnti in Analytics consente di visualizzare gli ultimi dati di Analytics, spesso prima che i dati vengano elaborati e finalizzati completamente. <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > I dati</a> correnti mostrano la maggior parte delle metriche in pochi minuti, fornendo dati fruibili per il processo decisionale rapido. </p> <p>Dati correnti supporta solo metriche calcolate (che includono moltiplicazione, divisione, addizione e sottrazione). I dati correnti non supportano metriche calcolate avanzate (che contengono segmenti o funzioni). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dati completamente elaborati </td> 
