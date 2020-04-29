@@ -4,7 +4,7 @@ solution: Experience Cloud,Analytics
 title: Attributi cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,34 +13,34 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Domande frequenti su Analytics per gli attributi del cliente e come eseguire il rapporto Attributi del cliente.
 
-**[!UICONTROL Reports]** **[!UICONTROL > Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]**
+**[!UICONTROL Reports]** **[!UICONTROL > Visitor Profile]** > **[!UICONTROL Customer Attributes]**
 
 Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in una sorgente dati di attributi cliente in Experience Cloud. Dopo aver caricato i dati, puoi eseguire il rapporto Attributi del cliente in Reporting e analisi.
 
 * [Attributi del cliente e metriche di reporting in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Domande frequenti - Attributi del cliente in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-Consulta Attributi [del](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) cliente nell'Aiuto di Experience Cloud per informazioni sul caricamento dei dati attributo del cliente.
+Consulta Attributi [del](https://docs.adobe.com/content/help/it-IT/core-services/interface/customer-attributes/attributes.html) cliente nell&#39;Aiuto di Experience Cloud per informazioni sul caricamento dei dati attributo del cliente.
 
 ## Attributi del cliente e metriche di reporting in Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
-Dopo aver caricato gli attributi del cliente e convalidato lo schema (in Experience Cloud), il sistema crea metriche in base ai nomi descrittivi (come *`age`* o *`gender`*) mappati alle stringhe e ai numeri interi degli attributi. Tali metriche vengono visualizzate in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** report.
+Dopo aver caricato gli attributi del cliente e convalidato lo schema (in Experience Cloud), il sistema crea metriche in base ai nomi descrittivi (come *`age`* o *`gender`*) mappati alle stringhe e ai numeri interi degli attributi. Tali metriche vengono visualizzate in **[!UICONTROL Visitor Profile]** > **[!UICONTROL Customer Attributes]** report.
 
 Ad esempio:
 
-**[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** &gt; **[!UICONTROL Age]**
+**[!UICONTROL Visitor Profile]** (Workspace) > **[!UICONTROL Customer Attributes]** (Progetto) > **[!UICONTROL Age]** (Annulla/Ripeti)
 
 ![](assets/report_age.png)
 
-**Esempio - Metriche dell'età**
+**Esempio - Metriche dell&#39;età**
 
 Se si specifica una stringa con nome, *`age`* il sistema crea le metriche e le dimensioni seguenti:
 
-* Dimensione età: Consente di eseguire un report basato sull'attributo Age.
+* Dimensione età: Consente di eseguire un report basato sull&#39;attributo Age.
 * Metrica età: Una metrica che puoi aggiungere a un rapporto, ad esempio un rapporto Visitatori unici.
 * Conteggio metriche età: Consente di comprendere, ad esempio, se i visitatori hanno specificato un *`age`* valore in un modulo.
 
-Poiché le metriche sono somme in una tabella di report, devi [creare una metrica](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) calcolata che ti indichi l'età media. La formula per questa metrica è `Age / Count of Age`.
+Poiché le metriche sono somme in una tabella di report, devi [creare una metrica](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html) calcolata che ti indichi l&#39;età media. La formula per questa metrica è `Age / Count of Age`.
 
 ## Domande frequenti - Attributi del cliente in Analytics {#section_E29641D1F3D649C1AC9EA5231921F038}
 
