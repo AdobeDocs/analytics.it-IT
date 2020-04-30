@@ -5,7 +5,7 @@ title: Creare suite di rapporti
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcune cose.
 
 * Gli utenti non amministratori non possono visualizzare Virtual Report Suite Manager.
-* Impossibile condividere le suite di rapporti virtuali. "Condivisione" viene eseguita tramite gruppi/autorizzazioni.
-* In Virtual Report Suite Manager (Gestione suite di rapporti virtuali) puoi visualizzare solo le suite di rapporti virtuali. Devi fare clic su "Mostra tutti" per vedere quelli di tutti gli altri.
+* Impossibile condividere le suite di rapporti virtuali. &quot;Condivisione&quot; viene eseguita tramite gruppi/autorizzazioni.
+* In Virtual Report Suite Manager (Gestione suite di rapporti virtuali) è possibile visualizzare solo le suite di rapporti virtuali. Devi fare clic su &quot;Mostra tutti&quot; per vedere quelli di tutti gli altri.
 
-1. Passa a **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
-1. Fai clic su **[!UICONTROL Add +]** (Genera).
+1. Passa a **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**.
+1. Fai clic su **[!UICONTROL Add +]**.
 
    ![](assets/new_vrs.png)
 
@@ -47,7 +47,7 @@ Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcu
   </tr> 
   <tr> 
    <td colname="col1"> Groups (Gruppi) </td> 
-   <td colname="col2"> <p>Selezionate i gruppi di autorizzazioni a cui desiderate accedere per questa VRS. (Potete anche gestire le autorizzazioni del gruppo da <span class="ignoretag"><span class="uicontrol"> Admin</span> (Amministratore) &gt; <span class="uicontrol"> User Management (Gestione</span> utente) &gt; <span class="uicontrol"> Groups (Gruppi</span></span>).) </p> </td> 
+   <td colname="col2"> <p>Selezionate i gruppi di autorizzazioni a cui desiderate accedere per questa VRS. (Potete anche gestire le autorizzazioni per i gruppi da <span class="ignoretag"><span class="uicontrol"> Admin</span> (Amministratore) &gt; <span class="uicontrol"> User Management (Gestione</span> utente) &gt; <span class="uicontrol"> Groups (Gruppi</span></span>).) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suite di rapporti principale </td> 
@@ -59,7 +59,7 @@ Prima di iniziare a creare delle suite di rapporti virtuali, tieni presente alcu
   </tr> 
   <tr> 
    <td colname="col1"> Segmenti </td> 
-   <td colname="col2"> <p>Puoi aggiungere un solo segmento o <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  > impilare segmenti</a>. </p> <p> <p>Nota:  Quando si sovrappongono due segmenti, essi sono uniti da un'istruzione AND. Questo non può essere modificato in un'istruzione OR. </p> </p> <p>Quando si tenta di eliminare o modificare un segmento attualmente utilizzato in una suite di rapporti virtuali, viene visualizzato un avviso. </p> </td> 
+   <td colname="col2"> <p>Puoi aggiungere un solo segmento o <a href="https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-build.html"  > impilare segmenti</a>. </p> <p> <p>Nota:  Quando si sovrappongono due segmenti, essi sono uniti da un'istruzione AND. Questo non può essere modificato in un'istruzione OR. </p> </p> <p>Quando si tenta di eliminare o modificare un segmento attualmente utilizzato in una suite di rapporti virtuali, viene visualizzato un avviso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
