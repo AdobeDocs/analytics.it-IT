@@ -3,7 +3,7 @@ description: nulle
 title: Panoramica su Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analisi della pubblicità consente di visualizzare i dati Google e Bing Paid Search affiancati, in Adobe Analytics. In precedenza, qualsiasi dato di Google AdWords/DFA o Microsoft Bing Ads doveva essere visualizzato in Adobe Advertising Cloud (AMO) o in Google/Bing. Ora riceverai i seguenti dati in Adobe Analytics: Impressioni, clic, costi, punteggio di qualità e posizione media direttamente dai motori di ricerca, nonché dalle istanze di ID AMO (fate clic su Istanze).
 
->[!NOTE] Yahoo Gemini è stato assorbito da Microsoft Bing il 31 marzo 2019. Di conseguenza, l&#39;opzione dell&#39;account pubblicitario Yahoo Gemini non è più disponibile.
+>[!NOTE] Yahoo Gemini è stato assorbito da Microsoft Bing il 31 marzo 2019. Di conseguenza, l’opzione per l’account per annunci Yahoo Gemini non è più disponibile.
 
 Riunendo i dati di questi motori di ricerca in Adobe Analytics, puoi analizzare gli stessi dati utilizzando l’efficacia di Analysis Workspace. Un nuovo modello di prestazioni [della ricerca a](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) pagamento in Workspace facilita l’analisi.
 
@@ -29,7 +29,7 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 
 * Questa funzionalità è disponibile per i clienti non-Advertising Cloud e non-AMO.
 * Per poter accedere ad Analisi della pubblicità, devi essere un amministratore di Adobe Analytics. Successivamente, potete [concedere autorizzazioni](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) di accesso agli utenti non amministratori.
-* Qualsiasi suite di rapporti Analytics in cui desideri visualizzare i dati di ricerca Google/Bing deve essere [mappata alla tua organizzazione](https://marketing.adobe.com/resources/help/it_IT/mcloud/report-suite-mapping.html)Experience Cloud.
+* Qualsiasi suite di rapporti Analytics in cui desideri visualizzare i dati di ricerca Google/Bing deve essere [mappata alla tua organizzazione](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html)Experience Cloud.
 * Per qualsiasi suite di rapporti in cui desideri visualizzare i dati di ricerca Google/Bing, devi [abilitare tali suite di rapporti per Analisi](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) pubblicitaria ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * È necessario disporre delle credenziali di accesso per un utente con autorizzazioni di modifica per gli account di ricerca che si desidera integrare con Adobe Analytics, ad esempio un ID account Google e una password.
@@ -79,12 +79,12 @@ Analisi della pubblicità aggiunge le dimensioni e le metriche seguenti ad Analy
 
 | Nome classificazione (dimensione) | Definizione |
 |--- |--- |
-| Tipo di corrispondenza parola chiave (ID AMO) | Il tipo di corrispondenza della parola chiave. I valori in genere sono ampi, espressi, esatti o nessun valore se il tipo di annuncio non ha un tipo di corrispondenza. |
-| Piattaforma pubblicitaria (AMO ID) | Nome del motore di ricerca. I valori possono includere Google AdWords o Microsoft Bing Ads. |
-| Account (ID AMO) | Nome dell’account del motore di ricerca che viene tracciato. |
+| Tipo di corrispondenza delle parole chiave (AMO ID) | Il tipo di corrispondenza della parola chiave. I valori in genere sono ampi, espressi, esatti o nessun valore se il tipo di annuncio non ha un tipo di corrispondenza. |
+| Piattaforma annunci (AMO ID) | Nome del motore di ricerca. I valori possono includere Google AdWords o Microsoft Bing Ads. |
+| Account (AMO ID) | Nome dell’account del motore di ricerca che viene tracciato. |
 | Campaign (AMO ID) | Nome della campagna nel vostro account del motore di ricerca. |
-| Ad Group (ID AMO) | Nome del gruppo di annunci nelle campagne del motore di ricerca. |
-| Annuncio (ID AMO) | Titolo annuncio + Descrizione annuncio utilizzato sull&#39;annuncio. |
+| Gruppi di annunci (AMO ID) | Nome del gruppo di annunci nelle campagne del motore di ricerca. |
+| Annunci (AMO ID) | Titolo annuncio + Descrizione annuncio utilizzato sull&#39;annuncio. |
 | Parola chiave (ID AMO) | Il valore della parola chiave dall&#39;account del motore di ricerca |
 | Tipo di corrispondenza (ID AMO) | Tipo di corrispondenza parola chiave assegnato alla parola chiave. I valori in genere sono ampi, espressi, esatti o nessun valore se il tipo di annuncio non ha un tipo di corrispondenza. |
 | Tipo di annuncio (AMO ID) | Il tipo di annuncio che viene distribuito, che in genere è &quot;Text Ad&quot;. |
@@ -102,13 +102,13 @@ Analisi della pubblicità aggiunge le dimensioni e le metriche seguenti ad Analy
 
 >[!IMPORTANT]
 >
->Le metriche fornite da Analisi della pubblicità (elencate di seguito) sono dati di livello sintetico provenienti dai motori di ricerca. Non sono connessi ai profili visitatore di Analytics. Sono collegate solo alla variabile AMO ID e alle relative dimensioni di classificazione. Di conseguenza, non devono essere segnalate da dimensioni/segmenti diversi da quelli basati sulle dimensioni dell’ID AMO. In questo modo in Analytics verranno visualizzati degli zeri per i dati. Puoi includerli nelle metriche calcolate con altre metriche, ma anche queste metriche calcolate devono essere suddivise solo per le dimensioni dell’ID AMO.
+>Le metriche fornite da Analisi della pubblicità (elencate di seguito) sono dati di livello sintetico provenienti dai motori di ricerca. Non sono connessi ai profili visitatore di Analytics. Sono collegate solo alla variabile AMO ID e alle relative dimensioni di classificazione. Di conseguenza, non devono essere segnalati da dimensioni/segmenti diversi da quelli basati sulle dimensioni dell’ID AMO. In questo modo in Analytics verranno visualizzati degli zeri per i dati. Puoi includerli nelle metriche calcolate con altre metriche, ma anche queste metriche calcolate devono essere suddivise solo per le dimensioni dell’ID AMO.
 >
 >Queste metriche sono dati originati su base giornaliera, pertanto non avranno dati per il giorno corrente. Inoltre, non devono essere segnalati con una granularità inferiore a quella giornaliera.
 >
 >Esiste una metrica Istanze AMO ID che viene impostata quando l’ID AMO è impostato su una pagina di destinazione (ad es. un clic). Questa metrica viene acquisita in tempo reale con l’hit della pagina di destinazione ed è disponibile per le suddivisioni con altre dimensioni impostate anche sulla pagina di destinazione.
 
-| Nome metrica | Definizione |
+| Nome della metrica | Definizione |
 |--- |--- |
 | Impressioni AMO | Il numero di ad impression come riportato dal motore di ricerca. |
 | Clic AMO | Il numero di clic sugli annunci come riportato dal motore di ricerca. |
