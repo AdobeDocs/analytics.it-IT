@@ -4,7 +4,7 @@ title: Tracciatura percorso
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Un gruppo di rapporti basati sull&#39;analisi dei percorsi. Tecnicamente, per percorso si intende lo spostamento da un nome di pagina all’altro (da un valore all’altro).
 
-Utilizzate Flusso [di](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/flow.html) Analysis Workspace per opzioni di percorso più flessibili.
+Utilizzate Flusso [di](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Analysis Workspace per opzioni di percorso più flessibili.
 
 >[!NOTE] Per abilitare il percorso, passare a **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Per abilitare il percorso nei rapporti Sezione del sito e Server, contatta l&#39;Assistenza clienti.
 
