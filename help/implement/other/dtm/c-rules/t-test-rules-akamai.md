@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Verificare le regole non pubblicate per hosting Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Eseguite il test delle regole non pubblicate dalla console se utilizzate l&#39;hosting di Akamai.
 
-Il plug-in Switcher è spesso il modo più semplice per eseguire il test. Per ulteriori informazioni, consulta Plug-in [](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) di ricerca nella Documentazione prodotto Gestione tag dinamica.
+Il plug-in Switcher è spesso il modo più semplice per eseguire il test. Per ulteriori informazioni, consulta Plug-in [](https://docs.adobe.com/content/help/en/dtm/using/resources/plugins/search-discovery-plugins.html) di ricerca nella Documentazione prodotto Gestione tag dinamica.
 
-I passaggi seguenti mostrano come eseguire il test senza utilizzare il plug-in Switcher:
+Nei passaggi seguenti viene illustrato come eseguire il test senza utilizzare il plug-in Switcher:
 
 1. Accedete alla console Web sul sito e digitate `localStorage.setItem('sdsat_stagingLibrary', true)`.
 1. Premere **[!UICONTROL Enter]**.
