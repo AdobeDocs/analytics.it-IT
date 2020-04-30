@@ -4,7 +4,7 @@ title: Eliminare segmenti
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,10 +20,10 @@ Quando si elimina un segmento,
 
    ![](assets/duplicate_seg_names.png)
 
-   È presente un segnalibro che fa riferimento al segmento della suite di rapporti principale. Quindi si elimina quel segmento perché è un duplicato. Il segnalibro continuerà a essere eseguito, facendo riferimento alla definizione del segmento eliminato. Se modificate la definizione del segmento per il segmento rimanente in modo da includere Catalina Island e Tijuana Mexico, il segmento applicato al segnalibro non subirà modifiche. Utilizzerà la vecchia definizione. Per risolvere il problema, aggiornare il segnalibro in modo che faccia riferimento alla nuova definizione. Se non sei sicuro se un segnalibro, una dashboard o un rapporto pianificato utilizza un segmento eliminato, puoi modificare il nome del segmento rimanente in modo che sia più chiaro se il segnalibro utilizza il segmento rimanente.
+   È presente un segnalibro che fa riferimento al segmento per la suite di rapporti principale. Quindi si elimina quel segmento perché è un duplicato. Il segnalibro continuerà a essere eseguito, facendo riferimento alla definizione del segmento eliminato. Se modificate la definizione del segmento per il segmento rimanente in modo da includere Catalina Island e Tijuana Mexico, il segmento applicato al segnalibro non subirà modifiche. Utilizzerà la vecchia definizione. Per risolvere il problema, aggiornare il segnalibro in modo che faccia riferimento alla nuova definizione. Se non sei sicuro se un segnalibro, una dashboard o un rapporto pianificato utilizza un segmento eliminato, puoi modificare il nome del segmento rimanente in modo che sia più chiaro se il segnalibro utilizza il segmento rimanente.
 
 ## Modifica di segmenti eliminati incorporati in Analisi ad hoc {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Ad Hoc Analysis now lets you edit embedded deleted segments within the [Calculated Metric Builder](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) and lets you perform a "Save As" operation on that segment.
+Ad Hoc Analysis now lets you edit embedded deleted segments within the [Calculated Metric Builder](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html) and lets you perform a &quot;Save As&quot; operation on that segment.
 
 Tuttavia, tutti gli altri segmenti eliminati che fanno riferimento al segmento eliminato rimarranno invariati.
