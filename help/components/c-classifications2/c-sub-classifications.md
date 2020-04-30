@@ -5,7 +5,7 @@ title: Informazioni sulle classificazioni secondarie
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -54,7 +54,7 @@ Anche se il modello di file per una classificazione a più livelli è più compl
 
 >[!NOTE] Se la [!UICONTROL Key] colonna in un file di dati è vuota, Adobe genera automaticamente chiavi univoche per ogni riga di dati. Per evitare possibili danneggiamenti del file durante il caricamento di un file di dati con dati di classificazione di secondo livello o di livello superiore, compilare ciascuna riga della [!UICONTROL Key] colonna con un asterisco (*).
 
-Consulta [Problemi](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) comuni relativi al caricamento delle classificazioni per la risoluzione dei problemi.
+Consulta [Problemi](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) comuni relativi al caricamento delle classificazioni per la risoluzione dei problemi.
 
 ## Esempi
 
