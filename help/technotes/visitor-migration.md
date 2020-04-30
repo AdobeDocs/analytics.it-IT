@@ -5,7 +5,7 @@ title: Migrazione dei visitatori
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,11 +16,11 @@ La migrazione dei visitatori è un processo in cui il cookie dell’ID visitator
 
 La migrazione dei visitatori consente di mantenere i cookie di identificazione dei visitatori quando si modificano i domini di raccolta dei dati. I domini di raccolta dati potrebbero essere modificati per i motivi seguenti:
 
-* Passaggio da `2o7.net` a `omtrdc.net` (raccolta [dati](https://marketing.adobe.com/resources/help/it_IT/whitepapers/rdc/)regionali).
+* Passaggio da `2o7.net` a `omtrdc.net` (raccolta [dati](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)regionali).
 
-* Stai implementando il servizio [ID visitatori di](https://marketing.adobe.com/resources/help/it_IT/mcvid/) Experience Cloud e stai passando da un dominio di raccolta dati di prime parti a `2o7.net` o `omtrdc.net` (raccolta [dati](https://marketing.adobe.com/resources/help/it_IT/whitepapers/rdc/)regionali)
+* Stai implementando il servizio [ID visitatori di](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) Experience Cloud e stai passando da un dominio di raccolta dati di prime parti a `2o7.net` o `omtrdc.net` (raccolta [dati](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)regionali)
 
-* Passaggio da `2o7.net` o `omtrdc.net` a una raccolta di dati name/first-party (cookie di [prime parti)](https://marketing.adobe.com/resources/help/it_IT/whitepapers/first_party_cookies/).
+* Passaggio da `2o7.net` o `omtrdc.net` a una raccolta di dati name/first-party (cookie di [prime parti)](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Passaggio da un CNAME a un altro (modifica dei domini).
 
