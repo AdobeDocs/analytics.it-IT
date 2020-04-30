@@ -4,7 +4,7 @@ title: Metodologia di tracciamento dei collegamenti
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,16 +15,16 @@ Questa sezione è destinata agli amministratori di Adobe Analytics. I nuovi para
 
 >[!IMPORTANT]
 >
->Qualsiasi collegamento in cui il testo (non i href) può contenere informazioni PII (Personally Identifiable Information) deve essere implementato esplicitamente utilizzando [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Per ulteriori informazioni su come la Activity Map potrebbe raccogliere dati PII, [consulta](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Qualsiasi collegamento in cui il testo (non i href) può contenere informazioni PII (Personally Identifiable Information) deve essere implementato esplicitamente utilizzando [s_objectID](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Per ulteriori informazioni su come la Activity Map potrebbe raccogliere dati PII, [consulta](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map basa il tracciamento dei collegamenti su questi due ID:
 
 * ID principale: questo è il parametro riconoscibile del collegamento.
-* Regione collegamento: si tratta di un parametro secondario che consente agli utenti di specificare una stringa rappresentativa dell’area di collegamento globale nella pagina o nell’area geografica. Questo parametro può essere generato automaticamente se non è fornito dall'utente.
+* Regione collegamento: si tratta di un parametro secondario che consente agli utenti di specificare una stringa rappresentativa dell’area di collegamento globale nella pagina o nell’area geografica. Questo parametro può essere generato automaticamente se non è fornito dall&#39;utente.
 
 ## ID principale {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
-Se l'HTML ha un s_objectid, l'ID principale viene impostato per impostazione predefinita su s_objectid. In caso contrario, i seguenti parametri vengono utilizzati come ID principale (in questo ordine di priorità):
+Se l&#39;HTML ha un s_objectid, l&#39;ID principale viene impostato per impostazione predefinita su s_objectid. In caso contrario, i seguenti parametri vengono utilizzati come ID principale (in questo ordine di priorità):
 
 * Innertext
 * Alttext
@@ -42,31 +42,31 @@ L’azione Collegamento è l’azione eseguita dalla pagina Web quando si fa cli
 
 Di conseguenza, l’utilizzo di InnerText offre i seguenti vantaggi rispetto all’utilizzo di Link Action (URL):
 
-* È una buona rappresentazione dell'identità Collegamento. La duplicazione degli ID primari è notevolmente ridotta in quanto non è comune disporre di più collegamenti con lo stesso testo.
-* Garantisce la coerenza dell'ID principale tra dispositivi e tipi di browser.
+* È una buona rappresentazione dell&#39;identità Collegamento. La duplicazione degli ID primari è notevolmente ridotta in quanto non è comune disporre di più collegamenti con lo stesso testo.
+* Garantisce la coerenza dell&#39;ID principale tra dispositivi e tipi di browser.
 * Non viene interessato dal riposizionamento del collegamento sulla pagina.
-* Migliora la leggibilità, consentendo agli utenti di iniziare ad analizzare i rapporti di tracciamento dei collegamenti all'esterno della Activity Map.
+* Migliora la leggibilità, consentendo agli utenti di iniziare ad analizzare i rapporti di tracciamento dei collegamenti all&#39;esterno della Activity Map.
 
 ## Area collegamenti {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
-Questo nuovo attributo consente agli utenti di specificare una stringa rappresentativa dell'area della pagina in cui si trova il collegamento.
+Questo nuovo attributo consente agli utenti di specificare una stringa rappresentativa dell&#39;area della pagina in cui si trova il collegamento.
 
-Ad esempio, per un collegamento "Contatti" che si trova nella sezione menu della pagina Web, l'utente potrebbe voler passare un parametro di regione "Menu". Allo stesso modo, per un collegamento "Contact Us" posizionato nel piè di pagina della pagina Web, il parametro di regione può essere impostato su "footer".
+Ad esempio, per un collegamento &quot;Contatti&quot; che si trova nella sezione menu della pagina Web, l&#39;utente potrebbe voler passare un parametro di regione &quot;Menu&quot;. Allo stesso modo, per un collegamento &quot;Contact Us&quot; posizionato nel piè di pagina della pagina Web, il parametro di regione può essere impostato su &quot;piè di pagina&quot;.
 
 Il valore Regione collegamento non è impostato sul collegamento stesso, ma su un elemento HTML sopra la struttura DOM HTML che include tale area.
 L’utilizzo di Link Region offre i seguenti vantaggi:
 
 * Consente di distinguere i collegamenti con lo stesso ID primario.
 * La tendenza in un’area è meno influenzata dall’aspetto dinamico della pagina Web.
-* Gli utenti possono visualizzare i collegamenti con le prestazioni più elevate all'interno di un'area geografica. Con Regione come ancoraggio, possiamo visualizzare sovrapposizioni di collegamenti che non sono attualmente visibili sulla pagina (Ajax, Targeting).
-* Una regione può sostituire le pagine come una determinata area geografica e può essere utilizzata in molte pagine Web. Consente di rispondere a domande come: "La mia regione "Offerta di prodotto" si comporta meglio sulla pagina di destinazione delle donne o sulla pagina di destinazione degli uomini?
-* Di per sé, Regione è una dimensione rilevante per l'analisi di pagine Web altamente dinamiche. Questo perché rimuove il disturbo dovuto alla modifica continua dei collegamenti: una regione "Ultime notizie" nella pagina di destinazione CNN potrebbe avere molti collegamenti in continuo cambiamento. Ma la regione ci sarà sempre. Potrebbe essere interessante tendere a livello regionale in molti giorni.
+* Gli utenti possono visualizzare i collegamenti con le prestazioni più elevate all&#39;interno di un&#39;area geografica. Con Regione come ancoraggio, possiamo visualizzare sovrapposizioni di collegamenti che non sono attualmente visibili sulla pagina (Ajax, Targeting).
+* Una regione può sostituire le pagine come una determinata area geografica e può essere utilizzata in molte pagine Web. Consente di rispondere a domande come: &quot;La mia regione &quot;Offerta di prodotto&quot; si comporta meglio sulla pagina di destinazione delle donne o sulla pagina di destinazione degli uomini?
+* Di per sé, Regione è una dimensione rilevante per l&#39;analisi di pagine Web altamente dinamiche. Questo perché rimuove il disturbo dovuto alla modifica continua dei collegamenti: una regione &quot;Ultime notizie&quot; nella pagina di destinazione CNN potrebbe avere molti collegamenti in continuo cambiamento. Ma la regione ci sarà sempre. Potrebbe essere interessante tendere a livello regionale in molti giorni.
 
 **Tracciamento area personalizzato**
 
-Puoi personalizzare il parametro Regione per un collegamento (il valore predefinito è ID collegamento): Un tag impostato su "ID" utilizza tutti gli elementi HTML con un parametro "id" come regione. Pertanto, se si imposta il tag Regione su "id", molto probabilmente verranno restituite molte aree distinte (fino a che non sono presenti "ID" diversi sulla pagina). In alternativa, se desiderate un'implementazione più personalizzata, potete impostare il tag regione su qualcosa di più specifico, ad esempio "region_id".
+Puoi personalizzare il parametro Regione per un collegamento (il valore predefinito è ID collegamento): Un tag impostato su &quot;ID&quot; utilizza tutti gli elementi HTML con un parametro &quot;id&quot; come regione. Pertanto, se si imposta il tag Regione su &quot;id&quot;, molto probabilmente verranno restituite molte aree distinte (fino a che non sono presenti &quot;ID&quot; diversi sulla pagina). In alternativa, se desiderate un&#39;implementazione più personalizzata, potete impostare il tag regione su qualcosa di più specifico, ad esempio &quot;region_id&quot;.
 
-Di seguito potete visualizzare un esempio di HTML utilizzando l'attributo ID regione predefinito "id".
+Di seguito, puoi visualizzare un esempio di HTML utilizzando l&#39;attributo ID regione predefinito &quot;id&quot;.
 
 ```
 <div id="content"> 
@@ -78,10 +78,12 @@ Di seguito potete visualizzare un esempio di HTML utilizzando l'attributo ID reg
    </div> 
 ```
 
-Se lo si desidera, è possibile assegnare tag agli elementi con un identificatore stringa arbitrario, in questo caso "lpos", e quindi aggiungere attributi con il nome "lpos".
+Se lo si desidera, è possibile assegnare tag agli elementi con un identificatore stringa arbitrario, in questo caso &quot;lpos&quot;, e quindi aggiungere attributi con il nome &quot;lpos&quot;.
 
 ```
-s.ActivityMap.regionIDAttribute="lpos"; 
+<script language="JavaScript" type="text/javascript">
+s.ActivityMap.regionIDAttribute="lpos";
+</script> 
    
 <div id="nav" lpos="navbar"> 
   <ul> 
@@ -112,7 +114,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 
 ## Variabili di configurazione {#configuration-vars}
 
-Queste variabili sono elencate solo a scopo di riferimento. La Activity Map deve essere configurata correttamente ma puoi personalizzare l'implementazione utilizzando queste variabili.
+Queste variabili sono elencate solo a scopo di riferimento. La Activity Map deve essere configurata correttamente ma puoi personalizzare l&#39;implementazione utilizzando queste variabili.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -124,7 +126,7 @@ Queste variabili sono elencate solo a scopo di riferimento. La Activity Map deve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAtribute </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> Il valore predefinito è "id". Potete impostare questo parametro su un altro. </td> 
    <td colname="col3"> Stringa che identifica l’attributo del tag da utilizzare come ID di regione da un elemento antenato (parent, parent.parent, ...) di s.linkObject, ovvero <b>l’elemento su cui è stato fatto clic</b>. </td> 
   </tr> 
