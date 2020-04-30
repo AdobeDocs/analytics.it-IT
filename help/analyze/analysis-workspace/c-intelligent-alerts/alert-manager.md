@@ -3,7 +3,7 @@ description: 'null'
 title: Gestione avvisi
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://marketing.adobe.com/resources/help/it_IT/analytics/segment/seg_manage.html) e alla [Gestione metriche calcolate](https://marketing.adobe.com/resources/help/it_IT/analytics/calcmetrics/cm_manager.html) e consente di: 
+La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) e alla [Gestione metriche calcolate](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) e consente di: 
 
 ![](assets/alert-manager-tasks.png)
 
