@@ -3,7 +3,7 @@ description: Inizia con Analisi ad hoc.
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -26,8 +26,8 @@ Queste funzioni consentono di rispondere alle domande sul traffico del sito, sul
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Accedete ad Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Andate a <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>ed effettuate l'accesso utilizzando le vostre credenziali di Adobe Analytics. </p> </td> 
+   <td colname="col1"> <p>1. Log in to Adobe <span class="keyword"> Analytics</span>. </p> </td> 
+   <td colname="col2"> <p>Andate a <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>ed effettuate l'accesso utilizzando le vostre credenziali di Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Avvia Analisi Ad Hoc. </p> </td> 
@@ -75,15 +75,15 @@ c_sys_reqs.xml
 * JavaScript: abilitato
 * Versione Java: Java 1.7 o versione successiva (vedere nota sopra)
 
-   Se non è installata la versione corretta di Java, questa viene installata automaticamente. Se avete installato una versione non compatibile di Java, Analisi ad hoc scarica e chiede di installare gli aggiornamenti.
+   Se non è installata la versione corretta di Java, questa viene installata automaticamente. Se avete installato una versione non compatibile di Java, Analisi ad hoc scarica e richiede di installare gli aggiornamenti.
 
 ## Istruzioni per l&#39;aggiornamento Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
 A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire Analisi ad hoc su Java 7, Adobe non supporterà più l’implementazione di Analisi ad hoc.
 
-I nostri file .jar sono firmati con una cifratura sicura a 256 bit non supportata dalle versioni di Java precedenti alla 1.7.0_76. Questo certificato a 256 bit ci consente di fornirvi una maggiore sicurezza.
+I nostri file .jar sono firmati con una cifratura sicura a 256 bit non supportata dalle versioni di Java precedenti alla 1.7.0_76. Questo certificato con cifratura a 256 bit offre maggiore sicurezza.
 
-Se Java 7 è ancora installato, è necessario eseguire l&#39;aggiornamento prima della versione di manutenzione di luglio 2018. Di seguito viene illustrato come:
+Se Java 7 è ancora installato, è necessario eseguire l&#39;aggiornamento prima della versione di manutenzione di luglio 2018. effettuando le seguenti operazioni:
 
 * Se si è autorizzati a installare programmi sul computer:
 
@@ -116,7 +116,7 @@ t_login_suite.xml
 
  -->
 
-1. In un browser, andate a [!DNL marketing.adobe.com].
+1. In a browser, navigate to [!DNL marketing.adobe.com].
 1. Digitate il nome della società, il nome utente e la password. Quindi fai clic su **[!UICONTROL Sign In]**.
 1. Fai clic su **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
 
@@ -236,8 +236,8 @@ Potete accedere ai modelli al momento della creazione di un progetto ( **[!UICON
 
 | Modello | Descrizione |
 |--- |--- |
-| Classificato | Fornisce un quadro vuoto in cui è possibile creare una tabella. Ad esempio, un rapporto Pagine classifica le pagine del sito in base al traffico. La tabella dei dettagli mostra percentuali e numeri per metriche come Visualizzazioni pagina e Entrate. |
-| Tendenza | Consente di esaminare l&#39;andamento delle conversioni e degli eventi in un periodo di granularità temporale selezionato (ora, giorno, settimana, mese, trimestre o anno) durante un periodo di reporting. |
+| Ranked (Classificati) | Fornisce un quadro vuoto in cui è possibile creare una tabella. Ad esempio, un rapporto Pagine classifica le pagine del sito in base al traffico. La tabella dei dettagli mostra percentuali e numeri per metriche come Visualizzazioni pagina e Entrate. |
+| Trended (Di tendenza) | Consente di esaminare l&#39;andamento delle conversioni e degli eventi in un periodo di granularità temporale selezionato (ora, giorno, settimana, mese, trimestre o anno) durante un periodo di reporting. |
 | Totali | Un rapporto a livello esecutivo che mostra le cifre di fondo. Contiene i dati per Ricavi totali, Visualizzazioni pagina e Ordini. |
 | Abbandono | Consente di creare un funnel che visualizza i tassi di conversione e di abbandono tra i checkpoint. Ad esempio, puoi tenere traccia dei punti di abbandono di un visitatore durante un processo di acquisto. |
 | Flusso | Mostra i percorsi più comuni seguiti dagli utenti tra pagine, sezioni del sito e server. |
