@@ -4,7 +4,7 @@ title: Panoramica della personalizzazione dei rapporti
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ Solo gli amministratori possono creare un rapporto personalizzato. Quando create
 
 >[!MORELIKETHIS]
 >
->* [Personalizzazione del menu](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
+>* [Personalizzazione del menu](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Selezionare un intervallo di date o date {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 Non è possibile confrontare le date tra i report con tendenze.
 
->[!NOTE] Se desiderate eseguire un confronto delle date sulle metriche chiave in una dashboard, potete inserire i dati nel Generatore [di](https://marketing.adobe.com/resources/help/it_IT/arb/) report utilizzando due richieste separate. Quindi si utilizzano formule personalizzate in Excel per analizzare la differenza tra le due.
+>[!NOTE] Se desiderate eseguire un confronto delle date sulle metriche chiave in una dashboard, potete inserire i dati nel Generatore [di](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html) report utilizzando due richieste separate. Quindi si utilizzano formule personalizzate in Excel per analizzare la differenza tra le due.
 
 Per confrontare le date tra i report classifica in Reporting e analisi:
 
@@ -218,4 +218,4 @@ La maggior parte dei report in Reporting e analisi ora include un pulsante &quot
 
 Attualmente, il pulsante è disponibile solo se il nome utente dispone dei diritti completi su Analysis Workspace.
 
-Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/) .
+Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html) .
