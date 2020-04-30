@@ -5,7 +5,7 @@ title: Utilizzo dei timestamp opzionali
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,13 +16,13 @@ Scoprite i vantaggi e i vincoli dell&#39;utilizzo dell&#39;impostazione Marca te
 
 Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite di rapporti.
 
-* Combinare dati con marca temporale e non con marca temporale nella stessa suite di rapporti globale.
-* Invia dati con marca temporale da un’app mobile a una suite di rapporti globale.
+* Inserite sia i dati con marca temporale sia quelli privi di marca nella stessa suite per report globale.
+* Inviate dati con marca temporale da un app per dispositivo mobile a una suite per report globale.
 * Aggiornate le app per utilizzare le marche temporali senza dover creare una nuova suite di rapporti.
 
->[!NOTE] Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite di rapporti generate da un modello. Le nuove suite di rapporti copiate da una suite esistente erediteranno le impostazioni dall&#39;originale.
+>[!NOTE]Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite per report generate da un modello Le nuove suite di rapporti copiate da una suite esistente erediteranno le impostazioni dall&#39;originale.
 
-Per ulteriori informazioni sulla configurazione, consultate [Marca temporale opzionale](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) .
+Per ulteriori informazioni sulla configurazione, consultate [Marca temporale opzionale](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) .
 
 ## Marca temporale opzionale: Integrazione di dati con marca temporale e non con marca temporale {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ Di seguito sono riportate le best practice e alcuni requisiti e restrizioni da t
 
    I dati fuori ordine possono includere dati in arrivo ritardati dalla raccolta dati offline e hit in arrivo ritardati, o orologi non sincronizzati su dispositivi mobili offline. I dati fuori ordine possono avere un impatto negativo sui calcoli del tempo (come i valori del tempo trascorso), sull&#39;attribuzione (persistenza eVar), sui conteggi dei numeri di visita/visita e sui rapporti dei percorsi.
 
-* L’utilizzo delle marche temporali quando si imposta un [s.visitorID](https://marketing.adobe.com/resources/help/it_IT/sc/implement/visid_custom.html) non è consigliato. Può portare a dati fuori ordine.
+* L’utilizzo delle marche temporali quando si imposta un [s.visitorID](https://docs.adobe.com/content/help/it-IT/analytics/technotes/visitor-identification.html) non è consigliato. Può portare a dati fuori ordine.
 
 * Le app ibride composte da un&#39;app (con marca temporale e dati offline) che apre un browser Web (con marca temporale e dati dal vivo) non devono utilizzare marche temporali. Ne risulta una segnalazione non accurata della sessione.
 
