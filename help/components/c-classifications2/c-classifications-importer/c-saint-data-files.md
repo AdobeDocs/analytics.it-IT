@@ -5,7 +5,7 @@ title: File di dati di classificazione
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -70,7 +70,7 @@ Un file di dati deve rispettare le seguenti regole di struttura:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>&lt;Nuova riga&gt; </p> </td> 
+   <td colname="col1"> <p>&lt;Nuovo grafico a linee&gt; </p> </td> 
    <td colname="col2"> <p>Un nuovo carattere di riga è l'unico delimitatore supportato tra righe/record di dati nel file di dati. In genere, è necessario inserire questi caratteri solo quando si scrive un programma per generare automaticamente i file di dati. </p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +159,7 @@ Questi caratteri hanno un significato speciale in un file di dati. Laddove possi
 
 Le date delle campagne sono in genere intervalli (date di inizio e di fine) associati a singole campagne. Le date devono essere visualizzate in formato AAAA/MM/GG. Ad esempio, 2013/06/15-2013/06/30.
 
-Per ulteriori informazioni, vedere Classificazioni [](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)conversione.
+Per ulteriori informazioni, vedere Classificazioni [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)conversione.
 
 >[!NOTE] Nella versione di manutenzione del 10 maggio 2018 [!DNL Analytics] , Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
 
