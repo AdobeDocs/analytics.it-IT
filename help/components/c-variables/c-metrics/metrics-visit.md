@@ -1,18 +1,18 @@
 ---
-description: Una sequenza di pagine visualizzate in una sessione. La metrica visite è comunemente utilizzata nei rapporti che mostrano il numero di sessioni utente nel periodo di tempo selezionato.
+description: Una sequenza di pagine visualizzate in una sessione. La metrica visite viene comunemente utilizzata nei rapporti che presentano il numero di sessioni utente nel corso del periodo di tempo selezionato.
 keywords: visit
 title: Visita
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Visita
 
-Una sequenza di pagine visualizzate in una sessione. La metrica visite è comunemente utilizzata nei rapporti che mostrano il numero di sessioni utente nel periodo di tempo selezionato.
+Una sequenza di pagine visualizzate in una sessione. La metrica visite viene comunemente utilizzata nei rapporti che presentano il numero di sessioni utente nel corso del periodo di tempo selezionato.
 
 >[!NOTE] Per informazioni sul modo in cui vengono calcolate le visite e gli avvii delle app mobili, vedi [Confronta visite e avvii](https://helpx.adobe.com/it/analytics/kb/compare-visits-and-mobile-app-launches.html) delle app mobili nella Knowledge Base.
 
@@ -34,9 +34,9 @@ Una visita non coincide necessariamente con una sessione del browser. Ad esempio
 
 Al termine di una visita, tutte le variabili con scadenza visita sono scadute e non persistono più. La metrica del numero di visita verrà incrementata alla visita successiva per il visitatore.
 
->[!NOTE] Se utilizzi Analytics come origine di reporting per Adobe Target, fai riferimento a [Minimizing Inflated Visit and Visitor Counts in A4T (Riduzione dei conteggi delle visite e dei visitatori in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) ) nella [!DNL Target] documentazione.
+>[!NOTE] Se utilizzi Analytics come origine di reporting per Adobe Target, fai riferimento a [Minimizing Inflated Visit and Visitor Counts in A4T (Riduzione dei conteggi delle visite e dei visitatori in A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) ) nella [!DNL Target] documentazione.
 
-Per ulteriori informazioni, consulta [Identificazione di visitatori](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) univoci nella guida all’implementazione di Adobe Analytics.
+Per ulteriori informazioni, consulta [Identificazione di visitatori](https://docs.adobe.com/content/help/it-IT/analytics/technotes/visitor-identification.html) univoci nella guida all’implementazione di Adobe Analytics.
 
 **Periodi di tempo**
 
