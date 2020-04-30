@@ -6,7 +6,7 @@ title: Reindirizzamenti e alias
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,7 +21,7 @@ Reindirizza il browser a una nuova posizione senza l&#39;interazione dell&#39;ut
 
 Poiché i reindirizzamenti non richiedono alcuna interazione con l&#39;utente, i reindirizzamenti vengono spesso eseguiti senza che l&#39;utente se ne accorga. L&#39;unica cosa che indica che si è verificato un reindirizzamento è la barra degli indirizzi del browser. La barra degli indirizzi presenta un URL diverso dal collegamento inizialmente richiesto dal browser.
 
-Anche se esistono solo due tipi di reindirizzamenti, possono essere implementati in diversi modi. Ad esempio, i reindirizzamenti sul lato client possono verificarsi perché la pagina Web a cui un utente ha puntato il proprio browser contiene script o codice HTML speciale che reindirizzano il browser a un altro URL. I reindirizzamenti sul lato server possono verificarsi perché la pagina contiene script sul lato server o perché il server Web è stato configurato per indirizzare l&#39;utente a un altro URL.
+Anche se esistono solo due tipi di reindirizzamenti, questi possono essere implementati in diversi modi. Ad esempio, i reindirizzamenti sul lato client possono verificarsi perché la pagina Web a cui un utente ha puntato il proprio browser contiene script o codice HTML speciale che reindirizzano il browser a un altro URL. I reindirizzamenti sul lato server possono verificarsi perché la pagina contiene script sul lato server o perché il server Web è stato configurato per indirizzare l&#39;utente a un altro URL.
 
 ## Analisi e reindirizzamenti {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
 
@@ -31,7 +31,7 @@ Anche se esistono solo due tipi di reindirizzamenti, possono essere implementati
 
 Considerate il seguente scenario ipotetico in cui l&#39;utente non riscontra un reindirizzamento:
 
-1. L&#39;utente punta il browser a `www.google.com`e digita &quot;biglietti aerei scontati&quot; nel campo di ricerca, quindi fa clic sul **[!UICONTROL Search]**pulsante.
+1. L&#39;utente punta il browser a `www.google.com`e digita &quot;biglietti aerei scontati&quot; nel campo di ricerca, quindi fa clic sul **[!UICONTROL Search]** pulsante.
 1. Il browser visualizza i risultati della ricerca, compreso un collegamento al sito, [!DNL https://www.example.com/]. Dopo aver visualizzato i risultati della ricerca, nella barra degli indirizzi del browser vengono visualizzati i termini di ricerca immessi dall&#39;utente nel campo di ricerca ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). I termini di ricerca sono inclusi nei parametri di stringa della query URL che seguono `https://www.google.com/search?`.
 1. L&#39;utente fa clic sul collegamento al sito ipotetico [!DNL https://www.example.com/]. Quando l&#39;utente fa clic su questo collegamento e accede al [!DNL example.com] sito Web, [!DNL Analytics] utilizza JavaScript per raccogliere l&#39;URL di provenienza ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) e l&#39;URL corrente ( `https://www.example.com/`).
 1. [!DNL Analytics] segnala le informazioni raccolte durante questa interazione in vari rapporti, quali [!UICONTROL Referring Domains], [!UICONTROL Search Engines]e [!DNL Search Keywords].
@@ -40,7 +40,7 @@ Considerate il seguente scenario ipotetico in cui l&#39;utente non riscontra un 
 
 I reindirizzamenti possono causare la visualizzazione dell&#39;URL di provenienza effettivo nel browser. Considerate il seguente scenario:
 
-1. L&#39;utente punta il browser a `https://www.google.com`e digita biglietti aerei *scontati* nel campo di ricerca, quindi fa clic sul **[!UICONTROL Search]**pulsante.
+1. L&#39;utente punta il browser a `https://www.google.com`e digita biglietti aerei *scontati* nel campo di ricerca, quindi fa clic sul **[!UICONTROL Search]** pulsante.
 1. Nella barra degli indirizzi della finestra del browser sono visualizzati i termini di ricerca digitati dall&#39;utente nel campo di ricerca `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. I termini di ricerca sono inclusi nei parametri di stringa della query URL che seguono `https://www.google.com/search?`. Il browser visualizza anche una pagina contenente i risultati della ricerca, compreso un collegamento a uno dei nomi di dominio: [!DNL https://www.flytohawaiiforfree.com/]. Questo dominio *personalizzato* è configurato per reindirizzare l&#39;utente a `https://www.example.com/`.
 1. L&#39;utente fa clic sul collegamento `https://www.flytohawaiiforfree.com/` e viene reindirizzato dal server al sito principale, `https://www.example.com`. Quando si verifica il reindirizzamento, i dati importanti per la raccolta di [!DNL Analytics] dati vengono persi perché il browser cancella l&#39;URL di provenienza. Pertanto, le informazioni di ricerca originali utilizzate nei [!DNL Analytics] report (ad esempio, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) vengono perse.
 
@@ -64,7 +64,7 @@ redirects_js_override.xml
 
  -->
 
-Lo snippet di codice riportato di seguito mostra due variabili JavaScript *`s_referrer`*e*`s_pageURL`*. Questo codice viene inserito nella pagina di destinazione finale del reindirizzamento.
+Lo snippet di codice riportato di seguito mostra due variabili JavaScript *`s_referrer`* e *`s_pageURL`*. Questo codice viene inserito nella pagina di destinazione finale del reindirizzamento.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -80,7 +80,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->Impostato *`s.referrer`*una sola volta sulla pagina. Impostandolo più volte con ogni chiamata di tracciamento o con ogni clic di collegamento tracciato, si verifica un doppio conteggio del referente e delle dimensioni correlate, come motori di ricerca e parole chiave.
+>Impostato *`s.referrer`* una sola volta sulla pagina. Impostandolo più volte con ogni chiamata di tracciamento o con ogni clic di collegamento tracciato, si verifica un doppio conteggio del referente e delle dimensioni correlate, come motori di ricerca e parole chiave.
 
 ## Reindirizza utilizzando getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
@@ -108,9 +108,9 @@ redirects_modify_mechanism.xml
 
  -->
 
-Poiché il browser elimina l’URL di provenienza, è necessario configurare il meccanismo che gestisce il reindirizzamento (ad esempio, il server Web, il codice lato server e il codice lato client) per passare le informazioni originali sul referente. Se desideri anche registrare l’URL del collegamento alias, questo deve essere trasmesso anche alla pagina di destinazione finale. Utilizzate la *`s_pageURL`*variabile per sovrascrivere l’URL corrente.
+Poiché il browser elimina l’URL di provenienza, è necessario configurare il meccanismo che gestisce il reindirizzamento (ad esempio, il server Web, il codice lato server e il codice lato client) per passare le informazioni originali sul referente. Se desideri anche registrare l’URL del collegamento alias, questo deve essere trasmesso anche alla pagina di destinazione finale. Utilizzate la *`s_pageURL`* variabile per sovrascrivere l’URL corrente.
 
-Poiché esistono molti modi per implementare un reindirizzamento, è necessario consultare il gruppo di operazioni Web o il partner pubblicitario online per identificare i meccanismi specifici che eseguono i reindirizzamenti sul sito Web.
+Poiché vi sono molti modi per implementare un reindirizzamento, è necessario consultare il gruppo di operazioni Web o il partner pubblicitario online per identificare i meccanismi specifici che eseguono i reindirizzamenti sul sito Web.
 
 ## Acquisisci il referente originale {#section_7F1A77F447CF485385B456A64B174050}
 
@@ -120,7 +120,7 @@ redirects_referrer.xml
 
  -->
 
-In genere [!DNL Analytics] , l&#39;URL di provenienza viene ottenuto dalla [!UICONTROL document.referrer] proprietà del browser e l&#39;URL corrente dalla [!UICONTROL document.location] proprietà. Passando valori alle *`referrer`*variabili e alle*`pageURL`* variabili, potete ignorare l&#39;elaborazione predefinita. Passando un valore alla variabile referrer, si consiglia [!DNL Analytics] di ignorare le informazioni sul referente nella [!UICONTROL document.referrer] proprietà e di utilizzare un valore alternativo definito dall&#39;utente.
+In genere [!DNL Analytics] , l&#39;URL di provenienza viene ottenuto dalla [!UICONTROL document.referrer] proprietà del browser e l&#39;URL corrente dalla [!UICONTROL document.location] proprietà. Passando valori alle *`referrer`* variabili e alle *`pageURL`* variabili, potete ignorare l&#39;elaborazione predefinita. Passando un valore alla variabile referrer, si consiglia [!DNL Analytics] di ignorare le informazioni sul referente nella [!UICONTROL document.referrer] proprietà e di utilizzare un valore alternativo definito dall&#39;utente.
 
 Pertanto, la versione finale della pagina di destinazione dovrebbe contenere il seguente codice per correggere i problemi introdotti nello scenario &quot;biglietti aerei scontati&quot;.
 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 Eseguite un test per verificare che il referente, l&#39;URL di origine ( *`s_server`*) e le variabili della campagna vengano acquisite.
 
-Queste variabili saranno rappresentate come i seguenti parametri in [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Queste variabili saranno rappresentate come i seguenti parametri in [Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
