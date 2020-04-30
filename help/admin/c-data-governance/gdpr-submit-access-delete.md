@@ -3,7 +3,7 @@ description: 'null'
 title: Inviare richieste di accesso e cancellazione
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,13 +13,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Panoramica {#section_BD70882995894C1CA19C205C49FEC23C}
 
-Se i tuoi clienti (consumatori/persone interessate) desiderano sapere quali dei loro dati sono in tuo possesso o decidono di voler essere cancellati dalle proprietà di Analytics, in qualità di titolare del trattamento dei dati, rispondere a queste richieste rientra nelle tue responsabilità. Il controller dei dati determina il modo in cui l&#39;organizzazione interagisce con gli oggetti dei dati (ad esempio, attraverso un portale utente dell&#39;oggetto dati) e gestisce le interazioni con l&#39;oggetto dei dati. È inoltre responsabilità del titolare del trattamento chiudere il ciclo con l&#39;interessato quando la richiesta è soddisfatta. In altre parole, Adobe Experience Cloud, in qualità di elaboratore di dati, non accetta richieste direttamente da soggetti di dati o non restituisce direttamente loro i dati. Adobe riceverà invece richieste e restituirà dati solo all&#39;utente in qualità di titolare del trattamento.
+Se i tuoi clienti (consumatori/persone interessate) desiderano sapere quali dei loro dati sono in tuo possesso o decidono di voler essere cancellati dalle proprietà di Analytics, in qualità di titolare del trattamento dei dati, rispondere a queste richieste rientra nelle tue responsabilità. Il titolare del trattamento dei dati determina in che modo l’azienda interagirà con le persone interessate (ad esempio attraverso un portale per gli utenti dedicato alle persone interessate) e gestisce le interazioni con gli interessati. Inoltre rientra tra le responsabilità del titolare chiudere il ciclo con la persona interessata quando la richiesta viene soddisfatta. In altre parole, Adobe Experience Cloud, in qualità di responsabile del trattamento dei dati, non riceverà direttamente le richieste dalle persone interessate né restituirà loro i dati. Piuttosto, Adobe potrà solo interagire con te, come titolare del trattamento dei dati, per la ricezione delle richieste e la restituzione dei dati.
 
-Potresti anche voler fare in modo che le tue app mobile e i tuoi siti web dispongano di avvisi pop-up rilevanti e di materiale di supporto sui diritti degli interessati in merito ai loro dati identificabili o indirettamente, e altri dati raccolti.
+È consigliabile accertarsi che le app per dispositivi mobili e i siti web siano dotati di avvisi pop-up e materiale di supporto pertinenti sui diritti della persona interessata per quanto riguarda i dati personali direttamente o indirettamente identificabili e altri dati raccolti.
 
 ## Gestire il consenso dei clienti  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito delle persone interessate prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e [implementare un meccanismo di rinuncia](https://marketing.adobe.com/resources/help/it_IT/dtm/opt-in.html) sul sito Web. Questo consentirà alle persone interessate di negare future raccolte di dati di Adobe Experience Cloud.
+In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito delle persone interessate prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e [implementare un meccanismo di rinuncia](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html) sul sito Web. Questo consentirà alle persone interessate di negare future raccolte di dati di Adobe Experience Cloud.
 
 ## Convalidare gli utenti e i relativi dati  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -27,7 +27,7 @@ In qualità di titolare del trattamento dei dati, rientra nelle tue responsabili
 
 Questo prevede il controllo dei dati restituiti da Adobe Analytics, come parte della richiesta di accesso alla Privacy dei dati, prima di inviarli alla persona interessata. Particolare attenzione è richiesta nel caso di uso di ID personali e nel caso in cui vengano restituiti non solo i dati in cui è presente l’ID, ma anche i dati per altri risultati su un dispositivo condiviso in cui l’ID era talvolta presente. Consulta [Espansione dell’ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
-Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. È possibile decidere quali di questi file restituire all&#39;oggetto dati. Oppure puoi estrarre alcuni di questi dati e combinarli con dati di altri sistemi prima di restituirli all&#39;interessato.
+Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. Puoi decidere quali di questi file restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
 
 ## Inviare le richieste  {#submit-requests}
 
@@ -99,9 +99,9 @@ Segue un esempio di codice JSON che potrebbe essere inviato tramite l’API o l�
 
 Nota che ci sono tre blocchi nella sezione dell’utente, che rappresentano tre richieste diverse, presumibilmente per tre diverse persone interessate.
 
-* La prima richiesta è una richiesta di accesso che utilizza un ID cookie tradizionale di Adobe Analytics (AAID).
-* La seconda richiesta è anche una richiesta di accesso, ma utilizza un cookie MCID/ECID.
-* La terza richiede sia l’accesso che la cancellazione per ID specifici. Sebbene l’espansione dell’ID sia specificata per tutte le richieste, essa si applica maggiormente alla terza richiesta perché è l’unica che non usa ID cookie. Di conseguenza, questa richiesta scoprirà anche gli ID di cookie associati a qualsiasi dispositivo con l&#39;ID CRM o l&#39;indirizzo e-mail specificati, ed espanderà la richiesta per includere anche tali ID.
+* La prima richiesta è una richiesta di accesso che usa un tradizionale cookie di ID Adobe Analytics (AAID).
+* La seconda è una richiesta di accesso che però usa un cookie MCID/ECID.
+* La terza richiede sia l’accesso che la cancellazione per ID specifici. Sebbene l’espansione dell’ID sia specificata per tutte le richieste, essa si applica maggiormente alla terza richiesta perché è l’unica che non usa ID cookie. Di conseguenza questa richiesta individuerà anche gli ID cookie associati a dispositivi con questo CRM-ID o indirizzo e-mail ed espanderà la richiesta per includere anche questi ID.
 
 Nota bene
 
@@ -112,39 +112,39 @@ Nota bene
 
 ## Dettagli sulle risposte  {#section_93F554F65DBB48A18B75EB5784056C96}
 
-Questa sezione contiene informazioni sull&#39;accesso e l&#39;eliminazione delle risposte.
+Questa sezione contiene i dettagli sulle risposte in merito a richieste di accesso ed eliminazione.
 
-**Dettagli risposta di accesso**
+**Dettagli sulle risposte a richieste di accesso**
 
 I dati restituiti per una richiesta di accesso ti forniscono, come titolare del trattamento, l’URL da usare per scaricare un file ZIP contenente una directory per ogni prodotto Adobe che possiedi. Nella cartella di Analytics possono essere presenti:
 
 * File di persona: derivanti da risultati che contengono un’etichetta ID-PERSON corrispondente
 
-   * Un file .CSV con una riga per ogni hit corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL o ACC-PERSON, ordinata per timestamp.
-   * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL o ACC-PERSON. Ogni voce elenca tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti marche temporali sono arrotondati per specificare solo giorni univoci.
+   * File CSV con una riga per ogni risultato corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL o ACC-PERSON, ordinate per marca temporale.
+   * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL o ACC-PERSON. Ogni voce elenca tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti la marca temporale vengono arrotondati per specificare solo giorni univoci.
 
 * File di dispositivo: derivanti da risultati in cui uno dei campi corrisponde a un ID-DEVICE specifico ma nessuno di questi corrisponde a un ID-PERSON specifico
 
-   * Un file .CSV con una riga per ogni hit corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL, ordinata per marca temporale.
-   * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL. Ogni voce elencherà tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti marche temporali sono arrotondati per specificare solo giorni univoci.
+   * File CSV con una riga per ogni risultato corrispondente e una colonna per ogni campo con un’etichetta ACC-ALL, ordinate per marca temporale.
+   * File di riepilogo HTML con una voce per ogni etichetta ACC-ALL. Ogni voce elencherà tutti i valori univoci per quel campo e il numero di occorrenze. I campi contenenti la marca temporale vengono arrotondati per specificare solo giorni univoci.
 
 Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati.
 
-È possibile decidere quali di questi tornare all&#39;oggetto dati. Oppure puoi estrarre alcuni di questi dati e combinarli con dati di altri sistemi prima di restituirli all&#39;interessato.
+Puoi decidere quali di questi restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
 
-**Elimina dettagli risposta**
+**Dettagli sulle risposte alle richieste di cancellazione**
 
 Per le richieste di cancellazione non viene restituito alcun dato, solo uno stato per l’API Privacy dei dati che attesta che la richiesta è stata completata correttamente.
 
 ## Verifica dell’elaborazione della Privacy dei dati sui tuoi dati {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
-In genere, i clienti di Analytics configurano alcune suite di rapporti di prova per verificare la funzionalità prima che venga rilasciata al pubblico. I siti Web o le app di pre-produzione invieranno dati a queste suite di rapporti di test/dev/QA per valutare il funzionamento del codice quando il codice viene rilasciato prima che il traffico reale venga inviato alle suite di rapporti di produzione.
+In genere, i clienti di Analytics configurano alcune suite di rapporti di prova per verificare la funzionalità prima che venga rilasciata al pubblico. I siti web o le applicazioni in preproduzione invieranno dati in queste suite di rapporti test/dev/QA per valutare come funzionano quando viene rilasciato il codice prima che il traffico vero e proprio venga inviato alle suite di rapporti di produzione.
 
-Tuttavia, con una configurazione normale, l&#39;elaborazione della richiesta GPDR non può essere testata prima su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Il motivo è che una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte le suite di rapporti per l’azienda.
+Tuttavia, con una normale configurazione, l’elaborazione delle richieste RGDP non può essere verificata inizialmente su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Il motivo è che una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte le suite di rapporti per l’azienda.
 
 Sono disponibili alcuni modi per verificare l’elaborazione Privacy dei dati prima di applicarla a tutte le suite di rapporti:
 
 * Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi si utilizza questa organizzazione Experience Cloud per il test Privacy dei dati e la normale organizzazione Experience Cloud per l’elaborazione effettiva Privacy dei dati.
 * Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione.
 
-   Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non utilizziate gli spazi dei nomi visitorId, AAID, ECID o customVisitorId, perché sono hardcoded e non potete specificare nomi alternativi per tali spazi nelle suite** di rapporti di prova.
+   Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non si utilizzino i namespace visitorId, AAID, ECID o customVisitorId, perché questi hanno una codifica fissa e non possono essere specificati nelle suite di rapporti di prova**.
