@@ -4,7 +4,7 @@ title: Collegamento personalizzato
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,10 +22,10 @@ I collegamenti specifici che si desidera tracciare devono essere modificati con 
 
 ## Nomi di collegamenti SDK per dispositivi mobili {#section_70C91FE794104B5FBF289B19CC02EA8E}
 
-Gli SDK per [dispositivi mobili](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) utilizzano collegamenti personalizzati per tenere traccia delle azioni e delle metriche del ciclo di vita. Nelle suite di rapporti utilizzate per misurare le app mobili, l’SDK potrebbe impostare i seguenti nomi di collegamento:
+Gli SDK per [dispositivi mobili](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html) utilizzano collegamenti personalizzati per tenere traccia delle azioni e delle metriche del ciclo di vita. Nelle suite di rapporti utilizzate per misurare le app mobili, l’SDK potrebbe impostare i seguenti nomi di collegamento:
 
-| ADBINTERNO:Ciclo Di Vita | Inviato dalla chiamata "lifecycle" negli SDK 4.x. |
+| ADBINTERNO:Ciclo Di Vita | Inviato dalla chiamata &quot;lifecycle&quot; negli SDK 4.x. |
 |---|---|
 | AMACTION:nome[azione] | Inviato dal metodo trackAction() negli SDK 4.x, dove action name è il nome impostato al momento della chiamata del metodo. |
-| Evento ADMS BP | Inviato dalla chiamata "lifecycle" negli SDK 3.x. |
+| Evento ADMS BP | Inviato dalla chiamata &quot;lifecycle&quot; negli SDK 3.x. |
 
