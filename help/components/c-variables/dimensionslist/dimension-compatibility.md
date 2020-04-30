@@ -2,7 +2,7 @@
 title: Compatibilità delle dimensioni di Analytics
 description: Riferimento per le dimensioni e i report di Analytics.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,7 +27,7 @@ Ricorda che
 | Tipo di browser | browsertype |
 | Categoria | categoria |
 | Città | geocità |
-| Profondità colore | colorimetria |
+| Profondità colore | colordepth |
 | Tipo connessione | connectiontype |
 | Supporto per cookie | cookie |
 | Paesi | paese |
@@ -36,10 +36,10 @@ Ricorda che
 | Varie di visualizzazione personalizzate | prop1, prop2, ecc. |
 | Collegamento personalizzato | customlink |
 | Giorni precedenti al primo acquisto | daysbeforePurchase |
-| Giorni dall'ultimo acquisto | dayssincelastpurchase |
+| Giorni dall&#39;ultimo acquisto | dayssincelastpurchase |
 | Dominio | filtereddomain |
 | Collegamento di download | downloadlink |
-| Pagina di entrata | entrata |
+| Pagina di entrata | entrypage |
 | Pagina di entrata originale | entrypageOriginal |
 | Collegamento di uscita | exitlink |
 | Primo canale touch | firsttouchchannel |
@@ -64,7 +64,7 @@ Ricorda che
 | Dimensioni dello schermo del dispositivo mobile | mobilescreensize |
 | Larghezza schermo mobile | mobilescreenwidth |
 | Lunghezza massima URL browser mobile | mobileurllength |
-| Supporto per video mobile | mobilevideosupport |
+| Supporto per video per dispositivi mobili | mobilevideosupport |
 | Risoluzione monitor | monitorresolution |
 | Sistemi operativi | sistema operativo |
 | Dominio di riferimento originale | referringdomainoriginale |
@@ -88,10 +88,10 @@ Ricorda che
 | Visite a pagina singola | singlepfacilitisits |
 | Sezione del sito | sezioni di sito |
 | Tempo trascorso per visita - Granulare | sitetime |
-| Codice di tracciamento | campaign |
+| Codice di tracciamento | campagna |
 | DMA USA | geodma |
 | Stati Uniti | state |
-| Tempo precedente all'evento | time before |
+| Tempo precedente all&#39;evento | time before |
 | Tempo trascorso per visita - A intervalli | durata |
 | Profondità visita | pathlength |
 | Numero visita | visitnumber |
@@ -109,7 +109,7 @@ Ricorda che
 | Giorno della settimana | giorno della settimana |
 | Giorno della settimana | time partday of week |
 | Giorno dell’anno | timepartday of year |
-| Giorni dall'ultima visita | dayssincelastvisit |
+| Giorni dall&#39;ultima visita | dayssincelastvisit |
 | Approfondimenti personalizzati | entryprops |
 | Variabili elenco voci | entrylistvariables |
 | Entry Server | entryserver |
@@ -120,10 +120,10 @@ Ricorda che
 | Exit Server | exitserver |
 | Esci dalla sezione del sito | exitsitesections |
 | Profondità di hit | profondità |
-| Tipo di occorrenza | tipo |
+| Tipo di occorrenza | tipo hittype |
 | Ora | daterangehour |
 | Ora del giorno | timeparthourofday |
-| Dettagli canale di marketing | marketingchanneldetail |
+| Dettagli canale di marketing | marketingchanneldettaglio |
 | Minuto | daterangeminute |
 | Lunghezza massima segnalibro per dispositivi mobili | mobilebookmarklength |
 | Numero dispositivo mobile | mobiledevicenumber |
@@ -152,7 +152,7 @@ Ricorda che
 
 | Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-|  Activity Map XY | clickmapxy |
+| Activity Map XY | clickmapxy |
 | ID sessione multimediale | videosess ionid |
 | Metodo di accesso Nielsen | nielsenacmetodo |
 | ID app Nielsen | nielsenappid |
@@ -203,10 +203,10 @@ Reporting e analisi contiene più report preconfigurati che non vengono mappati 
 * Versione Java
 * Lingue
 * Percorsi più lunghi
-* Visualizzatori simultanei
-* Daypart Media
-* Dettagli supporto
-* Panoramica sui supporti
+* Visualizzatori simultanei contenuti multimediali
+* Daypart contenuti multimediali
+* Dettagli contenuti multimediali
+* Panoramica contenuti multimediali
 * Risoluzioni monitor
 * Protocolli di rete
 * Plug-in Netscape
@@ -249,7 +249,7 @@ Reporting e analisi contiene più report preconfigurati che non vengono mappati 
 | Contenuto | video |
 | Segmento di contenuto | videosegmento |
 | Tipo di contenuto | videocontenttype |
-| Nome lettore annuncio | videoadplayername |
+| Nome lettore pubblicitario | videoadplayername |
 | Aggiungi in posizione contenitore | videoadinpod |
 | Fotogrammi rilasciati | videoqoedroppedframecountevar |
 | Errori | videoqoeerrorcountevar |
@@ -271,7 +271,7 @@ Reporting e analisi contiene più report preconfigurati che non vengono mappati 
 | Mostra le informazioni | videoshow |
 | Stagione | videoconferenza |
 | Episodio | videoepisodio |
-| Rete | videonetwork |
+| Rete  | videonetwork |
 | Mostra tipo | videoshowtype |
 | Caricamenti annunci | videoadload |
 | MVPD | videomvpd |
@@ -284,7 +284,7 @@ Reporting e analisi contiene più report preconfigurati che non vengono mappati 
 | ID errore esterni | videoqoeextneralerrori |
 | Tipo di feed multimediale | videofeedtype |
 | Percorso file multimediali | entryvideopath |
-| Esci da percorso supporto | exitvideopath |
+| Esci dal percorso del supporto | exitvideopath |
 | Genere di ingresso | entryvideogenere |
 | Tipo di uscita | exitvideogenere |
 | ID errore SDK del lettore entry-level | entryvideoqoeplayersdkerror |
@@ -314,7 +314,7 @@ Reporting e analisi contiene più report preconfigurati che non vengono mappati 
 | Metrica definizione di proprietà | socialowneddefinition |
 | Risorsa | socialmediaid |
 
-### SDK per dispositivi mobili
+### Mobile SDK
 
 | Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
@@ -322,12 +322,12 @@ Reporting e analisi contiene più report preconfigurati che non vengono mappati 
 | ID app | mobileappid |
 | Numero di avvii | mobilelaunchnumber |
 | Giorni dal primo utilizzo | mobiledayssincefirstuse |
-| Giorni dall'ultimo utilizzo | mobiledayssincelastuse |
+| Giorni dall’ultimo utilizzo | mobiledayssincelastuse |
 | Ora del giorno (SDK) | mobilehourofday |
 | Giorno della settimana (SDK) | mobiledayofweek |
 | Sistema operativo (SDK) | mobileosenenvironment |
-| Giorni dall'ultimo aggiornamento | mobiledayssincelastupgrade |
-| Avvii dall'ultimo aggiornamento | mobilelaunchessincelastupgrade |
+| Giorni dall’ultimo aggiornamento | mobiledayssincelastupgrade |
+| Avvii dall’ultimo aggiornamento | mobilelaunchessincelastupgrade |
 | Nome dispositivo (SDK) | mobiledevice |
 | Versione sistema operativo (SDK) | mobileosversion |
 | Beacon principale | mobilebeaconmajor |
@@ -369,7 +369,7 @@ Reporting e analisi contiene più report preconfigurati che non vengono mappati 
 
 ### Integrazione Nielsen
 
-Per ulteriori informazioni su come implementare questa integrazione, consulta [Nielsen partnership](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
+Per ulteriori informazioni su come implementare questa integrazione, consulta [Nielsen partnership](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html).
 
 | Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
@@ -388,7 +388,7 @@ Per ulteriori informazioni su come implementare questa integrazione, consulta [N
 | ID client Nielsen + VCID | entrynielsenclientidvcid |
 | Esci da ID client Nielsen + VCID | exitnielsenclientidvcid |
 | ID client Nielsen | entrynielsenclientid |
-| Esci dall'ID client Nielsen | exitnielsenclientid |
+| Esci dall&#39;ID client Nielsen | exitnielsenclientid |
 
 ### Adobe Experience Manager (AEM)
 
