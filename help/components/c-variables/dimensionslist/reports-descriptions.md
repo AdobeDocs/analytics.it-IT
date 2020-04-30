@@ -4,7 +4,7 @@ title: Descrizioni dimensioni
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,14 +18,14 @@ Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che pos
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Strumento Analisi </th> 
+   <th colname="col1" class="entry"> Strumento Analytics </th> 
    <th colname="col2" class="entry"> Come visualizzare rapporti/dimensioni </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace </p> </td> 
-   <td colname="col2"> <p><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Workspace</span> &gt; <span class="uicontrol"> [seleziona o crea progetto]</span> &gt; icona <span class="uicontrol"> Componente (nella parte sinistra)</span></span> </p> <p>Visualizzare e aggiungere dimensioni dall'elenco Dimensioni. </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace  </p> </td> 
+   <td colname="col2"> <p><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Workspace</span> &gt; <span class="uicontrol"> [seleziona o crea progetto]</span> &gt; Icona <span class="uicontrol"> componente (nella parte sinistra)</span></span> </p> <p>Visualizzare e aggiungere dimensioni dall'elenco Dimensioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reports &amp; Analytics </p> </td> 
@@ -36,7 +36,7 @@ Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che pos
    <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol"> Generatore di report</span></span> <p>Richiesta guidata Passaggio 1: Elenco dei rapporti standard </p> <p>Richiesta guidata Passaggio 2: Elenco delle dimensioni </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
+   <td colname="col1"> <p>Ad Hoc Analysis  </p> </td> 
    <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol"> Analisi ad hoc</span></span> <p>Visualizzare e aggiungere le dimensioni disponibili nel riquadro Dimensione. </p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che pos
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > Dimensioni estese</a> </td> 
+   <td colname="col2"><a href="https://docs.adobe.com/content/help/en/data-workbench/using/dataset/extended-dimensions/c-abt-ex-dim.html"  > Dimensioni estese</a> </td> 
   </tr> 
  </tbody> 
 </table>
