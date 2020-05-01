@@ -2,7 +2,7 @@
 title: Escludere date specifiche nell'analisi
 description: Suggerimenti per escludere date o intervalli di date se non si desidera includerli nei rapporti.
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ---
 
@@ -52,7 +52,7 @@ Se non si desidera visualizzare zeri nella tabella o nelle visualizzazioni (con 
 
 Se non si desidera visualizzare zeri nella tabella o nelle visualizzazioni (con conseguente diminuzione), attivare **[!UICONTROL Interpret zero as no value]** le impostazioni delle colonne.
 
-![Interpreta zero](../assets/interpret_zero.png)
+![Interpreta zero](assets/interpret_zero.png)
 
 ### Applicazione del segmento di esclusione a un progetto
 
