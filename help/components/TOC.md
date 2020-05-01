@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -35,8 +35,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Compatibilità con i segmenti di Data Warehouse](c-segmentation/seg-reference/seg-compatibility.md)
       + [Diritti del segmento per ruolo](c-segmentation/seg-reference/seg-rights.md)
       + [Risoluzione dei problemi](c-segmentation/seg-reference/c-troubleshooting.md)
-   + Casi d’uso {#use-cases}
-      + [Escludi date specifiche](c-segmentation/use-cases/exclude-date-range.md)
    + [Domande frequenti](c-segmentation/seg-transition.md)
    + [Novità nella segmentazione di Analytics](c-segmentation/whats-new-segmentation.md)
    + [Guida alla transizione per Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
@@ -64,7 +62,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Compatibilità delle metriche](c-calcmetrics/cm-compatibility.md)
       + [Metriche calcolate: diritti basati su ruolo](c-calcmetrics/cm-role-based-rights.md)
       + [Totali delle metriche calcolate](c-calcmetrics/cm-totals.md)
-   + [Dati derivati interessati dagli eventi](c-calcmetrics/cm-events.md)
    + [Domande frequenti](c-calcmetrics/cm-transition.md)
    + [Video sulle procedure](c-calcmetrics/cm-videos.md)
 + Suite di rapporti virtuali {#virtual-report-suites}
