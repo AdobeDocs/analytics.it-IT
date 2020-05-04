@@ -2,7 +2,7 @@
 description: Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizione di ogni concetto e un collegamento specifico alla documentazione con informazioni aggiuntive sull'argomento.
 title: 'Adobe Analytics: concetti chiave'
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizio
 
 | Prodotto | Descrizione | Collegamento alla documentazione |
 |--- |--- |--- |
-| Analysis Workspace | Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità rispetto a Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Analysis Workspace | Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità rispetto a Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Reports &amp; Analytics (precedentemente SiteCatalyst) | Soluzione browser per la generazione di rapporti e analisi. Strumento di avvio nel pacchetto Analytics. | [Pagina principale di Reports &amp; Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Componente aggiuntivo per Excel che consente di creare richieste personalizzate a partire da dati di Adobe Analytics e di visualizzarle con Microsoft Excel. | [Pagina principale di Report Builder](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis (precedentemente Discover) | Strumento basato su Java per l&#39;analisi digitale avanzata. | [Pagina principale di Ad Hoc Analysis](https://docs.adobe.com/content/help/it-IT/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
