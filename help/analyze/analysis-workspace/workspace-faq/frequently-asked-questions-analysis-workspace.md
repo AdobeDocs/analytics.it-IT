@@ -5,7 +5,7 @@ title: Requisiti di amministrazione
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 ---
 
@@ -14,44 +14,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Requisiti di sistema per Analysis Workspace.
 
-## Amministrazione e requisiti di accesso {#section_FD3737DE452F4F6CA181F13FF3DC668F}
-
-<table id="table_3065772701A64D4EB5F175100A60F284"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Requisito </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> SKU del prodotto </td> 
-   <td colname="col2"> <p> Devi disporre di <span class="keyword">Adobe Analytics Standard</span> o di <span class="keyword">Adobe Analytics</span> Premium. Se hai accesso solo a Reports &amp; Analytics come prodotto standalone, ti consigliamo di collaborare con il team del tuo account per acquistare una soluzione <span class="keyword">Adobe Analytics</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Amministratori </td> 
-   <td colname="col2"> <p>Hanno accesso totale ad Analysis Workspace. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Utenti </td> 
-   <td colname="col2"> <p>Per abilitare l’accesso alla scheda Workspace in Analytics, gli amministratori devono aggiungere gli utenti al gruppo <span class="uicontrol">Accesso ad Analysis Workspace</span> in <span class="uicontrol">Amministratore</span> &gt; <span class="uicontrol">Gestione utente</span> &gt; <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html"  >Gruppi</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Trasferimento di progetti </td> 
-   <td colname="col2"> <p>Gli amministratori possono trasferire i progetti di <span class="wintitle">Analysis Workspace</span> da un utente all’altro. </p> <p>Per fare ciò, accedi a <span class="uicontrol">Amministratore</span> &gt; <span class="uicontrol">Gestione utente</span> &gt; <span class="uicontrol">Trasferisci</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Browser </td> 
-   <td colname="col2"> <p> Browser </p> 
-    <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
-     <li id="li_5A905B0F5342443B96433FDBB1015CA9">Preferiti: ultime versioni di Firefox, Chrome, Safari o Edge. </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Ultima versione di Microsoft Internet Explorer 11. <p> Nota: Adobe ha terminato il supporto per Internet Explorer 11 in riferimento ad Adobe Analytics il 13 novembre 2018. Passa al più presto a Microsoft Edge o a un altro browser supportato.</p> </li> 
-    </ul> 
-    <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
-     <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> Devono essere abilitati i cookie e JavaScript. </li> 
-     <li id="li_AE8D64267EC74C5290CB5793FB0C04D1">Risoluzione dello schermo pari a 1024x768 con profondità colore a 16 bit (o superiore). </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Requisito | Descrizione |
+|--- |--- |
+| SKU del prodotto | Devi disporre di Adobe Analytics Standard o di Adobe Analytics Premium. Se hai accesso solo a Reports &amp; Analytics come prodotto standalone, ti consigliamo di collaborare con il team del tuo account per acquistare una soluzione Adobe Analytics. |
+| Amministratori | Hanno accesso totale ad Analysis Workspace. |
+| Utenti | Per abilitare l&#39;accesso alla scheda Area di lavoro in Analytics, gli amministratori devono creare un profilo di prodotto con l&#39;autorizzazione Accesso ad Analysis Workspace e aggiungervi utenti in [Admin Console](/help/admin/admin-console/permissions/product-profile.md). |
+| Browser | <ul><li>Preferiti: ultime versioni di Firefox, Chrome, Safari o Edge. Ultima versione di Microsoft Internet Explorer 11. **Nota:** Adobe ha terminato il supporto per Internet Explorer 11 in riferimento ad Adobe Analytics il 13 novembre 2018. Passa al più presto a Microsoft Edge o a un altro browser supportato.</li><li>Devono essere abilitati i cookie e JavaScript.</li><li>Risoluzione dello schermo pari a 1024x768 con profondità colore a 16 bit (o superiore).</li></ul> |
