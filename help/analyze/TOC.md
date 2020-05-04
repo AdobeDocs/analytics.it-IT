@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida all’analisi di Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 ---
 
@@ -13,8 +13,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 + [Guida all’analisi di Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Funzioni di Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
-   + [Aiuto per Analysis Workspace](analysis-workspace/home.md)
+   + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Casi di utilizzo di Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Scopri le novità di Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Generare un progetto Workspace {#build-workspace-project}
