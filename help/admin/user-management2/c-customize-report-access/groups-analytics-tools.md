@@ -6,7 +6,7 @@ title: Personalizzare le autorizzazioni degli strumenti di Analytics
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -58,7 +58,7 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | [Utenti della licenza di Analisi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/ad-hoc-analysis/adhoc-home.html) ad hoc | Concede l&#39;autorizzazione di accesso [!UICONTROL Ad Hoc Analysis]. |
 | Accesso al servizio Web | Abilita l&#39;accesso ai servizi Web per i non amministratori. Genera le credenziali del servizio Web. |
 | [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Consente ai membri di questo gruppo di accedere alle [!UICONTROL Report Builder] licenze. |
-| [Accesso in Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html) | Consente agli utenti di accedere ad Analysis Workspace, l’interfaccia di reporting consigliata per [!DNL Adobe Analytics]. |
+| [Accesso in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) | Consente agli utenti di accedere ad Analysis Workspace, l’interfaccia di reporting consigliata per [!DNL Adobe Analytics]. |
 | [Reports &amp; Analytics](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | Consente agli utenti di accedere a Reporting e analisi. |
 | [Creazione della metrica calcolata](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html) | Consente agli utenti di creare metriche calcolate. |
 | [Creazione di segmenti](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) | Consente agli utenti di creare segmenti. |
