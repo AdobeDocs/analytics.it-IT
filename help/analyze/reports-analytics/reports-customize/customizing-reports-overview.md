@@ -4,7 +4,7 @@ title: Panoramica della personalizzazione dei rapporti
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -218,4 +218,4 @@ La maggior parte dei report in Reporting e analisi ora include un pulsante &quot
 
 Attualmente, il pulsante è disponibile solo se il nome utente dispone dei diritti completi su Analysis Workspace.
 
-Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html) .
+Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) .
