@@ -3,7 +3,7 @@ description: Requisiti di sistema e confronto tra Analysis Workspace, Reports & 
 title: Requisiti e confronto dei prodotti Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -18,7 +18,7 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo ar
  <tbody> 
   <tr> 
    <td> <b>Nome prodotto e collegamento all’Aiuto</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> Analysis Workspace </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Analysis Workspace </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/reports-analytics/getting-started.html"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/ad-hoc-analysis/adhoc-home.html"> Ad Hoc Analysis </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html"> Report Builder </a> </td> 
@@ -108,7 +108,7 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo ar
   </tr> 
   <tr> 
    <td> <b>Opzioni di visualizzazione ottimizzate</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> Sì </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Sì </a> </td> 
    <td> No </td> 
    <td> Sì </td> 
    <td> Sì </td> 
@@ -117,7 +117,7 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo ar
   </tr> 
   <tr> 
    <td> <b>Layout personalizzabile</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> Sì </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Sì </a> </td> 
    <td> Sì - <a href="https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html"> Dashboard </a> </td> 
    <td> No </td> 
    <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/configure-the-custom-layout.html"> Sì </a> </td> 
