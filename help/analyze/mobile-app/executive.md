@@ -2,12 +2,16 @@
 description: Istruzioni per l'uso delle scorecard delle dashboard.
 title: Guida esecutiva delle dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 # Dashboard di Adobe Analytics: guida introduttiva per l&#39;utente esecutivo
+
+>[!IMPORTANT]
+>
+>I dashboard di Adobe Analytics non vengono rilasciati ed è disponibile solo per il test beta tra i clienti invitati. Questa documentazione è destinata solo agli utenti della versione beta e non rappresenta la funzionalità completa della funzione. Se siete interessati a diventare un utente beta per questa caratteristica, si prega di contattare Ashok Gorrepati (gorrepati@adobe.com).
 
 ## Introduzione
 
