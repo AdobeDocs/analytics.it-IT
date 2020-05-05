@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida all’analisi di Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
@@ -327,8 +327,8 @@ source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
    + [Tempo](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Panoramica di Labs](tech-previews/overview.md)
-+ dashboards {#mobapp}
-   + [panoramica delle dashboard](mobile-app/home.md)
++ Dashboard di Adobe Analytics {#mobapp}
+   + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Guida al curatore](mobile-app/curator.md)
    + [Guida introduttiva per l&#39;utente esecutivo](mobile-app/executive.md)
 + App web progressive {#pwa}
