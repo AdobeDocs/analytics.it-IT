@@ -2,14 +2,17 @@
 description: Istruzioni per l'impostazione delle scorecard delle dashboard.
 title: Guida alla gestione delle dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 
-# BETA: Guida del curatore per le dashboard di Adobe Analytics
+# Guida del curatore per le dashboard di Adobe Analytics
 
+>[!IMPORTANT]
+>
+>I dashboard di Adobe Analytics non vengono rilasciati ed è disponibile solo per il test beta tra i clienti invitati. Questa documentazione è destinata solo agli utenti della versione beta e non rappresenta la funzionalità completa della funzione. Se siete interessati a diventare un utente beta per questa caratteristica, si prega di contattare Ashok Gorrepati (gorrepati@adobe.com).
 
 ## Introduzione
 
@@ -188,7 +191,6 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
    3. Dopo aver installato l’app Testflight, trova e installa le dashboard di Adobe Analytics dall’interno di Testflight come mostrato di seguito:
 
       ![Schermata di Testflight](assets/testflight2.png)
-
    **Per gli utenti esecutivi su Android:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -204,7 +206,6 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
 
    3. Scaricare e installare l’app.
 Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
-
    ![Schermata di benvenuto dell’app](assets/welcome.png)
 
 2. Aiutali ad accedere alla tua scorecard. Dopo che gli utenti esecutivi effettuano l’accesso all’app, viene visualizzata la schermata **Scegli un’azienda**. Questa schermata elenca le aziende di accesso a cui appartiene l’utente esecutivo. Per aiutarli a trovare la scorecard:
@@ -212,7 +213,6 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
    * Toccare il nome dell’azienda di accesso o dell’organizzazione Experience Cloud che si applica alla scorecard che hai condiviso. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con l’utente esecutivo da quell’azienda di accesso.
    * Aiutali a ordinare questo elenco secondo il parametro **Modificata più di recente**, se applicabile.
    * Toccare il nome della scorecard per visualizzarla.
-
    ![Scegliere un’azienda](assets/accesscard.png)
 
    Nota: se l’utente esecutivo effettua l’accesso e vede un messaggio che dice che non è stato condiviso nulla:
@@ -221,7 +221,6 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
    * La scorecard potrebbe non essere stata condivisa con l’utente esecutivo
 
       ![Niente di condiviso](assets/nothing.png)
-
    Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
 
 3. Spiega all’utente esecutivo come appaiono le tessere nelle scorecard che condividi.
