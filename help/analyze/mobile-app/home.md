@@ -2,16 +2,16 @@
 title: panoramica delle dashboard
 description: Documentazione del prodotto e supporto autonomo per dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 87355158ed62246d1ef8569383160b1d3ffc9b17
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
-# panoramica delle dashboard
+# Panoramica delle dashboard di Adobe Analytics
 
 >[!IMPORTANT]
 >
->I dashboard di Adobe Analytics non vengono rilasciati ed è disponibile solo per il test beta tra i clienti invitati. Questa documentazione è destinata solo agli utenti della versione beta e non rappresenta la funzionalità completa della funzione. If you are interested in becoming a beta user for this >feature, please contact Adobe [Customer Care](https://helpx.adobe.com/it/contact/enterprise-support.ec.html).
+>I dashboard di Adobe Analytics non vengono rilasciati ed è disponibile solo per il test beta tra i clienti invitati. Questa documentazione è destinata solo agli utenti della versione beta e non rappresenta la funzionalità completa della funzione. Se siete interessati a diventare un utente beta per questa caratteristica, si prega di contattare Ashok Gorrepati (gorrepati@adobe.com).
 
 Le dashboard di Adobe Analytics forniscono informazioni ovunque e in qualsiasi momento da Adobe Analytics. L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
 
