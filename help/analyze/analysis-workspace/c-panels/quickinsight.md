@@ -2,7 +2,10 @@
 description: Quick Insights Builder è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle di dati e visualizzazioni
 title: Generatore di informazioni rapide
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +45,11 @@ Di seguito sono riportati alcuni dei termini di base con cui hai bisogno di aver
 ## Guida introduttiva a Approfondimenti rapidi
 
 1. Effettuate l&#39;accesso ad Adobe Analytics utilizzando le credenziali fornite.
-1. Vai a [!UICONTROL Workspace] e fai clic **[!UICONTROL Create New Project]** e fai clic su **[!UICONTROL Quick Insights]**.
+1. Vai a [!UICONTROL Workspace] e fai clic **[!UICONTROL Create New Project]** e fai clic su **[!UICONTROL Quick Insights]**. Potete inoltre accedere a questo pannello dal **[!UICONTROL Panel]** menu nella barra a sinistra.
 
    ![](assets/qibuilder.png)
+
+   ![](assets/qi-panel.png)
 
 1. Quando iniziate, seguite la breve esercitazione che illustra alcune delle [!UICONTROL Quick Insights panel] nozioni di base. Oppure, fate clic per **[!UICONTROL Skip Tutorial]**.
 1. Seleziona i blocchi di generazione (o componenti): dimensioni (arancione), metriche (verde), segmenti (blu) o intervalli di date (viola) È necessario selezionare almeno una dimensione e una metrica affinché una tabella possa essere generata automaticamente.
@@ -66,13 +71,15 @@ Di seguito sono riportati alcuni dei termini di base con cui hai bisogno di aver
 
 1. (Facoltativo) Per approfondire le dimensioni e vedere gli elementi dimensionali, fai clic sulla freccia destra > accanto alla quota.
 
-1. Provate ad aggiungere altri miglioramenti come descritto di seguito in &quot;Altre opzioni utili&quot;.
+1. Provate ad aggiungere altri miglioramenti come descritto di seguito in &quot;Ulteriori suggerimenti&quot;.
 
-## Altre opzioni utili
+1. Salva il progetto facendo clic su **[!UICONTROL Project > Save]**.
+
+## Altri suggerimenti
 
 Altri utili suggerimenti compariranno nel pannello, alcuni [!UICONTROL Quick Insights Builder]a seconda dell’ultima azione.
 
-* Innanzitutto, completate l&#39; **[!UICONTROL More tips]** esercitazione: Accedere tramite la Guida (?) accanto al [!UICONTROL Quick Insights Panel] titolo.
+* Innanzitutto, completate l&#39; **[!UICONTROL More tips]** esercitazione: Accedere tramite la Guida (?) accanto al [!UICONTROL Quick Insights] titolo. Questa esercitazione viene visualizzata 24 ore dopo la creazione di un progetto con almeno una dimensione e una metrica.
 
    ![](assets/qibuilder4.png)
 
@@ -87,6 +94,10 @@ Altri utili suggerimenti compariranno nel pannello, alcuni [!UICONTROL Quick Ins
 * **Aggiungi altri segmenti**: Puoi aggiungere fino a 2 segmenti utilizzando gli operatori AND o OR per aggiungerli alla tabella. Osserva cosa succede alla tabella quando aggiungi Utenti mobili O Visitatori fedeli. Si trovano l&#39;uno accanto all&#39;altro, sopra le metriche. Se hai aggiunto Utenti mobili e Visitatori fedeli, vedrai i risultati di entrambi i segmenti insieme e saranno sovrapposti l’uno all’altro nella tabella.
 
    ![](assets/qibuilder7.png)
+
+## Aprire/caricare un progetto Quick Insights
+
+
 
 ## Limitazioni note
 
