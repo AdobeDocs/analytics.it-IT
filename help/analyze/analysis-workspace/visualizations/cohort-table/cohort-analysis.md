@@ -4,7 +4,10 @@ title: Cos’è un’analisi per coorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +32,7 @@ La funzione di analisi per coorte è disponibile per tutti i clienti di Analytic
 
 >[!IMPORTANT]
 >
->L’analisi per coorte non supporta le metriche calcolate.
+>L&#39;analisi per coorte non supporta metriche non segmentabili, come metriche calcolate, non-integer o [!UICONTROL Occurrences]. Solo le metriche che possono essere utilizzate nei segmenti possono essere utilizzate in Cohort Analysis e possono essere incrementate solo di 1 alla volta.
 
 ## Capacità dell’analisi per coorte
 
