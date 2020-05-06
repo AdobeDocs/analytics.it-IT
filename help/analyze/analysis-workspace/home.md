@@ -4,14 +4,17 @@ title: Panoramica di Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 98%
 
 ---
 
 
 # Panoramica di Analysis Workspace
 
-Analysis Workspace rimuove tutte le limitazioni tipiche di un rapporto singolo di Analytics. Offre un’area di lavoro solida e flessibile su cui realizzare analisi di progetti personalizzati. Trascina su un progetto un numero qualsiasi di tabelle di dati, visualizzazioni e componenti (dimensioni, metriche, segmenti e granularità temporali). Crea all’istante suddivisioni e segmenti, coorti per analisi e avvisi, confronta segmenti, esegue analisi di flusso e di abbandono, cura e programma i rapporti da condividere con i tuoi colleghi.
+Analysis Workspace rimuove tutte le limitazioni tipiche di un rapporto singolo di Analytics. Offre un’area di lavoro solida e flessibile su cui realizzare analisi di progetti personalizzati. Trascina su un progetto un numero qualsiasi di tabelle di dati, visualizzazioni e componenti (dimensioni, metriche, segmenti e granularità temporali). Crea all’istante suddivisioni e segmenti, coorti per analisi e avvisi, confronta segmenti, esegue analisi di flusso e di abbandono, cura e programma i rapporti da condividere con i tuoi colleghi. Le funzioni avanzate comprendono Attribution IQ,
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
