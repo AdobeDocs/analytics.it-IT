@@ -2,12 +2,15 @@
 title: PWA per Analytics
 description: App Web progressive per Adobe Analytics
 translation-type: tm+mt
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 6%
 
 ---
 
 
-# PWA per Analytics
+# PWA per Adobe Analytics
 
 Questa pagina descrive come utilizzare Adobe Analytics con le app Web progressive (PWA).
 
@@ -19,11 +22,11 @@ Adobe Analytics funziona perfettamente con le PWA come con i siti Web tradiziona
 
 ## Ottenere i dati PWA Analytics
 
-Per raccogliere e analizzare i dati PWA con Analytics, non è necessario apportare alcuna modifica alla configurazione. Analytics fornisce automaticamente tutte le stesse funzionalità e funzionalità di un sito Web tradizionale.
+Per raccogliere e analizzare i dati PWA con [!UICONTROL Analytics], non è necessario apportare alcuna modifica alla configurazione. [!UICONTROL Analytics] fornisce automaticamente tutte le stesse funzionalità e funzionalità di un sito Web tradizionale.
 
 ## Aggiunta del tracciamento offline per aumentare l&#39;efficacia del PWA
 
-Puoi aumentare l’efficacia del tuo PWA utilizzando le funzionalità [di tracciamento](https://docs.adobe.com/content/help/it-IT/analytics/implementation/javascript-implementation/offline-tracking.html) offline di Analytics. Per impostazione predefinita, questa funzione è disattivata, ma potete aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
+Puoi aumentare l’efficacia del tuo PWA utilizzando le funzionalità [di tracciamento](https://docs.adobe.com/content/help/it-IT/analytics/implementation/javascript-implementation/offline-tracking.html) offline di Adobe Analytics. Per impostazione predefinita, questa funzione è disattivata, ma potete aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
 
 Ad esempio, nel seguente file AppMeasurement.js, la proprietà viene aggiunta alla fine del `CONFIG SECTION`:
 
