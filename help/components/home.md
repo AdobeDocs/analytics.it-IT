@@ -1,8 +1,11 @@
 ---
 title: Aiuto sui componenti di Analytics
 description: nulle
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +19,7 @@ I componenti di Analytics consentono di perfezionare e potenziare le capacità d
 * **Segmentazione:** consente di concentrarsi su un sottoinsieme di dati.
 * **Metriche calcolate:** utilizza delle formule semplici per combinare diverse metriche e le funzioni avanzate per l’analisi statistica.
 * **Suite di rapporti virtuali:** crea un silos virtuale di dati basato su una suite di rapporti. Puoi pulire o segmentare i dati per una migliore esperienza d’uso. Alcune funzioni possono essere utilizzate solo nelle suite di rapporti virtuali.
+* **Analisi** multi-dispositivo: Uno speciale tipo di suite di rapporti virtuali ti consente di configurare l&#39;analisi cross-device.
 * **Avvisi:** puoi ricevere notifiche ogni volta che i dati si scostano da una determinata soglia.
 * **Classificazioni:** consentono di riorganizzare e raggruppare le dimensioni per ottenere informazioni aggiuntive.
 * **Variabili:** guida di riferimento per tutte le dimensioni e metriche disponibili nei rapporti.
