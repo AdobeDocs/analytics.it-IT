@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Tracciamento dei collegamenti
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 56%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Descrizioni dei campi in Gestione tag dinamica per il tracciamento dei collegamenti durante la distribuzione di Analytics.
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL ![](assets/settings_gear.png)
-
-Modifica strumento]** > **[!UICONTROL Link Tracking]**
+**[!UICONTROL Property]** > Icona ![](assets/settings_gear.png) ingranaggio **[!UICONTROL Edit Tool]** > **[!UICONTROL Link Tracking]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
