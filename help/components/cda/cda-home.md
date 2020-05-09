@@ -2,7 +2,10 @@
 title: Analytics tra dispositivi
 description: Analisi cross-Device (Analisi multi-dispositivo) modifica i dati dall'essere incentrati sul dispositivo all'essere focalizzati sulla persona, impilando insieme i dati del dispositivo.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 14%
 
 ---
 
@@ -56,7 +59,7 @@ Analisi cross-device è una funzione innovativa e affidabile, ma presenta dei li
 * Analytics cross-Device utilizza una suite di rapporti virtuale e l&#39;elaborazione dei tempi di rapporto, che hanno le proprie limitazioni. Per ulteriori informazioni su queste limitazioni, consulta Suite [di rapporti](../vrs/vrs-about.md) virtuali ed elaborazione [dei tempi di](../vrs/vrs-report-time-processing.md) rapporto.
 * L&#39;API 1.4 non è supportata. I connettori Power BI e Generatore di report si basano entrambi sull&#39;API 1.4 e non sono quindi compatibili con CDA.
 * Se l’organizzazione utilizza Private Graph, i nuovi dispositivi impiegano fino a 24 ore per essere uniti.
-* I nuovi dispositivi che visitano il sito possono richiedere fino a due settimane per essere elaborati da Co-op Graph. Il livello di cucitura in CDA per le ultime due settimane è generalmente inferiore a quello degli intervalli di date superiori a due settimane. Adobe pianifica di migliorare il grafico Co-op in modo da ottenere in futuro un grafico aggiornato ogni giorno.
+* I nuovi dispositivi che visitano il sito possono richiedere fino a due settimane per essere elaborati da Co-op Graph. Il livello di cucitura in CDA per le ultime due settimane è generalmente inferiore a quello degli intervalli di date superiori a due settimane.
 * I dati storici nella suite di rapporti virtuali vengono modificati in base al riconoscimento e all&#39;unione dei dispositivi da parte di Adobe. I dati nella suite di rapporti di origine non vengono modificati.
 
 Una volta che l&#39;organizzazione avrà soddisfatto tutti i requisiti e compreso i limiti, puoi iniziare a [configurare l&#39;analisi](cda-setup.md)tra dispositivi.
