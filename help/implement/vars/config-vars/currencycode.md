@@ -2,7 +2,10 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +32,16 @@ Codice valuta è un campo situato sotto la struttura di [!UICONTROL General] nav
 2. Fate clic sulla proprietà desiderata.
 3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
 4. Espandere la [!UICONTROL General] struttura a soffietto, che mostra il [!UICONTROL Currency Code] campo.
+
+È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se si utilizza un codice valuta personalizzato, assicurarsi che il codice sia valido.
+
+## Codice valuta nell’SDK di Adobe Experience Platform Mobile
+
+Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tramite le variabili dei dati contestuali nell’estensione Adobe Analytics.
+
+1. Impostare il codice della valuta in una variabile di dati contestuali durante `trackState` o `trackAction`.
+2. Crea una regola di elaborazione nella console di amministrazione di Adobe Analytics per la suite di rapporti. Impostare la regola per sovrascrivere la variabile Codice valuta.
+3. Passa il codice della valuta alla `products` variabile della chiamata a `trackState` o `trackAction`.
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se si utilizza un codice valuta personalizzato, assicurarsi che il codice sia valido.
 
