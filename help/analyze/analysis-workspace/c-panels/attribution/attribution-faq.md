@@ -2,7 +2,10 @@
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -16,10 +19,6 @@ L&#39;elemento di riga &#39;None&#39; è un elemento catch-all che rappresenta t
 **Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?**
 
 Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
-
-**È possibile utilizzare un intervallo di lookback personalizzato con i modelli di attribuzione?**
-
-I modelli di attribuzione si basano attualmente su un intervallo di lookback basato su visitatore o visita. Uno di questi intervalli di lookback può essere regolato modificando l’intervallo di date definito per il rapporto (per il lookback su visitatore) o utilizzando una definizione di visita personalizzata come parte delle suite di rapporti virtuali. Per ulteriori informazioni, vedi [Elaborazione dei tempi di report](../../../../components/vrs/vrs-report-time-processing.md).
 
 **Quando dovrei usare un lookback di attribuzione basato su visita o visitatore?**
 
