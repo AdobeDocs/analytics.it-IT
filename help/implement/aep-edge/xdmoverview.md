@@ -2,16 +2,15 @@
 title: Utilizzo di dati XDM con Analytics
 description: 'Panoramica dell''utilizzo di dati XDM dalla piattaforma Experience in Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: 3526d9f98b545e5f720a0cb127857e7fd5d5388e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 4%
 
 ---
 
 
 # Utilizzo dei dati Edge di Adobe Experience Platform con Analytics
-
 
 Puoi usare l’SDK [Web di](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) per inviare dati ad Adobe Analytics. Questo funziona traducendo il modello dati [esperienza (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in un formato utilizzato da Analytics.
 
@@ -23,7 +22,7 @@ Analytics raccoglie i dati XDM tramite due metodi:
 
 ## Mappatura automatica
 
-La mappatura automatica si basa su uno [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) predefinito in XDM che popola automaticamente gli oggetti JSON inclusi nella raccolta dati Analytics tipica. Le variabili di [Analytics che vengono mappate automaticamente da XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) alle suite di rapporti configurate non richiedono alcun supporto da parte degli sviluppatori.
+[La mappatura](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) automatica si basa su uno [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) predefinito in XDM che popola automaticamente gli oggetti JSON inclusi nella raccolta dati Analytics tipica. Le variabili di [Analytics che vengono mappate automaticamente da XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) alle suite di rapporti configurate non richiedono alcun supporto da parte degli sviluppatori.
 
 ## Mappatura manuale
 
