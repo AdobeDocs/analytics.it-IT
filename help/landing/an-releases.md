@@ -1,24 +1,24 @@
 ---
 description: Spiega la nuova strategia per il rilascio continuo di funzionalità per Adobe Analytics
-title: Adobe Analytics - Strategia per il rilascio delle funzioni
+title: Versioni delle funzioni di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0b00405e9e27a427a85b0f4a0d970671ada4aa67
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 4%
 
 ---
 
 
-# Adobe Analytics - Strategia per il rilascio delle funzioni
+# Versioni delle funzioni di Adobe Analytics
 
-Precedentemente, le versioni delle funzioni di Adobe Analytics seguivano una pianificazione mensile fissa. A partire da aprile 2020, Adobe Analytics passa a un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzionalità.
+Precedentemente, le versioni delle funzioni di Adobe Analytics seguivano una pianificazione mensile fissa. A partire da aprile 2020, Adobe Analytics è passato a un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzionalità.
 
 ## Strategia di rilascio
 
 [!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come &quot;interruttori&quot;) per controllare la visibilità delle nuove funzioni, consentendo test di scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
-* **Rilascio alla produzione (RTP)**: Il codice viene rilasciato in produzione e la visibilità delle funzioni viene disattivata in Analysis Workspace. **Nota**: Al momento, la funzione potrebbe essere disponibile nell&#39;API Analytics 2.0.
+* **Rilascio alla produzione (RTP)**: Il codice viene rilasciato in produzione e la visibilità delle funzioni viene disattivata in Analysis Workspace. **Nota**: In RTP, la funzione potrebbe essere disponibile nell’API di Analytics 2.0.
 
 * **Test** limitati: Una versione in fase inizia con il test da parte degli utenti Adobe interni. Il rilascio viene quindi ridimensionato dallo 0% al 100% di disponibilità nel corso di un paio di mesi. L&#39;implementazione graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un&#39;organizzazione ricevano la stessa esperienza.
 
