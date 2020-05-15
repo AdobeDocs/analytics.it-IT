@@ -4,7 +4,10 @@ title: Rapporti in tempo reale
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 2%
 
 ---
 
@@ -24,5 +27,4 @@ Per il reporting in tempo reale, Analytics utilizza metriche ad alta frequenza e
 
 Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare le entrate, non puoi visualizzare un rapporto in tempo reale che include i dati sulle entrate. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)di amministrazione.
 
->[!NOTE] Non [!UICONTROL Real-Time Reports] sono uguali alla funzione [Includi dati](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) correnti (Data Recency, Data Current Data Recency) rilasciata in precedenza, che ha ridotto la latenza per il reporting standard, visualizzando i dati prima del completamento.
-
+>[!NOTE] [!UICONTROL Real-Time Reports] non sono uguali alla funzione [Includi dati](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) correnti (Data Recency, Data Current Data Recency) rilasciata in precedenza, che ha ridotto la latenza per i report standard, visualizzando i dati prima della sua finalizzazione.
