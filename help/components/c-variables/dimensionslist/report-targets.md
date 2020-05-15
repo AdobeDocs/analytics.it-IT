@@ -3,7 +3,10 @@ description: I rapporti di targeting consentono di misurare le prestazioni del s
 title: Target
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ I rapporti di targeting consentono di misurare le prestazioni del sito Web e di 
 
 Per accedere ai rapporti Target, vai a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL[nome]destinazione]**
 
-Quando [create target](hhttps://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/targets.html), potete selezionare le metriche attributo o eVar da misurare oppure scegliere di misurare l&#39;intero sito rispetto alle metriche selezionate.
+Quando [create target](/help/analyze/reports-analytics/targets.md), potete selezionare le metriche attributo o eVar da misurare oppure scegliere di misurare l&#39;intero sito rispetto alle metriche selezionate.
 
 Il rapporto mostra il totale cumulativo della metrica specificata e la differenza tra il totale e la destinazione impostata al momento della configurazione del rapporto.
 
