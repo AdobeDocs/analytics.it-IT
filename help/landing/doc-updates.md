@@ -3,7 +3,10 @@ title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Notevoli aggiornamenti all'archivio della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
+source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 73%
 
 ---
 
@@ -21,13 +24,13 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Data | Descrizione |
 |---|---|
-| 28 aprile 2020 | Aggiunta della documentazione per la metrica [Content Velocity](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) (Velocità contenuto). |
-| 12 marzo 2020 | Sono stati aggiunti aggiornamenti ai segmenti [Pubblica in Experience Cloud](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-publish.html). |
+| 28 aprile 2020 | Aggiunta della documentazione per la metrica [Content Velocity](/help/components/c-variables/c-metrics/metrics-content-velocity.md) (Velocità contenuto). |
+| 12 marzo 2020 | Sono stati aggiunti aggiornamenti ai segmenti [Pubblica in Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
 | 12 marzo 2020 | Aggiornamenti alla latenza di cucitura CDA. |
 | 27 febbraio 2020 | Aggiunta documentazione per [Adobe Analytics Labs](https://docs.adobe.com/content/help/it-IT/analytics/analyze/tech-previews/overview.html). |
 | 25 febbraio 2020 | Aggiunta [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variabile. |
 | 18 febbraio 2020 | Aggiunta [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variabile. |
-| 12 febbraio 2020 | Aggiornamenti e riorganizzazione della documentazione [Marketing Channels (Canali](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) di marketing). |
+| 12 febbraio 2020 | Aggiornamenti e riorganizzazione della documentazione [Marketing Channels (Canali](/help/components/c-marketing-channels/c-getting-started-mchannel.md) di marketing). |
 | 7 febbraio 2020 | Aggiornamenti alla [configurazione di analisi](../components/cda/cda-setup.md) e [domande frequenti tra dispositivi](../components/cda/cda-faq.md) |
 | 4 febbraio 2020 | Riscrittura completa della guida [utente](../implement/home.md)Implementazione. |
 | 22 gennaio 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
