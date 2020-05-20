@@ -1,25 +1,27 @@
 ---
-description: Istruzioni per l'uso delle scorecard delle dashboard.
-title: Guida esecutiva delle dashboard di Adobe Analytics
+description: Istruzioni per l’uso delle scorecard delle dashboard.
+title: Guida esecutiva alle dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 98%
 
 ---
 
 
-# Dashboard di Adobe Analytics: guida introduttiva per l&#39;utente esecutivo
+# Dashboard di Adobe Analytics: guida introduttiva rapida per utenti esecutivi
 
->[!IMPORTANT]
->
->I dashboard di Adobe Analytics non vengono rilasciati ed è disponibile solo per il test beta tra i clienti invitati. Questa documentazione è destinata solo agli utenti della versione beta e non rappresenta la funzionalità completa della funzione. Se siete interessati a diventare un utente beta per questa caratteristica, si prega di contattare Ashok Gorrepati (gorrepati@adobe.com).
+Le informazioni seguenti forniscono agli utenti amministratori informazioni sulle procedure ottimali per l&#39;utilizzo e la visualizzazione delle dashboard di Adobe Analytics.
+
 
 ## Introduzione
 
-Le dashboard di Adobe Analytics forniscono informazioni ovunque e in qualsiasi momento da Adobe Analytics.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. I dashboard sono supportati sia sui sistemi operativi iOS che su quelli Android.
+Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Le dashboard sono supportate sia sui sistemi operativi iOS che su quelli Android.
 
-## Informazioni su questa guida
+## Ulteriori informazioni su questa guida
 
-Questa guida è destinata ad aiutare gli utenti esecutivi a leggere e interpretare le scorecard nelle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
+Questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretare le scorecard sulle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
 ## Glossario dei termini
 
@@ -28,30 +30,30 @@ Questa guida è destinata ad aiutare gli utenti esecutivi a leggere e interpreta
 | Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
 | Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
 | Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
-| Scorecard | Una vista per dashboard contenente una o più sezioni |
+| Scorecard | Una vista delle dashboard contenente una o più tessere |
 | Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
-| Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive. |
-| Intervallo date | Intervallo di date principale per il reporting dei dashboard |
+| Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive |
+| Intervallo date | L’intervallo date primario per la generazione di rapporti delle dashboard |
 | Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
 
-## Ottenere la configurazione delle dashboard sul dispositivo
+## Configurare le dashboard sul dispositivo
 
-Per utilizzare le dashboard in modo efficace, è necessario che il curatore Scorecard vi aiuti a configurarlo. Questa sezione fornisce informazioni per aiutarti a effettuare la configurazione con l’assistenza del tuo curatore.
+Per utilizzare le dashboard in modo efficace è necessario che il curatore della scorecard ti aiuti a configurarle. Questa sezione fornisce informazioni per aiutarti a effettuare la configurazione con l’assistenza del tuo curatore.
 
 ### Ottenere l’accesso
 
-Per accedere alle scorecard nelle dashboard, assicurarsi che:
+Per accedere alle scorecard sulle dashboard, assicurati:
 
 * Di avere un accesso valido ad Adobe Analytics
 * Che il tuo curatore abbia creato correttamente le scorecard per dispositivi mobili e le abbia condivise con te
 
-### Download e installazione di dashboard
+### Scaricare e installare dashboard
 
 Per scaricare e installare l’app, segui i passaggi relativi al sistema operativo del tuo dispositivo.
 
 **Per dispositivi iOS:**
 
-1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
+1. Fare clic su questo link pubblico (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
 
    [Link iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -61,13 +63,13 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 2. Toccare il link **Visualizza nell’App Store** sullo schermo per scaricare l’app Testflight.
 
-3. Dopo aver installato l’app Testflight, trova e installa le dashboard di Adobe Analytics dall’interno di Testflight come mostrato di seguito:
+3. Dopo aver installato l’app Testflight, trovare e installare le dashboard di Adobe Analytics all’interno di Testflight come mostrato di seguito:
 
    ![Schermata di Testflight](assets/testflight2.png)
 
 **Per dispositivi Android:**
 
-1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
+1. Toccare il seguente link al Play Store sul dispositivo dell’utente (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -84,11 +86,11 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 Per utilizzare le dashboard:
 
-1. Accedi all’app. La schermata di accesso verrà visualizzata all&#39;avvio delle dashboard. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
+1. Accedi all’app. La schermata di accesso apparirà all’avvio delle dashboard. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
 
    ![Sequenza di accesso](assets/signseq.png)
 
-2. Scegli un’azienda. After you sign into dashboards, the **Choose a company** screen appears. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
+2. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard appare la schermata **Scegli un’azienda**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
 3. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
 
@@ -133,7 +135,7 @@ Per utilizzare le dashboard:
 
 8. Lasciare un feedback. Per lasciare un feedback:
 
-   1. Toccate l&#39;icona utente in alto a destra della schermata delle dashboard.
+   1. Toccare l’icona utente in alto a destra nella schermata delle dashboard.
    2. Nella schermata **Il mio account**, toccare l’opzione **Feedback**.
    3. Toccare per visualizzare le opzioni per lasciare un feedback.
    ![Lasciare un feedback](assets/feedback.png)
