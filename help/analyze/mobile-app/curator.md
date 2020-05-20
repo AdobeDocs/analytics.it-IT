@@ -1,8 +1,11 @@
 ---
-description: Istruzioni per l'impostazione delle scorecard delle dashboard.
-title: Guida alla gestione delle dashboard di Adobe Analytics
+description: Istruzioni per la configurazione delle scorecard delle dashboard.
+title: Guida del curatore per le dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '2286'
+ht-degree: 98%
 
 ---
 
@@ -10,38 +13,36 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 # Guida del curatore per le dashboard di Adobe Analytics
 
->[!IMPORTANT]
->
->I dashboard di Adobe Analytics non vengono rilasciati ed è disponibile solo per il test beta tra i clienti invitati. Questa documentazione è destinata solo agli utenti della versione beta e non rappresenta la funzionalità completa della funzione. Se siete interessati a diventare un utente beta per questa caratteristica, si prega di contattare Ashok Gorrepati (gorrepati@adobe.com).
+Le informazioni seguenti forniscono ai curatori dei dati di Adobe Analytics informazioni su come configurare e presentare dashboard per gli utenti esecutivi.
 
 ## Introduzione
 
-Le dashboard di Adobe Analytics forniscono informazioni ovunque e in qualsiasi momento da Adobe Analytics. L’app ti consente di accedere da dispositivi mobili a scorecard intuitive che crei e condividi dall’interfaccia utente desktop di Adobe Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. Le dashboard di Analytics sono supportate sia sui sistemi operativi iOS che su quelli Android.
+Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app ti consente di accedere da dispositivi mobili a scorecard intuitive che crei e condividi dall’interfaccia utente desktop di Adobe Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. Le dashboard di Analytics sono supportate sia sui sistemi operativi iOS che su quelli Android.
 
-## Informazioni su questa guida
+## Ulteriori informazioni su questa guida
 
-Questa guida è stata creata per aiutare i curatori dei dati di Adobe Analytics a configurare le scorecard per i propri utenti esecutivi sulle dashboard di Analytics. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali delle dashboard di Analytics, questa guida aiuterà i curatori di dati a configurare l&#39;app in modo efficace per tali utenti.
+Questa guida ha lo scopo di aiutare i curatori dei dati di Adobe Analytics a configurare le scorecard per i loro utenti esecutivi sulle dashboard di Analytics. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali delle dashboard di Analytics, questa guida aiuterà i curatori dei dati a configurare l’app in modo efficace per questi utenti.
 
 
 ## Glossario dei termini
 
-Nella tabella seguente sono descritti i termini per comprendere l&#39;audience, le funzioni e il funzionamento delle dashboard di Analytics.
+La tabella seguente descrive i termini per comprendere il pubblico, le funzioni e il funzionamento delle dashboard di Analytics.
 
 | Termine | Definizione |
 |--- |--- |
 | Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
 | Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
-| Cura | Creazione o modifica di una scorecard mobile contenente metriche, dimensioni e altri componenti rilevanti per il consumatore |
-| Scorecard | Una vista per dashboard contenente una o più sezioni |
+| Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
+| Scorecard | Una vista delle dashboard contenente una o più tessere |
 | Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
-| Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive. |
-| Intervallo date | Intervallo di date principale per il reporting dei dashboard |
+| Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive |
+| Intervallo date | L’intervallo date primario per la generazione di rapporti delle dashboard |
 | Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
 
  
 ## Creare una scorecard per utenti esecutivi
 
-Una scorecard visualizza le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a sezioni, come illustrato di seguito:
+Una scorecard mostra le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come mostrato di seguito:
 
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
@@ -82,7 +83,7 @@ Dalla schermata **Progetti**, sotto la scheda **Componenti**, fai clic sul pulsa
 
 **Usare gli strumenti di Analytics**
 
-In Analytics, click the **Tools** menu and select **dashboards**. Nella schermata successiva, fai clic sul pulsante **Crea scorecard**.
+In Analytics, fai clic sul menu **Strumenti** e seleziona **dashboard**. Nella schermata successiva, fai clic sul pulsante **Crea scorecard**.
 
 ### Configura la scorecard con i dati e salvala
 
@@ -152,7 +153,7 @@ Per condividere la scorecard con un utente esecutivo:
 ![Condividere_scorecard](assets/new_share.png)
 
 
-Dopo aver condiviso una scorecard, i destinatari possono accedervi mediante le dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
+Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
 *Nota: se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividere nuovamente la scorecard (e di selezionare l’opzione **Condividi automaticamente i componenti incorporati con i destinatari**) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.*
 
@@ -178,7 +179,7 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
 
    **Per gli utenti esecutivi su iOS:**
 
-   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
+   1. Fare clic su questo link pubblico (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
 
       [Link iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -188,13 +189,12 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
 
    2. Toccare il link **Visualizza nell’App Store** sullo schermo per scaricare l’app Testflight.
 
-   3. Dopo aver installato l’app Testflight, trova e installa le dashboard di Adobe Analytics dall’interno di Testflight come mostrato di seguito:
+   3. Dopo aver installato l’app Testflight, trovare e installare le dashboard di Adobe Analytics all’interno di Testflight come mostrato di seguito:
 
       ![Schermata di Testflight](assets/testflight2.png)
-
    **Per gli utenti esecutivi su Android:**
 
-   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
+   1. Toccare il seguente link al Play Store sul dispositivo dell’utente (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Dopo aver toccato il link, toccare il link Diventa un tester nella seguente schermata:
@@ -207,7 +207,6 @@ Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi contro
 
    3. Scaricare e installare l’app.
 Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
-
    ![Schermata di benvenuto dell’app](assets/welcome.png)
 
 2. Aiutali ad accedere alla tua scorecard. Dopo che gli utenti esecutivi effettuano l’accesso all’app, viene visualizzata la schermata **Scegli un’azienda**. Questa schermata elenca le aziende di accesso a cui appartiene l’utente esecutivo. Per aiutarli a trovare la scorecard:
@@ -215,7 +214,6 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
    * Toccare il nome dell’azienda di accesso o dell’organizzazione Experience Cloud che si applica alla scorecard che hai condiviso. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con l’utente esecutivo da quell’azienda di accesso.
    * Aiutali a ordinare questo elenco secondo il parametro **Modificata più di recente**, se applicabile.
    * Toccare il nome della scorecard per visualizzarla.
-
    ![Scegliere un’azienda](assets/accesscard.png)
 
    Nota: se l’utente esecutivo effettua l’accesso e vede un messaggio che dice che non è stato condiviso nulla:
@@ -224,7 +222,6 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
    * La scorecard potrebbe non essere stata condivisa con l’utente esecutivo
 
       ![Niente di condiviso](assets/nothing.png)
-
    Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
 
 3. Spiega all’utente esecutivo come appaiono le tessere nelle scorecard che condividi.
@@ -260,7 +257,6 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
    1. Toccare l’icona dell’utente in alto a destra della schermata dell’app.
    2. Nella schermata **Il mio account**, toccare l’opzione **Feedback**.
    3. Toccare per visualizzare le opzioni per lasciare un feedback.
-
    ![Lasciare un feedback](assets/feedback.png)
    ![Opzioni del feedback](assets/feedback_option.png)
 
