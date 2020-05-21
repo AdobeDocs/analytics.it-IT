@@ -2,9 +2,9 @@
 description: Quick Insights Builder è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle di dati e visualizzazioni
 title: Generatore di informazioni rapide
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** al momento è in fase di test limitati e non è ancora disponibile in genere per tutti i clienti di Adobe Analytics.
+>**[!UICONTROL Quick Insights]** è attualmente in fase di test limitati. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] fornisce indicazioni per i non analisti e i nuovi utenti [!UICONTROL Analysis Workspace] per imparare a rispondere alle domande aziendali in modo rapido e semplice. È anche un ottimo strumento per gli utenti avanzati che desiderano rispondere rapidamente a una semplice domanda senza dover costruire personalmente una tabella.
 
@@ -39,7 +39,7 @@ Di seguito sono riportati alcuni dei termini di base con cui hai bisogno di aver
 | [!UICONTROL Dimension item] | Gli elementi dimensione sono valori singoli per una dimensione. Ad esempio, gli elementi dimensionali per la dimensione del browser sarebbero &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, ecc. |
 | [!UICONTROL Metric] | Le metriche sono informazioni quantitative sull&#39;attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, unità, ordini, ricavi e così via. |
 | [!UICONTROL Visualization] | Workspace offre [diverse visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri elementi. |
-| [!UICONTROL Breakdown] | Una suddivisione è un modo per letteralmente suddividere una dimensione per altre dimensioni. Nel nostro esempio, potresti suddividere gli Stati Uniti per dispositivi mobili per ottenere le visite dei dispositivi mobili per stato, oppure potresti suddividere i dispositivi mobili per tipo di dispositivo mobile, per regioni, per campagne interne, ecc. |
+| [!UICONTROL Dimension Breakdown] | Una suddivisione delle dimensioni è un modo per suddividere letteralmente una dimensione per altre dimensioni. Nel nostro esempio, potresti suddividere gli Stati Uniti per dispositivi mobili per ottenere le visite dei dispositivi mobili per stato, oppure potresti suddividere i dispositivi mobili per tipo di dispositivo mobile, per regioni, per campagne interne, ecc. |
 | [!UICONTROL Segment] | I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti Web. Ad esempio, puoi creare [!UICONTROL Visitor] segmenti in base agli attributi: tipo di browser, dispositivo, numero di visite, paese, genere o in base alle interazioni: campagne, ricerca di parole chiave, motore di ricerca o in base a uscite e voci: visitatori da Facebook, una pagina di destinazione definita, un dominio di riferimento o basati su variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
 ## Guida introduttiva a Approfondimenti rapidi
@@ -66,7 +66,7 @@ Di seguito sono riportati alcuni dei termini di base con cui hai bisogno di aver
    * Tabella a forma libera con la dimensione (qui, Stati Uniti) verticale e la metrica (qui, Visite) orizzontalmente nella parte superiore. Consulta questa tabella:
    ![](assets/qibuilder3.png)
 
-   * Una visualizzazione associata, in questo caso un grafico a [barre](/help/analyze/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati aggiunto alla tabella. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia a discesa accanto a **[!UICONTROL Bar]**.
+   * Una visualizzazione associata, in questo caso un grafico a [barre](/help/analyze/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati aggiunto alla tabella. Per impostazione predefinita, qualsiasi dato basato su un&#39;ora (ad esempio [!UICONTROL Visits] per giorno/mese) corrisponde a un [!UICONTROL Line] grafico. Per impostazione predefinita, qualsiasi dato non basato sul tempo (come [!UICONTROL Visits] per [!UICONTROL Device]) corrisponde a un [!UICONTROL Bar] grafico. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia a discesa accanto al tipo di visualizzazione.
 
 
 1. (Facoltativo) Per approfondire le dimensioni e vedere gli elementi dimensionali, fai clic sulla freccia destra > accanto alla quota.
@@ -94,10 +94,6 @@ Altri utili suggerimenti compariranno nel pannello, alcuni [!UICONTROL Quick Ins
 * **Aggiungi altri segmenti**: Puoi aggiungere fino a 2 segmenti utilizzando gli operatori AND o OR per aggiungerli alla tabella. Osserva cosa succede alla tabella quando aggiungi Utenti mobili O Visitatori fedeli. Si trovano l&#39;uno accanto all&#39;altro, sopra le metriche. Se hai aggiunto Utenti mobili e Visitatori fedeli, vedrai i risultati di entrambi i segmenti insieme e saranno sovrapposti l’uno all’altro nella tabella.
 
    ![](assets/qibuilder7.png)
-
-## Aprire/caricare un progetto Quick Insights
-
-
 
 ## Limitazioni note
 
