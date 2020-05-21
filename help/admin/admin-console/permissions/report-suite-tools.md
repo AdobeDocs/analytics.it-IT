@@ -1,61 +1,65 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '650'
+ht-degree: 5%
 
 ---
-# Strumenti delle suite di rapporti elencati nelle autorizzazioni Profilo di prodotto
+# Strumenti delle suite di rapporti elencati nelle autorizzazioni del profilo di prodotto
 
-Utilizza questa pagina per comprendere ogni elemento di autorizzazione in Strumenti delle suite di rapporti.
+Utilizzare questa pagina per comprendere ogni elemento di autorizzazione in Strumenti suite di rapporti.
 
-| Elemento autorizzazione strumenti suite di rapporti | Descrizione |
+| Articolo di autorizzazione Strumenti suite di rapporti | Descrizione |
 |------|------|
-| Data Warehouse | Non utilizzato. Utilizzate "Custom Data Warehouse Report" (Report di Data Warehouse personalizzato). |
-| Site Catalyst | Non utilizzato. Utilizzate invece'Analysis Workspace Access '. |
-| Suite di rapporti (Leggi) | Non utilizzato. |
+| Data Warehouse | Non utilizzato. Utilizzare &#39;Custom Data Warehouse Report&#39;. |
+| Site Catalyst | Non utilizzato. Usa &quot;Accesso ad Analysis Workspace&quot;. |
+| Suite di rapporti (lettura) | Non utilizzato. |
 | Suite di rapporti (scrittura) | Non utilizzato. |
 | Gestione traffico | Non utilizzato. |
-| Suite di rapporti Mgmt | Consente l'accesso al Gestore suite di rapporti, ma non consente modifiche. |
-| Riepilogo account | Consente l'accesso a Generale &gt; Impostazioni account generali nel Gestore suite di rapporti. |
-| Filtri URL | Consente l'accesso a Generale &gt; Filtri interni URL nel report Suite Manager. |
-| Calendario personalizzato | Consente l'accesso a Generale &gt; Personalizza calendario nel Gestore suite di rapporti. |
-| Ricerca pagata | Consente l'accesso a Generale &gt; Rilevamento ricerca pagata nel Gestore suite di rapporti. |
-| Personalizzazione del menu | Consente l'accesso a Generale &gt; Personalizza menu nel Gestore suite di rapporti. |
-| Configurazione dei report in tempo reale | Consente l'accesso a Real-Time nel Report Suite Manager. Utilizzate l'elemento di autorizzazione «realtime Report» per concedere l'accesso al report stesso. |
+| Gestione suite di rapporti | Consente l&#39;accesso a Report Suite Manager, ma non consente alcuna modifica. |
+| Riepilogo account | Consente di accedere a Generale > Impostazioni account generali in Report Suite Manager. |
+| Filtri URL | Consente l&#39;accesso a Generali > Filtri URL interni in Report Suite Manager. |
+| Calendario personalizzato | Consente l&#39;accesso a Generale > Personalizza calendario in Report Suite Manager. |
+| Ricerca pagata | Consente l&#39;accesso a Generale > Rilevamento ricerca a pagamento in Report Suite Manager. |
+| Personalizzazione menu | Consente di accedere a Generale > Personalizza menu in Report Suite Manager. |
+| Configurazione report in tempo reale | Consente l&#39;accesso a Real-Time in Report Suite Manager. Utilizzate l&#39;elemento di autorizzazione &#39;RealTime Report&#39; per concedere l&#39;accesso al report stesso. |
 | Impostazioni video | Non utilizzato. |
-| Variabili di traffico | Consente l'accesso a Traffico &gt; Variabili traffico nel Gestore suite di rapporti. |
-| Canali | Consente l'accesso a Marketing Channels (Canali di marketing), inclusi Marketing Channel Manager, Marketing Channel Processing Rules e Marketing Channel Expiration (Scadenza canale di marketing) in Report Suite Manager (Gestore suite di rapporti). |
-| Costi | Consente l'accesso a Marketing Channels (Canali di marketing) &gt; Marketing Channel Costs (Costi canale di marketing) in Report Suite Manager (Gestore suite di rapporti). |
-| Variabili di conversione | Consente l'accesso a Conversione &gt; Variabili di conversione nel Gestore suite di rapporti. |
-| Metodi di ricerca | Consente l'accesso a Conversione &gt; Ricerca metodi in Gestore suite di rapporti. |
-| Visitatore univoco | Consente l'accesso a Conversione &gt; Variabile visitatore univoca. In genere non viene utilizzato nelle implementazioni moderne. |
-| Eventi di successo | Consente l'accesso a Conversione &gt; Eventi di successo nel Gestore suite di rapporti. |
-| Variabili elenco | Consente l'accesso a Conversione &gt; Variabili elenco nel Gestore suite di rapporti. |
-| Metriche predefinite | Consente l'accesso a Singole impostazioni suite di rapporti &gt; Metriche predefinite nel Gestore suite di rapporti. |
-| Regole di elaborazione | Consente l'accesso a Generale &gt; Regole di elaborazione e Generali &gt; Regole bot nel Gestore suite di rapporti. |
-| Configurazione analisi analisi | Non utilizzato. |
-| Rilevamento delle anomalie | Consente di accedere a Rilevamento anomalie in Analysis Workspace. |
-| Analisi contributi | Consente di accedere al menu con il pulsante destro del mouse su Run Contribution Analysis (Esegui analisi contributi) in Analysis Workspace. |
-| Report canale | Consente l'accesso a Marketing Channels (Canali di marketing) &gt; Channel Overview Report (Report panoramica canale) in Reporting e analisi. |
-| Report realtime | Consente l'accesso a Metriche del sito &gt; Real-Time in Reporting e analisi. Utilizzate l'elemento di autorizzazione «Configurazione report Tempo reale» per concedere l'accesso al report. |
-| Pagine bot | Consente l'accesso al report Metriche del sito &gt; Bots &gt; Bot Pages in Reporting e analisi. |
-| Bot | Consente l'accesso al report Metriche del sito &gt; Bots &gt; Bots in Reporting e analisi. |
-| Feed Feed Manager | Consente l'accesso a Admin (Amministratore) &gt; Data Feeds (Feed dati) nella navigazione superiore di Analytics. |
-| Report personalizzato Data Warehouse | Consente l'accesso a Strumenti &gt; Data Warehouse nella navigazione superiore di Analytics. |
-| Visite giornaliere di ritorno | Concede l'accesso a Retention (Mantenimento visitatori) &gt; Daily Return Visits (Visite giornaliere) in Reporting e analisi. |
-| Origini dati Manager | Consente l'accesso a Admin (Amministratore) &gt; Data Sources (Sorgenti dati) nella navigazione superiore di Analytics. Richiede l'elemento di autorizzazione «Suite di rapporti». |
-| Escludi per indirizzo IP | Consente l'accesso a Admin (Amministratore) &gt; Exclude By IP (Escludi per IP) nella navigazione superiore di Analytics. |
+| Variabili di traffico | Consente l&#39;accesso a Traffic (Traffico) > Traffic Variables (Variabili di traffico) in Report Suite Manager (Gestore suite di rapporti). |
+| Canali | Consente l&#39;accesso ai canali di marketing, inclusi Marketing Channel Manager, Marketing Channel Processing Rules e Marketing Channel Expiration in Report Suite Manager. |
+| Costi | Consente l&#39;accesso a Marketing Channels (Canali di marketing) > Marketing Channel Cost (Costi canale di marketing) in Report Suite Manager (Gestore suite di rapporti). |
+| Variabili di conversione | Consente l&#39;accesso a Conversion (Conversione) > Conversion Variables (Variabili di conversione) in Report Suite Manager (Gestore suite di rapporti). |
+| Metodi di ricerca | Consente l&#39;accesso a Conversion (Conversione) > Find Methods (Metodi di ricerca) in Report Suite Manager (Gestore suite per report). |
+| Visitatore unico | Consente l&#39;accesso a Conversione > Variabile visitatore univoca. Di solito non utilizzato nelle implementazioni moderne. |
+| Eventi di successo | Consente di accedere a Conversion (Conversione) > Success Events (Eventi di successo) in Report Suite Manager (Gestore suite di rapporti). |
+| Variabili elenco | Consente l&#39;accesso a Conversion (Conversione) > List Variables (Variabili elenco) in Report Suite Manager (Gestore suite di rapporti). |
+| Metriche predefinite | Consente di accedere a Impostazioni suite di rapporti individuali > Metriche predefinite in Report Suite Manager. |
+| Regole di elaborazione | Consente l&#39;accesso a Generale > Regole di elaborazione e Generale > Regole bot in Report Suite Manager. |
+| Configurazione dell&#39;analisi pubblicitaria | Non utilizzato. |
+| Rilevamento delle anomalie | Consente di accedere al rilevamento delle anomalie in Analysis Workspace. |
+| Analisi contributi | Consente di accedere al menu di scelta rapida &quot;Esegui analisi contributi&quot; in Analysis Workspace. |
+| Report canale | Consente di accedere al report Marketing Channels (Canali di marketing) > Channel Overview (Panoramica canale) in Reporting e analisi. |
+| Rapporto RealTime | Consente di accedere a Metriche del sito > Real-Time (Tempo reale) in Reporting e analisi. Utilizzate l&#39;elemento di autorizzazione &#39;Configurazione rapporto in tempo reale&#39; per concedere l&#39;accesso per impostare il rapporto. |
+| Pagine bot | Consente di accedere al report Metriche del sito > Bots (Bots) > Bot Pages (Pagine bot) in Reporting e analisi. |
+| Bot | Consente l&#39;accesso a Metriche del sito > Bots > Bots report in Reporting e analisi. |
+| Gestione feed dati | Consente l&#39;accesso ad Admin (Amministratore) > Data Feeds (Feed dati) nella navigazione superiore di Analytics. |
+| Report data warehouse personalizzato | Consente l&#39;accesso a Strumenti > Data Warehouse nella navigazione superiore di Analytics. |
+| Visite giornaliere di ritorno | Consente l&#39;accesso a Visitor Retention (Mantenimento dei visitatori) > Daily Return Visits (Visite giornaliere di ritorno) in Reporting e analisi. |
+| Origini dati Manager | Consente l&#39;accesso ad Admin (Amministratore) > Data Sources (Origini dati) nella navigazione superiore di Analytics. Richiede l&#39;elemento di autorizzazione &#39;Report Suite Mgmt&#39;. |
+| Escludi per indirizzo IP | Consente l&#39;accesso ad Admin (Amministratore) > Exclude By IP (Escludi per IP) nella navigazione superiore di Analytics. |
 | Ultimi 100 visitatori | Non utilizzato. |
-| Clickmap legacy | Non utilizzato. Utilizzate invece la mappa dell'attività in Analytics Tools. |
-| Installazione clickmap precedente | Non utilizzato. Utilizzate invece la mappa dell'attività in Analytics Tools. |
-| Visite di ritorno | Consente l'accesso a Mantenimento visitatore &gt; Return Visits in Reporting e analisi. |
-| Rapporto panoramica app mobile | Non utilizzato. |
-| Classificazioni | Consente l'accesso a tutte le impostazioni di classificazione nel Gestore suite di rapporti. This permission item includes: <br>Traffic &gt; Traffic Classifications<br>Conversion &gt; Conversion Classifications<br>Conversion &gt; Classification Hierarchies<br>Marketing Channels &gt; Marketing Channel Classifications<br>App Management &gt; App Classifications<br>Media Management &gt; Media Classifications<br>AEM &gt; AEM Assets Classifications<br>Adobe Campaign &gt; Adobe Classifications |
-| Report personali consigliati | Consente l'accesso a Metriche del sito &gt; Report consigliati in Reporting e analisi. |
-| Riepilogo riepilogo società | Non utilizzato. |
+| ClickMap precedente | Non utilizzato. Utilizzate invece Activity Map in Strumenti di Analytics. |
+| Installazione legacy ClickMap | Non utilizzato. Utilizzate invece Activity Map in Strumenti di Analytics. |
+| Visite di ritorno | Consente l&#39;accesso a Visitor Retention (Mantenimento visitatori) > Return Visits (Visite di ritorno) in Reporting e analisi. |
+| Report Panoramica app mobile | Non utilizzato. |
+| Classificazioni | Consente l&#39;accesso a tutte le impostazioni di classificazione in Report Suite Manager. Questo elemento di autorizzazione include: <br>Traffico ><br>Classificazioni trafficoConversione ><br>Classificazioni conversione ><br>Gerarchie classificazioneCanali di marketing ><br>Classificazioni canale marketingGestione app ><br>Classificazioni appGestione multimediale ><br>Classificazioni file multimedialiAEM ><br>Classificazioni AEM AssetsAdobe Campaign > Classificazioni Adobe |
+| Report consigliati | Consente di accedere a Metriche del sito > Report personali consigliati in Reporting e analisi. |
+| Report di riepilogo società | Non utilizzato. |
 | Immagine | Non utilizzato. |
-| KPI/Gauge Reportlet | Non utilizzato. |
+| Report KPI/Gage | Non utilizzato. |
 | Totali suite di rapporti | Non utilizzato. |
-| Reportlet di testo | Non utilizzato. |
-| Riepilogo riepilogo utilizzo | Non utilizzato. |
+| Report testo | Non utilizzato. |
+| Rapporto Riepilogo utilizzo | Non utilizzato. |
 | Risorse Web | Non utilizzato. |
 | Social | Non utilizzato. |
+| API di ripristino dati | Consente l&#39;accesso all&#39;API di ripristino dei dati (versione futura) |
