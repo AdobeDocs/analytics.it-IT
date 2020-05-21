@@ -2,10 +2,10 @@
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
+source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 82%
+source-wordcount: '2331'
+ht-degree: 78%
 
 ---
 
@@ -13,16 +13,15 @@ ht-degree: 82%
 
 # Guida del curatore per le dashboard di Adobe Analytics
 
-Le informazioni seguenti forniscono ai curatori dei dati di Adobe Analytics informazioni su come configurare e presentare dashboard per gli utenti esecutivi. Per vedere un video che illustra queste informazioni, consultate [Dashboard di Adobe Analytics Esperienza](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)in-app.
+Le informazioni seguenti forniscono ai curatori dei dati di Adobe Analytics informazioni su come configurare e presentare dashboard per gli utenti esecutivi. Per vedere un video che illustra queste informazioni, consultate [Adobe Analytics dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94).
 
 ## Introduzione
 
-Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app ti consente di accedere da dispositivi mobili a scorecard intuitive che crei e condividi dall’interfaccia utente desktop di Adobe Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. Le dashboard di Analytics sono supportate sia sui sistemi operativi iOS che su quelli Android.
+Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app consente agli utenti di accedere da dispositivi mobili alle scorecard intuitive create e condivise dall’interfaccia utente desktop di Adobe Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. Le dashboard di Analytics sono supportate sia sui sistemi operativi iOS che su quelli Android.
 
 ## Ulteriori informazioni su questa guida
 
-Questa guida ha lo scopo di aiutare i curatori dei dati di Adobe Analytics a configurare le scorecard per i loro utenti esecutivi sulle dashboard di Analytics. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali delle dashboard di Analytics, questa guida aiuterà i curatori dei dati a configurare l’app in modo efficace per questi utenti.
-
+Questa guida è stata concepita per aiutare i curatori dei dati di Adobe Analytics a configurare le scorecard per i loro utenti esecutivi sulle dashboard. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali delle dashboard di Analytics, questa guida aiuterà i curatori dei dati a configurare l’app in modo efficace per questi utenti.
 
 ## Glossario dei termini
 
@@ -164,9 +163,9 @@ Per aiutare gli utenti esecutivi ad accedere alle tue scorecard nell’app, assi
 
 * Il sistema operativo per dispositivi mobili sui loro dispositivi sia iOS versione 10 o superiore o Android versione 4.4 (KitKat) o superiore
 * Abbiano un accesso valido ad Adobe Analytics
-* Tu abbia creato correttamente le scorecard per dispositivi mobili a essi destinate e condividi con essi tali scorecard.
+* Sono state create correttamente delle scorecard mobili per loro e sono state condivise queste scorecard con loro
 * Abbiano accesso all’Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
-* Abbiano accesso ai Componenti che la scorecard include. Nota: puoi selezionare un’opzione quando condividi le scorecard per **Condividere automaticamente i componenti incorporati con i destinatari**.
+* Abbiano accesso ai Componenti che la scorecard include. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
 
 ### Assistenza agli utenti con l&#39;app
 
@@ -198,13 +197,20 @@ Per aiutare gli utenti esecutivi:
    Se l&#39;utente esecutivo accede e visualizza un messaggio che indica che non è stato condiviso nulla:
 
    * L’utente esecutivo può aver selezionato l’istanza di Analytics sbagliata
-   * La scorecard potrebbe non essere stata condivisa con l’utente esecutivo
-   Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
 
-3. Spiegare all’utente esecutivo come vengono visualizzate le sezioni nelle scorecard condivise (la scorecard sottostante è impostata in modalità scura, che è impostata in **Preferenze** , come spiegato in un passaggio successivo):
+   * La scorecard potrebbe non essere stata condivisa con l’utente esecutivo
+
+      ![Niente di condiviso](assets/nothing.png)
+
+
+   * Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
+
+
+3. Spiegare all’utente esecutivo come vengono visualizzate le sezioni nelle scorecard condivise (la prima scorecard sottostante è impostata in modalità scura; consultate **Preferenze** di seguito se pensate che l&#39;utente esecutivo preferisca questa opzione di visualizzazione):
 
    ![Spiegare le tessere](assets/newexplain.png)
 
+   ![Esempio di scorecard](assets/intro_scorecard.png)
 
    Ulteriori informazioni sulle tessere:
 
@@ -224,14 +230,13 @@ Per aiutare gli utenti esecutivi:
 
    * Una tabella è inclusa per visualizzare i dati delle dimensioni aggiunte alla sezione. Toccate la freccia giù per selezionare le dimensioni. Se non è stata aggiunta alcuna dimensione alla sezione, nella tabella vengono visualizzati i dati del grafico.
 
-
 5. Per modificare gli intervalli date per la tua scorecard:
 
    ![Modificare le date](assets/changedate.png)
 
-   Puoi anche modificare allo stesso modo gli intervalli di date all’interno della visualizzazione Suddivisione mostrata sopra.
+   * Puoi anche modificare allo stesso modo gli intervalli di date all’interno della visualizzazione Suddivisione mostrata sopra.
 
-   A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **CONFRONTA CON**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **Fine** in alto a destra dello schermo. Il campo **Intervalli date** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
+   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **CONFRONTA CON**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **Fine** in alto a destra dello schermo. Il campo **Intervalli date** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
 6. Per lasciare un feedback su questa app:
 
