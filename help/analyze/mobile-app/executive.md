@@ -2,17 +2,17 @@
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 98%
+source-wordcount: '1287'
+ht-degree: 75%
 
 ---
 
 
 # Dashboard di Adobe Analytics: guida introduttiva rapida per utenti esecutivi
 
-Le informazioni seguenti forniscono agli utenti amministratori informazioni sulle procedure ottimali per l&#39;utilizzo e la visualizzazione delle dashboard di Adobe Analytics.
+Le informazioni seguenti forniscono agli utenti amministratori informazioni sulle procedure ottimali per l&#39;utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consultate [Dashboard di Adobe Analytics Esperienza](https://youtu.be/QXqQ_PkArbA)in-app.
 
 
 ## Introduzione
@@ -51,36 +51,21 @@ Per accedere alle scorecard sulle dashboard, assicurati:
 
 Per scaricare e installare l’app, segui i passaggi relativi al sistema operativo del tuo dispositivo.
 
-**Per dispositivi iOS:**
+**Per gli utenti esecutivi su iOS:**
 
-1. Fare clic su questo link pubblico (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
+Fai clic sul seguente collegamento (disponibile anche in Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
 
-   [Link iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+[Link iOS](https://apple.co/2zXq0aN)
 
-   Dopo aver fatto clic sul link, viene visualizzata la seguente schermata di Testflight:
+**Per gli utenti esecutivi su Android:**
 
-   ![Schermata di Testflight](assets/testflight1.png)
+Fai clic sul seguente collegamento (disponibile anche in Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
 
-2. Toccare il link **Visualizza nell’App Store** sullo schermo per scaricare l’app Testflight.
+[Collegamento Android](https://bit.ly/2LM38Oo)
 
-3. Dopo aver installato l’app Testflight, trovare e installare le dashboard di Adobe Analytics all’interno di Testflight come mostrato di seguito:
+Una volta scaricati e installati, gli utenti esecutivi possono accedere all&#39;app utilizzando le credenziali Adobe Analytics esistenti.
 
-   ![Schermata di Testflight](assets/testflight2.png)
-
-**Per dispositivi Android:**
-
-1. Toccare il seguente link al Play Store sul dispositivo dell’utente (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   Dopo aver toccato il link, toccare il link Diventa un tester nella seguente schermata:
-
-   ![Schermata del Play Store](assets/play.png)
-
-2. Toccare il link **scarica su Google Play** nella seguente schermata:
-
-   ![Link di download](assets/playnext.png)
+![Schermata di benvenuto dell’app](assets/welcome.png)
 
 ## Utilizzare le dashboard
 
@@ -94,29 +79,33 @@ Per utilizzare le dashboard:
 
 3. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
 
-   ![Scegliere un’azienda](assets/accesscard.png)
+   ![Scegliere un’azienda](assets/nextseq.png)
 
-   *Nota: se effettui l’accesso e vedi un messaggio che dice che non è stato condiviso nulla, verifica quanto segue con il tuo curatore:*
+   Se effettuate l’accesso e viene visualizzato un messaggio che informa che non è stato condiviso nulla, verificate quanto segue con il vostro curatore:
 
-   * *Riesci ad accedere alla giusta istanza di Analytics*
-   * *La scorecard è stata condivisa con te*
+   * Riesci ad accedere alla giusta istanza di Analytics
+   * La scorecard è stata condivisa con te
+   ![Niente di condiviso](assets/nothing.png)
 
-      ![Niente di condiviso](assets/nothing.png)
-
-4. Esamina come appaiono le tessere nella scorecard.
+4. Esaminare l’aspetto delle sezioni nella scorecard (la prima scorecard viene visualizzata in modalità scura); per ulteriori informazioni, consultate **Preferenze** di seguito).
 
    ![Informazioni sulle tessere](assets/newexplain.png)
 
    Ulteriori informazioni sulle tessere:
 
    * La granularità dei grafici sparkline dipende dalla lunghezza dell’intervallo date:
-   * Un giorno mostra una tendenza oraria
-   * Più di un giorno e meno di un anno mostra una tendenza giornaliera
-   * Un anno o più mostra una tendenza settimanale
-   * La formula della variazione percentuale del valore è metrica totale (intervallo date attuale) – metrica totale (intervallo date di confronto)/metrica totale (intervallo date di confronto).
-   * È possibile trascinare lo schermo verso il basso per aggiornare la scorecard.
 
-5. Toccare una tessera per mostrare come funziona un raggruppamento dettagliato della tessera.
+      * Un giorno mostra una tendenza oraria
+      * Più di un giorno e meno di un anno mostra una tendenza giornaliera
+      * Un anno o più mostra una tendenza settimanale
+   * La formula della variazione percentuale del valore è metrica totale (intervallo date attuale) – metrica totale (intervallo date di confronto)/metrica totale (intervallo date di confronto).
+
+   * È possibile trascinare lo schermo verso il basso per aggiornare la scorecard.
+   L’esempio seguente della scorecard viene visualizzato in modalità normale:
+
+   ![Esempio di scorecard](assets/intro_scorecard.png)
+
+5. Toccate una sezione per vedere come funziona una suddivisione dettagliata per la sezione.
 
    ![Vista Raggruppamento](assets/sparkline.png)
 
@@ -125,21 +114,27 @@ Per utilizzare le dashboard:
 
    ![Modificare le date](assets/changedate.png)
 
-   *Nota: è possibile modificare allo stesso modo anche gli intervalli date all’interno della vista Raggruppamento mostrata sopra.*
+   * Puoi anche modificare allo stesso modo gli intervalli di date all’interno della visualizzazione Suddivisione mostrata sopra.
 
-   A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **CONFRONTA CON**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **Fine** in alto a destra dello schermo. Il campo **Intervalli date** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
+   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **CONFRONTA CON**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **Fine** in alto a destra dello schermo. Il campo **Intervalli date** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-7. Ricevere gli aggiornamenti delle scorecard. Se una scorecard non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team di Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
+7. Per applicare un filtro segmenti alla scorecard, toccate il menu a discesa del filtro e selezionate un segmento configurato dal vostro curatore. [I filtri](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nell&#39;app funzionano allo stesso modo in Analytics Workspace.
 
+   ![Filtro segmento](assets/segment_filter.png)
 
+8. Ricevere gli aggiornamenti delle scorecard. Se una scorecard non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team di Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
 
-8. Lasciare un feedback. Per lasciare un feedback:
+9. Per lasciare un feedback su questa app:
 
-   1. Toccare l’icona utente in alto a destra nella schermata delle dashboard.
-   2. Nella schermata **Il mio account**, toccare l’opzione **Feedback**.
+   1. Toccate l&#39;icona delle impostazioni in alto a destra della schermata dell&#39;app.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Toccare per visualizzare le opzioni per lasciare un feedback.
-   ![Lasciare un feedback](assets/feedback.png)
-   ![Opzioni del feedback](assets/feedback_option.png)
+
+      ![Impostazioni, schermata](assets/settings.png)
+
+10. Per modificare le preferenze, toccate l’opzione **Preferenze** riportata sopra. Nelle preferenze, potete attivare l’accesso biometrico oppure impostare l’app per la modalità scura come illustrato di seguito:
+
+   ![Modalità Scuro](assets/darkmode.png)
 
 
 **Per segnalare un bug**:
