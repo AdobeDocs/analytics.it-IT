@@ -3,7 +3,10 @@ description: 'null'
 title: Panoramica dell’analisi dei contributi
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +23,9 @@ L’analisi dei contributi consente di valutare immediatamente i dati per indivi
 
 La funzione Analisi contributi consente di sviluppare una narrazione per descrivere la causa di un’anomalia e come trattarla, acquisendo metriche rilevanti e identificando punti nascosti che forniscono una panoramica delle interazioni del pubblico e degli interessi più comuni dei clienti. A volte un’anomalia è facile da identificare e correggere, come un ordine errato di 2.000 kayak. A volte è più complessa, come l’identificazione di una tendenza emergente in un periodo di tempo all’interno di una regione che reagisce solo a una campagna mirata specifica. La combinazione di elementi che contribuiscono alle metriche per diverse dimensioni e associazioni offre un’idea generale delle interazioni del pubblico e contribuisce a fornire contesto per punti di dati anomali.
 
-Ecco alcune idee:
+Di seguito sono riportati alcuni esempi di utilizzo:
 
-* Identifica le opportunità di remarketing monitorando i cambiamenti nella domanda dei prodotti.
+* Identificare il potenziale di remarketing monitorando i cambiamenti nella domanda del prodotto.
 * Migliora l’esperienza del cliente reagendo a specifici interessi del pubblico.
 * Identifica gli ordini fraudolenti sin da subito tramite report fuori limite.
 * Previeni lo spionaggio aziendale identificando utilizzi e download elevati.
@@ -52,7 +55,7 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Perché Adobe ha introdotto i token? </b> </p> </td> 
-   <td colname="col2"> <p>La funzione Analisi contributi di Adobe Analytics ha riscosso un grande successo dal rilascio iniziale nel 2015. La possibilità di disporre di un numero limitato di esecuzioni “complete” al mese (anziché 3 sole dimensioni per alcuni prodotti Analytics) consente di comprendere meglio i risultati ottenibili dall’analisi completa e illimitata dei contributi. </p> </td> 
+   <td colname="col2"> <p>L’analisi dei contributi è stata una delle funzionalità più importanti di Adobe Analytics. La possibilità di disporre di un numero limitato di esecuzioni “complete” al mese (anziché 3 sole dimensioni per alcuni prodotti Analytics) consente di comprendere meglio i risultati ottenibili dall’analisi completa e illimitata dei contributi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come funziona l’utilizzo dei token nell’analisi dei contributi? È necessario spendere un token per caricare un progetto con un’analisi dei contributi esistente oppure è richiesto solo se si esegue una nuova analisi?</b> </p> </td> 
