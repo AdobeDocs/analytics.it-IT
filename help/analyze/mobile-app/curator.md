@@ -2,10 +2,10 @@
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 98%
+source-wordcount: '2323'
+ht-degree: 82%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Guida del curatore per le dashboard di Adobe Analytics
 
-Le informazioni seguenti forniscono ai curatori dei dati di Adobe Analytics informazioni su come configurare e presentare dashboard per gli utenti esecutivi.
+Le informazioni seguenti forniscono ai curatori dei dati di Adobe Analytics informazioni su come configurare e presentare dashboard per gli utenti esecutivi. Per vedere un video che illustra queste informazioni, consultate [Dashboard di Adobe Analytics Esperienza](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)in-app.
 
 ## Introduzione
 
@@ -71,10 +71,6 @@ Puoi accedere al template Scorecard per dispositivi mobili vuota in uno dei segu
 
 ![Template Scorecard](assets/new_template.png)
 
-
-*Nota: se non vedi il template Scorecard per dispositivi mobili vuota, come mostrato di seguito, significa che la tua azienda non ha ancora ricevuto l’attivazione per la Beta. Contatta il tuo responsabile del Servizio Clienti.*
-
-
 **Aggiungere un progetto**
 
 Dalla schermata **Progetti**, sotto la scheda **Componenti**, fai clic sul pulsante **Aggiungi** e seleziona **Scorecard per dispositivi mobili**.
@@ -105,18 +101,17 @@ Per implementare il template della scorecard:
 
    ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
-   *Nota: puoi anche aggiungere una dimensione a tutte le tessere rilasciandola sull’area di lavoro della scorecard.*
+   È inoltre possibile aggiungere una dimensione a tutte le sezioni rilasciandola nell&#39;area di lavoro Scorecard.
 
    Quando fai clic su una tessera nel Creatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella tessera. In questa barra puoi assegnare un nuovo **Titolo** alla tessera e, in alternativa, configurare la tessera specificando i componenti invece di trascinarli e rilasciarli dalla barra di sinistra.
-
 
    Inoltre, se fai clic sulle tessere, un pop-up dinamico mostrerà come la vista Raggruppamento viene visualizzata dall’utente esecutivo nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
    ![Vista_Raggruppamento](assets/break_view.png)
 
-   *Nota come ogni dimensione aggiunta alla tessera verrà visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.*
+   Ogni dimensione aggiunta alla sezione verrà visualizzata in un elenco a discesa nella visualizzazione dettagliata dell&#39;app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
-4. Per applicare segmenti alle singole tessere, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla tessera. Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard.
+4. Per applicare segmenti alle singole tessere, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla tessera. Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionando i segmenti nel menu del filtro sotto gli intervalli di date. Puoi [configurare e applicare filtri per le schede](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) di valutazione nello stesso modo in cui lo faresti in Adobe Analytics Workspace.
 
 5. Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere e poi rimuovilo facendo clic sulla **x** che appare quando passi il mouse sul componente, come mostrato di seguito per il segmento **Clienti di dispositivi mobili**:
 
@@ -155,7 +150,7 @@ Per condividere la scorecard con un utente esecutivo:
 
 Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
-*Nota: se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividere nuovamente la scorecard (e di selezionare l’opzione **Condividi automaticamente i componenti incorporati con i destinatari**) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.*
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
 
 ## Aiutare gli utenti esecutivi a configurare l’app
 
@@ -171,43 +166,23 @@ Per aiutare gli utenti esecutivi ad accedere alle tue scorecard nell’app, assi
 * Abbiano accesso all’Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
 * Abbiano accesso ai Componenti che la scorecard include. Nota: puoi selezionare un’opzione quando condividi le scorecard per **Condividere automaticamente i componenti incorporati con i destinatari**.
 
-### Aiutare gli utenti esecutivi a utilizzare l’app
+### Assistenza agli utenti con l&#39;app
 
-Durante la fase beta, e prima che l’app venga svelata al pubblico, puoi controllare chi ha accesso all’app.
+Per aiutare gli utenti esecutivi:
 
-1. Aiuta gli utenti esecutivi a scaricare e installare l’app. Per farlo, indica ai tuoi utenti esecutivi i seguenti passaggi per estendere l’accesso, a seconda che utilizzino un dispositivo iOS o Android.
+1. Aiutateli a scaricare e installare l&#39;app. Per farlo, indica ai tuoi utenti esecutivi i seguenti passaggi per estendere l’accesso, a seconda che utilizzino un dispositivo iOS o Android.
 
    **Per gli utenti esecutivi su iOS:**
 
-   1. Fare clic su questo link pubblico (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
+   1. Fai clic sul seguente collegamento (disponibile anche in Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
 
-      [Link iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-
-      Dopo aver fatto clic sul link, viene visualizzata la seguente schermata di Testflight:
-
-      ![Schermata di Testflight](assets/testflight1.png)
-
-   2. Toccare il link **Visualizza nell’App Store** sullo schermo per scaricare l’app Testflight.
-
-   3. Dopo aver installato l’app Testflight, trovare e installare le dashboard di Adobe Analytics all’interno di Testflight come mostrato di seguito:
-
-      ![Schermata di Testflight](assets/testflight2.png)
-
+      [Link iOS](https://apple.co/2zXq0aN)
    **Per gli utenti esecutivi su Android:**
 
-   1. Toccare il seguente link al Play Store sul dispositivo dell’utente (è disponibile anche in Analytics alla voce **Strumenti** > **dashboard**):
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. Fai clic sul seguente collegamento (disponibile anche in Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
 
-      Dopo aver toccato il link, toccare il link Diventa un tester nella seguente schermata:
-
-      ![Schermata del Play Store](assets/play.png)
-
-   2. Toccare il link **scarica su Google Play** nella seguente schermata:
-
-      ![Link di download](assets/playnext.png)
-
-   3. Scaricare e installare l’app.
-Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
+      [Android](https://bit.ly/2LM38Oo)
+   Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
 
    ![Schermata di benvenuto dell’app](assets/welcome.png)
 
@@ -216,19 +191,15 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
    * Toccare il nome dell’azienda di accesso o dell’organizzazione Experience Cloud che si applica alla scorecard che hai condiviso. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con l’utente esecutivo da quell’azienda di accesso.
    * Aiutali a ordinare questo elenco secondo il parametro **Modificata più di recente**, se applicabile.
    * Toccare il nome della scorecard per visualizzarla.
-
    ![Scegliere un’azienda](assets/accesscard.png)
 
-   Nota: se l’utente esecutivo effettua l’accesso e vede un messaggio che dice che non è stato condiviso nulla:
+   Se l&#39;utente esecutivo accede e visualizza un messaggio che indica che non è stato condiviso nulla:
 
    * L’utente esecutivo può aver selezionato l’istanza di Analytics sbagliata
    * La scorecard potrebbe non essere stata condivisa con l’utente esecutivo
-
-      ![Niente di condiviso](assets/nothing.png)
-
    Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
 
-3. Spiega all’utente esecutivo come appaiono le tessere nelle scorecard che condividi.
+3. Spiegare all’utente esecutivo come vengono visualizzate le sezioni nelle scorecard condivise (la scorecard sottostante è impostata in modalità scura, che è impostata in **Preferenze** , come spiegato in un passaggio successivo):
 
    ![Spiegare le tessere](assets/newexplain.png)
 
@@ -247,24 +218,30 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
    ![Vista Raggruppamento](assets/sparkline.png)
 
+   * Toccate un punto qualsiasi di una linea di scintilla per visualizzare i dati associati a tale punto sulla linea.
+
+   * Una tabella è inclusa per visualizzare i dati delle dimensioni aggiunte alla sezione. Toccate la freccia giù per selezionare le dimensioni. Se non è stata aggiunta alcuna dimensione alla sezione, nella tabella vengono visualizzati i dati del grafico.
+
 
 5. Per modificare gli intervalli date per la tua scorecard:
 
    ![Modificare le date](assets/changedate.png)
 
-   *Nota: è possibile modificare allo stesso modo anche gli intervalli date all’interno della vista Raggruppamento mostrata sopra.*
+   Puoi anche modificare allo stesso modo gli intervalli di date all’interno della visualizzazione Suddivisione mostrata sopra.
 
    A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **CONFRONTA CON**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **Fine** in alto a destra dello schermo. Il campo **Intervalli date** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
 6. Per lasciare un feedback su questa app:
 
-   1. Toccare l’icona dell’utente in alto a destra della schermata dell’app.
-   2. Nella schermata **Il mio account**, toccare l’opzione **Feedback**.
+   1. Toccate l&#39;icona delle impostazioni in alto a destra della schermata dell&#39;app.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Toccare per visualizzare le opzioni per lasciare un feedback.
 
-   ![Lasciare un feedback](assets/feedback.png)
-   ![Opzioni del feedback](assets/feedback_option.png)
+      ![Impostazioni, schermata](assets/settings.png)
 
+7. Per modificare le preferenze, toccate l’opzione **Preferenze** riportata sopra. Nelle preferenze, potete attivare l’accesso biometrico oppure impostare l’app per la modalità scura come illustrato di seguito:
+
+   ![Modalità Scuro](assets/darkmode.png)
 
 **Per segnalare un bug**:
 
