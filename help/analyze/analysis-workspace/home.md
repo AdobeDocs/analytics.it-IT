@@ -4,15 +4,19 @@ title: Panoramica di Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 9ea9beba2a608da66e1f942cc100ebde958a8a10
+source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 33%
+source-wordcount: '275'
+ht-degree: 32%
 
 ---
 
 
 # Panoramica di Analysis Workspace
+
+>[!IMPORTANT]
+>
+>Questa pagina è attualmente in costruzione.
 
 Analysis Workspace rimuove tutte le limitazioni tipiche di un rapporto singolo di Analytics. Offre un’area di lavoro solida e flessibile su cui realizzare analisi di progetti personalizzati. Trascina su un progetto un numero qualsiasi di tabelle di dati, visualizzazioni e componenti (dimensioni, metriche, segmenti e granularità temporali). Crea all’istante suddivisioni e segmenti, coorti per analisi e avvisi, confronta segmenti, esegue analisi di flusso e di abbandono, cura e programma i rapporti da condividere con i tuoi colleghi.
 
