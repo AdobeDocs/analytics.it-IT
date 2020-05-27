@@ -4,7 +4,10 @@ title: Geosegmentazione
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Visualizza i dati sulla posizione del visitatore. I report di geosegmentazione includono Paesi, Regioni, Città, Stati Uniti e DMA (area di marketing digitale) statunitense. I rapporti di geosegmentazione sono abilitati per tutti i clienti.
 
-Tutte le metriche disponibili altrove in Reporting e analisi vengono automaticamente incluse nei report Paesi, Regioni, Città, Stati Uniti e DMA: metriche di conversione e visita, nonché metriche calcolate. Per ulteriori informazioni, consultate questo post di [blog](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/) Adobe.
+Tutte le metriche disponibili altrove in Reporting e analisi vengono automaticamente incluse nei report Paesi, Regioni, Città, Stati Uniti e DMA: metriche di conversione e visita, nonché metriche calcolate. Per ulteriori informazioni, consultate questo post di [blog](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/) Adobe.
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
@@ -28,7 +31,7 @@ Tutte le metriche disponibili altrove in Reporting e analisi vengono automaticam
    <td colname="col2"> <p> La più grande divisione geografica. Oltre alle viste classifica e con tendenze standard disponibili nella maggior parte dei rapporti, è disponibile una vista Mappa che codifica i colori dei paesi in base al relativo contributo al traffico totale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Regioni </td> 
+   <td colname="col1"> Aree geografiche </td> 
    <td colname="col2"> <p> Area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. A destra di ciascuna regione visualizzata, il paese della regione è indicato anche tra parentesi. </p> <p>Nei dettagli della tabella, fai clic su Run a Cities Report for this Region (la lente di ingrandimento) per eseguire un report che mostra le prestazioni delle città di una regione selezionata rispetto alle altre città della regione. </p> <p>Consulta Regioni <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > di segmentazione geografica e Uso del codice postale per paese</a> per vedere quali paesi utilizzano le aree. </p> </td> 
   </tr> 
   <tr> 
