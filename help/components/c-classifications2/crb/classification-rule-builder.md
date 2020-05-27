@@ -5,7 +5,10 @@ title: Flusso di lavoro di Generatore regole di classificazione
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 2%
 
 ---
 
@@ -36,10 +39,10 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 | Passaggio 1 (prerequisito): [Configurare lo schema](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)di classificazione. | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Classificazioni traffico o classificazioni conversione> | Scegliete una variabile e definite le classificazioni da utilizzare per tale variabile. <br>Prima di poter essere utilizzate nelle regole, le variabili devono avere almeno una colonna di classificazione.<br>Una volta abilitate le classificazioni, potete utilizzare l&#39;utilità di importazione e il generatore di regole per classificare valori specifici. |
 | Passaggio 2: [Creare un set](/help/components/c-classifications2/crb/classification-rule-set.md)di regole. | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Un set di regole è un gruppo di regole di classificazione per una specifica variabile. |
 | Passaggio 3: Configurare suite di rapporti e variabili. | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Applica il set di regole alle suite di rapporti e alle variabili. |
-| Passaggio 4: [Aggiungere regole di classificazione al set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Associare una condizione a una classificazione, quindi specificare l&#39;azione da intraprendere per la regola.  Conoscere le informazioni in [Modalità di elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md)delle regole. |
+| Passaggio 4: [Aggiungete le regole di classificazione al set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Associare una condizione a una classificazione, quindi specificare l&#39;azione da intraprendere per la regola.  Conoscere le informazioni in [Modalità di elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md)delle regole. |
 | Passaggio 5: [Test di un set di regole di classificazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | È necessario verificare le regole per la convalida modificandole in modalità Bozza. In modalità Bozza non è possibile eseguire le regole.<br>Questo passaggio è importante quando si utilizzano le espressioni [](/help/components/c-classifications2/crb/classification-quickstart-rules.md)regolari. |
 | Passaggio 6: [Attiva regole](/help/components/c-classifications2/crb/classification-rule-definitions.md)valide. | [!DNL Rules Page] | Una volta che le regole sono valide, attivare il set di regole.  Se necessario, potete sovrascrivere le chiavi esistenti. Vedere [Modalità Di Elaborazione](/help/components/c-classifications2/crb/classification-quickstart-rules.md)Delle Regole. |
-| Passaggio 7 (facoltativo): [Eliminare le regole](/help/components/c-classifications2/crb/classification-rule-definitions.md)indesiderate. | [!DNL Rules Page] | Eliminare le regole indesiderate da un set.<br>Nota:  L&#39;eliminazione delle regole non comporta l&#39;eliminazione dei dati classificati caricati.  Per eliminare i dati classificati, vedere [Eliminare i dati](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) di classificazione. |
+| Passaggio 7 (facoltativo): [Eliminate le regole](/help/components/c-classifications2/crb/classification-rule-definitions.md)indesiderate. | [!DNL Rules Page] | Eliminare le regole indesiderate da un set.<br>Nota:  L&#39;eliminazione delle regole non comporta l&#39;eliminazione dei dati classificati caricati.  Per eliminare i dati classificati, vedere [Eliminare i dati](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) di classificazione. |
 
 >[!NOTE]
 >
@@ -47,6 +50,6 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 **Risorse aggiuntive**
 
-**Blog**: Per ulteriori informazioni su questa funzione, consultate Digital Marketing Blog: Classificazioni [basate su](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29)regole.
+**Blog**: Per ulteriori informazioni su questa funzione, consultate Digital Marketing Blog: [Classificazioni](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)basate su regole.
 
 **Video**: Visitate [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) per visualizzare il [!UICONTROL Classifications Overview] video.
