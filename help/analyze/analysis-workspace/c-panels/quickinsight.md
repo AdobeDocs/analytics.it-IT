@@ -1,16 +1,16 @@
 ---
-description: Quick Insights Builder è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle di dati e visualizzazioni
-title: Generatore di informazioni rapide
+description: Quick Insights è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle di dati e visualizzazioni
+title: Pannello Approfondimenti rapidi
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 
-# Generatore di informazioni rapide
+# Pannello Approfondimenti rapidi
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ Altri utili suggerimenti compariranno nel pannello, alcuni [!UICONTROL Quick Ins
 
 ## Limitazioni note
 
-Se tentate di modificare direttamente all’interno della tabella, il [!UICONTROL Quick Insights] pannello (lo strumento di compilazione) non sarà sincronizzato. Per ripristinare le [!UICONTROL Quick Insights] impostazioni precedenti, fate clic **[!UICONTROL Resync Builder]** in alto a destra nel pannello.
+Se tentate di modificare direttamente all’interno della tabella, il [!UICONTROL Quick Insights] pannello non sarà sincronizzato. Per ripristinare le [!UICONTROL Quick Insights] impostazioni precedenti, fate clic **[!UICONTROL Resync Builder]** in alto a destra nel pannello.
 
 ![](assets/qibuilder9.png)
 
