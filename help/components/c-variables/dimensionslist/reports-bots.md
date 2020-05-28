@@ -4,9 +4,9 @@ title: Bot
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 703f6e62e72cb7ab65759a004ed50e73f574c4d2
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -20,5 +20,5 @@ I bot vengono filtrati in base all&#39;agente utente o all&#39;indirizzo IP. For
 
 >[!MORELIKETHIS]
 >
->* [Regole bot](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html)
+>* [Regole bot](/help/admin/admin/bot-removal/bot-rules.md)
 
