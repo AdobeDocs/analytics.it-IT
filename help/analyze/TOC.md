@@ -1,17 +1,20 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Guida all’analisi di Analytics
+user-guide-title: Guida agli strumenti di Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
 
-# Guida all’analisi di Analytics {#analyze}
+# Guida agli strumenti di Analytics {#analyze}
 
-+ [Guida all’analisi di Analytics](home.md)
++ [Guida agli strumenti di Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Casi di utilizzo di Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
@@ -76,15 +79,16 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Mappa ad albero](analysis-workspace/visualizations/treemap.md)
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
-      + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
-      + [Generatore di informazioni rapide](analysis-workspace/c-panels/quickinsight.md)
-      + Attribution {#attribution}
+      + [Pannello Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + Pannello Attribuzione {#attribution}
          + [Panoramica su Attribution](analysis-workspace/c-panels/attribution/attribution.md)
          + [Utilizzo del pannello Attribuzione](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Domande frequenti su Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
          + [Attribuzione algoritmica](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + Confronto tra segmenti {#segment-comparison}
+      + [Pannello Approfondimenti rapidi](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -97,8 +101,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Gestione progetti programmati](analysis-workspace/curate-share/schedule-projects.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [Segmento IQ](analysis-workspace/segment-iq.md)
-   + Analista virtuale {#virtual-analyst}
-      + [Panoramica di Virtual Analytics](analysis-workspace/virtual-analyst/overview.md)
+   + Virtual Analyst {#virtual-analyst}
+      + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
       + Detección de anomalías {#anomaly-detection}
          + [Panoramica di Rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualizzare le anomalie in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -329,8 +333,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Panoramica di Labs](tech-previews/overview.md)
 + Dashboard di Adobe Analytics {#mobapp}
    + [Dashboard di Adobe Analytics - Panoramica](mobile-app/home.md)
-   + [Guida al curatore](mobile-app/curator.md)
-   + [Guida introduttiva per l&#39;utente esecutivo](mobile-app/executive.md)
+   + [Guida per curatori](mobile-app/curator.md)
+   + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
 + App web progressive {#pwa}
    + [App web progressive](pwa/pwa.md)
 + API di reportistica di Analytics {#analytics-reporting-api}
