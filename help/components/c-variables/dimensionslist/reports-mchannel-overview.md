@@ -4,7 +4,10 @@ title: Panoramica sul canale di marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +18,13 @@ Il rapporto Panoramica canale di marketing è progettato per fornire informazion
 
 ## Proprietà generali {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* Questo rapporto dipende esclusivamente dalle regole di [elaborazione](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html)del canale di marketing. La modifica di queste regole modifica il modo in cui vengono calcolati i dati in questo rapporto.
+* Questo rapporto dipende esclusivamente dalle regole di [elaborazione](/help/components/c-marketing-channels/c-rules.md)del canale di marketing. La modifica di queste regole modifica il modo in cui vengono calcolati i dati in questo rapporto.
 * L&#39;ordine delle regole di elaborazione è fondamentale per il funzionamento di Marketing Channels. Ogni hit verifica prima i criteri nella parte superiore delle regole di elaborazione, quindi filtra verso il basso.
 * Questo rapporto è composto da due suddivisioni: i canali stessi e i relativi dettagli di canale. Facendo clic sul pulsante &quot;+&quot; accanto a ciascun canale, vengono visualizzati i relativi dettagli.
 * È possibile aggiungere solo quattro metriche a ciascuna colonna. Tuttavia, il numero di colonne utilizzabili non è limitato.
 * Una piccola linea di tendenza è visibile alla fine dell’ultima colonna. Questa linea di tendenza può scorrere tra le metriche attive.
 * Oltre ai vari canali raccolti con metodi standard, è possibile utilizzare origini dati offline.
-* [È possibile utilizzare le classificazioni](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) , per rinominare e consolidare gli elementi di riga.
+* [È possibile utilizzare le classificazioni](/help/components/c-classifications2/c-classifications.md) , per rinominare e consolidare gli elementi di riga.
 * Le metriche seguenti possono essere utilizzate in questo rapporto (a seconda delle impostazioni dell&#39;organizzazione e della suite di rapporti):
 
    * **ClickThrough**: il numero di volte che la *`s.campaign`* variabile viene definita.
