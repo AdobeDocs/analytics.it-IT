@@ -2,17 +2,19 @@
 title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: 5c5e442face936ccf1ff2a3d1580e362d42e0acb
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
 
 # Attribuzione algoritmica
 
->[!NOTE] L&#39;attribuzione algoritmica è attualmente in fase di verifica limitata.
+>[!IMPORTANT]
+>
+>**[!UICONTROL Algorithmic attribution]** è attualmente in fase di test limitati. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 Il modello [di](attribution.md) attribuzione algoritmica in Analysis Workspace è diverso dagli altri modelli in quanto utilizza tecniche statistiche per allocare crediti nei valori delle dimensioni del rapporto o della tabella a forma libera. Come tutti gli altri modelli di attribuzione in Analysis Workspace, può essere utilizzato su qualsiasi dimensione o metrica e supporta segmentazione e suddivisioni illimitate e distribuisce il 100% delle conversioni alle dimensioni nella tabella (detta anche attribuzione &quot;frazionaria&quot;).
 
