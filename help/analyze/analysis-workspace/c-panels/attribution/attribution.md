@@ -1,21 +1,21 @@
 ---
-description: 'null'
-title: Panoramica del pannello Attribuzione
+description: nulle
+title: Panoramica su Attribution
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: d880ad666eb42940147a453d8c3f04cdf9c629df
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 90%
+source-wordcount: '1809'
+ht-degree: 88%
 
 ---
 
 
-# Panoramica del pannello Attribuzione
+# Panoramica su Attribution
 
->[!IMPORTANT] Il pannello Attribuzione è disponibile per tutti i clienti con Adobe Analytics Ultimate, Prime, Select o Foundation.
+>[!IMPORTANT] L’attribuzione è disponibile per tutti i clienti negli SKU Adobe Analytics Ultimate, Prime, Select e Foundation.
 
-Il pannello Attribuzione è una funzione di [Attribution IQ](../../attribution-iq.md) che consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. Tutti i modelli di attribuzione hanno due componenti:
+[IQ](../../attribution-iq.md) attribuzione è un insieme di funzioni che consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. Tutti i modelli di attribuzione hanno due componenti:
 
 * **Modello di attribuzione:** il modello descrive la distribuzione delle conversioni negli hit in un gruppo. Ad esempio, primo contatto o ultimo contatto.
 * **Intervallo di lookback dell’attribuzione:** l’intervallo di lookback descrive quali gruppi di hit vengono considerati per ogni modello. Ad esempio, visita o visitatore.
@@ -44,7 +44,7 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
-* **Finestra di lookback personalizzata:** (Nota: La finestra di lookback personalizzata è attualmente in fase di test limitati.) Consente di espandere la finestra di attribuzione oltre l&#39;intervallo di date del rapporto fino a un massimo di 90 giorni. Le finestre di lookback personalizzate vengono valutate per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, una finestra di lookback di 10 giorni valuterà tutti i punti di contatto di dimensione dal 10 al 20 febbraio nel modello di attribuzione.
+* **Finestra di lookback personalizzata:** (Nota: La finestra di lookback personalizzata è attualmente in fase di test limitati.[Ulteriori](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)informazioni) Consente di espandere la finestra di attribuzione oltre l&#39;intervallo di date del rapporto fino a un massimo di 90 giorni. Le finestre di lookback personalizzate vengono valutate per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, una finestra di lookback di 10 giorni valuterà tutti i punti di contatto di dimensione dal 10 al 20 febbraio nel modello di attribuzione.
 
 ## Esempio
 
