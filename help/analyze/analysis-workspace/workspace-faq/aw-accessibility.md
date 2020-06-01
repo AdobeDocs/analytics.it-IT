@@ -2,9 +2,9 @@
 description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '502'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ Ulteriori informazioni sul supporto dell&#39;accessibilità in [!UICONTROL Analy
 
 Per accessibilità si intendono i prodotti utilizzabili per le persone con disabilità visive, uditive, motorie e di altro tipo. Esempi di funzioni di accessibilità per i prodotti software includono il supporto per assistenti vocali, equivalenti testuali per gli elementi grafici, scelte rapide da tastiera, la modifica dei colori dello schermo ad alto contrasto e così via.
 
-[!UICONTROL Analysis Workspace] fornisce alcuni strumenti che consentono l’accesso all’uso e strumenti per la creazione di contenuti accessibili.
+[!UICONTROL Analysis Workspace] fornisce alcuni strumenti che ne rendono accessibile l’utilizzo, tra cui:
 
 ## Navigare [!UICONTROL Workspace] utilizzando la tastiera
 
@@ -24,7 +24,7 @@ Navigazione in [!UICONTROL Analysis Workspace] lavori in alto > in basso e a sin
 
 * La `F6` chiave abilita collegamenti con punti di riferimento
 * La `Tab` chiave si sposta tra i singoli elementi.
-* Gli indicatori di messa a fuoco vengono applicati in modo che gli utenti della tastiera con vista abbiano un&#39;indicazione chiara dell&#39;elemento dell&#39;interfaccia utente attualmente attivo. L&#39;indicatore è un bordo blu intorno all&#39;elemento selezionato.
+* Gli indicatori di messa a fuoco vengono applicati in modo che gli utenti della tastiera vedente abbiano un&#39;indicazione chiara dell&#39;elemento dell&#39;interfaccia attualmente attivo. L&#39;indicatore è un bordo blu intorno all&#39;elemento selezionato.
 
    ![](assets/focus-indicator.png)
 
@@ -34,7 +34,7 @@ Navigazione in [!UICONTROL Analysis Workspace] lavori in alto > in basso e a sin
 
 1. Passa a un componente nella barra a sinistra.
 1. Premere `Enter` per selezionare.
-1. Utilizzate i tasti freccia per passare all&#39;area in cui si desidera rilasciare il componente.
+1. Utilizzare i tasti freccia per passare all&#39;area in cui si desidera rilasciare il componente.
 1. Premere `Enter` per posizionare il componente.
 
 ### Scelte rapide da tastiera (tasti di scelta rapida)
@@ -60,7 +60,7 @@ Navigazione in [!UICONTROL Analysis Workspace] lavori in alto > in basso e a sin
 | Ctrl+Maiusc+D | Nuovo intervallo date |
 | Ctrl + Maiusc + E | Nuovo segmento |
 | Ctrl + Z | Annulla |
-| Maiusc (nella zona di rilascio del segmento del pannello) | Create un filtro [a](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)discesa. |
+| Maiusc (nella zona di rilascio del segmento del pannello) | Creare un filtro a [discesa](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### Democratizzazione
 
