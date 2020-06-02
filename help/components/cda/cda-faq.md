@@ -2,14 +2,15 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 0%
 
 ---
 
 
 # Domande frequenti
-
->[!NOTE] La documentazione di Analytics su più dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
 
 **Come posso usare CDA per vedere come le persone si spostano da un tipo di dispositivo all&#39;altro?**
 
