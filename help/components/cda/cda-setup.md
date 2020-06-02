@@ -2,14 +2,15 @@
 title: Configurazione di Analytics tra dispositivi
 description: Scopri come configurare Analytics cross-Device dopo aver soddisfatto i prerequisiti.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 1%
 
 ---
 
 
 # Configurazione di Analytics tra dispositivi
-
->[!NOTE] La documentazione di Analytics su più dispositivi è soggetta a modifiche man mano che la funzione viene ulteriormente sviluppata. Controllate regolarmente la disponibilità di aggiornamenti.
 
 Una volta soddisfatti tutti i prerequisiti, attenetevi alla seguente procedura per abilitare l&#39;analisi tra dispositivi. Per seguire questa procedura, devi appartenere a un gruppo Amministratore profilo di prodotto o avere privilegi di amministratore in Adobe Analytics.
 
@@ -26,7 +27,7 @@ Gli amministratori con accesso per creare suite di rapporti virtuali possono cre
 1. Andate a [experience.adobe.com](https://experiencecloud.adobe.com) ed effettuate l&#39;accesso utilizzando le credenziali AdobeID.
 2. Fate clic sull&#39;icona a 9 griglie nella parte superiore, quindi fate clic su Analytics.
 3. Passa il cursore del mouse sui componenti in alto, quindi fai clic su Suite di rapporti virtuale.
-4. Fate clic su Aggiungi.
+4. Fai clic su Aggiungi.
 5. Immettete un nome per la suite di rapporti virtuali e accertatevi che sia selezionata la suite di rapporti abilitata per CDA.
 6. (Facoltativo) Applicare un segmento alla suite di rapporti virtuali. Ad esempio, puoi applicare un segmento che limita la suite di rapporti virtuali alle date successive all&#39;attivazione di CDA e all&#39;inizio della cucitura. Questo segmento consente agli utenti di visualizzare solo gli intervalli di date cuciti all&#39;interno della VRS.
 7. Fate clic sulla casella di controllo &quot;Abilita elaborazione tempo rapporto&quot; per abilitare diverse opzioni, tra cui Analisi multi-dispositivo.
