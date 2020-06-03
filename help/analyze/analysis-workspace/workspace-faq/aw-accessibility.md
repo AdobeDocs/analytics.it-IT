@@ -2,9 +2,9 @@
 description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '534'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Navigazione in [!UICONTROL Analysis Workspace] lavori in alto > in basso e a sin
 * La `Tab` chiave si sposta tra i singoli elementi.
 * Gli indicatori di messa a fuoco vengono applicati in modo che gli utenti della tastiera vedente abbiano un&#39;indicazione chiara dell&#39;elemento dell&#39;interfaccia attualmente attivo. L&#39;indicatore è un bordo blu intorno all&#39;elemento selezionato.
 
-   ![](assets/focus-indicator.png)
+   ![Indicatore di messa a fuoco](assets/focus-indicator.png)
 
 ### Navigazione tramite tastiera per interazioni con trascinamento
 
@@ -75,11 +75,11 @@ Navigazione in [!UICONTROL Analysis Workspace] lavori in alto > in basso e a sin
 
 ## Supporto per assistenti vocali e lenti di ingrandimento dello schermo
 
-L&#39;assistente vocale legge il testo visualizzato sullo schermo del computer. Vengono inoltre lette informazioni non testuali, come etichette di pulsanti o descrizioni di immagini nell&#39;applicazione, fornite nei tag o negli attributi di accessibilità.
+Un assistente vocale legge il testo visualizzato sullo schermo del computer. Vengono inoltre lette informazioni non testuali, come etichette di pulsanti o descrizioni di immagini nell&#39;applicazione, fornite nei tag o negli attributi di accessibilità.
 
 ## Palette colori e contrasto
 
-[!UICONTROL Analysis Workspace] si impegna per la conformità al contrasto del colore WCAG AA.
+[!UICONTROL Analysis Workspace] si impegna per la conformità WCAG 2.1 AA, compresi i requisiti per il contrasto del colore.
 
 Inoltre, gli utenti possono impostare la propria tavolozza di colori preferita per un progetto in **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Progetto (](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)Progetto).
 
@@ -89,8 +89,8 @@ Durante la creazione di un componente, i campi obbligatori vengono convalidati a
 
 Quando un componente viene convalidato completamente, premendo `Save` il tasto viene chiuso il generatore.
 
-![](assets/error-validation.png)
+![Convalida errore](assets/error-validation.png)
 
 ## Supporto delle funzioni di accessibilità del sistema operativo
 
-Analysis Workspace supporta le funzioni integrate di accessibilità di MS Windows e macOS come modalità ad alto contrasto e assistenti vocali (Assistente vocale per MS Windows e VoiceOver per macOS).
+Analysis Workspace supporta funzioni integrate di accessibilità di MS Windows e macOS come modalità ad alto contrasto, tasti fissi e tasti lenti/tasti filtro. Fornisce inoltre informazioni sull&#39;interfaccia utente del sistema operativo per consentire l&#39;interazione con le tecnologie di assistenza, compresi gli assistenti vocali come VoiceOver per macOS e NVDA su Windows.
