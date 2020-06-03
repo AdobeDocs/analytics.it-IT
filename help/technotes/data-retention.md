@@ -1,16 +1,18 @@
 ---
 title: Criteri di conservazione dei dati
 description: I criteri di conservazione dei dati determinano per quanto tempo Adobe memorizza i dati.
-uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 14%
 
 ---
 
 
 # Criteri di conservazione dei dati
 
-I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specifico. Il momento in cui Adobe mantiene questi dati varia da contratto a contratto ed è delineato nei criteri di conservazione dei dati dell'organizzazione. Questo criterio si applica ai dati stessi, il che significa che influisce su tutte le funzionalità di reporting di Analytics (Analysis Workspace, API di reporting, ecc.).
+I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specifico. Il momento in cui Adobe mantiene questi dati varia da contratto a contratto ed è delineato nei criteri di conservazione dei dati dell&#39;organizzazione. Questo criterio si applica ai dati stessi, il che significa che influisce su tutte le funzionalità di reporting di Analytics (Analysis Workspace, API di reporting, ecc.).
 
 **Il criterio predefinito per la conservazione dei dati per Adobe Analytics è 25 mesi.** I criteri di conservazione della tua organizzazione possono essere diversi a seconda del contratto.
 
@@ -21,7 +23,7 @@ I dati conservati si basano sulla data corrente e sulla data/ora dei dati storic
 Per ridurre o estendere il periodo predefinito di conservazione dei dati, contatta il responsabile commerciale aziendale.
 
 * Non è previsto alcun costo per la riduzione del periodo predefinito di conservazione dei dati.
-* L'estensione della conservazione dei dati oltre il periodo predefinito di conservazione di 25 mesi richiede l'acquisto di estensioni, disponibili in incrementi di un anno ciascuna. È possibile acquistare fino a otto estensioni per un totale di 10 anni e 1 mese (2 anni e 1 mese per il mantenimento del valore predefinito, più 8 anni acquistati).
+* L&#39;estensione della conservazione dei dati oltre il periodo predefinito di conservazione di 25 mesi richiede l&#39;acquisto di estensioni, disponibili in incrementi di un anno l&#39;una. È possibile acquistare fino a otto estensioni per un totale di 10 anni e 1 mese (2 anni e 1 mese per il mantenimento del valore predefinito, più 8 anni acquistati).
 
 ## Conservazione dei dati e Privacy dei dati
 
@@ -35,7 +37,7 @@ Una volta superati i criteri di conservazione dei dati, Adobe mantiene il diritt
 
 **Come si decide il periodo di conservazione dei dati della propria organizzazione?**
 
-La tua azienda, in qualità di titolare del trattamento dei dati, può identificare le parti interessate (come i team di marketing, analisi e privacy) all'interno dell'organizzazione responsabili per le decisioni sulla conservazione dei dati. La tua organizzazione è nella posizione migliore per conoscere il periodo appropriato per il tempo in cui Adobe Analytics conserva i dati.
+La tua azienda, in qualità di titolare del trattamento dei dati, può identificare le parti interessate (come i team di marketing, analisi e privacy) all&#39;interno dell&#39;organizzazione responsabili per le decisioni sulla conservazione dei dati. La tua organizzazione è nella posizione migliore per conoscere il periodo appropriato per il tempo in cui Adobe Analytics conserva i dati.
 
 **Come si calcola la finestra di conservazione dei dati?**
 
@@ -47,4 +49,4 @@ Sì. Adobe può fornire un dump storico dei dati grezzi a livello di hit. Per ul
 
 **Quando vengono eliminati i dati da Adobe?**
 
-Contatta l'account manager della tua organizzazione per sapere quando è prevista l'eliminazione dei tuoi dati. In genere i dati vengono eliminati su base mensile continuativa.
+Contatta l&#39;account manager della tua organizzazione per sapere quando è prevista l&#39;eliminazione dei tuoi dati. In genere i dati vengono eliminati su base mensile continuativa.
