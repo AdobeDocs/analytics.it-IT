@@ -2,9 +2,9 @@
 description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '535'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Ulteriori informazioni sul supporto dell&#39;accessibilità in [!UICONTROL Analysis Workspace], lo strumento di analisi principale per Adobe Analytics.
 
-Per accessibilità si intendono i prodotti utilizzabili per le persone con disabilità visive, uditive, motorie e di altro tipo. Esempi di funzioni di accessibilità per i prodotti software includono il supporto per assistenti vocali, equivalenti testuali per gli elementi grafici, scelte rapide da tastiera, la modifica dei colori dello schermo ad alto contrasto e così via.
+Per accessibilità si intendono i prodotti utilizzabili per persone con disabilità visive, uditive, cognitive, motorie e di altro tipo. Esempi di funzioni di accessibilità per i prodotti software includono il supporto per assistenti vocali, equivalenti testuali per gli elementi grafici, scelte rapide da tastiera, la modifica dei colori dello schermo ad alto contrasto e così via.
 
 [!UICONTROL Analysis Workspace] fornisce alcuni strumenti che ne rendono accessibile l’utilizzo, tra cui:
 
