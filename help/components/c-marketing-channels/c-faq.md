@@ -1,13 +1,16 @@
 ---
 description: Leggi le best practice ed esempi di come compilare varie regole che puoi impostare per i tuoi canali di marketing.
-title: Domande frequenti e esempi su Marketing Channels
+title: Domande frequenti su Marketing Channels
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 0%
 
 ---
 
 
-# Domande frequenti e esempi su Marketing Channels
+# Domande frequenti su Marketing Channels
 
 Consultate [Creare regole](/help/components/c-marketing-channels/c-rules.md) di elaborazione del canale di marketing per le definizioni dei campi visualizzati sulla [!UICONTROL Marketing Channel Processing Rules] pagina.
 
@@ -54,7 +57,15 @@ Accertatevi di disporre di un canale per queste tre possibilità. Ad esempio, cr
 
 Infine, create un canale *Altro* che acquisisca gli hit rimanenti, come descritto in [Nessun canale identificato](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
-## Nessun canale identificato {#no-channel-identified}
+## Relazione tra il primo e l&#39;ultimo tocco
+
+Per comprendere l’interazione tra le precedenti dimensioni del primo e dell’ultimo tocco e per confermare che le impostazioni locali funzionano come previsto, potete eseguire il pulling di un rapporto sui canali di primo tocco, relativo in parte a un rapporto sull’ultimo canale di tocco, con l’aggiunta della metrica di successo chiave (vedere l’esempio di seguito). L’esempio illustra l’interazione tra il primo e l’ultimo canale di tocco.
+
+![](assets/int-channel3.png)
+
+L&#39;intersezione in cui prima è uguale all&#39;ultimo tocco è la diagonale della tabella. Sia l&#39;aggiornamento diretto che l&#39;aggiornamento della sessione ottengono il credito dell&#39;ultimo tocco solo se questi erano anche il primo canale touch, perché non possono ottenere credito da altri canali persistenti (righe evidenziate).
+
+## Motivi per nessun canale identificato {#no-channel-identified}
 
 Se le regole non acquisiscono dati o se le regole non sono configurate correttamente, il rapporto visualizza i dati nella [!UICONTROL No Channel Identified] riga del rapporto. Potete creare un set di regole denominato *Altro*, ad esempio, al termine dell&#39;ordine di elaborazione, che identifichi anche il traffico interno.
 
@@ -64,65 +75,31 @@ Questo tipo di regola funge da clausola catch-all per garantire che il traffico 
 
 >[!NOTE] Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell&#39;altro canale perché non c&#39;è un dominio di riferimento.
 
-## Ricerca a pagamento {#paid-search}
+## Motivi per interni (aggiornamento sessione) {#internal}
 
-Una ricerca a pagamento è una parola o una frase che viene pagata con un motore di ricerca per essere inserita nei risultati della ricerca. Per rispettare le regole di rilevamento delle ricerche pagate, il canale di marketing utilizza le impostazioni configurate sulla [!UICONTROL Paid Search Detection] pagina. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). L&#39;URL di destinazione corrisponde alla regola di rilevamento della ricerca a pagamento esistente per quel motore di ricerca.
+L&#39;aggiornamento dell&#39;ultima sessione può avvenire solo se si è trattato anche del primo tocco. Consulta &quot;Relazione tra il primo e l&#39;ultimo tocco&quot; sopra. Gli scenari seguenti illustrano come l&#39;aggiornamento della sessione potrebbe essere un canale di primo tocco.
 
-Per la regola del canale di marketing, le [!UICONTROL Paid Search] impostazioni sono le seguenti:
+**Scenario 1: Timeout sessione**
 
-![](assets/example_paid_search.png)
+Un visitatore accede al sito Web e quindi lascia la scheda aperta nel browser per utilizzarla in un secondo momento. Il periodo di coinvolgimento del visitatore scade (o elimina volontariamente i cookie) e utilizza la scheda aperta per visitare nuovamente il sito Web. Poiché l’URL di provenienza è un dominio interno, la visita verrà classificata come Aggiornamento sessione.
 
-Per ulteriori informazioni, consulta [Rilevamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) ricerca a pagamento in Amministratore.
+**Scenario 2: Non tutte le pagine del sito dispongono di tag**
 
-## Ricerca naturale {#natural-search}
+Un visitatore arriva sulla pagina A senza tag, quindi passa alla pagina B con tag. La pagina A viene visualizzata come referente interno e la visita viene classificata come Aggiornamento sessione.
 
-Una ricerca naturale si verifica quando i visitatori trovano il sito Web tramite una ricerca Web, dove il motore di ricerca ha classificare il sito senza pagare per l&#39;elenco. Potete controllare l’URL di destinazione che il motore di ricerca utilizza per collegarsi al sito. Questo URL consente ad Analytics di identificare se una ricerca è naturale.
+**Scenario 3: Reindirizza**
 
-In Analytics non è disponibile il rilevamento della ricerca naturale. Dopo aver impostato il rilevamento della ricerca a pagamento, il sistema sa che se un referente di ricerca non era un referente di ricerca a pagamento, deve essere un referente di ricerca naturale. Per una ricerca naturale, l&#39;URL di destinazione non corrisponde alla regola di rilevamento della ricerca a pagamento esistente per quel motore di ricerca.
+Se un reindirizzamento non è impostato per trasmettere i dati del referente alla nuova pagina di destinazione, i dati del referente di immissione vera andranno persi e ora la pagina di reindirizzamento (probabilmente una pagina interna) verrà visualizzata come dominio di riferimento. La visita verrà classificata come Aggiornamento sessione.
 
-Per la regola del canale di marketing, le impostazioni di Ricerca naturale sono le seguenti:
+**Scenario 4: Traffico tra domini**
 
-![](assets/example_natural_search.png)
+Un visitatore passa da un dominio che viene attivato alla Suite A a un altro dominio che viene attivato alla Suite B. Se nella Suite B i filtri URL interni includono il primo dominio, la visita nella Suite B verrà registrata come Interno, poiché Marketing Channels la vede come una nuova visita nella seconda suite. La visita verrà classificata come Aggiornamento sessione.
 
-Per ulteriori informazioni, consulta Rilevamento [ricerca a](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) pagamento nell’amministratore.
+**Scenario 5: Lunghi tempi di caricamento delle pagine**
 
-## Affiliati {#afilliates}
+Un visitatore arriva sulla pagina A, che pesa sul contenuto, e il codice Adobe Analytics si trova nella parte inferiore della pagina. Prima che tutto il contenuto (inclusa la richiesta di immagini di Adobe Analytics) possa essere caricato, il visitatore fa clic sulla pagina B. La pagina B avvia la richiesta di immagine di Adobe Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in Adobe Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
 
-Una regola di affiliazione identifica i visitatori che provengono da un set specificato di domini di provenienza. Nella regola, puoi elencare i domini delle filiali che desideri monitorare, come segue:
+**Scenario 6: Cancellazione dei cookie nel mid-site**
 
-![](assets/example_affiliates.png)
-
-## Social Network {#social-networks}
-
-Questa regola identifica i visitatori che provengono da un social network, come Facebook*. Le impostazioni possono essere le seguenti:
-
-![](assets/example_social.png)
-
-## Visualizzazione {#display}
-
-Questa regola identifica i visitatori provenienti da annunci pubblicitari per banner. È identificato da un parametro di stringa di query nell&#39;URL di destinazione, in questo caso *`Ad_01`*.
-
-![](assets/example_display.png)
-
-## Interno {#internal}
-
-Questa regola identifica i visitatori provenienti da un referente che corrisponde ai filtri URL interni per la suite di rapporti.
-
-![](assets/example_internal.png)
-
-## E-mail {#email}
-
-Per impostare questa regola, dovete fornire il parametro della stringa di query per la campagna e-mail. In questo esempio, il parametro è *`eml`*:
-
-![](assets/example_email.png)
-
-Se la regola contiene codici di tracciamento, immettete un valore per riga, come illustrato di seguito:
-
-![](assets/tracking_code.png)
-
-## Direct {#direct}
-
-Questa regola identifica i visitatori che non dispongono di un dominio di riferimento. Questa regola include i visitatori che arrivano direttamente al sito, ad esempio da un collegamento Preferiti o incollando un collegamento nel browser.
-
-![](assets/example_direct.png)
+Un visitatore accede al sito e a metà sessione cancella i cookie. Entrambi i canali First e Last-touch venivano reimpostati e la visita veniva classificata come Aggiornamento sessione (perché il referente era interno).
 
