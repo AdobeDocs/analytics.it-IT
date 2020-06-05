@@ -2,23 +2,26 @@
 title: Regole di elaborazione per i canali di marketing
 description: Le regole di elaborazione del canale di marketing determinano se un hit di visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit che un visitatore fa sul tuo sito. Quando una regola non soddisfa i criteri per un canale, o se le regole non sono configurate correttamente, il sistema assegna l'hit a Nessun canale identificato.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+workflow-type: tm+mt
+source-wordcount: '2004'
+ht-degree: 2%
 
 ---
 
 
 # Regole di elaborazione per i canali di marketing
 
-Le regole di elaborazione del canale di marketing determinano se un hit di visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit che un visitatore fa sul tuo sito. Quando una regola non soddisfa i criteri per un canale, o se le regole non sono configurate correttamente, il sistema assegna l&#39;hit a Nessun canale identificato.
+Le regole di elaborazione del canale di marketing determinano se un hit visitatore soddisfa i criteri assegnati a un canale elaborando ogni hit che un visitatore compie sul sito. Le regole vengono elaborate nell&#39;ordine specificato e quando viene soddisfatta una regola, il sistema interrompe l&#39;elaborazione delle regole rimanenti.
 
-Di seguito sono riportate importanti linee guida per la creazione di regole:
+![](assets/buckets_2.png)
 
-* Ordinare le regole nell&#39;ordine desiderato.
-* Alla fine dell’elenco, includete una regola catch-all, ad esempio Altro. Questa regola identifica il traffico esterno ma non il traffico interno.
-
-   Vedere [Nessun canale identificato.](/help/components/c-marketing-channels/c-faq.md)
-
->[!NOTE] Sebbene queste regole non influenzino i rapporti al di fuori dei canali di marketing, influiscono sulla raccolta dei dati dei canali di marketing. I dati raccolti con queste regole sono permanenti al 100% e le regole modificate dopo la raccolta dei dati non sono retroattive. È vivamente consigliato rivedere e considerare tutte le circostanze prima di salvare [!UICONTROL Marketing Channel Processing Rules] per attenuare la raccolta dei dati in canali non corretti.
+Note aggiuntive sull&#39;elaborazione:
+* I dati raccolti con queste regole sono permanenti al 100% e le regole modificate dopo la raccolta dei dati non sono retroattive. È vivamente consigliato rivedere e considerare tutte le circostanze prima di salvare [!UICONTROL Marketing Channel Processing Rules] per attenuare la raccolta dei dati in canali non corretti.
+* Il rapporto può elaborare fino a 25 canali alla volta.
+* Le regole possono accedere alle variabili che VISTA ha impostato, ma non ai dati che VISTA ha eliminato.
+* Due canali di marketing non ricevono mai crediti per lo stesso evento (ad esempio acquisti o clic). In questo modo, i canali di marketing sono diversi dalle eVar (due eVar potrebbero ricevere credito per lo stesso evento).
+* Se esiste una copertura delle regole, è possibile che [nessun canale identificato.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Prerequisiti
 
@@ -32,52 +35,46 @@ Crea regole di elaborazione del canale di marketing, che determinano se un hit d
 Questa procedura utilizza una regola e-mail come esempio. L&#39;esempio presuppone che sia stato aggiunto un canale e-mail all&#39;elenco dei canali nella pagina Marketing Channel Manager.
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Seleziona una suite di rapporti.
+2. Seleziona una suite di rapporti.
 
    Se nella suite di rapporti non sono definiti canali, viene visualizzata la [!UICONTROL Marketing Channels: Auto Setup] pagina.
 
    Consultate [Eseguire la configurazione](/help/components/c-marketing-channels/c-getting-started-mchannel.md)automatica.
 
-1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+3. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
 
    ![Risultato passaggio](assets/marketing_channel_rules.png)
 
-1. Dal **[!UICONTROL Add New Rule Set]** menu, selezionare **[!UICONTROL Email]**.
+4. Dal **[!UICONTROL Add New Rule Set]** menu, selezionare **[!UICONTROL Email]**.
 
-   Qui non si seleziona il canale, ma un modello che completa la regola con alcuni dei parametri necessari.
+   Qui non si seleziona il canale, ma un modello che completa la regola con alcuni dei parametri necessari. Potete modificare il modello in base alle esigenze.
 
    ![Risultato passaggio](assets/example_email.png)
 
-   Utilizzare la logica booleana (istruzioni if / then) per configurare una regola. Ad esempio, in una regola del canale di posta elettronica, fornire le impostazioni o le informazioni enfatizzate nella seguente istruzione di regola:
+5. Per continuare a creare le regole, fare clic su **[!UICONTROL Add Rule]**.
+6. Per assegnare priorità alle regole, trascinatele fino alla posizione desiderata.
+7. Fai clic su **[!UICONTROL Save.]**
 
-   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
+Continua verso il basso in questa pagina per visualizzare le raccomandazioni per l&#39;ordine delle regole di canale così come altri esempi di definizione.
 
-   `"Then identify the channel as **[!UICONTROL Email]**...`
+### Imposta il valore del canale di marketing
 
-   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
+**[!UICONTROL Add Rule]**Impostare il valore del canale]**definisce la dimensione del dettaglio del canale di marketing disponibile per quel canale. Questo consente di suddividere le dimensioni dei canali di marketing e visualizzare informazioni più dettagliate sul canale.
 
-   In questo esempio *`<value>`* è il parametro della stringa di query utilizzato per la campagna e-mail, ad esempio *`eml`*.
-1. Per continuare a creare le regole, fare clic su **[!UICONTROL Add Rule]**.
-1. Per assegnare priorità alle regole, trascinatele fino alla posizione desiderata.
-1. Fai clic su **[!UICONTROL Save.]**
+Si consiglia di impostare il valore del canale sugli stessi criteri utilizzati per definire il canale stesso. Ad esempio, se per definire il canale viene utilizzato il parametro della stringa di query, impostare anche il parametro della stringa di query come valore del canale.
 
->[!MORELIKETHIS]
->
->* [Domande frequenti ed esempi](/help/components/c-marketing-channels/c-faq.md)
+### Criteri regola
 
-
-## Criteri regola canale di marketing
-
-Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete selezionare nella pagina Regole di elaborazione del canale di marketing.
+Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete utilizzare per definire le regole di elaborazione del canale di marketing.
 
 | Termine | Definizione |
 |--- |--- |
-| Tutto | Attiva questo canale solo quando tutte le regole della regola numerata sono vere. |
-| Qualsiasi | Attiva questo canale quando una delle regole del set di regole è vera. Questa opzione è disponibile solo se nella regola numerata è presente più di una regola. |
+| Tutte | Attiva questo canale solo quando tutte le regole della regola numerata sono vere. |
+| Any | Attiva questo canale quando una delle regole del set di regole è vera. Questa opzione è disponibile solo se nella regola numerata è presente più di una regola. |
 | ID AMO | Il codice di tracciamento principale utilizzato dalle integrazioni Advertising Cloud e Advertising Analytics. Quando una di queste integrazioni è abilitata, il prefisso del codice di tracciamento può essere utilizzato per identificare canali specifici di Advertising Cloud. L&#39;utilizzo di &quot;AMO ID&quot; inizia con &quot;AL&quot; per la ricerca, &quot;AC&quot; per la visualizzazione o &quot;AO&quot; per Social. Quando l&#39;ID AMO viene utilizzato nei canali di marketing, le metriche click/cost/impression possono essere attribuite al canale corretto (se non configurate, queste metriche andranno a Direct o Nessuno). |
 | ID AMO ED | Il codice di tracciamento secondario utilizzato da Advertising Cloud. Lo scopo principale di questo codice di tracciamento è quello di fungere da chiave per l&#39;invio di dati ad Ad Cloud. Tuttavia, può essere utilizzato anche per identificare la visualizzazione ClickThroughs rispetto a visualizzazione ViewThroughs se si desidera visualizzarli come due canali di marketing separati. A tale scopo, è possibile impostare la logica del canale di marketing per le estremità &quot;AMO EF ID&quot; con &quot;:d&quot; per le estremità Display ClickThrough o &quot;AMO EF ID&quot; con &quot;:i&quot; per Display ViewThrough. Se non desideri dividere la visualizzazione in due canali, utilizza invece la dimensione ID AMO. |
 | Variabili di conversione | È costituito da eVar abilitate per questa suite di rapporti e si applica solo quando queste variabili sono impostate tramite il codice Adobe sulla pagina.  Consulta la Guida all’implementazione. |
-| Exists | Sono disponibili diverse selezioni, tra cui:<ul><li>**Non Esiste**: Specifica che l&#39;attributo hit non esiste nella richiesta. Ad esempio, in un dominio di riferimento, se l&#39;utente digita un URL o fa clic su un segnalibro, l&#39;attributo di dominio di riferimento non esiste.</li><li>**Vuoto**: Specifica che esiste un attributo hit, in genere un parametro eVar o una stringa di query, ma non è associato alcun valore all&#39;attributo hit.</li><li>**Non Contiene**: Consente di specificare, ad esempio, che un dominio di riferimento non contiene un valore specifico (anziché utilizzare la selezione &quot;Contiene&quot;).</li></ul> |
+| Esiste | Sono disponibili diverse selezioni, tra cui:<ul><li>**Non Esiste**: Specifica che l&#39;attributo hit non esiste nella richiesta. Ad esempio, in un dominio di riferimento, se l&#39;utente digita un URL o fa clic su un segnalibro, l&#39;attributo di dominio di riferimento non esiste.</li><li>**Vuoto**: Specifica che esiste un attributo hit, in genere un parametro eVar o una stringa di query, ma non è associato alcun valore all&#39;attributo hit.</li><li>**Non Contiene**: Consente di specificare, ad esempio, che un dominio di riferimento non contiene un valore specifico (anziché utilizzare la selezione &quot;Contiene&quot;).</li></ul> |
 | Identificare il canale come | Associa la regola a un canale di marketing aggiunto alla pagina Marketing Channel Manager.  Consultate Aggiunta di canali di marketing. |
 | Corrisponde alle regole di rilevamento ricerche pagate | Ricerca a pagamento rilevata da Adobe. Le ricerche pagate sono quando le aziende pagano una tariffa per il motore di ricerca per elencare il loro sito. Le ricerche pagate vengono in genere visualizzate nella parte superiore o destra dei risultati della ricerca. |
 | Corrisponde alle regole di rilevamento ricerche naturali | Una ricerca non a pagamento rilevata dai report Adobe. |
@@ -85,7 +82,7 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
 | Il Referente Non Corrisponde Ai Filtri URL Interni | L&#39;URL di provenienza non corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. Potete utilizzare questa impostazione con URL pagina ed Esiste per impostare una regola catch-all, in modo che nessuna visita venga effettuata nella sezione Nessun canale identificato del rapporto. |
 | Ignora gli hit corrispondenti ai filtri URL interni | (Per i referenti) Tiene traccia solo degli hit provenienti da siti esterni. In genere, lasciate questa impostazione attivata a meno che non desideriate includere il traffico interno. |
 | Prima pagina della visita | La prima pagina di una visita rilevata dai report Adobe. |
-| Page | Il nome della pagina Web del sito a cui è assegnato un tag mediante il Web beacon di Adobe. Questo valore è equivalente a s.pageName. Gli esempi includono `Home Page` e `About Us`. |
+| Pagina | Il nome della pagina Web del sito a cui è assegnato un tag mediante il Web beacon di Adobe. Questo valore è equivalente a s.pageName. Gli esempi includono `Home Page` e `About Us`. |
 | Dominio pagina | Il dominio della pagina in cui il visitatore arriva, ad esempio `products.example.co.uk`. |
 | Dominio pagina e percorso | Il dominio e il percorso, ad esempio `products.example.co.uk/mens/pants/overview.html` . |
 | Dominio principale pagina (TLD+1) | Il dominio principale della pagina in cui il visitatore arriva, ad esempio example.co.uk . |
@@ -101,67 +98,79 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
 | Motore di ricerca + Parole chiave | Una concatenazione della parola chiave di ricerca e del motore di ricerca per identificare in modo univoco il motore di ricerca. Ad esempio, se cercate la parola computer, il motore di ricerca e la parola chiave sono identificati come segue: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:**n = naturale; p = paid |
 | Imposta il valore del canale su | Oltre a sapere quale canale di marketing porta un visitatore sul sito, puoi sapere quale banner pubblicitario, parola chiave di ricerca o campagna e-mail all&#39;interno del canale riceve credito per l&#39;attività del sito di un visitatore. Questo ID è un valore di canale memorizzato insieme al canale. Spesso questo valore è un ID campagna incorporato nella pagina di destinazione o nell’URL di provenienza; in altri casi è la combinazione di motori di ricerca e parole chiave di ricerca, o l&#39;URL di provenienza a identificare il visitatore in modo più corretto da un determinato canale. |
 
-## Canale interno (aggiornamento sessione)
+## Ordine e definizioni delle regole del canale di marketing {#channel-rules}
 
-Il canale interno (spesso rinominato come Aggiornamento sessione) consiste in visite al sito in cui l’URL di provenienza corrisponde alla configurazione dei filtri URL interni nell’Admin Console, il che significa che il visitatore è venuto dall’interno del sito per avviare la visita.
+Le regole del canale vengono elaborate nell&#39;ordine specificato. Un approccio consigliato all&#39;ordine dei canali è quello di mettere i canali pagati o gestiti al primo posto (ad esempio, ricerca a pagamento, ricerca naturale, visualizzazione, e-mail) in modo che ricevano credito, seguito da canali organici (ad esempio, diretti, interni, domini di riferimento).
+
+Di seguito è riportato l&#39;ordine consigliato per le regole di canale e per le definizioni di esempio:
+
+### Ricerca pagata {#paid-search}
+
+La ricerca a pagamento è una parola o una frase a cui si paga un motore di ricerca per la posizione nei risultati della ricerca. Questo canale viene generalmente definito in base al parametro della stringa di query (vedere Esempio di canale di visualizzazione) o alle regole di rilevamento della ricerca a pagamento. La decisione dipende dai dettagli del canale di marketing che desideri registrare.
+
+#### Rilevamento di ricerca a pagamento
+
+Per rispettare le regole di rilevamento delle ricerche pagate, il canale di marketing utilizza le impostazioni configurate sulla [!UICONTROL Paid Search Detection] pagina. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). L&#39;URL di destinazione corrisponde alla regola di rilevamento della ricerca a pagamento esistente per quel motore di ricerca.
+
+Per la regola del canale di marketing, le [!UICONTROL Paid Search] impostazioni sono le seguenti:
+
+![](assets/example_paid_search.png)
+
+Per ulteriori informazioni, consulta [Rilevamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) ricerca a pagamento in Amministratore.
+
+### Ricerca naturale {#natural-search}
+
+Una ricerca naturale si verifica quando i visitatori trovano il sito Web tramite una ricerca Web, dove il motore di ricerca ha classificare il sito senza pagare per l&#39;elenco.
+
+In Analytics non è disponibile il rilevamento della ricerca naturale. Dopo aver impostato il rilevamento della ricerca a pagamento, il sistema sa che se un referente di ricerca non era un referente di ricerca a pagamento, deve essere un referente di ricerca naturale. Per ulteriori informazioni, consulta Rilevamento [ricerca a](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) pagamento nell’amministratore.
+
+Per la regola del canale di marketing, le impostazioni di Ricerca naturale sono le seguenti:
+
+![](assets/example_natural_search.png)
+
+### Visualizzazione {#display}
+
+Questa regola identifica i visitatori provenienti da annunci pubblicitari per banner. È identificato da un parametro di stringa di query nell&#39;URL di destinazione, in questo caso *`Ad_01`*.
+
+![](assets/example_display.png)
+
+### E-mail {#email}
+
+Questa regola identifica i visitatori provenienti da campagne e-mail. È identificato da un parametro della stringa di query nell’URL di destinazione, in questo caso *`eml`*:
+
+![](assets/example_email.png)
+
+### Affiliati {#afilliates}
+
+Questa regola identifica i visitatori che provengono da uno specifico set di domini di provenienza. Nella regola, puoi elencare i domini delle filiali che desideri monitorare, come segue:
+
+![](assets/example_affiliates.png)
+
+### Altre campagne {#other-campaigns}
+
+Una best practice consiste nell&#39;includere un canale &quot;Altre campagne&quot; che segua tutte le regole sui canali a pagamento. Questo canale funge da elemento catch-all per il traffico a pagamento non categorizzato.
+
+### Social Network {#social-networks}
+
+Questa regola identifica i visitatori che provengono da un social network, come Facebook*. Il canale viene spesso rinominato come Organic Social. Le impostazioni possono essere le seguenti:
+
+![](assets/example_social.png)
+
+### Canale interno (aggiornamento sessione){#internal}
+
+Questa regola prevede che i visitatori con l’URL di provenienza corrisponda alla configurazione dei filtri URL interni impostata nell’Admin Console, il che significa che il visitatore è venuto dall’interno del sito per iniziare la visita. Questo canale viene spesso rinominato Aggiornamento sessione.
 
 ![](assets/int-channel1.png)
 
-### Escludere le best practice
+Per ulteriori informazioni sui motivi per cui si verifica questo canale, consulta [Motivi per l’interno (aggiornamento sessione)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html) .
 
-È consigliabile deselezionare l’opzione Ignora ultimo tocco per i canali Direct e Internal, in modo che non possano ricevere credito da altri canali touch persistenti (o da altri canali reciproci).
+### Direct {#direct}
 
->[!NOTE]Questo documento presuppone che l&#39;opzione Aggiornamento diretto e Aggiornamento sessione non siano selezionate.
+Questa regola identifica i visitatori che non dispongono di un dominio di riferimento, che include i visitatori che arrivano direttamente al sito, ad esempio da un collegamento Preferiti o incollando un collegamento nel loro browser. Questo canale viene spesso rinominato in Direct Typed/Segnalibro.
 
-![](assets/int-channel2.png)
+![](assets/example_direct.png)
 
-### Periodo di coinvolgimento
+### Canale Domains di riferimento {#referring-domains}
 
-Sia il primo che l’ultimo canale touch per un visitatore vengono reimpostati dopo 30 giorni di inattività in quel browser.
+Il canale Domini di riferimento identifica i visitatori con un dominio di riferimento. Insieme, i canali di domini Interno, Diretto e Referente fungono da catch-all per tutti gli hit rimanenti che non sono ancora stati classificati in un canale.
 
->[!NOTE] Il valore predefinito è 30 giorni e può essere modificato in base alle esigenze tramite le impostazioni Amministratore.
-
-Se il visitatore utilizza il sito frequentemente, la finestra di coinvolgimento si espanderà con loro. Devono essere inattivi per 30 giorni affinché il periodo scada e i canali vengano reimpostati.
-Esempio:
-
-* Giorno 1: L&#39;utente accede al sito sul display. I canali Primo e Ultimo tocco verranno impostati su Display.
-
-* Giorno 2: L&#39;utente viene al sito su Natural Search. Il primo tocco rimane Display e l&#39;ultimo tocco è impostato su Natural Search.
-
-* Giorno 35: L&#39;utente non è stato sul sito in 33 giorni e torna utilizzando la scheda che aveva aperto nel browser. Presupponendo una finestra di coinvolgimento di 30 giorni, la finestra si sarebbe chiusa e i cookie di Marketing Channel sarebbero scaduti. Il primo canale touch e l’ultimo touch vengono reimpostati e impostati su Aggiornamento sessione, dal momento che l’utente proviene da un URL interno.
-
-### Relazione tra il primo e l&#39;ultimo tocco
-
-Per comprendere l’interazione tra il primo e l’ultimo tocco e per confermare che le impostazioni locali funzionano come previsto, potete eseguire il pulling di un rapporto sui canali di primo tocco, relativo in parte a un rapporto sull’ultimo canale, con l’aggiunta della metrica di successo chiave (vedere l’esempio di seguito). L’esempio illustra l’interazione tra il primo e l’ultimo canale di tocco.
-
-![](assets/int-channel3.png)
-
-L&#39;intersezione in cui prima corrisponde all&#39;ultimo tocco è evidenziata in arancione. Sia l&#39;aggiornamento diretto che l&#39;aggiornamento della sessione ottengono solo l&#39;ultimo tocco di credito se erano anche il primo canale touch, perché non possono ottenere credito da altri canali persistenti (righe evidenziate in grigio).
-
-### Perché si verifica l&#39;aggiornamento della sessione?
-
-Poiché sappiamo che l’ultimo aggiornamento della sessione può avvenire solo se si tratta anche del primo tocco, gli scenari seguenti spiegano come l’aggiornamento della sessione potrebbe essere un canale di primo tocco.
-
-**Scenario 1: Timeout sessione**
-
-Un visitatore accede al sito Web e quindi lascia la scheda aperta nel browser per utilizzarla in un secondo momento. Il periodo di coinvolgimento del visitatore scade (o elimina volontariamente i cookie) e utilizza la scheda aperta per visitare nuovamente il sito Web. Poiché l’URL di provenienza è un dominio interno, la visita verrà classificata come Aggiornamento sessione.
-
-**Scenario 2: Non tutte le pagine del sito dispongono di tag**
-
-Un visitatore arriva sulla pagina A senza tag, quindi passa alla pagina B con tag. La pagina A viene visualizzata come referente interno e la visita viene classificata come Aggiornamento sessione.
-
-**Scenario 3: Reindirizza**
-
-Se un reindirizzamento non è impostato per trasmettere i dati del referente alla nuova pagina di destinazione, i dati del referente di immissione vera andranno persi e ora la pagina di reindirizzamento (probabilmente una pagina interna) verrà visualizzata come dominio di riferimento. La visita verrà classificata come Aggiornamento sessione.
-
-**Scenario 4: Traffico tra domini**
-
-Un visitatore passa da un dominio che viene attivato alla Suite A a un altro dominio che viene attivato alla Suite B. Se nella Suite B i filtri URL interni includono il primo dominio, la visita nella Suite B verrà registrata come Interno, poiché Marketing Channels la vede come una nuova visita nella seconda suite. La visita verrà classificata come Aggiornamento sessione.
-
-**Scenario 5: Lunghi tempi di caricamento delle pagine**
-
-Un visitatore arriva sulla pagina A, che pesa sul contenuto, e il codice Adobe Analytics si trova nella parte inferiore della pagina. Prima che tutto il contenuto (inclusa la richiesta di immagini di Adobe Analytics) possa essere caricato, il visitatore fa clic sulla pagina B. La pagina B avvia la richiesta di immagine di Adobe Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in Adobe Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
-
-**Scenario 6: Cancellazione dei cookie nel mid-site**
-
-Un visitatore accede al sito e a metà sessione cancella i cookie. Entrambi i canali First e Last-touch venivano reimpostati e la visita veniva classificata come Aggiornamento sessione (perché il referente era interno).
