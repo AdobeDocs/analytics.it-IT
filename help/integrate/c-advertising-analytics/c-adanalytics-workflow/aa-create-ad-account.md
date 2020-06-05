@@ -2,7 +2,10 @@
 title: Configurare un account Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -57,28 +60,9 @@ Gli amministratori possono anche [concedere l&#39;accesso agli utenti non ammini
 1. Nella **[!UICONTROL Tracking]** sezione , fornisci informazioni su come i dati del motore di ricerca vengono tracciati dall’implementazione di Adobe Analytics. Si tratta di un passaggio necessario per incrementare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
 Compila i **[!UICONTROL Tracking Settings]** seguenti orientamenti:
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Impostazione </th> 
-      <th colname="col2" class="entry"> Descrizione </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Auto</span>: Consente al motore di Advertising Cloud di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. Questo è l'approccio più semplice, ma non può portare al miglior set di dati integrato. <p>Importante: Per configurare un account del motore di ricerca in modalità automatica, è necessario effettuare le seguenti operazioni: 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">Il parametro e il valore "s_kwcid" verranno aggiunti ai modelli di tracciamento dell'account o agli URL delle pagine di destinazione nell'account che si sta aggiungendo. Questo verrà inserito alla fine dell’URL. Di conseguenza, potrebbe essere necessaria un'azione aggiuntiva da parte dell'utente se il server Web richiede una determinata coppia chiave=valore alla fine dell'URL OPPURE un aggiornamento per supportare qualsiasi nuova coppia chiave=valore nell'URL. </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">Inoltre, le parole chiave possono essere inserite nell'URL di destinazione come parte del valore "s_kwcid", quindi se contengono caratteri speciali o simboli, si prega di confermare che il server Web può supportare tali caratteri (un esempio di caratteri speciali comuni è "+", utilizzato nelle parole chiave "Broad Match Modified"). </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuale</span>: Consente di gestire il modo in cui i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Fare riferimento a questi esempi di tracciamento manuale per ciascun motore</a>di ricerca. </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Impostazione | Descrizione |
+   |--- |--- |
+   | Tipo | <ul><li>**Automatico:** Consente al motore di Advertising Cloud di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. Questo è l&#39;approccio più semplice, ma non può portare al miglior set di dati integrato.<br>**Importante:**Per configurare un account del motore di ricerca in modalità automatica, è necessario eseguire le azioni seguenti:<br>- Il parametro e il valore &quot;s_kwcid&quot; verranno aggiunti ai modelli di tracciamento dell&#39;account o agli URL delle pagine di destinazione nell&#39;account aggiunto. Questo verrà inserito alla fine dell’URL. Di conseguenza, potrebbe essere necessaria un&#39;azione aggiuntiva da parte dell&#39;utente se il server Web richiede una determinata coppia chiave=valore alla fine dell&#39;URL OPPURE un aggiornamento per supportare qualsiasi nuova coppia chiave=valore nell&#39;URL.** Nota:**Ulteriori informazioni sull&#39;aggiunta di questo parametro all&#39;informativa sulla sicurezza dei[contenuti](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).<br>- Inoltre, le parole chiave possono essere inserite nell&#39;URL di destinazione come parte del valore &quot;s_kwcid&quot;, quindi se contengono caratteri speciali o simboli, si prega di confermare che il server Web può supportare tali caratteri (un esempio di caratteri speciali comuni è &quot;+&quot;, utilizzato nelle parole chiave &quot;Broad Match Modified&quot;).</li><li>**Manuale:** Consente di gestire il modo in cui i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/agli URL di destinazione del motore di ricerca. [Fare riferimento a questi esempi di tracciamento manuale per ciascun motore](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)di ricerca.</li></ul> |
 
 1. Nella **[!UICONTROL Mapping]** sezione, scegliete le suite di rapporti da collegare a questo account del motore di ricerca. Devi fornire almeno una suite di rapporti prima di poter salvare l&#39;account pubblicitario. Potete mappare più account a più suite di rapporti (1:1, 1:Molti, Molti:Molti). Notate che i dati che AMO estrae dal motore di ricerca vengono semplicemente copiati in qualsiasi suite di rapporti mappata, quindi non c&#39;è divisione dei dati.
 
