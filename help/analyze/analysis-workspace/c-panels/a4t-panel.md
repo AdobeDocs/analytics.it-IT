@@ -2,9 +2,9 @@
 description: Il pannello Analytics for Target (A4T) consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace.
 title: Pannello Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 516557c04acbc7300925ed3d13ac3c087f3ed3de
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Analytics for Target panel]** è attualmente in fase di test limitati. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Analytics for Target (A4T)]** al momento il test del pannello è limitato. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 Il pannello Analytics for Target (A4T) consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace. Consente inoltre di visualizzare l&#39;incremento e la confidenza per un massimo di 3 metriche di successo. Per accedere al pannello A4T, andate a una suite di rapporti con i componenti A4T abilitati. Quindi, fai clic sull’icona del pannello a sinistra e trascina il pannello Analytics for Target nel progetto Analysis Workspace.
 
