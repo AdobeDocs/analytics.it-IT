@@ -3,7 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+workflow-type: tm+mt
+source-wordcount: '1088'
+ht-degree: 98%
 
 ---
 
@@ -21,22 +24,12 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**è indicato per:
 
 * Utenti principianti che devono accedere a rapporti pregenerati facili da consultare
-* Comprendere l’incremento e l’affidabilità delle attività Target (Analytics for Target/A4T)
 * Accedere ai dati in tempo reale nell’interfaccia utente
 * Impostare eventi di Calendario
 * Impostare le destinazioni
 * Visualizzare i rapporti generati da bot
 * Accedere a visualizzazioni video univoche per visualizzatori simultanei, video Daypart e abbandono dei visualizzatori
 * Sfruttare gli elenchi di pubblicazione nei rapporti pianificati
-
-L’**[interfaccia utente di Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html)**è indicata per:
-
-* Ottenere una visualizzazione in silos dei dati di app mobile
-* Gestire l’implementazione dell’SDK per app mobile
-* Impostare la pubblicità mobile, ad esempio messaggi in-app, messaggi push e targeting in base alla posizione
-* Ottenere visualizzazioni più interattive dei dati dell’app (sunburst)
-* Visualizzare i punti di interesse su una mappa
-* Metriche del valore del ciclo di vita
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**è indicato per:
 
