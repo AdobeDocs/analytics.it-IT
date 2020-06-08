@@ -2,7 +2,7 @@
 title: Regole di elaborazione per i canali di marketing
 description: Le regole di elaborazione del canale di marketing determinano se un hit di visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit che un visitatore fa sul tuo sito. Quando una regola non soddisfa i criteri per un canale, o se le regole non sono configurate correttamente, il sistema assegna l'hit a Nessun canale identificato.
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 2%
@@ -150,6 +150,8 @@ Questa regola identifica i visitatori che provengono da uno specifico set di dom
 
 Una best practice consiste nell&#39;includere un canale &quot;Altre campagne&quot; che segua tutte le regole sui canali a pagamento. Questo canale funge da elemento catch-all per il traffico a pagamento non categorizzato.
 
+![](assets/other-campaigns.png)
+
 ### Social Network {#social-networks}
 
 Questa regola identifica i visitatori che provengono da un social network, come Facebook*. Il canale viene spesso rinominato come Organic Social. Le impostazioni possono essere le seguenti:
@@ -174,3 +176,4 @@ Questa regola identifica i visitatori che non dispongono di un dominio di riferi
 
 Il canale Domini di riferimento identifica i visitatori con un dominio di riferimento. Insieme, i canali di domini Interno, Diretto e Referente fungono da catch-all per tutti gli hit rimanenti che non sono ancora stati classificati in un canale.
 
+![](assets/referring-domains.png)
