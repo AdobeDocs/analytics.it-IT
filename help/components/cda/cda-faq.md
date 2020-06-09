@@ -2,9 +2,9 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ In alcune situazioni è possibile che più persone accedano dallo stesso disposi
 
 **In che modo il grafico del dispositivo gestisce le situazioni in cui una singola persona dispone di MOLTI dispositivi/ECID?**
 
-In alcune situazioni, un singolo utente può associarsi a un numero elevato di ECID. Questo può verificarsi se l&#39;individuo utilizza molti browser o app, e può essere esacerbato se spesso cancellano i cookie o utilizzano la modalità di navigazione privata o incognito del browser. Il grafico del dispositivo limita a 200 il numero di ECID associati a un determinato ID utente. Se un ID utente si associa a troppi ECID, il grafico del dispositivo presuppone che l&#39;ID utente non sia valido e rimuove il cluster associato a tale ID utente. L&#39;ID utente verrà quindi inserito in una blacklist per non essere più incluso in futuro. Il risultato in CDA è che il comportamento dell&#39;ID utente non è bloccato su più dispositivi.
+In alcune situazioni, un singolo utente può associarsi a un numero elevato di ECID. Questo può verificarsi se l&#39;individuo utilizza molti browser o app, e può essere esacerbato se spesso cancellano i cookie o utilizzano la modalità di navigazione privata o incognito del browser. Il grafico del dispositivo limita a 200 il numero di ECID associati a un determinato ID utente. Se un ID utente si associa a troppi ECID, il grafico del dispositivo presuppone che l&#39;ID utente non sia valido e rimuove il cluster associato a tale ID utente. L&#39;ID utente viene quindi aggiunto a un elenco &quot;bloccato&quot; per impedire che venga memorizzato in futuro. Il risultato in CDA è che il comportamento dell&#39;ID utente non è bloccato su più dispositivi.
 
 **Qual è la differenza tra la metrica &#39;Persone&#39; in CDA e la metrica &#39;Visitatori unici&#39; all&#39;esterno di CDA?**
 
