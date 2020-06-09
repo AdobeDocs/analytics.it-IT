@@ -2,7 +2,10 @@
 title: linkInternalFilters
 description: Utilizza la variabile linkInternalFilters per facilitare il tracciamento automatico dei collegamenti in uscita.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 1%
 
 ---
 
@@ -11,11 +14,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 AppMeasurement offre la possibilità di tracciare automaticamente i collegamenti che puntano all&#39;esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) è abilitata, una richiesta di immagine viene inviata ad Adobe direttamente quando un visitatore fa clic su un collegamento per uscire dal sito. Le [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` le variabili determinano quali collegamenti vengono considerati interni/esterni.
 
-Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come una blacklist. Se un clic di collegamento non corrisponde ad alcun `linkInternalFilters` valore, viene considerato un collegamento di uscita. L’intero URL viene analizzato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
+Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come un elenco &quot;bloccato&quot;. Se un clic di collegamento non corrisponde ad alcun `linkInternalFilters` valore, viene considerato un collegamento di uscita. L’intero URL viene analizzato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
 
 Se utilizzate sia `linkInternalFilters` che `linkExternalFilters` simultaneamente, il collegamento su cui avete fatto clic deve corrispondere `linkExternalFilters` e non deve corrispondere **** `linkInternalFilters` a quello su cui avete fatto clic per essere considerato un collegamento di uscita. Se un collegamento selezionato corrisponde ai criteri di collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
->[!NOTE] I filtri `linkInternalFilters` URL [e](/help/admin/admin/internal-url-filter-admin.md) interni sono funzioni distinte che soddisfano scopi separati. La `linkInternalFilters` variabile funziona in modo specifico per il tracciamento dei collegamenti di uscita. I filtri URL interni sono un&#39;impostazione Amministratore che consente di gestire le dimensioni delle origini del traffico come Dominio di riferimento.
+>[!NOTE] `linkInternalFilters` e i filtri [URL](/help/admin/admin/internal-url-filter-admin.md) interni sono funzioni distinte che soddisfano scopi separati. La `linkInternalFilters` variabile funziona in modo specifico per il tracciamento dei collegamenti di uscita. I filtri URL interni sono un&#39;impostazione Amministratore che consente di gestire le dimensioni delle origini del traffico come Dominio di riferimento.
 
 ## Collegamenti in uscita - Non tenere traccia del lancio della piattaforma Adobe Experience
 
