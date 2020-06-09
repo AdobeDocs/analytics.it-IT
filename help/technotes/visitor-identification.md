@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: Identificare visitatori unici
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1905'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +21,7 @@ Adobe utilizza un cookie per tenere traccia di browser/dispositivi univoci.
 
 Adobe Analytics offre diversi metodi per identificare i visitatori. Nella tabella seguente sono elencati i diversi modi in cui un visitatore può essere identificato in Analytics (in ordine di preferenza):
 
-| Ordine | Parametro query (metodo di raccolta) | Presente se |
+| Ordine utilizzato | Parametro query (metodo di raccolta) | Presente quando |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID è impostato |
 | 2 | aid (cookie s_vi) | Il visitatore aveva un cookie s_vi esistente prima dell’implementazione del servizio ID visitatore, oppure era configurato un periodo di tolleranza ID visitatore. |
@@ -117,7 +119,7 @@ Potete anche passare un &#39;1&#39; o un &#39;5&#39; nelle richieste di immagini
 
 Il metodo subscriber ID è generalmente più affidabile di un cookie per l’identificazione dell’utente a causa dell’eliminazione dei cookie, dei problemi di accettazione dei cookie e dei problemi di gestione dei cookie del gateway.
 
-Potete migliorare le modifiche per identificare un visitatore aggiungendo alla white list del vettore utilizzato dai visitatori di dispositivi mobili. Per accedere all&#39;ID visitatore del vettore, contatta il vettore per aggiungere il dominio alla sua white list. Se ti trovi nella white list di un vettore, puoi accedere anche alle intestazioni dell&#39;ID utente iscritto alle quali altrimenti non potrai accedere.
+Puoi migliorare le modifiche nell’identificazione di un visitatore aggiungendo all’elenco &quot;consentito&quot; il vettore utilizzato dai visitatori del tuo dispositivo mobile. Per accedere all&#39;ID visitatore del vettore, contatta il vettore per aggiungere il dominio al suo elenco &quot;consentito&quot;. Se ti trovi nell&#39;elenco dei portatori consentiti, puoi accedere anche alle intestazioni dell&#39;ID abbonato alle quali altrimenti non potrai accedere.
 
 Il seguente elenco di intestazioni viene utilizzato per identificare i dispositivi wireless. L&#39;algoritmo per l&#39;elaborazione delle intestazioni è:
 
