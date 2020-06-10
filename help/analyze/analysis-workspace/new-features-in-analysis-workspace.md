@@ -3,7 +3,10 @@ description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '7195'
+ht-degree: 97%
 
 ---
 
@@ -115,7 +118,7 @@ Nuove funzionalità e miglioramenti rilasciati il 1° novembre 2018.
 
 | Funzione | Descrizione |
 |--- |--- |
-| [Cura di progetti e VRS - Miglioramenti](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) | Le presenti modifiche sono state implementate in ottobre 2018. Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. <br> In precedenza, chiunque poteva vedere i componenti non curati facendo clic sul pulsante Mostra tutti i componenti. L’esperienza di gestione aggiornata consente un controllo più dettagliato sui componenti visibili.</br> |
+| [Cura di progetti e VRS - Miglioramenti](/help/analyze/analysis-workspace/curate-share/curate.md) | Le presenti modifiche sono state implementate in ottobre 2018. Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. <br> In precedenza, chiunque poteva vedere i componenti non curati facendo clic sul pulsante Mostra tutti i componenti. L’esperienza di gestione aggiornata consente un controllo più dettagliato sui componenti visibili.</br> |
 
 ## ottobre 2018
 
