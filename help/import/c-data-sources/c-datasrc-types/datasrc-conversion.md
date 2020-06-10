@@ -5,7 +5,10 @@ title: Conversione
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +28,8 @@ Se specifichi un evento Visualizzazione, devi specificare anche la dimensione de
 | Codice di tracciamento | Nome del codice di tracciamento. |
 | Data | Utilizzare il formato data seguente: MM/GG/AAAA/HH/mm/SS (ad esempio, 01/01/2015/06/00/00). |
 | Categoria | Nome della categoria.  Se specifichi una categoria, devi anche selezionare un prodotto. |
-| Canale | Nome del canale. |
-| eVarn | Nome eVarn. I valori validi per n sono numeri interi 1 - 75. |
+| Channel | Nome del canale. |
+| eVarn | Nome eVarn. I valori validi per n sono numeri interi 1 - 250. |
 | Prodotto | Nome del prodotto. |
 | Stato | Nome dello stato. |
 | ZIP | Nome dello ZIP. |
@@ -41,8 +44,8 @@ Se specifichi un evento Visualizzazione, devi specificare anche la dimensione de
 | Rimozioni dal carrello | Numero di rimozioni dal carrello. |
 | Visualizzazioni carrello | Numero di visualizzazioni del carrello. |
 | Pagamenti | Numero di pagamenti. |
-| Evento n | Numero di volte in cui si è verificato l'evento n. I valori validi per n sono numeri interi 1 - 100.  Se specifichi un evento Visualizzazione, devi specificare anche la dimensione dei dati corrispondenti (eVar). Ad esempio, se includi visualizzazioni eVar2, devi elencare eVar2 con un valore. |
-| Visualizzazioni eVarn | Numero di volte in cui è stata visualizzata l'eVar n. I valori validi per n sono numeri interi 1 - 75. |
+| Evento n | Numero di volte in cui si è verificato l&#39;evento n. I valori validi per n sono numeri interi 1 - 100.  Se specifichi un evento Visualizzazione, devi specificare anche la dimensione dei dati corrispondenti (eVar). Ad esempio, se includi visualizzazioni eVar2, devi elencare eVar2 con un valore. |
+| Visualizzazioni eVarn | Numero di volte in cui è stata visualizzata l&#39;eVar n. I valori validi per n sono numeri interi 1 - 250. |
 | Prezzo | Prezzo del prodotto. |
 | Ordini | Numero di ordini inseriti. |
 | Visualizzazioni prodotto | Numero di visualizzazioni del prodotto. |
