@@ -6,7 +6,10 @@ title: Riferimento colonna dati
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 3%
 
 ---
 
@@ -256,8 +259,8 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `videoshow` | Video show | varchar(255) |
 | `videoshowtype` | Tipo di visualizzazione video | varchar(255) |
 | `videostreamtype` | Tipo di flusso video | varchar(255) |
-| `visid_high` | Utilizzata in combinazione con visid_low per identificare in modo univoco una visita. | bigint non firmato |
-| `visid_low` | Utilizzata in combinazione con visid_high per identificare in modo univoco una visita. | bigint non firmato |
+| `visid_high` | Utilizzata in combinazione con visid_low per identificare in modo univoco un visitatore. | bigint non firmato |
+| `visid_low` | Utilizzata in combinazione con visid_high per identificare in modo univoco un visitatore. | bigint non firmato |
 | `visid_new` | Flag per identificare se l’hit contiene un ID visitatore appena generato. | char(1) |
 | `visid_timestamp` | Se l’ID visitatore è stato appena generato, fornisce la marca temporale (in Unix ora) di quando è stato generato l’ID visitatore. | int |
 | `visid_type` | ID numerico che rappresenta il metodo utilizzato per identificare il visitatore. <br>0: ID visitatore personalizzato <br>1: Fallback IP e agente utente <br>2: Intestazione <br>3 utente con sottoscrizione HTTP Mobile: Valore cookie legacy (s_vi) <br>4: Valore cookie di fallback (s_fid) <br>5: Servizio identità | tinyint non firmato |
