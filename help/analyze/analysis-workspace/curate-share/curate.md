@@ -1,66 +1,63 @@
 ---
-description: Utilizzando i componenti curati è possibile limitare i componenti disponibili prima di condividere un progetto. Puoi condividere all’interno dell’azienda un progetto e i relativi componenti con gli addetti al marketing e altri dipendenti non addetti alle analisi. Aggiungi commenti e tag ai progetti.
-keywords: Analysis Workspace
-title: Panoramica di cura/condivisione
-topic: Reports and analytics
-uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
+description: La cura consente di limitare i componenti prima di condividere un progetto.
+keywords: Analysis Workspace curation
+title: Cura progetti Workspace
 translation-type: tm+mt
-source-git-commit: 1e7d36e48f6ee3b9066e3933d831dd4d28f670c6
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 41%
 
 ---
 
 
-# Panoramica di cura/condivisione
+# Cura progetti Workspace
 
-Utilizzando i componenti curati è possibile limitare i componenti disponibili prima di condividere un progetto. Puoi condividere all’interno dell’azienda un progetto e i relativi componenti con gli addetti al marketing e altri dipendenti non addetti alle analisi. Aggiungi commenti e tag ai progetti.
+La cura consente di limitare i componenti (dimensioni, metriche, segmenti, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che avete curato per loro. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
-**Video introduttivo**
+>[!NOTE]
+> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Sono gestite tramite Admin Console. La cura è un filtro secondario.
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+## Applica cura progetto
 
-**[!UICONTROL Workspace]** (Workspace) > **[!UICONTROL Share]** (Condividi) > **[!UICONTROL Curate Project Data]** (Cura dati progetto)
+1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+I componenti utilizzati nel progetto verranno aggiunti automaticamente.
+   **Nota**: Se un progetto ha più suite di rapporti, visualizzerai un campo curato per ciascuna suite di rapporti nel progetto.
+1. (Facoltativo) Per aggiungere altri componenti, trascinate i componenti da condividere dalla barra a sinistra al [!UICONTROL Curate Components] campo.
+1. Fai clic su **[!UICONTROL Done]**.
 
-## Cura dati progetto
+![](assets/curation-field.png)
 
-1. Specifica le autorizzazioni per creare e curare progetti.
+Quando un destinatario apre un progetto curato, vedrà solo il set curato di componenti che hai definito:
 
-   Prima di creare o curare un progetto di Analysis Workspace, gli amministratori devono aggiungere gli utenti a un [gruppo](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html) su cui sia abilitata l’autorizzazione **[!UICONTROL Analysis Workspace Access]** (Accesso ad Analytics Workspace), oppure un gruppo di utenti. (**[!UICONTROL All Report Access]** (Accesso a tutti i rapporti). **[!UICONTROL Admin]** (Amministratore) > **[!UICONTROL User Management]** (Gestione utenti) > **[!UICONTROL Groups]** (Gruppi)).
+![](assets/curate-project.png)
 
-1. [Crea e salva](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un progetto, quindi fai clic su **[!UICONTROL Share]** (Condividi) > **[!UICONTROL Curate Project Data]** (Cura dati progetto).
-1. Trascina i componenti che vuoi condividere dalla sovrapposizione di componenti trascinabili a sinistra fino al campo **[!UICONTROL Curated Components]** (Componenti curati).
+È inoltre possibile applicare la cura dal [!UICONTROL Share] menu facendo clic su **[!UICONTROL Curate and Share]**. Questa opzione cura automaticamente il progetto con i componenti in uso nel progetto. Potete aggiungere altri componenti seguendo la procedura descritta sopra.
 
-   ![](assets/curated-components.png)
+## Rimuovi cura progetto
 
-   >[!IMPORTANT]
-   >
-   >La cura dei componenti non è necessaria per la condivisione di un progetto. Puoi condividere un progetto con tutti i componenti predefiniti disponibili o con i componenti selezionati. Per conservare tutti i componenti predefiniti di un progetto, una procedura consigliata è quella di crearne una copia personale usando l’opzione **[!UICONTROL Save As]** (Salva con nome) prima di curarne i componenti. In un progetto con componenti curati, gli altri componenti non sono più disponibili.
+Per rimuovere la cura del progetto e ripristinare l’intero set di componenti nella barra a sinistra:
+1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Fai clic su **[!UICONTROL Remove Curation]**.
+1. Fai clic su **[!UICONTROL Done]**.
 
-1. Fai clic su **[!UICONTROL Done]** (Fine).
+## Cura delle suite di rapporti virtuali (VRS)
 
-Il progetto risultante si comporta come un progetto tipico di Analysis Workspace, ma sarà possibile scegliere solo i componenti specificati.
+Per applicare la cura a livello di suite di rapporti, in modo che venga applicata a più progetti contemporaneamente, puoi [curare i componenti in una suite di rapporti virtuale (VRS)](https://docs.adobe.com/content/help/it-IT/analytics/components/virtual-report-suites/vrs-components.html).
 
-## Condivisione di un progetto curato
+>[!NOTE]
+> La cura VRS viene sempre applicata prima della cura del progetto. Ciò significa che anche se il progetto curato include alcuni componenti, essi verranno filtrati se la VRS curata non li include.
 
-La condivisione rende il progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’azienda. Ogni cura effettuata viene riflessa nel progetto utilizzato da altri.
+### Mostra tutti i componenti
 
-1. Dopo aver curato i componenti di un rapporto, fai clic su **[!UICONTROL Share]** (Condividi) > **[!UICONTROL Share Project]** (Condividi progetto).
+In un progetto curato o in una VRS, al destinatario verrà offerta l&#39;opzione per **[!UICONTROL Show All]** i componenti nella barra a sinistra. [!UICONTROL Show All] mostra diversi set di componenti, a seconda:
 
-   ![](assets/share_component.png)
+* il livello di autorizzazione dell&#39;utente (amministratore o non amministratore)
+* ruolo progetto (proprietario/editor o meno)
+* tipo di cura applicata
 
-1. Aggiungi i destinatari.
-1. (Facoltativo) Puoi condividere componenti di progetto incorporati (segmenti, metriche calcolate e intervalli di date) con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa dei componenti nell’interfaccia Workspace del destinatario.
-
-   >[!IMPORTANT]
-   >
-   >Questa impostazione non è persistente; è una singola azione da eseguire al momento della condivisione.
-
-1. Hai inoltre la possibilità di impostare questa pagina come pagina di destinazione per i destinatari.
-
-   >[!IMPORTANT]
-   >
-   >Questa impostazione non è persistente; è una singola azione da eseguire al momento della condivisione.
-
-1. Fai clic su **[!UICONTROL Share]** (Condividi).
+| Tipo di cura | Amministratori | Proprietari di progetto non amministratori | Non amministratori |
+|---|---|---|---|
+| VRS curate | Tutti i componenti VRS non curati | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
+| Progetto curato | Tutti i componenti di progetto non curati | Tutti i componenti di progetto non curati | I componenti di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
+| Progetto curato in una VRS curata | Tutti i componenti non curati, visualizzati in  **[!UICONTROL Non-Curated Project Components]** (Componenti di progetto non curati) e **[!UICONTROL Non-Curated VRS Components]** (Componenti VRS non curati) | Tutti i componenti di progetto non curati E i componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente | I componenti VRS e di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
