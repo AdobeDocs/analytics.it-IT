@@ -4,10 +4,10 @@ title: Generare segmenti
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 5%
+source-wordcount: '1923'
+ht-degree: 2%
 
 ---
 
@@ -74,19 +74,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i tuoi segmenti
 
 Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports & Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports & Analytics] gives you the intersection of the report date range and the segment&#39;s embedded date range.
 
-**[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**: (Non visualizzato sullo schermo) Questa opzione viene visualizzata solo se la suite di rapporti in cui si sta salvando questo segmento è [abilitata per Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Pubblicando un segmento in Experience Cloud, puoi utilizzare il segmento per l&#39;attività di marketing in [!UICONTROL Audience Library], [!DNL Target], e [!DNL Audience Manager]. Titolo e descrizione del segmento richiesti.
-
->[!NOTE] In Analytics puoi modificare o eliminare un segmento pubblicato. Se il segmento è in uso, quando modifichi un segmento compare un messaggio di avviso. Non puoi eliminare un segmento modificato che risulta in uso in Adobe [!DNL Target].
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->Devi limitare il numero di audience condivise da Analytics a 20 per evitare ulteriori ritardi nell&#39;elaborazione. Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri unici. Inoltre, a causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
-
->[!IMPORTANT]
->
->Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Advertising Cloud], and [!DNL Campaign].
+**[!UICONTROL Experience Cloud Publishing]**: (Non visualizzato sullo schermo) Questa opzione viene visualizzata solo se la suite di rapporti in cui si sta salvando questo segmento è [abilitata per Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Pubblicando un segmento in Experience Cloud, puoi utilizzare il segmento per l&#39;attività di marketing in [!UICONTROL Audience Library], [!DNL Target], e [!DNL Audience Manager]. [Ulteriori](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-publish.html) informazioni sulla pubblicazione Experience Cloud.
 
 ## Generare segmenti {#build-segments}
 
