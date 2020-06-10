@@ -2,7 +2,10 @@
 title: getValOnce
 description: Impedisci che una variabile di Analytics venga impostata sullo stesso valore due volte nella riga.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 627a10830d73d21323f247fcaadfb462858637d3
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 1%
 
 ---
 
@@ -46,8 +49,8 @@ Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasuremen
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getValOnce v2.0 */
-s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:ep);return vtc}return""};
+/* Adobe Consulting Plugin: getValOnce v2.01 */
+s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:e);return vtc}return""};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -85,6 +88,10 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 Questo codice impedisce che lo stesso valore venga passato in s.eVar2 più di una volta alla riga durante l&#39;intera sessione dell&#39;utente.  Inoltre ignora il valore &quot;m&quot; nel frammento (alla fine della chiamata), dal momento che l’ora di scadenza è impostata su 0.   Il codice memorizza anche il valore di confronto nel cookie s_ev2.
 
 ## Cronologia versioni
+
+### 2.01
+
+* È stato risolto un problema relativo alla scrittura dei cookie.
 
 ### 2.0
 
