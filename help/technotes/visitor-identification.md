@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Identificare visitatori unici
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1902'
 ht-degree: 10%
 
 ---
@@ -119,7 +119,7 @@ Potete anche passare un &#39;1&#39; o un &#39;5&#39; nelle richieste di immagini
 
 Il metodo subscriber ID è generalmente più affidabile di un cookie per l’identificazione dell’utente a causa dell’eliminazione dei cookie, dei problemi di accettazione dei cookie e dei problemi di gestione dei cookie del gateway.
 
-Puoi migliorare le modifiche nell’identificazione di un visitatore aggiungendo all’elenco &quot;consentito&quot; il vettore utilizzato dai visitatori del tuo dispositivo mobile. Per accedere all&#39;ID visitatore del vettore, contatta il vettore per aggiungere il dominio al suo elenco &quot;consentito&quot;. Se ti trovi nell&#39;elenco dei portatori consentiti, puoi accedere anche alle intestazioni dell&#39;ID abbonato alle quali altrimenti non potrai accedere.
+Puoi migliorare le modifiche nell’identificazione di un visitatore aggiungendo all’elenco di destinatari consentito dai visitatori del tuo dispositivo mobile. Per accedere all&#39;ID visitatore del vettore, contatta il vettore per aggiungere il tuo dominio al suo elenco consentito. Se ti trovi nell&#39;elenco delle autorizzazioni di un vettore, puoi accedere anche alle intestazioni dell&#39;ID utente iscritto alle quali altrimenti non potrai accedere.
 
 Il seguente elenco di intestazioni viene utilizzato per identificare i dispositivi wireless. L&#39;algoritmo per l&#39;elaborazione delle intestazioni è:
 
