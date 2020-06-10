@@ -4,6 +4,9 @@ title: Cura dei componenti di suite di rapporti virtuali
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 15%
 
 ---
 
