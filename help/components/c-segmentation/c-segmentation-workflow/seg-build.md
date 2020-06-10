@@ -4,21 +4,17 @@ title: Generare segmenti
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
 workflow-type: tm+mt
-source-wordcount: '2309'
-ht-degree: 4%
+source-wordcount: '2023'
+ht-degree: 5%
 
 ---
 
 
 # Generatore di segmenti
 
-Fornisce [!UICONTROL Segment Builder] un quadro per trascinare Metriche, Dimensioni, Segmenti ed Eventi per segmentare i visitatori in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori per visite ed hit di pagina.
-
->[!IMPORTANT]
->
->Abbiamo introdotto modelli di attribuzione delle dimensioni nella release di giugno 2019. Consultate la sezione 6 della sezione Funzioni dell&#39;interfaccia utente Web di seguito.
+Consente di [!UICONTROL Segment Builder] creare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori tra visite ed hit di pagina. Fornisce un quadro per trascinare e rilasciare dimensioni metriche, eventi o altri segmenti al fine di segmentare i visitatori in base alla logica gerarchica, alle regole e agli operatori.
 
 Esistono diversi modi per accedere al Generatore di segmenti:
 
@@ -28,42 +24,38 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 * **[!UICONTROL Ad Hoc Analysis]**: [Creazione di segmenti in Analisi](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)ad hoc.
 * **[!UICONTROL Report Builder]**: [Aggiunta o modifica di segmenti in Generatore](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)di report.
 
-## Interfaccia utente di Segment Builder {#concept_643F2DF74C544796B58F4656ABC5F726}
+## Criteri di generazione {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-Consente di [!UICONTROL Segment Builder] creare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori tra visite ed hit di pagina. Fornisce un quadro per trascinare e rilasciare dimensioni metriche, eventi o altri segmenti al fine di segmentare i visitatori in base alla logica gerarchica, alle regole e agli operatori.
-
-## Funzionalità dell&#39;interfaccia Web {#section_F61C4268A5974C788629399ADE1E6E7C}
-
-Consente di [!UICONTROL Segment Builder] creare e modificare segmenti nell’interfaccia utente Web (o in un’interfaccia [Java in Analisi](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)ad hoc). Puoi aggiungere definizioni di regole e contenitori per perfezionare i segmenti, impilare i segmenti e nidificarli per perfezionarli. Puoi inoltre convalidare il numero di visualizzazioni di pagina, visite e visitatori unici risultanti dalla definizione del segmento corrente. Quindi salva il segmento per esigenze future.
-
-Accedi a Segment Builder tramite:
-
-* Visualizzare un rapporto esistente e fare clic sull&#39;icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Nella barra dei segmenti visualizzata, fate clic su **[!UICONTROL Add]**.
-
-* In Segment Manager (Gestore segmenti), fai clic su **[!UICONTROL + Add]**.
-* Fai clic sul titolo di un segmento esistente in Segment Manager (Gestore segmenti) per modificare il segmento in Segment Builder (Generatore segmenti).
+Puoi aggiungere definizioni di regole e contenitori per definire i tuoi segmenti.
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL Title]**: Consente di denominare o rinominare il segmento.
-1. **[!UICONTROL Description]**: Fornire una descrizione per il segmento. È necessario fornire una descrizione se si desidera condividere il segmento.
+1. **[!UICONTROL Title]**: Denominate il segmento.
+1. **[!UICONTROL Description]**: Fornire una descrizione per il segmento.
 1. **[!UICONTROL Tags]**: [Assegnate un tag al segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) creato selezionando un elenco di tag esistenti o creando un nuovo tag.
-1. **[!UICONTROL Definitions]**: In questa area è possibile [creare e configurare segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), aggiungere regole e nidificare contenitori e sequenze. Consente di fornire una descrizione per il nuovo segmento selezionando il contenitore e trascinando nella definizione dimensioni, segmenti o metriche.
+1. **[!UICONTROL Definitions]**: In questa area è possibile [creare e configurare segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), aggiungere regole e nidificare contenitori e sequenze.
 1. **[!UICONTROL Show]**: (Selettore contenitore principale). Consente di selezionare il [contenitore](/help/components/c-segmentation/seg-overview.md) di livello superiore ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). Il contenitore di primo livello predefinito è il contenitore Hit.
 1. **[!UICONTROL Options]**: (ingranaggio), icona
 
    * **[!UICONTROL + Add container]**: Consente di aggiungere un nuovo contenitore (sotto il contenitore di primo livello) alla definizione del segmento.
-   * **[!UICONTROL + Add container from selection]**: Consente di creare un nuovo contenitore dagli elementi selezionati (per più) nel campo Definizioni.
    * **[!UICONTROL Exclude]**: Consente di definire il segmento escludendo una o più dimensioni, segmenti o metriche.
 
-1. **[!UICONTROL Attribution Models]**: Per segmentazione della dimensione. I modelli di dimensioni sono particolarmente utili nella segmentazione sequenziale, ad esempio in quelli che supportano le visualizzazioni Flusso:
+1. **[!UICONTROL Attribution Models]**: Disponibile solo per le dimensioni, questi modelli determinano i valori di una dimensione per cui eseguire il segmento. I modelli dimensionali sono particolarmente utili nella segmentazione sequenziale.
 
    * **[!UICONTROL Repeating]** (predefinito): Include istanze e valori persistenti per la dimensione.
    * **[!UICONTROL Instance]**: Include le istanze per la dimensione.
-   * **[!UICONTROL Non-repeating instance]**: Include istanze univoche (non ripetute) per la dimensione.
+   * **[!UICONTROL Non-repeating instance]**: Include istanze univoche (non ripetute) per la dimensione. Questo è il modello applicato in Flusso quando le istanze ripetute sono escluse.
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Comparison]**: È possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
+   **Esempio: Segmento di hit in cui eVar1 = A**
+
+   | Esempio | Una  | Una  | A (persistente) | B | Una  | C |
+   |---|---|---|---|---|---|---|
+   | Ripetizione | X | X | X | - | X | - |
+   | Istanza | X | X | - | - | X | - |
+   | Istanza non ripetuta | X | - | - | - | X | - |
+
+1. **[!UICONTROL Operator]**: È possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
 1. **[!UICONTROL Dimensions]**: Le dimensioni vengono trascinate e rilasciate dall&#39;elenco Dimensioni (barra laterale arancione).
 1. **[!UICONTROL Value]**: Il valore immesso o selezionato per la dimensione o il segmento o la metrica.
 1. **[!UICONTROL And/Or/Then]**: Assegna gli [!UICONTROL AND/OR/THEN] operatori tra contenitori o regole. L&#39;operatore THEN consente di [definire segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)sequenziali.
@@ -113,7 +105,7 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 
 Ora puoi passare a Gestione [](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)segmenti, dove puoi assegnare tag, condividere e gestire i segmenti in diversi modi.
 
-## Creazione e nidificazione di contenitori {#section_1C38F15703B44474B0718CEF06639EFD}
+## Aggiungi contenitori {#section_1C38F15703B44474B0718CEF06639EFD}
 
 È possibile [creare una struttura di contenitori](/help/components/c-segmentation/seg-overview.md) e quindi inserire regole logiche e operatori tra loro.
 
@@ -133,7 +125,7 @@ Ora puoi passare a Gestione [](/help/components/c-segmentation/c-segmentation-wo
 
    Select one or more rules and then click **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. In questo modo la selezione viene trasformata in un contenitore separato.
 
-## Use date ranges in segments {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## Usa intervalli di date {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
 Puoi creare segmenti che contengono intervalli di date dinamici per rispondere a domande su campagne o eventi in corso.
 
@@ -145,7 +137,7 @@ Create un contenitore Visita e al suo interno, aggiungete l’intervallo di temp
 
 ## Stack di segmenti {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-L&#39;impilamento dei segmenti funziona combinando i criteri in ciascun segmento utilizzando un operatore &#39;e&#39;, quindi applicando i criteri combinati.
+L&#39;impilamento dei segmenti funziona combinando i criteri in ciascun segmento utilizzando un operatore &#39;e&#39;, quindi applicando i criteri combinati. Questo può essere fatto in un progetto Workspace direttamente o nel generatore di segmenti.
 
 Ad esempio, l&#39;impilamento di un segmento &quot;utenti di telefoni cellulari&quot; e di un segmento &quot;geografia USA&quot; restituirebbe i dati solo agli utenti di telefoni cellulari negli Stati Uniti.
 
@@ -175,17 +167,11 @@ Utilizzando la sovrapposizione dei segmenti, potete ridurre il numero dei segmen
 
    Risultato passaggio
 
-## Utilizzare i modelli di segmento {#concept_5098446CC78D441E93B8E4D1D1EA6558}
+## Modelli di segmento {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-I modelli rappresentano i vecchi segmenti preconfigurati e suite.
+I modelli di segmento sono forniti per i casi d’uso più comuni di segmentazione, ad esempio &quot;First-Visits&quot; o &quot;Vists from Mobile Devices&quot;. Sono disponibili nei progetti Workspace e nel generatore di segmenti come elementi di base per i nuovi segmenti.
 
-In Segment Manager (Gestore segmenti), fai clic su **[!UICONTROL Add]**, per passare al Segment Builder (Generatore segmenti). Ora fai clic sull’icona Segmenti  ![](assets/segment_icon.png)
-
-per visualizzare la barra dei segmenti. I modelli di segmento vengono visualizzati nella parte inferiore dell&#39;elenco dei segmenti. Sono distinguibili dall’icona di una cartella a sinistra del nome del modello:
-
-![](assets/seg_template.png)
-
-Potete trascinare questi modelli nell’area di lavoro Definizioni e usarli come sono stati definiti o modificarli.
+I modelli sono contrassegnati dal logo Adobe &quot;A&quot;. Di seguito è riportato un esempio dei modelli:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -270,14 +256,3 @@ Potete trascinare questi modelli nell’area di lavoro Definizioni e usarli come
  </tbody> 
 </table>
 
-## Esempio: Segmento visitatori campagna {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
-
-Mostra un esempio di questo segmento utilizzato di frequente.
-
-Molti clienti desiderano vedere le metriche dai visitatori che hanno risposto a campagne specifiche. Creare un segmento di visitatori della campagna è un modo semplice per ottenere questi dati.
-
-La creazione di questo segmento nel Segment Builder (Generatore di segmenti) implica che da un contenitore Visita di livello principale si trascina in una dimensione campagna, in questo caso Nome campagna:
-
-![](assets/seg_campaign_visitor.png)
-
-(Facoltativo) Per filtrare facilmente tutti i segmenti relativi alla campagna, potete anche applicare un tag Campagne a questo segmento.
