@@ -1,10 +1,13 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Guida dell’amministratore di Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 99%
 
 ---
 
@@ -41,8 +44,8 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Registri](admin/logs.md)
    + [Canali marketing](admin/marketing-channels-admin.md)
    + [Personalizzazione del menu](admin/customize-menus.md)
-   + [Visibilità metrica](admin/metric-visibility.md)
-   + [Gestione dispositivi mobili](admin/mobile-management.md)
+   + [Visibilità delle metriche](admin/metric-visibility.md)
+   + [Gestione delle app](admin/mobile-management.md)
    + Rilevamento di ricerca a pagamento {#paid-search-detection}
       + [Panoramica sul rilevamento di ricerca a pagamento](admin/paid-search-detection/paid-search-detection.md)
       + [Configurazione del rilevamento di ricerche a pagamento](admin/paid-search-detection/t-paid-search-detection.md)
@@ -81,7 +84,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
    + Inoltro lato server {#server-side-forwarding}
       + [Panoramica sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf.md)
-      + [Conformità GDPR/ePrivacy e inoltro lato server](admin/c-server-side-forwarding/ssf-gdpr.md)
+      + [Conformità a RGPD/ePrivacy e inoltro lato server](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Requisiti per l&#39;inoltro lato server](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Dati inoltri lato server e riferimento al codice](admin/c-server-side-forwarding/ssf-reference.md)
       + [Verificare l&#39;implementazione lato server](admin/c-server-side-forwarding/ssf-verify.md)
@@ -151,7 +154,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
       + [Modifiche alle autorizzazioni Utente e Gruppo](user-management2/c-user-management/permissions-changes.md)
       + [Trasferimento elementi dell&#39;account utente](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [Aggiungere un utente a un gruppo](user-management2/c-user-management/t-add-user-to-group.md)
-      + Migrazione degli utenti ad Adobe Admin Console {#migrate-users}
+      + Migrazione utenti ad Adobe Admin Console {#migrate-users}
          + [Migrazione degli utenti di Analytics all’Admin Console](user-management2/user-migration/c-migration-tool.md)
          + [Eseguire la migrazione degli account utente di Analytics per Adobe ID](user-management2/user-migration/t-migrate-users.md)
          + [Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID](user-management2/user-migration/migrate-enterprise.md)
