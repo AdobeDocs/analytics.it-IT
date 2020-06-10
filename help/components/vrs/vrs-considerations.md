@@ -5,7 +5,10 @@ title: Suite di rapporti virtuali e considerazioni sui tag con più suite
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '1735'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +55,7 @@ Diversi siti presentano diverse esigenze di implementazione. Alcune dimensioni e
 
 Assicurati che il numero di dimensioni e metriche univoche possa essere incluso in una singola suite di rapporti globale. Se riscontri che sono presenti troppe dimensioni o metriche univoche, controlla ogni dimensione all’interno di ogni implementazione. È probabile che vi siano sovrapposizioni e dimensioni che non sono fondamentali per il successo aziendale. Valutare anche l&#39;utilizzo [delle classificazioni](/help/components/c-classifications2/c-classifications.md) . Ad esempio, invece di acquisire &#39;Product Name&#39; in eVar5, create una classificazione &#39;Product Name&#39; basata sulla dimensione &#39;Product&#39;. Le classificazioni in una suite di rapporti sorgente sono automaticamente disponibili per qualsiasi suite di rapporti virtuale dipendente.
 
->[!TIP] Con l&#39;introduzione della [cura](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), puoi cambiare il nome di una determinata dimensione o metrica in base a ogni VRS.
+>[!TIP] Con l&#39;introduzione della [cura](/help/analyze/analysis-workspace/curate-share/curate.md), puoi cambiare il nome di una determinata dimensione o metrica in base a ogni VRS.
 
 ### Sfumature di segmentazione
 
