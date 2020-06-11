@@ -2,7 +2,10 @@
 title: Creare un rapporto di base in Analysis Workspace
 description: Scopri come creare un rapporto di base in Analysis Workspace in un formato adatto agli utenti che hanno familiarità con strumenti di terze parti come Google Analytics.
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '852'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +39,7 @@ Per creare un rapporto Tutte le pagine (simile a quello di Google Analytics), tr
 1. Fai clic sul pulsante “Crea nuovo progetto”.
 1. Nella finestra a comparsa modale, assicurati che sia selezionato “Progetto vuoto”, quindi fai clic su Crea.
 1. A sinistra viene visualizzato un elenco di dimensioni, metriche, segmenti e intervalli di date. Individuate la dimensione Pagine (arancione colorata) e trascinatela nell’area di lavoro con l’etichetta &quot;Rilascia qui una dimensione&quot;.
-1. È possibile visualizzare un rapporto che mostra le pagine principali per questo mese. Analysis Workspace automatically populates the report with the [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) metric.
+1. È possibile visualizzare un rapporto che mostra le pagine principali per questo mese. Analysis Workspace automatically populates the report with the [Occurrences](/help/components/metrics/occurrences.md) metric.
 1. Una tabella in Google Analytics in genere contiene 7-8 metriche. Individuate la metrica Frequenza rimbalzi (verde colorato) e trascinatela accanto all’intestazione della metrica Occorrenze. Se trascinate la metrica Frequenza rimbalzi accanto a Occorrenze, entrambe le metriche vengono visualizzate affiancate.
 1. Molte metriche possono essere affiancate trascinando le metriche accanto alle intestazioni delle metriche esistenti. Per informazioni su come ottenere le metriche tipicamente utilizzate in Google Analytics, consultate [le metriche](common-metrics.md) più utilizzate.
 
