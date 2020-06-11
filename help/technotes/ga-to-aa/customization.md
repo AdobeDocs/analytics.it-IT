@@ -2,7 +2,7 @@
 title: Personalizzazione dei report in Adobe Analytics
 description: Scopri come personalizzare i rapporti in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Per creare una metrica calcolata:
 4. Una volta che la metrica calcolata contiene la formula desiderata, fate clic su Salva per tornare alla vostra area di lavoro.
 5. Trascina nell’area di lavoro la metrica calcolata appena definita.
 
-   Per ulteriori informazioni sulle metriche [calcolate](/help/components/c-variables/c-metrics/calculated-metric.md) , consulta la Guida utente ai componenti.
+   Per ulteriori informazioni sulle metriche [calcolate](/help/components/c-calcmetrics/cm-overview.md) , consulta la Guida utente ai componenti.
 
 ## Avvisi personalizzati
 
