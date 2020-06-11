@@ -5,7 +5,10 @@ title: Variabili di conversione (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +42,7 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Nome</span> </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Nome </span> </p> </td> 
    <td colname="col2"> <p>Il nome descrittivo della variabile di conversione. Questo nome è il riferimento all'eVar nel reporting generale e sarà il nome del report nel menu a sinistra. </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +51,7 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Allocazione </span> </p> </td> 
-   <td colname="col2"> <p>Determina il modo in cui Analytics assegna il credito per un evento di successo se una variabile riceve più valori prima dell'evento. I valori supportati includono: </p> <p> <b>Più recenti</b>: L'ultimo valore eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b>Valore</b>originale: La prima eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b> Lineare</b>:alloca gli eventi di successo in modo uniforme tra tutti i valori eVar. Poiché l’allocazione lineare distribuisce accuratamente i valori solo all’interno di una visita, utilizza l’allocazione lineare con una scadenza eVar della visita. </p> <p>Nota:  Il passaggio dell'allocazione a o da Linear impedisce la visualizzazione dei dati storici. La combinazione di tipi di allocazione nell'interfaccia di reporting può portare a dati erronei nei report. Ad esempio, l'allocazione lineare potrebbe dividere le entrate tra un certo numero di valori eVar diversi. Dopo aver ripristinato l'allocazione più recente, il 100% di tali entrate sarebbe associato al valore singolo più recente. Questa associazione può portare a conclusioni errate da parte degli utenti. </p> <p>Per evitare confusione nei report, Analytics rende i dati storici non disponibili per l'interfaccia. Può essere visualizzato se si decide di ripristinare l'impostazione di allocazione iniziale per l'eVar specificato, anche se non è necessario modificare le impostazioni di allocazione eVar semplicemente per accedere ai dati storici. Adobe consiglia di utilizzare una nuova eVar quando nuove impostazioni di allocazione sono desiderate per i dati già registrati, invece di modificare le impostazioni di allocazione su una eVar che dispone già di una quantità significativa di dati storici. </p> </td> 
+   <td colname="col2"> <p>Determina il modo in cui Analytics assegna il credito per un evento di successo se una variabile riceve valori multipli prima dell’evento. I valori supportati includono: </p> <p> <b>Più recenti</b>: L'ultimo valore eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b>Valore</b>originale: La prima eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b> Lineare</b>:alloca gli eventi di successo in modo uniforme tra tutti i valori eVar. Poiché l’allocazione lineare distribuisce accuratamente i valori solo all’interno di una visita, utilizza l’allocazione lineare con una scadenza eVar della visita. </p> <p>Nota:  Il passaggio dell'allocazione a o da Linear impedisce la visualizzazione dei dati storici. La combinazione di tipi di allocazione nell'interfaccia di reporting può portare a dati erronei nei report. Ad esempio, l'allocazione lineare potrebbe dividere le entrate tra un certo numero di valori eVar diversi. Dopo aver ripristinato l'allocazione più recente, il 100% di tali entrate sarebbe associato al valore singolo più recente. Questa associazione può portare a conclusioni errate da parte degli utenti. </p> <p>Per evitare confusione nei report, Analytics rende i dati storici non disponibili per l'interfaccia. Può essere visualizzato se si decide di ripristinare l'impostazione di allocazione iniziale per l'eVar specificato, anche se non è necessario modificare le impostazioni di allocazione eVar semplicemente per accedere ai dati storici. Adobe consiglia di utilizzare una nuova eVar quando nuove impostazioni di allocazione sono desiderate per i dati già registrati, invece di modificare le impostazioni di allocazione su una eVar che dispone già di una quantità significativa di dati storici. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Scade dopo</span> </p> </td> 
@@ -76,7 +79,7 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Stato</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Definisce lo stato eVar: </p> <p><b>Disattivato</b>:</span> Disattiva l'eVar. Rimuove l'eVar dall'elenco delle variabili di conversione. </p> <p> <b>Nessuna sottorelazione</b>:</span> Impedisce la suddivisione dell'eVar con una sottorelazione. </p> <p> <b>Subrelazioni</b>di base: Consente di </span>suddividere un'eVar in base a qualsiasi rapporto con relazioni complete (ad esempio, Prodotti o Campagna). </p> </td> 
+   <td colname="col2"> <p>Definisce lo stato eVar: </p> <p><b>Disattivato</b>:</span> Disattiva l'eVar. Rimuove l'eVar dall'elenco delle variabili di conversione. </p> <p> <b>Nessuna sottorelazione</b>:</span> Impedisce la suddivisione dell'eVar con una sottorelazione. </p> <p> <b>Subrelazioni</b>di base: </span>Consente di suddividere un'eVar per qualsiasi rapporto con relazioni complete (ad esempio, Prodotti o Campagna). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Reimpostare</span> </p> </td> 
@@ -88,7 +91,7 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento di binding Merchandising</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Se Merchandising è impostato su <span class="uicontrol"> Conversion Variable Syntax</span>, gli eventi selezionati collegano il valore eVar corrente a un prodotto. </p> <p>Per utilizzare un evento di binding, impostare <span class="uicontrol"> Allocazione su Più recente</span>. Se <span class="uicontrol"> Allocazione è Valore</span>originale, il primo binding di prodotto eVar rimane fino alla scadenza dell'eVar. </p> </td> 
+   <td colname="col2"> <p>Se Merchandising è impostato su <span class="uicontrol"> Conversion Variable Syntax</span>, gli eventi selezionati collegano il valore eVar corrente a un prodotto. </p> <p>Per utilizzare un evento di binding, impostare <span class="uicontrol"> Allocazione su Più recente</span>. Se <span class="uicontrol"> Allocazione è Valore</span>originale, il primo binding di prodotto eVar rimane fino alla scadenza dell'eVar. Per selezionare più eventi, tenete premuto <code>ctrl</code> (Windows) o <code>cmd</code> (Mac) e fate clic su più elementi nell’elenco. È possibile selezionare un evento solo quando è selezionata la "Sintassi variabile di conversione".</p> </td> 
   </tr> 
  </tbody> 
 </table>
