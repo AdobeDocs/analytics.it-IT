@@ -4,7 +4,7 @@ title: Panoramica di Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 32%
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 Analysis Workspace rimuove tutte le limitazioni tipiche di un rapporto singolo di Analytics. Offre un’area di lavoro solida e flessibile su cui realizzare analisi di progetti personalizzati. Trascina su un progetto un numero qualsiasi di tabelle di dati, visualizzazioni e componenti (dimensioni, metriche, segmenti e granularità temporali). Crea all’istante suddivisioni e segmenti, coorti per analisi e avvisi, confronta segmenti, esegue analisi di flusso e di abbandono, cura e programma i rapporti da condividere con i tuoi colleghi.
 
-Questa pagina contiene le istruzioni di base per iniziare. Una volta acquisite le nozioni di base, potete passare alle funzioni avanzate di Workspace. tra cui [Attribution IQ](/help/analyze/analysis-workspace/attribution-iq.md), [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment IQ](/help/analyze/analysis-workspace/segment-iq.md)e [Intelligent Alert](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
+Questa pagina contiene le istruzioni di base per iniziare. Una volta acquisite le nozioni di base, potete passare alle funzioni avanzate di Workspace. tra cui [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md), [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment IQ](/help/analyze/analysis-workspace/segment-iq.md)e [Intelligent Alert](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
 Panoramica video di Workspace:
 
