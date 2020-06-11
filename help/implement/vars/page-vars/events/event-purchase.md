@@ -2,7 +2,10 @@
 title: Evento di acquisto
 description: Utilizzare l'evento di acquisto per raccogliere i dati per le metriche 'Ordini', 'Unità' e 'Entrate'.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 2%
 
 ---
 
@@ -16,6 +19,8 @@ Quando imposti un evento di acquisto, questo incide sulle metriche seguenti:
 * La metrica &quot;Ordini&quot; aumenta di 1
 * La metrica &quot;Unità&quot; aumenta per il numero di prodotti nella `products` variabile
 * La metrica &quot;Revenue&quot; (Entrate) aumenta per la somma dei parametri di prezzo nella `products` variabile
+
+>[!NOTE] Le entrate non vengono moltiplicate per il campo quantità. Ad esempio, `s.products="Womens;Socks;5;4.50"` non trasferisce $22,50 nelle entrate; passa $4,50. Assicurarsi che l&#39;implementazione superi le entrate totali per la quantità indicata. Ad esempio,`s.products="Womens;Socks;5;22.50"`.
 
 ## Imposta l’evento di acquisto in Adobe Experience Platform Launch
 
