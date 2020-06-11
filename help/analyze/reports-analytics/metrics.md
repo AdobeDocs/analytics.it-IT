@@ -4,7 +4,10 @@ title: Metriche
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ Metriche e dati associati sono visualizzati nelle colonne dei rapporti. Le metri
 
 [Le metriche](/help/components/c-calcmetrics/cm-overview.md) calcolate vengono create combinando le metriche.
 
-Per le definizioni, consultate Panoramica [delle metriche](/help/components/c-variables/c-metrics/metricslist.md)
+Per un elenco completo delle metriche, consulta Panoramica delle [metriche](/help/components/metrics/overview.md) nella guida utente Components (Componenti).
 
 ## Seleziona metriche rapporto predefinite
 
