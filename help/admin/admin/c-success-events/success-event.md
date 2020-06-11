@@ -5,7 +5,10 @@ title: Panoramica eventi di successo
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +35,7 @@ Esistono molti tipi di eventi di successo, a seconda del tipo di sito Web. Alcun
 * **High Tech**: Download white paper, RFP, completamento del modulo, richieste di assistenza
 * **Automotive**: Invio di lead, richiesta di preventivo, download di brochure
 
-La variabile [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) definisce un evento success.
+La variabile [s.events](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/events/event-serialization.html) definisce un evento success.
 
 ## Pagina Eventi Di Successo - Descrizioni {#section_681ECEC981694CABBDBF00E18165B447}
 
@@ -48,6 +51,6 @@ La pagina Eventi di successo consente di configurare le variabili Evento utilizz
 | Polarità | La polarità della metrica consente di indicare se Adobe Analytics deve considerare positivo o negativo un determinato evento personalizzato (metrica). Consentirà ad Adobe Analytics di mostrare indicatori direzionali (frecce) per diverse metriche per aggiungere contesto (ad esempio, confronti tra settimane e settimane).  Esempi: se &quot;Bug Inviati&quot; va avanti di settimana in settimana, Adobe Analytics dovrebbe considerarlo buono o cattivo? Un aumento delle registrazioni per e-mail è probabilmente positivo. Tuttavia, un aumento degli errori di invio del modulo è probabilmente negativo.  In Analysis Workspace, la polarità è applicata a: Formattazione condizionale della tabella a forma libera, visualizzazioni Variazione di riepilogo e schema di colori positivo/negativo della visualizzazione Mappa. |
 | Descrizione | Breve descrizione dello scopo e dell&#39;utilizzo dell&#39;evento. |
 | Registrazione evento univoca | **Registra una volta per visita**: Collega l&#39;evento specificato alla sessione del visitatore. I conteggi successivi per un dato evento nella stessa visita vengono ignorati. Questo tipo di serializzazione dell&#39;evento non richiede alcuna modifica nell&#39;implementazione.<br>**Usa ID **evento: Collega l&#39;evento specificato a un ID personalizzato. I conteggi successivi per un dato evento con lo stesso ID evento vengono ignorati. Questo tipo di serializzazione degli eventi richiede un ID personalizzato negli hit per deduplicare i valori. Consultate Serializzazione degli ID[evento](../../../implement/vars/page-vars/events/event-serialization.md)nella guida per l’utente Implementa. |
-| Partecipazione | Consulta Partecipazione alle [metriche](/help/components/c-variables/c-metrics/metrics-participation.md). |
+| Partecipazione | Attribuisce credito di attribuzione completo a tutti i valori di dimensione della visita. |
 | Avviso (evento valuta) | Quando si modificano i tipi di evento in o da un evento valuta, viene visualizzato un messaggio che indica che i dati storici non sono disponibili nel reporting.  Diversi tipi di evento utilizzano tabelle di dati separate e non possono essere utilizzati contemporaneamente. Alcuni dati storici possono essere ripristinati se l&#39;utente ripristina il tipo di evento. Tuttavia, eventuali dati raccolti dopo la modifica iniziale non sono disponibili. Prestate attenzione quando modificate un tipo di evento. |
 
