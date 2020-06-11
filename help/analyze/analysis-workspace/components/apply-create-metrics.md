@@ -3,7 +3,10 @@ description: In Analysis Workspace, le metriche possono essere utilizzate in due
 title: Metriche
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 88%
 
 ---
 
@@ -25,3 +28,11 @@ Per accelerare e semplificare la creazione delle metriche calcolate, al menu di 
 ![](assets/calc_metrics.png)
 
 [Utilizzo delle metriche di partecipazione su YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=32) (4:16)
+
+## Confronto delle metriche con diversi modelli di attribuzione
+
+Per confrontare in modo rapido e semplice un modello di attribuzione con un altro, fai clic con il pulsante destro del mouse su una metrica e seleziona **[!UICONTROL Add comparative attribution model]** (Aggiungi modello di attribuzione comparativo):
+
+![Confronta attribuzione](assets/compare-attribution.png)
+
+Questa scelta rapida consente di confrontare rapidamente e facilmente un modello di attribuzione a un altro senza trascinare in una metrica e configurarlo due volte.
