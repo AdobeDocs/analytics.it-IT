@@ -2,21 +2,28 @@
 description: 'null'
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 87%
+source-wordcount: '479'
+ht-degree: 83%
 
 ---
 
 
 # Panoramica dei pannelli
 
-I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili quando desideri organizzare i tuoi progetti in base a periodi di tempo, unità organizzative, aree geografiche, ecc. In Analysis Workspace sono disponibili sei tipi di pannelli: [Pannello](/help/analyze/analysis-workspace/c-panels/blank-panel.md)vuoto, pannello [](/help/analyze/analysis-workspace/c-panels/quickinsight.md) Approfondimenti rapidi (disponibile a breve), pannello [](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) Analisi per Target (disponibile a breve), pannello [](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)Attribuzione, pannello [](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)a forma libera e pannello Confronto [](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)segmenti.
+I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili quando desideri organizzare i tuoi progetti in base a periodi di tempo, unità organizzative, aree geografiche, ecc. In Analysis Workspace sono disponibili sei tipi di pannelli:
 
-I pannelli Approfondimenti rapidi, Blank e Freeform sono luoghi ideali per avviare l&#39;analisi, mentre Analytics per Target, Attribution IQ (IQ attribuzione) e Segment Comparison (Confronto segmenti) si prestano ad analisi più avanzate. Inoltre, è stato aggiunto un pulsante di pannello “+” per consentirti di aggiungere in qualsiasi momento pannelli vuoti.
+* [Pannello vuoto](blank-panel.md)
+* [Pannello Approfondimenti rapidi](quickinsight.md)
+* [Pannello](a4t-panel.md) Analytics for Target (disponibile a breve)
+* [Pannello Attribuzione](attribution.md)
+* [Pannello a forma libera](freeform-panel.md)
+* [pannello Confronto segmenti](c-segment-comparison/segment-comparison.md)
 
-Il pannello iniziale predefinito è il Pannello a forma libera, ma puoi anche decidere di rendere predefinito il [Pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md).
+I pannelli Approfondimenti rapidi, Blank e Freeform sono luoghi ideali per avviare l&#39;analisi, mentre Analytics per Target, Attribution IQ (IQ attribuzione) e Segment Comparison (Confronto segmenti) si prestano ad analisi più avanzate. Nei progetti è disponibile un `"+"` pulsante che consente di aggiungere pannelli vuoti in qualsiasi momento.
+
+The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## Filtri a discesa nei pannelli  {#section_D2828EEDD52944528E87F470EAB581CF}
 
