@@ -3,9 +3,9 @@ description: Condivisione dei progetti e ruoli dei progetti in Workspace
 keywords: Analysis Workspace sharing
 title: Condivisione di progetti Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '631'
 ht-degree: 4%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Condivisione di progetti Workspace
 
-La condivisione rende un progetto disponibile ad altri utenti di Analysis Workspace nell’organizzazione. Qualsiasi cura effettuata viene riflessa all’apertura del progetto da parte dei destinatari.
+La condivisione rende un progetto disponibile ad altri utenti di Analysis Workspace nell’organizzazione. Qualsiasi [cura](curate.md) applicata viene visualizzata all’apertura del progetto da parte dei destinatari.
 
 ## Ruoli del progetto
 
@@ -28,15 +28,15 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli del proge
 | Può duplicare | I destinatari possono salvare con nome e accedere alla barra a sinistra. Le interazioni non sono limitate.<br>Questo ruolo è utile se desiderate condividere un progetto con utenti che conoscono i dati dell’organizzazione e come utilizzare Analysis Workspace, ma non desiderate che il progetto salvato venga modificato. |
 | Può visualizzare | I destinatari non possono salvare con nome e non hanno accesso alla barra a sinistra. Anche le interazioni sono limitate.<br>Questo ruolo è utile se vuoi condividere un progetto con utenti che hanno meno familiarità con la struttura dati della tua organizzazione, Analysis Workspace o Adobe Analytics in genere. Tuttavia, è comunque necessario che utilizzino dati e informazioni in un ambiente sicuro.<br>Scopri di più sull&#39;esperienza [](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Può visualizzare il progetto. |
 
-**Nessun ruolo assegnato**
+### Nessun ruolo assegnato
 
 Se a un destinatario non è assegnato un ruolo e riceve un collegamento al progetto ([!UICONTROL Share] > [!UICONTROL Get project link]), per impostazione predefinita verrà inserito nel [!UICONTROL "Can view"] ruolo.
 
-**Più ruoli assegnati**
+### Più ruoli assegnati
 
 Se un destinatario viene posizionato in più ruoli, avrà sempre il controllo più alto. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo che come parte di un gruppo. Ad esempio, se all&#39;utente 1 è assegnato Can edit e [!UICONTROL "Can view"] i ruoli, questi avranno [!UICONTROL "Can edit"] il controllo del progetto.
 
-**Amministratori e ruoli**
+### Amministratori e ruoli
 
 Gli amministratori inseriti in un [!UICONTROL&quot;Può duplicare&quot;] o [!UICONTROL "Can view"] ruolo riceveranno le esperienze limitate quando aprono un progetto. Se necessario, un amministratore può incrementare il proprio ruolo in [!UICONTROL "Can edit"] qualsiasi momento tramite [!UICONTROL Components] > [!UICONTROL Projects].
 
@@ -76,7 +76,3 @@ Se sono stati selezionati più progetti da condividere, i destinatari verranno a
    * Progetto A: 1, 2, 3, 4, 7
    * Progetto B: 4, 5, 6, 7
    ![](assets/mult-proj-sharing.png)
-
-## Pianificare progetti
-
-Potete anche pianificare i progetti dal [!UICONTROL Share] menu, a uno [!UICONTROL Send file now] o [!UICONTROL Send file on schedule]. Il formato del file consegnato può essere un file PDF o CSV. Scopri di più sulla pianificazione [dei](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)progetti.
