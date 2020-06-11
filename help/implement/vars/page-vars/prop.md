@@ -2,18 +2,23 @@
 title: prop
 description: Variabili personalizzate utilizzabili nell’implementazione.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 0%
 
 ---
 
 
 # prop
 
-Le proprietà sono variabili personalizzate che potete utilizzare come desiderate.
+*Questa pagina della Guida descrive come implementare i prop. Per informazioni sul funzionamento dei prop come una dimensione, vedere[prop](/help/components/dimensions/prop.md)nella guida utente Componenti.*
 
->[!TIP] Nella maggior parte dei casi, Adobe consiglia di utilizzare le eVar. Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia, Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop. Per un confronto delle funzioni tra questi due tipi di variabili personalizzate, vedere [eVar](evar.md) .
+Le proprietà sono variabili personalizzate che potete utilizzare come desiderate. Non persistono oltre il risultato raggiunto.
 
-Se l&#39;azienda utilizza le proprietà, accertatevi di registrarne l&#39;uso e la logica nel documento [di progettazione della](../../prepare/solution-design.md)soluzione.
+> [!TIP] Nella maggior parte dei casi, Adobe consiglia di utilizzare [le eVar](evar.md) . Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia, Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop.
+
+Se disponete di un documento [di progettazione di una](/help/implement/prepare/solution-design.md)soluzione, potete allocare queste dimensioni personalizzate a valori specifici dell&#39;organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 75 proprietà.
 
 ## Prop in Adobe Experience Platform Launch
 
@@ -26,7 +31,7 @@ Potete impostare le proprietà sia durante la configurazione dell&#39;estensione
 5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuare la [!UICONTROL Props] sezione.
 
-È possibile selezionare una proprietà per impostare un valore o un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
+È possibile impostare una proprietà su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
 
 ## s.prop1 - s.prop75 in AppMeasurement e Launch editor di codice personalizzato
 
@@ -44,7 +49,7 @@ Le proprietà elenco sono un&#39;impostazione applicata alle proprietà che cons
 
 Abilitare le proprietà dell&#39;elenco nelle impostazioni della suite di rapporti. Consultate Variabili [di](/help/admin/admin/c-traffic-variables/traffic-var.md) traffico nella guida utente di amministrazione. Accertatevi che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
->[!TIP] I delimitatori comuni utilizzati nelle implementazioni sono virgole (`,`), due punti (`:`), un punto e virgola (`;`) o una barra verticale (`|`). Potete utilizzare un carattere di delimitazione adatto alla vostra implementazione.
+> [!TIP] I delimitatori comuni utilizzati nelle implementazioni sono virgole (`,`), due punti (`:`), un punto e virgola (`;`) o una barra verticale (`|`). Potete utilizzare un carattere di delimitazione adatto alla vostra implementazione.
 
 ### Imposta proprietà elenco
 
@@ -55,6 +60,6 @@ Una volta configurate le proprietà dell&#39;elenco nelle impostazioni della sui
 s.prop1 = "value1,value2,value3";
 ```
 
->[!IMPORTANT] Le proprietà elenco sono ancora soggette alla lunghezza massima di 100 byte. Le proprietà elenco sono più facili da raggiungere e troncare, poiché possono contenere più valori. Se raggiungete questo limite di 100 byte, prendete in considerazione l&#39;uso di abbreviazioni o valori abbreviati.
+> [!IMPORTANT] Le proprietà elenco sono ancora soggette alla lunghezza massima di 100 byte. Le proprietà elenco sono più facili da raggiungere e troncare, poiché possono contenere più valori. Se raggiungete questo limite di 100 byte, prendete in considerazione l&#39;uso di abbreviazioni o valori abbreviati.
 
 Se imposti lo stesso valore più di una volta in un elenco di proprietà, questi vengono deduplicati nel reporting. Analysis Workspace conta il numero di hit in cui viene visualizzato un valore e non il numero di volte in cui un valore esiste nei dati.
