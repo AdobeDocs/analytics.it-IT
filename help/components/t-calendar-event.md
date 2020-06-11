@@ -4,10 +4,10 @@ title: Eventi calendario
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -37,8 +37,8 @@ Per i report con tendenze nel tempo, puoi visualizzare in modo grafico gli event
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. In **[!UICONTROL Shared Calendar Events]**, specifica una delle seguenti opzioni:
 
-       | ** Copiami** | Aggiunge una copia nell’elenco degli eventi con lo stesso nome dell’originale. Tuttavia, non puoi visualizzare eventuali aggiornamenti o modifiche apportate dal proprietario dell’evento. |
-       |---|---|
-       | **Nel rapporto** | Consente di visualizzare le modifiche o gli aggiornamenti effettuati dal proprietario dell’evento. |
-       | **Annulla condivisione** | Rimuove questo evento dall’elenco degli eventi condivisi. |
-   
+   | **Copia** | Aggiunge una copia all’elenco degli eventi utilizzando lo stesso nome dell’originale. Tuttavia, non puoi visualizzare eventuali aggiornamenti o modifiche apportate dal proprietario dell’evento. |
+   |---|---|
+   | **Su rapporto** | Consente di visualizzare le modifiche e gli aggiornamenti apportati dal proprietario dell&#39;evento. |
+   | **Annulla condivisione** | Rimuove questo evento dall&#39;elenco degli eventi condivisi. |
+
