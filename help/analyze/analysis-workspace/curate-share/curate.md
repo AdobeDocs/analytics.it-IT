@@ -3,10 +3,10 @@ description: La cura consente di limitare i componenti prima di condividere un p
 keywords: Analysis Workspace curation
 title: Cura progetti Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 41%
+source-wordcount: '463'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 41%
 La cura consente di limitare i componenti (dimensioni, metriche, segmenti, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che avete curato per loro. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
 >[!NOTE]
-> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Sono gestite tramite Admin Console. La cura è un filtro secondario.
+> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Vengono gestiti tramite Adobe Experience Cloud Admin Console. La cura è un filtro secondario.
 
 ## Applica cura progetto
 
@@ -26,13 +26,15 @@ I componenti utilizzati nel progetto verranno aggiunti automaticamente.
 1. (Facoltativo) Per aggiungere altri componenti, trascinate i componenti da condividere dalla barra a sinistra al [!UICONTROL Curate Components] campo.
 1. Fai clic su **[!UICONTROL Done]**.
 
+È inoltre possibile applicare la cura dal [!UICONTROL Share] menu facendo clic su **[!UICONTROL Curate and Share]**. Questa opzione cura automaticamente il progetto con i componenti in uso nel progetto. Potete aggiungere altri componenti seguendo la procedura descritta sopra.
+
 ![](assets/curation-field.png)
+
+## Vista progetto curata
 
 Quando un destinatario apre un progetto curato, vedrà solo il set curato di componenti che hai definito:
 
 ![](assets/curate-project.png)
-
-È inoltre possibile applicare la cura dal [!UICONTROL Share] menu facendo clic su **[!UICONTROL Curate and Share]**. Questa opzione cura automaticamente il progetto con i componenti in uso nel progetto. Potete aggiungere altri componenti seguendo la procedura descritta sopra.
 
 ## Rimuovi cura progetto
 
@@ -48,15 +50,15 @@ Per applicare la cura a livello di suite di rapporti, in modo che venga applicat
 >[!NOTE]
 > La cura VRS viene sempre applicata prima della cura del progetto. Ciò significa che anche se il progetto curato include alcuni componenti, essi verranno filtrati se la VRS curata non li include.
 
-### Mostra tutti i componenti
+## Opzione Mostra tutti i componenti
 
 In un progetto curato o in una VRS, al destinatario verrà offerta l&#39;opzione per **[!UICONTROL Show All]** i componenti nella barra a sinistra. [!UICONTROL Show All] mostra diversi set di componenti, a seconda:
 
-* il livello di autorizzazione dell&#39;utente (amministratore o non amministratore)
-* ruolo progetto (proprietario/editor o meno)
-* tipo di cura applicata
+* Livello di autorizzazione dell&#39;utente (amministratore o non amministratore)
+* Ruolo progetto (proprietario/editor o meno)
+* Tipo di cura applicata (VRS o progetto)
 
-| Tipo di cura | Amministratori | Proprietari di progetto non amministratori | Non amministratori |
+| Tipo di cura | Amministratori | Proprietario progetto non amministratore o ruolo di modifica | Duplica o visualizza ruolo non amministratore |
 |---|---|---|---|
 | VRS curate | Tutti i componenti VRS non curati | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
 | Progetto curato | Tutti i componenti di progetto non curati | Tutti i componenti di progetto non curati | I componenti di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
