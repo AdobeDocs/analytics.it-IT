@@ -2,7 +2,10 @@
 title: Report di acquisizione in Adobe Analytics
 description: Scopri come creare rapporti basati sull’acquisizione tramite Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 0%
 
 ---
 
@@ -53,9 +56,9 @@ I rapporti di origine e media mostrano i domini che hanno portato il traffico al
 
 Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine seguenti nella guida per l’utente Componenti:
 
-* [Dominio di riferimento](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Tipo di riferimento](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Cerca parola chiave](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Dominio di riferimento](/help/components/dimensions/referring-domain.md)
+* [Tipo di riferimento](/help/components/dimensions/referrer-type.md)
+* [Cerca parola chiave](/help/components/dimensions/search-keyword.md)
 
 ## Tutto il traffico - Riferimenti
 
@@ -65,7 +68,7 @@ Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine segue
 1. Nel menu dei componenti, individua la dimensione Dominio **di** riferimento o Pagina **di** immissione e la trascina sull’area della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
-Per ulteriori informazioni, consulta la sezione relativa alla dimensione [Dominio](/help/components/c-variables/dimensionslist/reports-referring-domains.md) di riferimento nella guida utente Components (Componenti).
+Per ulteriori informazioni, consulta la sezione relativa alla dimensione [Dominio](/help/components/dimensions/referring-domain.md) di riferimento nella guida utente Components (Componenti).
 
 ## Rapporti Google Ads e Search Console
 
@@ -101,7 +104,7 @@ Il rapporto Conversioni mostra i dati e-commerce nel contesto dei social network
 
 ### Social - Plugin
 
-Il rapporto Plugins mostra in che modo i visitatori interagiscono con i plug-in per social media incorporati nel sito. È necessaria un’implementazione aggiuntiva per l’utilizzo in Analysis Workspace. Adobe consiglia di collaborare con un consulente per l&#39;implementazione per garantire che i dati vengano raccolti con precisione.
+Il rapporto Plugins mostra in che modo i visitatori interagiscono con i plug-in per social media incorporati nel sito. È richiesta un’ulteriore implementazione per l’utilizzo in Analysis Workspace. Adobe consiglia di collaborare con un consulente per l&#39;implementazione per garantire che i dati vengano raccolti con precisione.
 
 ### Social - Flusso utenti
 
