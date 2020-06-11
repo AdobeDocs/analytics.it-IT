@@ -2,7 +2,10 @@
 title: events
 description: Impostate la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
@@ -34,13 +37,13 @@ Sono disponibili diverse funzioni:
 La `s.events` variabile è una stringa che contiene un elenco delimitato da virgole di eventi da includere nell’hit. Non esiste alcun limite di byte per questa variabile, pertanto non viene troncata. I valori validi includono:
 
 * `event1` - `event1000`: Eventi personalizzati, impostati come desiderato. Registrazione dell&#39;utilizzo di ogni evento nel documento [di progettazione della](../../../prepare/solution-design.md)soluzione aziendale. Il numero di eventi disponibili dipende dal contratto Analytics dell&#39;organizzazione. La maggior parte delle organizzazioni per i contratti non legacy dispone di 1000 eventi personalizzati. Contatta il responsabile commerciale dell&#39;azienda se non sei sicuro di quanti eventi personalizzati sono disponibili.
-* `purchase`: Aumenta la metrica &#39;Ordini&#39; di 1 e prende i valori impostati nella `products` variabile per calcolare &#39;Unità&#39; e &#39;Entrate&#39;. Per ulteriori informazioni, consulta Evento [di](event-purchase.md) acquisto.
-* `prodView`: Incrementa la metrica &#39;Product Views&#39; (Visualizzazioni prodotto).
-* `scOpen`: Aumenta la metrica &#39;Carts&#39;.
-* `scAdd`: Incrementa la metrica &#39;Incrementi carrello&#39;.
-* `scRemove`: Incrementa la metrica &quot;Rimozione carrello&quot;.
-* `scView`: Incrementa la metrica &#39;Visualizzazioni carrello&#39;.
-* `scCheckout`: Aumenta la metrica &#39;Checkout&#39;.
+* `purchase`: Aumenta la metrica [&#39;Ordini&#39;](/help/components/metrics/orders.md) di 1 e prende i valori impostati nella `products` variabile per calcolare [&#39;Unità&#39;](/help/components/metrics/units.md) &#39; e [&#39;Entrate&#39;](/help/components/metrics/revenue.md). Per ulteriori informazioni, consulta Evento [di](event-purchase.md) acquisto.
+* `prodView`: Aumenta la metrica [&#39;Visite prodotto&#39;](/help/components/metrics/product-views.md) .
+* `scOpen`: Incrementa la metrica [&#39;Carts&#39;](/help/components/metrics/carts.md) .
+* `scAdd`: Incrementa la metrica [&#39;Incrementi carrello&#39;](/help/components/metrics/cart-additions.md) .
+* `scRemove`: Aumenta la metrica [&#39;Rimozioni carrello&#39;](/help/components/metrics/cart-removals.md) .
+* `scView`: Incrementa la metrica [Visualizzazioni carrello](/help/components/metrics/cart-views.md) .
+* `scCheckout`: Aumenta la metrica [&#39;Checkout&#39;](/help/components/metrics/checkouts.md) .
 
 >[!NOTE] Questa variabile fa distinzione tra maiuscole e minuscole. Evitate di usare valori di evento con maiuscole/minuscole errate per garantire una raccolta accurata dei dati.
 
