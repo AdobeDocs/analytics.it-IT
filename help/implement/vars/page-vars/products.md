@@ -2,7 +2,10 @@
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 1%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e Adobe analizza il valore in valori di dimensione separati.
 
->[!NOTE] Se questa variabile viene impostata in un hit senza un evento del carrello della spesa nella [`events`](events/events-overview.md) variabile, la metrica &quot;Visualizzazioni prodotto&quot; viene incrementata di 1. Accertatevi di impostare l&#39;evento del carrello appropriato su ogni hit.
+> [!NOTE] Se questa variabile viene impostata in un hit senza un evento del carrello della spesa nella [`events`](events/events-overview.md) variabile, la metrica Visualizzazioni [](/help/components/metrics/product-views.md) prodotto si incrementa di 1. Accertatevi di impostare l&#39;evento del carrello acquisti appropriato su ogni hit con la `products` variabile.
 
 ## Prodotti in Adobe Experience Platform Launch
 
@@ -32,8 +35,8 @@ La `s.products` variabile è una stringa che contiene più campi delimitati per 
 * **Nome** prodotto (obbligatorio): Nome del prodotto.
 * **Quantità** (facoltativo): Quanti di questi prodotti sono nel carrello. Questo campo si applica solo agli hit con l’evento di acquisto.
 * **Prezzo** (facoltativo): Il prezzo totale del prodotto come decimale. Se la quantità è maggiore di una, impostare il prezzo sul totale e non sul prezzo del singolo prodotto. Allineare la valuta di questo valore in modo che corrisponda alla [`currencyCode`](../config-vars/currencycode.md) variabile. Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
-* **Eventi** (facoltativo): Eventi collegati al prodotto. Delimitare più eventi con una tubazione (`|`). See [events](events/events-overview.md) for more information.
-* **eVar** (facoltativo): eVar di merchandising collegate al prodotto. Delimitare più eVar di merchandising con una tubazione (`|`). Per ulteriori informazioni, vedi eVar [merchandising](../../../components/c-variables/c-merch-variables/var-merchandising.md) .
+* **Eventi** (facoltativo): Eventi collegati al prodotto. Delimitare più eventi con una tubazione (`|`). Per ulteriori informazioni, consulta [Eventi](events/events-overview.md) .
+* **eVar** (facoltativo): eVar di merchandising collegate al prodotto. Delimitare più eVar di merchandising con una tubazione (`|`). Per ulteriori informazioni, vedi eVar [merchandising](evar-merchandising.md) .
 
 ```js
 // Set a single product using all available fields
@@ -47,7 +50,7 @@ Questa variabile supporta più prodotti nello stesso hit. È utile per il carrel
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
->[!IMPORTANT] Rimuovete tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
+> [!IMPORTANT] Rimuovete tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
 
 ## Esempi
 
@@ -61,7 +64,7 @@ s.products = "Example category;Example product";
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product,;Example product";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
