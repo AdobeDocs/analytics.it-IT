@@ -6,7 +6,10 @@ title: Personalizzare le autorizzazioni degli strumenti delle suite di rapporti
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1141'
+ht-degree: 15%
 
 ---
 
@@ -68,13 +71,13 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | [Pagine bot](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Le pagine dei bot sono per report Reporting e analisi specifici, non per la gestione delle regole bot. Al momento, non è disponibile l&#39;autorizzazione per consentire la modifica delle regole bot.** Le regole bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web. |
 | [Bot](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: I bot sono per report Reporting e analisi specifici, non per la gestione delle regole bot. Al momento, non è disponibile l&#39;autorizzazione per consentire la modifica delle regole bot.** I bot consentono di rimuovere il traffico generato da ragni e bot noti dalla suite di rapporti. La rimozione del traffico bot può fornire una misurazione più precisa dell’attività degli utenti sul sito Web. |
 | [Report data warehouse personalizzato](/help/export/data-warehouse/data-warehouse.md) | Data warehouse si basa su copie di dati grezzi e non ancora elaborati per l&#39;archiviazione e la creazione di report personalizzati, che puoi eseguire filtrando i dati. Puoi chiedere ai report di visualizzare relazioni avanzate tra i dati, partendo da dati grezzi basati su tue precise domande. |
-| [Visite giornaliere di ritorno](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Legacy) Report che visualizza il numero di visitatori del sito Web più di una volta in un dato giorno. Un giorno è definito come l’ultimo periodo di 24 ore. |
+| Visite giornaliere di ritorno | (Legacy) Report che visualizza il numero di visitatori del sito Web più di una volta in un dato giorno. Un giorno è definito come l’ultimo periodo di 24 ore. |
 | [Origini dati Manager](/help/admin/admin/data-sources.md) | La funzione Origini dati consente di importare dati in Analytics da origini offline. |
 | [Escludi per indirizzo IP](/help/admin/admin/exclude-ip.md) | Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attività interne sul sito Web, test del sito e utilizzo dei dipendenti. |
 | ClickMap precedente | Consente di accedere al menu per lo strumento legacy ClickMap overlay. |
 | Installazione di Clickmap legacy | Concede i diritti di installazione allo strumento ClickMap legacy. |
-| [Visite di ritorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Un rapporto che mostra il numero di visite in cui il numero di visite è maggiore di 1. Il rapporto Return Visits (Visite di ritorno) include i visitatori non inclusi nel cookie. |
-| [Importatore](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) classificazioni / Esportatore e Generatore di [regole](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidato in Classificazioni (vedi sotto). |
+| Visite di ritorno | Un rapporto che mostra il numero di visite in cui il numero di visite è maggiore di 1. Il rapporto Return Visits (Visite di ritorno) include i visitatori non inclusi nel cookie. |
+| [Importatore](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/classifications-importer/c-working-with-saint.html) classificazioni / Esportatore e Generatore di [regole](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidato in Classificazioni (vedi sotto). |
 | Gestione feed dati | Concede i diritti al feed di dati di Analytics. |
 | Classificazioni | Combina le seguenti autorizzazioni: &quot;Classificazioni traffico&quot;, &quot;Classificazioni video&quot;, &quot;Classificazioni conversione&quot;, &quot;Gerarchie classificazione&quot;, &quot;Gestione classificazioni&quot; e &quot;Importazione/Esportatore classificazioni e Generatore regole&quot;.  Nota:  Con questa autorizzazione, gli utenti possono modificare le classificazioni per tutte le suite di rapporti, non solo per quelle selezionate. |
 | [Analisi contributi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede i diritti per l’utilizzo di Analisi contributi in Analysis Workspace. |
