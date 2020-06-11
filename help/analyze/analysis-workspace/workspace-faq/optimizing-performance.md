@@ -3,7 +3,10 @@ description: 'null'
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 100%
 
 ---
 
@@ -103,5 +106,5 @@ Il numero di utenti che accede contemporaneamente ad Analysis Workspace o agli s
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe sta riscontrando un problema da risolvere. È consigliato inviare il codice di errore tramite una richiesta dell’Assistenza clienti. |
 | `The request is too complex.` | La richiesta di generazione rapporti è troppo grande e non può essere eseguita. Questo errore è causato da timeout dovuti alla dimensione della richiesta, troppi elementi associati in un segmento o un filtro di ricerca, inclusione di troppe metriche, combinazioni di dimensioni e metriche incompatibili, ecc. È consigliato semplificare la richiesta. |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | È consigliato restringere i criteri di testo di ricerca e riprovare. |
-| `This dimension does not currently support non-default attribution models.` | È consigliato sostituire la dimensione nella tabella con una compatibile con [Attribution IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md). |
+| `This dimension does not currently support non-default attribution models.` | È consigliato sostituire la dimensione nella tabella con una compatibile con [Attribution IQ](../attribution/overview.md). |
 | `Your request failed as a result of too many columns or pre-configured rows.` | È consigliato rimuovere alcune colonne o righe oppure suddividerle in visualizzazioni separate. |
