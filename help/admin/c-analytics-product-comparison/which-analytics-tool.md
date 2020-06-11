@@ -3,9 +3,9 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 98%
 
 ---
@@ -73,7 +73,7 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)**sono utili nei
 
 * Quando devi caricare dei dati in Adobe Analytics e non puoi usare il codice di Adobe AppMeasurement o Mobile SDK.
 
-Gli **[Attributi cliente](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**sono indicati nei seguenti casi:
+Gli **[Attributi cliente](https://docs.adobe.com/content/help/it-IT/core-services/interface/customer-attributes/attributes.html)**sono indicati nei seguenti casi:
 
 * Se acquisisci dati cliente Enterprise in un database CRM (Customer Relationship Management) e vuoi caricarli in Experience Cloud.
 * Se desideri utilizzare i dati CRM per analisi più approfondite in Analytics o come criteri di targeting in Adobe Target.
