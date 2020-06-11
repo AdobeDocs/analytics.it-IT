@@ -2,7 +2,7 @@
 title: Differenze di elaborazione e architettura tra le piattaforme Analytics
 description: Scopri in che modo alcuni dati vengono raccolti e visualizzati in modo diverso tra le piattaforme come Adobe Analytics e Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -25,7 +25,7 @@ In entrambe le piattaforme, se più hit vengono inviati nella stessa visita o se
 
 Per ottenere una migliore parità tra gli strumenti di reporting, utilizzate la [!UICONTROL Single Page Visits] metrica in Adobe Analytics invece che [!UICONTROL Bounces] come parte di una metrica calcolata. La [!UICONTROL Single Page Visits] metrica include il numero totale di visite che includevano solo una visualizzazione di pagina, o visite che entrano nel sito Web ma non includono un clic su un&#39;altra pagina.
 
-Per ulteriori informazioni, consulta la metrica [Frequenza](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) rimbalzi nella guida utente Componenti.
+Per ulteriori informazioni, consulta la metrica [Frequenza](/help/components/metrics/bounce-rate.md) rimbalzi nella guida utente Componenti.
 
 ## [!UICONTROL Visits] e sessioni
 
@@ -36,4 +36,4 @@ Per ulteriori informazioni, consulta la metrica [Frequenza](/help/components/c-v
 * **Ignoramento sessione manuale:** Una nuova sessione in Google Analytics viene avviata se utilizzate `sessionControl` per avviare o terminare manualmente una sessione. [!UICONTROL Visits] non può essere terminata manualmente in Adobe Analytics.
 * **Rilevamento di visite in Adobe Analytics:** Una nuova funzione [!UICONTROL Visit] in Adobe Analytics viene avviata automaticamente se un utente raggiunge 12 ore di attività continua, 2500 o 100 hit entro 100 secondi. Ciascuno di questi criteri di rilevamento viene in genere attivato dall&#39;attività bot.
 
-Per ulteriori informazioni, consulta la metrica [Visite](/help/components/c-variables/c-metrics/metrics-visit.md) nella guida utente Componenti.
+Per ulteriori informazioni, consulta la metrica [Visite](/help/components/metrics/visits.md) nella guida utente Componenti.
