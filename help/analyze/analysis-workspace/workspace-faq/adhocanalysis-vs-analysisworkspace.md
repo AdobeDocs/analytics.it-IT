@@ -3,7 +3,10 @@ description: Confronta la terminologia e le attività di Ad Hoc Analysis ad Anal
 title: Confronto tra Analysis Workspace e Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ Confronta la terminologia e le attività di Ad Hoc Analysis ad Analysis Workspac
 
 Analysis Workspace porta moltissime delle funzionalità di Ad Hoc Analysis nel flusso di lavoro del browser. Anche se alcuni termini e funzionalità restano invariati tra i prodotti, in Analysis Workspace sono stati introdotti nuovi termini e approcci all’analisi.
 
-Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html).
+Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-overview/analytics-product-comparison.html).
 
 ## Confronto della terminologia chiave  {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +103,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Non incluso </p> </td> 
