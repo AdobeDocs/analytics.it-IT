@@ -3,8 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Note tecniche di Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
@@ -48,5 +51,4 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 + [Risoluzione dei problemi di accesso](troubleshoot-login.md)
 + [Risoluzione dei problemi di disconnessione](troubleshoot-sessions.md)
 + [Non specificato, altro e sconosciuto](unspecified.md)
-+ [Identificazione visitatore](visitor-identification.md)
 + [Migrazione dei visitatori](visitor-migration.md)
