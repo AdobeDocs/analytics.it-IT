@@ -2,10 +2,10 @@
 title: Aiuto sui componenti di Analytics
 description: nulle
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 92%
+source-wordcount: '202'
+ht-degree: 84%
 
 ---
 
@@ -16,20 +16,21 @@ ht-degree: 92%
 
 I componenti di Analytics consentono di perfezionare e potenziare le capacità di analisi dei dati. I suoi componenti includono:
 
+* **Dimensioni:** Riferimento per le dimensioni utilizzabili in Adobe Analytics.
+* **Metriche:** Riferimento per le metriche utilizzabili in Adobe Analytics.
 * **Segmentazione:** consente di concentrarsi su un sottoinsieme di dati.
 * **Metriche calcolate:** utilizza delle formule semplici per combinare diverse metriche e le funzioni avanzate per l’analisi statistica.
 * **Suite di rapporti virtuali:** crea un silos virtuale di dati basato su una suite di rapporti. Puoi pulire o segmentare i dati per una migliore esperienza d’uso. Alcune funzioni possono essere utilizzate solo nelle suite di rapporti virtuali.
 * **Analisi** multi-dispositivo: Uno speciale tipo di suite di rapporti virtuali ti consente di configurare l&#39;analisi cross-device.
 * **Avvisi:** puoi ricevere notifiche ogni volta che i dati si scostano da una determinata soglia.
 * **Classificazioni:** consentono di riorganizzare e raggruppare le dimensioni per ottenere informazioni aggiuntive.
-* **Variabili:** guida di riferimento per tutte le dimensioni e metriche disponibili nei rapporti.
 * **Rapporti in tempo reale:** puoi ottenere rapporti e tendenze nel momento in cui diventano disponibili.
 * **Canali di marketing:** scopri in che modo i visitatori arrivano al tuo sito e individua i canali più efficaci.
 
 ## Articoli chiave sui componenti di Analytics
 
-* [Documentazione sulle dimensioni](c-variables/dimensionslist/reports-descriptions.md)
-* [Documentazione sulle metriche](c-variables/c-metrics/metricslist.md)
+* [Dimensioni](dimensions/overview.md)
+* [Metriche](metrics/overview.md)
 
 ## Altre guide utente di Analytics
 
