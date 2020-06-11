@@ -2,7 +2,10 @@
 title: Rapporti sulle conversioni in Adobe Analytics
 description: Scopri come utilizzare i rapporti sulle conversioni in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ La visualizzazione Abbandono non è limitata alla sola dimensione Pagine. Qualsi
 
 I rapporti e-commerce sono generalmente utilizzati dai siti che vendono prodotti o servizi per misurare gli ordini e le entrate sugli articoli acquistati. Questa funzione è disponibile in Adobe Analytics ed è nota come Rapporti sui prodotti.
 
-Entrambi i rapporti e-commerce in Google Analytics e i rapporti sui prodotti in Adobe Analytics richiedono modifiche di implementazione personalizzate da utilizzare. Per ulteriori informazioni, consulta la dimensione [Prodotti](/help/components/c-variables/dimensionslist/reports-products.md) nella guida utente Componenti.
+Entrambi i rapporti e-commerce in Google Analytics e i rapporti sui prodotti in Adobe Analytics richiedono modifiche di implementazione personalizzate da utilizzare. Per ulteriori informazioni, consulta la dimensione [Prodotti](/help/components/dimensions/product.md) nella guida utente Componenti.
 
 ## Rapporti Funnel multicanale
 
@@ -63,12 +66,12 @@ Il rapporto sui percorsi di conversione principali mostra i percorsi dei canali 
 1. Fate clic sull’icona Pannelli a sinistra, quindi trascinate un pannello Attribuzione sopra la tabella a forma libera.
 2. Fate clic sull&#39;icona Componenti a sinistra, individuate la dimensione del canale **di** marketing e trascinatela nella casella con l&#39;etichetta &quot;Aggiungi dimensione&quot;.
 3. Individuate l&#39;evento di conversione desiderato in Metriche (ad esempio, Ordini) e trascinatelo nella casella con l&#39;etichetta &quot;Aggiungi metrica&quot;. Le metriche calcolate non sono supportate per il pannello Attribuzione.
-4. Fate clic su Genera.
+4. Fai clic su Genera.
 5. Nel rapporto risultante, individuate la visualizzazione &quot;Flusso canale&quot;. Questo flusso mostra i percorsi principali che un visitatore ha toccato prima di un acquisto.
 
 Questa visualizzazione del flusso è interattiva. Fate clic su ciascun canale per espandere il flusso in una delle due direzioni.
 
-![Visualizzazione Flusso](/help/technotes/ga-to-aa/assets/flow.png)
+![Visualizzazione flusso](/help/technotes/ga-to-aa/assets/flow.png)
 
 ### Multi-canale - Time Lag
 
@@ -93,5 +96,5 @@ Il rapporto sulla lunghezza del percorso mostra il numero di canali toccati prim
 1. Fate clic sull’icona Pannelli a sinistra, quindi trascinate un pannello Attribuzione sopra la tabella a forma libera
 2. Fate clic sull&#39;icona Componenti a sinistra, individuate la dimensione del canale **di** marketing e trascinatela nella casella con l&#39;etichetta &quot;Aggiungi dimensione&quot;.
 3. Individuate l&#39;evento di conversione desiderato in Metriche (ad esempio, Ordini) e trascinatelo nella casella con l&#39;etichetta &quot;Aggiungi metrica&quot;. Le metriche calcolate non sono supportate per il pannello Attribuzione.
-4. Fate clic su Genera.
+4. Fai clic su Genera.
 5. Nel rapporto risultante, individua la visualizzazione &quot;Punti di contatto per viaggio&quot;. Questo istogramma mostra il numero di canali che un visitatore ha toccato prima di un acquisto.
