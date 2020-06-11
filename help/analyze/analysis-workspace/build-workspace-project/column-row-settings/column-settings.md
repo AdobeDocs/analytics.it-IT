@@ -3,7 +3,10 @@ description: Le impostazioni colonna consentono di configurare la formattazione 
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 96%
 
 ---
 
@@ -46,6 +49,19 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 | Generazione automatica | Genera i limiti per la formattazione condizionale in modo automatico. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
 | Personalizzato | Puoi assegnare manualmente i valori per i campi Limite superiore, Punto intermedio e Limite inferiore per la formattazione condizionale. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
 | Table Cell Preview (Anteprima celle tabella) | Mostra un’anteprima di ciascuna cella con le opzioni di formattazione attualmente selezionate attive. |
+
+## Usa modello attribuzione non predefinito
+
+Analysis Workspace supporta [l’attribuzione](../../attribution/overview.md) per quasi tutte le metriche.
+
+1. Fai clic sull’icona Impostazioni (a forma di ingranaggio) nella colonna di una tabella a forma libera.
+
+   ![Casella di controllo Attribuzione](assets/attribution-checkbox.png)
+
+2. Sotto **[!UICONTROL Data Settings]** (Impostazioni dati), spunta **[!UICONTROL Use non-default attribution model]** (Usa modello di attribuzione non predefinito). For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![Seleziona modello di attribuzione](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
