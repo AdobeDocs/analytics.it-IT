@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -80,11 +80,7 @@ ht-degree: 97%
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
       + [Pannello Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + Pannello Attribuzione {#attribution}
-         + [Panoramica su Attribution](analysis-workspace/c-panels/attribution/attribution.md)
-         + [Utilizzo del pannello Attribuzione](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [Domande frequenti su Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [Attribuzione algoritmica](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Approfondimenti rapidi](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 97%
       + [Condividere e programmare file di progetto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Invio di file: programmazione di un progetto per la consegna](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestione progetti programmati](analysis-workspace/curate-share/schedule-projects.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + Attribution IQ {#attribution}
+      + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
+      + [Modelli di attribuzione e finestre di lookback](analysis-workspace/attribution/models.md)
+      + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
+      + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + [Segmento IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
