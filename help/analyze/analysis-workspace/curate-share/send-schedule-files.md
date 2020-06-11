@@ -1,14 +1,17 @@
 ---
 description: Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o CSV) immediatamente oppure puoi programmarne l’invio.
-title: Condividere e programmare file di progetto
+title: Condividi, menu
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 96%
 
 ---
 
 
-# Condividere e programmare file di progetto
+# Condividi, menu
 
 Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o CSV) immediatamente oppure puoi programmarne l’invio.
 
@@ -24,7 +27,7 @@ Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o 
  <tbody> 
   <tr> 
    <td colname="col1"> Condividi progetto </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Ulteriori informazioni</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > Ulteriori informazioni</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ottieni collegamento progetto </td> 
