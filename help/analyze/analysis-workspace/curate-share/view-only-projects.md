@@ -3,9 +3,9 @@ description: Visualizzare progetti di sola lettura in Workspace
 keywords: View-only projects
 title: Visualizza progetti Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -23,12 +23,13 @@ Le interazioni disattivate in un progetto di sola visualizzazione includono:
 
 * Barra a sinistra nascosta
 * Suite di rapporti
-* Intervallo date calendario pannelloNota: Per assegnare il controllo del calendario ai destinatari, aggiungi un filtro a [discesa con intervalli](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)di date.
+* Intervallo date calendario pannello. Nota: Per assegnare il controllo del calendario ai destinatari, aggiungi un filtro a [discesa con intervalli](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)di date.
 * Filtro freeform
 * N. a forma libera di righe visibili
 * Impostazioni di riga, colonna o visualizzazione a forma libera
 * Segmenti del pannello
 * Menu Modifica, Inserisci e Componente
+* Suggerimenti per Workspace
 
 ## Interazioni abilitate
 
