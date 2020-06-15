@@ -2,7 +2,7 @@
 description: Variabili per la generazione di rapporti sulla privacy in Privacy dei dati.
 title: Variabili per la generazione di rapporti sulla privacy
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
@@ -46,11 +46,11 @@ Ogni suite di rapporti può essere configurata come segue:
 
    ![](assets/rsm-privacy-enable.png)
 
-1. Una volta attivata, verrà visualizzato un messaggio di conferma.
+1. Una volta abilitate, verrà visualizzato un messaggio di conferma.
 
    ![](assets/rsm-privacy-config.png)
 
-1. Le variabili riservate sono ora disponibili per l&#39;analisi in Reporting e analisi e Workspace. Consulta Consent Management Opt-Out e Consent Management Opt-In.
+1. Le variabili riservate sono ora disponibili per l’analisi in Reports &amp; Analytics e Workspace. Consulta Consent Management Opt-Out e Consent Management Opt-In.
 
    ![](assets/consent-management.png)
 
@@ -71,7 +71,7 @@ Consulta [Variabili di dati di contesto](https://docs.adobe.com/help/en/analytic
 
 * Dati contestuali: `contextData.['opt.dmp']`
 * Valori accettati:
-   * N: quando si invia il valore “N”, indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati.  **Nota**: A partire dal 15 gennaio 2020, l’impostazione di questa variabile su &quot;N&quot; blocca la condivisione lato server dell’hit in AAM.
+   * N: quando si invia il valore “N”, questo indica che il consumatore sta rinunciando alla condivisione sulle piattaforme di gestione dei dati.  **Nota**: a partire dal 15 gennaio 2020, l’impostazione di questa variabile su “N” blocca la condivisione lato server dell’hit in AAM.
    * Y: quando si invia il valore “Y”, indica che il consumatore sta accettando la condivisione sulle piattaforme di gestione dei dati.
 
 ### SELL
