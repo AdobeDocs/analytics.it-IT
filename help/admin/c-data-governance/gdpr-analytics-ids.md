@@ -2,7 +2,7 @@
 description: 'null'
 title: Tecniche di etichettatura consigliate
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -28,7 +28,7 @@ Anche se l’azienda raccoglie molti ID diversi nei dati di Analytics, puoi sceg
 * Alcuni ID possono corrispondere a più persone e non è consigliabile rischiare di restituire informazioni su una persona a un&#39;altra persona con lo stesso ID. Ad esempio, anche se puoi verificare che il nome di una persona è Mario Rossi, non è consigliabile restituire tutti i dati su tutti i Mario Rossi nel tuo sistema.
 * Un altro esempio è l&#39;ID di un dispositivo, ad esempio l&#39;ID cookie di Analytics. Se l&#39;ID si presenta in un&#39;app per cellulare, puoi decidere che tutte le interazioni che usano quell&#39;ID debbano essere disponibili per il proprietario del cellulare. Tuttavia se questo si verifica su un dispositivo condiviso, ad esempio un computer usato in casa, di una biblioteca o di un Internet café, non puoi distinguere i vari utenti del dispositivo e il rischio di restituire i dati a un utente diverso è troppo elevato per poter usare questo tipo di ID.
 
-## Tecniche consigliate per gli ID supportati da Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
+## Tecniche consigliate per gli ID supportati da Analytics {#section_B6481505FF1949498D4B4B35B780D050}
 
 Usa questa tabella per determinare i tipi di ID che userai durante l’invio delle richieste di Privacy dei dati ad Analytics. Una volta appresa questa informazione, sarà più facile determinare le altre etichette da usare per le variabili.
 
@@ -43,7 +43,7 @@ Usa questa tabella per determinare i tipi di ID che userai durante l’invio del
   <tr> 
    <td colname="col1"> <p>ID cookie </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html"> Cookie di Analytics (legacy) </a> </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-privacy.html"> (Legacy) Cookie di Analytics </a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/home.html"> Cookie del servizio Identity </a> (ECID), noto in precedenza come Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>Questi cookie identificano un dispositivo o, in particolare, un browser per un utente di un dispositivo. Per un dispositivo condiviso in cui viene usato un accesso comune, questo ID può essere applicato a tutti gli utenti del dispositivo. Adobe ha creato alcuni <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm"> JavaScript unificati </a> che è possibile inserire nel sito web per raccogliere questi cookie al fine di utilizzarli per le richieste di Privacy dei dati. </p> <p>Anche gli utenti dell’SDK di Adobe Analytics per dispositivi mobili hanno un Experience Cloud ID (ECID). L’SDK contiene delle chiamate API per leggere questo ID, in modo che l’app possa raccoglierlo per una richiesta di Privacy dei dati. </p> <p>Molte aziende considerano gli ID cookie del browser come ID di dispositivi condivisi. Di conseguenza, consultando il proprio team legale, è possibile che si decida di non supportarne l’uso come ID accettabili per le richieste di Privacy dei dati o di restituire solo una quantità molto limitata di dati in cui sono usati questi ID o di accettarli solo per le richieste di cancellazione. </p> <p>Questi cookie hanno un'etichetta ID-DEVICE che non può essere modificata (così come le etichette I2 e DEL-DEVICE). La configurazione predefinita di Adobe Analytics restituirà solo informazioni generiche sul dispositivo, quali il tipo di dispositivo, il sistema operativo, il browser e così via, oltre all'ora/data in cui il sito Web è stato visitato usando questi ID. Tuttavia, se si sceglie di supportare questi ID per le richieste di Privacy dei dati, come spiegato di seguito, è possibile aggiungere o rimuovere le etichette ACC-ALL per configurare l’esatto insieme di campi che si desidera restituire per una richiesta di accesso di Privacy dei dati. </p> <p>Soprattutto se la suite di rapporti corrisponde a un’app mobile che richiede l’accesso, puoi decidere che l’Experience Cloud ID per il dispositivo corrisponda a un utente specifico e pertanto è consigliabile etichettare altri campi con ACC-ALL, tra cui i nomi delle pagine visitate, i prodotti visualizzati e così via. </p> <p>Nota: se specifichi l’opzione “expandIds” nella richiesta di Privacy dei dati, le richieste includeranno sempre gli ID cookie, oltre ad altri ID specificati dall’utente. Per altre informazioni consulta la parte relativa all’<a href="/help/admin/c-data-governance/gdpr-id-expansion.md">espansione dell’ID </a>. In queste istanze, i risultati che hanno solo un ID cookie, non altri ID, restituiranno solo dati con etichetta ACC-ALL come parte della richiesta di accesso. </p> </td> 
@@ -82,7 +82,7 @@ Le etichette di cancellazione DEL-DEVICE e DEL-PERSON devono essere usate con mo
 
    Ad esempio, se tre risultati contengono il valore “foo” in eVar7, ma solo uno di essi contiene anche un ID in una variabile diversa che corrisponde a una cancellazione, il valore “foo” in quei risultati verrà modificato in un valore simile a “Privacy dei dati-123456789”, mentre rimarrà invariato negli altri due risultati. Un rapporto che mostra il numero di valori univoci per eVar7 mostrerà ora anche un altro valore univoco. Un rapporto che mostra i valori più importanti per eVars può includere il valore “foo” con due sole istanze (invece delle 3 precedenti). Anche il nuovo valore verrà visualizzato con una sola istanza.
 
-## Tecniche consigliate per l&#39;impostazione delle etichette di accesso  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Tecniche consigliate per l&#39;impostazione delle etichette di accesso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Sebbene pochissimi campi avranno un’etichetta diversa, in molti campi spesso saranno presenti le etichette ACC. Il tipo di etichetta di accesso adeguato dipende dagli ID usati per le richieste di Privacy dei dati.
 
