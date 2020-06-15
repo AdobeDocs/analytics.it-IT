@@ -2,7 +2,7 @@
 description: Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti di accesso e cancellazione delle persone interessate in base al CCPA.
 title: Adobe Analytics e CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -26,7 +26,7 @@ In qualità di Titolare del trattamento dei dati, l’utente determina i dati pe
 
 Adobe Cloud Platform (ACP) fornisce una soluzione integrata che collega l&#39;infrastruttura per la governance dei dati del tuo marchio agli strumenti di Adobe usati per creare e gestire l&#39;esperienza del consumatore. Le funzioni di governance dei dati di Adobe Cloud Platform consentono un collegamento diretto tra i criteri di governance dei dati e l&#39;utilizzo dei dati.
 
-Acquisisci familiarità con [il modo in cui Adobe Analytics gestisce il RGPD](https://www.adobe.com/it/data-analytics-cloud/analytics/general-data-protection-regulation.html): l’articolo illustra la procedura per prepararsi alla privacy e le modalità di integrazione con l’API del servizio di Privacy di Adobe Experience Cloud.
+Acquisisci familiarità con [il modo in cui Adobe Analytics gestisce il RGPD](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html): l’articolo illustra la procedura per prepararsi alla privacy e le modalità di integrazione con l’API del servizio di Privacy di Adobe Experience Cloud.
 
 ## Prepararsi per il CCPA e gestire i dati di Adobe Analytics
 
