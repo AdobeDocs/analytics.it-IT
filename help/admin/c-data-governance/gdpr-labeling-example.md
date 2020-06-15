@@ -2,7 +2,7 @@
 description: 'null'
 title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -10,18 +10,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Esempi di etichettatura
 
-## Dati hit di esempio
+## Dati di esempio dei risultati
 
-Supponete di disporre dei seguenti dati di hit:
+Supponi di avere i dati seguenti:
 
 * La prima riga contiene le etichette per ogni variabile.
-* La seconda riga è il nome della variabile. Se ha un&#39;etichetta ID, contiene lo spazio dei nomi assegnato tra parentesi.
-* I dati degli hit iniziano nella terza riga.
+* La seconda riga è il nome della variabile. Se ha un’etichetta ID, contiene lo spazio dei nomi assegnato tra parentesi.
+* I dati dei risultati partono dalla terza riga.
 
 | Etichette | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
 | **Nome variabile **<br>**(Namespace)** | **MyProp1 **<br>**(utente)** | **ID visitatore **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
-| Dati hit | Mary | 77 | A | M | X |
+| Dati dei risultati | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
@@ -32,26 +32,26 @@ Supponete di disporre dei seguenti dati di hit:
 
 ## Richiesta di accesso di esempio
 
-Se si invia una richiesta di accesso, il file di riepilogo conterrà i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Vengono restituiti due file di riepilogo solo se viene utilizzato un ID persona ed il valore espandereIds è true.
+Se si invia una richiesta di accesso, il file di riepilogo conterrà i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Due file di riepilogo vengono restituiti solo se viene usato un ID persona ed expandIDs è true.
 
 | Valori API | Valori API | Tipo di file restituito | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> |
 |--- |--- |--- |---|---|---|---|---|
 | **Namespace/ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| AAID=77 | false | device | Variabile non presente | 77 | Variabile non presente | M, P | X, W |
-| AAID=77 | true | device | Variabile non presente | 77 | Variabile non presente | M, P | X, W |
+| AAID=77 | false | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
+| AAID=77 | true | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
 | user=Mary | false | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | device | not present | 77, 88 | not present | N, P | U, W |
-| user=Mary  AAID=66 | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true | device | not present | 66, 77, 88 | not present | N, P | U, W, Z |
-| xyz=X | false | device | not present | 55, 77 | not present | M, R | X |
-| xyz=X | true | device | not present | 55, 77 | not present | M, P, R | L, X |
+| user=Mary | true | dispositivo | assente | 77, 88 | assente | N, P | U, W |
+| user=Mary AAID=66 | true | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true | dispositivo | assente | 66, 77, 88 | assente | N, P | U, W, Z |
+| xyz=X | false | dispositivo | assente | 55, 77 | assente | M, R | X |
+| xyz=X | true | dispositivo | assente | 55, 77 | assente | M, P, R | W, X |
 
-Tenere presente che l&#39;impostazione per gli ID espansione non fa alcuna differenza nell&#39;output quando si utilizza un ID cookie.
+Si noti che le impostazioni di expandIDs non cambiano nell’output quando viene usato un ID cookie.
 
-## Richiesta di eliminazione di esempio
+## Richiesta di cancellazione di esempio
 
-Con una richiesta di eliminazione che utilizza i valori API nella prima riga della tabella, la tabella di hit verrà aggiornata in modo che abbia l&#39;aspetto seguente:
+Se la richiesta di cancellazione usa i valori dell’API nella prima riga della tabella, la tabella dei risultati verrà aggiornata e apparirà come la seguente:
 
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
