@@ -2,7 +2,7 @@
 title: Visitatori unici
 description: Numero di singoli (o dispositivi) univoci.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -18,9 +18,9 @@ Se utilizzate l&#39;analisi [](../cda/cda-home.md)cross-device, questa metrica v
 
 ## Visitatori unici giornalieri, settimanali, mensili, trimestrali e annuali
 
-Reporting e analisi offre opzioni per i visitatori unici giornalieri, settimanali, mensili, trimestrali e annuali. Invece di contare un singolo visitatore univoco per l&#39;intero periodo di tempo, i visitatori univoci contano in base alla metrica selezionata. Ad esempio, potete osservare i visitatori unici giornalieri per il sito. Se un visitatore accede al sito al mattino e di nuovo di notte, viene considerato come un singolo visitatore al giorno. Se un visitatore accede al sito il lunedì e il martedì, viene conteggiato come due visitatori unici al giorno.
+Reporting e  Analytics offre opzioni per i visitatori unici giornalieri, settimanali, mensili, trimestrali e annuali. Invece di contare un singolo visitatore univoco per l&#39;intero periodo di tempo, i visitatori univoci contano in base alla metrica selezionata. Ad esempio, potete osservare i visitatori unici giornalieri per il sito. Se un visitatore accede al sito al mattino e di nuovo di notte, viene considerato come un singolo visitatore al giorno. Se un visitatore accede al sito il lunedì e il martedì, viene conteggiato come due visitatori unici al giorno.
 
-Analysis Workspace gestisce i visitatori univoci in base alla granularità del rapporto. Ad esempio, se utilizzi la dimensione [Giorno](../dimensions/day.md) , vedrai visitatori unici giornalieri per ogni valore di dimensione. Tuttavia, per il totale del rapporto, vengono deduplicati visitatori univoci per l&#39;intervallo di date della tabella a forma libera.
+ Analysis Workspace gestisce i visitatori univoci in base alla granularità del rapporto. Ad esempio, se utilizzi la dimensione [Giorno](../dimensions/day.md) , vedrai visitatori unici giornalieri per ogni valore di dimensione. Tuttavia, per il totale del rapporto, vengono deduplicati visitatori univoci per l&#39;intervallo di date della tabella a forma libera.
 
 ## Modalità di calcolo di questa metrica
 
@@ -34,7 +34,7 @@ Questa metrica conta il numero di ID visitatore univoci per un dato valore di di
 | 4 | `fid` | Il visitatore ha un [`s_fid`](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-analytics.html) cookie esistente, oppure se `aid` e non `mid` è stato possibile impostarlo per nessun motivo. |
 | 5 | Indirizzo IP, agente utente, indirizzo IP gateway | Ultimo ricorso per identificare un visitatore univoco se il browser del visitatore non accetta i cookie. |
 
->[!NOTE] Ogni ID visitatore di Analytics è associato a un profilo sui server Adobe. Questi profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
+>[!NOTE] Ogni ID visitatore Analytics  è associato a un profilo sui server Adobe. Questi profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
 
 ## Comportamento che influisce sul conteggio dei visitatori univoci
 
@@ -45,7 +45,7 @@ Gli identificatori visitatore univoci vengono generalmente memorizzati in un coo
 * La stessa persona che naviga sul sito su diversi dispositivi. Un visitatore univoco separato viene conteggiato per dispositivo. Potete utilizzare l&#39;analisi [](../cda/cda-home.md) cross-device per combinare i visitatori utilizzando la metrica [Persone](people.md) .
 * Apre una sessione di navigazione privata (ad esempio la scheda Incognito di Chrome).
 
-Un nuovo visitatore univoco **non* viene conteggiato, purché sia mantenuto l&#39;identificatore del cookie:
+Un nuovo visitatore univoco *non* viene conteggiato, purché sia mantenuto l’identificatore del cookie:
 
 * Chiude il browser per un periodo prolungato
 * Aggiorna il browser alla versione più recente
