@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 64%
+source-wordcount: '622'
+ht-degree: 67%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 64%
    + [Primo canale touch](dimensions/first-touch-channel.md)
    + [Primo dettaglio canale touch](dimensions/first-touch-detail.md)
    + [Profondità dell&#39;hit](dimensions/hit-depth.md)
+   + [Tipo di hit](dimensions/hit-type.md)
    + [Ora del giorno](dimensions/hour-of-day.md)
    + [Ora](dimensions/hour.md)
    + [Java abilitato](dimensions/java-enabled.md)
@@ -246,11 +247,11 @@ ht-degree: 64%
    + [Configurare rapporti in tempo reale](c-real-time-reporting/t-realtime-admin.md)
    + [Metriche e dimensioni in tempo reale supportate](c-real-time-reporting/realtime-metrics.md)
 + Canali marketing {#marketing-channels}
-   + [Guida introduttiva ai canali di marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Introduzione ai canali di marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Gestire i canali di marketing](c-marketing-channels/c-channels.md)
    + [Regole di elaborazione per i canali di marketing](c-marketing-channels/c-rules.md)
    + [Classificazioni in canali di marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Scadenza dell&#39;engagement dei visitatori](c-marketing-channels/visitor-engagement.md)
    + [Analisi dei canali di marketing](c-marketing-channels/analyze-mc.md)
-   + [Autorizzazioni canale di marketing](c-marketing-channels/c-channel-report-access.md)
-   + [Domande frequenti e esempi su Marketing Channels](c-marketing-channels/c-faq.md)
+   + [Autorizzazioni dei canali di marketing](c-marketing-channels/c-channel-report-access.md)
+   + [Domande frequenti e esempi sui canali di marketing](c-marketing-channels/c-faq.md)
