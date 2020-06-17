@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '443'
 ht-degree: 92%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
@@ -154,7 +155,7 @@ ht-degree: 92%
    + [Implementazione in un ambiente di sviluppo](launch/deploy-dev.md)
    + [Convalida e pubblicazione](launch/validate-publish-prod.md)
    + [Mappatura di oggetti livello dati su elementi dati](launch/layer-to-elements.md)
-   + [Mappatura degli elementi dei dati di Launch alle variabili Analytics](launch/elements-to-variable.md)
+   + [Mappatura degli elementi dei dati di Launch su variabili Analytics](launch/elements-to-variable.md)
 + Implementazione di Analytics su altre piattaforme {#other}
    + [Implementazione di Analytics utilizzando richieste di immagini codificate](other/hardcoded.md)
    + Implementazione di Analytics utilizzando DTM {#dtm}
@@ -200,6 +201,6 @@ ht-degree: 92%
    + [Monitor per pacchetti](validate/packet-monitor.md)
    + [Collisioni hash](validate/hash-collisions.md)
 + [Domande frequenti](faq.md)
-+ Utilizzare i dati XDM con Analytics {#aep-edge}
++ Utilizzare i dati XDM con  Analytics {#aep-edge}
    + [Usa SDK Web AEP](aep-edge/xdmoverview.md)
-   + [Mappare manualmente i dati XDM in Analytics](aep-edge/xdm-manual.md)
+   + [Mappare manualmente i dati XDM su  Analytics](aep-edge/xdm-manual.md)
