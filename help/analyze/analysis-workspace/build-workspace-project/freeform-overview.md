@@ -1,10 +1,10 @@
 ---
-description: nulle
+description: 'null'
 keywords: Analysis Workspace
 title: 'Crea progetto: panoramica'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -20,7 +20,7 @@ In Analysis Workspace, puoi confrontare ed esaminare i dati sfruttando metodi ch
 
 La query va direttamente al generatore di rapporti: per creare un’analisi, potrai apportare modifiche dirette senza mettere mano ad altri rapporti. Il risultato è immediato e senza necessità di aggiornare la visualizzazione del browser.
 
-## Pagina dell’elenco dei progetti Workspace  {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Pagina dell’elenco dei progetti Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
 Quando scegli **[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Workspace]** (Workspace), vengono elencati tutti i progetti di cui sei l’autore o a cui puoi accedere. Per impostare questa pagina come pagina di destinazione di Adobe Analytics, fai clic su **[!UICONTROL Set as Landing Page]** (Imposta come pagina di destinazione). Se non trovi questa impostazione, come illustrato nella videata qui sotto, è possibile che la pagina sia già stata impostata come pagina di destinazione.
 
@@ -30,7 +30,7 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 
 | Elemento | Descrizione |
 |---|---|
-| Progetto  [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
+| Progetto [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
 | [Crea nuovo progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Fai clic su questo collegamento per iniziare un nuovo progetto da zero. |
 | Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL Projects]** (Progetti)), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
 | Visualizza esercitazioni | Consente di accedere ai [video YouTube su Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
@@ -49,8 +49,8 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 
 | Impostazione | Descrizione |
 |---|---|
-| Progetto  Nome | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
-| Creato da | Nome del proprietario del progetto |
+| Progetto Nome | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
+| Creato da | Nome del proprietario del progetto. |
 | Ultima modifica | Data dell’ultima modifica apportata al progetto. |
 | Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. Puoi anche assegnare i tag ai progetti al momento del salvataggio. Puoi vedere i tag di un progetto nella colonna [!UICONTROL Tags] che si trova nella pagina di destinazione di Workspace. |
 | Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
@@ -70,8 +70,8 @@ I sottomenu contengono le seguenti opzioni.
 
 | Progetto | Modificare | Inserisci | Componenti | Condividi | Aiuto |
 |---|---|---|---|---|---|
-| Nuovo i | Annulla | Nuovo pannello | Nuovo segmento | Condividi progetto | Video |
-| Open | Cancella | Nuovo pannello a forma libera | Nuova metrica | Ottieni collegamento progetto* | Tasti di scelta rapida |
+| Nuovo | Annulla | Nuovo pannello | Nuovo segmento | Condividi progetto | Video |
+| Apri | Cancella | Nuovo pannello a forma libera | Nuova metrica | Ottieni collegamento progetto* | Tasti di scelta rapida |
 | Salva | Cancella tutto | Nuovo pannello Confronto segmenti | Nuovo intervallo date | Invia file ora* | Forum di Aiuto |
 | Salva con nome* |  | Nuova tabella a forma libera | Nuovo avviso | Invia file secondo programma* |  |
 | Imposta come pagina di destinazione* |  | Nuovo grafico a linee | Aggiorna componenti | Cura dati progetto |  |
@@ -80,7 +80,7 @@ I sottomenu contengono le seguenti opzioni.
 | Scarica PDF* |  |  |  |  |  |
 | Informazioni e impostazioni progetto |  |  |  |  |  |
 
-## Barra a sinistra  {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## Barra a sinistra {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 La barra a sinistra include 3 icone, che consentono di accedere a Pannelli, [Visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e [Componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) (Dimensioni, Metriche, Segmenti, Intervalli dati) con un clic:
 
