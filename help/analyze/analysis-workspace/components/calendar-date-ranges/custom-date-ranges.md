@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -42,7 +42,7 @@ Ad esempio, puoi creare un intervallo di date che specifica una finestra di 7 gi
 
 ![](assets/create_date_range.png)
 
-Seleziona  *`rolling daily`*.
+Seleziona *`rolling daily`*.
 
 * Le impostazioni Inizio corrispondono a *`current day minus 14 days`* (data attuale meno 14 giorni).
 
