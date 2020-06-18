@@ -2,7 +2,7 @@
 description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
@@ -10,30 +10,30 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 # Panoramica delle visualizzazioni
 
-Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri elementi. Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Fai clic sul nome della visualizzazione per ulteriori informazioni.
+Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Fai clic sul nome della visualizzazione per ulteriori informazioni.
 
-Video su YouTube: Tipi di [visualizzazione in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Video su YouTube: [Tipi di visualizzazione in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
-| Nome visualizzazione | Descrizione |
+| Nome della visualizzazione | Descrizione |
 |---|---|
-| [Superfici](/help/analyze/analysis-workspace/visualizations/area.md) | come un grafico a linee, ma con un&#39;area colorata sotto la linea. Un grafico a superfici è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
-| [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | Mostra barre verticali che rappresentano diversi valori in una o più metriche. |
-| [Grafico bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Mostra come un valore al quale sei interessato si confronta con altri intervalli di prestazioni (obiettivi) o misura rispetto ad altri. |
+| [Superfici](/help/analyze/analysis-workspace/visualizations/area.md) | È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
+| [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | Mostra barre verticali che rappresentano diversi valori su una o più metriche. |
+| [Grafico bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Mostra come un valore desiderato si confronta con altre gamme di prestazioni (obiettivi). |
 | [Tabella coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Un *`cohort`* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Lo strumento di analisi per coorte è utile, ad esempio, quando si vuole comprendere in che modo una coorte si relaziona con un marchio. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. |
 | [Anello](/help/analyze/analysis-workspace/visualizations/donut.md) | Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. |
 | [Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito. |
-| [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Mostra i percorsi dei clienti attraverso i siti Web e le app. |
-| [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Una tabella freeform non è solo una tabella di dati, ma anche una visualizzazione interattiva. |
-| [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli.  |
-| [Barra orizzontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori in una o più metriche. |
-| [Linee](/help/analyze/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare come cambiano i valori in un determinato periodo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale. |
-| [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate) ed |
-| [Grafico a dispersione](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra i valori di dimensione e fino a tre metriche. |
-| [Numero riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | A seconda della cella selezionata, questa visualizzazione mostra i totali e i riepiloghi. |
-| [Modifica di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | A seconda delle celle selezionate, questa visualizzazione confronta le celle tra loro. |
+| [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Mostra i percorsi dei clienti attraverso i siti web e le app. |
+| [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. |
+| [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. |
+| [Barre orizzontali](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
+| [Linee](/help/analyze/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale. |
+| [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). |
+| [Grafico a dispersione](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra i valori di dimensione fino a tre metriche. |
+| [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | A seconda della cella selezionata, questa visualizzazione mostra i totali e i riepiloghi. |
+| [Variazione di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | A seconda delle celle selezionate, questa visualizzazione confronta le celle tra loro. |
 | [Testo](/help/analyze/analysis-workspace/visualizations/text.md) | Consente di aggiungere testo definito dall’utente al progetto Workspace. |
 | [Mappa ad albero](/help/analyze/analysis-workspace/visualizations/treemap.md) | Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Consente di trascinare fino a 3 segmenti (da Componenti) e una metrica per creare un diagramma di Venn. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Consente di trascinare fino a 3 segmenti (dai Componenti) e una metrica per costruire un diagramma di Venn. |
 
 ## Pannello Visualizzazioni {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -96,7 +96,7 @@ Per accedere alle impostazioni contestuali disponibili per un grafico, fai clic 
 
 La modifica della legenda **non** è disponibile per le visualizzazioni Mappa ad albero, Bullet, Variazione di riepilogo o Numero di riepilogo, Testo, Forma libera, Istogramma, Coorte o Flusso.
 
-Ad esempio, per modificare un’etichetta di legenda in un grafico a linee: 
+Ad esempio, per modificare un’etichetta di legenda in un grafico a linee:
 
 1. Fai clic su una delle etichette della legenda.
 1. Fai clic su **[!UICONTROL Edit Label]** (Modifica etichetta).
