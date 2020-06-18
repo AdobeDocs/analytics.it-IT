@@ -2,7 +2,7 @@
 description: In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 title: Panoramica di Rilevamento delle anomalie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -33,7 +33,7 @@ Ecco alcuni esempi di anomalie da esaminare:
 
 [Rilevamento delle anomalie](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
 
-L’algoritmo di rilevazione delle anomalie di Analysis Workspace include: 
+L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
 
 * Supporto per la granularità oraria, settimanale e mensile, oltre a quella giornaliera già supportata
 * Supporto per la stagionalità (ad esempio “Black Friday”) e le festività
