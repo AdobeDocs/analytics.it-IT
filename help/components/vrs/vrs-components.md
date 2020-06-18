@@ -1,5 +1,5 @@
 ---
-description: Le suite di rapporti virtuali possono essere curate per includere ed escludere componenti in Analysis Workspace.
+description: Le suite di rapporti virtuali possono essere curate per includere ed escludere componenti.in  Analysis Workspace.
 title: Cura dei componenti di suite di rapporti virtuali
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # Cura dei componenti di suite di rapporti virtuali
 
-Le suite di rapporti virtuali possono essere curate per includere ed escludere componenti in Analysis Workspace.
+Le suite di rapporti virtuali possono essere curate per includere ed escludere componenti.in  Analysis Workspace.
 
 >[!NOTE]Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. Precedentemente, per visualizzare i componenti non curati era sufficiente fare clic su **[!UICONTROL Show all Components]**. The [updated curation experience](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
 
@@ -43,7 +43,7 @@ Per abilitare la cura dei componenti,
    * Intervalli di date
    >[!NOTE]
    >
-   >There is no need to *share* curated components (segments, calculated metrics, date ranges). Saranno sempre visibili in Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
+   >There is no need to *share* curated components (segments, calculated metrics, date ranges). Saranno sempre visibili in  Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
 
 1. È inoltre possibile filtrare o cercare i componenti e aggiungere l&#39;intera selezione filtrata alla colonna inclusa facendo clic **[!UICONTROL Add All]**.
 
@@ -51,11 +51,11 @@ Per abilitare la cura dei componenti,
 
 ## Rinomina componenti {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-Puoi cambiare i nomi visualizzati dei componenti inclusi specifici della suite di rapporti virtuali. Ad esempio, se desideri includere il nome della pagina nella suite di rapporti virtuali, ma vuoi rinominarlo in un contesto più mobile, puoi modificarlo in App Screens. Il nuovo nome viene visualizzato in Analysis Workspace ogni volta che viene utilizzata questa suite di rapporti virtuale.
+Puoi cambiare i nomi visualizzati dei componenti inclusi specifici della suite di rapporti virtuali. Ad esempio, se desideri includere il nome della pagina nella suite di rapporti virtuali, ma vuoi rinominarlo in un contesto più mobile, puoi modificarlo in App Screens. Il nuovo nome viene visualizzato in  Analysis Workspace ogni volta che viene utilizzata questa suite di rapporti virtuale.
 
 ![](assets/vrs-rename-component.png)
 
-In Analysis Workspace, fai clic sull’icona delle informazioni relativa a qualsiasi componente incluso per visualizzare il nome originale del componente rinominato:
+In  Analysis Workspace, fate clic sull’icona delle informazioni relativa a qualsiasi componente incluso per visualizzare il nome originale del componente rinominato:
 
 ![](assets/vrs-aw-renamed.png)
 
@@ -67,4 +67,4 @@ Utilizza i gruppi di componenti per aggiungere componenti in massa alla suite di
 
 ## Comportamento Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Per ulteriori informazioni sulla cura in  Analysis Workspace, consulta [Cura e condivisione di un progetto](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate.html).
