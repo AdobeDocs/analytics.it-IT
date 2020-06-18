@@ -2,7 +2,7 @@
 description: 'null'
 title: Panoramica dell’abbandono
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito.
 
-Le visualizzazioni Abbandono consentono di: 
+Le visualizzazioni Abbandono consentono di:
 
 * Eseguire confronti affiancati di due diversi segmenti nello stesso rapporto
-* Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto)
+* Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto).
 * Combinare diversi valori, da varie dimensioni e metriche
 * Creare un rapporto di abbandono con più dimensioni
 * Identificare dove vanno i clienti immediatamente dopo l’abbandono
