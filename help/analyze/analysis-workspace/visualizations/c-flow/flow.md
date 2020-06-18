@@ -2,7 +2,7 @@
 description: 'null'
 title: Panoramica del flusso
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -28,6 +28,6 @@ Ora puoi visualizzare il [flusso tra dimensioni](/help/analyze/analysis-workspac
 
 Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione al diagramma, trascinala fino ad una zona di rilascio.
 
-## Esportare i diagrammi di flusso come file .CSV  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Esportare i diagrammi di flusso come file .CSV {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 I diagrammi di flusso sono parte del file .CSV di un progetto che viene creato da **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Download CSV]** (Scarica CSV). Questo consente di analizzare i risultati del flusso in Microsoft Excel (sotto forma di tabella) o in un’altra applicazione.
