@@ -1,7 +1,7 @@
 ---
 title: Tabella a forma libera
 description: Informazioni sulle tabelle a forma libera e sul generatore di tabelle a forma libera
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
