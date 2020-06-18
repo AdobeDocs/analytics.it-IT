@@ -2,7 +2,7 @@
 description: 'In Analysis Workspace, il confronto delle date ti consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, come: anno su anno, trimestre su trimestre, mese su mese, ecc.'
 title: Confronto delle date
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -47,7 +47,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
    ![](assets/compare-time-barchart.png)
 
-   Tieni presente che, per mostrare la modifica della percentuale nel grafico a barre dovrai aver selezionato l’impostazione [!UICONTROL Percentages] (Percentuali) in [!UICONTROL Visualization Settings](Impostazioni di visualizzazione).
+   Tieni presente che, per mostrare la modifica della percentuale nel grafico a barre dovrai aver selezionato l’impostazione [!UICONTROL Percentages] (Percentuali) in [!UICONTROL Visualization Settings] (Impostazioni di visualizzazione).
 
 ## Aggiungere una colonna Periodo di tempo per il confronto {#section_93CC2B4F48504125BEC104046A32EB93}
 
