@@ -26,10 +26,10 @@ Il codice JavaScript invia una richiesta di immagine ai server di raccolta dati 
 
 Per poter inviare dati ai server di raccolta dati, Adobe Analytics richiede il codice all’interno del sito web, dell’app mobile o di altre applicazioni. Esistono diversi metodi per implementare questo codice, a seconda della piattaforma e delle esigenze aziendali.
 
-* **Adobe Experience Platform Launch:** metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Inserisci un tag loader in ciascuna pagina e utilizza l’interfaccia di Launch per determinare come viene definita ogni variabile.
-* **Dynamic Tag Management:** predecessore di Launch. DTM offre un’interfaccia simile per implementare Analytics, ma non viene più aggiornato e non offre flessibilità. Adobe consiglia di implementare Adobe Analytics tramite Launch.
-* **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Consente di specificare le variabili e le impostazioni utilizzate in un’implementazione e può essere utile per le implementazioni di Launch basate su regole con codice personalizzato.
-* **SDK per dispositivi mobili**: librerie dedicate per inviare facilmente i dati ad Adobe dall’app mobile.
+* **Adobe Experience Platform Launch:** metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Inserisci un tag loader in ciascuna pagina e utilizza l’interfaccia di Launch per determinare come viene definita ogni variabile.
+* **Dynamic Tag Management:** predecessore di Launch. DTM offre un’interfaccia simile per implementare Analytics, ma non viene più aggiornato e non offre flessibilità. Adobe consiglia di implementare Adobe Analytics tramite Launch.
+* **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Consente di specificare le variabili e le impostazioni utilizzate in un’implementazione e può essere utile per le implementazioni di Launch basate su regole con codice personalizzato.
+* **SDK per dispositivi mobili:** librerie dedicate per inviare facilmente i dati ad Adobe dall’app mobile.
 
 ## Articoli chiave di implementazione di Analytics
 
