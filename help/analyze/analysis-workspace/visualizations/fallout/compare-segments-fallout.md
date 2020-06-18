@@ -3,7 +3,7 @@ description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti c
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Applicare i segmenti nell’analisi dell’abbandono
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
