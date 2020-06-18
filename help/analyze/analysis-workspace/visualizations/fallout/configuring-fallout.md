@@ -2,7 +2,7 @@
 description: 'null'
 title: Configurare una visualizzazione dell’abbandono
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -71,6 +71,6 @@ Quando **fai clic con il pulsante destro del mouse su un punto di contatto**, ve
 | Tendenza punto di contatto | I dati di tendenza di un punto di contatto sono rappresentati in un grafico a linee, con alcuni dati di rilevamento anomalie pregenerati. |
 | Tendenza punto di contatto (%) | Visualizza la tendenza della percentuale di abbandono totale. |
 | Tendenza tutti i punti di contatto (%) | Visualizzare nello stesso grafico la tendenza di tutte le percentuali dei punti di contatto nell’abbandono (tranne Tutte le visite, se incluso). |
-| Analisi approfondita a questo punto di contatto | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo punto di contatto e il punto di contatto successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
-| Analisi abbandono a questo punto di contatto | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
+| Analizza il proseguimento in questo punto di contatto | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo e il successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
+| Analizza l’abbandono in questo punto di contatto | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
 | Crea segmento da punto di contatto | Crea un nuovo segmento dal punto di contatto selezionato. |
