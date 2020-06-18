@@ -1,7 +1,7 @@
 ---
 title: Più suite di rapporti in Workspace
 description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 Ora puoi creare progetti in Analysis Workspace con dati provenienti da più suite di rapporti. Le suite di rapporti ora possono essere selezionate a livello del pannello, per cui puoi scegliere una suite di rapporti diversa per ciascun pannello all’interno dello stesso progetto Workspace.
 
-Questa funzionalità è utile, ad esempio, per: 
+Questa funzionalità è utile, ad esempio, per:
 
 * Confrontare i dati provenienti da due aree geografiche diverse: i dati risiedono in due suite di rapporti diverse. Puoi creare tabelle e visualizzazioni per eseguire confronti affiancati dei dati.
 
@@ -25,10 +25,10 @@ Per applicare una suite di rapporti a tutti i pannelli contemporaneamente, fai c
 
 ## Pannello attivo
 
-Con questa funzione viene introdotto il concetto di “pannello attivo” e “pannello inattivo”. Potete riconoscere il pannello attivo dal bordo blu chiaro intorno ad esso. Se si fa clic all’interno di un pannello, il pannello diventa attivo.
+Con questa funzione viene introdotto il concetto di “pannello attivo” e “pannello inattivo”. Il pannello attivo è riconoscibile dal bordo blu chiaro intorno ad esso. È sufficiente fare clic all’interno del pannello per renderlo attivo.
 
 >[!IMPORTANT]
->Puoi trascinare e rilasciare i contenuti in qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. Trascinando in un pannello inattivo della stessa suite di rapporti, il pannello diventa attivo.
+>Puoi trascinare e rilasciare contenuti in qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. Trascinare un contenuto in un pannello inattivo della stessa suite di rapporti rende il pannello attivo.
 
 | Attività | Pannello attivo | Pannello inattivo |
 |---|---|---|
@@ -46,18 +46,18 @@ Con questa funzione viene introdotto il concetto di “pannello attivo” e “p
 
 
    >[!NOTE]
-   >A volte, quando carichi un progetto (o passa a una suite di rapporti) viene visualizzato un banner in cui non tutti i componenti inclusi nel progetto sono inclusi nella suite di rapporti. Verranno elencati i componenti mancanti. Segui [queste istruzioni](/help/admin/admin-console/permissions/product-profile.md) per impostare le autorizzazioni per le metriche/dimensioni richieste.
+   >Talvolta durante il caricamento di un progetto (o il passaggio a una suite di rapporti) compare un banner se non tutti i componenti inclusi nel progetto compaiono anche nella suite di rapporti. Verranno elencati i componenti mancanti. Segui [queste istruzioni](/help/admin/admin-console/permissions/product-profile.md) per impostare le autorizzazioni per le metriche/dimensioni richieste.
 
    ![](assets/incompat-rs.png)
 
    Hai 3 opzioni per risolvere l’incompatibilità:
-   * Abilita le dimensioni/metriche richieste
+   * Abilita le dimensioni/metriche richieste.
    * Modifica la suite di rapporti.
    * Continua con alcuni dei componenti mancanti. Non si otterrà alcun dato per tali componenti, e/o si otterranno visualizzazioni vuote.
 
 1. Modifica il pannello in un’altra suite di rapporti e osserva come l’etichetta del componente (suite di rapporti attualmente attiva) e i componenti elencati vengono aggiornati in base alla nuova suite di rapporti.
 
-1. Use a keyboard shortcut (`shift` while dragging) to turn an inactive panel to an active panel.
+1. Usa una combinazione di tasti (`shift` durante lo spostamento) per trasformare un pannello inattivo in attivo.
 
 1. (Facoltativo) Puoi anche passare ad altri generatori di componenti Analytics e accertarti che ora visualizzino l’etichetta della suite di rapporti che indica
 
