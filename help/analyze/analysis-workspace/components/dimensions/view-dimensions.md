@@ -2,7 +2,7 @@
 description: 'null'
 title: Anteprima dimensioni
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
