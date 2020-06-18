@@ -1,7 +1,7 @@
 ---
 title: Analista virtuale
 description: Scopri le funzionalità di Adobe Analytics che contribuiscono all’uso di Analista virtuale.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 Analista virtuale, una serie di funzionalità incluse in Adobe Analytics, utilizza algoritmi predittivi e machine learning per fornire informazioni approfondite sulle anomalie che influiscono sulla tua attività. Consente di automatizzare i flussi di lavoro più comuni e onerosi basati sulla scienza dei dati per identificare l’origine di eventuali comportamenti insoliti che emergono dai dati.
 
-## Funzioni  {#features}
+## Funzioni {#features}
 
 Analista virtuale include le seguenti funzionalità:
 
