@@ -2,9 +2,9 @@
 description: ' il pannello Analytics per Target (A4T) consente di analizzare le attività e le esperienze  Adobe Target in  Analysis Workspace.'
 title: ' pannello Analytics per Target (A4T)'
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '850'
 ht-degree: 8%
 
 ---
@@ -61,8 +61,9 @@ Come per qualsiasi pannello in  Analysis Workspace, puoi continuare la tua anali
 | Domanda | Risposta |
 |---|---|
 | Quali tipi di attività sono supportati in A4T? | [Ulteriori](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) informazioni sui tipi di attività supportati. |
-| Le metriche calcolate sono supportate nel reporting A4T? | No. [Ulteriori](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) informazioni sui motivi per cui le metriche calcolate non sono supportate. |
+| Le metriche calcolate sono supportate nei calcoli di incremento e confidenza? | No. [Ulteriori](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) informazioni sui motivi per cui le metriche calcolate non sono supportate in modalità di incremento e confidenza. Le metriche calcolate possono tuttavia essere utilizzate nel reporting A4T al di fuori di queste metriche. |
 | Perché i visitatori unici dovrebbero variare tra Target e  Analytics? | [Ulteriori](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) informazioni sulle varianti di visitatori unici tra i prodotti. |
 | Quando applico un segmento di hit per una specifica attività Target nell&#39;analisi, perché viene restituita un&#39;esperienza non correlata? | La dimensione A4T è una variabile di elenco, il che significa che può contenere più attività (ed esperienze) alla volta. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| La metrica di confidenza tiene conto di ordini estremi o applica una correzione Bonferroni per offerte multiple? | No. [Ulteriori](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) informazioni su come  Analytics calcola la confidenza. |
 
 Per ulteriori informazioni sui rapporti  Analytics per Target, visita il report [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
