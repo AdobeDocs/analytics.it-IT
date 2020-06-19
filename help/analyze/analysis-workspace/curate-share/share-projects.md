@@ -3,9 +3,9 @@ description: Condivisione dei progetti e ruoli dei progetti in Workspace
 keywords: Analysis Workspace sharing
 title: Condivisione di progetti Workspace
 translation-type: tm+mt
-source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
+source-git-commit: 17c963fa6a0fc24d2e3ab45500922ea17ad42240
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '684'
 ht-degree: 5%
 
 ---
@@ -26,19 +26,19 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli del proge
 | Può visualizzare | I destinatari non possono salvare con nome e non hanno accesso alla barra a sinistra. Anche le interazioni sono limitate.<br>Questo ruolo è utile se desiderate condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della vostra organizzazione,  Analysis Workspace o Adobe  Analytics in genere. Tuttavia, è comunque necessario che utilizzino dati e informazioni in un ambiente sicuro.<br>Scopri di più sull&#39;esperienza [](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Può visualizzare il progetto. |
 
 >[!IMPORTANT]
-> I destinatari del progetto aggiunti prima del 18 giugno 2020 sono stati trasferiti in un ruolo di progetto. Gli utenti amministratore hanno eseguito la migrazione al ruolo Can modifica e gli utenti non amministratori hanno eseguito la migrazione al ruolo Can view (Può visualizzare). Questi ruoli forniscono la stessa esperienza di progetto che avevano in precedenza.
+> I destinatari del progetto aggiunti prima del 18 giugno 2020 sono stati trasferiti in un ruolo di progetto. Gli utenti amministratore sono passati al **[!UICONTROL Can edit]** ruolo e gli utenti non amministratori sono passati al **[!UICONTROL Can duplicate]** ruolo. Questi ruoli forniscono la stessa esperienza di progetto che avevano in precedenza. Inoltre, tutti i gruppi (incluso &quot;All&quot;) sono migrati al **[!UICONTROL Can duplicate]** ruolo.
 
 ### Nessun ruolo assegnato
 
-Se a un destinatario non è assegnato un ruolo e riceve un collegamento al progetto ([!UICONTROL Share] > [!UICONTROL Get project link]), per impostazione predefinita verrà inserito nel [!UICONTROL "Can view"] ruolo.
+Se a un destinatario non è assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita verrà inserito nel **[!UICONTROL Can view]**ruolo.
 
 ### Più ruoli assegnati
 
-Se un destinatario viene posizionato in più ruoli, avrà sempre il controllo più alto. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo che come parte di un gruppo. Ad esempio, se all&#39;utente 1 è assegnato Can edit e [!UICONTROL "Can view"] i ruoli, questi avranno [!UICONTROL "Can edit"] il controllo del progetto.
+Se un destinatario viene posizionato in più ruoli, avrà sempre il controllo più alto. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo che come parte di un gruppo. Ad esempio, se all&#39;utente 1 è assegnato Can edit e **[!UICONTROL Can view]** i ruoli, questi avranno **[!UICONTROL Can edit]** il controllo del progetto.
 
 ### Amministratori e ruoli
 
-Gli amministratori inseriti in un [!UICONTROL&quot;Può duplicare&quot;] o [!UICONTROL "Can view"] ruolo riceveranno le esperienze limitate quando aprono un progetto. Se necessario, un amministratore può incrementare il proprio ruolo in [!UICONTROL "Can edit"] qualsiasi momento tramite [!UICONTROL Components] > [!UICONTROL Projects].
+Gli amministratori inseriti in un ruolo **[!UICONTROL Can duplicate]** o **[!UICONTROL Can view]** ruolo riceveranno tali esperienze limitate quando aprono un progetto. Se necessario, un amministratore può incrementare il proprio ruolo in **[!UICONTROL Can edit]** qualsiasi momento tramite **[!UICONTROL Components]>[!UICONTROL Projects]**.
 
 ## Aggiunta di destinatari al progetto condiviso
 
@@ -66,7 +66,7 @@ Tutti gli utenti possono condividere i progetti a gruppi, che sono una raccolta 
 
 ## Condivisione di progetti in Project Manager
 
-I progetti possono essere condivisi anche da [!UICONTROL Components] > [!UICONTROL Projects]. Un singolo progetto può essere condiviso seguendo gli stessi passaggi indicati sopra.
+I progetti possono essere condivisi anche da **[!UICONTROL Components]>[!UICONTROL Projects]**. Un singolo progetto può essere condiviso seguendo gli stessi passaggi indicati sopra.
 
 Se sono stati selezionati più progetti da condividere, i destinatari verranno aggiunti all&#39;elenco esistente di destinatari per ciascun progetto. Ad esempio:
 
