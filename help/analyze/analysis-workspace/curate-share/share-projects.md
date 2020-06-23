@@ -3,9 +3,9 @@ description: Condivisione dei progetti e ruoli dei progetti in Workspace
 keywords: Analysis Workspace sharing
 title: Condivisione di progetti Workspace
 translation-type: tm+mt
-source-git-commit: 324460b89adf55c450d68bdb4fdc884e53f86257
+source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '985'
 ht-degree: 5%
 
 ---
@@ -28,13 +28,13 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli del proge
 >[!IMPORTANT]
 > I destinatari del progetto aggiunti prima del 18 giugno 2020 sono stati trasferiti in un ruolo di progetto. Gli utenti amministratore sono passati al **[!UICONTROL Can edit]** ruolo e gli utenti non amministratori sono passati al **[!UICONTROL Can duplicate]** ruolo. Questi ruoli forniscono la stessa esperienza di progetto che avevano in precedenza. Inoltre, tutti i gruppi (incluso &quot;All&quot;) sono migrati al **[!UICONTROL Can duplicate]** ruolo.
 
-### Nessun ruolo assegnato
+### Nessun ruolo assegnato (destinatari del collegamento Progetto)
 
-Se a un destinatario non è assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita verrà inserito nel **[!UICONTROL Can view]**ruolo.
+Se a un destinatario non è assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita verrà inserito nel **[!UICONTROL Can duplicate]**ruolo.
 
 ### Più ruoli assegnati
 
-Se un destinatario viene posizionato in più ruoli, avrà sempre la massima esperienza. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il **[!UICONTROL Can edit]** ruolo di singolo utente e il **[!UICONTROL Can view]** ruolo di membro di un gruppo, riceverà un&#39;esperienza di **[!UICONTROL Can edit]** progetto.
+Se un destinatario viene posizionato in più ruoli, avrà sempre la massima esperienza. Ciò potrebbe verificarsi se un destinatario viene aggiunto sia come singolo che come parte di un gruppo. Ad esempio, se a un destinatario viene assegnato il **[!UICONTROL Can edit]** ruolo di individuo e il **[!UICONTROL Can view]** ruolo di membro di un gruppo, riceverà un&#39;esperienza di **[!UICONTROL Can edit]** progetto.
 
 ### Amministratori e ruoli
 
@@ -46,7 +46,7 @@ Per aggiungere dei destinatari al progetto condiviso:
 
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Share project]**.
 In presenza di modifiche non salvate, vi verrà richiesto di salvare prima il progetto.
-1. Aggiungi destinatari o gruppi di utenti.
+1. Aggiungi destinatari o gruppi di destinatari.
 Fate riferimento all&#39;icona della guida nella parte superiore per le descrizioni di ciascun ruolo.
 1. (Facoltativo) Condividi componenti di progetto incorporati (segmenti, metriche calcolate e intervalli di date) con tutti i destinatari.
 Dopo essere stati condivisi, questi componenti verranno visualizzati nel menu a discesa Componenti dell&#39;area di lavoro del destinatario. Tenete presente che questa impostazione non persiste, ma rappresenta una singola azione al momento della condivisione.
@@ -64,18 +64,27 @@ Tutti gli utenti possono condividere i progetti a gruppi, che sono una raccolta 
 * Gli amministratori possono condividere con qualsiasi gruppo, incluso &quot;All&quot;.
 * I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di &quot;All&quot;.
 
+## Condivisione di un collegamento di progetto {#Links}
+
+Puoi trovare un collegamento a un progetto in **[!UICONTROL Share]>[!UICONTROL Get project link]**. Quando un utente fa clic su di esso, i destinatari dovranno effettuare l&#39;accesso prima di atterrare nel progetto. Se il destinatario non è stato collocato in un ruolo di progetto, per impostazione predefinita riceverà un&#39;esperienza **[!UICONTROL Can duplicate]**di progetto.
+
+I progetti possono essere condivisi anche da **[!UICONTROL Components]>[!UICONTROL Projects]**. Un singolo progetto può essere condiviso seguendo gli stessi passaggi indicati sopra
+
 ## Condivisione di progetti in Project Manager {#Manager}
 
-I progetti possono essere condivisi anche da **[!UICONTROL Components]>[!UICONTROL Projects]**. Un singolo progetto può essere condiviso seguendo gli stessi passaggi indicati sopra.
+I progetti possono essere condivisi anche da **[!UICONTROL Components]>[!UICONTROL Projects]**. Un singolo progetto può essere condiviso seguendo gli stessi passaggi indicati sopra.  Se sono stati selezionati più progetti da condividere, i destinatari verranno aggiunti all&#39;elenco esistente di destinatari per ciascun progetto.
 
-Se sono stati selezionati più progetti da condividere, i destinatari verranno aggiunti all&#39;elenco esistente di destinatari per ciascun progetto. Ad esempio:
+Ad esempio:
 
-* Il progetto A è condiviso con gli utenti 1, 2, 3
-* Il progetto B è condiviso con gli utenti 4, 5, 6
-* Con i progetti A e B selezionati, gli utenti 4 e 7 vengono aggiunti agli elenchi dei destinatari. Il nuovo elenco di destinatari per ciascun progetto è ora:
-   * Progetto A: 1, 2, 3, 4, 7
-   * Progetto B: 4, 5, 6, 7
-   ![](assets/mult-proj-sharing.png)
+* Il progetto A è condiviso con i destinatari 1, 2, 3
+* Il progetto B è condiviso con i destinatari 4, 5, 6
+
+Con i progetti A e B selezionati, i destinatari 4 e 7 vengono aggiunti agli elenchi di condivisione. Il nuovo elenco di condivisione per ciascun progetto è ora:
+
+* Progetto A: 1, 2, 3, 4, 7
+* Progetto B: 4, 5, 6, 7
+
+![](assets/mult-proj-sharing.png)
 
 ## Domande frequenti {#FAQs}
 
@@ -83,5 +92,5 @@ Se sono stati selezionati più progetti da condividere, i destinatari verranno a
 |---|---|
 | Cosa succede se due editor salvano un progetto contemporaneamente? | Le modifiche non vengono unite e l&#39;ultima versione del progetto salvata viene mantenuta.  Analysis Workspace non supporta attualmente la collaborazione in tempo reale. |
 | In qualità di amministratore, quale esperienza di progetto visualizzerò? | Gli amministratori inseriti in un ruolo **[!UICONTROL Can duplicate]** o **[!UICONTROL Can view]** ruolo riceveranno tali esperienze limitate quando aprono un progetto. Se necessario, un amministratore può incrementare il proprio ruolo in **[!UICONTROL Can edit]** qualsiasi momento tramite **[!UICONTROL Components]>[!UICONTROL Projects]**. |
-| Cosa succede se un utente viene collocato in un ruolo come singolo e in un altro ruolo come membro di un gruppo? | Se un destinatario viene posizionato in più ruoli, riceverà sempre l&#39;esperienza più alta. Ad esempio, se a un utente viene assegnato il **[!UICONTROL Can edit]** ruolo di singolo utente e il **[!UICONTROL Can view]** ruolo di membro di un gruppo, riceverà un&#39;esperienza di **[!UICONTROL Can edit]** progetto. |
-| Perché un utente riceve un&#39;esperienza di sola visualizzazione quando riceve un collegamento di progetto? | Se a un destinatario non è assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita verrà inserito nel **[!UICONTROL Can view]**ruolo. Se l&#39;utente desidera un ruolo di progetto più elevato, il proprietario o l&#39;editor del progetto può aggiungerli al ruolo Can duplicate o Can edit tramite la condivisione modale Progetto. |
+| Cosa succede se un destinatario viene collocato in un ruolo come singolo e in un altro ruolo come membro di un gruppo? | Se un destinatario viene posizionato in più ruoli, riceverà sempre l&#39;esperienza più alta. Ad esempio, se a un destinatario viene assegnato il **[!UICONTROL Can edit]** ruolo di individuo e il **[!UICONTROL Can view]** ruolo di membro di un gruppo, riceverà un&#39;esperienza di **[!UICONTROL Can edit]** progetto. |
+| Che esperienza riceve un destinatario se apre un collegamento di progetto? | Se a un destinatario non è assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita verrà inserito nel **[!UICONTROL Can duplicate]**ruolo. |
