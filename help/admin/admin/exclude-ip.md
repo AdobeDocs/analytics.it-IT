@@ -4,7 +4,10 @@ title: Escludi per indirizzo IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 4%
 
 ---
 
@@ -15,7 +18,9 @@ Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attivit
 
 **[!UICONTROL Analytics]** (Workspace) > **[!UICONTROL Admin]** (Progetto) > **[!UICONTROL Exclude by IP]** (Annulla/Ripeti)
 
->[!NOTE] Gli hit esclusi dall&#39;indirizzo IP vengono fatturati come chiamate [](https://docs.adobe.com/content/help/it-IT/analytics/technotes/terms.translate.html)server.
+>[!NOTE]
+>
+>Gli hit esclusi dall&#39;indirizzo IP vengono fatturati come chiamate [](https://docs.adobe.com/content/help/it-IT/analytics/technotes/terms.translate.html)server.
 
 ## Escludi per cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,7 +32,9 @@ Questa funzione consente a voi e ai vostri colleghi di visitare il sito senza di
 |--- |--- |
 | [!UICONTROL Add CNAME] | Genera un collegamento di rinuncia che puoi utilizzare per escludere il dominio. Per assistenza, contattate gli Utenti supportati della società. <br>Il traffico può essere escluso dalla generazione di rapporti nelle suite di rapporti visitando la pagina di rifiuto della società e scegliendo di escludere il browser dalla misurazione. <br>Se l’implementazione utilizza cookie di terze parti, la pagina di rinuncia è [disponibile qui](https://democorp.112.2o7.net/optout.html?locale=en_US&amp;popup=true). |
 
->[!NOTE] L&#39;esclusione per computer funziona solo se:
+>[!NOTE]
+>
+>L&#39;esclusione per computer funziona solo se:
 >
 > * Si accede al sito Web dalla stessa stazione di lavoro.
 > * I cookie sono attivati nel browser in uso.
@@ -46,7 +53,7 @@ Le visualizzazioni di pagina vengono conteggiate e i visitatori di pagina univoc
 
 È inoltre possibile bloccare la raccolta di dati da indirizzi IP specifici tramite un firewall.
 
-Consulta gli indirizzi [IP utilizzati nell&#39;articolo Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) .
+Consultate gli indirizzi [IP utilizzati nell&#39;articolo  Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html) .
 
 ## Impatto dell&#39;offuscamento IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
