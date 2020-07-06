@@ -2,8 +2,11 @@
 description: Una tabella di confronto per le API di reporting di Analytics. Vengono forniti collegamenti alla documentazione di supporto.
 title: Confronto delle API di reportistica di Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Una tabella di confronto per le API di reporting di Analytics. Vengono forniti collegamenti alla documentazione di supporto.
 
->[!NOTE] Per quanto riguarda la latenza, Analytics for Target (A4T) combina i dati di Analytics e di Target sullo stesso hit per il reporting integrato. Poiché le chiamate Analytics e Target si verificano in momenti diversi, gli hit vengono memorizzati prima di eventuali elaborazioni per raccogliere i dati da entrambe le soluzioni. Questo processo aggiunge una latenza **supplementare di 7-10 minuti** a tutti i punti di controllo.
+>[!NOTE]
+>
+>Per quanto riguarda la latenza, Analytics for Target (A4T) combina i dati di Analytics e di Target sullo stesso hit per il reporting integrato. Poiché le chiamate Analytics e Target si verificano in momenti diversi, gli hit vengono memorizzati prima di eventuali elaborazioni per raccogliere i dati da entrambe le soluzioni. Questo processo aggiunge una latenza **supplementare di 7-10 minuti** a tutti i punti di controllo.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
