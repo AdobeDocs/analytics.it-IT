@@ -2,8 +2,11 @@
 description: Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti di accesso e cancellazione delle persone interessate in base al RGPD.
 title: Adobe Analytics e RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti 
 
 ## Panoramica di Adobe {#section_E582A1D77583410EBB790BB646854A2C}
 
->[!IMPORTANT] Il contenuto di questo documento non rappresenta e non intende sostituirsi a una consulenza legale. Fai riferimento all’ufficio legale della tua azienda per una consulenza relativa al RGPD.
+>[!IMPORTANT]
+>
+>Il contenuto di questo documento non rappresenta e non intende sostituirsi a una consulenza legale. Fai riferimento all’ufficio legale della tua azienda per una consulenza relativa al RGPD.
 
 Il 25 maggio 2018 è entrato in vigore il RGPD (General Data Protection Regulation, regolamento generale sulla protezione dei dati) dell’Unione Europea. Per altre informazioni sulla risposta di Adobe e sulle conseguenze per i clienti di Adobe, consulta [Il RGPD e la tua azienda.](https://www.adobe.com/it/privacy/general-data-protection-regulation.html)
 
