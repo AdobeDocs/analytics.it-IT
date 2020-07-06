@@ -4,7 +4,10 @@ title: Rapporti in tempo reale
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 16%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Visualizza il traffico delle pagine Web e classifica le visualizzazioni delle pagine in tempo reale. Fornisce dati fruibili su cui basare le decisioni aziendali.
 
->[!NOTE] Il rapporto in tempo reale non richiede alcuna implementazione o tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare i rapporti in tempo reale, consulta Configurazione [dei rapporti in tempo](/help/admin/admin/realtime/t-realtime-admin.md)reale.
+>[!NOTE]
+>
+>Il rapporto in tempo reale non richiede alcuna implementazione o tag aggiuntivi. Utilizza l’implementazione esistente di Adobe  Analytics. Per configurare i rapporti in tempo reale, consulta Configurazione [dei rapporti in tempo](/help/admin/admin/realtime/t-realtime-admin.md)reale.
 
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 
@@ -21,7 +26,7 @@ Risposta in tempo reale alle seguenti domande: Che cosa è tendenza sul mio sito
 
 ![](assets/report-realtime.png)
 
-Il dashboard include le metriche ad alta frequenza di Adobe Analytics e l&#39;analisi del sito per segnalare visivamente il traffico e la tendenza della visualizzazione delle pagine delle notizie dinamiche e dei siti Web per la vendita al dettaglio. In tempo reale è possibile comprendere le tendenze dei dati da minuto a minuto, entro pochi secondi dalla raccolta. Raccoglie e trasferisce i dati in un’interfaccia con aggiornamento automatico, utilizzando la correlazione in tempo reale e il tracciamento del contenuto e alcune conversioni.
+Il dashboard include metriche ad alta frequenza di Adobe  Analytics e analisi del sito per segnalare visivamente il traffico e la tendenza della visualizzazione delle pagine delle notizie dinamiche e dei siti Web per la vendita al dettaglio. In tempo reale è possibile comprendere le tendenze dei dati da minuto a minuto, entro pochi secondi dalla raccolta. Raccoglie e trasferisce i dati in un’interfaccia con aggiornamento automatico, utilizzando la correlazione in tempo reale e il tracciamento del contenuto e alcune conversioni.
 
 Due degli scenari di utilizzo più comuni sono gli editori che desiderano promuovere o ridurre le storie in base ai cambiamenti dell&#39;attività dell&#39;utente e gli addetti al marketing che desiderano monitorare il lancio di una nuova linea di prodotti.
 
@@ -45,11 +50,11 @@ L&#39;impostazione e la visualizzazione dei rapporti in tempo reale è limitata 
 
 ## Latenza dei dati come risultato della configurazione A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
-Dopo l&#39;abilitazione dell&#39;integrazione A4T in Adobe Target, si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento di latenza consente la memorizzazione dei dati di Analytics e Target sullo stesso hit, consentendo di suddividere i test per pagina e sezione del sito.
+Dopo che l&#39;integrazione A4T è abilitata nel  Adobe Target, si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe  Analytics. Questo aumento della latenza consente la memorizzazione dei dati da Analytics e Target nello stesso hit, con conseguente possibilità di suddividere i test per pagina e sezione del sito.
 
-Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, inclusi il flusso live e il reporting in tempo reale, e si applica nei seguenti scenari:
+Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi lo streaming live e il reporting in tempo reale e si applica nei seguenti scenari:
 
-* Per lo streaming live, i report in tempo reale e le richieste API e i dati correnti per le variabili di traffico, solo gli hit con un ID dati supplementare vengono ritardati.
-* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit vengono ritardati di altri 5-7 minuti.
+* Per lo streaming live, i rapporti in tempo reale e le richieste API e per i dati correnti per le variabili di traffico, vengono ritardati solo gli insiemi con ID di dati supplementari.
+* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit sono ritardati di altri 5-7 minuti.
 
 L&#39;aumento della latenza inizia dopo l&#39;implementazione del servizio identità, anche se l&#39;integrazione non è stata implementata completamente.
