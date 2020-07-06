@@ -4,7 +4,10 @@ title: Creare segmenti sequenziali
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3673'
+ht-degree: 2%
 
 ---
 
@@ -39,18 +42,18 @@ Ad esempio, considerate una sequenza di B -> D. I tre filtri identificano gli hi
 
 **Esempio 1: B e D appaiono una volta**
 
-| Esempio | A | B | C | D | E | F |
+| Esempio | Una  | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| Includi tutti | A | B | C | D | E | F |
-| Solo prima della sequenza | A | B |  |  |  |  |
+| Includi tutti | Una  | B | C | D | E | F |
+| Solo prima della sequenza | Una  | B |  |  |  |  |
 | Solo dopo la sequenza |  |  |  | D | E | F |
 
 **Esempio 2: B e D appaiono più volte**
 
-| Esempio | A | B | C | D | B | C | D | E |
+| Esempio | Una  | B | C | D | B | C | D | E |
 |---|---|---|---|---|---|---|---|---|
-| Includi tutti | A | B | C | D | B | C | D | E |
-| Solo prima della sequenza | A | B | C | D | B |  |  |  |
+| Includi tutti | Una  | B | C | D | B | C | D | E |
+| Solo prima della sequenza | Una  | B | C | D | B |  |  |  |
 | Solo dopo la sequenza |  |  |  | D | B | C | D | E |
 
 Inquadriamo anche questo concetto con la dimensione Profondità di Hit.
@@ -61,7 +64,7 @@ Inquadriamo anche questo concetto con la dimensione Profondità di Hit.
 
 ## Vincoli dimensione {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-In una clausola &quot;within&quot;, tra istruzioni THEN, è possibile aggiungere, ad esempio, &quot;within 1 search keyword instance&quot;, &quot;within 1 eVar 47 instance&quot;. Questo vincola il segmento all’interno di un’istanza di una dimensione.
+In una clausola &quot;within&quot;, tra istruzioni THEN, è possibile aggiungere, ad esempio, &quot;within 1 search keyword instance&quot;, &quot;within 1 eVar 47 instance&quot;. In questo modo si vincola il segmento entro un’istanza di una dimensione.
 
 L&#39;impostazione di una clausola &quot;Within Dimension&quot; tra le regole consente a un segmento di limitare i dati alle sequenze in cui tale clausola è soddisfatta. Vedere l&#39;esempio seguente, in cui il vincolo è impostato su &quot;Entro 1 pagina&quot;:
 
@@ -135,7 +138,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 L&#39;aggiunta di più [!UICONTROL Hit] contenitori all&#39;interno di un [!UICONTROL Visitor] contenitore consente di utilizzare gli operatori appropriati tra lo stesso tipo di contenitori e di utilizzare regole e dimensioni quali Pagina e Numero visita per definire la visualizzazione della pagina e fornire una dimensione di sequenza all&#39;interno del [!UICONTROL Hit] contenitore. L’applicazione della logica a livello di Hit consente di vincolare e combinare le corrispondenze a uno stesso livello di hit all’interno del [!UICONTROL Visitor] contenitore per creare una serie di tipi di segmenti.
 
-**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (pagina D nell’esempio), quindi hanno visitato la pagina B o la pagina C, senza tenere conto del numero di visite.
+**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (nella pagina D dell’esempio), quindi hanno visitato la pagina B o la pagina C senza tenere conto del numero di visite.
 
 **Casi d&#39;uso**
 
@@ -244,7 +247,9 @@ Create un segmento di sequenza semplice trascinando due [!UICONTROL Hit] conteni
 I contenitori del gruppo logico sono necessari per raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Il contenitore del gruppo logico speciale è disponibile solo nella segmentazione sequenziale, per assicurarsi che le sue condizioni siano soddisfatte dopo qualsiasi checkpoint sequenziale precedente e prima di qualsiasi checkpoint sequenziale successivo. Le condizioni all&#39;interno del punto di controllo del gruppo logico stesso possono essere soddisfatte in qualsiasi ordine. Per contro, i contenitori non sequenziali (hit, visit, visitor) non richiedono che le loro condizioni siano soddisfatte all&#39;interno della sequenza globale, generando risultati non intuitivi se utilizzati con un operatore THEN.
 Il [!UICONTROL Logic Group] contenitore è stato progettato per trattare *diversi checkpoint come un gruppo*, *senza alcun ordine* tra i checkpoint raggruppati. In altre parole, non ci interessa l&#39;ordine dei checkpoint all&#39;interno di quel gruppo. Ad esempio, non è possibile nidificare un [!UICONTROL Visitor] contenitore all&#39;interno di un [!UICONTROL Visitor] contenitore. È invece possibile nidificare un [!UICONTROL Logic Group] contenitore all&#39;interno di un [!UICONTROL Visitor] contenitore con checkpoint di [!UICONTROL Visit]livello e [!UICONTROL Hit]livello specifici.
 
->[!NOTE] Un [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l&#39; [!UICONTROL THEN] operatore è utilizzato all&#39;interno dell&#39;espressione.
+>[!NOTE]
+>
+>Un [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l&#39; [!UICONTROL THEN] operatore è utilizzato all&#39;interno dell&#39;espressione.
 
 | Gerarchia contenitore | Illustrazione | Definizione |
 |---|---|---|
@@ -254,10 +259,10 @@ Il [!UICONTROL Logic Group] contenitore è stato progettato per trattare *divers
 I gruppi logici possono sembrare scoraggianti: ecco alcune best practice per utilizzarli:
 
 **Gruppo logico o contenitore Hit/Visit?**
-Se si desidera raggruppare i checkpoint sequenziali, il &quot;contenitore&quot; è Logic Group. Tuttavia, se tali checkpoint sequenziali devono verificarsi all&#39;interno di un singolo hit o di un ambito di visita, è necessario un contenitore &quot;hit&quot; o &quot;visit&quot;. (Naturalmente, l&#39;hit non ha senso per un gruppo di checkpoint sequenziali, quando un hit può accreditare non più di un checkpoint).
+Se si desidera raggruppare i checkpoint sequenziali, il &quot;contenitore&quot; è il gruppo logico. Tuttavia, se tali checkpoint sequenziali devono verificarsi all&#39;interno di un singolo hit o di un ambito di visita, è necessario un contenitore &quot;hit&quot; o &quot;visit&quot;. (Naturalmente, l&#39;hit non ha senso per un gruppo di checkpoint sequenziali, quando un hit può accreditare non più di un checkpoint).
 
 **I gruppi logici semplificano la creazione di segmenti sequenziali?**
-Sì, possono. Supponiamo che tu stia cercando di rispondere a questa domanda: Un **visitatore ha visualizzato la pagina B, la pagina C o la pagina D dopo la pagina A?**
+Sì, possono. Supponiamo che tu stia cercando di rispondere a questa domanda: **Un visitatore ha visto la pagina B, la pagina C o la pagina D dopo la pagina A?**
 
 È possibile creare questo segmento senza un contenitore del gruppo logico, ma è complesso e laborioso:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
@@ -321,7 +326,7 @@ Creare segmenti utilizzando le [!UICONTROL Logic Group] visualizzazioni di più 
 
 **Crea questo segmento**
 
-Crea questo segmento trascinando Dimensioni, Eventi e Segmenti pregenerati dai riquadri a sinistra. Vedere [Creazione di un segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)di gruppo logico.
+Crea questo segmento trascinando Dimensioni, Eventi e Segmenti predefiniti dai riquadri a sinistra. Vedere [Creazione di un segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)di gruppo logico.
 
 Dopo aver nidificato i valori all’interno del [!UICONTROL Logic Group], fate clic sul **[!UICONTROL Exclude]** pulsante all’interno del [!UICONTROL Logic Group] contenitore.
 
@@ -337,7 +342,7 @@ Creare segmenti utilizzando le [!UICONTROL Logic Group] visualizzazioni di più 
 
 Le pagine B e C iniziali sono identificate in un [!UICONTROL Logic Group] contenitore escluso, quindi seguite da un hit per la pagina A da parte del visitatore.
 
-Crea questo segmento trascinando Dimensioni, Eventi e Segmenti pregenerati dai riquadri a sinistra.
+Crea questo segmento trascinando Dimensioni, Eventi e Segmenti predefiniti dai riquadri a sinistra.
 
 Dopo aver nidificato i valori all’interno del [!UICONTROL Logic Group], fate clic sul **[!UICONTROL Exclude]** pulsante all’interno del [!UICONTROL Logic Group] contenitore.
 
@@ -394,7 +399,7 @@ Se viene indicato &quot;Dopo 2 settimane&quot;, se un hit per la pagina A si ver
 
 >[!IMPORTANT]
 >
->In una clausola &quot;within&quot;, tra istruzioni THEN, è possibile aggiungere, ad esempio, &quot;within 1 search keyword instance&quot;, &quot;within 1 eVar 47 instance&quot;. Questo vincola il segmento all’interno di un’istanza di una dimensione.
+>In una clausola &quot;within&quot;, tra istruzioni THEN, è possibile aggiungere, ad esempio, &quot;within 1 search keyword instance&quot;, &quot;within 1 eVar 47 instance&quot;. In questo modo si vincola il segmento entro un’istanza di una dimensione.
 
 **Esempio**: I visitatori che hanno visitato la pagina A hanno quindi visitato la pagina B in 5 minuti.
 
