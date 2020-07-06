@@ -2,18 +2,21 @@
 title: tl
 description: Invia una chiamata di tracciamento dei collegamenti ad Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
 
 # tl
 
-Il `tl()` metodo è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe. Funziona in modo simile al [`t()`](t-method.md) metodo, ma questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati un caricamento di pagina completo.
+Il `tl()` metodo è un componente di base importante per Adobe  Analytics. Prende tutte  variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe. Funziona in modo simile al [`t()`](t-method.md) metodo, ma questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati un caricamento di pagina completo.
 
 Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) sono abilitati, AppMeasurement chiama automaticamente il `tl()` metodo per inviare i dati di tracciamento dei collegamenti di download e di uscita. Se l&#39;organizzazione preferisce avere maggiore controllo sui collegamenti da monitorare e sul loro comportamento, puoi chiamare il `tl()` metodo manualmente. I collegamenti personalizzati possono essere tracciati solo manualmente.
 
-## Chiamata di tracciamento dei collegamenti in Adobe Experience Platform Launch
+## Chiamata di tracciamento dei collegamenti in  Adobe Experience Platform Launch
 
 Launch ha una posizione dedicata impostata come chiamata di tracciamento dei collegamenti.
 
@@ -21,7 +24,7 @@ Launch ha una posizione dedicata impostata come chiamata di tracciamento dei col
 1. Fate clic sulla proprietà desiderata.
 1. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 1. In [!UICONTROL Actions], fare clic sull&#39;icona &quot;+&quot;
-1. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e su [!UICONTROL Action Type] Invia beacon.
+1. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e su [!UICONTROL Action Type] Invia beacon.
 1. Click the `s.tl()` radio button.
 
 Non è possibile impostare argomenti facoltativi in Launch.
@@ -44,7 +47,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 L&#39;argomento dell&#39;oggetto link determina se il browser attende fino a 500 ms prima di uscire dalla pagina. Se una richiesta di immagine viene inviata prima di 500 ms, la pagina passa immediatamente al collegamento selezionato.
 
->[!NOTE] AppMeasurement abilita automaticamente la [`useBeacon`](../config-vars/usebeacon.md) variabile per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più frequentemente nelle versioni precedenti di AppMeasurement.
+>[!NOTE]
+>
+>AppMeasurement abilita automaticamente la [`useBeacon`](../config-vars/usebeacon.md) variabile per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più frequentemente nelle versioni precedenti di AppMeasurement.
 
 * `this`: Attendi fino a 500 ms per concedere ad AppMeasurement il tempo necessario per inviare una richiesta di immagine. Valore predefinito.
 * `true`: Non aspettate.
