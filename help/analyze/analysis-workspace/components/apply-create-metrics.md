@@ -3,7 +3,7 @@ description: In Analysis Workspace, le metriche possono essere utilizzate in due
 title: Metriche
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 88%
@@ -19,7 +19,9 @@ Puoi trascinare una metrica standard, una metrica calcolata o un modello di metr
 
 ![](assets/metrics_icons.png)
 
->[!NOTE] Anche se questo è apparentemente semplice, l’uso delle metriche è piuttosto elaborato. Puoi aggiungere metriche a un report trascinando la metrica appropriata nella sezione delle metriche di una tabella. Puoi anche suddividere le dimensioni per metriche per avere un controllo preciso sulla visualizzazione della tabella. Inoltre, puoi inserire una metrica come dimensione e una dimensione come metrica per creare un rapporto nel tempo. Usa i vari componenti e scopri cosa puoi fare. Le possibilità sono infinite.
+>[!NOTE]
+>
+>Anche se questo è apparentemente semplice, l’uso delle metriche è piuttosto elaborato. Puoi aggiungere metriche a un report trascinando la metrica appropriata nella sezione delle metriche di una tabella. Puoi anche suddividere le dimensioni per metriche per avere un controllo preciso sulla visualizzazione della tabella. Inoltre, puoi inserire una metrica come dimensione e una dimensione come metrica per creare un rapporto nel tempo. Usa i vari componenti e scopri cosa puoi fare. Le possibilità sono infinite.
 
 Oppure puoi fare clic su **[!UICONTROL Components]** (Componenti) > **[!UICONTROL New Metric]** (Nuova metrica). Verrà visualizzato il [Generatore di metrica calcolata](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html), in cui puoi creare metriche personalizzate basate su metriche esistenti.
 
