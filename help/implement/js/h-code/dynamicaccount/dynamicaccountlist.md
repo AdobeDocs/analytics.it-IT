@@ -2,14 +2,19 @@
 title: dynamicAccountList
 description: Stabilite la logica su come l'implementazione determina la suite di rapporti.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 1%
 
 ---
 
 
 # s.dynamicAccountList
 
->[!IMPORTANT] Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né nel lancio della piattaforma Adobe Experience.
+>[!IMPORTANT]
+>
+>Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né  lancio del Adobe Experience Platform.
 
 La `s.dynamicAccountList` variabile determina in modo dinamico il valore di `s_account`. Se `dynamicAccountSelection` è impostata su `true`, la `dynamicAccountMatch` variabile viene confrontata con `dynamicAccountList`. Se viene trovata una corrispondenza, viene utilizzato l&#39;ID suite di rapporti corrispondente.
 
