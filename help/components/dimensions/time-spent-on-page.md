@@ -2,7 +2,7 @@
 title: Tempo trascorso sulla pagina
 description: Il tempo trascorso da un visitatore sulla pagina.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
@@ -20,7 +20,9 @@ La dimensione &quot;Tempo trascorso sulla pagina&quot; registra il tempo trascor
 
 Questa dimensione è preziosa per comprendere quanto tempo i visitatori interagiscono con una determinata metrica sul sito.
 
->[!TIP] Il tempo trascorso non viene misurato per l’ultimo hit della visita, in quanto non esiste una richiesta immagine successiva per misurare il tempo trascorso. Questo concetto si applica anche alle visite costituite da un singolo hit (un rimbalzo).
+>[!TIP]
+>
+>Il tempo trascorso non viene misurato per l’ultimo hit della visita, in quanto non esiste una richiesta immagine successiva per misurare il tempo trascorso. Questo concetto si applica anche alle visite costituite da un singolo hit (un rimbalzo).
 
 Questa dimensione è basata sugli hit, il che significa che il valore è diverso per ogni hit. Confronta questa dimensione con il [tempo trascorso per visita](time-spent-per-visit.md), che è una dimensione basata sulle visite. Un tempo maggiore impiegato indica che un visitatore è rimasto più a lungo su una pagina (hit).
 
