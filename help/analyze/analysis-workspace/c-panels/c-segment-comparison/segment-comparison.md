@@ -2,8 +2,11 @@
 title: Panoramica del pannello di confronto dei segmenti
 description: Scopri come utilizzare il pannello di confronto dei segmenti, parte del Segmento IQ di Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1126'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +77,9 @@ Visualizza le metriche più importanti dal punto di vista statistico tra i due s
 
 Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspace. Per un’analisi più approfondita su una metrica specifica, posiziona il cursore del mouse su un elemento e fai clic su “Crea elemento visivo”. Viene creata una nuova tabella per analizzare tale metrica specifica. Se una metrica è irrilevante per l’analisi, posiziona il cursore del mouse sulla riga e fai clic sulla X per rimuoverlo.
 
->[!NOTE] Le metriche aggiunte a questa tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
+>[!NOTE]
+>
+>Le metriche aggiunte a questa tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
 
 ![Metriche principali](assets/top-metrics.png)
 
@@ -90,7 +95,9 @@ Mostra i valori di dimensione più importanti dal punto di vista statistico per 
 
 Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspace. Per un’analisi più approfondita su un valore di dimensione specifico, posiziona il cursore del mouse su un elemento e fai clic su “Crea elemento visivo”. Viene creata una nuova tabella per analizzare tale valore di dimensione. Se un valore di dimensione è irrilevante per l’analisi, posiziona il cursore del mouse sulla riga e fai clic sulla X per rimuoverlo.
 
->[!NOTE] I valori di dimensione aggiunti alla tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
+>[!NOTE]
+>
+>I valori di dimensione aggiunti alla tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
 
 ![Dimensioni principali](assets/top-dimension-item1.png)
 
@@ -106,7 +113,9 @@ Mostra quali altri segmenti (diversi dai due segmenti selezionati per il confron
 
 Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspace. Per un’analisi più approfondita su un segmento specifico, posiziona il cursore del mouse su un elemento e fai clic su “Crea elemento visivo”. Viene creata una nuova tabella per analizzare tale segmento specifico. Se un segmento è irrilevante per l’analisi, posiziona il cursore del mouse sulla riga e fai clic sulla X per rimuoverlo.
 
->[!NOTE] I segmenti aggiunti a questa tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
+>[!NOTE]
+>
+>I segmenti aggiunti a questa tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
 
 ![Segmenti principali](assets/top-segments.png)
 
