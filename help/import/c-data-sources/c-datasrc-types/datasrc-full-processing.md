@@ -5,7 +5,7 @@ title: Elaborazione completa
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 81%
@@ -15,7 +15,9 @@ ht-degree: 81%
 
 # Elaborazione completa
 
->[!NOTE] Adobe consiglia agli utenti di utilizzare [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati di elaborazione completa. Le origini dati Elaborazione completa non saranno più utilizzate in futuro.
+>[!NOTE]
+>
+>Adobe consiglia agli utenti di utilizzare [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati di elaborazione completa. Le origini dati Elaborazione completa non saranno più utilizzate in futuro.
 
 Origini dati supporta le variabili seguenti durante l&#39;elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 
