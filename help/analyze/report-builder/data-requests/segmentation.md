@@ -1,17 +1,20 @@
 ---
-description: Come aggiungere, modificare, applicare e filtrare segmenti di Adobe Analytics in Generatore di report.
+description: Come aggiungere, modificare, applicare e filtrare segmenti Adobe  Analytics in Generatore di report.
 title: Gestire segmenti
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 3%
 
 ---
 
 
 # Gestire segmenti
 
-Come aggiungere, modificare, applicare e filtrare segmenti di Adobe Analytics in Generatore di report.
+Come aggiungere, modificare, applicare e filtrare segmenti Adobe  Analytics in Generatore di report.
 
 Generatore di report dispone di un pannello di segmentazione nel Passaggio 1 della Richiesta guidata che consente di creare e gestire i segmenti.
 
@@ -19,10 +22,12 @@ Generatore di report dispone di un pannello di segmentazione nel Passaggio 1 del
 
 ## Aggiunta o modifica di segmenti {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] Per aggiungere o modificare segmenti, l’interfaccia del segmento Generatore di report avvia il generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione del generatore di report rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
+>[!NOTE]
+>
+>Per aggiungere o modificare segmenti, l&#39;interfaccia del segmento Generatore di report avvia il generatore di segmenti  Analytics in una finestra di Microsoft Internet Explorer. La sessione del generatore di report rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
 
 1. Nel pannello dei segmenti del Passaggio 1 della Richiesta guidata, fate clic su **[!UICONTROL Add]**.
-1. Viene aperta una finestra di Internet Explorer che apre l’interfaccia di Analytics Segment Builder. Per informazioni su come creare segmenti, consulta Segmentazione di [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html).
+1. Viene aperta una finestra di Internet Explorer che apre l&#39;interfaccia  Analytics Segment Builder. Per informazioni su come creare segmenti, consulta [segmentazione](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html)Analytics.
 1. Dopo aver definito e salvato il segmento, tornate alla Richiesta guidata.
 1. Fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 
@@ -48,7 +53,7 @@ Potrebbero essere presenti combinazioni specifiche di dimensioni del rapporto ch
 
 ## Ricerca e applicazione di segmenti {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Tutti i segmenti creati in Reporting e analisi, Analisi ad hoc, Generatore di report o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l’elenco, fate clic sull’icona Aggiorna ( ![](assets/refresh_icon.png).
+Tutti i segmenti creati in Reporting e  Analytics,  Ad hoc analysis, Generatore di report o Data warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l’elenco, fate clic sull’icona Aggiorna ( ![](assets/refresh_icon.png).
 
 Puoi applicare uno o più segmenti a una determinata richiesta. Comprende segmenti sequenziali.
 
@@ -58,7 +63,9 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Comprende segmen
 
 1. Verificare i segmenti da applicare.
 
->[!NOTE] Sia che siate un amministratore o un non amministratore, nel Generatore di report potete visualizzare solo i segmenti di proprietà e quelli condivisi con voi. (nell&#39;interfaccia utente Reporting e analisi di marketing, l&#39;amministratore può visualizzare tutti i segmenti nell&#39;organizzazione.)
+>[!NOTE]
+>
+>Sia che siate un amministratore o un non amministratore, nel Generatore di report potete visualizzare solo i segmenti di proprietà e quelli condivisi con voi. (nell&#39;interfaccia utente Reporting e  marketing di Analytics, l&#39;amministratore può visualizzare tutti i segmenti nell&#39;organizzazione.)
 
 ## Filtrare segmenti {#section_376E986D3E684999A7CDB08E53854159}
 
