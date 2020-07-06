@@ -5,7 +5,10 @@ title: Calcolare metriche
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Descrive come calcolare metriche comuni utilizzando i feed di dati.
 
->[!IMPORTANT] Gli hit normalmente esclusi da Adobe Analytics sono inclusi nei feed di dati. Utilizzare `exclude_hit > 0` per rimuovere gli hit esclusi dalle query sui dati non elaborati. I dati di origine dati sono inclusi anche nei feed di dati. Se si desidera escludere le origini dati, escludere tutte le righe con `hit_source = 5,7,8,9`.
+>[!IMPORTANT]
+>
+>Gli hit normalmente esclusi da Adobe  Analytics sono inclusi nei feed di dati. Utilizzare `exclude_hit > 0` per rimuovere gli hit esclusi dalle query sui dati non elaborati. I dati di origine dati sono inclusi anche nei feed di dati. Se si desidera escludere le origini dati, escludere tutte le righe con `hit_source = 5,7,8,9`.
 
 ## Visualizzazioni pagina
 
@@ -25,11 +30,13 @@ Descrive come calcolare metriche comuni utilizzando i feed di dati.
 1. Concatenate `post_visid_high`, `post_visid_low`, `visit_num`e `visit_start_time_gmt`.
 1. Conta il numero univoco di valori.
 
->[!NOTE] Le irregolarità di Internet, le irregolarità del sistema o l’uso di ID visitatore personalizzati possono raramente utilizzare gli stessi `visit_num` valori per visite diverse. Utilizzate `visit_start_time_gmt` quando contate le visite per essere certi che tali visite siano conteggiate.
+>[!NOTE]
+>
+>Le irregolarità di Internet, le irregolarità del sistema o l’uso di ID visitatore personalizzati possono raramente utilizzare gli stessi `visit_num` valori per visite diverse. Utilizzate `visit_start_time_gmt` quando contate le visite per essere certi che tali visite siano conteggiate.
 
 ## Visitatori
 
-Tutti i metodi utilizzati da Adobe per identificare i visitatori univoci (ID visitatore personalizzato, servizio Experience Cloud ID, ecc.) sono tutti calcolati come valore in `post_visid_high` e `post_visid_low`. La concatenazione di queste due colonne può essere utilizzata come standard per identificare i visitatori univoci, indipendentemente da come siano stati identificati come visitatori univoci. Per capire quale metodo Adobe ha utilizzato per identificare un visitatore univoco, usa la colonna `post_visid_type`.
+Tutti i metodi utilizzati da Adobe per identificare i visitatori univoci (ID visitatore personalizzato,  servizio ID Experience Cloud, ecc.) sono tutti calcolati come valore in `post_visid_high` e `post_visid_low`. La concatenazione di queste due colonne può essere utilizzata come standard per identificare i visitatori univoci, indipendentemente da come siano stati identificati come visitatori univoci. Per capire quale metodo Adobe ha utilizzato per identificare un visitatore univoco, usa la colonna `post_visid_type`.
 
 1. Concatenate `post_visid_high` e `post_visid_low`.
 2. Conta il numero univoco di valori.
