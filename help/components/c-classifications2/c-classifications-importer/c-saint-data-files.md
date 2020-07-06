@@ -5,7 +5,10 @@ title: File di dati di classificazione
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1733'
+ht-degree: 1%
 
 ---
 
@@ -65,7 +68,7 @@ Un file di dati deve rispettare le seguenti regole di struttura:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> CODICE DI CONTROLLO </th> 
-   <th colname="col2" class="entry"> DESCRIZIONE </th> 
+   <th colname="col2" class="entry"> DESCRIPTION </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -99,7 +102,9 @@ Un file di dati deve rispettare le seguenti regole di struttura:
 
 ## Formato intestazione colonna
 
->[!NOTE] Adobe consiglia di limitare il numero di colonne di importazione ed esportazione a 30.
+>[!NOTE]
+>
+>Adobe consiglia di limitare il numero di colonne di importazione ed esportazione a 30.
 
 I file di classificazione supportano le seguenti intestazioni di colonna:
 
@@ -111,7 +116,9 @@ Ogni valore deve essere univoco per l&#39;intero sistema. Il valore in questo ca
 
 Ad esempio, reporting e analisi includono automaticamente due classificazioni per [!UICONTROL Campaign] le variabili: [!UICONTROL Campaigns] e [!UICONTROL Creative Elements]. Per aggiungere dati alla [!UICONTROL Campaigns] classificazione, l&#39;intestazione della colonna nel file di dati della classificazione sarà [!UICONTROL Campaigns].
 
->[!NOTE] I valori nell&#39;intestazione della [!UICONTROL Classifications] colonna devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l&#39;importazione non riesce. Ad esempio, se l&#39;amministratore cambia [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nella [!UICONTROL Campaign Set-up Manager], l&#39;intestazione della colonna del file deve cambiare per corrispondere.
+>[!NOTE]
+>
+>I valori nell&#39;intestazione della [!UICONTROL Classifications] colonna devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l&#39;importazione non riesce. Ad esempio, se l&#39;amministratore cambia [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nella [!UICONTROL Campaign Set-up Manager], l&#39;intestazione della colonna del file deve cambiare per corrispondere.
 
 Inoltre, il file di dati supporta le seguenti convenzioni di intestazione aggiuntive per identificare sottocategorie e altre colonne di dati specializzate:
 
@@ -161,9 +168,11 @@ Le date delle campagne sono in genere intervalli (date di inizio e di fine) asso
 
 Per ulteriori informazioni, vedere Classificazioni [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)conversione.
 
->[!NOTE] Nella versione di manutenzione del 10 maggio 2018 [!DNL Analytics] , Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
+>[!NOTE]
+>
+>Nella versione di manutenzione del 10 maggio 2018 [!DNL Analytics] , Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
 
-## Utilizzo di date in combinazione con [!UICONTROL classifications]{#section_966A07B228CD4643B258E73FB8BA150A}
+## Utilizzo di date in combinazione con [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
 [!UICONTROL Classifications] può essere utilizzato per assegnare intervalli di date alle campagne o ad altre conversioni [!UICONTROL classifications]che consentono una misurazione più accurata delle campagne. Dopo aver specificato l&#39;intervallo di date di un valore, qualsiasi valore corrispondente che si verifica al di fuori dell&#39;intervallo di date non sarà classificato. Questo è utile per la misurazione della campagna che desidera utilizzare le date esatte in cui una campagna è stata live, e non tutti gli hit che corrispondono alla campagna stessa. Per classificare con successo un valore con un intervallo di date, è necessario soddisfare quanto segue:
 
@@ -188,9 +197,11 @@ Per classificare le campagne in base all&#39;intervallo di date:
    * Se il mese o il giorno è una cifra singola, è presente uno zero iniziale.
    * Esiste un intervallo di date iniziale; l&#39;intervallo di date di fine è facoltativo.
 
-1. Salvate il file e caricatelo [!DNL Analytics] da Admin| Classificazioni| Importa file.
+1. Salvate il file e caricatelo [!DNL Analytics] da Admin | Classificazioni | Importa file.
 
->[!NOTE] Un valore chiave specifico non può avere più di un intervallo di date.
+>[!NOTE]
+>
+>Un valore chiave specifico non può avere più di un intervallo di date.
 
 ## Classificazioni per la risoluzione dei problemi
 
