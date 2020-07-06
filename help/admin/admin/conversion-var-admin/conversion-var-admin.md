@@ -1,11 +1,11 @@
 ---
-description: La variabile di conversione dell'intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
+description: La variabile di conversione Custom Insight (o eVar) viene inserita nel codice Adobe su pagine Web selezionate del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
 keywords: eVar
 title: Variabili di conversione (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # Conversion Variables (Variabili di conversione) (eVars)
 
-La variabile di conversione dell&#39;intuizione personalizzata (eVar) viene inserita nel codice Adobe su alcune pagine Web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l&#39;utente per un periodo di tempo predeterminato.
+La variabile di conversione Custom Insight (o eVar) viene inserita nel codice Adobe su pagine Web selezionate del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei report di marketing personalizzati. Un eVar può essere basato su visite e funzionare in modo simile ai cookie. I valori passati alle variabili eVar seguono l&#39;utente per un periodo di tempo predeterminato.
 
 Quando un eVar viene impostato su un valore per un visitatore, Adobe ricorda automaticamente tale valore fino alla scadenza. Eventuali eventi di successo riscontrati da un visitatore mentre il valore eVar è attivo vengono conteggiati per il valore eVar.
 
@@ -27,7 +27,9 @@ Le eVar vengono utilizzate in modo ottimale per misurare la causa e l&#39;effett
 
 Se si desidera misurare il traffico o il percorso, è consigliabile utilizzare le variabili di traffico.
 
->[!NOTE] In una richiesta di immagine è possibile memorizzare un solo valore in una eVar. Se più valori sono desiderati in un valore eVar, si consiglia di implementare le variabili [Elenco (variabili elenco)](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html).
+>[!NOTE]
+>
+>In una richiesta di immagine è possibile memorizzare un solo valore in una eVar. Se più valori sono desiderati in un valore eVar, si consiglia di implementare le variabili [Elenco (variabili elenco)](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variabili di conversione - Descrizioni {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -51,7 +53,7 @@ Descrizioni dei campi utilizzati per [modificare le variabili](/help/admin/admin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Allocazione </span> </p> </td> 
-   <td colname="col2"> <p>Determina il modo in cui Analytics assegna il credito per un evento di successo se una variabile riceve valori multipli prima dell’evento. I valori supportati includono: </p> <p> <b>Più recenti</b>: L'ultimo valore eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b>Valore</b>originale: La prima eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b> Lineare</b>:alloca gli eventi di successo in modo uniforme tra tutti i valori eVar. Poiché l’allocazione lineare distribuisce accuratamente i valori solo all’interno di una visita, utilizza l’allocazione lineare con una scadenza eVar della visita. </p> <p>Nota:  Il passaggio dell'allocazione a o da Linear impedisce la visualizzazione dei dati storici. La combinazione di tipi di allocazione nell'interfaccia di reporting può portare a dati erronei nei report. Ad esempio, l'allocazione lineare potrebbe dividere le entrate tra un certo numero di valori eVar diversi. Dopo aver ripristinato l'allocazione più recente, il 100% di tali entrate sarebbe associato al valore singolo più recente. Questa associazione può portare a conclusioni errate da parte degli utenti. </p> <p>Per evitare confusione nei report, Analytics rende i dati storici non disponibili per l'interfaccia. Può essere visualizzato se si decide di ripristinare l'impostazione di allocazione iniziale per l'eVar specificato, anche se non è necessario modificare le impostazioni di allocazione eVar semplicemente per accedere ai dati storici. Adobe consiglia di utilizzare una nuova eVar quando nuove impostazioni di allocazione sono desiderate per i dati già registrati, invece di modificare le impostazioni di allocazione su una eVar che dispone già di una quantità significativa di dati storici. </p> </td> 
+   <td colname="col2"> <p>Determina il modo in cui Analytics assegna il credito per un evento di successo se una variabile riceve valori multipli prima dell’evento. I valori supportati includono: </p> <p> <b>Più recenti</b>: L'ultimo valore eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b>Valore</b>originale: La prima eVar riceve sempre credito per gli eventi di successo fino alla scadenza di tale eVar. </p> <p> <b> Lineare</b>:alloca gli eventi di successo in modo uniforme tra tutti i valori eVar. Poiché l’allocazione lineare distribuisce accuratamente i valori solo all’interno di una visita, utilizza l’allocazione lineare con una scadenza eVar della visita. </p> <p>Nota:  Il passaggio dell'allocazione a o da Linear impedisce la visualizzazione dei dati storici. La combinazione di tipi di allocazione nell'interfaccia di reporting può portare a dati erronei nei report. Ad esempio, l'allocazione lineare potrebbe dividere le entrate tra un certo numero di valori eVar diversi. Dopo aver ripristinato l'allocazione più recente, il 100% di tali entrate sarebbe associato al valore singolo più recente. Questa associazione può portare a conclusioni errate da parte degli utenti. </p> <p>Per evitare la possibilità di confusione nei report,  Analytics rende i dati storici non disponibili per l'interfaccia. Può essere visualizzato se si decide di ripristinare l'impostazione di allocazione iniziale per l'eVar specificato, anche se non è necessario modificare le impostazioni di allocazione eVar semplicemente per accedere ai dati storici. Adobe consiglia di utilizzare una nuova eVar quando nuove impostazioni di allocazione sono desiderate per i dati già registrati, invece di modificare le impostazioni di allocazione su una eVar che dispone già di una quantità significativa di dati storici. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Scade dopo</span> </p> </td> 
