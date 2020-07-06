@@ -2,18 +2,25 @@
 title: Panoramica account dinamici
 description: Scopri come selezionare in modo dinamico una suite di rapporti utilizzando il codice H.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 5%
 
 ---
 
 
 # Panoramica account dinamici
 
->[!IMPORTANT] Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né nel lancio della piattaforma Adobe Experience.
+>[!IMPORTANT]
+>
+>Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript precedenti (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti né  lancio del Adobe Experience Platform.
 
 Gli account dinamici è una funzione di implementazione che consente di determinare quale suite di rapporti utilizzare in base ai criteri definiti dall&#39;utente. Se la tua organizzazione richiede più suite di rapporti ma desidera utilizzare la stessa implementazione tra i tuoi siti, gli account dinamici sono una buona soluzione.
 
->[!TIP] Adobe consiglia di inviare dati a una singola suite di rapporti, quindi di utilizzare suite di rapporti virtuali per separare i dati, se necessario. Per ulteriori informazioni, consulta Considerazioni [](../../../prepare/global-rs.md) globali sulla suite di rapporti.
+>[!TIP]
+>
+>Adobe consiglia di inviare dati a una singola suite di rapporti, quindi di utilizzare suite di rapporti virtuali per separare i dati, se necessario. Per ulteriori informazioni, consulta Considerazioni [](../../../prepare/global-rs.md) globali sulla suite di rapporti.
 
 3 variabili vengono utilizzate per selezionare in modo dinamico una suite di rapporti.
 
