@@ -1,18 +1,23 @@
 ---
-description: nulle
+description: 'null'
 title: Strumenti di amministrazione
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 61%
 
 ---
 
 
 # Strumenti di amministrazione
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT] Non aprire più schede Admin nello stesso browser. Ciò può comportare il salvataggio involontario delle impostazioni nella suite di rapporti errata. Se devi, ad esempio, confrontare i set di regole e copiarli in una nuova suite di rapporti, ti consigliamo di aprire un nuovo browser o di scattare una schermata per confrontare i set di regole.
+>[!IMPORTANT]
+>
+>Non aprire più schede Admin nello stesso browser. Ciò può comportare il salvataggio involontario delle impostazioni nella suite di rapporti errata. Se devi, ad esempio, confrontare i set di regole e copiarli in una nuova suite di rapporti, ti consigliamo di aprire un nuovo browser o di scattare una schermata per confrontare i set di regole.
 
 + [Fatturazione](billing-admin.md)
 + [Panoramica delle regole bot](bot-removal/bot-rules.md)
@@ -41,7 +46,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 + [Panoramica sulle regole di elaborazione](c-processing-rules/processing-rules.md)
 + [Panoramica rapporti in tempo reale](realtime/realtime.md)
 + [Coda dei report pianificati](scheduled-reports-admin.md)
-+ [Panoramica sull'inoltro lato server](c-server-side-forwarding/ssf.md)
++ [Panoramica sull&#39;inoltro lato server](c-server-side-forwarding/ssf.md)
 + [Menu dei rapporti semplificati](t-simplified-menu.md)
 + [Gestione social](social-management.md)
 + [Panoramica eventi di successo](c-success-events/success-event.md)
