@@ -4,7 +4,10 @@ title: Copia richieste adiacenti
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,9 @@ Allo stesso modo in cui copiate e incollate le richieste, potete anche riposizio
 
 Se una richiesta viene tagliata, viene rimossa dalla posizione originale e inserita nella nuova posizione dopo la selezione [!UICONTROL Paste Request]. Se cambiate idea dopo aver tagliato una particolare richiesta e decidete di copiare o tagliare una richiesta diversa da un’altra cella, Generatore di report lascia la prima richiesta nella cella originale e agisce solo (copie o tagli) la seconda.
 
->[!NOTE] Il generatore di report non supporta il comando Annulla di Excel per tagliare o incollare le richieste. Pertanto, prestate attenzione quando tagliate le richieste.
+>[!NOTE]
+>
+>Il generatore di report non supporta il comando Annulla di Excel per tagliare o incollare le richieste. Pertanto, prestate attenzione quando tagliate le richieste.
 
 Non è possibile copiare e incollare nello stesso foglio della cartella di lavoro. È possibile copiare una richiesta in un foglio e incollarla in una posizione in un altro foglio della stessa cartella di lavoro.
 
