@@ -2,7 +2,10 @@
 title: Creare o modificare un feed dati
 description: Scopri come creare o modificare un feed di dati.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 3%
 
 ---
 
@@ -59,7 +62,9 @@ Sono supportate le seguenti 11 aree AWS standard (utilizzando, se necessario, l&
 * eu-west-1
 * sa-east-1
 
->[!NOTE] L&#39;area cn-north-1 non è supportata.
+>[!NOTE]
+>
+>L&#39;area cn-north-1 non è supportata.
 
 ### BLOB di Azure
 
@@ -67,7 +72,9 @@ I feed di dati supportano le destinazioni BLOB di Azure. Richiede un contenitore
 
 ![Informazioni Azure](assets/azure.png)
 
->[!NOTE] È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione del feed. Adobe non elimina alcun dato dal server.
+>[!NOTE]
+>
+>È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione del feed. Adobe non elimina alcun dato dal server.
 
 ## Definizioni delle colonne dati
 
@@ -77,6 +84,6 @@ Sono disponibili tutte le colonne, indipendentemente dai dati in loro possesso. 
 * **Formato** di compressione: Tipo di compressione utilizzato. Gzip produce i file in `.tar.gz` formato. Lo ZIP produce i file in `.zip` formato.
 * **Tipo** di pacchetto: Un singolo file produce il `hit_data.tsv` file in un unico file potenzialmente molto grande. Più file impaginano i dati in blocchi da 2 GB (non compressi). Se più file sono selezionati e i dati non compressi per la finestra di rapporto sono inferiori a 2 GB, viene inviato un file. Adobe consiglia di utilizzare più file per la maggior parte dei feed di dati.
 * **Modelli** colonna: Quando create molti feed di dati, Adobe consiglia di creare un modello di colonna. Quando si seleziona un modello di colonna, vengono automaticamente incluse le colonne specificate nel modello. Per impostazione predefinita, Adobe fornisce anche diversi modelli.
-* **Colonne** disponibili: Tutte le colonne di dati disponibili in Adobe Analytics. Fare clic [!UICONTROL Add all] per includere tutte le colonne in un feed di dati.
+* **Colonne** disponibili: Tutte le colonne di dati disponibili in Adobe  Analytics. Fare clic [!UICONTROL Add all] per includere tutte le colonne in un feed di dati.
 * **Colonne** incluse: Le colonne da includere in un feed di dati. Fare clic [!UICONTROL Remove all] per rimuovere tutte le colonne da un feed di dati.
 * **Scarica CSV**: Scarica un file CSV contenente tutte le colonne incluse.
