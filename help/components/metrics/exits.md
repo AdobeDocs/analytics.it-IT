@@ -2,7 +2,7 @@
 title: Uscite
 description: Un'istanza dell'ultimo valore di una visita.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
@@ -20,4 +20,6 @@ La metrica &#39;Exits&#39; mostra il numero di volte in cui un dato valore di di
 
 Al termine di una [visita](visits.md) , registra il valore della dimensione più recente come uscita. Esiste una sola uscita per dimensione per visita. Non è necessariamente l’ultimo hit della visita se la dimensione è stata impostata negli hit precedenti. È una metrica basata sulle visite; si applica retroattivamente a tutti gli hit della visita.
 
->[!TIP] Se visualizzi questa metrica rispetto a una dimensione non sempre impostata in ogni visita, puoi nascondere il valore di dimensione &quot;Non specificato&quot; in Analysis Workspace. Fate clic sull&#39;icona del filtro, quindi deselezionate [!UICONTROL Include unspecified (None)].
+>[!TIP]
+>
+>Se visualizzi questa metrica rispetto a una dimensione non sempre impostata in ogni visita, puoi nascondere il valore di dimensione &quot;Non specificato&quot; in  Analysis Workspace. Fate clic sull&#39;icona del filtro, quindi deselezionate [!UICONTROL Include unspecified (None)].
