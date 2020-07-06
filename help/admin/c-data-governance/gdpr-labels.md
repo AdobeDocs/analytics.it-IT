@@ -2,8 +2,11 @@
 description: 'null'
 title: Etichette Privacy dei dati per le variabili di Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3634'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ L’implementazione Privacy dei dati in Adobe Analytics supporta le seguenti eti
 
 ## Etichette DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE] Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione per l’uso dei dati) è progettato per fornire un metodo uniforme per tutte le soluzioni, i servizi e le piattaforme di Adobe al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, dati sensibili e vincoli di contratto associati a questi. In questa versione iniziale Analytics espone solo le etichette DULE pertinenti alla Privacy dei dati. Poiché altri prodotti Adobe implementano il supporto per le etichette DULE, le versioni future introdurranno altre etichette per i dati sensibili, nonché etichette contrattuali che garantiranno che i dati condivisi tra i prodotti verranno usati solo nei modi consentiti dalla legge.
+>[!NOTE]
+>
+>Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per tutte le soluzioni, i servizi e le piattaforme di Adobe al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, dati sensibili e vincoli di contratto associati a questi. In questa versione iniziale Analytics espone solo le etichette DULE pertinenti alla Privacy dei dati. Poiché altri prodotti Adobe implementano il supporto per le etichette DULE, le versioni future introdurranno altre etichette per i dati sensibili, nonché etichette contrattuali che garantiranno che i dati condivisi tra i prodotti verranno usati solo nei modi consentiti dalla legge.
 
 ## Etichette per i dati di identità (DULE) {#identity-data-labels}
 
@@ -240,7 +245,9 @@ Non è necessario specificare le etichette ID-DEVICE o ID-PERSON per tutte le va
 
 Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a volte tramite prop7. In questo caso, una regola di elaborazione copia il valore da eVar1, se esiste, in eVar3. Altrimenti copia il valore da prop7 in eVar3. In questo scenario, eVar3 conterrà sempre l’ID CRM se noto, pertanto solo eVar3 richiede un’etichetta ID-PERSON.
 
->[!CAUTION] I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi namespace per le variabili di traffico o conversione personalizzate.
+>[!CAUTION]
+>
+>I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi namespace per le variabili di traffico o conversione personalizzate.
 
 ## Tipi di variabili ed etichette Privacy dei dati/DULE supportate {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -259,7 +266,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
    <td colname="col1"> 
     <ul id="ul_0615B545A5AD43F2A6F25698A47AAD3E"> 
      <li id="li_A4B3E8E241B149C99F2A71B21227AD72">Eventi di successo personalizzati </li> 
-     <li id="li_8AEF688AE9B8426C82D199E4B195330D">eVars Merchandising </li> 
+     <li id="li_8AEF688AE9B8426C82D199E4B195330D">eVar di Merchandising </li> 
      <li id="li_DFFCA65DCC6146AEB6D47476B4D4CC3B">Variabili con più valori (mvVars) </li> 
      <li id="li_3192D08B12C249D1AAA8AAEEDE2FD7D7">Variabili di gerarchia </li> 
     </ul> </td> 
