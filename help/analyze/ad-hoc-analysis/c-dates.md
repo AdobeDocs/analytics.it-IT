@@ -3,7 +3,10 @@ description: Nel calendario, puoi specificare date e intervalli di date o selezi
 title: Date e intervalli di date
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +21,15 @@ Nel calendario, puoi specificare date e intervalli di date o selezionare un pred
 
 ![](assets/Delete_Standard.png) Un&#39; **[!UICONTROL Clear Date]** opzione abilitata indica che è specificato un intervallo di date a livello di rapporto.
 
-Puoi anche trascinare date (e dimensioni ora) nel rapporto o nella [!UICONTROL Table Builder]. Potete selezionare giorni, settimane, mesi, anni specifici o una data continua. Se usi il calendario personalizzato nei reporting e analisi di marketing, una suite di rapporti eredita tali impostazioni e aggiorna di conseguenza il rapporto.
+Puoi anche trascinare date (e dimensioni ora) nel rapporto o nella [!UICONTROL Table Builder]. Puoi selezionare specifici giorni, settimane, mesi, anni, oppure una data continua. Se usi il calendario personalizzato in marketing reports and analytics, una suite di rapporti eredita tali impostazioni e aggiorna di conseguenza il rapporto.
 
 Quando si seleziona un intervallo di date durante la creazione di un progetto, l&#39;utilizzo di Pre-configurato a sinistra imposta una data continua mentre l&#39;uso del calendario a destra non lo sarà. Un modo semplice per stabilire se l&#39;intervallo di date è continuo è l&#39;istruzione &quot;Questo intervallo di date si farà scorrere&quot; accanto al **[!UICONTROL OK]** pulsante.
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] Per assistenza nell’esecuzione di rapporti legacy, contattate l’Account Manager.
+>[!NOTE]
+>
+>Per assistenza nell’esecuzione di rapporti legacy, contattate l’Account Manager.
 
 ## Sezioni data precedenti {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [Crea o apri un progetto.](/help/analyze/ad-hoc-analysis/c-getting-started.md)
 1. Aprite il [calendario](/help/analyze/ad-hoc-analysis/c-dates.md), quindi selezionate **[!UICONTROL Quarter]** o **[!UICONTROL Year]**.
 
->[!NOTE] Le fette data storiche si trovano entro limiti di trimestre e anno. Non è possibile visualizzare i dati che attraversano il confine tra le sezioni legacy e la nuova piattaforma di elaborazione. Gli intervalli di date che si estendono su entrambi generano un errore. Inoltre, gli intervalli di date si applicano solo al calendario gregoriano, non al calendario personalizzato.
+>[!NOTE]
+>
+>Le fette data storiche si trovano entro limiti di trimestre e anno. Non è possibile visualizzare i dati che attraversano il confine tra le sezioni legacy e la nuova piattaforma di elaborazione. Gli intervalli di date che si estendono su entrambi generano un errore. Inoltre, gli intervalli di date si applicano solo al calendario gregoriano, non al calendario personalizzato.
 
