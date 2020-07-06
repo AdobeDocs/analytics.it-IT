@@ -3,7 +3,7 @@ description: 'null'
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 100%
@@ -52,7 +52,9 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
    * [Creazione di avvisi.](/help/components/c-alerts/intellligent-alerts.md)
    * [Creazione o confronto di segmenti.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE] Un punto blu evidenzia l’anomalia nell’analisi dei contributi e nei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata.
+>[!NOTE]
+>
+>Un punto blu evidenzia l’anomalia nell’analisi dei contributi e nei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata.
 
 ## Escludere alcune dimensioni dall’analisi dei contributi {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
