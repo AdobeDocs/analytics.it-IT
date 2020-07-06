@@ -6,14 +6,19 @@ title: Connettere gli utenti tra i dispositivi
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 2%
 
 ---
 
 
 # Connettere gli utenti tra i dispositivi
 
->[!IMPORTANT] Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consultate Analisi [](/help/components/cda/cda-home.md) multi-dispositivo nella guida utente dei componenti.
+>[!IMPORTANT]
+>
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consulta [Cross-device  Analytics](/help/components/cda/cda-home.md) nella guida utente dei componenti.
 
 L’identificazione dei visitatori tra dispositivi consente di collegare i visitatori tra più dispositivi. L’identificazione dei visitatori su più dispositivi utilizza la `visitorID` variabile per associare un utente a più dispositivi. La `visitorID` variabile assume la priorità più alta quando si identificano visitatori univoci.
 
@@ -27,5 +32,5 @@ Dopo che il cliente ha effettuato l&#39;accesso da ciascun dispositivo, tutti i 
 
 L’utilizzo del proprio ID visitatore personalizzato offre maggiore controllo sulle modalità di identificazione dei visitatori, ma presenta anche dei limiti.
 
-* **La deduplicazione dei visitatori non è retroattiva**: Se un visitatore accede al sito per la prima volta, quindi esegue l&#39;autenticazione, vengono contati due visitatori unici. Un singolo conteggio dei visitatori per l’ID Analytics generico generato automaticamente e un altro per l’ID visitatore personalizzato al momento dell’accesso. Questa duplicazione di visitatori univoci è presente ogni volta che un visitatore utilizza un nuovo dispositivo o cancella i cookie.
-* **Incompatibilità con il servizio** Experience Cloud ID: Dall&#39;introduzione dell&#39;identificazione dei visitatori su più dispositivi, Adobe ha rilasciato modi più potenti e affidabili per monitorare i visitatori su più dispositivi. Questi nuovi metodi di identificazione non sono compatibili con l’override dell’ID visitatore personalizzato. Se intendi utilizzare il servizio ID, l’analisi cross-device (CDA) o Device Co-op, Adobe consiglia vivamente di non utilizzare la `visitorID` variabile.
+* **La deduplicazione dei visitatori non è retroattiva**: Se un visitatore accede al sito per la prima volta, quindi esegue l&#39;autenticazione, vengono contati due visitatori unici. Un singolo visitatore conta per l’ID Analytics  generico generato automaticamente e un altro conta per l’ID visitatore personalizzato al momento dell’accesso. Questa duplicazione di visitatori univoci è presente ogni volta che un visitatore utilizza un nuovo dispositivo o cancella i cookie.
+* **Incompatibilità con il servizio** ID Experience Cloud : Dall&#39;introduzione dell&#39;identificazione dei visitatori su più dispositivi, Adobe ha rilasciato modi più potenti e affidabili per monitorare i visitatori su più dispositivi. Questi nuovi metodi di identificazione non sono compatibili con l’override dell’ID visitatore personalizzato. Se intendi utilizzare il servizio ID, i dispositivi  Analytics (CDA) o Device Co-op, Adobe consiglia vivamente di non utilizzare la `visitorID` variabile.
