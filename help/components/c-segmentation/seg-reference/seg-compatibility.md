@@ -1,12 +1,12 @@
 ---
-description: Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con Data Warehouse. In questa tabella sono elencate le funzioni supportate.
+description: Non tutti i segmenti creati in Segment Builder (Generatore di segmenti) sono compatibili con Data warehouse. In questa tabella sono elencate le funzioni supportate.
 title: Compatibilità con i segmenti di Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reporting e analisi, Analisi ad hoc </th> 
+   <th>  Analysis Workspace, Reporting e  Analytics,  Ad hoc analysis </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,20 +47,20 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
   </tr> 
   <tr> 
    <td> <b>Dimensioni</b> </td> 
-   <td>Trascina una dimensione nel campo <span class="uicontrol"> Definizioni</span> del Generatore di segmenti per verificarne la compatibilità con il prodotto. Ad esempio, queste dimensioni sono supportate solo in Analysis Workspace, Reporting e analisi e Analisi ad hoc: 
+   <td>Trascina una dimensione nel campo <span class="uicontrol"> Definizioni</span> del Generatore di segmenti per verificarne la compatibilità con il prodotto. Ad esempio, queste dimensioni sono supportate solo in  Analysis Workspace, Reporting e  Analytics e  Ad hoc analysis: 
     <ul> 
      <li>Entry Server </li> 
      <li>Categoria voce </li> 
      <li>Data di entrata </li> 
      <li>Seleziona tutte le pagine di ricerca </li> 
     </ul> </td> 
-   <td> Trascina una dimensione nel campo <span class="uicontrol"> Definizioni</span> del Generatore di segmenti per verificarne la compatibilità con il prodotto. Ad esempio, queste dimensioni sono supportate solo in Data Warehouse: 
+   <td> Trascina una dimensione nel campo <span class="uicontrol"> Definizioni</span> del Generatore di segmenti per verificarne la compatibilità con il prodotto. Ad esempio, queste dimensioni sono supportate solo in Data warehouse: 
     <ul> 
      <li>Indirizzo IP </li> 
      <li>URL della pagina </li> 
      <li>Visitor ID </li> 
-     <li>ID visitatore Experience Cloud </li> 
-    </ul> <p>Le dimensioni seguenti <b>non possono </b>essere utilizzate nei segmenti di Data Warehouse: </p> 
+     <li> ID visitatore Experience Cloud </li> 
+    </ul> <p>Le dimensioni seguenti <b>non possono </b>essere utilizzate nei segmenti di Data warehouse: </p> 
     <ul> 
      <li>Seleziona tutte le pagine di ricerca </li> 
      <li>AM/PM </li> 
@@ -78,7 +78,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
      <li>Pagine non trovate </li> 
      <li>Ricerca pagata </li> 
      <li>Trimestre dell’anno </li> 
-     <li>Restituisci frequenza </li> 
+     <li>Frequenza di ritorno </li> 
      <li>Visite a pagina singola </li> 
      <li>Tempo precedente all'evento </li> 
      <li>Tempo trascorso sulla pagina - Interrotto </li> 
@@ -91,7 +91,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
   <tr> 
    <td> <b>Stack di segmenti</b> </td> 
    <td> Supportate </td> 
-   <td> Non supportato </td> 
+   <td> Supportate </td> 
   </tr>
   <tr>
     <td><b>'È uguale a uno degli' e 'Non equivale a nessuno degli' operatori</b></td>
@@ -101,4 +101,4 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
  </tbody> 
 </table>
 
-*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un`exclusion`contenitore o`without`contenitore durante l&#39;utilizzo`AND/OR`. Quando si utilizza tale combinazione, solo i segmenti che possono essere riscritti come`A AND NOT B`(o **includere questa caratteristica**ed **escludere questa caratteristica**) sono supportati in Data Warehouse.*
+*Nota: L&#39;Data warehouse non supporta tutti i casi di utilizzo di un contenitore`exclusion`o`without`quando si utilizza`AND/OR`. Quando si utilizza tale combinazione, sono supportati nella Data warehouse solo i segmenti che possono essere riscritti come`A AND NOT B`(o **includere questa caratteristica**ed **escludere questa caratteristica**).*
