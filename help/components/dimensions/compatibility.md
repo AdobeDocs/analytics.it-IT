@@ -1,28 +1,32 @@
 ---
-title: Compatibilità delle dimensioni di Analytics
-description: Riferimento per le dimensioni e i report di Analytics.
+title: ' compatibilità dimensioni Analytics'
+description: Riferimento per  dimensioni e rapporti Analytics.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 
-# Compatibilità delle dimensioni di Analytics
+#  compatibilità dimensioni Analytics
 
-In questa pagina sono elencate le dimensioni supportate nelle rispettive funzionalità di Analytics.
+In questa pagina sono elencate le dimensioni supportate nelle rispettive funzionalità  Analytics.
 
->[!NOTE] Nomi di variabili personalizzate, classificazioni e attributi del visitatore vengono omessi da questo elenco. Questi valori di dimensione sono specifici delle singole suite di rapporti.
+>[!NOTE]
+>
+>Nomi di variabili personalizzate, classificazioni e attributi del visitatore vengono omessi da questo elenco. Questi valori di dimensione sono specifici delle singole suite di rapporti.
 
->[!NOTE] Esistono sovrapposizioni in cui gli strumenti Analytics utilizzano termini diversi per dimensioni simili. Ad esempio, Reporting e analisi vengono utilizzati `browserwidth` mentre Analysis Workspace utilizza `browserwidthbucketed`.
+>[!NOTE]
+>
+>Esistono sovrapposizioni in cui  strumenti Analytics utilizzano termini diversi per dimensioni simili. Ad esempio, Reports &amp;  Analytics utilizza `browserwidth` mentre  Analysis Workspace utilizza `browserwidthbucketed`.
 
-## Dimensioni supportate sia in Reporting e analisi che in Analysis Workspace
+## Dimensioni supportate sia in Reporting e  Analytics che  Analysis Workspace
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |---|---|
-| Analisi per Target | `targetraw` |
+|  Analytics per Target | `targetraw` |
 | ID pubblico | `mcaudiences` |
 | Browser | `browser` |
 | Tipo di browser | `browsertype` |
@@ -34,7 +38,7 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 | Paesi | `geocountry` |
 | Fedeltà cliente | `customerloyalty` |
 | Variabili di conversione personalizzate | `evar1`, `evar2`ecc. |
-| Varie di visualizzazione personalizzate | `prop1`, `prop2`ecc. |
+| Custom Insight Vars | `prop1`, `prop2`ecc. |
 | Collegamento personalizzato | `customlink` |
 | Giorni precedenti al primo acquisto | `daysbeforefirstpurchase` |
 | Giorni dall&#39;ultimo acquisto | `dayssincelastpurchase` |
@@ -98,9 +102,9 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 | Numero visita | `visitnumber` |
 | Codice postale | `zip` |
 
-## Dimensioni supportate solo in Analysis Workspace
+## Dimensioni supportate solo in  Analysis Workspace
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | AM/PM | `timepartampm` |
 | Altezza browser - Esteso | `browserheightbucketed` |
@@ -149,20 +153,20 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 | Settimana | `daterangeweek` |
 | Anno | `daterangeyear` |
 
-## Dimensioni in base al contenuto supportate solo in Analysis Workspace
+## Dimensioni in base al contenuto supportate solo in  Analysis Workspace
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| Activity Map XY | `clickmapxy` |
+|  Activity Map XY | `clickmapxy` |
 | ID sessione multimediale | `videosessionid` |
 | Metodo di accesso Nielsen | `nielsenaccmethod` |
 | ID app Nielsen | `nielsenappid` |
 | Risorsa canale Nielsen | `nielsenchannelasset` |
 | Nielsen Content Type | `nielsencontenttype` |
 
-## Dimensioni supportate solo in Reporting e analisi
+## Dimensioni supportate solo in Reporting e  Analytics
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Altezza browser | `browserheight` |
 | Larghezza browser | `browserwidth` |
@@ -177,11 +181,11 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 | Clienti unici settimanali | `weeklyuniquecustomers` |
 | Clienti univoci annuali | `yearlyuniquecustomers` |
 
-## Dimensioni in base al contenuto supportate da Reporting e analisi e Analysis Workspace
+## Dimensioni in base al contenuto supportate da Reporting e  Analytics e  Analysis Workspace
 
-### Video (Media Analytics)
+### Video ( multimediale Analytics)
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Contenuto | `video` |
 | Segmento di contenuto | `videosegment` |
@@ -231,7 +235,7 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 
 ### Adobe Social
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Termini | `socialterm` |
 | Piattaforme/Proprietà social | `socialcontentprovider` |
@@ -253,7 +257,7 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 
 ### Mobile SDK
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Data primo avvio | `mobileinstalldate` |
 | ID app | `mobileappid` |
@@ -288,19 +292,19 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 | Prossimità beacon di ingresso | `entrymobilebeaconproximity` |
 | Esci da prossimità beacon | `exitmobilebeaconproximity` |
 
-### Adobe Advertising Cloud (AMO)
+### Adobe  Advertising Cloud (AMO)
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | ID EF AMO | `amo_ef_id` |
 | ID AMO | `amo_cid` |
 
 ### Activity Map
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| Collegamento Activity Map Per Regione | `clickmaplinkbyregion` |
-| Regione Activity Map | `clickmapregion` |
+| Collegamento Activity Map  Per Regione | `clickmaplinkbyregion` |
+|  Activity Map | `clickmapregion` |
 | Collegamento alla Activity Map | `clickmaplink` |
 | Pagina della Activity Map | `clickmappage` |
 
@@ -308,7 +312,7 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 
 Per ulteriori informazioni su come implementare questa integrazione, consultate [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | Modello pubblicitario Nielsen | `nielsenadmodel` |
 | Segmento Nielsen C | `nielsensegmentc` |
@@ -329,7 +333,7 @@ Per ulteriori informazioni su come implementare questa integrazione, consultate 
 
 ### Adobe Experience Manager (AEM)
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
 | ID risorsa | `aemassetid` |
 | Origine risorsa | `aemassetsource` |
@@ -339,6 +343,6 @@ Per ulteriori informazioni su come implementare questa integrazione, consultate 
 
 ### Adobe Campaign
 
-| Nome dimensione (visibile nell’interfaccia di Analytics) | ID dimensione (utilizzato nelle richieste API) |
+| Nome dimensione (visibile nell’interfaccia  Analytics) | ID dimensione (utilizzato nelle richieste API) |
 |--- |--- |
-| ID consegna eseguita da Adobe Campaign | `ac_delivery_internal_name` |
+| ID consegna eseguita di Adobe Campaign | `ac_delivery_internal_name` |
