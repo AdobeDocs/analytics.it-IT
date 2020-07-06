@@ -2,7 +2,10 @@
 title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 0%
 
 ---
 
@@ -13,13 +16,15 @@ Le variabili di elenco sono variabili personalizzate che potete utilizzare come 
 
 Accertatevi di registrare come usate ciascuna variabile di elenco e la relativa logica nel documento [di progettazione della](../../prepare/solution-design.md)soluzione.
 
->[!NOTE] Le variabili elenco memorizzano i 250 valori più recenti per visitatore. Se per un determinato visitatore sono presenti più di 250 valori univoci, i valori più vecchi non vengono attribuiti alle metriche.
+>[!NOTE]
+>
+>Le variabili elenco memorizzano i 250 valori più recenti per visitatore. Se per un determinato visitatore sono presenti più di 250 valori univoci, i valori più vecchi non vengono attribuiti alle metriche.
 
 ## Impostare le variabili dell&#39;elenco nelle impostazioni della suite di rapporti
 
 Accertatevi di configurare ogni variabile dell&#39;elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell&#39;implementazione. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/list-var-admin.md) conversione nella guida di amministrazione.
 
-## Elenca le variabili in Adobe Experience Platform Launch
+## Elenca le variabili in  Adobe Experience Platform Launch
 
 In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
 
@@ -32,7 +37,9 @@ Ogni variabile dell&#39;elenco è una stringa che contiene valori personalizzati
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
->[!TIP] Se impostate valori duplicati nello stesso hit, Adobe deduplica tutte le istanze di tali valori. Ad esempio, se impostate `s.list1 = "Example,Example";`, un&#39;istanza viene conteggiata nei report.
+>[!TIP]
+>
+>Se impostate valori duplicati nello stesso hit, Adobe deduplica tutte le istanze di tali valori. Ad esempio, se impostate `s.list1 = "Example,Example";`, un&#39;istanza viene conteggiata nei report.
 
 ## Confronta proprietà elenco con variabili elenco
 
