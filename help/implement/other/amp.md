@@ -1,8 +1,11 @@
 ---
 title: Implementazione con AMP
-description: Implementare Adobe Analytics sulle pagine AMP.
+description: Implementate Adobe  Analytics sulle pagine AMP.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 1%
 
 ---
 
@@ -11,13 +14,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 [AMP](https://amp.dev) è un framework HTML open-source che fornisce un modo semplice per creare pagine Web con un caricamento rapido e uniforme.
 
-Poiché Adobe Analytics utilizza una libreria JavaScript per compilare e inviare una richiesta di immagine, nell’implementazione sono necessarie delle regolazioni per inviare dati ad Adobe sulle pagine tramite AMP.
+Poiché Adobe  Analytics utilizza una libreria JavaScript per compilare e inviare una richiesta di immagine, nell’implementazione sono necessarie delle regolazioni per inviare dati ad Adobe sulle pagine tramite AMP.
 
-## Determinare quale metodo implementare Adobe Analytics sulle pagine utilizzando AMP
+## Determinare quale metodo implementare Adobe  Analytics sulle pagine utilizzando AMP
 
-Adobe ha creato due metodi per implementare Adobe Analytics sulle pagine tramite AMP. Entrambi utilizzano il tag `<amp-analytics>` HTML. Per ulteriori informazioni, consulta Tag [di analisi](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) amp su ampproject GitHub.
+Adobe ha creato due metodi per implementare Adobe  Analytics sulle pagine tramite AMP. Entrambi utilizzano il tag `<amp-analytics>` HTML. Per ulteriori informazioni, consulta Tag [di analisi](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) amp su ampproject GitHub.
 
-* **Utilizzate il modello`"adobeanalytics"`di** tracciamento: Crea la richiesta di Analytics direttamente sulla pagina
+* **Utilizzate il modello`"adobeanalytics"`di** tracciamento: Crea la richiesta di  Analytics direttamente sulla pagina
 * **Utilizzate il modello`"analytics_nativeConfig"`di** tracciamento: Utilizza un iframe contenente lo stesso codice AppMeasurement distribuito nel sito normale
 
 Nella tabella seguente vengono confrontati i due metodi seguenti:
@@ -26,15 +29,17 @@ Nella tabella seguente vengono confrontati i due metodi seguenti:
 |---|---|---|
 | Conteggio visitatori/visite nella suite di rapporti esistente | Alta inflazione | Inflazione minima |
 | Utilizzare una suite di rapporti separata | Consigliato | Non necessario |
-| Visitatori nuovi e di ritorno | Non supportato | Supportato |
-| Servizio ID visitatori | Non supportato | Supportato |
+| Visitatori nuovi e di ritorno | Non supportato | Supportate |
+| Servizio ID visitatori | Non supportato | Supportate |
 | Tracciamento di video e collegamenti | Supporto parziale | Non ancora supportato |
 | Difficoltà di implementazione | Un po&#39; difficile | Relativamente facile |
 | Integrazioni Adobe Experience Cloud | Non supportato | Supporto parziale |
 
 Valutare i pro e i contro all&#39;interno dell&#39;organizzazione per determinare quale metodo utilizzare. Per un esempio di codice, consultate esempi [](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) AMP sull&#39;archivio GitHub di Adobe.
 
->[!WARNING] Non utilizzate sia i modelli `"adobeanalytics"` che `"adobeanalytics_nativeConfig"` i modelli sulla stessa pagina utilizzando AMP. Se tentate di farlo, potete generare errori nella console del browser e il doppio conteggio dei visitatori.
+>[!WARNING]
+>
+>Non utilizzate sia i modelli `"adobeanalytics"` che `"adobeanalytics_nativeConfig"` i modelli sulla stessa pagina utilizzando AMP. Se tentate di farlo, potete generare errori nella console del browser e il doppio conteggio dei visitatori.
 
 ## Metodo 1: Utilizzare il tag amp-analytics con il modello &quot;adobeanalytics&quot;
 
@@ -77,11 +82,15 @@ Nell&#39; `click` attivatore, potete specificare un selettore in modo che ogni v
 
 Inoltre, `amp-analytics` supporta una serie di sostituzioni variabili in modo che AMP possa fornire valori di dati di cui è a conoscenza. Per ulteriori informazioni, vedi [le variabili supportate nelle analisi](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) di ampli su GitHub.
 
->[!NOTE] Le richieste di immagini inviate ad Adobe con questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referente). Se desiderate includere queste informazioni negli hit, accertatevi che siano incluse come parte della stringa di query della richiesta di immagine. Per ulteriori informazioni, vedi Parametri [query di raccolta](../validate/query-parameters.md) dati.
+>[!NOTE]
+>
+>Le richieste di immagini inviate ad Adobe con questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referente). Se desiderate includere queste informazioni negli hit, accertatevi che siano incluse come parte della stringa di query della richiesta di immagine. Per ulteriori informazioni, vedi Parametri [query di raccolta](../validate/query-parameters.md) dati.
 
-Adobe identifica i visitatori utilizzando una funzione AMP integrata e imposta il cookie `adobe_amp_id`. Questo ID visitatore è univoco per qualsiasi altro ID impostato da Adobe Analytics (ad esempio, il `s_vi` cookie). Il servizio Adobe Experience Cloud ID non è supportato utilizzando questo metodo di implementazione.
+Adobe identifica i visitatori utilizzando una funzione AMP integrata e imposta il cookie `adobe_amp_id`. Questo ID visitatore è univoco per qualsiasi altro ID impostato da Adobe  Analytics (ad esempio, il `s_vi` cookie). Il servizio Adobe Experience Cloud ID non è supportato utilizzando questo metodo di implementazione.
 
->[!NOTE] AMP utilizza CDN per distribuire contenuti. È strutturata per contare un visitatore univoco diverso per ogni CDN da cui un visitatore recupera il contenuto, il che può aumentare il numero di visitatori univoci.
+>[!NOTE]
+>
+>AMP utilizza CDN per distribuire contenuti. È strutturata per contare un visitatore univoco diverso per ogni CDN da cui un visitatore recupera il contenuto, il che può aumentare il numero di visitatori univoci.
 
 È consigliabile utilizzare una suite di rapporti distinta per le pagine AMP, in quanto AMP identifica i visitatori univoci.
 
@@ -147,7 +156,9 @@ Questo approccio invia i dati a una pagina Web di utilità tramite i parametri d
 
 Il `"adobeanalytics_nativeConfig"` modello aggiunge anche parametri di stringa di query basati sulle variabili elencate nella `extraUrlParams` sezione del tag amp-analytics. Nell&#39;esempio precedente, i `pageName` parametri e `v1` .
 
->[!IMPORTANT] La `stats.html` pagina deve essere ospitata in un sottodominio separato dal dominio in cui è ospitato l’AMP stesso. Il framework AMP non consente iframe dello stesso sottodominio in cui esiste la pagina AMP stessa. Ad esempio, se l’AMP è ospitato in `amp.example.com`, ospita la `stats.html` pagina in un sottodominio separato, ad esempio `ampmetrics.example.com`.
+>[!IMPORTANT]
+>
+>La `stats.html` pagina deve essere ospitata in un sottodominio separato dal dominio in cui è ospitato l’AMP stesso. Il framework AMP non consente iframe dello stesso sottodominio in cui esiste la pagina AMP stessa. Ad esempio, se l’AMP è ospitato in `amp.example.com`, ospita la `stats.html` pagina in un sottodominio separato, ad esempio `ampmetrics.example.com`.
 
 Utilizzando questo metodo, se un utente rinuncia al tracciamento sul sito principale, viene escluso anche il tracciamento su tutti gli AMP. Utilizzando questa pagina di utilità, AMP può anche supportare il servizio Adobe Experience Cloud ID. Non è richiesta una suite di rapporti separata.
 
