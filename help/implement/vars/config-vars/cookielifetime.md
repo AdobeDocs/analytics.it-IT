@@ -2,7 +2,10 @@
 title: cookieLifetime
 description: Ignorate la scadenza per i cookie creati da AppMeasurement.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -11,15 +14,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 I cookie impostati da AppMeasurement hanno in genere una scadenza di 2 anni. Utilizzate la `cookieLifetime` variabile per ignorare la data di scadenza per i cookie impostati da AppMeasurement.
 
->[!NOTE] Questa variabile interessa i conteggi e l’attribuzione univoci dei visitatori. Prestate attenzione quando impostate questa variabile.
+>[!NOTE]
+>
+>Questa variabile interessa i conteggi e l’attribuzione univoci dei visitatori. Prestate attenzione quando impostate questa variabile.
 
-## Cookie Lifetime in Adobe Experience Platform Launch
+## Durata del cookie nel lancio  Adobe Experience Platform
 
-Cookie Lifetime è un menu a discesa sotto la [!UICONTROL Cookies] struttura di navigazione quando si configura l’estensione Adobe Analytics.
+Cookie Lifetime è un menu a discesa sotto la [!UICONTROL Cookies] struttura di navigazione quando si configura l’estensione Adobe  Analytics.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
+3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto Adobe  Analytics.
 4. Espandete la [!UICONTROL Cookies] fisarmonica, che mostra il [!UICONTROL Cookie Lifetime] menu a discesa.
 
 Questo elenco a discesa contiene i seguenti valori:
