@@ -4,8 +4,11 @@ keywords: Analysis Workspace
 title: 'Crea progetto: panoramica'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 100%
 
 ---
 
@@ -66,7 +69,9 @@ Il menu principale Progetti si presenta così:
 
 I sottomenu contengono le seguenti opzioni.
 
->[!NOTE] Le opzioni contrassegnate da un asterisco (*) vengono visualizzate solo con progetti **salvati**.
+>[!NOTE]
+>
+>Le opzioni contrassegnate da un asterisco (*) vengono visualizzate solo con progetti **salvati**.
 
 | Progetto | Modificare | Inserisci | Componenti | Condividi | Aiuto |
 |---|---|---|---|---|---|
