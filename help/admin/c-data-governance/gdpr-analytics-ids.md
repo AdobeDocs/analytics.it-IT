@@ -2,15 +2,20 @@
 description: 'null'
 title: Tecniche di etichettatura consigliate
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2689'
+ht-degree: 100%
 
 ---
 
 
 # Tecniche di etichettatura consigliate
 
->[!NOTE] Ricorda che l’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l&#39;etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
+>[!NOTE]
+>
+>Ricorda che l’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l&#39;etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
 
 ## ID direttamente e indirettamente identificabili {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -35,7 +40,7 @@ Usa questa tabella per determinare i tipi di ID che userai durante l’invio del
 <table id="table_E25612E32A03449A8E5DA00B88FCEB9E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Tipo di ID </th> 
+   <th colname="col1" class="entry"> ID Type (Tipo di ID) </th> 
    <th colname="col2" class="entry"> Tecniche consigliate </th> 
   </tr> 
  </thead>
@@ -66,7 +71,9 @@ Usa questa tabella per determinare i tipi di ID che userai durante l’invio del
 
 ## Tecniche consigliate per l’impostazione delle etichette di cancellazione {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE] Le proprietà sono sempre senza distinzione tra maiuscole e minuscole. Le eVars distinguono tra maiuscole e minuscole per impostazione predefinita, ma non possono essere configurate nell’Assistenza clienti di Adobe affinché distinguano tra maiuscole e minuscole. Se possiedi un’eVar che distingue tra maiuscole e minuscole e che contiene un ID, è tua responsabilità usare la maiuscola/minuscola, in base al caso, quando invii una richiesta di Privacy dei dati, in modo che l’uso della maiuscola/minuscola nella richiesta corrisponda all’uso della maiuscola/minuscola nei risultati contenenti questi ID.
+>[!NOTE]
+>
+>Le proprietà distinguono sempre tra maiuscole e minuscole. Le eVars distinguono tra maiuscole e minuscole per impostazione predefinita, ma non possono essere configurate nell’Assistenza clienti di Adobe affinché distinguano tra maiuscole e minuscole. Se possiedi un’eVar che distingue tra maiuscole e minuscole e che contiene un ID, è tua responsabilità usare la maiuscola/minuscola, in base al caso, quando invii una richiesta di Privacy dei dati, in modo che l’uso della maiuscola/minuscola nella richiesta corrisponda all’uso della maiuscola/minuscola nei risultati contenenti questi ID.
 
 Le etichette di cancellazione DEL-DEVICE e DEL-PERSON devono essere usate con moderazione. Quando applicati a una variabile che non contiene un ID usata come parte della richiesta di Privacy dei dati, i conteggi (metriche) nei rapporti cronologici di Analytics cambieranno quasi sempre.
 
