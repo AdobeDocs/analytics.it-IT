@@ -1,21 +1,26 @@
 ---
-description: Una  suite di rapporti definisce il reporting indipendente e completo su un sito web scelto, su un insieme di siti web o su un sottoinsieme di pagine web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere totali. Quando accedete a una soluzione Adobe Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito. Le soluzioni Analytics si aggregano e generano report su questi data store. L'amministratore di Report Suite Manager consente di definire le regole che regolano il modo in cui i dati vengono elaborati in una suite di rapporti.
+description: Una  suite di rapporti definisce il reporting indipendente e completo su un sito web scelto, su un insieme di siti web o su un sottoinsieme di pagine web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando accedete a una soluzione Adobe  Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate i roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito.  soluzioni Analytics si aggregano e generano report su questi data store. L'amministratore di Report Suite Manager consente di definire le regole che regolano il modo in cui i dati vengono elaborati in una suite di rapporti.
 title: Report Suite Manager
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 19%
 
 ---
 
 
 # Report Suite Manager
 
-Una  suite di rapporti definisce il reporting indipendente e completo su un sito web scelto, su un insieme di siti web o su un sottoinsieme di pagine web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere totali. Quando accedete a una soluzione Adobe Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito. Le soluzioni Analytics si aggregano e generano report su questi data store. L&#39;amministratore di Report Suite Manager consente di definire le regole che regolano il modo in cui i dati vengono elaborati in una suite di rapporti.
+Una  suite di rapporti definisce il reporting indipendente e completo su un sito web scelto, su un insieme di siti web o su un sottoinsieme di pagine web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando accedete a una soluzione Adobe  Analytics, selezionate una suite di rapporti da utilizzare (tranne quando utilizzate i roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito Web, se si desidera eseguire rapporti per una parte del sito.  soluzioni Analytics si aggregano e generano report su questi data store. L&#39;amministratore di Report Suite Manager consente di definire le regole che regolano il modo in cui i dati vengono elaborati in una suite di rapporti.
 
 **[!UICONTROL Analytics]** (Workspace) > **[!UICONTROL Admin]** (Progetto) > **[!UICONTROL Report Suites]** (Annulla/Ripeti)
 
->[!NOTE] Le suite di rapporti virtuali sono gestite tramite **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Consulta la documentazione [Suite di rapporti](/help/components/vrs/vrs-about.md)virtuale.
+>[!NOTE]
+>
+>Le suite di rapporti virtuali sono gestite tramite **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Consulta la documentazione [Suite di rapporti](/help/components/vrs/vrs-about.md)virtuale.
 
 ## Descrizioni di Report Suite Manager {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -59,7 +64,7 @@ Nella tabella seguente sono descritti gli elementi della [!UICONTROL Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Crea nuovo</span> </td> 
-   <td colname="col2">Consultate <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> Nuova suite</a>di rapporti. </td> 
+   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Personalizza colonne</span> </td> 
@@ -67,15 +72,15 @@ Nella tabella seguente sono descritti gli elementi della [!UICONTROL Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ID suite di rapporti</span> </td> 
-   <td colname="col2">Consultate <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> Nuova suite</a>di rapporti. </td> 
+   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titolo del sito</span> </td> 
-   <td colname="col2"> <p>Identifica le suite di rapporti in Strumenti di amministrazione e nell’elenco a discesa suite di rapporti nell’intestazione del rapporto di marketing. </p> <p>Consultate <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> Nuova suite</a>di rapporti. </p> </td> 
+   <td colname="col2"> <p>Identifica le suite di rapporti in Strumenti di amministrazione e nell’elenco a discesa suite di rapporti nell’intestazione del rapporto di marketing. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL di base</span> </td> 
-   <td colname="col2"> <p>Definisce il dominio di base per la suite di rapporti. </p> <p>Consultate <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> Nuova suite</a>di rapporti. </p> </td> 
+   <td colname="col2"> <p>Definisce il dominio di base per la suite di rapporti. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
