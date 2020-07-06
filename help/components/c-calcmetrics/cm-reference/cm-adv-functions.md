@@ -3,7 +3,7 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 title: Funzioni avanzate di riferimento
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2908'
 ht-degree: 99%
@@ -31,7 +31,9 @@ D’altra parte, se disponi di due metriche di tuo interesse, potrebbe non esser
 
 Restituisce il valore del relativo argomento. Per assicurarti che un valore non sia uguale a un valore particolare, utilizza la funzione NOT.
 
->[!NOTE] 0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
+>[!NOTE]
+>
+>0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -207,7 +209,9 @@ Restituisce la media delle ultime N righe.
 
 Se N &lt;= 0 vengono usate tutte le righe precedenti. Poiché questa funzione è ordinata dalla dimensione, risulta utile solo per le dimensioni con ordine naturale, come data o lunghezza del percorso.
 
->[!NOTE] Questa funzione non opera come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare i visitatori rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
+>[!NOTE]
+>
+>Questa funzione non opera come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare i visitatori rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -450,7 +454,9 @@ Restituisce tutti gli elementi che non contengono la corrispondenza esatta del v
 
 Restituisce TRUE se un qualsiasi argomento è TRUE oppure FALSE se tutti gli argomenti sono FALSE.
 
->[!NOTE] 0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
+>[!NOTE]
+>
+>0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -691,7 +697,9 @@ L’equazione per il punteggio Z è:
 
 dove [!DNL x] è il punteggio non elaborato, [!DNL μ] corrisponde alla media della popolazione e [!DNL σ] indica la deviazione standard della popolazione.
 
->[!NOTE] [!DNL μ] (mu) e[!DNL σ] (sigma) vengono calcolati automaticamente dalla metrica.
+>[!NOTE]
+>
+>[!DNL μ] (mu) e[!DNL σ] (sigma) vengono calcolati automaticamente dalla metrica.
 
 Punteggio Z (metrica)
 
@@ -716,5 +724,7 @@ Effettua un test Z con coda n con punteggio Z di A.
 
 Restituisce la probabilità che la riga corrente possa essere vista casualmente nella colonna.
 
->[!NOTE] Presuppone che i valori siano distribuiti normalmente.
+>[!NOTE]
+>
+>Presuppone che i valori siano distribuiti normalmente.
 
