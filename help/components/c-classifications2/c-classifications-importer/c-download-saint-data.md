@@ -5,7 +5,10 @@ title: Modello di classificazione
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Il modello include le classificazioni (intestazioni di colonna) attualmente definite di un set di dati specifico, senza includere i dati associati a ciascuna classificazione.
 
->[!NOTE] Il metodo Template limita il download dei dati di classificazione a una singola suite di rapporti.
+>[!NOTE]
+>
+>Il metodo Template limita il download dei dati di classificazione a una singola suite di rapporti.
 
 Per ulteriori informazioni sulla struttura del file di dati, vedere [Informazioni sui file](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)di dati di classificazione.
 
@@ -38,7 +43,9 @@ Per ulteriori informazioni sulla struttura del file di dati, vedere [Informazion
 
 Il modello fornisce il formato di file da seguire per le classificazioni.
 
->[!NOTE] Il metodo Template limita il download dei dati a una singola suite di rapporti.
+>[!NOTE]
+>
+>Il metodo Template limita il download dei dati a una singola suite di rapporti.
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Nella **[!UICONTROL Download Template]** scheda, specifica la configurazione [del modello di](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)dati.
