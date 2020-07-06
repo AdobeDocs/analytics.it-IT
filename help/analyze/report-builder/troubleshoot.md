@@ -3,8 +3,11 @@ description: Modi di ottimizzare la consegna di Report Builder e un elenco di me
 title: Risoluzione dei problemi e procedure consigliate per Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 100%
 
 ---
 
@@ -104,7 +107,9 @@ Eventuali rapporti pianificati scadono dopo quattro ore. Il sistema tenta di pia
 
 Elenco di messaggi di errore che possono verificarsi occasionalmente durante l’utilizzo di Report Builder.
 
->[!NOTE] Questa è solo una selezione di messaggi di errore e non un elenco esaustivo. Per ulteriori informazioni sulla risoluzione degli errori, contatta l’amministratore.
+>[!NOTE]
+>
+>Questa è solo una selezione di messaggi di errore e non un elenco esaustivo. Per ulteriori informazioni sulla risoluzione degli errori, contatta l’amministratore.
 
 **Questa funzione può essere applicata solo a una cartella di lavoro aperta.**
 
