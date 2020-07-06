@@ -4,7 +4,10 @@ title: 'Gestire le richieste: definizioni'
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +22,9 @@ Viene [!UICONTROL Request Manager] fornita una visualizzazione dettagliata dello
 
 Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) nella barra degli strumenti Generatore di report).
 
->[!NOTE] Adobe Report Builder applica le dipendenze delle richieste solo all&#39;interno dello stesso foglio di lavoro, non tra fogli di lavoro. Limitarsi alle dipendenze all&#39;interno di un singolo foglio di lavoro garantisce la tempestività dell&#39;esecuzione.
+>[!NOTE]
+>
+>Adobe Report Builder applica le dipendenze delle richieste solo all&#39;interno dello stesso foglio di lavoro, non tra fogli di lavoro. Limitarsi alle dipendenze all&#39;interno di un singolo foglio di lavoro garantisce la tempestività dell&#39;esecuzione.
 
 ## Definizioni {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -44,7 +49,7 @@ Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!
    <td colname="col2"> <p>Visualizza il nome della suite di rapporti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Intervallo date </p> </td> 
+   <td colname="col1"> <p>Intervallo di date </p> </td> 
    <td colname="col2"> <p>Visualizza l'intervallo di date specificato nel rapporto. </p> </td> 
   </tr> 
   <tr> 
@@ -56,11 +61,11 @@ Il [!UICONTROL Request Manager] display viene visualizzato quando fate clic **[!
    <td colname="col2"> <p>Specifica la data dell'ultima elaborazione della richiesta da parte del Generatore di report. In questa tabella, se applicabile, viene visualizzato anche un messaggio diagnostico nella colonna <span class="wintitle"> Ultima esecuzione</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Aggiungi </p> </td> 
+   <td colname="col1"> <p>Add </p> </td> 
    <td colname="col2"> <p>Visualizza la finestra di dialogo Richiesta guidata. See <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Modificare  </p> </td> 
+   <td colname="col1"> <p>Modificare </p> </td> 
    <td colname="col2"> <p> (O Modifica multipla) Modifica una richiesta selezionata. Viene visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span> . See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
