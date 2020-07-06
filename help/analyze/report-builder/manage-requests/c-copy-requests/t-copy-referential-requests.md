@@ -4,7 +4,10 @@ title: Copia richieste referenziali
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +20,9 @@ Per propagare o copiare e incollare le richieste referenziali nel foglio di calc
 
 È inoltre possibile creare richieste che fanno riferimento a filtri di input da richieste in fogli di lavoro diversi, ma non in cartelle di lavoro diverse. Ad esempio, una richiesta nel Foglio 2 può utilizzare una suite di rapporti di una determinata cella nel Foglio 1 e un intervallo di date da una cella in una richiesta nel Foglio 2. Il nuovo output può essere inserito in un foglio o in un nuovo foglio all&#39;interno della stessa cartella di lavoro. Quando incollate una richiesta relativa, se un filtro di input risiede in un foglio di lavoro diverso dal foglio di lavoro in cui si trova l&#39;output della richiesta copiata, il filtro viene incollato come filtro assoluto.
 
->[!NOTE] Non è possibile inviare una singola richiesta in più fogli di lavoro. Inoltre, il sistema non è in grado di incollare alcune delle richieste copiate in nuove cartelle di lavoro perché le richieste contengono filtri di input da altri fogli di lavoro. I filtri di input includono suite di rapporti da celle, intervalli di date da celle, filtri da celle e altri parametri correlati.
+>[!NOTE]
+>
+>Non è possibile inviare una singola richiesta in più fogli di lavoro. Inoltre, il sistema non è in grado di incollare alcune delle richieste copiate in nuove cartelle di lavoro perché le richieste contengono filtri di input da altri fogli di lavoro. I filtri di input includono suite di rapporti da celle, intervalli di date da celle, filtri da celle e altri parametri correlati.
 
 **Per copiare le richieste di riferimento**
 
