@@ -2,28 +2,35 @@
 title: Collegamenti per il rifiuto
 description: Scoprite come creare e implementare i collegamenti di rifiuto per i visitatori del sito.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 4%
 
 ---
 
 
 # Implementazione dei collegamenti di opt-out
 
->[!IMPORTANT] Adobe consiglia di utilizzare il servizio di consenso, in particolare per le organizzazioni interessate dalle normative GDPR. Consulta [Panoramica](https://docs.adobe.com/content/help/it-IT/id-service/using/implementation/opt-in-service/optin-overview.html) del servizio di consenso nella guida utente del servizio Experience Cloud Identity.
+>[!IMPORTANT]
+>
+>Adobe consiglia di utilizzare il servizio di consenso, in particolare per le organizzazioni interessate dalle normative GDPR. Consultate [Panoramica](https://docs.adobe.com/content/help/it-IT/id-service/using/implementation/opt-in-service/optin-overview.html) del servizio di consenso nella guida utente  Experience Cloud Identity Service.
 
 Alcuni visitatori del sito Web preferiscono non includere nel set di dati le relative informazioni di navigazione. Adobe offre ai visitatori del sito Web la possibilità di scegliere se non raccogliere informazioni. Tutti i tipi di implementazione sono inclusi; la tua organizzazione è responsabile della tua informativa sulla privacy e della conformità ai termini firmati.
 
 Quando un visitatore raggiunge l’URL di rinuncia, gli viene richiesto di installare un cookie di rinuncia. Se un utente sceglie di non essere monitorato e viene impostato un cookie di rinuncia, il file JavaScript continua a inviare dati ai server Adobe. Tuttavia, tali dati non vengono elaborati o inclusi nei report.
 
->[!TIP] Adobe offre inoltre le impostazioni sulla privacy per ogni singola suite di rapporti. Consulta Impostazioni [](../../admin/admin/privacy-settings.md) privacy nella guida utente dell&#39;amministratore.
+>[!TIP]
+>
+>Adobe offre inoltre le impostazioni sulla privacy per ogni singola suite di rapporti. Consulta Impostazioni [](../../admin/admin/privacy-settings.md) privacy nella guida utente dell&#39;amministratore.
 
 ## URL rifiuto
 
 La pagina di rifiuto per l’organizzazione dipende dal valore della [`trackingServer`](../vars/config-vars/trackingserver.md) variabile nell’implementazione.
 
-* In Adobe Experience Platform Launch:
+* In  lancio Adobe Experience Platform:
    1. Accedete a [launch.adobe.com](https://launch.adobe.com) e fate clic sulla proprietà desiderata.
-   2. Fai clic sulla [!UICONTROL Extensions] scheda, quindi fai clic [!UICONTROL Configure] sotto Adobe Analytics.
+   2. Fate clic sulla [!UICONTROL Extensions] scheda, quindi fate clic [!UICONTROL Configure] sotto Adobe  Analytics.
    3. Fate clic sulla [!UICONTROL General] struttura a soffietto e prendete nota del [!UICONTROL Tracking Server] valore.
 
 * In un&#39;implementazione JavaScript:
@@ -32,8 +39,8 @@ La pagina di rifiuto per l’organizzazione dipende dal valore della [`trackingS
 
 * Utilizzo di [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html):
    1. Andate al sito utilizzando il browser Chrome.
-   2. Apri il debugger di Experience Cloud, quindi vai al [!UICONTROL Network tab].
-   3. Notate il [!UICONTROL Request URL - Hostname] valore.
+   2. Aprite il  Experience Cloud Debugger, quindi passate al [!UICONTROL Network tab].
+   3. Note the [!UICONTROL Request URL - Hostname] value.
 
 Dopo aver trovato il `trackingServer` dominio di implementazione, aggiungi il percorso `/optout.html` alla fine. Ad esempio:
 
@@ -73,7 +80,9 @@ Cambiate automaticamente la lingua della pagina di rifiuto includendo il paramet
 
 Ad esempio, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` carica la pagina di rifiuto in coreano.
 
->[!TIP] Il valore della stringa di `en_US` query non è obbligatorio, in quanto la pagina viene caricata in inglese per impostazione predefinita.
+>[!TIP]
+>
+>Il valore della stringa di `en_US` query non è obbligatorio, in quanto la pagina viene caricata in inglese per impostazione predefinita.
 
 ### Popup
 
@@ -81,7 +90,9 @@ Aggiunge alla pagina un pulsante Chiudi finestra, che consente di rendere la pag
 
 Ad esempio, `https://example.sc.omtrdc.net/optout.html?popup=1` carica la pagina di rifiuto con un pulsante &#39;Chiudi finestra&#39;.
 
->[!NOTE] Storicamente questo parametro della stringa di query ha forzato una finestra a comparsa. Tuttavia, la maggior parte dei browser moderni offre il controllo sui pop-up all&#39;utente finale.
+>[!NOTE]
+>
+>Storicamente questo parametro della stringa di query ha forzato una finestra a comparsa. Tuttavia, la maggior parte dei browser moderni offre il controllo sui pop-up all&#39;utente finale.
 
 ### Opzione per clic singolo
 
