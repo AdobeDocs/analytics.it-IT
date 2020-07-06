@@ -3,7 +3,10 @@ description: 'null'
 title: Alert Builder (Generatore di avvisi)
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,9 @@ Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o 
 
 Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
 
->[!NOTE] Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
+>[!NOTE]
+>
+>Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
 
 **Recipients (Destinatari)**
 
