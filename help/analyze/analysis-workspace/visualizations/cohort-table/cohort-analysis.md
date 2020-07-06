@@ -1,8 +1,8 @@
 ---
 title: Cos’è un’analisi per coorte?
-description: Ulteriori informazioni sull’analisi per coorte in Analysis Workspace
+description: Scopri l’analisi per coorte in  Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 48%
@@ -24,13 +24,15 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * Sviluppare idee per il test A/B in aree come prezzo, percorso di upgrade ecc.
 * View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Adobe Analytics con diritti di accesso a [!UICONTROL Analysis Workspace].
+[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Adobe  Analytics con diritti di accesso a [!UICONTROL Analysis Workspace].
 
 [Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] non supporta le metriche non segmentabili (comprese le metriche calcolate), non-integer (come Revenue) o Occurrences. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in
+>[!UICONTROL Cohort Analysis]
+>
+>non supporta le metriche non segmentabili (comprese le metriche calcolate), non-integer (come Revenue) o Occurrences. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in
 >[!UICONTROL Cohort Analysis]e possono essere incrementati solo di 1 alla volta.
 
 ## Capacità dell’analisi per coorte
@@ -67,5 +69,5 @@ Puoi creare le coorti in base a una dimensione selezionata, anziché in base al 
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta  [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
