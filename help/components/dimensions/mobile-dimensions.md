@@ -2,7 +2,7 @@
 title: Dimensioni mobili
 description: Dimensioni basate sulla stringa agente utente del dispositivo.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
@@ -12,17 +12,19 @@ ht-degree: 0%
 
 # Dimensioni mobili
 
-*Questa pagina fa riferimento alle proprietà dei dispositivi mobili che accedono al sito Web. Se desiderate tenere traccia dei dispositivi su un&#39;app mobile, consultate[Implementare Analytics per dispositivi](/help/implement/mobile-device-sdk.md)mobili nella guida per l&#39;utente Implementa.*
+*Questa pagina fa riferimento alle proprietà dei dispositivi mobili che accedono al sito Web. Se desiderate tenere traccia dei dispositivi su un’app mobile, consultate[Implementazione  Analytics per dispositivi](/help/implement/mobile-device-sdk.md)mobili nella guida per l’utente Implementazione.*
 
 Le dimensioni per dispositivi mobili forniscono informazioni approfondite sulle proprietà dei dispositivi mobili che visitano il sito. Potete usare queste dimensioni per comprendere meglio quali funzioni supporta un dispositivo mobile.
 
 ## Compilare queste dimensioni con i dati
 
-Queste dimensioni fanno riferimento a regole di ricerca interne ad Adobe. Il valore di ricerca si basa sull’intestazione `User-Agent` HTTP inviata con l’hit. Adobe collabora con [DeviceAtlas](https://deviceatlas.com/) per mantenere le ricerche tra agente utente e dimensioni mobili. Se utilizzi una libreria AppMeasurement (ad esempio tramite Adobe Experience Platform Launch), tutte le dimensioni per dispositivi mobili non sono disponibili.
+Queste dimensioni fanno riferimento a regole di ricerca interne ad Adobe. Il valore di ricerca si basa sull’intestazione `User-Agent` HTTP inviata con l’hit. Adobe collabora con [DeviceAtlas](https://deviceatlas.com/) per mantenere le ricerche tra agente utente e dimensioni mobili. Se utilizzi una libreria AppMeasurement (ad esempio tramite  lancio di un Adobe Experience Platform), tutte le dimensioni del dispositivo mobile non sono disponibili.
 
 ## Descrizioni delle dimensioni mobili
 
->[!NOTE] I valori delle dimensioni etichettati `"None"` sono dispositivi non mobili. Se desiderate un rapporto che includa solo dispositivi mobili, trascinate la dimensione &quot;Dispositivo mobile&quot; nell’area di segmento del quadro di Workspace.
+>[!NOTE]
+>
+>I valori delle dimensioni etichettati `"None"` sono dispositivi non mobili. Se desiderate un rapporto che includa solo dispositivi mobili, trascinate la dimensione &quot;Dispositivo mobile&quot; nell’area di segmento del quadro di Workspace.
 
 * **Supporto** audio per dispositivi mobili: Determina i formati di file che il dispositivo può riprodurre. I valori di esempio includono `"MP3"`, `"AAC"`e `"MIDI Monophonic"`. I valori in questa dimensione non si escludono a vicenda; un singolo hit può attribuire più valori di dimensione.
 * **Mobile**: Se l&#39;agente utente contiene un dispositivo specifico per il vettore, quest&#39;ultimo è un valore di dimensione. I valori di esempio includono `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`e `"Verizon"`.
