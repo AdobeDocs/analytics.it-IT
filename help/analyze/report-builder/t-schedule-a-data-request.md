@@ -4,7 +4,10 @@ title: Pianificazione di una richiesta di dati
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1003'
+ht-degree: 3%
 
 ---
 
@@ -15,11 +18,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Ad esempio, è possibile pianificare l&#39;invio immediato delle cartelle di lavoro o in base a una pianificazione periodica, specificando il formato del file in [!DNL Advanced Delivery Options]. La dimensione massima del file è 5 MB per il caricamento di una cartella di lavoro.
 
-Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generatore di report, puoi visualizzare e modificare la pianificazione in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (vedere Pianificazione e distribuzione [](/help/analyze/reports-analytics/scheduling.md) dei report nell&#39;Aiuto di Reporting e analisi).
+Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Generatore di report, puoi visualizzare e modificare la pianificazione in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (vedere Pianificazione e distribuzione [dei](/help/analyze/reports-analytics/scheduling.md) rapporti nella guida di Reporting e  Analytics).
 
->[!NOTE] Per pianificare una cartella di lavoro è necessario disporre di Excel 2007 o del pacchetto di compatibilità installato. È possibile disporre di un massimo di 10 cartelle di lavoro pianificate per ogni licenza Generatore di report. Tuttavia, potete aumentare questo numero sottraendo altre licenze. Per farlo, accedete a **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Viene eliminata una cartella di lavoro pianificata (o caricata nella libreria della cartella di lavoro) che non è stata toccata (aggiornata, sostituita) in più di 28 mesi.
+>[!NOTE]
+>
+>Per pianificare una cartella di lavoro è necessario disporre di Excel 2007 o del pacchetto di compatibilità installato. È possibile disporre di un massimo di 10 cartelle di lavoro pianificate per ogni licenza Generatore di report. Tuttavia, potete aumentare questo numero sottraendo altre licenze. Per farlo, accedete a **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Viene eliminata una cartella di lavoro pianificata (o caricata nella libreria della cartella di lavoro) che non è stata toccata (aggiornata, sostituita) in più di 28 mesi.
 
->[!NOTE] Il valore &quot;Tempo di consegna&quot;/&quot;Ora del giorno&quot; immesso dall&#39;utente specifica l&#39;ora in cui la cartella di lavoro deve iniziare l&#39;elaborazione, non l&#39;ora in cui verrà effettivamente consegnata. Il tempo effettivo per la consegna della cartella di lavoro dipende principalmente dal tempo necessario per l&#39;elaborazione (l&#39;elaborazione di cartelle di lavoro complesse e di grandi dimensioni richiede più tempo rispetto a quelle più semplici). Ad esempio, se l&#39;elaborazione di una cartella di lavoro richiede 15 minuti, il tempo di consegna effettivo sarà di almeno 15 minuti oltre il &quot;Tempo di consegna&quot;/&quot;Ora del giorno&quot; specificato originariamente.
+>[!NOTE]
+>
+>Il valore &quot;Tempo di consegna&quot;/&quot;Ora del giorno&quot; immesso dall&#39;utente specifica l&#39;ora in cui la cartella di lavoro deve iniziare l&#39;elaborazione, non l&#39;ora in cui verrà effettivamente consegnata. Il tempo effettivo per la consegna della cartella di lavoro dipende principalmente dal tempo necessario per l&#39;elaborazione (l&#39;elaborazione di cartelle di lavoro complesse e di grandi dimensioni richiede più tempo rispetto a quelle più semplici). Ad esempio, se l&#39;elaborazione di una cartella di lavoro richiede 15 minuti, il tempo di consegna effettivo sarà di almeno 15 minuti oltre il &quot;Tempo di consegna&quot;/&quot;Ora del giorno&quot; specificato originariamente.
 >Inoltre, esistono altri fattori che possono aumentare ulteriormente il ritardo prima della consegna effettiva della cartella di lavoro:
 >
 > * **L&#39;esecuzione simultanea** di molte pianificazioni diverse dello stesso tipo può sovraccaricare il sistema. Il sistema di programmazione consente solo l&#39;esecuzione simultanea di alcune (5-10) cartelle di lavoro di qualsiasi tipo, pertanto, quando più di 5-10 sono tutte pianificate contemporaneamente, alcuni dovranno attendere la fine di altre cartelle di lavoro prima di poter iniziare l&#39;elaborazione. Questo problema può essere attenuato pianificando i libri di lavoro di un&#39;azienda in orari scaglionati per tutto il giorno o l&#39;ora, anziché simultaneamente.
