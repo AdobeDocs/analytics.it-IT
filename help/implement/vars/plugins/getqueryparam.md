@@ -2,20 +2,25 @@
 title: getQueryParam
 description: Estrarre il valore del parametro di una stringa di query dell'URL.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 1%
 
 ---
 
 
 # Plug-in Adobe: getQueryParam
 
->[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `getQueryParam` plug-in consente di estrarre il valore di qualsiasi parametro di stringa di query contenuto in un URL. È utile per estrarre i codici campagna, sia interni che esterni, dagli URL delle pagine di destinazione. È inoltre utile per estrarre i termini di ricerca o altri parametri di stringa di query.
 
 Questo plug-in fornisce funzioni affidabili nell’analisi di URL complessi, inclusi hash e URL contenenti più parametri di stringa di query. Se è necessario solo un parametro di stringa di query semplice, Adobe consiglia di utilizzare le funzionalità dei parametri URL in Launch o il [`Util.getQueryParam()`](../functions/util-getqueryparam.md) metodo incluso in AppMeasurement.
 
-## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
 
 Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
 
@@ -24,10 +29,10 @@ Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug
 1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
 1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
-   * Condizione: None
+   * Condizione: nessuna
    * Evento: Core - Libreria caricata (Page Top)
 1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
+   * Estensione: Plug-in Analytics  comuni
    * Tipo azione: Initialize getQueryParam
 1. Salvate e pubblicate le modifiche alla regola.
 
@@ -37,10 +42,10 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics.
+1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
 1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
+1. Salvate e pubblicate le modifiche nell’estensione Analytics .
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
