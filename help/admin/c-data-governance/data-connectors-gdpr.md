@@ -2,8 +2,11 @@
 description: Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
 title: Privacy dei dati e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Queste informazioni ti consentono di identificare i dati importanti direttamente
 
 Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che controlli le variabili/classificazioni partner nell’integrazione che potrebbero contenere dati direttamente o indirettamente identificabili.
 
->[!NOTE] Queste informazioni sono fornite per identificare le variabili che devono essere [etichettate](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), ma è responsabilità dell’utente, in quanto responsabile del trattamento, applicare le etichette appropriate o eseguire altre azioni per [prepararsi per la Privacy dei dati](/help/admin/c-data-governance/an-gdpr-overview.md) (aggiornamento delle classificazioni, ecc.).
+>[!NOTE]
+>
+>Queste informazioni sono fornite per identificare le variabili che devono essere [etichettate](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), ma è responsabilità dell’utente, in quanto responsabile del trattamento, applicare le etichette appropriate o eseguire altre azioni per [prepararsi per la Privacy dei dati](/help/admin/c-data-governance/an-gdpr-overview.md) (aggiornamento delle classificazioni, ecc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
