@@ -1,9 +1,12 @@
 ---
-description: Queste modifiche al modo in cui le metriche calcolate funzionano in Analytics possono avere un impatto sull'utente.
+description: Queste modifiche al modo in cui le metriche calcolate funzionano in  Analytics possono avere un impatto sull'utente.
 title: Domande frequenti
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2105'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +47,7 @@ Queste modifiche al modo in cui funzionano le metriche calcolate [!DNL Analytics
 
 [Perché alcune delle metriche calcolate mostrano formule senza le parentesi aggiunte?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Solo Analisi ad hoc) Le metriche calcolate con le definizioni di segmento incorporate o in linea sono ancora supportate?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[( solo Ad hoc analysis) Le metriche calcolate con le definizioni di segmento incorporate o in linea sono ancora supportate?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [(Solo Generatore di report) Perché le metriche calcolate sono scomparse dalle mie richieste?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -53,7 +56,7 @@ Queste modifiche al modo in cui funzionano le metriche calcolate [!DNL Analytics
 ## Come posso accedere al Generatore metriche calcolate? {#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
 * Fare clic **[!UICONTROL + Add]** nella parte superiore del Gestore della metrica calcolata oppure
-* In qualsiasi rapporto di Analytics, fai clic sull&#39;icona Metriche ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
+* In un  rapporto Analytics, fai clic sull’icona Metriche ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
 
 ## Come posso accedere al Gestore della metrica calcolata? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
@@ -75,9 +78,13 @@ Vedreste una serie di metriche calcolate con lo stesso nome (ma create in suite 
 
 Considerate l&#39;opportunità di consolidare le metriche calcolate con nomi e definizioni simili, ma prestate attenzione nel farlo. Puoi controllare la suite di rapporti per verificare la metrica calcolata nel Gestore della metrica calcolata per verificare la suite di rapporti originale. È inoltre necessario verificare le definizioni delle metriche quando si eliminano potenziali duplicati per garantire il corretto consolidamento delle metriche.
 
->[!NOTE] Anche se le metriche calcolate non sono più associate a una suite di rapporti specifica e possono essere utilizzate in qualsiasi suite di rapporti visibile per la società di accesso, la suite di rapporti in cui è stata creata o salvata la metrica calcolata è ancora visibile in Gestione metriche calcolate.
+>[!NOTE]
+>
+>Anche se le metriche calcolate non sono più associate a una suite di rapporti specifica e possono essere utilizzate in qualsiasi suite di rapporti visibile per la società di accesso, la suite di rapporti in cui è stata creata o salvata la metrica calcolata è ancora visibile in Gestione metriche calcolate.
 
->[!NOTE] Anche se viene eliminata una metrica calcolata, tutti i segnalibri o i report dashboard che fanno riferimento a tale metrica continueranno a funzionare.
+>[!NOTE]
+>
+>Anche se viene eliminata una metrica calcolata, tutti i segnalibri o i report dashboard che fanno riferimento a tale metrica continueranno a funzionare.
 
 ## Cos&#39;è successo alle mie metriche calcolate globali? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -89,7 +96,9 @@ Le metriche calcolate globali ora sono di proprietà del primo utente Admin nell
 
 Niente. Tuttavia, il nuovo amministratore deve prestare attenzione quando modifica o elimina queste metriche calcolate, che possono essere utilizzate in numerosi report e dashboard con segnalibro.
 
->[!NOTE] Anche se viene eliminata una metrica calcolata, tutti i segnalibri o i report dashboard che fanno riferimento a tale metrica continueranno a funzionare.
+>[!NOTE]
+>
+>Anche se viene eliminata una metrica calcolata, tutti i segnalibri o i report dashboard che fanno riferimento a tale metrica continueranno a funzionare.
 
 ## Cos&#39;è successo alle metriche calcolate globali che sono state condivise tra le società di accesso? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -101,7 +110,9 @@ Le metriche calcolate globali non possono più essere condivise tra le società 
 * Il valore predefinito è &quot;shared with Everyone&quot; (Condividi con tutti).
 * Saranno copie indipendenti da tutte le altre società di accesso.
 
->[!NOTE] Se la metrica calcolata è stata utilizzata in un segnalibro, dashboard, avvisi o report pianificati, la modifica della nuova copia NON influirà sulla metrica calcolata persistente precedente.
+>[!NOTE]
+>
+>Se la metrica calcolata è stata utilizzata in un segnalibro, dashboard, avvisi o report pianificati, la modifica della nuova copia NON influirà sulla metrica calcolata persistente precedente.
 
 ## Cos&#39;è successo alle metriche calcolate con una classificazione numerica o numerica2? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
@@ -131,7 +142,7 @@ Puoi usare una metrica Visitatore univoco di base su un report con un segmento. 
 
 ## Cosa succede alle metriche calcolate create o gestite con i metodi API della suite di rapporti precedente? {#section_13ED1BAD02634674BDAEB479B060A4B6}
 
-Precedentemente, il salvataggio di una metrica calcolata con il metodo (1.3 o 1.4) API ReportSuite.SaveCalculatedMetrics era uguale alla creazione o all&#39;aggiornamento di una metrica calcolata in Admin Console. Lo stesso vale per ReportSuite.DeleteCalculatedMetrics. Inoltre, l&#39;elenco delle metriche calcolate visualizzato nell&#39;Admin Console o durante la chiamata a ReportSuite.GetCalculatedMetrics era lo stesso.
+In precedenza, il salvataggio di una metrica calcolata con il metodo (1.3 o 1.4) API ReportSuite.SaveCalculatedMetrics era lo stesso della creazione o dell&#39;aggiornamento di una metrica calcolata nell&#39;Admin Console . Lo stesso vale per ReportSuite.DeleteCalculatedMetrics. Inoltre, l&#39;elenco delle metriche calcolate visualizzate nell&#39;Admin Console  o durante la chiamata a ReportSuite.GetCalculatedMetrics era lo stesso.
 
 Ora, i metodi API CalculatedMetrics di ReportSuite (1.3 o 1.4) continueranno a salvare, eliminare e recuperare le metriche calcolate utilizzando il vecchio store. Le metriche calcolate esistenti verranno migrate e saranno visibili nel nuovo Generatore di metriche calcolate. **Le nuove metriche calcolate create con i metodi API saranno visibili solo nell&#39;API. Saranno comunque utilizzabili nell&#39;API di reporting.**
 
@@ -167,19 +178,19 @@ Sarà necessario ripristinare le modifiche apportate alle metriche legacy.
 
 (In precedenza, tutte le metriche calcolate venivano elencate nel selettore delle metriche nei report Canali di marketing con l&#39;opzione Primo contatto e ultimo tocco.)
 
-Ora, solo le metriche calcolate con il tipo di allocazione impostato specificatamente su Primo contatto o Ultimo contatto nel generatore Metriche calcolate saranno disponibili nel selettore delle metriche nei report Canali di marketing. Eventuali metriche calcolate già applicate ai report Marketing Channel continueranno a essere applicate e funzioneranno come prima. Per creare una metrica calcolata per Marketing Channels (Canali di marketing), fai clic sull’icona di configurazione nel generatore di metriche e seleziona Primo tocco o Ultimo tocco come tipo di allocazione. Tieni presente che in questo modo la metrica calcolata sarà compatibile solo con i report Marketing Channel e non sarà utilizzabile su nessun altro report.
+Ora, solo le metriche calcolate con il tipo di allocazione impostato specificatamente su Primo contatto o Ultimo contatto nel generatore Metriche calcolate saranno disponibili nel selettore delle metriche nei report Canali di marketing. Eventuali metriche calcolate già applicate ai report Marketing Channel continueranno ad essere applicate e funzioneranno come prima. Per creare una metrica calcolata per Marketing Channels (Canali di marketing), fai clic sull’icona di configurazione nel generatore di metriche e seleziona Primo tocco o Ultimo tocco come tipo di allocazione. Tieni presente che in questo modo la metrica calcolata sarà compatibile solo con i report Marketing Channel e non sarà utilizzabile su nessun altro report.
 
 ## Perché alcune delle metriche calcolate mostrano formule senza le parentesi aggiunte? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 Durante la migrazione, Adobe ha eliminato alcune parentesi superflue da alcune formule. Sono state rimosse solo le parentesi che non influiscono sulla modalità di calcolo della metrica. Questo non cambierà i dati, ma semplicemente semplifica la formula.
 
-## (Solo Analisi ad hoc) Le metriche calcolate con definizioni di segmenti incorporate o in linea sono ancora supportate? {#section_B25C924A282F49388AB604E3D826F44C}
+## ( solo Ad hoc analysis) Le metriche calcolate con definizioni di segmento incorporate o inline sono ancora supportate? {#section_B25C924A282F49388AB604E3D826F44C}
 
-Le metriche calcolate create nell&#39;analisi ad hoc potevano in precedenza contenere definizioni di segmenti in linea. Questo non è più possibile.
+Le metriche calcolate create in  Ad hoc analysis potevano in precedenza contenere definizioni di segmenti in linea. Questo non è più possibile.
 
 **Cosa devi fare**
 
-È necessario salvare esplicitamente il segmento. Le metriche calcolate esistenti con definizioni di segmenti in linea continueranno a essere eseguite correttamente e potranno essere visualizzate in Analisi ad hoc, ma non potranno essere salvate senza aver salvato esplicitamente il segmento.
+È necessario salvare esplicitamente il segmento. Le metriche calcolate esistenti con definizioni di segmenti in linea continueranno a essere eseguite correttamente e potranno essere visualizzate  Ad hoc analysis, ma non potranno essere salvate senza aver salvato esplicitamente il segmento.
 
 ## (Solo Generatore di report) Perché le metriche calcolate sono scomparse dalle mie richieste? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
