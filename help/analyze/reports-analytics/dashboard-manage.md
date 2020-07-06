@@ -5,7 +5,10 @@ title: Dashboard Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 3%
 
 ---
 
@@ -50,7 +53,7 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboard Player</strong></td> 
-  <td class="chdesc stentry"> <p>I server SiteCatalyst 14 non rispondono più alle richieste di dati di Dashboard Player. Tutte le dashboard attualmente visualizzate in Dashboard Player sono accessibili nell'interfaccia standard di Reporting e analisi o ricreato come dashboard in tempo reale. Le dashboard in tempo reale sono progettate specificatamente per la visualizzazione continua e includono una modalità a schermo intero per consentire la visualizzazione su TV o altri dispositivi di grandi dimensioni. </p> <p>Azione utente richiesta: È necessario interrompere l'utilizzo di Dashboard Player. </p> </td> 
+  <td class="chdesc stentry"> <p>I server SiteCatalyst 14 non rispondono più alle richieste di dati di Dashboard Player. Tutte le dashboard attualmente visualizzate in Dashboard Player sono accessibili nell'interfaccia standard di Reporting e  Analytics oppure ricreato come dashboard in tempo reale. Le dashboard in tempo reale sono progettate specificatamente per la visualizzazione continua e includono una modalità a schermo intero per consentire la visualizzazione su TV o altri dispositivi di grandi dimensioni. </p> <p>Azione utente richiesta: È necessario interrompere l'utilizzo di Dashboard Player. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Copia</strong></td> 
@@ -70,11 +73,15 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
 
 Le dashboard esistenti continueranno a essere eseguite e potrai comunque modificarle, scaricarle e pianificarle; tuttavia, non è più possibile creare nuove dashboard legacy. Si consiglia vivamente di aggiornare le dashboard esistenti al formato dashboard più recente.
 
->[!NOTE] In futuro, prendi in considerazione l’utilizzo di progetti [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) Analysis Workspace e la possibilità di scaricarli e pianificarli.
+>[!NOTE]
+>
+>In futuro, prendete in considerazione la possibilità di utilizzare [progetti](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html) Analysis Workspace e la possibilità di scaricarli e pianificarli.
 
 Quando copiate il dashboard legacy, il sistema apre il dashboard legacy per la modifica, in cui potete aggiungere contenuto legacy o nuovo contenuto. Quando copiate una dashboard precedente, l’originale viene mantenuto nell’elenco delle dashboard precedenti.
 
->[!NOTE] L’aggiunta di contenuti legacy a una dashboard crea una dashboard basata sulle funzionalità più recenti della dashboard. Tuttavia, il minirapporto legacy potrebbe contenere dati basati sulla piattaforma dati precedente.
+>[!NOTE]
+>
+>L’aggiunta di contenuti legacy a una dashboard crea una dashboard basata sulle funzionalità più recenti della dashboard. Tuttavia, il minirapporto legacy potrebbe contenere dati basati sulla piattaforma dati precedente.
 
 **Per migrare una versione 14.x del dashboard legacy**
 
@@ -108,7 +115,9 @@ In [!UICONTROL Dashboard Manager], potete verificare se una dashboard è pianifi
 
 ## Archiviare un dashboard
 
->[!NOTE] Questa funzionalità non sarà più disponibile a gennaio 2020.
+>[!NOTE]
+>
+>Questa funzionalità non sarà più disponibile a gennaio 2020.
 
 Procedura che descrive come archiviare qualsiasi dashboard inviata come file PDF. Il sistema memorizza il file archiviato per due anni, o fino a quando non si raggiunge un limite massimo di 4 GB di rapporti archiviati, a seconda di quale sia il primo.
 
