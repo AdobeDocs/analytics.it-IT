@@ -4,7 +4,10 @@ title: Panoramica della personalizzazione dei rapporti
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 6%
 
 ---
 
@@ -81,7 +84,9 @@ t_reports_comparing_dates.xml
 
 Non è possibile confrontare le date tra i report con tendenze.
 
->[!NOTE] Se desiderate eseguire un confronto delle date sulle metriche chiave in una dashboard, potete inserire i dati nel Generatore [di](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html) report utilizzando due richieste separate. Quindi si utilizzano formule personalizzate in Excel per analizzare la differenza tra le due.
+>[!NOTE]
+>
+>Se desiderate eseguire un confronto delle date sulle metriche chiave in una dashboard, potete inserire i dati nel Generatore [di](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html) report utilizzando due richieste separate. Quindi si utilizzano formule personalizzate in Excel per analizzare la differenza tra le due.
 
 Per confrontare le date tra i report classifica in Reporting e analisi:
 
@@ -206,7 +211,7 @@ Questa funzione si applica solo ai report con tendenze filtrati con un intervall
 
 ## Pulsante Prova in Workspace {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Facendo clic sul **[!UICONTROL Try In Workspace]** pulsante nella parte superiore di un rapporto, lo stesso rapporto verrà caricato in Analysis Workspace.
+Facendo clic sul **[!UICONTROL Try In Workspace]** pulsante nella parte superiore di un rapporto, verrà caricato lo stesso rapporto in  Analysis Workspace.
 
 <!-- 
 
@@ -214,8 +219,8 @@ try_in_workspace.xml
 
  -->
 
-La maggior parte dei report in Reporting e analisi ora include un pulsante &quot;Prova in Workspace&quot; per consentire di riprodurre la visualizzazione corrente in Analysis Workspace per un&#39;ulteriore personalizzazione.
+La maggior parte dei report in Reporting e  Analytics ora include un pulsante &quot;Try in Workspace&quot; (Prova in area di lavoro) che consente di riprodurre la visualizzazione corrente in  Analysis Workspace per un&#39;ulteriore personalizzazione.
 
-Attualmente, il pulsante è disponibile solo se il nome utente dispone dei diritti completi su Analysis Workspace.
+Attualmente, il pulsante è disponibile solo se il nome utente dispone dei diritti completi per  Analysis Workspace.
 
-Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) .
+Per ulteriori informazioni su tutti i modi in cui puoi personalizzare il rapporto, consulta la guida [Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html) .
