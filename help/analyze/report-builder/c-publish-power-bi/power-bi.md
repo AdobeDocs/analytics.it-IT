@@ -1,20 +1,23 @@
 ---
-description: nulle
+description: 'null'
 title: 'Pubblicare su Power BI: panoramica'
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 13%
 
 ---
 
 
 # Pubblicare su Power BI: panoramica
 
-Microsoft Power BI è una suite di dashboard di analisi business per l&#39;analisi dei dati e la condivisione di approfondimenti. L&#39;integrazione di Adobe Analytics con Power BI consente di visualizzare i dati analitici del Generatore di report in Microsoft Power BI e di condividerli facilmente all&#39;interno dell&#39;organizzazione.
+Microsoft Power BI è una suite di dashboard di analisi business per l’analisi dei dati e la condivisione di approfondimenti. L’integrazione di Adobe Analytics con Power BI consente di visualizzare i dati del Report Builder di Analytics all’interno di Microsoft Power BI e di condividerli facilmente in tutta l’organizzazione.
 
-Precedentemente, come analista, pianificavi la diffusione delle cartelle di lavoro del Generatore di report tramite e-mail (o ftp). È ora possibile consentire agli utenti aziendali interessati di accedere (dall&#39;interno dei loro account Power BI) a dati precisi e aggiornati in un ambiente basato sul Web accessibile su piattaforme e dispositivi.
+Precedentemente l’analista pianificava la diffusione delle cartelle di lavoro del Report Builder tramite e-mail (o ftp). Ora è possibile consentire agli utenti aziendali interessati di accedere (dall’interno dei loro account Power BI) a dati precisi e aggiornati in un ambiente basato sul web accessibile su più piattaforme e dispositivi.
 
-Combinando la funzionalità di generazione dei report di Generatore di report con le funzioni di visualizzazione di Power BI, le informazioni sono più accessibili a tutti gli utenti dell&#39;organizzazione. Con Power BI, puoi anche integrare Adobe Analytics con altre origini dati (ad es. punto vendita, CRM) per scoprire approfondimenti, associazioni e opportunità esclusive per i clienti.
+La combinazione della capacità di generazione rapporti di Report Builder e delle funzionalità di visualizzazione di Power BI rende le informazioni più accessibili per tutti coloro che fanno parte dell’organizzazione. Con Power BI, puoi anche integrare Adobe  Analytics con altre origini dati (ad es. punto vendita, CRM) per scoprire approfondimenti, associazioni e opportunità esclusive per i clienti.
 
 ![](assets/aaplusbi.png)
 
@@ -31,7 +34,7 @@ L&#39;integrazione con Report Builder Adobe consente di
 
 ## Pubblica cartella di lavoro in Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dati di Adobe Analytics e inviati su base regolare.
+Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dati di Adobe  Analytics e inviati su base regolare.
 
 **Pubblica cartella di lavoro nel Generatore di report**
 
@@ -47,7 +50,7 @@ Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dat
 1. Ora ti verrà chiesto di accedere al tuo account Microsoft. Immettete le vostre credenziali.
 1. La cartella di lavoro del Generatore di report viene pianificata e pubblicata in Power BI.
 
-   Per ogni istanza pianificata e dopo che il processo di pianificazione del Generatore di report ha aggiornato la cartella di lavoro con i dati Analytics aggiornati, la cartella di lavoro verrà pubblicata in Microsoft Power BI.
+   Per ogni istanza pianificata e dopo che il processo di pianificazione del Generatore di report ha aggiornato la cartella di lavoro con  dati Analytics aggiornati, la cartella di lavoro verrà pubblicata in Microsoft Power BI.
 
 **Visualizzare i dati della cartella di lavoro del Generatore di report in Power BI**
 
@@ -61,7 +64,9 @@ Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dat
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] Se la cartella di lavoro contiene una macro, l&#39;opzione &quot;Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI&quot; verrà disattivata.
+>[!NOTE]
+>
+>Se la cartella di lavoro contiene una macro, l&#39;opzione &quot;Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI&quot; verrà disattivata.
 
 Anziché importare l&#39;intera cartella di lavoro, è possibile importare solo il contenuto di tutte le tabelle formattate all&#39;interno della cartella di lavoro.
 
@@ -113,7 +118,7 @@ Puoi trasformare tutte le tue richieste in tabelle di set di dati e creare visua
 1. Nella barra degli strumenti del Generatore di report, fai clic su **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Nella Pianificazione guidata di base, fare clic su **[!UICONTROL Advanced Scheduling Options]**.
-1. Nella [!UICONTROL Scheduling Wizard - Advanced], nella **[!UICONTROL Publishing Options]** scheda, selezionare la casella accanto a **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]**![](assets/advanced-schedule-wizard2.png)
+1. Nella [!UICONTROL Scheduling Wizard - Advanced], nella **[!UICONTROL Publishing Options]** scheda, selezionare la casella accanto a **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Fai clic su **[!UICONTROL OK]**.
 
