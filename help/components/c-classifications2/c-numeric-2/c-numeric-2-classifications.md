@@ -5,7 +5,10 @@ title: Panoramica delle classificazioni numeriche 2
 topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 37%
 
 ---
 
@@ -18,13 +21,15 @@ Le classificazioni numeriche 2 forniscono metriche flessibili e personalizzate c
 >
 >La possibilità di importare le classificazioni Numeriche 2 e Abilitate per data è stata rimossa dal codebase. Questa modifica entrerà in vigore con la versione di manutenzione di luglio 2019. Se nel file di importazione sono presenti colonne numeriche o abilitate per data, tali celle verranno automaticamente ignorate e gli altri dati del file verranno importati come di consueto. Le classificazioni esistenti possono ancora essere esportate attraverso il flusso di lavoro di classificazione standard e continueranno a essere disponibili nei rapporti.
 
->[!NOTE] Nella versione di manutenzione del 10 maggio 2018 di Analytics, Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
+>[!NOTE]
+>
+>Nella versione di manutenzione di Analytics del 10 maggio 2018, Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
 
 Un modo comune di utilizzare classificazioni numeriche 2 è per le variabili numeriche che cambiano nel tempo per diversi elementi, come il costo dei beni venduti. In admin, potete creare classificazioni sulla [!UICONTROL Conversion Classification] pagina, quindi utilizzare Importazione per esportare un file, apportare modifiche e quindi importare nuovamente il file in Adobe. Dopo aver importato i dati, puoi utilizzare le classificazioni numeriche per creare le metriche calcolate.
 
 >[!IMPORTANT]
 >
->Analysis Workspace e Analisi ad hoc non supportano le classificazioni Numeriche 2.
+> Analysis Workspace e  Ad hoc analysis non supportano le classificazioni Numeric 2.
 
 Nella tabella seguente sono illustrate le differenze tra i tipi di classificazione:
 
