@@ -2,18 +2,23 @@
 title: getVisitNum
 description: Monitora il numero di visita corrente di un visitatore.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 0%
 
 ---
 
 
 # Plug-in Adobe: getVisitNum
 
->[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `getVisitNum` plug-in restituisce il numero di visita per tutti i visitatori che arrivano sul sito entro il numero desiderato di giorni. Analysis Workspace offre una dimensione &quot;Numero visita&quot; con funzionalità simili. Adobe consiglia di utilizzare questo plug-in se desiderate maggiore controllo sulla modalità di incremento del numero di visita. Questo plug-in non è necessario se la dimensione &quot;Visit Number&quot; integrata in Analysis Workspace è sufficiente per le tue esigenze di reporting.
+Il `getVisitNum` plug-in restituisce il numero di visita per tutti i visitatori che arrivano sul sito entro il numero desiderato di giorni.  Analysis Workspace offre una dimensione &quot;Visit Number&quot; che fornisce funzionalità simili. Adobe consiglia di utilizzare questo plug-in se desiderate maggiore controllo sulla modalità di incremento del numero di visita. Questo plug-in non è necessario se la dimensione integrata &quot;Visit Number&quot; in  Analysis Workspace è sufficiente per le esigenze di reporting.
 
-## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
 
 Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
 
@@ -22,10 +27,10 @@ Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug
 1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
 1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
-   * Condizione: None
+   * Condizione: nessuna
    * Evento: Core - Libreria caricata (Page Top)
 1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
+   * Estensione: Plug-in Analytics  comuni
    * Tipo azione: Initialize getVisitNum
 1. Salvate e pubblicate le modifiche alla regola.
 
@@ -35,14 +40,14 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics.
+1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
 1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
+1. Salvate e pubblicate le modifiche nell’estensione Analytics .
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -138,7 +143,7 @@ s.prop1=s.getVisitNum("y");
 
 ### Esempio n. 7
 
-Se desideri tracciare il numero di visita di un visitatore per la settimana, il numero di visita di un visitatore per il mese e il numero di visita di un visitatore per l&#39;anno, il tutto all&#39;interno di variabili Analytics diverse, devi usare un codice che assomigli a quanto segue:
+Se desideri tenere traccia del numero di visita di un visitatore per la settimana, del numero di visita di un visitatore per il mese e del numero di visita di un visitatore per l&#39;anno, il tutto all&#39;interno  variabili Analytics diverse, devi usare un codice che assomigli a quanto segue:
 
 ```js
 s.prop1=s.getVisitNum("w");
