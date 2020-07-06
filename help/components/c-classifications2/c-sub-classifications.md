@@ -1,20 +1,25 @@
 ---
-description: Adobe Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
+description: Adobe  Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
 subtopic: Classifications
 title: Informazioni sulle classificazioni secondarie
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 8%
 
 ---
 
 
 # Informazioni sulle classificazioni secondarie
 
-Adobe Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
+Adobe  Analytics supporta modelli di classificazione a livello singolo e multiplo. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
 
->[!NOTE] Per sottocategoria si intende la capacità di creare classificazioni di classificazioni. Tuttavia, non è lo stesso utilizzato [!UICONTROL Classification Hierarchy] per creare [!UICONTROL Hierarchy] rapporti. Per ulteriori informazioni sulle gerarchie di classificazione, vedere Gerarchie [di](classification-hierarchies.md)classificazione.
+>[!NOTE]
+>
+>Per sottocategoria si intende la capacità di creare classificazioni di classificazioni. Tuttavia, non è lo stesso utilizzato [!UICONTROL Classification Hierarchy] per creare [!UICONTROL Hierarchy] rapporti. Per ulteriori informazioni sulle gerarchie di classificazione, vedere Gerarchie [di](classification-hierarchies.md)classificazione.
 
 Ad esempio:
 
@@ -52,7 +57,9 @@ Ad esempio:
 
 Anche se il modello di file per una classificazione a più livelli è più complesso, la potenza delle classificazioni a più livelli è che i livelli separati possono essere caricati come file separati. Questo approccio può essere utilizzato per ridurre al minimo la quantità di dati da caricare periodicamente (quotidianamente, settimanalmente e così via) raggruppando i dati in livelli di classificazione che si modificano nel tempo rispetto a quelli che non lo sono.
 
->[!NOTE] Se la [!UICONTROL Key] colonna in un file di dati è vuota, Adobe genera automaticamente chiavi univoche per ogni riga di dati. Per evitare possibili danneggiamenti del file durante il caricamento di un file di dati con dati di classificazione di secondo livello o di livello superiore, compilare ciascuna riga della [!UICONTROL Key] colonna con un asterisco (*).
+>[!NOTE]
+>
+>Se la [!UICONTROL Key] colonna in un file di dati è vuota, Adobe genera automaticamente chiavi univoche per ogni riga di dati. Per evitare possibili danneggiamenti del file durante il caricamento di un file di dati con dati di classificazione di secondo livello o di livello superiore, compilare ciascuna riga della [!UICONTROL Key] colonna con un asterisco (*).
 
 Consulta [Problemi](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) comuni relativi al caricamento delle classificazioni per la risoluzione dei problemi.
 
@@ -60,7 +67,8 @@ Consulta [Problemi](https://helpx.adobe.com/analytics/kb/common-saint-upload-iss
 
 ![](assets/sample-product-classifications.png)
 
->[!NOTE] I dati di classificazione dei prodotti sono limitati agli attributi di dati direttamente correlati al prodotto. I dati non si limitano alla classificazione o alla vendita dei prodotti sul sito Web. Gli elementi dati come categorie di vendita, nodi di ricerca del sito o elementi di vendita non sono dati di classificazione del prodotto. Tali elementi vengono invece acquisiti nelle variabili di conversione dei report.
+>[!NOTE]
+I dati di classificazione dei prodotti sono limitati agli attributi di dati direttamente correlati al prodotto. I dati non si limitano alla classificazione o alla vendita dei prodotti sul sito Web. Gli elementi dati come categorie di vendita, nodi di ricerca del sito o elementi di vendita non sono dati di classificazione del prodotto. Tali elementi vengono invece acquisiti nelle variabili di conversione dei report.
 
 Quando caricate i file di dati per questa classificazione di prodotto, potete caricare i dati di classificazione come un singolo file o più file (vedete di seguito). Separando il codice colore nel file 1 e il nome del colore nel file 2, i dati del nome del colore (che possono essere solo poche righe) devono essere aggiornati solo quando vengono creati nuovi codici colore. Questo elimina il campo del nome del colore (CODE&amp;Hat;COLOR) dal file 1 aggiornato con maggiore frequenza e riduce la dimensione e la complessità del file durante la generazione del file di dati.
 
