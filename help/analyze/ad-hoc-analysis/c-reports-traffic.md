@@ -4,7 +4,10 @@ title: Rapporti fonti traffico
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 1%
 
 ---
 
@@ -90,13 +93,15 @@ c_reports_referrers.xml
 
  -->
 
-Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l&#39;implementazione di reporting e analisi di marketing, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web. (Questa modifica può essere eseguita dopo l’implementazione).
+Ad esempio, se un visitatore fa clic su un collegamento dal sito A e arriva sul sito, il sito A è il referente se non è definito come parte del dominio. Durante l’implementazione dei marketing reports and analytics, il consulente di implementazione può aiutarti a definire i domini e gli URL che fanno parte del tuo sito Web. (Questa modifica può essere eseguita dopo l’implementazione).
 
 I domini o gli URL che non fanno parte di tali domini definiti e gli URL sono considerati referenti. Ad esempio, la pagina Web A e la pagina Web B vengono aggiunte al filtro URL interno, ma non la pagina Web C. In questo caso, la pagina Web C è considerata un referente.
 
 Per ulteriori informazioni, consulta Filtri [URL](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html) interni nella [!DNL Admin Console] guida.
 
->[!NOTE] I report e le analisi di marketing registrano un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento di messaggio e-mail contenente il protocollo [!DNL imap://] o [!DNL mail://] e arrivano sul sito. Ad esempio, qualsiasi cosa proveniente da [!DNL https://mail.yahoo.com] viene conteggiata come referente e-mail perché il protocollo è [!DNL https://]. Le e-mail di Outlook vengono riportate nella riga Typed/Bookmarked, mentre qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore di ricerca.
+>[!NOTE]
+>
+>Marketing reports and analytics registra un dominio di riferimento come e-mail quando i visitatori fanno clic su un collegamento a un messaggio e-mail contenente il protocollo [!DNL imap://] o [!DNL mail://] e arrivano sul sito. Ad esempio, qualsiasi cosa proveniente da [!DNL https://mail.yahoo.com] viene conteggiata come referente e-mail perché il protocollo è [!DNL https://]. Le e-mail di Outlook vengono riportate nella riga Typed/Bookmarked, mentre qualsiasi referente con un protocollo HTTP in cui il dominio è un motore di ricerca noto viene riportato nella riga Motore di ricerca.
 
 ## Tipo di riferimento {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +134,7 @@ Durante l&#39;esecuzione di questo rapporto potrebbero essere visualizzati i seg
 
 **USENET (newsgroup)**: Ciò significa che l&#39;URL di un referente è iniziato con `news://`. Come tale, il collegamento del referente è stato pubblicato su un newsgroup Usenet anziché su una pagina Web.
 
->[!NOTE] La logica Tipo referente corrisponde ad altri rapporti origini traffico (ad esempio [!UICONTROL Referrers] e [!UICONTROL Referring Domains]). In questo modo si riducono o si eliminano le occorrenze degli elementi di riga all&#39;interno del sito e non è presente alcun elemento JavaScript nel [!UICONTROL Referrer Type] rapporto.
+>[!NOTE]
+>
+>La logica Tipo referente corrisponde ad altri rapporti origini traffico (ad esempio [!UICONTROL Referrers] e [!UICONTROL Referring Domains]). In questo modo si riducono o si eliminano le occorrenze degli elementi di riga all&#39;interno del sito e non è presente alcun elemento JavaScript nel [!UICONTROL Referrer Type] rapporto.
 
