@@ -2,7 +2,7 @@
 description: Seguono istruzioni su come individuare gli ID account per Google e Bing.
 title: Individuare gli ID account
 translation-type: tm+mt
-source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 3%
@@ -18,7 +18,7 @@ Seguono istruzioni su come individuare gli ID account per Google e Bing.
 
 >[!IMPORTANT]
 >
->Google AdWords utilizza due tipi di account: a) Account MCC (My Client Center) e b) Account standard. Per questa integrazione con Adobe Analytics, **dovete utilizzare un account di accesso** Standard, non un account MCC. Il motivo è che un account MCC agisce come un account &quot;ombrello&quot; che può accedere a più account AdWords con un singolo login, mentre il login dell&#39;account Standard può accedere a un solo account AdWords per login. Google supporta il collegamento di un&#39;e-mail per gestire 5 account, mentre Analisi della pubblicità non supporta ancora questa funzione. Un&#39;e-mail può essere collegata con un solo account Adwords.
+>Google AdWords utilizza due tipi di account: a) Account MCC (My Client Center) e b) Account standard. Per questa integrazione con Adobe  Analytics, **dovete utilizzare un account di accesso** standard, non un account MCC. Il motivo è che un account MCC agisce come un account &quot;ombrello&quot; che può accedere a più account AdWords con un singolo login, mentre il login dell&#39;account Standard può accedere a un solo account AdWords per login. Mentre Google supporta il collegamento di un&#39;e-mail per gestire 5 account, la pubblicità  Analytics non supporta ancora questa funzione. Un&#39;e-mail può essere collegata con un solo account Adwords.
 
 Fate clic sull&#39;icona Account in alto a destra per visualizzare il numero di account AdWords (ID cliente).
 
@@ -32,6 +32,8 @@ Fate clic sull&#39;icona Account in alto a destra per visualizzare il numero di 
 
 L&#39;ID account e l&#39;ID cliente sono entrambi obbligatori. Sono elencati nella scheda Account.
 
->[!NOTE] Il numero di account non equivale all&#39;ID account.
+>[!NOTE]
+>
+>Il numero di account non equivale all&#39;ID account.
 
 ![](assets/bing_id.png)
