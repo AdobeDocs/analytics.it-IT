@@ -2,14 +2,17 @@
 title: t
 description: Inviare una chiamata di tracciamento della visualizzazione della pagina ad Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
 
 # t()
 
-Il `t()` metodo è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe.
+Il `t()` metodo è un componente di base importante per Adobe  Analytics. Prende tutte  variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe.
 
 Ad esempio, prendere in considerazione il seguente codice JavaScript:
 
@@ -25,7 +28,7 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-L’esecuzione del `t()` metodo prende tutte le variabili Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre determinano i valori dei parametri delle stringhe di query.
+L&#39;esecuzione del `t()` metodo prende tutte  variabili Analytics definite e formula un URL basato su tali variabili. Alcune variabili Analytics  determinano l’URL dell’immagine, mentre altre determinano i valori dei parametri delle stringhe di query.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
@@ -33,7 +36,7 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe riceve la richiesta di immagine, quindi analizza i parametri dell’intestazione della richiesta, dell’URL e della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente da 1 x 1 pixel, visualizzata in modo invisibile sul sito.
 
-## Chiamata di tracciamento della visualizzazione delle pagine in Adobe Experience Platform
+## Chiamata di tracciamento visualizzazione pagina in  lancio Adobe Experience Platform
 
 Launch ha una posizione dedicata impostata come chiamata di tracciamento della visualizzazione della pagina.
 
@@ -41,7 +44,7 @@ Launch ha una posizione dedicata impostata come chiamata di tracciamento della v
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic sull&#39;icona &quot;+&quot;
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e su [!UICONTROL Action Type] Invia beacon.
+5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e su [!UICONTROL Action Type] Invia beacon.
 6. Click the `s.t()` radio button.
 
 ## s.t() nell&#39;editor di codice personalizzato AppMeasurement e Launch
@@ -60,4 +63,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo, che comprendeva soluzioni storicamente adattate per diversi browser. La standardizzazione e le best practice nei browser più recenti non richiedono più questo blocco di codice. È necessaria solo la chiamata del metodo `s.t()` ora.
+>[!NOTE]
+>
+>Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo, che comprendeva soluzioni storicamente adattate per diversi browser. La standardizzazione e le best practice nei browser più recenti non richiedono più questo blocco di codice. È necessaria solo la chiamata del metodo `s.t()` ora.
