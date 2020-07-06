@@ -5,7 +5,10 @@ title: Importazione FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 3%
 
 ---
 
@@ -31,9 +34,11 @@ Dopo un caricamento iniziale in una suite di rapporti (per una determinata varia
 
 Ogni nuovo valore chiave caricato viene conteggiato rispetto alle uniche per quella variabile per il mese.
 
-Se hai superato i valori univoci per il mese, non vedrai i dati di classificazione corrispondenti per i valori univoci superati nel report. Puoi visualizzare tali classificazioni in data warehouse o in analisi ad hoc.
+Se hai superato i valori univoci per il mese, non vedrai i dati di classificazione corrispondenti per i valori univoci superati nel report. Potete visualizzare tali classificazioni nella data warehouse o  ad hoc analysis.
 
->[!NOTE] Il tempo necessario per elaborare un file di dati di classificazione varia in base alle dimensioni del file e al numero corrente di file già elaborati dai server Adobe. L&#39;elaborazione dei file di dati in genere non richiede più di 72 ore.
+>[!NOTE]
+>
+>Il tempo necessario per elaborare un file di dati di classificazione varia in base alle dimensioni del file e al numero corrente di file già elaborati dai server Adobe. L&#39;elaborazione dei file di dati in genere non richiede più di 72 ore.
 
 Prima di caricare i dati tramite FTP, create un account FTP. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
@@ -45,7 +50,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
  -->
 
-Procedura che descrive come utilizzare un account FTP per importare classificazioni in Adobe Analytics.
+Procedura che descrive come utilizzare un account FTP per importare classificazioni in Adobe  Analytics.
 
 Per ulteriori informazioni sulla creazione di un account FTP, consultate [Creare un account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)FTP.
 
