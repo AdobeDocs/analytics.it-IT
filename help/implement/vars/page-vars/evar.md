@@ -2,7 +2,7 @@
 title: eVar
 description: Variabili personalizzate utilizzabili nell’implementazione.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
@@ -22,18 +22,18 @@ Il numero di eVar disponibili dipende dal contratto con Adobe. Se il contratto c
 
 Prima di utilizzare le eVar nell&#39;implementazione, accertati di configurare ogni eVar nelle impostazioni della suite di rapporti. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida di amministrazione.
 
-## eVar in Adobe Experience Platform Launch
+## eVar nel lancio  Adobe Experience Platform
 
-Puoi impostare eVar sia durante la configurazione dell&#39;estensione Analytics (variabili globali), sia in base a regole.
+Potete impostare le eVar sia durante la configurazione dell&#39;estensione Analytics  (variabili globali), sia in base a regole.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuare la [!UICONTROL eVars] sezione.
 
-È possibile impostare un&#39;eVar su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
+È possibile impostare un&#39;eVar su un valore o su un elemento dati. Potete anche copiare il valore da un’altra variabile  Analytics.
 
 ## s.eVar1 - s.eVar250 in AppMeasurement e Avvia editor di codice personalizzato
 
@@ -57,4 +57,6 @@ s.eVar1 = "+12.49";
 
 Se vengono date più di due posizioni decimali, il contatore eVar arrotonda a due posizioni decimali. Un contatore eVar non può contenere numeri negativi.
 
-> [!IMPORTANT] Prima di utilizzare le eVar dei contatori, devi configurare le eVar su &#39;Contatore&#39; nell&#39;Admin Console. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida di amministrazione.
+>[!IMPORTANT]
+>
+>Prima di utilizzare le eVar del contatore, è necessario configurare le eVar su Contatore nell&#39;Admin Console . Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida di amministrazione.
