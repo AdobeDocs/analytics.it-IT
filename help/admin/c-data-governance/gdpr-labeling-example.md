@@ -2,8 +2,11 @@
 description: 'null'
 title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Supponi di avere i dati seguenti:
 
 | Etichette | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome variabile**<br>**(Namespace)** | **MyProp1**<br>**(utente)** | **ID visitatore**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nome variabile **<br>**(Namespace)** | **MyProp1 **<br>**(utente)** | **ID visitatore **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -65,7 +68,9 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Sono interessate solo le celle nelle righe contenenti AAID = 77 e un’etichetta DEL-DEVICE.
+>[!NOTE]
+>
+>Sono interessate solo le celle nelle righe contenenti AAID = 77 e un’etichetta DEL-DEVICE.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +84,9 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “Privacy-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
+>[!NOTE]
+>
+>sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “Privacy-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
