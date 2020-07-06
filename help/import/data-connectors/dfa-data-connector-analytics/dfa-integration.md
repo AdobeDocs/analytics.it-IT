@@ -5,7 +5,10 @@ title: Integrazione DFA
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2590'
+ht-degree: 1%
 
 ---
 
@@ -34,8 +37,8 @@ Le pagine di configurazione forniscono una panoramica dell&#39;integrazione, ins
 <table id="table_8F6F7F304C36431DA5FD6E5D54F60FC0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Pagina procedura guidata </th> 
-   <th colname="col2" class="entry"> Field </th> 
+   <th colname="col1" class="entry"> Pagina della procedura guidata # </th> 
+   <th colname="col2" class="entry"> Campo </th> 
    <th colname="col3" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -68,7 +71,7 @@ Le pagine di configurazione forniscono una panoramica dell&#39;integrazione, ins
   <tr> 
    <td colname="col1"> 3 </td> 
    <td colname="col2"> Variabile annuncio DFA </td> 
-   <td colname="col3"> L'eVar di Analytics che riceve l'attributo della campagna DFA, le impression e i dati di clic. In genere si tratta dell'eVar del codice di tracciamento ( <span class="varname"> s.campaign </span>), ma potete scegliere qualsiasi eVar disponibile. I Connettori dati aggiungono inoltre le seguenti classificazioni relative al DFA all'eVar selezionata: <p><b>Campagne</b>: Una raccolta di annunci serviti a più siti che contengono messaggi comuni. </p> <p><b>Nome</b>sito: Il sito in cui è stato distribuito l’annuncio. </p> <p><b>Nome</b>annuncio: Il nome dell'annuncio, come definito nel tuo account DFA. </p> <p><b>Nome</b>posizionamento sito: Il sito Web e la pagina in cui è stato distribuito l'annuncio. </p> <p><b>Strumento</b>di consegna: Doppio clic per inserzionisti. </p> <p><b>Canale</b>: Annuncio banner. </p> <p><b>Struttura</b>dei costi: CPM, CPC o Fisso, in base alla struttura dei costi dell’annuncio. </p> <p><b>Nome</b>creativo: Nome del creativo associato a un ID annuncio/posizionamento/creativo. </p> <p><b>DFA &gt; Deduplicazione</b>SearchCenter: Specifica che il DFAE deve inserire i valori nelle variabili del Centro di ricerca quando si verificano click-through DFA o View-through. </a> . </p> </td> 
+   <td colname="col3"> L'eVar Analytics  che riceve l'attributo della campagna DFA, le impression e i dati di clic. In genere si tratta dell'eVar del codice di tracciamento ( <span class="varname"> s.campaign </span>), ma potete scegliere qualsiasi eVar disponibile. I Connettori dati aggiungono inoltre le seguenti classificazioni relative al DFA all'eVar selezionata: <p><b>Campagne</b>: Una raccolta di annunci serviti a più siti che contengono messaggi comuni. </p> <p><b>Nome</b>sito: Il sito in cui è stato distribuito l’annuncio. </p> <p><b>Nome</b>annuncio: Il nome dell'annuncio, come definito nel tuo account DFA. </p> <p><b>Nome</b>posizionamento sito: Il sito Web e la pagina in cui è stato distribuito l'annuncio. </p> <p><b>Strumento</b>di consegna: Doppio clic per inserzionisti. </p> <p><b>Canale</b>: Annuncio banner. </p> <p><b>Struttura</b>dei costi: CPM, CPC o Fisso, in base alla struttura dei costi dell’annuncio. </p> <p><b>Nome</b>creativo: Nome del creativo associato a un ID annuncio/posizionamento/creativo. </p> <p><b>DFA &gt; Deduplicazione</b>SearchCenter: Specifica che il DFAE deve inserire i valori nelle variabili del Centro di ricerca quando si verificano click-through DFA o View-through. </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 4 </td> 
@@ -78,17 +81,17 @@ Le pagine di configurazione forniscono una panoramica dell&#39;integrazione, ins
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> Clic </td> 
-   <td colname="col3"> Selezionate l’evento personalizzato che riceve i dati delle metriche Clic DFA. I clic indicano il numero di volte in cui i visitatori hanno fatto clic sull’annuncio, misurato dal reindirizzamento del DFAE. La metrica Click è correlata alla metrica Click-through di Analytics. <p>Nota:  Clic DFA e Click-through di Analytics potrebbero non corrispondere esattamente a causa delle differenze nelle modalità di raccolta dei dati.  </a>. </p> </td> 
+   <td colname="col3"> Selezionate l’evento personalizzato che riceve i dati delle metriche Clic DFA. I clic indicano il numero di volte in cui i visitatori hanno fatto clic sull’annuncio, misurato dal reindirizzamento del DFAE. La metrica Clicks (Clic) è correlata alla metrica  Click-through di Analytics. <p>Nota:  Clic DFA e  Click-through Analytics potrebbero non corrispondere esattamente a causa delle differenze nelle modalità di raccolta dei dati.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Variabile View-Through </td> 
-   <td colname="col3"> <p>L'eVar di Analytics che riceve i dati View-Through DFA. La variabile View-Through consente di vedere in che modo le visualizzazioni influiscono sui tassi di conversione sul sito. </p> <p>I Connettori dati aggiungono a questa eVar le stesse classificazioni relative al DFA e alla Variabile annuncio del DFA (vedi sopra). </p> </td> 
+   <td colname="col3"> <p> eVar Analytics che riceve i dati View-Through DFA. La variabile View-Through consente di vedere in che modo le visualizzazioni influiscono sui tassi di conversione sul sito. </p> <p>I Connettori dati aggiungono a questa eVar le stesse classificazioni relative al DFA e alla Variabile annuncio del DFA (vedi sopra). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Ora dall’ultima visualizzazione (variabile periodo fisso vista-through) </td> 
-   <td colname="col3"> L'eVar di Analytics che riceve l'ora DFA dall'ultima visualizzazione dati. L’indicazione Ora dall’ultima visualizzazione indica il tempo trascorso dall’ultima visualizzazione annuncio. </td> 
+   <td colname="col3"> L'eVar Analytics  che riceve l'ora DFA dall'ultima visualizzazione dei dati. L’indicazione Ora dall’ultima visualizzazione indica il tempo trascorso dall’ultima visualizzazione annuncio. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -98,7 +101,7 @@ Le pagine di configurazione forniscono una panoramica dell&#39;integrazione, ins
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> Errore query DFA </td> 
-   <td colname="col3"> (Facoltativo) L'eVar di Analytics che riceve tutti i codici messaggio di errore query DFA segnalati. I possibili codici messaggio DFA includono: 
+   <td colname="col3"> (Facoltativo)  eVar Analytics che riceve tutti i codici messaggio di errore query DFA segnalati. I possibili codici messaggio DFA includono: 
     <ul id="ul_85FC7FB19F7F4ADF83ABCA6DDB44CE19"> 
      <li id="li_0A3181DED5A149588A0D3F1584E2FE8B"><b>nc</b>: Nessun cookie DoubleClick. </li> 
      <li id="li_D397AA73AD5E4086A18B87F271E4EC14"><b>o</b>: L'utente ha rinunciato. </li> 
@@ -109,14 +112,14 @@ Le pagine di configurazione forniscono una panoramica dell&#39;integrazione, ins
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> Evento timeout </td> 
-   <td colname="col3"> <p>L'evento del contatore di Analytics che aumenta ogni volta che scade il <span class="varname"> timer s.maxDelay </span> , e non è stata ricevuta alcuna risposta dai server DFA. Utilizzate questo evento per configurare la <span class="varname"> variabile s.maxDelay Sintonizzazione s.maxDelay </span> </a>.) </p> </td> 
+   <td colname="col3"> <p>Il  Analytics Counter Event che aumenta ogni volta che scade il timer <span class="varname"> s.maxDelay </span> e non è stata ricevuta alcuna risposta dai server DFA. Utilizzate questo evento per configurare la <span class="varname"> variabile s.maxDelay Sintonizzazione s.maxDelay </span> </a>.) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Aggiornamenti del sito Web per l&#39;integrazione DFA{#web-site-updates-for-the-dfa-integration}
 
-Dopo che Genesis ha configurato la suite di rapporti di Analytics per l&#39;integrazione DFA, devi effettuare le seguenti operazioni per configurare il tuo sito Web e l&#39;ambiente DFA per supportare l&#39;integrazione:
+Dopo che Genesis ha configurato la suite di rapporti  Analytics per l&#39;integrazione DFA, devi effettuare le seguenti operazioni per configurare il tuo sito Web e l&#39;ambiente DFA in modo che supporti l&#39;integrazione:
 
 ### Verifica spazio cookie sul dominio{#verify-cookie-space-on-the-domain}
 
@@ -126,7 +129,7 @@ Anche se è raro, alcuni domini hanno raggiunto la capacità massima di cookie p
 
 ### Aggiorna il parametro query-stringa DFA{#update-your-dfa-query-string-parameter}
 
-Se hai già eseguito il tracciamento delle campagne pubblicitarie con Adobe Analytics prima dell&#39;integrazione DFA, è possibile che tutte le campagne (e-mail, ricerca o banner) utilizzino lo stesso parametro della stringa di query per identificare l&#39;ID campagna di provenienza sulla pagina di destinazione.
+Se hai già eseguito il tracciamento delle campagne pubblicitarie con Adobe  Analytics prima dell&#39;integrazione DFA, è possibile che tutte le campagne (e-mail, ricerca o banner) utilizzino lo stesso parametro della stringa di query per identificare l&#39;ID campagna di provenienza sulla pagina di destinazione.
 
 Per capire quando richiedere dati di visualizzazione e click-through dai dati DFA per le campagne DFA Ad, i Connettori dati devono identificare quando un visitatore ha fatto clic su un banner pubblicitario di campagna DFA. Per rendere possibile questa operazione, devi aggiungere un parametro di stringa di query differenziata all&#39;URL della pagina di destinazione della campagna DFA Ad in modo che i Connettori dati possano distinguere tra le pagine della campagna DFA Ad e altre pagine della campagna pubblicitaria che potresti avere sul tuo sito Web. Il plug- `dfa_overrideParam` in JavaScript utilizzato per il DFA.
 
@@ -138,7 +141,9 @@ Per capire quando richiedere dati di visualizzazione e click-through dai dati DF
 
 L’integrazione di Genesis per il DFA sfrutta l’ID di configurazione DFA Floodlight (dfa_SPOTID), che migliora la coerenza dei rapporti tra il DFA e il sistema di raccolta dei dati Adobe.
 
->[!NOTE] Il termine Spotlight è stato modificato in Floodlight in una recente release di Google DFA. Il parametro JavaScript `dfa_SPOTID` è stato denominato in base alla terminologia di Spotlight, ma viene utilizzato per entrambe le versioni.
+>[!NOTE]
+>
+>Il termine Spotlight è stato modificato in Floodlight in una recente release di Google DFA. Il parametro JavaScript `dfa_SPOTID` è stato denominato in base alla terminologia di Spotlight, ma viene utilizzato per entrambe le versioni.
 
 Per abilitare l&#39;integrazione DFA sul sito Web, è necessario aggiornare il codice di raccolta dati JavaScript aggiungendo quanto segue:
 
@@ -191,11 +196,11 @@ Il blocco delle impostazioni integrate DFAE imposta le variabili richieste dall�
 
 **SPOTID**: Configurazione di Floodlight (precedentemente denominato Spotlight ID). I Connettori dati precompilano questa variabile con l’ID di configurazione DFA Floodlight, in base alle informazioni sull’account DFA specificate nella procedura guidata di integrazione.
 
-**Evar**: Variabile di trasferimento. Connettori dati precompila questa variabile con il nome della variabile Analytics specificato per la variabile View-Through nella procedura guidata di integrazione. Non modificate questo valore senza un&#39;attenta coordinazione con Adobe Engineering o Engineering Services.
+**Evar**: Variabile di trasferimento. Connettori dati precompila questa variabile con il nome  variabile Analytics specificato per la variabile View-Through nella procedura guidata di integrazione. Non modificate questo valore senza un&#39;attenta coordinazione con Adobe Engineering o Engineering Services.
 
-**errorEvar**: Variabile di errore. Connettori dati precompila questa variabile con il nome della variabile Analytics specificato per la variabile Errore query DFA nella procedura guidata di integrazione.
+**errorEvar**: Variabile di errore. Connettori dati precompila questa variabile con il nome  variabile Analytics specificato per la variabile Errore query DFA nell&#39;Integrazione guidata.
 
-**timeoutEvent**: Evento Timeout. Connettori dati precompila questa variabile con il nome della variabile Analytics specificato per la variabile Evento timeout nella procedura guidata di integrazione.
+**timeoutEvent**: Evento Timeout. Connettori dati precompila questa variabile con il nome  variabile Analytics specificato per la variabile Evento timeout nella procedura guidata di integrazione.
 
 **requestURL**: Host DFA remoto per richiedere informazioni sugli annunci. Non modificate questo valore a meno che non sia richiesto da Adobe.
 
