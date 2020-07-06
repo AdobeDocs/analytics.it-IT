@@ -1,8 +1,8 @@
 ---
 title: Rapporti
-description: Dimensioni e metriche utilizzate da Reporting e analisi per ciascun report.
+description: Dimensioni e metriche utilizzate da Reporting e  Analytics per ciascun report.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -12,9 +12,11 @@ ht-degree: 0%
 
 # Rapporti
 
-Ogni report in Reporting e analisi utilizza una dimensione dedicata e una metrica predefinita. Puoi modificare la metrica in ciascun rapporto e aggiungere suddivisioni, se necessario. Gli elenchi seguenti indicano la dimensione utilizzata in ciascun rapporto.
+Ogni report in Reporting e  Analytics utilizza una dimensione dedicata e una metrica predefinita. Puoi modificare la metrica in ciascun rapporto e aggiungere suddivisioni, se necessario. Gli elenchi seguenti indicano la dimensione utilizzata in ciascun rapporto.
 
-> [!NOTE] Il menu dei rapporti può essere diverso a seconda delle personalizzazioni effettuate da un amministratore nell&#39;organizzazione. Consultate Personalizzazione del [menu](/help/admin/admin/customize-menus.md) nella guida utente di amministrazione.
+>[!NOTE]
+>
+>Il menu dei rapporti può essere diverso a seconda delle personalizzazioni effettuate da un amministratore nell&#39;organizzazione. Consultate Personalizzazione del [menu](/help/admin/admin/customize-menus.md) nella guida utente di amministrazione.
 
 ## Metriche del sito
 
@@ -35,7 +37,7 @@ Contiene rapporti che in genere tendono utilizzando un intervallo di date. Conti
 * Tempo trascorso per visita: Utilizza il [tempo trascorso per visita - dimensione intrecciata](/help/components/dimensions/time-spent-per-visit.md) .
 * Ora precedente all’evento: Utilizza il [Tempo precedente alla dimensione dell&#39;evento](/help/components/dimensions/time-prior-to-event.md) .
 * Acquisti: Contiene rapporti sulle metriche basate sugli acquisti.
-   * Imbuto di conversione acquisto: Report su [Visite](/help/components/metrics/visits.md), [Carrelli](/help/components/metrics/carts.md), [Ordini](/help/components/metrics/orders.md), [Entrate](/help/components/metrics/revenue.md)e [Unità](/help/components/metrics/units.md) in un rapporto funnel. Una visualizzazione simile viene realizzata in Analysis Workspace utilizzando la visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+   * Imbuto di conversione acquisto: Report su [Visite](/help/components/metrics/visits.md), [Carrelli](/help/components/metrics/carts.md), [Ordini](/help/components/metrics/orders.md), [Entrate](/help/components/metrics/revenue.md)e [Unità](/help/components/metrics/units.md) in un rapporto funnel. Una visualizzazione simile viene realizzata in  Analysis Workspace tramite la visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
    * Entrate: Tende la metrica [Revenue](/help/components/metrics/revenue.md) nel tempo.
    * Ordini: Tende la metrica [Ordini](/help/components/metrics/orders.md) nel tempo.
    * Unità: Tendenza delle [unità](/help/components/metrics/units.md) metriche nel tempo.
@@ -86,13 +88,13 @@ Contiene rapporti sui rapporti mobili precedenti. Questi report basano i propri 
 
 Contiene rapporti che consentono di visualizzare i dati del percorso per i visitatori.
 
-* Flusso pagina successivo: Utilizza un rapporto sul valore della dimensione della pagina superiore. Le viste percorso sono simili alle [istanze](/help/components/metrics/instances.md). È possibile modificare il valore della dimensione segnalata. Un rapporto simile in Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
+* Flusso pagina successivo: Utilizza un rapporto sul valore della dimensione della pagina superiore. Le viste percorso sono simili alle [istanze](/help/components/metrics/instances.md). È possibile modificare il valore della dimensione segnalata. Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
 * Pagina successiva: Prende il valore della dimensione della pagina superiore e mostra le pagine successive alle quali i visitatori sono andati.
-* Flusso pagina precedente: Utilizza un rapporto sul valore della dimensione della pagina superiore Un rapporto simile in Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
+* Flusso pagina precedente: Utilizza un rapporto sul valore della dimensione della pagina superiore Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
 * Pagina precedente: Prende il valore della dimensione della pagina superiore e mostra le pagine di provenienza dei visitatori precedenti.
-* Abbandono: Consente di selezionare i valori delle dimensioni di pagina in passaggi, e mostra la proporzione di persone che hanno seguito e non hanno seguito quel percorso. Un rapporto simile in Analysis Workspace è disponibile tramite una visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Percorsi completi: Mostra singoli percorsi come valori di dimensione. In pensione in Analysis Workspace; utilizzate invece la visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md) Flusso.
-* PathFinder: Fornisce diversi tipi di rapporti che consentono di analizzare i percorsi (ritirati in Analysis Workspace).
+* Abbandono: Consente di selezionare i valori delle dimensioni di pagina in passaggi, e mostra la proporzione di persone che hanno seguito e non hanno seguito quel percorso. Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Percorsi completi: Mostra singoli percorsi come valori di dimensione. Ritirato in  Analysis Workspace; utilizzate invece la visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md) Flusso.
+* PathFinder: Fornisce diversi tipi di rapporti che consentono di analizzare i percorsi (ritirati in  Analysis Workspace).
 * Lunghezza percorso: Utilizza la dimensione di profondità [della](/help/components/dimensions/visit-depth.md) visita.
 * Analisi pagina
    * Riepilogo pagina: Prende il valore della dimensione della pagina superiore e mostra una vista con tendenze. Mostra anche punti di entrata, pagine precedenti, punti di uscita e pagine successive per il valore della dimensione della pagina superiore.
@@ -105,7 +107,9 @@ Contiene rapporti che consentono di visualizzare i dati del percorso per i visit
    * Visite a pagina singola: Utilizza la dimensione [Pagina](/help/components/dimensions/page.md) con il segmento &quot;Visite di pagina singola&quot; fornito da Adobe.
    * Pagine di uscita: Utilizza la dimensione delle pagine [di](/help/components/dimensions/exit-dimensions.md) uscita.
 
-> [!NOTE] In questa cartella possono essere visualizzati altri rapporti. Si tratta di altre dimensioni, ad esempio proprietà, in cui il [percorso è abilitato](../../admin/admin/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
+>[!NOTE]
+>
+>In questa cartella possono essere visualizzati altri rapporti. Si tratta di altre dimensioni, ad esempio proprietà, in cui il [percorso è abilitato](../../admin/admin/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
 
 ## Origini di traffico
 
@@ -127,16 +131,16 @@ Contiene un rapporto che fornisce informazioni su dove sono arrivati i visitator
 
 Contiene principalmente rapporti intorno alla dimensione del codice [di](/help/components/dimensions/tracking-code.md) tracciamento.
 
-* Imbuto di conversione della campagna: Click-through dei report, [Checkout](/help/components/metrics/checkouts.md), [Ordini](/help/components/metrics/orders.md)e [Entrate](/help/components/metrics/revenue.md) in un report funnel. La metrica click-through è simile alla metrica [Istanze](/help/components/metrics/instances.md) nel contesto della dimensione del codice [di](/help/components/dimensions/tracking-code.md) tracciamento. Una visualizzazione simile viene realizzata in Analysis Workspace utilizzando la visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Imbuto di conversione della campagna: Click-through dei report, [Checkout](/help/components/metrics/checkouts.md), [Ordini](/help/components/metrics/orders.md)e [Entrate](/help/components/metrics/revenue.md) in un report funnel. La metrica click-through è simile alla metrica [Istanze](/help/components/metrics/instances.md) nel contesto della dimensione del codice [di](/help/components/dimensions/tracking-code.md) tracciamento. Una visualizzazione simile viene realizzata in  Analysis Workspace tramite la visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Codice di tracciamento: Utilizza la dimensione del codice [di](/help/components/dimensions/tracking-code.md) tracciamento.
 
 ## Prodotti
 
 Contiene rapporti principalmente sulla dimensione [Prodotto](/help/components/dimensions/product.md) .
 
-* Imbuto di conversione prodotti: Rapporti [Viste](/help/components/metrics/product-views.md)del prodotto, aggiunte [del](/help/components/metrics/cart-additions.md)carrello, [Checkout](/help/components/metrics/checkouts.md), [Ordini](/help/components/metrics/orders.md), [Unità](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) e Ricaviin un rapporto funnel. Una visualizzazione simile viene realizzata in Analysis Workspace utilizzando la visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Imbuto di conversione prodotti: Rapporti [Viste](/help/components/metrics/product-views.md)del prodotto, aggiunte [del](/help/components/metrics/cart-additions.md)carrello, [Checkout](/help/components/metrics/checkouts.md), [Ordini](/help/components/metrics/orders.md), [Unità](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) e Ricaviin un rapporto funnel. Una visualizzazione simile viene realizzata in  Analysis Workspace tramite la visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Prodotti: Utilizza la dimensione [Prodotti](/help/components/dimensions/product.md) .
-* Cross selling: Mostra i prodotti comunemente venduti insieme (ritirati in Analysis Workspace).
+* Cross selling: Mostra i prodotti comunemente venduti insieme (ritirati in  Analysis Workspace).
 * Categorie: Utilizza la dimensione [Categoria](/help/components/dimensions/category.md) .
 
 ## Conservazione dei visitatori
@@ -167,9 +171,9 @@ Contiene rapporti sugli utenti che visitano il sito.
    * Stati Uniti: Utilizza la dimensione degli stati [](/help/components/dimensions/us-states.md) USA.
    * DMA USA: Utilizza la dimensione DMA [](/help/components/dimensions/us-dma.md) USA.
 * Lingue: Utilizza la dimensione [Lingua](/help/components/dimensions/language.md) .
-* Fusi orari: Utilizza la dimensione del fuso orario (ritirata in Analysis Workspace). I valori delle dimensioni sono l’offset GMT dell’hit.
+* Fusi orari: Utilizza la dimensione del fuso orario (ritirata in  Analysis Workspace). I valori delle dimensioni sono l’offset GMT dell’hit.
 * Dominio: Utilizza la dimensione [Domain](/help/components/dimensions/domain.md) .
-* Dominio di primo livello: Utilizza la dimensione del dominio di primo livello (ritirato in Analysis Workspace). Raggruppa la dimensione dei [domini](/help/components/dimensions/domain.md) in categorie di livello superiore, in genere per paese del dominio.
+* Dominio di primo livello: Utilizza la dimensione del dominio di primo livello (ritirata in  Analysis Workspace). Raggruppa la dimensione dei [domini](/help/components/dimensions/domain.md) in categorie di livello superiore, in genere per paese del dominio.
 * Tecnologia: Cartella contenente i rapporti relativi al visitatore utilizzato per accedere al sito.
    * Browser: Utilizza la dimensione [Browser](/help/components/dimensions/browser.md) .
    * Tipo di browser: Utilizza la dimensione del tipo [di](/help/components/dimensions/browser-type.md) browser.
@@ -180,12 +184,12 @@ Contiene rapporti sugli utenti che visitano il sito.
    * Profondità colore monitor: Utilizza la dimensione di profondità [del](/help/components/dimensions/color-depth.md) colore.
    * Risoluzione monitor: Utilizza la dimensione di risoluzione [del](/help/components/dimensions/monitor-resolution.md) monitor.
    * Java: Utilizza la dimensione [Java abilitata](/help/components/dimensions/java-enabled.md) .
-   * JavaScript: Utilizza la dimensione abilitata per JavaScript (ritirata in Analysis Workspace). I valori delle dimensioni sono &quot;Abilitato&quot;, &quot;Disattivato&quot; o &quot;Sconosciuto&quot;, a seconda che nel browser sia attivato JavaScript.
-   * Versione JavaScript: utilizza la dimensione della versione JavaScript (ritirata in Analysis Workspace). I valori delle dimensioni mostrano la versione di JavaScript utilizzata dal browser.
+   * JavaScript: Utilizza la dimensione abilitata per JavaScript (ritirata in  Analysis Workspace). I valori delle dimensioni sono &quot;Abilitato&quot;, &quot;Disattivato&quot; o &quot;Sconosciuto&quot;, a seconda che nel browser sia attivato JavaScript.
+   * Versione JavaScript: utilizza la dimensione della versione JavaScript (ritirata in  Analysis Workspace). I valori delle dimensioni mostrano la versione di JavaScript utilizzata dal browser.
    * Cookie: Utilizza la dimensione [Cookie support](/help/components/dimensions/cookie-support.md) .
    * Tipi di connessione: Utilizza la dimensione del tipo [di](/help/components/dimensions/connection-type.md) connessione.
    * Portatile: Utilizza la dimensione [Mobile](/help/components/dimensions/mobile-dimensions.md) .
-* Stato visitatore: Utilizza la dimensione Stato (ritirata in Analysis Workspace). I valori delle dimensioni provengono dalla [`state`](../../implement/vars/page-vars/state.md) variabile.
+* Stato visitatore: Utilizza la dimensione Stato (ritirata in  Analysis Workspace). I valori delle dimensioni provengono dalla [`state`](../../implement/vars/page-vars/state.md) variabile.
 * Codice postale del visitatore: Utilizza la dimensione del codice [](/help/components/dimensions/zip-code.md) ZIP.
 
 ## Conversione personalizzata
@@ -200,7 +204,7 @@ Contiene rapporti specifici per l’implementazione. I report sul traffico perso
 
 Contiene rapporti che coinvolgono canali [](/help/components/c-marketing-channels/c-getting-started-mchannel.md)Marketing.
 
-* Report panoramica canale: Report personalizzato specifico per Reporting e analisi. Utilizza i canali di marketing come valori di dimensione, con le metriche che utilizzano l&#39;attribuzione del primo o dell&#39;ultimo tocco.
+* Report panoramica canale: Un rapporto personalizzato specifico per Reporting e  Analytics. Utilizza i canali di marketing come valori di dimensione, con le metriche che utilizzano l&#39;attribuzione del primo o dell&#39;ultimo tocco.
 * Primo canale touch: Utilizza la dimensione del [primo canale](/help/components/dimensions/first-touch-channel.md) touch.
 * Primo dettaglio del canale touch: Utilizza la dimensione dei dettagli [del](/help/components/dimensions/first-touch-detail.md) primo canale touch.
 * Ultimo canale touch: Utilizza la dimensione [Ultimo canale](/help/components/dimensions/last-touch-channel.md) di tocco.
@@ -218,4 +222,6 @@ Contiene le dashboard create dall&#39;utente. Per ulteriori informazioni, consul
 
 Contiene le destinazioni create dall&#39;utente. Per ulteriori informazioni, consulta [Destinazioni](targets.md) .
 
-> [!NOTE] Se non riesci a trovare il rapporto in questa pagina dell&#39;Aiuto, è possibile che l&#39;amministratore abbia rinominato o modificato le cartelle. Consultate Personalizzazione del [menu](/help/admin/admin/customize-menus.md) nella guida utente di amministrazione.
+>[!NOTE]
+>
+>Se non riesci a trovare il rapporto in questa pagina dell&#39;Aiuto, è possibile che l&#39;amministratore abbia rinominato o modificato le cartelle. Consultate Personalizzazione del [menu](/help/admin/admin/customize-menus.md) nella guida utente di amministrazione.
