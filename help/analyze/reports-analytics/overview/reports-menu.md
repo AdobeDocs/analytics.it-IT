@@ -1,16 +1,19 @@
 ---
-description: Panoramica del menu Report in Reporting e analisi.
+description: Panoramica del menu Rapporti in Reporting e  Analytics.
 title: Menu Rapporti
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 7%
 
 ---
 
 
 # Menu Rapporti{#reports-menu}
 
-Panoramica del menu Report in Reporting e analisi.
+Panoramica del menu Rapporti in Reporting e  Analytics.
 
 Il menu Rapporti fornisce:
 
@@ -27,7 +30,7 @@ I rapporti vengono esplorati utilizzando una vista a colonne gerarchica. Fare cl
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
+Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://docs.adobe.com/content/help/it-IT/analytics/components/variables/c-variables.html).
 
 ## Cerca report {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -37,7 +40,9 @@ Il menu Rapporti offre un&#39;esperienza di ricerca avanzata. Fare clic **[!UICO
 
 Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei rapporti. Premere il tasto ESC per chiudere la ricerca senza modificare il rapporto corrente oppure premere Invio per caricare il rapporto selezionato.
 
->[!NOTE] Potete anche cercare l&#39;elenco dei rapporti per proprietà, eVar e numero evento. Nella barra di ricerca, immettete la proprietà, l&#39;eVar o il numero dell&#39;evento.
+>[!NOTE]
+>
+>Potete anche cercare l&#39;elenco dei rapporti per proprietà, eVar e numero evento. Nella barra di ricerca, immettete la proprietà, l&#39;eVar o il numero dell&#39;evento.
 
 ## Panoramica sulla navigazione {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -50,8 +55,8 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Menu Soluzioni Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Facendo clic su questa icona, si espande il menu Experience Cloud per consentire l'accesso ad altre soluzioni Marketing Cloud. </td> 
+   <td colname="col1"> menu Soluzioni Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col2"> Facendo clic su questa icona, si espande il menu Experience Cloud  per accedere ad altre soluzioni Marketing Cloud. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Attiva/Disattiva menu Rapporti <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -79,7 +84,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Visualizzato frequentemente</span> </td> 
-   <td colname="col2"> Adobe Analytics tiene traccia dei dieci rapporti che avete eseguito più spesso negli ultimi 90 giorni e li mostra qui, ordinati in base alla frequenza con cui li eseguite. Se non sei stato in questa suite di rapporti per più di 90 giorni, compila l'elenco con un elenco generale di dieci report popolari. </td> 
+   <td colname="col2"> Adobe  Analytics tiene traccia dei dieci rapporti eseguiti più spesso negli ultimi 90 giorni e li mostra qui, ordinati in base alla frequenza con cui vengono eseguiti. Se non sei stato in questa suite di rapporti per più di 90 giorni, compila l'elenco con un elenco generale di dieci report popolari. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Cronologia report</span> </td> 
@@ -98,7 +103,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
    <td colname="col2">Consente di <a href="/help/analyze/reports-analytics/bookmarks.md"  > aggiungere un segnalibro</a> al rapporto. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
+   <td colname="col1"><span class="uicontrol"> Dashboard di</span>... </td> 
    <td colname="col2">Consente di aggiungere il rapporto a una <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
