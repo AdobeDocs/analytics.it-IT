@@ -2,7 +2,7 @@
 description: Leggi le best practice ed esempi di come compilare varie regole che puoi impostare per i tuoi canali di marketing.
 title: Domande frequenti su Marketing Channels
 translation-type: tm+mt
-source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
@@ -73,7 +73,9 @@ Se le regole non acquisiscono dati o se le regole non sono configurate correttam
 
 Questo tipo di regola funge da clausola catch-all per garantire che il traffico dei canali corrisponda sempre al traffico esterno, e in genere non finisca in **[!UICONTROL No Channel Identified]**. Fare attenzione a non creare una regola che identifichi anche il traffico interno. L&#39;impostazione del valore del canale su **[!UICONTROL Referring Domain]** o su **[!UICONTROL Page URL]** sono i modi più comuni e utili per creare un&#39;altra regola efficace.
 
->[!NOTE] Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell&#39;altro canale perché non c&#39;è un dominio di riferimento.
+>[!NOTE]
+>
+>Potrebbe ancora esserci del traffico di canale che può rientrare nella categoria Nessun canale identificato. Ad esempio: Un visitatore accede al sito e annota una pagina e, nella stessa visita, torna alla pagina tramite il segnalibro. Poiché questa non è la prima pagina della visita, non andrà né nel canale diretto né nell&#39;altro canale perché non c&#39;è un dominio di riferimento.
 
 ## Motivi per interni (aggiornamento sessione) {#internal}
 
@@ -97,7 +99,7 @@ Un visitatore passa da un dominio che viene attivato alla Suite A a un altro dom
 
 **Scenario 5: Lunghi tempi di caricamento delle pagine**
 
-Un visitatore arriva sulla pagina A, che pesa sul contenuto, e il codice Adobe Analytics si trova nella parte inferiore della pagina. Prima che tutto il contenuto (inclusa la richiesta di immagini di Adobe Analytics) possa essere caricato, il visitatore fa clic sulla pagina B. La pagina B avvia la richiesta di immagine di Adobe Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in Adobe Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
+Un visitatore arriva sulla pagina A, che pesa sul contenuto, e il codice Adobe  Analytics si trova nella parte inferiore della pagina. Prima che tutto il contenuto (inclusa la richiesta di immagini per Adobe  Analytics) possa essere caricato, il visitatore fa clic sulla pagina B. La pagina B avvia la relativa richiesta di immagini Adobe  Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in Adobe  Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
 
 **Scenario 6: Cancellazione dei cookie nel mid-site**
 
