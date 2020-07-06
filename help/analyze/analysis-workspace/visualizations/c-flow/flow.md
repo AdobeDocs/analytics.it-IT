@@ -2,8 +2,11 @@
 description: 'null'
 title: Panoramica del flusso
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ Consente di:
 * Analizzare dove vanno i clienti prima e dopo specifici punti di controllo, ad esempio entrata, uscita o una specifica dimensione
 * Creare segmenti designando un punto specifico nel percorso scelto
 
->[!NOTE] Per informazioni sulle differenze tra i risultati dell’applicazione dei segmenti al flusso in Analysis Workspace e in Reports &amp; Analytics/Ad Hoc Analysis, vedi [Segmentazione come fondamento per Flusso e Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE]
+>
+>Per informazioni sulle differenze tra i risultati dell’applicazione dei segmenti al flusso in Analysis Workspace e in Reports &amp; Analytics/Ad Hoc Analysis, vedi [Segmentazione come fondamento per Flusso e Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Visualizzazione Flusso su YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:56)
 
