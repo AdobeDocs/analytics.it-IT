@@ -4,18 +4,23 @@ title: Pubblicazione Widget
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
 
 # Pubblicazione Widget
 
-Un widget di pubblicazione è un contenitore che consente di incorporare rapporti di Analytics (segnalibri e dashboard) in una pagina Web. Le persone nella tua organizzazione che non hanno accesso ai report di Analytics possono visualizzare i dati pertinenti.
+Un widget di pubblicazione è un contenitore che consente di incorporare  rapporti Analytics (segnalibri e dashboard) in una pagina Web. Gli utenti dell&#39;organizzazione che non hanno accesso  rapporti Analytics possono visualizzare i dati pertinenti.
 
 Ad esempio, potete fornire una dashboard in modo che i dirigenti aziendali possano visualizzare il numero di visitatori della pagina, il numero di visitatori unici della pagina e così via.
 
->[!CAUTION] Per visualizzare i dati pubblicati tramite il widget di pubblicazione non è richiesta alcuna autenticazione. Per questo motivo, è consigliabile considerare i dati pubblicati non più sicuri dei dati inviati a un gruppo e-mail o a un server di elenco. Utilizza il widget solo in conformità con gli standard di sicurezza della tua organizzazione, i requisiti contrattuali esistenti e la legge applicabile. Il widget di pubblicazione consente di limitare, in base all’indirizzo IP o al percorso del dominio, la pubblicazione dei dati. Tuttavia, questi meccanismi sono destinati esclusivamente a prevenire la distribuzione non intenzionale dei dati e non rappresentano un modo efficace per garantire l’accesso ai dati distribuiti tramite il Widget di pubblicazione.
+>[!CAUTION]
+>
+>Per visualizzare i dati pubblicati tramite il widget di pubblicazione non è richiesta alcuna autenticazione. Per questo motivo, è consigliabile considerare i dati pubblicati non più sicuri dei dati inviati a un gruppo e-mail o a un server di elenco. Utilizza il widget solo in conformità con gli standard di sicurezza della tua organizzazione, i requisiti contrattuali esistenti e la legge applicabile. Il widget di pubblicazione consente di limitare, in base all’indirizzo IP o al percorso del dominio, la pubblicazione dei dati. Tuttavia, questi meccanismi sono destinati esclusivamente a prevenire la distribuzione non intenzionale dei dati e non rappresentano un modo efficace per garantire l’accesso ai dati distribuiti tramite il Widget di pubblicazione.
 >
 > Adobe non si assume alcuna responsabilità per i dati esposti tramite il widget di pubblicazione.
 
@@ -31,7 +36,9 @@ Se vengono visualizzate differenze di dati tra il widget di pubblicazione e l’
 1. Fate clic **[!UICONTROL Save]** sul widget.
 1. Eseguire nuovamente il widget. La modalità Anteprima non utilizza la cache del widget.
 
->[!NOTE] I widget di pubblicazione mostrano solo la prima colonna di dati in un rapporto.
+>[!NOTE]
+>
+>I widget di pubblicazione mostrano solo la prima colonna di dati in un rapporto.
 
 ## Pubblicazione delle descrizioni dei widget {#section_D67478AECCA946B19A3E4C7071EB4871}
 
