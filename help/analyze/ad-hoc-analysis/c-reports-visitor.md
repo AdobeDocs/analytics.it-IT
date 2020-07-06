@@ -4,7 +4,10 @@ title: Rapporti sui visitatori
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '857'
+ht-degree: 3%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Visualizza informazioni sui visitatori, quali conteggio dei visitatori, fedeltà dei clienti e caratteristiche dei visitatori.
 
-## Restituisci frequenza {#concept_447A99B71E484D27A7A02888CC51FD3D}
+## Frequenza di ritorno {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
 Mostra il tempo che trascorre tra le visite dei visitatori di ritorno e il numero di visite che rientrano in ogni categoria di lunghezza di tempo. Utilizzate il rapporto per visualizzare la quantità media di tempo che i visitatori ripetuti passano senza visitare il sito e le tendenze dei clienti ripetuti.
 
@@ -60,7 +63,9 @@ Puoi suddividere il rapporto con qualsiasi altro rapporto o variabile per determ
 * In genere, per effettuare un acquisto è necessario che un utente abbia fatto clic sulla campagna XYZ.
 * Se, ad esempio, gli utenti di Tokyo effettuino più visite prima di generare un lead rispetto agli utenti di Londra.
 
->[!NOTE] Se lo stesso visitatore visita il sito Web più volte nello stesso periodo, ogni numero di visita specificato viene incrementato per ogni visita.
+>[!NOTE]
+>
+>Se lo stesso visitatore visita il sito Web più volte nello stesso periodo, ogni numero di visita specificato viene incrementato per ogni visita.
 
 Questo rapporto si basa sui dati ID visitatore passati ad Adobe per ogni hit effettuato dai visitatori. Man mano che questi dati vengono ricevuti, Adobe li confronta con i dati storici dell’ID visitatore per determinare se l’hit è:
 
@@ -68,7 +73,9 @@ Questo rapporto si basa sui dati ID visitatore passati ad Adobe per ogni hit eff
 * Un visitatore precedente che continua una visita (il numero della visita non viene incrementato).
 * Un visitatore precedente che effettuava una nuova visita (il numero di visita viene incrementato di uno).
 
->[!NOTE] Ogni ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
+>[!NOTE]
+>
+>Ogni ID visitatore di Analytics è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
 
 ## Fedeltà cliente {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -87,7 +94,9 @@ Il [!UICONTROL Customer Loyalty] rapporto mostra i pattern di acquisto dei clien
 * **Restituisci cliente**: Visitatori che hanno effettuato 2 acquisti
 * **Cliente** fedele:Visitatori che hanno effettuato 3+ acquisti
 
->[!NOTE] Quando utilizzi queste metriche, tutte le Visite utente (o tutti i Visitatori) sono rappresentate in questo rapporto, a prescindere dal fatto che la Visita (o il Visitatore) abbia incluso un acquisto.
+>[!NOTE]
+>
+>Quando utilizzi queste metriche, tutte le Visite utente (o tutti i Visitatori) sono rappresentate in questo rapporto, a prescindere dal fatto che la Visita (o il Visitatore) abbia incluso un acquisto.
 
 Lo stato di fedeltà cambia dopo la fine della visita in cui si verifica un evento di acquisto. Ad esempio, un nuovo cliente (1 acquisto) effettua un acquisto e quindi si registra per una newsletter dopo tale acquisto all’interno della stessa visita. L’evento di registrazione della newsletter è ancora considerato un’interazione con il nuovo cliente, perché lo stato Fedeltà cliente del visitatore non subirà modifiche fino alla visita successiva.
 
