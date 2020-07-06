@@ -2,7 +2,7 @@
 title: Totale secondi trascorsi
 description: Numero totale aggregato di secondi trascorsi per il valore della dimensione.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -26,6 +26,8 @@ Questa metrica utilizza i seguenti passaggi per misurare il calcolo:
 
 Le variabili persistenti, come [eVar](../dimensions/evar.md), vengono conteggiate per i secondi totali spesi. Le variabili di traffico, come [prop](../dimensions/prop.md), includono i secondi trascorsi tra le chiamate di tracciamento dei collegamenti successive.
 
->[!TIP] Il tempo trascorso non viene misurato per l’ultimo hit della visita, in quanto non esiste una richiesta immagine successiva per misurare il tempo trascorso. Questo concetto si applica anche alle visite costituite da un singolo hit (un rimbalzo).
+>[!TIP]
+>
+>Il tempo trascorso non viene misurato per l’ultimo hit della visita, in quanto non esiste una richiesta immagine successiva per misurare il tempo trascorso. Questo concetto si applica anche alle visite costituite da un singolo hit (un rimbalzo).
 
 Consultate Panoramica sul [tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.
