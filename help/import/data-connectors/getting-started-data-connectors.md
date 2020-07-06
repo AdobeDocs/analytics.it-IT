@@ -2,7 +2,10 @@
 description: Importa dati di tracciamento da applicazioni di terze parti in Analytics.
 title: Guida introduttiva ai connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Per implementare correttamente i segmenti di remarketing, è necessario soddisfa
    * Acquisti: evento `purchase`
    * Visualizzazioni prodotto: evento `prodView`
 
->[!NOTE] Se il prodotto è definito senza un evento associato, l’evento prodView si attiva automaticamente.
+>[!NOTE]
+>
+>Se il prodotto è definito senza un evento associato, l’evento prodView si attiva automaticamente.
 Se i requisiti precedenti non sono soddisfatti, i segmenti di remarketing corrispondenti non vengono segnalati correttamente.
 
 [!UICONTROL Cart Abandonment]: viene attivato dopo che l’utente ha aggiunto un prodotto al carrello:
@@ -104,4 +109,6 @@ s.events="purchase";
 | File dei segmenti di remarketing non ricevuti. | Se non ricevi i file, chiedi a uno degli utenti supportati della tua organizzazione di contattare ClientCare per indagare sulla causa della mancata ricezione dei rapporti. |
 
 
->[!IMPORTANT] I consulenti spesso impostano una richiesta di data warehouse come rapporto pianificato giornaliero, oltre al file del segmento di remarketing dell’integrazione connettori dati standard. Questa richiesta di data warehouse includerebbe variabili di connettori dati e variabili di connettori non dati; potrebbe essere inoltre pianificata solo in base alla richiesta specifica della tua organizzazione. Per evitare confusione durante la risoluzione dei problemi, specifica se il file in questione è il file del segmento di remarketing effettivo o una richiesta di data warehouse contenente variabili non genesis.
+>[!IMPORTANT]
+>
+>I consulenti spesso impostano una richiesta di data warehouse come rapporto pianificato giornaliero, oltre al file del segmento di remarketing dell’integrazione connettori dati standard. Questa richiesta di data warehouse includerebbe variabili di connettori dati e variabili di connettori non dati; potrebbe essere inoltre pianificata solo in base alla richiesta specifica della tua organizzazione. Per evitare confusione durante la risoluzione dei problemi, specifica se il file in questione è il file del segmento di remarketing effettivo o una richiesta di data warehouse contenente variabili non genesis.
