@@ -2,7 +2,7 @@
 title: linkTrackVars
 description: Specifica quali variabili includere nelle richieste di immagini per il tracciamento dei collegamenti.
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 2%
@@ -16,11 +16,13 @@ Alcune implementazioni non desiderano includere tutte le variabili in tutte le r
 
 Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina ([`t()`](../functions/t-method.md) metodo).
 
-## Variabili nelle chiamate di tracciamento dei collegamenti mediante Adobe Experience Platform Launch
+## Variabili nelle chiamate di tracciamento dei collegamenti mediante il lancio  Adobe Experience Platform
 
 Launch compila automaticamente questa variabile sul backend in base alle variabili impostate nell&#39;interfaccia, in modo che sia sempre impostata nelle implementazioni tramite Launch.
 
->[!IMPORTANT] Se impostate le variabili in Launch utilizzando l&#39;editor di codice personalizzato, è necessario includere la variabile anche nell&#39; `linkTrackVars` uso di codice personalizzato.
+>[!IMPORTANT]
+>
+>Se impostate le variabili in Launch utilizzando l&#39;editor di codice personalizzato, è necessario includere la variabile anche nell&#39; `linkTrackVars` uso di codice personalizzato.
 
 ## s.linkTrackVars in AppMeasurement e Launch editor di codice personalizzato
 
@@ -38,7 +40,9 @@ Il valore predefinito per questa variabile è una stringa vuota. Tuttavia, Adobe
 * Se questa variabile non è definita o impostata su una stringa vuota, *tutte* le variabili vengono incluse nelle richieste di immagini per il tracciamento dei collegamenti.
 * Se questa variabile è impostata su `"None"`, *nessuna* variabile viene inclusa nelle richieste di immagini per il tracciamento dei collegamenti.
 
->[!TIP] Evitare di utilizzare l&#39;identificatore oggetto (`s.`) di Analytics quando si specificano le variabili in questa variabile. Ad esempio, `s.linkTrackVars = "eVar1";` è corretta, mentre `s.linkTrackVars = "s.eVar1";` è errata.
+>[!TIP]
+>
+>Evitare di utilizzare l&#39;identificatore oggetto (`s.`) Analytics  quando si specificano le variabili in questa variabile. Ad esempio, `s.linkTrackVars = "eVar1";` è corretta, mentre `s.linkTrackVars = "s.eVar1";` è errata.
 
 ## Esempio
 
