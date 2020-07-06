@@ -4,7 +4,10 @@ title: Filtraggio dati dei rapporti
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '646'
+ht-degree: 4%
 
 ---
 
@@ -45,7 +48,9 @@ I filtri avanzati consentono di controllare l&#39;ambito della ricerca utilizzan
 
 Corrisponde se il termine è trovato in un punto qualsiasi dell&#39;elemento della riga. Funziona come il filtro semplice.
 
->[!NOTE] Gli spazi non possono essere utilizzati nei filtri, perché gli spazi sono delimitatori nelle ricerche
+>[!NOTE]
+>
+>Gli spazi non possono essere utilizzati nei filtri, perché gli spazi sono delimitatori nelle ricerche
 
 **Non contiene**
 
