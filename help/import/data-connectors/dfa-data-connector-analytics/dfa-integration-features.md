@@ -1,18 +1,21 @@
 ---
-description: 'Una volta attivata, l''integrazione DFA dei Connettori dati fornisce le metriche seguenti per i report Adobe Analytics '
+description: 'Una volta attivata, l''integrazione DFA dei Connettori dati fornisce le metriche seguenti per i report Adobe  Analytics '
 keywords: DFA
 title: Funzionalità di integrazione
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 1%
 
 ---
 
 
 # Funzionalità di integrazione{#integration-features}
 
-Una volta attivata, l&#39;integrazione DFA dei connettori dati fornisce le metriche seguenti per i report Adobe Analytics:
+Una volta attivata, l&#39;integrazione DFA dei Connettori dati fornisce le metriche seguenti per i report Adobe  Analytics:
 
 * Visualizzazione
 * Clic DFA
@@ -20,7 +23,9 @@ Una volta attivata, l&#39;integrazione DFA dei connettori dati fornisce le metri
 * (facoltativo) Dati sui costi DFA
 * (facoltativo) Errori query DFA, timeout
 
->[!NOTE] Questa integrazione non supporta i tracciatori di clic (precedentemente clic sui comandi). I tracciatori di clic vengono utilizzati per registrare il numero di clic su collegamenti di testo, collegamenti in messaggi e-mail o su altri elementi che sono codificati in un sito Web.
+>[!NOTE]
+>
+>Questa integrazione non supporta i tracciatori di clic (precedentemente clic sui comandi). I tracciatori di clic vengono utilizzati per registrare il numero di clic su collegamenti di testo, collegamenti in messaggi e-mail o su altri elementi che sono codificati in un sito Web.
 
 L’integrazione DFA dei Connettori dati crea automaticamente i codici di monitoraggio DFA a partire dai dati restituiti dal DFA. Questi codici di tracciamento sono creati per identificare in modo univoco un annuncio insieme ai relativi Collocamenti e Creative. Di seguito viene illustrata la struttura del codice di tracciamento, a seconda della versione dell&#39;integrazione. La versione 1.5 è simile alla seguente:
 
@@ -55,5 +60,7 @@ Se **[!UICONTROL SearchCenter]** > **[!UICONTROL DFA deduplication]** è selezio
 
 * Nel caso di una visualizzazione &quot;through&quot; DFAE, l’integrazione inserisce nella eVar SCM la stringa &quot;DFA Viewthrough&quot;.
 
->[!NOTE] Se è abilitata la deduplicazione SearchCenter > DFA e viene impostato il parametro della stringa di query SearchCenter, la visita non verrà considerata per l&#39;elaborazione DFA. Ciò significa che il parametro della stringa di query SearchCenter deve essere diverso dal parametro click-through del DFA e che nessun annuncio display deve impostare il parametro della stringa di query SearchCenter.
+>[!NOTE]
+>
+>Se è abilitata la deduplicazione SearchCenter > DFA e viene impostato il parametro della stringa di query SearchCenter, la visita non verrà considerata per l&#39;elaborazione DFA. Ciò significa che il parametro della stringa di query SearchCenter deve essere diverso dal parametro click-through del DFA e che nessun annuncio display deve impostare il parametro della stringa di query SearchCenter.
 
