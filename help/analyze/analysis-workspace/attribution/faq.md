@@ -2,10 +2,10 @@
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 78%
+source-wordcount: '757'
+ht-degree: 76%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 78%
 
 **Qual è l’elemento di riga “None” quando si utilizza l’attribuzione?**
 
-L&#39;elemento di riga &#39;None&#39; è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all&#39;interno della finestra di lookback. Prova a includere un intervallo di tempo più lungo nel periodo definito per la generazione del rapporto.
+“None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Per ridurre il numero di conversioni attribuite all&#39;elemento di riga Nessuno, provare a utilizzare una finestra di lookback personalizzata con un periodo di lookback più lungo.
 
 **Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?**
 
-Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
+Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics.
 
-**Quando dovrei usare un lookback di attribuzione basato su visita o visitatore?**
+**Quando dovrei utilizzare una visita, un visitatore o un lookback di attribuzione personalizzato?**
 
-La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore. Inoltre, la creazione di una suite di rapporti virtuale con una definizione di visita più lunga rappresenta una soluzione potenziale.
+La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo rispetto a una singola visita, si consiglia di effettuare un lookback personalizzato o visitatore. Per cicli di conversione più lunghi, è consigliabile utilizzare finestre di lookback personalizzate, in quanto sono l&#39;unico tipo in grado di estrarre i dati prima della finestra di reporting
 
 **Come si confrontano proprietà e eVar quando si utilizza l’attribuzione?**
 
@@ -87,4 +87,4 @@ Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit
 
 ![Suite di rapporti virtuali di sola visualizzazione](assets/vrs-aiq-example.png)
 
->[!NOTE] Se un segmento sopprime gli hit che contengono la metrica, queste istanze della metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro di report simile nasconderà semplicemente alcuni valori di dimensione, senza alcun impatto sulle metriche elaborate per il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
+>[!NOTE] Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro per la generazione di rapporti simile si limita a nascondere alcuni valori di dimensione senza alcun impatto sulle metriche elaborate secondo il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
