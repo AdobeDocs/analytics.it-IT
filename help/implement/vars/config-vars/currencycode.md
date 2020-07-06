@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # currencyCode
 
-Per i siti che utilizzano il commercio, le entrate e la valuta sono una parte importante di Analytics. Molti siti, soprattutto quelli che si estendono su più paesi, utilizzano valute diverse. Utilizzare la `currencyCode` variabile per assicurarsi che gli attributi delle entrate siano nella valuta corretta.
+Per i siti che utilizzano commercio, ricavi e valuta è una parte importante di  Analytics. Molti siti, soprattutto quelli che si estendono su più paesi, utilizzano valute diverse. Utilizzare la `currencyCode` variabile per assicurarsi che gli attributi delle entrate siano nella valuta corretta.
 
 Se non `currencyCode` è definito, i valori monetari definiti dalla [`products`](../page-vars/products.md) variabile e gli eventi valutari sono trattati come se fossero uguali alla valuta della suite di rapporti. Consulta Impostazioni [account](/help/admin/admin/general-acct-settings-admin.md) generali nella guida per l&#39;utente amministratore per visualizzare la valuta della suite di rapporti.
 
@@ -20,27 +20,29 @@ Se `currencyCode` è definito e corrisponde alla valuta della suite di rapporti,
 
 Se `currencyCode` è definito ed è diverso dalla valuta della suite di rapporti, Adobe applica una conversione valutaria basata sul tasso di cambio del giorno corrente. Adobe collabora con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nei server di raccolta dati vengono in ultima istanza memorizzati nella valuta della suite di rapporti.
 
->[!IMPORTANT] Se `currencyCode` contiene un valore non valido, l&#39;intero hit viene eliminato causando la perdita di dati. Accertatevi che questa variabile sia definita correttamente se la utilizzate nell’implementazione.
+>[!IMPORTANT]
+>
+>Se `currencyCode` contiene un valore non valido, l&#39;intero hit viene eliminato causando la perdita di dati. Accertatevi che questa variabile sia definita correttamente se la utilizzate nell’implementazione.
 
 Questa variabile non persiste tra gli hit. Accertatevi che questa variabile sia definita in ogni pagina che include eventi di ricavi o di valuta.
 
-## Codice valuta in Adobe Experience Platform Launch
+## Codice valuta in  lancio Adobe Experience Platform
 
-Codice valuta è un campo situato sotto la struttura di [!UICONTROL General] navigazione durante la configurazione dell’estensione Adobe Analytics.
+Codice valuta è un campo situato sotto la struttura di [!UICONTROL General] navigazione durante la configurazione dell&#39;estensione Adobe  Analytics.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
+3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto Adobe  Analytics.
 4. Espandere la [!UICONTROL General] struttura a soffietto, che mostra il [!UICONTROL Currency Code] campo.
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se si utilizza un codice valuta personalizzato, assicurarsi che il codice sia valido.
 
-## Codice valuta nell’SDK di Adobe Experience Platform Mobile
+## Codice valuta in  Adobe Experience Platform SDK Mobile
 
-Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tramite le variabili dei dati contestuali nell’estensione Adobe Analytics.
+Il codice valuta viene passato agli SDK Mobile del Adobe Experience Platform  tramite le variabili dei dati contestuali nell&#39;estensione Adobe  Analytics.
 
 1. Impostare il codice della valuta in una variabile di dati contestuali durante `trackState` o `trackAction`.
-2. Crea una regola di elaborazione nella console di amministrazione di Adobe Analytics per la suite di rapporti. Impostare la regola per sovrascrivere la variabile Codice valuta.
+2. Create una regola di elaborazione nella console di amministrazione di Adobe  Analytics per la suite di rapporti. Impostare la regola per sovrascrivere la variabile Codice valuta.
 3. Passa il codice della valuta alla `products` variabile della chiamata a `trackState` o `trackAction`.
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se si utilizza un codice valuta personalizzato, assicurarsi che il codice sia valido.
