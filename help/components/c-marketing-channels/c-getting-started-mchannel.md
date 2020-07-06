@@ -1,13 +1,16 @@
 ---
-title: Guida introduttiva ai canali di marketing
+title: Introduzione ai canali di marketing
 description: Scopri il flusso di lavoro Marketing Channels (Canali di marketing), la configurazione automatica e come applicare le impostazioni della suite di rapporti a più suite di rapporti.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 3%
 
 ---
 
 
-# Guida introduttiva ai canali di marketing
+# Introduzione ai canali di marketing
 
 I canali di marketing sono comunemente utilizzati per fornire informazioni dettagliate su come i visitatori arrivano sul sito. Potete personalizzare le regole di elaborazione del canale di marketing in base ai canali da monitorare e alla modalità di tracciamento.
 
@@ -74,7 +77,9 @@ Come eseguire la configurazione automatica di Marketing Channels.
 
 Come utilizzare una suite di rapporti principale come modello per testare la configurazione del canale di marketing. Per risparmiare tempo, potete applicare questo modello a una o più suite di rapporti di produzione in un aggiornamento di massa. Questa operazione viene eseguita separatamente per i canali e i set di regole.
 
->[!NOTE] Applicate i canali da un modello prima di applicare i set di regole. Durante l&#39;esecuzione di questa procedura, i canali devono essere identici in tutte le suite di rapporti.
+>[!NOTE]
+>
+>Applicate i canali da un modello prima di applicare i set di regole. Durante l&#39;esecuzione di questa procedura, i canali devono essere identici in tutte le suite di rapporti.
 
 1. Verifica che il rapporto Canale di marketing sia abilitato per le suite di rapporti selezionate. Questo passaggio viene eseguito dal tuo Account Manager.
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
