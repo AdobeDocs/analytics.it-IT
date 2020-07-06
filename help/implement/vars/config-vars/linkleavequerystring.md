@@ -2,7 +2,10 @@
 title: linkLeaveQueryString
 description: Consente di mantenere le stringhe di query nelle dimensioni del tracciamento dei collegamenti.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
@@ -17,15 +20,17 @@ Se le informazioni sul tracciamento dei collegamenti non sono negli URL del sito
 
 L’abilitazione `linkLeaveQueryString` si applica a tutte le dimensioni di tracciamento dei collegamenti (inclusi collegamenti personalizzati, collegamenti di uscita e collegamenti per il download).
 
->[!TIP] Questa variabile non influisce sulle dimensioni al di fuori del tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti per il download.
+>[!TIP]
+>
+>Questa variabile non influisce sulle dimensioni al di fuori del tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti per il download.
 
-## Mantieni parametri URL nel lancio di Adobe Experience Platform
+## Mantieni parametri URL nel lancio  Adobe Experience Platform
 
-[!UICONTROL Keep URL Parameters] è una casella di controllo sotto la struttura di [!UICONTROL Link Tracking] navigazione quando si configura l&#39;estensione Adobe Analytics.
+[!UICONTROL Keep URL Parameters] è una casella di controllo sotto la struttura di [!UICONTROL Link Tracking] navigazione quando si configura l&#39;estensione Adobe  Analytics.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
+3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto Adobe  Analytics.
 4. Espande la [!UICONTROL Link Tracking] fisarmonica, che mostra la [!UICONTROL Keep URL Parameters] casella di controllo.
 
 Selezionare questa casella se si desidera includere le stringhe di query nelle dimensioni del tracciamento dei collegamenti.
