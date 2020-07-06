@@ -2,7 +2,7 @@
 title: Visitatori unici
 description: Numero di singoli (o dispositivi) univoci.
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ Questa metrica conta il numero di ID visitatore univoci per un dato valore di di
 | 4 | `fid` | Il visitatore ha un [`s_fid`](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-analytics.html) cookie esistente, oppure se `aid` e non `mid` è stato possibile impostarlo per nessun motivo. |
 | 5 | Indirizzo IP, agente utente, indirizzo IP gateway | Ultimo ricorso per identificare un visitatore univoco se il browser del visitatore non accetta i cookie. |
 
->[!NOTE] Ogni ID visitatore Analytics  è associato a un profilo sui server Adobe. Questi profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
+>[!NOTE]
+>
+>Ogni ID visitatore Analytics  è associato a un profilo sui server Adobe. Questi profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
 
 ## Comportamento che influisce sul conteggio dei visitatori univoci
 
