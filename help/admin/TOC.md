@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 99%
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Panoramica dell&#39;amministrazione di Analytics {#admin-overview}
    + [Quale strumento Adobe Analytics usare?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Requisiti e confronto dei prodotti Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Requisiti di sistema](c-system-requirements/sys-reqs.md)
++ [Requisiti di sistema](sys-reqs.md)
 + Strumenti di amministrazione {#admin-tools}
    + [Strumenti di amministrazione](admin/c-admin-tools.md)
    + [Fatturazione](admin/billing-admin.md)
@@ -30,7 +30,7 @@ ht-degree: 99%
       + [Conversion Variables (Variabili di conversione) (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modificare le variabili di conversione](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificazioni di conversione](admin/conversion-var-admin/conversion-classifications.md)
-      + [Elenca le variabili](admin/conversion-var-admin/list-var-admin.md)
+      + [Variabili elenco](admin/conversion-var-admin/list-var-admin.md)
    + [Codici valuta](admin/currency.md)
    + [Descrizioni report personalizzati](admin/custom-desc-admin.md)
    + [Personalizza calendario](admin/custom-calendar.md)
