@@ -4,7 +4,10 @@ title: Specificare la formattazione condizionale
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 3%
 
 ---
 
@@ -19,5 +22,7 @@ La formattazione condizionale consente di identificare le celle contenenti risul
 
 Per motivi di sicurezza, le macro create per la cartella di lavoro utilizzando la lingua di Excel Visual Basic, Applications Edition (VBA) sono disattivate.
 
->[!NOTE] La formattazione condizionale è una funzione di Excel. Per informazioni sulla creazione di regole di formattazione, consultare la documentazione di Excel.
+>[!NOTE]
+>
+>La formattazione condizionale è una funzione di Excel. Per informazioni sulla creazione di regole di formattazione, consultare la documentazione di Excel.
 
