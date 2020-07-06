@@ -4,7 +4,10 @@ title: Eseguire diversi tipi di rapporto
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 5%
 
 ---
 
@@ -71,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-Scopri il nuovo pannello Analisi [](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) abbandono in Analysis Workspace!
+Scopri il nuovo pannello Analisi [](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) abbandono in  Analysis Workspace!
 
 1. In [!UICONTROL Adobe Analytics], fate clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. On the [!UICONTROL Fallout Report] page, click **[!UICONTROL Launch the Fallout Report Builder]**.
@@ -92,7 +95,7 @@ Scopri il nuovo pannello Analisi [](https://docs.adobe.com/content/help/it-IT/an
 
 I rapporti sul flusso di pagina mostrano l’ordine in cui i visitatori accedono alle pagine e si spostano nel sito. Questo rapporto aiuta a rispondere
 
-Scopri la nuova visualizzazione [](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Flusso in Analysis Workspace!
+Scopri la nuova visualizzazione [](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Flusso in  Analysis Workspace!
 
 Eseguire un rapporto [Percorsi](https://docs.adobe.com/content/help/it-IT/analytics/components/variables/dimensions-reports/reports-paths.html) .
 
@@ -144,11 +147,13 @@ t_anomaly_view.xml
 
  -->
 
-Scopri le nuove funzioni [Rilevamento anomalie e Analisi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) contributi di Analysis Workspace!
+Scopri le nuove funzioni [Rilevamento anomalie e Analisi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) contributi di  Analysis Workspace!
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
->[!NOTE] Puoi anche eseguire il rilevamento delle anomalie dai progetti di Analysis Workspace. [Altro...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>[!NOTE]
+>
+>È inoltre possibile eseguire il rilevamento delle anomalie direttamente  progetti Analysis Workspace. [Altro...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 Per informazioni sulla configurazione del rilevamento delle anomalie, fare riferimento alla Guida di [riferimento](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
@@ -230,7 +235,7 @@ Potete impostare il rilevamento delle anomalie in modo indipendente per ogni sui
 
    ![](assets/ad_top_menu.png)
 
-   Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la Guida [alla segmentazione di](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) Analytics. 1. (Facoltativo) Preferito o segnalibro per il rapporto.
+   Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la [Guida](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) alla segmentazione di Analytics. 1. (Facoltativo) Preferito o segnalibro per il rapporto.
 1. (Facoltativo) Modificare la data di fine del periodo di visualizzazione. Il valore predefinito è ieri.
 1. È ora possibile iniziare a interpretare il rapporto. [Visualizzazione dei grafici](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)di rilevamento delle anomalie.
 
@@ -248,7 +253,7 @@ reports_realtime.xml
 
 Il reporting in tempo reale offre due report principali: un report di panoramica e un report dettagliato. Ciascuno di essi è costituito da una serie di minirapporti.
 
-Per informazioni sulla configurazione dei report in tempo reale, consulta la Guida [di riferimento di](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)Analytics.
+Per informazioni sulla configurazione di rapporti in tempo reale, consulta la [Guida](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)di riferimento di Analytics.
 
 1. Guardate il **[!UICONTROL Overview]** rapporto e i suoi componenti:  ![](assets/rtr_overview_report.png)
 
