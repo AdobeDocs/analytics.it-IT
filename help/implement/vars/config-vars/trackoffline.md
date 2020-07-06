@@ -2,18 +2,23 @@
 title: trackOffline
 description: Abilita o disabilita il tracciamento offline, che modifica il modo in cui AppMeasurement raccoglie i dati.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
 
 # trackOffline
 
-Il tracciamento offline è un metodo facoltativo per raccogliere dati in Adobe Analytics. Se un visitatore si disconnette da Internet ma continua a sfogliare il sito, gli hit vengono memorizzati in una coda offline fino a quando il dispositivo non si riconnette a Internet. Il tracciamento offline viene utilizzato principalmente per le applicazioni mobili.
+Il tracciamento offline è un metodo facoltativo per raccogliere dati in Adobe  Analytics. Se un visitatore si disconnette da Internet ma continua a sfogliare il sito, gli hit vengono memorizzati in una coda offline fino a quando il dispositivo non si riconnette a Internet. Il tracciamento offline viene utilizzato principalmente per le applicazioni mobili.
 
 La `trackOffline` variabile determina se utilizzare il tracciamento offline nell&#39;implementazione.
 
->[!IMPORTANT] Prima di attivare questa variabile, devi configurare la suite di rapporti per accettare gli hit con marca temporale. Se una suite di rapporti non accetta gli hit con marca temporale e questa variabile è abilitata, i dati vanno persi e non possono essere recuperati.
+>[!IMPORTANT]
+>
+>Prima di attivare questa variabile, devi configurare la suite di rapporti per accettare gli hit con marca temporale. Se una suite di rapporti non accetta gli hit con marca temporale e questa variabile è abilitata, i dati vanno persi e non possono essere recuperati.
 
 Quando abilitata, AppMeasurement utilizza il seguente processo per inviare dati ad Adobe:
 
@@ -23,7 +28,7 @@ Quando abilitata, AppMeasurement utilizza il seguente processo per inviare dati 
    * Se non riesce a raggiungere i server di raccolta dati Adobe, l’hit viene aggiunto alla coda del dispositivo.
    * Se può raggiungere i server di raccolta dati Adobe, l’hit e la coda degli hit mentre il dispositivo è offline vengono inviati.
 
-## Tracciare offline in Adobe Experience Platform Launch
+## Tenere traccia offline in  lancio Adobe Experience Platform
 
 In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
 
