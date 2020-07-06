@@ -2,8 +2,11 @@
 description: 'null'
 title: Inviare richieste di accesso e cancellazione
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamen
 
 Puoi inviare l’accesso alla Privacy dei dati e cancellare le richieste tramite il nostro [portale Interfaccia utente Privacy dei dati](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o tramite la nostra [API Privacy dei dati.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE] L’API Privacy dei dati supporta gli invii in batch per più utenti in una sola richiesta. Il limite attualmente supportato è 1.000 utenti (è possibile avere più ID per ciascun utente) in un unico file JSON della richiesta.
+>[!NOTE]
+>
+>L’API Privacy dei dati supporta gli invii in batch per più utenti in una sola richiesta. Il limite attualmente supportato è 1.000 utenti (è possibile avere più ID per ciascun utente) in un unico file JSON della richiesta.
 
 ## Richiesta JSON di esempio {#sample-json-request}
 
