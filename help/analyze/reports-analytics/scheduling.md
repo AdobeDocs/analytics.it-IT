@@ -5,7 +5,10 @@ title: Pianificazione e distribuzione del rapporto
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1620'
+ht-degree: 5%
 
 ---
 
@@ -16,15 +19,17 @@ Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
 
 Quando pianifichi la consegna di un report in un&#39;applicazione di Adobe Analytics puoi utilizzare gli strumenti Scheduling (Pianificazione) e Distribution (Distribuzione) per visualizzare i file automaticamente inviati e modificati o per terminare le consegne.
 
-A causa delle differenze nei meccanismi di elaborazione e nelle piattaforme, i vari tipi di rapporti scaricabili e pianificati disponibili in Adobe Analytics presentano limitazioni diverse rispetto al numero massimo di righe che possono elaborare in un&#39;unica richiesta. Di seguito sono riportati i limiti di ciascuna:
+A causa delle differenze nei meccanismi di elaborazione e nelle piattaforme, i vari tipi di rapporti scaricabili e pianificati disponibili in Adobe  Analytics presentano limitazioni diverse per quanto riguarda il numero massimo di righe che possono elaborare in una singola richiesta. Di seguito sono riportati i limiti di ciascuna:
 
 * Word, CSV, Excel, HTML e PDF: Lo stesso numero di righe visibili nel report. Per impostazione predefinita, questo limite è di 50 righe ma può aumentare fino a 200. I rapporti di suddivisione hanno un limite rigido di 50 righe.
 * Estratti dati: 50.000 righe
-* Data Warehouse: Senza limiti
+* Data warehouse: Senza limiti
 
 Tali limitazioni riguardano i singoli rapporti pianificati e scaricati; le dashboard sono limitate alla quantità di spazio disponibile all&#39;interno di un reportlet.
 
->[!NOTE] Il valore &quot;Ora consegna&quot;/&quot;Ora del giorno&quot; immesso dall&#39;utente specifica l&#39;ora in cui il rapporto deve iniziare l&#39;elaborazione, non l&#39;ora in cui verrà effettivamente consegnato. Il tempo effettivo per la presentazione della relazione dipende in primo luogo dal tempo necessario per l&#39;elaborazione (l&#39;elaborazione di relazioni complesse e di grandi dimensioni richiede più tempo rispetto a quella di relazioni più semplici). Ad esempio, se l&#39;elaborazione di un rapporto richiede 15 minuti, il tempo di consegna effettivo sarà di almeno 15 minuti oltre il &quot;Tempo di consegna&quot;/&quot;Ora del giorno&quot; originariamente specificato.
+>[!NOTE]
+>
+>Il valore &quot;Ora consegna&quot;/&quot;Ora del giorno&quot; immesso dall&#39;utente specifica l&#39;ora in cui il rapporto deve iniziare l&#39;elaborazione, non l&#39;ora in cui verrà effettivamente consegnato. Il tempo effettivo per la presentazione della relazione dipende in primo luogo dal tempo necessario per l&#39;elaborazione (l&#39;elaborazione di relazioni complesse e di grandi dimensioni richiede più tempo rispetto a quella di relazioni più semplici). Ad esempio, se l&#39;elaborazione di un rapporto richiede 15 minuti, il tempo di consegna effettivo sarà di almeno 15 minuti oltre il &quot;Tempo di consegna&quot;/&quot;Ora del giorno&quot; originariamente specificato.
 >Inoltre, vi sono altri fattori che possono aumentare ulteriormente il ritardo prima che la relazione sia effettivamente pubblicata:
 >
 > * **Esecuzione contemporanea** di diversi programmi dello stesso tipo (ad esempio, molti dashboard, ecc.) può sovraccaricare il sistema. Il sistema di programmazione consente solo l&#39;esecuzione simultanea di alcuni (5-10) rapporti di un tipo, pertanto, quando più di 5-10 sono tutti programmati contemporaneamente, alcuni dovranno attendere il completamento di altri rapporti prima di poter iniziare l&#39;elaborazione. Questo problema può essere attenuato pianificando i report di un&#39;azienda in orari scaglionati per tutto il giorno o l&#39;ora, anziché simultaneamente.
@@ -55,7 +60,7 @@ Passaggi che descrivono come scaricare e inviare i rapporti per e-mail in vari f
 | Nome file report | Specifica il nome del rapporto. The default format is `<report name> for <suite> - <report date range>`. Per specificare un nome personalizzato, selezionare [!UICONTROL Custom]. |
 | Formato report | Consente di specificare i formati PDF, CSV, Excel, HTML, Word o Mobile da distribuire. Se selezionate CSV, potete anche specificare la codifica per CSV:<ul><li>Shift-JIS: Codifica caratteri giapponese.</li><li>EUC-JP: Codice Unix esteso, principalmente per giapponese, coreano e cinese semplificato.</li></ul> |
 | Sommario report | <ul><li>Numero di righe nella tabella: Specifica il numero di righe che si desidera visualizzare nella tabella del rapporto che si sta inviando.</li><li>Lingua per intestazione e piè di pagina: Specifica la lingua dell’intestazione e del piè di pagina.</li><li>Commenti: Specifica il testo che viene visualizzato all&#39;inizio del rapporto.</li></ul> |
-| Invia file firma digitale | Quando si richiede un rapporto, ad esempio un rapporto con segnalibro o richieste di data warehouse, è possibile richiedere una firma dati. La firma digitale di Adobe non limita l&#39;accesso ai dati da parte degli utenti, ma lo scopo del file di firma digitale (.sig) è di verificare la validità del file di rapporto consegnato. Utilizzando la firma digitale, i destinatari del rapporto possono verificare che il file provenga da Adobe e non sia stato modificato. |
+| Invia file firma digitale | Quando richiedi un rapporto, ad esempio un rapporto con segnalibro o richieste di Data warehouse, puoi richiedere una firma dati. La firma digitale di Adobe non limita l&#39;accesso ai dati da parte degli utenti, ma lo scopo del file di firma digitale (.sig) è di verificare la validità del file di rapporto consegnato. Utilizzando la firma digitale, i destinatari del rapporto possono verificare che il file provenga da Adobe e non sia stato modificato. |
 | Destinazione report | <ul><li>E-mail: Consente di configurare le impostazioni dell’indirizzo e-mail, l’oggetto e le note.</li><li>FTP: Consente di configurare le impostazioni FTP, inclusi host, porta, directory, nome utente e password.</li></ul> |
 
 1. Fai clic su **[!UICONTROL Scheduling Options]**.
@@ -92,7 +97,7 @@ Scarica informazioni dettagliate su un rapporto specifico nei formati PDF, CSV, 
    * **[!UICONTROL Word]**: Specifica che il rapporto verrà scaricato in formato Microsoft Word.
    >[!NOTE]
    >
-   >Se utilizzate uno dei formati di esportazione non elaborati per scaricare un rapporto e il nome della pagina è vuoto, è probabile che Adobe Analytics non abbia avuto abbastanza tempo per elaborare i dati. Scaricate il rapporto in un secondo momento.
+   >Se utilizzate uno dei formati di esportazione non elaborati per scaricare un rapporto e il nome della pagina è vuoto, Adobe  Analytics probabilmente non ha avuto abbastanza tempo per elaborare i dati. Scaricate il rapporto in un secondo momento.
 
 ## Gestire i rapporti pianificati {#task_C17677C543454FF2B06D10EA5652DFBC}
 
