@@ -2,23 +2,28 @@
 title: rfl
 description: Rimuovere un valore specifico da una stringa delimitata da caratteri.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 2%
 
 ---
 
 
 # Plug-in Adobe: rfl (Rimuovi da elenco)
 
->[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `rfl` plug-in consente di rimuovere in modo &quot;sicuro&quot; i valori dalle stringhe delimitate, ad esempio [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)ecc. Questo plug-in è utile per rimuovere valori specifici da una stringa delimitata senza preoccuparsi dei delimitatori. Molti altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta, o se non si utilizzano plug-in dipendenti.
+Il `rfl` plug-in consente di rimuovere in modo &quot;sicuro&quot; i valori dalle stringhe delimitate, ad esempio [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)ecc. Questo plug-in è utile per rimuovere valori specifici da una stringa delimitata senza preoccuparsi dei delimitatori. Molti altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics  alla volta, oppure se non si utilizzano plug-in dipendenti.
 
 Il plug-in utilizza la logica seguente:
 
 * Se il valore che si desidera rimuovere esiste, il plug-in mantiene tutti gli elementi della variabile tranne il valore da rimuovere.
 * Se il valore da rimuovere non esiste, il plug-in mantiene la stringa originale così com&#39;è.
 
-## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
 
 Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
 
@@ -27,10 +32,10 @@ Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug
 1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
 1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
-   * Condizione: None
+   * Condizione: nessuna
    * Evento: Core - Libreria caricata (Page Top)
 1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
+   * Estensione: Plug-in Analytics  comuni
    * Tipo azione: Inizializza RFP (Rimuovi dall&#39;elenco)
 1. Salvate e pubblicate le modifiche alla regola.
 
@@ -40,14 +45,14 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics.
+1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
 1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
+1. Salvate e pubblicate le modifiche nell’estensione Analytics .
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -72,7 +77,7 @@ Se si chiama questo metodo, viene restituita una stringa modificata contenente l
 
 ### Esempio n. 1
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event24,event25";
@@ -92,7 +97,7 @@ s.events = "event22,event25";
 
 ### Esempio n. 2
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event24,event25";
@@ -114,7 +119,7 @@ In questo esempio, la chiamata rfl non ha apportato modifiche a s.events in quan
 
 ### Esempio n. 3
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event24,event25";
@@ -136,7 +141,7 @@ Se l&#39;argomento lv o vr è vuoto in una chiamata s.rfl, il plug-in non restit
 
 ### Esempio n. 4
 
-Se...
+Se viene mostrato...
 
 ```js
 s.prop4 = "hello|people|today";
@@ -164,7 +169,7 @@ Tenere presente che il plug-in restituisce solo un valore; in realtà non &quot;
 
 ### Esempio n. 5
 
-Se...
+Se viene mostrato...
 
 ```js
 s.prop4 = "hello|people|today";
@@ -186,7 +191,7 @@ Accertatevi di impostare l&#39;argomento d1 nei casi in cui il valore dell&#39;a
 
 ### Esempio n. 6
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23,event25";
@@ -208,7 +213,7 @@ Anche se questo esempio non è pratico, dimostra la necessità di trasmettere va
 
 ### Esempio n. 7
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23:12345,event25";
@@ -228,7 +233,7 @@ s.events = "event22,event25";
 
 ### Esempio n. 8
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23:12345,event25";
@@ -250,7 +255,7 @@ Per rimuovere un evento che utilizza la serializzazione e/o la sintassi numerica
 
 ### Esempio n. 9
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23,event23,event23,event24,event25";
@@ -270,7 +275,7 @@ s.events = "event22,event24,event25");
 
 ### Esempio n. 10
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23,event23,event23,event24,event25";
@@ -290,7 +295,7 @@ s.events = "event22,event23,event24,event25");
 
 ### Esempio n. 11
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23,event23,event23,event24,event25";
@@ -310,7 +315,7 @@ s.events = "event22|event23|event24|event25");
 
 ### Esempio n. 12
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23,event24,event25";
@@ -332,7 +337,7 @@ L&#39;impostazione di più valori nell&#39;argomento vr non è supportata. La lo
 
 ### Esempio n. 13
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23,event24,event25";
@@ -355,7 +360,7 @@ Ogni valore da rimuovere dall&#39;elenco deve essere contenuto all&#39;interno d
 
 ### Esempio n. 14
 
-Se...
+Se viene mostrato...
 
 ```js
 s.linkTrackVars = "events,eVar1,eVar2,eVar3";
@@ -377,7 +382,7 @@ Gli ultimi tre argomenti (vale a dire &quot;,&quot;,&quot;,&quot;, false) alla f
 
 ### Esempio n. 15
 
-Se...
+Se viene mostrato...
 
 ```js
 s.events = "event22,event23,event24";
