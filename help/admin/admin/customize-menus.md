@@ -1,21 +1,26 @@
 ---
-description: Questa funzione consente di personalizzare i menu dei rapporti visualizzati da un utente in Reporting e analisi. Potete mostrare o nascondere i rapporti, nonché spostarli in diverse cartelle tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
+description: Questa funzione consente di personalizzare i menu dei rapporti visualizzati da un utente in Reporting e  Analytics. Potete mostrare o nascondere i rapporti, nonché spostarli in diverse cartelle tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
 title: Personalizzazione del menu
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 
 # Personalizzazione del menu
 
-Questa funzione consente di personalizzare i menu dei rapporti visualizzati da un utente in Reporting e analisi. Potete mostrare o nascondere i rapporti, nonché spostarli in diverse cartelle tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
+Questa funzione consente di personalizzare i menu dei rapporti visualizzati da un utente in Reporting e  Analytics. Potete mostrare o nascondere i rapporti, nonché spostarli in diverse cartelle tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
 
 Le modifiche al menu si applicano a tutti gli utenti che accedono alla suite di rapporti. Tuttavia, gli utenti possono ripristinare la configurazione predefinita di un menu mentre utilizzano la suite di rapporti.
 
->[!NOTE] Qualsiasi modifica nella struttura del menu non influisce sul Generatore di report e sull&#39;analisi ad hoc. Tuttavia, la ridenominazione di un rapporto si riflette in entrambi gli strumenti.
+>[!NOTE]
+>
+>Qualsiasi modifica nella struttura del menu non influisce sul Generatore di report e  Ad hoc analysis. Tuttavia, la ridenominazione di un rapporto si riflette in entrambi gli strumenti.
 
 ## Descrizioni Personalizzazione menu {#section_B0D224DACB914A378902A4E0E1234889}
 
