@@ -2,7 +2,7 @@
 title: linkExternalFilters
 description: Utilizza la variabile linkExternalFilters per facilitare il tracciamento automatico dei collegamenti in uscita.
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -14,19 +14,21 @@ ht-degree: 1%
 
 AppMeasurement offre la possibilità di tracciare automaticamente i collegamenti che puntano all&#39;esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) è abilitata, una richiesta di immagine viene inviata ad Adobe direttamente quando un visitatore fa clic su un collegamento per uscire dal sito. Le `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) le variabili determinano quali collegamenti vengono considerati interni/esterni.
 
-Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come un elenco di autorizzazioni. Se un clic di collegamento non corrisponde ad alcun `linkExternalFilters` valore, non viene considerato un collegamento di uscita. L’intero URL viene analizzato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
+Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come un inserire nell&#39;elenco Consentiti . Se un clic di collegamento non corrisponde ad alcun `linkExternalFilters` valore, non viene considerato un collegamento di uscita. L’intero URL viene analizzato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
 
->[!TIP] Utilizzate questa variabile solo se conoscete esattamente i domini che desiderate considerare come collegamenti di uscita. Molte organizzazioni ritengono che l&#39;uso `linkInternalFilters` sia sufficiente per le loro esigenze di tracciamento dei collegamenti in uscita e non lo utilizzano `linkExternalFilters`.
+>[!TIP]
+>
+>Utilizzate questa variabile solo se conoscete esattamente i domini che desiderate considerare come collegamenti di uscita. Molte organizzazioni ritengono che l&#39;uso `linkInternalFilters` sia sufficiente per le loro esigenze di tracciamento dei collegamenti in uscita e non lo utilizzano `linkExternalFilters`.
 
 Se utilizzate sia `linkInternalFilters` che `linkExternalFilters` simultaneamente, il collegamento su cui avete fatto clic deve corrispondere `linkExternalFilters` e non deve corrispondere **** `linkInternalFilters` a quello su cui avete fatto clic per essere considerato un collegamento di uscita. Se un collegamento selezionato corrisponde ai criteri di collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
-## Collegamenti in uscita - Track in Adobe Experience Platform Launch
+## Collegamenti in uscita - Traccia nel lancio  Adobe Experience Platform
 
-Il campo Track è un elenco di filtri (in genere domini) separati da virgole all’interno del [!UICONTROL Link Tracking] pannello Accordion quando si configura l’estensione Adobe Analytics.
+Il campo Track è un elenco di filtri (in genere domini) separati da virgole all’interno del [!UICONTROL Link Tracking] pannello Accordion durante la configurazione dell’estensione Adobe  Analytics.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
+3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto Adobe  Analytics.
 4. Espandere la [!UICONTROL Link Tracking] struttura a soffietto, che mostra il [!UICONTROL Outbound Links - Track] campo.
 
 Posizionare i filtri che si desidera considerare sempre esterni in questo campo. Separa più domini con una virgola senza uno spazio.
