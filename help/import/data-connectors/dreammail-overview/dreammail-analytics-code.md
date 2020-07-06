@@ -1,16 +1,19 @@
 ---
-description: Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Analytics sulle pagine.
+description: Se hai selezionato il metodo di raccolta dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Analytics  presente sulle pagine.
 title: Codice plug-in di Analytics
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
 
 # Codice plug-in di Analytics{#analytics-plug-in-code}
 
-Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Analytics sulle pagine.
+Se hai selezionato il metodo di raccolta dati del plug-in JavaScript, copia le righe di codice seguenti e aggiungili al codice Analytics  presente sulle pagine.
 
 `/*`
 
@@ -26,4 +29,6 @@ Se hai selezionato il metodo di raccolta dei dati del plug-in JavaScript, copia 
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE] Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione di Analytics, sostituitele semplicemente con quelle disponibili.
+>[!NOTE]
+>
+>Il plug-in di cui sopra presuppone la disponibilità di alcune variabili di commercio personalizzate (eVar). Se le variabili specificate nel plug-in sopra non sono disponibili nella distribuzione Analytics , sostituitele semplicemente con quelle disponibili.
