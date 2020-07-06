@@ -3,7 +3,10 @@ description: Descrive il processo di distribuzione in tre fasi.
 title: Distribuzione dell'integrazione
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +40,7 @@ Per attivare l&#39;integrazione, è necessario completare la procedura guidata d
 
    ![](assets/variable_mapping.png)
 
-1. Puoi scegliere i tuoi segmenti **[!UICONTROL Your Segments]** - oltre ai 3 segmenti partner automatizzati.
+1. Puoi scegliere i tuoi segmenti in **[!UICONTROL Your Segments]** - oltre ai 3 segmenti partner automatizzati.
 1. Questa integrazione potrebbe richiedere il download di alcuni punti dati al tuo account Lyris. È possibile scegliere di consentire l&#39;accesso a questa sezione **[!UICONTROL Access Request]**.
 1. In **[!UICONTROL Data Collection]**, è possibile scegliere una soluzione automatizzata o manuale (plug-in JavaScript) per raccogliere i parametri della stringa di query dall&#39;URL della pagina di destinazione. Se scegli di disporre di una soluzione automatizzata, immetti il parametro della stringa di query per ID messaggio e ID destinatario. Per un plug-in JavaScript, contattate il vostro consulente Adobe.
 
@@ -68,11 +71,13 @@ Passaggi che descrivono cosa configurare in Lyris al termine della procedura gui
 
 ## Verifica dell&#39;integrazione{#verifying-the-integration}
 
-Passaggi per verificare che l&#39;integrazione tra Lyris e Adobe Analytics sia stata completata correttamente.
+Passaggi per verificare il successo dell&#39;integrazione tra Lyris/Adobe  Analytics.
 
 Una volta completati tutti i passaggi di distribuzione, potete verificare che l&#39;integrazione trasferisca correttamente i dati.
 
->[!NOTE] Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l&#39;integrazione.
+>[!NOTE]
+>
+>Ci vogliono alcuni giorni perché lo scambio di dati abbia inizio. Assicurarsi di contattare Lyris dopo aver attivato l&#39;integrazione.
 
 1. Passa alla tua integrazione Lyris all&#39;interno dei connettori dati. Sotto la **[!UICONTROL Support]** scheda > **[!UICONTROL Integration Activity Log]**, è possibile visualizzare eventi quali **[!UICONTROL Metric data imported successfully]** e/o **[!UICONTROL Classification data imported successfully]**:
 
@@ -84,9 +89,11 @@ Una volta completati tutti i passaggi di distribuzione, potete verificare che l&
 
 ## Codice Plug-in parametro di stringa query{#query-string-param-plug-in-code}
 
-Mostra il codice del plug-in Lyris da utilizzare con Adobe Analytics.
+Mostra il codice del plug-in Lyris da utilizzare con Adobe  Analytics.
 
->[!NOTE] Prima di utilizzare il codice riportato di seguito, accertati di aver riservato le eVar necessarie in Adobe Analytics Tool. Una volta a conoscenza delle eVar che hai riservato, sostituisci eVarN con l’eVar pertinente. Ad esempio, eVar10.
+>[!NOTE]
+>
+>Prima di utilizzare il codice riportato di seguito, accertati di aver riservato le eVar necessarie in Admin Tool di Adobe  Analytics. Una volta a conoscenza delle eVar che hai riservato, sostituisci eVarN con l’eVar pertinente. Ad esempio, eVar10.
 
 ```
 /* 
