@@ -2,7 +2,7 @@
 title: Evento di acquisto
 description: Utilizzare l'evento di acquisto per raccogliere i dati per le metriche 'Ordini', 'Unità' e 'Entrate'.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 2%
@@ -20,15 +20,17 @@ Quando imposti un evento di acquisto, questo incide sulle metriche seguenti:
 * La metrica &quot;Unità&quot; aumenta per il numero di prodotti nella `products` variabile
 * La metrica &quot;Revenue&quot; (Entrate) aumenta per la somma dei parametri di prezzo nella `products` variabile
 
->[!NOTE] Le entrate non vengono moltiplicate per il campo quantità. Ad esempio, `s.products="Womens;Socks;5;4.50"` non trasferisce $22,50 nelle entrate; passa $4,50. Assicurarsi che l&#39;implementazione superi le entrate totali per la quantità indicata. Ad esempio,`s.products="Womens;Socks;5;22.50"`.
+>[!NOTE]
+>
+>Le entrate non vengono moltiplicate per il campo quantità. Ad esempio, `s.products="Womens;Socks;5;4.50"` non trasferisce $22,50 nelle entrate; passa $4,50. Assicurarsi che l&#39;implementazione superi le entrate totali per la quantità indicata. Ad esempio,`s.products="Womens;Socks;5;22.50"`.
 
-## Imposta l’evento di acquisto in Adobe Experience Platform Launch
+## Imposta l&#39;evento di acquisto in  Adobe Experience Platform Launch
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuate la [!UICONTROL Events] sezione e impostate il menu a discesa degli eventi su [!UICONTROL purchase].
 
 Altre variabili dipendenti come `products` e `purchaseID` non hanno campi dedicati in Launch. Utilizzate l&#39;editor di codice personalizzato che segue la sintassi AppMeasurement per queste variabili.
