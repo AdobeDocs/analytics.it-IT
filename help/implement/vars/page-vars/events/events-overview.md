@@ -2,7 +2,7 @@
 title: events
 description: Impostate la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Dimensioni e metriche sono componenti essenziali per i report. La `events` variabile è responsabile della raccolta di dati di molte metriche sul sito.
 
-## Eventi in Adobe Experience Platform Launch
+## Eventi in  Adobe Experience Platform Launch
 
-Puoi impostare gli eventi sia durante la configurazione dell&#39;estensione Analytics (variabili globali) che in base alle regole.
+È possibile impostare gli eventi durante la configurazione dell&#39;estensione Analytics  (variabili globali) o in base alle regole.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuare la [!UICONTROL Events] sezione.
 
 Sono disponibili diverse funzioni:
@@ -36,7 +36,7 @@ Sono disponibili diverse funzioni:
 
 La `s.events` variabile è una stringa che contiene un elenco delimitato da virgole di eventi da includere nell’hit. Non esiste alcun limite di byte per questa variabile, pertanto non viene troncata. I valori validi includono:
 
-* `event1` - `event1000`: Eventi personalizzati, impostati come desiderato. Registrazione dell&#39;utilizzo di ogni evento nel documento [di progettazione della](../../../prepare/solution-design.md)soluzione aziendale. Il numero di eventi disponibili dipende dal contratto Analytics dell&#39;organizzazione. La maggior parte delle organizzazioni per i contratti non legacy dispone di 1000 eventi personalizzati. Contatta il responsabile commerciale dell&#39;azienda se non sei sicuro di quanti eventi personalizzati sono disponibili.
+* `event1` - `event1000`: Eventi personalizzati, impostati come desiderato. Registrazione dell&#39;utilizzo di ogni evento nel documento [di progettazione della](../../../prepare/solution-design.md)soluzione aziendale. Il numero di eventi disponibili dipende dal contratto Analytics  della tua organizzazione. La maggior parte delle organizzazioni per i contratti non legacy dispone di 1000 eventi personalizzati. Contatta il responsabile commerciale dell&#39;azienda se non sei sicuro di quanti eventi personalizzati sono disponibili.
 * `purchase`: Aumenta la metrica [&#39;Ordini&#39;](/help/components/metrics/orders.md) di 1 e prende i valori impostati nella `products` variabile per calcolare [&#39;Unità&#39;](/help/components/metrics/units.md) &#39; e [&#39;Entrate&#39;](/help/components/metrics/revenue.md). Per ulteriori informazioni, consulta Evento [di](event-purchase.md) acquisto.
 * `prodView`: Aumenta la metrica [&#39;Visite prodotto&#39;](/help/components/metrics/product-views.md) .
 * `scOpen`: Incrementa la metrica [&#39;Carts&#39;](/help/components/metrics/carts.md) .
@@ -45,7 +45,9 @@ La `s.events` variabile è una stringa che contiene un elenco delimitato da virg
 * `scView`: Incrementa la metrica [Visualizzazioni carrello](/help/components/metrics/cart-views.md) .
 * `scCheckout`: Aumenta la metrica [&#39;Checkout&#39;](/help/components/metrics/checkouts.md) .
 
->[!NOTE] Questa variabile fa distinzione tra maiuscole e minuscole. Evitate di usare valori di evento con maiuscole/minuscole errate per garantire una raccolta accurata dei dati.
+>[!NOTE]
+>
+>Questa variabile fa distinzione tra maiuscole e minuscole. Evitate di usare valori di evento con maiuscole/minuscole errate per garantire una raccolta accurata dei dati.
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] Gli eventi contatore non supportano valori di valuta o decimali. Utilizzare gli eventi di valuta per la valuta o gli eventi numerici per i valori decimali.
+>[!NOTE]
+>
+>Gli eventi contatore non supportano valori di valuta o decimali. Utilizzare gli eventi di valuta per la valuta o gli eventi numerici per i valori decimali.
 
 ### Utilizzare gli eventi valuta
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] Se si imposta un valore di valuta sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore di valuta in `events` . Evitare di impostare i valori di valuta sia nelle `events` variabili che nelle `products` variabili.
+>[!NOTE]
+>
+>Se si imposta un valore di valuta sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore di valuta in `events` . Evitare di impostare i valori di valuta sia nelle `events` variabili che nelle `products` variabili.
 
 ### Uso di eventi numerici
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] Se si imposta un valore numerico sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore numerico in `events` . Evitare di impostare valori numerici sia nelle `events` variabili che nelle `products` variabili.
+>[!NOTE]
+>
+>Se si imposta un valore numerico sia nella `events` variabile che nella `products` variabile, viene utilizzato il valore numerico in `events` . Evitare di impostare valori numerici sia nelle `events` variabili che nelle `products` variabili.
