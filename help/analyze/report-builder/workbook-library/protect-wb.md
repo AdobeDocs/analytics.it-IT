@@ -4,7 +4,10 @@ title: Bloccare/sbloccare le cartelle di lavoro
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,9 @@ Per rimuovere la protezione di una cartella di lavoro, fare clic su **[!UICONTRO
 * Siete un amministratore oppure
 * È la persona che ha inizialmente bloccato la cartella di lavoro. In questo caso, non è necessario essere un amministratore.
 
->[!NOTE] Non è possibile aggiungere una richiesta a una cartella di lavoro protetta a meno che non si disponga delle autorizzazioni necessarie per sbloccare la cartella di lavoro.
+>[!NOTE]
+>
+>Non è possibile aggiungere una richiesta a una cartella di lavoro protetta a meno che non si disponga delle autorizzazioni necessarie per sbloccare la cartella di lavoro.
 
 Quando una cartella di lavoro viene bloccata contro la modifica della richiesta,
 
