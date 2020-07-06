@@ -4,7 +4,10 @@ title: Differenziare i collegamenti che fanno riferimento allo stesso ID collega
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 10%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Puoi distinguere i collegamenti personalizzando l’ID del collegamento utilizzando la variabile s_objectID, personalizzando la regione e personalizzando il file del modulo ActivityMap di AppMeasurement.
 
-Ad esempio, supponiamo che tu disponga di più collegamenti &quot;Acquista&quot; identificati dalla Activity Map con lo stesso ID collegamento e regione:
+Ad esempio, supponiamo che tu disponga di più collegamenti &quot;Acquista&quot; identificati da  Activity Map con lo stesso ID collegamento e regione:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -48,11 +51,11 @@ In che modo è possibile personalizzare la pagina Web e i tag per differenziare 
 
 ## Personalizzare l’ID collegamento utilizzando s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento delle Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull&#39;URL del collegamento. Fare clic [qui](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html) per ulteriori informazioni sulla variabile s_objectID.
+Creando un ID oggetto univoco per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento  Activity Map oppure utilizzare  Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento. Fare clic [qui](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html) per ulteriori informazioni sulla variabile s_objectID.
 
 >[!IMPORTANT]
 >
->È necessario un punto e virgola finale (;) quando si utilizza s_objectID nella Activity Map.
+>Tenere presente che è necessario un punto e virgola finale (;) quando si utilizza s_objectID in  Activity Map.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -87,7 +90,9 @@ Creando un ID oggetto univoco per un collegamento o una posizione di collegament
 
 Puoi personalizzare l&#39;area facendo in modo che ogni collegamento &quot;acquista&quot; abbia una propria regione definita. A tal fine, aggiungete un parametro &quot;id&quot; a uno dei principali tag di ancoraggio &quot;Buy&quot;.
 
->[!NOTE] Non sei strettamente limitato al parametro &quot;id&quot; come identificatore di regione. Potete anche impostare un identificatore personalizzato utilizzando la variabile JavaScript &quot;s.ActivityMap.regionIDAtribute&quot;.
+>[!NOTE]
+>
+>Non sei strettamente limitato al parametro &quot;id&quot; come identificatore di regione. Potete anche impostare un identificatore personalizzato utilizzando la variabile JavaScript &quot;s.ActivityMap.regionIDAtribute&quot;.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
