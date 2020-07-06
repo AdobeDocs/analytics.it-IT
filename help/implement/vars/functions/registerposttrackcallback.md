@@ -2,7 +2,10 @@
 title: registerPostTrackCallback
 description: Crea funzioni di callback dopo l’invio di un hit ad Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +20,13 @@ Ogni volta che si chiama la `registerPostTrackCallback` variabile, si aggancia l
 
 >[!NOTE] I tempi e l&#39;ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
 
-## Registra il richiamo del post-traccia nel lancio di Adobe Experience Platform
+## Registra post-callback nel lancio  Adobe Experience Platform
 
 In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
 
 ## s.registerPostTrackCallback in AppMeasurement e Avvia editor di codice personalizzato
 
-Si `s.registerPostTrackCallback` tratta di una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente prima dell&#39;invio di una richiesta di immagine.
+Si `s.registerPostTrackCallback` tratta di una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente dopo l&#39;invio corretto di una richiesta di immagine.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
