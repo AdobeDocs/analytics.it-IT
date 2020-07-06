@@ -2,7 +2,10 @@
 title: Analizzatore pacchetti
 description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 2%
 
 ---
 
@@ -16,13 +19,15 @@ Analogamente al debugger di Adobe Experience Cloud, un monitor di pacchetti most
 * Visualizza richieste di immagini per tracciamento collegamenti personalizzati
 * Visualizzare le richieste di immagini utilizzando metodi di implementazione diversi da JavaScript, ad esempio richieste di immagini hardcoded o [!DNL Appmeasurement]
 
-Per visualizzare le richieste di Analytics, filtra le richieste in uscita utilizzando &quot;b/s&quot;.
+Per visualizzare  richieste Analytics, filtrate le richieste in uscita utilizzando &quot;b/s&quot;.
 
 In casi molto rari, il debugger segnalerà una richiesta di immagine anche se non viene inviata alcuna richiesta ai server di [!DNL Analytics] elaborazione di Adobe. L&#39;utilizzo di un monitor a pacchetti rappresenta un ottimo modo per garantire al 100% che una specifica richiesta di immagine venga attivata correttamente.
 
 Adobe non fornisce un monitor di pacchetti ufficiale, ma ne offre un&#39;ampia gamma su Internet. Di seguito sono riportati alcuni monitor di pacchetti che altri hanno trovato utili.
 
->[!NOTE] Questi elenchi non sono completi, ma informazioni sui monitor più utilizzati. Se disponete di un monitor a pacchetti che potete utilizzare e che vi consente di ottenere un feedback, potete utilizzare il [!UICONTROL Feedback] pulsante sul lato destro della finestra.
+>[!NOTE]
+>
+>Questi elenchi non sono completi, ma informazioni sui monitor più utilizzati. Se disponete di un monitor a pacchetti che potete utilizzare e che vi consente di ottenere un feedback, potete utilizzare il [!UICONTROL Feedback] pulsante sul lato destro della finestra.
 
 | Firefox | Internet Explorer | Chrome | Programmi standalone |
 |---|---|---|---|
@@ -32,7 +37,9 @@ Adobe non fornisce un monitor di pacchetti ufficiale, ma ne offre un&#39;ampia g
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE] Adobe NON supporta o risolve eventuali problemi riscontrati con questi monitor. Per assistenza, consultare il sito di origine del monitor del pacchetto.
+>[!NOTE]
+>
+>Adobe NON supporta o risolve eventuali problemi riscontrati con questi monitor. Per assistenza, consultare il sito di origine del monitor del pacchetto.
 
 ## NS_BINDING_ABORTED nei codici di risposta
 
