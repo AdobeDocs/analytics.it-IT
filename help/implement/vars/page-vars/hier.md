@@ -1,8 +1,11 @@
 ---
 title: hier
-description: Implementa le variabili gerarchiche in Adobe Analytics.
+description: Implementare le variabili gerarchiche in Adobe  Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
@@ -11,9 +14,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Le variabili gerarchiche sono variabili personalizzate che consentono di visualizzare la struttura del sito.
 
->[!TIP] Questa variabile era più comune nelle versioni precedenti di Adobe Analytics. Adobe consiglia di utilizzare [eVar](evar.md) e classificazioni.
+>[!TIP]
+>
+>Questa variabile era più comune nelle versioni precedenti di Adobe  Analytics. Adobe consiglia di utilizzare [eVar](evar.md) e classificazioni.
 
-Questa variabile è utile per i siti con più di tre livelli nella struttura del sito. Ad esempio, un sito multimediale può avere 4 livelli nella sezione Sport: `Sports`, `Local Sports`, `Baseball`e `Team name`. Se qualcuno visita la pagina di baseball, Sport, Sport e Baseball, tutti i livelli riflettono quella visita.
+Questa variabile è utile per i siti con più di tre livelli nella struttura del sito. Ad esempio, un sito multimediale può avere 4 livelli nella sezione Sport: `Sports`, `Local Sports`, `Baseball`, e `Team name`. Se qualcuno visita la pagina di baseball, Sport, Sport e Baseball, tutti i livelli riflettono quella visita.
 
 Adobe supporta fino a 5 variabili gerarchiche nell’implementazione. Al momento dell&#39;abilitazione della gerarchia, scegliere un delimitatore per la variabile e il numero massimo di livelli per la gerarchia. Ad esempio, se il carattere di delimitazione è una virgola, la gerarchia sarà simile a quella riportata di seguito:
 
