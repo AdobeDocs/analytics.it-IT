@@ -4,7 +4,10 @@ title: Fatturazione
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 2%
 
 ---
 
@@ -13,9 +16,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La pagina Fatturazione consente di accedere alle informazioni di fatturazione, inclusi i dettagli di traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
 
->[!NOTE] Se l&#39;accesso alla scheda di fatturazione è disattivato per la società, contattate l&#39;Account Manager.
+>[!NOTE]
+>
+>Se l&#39;accesso alla scheda di fatturazione è disattivato per la società, contattate l&#39;Account Manager.
 
-I dati della panoramica del traffico dalla pagina di fatturazione consentono di correlare i dati della visualizzazione della pagina nei rapporti con le chiamate fatturabili server sulla fattura. La [!UICONTROL Billing] pagina consente di effettuare le seguenti operazioni:
+I dati della panoramica del traffico dalla pagina di fatturazione consentono di correlare i dati della visualizzazione della pagina nei rapporti con le chiamate fatturabili server sulla fattura. The [!UICONTROL Billing] page lets you do the following:
 
 * Controlla la fattura.
 * Scomposizione dei costi per suite di rapporti per le allocazioni contabili interne.
@@ -39,7 +44,9 @@ Il [!UICONTROL Monthly Invoice] rapporto risultante include le informazioni segu
 | Collegamenti personalizzati | Totali di collegamento personalizzati per ciascuna suite di rapporti. Potete confermare i valori dei collegamenti personalizzati in Contenuto sito > Collegamenti > Collegamenti personalizzati. |
 | Esci dai collegamenti | Esci dai totali dei collegamenti per ogni suite di rapporti. Potete confermare i valori di collegamento di uscita in Contenuto sito > Collegamenti > Esci da collegamenti. |
 
->[!NOTE] Per ottenere una copia di lavoro del [!UICONTROL Monthly Invoice] rapporto, copiatela negli Appunti, quindi incollatela in un programma per fogli di calcolo come Microsoft Excel*.
+>[!NOTE]
+>
+>Per ottenere una copia di lavoro del [!UICONTROL Monthly Invoice] rapporto, copiatela negli Appunti, quindi incollatela in un programma per fogli di calcolo come Microsoft Excel*.
 
 ## Data rapporto e data elaborazione {#section_51A48C2F223F4904BE1407C13333C457}
 
