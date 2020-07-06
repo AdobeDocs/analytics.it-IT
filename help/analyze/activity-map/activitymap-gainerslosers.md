@@ -4,7 +4,10 @@ title: Sovrapposizioni personalizzabili
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Le sovrapposizioni offrono diversi metodi per configurare la visualizzazione dei dati in modo da poter vedere e comprendere facilmente la popolarità dei collegamenti su una pagina.
 
-Le sovrapposizioni consentono di visualizzare i dati dei clic direttamente sulla pagina. Questo è ciò che separa uno strumento di analisi visiva come Activity Map da strumenti grafici e tabulari come Reporting e analisi.
+Le sovrapposizioni consentono di visualizzare i dati dei clic direttamente sulla pagina. Questo è ciò che separa uno strumento di analisi visiva come  Activity Map dagli strumenti principalmente tabulari e grafici come Reports &amp;  Analytics.
 
-Activity Map offre tre tipi di sovrapposizioni:
+ Activity Map offre tre tipi di sovrapposizioni:
 
 * Sovrapposizione sfumatura (Heatmap)
 * Sovrapposizione bolla
@@ -43,11 +46,13 @@ Queste metriche vengono sovrapposte ai collegamenti della pagina come una sorta 
 
 La sovrapposizione Bolla mostra il contenuto della sovrapposizione (metrica, percentuale o classificazione) in una piccola bolla di callout.
 
-Le sovrapposizioni delle bolle vengono visualizzate quando selezionate questa sovrapposizione nel tipo di sovrapposizione nella barra degli strumenti. . Le sovrapposizioni delle bolle vengono visualizzate per tutti i collegamenti che corrispondono alla selezione nelle impostazioni [delle mappe](/help/analyze/activity-map/activitymap-overlay-settings.md) attività (primi 30, primi 50, tutti...). Se questa opzione non è selezionata, vengono visualizzate le sovrapposizioni sfumatura.
+Le sovrapposizioni delle bolle vengono visualizzate quando selezionate questa sovrapposizione nel tipo di sovrapposizione nella barra degli strumenti. . Le sovrapposizioni delle bolle vengono visualizzate per tutti i collegamenti che corrispondono alla selezione in Impostazioni [Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (primi 30, primi 50, tutti...). Se questa opzione non è selezionata, vengono visualizzate le sovrapposizioni sfumatura.
 
 ![](assets/bubble_overlay.png)
 
->[!NOTE] Le sovrapposizioni per i sottomenu vengono visualizzate solo quando viene visualizzato il sottomenu:
+>[!NOTE]
+>
+>Le sovrapposizioni per i sottomenu vengono visualizzate solo quando viene visualizzato il sottomenu:
 >
 >![](assets/bubbles_submenu.png)>
 
