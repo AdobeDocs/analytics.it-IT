@@ -2,8 +2,11 @@
 description: 'null'
 title: Segmenti
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,9 @@ Nota bene:
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] I segmenti creati in questo modo sono interni al progetto.
+>[!NOTE]
+>
+>I segmenti creati in questo modo sono interni al progetto.
 
 Puoi scegliere di rendere questi segmenti pubblici (globali), seguendo questi passaggi:
 
