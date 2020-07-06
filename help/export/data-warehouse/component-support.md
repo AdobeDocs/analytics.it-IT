@@ -1,37 +1,42 @@
 ---
-title: Supporto dei componenti in Data Warehouse
-description: Scopri ulteriori dimensioni e metriche disponibili in Data Warehouse e quali non sono supportate.
+title: Supporto dei componenti nella Data warehouse
+description: Scopri ulteriori dimensioni e metriche disponibili nella Data warehouse e quali non sono supportate.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 10%
 
 ---
 
 
-# Supporto dei componenti in Data Warehouse
+# Supporto dei componenti nella Data warehouse
 
-L&#39;esclusiva architettura di elaborazione di Data Warehouse consente ad alcuni componenti che in genere non sono disponibili in altre funzionalità di Adobe Analytics. A causa della sua architettura univoca, alcuni componenti non sono disponibili per l&#39;uso nei report o nei segmenti. Utilizzare questa pagina per comprendere cosa può essere utilizzato e cosa non può essere utilizzato.
+L&#39;architettura di elaborazione  Data warehouse consente ad alcuni componenti che in genere non sono disponibili in altre funzionalità di Adobe  Analytics. A causa della sua architettura univoca, alcuni componenti non sono disponibili per l&#39;uso nei report o nei segmenti. Utilizzare questa pagina per comprendere cosa può essere utilizzato e cosa non può essere utilizzato.
 
-## Componenti unici di Data Warehouse
+## Componenti unici per la Data warehouse
 
-Alcune dimensioni e metriche possono essere utilizzate in Data Warehouse, mentre non sono disponibili utilizzando altre funzionalità in Adobe Analytics.
+Alcune dimensioni e metriche possono essere utilizzate nella Data warehouse, mentre non sono disponibili utilizzando altre funzionalità in Adobe  Analytics.
 
 ### Dimensioni supportate esclusivamente
 
-* Experience Cloud ID: Per le implementazioni che utilizzano il servizio Experience Cloud ID (ECID), un numero a 128 bit composto da due numeri concatenati a 64 bit aggiunti a 19 cifre.
+* ID Experience Cloud : Per le implementazioni che utilizzano il  Experience Cloud ID Service (ECID), un numero a 128 bit composto da due numeri concatenati a 64 bit aggiunti a 19 cifre.
 * URL pagina: L’URL della pagina su cui si è verificato l’hit.
 * ID acquisto: Identificatore univoco per un acquisto, impostato utilizzando la variabile purchaseID.
 * ID visitatore: Fornisce l&#39;identificatore univoco del visitatore. Questo valore è lo stesso del valore concatenato di `visid_high` e delle `visid_low` colonne nei feed di dati. Per ulteriori informazioni, consulta Riferimento [alla colonna](../analytics-data-feed/c-df-contents/datafeeds-reference.md) Dati in Feed dati.
 
 ### Metriche supportate esclusivamente
 
-* Visite: Questa metrica nel contesto di Data Warehouse esclude le visite di cookie non persistenti.
-* Visite - Tutti i visitatori: Questa metrica nel contesto di Data Warehouse presenta una maggiore parità con la metrica visite in altri strumenti di Adobe Analytics.
+* Visite: Questa metrica nel contesto dell&#39;Data warehouse esclude le visite di cookie non persistenti.
+* Visite - Tutti i visitatori: Questa metrica nel contesto della Data warehouse ha una maggiore parità con la metrica visite in altri strumenti all’interno di Adobe  Analytics.
 
-## Componenti non supportati in Data Warehouse
+## Componenti non supportati nella Data warehouse
 
-Alcune dimensioni e metriche non sono supportate in Data Warehouse.
+Alcune dimensioni e metriche non sono supportate nella Data warehouse.
 
->[!NOTE] Se una dimensione o una metrica non è supportata in Data Warehouse, non sono supportati nemmeno i segmenti che utilizzano questi componenti. Controlla sempre la compatibilità dei prodotti durante la creazione o la modifica di un segmento.
+>[!NOTE]
+>
+>Se una dimensione o una metrica non è supportata nella Data warehouse, i segmenti che utilizzano questi componenti non sono supportati. Controlla sempre la compatibilità dei prodotti durante la creazione o la modifica di un segmento.
 
 ### Dimensioni non supportate
 
@@ -50,7 +55,7 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
    * Tutte le dimensioni di immissione, tranne Pagina di entrata
    * Tutte le dimensioni di uscita, eccetto Pagina di uscita e Collegamento di uscita
    * Profondità di hit
-   * Restituisci frequenza
+   * Frequenza di ritorno
    * Tempo precedente all&#39;evento
    * Tempo trascorso sulla pagina - Interrotto
    * Tempo trascorso per visita - A intervalli
