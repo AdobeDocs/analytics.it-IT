@@ -1,13 +1,16 @@
 ---
-title: Escludere date specifiche nell'analisi
+title: Esclusione di date specifiche nell’analisi
 description: Suggerimenti per escludere date o intervalli di date se non si desidera includerli nei rapporti.
 translation-type: tm+mt
-source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 2%
 
 ---
 
 
-# Escludere date specifiche nell&#39;analisi
+# Esclusione di date specifiche nell’analisi
 
 Se un evento [ha un impatto](overview.md)sui dati, puoi utilizzare un segmento per escludere qualsiasi intervallo di date che non desideri includere nei rapporti. La segmentazione delle date interessate dall&#39;evento può aiutare a impedire all&#39;organizzazione di prendere decisioni sui dati parziali.
 
@@ -58,7 +61,9 @@ Se non si desidera visualizzare zeri nella tabella o nelle visualizzazioni (con 
 
 Puoi applicare il segmento &quot;Escludi giorni interessati&quot; a un progetto Workspace. Trascina il segmento di esclusione nella sezione Area di lavoro, con l’etichetta *Rilascia qui* un segmento.
 
->[!TIP] Includi una nota intorno ai dati esclusi nella descrizione del pannello per aiutare gli utenti che visualizzano il rapporto. Fate clic con il pulsante destro del mouse sul titolo di un pannello, quindi fate clic **[!UICONTROL Edit description]**.
+>[!TIP]
+>
+>Includi una nota intorno ai dati esclusi nella descrizione del pannello per aiutare gli utenti che visualizzano il rapporto. Fate clic con il pulsante destro del mouse sul titolo di un pannello, quindi fate clic **[!UICONTROL Edit description]**.
 
 ![Segmento applicato a un pannello](assets/exclude_segment_panel.jpg)
 
