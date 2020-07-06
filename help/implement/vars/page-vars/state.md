@@ -1,27 +1,32 @@
 ---
 title: Stato
-description: Compila il "Rapporto sullo stato del visitatore" in Reporting e analisi.
+description: Compila il "Rapporto sullo stato del visitatore" in Reporting e  Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 1%
 
 ---
 
 
 # state
 
->[!IMPORTANT] Questa variabile viene ritirata e non è disponibile in Analysis Workspace. Utilizzate invece la dimensione &quot;Stati Uniti&quot;, che AppMeasurement raccoglie automaticamente in base alla posizione del visitatore.
+>[!IMPORTANT]
+>
+>Questa variabile viene ritirata e non è disponibile in  Analysis Workspace. Utilizzate invece la dimensione &quot;Stati Uniti&quot;, che AppMeasurement raccoglie automaticamente in base alla posizione del visitatore.
 
-Nelle versioni precedenti di Adobe Analytics, la `state` variabile era utilizzata quando i visitatori compilavano le informazioni di spedizione sui siti di vendita al dettaglio. Funzionalmente identico a un prop, ma non disponibile in Analysis Workspace.
+Nelle versioni precedenti di Adobe  Analytics, la `state` variabile era utilizzata quando i visitatori compilavano le informazioni di spedizione sui siti di vendita al dettaglio. Funzionalmente identico a un prop, ma non disponibile in  Analysis Workspace.
 
-## Stato del lancio di Adobe Experience Platform
+## Stato  lancio Adobe Experience Platform
 
-Puoi impostare lo stato sia durante la configurazione dell&#39;estensione Analytics (variabili globali) che in base alle regole.
+Potete impostare lo stato sia durante la configurazione dell&#39;estensione Analytics  (variabili globali), sia in base alle regole.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuare la [!UICONTROL State] sezione.
 
 È possibile impostare state su qualsiasi valore di stringa o elemento dati.
