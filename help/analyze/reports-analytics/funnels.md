@@ -4,7 +4,7 @@ title: Funnel di conversione
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 3%
@@ -32,5 +32,7 @@ Questo rapporto è anche personalizzabile in modo da poter aggiungere eventi di 
 
 La tabella del rapporto mostra le statistiche relative alle vendite medie per click-through e alle unità medie vendute per click-through. A questi rapporti potete aggiungere metriche ed eventi personalizzati da altri gruppi di reporting. Questi funnel hanno molte somiglianze, ma si basano su variabili ed eventi diversi. Potete utilizzare questi rapporti per vedere quali percentuali e tendenze generali degli utenti attivano eventi specifici specificati. Potete vedere dove gli utenti non stanno seguendo gli eventi, il che fornisce indicazioni su quel punto specifico nel processo di conversione.
 
->[!NOTE] Le istanze nel contesto di questi rapporti corrispondono al numero totale di visite in cui è stato definito un eVar o un evento.
+>[!NOTE]
+>
+>Le istanze nel contesto di questi rapporti corrispondono al numero totale di visite in cui è stato definito un eVar o un evento.
 
