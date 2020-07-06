@@ -5,7 +5,10 @@ title: Creare classificazioni numeriche 2
 topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 23%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Le classificazioni numeriche 2 vengono create nello stesso modo in cui vengono create le altre classificazioni. È possibile aggiungere classificazioni numeriche 2 solo alle variabili di conversione o di canale.
 
->[!NOTE] Nella versione di manutenzione del 10 maggio 2018 di Analytics, Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
+>[!NOTE]
+>
+>Nella versione di manutenzione di Analytics del 10 maggio 2018, Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Selezionate la suite di rapporti, quindi fate clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
