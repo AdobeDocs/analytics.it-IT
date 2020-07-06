@@ -1,15 +1,20 @@
 ---
 title: Adobe Experience Cloud Debugger precedente
-description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger esamina i tag per Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
+description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger analizza i tag per  Analytics, Target,  Advertising Cloud, Identity Service, DTM e Launch.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
 
 # Adobe Experience Cloud Debugger precedente
 
->[!IMPORTANT] Questo strumento di debug non viene più mantenuto. Adobe consiglia di utilizzare invece l’estensione [Chrome di](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html)Adobe Experience Cloud Debugger.
+>[!IMPORTANT]
+>
+>Questo strumento di debug non viene più mantenuto. Adobe consiglia di utilizzare invece l’estensione [Chrome di](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html)Adobe Experience Cloud Debugger.
 
 Vengono [!UICONTROL Legacy Debugger] analizzati i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di visualizzare i dati inviati ad Adobe su qualsiasi pagina del sito. Potete utilizzare queste informazioni per risolvere eventuali problemi o convalidare l&#39;implementazione dell&#39;organizzazione.
 
@@ -68,11 +73,13 @@ Safari non è in grado di creare manualmente un bookmarklet, ma l&#39;URL di un 
 
 Andate alla pagina desiderata sul sito, quindi fate clic sul bookmarklet. Viene visualizzata una finestra a comparsa che mostra i dati inviati ad Adobe.
 
->[!NOTE] Alcuni plug-in e blocchi pop-up di blocco di annunci possono interferire con il caricamento della finestra del debugger. Controllate le finestre a comparsa bloccate nel browser e consentitele il corretto funzionamento del debugger.
+>[!NOTE]
+>
+>Alcuni plug-in e blocchi pop-up di blocco di annunci possono interferire con il caricamento della finestra del debugger. Controllate le finestre a comparsa bloccate nel browser e consentitele il corretto funzionamento del debugger.
 
 Il debugger dispone di diverse opzioni, tutte per personalizzare la modalità di visualizzazione dei dati. Nessuna di queste opzioni influisce sulla raccolta dei dati.
 
-* **Prodotti Experience Cloud visualizzati:** Mostra o nasconde le richieste di immagini per ciascun prodotto Experience Cloud.
+* **Visualizzati  prodotti Experience Cloud:** Mostra o nasconde le richieste di immagini per ciascun  prodotto Experience Cloud.
 * **Decode URL:** L’URL decodifica la richiesta di immagine in modo che corrisponda a quanto viene visualizzato nel reporting. Adobe consiglia di lasciare questa casella selezionata.
 * **Aggiornamento automatico:** Aggiorna automaticamente la finestra a comparsa ogni pochi secondi per verificare la presenza di ulteriori richieste di immagini sulla pagina. Se è necessario copiare/incollare contenuto nel debugger, disattivare l&#39;aggiornamento automatico in modo che la selezione rimanga invariata.
 * **Formato intuitivo:** Attiva/disattiva il formato di visualizzazione tra etichette utili e stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, vedi Parametri [query di raccolta](query-parameters.md) dati.
