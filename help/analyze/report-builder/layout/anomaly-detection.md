@@ -4,7 +4,10 @@ title: Rilevamento delle anomalie
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,9 @@ Ecco alcuni esempi di anomalie da esaminare:
 * Spezie negli eventi del buffer video
 * Picchi nei valori più bassi di bitrate video
 
->[!NOTE] Il rilevamento delle anomalie è disponibile solo quando si seleziona la granularità Giorno.
+>[!NOTE]
+>
+>Il rilevamento delle anomalie è disponibile solo quando si seleziona la granularità Giorno.
 
 <p class="head"> <b>Metriche di rilevamento delle anomalie</b> </p>
 
