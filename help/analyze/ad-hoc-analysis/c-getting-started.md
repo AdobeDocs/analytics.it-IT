@@ -1,14 +1,17 @@
 ---
-description: Inizia con Analisi ad hoc.
+description: Inizia con  Ad hoc analysis.
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1329'
+ht-degree: 9%
 
 ---
 
 
-# Guida introduttiva ad Analisi ad hoc{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Guida introduttiva a  Ad hoc analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
 >[!IImportante]
 >Il 6 agosto 2018 Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, tra cui quali versioni di Java saranno compatibili durante questo periodo, visita [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
@@ -27,11 +30,11 @@ Queste funzioni consentono di rispondere alle domande sul traffico del sito, sul
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Log in to Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Andate a <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>ed effettuate l'accesso utilizzando le vostre credenziali di Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>Andate a <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>ed effettuate l'accesso utilizzando le credenziali Adobe  Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Avvia Analisi Ad Hoc. </p> </td> 
-   <td colname="col2">Fai clic <span class="uicontrol"> su Adobe Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol"> Analisiad hoc</span>, quindi fai clic sul <span class="uicontrol"> pulsante Avvia analisi</span> ad hoc. <p> <p>Nota: Se non trovi il pulsante <b>Avvia analisi</b> ad hoc in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo Utente <i>licenza</i> Ad Hoc Analysis in Strumenti di amministrazione. </p> </p> </td> 
+   <td colname="col1"> <p>2. Avvia  Ad hoc analysis. </p> </td> 
+   <td colname="col2">Fate clic su <span class="uicontrol"> Adobe  Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol">  Ad hoc analysis</span>, quindi fate clic sul <span class="uicontrol"> pulsante Avvia  Ad hoc analysis</span> . <p> <p>Nota: Se non trovi il pulsante <b>Avvia  Ad hoc analysis</b> in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo <i>Utente</i> licenza Ad hoc analysis in Strumenti di amministrazione. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crea un progetto. </p> </td> 
@@ -64,7 +67,9 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE] A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire Analisi ad hoc su Java 7, Adobe non supporterà più l’implementazione di Analisi ad hoc.
+>[!NOTE]
+>
+>A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire  Ad hoc analysis su Java 7, Adobe non supporterà più l’implementazione  Ad hoc analysis.
 
 * Scheda video con supporto per OpenGL 2.0
 * Cookie: obbligatori
@@ -75,11 +80,11 @@ c_sys_reqs.xml
 * JavaScript: abilitato
 * Versione Java: Java 1.7 o versione successiva (vedere nota sopra)
 
-   Se non è installata la versione corretta di Java, questa viene installata automaticamente. Se avete installato una versione non compatibile di Java, Analisi ad hoc scarica e richiede di installare gli aggiornamenti.
+   Se non è installata la versione corretta di Java, questa viene installata automaticamente. Se avete installato una versione non compatibile di Java,  download Ad hoc analysis e vi chiede di installare gli aggiornamenti.
 
 ## Istruzioni per l&#39;aggiornamento Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire Analisi ad hoc su Java 7, Adobe non supporterà più l’implementazione di Analisi ad hoc.
+A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire  Ad hoc analysis su Java 7, Adobe non supporterà più l’implementazione  Ad hoc analysis.
 
 I nostri file .jar sono firmati con una cifratura sicura a 256 bit non supportata dalle versioni di Java precedenti alla 1.7.0_76. Questo certificato con cifratura a 256 bit offre maggiore sicurezza.
 
@@ -96,7 +101,7 @@ Se Java 7 è ancora installato, è necessario eseguire l&#39;aggiornamento prima
 
    1. Consultate il reparto IT per installare la versione più recente di Java.
 
-## Launch Ad Hoc Analysis {#concept_B1CE3C1E6D1A4311B9835BEB69812E55}
+## Avvia  Ad hoc analysis {#concept_B1CE3C1E6D1A4311B9835BEB69812E55}
 
 <!-- 
 
@@ -104,7 +109,7 @@ c_login.xml
 
  -->
 
-Potete effettuare l’accesso da [!DNL Experience Cloud] o da un URL. Se effettuate l’accesso da Reporting e analisi, viene eseguito automaticamente l’accesso. L’accesso mediante un URL è necessario solo se accedete all’URL di analisi ad hoc da un’altra posizione, ad esempio da un collegamento o da un menu dei preferiti.
+Potete effettuare l’accesso da [!DNL Experience Cloud] o da un URL. Se effettuate l’accesso da Reporting e  Analytics, viene eseguito automaticamente l’accesso. L’accesso mediante un URL è necessario solo se accedete all’URL  ad hoc analysis da un’altra posizione, ad esempio da un collegamento o da un menu dei preferiti.
 
 ## Log In from the Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
 
@@ -120,11 +125,11 @@ t_login_suite.xml
 1. Digitate il nome della società, il nome utente e la password. Quindi fai clic su **[!UICONTROL Sign In]**.
 1. Fai clic su **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
 
-   Se non trovi il pulsante **Avvia analisi** ad hoc in questa pagina, accertati che l&#39;amministratore ti abbia aggiunto al gruppo Utente *licenza* Ad Hoc Analysis in Strumenti di amministrazione.
+   Se non trovi il pulsante **Avvia  Ad hoc analysis** in questa pagina, accertati che l&#39;amministratore ti abbia aggiunto al gruppo *Utente* licenza Ad hoc analysis in Strumenti di amministrazione.
 1. Fai clic su **[!UICONTROL Launch Ad Hoc Analysis]**.
 1. Salvate il [!DNL discover.jnlp] file localmente.
 
-   Puoi eseguire questo file salvato ogni volta che desideri avviare Analisi ad hoc.
+   Potete eseguire questo file salvato ogni volta che desiderate avviare  Ad hoc analysis.
 
 ## Progetti e aree di lavoro {#concept_FAE346335B0347A192C6C806C775D72B}
 
@@ -172,9 +177,9 @@ t_recent_workspace.xml
 
    È possibile aprire fino a cinque aree di lavoro recenti. Le aree di lavoro recenti non sono disponibili dopo l’uscita dalla sessione.
 
-## Condividi progetti {#task_5911780D90164F3A8A677C8BC719750D}
+## Share Projects {#task_5911780D90164F3A8A677C8BC719750D}
 
-I progetti condivisi saranno disponibili per tutti gli utenti di Analisi ad hoc della società.
+I progetti condivisi saranno disponibili a tutti  utenti Ad hoc analysis della società.
 
 <!-- 
 
