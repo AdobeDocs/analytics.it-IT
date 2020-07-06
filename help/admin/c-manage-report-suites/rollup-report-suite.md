@@ -4,7 +4,10 @@ title: Suite di rapporti rollup e globali
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +37,9 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 
 **Chiamate** server secondarie: I rollup non comportano chiamate server aggiuntive oltre le raccolte da una singola suite di rapporti. Se l’organizzazione utilizza i tag per più suite, vengono effettuate chiamate server secondarie per ogni suite di rapporti aggiuntiva inclusa in una richiesta di immagine.
 
->[!TIP] Se utilizzi solo una suite di rapporti globale con suite [di rapporti](../../components/vrs/vrs-considerations.md)virtuali, non sono necessarie chiamate server secondarie.
+>[!TIP]
+>
+>Se utilizzi solo una suite di rapporti globale con suite [di rapporti](../../components/vrs/vrs-considerations.md)virtuali, non sono necessarie chiamate server secondarie.
 
 **Modifiche** di implementazione: I rollup non richiedono alcuna modifica di implementazione, mentre le suite per report globali richiedono di includere l&#39;ID suite per report globale nella tua implementazione.
 
@@ -48,6 +53,6 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 
 **Rapporti**: Le suite di rapporti globali forniscono dati su tutte le dimensioni; i rollup forniscono dati aggregati solo per report di alto livello.
 
-**Prodotti** supportati: I rollup possono essere utilizzati solo in Reporting e analisi. Non sono supportati in Analysis Workspace, Data Warehouse o Analisi ad hoc. Le suite di rapporti globali possono essere utilizzate per tutti i prodotti.
+**Prodotti** supportati: I rollup possono essere utilizzati solo in Reporting e  Analytics. Non sono supportati in  Analysis Workspace, Data warehouse o  Ad hoc analysis. Le suite di rapporti globali possono essere utilizzate per tutti i prodotti.
 
 **Numero di suite** di rapporti aggregate: I rollup supportano solo un massimo di 40 suite di rapporti figlio. Le suite di rapporti globali possono essere implementate su un numero qualsiasi di domini o app che possedete.
