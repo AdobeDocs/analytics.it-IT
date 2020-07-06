@@ -2,7 +2,10 @@
 title: linkTrackEvents
 description: Determinare gli eventi da includere nelle richieste di tracciamento dei collegamenti per le immagini.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 3%
 
 ---
 
@@ -13,11 +16,13 @@ Alcune implementazioni non desiderano includere tutte le variabili in tutte le r
 
 Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina ([`t()`](../functions/t-method.md) metodo).
 
-## Eventi nelle chiamate di tracciamento dei collegamenti tramite Adobe Experience Platform Launch
+## Eventi nelle chiamate di tracciamento dei collegamenti mediante  lancio Adobe Experience Platform
 
 Launch rileva automaticamente gli eventi definiti nell’interfaccia e li include negli hit di tracciamento dei collegamenti.
 
->[!IMPORTANT] Se si impostano gli eventi in Launch utilizzando l&#39;editor di codice personalizzato, è necessario includere l&#39;evento anche nell&#39; `linkTrackEvents` uso del codice personalizzato.
+>[!IMPORTANT]
+>
+>Se si impostano gli eventi in Launch utilizzando l&#39;editor di codice personalizzato, è necessario includere l&#39;evento anche nell&#39; `linkTrackEvents` uso del codice personalizzato.
 
 ## s.linkTrackEvents in AppMeasurement e Launch editor di codice personalizzato
 
@@ -33,7 +38,9 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 Il valore predefinito per questa variabile è una stringa vuota. Se questa variabile non è definita, tutti gli eventi vengono inclusi nelle richieste di immagini per il tracciamento dei collegamenti. Si noti che Launch compila automaticamente questa variabile in base agli eventi impostati nell&#39;interfaccia, pertanto è sempre impostata nelle implementazioni tramite Launch.
 
->[!TIP] Evitare di utilizzare l&#39;identificatore oggetto (`s.`) di Analytics quando si specificano gli eventi in questa variabile. Ad esempio, `s.linkTrackEvents = "event1";` è corretta, mentre `s.linkTrackEvents = "s.event1";` è errata.
+>[!TIP]
+>
+>Evitare di utilizzare l&#39;identificatore oggetto (`s.`)  Analytics quando si specificano gli eventi in questa variabile. Ad esempio, `s.linkTrackEvents = "event1";` è corretta, mentre `s.linkTrackEvents = "s.event1";` è errata.
 
 ## Esempio
 
