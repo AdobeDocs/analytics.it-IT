@@ -1,19 +1,24 @@
 ---
 title: manageVars
-description: Modificate i valori di più variabili di Analytics alla volta.
+description: Modificate i valori di più  variabile Analytics alla volta.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
 
 # Plug-in Adobe: manageVars
 
->[!IMPORTANT] Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `manageVars` plug-in consente di manipolare i valori di più variabili Analytics alla volta. È inoltre possibile impostare i valori in lettere minuscole o rimuovere allo stesso tempo i caratteri non necessari da più valori di variabili. Adobe consiglia di utilizzare questo plug-in se si desidera eliminare il valore di più variabili alla volta.
+Il `manageVars` plug-in consente di manipolare i valori di più variabili Analytics  contemporaneamente. È inoltre possibile impostare i valori in lettere minuscole o rimuovere allo stesso tempo i caratteri non necessari da più valori di variabili. Adobe consiglia di utilizzare questo plug-in se si desidera eliminare il valore di più variabili alla volta.
 
-## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
 
 Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
 
@@ -22,10 +27,10 @@ Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug
 1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
 1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
-   * Condizione: None
+   * Condizione: nessuna
    * Evento: Core - Libreria caricata (Page Top)
 1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
+   * Estensione: Plug-in Analytics  comuni
    * Tipo azione: Initialize manageVars
 1. Salvate e pubblicate le modifiche alla regola.
 
@@ -35,14 +40,14 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics.
+1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
 1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
+1. Salvate e pubblicate le modifiche nell’estensione Analytics .
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,8 +72,8 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 Il `manageVars` metodo utilizza i seguenti argomenti:
 
-* **`cb`** (obbligatorio, stringa): Nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. È possibile utilizzare una funzione Adobe come `cleanStr` o una funzione personalizzata.
-* **`l`** (facoltativo, stringa): Elenco delimitato da virgole delle variabili Analytics da manipolare. Se non è impostato, il valore predefinito è Tutte le variabili Adobe Analytics, che include:
+* **`cb`** (obbligatorio, stringa): Nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili Analytics . È possibile utilizzare una funzione Adobe come `cleanStr` o una funzione personalizzata.
+* **`l`** (facoltativo, stringa): Elenco delimitato da virgole  variabili Analytics da manipolare. Se non è impostato, il valore predefinito è Tutte le variabili Adobe  Analytics, che include:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -87,7 +92,7 @@ Il `manageVars` metodo utilizza i seguenti argomenti:
    * Tutte le variabili dei dati di contesto
 * **`Il`** (facoltativo, booleano): Impostare su `false` se si desidera *escludere* l&#39;elenco delle variabili dichiarate nell&#39; `l` argomento invece di includerle. Il valore predefinito è `true`.
 
-Se si chiama questo metodo, non viene restituito alcun valore. ma modifica i valori delle variabili Analytics in base alla funzione di callback desiderata.
+Se si chiama questo metodo, non viene restituito alcun valore. ma modifica i valori  variabili Analytics in base alla funzione di callback desiderata.
 
 ## Chiamate di esempio
 
