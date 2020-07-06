@@ -2,7 +2,7 @@
 title: Tipo referente
 description: Il tipo di referente, a seconda della provenienza del visitatore.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,9 +31,11 @@ I valori delle dimensioni includono il tipo di referente dell’hit. I valori sp
 
 ### Social network
 
-L&#39;elenco seguente fa riferimento alla tabella di ricerca &#39;Social network&#39; utilizzata da Adobe. Adobe fornisce questo elenco per cortesia ai clienti di Adobe Analytics. Se desiderate raccomandare ad Adobe di aggiungere un dominio a questo elenco, contattate l&#39;Assistenza clienti per richiedere un delegato di supporto nell&#39;organizzazione.
+L&#39;elenco seguente fa riferimento alla tabella di ricerca &#39;Social network&#39; utilizzata da Adobe. Adobe fornisce questo elenco per cortesia ai clienti di Adobe  Analytics. Se desiderate raccomandare ad Adobe di aggiungere un dominio a questo elenco, contattate l&#39;Assistenza clienti per richiedere un delegato di supporto nell&#39;organizzazione.
 
->[!NOTE] Questo elenco è diverso dall&#39;elenco predefinito dei social network nelle regole [di elaborazione dei canali di](../c-marketing-channels/c-rules.md)marketing.
+>[!NOTE]
+>
+>Questo elenco è diverso dall&#39;elenco predefinito dei social network nelle regole [di elaborazione dei canali di](../c-marketing-channels/c-rules.md)marketing.
 
 * `12seconds.tv`
 * `t.163.com`
