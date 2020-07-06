@@ -5,7 +5,7 @@ title: Gestire i canali di marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 4%
@@ -32,11 +32,11 @@ Se necessario, contattate l&#39;Assistenza clienti per assistenza su questi prer
 
 * Nella console di amministrazione (Impostazioni account generali), abilita l’opzione **[!UICONTROL Conversion Level]** (e-commerce) per la suite di rapporti.
 
-   Consulta Impostazioni [account](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) generali nell&#39;Aiuto di Analytics per ulteriori informazioni.
+   Per ulteriori informazioni, consulta Impostazioni [account](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/general-acct-settings-admin.html) generali  guida di Analytics.
 
 * Configurate l&#39;accesso alle dimensioni del canale di marketing.
 
-   Consultate Autorizzazioni per i canali [di marketing](/help/components/c-marketing-channels/c-channel-report-access.md).
+   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
 
 * Verifica che il tuo account manager sia abilitato **[!UICONTROL Channel Reports]** per la suite di rapporti.
 
@@ -44,7 +44,9 @@ Se necessario, contattate l&#39;Assistenza clienti per assistenza su questi prer
 
 Aggiungi canali di marketing in Marketing Channel Manager.
 
->[!NOTE] Non è possibile eliminare un canale. Se non si desidera utilizzare un canale, è possibile disattivarlo o rinominarlo e mantenerlo per un uso successivo.
+>[!NOTE]
+>
+>Non è possibile eliminare un canale. Se non si desidera utilizzare un canale, è possibile disattivarlo o rinominarlo e conservarlo per un uso successivo.
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Sulla [!UICONTROL Report Suite Manager] pagina, seleziona una suite di rapporti.
@@ -77,7 +79,7 @@ Aggiungi canali di marketing in Marketing Channel Manager.
 | Ignora ultimo canale di tocco | Consente di scegliere se ignorare un canale esistente persistente con il canale selezionato. Se selezionate questa casella di controllo, qualsiasi canale (inclusi Diretto e Interno) sovrascrive un canale dell’ultimo tocco esistente. Il risultato è che la conversione viene attribuita a un canale che potrebbe non meritare credito. Ad esempio, questa opzione può garantire che il canale Direct non riceva credito per la conversione se l&#39;utente era stato precedentemente acquisito tramite il canale di ricerca naturale. |
 | Suddivisione canale | Consente di suddividere un canale in base a questo valore. Puoi aggiungere possibili analisi dettagliate dei canali (canali secondari) durante la creazione di classificazioni dei canali di [marketing](/help/components/c-marketing-channels/classifictions-mchannel.md). |
 | Tipo | Specifica in che modo l’utente è arrivato sul sito. Potete selezionare Online o Offline. Utilizza i canali online per i visitatori che passano attraverso un motore di ricerca o una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite annunci pubblicitari di giornali o riviste. I canali offline in genere includono i dati importati tramite Origini dati di reporting. See [Data Sources](https://docs.adobe.com/content/help/it-IT/analytics/import/data-sources/datasrc-home.html). See [Add Offline Data](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Colore | Solo Reporting e analisi: Colore associato a questo canale di marketing. Questo colore rappresenta il canale nel rapporto Canale di marketing. |
+| Colore | Solo Reporting e  Analytics: Colore associato a questo canale di marketing. Questo colore rappresenta il canale nel rapporto Canale di marketing. |
 
 ### Escludere le best practice
 
