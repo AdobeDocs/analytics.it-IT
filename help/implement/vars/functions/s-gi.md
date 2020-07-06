@@ -2,7 +2,10 @@
 title: s_gi()
 description: Crea e monitora le istanze di AppMeasurement.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 1%
 
 ---
 
@@ -11,13 +14,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La `s_gi()` funzione crea o trova un&#39;istanza di AppMeasurement per ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata e `s_gi()` restituisce l&#39;istanza esistente per una suite di rapporti, se esistente. Se un&#39;istanza non esiste, viene creata una nuova istanza.
 
-## s_gi() in Adobe Experience Platform Launch
+## s_gi() in  lancio Adobe Experience Platform
 
-L&#39;estensione Analytics crea un&#39;istanza e gestisce l&#39;oggetto di tracciamento per voi. Tuttavia, potete anche impostare un oggetto di tracciamento globale nel pannello di [!UICONTROL Library Management] navigazione quando configurate l&#39;estensione Adobe Analytics.
+L&#39;estensione Analytics  crea un&#39;istanza e gestisce automaticamente l&#39;oggetto di tracciamento. Tuttavia, potete anche impostare un oggetto di tracciamento globale nel [!UICONTROL Library Management] pannello a soffietto quando configurate l&#39;estensione Adobe  Analytics.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
+3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto Adobe  Analytics.
 4. Espandete la [!UICONTROL Library Management] fisarmonica e selezionate un pulsante di scelta diverso da [!UICONTROL Manage the library for me].
 
 Il campo di testo della variabile globale consente di impostare un oggetto di tracciamento personalizzato. Its default value is `s`.
@@ -26,7 +29,9 @@ Il campo di testo della variabile globale consente di impostare un oggetto di tr
 
 Chiamare la `s_gi()` funzione per creare un&#39;istanza di un oggetto di tracciamento. L&#39;unico argomento contiene una stringa delimitata da virgole di ID suite di rapporti. L&#39;argomento ID suite di rapporti è obbligatorio.
 
->[!TIP] Adobe consiglia di utilizzare la `s` variabile come oggetto di tracciamento. Adobe utilizza `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, potete utilizzare qualsiasi variabile purché sia coerente sul sito.
+>[!TIP]
+>
+>Adobe consiglia di utilizzare la `s` variabile come oggetto di tracciamento. Adobe utilizza `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, potete utilizzare qualsiasi variabile purché sia coerente sul sito.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel documento [di progettazione della](../../prepare/solution-design.md)soluzione aziendale.
+>[!CAUTION]
+>
+>Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel documento [di progettazione della](../../prepare/solution-design.md)soluzione aziendale.
 
 ## Gestire più implementazioni utilizzando diversi oggetti di tracciamento
 
