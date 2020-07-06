@@ -2,7 +2,7 @@
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
 translation-type: tm+mt
-source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 76%
@@ -87,4 +87,6 @@ Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit
 
 ![Suite di rapporti virtuali di sola visualizzazione](assets/vrs-aiq-example.png)
 
->[!NOTE] Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro per la generazione di rapporti simile si limita a nascondere alcuni valori di dimensione senza alcun impatto sulle metriche elaborate secondo il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
+>[!NOTE]
+>
+>Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro per la generazione di rapporti simile si limita a nascondere alcuni valori di dimensione senza alcun impatto sulle metriche elaborate secondo il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
