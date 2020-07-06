@@ -2,17 +2,17 @@
 title: Modelli di attribuzione e finestre di lookback
 description: Differenze tra i diversi tipi di attribuzione tra i valori delle dimensioni.
 translation-type: tm+mt
-source-git-commit: d12ea12ffbf54e1af091ceff6ec671e6a09d0db3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1496'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
 
 # Modelli di attribuzione e finestre di lookback
 
-Il concetto di attribuzione in Adobe Analytics richiede due componenti:
+Il concetto di attribuzione in Adobe  Analytics richiede due componenti:
 
 * **Modello di attribuzione:** il modello descrive la distribuzione delle conversioni negli hit in un gruppo. Ad esempio, primo contatto o ultimo contatto.
 * **Intervallo di lookback dell’attribuzione:** l’intervallo di lookback descrive quali gruppi di hit vengono considerati per ogni modello. Ad esempio, visita o visitatore.
@@ -31,7 +31,7 @@ Il concetto di attribuzione in Adobe Analytics richiede due componenti:
 | ![Personalizzato](assets/custom.png) | Personalizzato | Consente di specificare i valori da assegnare ai punti di contatto, agli ultimi punti di contatto e a eventuali punti di contatto intermedi. I valori specificati vengono normalizzati al 100% anche se la somma dei numeri personalizzati immessi è inferiore a 100. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le interazioni con due punti di contatto, il parametro intermedio viene ignorato. Il primo e l’ultimo punto di contatto vengono quindi normalizzati al 100% e il credito viene assegnato di conseguenza. | Si tratta di un modello perfetto per avere pieno controllo sul proprio modello di attribuzione e rispondere a esigenze specifiche che altri modelli di attribuzione non soddisfano. |
 | ![Decadimento nel tempo](assets/time_decay.png) | Decadimento nel tempo | Segue un decadimento esponenziale con un parametro di mezza durata personalizzato, dove il valore predefinito è 7 giorni. Il valore di ciascun canale dipende dalla quantità di tempo trascorsa tra l’avvio del punto di contatto e l’eventuale conversione. La formula utilizzata per determinare il credito è `2^(-t/halflife)`, dove `t` è il tempo tra un punto di contatto e una conversione. Tutti i punti di contatto vengono quindi normalizzati al 100%. | Si tratta di un modello ideale per i team che eseguono regolarmente campagne pubblicitarie video o che mirano su eventi basati su data prestabilita. Più una conversione si verifica dopo un evento di marketing, meno credito viene assegnato. |
 | ![Partecipazione](assets/participation.png) | Partecipazione | Assegna il 100% di credito a tutti i punti di contatto unici. Il numero totale di conversioni è aumentato rispetto ad altri modelli di attribuzione. La partecipazione deduplica i canali visualizzati più volte. | Si tratta di un modello ottimo per comprendere quanto spesso i clienti sono esposti a una determinata interazione. Le società di comunicazioni utilizzano spesso questo modello per calcolare la velocità del contenuto. Le società di commercio al dettaglio usano spesso questo modello per capire quali sono le parti del sito che sono fondamentali per la conversione. |
-| ![Algoritmo](assets/algorithmic.png) | [Algoritmo](algorithmic.md) | Utilizza tecniche statistiche per determinare in modo dinamico l&#39;allocazione ottimale del credito per la metrica selezionata. | Utile per evitare tentativi o euristica quando si sceglie il modello di attribuzione corretto per la propria attività. |
+| ![Algoritmica](assets/algorithmic.png) | [Algoritmica](algorithmic.md) | Utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. | Utile per evitare supposizioni o euristiche al momento della scelta del modello di attribuzione corretto per la propria attività. |
 
 ## Intervalli di lookback
 
@@ -43,7 +43,9 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 * **Finestra di lookback personalizzata:** Consente di espandere la finestra di attribuzione oltre l&#39;intervallo di date del rapporto fino a un massimo di 90 giorni. Le finestre di lookback personalizzate vengono valutate per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, una finestra di lookback di 10 giorni valuterà tutti i punti di contatto di dimensione dal 10 al 20 febbraio nel modello di attribuzione.
 
->[!NOTE] **[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, consulta [Versioni](/help/landing/an-releases.md) delle funzioni di Adobe Analytics.
+>[!NOTE]
+>
+>**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, consultate [Adobe  Analytics feature Release](/help/landing/an-releases.md) .
 
 ## Esempio
 
@@ -74,4 +76,6 @@ A seconda dell’intervallo di lookback e del modello di attribuzione definiti, 
       * Social: 18,6%, ovvero 9,32 $
       * Ricerca a pagamento: 13,8%, ovvero 6,92 $
 
->[!TIP] Anche altri eventi di conversione, come ordini o eventi personalizzati, saranno suddivisi se il credito è associato a più di un canale. Ad esempio, se due canali contribuiscono a un evento personalizzato utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 dell’evento personalizzato. Queste frazioni di eventi vengono sommate tra tutte le visite, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
+>[!TIP]
+>
+>Anche altri eventi di conversione, come ordini o eventi personalizzati, saranno suddivisi se il credito è associato a più di un canale. Ad esempio, se due canali contribuiscono a un evento personalizzato utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 dell’evento personalizzato. Queste frazioni di eventi vengono sommate tra tutte le visite, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
