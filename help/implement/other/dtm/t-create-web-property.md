@@ -5,7 +5,10 @@ title: Creare proprietà Web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 14%
 
 ---
 
@@ -14,11 +17,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Una proprietà Web può essere un qualsiasi raggruppamento di uno o più domini e sottodomini con una libreria di regole, inclusa in un unico codice da incorporare.
 
->[!NOTE] Solo un utente con diritti di amministratore può creare una proprietà. Per ulteriori informazioni sui ruoli, consulta [Creazione e gestione di gruppi in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) nella Documentazione prodotto Gestione tag dinamica.
+>[!NOTE]
+>
+>Solo un utente con diritti di amministratore può creare una proprietà. Per ulteriori informazioni sui ruoli, consulta [Creazione e gestione di gruppi in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) nella Documentazione prodotto Gestione tag dinamica.
 
 Puoi gestire e tenere traccia di queste risorse con Gestione dinamica dei tag. Ad esempio, supponete di disporre di più siti Web basati su un modello e di voler tenere traccia delle stesse risorse su tutti questi siti Web. È possibile applicare una proprietà Web a più domini.
 
-Per informazioni generali sulle proprietà Web e sulle procedure ottimali, vedere Proprietà [](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) Web nella Documentazione prodotto Gestione tag dinamica.
+Per informazioni generali sulle proprietà Web e sulle procedure ottimali, vedere Proprietà [](https://docs.adobe.com/content/help/it-IT/dtm/using/admin/web-property.html) Web nella Documentazione prodotto Gestione tag dinamica.
 
 1. Andate alla pagina della società, quindi fate clic su **[!UICONTROL Add Property]**.
 
@@ -35,7 +40,7 @@ Per informazioni generali sulle proprietà Web e sulle procedure ottimali, veder
     </thead>
     <tbody> 
     <tr> 
-    <td colname="col1"> <span class="uicontrol">Nome</span> </td> 
+    <td colname="col1"> <span class="uicontrol"> Nome</span> </td> 
     <td colname="col2"> <p>Nome della proprietà. </p> </td> 
     </tr> 
     <tr> 
