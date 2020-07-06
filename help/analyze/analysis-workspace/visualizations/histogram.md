@@ -3,7 +3,7 @@ description: L’istogramma è un nuovo tipo di visualizzazione disponibile in A
 title: Istogramma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 97%
@@ -25,7 +25,9 @@ Per creare un istogramma:
 
 ![](assets/histogram.png)
 
->[!NOTE] Gli istogrammi supportano solo metriche standard; le metriche calcolate non sono supportate.
+>[!NOTE]
+>
+>Gli istogrammi supportano solo metriche standard; le metriche calcolate non sono supportate.
 
 In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori unici. Il primo intervallo (a sinistra) corrisponde a 1 visualizzazione di pagina per visitatore univoco; il secondo a 2 visualizzazioni di pagina, ecc.
 
