@@ -4,7 +4,10 @@ title: Richiama delle funzionalità di Report Builder dalle funzioni di Microsof
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 4%
 
 ---
 
@@ -15,7 +18,9 @@ Questa funzionalità integra ulteriormente l&#39;utilizzo del Generatore di repo
 
 Ad esempio, potrebbe essere utile aggiornare automaticamente le richieste Generatore di report il cui filtro di input è basato sui dati estratti in Excel da altre origini. Ora è possibile eseguire questa operazione utilizzando la stringa RefreshRequestsInCellsRange(..) . Tutte le chiamate sono asincrone. Essi restituiscono immediatamente e non aspettano che una chiamata venga eseguita completamente.
 
->[!NOTE] Per poter utilizzare questa funzionalità, è necessario che sia installato Generatore di report 5.0 (o successivo).
+>[!NOTE]
+>
+>Per poter utilizzare questa funzionalità, è necessario che sia installato Generatore di report 5.0 (o successivo).
 
 Di seguito è riportata una tabella con l&#39;elenco delle funzioni esposte:
 
@@ -64,7 +69,7 @@ Le due funzioni che utilizzano un parametro possono essere utilizzate con il con
 
    ![](assets/format_control.png)
 
-1. Fate clic sulla [!UICONTROL Alt Text] scheda.
+1. Fai clic sulla scheda [!UICONTROL Alt Text].
 
    ![](assets/alt_text.png)
 
