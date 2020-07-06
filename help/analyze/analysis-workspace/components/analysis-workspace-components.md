@@ -2,8 +2,11 @@
 description: I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e granularità temporali da trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
 title: Panoramica dei componenti
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Vedi [Creazione di un progetto Analysis](/help/analyze/analysis-workspace/build-
 
 Sono disponibili diversi metodi di gestione dei componenti (singolarmente o selezionandone più di uno). Fai clic con il pulsante destro del mouse su un componente oppure fai clic su **[!UICONTROL Actions]** (Azioni) in alto nell’elenco dei componenti.
 
->[!NOTE] Queste azioni non si applicano ai componenti Tempo.
+>[!NOTE]
+>
+>Queste azioni non si applicano ai componenti Tempo.
 
 | Azione del componente | Descrizione |
 |--- |--- |
