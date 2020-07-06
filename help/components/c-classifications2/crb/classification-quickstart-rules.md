@@ -5,7 +5,10 @@ title: Regole di classificazione
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1957'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +36,7 @@ Ad esempio, supponiamo che un codice di tracciamento per un ID campagna e-mail s
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | A |
 |---|---|---|---|
-| Inizia con | em: | Canale | E-mail |
+| Inizia con | em: | Channel | E-mail |
 | Termina con | Vendita | Tipo | Vendita |
 | Contiene | 2013 | Anno | 2013 |
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [Quando Le Regole Non Classificano Le Chiavi?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Priorità regola](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] L&#39;oggetto [!UICONTROL Rule Builder] non supporta le classificazioni Numeriche 2.
+>[!NOTE]
+>
+>L&#39;oggetto [!UICONTROL Rule Builder] non supporta le classificazioni Numeriche 2.
 
 ## Informazioni importanti sulle regole
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [Espressioni regolari - &quot;Non contiene&quot;](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Espressioni regolari - Tabella di riferimento](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] Come procedura ottimale, le espressioni regolari sono particolarmente indicate per i codici di monitoraggio che utilizzano i delimitatori.
+>[!NOTE]
+>
+>Come procedura ottimale, le espressioni regolari sono particolarmente indicate per i codici di monitoraggio che utilizzano i delimitatori.
 
 ## Espressione regolare - Esempio di codice di tracciamento {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] Se il codice di tracciamento è codificato da un URL, **non** verrà classificato dal Generatore di regole.
+>[!NOTE]
+>
+>Se il codice di tracciamento è codificato da un URL, **non** verrà classificato dal Generatore di regole.
 
 In questo esempio, supponete di voler classificare il seguente ID campagna:
 
@@ -313,7 +322,7 @@ Aggiungere regole facendo corrispondere una condizione a una classificazione e s
 
 1. Accanto a **[!UICONTROL Report Suites]**, fate clic **[!UICONTROL Add Suites]** per specificare una o più suite di rapporti da assegnare a questo set di regole.
 
-   Viene **[!UICONTROL Select Report Suites]** visualizzata la pagina.
+   The **[!UICONTROL Select Report Suites]** page displays.
 
    >[!NOTE]
    Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:        >
