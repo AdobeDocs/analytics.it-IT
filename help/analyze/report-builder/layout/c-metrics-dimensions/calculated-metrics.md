@@ -1,18 +1,23 @@
 ---
-description: Generatore di report 5.2 supporta le metriche calcolate unificate di Adobe Analytics. Tra le altre innovazioni, tutte le metriche calcolate ora dispongono di un ID globale, che non è più limitato a una suite di rapporti.
+description: Generatore di report 5.2 supporta le metriche calcolate unificate di Adobe  Analytics. Tra le altre innovazioni, tutte le metriche calcolate ora dispongono di un ID globale, quindi non sono più limitate a una suite di rapporti.
 title: Metriche calcolate
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 15%
 
 ---
 
 
 # Metriche calcolate
 
-Generatore di report 5.2 supporta le metriche calcolate unificate di Adobe Analytics. Tra le altre innovazioni, tutte le metriche calcolate ora dispongono di un ID globale, che non è più limitato a una suite di rapporti.
+Generatore di report 5.2 supporta le metriche calcolate unificate di Adobe  Analytics. Tra le altre innovazioni, tutte le metriche calcolate ora dispongono di un ID globale, quindi non sono più limitate a una suite di rapporti.
 
->[!NOTE] Le cartelle di lavoro esistenti potrebbero puntare a richieste con ID di metriche precedenti. Quando si utilizza Generatore di report 5.2, questi ID di metriche precedenti verranno convertiti nel nuovo ID globale. Se condividete la cartella di lavoro con un utente di Generatore di report v5.1 o versioni precedenti, tale utente non sarà in grado di visualizzare le metriche calcolate.
+>[!NOTE]
+>
+>Le cartelle di lavoro esistenti potrebbero puntare a richieste con ID di metriche precedenti. Quando si utilizza Generatore di report 5.2, questi ID di metriche precedenti verranno convertiti nel nuovo ID globale. Se condividete la cartella di lavoro con un utente di Generatore di report v5.1 o versioni precedenti, tale utente non sarà in grado di visualizzare le metriche calcolate.
 
 Per ulteriori informazioni su come creare e gestire le metriche calcolate con il nuovo Generatore e Manager metriche calcolate, consulta la Guida alle metriche [](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html) calcolate.
 
