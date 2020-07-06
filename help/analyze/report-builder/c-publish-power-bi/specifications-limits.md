@@ -1,9 +1,12 @@
 ---
-description: nulle
+description: 'null'
 title: Limiti e specifiche
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 1%
 
 ---
 
@@ -12,15 +15,19 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Limitazioni di pubblicazione di Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] Queste restrizioni si applicano solo all&#39;opzione &quot;Pubblica richieste Generatore di report come tabelle DataSet Power BI&quot;.
+>[!NOTE]
+>
+>Queste restrizioni si applicano solo all&#39;opzione &quot;Pubblica richieste Generatore di report come tabelle DataSet Power BI&quot;.
 
 * È possibile esportare fino a 100 richieste Generatore di report in Power BI per cartella di lavoro.
 * Il processo di pianificazione interrompe l&#39;esportazione delle richieste quando viene raggiunta la 101a richiesta.
-* Solo le prime 10.000 righe di dati Analytics verranno inviate a Power BI per ogni richiesta di Generatore di report. Le righe rimanenti verranno ignorate.
+* Solo le prime 10.000 righe di dati Analytics  verranno inviate a Power BI per ogni richiesta Generatore di report. Le righe rimanenti verranno ignorate.
 
 ## Modificare una richiesta di Generatore di report dopo la pubblicazione in Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] Questa specifica si applica alle opzioni &quot;Pubblica tutte le richieste del Generatore di report come tabelle DataSet Power BI&quot; e &quot;Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI&quot;.
+>[!NOTE]
+>
+>Questa specifica si applica alle opzioni &quot;Pubblica tutte le richieste del Generatore di report come tabelle DataSet Power BI&quot; e &quot;Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle DataSet Power BI&quot;.
 
 La modifica di una richiesta di Generatore di report dopo la pubblicazione in Power BI potrebbe causare problemi.
 
