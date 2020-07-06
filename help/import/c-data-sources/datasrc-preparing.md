@@ -5,7 +5,10 @@ title: Preparazione all'utilizzo di Origini dati
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +31,9 @@ Dopo aver determinato le mappature metrica-evento opportune per i dati Origini d
 
 Consulta [Eventi di successo](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/success-events/success-event.html) nell&#39;Aiuto di Strumenti di amministrazione.
 
->[!NOTE] Adobe consiglia vivamente di utilizzare eventi nuovi e vuoti con i dati Origini dati, ma in alcuni rari casi potrebbe essere utile utilizzare un evento preesistente.
+>[!NOTE]
+>
+>Adobe consiglia vivamente di utilizzare eventi nuovi e vuoti con i dati Origini dati, ma in alcuni rari casi potrebbe essere utile utilizzare un evento preesistente.
 
 ## Identificare le dimensioni dei dati {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ Ad esempio, se una metrica Origini dati misura ad impression, la dimensione dati
 
 Puoi definire più dimensioni dati per una metrica, ma ogni metrica deve fornire un valore rilevante, o una combinazione di valori, per ogni dimensione dati associata. Ad esempio, se importi una metrica Vendita offline e la associ alle dimensioni dati *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
->[!NOTE] È possibile importare metriche Totale che non possono essere suddivise per alcuna dimensione dati.
+>[!NOTE]
+>
+>È possibile importare metriche Totale che non possono essere suddivise per alcuna dimensione dati.
 
 Dopo aver definito le dimensioni dati da utilizzare con un&#39;origine dati, integra i dati delle dimensioni nei rapporti di marketing mappandoli a una variabile. Usa i rapporti standard (ad esempio, Prodotto, Codice di tracciamento, Cerca parola chiave) o le variabili Traffico conversione (eVars).
 
