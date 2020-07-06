@@ -5,7 +5,10 @@ title: Dashboard e minirapporti
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1692'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ Una dashboard è una raccolta di miniature di rapporti denominati minirapporti. 
 
 Una dashboard è una raccolta di rapporti di miniature denominata *`reportlets`*. Una dashboard è particolarmente utile quando contiene minirapporti correlati che forniscono una panoramica completa di alcuni aspetti del sito, ad esempio metodi di ricerca, profili dei visitatori e così via.
 
-Puoi aggiungere la maggior parte dei rapporti di marketing a una dashboard, compresi quelli grafici come il [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report]e il [!UICONTROL Pathfinder Report].
+Puoi aggiungere la maggior parte dei rapporti di marketing a una dashboard, compresi quelli grafici intensi come [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report]e [!UICONTROL Pathfinder Report].
 
 Potete anche impostare una dashboard come pagina di destinazione, condividere le dashboard con altri utenti e pianificarne la consegna. Se non si imposta una dashboard (o un segnalibro) come pagina di destinazione, viene visualizzato il [!UICONTROL My Recommended Reports] dashboard. **[!UICONTROL My Recommended Reports]** mostra il **[!UICONTROL Key Metrics]** rapporto e i cinque rapporti visualizzati più di frequente. È dinamico e si basa sui report attuali che vengono maggiormente visualizzati.
 
@@ -31,9 +34,11 @@ Tenete presente che alcuni rapporti visualizzati di frequente non possono essere
 * Rapporti in tempo reale
 * Altre dashboard
 
->[!NOTE] Il **[!UICONTROL Site Overview]** dashboard non è più elencato in Reporting e analisi. Tuttavia, ci sono ancora un paio di circostanze in cui vedrete alcuni o tutti i relativi minirapporti.
+>[!NOTE]
+>
+>Il **[!UICONTROL Site Overview]** dashboard non è più elencato in Reporting e  Analytics. Tuttavia, ci sono ancora un paio di circostanze in cui vedrete alcuni o tutti i relativi minirapporti.
 
-* Se avete, ad esempio, solo tre report visualizzati di frequente, Reporting e analisi prenderà due rapporti dalla dashboard Panoramica sito per completare la **[!UICONTROL My Recommended Reports]** dashboard.
+* Se avete, ad esempio, solo tre report visualizzati di frequente, Reporting e  Analytics prenderà due rapporti dalla dashboard Panoramica sito per completare la **[!UICONTROL My Recommended Reports]** dashboard.
 * Anche le nuove suite di rapporti saranno inizialmente dotate dei minirapporti Panoramica del sito, fino a quando non verranno sostituite dai rapporti visualizzati di frequente. Anche in questo caso, ora verrà chiamato il dashboard **[!UICONTROL My Recommended Reports]**.
 
 Oltre alle dashboard create, per ogni utente sono incluse le seguenti dashboard precompilate:
@@ -143,7 +148,7 @@ t_dashboard_content.xml
       Puoi selezionare una metrica, un tipo di grafico, un intervallo di colori e valori di soglia. Se il conteggio delle metriche supera la soglia Maggiore di, il misuratore lo segnala nel minirapporto, utilizzando il colore sopra il campo Maggiore di. Se il conteggio della metrica è al di sotto della soglia Minore di, il misuratore lo segnala nel minirapporto, utilizzando il colore sopra il campo Minore di. I valori specificati in questi campi sono il valore calcolabile della metrica, ad esempio il numero di visualizzazioni di pagina, gli importi in dollari, le viste del carrello e così via. (Non utilizzate caratteri speciali).
    * Riepilogo suite di rapporti: Visualizza una metrica selezionata e i relativi valori totali o alti e bassi per una suite di rapporti.
    * Riepilogo utilizzo: Visualizza i dati relativi all&#39;accesso all&#39;interfaccia da parte delle persone all&#39;interno dell&#39;organizzazione. Questo minirapporto può mostrare i dati per accesso a nome utente, accesso ai rapporti o accesso alla suite di rapporti.
-Potete creare i seguenti rapporti Contenuto utente fornendo gli URL. Se un&#39;immagine o un altro URL di risorse non inizia con https://, gli utenti di Internet Explorer potrebbero visualizzare un messaggio di avviso sui contenuti misti. Potete disattivare l’avviso per contenuti misti nelle impostazioni di protezione del browser.
+Potete creare i seguenti rapporti Contenuto utente fornendo gli URL. Se un&#39;immagine o un altro URL di risorse non inizia con https://, gli utenti di Internet Explorer potrebbero visualizzare un messaggio di avviso relativo ai contenuti misti. Potete disattivare l’avviso per contenuti misti nelle impostazioni di protezione del browser.
    *Contenuto utente:*
 
    * Relazione esterna: Consente di aggiungere un rapporto esterno nei formati .xml e .csv.
@@ -186,9 +191,9 @@ t_dashboard_edit.xml
 
 | A | Procedura |
 |--- |--- |
-| Modificare la suite di rapporti di una dashboard | Fai clic sul menu nell&#39;intestazione di Experience Cloud, quindi seleziona una suite di rapporti. |
+| Modificare la suite di rapporti di una dashboard | Fate clic sul menu nell&#39;intestazione  Experience Cloud, quindi selezionate una suite di rapporti. |
 | Modificare la suite di rapporti di un minirapporto | Nel minirapporto, fai clic sul nome della suite di rapporti, quindi seleziona una suite di rapporti dal [!UICONTROL Report Suite] menu. |
-| Applicazione di un segmento a un dashboard | Nell&#39;intestazione di Experience Cloud, fai clic su [!UICONTROL Show Segments], quindi seleziona un segmento. |
+| Applicazione di un segmento a un dashboard | Nell’intestazione  Experience Cloud, fate clic su [!UICONTROL Show Segments], quindi selezionate un segmento. |
 | Applicazione di un segmento a un minirapporto | Nel dashboard, fate clic su Layout per modificare una dashboard.   Nel minirapporto, fai clic sul nome della suite di rapporti, quindi seleziona un valore dal campo Segmento e fai clic su Aggiorna. |
 | Blocca una suite di rapporti (impedisce la modifica della suite di rapporti in un minirapporto) | Nel minirapporto, fai clic sul nome della suite di rapporti, quindi abilita [!UICONTROL Lock Report Suite]. Fai clic su Aggiorna. |
 | Modificare una data di reporting | Per una dashboard, fai clic sul calendario. Tutti i minirapporti nel dashboard riflettono la modifica.<br>Per un rapporto, fai clic sul collegamento della data, quindi configura il calendario. |
@@ -218,7 +223,7 @@ t_dashboard_branding.xml
 
 ## Utilizzare segmenti con dashboard {#concept_ED030C3713D54D03971FB7B209285750}
 
-Le dashboard, come la maggior parte dei report in Adobe Analytics, possono utilizzare i segmenti per recuperare i dati desiderati.
+Le dashboard, come la maggior parte dei report in Adobe  Analytics, possono utilizzare i segmenti per recuperare i dati desiderati.
 
 <!-- 
 
