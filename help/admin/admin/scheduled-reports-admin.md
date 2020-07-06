@@ -4,7 +4,10 @@ title: Coda dei report pianificati
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,9 @@ Le funzionalità di livello amministratore in Scheduled Reports Manager includon
 
 Nella **[!UICONTROL Report List]** scheda, puoi **[!UICONTROL Show All Scheduled Reports]** entrare nella tua organizzazione, oltre a quelle che hai personalmente pianificato.
 
->[!NOTE] Nella **[!UICONTROL Report Name]** colonna viene visualizzato il nome del rapporto in corso di programmazione e nella **[!UICONTROL File Name]** colonna viene visualizzato il nome di file personalizzato impostato dall&#39;utente in Opzioni di consegna avanzate. Di conseguenza, se si pianificano più rapporti dello stesso tipo e si specificano nomi personalizzati per ciascuno di essi, Gestore report pianificati visualizzerebbe più voci con lo stesso Nome rapporto ma con nomi di file diversi. Questo perché il rapporto di back-end pianificato è lo stesso, quindi la colonna Nome rapporto avrà gli stessi nomi di rapporto per tutti i nomi di file, tranne i nomi personalizzati (come impostato).
+>[!NOTE]
+>
+>Nella **[!UICONTROL Report Name]** colonna viene visualizzato il nome del rapporto in corso di programmazione e nella **[!UICONTROL File Name]** colonna viene visualizzato il nome di file personalizzato impostato dall&#39;utente in Opzioni di consegna avanzate. Di conseguenza, se si pianificano più rapporti dello stesso tipo e si specificano nomi personalizzati per ciascuno di essi, Gestore report pianificati visualizzerebbe più voci con lo stesso Nome rapporto ma con nomi di file diversi. Questo perché il rapporto di back-end pianificato è lo stesso, quindi la colonna Nome rapporto avrà gli stessi nomi di rapporto per tutti i nomi di file, tranne i nomi personalizzati (come impostato).
 
 ![](assets/show_all_scheduled_reports.png)
 
