@@ -3,7 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2099'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +29,7 @@ Data di rilascio: **5 marzo 2020**
 
 Data di rilascio:**21 febbraio 2020**
 
-* È stato aggiornato il modulo Gestione dell&#39;audience a DIL 9.4. (AN-209341)
+* Il modulo Gestione dell&#39;audience è stato aggiornato a DIL 9.4. (AN-209341)
 
 ## Versione 2.18.0
 
@@ -75,8 +78,8 @@ Data di rilascio: **10 aprile 2019**
 
 Data di rilascio: **22 febbraio 2019**
 
-* È stato aggiornato il modulo Gestione dell&#39;audience a DIL 9.1. (AN-175255)
-* Criteri di sicurezza GTM che non consentono il modulo Activity Map. (AN-174679)
+* Il modulo Gestione dell&#39;audience è stato aggiornato a DIL 9.1. (AN-175255)
+* Il criterio di sicurezza GTM non consente l’esecuzione del modulo Activity Map. (AN-174679)
 * AppMeasurement è stato migliorato per rispettare eventuali rinunce (opt-out) quando Identity Service non è approvato in consenso (opt-in). (AN-175259)
 
 ## Versione 2.11.0
@@ -94,7 +97,7 @@ Data di rilascio: **20 settembre 2018**
 Questa versione assicura che la libreria di [!DNL AppMeasurement] esegua correttamente l’invio dei cookie per tutti i tipi di connessione.
 
 * [!DNL AppMeasurement] blocca la trasmissione dei cookie durante richieste POST. (AN-165538)
-* Supporto per XDomainRequest. (AN-165733)
+* È stato interrotto il supporto per XDomainRequest. (AN-165733)
 * In [!DNL AppMeasurement] la durata predefinita del cookie è stata ridotta da cinque a due anni. (AN-158572)
 * È stato rimosso il modulo Media da Code Manager ( [!DNL AppMeasurement]) (AN-166590)
 
@@ -102,7 +105,9 @@ Questa versione assicura che la libreria di [!DNL AppMeasurement] esegua corrett
 
 Data di rilascio: **24 maggio 2018**
 
->[!NOTE]per i clienti che utilizzano il servizio ID è richiesto l’API Visitor 3.0 o la versione successiva[!DNL Experience Cloud]. Adobe consiglia di eseguire l’aggiornamento alla versione più recente dell’API Visitor ogni volta che le librerie di codice associate vengono aggiornate ([!DNL at.js], [!DNL AppMeasurement.js] e così via).
+>[!NOTE]
+>
+>per i clienti che utilizzano il servizio ID è richiesto l’API Visitor 3.0 o la versione successiva[!DNL Experience Cloud]. Adobe consiglia di eseguire l’aggiornamento alla versione più recente dell’API Visitor ogni volta che le librerie di codice associate vengono aggiornate ([!DNL at.js], [!DNL AppMeasurement.js] e così via).
 
 * Il file [!DNL AppMeasurement] è stato aggiornato in modo da utilizzare la versione aggiornata dell’interfaccia Visitor per la richiesta degli ID. (AN-151483)
 * È stato corretto un problema in cui il cookie di tracciamento dei collegamenti viene scritto anche dopo la disattivazione della funzione di tracciamento dei collegamenti. (AN-156332)
@@ -136,7 +141,7 @@ Nuovo bundle dell’API Visitor 3.1.0 (AN-159524), che include gli hot fix: (COR
 
 Data di rilascio: **18 gennaio 2018**
 
-* Eliminazione del supporto per IE da 6 a 9
+* Fine del supporto per IE da 6 a 9
 * Inclusione di Visitor API v3.0.0
 * Inclusione di DIL v7.00
 
@@ -157,7 +162,7 @@ Data di rilascio: **21 settembre 2017**
 
 Data di rilascio: **17 agosto 2017**
 
-* Include dil.js v6.11
+* Inclusa dil.js v6.11
 * Inclusa API Visitor 2.4.0
 
 ## Versione 2.3.0
@@ -180,7 +185,7 @@ Data di rilascio: **20 aprile 2017**
 
 * Inclusa versione aggiornata di `dil.js` (AN-140396)
 * Aggiunto supporto per il parametro `adobe_mc_ref` che si sovrappone al referente pagina. (AN-131920)
-* È Stata Ripresa L&#39;API Visitatore 2.1.0. (AN-140873)
+* API 2.1.0 visitatore nuovamente inclusa. (AN-140873)
 * È stato aggiunto il parametro `mcorgid`. (AN-139586)
 * Aggiunto parametro cp (customerPerspective). (AN-140897)
 
@@ -188,15 +193,15 @@ Data di rilascio: **20 aprile 2017**
 
 Data di rilascio: **9 marzo 2017**
 
-* È stato spostato in un nuovo processo di build che richiede l&#39;aggiornamento del numero di versione a 2.0.0. (AN-137878)
-* È stata spostata la gestione mboxMCSDID nella posizione di sezione corretta in cui viene effettuata la chiamata di tracciamento. (AN-138483)
+* È stato spostato a un nuovo processo di build che richiede un aggiornamento del numero di versione a 2.0.0. (AN-137878)
+* È stata spostata la gestione di mboxMCSDID nella posizione della sezione corretta in cui viene effettuata la chiamata di tracciamento. (AN-138483)
 
 ## Versione 1.8.0
 
 Data di rilascio: **19 gennaio 2017**
 
 * Include Visitor API 2.0.0
-* Sono state nuovamente sequenziate le chiamate di funzioni e i controlli in modo che il codice SDID venga consumato dopo il completamento della verifica di interruzione. (AN-134364)
+* È stata modificata la sequenza di chiamate di funzioni e verifiche in modo che SDID viene consumato dopo il completamento della verifica di interruzione. (AN-134364)
 * È stato aggiunto `s.registerPreTrackCallback` e gli hook di `s.registerPostTrackCallback`. (AN-134567)
 
 ## Versione 1.7.0
@@ -216,7 +221,9 @@ Aggiornato il **18 agosto 2016**
 * Aggiornamento di [!DNL AppMeasurement] per consentire la lettura e scrittura di cookie AMCV. (AN-127098)
 * Inclusione di API Visitor 1.7.0.
 
->[!NOTE] Consulta anche le seguenti note sulla versione per [!DNL JavaScript] versione 1.6.3, che includono i requisiti aggiornati per il servizio Experience Cloud ID.
+>[!NOTE]
+>
+>Consulta anche le seguenti note sulla versione per [!DNL JavaScript] versione 1.6.3, che includono i requisiti aggiornati per il servizio Experience Cloud ID.
 
 ## Versione 1.6.3
 
@@ -224,7 +231,9 @@ Aggiornato il **4 agosto 2016**
 
 * È stato risolto un problema che causava la chiusura anticipata delle connessioni richieste da [!DNL AppMeasurement]. (AN-126448)
 
->[!IMPORTANT] La versione 1.6.0 del servizio ID [!DNL Experience Cloud] *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o superiore. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio Experience Cloud ID, assicurati di utilizzare la versione codice 1.6.3 di [!DNL AppMeasurement] o superiore.
+>[!IMPORTANT]
+>
+>La versione 1.6.0 del servizio ID [!DNL Experience Cloud] *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o superiore. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio Experience Cloud ID, assicurati di utilizzare la versione codice 1.6.3 di [!DNL AppMeasurement] o superiore.
 
 ## Versione 1.6.2
 
@@ -293,7 +302,9 @@ Data di rilascio: **21 maggio 2015**
 * Inclusione di API Visitor 1.4.
 * Il modulo AudienceManagement è stato aggiornato per l’utilizzo di DIL versione 6.0.
 
->[!NOTE] **Problema noto**: nelle integrazioni modulo API Visitor/ [!DNL AppMeasurement] [!DNL Audience Manager], sono disponibili due destinazioni per la pubblicazione delle richieste iFrame effettuate in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. Come visto negli altri browser, la procedura corretta prevede di caricare solo `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**Problema noto**: nelle integrazioni modulo API Visitor/ [!DNL AppMeasurement] [!DNL Audience Manager], sono disponibili due destinazioni per la pubblicazione delle richieste iFrame effettuate in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. Come visto negli altri browser, la procedura corretta prevede di caricare solo `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versione 1.4.4
 
@@ -322,7 +333,7 @@ Data di rilascio: **15 gennaio 2015**
 
 Data di rilascio: **18 settembre 2014**
 
-* Aggiunta di una variabile `tagContainerMarker` che consente l’implementazione per specificare fino a 4 caratteri da aggiungere alla stringa della versione con un delimitatore di caratteri in forma di trattino. Viene utilizzato dalla gestione tag dinamica.
+* Aggiunta di una variabile `tagContainerMarker` che consente l’implementazione per specificare fino a 4 caratteri da aggiungere alla stringa della versione con un delimitatore di caratteri in forma di trattino. La variabile viene utilizzata per la gestione dinamica dei tag.
 
    ```js
    // JavaScript
@@ -332,10 +343,10 @@ Data di rilascio: **18 settembre 2014**
    //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
    ```
 
-   I 4 caratteri sono limitati ai caratteri consentiti nei percorsi dei file URL, come alfanumerici e punto.
+   È possibile utilizzare 4 caratteri consentiti in percorsi di file URL, ad esempio caratteri alfanumerici e punto.
 
-* Correzione di un loop che potrebbe verificarsi durante il monitoraggio automatico dei collegamenti (download e uscita) con monitoraggio forzato dei collegamenti abilitato (impostazione predefinita in browser WebKit) in pagine con doppio tag e codice H. Per evitare tali loop, è stata inoltre aggiunta una protezione automatica generale per il monitoraggio automatico dei collegamenti. Questa protezione limita il monitoraggio automatico dei collegamenti dei clic ripetuti sullo *stesso* oggetto a una volta ogni 10 secondi. Questa protezione si applica solo al tracciamento automatico dei collegamenti, pertanto le chiamate al tracciamento manuale dei collegamenti (s.tl) non sono limitate. Anche i clic su oggetti diversi non vengono interessati da questa protezione e verranno monitorati.
-* È stata corretta la gestione dell&#39;oggetto su cui è stato fatto clic quando era necessario un ritardo.
+* Correzione di un loop che potrebbe verificarsi durante il monitoraggio automatico dei collegamenti (download e uscita) con monitoraggio forzato dei collegamenti abilitato (impostazione predefinita in browser WebKit) in pagine con doppio tag e codice H. Per evitare tali loop, è stata inoltre aggiunta una protezione automatica generale per il monitoraggio automatico dei collegamenti. Questa protezione limita il monitoraggio automatico dei collegamenti di clic ripetuti sullo *stesso* oggetto a una volta ogni 10 secondi. La protezione si applica solo al monitoraggio automatico dei collegamenti, le chiamate al monitoraggio manuale dei collegamenti (s. tl) non sono limitate. La protezione non viene applicata a clic su oggetti diversi, che vengono invece monitorati.
+* Correzione relativa alla gestione di elementi oggetti di clic in caso sia necessario applicare un ritardo.
 * Risoluzione del problema che causava un doppio conteggio pagina-vista in caso di chiamata a s.tl da una funzione di collegamento OnClick, nel caso in cui l’API Visitor non contenesse ancora i valori necessari.
 * Supporto HTTP POST.
 
@@ -349,7 +360,9 @@ Data di rilascio: **21 agosto 2014**
 * Aggiunta del modulo **[!UICONTROL AudienceManagement]** nello zip di download.
 * È stato aggiunto il supporto per eVar (76 - 250) ed eventi aggiuntivi (101-1000).
 
->[!NOTE] H-Code non supporta eVar ed eventi aggiuntivi.
+>[!NOTE]
+>
+>H-Code non supporta eVar ed eventi aggiuntivi.
 
 ## Versione 1.3.2
 
