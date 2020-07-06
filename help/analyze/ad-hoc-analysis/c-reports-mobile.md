@@ -3,7 +3,7 @@ description: Visualizza informazioni sull'accesso ai siti Web da un dispositivo 
 title: Rapporti sui dispositivi mobili
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 0%
@@ -19,11 +19,13 @@ Visualizza informazioni sull&#39;accesso ai siti Web da un dispositivo mobile. I
 
 Visualizza informazioni sull&#39;accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l&#39;identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
 
-Per migliorare l&#39;identificazione dei visitatori per i dispositivi mobili, devi essere nell&#39;elenco del vettore (elenco di autorizzazioni) per l&#39;invio degli ID degli abbonati a un dominio. (È possibile visualizzare il vettore nel rapporto **[!UICONTROL Visitor Profile]** > **[!UICONTROL Domains]** .)
+Per migliorare l&#39;identificazione dei visitatori per i dispositivi mobili, è necessario essere nell&#39;elenco del vettore ( inserire nell&#39;elenco Consentiti) per l&#39;invio degli ID degli abbonati a un dominio. (È possibile visualizzare il vettore nel rapporto **[!UICONTROL Visitor Profile]** > **[!UICONTROL Domains]** .)
 
->[!NOTE] Per visualizzare i rapporti su un dispositivo mobile, accedi a [Experience Cloud](https://login.experiencecloud.adobe.com).
+>[!NOTE]
+>
+>Per visualizzare i rapporti su un dispositivo mobile, accedete al [Experience Cloud](https://login.experiencecloud.adobe.com).
 
-Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il sito [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) .
+Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il sito [Mobile  Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) .
 
 <table id="table_8862E941EF5A41EFB0E7FADEEA86C37D"> 
  <thead> 
@@ -68,7 +70,7 @@ Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporto Profondità colore </p> </td> 
-   <td colname="col2"> <p>Raggruppa gli hit del dispositivo mobile in base al numero di colori supportati. Il rapporto mostra il numero totale di visitatori del sito che hanno utilizzato un dispositivo mobile e li suddivide in gruppi in base al numero di colori configurati nei loro dispositivi mobili. Ad esempio, se il cellulare del visitatore supporta 24 colori, reporting e analisi di marketing incrementa l'elemento di riga corrispondente a 24 colori. </p> </td> 
+   <td colname="col2"> <p>Raggruppa gli hit del dispositivo mobile in base al numero di colori supportati. Il rapporto mostra il numero totale di visitatori del sito che hanno utilizzato un dispositivo mobile e li suddivide in gruppi in base al numero di colori configurati nei loro dispositivi mobili. Ad esempio, se il telefono cellulare del visitatore supporta 24 colori, l’elemento di riga corrispondente a 24 colori viene incrementato dai marketing reports and analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report di supporto audio </p> </td> 
@@ -76,7 +78,7 @@ Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report di supporto video </p> </td> 
-   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai tipi di formati video supportati. Ad esempio, se il dispositivo mobile di un visitatore supporta <span class="filepath"> .mp4</span>, il rapporto <span class="wintitle"> Supporto</span> video incrementa di almeno uno quando accede al sito. Se il telefono supporta più formati immagine (come <span class="filepath"> .mp4</span> e <span class="filepath"> .wmv</span>), ciascuno di questi gruppi nel rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato nella parte inferiore del rapporto. </p> </td> 
+   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai tipi di formati video supportati. Ad esempio, se il dispositivo mobile di un visitatore supporta <span class="filepath"> .mp4</span>, il rapporto <span class="wintitle"> Supporto</span> video incrementa di almeno uno quando accede al sito. Se il telefono supporta più formati immagine (ad esempio <span class="filepath"> .mp4</span> e <span class="filepath"> .wmv</span>), ciascuno di questi gruppi nel rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato nella parte inferiore del rapporto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report DRM </p> </td> 
