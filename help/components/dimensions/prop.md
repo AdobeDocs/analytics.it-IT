@@ -2,7 +2,7 @@
 title: Prop
 description: Una dimensione personalizzata che potete utilizzare nel reporting.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 Le proprietà sono variabili personalizzate che potete utilizzare come desiderate. Non persistono oltre il risultato raggiunto.
 
-> [!TIP] Nella maggior parte dei casi, Adobe consiglia di utilizzare [le eVar](evar.md) . Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia, Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop.
+>[!TIP]
+>
+>Nella maggior parte dei casi, Adobe consiglia di utilizzare [le eVar](evar.md) . Nelle versioni precedenti di Adobe  Analytics, le proprietà eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia, Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop.
 
 Se disponete di un documento [di progettazione di una](/help/implement/prepare/solution-design.md)soluzione, potete allocare queste dimensioni personalizzate a valori specifici dell&#39;organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 75 proprietà.
 
