@@ -1,22 +1,27 @@
 ---
-description: Dettagli sul modello Area di lavoro Analisi e reporting in Reporting e analisi e Generatore di report.
+description: Dettagli sul modello Analysis Workspace  e reporting in Reporting e  Analytics e Generatore di report.
 title: Report sui dati pubblicitari in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 6%
 
 ---
 
 
 # Report sui dati pubblicitari in Adobe Analytics
 
-Dettagli sul modello Area di lavoro Analisi e reporting in Reporting e analisi e Generatore di report.
+Dettagli sul modello Analysis Workspace  e reporting in Reporting e  Analytics e Generatore di report.
 
->[!NOTE] Devi aspettare almeno 24 ore prima che i dati del motore di ricerca inizino a riempire i tuoi report di Analytics. Inoltre, il reporting di Analytics non restituirà i dati per la granularità oraria, perché i dati AMO non supportano la granularità oraria.
+>[!NOTE]
+>
+>Attendere almeno 24 ore prima che i dati del motore di ricerca inizino a essere inseriti nei report Analytics . Inoltre,  report Analytics non restituirà i dati per la granularità oraria, perché i dati AMO non supportano la granularità oraria.
 
-## Analysis Workspace: Motori di ricerca {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+##  Analysis Workspace: Motori di ricerca {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Questo modello consente a chiunque implementa questa integrazione con il motore di ricerca di accedere ai dati copiosi del motore di ricerca in Analytics. Potete accedervi tramite **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]****[!UICONTROL Search Engines.]**
+Questo modello consente a chiunque implementa questa integrazione con Motore di ricerca di accedere ai dati copiosi del motore di ricerca in  Analytics. Potete accedervi tramite **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]** **[!UICONTROL Search Engines.]**
 
 >[!NOTE]
 >
@@ -28,12 +33,12 @@ Questo modello consente a chiunque implementa questa integrazione con il motore 
 |--- |--- |
 | Tendenze della pubblicità | Panoramica con tendenze giornaliere per le impression AMO, i clic AMO e il costo AMO. |
 | Piattaforme pubblicitarie | Grafico ad anello per il costo delle prime 2 piattaforme (Google, Bing). |
-| Totali della piattaforma di annunci | Tabella a forma libera delle piattaforme principali suddivise per Impression AMO, Clic AMO, Costi AMO, Avg AMO. Posizione, AMO Avg. punteggio di qualità. |
+| Aggiungi totali Platform | Tabella a forma libera delle piattaforme principali suddivise per Impression AMO, Clic AMO, Costi AMO, Avg AMO. Posizione, AMO Avg. punteggio di qualità. |
 | Account | Area di costo sovrapposta. |
 | Totali account | Tabella a forma libera degli account principali suddivisa per le metriche associate. |
 | Campagne | Grafico a barre del costo della campagna. |
 | Totali campagna | Tabella a forma libera delle campagne principali suddivise per le metriche associate. |
-| Gruppi | Mappa ad albero del costo. |
+| Groups (Gruppi) | Mappa ad albero del costo. |
 | Totali gruppo | Tabella a forma libera dei principali gruppi pubblicitari suddivisi per le metriche associate. |
 | Annunci | Grafico a barre orizzontale di impression, clic e costi. |
 | Totali annuncio | Tabella a forma libera degli annunci principali suddivisa per le metriche associate. |
@@ -42,10 +47,10 @@ Questo modello consente a chiunque implementa questa integrazione con il motore 
 
 ## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 
-Non appena avrai configurato un account Analisi della pubblicità, il report Analisi della pubblicità sarà disponibile.
+Non appena hai impostato un account Analytics  pubblicità, il report Annuncio  Analytics sarà disponibile.
 
 ![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Non appena avrai configurato un account Analisi della pubblicità, il report Analisi della pubblicità sarà disponibile.
+Non appena hai impostato un account Analytics  pubblicità, il report Annuncio  Analytics sarà disponibile.
