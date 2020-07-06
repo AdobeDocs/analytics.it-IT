@@ -3,7 +3,10 @@ description: La distribuzione di questa integrazione è un processo semplice che
 title: Distribuzione dell'integrazione
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 1%
 
 ---
 
@@ -46,8 +49,8 @@ Per attivare l&#39;integrazione, è necessario completare la procedura guidata d
    <td colname="col2"> Questi sono gli ID per le 8 dimensioni facoltative. Per ulteriori informazioni, vedere Demandbase Custom Dimensions. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Invia ad Adobe Target </td> 
-   <td colname="col2">Se "true", anche le dimensioni Demandbase saranno inviate ad Adobe Target utilizzando una mbox nascosta. <p>Nota:  Per poter raccogliere le dimensioni, è necessario implementare un file mbox.js configurato sulla pagina Web. </p> </td> 
+   <td colname="col1"> Invia a  Adobe Target </td> 
+   <td colname="col2">Se è "true", anche le dimensioni Demandbase vengono inviate al Adobe Target  utilizzando una mbox nascosta. <p>Nota:  Per poter raccogliere le dimensioni, è necessario implementare un file mbox.js configurato sulla pagina Web. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,18 +72,20 @@ Per attivare l&#39;integrazione, è necessario completare la procedura guidata d
 
 ## Distribuzione del codice di integrazione{#deploying-the-integration-code}
 
-Dopo aver completato la procedura guidata di integrazione, devi distribuire il codice di integrazione nel codice di distribuzione di Adobe Analytics (s_code).
+Dopo aver completato la procedura guidata di integrazione, dovete distribuire il codice di integrazione nel codice di distribuzione Adobe  Analytics (s_code).
 
->[!NOTE] Se per distribuire Adobe Analytics avete utilizzato Adobe TagManager o Gestione tag dinamica, potete aggiungere facilmente il codice di integrazione utilizzando uno di questi strumenti.
+>[!NOTE]
+>
+>Se avete utilizzato Adobe TagManager o Gestione tag dinamica per distribuire Adobe  Analytics, potete aggiungere facilmente il codice di integrazione utilizzando uno di questi strumenti.
 
 1. Passate alla **[!UICONTROL Support]** scheda e scaricate e salvate la `integration code v2_0_1` risorsa dall&#39;area Risorse dell&#39;integrazione.
 
 1. Se del caso, apportare le modifiche necessarie al codice. Per ulteriori informazioni, consultate Modifica del codice di integrazione (in questa pagina).
-1. Includete il modulo Integrate se non è già presente nel codice di distribuzione di Adobe Analytics.
+1. Includete il modulo Integrate se non è già presente nel codice di distribuzione Adobe  Analytics.
 1. Distribuite il codice utilizzando uno dei seguenti metodi:
 
    * Utilizza Adobe TagManager o Gestione tag dinamica per aggiungere il codice.
-   * In alternativa, distribuisci il codice alla risorsa organizzativa incaricata di aggiornare il codice di distribuzione di Adobe Analytics.
+   * In alternativa, distribuisci il codice alla risorsa organizzativa incaricata di aggiornare il codice di distribuzione Adobe  Analytics.
 
 >[!IMPORTANT]
 >
@@ -102,7 +107,7 @@ Tuttavia, se è necessario apportare delle modifiche, alcune delle impostazioni 
  <tbody> 
   <tr> 
    <td colname="col1"> s.maxDelay </td> 
-   <td colname="col2">Il numero massimo di millisecondi per cui la richiesta di immagine di Adobe Analytics attenderà i dati Demandbase prima di essere attivata nel server di raccolta di Analytics. <p>Nota:  Questa impostazione si applica a tutte le integrazioni che potrebbero essere in esecuzione tramite il modulo Integrate. </p> </td> 
+   <td colname="col2">Il numero massimo di millisecondi per cui la richiesta di immagini Adobe  Analytics attenderà i dati Demandbase prima di essere attivata sul server di raccolta  Analytics. <p>Nota:  Questa impostazione si applica a tutte le integrazioni che potrebbero essere in esecuzione tramite il modulo Integrate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._key </td> 
@@ -114,23 +119,23 @@ Tuttavia, se è necessario apportare delle modifiche, alcune delle impostazioni 
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Il delimitatore utilizzato per separare i valori delle dimensioni Demandbase quando vengono inviati ad Adobe Analytics. Modificando questa impostazione è possibile che le regole di classificazione predefinite non funzionino correttamente. </td> 
+   <td colname="col2"> Il delimitatore utilizzato per separare i valori delle dimensioni Demandbase quando vengono inviati ad Adobe  Analytics. Modificando questa impostazione è possibile che le regole di classificazione predefinite non funzionino correttamente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
-   <td colname="col2">Se true, il codice di integrazione tenterà di utilizzare una mbox nascosta per inviare le dimensioni Demandbase ad Adobe Target come parametri di profilo. <p>Nota:  Ciò richiede che il codice mbox.js esista sulla pagina. </p> </td> 
+   <td colname="col2">Se true, il codice di integrazione tenterà di utilizzare una mbox nascosta per inviare le dimensioni Demandbase al Adobe Target  come parametri di profilo. <p>Nota:  Ciò richiede che il codice mbox.js esista sulla pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._tntVarPrefix </td> 
-   <td colname="col2"> Questa stringa viene anteposta al nome di ogni dimensione Demandbase prima dell'invio ad Adobe Target. Ad esempio, se questa impostazione ha il valore "db_", la dimensione "industria" verrà inviata ad Adobe Target come "db_Industry". </td> 
+   <td colname="col2"> Questa stringa viene anteposta al nome di ogni dimensione Demandbase prima dell'invio a  Adobe Target. Ad esempio, se questa impostazione ha il valore "db_", la dimensione "industria" verrà inviata al Adobe Target  come "db_Industry". </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._DimensionsArray </td> 
-   <td colname="col2"> Le dimensioni standard di Demandbase inviate ad Adobe Analytics. È consigliabile non modificare questa impostazione. La proprietà "max_size" è il numero di caratteri consentiti per la dimensione prima del troncamento. </td> 
+   <td colname="col2"> Le dimensioni standard di Demandbase inviate ad Adobe  Analytics. È consigliabile non modificare questa impostazione. La proprietà "max_size" è il numero di caratteri consentiti per la dimensione prima del troncamento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._DimensionsArrayCustom </td> 
-   <td colname="col2"> Le dimensioni Demandbase personalizzate che vengono inviate ad Adobe Analytics. La proprietà "max_size" è il numero di caratteri consentiti per la dimensione prima del troncamento. </td> 
+   <td colname="col2"> Le dimensioni Demandbase personalizzate che vengono inviate ad Adobe  Analytics. La proprietà "max_size" è il numero di caratteri consentiti per la dimensione prima del troncamento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._cName </td> 
@@ -138,18 +143,18 @@ Tuttavia, se è necessario apportare delle modifiche, alcune delle impostazioni 
   </tr> 
   <tr> 
    <td colname="col1"> _db._contextName </td> 
-   <td colname="col2"> Nome della variabile contextData utilizzata per inviare le dimensioni standard ad Adobe Analytics. È consigliabile non modificare questa impostazione. </td> 
+   <td colname="col2"> Nome della variabile contextData utilizzata per inviare le dimensioni standard ad Adobe  Analytics. È consigliabile non modificare questa impostazione. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._contextNameCustom </td> 
-   <td colname="col2"> Nome della variabile contextData utilizzata per inviare le dimensioni personalizzate ad Adobe Analytics. È consigliabile non modificare questa impostazione. </td> 
+   <td colname="col2"> Nome della variabile contextData utilizzata per inviare le dimensioni personalizzate ad Adobe  Analytics. È consigliabile non modificare questa impostazione. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Inclusione del modulo Integrate{#including-the-integrate-module}
 
-Il codice di integrazione richiede che il modulo Integrate sia presente nella distribuzione di Adobe Analytics.
+Il codice di integrazione richiede che il modulo Integrate sia presente nella distribuzione Adobe  Analytics.
 
 Se non disponete già del modulo Integrate come parte della distribuzione, completate i seguenti passaggi a seconda del tipo di implementazione disponibile.
 
@@ -182,24 +187,26 @@ Verificare che l&#39;integrazione acquisisca correttamente i dati controllando i
 
 ### Tracciamento live {#section-9c20e8ff6b404ae09387ee07d675c9e2}
 
-Utilizzate lo strumento DigitalPulse Debugger per verificare che i dati della dimensione Demandbase vengano inviati ad Adobe Analytics. Dopo aver eliminato i cookie, ricaricate una pagina del sito Web in cui è stato distribuito il codice di integrazione. Presupponendo che l’IP corrente venga mappato su un’organizzazione riconosciuta da Demandbase, è necessario visualizzare risultati simili a quelli indicati di seguito.
+Utilizzate lo strumento DigitalPulse Debugger per verificare che i dati della dimensione Demandbase vengano inviati ad Adobe  Analytics. Dopo aver eliminato i cookie, ricaricate una pagina del sito Web in cui è stato distribuito il codice di integrazione. Presupponendo che l’IP corrente venga mappato su un’organizzazione riconosciuta da Demandbase, è necessario visualizzare risultati simili a quelli indicati di seguito.
 
-**Reporting e analisi (ex SiteCatalyst) include due variabili di dati contestuali Demandbase:**
+**Reports &amp;  Analytics (ex SiteCatalyst) include due variabili di dati contestuali Demandbase:**
 
 ![](assets/debugger1.png)
 
-**Mbox di Target include i parametri del profilo Demandbase:**
-Questo aspetto verrà visualizzato solo se sulla pagina è stato implementato Target E se l&#39;integrazione è stata configurata per Adobe Target. Consultate il Passaggio 4 nella procedura guidata di integrazione di Adobe.
+**Target Mbox include i parametri del profilo Demandbase:**
+Questo verrà visualizzato solo se Target è stato implementato sulla pagina E l&#39;integrazione è stata configurata per  Adobe Target. Consultate il Passaggio 4 nella procedura guidata di integrazione di Adobe.
 
 ![](assets/debugger2.png)
 
 ### Generazione di rapporti {#section-1792fe75dc3249d0ad063dfd87a89162}
 
-Rivedete i rapporti Demandbase in Adobe Analytics utilizzando il dashboard creato automaticamente tramite la procedura guidata di integrazione Adobe (Passaggio 7).
+Rivedete i rapporti Demandbase in Adobe  Analytics utilizzando il dashboard creato automaticamente tramite la procedura guidata di integrazione Adobe (passaggio 7).
 
-In alternativa, puoi passare al reporting Demandbase nella struttura del menu di Adobe Analytics; vedi le schermate di seguito.
+In alternativa, puoi accedere al report Demandbase nella struttura di menu di Adobe  Analytics, come illustrato di seguito.
 
->[!NOTE] Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
+>[!NOTE]
+>
+>Questi dati devono essere visualizzati entro 24-48 ore dalla distribuzione completata.
 
 ![](assets/reporting1.png)
 
