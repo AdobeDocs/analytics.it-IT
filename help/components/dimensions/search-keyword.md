@@ -2,7 +2,7 @@
 title: Cerca parola chiave
 description: La parola chiave di ricerca utilizzata dal visitatore per raggiungere il sito.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 La dimensione &#39;Ricerca parola chiave&#39; riporta le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito.
 
->[!IMPORTANT] La maggior parte dei motori di ricerca non supera più la parola chiave di ricerca a causa dell’aumento delle pratiche di privacy. Hit in cui Adobe riconosce un motore di ricerca ma non dispone di gruppi di parole chiave sotto il valore della dimensione `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>La maggior parte dei motori di ricerca non supera più la parola chiave di ricerca a causa dell’aumento delle pratiche di privacy. Hit in cui Adobe riconosce un motore di ricerca ma non dispone di gruppi di parole chiave sotto il valore della dimensione `"Keyword unavailable"`.
 
 Per classificare come parola chiave di ricerca un referente deve soddisfare entrambi i seguenti criteri:
 
