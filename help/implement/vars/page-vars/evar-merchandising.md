@@ -2,7 +2,7 @@
 title: eVar (Merchandising)
 description: Variabili personalizzate che si legano a singoli prodotti.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Prima di utilizzare le eVar nell&#39;implementazione, accertati di configurare l&#39;eVar in base alla sintassi desiderata nelle impostazioni della suite di rapporti. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione nella guida di amministrazione.
 
->[!IMPORTANT] Se non si configurano correttamente le eVar di merchandising, la variabile presenta valori imprevisti o perdita di dati. Accertatevi che sia configurato correttamente per l’implementazione.
+>[!IMPORTANT]
+>
+>Se non si configurano correttamente le eVar di merchandising, la variabile presenta valori imprevisti o perdita di dati. Accertatevi che sia configurato correttamente per l’implementazione.
 
 ## Implementa utilizzando la sintassi del prodotto
 
