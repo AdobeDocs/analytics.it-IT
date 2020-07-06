@@ -3,7 +3,10 @@ description: 'null'
 title: Alert Builder (Generatore di avvisi)
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 81%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-Accedi al Generatore di avvisi in quattro modi:
+Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
@@ -29,17 +32,19 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 **Alert Name (Nome avviso)**
 
-Specificate un nome per l’avviso. Il nome dell&#39;avviso può contenere il nome del rapporto o la soglia delle metriche.
+Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o la soglia di metrica.
 
 **Time Granularity (Granularità tempo)**
 
 Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o mese.
 
->[!NOTE] Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
+>[!NOTE]
+>
+>Nelle suite per rapporti con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.
 
 **Recipients (Destinatari)**
 
-Specifica dove può essere inviato l’avviso. Un avviso può essere inviato a un [!DNL Analytics] utente, un [!DNL Analytics] gruppo, un indirizzo e-mail non elaborato o a un numero di telefono.
+Specifica a chi deve essere inviato l’avviso. An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
 
 >[!IMPORTANT]
 >
@@ -57,25 +62,25 @@ Imposta la data di scadenza dell’avviso.
 
    Note that an **&quot;incompatible components&quot;** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
-* Determinare la soglia che la metrica deve superare prima che venga impostato un avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
+* Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
-   * anomalia esistente
-   * anomalia al di sopra del previsto
-   * anomalia al di sotto del previsto
-   * l&#39;anomalia eccede
+   * anomaly exists (l’anomalia esiste)
+   * anomaly is above expected (l’anomalia supera il valore previsto)
+   * l’anomalia è inferiore al valore previsto
+   * l’anomalia eccede
    * è superiore o uguale a
-   * è inferiore o uguale a
-   * modifiche di
+   * is below or equals (è inferiore o uguale a)
+   * cambia di
 
-* &quot;L&#39;anomalia eccede&quot; è una nuova condizione che va oltre le soglie esistenti (statiche). Richiama gli algoritmi di rilevamento delle anomalie che definiscono l’attivatore in modo dinamico. Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
-* Le granularità orarie sono impostate su una soglia del 99,75% e le granularità giornaliere su un valore del 99%.
+* “L’anomalia eccede” è una nuova condizione che va oltre le soglie esistenti (statiche). Richiama gli algoritmi di rilevamento anomalie che definiscono l’attivatore in modo dinamico. Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
+* Le granularità orarie sono impostate con una soglia di 99,75% e quelle giornaliere con una soglia del 99%.
 * È anche possibile utilizzare metriche calcolate.
 
 *... With These Filters (...con questi filtri)*
 
-Trascina segmenti o dimensioni per aggiungere filtri. Ad esempio, se si aggiunge un segmento &quot;Solo dispositivi mobili&quot; la regola viene attivata solo per i dispositivi mobili.
+Trascina segmenti o dimensioni per aggiungere i filtri. Ad esempio, se si aggiunge un segmento “Mobile Devices Only” (Solo dispositivi mobili) la regola viene attivata solo per i dispositivi mobili.
 
-Altri filtri verranno aggiunti utilizzando un&#39;istruzione AND.
+Per aggiungere altri segmenti si utilizza l’operatore AND.
 
 **Aggiungere una regola**
 
@@ -83,10 +88,10 @@ Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio
 
 ## Anteprima avvisi {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso in base all’esperienza passata.
+L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.
 
-Ad esempio, se imposti la granularità dell’ora su Ogni giorno, l’anteprima indicherà che l’avviso sarebbe stato attivato x volte per una metrica specifica negli ultimi 30 o 31 giorni.
+Ad esempio, se imposti la granularità su Ogni giorno, l’anteprima indicherà che l’avviso è stato attivato x volte per una specifica metrica negli ultimi 30 o 31 giorni.
 
-Se si è scoperto che troppi avvisi sarebbero stati attivati, è possibile regolare la soglia nella Gestione [](/help/components/c-alerts/alert-manager.md)avvisi.
+Se sono stati attivati troppi avvisi, puoi regolare la soglia in [Alert Manager](/help/components/c-alerts/alert-manager.md) (Gestione avvisi).
 
 ![](assets/alert_preview.png)
