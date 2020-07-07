@@ -1,22 +1,18 @@
 ---
 description: Quick Insights è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle di dati e visualizzazioni
-title: Pannello Approfondimenti rapidi
+title: Pannello Quick Insights (Approfondimenti rapidi)
 translation-type: tm+mt
-source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
+source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 1%
+source-wordcount: '986'
+ht-degree: 2%
 
 ---
 
 
-# Pannello Approfondimenti rapidi
+# Pannello Quick Insights (Approfondimenti rapidi)
 
->[!IMPORTANT]
->
->**[!UICONTROL Quick Insights]** al momento il test del pannello è limitato. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html)
-
-[!UICONTROL Quick Insights] fornisce indicazioni per i non analisti e i nuovi utenti [!UICONTROL Analysis Workspace] per imparare a rispondere alle domande aziendali in modo rapido e semplice. È anche un ottimo strumento per gli utenti avanzati che desiderano rispondere rapidamente a una semplice domanda senza dover costruire personalmente una tabella.
+[!UICONTROL Quick Insights] fornisce indicazioni ai non analisti e ai nuovi utenti di per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [!UICONTROL Analysis Workspace] È anche un ottimo strumento per gli utenti avanzati che desiderano rispondere rapidamente a una semplice domanda senza dover costruire personalmente una tabella.
 
 Quando inizi a utilizzare questo [!UICONTROL Analysis Workspace], potresti chiederti quali visualizzazioni sarebbero più utili, quali dimensioni e metriche potrebbero facilitare le informazioni, dove trascinare e rilasciare elementi, dove creare un segmento, ecc.
 
@@ -40,13 +36,13 @@ Di seguito sono riportati alcuni dei termini di base con cui hai bisogno di aver
 | [!UICONTROL Dimension] | Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un progetto. Sono valori non numerici e date che si suddividono in elementi dimensione. Ad esempio, &quot;browser&quot; o &quot;pagina&quot; sono dimensioni. |
 | [!UICONTROL Dimension item] | Gli elementi dimensione sono valori singoli per una dimensione. Ad esempio, gli elementi dimensionali per la dimensione del browser sarebbero &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, ecc. |
 | [!UICONTROL Metric] | Le metriche sono informazioni quantitative sull&#39;attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, unità, ordini, ricavi e così via. |
-| [!UICONTROL Visualization] | Workspace offre [diverse visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri elementi. |
+| [!UICONTROL Visualization] | Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. |
 | [!UICONTROL Dimension Breakdown] | Una suddivisione delle dimensioni è un modo per suddividere letteralmente una dimensione per altre dimensioni. Nel nostro esempio, potresti suddividere gli Stati Uniti per dispositivi mobili per ottenere le visite dei dispositivi mobili per stato, oppure potresti suddividere i dispositivi mobili per tipo di dispositivo mobile, per regioni, per campagne interne, ecc. |
 | [!UICONTROL Segment] | I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti Web. Ad esempio, puoi creare [!UICONTROL Visitor] segmenti in base agli attributi: tipo di browser, dispositivo, numero di visite, paese, genere o in base alle interazioni: campagne, ricerca di parole chiave, motore di ricerca o in base a uscite e voci: visitatori da Facebook, una pagina di destinazione definita, un dominio di riferimento o basati su variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
 ## Guida introduttiva a Approfondimenti rapidi
 
-1. Effettuate l&#39;accesso ad Adobe Analytics utilizzando le credenziali fornite.
+1. Effettuate l&#39;accesso ad Adobe  Analytics utilizzando le credenziali fornite.
 1. Vai a [!UICONTROL Workspace] e fai clic **[!UICONTROL Create New Project]** e fai clic su **[!UICONTROL Quick Insights]**. Potete inoltre accedere a questo pannello dal **[!UICONTROL Panel]** menu nella barra a sinistra.
 
    ![](assets/qibuilder.png)
