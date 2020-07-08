@@ -6,9 +6,9 @@ title: Riferimento colonna dati
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3664'
 ht-degree: 3%
 
 ---
@@ -267,7 +267,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `visid_low` | Utilizzata in combinazione con visid_high per identificare in modo univoco un visitatore. | bigint non firmato |
 | `visid_new` | Flag per identificare se l’hit contiene un ID visitatore appena generato. | char(1) |
 | `visid_timestamp` | Se l’ID visitatore è stato appena generato, fornisce la marca temporale (in Unix ora) di quando è stato generato l’ID visitatore. | int |
-| `visid_type` | ID numerico che rappresenta il metodo utilizzato per identificare il visitatore. <br>0: ID visitatore personalizzato <br>1: Fallback IP e agente utente <br>2: Intestazione <br>3 utente con sottoscrizione HTTP Mobile: Valore cookie legacy (s_vi) <br>4: Valore cookie di fallback (s_fid) <br>5: Servizio identità | tinyint non firmato |
+| `visid_type` | Non per uso esterno; utilizzata internamente da Adobe per l&#39;elaborazione delle ottimizzazioni. ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>0: ID visitatore personalizzato o Sconosciuto/non applicabile<br>1: Fallback IP e agente utente <br>2: Intestazione <br>3 utente con sottoscrizione HTTP Mobile: Valore cookie legacy (s_vi) <br>4: Valore cookie di fallback (s_fid) <br>5: Servizio identità | tinyint non firmato |
 | `visit_keywords` | Variabile utilizzata nella dimensione Parola chiave di ricerca. Questa colonna utilizza un limite di caratteri non standard per adattarlo alla logica di back-end utilizzata da Adobe. | varchar(244) |
 | `visit_num` | Variabile utilizzata nella dimensione Numero visita. Inizia da 1 e incrementa ogni volta che inizia una nuova visita per visitatore. | int non firmato |
 | `visit_page_num` | Variabile utilizzata nella dimensione Profondità hit. Aumenta di 1 per ogni hit generato dall’utente. Ripristina ogni visita. | int non firmato |
