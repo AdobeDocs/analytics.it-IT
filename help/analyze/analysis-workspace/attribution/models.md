@@ -2,10 +2,10 @@
 title: Modelli di attribuzione e finestre di lookback
 description: Differenze tra i diversi tipi di attribuzione tra i valori delle dimensioni.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 92%
+source-wordcount: '1483'
+ht-degree: 93%
 
 ---
 
@@ -42,10 +42,6 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback del visitatore considera tutti i valori dall&#39;inizio del mese dell&#39;intervallo di date del report. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
 * **Finestra di lookback personalizzata:** Consente di espandere la finestra di attribuzione oltre l&#39;intervallo di date del rapporto fino a un massimo di 90 giorni. Le finestre di lookback personalizzate vengono valutate per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, una finestra di lookback di 10 giorni valuterà tutti i punti di contatto di dimensione dal 10 al 20 febbraio nel modello di attribuzione.
-
->[!NOTE]
->
->**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, consultate [Adobe  Analytics feature Release](/help/landing/an-releases.md) .
 
 ## Esempio
 
