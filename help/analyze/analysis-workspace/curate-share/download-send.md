@@ -3,7 +3,10 @@ description: Puoi scaricare progetti salvati e non, in formato PDF e CSV.
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 62%
 
 ---
 
@@ -24,14 +27,15 @@ Nota bene:
 1. Crea o apri un progetto.
 1. Fai clic su **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Download CSV (or Download PDF).]** (Scarica CSV (o Scarica PDF))
 
-A partire dall’11 aprile 2019 sono state apportate diverse modifiche a **[!CSV download]** (e **[!CCopia negli Appunti]**) da Analysis Workspace, per rimuovere la formattazione dai dati esportati.
-* Il separatore di migliaia non è più incluso. Il separatore decimale continua a essere incluso e si attiene al formato definito in **[!UICONTROL Components > Report Settings > Thousands Separator]** (Componenti > Impostazioni report > Separatore delle migliaia).
+On April 11, 2019, several changes were made to **[!UICONTROL CSV downloads]** (and **[!UICONTROL Copy to Clipboard]**) from Analysis Workspace to remove formatting from exported data.
+* L&#39;oggetto non **[!UICONTROL Thousands Separator]** è più incluso. Il separatore decimale continua a essere incluso e si attiene al formato definito in **[!UICONTROL Components > Report Settings > Thousands Separator]** (Componenti > Impostazioni report > Separatore delle migliaia).
 * Non vengono visualizzati simboli di valuta.
 * Non vengono visualizzati simboli di percentuale.
 * Le percentuali sono espresse in forma decimale. Ad esempio, 75% è rappresentato da 0,75.
 * Il tempo viene visualizzato in secondi.
 * Le tabelle di coorte mostrano solo valori non elaborati. Le percentuali sono rimosse.
 * Se un numero non è valido, viene visualizzata una cella vuota.
+* Non viene applicato alcun arrotondamento (anche se specificato in una metrica calcolata); vengono visualizzati valori non elaborati.
 
 >[!NNota:]
 >
