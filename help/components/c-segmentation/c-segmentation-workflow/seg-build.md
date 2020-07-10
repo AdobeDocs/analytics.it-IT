@@ -4,10 +4,10 @@ title: Generare segmenti
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 2%
+source-wordcount: '1937'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 
 Puoi aggiungere definizioni di regole e contenitori per definire i tuoi segmenti.
 
-![](assets/segment_builder_ui.png)
+![](assets/segment_builder_ui_2.png)
 
 1. **[!UICONTROL Title]**: Denominate il segmento.
 1. **[!UICONTROL Description]**: Fornire una descrizione per il segmento.
@@ -40,11 +40,15 @@ Puoi aggiungere definizioni di regole e contenitori per definire i tuoi segmenti
    * **[!UICONTROL + Add container]**: Consente di aggiungere un nuovo contenitore (sotto il contenitore di primo livello) alla definizione del segmento.
    * **[!UICONTROL Exclude]**: Consente di definire il segmento escludendo una o più dimensioni, segmenti o metriche.
 
+1. **[!UICONTROL Dimensions]**: I componenti vengono trascinati e omessi dall’elenco Dimensioni (barra laterale arancione).
+1. **[!UICONTROL Operator]**: È possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
+1. **[!UICONTROL Value]**: Il valore immesso o selezionato per la dimensione o il segmento o la metrica.
 1. **[!UICONTROL Attribution Models]**: Disponibile solo per le dimensioni, questi modelli determinano i valori di una dimensione per cui eseguire il segmento. I modelli dimensionali sono particolarmente utili nella segmentazione sequenziale.
 
    * **[!UICONTROL Repeating]** (predefinito): Include istanze e valori persistenti per la dimensione.
    * **[!UICONTROL Instance]**: Include le istanze per la dimensione.
    * **[!UICONTROL Non-repeating instance]**: Include istanze univoche (non ripetute) per la dimensione. Questo è il modello applicato in Flusso quando le istanze ripetute sono escluse.
+
    ![](assets/attribution-models.jpg)
 
    **Esempio: Segmento di hit in cui eVar1 = A**
@@ -54,16 +58,13 @@ Puoi aggiungere definizioni di regole e contenitori per definire i tuoi segmenti
    | Ripetizione | X | X | X | - | X | - |
    | Istanza | X | X | - | - | X | - |
    | Istanza non ripetuta | X | - | - | - | X | - |
-
-1. **[!UICONTROL Operator]**: È possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
-1. **[!UICONTROL Dimensions]**: Le dimensioni vengono trascinate e rilasciate dall&#39;elenco Dimensioni (barra laterale arancione).
-1. **[!UICONTROL Value]**: Il valore immesso o selezionato per la dimensione o il segmento o la metrica.
 1. **[!UICONTROL And/Or/Then]**: Assegna gli [!UICONTROL AND/OR/THEN] operatori tra contenitori o regole. L&#39;operatore THEN consente di [definire segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)sequenziali.
 1. **[!UICONTROL Metric]**: (Barra laterale verde) Metrica trascinata e rilasciata dall’elenco Metriche.
 1. **[!UICONTROL Comparison]** operatore: È possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
 1. **[!UICONTROL Value]**: Il valore immesso o selezionato per la dimensione o il segmento o la metrica.
 1. **[!UICONTROL X]**: (Elimina) Consente di eliminare questa parte della definizione del segmento.
-1. **[!UICONTROL Save]** o **[!UICONTROL Cancel]**: Salva o annulla il segmento. Dopo aver fatto clic su **[!UICONTROL Save]**, si passa al gestore segmenti dove è possibile gestire il segmento.
+1. **[!UICONTROL Experience Cloud publishing]**: La pubblicazione di un segmento di Adobe  Analytics nell’Experience Cloud  consente di utilizzare il segmento per attività di marketing in [!DNL Audience Manager] e in altri canali di attivazione. [Ulteriori informazioni...](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL Audience library]**: I servizi di pubblico di Adobe gestiscono la trasformazione dei dati dei visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all&#39;uso dei segmenti, e in più permettono di condividere i segmenti di pubblico in Experience Cloud. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Cerca l’elenco di dimensioni, segmenti o metriche.
 1. **[!UICONTROL Dimensions]**: (Elenco) Fate clic sull’intestazione per espanderla.
 1. **[!UICONTROL Metrics]**: Fate clic sull’intestazione da espandere.
@@ -71,10 +72,9 @@ Puoi aggiungere definizioni di regole e contenitori per definire i tuoi segmenti
 1. **[!UICONTROL Report suite selector]**: Consente di selezionare la suite di rapporti in cui verrà salvato il segmento. Puoi comunque utilizzare il segmento in tutte le suite di rapporti.
 1. **[!UICONTROL Segment Preview]**: Consente di visualizzare in anteprima le metriche chiave per verificare se esiste un segmento valido e quanto ampio è il segmento. Rappresenta la suddivisione del set di dati che si prevede di vedere se si applica questo segmento. Mostra 3 cerchi concentrici e un elenco per mostrare il numero e la percentuale di corrispondenze per [!UICONTROL Hits], [!UICONTROL Visits]e [!UICONTROL Visitors] per un segmento eseguito rispetto a un set di dati. Questo grafico viene aggiornato immediatamente dopo che hai creato o modificato la definizione del segmento.
 1. **[!UICONTROL Product Compatibility]**: Fornisce un elenco dei prodotti Adobe  Analytics ( Analysis Workspace, [!UICONTROL Reports & Analytics], , Data warehouse) con cui è compatibile il segmento creato. La maggior parte dei segmenti è compatibile con tutti i prodotti. Tuttavia, non tutti gli operatori e le dimensioni sono compatibili con tutti  prodotti Analytics, in particolare [Data warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Questo grafico viene aggiornato immediatamente dopo che sono state apportate modifiche alla definizione del segmento.
+1. **[!UICONTROL Save]** o **[!UICONTROL Cancel]**: Salva o annulla il segmento. Dopo aver fatto clic su **[!UICONTROL Save]**, si passa al gestore segmenti dove è possibile gestire il segmento.
 
 Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports & Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports & Analytics] gives you the intersection of the report date range and the segment&#39;s embedded date range.
-
-**[!UICONTROL Experience Cloud Publishing]**: (Non visualizzato sullo schermo) Questa opzione viene visualizzata solo se la suite di rapporti in cui si sta salvando questo segmento è [abilitata per l&#39;Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Pubblicando un segmento nell&#39;Experience Cloud , puoi utilizzare il segmento per l&#39;attività di marketing in [!UICONTROL Audience Library], [!DNL Target], e [!DNL Audience Manager]. [Ulteriori](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-publish.html) informazioni sulla pubblicazione  Experience Cloud.
 
 ## Generare segmenti {#build-segments}
 
@@ -129,7 +129,7 @@ L&#39;impilamento dei segmenti funziona combinando i criteri in ciascun segmento
 
 Ad esempio, l&#39;impilamento di un segmento &quot;utenti di telefoni cellulari&quot; e di un segmento &quot;geografia USA&quot; restituirebbe i dati solo agli utenti di telefoni cellulari negli Stati Uniti.
 
-Considera questi segmenti come elementi costitutivi o moduli che possono essere inclusi in una libreria di segmenti, affinché gli utenti possano utilizzarli nel modo desiderato. In questo modo, puoi ridurre notevolmente il numero di segmenti necessari. Ad esempio, supponiamo di avere 40 segmenti:
+Considera questi segmenti come blocchi o moduli di base che possono essere inclusi in una libreria di segmenti, affinché gli utenti possano utilizzarli nel modo desiderato. In questo modo, puoi ridurre notevolmente il numero di segmenti necessari. Ad esempio, supponiamo di avere 40 segmenti:
 
 * 20 per gli utenti di telefoni cellulari in diversi paesi (US_mobile, Germany_mobile, France_mobile, Brasile_mobile, ecc.)
 * 20 per gli utenti di tablet in diversi paesi (US_tablet, Germany_tablet, France_tablet, Brasile_tablet, ecc.)
