@@ -2,9 +2,9 @@
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 78%
 
 ---
@@ -149,7 +149,7 @@ Per condividere la scorecard con un utente esecutivo:
 
 Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## Aiutare gli utenti esecutivi a configurare l’app
 
@@ -163,7 +163,7 @@ Per aiutare gli utenti esecutivi ad accedere alle tue scorecard nell’app, assi
 * Abbiano un accesso valido ad Adobe Analytics
 * Sono state create correttamente delle scorecard mobili per loro e sono state condivise queste scorecard con loro
 * Abbiano accesso all’Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
-* Abbiano accesso ai Componenti che la scorecard include. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* Abbiano accesso ai Componenti che la scorecard include. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### Assistenza agli utenti con l&#39;app
 
