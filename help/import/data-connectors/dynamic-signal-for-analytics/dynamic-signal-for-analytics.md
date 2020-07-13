@@ -1,34 +1,41 @@
 ---
 description: 'null'
-title: Connettore dati VoiceStorm del segnale dinamico per Adobe Analytics
+title: Connettore dati Dynamic Signal VoiceStorm per Adobe Analytics
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 8%
 
 ---
 
 
-# Connettore dati VoiceStorm del segnale dinamico per Adobe Analytics{#dynamic-signal-voicestorm-data-connector-for-adobe-analytics}
+# Connettore dati Dynamic Signal VoiceStorm per Adobe Analytics{#dynamic-signal-voicestorm-data-connector-for-adobe-analytics}
 
-Questa integrazione di Adobe® Data Connectors combina le funzionalità di marketing basate sulle persone della piattaforma VoiceStorm per il segnale dinamico con le informazioni sull'esperienza digitale di Adobe Analytics. Il risultato è una nuova potente opportunità di analisi e ottimizzazione.
+>[!IMPORTANT]
+>
+>La tecnologia Adobe Data Connector terminerà a metà del 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
-Quando i tuoi dipendenti e clienti promuovono il tuo marchio tramite VoiceStorm, restituiranno i risultati alle tue esperienze web di proprietà. Ora puoi misurare l'incremento di queste attività tramite una soluzione integrata di monitoraggio e reporting in Adobe Analytics.
+Questa integrazione di Adobe® Data Connectors combina le funzionalità di marketing basate sulle persone del Platform VoiceStorm del segnale dinamico con le informazioni sull&#39;esperienza digitale di Adobe  Analytics. Il risultato è una nuova potente opportunità di analisi e ottimizzazione.
+
+Quando i tuoi dipendenti e clienti promuovono il tuo marchio tramite VoiceStorm, restituiranno i risultati alle tue esperienze web di proprietà. Ora puoi misurare l&#39;incremento di queste attività tramite una soluzione integrata di monitoraggio e reporting in Adobe  Analytics.
 
 ## Vantaggi e funzionalità principali{#key-benefits-and-features}
 
 Illustra i 3 vantaggi principali di Dynamic Signal VoiceStorm.
 
 * Flusso di lavoro semplificato grazie alla generazione di codice di tracciamento automatizzata per i contenuti condivisi tramite VoiceStorm.
-* Sincronizzazione giornaliera automatizzata delle dimensioni del contenuto VoiceStorm tra e Adobe Analytics.
+* Sincronizzazione giornaliera automatizzata delle dimensioni del contenuto VoiceStorm tra Adobe e Adobe  Analytics.
 * Nuovi report Traffic and Conversion (Traffico e conversione) attribuiti direttamente a cui contenuti, autori e condivisori promuovono attivamente il tuo marchio.
 
-## Prerequisiti per l'integrazione{#integration-prerequisites}
+## Prerequisiti per l&#39;integrazione{#integration-prerequisites}
 
 Elenca i prerequisiti per i clienti Adobe e Dynamic Signal.
 
 ### Prerequisiti per i clienti Adobe {#section-b8a0b4f9b41649a68513f80397fb10e0}
 
-* Deve essere un cliente Adobe Analytics corrente.
+* Deve essere un cliente Adobe  Analytics corrente.
 * Deve essere un utente amministratore di Adobe Experience Cloud con autorizzazioni per abilitare i Connettori dati.
 * Deve essere presente almeno una variabile eVar disponibile e abilitata nella suite di rapporti.
 
