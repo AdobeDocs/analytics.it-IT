@@ -37,12 +37,14 @@ Per abilitare la cura dei componenti,
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * API di reportistica di Analytics
+
    Una volta selezionato, puoi aggiungere i componenti che desideri includere nella suite di rapporti virtuali trascinando i componenti applicabili dalla colonna &quot;Componenti esclusi&quot; alla colonna &quot;Componenti inclusi&quot;. I componenti che possono essere inclusi ed esclusi sono:
 
    * Dimensioni
    * Metriche
    * Segmenti
    * Intervalli di date
+
    >[!NOTE]
    >
    >There is no need to *share* curated components (segments, calculated metrics, date ranges). Saranno sempre visibili in  Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
