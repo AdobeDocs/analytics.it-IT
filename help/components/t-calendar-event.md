@@ -35,6 +35,7 @@ Per i report con tendenze nel tempo, puoi visualizzare in modo grafico gli event
    1. Fai clic su **[!UICONTROL Push To Users]**.
    1. Fai clic su **[!UICONTROL Check All]** o controlla la casella accanto al nome utente.
    1. Fai clic su **[!UICONTROL Save]**.
+
    In questo modo gli eventi del calendario sono maggiormente utilizzabili. Analytics ora può forzare una sovrapposizione nel report dell&#39;utente per fornire più contesto.
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. In **[!UICONTROL Shared Calendar Events]**, specifica una delle seguenti opzioni:
