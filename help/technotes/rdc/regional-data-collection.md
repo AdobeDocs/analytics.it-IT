@@ -2,10 +2,10 @@
 title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
 translation-type: tm+mt
-source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 3%
+source-wordcount: '471'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud utilizza la raccolta dati regionale (RDC) in modo che le 
 
 >[!IMPORTANT]
 >
->Il pacchetto aggiuntivo China RDC (China Performance Optimization) è un componente aggiuntivo caricabile per Adobe  Analytics. Per ulteriori informazioni, contattate il rappresentante commerciale di Adobe.
+>Il pacchetto aggiuntivo China RDC (China Performance Optimization) è un componente aggiuntivo caricabile per Adobe  Analytics. La funzione di ottimizzazione delle prestazioni di Adobe nel continente cinese consente ai clienti cinesi di inviare dati direttamente al nodo Edge della Cina, anziché ad altre ubicazioni a livello globale. Questo migliora i tempi di caricamento delle pagine e la precisione dei dati rispetto all&#39;invio dei dati a nodi esterni alla Cina. Per ulteriori informazioni, contattate il rappresentante commerciale di Adobe.
 
 RDC attualmente include le seguenti posizioni (soggette a modifica):
 
