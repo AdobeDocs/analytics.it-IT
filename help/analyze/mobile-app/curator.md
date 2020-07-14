@@ -2,7 +2,7 @@
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
+source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 78%
@@ -145,7 +145,7 @@ Per condividere la scorecard con un utente esecutivo:
 
 3. Fai clic su **Condividi**.
 
-![Condividere_scorecard](assets/new_share.png)
+![Condividere_scorecard](assets/new_share2.png)
 
 Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
