@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -79,19 +79,19 @@ ht-degree: 96%
       + [Mappa ad albero](analysis-workspace/visualizations/treemap.md)
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
-      + [Pannello Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [pannello Analytics per Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + [Pannello Approfondimenti rapidi](analysis-workspace/c-panels/quickinsight.md)
+      + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
       + Segment comparison panel {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Cura o condividi progetti {#curate-share}
-      + [Cura progetti Workspace](analysis-workspace/curate-share/curate.md)
-      + [Condivisione di progetti Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Visualizza progetti Workspace](analysis-workspace/curate-share/view-only-projects.md)
+   + Curare o condividere progetti {#curate-share}
+      + [Curare progetti Workspace](analysis-workspace/curate-share/curate.md)
+      + [Condividere progetti Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Progetti Workspace solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Condividere e programmare file di progetto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Invio di file: programmazione di un progetto per la consegna](analysis-workspace/curate-share/t-schedule-report.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [Confronto tra Analysis Workspace e Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limiti di Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisiti di amministrazione](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accessibilità in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accessibilità di Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Aiuto per Adobe Report Builder](report-builder/home.md)
    + [Scopri le novità di Report Builder](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [Target](reports-analytics/targets.md)
    + [Avvisi](reports-analytics/alerts.md)
    + [Eventi calendario](reports-analytics/t-calendar-event.md)
-   + [Richieste di Data Warehouse](reports-analytics/data-warehouse.md)
    + [Domande frequenti](reports-analytics/frequently-asked-questions.md)
    + [Risoluzione dei problemi](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
@@ -336,7 +335,7 @@ ht-degree: 96%
 + Labs {#tech-previews}
    + [Panoramica di Labs](tech-previews/overview.md)
 + Dashboard di Adobe Analytics {#mobapp}
-   + [Dashboard di Adobe Analytics - Panoramica](mobile-app/home.md)
+   + [Dashboard di Adobe  Analytics - Panoramica](mobile-app/home.md)
    + [Guida per curatori](mobile-app/curator.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
 + App web progressive {#pwa}
