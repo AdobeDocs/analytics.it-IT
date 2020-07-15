@@ -4,9 +4,9 @@ title: Creare segmenti sequenziali
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3688'
 ht-degree: 2%
 
 ---
@@ -138,7 +138,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
 
 L&#39;aggiunta di più [!UICONTROL Hit] contenitori all&#39;interno di un [!UICONTROL Visitor] contenitore consente di utilizzare gli operatori appropriati tra lo stesso tipo di contenitori e di utilizzare regole e dimensioni quali Pagina e Numero visita per definire la visualizzazione della pagina e fornire una dimensione di sequenza all&#39;interno del [!UICONTROL Hit] contenitore. L’applicazione della logica a livello di Hit consente di vincolare e combinare le corrispondenze a uno stesso livello di hit all’interno del [!UICONTROL Visitor] contenitore per creare una serie di tipi di segmenti.
 
-**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (nella pagina D dell’esempio), quindi hanno visitato la pagina B o la pagina C senza tenere conto del numero di visite.
+**Esempio**: I visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (pagina D nell’esempio), quindi hanno visitato la pagina B o la pagina C, senza tenere conto del numero di visite.
 
 **Casi d&#39;uso**
 
@@ -165,7 +165,7 @@ Posizionando i punti di controllo sia a livello [!UICONTROL Visit] che [!UICONTR
 
 **Crea questo segmento**
 
-1. Sotto un contenitore di livello principale, [!UICONTROL Visit] trascinate in due dimensioni di pagina.
+1. Sotto un contenitore di [!UICONTROL Visit] livello principale, trascinate in due dimensioni di pagina.
 1. Selezionate entrambe le regole, fate clic su **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]** e modificatelo in un [!UICONTROL Visit] contenitore.
 1. Unitevi a loro con un [!UICONTROL THEN] operatore.
 1. Crea un contenitore Hit come peer per il [!UICONTROL Visit] contenitore e trascina in una dimensione di pagina.
@@ -262,9 +262,9 @@ I gruppi logici possono sembrare scoraggianti: ecco alcune best practice per uti
 Se si desidera raggruppare i checkpoint sequenziali, il &quot;contenitore&quot; è il gruppo logico. Tuttavia, se tali checkpoint sequenziali devono verificarsi all&#39;interno di un singolo hit o di un ambito di visita, è necessario un contenitore &quot;hit&quot; o &quot;visit&quot;. (Naturalmente, l&#39;hit non ha senso per un gruppo di checkpoint sequenziali, quando un hit può accreditare non più di un checkpoint).
 
 **I gruppi logici semplificano la creazione di segmenti sequenziali?**
-Sì, possono. Supponiamo che tu stia cercando di rispondere a questa domanda: **Un visitatore ha visto la pagina B, la pagina C o la pagina D dopo la pagina A?**
+Sì, possono. Supponiamo che tu stia cercando di identificare questo segmento di visitatori: **Visitatori che hanno visualizzato la pagina A, quindi hanno visualizzato ciascuna delle pagine di B, C e D**
 
-È possibile creare questo segmento senza un contenitore del gruppo logico, ma è complesso e laborioso:
+È possibile creare questo segmento senza un contenitore del gruppo logico, ma è complesso e laborioso. Dovete specificare ogni sequenza di pagine che il visitatore può visualizzare:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
@@ -326,7 +326,7 @@ Creare segmenti utilizzando le [!UICONTROL Logic Group] visualizzazioni di più 
 
 **Crea questo segmento**
 
-Crea questo segmento trascinando Dimensioni, Eventi e Segmenti predefiniti dai riquadri a sinistra. Vedere [Creazione di un segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)di gruppo logico.
+Crea questo segmento trascinando Dimensioni, Eventi e Segmenti pregenerati dai riquadri a sinistra. Vedere [Creazione di un segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)di gruppo logico.
 
 Dopo aver nidificato i valori all’interno del [!UICONTROL Logic Group], fate clic sul **[!UICONTROL Exclude]** pulsante all’interno del [!UICONTROL Logic Group] contenitore.
 
@@ -342,7 +342,7 @@ Creare segmenti utilizzando le [!UICONTROL Logic Group] visualizzazioni di più 
 
 Le pagine B e C iniziali sono identificate in un [!UICONTROL Logic Group] contenitore escluso, quindi seguite da un hit per la pagina A da parte del visitatore.
 
-Crea questo segmento trascinando Dimensioni, Eventi e Segmenti predefiniti dai riquadri a sinistra.
+Crea questo segmento trascinando Dimensioni, Eventi e Segmenti pregenerati dai riquadri a sinistra.
 
 Dopo aver nidificato i valori all’interno del [!UICONTROL Logic Group], fate clic sul **[!UICONTROL Exclude]** pulsante all’interno del [!UICONTROL Logic Group] contenitore.
 
