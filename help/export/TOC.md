@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: ht
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+translation-type: tm+mt
+source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 94%
 
 ---
 
@@ -63,3 +66,6 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [Invio di dati Adobe a un account FTP esterno tramite SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Invio di richieste di Data Warehouse a server SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Connessione ad Adobe tramite SFTP senza password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
++ [Download di  Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [API Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
++ [Report Builder](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html)
