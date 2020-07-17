@@ -23,7 +23,7 @@ Supponi di avere i dati seguenti:
 
 | Etichette | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome variabile **<br>**(Namespace)** | **MyProp1 **<br>**(utente)** | **ID visitatore **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
+| **Nome variabile**<br>**(Namespace)** | **MyProp1**<br>**(utente)** | **ID visitatore**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
