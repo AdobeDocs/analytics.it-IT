@@ -3,7 +3,7 @@ description: Le suite di rapporti virtuali possono essere curate per includere e
 title: Cura dei componenti di suite di rapporti virtuali
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 15%
@@ -36,6 +36,7 @@ Per abilitare la cura dei componenti,
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
+   * [!UICONTROL Activity Map]
    * API di reportistica di Analytics
 
    Una volta selezionato, puoi aggiungere i componenti che desideri includere nella suite di rapporti virtuali trascinando i componenti applicabili dalla colonna &quot;Componenti esclusi&quot; alla colonna &quot;Componenti inclusi&quot;. I componenti che possono essere inclusi ed esclusi sono:
