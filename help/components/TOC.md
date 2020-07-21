@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 67%
+source-wordcount: '632'
+ht-degree: 65%
 
 ---
 
@@ -205,9 +205,13 @@ ht-degree: 67%
       + [Gestione delle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-manage.md)
       + [Visualizzazione delle informazioni sulle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-view.md)
 + Analytics tra dispositivi {#cda}
-   + [Panoramica di Analytics tra dispositivi](cda/cda-home.md)
-   + [Configurazione di Analytics tra dispositivi](cda/cda-setup.md)
-   + [Domande frequenti su Analytics tra dispositivi](cda/cda-faq.md)
+   + [Panoramica di Analytics tra dispositivi](cda/overview.md)
+   + [Cuciture basate sul campo](cda/field-based-stitching.md)
+   + [Grafico del dispositivo](cda/device-graph.md)
+   + [Configurare  Analytics cross-device](cda/setup.md)
+   + [Come si riproduce il funzionamento](cda/replay.md)
+   + [Modello di area di lavoro CDA](cda/workspace-template.md)
+   + [Domande frequenti su Analytics tra dispositivi](cda/faq.md)
 + Avvisi {#alerts}
    + [Avvisi intelligenti](c-alerts/intellligent-alerts.md)
    + [Alert Builder (Generatore di avvisi)](c-alerts/alert-builder.md)
