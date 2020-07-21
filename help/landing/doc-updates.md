@@ -3,10 +3,10 @@ title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Aggiornamenti rilevanti dell’archivio della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: de7783174d55c03ac73140e8ab05005284788459
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Data | Descrizione |
 |---|---|
+| 21 luglio 2020 | Aggiornamenti e revisioni principali a [cross-device  Analytics](/help/components/cda/overview.md). È stata aggiunta l’unione basata sui [campi](/help/components/cda/field-based-stitching.md). |
 | 28 aprile 2020 | È stata aggiunta la documentazione per la metrica [Content Velocity](/help/components/metrics/content-velocity.md) (Velocità dei contenuti). |
 | 12 marzo 2020 | Sono stati aggiunti aggiornamenti a [Pubblicare segmenti in Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
 | 12 marzo 2020 | Aggiornamenti alla latenza di unione di CDA. |
@@ -31,7 +32,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 25 febbraio 2020 | È stata aggiunta la variabile [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md). |
 | 18 febbraio 2020 | È stata aggiunta la variabile [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 febbraio 2020 | Aggiornamenti e riorganizzazione della documentazione di [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| 7 febbraio 2020 | Aggiornamenti a [Configurare Cross-Device Analytics](../components/cda/cda-setup.md) e alle [Domande frequenti](../components/cda/cda-faq.md). |
+| 7 febbraio 2020 | Aggiornamenti a [Configurare Cross-Device Analytics](../components/cda/setup.md) e alle [Domande frequenti](../components/cda/faq.md). |
 | 4 febbraio 2020 | Riscrittura completa della [Guida utente all’implementazione](../implement/home.md). |
 | 22 gennaio 2020 | È stata aggiornata la pagina relativa alla tabella a mano libera per includere informazioni sul nuovo [strumento per la generazione di tabelle a mano libera](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 gennaio 2020 | Sono stati aggiunti [cookie di Adobe Analytics e del browser](../technotes/cookies.md). |
