@@ -2,7 +2,7 @@
 title: Visitatori unici
 description: Numero di singoli (o dispositivi) univoci.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 La metrica &quot;Visitatori unici&quot; mostra il numero di ID visitatore per il valore della dimensione. Si tratta di una delle metriche più comuni utilizzate per determinare il traffico, in quanto offre una panoramica di alto livello della popolarità di un valore di dimensione. Ad esempio, un visitatore può visitare il sito ogni giorno per un mese, ma continua a essere un singolo visitatore.
 
-Se utilizzate l&#39;analisi [](../cda/cda-home.md)cross-device, questa metrica viene rinominata in &quot;Unique Devices&quot;.
+Se utilizzate l&#39;analisi [](../cda/overview.md)cross-device, questa metrica viene rinominata in &quot;Unique Devices&quot;.
 
 ## Visitatori unici giornalieri, settimanali, mensili, trimestrali e annuali
 
@@ -44,7 +44,7 @@ Gli identificatori visitatore univoci vengono generalmente memorizzati in un coo
 
 * Cancella la cache in qualsiasi momento
 * Apre un altro browser sullo stesso computer. Un visitatore univoco viene conteggiato per browser.
-* La stessa persona che naviga sul sito su diversi dispositivi. Un visitatore univoco separato viene conteggiato per dispositivo. Potete utilizzare l&#39;analisi [](../cda/cda-home.md) cross-device per combinare i visitatori utilizzando la metrica [Persone](people.md) .
+* La stessa persona che naviga sul sito su diversi dispositivi. Un visitatore univoco separato viene conteggiato per dispositivo. Potete utilizzare l&#39;analisi [](../cda/overview.md) cross-device per combinare i visitatori utilizzando la metrica [Persone](people.md) .
 * Apre una sessione di navigazione privata (ad esempio la scheda Incognito di Chrome).
 
 Un nuovo visitatore univoco *non* viene conteggiato, purché sia mantenuto l’identificatore del cookie:
