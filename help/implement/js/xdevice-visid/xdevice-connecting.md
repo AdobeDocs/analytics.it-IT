@@ -6,7 +6,7 @@ title: Connettere gli utenti tra i dispositivi
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consulta [Cross-device  Analytics](/help/components/cda/cda-home.md) nella guida utente dei componenti.
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consulta [Cross-device  Analytics](/help/components/cda/overview.md) nella guida utente dei componenti.
 
 L’identificazione dei visitatori tra dispositivi consente di collegare i visitatori tra più dispositivi. L’identificazione dei visitatori su più dispositivi utilizza la `visitorID` variabile per associare un utente a più dispositivi. La `visitorID` variabile assume la priorità più alta quando si identificano visitatori univoci.
 
