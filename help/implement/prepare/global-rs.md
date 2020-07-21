@@ -2,7 +2,7 @@
 title: Suite di rapporti globali in Adobe  Analytics
 description: Scopri i vantaggi e i requisiti di una suite di rapporti globale.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 3%
@@ -19,7 +19,7 @@ Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tut
 Nella maggior parte dei casi, Adobe consiglia di implementare una suite di rapporti globale.
 
 * **Dati aggregati:** Le suite di rapporti globali consentono di visualizzare gli eventi KPI e di successo nei siti di proprietà. La segmentazione e le suite di rapporti virtuali possono essere utilizzate per visualizzare dati specifici per il sito.
-* **Supporto per  Analytics cross-device:** CDA richiede una suite di rapporti che raccoglie dati da più luoghi, come il sito Web e l’app mobile. I dispositivi separati possono unire i dati se implementati correttamente. Per ulteriori informazioni, consulta [Dispositivi  Analytics](../../components/cda/cda-home.md) nella guida utente Componenti.
+* **Supporto per  Analytics cross-device:** CDA richiede una suite di rapporti che raccoglie dati da più luoghi, come il sito Web e l’app mobile. I dispositivi separati possono unire i dati se implementati correttamente. Per ulteriori informazioni, consulta [Dispositivi  Analytics](../../components/cda/overview.md) nella guida utente Componenti.
 * **Non sono necessarie più suite di rapporti:** Tutti i dati possono essere raccolti in una singola suite di rapporti, pertanto è meno probabile che uno sviluppatore invii erroneamente i dati alla suite di rapporti sbagliata.
 * **Non è necessario eseguire il rollup:** I rollup sono una funzione piuttosto datata che aggrega quotidianamente i dati delle singole suite di rapporti. I rollup non deduplicano i dati delle visite o dei visitatori, il che può causare un aumento dei numeri. Per ulteriori informazioni, consulta [Rollup](../../admin/c-manage-report-suites/rollup-report-suite.md) nella guida utente di amministrazione.
 * **Risparmio di tempo:** I progetti, le classificazioni, i segmenti e le metriche calcolate dell&#39;area di lavoro sono legati alla stessa suite di rapporti globale. Gli amministratori dedicano meno tempo alla gestione di questi componenti e alla gestione dei dati.
