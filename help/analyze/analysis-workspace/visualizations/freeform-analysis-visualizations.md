@@ -2,8 +2,11 @@
 description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni di visualizzazione in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1057'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ Video su YouTube: [Tipi di visualizzazione in Analysis Workspace](https://www.yo
 | [Barre orizzontali](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
 | [Linee](/help/analyze/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale. |
 | [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). |
-| [Grafico a dispersione](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra i valori di dimensione fino a tre metriche. |
+| [Grafico a dispersione](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra gli elementi dimensionali e fino a tre metriche. |
 | [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | A seconda della cella selezionata, questa visualizzazione mostra i totali e i riepiloghi. |
 | [Variazione di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | A seconda delle celle selezionate, questa visualizzazione confronta le celle tra loro. |
 | [Testo](/help/analyze/analysis-workspace/visualizations/text.md) | Consente di aggiungere testo definito dall’utente al progetto Workspace. |
