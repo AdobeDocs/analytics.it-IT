@@ -3,30 +3,33 @@ title: Panoramica su variabili, funzioni, metodi e plug-in
 description: Scopri quali variabili puoi includere nei dati inviati ad Adobe per migliorare la generazione dei rapporti.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 3%
 
 ---
 
 
 # Panoramica su variabili, funzioni, metodi e plug-in
 
-Analytics fornisce una serie di variabili per raccogliere i dati di Analytics. Le variabili in questa sezione sono suddivise in diverse sezioni:
+ Analytics fornisce una serie di variabili per raccogliere  dati Analytics. Le variabili in questa sezione sono suddivise in diverse sezioni:
 
 * **Le variabili** di pagina sono valori generalmente utilizzati direttamente nel reporting. Le variabili di pagina comuni includono `props`, `eVars`e `events`.
-* **Le variabili** di configurazione sono valori di impostazioni che consentono di garantire che i dati corretti arrivino ad Adobe. Le variabili di configurazione comuni includono `trackingServerSecure`, `charSet`e `linkTrackVars`. Le variabili di configurazione in genere non popolano i valori delle dimensioni.
+* **Le variabili** di configurazione sono valori di impostazioni che consentono di garantire che i dati corretti arrivino ad Adobe. Le variabili di configurazione comuni includono `trackingServerSecure`, `charSet`e `linkTrackVars`. Le variabili di configurazione in genere non popolano gli elementi dimensione.
 * **Funzioni e metodi** sono pezzi di codice che eseguono un&#39;attività specifica quando viene fatto riferimento. Le funzioni comuni includono `t()`, `tl()`e `clearVars()`.
 
 ## Variabili e metodi di implementazione
 
-Adobe offre diversi modi per implementare Adobe Analytics. Ogni pagina offre una sezione su come implementare la variabile tramite Launch e AppMeasurement per JavaScript.
+Adobe offre diversi modi per implementare Adobe  Analytics. Ogni pagina offre una sezione su come implementare la variabile tramite Launch e AppMeasurement per JavaScript.
 
 ## Ordine delle operazioni
 
-Le librerie AppMeasurement pubblicate da Adobe Analytics seguono un ordine specifico quando invii dati ad Adobe. Se si eseguono queste attività in modo non ordinato, i dati possono essere incompleti.
+Le librerie AppMeasurement pubblicate da Adobe  Analytics seguono un ordine specifico quando invii dati ad Adobe. Se si eseguono queste attività in modo non ordinato, i dati possono essere incompleti.
 
 1. Se il sito utilizza un livello dati, accertatevi che tutte le variabili applicabili siano compilate per prime. Per ulteriori informazioni, vedi [Livello](../prepare/data-layer.md) dati.
-2. Utilizzate il livello dati per compilare le variabili di Analytics. Se si utilizza Launch, l&#39;attività viene eseguita facilmente utilizzando gli elementi dati, quindi assegnando l&#39;elemento dati a una variabile. Consulta Elementi [](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) dati nella guida utente di Launch.
-3. Chiama la funzione di tracciamento. La maggior parte delle librerie AppMeasurement utilizza il `t()` metodo, tuttavia alcuni SDK per dispositivi mobili vengono utilizzati `track()`. Quando viene chiamata la funzione di tracciamento, tutte le variabili supportate definite nell&#39;oggetto Analytics vengono inviate ad Adobe sotto forma di richiesta di immagine.
+2. Utilizzate il livello dati per compilare  variabili Analytics. Se si utilizza Launch, l&#39;attività viene eseguita facilmente utilizzando gli elementi dati, quindi assegnando l&#39;elemento dati a una variabile. Consulta Elementi [](https://docs.adobe.com/content/help/it-IT/launch/using/reference/manage-resources/data-elements.html) dati nella guida utente di Launch.
+3. Chiama la funzione di tracciamento. La maggior parte delle librerie AppMeasurement utilizza il `t()` metodo, tuttavia alcuni SDK per dispositivi mobili vengono utilizzati `track()`. Quando viene chiamata la funzione di tracciamento, tutte le variabili supportate definite nell&#39;oggetto Analytics  vengono inviate ad Adobe sotto forma di richiesta di immagine.
 
 ## Caratteri non validi
 
