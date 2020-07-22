@@ -2,7 +2,7 @@
 title: Profondità colore
 description: Profondità colore del dispositivo.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,9 +18,9 @@ La dimensione &#39;Profondità colore&#39; indica quanti colori supporta il disp
 
 Questa dimensione fa riferimento a una tabella di ricerca, traducendo il valore bit in un formato più leggibile. Raccoglie dati dalla stringa [`c` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement utilizza la `screen.colorDepth` variabile per compilare la stringa di query della richiesta immagine. Se usi AppMeasurement (ad esempio tramite  lancio del Adobe Experience Platform), questa dimensione non è disponibile. Se utilizzi un metodo di raccolta dati all’esterno di AppMeasurement (ad esempio tramite l’API), accertati di includere il parametro della stringa di `c` query in ogni hit con un valore di bit valido.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono il numero di colori supportati dal dispositivo. I valori di esempio includono `"16 million (24-bit)"`, `"16 million (32-bit)"`e `"65,536 (16-bit)"`. Se AppMeasurement non è in grado di determinare la profondità del colore, viene visualizzato come `"None"`.
+Gli elementi dimensione includono il numero di colori supportati dal dispositivo. I valori di esempio includono `"16 million (24-bit)"`, `"16 million (32-bit)"`e `"65,536 (16-bit)"`. Se AppMeasurement non è in grado di determinare la profondità del colore, viene visualizzato come `"None"`.
 
 >[!TIP]
 >
