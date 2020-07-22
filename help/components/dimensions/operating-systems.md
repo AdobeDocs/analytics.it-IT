@@ -2,7 +2,7 @@
 title: Sistema operativo
 description: Il sistema operativo del visitatore.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 3%
@@ -16,8 +16,8 @@ La dimensione &quot;Sistema operativo&quot; mostra il sistema operativo e la ver
 
 ## Compilare questa dimensione con i dati
 
-Questa dimensione fa riferimento a una tabella di ricerca interna ad Adobe. Il valore di ricerca è basato sull’intestazione `User-Agent` HTTP nelle richieste di immagini. Se utilizzi una libreria AppMeasurement (ad esempio tramite Adobe Experience Platform Launch), questa dimensione non è disponibile.
+Questa dimensione fa riferimento a una tabella di ricerca interna ad Adobe. Il valore di ricerca è basato sull’intestazione `User-Agent` HTTP nelle richieste di immagini. Se utilizzi una libreria AppMeasurement (ad esempio tramite  lancio del Adobe Experience Platform), questa dimensione non è disponibile.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono i sistemi operativi utilizzati dai visitatori. Esempi includono `"Windows 10"`, `"OS X 10.15"`e `"Android 9"`.
+Gli elementi dimensione includono i sistemi operativi utilizzati dai visitatori. Esempi includono `"Windows 10"`, `"OS X 10.15"`e `"Android 9"`.
