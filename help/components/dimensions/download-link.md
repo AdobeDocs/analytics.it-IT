@@ -2,7 +2,7 @@
 title: Link di download
 description: Nome del collegamento di download.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 2%
@@ -28,6 +28,6 @@ Se vuoi inviare dati a questa dimensione utilizzando AppMeasurement:
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"d"`.
 * Invia una richiesta di [`tl()`](/help/implement/vars/functions/tl-method.md) immagine.
 
-## Valori dimensione
+## Elementi dimensione
 
-Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina i valori della dimensione. Adobe consiglia di raggruppare i collegamenti in categorie significative in base alle esigenze di reporting.
+Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina gli elementi dimensione. Adobe consiglia di raggruppare i collegamenti in categorie significative in base alle esigenze di reporting.
