@@ -2,7 +2,7 @@
 title: Tempo trascorso sulla pagina
 description: Il tempo trascorso da un visitatore sulla pagina.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
@@ -32,11 +32,11 @@ Questa dimensione è basata sugli hit, il che significa che il valore è diverso
 
 Questa dimensione funziona automaticamente per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
-## Valori dimensione
+## Elementi dimensione
 
 Esistono più dimensioni per il tempo trascorso sulla pagina:
 
-* **Tempo trascorso sulla pagina - allungato**: Il tempo trascorso è intasato. I valori delle dimensioni variano da `"Less than 15 seconds"` a `"More than 30 minutes"`. Il tempo tra le visualizzazioni di pagina generalmente non dura più di 30 minuti; tuttavia, il tempo tra le visualizzazioni di pagina può superare i 30 minuti se si utilizzano hit con marca temporale o origini dati.
-* **Tempo trascorso sulla pagina - granulare**: Ogni numero di secondi è un valore di dimensione univoco.
+* **Tempo trascorso sulla pagina - allungato**: Il tempo trascorso è intasato. Gli elementi dimensione sono compresi tra `"Less than 15 seconds"` e `"More than 30 minutes"`. Il tempo tra le visualizzazioni di pagina generalmente non dura più di 30 minuti; tuttavia, il tempo tra le visualizzazioni di pagina può superare i 30 minuti se si utilizzano hit con marca temporale o origini dati.
+* **Tempo trascorso sulla pagina - granulare**: Ogni numero di secondi è un elemento di dimensione univoco.
 
 Consultate Panoramica sul [tempo trascorso](../metrics/time-spent.md) per informazioni più generali sul tempo trascorso.
