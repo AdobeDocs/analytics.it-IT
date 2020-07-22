@@ -2,7 +2,7 @@
 title: Pagina
 description: Nome della pagina.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -20,9 +20,9 @@ Questa dimensione è correlata alla sezione [](site-section.md) Sito e alle dime
 
 Questa dimensione recupera i dati dalla stringa [`pageName` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la `pageName` variabile. Se la `pageName` variabile non è definita, torna all&#39;utilizzo dell&#39;URL della pagina.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono i nomi delle pagine del sito. L&#39;organizzazione determina i valori di dimensione specifici che si desidera utilizzare. Alcune organizzazioni utilizzano direttamente `document.title`, mentre altre formulano una breadcrumb personalizzata. Qualunque sia il metodo utilizzato, accertati che sia coerente e che lo registri in un documento [di progettazione della](/help/implement/prepare/solution-design.md)soluzione.
+Gli elementi dimensione includono i nomi delle pagine del sito. L&#39;organizzazione determina quali elementi dimensionali specifici si desidera utilizzare. Alcune organizzazioni utilizzano direttamente `document.title`, mentre altre formulano una breadcrumb personalizzata. Qualunque sia il metodo utilizzato, accertati che sia coerente e che lo registri in un documento [di progettazione della](/help/implement/prepare/solution-design.md)soluzione.
 
 >[!NOTE]
 >
