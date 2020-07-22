@@ -2,7 +2,7 @@
 title: Profondità dell'hit
 description: Numero di hit nella visita.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 7%
@@ -18,13 +18,13 @@ La dimensione &#39;Profondità hit&#39; indica la distanza tra una visita e un d
 
 Questa dimensione funziona automaticamente per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono la stringa `"Hit Depth"` seguita da un numero che rappresenta il numero di hit nella visita. Il valore della dimensione di `"Hit Depth 1"` rappresenta il primo hit della visita, mentre il valore della dimensione `"Hit Depth 8"` rappresenta l’ottavo hit della visita.
+Gli elementi dimensione includono la stringa `"Hit Depth"` seguita da un numero che rappresenta il numero di hit nella visita. L’elemento dimensione di `"Hit Depth 1"` rappresenta il primo hit della visita, mentre l’elemento dimensione `"Hit Depth 8"` rappresenta l’ottavo hit della visita.
 
 ## Confronto con la profondità della visita
 
-La profondità di hit conta tutti i tipi di hit, inclusi la visualizzazione della pagina e gli hit di tracciamento dei collegamenti. La profondità della visita incrementa solo gli incrementi per gli hit della visualizzazione della pagina, _mentre_ il valore della dimensione della [pagina](page.md) non equivale al valore della pagina precedente. La profondità delle visite è anche una dimensione basata sulle visite, il che significa che è lo stesso valore per tutti gli hit della visita. Nella tabella seguente è riportato un esempio di visita e di come considera la profondità di hit + la profondità di visita:
+La profondità di hit conta tutti i tipi di hit, inclusi la visualizzazione della pagina e gli hit di tracciamento dei collegamenti. La profondità della visita incrementa solo gli incrementi per gli hit della visualizzazione della pagina, _mentre_ l’elemento dimensione [Pagina](page.md) non equivale al valore della pagina precedente. La profondità delle visite è anche una dimensione basata sulle visite, il che significa che è lo stesso valore per tutti gli hit della visita. Nella tabella seguente è riportato un esempio di visita e di come considera la profondità di hit + la profondità di visita:
 
 | Sequenza di pagine | Profondità dell&#39;hit | Conteggia per la profondità della visita? | Informazioni sulla visita |
 | --- | --- | --- | --- |
