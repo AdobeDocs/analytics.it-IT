@@ -3,10 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Gli **[Attributi cliente](https://docs.adobe.com/content/help/it-IT/core-service
 * Per accedere a dati più granulari rispetto a quelli accessibili dall’interfaccia (visualizzazione tabellare denormalizzata)
 * Per scaricare i dati in un formato adatto per l’input in una tabella pivot
 * Se il cliente desidera inserire dati Adobe in uno strumento di visualizzazione dati di terze parti (leggermente riepilogati e non a livello di hit)
-* Per accedere a tutti i valori di dimensione univoci nei casi di “traffico ridotto” in Adobe Analytics
+* Per accedere a tutti gli elementi di dimensione univoci se ti trovi in &quot;Basso traffico&quot; in Adobe  Analytics
 
 **[Feed dati di Analytics](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**è indicato nei seguenti casi:
 
