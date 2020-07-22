@@ -2,7 +2,7 @@
 title: Rapporti in tempo reale in Adobe  Analytics
 description: Scoprite come creare rapporti in tempo reale in Adobe  Analytics, rivolti agli utenti che hanno familiarità con Google  Analytics.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Gli eventi in tempo reale indicano quali eventi si verificano di più sul sito. 
 
 >[!NOTE]
 >
->Quando si utilizzano eventi personalizzati nei rapporti in tempo reale, il valore della dimensione deve essere definito nello stesso hit dell&#39;evento personalizzato. Ad esempio, se visualizzi un evento personalizzato &#39;Registrazioni&#39; per la dimensione &#39;Dominio di riferimento&#39;, nessun dato verrà restituito senza un&#39;implementazione aggiuntiva. Poiché il dominio di riferimento viene visualizzato solo sul primo hit e un evento personalizzato viene generalmente visualizzato più avanti nella visita, i dati non possono essere associati in rapporti in tempo reale. Questi dati sono disponibili utilizzando  Analysis Workspace con latenza di elaborazione standard, che in genere è di 30-90 minuti.
+>Quando si utilizzano eventi personalizzati nei rapporti in tempo reale, l&#39;elemento dimensione deve essere definito nello stesso hit dell&#39;evento personalizzato. Ad esempio, se visualizzi un evento personalizzato &#39;Registrazioni&#39; per la dimensione &#39;Dominio di riferimento&#39;, nessun dato verrà restituito senza un&#39;implementazione aggiuntiva. Poiché il dominio di riferimento viene visualizzato solo sul primo hit e un evento personalizzato viene generalmente visualizzato più avanti nella visita, i dati non possono essere associati in rapporti in tempo reale. Questi dati sono disponibili utilizzando  Analysis Workspace con latenza di elaborazione standard, che in genere è di 30-90 minuti.
 
 ## Conversioni in tempo reale
 
@@ -86,4 +86,4 @@ Le conversioni in tempo reale presentano i dati in modo diverso tra le piattafor
 
 >[!NOTE]
 >
->Se si utilizzano eventi esterni a Istanze, come Ordini, assicurarsi che l&#39;implementazione definisca la dimensione e l&#39;evento sullo stesso hit. Se dimensioni ed eventi non vengono attivati sullo stesso hit, tali dati sono disponibili in  Analysis Workspace utilizzando la latenza di elaborazione standard, che in genere è di 30-90 minuti.
+>Se si utilizzano eventi esterni a Istanze, ad esempio Ordini, assicurarsi che l&#39;implementazione definisca la dimensione e l&#39;evento sullo stesso hit. Se dimensioni ed eventi non vengono attivati sullo stesso hit, tali dati sono disponibili in  Analysis Workspace utilizzando la latenza di elaborazione standard, che in genere è di 30-90 minuti.
