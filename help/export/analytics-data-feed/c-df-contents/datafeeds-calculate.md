@@ -5,7 +5,7 @@ title: Calcolare metriche
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Gli hit devono essere raggruppati per visita, quindi ordinati in base al numero 
 1. Concatenate `post_visid_high`, `post_visid_low`, `visit_num`e `visit_start_time_gmt`.
 2. Ordinare per questo valore concatenato, quindi applicare un ordinamento secondario per `visit_page_num`.
 3. Se un hit non è l&#39;ultimo di una visita, sottrae il `post_cust_hit_time` valore dall&#39;hit successivo `post_cust_hit_time` .
-4. Questo numero è la quantità di tempo (in secondi) trascorso per l’hit. I filtri possono essere applicati per evidenziare i valori o gli eventi delle dimensioni.
+4. Questo numero è la quantità di tempo (in secondi) trascorso per l’hit. I filtri possono essere applicati per evidenziare elementi o eventi di dimensione.
 
 ## Ordini, unità e ricavi
 
