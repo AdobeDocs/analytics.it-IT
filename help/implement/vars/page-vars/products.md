@@ -2,7 +2,7 @@
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # products
 
-La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e Adobe analizza il valore in valori di dimensione separati.
+La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e Adobe analizza il valore in elementi di dimensione separati.
 
 >[!NOTE]
 >
