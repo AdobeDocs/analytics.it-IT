@@ -2,7 +2,7 @@
 title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica.
 translation-type: tm+mt
-source-git-commit: 54063d26875aee57ced7825f3427c6051c4f8686
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -12,11 +12,11 @@ ht-degree: 1%
 
 # Attribuzione algoritmica
 
-Il modello [di](models.md) attribuzione algoritmica in  Analysis Workspace è diverso da altri modelli, in quanto utilizza tecniche statistiche per allocare credito tra i valori delle dimensioni nel report o nella tabella a forma libera. Come tutti gli altri modelli di attribuzione in  Analysis Workspace, può essere utilizzato su qualsiasi dimensione o metrica e supporta segmentazione e suddivisioni illimitate e distribuisce il 100% delle conversioni alle dimensioni nella tabella (nota anche come attribuzione &quot;frazionaria&quot;).
+Il modello [di](models.md) attribuzione algoritmica in  Analysis Workspace è diverso dagli altri modelli, in quanto utilizza tecniche statistiche per allocare crediti tra le voci di dimensione del report o della tabella a forma libera. Come tutti gli altri modelli di attribuzione in  Analysis Workspace, può essere utilizzato su qualsiasi dimensione o metrica e supporta segmentazione e suddivisioni illimitate e distribuisce il 100% delle conversioni alle dimensioni nella tabella (nota anche come attribuzione &quot;frazionaria&quot;).
 
 L&#39;algoritmo utilizzato per l&#39;attribuzione è basato sul Dividendo Harsanyi dalla teoria del gioco cooperativo. Il dividendo Harsanyi è una generalizzazione della soluzione di valore Shapley (dal nome di Lloyd Shapley, un economista premio Nobel) per la distribuzione del credito tra i giocatori in un gioco con contributi disuguali al risultato.
 
-Ad un livello elevato, il calcolo dell&#39;attribuzione del credito di conversione per ogni punto di contatto considera ogni punto di contatto di marketing all&#39;interno di una finestra di lookback come una coalizione di giocatori a cui un surplus deve essere equamente distribuito. La distribuzione delle eccedenze di ciascuna coalizione è determinata in base all&#39;eccedenza creata in precedenza da ogni subcoalizione (o dai valori di dimensione partecipanti in precedenza) in modo ricorsivo. Per maggiori dettagli, consultare i documenti originali di John Harsanyi e Lloyd Shapley:
+Ad un livello elevato, il calcolo dell&#39;attribuzione del credito di conversione per ogni punto di contatto considera ogni punto di contatto di marketing all&#39;interno di una finestra di lookback come una coalizione di giocatori a cui un surplus deve essere equamente distribuito. La distribuzione dell’eccedenza di ciascuna coalizione è determinata in base all’eccedenza precedentemente creata da ciascuna subcoalizione (o voci di dimensione precedentemente partecipanti) in modo ricorsivo. Per maggiori dettagli, consultare i documenti originali di John Harsanyi e Lloyd Shapley:
 
 * Shapley, Lloyd S. (1953). Un valore per i giochi di persona. *Contributi alla Teoria dei Giochi, 2(28)*, 307-317.
 * Harsanyi, John C. (1963). Un modello di negoziazione semplificato per il gioco cooperativo n-persona. *Revisione economica internazionale 4(2)*, 194-220.
