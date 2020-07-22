@@ -2,7 +2,7 @@
 title: Visualizzazioni pagina
 description: Il numero di volte in cui è stata visualizzata una pagina.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Visualizzazioni pagina
 
-La metrica Visualizzazioni di pagina mostra il numero di volte in cui un dato valore di dimensione è stato impostato o persistente su una pagina. È una delle metriche più comuni e di base nei report.
+La metrica Visualizzazioni di pagina mostra il numero di volte in cui un dato elemento dimensione è stato impostato o persistente su una pagina. È una delle metriche più comuni e di base nei report.
 
 ## Modalità di calcolo di questa metrica
 
-Questa metrica conta tutte le chiamate di tracciamento della visualizzazione pagina ([`t()`](/help/implement/vars/functions/t-method.md)) in una suite di rapporti. Per le dimensioni, include hit in cui viene definito o mantenuto un valore di dimensione. Non include le chiamate per il tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Questa metrica conta tutte le chiamate di tracciamento della visualizzazione pagina ([`t()`](/help/implement/vars/functions/t-method.md)) in una suite di rapporti. Per le dimensioni, include hit in cui un elemento dimensione è definito o persistente. Non include le chiamate per il tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Confronto con metriche simili
 
