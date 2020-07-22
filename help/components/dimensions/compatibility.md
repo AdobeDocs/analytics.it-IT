@@ -2,7 +2,7 @@
 title: ' compatibilità dimensioni Analytics'
 description: Riferimento per  dimensioni e rapporti Analytics.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 18%
@@ -16,7 +16,7 @@ In questa pagina sono elencate le dimensioni supportate nelle rispettive funzion
 
 >[!NOTE]
 >
->Nomi di variabili personalizzate, classificazioni e attributi del visitatore vengono omessi da questo elenco. Questi valori di dimensione sono specifici delle singole suite di rapporti.
+>Nomi di variabili personalizzate, classificazioni e attributi del visitatore vengono omessi da questo elenco. Questi elementi dimensione sono specifici delle singole suite di rapporti.
 
 >[!NOTE]
 >
