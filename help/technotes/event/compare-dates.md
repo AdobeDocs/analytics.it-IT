@@ -2,7 +2,10 @@
 title: Confrontare le date interessate da un evento con gli intervalli precedenti
 description: Scopri l'impatto di un evento, ad esempio un problema di implementazione o un'interruzione, confrontandolo con le tendenze precedenti.
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ Create un intervallo di date che includa l&#39;evento per iniziare a esaminare l
 
 ## Calcola le differenze di percentuale tra l&#39;evento e intervalli precedenti simili
 
-Confronta i valori delle dimensioni tra l&#39;intervallo di date di un evento e intervalli di date precedenti simili utilizzando una visualizzazione tabella a forma libera. Questi passaggi illustrano un esempio di settimana su settimana che potete seguire.
+Confronta gli elementi dimensionali tra l&#39;intervallo di date di un evento e intervalli di date precedenti simili utilizzando una visualizzazione tabella a forma libera. Questi passaggi illustrano un esempio di settimana su settimana che potete seguire.
 
 1. Apri un progetto Workspace e aggiungi una dimensione **non temporale** alla tabella a forma libera. Ad esempio, puoi utilizzare la dimensione &#39;Tipo di dispositivo mobile&#39;. Applica l’intervallo di date creato di recente impilato su una metrica, ad esempio &quot;Occorrenze&quot;:
 
