@@ -2,7 +2,7 @@
 title: Tempo trascorso per visita
 description: Il tempo totale impiegato dalla visita.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -34,11 +34,11 @@ Questa dimensione è correlata al tempo [medio trascorso sul sito](../metrics/av
 
 Queste dimensioni funzionano automaticamente per tutte le implementazioni. Se una suite di rapporti contiene dati, queste dimensioni funzionano.
 
-## Valori dimensione
+## Elementi dimensione
 
 Esistono più dimensioni per il tempo trascorso per visita:
 
-* **Tempo trascorso per visita - allungato**: Il tempo trascorso è intasato. I valori delle dimensioni variano da `"Less than 1 minute"` a `"More than 15 hours"`. Le visite non durano generalmente più di 12 ore; tuttavia, le visite possono superare le 12 ore se si utilizzano hit con marca temporale o origini dati.
-* **Tempo trascorso per visita - granulare**: Ogni numero di secondi è un valore di dimensione univoco. Questa dimensione non è disponibile in Reporting e  Analytics o Data warehouse.
+* **Tempo trascorso per visita - allungato**: Il tempo trascorso è intasato. Gli elementi dimensione sono compresi tra `"Less than 1 minute"` e `"More than 15 hours"`. Le visite non durano generalmente più di 12 ore; tuttavia, le visite possono superare le 12 ore se si utilizzano hit con marca temporale o origini dati.
+* **Tempo trascorso per visita - granulare**: Ogni numero di secondi è un elemento di dimensione univoco. Questa dimensione non è disponibile in Reporting e  Analytics o Data warehouse.
 
 Consultate Panoramica sul [tempo trascorso](../metrics/time-spent.md) per informazioni più generali sul tempo trascorso.
