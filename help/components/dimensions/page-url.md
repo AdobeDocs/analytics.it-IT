@@ -2,7 +2,7 @@
 title: URL della pagina
 description: URL della pagina.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ Adobe consiglia di impostare un eVar sulla stringa concatenata `window.location.
 
 Se desiderate che l&#39;eVar corrisponda esattamente alla dimensione &quot;URL pagina&quot; nella Data warehouse, potete utilizzare variabili [](/help/implement/vars/page-vars/dynamic-variables.md) dinamiche e impostare l&#39;eVar su `D=g` ogni hit. Questo metodo non funziona per gli hit di collegamento personalizzati, in quanto l’URL della pagina viene rimosso per tutte [`tl()`](/help/implement/vars/functions/tl-method.md) le chiamate.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono gli URL delle pagine del sito.
+Gli elementi dimensione includono gli URL delle pagine del sito.
