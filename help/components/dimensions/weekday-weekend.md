@@ -2,7 +2,7 @@
 title: Giorno feriale/Fine settimana
 description: Determina se l’hit ha avuto luogo durante un giorno feriale o un weekend.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -18,6 +18,6 @@ La dimensione &quot;Giorno feriale/Fine settimana&quot; fornisce informazioni su
 
 Questa dimensione funziona automaticamente per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
-## Valori dimensione
+## Elementi dimensione
 
-Questa dimensione contiene sempre esattamente due valori di dimensione: `"Weekday"` e `"Weekend"`. Il valore della dimensione `"Weekday"` è valido per tutti gli hit da lunedì a venerdì, mentre il valore della dimensione `"Weekend"` è valido per tutti gli hit da sabato e domenica.
+Questa dimensione contiene sempre esattamente due elementi dimensionali: `"Weekday"` e `"Weekend"`. L’elemento dimensione `"Weekday"` `"Weekend"` si applica a tutti gli hit da lunedì a venerdì, mentre l’elemento dimensione si applica a tutti gli hit da sabato e domenica.
