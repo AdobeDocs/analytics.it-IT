@@ -3,10 +3,10 @@ title: Panoramica del pannello di confronto dei segmenti
 description: Scopri come utilizzare il pannello di confronto dei segmenti, parte del Segmento IQ di Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -91,19 +91,19 @@ Sulla destra della tabella delle metriche si trova una visualizzazione collegata
 
 ### Dimensioni principali
 
-Mostra i valori di dimensione più importanti dal punto di vista statistico per tutte le dimensioni. Ciascuna riga mostra la percentuale di ciascun segmento che possiede questo valore della dimensione. Ad esempio, questa tabella potrebbe mostrare che il 100% dei visitatori nel “Segmento A” rientrava nella dimensione “Tipo browser: Google”, mentre solo il 19,6% del “Segmento B” rientrava in questa dimensione. Un punteggio di differenza pari a 1 indica che è statisticamente significativo, mentre un punteggio di differenza pari a 0 indica che non esiste alcuna rilevanza statistica.
+Mostra gli elementi dimensionali più importanti dal punto di vista statistico in tutte le dimensioni. Ciascuna riga mostra la percentuale di ciascun segmento che possiede questo elemento della dimensione. Ad esempio, questa tabella potrebbe mostrare che il 100% dei visitatori nel “Segmento A” rientrava nella dimensione “Tipo browser: Google”, mentre solo il 19,6% del “Segmento B” rientrava in questa dimensione. Un punteggio di differenza pari a 1 indica che è statisticamente significativo, mentre un punteggio di differenza pari a 0 indica che non esiste alcuna rilevanza statistica.
 
-Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspace. Per un’analisi più approfondita su un valore di dimensione specifico, posiziona il cursore del mouse su un elemento e fai clic su “Crea elemento visivo”. Viene creata una nuova tabella per analizzare tale valore di dimensione. Se un valore di dimensione è irrilevante per l’analisi, posiziona il cursore del mouse sulla riga e fai clic sulla X per rimuoverlo.
+Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspace. Se si desidera eseguire un&#39;analisi più approfondita su un elemento dimensione specifico, passare il mouse su un elemento di riga e fare clic su &quot;Crea elemento visivo&quot;. Viene creata una nuova tabella per analizzare tale elemento dimensione specifico. Se un elemento di dimensione è irrilevante per l&#39;analisi, posizionate il puntatore del mouse sull&#39;elemento di riga e fate clic sulla &quot;X&quot; per rimuoverlo.
 
 >[!NOTE]
 >
->I valori di dimensione aggiunti alla tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
+>Gli elementi dimensione aggiunti alla tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
 
 ![Dimensioni principali](assets/top-dimension-item1.png)
 
 ### Elementi dimensione per segmento
 
-Sulla destra della tabella delle dimensioni si trova una visualizzazione grafico a barre collegata. Mostra tutti i valori di dimensione sotto forma di grafico a barre. Facendo clic su un elemento nella tabella a sinistra, la visualizzazione a destra viene aggiornata.
+Sulla destra della tabella delle dimensioni si trova una visualizzazione grafico a barre collegata. Mostra tutti gli elementi dimensionali visualizzati in un grafico a barre. Facendo clic su un elemento nella tabella a sinistra, la visualizzazione a destra viene aggiornata.
 
 ![Grafico a barre delle dimensioni principali](assets/top-dimension-item.png)
 
