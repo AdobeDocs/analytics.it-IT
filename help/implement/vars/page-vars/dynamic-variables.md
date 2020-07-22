@@ -2,7 +2,7 @@
 title: Variabili dinamiche
 description: Copiare le variabili senza aumentare la lunghezza della richiesta di immagini.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -26,14 +26,14 @@ Quando Adobe riconosce un prefisso di variabile dinamica, copia automaticamente 
 
 ## Variabili dinamiche in  Adobe Experience Platform Launch
 
-È possibile utilizzare variabili dinamiche in qualsiasi campo dimensione che accetta una stringa. I valori delle dimensioni vengono generalmente impostati durante la configurazione dell&#39;estensione Analytics  (variabili globali) o in base alle regole.
+È possibile utilizzare variabili dinamiche in qualsiasi campo dimensione che accetta una stringa. Gli elementi dimensione vengono generalmente impostati durante la configurazione dell&#39;estensione Analytics  (variabili globali) o in base alle regole.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
 5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
-6. Individuate il valore di quota desiderato.
+6. Individuate l’elemento di dimensione desiderato.
 
 Inserite il prefisso della variabile dinamica nel campo di testo, seguito dal parametro della stringa di query o dall’intestazione HTTP a cui desiderate fare riferimento. Per impostazione predefinita, il prefisso della variabile dinamica è `D=`.
 
