@@ -3,7 +3,7 @@ description: La distribuzione di questa integrazione è un processo semplice che
 title: Distribuzione dell'integrazione
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 1%
@@ -119,7 +119,7 @@ Tuttavia, se è necessario apportare delle modifiche, alcune delle impostazioni 
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Il delimitatore utilizzato per separare i valori delle dimensioni Demandbase quando vengono inviati ad Adobe  Analytics. Modificando questa impostazione è possibile che le regole di classificazione predefinite non funzionino correttamente. </td> 
+   <td colname="col2"> Il delimitatore utilizzato per separare gli elementi della dimensione Demandbase quando vengono inviati ad Adobe  Analytics. Modificando questa impostazione è possibile che le regole di classificazione predefinite non funzionino correttamente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
