@@ -1,8 +1,8 @@
 ---
 title: Tempo medio sul sito
-description: Il tempo medio in cui un dato valore di dimensione esisteva tra gli hit.
+description: Il tempo medio in cui un dato elemento dimensione esisteva tra gli hit.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Tempo medio sul sito
 
-La metrica &quot;Tempo medio sul sito&quot; mostra il tempo passato tra gli hit per un dato valore di dimensione. Questa metrica è utile per visualizzare il tempo medio impiegato per valori di dimensione specifici. Puoi anche attribuire una tendenza a questa metrica nel tempo per vedere come cambia il tempo trascorso. Questa metrica viene visualizzata in `HH:MM:SS` formato.
+La metrica &quot;Tempo medio sul sito&quot; mostra il tempo passato tra gli hit per un dato elemento dimensione. Questa metrica è utile per visualizzare il tempo medio impiegato per specifici elementi dimensione. Puoi anche attribuire una tendenza a questa metrica nel tempo per vedere come cambia il tempo trascorso. Questa metrica viene visualizzata in `HH:MM:SS` formato.
 
 Questa metrica è correlata alla dimensione [Tempo trascorso per visita](../dimensions/time-spent-per-visit.md) .
 
 ## Modalità di calcolo di questa metrica
 
-Per un dato valore di dimensione, prendere la marca temporale di ogni hit in cui esiste tale valore. Confrontatelo con la marca temporale dell’hit successivo nella visita. Se l’hit non ha un hit successivo, non includetelo in questa metrica. Tra tutto il tempo trascorso per il valore della dimensione, dividerli tutti per il numero di &quot;sequenze&quot; per il valore della dimensione. Per &quot;sequenza&quot; si intende un valore di dimensione identico per uno o più hit consecutivi. Questo numero risultante è la metrica visualizzata nei report.
+Per un dato elemento dimensione, prendere la marca temporale di ogni hit in cui esiste tale elemento dimensione. Confrontatelo con la marca temporale dell’hit successivo nella visita. Se l’hit non ha un hit successivo, non includetelo in questa metrica. Tra tutto il tempo trascorso per l’elemento dimensione, dividerli tutti per il numero di &quot;sequenze&quot; per l’elemento dimensione. Per &quot;sequenza&quot; si intende un elemento dimensione uguale per uno o più hit consecutivi. Questo numero risultante è la metrica visualizzata nei report.
 
 Ad esempio, considera quanto segue:
 
@@ -35,7 +35,7 @@ Ad esempio, considera quanto segue:
 | `12:25:40` | `Product page A` |
 
 
-Se desiderate un tempo medio sul sito per il valore della dimensione, prendete prima il tempo trascorso tra gli hit per quella dimensione: `Product page A`
+Se si desidera un tempo medio sul sito per l’elemento della dimensione, `Product page A`occorre prima prendere il tempo trascorso tra gli hit per tale dimensione:
 
 * **12:04:20 - 12:05:30** - 1 minuto 10 secondi
 * **12:05:30 - 12:07:00** - 1 minuto 30 secondi
@@ -61,7 +61,7 @@ La metrica &quot;Tempo medio sul sito&quot; utilizza sequenze non interrotte di 
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Per calcolare il tempo medio sul sito per il valore della dimensione `Home` viene utilizzato il seguente calcolo:
+Il calcolo del tempo medio sul sito per l&#39;elemento dimensione `Home` utilizzerebbe il seguente calcolo:
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -77,6 +77,6 @@ Poiché nella dimensione di suddivisione era presente una singola sequenza, util
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio sul sito dell&#39;intera dimensione e il numeratore è il tempo medio sul sito del valore della dimensione. Se il tempo medio sul sito dell&#39;intera dimensione è inferiore al tempo medio sul sito di un dato valore di dimensione, vengono visualizzate percentuali superiori al 100%. L&#39;ordinamento di report con classifica in base a questa metrica mostra il tempo medio anomalo sui valori del sito, che in genere non è prezioso. Adobe consiglia di ordinare i dati in base a un’altra metrica, ad esempio [Visite](visits.md), nei rapporti con classifica.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio sul sito dell&#39;intera dimensione e il numeratore è il tempo medio sul sito dell&#39;elemento della dimensione. Se il tempo medio sul sito dell&#39;intera dimensione è inferiore al tempo medio sul sito di un dato elemento dimensione, verranno visualizzate percentuali superiori al 100%. L&#39;ordinamento di report con classifica in base a questa metrica mostra il tempo medio anomalo sui valori del sito, che in genere non è prezioso. Adobe consiglia di ordinare i dati in base a un’altra metrica, ad esempio [Visite](visits.md), nei rapporti con classifica.
 
 Consultate Panoramica sul [tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.
