@@ -2,7 +2,7 @@
 title: eVar
 description: Una dimensione personalizzata che potete utilizzare nel reporting.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Ogni eVar raccoglie i dati dalla [`v1` - `v250` stringa](/help/implement/validat
 
 AppMeasurement, che compila le variabili JavaScript in una richiesta di immagine per la raccolta dei dati, utilizza le variabili `eVar1` - `eVar250`. Consulta [eVar](/help/implement/vars/page-vars/evar.md) nella guida per l’utente Implementa per le linee guida di implementazione.
 
-## Valori dimensione
+## Elementi dimensione
 
-Poiché le eVar contengono stringhe personalizzate nell&#39;implementazione, l&#39;organizzazione determina i valori di dimensione per ogni eVar. Accertatevi di registrare lo scopo di ogni eVar e i valori dimensionali tipici in un documento [di progettazione della](/help/implement/prepare/solution-design.md)soluzione.
+Poiché le eVar contengono stringhe personalizzate nell&#39;implementazione, l&#39;organizzazione determina gli elementi dimensione per ogni eVar. Accertatevi di registrare lo scopo di ogni eVar e degli elementi dimensionali tipici in un documento [di progettazione della](/help/implement/prepare/solution-design.md)soluzione.
 
 ## Funzionamento delle eVar
 
-Quando invii dati ad Adobe Analytics, i server di raccolta dati traducono l’hit in una singola riga di dati con centinaia di colonne. A ciascuna eVar sono dedicate due colonne; uno per la raccolta diretta dei dati e l&#39;altro per i valori persistenti.
+Quando invii dati ad Adobe  Analytics, i server di raccolta dati traducono l’hit in una singola riga di dati con centinaia di colonne. A ciascuna eVar sono dedicate due colonne; uno per la raccolta diretta dei dati e l&#39;altro per i valori persistenti.
 
 * Una colonna standard contiene i dati inviati ad Adobe dalla richiesta di immagini.
 * Una colonna &quot;post&quot; contiene dati persistenti, che dipendono dalla scadenza e dall&#39;allocazione dell&#39;eVar.
@@ -64,13 +64,13 @@ Una versione semplificata dei dati non elaborati sarà simile a quella riportata
 
 ### Conversione della raccolta dati in reporting
 
-Gli strumenti di Adobe Analytics, come Analysis Workspace, consentono di estrarre i dati raccolti. Ad esempio, se hai estratto un rapporto utilizzando eVar1 come dimensione e Ordini come metrica, visualizzerai un rapporto simile al seguente:
+Gli strumenti di Adobe  Analytics, come  Analysis Workspace, funzionano con questi dati raccolti. Ad esempio, se hai estratto un rapporto utilizzando eVar1 come dimensione e Ordini come metrica, visualizzerai un rapporto simile al seguente:
 
 | `Internal search term (eVar1)` | `Orders` |
 | --- | --- |
 | `cats` | `1` |
 
-Analysis Workspace estrae questo rapporto utilizzando la seguente logica:
+ Analysis Workspace estrae questo rapporto utilizzando la seguente logica:
 
 * Osserva tutti `event_list` i valori e scopri tutti gli hit con `purchase` essi.
 * Tra questi hit, visualizza il `post_evar1` valore.
