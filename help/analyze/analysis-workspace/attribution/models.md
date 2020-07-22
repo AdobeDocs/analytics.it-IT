@@ -1,8 +1,8 @@
 ---
 title: Modelli di attribuzione e finestre di lookback
-description: Differenze tra i diversi tipi di attribuzione tra i valori delle dimensioni.
+description: Differenze tra i diversi tipi di attribuzione tra gli elementi dimensionali.
 translation-type: tm+mt
-source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 93%
