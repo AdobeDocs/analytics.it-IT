@@ -2,7 +2,7 @@
 title: Primo canale touch
 description: Il primo canale di marketing entro la scadenza del coinvolgimento del visitatore.
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,12 +22,12 @@ Ogni hit inviato ai server di raccolta dati Adobe viene eseguito tramite le rego
 
 Per impostare questa dimensione su un valore specifico, sono necessari i passaggi seguenti:
 
-* Impostate il valore di dimensione desiderato come canale nel gestore canali di marketing in Impostazioni suite di rapporti.
+* Imposta l’elemento dimensione desiderato come canale nel gestore canali di marketing in Impostazioni suite di rapporti.
 * Impostate una regola di elaborazione del canale di marketing che contenga i criteri desiderati per l’hit.
 * L&#39;hit del visitatore sul sito deve corrispondere ai criteri indicati nella regola di elaborazione del canale di marketing _e deve essere_ il primo valore del canale di marketing a farlo nel periodo di coinvolgimento del visitatore.
 
 Se un hit successivo corrisponde ai criteri in un canale Marketing diverso, questa dimensione non viene sovrascritta con il nuovo canale di marketing.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono qualsiasi nome di canale nel gestore canali di marketing. Per impostazione predefinita, i valori includono `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`e `"Referring domains"`. Puoi aggiungere o eliminare canali in Marketing Channel Manager, che influiscono sui valori di questa dimensione.
+Gli elementi dimensione includono qualsiasi nome di canale nel gestore canali di marketing. Per impostazione predefinita, i valori includono `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`e `"Referring domains"`. Puoi aggiungere o eliminare canali in Marketing Channel Manager, che influiscono sui valori di questa dimensione.
