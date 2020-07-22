@@ -2,7 +2,7 @@
 title: Rapporti
 description: Dimensioni e metriche utilizzate da Reporting e  Analytics per ciascun report.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -88,19 +88,19 @@ Contiene rapporti sui rapporti mobili precedenti. Questi report basano i propri 
 
 Contiene rapporti che consentono di visualizzare i dati del percorso per i visitatori.
 
-* Flusso pagina successivo: Utilizza un rapporto sul valore della dimensione della pagina superiore. Le viste percorso sono simili alle [istanze](/help/components/metrics/instances.md). È possibile modificare il valore della dimensione segnalata. Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
-* Pagina successiva: Prende il valore della dimensione della pagina superiore e mostra le pagine successive alle quali i visitatori sono andati.
-* Flusso pagina precedente: Utilizza un rapporto sul valore della dimensione della pagina superiore Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
-* Pagina precedente: Prende il valore della dimensione della pagina superiore e mostra le pagine di provenienza dei visitatori precedenti.
-* Abbandono: Consente di selezionare i valori delle dimensioni di pagina in passaggi, e mostra la proporzione di persone che hanno seguito e non hanno seguito quel percorso. Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Percorsi completi: Mostra singoli percorsi come valori di dimensione. Ritirato in  Analysis Workspace; utilizzate invece la visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md) Flusso.
+* Flusso pagina successivo: Utilizza un rapporto sul flusso nell’elemento dimensione della pagina superiore. Le viste percorso sono simili alle [istanze](/help/components/metrics/instances.md). È possibile modificare l&#39;elemento della dimensione segnalata. Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
+* Pagina successiva: Prende l’elemento della dimensione della pagina superiore e mostra le pagine successive a cui i visitatori sono andati.
+* Flusso pagina precedente: Utilizza un rapporto sul flusso nell’elemento dimensione della pagina principale Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md)Flusso.
+* Pagina precedente: Prende l’elemento della dimensione della pagina superiore e mostra le pagine di provenienza dei visitatori precedenti.
+* Abbandono: Consente di selezionare gli elementi dimensionali della pagina in passaggi, e mostra la proporzione di persone che hanno seguito e non hanno seguito quel percorso. Un rapporto simile in  Analysis Workspace è disponibile tramite una visualizzazione [Abbandono](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Percorsi completi: Visualizza singoli percorsi come elementi dimensione. Ritirato in  Analysis Workspace; utilizzate invece la visualizzazione [](../analysis-workspace/visualizations/c-flow/flow.md) Flusso.
 * PathFinder: Fornisce diversi tipi di rapporti che consentono di analizzare i percorsi (ritirati in  Analysis Workspace).
 * Lunghezza percorso: Utilizza la dimensione di profondità [della](/help/components/dimensions/visit-depth.md) visita.
 * Analisi pagina
-   * Riepilogo pagina: Prende il valore della dimensione della pagina superiore e mostra una vista con tendenze. Mostra anche punti di entrata, pagine precedenti, punti di uscita e pagine successive per il valore della dimensione della pagina superiore.
+   * Riepilogo pagina: Prende l’elemento della dimensione della pagina superiore e mostra una vista con tendenze. Mostra anche punti di entrata, pagine precedenti, punti di uscita e pagine successive per l’elemento dimensione della pagina superiore.
    * Ricarica: Utilizza la dimensione [Pagina](/help/components/dimensions/page.md) con la metrica [Ricarica](/help/components/metrics/reloads.md) .
    * Tempo trascorso sulla pagina: Utilizza la dimensione [Tempo trascorso sulla pagina - Dimensione intrecciata](/help/components/dimensions/time-spent-on-page.md) .
-   * Fate clic sulla pagina: Prende il valore della dimensione della pagina superiore e mostra il numero di clic necessari per passare alla pagina in una determinata visita.
+   * Fate clic sulla pagina: Prende l’elemento della dimensione della pagina superiore e mostra il numero di clic necessari per passare alla pagina in una determinata visita.
 * Voci ed uscite
    * Pagine di entrata: Utilizza la dimensione delle pagine [di](/help/components/dimensions/entry-dimensions.md) immissione.
    * Pagine iniziali originali: Utilizza la dimensione originale [della pagina](/help/components/dimensions/entry-dimensions.md) Entry.
@@ -171,7 +171,7 @@ Contiene rapporti sugli utenti che visitano il sito.
    * Stati Uniti: Utilizza la dimensione degli stati [](/help/components/dimensions/us-states.md) USA.
    * DMA USA: Utilizza la dimensione DMA [](/help/components/dimensions/us-dma.md) USA.
 * Lingue: Utilizza la dimensione [Lingua](/help/components/dimensions/language.md) .
-* Fusi orari: Utilizza la dimensione del fuso orario (ritirata in  Analysis Workspace). I valori delle dimensioni sono l’offset GMT dell’hit.
+* Fusi orari: Utilizza la dimensione del fuso orario (ritirata in  Analysis Workspace). Gli elementi dimensione sono l&#39;offset GMT dell&#39;hit.
 * Dominio: Utilizza la dimensione [Domain](/help/components/dimensions/domain.md) .
 * Dominio di primo livello: Utilizza la dimensione del dominio di primo livello (ritirata in  Analysis Workspace). Raggruppa la dimensione dei [domini](/help/components/dimensions/domain.md) in categorie di livello superiore, in genere per paese del dominio.
 * Tecnologia: Cartella contenente i rapporti relativi al visitatore utilizzato per accedere al sito.
@@ -184,12 +184,12 @@ Contiene rapporti sugli utenti che visitano il sito.
    * Profondità colore monitor: Utilizza la dimensione di profondità [del](/help/components/dimensions/color-depth.md) colore.
    * Risoluzione monitor: Utilizza la dimensione di risoluzione [del](/help/components/dimensions/monitor-resolution.md) monitor.
    * Java: Utilizza la dimensione [Java abilitata](/help/components/dimensions/java-enabled.md) .
-   * JavaScript: Utilizza la dimensione abilitata per JavaScript (ritirata in  Analysis Workspace). I valori delle dimensioni sono &quot;Abilitato&quot;, &quot;Disattivato&quot; o &quot;Sconosciuto&quot;, a seconda che nel browser sia attivato JavaScript.
-   * Versione JavaScript: utilizza la dimensione della versione JavaScript (ritirata in  Analysis Workspace). I valori delle dimensioni mostrano la versione di JavaScript utilizzata dal browser.
+   * JavaScript: Utilizza la dimensione abilitata per JavaScript (ritirata in  Analysis Workspace). Gli elementi dimensione sono &quot;Abilitati&quot;, &quot;Disabilitati&quot; o &quot;Sconosciuti&quot;, a seconda che il browser disponga di JavaScript abilitato.
+   * Versione JavaScript: utilizza la dimensione della versione JavaScript (ritirata in  Analysis Workspace). Gli elementi dimensione mostrano la versione di JavaScript utilizzata dal browser.
    * Cookie: Utilizza la dimensione [Cookie support](/help/components/dimensions/cookie-support.md) .
    * Tipi di connessione: Utilizza la dimensione del tipo [di](/help/components/dimensions/connection-type.md) connessione.
    * Portatile: Utilizza la dimensione [Mobile](/help/components/dimensions/mobile-dimensions.md) .
-* Stato visitatore: Utilizza la dimensione Stato (ritirata in  Analysis Workspace). I valori delle dimensioni provengono dalla [`state`](../../implement/vars/page-vars/state.md) variabile.
+* Stato visitatore: Utilizza la dimensione Stato (ritirata in  Analysis Workspace). Gli elementi dimensione provengono dalla [`state`](../../implement/vars/page-vars/state.md) variabile.
 * Codice postale del visitatore: Utilizza la dimensione del codice [](/help/components/dimensions/zip-code.md) ZIP.
 
 ## Conversione personalizzata
@@ -204,7 +204,7 @@ Contiene rapporti specifici per l’implementazione. I report sul traffico perso
 
 Contiene rapporti che coinvolgono canali [](/help/components/c-marketing-channels/c-getting-started-mchannel.md)Marketing.
 
-* Report panoramica canale: Un rapporto personalizzato specifico per Reporting e  Analytics. Utilizza i canali di marketing come valori di dimensione, con le metriche che utilizzano l&#39;attribuzione del primo o dell&#39;ultimo tocco.
+* Report panoramica canale: Un rapporto personalizzato specifico per Reporting e  Analytics. Utilizza i canali di marketing come elementi dimensionali, con metriche che utilizzano l&#39;attribuzione del primo o dell&#39;ultimo tocco.
 * Primo canale touch: Utilizza la dimensione del [primo canale](/help/components/dimensions/first-touch-channel.md) touch.
 * Primo dettaglio del canale touch: Utilizza la dimensione dei dettagli [del](/help/components/dimensions/first-touch-detail.md) primo canale touch.
 * Ultimo canale touch: Utilizza la dimensione [Ultimo canale](/help/components/dimensions/last-touch-channel.md) di tocco.
