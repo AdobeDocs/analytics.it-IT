@@ -2,7 +2,7 @@
 title: Aree geografiche
 description: La regione geografica del visitatore.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Questa dimensione fa riferimento a regole di ricerca interne ad Adobe. Il valore
 >
 >Se l&#39;azienda rispetta le severe normative sulla privacy laddove l&#39; [oscuramento dell&#39;indirizzo](/help/admin/admin/general-acct-settings-admin.md) IP non è sufficiente, puoi richiedere di disabilitare completamente i dati sulla geolocalizzazione. Contatta l&#39;Assistenza clienti con l&#39;ID suite di rapporti e richiedi di disattivare &#39;Geografia&#39; per la suite di rapporti.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono le regioni e il paese in cui risiede la regione. I valori di esempio includono `"California (United States)"`, `"Tokyo (Japan)"`, o `"Sao Paulo (Brazil)"`.
+Gli elementi dimensione includono le regioni e il paese in cui risiede la regione. I valori di esempio includono `"California (United States)"`, `"Tokyo (Japan)"`, o `"Sao Paulo (Brazil)"`.
 
 ## Differenze tra la posizione segnalata e quella effettiva
 
