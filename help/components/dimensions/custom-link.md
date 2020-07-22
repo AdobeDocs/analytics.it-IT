@@ -2,7 +2,7 @@
 title: Collegamento personalizzato
 description: Nome del collegamento personalizzato.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -24,6 +24,6 @@ Se vuoi inviare dati a questa dimensione utilizzando AppMeasurement:
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"o"`.
 * Invia una richiesta di [`tl()`](/help/implement/vars/functions/tl-method.md) immagine.
 
-## Valori dimensione
+## Elementi dimensione
 
-Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina i valori della dimensione. Adobe consiglia di raggruppare i collegamenti in categorie significative in base alle esigenze di reporting.
+Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina gli elementi dimensione. Adobe consiglia di raggruppare i collegamenti in categorie significative in base alle esigenze di reporting.
