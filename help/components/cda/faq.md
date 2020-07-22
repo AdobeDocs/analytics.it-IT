@@ -2,7 +2,7 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics  cross-device
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -92,4 +92,4 @@ Per cambiare i metodi di identificazione CDA, rivolgiti all&#39;Account Manager 
 
 ## In che modo Adobe gestisce i limiti univoci per un&#39;eVar utilizzata nelle cuciture basate sul campo?
 
-CDA richiama i valori delle dimensioni eVar prima che siano ottimizzati per il reporting. Non devi preoccuparti di limiti unici ai fini di CDA. Tuttavia, se avete provato a utilizzare tale prop/eVar in un progetto Workspace, potete comunque visualizzare il valore della dimensione [(traffico limitato)](/help/technotes/low-traffic.md) .
+CDA richiama elementi dimensione eVar prima di essere ottimizzati per la generazione di rapporti. Non devi preoccuparti di limiti unici ai fini di CDA. Tuttavia, se avete provato a utilizzare tale prop/eVar in un progetto Workspace, potete comunque visualizzare l’elemento dimensione [(traffico limitato)](/help/technotes/low-traffic.md) .
