@@ -2,7 +2,7 @@
 title: Prop
 description: Una dimensione personalizzata che potete utilizzare nel reporting.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Ogni prop raccoglie i dati dalla stringa [`c1` - `c75` query](/help/implement/va
 
 AppMeasurement, che compila le variabili JavaScript in una richiesta di immagine per la raccolta dei dati, utilizza le variabili `prop1` - `prop75`. Per le linee guida per l’implementazione, consulta [le informazioni di base](/help/implement/vars/page-vars/prop.md) nella guida Implementa.
 
-## Valori dimensione
+## Elementi dimensione
 
-Poiché i prop contengono stringhe personalizzate nella vostra implementazione, la vostra organizzazione determina quali valori di dimensione sono per ogni prop. Accertatevi di registrare lo scopo di ogni prop e i valori dimensionali tipici in un documento [di progettazione della](/help/implement/prepare/solution-design.md)soluzione.
+Poiché le proprietà contengono stringhe personalizzate nella vostra implementazione, la vostra organizzazione determina quali elementi dimensione sono per ogni proprietà. Accertatevi di registrare lo scopo di ogni prop ed elementi dimensionali tipici in un documento [di progettazione di una](/help/implement/prepare/solution-design.md)soluzione.
 
 ## Valore delle proprietà sulle eVar
 
