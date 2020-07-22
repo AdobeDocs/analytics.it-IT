@@ -3,10 +3,10 @@ description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7747'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -345,7 +345,7 @@ Nuove funzionalità e miglioramenti rilasciati il 12 aprile 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nuova impostazione per righe </a> </p> </td> 
-   <td colname="col2"> <p>La nuova impostazione <span class="uicontrol">Calcola percentuale per riga</span> nelle tabelle a forma libera forza il calcolo delle percentuali delle celle di una riga, anziché di una colonna. Questo è utile in particolare per le percentuali di tendenza, ad esempio per determinare come si comporta una particolare dimensione rispetto alle altre nel corso del tempo. L’opzione è attivata per impostazione predefinita quando si fa clic sull’icona <span class="uicontrol">Visualizza</span>. </p> </td> 
+   <td colname="col2"> <p>La nuova impostazione <span class="uicontrol">Calcola percentuale per riga</span> nelle tabelle a forma libera forza il calcolo delle percentuali delle celle di una riga, anziché di una colonna. Questa funzione è particolarmente utile per le percentuali di tendenza, ad esempio per il modo in cui un elemento di dimensione viene equo rispetto al resto nel tempo. L’opzione è attivata per impostazione predefinita quando si fa clic sull’icona <span class="uicontrol">Visualizza</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Impostazione di visualizzazione “Sovrapposizione 100%” </a> </p> </td> 
@@ -515,7 +515,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifiche a Nessuno/Non specificato </p> </td> 
-   <td colname="col2"> <p>È stato modificato il funzionamento di Nessuno/Non specificato in Analysis Workspace in modo che sia coerente con Reports &amp; Analytics, Generatore di segmenti e il menu di valori di dimensioni in Analysis Workspace. </p> <p>Ciò significa che il valore sarà visualizzato come “Non specificato” al posto di “Nessuno” nella maggior parte dei progetti in Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>È stato modificato il funzionamento di Nessuno/Non specificato in  Analysis Workspace in modo che sia coerente con Reporting e  Analytics, il Generatore di segmenti e il menu delle voci di dimensioni in  Analysis Workspace. </p> <p>Ciò significa che il valore sarà visualizzato come “Non specificato” al posto di “Nessuno” nella maggior parte dei progetti in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
