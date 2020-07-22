@@ -2,7 +2,7 @@
 title: Ricerche
 description: Il numero di volte in cui un hit corrisponde a criteri di ricerca esterni.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Ricerche
 
-La metrica &quot;Searches&quot; (Ricerche) mostra il numero di hit che corrispondono al rilevamento di ricerche esterne di Adobe. Questa metrica è utile per osservare i valori di dimensione non di ricerca e vedere in che modo hanno contribuito al traffico dei motori di ricerca.
+La metrica &quot;Searches&quot; (Ricerche) mostra il numero di hit che corrispondono al rilevamento di ricerche esterne di Adobe. Questa metrica è utile quando si desidera esaminare gli elementi di dimensione non di ricerca e vedere in che modo hanno contribuito al traffico dei motori di ricerca.
 
 ## Modalità di calcolo di questa metrica
 
