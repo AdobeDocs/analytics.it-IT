@@ -2,7 +2,7 @@
 title: eVar (Merchandising)
 description: Variabili personalizzate che si legano alla dimensione "products".
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Consulta eVar di [merchandising](/help/implement/vars/page-vars/evar-merchandisi
 La metrica [Istanze](../metrics/instances.md) non è consigliata per l&#39;uso sulle variabili merchandising.
 
 * Per le variabili merchandising che utilizzano la sintassi del prodotto, le istanze non vengono incrementate.
-* Per le variabili merchandising che utilizzano la sintassi della variabile di conversione, le istanze vengono conteggiate ogni volta che viene impostata l&#39;eVar. Tuttavia, viene attribuito al valore della dimensione `"None"` a meno che non si verifichino tutte le seguenti situazioni sullo stesso hit:
+* Per le variabili merchandising che utilizzano la sintassi della variabile di conversione, le istanze vengono conteggiate ogni volta che viene impostata l&#39;eVar. Tuttavia, viene attribuito all’elemento della dimensione `"None"` a meno che non si verifichino tutte le seguenti situazioni sullo stesso hit:
    * L&#39;eVar di merchandising è impostato con un valore.
    * La `products` variabile viene definita con un valore.
    * È impostato un evento di binding.
