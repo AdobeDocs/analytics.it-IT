@@ -2,7 +2,7 @@
 title: linkName
 description: Impostate il nome dell’hit di collegamento personalizzato.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # linkName
 
-Utilizzare la `linkName` variabile per determinare il valore della dimensione dei collegamenti personalizzati, dei collegamenti di download o dei collegamenti di uscita quando si esegue il [`tl()`](../functions/tl-method.md) metodo successivo.
+Utilizzare la `linkName` variabile per determinare l&#39;elemento dimensione dei collegamenti personalizzati, dei collegamenti di download o dei collegamenti di uscita quando si esegue il [`tl()`](../functions/tl-method.md) metodo successivo.
 
 Se questa variabile è vuota, AppMeasurement ripristina la [`linkURL`](linkurl.md) variabile.
 
@@ -29,7 +29,7 @@ Se questa variabile è vuota, AppMeasurement ripristina la [`linkURL`](linkurl.m
 
 ## s.linkName nell&#39;editor di codice personalizzato AppMeasurement e Launch
 
-La `s.linkName` variabile è una stringa che determina il valore della dimensione per i collegamenti personalizzati, i collegamenti di download o i collegamenti di uscita (a seconda di cosa [`s.linkType`](linktype.md) si tratta). Può contenere fino a 100 byte.
+La `s.linkName` variabile è una stringa che determina l’elemento dimensione per i collegamenti personalizzati, i collegamenti per il download o i collegamenti di uscita (a seconda di cosa [`s.linkType`](linktype.md) si tratti). Può contenere fino a 100 byte.
 
 >[!TIP]
 >
