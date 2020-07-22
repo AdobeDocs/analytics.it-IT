@@ -2,7 +2,7 @@
 title: Motore di ricerca
 description: Il motore di ricerca utilizzato dal visitatore per raggiungere il sito.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ Per distinguere tra ricerca a pagamento e ricerca naturale, è necessario il ril
 
 Questa dimensione fa riferimento a più tabelle di ricerca interne ad Adobe. Ogni valore è basato sul [referente](referrer.md) dell’hit, che dipende dai filtri [URL](/help/admin/admin/internal-url-filter-admin.md)interni. Accertatevi che la dimensione del referente e i filtri URL interni siano configurati correttamente.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono i motori di ricerca utilizzati per raggiungere il sito. I valori di esempio includono `"Google"`, `"Microsoft Bing"`e `"DuckDuckGo"`. Il valore della `"Unspecified"` dimensione è tutto traffico non di ricerca.
+Gli elementi dimensionali includono i motori di ricerca utilizzati per raggiungere il sito. I valori di esempio includono `"Google"`, `"Microsoft Bing"`e `"DuckDuckGo"`. L’elemento `"Unspecified"` dimensione è tutto traffico non di ricerca.
