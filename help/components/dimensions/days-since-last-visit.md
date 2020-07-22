@@ -2,7 +2,7 @@
 title: Giorni dall'ultima visita
 description: Il numero di giorni tra l’hit corrente e l’ultima volta che l’hanno visitato.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 1%
@@ -24,6 +24,6 @@ I visitatori della prima visita non sono inclusi in questa dimensione.
 
 Questa dimensione funziona automaticamente per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono il numero di giorni tra l’ultima visita di un visitatore e l’hit corrente. Ogni numero di giorni è un valore di dimensione separato, con `"Same day"` evento che ha avuto luogo l’ultima visita di un visitatore e l’hit corrente nello stesso giorno.
+Gli elementi dimensione includono il numero di giorni tra l’ultima visita di un visitatore e l’hit corrente. Ogni numero di giorni è un elemento dimensione separato, con `"Same day"` eventi in cui l&#39;ultima visita di un visitatore e l&#39;hit corrente si sono verificati nello stesso giorno.
