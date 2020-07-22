@@ -2,7 +2,7 @@
 title: Come si riproduce il funzionamento
 description: Comprendere il concetto di "riproduzione" in cross-device  Analytics
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Non appena viene raccolto un hit, CDA tenta di incollarlo a dispositivi noti. Co
 *Dati visualizzati il giorno in cui viene raccolto:*
 
 | Timestamp | ECID | eVar1 o CustomerID | Spiegazione dell&#39;hit | Metrica Persone (cumulativa) tramite Device Graph | Metrica Persone (cumulativa) con cuciture basate su campi |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob accede al suo desktop | `1` (246) | `2` (246 e Bob) |
 | `3` | `3579` | - | Bob sul suo dispositivo mobile, non autenticato | `2` (246 e 3579) | `3` (246, Bob e 3579) |
@@ -56,7 +56,7 @@ Circa una volta alla settimana, CDA ricalcola i dati storici in base ai disposit
 *Gli stessi dati dopo la riproduzione:*
 
 | Timestamp | ECID | eVar1 o CustomerID | Spiegazione dell&#39;hit | Metrica Persone (cumulativa) tramite Device Graph | Metrica Persone (cumulativa) con cuciture basate su campi |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob accede al suo desktop | `1` (Cluster1) | `1` (Bob) |
 | `3` | `3579` | - | Bob sul suo dispositivo mobile, non autenticato | `1` (Cluster1) | `1` (Bob) |
