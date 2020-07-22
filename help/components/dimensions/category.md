@@ -2,7 +2,7 @@
 title: Categoria
 description: La categoria di prodotto dell’hit.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -18,9 +18,9 @@ La dimensione &quot;Categoria&quot; indica la categoria di prodotto dell’hit. 
 
 Questa dimensione fa riferimento alla prima parte della stringa nella [`products`](/help/implement/vars/page-vars/products.md) variabile. Tutto ciò che precede il primo punto e virgola (`;`) compila questa dimensione.
 
-## Valori dimensione
+## Elementi dimensione
 
-Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina i valori della dimensione. Adobe consiglia di raggruppare i singoli prodotti in categorie significative, utilizzando sia le dimensioni &#39;Prodotto&#39; che &#39;Categoria&#39;.
+Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina gli elementi dimensione. Adobe consiglia di raggruppare i singoli prodotti in categorie significative, utilizzando sia le dimensioni &#39;Prodotto&#39; che &#39;Categoria&#39;.
 
 >[!TIP]
 >
