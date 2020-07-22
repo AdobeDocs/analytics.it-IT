@@ -2,7 +2,7 @@
 title: Unità
 description: Il numero totale di prodotti acquistati all'interno di tutti gli ordini.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Unità
 
-La metrica &quot;Unità&quot; mostra il numero totale di prodotti acquistati all&#39;interno di tutti gli ordini. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali valori di dimensione hanno contribuito a determinare quanti prodotti sono stati acquistati. Ad esempio, potete visualizzare le campagne principali (utilizzando la dimensione del codice [di](../dimensions/tracking-code.md) tracciamento) o i termini di ricerca interna principali (utilizzando una [eVar](../dimensions/evar.md)) che hanno contribuito ai prodotti acquistati.
+La metrica &quot;Unità&quot; mostra il numero totale di prodotti acquistati all&#39;interno di tutti gli ordini. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali elementi dimensionali hanno contribuito a determinare quanti prodotti sono stati acquistati. Ad esempio, potete visualizzare le campagne principali (utilizzando la dimensione del codice [di](../dimensions/tracking-code.md) tracciamento) o i termini di ricerca interna principali (utilizzando una [eVar](../dimensions/evar.md)) che hanno contribuito ai prodotti acquistati.
 
 ## Modalità di calcolo di questa metrica
 
