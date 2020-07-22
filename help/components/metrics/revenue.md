@@ -2,7 +2,7 @@
 title: Ricavi
 description: L'ammontare monetario dei prodotti acquistati all'interno di tutti gli ordini.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Ricavi
 
-La metrica &quot;Revenue&quot; (Entrate) mostra la quantità monetaria di prodotti acquistati all&#39;interno di tutti gli ordini. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali valori di dimensione hanno contribuito alle entrate. Ad esempio, potete visualizzare le campagne principali (utilizzando la dimensione del codice [di](../dimensions/tracking-code.md) tracciamento) o i termini di ricerca interni principali (utilizzando una [eVar](../dimensions/evar.md)).
+La metrica &quot;Revenue&quot; (Entrate) mostra la quantità monetaria di prodotti acquistati all&#39;interno di tutti gli ordini. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali elementi dimensionali hanno contribuito alle entrate. Ad esempio, potete visualizzare le campagne principali (utilizzando la dimensione del codice [di](../dimensions/tracking-code.md) tracciamento) o i termini di ricerca interni principali (utilizzando una [eVar](../dimensions/evar.md)).
 
 ## Modalità di calcolo di questa metrica
 
