@@ -1,34 +1,34 @@
 ---
 title: Domande frequenti
-description: Risposte alle domande frequenti nel passaggio da una piattaforma di terze parti ad Adobe.
+description: Risposte alle domande frequenti riguardanti il passaggio da una piattaforma di terze parti ad Adobe.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 1%
+ht-degree: 68%
 
 ---
 
 
 # Domande frequenti
 
-**Come posso migrare i miei dati storici dalla piattaforma di terze parti ad Adobe Analytics?**
+**Come posso trasferire i miei dati storici dalla piattaforma di terze parti ad Adobe  Analytics?**
 
-Ogni piattaforma Analytics offre diversi modi per raccogliere, gestire e archiviare i dati. Invece di migrare i dati storici, Adobe consiglia di stabilire una data limite per iniziare a raccogliere e utilizzare i dati in Adobe Analytics. Le date di interruzione più frequenti utilizzate sono l&#39;inizio di un anno fiscale, l&#39;inizio di un anno civile o l&#39;inizio di un mese civile. Se gli utenti desiderano visualizzare i dati storici, possono accedere alla piattaforma di terze parti per ottenere eventuali specifiche esigenze di reporting storico.
+Ogni piattaforma Analytics offre diversi modi per raccogliere, gestire e archiviare i dati. Al posto della migrazione dei dati storici, Adobe consiglia di stabilire una data di interruzione precisa per iniziare a raccogliere e utilizzare i dati in Adobe Analytics. Le date di interruzione più frequenti sono l’inizio dell’anno fiscale, l’inizio dell’anno solare o l’inizio del mese. Se gli utenti desiderano visualizzare i dati storici, possono accedere alla piattaforma di terze parti per soddisfare eventuali esigenze specifiche di reporting storico.
 
-Se l&#39;azienda desidera che i dati storici vengano trasferiti ad Adobe, contatta l&#39;Account Manager dell&#39;organizzazione. Un consulente per l&#39;implementazione può collaborare con la tua organizzazione per tradurre un&#39;esportazione di dati Google Analytics in un&#39;origine dati che può essere ingerita dai server di raccolta dati Adobe.
+Se l’organizzazione desidera che i dati storici vengano trasferiti ad Adobe, contatta il loro Account Manager. Un consulente per l’implementazione può collaborare con l’organizzazione per tradurre un’esportazione di dati Google Analytics in un’origine dati che può essere ingerita dai server di raccolta dati Adobe.
 
-Adobe non consiglia di portare dati storici, in quanto si tratta di un processo complesso e di costi proibitivi per la vostra organizzazione. L&#39;identificazione dei visitatori è inoltre impossibile da indirizzare direttamente ad Adobe, in quanto le informazioni sui visitatori vengono memorizzate in cookie diversi e in formati diversi tra le piattaforme.
+Adobe non consiglia di trasferire i dati storici, in quanto si tratta di un processo complesso ed eccessivamente costoso per l’organizzazione. Inoltre è impossibile trasferire direttamente ad Adobe l’identificazione dei visitatori, in quanto le informazioni sui visitatori vengono memorizzate in cookie e in formati diversi tra le piattaforme.
 
-**Sono abituato a un menu a discesa di segmentazione in molti dei miei report. Come posso ricrearlo in[!UICONTROL Analysis Workspace]?**
+**Ho l’abitudine di usare in molti rapporti un elenco a discesa di segmentazione. How can I recreate that in[!UICONTROL Analysis Workspace]?**
 
-I filtri a discesa sono una funzione flessibile e robusta in [!UICONTROL Analysis Workspace] che consente un menu a discesa di segmentazione. In un progetto area di lavoro:
+Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation dropdown. In un progetto Workspace:
 
-1. Fate clic con il tasto Ctrl (Windows) o Comando (Mac OS) sui componenti che desiderate includere nel menu a discesa. Non sei limitato a soli segmenti; qualsiasi componente può essere incluso in un filtro a discesa.
-2. Trascina il gruppo di componenti nell’area di lavoro con l’etichetta &quot;Rilascia un segmento qui&quot;. Prima di lasciare andare, tenete premuto Maiusc.
+1. Usa i comandi Ctrl-clic (Windows) o Cmd-clic (Mac) sui componenti che desideri includere nell’elenco a discesa. Oltre ai segmenti, puoi includere qualsiasi componente nei filtri a discesa.
+2. Trascina il gruppo di componenti nella sezione di Workspace con l’etichetta “Drop a segment here” (Rilascia un segmento qui). Prima di rilasciare, tieni premuto Maiusc.
 
-Gli utenti che accedono a questo [!UICONTROL Workspace] progetto possono ora utilizzare questo menu a discesa per applicare segmenti o altri componenti al progetto. Per ulteriori informazioni, consulta Panoramica [dei](/help/analyze/analysis-workspace/c-panels/panels.md) pannelli nella guida Strumenti di Adobe Analytics.
+Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
-**Sono abituato a fare clic su un valore di dimensione per visualizzare un&#39;espansione. Come posso replicare questo semplice flusso di lavoro in Analysis Workspace?**
+**Sono abituato a fare clic su un elemento dimensione per visualizzare un&#39;espansione. Come posso replicare questo flusso di lavoro agevole in Analysis Workspace?**
 
-I valori delle dimensioni in [!UICONTROL Analysis Workspace] consentono anche un flusso di lavoro di suddivisione semplice. Per accedervi, fate clic con il pulsante destro del mouse invece di fare clic con il pulsante sinistro del mouse. Fare clic con il pulsante destro del mouse sul valore di una dimensione, scegliere **[!UICONTROL Breakdown], quindi selezionare il componente desiderato. Per applicare la stessa suddivisione a più valori dimensionali, utilizzate Ctrl+clic (Windows) o Comando+clic (Mac) su ciascun valore.
+Gli elementi dimensionali in [!UICONTROL Analysis Workspace] dispongono inoltre di un flusso di lavoro di suddivisione semplice. Per accedervi, fate clic con il pulsante destro del mouse invece di fare clic con il pulsante sinistro del mouse. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. Potete applicare la stessa suddivisione a più elementi dimensionali utilizzando Ctrl+clic (Windows) o Comando+clic (Mac) su ciascun valore.
