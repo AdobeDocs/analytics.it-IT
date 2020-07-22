@@ -5,10 +5,10 @@ title: Suddividere dimensioni
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 69%
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ Analizza i dati in tantissimi modi per ogni necessità; realizza query con metri
 
    ![Risultato passaggio](assets/fa_data_table_actions.png)
 
-   Puoi analizzare metriche per valori di dimensione o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+   Puoi suddividere le metriche per elementi dimensionali o segmenti di pubblico tra periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
    >[!NOTE] È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
 
