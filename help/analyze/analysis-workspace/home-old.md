@@ -3,7 +3,7 @@ description: Introduzione ad Adobe Analytics.
 keywords: Analysis Workspace
 title: Guida introduttiva
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 98%
@@ -21,7 +21,7 @@ Analysis Workspace è uno degli strumenti principali di Adobe che consente di pr
 
 ## Recuperare un report classifica di base in Workspace
 
-Recupera un report classifica di base utilizzando Analysis Workspace. Un report classifica mostra una visualizzazione totale aggregata di ciascun valore di dimensione, con i valori più grandi in alto. Questi tipi di report sono utili per identificare i componenti del sito più efficaci, ad esempio le pagine che ottengono il maggior traffico o quelle che generano più vendite.
+Recupera un report classifica di base utilizzando Analysis Workspace. Un rapporto classifica mostra una visualizzazione totale aggregata di ciascun elemento dimensione, mostrando per primo i valori più grandi. Questi tipi di report sono utili per identificare i componenti del sito più efficaci, ad esempio le pagine che ottengono il maggior traffico o quelle che generano più vendite.
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 2. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
@@ -31,7 +31,7 @@ Recupera un report classifica di base utilizzando Analysis Workspace. Un report 
 6. A sinistra appare un elenco di dimensioni, metriche, segmenti e intervalli di date. Individua la dimensione Pages (Pagine) (di colore arancione) e trascinala sull’area di lavoro dove è indicato “Drop a Dimension Here” (Rilascia qui una dimensione).
 7. Se la suite di rapporti contiene dati, è possibile visualizzare un report che mostra le pagine principali del mese in corso. Analysis Workspace ha popolato automaticamente il report con la metrica [Occorrenze](/help/components/metrics/occurrences.md).
 8. Individua la metrica Visite (di colore verde) e trascinala **sopra** o **accanto** all’intestazione della metrica Occorrenze (evita di posizionarla al di sopra della metrica). Se trascini la metrica Visite al di sopra di Occorrenze, la metrica viene sostituita durante la generazione del report. Se trascini la metrica Visite accanto a Occorrenze, entrambe le metriche vengono visualizzate una accanto all’altra.
-9. Per salvare il progetto, fai clic su *[!UICONTROL Project] > [!UICONTROL Save]*nel menu in alto a sinistra.
+9. Per salvare il progetto, fai clic su *[!UICONTROL Project] > [!UICONTROL Save]* nel menu in alto a sinistra.
 
 ## Recuperare un report con tendenze di base in Workspace
 
@@ -47,13 +47,13 @@ Recupera un report con tendenze di base utilizzando Analysis Workspace. Un repor
 8. Individua l’intervallo di data “Week” (Settimana) (di colore viola) nell’elenco dei componenti dell’intervallo di date a sinistra. Fai clic sul titolo dell’intervallo di date per espandere e visualizzare tutti i componenti dell’intervallo di date, oppure utilizza la barra di ricerca.
 9. Trascina l’intervallo di date “Week” (Settimana) sopra l’intestazione dell’intervallo di date “Day” (Giorno) nell’area di lavoro per sostituirlo.
 10. Il report con tendenze ora è aggregato per settimana anziché per giorno.
-11. Per salvare il progetto, fai clic su *[!UICONTROL Project] > [!UICONTROL Save]*nel menu in alto a sinistra.
+11. Per salvare il progetto, fai clic su *[!UICONTROL Project] > [!UICONTROL Save]* nel menu in alto a sinistra.
 
 ## Esercitarsi con lo strumento
 
 Poiché Analysis Workspace è uno strumento di reporting, non ha alcun impatto sulla raccolta dei dati. Non ci saranno ripercussioni in seguito al trascinamento di componenti all’interno di un progetto per scoprire come funziona lo strumento. Trascina nel progetto Workspace diverse combinazioni di dimensioni e metriche per scoprire quali sono le opzioni disponibili.
 
-Se trascini accidentalmente un componente non valido nel progetto Workspace o desideri tornare indietro di un passo, premi Ctrl+Z (Windows) o Comando+Z (Mac) per annullare l’ultima azione eseguita. È anche possibile iniziare con un’area di lavoro pulita facendo clic su *[!UICONTROL Project] > [!UICONTROL New]*nel menu in alto a sinistra.
+Se trascini accidentalmente un componente non valido nel progetto Workspace o desideri tornare indietro di un passo, premi Ctrl+Z (Windows) o Comando+Z (Mac) per annullare l’ultima azione eseguita. È anche possibile iniziare con un’area di lavoro pulita facendo clic su *[!UICONTROL Project] > [!UICONTROL New]* nel menu in alto a sinistra.
 
 ## Risoluzione dei problemi
 
@@ -74,14 +74,14 @@ Se crei correttamente un report Workspace ma non sono presenti dati, puoi contro
 
 * [Note sulla versione di Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): leggi le funzioni più recenti introdotte nello strumento.
 * [Analysis Workspace su YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): scopri come utilizzare la maggior parte delle funzioni di Analysis Workspace tramite questa ampia playlist.
-* Suggerimenti interni ai prodotti: i suggerimenti della giornata, oltre a brevi video, vengono visualizzati occasionalmente nell’angolo inferiore destro di Analysis Workspace. Se questi suggerimenti vengono chiusi, possono essere recuperati in qualsiasi momento andando su *[!UICONTROL Help] > [!UICONTROL Tips]*.
+* Suggerimenti interni ai prodotti: i suggerimenti della giornata, oltre a brevi video, vengono visualizzati occasionalmente nell’angolo inferiore destro di Analysis Workspace. Se questi suggerimenti vengono chiusi, possono essere recuperati in qualsiasi momento andando su *[!UICONTROL Help] > [!UICONTROL Tips]*.
 * [Community di Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): discuti di Analysis Workspace con altri utenti e vota le funzioni che vorresti vedere nello strumento.
 * Post sul blog:
-   * [Un’analisi più intelligente per dare più strumenti alle aziende](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [Le nuove funzioni di Adobe Analytics rendono ancora più accessibili dati e informazioni](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [5 suggerimenti per massimizzare la produttività con Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Approfondimenti rapidi con Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [Perché utilizzare Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+   * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) (Un’analisi più intelligente per dare più strumenti alle aziende)
+   * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/) (Le nuove funzioni di Adobe Analytics rendono ancora più accessibili dati e informazioni)
+   * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/) (5 suggerimenti per massimizzare la produttività con Analysis Workspace)
+   * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/) (Approfondimenti rapidi con Analysis Workspace)
+   * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/) (Perché utilizzare Analysis Workspace)
 
 ## Passaggi successivi
 
