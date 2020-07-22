@@ -2,7 +2,7 @@
 title: Codice di tracciamento
 description: Nome del codice di tracciamento o della campagna.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ La dimensione &quot;Codice tracciamento&quot; elenca i nomi dei codici di tracci
 
 Questa dimensione recupera i dati dalla stringa [`v0` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la [`campaign`](/help/implement/vars/page-vars/campaign.md) variabile.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono i nomi dei codici di monitoraggio sul sito. L&#39;organizzazione determina i valori di dimensione specifici che si desidera utilizzare.
+Gli elementi dimensione includono i nomi dei codici di monitoraggio sul sito. L&#39;organizzazione determina quali elementi dimensionali specifici si desidera utilizzare.
