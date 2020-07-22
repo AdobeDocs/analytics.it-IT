@@ -1,8 +1,8 @@
 ---
 title: Panoramica su Attribution
-description: Concetto di attribuzione del credito di un evento di successo a più valori di dimensione.
+description: Concetto di attribuzione del credito di un evento di successo a più elementi di dimensione.
 translation-type: tm+mt
-source-git-commit: 53f5c4273a7621f3b447e36b19010a797e4ddffe
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
@@ -12,12 +12,12 @@ ht-degree: 52%
 
 # Panoramica su Attribution
 
-Attribuzione consente agli analisti di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo. Ad esempio:
+Attribuzione consente agli analisti di personalizzare il modo in cui gli elementi dimensionali ottengono credito per gli eventi di successo. Ad esempio:
 
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento per una delle pagine del prodotto. Consente di aggiungere il prodotto al carrello, ma non di acquistarlo.
 2. Il giorno successivo, l&#39;utente può consultare un post su social media di uno dei suoi amici, fare clic sul collegamento e completare l&#39;acquisto.
 
-In alcuni rapporti, potreste desiderare l’ordine attribuito alla ricerca a pagamento. In altri rapporti, potreste desiderare l&#39;ordine attribuito a Social. Attribuzione consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta l&#39;Account Manager della tua organizzazione.
+In alcuni rapporti, potreste desiderare l’ordine attribuito alla ricerca a pagamento. In altri rapporti, potreste desiderare l&#39;ordine attribuito a Social. Attribuzione consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe  Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta l&#39;Account Manager della tua organizzazione.
 
 ## Valore di attribuzione IQ
 
