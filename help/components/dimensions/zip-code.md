@@ -2,7 +2,7 @@
 title: CAP
 description: Il codice postale del visitatore.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Le impostazioni [!UICONTROL Zip option] dell&#39;account [](/help/admin/admin/ge
 >
 >L&#39;impostazione della suite di rapporti è fondamentale per avere il controllo completo sulla compilazione di questa dimensione.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono il codice postale o postale del visitatore.
+Gli elementi dimensione includono il codice postale del visitatore.
