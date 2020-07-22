@@ -2,7 +2,7 @@
 title: AM/PM
 description: Determina se l’hit ha avuto luogo durante le ore AM o PM.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -18,6 +18,6 @@ La dimensione &#39;AM/PM&#39; fornisce informazioni sul caso in cui l&#39;hit si
 
 Questa dimensione funziona fuori dalla scatola. Non ha impostazioni da modificare. La sua unica dipendenza è dal fuso orario della suite di rapporti, che determina quali ore sono AM e quali sono PM.
 
-## Valori dimensione
+## Elementi dimensione
 
-Questa dimensione contiene sempre esattamente due valori di dimensione: `"AM"` e `"PM"`. Il valore della dimensione `"AM"` si applica a tutti gli hit dalle 12:00 AM alle 11:59 AM, mentre il valore della dimensione `"PM"` si applica a tutti gli hit dalle 12:00 PM alle 11:59 PM.
+Questa dimensione contiene sempre esattamente due elementi dimensionali: `"AM"` e `"PM"`. L’elemento della dimensione `"AM"` si applica a tutti gli hit dalle 12:00 AM alle 11:59 AM, mentre l’elemento della dimensione `"PM"` si applica a tutti gli hit dalle 12:00 PM alle 11:59 PM.
