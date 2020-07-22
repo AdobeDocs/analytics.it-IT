@@ -2,7 +2,7 @@
 title: Tipo referente
 description: Il tipo di referente, a seconda della provenienza del visitatore.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Tipo referente
 
-La dimensione &#39;Tipo referente&#39; indica i canali generici sui quali i visitatori hanno fatto clic per arrivare al sito. Adobe mantiene le regole per ogni valore di dimensione, a differenza dei canali [](marketing-channel.md)Marketing, in cui l&#39;organizzazione mantiene le regole per ogni canale.
+La dimensione &#39;Tipo referente&#39; indica i canali generici sui quali i visitatori hanno fatto clic per arrivare al sito. Adobe mantiene le regole per ogni elemento di dimensione, a differenza dei canali [](marketing-channel.md)Marketing, in cui l&#39;organizzazione mantiene le regole per ogni canale.
 
 ## Compilare questa dimensione con i dati
 
 Questa dimensione fa riferimento a più tabelle di ricerca interne ad Adobe. Ogni valore è basato sul [referente](referrer.md) dell’hit, che dipende dai filtri [URL](/help/admin/admin/internal-url-filter-admin.md)interni. Accertatevi che la dimensione del referente e i filtri URL interni siano configurati correttamente.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono il tipo di referente dell’hit. I valori specifici includono quanto segue:
+Gli elementi dimensione includono il tipo di referente dell’hit. I valori specifici includono quanto segue:
 
 * **Digitato/Segnalibro**: Non esistono dati di referente per l’hit.
 * **Motori** di ricerca: Il referente proviene da un motore di ricerca riconosciuto che include una stringa di query per parole chiave.
@@ -195,9 +195,9 @@ L&#39;elenco seguente fa riferimento alla tabella di ricerca &#39;Social network
 * `zooomr.com`
 * `zhihu.com`
 
-### Motori di ricerca nel valore della dimensione &quot;Altri siti Web&quot;
+### Motori di ricerca nell’elemento dimensione &quot;Altri siti Web&quot;
 
 Quando si visualizzano domini specifici nella dimensione &quot;Tipo referente&quot;, possono essere presenti domini che ci si aspetterebbe in &quot;Motori di ricerca&quot; elencati invece in &quot;Altri siti Web&quot;. Ad esempio, potete vedere `'google.com'` in &quot;Altri siti Web&quot;.
 
-* **Domini del motore di ricerca nel valore** della dimensione &quot;Motori di ricerca&quot;: Il referente ha soddisfatto tutti i criteri per essere classificato come motore di ricerca da Adobe. Il dominio di riferimento è un motore di ricerca valido *e l&#39;URL di provenienza contiene* un parametro di stringa di query per parole chiave.
-* **Domini del motore di ricerca nel valore** della dimensione &quot;Altri siti Web&quot;: L&#39;URL di provenienza non soddisfa tutti i criteri per la classificazione come motore di ricerca. Esempi comuni includono sottodomini dedicati ad altre funzioni oltre alla ricerca. Ad esempio, `mail.google.com` o `autos.yahoo.com` non sono motori di ricerca, ma risiedono in un dominio di primo livello comunemente associato alla ricerca. Questi sottodomini non includono una stringa di query per parole chiave, pertanto sono inclusi in &#39;Altri siti Web&#39; invece di &#39;Motori di ricerca&#39;.
+* **Domini del motore di ricerca nell&#39;elemento** dimensione &quot;Motori di ricerca&quot;: Il referente ha soddisfatto tutti i criteri per essere classificato come motore di ricerca da Adobe. Il dominio di riferimento è un motore di ricerca valido *e l&#39;URL di provenienza contiene* un parametro di stringa di query per parole chiave.
+* **Domini del motore di ricerca nell&#39;elemento** dimensione &quot;Altri siti Web&quot;: L&#39;URL di provenienza non soddisfa tutti i criteri per la classificazione come motore di ricerca. Esempi comuni includono sottodomini dedicati ad altre funzioni oltre alla ricerca. Ad esempio, `mail.google.com` o `autos.yahoo.com` non sono motori di ricerca, ma risiedono in un dominio di primo livello comunemente associato alla ricerca. Questi sottodomini non includono una stringa di query per parole chiave, pertanto sono inclusi in &#39;Altri siti Web&#39; invece di &#39;Motori di ricerca&#39;.
