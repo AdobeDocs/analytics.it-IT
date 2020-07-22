@@ -2,7 +2,7 @@
 title: Durata media della sessione (mobile)
 description: Lunghezza media della sessione per il dispositivo mobile.
 translation-type: tm+mt
-source-git-commit: 625af73ad2fbe4b44bce00a122c4e65d8964323f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Durata media della sessione (mobile)
 
-La metrica &#39;Lunghezza sessione media (mobile)&#39; mostra il tempo medio in cui un dato valore di dimensione è presente per valore di dimensione. È simile alla metrica Tempo [medio sul sito](average-time-on-site.md) , ma questa metrica utilizza componenti specifici dell’SDK per dispositivi mobili come parte del calcolo.
+La metrica &#39;Lunghezza media sessione (mobile)&#39; mostra il tempo medio in cui un dato elemento dimensione è presente per elemento dimensione. È simile alla metrica Tempo [medio sul sito](average-time-on-site.md) , ma questa metrica utilizza componenti specifici dell’SDK per dispositivi mobili come parte del calcolo.
 
 ## Modalità di calcolo di questa metrica
 
