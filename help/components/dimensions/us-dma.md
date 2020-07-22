@@ -2,7 +2,7 @@
 title: DMA USA
 description: Area di mercato designata dell'hit.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Questa dimensione fa riferimento a regole di ricerca interne ad Adobe. Il valore
 >
 >Se l&#39;azienda rispetta le severe normative sulla privacy laddove l&#39; [oscuramento dell&#39;indirizzo](/help/admin/admin/general-acct-settings-admin.md) IP non è sufficiente, puoi richiedere di disabilitare completamente i dati sulla geolocalizzazione. Contatta l&#39;Assistenza clienti con l&#39;ID suite di rapporti e richiedi di disattivare &#39;Geografia&#39; per la suite di rapporti.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono il codice DMA e DMA del visitatore. Il codice a 3 cifre non è un codice ZIP, ma il codice DMA di Nielsen. I valori di esempio includono `"Dallas-Ft. Worth (623)"`, `"New York (501)"`, o `"Los Angeles (803)"`. Il valore della dimensione `"No Metro (0)"` include tutto il traffico internazionale al di fuori degli Stati Uniti.
+Gli elementi dimensione includono il codice DMA e DMA del visitatore. Il codice a 3 cifre non è un codice ZIP, ma il codice DMA di Nielsen. I valori di esempio includono `"Dallas-Ft. Worth (623)"`, `"New York (501)"`, o `"Los Angeles (803)"`. L&#39;elemento dimensione `"No Metro (0)"` include tutto il traffico internazionale al di fuori degli Stati Uniti.
 
 ## Differenze tra la posizione segnalata e quella effettiva
 
