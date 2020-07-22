@@ -2,7 +2,7 @@
 title: Giorni dall'ultimo acquisto
 description: Il numero di giorni tra l'hit corrente e l'ultimo acquisto che hanno effettuato.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,6 +20,6 @@ I visitatori che non hanno mai acquistato qualcosa non sono inclusi in questa di
 
 Adobe compila automaticamente questa dimensione in base all’ [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) evento nell’implementazione. Se implementate l’ `purchase` evento sul sito, questa dimensione funziona sempre.
 
-## Valori dimensione
+## Elementi dimensione
 
-I valori delle dimensioni includono il numero di giorni tra l&#39;acquisto più recente di un visitatore e l&#39;hit corrente. Ogni numero di giorni è un valore di dimensione separato, con &quot;Stesso giorno&quot; che si verifica quando l&#39;acquisto più recente di un visitatore e l&#39;hit corrente si sono verificati nello stesso giorno.
+Gli elementi dimensione includono il numero di giorni tra l&#39;acquisto più recente di un visitatore e l&#39;hit corrente. Ogni numero di giorni è un elemento dimensione separato, con &quot;Lo stesso giorno&quot; che si verifica quando l&#39;acquisto più recente di un visitatore e l&#39;hit corrente si sono verificati nello stesso giorno.
