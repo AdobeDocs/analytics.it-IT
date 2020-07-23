@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
+source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 94%
+source-wordcount: '258'
+ht-degree: 92%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 94%
       + [Panoramica sui contenuti dei feed dati](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcolare metriche](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Riferimento colonna dati](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Risorse di intestazione](analytics-data-feed/c-df-contents/headers.md)
-      + [Ricerca eventi pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Ricerca evento pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Ricerca attributi per dispositivi mobili](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Caratteri speciali](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Domande frequenti sui feed dati](analytics-data-feed/df-faq.md)
