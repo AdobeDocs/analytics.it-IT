@@ -2,9 +2,9 @@
 title: Occorrenze
 description: Numero di hit impostati o persistenti da una variabile.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ La metrica &#39;Occorrenze&#39; mostra il numero di hit in cui una determinata d
 
 ## Modalità di calcolo di questa metrica
 
-Tra tutti gli hit in una suite di rapporti, puoi includere quelli in cui un elemento dimensione è definito o persistente. Alcune dimensioni, come [eVar](../dimensions/evar.md), persistono oltre l’hit su cui sono impostate. Metriche come visualizzazioni [di](page-views.md) pagina e [occorrenze](occurrences.md) contano sia i valori iniziali che quelli persistenti. Questa metrica non conta i valori persistenti.
+Tra tutti gli hit in una suite di rapporti, puoi includere quelli in cui un elemento dimensione è definito o persistente. Alcune dimensioni, come [eVar](../dimensions/evar.md), persistono oltre l’hit su cui sono impostate. Metriche come visualizzazioni [di](page-views.md) pagina e [occorrenze](occurrences.md) contano sia i valori iniziali che quelli persistenti.
 
 ## Confronto con metriche simili
 
