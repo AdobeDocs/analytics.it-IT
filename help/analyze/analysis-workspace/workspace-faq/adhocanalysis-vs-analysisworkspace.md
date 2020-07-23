@@ -3,10 +3,10 @@ description: Confronta la terminologia e le attività di Ad Hoc Analysis ad Anal
 title: Confronto tra Analysis Workspace e Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace porta moltissime delle funzionalità di Ad Hoc Analysis nel f
 
 Per un confronto tecnico delle funzionalità principali e dei requisiti di sistema tra questi due prodotti, fai clic [qui](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-overview/analytics-product-comparison.html).
 
-## Confronto della terminologia chiave  {#section_6109406B83B043A18E46D38F130B1D2E}
+## Confronto della terminologia chiave {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -32,12 +32,12 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
 | Modello di flusso | Visualizzazione flusso |
 | Abbandono | Visualizzazione abbandono |
 
-## Confronto delle attività chiave  {#section_F31446F1DFA742D794A30D713E223440}
+## Confronto delle attività chiave {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis  Attività </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis Attività </th> 
    <th colname="col2" class="entry"> Attività Analysis Workspace </th> 
   </tr>
  </thead>
@@ -56,6 +56,10 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Video: Utilizzo dei segmenti in Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Video: Applicazione dei sementi in un pannello</a> </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p>Creare segmenti temporanei ("ad hoc") </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. È inoltre possibile aggiungere filtri a discesa nella zona di rilascio del pannello per creare più segmenti temporanei alla volta, consentendo interazioni controllate tra i progetti. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Segmenti ad hoc in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Video: Filtri a discesa in  Analysis Workspace</a> </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p>Scegliere intervalli di date e granularità </p> </td> 
    <td colname="col2"> <p>Gli intervalli di date e le granularità sono disponibili nel menu del componente Tempo e possono essere utilizzati in 3 modi: </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
@@ -65,17 +69,13 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > Video: Lavorare con le date in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > Video: Intervalli date personalizzati</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Creare segmenti interni (“ad hoc”) </p> </td> 
-   <td colname="col2"> <p>Puoi <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >creare segmenti istantanei e interni (“ad hoc”)</a> in Analysis Workspace trascinando elementi dimensionali nella zona di rilascio del segmento nella parte superiore del pannello. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Segmenti ad hoc in Analysis Workspace</a> </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Usare l’abbandono e i funnel di conversione </p> </td> 
    <td colname="col2"> <p>Le <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualizzazioni Abbandono</a> sono disponibili in Analysis Workspace nel menu del componente Visualizzazione. Simile ad Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Abbandono può abbracciare una visita o un visitatore e, se lo desideri, è possibile includere “Tutte le visite”. Le tendenze dell’abbandono possono essere rapidamente elaborate mediante il menu di scelta rapida. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Gli elementi dimensionali possono essere connessi da un operatore OR (simile ai gruppi) ed è possibile utilizzare gli eventi nel funnel. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Mediante il menu di scelta rapida è inoltre possibile effettuare il rendering dei passi successivi di Prosecuzione e Abbandono. </li> 
-    </ol> <p>Inoltre, Abbandono in Analysis Workspace consente  <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensioni diverse</a> tra le varie fasi, un miglioramento rispetto ad Ad Hoc Analysis. Dimensioni diverse nei passaggi vengono gestite con un operatore AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Abbandono e Funnel</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Utilizzo di più dimensioni di abbandono</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Confronto di segmenti in Abbandono</a> </p> </td> 
+    </ol> <p>Inoltre, Abbandono in Analysis Workspace consente <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensioni diverse</a> tra le varie fasi, un miglioramento rispetto ad Ad Hoc Analysis. Dimensioni diverse nei passaggi vengono gestite con un operatore AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Abbandono e Funnel</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Utilizzo di più dimensioni di abbandono</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Confronto di segmenti in Abbandono</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Esaminare il flusso (percorso) </p> </td> 
@@ -83,10 +83,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Flow può estendere una visita o un visitatore. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Le statistiche chiave vengono visualizzate in termini di visualizzazioni di percorso %. </li> 
-    </ul> <p>Inoltre, Flusso consente  <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensioni diverse</a> e la possibilità di fare clic con il pulsante destro del mouse e creare un segmento, un miglioramento rispetto all’Ad Hoc Analysis. </p> <p>Attualmente, Flusso in Analysis Workspace <b>non è in grado di</b>: </p> 
-    <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
-     <li id="li_384141A577BB4A94899C3E36714225EE">Disattivare istanze ripetute. </li> 
-     <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Consentire agli utenti di scegliere un evento di successo. </li> 
+    </ul> <p>Inoltre, Flusso consente <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensioni diverse</a> e la possibilità di fare clic con il pulsante destro del mouse e creare un segmento, un miglioramento rispetto all’Ad Hoc Analysis. </p> <p>Attualmente, Flusso in  Analysis Workspace <b>non</b> può consentire agli utenti di scegliere un evento di successo. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Video: Panoramica della Visualizzazione Flusso</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Video: Flusso multidimensionale</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Video: Creazione dei segmenti da Flusso</a> </p> </td> 
   </tr> 
   <tr> 
@@ -99,20 +96,12 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Selezionare suite di rapporti </p> </td> 
-   <td colname="col2"> <p>Così come per Ad Hoc Analysis, per un progetto Workspace è possibile selezionare solamente una suite di rapporti. È comunque prevista la gestione di una suite multi-rapporto. </p> </td> 
+   <td colname="col2"> <p>È possibile aggiungere più suite di rapporti a un singolo progetto in  Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Video: Più suite di rapporti in Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Non incluso </p> </td> 
-   <td colname="col2"> <p>Aggiungere intervalli di date ai segmenti. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Non incluso </p> </td> 
-   <td colname="col2"> <p>Usare la sequenza “Solo prima/Solo dopo” nei segmenti. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. Include oltre 10 modelli algoritmici e basati su regole. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video: IQ attribuzione nelle tabelle a forma libera</a> </p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
