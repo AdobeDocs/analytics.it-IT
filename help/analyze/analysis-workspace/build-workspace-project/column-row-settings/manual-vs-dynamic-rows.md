@@ -2,9 +2,9 @@
 title: Elementi dimensione dinamici e statici
 description: Come interagire con gli elementi dimensionali dinamici e statici nelle tabelle.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ Gli elementi dimensione statici **non** dispongono dell&#39;opzione filtro righe
 Le righe dinamiche e statiche si comportano in modo diverso nella riga totale a forma libera. Per impostazione predefinita:
 
 * Le righe dinamiche vengono sommate con metriche lato server e deduplicate, come visite o visitatori
-* Le righe statiche sono sommate sul lato client e **non** duplicano le metriche.
-
-[Ulteriori informazioni sulle opzioni totali](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) di Workspace per le righe dinamiche e statiche.
+* Le righe statiche sono sommate sul lato client e **non** duplicano le metriche. Per calcolare la riga totale lato server, modificare l&#39;impostazione Riga in **Mostra totale** complessivo. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
