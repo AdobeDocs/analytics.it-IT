@@ -1,10 +1,10 @@
 ---
-title: Elementi dimensione dinamici e statici
+title: Elementi dimensione dinamici e statici nelle tabelle a forma libera
 description: Come interagire con gli elementi dimensionali dinamici e statici nelle tabelle.
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Ad esempio, quando si trascina la dimensione Tipo browser nella tabella, gli ele
 
 Gli elementi dimensione dinamica dispongono dell&#39;opzione filtro riga e **non** sono presenti icone blocco e X.
 
+![](assets/dynamic-items.png)
+
 ## Elementi dimensione statici
 
 Gli elementi dimensionali statici non cambiano con il tempo; sono componenti fissi che vengono sempre restituiti in una tabella a forma libera. Gli elementi dimensione statica sono preferiti quando si desidera analizzare sempre lo stesso elemento, siano essi campagne specifiche o giorni specifici della settimana.
@@ -37,9 +39,13 @@ Ad esempio, quando si trascina su specifici elementi del tipo di browser come Mi
 
 Gli elementi dimensione statici **non** dispongono dell&#39;opzione filtro righe. Al contrario, su ogni elemento sono presenti le icone Blocca e X. Fare clic sull&#39;icona X per rimuovere l&#39;elemento dimensione dalla tabella.
 
+![](assets/static-items.png)
+
 ## Elementi dimensionali misti
 
 È possibile aggiungere alla stessa tabella elementi dimensionali di dimensioni diverse. In questi casi, l’intestazione della riga indica &quot;Dimensioni miste&quot;. Questi elementi dimensione sono statici. Ad esempio, aggiungere elementi dimensionali specifici dalla dimensione Tipo browser e altri elementi dimensionali dalla dimensione Browser.
+
+![](assets/mixed-dimensions.png)
 
 ## Righe totali a forma libera
 
