@@ -2,8 +2,11 @@
 description: Variabili per la generazione di rapporti sulla privacy in Privacy dei dati.
 title: Variabili per la generazione di rapporti sulla privacy
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +45,7 @@ Ogni suite di rapporti può essere configurata come segue:
 
 1. Fai clic sul pulsante **[!UICONTROL Enable Data Privacy Reports]**.
 
-   > [!NOTE] Una volta abilitate, queste variabili non possono essere disattivate.
+   >[!NOTE] Una volta abilitate, queste variabili non possono essere disattivate.
 
    ![](assets/rsm-privacy-enable.png)
 
