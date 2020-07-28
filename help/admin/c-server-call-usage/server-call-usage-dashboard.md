@@ -3,7 +3,7 @@ description: 'null'
 title: Visualizzazione dell'utilizzo della chiamata server corrente
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 4%
@@ -28,7 +28,7 @@ Pannello Utilizzo corrente
 
 * Confronta l&#39;utilizzo del periodo corrente con quello dello scorso anno (linea blu). Ovviamente, la linea blu verrà visualizzata solo se la società dispone di dati sull’utilizzo delle chiamate server dall’anno precedente.
 
-   > [!NOTE] Se desiderate visualizzare l&#39;utilizzo per un periodo di tempo precedente, dovete passare alla scheda Utilizzo [suite di](/help/admin/c-server-call-usage/report-suite-usage.md) rapporti e scaricare i dati di utilizzo per un periodo precedente.
+   >[!NOTE] Se desiderate visualizzare l&#39;utilizzo per un periodo di tempo precedente, dovete passare alla scheda Utilizzo [suite di](/help/admin/c-server-call-usage/report-suite-usage.md) rapporti e scaricare i dati di utilizzo per un periodo precedente.
 
 * Elenca la percentuale di chiamate utilizzate (in percentuali e dati non elaborati) e la percentuale del periodo di utilizzo trascorso (in percentuale e dati non elaborati).
 * Per impostazione predefinita, viene aggiornato ogni giorno, con una latenza di elaborazione di 5 giorni.
