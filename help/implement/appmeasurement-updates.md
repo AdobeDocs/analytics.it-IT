@@ -3,7 +3,7 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '2119'
 ht-degree: 97%
@@ -356,7 +356,7 @@ Data di rilascio: **18 settembre 2014**
 * Risoluzione del problema che causava un doppio conteggio pagina-vista in caso di chiamata a s.tl da una funzione di collegamento OnClick, nel caso in cui l’API Visitor non contenesse ancora i valori necessari.
 * Supporto HTTP POST.
 
-   > [!IMPORTANT] Affinché una chiamata [!DNL Analytics]utilizzi il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli URL troncati [ in IE](https://helpx.adobe.com/it/analytics/kb/shortening-image-request-urls.html)), devi usare l’implementazione più recente del servizio ID visitatori per Experience Cloud.
+   >[!IMPORTANT] Affinché una chiamata [!DNL Analytics]utilizzi il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli URL troncati [ in IE](https://helpx.adobe.com/it/analytics/kb/shortening-image-request-urls.html)), devi usare l’implementazione più recente del servizio ID visitatori per Experience Cloud.
 
 ## Versione 1.4
 
