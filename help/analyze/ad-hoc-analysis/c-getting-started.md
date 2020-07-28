@@ -3,7 +3,7 @@ description: Inizia con  Ad hoc analysis.
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 9%
@@ -30,11 +30,11 @@ Queste funzioni consentono di rispondere alle domande sul traffico del sito, sul
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Log in to Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Andate a <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>ed effettuate l'accesso utilizzando le credenziali Adobe  Analytics. </p> </td> 
+   <td colname="col2"> <p>Andate a <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>ed effettuate l'accesso utilizzando le vostre credenziali Adobe Analytics . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Avvia  Ad hoc analysis. </p> </td> 
-   <td colname="col2">Fate clic su <span class="uicontrol"> Adobe  Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol">  Ad hoc analysis</span>, quindi fate clic sul <span class="uicontrol"> pulsante Avvia  Ad hoc analysis</span> . <p> <p>Nota: Se non trovi il pulsante <b>Avvia  Ad hoc analysis</b> in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo <i>Utente</i> licenza Ad hoc analysis in Strumenti di amministrazione. </p> </p> </td> 
+   <td colname="col2">Fate clic su <span class="uicontrol">  Adobe Analytics</span> &gt; <span class="uicontrol"> Strumenti</span> &gt; <span class="uicontrol">  Ad hoc analysis</span>, quindi fate clic sul <span class="uicontrol"> pulsante Avvia  Ad hoc analysis</span> . <p> <p>Nota: Se non trovi il pulsante <b>Avvia  Ad hoc analysis</b> in questa pagina, accertati che l'amministratore ti abbia aggiunto al gruppo <i>Utente</i> licenza Ad hoc analysis in Strumenti di amministrazione. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crea un progetto. </p> </td> 
@@ -69,12 +69,12 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire  Ad hoc analysis su Java 7, Adobe non supporterà più l’implementazione  Ad hoc analysis.
+>A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se si sceglie di eseguire  Ad hoc analysis su Java 7 dopo la versione di manutenzione di luglio 2018,  Adobe non supporterà più l&#39;implementazione  Ad hoc analysis.
 
 * Scheda video con supporto per OpenGL 2.0
 * Cookie: obbligatori
 * Sistema operativo: Windows e Mac OS.
-* Macromedia Flash Player: versione 6 o successiva
+* Flash Player Macromedia: versione 6 o successiva
 * Risoluzione monitor: 800x600 (consigliato 1024x768)
 * Profondità colore: 16 bit o superiore
 * JavaScript: abilitato
@@ -84,7 +84,7 @@ c_sys_reqs.xml
 
 ## Istruzioni per l&#39;aggiornamento Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se dopo la versione di manutenzione di luglio 2018 scegliete di eseguire  Ad hoc analysis su Java 7, Adobe non supporterà più l’implementazione  Ad hoc analysis.
+A partire da luglio 2018, Ad Hoc Analysis supporterà solo Java 8 o versione successiva. Se si sceglie di eseguire  Ad hoc analysis su Java 7 dopo la versione di manutenzione di luglio 2018,  Adobe non supporterà più l&#39;implementazione  Ad hoc analysis.
 
 I nostri file .jar sono firmati con una cifratura sicura a 256 bit non supportata dalle versioni di Java precedenti alla 1.7.0_76. Questo certificato con cifratura a 256 bit offre maggiore sicurezza.
 
@@ -93,8 +93,8 @@ Se Java 7 è ancora installato, è necessario eseguire l&#39;aggiornamento prima
 * Se si è autorizzati a installare programmi sul computer:
 
    1. Andate a https://www.java.com.
-   1. Fai clic su **[!UICONTROL Free Java Download]**.
-   1. Fai clic su **[!UICONTROL Agree and Start Free Download]**.
+   1. Fai clic su **[!UICONTROL Java Download]**.
+   1. Fai clic su **[!UICONTROL Agree and Start Download]**.
    1. Installate la versione Java più recente specifica del sistema operativo in uso.
 
 * Se **non** è consentito installare programmi sul computer:
@@ -109,7 +109,7 @@ c_login.xml
 
  -->
 
-Potete effettuare l’accesso da [!DNL Experience Cloud] o da un URL. Se effettuate l’accesso da Reporting e  Analytics, viene eseguito automaticamente l’accesso. L’accesso mediante un URL è necessario solo se accedete all’URL  ad hoc analysis da un’altra posizione, ad esempio da un collegamento o da un menu dei preferiti.
+Potete effettuare l’accesso da [!DNL Experience Cloud] o da un URL. Se effettuate l’accesso da Reports and Analytics, viene eseguito automaticamente l’accesso. L’accesso mediante un URL è necessario solo se accedete all’URL  ad hoc analysis da un’altra posizione, ad esempio da un collegamento o da un menu dei preferiti.
 
 ## Log In from the Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
 
