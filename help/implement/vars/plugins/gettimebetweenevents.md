@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: Misurare il tempo tra due eventi.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -10,17 +10,17 @@ ht-degree: 0%
 ---
 
 
-# Plug-in Adobe: getTimeBetweenEvents
+#  plug-in di Adobe: getTimeBetweenEvents
 
 >[!IMPORTANT]
 >
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>Questo plug-in è fornito da  Adobe Consulting come una cortesia per aiutarvi a ottenere più valore da  Adobe Analytics. &#39;Assistenza clienti di Adobe non fornisce supporto con questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `getTimeBetweenEvents` plug-in consente di tenere traccia del tempo trascorso tra due eventi Analytics , inclusi gli eventi del carrello e personalizzati. È utile per tenere traccia del tempo necessario al completamento di un processo di checkout o di qualsiasi altro processo da misurare. Questo plug-in non è necessario se non si dispone di processi di conversione che si desidera misurare quanto tempo impiegano.
 
-## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
+## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch 
 
-Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
+ Adobe offre un&#39;estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
@@ -40,14 +40,14 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
+1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics .
 1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salvate e pubblicate le modifiche nell’estensione Analytics .
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenendo i commenti e i numeri di versione del codice nell’implementazione,  Adobe può risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -70,7 +70,7 @@ Il `getTimeBetweenEvents` metodo utilizza i seguenti argomenti:
 * **`rt`** (obbligatorio, booleano): Riavvia timer. Impostare su `true` se si desidera riavviare il timer ogni volta che la `events` variabile contiene un evento timer di avvio. Impostare su `false` se non si desidera che il timer venga riavviato quando viene visualizzato un evento timer di avvio.
 * **`stp`** (obbligatorio, stringa): Arrestate gli eventi timer. Una stringa delimitata da virgole di eventi  Analytics che &quot;arrestano il timer&quot;.
 * **`res`** (obbligatorio, booleano): Opzione Reimposta timer. Impostare su `true` se si desidera registrare l&#39;ora dall&#39;avvio del timer E reimpostare il timer dopo l&#39;arresto. Impostare su `false` se si desidera registrare l&#39;ora ma non arrestare il timer. Se impostato su `false`, il timer continua a essere eseguito dopo che la variabile degli eventi ha registrato un evento stop.
-   > [!TIP] Se si imposta questo argomento su `false`, è consigliabile impostare l&#39; `rte` argomento seguente.
+   >[!TIP] Se si imposta questo argomento su `false`, è consigliabile impostare l&#39; `rte` argomento seguente.
 * **`cn`** (facoltativo, stringa): Il nome del cookie in cui è memorizzata l&#39;ora del primo evento. Il valore predefinito è `"s_tbe"`.
 * **`etd`** (facoltativo, numero intero): Tempo di scadenza per il cookie in giorni. Impostato `0` per scadere alla fine della sessione del browser. Il valore predefinito è 1 giorno se non è impostato.
 * **`fmt`** (facoltativo, stringa): Formato del tempo in cui viene restituito il numero di secondi (impostazione predefinita: niente)
@@ -105,8 +105,8 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 * Il timer si interrompe quando s.events contiene event2
 * Il timer viene reimpostato (ad es. va a 0 secondi) ogni volta che s.events contiene event2
 * Il timer viene ripristinato anche quando s.events contiene event3 O se il visitatore chiude il browser
-* Quando viene registrato un tempo effettivo tra event1 e event2, il plug-in imposta eVar1 uguale al numero di secondi tra i due eventi impostati, arrotondato al valore di riferimento più vicino (ad esempio 0 secondi, 2 secondi, 4 secondi, 10 secondi, 184 secondi, ecc.)
-* Se s.events contiene event2 prima dell&#39;avvio di un timer, eVar1 non verrà impostato per nulla.
+* Quando viene registrato un tempo effettivo tra event1 e event2, il plug-in imposta  eVar1 uguale al numero di secondi tra i due eventi impostati, arrotondato al valore di riferimento più vicino (ad esempio 0 secondi, 2 secondi, 4 secondi, 10 secondi, 184 secondi, ecc.)
+* Se s.events contiene event2 prima dell&#39;avvio di un timer,  non verrà impostato alcun eVar1.
 
 ### Esempio n. 2
 
@@ -123,7 +123,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 * Il timer NON si interrompe quando s.events contiene event2, ma il plug-in registrerà l&#39;ora dalla registrazione dell&#39;impostazione originale event1
 * Il timer viene memorizzato in un cookie denominato &quot;s_20&quot;
 * Il timer viene reimpostato solo quando s.events contiene event3 O se sono trascorsi 20 giorni dall&#39;avvio del timer
-* Quando viene registrato un intervallo tra (l&#39;originale) event1 e event2, il plug-in imposta eVar1 uguale al numero di ore tra i due eventi impostati, arrotondato al valore di riferimento di 1/2 ore più vicino (ad esempio 0 ore, 1,5 ore, 3 ore, 7,5 ore, 478,5 ore, ecc.)
+* Quando viene registrato un intervallo tra (l&#39;originale) event1 e event2, il plug-in imposta  eVar1 uguale al numero di ore tra i due eventi impostati, arrotondato al valore di riferimento di 1/2 ore più vicino (ad esempio 0 ore, 1,5 ore, 3 ore, 7,5 ore, 478,5 ore, ecc.)
 
 ### Esempio n. 3
 
@@ -133,7 +133,7 @@ Codice seguente...
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true);
 ```
 
-...produrrà risultati simili al primo esempio di cui sopra; tuttavia, il valore di eVar1 viene restituito in secondi, minuti, ore o giorni, a seconda della lunghezza finale del timer.  Inoltre, il timer scade 1 giorno dopo che è stato impostato per la prima volta invece che al momento in cui il visitatore chiude il browser.
+...produrrà risultati simili al primo esempio di cui sopra; tuttavia, il valore di  eVar1 viene restituito in secondi, minuti, ore o giorni, a seconda della lunghezza finale del timer.  Inoltre, il timer scade 1 giorno dopo che è stato impostato per la prima volta invece che al momento in cui il visitatore chiude il browser.
 
 ## Cronologia versioni
 
