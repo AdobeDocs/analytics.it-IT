@@ -2,9 +2,9 @@
 title: events
 description: Impostate la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,9 @@ ht-degree: 0%
 
 # events
 
-Dimensioni e metriche sono componenti essenziali per i report. La `events` variabile è responsabile della raccolta di dati di molte metriche sul sito.
+Dimension e metriche sono componenti essenziali per i report. La `events` variabile è responsabile della raccolta di dati di molte metriche sul sito. Generalmente, gli eventi incrementano [le metriche](/help/components/metrics/overview.md) nei report.
+
+Prima di implementare gli eventi, accertatevi di crearli e configurarli in Eventi [di](/help/admin/admin/c-success-events/success-event.md) successo nelle impostazioni della suite di rapporti. Se prevedete di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, accertatevi che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) siano impostati correttamente.
 
 ## Eventi in  Adobe Experience Platform Launch
 
@@ -22,7 +24,7 @@ Dimensioni e metriche sono componenti essenziali per i report. La `events` varia
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Impostate il [!UICONTROL Extension] menu a discesa su  Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuare la [!UICONTROL Events] sezione.
 
 Sono disponibili diverse funzioni:
@@ -77,12 +79,14 @@ s.events = "event1=2,event2";
 
 È possibile modificare un evento personalizzato per utilizzare la valuta invece dei numeri interi. Gli eventi di valuta vengono convertiti automaticamente nella valuta della suite di rapporti se la valuta della suite di rapporti e la `currencyCode` variabile non corrispondono. Sono utili per calcolare i costi di spedizione, gli sconti o i rimborsi. È possibile impostare gli eventi di valuta nella `products` variabile se si desidera attribuire l&#39;evento solo a tale prodotto.
 
+Prima di implementare gli eventi di valuta, accertatevi di impostare l&#39;evento desiderato su &quot;Valuta&quot; in Eventi [di](/help/admin/admin/c-success-events/success-event.md) successo nelle impostazioni della suite di rapporti.
+
 ```js
-// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1=9.99";
 
-// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
@@ -96,11 +100,13 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 È possibile modificare un evento personalizzato accettando valori decimali invece dei numeri interi. Gli eventi numerici si comportano in modo simile agli eventi valutari, ma non utilizzano la conversione della valuta. È possibile impostare eventi numerici nella `products` variabile se si desidera attribuire l&#39;evento solo a tale prodotto.
 
+Prima di implementare gli eventi numerici, accertatevi di impostare l&#39;evento desiderato su &quot;Numerico&quot; in Eventi [di](/help/admin/admin/c-success-events/success-event.md) successo nelle impostazioni della suite di rapporti.
+
 ```js
-// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1=4.5";
 
-// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
