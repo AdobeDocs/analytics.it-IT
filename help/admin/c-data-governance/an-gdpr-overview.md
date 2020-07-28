@@ -3,7 +3,7 @@ description: Questo documento descrive cosa fare in Adobe Analytics per supporta
 title: Adobe Analytics e RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
@@ -50,6 +50,6 @@ Consulta [Etichettare i dati della suite di rapporti](/help/admin/c-data-governa
 * Mappa tutte le suite di rapporti di Adobe Analytics che vuoi configurare per la governance dei dati nella tua [organizzazione Experience Cloud.](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html)
 * Imposta i criteri di conservazione dei dati per ciascuna suite di rapporti in modo da poter rispettare le richieste di accesso e cancellazione per conformità RGPD.
 
-   > [!NOTE] Adobe Analytics non offre assistenza per elaborare le richieste per l’API RGPD, ovvero per elaborare le richieste di accesso o cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati.
+   >[!NOTE] Adobe Analytics non offre assistenza per elaborare le richieste per l’API RGPD, ovvero per elaborare le richieste di accesso o cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati.
 
 * Controlla le tue autorizzazioni: per usare l&#39;interfaccia di gestione della governance dei dati in Adobe Analytics, devi essere un amministratore di Adobe Analytics.
