@@ -1,8 +1,11 @@
 ---
 title: Creare un livello di dati
-description: Scopri cos’è un livello dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
+description: Scopri cosa rappresenta un livello dati nell’implementazione di  Analytics e come può essere utilizzato per mappare le variabili in  Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 4%
 
 ---
 
@@ -17,17 +20,17 @@ Un livello dati è un framework di oggetti JavaScript presenti sul sito che cont
 
 ## Flusso di lavoro
 
-L&#39;implementazione di Adobe Analytics con un livello dati segue in genere i seguenti passaggi:
+L’implementazione  Adobe Analytics tramite un livello dati segue in genere i seguenti passaggi:
 
 1. **Per implementare un livello** dati, collabora con il team di sviluppo del sito: Il team di sviluppo del sito è principalmente responsabile della compilazione dell&#39;oggetto livello dati con i valori corretti. Consultate questa pagina con il team di sviluppo del sito per assicurarvi che le aspettative siano allineate tra i team.
-   > [!NOTE] Il rispetto delle specifiche consigliate da Adobe per il livello dei dati è facoltativo. Se disponi già di un livello dati o in altro modo scegli di non seguire le specifiche di Adobe, accertati che l&#39;organizzazione si allinei sulle specifiche da seguire.
+   >[!NOTE] Le seguenti  Adobi  specifiche consigliate per il livello dei dati sono facoltative. Se si dispone già di un livello dati, o in altro modo si sceglie di non seguire  specifiche  Adobe, assicurarsi che l&#39;organizzazione si allinea alle specifiche da seguire.
 2. **Convalidare il livello dati utilizzando una console** del browser: Una volta creato il livello dati, è possibile verificare che funzioni utilizzando la console sviluppatore di qualsiasi browser. È possibile aprire la console di sviluppo nella maggior parte dei browser utilizzando la `F12` chiave. Un valore di variabile di esempio è `digitalData.page.pageInfo.pageID`.
-3. **Utilizza Adobe Experience Platform Launch per mappare gli oggetti livello dati su elementi** di dati Launch: Create elementi di dati in Launch e mapparli sugli attributi JavaScript descritti nel livello di dati.
-4. **Utilizzate l&#39;estensione Adobe Analytics in Launch per mappare gli elementi dati sulle variabili** Analytics: Seguendo il documento di progettazione della soluzione, assegna ogni elemento dati alla variabile Analytics appropriata.
+3. **Utilizzare  Adobe Experience Platform Launch per mappare gli oggetti livello dati su elementi** di dati di Launch: Create elementi di dati in Launch e mapparli sugli attributi JavaScript descritti nel livello di dati.
+4. **Utilizzate l’estensione Adobe Analytics  in Launch per mappare gli elementi di dati su  variabili** Analytics: Seguendo il documento di progettazione della soluzione, assegna ogni elemento dati alla variabile  Analytics appropriata.
 
 ## Specifiche
 
-Adobe consiglia di seguire il [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) (Livello dati digitali esperienza cliente), delineato dal [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/). Utilizzate le sezioni seguenti per comprendere in che modo gli elementi del livello dati interagiscono con Adobe Analytics.
+ Adobe consiglia di seguire il [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) delineato dal [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/). Utilizzate le sezioni seguenti per comprendere in che modo gli elementi del livello dati interagiscono con  Adobe Analytics.
 
 È consigliabile utilizzare l&#39;oggetto livello dati di insieme `digitalData`. L&#39;esempio seguente elenca un oggetto JSON con un livello di dati piuttosto completo con valori di esempio:
 
@@ -170,4 +173,4 @@ I livelli dati generano in genere lato server, facendo riferimento agli stessi o
 
 ## Passaggi successivi
 
-[Mappare gli oggetti livello dati agli elementi](../launch/layer-to-elements.md)dati: Usa il livello dati del tuo sito in Adobe Experience Platform Launch.
+[Mappare gli oggetti livello dati agli elementi](../launch/layer-to-elements.md)dati: Utilizzate il livello dati del sito in  Adobe Experience Platform Launch.
