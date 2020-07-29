@@ -1,33 +1,34 @@
 ---
 title: Analizzatore pacchetti
-description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati Adobe.
+description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati  Adobe.
+keywords: packet sniffer, http status, 200, 302, charles
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 2%
+source-wordcount: '655'
+ht-degree: 1%
 
 ---
 
 
 # Analizzatore pacchetti
 
-Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall&#39;implementazione ai server di raccolta dati Adobe.
+Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall&#39;implementazione ai server di raccolta dati  Adobe.
 
-Analogamente al debugger di Adobe Experience Cloud, un monitor di pacchetti mostra quali parametri di dati vengono passati in una richiesta di immagine; tuttavia, i monitor a pacchetti offrono funzionalità aggiuntive:
+Come per Adobe Experience Cloud Debugger, un monitor di pacchetti mostra quali parametri di dati vengono passati in una richiesta di immagine; tuttavia, i monitor a pacchetti offrono funzionalità aggiuntive:
 
 * Visualizza richieste di immagini per tracciamento collegamenti personalizzati
 * Visualizzare le richieste di immagini utilizzando metodi di implementazione diversi da JavaScript, ad esempio richieste di immagini hardcoded o [!DNL Appmeasurement]
 
 Per visualizzare  richieste Analytics, filtrate le richieste in uscita utilizzando &quot;b/s&quot;.
 
-In casi molto rari, il debugger segnalerà una richiesta di immagine anche se non viene inviata alcuna richiesta ai server di [!DNL Analytics] elaborazione di Adobe. L&#39;utilizzo di un monitor a pacchetti rappresenta un ottimo modo per garantire al 100% che una specifica richiesta di immagine venga attivata correttamente.
+In casi molto rari, il debugger segnalerà una richiesta di immagine anche se nessuna richiesta viene effettuata a  server di [!DNL Analytics] elaborazione  Adobe. L&#39;utilizzo di un monitor a pacchetti rappresenta un ottimo modo per garantire al 100% che una specifica richiesta di immagine venga attivata correttamente.
 
-Adobe non fornisce un monitor di pacchetti ufficiale, ma ne offre un&#39;ampia gamma su Internet. Di seguito sono riportati alcuni monitor di pacchetti che altri hanno trovato utili.
+Sebbene  Adobe non fornisca un monitor di pacchetti ufficiale, ce ne sono molti su Internet. Di seguito sono riportati alcuni monitor di pacchetti che altri hanno trovato utili.
 
->[!NOTE]
+>[!TIP]
 >
->Questi elenchi non sono completi, ma informazioni sui monitor più utilizzati. Se disponete di un monitor a pacchetti che potete utilizzare e che vi consente di ottenere un feedback, potete utilizzare il [!UICONTROL Feedback] pulsante sul lato destro della finestra.
+>Questi elenchi non sono completi, ma informazioni sui monitor più utilizzati.
 
 | Firefox | Internet Explorer | Chrome | Programmi standalone |
 |---|---|---|---|
@@ -39,14 +40,24 @@ Adobe non fornisce un monitor di pacchetti ufficiale, ma ne offre un&#39;ampia g
 
 >[!NOTE]
 >
->Adobe NON supporta o risolve eventuali problemi riscontrati con questi monitor. Per assistenza, consultare il sito di origine del monitor del pacchetto.
+> Adobe NON supporta o risolve eventuali problemi riscontrati con questi monitor. Per assistenza, consultare il sito di origine del monitor del pacchetto.
+
+## Codici di stato tipici della risposta HTTP
+
+Quando AppMeasurement invia i dati  server di raccolta dati di Adobe, i server rispondono con un codice di stato della risposta.
+
+* **200 OK**: La risposta più comune dai server di raccolta dati. La richiesta dell&#39;immagine è stata ricevuta e viene restituita un&#39;immagine trasparente.
+* **302 TROVATO**: Esistono due possibili motivi per ricevere questa risposta:
+   * La prima richiesta di immagine di un visitatore: Un reindirizzamento si verifica se un utente visita il sito per la prima volta. Questo reindirizzamento consiste nel ottenere un cookie visitatore. Non influisce sulla raccolta dei dati.
+   * Integrazione tra Comscore e  Adobe: Se l’organizzazione utilizza un’integrazione Comscore/ Analytics, ogni richiesta di immagine genera sempre una risposta 302.
+* **404 NON TROVATO**: Questa risposta indica che la richiesta di immagine non è stata trovata e che i dati non vengono inviati  server di raccolta dati del Adobe. Questa risposta è possibile anche quando le richieste di immagini hardcoded non sono formattate correttamente. Per risolvere il problema, collaborate con il singolo o il team che ha implementato  Analytics.
 
 ## NS_BINDING_ABORTED nei codici di risposta
 
-Questo errore si verifica perché la richiesta dell&#39;immagine di tracciamento del collegamento è progettata per consentire al browser di passare alla pagina successiva prima di attendere una risposta dai server di raccolta dati Adobe.
+Questo messaggio si verifica perché la richiesta dell&#39;immagine di tracciamento del collegamento è progettata per consentire al browser di passare alla pagina successiva prima di attendere una risposta dai server di raccolta dei dati del Adobe .
 
-La risposta di Adobe alla richiesta di immagini è semplicemente un&#39;immagine trasparente 1x1 vuota, che non è pertinente al contenuto della pagina. Se viene visualizzato un elemento di riga nel monitor dei pacchetti da Adobe, con una **[!UICONTROL 200 OK]** risposta o una **[!UICONTROL NS_BINDING_ABORTED]** risposta, i dati hanno raggiunto i nostri server. Non è più necessario attendere la pagina.
+ Adobe  risposta alla richiesta dell’immagine è semplicemente un’immagine trasparente 1x1 vuota, che non è pertinente al contenuto della pagina. Se viene visualizzato un elemento di riga nel monitor dei pacchetti  Adobe, con una **[!UICONTROL 200 OK]** risposta o una **[!UICONTROL NS_BINDING_ABORTED]** risposta, i dati hanno raggiunto  server  Adobi. Non è più necessario attendere la pagina.
 
 I monitor Packet integrati come plug-in raramente visualizzano la risposta completa. Essi tendono a vedere la richiesta come interrotta perché non è stata ricevuta la risposta completa. Raramente questi monitor distinguono tra la richiesta o la risposta che è stata interrotta. In genere, un monitor a pacchetti indipendente contiene messaggi più dettagliati e segnala lo stato con maggiore precisione. Ad esempio, un utente potrebbe ricevere un messaggio in *Charles* che dice &quot;Connessione chiusa dal client prima di ricevere l&#39;intera risposta.&quot; Ciò significa che i dati sono arrivati ai nostri server, solo il browser si è spostato sulla pagina successiva prima che venisse ricevuto il pixel 1x1.
 
-Se un packet sniffer esterno segnala che la richiesta di raccolta dei dati viene interrotta e non la risposta, ciò è motivo di preoccupazione. Adobe [!DNL Customer Care] può fornire assistenza nella risoluzione dei problemi.
+Se un monitoraggio dei pacchetti esterno segnala che la richiesta di raccolta dei dati viene interrotta e non la risposta, ciò è motivo di preoccupazione.  Adobe [!DNL Customer Care] può fornire assistenza nella risoluzione dei problemi.
