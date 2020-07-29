@@ -4,7 +4,10 @@ title: Configurare rapporti in tempo reale
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +37,7 @@ L&#39;impostazione di rapporti in tempo reale all&#39;interno [!UICONTROL Report
 
    ![](assets/real_time_admin.png)
 
-   Per informazioni sulle metriche e dimensioni in tempo reale supportate, consultate Metriche e dimensioni [](/help/components/c-real-time-reporting/realtime-metrics.md)supportate.
+   Per informazioni sulle metriche e dimensioni in tempo reale supportate, consultate Metriche e Dimension [](/help/components/c-real-time-reporting/realtime-metrics.md)supportati.
 
    Se avete creato delle classificazioni, queste appaiono rientrate sotto la dimensione per la quale sono definite:
 
@@ -44,11 +47,11 @@ L&#39;impostazione di rapporti in tempo reale all&#39;interno [!UICONTROL Report
    >
    >Per un singolo rapporto in tempo reale, al momento non è supportato l&#39;abilitazione di dimensioni duplicate, anche se per ogni dimensione è selezionata una classificazione diversa.
 
-   Per ulteriori informazioni sulle classificazioni, vedere [Informazioni sulle classificazioni](/help/components/c-classifications2/c-classifications.md).
+   Per ulteriori informazioni sulle classificazioni, vedere [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
-   >Alcune dimensioni, come &quot;Search Keyword&quot; o &quot;Product&quot;, non persistono in tempo reale come accade in altre aree di Adobe Analytics. Quando selezionate una metrica non persistente, viene visualizzato questo avviso:
+   >Alcune dimensioni, come &quot;Search Keyword&quot; o &quot;Product&quot;, non persistono in tempo reale come accade in  Adobe Analytics. Quando selezionate una metrica non persistente, viene visualizzato questo avviso:
 
    ![](assets/warning_dimensions.png)
 
