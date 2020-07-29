@@ -2,7 +2,10 @@
 title: Guide tecniche di Adobe Analytics
 description: Guide per gli utenti e risorse di Analytics
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Benvenuti nella pagina principale del prodotto Adobe Analytics e della documenta
 
 [![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html) [Guida a Media Analytics](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html): implementa Analytics su sorgenti audio o video. Gli argomenti trattati comprendono Media SDK e Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench Guide](https://docs.adobe.com/content/help/en/data-workbench/using/home.html): scopri le funzionalità multi-canale, potenti e altamente flessibili di [!UICONTROL Data Workbench]. Include [!UICONTROL Data Workbench Client], installazione, guide per [!UICONTROL Dataset Configuration] e altro ancora.
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/it-IT/data-workbench/using/home.html) [Data Workbench Guide](https://docs.adobe.com/content/help/it-IT/data-workbench/using/home.html): scopri le funzionalità multi-canale, potenti e altamente flessibili di [!UICONTROL Data Workbench]. Include [!UICONTROL Data Workbench Client], installazione, guide per [!UICONTROL Dataset Configuration] e altro ancora.
 
 [![Note tecniche](assets/technotes_50px.png)](/help/technotes/home.md) [Note tecniche di Analytics](/help/technotes/home.md): knowledge base contenente articoli utili per strumenti o componenti di analisi specifici.
 
@@ -55,7 +58,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
 *   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
-*   [Classifications](/help/components/c-classifications2/c-classifications.md)
+*   [Classifications](/help/components/classifications/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 *   [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 *   [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)
