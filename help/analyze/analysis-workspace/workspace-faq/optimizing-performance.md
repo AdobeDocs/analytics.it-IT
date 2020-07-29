@@ -3,7 +3,7 @@ description: 'null'
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Segmenti complessi possono avere un impatto significativo sulle prestazioni del 
 * Operatori di “contiene”, “contiene”, “contiene qualsiasi di”, “corrisponde”, “inizia con” o “finisce con”
 * La segmentazione sequenziale avviene specialmente quando si utilizzano restrizioni delle dimensioni (entro/dopo)
 * Numero di elementi di dimensione unica, compresa nelle dimensioni utilizzate nel segmento, (ad es. Pagina = “A” quando la Pagina ha 10 elementi unici sarà più veloce della Pagina = “A” quando la Pagina ha 100.000 elementi unici)
-* Numero di diverse dimensioni utilizzate (ad es. Pagina = “Home” e Pagina = “Risultati della ricerca” sarà più veloce di eVar 1 = “rosso” ed eVar 2 = “blu”).
+* Numero di diverse dimensioni utilizzate (ad es. Pagina = “Home” e Pagina = “Risultati della ricerca” sarà più veloce di eVar 1 = “rosso” ed eVar 2 = “blu”)
 * Molti operatori OR (invece di AND)
 * Contenitori nidificati di vario ambito (ad es., “Hit” all’interno di “Visita” all’interno di “Visitatore”)
 
@@ -30,11 +30,11 @@ Segmenti complessi possono avere un impatto significativo sulle prestazioni del 
 
 Mentre alcuni dei fattori di complessità non possono essere evitati, pensa alle opportunità di ridurre la complessità dei tuoi segmenti. In generale, più si può essere specifici con i propri criteri di segmento, meglio è. Ad esempio:
 
-* Con i contenitori, l’utilizzo di un singolo contenitore nella parte superiore del segmento sarà più veloce di una serie di contenitori nidificati.
-* Con l’utilizzo degli operatori, “uguale a” sarà più veloce di “contiene” e “uguale a qualsiasi di” sarà più veloce di “contiene qualsiasi di”.
-* Con molti criteri, gli operatori AND saranno più veloci di una serie di operatori OR. Inoltre, cerca opportunità per ridurre molte istruzioni OR in un’unica istruzione “uguale a qualsiasi di”.
+* Con i contenitori, l’utilizzo di un singolo contenitore nella parte superiore del segmento sarà più veloce di una serie di contenitori nidificati
+* Con l’utilizzo degli operatori, “uguale a” sarà più veloce di “contiene” e “uguale a qualsiasi di” sarà più veloce di “contiene qualsiasi di”
+* Con molti criteri, gli operatori AND saranno più veloci di una serie di operatori OR. Inoltre, cerca opportunità per ridurre molte istruzioni OR in un’unica istruzione “uguale a qualsiasi di”
 
-Inoltre, l’uso delle [classificazioni](/help/components/c-classifications2/c-classifications.md) può aiutare a consolidare più valori in gruppi compatti, dai quali è possibile creare dei segmenti. La segmentazione dei gruppi di classificazione offre vantaggi in termini di prestazioni, in particolare per i segmenti che contengono numerose istruzioni OR o criteri “contiene”.
+Inoltre, l’uso delle [classificazioni](/help/components/classifications/c-classifications.md) può aiutare a consolidare più valori in gruppi compatti, dai quali è possibile creare dei segmenti. La segmentazione dei gruppi di classificazione offre vantaggi in termini di prestazioni, in particolare per i segmenti che contengono numerose istruzioni OR o criteri “contiene”.
 
 ## Intervallo dei dati richiesti
 
