@@ -3,7 +3,7 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 97%
@@ -48,7 +48,7 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 
 ## Importazione di dati in Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-Le **[classificazioni](/help/components/c-classifications2/c-classifications.md)**sono indicate nei seguenti casi:
+Le **[classificazioni](/help/components/classifications/c-classifications.md)**sono indicate nei seguenti casi:
 
 * In presenza di metadati da associare a un valore di raccolta (eVar, prop, canale di marketing)
 * Opzioni:
@@ -99,7 +99,7 @@ Gli **[Attributi cliente](https://docs.adobe.com/content/help/it-IT/core-service
 * Per accedere a dati più granulari rispetto a quelli accessibili dall’interfaccia (visualizzazione tabellare denormalizzata)
 * Per scaricare i dati in un formato adatto per l’input in una tabella pivot
 * Se il cliente desidera inserire dati Adobe in uno strumento di visualizzazione dati di terze parti (leggermente riepilogati e non a livello di hit)
-* Per accedere a tutti gli elementi di dimensione univoci se ti trovi in &quot;Basso traffico&quot; in Adobe  Analytics
+* Per accedere a tutti gli elementi di dimensione univoci se si esegue in &quot;Basso traffico&quot; in  Adobe Analytics
 
 **[Feed dati di Analytics](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**è indicato nei seguenti casi:
 
