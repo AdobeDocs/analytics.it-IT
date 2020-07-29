@@ -2,7 +2,7 @@
 title: Classificazioni in canali di marketing
 description: Utilizzate le classificazioni per classificare i valori in gruppi correlati e per creare rapporti a livello di gruppo. Ad esempio, potete classificare tutte le campagne di ricerca a pagamento in una categoria come le schede video. Potete quindi generare rapporti sul successo di quella categoria in relazione a metriche come Istanze (o click-through).
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 6%
@@ -18,7 +18,7 @@ Le classificazioni aggiunte in questa procedura vengono visualizzate nel [!UICON
 
 >[!NOTE]
 >
->Acquisisci familiarità con la creazione di classificazioni nelle [classificazioni](/help/components/c-classifications2/c-classifications.md).
+>Acquisisci familiarità con la creazione di classificazioni nelle [classificazioni](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >
