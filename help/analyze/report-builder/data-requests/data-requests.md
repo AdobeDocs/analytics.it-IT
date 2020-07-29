@@ -1,9 +1,12 @@
 ---
-description: nulle
+description: 'null'
 title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -14,11 +17,11 @@ Nella Richiesta guidata: Modulo Passaggio 1: seleziona la suite di rapporti, il 
 
 ![](assets/rw1_overview.png)
 
-1. **[!UICONTROL Report Suite]**: Elenco delle suite di rapporti disponibili in base alle credenziali di accesso. Consultate [Selezionare le suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)di rapporti.
+1. **[!UICONTROL Report Suite]**: L&#39;elenco delle suite di rapporti disponibili in base alle credenziali di accesso. Consultate [Selezionare le suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)di rapporti.
 
 1. **Selettore** intervallo: Consente di selezionare un ID suite di rapporti da una cella in Excel. Consultate [Selezionare le suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)di rapporti.
 
-1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall&#39;utente. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la Guida [alla segmentazione di](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) Analytics.
+1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall&#39;utente. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la [Guida](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) alla segmentazione di Analytics.
 
    Ad esempio, puoi eseguire un [!UICONTROL Pages Report], quindi applicare un segmento Prima visita.
 
@@ -30,7 +33,18 @@ Nella Richiesta guidata: Modulo Passaggio 1: seleziona la suite di rapporti, il 
 
 1. **Applica granularità**: Specifica il livello di dettaglio basato sul tempo incluso nel rapporto. Consultate [Granularità](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 
->[!MORELIKETHIS]
->
->* [Create a Data Request (Creare una richiesta di archivio dati)](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
+## Risoluzione dei problemi
 
+A volte la procedura guidata di richiesta appare fuori schermo, in particolare per gli utenti che si spostano tra le diverse impostazioni del monitor. Ad esempio, si utilizza una docking station al lavoro e lo schermo del laptop a casa. Se fate nuovamente clic su &#39;Crea&#39; mentre è già aperta una procedura guidata di richiesta, viene visualizzato il seguente errore:
+
+&quot;Prima di avviare una nuova procedura guidata di richiesta è necessario completare il processo.&quot;
+
+Lo spostamento della procedura guidata di richiesta sullo schermo risolve il problema.
+
+1. Aprite Microsoft Excel ed effettuate l&#39;accesso al Report Builder.
+2. Fate clic [!UICONTROL Create]per aprire la procedura guidata di richiesta fuori schermo.
+3. Premere `[Alt]` + `[Space]`.
+4. Premere `[M]`.
+5. Premere uno dei tasti freccia.
+6. Sposta il mouse, allegando la procedura guidata di richiesta al cursore
+7. Fate clic sul mouse per rilasciare la procedura guidata di richiesta sullo schermo.
