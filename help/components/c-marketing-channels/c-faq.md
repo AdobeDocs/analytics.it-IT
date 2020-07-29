@@ -1,10 +1,10 @@
 ---
-description: Leggi le best practice ed esempi di come compilare varie regole che puoi impostare per i tuoi canali di marketing.
 title: Domande frequenti su Marketing Channels
+description: Domande frequenti per i canali di marketing.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -12,32 +12,28 @@ ht-degree: 0%
 
 # Domande frequenti su Marketing Channels
 
-Consultate [Creare regole](/help/components/c-marketing-channels/c-rules.md) di elaborazione del canale di marketing per le definizioni dei campi visualizzati sulla [!UICONTROL Marketing Channel Processing Rules] pagina.
+Domande frequenti per i canali di marketing.
 
-## Domande frequenti {#faq}
-
-Ogni implementazione delle regole di elaborazione del canale di marketing può variare a seconda dei codici di monitoraggio. La configurazione di regole che forniscono i risultati che state cercando può richiedere alcune riflessioni creative per risolvere i problemi.
-
-**Domanda**: I miei codici di monitoraggio non seguono un pattern, e ho migliaia che devono essere specificati per il mio canale Affiliates.
+## I miei codici di monitoraggio non seguono un pattern, e ho migliaia che devono essere specificati per il mio canale Affiliates.
 
 * Utilizzate il processo di eliminazione. Se i canali E-mail e Affiliati utilizzano lo stesso parametro della stringa di query, ma disponete solo di alcuni codici di tracciamento e-mail, potete specificare i codici di tracciamento e-mail in un set di regole che definisce l&#39;e-mail. Quindi, puoi classificare tutti gli altri codici di tracciamento con *`affiliates.`*
 * Nel sistema e-mail, aggiungete un parametro di stringa di query a tutti gli URL della pagina di destinazione, ad esempio *`&ch=eml`*. Create un set di regole per rilevare se il parametro query ch è uguale a *`eml`*. Se non contiene *`eml`*, è una filiale.
 
-**Domanda**: I domini di riferimento contengono più dati di quanto mi aspetto.
+## I domini di riferimento contengono più dati di quanto mi aspetto.
 
 * I domini di riferimento potrebbero essere troppo alti nell&#39;elenco delle regole di elaborazione. Deve essere uno degli ultimi set di regole (o l&#39;ultimo), perché l&#39;ordine di elaborazione è importante.
 
-**Domanda**: Ho creato una regola che corrisponde a un parametro della stringa di query e non funziona.
+## Ho creato una regola che corrisponde a un parametro della stringa di query e non funziona.
 
 * Accertatevi che il nome del parametro sia specificato nei campi del parametro della stringa di query (in genere un valore alfanumerico). Inoltre, accertatevi che il valore del parametro sia specificato dopo l&#39;operatore, come illustrato nell&#39;esempio seguente di una regola e-mail.
 
    ![](assets/example_email.png)
 
-**Domanda**: Perché tutto il mio ultimo traffico è attribuito a un dominio interno?
+## Perché tutto il mio ultimo traffico è attribuito a un dominio interno?
 
 * È presente una regola che corrisponde al traffico interno. Tieni presente che queste regole vengono elaborate per ogni hit che un visitatore fa sul tuo sito, non solo per la prima visita. Se disponete di una regola come *`Page URL exists`* senza altri criteri, il canale corrisponde a ogni hit successivo sul sito, perché un URL di pagina esiste sempre.
 
-**Domanda**: Come si esegue il debug del traffico visualizzato in Nessun canale identificato nel report?
+## Come si esegue il debug del traffico visualizzato in Nessun canale identificato nel report?
 
 * Le regole vengono elaborate in ordine. Se non è stato trovato alcun criterio specifico, gli hit rientrano in una delle tre categorie seguenti:
 
@@ -81,27 +77,37 @@ Questo tipo di regola funge da clausola catch-all per garantire che il traffico 
 
 L&#39;aggiornamento dell&#39;ultima sessione può avvenire solo se si è trattato anche del primo tocco. Consulta &quot;Relazione tra il primo e l&#39;ultimo tocco&quot; sopra. Gli scenari seguenti illustrano come l&#39;aggiornamento della sessione potrebbe essere un canale di primo tocco.
 
-**Scenario 1: Timeout sessione**
+* **Timeout** sessione: Un visitatore accede al sito Web e quindi lascia la scheda aperta nel browser per utilizzarla in un secondo momento. Il periodo di coinvolgimento del visitatore scade (o elimina volontariamente i cookie) e utilizza la scheda aperta per visitare nuovamente il sito Web. Poiché l’URL di provenienza è un dominio interno, la visita verrà classificata come Aggiornamento sessione.
 
-Un visitatore accede al sito Web e quindi lascia la scheda aperta nel browser per utilizzarla in un secondo momento. Il periodo di coinvolgimento del visitatore scade (o elimina volontariamente i cookie) e utilizza la scheda aperta per visitare nuovamente il sito Web. Poiché l’URL di provenienza è un dominio interno, la visita verrà classificata come Aggiornamento sessione.
+* **Non tutte le pagine del sito dispongono di tag**: Un visitatore arriva sulla pagina A senza tag, quindi passa alla pagina B con tag. La pagina A viene visualizzata come referente interno e la visita viene classificata come Aggiornamento sessione.
 
-**Scenario 2: Non tutte le pagine del sito dispongono di tag**
+* **Reindirizza**: Se un reindirizzamento non è impostato per trasmettere i dati del referente alla nuova pagina di destinazione, i dati del referente di immissione vera andranno persi e ora la pagina di reindirizzamento (probabilmente una pagina interna) verrà visualizzata come dominio di riferimento. La visita verrà classificata come Aggiornamento sessione.
 
-Un visitatore arriva sulla pagina A senza tag, quindi passa alla pagina B con tag. La pagina A viene visualizzata come referente interno e la visita viene classificata come Aggiornamento sessione.
+* **Traffico** tra domini diversi: Un visitatore passa da un dominio che viene attivato alla Suite A a un altro dominio che viene attivato alla Suite B. Se nella Suite B i filtri URL interni includono il primo dominio, la visita nella Suite B verrà registrata come Interno, poiché Marketing Channels la vede come una nuova visita nella seconda suite. La visita verrà classificata come Aggiornamento sessione.
 
-**Scenario 3: Reindirizza**
+( **Tempi** di caricamento delle pagine di immissione prolungati: Un visitatore arriva sulla pagina A, che pesa sul contenuto, e il codice Adobe Analytics  si trova nella parte inferiore della pagina. Prima che tutto il contenuto (inclusa  richiesta di immagini Adobe Analytics) possa essere caricato, il visitatore fa clic sulla pagina B. La pagina B avvia  richiesta di immagine Adobe Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in  Adobe Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
 
-Se un reindirizzamento non è impostato per trasmettere i dati del referente alla nuova pagina di destinazione, i dati del referente di immissione vera andranno persi e ora la pagina di reindirizzamento (probabilmente una pagina interna) verrà visualizzata come dominio di riferimento. La visita verrà classificata come Aggiornamento sessione.
+* **Cancellazione dei cookie nel sito** centrale: Un visitatore accede al sito e a metà sessione cancella i cookie. Entrambi i canali First e Last-touch venivano reimpostati e la visita veniva classificata come Aggiornamento sessione (perché il referente era interno).
 
-**Scenario 4: Traffico tra domini**
+## Perché alcuni canali sono rimasti invariati dopo aver modificato le regole di elaborazione dei canali di marketing?
 
-Un visitatore passa da un dominio che viene attivato alla Suite A a un altro dominio che viene attivato alla Suite B. Se nella Suite B i filtri URL interni includono il primo dominio, la visita nella Suite B verrà registrata come Interno, poiché Marketing Channels la vede come una nuova visita nella seconda suite. La visita verrà classificata come Aggiornamento sessione.
+A volte le regole di elaborazione del canale di marketing sono configurate in modo errato, rendendo necessaria la modifica delle regole di elaborazione. Dopo aver applicato le modifiche, puoi vedere alcuni dati di metriche ancora attributo su un canale non corretto. Esistono diversi aspetti da considerare:
 
-**Scenario 5: Lunghi tempi di caricamento delle pagine**
+* **I dati del canale di marketing vengono raccolti in tempo** reale: I dati dei canali di marketing vengono elaborati al momento della raccolta dei dati ed è permanente al 100%. La modifica delle regole di elaborazione non influisce retroattivamente sui dati.
+* **La modifica delle regole di elaborazione non influisce immediatamente sui dati** First Touch: Ad esempio:
+   1. Un utente accede tramite il canale e-mail perché è stato configurato in modo non corretto e quindi abbandona il sito.
+   2. Il giorno successivo, modificate la regola di elaborazione e-mail per correggerla.
+   3. L&#39;utente ritorna diversi giorni dopo attraverso la ricerca naturale e fa un acquisto.
+   4. Il canale di posta elettronica ottiene il credito First Touch e la ricerca naturale ottiene il credito Last Touch.
 
-Un visitatore arriva sulla pagina A, che pesa sul contenuto, e il codice Adobe  Analytics si trova nella parte inferiore della pagina. Prima che tutto il contenuto (inclusa la richiesta di immagini per Adobe  Analytics) possa essere caricato, il visitatore fa clic sulla pagina B. La pagina B avvia la relativa richiesta di immagini Adobe  Analytics. Poiché la richiesta di immagine della pagina A non è mai stata caricata, la seconda pagina viene visualizzata come il primo hit della visita in Adobe  Analytics, con la pagina A come referente. La visita viene classificata come Aggiornamento sessione.
+   Anche alcuni giorni dopo aver modificato le regole di elaborazione, i dati possono comunque essere raccolti nel canale First Touch sbagliato. I primi dati touch vengono raccolti continuamente nel canale errato fino alla scadenza del coinvolgimento di tutti gli utenti.
 
-**Scenario 6: Cancellazione dei cookie nel mid-site**
+Il modo migliore per rimediare a queste discrepanze è effettuare una o entrambe le operazioni seguenti:
 
-Un visitatore accede al sito e a metà sessione cancella i cookie. Entrambi i canali First e Last-touch venivano reimpostati e la visita veniva classificata come Aggiornamento sessione (perché il referente era interno).
+* **Scadere manualmente tutti i periodi** di coinvolgimento dei visitatori: Questa impostazione scade all’istante tutti i canali di primo e ultimo contatto tra tutti i visitatori:
+   1. Vai a Strumenti di amministrazione > Suite di rapporti.
+   2. Passa il cursore del mouse sulle impostazioni di modifica delle immagini > Canali di marketing > Scadenza coinvolgimento del visitatore
+   3. Fate clic su Scade tutto.
+   4. Fare clic su OK nella finestra a comparsa dell&#39;avviso, per confermare che è possibile eseguire tutte le operazioni.
 
+* **Visualizza solo le metriche Last Touch dal momento in cui hai corretto le regole**: Le metriche Last Touch seguono sempre il set di regole corrente. La visualizzazione dell&#39;ora a partire dalla quale le regole di elaborazione sono state modificate in avanti riflette correttamente le regole di elaborazione più recenti.
