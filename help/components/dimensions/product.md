@@ -2,7 +2,7 @@
 title: Prodotto
 description: Nome del prodotto.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -18,6 +18,6 @@ La dimensione &quot;Prodotto&quot; indica il nome del prodotto nell’hit. È ut
 
 Questa dimensione fa riferimento alla seconda parte della stringa nella [`products`](/help/implement/vars/page-vars/products.md) variabile. I caratteri tra il primo e il secondo punto e virgola (`;`) popolano questa dimensione.
 
-## Elementi dimensione
+## Elementi Dimension
 
-Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina gli elementi dimensione. Adobe consiglia di stabilire una convenzione di denominazione coerente per i prodotti. [Le classificazioni](../c-classifications2/c-classifications.md) sono disponibili se desiderate raggruppare i prodotti in modo diverso o fornire un nome più descrittivo. Adobe consiglia di utilizzare sia le dimensioni &#39;Prodotto&#39; che &#39;Categoria&#39;.
+Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina gli elementi dimensione.  Adobe consiglia di stabilire una convenzione di denominazione coerente per i prodotti. [Le classificazioni](../classifications/c-classifications.md) sono disponibili se desiderate raggruppare i prodotti in modo diverso o fornire un nome più descrittivo.  Adobe consiglia di utilizzare sia le dimensioni &#39;Prodotto&#39; che &#39;Categoria&#39;.
