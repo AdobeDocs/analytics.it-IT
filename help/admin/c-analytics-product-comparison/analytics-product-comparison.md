@@ -2,10 +2,10 @@
 description: Requisiti di sistema e confronto tra Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse e Data Workbench
 title: Requisiti e confronto dei prodotti Analytics
 translation-type: tm+mt
-source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
+source-git-commit: 54d6b4c2993c5b0391b9243c76661db1da4087b8
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 50%
+source-wordcount: '714'
+ht-degree: 49%
 
 ---
 
@@ -18,8 +18,10 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo ar
 
 | Nome prodotto e collegamento all’Aiuto | [Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/it-IT/analytics/export/data-warehouse/data-warehouse.translate.html) | [Data Workbench](https://docs.adobe.com/content/help/it-IT/data-workbench/using/home.html) | [Feed dati](https://docs.adobe.com/content/help/it-IT/analytics/export/analytics-data-feed/data-feed-overview.html) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Metodo Access** | [Browser](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) | [Browser](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) | [MS Excel per Windows](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | Configurazione tramite browser. Le destinazioni supportate includono l&#39;FTP. Rivolgiti all&#39;Assistenza clienti per ricevere ulteriore assistenza sulla destinazione. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) | [Windows a 64 bit](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html) | Configurazione tramite il browser. Le destinazioni supportate includono FTP, SFTP, Azure Blob, S3. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/export/analytics-data-feed/data-feed-overview.html) | Strumenti RESTful API. Effettuate l&#39;accesso con  credenziali di I/O Adobe. [Ulteriori informazioni](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-| **Formato dati (granularità)** | Aggregata | Aggregata | Aggregata | ECID | Timestamp + ECID | Timestamp + ECID | Aggregata |
+| **Metodo Access** | [Browser](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) | [Browser](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) | [MS Excel per Windows](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | Configurazione tramite il browser. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/admin/sys-reqs.html) | [Windows a 64 bit](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html) | Configurazione tramite il browser. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/export/analytics-data-feed/data-feed-overview.html) | Strumenti RESTful API. Effettuate l&#39;accesso con  credenziali di I/O Adobe. [Ulteriori informazioni](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Granularità dei dati** | Aggregata | Aggregata | Aggregata | Aggregata | Hit | Hit | Aggregata |
+| **Expierence Cloud ID (ECID) disponibile** | No | No | No | Sì | Sì | Sì | No |
+| **Marca temporale disponibile** | No | No | No | No | Sì | Sì | No |
 | **Livello di elaborazione** | Completamente elaborato | Elaborazione completa, con report in tempo [reale separati](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | Elaborazione completa, con report in tempo [reale separati](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | Completamente elaborato | Completamente elaborato | Completamente elaborato | Completamente elaborato |
 | **Dati filtro bot amministratore inclusi** <br>[Per saperne di più](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html) | No | Sì - Rapporto bot separato | Sì - Rapporto bot separato | No | No | No | No |
 | **Viene visualizzato** il traffico limitato (Superato il numero di errori) <br>[Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html) | Sì | Sì | Sì | No | No | No | Sì |
@@ -34,5 +36,6 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo ar
 | **Funzionalità** Analista virtuale <br>[Per saperne di più](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | Sì | No | No | No | No | No | Sì |
 | **Cura** <br>[Per saperne di più](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate.html) | Sì - Progetto e VRS | No | No | No | No | No | Sì, solo VRS |
 | **Condivisione** dei progetti <br>[Per saperne di più](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Sì, con i ruoli del progetto | Sì | Sì | No | Sì | No | No |
-| **Spedizione pianificata** | Sì | Sì | Sì | Sì | Sì | Sì | No |
+| **Spedizione pianificata** | Sì | Sì | Sì | Sì | No | Sì | No |
+| **Destinazioni di consegna** | E-mail | E-mail | E-mail, FTP, SFTP, [pubblicazione in Microsoft PowerBI](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/publish-powerbi/power-bi.html) | E-mail, FTP. Rivolgiti all&#39;Assistenza clienti per ottenere ulteriore supporto per le destinazioni, inclusi SFTP, Azure Blob,  Amazon S3 | - | FTP, SFTP, Azure Blob,  Amazon S3 | - |
 | **Elaborazione** del tempo del rapporto VRS <br>[Per saperne di più](https://docs.adobe.com/content/help/it-IT/analytics/components/virtual-report-suites/vrs-report-time-processing.html) | Sì | No | No | No | No | No | Sì |
