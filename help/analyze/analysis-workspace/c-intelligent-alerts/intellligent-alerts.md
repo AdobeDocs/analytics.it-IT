@@ -2,9 +2,9 @@
 description: Il nuovo sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi.
 title: Panoramica degli avvisi intelligenti
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
@@ -30,11 +30,11 @@ Le nuove funzioni Generatore di avvisi e Gestione avvisi di Analysis Workspace s
 
 * Andando direttamente al Generatore di avvisi: **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
 * Utilizzando i tasti di scelta rapida in Workspace: `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac)
-* Selezionando una o più voci di tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione). Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso.
+* Selezionando una o più voci di tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**. Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso.
 
    ![Crea avviso da selezione](assets/create-alert-from-selection.png)
 
-* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** (Altro) > **[!UICONTROL Add Alert]** (Aggiungi avviso). Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal report. Se necessario, puoi quindi modificare l’avviso.
+* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** > **[!UICONTROL Add Alert]**. Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal report. Se necessario, puoi quindi modificare l’avviso.
 
    ![Aggiungi avviso](assets/add-alert.png)
 
