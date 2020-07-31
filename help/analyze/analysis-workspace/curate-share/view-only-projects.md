@@ -1,19 +1,19 @@
 ---
-description: Visualizzare progetti di sola lettura in Workspace
+description: Progetti di sola visualizzazione in Workspace
 keywords: View-only projects
-title: Visualizza progetti Workspace
-translation-type: tm+mt
+title: Progetti Workspace solo visualizzazione
+translation-type: ht
 source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Visualizza progetti Workspace
+# Progetti Workspace solo visualizzazione
 
-Puoi condividere i progetti come &quot;sola visualizzazione&quot; ai destinatari tramite il flusso di lavoro [di condivisione](/help/analyze/analysis-workspace/curate-share/share-projects.md)progetto. I destinatari inseriti nel ruolo Can View (Visualizzazione in grado di visualizzare) riceveranno un&#39;esperienza di progetto più limitata. Questo può essere desiderato se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione, Analysis Workspace o Adobe Analytics in genere, ma vuoi comunque che utilizzino dati e approfondimenti in un ambiente sicuro.
+Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Potresti desiderare di fare ciò se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati dell’organizzazione, Analysis Workspace o Adobe Analytics in genere, ma desideri comunque che utilizzino dati e approfondimenti in un ambiente sicuro.
 
 ![](assets/view-only-project.png)
 
@@ -23,21 +23,21 @@ Le interazioni disattivate in un progetto di sola visualizzazione includono:
 
 * Barra a sinistra nascosta
 * Suite di rapporti
-* Intervallo date calendario pannello. Nota: Per assegnare il controllo del calendario ai destinatari, aggiungi un filtro a [discesa con intervalli](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)di date.
-* Filtro freeform
-* N. a forma libera di righe visibili
+* Intervallo date del calendario del pannello. Nota: per assegnare il controllo del calendario ai destinatari, aggiungi un [filtro a discesa con intervalli di date](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* Filtro a forma libera
+* Numero di righe a forma libera visibili
 * Impostazioni di riga, colonna o visualizzazione a forma libera
 * Segmenti del pannello
-* Menu Modifica, Inserisci e Componente
+* Menu Edit, Insert e Component
 * Suggerimenti per Workspace
 
 ## Interazioni abilitate
 
 Alcune delle interazioni abilitate più rilevanti in un progetto di sola visualizzazione includono:
 
-| Superfici | Interazioni abilitate |
+| Area | Interazioni abilitate |
 |---|---|
-| Tabelle a forma libera | <ul><li>Paginazione e ordinamento</li><li>Passaggio del mouse</li><li>Selezioni di celle che aggiornano le visualizzazioni collegate</li><li>Fai clic con il pulsante destro del mouse > Ottieni collegamento visualizzazione</li><li>Fare clic con il pulsante destro del mouse > Copia negli Appunti</li></ul> |
-| Visualizzazioni | <ul><li>Fare clic per attivare/disattivare la legenda</li><li>Passaggio del mouse</li><li>Fai clic con il pulsante destro del mouse > Ottieni collegamento visualizzazione</li><li>Comprimi/espandi</li><li>Flusso - espandi nodi Flusso</li><li>Mappa - zoom</li></ul> |
-| Pannelli | <ul><li>Filtri a discesa interattivi</li><li>Fare clic con il pulsante destro del mouse > Ottieni collegamento pannello</li><li>Comprimi/espandi</li></ul> |
-| Progetto  | <ul><li>Analisi di tutte le icone delle informazioni</li><li>Menu Progetto - Nuovo, Apri, Imposta come pagina di destinazione, Aggiorna, Scarica CSV/PDF, Informazioni e impostazioni progetto limitate</li><li>Menu Condividi - Ottieni collegamento progetto, Invia file ora</li><li>Menu Aiuto - Tutte le azioni tranne Suggerimenti e Debugger</li></ul> |
+| Tabella a forma libera | <ul><li>Impaginazione e ordinamento</li><li>Passaggio del mouse</li><li>Selezioni di celle che aggiornano le visualizzazioni collegate</li><li>Clic con il pulsante destro del mouse > Get Visualization Link</li><li>Clic con il pulsante destro del mouse > Copy to Clipboard</li></ul> |
+| Visualizzazioni | <ul><li>Clic per attivare/disattivare la legenda</li><li>Passaggio del mouse</li><li>Clic con il pulsante destro del mouse > Get Visualization Link</li><li>Comprimi/espandi</li><li>Flow (espandi nodi Flow)</li><li>Map (zoom)</li></ul> |
+| Pannelli | <ul><li>Filtri a discesa interattivi</li><li>Clic con il pulsante destro del mouse > Get Panel Link</li><li>Comprimi/espandi</li></ul> |
+| Progetto | <ul><li>Analisi di tutte le icone delle informazioni</li><li>Menu Project (New, Open, Set as landing page, Refresh, Download CSV/PDF, Project Info e Settings limitate)</li><li>Menu Share (Get project link, Send file now)</li><li>Menu Help (tutte le azioni tranne le opzioni Tips e Debugger)</li></ul> |
