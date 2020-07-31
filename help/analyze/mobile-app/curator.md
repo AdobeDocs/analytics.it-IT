@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 78%
+ht-degree: 99%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 78%
 
 # Guida del curatore per le dashboard di Adobe Analytics
 
-Le informazioni riportate di seguito illustrano ai curatori di dati di Adobe  Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per un video che illustra queste informazioni, consultate [Adobe  Analytics dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94).
+Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per vedere un video che illustra queste informazioni, consulta [Creatore di schede di valutazione delle dashboard di Adobe Analytics](https://youtu.be/tnnl6hrcP94).
 
 ## Introduzione
 
-Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app consente agli utenti di accedere da dispositivi mobili alle scorecard intuitive create e condivise dall’interfaccia utente desktop di Adobe  Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. Le dashboard di Analytics sono supportate sia sui sistemi operativi iOS che su quelli Android.
+Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app ti consente di accedere da dispositivi mobili a scorecard intuitive che crei e condividi dall’interfaccia utente desktop di Adobe Analytics. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Puoi personalizzare le scorecard in base ai dati che ritieni più importanti. Le dashboard di Analytics sono supportate sia sui sistemi operativi iOS che su quelli Android.
 
 ## Ulteriori informazioni su questa guida
 
-Questa guida è destinata a aiutare i curatori di dati di Adobe  Analytics a configurare le scorecard per i loro utenti esecutivi sulle dashboard. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali delle dashboard di Analytics, questa guida aiuterà i curatori dei dati a configurare l’app in modo efficace per questi utenti.
+Questa guida ha lo scopo di aiutare i curatori di Adobe Analytics a configurare le scorecard per i loro utenti esecutivi sulle dashboard. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard dell’app, il che consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili. Sebbene gli utenti esecutivi siano gli utenti finali delle dashboard di Analytics, questa guida aiuterà i curatori dei dati a configurare l’app in modo efficace per questi utenti.
 
 ## Glossario dei termini
 
@@ -100,7 +100,7 @@ Per implementare il template della scorecard:
 
    ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
-   È inoltre possibile aggiungere una dimensione a tutte le sezioni rilasciandola nell&#39;area di lavoro Scorecard.
+   Puoi anche aggiungere una dimensione a tutte le tessere rilasciandola sull’area di lavoro della scorecard.
 
    Quando fai clic su una tessera nel Creatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella tessera. In questa barra puoi assegnare un nuovo **Titolo** alla tessera e, in alternativa, configurare la tessera specificando i componenti invece di trascinarli e rilasciarli dalla barra di sinistra.
 
@@ -108,9 +108,9 @@ Per implementare il template della scorecard:
 
    ![Vista_Raggruppamento](assets/break_view.png)
 
-   Ogni dimensione aggiunta alla sezione verrà visualizzata in un elenco a discesa nella visualizzazione dettagliata dell&#39;app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
+   Ogni dimensione aggiunta alla tessera viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
-4. Per applicare segmenti alle singole tessere, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla tessera. Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionando i segmenti nel menu del filtro sotto gli intervalli di date. Puoi [configurare e applicare i filtri per le schede](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) allo stesso modo in Adobe  Analytics Workspace.
+4. Per applicare segmenti alle singole tessere, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla tessera. Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. Puoi [configurare e applicare filtri per le scorecard](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nello stesso modo che utilizzeresti in Adobe Analytics Workspace.
 
    ![Creare segmenti per il filtro](assets/segment_ui.png)
 
@@ -149,7 +149,7 @@ Per condividere la scorecard con un utente esecutivo:
 
 Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
+Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **Share embedded components**) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
 
 ## Aiutare gli utenti esecutivi a configurare l’app
 
@@ -161,26 +161,26 @@ Per aiutare gli utenti esecutivi ad accedere alle tue scorecard nell’app, assi
 
 * Il sistema operativo per dispositivi mobili sui loro dispositivi sia iOS versione 10 o superiore o Android versione 4.4 (KitKat) o superiore
 * Abbiano un accesso valido ad Adobe Analytics
-* Sono state create correttamente delle scorecard mobili per loro e sono state condivise queste scorecard con loro
+* Tu abbia creato correttamente le scorecard per dispositivi mobili a essi destinate e condiviso con essi tali scorecard
 * Abbiano accesso all’Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
 * Abbiano accesso ai Componenti che la scorecard include. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
-### Assistenza agli utenti con l&#39;app
+### Aiutare gli utenti esecutivi a utilizzare l’app
 
 Per aiutare gli utenti esecutivi:
 
-1. Aiutateli a scaricare e installare l&#39;app. Per farlo, indica ai tuoi utenti esecutivi i seguenti passaggi per estendere l’accesso, a seconda che utilizzino un dispositivo iOS o Android.
+1. Aiutali a scaricare e installare l’app. Per farlo, indica ai tuoi utenti esecutivi i seguenti passaggi per estendere l’accesso, a seconda che utilizzino un dispositivo iOS o Android.
 
    **Per gli utenti esecutivi su iOS:**
 
-   * Fai clic sul seguente collegamento (disponibile anche in  Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
+   * Fai clic sul seguente collegamento (disponibile anche in Analytics in **Tools** > **Dashboards**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
-      [Link iOS](https://apple.co/2zXq0aN)
+      [Collegamento per iOS](https://apple.co/2zXq0aN)
    **Per gli utenti esecutivi su Android:**
 
-   * Fai clic sul seguente collegamento (disponibile anche in  Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
+   * Fai clic sul seguente collegamento (disponibile anche in Analytics in **Tools** > **Dashboards**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
-      [Collegamento Android](https://bit.ly/2LM38Oo)
+      [Collegamento per Android](https://bit.ly/2LM38Oo)
    Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
 
    ![Schermata di benvenuto dell’app](assets/welcome.png)
@@ -193,7 +193,7 @@ Per aiutare gli utenti esecutivi:
 
    ![Scegliere un’azienda](assets/accesscard.png)
 
-   Se l&#39;utente esecutivo accede e visualizza un messaggio che indica che non è stato condiviso nulla:
+   Se l’utente esecutivo effettua l’accesso e vede un messaggio che dice che non è stato condiviso nulla:
 
    * L’utente esecutivo può aver selezionato l’istanza di Analytics sbagliata
 
@@ -205,7 +205,7 @@ Per aiutare gli utenti esecutivi:
    * Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
 
 
-3. Spiegare all’utente esecutivo come vengono visualizzate le sezioni nelle scorecard condivise (la prima scorecard sottostante è impostata in modalità scura; consultate **Preferenze** di seguito se pensate che l&#39;utente esecutivo preferisca questa opzione di visualizzazione):
+3. Spiega all’utente esecutivo come vengono visualizzate le tessere nelle scorecard condivise (la prima scorecard sottostante è impostata in modalità scura; consulta **Preferences** di seguito se pensi che l’utente esecutivo preferisca questa opzione di visualizzazione):
 
    ![Spiegare le tessere](assets/newexplain.png)
 
@@ -225,29 +225,29 @@ Per aiutare gli utenti esecutivi:
 
    ![Vista Raggruppamento](assets/sparkline.png)
 
-   * Toccate un punto qualsiasi di una linea di scintilla per visualizzare i dati associati a tale punto sulla linea.
+   * Tocca un punto qualsiasi di una sparkline per visualizzare i dati associati a tale punto sulla linea.
 
-   * Una tabella è inclusa per visualizzare i dati delle dimensioni aggiunte alla sezione. Toccate la freccia giù per selezionare le dimensioni. Se non è stata aggiunta alcuna dimensione alla sezione, nella tabella vengono visualizzati i dati del grafico.
+   * È inclusa una tabella per visualizzare i dati delle dimensioni aggiunte alla tessera. Tocca la freccia giù per selezionare le dimensioni. Se non è stata aggiunta alcuna dimensione alla tessera, nella tabella vengono visualizzati i dati relativi al grafico.
 
 5. Per modificare gli intervalli date per la tua scorecard:
 
    ![Modificare le date](assets/changedate.png)
 
-   * Puoi anche modificare allo stesso modo gli intervalli di date all’interno della visualizzazione Suddivisione mostrata sopra.
+   * Puoi modificare allo stesso modo anche gli intervalli date all’interno della vista raggruppamento mostrata sopra.
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **CONFRONTA CON**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **Fine** in alto a destra dello schermo. Il campo **Intervalli date** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
 6. Per lasciare un feedback su questa app:
 
-   1. Toccate l&#39;icona delle impostazioni in alto a destra della schermata dell&#39;app.
-   2. On the **Settings** screen, tap the **Feedback** option.
-   3. Toccare per visualizzare le opzioni per lasciare un feedback.
+   1. Tocca l’icona dell’utente in alto a destra della schermata dell’app.
+   2. Nella schermata **Settings**, tocca l’opzione **Feedback**.
+   3. Tocca per visualizzare le opzioni per lasciare un feedback.
 
-      ![Impostazioni, schermata](assets/settings.png)
+      ![Schermata Settings](assets/settings.png)
 
-7. Per modificare le preferenze, toccate l’opzione **Preferenze** riportata sopra. Nelle preferenze, potete attivare l’accesso biometrico oppure impostare l’app per la modalità scura come illustrato di seguito:
+7. Per modificare le preferenze, tocca l’opzione **Preferences** mostrata sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
 
-   ![Modalità Scuro](assets/darkmode.png)
+   ![Modalità scura](assets/darkmode.png)
 
 **Per segnalare un bug**:
 
