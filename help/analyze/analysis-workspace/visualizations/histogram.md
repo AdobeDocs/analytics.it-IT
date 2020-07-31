@@ -2,11 +2,11 @@
 description: L’istogramma è un nuovo tipo di visualizzazione disponibile in Analysis Workspace.
 title: Istogramma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in int
 
 Per creare un istogramma:
 
-1. Fai clic su **[!UICONTROL Visualizations]** (Visualizzazioni) nella barra a sinistra.
-1. Trascina **[!UICONTROL Histogram]** (Istogramma) nel pannello.
-1. Scegli una metrica da trascinare sulla visualizzazione Istogramma e fai clic su **[!UICONTROL Build]** (Genera).
+1. Fai clic su **[!UICONTROL Visualizations]** nella barra a sinistra.
+1. Trascina **[!UICONTROL Histogram]** nel pannello.
+1. Scegli una metrica da trascinare sulla visualizzazione Istogramma e fai clic su **[!UICONTROL Build]**.
 
 ![](assets/histogram.png)
 
@@ -42,7 +42,7 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 | Intervallo iniziale | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
 | Intervalli di metrica | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo consentito è 50. |
 | Dimensione intervalli di metrica | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
-| Metodo di conteggio | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). Ad esempio, visualizzazioni di pagina per visita, per visitatore o per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
+| Metodo di conteggio | Consente di scegliere tra [Visitatore](/help/components/metrics/unique-visitors.md), [Visita](/help/components/metrics/visits.md) o [Tipo di hit](/help/components/dimensions/hit-type.md). Ad esempio, visualizzazioni di pagina per visita, per visitatore o per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -53,11 +53,11 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 
 ## Visualizzare e modificare i dati dell’istogramma {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic sul punto accanto all’intestazione Istogramma per passare a **[!UICONTROL Data Source Settings]** (Impostazioni dell’origine dati) > **[!UICONTROL Show Data Source]** (Mostra origine dati).
+Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic sul punto accanto all’intestazione Istogramma per passare a **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
 
 ![](assets/manage-data-source.png)
 
-I segmenti pregenerati che compaiono nella tabella sono segmenti interni e non saranno visualizzati nel selettore dei segmenti. Fai clic sul pulsante “i” accanto al nome del segmento, quindi fai clic su **[!UICONTROL Make public]** (Rendi pubblico) per rendere il segmento pubblico.
+I segmenti pregenerati che compaiono nella tabella sono segmenti interni e non saranno visualizzati nel selettore dei segmenti. Fai clic sul pulsante “i” accanto al nome del segmento, quindi fai clic su **[!UICONTROL Make public]** per rendere il segmento pubblico.
 
 ![](assets/prebuilt_segments.png)
 
