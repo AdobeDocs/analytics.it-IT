@@ -2,9 +2,9 @@
 description: Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le etichette e le relative definizioni.
 title: Etichettare i dati della suite di rapporti
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
 ht-degree: 100%
 
@@ -29,8 +29,8 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
    ![](assets/variables.png)
 
-   * **Standard Dimensions (Dimensioni standard)** (dimensioni predefinite per Adobe Analytics)
-   * **Standard Metrics (Metriche standard)** (metriche predefinite per Adobe Analytics)
+   * **Dimensioni standard** (dimensioni predefinite per Adobe Analytics)
+   * **Metriche standard** (metriche predefinite per Adobe Analytics)
    * **Eventi di conversione** (eventi di successo personalizzati)
    * **Dimensioni di conversione di merchandising** (Merchandising eVars)
    * **Dimensioni conversione** (eVar non merchandising)
