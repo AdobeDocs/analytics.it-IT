@@ -30,11 +30,11 @@ Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../se
 
    ![Confronto del pubblico](assets/compare-audiences.png)
 
-   Dopo aver trascinato un segmento nel pannello, Analytics crea automaticamente un segmento [!UICONTROL 'Everyone Else'] (Tutti gli altri) che include tutti gli utenti NON inclusi nel segmento scelto. Si tratta di un segmento utilizzato di frequente nel pannello di confronto, ma è possibile rimuoverlo e confrontare un segmento diverso.
+   Dopo aver trascinato un segmento nel pannello, Analytics crea automaticamente un segmento [!UICONTROL 'Everyone Else'] che include tutti gli utenti NON inclusi nel segmento scelto. Si tratta di un segmento utilizzato di frequente nel pannello di confronto, ma è possibile rimuoverlo e confrontare un segmento diverso.
 
    ![Tutti gli altri](assets/everyone-else.png)
 
-1. Una volta stabiliti i due segmenti da confrontare, fai clic su [!UICONTROL Build] (Genera).
+1. Una volta stabiliti i due segmenti da confrontare, fai clic su [!UICONTROL Build].
 
    Questa azione avvia un processo di back-end che cerca le differenze statistiche tra i due segmenti selezionati e tutte le dimensioni, le metriche e gli altri segmenti. Una barra di avanzamento nella parte superiore del pannello indica il tempo rimanente per l’analisi di ogni metrica e dimensione. Le metriche, le dimensioni e i segmenti utilizzati più di frequente hanno priorità e sono analizzati per primi, in modo che i risultati più rilevanti vengano restituiti in modo tempestivo.
 
@@ -42,12 +42,12 @@ Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../se
 
 Talvolta è necessario escludere dimensioni, metriche o segmenti dal confronto di segmenti. Ad esempio, se si confronta il segmento “Utenti dispositivi mobili Stati Uniti” con “Utenti dispositivi mobili Germania”. L’inclusione di dimensioni relative alla geografia non avrebbe senso, poiché questi segmenti già implicano tali differenze.
 
-1. Dopo aver trascinato i due segmenti desiderati nel pannello, fai clic su [!UICONTROL 'Show Advanced Options'] (Mostra opzioni avanzate).
-1. Trascina i componenti da escludere nel pannello [!UICONTROL Excluded Components] (Componenti esclusi).
+1. Dopo aver trascinato i due segmenti desiderati nel pannello, fai clic su [!UICONTROL 'Show Advanced Options'].
+1. Trascina i componenti da escludere nel pannello [!UICONTROL Excluded Components].
 
    ![Componenti esclusi](assets/excluded-components.png)
 
-Fai clic su [!UICONTROL 'Set as default'] (Imposta come predefinito) per escludere automaticamente i componenti correnti in tutti i futuri confronti fra segmenti. Se desideri modificare i componenti esclusi, fai clic su un tipo di componente, quindi fai clic sulla X accanto a un componente per includerlo nuovamente nell’analisi. Fai clic su Clear All (Cancella tutto) per includere nuovamente tutti i componenti nel confronto dei segmenti.
+Fai clic su [!UICONTROL 'Set as default'] per escludere automaticamente i componenti correnti in tutti i futuri confronti fra segmenti. Se desideri modificare i componenti esclusi, fai clic su un tipo di componente, quindi fai clic sulla X accanto a un componente per includerlo nuovamente nell’analisi. Fai clic su Clear All (Cancella tutto) per includere nuovamente tutti i componenti nel confronto dei segmenti.
 
 ![Dimensioni escluse](assets/excluded-dimensions.png)
 
@@ -97,7 +97,7 @@ Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspa
 
 >[!NOTE]
 >
->Gli elementi dimensione aggiunti alla tabella al termine del confronto dei segmenti non ricevono un punteggio di differenza.
+>Al termine del confronto dei segmenti, gli elementi Dimension aggiunti a questa tabella non ricevono un punteggio di differenza.
 
 ![Dimensioni principali](assets/top-dimension-item1.png)
 
