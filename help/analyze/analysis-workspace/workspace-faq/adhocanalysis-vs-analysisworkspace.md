@@ -24,7 +24,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
 | Progetto | Workspace o progetto |
-| Workspace | Pannello |
+| Area di lavoro | Pannello |
 | Rapporto | Tabella a forma libera |
 | Grafici | Visualizzazione |
 | Gerarchia: Progetto > Workspace > Rapporti | Gerarchia: Progetto > Pannelli > Tabelle |
@@ -100,7 +100,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. Include oltre 10 modelli algoritmici e basati su regole. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video: IQ attribuzione nelle tabelle a forma libera</a> </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. Include oltre 10 modelli algoritmici e basati su regole. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video:  Attribution IQ nelle tabelle a forma libera</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
