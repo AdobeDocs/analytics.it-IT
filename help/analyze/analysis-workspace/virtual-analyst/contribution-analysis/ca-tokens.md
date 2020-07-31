@@ -2,11 +2,11 @@
 description: 'null'
 title: Panoramica dell’analisi dei contributi
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte del cliente, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti.
 
-Si è verificata un’anomalia. Perché? Il report della funzionalità di rilevamento delle anomalie mostra un picco insolito negli ordini e vuoi scoprirne il motivo. Cos’è successo di straordinario? Chi risponde a una determinata campagna o riferimento? Un contenuto è diventato virale? Quali sono i fattori specifici che hanno contribuito a questa anomalia? Forse l’informazione più importante: come posso acquisire informazioni critiche sul mio cliente e ripetere queste prestazioni? (Oppure, se si è verificato un calo in una metrica o un aumento in una metrica negativa, come posso evitarlo in futuro?).
+Si è verificata un’anomalia. Perché? Il report della funzionalità di rilevamento delle anomalie mostra un picco insolito negli ordini e vuoi scoprirne il motivo. Cos’è successo di straordinario? Chi risponde a una determinata campagna o riferimento? Un contenuto è diventato virale? Quali sono i fattori specifici che hanno contribuito a questa anomalia? Forse l’informazione più importante: come posso acquisire informazioni critiche sul mio cliente e ripetere queste prestazioni? (Oppure, se si è verificato un calo in una metrica o un aumento in una metrica negativa, come posso evitarlo in futuro?)
 
 L’analisi dei contributi consente di valutare immediatamente i dati per individuare la causa di un’anomalia. Suddivide i contributi in un’anomalia in pochi secondi anziché settimane come in precedenza, fornendo pattern per determinati segmenti di pubblico e aiutando a sviluppare un percorso delle interazioni dei clienti. È possibile utilizzare l’analisi dei contributi in modo strategico per identificare e acquisire associazioni significative e sviluppare nuovi segmenti di pubblico, oppure in modo tattico per identificare attività non associate o fraudolente che attivano un avviso.
 
@@ -23,9 +23,9 @@ L’analisi dei contributi consente di valutare immediatamente i dati per indivi
 
 La funzione Analisi contributi consente di sviluppare una narrazione per descrivere la causa di un’anomalia e come trattarla, acquisendo metriche rilevanti e identificando punti nascosti che forniscono una panoramica delle interazioni del pubblico e degli interessi più comuni dei clienti. A volte un’anomalia è facile da identificare e correggere, come un ordine errato di 2.000 kayak. A volte è più complessa, come l’identificazione di una tendenza emergente in un periodo di tempo all’interno di una regione che reagisce solo a una campagna mirata specifica. La combinazione di elementi che contribuiscono alle metriche per diverse dimensioni e associazioni offre un’idea generale delle interazioni del pubblico e contribuisce a fornire contesto per punti di dati anomali.
 
-Di seguito sono riportati alcuni esempi di utilizzo:
+Di seguito sono riportati alcuni casi di utilizzo:
 
-* Identificare il potenziale di remarketing monitorando i cambiamenti nella domanda del prodotto.
+* Identifica le opportunità di remarketing monitorando i cambiamenti nella domanda dei prodotti.
 * Migliora l’esperienza del cliente reagendo a specifici interessi del pubblico.
 * Identifica gli ordini fraudolenti sin da subito tramite report fuori limite.
 * Previeni lo spionaggio aziendale identificando utilizzi e download elevati.
@@ -55,7 +55,7 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Perché Adobe ha introdotto i token? </b> </p> </td> 
-   <td colname="col2"> <p>L’analisi dei contributi è stata una delle funzionalità più importanti di Adobe Analytics. La possibilità di disporre di un numero limitato di esecuzioni “complete” al mese (anziché 3 sole dimensioni per alcuni prodotti Analytics) consente di comprendere meglio i risultati ottenibili dall’analisi completa e illimitata dei contributi. </p> </td> 
+   <td colname="col2"> <p>La funzione Analisi contributi ha riscosso un grande successo in Adobe Analytics. La possibilità di disporre di un numero limitato di esecuzioni “complete” al mese (anziché 3 sole dimensioni per alcuni prodotti Analytics) consente di comprendere meglio i risultati ottenibili dall’analisi completa e illimitata dei contributi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come funziona l’utilizzo dei token nell’analisi dei contributi? È necessario spendere un token per caricare un progetto con un’analisi dei contributi esistente oppure è richiesto solo se si esegue una nuova analisi?</b> </p> </td> 
@@ -71,11 +71,11 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come si limita l’accesso all’analisi dei contributi?</b> </p> </td> 
-   <td colname="col2"> <p>Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi, ma possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a>. Si consiglia di concedere l’autorizzazione all’analisi dei contributi solo agli utenti che abbiano un motivo legittimo per accedervi e di cui si sia certi che non abuseranno dei diritti di accesso ricevuti. </p> <p>Il titolo dell’autorizzazione è “Contribution Analysis” (Analisi contributi), alla voce <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">User Management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span></span>. </p> </td> 
+   <td colname="col2"> <p>Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi, ma possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a>. Si consiglia di concedere l’autorizzazione all’analisi dei contributi solo agli utenti che abbiano un motivo legittimo per accedervi e di cui si sia certi che non abuseranno dei diritti di accesso ricevuti. </p> <p>Il titolo dell’autorizzazione è “Contribution Analysis” (Analisi contributi), alla voce <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Amministratore</span> &gt; <span class="uicontrol">Gestione utente</span> &gt; <span class="uicontrol">Modifica gruppi</span> &gt; <span class="uicontrol">Modifica accesso a tutti i rapporti</span> &gt; <span class="uicontrol">Personalizza strumenti della suite di rapporti</span> &gt; <span class="uicontrol">Strumenti e rapporti</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Come faccio a conoscere il numero di token mensili a disposizione della mia azienda e quanti ne abbiamo utilizzati nel mese in corso?</b> </p> </td> 
-   <td colname="col2"> <p>Vai a <span class="ignoretag"><span class="uicontrol">Admin (Amministratore)</span> &gt; <span class="uicontrol">Company Settings (Impostazioni società)</span> &gt; <span class="uicontrol">View Feature Access Levels (Visualizza funzione livelli di accesso)</span></span>. Su questa pagina sono presenti 2 nuovi elementi: </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>Vai a <span class="ignoretag"><span class="uicontrol">Amministratore</span> &gt; <span class="uicontrol">Impostazioni società</span> &gt; <span class="uicontrol">Visualizza funzione livelli di accesso</span></span>. Su questa pagina sono presenti 2 nuovi elementi: </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
