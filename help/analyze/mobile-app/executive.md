@@ -1,23 +1,23 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Dashboard di Adobe Analytics: guida introduttiva rapida per utenti esecutivi
 
-Le informazioni seguenti forniscono agli utenti amministratori informazioni sulle procedure ottimali per l&#39;utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consultate [Dashboard di Adobe Analytics Esperienza](https://youtu.be/QXqQ_PkArbA)in-app.
+Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Introduzione
 
-Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento. L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Le dashboard sono supportate sia sui sistemi operativi iOS che su quelli Android.
+Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Le dashboard sono supportate sia sui sistemi operativi iOS che su quelli Android.
 
 ## Ulteriori informazioni su questa guida
 
@@ -53,17 +53,17 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 **Per gli utenti esecutivi su iOS:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
+Fai clic sul seguente collegamento (disponibile anche in Analytics in **Tools** > **Dashboards**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
-[Link iOS](https://apple.co/2zXq0aN)
+[Collegamento per iOS](https://apple.co/2zXq0aN)
 
 **Per gli utenti esecutivi su Android:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics in **Strumenti** > **Dashboard**) e segui le istruzioni per scaricare, installare e aprire l&#39;app:
+Fai clic sul seguente collegamento (disponibile anche in Analytics in **Tools** > **Dashboards**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
-[Collegamento Android](https://bit.ly/2LM38Oo)
+[Collegamento per Android](https://bit.ly/2LM38Oo)
 
-Una volta scaricati e installati, gli utenti esecutivi possono accedere all&#39;app utilizzando le credenziali Adobe Analytics esistenti.
+Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le credenziali di Adobe Analytics esistenti.
 
 ![Schermata di benvenuto dell’app](assets/welcome.png)
 
@@ -81,13 +81,14 @@ Per utilizzare le dashboard:
 
    ![Scegliere un’azienda](assets/nextseq.png)
 
-   Se effettuate l’accesso e viene visualizzato un messaggio che informa che non è stato condiviso nulla, verificate quanto segue con il vostro curatore:
+   Se effettui l’accesso e vedi un messaggio che dice che non è stato condiviso nulla, verifica quanto segue con il tuo curatore:
 
    * Riesci ad accedere alla giusta istanza di Analytics
    * La scorecard è stata condivisa con te
+
    ![Niente di condiviso](assets/nothing.png)
 
-4. Esaminare l’aspetto delle sezioni nella scorecard (la prima scorecard viene visualizzata in modalità scura); per ulteriori informazioni, consultate **Preferenze** di seguito).
+4. Esamina l’aspetto delle tessere nella scorecard (la prima scorecard viene visualizzata in modalità scura; per ulteriori informazioni, consulta **Preferences** di seguito).
 
    ![Informazioni sulle tessere](assets/newexplain.png)
 
@@ -101,11 +102,12 @@ Per utilizzare le dashboard:
    * La formula della variazione percentuale del valore è metrica totale (intervallo date attuale) – metrica totale (intervallo date di confronto)/metrica totale (intervallo date di confronto).
 
    * È possibile trascinare lo schermo verso il basso per aggiornare la scorecard.
-   L’esempio seguente della scorecard viene visualizzato in modalità normale:
+
+   La scorecard di esempio seguente viene visualizzata in modalità normale:
 
    ![Esempio di scorecard](assets/intro_scorecard.png)
 
-5. Toccate una sezione per vedere come funziona una suddivisione dettagliata per la sezione.
+5. Tocca una tessera per vedere come funziona un suo raggruppamento dettagliato.
 
    ![Vista Raggruppamento](assets/sparkline.png)
 
@@ -114,27 +116,27 @@ Per utilizzare le dashboard:
 
    ![Modificare le date](assets/changedate.png)
 
-   * Puoi anche modificare allo stesso modo gli intervalli di date all’interno della visualizzazione Suddivisione mostrata sopra.
+   * Puoi modificare allo stesso modo anche gli intervalli date all’interno della vista raggruppamento mostrata sopra.
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **CONFRONTA CON**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **Fine** in alto a destra dello schermo. Il campo **Intervalli date** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-7. Per applicare un filtro segmenti alla scorecard, toccate il menu a discesa del filtro e selezionate un segmento configurato dal vostro curatore. [I filtri](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nell&#39;app funzionano allo stesso modo in Analytics Workspace.
+7. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nell’app funzionano allo stesso modo di Analytics Workspace.
 
-   ![Filtro segmento](assets/segment_filter.png)
+   ![Filtro del segmento](assets/segment_filter.png)
 
 8. Ricevere gli aggiornamenti delle scorecard. Se una scorecard non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team di Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
 
 9. Per lasciare un feedback su questa app:
 
-   1. Toccate l&#39;icona delle impostazioni in alto a destra della schermata dell&#39;app.
-   2. On the **Settings** screen, tap the **Feedback** option.
-   3. Toccare per visualizzare le opzioni per lasciare un feedback.
+   1. Tocca l’icona dell’utente in alto a destra della schermata dell’app.
+   2. Nella schermata **Settings**, tocca l’opzione **Feedback**.
+   3. Tocca per visualizzare le opzioni per lasciare un feedback.
 
-      ![Impostazioni, schermata](assets/settings.png)
+      ![Schermata Settings](assets/settings.png)
 
-10. Per modificare le preferenze, toccate l’opzione **Preferenze** riportata sopra. Nelle preferenze, potete attivare l’accesso biometrico oppure impostare l’app per la modalità scura come illustrato di seguito:
+10. Per modificare le preferenze, tocca l’opzione **Preferences** mostrata sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
 
-   ![Modalità Scuro](assets/darkmode.png)
+   ![Modalità scura](assets/darkmode.png)
 
 
 **Per segnalare un bug**:
