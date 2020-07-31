@@ -2,9 +2,9 @@
 description: 'null'
 title: Inviare richieste di accesso e cancellazione
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1302'
 ht-degree: 100%
 
