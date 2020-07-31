@@ -1,17 +1,17 @@
 ---
 description: Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o CSV) immediatamente oppure puoi programmarne l’invio.
-title: Condividi, menu
+title: Menu Share
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Condividi, menu
+# Menu Share
 
 Puoi condividere e curare progetti e inviare file di progetto (in formato PDF o CSV) immediatamente oppure puoi programmarne l’invio.
 
