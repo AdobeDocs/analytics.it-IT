@@ -2,9 +2,9 @@
 description: 'Gli ID che invii non sempre comprendono tutti i dati dei risultati che Analytics può associare alla persona interessata. Analytics può creare un set esteso di ID per includere questi dati associati nelle richieste di Privacy dei dati. È possibile richiedere questa opzione con un parametro opzionale per ogni richiesta di Privacy dei dati inviata, aggiunta alla richiesta JSON '
 title: Espansione dell’ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Oltre al valore predefinito, il campo priorità supporta anche un valore di “l
 
 >[!NOTE]
 >
->L’[API del servizio Privacy](https://www.adobe.io/apis/experienceplatform/gdpr.html) è fornita per aiutarti a soddisfare le richieste relative alla Privacy dei dati, soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe. Chiediamo all’utente di non utilizzare l’API Servizio di privacy per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori.
+>L’[API del servizio Privacy](https://www.adobe.io/apis/experienceplatform/gdpr.html) è fornita per aiutarti a soddisfare le richieste relative alla privacy dei dati, le quali sono soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe. Chiediamo all’utente di non utilizzare l’API Servizio di privacy per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori.
 
 È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Servizio di privacy è inappropriata per questo utilizzo.
 
