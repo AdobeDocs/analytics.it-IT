@@ -2,9 +2,9 @@
 description: 'null'
 title: Tecniche di etichettatura consigliate
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2689'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Usa questa tabella per determinare i tipi di ID che userai durante l’invio del
 <table id="table_E25612E32A03449A8E5DA00B88FCEB9E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> ID Type (Tipo di ID) </th> 
+   <th colname="col1" class="entry"> Tipo di ID </th> 
    <th colname="col2" class="entry"> Tecniche consigliate </th> 
   </tr> 
  </thead>
