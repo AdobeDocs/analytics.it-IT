@@ -2,9 +2,9 @@
 description: 'null'
 title: Alert Builder (Generatore di avvisi)
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -24,9 +24,9 @@ Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Da **[!UICONTROL Workspace]** (Workspace) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL New Alert]** (Nuovo avviso).
-* Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione).
-* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** (Altro) > **[!UICONTROL Add Alert]** (Aggiungi avviso).
+* Da **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**.
+* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Creare avvisi
 
@@ -80,6 +80,7 @@ Imposta la data di scadenza dell’avviso.
    * is below or equals (è inferiore o uguale a)
    * changes by (cambia di)
    * Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
+
    È anche possibile utilizzare metriche calcolate.
 
 *... With These Filters (...con questi filtri)*
