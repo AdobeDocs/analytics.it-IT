@@ -2,9 +2,9 @@
 description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1370'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Puoi scegliere di creare un progetto da:
 Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato effettuando le seguenti operazioni:
 
 1. Apri il progetto.
-1. Vai a **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Save As Template]** (Salva come modello).
+1. Vai a **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
