@@ -2,9 +2,9 @@
 description: 'null'
 title: Palette di colori
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -29,10 +29,10 @@ Nota bene:
 ## Per modificare la palette di colori:
 
 1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. Dall’elenco a discesa **[!UICONTROL Project Color Palette]** (Palette colori progetto) puoi scegliere una delle cinque combinazioni di colore predefinite.
+1. Dall’elenco a discesa **[!UICONTROL Project Color Palette]** puoi scegliere una delle cinque combinazioni di colore predefinite.
 
    ![](assets/custom_palette.png)
 
-1. Per specificare una tua palette, seleziona **[!UICONTROL Custom Palette]** (Palette personalizzata) sotto le opzioni predefinite.
+1. Per specificare una tua palette, seleziona **[!UICONTROL Custom Palette]** sotto le opzioni predefinite.
 1. Specifica fino a 16 valori esadecimali separati da virgole (ad esempio #00a4e4) per i colori che intendi utilizzare. Se, ad esempio, desideri utilizzare solo quattro valori, questi colori verranno automaticamente ripetuti in visualizzazioni contenenti più colori.
 
