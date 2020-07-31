@@ -3,6 +3,9 @@ title: Guida agli strumenti di Analytics
 description: Documentazione del prodotto e supporto autonomo per Analysis Workspace, Activity Map, Report Builder, API di reporting e Reports & Analytics (precedentemente prodotti Omniture Analytics).
 translation-type: ht
 source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
+workflow-type: ht
+source-wordcount: '211'
+ht-degree: 100%
 
 ---
 
