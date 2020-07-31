@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 71%
+ht-degree: 95%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 71%
 
 **Qual è l’elemento di riga “None” quando si utilizza l’attribuzione?**
 
-“None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Per ridurre il numero di conversioni attribuite all&#39;elemento di riga Nessuno, provare a utilizzare una finestra di lookback personalizzata con un periodo di lookback più lungo.
+“None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Per ridurre il numero di conversioni attribuite alla riga “None”, prova a utilizzare un intervallo di lookback personalizzato con un periodo di lookback più lungo.
 
 **Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?**
 
 Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics.
 
-**Quando dovrei utilizzare una visita, un visitatore o un lookback di attribuzione personalizzato?**
+**Quando dovrei usare un lookback di attribuzione basato su visita, visitatore o personalizzato?**
 
-La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo rispetto a una singola visita, si consiglia di effettuare un lookback personalizzato o visitatore. Per cicli di conversione più lunghi, è consigliabile utilizzare finestre di lookback personalizzate, in quanto sono l&#39;unico tipo in grado di estrarre i dati prima della finestra di reporting
+La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore o personalizzato. Per cicli di conversione più lunghi, è consigliabile utilizzare intervalli di lookback personalizzati, in quanto sono l’unico tipo in grado di estrarre i dati precedenti all’intervallo di reporting
 
 **Come si confrontano proprietà e eVar quando si utilizza l’attribuzione?**
 
@@ -67,19 +67,19 @@ Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione no
 
 Le dimensioni dei metadati, come tipo di corrispondenza e parola chiave, funzionano con l’attribuzione. Tuttavia, le metriche (comprese impressioni, costi, clic, posizione media e valutazione della qualità media) utilizzano origini di dati a livello di riepilogo e sono pertanto incompatibili.
 
-**In che modo l&#39;attribuzione funziona con i canali di marketing?**
+**Come funziona l’attribuzione con i canali di marketing?**
 
-Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo le dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più specifiche dimensioni di primo/ultimo tocco. Adobe fornisce dimensioni &quot;Marketing Channel&quot; e &quot;Marketing Channel Detail&quot; generiche per consentirvi di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico alle dimensioni Last Touch Channel, ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
+Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo le dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. Adobe fornisce dimensioni generiche “Marketing Channel” e “Marketing Channel Detail” per consentirti di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico alle dimensioni Last Touch Channel, ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
 
 Poiché le dimensioni del canale di marketing dipendono da una definizione di visita tradizionale (come definita dalle relative regole di elaborazione), la definizione della visita non può essere modificata utilizzando le suite di rapporti virtuali.
 
-**In che modo l&#39;attribuzione funziona con variabili con più valori, come le variabili di elenco?**
+**In che modo l’attribuzione funziona con variabili con più valori, come le variabili elenco?**
 
 Alcune dimensioni in Analytics possono contenere più valori su un singolo hit. Esempi comuni includono le variabili elenco e prodotti.
 
 Quando l’attribuzione viene applicata a hit con più valori, a tutti i valori dello stesso hit viene assegnato lo stesso credito. Poiché il credito può essere assegnato a molti valori, il totale del rapporto può essere diverso da quello di ogni singolo elemento di riga. Il totale del rapporto è deduplicato, mentre ogni singolo elemento dimensione riceve il credito appropriato.
 
-**Come funziona l&#39;attribuzione con la segmentazione?**
+**Come funziona l’attribuzione con la segmentazione?**
 
 L’attribuzione viene sempre eseguita prima della segmentazione e la segmentazione viene eseguita prima dell’applicazione dei filtri per la generazione del rapporto. Questo concetto si applica anche alle suite di rapporti virtuali che utilizzano segmenti.
 
