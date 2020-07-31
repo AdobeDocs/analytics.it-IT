@@ -2,9 +2,9 @@
 description: 'null'
 title: Etichette Privacy dei dati per le variabili di Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3634'
 ht-degree: 100%
 
@@ -226,7 +226,7 @@ Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo
 
    ![](assets/namespace2.png)
 
-1. Premi **[!UICONTROL Enter]** (Invio) per aggiungere questo namespace. Solo a questo punto si attiverà il pulsante Applica.
+1. Premi **[!UICONTROL Enter]** per aggiungere questo namespace. Solo a questo punto si attiverà il pulsante Applica.
 1. Fai clic su **[!UICONTROL Apply]**.
 
 La stringa specificata come namespace è la stessa stringa che devi usare quando invii le richieste tramite l’API Privacy dei dati come valore del parametro “namespace”. Per via della richiesta, Adobe Analytics cercherà tutte le variabili in tutte le suite di rapporti che condividono questo namespace per l’ID specificata con la richiesta.
