@@ -3,9 +3,9 @@ description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti c
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Applicare i segmenti nell’analisi dell’abbandono
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
 ## Creare un segmento da un punto di contatto {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Crea un segmento da un punto di contatto che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. A tale scopo, fai clic con il pulsante destro sul punto di contatto e seleziona **[!UICONTROL Create segment from touchpoint]** (Crea segmento da punto di contatto).
+1. Crea un segmento da un punto di contatto che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. A tale scopo, fai clic con il pulsante destro sul punto di contatto e seleziona **[!UICONTROL Create segment from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -50,7 +50,7 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono.
 
-1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Segments] (Segmenti) a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
+1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Segments] a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
 1. Trascinali nella zona di rilascio Segmento, in alto.
 
    ![](assets/segment-drop.png)
