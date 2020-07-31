@@ -2,9 +2,9 @@
 description: 'null'
 title: Segmenti
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Nota bene:
 Puoi scegliere di rendere questi segmenti pubblici (globali), seguendo questi passaggi:
 
 1. Passa il mouse sul segmento nella zona di rilascio e fai clic sull’icona “i”.
-1. Nel pannello informazioni visualizzato, fai clic su **[!UICONTROL Make public]** (Rendi pubbliche).
+1. Nel pannello informazioni visualizzato, fai clic su **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
 
