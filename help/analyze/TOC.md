@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [Mappa ad albero](analysis-workspace/visualizations/treemap.md)
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
-      + [pannello Analytics per Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Pannello Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + Pannello Segment comparison {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -103,7 +103,7 @@ ht-degree: 98%
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
-   + [Segmento IQ](analysis-workspace/segment-iq.md)
+   + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
       + Detección de anomalías {#anomaly-detection}
@@ -337,7 +337,7 @@ ht-degree: 98%
 + Labs {#tech-previews}
    + [Panoramica di Labs](tech-previews/overview.md)
 + Dashboard di Adobe Analytics {#mobapp}
-   + [Dashboard di Adobe  Analytics - Panoramica](mobile-app/home.md)
+   + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Guida per curatori](mobile-app/curator.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
 + App web progressive {#pwa}
