@@ -2,9 +2,9 @@
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
 keywords: Analysis Workspace curation
 title: Curare progetti Workspace
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ Quando un destinatario apre un progetto curato, vedrà solo il set curato di com
 ## Rimuovere la cura del progetto
 
 Per rimuovere la cura del progetto e ripristinare l’intero set di componenti nella barra a sinistra:
+
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Fai clic su **[!UICONTROL Remove Curation]**.
 1. Fai clic su **[!UICONTROL Done]**.
