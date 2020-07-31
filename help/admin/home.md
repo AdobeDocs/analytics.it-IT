@@ -1,11 +1,11 @@
 ---
 title: Guida per l’amministratore di Analytics
 description: Guida per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti nell'Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Questa guida è destinata agli amministratori di Adobe Analytics. Include inform
 Adobe Analytics dispone attualmente di due aree per gli amministratori:
 
 * Adobe Admin Console: utilizza quest’area per il provisioning degli strumenti Experience Cloud e per gestire le autorizzazioni degli utenti. È disponibile all’indirizzo [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Admin Console di Analytics: utilizza quest’area per la gestione delle suite di rapporti e delle variabili. It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
+* Admin Console di Analytics: utilizza quest’area per la gestione delle suite di rapporti e delle variabili. È accessibile facendo clic su [!UICONTROL Admin] nell’intestazione superiore di Adobe Analytics.
 
 Questa guida tratta i seguenti argomenti:
 
