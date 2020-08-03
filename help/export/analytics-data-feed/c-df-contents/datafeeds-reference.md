@@ -6,7 +6,7 @@ title: Riferimento colonna dati
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
+source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `geo_region` | Nome dello stato o della regione da cui proveniva l’hit, in base all’IP.  Adobe collabora con Digital Enviy per far corrispondere l&#39;indirizzo IP allo stato/regione. | char(32) |
 | `geo_zip` | Il codice zip dal quale proveniva l’hit, basato su IP.  Adobe collabora con Digital Enviy per far corrispondere l&#39;indirizzo IP al codice postale. | varchar(16) |
 | `hier1 - hier5` | Utilizzata dalle variabili della gerarchia. Contiene un elenco delimitato di valori. Il carattere di delimitazione è selezionato nelle impostazioni della suite di rapporti. | varchar(255) |
-| `hit_source` | Indica da quale origine è provenuto l’hit. Hit_sources 0, 1, 2 e 6 vengono fatturati. <br>1: Richiesta immagine standard senza timestamp <br>2: Richiesta immagine standard con marca temporale <br>3: Caricamento origine dati live con marca temporale <br>4: Non utilizzato <br>5: Caricamento origine dati generica <br>6: Elaborazione completa del caricamento dell&#39;origine dati <br>7: Caricamento origine dati ID transazione <br>8: Non più utilizzato; Versioni precedenti di origini dati Adobe Advertising Cloud <br>9: Non più utilizzato;  metriche di riepilogo Adobe Social <br>10:  Audience Manager di inoltro lato server utilizzato | tinyint non firmato |
+| `hit_source` | Indica da quale origine è provenuto l’hit. Le fonti di hit 1, 2 e 6 sono fatturate. <br>1: Richiesta immagine standard senza timestamp <br>2: Richiesta immagine standard con marca temporale <br>3: Caricamento origine dati live con marca temporale <br>4: Non utilizzato <br>5: Caricamento origine dati generica <br>6: Elaborazione completa del caricamento dell&#39;origine dati <br>7: Caricamento origine dati ID transazione <br>8: Non più utilizzato; Versioni precedenti di origini dati Adobe Advertising Cloud <br>9: Non più utilizzato;  metriche di riepilogo Adobe Social <br>10:  Audience Manager di inoltro lato server utilizzato | tinyint non firmato |
 | `hit_time_gmt` | La marca temporale dei server di raccolta dati del Adobe di hit  ha ricevuto l’hit, in base all’ora Unix. | int |
 | `hitid_high` | Utilizzata in combinazione con hitid_low per identificare in modo univoco un hit. | bigint non firmato |
 | `hitid_low` | Utilizzata in combinazione con hitid_high per identificare in modo univoco un hit. | bigint non firmato |
