@@ -1,10 +1,10 @@
 ---
-description: Il tracciamento determina il modo in cui i dati del motore di ricerca vengono tracciati dall’implementazione di Adobe Analytics. Si tratta di un passaggio necessario per incrementare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
+description: Il tracciamento determina il modo in cui i dati del motore di ricerca vengono tracciati dall’implementazione Adobe Analytics . Si tratta di un passaggio necessario per migliorare correttamente i dati Adobe Analytics  con i dati del motore di ricerca.
 title: Modalità manuale di tracciamento e modalità automatica
 translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 # Tracciamento: modalità manuale e modalità automatica
 
-Il tracciamento determina il modo in cui i dati del motore di ricerca vengono tracciati dall’implementazione di Adobe Analytics. Si tratta di un passaggio necessario per incrementare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
+Il tracciamento determina il modo in cui i dati del motore di ricerca vengono tracciati dall’implementazione Adobe Analytics . Si tratta di un passaggio necessario per migliorare correttamente i dati Adobe Analytics  con i dati del motore di ricerca.
 
 Sono supportate due modalità di tracciamento: Modalità automatica e Modalità manuale.
 
 ## Tracciamento modalità automatica {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-In modalità Automatica, puoi lasciare che sia il motore Advertising Cloud a decidere come gestire i dati del motore di ricerca. Questo è l&#39;approccio più semplice, ma potrebbe non generare il miglior set di dati integrato.
+In modalità Auto, è possibile consentire al  Advertising Cloud Engine di decidere come gestire i dati del motore di ricerca. Questo è l&#39;approccio più semplice, ma potrebbe non generare il miglior set di dati integrato.
 
 Di conseguenza, è necessario selezionare una casella di controllo di riconoscimento quando si seleziona la modalità Auto, prima di poter salvare l&#39;impostazione dell&#39;account.
 
@@ -33,7 +33,7 @@ Per configurare un account del motore di ricerca in modalità automatica, è nec
 
 ## Tracciamento modalità manuale {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-In modalità Manuale, è necessario specificare come i dati del motore di ricerca devono essere trattati dal processo di integrazione dei dati di Analytics per la pubblicità.
+In modalità Manuale, è necessario specificare come i dati del motore di ricerca devono essere gestiti dal processo di integrazione dei dati Advertising Analytics .
 
 ### Aggiungi tracciamento manuale all&#39;account Google {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
@@ -101,7 +101,7 @@ Esempi di codici di tracciamento in vari formati di suffisso URL finali:
 **{lpurl}**
 
 ```
-{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`
+{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **`{lpurl}`con parametri URL aggiuntivi **
@@ -111,10 +111,10 @@ Esempi di codici di tracciamento in vari formati di suffisso URL finali:
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**3rd-party (DoubleClick) `{unescape edlpurl}**
+**3rd-party (DoubleClick)`{unescapedlpurl}`**
 
-```https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
-
+```
+https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **3rd-party (DoubleClick)`{lpurl}`**
