@@ -1,11 +1,11 @@
 ---
 description: 'null'
 title: Panoramica dei pannelli
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai 
 
 * [Pannello vuoto](blank-panel.md)
 * [Pannello Quick Insights](quickinsight.md)
-* [Pannello Analytics for Target](a4t-panel.md) (disponibile a breve)
+* [Pannello Analytics for Target](a4t-panel.md)
 * [Pannello Attribution](attribution.md)
 * [Pannello Freeform](freeform-panel.md)
 * [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md)
