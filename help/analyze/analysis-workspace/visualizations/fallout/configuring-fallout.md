@@ -2,8 +2,11 @@
 description: 'null'
 title: Configurare una visualizzazione dell’abbandono
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +65,6 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 | Impostazione | Descrizione |
 |--- |--- |
 | Contenitore Abbandono <ul><li>Visita</li><li>Visitatore</li></ul> | Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Il valore predefinito è Visitatore.  Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
-| Mostra “Tutti i visitatori” come primo punto di contatto | Puoi deselezionare questa opzione se preferisci non avere “Tutti i visitatori” come primo punto di contatto. |
 
 Quando **fai clic con il pulsante destro del mouse su un punto di contatto**, vengono visualizzate le seguenti opzioni:
 
