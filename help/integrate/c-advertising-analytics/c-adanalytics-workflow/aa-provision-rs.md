@@ -3,7 +3,7 @@ description: 'null'
 title: Abilita suite di rapporti per Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 18%
@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # Abilita suite di rapporti per Advertising Analytics
 
-Per visualizzare  dati di ricerca Advertising Analytics in  Analytics, è necessario configurare ogni  suite di rapporti con mappatura Experience Cloud per  rapporti Advertising Analytics.
+Per visualizzare  dati di ricerca Advertising Analytics in Analytics, è necessario configurare ogni  suite di rapporti mappata sui Experienci Cloud per  rapporti Advertising Analytics.
 
 1. [Mappa la suite di rapporti su un&#39;organizzazione](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Passa a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
@@ -23,7 +23,9 @@ Per visualizzare  dati di ricerca Advertising Analytics in  Analytics, è necess
 
    ![Generazione di rapporti](assets/aa_reporting.png)
 
-   >[!IMPORTANT] L’ID AMO si riferisce alla variabile Adobe Advertising Cloud in cui verranno inseriti i dati di ricerca.
+   >[!IMPORTANT]
+   >
+   >L’ID AMO si riferisce alla variabile Adobe Advertising Cloud in cui verranno inseriti i dati di ricerca.
 
 1. Impostate l’allocazione e la scadenza della variabile che desiderate utilizzare per l’ID AMO. Le variabili di conversione (eVar) consentono  Adobe Analytics di attribuire eventi di successo a valori variabili specifici. Talvolta, le variabili rilevano più di un valore prima di colpire un evento di successo. In questi casi, l&#39;allocazione determina il valore della variabile che riceve credito per l&#39;evento.
 
