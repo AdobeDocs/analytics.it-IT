@@ -4,7 +4,7 @@ title: Configurare eventi di successo
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 20%
@@ -25,7 +25,9 @@ Passaggi che descrivono come configurare gli eventi di successo.
 1. Nella **[!UICONTROL Name]** colonna, selezionate la casella di controllo accanto a ciascun elemento per attivare la modifica, quindi specificate il nome desiderato.
 1. Nella **[!UICONTROL Type]** colonna, selezionare la casella di controllo accanto a ogni elemento per attivare l&#39;elenco a discesa, quindi selezionare il tipo desiderato.
 
-   >[!NOTE] Prima di modificare un tipo di evento, vedere [Modifica del tipo](/help/admin/admin/c-success-events/event-type.md)di evento.
+   >[!NOTE]
+   >
+   >Prima di modificare un tipo di evento, vedere [Modifica del tipo](/help/admin/admin/c-success-events/event-type.md)di evento.
 
    Consultate [Pagina Eventi di successo - Descrizioni](/help/admin/admin/c-success-events/success-event.md) per informazioni su questi elementi.
 
@@ -37,7 +39,9 @@ Passaggi che descrivono come configurare gli eventi di successo.
 1. Verificate se registrare sempre l’evento.
 1. Abilitare o disabilitare le metriche di partecipazione.
 
-   >[!NOTE] Potete abilitare la partecipazione per un massimo di 100 eventi personalizzati. Oltre a ciò, potete creare metriche di partecipazione nel generatore Metriche [](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) calcolate.
+   >[!NOTE]
+   >
+   >Potete abilitare la partecipazione per un massimo di 100 eventi personalizzati. Oltre a ciò, potete creare metriche di partecipazione nel generatore Metriche [](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) calcolate.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
