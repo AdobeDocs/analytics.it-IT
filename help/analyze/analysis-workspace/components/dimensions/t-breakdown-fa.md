@@ -5,7 +5,7 @@ title: Suddividere dimensioni
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 93%
@@ -26,7 +26,9 @@ Analizza i dati in tantissimi modi per ogni necessità; realizza query con metri
 
    Puoi suddividere le metriche per elementi dimensionali o segmenti di pubblico tra periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
-   >[!NOTE] È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
+   >[!NOTE]
+   >
+   >È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
 
 [Dimensioni in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
