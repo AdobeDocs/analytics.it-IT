@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: Misurare il tempo tra due eventi.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da  Adobe Consulting come una cortesia per aiutarvi a ottenere più valore da  Adobe Analytics. &#39;Assistenza clienti di Adobe non fornisce supporto con questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `getTimeBetweenEvents` plug-in consente di tenere traccia del tempo trascorso tra due eventi Analytics , inclusi gli eventi del carrello e personalizzati. È utile per tenere traccia del tempo necessario al completamento di un processo di checkout o di qualsiasi altro processo da misurare. Questo plug-in non è necessario se non si dispone di processi di conversione che si desidera misurare quanto tempo impiegano.
+Il `getTimeBetweenEvents` plug-in consente di tenere traccia del tempo tra due eventi di Analytics, inclusi gli eventi del carrello e personalizzati. È utile per tenere traccia del tempo necessario al completamento di un processo di checkout o di qualsiasi altro processo da misurare. Questo plug-in non è necessario se non si dispone di processi di conversione che si desidera misurare quanto tempo impiegano.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch 
 
@@ -30,7 +30,7 @@ Il `getTimeBetweenEvents` plug-in consente di tenere traccia del tempo trascorso
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (Page Top)
 1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in Analytics  comuni
+   * Estensione: Plug-in comuni di Analytics
    * Tipo azione: Initialize getTimeBetweenEvents
 1. Salvate e pubblicate le modifiche alla regola.
 
@@ -43,11 +43,11 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics .
 1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche nell’estensione Analytics .
+1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenendo i commenti e i numeri di versione del codice nell’implementazione,  Adobe può risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). Mantenendo i commenti e i numeri di versione del codice nell’implementazione,  Adobe può risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -66,11 +66,14 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Il `getTimeBetweenEvents` metodo utilizza i seguenti argomenti:
 
-* **`ste`** (obbligatorio, stringa): Avviate gli eventi timer. Una stringa delimitata da virgole di eventi  Analytics per &quot;avviare il timer&quot;.
+* **`ste`** (obbligatorio, stringa): Avviate gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics per &quot;avviare il timer&quot;.
 * **`rt`** (obbligatorio, booleano): Riavvia timer. Impostare su `true` se si desidera riavviare il timer ogni volta che la `events` variabile contiene un evento timer di avvio. Impostare su `false` se non si desidera che il timer venga riavviato quando viene visualizzato un evento timer di avvio.
-* **`stp`** (obbligatorio, stringa): Arrestate gli eventi timer. Una stringa delimitata da virgole di eventi  Analytics che &quot;arrestano il timer&quot;.
+* **`stp`** (obbligatorio, stringa): Arrestate gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics che &quot;arresta il timer&quot;.
 * **`res`** (obbligatorio, booleano): Opzione Reimposta timer. Impostare su `true` se si desidera registrare l&#39;ora dall&#39;avvio del timer E reimpostare il timer dopo l&#39;arresto. Impostare su `false` se si desidera registrare l&#39;ora ma non arrestare il timer. Se impostato su `false`, il timer continua a essere eseguito dopo che la variabile degli eventi ha registrato un evento stop.
-   >[!TIP] Se si imposta questo argomento su `false`, è consigliabile impostare l&#39; `rte` argomento seguente.
+
+   >[!TIP]
+   >
+   >Se si imposta questo argomento su `false`, è consigliabile impostare l&#39; `rte` argomento seguente.
 * **`cn`** (facoltativo, stringa): Il nome del cookie in cui è memorizzata l&#39;ora del primo evento. Il valore predefinito è `"s_tbe"`.
 * **`etd`** (facoltativo, numero intero): Tempo di scadenza per il cookie in giorni. Impostato `0` per scadere alla fine della sessione del browser. Il valore predefinito è 1 giorno se non è impostato.
 * **`fmt`** (facoltativo, stringa): Formato del tempo in cui viene restituito il numero di secondi (impostazione predefinita: niente)
@@ -84,7 +87,7 @@ Il `getTimeBetweenEvents` metodo utilizza i seguenti argomenti:
       * Qualsiasi valore compreso tra un&#39;ora e un giorno viene arrotondato al valore di riferimento del trimestre più vicino. Ad esempio, 2,25 ore, 3,5 ore
       * Qualsiasi valore maggiore di un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
 * **`bml`** (facoltativo, numero): Lunghezza del parametro di riferimento per l&#39;arrotondamento in base al formato dell&#39; `fmt` argomento. Ad esempio, se l&#39; `fmt` argomento è `"s"` e questo argomento è `2`, il valore restituito viene arrotondato al valore di riferimento di 2 secondi più vicino. Se `fmt` l&#39;argomento è `"m"` e questo è `0.5`, il valore restituito viene arrotondato al valore di riferimento di mezzo minuto più vicino.
-* **`rte`** (facoltativo, stringa): Stringa delimitata da virgole di eventi  Analytics che rimuovono o eliminano il timer. Il valore predefinito è Nothing.
+* **`rte`** (facoltativo, stringa): Stringa delimitata da virgole di eventi di Analytics che rimuovono o eliminano il timer. Il valore predefinito è Nothing.
 
 Se si chiama questo metodo, viene restituito un numero intero che rappresenta la quantità di tempo tra l&#39;evento timer di avvio e l&#39;evento timer di arresto nel formato desiderato.
 
