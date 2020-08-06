@@ -1,22 +1,22 @@
 ---
-title: Creare una proprietà Analytics  in Launch
+title: Creare una proprietà Analytics in Launch
 description: Create uno spazio per personalizzare il modo in cui vengono raccolti i dati, utilizzando  Adobe Experience Platform Launch.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '549'
 ht-degree: 4%
 
 ---
 
 
-# Creare una proprietà Analytics  in  Adobe Experience Platform Launch
+# Creare una proprietà Analytics in  Adobe Experience Platform Launch
 
- Adobe Experience Platform Launch è lo strumento che potete utilizzare per integrare soluzioni  Experience Cloud sul vostro sito Web (incluso  Analytics). In questa pagina viene illustrato in che modo un amministratore di Launch può configurare correttamente un&#39;implementazione di base  Adobe Analytics.
+ Adobe Experience Platform Launch è lo strumento che puoi utilizzare per integrare soluzioni  Experience Cloud sul tuo sito Web (inclusa Analytics). In questa pagina viene illustrato in che modo un amministratore di Launch può configurare correttamente un&#39;implementazione di base  Adobe Analytics.
 
 ## Prerequisiti
 
-[Crea una suite](/help/admin/admin-console/create-report-suite.md)di rapporti: Creare un silo per  i dati Analytics da raccogliere
+[Crea una suite](/help/admin/admin-console/create-report-suite.md)di rapporti: Creare un silo per i dati di Analytics da raccogliere
 
 ## Creare una proprietà e installare estensioni vitali
 
@@ -24,7 +24,7 @@ Le proprietà sono contenitori sovrapposti che consentono di gestire i tag. Le e
 
 1. Andate a [launch.adobe.com](https://launch.adobe.com) ed effettuate l&#39;accesso, se richiesto.
 1. Fate clic su &quot;Nuova proprietà&quot;.
-1. Assegna alla proprietà un nome, ad esempio il titolo del tuo sito Web, e immetti il dominio sul quale vuoi implementare  Analytics. Fai clic su Salva.
+1. Assegna alla tua proprietà un nome, ad esempio il titolo del tuo sito Web, e immetti il dominio sul quale vuoi implementare Analytics. Fai clic su Salva.
 1. Fate clic sulla nuova proprietà creata per specificarne le impostazioni.
 1. Fate clic sulla scheda Estensioni, quindi fate clic su Catalogo.
 1. Individua servizio identità, quindi fai clic su Installa.
@@ -36,22 +36,25 @@ Le proprietà sono contenitori sovrapposti che consentono di gestire i tag. Le e
 Gli elementi dati sono riferimenti a parti specifiche del sito per la raccolta di valori variabili.
 
 1. Andate a [launch.adobe.com](https://launch.adobe.com) ed effettuate l&#39;accesso, se richiesto.
-2. Fare clic sulla proprietà Launch che si desidera implementare sul sito.
-3. Fare clic sulla scheda Elementi dati, quindi su Crea nuovo elemento dati.
-4. Assegna all’elemento dati le seguenti impostazioni:
+1. Fare clic sulla proprietà Launch che si desidera implementare sul sito.
+1. Fare clic sulla scheda Elementi dati, quindi su Crea nuovo elemento dati.
+1. Assegna all’elemento dati le seguenti impostazioni:
+
    * Nome: Nome pagina
    * Estensione: Core
    * Tipo elemento dati: Variabile JavaScript
    * Percorso della variabile: `window.document.title`
 
-      >[!NOTE] Nota: Si tratta di un valore di esempio per iniziare a utilizzarlo. Se l’organizzazione definisce un valore migliore per il nome della pagina, ad esempio un valore per il livello dati, potete immetterlo qui.
+      >[!NOTE]
+      >
+      >Si tratta di un valore di esempio per iniziare a utilizzarlo. Se l’organizzazione definisce un valore migliore per il nome della pagina, ad esempio un valore per il livello dati, potete immetterlo qui.
    * Testo pulito selezionato
    * Durata: Pageview
-5. Fai clic su Salva.
+1. Fai clic su Salva.
 
 ## Creare regole per  Adobe Analytics
 
-Le regole associano gli elementi dati  valori variabili Analytics e determinano quando tali valori vengono inviati  server  Adobi.
+Le regole associano gli elementi dati ai valori delle variabili Analytics e determinano quando tali valori vengono inviati  server  Adobi.
 
 1. Andate a [launch.adobe.com](https://launch.adobe.com) ed effettuate l&#39;accesso, se richiesto.
 1. Fare clic sulla proprietà Launch che si desidera implementare sul sito.
@@ -84,4 +87,4 @@ Le regole associano gli elementi dati  valori variabili Analytics e determinano 
 
 ## Passaggi successivi
 
-[Implementa l’implementazione Analytics  nel tuo ambiente](deploy-dev.md)di sviluppo: Ottenete  codice Analytics in un ambiente di test.
+[Distribuisci l’implementazione di Analytics nel tuo ambiente](deploy-dev.md)di sviluppo: Ottenete il codice Analytics in un ambiente di test.
