@@ -2,7 +2,7 @@
 title: Suite di rapporti globali in  Adobe Analytics
 description: Scopri i vantaggi e i requisiti di una suite di rapporti globale.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 3%
@@ -19,7 +19,7 @@ Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tut
  Adobe consiglia di implementare una suite di rapporti globale nella maggior parte dei casi.
 
 * **Dati aggregati:** Le suite di rapporti globali consentono di visualizzare gli eventi KPI e di successo nei siti di proprietà. La segmentazione e le suite di rapporti virtuali possono essere utilizzate per visualizzare dati specifici per il sito.
-* **Supporto per  Analytics cross-device:** CDA richiede una suite di rapporti che raccoglie dati da più luoghi, come il sito Web e l’app mobile. I dispositivi separati possono unire i dati se implementati correttamente. Per ulteriori informazioni, consulta [Dispositivi  Analytics](../../components/cda/overview.md) nella guida utente Componenti.
+* **Supporto per l&#39;analisi cross-device:** CDA richiede una suite di rapporti che raccoglie dati da più luoghi, come il sito Web e l’app mobile. I dispositivi separati possono unire i dati se implementati correttamente. Per ulteriori informazioni, consulta Analisi [](../../components/cda/overview.md) cross-device nella guida utente dei componenti.
 * **Non sono necessarie più suite di rapporti:** Tutti i dati possono essere raccolti in una singola suite di rapporti, pertanto è meno probabile che uno sviluppatore invii erroneamente i dati alla suite di rapporti sbagliata.
 * **Non è necessario eseguire il rollup:** I rollup sono una funzione piuttosto datata che aggrega quotidianamente i dati delle singole suite di rapporti. I rollup non deduplicano i dati delle visite o dei visitatori, il che può causare un aumento dei numeri. Per ulteriori informazioni, consulta [Rollup](../../admin/c-manage-report-suites/rollup-report-suite.md) nella guida utente di amministrazione.
 * **Risparmio di tempo:** I progetti, le classificazioni, i segmenti e le metriche calcolate dell&#39;area di lavoro sono legati alla stessa suite di rapporti globale. Gli amministratori dedicano meno tempo alla gestione di questi componenti e alla gestione dei dati.
@@ -35,12 +35,15 @@ Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tut
 Utilizzate le seguenti linee guida generali per comprendere il processo di implementazione di una suite di rapporti globale.
 
 1. Crea la suite di rapporti globale in  Adobe Analytics. Per ulteriori informazioni, consulta [Creare una suite](../../admin/admin-console/create-report-suite.md) di rapporti nella guida per l&#39;utente Admin.
-2. Collaborate con i team dell&#39;organizzazione responsabili per ogni dominio. Molti team hanno requisiti di reporting specifici per la propria area di attività.
-3. Registrazione e aggregazione di tutti questi requisiti in un documento [di progettazione della](solution-design.md)soluzione. Se i team hanno requisiti simili per una dimensione, possono utilizzare la stessa variabile personalizzata. Ad esempio, se il sito A e il sito B richiedono entrambe una dimensione di breadcrumb, le implementazioni per entrambi i siti possono inviare tali dati tramite  eVar1.
-   >[!IMPORTANT] Accertatevi che qualsiasi variabile personalizzata specificata venga utilizzata in modo simile tra i domini. Non utilizzate lo stesso eVar o evento  per scopi diversi nei vostri siti.
-4. Accertatevi che ciascun dominio disponga di un livello dati per semplificare la raccolta dei dati. I dati possono ancora essere raccolti senza un livello di dati, ma l&#39;affidabilità e la durata dell&#39;implementazione diminuiscono, soprattutto quando il sito viene riprogettato.
-5. Utilizzate  Adobe Experience Platform Launch per implementare  Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza regole specifiche per ciascun dominio per verificare che ciascun elemento dati sia popolato correttamente, quindi assegna tali elementi ai rispettivi eVar ed eventi. Consultate Panoramica [di](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) Launch nella guida utente di  Adobe Experience Platform Launch.
-6. Includete il servizio [](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) Adobe Experience Cloud ID e utilizzate la funzione [appendVisitorIDsTo](https://docs.adobe.com/content/help/it-IT/id-service/using/id-service-api/methods/appendvisitorid.html) . Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all&#39;altro.
+1. Collaborate con i team dell&#39;organizzazione responsabili per ogni dominio. Molti team hanno requisiti di reporting specifici per la propria area di attività.
+1. Registrazione e aggregazione di tutti questi requisiti in un documento [di progettazione della](solution-design.md)soluzione. Se i team hanno requisiti simili per una dimensione, possono utilizzare la stessa variabile personalizzata. Ad esempio, se il sito A e il sito B richiedono entrambe una dimensione di breadcrumb, le implementazioni per entrambi i siti possono inviare tali dati tramite  eVar1.
+
+   >[!IMPORTANT]
+   >
+   >Accertatevi che qualsiasi variabile personalizzata specificata venga utilizzata in modo simile tra i domini. Non utilizzate lo stesso eVar o evento  per scopi diversi nei vostri siti.
+1. Accertatevi che ciascun dominio disponga di un livello dati per semplificare la raccolta dei dati. I dati possono ancora essere raccolti senza un livello di dati, ma l&#39;affidabilità e la durata dell&#39;implementazione diminuiscono, soprattutto quando il sito viene riprogettato.
+1. Utilizzate  Adobe Experience Platform Launch per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza regole specifiche per ciascun dominio per verificare che ciascun elemento dati sia popolato correttamente, quindi assegna tali elementi ai rispettivi eVar ed eventi. Consultate Panoramica [di](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) Launch nella guida utente di  Adobe Experience Platform Launch.
+1. Includete il servizio [](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) Adobe Experience Cloud ID e utilizzate la funzione [appendVisitorIDsTo](https://docs.adobe.com/content/help/it-IT/id-service/using/id-service-api/methods/appendvisitorid.html) . Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all&#39;altro.
 
 ## Modifica di un&#39;implementazione esistente con una suite di rapporti globale
 
