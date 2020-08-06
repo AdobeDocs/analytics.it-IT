@@ -2,7 +2,7 @@
 title: Variabili elenco
 description: Creare e configurare le variabili di elenco da utilizzare nei rapporti.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 6%
@@ -23,7 +23,9 @@ Potete accedere alla configurazione nel Admin Console :
 * **Nome**: Ogni valore delimitato può contenere un massimo di 255 caratteri (o meno se si utilizzano caratteri multibyte). Questa è la lunghezza massima di ogni elemento.
 * **Delimitatore** valore: Il carattere utilizzato per separare i valori all&#39;interno della Var elenco. Nella maggior parte dei casi, si tratta di caratteri quali virgole, due punti, una tubatura o qualcosa di simile.
 
-   >[!NOTE] I caratteri multibyte non sono supportati come delimitatori nelle variabili di elenco. Il delimitatore deve essere a byte singolo.
+   >[!NOTE]
+   >
+   >I caratteri multibyte non sono supportati come delimitatori nelle variabili di elenco. Il delimitatore deve essere a byte singolo.
 
 * **Scadenza**: Simile alla scadenza  eVar, questo determina il tempo che può trascorrere tra la Var dell&#39;elenco e l&#39;evento di conversione per il quale devono essere correlati.
    * **A un livello** di visualizzazione pagina o visita: Gli eventi di successo oltre la visualizzazione della pagina o la visita non verrebbero collegati ad alcun valore all’interno della Var elenco.
