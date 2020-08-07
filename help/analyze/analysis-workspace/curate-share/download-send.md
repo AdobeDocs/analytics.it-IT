@@ -2,10 +2,10 @@
 description: Puoi scaricare progetti salvati e non, in formato PDF e CSV.
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '345'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ L’11 aprile 2019 sono state apportate diverse modifiche a **[!UICONTROL CSV do
 * Se un numero non è valido, viene visualizzata una cella vuota.
 * Non viene applicato alcun arrotondamento (anche se specificato in una metrica calcolata); vengono visualizzati valori non elaborati.
 
->[!NNota:]
+>[!NOTE]
 >
-> I valori numerici che utilizzano una virgola come separatore decimale continuano a essere inclusi nel file CSV esportato.
+>I valori numerici che utilizzano una virgola come separatore decimale continuano a essere inclusi nel file CSV esportato.
