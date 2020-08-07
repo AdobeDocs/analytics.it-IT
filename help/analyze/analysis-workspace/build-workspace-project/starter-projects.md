@@ -2,9 +2,9 @@
 description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Questo modello è basato sulla metrica Persone, che è una versione deduplicata 
 
 ### Modello di Journey IQ: Cross-Device Analytics
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 Questo modello consente di visualizzare dati vitali delle prestazioni tra dispositivi. È disponibile solo per i clienti che hanno accesso a [Cross-Device Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/cda-home.html) (CDA).
 
