@@ -2,11 +2,11 @@
 description: Condivisione e ruoli dei progetti in Workspace
 keywords: Analysis Workspace sharing
 title: Condividere progetti Workspace
-translation-type: ht
-source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di proget
 
 ### Nessun ruolo assegnato (destinatari del collegamento al progetto)
 
-Se a un destinatario non viene assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli verrà assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
+If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
 
 ### Più ruoli assegnati
 
@@ -66,7 +66,7 @@ Tutti gli utenti possono condividere i progetti con gruppi, i quali sono una rac
 
 ## Condividere un collegamento al progetto {#Links}
 
-Puoi ottenere un collegamento a un progetto in **[!UICONTROL Share]>[!UICONTROL Get project link]**. Quando fanno clic su di esso, ai destinatari viene richiesto di effettuare l’accesso prima di poter visualizzare il progetto. Se il destinatario non è stato posizionato in un ruolo, riceverà un ruolo predefinito. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
+Puoi ottenere un collegamento a un progetto in **[!UICONTROL Share]>[!UICONTROL Get project link]**. Quando fanno clic su di esso, ai destinatari viene richiesto di effettuare l’accesso prima di poter visualizzare il progetto. Se il destinatario non è stato posizionato in un ruolo, riceverà un ruolo predefinito. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.[Ulteriori](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)informazioni sulla creazione di collegamenti condivisibili ai progetti Workspace.
 
 ## Condivisione di progetti nel Project manager {#Manager}
 
