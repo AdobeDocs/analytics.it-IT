@@ -2,7 +2,7 @@
 description: Requisiti di sistema e confronto tra Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse e Data Workbench
 title: Requisiti e confronto dei prodotti Analytics
 translation-type: tm+mt
-source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
+source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 53%
@@ -12,15 +12,15 @@ ht-degree: 53%
 
 # Analytics Requisiti e confronto dei prodotti
 
-Questa pagina contiene un confronto tra vari prodotti  Adobe Analytics:  Analysis Workspace, Reporting e  Analytics, Report Builder, Data warehouse, Data Workbench, feed di dati e  Analytics API 2.0.
+Questa pagina contiene un confronto tra vari prodotti  Adobe Analytics:  Analysis Workspace, Reporting e analisi, Report Builder, Data Warehouse, Data Workbench, feed di dati e API di Analytics 2.0.
 
 Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo articolo](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
-| Nome prodotto e collegamento all’Aiuto | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/it-IT/data-workbench/using/home.html) | [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Nome prodotto e collegamento all’Aiuto | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/it-IT/data-workbench/using/home.html) | [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) | [API di Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
 | **Metodo Access** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel per Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configurazione tramite il browser. [Ulteriori informazioni](/help/admin/sys-reqs.md) | [Windows a 64 bit](https://docs.adobe.com/content/help/it-IT/data-workbench/using/install/c-data-workbench-client-install.html) | Configurazione tramite il browser. [Ulteriori informazioni](/help/export/analytics-data-feed/data-feed-overview.md) | Strumenti RESTful API. Effettuate l&#39;accesso con  credenziali di I/O Adobe. [Ulteriori informazioni](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Granularità dei dati** | Aggregata | Aggregata | Aggregata | Aggregata | Hit | Hit | Aggregata |
-| **Expierence Cloud ID (ECID) disponibile** | No | No | No | Sì | Sì | Sì | No |
+| **ID Experience Cloud (ECID) disponibile** | No | No | No | Sì | Sì | Sì | No |
 | **Marca temporale disponibile** | No | No | No | No | Sì | Sì | No |
 | **Livello di elaborazione** | Completamente elaborato | Elaborazione completa, con report in tempo [reale separati](/help/components/c-real-time-reporting/realtime.md) | Elaborazione completa, con report in tempo [reale separati](/help/components/c-real-time-reporting/realtime.md) | Completamente elaborato | Completamente elaborato | Completamente elaborato | Completamente elaborato |
 | **Dati filtro bot amministratore inclusi** <br> [Ulteriori informazioni](/help/admin/admin/bot-removal/bot-removal.md) | No | Sì - Rapporto bot separato | Sì - Rapporto bot separato | No | No | No | No |
