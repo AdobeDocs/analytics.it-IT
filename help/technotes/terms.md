@@ -2,7 +2,7 @@
 title: Termini utilizzati in  Adobe Analytics
 description: Glossario per  Adobe Analytics, definizione dei termini comuni utilizzati.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **Connettori dati:** Una soluzione di sviluppo completa che consente a terzi di automatizzare il caricamento di dati in  Adobe Analytics. I clienti di terze parti possono utilizzare un connettore dati per arricchire i propri dati in  Adobe Analytics. La maggior parte dei connettori dati utilizza un flusso di lavoro simile in Origini dati. Consulta Connettori dati nella guida per l’utente di importazione.
 * **Feed dati:** Un&#39;esportazione di dati non elaborati che elenca ogni hit come riga e variabili come colonne separate. Viene utilizzato più frequentemente per esportare  dati Adobe Analytics in un database di terze parti. Consultate Feed [di](/help/export/analytics-data-feed/data-feed-overview.md) dati nella guida utente all&#39;esportazione.
 * **Origini dati:** Consente a un utente di caricare dati da un file in  Adobe Analytics. Il file viene in genere estratto da un sito FTP. Consulta [Origini](/help/import/c-data-sources/datasrc-home.md) dati nella guida per l&#39;utente di importazione.
-* **Data warehouse:** Funzione in  Adobe Analytics che consente di richiedere rapporti più grandi. Consultate [Data warehouse](/help/export/data-warehouse/data-warehouse.md) nella guida utente all’esportazione.
+* **Data Warehouse:** Funzione in  Adobe Analytics che consente di richiedere rapporti più grandi. Consultate [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) nella guida utente all’esportazione.
 * **Dimension:** Un tipo di componente che contiene valori variabili, come il testo. Alcuni esempi includono Nome pagina, Codice tracciamento o Dominio di riferimento. Una metrica è in genere la sua controparte.
 * **Gestione tag dinamica:**  Adobe  precedente soluzione di gestione tag. Consulta Panoramica sull’implementazione di [Gestione dinamica dei tag](/help/implement/other/dtm/dtm-implementation-overview.md) nella guida per l’utente Implementa.  Adobe consiglia di utilizzare  Adobe Experience Platform Launch.
 * **Serializzazione evento:** Il processo di attuazione delle misure per impedire la raccolta di eventi duplicati. Consultate Serializzazione [degli](../implement/vars/page-vars/events/event-serialization.md) eventi nella guida per l’utente Implementa.
@@ -95,8 +95,8 @@ Utilizzate questo glossario per comprendere il contesto di molti termini utilizz
 * **s_code.js:** Il nome del file JavaScript utilizzato nelle versioni precedenti di  Adobe Analytics. Il nome corrente del file JavaScript utilizzato è AppMeasurement.js.
 * **Satellite:** Non più utilizzato come termine. Il nome del prodotto precedente per Gestione tag dinamica.
 * **Chiamata server secondaria:** Nome alternativo per la richiesta o l’hit di immagini, utilizzato principalmente nel contesto di tag e fatturazione con più suite. Quando lo stesso hit viene inviato a più suite di rapporti, tutte le suite di rapporti dopo la prima elencate sono chiamate server secondarie. Vedere anche Chiamate server primarie.
-* **Segmento:** Consente di concentrarsi su un sottoinsieme specifico di dati. Consulta [Segmentazione](/help/components/c-segmentation/seg-overview.md) nella guida utente dei componenti.
-* **Contenitore di segmenti:** La parte di un segmento che determina la quantità di dati da includere. I contenitori possono essere basati sulla visualizzazione della pagina, sulla visita o sul visitatore. Consulta [Segmentazione](/help/components/c-segmentation/seg-overview.md) nella guida utente dei componenti.
+* **Segmento:** Consente di concentrarsi su un sottoinsieme specifico di dati. Consulta [Segmentazione](/help/components/segmentation/seg-overview.md) nella guida utente dei componenti.
+* **Contenitore di segmenti:** La parte di un segmento che determina la quantità di dati da includere. I contenitori possono essere basati sulla visualizzazione della pagina, sulla visita o sul visitatore. Consulta [Segmentazione](/help/components/segmentation/seg-overview.md) nella guida utente dei componenti.
 * **Serializzazione:** Consultate Serializzazione degli eventi.
 * **Chiamata server:** Nome alternativo per una richiesta di immagine o un hit, utilizzato principalmente nel contesto della fatturazione.
 * **Accesso singolo:** Una visita in cui una dimensione aveva un solo valore univoco. La visita può avere più hit, purché non siano presenti più valori univoci. Vedi la metrica Accesso [](/help/components/metrics/single-access.md) singolo nella guida utente Componenti. Vedere anche Bounce.
