@@ -5,7 +5,7 @@ title: Informazioni sulle classificazioni secondarie
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 8%
@@ -32,7 +32,7 @@ Ogni classificazione in questo modello è indipendente e corrisponde a una nuova
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Per ulteriori informazioni sul file di dati, vedere File [di dati di](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)classificazione.
+Per ulteriori informazioni sul file di dati, vedere File [di dati di](/help/components/classifications/importer/c-saint-data-files.md)classificazione.
 
 Le classificazioni a più livelli sono composte da classificazioni padre e figlio. Ad esempio:
 
@@ -46,7 +46,7 @@ Ogni classificazione, principale o secondario, costituisce una colonna di dati n
 
 `<parent_name>^<child_name>`
 
-Per ulteriori informazioni sul formato del file di dati, vedere File [di dati di](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)classificazione.
+Per ulteriori informazioni sul formato del file di dati, vedere File [di dati di](/help/components/classifications/importer/c-saint-data-files.md)classificazione.
 
 Ad esempio:
 
