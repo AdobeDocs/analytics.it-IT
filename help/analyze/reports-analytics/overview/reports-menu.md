@@ -1,9 +1,9 @@
 ---
-description: Panoramica del menu Rapporti in Reporting e  Analytics.
+description: Panoramica del menu Report in Reporting e analisi.
 title: Menu Rapporti
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # Menu Rapporti{#reports-menu}
 
-Panoramica del menu Rapporti in Reporting e  Analytics.
+Panoramica del menu Report in Reporting e analisi.
 
 Il menu Rapporti fornisce:
 
@@ -30,7 +30,7 @@ I rapporti vengono esplorati utilizzando una vista a colonne gerarchica. Fare cl
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://docs.adobe.com/content/help/it-IT/analytics/components/variables/c-variables.html).
+Per informazioni dettagliate sui singoli rapporti, consultate Descrizioni dei [rapporti](https://docs.adobe.com/content/help/it-IT/analytics/components/dimensions/overview.html).
 
 ## Cerca report {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -42,7 +42,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
 
 >[!NOTE]
 >
->Potete anche cercare l&#39;elenco dei rapporti per proprietà, eVar e numero evento. Nella barra di ricerca, immettete la proprietà, l&#39;eVar o il numero dell&#39;evento.
+>Potete anche cercare l&#39;elenco dei rapporti per proprietà,  eVar e numero evento. Nella barra di ricerca, immettete il prop, il  o il numero dell’evento.
 
 ## Panoramica sulla navigazione {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,8 +55,8 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> menu Soluzioni Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Facendo clic su questa icona, si espande il menu Experience Cloud  per accedere ad altre soluzioni Marketing Cloud. </td> 
+   <td colname="col1">Menu Soluzioni Experience Cloud  <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col2"> Facendo clic su questa icona, si espande il menu del Experience Cloud  per accedere ad altre soluzioni Marketing Cloud. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Attiva/Disattiva menu Rapporti <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -64,7 +64,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmenti <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Consente di visualizzare la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > Segment Builder</a> e <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segment Manager</a> dalla barra dei segmenti. </td> 
+   <td colname="col2">Consente di visualizzare la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder</a> e <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segment Manager</a> dalla barra dei segmenti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -84,7 +84,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Visualizzato frequentemente</span> </td> 
-   <td colname="col2"> Adobe  Analytics tiene traccia dei dieci rapporti eseguiti più spesso negli ultimi 90 giorni e li mostra qui, ordinati in base alla frequenza con cui vengono eseguiti. Se non sei stato in questa suite di rapporti per più di 90 giorni, compila l'elenco con un elenco generale di dieci report popolari. </td> 
+   <td colname="col2">  Adobe Analytics tiene traccia dei dieci rapporti eseguiti più spesso negli ultimi 90 giorni e li mostra qui, ordinati in base alla frequenza con cui vengono eseguiti. Se non sei stato in questa suite di rapporti per più di 90 giorni, compila l'elenco con un elenco generale di dieci report popolari. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Cronologia report</span> </td> 
@@ -103,7 +103,7 @@ Premere il tasto Tab o il tasto freccia giù (?) per navigare nell’elenco dei 
    <td colname="col2">Consente di <a href="/help/analyze/reports-analytics/bookmarks.md"  > aggiungere un segnalibro</a> al rapporto. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Dashboard di</span>... </td> 
+   <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
    <td colname="col2">Consente di aggiungere il rapporto a una <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
