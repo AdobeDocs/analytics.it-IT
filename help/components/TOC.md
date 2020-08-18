@@ -5,10 +5,10 @@ user-guide-title: Guida ai componenti di Analytics
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 97%
+source-wordcount: '612'
+ht-degree: 96%
 
 ---
 
@@ -219,11 +219,7 @@ ht-degree: 97%
    + [Gestione avvisi](c-alerts/alert-manager.md)
    + [Avvisi intelligenti: casi di utilizzo](c-alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
-   + [Informazioni sulle classificazioni](classifications/c-classifications.md)
-   + [Informazioni sulle classificazioni secondarie](classifications/c-sub-classifications.md)
-   + [Classificazioni di conversione](classifications/conversion-classifications.md)
-   + [Classificazioni traffico](classifications/traffic-classifications.md)
-   + [Gerarchie di classificazione](classifications/classification-hierarchies.md)
+   + [Panoramica sulle classificazioni](classifications/c-classifications.md)
    + Importatore classificazioni {#classifications-importer}
       + [Importazione classificazioni: panoramica](classifications/importer/c-working-with-saint.md)
       + [File di dati di classificazione](classifications/importer/c-saint-data-files.md)
@@ -242,6 +238,8 @@ ht-degree: 97%
       + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
       + [Regole di classificazione: definizioni](classifications/crb/classification-rule-definitions.md)
       + [Sottoclassificazioni e Generatore di regole](classifications/crb/sub-classification-rule-builder.md)
+   + [Sottoclassificazioni](classifications/c-sub-classifications.md)
+   + [Domande frequenti sulle classificazioni](classifications/faq.md)
 + [Eventi calendario](t-calendar-event.md)
 + Rapporti in tempo reale {#real-time-reporting}
    + [Panoramica reportistica in tempo reale](c-real-time-reporting/realtime.md)
