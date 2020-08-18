@@ -2,9 +2,9 @@
 title: Referrer
 description: L’URL a cui si trovava un visitatore prima di passare al sito.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -18,18 +18,18 @@ La dimensione &quot;Referente&quot; indica gli URL che i visitatori accedevano q
 >
 >Devi configurare i filtri [URL](/help/admin/admin/internal-url-filter-admin.md) interni della suite di rapporti per utilizzare questa dimensione. La mancata configurazione dei filtri URL interni può includere URL interni o impedire la visualizzazione di URL esterni.
 
-Lo stesso rapporto può mostrare risultati diversi tra  Analysis Workspace e Data warehouse.  Analysis Workspace segnala il referente per ogni singola pagina, escludendo i valori che corrispondono ai filtri URL interni. L’Data warehouse segnala solo il primo referente della visita e ignora i filtri URL interni.
+Lo stesso rapporto può mostrare risultati diversi tra  Analysis Workspace e Data Warehouse.  Analysis Workspace segnala il referente per ogni singola pagina, escludendo i valori che corrispondono ai filtri URL interni. L’Data Warehouse segnala solo il primo referente della visita e ignora i filtri URL interni.
 
 ## Compilare questa dimensione con i dati
 
-Questa dimensione richiede la configurazione nell&#39;interfaccia  Analytics e i dati nelle richieste di immagini.
+Questa dimensione richiede la configurazione nell&#39;interfaccia di Analytics e i dati nelle richieste di immagini.
 
 * All’interno dell’implementazione, questa dimensione recupera i dati dalla stringa [`r` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite  Adobe Experience Platform Launch), questa dimensione non è inclusa nella casella. Se utilizzate un metodo di raccolta dati all’esterno di AppMeasurement (ad esempio tramite l’API), accertatevi di includere il parametro della stringa di `r` query nelle richieste di immagine.
-* Nell&#39;interfaccia Analytics  devi configurare i filtri [URL](/help/admin/admin/internal-url-filter-admin.md)interni della suite di rapporti. La mancata configurazione dei filtri URL interni può includere URL interni o impedire la visualizzazione di URL esterni.
+* Nell&#39;interfaccia di Analytics devi configurare i filtri [URL](/help/admin/admin/internal-url-filter-admin.md)interni della suite di rapporti. La mancata configurazione dei filtri URL interni può includere URL interni o impedire la visualizzazione di URL esterni.
 
 ## Elementi Dimension
 
-Gli elementi di Dimension includono gli URL che i visitatori potranno scorrere sul sito. Se un hit non dispone di dati di riferimento, viene raggruppato sotto l’elemento dimensione `"Typed/Bookmarked"`. Questo elemento dimensione indica che non era presente alcun valore di referente, ad esempio se il visitatore digitava manualmente l&#39;indirizzo del browser nella barra degli indirizzi o faceva clic su un segnalibro.
+Gli elementi di Dimension includono gli URL che i visitatori potranno scorrere sul sito. Se un hit non dispone di dati di riferimento, viene raggruppato sotto l’elemento dimensione `"Typed/Bookmarked"`. Questo elemento dimensione indica che non era presente alcun valore di referente, ad esempio se il visitatore digitava manualmente l&#39;indirizzo del browser nella barra degli indirizzi o faceva clic su un segnalibro. L&#39;elemento `"Typed/Bookmarked"` dimensione viene visualizzato anche per i reindirizzamenti non compatibili con Analytics. Consultate [Reindirizzamenti e alias](/help/technotes/redirects.md) nella guida utente di Technotes.
 
 ### Dimension contenenti `googleusercontent.com`
 
