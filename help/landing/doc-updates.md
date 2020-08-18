@@ -15,7 +15,7 @@ ht-degree: 97%
 
 Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da gennaio 2019.
 
-* Per informazioni su [!UICONTROL Customer Journey Analytics]vedi [qui](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-landing.html).
+* Per informazioni su [!UICONTROL Customer Journey Analytics] vedi [qui](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-landing.html).
 * Per una lista completa delle nuove funzioni di Adobe Analytics, delle notifiche dell’amministratore e dei bug risolti vedi le ultime [Note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
 * Per informazioni dettagliate sulle nuove funzioni, consulta [Nuove funzioni di Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) nella guida utente Strumenti.
 * Per informazioni su Adobe Analytics per audio e video, consulta [Misurazione di audio e video in Analytics](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html).
@@ -24,7 +24,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Data | Descrizione |
 |---|---|
-| 21 luglio 2020 | Aggiornamenti e revisioni principali a [cross-device  Analytics](/help/components/cda/overview.md). È stata aggiunta l’unione basata sui [campi](/help/components/cda/field-based-stitching.md). |
+| 21 luglio 2020 | Aggiornamenti e revisioni principali ad Analytics [](/help/components/cda/overview.md)multi-dispositivo. È stata aggiunta l’unione basata sui [campi](/help/components/cda/field-based-stitching.md). |
 | 28 aprile 2020 | È stata aggiunta la documentazione per la metrica [Content Velocity](/help/components/metrics/content-velocity.md) (Velocità dei contenuti). |
 | 12 marzo 2020 | Sono stati aggiunti aggiornamenti a [Pubblicare segmenti in Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
 | 12 marzo 2020 | Aggiornamenti alla latenza di unione di CDA. |
@@ -40,7 +40,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 25 novembre 2019 | Nuovo argomento su [Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP](https://docs.adobe.com/content/help/it-IT/analytics/admin/company-settings/login-restrictions-eol.html). |
 | 25 novembre 2019 | Nuovo argomento su [Canale di marketing interno (aggiornamento sessione)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html). |
 | 21 novembre 2019 | Nuova documentazione impostata per l&#39;[Customer Journey Analytics](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-landing.html). |
-| 28 settembre 2019 | Nuovi articoli sulle [variabili di configurazione per l&#39;implementazione Javascript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/config-vars/configuration-variables.translate.html). |
+| 28 settembre 2019 | Nuovi articoli sulle [variabili di configurazione per l&#39;implementazione Javascript](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/config-vars/configuration-variables.html). |
 | 12 settembre 2019 | Nuova documentazione per [Journey IQ: analisi multi-dispositivo](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/cda-home.html). |
 | 28 agosto 2019 | Nuovo articolo sulle [App web progressive (PWA) per Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/pwa/pwa.html). |
 | 8 agosto 2019 | Nuovo articolo sui [Totali delle metriche calcolate](/help/components/c-calcmetrics/cm-totals.md). |
