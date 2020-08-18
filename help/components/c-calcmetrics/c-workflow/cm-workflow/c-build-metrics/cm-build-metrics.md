@@ -1,20 +1,23 @@
 ---
-description: Calculated Metrics Builder (Generatore di metriche calcolate) fornisce un quadro per trascinare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
+description: Calculated Metrics Builder (Generatore di metriche calcolate) fornisce un quadro per trascinare Dimension, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
 title: Creare metriche
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '958'
+ht-degree: 7%
 
 ---
 
 
 # Creare metriche
 
-Calculated Metrics Builder (Generatore di metriche calcolate) fornisce un quadro per trascinare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
+Calculated Metrics Builder (Generatore di metriche calcolate) fornisce un quadro per trascinare Dimension, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica, alle regole e agli operatori della gerarchia dei contenitori. Questo strumento di sviluppo integrato consente di creare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
 
 Esistono diversi modi per accedere al Generatore di metriche calcolate:
 
-* In Analysis Workspace, apri un progetto e fai clic su **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
+* In  Analysis Workspace, aprite un progetto e fate clic su **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
 * In [!DNL Analytics], andate a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
 * Fare clic **[!UICONTROL + Add]** nella parte superiore del Gestore [della metrica](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)calcolata oppure
@@ -34,7 +37,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Titolo </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Title </span> </td> 
    <td colname="col3"> <p>Denominare la metrica è obbligatorio. Non puoi salvare la metrica a meno che non abbia un nome. </p> </td> 
   </tr> 
   <tr> 
@@ -55,12 +58,12 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Tag </span> </td> 
-   <td colname="col3"> <p>L’assegnazione di tag è un buon modo per organizzare le metriche. Tutti gli utenti possono creare tag e applicare uno o più tag a una metrica. Tuttavia, potete visualizzare i tag solo per i segmenti che possedete o che sono stati condivisi con voi. Che tipo di tag creare? Di seguito sono riportati alcuni suggerimenti per tag utili: 
+   <td colname="col3"> <p>L’assegnazione di tag è un buon modo per organizzare le metriche. Tutti gli utenti possono creare tag e applicare uno o più tag a una metrica. Tuttavia, potete visualizzare i tag solo per i segmenti che possedete o che sono stati condivisi con voi. Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili: 
      <ul id="ul_9A6CE5F179424687A39F2D5C1A953258"> 
-      <li id="li_A8815F2D8D284874AD701A7B103D82A3">Tag basati sui nomi <b>del</b>team, ad esempio Social Marketing e Mobile Marketing. </li> 
-      <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>Tag del progetto</b> (tag di analisi), come l’analisi Entry-page. </li> 
-      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>Tag categoria</b> : Uomo; geografia. </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Tag del flusso di lavoro</b> : Da approvare; Cura per (una specifica unità aziendale) </li> 
+      <li id="li_A8815F2D8D284874AD701A7B103D82A3">Tags based on <b>team names</b>, such as Social Marketing, Mobile Marketing. </li> 
+      <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>Tag del progetto (tag di analisi), ad esempio Analisi per pagina di ingresso.</b> </li> 
+      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>Tag di categorie: maschile; geografia.</b> </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Tag del flusso di lavoro: Da approvare; Curato per (una specifica unità aziendale).</b> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +91,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
    <td colname="col3"> <p>La compatibilità del prodotto mostra se la metrica è compatibile con i dati <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > correnti </a>, con i dati elaborati completamente o solo con i rapporti sul canale di marketing (allocazione tramite primo tocco). <p>Nota:  Dati correnti non supporta tutte le metriche. Le metriche che contengono segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Aggiungi </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Add </span> </td> 
    <td colname="col3"> <p>Per tutti i tipi di metriche calcolate, puoi aggiungere contenitori e numeri statici alla definizione. Per le metriche calcolate avanzate, puoi anche aggiungere segmenti e funzioni. </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">I contenitori funzionano come un'espressione matematica e determinano l'ordine delle operazioni. Pertanto, tutto ciò che si trova in un contenitore viene elaborato prima dell'operazione successiva. </li> 
@@ -101,15 +104,15 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
    <td colname="col3"> <p>Selezionando l'icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metrica e i modelli di attribuzione </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> + Nuovo </span>i  </td> 
-   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > segmenti </a>). </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> + Nuovo </span> </td> 
+   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > segmenti </a>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Componenti di ricerca </p> </td> 
    <td colname="col3"> <p>Questa barra di ricerca consente di cercare dimensioni, metriche, segmenti (solo metriche calcolate avanzate) e funzioni (solo metriche calcolate avanzate). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Elenco delle dimensioni </p> </td> 
+   <td colname="col2"> <p>Elenco di Dimension </p> </td> 
    <td colname="col3"> <p>Anziché uscire dal Generatore di metriche calcolate per creare un segmento semplice (nel Generatore di segmenti), ad esempio "Page = Homepage", puoi trascinare in Page e selezionare Homepage direttamente dal Calculated Metric Builder. </p> <p>Questo semplifica il flusso di lavoro per la creazione di metriche calcolate segmentate. </p> </td> 
   </tr> 
   <tr> 
