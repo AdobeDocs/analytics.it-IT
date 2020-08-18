@@ -4,29 +4,32 @@ title: Personalizza calendario
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 1%
 
 ---
 
 
 # Personalizza calendario
 
-Opzioni di calendario diverse dal modello gregoriano. Le opzioni includono i modelli di calendario 4-4-5, 4-5-4 e 5-4-4, tutti utilizzati come standard per il settore retail. Inoltre, il reporting offre un'opzione per un calendario completamente personalizzabile che è possibile configurare autonomamente.
+Opzioni di calendario diverse dal modello gregoriano. Le opzioni includono i modelli di calendario 4-4-5, 4-5-4 e 5-4-4, tutti utilizzati come standard per il settore retail. Inoltre, il reporting offre un&#39;opzione per un calendario completamente personalizzabile che è possibile configurare autonomamente.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[seleziona suite]di rapporti]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Customize Calendar]**
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Seleziona suite di rapporti > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Customize Calendar]**
 
 >[!CAUTION]
 >
 >Modificando il calendario si modifica il modo in cui i dati vengono elaborati (ovvero la definizione di visitatori univoci settimanali e mensili). Quando la definizione di un calendario di settimane e mesi cambia, i dati storici non vengono modificati.
 
-Potete utilizzare il calendario per definire il primo giorno della settimana e dell'anno, oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario sono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l'analisi dei costi del ciclo paghe o la regolamentazione del conteggio delle scorte fisiche. Ad esempio, il settore retail utilizza il calendario contabile 4-5-4 per supportare la particolare stagione di vendita per il settore retail. Ciascuno dei formati di calendario è descritto di seguito.
+Potete utilizzare il calendario per definire il primo giorno della settimana e dell&#39;anno, oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario sono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l&#39;analisi dei costi del ciclo paghe o la regolamentazione del conteggio delle scorte fisiche. Ad esempio, il settore retail utilizza il calendario contabile 4-5-4 per supportare la particolare stagione di vendita per il settore retail. Ciascuno dei formati di calendario è descritto di seguito.
 
 ## Personalizzare le descrizioni del calendario {#section_B0D224DACB914A378902A4E0E1234889}
 
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Calendario       </th> 
+   <th colname="col1" class="entry"> Calendario </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -50,7 +53,7 @@ Potete utilizzare il calendario per definire il primo giorno della settimana e d
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>:gennaio ha quattro settimane, febbraio ha cinque settimane, marzo ha quattro settimane, e così via. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Gennaio ha quattro settimane, Febbraio ha quattro settimane, Marzo ha cinque settimane, e così via. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>: Gennaio ha cinque settimane, Febbraio ha quattro settimane, Marzo ha quattro settimane, e così via. </li> 
-    </ul> <p>Nota:  Questa opzione di calendario è supportata in tutti gli strumenti Adobe Analytics (Analysis Workspace, Reporting e analisi, Generatore di report, Activity Map, Analisi ad hoc) tranne che per Data Warehouse, che non supporta i calendari personalizzati. </p> </td> 
+    </ul> <p>Nota:  Questa opzione di calendario è supportata in tutti  strumenti Adobe Analytics ( Analysis Workspace, Reporting e analisi, Report Builder,  Activity Map,  Ad Hoc Analysis) tranne che per Data Warehouse, che non supporta i calendari personalizzati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
