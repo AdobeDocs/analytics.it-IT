@@ -5,7 +5,7 @@ title: Suite di rapporti virtuali e considerazioni sui tag con più suite
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 0%
@@ -35,9 +35,9 @@ I segmenti non possono ancora essere pubblicati su Adobe Experience Cloud da una
 
 ### Dati in tempo reale e correnti
 
-I rapporti in tempo reale non sono supportati nelle suite di rapporti virtuali, perché i dati sono segmentati. I dati correnti non sono supportati anche nelle suite di rapporti virtuali, in quanto non supportano la segmentazione. Entrambe queste funzioni sono specifiche di Reporting e  Analytics.
+I rapporti in tempo reale non sono supportati nelle suite di rapporti virtuali, perché i dati sono segmentati. I dati correnti non sono supportati anche nelle suite di rapporti virtuali, in quanto non supportano la segmentazione. Entrambe queste funzioni sono specifiche di Reporting e analisi.
 
-[I rapporti](/help/admin/admin/realtime/t-realtime-admin.md) in tempo reale e i dati [](/help/technotes/latency.md) correnti non sono disponibili nelle suite di rapporti virtuali. Questo interessa gli utenti che rispondono alle tendenze visualizzate in Reporting e  Analytics in pochi secondi o pochi minuti di raccolta dei dati. Ad esempio, questo può includere editori in una newsroom che regolano i titoli in base al consumo di contenuti in tempo reale. Considera l’utilizzo di tag con più suite se hai importanti esigenze di dati in tempo reale specifiche per le singole suite di rapporti. I dati in tempo reale e quelli correnti possono essere utilizzati nella suite di rapporti globale.
+[I rapporti](/help/admin/admin/realtime/t-realtime-admin.md) in tempo reale e i dati [](/help/technotes/latency.md) correnti non sono disponibili nelle suite di rapporti virtuali. Questo interessa gli utenti che rispondono alle tendenze visualizzate in Reporting e analisi in pochi secondi o pochi minuti di raccolta dei dati. Ad esempio, questo può includere editori in una newsroom che regolano i titoli in base al consumo di contenuti in tempo reale. Considera l’utilizzo di tag con più suite se hai importanti esigenze di dati in tempo reale specifiche per le singole suite di rapporti. I dati in tempo reale e quelli correnti possono essere utilizzati nella suite di rapporti globale.
 
 ### Limiti univoci
 
@@ -97,11 +97,11 @@ Se si sceglie di rimuovere le chiamate server secondarie a favore delle suite di
 
 1. Crea suite di rapporti virtuali per far corrispondere i dati nelle suite di rapporti figlio. Segmento su una dimensione personalizzata che distingue i siti tra loro.
    * Se effettui la migrazione da un&#39;implementazione con tag multi-suite esistente, confronta i segmenti della suite di rapporti virtuale con le suite di rapporti figlio esistenti. Prima di spostare gli utenti nella suite di rapporti virtuali, è necessario assicurarsi che i dati siano confrontabili.
-   * Come procedura ottimale, prendete in considerazione l&#39;utilizzo dell&#39;impilamento [dei](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) segmenti in modo da poter modificare un segmento in un&#39;unica posizione e applicarlo a tutte le suite di rapporti virtuali dipendenti.
+   * Come procedura ottimale, prendete in considerazione l&#39;utilizzo dell&#39;impilamento [dei](/help/components/segmentation/segmentation-workflow/seg-build.md) segmenti in modo da poter modificare un segmento in un&#39;unica posizione e applicarlo a tutte le suite di rapporti virtuali dipendenti.
    * Utilizzate i contenitori hit per mantenere le suite di rapporti virtuali più esclusive tra loro.
 2. Dopo aver confermato che le suite di rapporti virtuali sono configurate correttamente, rimuovi gli ID suite di rapporti secondari dall&#39;implementazione. Per rimuovere delle suite di rapporti secondarie:
    * In  Adobe Experience Platform Launch, fai clic sulla &quot;x&quot; accanto alle suite di rapporti che non vuoi più utilizzare.
-   * In Gestione dinamica dei tag, individua la proprietà e  strumento Analytics. Nei campi ID account produzione e ID account di gestione temporanea, rimuovete gli ID suite di rapporti che non desiderate più utilizzare.
+   * In Gestione dinamica dei tag, individua la proprietà e lo strumento Analytics. Nei campi ID account produzione e ID account di gestione temporanea, rimuovete gli ID suite di rapporti che non desiderate più utilizzare.
    * Nelle implementazioni JavaScript precedenti, individua la `s.account` variabile e rimuovi gli ID suite di rapporti che non desideri più utilizzare.
    * In tutti i casi, lasciare solo l&#39;ID suite di rapporti globale/principale per raccogliere i dati per i siti e le app.
    * Passa ad Admin (Amministratore) > Report Suites (Suite di rapporti) e nascondi eventuali suite di rapporti secondarie non più utilizzate.
