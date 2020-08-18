@@ -5,7 +5,7 @@ title: Flusso di lavoro di Generatore regole di classificazione
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 | Passaggio 4: [Aggiungete le regole di classificazione al set](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Associare una condizione a una classificazione, quindi specificare l&#39;azione da intraprendere per la regola.  Conoscere le informazioni in [Modalità di elaborazione](/help/components/classifications/crb/classification-quickstart-rules.md)delle regole. |
 | Passaggio 5: [Test di un set di regole di classificazione](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | È necessario verificare le regole per la convalida modificandole in modalità Bozza. In modalità Bozza non è possibile eseguire le regole.<br>Questo passaggio è importante quando si utilizzano le espressioni [](/help/components/classifications/crb/classification-quickstart-rules.md)regolari. |
 | Passaggio 6: [Attiva regole](/help/components/classifications/crb/classification-rule-definitions.md)valide. | [!DNL Rules Page] | Una volta che le regole sono valide, attivare il set di regole.  Se necessario, potete sovrascrivere le chiavi esistenti. Vedere [Modalità Di Elaborazione](/help/components/classifications/crb/classification-quickstart-rules.md)Delle Regole. |
-| Passaggio 7 (facoltativo): [Eliminate le regole](/help/components/classifications/crb/classification-rule-definitions.md)indesiderate. | [!DNL Rules Page] | Eliminare le regole indesiderate da un set.<br>Nota:  L&#39;eliminazione delle regole non comporta l&#39;eliminazione dei dati classificati caricati.  Per eliminare i dati classificati, vedere [Eliminare i dati](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md) di classificazione. |
+| Passaggio 7 (facoltativo): [Eliminate le regole](/help/components/classifications/crb/classification-rule-definitions.md)indesiderate. | [!DNL Rules Page] | Eliminare le regole indesiderate da un set.<br>Nota:  L&#39;eliminazione delle regole non comporta l&#39;eliminazione dei dati classificati caricati.  Per eliminare i dati classificati, vedere [Eliminare i dati](/help/components/classifications/importer/t-delete-classification-data.md) di classificazione. |
 
 >[!NOTE]
 >
