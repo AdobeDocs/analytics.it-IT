@@ -3,7 +3,10 @@ description: La segmentazione di singole metriche consente di effettuare confron
 title: Metriche segmentate
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ Esploriamo la prima domanda: Qual è il comportamento di esplorazione dei conten
 
    >[!NOTE]
    >
-   >Potete eseguire questa operazione anche nel Generatore [di](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)segmenti, ma abbiamo semplificato il flusso di lavoro rendendo disponibili le dimensioni nel Generatore di metrica calcolata.
+   >Potete eseguire questa operazione anche nel Generatore [di](/help/components/segmentation/segmentation-workflow/seg-build.md)segmenti, ma abbiamo semplificato il flusso di lavoro rendendo disponibili le dimensioni nel Generatore di metrica calcolata.
 
    >[!NOTE]
    >
@@ -40,7 +43,7 @@ Esploriamo la prima domanda: Qual è il comportamento di esplorazione dei conten
    ![](assets/german-visitors.png)
 
 1. Ripetete il Passaggio 3 con il segmento Visitatori internazionali e la metrica Visitatori unici per creare una metrica Visitatori internazionali.
-1. In Analysis Workspace, trascina la **[!UICONTROL Page]** dimensione in una tabella a forma libera e trascina in alto le due nuove metriche calcolate l’una accanto all’altra:
+1. In  Analysis Workspace, trascina l’ **[!UICONTROL Page]** Dimension in una tabella a forma libera e trascina le due nuove metriche calcolate l’una accanto all’altra verso l’alto:
 
    ![](assets/workspace-pages.png)
 
