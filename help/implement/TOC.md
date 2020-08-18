@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
+      + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
@@ -204,4 +204,4 @@ ht-degree: 98%
 + [Domande frequenti](faq.md)
 + Utilizzare i dati XDM con Analytics {#aep-edge}
    + [Usa SDK Web AEP](aep-edge/xdmoverview.md)
-   + [Mappare manualmente i dati XDM su  Analytics](aep-edge/xdm-manual.md)
+   + [Mappare manualmente i dati XDM su Analytics](aep-edge/xdm-manual.md)
