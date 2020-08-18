@@ -5,9 +5,9 @@ user-guide-title: Guida dell’amministratore di Analytics
 user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, company settings, data governance, server call usage, traffic management, and more.
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '696'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 100%
       + [Conversion Variables (Variabili di conversione) (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modificare le variabili di conversione](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificazioni di conversione](admin/conversion-var-admin/conversion-classifications.md)
+      + [Gerarchie di classificazione](admin/conversion-var-admin/classification-hierarchies.md)
       + [Variabili elenco](admin/conversion-var-admin/list-var-admin.md)
    + [Codici valuta](admin/currency.md)
    + [Descrizioni report personalizzati](admin/custom-desc-admin.md)
