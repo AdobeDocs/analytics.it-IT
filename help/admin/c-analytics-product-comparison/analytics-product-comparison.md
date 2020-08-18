@@ -2,7 +2,7 @@
 description: Requisiti di sistema e confronto tra Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse e Data Workbench
 title: Requisiti e confronto dei prodotti Analytics
 translation-type: tm+mt
-source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 53%
@@ -28,7 +28,7 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo ar
 | **Limite righe visibili (prima dell’impaginazione)** | 400 | 200 | 50000 | Senza limiti | Senza limiti | Senza limiti | 50000 |
 | **Più suite di rapporti** | [Sì](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sì, con limitazioni | Sì | No | Sì | No | Sì |
 | **Numero di analisi approfondite** | Senza limiti | Fino a 2 | Fino a 2 | Senza limiti | Senza limiti | Senza limiti | Senza limiti, eseguite tra più query |
-| **Segmentazione** <br> [Ulteriori informazioni](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | Sì | Sì | Sì | Sì, con [limitazioni](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | Sì | No | Sì |
+| **Segmentazione** <br> [Ulteriori informazioni](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sì | Sì | Sì | Sì, con [limitazioni](/help/components/segmentation/seg-reference/seg-compatibility.md) | Sì | No | Sì |
 | **Metriche calcolate** <br> [Ulteriori informazioni](/help/components/c-calcmetrics/cm-overview.md) | Sì, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Sì | Sì | No | Sì | No | Sì, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canali marketing** <br> [Ulteriori informazioni](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sì | Sì | Sì | Sì | Sì | Sì - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sì |
 | **Analisi per coorte** | [Sì](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Sì | No | No |
