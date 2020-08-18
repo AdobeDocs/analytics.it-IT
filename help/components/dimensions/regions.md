@@ -2,9 +2,9 @@
 title: Aree geografiche
 description: La regione geografica del visitatore.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,17 @@ La dimensione &quot;Regioni&quot; indica la regione geografica del visitatore. �
 
 ## Compilare questa dimensione con i dati
 
-Questa dimensione fa riferimento a regole di ricerca interne ad Adobe. Il valore di ricerca si basa sull&#39;indirizzo IP inviato con l&#39;hit. Adobe collabora con [Digital Element](https://www.digitalelement.com/) per mantenere le ricerche tra l&#39;indirizzo IP e il paese. Questa dimensione funziona automaticamente per tutte le implementazioni.
+Questa dimensione fa riferimento alle regole di ricerca interne al Adobe . Il valore di ricerca si basa sull&#39;indirizzo IP inviato con l&#39;hit.  Adobe collabora con [Digital Element](https://www.digitalelement.com/) per mantenere le ricerche tra l&#39;indirizzo IP e il paese. Questa dimensione funziona automaticamente per tutte le implementazioni.
 
 >[!TIP]
 >
 >Se l&#39;azienda rispetta le severe normative sulla privacy laddove l&#39; [oscuramento dell&#39;indirizzo](/help/admin/admin/general-acct-settings-admin.md) IP non è sufficiente, puoi richiedere di disabilitare completamente i dati sulla geolocalizzazione. Contatta l&#39;Assistenza clienti con l&#39;ID suite di rapporti e richiedi di disattivare &#39;Geografia&#39; per la suite di rapporti.
 
-## Elementi dimensione
+## Elementi Dimension
 
-Gli elementi dimensione includono le regioni e il paese in cui risiede la regione. I valori di esempio includono `"California (United States)"`, `"Tokyo (Japan)"`, o `"Sao Paulo (Brazil)"`.
+Gli elementi Dimension includono le regioni e il paese in cui risiede la regione. I valori di esempio includono `"California (United States)"`, `"Tokyo (Japan)"`, o `"Sao Paulo (Brazil)"`.
+
+Alcuni elementi dimensionali possono includere `"AOL"`, ad esempio, un provider di servizi Internet di connessione remota. Agli utenti iscritti a questo servizio viene assegnato un punto di accesso in base al paese in cui è stabilito il loro numero di account. Gli utenti AOL utilizzano l&#39;indirizzo IP di questo punto di accesso. Poiché questa dimensione è basata sull&#39;indirizzo IP, la geolocalizzazione del punto di accesso viene utilizzata al posto della posizione effettiva del visitatore.
 
 ## Differenze tra la posizione segnalata e quella effettiva
 
