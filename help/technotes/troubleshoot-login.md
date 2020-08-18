@@ -2,9 +2,9 @@
 title: Risoluzione dei problemi di accesso a  Adobe Analytics
 description: Procedura da seguire quando non è possibile accedere a  Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '490'
 ht-degree: 3%
 
 ---
@@ -12,35 +12,49 @@ ht-degree: 3%
 
 # Risoluzione dei problemi di accesso a  Adobe Analytics
 
- Adobe Analytics utilizza  Adobe ID per l&#39;autenticazione con l&#39;Experience Cloud .
+ Adobe Analytics utilizza più metodi di autenticazione per effettuare l&#39;accesso:
 
-Se accedete regolarmente  Analytics e iniziate a riscontrare problemi di accesso in modo casuale, la cancellazione dei cookie e della cache del browser risolve questi problemi la maggior parte del tempo.
+*  Adobe ID tramite il Experience Cloud 
+* ID Analytics legacy
+* Single Sign-On
 
-## Access experience.adobe.com
+**Se accedete regolarmente ad Analytics e iniziate a riscontrare problemi di accesso in modo casuale, la cancellazione dei cookie e della cache del browser risolve la maggior parte dei problemi.**
 
-Andate a [experience.adobe.com](https://experience.adobe.com/it).
+Talvolta, i problemi di disponibilità possono influire sulla capacità di accesso. Controlla [status.adobe.com](https://status.adobe.com) per eventuali incidenti aperti. In caso contrario, utilizzate la sezione appropriata in base al metodo di autenticazione dell&#39;organizzazione.
 
-Se non è possibile accedere a questo sito:
+## Adobe ID
 
-* L&#39;organizzazione potrebbe non consentire il dominio tramite il firewall. Collaborate con il team IT della vostra organizzazione per consentirne l&#39;utilizzo. Consulta [IP e domini utilizzati nell&#39;Adobe Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html) per informazioni utili da fornire al team IT.
-* Controlla [status.adobe.com](https://status.adobe.com) per assicurarti che non ci siano problemi di disponibilità.
+Risolvete i problemi relativi all&#39;accesso a  Adobe Analytics utilizzando l&#39;Experience Cloud .
 
-## Autenticazione tramite  Adobe ID
+1. Andate a [experience.adobe.com](https://experience.adobe.com/it). Se non riuscite ad accedere a questo sito, l&#39;organizzazione potrebbe non consentire l&#39;accesso a questo dominio attraverso il firewall. Collaborate con il team IT della vostra organizzazione per consentirne l&#39;utilizzo. Consulta [IP e domini utilizzati nell&#39;Adobe Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html) per informazioni utili da fornire al team IT.
 
-Fai clic su **[!UICONTROL Sign In with an Adobe ID]**.
+2. Effettuare l&#39;autenticazione tramite  Adobe ID: Fate clic **[!UICONTROL Sign In with an Adobe ID]**. Se non riuscite ad accedere, verificate che l’indirizzo e-mail sia stato digitato correttamente. In caso contrario, fate clic **[!UICONTROL Reset password]** e seguite le istruzioni visualizzate per ripristinare la password Adobe ID .
 
-Se non riuscite ad accedere:
+3. Accesso ad Analytics dopo l&#39;autenticazione: Fai clic sull&#39;icona a 9 griglie in alto a destra, quindi fai clic su Analytics. Se non disponi di questa opzione o è disattivata, lavora con un amministratore di prodotto all&#39;interno dell&#39;organizzazione per essere certi di disporre delle autorizzazioni corrette per accedere ad Analytics.
 
-* Verificate che l&#39;indirizzo e-mail sia stato digitato correttamente.
-* Fate clic **[!UICONTROL Reset password]** e seguite le istruzioni per ripristinare l&#39;Adobe ID .
+## ID Analytics legacy
 
-## Impossibile accedere  Analytics dopo l&#39;autenticazione
+Talvolta, un utente nell’organizzazione riceve il seguente messaggio di errore al momento dell’accesso:
 
-Fate clic sull&#39;icona a 9 griglie in alto a destra, quindi fate clic  Analytics.
+*Come precauzione di protezione, questo account è stato bloccato a causa di troppi tentativi di accesso non riusciti.*
 
-Se non disponete di questa opzione o è disattivata, collaborate con un amministratore di prodotto all&#39;interno dell&#39;organizzazione per essere certi di disporre delle autorizzazioni corrette per accedere  Analytics.
+Se cancellare i cookie/la cache del browser non risolve il problema, utilizzate un amministratore Analytics nella vostra organizzazione per ripristinare la password dell&#39;utente.
 
-## Altri problemi di login edge-case
+>[!IMPORTANT]
+>
+>La procedura seguente per ripristinare la password di un utente si applica solo agli ID Analytics legacy, non  Adobe ID. Se la vostra azienda utilizza  Adobe ID, potete gestire gli account utente all&#39;indirizzo [adminconsole.adobe.com](https://adminconsole.adobe.com).
+
+1. Accedete a  Adobe Analytics con un account dotato di diritti amministrativi.
+2. Passa a **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+3. Fate clic sulla **[!UICONTROL Users]** scheda, quindi fate clic **[!UICONTROL Edit]** accanto all’utente desiderato.
+4. Modificate la password impostando qualsiasi valore e selezionate la casella **[!UICONTROL Require user to change password on next login]**.
+5. Informa l&#39;utente della nuova password.
+
+## Single Sign-On
+
+Contatta un amministratore dell’organizzazione per risolvere i problemi relativi al single sign-on.
+
+## Altri problemi di accesso
 
 Se nessuno dei passaggi descritti sopra funziona, determina l’ampiezza del problema di accesso:
 
