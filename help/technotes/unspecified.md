@@ -1,27 +1,27 @@
 ---
-description: Diversi rapporti in Adobe  Analytics possono mostrare Non specificato, Altro o Sconosciuto, a seconda del rapporto specifico visualizzato. In genere, questo elemento di riga indica che la variabile non era definita o altrimenti non disponibile.
-title: Non specificato, Altro e Sconosciuto nel reporting
+description: Diversi rapporti in  Adobe Analytics possono mostrare Non specificato, Nessuno, Altro o Sconosciuto, a seconda del rapporto specifico visualizzato. In genere, questo elemento di riga indica che la variabile non era definita o altrimenti non disponibile.
+title: Non specificato, Nessuno, Altro e Sconosciuto nel reporting
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 
-# &quot;Non specificato&quot;, &quot;Altro&quot; e &quot;Sconosciuto&quot; nei rapporti
+# &quot;Non specificato&quot;, &quot;Nessuno&quot;, &quot;Altro&quot; e &quot;Sconosciuto&quot; nella generazione dei rapporti
 
-Diversi rapporti in Adobe  Analytics possono mostrare &quot;Non specificato&quot;, &quot;Altro&quot; o &quot;Sconosciuto&quot;, a seconda del rapporto specifico visualizzato. In genere, questo elemento di riga indica che la variabile non era definita o altrimenti non disponibile. Di seguito viene fornito un elenco completo di come ogni rapporto può contenere una di queste voci.
+In  Adobe Analytics, diversi rapporti possono mostrare &quot;Non specificato&quot;, &quot;Altro&quot; o &quot;Sconosciuto&quot;, a seconda del rapporto specifico visualizzato. In genere, questo elemento di riga indica che la variabile non era definita o altrimenti non disponibile. Di seguito viene fornito un elenco completo di come ogni rapporto può contenere una di queste voci.
 
-## &quot;Non specificato&quot; nel reporting
+## &quot;Non specificato&quot; (o &quot;Nessuno&quot;) nella generazione dei rapporti
 
-&quot;Non specificato&quot; è un elemento di riga piuttosto comune nei report.
+&quot;Non specificato&quot; è un elemento di riga piuttosto comune nei report. È anche spesso indicato come &quot;None&quot;.
 
-* **Un evento viene attivato senza una variabile di conversione:** Ad esempio, un utente accede al sito e effettua un acquisto senza alcun valore eVar1. Se visualizzate gli ordini utilizzando la dimensione eVar1, non è presente alcun valore a cui attribuire l&#39;ordine. Pertanto, viene automaticamente attribuito a &quot;Non specificato&quot;.
+* **Un evento viene attivato senza una variabile di conversione:** Ad esempio, un utente accede al sito e effettua un acquisto senza  valore di eVar 1. Se visualizzate gli ordini utilizzando la dimensione  eVar1, non è presente alcun valore a cui attribuire l&#39;ordine. Pertanto, viene automaticamente attribuito a &quot;Non specificato&quot;.
 * **Dati non classificati nei rapporti sulla classificazione:** Quando si visualizzano i dati di classificazione, qualsiasi valore a cui non siano associati dati a quella particolare classificazione restituisce &quot;Non specificato&quot;. Per risolvere questo problema, classificare il valore della variabile padre.
 * **Report di suddivisione in cui è stata attivata una sola variabile:** Quando si applica una suddivisione a una variabile, ogni istanza di tale variabile deve essere contabilizzata. Se la seconda variabile non è stata visualizzata o se è persistente da un hit precedente, l’elemento dimensione è &quot;Non specificato&quot;.
-* **hit non mobili nei rapporti sui dispositivi mobili:** Gli hit non mobili nei rapporti sui dispositivi mobili sono elencati come &quot;Non specificato&quot; (&quot;Non mobile&quot; in Report e  Analytics).
+* **hit non mobili nei rapporti sui dispositivi mobili:** Gli hit non mobili nei rapporti sui dispositivi mobili sono elencati come &quot;Non specificato&quot; (&quot;Non mobile&quot; in Reports and Analytics).
 
 ## &quot;Altro&quot; nella segnalazione
 
