@@ -42,7 +42,7 @@ ht-degree: 99%
 + [API di inserimento dati](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Introduzione ai Data Connectors di Analytics](data-connectors/getting-started-data-connectors.md)
-   + [Fine del ciclo di vita per  Analytics Data Connectors](data-connectors/data-connectors-eol.md)
+   + [Fine del ciclo di vita per i connettori dati di Analytics](data-connectors/data-connectors-eol.md)
    + Connettore dati appFigures per Adobe Analytics {#appfigures}
       + [Panoramica di appFigures](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Prima di attivare questa integrazione](data-connectors/appfigures-overview/appfigures-before-activation.md)
