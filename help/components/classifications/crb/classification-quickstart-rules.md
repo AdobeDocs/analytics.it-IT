@@ -5,7 +5,7 @@ title: Regole di classificazione
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Le regole di classificazione ricercano regolarmente termini non classificati. Se viene trovata una corrispondenza di regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Potete inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 
-**[!UICONTROL Analytics]** (Workspace) > **[!UICONTROL Admin]** (Progetto) > **[!UICONTROL Classification Rule Builder]** (Annulla/Ripeti)
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
 Il Generatore di regole consente di creare un *`classification rule set`*, che è un elenco di *`classification rules`*. Una regola corrisponde ai criteri specificati, quindi esegue un&#39;azione.
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * **Suite** di rapporti: Non puoi scegliere una classificazione finché non viene selezionata almeno una suite di rapporti. Non puoi applicare la suite di rapporti finché non hai creato il set di regole e assegnato una variabile.
 
-   Quando si verifica il set di regole, utilizzare le chiavi (la variabile da classificare) del rapporto per vedere in che modo verranno influenzate dal set di regole. (La [chiave](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) è la variabile da classificare, o la prima colonna nella tabella di caricamento della classificazione.)
+   Quando si verifica il set di regole, utilizzare le chiavi (la variabile da classificare) del rapporto per vedere in che modo verranno influenzate dal set di regole. (La [chiave](/help/components/classifications/importer/c-saint-data-files.md) è la variabile da classificare, o la prima colonna nella tabella di caricamento della classificazione.)
 
 * **Priorità** regola: Se una chiave corrisponde a più regole che impostano la stessa classificazione (nella [!UICONTROL Set Classification] colonna), viene utilizzata l&#39;ultima regola che corrisponde alla classificazione. Vedere [Informazioni sulla priorità](/help/components/classifications/crb/classification-quickstart-rules.md)delle regole.
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
 ## Quando Le Regole Non Classificano Le Chiavi?
 
-Quando attivate le regole, potete sovrascrivere le classificazioni esistenti. Nelle situazioni seguenti, una regola di classificazione non classifica una [chiave](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)(variabile) se:
+Quando attivate le regole, potete sovrascrivere le classificazioni esistenti. Nelle situazioni seguenti, una regola di classificazione non classifica una [chiave](/help/components/classifications/importer/c-saint-data-files.md)(variabile) se:
 
 * La chiave è già classificata e non si seleziona [Sovrascrivi classificazioni](/help/components/classifications/crb/classification-rule-definitions.md).
 
