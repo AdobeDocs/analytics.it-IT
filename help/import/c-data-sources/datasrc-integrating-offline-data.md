@@ -5,7 +5,10 @@ title: Integrazione transazione e cliente
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 87%
 
 ---
 
@@ -22,9 +25,9 @@ Queste integrazioni associano i dati offline a una transazione online specifica 
 
 ## Abilita registrazione ID transazione {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
 
-L'ID transazione può essere abilitato/disabilitato dalla UI senza coinvolgere ClientCare:
+L&#39;ID transazione può essere abilitato/disabilitato dalla UI senza coinvolgere ClientCare:
 
-Vai a **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Seleziona suite]di rapporti]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Vai a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Seleziona suite di rapporti > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -36,7 +39,7 @@ Vai a **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -44,16 +47,16 @@ The [!UICONTROL Manage] tab displays the status of Transaction ID Recording.
 
 ## Integrazione cliente {#section_9F4AAD710D2543BDA834090A98115FBF}
 
-Gli ID cliente vengono utilizzati per specificare l'attività offline di un cliente e collegarla all'attività online. Devono essere utilizzati quando:
+Gli ID cliente vengono utilizzati per specificare l&#39;attività offline di un cliente e collegarla all&#39;attività online. Devono essere utilizzati quando:
 
-* Un ID cliente è inserito nella variabile *`visitorID`* variable.
-* Non esiste un punto designato in cui l'attività del cliente passa offline, ad esempio un invio lead o acquisto.
+* Un ID cliente è inserito nella variabile *`visitorID`*. 
+* Non esiste un punto designato in cui l&#39;attività del cliente passa offline, ad esempio un invio lead o acquisto.
 
-Per configurare questo tipo di origine dati, consulta [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+Per configurare questo tipo di origine dati, consulta [ID visitatore](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Integrazione transazione {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
-Gli ID transazione vengono utilizzati per registrare lo stato di un visitatore in un punto nel tempo. Devono essere utilizzati quando esiste un punto nel tempo in cui i clienti generalmente passano da un'esperienza online a offline, ad esempio:
+Gli ID transazione vengono utilizzati per registrare lo stato di un visitatore in un punto nel tempo. Devono essere utilizzati quando esiste un punto nel tempo in cui i clienti generalmente passano da un&#39;esperienza online a offline, ad esempio:
 
 * Invio di un lead a un venditore per contattare il cliente.
 * Acquisto online, che potrebbe essere successivamente restituito in negozio.
@@ -61,8 +64,8 @@ Gli ID transazione vengono utilizzati per registrare lo stato di un visitatore i
 
 Il cliente è spesso anonimo quando passa da online a offline.
 
-Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing), ma sono inclusi nelle metriche Partecipazione visitatore (disponibili solo nell'analisi ad hoc).
+Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing), ma sono inclusi nelle metriche Partecipazione visitatore (disponibili solo nell&#39;analisi ad hoc).
 
-Questo perché i dati ID transazione non sono associati a una visita (perché l'evento offline generalmente non fa parte dell'evento online), ma sono associati al visitatore.
+Questo perché i dati ID transazione non sono associati a una visita (perché l&#39;evento offline generalmente non fa parte dell&#39;evento online), ma sono associati al visitatore.
 
 Consulta  [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
