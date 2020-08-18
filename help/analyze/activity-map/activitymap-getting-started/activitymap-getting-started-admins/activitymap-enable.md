@@ -1,12 +1,12 @@
 ---
-description: Illustra i passaggi necessari per  Analytics Admin per abilitare  raccolta di collegamenti Activity Map e il download degli utenti.
+description: Spiega i passaggi necessari per l'amministratore di Analytics per abilitare la raccolta di collegamenti  Activity Map e il download dell'utente.
 title: Abilitare Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '369'
 ht-degree: 9%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # Abilitare Activity Map{#enable-activity-map}
 
-Illustra i passaggi necessari per  Analytics Admin per abilitare  raccolta di collegamenti Activity Map e il download degli utenti.
+Spiega i passaggi necessari per l&#39;amministratore di Analytics per abilitare la raccolta di collegamenti  Activity Map e il download dell&#39;utente.
 
 ## Passaggio 1: Aggiorna il codice AppMeasurement (Javascript) a v1.6 (o versione successiva) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
@@ -41,10 +41,10 @@ Non è possibile raccogliere  dati Activity Map se non si esegue l&#39;aggiornam
 
 Innanzitutto, è necessario abilitare  report Activity Map a livello di suite per report.
 
-1. Accedi ad Adobe  Analytics e passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Suite di rapporti >[seleziona suite]di rapporti > Modifica impostazioni >  Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
+1. Accedi a  Adobe Analytics e passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Seleziona suite di rapporti > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 1.  Activity Map raccoglie i dati del collegamento nei report  Activity Map. Per attivare l’attivazione, è innanzitutto necessario attivare le variabili facendo clic su **[!UICONTROL Enable Activity Map Reports]**.
 
-   Questo passaggio aggiunge tutte le  dimensioni Analytics necessarie per la raccolta dei dati.
+   Questo passaggio aggiunge tutte le dimensioni di Analytics necessarie per la raccolta dei dati.
 
 1. Dopo circa un&#39;ora, controllate il rapporto [Pagina Activity Map](/help/analyze/activity-map/activitymap-reporting-analytics.md), che mostra tutte le pagine in cui gli utenti hanno fatto clic su un collegamento.
 
@@ -52,7 +52,7 @@ Innanzitutto, è necessario abilitare  report Activity Map a livello di suite pe
 
 1. Fai clic su **[!UICONTROL Add Users to Group]**.
 
-   Viene visualizzata la pagina di gestione dei gruppi nell’Admin Console .
+   Viene visualizzata la pagina di gestione dei gruppi nel Admin Console .
 
 1. [Aggiungete utenti a questo gruppo](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html) e **[!UICONTROL Save Group]**.
 
@@ -60,4 +60,4 @@ Innanzitutto, è necessario abilitare  report Activity Map a livello di suite pe
 
 >[!NOTE]
 >
->Se desiderate che gli utenti non amministratori scarichino  Activity Map, create un nuovo gruppo di utenti che fornisca l&#39;autorizzazione &quot;Strumenti&quot; e &quot;Installazione legacy di ClickMap&quot;. Questo livello di autorizzazione, combinato con  Activity Map Access, fornisce le autorizzazioni per scaricare e utilizzare lo strumento.
+>Se desiderate che gli utenti non amministratori scarichino  Activity Map, create un nuovo gruppo di utenti che fornisca l&#39;autorizzazione &quot;Strumenti&quot; e &quot;Installazione ClickMap precedenti&quot;. Questo livello di autorizzazione, combinato con  Activity Map Access, fornisce le autorizzazioni per scaricare e utilizzare lo strumento.
