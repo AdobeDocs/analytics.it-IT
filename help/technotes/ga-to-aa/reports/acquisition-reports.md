@@ -1,8 +1,8 @@
 ---
-title: Rapporti di acquisizione in Adobe  Analytics
+title: Rapporti di acquisizione in  Adobe Analytics
 description: Scopri come creare rapporti basati sull’acquisizione utilizzando  Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 I rapporti di acquisizione mostrano come si ottengono i visitatori del sito.
 
-In Adobe  Analytics, questi rapporti sono noti come **Marketing Channels (Canali** di marketing). Richiedono una configurazione iniziale di base, ma consentono una visualizzazione dei canali molto più personalizzata.
+In  Adobe Analytics, questi rapporti sono noti come **Marketing Channels (Canali** di marketing). Richiedono una configurazione iniziale di base, ma consentono una visualizzazione dei canali molto più personalizzata.
 
 >[!IMPORTANT]
 >
 > Configurate le regole di elaborazione del canale di marketing per utilizzare questi rapporti. Consultate [Guida introduttiva ai canali](/help/components/c-marketing-channels/c-getting-started-mchannel.md) di marketing per informazioni su come configurare al meglio i canali di marketing nella vostra organizzazione.
 
-Questa pagina presuppone che l&#39;utente disponga di conoscenze di base sull&#39;utilizzo  Analysis Workspace. Consultate [Creare un rapporto di base in  Analysis Workspace per gli utenti](create-report.md) di Google  Analytics se non avete ancora familiarità con lo strumento in Adobe  Analytics.
+Questa pagina presuppone che l&#39;utente disponga di conoscenze di base sull&#39;utilizzo  Analysis Workspace. Consultate [Creare un rapporto di base in  Analysis Workspace per gli utenti](create-report.md) di Google Analytics se non avete ancora familiarità con lo strumento in  Adobe Analytics.
 
 ## Tutto il traffico - Canali
 
 Mostra una visualizzazione aggregata di tutti i canali utilizzati dai visitatori per raggiungere il sito.
 
-1. Nel menu Componenti, individua la dimensione Canale **** marketing e trascinala sull’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
+1. Nel menu Componenti, individua la dimensione Canale **** marketing e trascinala nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui un Dimension&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ## Tutto il traffico - Treemap
@@ -72,21 +72,21 @@ Per ulteriori informazioni, consulta la sezione relativa alla dimensione [Domini
 
 ## Rapporti Google Ads e Search Console
 
-Adobe utilizza una funzione in  Analysis Workspace denominata Annuncio  Analytics per inserire dati pubblicitari e di ricerca da più piattaforme, incluso Google.
+ Adobe utilizza una funzione  Analysis Workspace denominata  Advertising Analytics per inserire dati pubblicitari e di ricerca da più piattaforme, incluso Google.
 
-La funzione di analisi pubblicitaria richiede la configurazione per restituire i dati. Consulta [Pubblicità  Guida](/help/integrate/c-advertising-analytics/overview.md) di Analytics per informazioni dettagliate su come abilitare queste dimensioni aggiuntive in  Analysis Workspace.
+La funzione di analisi pubblicitaria richiede la configurazione per restituire i dati. Consultate [Advertising Analytics Help](/help/integrate/c-advertising-analytics/overview.md) per informazioni dettagliate sull’attivazione di queste dimensioni aggiuntive in  Analysis Workspace.
 
 ## Report social
 
 I rapporti sui social network forniscono informazioni simili ai rispettivi rapporti sul comportamento, tranne nel contesto dei social network. Questi dati sono disponibili in  Analysis Workspace combinando una dimensione con un segmento.
 
-A volte i visitatori raggiungono il sito attraverso più canali nella stessa sessione. Ad esempio, un visitatore fa clic su una pagina social media, quindi qualche minuto dopo visita un motore di ricerca per raggiungere il sito. In questi casi, i domini non social possono essere visualizzati in questo rapporto. Se desiderate escludere domini non social, ordinate il rapporto per visite o create una copia del segmento in base agli hit invece che alle visite. Per ulteriori informazioni, consulta Contenitori [di](/help/components/c-segmentation/seg-overview.md) segmentazione nella guida utente Componenti.
+A volte i visitatori raggiungono il sito attraverso più canali nella stessa sessione. Ad esempio, un visitatore fa clic su una pagina social media, quindi qualche minuto dopo visita un motore di ricerca per raggiungere il sito. In questi casi, i domini non social possono essere visualizzati in questo rapporto. Se desiderate escludere domini non social, ordinate il rapporto per visite o create una copia del segmento in base agli hit invece che alle visite. Per ulteriori informazioni, consulta Contenitori [di](/help/components/segmentation/seg-overview.md) segmentazione nella guida utente Componenti.
 
 ### Social - Riferimenti alla rete
 
 Il rapporto Riferimenti di rete mostra quali domini di social network hanno portato il traffico al sito. Questi dati sono disponibili in  Analysis Workspace utilizzando la dimensione Dominio **di** riferimento e il segmento **Visite dai siti** social.
 
-1. Nel menu Componenti, individua la dimensione Dominio **di** riferimento e trascinala nell’area della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
+1. Nel menu Componenti, individua la dimensione Dominio **** di riferimento e trascinala nell’area della tabella a forma libera con l’etichetta &quot;Rilascia qui un Dimension&quot;.
 2. Nel menu Componenti, individua il segmento **Visite dai siti** social e trascina nell’area piccola appena sopra la tabella a forma libera con l’etichetta &quot;Rilascia qui un segmento&quot;.
 3. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
@@ -94,17 +94,17 @@ Il rapporto Riferimenti di rete mostra quali domini di social network hanno port
 
 Il rapporto Pagine di destinazione mostra le pagine sulle quali i visitatori sono arrivati dopo aver fatto clic su un collegamento tramite un social network. Questi dati sono disponibili in  Analysis Workspace utilizzando la dimensione **Pagina** di immissione e il segmento **Visite dai siti** social.
 
-1. Nel menu Componenti, individua la dimensione Pagina **** di immissione e trascinala nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
+1. Nel menu Componenti, individuate la dimensione Pagina **** di immissione e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilasciate qui un Dimension&quot;.
 2. Nel menu Componenti, individua il segmento **Visite dai siti** social e trascina nell’area piccola appena sopra la tabella a forma libera con l’etichetta &quot;Rilascia qui un segmento&quot;.
 3. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ### Social - Conversioni
 
-Il rapporto Conversioni mostra i dati e-commerce nel contesto dei social network. Per utilizzare tali rapporti su entrambe le piattaforme è necessaria un&#39;ulteriore implementazione; Adobe consiglia di collaborare con un consulente per l&#39;implementazione per verificare che questi dati siano configurati correttamente per  Analysis Workspace.
+Il rapporto Conversioni mostra i dati e-commerce nel contesto dei social network. Per utilizzare tali rapporti su entrambe le piattaforme è necessaria un&#39;ulteriore implementazione;  Adobe consiglia di lavorare con un consulente per l&#39;implementazione per verificare che questi dati siano configurati correttamente per  Analysis Workspace.
 
 ### Social - Plugin
 
-Il rapporto Plugins mostra in che modo i visitatori interagiscono con i plug-in per social media incorporati nel sito. È necessaria un&#39;implementazione aggiuntiva per  Analysis Workspace. Adobe consiglia di collaborare con un consulente per l&#39;implementazione per garantire che i dati vengano raccolti con precisione.
+Il rapporto Plugins mostra in che modo i visitatori interagiscono con i plug-in per social media incorporati nel sito. È necessaria un&#39;implementazione aggiuntiva per  Analysis Workspace.  Adobe raccomanda di collaborare con un consulente per l&#39;implementazione per garantire che i dati vengano raccolti con precisione.
 
 ### Social - Flusso utenti
 
@@ -112,33 +112,33 @@ Il rapporto Flusso utenti mostra i dati del percorso nel contesto in cui i visit
 
 1. Fai clic sull’icona delle visualizzazioni a sinistra, quindi trascina una visualizzazione Flusso nell’area di lavoro sopra la tabella a forma libera
 2. Fai clic sull&#39;icona Componenti a sinistra, quindi trascina il segmento **Visite da Social Sites** sull&#39;area piccola appena sopra la visualizzazione di flusso con l&#39;etichetta &quot;Rilascia qui un segmento&quot;.
-3. Individuare la dimensione **Pagine** , quindi fare clic sull&#39;icona freccia per visualizzare i valori della pagina. Gli elementi dimensione sono colorati in giallo.
-4. Individuate il valore della pagina con cui iniziare e trascinatelo nello spazio contrassegnato come &quot;Dimensione o elemento&quot; al centro
+3. Individuare la dimensione **Pagine** , quindi fare clic sull&#39;icona freccia per visualizzare i valori della pagina. Gli elementi Dimension sono colorati in giallo.
+4. Individuate il valore della pagina con cui iniziare e trascinatelo nello spazio contrassegnato come &quot;Dimension o elemento&quot; al centro
 5. Questo rapporto di flusso è interattivo. Fate clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Per espandere o comprimere le colonne, usate il menu di scelta rapida. All’interno dello stesso rapporto di flusso possono essere utilizzate dimensioni diverse.
 
 ## Campagne - Tutte
 
 Il rapporto sulle campagne è disponibile in  Analysis Workspace utilizzando la dimensione Codice **di** tracciamento. Tenere presente che l&#39;utilizzo della dimensione Codice di tracciamento richiede un&#39;implementazione aggiuntiva per la raccolta dei dati.
 
-È possibile raccogliere parametri UTM in Adobe  Analytics utilizzando variabili personalizzate (eVar). Adobe consiglia di collaborare con un consulente per l&#39;implementazione per garantire che i valori dei codici di tracciamento vengano raccolti accuratamente in Adobe  Analytics.
+È possibile raccogliere parametri UTM in  Adobe Analytics utilizzando variabili personalizzate (eVar).  Adobe consiglia di lavorare con un consulente di implementazione per garantire che i valori dei codici di tracciamento vengano raccolti accuratamente in  Adobe Analytics.
 
-1. Nel menu Componenti, individua la dimensione Codice **di** tracciamento e trascinala nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
+1. Nel menu Componenti, individua la dimensione Codice **di** tracciamento e trascinala nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui un Dimension&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ## Campagne - Parole chiave pagate
 
 Il rapporto sulle parole chiave pagate mostra le prestazioni di ogni parola chiave dopo che un visitatore fa clic su un collegamento di ricerca a pagamento da un motore di ricerca. La dimensione **Cerca parole chiave - Pagato** è disponibile in  Analysis Workspace, ma richiede un&#39;impostazione una tantum del rilevamento di ricerca a pagamento per la raccolta dei dati. Consultate Rilevamento [ricerca a](/help/admin/admin/paid-search-detection/paid-search-detection.md) pagamento nella guida utente per l’amministratore per i dettagli di configurazione.
 
-1. Nel menu Componenti, individuate la dimensione **Cerca parola chiave - Pagato** e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
+1. Nel menu Componenti, individuate la dimensione **Cerca parola chiave - Pagato** e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilasciate qui un Dimension&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ## Campagne - Parole chiave organiche
 
 Il rapporto sulle parole chiave organiche mostra le prestazioni di ogni parola chiave dopo che un visitatore fa clic su un collegamento di ricerca organico da un motore di ricerca. Le parole chiave **di ricerca - Dimensione naturale** sono disponibili in  Analysis Workspace. Se il rilevamento della ricerca a pagamento non è impostato, questa dimensione raccoglie le parole chiave a pagamento e naturali.
 
-1. Nel menu Componenti, individuate la parola chiave **Cerca - Dimensione naturale** e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilasciate qui una dimensione&quot;.
+1. Nel menu Componenti, individuate la parola chiave **Cerca - Dimensione naturale** e trascinatela nell’area grande della tabella a forma libera con l’etichetta &quot;Rilasciate qui un Dimension&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
 
 ## Analisi costi
 
-Questo rapporto mostra i dati sulle prestazioni di visite, costi e ricavi per i canali di marketing a pagamento. Adobe fornisce un prodotto dedicato per fornire approfondimenti denominato Adobe  Advertising Cloud. Se l&#39;azienda è interessata a utilizzare questo prodotto, contatta l&#39;Account Manager dell&#39;organizzazione.
+Questo rapporto mostra i dati sulle prestazioni di visite, costi e ricavi per i canali di marketing a pagamento.  Adobe fornisce un prodotto dedicato per fornire approfondimenti denominati Adobe Advertising Cloud. Se l&#39;azienda è interessata a utilizzare questo prodotto, contatta l&#39;Account Manager dell&#39;organizzazione.
