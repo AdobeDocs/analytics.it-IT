@@ -1,11 +1,11 @@
 ---
-description: Una classificazione è un modo per classificare  dati variabili Analytics e quindi visualizzare i dati in modi diversi al momento della generazione dei rapporti.
+description: Una classificazione è un modo per classificare i dati variabili di Analytics e quindi per visualizzare i dati in modi diversi quando si generano i rapporti.
 subtopic: Classifications
 title: Informazioni sulle classificazioni
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 20%
@@ -15,9 +15,9 @@ ht-degree: 20%
 
 # Informazioni sulle classificazioni
 
-Una classificazione è un modo per classificare  dati variabili Analytics e quindi visualizzare i dati in modi diversi al momento della generazione dei rapporti.
+Una classificazione è un modo per classificare i dati variabili di Analytics e quindi per visualizzare i dati in modi diversi quando si generano i rapporti.
 
-Video introduttivo sulle classificazioni [Analytics](https://video.tv.adobe.com/v/16853/?captions=ita).
+Panoramica video delle classificazioni [di](https://video.tv.adobe.com/v/16853/?captions=ita)Analytics.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
 
@@ -45,7 +45,7 @@ Reporting e analisi include classificazioni predefinite per la variabile del cod
 
 Consulta Classificazioni [del traffico e classificazioni](/help/admin/admin/c-traffic-variables/traffic-classifications.md) [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)di conversione.
 
-Nella tabella seguente sono descritti i diversi tipi di classificazioni disponibili e i tipi di variabili che li supportano. Esaminare le informazioni in Struttura [file](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) generale prima di caricare i file di dati.
+Nella tabella seguente sono descritti i diversi tipi di classificazioni disponibili e i tipi di variabili che li supportano. Esaminare le informazioni in Struttura [file](/help/components/classifications/importer/c-saint-data-files.md) generale prima di caricare i file di dati.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
@@ -64,7 +64,7 @@ Nella tabella seguente sono descritti i diversi tipi di classificazioni disponib
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Testo con data abilitata</span> </p> <p>Nota:  Nella versione di manutenzione di Analytics del 10 maggio 2018,  Adobe ha iniziato a limitare le funzionalità delle classificazioni abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti. </p> </td> 
    <td colname="col2"> <p>Variabili di conversione </p> </td> 
-   <td colname="col3"> <p>Una classificazione di testo abilitata per la data consente di assegnare intervalli di date a una classificazione di testo. Questa funzione è in genere utilizzata con le classificazioni delle campagne, in modo da poter sfruttare la visualizzazione Diagramma di Gantt nel rapporto <span class="wintitle"> Campagne</span> . </p> <p>È possibile includere nel file di dati le date effettive della campagna per la compilazione dei dati di classificazione. </p> <p>Reporting e  Analytics raccoglie i codici di tracciamento campagna anche se la data di fine della campagna è già passata, ma i dati della campagna raccolti dopo la data di fine della campagna non sono associati alla campagna. </p> </td> 
+   <td colname="col3"> <p>Una classificazione di testo abilitata per la data consente di assegnare intervalli di date a una classificazione di testo. Questa funzione è in genere utilizzata con le classificazioni delle campagne, in modo da poter sfruttare la visualizzazione Diagramma di Gantt nel rapporto <span class="wintitle"> Campagne</span> . </p> <p>È possibile includere nel file di dati le date effettive della campagna per la compilazione dei dati di classificazione. </p> <p>Reporting e analisi raccoglie i codici di tracciamento campagna anche se la data di fine della campagna è già passata, ma i dati della campagna raccolti dopo la data di fine della campagna non sono associati alla campagna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Numeriche</span> <p>Nota:  Nella versione di manutenzione di Analytics del 10 maggio 2018,  Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti. </p> </p> </td> 
