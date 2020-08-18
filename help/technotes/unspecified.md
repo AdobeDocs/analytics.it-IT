@@ -25,7 +25,7 @@ In  Adobe Analytics, diversi rapporti possono mostrare &quot;Non specificato&quo
 
 ## &quot;Altro&quot; nella segnalazione
 
-Anche se alquanto raro nel reportage, &quot;Altro&quot; può verificarsi in diverse circostanze:
+Anche se in qualche modo raro nel reportage, &quot;Altro&quot; può verificarsi in diverse circostanze:
 
 * **Le pagine vengono attivate al di fuori dei filtri URL interni:** Questo valore è attivo per proteggere contro le frodi relative ai dati, ad esempio se un&#39;altra organizzazione ruba il codice sorgente e lo implementa sul proprio sito. Per correggere questo problema, accertatevi che tutti gli URL per i quali il codice è implementato corrispondano ai filtri URL interni nelle impostazioni della suite di rapporti.
 * **Visitatori che utilizzano un browser di uso raro:** Nel rapporto Tipi browser, se i visitatori utilizzano un browser che non è un tipo di browser popolare, viene visualizzato &quot;Altro&quot; come suddivisione. Ci sono molte organizzazioni che producono browser. Tutti i browser che le organizzazioni più grandi non hanno creato vengono inseriti in &quot;Altro&quot; per evitare il disordine dei report.
