@@ -1,23 +1,26 @@
 ---
-description: Analisi ad hoc si integra con l'ambiente di segmentazione di Analytics, consentendo di creare, condividere, gestire e applicare segmenti di visitatori tra i prodotti Adobe. Analisi ad hoc fornisce un'interfaccia utente basata su Java per il Segment Builder e il Segment Manager identica agli strumenti basati sul Web utilizzati da altri strumenti Analytics, che corrispondono alle chiamate dei server e forniscono le stesse funzionalità e funzionalità da una console basata su Java.
+description: ' Ad Hoc Analysis si integra con l''ambiente di segmentazione di Analytics, consentendo di creare, condividere, gestire e applicare segmenti di visitatori tra  prodotti di Adobe.  Ad Hoc Analysis fornisce un''interfaccia utente basata su Java per il Segment Builder e il Segment Manager identico agli strumenti basati sul Web utilizzati da altri strumenti Analytics, alle chiamate dei server corrispondenti e alle stesse funzionalità di una console basata su Java.'
 title: Generare segmenti
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 1%
 
 ---
 
 
 # Generare segmenti
 
-Analisi ad hoc si integra con l&#39;ambiente di segmentazione di Analytics, consentendo di creare, condividere, gestire e applicare segmenti di visitatori tra i prodotti Adobe. Analisi ad hoc fornisce un&#39;interfaccia utente basata su Java per il Segment Builder e il Segment Manager identica agli strumenti basati sul Web utilizzati da altri strumenti Analytics, che corrispondono alle chiamate dei server e forniscono le stesse funzionalità e funzionalità da una console basata su Java.
+ Ad Hoc Analysis si integra con l&#39;ambiente di segmentazione di Analytics, consentendo di creare, condividere, gestire e applicare segmenti di visitatori tra  prodotti di Adobe.  Ad Hoc Analysis fornisce un&#39;interfaccia utente basata su Java per il Segment Builder e il Segment Manager identico agli strumenti basati sul Web utilizzati da altri strumenti Analytics, alle chiamate dei server corrispondenti e alle stesse funzionalità di una console basata su Java.
 
-Ad Hoc Analysis include funzionalità familiari per la creazione di segmenti, oltre a nuovi aggiornamenti di funzionalità come [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) utilizzati per impostare un [flusso di lavoro](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)di gestione segmenti. Come sempre, puoi creare e salvare segmenti nel Generatore [di](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) segmenti o [generare segmenti da un rapporto](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) di abbandono dalla console di analisi ad hoc, quindi salvare i segmenti nuovi o estesi nella libreria del pubblico per l’accesso e l’applicazione generali. ![](assets/seg__overview_ad_hoc.png)
+ Ad Hoc Analysis include funzionalità familiari per la creazione di segmenti, oltre a nuovi aggiornamenti di funzionalità come [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) utilizzati per impostare un [flusso di lavoro](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)di gestione segmenti. Come sempre, puoi creare e salvare segmenti nel Generatore [di](/help/components/segmentation/segmentation-workflow/seg-build.md) segmenti o [generare segmenti da un rapporto](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) di abbandono dalla console di analisi ad hoc, quindi salvare i segmenti nuovi o estesi nella libreria del pubblico per l’accesso e l’applicazione generali. ![](assets/seg__overview_ad_hoc.png)
 
-## Segmentazione unificata in Analisi ad hoc {#section_5FA03A06DE054448AD519CE30C39E294}
+## Segmentazione unificata in  Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-Per informazioni e istruzioni sulla creazione e la gestione di segmenti nell’ambiente di segmentazione unificata, comprese le funzioni di analisi ad hoc, consulta la documentazione relativa alla segmentazione [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) unificata.
+Per informazioni e istruzioni sulla creazione e la gestione di segmenti nell’ambiente di segmentazione unificata, comprese le funzioni di analisi ad hoc, consulta la documentazione relativa alla segmentazione [](/help/components/segmentation/segmentation-workflow/seg-build.md) unificata.
 
 * [Nuove funzionalità](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Cos&#39;è successo ai segmenti esistenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
@@ -26,7 +29,7 @@ Per informazioni e istruzioni sulla creazione e la gestione di segmenti nell’a
 * [Cos&#39;è un contenitore Hit? È diverso da un contenitore Visualizzazione pagina?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
 * [Quali diritti e privilegi devo utilizzare, creare e gestire i segmenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
 * [Cosa devo fare con segmenti duplicati che hanno...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [In che modo Adobe consiglia di pulire i segmenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [In che modo  Adobe consiglia di ripulire i segmenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
 * [Perché non posso eliminare questo segmento?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
 * [Ulteriori informazioni su ciò che accade ai segmenti esistenti](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
@@ -34,13 +37,13 @@ Per informazioni e istruzioni sulla creazione e la gestione di segmenti nell’a
 
 * [I segmenti](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) sono universali per tutte le suite di rapporti. Precedentemente, i segmenti erano specifici della suite di rapporti.
 * Gestione [](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) segmenti consente di impostare [flussi di lavoro](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) con funzioni di condivisione dei segmenti, assegnazione di tag, verifica e approvazione.
-* Il Generatore di [segmenti](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) è stato aggiornato per semplificare la creazione dei segmenti.
+* Il Generatore di [segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) è stato aggiornato per semplificare la creazione dei segmenti.
 * Puoi assegnare [tag ai segmenti](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html) per organizzarli ed effettuare ricerche in un secondo momento, anziché utilizzare le cartelle. Precedentemente, per organizzare i segmenti erano state utilizzate le cartelle (in [!DNL ad hoc analysis]).
-* Puoi creare segmenti [](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) sequenziali all’esterno di Analisi ad hoc.
+* Puoi creare segmenti [](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) sequenziali all’esterno di  Ad Hoc Analysis.
 
    >[!NOTE]
    >
-   >In Analisi ad hoc non puoi aggiungere intervalli di date ai segmenti. Questa funzione è disponibile in Analysis Workspace. In Analisi ad hoc non è inoltre possibile utilizzare Solo prima/Solo dopo la sequenza.
+   >In  Ad Hoc Analysis non è possibile aggiungere intervalli di date ai segmenti. Questa funzione è disponibile in  Analysis Workspace. Non è inoltre possibile utilizzare la sequenza Solo prima/Solo dopo in  Ad Hoc Analysis.
 
 ## Cos&#39;è successo ai segmenti esistenti? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -50,11 +53,11 @@ La maggior parte dei segmenti predefiniti e suite precedenti verranno trasferiti
 
 ## Cos&#39;è successo alle cartelle dei segmenti esistenti? {#section_FB04DCF775694E69B761DCA53F301C30}
 
-Invece delle cartelle (Analisi ad hoc), il Gestore dei segmenti utilizza [i tag](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html). I nomi delle cartelle vengono automaticamente convertiti in tag e tali tag vengono applicati ai rispettivi segmenti.
+Invece di ( Ad Hoc Analysis) cartelle, Segment Manager utilizza [i tag](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html). I nomi delle cartelle vengono automaticamente convertiti in tag e tali tag vengono applicati ai rispettivi segmenti.
 
 ## Posso gestire tutti i segmenti di Analytics in Segment Manager? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
-In Gestione segmenti di analisi ad hoc puoi vedere solo i segmenti che appartengono a te (i segmenti creati) e i segmenti che sono specificamente condivisi con te.
+In  Ad Hoc Analysis Segment Manager è possibile visualizzare solo i segmenti che appartengono a te (i segmenti creati) e i segmenti che sono specificamente condivisi con te.
 
 ## Cos&#39;è un contenitore Hit? È diverso da un contenitore Visualizzazione pagina? {#section_65BBE60A836C4001938830DDA15DC256}
 
@@ -75,7 +78,7 @@ Poiché i segmenti funzionano in più suite di rapporti, potresti avere più seg
 * Rinominare segmenti con lo stesso nome, ma definizioni diverse, oppure
 * Elimina segmenti non più necessari.
 
-## In che modo Adobe consiglia di pulire i segmenti? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## In che modo  Adobe consiglia di ripulire i segmenti? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * Assegna tag a tutti i segmenti con tag legacy.
 * Rivedete i segmenti che avete.
@@ -85,7 +88,7 @@ Poiché i segmenti funzionano in più suite di rapporti, potresti avere più seg
 
 ## Perché non posso eliminare questo segmento? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
-Se il segmento è stato [pubblicato in Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html), non puoi eliminarlo o modificarlo. Tuttavia, potete copiarlo e modificare la versione copiata.
+Se il segmento è stato [pubblicato nel Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html), non è possibile eliminarlo o modificarlo. Tuttavia, potete copiarlo e modificare la versione copiata.
 
 ## Ulteriori informazioni su ciò che accade ai segmenti esistenti {#section_83ACAB256F394DCD8B424D8920BDD853}
 
@@ -98,8 +101,8 @@ Se il segmento è stato [pubblicato in Experience Cloud](https://docs.adobe.com/
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Segmenti preferiti (Analisi ad hoc) </td> 
-   <td colname="col2">Questi segmenti di Analisi ad hoc vengono visualizzati come segmenti regolari in Adobe Analytics. <p>Non devono essere confusi con la funzione Preferiti in Segment Manager (Gestore segmenti), che consente di contrassegnare i segmenti come preferiti. </p> </td> 
+   <td colname="col1"> Segmenti preferiti ( Ad Hoc Analysis) </td> 
+   <td colname="col2">Questi segmenti  Ad Hoc Analysis vengono visualizzati come segmenti regolari in  Adobe Analytics. <p>Non devono essere confusi con la funzione Preferiti in Segment Manager (Gestore segmenti), che consente di contrassegnare i segmenti come preferiti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmenti pre-configurati: 
@@ -113,7 +116,7 @@ Se il segmento è stato [pubblicato in Experience Cloud](https://docs.adobe.com/
    <td colname="col2"> <p>Questi segmenti verranno trasferiti come modelli di segmento nel generatore di segmenti. </p> <p>I rapporti esistenti con questi segmenti continueranno a funzionare correttamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Segmenti Experience Cloud (Suite): 
+   <td colname="col1">Segmenti di Experienci Cloud (Suite) : 
     <ul id="ul_6968AFF6DEDA4BC8A7885B07CC1F57DF"> 
      <li id="li_073D9496F0C64AEB855855D01E65C1BA">Non acquirenti </li> 
      <li id="li_8958FD4272A14E16A9AA08216E8BC573">Acquirenti </li> 
@@ -127,7 +130,7 @@ Se il segmento è stato [pubblicato in Experience Cloud](https://docs.adobe.com/
   </tr> 
   <tr> 
    <td colname="col1">Segmenti di amministrazione <p>(noti anche come segmenti "globali") </p> </td> 
-   <td colname="col2"> <p> <b>I segmenti amministratore</b> verranno migrati nella nuova interfaccia del segmento e visualizzati come segmenti condivisi con tutti. </p> <p>Il proprietario di questi segmenti è impostato sull’amministratore con l’account più vecchio nell’elenco degli utenti di amministrazione della società di accesso. Tuttavia, tutti gli amministratori possono eliminare, modificare e condividere questi segmenti. </p> <p>L’interfaccia di gestione dei segmenti in Admin Console, in cui gli amministratori hanno creato e gestito questi segmenti globali, non è più disponibile. Adesso, gli amministratori devono usare il nuovo generatore di segmenti per creare segmenti e condividerli con gruppi o individui appropriati o con tutti. </p> </td> 
+   <td colname="col2"> <p> <b>I segmenti amministratore</b> verranno migrati nella nuova interfaccia del segmento e visualizzati come segmenti condivisi con tutti. </p> <p>Il proprietario di questi segmenti è impostato sull’amministratore con l’account più vecchio nell’elenco degli utenti di amministrazione della società di accesso. Tuttavia, tutti gli amministratori possono eliminare, modificare e condividere questi segmenti. </p> <p>L'interfaccia di gestione dei segmenti nel Admin Console  in cui gli amministratori hanno creato e gestito questi segmenti globali non è più disponibile. Adesso, gli amministratori devono usare il nuovo generatore di segmenti per creare segmenti e condividerli con gruppi o individui appropriati o con tutti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
