@@ -5,7 +5,10 @@ title: Ordine di elaborazione
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +25,9 @@ Nelle tabelle seguenti sono elencati i dati solitamente disponibili prima e dopo
 
 | Dimensione | Descrizione |
 |--- |--- |
-| Ricerca di variabili dinamiche | Le variabili vengono compilate in modo dinamico recuperando informazioni dalle intestazioni HTTP o da altre variabili. Ad esempio, `s.eVar5="D=c1"` inserirà il valore di prop1 in eVar5. |
+| Ricerca di variabili dinamiche | Le variabili vengono compilate in modo dinamico recuperando informazioni dalle intestazioni HTTP o da altre variabili. Ad esempio, `s.eVar5="D=c1"` inserisce il valore di prop1 in  eVar 5. |
 | AppMeasurement | Le funzioni e i plug-in utilizzati in AppMeasurement vengono eseguiti nel browser o nell&#39;applicazione client. |
-| Dynamic Tag Management | Le regole definite in Gestione tag dinamica vengono eseguite come definito. |
+| Gestione tag | Le regole definite in Lancio  Adobe o Gestione tag dinamica vengono eseguite come definito. |
 | Regole bot | [Le regole](/help/admin/admin/bot-removal/bot-rules.md) bot consentono di rimuovere il traffico generato da spider e bot noti dalla suite di rapporti. |
 
 ## Dopo le regole di elaborazione
@@ -40,6 +43,6 @@ Nelle tabelle seguenti sono elencati i dati solitamente disponibili prima e dopo
 
 ## Modalità di applicazione delle regole di elaborazione durante la copia degli hit tramite VISTA {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-Se hai una regola VISTA configurata per copiare gli hit in un’altra suite di rapporti, gli hit vengono inviati attraverso qualsiasi regola di elaborazione definita nell’altra suite di rapporti.
+Se hai una regola VISTA configurata per copiare gli hit in un’altra suite di rapporti, gli hit vengono inviati tramite tutte le regole di elaborazione definite nell’altra suite di rapporti.
 
 Se nella suite di rapporti originale sono definite delle regole di elaborazione, queste possono essere applicate o meno in base alla configurazione della regola VISTA da parte di Engineering Services. Per maggiori informazioni, puoi chiedere al tuo specialista dell&#39;implementazione se la regola VISTA copia i valori &quot;pre&quot; o &quot;post&quot; nella suite di rapporti aggiuntiva. Se il valore &quot;pre&quot; viene copiato, le regole di elaborazione definite nella suite di rapporti originale non vengono applicate. Se il valore &quot;post&quot; viene copiato, le regole di elaborazione vengono applicate prima che l’hit venga copiato.
