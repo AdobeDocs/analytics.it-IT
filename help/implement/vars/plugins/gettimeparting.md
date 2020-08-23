@@ -2,29 +2,31 @@
 title: getTimeParting
 description: Misurare il tempo in cui avviene un'azione specifica.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
 
 
-# Plug-in Adobe: getTimeParting
+#  plug-in di Adobe: getTimeParting
 
 >[!IMPORTANT]
 >
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>Questo plug-in è fornito da  Adobe Consulting come una cortesia per aiutarvi a ottenere più valore da  Adobe Analytics. &#39;Assistenza clienti di Adobe non fornisce supporto con questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
 Il `getTimeParting` plug-in consente di acquisire i dettagli del momento in cui si svolge qualsiasi attività misurabile sul sito. Questo plug-in è utile per suddividere le metriche in base a una suddivisione ripetibile del tempo in un dato intervallo di date. Ad esempio, è possibile confrontare i tassi di conversione tra due giorni diversi della settimana, ad esempio tutti i giorni di domenica rispetto a tutti i giovedì. È inoltre possibile confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
 
  Analysis Workspace fornisce dimensioni simili e pronte all&#39;uso, formattate in modo leggermente diverso rispetto a questo plug-in. Per ulteriori informazioni, consulta la sezione [Suddivisione delle dimensioni](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analisi. Alcune organizzazioni ritengono che  dimensioni pronte all&#39;uso di Analysis Workspace siano sufficienti.
 
->[IMPORTANTE] versione 4.0+ di questo plug-in è notevolmente diversa rispetto alle versioni precedenti. Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in prima della versione 4.0 non è compatibile con la versione corrente del plug-in.
+>[!IMPORTANT]
+>
+>La versione 4.0+ di questo plug-in è notevolmente diversa dalle versioni precedenti.  Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in prima della versione 4.0 non è compatibile con la versione corrente del plug-in.
 
-## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
+## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch 
 
-Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
+ Adobe offre un&#39;estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
@@ -34,7 +36,7 @@ Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (Page Top)
 1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in Analytics  comuni
+   * Estensione: Plug-in comuni di Analytics
    * Tipo azione: Initialize getTimeParting
 1. Salvate e pubblicate le modifiche alla regola.
 
@@ -44,14 +46,14 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
+1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics .
 1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche nell’estensione Analytics .
+1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). Mantenendo i commenti e i numeri di versione del codice nell’implementazione,  Adobe può risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -124,7 +126,7 @@ Esecuzione del codice seguente in corso...
 s.eVar10 = getTimeParting("Europe/Athens");
 ```
 
-...imposta s.eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=6:15 PM&quot;
+...imposta s. eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=6:15 PM&quot;
 
 Con il seguente codice...
 
@@ -132,7 +134,7 @@ Con il seguente codice...
 s.eVar10 = getTimeParting("America/Nome");
 ```
 
-...imposta s.eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=6:15 AM&quot;
+...imposta s. eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=6:15 AM&quot;
 
 Codice seguente...
 
@@ -140,7 +142,7 @@ Codice seguente...
 s.eVar10 = getTimeParting("Asia/Calcutta");
 ```
 
-...imposta s.eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=8:45 PM&quot;
+...imposta s. eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=8:45 PM&quot;
 
 E il seguente codice...
 
@@ -148,7 +150,7 @@ E il seguente codice...
 s.eVar10 = getTimeParting("Australia/Sydney");
 ```
 
-...imposta s.eVar10 su &quot;year=2020 | mese=settembre | date=1 | giorno=sabato | time=1:15 AM&quot;
+...imposta s. eVar10 su &quot;year=2020 | mese=settembre | date=1 | giorno=sabato | time=1:15 AM&quot;
 
 ## Cronologia versioni
 
