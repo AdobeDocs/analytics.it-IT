@@ -3,7 +3,7 @@ description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
@@ -77,7 +77,9 @@ Questi modelli standard illustrano la terminologia e i passaggi comuni per lo sv
 
 ### Commercio
 
-* **Magento: Marketing e Commercio**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Per visualizzare un video introduttivo, vedi > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing e Commercio**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Per visualizzare un video introduttivo, vedi:
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Media
 
