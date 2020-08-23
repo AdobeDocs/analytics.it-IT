@@ -3,9 +3,9 @@ description: Inizia con  Ad Hoc Analysis.
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1276'
 ht-degree: 6%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 6%
 
 # Guida introduttiva ad  Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!IImportante]
+>[!IMPORTANT]
+>
 >Il 6 agosto 2018 Adobe ha annunciato l’intenzione di terminare Ad Hoc Analysis. Non appena disponibile, verrà comunicata la data di fine del ciclo di vita. Per ulteriori informazioni, tra cui quali versioni di Java saranno compatibili durante questo periodo, visita [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Potete eseguire analisi istantanee e avanzate sull&#39;attività del sito Web. Puoi visualizzare più rapporti contemporaneamente e applicare segmenti a più dimensioni. Puoi analizzare i dati sia dalle micro che dalle macro prospettive per verificarne l&#39;impatto sulle metriche aziendali importanti.
