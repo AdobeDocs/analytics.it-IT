@@ -3,7 +3,7 @@ title: Analizzatore pacchetti
 description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall'implementazione ai server di raccolta dati  Adobe.
 keywords: packet sniffer, http status, 200, 302, charles
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Come per Adobe Experience Cloud Debugger, un monitor di pacchetti mostra quali p
 * Visualizza richieste di immagini per tracciamento collegamenti personalizzati
 * Visualizzare le richieste di immagini utilizzando metodi di implementazione diversi da JavaScript, ad esempio richieste di immagini hardcoded o [!DNL Appmeasurement]
 
-Per visualizzare  richieste Analytics, filtrate le richieste in uscita utilizzando &quot;b/s&quot;.
+Per visualizzare le richieste di Analytics, filtra le richieste in uscita utilizzando &quot;b/s&quot;.
 
 In casi molto rari, il debugger segnalerà una richiesta di immagine anche se nessuna richiesta viene effettuata a  server di [!DNL Analytics] elaborazione  Adobe. L&#39;utilizzo di un monitor a pacchetti rappresenta un ottimo modo per garantire al 100% che una specifica richiesta di immagine venga attivata correttamente.
 
@@ -33,8 +33,8 @@ Sebbene  Adobe non fornisca un monitor di pacchetti ufficiale, ce ne sono molti 
 | Firefox | Internet Explorer | Chrome | Programmi standalone |
 |---|---|---|---|
 | [Punto](https://www.observepoint.com/product#plugin) di osservazione (visualizzatore tag) | [HttpWatch](https://www.httpwatch.com/) | [Punto](https://www.observepoint.com/product#plugin) di osservazione (visualizzatore tag) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Strumenti per sviluppatori Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Dati mantra](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Strumenti per sviluppatori Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Dati mantra](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
@@ -49,8 +49,8 @@ Quando AppMeasurement invia i dati  server di raccolta dati di Adobe, i server r
 * **200 OK**: La risposta più comune dai server di raccolta dati. La richiesta dell&#39;immagine è stata ricevuta e viene restituita un&#39;immagine trasparente.
 * **302 TROVATO**: Esistono due possibili motivi per ricevere questa risposta:
    * La prima richiesta di immagine di un visitatore: Un reindirizzamento si verifica se un utente visita il sito per la prima volta. Questo reindirizzamento consiste nel ottenere un cookie visitatore. Non influisce sulla raccolta dei dati.
-   * Integrazione tra Comscore e  Adobe: Se l’organizzazione utilizza un’integrazione Comscore/ Analytics, ogni richiesta di immagine genera sempre una risposta 302.
-* **404 NON TROVATO**: Questa risposta indica che la richiesta di immagine non è stata trovata e che i dati non vengono inviati  server di raccolta dati del Adobe. Questa risposta è possibile anche quando le richieste di immagini hardcoded non sono formattate correttamente. Per risolvere il problema, collaborate con il singolo o il team che ha implementato  Analytics.
+   * Integrazione tra Comscore e  Adobe: Se l’organizzazione utilizza un’integrazione Comscore/Analytics, ogni richiesta di immagine genera sempre una risposta 302.
+* **404 NON TROVATO**: Questa risposta indica che la richiesta di immagine non è stata trovata e che i dati non vengono inviati  server di raccolta dati del Adobe. Questa risposta è possibile anche quando le richieste di immagini hardcoded non sono formattate correttamente. Per risolvere il problema, collabora con il singolo o il team che ha implementato Analytics.
 
 ## NS_BINDING_ABORTED nei codici di risposta
 
