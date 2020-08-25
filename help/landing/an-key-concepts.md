@@ -2,9 +2,9 @@
 description: Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizione di ogni concetto e un collegamento specifico alla documentazione con informazioni aggiuntive sull'argomento.
 title: 'Adobe Analytics: concetti chiave'
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Fai clic [qui](/help/technotes/terms.md) per un glossario esteso dei termini di 
 | Segmenti | Capacità di generare, gestire, condividere e applicare segmenti di audience potenti e correttamente focalizzati nei tuoi report di Analytics. I segmenti sono condivisi tra i diversi prodotti Analytics e possono essere condivisi con l’intera soluzione Experience Cloud. | [Segmentazione](/help/components/segmentation/seg-home.md) |
 | Tempo (intervalli di date) | Possibilità di filtrare la data in qualsiasi periodo di tempo e creare intervalli di date personalizzati che possono essere riutilizzati nell&#39;analisi. | [Intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualizzazioni | Immagini dettagliate che possono contribuire a dare vita ai dati nei tuoi progetti. | [Visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Cura | Possibilità di limitare i componenti accessibili in un progetto o in una suite di rapporti virtuali. | [Cura VRS](/help/components/vrs/vrs-components.md) <br> [Cura del progetto](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [Confronto](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| Cura | Possibilità di limitare i componenti accessibili in un progetto o in una suite di rapporti virtuali. | [Cura VRS](/help/components/vrs/vrs-components.md) <br> [Cura del progetto](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Rapporti chiave
 
