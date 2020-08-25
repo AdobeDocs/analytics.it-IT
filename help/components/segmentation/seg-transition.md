@@ -1,11 +1,10 @@
 ---
 description: 'null'
-keywords: segmentation;segments
 title: Domande frequenti
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2173'
 ht-degree: 3%
@@ -127,7 +126,7 @@ I modelli di segmento sono contrassegnati da un’icona speciale in Generatore d
 
 ![](assets/seg_templates.png)
 
-**Cos&#39;è successo alle cartelle dei segmenti esistenti?**
+**Cos’è successo alle cartelle dei segmenti esistenti?**
 
 Invece di ( Ad Hoc Analysis) cartelle, Segment Manager utilizza i tag . I nomi delle cartelle vengono automaticamente convertiti in tag e tali tag vengono applicati ai rispettivi segmenti.
 
@@ -177,7 +176,7 @@ I rapporti esistenti con questi segmenti continueranno a funzionare correttament
 * Visite con 5+ visite precedenti*
 * Visite da Facebook*
 
-La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) verrà migrata come modelli di segmento nel generatore di segmenti. Sono stati inoltre aggiunti diversi nuovi modelli di segmento.
+La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) verrà migrata come modelli di segmento nel generatore di segmenti. Inoltre, sono stati aggiunti diversi nuovi modelli di segmento.
 
 I rapporti esistenti con questi segmenti continueranno a funzionare correttamente.
 
