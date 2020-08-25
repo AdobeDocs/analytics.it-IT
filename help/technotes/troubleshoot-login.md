@@ -2,9 +2,9 @@
 title: Risoluzione dei problemi di accesso a  Adobe Analytics
 description: Procedura da seguire quando non è possibile accedere a  Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -30,11 +30,11 @@ Risolvete i problemi relativi all&#39;accesso a  Adobe Analytics utilizzando l&#
 
 2. Effettuare l&#39;autenticazione tramite  Adobe ID: Fate clic **[!UICONTROL Sign In with an Adobe ID]**. Se non riuscite ad accedere, verificate che l’indirizzo e-mail sia stato digitato correttamente. In caso contrario, fate clic **[!UICONTROL Reset password]** e seguite le istruzioni visualizzate per ripristinare la password Adobe ID .
 
-3. Accesso ad Analytics dopo l&#39;autenticazione: Fai clic sull&#39;icona a 9 griglie in alto a destra, quindi fai clic su Analytics. Se non disponi di questa opzione o è disattivata, lavora con un amministratore di prodotto all&#39;interno dell&#39;organizzazione per essere certi di disporre delle autorizzazioni corrette per accedere ad Analytics.
+3. Accesso ad Analytics dopo l&#39;autenticazione: Fai clic sull&#39;icona a 9 griglie in alto a destra, quindi fai clic su Analytics. Se non disponi di questa opzione o è disattivata, lavora con un amministratore di prodotto all&#39;interno dell&#39;organizzazione per assicurarti di disporre delle autorizzazioni corrette per accedere ad Analytics.
 
 ## ID Analytics legacy
 
-Talvolta, un utente nell’organizzazione riceve il seguente messaggio di errore al momento dell’accesso:
+Un utente dell’organizzazione può ricevere il seguente errore quando tenta di eseguire l’accesso:
 
 *Come precauzione di protezione, questo account è stato bloccato a causa di troppi tentativi di accesso non riusciti.*
 
@@ -53,6 +53,14 @@ Se cancellare i cookie/la cache del browser non risolve il problema, utilizzate 
 ## Single Sign-On
 
 Contatta un amministratore dell’organizzazione per risolvere i problemi relativi al single sign-on.
+
+## login scaduti
+
+Un utente dell’organizzazione può ricevere il seguente errore quando tenta di eseguire l’accesso:
+
+*Errore: L&#39;accesso è scaduto.*
+
+Questo errore funziona come previsto.  Adobe Analytics offre agli amministratori la possibilità di impostare un intervallo di date valido per un account utente. Se la data corrente risiede al di fuori dell&#39;intervallo di date valido per l&#39;account, non è possibile eseguire l&#39;accesso. Consulta un amministratore Analytics nella tua organizzazione per estendere l’intervallo di date valido per l’accesso. &#39;Assistenza clienti di Adobe non è autorizzata a modificare gli intervalli di date di accesso validi per gli account utente.
 
 ## Altri problemi di accesso
 
