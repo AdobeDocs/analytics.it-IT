@@ -3,7 +3,7 @@ description: Utilizzate le visualizzazioni Summary Number (Numero riepilogo) e C
 title: Numero di riepilogo e Variazione di riepilogo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: cffcceae49fe51558aab0044281156e2c2d1027d
+source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 49%
@@ -21,6 +21,8 @@ Utilizzate la visualizzazione Summary Number (Numero riepilogo) per evidenziare 
 * Se è selezionata una cella, viene visualizzato il riepilogo per tale cella.
 * Se sono selezionate più celle, viene visualizzata la prima cella selezionata.
 * Se è selezionata la colonna, viene preso il valore della prima cella della colonna.
+
+![](assets/summary-number.png)
 
 Fai clic sull’ingranaggio delle impostazioni **di** visualizzazione in alto a destra per configurare le impostazioni Summary Number (Numero riepilogo):
 
@@ -43,6 +45,8 @@ Questa visualizzazione si comporta come segue:
 * Se sono selezionate più celle, per il confronto vengono considerate solo le prime due celle.
 * Se è selezionato un intervallo di celle, vengono confrontate la prima e l’ultima cella selezionata nell’intervallo.
 * Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
+
+![](assets/summary-change.png)
 
 Fai clic sull’ingranaggio delle impostazioni **di** visualizzazione in alto a destra per configurare le impostazioni Modifica riepilogo:
 
