@@ -2,7 +2,7 @@
 description: Il pannello Analytics for Target (A4T) ti consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace.
 title: Pannello Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
+source-git-commit: 3d9bfabba6752f85173814c0e18d485122f7aa76
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 87%
@@ -44,11 +44,11 @@ Ogni tabella a forma libera mostra le seguenti colonne di metriche:
 | Normalizing metrics | Visitatori, visite o impressioni di attività univoche. |
 | Success metric | La metrica selezionata nel generatore |
 | Conversion rate | Metrica di successo/Metrica di Normalizzazione |
-| Incremento | Confronta il tasso di conversione per ogni esperienza rispetto all’esperienza di controllo.<br>**Nota:**Lift è una &quot;metrica bloccata&quot; per Target Experience; non può essere suddiviso o utilizzato con altre dimensioni. |
+| Incremento | Confronta il tasso di conversione per ogni esperienza rispetto all’esperienza di controllo.<br>**Nota:** Lift è una &quot;metrica bloccata&quot; per le esperienze Target; non può essere suddiviso o utilizzato con altre dimensioni. |
 | Lift (Lower) | Rappresenta l’incremento peggiore che un’esperienza diversa potrebbe avere sul controllo. |
 | Lift (Mid) | Rappresenta l’incremento intermedio che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%. Corrisponde a “Lift” in Reports &amp; Analytics. |
 | Lift (Upper) | Rappresenta l’incremento migliore che un’esperienza diversa potrebbe avere sul controllo. |
-| Confidence | Il test t di Student calcola il livello di affidabilità, che indica la probabilità che i risultati vengano duplicati se il test viene eseguito di nuovo. Alla metrica è stato applicato un intervallo di formattazione condizionale fisso del 75%/85%/95%. Questa formattazione può essere personalizzata, se necessario, in Column settings. <br>**Nota:**Confidence è una &quot;metrica bloccata&quot; per Target Experience; non può essere suddiviso o utilizzato con altre dimensioni. |
+| Confidence | Il test t di Student calcola il livello di affidabilità, che indica la probabilità che i risultati vengano duplicati se il test viene eseguito di nuovo. Alla metrica è stato applicato un intervallo di formattazione condizionale fisso del 75%/85%/95%. Questa formattazione può essere personalizzata, se necessario, in Column settings. <br>**Nota:** Confidence è una &quot;metrica bloccata&quot; per le esperienze Target; non può essere suddiviso o utilizzato con altre dimensioni. |
 
 Come per qualsiasi pannello in Analysis Workspace, puoi continuare la tua analisi aggiungendo ulteriori tabelle e [visualizzazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) che ti aiuteranno ad analizzare le tue attività Adobe Target.
 
@@ -61,7 +61,7 @@ Come per qualsiasi pannello in Analysis Workspace, puoi continuare la tua analis
 | Perché i visitatori unici dovrebbero variare tra Target e Analytics? | [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sulle discrepanze di visitatori unici tra i prodotti. |
 | Quando applico un segmento di hit per una specifica attività Target nell’analisi, perché viene restituita un’esperienza non correlata? | La dimensione A4T è una variabile di elenco, il che significa che può contenere più attività (ed esperienze) alla volta. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | La metrica di affidabilità tiene conto di ordini estremi o applica una correzione Bonferroni per offerte multiple? | No. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) su come Analytics calcola l’affidabilità. |
-| È possibile utilizzare metriche di incremento e confidenza con altre dimensioni o suddivisioni? | Lift e confidence sono &quot;metriche bloccate&quot; per la dimensione Target Experience, perché richiedono un controllo e una variante da calcolare in tutta l&#39;area. In quanto tali, non possono essere suddivisi o utilizzati con altre dimensioni. |
+| È possibile utilizzare metriche di incremento e confidenza con altre dimensioni o suddivisioni? | Lift e confidence sono &quot;metriche bloccate&quot; per la dimensione Esperienze di Target perché richiedono un controllo e una variante da calcolare in tutta l&#39;area. In quanto tali, non possono essere suddivisi o utilizzati con altre dimensioni. |
 | Quando vengono ricalcolati incrementi e affidabilità? | L’incremento e la confidenza vengono ricalcolati ogni volta che il pannello viene eseguito (o rieseguito), che l’intervallo di date del pannello viene modificato o che un segmento viene applicato al pannello o alla tabella. |
 
 Per ulteriori informazioni sul reporting di Analytics for Target, visita [Reporting di A4T](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/reporting.html)
