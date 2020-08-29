@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: de66d2059f922bb7498423217a3679418d4454b2
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1105'
 ht-degree: 98%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 98%
       + [Pannello Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
+      + [Pannello Visualizzatori simultanei](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
       + Pannello Segment comparison {#segment-comparison}
