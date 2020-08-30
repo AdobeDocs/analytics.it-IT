@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: de66d2059f922bb7498423217a3679418d4454b2
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1106'
 ht-degree: 98%
 
 ---
@@ -84,9 +84,9 @@ ht-degree: 98%
       + [Pannello Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
-      + [Pannello Visualizzatori simultanei](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
+      + [Pannello Visualizzatori simultanei](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Pannello Segment comparison {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
