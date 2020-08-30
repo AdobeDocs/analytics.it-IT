@@ -3,10 +3,10 @@ description: Utilizzate le visualizzazioni Summary Number (Numero riepilogo) e C
 title: Numero di riepilogo e Variazione di riepilogo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
+source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 49%
+source-wordcount: '462'
+ht-degree: 43%
 
 ---
 
@@ -22,7 +22,15 @@ Utilizzate la visualizzazione Summary Number (Numero riepilogo) per evidenziare 
 * Se sono selezionate più celle, viene visualizzata la prima cella selezionata.
 * Se è selezionata la colonna, viene preso il valore della prima cella della colonna.
 
-![](assets/summary-number.png)
+Fai clic sull’ingranaggio delle impostazioni **di** visualizzazione in alto a destra per configurare le impostazioni Summary Number (Numero riepilogo):
+
+| Impostazione | Definizione |
+|--- |--- |
+| Percentuali | Visualizza le percentuali invece dei numeri non elaborati. |
+| Legenda visibile | Visualizza informazioni sulla metrica visualizzata. |
+| Abbreviazione del valore | Scegliere di ridurre i valori e visualizzare fino a 3 posizioni decimali. |
+| Riepiloga valore per | Scegliere di visualizzare il massimo, il minimo, la media, la media o la somma per una selezione di dati. |
+
 
 Fai clic sull’ingranaggio delle impostazioni **di** visualizzazione in alto a destra per configurare le impostazioni Summary Number (Numero riepilogo):
 
@@ -32,6 +40,7 @@ Fai clic sull’ingranaggio delle impostazioni **di** visualizzazione in alto a 
 | Legenda visibile | Visualizza informazioni sulla metrica visualizzata. |
 | Abbreviazione del valore | Scegliere di ridurre i valori e visualizzare fino a 3 posizioni decimali. |
 | Riepiloga valore per | Scegliere di visualizzare il massimo, il minimo, la media, la media o la somma per una selezione di dati. |
+
 
 ## Visualizzazione Variazione di riepilogo {#summary-change}
 
@@ -46,7 +55,9 @@ Questa visualizzazione si comporta come segue:
 * Se è selezionato un intervallo di celle, vengono confrontate la prima e l’ultima cella selezionata nell’intervallo.
 * Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
 
+
 ![](assets/summary-change.png)
+
 
 Fai clic sull’ingranaggio delle impostazioni **di** visualizzazione in alto a destra per configurare le impostazioni Modifica riepilogo:
 
