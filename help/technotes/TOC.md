@@ -5,10 +5,10 @@ user-guide-title: Note tecniche di Analytics
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: 35952706f89bf70cd4fd5d33f83b4b2df5b8ffee
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 91%
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,10 @@ ht-degree: 91%
 + [Escludi dati](exclude-data.md)
 + [Latenza](latency.md)
 + [Valore traffico ridotto](low-traffic.md)
++ [Migrazione delle regole di elaborazione di Mobile Services a  Adobe Analytics](migrate-mobile.md)
++ [Supporto multi-valuta](multicurrency.md)
 + [Panoramica sulla privacy](privacy-overview.md)
 + [Reindirizzamenti e alias](redirects.md)
-+ [Supporto multi-valuta](multicurrency.md)
 + Raccolta di dati regionali {#rdc}
    + [Aiuto per la raccolta dati regionali](rdc/regional-data-collection.md)
    + [Licenza di certificazione SSL](rdc/ssl-cert-licensing.md)
