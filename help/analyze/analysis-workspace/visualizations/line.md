@@ -3,10 +3,10 @@ description: Utilizzare la visualizzazione delle linee per rappresentare set di 
 title: Linee
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 3ace7c4fc42e578b621433860ae3f0dba6be06fd
+source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 12%
+source-wordcount: '387'
+ht-degree: 11%
 
 ---
 
@@ -35,7 +35,7 @@ Nelle [impostazioni di visualizzazione](freeform-analysis-visualizations.md), un
 
 ## Mostra min o max
 
-In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, potete sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica.
+In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, potete sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: I valori min/max sono derivati dai punti di dati visibili nella visualizzazione, non dall’intero insieme di valori all’interno di una dimensione.
 
 ![Mostra min/max](assets/min-max-labels.png)
 
