@@ -2,10 +2,10 @@
 description: Scopri come migrare le regole di elaborazione di Mobile Services in  Adobe Analytics
 title: Migrazione delle regole di elaborazione di Mobile Services a  Adobe Analytics
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 14%
+source-wordcount: '694'
+ht-degree: 13%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 14%
 Con il prossimo (non ancora annunciato) tramonto della funzionalità di Mobile Services di  Adobe, questo documento fornisce istruzioni su come migrare eventuali regole di elaborazione aggiuntive, oltre a Metriche del ciclo di vita, create nell&#39;interfaccia di Mobile Services per  Adobe Analytics.
 
 Le regole di elaborazione vengono utilizzate per spostare i valori dalle variabili dei dati di contesto a prop ed eVar. Ad esempio, puoi inserire il valore di una variabile di dati di contesto &quot;a termine di ricerca&quot; nel valore di una variabile di commercio  eVar e sovrascrivere tale valore su ogni hit. Senza le regole di elaborazione, le variabili dei dati di contesto sono prive di significato e non popolano alcun report in Analytics.
+
+Questo documento tratta anche i rapporti sull&#39;utilizzo dei dispositivi mobili in  Analysis Workspace e illustra la fattibilità della migrazione di altre funzionalità di Mobile Services.
 
 ## Migra regole di elaborazione
 
