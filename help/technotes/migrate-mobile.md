@@ -2,9 +2,9 @@
 description: Scopri come migrare le regole di elaborazione di Mobile Services in  Adobe Analytics
 title: Migrazione delle regole di elaborazione di Mobile Services a  Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '674'
 ht-degree: 14%
 
 ---
@@ -47,6 +47,10 @@ Oltre alle metriche e alle dimensioni per dispositivi mobili (se la suite di rap
 * Prestazioni: quali sono le prestazioni dell’app e dove vengono riscontrati problemi dagli utenti?
 * Fidelizzazione: chi sono i miei utenti più fedeli e cosa fanno?
 * Percorsi: Quali sono i pattern di utilizzo principali per la l’app?
+
+Ecco un estratto del modello Uso app mobile:
+
+![Utilizzo app mobile](assets/mobile-app-usage.png)
 
 Per accedere ai modelli:
 
