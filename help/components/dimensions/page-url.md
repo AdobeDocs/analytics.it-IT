@@ -2,10 +2,10 @@
 title: URL della pagina
 description: URL della pagina.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 2%
+source-wordcount: '221'
+ht-degree: 1%
 
 ---
 
@@ -16,18 +16,22 @@ La dimensione &quot;URL pagina&quot; elenca gli URL sul sito.
 
 >[!IMPORTANT]
 >
->Questa dimensione è disponibile solo nella Data warehouse. Se desiderate utilizzare una dimensione URL in altre soluzioni Analytics , utilizzate una [eVar](evar.md).
+>Questa dimensione è disponibile solo nella Data Warehouse. Se desiderate utilizzare una dimensione URL in altre soluzioni Analytics, provate a copiare il valore in un eVar [](evar.md) su ogni hit.
 
 ## Compilare questa dimensione con i dati
 
-Questa dimensione recupera i dati dalla stringa [`g` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variabile.
+Questa dimensione recupera i dati dalle [`g` stringhe `-g` di query e query nelle chiamate di visualizzazione](/help/implement/validate/query-parameters.md) Pagina ( [)`t()`](/help/implement/vars/functions/t-method.md). [Le chiamate di tracciamento dei collegamenti (`tl()`)](/help/implement/vars/functions/tl-method.md) eliminano sempre questa dimensione, anche se la stringa di `g` query esiste.
 
-## Compilare un&#39;eVar con l&#39;URL
+A volte gli URL superano i 255 byte. AppMeasurement utilizza il parametro della stringa di `g` query per i primi 255 byte dell’URL nelle richieste di immagini. Se un URL supera i 255 byte, il resto dell&#39;URL viene memorizzato nel parametro della stringa di `-g` query. Le stringhe di protocollo e query nell’URL sono incluse in questa variabile.
 
-Adobe consiglia di impostare un eVar sulla stringa concatenata `window.location.hostname + window.location.pathname`. Questa stringa in genere funziona meglio `window.location.href` perché omette il protocollo, le stringhe di query e i tag di ancoraggio.
+AppMeasurement raccoglie automaticamente questi dati in base all&#39;URL della pagina. È possibile sostituire il valore raccolto utilizzando la [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variabile.
 
-Se desiderate che l&#39;eVar corrisponda esattamente alla dimensione &quot;URL pagina&quot; nella Data warehouse, potete utilizzare variabili [](/help/implement/vars/page-vars/dynamic-variables.md) dinamiche e impostare l&#39;eVar su `D=g` ogni hit. Questo metodo non funziona per gli hit di collegamento personalizzati, in quanto l’URL della pagina viene rimosso per tutte [`tl()`](/help/implement/vars/functions/tl-method.md) le chiamate.
+## Compilare un eVar  con l’URL
 
-## Elementi dimensione
+ Adobe consiglia di impostare un eVar  sulla stringa concatenata `window.location.hostname + window.location.pathname`. Questa stringa in genere funziona meglio `window.location.href` perché omette il protocollo, le stringhe di query e i tag di ancoraggio.
 
-Gli elementi dimensione includono gli URL delle pagine del sito.
+Se desiderate che il eVar  corrisponda esattamente alla dimensione &quot;URL pagina&quot; nella Data Warehouse, potete utilizzare variabili [](/help/implement/vars/page-vars/dynamic-variables.md) dinamiche e impostare il eVar  su `D=g` ogni hit.
+
+## Elementi Dimension
+
+Gli elementi di Dimension includono gli URL delle pagine del sito.
