@@ -2,7 +2,10 @@
 title: referrer
 description: Ignora il referente raccolto automaticamente per un hit.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 La `referrer` variabile sostituisce il referente raccolto automaticamente nei report. Questa variabile è utile nelle situazioni in cui il referente potrebbe andare perso, ad esempio durante i reindirizzamenti o l&#39;inoltro temporaneo del visitatore a un elaboratore di pagamenti. Questa variabile consente di compilare le dimensioni &#39;Referente&#39; e &#39;Dominio di riferimento&#39;.
 
-## Referente in Adobe Experience Platform Launch
+## Referente in  Adobe Experience Platform Launch
 
 Puoi impostare il referente sia durante la configurazione dell&#39;estensione di Analytics (variabili globali), sia in base a regole.
 
@@ -19,7 +22,7 @@ Puoi impostare il referente sia durante la configurazione dell&#39;estensione di
 2. Fate clic sulla proprietà desiderata.
 3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
 4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Impostate il [!UICONTROL Extension] menu a discesa su  Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individuare la [!UICONTROL Referrer] sezione.
 
 È possibile impostare il referente su qualsiasi valore di stringa, compresi gli elementi di dati.
@@ -32,7 +35,15 @@ La `s.referrer` variabile è una stringa contenente l’URL della pagina precede
 s.referrer = "https://example.com";
 ```
 
-Evitate di impostare questa variabile su valori non URL.
+Se si utilizza il livello `digitalData` [](../../prepare/data-layer.md)dati:
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>Evitate di impostare questa variabile su valori non URL.
 
 ## Esempio
 
