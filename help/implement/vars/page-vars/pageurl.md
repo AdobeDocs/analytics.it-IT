@@ -2,9 +2,9 @@
 title: pageURL
 description: Ignorate l’URL di pagina raccolto automaticamente sul sito.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -16,20 +16,18 @@ AppMeasurement raccoglie automaticamente l’URL della pagina in ogni hit. Se de
 
 >[!NOTE]
 >
->Questa variabile non è una dimensione disponibile in  Analysis Workspace. È disponibile solo in Data warehouse e feed di dati. Se desiderate utilizzare l&#39;URL della pagina come dimensione in  Analysis Workspace, provate a trasmettere la `pageURL` variabile in una eVar per ogni hit.
+>Questa variabile non è una dimensione disponibile in  Analysis Workspace. È disponibile solo in Data Warehouse e feed di dati. Inoltre,  server di raccolta dati di Adobe eliminano questa dimensione da tutte le richieste di immagini per il tracciamento dei [collegamenti](/help/implement/vars/functions/tl-method.md) . Se desideri usare l’URL della pagina come dimensione in  Analysis Workspace o vuoi che questa dimensione sia negli hit di tracciamento dei collegamenti, puoi considerare la possibilità di passare la `pageURL` variabile in un eVar [](evar.md) per ogni hit.
 
-A volte gli URL superano i 255 byte. AppMeasurement utilizza il parametro della stringa di `g` query per i primi 255 byte dell’URL nelle richieste di immagini. Se un URL supera i 255 byte, il resto dell&#39;URL viene memorizzato nel parametro della stringa di `-g` query. Le stringhe di protocollo e query nell’URL sono incluse in questa variabile.
+## URL pagina in  Adobe Experience Platform Launch
 
-## URL pagina  lancio Adobe Experience Platform
-
-Launch compila automaticamente l’URL della pagina. Tuttavia, potete impostare l’opzione di esclusione dell’URL della pagina durante la configurazione dell’estensione Analytics  (variabili globali) o in base alle regole.
+Launch compila automaticamente l’URL della pagina. Tuttavia, puoi impostare l’URL della pagina come override sia durante la configurazione dell’estensione Analytics (variabili globali), sia in base a regole.
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 2. Fate clic sulla proprietà desiderata.
-3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
-4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
-6. Individuare la [!UICONTROL Page URL] sezione.
+3. Passate alla **[!UICONTROL Rules]** scheda, quindi fate clic sulla regola desiderata (o create una regola).
+4. In **[!UICONTROL Actions]**, fare clic su un&#39;azione esistente **[!UICONTROL Adobe Analytics - Set Variables]** o fare clic sull&#39;icona &quot;+&quot;.
+5. Impostate il **[!UICONTROL Extension]** menu a discesa su  Adobe Analytics e **[!UICONTROL Action Type]** su **[!UICONTROL Set Variables]**.
+6. Individuare la **[!UICONTROL Page URL]** sezione.
 
 Potete impostare l’URL della pagina su qualsiasi valore di stringa.
 
@@ -46,4 +44,10 @@ Se desiderate utilizzare l&#39;URL di pagina come dimensione nei rapporti, prend
 ```js
 // Set eVar1 to page URL without protocol or query strings
 s.eVar1 = window.location.hostname + window.location.pathname;
+```
+
+Se si utilizza il livello `digitalData` [](../../prepare/data-layer.md)dati:
+
+```js
+s.pageURL = digitalData.page.pageInfo.destinationURL;
 ```
