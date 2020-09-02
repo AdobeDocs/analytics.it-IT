@@ -2,9 +2,9 @@
 title: purchaseID
 description: Deduplicare gli hit in base a un identificatore di acquisto univoco.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # purchaseID
 
-La `purchaseID` variabile aiuta a evitare che gli hit contenenti lo stesso acquisto possano generare report in eccesso. Ad esempio, se un visitatore raggiunge la pagina di conferma dell&#39;acquisto, in genere invii ad Adobe i dati relativi alle entrate generate dalla transazione. Se l’utente aggiorna la pagina più volte o crea segnalibri per la pagina da visitare in un secondo momento, gli hit possono gonfiare i rapporti. La `purchaseID` variabile deduplica le metriche quando più hit hanno lo stesso ID acquisto.
+La `purchaseID` variabile aiuta a evitare che gli hit contenenti lo stesso acquisto possano generare report in eccesso. Ad esempio, se un visitatore raggiunge la pagina di conferma dell&#39;acquisto, in genere invii al Adobe  i dati relativi alle entrate generate dalla transazione. Se l’utente aggiorna la pagina più volte o crea segnalibri per la pagina da visitare in un secondo momento, gli hit possono gonfiare i rapporti. La `purchaseID` variabile deduplica le metriche quando più hit hanno lo stesso ID acquisto.
 
-Quando Adobe riconosce un hit come acquisto duplicato, tutti i dati di conversione (ad esempio eVar ed eventi) non vengono visualizzati nel reporting. Nei feed di dati, la `duplicate_purchase` colonna è impostata su `1`.
+Quando  Adobe riconosce un hit come acquisto duplicato, tutti i dati di conversione (come eVar ed eventi) non vengono visualizzati nel reporting. Nei feed di dati, la `duplicate_purchase` colonna è impostata su `1`.
 
 L&#39;ID acquisto si applica a tutti i visitatori e non scade. Se un visitatore imposta un determinato ID acquisto, un visitatore diverso imposta lo stesso ID acquisto un anno dopo, il secondo viene deduplicato.
 
-## ID acquisto  lancio Adobe Experience Platform
+## ID acquisto in  Adobe Experience Platform Launch
 
 In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
 
@@ -32,6 +32,12 @@ Questa variabile può contenere un massimo di 20 byte; vengono troncati valori s
 s.purchaseID = "ABC123";
 ```
 
->[!NOTE]
+Se si utilizza il livello `digitalData` [](../../prepare/data-layer.md)dati:
+
+```js
+s.purchaseID = digitalData.transaction.transactionID;
+```
+
+>[!CAUTION]
 >
->Non utilizzate una funzione di randomizzazione per generare un ID acquisto. Adobe consiglia di utilizzare un livello [](../../prepare/data-layer.md) dati per memorizzare un ID acquisto specificato.
+>Non utilizzate una funzione di randomizzazione per generare un ID acquisto.
