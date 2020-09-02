@@ -2,17 +2,17 @@
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 1%
+source-wordcount: '503'
+ht-degree: 0%
 
 ---
 
 
 # products
 
-La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e Adobe analizza il valore in elementi di dimensione separati.
+La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e  Adobe analizza il valore in elementi dimensionali separati.
 
 >[!NOTE]
 >
@@ -54,11 +54,11 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!IMPORTANT]
 >
->Rimuovete tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
+>Elimina tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori  eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
 
 ## Esempi
 
-La `products` variabile è flessibile quando si omettono campi e si includono più prodotti. Questa flessibilità può semplificare la mancanza di un delimitatore, causando l’invio ad Adobe di dati non corretti da parte dell’implementazione.
+La `products` variabile è flessibile quando si omettono campi e si includono più prodotti. Questa flessibilità può semplificare la mancanza di un delimitatore, il che fa sì che l&#39;implementazione invii dati errati al  Adobe.
 
 ```js
 // Include only product and category. Common on individual product pages
@@ -95,4 +95,17 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+```
+
+Se si utilizza il livello `digitalData` di [dati, è possibile iterare nell&#39;array di](../../prepare/data-layer.md)`digitalData.product` oggetti:
+
+```js
+for(var i=0; i<digitalData.product.length; i++) {
+    // Add individual product info to the product string
+    s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
+    // If there are more products, add a comma
+    if(i != digitalData.product.length-1) {
+        s.products += ",";
+    }
+}
 ```
