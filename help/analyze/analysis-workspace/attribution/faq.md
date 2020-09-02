@@ -2,9 +2,9 @@
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c206095b8024db0e31586abdf9639fba3401ce3f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '760'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ I modelli di attribuzione sono disponibili al di fuori delle suite di rapporti v
 
 Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non supportate includono:
 
+* Tutte le metriche calcolate
 * Visitatori unici
 * Visite
 * Occorrenze
