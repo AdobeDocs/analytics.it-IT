@@ -5,7 +5,10 @@ title: Dimensioni disponibili per le regole di elaborazione
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '742'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +41,7 @@ Le dimensioni che è possibile leggere e scrivere (se non diversamente specifica
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variabili di dati di contesto </p> </td> 
-   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota:  Tutti i dati contenuti in una variabile dati contestuali devono essere copiati in una variabile di reporting per essere visualizzati in un report. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Impostazione di un evento utilizzando una variabile di dati di contesto </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variabili di dati di contesto</a> </p> </td> 
+   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota:  Tutti i dati contenuti in una variabile dati contestuali devono essere copiati in una variabile di reporting per essere visualizzati in un report. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in un eVar  </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Impostazione di un evento utilizzando una variabile di dati di contesto </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variabili di dati di contesto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,14 +91,14 @@ Le dimensioni che è possibile leggere e scrivere (se non diversamente specifica
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome pagina </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota:  Una visualizzazione di pagina viene conteggiata in tutti gli hit in cui il nome della pagina non è vuoto. Quando viene tracciato un collegamento, il server di raccolta dati rimuove il nome della pagina dall’hit in modo da non conteggiare le visualizzazioni della pagina. Se si reinserisce un nome di pagina in queste chiamate utilizzando le regole di elaborazione, verrà conteggiata una visualizzazione di pagina. È consigliabile verificare che il nome della pagina sia già impostato prima di modificare il nome della pagina. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota:  Le chiamate di tracciamento dei collegamenti rimuovono la <code>pageName</code> variabile prima che raggiungano le regole di elaborazione. Se si reinserisce il valore del nome di una pagina utilizzando le regole di elaborazione, l’hit viene considerato una visualizzazione di pagina invece che una chiamata di tracciamento del collegamento.  Adobe consiglia di verificare che il nome della pagina sia già impostato prima di modificarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL della pagina </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> oppure l'URL della pagina corrente, se non <code> s.pageURL</code> è specificato. </td> 
+   <td colname="col2"> <code> s.pageURL</code> oppure l'URL della pagina corrente, se non <code> s.pageURL</code> è specificato. <p>Nota:  Le chiamate di tracciamento dei collegamenti rimuovono la <code>pageURL</code> variabile prima che raggiungano le regole di elaborazione. Se reinserisci un valore URL di pagina utilizzando le regole di elaborazione, l’hit viene considerato come visualizzazione di pagina invece che come chiamata di tracciamento del collegamento.  Adobe consiglia di verificare che l’URL della pagina sia già impostato prima di modificarlo. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Parametro stringa query </p> </td> 
+   <td colname="col1"> <p>Query String Parameter </p> </td> 
    <td colname="col2"> <p>Il valore di un parametro di stringa di query specificato nell'URL corrente, o null se non esiste alcun parametro. Per l’URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, il valore del parametro della stringa query <span class="syntax codeph"> cid</span> è <b>ad1</b>e il valore del nodo <span class="syntax codeph"> del parametro della stringa query</span> è <b>4</b>. </p> <p>Se si esegue JavaScript AppMeasurement H.25.2 o versioni precedenti, l'URL della pagina potrebbe essere troncato dopo 255 caratteri. JavaScript AppMeasurement H.25.3 (rilasciato a gennaio 2013) e versioni successive forniscono l'URL completo alle regole di elaborazione. </p> </td> 
   </tr> 
   <tr> 
@@ -160,7 +163,7 @@ Le dimensioni che è possibile leggere e scrivere (se non diversamente specifica
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>eVar 1-N </p> </td> 
+   <td colname="col1"> <p> eVar 1-N </p> </td> 
    <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
@@ -207,7 +210,7 @@ Le regole di elaborazione possono impostare gli eventi ma non possono leggerli c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Evento 1-1000 </p> <p>(per i clienti di SiteCatalyst 15, evento 1-100.) </p> </td> 
+   <td colname="col1"> <p>Evento 1-1000 </p> <p>(Per i clienti SiteCatalyst 15, Evento 1-100.) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
