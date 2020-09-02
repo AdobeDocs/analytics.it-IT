@@ -3,7 +3,7 @@ description: Utilizzare la visualizzazione delle linee per rappresentare set di 
 title: Linee
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
+source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 11%
@@ -48,7 +48,7 @@ In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UIC
 Tutti i modelli sono adattabili utilizzando i minimi quadrati ordinari:
 
 | Modello | Descrizione |
-|---|---|
+| --- | --- |
 | Lineare | Crea una linea retta adatta per set di dati lineari semplici ed è utile quando i dati aumentano o diminuiscono a una velocità costante. Equazione: `y = a + b * x` |
 | Logaritmico | Crea una linea curva di adattamento ottimale ed è utile quando il tasso di variazione nei dati aumenta o diminuisce rapidamente e poi si livella. Una linea di tendenza logaritmica può usare valori negativi e positivi. Equazione: `y = a + b * log(x)` |
 | Esponenziale | Crea una linea curva ed è utile quando i dati aumentano o scendono a ritmi costantemente crescenti. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a + e^(b * x)` |
