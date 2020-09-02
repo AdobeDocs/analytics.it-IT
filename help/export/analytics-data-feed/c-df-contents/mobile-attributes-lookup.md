@@ -2,7 +2,7 @@
 title: Ricerca attributi per dispositivi mobili
 description: File di ricerca per gli attributi del dispositivo mobile.
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Gli attributi di Mobile mostrano le proprietà del dispositivo mobile nell’hit
 * La `mobile_id` colonna è inclusa.
 * La `user_agent` colonna è esclusa. Questa esclusione è necessaria a causa di accordi di licenza con DeviceAtlas.
 
-Scaricate `mobile_attributes_headers.tsv`o fate riferimento all&#39;elenco qui:
+Scaricate [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)o fate riferimento all&#39;elenco qui:
 
 * `mobile_id`
 * `Manufacturer`
