@@ -2,9 +2,9 @@
 title: Creare un livello di dati
 description: Scopri cos’è un livello dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in  Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ Un livello dati è un framework di oggetti JavaScript presenti sul sito che cont
 
 ## Prerequisiti
 
-[Crea un documento](solution-design.md) di progettazione della soluzione: è importante che l&#39;organizzazione si allinei ai requisiti di tracciamento. Prima di contattare i team di sviluppo dell&#39;organizzazione, assicuratevi di essere preparati con un documento sulla progettazione della soluzione.
+[Crea un documento](solution-design.md) di progettazione della soluzione: è importante che l&#39;organizzazione si allinei ai requisiti di tracciamento. Prima di contattare i team di sviluppo dell&#39;organizzazione, accertatevi di essere preparati con un documento di progettazione della soluzione.
 
 ## Flusso di lavoro
 
@@ -35,7 +35,7 @@ L’implementazione  Adobe Analytics tramite un livello dati segue in genere i s
 
  Adobe consiglia di seguire il [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) delineato dal [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/). Utilizzate le sezioni seguenti per comprendere in che modo gli elementi del livello dati interagiscono con  Adobe Analytics.
 
-È consigliabile utilizzare l&#39;oggetto livello dati di insieme `digitalData`. L&#39;esempio seguente elenca un oggetto JSON con un livello di dati piuttosto completo con valori di esempio:
+È consigliabile utilizzare l&#39;oggetto livello dati di insieme `digitalData`. L&#39;esempio seguente elenca un oggetto JSON con un livello dati abbastanza completo con valori di esempio:
 
 ```js
 digitalData = {
@@ -61,14 +61,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -77,13 +77,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -124,13 +125,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -139,10 +140,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -154,19 +155,19 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-Usa il report [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) (Livello dati digitale esperienza cliente) per informazioni dettagliate su ciascun oggetto e oggetto secondario. Non tutti i siti utilizzano tutti gli oggetti; ad esempio, se si ospita un sito di notizie, è improbabile che sia stato utilizzato per l&#39; `digitalData.product` oggetto.
+Usa il report [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) (Livello dati digitale esperienza cliente) per informazioni dettagliate su ciascun oggetto e oggetto secondario. Non tutti i siti utilizzano tutti gli oggetti; ad esempio, se si ospita un sito di notizie, è improbabile che sia stato utilizzato per l&#39;array di `digitalData.product` oggetti.
 
 I livelli di dati sono estensibili; se hai dei requisiti specifici per la tua organizzazione, puoi includere oggetti nel livello dati per adattarli a tali esigenze.
 
