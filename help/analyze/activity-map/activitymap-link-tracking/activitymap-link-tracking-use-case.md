@@ -4,7 +4,7 @@ title: Differenziare i collegamenti che fanno riferimento allo stesso ID collega
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 10%
@@ -127,7 +127,7 @@ Puoi personalizzare l&#39;area facendo in modo che ogni collegamento &quot;acqui
 
 >[!CAUTION]
 >
->Verificate che il codice modificato funzioni correttamente. Adobe non è responsabile del comportamento del codice modificato.
+>Verificate che il codice modificato funzioni correttamente.  Adobe non è responsabile del funzionamento del codice modificato.
 
 Di seguito sono riportati un paio di esempi di funzioni di collegamento/regione*** generiche che è possibile includere (nel modulo modificato) nel file AppMeasurement.js.
 
