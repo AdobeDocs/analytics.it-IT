@@ -3,7 +3,10 @@ description: Informazioni necessarie sulla migrazione degli ID utente di Analyti
 title: Migrazione degli utenti di Analytics all’Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '3127'
+ht-degree: 98%
 
 ---
 
@@ -126,17 +129,12 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso posticipare la data di inizio della migrazione? </p> </td> 
-   <td colname="col2"> <p>Sì. Contatta l’<a href="https://helpx.adobe.com/it/marketing-cloud/contact-support.html"> Assistenza clienti di Adobe</a>. </p> 
-    <draft-comment> 
-     <p>Di seguito trovi una descrizione delle modifiche apportate alla gestione corrente degli utenti e delle autorizzazioni di Analytics alla data di inizio. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Sì. Contatta l’<a href="https://helpx.adobe.com/it/marketing-cloud/contact-support.html"> Assistenza clienti di Adobe</a>. </p><p>Di seguito trovi una descrizione delle modifiche apportate alla gestione corrente degli utenti e delle autorizzazioni di Analytics alla data di inizio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adesso che la mia società sta eseguendo la migrazione all’Admin Console, dove posso creare nuovi utenti e gruppi di autorizzazioni prima della data di inizio della migrazione? </p> </td> 
-   <td colname="col2"> <p>Prima della data di inizio della migrazione, puoi creare gli utenti nell’Admin Console o in Analytics &gt; Gestione utente. </p> <p>Dopo l’inizio della migrazione, puoi creare utenti e gruppi di autorizzazioni solo nell’Admin Console. </p> 
-    <draft-comment> 
-     <p>Per ulteriori informazioni su cosa accade alla data di inizio della migrazione, consulta la sezione Migrazione (in basso). </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Prima della data di inizio della migrazione, puoi creare gli utenti nell’Admin Console o in Analytics &gt; Gestione utente. </p> <p>Dopo l’inizio della migrazione, puoi creare utenti e gruppi di autorizzazioni solo nell’Admin Console. </p><p>Per ulteriori informazioni su cosa accade alla data di inizio della migrazione, consulta la sezione Migrazione (in basso. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Quando posso implementare il Single Sign-On utilizzando i Federated ID? </p> </td> 
@@ -167,10 +165,8 @@ Informazioni importanti sul processo di migrazione e sull’impatto sulla gestio
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso aggiornare l’iscrizione a un gruppo di autorizzazioni per gli utenti di cui non è stata eseguita la migrazione? </p> </td> 
-   <td colname="col2"> <p>Sì. Puoi modificare l’iscrizione al gruppo degli utenti non trasferiti dalla sezione Gestione utente di Analytics. </p> 
-    <draft-comment> 
-     <p>In attesa di ulteriori chiarimenti da parte di Ashok. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Sì. Puoi modificare l’iscrizione al gruppo degli utenti non trasferiti dalla sezione Gestione utente di Analytics. </p><p>In attesa di ulteriori chiarimenti da parte di Ashok. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso creare gruppi di autorizzazioni e utenti in Analytics dopo l’inizio della migrazione e poi utilizzare lo strumento di migrazione per spostarli nell’Admin Console? </p> </td> 
