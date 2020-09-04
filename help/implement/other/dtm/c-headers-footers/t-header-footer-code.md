@@ -5,7 +5,10 @@ title: Aggiungere un codice intestazione e piè di pagina
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 2%
 
 ---
 
@@ -20,17 +23,17 @@ Gestione tag dinamica crea codici di incorporamento per l&#39;area di produzione
 
 >[!IMPORTANT]
 >
->Per una corretta implementazione, è fondamentale che tu segua queste istruzioni come visualizzate nella Guida di Adobe. Nello specifico, è necessario inserire il codice di intestazione nella `<head>` sezione dei modelli di documento. Inoltre, è necessario posizionare il codice piè di pagina subito prima del `</body>` tag di chiusura. Posizionare uno di questi codici da incorporare altrove nel codice o utilizzare metodi asincroni per aggiungere i codici da incorporare o racchiudere i codici da incorporare in qualsiasi modo, *non* sono implementazioni supportate di Gestione tag dinamica. I codici da incorporare devono essere implementati esattamente come previsto.
+>Per una corretta implementazione, è fondamentale che tu segua queste istruzioni come visualizzate  Guida dell&#39;Adobe. Nello specifico, è necessario inserire il codice di intestazione nella `<head>` sezione dei modelli di documento. Inoltre, è necessario posizionare il codice piè di pagina subito prima del `</body>` tag di chiusura. Posizionare uno di questi codici da incorporare altrove nel codice o utilizzare metodi asincroni per aggiungere i codici da incorporare o racchiudere i codici da incorporare in qualsiasi modo, *non* sono implementazioni supportate di Gestione tag dinamica. I codici da incorporare devono essere implementati esattamente come previsto.
 >
 >Un&#39;implementazione non supportata darà risultati imprevisti e impedirà all&#39;Assistenza clienti e all&#39;Ingegneria di fornire assistenza nell&#39;implementazione.
 
 1. Nell&#39;interfaccia Gestione tag dinamica, aprite la [!UICONTROL Embed] scheda e selezionate l&#39;opzione di hosting (ad esempio Akamai), quindi passate a &quot;On&quot;.
 
-   Passaggio 1. Copiate il codice dell&#39;intestazione di produzione fornito nella scheda Incorpora di Gestione tag dinamica e inseritelo nella [!DNL HEAD] sezione HTML del sito.
+   Passo Risultato 1. Copiate il codice dell&#39;intestazione di produzione fornito nella scheda Incorpora di Gestione tag dinamica e inseritelo nella [!DNL HEAD] sezione HTML del sito.
 
    ![](assets/dtm-embed.png)
 
-   Posiziona il codice vicino al [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] tag come possibile. Questo frammento di codice deve essere inserito in ogni pagina del sito di produzione live.
+   Posizionate il codice il più vicino possibile al `<head>` tag . Questo frammento di codice deve essere inserito in ogni pagina del sito di produzione live.
 
    >[!NOTE]
    >
