@@ -4,7 +4,7 @@ title: Pubblicare segmenti in Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 627a2b8b35db1bdf08b650de8708c04f2d5718d6
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 17%
@@ -65,7 +65,7 @@ Abbiamo anche aumentato il numero massimo di segmenti  Adobe Analytics pubblicab
 
 | Elemento | Descrizione |
 |---|---|
-| **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | Quando questa opzione è attivata, il titolo e la definizione del segmento (ovvero il pubblico shell, come spesso utilizzato nelle piattaforme pubblicitarie) vengono condivisi istantaneamente con il Experience Cloud , mentre l&#39;appartenenza al segmento viene valutata e condivisa ogni 4 ore. <br> Quando quell&#39;audience è associata a un&#39;attività, [!DNL Target]ad esempio, [!DNL Analytics] inizia a inviare ID per i visitatori idonei per quel Experience Cloud  e per quel [!DNL Target] pubblico. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina di Experience Cloud Audiences. </br> |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *`<report suite>`*)]** | Quando questa opzione è attivata, il titolo e la definizione del segmento (ovvero il pubblico shell, come spesso utilizzato nelle piattaforme pubblicitarie) vengono condivisi istantaneamente con il Experience Cloud , mentre l&#39;appartenenza al segmento viene valutata e condivisa ogni 4 ore. <br> Quando quell&#39;audience è associata a un&#39;attività, [!DNL Target]ad esempio, [!DNL Analytics] inizia a inviare ID per i visitatori idonei per quel Experience Cloud  e per quel [!DNL Target] pubblico. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina di Experience Cloud Audiences. </br> |
 | **[!UICONTROL Audience Creation Window]** | L&#39;intervallo di tempo selezionato viene utilizzato per creare l&#39;audience su base di calendario continuo. Ad esempio, &quot;Ultimi 30 giorni&quot; (impostazione predefinita) include i visitatori che hanno aderito al pubblico negli ultimi 30 giorni a partire dalla data odierna (NON dalla data originale in cui è stato creato il segmento). |
 | **[!UICONTROL Create in Audience Library]** | I segmenti creati e pubblicati possono essere resi disponibili senza latenza nella Libreria Pubblico  Experience Cloud. Non dipendono dagli aggiornamenti di Analytics. Questi segmenti non vengono conteggiati rispetto al limite di 75 segmenti pubblicati. |
 | **[!UICONTROL x of 75 Published]** | Mostra il numero di segmenti che avete pubblicato nel Experience Cloud . Fai clic sul collegamento per visualizzare un elenco dei segmenti pubblicati e la suite di rapporti e il proprietario associati. |
