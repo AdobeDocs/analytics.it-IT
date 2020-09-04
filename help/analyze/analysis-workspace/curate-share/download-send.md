@@ -3,9 +3,9 @@ description: È possibile scaricare i dati da  Analysis Workspace copiandoli opp
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
+source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '985'
 ht-degree: 7%
 
 ---
@@ -36,7 +36,7 @@ Per i download dei progetti, tieni presente quanto segue:
 
 L’opzione di clic con il pulsante destro del mouse **[!UICONTROL Copy to clipboard]** consente di copiare rapidamente i dati da Workspace e incollarli altrove.
 
-* Se si desidera copiare la tabella visualizzata, fare clic con il pulsante destro del mouse sull&#39;intestazione della tabella e scegliere **Copia dati visualizzati negli Appunti**.
+* Se si desidera copiare la tabella visualizzata, fare clic con il pulsante destro del mouse sull&#39;intestazione della tabella e scegliere **Copia dati negli Appunti**.
 * Se si desidera copiare un sottoinsieme di dati, effettuare una selezione nella tabella, quindi fare clic con il pulsante destro del mouse > **Copia selezione negli Appunti**.
 
 Inoltre, il tasto di scelta rapida `Ctrl+C` copia la selezione negli Appunti. Una volta copiato, è possibile passare a un altro strumento e incollare le informazioni (o premere `Ctrl+V`).
@@ -47,9 +47,8 @@ Inoltre, il tasto di scelta rapida `Ctrl+C` copia la selezione negli Appunti. Un
 
 L’opzione di clic con il pulsante destro del mouse **[!UICONTROL Download data as CSV]** consente di scaricare come CSV una tabella di dati o l’origine dati di qualsiasi visualizzazione.
 
-* Nell’intestazione di una tabella, fare clic con il pulsante destro del mouse **[!UICONTROL Download displayed data as CSV]**. In questo modo i dati visualizzati nella tabella vengono scaricati come CSV.
+* Nell’intestazione di una tabella o visualizzazione, fai clic con il pulsante destro del mouse **[!UICONTROL Download data as CSV]**. Questo scarica i dati visualizzati nella tabella o nell’origine dati sottostante per una visualizzazione come CSV. Nota: la visualizzazione Mappa non supporta questa opzione.
 * Se la tabella contiene una selezione, l&#39;opzione è **[!UICONTROL Download selection as CSV]** indicata. Questa opzione consente di scaricare solo la selezione, a differenza della tabella visualizzata completa.
-* Nell’intestazione di una visualizzazione, fai clic con il pulsante destro del mouse **[!UICONTROL Download data as CSV]**. Consente di scaricare la tabella dell’origine dati per una visualizzazione come CSV. Nota: la visualizzazione Mappa non supporta questa opzione.
 
 ![](assets/download-data-viz.png)
 
