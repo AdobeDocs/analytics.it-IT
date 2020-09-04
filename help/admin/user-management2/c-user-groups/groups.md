@@ -5,7 +5,10 @@ title: Impostazioni gruppo utenti
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti informerà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).  Adobe ti avviserà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
 
 Descrizioni degli elementi nella pagina Definisci gruppo di utenti.
 
@@ -57,7 +60,6 @@ Descrizioni degli elementi nella pagina Definisci gruppo di utenti.
   <tr> 
    <td colname="col1"> <p><b>Accesso ai rapporti</b> </p> </td> 
    <td colname="col2"> 
-    <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Rapporti</b>sul traffico: Consente l'accesso a tutti i rapporti in base al traffico, come visualizzazioni di pagina, visite e visitatori unici. </li> 
@@ -71,12 +73,12 @@ Descrizioni degli elementi nella pagina Definisci gruppo di utenti.
        <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Metriche</b> (consente l'accesso alle metriche utilizzate in Reporting e analisi, comprese le metriche predefinite come le visualizzazioni di pagina e altre metriche come gli eventi personalizzati).</li> 
        <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console </b>(consente l’accesso a vari componenti nel menu Admin, come le impostazioni Registri e Suite di rapporti). </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>Download</b> dei report (consente di scaricare i report dall'interfaccia utente di Analytics). </li> 
-       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Sondaggio</b> (consente l’accesso ai rapporti del sondaggio se l’organizzazione utilizza anche la funzionalità Adobe Survey obsoleta). </li> 
+       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Sondaggio</b> (concede l’accesso ai rapporti del sondaggio se l’organizzazione utilizza anche la funzionalità Adobe Survey  obsoleta). </li> 
        <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>Generazione di rapporti</b> avanzati (consente l'accesso a rapporti avanzati come canali di marketing, rilevamento delle anomalie, segmenti e metriche calcolate). </li> 
-       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b> (consente l'accesso ai report generati dai dati in Adobe Social). </li> 
+       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b> (consente l'accesso ai report generati dai dati in  Adobe Social). </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Connettori dati </b>(Consente agli utenti di creare, aggiornare o eliminare connettori dati.) </li> 
       </ul> </p> 
-    </draft-comment> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -92,10 +94,10 @@ Descrizioni degli elementi nella pagina Definisci gruppo di utenti.
      </ul> </p> </td> 
    <td colname="col2"> <p>I membri del gruppo possono accedere a un sottoinsieme dei rapporti nel gruppo di report. Fate clic su <span class="uicontrol"> Personalizza</span> per aprire una pagina in cui potete selezionare i rapporti specifici nel gruppo di rapporti a cui i membri del gruppo possono accedere. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Strumenti</a>di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Generatore di report e integrazione dei connettori dati. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Strumenti</a>suite di rapporti: Abilitate le autorizzazioni utente per Accesso API, Gestione suite di rapporti, Strumenti e rapporti ed Elementi dashboard. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Strumenti</a>di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Report Builder e integrazione dei connettori dati. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Strumenti</a>suite di rapporti: Abilita le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e Rapporti ed Elementi dashboard. </li> 
      <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> Metriche</a>: Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensioni</a>: Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimension</a>: Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -114,7 +116,7 @@ Descrizioni degli elementi nella pagina Definisci gruppo di utenti.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Accesso completo, Personalizzazione, Nessun accesso) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Le autorizzazioni sono supportate per i clienti che dispongono di contenitori <span class="keyword"> TagManager</span> attivi. Non disponibile per i nuovi utenti. </p> <p>Adobe consiglia <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Gestione</a> tag dinamica per la distribuzione. </p> </td> 
+   <td colname="col2"> <p>Le autorizzazioni sono supportate per i clienti che dispongono di contenitori <span class="keyword"> TagManager</span> attivi. Non disponibile per i nuovi utenti. </p> <p> Adobe consiglia la gestione <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"></a> tag dinamica per la distribuzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Assegna login utente</b> </td> 
