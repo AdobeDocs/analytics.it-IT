@@ -2,10 +2,10 @@
 title: Pannello Visualizzatori simultanei
 description: Come usare e interpretare il pannello Visualizzatori simultanei  Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
+source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 5%
+source-wordcount: '1068'
+ht-degree: 4%
 
 ---
 
@@ -77,6 +77,7 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 | Posso eseguire il rilevamento delle anomalie? | No.  Il rilevamento delle anomalie non è disponibile per questo pannello. |
 | Perché utilizzare visitatori univoci invece di sessioni attive? | L’utilizzo di visitatori univoci consente di rimuovere picchi indesiderati dai limiti dello spettacolo (le sessioni terminano e iniziano allo stesso tempo). |
 | Cosa significa avere visualizzatori simultanei con una granularità maggiore del minuto? | Con una granularità maggiore di un minuto, i visualizzatori simultanei sono la somma di visualizzatori simultanei univoci per tutti i minuti entro tale intervallo di tempo.  Ad esempio, a livello di ora i visualizzatori simultanei con granularità è la somma di visualizzatori simultanei univoci per tutti i minuti dell’ora. |
-| Cosa succede se voglio vedere più di un giorno alla granularità dei minuti? | Per accedere ai dati a granularità a livello di minuto per un massimo di 1 mese alla volta, potete utilizzare l&#39;API di reporting di Analytics (2.0 o 1.4). Per ulteriori informazioni sulle API di Analytics, consulta la Guida [utente ai rapporti sulle API di](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)Analytics. |
+| Cosa succede se voglio vedere più di un giorno alla granularità dei minuti? | Per accedere ai dati con granularità a livello di minuto fino a un mese alla volta, potete utilizzare le API di Analytics 2.0. Per ulteriori informazioni, consultate API di [Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html). |
+| Nel pannello dell’area di lavoro vengono visualizzate le stesse informazioni del rapporto Visualizzatori simultanei? | No.  In  Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori univoci che visualizzano il flusso multimediale in un momento specifico, indipendentemente dal numero di sessioni.<br></br>Questa funzione è diversa dalla generazione di rapporti per visualizzatori simultanei nella sezione Rapporti, che utilizza sessioni attive simultanee.  L’utilizzo di account di visitatori univoci consente di rimuovere picchi indesiderati dai bordi delle presentazioni, dove le sessioni terminano e iniziano allo stesso tempo. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
