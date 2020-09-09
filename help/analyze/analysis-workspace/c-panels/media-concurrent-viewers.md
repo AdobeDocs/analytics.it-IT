@@ -2,9 +2,9 @@
 title: Pannello Visualizzatori simultanei
 description: Come usare e interpretare il pannello Visualizzatori simultanei  Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
+source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1080'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Per configurare il pannello Visualizzatori simultanei, effettuate le seguenti op
 
 | Impostazione | Descrizione |
 |---|---|
-| Intervallo date del pannello | L’intervallo di date predefinito del pannello è Oggi.  È possibile modificarlo per visualizzare uno o più mesi alla volta. <br> <br> Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità a livello di minuto).  Se un intervallo di date e una combinazione di granularità danno luogo a più di 1440 righe, la granularità viene aggiornata automaticamente per contenere l’intero intervallo di date. |
+| Intervallo date del pannello | L’intervallo di date predefinito del pannello è Oggi.  È possibile modificarlo per visualizzare uno o più mesi alla volta. <br> <br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità a livello di minuto).  Se un intervallo di date e una combinazione di granularità danno luogo a più di 1440 righe, la granularità viene aggiornata automaticamente per contenere l’intero intervallo di date. |
 | Granularity (Granularità) | L’impostazione predefinita della granularità è Minuto. <br> <br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità a livello di minuto).  Se un intervallo di date e una combinazione di granularità danno luogo a più di 1440 righe, la granularità viene aggiornata automaticamente per contenere l’intero intervallo di date. |
 | Numeri di riepilogo del pannello | Per visualizzare i dettagli di data o ora per i visualizzatori simultanei, è disponibile un numero di riepilogo. Il campo Massimo mostra i dettagli per la concorrenza dei picchi. Il valore Minimo mostra i dettagli della mangiatoia.  L’impostazione predefinita del pannello è Massimo, ma potete modificarla per visualizzare Minimo o Massimo e Minimo.<br><br>Se si utilizzano le suddivisioni, per ciascuna di esse viene visualizzato un numero di riepilogo. |
 | Suddivisione della serie | Facoltativamente, puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. <br><br>- È possibile visualizzare fino a 10 righe alla volta. Le suddivisioni sono limitate a un solo livello.<br><br>- Quando si trascina una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all&#39;intervallo di date del pannello selezionato.<br><br>- Per confrontare gli intervalli di date, trascina 2 o più intervalli di date nel filtro di suddivisione delle serie. |
@@ -77,7 +77,7 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 | Posso eseguire il rilevamento delle anomalie? | No.  Il rilevamento delle anomalie non è disponibile per questo pannello. |
 | Perché utilizzare visitatori univoci invece di sessioni attive? | L’utilizzo di visitatori univoci consente di rimuovere picchi indesiderati dai limiti dello spettacolo (le sessioni terminano e iniziano allo stesso tempo). |
 | Cosa significa avere visualizzatori simultanei con una granularità maggiore del minuto? | Con una granularità maggiore di un minuto, i visualizzatori simultanei sono la somma di visualizzatori simultanei univoci per tutti i minuti entro tale intervallo di tempo.  Ad esempio, a livello di ora i visualizzatori simultanei con granularità è la somma di visualizzatori simultanei univoci per tutti i minuti dell’ora. |
-| Cosa succede se voglio vedere più di un giorno alla granularità dei minuti? | Per accedere ai dati con granularità a livello di minuto fino a un mese alla volta, potete utilizzare le API di Analytics 2.0. Per ulteriori informazioni, consultate API di [Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html). |
-| Nel pannello dell’area di lavoro vengono visualizzate le stesse informazioni del rapporto Visualizzatori simultanei? | No.  In  Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori univoci che visualizzano il flusso multimediale in un momento specifico, indipendentemente dal numero di sessioni.<br></br>Questa funzione è diversa dalla generazione di rapporti per visualizzatori simultanei nella sezione Rapporti, che utilizza sessioni attive simultanee.  L’utilizzo di account di visitatori univoci consente di rimuovere picchi indesiderati dai bordi delle presentazioni, dove le sessioni terminano e iniziano allo stesso tempo. |
+| Cosa succede se voglio vedere più di un giorno alla granularità dei minuti? | Per accedere ai dati con granularità a livello di minuto fino a un mese alla volta, potete utilizzare le API di Analytics 2.0. Per ulteriori informazioni, consultate [Ottenere i dati del rapporto JSON per visualizzatori simultanei con le API](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)Analytics 2.0. |
+| Nel pannello dell’area di lavoro vengono visualizzate le stesse informazioni del rapporto Visualizzatori simultanei? | No.  In  Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori univoci che visualizzano il flusso multimediale in un momento specifico, indipendentemente dal numero di sessioni.<br><br>Questa funzione è diversa dalla generazione di rapporti per visualizzatori simultanei nella sezione Rapporti, che utilizza sessioni attive simultanee.  L’utilizzo di account di visitatori univoci consente di rimuovere picchi indesiderati dai bordi delle presentazioni, dove le sessioni terminano e iniziano allo stesso tempo. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
