@@ -1,20 +1,23 @@
 ---
-description: Descrizioni dei campi per le impostazioni Generali in Gestione tag dinamica per l'implementazione di Adobe Analytics.
+description: Descrizioni dei campi per le impostazioni Generali in Gestione tag dinamica, per la distribuzione  Adobe Analytics.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
 title: Generale
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 19%
 
 ---
 
 
 # Generale
 
-Descrizioni dei campi per le impostazioni Generali in Gestione dinamica dei tag, per la distribuzione di Adobe Analytics.
+Descrizioni dei campi per le impostazioni Generali in Gestione dinamica dei tag, per la distribuzione  Adobe Analytics.
 
-**[!UICONTROL <Property>]**>![](assets/settings_gear.png)**[!UICONTROL Edit Tool]** > **[!UICONTROL General]**
+**[!UICONTROL <Property>]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL General]**
 
 <table id="table_DD8DA303698041D296DD5DB080AF7971"> 
  <thead> 
@@ -47,7 +50,7 @@ Descrizioni dei campi per le impostazioni Generali in Gestione dinamica dei tag,
    <td colname="col2"> <p>Visualizza i codici valuta supportati per la selezione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Server di monitoraggio </p> </td> 
+   <td colname="col1"> <p>Tracking Server </p> </td> 
    <td colname="col2"> <p>Il dominio in cui vengono scritti la richiesta di immagine e il cookie. </p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +59,7 @@ Descrizioni dei campi per le impostazioni Generali in Gestione dinamica dei tag,
   </tr> 
   <tr> 
    <td colname="col1"> <p>Centro dati </p> </td> 
-   <td colname="col2"> <p>Il centro dati Adobe utilizzato per la raccolta dei dati. </p> </td> 
+   <td colname="col2"> <p>Il centro dati del Adobe  utilizzato per la raccolta dei dati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
