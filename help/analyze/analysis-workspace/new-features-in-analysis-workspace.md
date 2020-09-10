@@ -3,7 +3,7 @@ description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7747'
 ht-degree: 98%
@@ -27,7 +27,7 @@ Nuove funzionalità rilasciate il 18 giugno 2020.
 
 | Funzione | Descrizione |
 |--- |--- |
-| Attribution IQ: attribuzione algoritmica | Il modello attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: attribuzione algoritmica | Il modello di attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Ruoli di progetto per progetti Workspace condivisi | Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Progetti Workspace solo visualizzazione | I progetti Workspace possono essere condivisi con gli utenti solo con la modalità di accesso “Può visualizzare”. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
@@ -515,7 +515,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifiche a Nessuno/Non specificato </p> </td> 
-   <td colname="col2"> <p>È stato modificato il funzionamento di Nessuno/Non specificato in  Analysis Workspace in modo che sia coerente con Reporting e  Analytics, il Generatore di segmenti e il menu delle voci di dimensioni in  Analysis Workspace. </p> <p>Ciò significa che il valore sarà visualizzato come “Non specificato” al posto di “Nessuno” nella maggior parte dei progetti in Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>È stato modificato il funzionamento di Nessuno/Non specificato in  Analysis Workspace in modo che sia coerente con Reporting e analisi, Generatore di segmenti e il menu delle voci di dimensioni in  Analysis Workspace. </p> <p>Ciò significa che il valore sarà visualizzato come “Non specificato” al posto di “Nessuno” nella maggior parte dei progetti in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ Nuove funzionalità rilasciate il 20 luglio 2017.
    <td colname="col2"> <p>Precedentemente, quando si effettuava l’accesso con le credenziali di Experience Cloud e si passava quindi ad Analytics, non era possibile usare la funzione <span class="ignoretag"><span class="uicontrol">Condividi</span> &gt; <span class="uicontrol">Ottieni collegamento progetto</span></span>. Tale problema è stato risolto. Prima di poter usare questa opzione, è tuttavia necessario salvare il progetto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Filtro “Progetti scaduti” nella gestione Progetti programmati </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtro “Progetti scaduti” nella gestione Progetti programmati </a></b> </p> </td> 
    <td colname="col2"> <p>Ora è possibile filtrare i progetti scaduti nella gestione Progetti programmati, che possono quindi essere riavviati o eliminati. </p> </td> 
   </tr> 
  </tbody> 
