@@ -3,7 +3,7 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
+source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 96%
