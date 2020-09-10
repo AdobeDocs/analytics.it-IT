@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 97%
+source-wordcount: '2138'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,12 @@ Note cumulative sulla versione per [!DNL AppMeasurement] per JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/help/admin/admin/code-manager-admin.md).
+
+## Versione 2.22.0
+
+Data di rilascio: **4 agosto 2020**
+
+* Correzione per referente mancante quando il primo hit non veniva inviato a causa delle preferenze di rifiuto dell’utente.
 
 ## Versione 2.21.0
 
