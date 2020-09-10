@@ -5,9 +5,9 @@ title: Progetti programmati
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 7%
 
 ---
@@ -28,6 +28,8 @@ Per inviare immediatamente un file ai destinatari tramite e-mail:
 1. Fate clic su **Invia ora**.
 1. (Facoltativo) Fate clic su **Mostra opzioni** di programmazione per specificare una pianificazione di consegna.
 
+![Invia file ora](assets/send-file-now.png)
+
 ## Invia file secondo programma
 
 Per inviare un file a una pianificazione periodica ai destinatari tramite e-mail:
@@ -40,11 +42,15 @@ Per inviare un file a una pianificazione periodica ai destinatari tramite e-mail
 1. Specificate la frequenza di consegna. Ogni frequenza consente diverse personalizzazioni.
 1. Fate clic su **Invia secondo programma**.
 
+![](assets/send-on-schedule.png)
+
 ## Gestione progetti programmati
 
 I progetti Analysis Workspace pianificati  possono essere gestiti in **Analytics > Componenti > Progetti** pianificati.
 
 In Gestione progetti programmati potete modificare ed eliminare le pianificazioni di progetti ricorrenti. Cercate una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Potete filtrare per tag, programmi approvati, proprietari e altro ancora.
+
+![](assets/scheduled-project-manager.png)
 
 Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
