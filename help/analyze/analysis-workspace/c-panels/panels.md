@@ -1,59 +1,65 @@
 ---
-description: 'null'
+description: I pannelli sono raccolte di tabelle e visualizzazioni
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+source-git-commit: 8cfd2106df3aed48136ec82bca7d2cb19a479d61
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 99%
+source-wordcount: '754'
+ht-degree: 11%
 
 ---
 
 
 # Panoramica dei pannelli
 
-I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili quando desideri organizzare i tuoi progetti in base a periodi di tempo, unità organizzative, aree geografiche, ecc. In Analysis Workspace sono disponibili i seguenti sei tipi di pannelli:
+I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili per organizzare i progetti in base a periodi di tempo, suite di rapporti o casi di utilizzo dell’analisi. In  Analysis Workspace sono disponibili i seguenti tipi di pannelli:
 
-* [Pannello vuoto](blank-panel.md)
-* [Pannello Quick Insights](quickinsight.md)
-* [Pannello Analytics for Target](a4t-panel.md)
-* [Pannello Attribution](attribution.md)
-* [Pannello Freeform](freeform-panel.md)
-* [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md)
+| Nome pannello | Descrizione |
+|---|---|
+| [Pannello vuoto](blank-panel.md) | Scegli tra i pannelli e le visualizzazioni disponibili per avviare l&#39;analisi. |
+| [Pannello Quick Insights](quickinsight.md) | Crea rapidamente una tabella a forma libera e una relativa visualizzazione per analizzare e individuare più rapidamente le informazioni. |
+| [Pannello Analytics for Target](a4t-panel.md) | Analizzare le attività e le esperienze Target in  Analysis Workspace. |
+| [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente qualsiasi numero di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
+| [Pannello Freeform](freeform-panel.md) | Esegui confronti illimitati e suddivisioni, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
+| [Pannello Visualizzatori simultanei](media-concurrent-viewers.md) | Analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e la possibilità di suddividere e confrontare. |
+| [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md) | Confronta rapidamente due segmenti tra tutti i punti dati per individuare automaticamente le differenze rilevanti. |
 
-I pannelli Quick Insights, vuoto e Freeform sono luoghi ideali per avviare l’analisi, mentre Analytics for Target, Attribution IQ e Segment Comparison si prestano ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
+I pannelli Approfondimenti rapidi, Blank e Freeform sono luoghi ideali per avviare l&#39;analisi, mentre Analytics per Target,  Attribution IQ, Media Concurrent Viewers e Confronto segmenti si prestano ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
 
 Il pannello iniziale predefinito è il pannello Freeform, ma puoi anche decidere di rendere predefinito il [pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md).
 
-## Filtri a discesa nei pannelli {#section_D2828EEDD52944528E87F470EAB581CF}
+## Suite di rapporti per pannello {#report-suite}
 
-La zona di rilascio dei pannelli ora dispone di funzionalità di filtro a discesa. Questi filtri ti consentono di interagire con i dati del progetto in modo controllato in modo da poter eseguire analisi approfondite, semplificare i tuoi progetti e/o condividere informazioni con altri.
+Le tabelle e le visualizzazioni all’interno di un pannello derivano dai dati della suite di rapporti selezionata in alto a destra nel pannello. La suite per report determina anche i componenti disponibili nella barra a sinistra. All&#39;interno di un progetto, potete utilizzare una o [più suite](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) di rapporti a seconda dei casi di utilizzo dell&#39;analisi.
 
-Ecco un esempio di progetto semplificato: se hai diverse versioni di un progetto/pannello per ottenere rapporti specifici per diversi paesi, ora puoi comprimerle in un singolo pannello e aggiungere un elenco a discesa per il paese anziché di filtrare tra diversi set di dati.
+## Calendario del pannello {#calendar}
 
-![](assets/dropdowns.png)
+Il calendario del pannello controlla l’intervallo di rapporti per tabelle e visualizzazioni all’interno di un pannello. Nota: Se all’interno di una tabella, una visualizzazione o un’area di rilascio di un pannello viene utilizzato un componente Intervallo date (viola), questo sostituisce il calendario del pannello.
 
-Nota bene:
+## Area di rilascio del pannello {#dropzone}
 
-* Puoi rilasciare più componenti (o elementi di dimensioni), quindi passare da uno all’altro in un elenco a discesa per filtrare i contenuti del pannello.
-* Puoi creare più elenchi a discesa nello stesso pannello.
-* Puoi personalizzare il titolo dell’elenco a discesa facendo clic sul titolo e modificandolo oppure rimuovere del tutto il titolo facendo clic sulla x posta accanto.
-* Puoi creare filtri a discesa utilizzando qualsiasi tipo di componente: dimensioni, intervalli di date, segmenti e metriche. Tieni presente che gli intervalli di date dell’elenco a discesa sostituiscono sempre gli intervalli di date del pannello.
-* Sono mantenuti i colori dei componenti dalla barra a sinistra: giallo per gli elenchi a discesa degli elementi di dimensioni, verde per le metriche, blu per i segmenti e viola per gli intervalli di date.
-* La zona di rilascio continua a creare segmenti a livello di hit per gli oggetti trascinati al suo interno come segmenti. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona di modifica a forma di matita e modificandoli nel Generatore di segmenti.
+La zona di rilascio del pannello consente di applicare filtri a segmenti e a discesa a tutte le tabelle e le visualizzazioni all’interno di un pannello. Potete applicare uno o più filtri a un pannello. Per modificare il titolo sopra ogni filtro, fai clic sulla matita di modifica oppure fai clic con il pulsante destro del mouse per rimuoverla completamente.
 
-**Per creare e utilizzare filtri a discesa:**
+### Filtri segmento
 
-1. Seleziona qualsiasi elemento dalla barra a sinistra e, **tenendo premuto il tasto**, rilascia l’elemento nella zona di rilascio del pannello.
+Trascinate un segmento dalla barra a sinistra nella zona di rilascio del pannello per iniziare a filtrare il pannello.
 
-   ![](assets/create_dropdown.png)
+### Filtri segmento ad hoc
 
-   Questo trasforma il componente in un elenco a discesa, anziché in un segmento (puoi inoltre continuare ad aggiungere segmenti senza tenere premuto il tasto).
+È inoltre possibile trascinare componenti non di segmento direttamente nella zona di rilascio per creare segmenti **** ad hoc, risparmiando tempo e fatica nell’andare al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Per modificare questa definizione, fai clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona di modifica a forma di matita e modificala nel Generatore di segmenti.
 
-   ![](assets/dropdown.png)
+I segmenti ad hoc sono locali per il progetto e non verranno visualizzati nella barra a sinistra a meno che non li rendiate pubblici.
 
-1. Seleziona una delle opzioni dal menu a discesa per modificare i dati nel pannello sottostante (puoi anche scegliere di non filtrare nessuno dei dati del pannello selezionando **[!UICONTROL No filter]**).
-1. Ad esempio, se desideri anche suddividere i dati per canale di marketing, puoi aggiungere un altro menu a discesa denominato “Canale di marketing”:
+### Filtri a discesa {#dropdown-filter}
 
-   ![](assets/mc_dropdown.png)
+Oltre ai filtri per segmenti, i filtri **a** discesa consentono di interagire con i dati in modo controllato. Ad esempio, potete aggiungere un filtro a discesa per i tipi di dispositivi mobili in modo da segmentare il pannello per Tablet, Cellulare o Desktop.
 
+I filtri a discesa possono essere utilizzati per consolidare più progetti in un unico progetto. Ad esempio, se disponete di molte versioni dello stesso progetto con diversi segmenti Paese applicati, potete consolidare tutte le versioni in un unico progetto e aggiungere un filtro a discesa Paese.
+
+**Creazione e utilizzo di filtri a discesa:**
+
+1. Per creare un filtro a discesa utilizzando elementi di Dimension, come valori nella dimensione Canale di marketing, fate clic sulla freccia accanto alla dimensione nella parte sinistra. Vengono visualizzati tutti gli elementi disponibili. Selezionate uno o più componenti dalla barra a sinistra e rilasciateli nella zona di rilascio del pannello **tenendo premuto il tasto** Maiusc. Questo trasformerà i componenti in un filtro a discesa, anziché in un singolo segmento.
+1. Per creare un filtro a discesa utilizzando un altro componente come metriche, segmenti o intervalli di date, seleziona da un tipo di componente nella barra a sinistra e rilascia nella zona a discesa del pannello **tenendo premuto il tasto** Maiusc.
+1. Selezionate una delle opzioni dal menu a discesa per modificare i dati nel pannello. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
+
+[Guardate il video](https://www.youtube.com/watch?v=vpJywtsFVPI) per ulteriori informazioni sull’aggiunta di filtri a discesa al progetto.
