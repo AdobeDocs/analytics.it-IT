@@ -2,7 +2,7 @@
 description: Il pannello Analytics for Target (A4T) ti consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace.
 title: Pannello Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 3d9bfabba6752f85173814c0e18d485122f7aa76
+source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 87%
