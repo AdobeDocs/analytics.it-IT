@@ -3,7 +3,7 @@ description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
 source-wordcount: '7747'
 ht-degree: 98%
@@ -1135,9 +1135,9 @@ Il nuovo segmento viene visualizzato nel gruppo [!UICONTROL Segments] nel pannel
 
 *`Save As`* (Salva con nome) è disponibile anche per il [!UICONTROL Calculated Metric Builder] e il [!UICONTROL Date Range Builder].
 
-## Pulsante Aggiungi nuovo segmento {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## Aggiungi nuovo segmento
 
-Il pulsante **[!UICONTROL Add New Segment]** è stato aggiunto nel punto in cui vengono trascinati i segmenti in un progetto.
+La zona di **[!UICONTROL Drop a Segment here]** rilascio è stata aggiunta per consentire di trascinare e rilasciare segmenti su un progetto.
 
 ![](assets/add-new-segment.png)
 
