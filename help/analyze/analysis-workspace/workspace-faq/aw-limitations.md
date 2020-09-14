@@ -1,11 +1,11 @@
 ---
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '342'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 87%
 
 ---
 
@@ -35,7 +35,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Componenti > Segmenti
 
 * Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* Alcuni componenti e operatori non sono disponibili se un segmento viene creato da Workspace (anziché da [!UICONTROL Components > Segments], ovvero Componenti > Segmenti). Ad esempio, Indirizzo IP.
+* I segmenti ad hoc creati nel [pannello a discesa](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) non vengono visualizzati nella barra a sinistra di Workspace o nel gestore dei componenti del segmento, a meno che non vengano resi pubblici. A tale scopo, è possibile modificare il segmento e selezionarlo **[!UICONTROL Make this segment public]**.
 
 ## Componenti > Metriche calcolate
 
