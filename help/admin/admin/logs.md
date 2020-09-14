@@ -4,10 +4,10 @@ title: Registri
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 10%
+source-wordcount: '598'
+ht-degree: 7%
 
 ---
 
@@ -40,41 +40,41 @@ Consente di [!UICONTROL Usage and Access Log] valutare l&#39;utilizzo dei rappor
 
 | Tipo evento | Descrizione |
 | --- |--- |
-| Nessuna categoria |  |
-| Login non riuscito |  |
-| Login riuscito |  |
-| Azione amministratore |  |
-| Modifica delle impostazioni di protezione |  |
-| Report visualizzato |  |
-| Report scaricato |  |
-| Avviso inviato |  |
-| Azione utente |  |
-| Strumento visualizzato |  |
-| Azione  Omniture |  |
-| Recupero password |  |
-| BookMarks |  |
-| Dashboard |  |
-| Avvisi |  |
-| Eventi calendario |  |
-| Target |  |
-| Impostazioni dei rapporti |  |
-| Rapporti pianificati |  |
-| Escludi per IP |  |
-| Nome pagine |  |
-| Classificazioni |  |
-| Origini dati |  |
-| Progetto Workspace |  |
-| Segmento |  |
-| Metrica calcolata |  |
-| Intervallo di date |  |
-| Suite di rapporti virtuali |  |
-| Analisi contributi |  |
+| Nessuna categoria | Può essere un qualsiasi tipo di evento. |
+| Login non riuscito | Il processo di accesso dell&#39;utente non è riuscito. |
+| Login riuscito | Accesso dell&#39;utente completato. |
+| Azione amministratore | Si è verificata un&#39;azione di amministrazione, come la modifica di una suite di rapporti, la modifica delle impostazioni aziendali, la creazione di un utente ecc. |
+| Modifica delle impostazioni di protezione | È stata modificata un&#39;impostazione di protezione. |
+| Report visualizzato | È stato visualizzato un rapporto Reporting e analisi. |
+| Report scaricato | È stato scaricato un report Reporting e analisi. |
+| Avviso inviato | È stato inviato un avviso. |
+| Azione utente | Le informazioni utente sono state modificate. |
+| Strumento visualizzato | È stato visualizzato uno strumento. |
+| Azione  Omniture | Un&#39;azione è stata eseguita dal Adobe . |
+| Recupero password | Una password è stata recuperata. |
+| BookMarks | È stato gestito un segnalibro. |
+| Dashboard | È stato gestito un dashboard. |
+| Avvisi | È stato gestito un avviso. |
+| Eventi calendario | È stato gestito un evento del calendario. |
+| Target | È stato gestito un target. |
+| Impostazioni dei rapporti | È stata gestita un&#39;impostazione di report. |
+| Rapporti pianificati | È stato gestito un report pianificato. |
+| Escludi per IP | L&#39;impostazione IP è stata modificata. |
+| Nome pagine | Obsoleto. |
+| Classificazioni | È stata gestita una classificazione. |
+| Origini dati | È stata gestita un&#39;origine dati. |
+| Progetto Workspace | Un progetto Workspace è stato visualizzato o modificato. |
+| Segmento | È stato creato/modificato un segmento. |
+| Metrica calcolata | È stata creata/modificata una metrica calcolata. |
+| Intervallo di date | È stato creato/modificato un intervallo di date. |
+| Suite di rapporti virtuali | È stata creata/modificata una suite di rapporti virtuale. |
+| Analisi contributi | È stato eseguito un processo di analisi dei contributi. |
 | Richiesta blocco dati Excel |  |
 | Login di Excel non riuscito |  |
 | Accesso Excel completato |  |
 | Errore di accesso mobile |  |
 | Accesso mobile completato |  |
-| Metodo Api |  |
+| Metodo Api | È stata effettuata una chiamata API. |
 
 
 ## Registro modifiche suite di rapporti {#section_3864966639414BBEA871F4D0352F56B6}
