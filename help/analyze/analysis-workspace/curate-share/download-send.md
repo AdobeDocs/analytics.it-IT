@@ -3,9 +3,9 @@ description: È possibile scaricare i dati da  Analysis Workspace copiandoli opp
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
+source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '957'
 ht-degree: 7%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 7%
 # Scaricare file PDF o CSV da Workspace
 
 Esistono diversi modi per esportare i dati da  Analysis Workspace, a seconda del set di dati da analizzare all’esterno dello strumento e di chi deve ricevere le informazioni. I dati esportati possono essere sotto forma di dati copiati, file CSV o PDF. Un PDF è in genere la preferenza se si desidera includere le visualizzazioni nel file, mentre un file CSV (o i dati copiati) è preferito se si desidera semplicemente che i dati siano in testo normale.
-
->[!IMPORTANT]
->
-> Alcune opzioni cui si fa riferimento in questa pagina, come **Scarica elementi come CSV**, al momento sono in test limitati. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html)
 
 ## Scarica il progetto come CSV o PDF {#download-project}
 
