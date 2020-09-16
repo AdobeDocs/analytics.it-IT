@@ -4,7 +4,7 @@ title: Registri
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
+source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 7%
@@ -39,7 +39,7 @@ Consente di [!UICONTROL Usage and Access Log] valutare l&#39;utilizzo dei rappor
 ### Tipi di evento
 
 | Tipo evento | Descrizione |
-| --- |--- |
+| --- | --- |
 | Nessuna categoria | Può essere un qualsiasi tipo di evento. |
 | Login non riuscito | Il processo di accesso dell&#39;utente non è riuscito. |
 | Login riuscito | Accesso dell&#39;utente completato. |
