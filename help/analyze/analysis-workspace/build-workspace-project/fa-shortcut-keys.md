@@ -5,10 +5,10 @@ title: Tasti di scelta rapida disponibili in  Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: bbc137a8914afeba02af326fb3bb9b92c0f16eb3
+source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 71%
+source-wordcount: '285'
+ht-degree: 52%
 
 ---
 
@@ -17,14 +17,16 @@ ht-degree: 71%
 
 I tasti di scelta rapida (scelte rapide da tastiera) sono disponibili in  Analysis Workspace per la navigazione, l&#39;analisi e la democratizzazione.
 
-Nota: `CTRL` = Windows e `command` = Mac
+Nota:
+* `Ctrl` = Windows e `Command` = Mac
+* `Alt` = Windows e `Option` = Mac
 
 ## Azioni di navigazione
 
 | Azione | Tasti di scelta rapida |
 |---|---|
-| Crea nuovo progetto | Ctrl/Comando + Maiusc + P |
-| Apri progetto esistente | Ctrl/Comando + O |
+| Crea nuovo progetto | Ctrl + Maiusc + P |
+| Apri progetto esistente | Ctrl+O |
 | Vai al riquadro Panels (Pannelli) | Alt + Maiusc + 1 |
 | Vai al riquadro Visualizations (Visualizzazioni) | Alt + Maiusc + 2 |
 | Vai al riquadro Components (Componenti) | Alt + Maiusc + 3 |
@@ -38,17 +40,17 @@ Nota: `CTRL` = Windows e `command` = Mac
 | Azione | Tasti di scelta rapida |
 |---|---|
 | Barra sinistra di ricerca | Ctrl + / |
-| Creazione di un avviso | Ctrl/Comando + Maiusc + A |
-| Crea dato calcolato | Ctrl/Comando + Maiusc + C |
-| Crea un intervallo di date | Ctrl/Comando + Maiusc + D |
-| Crea un segmento | Ctrl/Comando + Maiusc + E |
+| Creazione di un avviso | Ctrl + Maiusc + A |
+| Crea dato calcolato | Ctrl + Maiusc + C |
+| Crea un intervallo di date | Ctrl + Maiusc + D |
+| Crea un segmento | Ctrl + Maiusc + E |
 | Cancella tutto | Alt + W |
-| Copia | Ctrl/Comando + C |
-| Ripristina | Ctrl/Comando + Maiusc + Z |
-| Annulla | Ctrl/Comando + Z |
+| Copia | Ctrl+C |
+| Ripristina | Ctrl + Maiusc + Z |
+| Annulla | Ctrl+Z |
 | Aggiorna componenti | Alt + Maiusc + R |
 | Aggiorna progetto | Alt + R |
-| Imposta come pagina di destinazione | Ctrl/Comando + Maiusc + L |
+| Imposta come pagina di destinazione | Ctrl+Maiusc+L |
 
 ## Aggiunta di pannelli e azioni di visualizzazione
 
@@ -69,13 +71,13 @@ Nota: `CTRL` = Windows e `command` = Mac
 
 | Azione | Tasti di scelta rapida |
 |---|---|
-| Salva progetto | Ctrl/Comando + S |
-| Salva progetto come | Ctrl/Comando + Maiusc + S |
+| Salva progetto | ctrl + S |
+| Salva progetto come | ctrl + Maiusc + S |
 | Salva come modello | Alt + T |
-| Scarica come CSV | Ctrl/Comando + Maiusc + V |
-| Scarica come PDF | Ctrl/Comando + Maiusc + B |
-| Cura dati progetto | Ctrl/Comando + Maiusc + G |
-| Condividi progetto | Ctrl/Comando + G |
+| Scarica come CSV | Ctrl + Maiusc + V |
+| Scarica come PDF | Ctrl + Maiusc + B |
+| Cura dati progetto | Ctrl + Maiusc + G |
+| Condividi progetto | Ctrl+G |
 | Ottieni collegamento progetto | Alt + L |
 | Invia subito file | Alt + S |
 | Invia file secondo programma | Maiusc + Alt + S |
