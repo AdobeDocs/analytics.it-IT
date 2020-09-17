@@ -5,7 +5,7 @@ title: Tasti di scelta rapida disponibili in  Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 52%
@@ -24,7 +24,7 @@ Nota:
 ## Azioni di navigazione
 
 | Azione | Tasti di scelta rapida |
-|---|---|
+| --- | --- |
 | Crea nuovo progetto | Ctrl + Maiusc + P |
 | Apri progetto esistente | Ctrl+O |
 | Vai al riquadro Panels (Pannelli) | Alt + Maiusc + 1 |
@@ -38,7 +38,7 @@ Nota:
 ## Azioni di analisi
 
 | Azione | Tasti di scelta rapida |
-|---|---|
+| --- | --- |
 | Barra sinistra di ricerca | Ctrl + / |
 | Creazione di un avviso | Ctrl + Maiusc + A |
 | Crea dato calcolato | Ctrl + Maiusc + C |
@@ -55,7 +55,7 @@ Nota:
 ## Aggiunta di pannelli e azioni di visualizzazione
 
 | Azione | Tasti di scelta rapida |
-|---|---|
+| ---|---|
 | Nuovo pannello Analisi per Target | Alt + G |
 | Nuovo pannello Attribuzione | Alt + E |
 | Nuovo pannello vuoto | Alt + B |
@@ -70,7 +70,7 @@ Nota:
 ## Azioni di democratizzazione
 
 | Azione | Tasti di scelta rapida |
-|---|---|
+| --- | --- |
 | Salva progetto | ctrl + S |
 | Salva progetto come | ctrl + Maiusc + S |
 | Salva come modello | Alt + T |
