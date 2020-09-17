@@ -3,15 +3,19 @@ description: Nel calendario, puoi specificare date e intervalli di date o selezi
 title: Date e intervalli di date
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 15%
+source-wordcount: '469'
+ht-degree: 16%
 
 ---
 
 
 # Date e intervalli di date
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito. Potete effettuare selezioni di calendario a livello di progetto, area di lavoro e rapporto. L&#39;intervallo di date di un progetto è la data predefinita. Tuttavia, un intervallo di date dell&#39;area di lavoro ha la priorità sull&#39;intervallo di date del progetto. Analogamente, l&#39;intervallo di date di un rapporto ha la priorità sulle impostazioni di data di un&#39;area di lavoro e di un progetto. Non puoi selezionare un intervallo di date al di fuori dell&#39;intervallo di disponibilità dei dati.
 
@@ -33,7 +37,7 @@ Quando si seleziona un intervallo di date durante la creazione di un progetto, l
 
 ## Sezioni data precedenti {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
-Nella seconda metà del 2010, Adobe ha iniziato la migrazione delle suite di rapporti a una piattaforma di dati unificata per migliorare l&#39;elaborazione e la memorizzazione. I dati esistenti prima della migrazione vengono considerati dati legacy (o storici) vincolati da un limite di trimestre o anno di calendario.
+Nella seconda metà del 2010,  Adobe ha iniziato la migrazione delle suite di rapporti a una piattaforma di dati unificata per migliorare l&#39;elaborazione e la memorizzazione. I dati esistenti prima della migrazione vengono considerati dati legacy (o storici) vincolati da un limite di trimestre o anno di calendario.
 
 <!-- 
 
