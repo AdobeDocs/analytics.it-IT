@@ -1,17 +1,24 @@
 ---
-description: Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un report. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
+description: Gli Dimension sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un rapporto. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
 title: Dimensioni
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 17%
 
 ---
 
 
 # Dimensioni
 
-Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un report. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+
+Gli Dimension sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati, suddivisi e confrontati in un rapporto. Si tratta di valori e date non numerici che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale.
 
 Esempi di dimensioni:
 
@@ -27,13 +34,13 @@ Esempi di dimensioni:
 
 **[!UICONTROL Dimensions]Riquadro**
 
-Il [!UICONTROL Dimension] riquadro elenca e organizza tutte le dimensioni del prodotto dall'implementazione di reporting e analisi di marketing. Puoi basare i rapporti su qualsiasi elemento dimensione. Inoltre, puoi suddividere le dimensioni in base ad altre dimensioni per analizzare e confrontare praticamente qualsiasi dato.
+Il [!UICONTROL Dimension] riquadro elenca e organizza tutte le dimensioni del prodotto dall’implementazione dei marketing reports and analytics. Puoi basare i rapporti su qualsiasi elemento dimensione. Inoltre, puoi suddividere le dimensioni in base ad altre dimensioni per analizzare e confrontare praticamente qualsiasi dato.
 
 Nel [!UICONTROL Dimensions] riquadro è possibile cercare le dimensioni e trascinarle nella tabella dei dettagli [!UICONTROL Table Builder] o del rapporto.
 
 Potete ordinarli in base alle seguenti categorie:
 
-| Categoria dimensione | Descrizione |
+| Categoria Dimension | Descrizione |
 |--- |--- |
 | Traffico | Include elementi del browser, campagne Target, geografia, collegamenti personalizzati, proprietà del traffico personalizzate, domini, download, referenti, domini di provenienza e così via. |
 | Conversione | Include campagne, categorie, eVar personalizzate, prodotti, codice di tracciamento e così via. |
