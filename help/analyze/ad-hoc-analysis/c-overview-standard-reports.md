@@ -1,15 +1,22 @@
 ---
-description: I rapporti standard mostrano i dati per il sito Web e l'attività del visitatore, i pattern di traffico, i dati di riferimento, le campagne pubblicitarie, la conservazione dei visitatori, i dati sui prodotti e altro ancora. Puoi eseguire report e quindi accedere a strumenti per configurare segmenti, metriche e confronti di report.
+description: I rapporti standard visualizzano i dati per il sito Web e l'attività del visitatore, i pattern di traffico, i dati di riferimento, le campagne pubblicitarie, la conservazione dei visitatori, i dati sui prodotti e altro ancora. Puoi eseguire report e quindi accedere a strumenti per configurare segmenti, metriche e confronti di report.
 title: Panoramica sui report
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '974'
+ht-degree: 4%
 
 ---
 
 
 # Panoramica sui report
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 I rapporti standard visualizzano i dati per il sito Web e l&#39;attività del visitatore, i pattern di traffico, i dati di riferimento, le campagne pubblicitarie, la conservazione dei visitatori, i dati sui prodotti e altro ancora. Puoi eseguire report e quindi accedere a strumenti per configurare segmenti, metriche e confronti di report.
 
@@ -29,7 +36,7 @@ Il set di rapporti standard include argomenti comuni a tutti i siti Web. I rappo
 * Conservazione dei visitatori
 * Informazioni prodotto
 
-Se usi i reporting e analisi di marketing, i tipi di report e i menu saranno familiari. L&#39;analisi ad hoc classifica i rapporti in base ai seguenti tipi:
+Se utilizzate i marketing reports and analytics, i tipi di rapporto e i menu saranno familiari. L&#39;analisi ad hoc classifica i rapporti in base ai seguenti tipi:
 
 **Report di riepilogo**
 
@@ -58,7 +65,7 @@ c_reports_campaigns.xml
 
  -->
 
-Questi report sono di solito personalizzati e quindi diversi per ogni analista. Per ulteriori informazioni, consulta l’Aiuto [di](https://helpx.adobe.com/it/enterprise/using/admin-console.html) Admin Console.
+Questi report sono di solito personalizzati e quindi diversi per ogni analista. See the [Admin Console help](https://helpx.adobe.com/it/enterprise/using/admin-console.html) for more information.
 
 ## Calcoli statistici {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -86,10 +93,10 @@ c_Statistical_Calculation_ad_hoc.xml
 | Max | Identifica il valore massimo tra tutte le righe per un set di dati specificato. |
 | Min | Identifica il valore minimo tra tutte le righe per un set di dati specificato. |
 | Sum | Un calcolo di tutti i valori per ciascuna riga del set di dati.  Ad esempio, la somma aggrega tutte le visite effettuate da un visitatore anziché conteggiare il visitatore solo una volta (indipendentemente dal numero di visite). Si tratta di un totale completo di punti dati raccolti. |
-| Media | La media è la media aritmetica dei valori delle righe di un dataset, calcolata dalla somma divisa per il conteggio (somma/conteggio). La media è influenzata da dati esterni, a differenza della mediana che viene generalmente utilizzata per le distribuzioni distorte. |
+| Mean (Media) | La media è la media aritmetica dei valori delle righe di un dataset, calcolata dalla somma divisa per il conteggio (somma/conteggio). La media è influenzata da dati esterni, a differenza della mediana che viene generalmente utilizzata per le distribuzioni distorte. |
 | Deviazione standard | La deviazione standard mostra la quantità di variazione rispetto alla media prevista. Una deviazione standard inferiore mostra i punti dati vicini alla media. Una deviazione standard più elevata indica che i punti dati sono distribuiti su un ampio intervallo di valori. |
-| mediano | La mediana è il valore numerico che separa la metà superiore di un dato dalla metà inferiore per le righe di un dataset. A differenza della media, è generalmente utilizzato per evitare valori esterni. |
-| Quartiles | Un quartile è l&#39;insieme di valori nel set di dati identificato da tre punti che dividono l&#39;insieme di dati in quattro gruppi uguali, ciascuno dei quali comprende un quarto dell&#39;insieme di dati. Il primo quartile è il 25° percentile, e il terzo quartile è il 75° percentile. (Il secondo quartile è la mediana e il quarto quartile è la Somma.) |
+| Median (Mediano) | La mediana è il valore numerico che separa la metà superiore di un dato dalla metà inferiore per le righe di un dataset. A differenza della media, è generalmente utilizzato per evitare valori esterni. |
+| Quartiles | Un quartile è l&#39;insieme di valori nel dataset identificato da tre punti che dividono l&#39;insieme di dati in quattro gruppi uguali, ciascuno dei quali è composto da un quarto dell&#39;insieme di dati. Il primo quartile è il 25° percentile, e il terzo quartile è il 75° percentile. (Il secondo quartile è la mediana e il quarto quartile è la Somma.) |
 | Count | Restituisce il numero di righe in un dataset. |
 
 ## Esempio di calcoli medi rispetto al totale della metrica {#section_7C49196503964FB0A429FA347BC92D09}
@@ -108,14 +115,14 @@ La funzione Media è calcolata in modo simile alle colonne di dati in Microsoft 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Giugno 2013 </p> <p>Luglio 2013 </p> <p>agosto 2013 </p> </td> 
+   <td colname="col1"> <p>Giugno 2013 </p> <p>2013 luglio </p> <p>Agosto 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34.4% </p> <p>29.7% </p> <p>41.0% </p> </td> 
    <td colname="col5"> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1" align="center" valign="middle"><b>Media</b> </td> 
+   <td colname="col1" align="center" valign="middle"><b>Mean (Media)</b> </td> 
    <td colname="col2" valign="middle"> (344+297+41)/3 </td> 
    <td colname="col3" valign="middle"> (1000+1000+100)/3 </td> 
    <td colname="col4" valign="middle" align="right"> (34.4 + 29.7 + 41.0) / 3 = <b>35.0</b>% </td> 
@@ -149,7 +156,7 @@ Oltre ai calcoli [](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md
 
 ## Manager gruppo {#concept_E1433974A61144858E87334C006982B2}
 
-Invece di utilizzare una singola pagina in un rapporto, potete raggruppare più pagine e utilizzarle come categorie per iniziare, intermedia o per la posizione di destinazione nei [!UICONTROL Fallout] rapporti e [!UICONTROL Site Analysis] . Potete modificare i gruppi dal menu principale o dall’interno del rapporto. Nell&#39; [!UICONTROL Checkpoint Selector] elenco vengono visualizzate anche le categorie create nei report di marketing e nelle analisi.
+Invece di utilizzare una singola pagina in un rapporto, potete raggruppare più pagine e utilizzarle come categorie per iniziare, intermedia o per la posizione di destinazione nei [!UICONTROL Fallout] rapporti e [!UICONTROL Site Analysis] . Potete modificare i gruppi dal menu principale o dall’interno del rapporto. Anche le categorie create nei marketing reports and analytics vengono visualizzate nell&#39; [!UICONTROL Checkpoint Selector] elenco.
 
 <!-- 
 
