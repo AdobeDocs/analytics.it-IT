@@ -3,9 +3,9 @@ description: Inizia con  Ad Hoc Analysis.
 title: Introduzione
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1253'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Potete eseguire analisi istantanee e avanzate sull&#39;attività del sito Web. Puoi visualizzare più rapporti contemporaneamente e applicare segmenti a più dimensioni. Puoi analizzare i dati sia dalle micro che dalle macro prospettive per verificarne l&#39;impatto sulle metriche aziendali importanti.
 
