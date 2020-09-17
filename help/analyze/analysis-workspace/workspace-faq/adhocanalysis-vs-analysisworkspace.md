@@ -3,15 +3,19 @@ description: Confronta la terminologia e le attività di Ad Hoc Analysis ad Anal
 title: Confronto tra Analysis Workspace e Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
+source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '930'
+ht-degree: 86%
 
 ---
 
 
 # Confronto tra Analysis Workspace e Ad Hoc Analysis
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Confronta la terminologia e le attività di Ad Hoc Analysis ad Analysis Workspace.
 
@@ -26,7 +30,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
 | Progetto | Workspace o progetto |
 | Area di lavoro | Pannello |
 | Rapporto | Tabella a forma libera |
-| Grafici | Visualizzazione |
+| Grafico/Grafico | Visualizzazione |
 | Gerarchia: Progetto > Workspace > Rapporti | Gerarchia: Progetto > Pannelli > Tabelle |
 | Classificati, Con tendenze, modelli rapporto dei totali | Visualizzazione tabella a forma libera |
 | Modello di flusso | Visualizzazione flusso |
