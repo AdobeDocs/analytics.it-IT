@@ -3,10 +3,10 @@ description: Le impostazioni colonna consentono di configurare la formattazione 
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: dd14c576a6c447026c2389a864afce16e6bdc77d
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 93%
+source-wordcount: '702'
+ht-degree: 87%
 
 ---
 
@@ -25,6 +25,10 @@ Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera
 
 | Elemento | Descrizione |
 | --- | --- |
+| **Totale celle** |  |
+| Mostra totali | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Riflette eventuali filtri applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None] (Includi nessuna). |
+| Mostra totale complessivo | Questo totale rappresenta tutti gli hit raccolti, talvolta denominati &#39;totale suite di rapporti&#39;. Quando un segmento viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli hit che corrispondono ai criteri del segmento. Il totale complessivo non è supportato per tabelle o suddivisioni con righe [](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md)statiche. |
+| **Celle tabella** |  |
 | Numero | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
 | Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale di visualizzazioni di pagina per la colonna.  Nota: per garantire una maggiore precisione, è possibile visualizzare percentuali superiori al 100%. Inoltre, abbiamo spostato il limite superiore al 1000% per assicurare che le colonne possano crescere anche in larghezza. |
 | Anomalie | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
