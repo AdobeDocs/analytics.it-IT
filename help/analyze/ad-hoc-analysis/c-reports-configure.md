@@ -3,12 +3,19 @@ description: Scopri le diverse azioni che puoi eseguire su un rapporto, come la 
 title: Configurare i rapporti esistenti
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 3%
 
 ---
 
 
 # Configurare i rapporti esistenti
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Scopri le diverse azioni che puoi eseguire su un rapporto, come la configurazione di grafici, grafici, suddivisioni ed estrazione di dati.
 
@@ -102,7 +109,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Numero di righe (barre, bolle e così via) </p> </td> 
-   <td colname="col2"> <p> Specifica il numero di elementi o punti di dati da visualizzare nel grafico. </p> </td> 
+   <td colname="col2"> <p> Specifica il numero di elementi della tabella o di punti di dati da visualizzare nel grafico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colori </p> </td> 
@@ -135,13 +142,13 @@ c_reports_bubble.xml
 
  -->
 
-I grafici a bolle offrono analisi delle metriche per un massimo di cinque dimensioni separate. Il grafico a bolle cambia in modo dinamico per riflettere le modifiche apportate ai dati del rapporto.  Il grafico a bolle è disponibile per qualsiasi report classificato.
+I grafici a bolle offrono analisi delle metriche per un massimo di cinque dimensioni separate. Il grafico a bolle cambia in modo dinamico per riflettere le modifiche apportate ai dati del rapporto. Il grafico a bolle è disponibile per qualsiasi report classificato.
 
 | Elemento | Descrizione |
 |---|---|
 | [!UICONTROL Dimensions] | Specifica la dimensione del rapporto. |
 | [!UICONTROL Data Points] | Specifica il numero di punti dati da visualizzare nel grafico a bolle. |
-| [!UICONTROL Show Linear Regression] | Visualizza un'approssimazione statistica dei dati. |
+| [!UICONTROL Show Linear Regression] | Visualizza un&#39;approssimazione statistica dei dati. |
 
 ## Scomposizione dati tabella {#task_29BEE0AF09DA4625B9B44BAB77D7C841}
 
@@ -151,16 +158,16 @@ t_reports_breakdown_table.xml
 
  -->
 
-Alcuni rapporti consentono di suddividere i dati della tabella in modo da poter visualizzare nel rapporto i dati relativi alle sottosezioni. Puoi suddividere qualsiasi dimensione per qualsiasi altro elemento dimensione, rapporto, segmento e così via.
+Alcuni rapporti consentono di suddividere i dati della tabella in modo da poter visualizzare nel rapporto i dati relativi ai sottomoduli. Puoi suddividere qualsiasi dimensione per qualsiasi altro elemento dimensione, rapporto, segmento e così via.
 
 **Per suddividere i dati della tabella**
 
 1. Esegui un report.
-1. Fare clic con il pulsante destro del mouse su un elemento, quindi scegliere **[!UICONTROL Breakdown]** &gt; *elemento.*
+1. Fare clic con il pulsante destro del mouse su un elemento, quindi scegliere **[!UICONTROL Breakdown]** > *elemento.*
 
    >[!NOTE]
    >
-   >Per una maggiore flessibilità, utilizzate [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) per configurare un rapporto con suddivisioni. Dopo aver aperto un rapporto salvato o pianificato con suddivisioni, potrebbe essere necessario fare clic **[!UICONTROL Replace Table]** per aggiornare una suddivisione dei dati del rapporto dinamico. Ad esempio, potrebbe essere necessario aggiornare un rapporto pianificato contenente suddivisioni di elementi riga che possono essere modificati in base all'intervallo di date o all'attività del visitatore.
+   >Per una maggiore flessibilità, utilizzate [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) per configurare un rapporto con suddivisioni. Dopo aver aperto un rapporto salvato o pianificato con suddivisioni, potrebbe essere necessario fare clic **[!UICONTROL Replace Table]** per aggiornare una suddivisione dei dati del rapporto dinamico. Ad esempio, potrebbe essere necessario aggiornare un rapporto pianificato contenente suddivisioni di elementi di riga che possono essere modificati in base all&#39;intervallo di date o all&#39;attività del visitatore.
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +187,7 @@ Per i report con classifica, puoi modificare il rapporto in un tipo diverso di r
 **Per modificare il tipo di rapporto nella tabella**
 
 1. Apri e configura un rapporto classifica.
-1. Fare clic con il pulsante destro del mouse sull'intestazione della colonna del nome del rapporto nella tabella, quindi fare clic **[!UICONTROL Select Report]** e quindi passare al rapporto.
+1. Fare clic con il pulsante destro del mouse sull&#39;intestazione della colonna del nome del rapporto nella tabella, quindi fare clic **[!UICONTROL Select Report]** e quindi passare al rapporto.
 
 ## Copia dati negli Appunti {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -192,9 +199,9 @@ t_reports_clipboard.xml
 
 1. Aprite Microsoft Excel.
 
-   È consigliabile aprire Excel prima di copiare i dati, in quanto Excel cancella il buffer di memoria all'avvio.
+   È consigliabile aprire Excel prima di copiare i dati, in quanto Excel cancella il buffer di memoria all&#39;avvio.
 
-1. A livello di rapporto, fai clic su **[!UICONTROL Settings]** , ![](assets/settings_icon.png)quindi su **[!UICONTROL Copy Report Data]**.
+1. A livello di rapporto, fate clic **[!UICONTROL Settings]** , ![](assets/settings_icon.png)quindi fate clic su **[!UICONTROL Copy Report Data]**.
 1. In Excel, selezionare una cella, quindi incollare i dati.
 
 ## Estrai ID visitatore {#task_7223BE8E0389460282825E61BEDC0574}
@@ -209,10 +216,10 @@ In Reporting e analisi, puoi impostare un campo che contenga dati ID utente. If 
 
 **Per estrarre gli ID visitatore**
 
-1. Aggiungi un segmento Data Warehouse al report.
+1. Aggiungi un segmento di Data Warehouse al report.
 1. Fai clic con il pulsante destro del mouse sul segmento e seleziona **[!UICONTROL Extract Visitor IDs]**.
 
-   Viene avviata l'applicazione Data Warehouse.
+   Viene avviata l’applicazione di Data Warehouse.
 1. Nella [!UICONTROL Data Warehouse Request] scheda, digitate il nome del filtro.
 1. Fai clic su **[!UICONTROL Request this Report]**.
 
@@ -229,7 +236,7 @@ Quando visualizzate un rapporto con classifica, ad esempio un rapporto sui prodo
 **Tendenza di una riga**
 
 1. Eseguire un report classifica.
-1. Fate clic sull' [!UICONTROL Trend] icona.  ![](assets/TrendInspector_Buttcon.png)
+1. Click the [!UICONTROL Trend] icon.  ![](assets/TrendInspector_Buttcon.png)
 
    Potete selezionare più celle da applicare a un singolo rapporto di tendenza.
 
@@ -262,6 +269,6 @@ c_reports_custom.xml
 
  -->
 
-I report personalizzati possono fornire un valore maggiore a voi come analisti, perché sono stati ritenuti degni di essere inclusi nel menu di reporting e analisi di marketing di tutti. Se nell’interfaccia dell’utente sono presenti rapporti che non corrispondono a quelli di altri utenti (ad esempio in Formazione), l’amministratore potrebbe avere impostato alcuni di questi rapporti personalizzati.
+I report personalizzati possono fornire un valore maggiore a voi come analisti, perché sono stati ritenuti degni di essere presenti nel menu marketing reports and analytics di tutti. Se nell’interfaccia dell’utente sono presenti rapporti che non corrispondono a quelli di altri utenti (ad esempio in Formazione), l’amministratore potrebbe avere impostato alcuni di questi rapporti personalizzati.
 
-Inoltre, puoi salvare i rapporti importanti per te. Questi rapporti sono denominati segnalibri. Puoi anche inserire diversi report in un'unica area di lavoro per visualizzare rapidamente i report più importanti. Questi sono denominati dashboard e sono specifici per l'utente. L'interfaccia mostra una barra sopra il grafico che elenca i segnalibri e le dashboard.
+Inoltre, puoi salvare i rapporti importanti per te. Questi rapporti sono denominati segnalibri. Puoi anche inserire diversi report in un&#39;unica area di lavoro per visualizzare rapidamente i report più importanti. Questi sono denominati dashboard e sono specifici per l&#39;utente. L&#39;interfaccia mostra una barra sopra il grafico che elenca i segnalibri e le dashboard.
