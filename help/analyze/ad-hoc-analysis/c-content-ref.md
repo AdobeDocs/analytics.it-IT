@@ -4,15 +4,19 @@ title: Generare segmenti
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1225'
 ht-degree: 1%
 
 ---
 
 
 # Generare segmenti
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
  Ad Hoc Analysis si integra con l&#39;ambiente di segmentazione di Analytics, consentendo di creare, condividere, gestire e applicare segmenti di visitatori tra  prodotti di Adobe.  Ad Hoc Analysis fornisce un&#39;interfaccia utente basata su Java per il Segment Builder e il Segment Manager identico agli strumenti basati sul Web utilizzati da altri strumenti Analytics, alle chiamate dei server corrispondenti e alle stesse funzionalità di una console basata su Java.
 
@@ -24,7 +28,7 @@ Per informazioni e istruzioni sulla creazione e la gestione di segmenti nell’a
 
 * [Nuove funzionalità](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Cos&#39;è successo ai segmenti esistenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [Cos&#39;è successo alle cartelle dei segmenti esistenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [Cos’è successo alle cartelle dei segmenti esistenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [Posso gestire tutti i segmenti di Analytics in Segment Manager?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
 * [Cos&#39;è un contenitore Hit? È diverso da un contenitore Visualizzazione pagina?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
 * [Quali diritti e privilegi devo utilizzare, creare e gestire i segmenti?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
@@ -51,7 +55,7 @@ I segmenti esistenti continueranno a funzionare come prima dell&#39;introduzione
 
 La maggior parte dei segmenti predefiniti e suite precedenti verranno trasferiti come modelli di segmento nel generatore di segmenti. I modelli di segmento sono utilizzati per creare rapidamente segmenti personalizzati con audience comuni. I modelli di segmento non possono essere applicati direttamente a un report, ma possono essere facilmente salvati in un segmento personalizzato.
 
-## Cos&#39;è successo alle cartelle dei segmenti esistenti? {#section_FB04DCF775694E69B761DCA53F301C30}
+## Cos’è successo alle cartelle dei segmenti esistenti? {#section_FB04DCF775694E69B761DCA53F301C30}
 
 Invece di ( Ad Hoc Analysis) cartelle, Segment Manager utilizza [i tag](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html). I nomi delle cartelle vengono automaticamente convertiti in tag e tali tag vengono applicati ai rispettivi segmenti.
 
@@ -126,7 +130,7 @@ Se il segmento è stato [pubblicato nel Experience Cloud](https://docs.adobe.com
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visite con 5+ visite precedenti* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visite da Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) verrà migrata come modelli di segmento nel generatore di segmenti. Sono stati inoltre aggiunti diversi nuovi modelli di segmento. </p> <p>I rapporti esistenti con questi segmenti continueranno a funzionare correttamente. </p> </td> 
+   <td colname="col2"> <p> La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) verrà migrata come modelli di segmento nel generatore di segmenti. Inoltre, sono stati aggiunti diversi nuovi modelli di segmento. </p> <p>I rapporti esistenti con questi segmenti continueranno a funzionare correttamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmenti di amministrazione <p>(noti anche come segmenti "globali") </p> </td> 
