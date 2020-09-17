@@ -3,10 +3,10 @@ description: Utilizzare la visualizzazione delle linee per rappresentare set di 
 title: Linee
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 11%
+source-wordcount: '437'
+ht-degree: 9%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 11%
 La visualizzazione Linea rappresenta le metriche utilizzando una linea per mostrare come cambiano i valori in un determinato periodo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale.
 
 ![Visualizzazione linee](assets/line-viz.png)
-
->[!IMPORTANT]
->
->Alcune impostazioni di visualizzazione Linea, come [!UICONTROL Show trendline]ad esempio, sono attualmente in fase di test limitati. [Ulteriori informazioni](/help/landing/an-releases.md)
 
 Fai clic sull’icona a forma di ingranaggio in alto a destra della visualizzazione Linea per accedere alle impostazioni [**di**](freeform-analysis-visualizations.md) visualizzazione disponibili. Le impostazioni sono suddivise in categorie:
 
@@ -35,13 +31,17 @@ Nelle [impostazioni di visualizzazione](freeform-analysis-visualizations.md), un
 
 ## Mostra min o max
 
-In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, potete sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: I valori min/max sono derivati dai punti di dati visibili nella visualizzazione, non dall’intero insieme di valori all’interno di una dimensione.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric. Nota: I valori min/max sono derivati dai punti di dati visibili nella visualizzazione, non dall’intero insieme di valori all’interno di una dimensione.
 
 ![Mostra min/max](assets/min-max-labels.png)
 
 ## Mostra sovrapposizione linea di tendenza
 
 In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, puoi scegliere di aggiungere una linea di tendenza di regressione alla serie di linee. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
+
+>[!TIP]
+>
+>È consigliabile applicare le linee di tendenza ai dati che non includono oggi (dati parziali) o date future, in quanto tali linee di tendenza risulteranno distorte. Se è necessario includere date future, tuttavia, rimuovere gli zero dai dati per evitare che l&#39;inclinazione di tali giorni. A tal fine, accedi alla tabella dell’origine dati della visualizzazione e scegli la colonna metrica. Quindi andate a [!UICONTROL Column Settings] e controllate **[!UICONTROL Interpret zero as no value]**.)
 
 ![Linea di tendenza lineare](assets/show-linear-trendline.png)
 
