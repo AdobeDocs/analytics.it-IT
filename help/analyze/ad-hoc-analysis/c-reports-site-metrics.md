@@ -4,9 +4,9 @@ title: Rapporti sulle metriche del sito
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Consente di visualizzare informazioni quantitative sul sito Web, ad esempio quante volte i visitatori hanno guardato determinate pagine, il numero di acquisti complessivi effettuati da pagine specifiche, quando sono arrivati, e dati quantitativi simili. Ciascuno di questi rapporti è una metrica che puoi inserire in altri rapporti basati sugli elementi.
 
