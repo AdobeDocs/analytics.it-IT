@@ -3,9 +3,9 @@ description: Il tempo è una dimensione di reporting utile per le tendenze in or
 title: Tempo
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Il tempo è una dimensione di reporting utile per le tendenze in ore, giorni, settimane e intervalli di date. Ad esempio, in un rapporto sui prodotti viene visualizzato il fatturato prodotto durante l&#39;intervallo di date selezionato. Puoi aggiungere una dimensione Giorno per visualizzare la tendenza in tutti i giorni del periodo di reporting. Il tempo fornisce le impostazioni di granularità Ora, Giorno, Settimana, Mese, Trimestre e Anno. I predefiniti per intervalli di date includono impostazioni quali Oggi, Ieri e Ultimi 7 giorni.
 
