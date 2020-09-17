@@ -4,15 +4,19 @@ title: Rapporti fonti traffico
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 1%
+source-wordcount: '1150'
+ht-degree: 2%
 
 ---
 
 
 # Rapporti fonti traffico
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 I rapporti sulle origini del traffico forniscono informazioni approfondite sul modo in cui i visitatori interagiscono con il sito Web.
 
@@ -128,7 +132,7 @@ L&#39;elenco seguente definisce i vari tipi di referenti:
 
 Durante l&#39;esecuzione di questo rapporto potrebbero essere visualizzati i seguenti elementi di riga:
 
-**All&#39;interno del sito**: Si tratta di URL dotati di tag per i filtri URL interni. Questi elementi non vengono conteggiati come istanze di riferimento, ma possono essere visualizzati durante la generazione di rapporti su altre metriche.
+**All&#39;interno del sito**: Questi elementi sono URL ai quali vengono assegnati tag dai filtri URL interni. Questi elementi non vengono conteggiati come istanze di riferimento, ma possono essere visualizzati durante la generazione di rapporti su altre metriche.
 
 **Nessun Java Script**: Non era presente un codice JavaScript, pertanto il tipo non era identificabile (sconosciuto). Ciò significa che non sono state fornite informazioni sul referente da un client in un browser, che non segnala il supporto di Javascript. Questi non vengono contati come &quot;istanze di referente&quot;, ma possono essere visualizzati quando si riferiscono ad altre metriche.
 
