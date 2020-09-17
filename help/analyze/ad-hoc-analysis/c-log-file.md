@@ -2,15 +2,19 @@
 title: File di registro
 description: Ottenete un file di registro per la risoluzione dei problemi.
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '211'
+ht-degree: 5%
 
 ---
 
 
 # File di registro
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Quando si risolvono problemi con  Ad Hoc Analysis, talvolta è necessario ottenere il relativo file di registro.  Adobe può utilizzare il file di registro per individuare la causa principale del problema e fornire una risoluzione. Il `discover.log` file contiene tutte le interazioni degli utenti, le informazioni sul caricamento dei rapporti e i messaggi di errore Java per tutte le sessioni. Interrompe qualsiasi informazione protetta, ad esempio la password dell&#39;utente. I file di registro di grandi dimensioni sono suddivisi in incrementi di 10 MB. Quando fornite  Adobe con i file di registro, accertatevi che tutti i file siano selezionati.
 
