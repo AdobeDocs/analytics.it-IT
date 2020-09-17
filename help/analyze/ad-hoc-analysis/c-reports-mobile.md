@@ -3,9 +3,9 @@ description: Visualizza informazioni sull'accesso ai siti Web da un dispositivo 
 title: Rapporti sui dispositivi mobili
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Visualizza informazioni sull&#39;accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l&#39;identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
 
