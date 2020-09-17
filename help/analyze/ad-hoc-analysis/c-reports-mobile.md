@@ -3,15 +3,19 @@ description: Visualizza informazioni sull'accesso ai siti Web da un dispositivo 
 title: Rapporti sui dispositivi mobili
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
 
 
 # Rapporti sui dispositivi mobili
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Visualizza informazioni sull&#39;accesso ai siti Web da un dispositivo mobile. I rapporti mobili migliorano l&#39;identificazione dei visitatori grazie alla raccolta di dati sui dispositivi mobili utilizzati per visualizzare il sito. I rapporti sui dispositivi mobili possono identificare il produttore e le funzionalità di un dispositivo, ad esempio dimensioni dello schermo, supporto per video, audio e cookie e altre metriche. I rapporti per dispositivi mobili sono disponibili per tutte le suite di rapporti.
 
@@ -23,9 +27,9 @@ Per migliorare l&#39;identificazione dei visitatori per i dispositivi mobili, è
 
 >[!NOTE]
 >
->Per visualizzare i rapporti su un dispositivo mobile, accedete al [Experience Cloud](https://login.experiencecloud.adobe.com).
+>Per visualizzare i rapporti su un dispositivo mobile, effettuate l&#39;accesso all&#39;Experience Cloud [](https://login.experiencecloud.adobe.com).
 
-Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il sito [Mobile  Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) .
+Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il sito [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) .
 
 <table id="table_8862E941EF5A41EFB0E7FADEEA86C37D"> 
  <thead> 
@@ -62,7 +66,7 @@ Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Supporto Cookie </p> </td> 
-   <td colname="col2"> <p>Raggruppa gli hit del dispositivo mobile a seconda che supportino o meno i cookie. I visitatori sono suddivisi in gruppi e cookie di supporto che non lo sono. Il tipo di dispositivo mobile è identificato nella stringa agente utente. Adobe gestisce un elenco di dispositivi mobili che supportano i cookie. Se anche il dispositivo mobile elencato nella stringa agente utente è elencato nell'elenco dei dispositivi mobili di Adobe, l'elemento di riga Supportato nel rapporto <span class="wintitle"> Cookie Support</span> viene incrementato. In caso contrario, l'elemento di riga Non supportato nel rapporto viene incrementato. </p> </td> 
+   <td colname="col2"> <p>Raggruppa gli hit del dispositivo mobile a seconda che supportino o meno i cookie. I visitatori sono suddivisi in gruppi e cookie di supporto che non lo sono. Il tipo di dispositivo mobile è identificato nella stringa agente utente.  Adobe mantiene un elenco di dispositivi mobili che supportano i cookie. Se anche il dispositivo mobile elencato nella stringa agente utente è elencato in  elenco  dispositivi mobili, l’elemento riga Supportato nel rapporto <span class="wintitle"> Cookie Support</span> viene incrementato. In caso contrario, l'elemento di riga Non supportato nel rapporto viene incrementato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report di supporto delle immagini </p> </td> 
@@ -122,7 +126,7 @@ Per ulteriori informazioni sul tracciamento dei dispositivi mobili, consulta il 
   </tr> 
   <tr> 
    <td colname="col1"> Report servizi di informazione </td> 
-   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai servizi di informazione (Channel I/B, EZ News Flash, W+INFO, ecc.). che supportano. Quando un visitatore utilizza un dispositivo mobile con supporto per i servizi di news per accedere al sito, il rapporto Servizi informazioni incrementa di almeno uno. Se il telefono supporta più servizi di notizie, ciascuno di questi gruppi nel rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato nella parte inferiore del rapporto. </p> </td> 
+   <td colname="col2"> <p>Raggruppa i dispositivi mobili in base ai servizi di informazione (Channel I/B, EZ News Flash, W+INFO e così via). che supportano. Quando un visitatore utilizza un dispositivo mobile con supporto per i servizi di news per accedere al sito, il rapporto Servizi informazioni incrementa di almeno uno. Se il telefono supporta più servizi di notizie, ciascuno di questi gruppi nel rapporto viene incrementato. Di conseguenza, la somma dei gruppi potrebbe essere maggiore del totale visualizzato nella parte inferiore del rapporto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
