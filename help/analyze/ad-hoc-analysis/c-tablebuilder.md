@@ -3,9 +3,9 @@ description: Utilizzate il Generatore di tabelle per creare un rapporto con qual
 title: Generatore tabella
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '759'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Utilizzate il Generatore di tabelle per creare un rapporto con qualsiasi configurazione di metriche, dimensioni e segmenti. Ad esempio, puoi aggiungere più metriche al Generatore di tabelle, quindi applicare il segmento a tutte contemporaneamente. È possibile applicare elementi dai riquadri degli strumenti come righe e suddivisioni o come colonne e ruotare facilmente la tabella per una visualizzazione diversa. Dopo aver creato la tabella, puoi interagire direttamente con la tabella di dati risultante per un&#39;ulteriore analisi. Tenere presente che la generazione di una tabella di dati dal Generatore tabelle esegue una query e crea una nuova tabella di dati.
 
