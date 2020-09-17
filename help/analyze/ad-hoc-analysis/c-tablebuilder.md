@@ -3,20 +3,27 @@ description: Utilizzate il Generatore di tabelle per creare un rapporto con qual
 title: Generatore tabella
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 2%
 
 ---
 
 
 # Generatore tabella
 
-Utilizzate il Generatore di tabelle per creare un rapporto con qualsiasi configurazione di metriche, dimensioni e segmenti. Ad esempio, puoi aggiungere più metriche al Generatore di tabelle, quindi applicare il segmento a tutte contemporaneamente. È possibile applicare elementi dai riquadri degli strumenti come righe e suddivisioni o come colonne e ruotare facilmente la tabella per una visualizzazione diversa. Dopo aver creato la tabella, puoi interagire direttamente con la tabella di dati risultante per un'ulteriore analisi. Tenere presente che la generazione di una tabella di dati dal Generatore tabelle esegue una query e crea una nuova tabella di dati.
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+
+Utilizzate il Generatore di tabelle per creare un rapporto con qualsiasi configurazione di metriche, dimensioni e segmenti. Ad esempio, puoi aggiungere più metriche al Generatore di tabelle, quindi applicare il segmento a tutte contemporaneamente. È possibile applicare elementi dai riquadri degli strumenti come righe e suddivisioni o come colonne e ruotare facilmente la tabella per una visualizzazione diversa. Dopo aver creato la tabella, puoi interagire direttamente con la tabella di dati risultante per un&#39;ulteriore analisi. Tenere presente che la generazione di una tabella di dati dal Generatore tabelle esegue una query e crea una nuova tabella di dati.
 
 ## Generatore tabella {#concept_574FEDC73B244101935D3C86C39DB70F}
 
-Utilizzate il Generatore di tabelle per creare un rapporto con qualsiasi configurazione di metriche, dimensioni e segmenti. Ad esempio, puoi aggiungere più metriche al Generatore di tabelle, quindi applicare il segmento a tutte contemporaneamente. È possibile applicare elementi dai riquadri degli strumenti come righe e suddivisioni o come colonne e ruotare facilmente la tabella per una visualizzazione diversa. Dopo aver creato la tabella, puoi interagire direttamente con la tabella di dati risultante per un'ulteriore analisi. Tenere presente che la generazione di una tabella di dati dal Generatore tabelle esegue una query e crea una nuova tabella di dati.
+Utilizzate il Generatore di tabelle per creare un rapporto con qualsiasi configurazione di metriche, dimensioni e segmenti. Ad esempio, puoi aggiungere più metriche al Generatore di tabelle, quindi applicare il segmento a tutte contemporaneamente. È possibile applicare elementi dai riquadri degli strumenti come righe e suddivisioni o come colonne e ruotare facilmente la tabella per una visualizzazione diversa. Dopo aver creato la tabella, puoi interagire direttamente con la tabella di dati risultante per un&#39;ulteriore analisi. Tenere presente che la generazione di una tabella di dati dal Generatore tabelle esegue una query e crea una nuova tabella di dati.
 
-L'opzione [!UICONTROL Table Builder] non è disponibile per alcuni report di percorso come [!UICONTROL Site Analysis], [!UICONTROL Fallout][!UICONTROL Flow] e [!UICONTROL Virtual Focus].
+L&#39;opzione [!UICONTROL Table Builder] non è disponibile per alcuni report di percorso come [!UICONTROL Site Analysis], [!UICONTROL Fallout], [!UICONTROL Flow] e [!UICONTROL Virtual Focus].
 
 ## Descrizioni di Generatore di tabelle {#section_4B7B96546B864142AB91DF3996918590}
 
@@ -38,7 +45,7 @@ L'opzione [!UICONTROL Table Builder] non è disponibile per alcuni report di per
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Proprietà suddivisione</span> </td> 
-   <td colname="col2"> <p><img placement="inline"  src="assets/Settings_Illustrative.png" id="image_C46860621CF94E88AF592B8660F28E57"> </img> </p> <p>Consente di specificare le impostazioni predefinite per il numero di righe e suddivisioni da visualizzare, in base all'ordine in cui vengono aggiunti gli elementi. È possibile specificare il numero totale di risultati per pagina da visualizzare e il numero di righe da suddividere. </p> <p>Le impostazioni effettuate in Generatore <span class="wintitle"> di</span> tabelle prevalgono su quelle predefinite nelle <span class="wintitle"> Proprietà</span>di suddivisione. </p> </td> 
+   <td colname="col2"> <p><img placement="inline"  src="assets/Settings_Illustrative.png" id="image_C46860621CF94E88AF592B8660F28E57"> </img> </p> <p>Consente di specificare le impostazioni predefinite per il numero di righe e suddivisioni da visualizzare, in base all'ordine in cui vengono aggiunti gli elementi. È possibile specificare il numero totale di risultati per pagina da visualizzare e il numero di righe da suddividere. </p> <p>Le impostazioni effettuate in Generatore <span class="wintitle"> di</span> tabelle prevalgono su quelle predefinite nelle <span class="wintitle"> Proprietà</span>per sottogruppi di lavoro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifica elementi</span> </td> 
