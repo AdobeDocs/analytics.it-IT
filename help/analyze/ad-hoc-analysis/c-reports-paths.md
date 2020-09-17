@@ -4,9 +4,9 @@ title: Rapporti sui percorsi
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1184'
 ht-degree: 12%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Visualizza le informazioni relative all&#39;ordine in cui viene effettuato l&#39;accesso alle pagine del tuo sito Web. Puoi raccogliere informazioni sulla posizione del visitatore prima e dopo qualsiasi pagina visitata sul tuo sito.
 
