@@ -4,9 +4,9 @@ title: Generare segmenti
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 42782779a9b9d5f4795b2663ec78678cd3aada02
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
  Ad Hoc Analysis si integra con l&#39;ambiente di segmentazione di Analytics, consentendo di creare, condividere, gestire e applicare segmenti di visitatori tra  prodotti di Adobe.  Ad Hoc Analysis fornisce un&#39;interfaccia utente basata su Java per il Segment Builder e il Segment Manager identico agli strumenti basati sul Web utilizzati da altri strumenti Analytics, alle chiamate dei server corrispondenti e alle stesse funzionalità di una console basata su Java.
 
