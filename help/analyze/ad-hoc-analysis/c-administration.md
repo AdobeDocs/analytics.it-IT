@@ -3,12 +3,19 @@ description: Configura gli utenti e scopri ulteriori informazioni sul campioname
 title: Amministrazione
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '711'
+ht-degree: 98%
 
 ---
 
 
 # Amministrazione
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Configura gli utenti e scopri ulteriori informazioni sul campionamento dei dati.
 
