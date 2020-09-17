@@ -2,10 +2,10 @@
 description: 'null'
 title: Palette di colori
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '188'
+translation-type: tm+mt
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+workflow-type: tm+mt
+source-wordcount: '187'
 ht-degree: 100%
 
 ---
