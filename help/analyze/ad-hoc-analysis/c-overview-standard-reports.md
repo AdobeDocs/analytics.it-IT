@@ -4,9 +4,9 @@ title: Panoramica sui report
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '975'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 I rapporti standard visualizzano i dati per il sito Web e l&#39;attività del visitatore, i pattern di traffico, i dati di riferimento, le campagne pubblicitarie, la conservazione dei visitatori, i dati sui prodotti e altro ancora. Puoi eseguire report e quindi accedere a strumenti per configurare segmenti, metriche e confronti di report.
 
