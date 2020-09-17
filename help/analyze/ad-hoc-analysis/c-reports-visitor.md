@@ -4,15 +4,19 @@ title: Rapporti sui visitatori
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '873'
 ht-degree: 3%
 
 ---
 
 
 # Rapporti sui visitatori
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Visualizza informazioni sui visitatori, quali conteggio dei visitatori, fedeltà dei clienti e caratteristiche dei visitatori.
 
@@ -67,7 +71,7 @@ Puoi suddividere il rapporto con qualsiasi altro rapporto o variabile per determ
 >
 >Se lo stesso visitatore visita il sito Web più volte nello stesso periodo, ogni numero di visita specificato viene incrementato per ogni visita.
 
-Questo rapporto si basa sui dati ID visitatore passati ad Adobe per ogni hit effettuato dai visitatori. Man mano che questi dati vengono ricevuti, Adobe li confronta con i dati storici dell’ID visitatore per determinare se l’hit è:
+Questo rapporto si basa sui dati ID visitatore passati al Adobe  ogni hit effettuato dai visitatori. Man mano che questi dati vengono ricevuti,  Adobe li confronta con i dati ID visitatore storici per determinare se l’hit è:
 
 * Un nuovo visitatore (Numero visita è uguale a 1).
 * Un visitatore precedente che continua una visita (il numero della visita non viene incrementato).
