@@ -4,36 +4,43 @@ title: Rapporti sui percorsi
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1183'
+ht-degree: 12%
 
 ---
 
 
 # Rapporti sui percorsi
 
-Visualizza le informazioni relative all'ordine in cui viene effettuato l'accesso alle pagine del tuo sito Web. Puoi raccogliere informazioni sulla posizione del visitatore prima e dopo qualsiasi pagina visitata sul tuo sito.
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+
+Visualizza le informazioni relative all&#39;ordine in cui viene effettuato l&#39;accesso alle pagine del tuo sito Web. Puoi raccogliere informazioni sulla posizione del visitatore prima e dopo qualsiasi pagina visitata sul tuo sito.
 
 ## Rapporti sui percorsi {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
-Visualizza le informazioni relative all'ordine in cui viene effettuato l'accesso alle pagine del tuo sito Web. Puoi raccogliere informazioni sulla posizione del visitatore prima e dopo qualsiasi pagina visitata sul tuo sito.
+Visualizza le informazioni relative all&#39;ordine in cui viene effettuato l&#39;accesso alle pagine del tuo sito Web. Puoi raccogliere informazioni sulla posizione del visitatore prima e dopo qualsiasi pagina visitata sul tuo sito.
 
 I rapporti sui percorsi includono rapporti di analisi avanzati standard e facoltativi che mostrano il flusso di clic delle pagine visualizzate. È possibile individuare percorsi completi, percorsi più lunghi e percorsi più popolari; spiegare graficamente il flusso di pagina, l’abbandono e l’abbandono; mostrare nel corso del tempo schemi nuovi e mutevoli; e analizzare i percorsi di entrata e uscita.
 
-**[!UICONTROL Next Page Flow]** o **[!UICONTROL Next Site Flow]**: Consente di visualizzare un elemento grafico a due livelli con ramificazione profonda di una pagina (o sezione, dipartimento e così via) selezionata, che i visitatori possono visualizzare dopo essersi allontanati dalla pagina selezionata. Utilizzate questo rapporto per analizzare e identificare i passi che i visitatori effettuano più spesso dopo aver visualizzato una pagina selezionata. Puoi:
+**[!UICONTROL Next Page Flow]** o **[!UICONTROL Next Site Flow]**: Consente di visualizzare un elemento grafico a due livelli con ramificazione profonda di una pagina (o sezione, dipartimento e così via) selezionata, che i visitatori possono visualizzare dopo essersi allontanati dalla pagina selezionata. Utilizzate questo rapporto per analizzare e identificare i passi che i visitatori effettuano più spesso dopo aver visualizzato una pagina selezionata. È possibile:
 
 * Scoprite i passaggi più frequenti dopo la visualizzazione di una pagina selezionata.
 * Ottimizzate la progettazione del percorso del sito per indirizzare il traffico verso una pagina di destinazione desiderata.
 * Identificate dove vanno i visitatori al posto delle pagine di obiettivi desiderate.
 
-**[!UICONTROL Next Page]** (o categorie successive): Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine del sito visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata. Ad esempio, quando si seleziona e si crea un rapporto sull’intero sito, il rapporto mostra le prime dieci pagine di destinazione, con le cinque pagine successive più popolari elencate sotto ogni pagina di destinazione. Questi dati possono aiutarti a capire quali contenuti, funzionalità e altri dati, spesso obbligando i visitatori a spostarsi all'interno del sito.
+**[!UICONTROL Next Page]** (o categorie successive): Fornisce un&#39;analisi dettagliata dei percorsi del sito visualizzando le pagine del sito visualizzate dai visitatori dopo la visualizzazione di una pagina selezionata. Ad esempio, quando si seleziona e si crea un rapporto sull’intero sito, il rapporto mostra le prime dieci pagine di destinazione, con le cinque pagine successive più popolari elencate sotto ogni pagina di destinazione. Questi dati possono aiutarti a capire quali contenuti, funzionalità e altri dati, spesso obbligando i visitatori a spostarsi all&#39;interno del sito.
 
 **[!UICONTROL Previous Page Flow]** (o flusso di altre categorie precedenti): Visualizza due livelli delle pagine più popolari visualizzate dai visitatori prima della pagina selezionata. Il rapporto evidenzia anche quando i visitatori entrano nel sito.
 
-**[!UICONTROL Previous Page]** (o altre categorie precedenti): Fornisce un'analisi dettagliata dei percorsi del sito visualizzando le pagine del sito visualizzate dai visitatori prima di visualizzare una pagina selezionata sul sito.
+**[!UICONTROL Previous Page]** (o altre categorie precedenti): Fornisce un&#39;analisi dettagliata dei percorsi del sito visualizzando le pagine del sito visualizzate dai visitatori prima di visualizzare una pagina selezionata sul sito.
 
-**[!UICONTROL Fallout]**: Visualizza l'attrito della visita e i tassi di conversione tra ciascun checkpoint definito. I passaggi sono disposti dall’alto verso il basso, con i numeri non elaborati e le percentuali visualizzate a sinistra, e le percentuali di conversione e di abbandono a destra.
+**[!UICONTROL Fallout]**: Visualizza l&#39;attrito della visita e i tassi di conversione tra ciascun checkpoint definito. I passaggi sono disposti dall’alto verso il basso, con i numeri non elaborati e le percentuali visualizzate a sinistra, e le percentuali di conversione e di abbandono a destra.
 
-Per ulteriori informazioni, consulta [Rapporto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) di abbandono.
+Per ulteriori informazioni, consulta [Rapporto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) di fallout.
 
 **[!UICONTROL Path Length]**: Mostra la profondità di ricerca dei visitatori nel sito (sia in percentuale che in totale). In altre parole, il rapporto indica quante pagine viene visualizzato dal visitatore medio sul sito prima di uscire.
 
@@ -53,7 +60,7 @@ Per ulteriori informazioni, consulta [Rapporto](/help/analyze/ad-hoc-analysis/c-
 
 ## Report di fallout {#concept_0ED452F3B1D04A19A59DD04D76D20347}
 
-Viene [!UICONTROL Fallout Report] indicato dove i visitatori escono (abbandono) e proseguono attraverso (fallthrough) una sequenza di pagine prestabilita. Visualizza i tassi di conversione e di abbandono tra ciascun passaggio. Ad esempio, puoi tenere traccia dei punti di abbandono di un visitatore durante un processo di acquisto. Selezionate un punto iniziale e un punto finale, quindi aggiungete punti intermedi per creare un percorso di navigazione nel sito Web.
+Viene [!UICONTROL Fallout Report] indicato dove i visitatori escono (abbandono) e proseguono attraverso (fallthrough) una sequenza di pagine specificata in precedenza. Vengono visualizzati i tassi di conversione e di abbandono tra ciascun passaggio. Ad esempio, puoi tenere traccia dei punti di abbandono di un visitatore durante un processo di acquisto. Selezionate un punto iniziale e un punto finale, quindi aggiungete punti intermedi per creare un percorso di navigazione nel sito Web.
 
 <!-- 
 
@@ -61,7 +68,7 @@ c_reports_fallout.xml
 
  -->
 
-Puoi analizzare i dati di abbandono a livello di Visita o Visitatore. Potete inoltre visualizzare un percorso con tendenze che mostra un grafico dell’abbandono in un determinato periodo. Potete impostare uno o più gruppi di pagine come punti di controllo del rapporto, oppure aggiungere qualsiasi dimensione o metrica in qualsiasi combinazione o sequenza. Puoi anche utilizzare le categorie configurate nei report di marketing e analisi come punti di controllo in questo report.
+Puoi analizzare i dati di abbandono a livello di Visita o Visitatore. Potete inoltre visualizzare un percorso con tendenze che mostra un grafico dell’abbandono in un determinato periodo. Potete impostare uno o più gruppi di pagine come punti di controllo del rapporto, oppure aggiungere qualsiasi dimensione o metrica in qualsiasi combinazione o sequenza. In questo rapporto potete anche utilizzare categorie configurate in marketing reports and analytics come punti di controllo.
 
 Questo rapporto è utile per analizzare:
 
@@ -79,13 +86,13 @@ t_fallout.xml
 
  -->
 
-1. Clic **[!UICONTROL Reports]** &gt; **[!UICONTROL New Report]** &gt; **[!UICONTROL Fallout.]**
+1. Fai clic su **[!UICONTROL Reports]** > **[!UICONTROL New Report]** > **[!UICONTROL Fallout.]**
 
-   Altri rapporti di abbandono sono disponibili in **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]**.
+   Altri rapporti di Abbandono sono disponibili in **[!UICONTROL Reports]** > **[!UICONTROL Paths]**.
 
 1. (Facoltativo) Trascina un segmento nel [!UICONTROL Drop Segment Here] campo, se vuoi filtrare i dati per un segmento specifico.
 1. Trascina un elemento dimensione nel [!UICONTROL Drop Event or Dimension Items Here] campo.
-1. Fai clic su **[!UICONTROL Show Fallout At]**A livello di visita o di visitatore, a seconda se desideri visualizzare l'abbandono a livello di visita o tra sessioni di visitatori.
+1. Fai clic su **[!UICONTROL Show Fallout At]**A livello di visita o di visitatore, a seconda se desideri visualizzare l&#39;abbandono a livello di visita o tra sessioni di visitatori.
 1. Aggiungi elementi dimensione, ad esempio pagine, al rapporto.
 
 ## Assegnazione di pagine a un rapporto di abbandono {#task_B386289703494FA7B5A40FF9F97CB537}
@@ -98,7 +105,7 @@ t_fallout_assign_pages.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Fallout]**.
+1. Fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Pages Fallout]**.
 1. Dal [!UICONTROL Dimensions] riquadro, individuare le pagine da aggiungere, quindi trascinarle nel [!UICONTROL Drop Event or Dimension Here] campo.
 
 ## Rapporto Abbandono - Descrizioni dei campi {#reference_74255CC8D6134F349FEBFEC72934C866}
@@ -114,8 +121,8 @@ r_dsc_fallout.xml
 | Campo | Descrizione |
 |--- |--- |
 | Mostra abbandono a livello di visita o visitatore | Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello di visitatore, tra più visite. I rapporti Analisi sito, Flusso e Abbandono sono abilitati per il percorso del visitatore. Modificando questa impostazione si riavvia il rapporto, vincolando i dati alla selezione. |
-| Successo totale | Indicatore totale del successo. Questo valore riflette il valore nell'ultimo punto di controllo del percorso. |
-| % completamento | Totale cumulativo della percentuale di visitatori che arrivano a ogni checkpoint. |
+| Successo totale | Indicatore totale del successo. Questo valore riflette il valore nell&#39;ultimo punto di controllo del percorso. |
+| % del successo totale | Totale cumulativo della percentuale di visitatori che arrivano a ogni checkpoint. |
 | Checkpoint % | Percentuale di successo tra i punti di controllo. (Non cumulativo). |
 | Includi tutte le visite | Aggiunge tutte le visite come punto di controllo iniziale. |
 | Abbandono | Consente di visualizzare le pagine visualizzate dopo che il visitatore è uscito dal percorso del punto di controllo specificato. |
