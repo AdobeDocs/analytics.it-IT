@@ -2,7 +2,7 @@
 title: Acquisisci termini di ricerca interni
 description: Utilizzate una variabile personalizzata per acquisire i termini di ricerca interna.
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). Una volta confermato che funziona nell’ambiente di sviluppo, puoi [convalidare un’implementazione di sviluppo e pubblicarla in produzione](../launch/validate-publish-prod.md).
 
-## Generazione di rapporti in Workspace.
+## Reporting in Workspace
 
 Date un po&#39; di tempo alla vostra implementazione per raccogliere i dati, quindi potete iniziare a utilizzare la dimensione in  Analysis Workspace.
 
