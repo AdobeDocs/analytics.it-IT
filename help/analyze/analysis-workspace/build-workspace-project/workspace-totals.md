@@ -2,7 +2,10 @@
 description: Modalità di calcolo dei totali in Workspace.
 title: Totali in Workspace
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
@@ -16,13 +19,13 @@ Nelle tabelle a forma libera viene visualizzata una riga del totale a ogni livel
 
 ![](assets/total-row.png)
 
-## Impostazione di visualizzazione del totale
+## Impostazione di visualizzazione del totale {#display-total}
 
 In **[!UICONTROL Column Settings]** (Impostazioni colonna) sono disponibili le opzioni **[!UICONTROL Show Totals]** (Mostra totali) e **[!UICONTROL Show Grand Total]** (Mostra totale complessivo). Se queste impostazioni non sono selezionate, i totali verranno rimossi dalla tabella. Ciò può essere utile nei casi in cui i totali siano privi di senso, ad esempio in alcuni [scenari di metriche calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html).
 
 ![](assets/column-settings-total.png)
 
-## Impostazioni Totale riga statica
+## Impostazioni Totale riga statica {#static-row-total}
 
 I totali della [riga statica](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) si comportano in modo diverso e sono controllati in **[!UICONTROL Row Settings]** (Impostazioni riga).
 
