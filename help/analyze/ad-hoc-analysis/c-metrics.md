@@ -3,12 +3,19 @@ description: Le metriche sono informazioni quantitative sull'attività del visit
 title: Metriche
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 7%
 
 ---
 
 
 # Metriche
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Le metriche sono informazioni quantitative sull&#39;attività del visitatore, come visualizzazioni, click-through, ricariche, tempo medio trascorso, date, unità, ordini, ricavi e così via. Metriche e dati associati sono visualizzati nelle colonne dei rapporti.
 
@@ -22,7 +29,7 @@ Le metriche standard includono:
 * **Conversione**: Visualizzate sul sito Web i dati relativi agli eventi di successo. Gli eventi di successo possono includere acquisti, download o qualsiasi altra azione che desideri che gli utenti intraprendano sul tuo sito Web.
 * **Calcolato**: Metriche personalizzabili create combinando altre metriche. Ad esempio, puoi creare una metrica che sottrae il costo della parola chiave e il costo delle merci dalle entrate per ottenere le entrate nette. È quindi possibile suddividere questo importo per il numero totale di ordini per ottenere ricavi netti medi per ordine.
 
-Consulta Definizioni [](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html) metriche nella Guida di riferimento *di* Analytics per informazioni sull&#39;utilizzo delle metriche nel [!DNL Experience Cloud].
+Consulta Definizioni [](https://docs.adobe.com/content/help/it-IT/analytics/components/metrics/overview.html) metriche nella Guida di riferimento *di* Analytics per informazioni sull&#39;utilizzo delle metriche nel [!DNL Experience Cloud].
 
 Potete usare lo [!UICONTROL Organize Metrics] strumento per creare nuove cartelle per le metriche. Potete quindi raggruppare le metriche nel modo desiderato. L’organizzatore consente di copiare le metriche esistenti nelle cartelle personalizzate tramite trascinamento.
 
@@ -38,9 +45,9 @@ t_organize_metrics.xml
 
  -->
 
-1. Nel riquadro [!UICONTROL Metrics] degli strumenti fare clic su **[!UICONTROL More Actions]**. ( ![](assets/tools_icon.png)
+1. Nel riquadro [!UICONTROL Metrics] degli strumenti fare clic su **[!UICONTROL More Actions]**. (  ![](assets/tools_icon.png)
 
-   ).
+   )
 1. Fai clic su **[!UICONTROL Organize Metrics]**.
 1. Fate clic **[!UICONTROL New]** per creare una cartella.
 1. Seleziona le metriche in altre cartelle, quindi trascina la selezione nella nuova cartella.
@@ -72,7 +79,7 @@ t_add_metrics_dsc.xml
 
 ## Generatore di metrica calcolata {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
-Il Generatore della metrica calcolata in Analisi ad hoc è ora associato alle metriche calcolate unificate di Analytics. La sua interfaccia utente è simile a Calculated Metric Builder (Generatore di metriche calcolate) in Analytics.
+Il Generatore di metriche calcolate in  Ad Hoc Analysis è ora associato alle metriche calcolate unificate di Analytics. La sua interfaccia utente è simile a Calculated Metric Builder (Generatore di metriche calcolate) in Analytics.
 
 <!-- 
 
@@ -82,7 +89,7 @@ c_calc_metric_builder.xml
 
 Per ulteriori informazioni sulle modalità di creazione e gestione delle metriche calcolate, consulta la Guida [alla metrica](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html)calcolata.
 
-Di seguito è illustrato come accedere al Generatore di metriche calcolate in Analisi ad hoc:
+Di seguito è illustrato come accedere al Generatore di metriche calcolate in  Ad Hoc Analysis:
 
 1. Nel [!UICONTROL Metrics] riquadro fare clic su **[!UICONTROL More Options]**, quindi **[!UICONTROL Calculated Metrics Builder]**.
 
