@@ -4,9 +4,9 @@ title: Pianificazione Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '979'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
-> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Potete personalizzare la pianificazione della consegna per i rapporti. È possibile interrompere la consegna a una determinata ora, oppure specificare quante volte si desidera inviare un rapporto. Le nuove pianificazioni utilizzano l&#39;intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 
