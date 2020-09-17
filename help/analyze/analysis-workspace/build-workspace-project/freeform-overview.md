@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: 'Crea progetto: panoramica'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '665'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+workflow-type: tm+mt
+source-wordcount: '732'
+ht-degree: 87%
 
 ---
 
@@ -33,14 +33,18 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 
 | Elemento | Descrizione |
 |---|---|
-| Progetto [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
 | [Crea nuovo progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Fai clic su questo collegamento per iniziare un nuovo progetto da zero. |
 | Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
+| Imposta come pagina di destinazione | Trasforma questa pagina nella pagina di destinazione di Workspace. |
 | Visualizza esercitazioni | Consente di accedere ai [video YouTube su Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nome | Nome del progetto Workspace. |
-| Creato da | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
+| Proprietario | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
+| Tipo | Indica se si tratta di un progetto Workspace o di una scorecard [](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/home.html)Mobile. |
+| Ruolo progetto | Indica se siete il proprietario, se potete modificare il progetto o se si tratta di un progetto duplicato. |
 | Tag | Tag applicati al progetto, nel modulo di gestione dei componenti o in **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
 | Ultima modifica | Data e ora dell’ultima volta che il progetto è stato modificato. |
+| Progetti preferiti | Per contrassegnare un progetto come preferito, aprite il progetto e fate clic sulla stella accanto al nome. L’elenco verrà visualizzato al successivo avvio di Workspace. |
+| Progetti visualizzati di frequente | Elenca tutti i progetti aperti frequentemente, per semplificare l&#39;accesso. |
 
 ## Informazioni e impostazioni progetto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
