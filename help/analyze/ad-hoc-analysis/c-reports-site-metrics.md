@@ -4,12 +4,19 @@ title: Rapporti sulle metriche del sito
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1373'
+ht-degree: 1%
 
 ---
 
 
 # Rapporti sulle metriche del sito
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Consente di visualizzare informazioni quantitative sul sito Web, ad esempio quante volte i visitatori hanno guardato determinate pagine, il numero di acquisti complessivi effettuati da pagine specifiche, quando sono arrivati, e dati quantitativi simili. Ciascuno di questi rapporti è una metrica che puoi inserire in altri rapporti basati sugli elementi.
 
@@ -41,11 +48,11 @@ c_reports_visits.xml
 
  -->
 
-Nei reporting e analisi di marketing puoi eseguire una [!UICONTROL Visits Report] pagina selezionata. Nell&#39;analisi ad hoc puoi segmentare i dati per visualizzare pagine specifiche.
+In marketing reports and analytics, è possibile eseguire una [!UICONTROL Visits Report] pagina selezionata. Nell&#39;analisi ad hoc puoi segmentare i dati per visualizzare pagine specifiche.
 
 ## Rapporto Visitatori unici {#concept_39097C54E46C496CBAD537329DB3C84A}
 
-Un rapporto con tendenze che mostra il numero di visitatori univoci che hanno eseguito l&#39;accesso al sito. Ogni visitatore viene conteggiato una volta, a prescindere dal numero di visite che la persona visita il sito Web. Adobe utilizza una tecnologia di cookie-handshake in attesa di brevetto per distinguere un visitatore univoco da un visitatore di ritorno. Il cookie handshake supera i limiti nella tecnologia dei cookie del browser Internet.
+Un rapporto con tendenze che mostra il numero di visitatori univoci che hanno eseguito l&#39;accesso al sito. Ogni visitatore viene conteggiato una volta, a prescindere dal numero di visite che la persona visita il sito Web.  Adobe utilizza una tecnologia di cookie-handshake in attesa di brevetto per distinguere un visitatore univoco da un visitatore di ritorno. Il cookie handshake supera i limiti nella tecnologia dei cookie del browser Internet.
 
 <!-- 
 
@@ -159,8 +166,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL First or Last Touch Channel Report]**: Visualizza le metriche che mostrano i dati su un canale di primo o ultimo contatto specifico. In questi rapporti, puoi suddividere un canale e mostrare i dettagli di ciascun canale. Se hai AdLens abilitato, vedrai le classificazioni nei tuoi report di marketing e nei report sui canali di analisi.
+**[!UICONTROL First or Last Touch Channel Report]**: Visualizza le metriche che mostrano i dati su un canale di primo o ultimo contatto specifico. In questi rapporti, puoi suddividere un canale e mostrare i dettagli di ciascun canale. Se  AdLens sono abilitati, nei rapporti sui canali marketing reports and analytics verranno visualizzate le classificazioni.
 
 **[!UICONTROL First or Last Touch Channel Detail Reports]**: Visualizza dettagli quali i nomi delle pagine e i riferimenti, che vengono ricavati dai valori dei canali impostati nell&#39; [!UICONTROL Set the channel's value to] opzione al momento della configurazione delle regole. I rapporti sui dettagli dei canali consentono di esaminare attentamente i valori dei dettagli dei canali dal rapporto sulla panoramica.
 
-Per ulteriori informazioni sulla configurazione del canale marketing nei reporting e analisi di marketing, consulta la Guida [di canale](/help/components/c-marketing-channels/analyze-mc.md) marketing.
+Per ulteriori informazioni sulla configurazione del canale di marketing in marketing reports and analytics, consultate la Guida [di](/help/components/c-marketing-channels/analyze-mc.md) Marketing Channel.
