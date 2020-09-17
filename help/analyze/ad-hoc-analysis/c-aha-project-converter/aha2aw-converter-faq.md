@@ -3,12 +3,19 @@ description: 'null'
 title: Domande frequenti su Project Converter
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 95%
 
 ---
 
 
 # Domande frequenti su Project Converter
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 ## Domande frequenti su Project Converter {#topic_8231595303AD403E9322645A63632D57}
 
