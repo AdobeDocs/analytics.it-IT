@@ -4,15 +4,19 @@ title: Pianificazione Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 2%
+source-wordcount: '978'
+ht-degree: 3%
 
 ---
 
 
 # Pianificazione Manager
+
+>[!IMPORTANT]
+>
+> Adobe sta spostando  Ad Hoc Analysis a fine ciclo di vita il 1 marzo 2021. [Ulteriori informazioni...](https://adobe.ly/discoverworkspace).
 
 Potete personalizzare la pianificazione della consegna per i rapporti. È possibile interrompere la consegna a una determinata ora, oppure specificare quante volte si desidera inviare un rapporto. Le nuove pianificazioni utilizzano l&#39;intervallo di date definito nel rapporto. Ad esempio, se create un rapporto per gli ultimi 90 giorni e lo pianificate per l’esecuzione giornaliera, riceverete un rapporto per gli ultimi 90 giorni al giorno. Se crei un rapporto con un intervallo di date statico dal calendario, lo stesso rapporto verrà visualizzato ogni volta che viene inviato.
 
@@ -28,13 +32,13 @@ Per garantire che gli elementi di riga in una suddivisione siano persistenti nei
 
 >[!IMPORTANT]
 >
-> Ad hoc analysis consente di definire e pianificare rapidamente i rapporti per specifiche esigenze di reporting ad hoc, tempestive e specifiche. Non è progettato per l&#39;esportazione completa di dati con un numero o più righe, colonne, valutazioni metriche o dettagliate suddivisioni utilizzando estratti di dati.
+> Ad Hoc Analysis consente di definire e pianificare rapidamente i rapporti per specifiche esigenze di reporting ad hoc, tempestive e specifiche. Non è progettato per l&#39;esportazione completa di dati con un numero o più righe, colonne, valutazioni metriche o dettagliate suddivisioni utilizzando estratti di dati.
 >
->I vincoli pratici per la segnalazione programmata in  Ad hoc analysis si basano su questo principio: Se il rapporto non viene generato entro dieci minuti (il timeout per  Ad hoc analysis), è probabile che sia troppo complesso.
+>I vincoli pratici per i report pianificati in  Ad Hoc Analysis si basano su questo principio: Se il rapporto non viene generato entro dieci minuti (il timeout per  Ad Hoc Analysis), è probabile che sia troppo complesso.
 >
->Molto probabilmente il rapporto contiene troppe metriche, troppe suddivisioni di elementi dimensionali, troppe righe o colonne o altri estremi che rendono troppo lungo un processo di generazione del report per  Ad hoc analysis. Questo tipo di rapporto deve essere eseguito in Data warehouse, una funzionalità di Adobe  Analytics realizzata per l&#39;estrazione dati completa in esecuzione offline con generazione di report che può richiedere molte ore o giorni.
+>Molto probabilmente il rapporto contiene troppe metriche, troppe suddivisioni di elementi dimensionali, troppe righe o colonne o altri estremi che rendono troppo lungo il processo di generazione dei report per  Ad Hoc Analysis. Questo tipo di report deve essere eseguito in Data Warehouse, una funzionalità Adobe Analytics  realizzata per l&#39;estrazione dati completa in esecuzione offline con generazione di report che può richiedere molte ore o giorni.
 >
->Ad esempio,  Ad hoc analysis è in grado di gestire 50.000 righe di dati, ma suddividere tali dati per dieci tipi di browser significa 50.000 volte 10, un aumento esponenziale che potrebbe essere troppo complesso per uno strumento di reporting ad hoc. Ulteriori analisi approfondite aumentano di nuovo le righe di dati in modo esponenziale. La definizione del numero o delle righe, colonne e suddivisioni effettivi da vincolare per  report Ad hoc analysis non può essere definita in termini netti, ma è una combinazione di tutti questi fattori.
+>Ad esempio,  Ad Hoc Analysis è in grado di gestire 50.000 righe di dati, ma suddividere tali dati per dieci tipi di browser significa 50.000 volte 10, un aumento esponenziale che potrebbe essere troppo complesso per uno strumento di reporting ad hoc. Ulteriori analisi approfondite aumentano di nuovo le righe di dati in modo esponenziale. La definizione del numero o delle righe, colonne e suddivisioni effettivi da vincolare per  report Ad Hoc Analysis non può essere definita in termini netti, ma è una combinazione di tutti questi fattori.
 
 ## Pianificazione di un rapporto per la consegna {#task_7A3165C8C5C349718FE3B2B0C727ACFD}
 
@@ -83,7 +87,7 @@ Potete inviare le informazioni visualizzate nel rapporto attualmente selezionato
     <ul id="ul_711C2D9B216C48359F7B42521D927872"> 
      <li id="li_36E8DEFDA1B84890A4204A6DFF4E0267">Excel: Invia il rapporto in un foglio di calcolo, incluse tutte le immagini. Modificabile in Microsoft Excel. </li> 
      <li id="li_C918FA3AE8194BD2B59E554DAC7CBBE2">CSV: Invia il rapporto in Valori separati da virgole. Modificabile in un semplice editor di testo (come Blocco note) o in un editor di fogli di calcolo (come Excel). Non contiene immagini. </li> 
-     <li id="li_B7C8C098C5264B349C21077A0DEFE059">PDF: Invia il rapporto in formato documento portatile. Non modificabile e visualizzabile in Adobe Acrobat o Adobe Reader. </li> 
+     <li id="li_B7C8C098C5264B349C21077A0DEFE059">PDF: Invia il rapporto in formato documento portatile. Non modificabile e visualizzabile in  Adobe Acrobat o  Adobe Reader. </li> 
      <li id="li_B1183DB25DE34B689FBD0E5B44691F49">HTML: Invia il rapporto in un allegato Hypertext Markup Language. Questo è il formato di cui sono composti la maggior parte dei siti Web. Modificabile solo se si ha familiarità con il codice HTML. </li> 
      <li id="li_5ED5F1862AB1490A9FF5695FF9F52C5E">Word: Invia il rapporto in formato RTF, incluse tutte le immagini. Modificabile in Microsoft Word o WordPad. </li> 
     </ul> </td> 
