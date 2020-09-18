@@ -2,9 +2,9 @@
 title: referrer
 description: Ignora il referente raccolto automaticamente per un hit.
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->Evitate di impostare questa variabile su valori non URL.
+>Evitate di impostare questa variabile su valori non URL. Non rimuovere il protocollo dell&#39;URL.
 
 ## Esempio
 
