@@ -5,7 +5,10 @@ title: Panoramica sulle regole di elaborazione
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 14%
 
 ---
 
@@ -17,13 +20,13 @@ Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il cont
 * Impostare un evento nella pagina della panoramica del prodotto
 * Compilare una campagna con un parametro stringa di query
 * Concatenate la categoria e il nome della pagina in una prop per una generazione di rapporti più semplice
-* Copia di un&#39;eVar in una prop per visualizzare i percorsi
+* Copiare un eVar  in una prop per vedere i percorsi
 * Pulizia delle sezioni di sito errate
-* Estrarre i termini di ricerca interni o l&#39;ID di una campagna dalla stringa di query in una eVar
+* Estrarre i termini di ricerca interni o un ID campagna dalla stringa di query in un eVar 
 
 >[!VIDEO](https://tv.adobe.com/embed/1181/16506/?captions=ita)
 
-*Consulta la panoramica sulle regole di elaborazione e i corsi di formazione di Adobe Summit per scoprire perché devi usare le regole di elaborazione.*
+*Consulta la panoramica sulle regole di elaborazione e la formazione di  Summit Adobe per scoprire perché dovresti usare le regole di elaborazione.*
 
 ## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}
 
@@ -40,11 +43,11 @@ Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole 
 
 >[!IMPORTANT]
 >
->Poiché le regole di elaborazione influiscono in modo permanente sui dati di Analytics, consigliamo vivamente agli amministratori delle regole di elaborazione di ricevere formazione sulla certificazione in Adobe Analytics, e di avere familiarità con tutte le origini di dati per le suite di rapporti (siti Web standard, siti mobili, app mobili, API di inserimento dati e così via). La conoscenza delle variabili di dati contestuali e delle variabili standard popolate in varie piattaforme contribuirà a prevenire l’eliminazione o l’alterazione accidentale dei dati.
+>Poiché le regole di elaborazione influiscono in modo permanente sui dati di Analytics,  Adobe consiglia vivamente agli amministratori delle regole di elaborazione di ricevere formazione sulla certificazione in  Adobe Analytics e di avere familiarità con tutte le origini di dati per le suite di rapporti (siti Web standard, siti mobili, app mobili, API di inserimento dati e così via). La conoscenza delle variabili di dati contestuali e delle variabili standard popolate in varie piattaforme contribuirà a prevenire l’eliminazione o l’alterazione accidentale dei dati.
 
 ## Utilizzare i dati contestuali per semplificare la raccolta dei dati {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Le variabili di dati di contesto sono un nuovo tipo di variabile disponibile solo per l&#39;elaborazione delle regole. Per utilizzare le variabili di dati di contesto, le coppie di dati chiave/valore vengono inviate dall&#39;implementazione e le regole di elaborazione vengono utilizzate per acquisire questi valori in variabili Analytics standard. Questo consente ai programmatori di capire esattamente quale prop e/o eVar deve contenere tale valore.
+Le variabili di dati di contesto sono un tipo di variabile disponibile solo per le regole di elaborazione. Per utilizzare le variabili di dati di contesto, le coppie di dati chiave/valore vengono inviate dall&#39;implementazione e le regole di elaborazione vengono utilizzate per acquisire questi valori in variabili Analytics standard. Questo consente ai programmatori di capire esattamente quale prop e/o  eVar deve contenere tale valore.
 
 ![](assets/evar-context-map.png)
 
