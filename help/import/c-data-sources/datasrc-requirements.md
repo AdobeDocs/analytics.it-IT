@@ -5,7 +5,10 @@ title: Requisiti e limiti di caricamento
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 92%
 
 ---
 
@@ -92,8 +95,8 @@ Se invii un file UTF-8 o ISO-8859-1 e la suite di rapporti non è configurata pe
 * I rapporti più utili per visualizzare i dati Registro web sono i rapporti del traffico, come le visualizzazioni pagina.
 * I nomi delle pagine sono visualizzati come URL completo, inclusa la stringa di query.
 * Ogni richiesta di file è visualizzata come visualizzazione pagina separata, che include i fogli di stile e i file di immagine.
-* Se aggiungi informazioni all&#39;URL, i file potrebbero essere registrati come pagine separate. Ad esempio, i rapporti di marketing registrano gli URL seguenti come due pagine separate:
+* Se aggiungi informazioni all&#39;URL, i file potrebbero essere registrati come pagine separate. Ad esempio,  Adobe registra i seguenti URL come due pagine separate:
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
