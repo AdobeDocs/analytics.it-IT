@@ -4,7 +4,7 @@ title: Tipi di rapporto
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 3%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Ad esempio, se disponi di dati specifici su server diversi o se hai dati con mirroring su server separati, il rapporto mostra il percorso tra i server colpiti dagli utenti. Questo vale anche per i domini all’interno del sito Web. Ad esempio, potete vedere quanti utenti sono passati da un `https://www.mysite.com` a `https://info.mysite.com` o `https://sales.mysite.com`.
+Ad esempio, se disponi di dati specifici su server diversi o se hai dati con mirroring su server separati, il rapporto mostra il percorso tra i server colpiti dagli utenti. Questo vale anche per i domini all’interno del sito Web. Ad esempio, potete vedere quanti utenti sono passati da un `https://www.example.com` a `https://info.example.com` o `https://sales.example.com`.
 
 ## Flusso sezione successiva {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Ad esempio, se disponi di dati specifici su server diversi o se hai dati con mirroring su server separati, il rapporto mostra il percorso tra i server colpiti dagli utenti. Questo vale anche per i domini all’interno del sito Web. Ad esempio, potete vedere quanti utenti sono passati da un `www.mysite.com` a `info.mysite.com` o `sales.mysite.com`.
+Ad esempio, se disponi di dati specifici su server diversi o se hai dati con mirroring su server separati, il rapporto mostra il percorso tra i server colpiti dagli utenti. Questo vale anche per i domini all’interno del sito Web. Ad esempio, potete vedere quanti utenti sono passati da un `www.example.com` a `info.example.com` o `sales.example.com`.
 
 ## Report funnel di conversione {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
