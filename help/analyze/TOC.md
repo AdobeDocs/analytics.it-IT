@@ -6,9 +6,9 @@ breadcrumb-title: Tools Guide
 user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics.
 breadcrumb-url: /docs/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 98%
 
 ---
@@ -274,7 +274,8 @@ ht-degree: 98%
    + [Configurare le impostazioni di Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interfaccia utente di Activity Map](activity-map/activitymap-user-interface.md)
    + [Generazione di rapporti Activity Map in Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Risoluzione dei problemi relativi alle estensioni del browser](activity-map/troubleshooting-browser-extensions.md)
+   + [Risoluzione dei problemi relativi all&#39;estensione del browser](activity-map/troubleshooting-browser-extensions.md)
+   + [Risoluzione dei problemi di raccolta dei dati](activity-map/troubleshoot-data-collection.md)
    + [Risorse relative alla conoscenza](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Introduzione a Reports and Analytics](reports-analytics/getting-started.md)
