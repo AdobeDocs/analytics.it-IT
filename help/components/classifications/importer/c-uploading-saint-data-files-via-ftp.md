@@ -5,9 +5,9 @@ title: Importazione FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '703'
 ht-degree: 3%
 
 ---
@@ -95,3 +95,7 @@ Per ulteriori informazioni sui server FTP [e sFTP](https://docs.adobe.com/conten
 1. Fai clic su **[!UICONTROL Save]**.
 
 Una volta creati, potete modificare o eliminare gli account FTP facendo clic sul collegamento appropriato accanto all&#39;account FTP desiderato.
+
+>[!NOTE]
+>
+>Le notifiche non vengono inviate se un&#39;importazione non introduce modifiche a una classificazione. Un messaggio e-mail viene inviato solo se ha esito positivo e comporta modifiche alla classificazione.
