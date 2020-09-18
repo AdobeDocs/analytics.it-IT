@@ -2,10 +2,10 @@
 title: Tempo medio sul sito
 description: Il tempo medio in cui un dato elemento dimensione esisteva tra gli hit.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: '538'
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,10 @@ Il tempo totale impiegato per `Product page A` è `00:03:10`. Questa visita ha a
 
 Il tempo medio sul sito per `Product page A` è `00:01:35`.
 
+>[!NOTE]
+>
+>Questa metrica mostra un valore di `"Invalid"` se l’elemento della dimensione contiene solo gli hit dell’ultima visita. Questa metrica richiede un hit successivo per tenere traccia del tempo trascorso.
+
 ## Tempo medio trascorso sul sito (secondi)
 
 La metrica &#39;Tempo medio trascorso sul sito (secondi)&#39; mostra gli stessi dati presentati come un numero intero invece che in `HH:MM:SS` formato. Questa metrica è particolarmente utile come componente nelle metriche calcolate.
@@ -77,6 +81,6 @@ Poiché nella dimensione di suddivisione era presente una singola sequenza, util
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio sul sito dell&#39;intera dimensione e il numeratore è il tempo medio sul sito dell&#39;elemento della dimensione. Se il tempo medio sul sito dell&#39;intera dimensione è inferiore al tempo medio sul sito di un dato elemento dimensione, verranno visualizzate percentuali superiori al 100%. L&#39;ordinamento di report con classifica in base a questa metrica mostra il tempo medio anomalo sui valori del sito, che in genere non è prezioso. Adobe consiglia di ordinare i dati in base a un’altra metrica, ad esempio [Visite](visits.md), nei rapporti con classifica.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio sul sito dell&#39;intera dimensione e il numeratore è il tempo medio sul sito dell&#39;elemento della dimensione. Se il tempo medio sul sito dell&#39;intera dimensione è inferiore al tempo medio sul sito di un dato elemento dimensione, verranno visualizzate percentuali superiori al 100%. L&#39;ordinamento di report con classifica in base a questa metrica mostra il tempo medio anomalo sui valori del sito, che in genere non è prezioso.  Adobe consiglia l&#39;ordinamento in base a un&#39;altra metrica, come [Visite](visits.md), nei report con classifica.
 
 Consultate Panoramica sul [tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.
