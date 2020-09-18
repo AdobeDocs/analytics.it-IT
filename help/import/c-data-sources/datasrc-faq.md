@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Domande frequenti su Origini dati
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 95%
 
 ---
 
@@ -133,3 +136,14 @@ No per elaborazione completa, sì per ID transazione. Le origini dati a elaboraz
 
 No. Le eVar caricate tramite origini dati ID transazione vengono lette solo dalle informazioni profilo memorizzate e non aggiornano il profilo.
 No. Le eVar sono le uniche variabili salvate nello snapshot del profilo visitatore.
+
+## Come funzionano gli eventi numerici e valutari con le origini dati?
+
+L&#39;elaborazione completa supporta solo i formati legacy dell&#39;elenco eventi, escludendo il valore numerico/valutario (più di 1) dell&#39;evento direttamente nell&#39;elenco eventi, `"eventNN,eventKK"` non `"eventNN=#.##"`. Significa che supporta un evento contatore solo se viene passato nella colonna eventi nel file dell&#39;origine dati e incrementa di 1.
+
+Se sono richiesti eventi numerici, valutari o contatore (più di 1), utilizzare l&#39;elenco dei prodotti:
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
