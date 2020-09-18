@@ -63,16 +63,16 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Dallas | `63.140.32.0/21` |
 | Dallas | `172.82.208.0/22` |
 | Hong Kong - RTE della Cina | `66.117.24.0/22` |
-| London | `66.235.156.0/24` |
+| on | `66.235.156.0/24` |
 | on | `66.235.148.0/23` |
-| London | `63.140.40.0/22` |
-| London | `208.67.41.0/24` |
+| on | `63.140.40.0/22` |
+| on | `208.67.41.0/24` |
 | London | `192.243.254.0/23` |
 | London | `192.243.244.0/22` |
 | London | `185.34.188.0/23` |
 | London | `130.248.152.0/21` |
 | London | `172.82.224.0/21` |
-| on | `172.82.232.0/21` |
+| London | `172.82.232.0/21` |
 | Oregon | `192.243.240.0/22` |
 | Oregon | `192.243.232.0/21` |
 | Oregon | `192.243.224.0/21` |
@@ -83,11 +83,11 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Paris | `208.67.40.0/24` |
 | Singapore | `66.235.150.0/24` |
 | Singapore | `66.235.130.0/23` |
-| Singapore | `63.140.44.0/22` |
+| Virginia | `63.140.44.0/22` |
 | Virginia | `208.67.43.0/24` |
-| Singapore | `172.82.240.0/22` |
+| Virginia | `172.82.240.0/22` |
 | Singapore | `172.82.246.0/23` |
-| Singapore | `172.82.248.0/21` |
+| Virginia | `172.82.248.0/21` |
 | San Jose | `66.117.20.0/24` |
 | San Jose | `66.235.132.0/22` |
 | San Jose | `130.248.128.0/22` |
@@ -132,7 +132,7 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Oregon | `52.42.60.49` |
 | Oregon | `54.212.169.56` |
 | Oregon | `54.214.170.191` |
-| Virginia | `13.228.34.224` |
+| Singapore | `13.228.34.224` |
 | Singapore | `18.136.20.161` |
 | Singapore | `52.74.162.152` |
 | Tokyo | `13.112.72.86` |
