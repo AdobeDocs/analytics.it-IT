@@ -2,10 +2,10 @@
 title: Domande frequenti relative all'implementazione
 description: Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni.
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 68%
+source-wordcount: '498'
+ht-degree: 48%
 
 ---
 
@@ -49,3 +49,13 @@ var s = new Object();
 >* Rimuovere il `s_code.js` file, a meno che non vengano rimossi anche tutti i riferimenti al file in ogni pagina.
 >* Modificate la `trackingServer` variabile in modo che punti lontano dal Adobe . AppMeasurement invia comunque le richieste di immagini, che restituiscono 404 errori.
 
+
+## Ho eseguito AppMeasurement attraverso un analizzatore di codice, e ha segnalato il suo utilizzo `Math.random()` come potenziale rischio per la sicurezza. Viene `Math.random()` utilizzato con dati sensibili?
+
+No. I numeri utilizzati non `Math.random()` vengono utilizzati per mascherare, inviare o ricevere dati riservati. I dati inviati a  server di raccolta dati di Adobe si basano sulla sicurezza della connessione HTTPS sottostante. <!-- AN-173590 -->
+
+AppMeasurement utilizza `Math.random()` in tre aree chiave:
+
+* **Campionamento**: A seconda dell’implementazione, alcune informazioni potrebbero essere raccolte solo per una piccola percentuale di visitatori del sito. `Math.random()` viene utilizzato per determinare se un determinato visitatore deve inviare dati. La maggior parte delle implementazioni non utilizza il campionamento.
+* **ID** visitatore fallback: Se l’ID visitatore non può essere recuperato dai cookie, viene generato un ID visitatore casuale. Questa parte di AppMeasurement utilizza due chiamate a `Math.random()`.
+* **Recupero** cache: Viene aggiunto un numero casuale alla fine degli URL delle richieste di immagini per impedire il caching del browser.
