@@ -6,9 +6,9 @@ title: Riferimento colonna dati
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
+source-wordcount: '3667'
 ht-degree: 2%
 
 ---
@@ -31,10 +31,10 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | Nome colonna | Descrizione colonna | Tipo di dati |
 | --- | --- | --- |
 | `accept_language` | Elenca tutte le lingue accettate, come indicato nell’intestazione HTTP Accept-Language in una richiesta di immagine. | char(20) |
-| `aemassetid` | Variabile multivalore corrispondente ai GUID (Asset ID) di un set di risorse  Adobe Experience Manager. Incrementa Gli Eventi Di Impressione. | text |
-| `aemassetsource` | Identifica l&#39;origine dell&#39;evento della risorsa. Usato in  Adobe Experience Manager. | varchar(255) |
-| `aemclickedassetid` | ID risorsa di una risorsa  Adobe Experience Manager. Incrementi Fare Clic Su Eventi. | varchar(255) |
-| `browser` | ID numerico del browser. Fa riferimento alla tabella di ricerca browser.tsv. | int non firmato |
+| `aemassetid` | Variabile multivalore corrispondente ai GUID di un set di risorse Adobe Experience Manager. Incrementa Gli Eventi Di Impressione. | text |
+| `aemassetsource` | Identifica l&#39;origine dell&#39;evento della risorsa. Utilizzata in Adobe Experience Manager. | varchar(255) |
+| `aemclickedassetid` | ID risorsa di una risorsa Adobe Experience Manager. Incrementi Fare Clic Su Eventi. | varchar(255) |
+| `browser` | ID numerico del browser. Fa riferimento alla tabella di ricerca browser.tsv. | int senza segno |
 | `browser_height` | Altezza in pixel della finestra del browser. | numero piccolo senza segno |
 | `browser_width` | Larghezza in pixel della finestra del browser. | numero piccolo senza segno |
 | `c_color` | Profondità in bit della tavolozza dei colori. Utilizzato come parte del calcolo della dimensione Profondità colore. Utilizza la funzione JavaScript screen.colorDepth(). | char(20) |
@@ -45,7 +45,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `click_action_type` | Non più utilizzato. Tipo di collegamento dello strumento ClickMap precedente.<br>0: URL<br>1 HREF: ID<br>personalizzato 2: Evento<br>3 JavaScript onClick: Elemento modulo | tinyint non firmato |
 | `click_context` | Non più utilizzato. Nome pagina in cui si è verificato il clic sul collegamento. Parte dello strumento ClickMap legacy. | varchar(255) |
 | `click_context_type` | Non più utilizzato. Indica se click_context ha un nome di pagina o se è stato impostato automaticamente sull’URL della pagina.<br>0: URL<br>pagina 1: Nome pagina | tinyint non firmato |
-| `click_sourceid` | Non più utilizzato. ID numerico per la posizione sulla pagina del collegamento selezionato. Parte dello strumento ClickMap legacy. | int non firmato |
+| `click_sourceid` | Non più utilizzato. ID numerico per la posizione sulla pagina del collegamento selezionato. Parte dello strumento ClickMap legacy. | int senza segno |
 | `click_tag` | Non più utilizzato. Tipo di elemento HTML su cui è stato fatto clic. | char(10) |
 | `clickmaplink` | Collegamento Activity Map  | varchar(255) |
 | `clickmaplinkbyregion` | Collegamento Activity Map  per regione | varchar(255) |
@@ -71,7 +71,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `ef_id` | Il ef_id utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variabili personalizzate 1-250. Ogni organizzazione utilizza eVar in modo diverso. Il luogo migliore per ulteriori informazioni su come la tua organizzazione compila le rispettive eVar sarebbe un documento di progettazione della soluzione specifico per la tua organizzazione. | varchar(255) |
 | `event_list` | Elenco separato da virgole di ID numerici che rappresentano gli eventi attivati sull’hit. Include sia gli eventi predefiniti che gli eventi personalizzati 1-1000. Utilizza la ricerca event.tsv. | text |
-| `exclude_hit` | Flag che indica che l’hit è escluso dal reporting. La colonna visit_num non viene incrementata per gli hit esclusi.<br>1: Non utilizzato. Parte di una feature di scarto.<br>2: Non utilizzato. Parte di una feature di scarto.<br>3: Non più utilizzato. Esclusione<br>agente utente 4: Esclusione basata sull&#39;indirizzo<br>IP 5: Informazioni hit vitali mancanti, ad esempio page_url, page_name, page_event o event_list<br>6: JavaScript non ha elaborato correttamente l&#39;hit<br>7: Esclusione specifica dell&#39;account, ad esempio in una regola<br>VISTA 8: Non utilizzato. Esclusione specifica per l&#39;account alternativa.<br>9: Non utilizzato. Parte di una feature di scarto.<br>10: Codice<br>valuta 11 non valido: Hit manca una marca temporale in una suite di rapporti con solo marca temporale o un hit contiene una marca temporale in una suite<br>12 di rapporti con marca non temporale: Non utilizzato. Parte di una feature di scarto.<br>13. Non utilizzato. Parte di una feature di scarto.<br>14. Hit Target che non corrisponde a un hit<br>15 Analytics : Al momento non utilizzato.<br>16.  hit Advertising Cloud che non corrisponde a un hit Analytics  | tinyint non firmato |
+| `exclude_hit` | Flag che indica che l’hit è escluso dal reporting. La colonna visit_num non viene incrementata per gli hit esclusi.<br>1: Non utilizzato. Parte di una feature di scarto.<br>2: Non utilizzato. Parte di una feature di scarto.<br>3: Non più utilizzato. Esclusione<br>agente utente 4: Esclusione basata sull&#39;indirizzo<br>IP 5: Informazioni hit vitali mancanti, ad esempio `page_url`, `pagename`, `page_event`o `event_list`<br>6: JavaScript non ha elaborato correttamente l&#39;hit<br>7: Esclusione specifica dell&#39;account, ad esempio in una regola<br>VISTA 8: Non utilizzato. Esclusione specifica per l&#39;account alternativa.<br>9: Non utilizzato. Parte di una feature di scarto.<br>10: Codice<br>valuta 11 non valido: Hit manca una marca temporale in una suite di rapporti con solo marca temporale o un hit contiene una marca temporale in una suite<br>12 di rapporti con marca non temporale: Non utilizzato. Parte di una feature di scarto.<br>13. Non utilizzato. Parte di una feature di scarto.<br>14. Hit di destinazione che non corrisponde a un hit<br>15 di Analytics: Al momento non utilizzato.<br>16.  hit Advertising Cloud che non corrisponde a un hit Analytics | tinyint non firmato |
 | `first_hit_page_url` | Il primo URL del visitatore. | varchar(255) |
 | `first_hit_pagename` | Variabile utilizzata nella dimensione Originale pagina di immissione. Il nome originale della pagina di immissione del visitatore. | varchar(100) |
 | `first_hit_ref_domain` | Variabile utilizzata nella dimensione Dominio di riferimento originale. Basato su first_hit_referrer. Il primo dominio di riferimento del visitatore. | varchar(100) |
@@ -80,7 +80,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `first_hit_time_gmt` | Timestamp del primo hit del visitatore in Unix time. | int |
 | `geo_city` | Nome della città da cui proveniva l’hit, basato su IP.  Adobe collabora con Digital Envoy per far corrispondere l&#39;indirizzo IP alla città. | char(32) |
 | `geo_country` | Abbreviazione del paese da cui l&#39;hit è venuto, basato su IP.  Adobe collabora con Digital Inviate per adattare l&#39;indirizzo IP al Paese. | char(4) |
-| `geo_dma` | ID numerico dell’area demografica da cui proveniva l’hit, basato su IP.  Adobe collabora con Digital Inviate per adattare l&#39;indirizzo IP all&#39;area demografica. | int non firmato |
+| `geo_dma` | ID numerico dell’area demografica da cui proveniva l’hit, basato su IP.  Adobe collabora con Digital Inviate per adattare l&#39;indirizzo IP all&#39;area demografica. | int senza segno |
 | `geo_region` | Nome dello stato o della regione da cui proveniva l’hit, in base all’IP.  Adobe collabora con Digital Enviy per far corrispondere l&#39;indirizzo IP allo stato/regione. | char(32) |
 | `geo_zip` | Il codice zip dal quale proveniva l’hit, basato su IP.  Adobe collabora con Digital Enviy per far corrispondere l&#39;indirizzo IP al codice postale. | varchar(16) |
 | `hier1 - hier5` | Utilizzata dalle variabili della gerarchia. Contiene un elenco delimitato di valori. Il carattere di delimitazione è selezionato nelle impostazioni della suite di rapporti. | varchar(255) |
@@ -97,7 +97,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `javascript` | ID di ricerca della versione JavaScript, basato su j_jscript. Utilizza la tabella di ricerca. | tinyint non firmato |
 | `language` | ID numerico della lingua. Utilizza la tabella di ricerca language.tsv. | numero piccolo senza segno |
 | `last_hit_time_gmt` | Timestamp (in tempo Unix) dell’hit precedente. Utilizzato per calcolare la dimensione Giorni dall’ultima visita. | int |
-| `last_purchase_num` | Variabile utilizzata nella dimensione Fedeltà cliente. Indica il numero di acquisti precedenti effettuati dal visitatore. <br>0: Nessun acquisto precedente (non cliente) <br>1: 1 acquisto precedente (nuovo cliente) <br>2: 2 acquisti precedenti (cliente reso) <br>3: 3 o più acquisti precedenti (cliente leale) | int non firmato |
+| `last_purchase_num` | Variabile utilizzata nella dimensione Fedeltà cliente. Indica il numero di acquisti precedenti effettuati dal visitatore. <br>0: Nessun acquisto precedente (non cliente) <br>1: 1 acquisto precedente (nuovo cliente) <br>2: 2 acquisti precedenti (cliente reso) <br>3: 3 o più acquisti precedenti (cliente leale) | int senza segno |
 | `last_purchase_time_gmt` | Utilizzata nella dimensione Giorni dall&#39;ultimo acquisto. Timestamp (in Unix ora) dell’ultimo acquisto effettuato. Per gli acquisti e i visitatori che non hanno effettuato un acquisto in precedenza, questo valore è 0. | int |
 | `latlon1` | Posizione (fino a 10 chilometri) | varchar(255) |
 | `latlon23` | Posizione (fino a 100 m) | varchar(255) |
@@ -150,7 +150,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `mvvar1` - `mvvar3` | Elenca i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell&#39;implementazione. | text |
 | `namespace` | Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(50) |
 | `new_visit` | Flag che determina se l’hit corrente è una nuova visita. Impostato da  server di Adobe dopo 30 minuti di inattività della visita. | tinyint non firmato |
-| `os` | ID numerico che rappresenta il sistema operativo del visitatore. Basato sulla colonna user_agent. Utilizza la ricerca os. | int non firmato |
+| `os` | ID numerico che rappresenta il sistema operativo del visitatore. Basato sulla colonna user_agent. Utilizza la ricerca os. | int senza segno |
 | `p_plugins` | Non più utilizzato. Elenco di plug-in disponibili per il browser. Utilizzata la funzione JavaScript navigator.plugins(). | text |
 | `page_event` | Tipo di hit inviato nella richiesta di immagine (hit standard, collegamento per il download, collegamento personalizzato, collegamento di uscita). See [Page event lookup](datafeeds-page-event.md). | tinyint non firmato |
 | `page_event_var1` | Utilizzata solo nelle richieste di tracciamento dei collegamenti per le immagini. È stato fatto clic sull’URL del collegamento di download, del collegamento di uscita o del collegamento personalizzato. | text |
@@ -158,7 +158,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `page_event_var3` | Non più utilizzato. Dati del modulo Survey e Media contenuti. Vengono compilati rapporti video precedenti nelle versioni precedenti di  Adobe Analytics. | text |
 | `page_type` | Viene utilizzata per compilare la dimensione Pagine non trovate, utilizzata esclusivamente per 404 pagine. Questa variabile deve essere vuota o contenere &quot;ErrorPage&quot;. | char(20) |
 | `page_url` | URL dell’hit. Non utilizzato nelle richieste di immagini per il tracciamento dei collegamenti. | varchar(255) |
-| `pagename` | Utilizzato per compilare la dimensione Pagine. Se la variabile nomepagina è vuota,  Analytics utilizza invece page_url. | varchar(100) |
+| `pagename` | Utilizzato per compilare la dimensione Pagine. Se la variabile nome pagina è vuota, Analytics utilizza invece page_url. | varchar(100) |
 | `paid_search` | Flag impostato se l’hit corrisponde al rilevamento della ricerca a pagamento. | tinyint non firmato |
 | `partner_plugins` | Non utilizzato. Parte di una feature di scarto molti anni fa. | varchar(255) |
 | `persistent_cookie` | Utilizzata dalla dimensione Supporto cookie persistente. Indica se il visitatore supporta i cookie che non vengono scartati dopo ogni hit. | char(1) |
@@ -166,7 +166,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `pointofinterest` | Nome del punto di interesse di Mobile Services | varchar(255) |
 | `pointofinterestdistance` | Distanza da Mobile Services a punto di interesse | varchar(255) |
 | `post_ columns` | Contiene il valore utilizzato in ultima analisi nei report. Ogni colonna di post viene compilata dopo logica lato server, regole di elaborazione e regole VISTA.  Adobe consiglia di utilizzare le colonne di post nella maggior parte dei casi. | Vedere le rispettive colonne non post |
-| `prev_page` | Non utilizzato.  identificatore proprietario Adobe della pagina precedente. | int non firmato |
+| `prev_page` | Non utilizzato.  identificatore proprietario Adobe della pagina precedente. | int senza segno |
 | `product_list` | Elenco prodotti come trasmesso tramite la variabile &quot;products&quot;. I prodotti sono delimitati da virgole, mentre le singole proprietà del prodotto sono delimitate da punto e virgola. | text |
 | `product_merchandising` | Non utilizzato. Utilizzare product_list. | text |
 | `prop1` - `prop75` | Variabili di traffico personalizzate 1-75. | varchar(100) |
@@ -178,7 +178,7 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `resolution` | ID numerico che rappresenta la risoluzione del monitor. Compila la dimensione Risoluzione monitor. Utilizza la tabella di ricerca resolution.tsv. | numero piccolo senza segno |
 | `s_kwcid` | ID parola chiave utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
 | `s_resolution` | Valore di risoluzione dello schermo non elaborato. Raccolte utilizzando la funzione JavaScript screen.width x screen.height. | char(20) |
-| `sampled_hit` | Non più utilizzato. In precedenza era utilizzato per il campionamento in  Ad hoc analysis. | char(1) |
+| `sampled_hit` | Non più utilizzato. In precedenza veniva utilizzato per il campionamento in  Ad Hoc Analysis. | char(1) |
 | `search_engine` | ID numerico che rappresenta il motore di ricerca che ha indirizzato il visitatore al sito. Utilizza la ricerca search_Engine.tsv. | numero piccolo senza segno |
 | `search_page_num` | Utilizzata dalla dimensione Classifica pagina di ricerca. Indica in quale pagina di risultati di ricerca il sito è stato visualizzato prima che l’utente facesse clic sul sito. | numero piccolo senza segno |
 | `secondary_hit` | Flag che tiene traccia degli hit secondari. Di norma l’origine viene dai tag con più suite e dalle regole VISTA che copiano gli hit. | tinyint non firmato |
@@ -201,8 +201,8 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `state` | Variabile di stato. | varchar(50) |
 | `stats_server` | Non è utile.  server interno del Adobe che ha elaborato l’hit. | char(30) |
 | `t_time_info` | Ora locale per il visitatore. Il formato è il seguente: M/G/AAAA HH:MM:SS Mese (0-11, 0=gennaio) Offset fuso orario (in minuti) | varchar(100) |
-| `tnt` | Utilizzata nelle integrazioni  Adobe Target. | text |
-| `tnt_action` | Utilizzata nelle integrazioni  Adobe Target. | text |
+| `tnt` | Utilizzata  integrazioni Adobe Target. | text |
+| `tnt_action` | Utilizzata  integrazioni Adobe Target. | text |
 | `tnt_post_vista` | Non più utilizzato. Utilizzare invece post_tnt. | text |
 | `transactionid` | Un identificatore univoco in cui è possibile caricare vari punti dati in un secondo momento tramite origini dati. | text |
 | `truncated_hit` | Flag che indica che la richiesta di immagine è stata troncata. Indica che è stato ricevuto un hit parziale. <br>Y: Hit è stato troncato; hit parziale ricevuto <br>N: Hit non è stato troncato; hit completo ricevuto | char(1) |
@@ -210,9 +210,9 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `ua_os` | Non più utilizzato. Precedentemente utilizzato come fallback per il sistema operativo. | char(80) |
 | `ua_pixels` | Non più utilizzato. Precedentemente usato come fallback per l’altezza e la larghezza del browser. | char(20) |
 | `user_agent` | Stringa agente utente inviata nell’intestazione HTTP della richiesta di immagine. | text |
-| `user_hash` | Non è utile. Hash sull&#39;ID della suite di rapporti. Utilizzate il nome utente. | int non firmato |
+| `user_hash` | Non è utile. Hash sull&#39;ID della suite di rapporti. Utilizzate il nome utente. | int senza segno |
 | `user_server` | Variabile utilizzata nella dimensione Server. | varchar(100) |
-| `userid` | Non è utile. ID numerico per l&#39;ID suite di rapporti. Utilizzate il nome utente. | int non firmato |
+| `userid` | Non è utile. ID numerico per l&#39;ID suite di rapporti. Utilizzate il nome utente. | int senza segno |
 | `username` | ID suite di rapporti per l’hit. | char(40) |
 | `va_closer_detail` | Variabile utilizzata nella dimensione Ultimo dettaglio contatto. | varchar(255) |
 | `va_closer_id` | ID numerico che identifica la dimensione Ultimo canale di contatto. È possibile cercare questo ID in Marketing Channel Manager. | tinyint non firmato |
@@ -269,8 +269,8 @@ Utilizzare questa pagina per apprendere quali dati sono contenuti in ciascuna co
 | `visid_timestamp` | Se l’ID visitatore è stato appena generato, fornisce la marca temporale (in Unix ora) di quando è stato generato l’ID visitatore. | int |
 | `visid_type` | Non per uso esterno; utilizzato internamente dal Adobe  per l&#39;elaborazione delle ottimizzazioni. ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>0: ID visitatore personalizzato o Sconosciuto/non applicabile<br>1: Fallback IP e agente utente <br>2: Intestazione <br>3 utente con sottoscrizione HTTP Mobile: Valore cookie legacy (s_vi) <br>4: Valore cookie di fallback (s_fid) <br>5: Servizio identità | tinyint non firmato |
 | `visit_keywords` | Variabile utilizzata nella dimensione Parola chiave di ricerca. Questa colonna utilizza un limite di caratteri non standard per adattarlo alla logica di back-end utilizzata dal Adobe . | varchar(244) |
-| `visit_num` | Variabile utilizzata nella dimensione Numero visita. Inizia da 1 e incrementa ogni volta che inizia una nuova visita per visitatore. | int non firmato |
-| `visit_page_num` | Variabile utilizzata nella dimensione Profondità hit. Aumenta di 1 per ogni hit generato dall’utente. Ripristina ogni visita. | int non firmato |
+| `visit_num` | Variabile utilizzata nella dimensione Numero visita. Inizia da 1 e incrementa ogni volta che inizia una nuova visita per visitatore. | int senza segno |
+| `visit_page_num` | Variabile utilizzata nella dimensione Profondità hit. Aumenta di 1 per ogni hit generato dall’utente. Ripristina ogni visita. | int senza segno |
 | `visit_ref_domain` | Basato sulla colonna visit_referrer. Il primo dominio di riferimento della visita. | varchar(100) |
 | `visit_ref_type` | ID numerico che rappresenta il tipo di referente del primo referente della visita. Utilizza la tabella di ricerca referrer_type.tsv. | tinyint non firmato |
 | `visit_referrer` | Il primo referente della visita. | varchar(255) |
