@@ -4,10 +4,10 @@ title: Risoluzione dei problemi e procedure consigliate per Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 86%
+source-wordcount: '1378'
+ht-degree: 82%
 
 ---
 
@@ -86,3 +86,4 @@ Elenco di messaggi di errore che possono verificarsi occasionalmente durante l�
    3. Elimina `calcChain.xml`.
    4. Recomprimete il file con il zip dei contenuti e reimpostate l’estensione su `.xlsx`.
    5. Aprire la cartella di lavoro in Excel e aggiornare tutte le richieste di Report Builder.
+* **Le celle Excel associate ai filtri di input o all&#39;intervallo di output potrebbero essere state eliminate**: Il Report Builder utilizza i nomi Excel per allegare le richieste di dati alle celle. Se si eliminano i nomi Excel dalla Gestione nomi, è possibile che venga visualizzato questo errore. Le richieste non possono essere recuperate se i nomi Excel vengono eliminati. Se la cartella di lavoro è stata pianificata, è possibile scaricare una copia da Gestione programmazione oppure aprire le copie consegnate in precedenza della cartella di lavoro.
