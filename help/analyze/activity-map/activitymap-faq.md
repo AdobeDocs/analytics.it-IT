@@ -1,149 +1,76 @@
 ---
-description: Domande frequenti su come impostare, configurare e utilizzare le funzioni nella Activity Map.
+description: Domande frequenti su come impostare, configurare e utilizzare le funzionalità in  Activity Map.
 title: Domande frequenti su Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
 
 # Domande frequenti su Activity Map
 
-Domande frequenti su come impostare, configurare e utilizzare le funzioni nella Activity Map.
+Domande frequenti su come impostare, configurare e utilizzare le funzionalità in  Activity Map.
 
-## Implementazione e AppMeasurement
+## Tutti i clienti Analytics hanno accesso alla pagina Abilitazione ActivityMap di Strumenti di amministrazione?
 
-**D: Quali sono i passaggi di implementazione per abilitare la nuova Activity Map?**
+Le organizzazioni con un contratto per  Adobe Analytics Standard, Premium e Ultimate hanno accesso a  Activity Map.
 
-A: Rivedete [Attiva Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+##  Activity Map fornisce dati sulle &quot;visualizzazioni&quot;?
 
-**D: Tutti i clienti Analytics hanno accesso alla pagina Abilitazione ActivityMap di Strumenti di amministrazione?**
+No,  Adobe non tiene traccia dei collegamenti visualizzati.
 
-A: I clienti di Adobe SiteCatalyst non hanno accesso alla pagina Abilitazione Activity Map di Admin Console. Solo le società che hanno sottoscritto il contratto Adobe Analytics Standard e Adobe Analytics Premium hanno accesso a questa pagina di configurazione.
+## Quali browser e versioni sono supportate  Activity Map?
 
-**D: Il nuovo codice AppMeasurement può essere configurato tramite Gestione tag dinamica (DTM)?**
+ Activity Map supporta la versione più recente della maggior parte dei browser moderni.
 
-A: Sì, puoi implementare [](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) manualmente il nuovo codice AppMeasurement.
+##  Activity Map incrementa le chiamate al server?
 
-**D: Quali sono le grandi modifiche nella libreria AppMeasurement v1.6?**
+ Activity Map non invia le chiamate al server da solo. Al contrario,  variabili di dati contestuali Activity Map vengono incluse con le chiamate di visualizzazione della pagina di Analytics sulla pagina successiva.
 
-A: L’unica modifica in AppMeasurement v1.6 è nella metodologia del processo di tracciamento dei collegamenti Mappa dell’attività che richiede la raccolta di nome pagina, ID collegamento e ID regione.
+## Perché mancano alcune sovrapposizioni di elementi classificati?**
 
-**D: AppMeasurement verrà implementato a livello di dominio anziché su pagine specifiche?**
+Alcuni collegamenti con classifica, come i collegamenti di sottomenu, sono nascosti dalla pagina. Di conseguenza, le sovrapposizioni di collegamento corrispondenti non vengono visualizzate. La classificazione viene calcolata per tutti i collegamenti sulla pagina, compresi i collegamenti nascosti.
 
-A: AppMeasurement viene implementato a livello di suite di rapporti. Il livello suite di rapporti è generalmente associato a un livello di dominio, ma questo è diverso per ogni implementazione.
+## Come viene determinata la classificazione dei collegamenti nel rapporto Tutti i collegamenti?**
 
-**D: Gestione dinamica dei tag carica automaticamente una versione precedente (1.3.4) dell’API del visitatore rispetto a quella desiderata dalla Activity Map (1.5.1). Questo è un problema?**
+* **In modalità** Sfumatura e bolla: La classificazione è determinata dalla colonna della metrica. Per i collegamenti con lo stesso valore di metrica, il livello è ulteriormente basato sull&#39;ordine alfabetico ID collegamento.
+* **In modalità** Gainer &amp; Loser: La classificazione è determinata principalmente dalla colonna % guadagno. Per i collegamenti con lo stesso guadagno, il rango è ulteriormente basato sull&#39;ordine alfabetico ID collegamento.
 
-R: No. La funzionalità Activity Map non dipende da VisitorAPI.
+##  Activity Map funziona con pagine che utilizzano più suite di rapporti?
 
-## Applicazione Activity Map
+Per impostazione predefinita,  Activity Map utilizza la suite di rapporti associata al primo tag inviato dalla pagina. Puoi selezionare una suite di rapporti con tag diversa tramite **[!UICONTROL Activity Map Settings]** > **[!UICONTROL Others]** scheda.
 
-<!--**Q: How does Activity Map support Single-Page Applications (SPA)?**
+## Quanto tempo  Activity Map analizza  Adobe Analytics sulla pagina?
 
-A: 
+La mappa dell&#39;attività cerca la presenza di  Adobe Analytics per un massimo di 20 secondi dopo un evento di completamento della pagina.
 
-* Every few seconds, Activity Map scans the web page, looking for changes to the page. ActivityMap finds new content on the page without needing a new page load, but this new content is always attributed to the first pageName found when the page loaded.
+## In che modo  Activity Map gestisce il contenuto dinamico?
 
-* Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the [Links On Page](/help/analyze/activity-map/activitymap-links-report.md) table's Present column for that link updates with **[!UICONTROL Displayed]** or **[!UICONTROL Hidden]**.
-
-* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
-
-**D: Activity Map fornisce dati sulle &quot;viste&quot;?**
-
-A: No, Adobe non tiene traccia dei collegamenti visualizzati.
-
-**D: Posso usare Activity Map se in precedenza non ho utilizzato Visitor ClickMap sul mio sito Web?**
-
-A: L&#39;installazione della versione precedente, ora denominata ClickMap, non è un prerequisito per l&#39;implementazione della nuova versione. Adobe continuerà a supportare la versione precedente per un periodo di tempo limitato.
-
-**D: Quali browser e versioni sono supportati da Activity Map?**
-
-A: Supportiamo la versione più recente dei quattro browser principali (Chrome, Firefox, Safari e IE).
-
-**D: Quali sono le impostazioni di sovrapposizione predefinite?**
-
-A: Per impostazione predefinita, Activity Map mostra tutti i collegamenti che hanno raccolto i dati.
-
-Quando i pannelli a comparsa sono visualizzati sopra alle pagine Web del cliente, le sovrapposizioni appartenenti ai collegamenti situati sotto il pannello a comparsa possono essere visualizzate nella parte superiore del pannello a comparsa.
-
-**D: Perché mancano alcune sovrapposizioni di elementi classificati?**
-
-A: Alcuni collegamenti con classifica potrebbero essere nascosti dalla pagina (ad esempio, collegamenti di sottomenu). Di conseguenza, le sovrapposizioni di collegamento corrispondenti non verranno visualizzate. Potete quindi aspettarvi di vedere le classificazioni delle sovrapposizioni che mancano alcuni valori di classificazione specifici, perché il livello viene calcolato per tutti i collegamenti nella pagina (il presente + quelli nascosti).
-
-**D: In che modo viene determinata la classificazione dei collegamenti nel rapporto Tutti i collegamenti?**
-
-* In modalità **Sfumatura** e **Bolla** : La classificazione è determinata dalla colonna metrica. Per i collegamenti con lo stesso valore di metrica, il livello è ulteriormente basato sull&#39;ordine alfabetico ID collegamento.
-* In modalità **Gainer &amp; Loser** , la classificazione è determinata principalmente dalla colonna % Guadagno. Per i collegamenti con lo stesso Guadagno, il rango è ulteriormente basato sull&#39;ordine alfabetico ID collegamento.
-
-**D: Perché i dati del clic del collegamento non vengono raccolti quando è in esecuzione Activity Map?**
-
-A: Mentre la Activity Map è in uso, i dati del clic sul collegamento non vengono raccolti dal tag Analytics. Questo comportamento segue il comportamento del plug-in ClickMap.
-
-**D: In che modo il rapporto Activity Map All Links (Mappa dell&#39;attività tutti i collegamenti) viene confrontato con il reporting Activity Map di Reporting e analisi?**
-
-A: Per inserire il rapporto Tutti i collegamenti nella Activity Map, viene creata una richiesta di suddivisione come segue: Activity Map Page = &quot;visitedpage&quot;, suddivisa per Activity Map Link&amp;Region in `<list of link&regions present in the page at rendering time>`.
-
-Per ottenere un rapporto equivalente in Reporting e analisi, dovrete prima passare al report Activity Map Page (Mappa dell&#39;attività). Qui, filtrate il nome pagina visitato nella Activity Map. Il nome Pagename visitato viene visualizzato nella colonna a sinistra nel pannello Dettagli pagina Activity Map Bottom (Dettagli pagina Activity Map in basso). Una volta trovata la pagina, puoi suddividerla e scegliere Activity Map Links &amp; Region come dimensione secondaria.
-
-Tuttavia, è importante notare che il rapporto ottenuto in R&amp;A elenca tutti i collegamenti e le regioni raccolti per quella pagina. Ma Activity Map riporta solo i rapporti su Links&amp;Region attualmente presenti nella pagina Web. Quindi se avete un sito di notizie, questo mostrerà solo i dati per le notizie presenti in questo momento, e non le notizie che erano presenti prima della giornata.
-
-**D: Come funziona Activity Map con pagine contenenti più tag che elencano più suite di rapporti?**
-
-A: Per impostazione predefinita, Activity Map utilizza la suite di rapporti associata al primo tag inviato dalla pagina. Potete selezionare una suite di rapporti con tag diversa tramite la scheda Activity Map Settings (Impostazioni Activity Map) > Others (Altri).
-
-**D: Per quanto tempo è possibile eseguire la scansione Activity Map per il tag Analytics?**
-
-A: Il tag Analytics viene analizzato fino a 20 secondi dopo un evento di completamento della pagina.
-
-**D: In che modo Activity Map gestisce il contenuto dinamico?**
-
-A: Activity Map verifica ogni 2 secondi per verificare se sono state rilevate modifiche allo stato della pagina Web, ad esempio:
+ Activity Map verifica ogni 2 secondi se sono state apportate modifiche allo stato della pagina Web, ad esempio:
 
 * Contenuto HTML che è diventato visibile
 * Contenuto HTML nascosto
 * Nuovo contenuto HTML inserito
 
-Se il contenuto è nascosto o visualizzato, l&#39;applicazione modifica automaticamente lo stato dei collegamenti interessati (e quindi le sovrapposizioni) da nascosto a mostrato o da mostrato a nascosto.
+Se il contenuto è nascosto o visualizzato, l&#39;applicazione modifica automaticamente lo stato dei collegamenti interessati (e quindi le sovrapposizioni) da nascosto a mostrato o da mostrato a nascosto. Se viene inserito nuovo contenuto, l&#39;applicazione recupera i collegamenti associati, estrae i dati di analisi per tali collegamenti e aggiunge sovrapposizioni per tali collegamenti.
 
-Se viene inserito nuovo contenuto, l&#39;applicazione recupererà i collegamenti associati, estrarrà i dati di analisi per tali collegamenti e aggiungerà sovrapposizioni per tali collegamenti.
+## Su quale metrica si basa il rapporto Flusso di pagina?
 
-**D: Su quale metrica si basa il rapporto Flusso di pagina?**
+Tutti i dati visualizzati si basano sulle visualizzazioni della pagina.
 
-A: Tutti i dati visualizzati si basano sulle visualizzazioni della pagina.
+## Posso esportare  variabili di dati contestuali Activity Map tramite feed di dati?
 
-**D: È possibile spiegare il comportamento della Activity Map con vari tipi di pagine?**
+Le variabili dei dati contestuali della mappa dell&#39;attività non sono disponibili nei feed di dati.
 
-*Pagina Web senza tag Analytics*
+## I segmenti funzionano in modalità Live?
 
-Nella barra degli strumenti, sotto alla barra degli strumenti è visualizzato un messaggio di avviso che indica che non è presente alcun tag.
+No, i segmenti non funzionano in modalità Live. La funzionalità è equivalente a quella dei report in tempo reale in Reporting e analisi, che non supportano la segmentazione.
 
-*Pagina Web con tag Analytics incompatibile (AppMeasurement v1.5 o versioni precedenti)*
+##  Activity Map è compatibile con le suite di rapporti virtuali?
 
-Viene visualizzato un messaggio di avviso che indica che è necessario aggiornare il codice della pagina alla versione 1.6 o successiva.
-
-*Pagina Web con tag Analytics compatibile (AppMeasurement v1.6 o versione successiva), ma la generazione di rapporti Activity Map non era abilitata in Strumenti di amministrazione*
-
-Viene visualizzato un messaggio di avviso che indica che è necessario richiedere all&#39;amministratore di \[Abilitare il rapporto Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
-
-**D: Posso esportare i dati Activity Map (contextData) tramite Feed[dati](https://docs.adobe.com/content/help/it-IT/analytics/export/analytics-data-feed/data-feed-overview.html)Analytics?**
-
-R: No.
-
-## Segmentazione in Activity Map
-
-**D: I segmenti sono legati ai singoli segmenti di utenti? I segmenti condivisi sono disponibili nella Activity Map?**
-
-A: Activity Map eredita i segmenti di reporting da Analytics.
-
-**D: I segmenti funzionano in modalità Live?**
-
-A: No, i segmenti non funzionano in modalità Live. La funzionalità è equivalente a quella dei report in tempo reale in Reporting e analisi.
-
-## Suite di rapporti virtuali
-
-**D: Activity Map è compatibile con le suite di rapporti virtuali?**
-
-R: Sì. Tuttavia, a causa delle limitazioni della suite di rapporti virtuali, la modalità Live della Activity Map non è compatibile con le suite di rapporti virtuali.
+Sì. Tuttavia, a causa di limitazioni delle suite di rapporti virtuali,  modalità Live Activity Map non è compatibile con le suite di rapporti virtuali.
