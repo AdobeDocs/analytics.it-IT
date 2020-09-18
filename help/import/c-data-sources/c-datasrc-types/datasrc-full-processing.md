@@ -5,19 +5,19 @@ title: Elaborazione completa
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 81%
+source-wordcount: '722'
+ht-degree: 80%
 
 ---
 
 
 # Elaborazione completa
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe consiglia agli utenti di utilizzare [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati di elaborazione completa. Le origini dati Elaborazione completa non saranno più utilizzate in futuro.
+> Adobe consiglia ai clienti di utilizzare [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati di elaborazione completa.  Adobe prevede di rendere obsolete le origini dati di elaborazione completa in futuro.
 
 Origini dati supporta le variabili seguenti durante l&#39;elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 
@@ -66,7 +66,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, es. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> Var75 </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
+   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( <span class="varname">  eVar1 </span> - <span class="varname">  eVar75 </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -114,12 +114,12 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Page URL (for example, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Elenco prodotti (ad esempio <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Elenco prodotti (ad esempio <code> "Sports;Ball;1;5.95"</code>). Può contenere un valore massimo di 4096 byte per riga.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
