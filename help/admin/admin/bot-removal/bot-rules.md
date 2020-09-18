@@ -5,9 +5,9 @@ title: Panoramica delle regole bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1314'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,11 @@ I dati relativi al traffico dei bot vengono memorizzati in un archivio separato 
 
 ## Regole bot IAB standard
 
-Le regole standard per bot IAB possono essere attivate selezionando la [!UICONTROL Enable IAB Bot Filtering Rules] casella di controllo. Questa selezione rimuoverà i bot in IAB (International Advertising Bureau&#39;s) International Spiders &amp; Bots List per rimuovere il traffico bot. L&#39;IAB aggiorna questo elenco mensilmente.
+Le regole standard per bot IAB possono essere attivate selezionando la [!UICONTROL Enable IAB Bot Filtering Rules] casella di controllo. Questa selezione rimuoverà i bot in IAB (International Advertising Bureau&#39;s) International Spiders &amp; Bots List per rimuovere il traffico bot.  Adobe aggiorna questo elenco dall&#39;IAB su base mensile.
 
 ![](assets/bot-iab-checkbox.png)
 
-Adobe non è in grado di fornire ai clienti l&#39;elenco dettagliato dei bot IAB, anche se potete utilizzare il rapporto Bots per visualizzare un elenco dei bot che hanno eseguito l&#39;accesso al sito. Per inviare un bot alla lista IAB, visitate [IAB](https://www.iab.com).
+ Adobe non è in grado di fornire l&#39;elenco dettagliato dei bot IAB ai clienti, anche se è possibile utilizzare il rapporto Bots per visualizzare un elenco dei bot che hanno eseguito l&#39;accesso al sito. Per inviare un bot alla lista IAB, visitate [IAB](https://www.iab.com).
 
 ## Regole bot personalizzate
 
