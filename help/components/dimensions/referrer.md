@@ -2,9 +2,9 @@
 title: Referrer
 description: L’URL a cui si trovava un visitatore prima di passare al sito.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Lo stesso rapporto può mostrare risultati diversi tra  Analysis Workspace e Dat
 
 Questa dimensione richiede la configurazione nell&#39;interfaccia di Analytics e i dati nelle richieste di immagini.
 
-* All’interno dell’implementazione, questa dimensione recupera i dati dalla stringa [`r` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite  Adobe Experience Platform Launch), questa dimensione non è inclusa nella casella. Se utilizzate un metodo di raccolta dati all’esterno di AppMeasurement (ad esempio tramite l’API), accertatevi di includere il parametro della stringa di `r` query nelle richieste di immagine.
+* All’interno dell’implementazione, questa dimensione recupera i dati dalla stringa [`r` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. È possibile utilizzare l&#39;override della [`referrer`](/help/implement/vars/page-vars/referrer.md) variabile per impostarlo manualmente. Se utilizzi una libreria AppMeasurement (ad esempio tramite  Adobe Experience Platform Launch), questa dimensione non è inclusa nella casella. Se utilizzate un metodo di raccolta dati all’esterno di AppMeasurement (ad esempio tramite l’API), accertatevi di includere il parametro della stringa di `r` query nelle richieste di immagine.
 * Nell&#39;interfaccia di Analytics devi configurare i filtri [URL](/help/admin/admin/internal-url-filter-admin.md)interni della suite di rapporti. La mancata configurazione dei filtri URL interni può includere URL interni o impedire la visualizzazione di URL esterni.
 
 ## Elementi Dimension
