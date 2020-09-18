@@ -2,9 +2,9 @@
 title: Risoluzione dei problemi di Importazione classificazioni
 description: Problemi comuni di caricamento quando si utilizza Importazione classificazioni.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ I problemi più comuni durante il caricamento dei dati di classificazione  Adobe
 
 Le classificazioni richiedono un tipo e un formato di file specifici da caricare correttamente. Se salvato in modo non corretto, genera un errore e non elabora righe. L&#39;errore restituito è spesso *&quot;La prima colonna è obbligatoria per essere la chiave&quot;*, ma può essere un numero qualsiasi di errori. Verificate quanto segue:
 
-* **Caricamento di un foglio di calcolo (.xlsx) invece di un file**.tab o .txt: Importazione classificazioni non sa come gestire i file .xls o .xlsx. Quando si trova nella finestra di dialogo Salva con nome in Excel, impostare il tipo di file Salva come corretto:
+* **Caricamento di un foglio di calcolo (.xlsx) invece di un file**.tab o .txt: Potete visualizzare il messaggio di errore *&quot;La prima colonna deve essere la chiave&quot;* quando caricate i file di classificazione in un formato non corretto. Importazione classificazioni non sa come gestire i file .xls o .xlsx. Quando si trova nella finestra di dialogo Salva con nome in Excel, impostare il tipo di file Salva come corretto:
    * In Windows, utilizzate il formato file `Text (Tab delimited) (*.txt)`
    * In Mac, usate il formato file `Windows Formatted Text`.
 * **Modifica dell’estensione del nome file dopo il salvataggio come cartella di lavoro**: Se si tenta di rinominare direttamente un&#39;estensione di file, viene generata una cartella di lavoro non valida. Utilizzate solo la funzione Salva con nome di Excel o modificate le classificazioni in un editor di testo come Blocco note++.
@@ -38,12 +38,13 @@ Se il file di caricamento è formattato correttamente, il caricatore tenta di im
 * **Le sottoclassificazioni esistono e non sono configurate** correttamente: Se esistono delle sottoclassificazioni, verificare quanto segue:
    * Tutti i valori delle sottoclassificazioni hanno un valore di classificazione padre
    * Nessuna due sottocategorie fa riferimento allo stesso valore di classificazione padre
+* **Colonna non corrispondente**: È possibile visualizzare il messaggio di errore *&quot;La chiave in linea contiene troppe colonne&quot;* se è presente un numero non valido di colonne in una riga specifica. Ad esempio, nel caricamento della classificazione sono presenti 3 colonne e la variabile dispone solo di una classificazione singola. Convalidate il file di caricamento per essere certi che il numero di colonne non sia maggiore del numero di classificazioni configurate per tale variabile.
 
 ## Risoluzione dei problemi relativi alle importazioni FTP
 
 Di seguito sono illustrate le cause comuni dietro le classificazioni FTP che non elaborano i file caricati:
 
-* **File**.fin mancante: Create un documento di testo vuoto sul desktop e rinominate l’estensione del nome di file da .txt a .fin. Il nome di questo file .fin deve corrispondere al nome del file di classificazione in questione. Ad esempio, se il nome del file FTP è `fileupload.tab`, assegnate al file .fin un nome `fileupload.fin`. Una volta caricato il file .fin, entrambi i file scompaiono.
+* **File**.fin mancante: Create un documento di testo vuoto sul desktop e rinominate l’estensione del nome file da .txt a .fin. Il nome di questo file .fin deve corrispondere al nome del file di classificazione in questione. Ad esempio, se il nome del file FTP è `fileupload.tab`, assegnate al file .fin un nome `fileupload.fin`. Una volta caricato il file .fin, entrambi i file scompaiono.
 * **Caricamento del file .fin prima del file** di classificazione: A volte viene creato un file .fin prima che il file di classificazione venga completato durante il caricamento sul sito FTP. L&#39;elaborazione può non riuscire quando i file vengono caricati fuori ordine. Rimuovete entrambi i file, aggiungete prima il file di classificazione, quindi il file .fin dopo il caricamento completo del file di classificazione.
 * **Le dimensioni del file sono eccessive**:  Adobe raccomanda di mantenere il più possibile ridotte le dimensioni dei file di classificazione per garantire un&#39;elaborazione rapida.
 * **File esistenti già in elaborazione**: Se più file vengono caricati per la stessa variabile e suite di rapporti, il vecchio file smette di elaborare a favore del nuovo. Se caricate le classificazioni utilizzando più file, attendete la conferma che i file esistenti abbiano terminato l&#39;elaborazione prima di caricarne di nuovi.
