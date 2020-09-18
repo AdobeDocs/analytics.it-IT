@@ -4,10 +4,10 @@ title: Risoluzione dei problemi e procedure consigliate per Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 86%
 
 ---
 
@@ -34,74 +34,37 @@ Si verificherà questo effetto collaterale all’apertura di una cartella di lav
 
 Report Builder richiede l’autenticazione per creare richieste di dati dalle suite di rapporti. A volte si verificano problemi durante l’accesso a Report Builder a seconda delle impostazioni all’interno di [!DNL Analytics] o della rete.
 
-**Società di accesso non valida**
-
-Questo errore si verifica in genere quando la società di accesso viene inserita in modo errato o in presenza di problemi di attività della rete. Effettua le seguenti operazioni:
-
-* Per verificare che non sia presente un errore ortografico o uno spazio errato, controlla l’ortografia della società di accesso.
-* Accedi ad Analytics con la stessa società di accesso per assicurarti che sia corretta. Se non riesci ad accedere con tali credenziali, contatta uno degli amministratori dell’organizzazione per ottenere la società di accesso corretta.
-
-**Firewall**
-
-Report Builder utilizza le porte 80 e 443. Assicurati che queste porte siano consentite dal firewall dell’organizzazione. Per ulteriori esclusioni del firewall, consulta inoltre gli indirizzi IP interni di Adobe.
+* **Società di accesso non valida**: Questo errore si verifica in genere quando la società di accesso viene inserita in modo errato o in presenza di problemi di attività della rete. Effettua le seguenti operazioni:
+   * Per verificare che non sia presente un errore ortografico o uno spazio errato, controlla l’ortografia della società di accesso.
+   * Accedi ad Analytics con la stessa società di accesso per assicurarti che sia corretta. Se non riesci ad accedere con tali credenziali, contatta uno degli amministratori dell’organizzazione per ottenere la società di accesso corretta.
+* **Firewall**: Report Builder utilizza le porte 80 e 443. Assicurati che queste porte siano consentite dal firewall dell’organizzazione. Per ulteriori esclusioni del firewall, consulta inoltre gli indirizzi IP interni di Adobe.
 
 ## Raccomandazioni per l’ottimizzazione delle richieste {#section_33EF919255BF46CD97105D8ACB43573F}
 
-I seguenti fattori possono aumentare la complessità delle richieste e rallentarne l’elaborazione:
+I seguenti fattori possono aumentare la complessità delle richieste e rallentarne l’elaborazione.
 
-**Fattori che possono rallentare le consegne**
+* **Fattori che possono rallentare le consegne**: Troppi segnalibri, dashboard e cartelle di lavoro di Report Builder sono stati pianificati in poche ore. Considerare inoltre che un numero eccessivo di cartelle di lavoro di Report Builder sono state pianificate nello stesso momento. In questo caso, la coda dell’API del rapporto viene inserita nel backlog.
+* **Fattori che possono rallentare il runtime della cartella di lavoro**: Incremento significativo delle classificazioni o aumento dell&#39;intervallo di date della richiesta nel tempo.
+* **Causa un errore** di consegna della cartella di lavoro: Formula Excel complessa in una cartella di lavoro, in particolare quelle che richiedono data e ora.
+* **Celle che restituiscono 0s (nessun valore)**: Un apostrofo o una citazione singola nel nome del foglio di Excel causerà la mancata restituzione di valori da parte del generatore di report. Si tratta di una limitazione di Microsoft Excel.
+* **Prestazioni singole richieste**: La velocità di elaborazione può essere influenzata dalle seguenti impostazioni:
 
-* Troppi segnalibri, dashboard e cartelle di lavoro di Report Builder sono stati pianificati in poche ore.
-* Troppe cartelle di lavoro di Report Builder sono state pianificate nello stesso momento. In questo caso, la coda dell’API del rapporto viene inserita nel backlog.
+   | Impostazione | Prestazioni più rapide | Prestazioni più lente |
+   |--- |--- |--- |
+   | Raggruppamenti e ordine dei raggruppamenti | Pochi | Molti |
+   |  | Esempio: in caso di raggruppamento da A a Z, il numero di elementi per A deve sempre essere minore del numero di elementi per Z, in caso contrario il tempo di richiesta può aumentare notevolmente. |
+   | Intervallo date | Intervallo piccolo | Intervallo ampio |
+   | Filtro | Filtro specifico | Filtri più popolari |
+   | Granularity (Granularità) | Aggregata | Oraria<ul><li>Giornaliero</li><li>Settimanale</li><li>Mensile</li><li>Trimestrale</li><li>Annuale</li></ul> |
+   | Numero di voci | Set di dati piccolo | Set di dati grande |
 
-**Fattori che possono rallentare il runtime della cartella di lavoro**
+* **Tempo di pianificazione**: Pianificazione scaglionata su un periodo di 24 ore (vedi la tabella seguente). I segnalibri, le dashboard e le cartelle di lavoro di Report Builder esistenti pianificate insieme potrebbero causare ritardi. Pianifica le richieste più grandi e complesse la mattina presto per consentire l’esecuzione di richiami manuali e aggiornamenti durante la giornata lavorativa.
 
-* Incremento significativo delle classificazioni.
-* Incremento dell’intervallo di date della richiesta nel tempo.
+   | Tempo di pianificazione | 1:00 - 2:00 | 2:00 - 7:00 | 7:00 - 18:00 | 18:00 - mezzanotte |
+   |--- |--- |--- |--- |--- |
+   | Utilizzo di Report Builder | Poco utilizzato | Molto utilizzato | Utilizzo lato client.<br>Volumi più elevati di utenti che aggiornano localmente e richiedono invii immediati.<br>Inoltre, verifica se la coda API viene cancellata quando scadono le cartelle di lavoro pianificate. | Non molto utilizzato |
 
-   **Esempio**: supponiamo che venga creata una richiesta con tendenze utilizzando l’impostazione Anno corrente, suddivisa per la granularità Giorno. Alla fine dell’anno, la richiesta restituirà più periodi di quella creata all’inizio dell’anno.
-
-   `(January 1 - January 30 versus January 1 - December 31.)`
-
-**Cause che provocano errori di consegna della cartella di lavoro**
-
-Formule Excel complesse in una cartella di lavoro, in particolare quelle che richiedono data e ora.
-
-**Celle che restituiscono 0 (nessun valore)**
-
-Un apostrofo o una virgoletta singola nel nome del foglio di Excel causerà la mancata restituzione di valori da parte di Report Builder. Si tratta di una limitazione di Microsoft Excel.
-
-**Prestazioni singole richieste**
-
-La velocità di elaborazione può essere influenzata dalle seguenti impostazioni:
-
-| Impostazione | Prestazioni più rapide | Prestazioni più lente |
-|--- |--- |--- |
-| Raggruppamenti e ordine dei raggruppamenti | Pochi | Molti |
-|  | Esempio: in caso di raggruppamento da A a Z, il numero di elementi per A deve sempre essere minore del numero di elementi per Z, in caso contrario il tempo di richiesta può aumentare notevolmente. |
-| Intervallo date | Intervallo piccolo | Intervallo ampio |
-| Filtro | Filtro specifico | Filtri più popolari |
-| Granularity (Granularità) | Aggregata | Oraria<ul><li>Giornaliero</li><li>Settimanale</li><li>Mensile</li><li>Trimestrale</li><li>Annuale</li></ul> |
-| Numero di voci | Set di dati piccolo | Set di dati grande |
-
-
-**Tempo di pianificazione**
-
-Pianificazione scaglionata su un periodo di 24 ore (vedi la tabella seguente). I segnalibri, le dashboard e le cartelle di lavoro di Report Builder esistenti pianificate insieme potrebbero causare ritardi.
-
-Pianifica le richieste più grandi e complesse la mattina presto per consentire l’esecuzione di richiami manuali e aggiornamenti durante la giornata lavorativa.
-
-| Tempo di pianificazione | 1:00 - 2:00 | 2:00 - 7:00 | 7:00 - 18:00 | 18:00 - mezzanotte |
-|--- |--- |--- |--- |--- |
-| Utilizzo di Report Builder | Poco utilizzato | Molto utilizzato | Utilizzo lato client.<br>Volumi più elevati di utenti che aggiornano localmente e richiedono invii immediati.<br>Inoltre, verifica se la coda API viene cancellata quando scadono le cartelle di lavoro pianificate. | Non molto utilizzato |
-
-**Timeout**
-
-Eventuali rapporti pianificati scadono dopo quattro ore. Il sistema tenta di pianificare altre tre volte, generando potenzialmente un errore. Generalmente, i tempi di esecuzione saranno più lunghi per set di dati più grandi. Questi sono visibili nella reportistica [!DNL Analytics] e in Report Builder:
-
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
-
-* Report Builder: fai clic su **[!UICONTROL Management]** nella scheda [!UICONTROL Add-ins] in Excel.
+* **Timeout**: Eventuali rapporti pianificati scadono dopo quattro ore. Il sistema tenta di pianificare altre tre volte, generando potenzialmente un errore. Generalmente, i tempi di esecuzione saranno più lunghi per set di dati più grandi. Questi sono visibili nella reportistica [!DNL Analytics] e in Report Builder:
 
 ## Descrizioni dei messaggi di errore {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -111,34 +74,15 @@ Elenco di messaggi di errore che possono verificarsi occasionalmente durante l�
 >
 >Questa è solo una selezione di messaggi di errore e non un elenco esaustivo. Per ulteriori informazioni sulla risoluzione degli errori, contatta l’amministratore.
 
-**Questa funzione può essere applicata solo a una cartella di lavoro aperta.**
-
-Se in Excel non sono aperte cartelle di lavoro (documenti foglio di calcolo) e si fa clic su una delle icone nella barra degli strumenti di Report Builder, viene visualizzato questo messaggio. Inoltre, la barra degli strumenti viene disattivata fino all’apertura di un foglio di calcolo. Tuttavia, è possibile fare clic sull’icona della guida online mentre la barra degli strumenti è ancora attivata senza causare questo errore.
-
-**Esci da [!UICONTROL Request Wizard] prima di attivare [!UICONTROL Request Manager].**
-
-Anche se [!UICONTROL Request Manager] e [!UICONTROL Request Wizard] sono collegati correttamente, non è possibile iniziare a lavorare con [!UICONTROL Request Manager] prima di completare o annullare le azioni eseguite in [!UICONTROL Request Wizard].
-
-**Non ci sono richieste associate a questo intervallo.**
-
-Questo messaggio di errore si verifica se si fa clic sul pulsante [!UICONTROL From Sheet] in [!UICONTROL Request Manager] nel caso in cui una cella del foglio di calcolo non contenga richieste.
-
-Per identificare le celle del foglio di calcolo contenenti richieste, fai clic sulle singole richieste elencate nella tabella in [!UICONTROL Request Manager]. Se una richiesta è associata alle celle, queste ultime appaiono evidenziate quando la richiesta viene selezionata nella tabella.
-
-**L’intervallo selezionato non è valido. Seleziona un altro intervallo.**
-
-Se è selezionata una cella del foglio di calcolo a cui è già stata associata una richiesta, si verifica questo errore. Elimina la richiesta mappata alle celle o scegli un altro intervallo di celle da mappare.
-
-Per eliminare le celle è importante individuare le celle contenenti richieste ed eliminare la richiesta prima di eliminare le celle (ovvero rimuovere righe o colonne).
-
-**Esci dalla cella Excel con lo stato attivo prima di utilizzare questa funzione.**
-
-Se sei in *modalità di modifica* in una cella Excel e fai clic su una delle icone di Report Builder, appare questo messaggio di errore. La modalità di modifica in una cella Excel indica che la cella è selezionata e il cursore viene visualizzato al suo interno. In una cella di Excel è inoltre attiva la modalità di modifica quando si digita direttamente nella barra [!UICONTROL Formula] o nella [!UICONTROL Name Box] nella parte superiore di Excel.
-
-**L’intervallo selezionato interseca l’intervallo di un’altra richiesta. Modifica la selezione.**
-
-Se hai già mappato un set di celle al foglio di calcolo, compare questo errore.
-
-Un modo per determinare quali celle vengono mappate prima di aggiungere nuove richieste consiste nel chiudere [!UICONTROL Request Wizard] e aprire [!UICONTROL Request Manager]. Quindi, seleziona uno per uno gli elementi elencati nella tabella di riepilogo delle richieste. Ogni volta che selezioni una richiesta nell’elenco vengono evidenziate le celle corrispondenti contenenti le mappature delle richieste nel foglio di calcolo.
-
-Questo è uno dei motivi per cui è consigliabile contrassegnare le celle evidenziandole, con informazioni di riga o colonna o con uno stile di formattazione prima di mappare più celle a più aree.
+* **Questa funzione può essere applicata solo a una cartella di lavoro aperta.**: Se in Excel non sono aperte cartelle di lavoro (documenti foglio di calcolo) e si fa clic su una delle icone nella barra degli strumenti di Report Builder, viene visualizzato questo messaggio. Inoltre, la barra degli strumenti viene disattivata fino all’apertura di un foglio di calcolo. Tuttavia, è possibile fare clic sull’icona della guida online mentre la barra degli strumenti è ancora attivata senza causare questo errore.
+* **Esci da [!UICONTROL Request Wizard] prima di attivare [!UICONTROL Request Manager].**: Anche se [!UICONTROL Request Manager] e [!UICONTROL Request Wizard] sono collegati correttamente, non è possibile iniziare a lavorare con [!UICONTROL Request Manager] prima di completare o annullare le azioni eseguite in [!UICONTROL Request Wizard].
+* **Non ci sono richieste associate a questo intervallo.**: Questo messaggio di errore si verifica se si fa clic sul pulsante [!UICONTROL From Sheet] in [!UICONTROL Request Manager] nel caso in cui una cella del foglio di calcolo non contenga richieste. Per identificare le celle del foglio di calcolo contenenti richieste, fai clic sulle singole richieste elencate nella tabella in [!UICONTROL Request Manager]. Se una richiesta è associata alle celle, queste ultime appaiono evidenziate quando la richiesta viene selezionata nella tabella.
+* **L’intervallo selezionato non è valido. Seleziona un altro intervallo.**: Se è selezionata una cella del foglio di calcolo a cui è già stata associata una richiesta, si verifica questo errore. Elimina la richiesta mappata alle celle o scegli un altro intervallo di celle da mappare. Per eliminare le celle è importante individuare le celle contenenti richieste ed eliminare la richiesta prima di eliminare le celle (ovvero rimuovere righe o colonne).
+* **Esci dalla cella Excel con lo stato attivo prima di utilizzare questa funzione.**: Se sei in *modalità di modifica* in una cella Excel e fai clic su una delle icone di Report Builder, appare questo messaggio di errore. La modalità di modifica in una cella Excel indica che la cella è selezionata e il cursore viene visualizzato al suo interno. In una cella di Excel è inoltre attiva la modalità di modifica quando si digita direttamente nella barra [!UICONTROL Formula] o nella [!UICONTROL Name Box] nella parte superiore di Excel.
+* **L’intervallo selezionato interseca l’intervallo di un’altra richiesta. Modifica la selezione.**: Se hai già mappato un set di celle al foglio di calcolo, compare questo errore.
+* **Riparazioni alla cartella di lavoro (Record rimossi: Formula dalla /xl/calcChain.xml)**: A volte le formule di una cartella di lavoro vengono danneggiate durante il salvataggio o il trasferimento. Quando il file viene aperto, Excel tenta di eseguire queste formule e non riesce. È possibile risolvere questo problema rimuovendo `calcChain.xml` dal foglio di calcolo, forzando Excel ad aggiornare i calcoli della formula.
+   1. Rinominare l&#39;estensione del file della cartella di lavoro da `.xlsx` a `.zip`.
+   2. Decomprimete il contenuto e aprite la `/xl/` cartella.
+   3. Elimina `calcChain.xml`.
+   4. Recomprimete il file con il zip dei contenuti e reimpostate l’estensione su `.xlsx`.
+   5. Aprire la cartella di lavoro in Excel e aggiornare tutte le richieste di Report Builder.
