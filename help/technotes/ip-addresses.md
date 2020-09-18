@@ -2,10 +2,10 @@
 title: IP e domini utilizzati da  Adobe Analytics
 description: Se il firewall aziendale blocca indirizzi IP che provengono da  Adobe, utilizzate questo elenco per aggiornare le impostazioni del firewall.
 translation-type: tm+mt
-source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
+source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
 
@@ -64,14 +64,14 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Dallas | `172.82.208.0/22` |
 | Hong Kong - RTE della Cina | `66.117.24.0/22` |
 | London | `66.235.156.0/24` |
-| London | `66.235.148.0/23` |
+| on | `66.235.148.0/23` |
 | London | `63.140.40.0/22` |
-| on | `208.67.41.0/24` |
-| on | `192.243.254.0/23` |
-| on | `192.243.244.0/22` |
-| on | `185.34.188.0/23` |
-| on | `130.248.152.0/21` |
-| on | `172.82.224.0/21` |
+| London | `208.67.41.0/24` |
+| London | `192.243.254.0/23` |
+| London | `192.243.244.0/22` |
+| London | `185.34.188.0/23` |
+| London | `130.248.152.0/21` |
+| London | `172.82.224.0/21` |
 | on | `172.82.232.0/21` |
 | Oregon | `192.243.240.0/22` |
 | Oregon | `192.243.232.0/21` |
@@ -84,7 +84,7 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Singapore | `66.235.150.0/24` |
 | Singapore | `66.235.130.0/23` |
 | Singapore | `63.140.44.0/22` |
-| Singapore | `208.67.43.0/24` |
+| Virginia | `208.67.43.0/24` |
 | Singapore | `172.82.240.0/22` |
 | Singapore | `172.82.246.0/23` |
 | Singapore | `172.82.248.0/21` |
@@ -129,53 +129,18 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Irlanda | `52.17.94.37` |
 | Irlanda | `52.49.253.16` |
 | Irlanda | `52.51.63.15` |
-| London | `172.82.228.19` |
 | Oregon | `52.42.60.49` |
 | Oregon | `54.212.169.56` |
 | Oregon | `54.214.170.191` |
-| Singapore | `13.228.34.224` |
+| Virginia | `13.228.34.224` |
 | Singapore | `18.136.20.161` |
 | Singapore | `52.74.162.152` |
 | Tokyo | `13.112.72.86` |
 | Tokyo | `18.178.74.225` |
 | Tokyo | `18.179.88.228` |
+| Virginia | `3.220.129.153` |
+| Virginia | `18.211.197.67` |
+| Virginia | `34.228.124.176` |
 | Virginia | `34.234.106.101` |
 | Virginia | `52.22.231.198` |
 | Virginia | `54.157.65.136` |
-| Virginia | `107.23.142.4` |
-| Virginia | `34.192.14.184` |
-| Virginia | `34.192.146.173` |
-| Virginia | `34.192.229.76` |
-| Virginia | `34.196.183.216` |
-| Virginia | `34.196.219.120` |
-| Virginia | `34.196.54.55` |
-| Virginia | `34.197.179.21` |
-| Virginia | `34.197.45.49` |
-| Virginia | `34.197.93.163` |
-| Virginia | `34.198.80.27` |
-| Virginia | `34.199.102.192` |
-| Virginia | `34.199.46.40` |
-| Virginia | `34.199.99.62` |
-| Virginia | `34.200.67.35` |
-| Virginia | `34.204.146.235` |
-| Virginia | `34.204.164.1` |
-| Virginia | `34.204.27.249` |
-| Virginia | `34.205.224.111` |
-| Virginia | `34.206.69.71` |
-| Virginia | `52.193.88.44` |
-| Virginia | `52.200.108.250` |
-| Virginia | `52.200.171.156` |
-| Virginia | `52.201.49.195` |
-| Virginia | `52.205.244.105` |
-| Virginia | `52.207.161.156` |
-| Virginia | `52.22.148.55` |
-| Virginia | `52.4.155.255` |
-| Virginia | `52.72.182.205` |
-| Virginia | `52.72.185.111` |
-| Virginia | `54.152.218.194` |
-| Virginia | `54.173.37.66` |
-| Virginia | `54.173.69.38` |
-| Virginia | `54.236.180.248` |
-| Virginia | `54.236.71.218` |
-| Virginia | `54.80.103.29` |
-| Virginia | `54.88.180.124` |
