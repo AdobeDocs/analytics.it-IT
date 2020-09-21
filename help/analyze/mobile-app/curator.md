@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Per condividere la scorecard con un utente esecutivo:
 
 Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
-Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **Share embedded components**) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
+Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente e di selezionare l’opzione **Share embedded components** (condividi componenti incorporati) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
 
 ## Aiutare gli utenti esecutivi a configurare l’app
 
@@ -163,7 +163,7 @@ Per aiutare gli utenti esecutivi ad accedere alle tue scorecard nell’app, assi
 * Abbiano un accesso valido ad Adobe Analytics
 * Tu abbia creato correttamente le scorecard per dispositivi mobili a essi destinate e condiviso con essi tali scorecard
 * Abbiano accesso all’Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
-* Abbiano accesso ai Componenti che la scorecard include. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
+* Abbiano accesso ai Componenti che la scorecard include. Nota che puoi selezionare un’opzione quando condividi le scorecard per **condividere i componenti incorporati**.
 
 ### Aiutare gli utenti esecutivi a utilizzare l’app
 
