@@ -2,11 +2,11 @@
 description: Una tabella di confronto per le API di reporting di Analytics. Vengono forniti collegamenti alla documentazione di supporto.
 title: Confronto delle API di reportistica di Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/it-IT/analytics/landing/home.html"  > Interfacce di reporting</a> </td> 
-   <td colname="col2">  Analysis Workspace, Reporting e  Analytics, Report Builder, API </td> 
-   <td colname="col3"> Report in tempo reale in Reporting e  Analytics, Report Builder, API 1.4 </td> 
+   <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
+   <td colname="col3"> Rapporti in tempo reale in Reports &amp; Analytics, Report Builder, API 1.4 </td> 
    <td colname="col4"> Solo API </td> 
    <td colname="col5"> Data Warehouse e API </td> 
   </tr> 
@@ -91,6 +91,6 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
 
 **Argomenti correlati**
 
-* [Adobe I/O](https://www.adobe.io/): una fonte completa per la documentazione tecnica e gli strumenti necessari per integrare le tecnologie Adobe nelle applicazioni.
+* [Adobe/IO](https://www.adobe.io/): una fonte completa per la documentazione tecnica e gli strumenti necessari per integrare le tecnologie Adobe nelle applicazioni.
 * [API di query di Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
