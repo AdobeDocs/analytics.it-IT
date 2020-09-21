@@ -3,11 +3,11 @@ description: A seconda delle autorizzazioni, puoi condividere i segmenti con l�
 title: Condividere segmenti
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 12%
 
 A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
 
-| Amministratore | Può condividere segmenti con tutti, con gruppi e con utenti. I gruppi sono configurati come gruppi di autorizzazioni nell’Admin Console. |
+| Amministratore | Può condividere i segmenti con tutti, con i gruppi e con gli utenti. I gruppi sono configurati come gruppi di autorizzazioni nell’Admin Console. |
 |---|---|
-| Non amministratore | Condivisione di segmenti solo con singoli utenti. |
+| Non amministratore | Può condividere segmenti solo con i singoli utenti. |
 
-Quando devi condividere i segmenti con l’intera azienda anziché con un solo gruppo di utenti o singoli utenti? Ecco alcune best practice che puoi seguire:
+Quando è necessario condividere i segmenti con l’intera azienda anziché con un solo gruppo di utenti o singoli utenti? Ecco alcune best practice che potresti seguire:
 
-* As an Admin, share a segment with **[!UICONTROL All]** if it&#39;s of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved](/help/components/segmentation/segmentation-workflow/seg-approve.md) segment.
+* In qualità di amministratore, condividi un segmento con **[!UICONTROL All]** (tutti) se è utile per l’intera azienda e tutti possono usarlo con facilità. In questo caso, dovresti anche considerare la possibilità di renderlo un segmento [approvato](/help/components/segmentation/segmentation-workflow/seg-approve.md).
 
-* As an Admin, share a segment with a specific **[!UICONTROL Group]** if the segment provides good business value for that team. Non approvare ufficialmente questo tipo di segmento.
-* In qualità di Amministratore o di singolo utente, condividi un segmento con altri utenti per controllare e convalidare un segmento. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di segmento.
+* In qualità di amministratore, condividi un segmento con un **[!UICONTROL Group]** (gruppo) specifico se il segmento fornisce un buon valore aziendale per quel team. Non approvare ufficialmente questo tipo di segmento.
+* In qualità di amministratore o di singolo utente, condividi un segmento con altri singoli utenti per esaminarlo e convalidarlo. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di segmento.
 
-1. In Segment Manager (Gestore segmenti), contrassegna la casella di controllo accanto al segmento da condividere. Viene visualizzata la barra degli strumenti di gestione dei segmenti:
+1. Nel Gestore segmenti, contrassegna la casella di controllo accanto al segmento che desideri condividere. Viene visualizzata la barra degli strumenti di gestione del segmento:
 
    ![](assets/segment_mgmt_toolbar.png)
 
@@ -35,8 +35,8 @@ Quando devi condividere i segmenti con l’intera azienda anziché con un solo g
 
    ![](assets/sharing_segments.png)
 
-   If you are an Admin, you can select **[!UICONTROL All]** or choose from **[!UICONTROL Groups]** and **[!UICONTROL Users]** in your organization. In qualità di non amministratore, puoi visualizzare solo singoli utenti. Use the **[!UICONTROL Search]** field to search for groups or users. 1. Click **[!UICONTROL Share]**.
+   Se sei un amministratore, puoi selezionare **[!UICONTROL All]** (tutti) o scegliere tra **[!UICONTROL Groups]** (gruppi) e **[!UICONTROL Users]** (utenti) dell’organizzazione. In qualità di non amministratore, puoi visualizzare solo i singoli utenti. Usa il campo **[!UICONTROL Search]** per cercare gruppi o utenti. 1. Fai clic su **[!UICONTROL Share]**.
 
-   The Shared icon appears next to the segment:  ![](assets/share_icon.png)
+   Accanto al segmento viene visualizzata l’icona Condiviso: ![](assets/share_icon.png)
 
 1. Puoi filtrare i segmenti condivisi con te scegliendo **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
