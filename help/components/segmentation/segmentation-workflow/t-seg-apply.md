@@ -1,37 +1,37 @@
 ---
-description: Come applicare uno o più segmenti a un report dalla barra dei segmenti.
+description: Applicare uno o più segmenti a un rapporto dalla barra dei segmenti.
 title: Selezionare e applicare segmenti
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # Selezionare e applicare segmenti
 
-Come applicare uno o più segmenti a un report dalla barra dei segmenti.
+Applicare uno o più segmenti a un rapporto dalla barra dei segmenti.
 
-1. Visualizza il rapporto a cui si desidera applicare un segmento, ad esempio il [!UICONTROL Pages Report].
-1. Fate clic **[!UICONTROL Show Segments]** sopra il rapporto. Si apre la barra dei segmenti.
+1. Visualizza il rapporto a cui desideri applicare un segmento, ad esempio il [!UICONTROL Pages Report].
+1. Fai clic su **[!UICONTROL Show Segments]** sopra il rapporto. Si aprirà la barra dei segmenti.
 
    ![](assets/segment_rail.png)
 
-1. Seleziona la casella di controllo accanto a uno o più segmenti o **[!UICONTROL Search Segments]** per trovare il segmento giusto.
+1. Seleziona la casella di controllo accanto a uno o più segmenti o utilizza **[!UICONTROL Search Segments]** per trovare il segmento giusto.
 
    >[!NOTE]
    >
-   >A un rapporto potete applicare più segmenti (o sovrapposizione di segmenti). Quando vengono applicati più segmenti, i criteri in ciascun segmento vengono combinati utilizzando un operatore &#39;and&#39; e quindi applicati. Non esiste alcun limite al numero di segmenti che potete sovrapporre.
+   >È possibile applicare più segmenti a un rapporto (stacking). Quando vengono applicati più segmenti, i criteri in ciascun segmento vengono combinati utilizzando un operatore “and” e poi applicati. Non esiste un limite al numero di segmenti che si possono applicare a un rapporto.
 
    >[!NOTE]
    >
-   >Facendo clic sull’icona Informazioni (i) accanto al nome del segmento potete visualizzare l’anteprima delle metriche chiave per verificare se esiste un segmento valido e l’ampiezza del segmento.
+   >Facendo clic sull’icona Informazioni (i) accanto al nome del segmento è possibile visualizzare l’anteprima delle metriche chiave per verificare se il segmento è valido e conoscerne l’ampiezza.
 
-1. Potete filtrare per suite di rapporti selezionando la **[!UICONTROL (Only) `<report suite name>`]** casella di controllo. Verranno visualizzati solo i segmenti salvati per l&#39;ultima volta in quella suite di rapporti.
-1. Fai clic su **[!UICONTROL Apply Segment]** e il rapporto verrà aggiornato. Il segmento o i segmenti applicati ora vengono visualizzati nella parte superiore del report:
+1. Puoi filtrare per suite di rapporti selezionando la casella di controllo **[!UICONTROL (Only) `<report suite name>`]**. Verranno visualizzati solo i segmenti salvati per ultimi in quella suite di rapporti.
+1. Fai clic su **[!UICONTROL Apply Segment]** e il rapporto verrà aggiornato. Il segmento o i segmenti applicati ora vengono visualizzati nella parte superiore del rapporto:
 
    ![](assets/applied_segments.png)
