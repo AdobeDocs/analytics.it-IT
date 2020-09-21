@@ -1,38 +1,38 @@
 ---
-description: Importazione consente di caricare in massa i dati delle classificazioni nei rapporti di analisi in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
+description: L’importazione consente di caricare in massa i dati delle classificazioni nei rapporti di Analytics in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
 subtopic: Classifications
 title: File di dati di classificazione
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1722'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # File di dati di classificazione
 
-Importazione consente di caricare in massa i dati delle classificazioni nei rapporti di analisi in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
+L’importazione consente di caricare in massa i dati delle classificazioni nei rapporti di Analytics in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
 
-Per facilitare la creazione di file di dati validi, è possibile scaricare un file modello che fornisce una struttura di file in cui è possibile incollare i dati delle classificazioni. Per ulteriori informazioni, consulta [Scaricare il modello](/help/components/classifications/importer/c-download-saint-data.md)di classificazione.
+Per facilitare la creazione di file di dati validi, puoi scaricare un file modello che ti fornisce una struttura in cui incollare i dati delle classificazioni. Per ulteriori informazioni, consulta [Scaricare il modello delle classificazioni](/help/components/classifications/importer/c-download-saint-data.md).
 
-Per ulteriori informazioni sui limiti dei caratteri nelle classificazioni, vedere Struttura [](/help/components/classifications/importer/c-saint-data-files.md) generale dei file.
+Per ulteriori informazioni sui limiti dei caratteri nelle classificazioni, consulta [Struttura generale dei file](/help/components/classifications/importer/c-saint-data-files.md).
 
 ## Struttura generale dei file
 
-Esempio di file di dati:
+L’illustrazione seguente è un esempio di file di dati:
 
 ![](assets/completed-saint-file.png)
 
 Un file di dati deve rispettare le seguenti regole di struttura:
 
 * Le classificazioni non possono avere un valore pari a 0 (zero).
-*  Adobe consiglia di limitare a 30 il numero di colonne di importazione ed esportazione.
-* I file caricati devono utilizzare UTF-8 senza codifica caratteri BOM.
-* All&#39;interno di una cella è possibile incorporare caratteri speciali, ad esempio tabulazioni, newline e virgolette, a condizione che sia specificato il formato di file v2.1 e che la cella sia correttamente [preceduta](/help/components/classifications/importer/t-classifications-escape-data.md)da una sequenza di escape. I caratteri speciali includono:
+* Adobe consiglia di limitare a 30 il numero di colonne di importazione ed esportazione.
+* I file caricati devono utilizzare la codifica dei caratteri UTF-8 senza BOM.
+* È possibile incorporare caratteri speciali come tab, caratteri di nuova riga e virgolette all’interno di una cella a condizione che sia specificato il formato di file v2.1 e che la cella sia correttamente [preceduta da caratteri di escape](/help/components/classifications/importer/t-classifications-escape-data.md). I caratteri speciali includono:
 
    ```
    \t     tab character 
@@ -43,165 +43,165 @@ Un file di dati deve rispettare le seguenti regole di struttura:
 
    La virgola non è un carattere speciale.
 
-* Le classificazioni non possono contenere un accento circonflesso (^) poiché questo carattere è utilizzato per indicare una sottocategoria.
-* Prestare attenzione quando si utilizza un trattino. Ad esempio, se utilizzate un trattino (-) in un termine Social, Social riconosce il trattino come [!DNL Not] operatore (il segno meno). Ad esempio, se specificate *`fragrance-free`* come termine con l&#39;importazione, Social riconosce il termine come *`minus`* gratuito e raccoglie i post che ne parlano *`fragrance`*, ma non *`free`*.
-* I limiti dei caratteri vengono applicati per classificare i dati del rapporto. Ad esempio, se caricate un file di testo delle classificazioni per i prodotti ( *`s.products`*) con nomi di prodotto superiori a 100 caratteri (byte), i prodotti non verranno visualizzati nei rapporti. I codici di tracciamento e tutte le variabili di conversione personalizzate (eVar) consentono 255 byte.
-* File di dati delimitati da tabulazioni (create il file modello utilizzando un’applicazione per fogli di calcolo o un editor di testo).
-* Un’estensione [!DNL .tab] o [!DNL .txt] file.
-* Un simbolo cancelletto (#) identifica la riga come commento utente.  Adobe ignora qualsiasi riga che inizia con #.
-* Un segno a due libbre seguito da SC (## SC) identifica la riga come commento intestazione pre-elaborazione utilizzato dai report. Non eliminare queste righe.
-* Le esportazioni di classificazione possono avere chiavi duplicate a causa di caratteri di nuova riga nella chiave. In un&#39;esportazione FTP o browser, questo può essere risolto attivando la citazione per l&#39;account FTP. Le virgolette racchiudono ciascuna chiave con caratteri di nuova riga.
-* La cella C1 nella prima riga del file di importazione contiene un identificatore di versione che determina in che modo le classificazioni gestiscono l&#39;uso delle virgolette per tutto il resto del file.
+* Le classificazioni non possono contenere un accento circonflesso (^) poiché questo carattere è utilizzato per indicare una sottoclassificazione.
+* Presta attenzione quando utilizzi i trattini. Ad esempio, se utilizzi un trattino (-) in un termine Social, Social riconosce il trattino come operatore [!DNL Not] (il segno meno). Ad esempio, se specifichi *`fragrance-free`* come termine con l’importazione, Social riconosce il termine come fragrance *`minus`* free e raccoglie i post che menzionano *`fragrance`* ma non *`free`*.
+* I limiti di caratteri vengono applicati per classificare i dati dei rapporti. Ad esempio, se carichi un file di testo delle classificazioni per i prodotti (*`s.products`*) con nomi di prodotto che superano i 100 caratteri (byte), i prodotti non verranno visualizzati nei rapporti. I codici di tracciamento e tutte le variabili di conversione personalizzate (eVar) consentono 255 byte.
+* File di dati delimitati da tabulazioni (crea il file modello utilizzando un’applicazione per fogli di calcolo o un editor di testo).
+* Un’estensione file [!DNL .tab] o [!DNL .txt].
+* Il cancelletto (#) identifica la riga come un commento degli utenti. Adobe ignora le righe che iniziano con #.
+* Un doppio cancelletto seguito da SC (## SC) identifica la riga come un commento intestazione pre-elaborazione utilizzato nel reporting. Non eliminare queste righe.
+* Le esportazioni delle classificazioni possono avere chiavi duplicate a causa di caratteri di nuova riga nella chiave. In un’esportazione FTP o browser, questo può essere risolto attivando le virgolette per l’account FTP. In questo modo ciascuna chiave con caratteri di nuova riga verrà inserita tra virgolette.
+* La cella C1 nella prima riga del file di importazione contiene un identificatore di versione che determina il modo in cui le classificazioni gestiscono l’uso delle virgolette per la parte restante del file.
 
-   * v2.0 ignora le virgolette e presuppone che siano tutte parte delle chiavi e dei valori specificati. Ad esempio, considerare questo valore: &quot;Questo è &quot;&quot;un valore&quot;&quot;&quot;. v2.0 interpreterebbe letteralmente questo come: &quot;Questo è &quot;&quot;un valore&quot;&quot;&quot;.
-   * v2.1 indica alle classificazioni di presumere che le virgolette facciano parte della formattazione del file utilizzata nei file Excel. Quindi v2.1 formatta l&#39;esempio precedente in modo che: Questo è &quot;un valore&quot;.
-   * I problemi possono sorgere quando v2.1 è specificato nel file, ma ciò che è effettivamente desiderato è v2.0 - vale a dire, quando le virgolette sono utilizzate in modi che è illegale in Excel formattazione. Ad esempio, se disponete di un valore: Vestito S/l &quot;VP NO REPS&quot; con sovrapposizione. Con v2.1, si tratta di una formattazione errata (il valore deve essere racchiuso tra virgolette di apertura e chiusura e le virgolette che fanno parte del valore effettivo devono essere precedute da virgolette) e le classificazioni non funzioneranno oltre questo punto.
-   * Effettuate una delle seguenti operazioni: modificate il formato di file in v2.0 modificando l&#39;intestazione (cella C1) nei file caricati, OPPURE implementate correttamente le virgolette Excel in tutti i file.
+   * v2.0 ignora le virgolette e presuppone che siano parte delle chiavi e dei valori specificati. Ad esempio, considera questo valore: “Questo è ““un valore”””. v2.0 lo interpreterebbe letteralmente: “Questo è ““un valore”””.
+   * v2.1 indica alle classificazioni di presumere che le virgolette siano parte della formattazione del file utilizzata nei file Excel. Quindi v2.1 formatta l’esempio precedente in questo modo: Questo è “un valore”.
+   * Possono sorgere problemi quando v2.1 è specificato nel file, ma si desidera v2.0, ovvero quando le virgolette sono utilizzate in modi che non sono concessi nella formattazione Excel. Ad esempio, se disponi di un valore: “VP NO REPS” S/l Dress w/ Overlay. Con v2.1 questa viene considerata una formattazione errata (il valore deve essere racchiuso tra virgolette di apertura e chiusura e le virgolette che fanno parte del valore effettivo devono essere precedute da virgolette) e le classificazioni non funzioneranno oltre questo punto.
+   * Effettua una delle seguenti operazioni: modifica il formato del file in v2.0 modificando l’intestazione (cella C1) nei file caricati, OPPURE implementa correttamente le virgolette Excel in tutti i file.
 
-* La prima riga (senza commenti) del file di dati contiene le intestazioni di colonna utilizzate per identificare i dati di classificazione in quella colonna. Importazione richiede un formato specifico per le intestazioni di colonna. Per ulteriori informazioni, vedere Formato [intestazione](/help/components/classifications/importer/c-saint-data-files.md)colonna.
-* Immediatamente dopo la riga di intestazione in un file di dati sono riportate le righe di dati. Ogni riga di dati deve contenere un campo dati per ogni intestazione di colonna.
-* Il file di dati supporta i seguenti codici di controllo, che  Adobe utilizza per fornire struttura al file, e importare correttamente i dati di classificazione:
+* La prima riga (senza commenti) del file di dati contiene le intestazioni di colonna utilizzate per identificare i dati di classificazione nella colonna. L’importazione richiede un formato specifico per le intestazioni di colonna. Per ulteriori informazioni, consulta [Formato delle intestazioni di colonna](/help/components/classifications/importer/c-saint-data-files.md).
+* Dopo la riga di intestazione in un file di dati sono riportate le righe di dati. Ognuna di esse deve contenere un campo dati per ogni intestazione di colonna.
+* Il file di dati supporta i seguenti codici di controllo utilizzati da Adobe per conferire struttura al file e importare correttamente i dati di classificazione:
 
 <table id="table_0548F2E58B6644208147434EB9B3C21B"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> CODICE DI CONTROLLO </th> 
-   <th colname="col2" class="entry"> DESCRIPTION </th> 
+   <th colname="col2" class="entry"> DESCRIZIONE </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>&lt;Nuovo grafico a linee&gt; </p> </td> 
-   <td colname="col2"> <p>Un nuovo carattere di riga è l'unico delimitatore supportato tra righe/record di dati nel file di dati. In genere, è necessario inserire questi caratteri solo quando si scrive un programma per generare automaticamente i file di dati. </p> </td> 
+   <td colname="col1"> <p>&lt;Nuova riga&gt; </p> </td> 
+   <td colname="col2"> <p>Il carattere di nuova riga è l’unico delimitatore tra righe/record di dati supportato nel file di dati. In genere, è necessario inserire questi caratteri solo quando si scrive un programma per generare automaticamente i file di dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Richiede che  Adobe generi automaticamente un ID univoco per questo elemento. </p> <p>Nel contesto della campagna, questo valore di controllo indica  Adobe di assegnare un identificatore a ciascun elemento creativo. Vedere <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Chiave </a>. </p> </td> 
+   <td colname="col2"> <p>Richiede che Adobe generi automaticamente un ID univoco per questo elemento. </p> <p>Nel contesto delle campagne, questo valore di controllo indica ad Adobe di assegnare un identificatore a ogni elemento creativo. Consulta <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Chiave</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Indica che la colonna di dati rappresenta l'intervallo di date associato all'elemento. Vedere <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Data </a>. </p> </td> 
+   <td colname="col1"> <p>~periodo~ </p> </td> 
+   <td colname="col2"> <p>Indica che la colonna di dati rappresenta l’intervallo di date associato all’elemento. Consulta <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campo vuoto </p> </td> 
-   <td colname="col2"> <p>Rappresenta un valore NULL per il campo corrente. Utilizzate questa opzione se una particolare colonna di dati non si applica al record corrente. </p> </td> 
+   <td colname="col2"> <p>Rappresenta un valore NULL per il campo corrente. Utilizzalo se una particolare colonna di dati non si applica al record corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>PER modificatori </p> </td> 
-   <td colname="col2"> <p>Indica che la colonna di dati rappresenta un campo <span class="wintitle"> PER Modificatore </span> . Vedere <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Per Intestazioni Modificatore </a>. </p> </td> 
+   <td colname="col1"> <p>Modificatori PER </p> </td> 
+   <td colname="col2"> <p>Indica che la colonna di dati rappresenta un campo <span class="wintitle">modificatore PER</span>. Consulta <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Intestazioni dei modificatori PER</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Problemi comuni di caricamento](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [Problemi comuni relativi al caricamento](https://helpx.adobe.com/it/analytics/kb/common-saint-upload-issues.html)
 
 
-## Formato intestazione colonna
+## Formato dell’intestazione di colonna
 
 >[!NOTE]
 >
-> Adobe consiglia di limitare a 30 il numero di colonne di importazione ed esportazione.
+>Adobe consiglia di limitare a 30 il numero di colonne di importazione ed esportazione.
 
 I file di classificazione supportano le seguenti intestazioni di colonna:
 
 ### Chiave
 
-Ogni valore deve essere univoco per l&#39;intero sistema. Il valore in questo campo corrisponde a un valore assegnato alla [!DNL Analytics] [!DNL JavaScript] variabile nel beacon del sito Web. I dati in questa colonna possono includere ~codice di tracciamento automatico~ o qualsiasi altro codice di tracciamento univoco.
+Ogni valore deve essere univoco in tutto il sistema. Il valore in questo campo corrisponde a un valore assegnato alla variabile [!DNL Analytics] nel beacon [!DNL JavaScript] del sito web. I dati in questa colonna possono includere un codice di tracciamento ~autogen~ o qualsiasi altro codice di tracciamento univoco.
 
-### Intestazione colonna classificazione
+### Intestazione della colonna di classificazione
 
-Ad esempio, reporting e analisi includono automaticamente due classificazioni per [!UICONTROL Campaign] le variabili: [!UICONTROL Campaigns] e [!UICONTROL Creative Elements]. Per aggiungere dati alla [!UICONTROL Campaigns] classificazione, l&#39;intestazione della colonna nel file di dati della classificazione sarà [!UICONTROL Campaigns].
+Ad esempio, Reports and Analytics include automaticamente due classificazioni per le variabili [!UICONTROL Campaign]: [!UICONTROL Campaigns] e [!UICONTROL Creative Elements]. Per aggiungere dati alla classificazione [!UICONTROL Campaigns], l’intestazione di colonna nel file di dati di classificazione sarà [!UICONTROL Campaigns].
 
 >[!NOTE]
 >
->I valori nell&#39;intestazione della [!UICONTROL Classifications] colonna devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l&#39;importazione non riesce. Ad esempio, se l&#39;amministratore cambia [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nella [!UICONTROL Campaign Set-up Manager], l&#39;intestazione della colonna del file deve cambiare per corrispondere.
+>I valori nell’intestazione della colonna [!UICONTROL Classifications] devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l’importazione non riesce. Ad esempio, se l’amministratore modifica [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nel [!UICONTROL Campaign Set-up Manager], l’intestazione della colonna del file dev’essere modificata di conseguenza.
 
-Inoltre, il file di dati supporta le seguenti convenzioni di intestazione aggiuntive per identificare sottocategorie e altre colonne di dati specializzate:
+Inoltre, il file di dati supporta le seguenti convenzioni di intestazione aggiuntive per identificare sottoclassificazioni e altre colonne di dati specializzate:
 
-### Intestazione sottocategoria
+### Intestazione delle sottoclassificazioni
 
-Ad esempio, [!UICONTROL Campaigns^Owner] è un&#39;intestazione di colonna per la colonna contenente [!UICONTROL Campaign Owner] dei valori. Analogamente, [!UICONTROL Creative Elements^Size] è un&#39;intestazione di colonna per la colonna contenente la [!UICONTROL Size] sottoclassificazione della [!UICONTROL Creative Elements] classificazione.
+Ad esempio, [!UICONTROL Campaigns^Owner] è un’intestazione di colonna per la colonna contenente i valori [!UICONTROL Campaign Owner]. Allo stesso modo, [!UICONTROL Creative Elements^Size] è un’intestazione di colonna per la colonna contenente la sottoclassificazione [!UICONTROL Size] della classificazione [!UICONTROL Creative Elements].
 
 ### Intestazioni delle metriche di classificazione
 
-Ad esempio, [!UICONTROL Campaigns^~Cost] si riferisce alla [!UICONTROL Cost] metrica nella [!UICONTROL Campaigns] classificazione.
+Ad esempio, [!UICONTROL Campaigns^~Cost] si riferisce alla metrica [!UICONTROL Cost] nella classificazione [!UICONTROL Campaigns].
 
 ### Intestazione del modificatore PER
 
-*`Per Modifier`* Le intestazioni sono indicate aggiungendo *`~per`* all&#39;intestazione della metrica di classificazione. Ad esempio, se l’ *`Metric`* intestazione è *`Campaigns^~Cost`*, l’intestazione del modificatore PER è *`Campaigns^~Cost~per`*.  Adobe supporta le seguenti *`PER Modifier`* parole chiave:
+Le intestazioni del *`Per Modifier`* sono identificate tramite l’aggiunta di *`~per`* all’intestazione della metrica di classificazione. Ad esempio, se l’intestazione *`Metric`* è *`Campaigns^~Cost`*, l’intestazione del modificatore PER è *`Campaigns^~Cost~per`*. Adobe supporta le seguenti parole chiave per i *`PER Modifier`*:
 
-Questi caratteri hanno un significato speciale in un file di dati. Laddove possibile, evitare di usare queste parole nei nomi e nei dati degli attributi.
+Questi caratteri hanno un significato particolare in un file di dati. Laddove possibile, evita di usare queste parole nei nomi e nei dati degli attributi.
 
-**RISOLTO:** Valore fisso. Non eseguite alcuna operazione di ridimensionamento.
+**FISSO:** valore fisso. Non eseguire operazioni di ridimensionamento.
 
-**GIORNO:** Moltiplica il valore per il numero di giorni nel rapporto.
+**GIORNO:** moltiplica il valore per il numero di giorni nel rapporto.
 
-**ORDINE:** Moltiplica il valore per il numero di ordini per l&#39;elemento della riga nel rapporto.
+**ORDINE:** moltiplica il valore per il numero di ordini per la riga nel rapporto.
 
-**CHECKOUT:** Moltiplicare il valore per il numero di pagamenti per l&#39;elemento della riga nel rapporto.
+**CHECKOUT:** moltiplica il valore per il numero di checkout per la riga nel rapporto.
 
-**UNITÀ:** Moltiplica il valore per il numero di unità per l&#39;elemento della riga nel report.
+**UNITÀ:** moltiplica il valore per il numero di unità per la riga nel rapporto.
 
-**ENTRATE:** Moltiplica il valore per l&#39;importo delle entrate per l&#39;articolo della linea nel rapporto.
+**ENTRATE:** moltiplica il valore per l’importo delle entrate per la riga nel rapporto.
 
-**SCADD:** Moltiplicare il valore per il numero di volte in cui l&#39; [!UICONTROL Shopping Cart Add] evento è stato chiamato per elemento del rapporto.
+**SCADD:** moltiplica il valore per il numero di volte in cui l’evento [!UICONTROL Shopping Cart Add] è stato chiamato per riga del rapporto.
 
-**SCREMOVE:** Moltiplicare il valore per il numero di volte in cui l&#39; [!UICONTROL Shopping Cart Remove] evento è stato chiamato per elemento del rapporto.
+**SCREMOVE:** moltiplica il valore per il numero di volte in cui l’evento [!UICONTROL Shopping Cart Remove] è stato chiamato per riga del rapporto.
 
-**ISTANZA:** Moltiplica il valore per il numero di istanze per l&#39;elemento della riga nel rapporto.
+**ISTANZA:** moltiplica il valore per il numero di istanze per la riga nel rapporto.
 
-**FATE CLIC SU:** Moltiplica il valore per il numero di clic per l&#39;elemento della riga nel report.
+**CLIC:** moltiplica il valore per il numero di clic per la riga nel report.
 
-**EVENTO:** Moltiplicare il valore per il numero di volte in cui si è verificato l&#39;evento personalizzato specificato per elemento riga del rapporto.
+**EVENTO:** moltiplica il valore per il numero di volte in cui si è verificato l’evento personalizzato specificato per riga del rapporto.
 
-**Esempio:** Se Campaign A cost $10.000, la [!UICONTROL Campaigns^~Cost] colonna contiene un valore di 10000 e la colonna [!UICONTROL Campaigns^~~Costper] contiene [!UICONTROL FIXED]. Quando visualizzi il costo per la campagna A nei rapporti, vedrai $10.000 come costo fisso per la campagna A per l&#39;intervallo di date.
+**Esempio:** se la campagna A costa $ 10.000, la colonna [!UICONTROL Campaigns^~Cost] contiene il valore 10000 e la colonna [!UICONTROL Campaigns^~Cost~per] contiene [!UICONTROL FIXED]. Quando visualizzi il costo per la campagna A nei rapporti, vedrai $ 10.000 come costo fisso per la campagna A per l’intervallo di date.
 
-**Esempio:** Se la campagna B costa circa $ 2 per clic, la [!UICONTROL Campaigns^~Cost] colonna contiene 2 e la colonna **[!UICONTROL Campaigns^~~Costper]** contiene [!UICONTROL CLICK]. Quando nei rapporti viene visualizzato il costo per la campagna B,  Adobe calcola (2 * [numero di clic]) al volo per l&#39;intervallo di date del rapporto. Questo consente di calcolare il costo totale in base al numero di clic eseguiti con Campaign B.
+**Esempio:** se la campagna B costa circa $ 2 per clic, la colonna [!UICONTROL Campaigns^~Cost] contiene il valore 2 e la colonna **[!UICONTROL Campaigns^~Cost~per]** contiene [!UICONTROL CLICK]. Quando nei rapporti viene visualizzato il costo per la campagna B, Adobe calcola in tempo reale (2 * [numero di clic]) per l’intervallo di date del rapporto. Questo consente di calcolare il costo totale in base al numero di clic eseguiti con la campagna B.
 
 ### Data
 
-Le date delle campagne sono in genere intervalli (date di inizio e di fine) associati a singole campagne. Le date devono essere visualizzate in formato AAAA/MM/GG. Ad esempio, 2013/06/15-2013/06/30.
+Le date delle campagne sono in genere intervalli (date di inizio e di fine) associati a singole campagne. Le date sono visualizzate in formato AAAA/MM/GG. Ad esempio, 2013/06/15-2013/06/30.
 
-Per ulteriori informazioni, vedere Classificazioni [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)conversione.
+Per ulteriori informazioni, consulta [Classificazioni di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE]
 >
->Nella versione di manutenzione del 10 maggio 2018 [!DNL Analytics] ,  Adobe ha iniziato a limitare la funzionalità delle classificazioni numeriche e abilitate per le date. Questi tipi di classificazione sono stati rimossi dalle interfacce Admin (Amministratore) e Classification Importer (Importazione classificazione). Non è possibile aggiungere nuove classificazioni numeriche e abilitate per le date. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
+>Nella versione di manutenzione di [!DNL Analytics] del 10 maggio 2018, Adobe ha iniziato a limitare le funzionalità delle classificazioni numeriche e con data abilitata. Le classificazioni di questo tipo sono state rimosse dalle interfacce Admin e Importazione delle classificazioni. Non è possibile aggiungere nuove classificazioni numeriche e con data abilitata. Sarà comunque possibile gestire le classificazioni esistenti, aggiornandole o eliminandole tramite il flusso di lavoro di classificazione standard, e continuare a utilizzarle nei rapporti.
 
-## Utilizzo di date in combinazione con [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Utilizzo delle date in combinazione con le [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL Classifications] può essere utilizzato per assegnare intervalli di date alle campagne o ad altre conversioni [!UICONTROL classifications]che consentono una misurazione più accurata delle campagne. Dopo aver specificato l&#39;intervallo di date di un valore, qualsiasi valore corrispondente che si verifica al di fuori dell&#39;intervallo di date non sarà classificato. Questo è utile per la misurazione della campagna che desidera utilizzare le date esatte in cui una campagna è stata live, e non tutti gli hit che corrispondono alla campagna stessa. Per classificare con successo un valore con un intervallo di date, è necessario soddisfare quanto segue:
+Le [!UICONTROL Classifications], possono essere utilizzate per assegnare intervalli di date alle campagne o ad altre [!UICONTROL classifications] di conversione che consentono una misurazione più accurata delle campagne. Dopo aver specificato l’intervallo di date di un valore, qualsiasi valore corrispondente che si verifica al di fuori dell’intervallo di date non sarà classificato. Ciò consente di misurare le campagne utilizzando le date esatte in cui una campagna è stata attiva e non tutti gli hit che corrispondono alla campagna stessa. Per classificare un valore con un intervallo di date, è necessario soddisfare le condizioni seguenti:
 
-* È [!UICONTROL classification] necessario basare l&#39;elemento su una variabile di conversione.
-* L&#39; [!UICONTROL classification] utente utilizzato deve essere impostato come Data-Enabled o Numeric 2.
-* L&#39;intervallo di date interessato deve contenere una data iniziale e (facoltativamente) una data finale.
+* La [!UICONTROL classification] deve essere basata su una variabile di conversione.
+* La [!UICONTROL classification] utilizzata deve essere impostata come numerica 2 o con data abilitata.
+* L’intervallo di date interessato deve contenere una data di inizio e (facoltativamente) una data di fine.
 
-Per classificare le campagne in base all&#39;intervallo di date:
+Per classificare le campagne in base all’intervallo di date:
 
-1. Accedete a [!DNL Analytics] e andate ad Admin > Classifications (Classificazioni).
-1. Fare clic sulla **[!UICONTROL Browser Export]** scheda, verificare che le impostazioni della classificazione abilitata per la data siano corrette, quindi fare clic su Esporta file.
-1. Aprite questo file in Microsoft Excel o in un altro editor di fogli di calcolo che vi è familiare.
+1. Accedi a [!DNL Analytics] e vai su Amministratore > Classificazioni.
+1. Fai clic sulla scheda **[!UICONTROL Browser Export]**, verifica che le impostazioni della classificazione con data abilitata siano corrette e fai clic su Esporta file.
+1. Apri il file in Microsoft Excel o nell’editor di fogli di calcolo che preferisci.
 1. Una delle colonne termina con
 
-   ^~periodo~corrispondente alla colonna in cui immettere l&#39;intervallo di date.
-1. In questa colonna, immettere l&#39;intervallo di date di ciascun valore nel formato seguente:
+   ^~periodo~, questa è la colonna in cui inserire l’intervallo di date.
+1. In questa colonna, inserisci l’intervallo di date di ciascun valore nel formato seguente:
 
-   `YYYY/MM/DD - YYYY/MM/DD` (Progetto > scarica CSV). Verificate quanto segue:
+   `YYYY/MM/DD - YYYY/MM/DD`. Assicurati di effettuare le seguenti operazioni:
 
-   * Lasciare spazi su entrambi i lati del trattino.
-   * Usate un trattino (-) per separare gli intervalli, non un trattino o un trattino lungo.
-   * Se il mese o il giorno è una cifra singola, è presente uno zero iniziale.
-   * Esiste un intervallo di date iniziale; l&#39;intervallo di date di fine è facoltativo.
+   * Lascia uno spazio prima e dopo il trattino.
+   * Utilizza un trattino (-) per separare gli intervalli, non un trattino breve o un trattino lungo.
+   * Se il mese o il giorno sono composti da una sola cifra, assicurati che sia presente uno zero iniziale.
+   * Assicurati che sia presente un intervallo di date di inizio, l’intervallo di date di fine è facoltativo.
 
-1. Salvate il file e caricatelo [!DNL Analytics] da Admin | Classificazioni | Importa file.
+1. Salva il file e caricalo su [!DNL Analytics] da Amministratore | Classificazioni | Importa file.
 
 >[!NOTE]
 >
 >Un valore chiave specifico non può avere più di un intervallo di date.
 
-## Classificazioni per la risoluzione dei problemi
+## Risoluzione di problemi relativi alle classificazioni
 
-* [Problemi](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)comuni di caricamento: Articolo della Knowledge Base che descrive i problemi derivanti da formati di file e contenuti di file non corretti.
+* [Problemi comuni relativi al caricamento](https://helpx.adobe.com/it/analytics/kb/common-saint-upload-issues.html): articolo della knowledge base che descrive i problemi derivanti da formati e contenuti di file non corretti.
 
