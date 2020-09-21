@@ -4,6 +4,9 @@ title: Domande frequenti
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1802'
+ht-degree: 100%
 
 ---
 
