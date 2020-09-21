@@ -4,6 +4,9 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gestione delle origini dati
 translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+workflow-type: ht
+source-wordcount: '555'
+ht-degree: 100%
 
 ---
 
