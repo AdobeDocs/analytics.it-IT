@@ -24,7 +24,7 @@ ht-degree: 98%
    + Generare un progetto Workspace {#build-workspace-project}
       + [Crea progetto: panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare un progetto Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Salva progetti](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Più suite di rapporti in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + Impostazioni colonna e riga {#column-row-settings}
