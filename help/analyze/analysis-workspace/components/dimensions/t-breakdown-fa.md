@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Suddividere dimensioni
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Analizza i dati in tantissimi modi per ogni necessità; realizza query con metri
 1. [Crea un progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) con una tabella di dati.
 1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
 
-   ![Risultato passaggio](assets/fa_data_table_actions.png)
+   ![Risultato del passaggio](assets/fa_data_table_actions.png)
 
-   Puoi suddividere le metriche per elementi dimensionali o segmenti di pubblico tra periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+   Puoi analizzare metriche per elementi dimensionali o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
    >[!NOTE]
    >
