@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Data | Descrizione |
 |---|---|
-| 21 luglio 2020 | Aggiornamenti e revisioni principali ad Analytics [](/help/components/cda/overview.md)multi-dispositivo. È stata aggiunta l’unione basata sui [campi](/help/components/cda/field-based-stitching.md). |
+| 21 luglio 2020 | Aggiornamenti e revisioni principali ad [Analisi multidispositivo](/help/components/cda/overview.md). È stata aggiunta l’[unione basata sui campi](/help/components/cda/field-based-stitching.md). |
 | 28 aprile 2020 | È stata aggiunta la documentazione per la metrica [Content Velocity](/help/components/metrics/content-velocity.md) (Velocità dei contenuti). |
 | 12 marzo 2020 | Sono stati aggiunti aggiornamenti a [Pubblicare segmenti in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 marzo 2020 | Aggiornamenti alla latenza di unione di CDA. |
