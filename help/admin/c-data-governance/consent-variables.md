@@ -2,9 +2,9 @@
 description: Variabili per la generazione di rapporti sulla privacy in Privacy dei dati.
 title: Variabili per la generazione di rapporti sulla privacy
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Ogni suite di rapporti può essere configurata come segue:
 
 Tre variabili di dati di contesto sono state predefinite per l’utilizzo con le variabili riservate per la gestione dei rapporti sulla privacy.  È compito di ogni tecnico dell’implementazione determinare come gestire e mantenere l’impostazione di tali variabili.
 
-Consulta [Variabili di dati di contesto](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) per informazioni generali sull’implementazione delle variabili di dati di contesto.
+Consulta [Variabili di dati di contesto](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/contextdata.html) per informazioni generali sull’implementazione delle variabili di dati di contesto.
 
 ### SSF
 
