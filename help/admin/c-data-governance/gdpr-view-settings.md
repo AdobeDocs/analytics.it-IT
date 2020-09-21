@@ -4,6 +4,9 @@ title: Visualizzare/gestire le impostazioni di governance dei dati della suite d
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '551'
+ht-degree: 100%
 
 ---
 
