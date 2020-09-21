@@ -1,9 +1,9 @@
 ---
 title: Guide tecniche di Adobe Analytics
 description: Guide per gli utenti e risorse di Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
 ht-degree: 100%
 
