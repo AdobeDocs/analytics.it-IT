@@ -351,7 +351,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
    <td colname="col4"> <p>Non puoi rimuovere l’etichetta DEL, ma puoi modificarla in DEL-DEVICE or DEL-PERSON o in entrambe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Azione ClickMap (legacy), </p> <p>Contesto ClickMap (legacy), </p> <p>Pagina, </p> <p>URL della pagina, </p> <p>URL originale della pagina iniziale, </p> <p>リファラー、 </p> <p>URL di visita alla pagina iniziale </p> </td> 
+   <td colname="col2"> <p>Azione ClickMap (legacy), </p> <p>Contesto ClickMap (legacy), </p> <p>Pagina, </p> <p>URL della pagina, </p> <p>URL originale della pagina iniziale, </p> <p>Referrer, </p> <p>URL di visita alla pagina iniziale </p> </td> 
    <td colname="col3"> <p>Nessuno/I1/I2 </p> <p>Nessuno/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Le variabili possono contenere i parametri dell’URL, che possono includere dati direttamente o indirettamente identificabili. Se l’implementazione non raccoglie dati direttamente o indirettamente identificabili in queste variabili, non sono necessarie le etichette di identità o cancellazione. </p> <p>Nota che la cancellazione elimina i parametri dell’URL, ma ne conserva la base. </p> </td> 
   </tr> 
