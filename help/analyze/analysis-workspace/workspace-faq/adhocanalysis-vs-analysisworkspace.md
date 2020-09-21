@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
 | Progetto | Workspace o progetto |
-| Area di lavoro | Pannello |
+| Workspace | Pannello |
 | Rapporto | Tabella a forma libera |
 | Grafico/Grafico | Visualizzazione |
 | Gerarchia: Progetto > Workspace > Rapporti | Gerarchia: Progetto > Pannelli > Tabelle |
@@ -60,8 +60,8 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Video: Utilizzo dei segmenti in Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Video: Applicazione dei sementi in un pannello</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Creare segmenti temporanei ("ad hoc") </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. È inoltre possibile aggiungere filtri a discesa nella zona di rilascio del pannello per creare più segmenti temporanei alla volta, consentendo interazioni controllate tra i progetti. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Segmenti ad hoc in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Video: Filtri a discesa in  Analysis Workspace</a> </p> </td> 
+   <td colname="col1"> <p>Creare segmenti temporanei (“ad hoc”) </p> </td> 
+   <td colname="col2"> <p>Puoi <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >creare segmenti istantanei e temporanei (“ad hoc”)</a> in Analysis Workspace trascinando elementi dimensionali nella zona di rilascio del segmento nella parte superiore del pannello. È inoltre possibile aggiungere filtri a discesa nella zona di rilascio del pannello per creare più segmenti temporanei alla volta, consentendo interazioni controllate tra i progetti. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Segmenti ad hoc in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Video: Filtri a discesa in Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scegliere intervalli di date e granularità </p> </td> 
@@ -87,7 +87,7 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Flow può estendere una visita o un visitatore. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Le statistiche chiave vengono visualizzate in termini di visualizzazioni di percorso %. </li> 
-    </ul> <p>Inoltre, Flusso consente <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensioni diverse</a> e la possibilità di fare clic con il pulsante destro del mouse e creare un segmento, un miglioramento rispetto all’Ad Hoc Analysis. </p> <p>Attualmente, Flusso in  Analysis Workspace <b>non</b> può consentire agli utenti di scegliere un evento di successo. </li> 
+    </ul> <p>Inoltre, Flusso consente <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensioni diverse</a> e la possibilità di fare clic con il pulsante destro del mouse e creare un segmento, un miglioramento rispetto all’Ad Hoc Analysis. </p> <p>Attualmente, Flusso in Analysis Workspace <b>non può</b> consentire agli utenti di scegliere un evento riuscito. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Video: Panoramica della Visualizzazione Flusso</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Video: Flusso multidimensionale</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Video: Creazione dei segmenti da Flusso</a> </p> </td> 
   </tr> 
   <tr> 
@@ -100,11 +100,11 @@ Per un confronto tecnico delle funzionalità principali e dei requisiti di siste
   </tr> 
   <tr> 
    <td colname="col1"> <p>Selezionare suite di rapporti </p> </td> 
-   <td colname="col2"> <p>È possibile aggiungere più suite di rapporti a un singolo progetto in  Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Video: Più suite di rapporti in Workspace</a> </p></td> 
+   <td colname="col2"> <p>È possibile aggiungere più suite di rapporti a un singolo progetto in Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Video: Più suite di rapporti in Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. Include oltre 10 modelli algoritmici e basati su regole. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video:  Attribution IQ nelle tabelle a forma libera</a> </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace consente di aggiungere molti nuovi tipi di modelli di attribuzione a tabelle a forma libera, visualizzazioni e metriche calcolate. Include oltre 10 modelli algoritmici e basati sulle regole. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video: Attribution IQ nelle tabelle a forma libera</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
