@@ -83,7 +83,7 @@ I sottomenu contengono le seguenti opzioni.
 | Apri | Cancella | Nuovo pannello a forma libera | Nuova metrica | Ottieni collegamento progetto* | Tasti di scelta rapida |
 | Salva | Cancella tutto | Nuovo pannello Confronto segmenti | Nuovo intervallo date | Invia file ora* | Forum di Aiuto |
 | Salva con nome* |  | Nuova tabella a forma libera | Nuovo avviso | Invia file secondo programma* |  |
-| Imposta come pagina di destinazione* |  | Nuovo grafico a linee | Aggiorna componenti | Cura dati progetto |  |
+| Imposta come pagina di destinazione* |  | Nuova riga | Aggiorna componenti | Cura dati progetto |  |
 | Aggiorna progetto |  | Nuovo grafico a barre |  |  |  |
 | Scarica come CSV |  |  |  |  |  |
 | Scarica PDF* |  |  |  |  |  |
