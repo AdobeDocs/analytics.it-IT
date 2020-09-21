@@ -3,6 +3,9 @@ title: Più suite di rapporti in Workspace
 description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
