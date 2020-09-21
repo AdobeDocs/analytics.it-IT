@@ -8,8 +8,8 @@ breadcrumb-url: /docs/analytics/components/home.html
 translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 96%
       + [Diritti del segmento per ruolo](segmentation/seg-reference/seg-rights.md)
       + [Risoluzione dei problemi](segmentation/seg-reference/c-troubleshooting.md)
    + [Domande frequenti](segmentation/seg-transition.md)
-   + [Procedure consigliate](segmentation/best-practices.md)
+   + [Best practice](segmentation/best-practices.md)
    + [Guida alla transizione per Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Metriche calcolate {#calculated-metrics}
    + [Metriche calcolate e metriche calcolate avanzate (derivate)](c-calcmetrics/cm-overview.md)
@@ -208,10 +208,10 @@ ht-degree: 96%
       + [Visualizzazione delle informazioni sulle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-view.md)
 + Analytics tra dispositivi {#cda}
    + [Panoramica di Analytics tra dispositivi](cda/overview.md)
-   + [Cuciture basate sul campo](cda/field-based-stitching.md)
-   + [Grafico del dispositivo](cda/device-graph.md)
-   + [Configurare l&#39;analisi tra dispositivi](cda/setup.md)
-   + [Come si riproduce il funzionamento](cda/replay.md)
+   + [Unione basata sui campi](cda/field-based-stitching.md)
+   + [Device Graph](cda/device-graph.md)
+   + [Configurare Analytics tra dispositivi](cda/setup.md)
+   + [Funzionamento delle riproduzioni](cda/replay.md)
    + [Modello di area di lavoro CDA](cda/workspace-template.md)
    + [Domande frequenti su Analytics tra dispositivi](cda/faq.md)
 + Avvisi {#alerts}
@@ -220,8 +220,8 @@ ht-degree: 96%
    + [Gestione avvisi](c-alerts/alert-manager.md)
    + [Avvisi intelligenti: casi di utilizzo](c-alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
-   + [Panoramica sulle classificazioni](classifications/c-classifications.md)
-   + Importatore classificazioni {#classifications-importer}
+   + [Panoramica delle classificazioni](classifications/c-classifications.md)
+   + Importazione classificazioni {#classifications-importer}
       + [Importazione classificazioni: panoramica](classifications/importer/c-working-with-saint.md)
       + [File di dati di classificazione](classifications/importer/c-saint-data-files.md)
       + [Eliminare i dati di classificazione](classifications/importer/t-delete-classification-data.md)
