@@ -1,33 +1,33 @@
 ---
 title: Best practice di segmentazione
-description: Crea segmenti ottimali che restituiscono i dati in modo efficiente.
-translation-type: tm+mt
+description: Crea segmenti ottimali in grado di restituire i dati in modo efficiente.
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Best practice di segmentazione
 
-I segmenti complessi sono spesso necessari per ottenere i dati desiderati. Se segmenti complessi sono inefficienti e vengono utilizzati in una suite di rapporti di grandi dimensioni, l&#39;esecuzione dei report richiederà molto più tempo. Quando crei o modifichi un segmento, prendi in considerazione le seguenti risorse per ridurre al minimo la complessità.
+I segmenti complessi sono spesso necessari per ottenere i dati desiderati. Se i segmenti complessi sono inefficienti e vengono utilizzati in una suite di rapporti di grandi dimensioni, l’esecuzione dei rapporti richiederà molto più tempo. Quando crei o modifichi un segmento, prendi in considerazione le seguenti risorse per minimizzare la complessità.
 
-## Utilizzate solo l&#39;operatore &#39;Contains&#39; come ultima risorsa
+## Utilizzare l’operatore “Contains” solo come ultima risorsa
 
-L&#39;operatore &#39;Contiene&#39; è una delle funzioni di elaborazione più complesse nella segmentazione, in quanto deve analizzare l&#39;intero contenuto di ogni valore. Considerare l&#39;utilizzo di altri operatori, ad esempio &quot;Inizia con&quot; o &quot;Termina con&quot;, se i valori desiderati si trovano all&#39;inizio o alla fine di una stringa.
+L’operatore “Contains” (contiene) è una delle funzioni di elaborazione più complesse nella segmentazione, in quanto deve analizzare l’intero contenuto di ogni valore. Considera l’utilizzo di altri operatori, ad esempio “Starts with” o “Ends with”, se i valori desiderati si trovano all’inizio o alla fine di una stringa.
 
-Se l&#39;operatore &#39;Contiene&#39; in un segmento restituisce un gran numero di risultati, il rapporto si verifica in genere un timeout. Ad esempio, se hai creato un segmento in cui `Referrer equals "."`il segmento cerca il contenuto di ogni valore. Valutare la possibilità di utilizzare l&#39;operatore &quot;Exists&quot;.
+Se l’operatore “Contains” in un segmento restituisce un gran numero di risultati, in genere si verifica un timeout del rapporto. Ad esempio, se hai creato un segmento in cui `Referrer equals "."`, il segmento esegue ricerche nel contenuto di ogni valore. Valuta la possibilità di utilizzare l’operatore “Exists” al posto di “Contains”.
 
-## Uso delle classificazioni per raggruppare gli elementi dimensionali
+## Utilizzare le classificazioni per raggruppare gli elementi dimensionali
 
-Se hai molte condizioni di segmento, possono rapidamente degradare le prestazioni del segmento. Ad esempio, `Page equals X or Page equals Y or Page equals Z` ripetuto con centinaia di valori diversi. Invece di scrivere queste centinaia di condizioni, classifica tutti i valori desiderati in un segmento, quindi usa il valore classificato in un segmento.
+Se un segmento ha molte condizioni, queste possono rapidamente degradare le prestazioni del segmento. Ad esempio, `Page equals X or Page equals Y or Page equals Z` ripetuto con centinaia di valori diversi. Invece di scrivere queste centinaia di condizioni, classifica tutti i valori desiderati in un segmento, quindi usa il valore classificato in un segmento.
 
-1. Create una classificazione per la variabile con cui state lavorando.
-2. Scaricate il modello di classificazione e apritelo nel foglio di calcolo o nell’editor di testo desiderato.
-3. Attribuite a ogni elemento di dimensione che desiderate includere nel segmento lo stesso valore.
-4. Utilizzate Importazione classificazioni per importare nuovamente il foglio di calcolo in  Adobe Analytics
-5. Al termine dell&#39;elaborazione della classificazione, crea un segmento utilizzando il valore classificato.
+1. Crea una classificazione per la variabile con cui stai lavorando.
+2. Scarica il modello di classificazione e aprilo nel foglio di calcolo o nell’editor di testo desiderato.
+3. Attribuisci lo stesso valore a ogni elemento dimensionale che desideri includere nel segmento.
+4. Utilizza l’importazione di classificazioni per importare nuovamente il foglio di calcolo in Adobe Analytics.
+5. Al termine dell’elaborazione della classificazione, crea un segmento utilizzando il valore classificato.
 
-Questo metodo aumenta drasticamente le prestazioni e fornisce un modo semplice per modificare le condizioni del segmento. Invece di modificare il segmento con valori diversi, puoi aggiungere o rimuovere elementi dimensione dalla classificazione.
+Questo metodo migliora drasticamente le prestazioni e fornisce un modo semplice per modificare le condizioni dei segmenti. Invece di modificare il segmento con valori diversi, puoi aggiungere o rimuovere elementi dimensionali dalla classificazione.
