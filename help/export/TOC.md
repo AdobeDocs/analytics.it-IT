@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 94%
       + [Panoramica sui contenuti dei feed dati](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcolare metriche](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Riferimento colonna dati](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Ricerca evento pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Ricerca attributi per dispositivi mobili](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Ricerca eventi pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Ricerca attributi mobile](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Caratteri speciali](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Domande frequenti sui feed dati](analytics-data-feed/df-faq.md)
@@ -38,7 +38,7 @@ ht-degree: 94%
    + [Panoramica di Data Warehouse](data-warehouse/data-warehouse.md)
    + [Aggiungere un gruppo utenti di Data Warehouse](data-warehouse/t-dw-group.md)
    + [Create a Data Warehouse Request (Creare una richiesta di archivio dati)](data-warehouse/t-dw-create-request.md)
-   + [Richiesta di consegna](data-warehouse/delivery-time.md)
+   + [Tempi di consegna delle richieste](data-warehouse/delivery-time.md)
    + [File di dati Tableau](data-warehouse/t-tableau.md)
    + [Ordina per metrica](data-warehouse/sorting-by-metric.md)
    + [Pianificazione di una richiesta ricorrente](data-warehouse/dw-schedule-recurring.md)
@@ -71,6 +71,6 @@ ht-degree: 94%
       + [Invio di dati Adobe a un account FTP esterno tramite SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Invio di richieste di Data Warehouse a server SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Connessione ad Adobe tramite SFTP senza password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Download di  Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Download di Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [API Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html)
