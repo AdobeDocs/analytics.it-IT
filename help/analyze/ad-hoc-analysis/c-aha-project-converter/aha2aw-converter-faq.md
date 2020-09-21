@@ -3,10 +3,10 @@ description: 'null'
 title: Domande frequenti su Project Converter
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 95%
+source-wordcount: '933'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 95%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Dispersione</b>: nei progetti esportati in Analysis Workspace, l’asse Y è impostato come prima colonna, l’asse X come seconda colonna e il diametro come terza colonna. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tabelle di abbandono</b>: per visualizzare i fallthrough o le tabelle di abbandono, fai clic con il pulsante destro del mouse sul punto di controllo e seleziona un’opzione di suddivisione. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Intervalli di date a livello di report di abbandono</b>: gli intervalli di date dei report personalizzati non sono stati applicati alle visualizzazioni Abbandono. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Rapporto di flusso</b>: il flusso verrà spostato in un pannello separato per mantenere intervalli di dati e segmentazione. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Rapporto di flusso</b>: il flusso verrà spostato in un pannello separato per mantenere intervalli di dati e segmentazione. Le istanze ripetute possono essere incluse o escluse nelle impostazioni Flusso. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Funnel di conversione</b>: verrà convertito in una tabella a forma libera perché non supportato in Analysis Workspace. La visualizzazione Abbandono è una sostituzione consigliata per il funnel di conversione, ma si comporta in modo leggermente diverso. </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 95%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">I segmenti sono interni al progetto convertito (non pubblici). Puoi scegliere di renderli pubblici, come illustrato di seguito: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">I segmenti a livello di workspace di Ad Hoc Analysis vengono applicati a livello di progetto/pannello in Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">I segmenti a livello di report di Ad Hoc Analysis vengono applicati a livello di colonna di una tabella in Workspace. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">I segmenti di tabella Ad Hoc Analysis vengono applicati a livello di colonna in Workspace. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF"> segmenti di tabella Ad Hoc Analysis vengono applicati a livello di colonna della tabella in Workspace. </li> 
     </ul> <p>Puoi modificare i segmenti nello  strumento per la <a href="https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html"  >creazione dei segmenti</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Come vengono convertiti gli intervalli di date?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Gli intervalli di date “Ultimo giorno X” in Ad Hoc Analysis <i>escludono</i> oggi, mentre Analysis Workspace <i>include</i> oggi. Di conseguenza, gli intervalli di date come “ultimi 90 giorni” potrebbero non corrispondere esattamente tra gli strumenti. Usa intervalli di date personalizzati per recuperare lo stesso periodo di tempo in Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Gli intervalli di date “Ultimo giorno X” in Ad Hoc Analysis <i>escludono</i> oggi, mentre Analysis Workspace <i>include</i> oggi. Di conseguenza, intervalli di date come 'Ultimi 90 giorni' potrebbero non corrispondere esattamente tra gli strumenti. Applicate invece gli intervalli 'Ultime X giorni <b></b> interi' in  Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">L’intervallo di date a livello di workspace di Ad Hoc Analysis vengono applicati a livello di progetto/pannello in Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">L’intervallo di date a livello di report di Ad Hoc Analysis viene applicato a livello di colonna di una tabella in Workspace. </li> 
     </ul> <p>Puoi modificare i tuoi intervalli di date personalizzati in <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Componenti</span> &gt; <span class="uicontrol"> Intervalli di date</span>. </p> </td> 
