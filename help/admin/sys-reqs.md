@@ -1,9 +1,9 @@
 ---
 title: Requisiti di sistema
 description: Requisiti di sistema per l’utilizzo di Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La maggior parte delle soluzioni Adobe Analytics, incluso Analysis Workspace, è
 
 >[!NOTE]
 >
->Adobe ha terminato il supporto per Internet Explorer 11 in riferimento ad Adobe Analytics il 13 novembre 2018.
+>Adobe ha terminato il supporto per Internet Explorer 11 all’interno di Adobe Analytics il 13 novembre 2018.
 
 ## Requisiti di sistema per soluzioni non basate su browser
 
