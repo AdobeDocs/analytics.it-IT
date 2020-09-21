@@ -6,44 +6,44 @@ translation-type: tm+mt
 source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
 source-wordcount: '7747'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
 # Scopri le novità di Analysis Workspace
 
-## 2020 luglio
+## Luglio 2020
 
-Nuova funzionalità rilasciata il 16 luglio 2020.
+Nuova funzione rilasciata il 16 luglio 2020.
 
 | Funzione | Descrizione |
 |--- |--- |
-| Nuovi predefiniti per intervalli di date | Aggiunti 4 nuovi intervalli di date: ([!UICONTROL This week/month/quarter/year (excluding today)]) Questo consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
+| Nuovi predefiniti per intervalli di date | Sono stati aggiunti 4 nuovi intervalli di date: ([!UICONTROL This week/month/quarter/year (excluding today)]). Questo consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
 
 ## Giugno 2020
 
-Nuove funzionalità rilasciate il 18 giugno 2020.
+Nuove funzioni rilasciate il 18 giugno 2020.
 
 | Funzione | Descrizione |
 |--- |--- |
-| Attribution IQ: attribuzione algoritmica | Il modello di attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Attribution IQ: attribuzione algoritmica | Il modello di attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Ruoli di progetto per progetti Workspace condivisi | Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Progetti Workspace solo visualizzazione | I progetti Workspace possono essere condivisi con gli utenti solo con la modalità di accesso “Può visualizzare”. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Possibilità di collaborare alla modifica dei progetti Workspace | I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Pannello vuoto aggiornato | Il pannello vuoto ora include pannelli e visualizzazioni, garantendo così una maggiore facilità nella scelta del flusso di lavoro di analisi più adatto alle tue esigenze. |
+| Aggiornamento del pannello vuoto | Il pannello vuoto ora include pannelli e visualizzazioni, garantendo così una maggiore facilità nella scelta del flusso di lavoro di analisi più adatto alle tue esigenze. |
 | Pannello Quick Insights (25 giugno 2020) | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di Analysis Workspace per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Pannello Analytics for Target in Workspace (25 giugno 2020) | Il pannello Analytics for Target (A4T) consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace con incremento e affidabilità. [Ulteriori informazioni...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Pagina Informazioni su Workspace | La pagina Informazioni su Workspace contiene informazioni sull’ambiente Analysis Workspace e sugli amministratori di Adobe Analytics (in caso tu abbia bisogno di supporto) e offre una modalità per fornire feedback all’interno del prodotto. È disponibile in Workspace > Aiuto > Informazioni su Workspace. |
 
 ## Maggio 2020
 
-Nuove funzionalità rilasciate il 21 maggio 2020.
+Nuove funzioni rilasciate il 21 maggio 2020.
 
 | Funzione | Descrizione |
 |--- |--- |
-| creazione automatica di tabelle a mano libera da uno stato vuoto | In precedenza non era possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto, bisognava prima aggiungere una Tabella a mano libera. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una Tabella a mano libera viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
+| Creazione automatica di tabelle a mano libera da uno stato vuoto | In precedenza, non era possibile rilasciare componenti direttamente in un progetto o un pannello vuoto, ma era necessario aggiungere prima una tabella a forma libera. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una tabella a mano libera viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
 | Miglioramenti all’accessibilità | Il team di Adobe Analytics ha apportato diversi miglioramenti ad Analysis Workspace in termini di accessibilità, tra cui la navigazione da tastiera, il contrasto del colore e il supporto per la lettura dello schermo. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## Aprile 2020
@@ -70,7 +70,7 @@ Nuove funzionalità rilasciate il 20 febbraio 2020.
 | Funzione | Descrizione |
 |--- |--- |
 | Nuovo modello di Workspace per le organizzazioni che utilizzano Cross-Device Analytics | Questo modello mostra l’efficacia di CDA nel raggruppare le visite e fornisce informazioni sulle dimensioni e sulle metriche esclusive di CDA. È necessaria una suite di report che utilizza CDA. Per ulteriori informazioni, consulta [Configurazione di Cross-Device Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/cda-setup.html). |
-| Nuovi tasti di scelta rapida in Workspace | <ul><li>Collapse/Expand All panels (Comprimi/espandi tutti i pannelli): `alt + m`</li><li>Collapse/Expand Active panel (Comprimi/espandi pannello attivo): `alt + ctrl + m`</li><li>Barra sinistra di ricerca: `ctrl + /`</li><li>Move to next panel (Passa al pannello successivo): `alt + Right Key`</li><li>Move to previous panel (Passa al pannello precedente): `alt + Left Key`</li></ul>[Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Nuovi tasti di scelta rapida in Workspace | <ul><li>Collapse/Expand All panels (Comprimi/espandi tutti i pannelli): `alt + m`</li><li>Comprimi/espandi pannello attivo: `alt + ctrl + m`</li><li>Barra di ricerca a sinistra: `ctrl + /`</li><li>Passa al pannello successivo: `alt + Right Key`</li><li>Passa al pannello precedente: `alt + Left Key`</li></ul>[Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Altri miglioramenti di Workspace | <ul><li>Quando un pannello o una visualizzazione vengono rilasciati in Workspace, la barra sinistra ora passa ai componenti in modo automatico garantendo un workflow più agevole.</li><li>È ora possibile compiere delle azioni sui componenti del modello (ad esempio taggarli, aggiungerli ai preferiti, approvarli).</li><li>Le liste filtrate di metriche e segmenti offrono il pulsante + per aggiungere un nuovo componente in caso non si trovi quello desiderato.</li></ul> |
 | Debugger di Workspace | Il debugger di Workspace è stato aggiunto al menu Aiuto per consentirti di eseguire il debug delle richieste di Workspace in modo più semplice. [Ulteriori informazioni...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -345,7 +345,7 @@ Nuove funzionalità e miglioramenti rilasciati il 12 aprile 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nuova impostazione per righe </a> </p> </td> 
-   <td colname="col2"> <p>La nuova impostazione <span class="uicontrol">Calcola percentuale per riga</span> nelle tabelle a forma libera forza il calcolo delle percentuali delle celle di una riga, anziché di una colonna. Questa funzione è particolarmente utile per le percentuali di tendenza, ad esempio per il modo in cui un elemento di dimensione viene equo rispetto al resto nel tempo. L’opzione è attivata per impostazione predefinita quando si fa clic sull’icona <span class="uicontrol">Visualizza</span>. </p> </td> 
+   <td colname="col2"> <p>La nuova impostazione <span class="uicontrol">Calcola percentuale per riga</span> nelle tabelle a forma libera forza il calcolo delle percentuali delle celle di una riga, anziché di una colonna. Questo è utile soprattutto per le percentuali di tendenza, ad esempio per determinare come si comporta un particolare elemento dimensionale rispetto agli altri nel corso del tempo. L’opzione è attivata per impostazione predefinita quando si fa clic sull’icona <span class="uicontrol">Visualizza</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Impostazione di visualizzazione “Sovrapposizione 100%” </a> </p> </td> 
@@ -515,7 +515,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifiche a Nessuno/Non specificato </p> </td> 
-   <td colname="col2"> <p>È stato modificato il funzionamento di Nessuno/Non specificato in  Analysis Workspace in modo che sia coerente con Reporting e analisi, Generatore di segmenti e il menu delle voci di dimensioni in  Analysis Workspace. </p> <p>Ciò significa che il valore sarà visualizzato come “Non specificato” al posto di “Nessuno” nella maggior parte dei progetti in Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>È stato modificato il funzionamento di Nessuno/Non specificato in Analysis Workspace in modo che sia coerente con Reports &amp; Analytics, Generatore di segmenti e il menu degli elementi dimensionali in Analysis Workspace. </p> <p>Ciò significa che il valore sarà visualizzato come “Non specificato” al posto di “Nessuno” nella maggior parte dei progetti in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1047,7 +1047,7 @@ Nuove funzionalità rilasciate il 21 aprile 2016:
 
 ## Gennaio 2016
 
-Nuove funzionalità rilasciate il 21 gennaio 2016.
+Nuove funzionalità rilasciate il 21 gennaio 2016:
 
 * [Possibilità di annullare le azioni](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
 * [Collega a questo progetto](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
