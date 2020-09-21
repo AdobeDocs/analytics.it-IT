@@ -8,8 +8,8 @@ breadcrumb-url: /docs/analytics/implementation/home.html
 translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
