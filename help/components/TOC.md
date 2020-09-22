@@ -4,12 +4,11 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
-breadcrumb-url: /docs/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '612'
+ht-degree: 100%
 
 ---
 
