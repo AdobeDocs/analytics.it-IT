@@ -1,18 +1,21 @@
 ---
-description: Descrizioni dei campi in Gestione tag dinamica per referenti e opzioni delle campagne durante la distribuzione di Gestione tag dinamica in Adobe Analytics.
+description: Descrizioni dei campi in Gestione tag dinamica per referenti e opzioni delle campagne durante la distribuzione di Gestione tag dinamica in  Adobe Analytics.
 keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: Riferimenti e campagne
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 6%
 
 ---
 
 
 # Riferimenti e campagne
 
-Descrizioni dei campi in [!UICONTROL Dynamic Tag Management] per i referenti e le opzioni della campagna durante la distribuzione [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
+Descrizioni dei campi in [!UICONTROL Dynamic Tag Management] per referenti e opzioni della campagna durante la distribuzione [!UICONTROL Dynamic Tag Management] in  Adobe [!DNL Analytics].
 
 **[!UICONTROL  *`Property`*]** > Icona ![](assets/settings_gear.png) ingranaggio **[!UICONTROL Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
 
