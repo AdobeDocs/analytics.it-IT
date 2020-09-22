@@ -1,11 +1,14 @@
 ---
-description: Descrizioni dei campi per le impostazioni globali Cookie utilizzate per distribuire Gestione tag dinamica in Adobe Analytics.
+description: Descrizioni dei campi per le impostazioni globali Cookie utilizzate per distribuire Gestione tag dinamica in  Adobe Analytics.
 keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 54%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
-*`Property`*> Strumento Modifica > Cookie
+*`Property`* > Strumento Modifica > Cookie
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -25,7 +28,7 @@ Field descriptions for the Cookies global settings used for deploying [!UICONTRO
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Visitor ID </td> 
+   <td colname="col1"> ID visitatore </td> 
    <td colname="col2"> <p>Valore univoco che rappresenta un cliente nei sistemi online e offline. </p> </td> 
   </tr> 
   <tr> 
