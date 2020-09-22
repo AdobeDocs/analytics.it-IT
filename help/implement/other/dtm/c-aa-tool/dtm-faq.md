@@ -1,18 +1,21 @@
 ---
-description: Domande frequenti sulla configurazione automatica della distribuzione di Adobe Analytics. Il metodo di configurazione automatico gestisce il codice AppMeasurement per voi.
+description: Domande frequenti sulla configurazione automatica della distribuzione Adobe Analytics . Il metodo di configurazione automatico gestisce il codice AppMeasurement per voi.
 keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Domande frequenti sullo strumento Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 4%
 
 ---
 
 
 # Domande frequenti sullo strumento Adobe Analytics
 
-Domande frequenti sulla configurazione automatica della distribuzione di Adobe Analytics. Il metodo di configurazione automatica gestisce il [!DNL AppMeasurement] codice.
+Domande frequenti sulla configurazione automatica della distribuzione Adobe Analytics . Il metodo di configurazione automatica gestisce il [!DNL AppMeasurement] codice.
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
@@ -23,8 +26,8 @@ Domande frequenti sulla configurazione automatica della distribuzione di Adobe A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Dove si posizionano i plug-in durante l'implementazione di Adobe Analytics tramite DTM? </p> </td> 
-   <td colname="col2"> <p> Se utilizzate Gestione dinamica dei tag per ospitare manualmente i <code> s_code</code>, i plug-in possono essere aggiunti nello stesso editor in hosting <code> s_code</code>, esattamente come per una tipica implementazione di Adobe Analytics. </p> <p>Tuttavia, è anche possibile inserire i plug-in nell’editor nella sezione <span class="term"> Personalizza codice</span> pagina delle impostazioni dello strumento. Entrambi i metodi di attuazione dovrebbero essere altrettanto efficaci. </p> </td> 
+   <td colname="col1"> <p> Dove si posizionano i plug-in durante l'implementazione  Adobe Analytics tramite DTM? </p> </td> 
+   <td colname="col2"> <p> Se utilizzate Gestione dinamica dei tag per ospitare manualmente i <code> s_code</code>, i plug-in possono essere aggiunti nello stesso editor in hosting <code> s_code</code>, esattamente come per una tipica implementazione Adobe Analytics . </p> <p>Tuttavia, è anche possibile inserire i plug-in nell’editor nella sezione <span class="term"> Personalizza codice</span> pagina delle impostazioni dello strumento. Entrambi i metodi di attuazione dovrebbero essere altrettanto efficaci. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se si apportano modifiche alla configurazione nella nuova versione dello strumento, è possibile eseguire il test nell'area di gestione temporanea prima della pubblicazione in produzione? </p> </td> 
@@ -35,17 +38,17 @@ Domande frequenti sulla configurazione automatica della distribuzione di Adobe A
    <td colname="col2"> <p>No. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Se si passa dalla gestione manuale della libreria a quella gestita da Adobe, le impostazioni o il codice correnti saranno interessati? </p> </td> 
+   <td colname="col1"> <p>Se si passa dalla gestione manuale della libreria a Gestito da  Adobe, le impostazioni o il codice correnti saranno interessati? </p> </td> 
    <td colname="col2"> <p>Il codice utente specificato viene sovrascritto con la libreria <span class="keyword"> AppMeasurement</span> di base. È necessario spostare questo codice nella nuova sezione Codice <span class="wintitle"></span> pagina personalizzato alla fine della configurazione dello strumento in modo che il codice continui ad essere eseguito. Questo metodo consente di gestire (e aggiornare) la libreria <span class="keyword"> AppMeasurement</span> separatamente dal codice personalizzato dell'utente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>La cronologia delle revisioni per lo strumento <span class="keyword"> Adobe Analytics</span> verrà mantenuta al momento del rilascio della nuova integrazione? </p> </td> 
+   <td colname="col1"> <p>La cronologia delle revisioni per <span class="keyword"> lo strumento Adobe Analytics</span>  verrà mantenuta al momento del rilascio della nuova integrazione? </p> </td> 
    <td colname="col2"> <p>Sì. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni sulla configurazione, consulta [Aggiunta di Adobe Analytics Tool](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md) .
+Consultate [Aggiungere  Adobe Analytics Tool](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md) per informazioni sulla configurazione.
 
 ## Potenziali insidie {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
