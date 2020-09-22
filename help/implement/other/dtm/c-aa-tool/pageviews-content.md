@@ -1,11 +1,14 @@
 ---
 description: Descrizioni dei campi in Gestione tag dinamica per le visualizzazioni di pagina e le impostazioni di contenuto durante la distribuzione di Analytics.
 keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: Visualizzazioni di pagina e contenuto
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 14%
 
 ---
 
