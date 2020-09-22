@@ -2,19 +2,15 @@
 title: Pannello Visualizzatori simultanei
 description: Come usare e interpretare il pannello Visualizzatori simultanei  Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
+source-git-commit: aea820324da5153c85ab1c12110c756748aedec9
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 4%
+source-wordcount: '1060'
+ht-degree: 3%
 
 ---
 
 
 # Pannello Visualizzatori simultanei
-
->[!IMPORTANT]
->
->Questa funzione si trova in Testing limitato per i clienti di analisi dei supporti. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html)
 
 I clienti di Media Analytics possono analizzare i visualizzatori simultanei per capire dove si è verificata la concorrenza di picco o dove si sono verificati dei rilanci, per fornire informazioni utili sulla qualità dei contenuti e sul livello di coinvolgimento dei visualizzatori, nonché per risolvere eventuali problemi o pianificare il volume o la scala.
 
