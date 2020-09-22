@@ -1,11 +1,14 @@
 ---
 description: Creare regole che determinano sulle pagine in cui viene attivata una regola.
 keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Creare condizioni per le regole di caricamento delle pagine
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ Creare regole che determinano sulle pagine in cui viene attivata una regola.
 
 1. Specificare la condizione che causa l&#39;attivazione della regola.
 
-   Ad esempio, potete selezionare **[!UICONTROL Path]**per identificare pagine specifiche per le quali attivare la regola.
+   Ad esempio, potete selezionare **[!UICONTROL Path]** per identificare pagine specifiche per le quali attivare la regola.
 
    ![](assets/conditions-page-load-rules2.png)
 
