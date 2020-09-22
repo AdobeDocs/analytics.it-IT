@@ -1,11 +1,11 @@
 ---
 description: Impostate le azioni che desiderate vengano attivate dalla condizione.
 keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Configurare le azioni per la condizione da attivare
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 7%
@@ -19,7 +19,7 @@ Impostate le azioni che desiderate vengano attivate dalla condizione.
 
 Dopo aver impostato la condizione, è necessario impostare le azioni che si desidera che venga attivata dalla condizione. Tali azioni possono includere [!DNL Analytics] eventi, tag di terze parti e script personalizzati. Questo esempio descrive come impostare script o tag di terze parti.
 
-Oltre a strumenti integrati come [!DNL Adobe Analytics] e Google  Analytics, Gestione tag dinamica può attivare qualsiasi tipo di JavaScript o inserire codice HTML nel sito, in pagine selezionate o in scenari specifici.
+Oltre a strumenti integrati come [!DNL Adobe Analytics] e Google Analytics, Gestione tag dinamica può attivare qualsiasi tipo di JavaScript o inserire codice HTML nel sito, in pagine selezionate o in scenari specifici.
 
 Ogni regola può attivare tutti gli script o le iniezioni HTML desiderati.
 
