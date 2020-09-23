@@ -2,9 +2,9 @@
 title: Firme bot comuni
 description: Riconoscere gli identificatori comuni dei bot.
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Gli utenti moderni hanno monitor a risoluzione molto più elevata rispetto agli 
 
 ## Paese + Fuso orario non corrispondente
 
-Vi sarà una mancata corrispondenza tra il paese di origine e il fuso orario. Ad esempio, una posizione degli Stati Uniti ma ha un fuso orario GMT.
+Noterete una mancata corrispondenza tra il paese di origine e il fuso orario. Ad esempio, la posizione potrebbe essere Stati Uniti, ma il fuso orario potrebbe essere GMT.
 
 ![](assets/bots-country-time-zone.png)
 
