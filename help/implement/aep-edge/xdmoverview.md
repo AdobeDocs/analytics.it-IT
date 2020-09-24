@@ -1,8 +1,8 @@
 ---
 title: Utilizzo di dati XDM con Analytics
-description: 'Panoramica dell''utilizzo di dati XDM dalla piattaforma Experience in Adobe Analytics '
+description: 'Panoramica dell''utilizzo di dati XDM da  Experience Platform in  Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 4%
@@ -10,9 +10,9 @@ ht-degree: 4%
 ---
 
 
-# Utilizzo dei dati Edge di Adobe Experience Platform con Analytics
+# Utilizzo di dati Adobe Experience Platform Edge con Analytics
 
-Puoi usare l’SDK [Web di](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) per inviare dati ad Adobe Analytics. Questo funziona traducendo il modello dati [esperienza (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in un formato utilizzato da Analytics.
+Puoi usare l’SDK [Web](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) per inviare dati a  Adobe Analytics. Questo funziona traducendo il modello dati [esperienza (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in un formato utilizzato da Analytics.
 
 Analytics raccoglie i dati XDM tramite due metodi:
 
@@ -29,8 +29,8 @@ La mappatura manuale dei dati XDM su Analytics si basa sulle variabili dei dati 
 
 ## Configurazione
 
-Per impostare Analytics per la ricezione dei dati XDM:
+Per impostare Analytics per la ricezione di dati XDM:
 
-1. Installa e [configura](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/configuring-the-sdk.html) l’SDK [Web](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/installing-the-sdk.html)Adobe Experience Platform.
+1. Installate e [configurate](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/configuring-the-sdk.html) l&#39;SDK [Web di](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/installing-the-sdk.html)Adobe Experience Platform.
 
 2. Assicurati che le suite di rapporti applicabili siano mappate sui dati desiderati. I dati XDM scorrono automaticamente nella suite di rapporti dalla piattaforma Adobe Experience.
