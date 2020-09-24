@@ -2,9 +2,9 @@
 description: 'I componenti in  Analysis Workspace sono dimensioni, metriche, segmenti e intervalli di date che puoi trascinare su un progetto. '
 title: Panoramica dei componenti
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 12%
 
 ---
@@ -36,7 +36,7 @@ Esempi di elementi dimensionali includono [!UICONTROL Homepage] (all’interno d
 
 [**Le metriche**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) sono misure quantitative sul comportamento dei visitatori. Si trovano nella barra a sinistra del componente (sezione verde) e vengono in genere applicati come colonne di una tabella.
 
-Esempi di metriche includono [!UICONTROL Page views, [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent]e [!UICONTROL Revenue/Order]. Le metriche vengono fornite dal Adobe , acquisite tramite l&#39;implementazione personalizzata ([!UICONTROL Success events]) o create mediante il generatore di metriche [calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Esempi di metriche includono [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent]e [!UICONTROL Revenue/Order]. Le metriche vengono fornite dal Adobe , acquisite tramite l&#39;implementazione personalizzata ([!UICONTROL Success events]) o create mediante il generatore di metriche [calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
