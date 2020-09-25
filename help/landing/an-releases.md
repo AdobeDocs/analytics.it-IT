@@ -1,18 +1,18 @@
 ---
 description: Spiega la nuova strategia per il rilascio continuo di funzioni per Adobe Analytics
 title: Rilasci di funzioni di Adobe Analytics
-translation-type: ht
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 79%
 
 ---
 
 
 # Rilasci di funzioni di Adobe Analytics
 
-Precedentemente, i rilasci delle funzioni di Adobe Analytics seguivano una pianificazione mensile fissa. A partire da aprile 2020, Adobe Analytics è passato a un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
+Precedentemente, i rilasci delle funzioni di Adobe Analytics seguivano una pianificazione mensile fissa. A partire da aprile 2020,  Adobe Analytics è passato a un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzionalità.
 
 ## Strategia di rilascio
 
@@ -25,6 +25,12 @@ Precedentemente, i rilasci delle funzioni di Adobe Analytics seguivano una piani
 * **Disponibilità generale (GA, General Availability)**: la funzione è disponibile per il 100% delle organizzazioni Experience Cloud autorizzate e il rilascio è completo.
 
 Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che entro 2 mesi dall’inizio del rilascio (RTP) una funzione sarà in GA.
+
+## Flag di funzione
+
+I flag di funzione vengono utilizzati per controllare la visibilità delle nuove funzioni durante il rilascio.  Adobe consiglia di aggiungere app.launchdarkly.com al elenco Consentiti [](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) del firewall per un&#39;esperienza ottimale durante il rilascio. Subito dopo il raggiungimento di GA, la bandiera viene rimossa.
+
+Potete visualizzare i contrassegni delle funzioni attive in qualsiasi momento in **Aiuto > Informazioni su Workspace > Contrassegni** delle funzioni attive.
 
 ## Vantaggi
 
