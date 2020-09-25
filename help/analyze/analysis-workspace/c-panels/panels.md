@@ -1,18 +1,18 @@
 ---
-description: I pannelli sono raccolte di tabelle e visualizzazioni
+description: Un pannello è un insieme di tabelle e visualizzazioni
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: 8cfd2106df3aed48136ec82bca7d2cb19a479d61
+source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 12%
+source-wordcount: '736'
+ht-degree: 8%
 
 ---
 
 
 # Panoramica dei pannelli
 
-I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili per organizzare i progetti in base a periodi di tempo, suite di rapporti o casi di utilizzo dell’analisi. In  Analysis Workspace sono disponibili i seguenti tipi di pannelli:
+A [!UICONTROL panel] is a collection of tables and visualizations. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili per organizzare i progetti in base a periodi di tempo, suite di rapporti o casi di utilizzo dell’analisi. In  Analysis Workspace sono disponibili i seguenti tipi di pannelli:
 
 | Nome pannello | Descrizione |
 |---|---|
@@ -24,17 +24,25 @@ I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai 
 | [Pannello Visualizzatori simultanei](media-concurrent-viewers.md) | Analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e la possibilità di suddividere e confrontare. |
 | [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md) | Confronta rapidamente due segmenti tra tutti i punti dati per individuare automaticamente le differenze rilevanti. |
 
-I pannelli Approfondimenti rapidi, Blank e Freeform sono luoghi ideali per avviare l&#39;analisi, mentre Analytics per Target,  Attribution IQ, Media Concurrent Viewers e Confronto segmenti si prestano ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
+![](assets/panel-overview.png)
 
-Il pannello iniziale predefinito è il pannello Freeform, ma puoi anche decidere di rendere predefinito il [pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md).
+[!UICONTROL Quick Insights], [!UICONTROL Blank] e [!UICONTROL Freeform] i pannelli sono luoghi ideali per iniziare l&#39;analisi, prestandosi al tempo stesso ad analisi [!UICONTROL Analytics for Target][!UICONTROL Attribution IQ][!UICONTROL Media Concurrent Viewers] e [!UICONTROL Segment Comparison] ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
+
+The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## Suite di rapporti per pannello {#report-suite}
 
-Le tabelle e le visualizzazioni all’interno di un pannello derivano dai dati della suite di rapporti selezionata in alto a destra nel pannello. La suite per report determina anche i componenti disponibili nella barra a sinistra. All&#39;interno di un progetto, potete utilizzare una o [più suite](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) di rapporti a seconda dei casi di utilizzo dell&#39;analisi.
+Le tabelle e le visualizzazioni all’interno di un pannello derivano dai dati [!UICONTROL report suite] selezionati in alto a destra nel pannello. La suite per report determina anche i componenti disponibili nella barra a sinistra. All&#39;interno di un progetto, potete utilizzare una o [più suite](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) di rapporti a seconda dei casi di utilizzo dell&#39;analisi.
+
+![](assets/panel-report-suite.png)
 
 ## Calendario del pannello {#calendar}
 
-Il calendario del pannello controlla l’intervallo di rapporti per tabelle e visualizzazioni all’interno di un pannello. Nota: Se all’interno di una tabella, una visualizzazione o un’area di rilascio di un pannello viene utilizzato un componente Intervallo date (viola), questo sostituisce il calendario del pannello.
+Il calendario del pannello controlla l’intervallo di rapporti per tabelle e visualizzazioni all’interno di un pannello.
+
+Nota: Se all’interno di una tabella, una visualizzazione o un’area di rilascio di un pannello viene utilizzato un componente Intervallo date (viola), questo sostituisce il calendario del pannello.
+
+![](assets/panel-calendar.png)
 
 ## Area di rilascio del pannello {#dropzone}
 
@@ -42,13 +50,17 @@ La zona di rilascio del pannello consente di applicare filtri a segmenti e a dis
 
 ### Filtri segmento
 
-Trascinate un segmento dalla barra a sinistra nella zona di rilascio del pannello per iniziare a filtrare il pannello.
+Trascinate e rilasciate qualsiasi segmento dalla barra a sinistra nella zona di rilascio del pannello per iniziare a filtrare il pannello.
 
-### Filtri segmento ad hoc
+![](assets/segment-filter.png)
+
+### Filtri per segmenti ad hoc
 
 È inoltre possibile trascinare componenti non di segmento direttamente nella zona di rilascio per creare segmenti **** ad hoc, risparmiando tempo e fatica nell’andare al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Per modificare questa definizione, fai clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona di modifica a forma di matita e modificala nel Generatore di segmenti.
 
-I segmenti ad hoc sono locali per il progetto e non verranno visualizzati nella barra a sinistra a meno che non li rendiate pubblici.
+I segmenti ad hoc sono locali per il progetto e non vengono visualizzati nella barra a sinistra se non li rendi pubblici.
+
+![](assets/adhoc-segment-filter.png)
 
 ### Filtri a discesa {#dropdown-filter}
 
@@ -56,9 +68,13 @@ Oltre ai filtri per segmenti, i filtri **a** discesa consentono di interagire co
 
 I filtri a discesa possono essere utilizzati per consolidare più progetti in un unico progetto. Ad esempio, se disponete di molte versioni dello stesso progetto con diversi segmenti Paese applicati, potete consolidare tutte le versioni in un unico progetto e aggiungere un filtro a discesa Paese.
 
+![](assets/dropdown-filter-intro.png)
+
 **Creazione e utilizzo di filtri a discesa:**
 
-1. Per creare un filtro a discesa utilizzando elementi di Dimension, come valori nella dimensione Canale di marketing, fate clic sulla freccia accanto alla dimensione nella parte sinistra. Vengono visualizzati tutti gli elementi disponibili. Selezionate uno o più componenti dalla barra a sinistra e rilasciateli nella zona di rilascio del pannello **tenendo premuto il tasto** Maiusc. Questo trasformerà i componenti in un filtro a discesa, anziché in un singolo segmento.
+![](assets/create-dropdown.png)
+
+1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio, valori all’interno della [!UICONTROL Marketing Channel] dimensione, fai clic sulla freccia destra accanto alla dimensione nella barra a sinistra. Vengono visualizzati tutti gli elementi disponibili. Selezionate uno o più componenti dalla barra a sinistra e rilasciateli nella zona di rilascio del pannello **tenendo premuto il tasto** Maiusc. Questo trasformerà i componenti in un filtro a discesa, anziché in un singolo segmento.
 1. Per creare un filtro a discesa utilizzando un altro componente come metriche, segmenti o intervalli di date, seleziona da un tipo di componente nella barra a sinistra e rilascia nella zona a discesa del pannello **tenendo premuto il tasto** Maiusc.
 1. Selezionate una delle opzioni dal menu a discesa per modificare i dati nel pannello. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
