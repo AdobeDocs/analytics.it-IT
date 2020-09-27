@@ -1,12 +1,16 @@
 ---
-title: Home note tecniche
-translation-type: ht
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
+title: Note tecniche di Analytics
+description: Questa guida fornisce informazioni utili su argomenti che non appartengono a uno strumento o componente di analisi specifico.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 100%
 
 ---
 
 
-# Home note tecniche
+# Note tecniche di Analytics
 
 Questa guida fornisce informazioni utili su argomenti che non appartengono a uno strumento o componente di analisi specifico.
 
