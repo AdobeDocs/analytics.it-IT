@@ -3,9 +3,9 @@ description: Registrate i file per consentirvi di vedere quando gli utenti acced
 title: Registri
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '582'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Consente di [!UICONTROL Usage and Access Log] valutare l&#39;utilizzo dei rappor
 
 | Elemento | Descrizione |
 |---|---|
-| Intervallo di date | Specifica un filtro per l’intervallo di date. È possibile immettere una data manualmente nel formato AAAA-MM-GG oppure fare clic sull&#39;icona Calendario per selezionare una data. |
+| Intervallo date | Specifica un filtro per l’intervallo di date. È possibile immettere una data manualmente nel formato AAAA-MM-GG oppure fare clic sull&#39;icona Calendario per selezionare una data. |
 | Login | Filtrare il registro per nome utente. |
 | IP | Filtrare il registro per un indirizzo IP. |
 | Suite di rapporti | Filtrare il registro per un ID suite di rapporti specifico. |
@@ -65,14 +65,9 @@ Consente di [!UICONTROL Usage and Access Log] valutare l&#39;utilizzo dei rappor
 | Progetto Workspace | Un progetto Workspace è stato visualizzato o modificato. |
 | Segmento | È stato creato/modificato un segmento. |
 | Metrica calcolata | È stata creata/modificata una metrica calcolata. |
-| Intervallo di date | È stato creato/modificato un intervallo di date. |
+| Intervallo date | È stato creato/modificato un intervallo di date. |
 | Suite di rapporti virtuali | È stata creata/modificata una suite di rapporti virtuale. |
 | Analisi contributi | È stato eseguito un processo di analisi dei contributi. |
-| Richiesta blocco dati Excel |  |
-| Login di Excel non riuscito |  |
-| Accesso Excel completato |  |
-| Errore di accesso mobile |  |
-| Accesso mobile completato |  |
 | Metodo Api | È stata effettuata una chiamata API. |
 
 
@@ -88,7 +83,7 @@ Gli strumenti che possono modificare una suite di rapporti dall&#39;esterno [!UI
 
 | Elemento | Descrizione |
 |---|---|
-| Intervallo di date | Specifica un filtro per l’intervallo di date. È possibile immettere una data manualmente nel formato AAAA-MM-GG oppure fare clic sull&#39;icona Calendario per selezionare una data. |
+| Intervallo date | Specifica un filtro per l’intervallo di date. È possibile immettere una data manualmente nel formato AAAA-MM-GG oppure fare clic sull&#39;icona Calendario per selezionare una data. |
 | Azienda | Filtrare il registro in base al nome della società. |
 | Login | Filtrare il registro per nome utente. |
 | IP | Filtrare il registro per un indirizzo IP. |
