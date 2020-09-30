@@ -2,11 +2,11 @@
 description: Scopri come creare collegamenti condivisibili a progetti o visualizzazioni
 keywords: Analysis Workspace sharing
 title: Creare collegamenti condivisibili
-translation-type: ht
-source-git-commit: e529ea26b02c1fdb4d1dd3587ab9065a70a97baa
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi anche condividere un collegamento a una parte specifica del progetto, ad es
 * Dall’intestazione di qualsiasi pannello, fai clic con il pulsante destro del mouse su **[!UICONTROL Get panel link]**
 * Dall’intestazione di qualsiasi tabella o visualizzazione, fai clic con il pulsante destro del mouse su **[!UICONTROL Get visualization link]**
 
-[Guarda il video](https://www.youtube.com/watch?v=lvmAdKNfWQw) sulla creazione di collegamenti e sul loro utilizzo per indirizzare i destinatari verso parti specifiche del progetto.
+[Guarda il video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) sulla creazione di collegamenti e sul loro utilizzo per indirizzare i destinatari verso parti specifiche del progetto.
 
 ![](assets/get-viz-link.png)
 
@@ -36,6 +36,6 @@ Puoi anche condividere un collegamento a una parte specifica del progetto, ad es
 
 Un suggerimento per sfruttare le varie opzioni di collegamento è includere sempre un sommario nella parte superiore del progetto Workspace. Nel sommario puoi inserire collegamenti ad altri progetti rilevanti, pannelli specifici e visualizzazioni specifiche. In questo modo il destinatario del progetto potrà navigare più facilmente.
 
-[Guarda il video](https://www.youtube.com/watch?v=Xo6fTguWm-M) sulla creazione di un sommario utilizzando i collegamenti e l’editor Rich Text di Workspace.
+[Guarda il video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) sulla creazione di un sommario utilizzando i collegamenti e l’editor Rich Text di Workspace.
 
 ![](assets/toc.png)
