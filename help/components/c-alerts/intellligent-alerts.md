@@ -3,7 +3,10 @@ description: Il nuovo sistema intelligente di avvisi offre un controllo più gra
 title: Avvisi intelligenti
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +21,7 @@ Il nuovo sistema intelligente di avvisi offre un controllo più granulare sugli 
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-Il nuovo Generatore di avvisi e Gestione avvisi sostituiscono la funzionalità di avvisi esistente in Adobe [!DNL Analytics]. La funzione Avvisi intelligenti permette di
+Il nuovo Generatore di avvisi e Gestione avvisi sostituiscono la funzionalità di avvisi esistente in  Adobe [!DNL Analytics]. La funzione Avvisi intelligenti permette di
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore).
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi.
@@ -43,7 +46,7 @@ I componenti del nuovo sistema di avvisi sono: Generatore di avvisi, Gestione av
 
 ## Domande frequenti: Modalità di calcolo e attivazione degli avvisi {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati  [modelli differenti](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99%). Le soglie del 99,75% e del 99,99% sono state introdotte specificamente per la granularità oraria, in modo che non vengano rilevate troppe anomalie.
+Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99%). Le soglie del 99,75% e del 99,99% sono state introdotte specificamente per la granularità oraria, in modo che non vengano rilevate troppe anomalie.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -73,7 +76,7 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: È possibile ottenere una tabella dei "valori previsti" che comprenda la linea tratteggiata, o una sorta di output dei valori? </b> </p> </td> 
-   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo fisso di 30 giorni, un intervallo fisso del 95% ed è simile al processo di <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  ><span class="uicontrol"></span>rilevamento delle anomalie di Reports &amp; Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo di formazione fisso di 30 giorni, con un intervallo fisso del 95%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
