@@ -3,11 +3,11 @@ description: I segmenti ti consentono di identificare sottoinsiemi di visitatori
 title: Informazioni su segmenti e contenitori
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '3685'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '3673'
+ht-degree: 99%
 
 ---
 
@@ -60,11 +60,7 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 ## Video introduttivo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Questo video di YouTube offre una breve panoramica dei contenitori di segmenti e del loro utilizzo.
-
-| Nome del video | Collegamento al video |
-|---|---|
-| Contenitori di segmenti | [Contenitori di segmenti in Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&amp;index=2&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
+Questo video offre una breve panoramica del segmento dei contenitori e di come utilizzarli: [Segmento di contenitori in  Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Informazioni sui contenitori {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
