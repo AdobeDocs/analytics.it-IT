@@ -1,17 +1,17 @@
 ---
 description: Condivisione e ruoli dei progetti in Workspace
 keywords: Analysis Workspace sharing
-title: Condividere progetti Workspace
-translation-type: ht
-source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
-workflow-type: ht
-source-wordcount: '1030'
-ht-degree: 100%
+title: Condivisione di progetti
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '1028'
+ht-degree: 99%
 
 ---
 
 
-# Condividere progetti Workspace
+# Condivisione di progetti
 
 La condivisione rende un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’azienda. Qualsiasi [cura](curate.md) applichi viene visualizzata all’apertura del progetto da parte dei destinatari.
 
