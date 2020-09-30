@@ -3,15 +3,15 @@ description: È possibile scaricare i dati da  Analysis Workspace copiandoli opp
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 7%
+source-wordcount: '955'
+ht-degree: 8%
 
 ---
 
 
-# Scaricare file PDF o CSV da Workspace
+# Scaricare file PDF o CSV
 
 Esistono diversi modi per esportare i dati da  Analysis Workspace, a seconda del set di dati da analizzare all’esterno dello strumento e di chi deve ricevere le informazioni. I dati esportati possono essere sotto forma di dati copiati, file CSV o PDF. Un PDF è in genere la preferenza se si desidera includere le visualizzazioni nel file, mentre un file CSV (o i dati copiati) è preferito se si desidera semplicemente che i dati siano in testo normale.
 
@@ -23,7 +23,7 @@ Puoi scaricare un progetto completo accedendo a **[!UICONTROL Project > Download
 
 Per i download dei progetti, tieni presente quanto segue:
 
-* Il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* Il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * L&#39;esportazione dei PDF scaricati nel browser può richiedere alcuni minuti perché il progetto viene rieseguito  server di Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se il rendering di un PDF richiede più di 5 minuti, verrà richiesto di inviarlo tramite e-mail.
 * I download PDF vengono rappresentati come una singola pagina senza applicazione di impaginazione.
 * Quando viene eseguito il rendering di un progetto in PDF, viene eseguito il rendering di ciò che si trova sulla pagina. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
