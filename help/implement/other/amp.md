@@ -1,8 +1,8 @@
 ---
 title: Implementazione con AMP
-description: Implementate Adobe  Analytics sulle pagine AMP.
+description: Implementa  Adobe Analytics sulle pagine AMP.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 [AMP](https://amp.dev) è un framework HTML open-source che fornisce un modo semplice per creare pagine Web con un caricamento rapido e uniforme.
 
-Poiché Adobe  Analytics utilizza una libreria JavaScript per compilare e inviare una richiesta di immagine, nell’implementazione sono necessarie delle regolazioni per inviare dati ad Adobe sulle pagine tramite AMP.
+Poiché  Adobe Analytics utilizza una libreria JavaScript per compilare e inviare una richiesta di immagine, nell’implementazione sono necessarie delle regolazioni per inviare i dati  Adobe sulle pagine tramite AMP.
 
-## Determinare quale metodo implementare Adobe  Analytics sulle pagine utilizzando AMP
+## Determinare quale metodo implementare  Adobe Analytics sulle pagine utilizzando AMP
 
-Adobe ha creato due metodi per implementare Adobe  Analytics sulle pagine tramite AMP. Entrambi utilizzano il tag `<amp-analytics>` HTML. Per ulteriori informazioni, consulta Tag [di analisi](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) amp su ampproject GitHub.
+ Adobe ha creato due metodi per implementare  Adobe Analytics sulle pagine utilizzando AMP. Entrambi utilizzano il tag `<amp-analytics>` HTML. Per ulteriori informazioni, consulta Tag [di analisi](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) amp su ampproject GitHub.
 
-* **Utilizzate il modello`"adobeanalytics"`di** tracciamento: Crea la richiesta di  Analytics direttamente sulla pagina
+* **Utilizzate il modello`"adobeanalytics"`di** tracciamento: Crea la richiesta di Analytics direttamente sulla pagina
 * **Utilizzate il modello`"analytics_nativeConfig"`di** tracciamento: Utilizza un iframe contenente lo stesso codice AppMeasurement distribuito nel sito normale
 
 Nella tabella seguente vengono confrontati i due metodi seguenti:
@@ -29,13 +29,13 @@ Nella tabella seguente vengono confrontati i due metodi seguenti:
 |---|---|---|
 | Conteggio visitatori/visite nella suite di rapporti esistente | Alta inflazione | Inflazione minima |
 | Utilizzare una suite di rapporti separata | Consigliato | Non necessario |
-| Visitatori nuovi e di ritorno | Non supportato | Supportate |
-| Servizio ID visitatori | Non supportato | Supportate |
+| Visitatori nuovi e di ritorno | Non supportati | Supportati |
+| Servizio ID visitatori | Non supportati | Supportati |
 | Tracciamento di video e collegamenti | Supporto parziale | Non ancora supportato |
 | Difficoltà di implementazione | Un po&#39; difficile | Relativamente facile |
-| Integrazioni Adobe Experience Cloud | Non supportato | Supporto parziale |
+| Integrazioni Adobe Experience Cloud | Non supportati | Supporto parziale |
 
-Valutare i pro e i contro all&#39;interno dell&#39;organizzazione per determinare quale metodo utilizzare. Per un esempio di codice, consultate esempi [](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) AMP sull&#39;archivio GitHub di Adobe.
+Valutare i pro e i contro all&#39;interno dell&#39;organizzazione per determinare quale metodo utilizzare. Per un esempio di codice, consultate esempi [](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) AMP  archivio GitHub  Adobe.
 
 >[!WARNING]
 >
@@ -62,7 +62,7 @@ Nell&#39;esempio di codice seguente sono definiti due attivatori: `pageLoad` e `
       "triggers": {
         "pageLoad": {
           "on": "visible",
-          "request": "pageView"
+          "request": "pageview"
         },
         "click": {
           "on": "click",
@@ -84,9 +84,9 @@ Inoltre, `amp-analytics` supporta una serie di sostituzioni variabili in modo ch
 
 >[!NOTE]
 >
->Le richieste di immagini inviate ad Adobe con questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referente). Se desiderate includere queste informazioni negli hit, accertatevi che siano incluse come parte della stringa di query della richiesta di immagine. Per ulteriori informazioni, vedi Parametri [query di raccolta](../validate/query-parameters.md) dati.
+>Le richieste di immagini inviate al Adobe  con questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referente). Se desiderate includere queste informazioni negli hit, accertatevi che siano incluse come parte della stringa di query della richiesta di immagine. Per ulteriori informazioni, vedi Parametri [query di raccolta](../validate/query-parameters.md) dati.
 
-Adobe identifica i visitatori utilizzando una funzione AMP integrata e imposta il cookie `adobe_amp_id`. Questo ID visitatore è univoco per qualsiasi altro ID impostato da Adobe  Analytics (ad esempio, il `s_vi` cookie). Il servizio Adobe Experience Cloud ID non è supportato utilizzando questo metodo di implementazione.
+ Adobe identifica i visitatori che utilizzano una funzione AMP integrata e imposta il cookie `adobe_amp_id`. Questo ID visitatore è univoco per qualsiasi altro ID impostato da  Adobe Analytics (ad esempio, il `s_vi` cookie). Il servizio Adobe Experience Cloud ID non è supportato utilizzando questo metodo di implementazione.
 
 >[!NOTE]
 >
