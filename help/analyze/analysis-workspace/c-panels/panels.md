@@ -2,9 +2,9 @@
 description: Un pannello è un insieme di tabelle e visualizzazioni
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '779'
 ht-degree: 7%
 
 ---
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## Suite di rapporti per pannello {#report-suite}
 
 Le tabelle e le visualizzazioni all’interno di un pannello derivano dai dati [!UICONTROL report suite] selezionati in alto a destra nel pannello. La suite per report determina anche i componenti disponibili nella barra a sinistra. All&#39;interno di un progetto, potete utilizzare una o [più suite](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) di rapporti a seconda dei casi di utilizzo dell&#39;analisi.
+
+L&#39;elenco delle suite di rapporti è ordinato in base alla rilevanza, che  Adobe definisce in base alla frequenza e alla data in cui la suite è stata utilizzata dall&#39;utente corrente e alla frequenza con cui la suite viene utilizzata all&#39;interno dell&#39;organizzazione.
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ I filtri a discesa possono essere utilizzati per consolidare più progetti in un
 
 **Creazione e utilizzo di filtri a discesa:**
 
-![](assets/create-dropdown.png)
-
 1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio, valori all’interno della [!UICONTROL Marketing Channel] dimensione, fai clic sull’icona freccia destra accanto alla dimensione nella barra a sinistra. Vengono visualizzati tutti gli elementi disponibili. Selezionate uno o più componenti dalla barra a sinistra e rilasciateli nella zona di rilascio del pannello **tenendo premuto il tasto** Maiusc. Questo trasformerà i componenti in un filtro a discesa, anziché in un singolo segmento.
 1. Per creare un filtro a discesa utilizzando un altro componente come metriche, segmenti o intervalli di date, seleziona da un tipo di componente nella barra a sinistra e rilascia nella zona a discesa del pannello **tenendo premuto il tasto** Maiusc.
 1. Selezionate una delle opzioni dal menu a discesa per modificare i dati nel pannello. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [Guardate il video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) per ulteriori informazioni sull’aggiunta di filtri a discesa al progetto.
+
