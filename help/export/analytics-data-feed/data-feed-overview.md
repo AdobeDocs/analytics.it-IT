@@ -1,24 +1,27 @@
 ---
-description: I dati raccolti da siti Web, app mobili o caricati tramite API di servizi Web o origini dati, vengono elaborati e memorizzati in Adobe Data Warehouse. Questi dati clickstream non elaborati formano il set di dati utilizzato da Adobe Analytics.
+description: I dati raccolti da siti Web, app mobili o caricati tramite API di servizi Web o origini dati, vengono elaborati e memorizzati  Adobe  Data Warehouse. Questi dati clickstream non elaborati formano il set di dati utilizzato da  Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Panoramica sui feed dati di Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 7%
 
 ---
 
 
 # Panoramica sui feed dati di Analytics
 
-I feed di dati sono un modo potente per estrarre dati grezzi da Adobe Analytics. Questi dati non elaborati possono essere utilizzati in altre piattaforme esterne ad Adobe per l&#39;utilizzo a discrezione dell&#39;azienda. I dati vengono consegnati in batch orari al termine di ogni ora, o in batch giornalieri al termine di ogni giorno.
+I feed di dati sono un modo efficace per estrarre dati grezzi da  Adobe Analytics. Questi dati non elaborati possono essere utilizzati in altre piattaforme esterne  Adobe per utilizzarli a discrezione dell&#39;azienda. I dati vengono consegnati in batch orari al termine di ogni ora, o in batch giornalieri al termine di ogni giorno.
 
 ## Prerequisiti
 
 Prima di utilizzare i feed di dati, accertatevi di soddisfare tutti i seguenti requisiti.
 
-* Siti e credenziali FTP a portata di mano. I feed di dati possono essere inviati solo a una destinazione server. In genere, l&#39;organizzazione fornisce le credenziali FTP. Adobe può fornire una posizione FTP con una quantità modesta di spazio di archiviazione su richiesta. Contatta l&#39;Assistenza clienti per richiedere una destinazione FTP per i feed di dati.
-* Un&#39;implementazione di lavoro che invia dati ai server di raccolta dati Adobe. Consulta [Convalida e pubblicazione di un’implementazione in Launch](/help/implement/launch/validate-publish-prod.md) nella guida per l’utente Implementa.
+* Siti e credenziali FTP a portata di mano. I feed di dati possono essere inviati solo a una destinazione server. In genere, l&#39;organizzazione fornisce le credenziali FTP.  Adobe può fornire una posizione FTP con una quantità modesta di spazio di archiviazione su richiesta. Contatta l&#39;Assistenza clienti per richiedere una destinazione FTP per i feed di dati.
+* Un&#39;implementazione di lavoro che invia i dati a  server di raccolta dati di Adobe. Consulta [Convalida e pubblicazione di un’implementazione in Launch](/help/implement/launch/validate-publish-prod.md) nella guida per l’utente Implementa.
 * Il tuo account è un amministratore di prodotto Analytics oppure il tuo account appartiene a un profilo di prodotto con accesso ai feed di dati.
 
 ## Passaggi per iniziare
@@ -26,7 +29,7 @@ Prima di utilizzare i feed di dati, accertatevi di soddisfare tutti i seguenti r
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 2. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
 3. Nella barra di navigazione superiore, andate a Admin (Amministratore) > Data Feed (Feed dati).
-4. Fai clic su [!UICONTROL Add]. Viene visualizzata una nuova pagina con tre categorie principali: [!UICONTROL Feed information], [!UICONTROL Destination], e [!UICONTROL Data Column Definitions].
+4. Fai clic su [!UICONTROL Add]. Viene visualizzata una nuova pagina con tre categorie principali: [!UICONTROL Feed information], [!UICONTROL Destination]e [!UICONTROL Data Column Definitions].
 5. Compila [!UICONTROL Feed Information] i campi.
    * Nome: Qualsiasi nome desiderato, ad esempio &quot;Feed dati di prova&quot;.
    * Suite di rapporti: Seleziona la suite di rapporti desiderata.
@@ -41,11 +44,11 @@ Prima di utilizzare i feed di dati, accertatevi di soddisfare tutti i seguenti r
    * Nome utente: Immettete il nome utente per accedere al sito FTP.
    * Password e conferma password: Immettete la password per accedere al sito FTP.
 7. Compilate [!UICONTROL Data Column Definitions].
-   * Selezionate il modello &quot;Tutte le colonne Adobe&quot; più recente nel menu a discesa.
+   * Selezionate l&#39;ultimo modello &quot;Tutti  Adobe Columns&quot; nel menu a discesa.
    * Formato di compressione: Gzip
    * Tipo di pacchetto: Più file
    * Manifesto: Nessun file
-8. Fate clic [!UICONTROL Save] in alto a destra.
+8. Click [!UICONTROL Save] in the top right.
 9. Una volta salvato, viene avviata l&#39;elaborazione dei dati storici. Al termine dell&#39;elaborazione dei dati per un giorno, il file viene inserito sul sito FTP.
 10. Effettuate l&#39;accesso al sito FTP utilizzando Esplora risorse o un client FTP dedicato.
 11. Scaricate il file di feed di dati compressi nel computer locale.
@@ -65,4 +68,4 @@ Una volta compreso il flusso di lavoro di base per l’ottenimento dei feed di d
 
 Video sulla navigazione dell’interfaccia del feed di dati:
 
->[!VIDEO](https://www.youtube.com/watch?v=m_fb--gNtR4)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
