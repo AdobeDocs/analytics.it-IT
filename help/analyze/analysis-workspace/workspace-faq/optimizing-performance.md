@@ -3,10 +3,10 @@ description: 'null'
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 85%
+source-wordcount: '1313'
+ht-degree: 84%
 
 ---
 
@@ -42,7 +42,7 @@ L’intervallo dei dati richiesti nell’ambito di un progetto influenzerà le p
 
 **Procedure ottimali per gli intervalli di date**
 
-Dove possibile, non inserire più dati del necessario. Limita il calendario del pannello alle date pertinenti per l’analisi, oppure utilizza i componenti dell’intervallo di date (componenti viola) nelle tabelle a forma libera. Gli intervalli di date utilizzati in una tabella prevalgono sull’intervallo di date del pannello. Ad esempio, è possibile aggiungere il mese scorso, la settimana scorsa e il giorno precedente alle colonne della tabella per richiedere tali intervalli di dati specifici. Per ulteriori informazioni sulle attività con gli intervalli di date in Analysis Workspace, guarda [questo video](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
+Dove possibile, non inserire più dati del necessario. Limita il calendario del pannello alle date pertinenti per l’analisi, oppure utilizza i componenti dell’intervallo di date (componenti viola) nelle tabelle a forma libera. Gli intervalli di date utilizzati in una tabella prevalgono sull’intervallo di date del pannello. Ad esempio, è possibile aggiungere il mese scorso, la settimana scorsa e il giorno precedente alle colonne della tabella per richiedere tali intervalli di dati specifici. Per ulteriori informazioni sulle attività con gli intervalli di date in Analysis Workspace, guarda [questo video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html).
 
 Riducete al minimo il numero di confronti su base annua utilizzati nel progetto. Quando viene calcolato un confronto tra un anno e l&#39;altro, il confronto tra i 13 mesi di dati viene eseguito tra i mesi di interesse. Questo ha lo stesso impatto di un&#39;eventuale modifica dell&#39;intervallo di date del pannello fino a 13 mesi.
 
@@ -79,7 +79,7 @@ Un pannello può contenere diverse visualizzazioni e, come risultato, il numero 
 
 Non cercare di aggiungere tutti gli elementi a un progetto; piuttosto crea progetti diversi per uno scopo preciso o per un determinato gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi chiave e condividi i progetti correlati con i soggetti interessati.
 
-Se desideri progetti più organizzati, ricorda che il [collegamento diretto](https://www.youtube.com/watch?v=6IOEewflG2U) al tuo prodotto potrebbe rappresentare una possibilità. Crea un indice interno di progetti in modo che i soggetti interessati possano trovare più facilmente ciò di cui hanno bisogno.
+Se desideri progetti più organizzati, ricorda che il [collegamento diretto](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html) al tuo prodotto potrebbe rappresentare una possibilità. Crea un indice interno di progetti in modo che i soggetti interessati possano trovare più facilmente ciò di cui hanno bisogno.
 
 Se in un progetto sono necessari molti pannelli, comprimete i pannelli prima di salvare e condividere. Al caricamento di un progetto, Analysis Workspace caricherà solo i contenuti dei pannelli espansi. I pannelli compressi vengono caricati solo se l’utente li espande. Questo approccio è utile in due modi:
 
