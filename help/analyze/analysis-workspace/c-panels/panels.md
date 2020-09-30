@@ -2,10 +2,10 @@
 description: Un pannello è un insieme di tabelle e visualizzazioni
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 8%
+source-wordcount: '742'
+ht-degree: 7%
 
 ---
 
@@ -78,4 +78,4 @@ I filtri a discesa possono essere utilizzati per consolidare più progetti in un
 1. Per creare un filtro a discesa utilizzando un altro componente come metriche, segmenti o intervalli di date, seleziona da un tipo di componente nella barra a sinistra e rilascia nella zona a discesa del pannello **tenendo premuto il tasto** Maiusc.
 1. Selezionate una delle opzioni dal menu a discesa per modificare i dati nel pannello. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
-[Guardate il video](https://www.youtube.com/watch?v=vpJywtsFVPI) per ulteriori informazioni sull’aggiunta di filtri a discesa al progetto.
+[Guardate il video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) per ulteriori informazioni sull’aggiunta di filtri a discesa al progetto.
