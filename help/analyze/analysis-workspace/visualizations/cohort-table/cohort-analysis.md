@@ -1,11 +1,11 @@
 ---
 title: L’analisi per coorte
 description: Scopri l’analisi per coorte in Analysis Workspace
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 
 L’[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Adobe Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
 
-[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Esercitazione](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) video sull’analisi per coorte (4:36)
 
 >[!IMPORTANT]
 >
