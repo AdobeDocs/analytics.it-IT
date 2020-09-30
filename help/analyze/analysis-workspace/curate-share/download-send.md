@@ -3,9 +3,9 @@ description: È possibile scaricare i dati da  Analysis Workspace copiandoli opp
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '959'
 ht-degree: 8%
 
 ---
@@ -88,5 +88,5 @@ Se richiedete più di un download alla volta, riceverete una notifica per inform
 | --- | --- |
 | Perché il mio PDF scaricato è una pagina? | Al momento, Workspace non impagina i PDF scaricati. |
 | Posso esportare più di 50.000 elementi con l’opzione &quot;Scarica elementi come CSV&quot;? | Anche se ogni download può contenere fino a 50.000 elementi dimensionali, potete modificare l&#39;ordinamento della tabella per recuperare elementi finali più lunghi, oppure applicare un filtro per scaricare altri elementi specifici. |
-| Cosa **[!UICONTROL Copy visualization]** fa? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. [Guarda il video](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| Cosa **[!UICONTROL Copy visualization]** fa? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. [Video intra-link](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
