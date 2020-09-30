@@ -1,17 +1,17 @@
 ---
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
 keywords: Analysis Workspace curation
-title: Curare progetti Workspace
-translation-type: ht
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+title: Cura progetti
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 99%
 
 ---
 
 
-# Curare progetti Workspace
+# Cura progetti
 
 La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che hai curato per lui. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
