@@ -2,9 +2,9 @@
 title: Creare una proprietà Analytics in Launch
 description: Create uno spazio per personalizzare il modo in cui vengono raccolti i dati, utilizzando  Adobe Experience Platform Launch.
 translation-type: tm+mt
-source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '515'
 ht-degree: 4%
 
 ---
@@ -83,7 +83,7 @@ Le regole associano gli elementi dati ai valori delle variabili Analytics e dete
 
 * [documentazione](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)sulle estensioni Adobe Analytics: Documentazione completa specifica per l’estensione  Adobe Analytics in  Adobe Experience Platform Launch.
 * [Guida introduttiva a Launch](https://docs.adobelaunch.com/getting-started): Documentazione completa su Launch, inclusa una guida introduttiva più dettagliata
-* [Canale](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd)Adobe Experience Platform Launch YouTube: Scopri come utilizzare Launch tramite i video
+* [Canale](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)Adobe Experience Platform Launch : Scopri come utilizzare Launch tramite i video
 
 ## Passaggi successivi
 
