@@ -5,10 +5,10 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 98%
+source-wordcount: '1094'
+ht-degree: 97%
 
 ---
 
@@ -91,14 +91,14 @@ ht-degree: 98%
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Curare o condividere progetti {#curate-share}
-      + [Curare progetti Workspace](analysis-workspace/curate-share/curate.md)
-      + [Condividere progetti Workspace](analysis-workspace/curate-share/share-projects.md)
+   + Cura o condividi progetti {#curate-share}
+      + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Cura progetti](analysis-workspace/curate-share/curate.md)
+      + [Condivisione di progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
-      + [Progetti Workspace solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
+      + [Progetti di sola visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
-      + [Condividere e programmare file di progetto](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Invio di file: programmazione di un progetto per la consegna](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Pianificare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e finestre di lookback](analysis-workspace/attribution/models.md)
