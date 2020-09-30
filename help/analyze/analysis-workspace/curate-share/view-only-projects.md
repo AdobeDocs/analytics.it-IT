@@ -1,17 +1,17 @@
 ---
 description: Progetti di sola visualizzazione in Workspace
 keywords: View-only projects
-title: Progetti Workspace solo visualizzazione
-translation-type: ht
-source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+title: Progetti di sola visualizzazione
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 98%
 
 ---
 
 
-# Progetti Workspace solo visualizzazione
+# Progetti di sola visualizzazione
 
 Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Potresti desiderare di fare ciò se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati dell’organizzazione, Analysis Workspace o Adobe Analytics in genere, ma desideri comunque che utilizzino dati e approfondimenti in un ambiente sicuro.
 
@@ -36,7 +36,7 @@ Le interazioni disattivate in un progetto di sola visualizzazione includono:
 Alcune delle interazioni abilitate più rilevanti in un progetto di sola visualizzazione includono:
 
 | Area | Interazioni abilitate |
-|---|---|
+| --- | --- |
 | Tabella a forma libera | <ul><li>Impaginazione e ordinamento</li><li>Passaggio del mouse</li><li>Selezioni di celle che aggiornano le visualizzazioni collegate</li><li>Clic con il pulsante destro del mouse > Get Visualization Link</li><li>Clic con il pulsante destro del mouse > Copy to Clipboard</li></ul> |
 | Visualizzazioni | <ul><li>Clic per attivare/disattivare la legenda</li><li>Passaggio del mouse</li><li>Clic con il pulsante destro del mouse > Get Visualization Link</li><li>Comprimi/espandi</li><li>Flow (espandi nodi Flow)</li><li>Map (zoom)</li></ul> |
 | Pannelli | <ul><li>Filtri a discesa interattivi</li><li>Clic con il pulsante destro del mouse > Get Panel Link</li><li>Comprimi/espandi</li></ul> |
