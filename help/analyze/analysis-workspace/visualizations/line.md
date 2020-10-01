@@ -3,10 +3,10 @@ description: Utilizzare la visualizzazione delle linee per rappresentare set di 
 title: Linee
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
+source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 80%
+source-wordcount: '506'
+ht-degree: 65%
 
 ---
 
@@ -37,7 +37,7 @@ In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UIC
 
 ## Mostra la sovrapposizione della linea di tendenza
 
-In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]** puoi scegliere di aggiungere una linea di tendenza di regressione alla serie di linee. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UIC
 
 ![Linee di tendenza lineare](assets/show-linear-trendline.png)
 
-Tutti i modelli sono adattabili utilizzando il metodo dei minimi quadrati:
+Tutte le linee di tendenza del modello di regressione sono adattate utilizzando i minimi quadrati ordinari:
 
 | Modello | Descrizione |
 | --- | --- |
@@ -54,3 +54,4 @@ Tutti i modelli sono adattabili utilizzando il metodo dei minimi quadrati:
 | Esponenziale | Crea una linea curva ed è utile quando i dati aumentano o diminuiscono a ritmi costantemente crescenti. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a + e^(b * x)` |
 | Potenza | Crea una linea curva ed è utile per i set di dati che confrontano misurazioni che aumentano a una velocità specifica. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a * x^b` |
 | Quadratico | Trova l’adattamento per un set di dati a forma di parabola (concava verso l’alto o verso il basso). Equazione: `y = a + b * x + c * x^2` |
+| Media mobile | Crea una linea di tendenza uniforme in base a un insieme di medie. Gli esempi includono una media mobile di 7 giorni o una media mobile di 4 settimane. Noto anche come media rotante, una media mobile calcola la media per un intervallo precedente, la utilizza come punto dati della linea di tendenza, quindi passa al periodo successivo per ripetersi. L&#39;input &#39;Periodi&#39; definisce l&#39;intervallo per il calcolo della media. |
