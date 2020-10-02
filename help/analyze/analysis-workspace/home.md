@@ -4,9 +4,9 @@ title: Panoramica di Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '526'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 Se avete solo pochi minuti, guardate questa breve panoramica per vedere cosa è possibile.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
 
 ## Accedi a Adobe Analytics {#login}
 
