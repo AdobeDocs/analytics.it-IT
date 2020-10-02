@@ -5,10 +5,10 @@ title: Panoramica sulle regole di elaborazione
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 14%
+source-wordcount: '362'
+ht-degree: 6%
 
 ---
 
@@ -24,20 +24,11 @@ Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il cont
 * Pulizia delle sezioni di sito errate
 * Estrarre i termini di ricerca interni o un ID campagna dalla stringa di query in un eVar 
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Consulta la panoramica sulle regole di elaborazione e la formazione di  Summit Adobe per scoprire perché dovresti usare le regole di elaborazione.*
+## Autorizzazioni delle regole di elaborazione {#section_8A4846688050453784DAE4D89355169A}
 
-## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}
-
-Prima del 20 aprile 2017, per usare le regole di elaborazione tutti gli utenti (anche gli amministratori) dovevano superare un esame e ottenere l&#39;autorizzazione dell&#39;assistenza clienti Adobe.
-
-Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole di elaborazione **per impostazione predefinita**. L&#39;esame non è più necessario. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. effettuando le seguenti operazioni:
-
-1. Se non lo avete ancora fatto, [create un gruppo](/help/admin/user-management2/c-user-groups/groups.md) che includa solo i non amministratori che devono disporre dell&#39;autorizzazione per utilizzare le regole di elaborazione.
-1. [Aggiungete i non amministratori a tale gruppo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Quindi passate a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** **[!UICONTROL Report Suite Management]**.
-1. Selezionare la casella accanto a [!UICONTROL Processing Rules] e fare clic su **[!UICONTROL OK]**.
+Administrators have rights to use processing rules **by default**. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
 
 ![](assets/processing-rules.png)
 
