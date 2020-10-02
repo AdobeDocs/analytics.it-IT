@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Creare un progetto Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Crea un progetto e aggiungi componenti (dimensioni, metriche, segmenti e intervalli di date) al pannello a forma libera.
 
-Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e mostra come creare un progetto. Per casi di utilizzo specifici, vedi [Casi di utilizzo per Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e mostra come creare un progetto.
 
 ## Creazione di un progetto
 
@@ -117,7 +117,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
   </tr> 
   <tr> 
    <td colname="col1"> Segmenti (blu) </td> 
-   <td colname="col2"> <p>Sono trascinabili solo a livello di pannello, tuttavia puoi creare segmenti in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, vedi <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Casi di utilizzo per Analysis Workspace</a>. </p> </td> 
+   <td colname="col2"> <p>Sono trascinabili solo a livello di pannello, tuttavia puoi creare segmenti in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmenti </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalli di date e granularità temporali (viola) </td> 
