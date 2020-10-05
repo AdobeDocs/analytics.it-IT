@@ -3,9 +3,9 @@ description: 'null'
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1302'
 ht-degree: 84%
 
 ---
@@ -61,7 +61,7 @@ Il tipo di visualizzazione (ad es. abbandono rispetto a una tabella a forma libe
 * Intervallo dei dati richiesti, così come riportato sopra
 * Numero di segmenti applicati; ovvero segmenti utilizzati come righe di una tabella a forma libera
 * Utilizzo di segmenti complessi
-* [Righe o colonne statiche di elementi in tabelle a forma libera](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
+* [Righe o colonne statiche di elementi in tabelle a forma libera](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * Filtri applicati a righe in tabelle a forma libera
 * Numero di metriche incluse, in particolare metriche calcolate che utilizzano segmenti
 
@@ -99,10 +99,10 @@ Il numero di utenti che accede contemporaneamente ad Analysis Workspace o agli s
 È possibile che si verifichino errori durante l’interazione con Analysis Workspace. Gli errori possono verificarsi per diversi motivi. Di seguito sono elencati i più comuni.
 
 | Messaggio di errore | Perché si verifica? |
-|---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | L’organizzazione sta tentando di eseguire troppe richieste simultanee su una suite di rapporti specifica. Questo errore è causato da richieste API, progetti pianificati, rapporti pianificati, avvisi pianificati e utenti simultanei che eseguono richieste di generazione di rapporti. È consigliato distribuire in modo più uniforme nel corso della giornata le richieste e le pianificazioni per la suite di rapporti. |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe sta riscontrando un problema da risolvere. È consigliato inviare il codice di errore tramite una richiesta dell’Assistenza clienti. |
-| `The request is too complex.` | La richiesta di generazione rapporti è troppo grande e non può essere eseguita. Questo errore è causato da timeout dovuti alla dimensione della richiesta, troppi elementi associati in un segmento o un filtro di ricerca, inclusione di troppe metriche, combinazioni di dimensioni e metriche incompatibili, ecc. È consigliato semplificare la richiesta. |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | È consigliato restringere i criteri di testo di ricerca e riprovare. |
-| `This dimension does not currently support non-default attribution models.` | È consigliato sostituire la dimensione nella tabella con una compatibile con [Attribution IQ](../attribution/overview.md). |
-| `Your request failed as a result of too many columns or pre-configured rows.` | È consigliato rimuovere alcune colonne o righe oppure suddividerle in visualizzazioni separate. |
+| --- | --- |
+| [!UICONTROL The report suite is experiencing unusually heavy reporting. Please try again later.] | L’organizzazione sta tentando di eseguire troppe richieste simultanee su una suite di rapporti specifica. Questo errore è causato da richieste API, progetti pianificati, rapporti pianificati, avvisi pianificati e utenti simultanei che eseguono richieste di generazione di rapporti. È consigliato distribuire in modo più uniforme nel corso della giornata le richieste e le pianificazioni per la suite di rapporti. |
+| [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe sta riscontrando un problema da risolvere. È consigliato inviare il codice di errore tramite una richiesta dell’Assistenza clienti. |
+| [!UICONTROL The request is too complex.] | La richiesta di generazione rapporti è troppo grande e non può essere eseguita. Questo errore è causato da timeout dovuti alla dimensione della richiesta, troppi elementi associati in un segmento o un filtro di ricerca, inclusione di troppe metriche, combinazioni di dimensioni e metriche incompatibili, ecc. È consigliato semplificare la richiesta. |
+| [!UICONTROL One of the segments or the search in this visualization contains a text search that returned too many results.] | È consigliato restringere i criteri di testo di ricerca e riprovare. |
+| [!UICONTROL This dimension does not currently support non-default attribution models.] | È consigliato sostituire la dimensione nella tabella con una compatibile con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
+| [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | È consigliato rimuovere alcune colonne o righe oppure suddividerle in visualizzazioni separate. |
