@@ -5,10 +5,10 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 99%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 100%
    + [Tipo di hit](dimensions/hit-type.md)
    + [Ora del giorno](dimensions/hour-of-day.md)
    + [Ora](dimensions/hour.md)
+   + [Stato identificato](dimensions/identified-state.md)
    + [Java abilitato](dimensions/java-enabled.md)
    + [Lingua](dimensions/language.md)
    + [Canale di ultimo contatto](dimensions/last-touch-channel.md)
@@ -136,6 +137,7 @@ ht-degree: 100%
    + [Tempo trascorso per visitatore](metrics/time-spent-per-visitor.md)
    + [Panoramica del tempo trascorso](metrics/time-spent.md)
    + [Totale secondi trascorsi](metrics/total-seconds-spent.md)
+   + [Dispositivi univoci](metrics/unique-devices.md)
    + [Visitatori unici](metrics/unique-visitors.md)
    + [Unità](metrics/units.md)
    + [Visitatori con Experience Cloud ID](metrics/visitors-with-ecid.md)
