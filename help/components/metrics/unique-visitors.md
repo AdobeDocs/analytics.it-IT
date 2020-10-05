@@ -1,10 +1,10 @@
 ---
 title: Visitatori unici
-description: Numero di singoli (o dispositivi) univoci.
+description: Numero di ID visitatore univoci.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 10%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 La metrica &quot;Visitatori unici&quot; mostra il numero di ID visitatore per l’elemento dimensione. Si tratta di una delle metriche più comuni utilizzate per determinare il traffico, in quanto offre una panoramica di alto livello della popolarità di un elemento dimensione. Ad esempio, un visitatore può visitare il sito ogni giorno per un mese, ma continua a essere un singolo visitatore.
 
-Se utilizzate l&#39;analisi [](../cda/overview.md)cross-device, questa metrica viene rinominata in &quot;Unique Devices&quot;.
+Se utilizzate l&#39;analisi [](../cda/overview.md)cross-device, questa metrica viene sostituita con la metrica dispositivi [](unique-devices.md) univoci.
 
 ## Visitatori unici giornalieri, settimanali, mensili, trimestrali e annuali
 
-Reporting e  Analytics offre opzioni per i visitatori unici giornalieri, settimanali, mensili, trimestrali e annuali. Invece di contare un singolo visitatore univoco per l&#39;intero periodo di tempo, i visitatori univoci contano in base alla metrica selezionata. Ad esempio, potete osservare i visitatori unici giornalieri per il sito. Se un visitatore accede al sito al mattino e di nuovo di notte, viene considerato come un singolo visitatore al giorno. Se un visitatore accede al sito il lunedì e il martedì, viene conteggiato come due visitatori unici al giorno.
+Reporting e analisi offre opzioni per i visitatori unici giornalieri, settimanali, mensili, trimestrali e annuali. Invece di contare un singolo visitatore univoco per l&#39;intero periodo di tempo, i visitatori univoci contano in base alla metrica selezionata. Ad esempio, potete osservare i visitatori unici giornalieri per il sito. Se un visitatore accede al sito al mattino e di nuovo di notte, viene considerato come un singolo visitatore al giorno. Se un visitatore accede al sito il lunedì e il martedì, viene conteggiato come due visitatori unici al giorno.
 
  Analysis Workspace gestisce i visitatori univoci in base alla granularità del rapporto. Ad esempio, se utilizzi la dimensione [Giorno](../dimensions/day.md) , vedrai visitatori unici giornalieri per ogni elemento dimensione. Tuttavia, per il totale del rapporto, vengono deduplicati visitatori univoci per l&#39;intervallo di date della tabella a forma libera.
 
@@ -30,13 +30,13 @@ Questa metrica conta il numero di ID visitatore univoci per un dato elemento dim
 | --- | --- | --- |
 | 1 | `vid` | La [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variabile è impostata. |
 | 2 | `aid` | Il visitatore ha un [`s_vi`](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-analytics.html) cookie esistente. Configurati sulle implementazioni senza o prima di implementare il servizio Visitor ID. |
-| 3 | `mid` | Il visitatore ha un [`s_ecid`](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-analytics.html) cookie esistente. Configurare le implementazioni tramite il servizio [](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)Adobe Experience Cloud Identity. |
+| 3 | `mid` | Il visitatore ha un [`s_ecid`](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-analytics.html) cookie esistente. Impostate le implementazioni utilizzando il servizio [](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)Adobe Experience Cloud Identity. |
 | 4 | `fid` | Il visitatore ha un [`s_fid`](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-analytics.html) cookie esistente, oppure se `aid` e non `mid` è stato possibile impostarlo per nessun motivo. |
 | 5 | Indirizzo IP, agente utente, indirizzo IP gateway | Ultimo ricorso per identificare un visitatore univoco se il browser del visitatore non accetta i cookie. |
 
 >[!NOTE]
 >
->Ogni ID visitatore Analytics  è associato a un profilo sui server Adobe. Questi profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
+>Ogni ID visitatore di Analytics è associato a un profilo sui  server  di Analytics. Questi profili dei visitatori vengono eliminati dopo almeno 13 mesi di inattività, indipendentemente dalla scadenza dei cookie dell’ID visitatore.
 
 ## Comportamento che influisce sul conteggio dei visitatori univoci
 
