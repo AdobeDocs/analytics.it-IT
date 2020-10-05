@@ -2,7 +2,7 @@
 title: Configurare l'analisi tra dispositivi
 description: Configurare una suite di rapporti virtuale per abilitare CDA.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Gli amministratori con accesso per creare suite di rapporti virtuali possono cre
 Quando Analytics cross-device è abilitato su una suite di rapporti virtuale, prendi nota delle seguenti modifiche:
 
 * Accanto al nome della suite di rapporti virtuale viene visualizzata una nuova icona cross-device. Questa icona è esclusiva per le suite di rapporti virtuali su più dispositivi.
-* È disponibile una nuova dimensione con l&#39;etichetta &quot;Stato identificato&quot;. Questa dimensione determina se l&#39;ID Experience Cloud  sull&#39;hit è noto dal grafico del dispositivo in quel momento.
-* Sono disponibili nuove metriche con etichetta &#39;Persone&#39; e &#39;Dispositivi univoci&#39;.
-* La metrica &quot;Visitatori unici&quot; non è disponibile, in quanto viene sostituita con &quot;Persone&quot; e &quot;Dispositivi unici&quot;.
+* È disponibile una nuova dimensione con etichetta Stato [](../dimensions/identified-state.md) identificato. Questa dimensione determina se l&#39;ID Experience Cloud  sull&#39;hit è noto dal grafico del dispositivo in quel momento.
+* Sono disponibili nuove metriche con etichetta [Persone](../metrics/people.md) e Dispositivi [](../metrics/unique-devices.md) univoci.
+* La metrica Visitatori [](../metrics/unique-visitors.md) unici non è disponibile, in quanto viene sostituita con &#39;Persone&#39; e &#39;Dispositivi univoci&#39;.
 * Durante la creazione di segmenti, il contenitore del segmento &quot;Visitatore&quot; viene sostituito con un contenitore &quot;Persona&quot;.
