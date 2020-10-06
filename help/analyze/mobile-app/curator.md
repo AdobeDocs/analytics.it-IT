@@ -2,7 +2,7 @@
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 94%
@@ -11,10 +11,6 @@ ht-degree: 94%
 
 
 # Guida del curatore per le dashboard di Adobe Analytics
-
->[!IMPORTANT]
->
->A partire da ottobre 2020,  Adobe sta gradualmente implementando una serie di miglioramenti per ottimizzare le prestazioni dell&#39;app &quot; Adobe Analytics dashboards&quot;. Questi miglioramenti sono incentrati sulla memorizzazione nella cache dei dati Analytics storici utilizzati per popolare le scorecard con le date (escluso il giorno corrente). Questi dati verranno memorizzati nella cache fino a 24 ore in un account di archiviazione cloud pubblico Microsoft Azure protetto. Contattate il CSM per non utilizzare queste funzioni di miglioramento delle prestazioni.
 
 Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per visualizzare un video che illustra queste informazioni, consultate il video  Adobe Analytics dashboards Scorecard Builder:
 
@@ -263,3 +259,7 @@ Toccare l’opzione e scegliere una sottocategoria del suggerimento. Nel modulo 
 **Per fare una domanda**:
 
 Tocca l’opzione e fornisci il tuo indirizzo e-mail nel campo superiore e la tua domanda nel campo sotto di esso. Al messaggio viene automaticamente allegata una schermata, ma puoi cancellarla, se lo desideri, toccando la **X** nell’immagine allegata. Ci sono anche delle opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare la domanda, toccare l’icona dell’aeroplano di carta in alto a destra del modulo.
+
+>[!IMPORTANT]
+>
+>A partire da ottobre 2020,  Adobe sta gradualmente implementando una serie di miglioramenti per ottimizzare le prestazioni dell&#39;app &quot; Adobe Analytics dashboards&quot;. Questi miglioramenti sono incentrati sulla memorizzazione nella cache dei dati Analytics storici utilizzati per popolare le scorecard con le date (escluso il giorno corrente). Questi dati verranno memorizzati nella cache fino a 24 ore in un account di archiviazione cloud pubblico Microsoft Azure protetto. Contattate il CSM per non utilizzare queste funzioni di miglioramento delle prestazioni.
