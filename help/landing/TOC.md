@@ -2,9 +2,9 @@
 product: analytics
 audience: all
 user-guide-title: Documentazione di Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
