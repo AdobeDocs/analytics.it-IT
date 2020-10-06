@@ -2,18 +2,23 @@
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
+source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 100%
+source-wordcount: '2376'
+ht-degree: 94%
 
 ---
 
 
-
 # Guida del curatore per le dashboard di Adobe Analytics
 
-Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per vedere un video che illustra queste informazioni, consulta [Creatore di schede di valutazione delle dashboard di Adobe Analytics](https://youtu.be/tnnl6hrcP94).
+>[!IMPORTANT]
+>
+>A partire da ottobre 2020,  Adobe sta gradualmente implementando una serie di miglioramenti per ottimizzare le prestazioni dell&#39;app &quot; Adobe Analytics dashboards&quot;. Questi miglioramenti sono incentrati sulla memorizzazione nella cache dei dati Analytics storici utilizzati per popolare le scorecard con le date (escluso il giorno corrente). Questi dati verranno memorizzati nella cache fino a 24 ore in un account di archiviazione cloud pubblico Microsoft Azure protetto. Contattate il CSM per non utilizzare queste funzioni di miglioramento delle prestazioni.
+
+Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per visualizzare un video che illustra queste informazioni, consultate il video  Adobe Analytics dashboards Scorecard Builder:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Introduzione
 
@@ -38,25 +43,20 @@ La tabella seguente descrive i termini per comprendere il pubblico, le funzioni 
 | Intervallo date | L’intervallo date primario per la generazione di rapporti delle dashboard |
 | Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
 
- 
 ## Creare una scorecard per utenti esecutivi
 
 Una scorecard mostra le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come mostrato di seguito:
 
-
 ![Esempio di scorecard](assets/intro_scorecard.png)
-
 
 In qualità di curatore di questa scorecard, puoi usare lo strumento di creazione delle scorecard per configurare quali tessere visualizzerà il consumatore sulla scorecard. Puoi anche configurare in che modo le viste dettagliate, o Raggruppamenti, possono essere regolati una volta che le tessere vengono toccate. L’interfaccia del Creatore di scorecard è mostrata di seguito:
 
 ![Creatore di scorecard](assets/scorecard_builder.png)
 
-
 Per creare la scorecard, dovrai fare quanto segue:
 
 1. Accedi al template Scorecard per dispositivi mobili vuota.
 2. Configura la scorecard con i dati e salvala.
-
 
 ### Accedi al template Scorecard per dispositivi mobili vuota
 
@@ -151,7 +151,7 @@ Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro
 
 Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente e di selezionare l’opzione **Share embedded components** (condividi componenti incorporati) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
 
-## Aiutare gli utenti esecutivi a configurare l’app
+## Impostazione di utenti esecutivi con l&#39;app
 
 In alcuni casi, gli utenti esecutivi potrebbero aver bisogno di ulteriore assistenza per accedere all’app e utilizzarla. Questa sezione offre informazioni per aiutarti a fornire tale assistenza.
 
@@ -205,7 +205,7 @@ Per aiutare gli utenti esecutivi:
    * Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
 
 
-3. Spiega all’utente esecutivo come vengono visualizzate le tessere nelle scorecard condivise (la prima scorecard sottostante è impostata in modalità scura; consulta **Preferences** di seguito se pensi che l’utente esecutivo preferisca questa opzione di visualizzazione):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
 
    ![Spiegare le tessere](assets/newexplain.png)
 
