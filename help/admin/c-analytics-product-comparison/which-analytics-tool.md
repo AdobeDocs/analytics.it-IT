@@ -2,11 +2,11 @@
 description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per ogni strumento di Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le tue esigenze, passa a quello successivo.
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '1097'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 97%
 
 ---
 
@@ -28,12 +28,15 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 * Impostare eventi di Calendario
 * Impostare le destinazioni
 * Visualizzare i rapporti generati da bot
-* Accedere a visualizzazioni video univoche per visualizzatori simultanei, video Daypart e abbandono dei visualizzatori
+* Per accedere alle visualizzazioni video univoche del Daypart video e del rilascio del visualizzatore.
 * Sfruttare gli elenchi di pubblicazione nei rapporti pianificati
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** è indicato per:
 
-* Esportare 50.000 righe di dati
+>[!IMPORTANT]
+>
+> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
+
 * Organizzare il lavoro del progetto in schede diverse
 * Utilizzare il rapporto Analisi del sito (rapporto “3D-pathing”)
 
