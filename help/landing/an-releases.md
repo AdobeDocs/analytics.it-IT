@@ -1,18 +1,18 @@
 ---
 description: Spiega la nuova strategia per il rilascio continuo di funzioni per Adobe Analytics
 title: Rilasci di funzioni di Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Rilasci di funzioni di Adobe Analytics
 
-Precedentemente, i rilasci delle funzioni di Adobe Analytics seguivano una pianificazione mensile fissa. A partire da aprile 2020,  Adobe Analytics è passato a un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzionalità.
+Precedentemente, i rilasci delle funzioni di Adobe Analytics seguivano una pianificazione mensile fissa. A partire da aprile 2020, Adobe Analytics è passato a un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle nuove funzioni.
 
 ## Strategia di rilascio
 
@@ -26,11 +26,11 @@ Precedentemente, i rilasci delle funzioni di Adobe Analytics seguivano una piani
 
 Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che entro 2 mesi dall’inizio del rilascio (RTP) una funzione sarà in GA.
 
-## Flag di funzione
+## Flag di funzioni
 
-I flag di funzione vengono utilizzati per controllare la visibilità delle nuove funzioni durante il rilascio.  Adobe consiglia di aggiungere app.launchdarkly.com al elenco Consentiti [](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) del firewall per un&#39;esperienza ottimale durante il rilascio. Subito dopo il raggiungimento di GA, la bandiera viene rimossa.
+I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di aggiungere app.launchdarkly.com all’[elenco di indirizzi consentiti](https://docs.adobe.com/content/help/it-IT/analytics/technotes/ip-addresses.html) del firewall, per garantire un’esperienza fluida durante la fase di rilascio. Una volta che la versione definitiva viene rilasciata al pubblico, il flag viene rimosso.
 
-Potete visualizzare i contrassegni delle funzioni attive in qualsiasi momento in **Aiuto > Informazioni su Workspace > Contrassegni** delle funzioni attive.
+Puoi visualizzare i flag di funzioni attivi in qualsiasi momento, da **Aiuto > Informazioni su Workspace > Flag di funzioni attivi**.
 
 ## Vantaggi
 
