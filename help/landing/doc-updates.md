@@ -2,9 +2,9 @@
 title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Aggiornamenti rilevanti dell’archivio della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 13 gennaio 2020 | Sono stati aggiunti [cookie di Adobe Analytics e del browser](/help/technotes/cookies.md). |
 | 29 novembre 2019 | Revisione della [Documentazione del feed dati](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 novembre 2019 | Nuovo argomento su [Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP](/help/admin/company/login-restrictions-eol.md). |
-| 21 novembre 2019 | Nuova documentazione impostata per l&#39;[Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
+| 21 novembre 2019 | Nuova documentazione impostata per l&#39;[Customer Journey Analytics](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-landing.html). |
 | 28 settembre 2019 | Nuovi articoli sulle [variabili di configurazione per l&#39;implementazione Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12 settembre 2019 | Nuova documentazione per [Journey IQ: analisi multi-dispositivo](/help/components/cda/overview.md). |
 | 28 agosto 2019 | Nuovo articolo sulle [App web progressive (PWA) per Analytics](/help/analyze/pwa/pwa.md). |
