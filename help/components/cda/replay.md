@@ -1,20 +1,20 @@
 ---
-title: Come si riproduce il funzionamento
-description: Comprendere il concetto di "riproduzione" in cross-device  Analytics
+title: Funzionamento delle riproduzioni
+description: Comprendere il concetto di "ripetizione" in Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 0%
+source-wordcount: '625'
+ht-degree: 1%
 
 ---
 
 
-# Come si riproduce il funzionamento
+# Funzionamento delle riproduzioni
 
- Analytics esegue due passaggi sui dati in una suite di rapporti virtuale:
+Analytics cross-device effettua due passaggi sui dati in una suite di rapporti virtuale:
 
-* **Colorazione** dal vivo: CDA tenta di cucire ogni hit mentre arriva. La rete di nuovi dispositivi alla suite di rapporti che non hanno mai registrato il tipo di interfaccia non è in genere cucita a questo livello. I dispositivi già riconosciuti vengono cuciti immediatamente.
+* **Colorazione** dal vivo: CDA tenta di cucire ogni hit mentre arriva. La rete di nuovi dispositivi alla suite di rapporti che non hanno mai eseguito l&#39;accesso non viene in genere unita a questo livello. I dispositivi già riconosciuti vengono cuciti immediatamente.
 * **Riproduci**: Circa una volta alla settimana, CDA &quot;riproduce&quot; i dati in base a identificatori univoci appresi. In questa fase vengono cuciti nuovi dispositivi della suite di rapporti.
 
 ## Esempio di tabella
@@ -27,7 +27,7 @@ Non appena viene raccolto un hit, CDA tenta di incollarlo a dispositivi noti. Co
 
 *Dati visualizzati il giorno in cui viene raccolto:*
 
-| Timestamp | ECID | eVar1 o CustomerID | Spiegazione dell&#39;hit | Metrica Persone (cumulativa) tramite Device Graph | Metrica Persone (cumulativa) con cuciture basate su campi |
+| Timestamp | ECID |  eVar1 o CustomerID | Spiegazione dell&#39;hit | Metrica Persone (cumulativa) tramite Device Graph | Metrica Persone (cumulativa) con cuciture basate su campi |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob accede al suo desktop | `1` (246) | `2` (246 e Bob) |
@@ -55,7 +55,7 @@ Circa una volta alla settimana, CDA ricalcola i dati storici in base ai disposit
 
 *Gli stessi dati dopo la riproduzione:*
 
-| Timestamp | ECID | eVar1 o CustomerID | Spiegazione dell&#39;hit | Metrica Persone (cumulativa) tramite Device Graph | Metrica Persone (cumulativa) con cuciture basate su campi |
+| Timestamp | ECID |  eVar1 o CustomerID | Spiegazione dell&#39;hit | Metrica Persone (cumulativa) tramite Device Graph | Metrica Persone (cumulativa) con cuciture basate su campi |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob accede al suo desktop | `1` (Cluster1) | `1` (Bob) |
