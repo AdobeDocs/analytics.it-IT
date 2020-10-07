@@ -5,7 +5,7 @@ title: Suddividere dimensioni
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 83%
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 Analizza i dati in tantissimi modi per ogni necessità; realizza query con metriche, dimensioni, segmenti, linee temporali e altri valori rilevanti.
 
-1. [Crea un progetto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) con una tabella di dati.
+1. [Crea un progetto](/help/analyze/analysis-workspace/home.md) con una tabella di dati.
 1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Risultato del passaggio](assets/fa_data_table_actions.png)
