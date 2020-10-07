@@ -5,10 +5,10 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 99%
+source-wordcount: '622'
+ht-degree: 98%
 
 ---
 
@@ -214,6 +214,7 @@ ht-degree: 99%
    + [Configurare Analytics tra dispositivi](cda/setup.md)
    + [Funzionamento delle riproduzioni](cda/replay.md)
    + [Modello di area di lavoro CDA](cda/workspace-template.md)
+   + [Limita una VRS a determinate date](cda/limit-vrs-date.md)
    + [Domande frequenti su Analytics tra dispositivi](cda/faq.md)
 + Avvisi {#alerts}
    + [Avvisi intelligenti](c-alerts/intellligent-alerts.md)
