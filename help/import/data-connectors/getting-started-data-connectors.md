@@ -2,10 +2,10 @@
 description: Importa dati di tracciamento da applicazioni di terze parti in Analytics.
 title: Guida introduttiva ai connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 98%
+source-wordcount: '951'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Ad esempio, un’integrazione e-mail potrebbe voler utilizzare un partner e-mail
 
 >[!IMPORTANT]
 >
->La tecnologia Adobe Data Connector terminerà a metà del 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>Terremo il ciclo di vita della tecnologia del Connettore dati del Adobe  entro la metà del 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisiti di sistema**
 
@@ -86,8 +86,9 @@ Per implementare correttamente i segmenti di remarketing, è necessario soddisfa
 
 >[!NOTE]
 >
->Se il prodotto è definito senza un evento associato, l’evento prodView si attiva automaticamente.
-Se i requisiti precedenti non sono soddisfatti, i segmenti di remarketing corrispondenti non vengono segnalati correttamente.
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>Se i requisiti precedenti non sono soddisfatti, i segmenti di remarketing corrispondenti non vengono segnalati correttamente.
 
 [!UICONTROL Cart Abandonment]: viene attivato dopo che l’utente ha aggiunto un prodotto al carrello:
 
