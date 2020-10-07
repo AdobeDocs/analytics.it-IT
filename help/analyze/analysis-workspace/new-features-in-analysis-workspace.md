@@ -3,9 +3,9 @@ description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7716'
+source-wordcount: '7712'
 ht-degree: 99%
 
 ---
@@ -414,8 +414,7 @@ Nuove funzionalità e ottimizzazioni rilasciate l’8 febbraio 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Modelli Workspace personalizzati </a> </p> </td> 
    <td colname="col2"> <p>Ora puoi creare e salvare i tuoi modelli Workspace, consentendo ad altri utenti all’interno della tua organizzazione di iniziare a lavorare con dati pertinenti per le loro mansioni. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Finestra modale per l’avvio di un nuovo progetto </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Facendo clic su “nuovo progetto” si apre una nuova finestra che permette di iniziare da: </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">un progetto vuoto, oppure </li> 
@@ -498,7 +497,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
    <td colname="col2"> <p>È ora possibile effettuare il rendering della visualizzazione mappa, introdotta a ottobre 2017, in PDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Intra-link relativi </a> quando si copia/salva con nome il progetto </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Intra-link relativi </a> quando si copia/salva con nome il progetto </p> </td> 
    <td colname="col2"> <p>Precedentemente, quando copiavi un progetto o utilizzavi il comando “salva con nome”, tutti gli intra-link salvati nel progetto puntavano al progetto originale e non a quello copiato. </p> <p>Gli intra-link ora fanno riferimento al progetto a cui sono collegati, dopo l’operazione di copia o salvataggio con nome. </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
    <td colname="col2"> <p>Se sono presenti visualizzazioni collegate a una tabella a forma libera o di coorti, ora al punto superiore sinistro (Impostazioni origine dati) sono elencate le visualizzazioni collegate. Passa il mouse sulla visualizzazione collegata per evidenziarla; fai clic per aprirla. </p> <p>Inoltre, è presente una casella di controllo “Mostra/Nascondi tabella dati” che permette di visualizzare o nascondere la tabella di dati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Aggiunta del numero evento (Event#) ai nomi degli eventi nella barra a sinistra </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Aggiunta del numero evento (Event#) ai nomi degli eventi nella barra a sinistra </a> </p> </td> 
    <td colname="col2"> <p>Prima della versione di ottobre 2017 era possibile aggiungere ai nomi delle dimensioni i numeri relativi a variabili (evar#) e proprietà (prop#) ed eseguire delle ricerche in base a tali numeri. La stessa funzione è ora disponibile per gli eventi. </p> <p>Esempio: “Sottoscrizioni” ora viene visualizzato nella barra a sinistra come “Sottoscrizioni (evento1)”. </p> <p>Nota bene: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">Il numero dell’evento non compare nella tabella (per contenere la lunghezza dei titoli). </li> 
@@ -576,7 +575,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Dimensioni predefinite suddivise in ordine logico per impostazione predefinita </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Dimensioni predefinite suddivise in ordine logico per impostazione predefinita </a> </p> </td> 
    <td colname="col2"> <p>L’ordinamento predefinito di alcune dimensioni predefinite è stato aggiornato nei seguenti casi: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Quando vengono trascinate in una tabella a forma libera. </li> 
@@ -677,7 +676,7 @@ Nuove funzionalità rilasciate il 17 agosto 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Assegnare tag a un progetto durante il salvataggio </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Assegnare tag a un progetto durante il salvataggio </a> </p> </td> 
    <td colname="col2"> <p>Ora puoi assegnare tag a un progetto mentre salvi il progetto stesso. </p> </td> 
   </tr> 
   <tr> 
