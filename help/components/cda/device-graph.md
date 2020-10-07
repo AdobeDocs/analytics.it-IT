@@ -1,16 +1,16 @@
 ---
-title: Grafico del dispositivo
+title: Device Graph
 description: Comprendere i prerequisiti e i limiti dell'unione dei dati utilizzando il grafico del dispositivo.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Grafico del dispositivo
+# Device Graph
 
 Analytics cross-device offre due metodi distinti per unire i dati. Questo metodo utilizza Adobe Experience Platform Identity Service Co-op Graph o Private Graph per unire i dati. CDA comunica regolarmente con il grafico del dispositivo per collegare i dispositivi.
 
@@ -23,7 +23,7 @@ Analytics cross-device offre due metodi distinti per unire i dati. Questo metodo
 
 ## Prerequisiti specifici per il grafico del dispositivo
 
-Se intendete implementare Analytics cross-Device con il metodo grafico del dispositivo, sono necessari i seguenti elementi. Collaborate con i team all&#39;interno dell&#39;organizzazione e con l&#39;Account Manager  Adobe per assicurarvi di soddisfare tutti i requisiti indicati di seguito.
+Se intendete implementare Analytics cross-Device con il metodo grafico del dispositivo, sono necessari i seguenti elementi. Collaborate con i team all&#39;interno dell&#39;organizzazione e con l&#39;Account Manager del Adobe  per garantire che vengano rispettate tutte le condizioni seguenti.
 
 >[!IMPORTANT]
 >
