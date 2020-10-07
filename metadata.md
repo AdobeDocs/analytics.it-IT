@@ -9,10 +9,14 @@ getting-started-title: Introduzione
 getting-started-url: https://helpx.adobe.com/it/analytics/get-started.html
 tutorials-title: Esercitazioni
 tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/analytics.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.it-IT
+type: Documentation
 index: true
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
