@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Scopri le novità di Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
-   + Creazione di progetti Workspace {#build-workspace-project}
+   + Creare progetti Workspace {#build-workspace-project}
       + [Crea progetto: panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -83,7 +83,7 @@ ht-degree: 97%
       + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + [Pannello Visualizzatori simultanei](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Pannello Segment comparison {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -91,12 +91,12 @@ ht-degree: 97%
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Cura o condividi progetti {#curate-share}
       + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Cura progetti](analysis-workspace/curate-share/curate.md)
-      + [Condivisione di progetti](analysis-workspace/curate-share/share-projects.md)
+      + [Curare progetti](analysis-workspace/curate-share/curate.md)
+      + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
-      + [Progetti di sola visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
+      + [Progetti solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
-      + [Pianificare progetti](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e finestre di lookback](analysis-workspace/attribution/models.md)
@@ -239,8 +239,8 @@ ht-degree: 97%
       + [Risoluzione dei problemi di integrazione di Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Pacchetti di contenuto Adobe Analytics per Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Macro di Visual Basic](report-builder/vba.md)
-   + [Risoluzione dei problemi relativi ai Report Builder](report-builder/troubleshoot.md)
-   + [Domande frequenti sugli Report Builder](report-builder/faq.md)
+   + [Risoluzione dei problemi relativi a Report Builder](report-builder/troubleshoot.md)
+   + [Domande frequenti su Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Panoramica di Activity Map](activity-map/activity-map.md)
    + introduzione {#getting-started}
@@ -271,8 +271,8 @@ ht-degree: 97%
    + [Configurare le impostazioni di Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interfaccia utente di Activity Map](activity-map/activitymap-user-interface.md)
    + [Generazione di rapporti Activity Map in Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Risoluzione dei problemi relativi all&#39;estensione del browser](activity-map/troubleshooting-browser-extensions.md)
-   + [Risoluzione dei problemi di raccolta dei dati](activity-map/troubleshoot-data-collection.md)
+   + [Risoluzione dei problemi relativi all’estensione del browser](activity-map/troubleshooting-browser-extensions.md)
+   + [Risoluzione dei problemi di raccolta dati](activity-map/troubleshoot-data-collection.md)
    + [Risorse relative alla conoscenza](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Introduzione a Reports and Analytics](reports-analytics/getting-started.md)
