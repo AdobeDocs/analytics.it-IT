@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -213,7 +213,7 @@ ht-degree: 98%
    + [Device Graph](cda/device-graph.md)
    + [Configurare Analytics tra dispositivi](cda/setup.md)
    + [Funzionamento delle riproduzioni](cda/replay.md)
-   + [Modello di area di lavoro CDA](cda/workspace-template.md)
+   + [Modello di CDA Workspace](cda/workspace-template.md)
    + [Limita una VRS a determinate date](cda/limit-vrs-date.md)
    + [Domande frequenti su Analytics tra dispositivi](cda/faq.md)
 + Avvisi {#alerts}
