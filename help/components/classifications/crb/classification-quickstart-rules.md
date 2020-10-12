@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Regole di classificazione
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 100%
 
@@ -326,11 +326,14 @@ Per aggiungere nuove regole, fai corrispondere una condizione a una classificazi
 
    >[!NOTE]
    >
-   >Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:        >
-
-   * Le suite di rapporti hanno almeno una classificazione definita per la variabile in [!UICONTROL Admin Tools].
-   Per una spiegazione di questo prerequisito, consulta *`Variable`* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md).
-
+   >Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:
+   >
+   >* Le suite di rapporti hanno almeno una classificazione definita per la variabile in [!UICONTROL Admin Tools].
+      >
+      >   
+      Per una spiegazione di questo prerequisito, consulta *`Variable`* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md).
+      >
+      >
    * Hai selezionato la suite di rapporti nella pagina **[!UICONTROL Available Report Suites]**, che viene visualizzata dopo aver fatto clic su [Aggiungi set di regole](/help/components/classifications/crb/classification-rule-set.md) per creare il set di regole.
 
 
