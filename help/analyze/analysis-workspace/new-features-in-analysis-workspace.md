@@ -3,22 +3,48 @@ description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7712'
-ht-degree: 99%
+source-wordcount: '8021'
+ht-degree: 98%
 
 ---
 
 
 # Scopri le novità di Analysis Workspace
 
+Per accedere alle note sulla versione di Adobe Experience Cloud nel suo complesso, visita [qui](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
+
+## Ottobre 2020
+
+Nuove funzionalità rilasciate a ottobre 2020.
+
+| Funzione | Descrizione |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** è stato aggiunto alle impostazioni della linea di tendenza della visualizzazione Linea. Also known as a rolling average, a moving average uses a specific number of data points (determined by a **[!UICONTROL Periods]** selection), averages them, and uses the average as a point in the line. |
+| [Pagina Guida prestazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti verso suggerimenti su come ottimizzarle. |
+
+## Settembre 2020
+
+Nuove funzionalità rilasciate a settembre 2020.
+
+| Funzione | Descrizione |
+| --- | --- |
+| [possibilità di scaricare 50.000 elementi per una singola dimensione](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
+| [Miglioramenti alla visualizzazione Linea](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione Linee. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle linee sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
+| Nuovi intervalli di date | Abbiamo aggiunto 5 nuovi intervalli di date in modo da poter scegliere tra intervalli di date che non includono dati giornalieri parziali da oggi: Ultimi 7 giorni interi, Ultimi 14 giorni interi, Ultimi 30 giorni interi, Ultimi 60 giorni interi, Ultimi 90 giorni interi |
+
+
+## Agosto 2020
+
+Nessuna nuova funzionalità rilasciata nell&#39;agosto 2020.
+
 ## Luglio 2020
 
 Nuova funzione rilasciata il 16 luglio 2020.
 
 | Funzione | Descrizione |
-|--- |--- |
+| --- | --- |
 | Nuovi predefiniti per intervalli di date | Sono stati aggiunti 4 nuovi intervalli di date: ([!UICONTROL This week/month/quarter/year (excluding today)]). Questo consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
 
 ## Giugno 2020
@@ -115,7 +141,7 @@ Miglioramenti rilasciati il 18 luglio 2019.
 Miglioramento rilasciato il 13 giugno 2019.
 
 | Miglioramento | Descrizione |
-|--- |--- |
+| --- |--- |
 | Nuovi filtri pronti all’uso | Alla barra di ricerca di sinistra sono stati aggiunti dei nuovi filtri pronti all’uso. Oltre a quelli già disponibili (Dimensioni, Metriche, Approvato, ecc.), sono stati aggiunti nuovi filtri come Metriche calcolate, Attributi cliente, eVar, Prop, Video e così via per facilitare la ricerca dei componenti necessari. |
 
 ## Maggio 2019
@@ -207,6 +233,7 @@ Nuove funzionalità e ottimizzazioni rilasciate il 13 settembre 2018.
   </tr> 
  </tbody> 
 </table>
+
 ## agosto 2018
 
 Nuove funzionalità e ottimizzazioni rilasciate il 9 agosto 2018.
