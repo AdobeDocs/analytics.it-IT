@@ -325,7 +325,8 @@ Per aggiungere nuove regole, fai corrispondere una condizione a una classificazi
    Viene visualizzata la pagina **[!UICONTROL Select Report Suites]**.
 
    >[!NOTE]
-   Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:        >
+   >
+   >Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:        >
 
    * Le suite di rapporti hanno almeno una classificazione definita per la variabile in [!UICONTROL Admin Tools].
    Per una spiegazione di questo prerequisito, consulta *`Variable`* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md).
