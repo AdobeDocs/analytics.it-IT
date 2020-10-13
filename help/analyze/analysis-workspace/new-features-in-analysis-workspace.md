@@ -3,7 +3,7 @@ description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8021'
 ht-degree: 98%
@@ -33,7 +33,6 @@ Nuove funzionalità rilasciate a settembre 2020.
 | [possibilità di scaricare 50.000 elementi per una singola dimensione](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
 | [Miglioramenti alla visualizzazione Linea](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione Linee. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle linee sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
 | Nuovi intervalli di date | Abbiamo aggiunto 5 nuovi intervalli di date in modo da poter scegliere tra intervalli di date che non includono dati giornalieri parziali da oggi: Ultimi 7 giorni interi, Ultimi 14 giorni interi, Ultimi 30 giorni interi, Ultimi 60 giorni interi, Ultimi 90 giorni interi |
-
 
 ## Agosto 2020
 
