@@ -5,7 +5,7 @@ title: Aggiungere un codice intestazione e piè di pagina
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Gestione tag dinamica crea codici di incorporamento per l&#39;area di produzione
 
 1. Copiate il codice piè di pagina di produzione e inseritelo nella [!DNL BODY] sezione HTML del sito.
 
-   Posiziona il codice vicino al [!DNL </body>] tag come possibile.
+   Posizionate il codice il più vicino possibile al `</body>` tag .
 1. Copiate l&#39;intestazione e il codice piè di pagina dell&#39;area di gestione temporanea, quindi ripetete i passaggi descritti sopra nel sito dell&#39;area di gestione temporanea.
 
    >[!NOTE]
