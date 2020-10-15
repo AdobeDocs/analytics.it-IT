@@ -5,10 +5,10 @@ title: Dashboard Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 3%
+source-wordcount: '743'
+ht-degree: 4%
 
 ---
 
@@ -20,10 +20,6 @@ Gestione dashboard consente di copiare, condividere, archiviare e pianificare le
 >[!IMPORTANT]
 >
 >Quando si utilizza Gestione dashboard, è consigliabile non disporre di più di 300 dashboard per ogni singolo utente. Inoltre, si prega di notare che il manager carica tutte le dashboard condivise qui sotto, quindi siate consapevoli con la condivisione di dashboard.
-
-## Dashboard Manager
-
-Gestione dashboard consente di copiare, condividere, archiviare e pianificare le dashboard per la distribuzione.
 
 Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
@@ -53,10 +49,10 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboard Player</strong></td> 
-  <td class="chdesc stentry"> <p>I server SiteCatalyst 14 non rispondono più alle richieste di dati di Dashboard Player. Tutte le dashboard attualmente visualizzate in Dashboard Player sono accessibili nell'interfaccia standard di Reporting e  Analytics oppure ricreato come dashboard in tempo reale. Le dashboard in tempo reale sono progettate specificatamente per la visualizzazione continua e includono una modalità a schermo intero per consentire la visualizzazione su TV o altri dispositivi di grandi dimensioni. </p> <p>Azione utente richiesta: È necessario interrompere l'utilizzo di Dashboard Player. </p> </td> 
+  <td class="chdesc stentry"> <p>I server SiteCatalyst 14 non rispondono più alle richieste di dati di Dashboard Player. Tutte le dashboard attualmente visualizzate in Dashboard Player sono accessibili nell'interfaccia standard di Reporting e analisi o ricreato come dashboard in tempo reale. Le dashboard in tempo reale sono progettate specificatamente per la visualizzazione continua e includono una modalità a schermo intero per consentire la visualizzazione su TV o altri dispositivi di grandi dimensioni. </p> <p>Azione utente richiesta: È necessario interrompere l'utilizzo di Dashboard Player. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
-  <td class="choption"><strong>Copia</strong></td> 
+  <td class="choption"><strong>Copy Me</strong></td> 
   <td class="chdesc stentry"> Aggiunge una copia all’elenco delle dashboard utilizzando lo stesso nome dell’originale. Tuttavia, non è possibile visualizzare gli aggiornamenti o le modifiche apportate dal proprietario del dashboard. Copiando una dashboard legacy si apre una dashboard vuota, in cui è possibile aggiungere contenuto legacy. <p>Importante:  Se gli utenti condivisi del dashboard non sono in grado di visualizzare le modifiche apportate nel dashboard, controllate che Dashboard Manager verifichi se gli utenti hanno scelto l'opzione <span class="uicontrol"> Copia utente </span> . Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate dall'utente. Per visualizzare tutte le modifiche/gli aggiornamenti, gli utenti condivisi devono selezionare l'opzione <span class="uicontrol"> Menu attivato </span> in Gestione dashboard. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
@@ -64,7 +60,7 @@ Passaggi che descrivono l’utilizzo delle opzioni di gestione del dashboard con
   <td class="chdesc stentry"> Consente di visualizzare le modifiche e gli aggiornamenti apportati dal proprietario del dashboard. </td> 
  </tr> 
  <tr class="chrow strow"> 
-  <td class="choption"><strong>Annulla condivisione</strong></td> 
+  <td class="choption"><strong>Unshare</strong></td> 
   <td class="chdesc stentry"> Rimuove il dashboard dall'elenco delle dashboard condivise. </td> 
  </tr> 
 </table>
