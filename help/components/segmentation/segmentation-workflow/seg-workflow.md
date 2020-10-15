@@ -3,20 +3,16 @@ description: Descrive un flusso di lavoro consigliato per i segmenti creati con 
 title: Panoramica sulla segmentazione del flusso di lavoro
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '268'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
 
 
 # Panoramica sulla segmentazione del flusso di lavoro
-
-Descrive un flusso di lavoro consigliato per i segmenti creati con il Generatore di segmenti e gestiti tramite il Gestore segmenti.
-
-## Panoramica sulla segmentazione del flusso di lavoro
 
 Descrive un flusso di lavoro consigliato per i segmenti creati con il Generatore di segmenti e gestiti tramite il Gestore segmenti.
 
