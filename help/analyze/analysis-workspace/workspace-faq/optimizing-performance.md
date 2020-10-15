@@ -3,15 +3,15 @@ description: Fattori che influiranno sulle prestazioni e sulle ottimizzazioni di
 title: ' fattori di prestazione e ottimizzazione Analysis Workspace'
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2038'
 ht-degree: 22%
 
 ---
 
 
-# Ottimizzare le prestazioni di Analysis Workspace
+# Ottimizza [!UICONTROL Analysis Workspace performance]
 
 Diversi fattori possono influenzare le prestazioni di un progetto in  Analysis Workspace. È importante sapere quali sono questi contributi prima di iniziare a creare un progetto in modo da poter pianificare e creare il progetto nel modo migliore. Questa pagina include un elenco di fattori che influiranno sulle prestazioni e sulle ottimizzazioni possibili per garantire prestazioni di picco in  Analysis Workspace.
 
@@ -19,9 +19,10 @@ Diversi fattori possono influenzare le prestazioni di un progetto in  Analysis W
 >
 >La pagina Prestazioni in  Analysis Workspace è in versione limitata. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html)
 
-## Aiuto > Prestazioni in  Analysis Workspace
+## [!UICONTROL Help] > [!UICONTROL Performance] In  Analysis Workspace
 
-In **[!UICONTROL Analysis Workspace > Help > Performance]** questa sezione puoi vedere i fattori che influiscono sulle prestazioni del progetto, compresi rete, browser e fattori del progetto. Per ottenere i risultati più precisi, consentite che il progetto venga caricato completamente prima di aprire la pagina Prestazioni.
+In **Analysis Workspace > [!UICONTROL Help] >[!UICONTROL Performance]**, puoi vedere i fattori che influiscono sulle prestazioni del progetto, inclusi i fattori di rete, browser e progetto. Per ottenere i risultati più precisi, consentite che il progetto venga caricato completamente prima di aprire la pagina Prestazioni.
+
 * La colonna Progetto corrente visualizza i risultati per il progetto corrente e l’ambiente utente.
 * La colonna Linee guida visualizza  Adobe  soglia consigliata per ciascun fattore.
 
@@ -35,7 +36,7 @@ Inoltre, puoi **scaricare come CSV** i contenuti delle prestazioni per condivide
 
 ## Fattori di rete
 
-Aiuto > I fattori di rete delle prestazioni includono:
+[!UICONTROL Help] > [!UICONTROL Performance] I fattori di rete includono:
 
 | Factor | Definizione | Influenzato da | Ottimizzazione |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ Aiuto > I fattori di rete delle prestazioni includono:
 
 ## Fattori browser
 
-Aiuto > I fattori del browser Prestazioni includono:
+[!UICONTROL Help] > [!UICONTROL Performance] I fattori del browser includono:
 
 | Factor | Definizione | Influenzato da | Ottimizzazione |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ Aiuto > I fattori del browser Prestazioni includono:
 
 ## Fattori del progetto
 
-Aiuto > I fattori di progetto Prestazioni includono:
+[!UICONTROL Help] > [!UICONTROL Performance] I fattori di progetto includono:
 
 | Factor | Definizione | Ottimizzazione |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ Altri fattori non inclusi in Aiuto > Prestazioni:
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe sta riscontrando un problema da risolvere. | Invia il codice di errore all&#39;Assistenza clienti. |
 | [!UICONTROL The request is too complex.] | La richiesta di generazione rapporti è troppo grande e non può essere eseguita. Questo errore è causato da timeout dovuti alla dimensione della richiesta, troppi elementi associati in un segmento o un filtro di ricerca, inclusione di troppe metriche, combinazioni di dimensioni e metriche incompatibili, ecc. | Semplificate la richiesta rimuovendo alcune colonne o righe nella tabella oppure prendete in considerazione la possibilità di suddividere la tabella in richieste separate. |
 | [!UICONTROL One of the segments or the search in this visualization contains a text search that returned too many results.] | Il criterio del segmento o il filtro del report è troppo ampio. | Limita i criteri di ricerca e riprova la richiesta. |
-| [!UICONTROL This dimension does not currently support non-default attribution models.] | L&#39;attribuzione non predefinita non è supportata per la dimensione in uso. | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL This dimension does not currently support non-default attribution models.] | L&#39;attribuzione non predefinita non è supportata per la dimensione in uso. | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | Nella tabella sono presenti troppe celle a forma libera (riga * colonne). | Rimuovere colonne o righe nella tabella oppure suddividere la tabella in richieste separate. |
