@@ -1,20 +1,19 @@
 ---
-description: Prima di utilizzare Reporting e analisi, è importante comprendere le attività di accesso e configurazione di base e come accedere alle informazioni sull'account.
+description: Prima di utilizzare Reports and Analytics, è importante comprendere le operazioni di accesso e configurazione di base e come accedere alle informazioni sull'account.
 subtopic: Get started
 title: Introduzione a Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 10%
 
 ---
 
 
 # Guida introduttiva a Reporting e analisi
-
-Prima di utilizzare Reporting e analisi, è importante comprendere le attività di accesso e configurazione di base e come accedere alle informazioni sull&#39;account.
-
-## Guida introduttiva a Reporting e analisi
 
 Prima di utilizzare Reporting e analisi, è importante comprendere le attività di accesso e configurazione di base e come accedere alle informazioni sull&#39;account.
 
@@ -46,13 +45,13 @@ Requisiti di sistema e browser per accedere all&#39;interfaccia di Reporting e a
 * Devono essere abilitati i cookie e JavaScript.
 * Risoluzione dello schermo pari a 1024x768 con profondità colore a 16 bit (o superiore).
 
-## Accesso a Reporting e analisi
+## Accedere ad Reports and Analytics
 
-Prima di accedere all&#39;interfaccia, rivolgiti al tuo Account Manager o all&#39;Assistenza clienti Adobe per configurare l&#39;account della tua società.
+Prima di accedere all&#39;interfaccia, rivolgiti al tuo Account Manager o all&#39;Assistenza clienti  Adobe per configurare l&#39;account della tua azienda.
 
-## Accesso tramite Experience Cloud
+## Accedere utilizzando il Experience Cloud 
 
-Procedura per accedere tramite Adobe Experience Cloud.
+Procedura che descrive come accedere all’Adobe Experience Cloud.
 
 1. Su un computer con accesso a Internet, avviate un browser.
 1. Vai a [!DNL https://login.experiencecloud.adobe.com/].
@@ -64,15 +63,15 @@ Procedura per accedere tramite Adobe Experience Cloud.
    **[!UICONTROL Username]**: Specificate il vostro ID account.
 
    **[!UICONTROL Password]**: Specificate la password dell&#39;account.
-1. Dalla home page di Experience Cloud, vai a **Analytics > Rapporti**.
+1. Dalla home page del Experience Cloud , andate a **Analytics > Rapporti**.
 
-   Experience Cloud ti disconnette automaticamente dopo 30 minuti di inattività.
+   Il Experience Cloud  ti disconnette automaticamente dopo 30 minuti di inattività.
 
 ## Eseguire un rapporto
 
 Passaggi che descrivono come generare un rapporto.
 
-1. Log in to [!UICONTROL Reports & Analytics].
+1. Accedere a [!UICONTROL Reports & Analytics].
 
    Se ne avete impostato uno, viene visualizzato il menu Rapporti o un [dashboard](/help/analyze/reports-analytics/dashboard.md) .
 
@@ -106,7 +105,7 @@ Tutti gli utenti hanno accesso alla [!UICONTROL Account Information] pagina. Son
     <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
      <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">Nome (obbligatorio) </li> 
      <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">Cognome (obbligatorio) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Titolo </li> 
+     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Title </li> 
      <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">Indirizzo e-mail (obbligatorio) </li> 
      <li id="li_B764239241CE4F1CA74F77D796E7AB1D">Numero di telefono </li> 
     </ul> </td> 
@@ -117,7 +116,7 @@ Tutti gli utenti hanno accesso alla [!UICONTROL Account Information] pagina. Son
   </tr> 
   <tr> 
    <td> <p>Servizio Web </p> </td> 
-   <td> <p>Visualizza il nome utente e il segreto condiviso dei servizi Web associati a questo account. Utilizzate queste credenziali quando accedete a Experience Cloud tramite le API dei servizi Web. Per ulteriori informazioni, vedere <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>. </p> <p> <p>Nota:  Queste informazioni vengono visualizzate solo se l'account è autorizzato come utente di servizi Web. </p> </p> </td> 
+   <td> <p>Visualizza il nome utente e il segreto condiviso dei servizi Web associati a questo account. Utilizzate queste credenziali per accedere  Experience Cloud tramite le API dei servizi Web. Per ulteriori informazioni, vedere <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>. </p> <p> <p>Nota:  Queste informazioni vengono visualizzate solo se l'account è autorizzato come utente di servizi Web. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Escludi questo computer </p> </td> 
@@ -128,9 +127,9 @@ Tutti gli utenti hanno accesso alla [!UICONTROL Account Information] pagina. Son
 
 ## Modificare la lingua dell&#39;interfaccia
 
-Passaggi che descrivono come modificare la lingua dell&#39;interfaccia. Puoi visualizzare l’interfaccia Reporting e analisi nella lingua desiderata.
+Passaggi che descrivono come modificare la lingua dell&#39;interfaccia. È possibile visualizzare l&#39;interfaccia Reports and Analytics nella lingua desiderata.
 
 1. Accedi ad Analytics e seleziona la **[!UICONTROL Reports]** scheda.
 1. Nel piè di pagina della pagina, fare clic sulla lingua attiva nel **[!UICONTROL Language]** menu, quindi selezionare la lingua desiderata.
 
-Puoi accedere alla documentazione e alla home page da Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+È possibile accedere alla documentazione e alla home page dall&#39;Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
