@@ -2,9 +2,9 @@
 title: Regole di elaborazione per i canali di marketing
 description: Le regole di elaborazione del canale di marketing determinano se un hit di visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit che un visitatore fa sul tuo sito. Quando una regola non soddisfa i criteri per un canale, o se le regole non sono configurate correttamente, il sistema assegna l'hit a Nessun canale identificato.
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2091'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,6 @@ Note aggiuntive sull&#39;elaborazione:
 
 Crea regole di elaborazione del canale di marketing, che determinano se un hit di visitatore soddisfa i criteri assegnati a un canale.
 
-Questa procedura utilizza una regola e-mail come esempio. L&#39;esempio presuppone che sia stato aggiunto un canale e-mail all&#39;elenco dei canali nella pagina Marketing Channel Manager.
-
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 2. Seleziona una suite di rapporti.
 
@@ -41,17 +39,15 @@ Questa procedura utilizza una regola e-mail come esempio. L&#39;esempio presuppo
 
    Consultate [Eseguire la configurazione](/help/components/c-marketing-channels/c-getting-started-mchannel.md)automatica.
 
-3. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+3. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**. Se si eseguiva la configurazione automatica, venivano automaticamente definiti un set di canali e regole.
 
-   ![Risultato passaggio](assets/marketing_channel_rules.png)
+   ![Risultato del passaggio](assets/marketing_channel_rules.png)
 
-4. Dal **[!UICONTROL Add New Rule Set]** menu, selezionare **[!UICONTROL Email]**.
+4. Se si desidera aggiungere una nuova regola, selezionare dal **[!UICONTROL Add New Rule Set]** menu. Se selezionate un canale, vi verrà assegnato un modello di regola e, se selezionate Personalizzato, inizierete da un&#39;ardesia vuota. Entrambe le opzioni consentono di modificare il set di regole in base alle esigenze.
 
-   Qui non si seleziona il canale, ma un modello che completa la regola con alcuni dei parametri necessari. Potete modificare il modello in base alle esigenze.
+   ![Risultato del passaggio](assets/example_email.png)
 
-   ![Risultato passaggio](assets/example_email.png)
-
-5. Per continuare a creare le regole, fare clic su **[!UICONTROL Add Rule]**.
+5. Per continuare a creare le regole, fare clic su **[!UICONTROL Add New Rule SetRule]**.
 6. Per assegnare priorità alle regole, trascinatele fino alla posizione desiderata.
 7. Fai clic su **[!UICONTROL Save.]**
 
@@ -59,7 +55,7 @@ Continua verso il basso in questa pagina per visualizzare le raccomandazioni per
 
 ### Imposta il valore del canale di marketing
 
-**[!UICONTROL Add Rule]** **Impostate il valore** del canale per definire la dimensione di dettaglio del canale di marketing disponibile per quel canale. Questo consente di suddividere le dimensioni dei canali di marketing e visualizzare informazioni più dettagliate sul canale.
+**[!UICONTROL Set the channel's value]** definisce la dimensione del dettaglio del canale di marketing disponibile per quel canale. Questo consente di suddividere le dimensioni dei canali di marketing e visualizzare informazioni più dettagliate sul canale.
 
 Si consiglia di impostare il valore del canale sugli stessi criteri utilizzati per definire il canale stesso. Ad esempio, se per definire il canale viene utilizzato il parametro della stringa di query, impostare anche il parametro della stringa di query come valore del canale.
 
@@ -67,11 +63,15 @@ Si consiglia di impostare il valore del canale sugli stessi criteri utilizzati p
 
 Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che potete utilizzare per definire le regole di elaborazione del canale di marketing.
 
+>[!NOTE]
+>
+>I campi di testo definiti dall&#39;utente, ad esempio i parametri della stringa di query o gli elenchi di valori con cui confrontarsi, vengono valutati come valori senza distinzione tra **maiuscole e minuscole** . Ad esempio, se disponete di una regola in cui il parametro della stringa query cmp = abc123, tutte le versioni di &#39;cmp&#39; e &#39;abc123&#39; corrisponderanno alla regola. Non è necessario elencare più versioni maiuscole/minuscole di questi valori.
+
 | Termine | Definizione |
 |--- |--- |
 | Tutte | Attiva questo canale solo quando tutte le regole della regola numerata sono vere. |
 | Any | Attiva questo canale quando una delle regole del set di regole è vera. Questa opzione è disponibile solo se nella regola numerata è presente più di una regola. |
-| ID AMO | Il codice di tracciamento principale utilizzato dalle integrazioni  Advertising Cloud e  Advertising Analytics. Quando è abilitata una di queste integrazioni, il prefisso del codice di tracciamento può essere utilizzato per identificare  canali Advertising Cloud specifici. L&#39;utilizzo di &quot;AMO ID&quot; inizia con &quot;AL&quot; per la ricerca, &quot;AC&quot; per la visualizzazione o &quot;AO&quot; per Social. Quando l&#39;ID AMO viene utilizzato nei canali di marketing, le metriche click/cost/impression possono essere attribuite al canale corretto (se non configurate, queste metriche andranno a Direct o Nessuno). |
+| ID AMO | Il codice di tracciamento principale utilizzato dalle integrazioni  Advertising Cloud e  Advertising Analytics. Quando è abilitata una di queste integrazioni, il prefisso del codice di tracciamento può essere utilizzato per identificare  canali Advertising Cloud specifici. L&#39;utilizzo di &quot;AMO ID&quot; inizia con &quot;AL&quot; per la ricerca, &quot;AC&quot; per la visualizzazione o &quot;AO&quot; per Social. Quando l’ID AMO viene utilizzato nei canali di marketing, le metriche click/cost/impression possono essere attribuite al canale corretto (se non configurate, queste metriche andranno a Direct o Nessuno). |
 | ID AMO ED | Il codice di tracciamento secondario utilizzato da  Advertising Cloud. Lo scopo principale di questo codice di tracciamento è quello di fungere da chiave per l&#39;invio di dati a  Ad Cloud. Tuttavia, può essere utilizzato anche per identificare la visualizzazione ClickThroughs rispetto a visualizzazione ViewThroughs se si desidera visualizzarli come due canali di marketing separati. A tale scopo, è possibile impostare la logica del canale di marketing per le estremità &quot;AMO EF ID&quot; con &quot;:d&quot; per le estremità Display ClickThrough o &quot;AMO EF ID&quot; con &quot;:i&quot; per Display ViewThrough. Se non desideri dividere la visualizzazione in due canali, utilizza invece la dimensione ID AMO. |
 | Variabili di conversione | È costituito da eVar abilitate per questa suite di rapporti e si applica solo quando queste variabili sono impostate tramite il codice di Adobe  sulla pagina.  Consulta la Guida all’implementazione. |
 | Esiste | Sono disponibili diverse selezioni, tra cui:<ul><li>**Non Esiste**: Specifica che l&#39;attributo hit non esiste nella richiesta. Ad esempio, in un dominio di riferimento, se l&#39;utente digita un URL o fa clic su un segnalibro, l&#39;attributo di dominio di riferimento non esiste.</li><li>**Vuoto**: Specifica che esiste un attributo hit, in genere un parametro di stringa di eVar o di query , ma non è associato alcun valore all&#39;attributo hit.</li><li>**Non Contiene**: Consente di specificare, ad esempio, che un dominio di riferimento non contiene un valore specifico (anziché utilizzare la selezione &quot;Contiene&quot;).</li></ul> |
@@ -88,7 +88,7 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi che 
 | Dominio principale pagina (TLD+1) | Il dominio principale della pagina in cui il visitatore arriva, ad esempio example.co.uk . |
 | URL della pagina | L’URL di una pagina Web sul sito. |
 | Dominio di riferimento | Il dominio di provenienza dei visitatori prima che visitassero il sito, ad esempio, i referenti provenienti da `abcsite.com` e `xyzsite.com`. |
-| Query String Parameter | Se l’URL di una pagina sul sito è simile a quello di `https://example.com/?page=12345&cat=1`, la pagina e il gatto sono entrambi parametri di stringa di query. (Consulta `https://en.wikipedia.org/wiki/Query_string`.)  È possibile specificare un solo parametro di stringa di query per set di regole. Per aggiungere ulteriori parametri di stringa di query, utilizzare `ANY` come operatore, quindi aggiungere nuovi parametri di stringa di query alla regola. |
+| Query String Parameter | Se l&#39;URL di una pagina sul sito è simile a `https://example.com/?page=12345&cat=1`, &#39;page&#39; e &#39;cat&#39; sono entrambi parametri di stringa di query. (Consulta `https://en.wikipedia.org/wiki/Query_string`.)  È possibile specificare un solo parametro di stringa di query per set di regole. Per aggiungere ulteriori parametri di stringa di query, utilizzare `ANY` come operatore, quindi aggiungere nuovi parametri di stringa di query alla regola. I parametri delle stringhe di query vengono valutati senza distinzione tra maiuscole e minuscole; ad esempio, &#39;cat&#39; e &#39;CAT&#39; saranno valutati allo stesso modo. |
 | Referrer | Posizione della pagina Web (URL completo) in cui si trovavano i visitatori prima di accedere al sito. Un referente esiste al di fuori del dominio definito. |
 | Dominio e percorso di riferimento | Una concatenazione del dominio di riferimento e del percorso dell&#39;URL. Alcuni esempi:    `www.example.com/products/id/12345` o `ad.example.com/foo` |
 | Parametro di riferimento | Un parametro della stringa di query sull’URL del referente. Ad esempio, se i visitatori provengono da `example.com/?page=12345&cat=1`, i parametri di riferimento sono pagina e gatto. |
@@ -104,7 +104,7 @@ Le regole del canale vengono elaborate nell&#39;ordine specificato. Un approccio
 
 Di seguito è riportato l&#39;ordine consigliato per le regole di canale e per le definizioni di esempio:
 
-### Ricerca pagata {#paid-search}
+### Ricerca a pagamento {#paid-search}
 
 La ricerca a pagamento è una parola o una frase a cui si paga un motore di ricerca per la posizione nei risultati della ricerca. Questo canale viene generalmente definito in base al parametro della stringa di query (vedere Esempio di canale di visualizzazione) o alle regole di rilevamento della ricerca a pagamento. La decisione dipende dai dettagli del canale di marketing che desideri registrare.
 
@@ -130,13 +130,13 @@ Per la regola del canale di marketing, le impostazioni di Ricerca naturale sono 
 
 ### Visualizzazione {#display}
 
-Questa regola identifica i visitatori provenienti da annunci pubblicitari per banner. È identificato da un parametro di stringa di query nell&#39;URL di destinazione, in questo caso *`Ad_01`*.
+Questa regola identifica i visitatori provenienti da annunci pubblicitari per banner. È identificato da un parametro di stringa di query nell&#39;URL di destinazione, in questo caso *`Ad_01`*. Il parametro della stringa di query e i valori che cerca vengono valutati come valori senza distinzione tra maiuscole e minuscole.
 
 ![](assets/example_display.png)
 
 ### E-mail {#email}
 
-Questa regola identifica i visitatori provenienti da campagne e-mail. È identificato da un parametro della stringa di query nell’URL di destinazione, in questo caso *`eml`*:
+Questa regola identifica i visitatori provenienti da campagne e-mail. È identificato da un parametro di stringa di query nell’URL di destinazione, in questo caso *`eml`*:
 
 ![](assets/example_email.png)
 
@@ -154,7 +154,7 @@ Una best practice consiste nell&#39;includere un canale &quot;Altre campagne&quo
 
 ### Social Network {#social-networks}
 
-Questa regola identifica i visitatori che provengono da un social network, come Facebook*. Il canale viene spesso rinominato come Organic Social. Le impostazioni possono essere le seguenti:
+Questa regola identifica i visitatori provenienti da un social network, come Facebook;. Il canale viene spesso rinominato come Organic Social. Le impostazioni possono essere le seguenti:
 
 ![](assets/example_social.png)
 
@@ -164,7 +164,7 @@ Questa regola prevede che i visitatori con il relativo URL di provenienza corris
 
 ![](assets/int-channel1.png)
 
-Per ulteriori informazioni sui motivi per cui si verifica questo canale, consulta [Motivi per l’interno (aggiornamento sessione)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html) .
+Per ulteriori informazioni sui motivi per cui si verifica questo canale, consulta [Motivi per l’interno (aggiornamento sessione)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html#internal) .
 
 ### Direct {#direct}
 
