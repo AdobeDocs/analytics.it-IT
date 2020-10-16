@@ -1,8 +1,8 @@
 ---
-source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -54,4 +54,6 @@ Gli strumenti di analisi concedono l&#39;accesso alle funzioni che sono indipend
 
 ## Sviluppatori di profili di prodotto
 
-Gli sviluppatori sono simili agli utenti, tranne per il fatto che possono utilizzare l&#39;API del Experience Cloud  nell&#39;I/O  Adobe. Per ulteriori informazioni, consulta [Gestione sviluppatori](https://helpx.adobe.com/enterprise/using/manage-developers.html) nella guida utente di Enterprise.
+Gli sviluppatori sono simili agli utenti, tranne per il fatto che possono utilizzare l&#39;API del Experience Cloud  nell&#39;I/O  Adobe. Per ulteriori informazioni, consulta [Gestione sviluppatori](https://helpx.adobe.com/enterprise/using/manage-developers.html) nella guida utente di Enterprise. Se a un utente viene concesso l&#39;accesso Developer per qualsiasi profilo, può accedere a Dev Console (console.adobe.io) e modificare  integrazioni Adobe Analytics. Le chiamate API di Analytics e le risposte autorizzate per l&#39;utente dipenderanno dalle autorizzazioni di rete di tutti i profili in cui l&#39;utente dispone di Developer Access.
+
+Ad esempio, con le autorizzazioni di  Analysis Workspace Access, tutte le metriche, tutte le dimensioni e una suite di rapporti, l&#39;utente potrebbe effettuare chiamate API corrette all&#39;endpoint /reporting per qualsiasi rapporto all&#39;interno della suite. Con l&#39;aggiunta del rilevamento delle anomalie, i rapporti possono includere risposte più complete, aggiunte nei dati delle anomalie. Di regola, se un profilo concede l&#39;accesso a uno scenario all&#39;interno dell&#39;interfaccia Adobe Analytics , Developer Access sullo stesso profilo attiverà le chiamate e le risposte API corrispondenti.
