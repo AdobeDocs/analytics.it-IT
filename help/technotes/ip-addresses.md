@@ -2,9 +2,9 @@
 title: IP e domini utilizzati da  Adobe Analytics
 description: Se il firewall aziendale blocca indirizzi IP che provengono da  Adobe, utilizzate questo elenco per aggiornare le impostazioni del firewall.
 translation-type: tm+mt
-source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
+source-git-commit: a7955e7f6fd92fff7188711d8aef9526ebf3700f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 3%
 
 ---
@@ -67,12 +67,12 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | London | `66.235.148.0/23` |
 | London | `63.140.40.0/22` |
 | London | `208.67.41.0/24` |
-| on | `192.243.254.0/23` |
-| on | `192.243.244.0/22` |
-| on | `185.34.188.0/23` |
-| on | `130.248.152.0/21` |
-| on | `172.82.224.0/21` |
-| on | `172.82.232.0/21` |
+| London | `192.243.254.0/23` |
+| London | `192.243.244.0/22` |
+| London | `185.34.188.0/23` |
+| London | `130.248.152.0/21` |
+| London | `172.82.224.0/21` |
+| London | `172.82.232.0/21` |
 | Oregon | `192.243.240.0/22` |
 | Oregon | `192.243.232.0/21` |
 | Oregon | `192.243.224.0/21` |
@@ -86,7 +86,7 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Singapore | `63.140.44.0/22` |
 | Singapore | `208.67.43.0/24` |
 | Singapore | `172.82.240.0/22` |
-| Virginia | `172.82.246.0/23` |
+| Singapore | `172.82.246.0/23` |
 | Singapore | `172.82.248.0/21` |
 | San Jose | `66.117.20.0/24` |
 | San Jose | `66.235.132.0/22` |
@@ -144,3 +144,6 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Virginia | `34.234.106.101` |
 | Virginia | `52.22.231.198` |
 | Virginia | `54.157.65.136` |
+| Virginia | `3.213.168.181` |
+| Virginia | `3.219.249.186` |
+| Virginia | `34.227.41.189` |
