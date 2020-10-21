@@ -2,11 +2,11 @@
 description: 'null'
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ La prima volta che si apre un’Workspace i modelli sono disponibili nella barra
 
 Puoi usare questi modelli precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome.
 
-Di seguito è disponibile un’esercitazione video sui modelli [standard in  Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Video tutorial sui [modelli standard in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Di seguito sono riportati i modelli disponibili e le domande che ogni modello può rispondere.
 
@@ -65,7 +65,7 @@ Questi modelli standard illustrano la terminologia e i passaggi comuni per lo sv
 
 * **Esercitazione - analisi delle ricerche interne**: l’esercitazione di Internal Search (ricerca interna) consente di comprendere cosa cercano e non trovano i visitatori sul sito web o sull’app. L’analisi di questo tipo di dati può far emergere opportunità di ottimizzazione dei contenuti.
 
-* **Esercitazione di formazione - Analisi** di marketing: Questa esercitazione mostra come creare un&#39;analisi di marketing per i tuoi dirigenti, con informazioni sulle dimensioni e metriche personalizzate che sono importanti.
+* **Tutorial - Analisi di marketing**: questo tutorial mostra come creare un’analisi di marketing per i dirigenti che individui le dimensioni e le metriche personalizzate più importanti.
 
 ### Pubblicità
 
@@ -75,9 +75,9 @@ Questi modelli standard illustrano la terminologia e i passaggi comuni per lo sv
 
 * **Motori di ricerca a pagamento**: questo modello suddivide le tendenze pubblicitarie, le piattaforme di annunci, le parole chiave, gli account, le campagne e molto altro.
 
-### Commercio
+### Commerce
 
-* **Magento: Marketing e commercio**: Questo modello suddivide la conversione dell&#39;e-commerce in base all&#39;attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Per visualizzare un video introduttivo, vedi:
+* **Magento: Marketing e Commerce**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Per visualizzare un video introduttivo, vedi:
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
