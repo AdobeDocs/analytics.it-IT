@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: 'Crea progetto: panoramica'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,16 +35,16 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 |---|---|
 | [Crea nuovo progetto](/help/analyze/analysis-workspace/home.md) | Fai clic su questo collegamento per iniziare un nuovo progetto da zero. |
 | Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
-| Imposta come pagina di destinazione | Trasforma questa pagina nella pagina di destinazione di Workspace. |
-| Visualizza esercitazioni | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
+| Imposta come pagina di destinazione | Consente di impostare la pagina attuale come pagina di destinazione di Workspace. |
+| Visualizza esercitazioni | Consente di accedere ai [video tutorial su Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | Nome | Nome del progetto Workspace. |
 | Proprietario | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
-| Tipo | Indica se si tratta di un progetto Workspace o di una scorecard [](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/home.html)Mobile. |
-| Ruolo progetto | Indica se siete il proprietario, se potete modificare il progetto o se si tratta di un progetto duplicato. |
+| Tipo | Indica se si tratta di un progetto Workspace o di una [scheda di valutazione mobile](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/home.html). |
+| Ruolo progetto | Indica se sei il proprietario, se puoi modificare il progetto o se si tratta di un progetto duplicato. |
 | Tag | Tag applicati al progetto, nel modulo di gestione dei componenti o in **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
 | Ultima modifica | Data e ora dell’ultima volta che il progetto è stato modificato. |
-| Progetti preferiti | Per contrassegnare un progetto come preferito, aprite il progetto e fate clic sulla stella accanto al nome. L’elenco verrà visualizzato al successivo avvio di Workspace. |
-| Progetti visualizzati di frequente | Elenca tutti i progetti aperti frequentemente, per semplificare l&#39;accesso. |
+| Progetti preferiti | Per contrassegnare un progetto come preferito, aprilo e fai clic sulla stella accanto al nome del progetto. Al successivo avvio di Workspace, verrà elencato tra i progetti preferiti. |
+| Progetti visualizzati di frequente | Elenca i progetti che vengono aperti più spesso, per accedervi più facilmente. |
 
 ## Informazioni e impostazioni progetto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
