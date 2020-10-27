@@ -2,20 +2,20 @@
 description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL Column Settings]
 
-[!UICONTROL Column Settings] consente di configurare la formattazione delle colonne, alcune delle quali possono essere condizionali.
+Le [!UICONTROL Column Settings] consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 
-## Modificare [!UICONTROL Column Settings] {#edit-column-settings}
+## Modificare le [!UICONTROL Column Settings] {#edit-column-settings}
 
 Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona con l’ingranaggio nell’intestazione della colonna.
 
@@ -25,10 +25,10 @@ Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera
 
 | Elemento | Descrizione |
 | --- | --- |
-| **Totale celle** |  |
-| Mostra totali | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Riflette eventuali filtri applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None] (Includi nessuna). |
-| Mostra totale complessivo | Questo totale rappresenta tutti gli hit raccolti, talvolta denominati &#39;totale suite di rapporti&#39;. Quando un segmento viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli hit che corrispondono ai criteri del segmento. Il totale complessivo non è supportato per tabelle o suddivisioni con righe [](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md)statiche. |
-| **Celle tabella** |  |
+| **Celle totali** |  |
+| Mostra totali | Questo totale è in genere uguale o un sottoinsieme del [!UICONTROL Grand Total] (Totale complessivo). Riflette eventuali filtri applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None] (Includi nessuna). |
+| Mostra totale complessivo | Questo totale rappresenta tutti gli hit che sono stati raccolti, talvolta denominati “totale suite di rapporti”. Quando un segmento viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli hit che corrispondono ai criteri del segmento. Il totale complessivo non è supportato per tabelle o raggruppamenti con [righe statiche](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| **Celle della tabella** |  |
 | Numero | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
 | Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale di visualizzazioni di pagina per la colonna.  Nota: per garantire una maggiore precisione, è possibile visualizzare percentuali superiori al 100%. Inoltre, abbiamo spostato il limite superiore al 1000% per assicurare che le colonne possano crescere anche in larghezza. |
 | Anomalie | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
@@ -48,9 +48,9 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 | Elemento | Descrizione |
 | --- | --- |
 | Formattazione condizionale | Applica i seguenti colori alle celle sulla base dei valori dei dati: <ul><li>Verde: valori massimi</li><li>Giallo: valori intermedi</li><li>Rosso: valori minimi</li></ul> <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
-| Use Percent Limits (Usa limiti percentuali) | Modificate l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. Funziona sia per metriche basate unicamente sulle percentuali (come Bounce Rate, o frequenza di rimbalzo), sia per quelle basate su conteggio e percentuale (come Visualizzazioni di pagina). |
-| Generazione automatica | Calcola automaticamente i limiti superiore/medio/inferiore in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
-| Personalizzato | Assegnare manualmente i limiti superiore/medio/inferiore. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
+| Use Percent Limits (Usa limiti percentuali) | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. Funziona sia per metriche basate unicamente sulle percentuali (come Bounce Rate, o frequenza di rimbalzo), sia per quelle basate su conteggio e percentuale (come Visualizzazioni di pagina). |
+| Generazione automatica | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
+| Personalizzato | Assegna manualmente i limiti superiori/medi/inferiori. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
 
 ## Usa modello di attribuzione non predefinito {#attribution}
 
