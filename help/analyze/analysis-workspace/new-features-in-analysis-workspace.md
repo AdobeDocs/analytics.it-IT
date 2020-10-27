@@ -6,14 +6,14 @@ translation-type: tm+mt
 source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8021'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Scopri le novità di Analysis Workspace
 
-Per accedere alle note sulla versione di Adobe Experience Cloud nel suo complesso, visita [qui](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
+Per accedere alle note sulla versione di Adobe Experience Cloud nel suo complesso, consulta [questa pagina](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
 
 ## Ottobre 2020
 
@@ -21,8 +21,8 @@ Nuove funzionalità rilasciate a ottobre 2020.
 
 | Funzione | Descrizione |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** è stato aggiunto alle impostazioni della linea di tendenza della visualizzazione Linea. Also known as a rolling average, a moving average uses a specific number of data points (determined by a **[!UICONTROL Periods]** selection), averages them, and uses the average as a point in the line. |
-| [Pagina Guida prestazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti verso suggerimenti su come ottimizzarle. |
+| Visualizzazione Linee: [opzione media mobile della linea di tendenza](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) | L’opzione **[!UICONTROL Moving average]** è stata aggiunta alle impostazioni della linea di tendenza della visualizzazione Linee. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati da una selezione di **[!UICONTROL Periods]**), ne calcola la media e utilizza tale media come punto sulla linea. |
+| [Pagina della guida sulle prestazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti con suggerimenti su come ottimizzarle. |
 
 ## Settembre 2020
 
@@ -30,13 +30,13 @@ Nuove funzionalità rilasciate a settembre 2020.
 
 | Funzione | Descrizione |
 | --- | --- |
-| [possibilità di scaricare 50.000 elementi per una singola dimensione](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
-| [Miglioramenti alla visualizzazione Linea](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione Linee. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle linee sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
-| Nuovi intervalli di date | Abbiamo aggiunto 5 nuovi intervalli di date in modo da poter scegliere tra intervalli di date che non includono dati giornalieri parziali da oggi: Ultimi 7 giorni interi, Ultimi 14 giorni interi, Ultimi 30 giorni interi, Ultimi 60 giorni interi, Ultimi 90 giorni interi |
+| [Possibilità di scaricare 50.000 elementi per una singola dimensione](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
+| [Miglioramenti alla visualizzazione Linee](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione Linee. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle linee sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
+| Nuovi intervalli di date | Abbiamo aggiunto 5 nuovi intervalli di date per permetterti di scegliere tra intervalli di date che non includono dati del giorno parziali da oggi: Ultimi 7 giorni interi, Ultimi 14 giorni interi, Ultimi 30 giorni interi, Ultimi 60 giorni interi, Ultimi 90 giorni interi |
 
 ## Agosto 2020
 
-Nessuna nuova funzionalità rilasciata nell&#39;agosto 2020.
+Non è stata rilasciata nessuna nuova funzione ad agosto 2020.
 
 ## Luglio 2020
 
@@ -107,7 +107,7 @@ Nuova funzionalità rilasciata il 16 gennaio 2020.
 |--- |--- |
 | [Generatore di tabelle a forma libera](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Con il Generatore di tabelle abilitato, puoi trascinare e rilasciare più dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a esigenze aziendali più complesse. I dati non verranno aggiornati immediatamente. Al contrario, gli aggiornamenti si verificano dopo aver fatto clic su **[!UICONTROL Build]** Genera: sapendo quale tabella desideri creare, ciò ti permette di risparmiare tempo. Questa funzione offre inoltre:<ul><li>**Anteprima**: Puoi visualizzare in anteprima il formato di una tabella prima di trascorrere del tempo a eseguire il rendering dei dati reali.</li><li>**Impostazioni di riga flessibile e raggruppamento**: Puoi impostare i livelli di riga e raggruppamento per ogni riga delle dimensioni. In precedenza, Workspace impostava valori predefiniti che non potevano essere modificati fino a quando non venivano restituiti i dati.</li><li>**Raggruppamento per posizione**: Puoi impostare le righe delle dimensioni in modo da effettuare sempre il _raggruppamento per posizione_ anziché _per elemento specifico_ (impostazione predefinita).</li><li>**Ordinamento manuale delle righe statiche**: Puoi ordinare manualmente le righe statiche in modo che vengano visualizzate esattamente come necessario. In precedenza, le righe statiche potevano essere ordinate solo in base a una colonna metrica o in ordine alfabetico.</li></ul> |
 
-## ottobre 2019
+## Ottobre 2019
 
 Miglioramenti rilasciati il 10 ottobre 2019.
 
@@ -123,7 +123,7 @@ Miglioramento rilasciato l&#39;8 agosto 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
-| limite di elementi per filtro a discesa aumentato da 50 a 200 | Il limite di elementi che possono essere inseriti in un filtro a discesa è stato aumentato da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
+| Limite di elementi per filtro a discesa aumentato da 50 a 200 | Il limite di elementi che possono essere inseriti in un filtro a discesa è stato aumentato da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
 
 ## Luglio 2019
 
@@ -233,7 +233,7 @@ Nuove funzionalità e ottimizzazioni rilasciate il 13 settembre 2018.
  </tbody> 
 </table>
 
-## agosto 2018
+## Agosto 2018
 
 Nuove funzionalità e ottimizzazioni rilasciate il 9 agosto 2018.
 
@@ -485,7 +485,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nuove <a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > opzioni filtro </a> per gli elementi dimensionali nelle tabelle a forma libera </p> </td> 
-   <td colname="col2"> <p>Sono state introdotte le seguenti opzioni di filtro (avanzate) per gli elementi dimensionali (in aggiunta alle opzioni esistenti “contiene” e “non contiene”): </p> 
+   <td colname="col2"> <p>Sono state introdotte le seguenti opzioni di filtro (avanzate) per gli elementi dimensionali (in aggiunta alle opzioni esistenti “contains” e “non contiene”): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contiene tutti i termini </li> 
      <li id="li_2AB564F917844F82839A91949D0B684A">Contiene qualsiasi termine </li> 
@@ -594,7 +594,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Aggiunta del numero evento (Event#) ai nomi degli eventi nella barra a sinistra </a> </p> </td> 
-   <td colname="col2"> <p>Prima della versione di ottobre 2017 era possibile aggiungere ai nomi delle dimensioni i numeri relativi a variabili (evar#) e proprietà (prop#) ed eseguire delle ricerche in base a tali numeri. La stessa funzione è ora disponibile per gli eventi. </p> <p>Esempio: “Sottoscrizioni” ora viene visualizzato nella barra a sinistra come “Sottoscrizioni (evento1)”. </p> <p>Nota bene: </p> 
+   <td colname="col2"> <p>Prima della versione di ottobre 2017 era possibile aggiungere ai nomi delle dimensioni i numeri relativi a variabili (evar#) e proprietà (prop#) ed eseguire delle ricerche in base a tali numeri. La stessa funzione è ora disponibile per gli eventi. </p> <p>Esempio: “Sottoscrizioni” ora viene visualizzato nella barra a sinistra come “Sottoscrizioni (event1)”. </p> <p>Nota bene: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">Il numero dell’evento non compare nella tabella (per contenere la lunghezza dei titoli). </li> 
      <li id="li_D742D04470244633900335B7F5A79FD9">Per coerenza, nelle tabelle non vengono più riportati i numeri relativi a proprietà e variabili (prop ed eVar). </li> 
@@ -798,7 +798,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Modifiche al <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendario </a> </b> </td> 
+   <td colname="col1"> Modifiche al <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendario </a></b> </td> 
    <td colname="col2"> Modifiche al calendario per risolvere incongruenze con quello di Reports &amp; Analytics: 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">Fai un primo clic per iniziare la selezione di un intervallo di date. Evidenzia quindi l’intervallo desiderato in una direzione e fai di nuovo clic per selezionare la data di fine. Se tieni premuto il tasto Maiusc (o usi il pulsante destro del mouse) al momento del clic sulla prima data, questa viene aggiunta all’intervallo. </li> 
@@ -837,7 +837,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nuovo <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > tasti di scelta rapida </a></b> </p> </td> 
+   <td colname="col1"> <p>Nuovo <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Tasti di scelta rapida </a></b> </p> </td> 
    <td colname="col2"> <p>Sono stati aggiunti i seguenti tasti di scelta rapida: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Maiusc + 1 = vai al riquadro Panels (Pannelli) </li> 
@@ -907,7 +907,7 @@ Nuova funzionalità rilasciata il 19 gennaio 2017:
    <td colname="col2"> <p>Ora puoi inviare e scaricare un PDF in Workspace senza dover salvare il progetto. Il nome del PDF corrisponde al nome corrente del progetto. Il PDF scaricato include le modifiche non salvate del progetto. Non è possibile pianificare progetti non salvati. (È inoltre possibile inviare e scaricare file CSV non salvati, ma non è possibile pianificarli.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >Condivisione automatica dei componenti del progetto</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Condivisione automatica dei componenti del progetto</a> </p> </td> 
    <td colname="col2"> <p>Ora puoi condividere automaticamente i componenti di un progetto (segmenti, metriche calcolate e intervalli di date) con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Components nell’interfaccia Workspace del destinatario. </p> </td> 
   </tr> 
   <tr> 
@@ -986,7 +986,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Rilevamento delle anomalie e Analisi contributi </a></b> </td> 
-   <td colname="col2"> <p>Consentono di verificare se le modifiche dei dati con tendenze sono significative e di conoscerne le cause. </p> <p>Rilevamento delle anomalie e Analisi del contributo sono adesso flussi di lavoro principali in Analysis Workspace. </p> <p>Importante: Analisi contributi è disponibile soltanto per i clienti Premium di Adobe Analytics. </p> <p>È possibile: </p> <p> </p> 
+   <td colname="col2"> <p>Consentono di verificare se le modifiche dei dati con tendenze sono significative e di conoscerne le cause. </p> <p>Rilevamento delle anomalie e Analisi del contributo sono adesso flussi di lavoro principali in Analysis Workspace. </p> <p>Importante: Analisi contributi è disponibile soltanto per i clienti Adobe Analytics Premium. </p> <p>È possibile: </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">Rilevare automaticamente anomalie di dati statisticamente rilevanti. </li> 
      <li id="li_2FB3D94DEEF14DD5ADA6AD69E15F243D">Eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporarla nel progetto Analysis Workspace. </li> 
