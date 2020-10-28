@@ -5,9 +5,9 @@ user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Utilizza feed di dati per ricevere un’esportazione oraria o giornaliera di dati non elaborati. Utilizza Data Warehouse per recuperare un output di dati in un foglio di calcolo.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '283'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 98%
    + [Pianificazione di una richiesta ricorrente](data-warehouse/dw-schedule-recurring.md)
    + [Gestire le richieste di Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Componenti supportati in Data Warehouse](data-warehouse/component-support.md)
-   + [Dimensioni incompatibili con i segmenti di Data Warehouse](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Domande frequenti su Data Warehouse](data-warehouse/faq.md)
    + [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](data-warehouse/data-warehouse-bp.md)
 + FTP e SFTP {#ftp-and-sftp}
