@@ -2,9 +2,9 @@
 title: Analytics tra dispositivi
 description: Modificate i dati da dispositivo a persona focalizzata, impilando insieme i dati del dispositivo.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '659'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ Con CDA potete rispondere a domande come:
 * Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all’altro? Dove decidono di lasciar perdere? Dove hanno successo?
 * In che modo gli utenti con più dispositivi differiscono da quelli con un solo dispositivo?
 
-Quando i dispositivi vengono cuciti, la persistenza variabile viene mantenuta su tutti i dispositivi. Ad esempio, un utente visita prima il sito tramite un annuncio pubblicitario sul computer desktop. L’utente trova l’app mobile, la installa e alla fine effettua un acquisto sul proprio dispositivo mobile. Con Analytics multi-dispositivo, i ricavi possono essere attribuiti all&#39;annuncio che hanno fatto clic sul computer desktop.
+Quando i dispositivi vengono cuciti, la persistenza variabile viene mantenuta su tutti i dispositivi. Ad esempio, un utente visita prima il sito tramite un annuncio pubblicitario sul computer desktop. L’utente trova l’app mobile, la installa e alla fine effettua un acquisto sul proprio dispositivo mobile. Con Analytics multi-dispositivo, puoi attribuire le entrate sul dispositivo mobile all&#39;annuncio che hanno fatto clic sul loro computer desktop.
 
 Grazie a uno spirito di collaborazione e trasparenza, vogliamo che i nostri clienti siano consapevoli del nostro utilizzo di Microsoft Azure in associazione con Analytics multi-dispositivo.  Adobe utilizza Azure per memorizzare i dati del grafico del dispositivo e per eseguire l&#39;unione tra dispositivi. Di conseguenza,  i dati Adobe Analytics vengono trasmessi avanti e indietro tra  centro  elaborazione dati e  istanze di Microsoft Azure con provisioning Adobe Adobe.
 
