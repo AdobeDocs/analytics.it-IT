@@ -2,7 +2,7 @@
 title: IP e domini utilizzati da  Adobe Analytics
 description: Se il firewall aziendale blocca indirizzi IP che provengono da  Adobe, utilizzate questo elenco per aggiornare le impostazioni del firewall.
 translation-type: tm+mt
-source-git-commit: 891bc69f924b95cfe0bba2797319b59e1874dfd1
+source-git-commit: 5115fb38815997842fcf6131755b9a0fc8f51fc9
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 3%
@@ -126,15 +126,15 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | India | `13.232.177.101` |
 | India | `13.235.4.163` |
 | India | `3.6.119.69` |
-| Irlanda | `52.17.94.37` |
-| Irlanda | `52.49.253.16` |
-| Irlanda | `52.51.63.15` |
+| Irlanda | `18.202.158.78` |
+| Irlanda | `54.72.205.114` |
+| Irlanda | `54.78.36.71` |
 | Oregon | `44.233.255.254` |
 | Oregon | `44.237.54.118` |
 | Oregon | `44.238.157.95` |
-| Singapore | `13.228.34.224` |
-| Singapore | `18.136.20.161` |
-| Singapore | `52.74.162.152` |
+| Singapore | `52.220.116.94` |
+| Singapore | `52.76.68.91` |
+| Singapore | `54.179.114.68` |
 | Tokyo | `13.112.72.86` |
 | Tokyo | `18.178.74.225` |
 | Tokyo | `18.179.88.228` |
