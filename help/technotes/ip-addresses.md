@@ -2,7 +2,7 @@
 title: IP e domini utilizzati da  Adobe Analytics
 description: Se il firewall aziendale blocca indirizzi IP che provengono da  Adobe, utilizzate questo elenco per aggiornare le impostazioni del firewall.
 translation-type: tm+mt
-source-git-commit: 5115fb38815997842fcf6131755b9a0fc8f51fc9
+source-git-commit: 6258154ab299d6f01ffcab866a5f9677778025da
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 3%
@@ -123,9 +123,9 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Francia | `15.237.76.117` |
 | Francia | `15.237.136.106` |
 | Francia | `35.181.18.61` |
-| India | `13.232.177.101` |
-| India | `13.235.4.163` |
-| India | `3.6.119.69` |
+| India | `65.0.114.116` |
+| India | `65.0.115.179` |
+| India | `65.0.25.111` |
 | Irlanda | `18.202.158.78` |
 | Irlanda | `54.72.205.114` |
 | Irlanda | `54.78.36.71` |
@@ -135,9 +135,9 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Singapore | `52.220.116.94` |
 | Singapore | `52.76.68.91` |
 | Singapore | `54.179.114.68` |
-| Tokyo | `13.112.72.86` |
-| Tokyo | `18.178.74.225` |
-| Tokyo | `18.179.88.228` |
+| Tokyo | `18.182.161.178` |
+| Tokyo | `54.168.58.167` |
+| Tokyo | `54.178.61.109` |
 | Virginia | `3.213.168.181` |
 | Virginia | `3.219.249.186` |
 | Virginia | `3.220.129.153` |
