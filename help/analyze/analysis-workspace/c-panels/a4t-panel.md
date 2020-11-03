@@ -2,10 +2,10 @@
 description: Il pannello Analytics for Target (A4T) ti consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace.
 title: Pannello Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Puoi configurare il pannello A4T usando le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 |---|---|
-| Target Attività | Seleziona da un elenco di attività di Target oppure trascina e rilascia un’attività dalla barra a sinistra.<br>**Nota:** l’elenco è composto dagli ultimi 6 mesi di attività che hanno avuto almeno 1 hit. Se nell’elenco non viene visualizzata un’attività, potrebbe essere più vecchia di 6 mesi. Può essere comunque aggiunta dalla barra a sinistra, che ha un periodo di lookback fino a 18 mesi. |
+| Target Attività | Seleziona da un elenco di attività di Target oppure trascina e rilascia un’attività dalla barra a sinistra. Nota: l’elenco è composto dagli ultimi 6 mesi di attività che hanno avuto almeno 1 hit. Se nell’elenco non viene visualizzata un’attività, potrebbe essere più vecchia di 6 mesi. Può essere comunque aggiunta dalla barra a sinistra, che ha un periodo di lookback fino a 18 mesi. |
 | Control Experience | Seleziona la tua esperienza di controllo. Se necessario, puoi modificarla nel menu a discesa. |
 | Normalizing metric | Scegli tra Unique Visitors, Visits, o Activity Impressions. L’opzione Unique visitors è consigliata per la maggior parte dei casi di utilizzo dell’analisi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità. |
 | Success metrics | Seleziona fino a 3 eventi di successo standard (non calcolati) dai menu a discesa, oppure trascina e rilascia le metriche dalla barra a sinistra. Ogni metrica avrà una tabella e una visualizzazione dedicate nel pannello di cui è stato effettuato il rendering. |
@@ -44,11 +44,11 @@ Ogni tabella a forma libera mostra le seguenti colonne di metriche:
 | Normalizing metrics | Visitatori, visite o impressioni di attività univoche. |
 | Success metric | La metrica selezionata nel generatore |
 | Conversion rate | Metrica di successo/Metrica di Normalizzazione |
-| Incremento | Confronta il tasso di conversione per ogni esperienza rispetto all’esperienza di controllo.<br>**Nota:** Incremento è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni. |
-| Lift (Lower) | Rappresenta l’incremento peggiore che un’esperienza diversa potrebbe avere sul controllo. |
-| Lift (Mid) | Rappresenta l’incremento intermedio che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%. Corrisponde a “Lift” in Reports &amp; Analytics. |
-| Lift (Upper) | Rappresenta l’incremento migliore che un’esperienza diversa potrebbe avere sul controllo. |
-| Confidence | Il test t di Student calcola il livello di affidabilità, che indica la probabilità che i risultati vengano duplicati se il test viene eseguito di nuovo. Alla metrica è stato applicato un intervallo di formattazione condizionale fisso del 75%/85%/95%. Questa formattazione può essere personalizzata, se necessario, in Column settings. <br>**Nota:** Affidabilità è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni. |
+| Incremento | Confronta il tasso di conversione per ogni esperienza rispetto all’esperienza di controllo. Nota: Incremento è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni. |
+| Lift (Lower) | Rappresenta l&#39;incremento peggiore che un&#39;esperienza di variante potrebbe avere sul controllo, a un intervallo di confidenza del 95%.<br>Calcolo: (x/y ± 1,96 std_err(x,y) / (x_control/y_control ∓ 1,96 std_err(x_control,y_control))). Qui std_err(x,y) è sqrt(xx/y - (x/y)^2), dove il xx indica la somma dei quadrati. |
+| Lift (Mid) | Rappresenta l’incremento intermedio che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%. Corrisponde a “Lift” in Reports &amp; Analytics.<br>Calcolo: (x/y)/(x_control/y_control) - 1 |
+| Lift (Upper) | Rappresenta l&#39;incremento migliore che un&#39;esperienza di variante potrebbe avere sul controllo, a un intervallo di confidenza del 95%.<br>Calcolo: vedere Lift (Lower). |
+| Confidence | Il test t di Student calcola il livello di affidabilità, che indica la probabilità che i risultati vengano duplicati se il test viene eseguito di nuovo. Alla metrica è stato applicato un intervallo di formattazione condizionale fisso del 75%/85%/95%. Questa formattazione può essere personalizzata, se necessario, in Column settings. Nota: Affidabilità è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni.<br>Calcolo: Applicate un test a 2 code con y+y_control-2 gradi di libertà per trovare il valore p, se x/y è uguale a x_control/y_control. Calcola il punteggio t, dove lo store è sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Restituire 1-p come la confidenza che sono diversi. |
 
 Come per qualsiasi pannello in Analysis Workspace, puoi continuare la tua analisi aggiungendo ulteriori tabelle e [visualizzazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) che ti aiuteranno ad analizzare le tue attività Adobe Target.
 
