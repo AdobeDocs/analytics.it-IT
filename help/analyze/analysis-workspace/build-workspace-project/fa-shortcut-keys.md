@@ -1,21 +1,19 @@
 ---
 description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
 keywords: Analysis Workspace
-title: Tasti di scelta rapida disponibili in Analysis Workspace
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: Tasti di scelta rapida
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# Tasti di scelta rapida disponibili in Analysis Workspace
+# Tasti di scelta rapida
 
-I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la fluidità della navigazione, dell’analisi e della democratizzazione.
+I tasti di scelta rapida (scelte rapide da tastiera) sono disponibili in  Analysis Workspace per la navigazione, l&#39;analisi, l&#39;aggiunta di pannelli e visualizzazioni e la democratizzazione (condivisione) senza soluzione di continuità.
 
 Nota:
 * `Ctrl` = Windows e `Command` = Mac
