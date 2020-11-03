@@ -2,9 +2,9 @@
 title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Aggiornamenti rilevanti dell’archivio della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 12 febbraio 2020 | Aggiornamenti e riorganizzazione della documentazione di [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | 7 febbraio 2020 | Aggiornamenti a [Configurare Cross-Device Analytics](/help/components/cda/setup.md) e alle [Domande frequenti](/help/components/cda/faq.md). |
 | 4 febbraio 2020 | Riscrittura completa della [Guida utente all’implementazione](/help/implement/home.md). |
-| 22 gennaio 2020 | È stata aggiornata la pagina relativa alla tabella a mano libera per includere informazioni sul nuovo [strumento per la generazione di tabelle a mano libera](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 22 gennaio 2020 | È stata aggiornata la pagina relativa alla tabella a mano libera per includere informazioni sul nuovo [strumento per la generazione di tabelle a mano libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | 13 gennaio 2020 | Sono stati aggiunti [cookie di Adobe Analytics e del browser](/help/technotes/cookies.md). |
 | 29 novembre 2019 | Revisione della [Documentazione del feed dati](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 novembre 2019 | Nuovo argomento su [Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP](/help/admin/company/login-restrictions-eol.md). |
