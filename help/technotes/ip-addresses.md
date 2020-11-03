@@ -2,9 +2,9 @@
 title: IP e domini utilizzati da  Adobe Analytics
 description: Se il firewall aziendale blocca indirizzi IP che provengono da  Adobe, utilizzate questo elenco per aggiornare le impostazioni del firewall.
 translation-type: tm+mt
-source-git-commit: 6258154ab299d6f01ffcab866a5f9677778025da
+source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 3%
 
 ---
@@ -120,6 +120,8 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Australia | `13.238.77.77` |
 | Australia | `52.62.21.192` |
 | Australia | `54.66.152.159` |
+| Cina | `52.81.111.133` |
+| Cina | `140.179.22.22` |
 | Francia | `15.237.76.117` |
 | Francia | `15.237.136.106` |
 | Francia | `35.181.18.61` |
