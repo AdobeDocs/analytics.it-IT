@@ -3,7 +3,7 @@ description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni d
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.c
 | [Anello](/help/analyze/analysis-workspace/visualizations/donut.md) | Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. |
 | [Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito. |
 | [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Mostra i percorsi dei clienti attraverso i siti web e le app. |
-| [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. |
+| [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. |
 | [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. |
 | [Barre orizzontali](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
 | [Linee](/help/analyze/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale. |
