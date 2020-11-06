@@ -2,7 +2,7 @@
 title: Utilizzo di dati XDM con Analytics
 description: 'Panoramica dell''utilizzo di dati XDM da  Experience Platform in  Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 4%
@@ -21,11 +21,11 @@ Analytics raccoglie i dati XDM tramite due metodi:
 
 ## Mappatura automatica
 
-[La mappatura](xdm-manual.md) automatica si basa su uno [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) predefinito in XDM che popola automaticamente gli oggetti JSON inclusi nella raccolta dati Analytics tipica. Le variabili di Analytics mappate automaticamente da XDM alle suite di rapporti configurate non richiedono il supporto per gli sviluppatori.
+La mappatura automatica si basa su uno [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) predefinito in XDM che popola automaticamente gli oggetti JSON inclusi nella raccolta dati Analytics tipica. Le variabili di Analytics mappate automaticamente da XDM alle suite di rapporti configurate non richiedono il supporto per gli sviluppatori.
 
 ## Mappatura manuale
 
-La mappatura manuale dei dati XDM su Analytics si basa sulle variabili dei dati [contestuali di](../vars/page-vars/contextdata.md) Analytics. Queste variabili vengono inserite in oggetti JSON che corrispondono agli schemi applicabili. In genere, il team di sviluppo aggiunge i dati contestuali al momento dell’implementazione, quindi gli amministratori impostano le regole [di](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) elaborazione per applicare tali dati a specifiche suite di rapporti.
+[La mappatura manuale dei dati XDM su Analytics](xdm-manual.md) si basa sulle variabili dei dati [contestuali di](../vars/page-vars/contextdata.md) Analytics. Queste variabili vengono inserite in oggetti JSON che corrispondono agli schemi applicabili. In genere, il team di sviluppo aggiunge i dati contestuali al momento dell’implementazione, quindi gli amministratori impostano le regole [di](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) elaborazione per applicare tali dati a specifiche suite di rapporti.
 
 ## Configurazione
 
