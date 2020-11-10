@@ -1,11 +1,11 @@
 ---
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Visualizzazioni
 
 * Le visualizzazioni che sfruttano la segmentazione, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram], non possono accettare metriche calcolate come input.
-* [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page] , non possono essere utilizzate in Flusso.
+* [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
 * [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
 ## Pannelli
@@ -35,7 +35,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Componenti > Segmenti
 
 * Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* I segmenti ad hoc creati nel [pannello a discesa](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) non vengono visualizzati nella barra a sinistra di Workspace o nel gestore dei componenti del segmento, a meno che non vengano resi pubblici. A tale scopo, è possibile modificare il segmento e selezionarlo **[!UICONTROL Make this segment public]**.
+* I segmenti ad hoc creati nell’[area di rilascio del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it-IT) non vengono visualizzati nella barra a sinistra di Workspace o nel Gestore dei componenti del segmento, a meno che non vengano resi pubblici. Per rendere pubblico un segmento occorre modificarlo e selezionare **[!UICONTROL Make this segment public]**.
 
 ## Componenti > Metriche calcolate
 
