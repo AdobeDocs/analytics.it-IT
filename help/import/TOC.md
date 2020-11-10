@@ -5,10 +5,10 @@ user-guide-title: Guida all’importazione di Analytics
 breadcrumb-title: Guida all’importazione
 user-guide-description: 'Trasferisci i dati in Analytics da sorgenti esterne, sia in massa che in tempo reale. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 99%
+source-wordcount: '525'
+ht-degree: 97%
 
 ---
 
@@ -128,3 +128,5 @@ ht-degree: 99%
       + [Variabili dell&#39;integrazione di Analytics](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Integrazione Silverpop](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Codice plug-in di Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ Casi di utilizzo importazione {#use-cases}
+   + [Importa metriche di ricerca pagate tramite Origini dati](use-cases/paid-search-metrics.md)
