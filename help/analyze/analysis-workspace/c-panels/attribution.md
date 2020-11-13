@@ -1,23 +1,23 @@
 ---
 title: Pannello Attribution
 description: Come utilizzare e interpretare il pannello Attribution in Analysis Workspace.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 66%
 
 ---
 
 
 # Pannello Attribution
 
-Il pannello Attribution permette di strutturare facilmente un’analisi confrontando diversi modelli di attribuzione. È una funzione in [Attribution IQ](../attribution/overview.md) che offre un’area di lavoro dedicata per utilizzare e confrontare modelli di attribuzione.
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. È una funzione in [Attribution IQ](../attribution/overview.md) che offre un’area di lavoro dedicata per utilizzare e confrontare modelli di attribuzione.
 
 ## Creare un pannello di attribuzione
 
 1. Fai clic sull’icona del pannello a sinistra.
-1. Trascina il pannello Attribution nel progetto di Analysis Workspace.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![Nuovo pannello di attribuzione](assets/Attribution_Panel_1.png)
 
@@ -34,9 +34,10 @@ Il pannello Attribution permette di strutturare facilmente un’analisi confront
 ## Visualizzazioni di Attribution
 
 * **Metrica totale**: il numero totale di conversioni che si sono verificate nell’intervallo di tempo di reporting. Queste sono le conversioni attribuite nella dimensione selezionata.
-* **Grafico a barre di confronto attribuzione metriche**: confronta visivamente le conversioni attribuite in ciascun elemento dimensionale dalla dimensione selezionata. Ogni colore della barra rappresenta un modello di attribuzione distinto.
-* **Tabella a forma libera di attribuzione metriche**: mostra gli stessi dati del grafico a barre rappresentati in una tabella. Se si selezionano colonne o righe diverse in questa tabella, il grafico a barre e diverse altre visualizzazioni nel pannello vengono filtrate. Questa tabella funziona come qualsiasi altra tabella a forma libera in Workspace e ti consente di aggiungere componenti quali metriche, segmenti o raggruppamenti.
-* **Grafico di sovrapposizione dimensioni**: un diagramma di Venn che mostra i primi tre elementi dimensionali e la frequenza con cui partecipano congiuntamente a una conversione. Ad esempio, le dimensioni della sovrapposizione a bolla indicano quanto spesso si è verificata una conversione quando un visitatore è stato esposto a entrambi gli elementi dimensionali. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
-* **Marketing Touchpoints Per Journey**: un istogramma che indica il numero di punti di contatto di un visitatore nell’intervallo di lookback. Questa visualizzazione è utile per vedere l’impatto dell’attribuzione a più contatti per un set di dati. Se quasi tutti i visitatori dispongono di un solo punto di contatto, è probabile che i diversi modelli di attribuzione mostrino dati simili.
-* **Dettagli delle prestazioni dei canali di marketing**: ti consente di confrontare visivamente fino a tre modelli di attribuzione mediante un grafico a dispersione.
-* **Flusso dei canali di marketing**: ti consente di vedere con quali canali si verificano più comunemente interazioni e in quale ordine lungo il percorso di un visitatore.
+* **Barra** di confronto attribuzione: Confronta visivamente le conversioni attribuite tra ciascun elemento della dimensione dalla dimensione selezionata. Ogni colore della barra rappresenta un modello di attribuzione distinto.
+* **Tabella** Confronto Attribuzione: Mostra gli stessi dati del grafico a barre, rappresentato come tabella. Se si selezionano colonne o righe diverse in questa tabella, il grafico a barre e diverse altre visualizzazioni nel pannello vengono filtrate. Questa tabella funziona come qualsiasi altra tabella a forma libera in Workspace e ti consente di aggiungere componenti quali metriche, segmenti o raggruppamenti.
+* **Diagramma** sovrapposizione: Un diagramma di Venn che mostra i tre elementi principali e la frequenza con cui partecipano congiuntamente a una conversione. Ad esempio, le dimensioni della sovrapposizione a bolla indicano quanto spesso si è verificata una conversione quando un visitatore è stato esposto a entrambi gli elementi dimensionali. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
+* **Dettagli** prestazioni: Consente di confrontare visivamente fino a tre modelli di attribuzione utilizzando un grafico a dispersione.
+* **Prestazioni** con tendenze: Mostra la tendenza delle conversioni attribuite per l’elemento della dimensione superiore. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
+* **Flusso**: Consente di vedere con quali canali si interagisce più comunemente, e in quale ordine nel percorso di un visitatore.
+
