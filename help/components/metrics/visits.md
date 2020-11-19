@@ -2,9 +2,9 @@
 title: Visite
 description: Una sequenza di pagine visualizzate in una sessione.
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '654'
 ht-degree: 1%
 
 ---
@@ -55,3 +55,7 @@ Una visita viene conteggiata per ogni periodo di tempo. Ad esempio, se un visita
 ## Visite su una dimensione rispetto alle visite totali
 
 Le visite nel contesto di una dimensione (ad esempio, [Canale](../dimensions/marketing-channel.md)marketing) mostrano il numero di visite che contenevano un particolare elemento dimensione in qualsiasi momento. Nella stessa visita esistono spesso più elementi dimensionali con diversi hit. Il tentativo di sommare le visite che segnalano gli elementi dimensionali in genere non ha senso.
+
+## Visita tutti i visitatori nella Data Warehouse
+
+La metrica &quot;Visite - Tutti i visitatori&quot; è disponibile in Data Warehouse oltre alla metrica &quot;Visite&quot;. La metrica &quot;Visite - Tutti i visitatori&quot; è paragonabile alla metrica &quot;Visite&quot; in altri strumenti Analytics. La metrica &quot;Visite&quot; nella Data Warehouse esclude i visitatori che non dispongono di cookie persistenti.  Adobe consiglia di utilizzare &#39;Visite - Tutti i visitatori&#39; nelle richieste di Data Warehouse in cui le visite sono desiderate come metrica.
