@@ -1,11 +1,11 @@
 ---
 description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità di Analysis Workspace
-translation-type: ht
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 82%
 
 ---
 
@@ -22,11 +22,20 @@ Per accessibilità si intendono i prodotti utilizzabili da persone con disabilit
 
 La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il basso e da sinistra a destra. I seguenti elementi di navigazione facilitano l’accessibilità:
 
-* Il tasto `F6` abilita scelte rapide per punti di riferimento
-* Il tasto `Tab` permette di spostarsi tra i singoli elementi.
+* Il tasto `Tab` abilita scelte rapide per punti di riferimento, spostandosi tra le sezioni più grandi di Workspace. Nella barra a sinistra `Tab` è inoltre possibile passare da un’opzione trascinabile all’altra.
+* Lo `left/right arrows` spostamento tra i singoli elementi dopo `Tab` averlo evidenziato.
+* Consente di `F6` passare al primo pannello del progetto e tra le visualizzazioni all’interno di tale pannello. Quindi si sposta nel pannello successivo del progetto e si ripete.
 * Gli indicatori di focus vengono applicati in modo che gli utenti vedenti che utilizzano la tastiera abbiano un’indicazione chiara dell’elemento dell’interfaccia attualmente attivo. L’indicatore è un bordo blu intorno all’elemento selezionato.
 
    ![Indicatore di focus](assets/focus-indicator.png)
+
+### Navigazione da tastiera per la barra dei menu
+
+1. Tab finché non viene raggiunta la barra dei menu.
+1. Utilizzate i tasti freccia sinistra/destra per passare al menu desiderato.
+1. Premere `Enter` per selezionare il menu e visualizzarne le opzioni.
+1. Utilizzate i tasti freccia su/giù per passare all&#39;opzione di menu desiderata.
+1. Premere `Enter` per selezionare l&#39;opzione.
 
 ### Navigazione tramite tastiera per interazioni con trascinamento
 
