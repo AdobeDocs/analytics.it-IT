@@ -2,10 +2,10 @@
 title: Totali delle metriche calcolate
 description: Scopri le differenze tra i totali delle metriche calcolate negli strumenti di Analytics
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: bbe2b96960fd5aa6df331a77fdf5b04a769b6e84
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
@@ -40,3 +40,6 @@ Quando i totali vengono visualizzati, sono spesso calcolati sul lato server, il 
 
 * Quando si utilizzano righe [](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) statiche nelle tabelle a forma libera e l&#39; **[!UICONTROL Show as sum of current rows]** opzione (predefinita) è selezionata.
 * Nella visualizzazione [Anello](/help/analyze/analysis-workspace/visualizations/donut.md), i numeri possono raggiungere il 100%.
+
+Per ulteriori informazioni sui totali in  Analysis Workspace, visita [Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total).
+
