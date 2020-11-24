@@ -2,7 +2,7 @@
 description: Un pannello è un insieme di tabelle e visualizzazioni
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 7%
@@ -84,7 +84,11 @@ Per creare filtri a discesa:
 
 ## Menu di scelta rapida {#right-click}
 
-Per aggiungere altre funzionalità a un pannello, fate clic con il pulsante destro del mouse sull’intestazione del pannello. Sono disponibili le seguenti impostazioni:
+Per aggiungere altre funzionalità a un pannello, fate clic con il pulsante destro del mouse sull’intestazione del pannello.
+
+![](assets/right-click-menu.png)
+
+Sono disponibili le seguenti impostazioni:
 
 | Impostazione | Descrizione |
 | --- | --- |
