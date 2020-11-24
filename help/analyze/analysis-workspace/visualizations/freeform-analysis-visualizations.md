@@ -3,9 +3,9 @@ description: Rappresenta visivamente i dati con le visualizzazioni.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 41%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 41%
 
 Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. La maggior parte dei tipi di visualizzazione ti sarà familiare se utilizzi  Adobe Analytics. Tuttavia, Analysis Workspace consente di configurare le impostazioni di visualizzazione e offre molti tipi di visualizzazioni nuovi o unici, con funzionalità interattive.
 
-Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace, da un pannello [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)vuoto o dal menu di scelta rapida del flusso di lavoro. In  Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
+Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace, da un pannello [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)vuoto o dal menu di scelta rapida del flusso di lavoro.
+
+![](assets/viz-rail.png)
+
+In  Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
 | Nome della visualizzazione | Descrizione |
 | --- | --- |
@@ -40,20 +44,22 @@ Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace,
 
 ## Impostazioni {#settings}
 
-Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per accedere [!UICONTROL Visualization Settings], fate clic sull&#39;icona [!UICONTROL Visualization Settings] a forma di ingranaggio. Alcune impostazioni includono:
+Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per accedere [!UICONTROL Visualization Settings], fate clic sull&#39;icona [!UICONTROL Visualization Settings] a forma di ingranaggio.
+
+![](assets/settings.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
 | Tipo di visualizzazione | Modificare il tipo di elemento visivo utilizzato per rappresentare i dati. |
-| Granularity (Granularità) | Per le visualizzazioni con tendenze, puoi modificare la granularità dell’ora (giorno, settimana, mese, ecc.) da questo menu a discesa. Questa modifica verrà applicata anche alla tabella dell&#39;origine dati. |
+| Granularity (Granularità) | Per le visualizzazioni con tendenze, puoi modificare la granularità dell’ora (giorno, settimana, mese, ecc.) da questo menu a discesa. Questa modifica si applica anche alla tabella dell&#39;origine dati. |
 | Percentuali | Visualizza i valori in percentuale. |
-| Sovrapposizione 100% | Questa impostazione sulle visualizzazioni sovrapposte di area, sovrapposte a barre o sovrapposte a barre orizzontali trasforma il grafico in una visualizzazione &quot;impilata al 100%&quot;. Esempio: ![](assets/stacked_100_percent.png) |
+| Sovrapposizione 100% | Questa impostazione sulle visualizzazioni sovrapposte di area, sovrapposte a barre o sovrapposte a barre orizzontali trasforma il grafico in una visualizzazione &quot;impilata al 100%&quot;. Esempio: ![Stacked 100%](assets/stacked_100_percent.png) |
 | Visualizzazione legenda | Consente di nascondere il testo della legenda dettagliato per la visualizzazione Summary Number (Numero riepilogo)/Summary Change (Modifica riepilogo). |
 | Limite massimo elementi | Consente di limitare il numero di elementi presentati in una visualizzazione. |
 | Ancoraggio asse Y su zero | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
 | Normalizzazione | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | Visualizza asse doppia | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
-| Mostra anomalie | Ottimizza i grafici a linee e le tabelle a forma libera mediante la visualizzazione della definizione delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni di linea include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
+| Mostra anomalie | Ottimizza i grafici a linee e le tabelle a forma libera visualizzando il rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni di linea include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
 
 ## Legend (Legenda){#legend}
 
@@ -77,7 +83,7 @@ Per approfondire, utilizza questo [collegamento a un video](https://docs.adobe.c
 
 Per aggiungere altre funzionalità a una visualizzazione, fai clic con il pulsante destro del mouse sull’intestazione della visualizzazione. Le impostazioni variano a seconda della visualizzazione. Alcune delle impostazioni disponibili sono:
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -94,4 +100,4 @@ Per aggiungere altre funzionalità a una visualizzazione, fai clic con il pulsan
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). Questo è il modo più veloce per aggiungere una visualizzazione. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, se hai selezionato 1 riga, verrà creato un grafico a linee con tendenze. Se sono selezionate 3 righe di segmento, verrà creato un diagramma di Venn.
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
