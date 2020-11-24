@@ -2,10 +2,10 @@
 title: Affidarsi a un'implementazione Adobe Analytics  esistente
 description: Istruzioni per gli amministratori che non hanno mai implementato un'implementazione Adobe Analytics  esistente.
 translation-type: tm+mt
-source-git-commit: d3b05bddef89d7525c21f9f4686707daa27bc669
+source-git-commit: d77bb01d96ab0df2465927afc08739a3ce8c5c5f
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 1%
 
 ---
 
@@ -21,3 +21,9 @@ Stai subentrando a un&#39;implementazione Adobe Analytics  dal proprietario tecn
 Dai un&#39;occhiata a questi suggerimenti dal tuo collega proprietario tecnico, Sarah Owen. Sarah è un [Adobe Analytics Champion](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) e condivide idee su come utilizzare il Playbook di implementazione ereditato per occuparsi di un&#39;implementazione esistente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+Vedi anche:
+
+* [Elenco di controllo &quot;Revisione secondaria&quot; per rivedere la tua implementazione dopo ogni rilascio del sito Web](/help/implement/review/minor-review.md)
+* [Elenco di controllo &quot;Revisione principale&quot; per la revisione della tua implementazione ogni 6 mesi](/help/implement/review/major-review.md)
+* [Definire i primi 5 KPI](/help/implement/review/define-kpis.md)
