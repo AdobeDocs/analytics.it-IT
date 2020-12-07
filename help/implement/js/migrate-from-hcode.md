@@ -2,14 +2,17 @@
 title: Migrazione ad AppMeasurement per JavaScript
 description: Determinare gli elementi necessari per migrare l'implementazione di H Code.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 3%
 
 ---
 
 
 # Migrazione ad AppMeasurement per JavaScript
 
-Se l’implementazione utilizza ancora il codice H, Adobe consiglia vivamente di migrare all’ultima versione di AppMeasurement. È consigliabile implementare Analytics tramite [Adobe Experience Platform Launch](../launch/overview.md) , tuttavia è possibile utilizzare un&#39;implementazione JavaScript aggiornata.
+Se l&#39;implementazione utilizza ancora il codice H,  Adobe consiglia vivamente di migrare all&#39;ultima versione di AppMeasurement. È consigliabile implementare Analytics tramite [Adobe Experience Platform Launch](../launch/overview.md) , tuttavia è possibile utilizzare un&#39;implementazione JavaScript aggiornata.
 
 In AppMeasurement sono presenti le seguenti modifiche importanti confrontate con il Codice H:
 
@@ -21,17 +24,17 @@ In AppMeasurement sono presenti le seguenti modifiche importanti confrontate con
 * La libreria non supporta le variabili di configurazione dell&#39;account dinamico (incluse `dynamicAccountSelection`, `dynamicAccountMatch`e `dynamicAccountList`).
 * Il modulo del sondaggio non è supportato.
 
-I passaggi seguenti descrivono un flusso di lavoro di migrazione tipico.
+Nei passaggi seguenti viene delineato un flusso di lavoro di migrazione tipico.
 
-1. **Scarica il nuovo file** AppMeasurement: Per accedere al nuovo file, accedi ad Adobe Analytics, quindi passa ad Admin > Code Manager (Amministratore > Gestione codici). Il file compresso scaricato contiene un `AppMeasurement.js` file ridotto, insieme ai moduli Media e Integrate.
-1. **Copiate`s_code.js`le personalizzazioni in`AppMeasurement.js`**: Sposta tutto il codice prima della`DO NOT ALTER ANYTHING BELOW THIS LINE`sezione`s_code.js`all&#39;inizio di`AppMeasurement.js`.
+1. **Scarica il nuovo file** AppMeasurement: Per accedere al nuovo file, accedi a  Adobe Analytics, quindi passa ad Admin > Code Manager (Amministratore > Gestione codici). Il file compresso scaricato contiene un `AppMeasurement.js` file ridotto, insieme ai moduli Media e Integrate.
+1. **Copiate `s_code.js` le personalizzazioni in`AppMeasurement.js`**: Sposta tutto il codice prima della `DO NOT ALTER ANYTHING BELOW THIS LINE` sezione `s_code.js` all&#39;inizio di `AppMeasurement.js`.
 1. **Aggiorna tutti i plug-in**: Accertatevi di utilizzare la versione più recente di ciascun plug-in elencato nel `s_code.js` file. Sono inclusi i moduli Media e Integrate.
 1. **Distribuisci il file** AppMeasurement.js: Caricate il `AppMeasurement.js` file sul server Web.
-1. **Aggiorna i riferimenti di script per puntare a`AppMeasurement.js`**: Accertatevi che tutti i riferimenti alle pagine siano`AppMeasurement.js`invece di`s_code.js`.
+1. **Aggiorna i riferimenti di script per puntare a`AppMeasurement.js`**: Accertatevi che tutti i riferimenti alle pagine siano `AppMeasurement.js` invece di `s_code.js`.
 
 ## Esempio di codice Appmeasurement
 
-Un `AppMeasurement.js` file tipico. Accertatevi che le variabili di configurazione siano impostate al di sopra della `doPlugins` funzione.
+Un `AppMeasurement.js` file tipico. Verificate che le variabili di configurazione siano impostate al di sopra della `doPlugins` funzione.
 
 ```js
 // Initialize AppMeasurement
@@ -59,7 +62,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.omtrdc.net";
+s.trackingServer="example.sc.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
