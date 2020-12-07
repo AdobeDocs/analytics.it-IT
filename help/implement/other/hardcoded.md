@@ -2,7 +2,7 @@
 title: Implementazione con richieste di immagini hardcoded
 description: Implementazione  Adobe Analytics tramite un tag immagine HTML (richiesta immagine hardcoded)
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -18,18 +18,18 @@ Questo metodo di implementazione può essere utilizzato su qualsiasi piattaforma
 
 >[!NOTE]
 >
->Sebbene le richieste di immagini hardcoded siano facili da configurare, è difficile eseguire il debug, la manutenzione e la modifica in scala per progetti più grandi. Prima di continuare, assicuratevi che le richieste di immagini hardcoded siano l’opzione migliore.
+>Sebbene le richieste di immagini hardcoded siano facili da configurare, è difficile eseguire il debug, la manutenzione e la modifica in scala per progetti più grandi. Prima di continuare, assicuratevi che le richieste di immagini hardcoded siano l&#39;opzione migliore.
 
 ## Sintassi richiesta immagine
 
 Esempio di richiesta di immagine con hardcoded tramite HTML:
 
 ```html
-<img src="https://example.sc.omtrdc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` specifica il protocollo. Fate corrispondere il protocollo utilizzato nella richiesta di immagine con il protocollo utilizzato dal resto del sito.
-* `example.sc.omtrdc.net` è il valore contenuto nella [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabile.
+* `example.sc.adobedc.net` è il valore contenuto nella [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabile.
 * `/b/ss/` è incluso in tutte le richieste di immagini. Fa parte della struttura di file per le immagini memorizzate  server di raccolta dati di Adobe.
 * `examplersid` è l&#39;ID suite di rapporti a cui vuoi inviare i dati.
 * `/1/` è la fonte di hit. Consultate `hit_source` in Riferimento [colonna](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) Dati nella guida per l’utente relativa all’esportazione. Controlla l&#39;ordine utilizzato dai cookie e da altri metodi per identificare i visitatori.
