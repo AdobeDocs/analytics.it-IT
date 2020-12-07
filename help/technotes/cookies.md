@@ -1,17 +1,20 @@
 ---
-title: Adobe Analytics e cookie del browser
-description: Scopri come Adobe Analytics gestisce i cookie di un browser.
+title: ' cookie Adobe Analytics e browser'
+description: Scopri come  Adobe Analytics gestisce i cookie di un browser.
 translation-type: tm+mt
-source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
+workflow-type: tm+mt
+source-wordcount: '2285'
+ht-degree: 3%
 
 ---
 
 
-# Adobe Analytics e cookie del browser
+#  cookie Adobe Analytics e browser
 
-Per supportare l&#39;identificazione utente permanente tra proprietà e soluzioni, Adobe Analytics è in grado di rispondere alle modifiche apportate al modo in cui i browser gestiscono i cookie. Nelle seguenti domande frequenti vengono fornite informazioni su come viene mantenuta l’identificazione dei visitatori persistenti con le modifiche apportate ai cookie del browser.
+Per supportare l&#39;identificazione utente permanente tra le proprietà e le soluzioni,  Adobe Analytics è in grado di rispondere alle modifiche nel modo in cui i browser gestiscono i cookie. Nelle seguenti domande frequenti vengono fornite informazioni su come viene mantenuta l’identificazione dei visitatori persistenti con le modifiche apportate ai cookie del browser.
 
-## Come stanno cambiando i browser come gestiscono i cookie?
+## Come stanno cambiando i browser nel modo in cui gestiscono i cookie?
 
 In generale, la maggior parte dei browser stanno diventando più restrittivi nel modo in cui detengono cookie di terze parti. Questo può influenzare il monitoraggio se il cookie viene eliminato o rifiutato dal browser. Il browser Safari sta inoltre impostando alcune limitazioni per alcuni cookie di prime parti.
 
@@ -27,13 +30,13 @@ L&#39;elenco seguente mostra alcune modifiche recenti in base ai browser:
 
 ### Cookie di prime parti
 
-I cookie di prime parti vengono creati dai siti Web dei clienti (specifici per il dominio) e memorizzati nei browser dei clienti quando gli utenti visitano i siti Web dei clienti. Tutti i browser generalmente accettano i cookie di prime parti. In un’implementazione di analisi dei cookie di prime parti, il cookie dell’ID visitatore viene creato in un nodo Adobe quando il nome host viene riconciliato con il dominio mediante l’uso di un [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html). Il cookie viene quindi accettato dal browser in un contesto di prime parti. Per ulteriori informazioni, consultate [Informazioni sui cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html)di prime parti.
+I cookie di prime parti vengono creati dai siti Web dei clienti (specifici per il dominio) e memorizzati nei browser dei clienti quando gli utenti visitano i siti Web dei clienti. Tutti i browser generalmente accettano i cookie di prime parti. In un’implementazione di analisi dei cookie di prime parti, il cookie dell’ID visitatore viene creato in un nodo di Adobe  quando il nome host viene riconciliato con il dominio mediante l’uso di un [CNAME](https://docs.adobe.com/content/help/it-IT/id-service/using/reference/analytics-reference/cname.html). Il cookie viene quindi accettato dal browser in un contesto di prime parti. Per ulteriori informazioni, consultate [Informazioni sui cookie](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-first-party.html)di prime parti.
 
 ### Cookie di terze parti
 
-I cookie di terze parti non vengono creati dai siti Web visitati dagli utenti. Sebbene i browser trattino tutti i cookie di terze parti allo stesso modo e li memorizzino di conseguenza, i cookie di terze parti stessi possono comportarsi in modi diversi e importanti. Con l’implementazione di cookie di terze parti di Analytics da parte del cliente, il cliente effettua chiamate solo ad Adobe e non a domini di terze parti sconosciuti o sospetti. Questo è il metodo corrente per implementare Analytics per un tracciamento sicuro (HTTPS) e affidabile con identificatori persistenti. Questo metodo viene implementato configurando il file AppMeasurement.js. Per ulteriori informazioni, consulta [Cookie e il servizio](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Experience Platform Identity.
+I cookie di terze parti non vengono creati dai siti Web visitati dagli utenti. Sebbene i browser trattino tutti i cookie di terze parti allo stesso modo e li memorizzino di conseguenza, i cookie di terze parti stessi possono comportarsi in modi diversi e importanti. Con l’implementazione di cookie di terze parti di Analytics da parte del cliente, il cliente effettua chiamate solo a  Adobe e non a domini di terze parti sconosciuti o sospetti. Questo è il metodo corrente per implementare Analytics per un tracciamento sicuro (HTTPS) e affidabile con identificatori persistenti. Questo metodo viene implementato configurando il file AppMeasurement.js. Per ulteriori informazioni, vedere [Cookie e il servizio](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html)identità Experience Platform .
 
-![Confronto cookie](assets/cookies2.png)
+![Confronto tra cookie](assets/cookies2.png)
 
 ## In che modo i browser memorizzano e gestiscono attualmente i cookie di Analytics?
 
@@ -41,11 +44,11 @@ A seconda dell’implementazione, i cookie di Analytics sono memorizzati come se
 
 ### Implementazioni di cookie di terze parti
 
-I browser attualmente memorizzano l’ID Adobe [demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) come cookie di terze parti. Questo cookie fornisce identificatori permanenti tra i domini e consente il contenuto protetto (https).
+I browser attualmente memorizzano l&#39;ID [demdex.net](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/reference/demdex-calls.html) dell&#39;Adobe  come cookie di terze parti. Questo cookie fornisce identificatori persistenti tra i domini e consente il contenuto protetto (https).
 
 ### Implementazioni di cookie di prime parti
 
-Configurando un CNAME, l&#39;utente può ricevere i cookie Adobe in un contesto di cookie di prime parti per i propri browser. Questa può essere un&#39;opzione valida se un&#39;implementazione di cookie di terze parti non è ottimale per gli utenti.
+Configurando un CNAME, l&#39;utente può ricevere  cookie di Adobe in un contesto di cookie di prime parti per i propri browser. Questa può essere un&#39;opzione valida se un&#39;implementazione di cookie di terze parti non è ottimale per gli utenti.
 
 ## Cos’è l’attributo del cookie SameSite e come influisce su Analytics?
 
@@ -59,33 +62,33 @@ Con il rilascio del browser Chrome 80 e versioni successive di Firefox e browser
 
 Il comportamento predefinito in queste versioni del browser consiste nel trattare i cookie che non hanno `SameSite` attributi specificati come `SameSite=Lax`.
 
-## In che modo Adobe Analytics risponde a queste modifiche?
+## In che modo  Adobe Analytics risponde a tali modifiche?
 
-Tutti gli aggiornamenti dei cookie Adobe vengono gestiti tramite i server Adobe e Adobe ha aggiornato i propri server periferici per impostare gli attributi dei cookie appropriati. Adobe ha rilasciato aggiornamenti lato server per impostare i cookie di terze parti con gli attributi appropriati. Per i siti non sono necessari aggiornamenti JavaScript.
+Tutti  aggiornamenti dei cookie di Adobe vengono gestiti tramite  server di Adobe e   ha aggiornato i propri server periferici per impostare gli attributi appropriati dei cookie.  Adobe ha rilasciato aggiornamenti lato server per impostare i cookie di terze parti con gli attributi appropriati. Per i siti non sono necessari aggiornamenti JavaScript.
 
-Questo aggiornamento da parte dei server periferici di Adobe avviene automaticamente quando gli utenti visitano qualsiasi sito Web in cui viene utilizzato il cookie. Per la maggior parte dei prodotti Adobe, i cookie avranno i flag appropriati quando viene rilasciato Chrome 80. L’eccezione è rappresentata dalle implementazioni Adobe Analytics che utilizzano la raccolta dati di terze parti e non utilizzano il servizio Experience Cloud Identity Service (ECID). Questi clienti potrebbero rilevare un lieve aumento temporaneo dei nuovi visitatori, che altrimenti sarebbero stati contrassegnati come visitatori di ritorno.
+Questo aggiornamento da  server periferici di Adobe si verifica automaticamente quando gli utenti visitano qualsiasi sito Web in cui viene utilizzato il cookie. Per la maggior parte  prodotti di Adobe, i cookie avranno i flag appropriati come Chrome 80 è rilasciato. L&#39;eccezione è  implementazioni Adobe Analytics che utilizzano la raccolta dati di terze parti e non utilizzano il servizio di identità del Experience Cloud  (ECID). Questi clienti potrebbero rilevare un lieve aumento temporaneo dei nuovi visitatori, che altrimenti sarebbero stati contrassegnati come visitatori di ritorno.
 
 Per i browser che Google ha identificato come la gestione errata dei cookie quando `SameSite` è impostato su `None`, `SameSite` sarà invece lasciato disimpostato.
 
-La tabella seguente riepiloga i cookie di Analytics:
+Nella tabella seguente sono riepilogati i cookie di Analytics:
 
 ![Tabella cookie](assets/cookies1.png)
 
 ## Qual è il modo migliore per preparare il mio sito per le modifiche Chrome, Firefox ed Edge?
 
-I clienti di Analytics devono confermare che la propria configurazione JavaScript utilizza HTTPS per le chiamate ai servizi Adobe. ECID reindirizza le chiamate HTTP di terze parti al relativo endpoint HTTPS, che può aumentare la latenza, ma significa che non è necessario modificare la configurazione.
+I clienti di Analytics devono confermare che la propria configurazione JavaScript utilizza HTTPS per le chiamate ai servizi  Adobe. ECID reindirizza le chiamate HTTP di terze parti al relativo endpoint HTTPS, che può aumentare la latenza, ma significa che non è necessario modificare la configurazione.
 
-Adobe consiglia di assicurarsi che tutte le pagine del sito siano servite con HTTPS.
+ Adobe suggerisce di assicurarsi che tutte le pagine del sito siano servite con HTTPS.
 
 ### Un CNAME per più domini
 
 Se hai un’implementazione CNAME impostata nello stesso dominio del tuo sito Web, questo sarà un contesto di cookie di prime parti e non devi apportare modifiche.
 
-Tuttavia, se possiedi più domini e utilizzi lo stesso CNAME per la raccolta dati in tutti i tuoi domini, viene trattato come cookie di terze parti per gli altri domini. Con Chrome 80, non sarà più visibile su questi altri domini. Per rendere il comportamento più simile in tutti i browser, Analytics sta impostando esplicitamente il `SameSite` valore di questo cookie su `Lax`. Se si utilizza questo cookie in un contesto di terze parti intuitivo, sarà necessario impostare il cookie con il `SameSite=None` valore, il che significa anche che è necessario utilizzare sempre HTTPS. Contatta l’Assistenza clienti Adobe per richiedere la modifica del valore SameSite per i CNAME protetti. Nota, questa azione NON è necessaria per i clienti Analytics che utilizzano ECID.
+Tuttavia, se possiedi più domini e utilizzi lo stesso CNAME per la raccolta dati in tutti i tuoi domini, viene trattato come cookie di terze parti per gli altri domini. Con Chrome 80, non sarà più visibile su questi altri domini. Per rendere il comportamento più simile in tutti i browser, Analytics sta impostando esplicitamente il `SameSite` valore di questo cookie su `Lax`. Se si utilizza questo cookie in un contesto di terze parti intuitivo, sarà necessario impostare il cookie con il `SameSite=None` valore, il che significa anche che è necessario utilizzare sempre HTTPS. Contatta  Assistenza clienti di Adobe affinché il valore SameSite venga modificato per i CNAME protetti. Nota, questa azione NON è necessaria per i clienti Analytics che utilizzano ECID.
 
 ## Qual è l&#39;impatto delle modifiche di Safari (ITP 2.1) per Analytics?
 
-Nonostante le modifiche in Safari 12.1, i set di dati dai cookie Adobe Experience Cloud sono ancora in fase di raccolta. Anche se i cookie sono limitati a sette giorni, i visitatori che tornano alla vostra proprietà entro tale termine rinnovano il cookie e lo impediscono di scadere per altri sette giorni. Le finestre di lookback e i conteggi dei visitatori di ritorno potrebbero essere ridotti per il traffico Safari fino a quando non sarà disponibile un aggiornamento Adobe.
+Nonostante le modifiche in Safari 12.1, i set di dati dai cookie Adobe Experience Cloud sono ancora in fase di raccolta. Anche se i cookie sono limitati a sette giorni, i visitatori che tornano alla vostra proprietà entro tale termine rinnovano il cookie e lo impediscono di scadere per altri sette giorni. Le finestre di lookback e i conteggi dei visitatori di ritorno potrebbero essere ridotti per il traffico Safari fino a quando non sarà disponibile un aggiornamento del Adobe .
 
 A causa della finestra di scadenza ridotta di sette giorni, i clienti potrebbero vedere un aumento di visitatori unici. I conteggi delle visite e delle visualizzazioni di pagina non devono essere interessati. Se disponete di una proprietà con traffico stagionale, ad esempio servizi fiscali o vendite al dettaglio per le festività, l&#39;impatto potrebbe essere maggiore in quanto il visitatore non sarà connesso tra le stagioni.
 
@@ -95,12 +98,12 @@ Se utilizzi un CNAME, il servizio ID visitatore salva l’ECID in un cookie di p
 
 ### Cookie di prime parti interessati
 
-I cookie di prime parti creati tramite `document.cookie` sono interessati. Se state impostando uno di questi cookie mediante la risposta HTTP (lato server) o la certificazione CNAME, le modifiche apportate alla norma ITP 2.1 non vengono applicate. Sono interessati i seguenti cookie di prime parti e le relative librerie Adobe JavaScript:
+I cookie di prime parti creati tramite `document.cookie` sono interessati. Se state impostando uno di questi cookie tramite la risposta HTTP (lato server) o mediante la certificazione CNAME, le modifiche apportate alla norma ITP 2.1 non vengono applicate. Sono interessati i seguenti cookie di prime parti e  librerie JavaScript di Adobe correlate:
 
-* Cookie AMCV impostati dalla libreria del servizio ECID (Experience Cloud ID)
+* Cookie AMCV impostati dalla libreria del servizio ECID (ID Experience Cloud )
 * Cookie di fallback legacy di Analytics `s_fid`
 
-Il `s_vi` cookie legacy di Analytics come cookie di terze parti, compresi gli oggetti di raccolta di 2o7.net o omtrdc.net, continua a essere bloccato in base alle versioni precedenti di ITP.
+Il `s_vi` cookie legacy di Analytics come cookie di terze parti, compresi gli oggetti di raccolta di adobedc.net, 2o7.net o omtrdc.net, continua a essere bloccato in base alle versioni precedenti di ITP.
 
 In sintesi:
 
@@ -108,13 +111,13 @@ In sintesi:
 
 * Se utilizzi un CNAME di prima parte nel contesto di prima parte e non utilizzi il servizio ID visitatore — l&#39;implementazione non verrà modificata.
 
-* Se utilizzate un dominio di cookie di prime parti nel contesto di terze parti o con nomi di dominio di terze parti standard (ad esempio 2o7.net, omtrdc.net, ecc.), Safari continuerà a bloccarlo come ha.
+* Se utilizzate un dominio di cookie di prime parti nel contesto di terze parti o con i nomi di dominio standard di terze parti (ad esempio `adobedc.net`, `2o7.net``omtrdc.net`, ecc.), Safari continuerà a bloccarlo così com’è.
 
 * Se utilizzi un ID visitatore personalizzato — Dipende da come memorizzi l’ID visitatore. Se memorizzi l’ID in un cookie &quot;lato client&quot; di prime parti, sarai soggetto alla scadenza di sette giorni. Se utilizzi altri mezzi per memorizzare il tuo ID personalizzato, dovrai valutare se ne sei interessato.
 
 ### Set di dati meno interessati
 
-I set di dati con visitatori attivi che ritornano frequentemente sono i meno interessati dalle modifiche. Se il contenuto del sito è tale che i clienti ritornano ogni giorno o almeno due volte alla settimana, i cookie per questi utenti attivi verranno rinnovati prima della scadenza. I social network, i notiziari e altri siti di notizie avranno più probabilità di avere una vasta comunità di utenti che tornano spesso.
+I set di dati con visitatori attivi che ritornano frequentemente sono i meno interessati dalle modifiche. Se il contenuto del sito è tale che i clienti ritornano ogni giorno o almeno un paio di volte alla settimana, i cookie per questi utenti attivi saranno rinnovati prima della scadenza. I social network, i notiziari e altri siti di notizie avranno più probabilità di avere una vasta comunità di utenti che tornano frequentemente.
 
 I clienti che utilizzano `s_vi` come ID visitatore principale e sono configurati con la raccolta dati di prime parti utilizzando un CNAME non saranno interessati da ITP 2.1. Si noti che nei casi in cui `s_vi` non è possibile impostare, il cookie di fallback può essere utilizzato `s_fid` e avrà una scadenza di sette giorni.
 
@@ -122,23 +125,23 @@ Inoltre, i set di dati che utilizzano il servizio ID visitatore e hanno un domin
 
 ## Le modifiche apportate a Safari influiscono sulla mia attività?
 
-Adobe consiglia ai clienti di misurare l&#39;impatto all&#39;interno della propria azienda prima di apportare modifiche alla raccolta dei dati. Questo può essere fatto con i metodi forniti di seguito in questa sezione.
+ Adobe consiglia ai clienti di misurare l&#39;impatto all&#39;interno della propria azienda prima di apportare modifiche alla raccolta dei dati. Questo può essere fatto con i metodi forniti di seguito in questa sezione.
 
 Per misurare l’impatto dei reporting e dei test, è importante sapere quale tipo di visitatore e di tracciamento dei cookie hai implementato e quanto traffico hai dagli utenti con Safari. Per misurare l&#39;impatto sulla vostra attività, tenete in considerazione quanto segue:
 
-* Controlla i tipi di cookie impostati dalle tue librerie Adobe.
+* Verificare i tipi di cookie impostati dalle librerie di Adobi .
 
 * Aprite la console per sviluppatori nel browser Safari più recente. Se visualizzi uno dei cookie elencati sopra nel tuo dominio di prime parti, queste modifiche potrebbero interessarti.
 
-* Se visualizzate un `s_vi` cookie, ma non un `AMCV` cookie impostato nel contesto di un CNAME, utilizzate un CNAME per l&#39;identificazione dei visitatori e l&#39;utilizzo di Analytics non sarà interessato da queste modifiche. Se visualizzi sia un `s_vi` cookie che un `AMCV` cookie impostato nel contesto di un CNAME, hai utilizzato recentemente o al momento il periodo di tolleranza e alcuni dei tuoi flussi di Analytics potrebbero essere interessati.
+* Se visualizzate un `s_vi` cookie, ma non un `AMCV` cookie impostato nel contesto di un CNAME, utilizzate un CNAME per l&#39;identificazione dei visitatori e l&#39;utilizzo di Analytics non viene influenzato da queste modifiche. Se nel contesto di un CNAME sono visualizzati sia un `s_vi` cookie che un `AMCV` cookie, hai utilizzato di recente o al momento il periodo di tolleranza e il traffico Adobe Analytics  potrebbe essere influenzato.
 
-* Utilizzate Analytics per misurare la percentuale di visitatori che non tornano entro sette giorni. Se i visitatori ritornano ripetutamente entro sette giorni, il traffico potrebbe non risentirne in modo significativo. Per istruzioni sull&#39;utilizzo di Analytics, consulta [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers (Impatto di Safari ITP 2.1 sui clienti](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)di Adobe Experience Cloud e della piattaforma di esperienze).
+* Utilizzate Analytics per misurare la percentuale di visitatori che non tornano entro sette giorni. Se i visitatori ritornano ripetutamente entro sette giorni, il traffico potrebbe non risentirne in modo significativo. Per istruzioni su come utilizzare  Adobe Analytics per risolvere questo problema, consultate [Safari ITP 2.1 Impact on Adobe Experience Cloud and  Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)(Impatto su e clienti ).
 
-* Misurate la percentuale di traffico dai browser Safari per determinare se apportare modifiche è sufficientemente giustificata. Per istruzioni sull&#39;utilizzo di Analytics per conoscere la percentuale di traffico Safari verso i siti, consulta [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers (Impatto di Safari ITP 2.1 sui clienti](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)Adobe Experience Cloud e Experience Platform).
+* Misurate la percentuale di traffico dai browser Safari per determinare se apportare modifiche è sufficientemente giustificata. Per istruzioni sull&#39;utilizzo di Analytics per calcolare la percentuale di traffico Safari verso i siti, consultate [Safari ITP 2.1 Impact on Adobe Experience Cloud and  Experience Platform Customers (Impatto di Safari ITP 2.1 sui clienti](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)e.
 
 ## Quali browser vengono utilizzati maggiormente dai visitatori?
 
-Se siete interessati a saperne di più sui browser utilizzati dai visitatori, potete utilizzare la Dimensione [](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-browsers.html) browser di Analytics per determinare quali browser sono più utilizzati per i vostri siti. Puoi anche utilizzare le dimensioni di Analytics per vedere quali browser vengono utilizzati maggiormente in base alle aree geografiche. For more information, see [GeoSegmentation](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html).
+Se siete interessati a saperne di più sui browser utilizzati dai visitatori, potete utilizzare il Dimension [](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-browsers.html) Browser di Analytics per determinare quali browser sono maggiormente utilizzati per i vostri siti. Puoi anche utilizzare gli Dimension di Analytics per vedere quali browser vengono utilizzati maggiormente in base alle aree geografiche. For more information, see [GeoSegmentation](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html).
 
 Secondo [statcounter](https://gs.statcounter.com/browser-market-share/all), alla fine del 2019 la quota di mercato mondiale per ciascun browser era la seguente:
 
@@ -147,36 +150,36 @@ Secondo [statcounter](https://gs.statcounter.com/browser-market-share/all), alla
 * Firefox: ~4%
 * Bordo: ~2%
 
-Man mano che la quota di mercato cambia, puoi fare riferimento a tali [statistiche](https://gs.statcounter.com/browser-market-share/all) per rivedere la strategia di implementazione.
+Man mano che la quota di mercato cambia, puoi fare riferimento a tali [statistiche](https://gs.statcounter.com/browser-market-share/all) per rivedere la tua strategia di implementazione.
 
 ## Come posso utilizzare al meglio le modifiche ITP 2.1 in Safari a breve termine?
 
-Il programma CNAME e il programma di certificazione gestito di Adobe viene utilizzato per gestire le modifiche ITP. Il programma di certificazione gestito di Adobe consente di implementare un nuovo certificato di prima parte per i cookie dei siti Web visualizzati senza nessun costo aggiuntivo. Oggi, Adobe dispone di diversi servizi CNAME per soluzione e intende sfruttare a breve termine il programma di certificazione di Analytics.
+ programma CNAME e certificati gestiti del Adobe viene utilizzato per gestire le modifiche ITP. Il programma di certificazione gestito di Adobe consente di implementare un nuovo certificato di prima parte per i cookie dei siti Web visualizzati senza nessun costo aggiuntivo. Oggi,  Adobe dispone di diversi servizi CNAME per soluzione e sta cercando di sfruttare a breve termine il programma di certificazione di Analytics.
 
-Qualsiasi cliente Analytics corrente con un’impostazione CNAME che utilizza anche i servizi Experience Cloud ID per l’identificazione del visitatore potrà sfruttare un futuro aggiornamento della libreria ECID. Questa modifica consentirà ai server di monitoraggio certificati CNAME di mantenere l&#39;ECID e di utilizzarlo come riferimento per l&#39;identificazione dei visitatori. Ulteriori informazioni sono disponibili nelle versioni successive della libreria ECID.
+Qualsiasi cliente Analytics corrente con un’impostazione CNAME che utilizza anche  Experience Cloud ID Services per l’identificazione del visitatore potrà sfruttare un futuro aggiornamento della libreria ECID. Questa modifica consentirà ai server di monitoraggio certificati CNAME di mantenere l&#39;ECID e di utilizzarlo come riferimento per l&#39;identificazione dei visitatori. Ulteriori informazioni sono disponibili nelle versioni successive della libreria ECID.
 
-Adobe è consapevole del fatto che non tutti i clienti della libreria ECID utilizzano CNAMES o Analytics. A tutti i clienti ECID verrà offerta una configurazione CNAME per utilizzare la stessa funzionalità.
+ Adobe è consapevole del fatto che non tutti i clienti della libreria ECID utilizzano CNAMES o Analytics. A tutti i clienti ECID verrà offerta una configurazione CNAME per utilizzare la stessa funzionalità.
 
 Se al momento non utilizzi un CNAME per la tua implementazione, puoi avviare il processo parlando con l&#39;Assistenza clienti.
 
-## Quali sono i piani futuri di Adobe per l&#39;identificazione permanente dei visitatori?
+## Quali sono  Adobi  piani futuri per l&#39;identificazione dei visitatori persistenti?
 
 Le nuove funzionalità e implementazioni includono:
 
-* Opzioni self-service per la certificazione CNAME in tutte le soluzioni Adobe
+* Opzioni self-service di certificazione CNAME in tutte le soluzioni  Adobe
 
 * Metodi di raccolta di ID visitatore flessibili, BYOI (Porta la tua identità) e raccolta di dati API-first
 
 * Grafici di identità di Adobe Experience Platform
 
-* Metodo unificato per la raccolta dei dati Adobe
+* Metodo unificato per la raccolta dei dati  Adobe
 
-Adobe si impegna a realizzare una personalizzazione più accurata per i consumatori che desiderano un&#39;esperienza personalizzata. Adobe si adopera per offrire ai nostri clienti la funzionalità di identità online che li aiuti ad allineare le scelte relative alla privacy dei loro clienti.
+ Adobe si impegna per una personalizzazione più accurata per i consumatori che desiderano un&#39;esperienza personalizzata.  Adobe si adopera per offrire ai nostri clienti funzionalità di identità online che li aiutino ad allineare le scelte relative alla privacy dei loro clienti.
 
 ## Ulteriori informazioni
 
-Per ulteriori informazioni, vedete:
+Per ulteriori informazioni, consulta:
 
 * [Adobe Experience Cloud: Aggiornamenti dei cookie per Google Chrome](https://medium.com/adobetech/adobe-experience-cloud-cookie-updates-for-google-chrome-19ad67cf1598)
 
-* [Impatto di Safari ITP 2.1 sui clienti di Adobe Experience Cloud e della piattaforma Experience](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)
+* [Safari ITP 2.1 Impatto sui clienti Adobe Experience Cloud e  Experienci Platform](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)
