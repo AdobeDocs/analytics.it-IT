@@ -2,7 +2,7 @@
 title: trackingServerSecure
 description: Consente di determinare la posizione in cui le richieste di immagini vengono inviate sulle pagine HTTPS.
 translation-type: tm+mt
-source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 5%
@@ -41,4 +41,4 @@ L’utente che configura inizialmente l’implementazione dei cookie di prime pa
 s.trackingServerSecure = "data.example.com";
 ```
 
-I record CNAME in genere puntano a un sottodominio su `data.adobedc.net`, `sc.omtrdc.net` o `2o7.net`.
+I record CNAME in genere puntano a un sottodominio su `data.adobedc.net`, `sc.adobedc.net` o `2o7.net`.
