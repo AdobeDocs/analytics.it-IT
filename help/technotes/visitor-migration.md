@@ -5,7 +5,10 @@ title: Migrazione dei visitatori
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 9%
 
 ---
 
@@ -16,11 +19,11 @@ La migrazione dei visitatori è un processo in cui il cookie dell’ID visitator
 
 La migrazione dei visitatori consente di mantenere i cookie di identificazione dei visitatori quando si modificano i domini di raccolta dei dati. I domini di raccolta dati potrebbero essere modificati per i motivi seguenti:
 
-* Passaggio da `2o7.net` a `omtrdc.net` (raccolta [dati](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)regionali).
+* Passaggio da `2o7.net` a `adobedc.net` (raccolta[dati](https://docs.adobe.com/content/help/it-IT/analytics/technotes/rdc/regional-data-collection.html)regionali).
 
-* Stai implementando il servizio [ID visitatori di](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) Experience Cloud e stai passando da un dominio di raccolta dati di prime parti a `2o7.net` o `omtrdc.net` (raccolta [dati](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)regionali)
+* Stai implementando il servizio [ID visitatori di](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) Experience Cloud e stai passando da un dominio di raccolta dati CNAME/di prime parti a `adobedc.net1`, `2o7.net` o `omtrdc.net` (raccolta [dati](https://docs.adobe.com/content/help/it-IT/analytics/technotes/rdc/regional-data-collection.html)regionali)
 
-* Passaggio da `2o7.net` o `omtrdc.net` a una raccolta di dati name/first-party (cookie di [prime parti)](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-first-party.html).
+* Passaggio da `2o7.net` o `adobedc.net` a una raccolta di dati name/first-party (cookie di [prime parti)](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Passaggio da un CNAME a un altro (modifica dei domini).
 
@@ -44,11 +47,11 @@ Nella tabella seguente sono elencate le attività richieste per la migrazione de
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metriche.example.com </li> 
      <li id="li_B0CA15A593BD4AB9802E33A3FF037C7A">example.102.112.2o7.net &gt; smetriche.example.com </li> 
-    </ul> <p>I nomi host di migrazione sono configurati in Adobe Data Collection Server. L'Assistenza clienti ti informerà quando è stata apportata la modifica per pianificare il passaggio successivo. </p> </td> 
+    </ul> <p>I nomi host di migrazione sono configurati  server di raccolta dati di Adobe. L'Assistenza clienti ti informerà quando è stata apportata la modifica per pianificare il passaggio successivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ ore dopo la modifica</b>della configurazione: Aggiorna le variabili <code> s.trackingServer</code> e <code> s.trackingServerSecure</code> il codice JavaScript di Analytics per utilizzare i nuovi server di raccolta dati. </p> </td> 
-   <td colname="col3"> <p>Dopo aver apportato questa modifica, utilizzate un <a href="../implement/validate/packet-monitor.md"> monitor</a> di pacchetti per verificare che la richiesta di immagini Analytics vada al server di raccolta dati aggiornato. </p> </td> 
+   <td colname="col3"> <p>Dopo aver apportato questa modifica, usa un <a href="../implement/validate/packet-monitor.md"> packet monitor</a> per verificare che la richiesta di immagini Analytics vada al server di raccolta dati aggiornato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immediatamente dopo aver aggiornato il codice</b>Analytics: Verificare il sito per verificare che si verifichi il reindirizzamento al dominio di raccolta dati precedente. </p> </td> 
@@ -63,4 +66,4 @@ Nella tabella seguente sono elencate le attività richieste per la migrazione de
 
 ## Variabili visitorMigrationKey e visitorMigrationServer obsolete {#section_32FCEE2575944D039EA0FEBFB5814259}
 
-A partire da marzo 2013, le variabili `visitorMigrationKey`, `visitorMigrationServer`e `visitorMigrationServerSecure` di raccolta dati sono obsolete e non sono più utilizzate. I dati precedentemente contenuti in queste variabili ora vengono memorizzati sui server Adobe per una maggiore protezione.
+A partire da marzo 2013, le variabili `visitorMigrationKey`, `visitorMigrationServer`e `visitorMigrationServerSecure` di raccolta dati sono obsolete e non sono più utilizzate. I dati precedentemente contenuti in queste variabili ora vengono memorizzati  server di Adobe per una maggiore protezione.
