@@ -5,10 +5,10 @@ solution: Experience Cloud,Analytics
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 54%
+source-wordcount: '169'
+ht-degree: 51%
 
 ---
 
@@ -41,7 +41,7 @@ Field descriptions for the Cookies global settings used for deploying [!UICONTRO
   </tr> 
   <tr> 
    <td colname="col1"> Periodi di dominio FP </td> 
-   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Consulta <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>La variabile <span class="term"> fpCookieDomainPeriods</span> è per i cookie impostati da JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-in) che sono intrinsecamente cookie di prime parti, anche se l’implementazione utilizza il dominio <span class="filepath"> adobedc.net</span> di terze parti o i domini legacy (ma ancora validi) <span class="filepath"> 2o7.net</span> o <span class="filepath"> omtrdc.net</span> . </p> <p>Consulta <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID transazione </td> 
