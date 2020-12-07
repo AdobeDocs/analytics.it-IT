@@ -2,7 +2,7 @@
 title: Implementazione con AMP
 description: Implementa  Adobe Analytics sulle pagine AMP.
 translation-type: tm+mt
-source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 1%
@@ -20,8 +20,8 @@ Poiché  Adobe Analytics utilizza una libreria JavaScript per compilare e inviar
 
  Adobe ha creato due metodi per implementare  Adobe Analytics sulle pagine utilizzando AMP. Entrambi utilizzano il tag `<amp-analytics>` HTML. Per ulteriori informazioni, consulta Tag [di analisi](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) amp su ampproject GitHub.
 
-* **Utilizzate il modello`"adobeanalytics"`di** tracciamento: Crea la richiesta di Analytics direttamente sulla pagina
-* **Utilizzate il modello`"analytics_nativeConfig"`di** tracciamento: Utilizza un iframe contenente lo stesso codice AppMeasurement distribuito nel sito normale
+* **Utilizzate il modello `"adobeanalytics"` di** tracciamento: Crea la richiesta di Analytics direttamente sulla pagina
+* **Utilizzate il modello `"analytics_nativeConfig"` di** tracciamento: Utilizza un iframe contenente lo stesso codice AppMeasurement distribuito nel sito normale
 
 Nella tabella seguente vengono confrontati i due metodi seguenti:
 
@@ -55,7 +55,7 @@ Nell&#39;esempio di codice seguente sono definiti due attivatori: `pageLoad` e `
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.omtrdc.net",
+        "host": "example.sc.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -109,7 +109,7 @@ Il `"adobeanalytics_nativeConfig"` tag è più semplice da implementare, in quan
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.omtrdc.net"
+        "host": "example.sc.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -133,7 +133,7 @@ Il `"adobeanalytics_nativeConfig"` tag è più semplice da implementare, in quan
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_trackingServer = "example.sc.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);
