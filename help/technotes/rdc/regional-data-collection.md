@@ -2,10 +2,10 @@
 title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 1%
 
 ---
 
@@ -46,18 +46,3 @@ L&#39;elenco seguente descrive il processo di raccolta dei dati utilizzato dall&
 1. Il DNS risolve automaticamente il nome host della raccolta all&#39;indirizzo IP del centro di raccolta dati più vicino al visitatore.
 1. Il visitatore invia i dati a tale posizione.
 1. I dati vengono immediatamente inoltrati attraverso una connessione protetta al centro di elaborazione dati, dove vengono elaborati e messi a disposizione dei prodotti nell&#39;Adobe Experience Cloud.
-
-## Vantaggi dell&#39;RDC
-
-| Beneficio | Descrizione |
-|---------|-----------|
-| Prestazioni | Con RDC, i visitatori si connetteranno al DCC più vicino. Ciò significa che i tempi di risposta sulla pagina diminuiranno (meno è meglio), con conseguente tracciamento più preciso e tempi di caricamento più rapidi. |
-| Ridondanza | In caso di interruzione delle comunicazioni con un DCC, la raccolta dei dati viene automaticamente indirizzata al DCC successivo più vicino, garantendo la continuità del servizio. |
-| Ridondanza | In caso di interruzione nella comunicazione tra DCC e il DPC,  Adobe  infrastruttura RDC salva i dati localmente, quindi li inoltra al DPC quando le comunicazioni vengono ripristinate. |
-
-## Cronologia revisioni documentazione
-
-| Aggiornamento | Descrizione |
-|--------|---------|
-| 4 febbraio 2020 | Aggiorna posizioni RDC |
-| 20 febbraio 2019 | Riscrittura completa. Sono state aggiunte informazioni sulla rete RDC. |
