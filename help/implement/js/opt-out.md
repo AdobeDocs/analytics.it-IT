@@ -2,7 +2,7 @@
 title: Collegamenti per il rifiuto
 description: Scoprite come creare e implementare i collegamenti di rifiuto per i visitatori del sito.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 4%
@@ -44,7 +44,7 @@ La pagina di rifiuto per l’organizzazione dipende dal valore della [`trackingS
 
 Dopo aver trovato il `trackingServer` dominio di implementazione, aggiungi il percorso `/optout.html` alla fine. Ad esempio:
 
-* Cookie di terze parti: `https://example.sc.adobedc.net/optout.html`
+* Cookie di terze parti: `https://example.data.adobedc.net/optout.html`
 * Cookie di prime parti: `https://stats.example.com/optout.html`
 
 ## Parametri della stringa query di rifiuto
@@ -78,7 +78,7 @@ Cambiate automaticamente la lingua della pagina di rifiuto includendo il paramet
 * sk_SK (Slovacco)
 * es_ES (spagnolo)
 
-Ad esempio, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` carica la pagina di rifiuto in coreano.
+Ad esempio, `https://example.data.adobedc.net/optout.html?locale=ko_KR` carica la pagina di rifiuto in coreano.
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ Ad esempio, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` carica la 
 
 Aggiunge alla pagina un pulsante Chiudi finestra, che consente di rendere la pagina di rifiuto una finestra a comparsa. Utilizzate il parametro della stringa di `popup` query e assegnategli un valore di `1`.
 
-Ad esempio, `https://example.sc.adobedc.net/optout.html?popup=1` carica la pagina di rifiuto con un pulsante &#39;Chiudi finestra&#39;.
+Ad esempio, `https://example.data.adobedc.net/optout.html?popup=1` carica la pagina di rifiuto con un pulsante &#39;Chiudi finestra&#39;.
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ Ad esempio, `https://example.sc.adobedc.net/optout.html?popup=1` carica la pagin
 
 Consente all&#39;utente di rifiutare immediatamente il tracciamento. Aggiungete i due parametri della stringa di query `opt_out` e `confirm_change`, assegnando a ciascuno un valore di `1`.
 
-Ad esempio, installa `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` immediatamente il cookie di rinuncia sulla pagina del visitatore.
+Ad esempio, installa `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` immediatamente il cookie di rinuncia sulla pagina del visitatore.
 
 ### Opzione con un solo clic
 
 Consente all&#39;utente di rifiutare immediatamente il tracciamento eliminando il cookie di rinuncia. Aggiungete i due parametri della stringa di query `opt_in` e `confirm_change`, assegnando a ciascuno un valore di `1`.
 
-Ad esempio, elimina `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` immediatamente il cookie di rinuncia per il visitatore.
+Ad esempio, elimina `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` immediatamente il cookie di rinuncia per il visitatore.
