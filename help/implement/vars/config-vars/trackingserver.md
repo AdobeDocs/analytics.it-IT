@@ -2,9 +2,9 @@
 title: trackingServer
 description: Consente di determinare la posizione in cui vengono inviate le richieste di immagini.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
@@ -27,15 +27,11 @@ Server di tracciamento è un campo situato sotto la struttura di [!UICONTROL Gen
 3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto  Adobe Analytics.
 4. Espandere la [!UICONTROL General] struttura a soffietto, che mostra il [!UICONTROL Tracking Server] campo.
 
-Se il campo viene lasciato vuoto, per impostazione predefinita viene impostato su `[rsid]sc.adobedc.net`.
+Se il campo viene lasciato vuoto, per impostazione predefinita viene impostato su `[rsid].data.adobedc.net`.
 
 ## s.trackingServer nell’editor di codice personalizzato AppMeasurement e Launch
 
 La `s.trackingServer` variabile è una stringa che contiene la posizione in cui inviare i dati.
-
->[!TIP]
->
->Alcune implementazioni puntano i dati a `2o7.net`. Anche se si tratta di un dominio di raccolta dati valido, non utilizza la raccolta dati regionale. Le implementazioni effettuate tramite `2o7.net` la visualizzazione di tempi di risposta delle richieste di immagini leggermente più elevati.
 
 ## Determinare il valore per trackingServer
 
@@ -65,7 +61,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Scegli un sottodominio univoco per la tua organizzazione, probabilmente scelto da un&#39;altra organizzazione che utilizza  Adobe Analytics.  È consigliabile assegnare lo spazio dei nomi visitatore all’organizzazione.  Accertati che tutte le implementazioni dell’organizzazione utilizzino lo stesso server di tracciamento. Può essere utile mantenere queste informazioni in un documento [di progettazione di una](../../prepare/solution-design.md)soluzione.
 
-La tua organizzazione potrebbe già utilizzare un server di monitoraggio di terze parti nei `sc.adobedc.net` domini o `2o7.net` .  Questi sono stati utilizzati principalmente nelle versioni precedenti di  Adobe Analytics e sono ancora validi.
+La tua organizzazione potrebbe già utilizzare un server di monitoraggio di terze parti nei `sc.omtrdc.net` domini o `2o7.net` .  Questi sono stati utilizzati principalmente nelle versioni precedenti di  Adobe Analytics e sono ancora validi.
 
 >[!NOTE]
 >
