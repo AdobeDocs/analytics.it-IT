@@ -2,10 +2,10 @@
 title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 1%
+source-wordcount: '475'
+ht-degree: 2%
 
 ---
 
@@ -24,9 +24,11 @@ RDC attualmente include le seguenti posizioni (soggette a modifica):
 
 | RDC Type | Centri di raccolta dati |
 |---------------------|-------------------|
-| impostazione predefinita | Oregon, Virginia, Irlanda, Parigi, Mumbai, Singapore, Tokyo, Sydney |
+| impostazione predefinita | Oregon, Virginia, Irlanda, Parigi, Mumbai, Singapore, Tokyo, Sydney, Cina* |
 
 Nota: Se la tua richiesta di immagine Analytics viene inviata agli `adobedc`, `2o7.net` o `omtrdc.net` agli endpoint, hai a disposizione una raccolta dati di terze parti. Potete determinare questo valore se visualizzate uno degli endpoint nell&#39;URL delle richieste.
+
+*China RDC richiede il pacchetto China Add-On. Vedi la nota &quot;Importante&quot; sopra.
 
 ## Raccolta dati HTTPS di prime parti
 
@@ -36,8 +38,19 @@ Nota: Se la tua richiesta di immagine Analytics viene inviata agli `adobedc`, `2
 | Solo America | Oregon (Virginia) |
 | Solo Europa | Irlanda, Parigi |
 | Solo Asia Pacifico | Mumbai, Singapore, Tokyo, Sydney |
+| Solo Cina* | Pechino |
 
-Nota: Experience Edge Global offre le migliori prestazioni agli utenti finali.  Se desideri utilizzare un tipo RDC alternativo, contatta  Adobe l&#39;Assistenza clienti.
+*China RDC richiede il pacchetto China Add-On. Vedi la nota &quot;Importante&quot; sopra.
+
+Nota: Experience Edge Global offre le migliori prestazioni agli utenti finali.  Se desideri utilizzare un altro tipo di RDC, contatta l&#39;Assistenza clienti  Adobe.
+
+## Vantaggi dell&#39;RDC
+
+| Beneficio | Descrizione |
+| --- | --- |
+| Prestazioni | Con RDC, i visitatori si connetteranno al DCC più vicino. Questo fornisce il tempo di risposta più veloce, con conseguente tracciamento più preciso e tempi di caricamento più rapidi. |
+| Ridondanza | In caso di interruzione delle comunicazioni con un DCC, la raccolta dei dati viene automaticamente indirizzata al DCC successivo più vicino, garantendo la continuità del servizio. |
+| Ridondanza | In caso di interruzione delle comunicazioni tra il DCC e il DPC, &#39;infrastruttura RDC del Adobe consente di salvare i dati in locale, quindi di inoltrarli al DPC quando le comunicazioni vengono ripristinate. |
 
 ## Funzionamento di RDC
 
