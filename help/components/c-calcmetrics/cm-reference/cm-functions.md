@@ -3,10 +3,10 @@ description: Il Generatore di metriche calcolate consente di applicare funzioni 
 title: Funzioni di base di riferimento
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 99%
+source-wordcount: '1047'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Di seguito è riportato un elenco alfabetico delle funzioni e delle relative def
 
 >[!NOTE]
 >
->Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [!DNL MAXV(metrics)] consente anche [!DNL MAXV(PageViews + Visits).]
+>Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [!DNL MAXV(metrics)] consente anche [!DNL MAXV(PageViews + Visits)].
 
 ## Funzioni tabella e funzioni riga {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -37,7 +37,7 @@ ABS(metric)
 |---|---|
 | *metrica* | La metrica della quale desideri il valore assoluto. |
 
-## Massimo colonna {#concept_B25518D717D24F82B65CDE49A153D3A3}
+## Massimo colonna  {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
 Restituisce il valore più grande in un insieme di elementi dimensionali della colonna di una metrica. MAXV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi dimensionali.
 
@@ -49,7 +49,7 @@ MAXV(metric)
 |---|---|
 | *metrica* | Una metrica che desideri valutare. |
 
-## Minimo colonna {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
+## Minimo colonna  {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
 Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. MINV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi dimensionali.
 
@@ -61,7 +61,7 @@ MINV(metric)
 |---|---|
 | *metrica* | Una metrica che desideri valutare. |
 
-## Somma colonna {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
+## Somma colonna  {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
 Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione).
 
@@ -73,7 +73,7 @@ SUM(metric)
 |---|---|
 | *metrica* | La metrica della quale desideri il valore totale o la somma. |
 
-## Conteggio (tabella) {#concept_2C6ED2B88AB74481BD130969FB071A41}
+## Conteggio (tabella)  {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
 Restituisce il numero, o conteggio, di valori diversi da zero di una metrica all’interno di una colonna (il numero di elementi univoci riportati all’interno di una dimensione).
 
@@ -85,7 +85,7 @@ COUNT(metric)
 |---|---|
 | *metrica* | La metrica che desideri conteggiare. |
 
-## Esponente (riga) {#concept_17554F9D234449FB8DDEE895816B3FF1}
+## Esponente (riga)  {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
 Restituisce *e* elevato alla potenza di un numero specificato. La costante *e* è uguale a 2,71828182845904, la base del logaritmo naturale. EXP è l’inverso di LN, il logaritmo naturale di un numero.
 
@@ -97,13 +97,13 @@ EXP(metric)
 |---|---|
 | *metrica* | L’esponente applicato alla base *e*. |
 
-## Esponenziazione {#concept_941578534F1E4583B1BEB067C8113A21}
+## Esponenziazione  {#concept_941578534F1E4583B1BEB067C8113A21}
 
 Operatore di potenza
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y volte)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## Media (tabella) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -117,7 +117,7 @@ MEAN(metric)
 |---|---|
 | *metrica* | La metrica di cui desideri la media. |
 
-## Mediana (tabella) {#concept_183EC31208524EDB8463D986DE2E895F}
+## Mediana (tabella)  {#concept_183EC31208524EDB8463D986DE2E895F}
 
 Restituisce la mediana di una metrica in una colonna. La mediana è il numero nel mezzo di un insieme di numeri, ovvero metà dei numeri ha valori che sono maggiori o uguali alla mediana, e metà sono minori o uguali alla mediana.
 
@@ -129,7 +129,7 @@ MEDIAN(metric)
 |---|---|
 | *metrica* | La metrica di cui desideri la mediana. |
 
-## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
+## Modulo  {#concept_DE0825D7A51643219CB01F59667EA352}
 
 Il resto di col1 / col2, utilizzando la divisione euclidea.
 
@@ -153,7 +153,7 @@ Per ottenere sempre un numero positivo, utilizza
 modulo(modulo(x,y)+y,y)
 ```
 
-## Percentile (tabella) {#concept_51DF57B606D14F898E5010DBA61CA979}
+## Percentile (tabella)  {#concept_51DF57B606D14F898E5010DBA61CA979}
 
 Restituisce il k-esimo percentile dei valori di una metrica. Puoi utilizzare questa funzione per stabilire una soglia di accettazione. Ad esempio, puoi decidere di esaminare gli elementi dimensionali con un punteggio superiore al 90 percentile.
 
@@ -161,26 +161,12 @@ Restituisce il k-esimo percentile dei valori di una metrica. Puoi utilizzare que
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argomento </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metrica</i> </td> 
-   <td colname="col2"> La colonna della metrica che definisce la condizione relativa. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> Il valore percentile compreso tra 0 e 100 incluso. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argomento | Descrizione |
+| --- | --- |
+| *metrica* | La colonna della metrica che definisce la condizione relativa. |
+| *k* | Il valore percentile compreso tra 0 e 100 incluso. |
 
-## Quartile (tabella) {#concept_BFD37F0F23A24AD181407142233FA151}
+## Quartile (tabella)  {#concept_BFD37F0F23A24AD181407142233FA151}
 
 Restituisce il quartile dei valori di una metrica. Ad esempio, i quartili possono essere utilizzati per trovare il 25% dei prodotti che generano maggiori ricavi. MINV, MEDIAN e MAXV restituiscono lo stesso valore di QUARTILE quando il quarto è uguale rispettivamente a 0 (zero), 2 e 4.
 
@@ -188,28 +174,14 @@ Restituisce il quartile dei valori di una metrica. Ad esempio, i quartili posson
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argomento </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metrica</i> </td> 
-   <td colname="col2"> La metrica di cui desideri il valore del quartile. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quarto </p> </td> 
-   <td colname="col2"> Indica il valore* da restituire. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argomento | Descrizione |
+| --- | --- |
+| *metrica* | La metrica di cui desideri il valore del quartile. |
+| *quarto* | Indica il valore* da restituire. |
 
 *Se *quarto* = 0, QUARTILE restituisce il valore minimo. Se *quarto* = 1, QUARTILE restituisce il primo quartile (25 percentile). Se *quarto* = 2, QUARTILE restituisce il primo quartile (50 percentile). Se *quarto* = 3, QUARTILE restituisce il primo quartile (75 percentile). Se *quarto* = 4, QUARTILE restituisce il valore massimo.
 
-## Arrotondamento {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
+## Arrotondamento  {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
 Restituisce il numero intero più vicino a un determinato valore. Ad esempio, se desideri evitare di riportare i decimali della valuta per le entrate e un prodotto ha 569,34 $, utilizza la formula Round(*Entrate*) per arrotondare le entrate al dollaro più vicino, cioè 569 $. Un prodotto che riporta 569,51 $ sarà arrotondato al dollaro più vicino, cioè 570 $.
 
@@ -224,29 +196,29 @@ ROUND(metric)
 L’arrotondamento senza un parametro di cifre è uguale all’arrotondamento con un parametro di cifre pari a 0, vale a dire arrotondato al numero intero più vicino. Con un parametro di cifre restituisce quel numero di cifre a destra del decimale. Se la cifra è negativa, restituisce quel numero di 0 a sinistra del decimale.
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
-## Conteggio righe {#concept_0DBF5995881C47CF95F793125F3A0E2B}
+## Conteggio righe  {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
 Restituisce il numero di righe di una colonna specificata (il numero di elementi univoci riportati all’interno di una dimensione). “Univoci superati” viene conteggiato come 1.
 
-## Massimo riga {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
+## Massimo riga  {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
 Il massimo delle colonne in ogni riga.
 
-## Minimo riga {#concept_A6FB9E72C70A43D0B31565E70B8122BD}
+## Minimo riga  {#concept_A6FB9E72C70A43D0B31565E70B8122BD}
 
 Il minimo delle colonne in ogni riga.
 
-## Somma righe {#concept_E9EAB0FC5233498F907E7A078698A98E}
+## Somma righe  {#concept_E9EAB0FC5233498F907E7A078698A98E}
 
 La somma delle colonne di ogni riga.
 
-## Radice quadrata (riga) {#concept_6460DFA51EC24527A2317970FB76D404}
+## Radice quadrata (riga)  {#concept_6460DFA51EC24527A2317970FB76D404}
 
 Restituisce la radice quadrata positiva di un numero. La radice quadrata di un numero è il valore di quel numero elevato alla potenza di 1/2.
 
@@ -255,10 +227,10 @@ SQRT(metric)
 ```
 
 | Argomento | Descrizione |
-|---|---|
+| --- | --- |
 | *numero* | La metrica della quale desideri la radice quadrata. |
 
-## Deviazione standard (tabella) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
+## Deviazione standard (tabella)  {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
 Restituisce la deviazione standard, o radice quadrata della varianza, in base a una popolazione di dati campione.
 
@@ -266,26 +238,17 @@ L’equazione per STDEV è:
 
 ![](assets/std_dev.png)
 
-dove x è la media del campione (*metrica*) e *n* è la dimensione del campione.
+Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la media della popolazione e *n* è la dimensione della popolazione.
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> Argomento</b> </td> 
-   <td> <b> Descrizione</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> metrica</i> </b> </td> 
-   <td> <p> La metrica di cui desideri la deviazione standard. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argomento | Descrizione |
+| --- | --- |
+| *metrica* | La metrica di cui desideri la deviazione standard. |
 
-## Varianza (tabella) {#concept_269751EDC5A34E689112AE16E04A11B0}
+## Varianza (tabella)  {#concept_269751EDC5A34E689112AE16E04A11B0}
 
 Restituisce la varianza in base a una popolazione di dati campione.
 
@@ -293,23 +256,21 @@ L’equazione per VARIANCE è:
 
 ![](assets/variance_eq.png)
 
-dove x è la media del campione, MEAN(*metrica*) e *n* è la dimensione del campione.
+Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la media della popolazione e *n* è la dimensione della popolazione.
 
 ```
 VARIANCE(metric)
 ```
 
 | Argomento | Descrizione |
-|---|---|
+| --- | --- |
 | *metrica* | La metrica di cui desideri la varianza. |
 
 Per calcolare una varianza, si considera un’intera colonna di numeri. Di tale elenco di numeri si calcola prima la media. Una volta ottenuta la media, si esamina ogni voce e si effettuano le seguenti operazioni:
 
 1. Si sottrae la media dal numero.
-
-2. Si eleva al quadrato il risultato.
-
-3. Si aggiunge al totale.
+1. Si eleva al quadrato il risultato.
+1. Si aggiunge al totale.
 
 Dopo aver ripetuto per l’intera colonna, si ottiene un singolo totale. Si divide quindi il totale per il numero di elementi nella colonna. Tale numero è la varianza della colonna. È un singolo numero. Viene tuttavia visualizzato come una colonna di numeri.
 
@@ -321,10 +282,4 @@ Ad esempio, supponiamo che sia presente una colonna con tre elementi:
 
 3
 
-La media di questa colonna è 2. La varianza della colonna sarà ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis sarà visualizzata come:
-
-1 2/3
-
-2 2/3
-
-3 2/3
+La media di questa colonna è 2. La varianza della colonna sarà ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
