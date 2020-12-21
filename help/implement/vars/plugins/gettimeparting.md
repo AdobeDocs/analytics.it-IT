@@ -2,9 +2,9 @@
 title: getTimeParting
 description: Misurare il tempo in cui avviene un'azione specifica.
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ Il plug-in `getTimeParting` consente di acquisire i dettagli del momento in cui 
 >[!IMPORTANT]
 >
 >La versione 4.0+ di questo plug-in è notevolmente diversa dalle versioni precedenti.  Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in prima della versione 4.0 non è compatibile con la versione corrente del plug-in.
-
->[!IMPORTANT]
->
->Le versioni precedenti di questo plug-in non erano compatibili con tutti gli anni futuri. Se utilizzate una versione precedente di questo plug-in,  Adobe consiglia vivamente di effettuare l&#39;aggiornamento alla versione più recente per evitare errori JavaScript e perdita di dati. Se l&#39;aggiornamento di questo plug-in non è possibile, accertatevi che la variabile `s._tpdst` nel codice del plug-in contenga gli anni appropriati in futuro. Questa variabile non è presente o necessaria nell&#39;ultima versione del plug-in.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch 
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * Rilascio punto (ricompilato, dimensioni del codice più piccole)
 * È stata rimossa la necessità del parametro `tpDST`, dal momento che le date di inizio/fine dei risparmi di giorno ora vengono rilevate automaticamente
+
+>[!CAUTION]
+>
+>Le versioni precedenti di questo plug-in non erano compatibili con tutti gli anni futuri. Se utilizzate una versione precedente di questo plug-in,  Adobe consiglia vivamente di effettuare l&#39;aggiornamento alla versione più recente per evitare errori JavaScript e perdita di dati. Se l&#39;aggiornamento di questo plug-in non è possibile, accertatevi che la variabile `s._tpdst` nel codice del plug-in contenga gli anni appropriati in futuro.
 
 ### 4.0 (22 agosto 2016)
 
