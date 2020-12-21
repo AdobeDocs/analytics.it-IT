@@ -2,9 +2,9 @@
 title: getTimeParting
 description: Misurare il tempo in cui avviene un'azione specifica.
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da  Adobe Consulting come una cortesia per aiutarvi a ottenere più valore da  Adobe Analytics. &#39;Assistenza clienti di Adobe non fornisce supporto con questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `getTimeParting` plug-in consente di acquisire i dettagli del momento in cui si svolge qualsiasi attività misurabile sul sito. Questo plug-in è utile per suddividere le metriche in base a una suddivisione ripetibile del tempo in un dato intervallo di date. Ad esempio, è possibile confrontare i tassi di conversione tra due giorni diversi della settimana, ad esempio tutti i giorni di domenica rispetto a tutti i giovedì. È inoltre possibile confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
+Il plug-in `getTimeParting` consente di acquisire i dettagli del momento in cui si svolge un&#39;attività misurabile sul sito. Questo plug-in è utile per suddividere le metriche in base a una suddivisione ripetibile del tempo in un dato intervallo di date. Ad esempio, è possibile confrontare i tassi di conversione tra due giorni diversi della settimana, ad esempio tutti i giorni di domenica rispetto a tutti i giovedì. È inoltre possibile confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
 
- Analysis Workspace fornisce dimensioni simili e pronte all&#39;uso, formattate in modo leggermente diverso rispetto a questo plug-in. Per ulteriori informazioni, consulta la sezione [Suddivisione delle dimensioni](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analisi. Alcune organizzazioni ritengono che  dimensioni pronte all&#39;uso di Analysis Workspace siano sufficienti.
+ Analysis Workspace fornisce dimensioni simili e pronte all&#39;uso, formattate in modo leggermente diverso rispetto a questo plug-in. Per ulteriori informazioni, vedere [suddivisione delle dimensioni](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analisi. Alcune organizzazioni ritengono che  dimensioni pronte all&#39;uso di Analysis Workspace siano sufficienti.
 
 >[!IMPORTANT]
 >
 >La versione 4.0+ di questo plug-in è notevolmente diversa dalle versioni precedenti.  Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in prima della versione 4.0 non è compatibile con la versione corrente del plug-in.
+
+>[!IMPORTANT]
+>
+>Le versioni precedenti di questo plug-in non erano compatibili con tutti gli anni futuri. Se utilizzate una versione precedente di questo plug-in,  Adobe consiglia vivamente di effettuare l&#39;aggiornamento alla versione più recente per evitare errori JavaScript e perdita di dati. Se l&#39;aggiornamento di questo plug-in non è possibile, accertatevi che la variabile `s._tpdst` nel codice del plug-in contenga gli anni appropriati in futuro. Questa variabile non è presente o necessaria nell&#39;ultima versione del plug-in.
 
 ## Installare il plug-in utilizzando l&#39;estensione Adobe Experience Platform Launch 
 
@@ -30,8 +34,8 @@ Il `getTimeParting` plug-in consente di acquisire i dettagli del momento in cui 
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installare e pubblicare l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (Page Top)
@@ -46,14 +50,14 @@ Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#
 
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe Analytics .
-1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics .
+1. Espandere il [!UICONTROL Configure tracking using custom code] Accordion, che mostra il pulsante [!UICONTROL Open Editor].
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata l&#39;istanza dell&#39;oggetto di tracciamento di Analytics (tramite [`s_gi`](../functions/s-gi.md)). Mantenendo i commenti e i numeri di versione del codice nell’implementazione,  Adobe può risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenendo i commenti e i numeri di versione del codice nell’implementazione,  Adobe può risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,9 +68,9 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 
 ## Utilizzare il plug-in
 
-Il `getTimeParting` metodo utilizza l&#39;argomento seguente:
+Il metodo `getTimeParting` utilizza il seguente argomento:
 
-**`t`** (Stringa opzionale ma consigliata): Nome del fuso orario in cui convertire l’ora locale del visitatore.  Il valore predefinito è UTC/GMT. Consulta [Elenco dei fusi orari](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) del database TZ su Wikipedia per un elenco completo dei valori validi.
+**`t`** (Stringa opzionale ma consigliata): Nome del fuso orario in cui convertire l’ora locale del visitatore.  Il valore predefinito è UTC/GMT. Per un elenco completo dei valori validi, vedere [Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) su Wikipedia.
 
 I valori validi comuni includono:
 
@@ -105,11 +109,11 @@ Se il cliente si trova nel paese africano del Ghana:
 s.eVarX = getTimeParting();
 ```
 
-Il Ghana si trova entro il fuso orario UTC/GMT.  Questo esempio mostra che in tali circostanze non sarà necessario alcun argomento plug-in.
+Il Ghana si trova entro il fuso orario UTC/GMT. Questo esempio mostra che non è necessario alcun argomento plug-in per UTC/GMT.
 
 ### Contabilità dei browser Internet Explorer
 
-Utilizzate l&#39;esempio seguente per escludere la suddivisione in base al tempo dei dati dai visitatori di Internet Explorer (dal momento che il valore restituito dai browser IE può trovarsi solo nell&#39;ora locale del visitatore)
+Per escludere la suddivisione in base al tempo dei dati dai visitatori di Internet Explorer, utilizzate il seguente esempio. Il valore restituito dai browser IE è solo nell&#39;ora locale del visitatore.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,39 +122,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Risultati delle chiamate
 
-Se un visitatore di Denver visita un sito il 31 agosto 2020 alle 9:15,
-
-Esecuzione del codice seguente in corso...
+Considerate uno scenario in cui un visitatore da Denver Colorado visita un sito il 31 agosto 2020 alle 9:15.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-...imposta s. eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=6:15 PM&quot;
-
-Con il seguente codice...
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-...imposta s. eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=6:15 AM&quot;
-
-Codice seguente...
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-...imposta s. eVar10 su &quot;year=2020 | mese=agosto | date=31 | day=Friday | time=8:45 PM&quot;
-
-E il seguente codice...
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-...imposta s. eVar10 su &quot;year=2020 | mese=settembre | date=1 | giorno=sabato | time=1:15 AM&quot;
 
 ## Cronologia versioni
 
@@ -170,7 +156,7 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 ### 5.0 (17 aprile 2018)
 
 * Rilascio punto (ricompilato, dimensioni del codice più piccole)
-* È stata rimossa la necessità del `tpDST` parametro, dal momento che le date di inizio/fine del risparmio diurno vengono ora rilevate automaticamente
+* È stata rimossa la necessità del parametro `tpDST`, dal momento che le date di inizio/fine dei risparmi di giorno ora vengono rilevate automaticamente
 
 ### 4.0 (22 agosto 2016)
 
