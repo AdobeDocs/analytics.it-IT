@@ -1,20 +1,20 @@
 ---
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2291'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # Guida del curatore per le dashboard di Adobe Analytics
 
-Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per visualizzare un video che illustra queste informazioni, consultate il video  Adobe Analytics dashboards Scorecard Builder:
+Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Il video “Generatore di Scorecard per i dashboard di Adobe Analytics” illustra queste informazioni:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/34544?captions=ita)
 
 ## Introduzione
 
@@ -51,40 +51,40 @@ In qualità di curatore di questa scorecard, puoi usare lo strumento di creazion
 
 Per creare la scorecard, dovrai fare quanto segue:
 
-1. Accedere al [!UICONTROL Blank Mobile Scorecard] modello.
+1. Accedi al modello [!UICONTROL Blank Mobile Scorecard].
 2. Configura la scorecard con i dati e salvala.
 
-### Accesso al [!UICONTROL Blank Mobile Scorecard] modello
+### Accedi al modello [!UICONTROL Blank Mobile Scorecard]
 
-You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
+Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] in uno dei seguenti modi:
 
 **Creare un nuovo progetto**
 
-1. Open Adobe Analytics and click the **[!UICONTROL Workspace]** tab.
-2. Fate clic sul **[!UICONTROL Create New Project]** pulsante e selezionate il modello di **[!UICONTROL Blank Mobile Scorecard]** progetto.
+1. Apri Adobe Analytics e fai clic sulla scheda **[!UICONTROL Workspace]**.
+2. Fai clic sul pulsante **[!UICONTROL Create New Project]** e seleziona il modello di progetto **[!UICONTROL Blank Mobile Scorecard]**.
 3. Fai clic sul pulsante **[!UICONTROL Create]**.
 
 ![Template Scorecard](assets/new_template.png)
 
 **Aggiungere un progetto**
 
-Dalla **[!UICONTROL Projects]** schermata, sotto la **[!UICONTROL Components]** scheda, fare clic sul **[!UICONTROL Add]** pulsante e selezionare **[!UICONTROL Mobile Scorecard]**.
+Dalla schermata **[!UICONTROL Projects]**, sotto la scheda **[!UICONTROL Components]**, fai clic sul pulsante **[!UICONTROL Add]** e seleziona **[!UICONTROL Mobile Scorecard]**.
 
 ![Aggiunta di progetti](assets/add_project.png)
 
-**Utilizzare [!DNL Analytics] gli strumenti**
+**Utilizzare gli strumenti di [!DNL Analytics]**
 
-In [!DNL Analytics], fate clic sul **[!UICONTROL Tools]** menu e selezionate **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
+In [!DNL Analytics], fai clic sul menu **[!UICONTROL Tools]** e seleziona **[!UICONTROL Analytics dashboards (Mobile App)]**. Nella schermata successiva, fai clic sul pulsante **[!UICONTROL Create new scorecard]**.
 
 ### Configura la scorecard con i dati e salvala
 
 Per implementare il template della scorecard:
 
-1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
+1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project report suite]** della quale desideri utilizzare i dati.
 
    ![Selezione di suite di rapporti](assets/properties_save.png)
 
-2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. È anche possibile inserire una metrica tra due tessere utilizzando un flusso di lavoro simile.
+2. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello a sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due tessere utilizzando un flusso di lavoro simile.
 
    ![Aggiungere tessere](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Per implementare il template della scorecard:
    *Da ogni tessera, è possibile accedere a una vista dettagliata che visualizza informazioni aggiuntive sulla metrica, come gli elementi principali di un elenco di dimensioni correlate.*
 
 
-3. Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. Puoi aggiungere più dimensioni a ogni tessera.
+3. Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera. Ad esempio, per aggiungere le dimensioni appropriate (come **[!DNL DMA Region]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]**, trascinale sulla tessera; le dimensioni che aggiungi verranno visualizzate nella sezione breakdown delle **[!UICONTROL Properties]** specifiche della tessera. Puoi aggiungere più dimensioni a ogni tessera.
 
    ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
    Puoi anche aggiungere una dimensione a tutte le tessere rilasciandola sull’area di lavoro della scorecard.
 
-   Quando fai clic su una tessera nel Creatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella tessera. In this rail, you can provide a new **[!UICONTROL Title]** for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail.
+   Quando fai clic su una tessera nel Creatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella tessera. In questa barra puoi assegnare un nuovo **[!UICONTROL Title]** alla tessera e, in alternativa, configurarla specificando i componenti invece di trascinarli dalla barra di sinistra.
 
    Inoltre, se fai clic sulle tessere, un pop-up dinamico mostrerà come la vista Raggruppamento viene visualizzata dall’utente esecutivo nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
@@ -106,21 +106,21 @@ Per implementare il template della scorecard:
 
    Ogni dimensione aggiunta alla tessera viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
-4. Per applicare segmenti alle singole tessere, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla tessera. Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. Puoi [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nello stesso modo che utilizzeresti in Adobe Analytics Workspace.
+4. Per applicare segmenti alle singole tessere, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla tessera. Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. Puoi [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo che utilizzeresti in Adobe Analytics Workspace.
 
    ![Creare segmenti per il filtro](assets/segment_ui.png)
 
-5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
+5. Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic sulla **x** che compare quando passi il mouse sul componente, come mostrato di seguito per il segmento **[!DNL Mobile Customers]**:
 
    ![Rimuovere_componenti](assets/new_remove.png)
 
-6. Under Scorecard **[!UICONTROL Properties]**, you also can optionally specify the following:
+6. Nelle **[!UICONTROL Properties]** della scorecard puoi inoltre specificare opzionalmente quanto segue:
 
-   * A **[!UICONTROL Default date range]**. Gli intervalli che specifichi qui saranno gli stessi applicati al primo accesso dell’utente esecutivo alla scorecard nell’app.
+   * **[!UICONTROL Default date range]**. Gli intervalli che specifichi qui saranno gli stessi applicati al primo accesso dell’utente esecutivo alla scorecard nell’app.
 
-   * A **[!UICONTROL Comparison date range]**
+   * **[!UICONTROL Comparison date range]**
 
-   * Any **[!UICONTROL Segments]** to apply to the whole Scorecard
+   * Eventuali **[!UICONTROL Segments]** da applicare a tutta la scorecard
 
 7. Per dare un nome alla scorecard, fai clic sullo spazio del nome in alto a sinistra dello schermo e digita il nuovo nome.
 
@@ -130,9 +130,9 @@ Per implementare il template della scorecard:
 
 Per condividere la scorecard con un utente esecutivo:
 
-1. Fare clic sul **[!UICONTROL Share]** menu e selezionare **[!UICONTROL Share scorecard]**.
+1. Fai clic sul menu **[!UICONTROL Share]** e seleziona **[!UICONTROL Share scorecard]**.
 
-2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
+2. Nel modulo **[!UICONTROL Share mobile scorecard]**, compila i campi:
 
    * Inserendo il nome della scorecard
    * Inserendo una descrizione della scorecard
@@ -147,7 +147,7 @@ Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro
 
 Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente e di selezionare l’opzione **[!UICONTROL Share embedded components]** (condividi componenti incorporati) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
 
-## Impostazione di utenti esecutivi con l&#39;app
+## Impostare gli utenti esecutivi con l’app
 
 In alcuni casi, gli utenti esecutivi potrebbero aver bisogno di ulteriore assistenza per accedere all’app e utilizzarla. Questa sezione offre informazioni per aiutarti a fornire tale assistenza.
 
@@ -159,7 +159,7 @@ Per aiutare gli utenti esecutivi ad accedere alle tue scorecard nell’app, assi
 * Abbiano un accesso valido ad Adobe Analytics
 * Tu abbia creato correttamente le scorecard per dispositivi mobili a essi destinate e condiviso con essi tali scorecard
 * Abbiano accesso all’Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
-* Abbiano accesso ai Componenti che la scorecard include. Note that you can select an option when sharing your Scorecards to **[!UICONTROL Share embedded components]**.
+* Abbiano accesso ai Componenti che la scorecard include. Nota che puoi selezionare un’opzione quando condividi le scorecard per **[!UICONTROL Share embedded components]**.
 
 ### Aiutare gli utenti esecutivi a utilizzare l’app
 
@@ -169,22 +169,22 @@ Per aiutare gli utenti esecutivi:
 
    **Per gli utenti esecutivi su iOS:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
       [Collegamento per iOS](https://apple.co/2zXq0aN)
    **Per gli utenti esecutivi su Android:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
       [Collegamento per Android](https://bit.ly/2LM38Oo)
    Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
 
    ![Schermata di benvenuto dell’app](assets/welcome.png)
 
-2. Aiutali ad accedere alla tua scorecard. After executive users sign into the app, the **[!UICONTROL Choose a company]** screen appears. Questa schermata elenca le aziende di accesso a cui appartiene l’utente esecutivo. Per aiutarli a trovare la scorecard:
+2. Aiutali ad accedere alla tua scorecard. Dopo che gli utenti esecutivi effettuano l’accesso all’app, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartiene l’utente esecutivo. Per aiutarli a trovare la scorecard:
 
    * Toccare il nome dell’azienda di accesso o dell’organizzazione Experience Cloud che si applica alla scorecard che hai condiviso. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con l’utente esecutivo da quell’azienda di accesso.
-   * Aiutateli a ordinare l’elenco in base **[!UICONTROL Most recently modified]**, se applicabile.
+   * Aiutateli a ordinare l’elenco in base a **[!UICONTROL Most recently modified]**, se applicabile.
    * Toccare il nome della scorecard per visualizzarla.
 
    ![Scegliere un’azienda](assets/accesscard.png)
@@ -201,7 +201,7 @@ Per aiutare gli utenti esecutivi:
    * Verifica che l’utente esecutivo possa accedere alla giusta istanza di Analytics e che la scorecard sia stata condivisa.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
+3. Spiega all’utente esecutivo come vengono visualizzate le tessere nelle scorecard condivise (la prima scorecard sottostante è impostata in modalità scura; consulta **[!UICONTROL Preferences]** di seguito se pensi che l’utente esecutivo preferisca questa opzione di visualizzazione):
 
    ![Spiegare le tessere](assets/newexplain.png)
 
@@ -231,12 +231,12 @@ Per aiutare gli utenti esecutivi:
 
    * Puoi modificare allo stesso modo anche gli intervalli date all’interno della vista raggruppamento mostrata sopra.
 
-   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Under the **[!UICONTROL COMPARE TO]** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **[!UICONTROL Done]** in the upper right of the screen. The **[!UICONTROL Date Ranges]** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
+   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le tessere della scorecard vengono aggiornati con i dati più recenti di confronto dei nuovi intervalli selezionati.
 
 6. Per lasciare un feedback su questa app:
 
    1. Tocca l’icona dell’utente in alto a destra della schermata dell’app.
-   2. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option.
+   2. Nella schermata **[!UICONTROL Settings]**, tocca l’opzione **[!UICONTROL Feedback]**.
    3. Tocca per visualizzare le opzioni per lasciare un feedback.
 
       ![Schermata Settings](assets/settings.png)
@@ -262,4 +262,4 @@ Tocca l’opzione e fornisci il tuo indirizzo e-mail nel campo superiore e la tu
 
 >[!IMPORTANT]
 >
->A partire da ottobre 2020,  Adobe sta gradualmente implementando una serie di miglioramenti per ottimizzare le prestazioni dell&#39;app &quot; Adobe Analytics dashboards&quot;. Questi miglioramenti sono incentrati sulla memorizzazione nella cache dei dati Analytics storici utilizzati per popolare le scorecard con le date (escluso il giorno corrente). Questi dati verranno memorizzati nella cache fino a 24 ore in un account di archiviazione cloud pubblico Microsoft Azure protetto. Contattate il CSM per non utilizzare queste funzioni di miglioramento delle prestazioni.
+>A partire da ottobre 2020, Adobe sta gradualmente implementando una serie di miglioramenti per ottimizzare le prestazioni dell’app “Adobe Analytics dashboards”. Questi miglioramenti sono incentrati sulla memorizzazione nella cache dei dati Analytics storici utilizzati per popolare le scorecard con le date (escluso il giorno corrente). I dati verranno memorizzati nella cache fino a 24 ore in un account di archiviazione cloud pubblico Microsoft Azure protetto. Se preferisci non utilizzare queste funzioni di miglioramento delle prestazioni, contatta il tuo Customer Success Manager.
