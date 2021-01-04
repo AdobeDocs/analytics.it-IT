@@ -1,11 +1,11 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -53,13 +53,13 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 **Per gli utenti esecutivi su iOS:**
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+Fai clic sul seguente collegamento (disponibile anche in Analytics, in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per iOS](https://apple.co/2zXq0aN)
 
 **Per gli utenti esecutivi su Android:**
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+Fai clic sul seguente collegamento (disponibile anche in Analytics, in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per Android](https://bit.ly/2LM38Oo)
 
@@ -75,7 +75,7 @@ Per utilizzare le dashboard:
 
    ![Sequenza di accesso](assets/signseq.png)
 
-2. Scegli un’azienda. Dopo aver effettuato l&#39;accesso alle dashboard, viene visualizzata la **[!UICONTROL Choose a company]** schermata. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
+2. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
 3. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
 
@@ -118,9 +118,9 @@ Per utilizzare le dashboard:
 
    * Puoi modificare allo stesso modo anche gli intervalli date all’interno della vista raggruppamento mostrata sopra.
 
-   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Under the **[!UICONTROL COMPARE TO]** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **[!UICONTROL Done]** in the upper right of the screen. The **[!UICONTROL Date Ranges]** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
+   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-7. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nell’app funzionano allo stesso modo di Analytics Workspace.
+7. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nell’app funzionano allo stesso modo di Analytics Workspace.
 
    ![Filtro del segmento](assets/segment_filter.png)
 
@@ -129,12 +129,12 @@ Per utilizzare le dashboard:
 9. Per lasciare un feedback su questa app:
 
    1. Tocca l’icona dell’utente in alto a destra della schermata dell’app.
-   2. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option.
+   2. Nella schermata **[!UICONTROL Settings]**, tocca l’opzione **[!UICONTROL Feedback]**.
    3. Tocca per visualizzare le opzioni per lasciare un feedback.
 
       ![Schermata Settings](assets/settings.png)
 
-10. Per modificare le preferenze, tocca l’opzione **[!UICONTROL Preferences]** mostrata sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
+10. Per modificare le preferenze, tocca l’opzione **[!UICONTROL Preferences]** mostrata qui sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
 
    ![Modalità scura](assets/darkmode.png)
 
