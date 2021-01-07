@@ -1,11 +1,11 @@
 ---
 title: Domande frequenti sulle classificazioni
 description: Domande frequenti sull’utilizzo delle classificazioni.
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ I file di classificazione caricati con un valore chiave o un valore di classific
 
 * **Utilizzare regole di elaborazione**: puoi modificare gli elementi dimensionali tra la raccolta di dati e la relativa memorizzazione in una suite di rapporti. Creare la seguente regola di elaborazione:
 
-   *Se la[dimensione]è uguale a`0`, sovrascrivi il valore di[dimensione]con il valore personalizzato`Zero`.*
+   *Se la [dimensione] è uguale a `0`, sovrascrivi il valore di [dimensione] con il valore personalizzato `Zero`.*
 
 * **Richiedere una regola VISTA**: un consulente di servizi tecnici imposta una regola lato server a un costo aggiuntivo. Contatta l’Account Manager della tua organizzazione per richiedere una regola VISTA.
 
@@ -35,7 +35,7 @@ Sì, *tuttavia in questo modo ogni elemento dimensionale viene conteggiato come 
 
 ## Come si classificano i valori che contengono caratteri speciali?
 
-In genere non è consigliabile utilizzare caratteri speciali come virgole o virgolette nei rapporti. Tuttavia, in alcuni casi è necessario utilizzarli. Se i valori dei rapporti contengono tali caratteri che desideri classificare, procedi come segue:
+In genere non è consigliabile utilizzare caratteri speciali come virgole o virgolette doppie nei rapporti. Tuttavia, in alcuni casi è necessario utilizzarli. Se i valori di reporting contengono caratteri che si sceglie di classificare, procedere come segue:
 
 1. Accedi ad Adobe Analytics e seleziona **[!UICONTROL Admin]** > **[!UICONTROL Classification importer]**.
 2. Fai clic sulla scheda **[!UICONTROL Browser export]**.
@@ -46,4 +46,4 @@ In genere non è consigliabile utilizzare caratteri speciali come virgole o virg
 
 ## Cosa sono le classificazioni numeriche 2?
 
-Le classificazioni numeriche 2 consentono di classificare gli elementi dimensionali come metriche basate sul tempo. Sono state ritirate dall’interfaccia utente di Analytics a luglio 2019.
+Le classificazioni numeriche 2 consentono di classificare gli elementi dimensionali come metriche basate sul tempo. Sono stati ritirati dall’interfaccia utente di Adobe Analytics  nel luglio 2019.
