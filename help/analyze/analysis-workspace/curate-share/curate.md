@@ -1,17 +1,17 @@
 ---
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
 keywords: Analysis Workspace curation
-title: Cura progetti
+title: Curare progetti
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Cura progetti
+# Curare progetti
 
 La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che hai curato per lui. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
@@ -58,8 +58,11 @@ In un progetto curato o in una VRS, al destinatario verrà offerta l’opzione *
 * Livello di autorizzazione dell’utente (amministratore o non amministratore)
 * Ruolo di progetto (proprietario/editor o meno)
 * Tipo di cura applicata (VRS o del progetto)
+* Componenti di proprietà o condivisi con l’utente. I componenti di proprietà/condivisi includono segmenti, metriche calcolate e intervalli di date. Non includono componenti implementati come eVar, prop ed eventi personalizzati.
 
-| Tipo di cura | Amministratori | Ruolo di proprietario del progetto o editor non amministratore | Ruolo di duplicazione o visualizzazione non amministratore |
+Nota: I ruoli di visualizzazione non amministratore non hanno accesso alla barra a sinistra in un progetto, pertanto sono stati omessi dalla tabella seguente.
+
+| Tipo di cura | Amministratori | Ruolo di proprietario del progetto o editor non amministratore | Ruolo duplicato non amministratore |
 |---|---|---|---|
 | VRS curate | Tutti i componenti VRS non curati | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
 | Progetto curato | Tutti i componenti di progetto non curati | Tutti i componenti di progetto non curati | I componenti di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
