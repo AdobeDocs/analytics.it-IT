@@ -2,9 +2,9 @@
 description: Un pannello è un insieme di tabelle e visualizzazioni
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
+source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 7%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Panoramica dei pannelli
 
-A [!UICONTROL panel] is a collection of tables and visualizations. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un pannello [](blank-panel.md)vuoto. I pannelli sono utili per organizzare i progetti in base a periodi di tempo, suite di rapporti o casi di utilizzo dell’analisi. In  Analysis Workspace sono disponibili i seguenti tipi di pannelli:
+Un [!UICONTROL panel] è un insieme di tabelle e visualizzazioni. È possibile accedere ai pannelli dall&#39;icona in alto a sinistra in Workspace o da un [pannello vuoto](blank-panel.md). I pannelli sono utili per organizzare i progetti in base a periodi di tempo, suite di rapporti o casi di utilizzo dell’analisi. In  Analysis Workspace sono disponibili i seguenti tipi di pannelli:
 
 | Nome pannello | Descrizione |
 | --- | --- |
@@ -26,13 +26,13 @@ A [!UICONTROL panel] is a collection of tables and visualizations. È possibile 
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights], [!UICONTROL Blank] e [!UICONTROL Freeform] i pannelli sono luoghi ideali per iniziare l&#39;analisi, prestandosi al tempo stesso ad analisi [!UICONTROL Analytics for Target][!UICONTROL Attribution IQ][!UICONTROL Media Concurrent Viewers] e [!UICONTROL Segment Comparison] ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
+[!UICONTROL Quick Insights],  [!UICONTROL Blank] e  [!UICONTROL Freeform] i pannelli sono luoghi ideali per iniziare l&#39;analisi, mentre  [!UICONTROL Analytics for Target] [!UICONTROL Attribution IQ]e  [!UICONTROL Media Concurrent Viewers]   [!UICONTROL Segment Comparison] prestarsi ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
 
-The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+Il pannello iniziale predefinito è il pannello [!UICONTROL Freeform], ma è possibile impostare il pannello [vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md) come predefinito.
 
 ## Suite di rapporti {#report-suite}
 
-Le tabelle e le visualizzazioni all’interno di un pannello derivano dai dati [!UICONTROL report suite] selezionati in alto a destra nel pannello. La suite per report determina anche i componenti disponibili nella barra a sinistra. All&#39;interno di un progetto, potete utilizzare una o [più suite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=it-IT) di rapporti a seconda dei casi di utilizzo dell&#39;analisi. Per applicare una singola suite di rapporti a tutti i pannelli di un progetto, fai clic con il pulsante **destro del mouse sull’intestazione del pannello > Applica suite di rapporti a tutti i pannelli**.
+Le tabelle e le visualizzazioni all&#39;interno di un pannello derivano dai [!UICONTROL report suite] selezionati in alto a destra nel pannello. La suite per report determina anche i componenti disponibili nella barra a sinistra. All&#39;interno di un progetto, potete utilizzare una o [molte suite di rapporti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=it-IT) a seconda dei casi di utilizzo dell&#39;analisi. Per applicare una singola suite di rapporti a tutti i pannelli di un progetto, **fai clic con il pulsante destro del mouse sull&#39;intestazione del pannello > Applica suite di rapporti a tutti i pannelli**.
 
 L&#39;elenco delle suite di rapporti è ordinato in base alla rilevanza, che  Adobe definisce in base alla frequenza e alla data in cui la suite è stata utilizzata dall&#39;utente corrente e alla frequenza con cui la suite viene utilizzata all&#39;interno dell&#39;organizzazione.
 
@@ -46,7 +46,7 @@ Nota: Se all’interno di una tabella, una visualizzazione o un’area di rilasc
 
 ![](assets/panel-calendar.png)
 
-## Dropzone {#dropzone}
+## Zona di rilascio {#dropzone}
 
 La zona di rilascio del pannello consente di applicare filtri a segmenti e a discesa a tutte le tabelle e le visualizzazioni all’interno di un pannello. Potete applicare uno o più filtri a un pannello. Per modificare il titolo sopra ogni filtro, fai clic sulla matita di modifica oppure fai clic con il pulsante destro del mouse per rimuoverla completamente.
 
@@ -74,15 +74,15 @@ I filtri a discesa possono essere utilizzati per consolidare più progetti in un
 
 Per creare filtri a discesa:
 
-1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio, valori all’interno della [!UICONTROL Marketing Channel] dimensione, fai clic sull’icona freccia destra accanto alla dimensione nella barra a sinistra. Vengono visualizzati tutti gli elementi disponibili. Selezionate uno o più componenti dalla barra a sinistra e rilasciateli nella zona di rilascio del pannello **tenendo premuto il tasto** Maiusc. Questo trasformerà i componenti in un filtro a discesa, anziché in un singolo segmento.
-1. Per creare un filtro a discesa utilizzando un altro componente come metriche, segmenti o intervalli di date, seleziona da un tipo di componente nella barra a sinistra e rilascia nella zona a discesa del pannello **tenendo premuto il tasto** Maiusc.
-1. Selezionate una delle opzioni dal menu a discesa per modificare i dati nel pannello. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
+1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio valori all&#39;interno della dimensione [!UICONTROL Marketing Channel], fare clic sull&#39;icona freccia destra accanto alla dimensione nella parte sinistra. Vengono visualizzati tutti gli elementi disponibili. Selezionate uno o più componenti dalla barra a sinistra e rilasciateli nella zona di rilascio del pannello **tenendo premuto il tasto Maiusc**. Questo trasformerà i componenti in un filtro a discesa, anziché in un singolo segmento.
+1. Per creare un filtro a discesa utilizzando un altro componente come metriche, segmenti o intervalli di date, seleziona da un tipo di componente nella barra a sinistra e rilascia nella zona di rilascio del pannello **tenendo premuto il tasto Maiusc**.
+1. Selezionate una delle opzioni dal menu a discesa per modificare i dati nel pannello. Potete anche scegliere di non filtrare i dati del pannello selezionando **[!UICONTROL No filter]**.
 
 ![](assets/create-dropdown.png)
 
-[Guardate il video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) per ulteriori informazioni sull’aggiunta di filtri a discesa al progetto.
+[Guarda il ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) video per saperne di più su come aggiungere filtri a discesa al tuo progetto.
 
-## Menu di scelta rapida {#right-click}
+## Fare clic con il pulsante destro del mouse sul menu {#right-click}
 
 Per aggiungere altre funzionalità a un pannello, fate clic con il pulsante destro del mouse sull’intestazione del pannello.
 
