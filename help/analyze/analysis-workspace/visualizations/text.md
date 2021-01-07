@@ -3,25 +3,26 @@ description: Consente di aggiungere testo definito dall’utente al progetto Wor
 title: Testo
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: eac7c7ffed4007e3bebb65f1b6cf5bbb4c3a28a8
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 6%
 
 ---
 
 
 # Testo
 
-Consente di aggiungere testo definito dall’utente al progetto Workspace.
+Puoi aggiungere testo definito dall’utente al progetto Workspace utilizzando visualizzazioni di testo o descrizioni di pannelli/visualizzazioni (fai clic con il pulsante destro del mouse su intestazione > Modifica descrizione). Potete anche modificare la formattazione del testo, aggiungere collegamenti ipertestuali e aggiungere immagini.
 
-Puoi cambiare le impostazioni del font (grassetto, corsivo, ecc.) e aggiungere collegamenti ipertestuali nelle visualizzazioni di tipo casella di testo e nelle descrizioni di pannelli o visualizzazioni.
+## Formattazione {#format}
 
-## Cambiare le impostazioni di font {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+Quando modificate la casella di testo o la descrizione, potete regolare la dimensione del font (livelli di intestazione), il colore, lo stile (grassetto, corsivo, sottolineato) e l&#39;allineamento del testo selezionato. È inoltre possibile aggiungere elenchi puntati e numerati.
 
-![](assets/rich-text1.png)
+## Collegamenti ipertestuali {#hyperlinks}
 
-Dopo aver trascinato una visualizzazione di tipo Testo in un pannello e aver aggiunto del testo, puoi formattarlo aggiungendo livelli di intestazione, cambiando il testo in grassetto, corsivo o sottolineato, cambiando il colore del font, e così via.
+Per aggiungere un collegamento ipertestuale, evidenziate il testo e fate clic sull&#39;icona del collegamento ipertestuale nel menu. I collegamenti ipertestuali a possono collegarsi a siti Web esterni, pagine di documentazione, [progetti/pannelli/visualizzazioni di Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) e altro ancora per assistere ulteriormente i destinatari del progetto.
 
-## Aggiungere collegamenti ipertestuali {#section_D55B857188A74A06B49006DF3511DC7C}
+## Immagini {#images}
 
-![](assets/rich-text2.png)
-
-Per aggiungere un collegamento ipertestuale, evidenzia il testo e fai clic sull’icona dei collegamenti ipertestuali nel menu di formattazione.
+Per aggiungere un’immagine al progetto, fai clic sull’icona dell’immagine nel menu e inserisci un URL immagine pubblico. L’URL dell’immagine deve essere accessibile al pubblico, iniziare con https e avere il formato .png, .jpeg, .jpg o .gif. Sono supportate le immagini statiche e animate.
