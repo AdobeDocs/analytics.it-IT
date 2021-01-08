@@ -5,10 +5,10 @@ user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 93%
+source-wordcount: '485'
+ht-degree: 94%
 
 ---
 
@@ -204,8 +204,8 @@ ht-degree: 93%
    + [Collisioni hash](validate/hash-collisions.md)
 + [Domande frequenti](faq.md)
 + Verifica la tua implementazione {#review}
-   + [Revisione dell’implementazione secondaria (dopo ciascuna versione del sito Web)](review/minor-review.md)
-   + [Revisione importante dell&#39;implementazione (ogni 6 mesi)](review/major-review.md)
+   + [Recensione focalizzata (dopo ogni rilascio del sito Web)](review/focused-review.md)
+   + [Revisione completa (ogni 6 mesi)](review/full-review.md)
    + [Definire i primi 5 KPI](review/define-kpis.md)
 + Utilizzare i dati XDM con Analytics {#aep-edge}
    + [Usa SDK Web AEP](aep-edge/xdmoverview.md)
