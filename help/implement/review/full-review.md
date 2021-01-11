@@ -2,9 +2,9 @@
 title: Revisione completa
 description: Controlla la tua implementazione ogni 6 mesi per garantire l'allineamento continuo con le esigenze aziendali e i KPI.
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Incontrare il proprietario dell&#39;azienda e/o gli analisti per esaminare le mu
 
 ## 2. Assicurati che le metriche e le variabili funzionino ancora correttamente.
 
-Controlla brevemente tutte le metriche e le variabili, in ordine di importanza per l&#39;azienda, per essere sicuri che i dati vengano raccolti correttamente. Inizia con le metriche e le variabili più importanti, ovvero quelle associate ai primi 5 KPI. Per eseguire questa operazione:
+Controlla brevemente tutte le metriche e le variabili, in ordine di importanza per l&#39;azienda, per essere sicuri che i dati vengano raccolti correttamente. Inizia con le metriche e le variabili più importanti, ovvero quelle associate ai [primi 5 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Per eseguire questa operazione:
 
 * Crea dashboard per visualizzare le visualizzazioni con tendenze mensili delle metriche e delle variabili (o per impostare avvisi intelligenti per ciascuna di esse), in modo da ottenere i dati previsti e i dati sono corretti. Se riscontri delle discrepanze, esamina il livello dati, le regole del gestore di tag e le regole di elaborazione per scoprire il perché.
 * Eseguite nuovamente il [dashboard integrità Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili.
