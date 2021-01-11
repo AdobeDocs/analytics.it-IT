@@ -2,9 +2,9 @@
 title: Recensione focalizzata (dopo ogni rilascio del sito Web)
 description: Segui questi passaggi per assicurarti che l’implementazione rimanga priva di errori e in linea con i tuoi KPI.
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,13 @@ Conoscere i primi 5 indicatori di prestazioni chiave (KPI) ti aiuterà a determi
 
 ## 2. Assicurati che le metriche e le variabili KPI funzionino ancora correttamente.
 
-Gli aggiornamenti di codice nel tempo possono avere conseguenze indesiderate. Assicurarsi che tutte le metriche e le dimensioni associate a [i primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, ciò dovrebbe essere fatto subito dopo il rilascio di un sito web; se non lo avete fatto negli ultimi mesi, fatelo *now*. Per eseguire questa operazione:
+Gli aggiornamenti di codice nel tempo possono avere conseguenze indesiderate. Assicurarsi che tutte le metriche e le dimensioni associate ai [primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, ciò dovrebbe essere fatto subito dopo il rilascio di un sito web; se non lo avete fatto negli ultimi mesi, fatelo *now*. Per eseguire questa operazione:
 
-* **Crea** dashboard per visualizzare le viste con tendenze orarie di queste metriche e variabili critiche. Puoi anche impostare avvisi intelligenti per ogni metrica e monitorarli per uno o due giorni per assicurarti di ottenere i dati previsti e che i dati siano corretti. Cercare punti di flessione. Preparati a risolvere immediatamente qualsiasi problema critico. Se riscontri delle discrepanze, consulta il livello dati, le regole di gestione tag e le regole di elaborazione per scoprire il perché.
-* **Esegui di nuovo il** dashboard di stato di Analytics per monitorare le tendenze generali delle metriche e delle variabili KPI.
+* Crea dashboard per visualizzare le viste con tendenze orarie di queste metriche e variabili critiche (o configura avvisi intelligenti per ogni metrica). Quindi controllateli per uno o due giorni per assicurarvi di ottenere i dati previsti e che i dati siano corretti.\
+   Cercare punti di flessione. Preparati a risolvere immediatamente qualsiasi problema critico. Se riscontri delle discrepanze, consulta il livello dati, le regole di gestione tag e le regole di elaborazione per scoprire il perché.
+* Eseguire nuovamente il [dashboard integrità Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili KPI.
 
-Per ulteriori dettagli su come garantire il corretto funzionamento delle metriche e delle variabili, [leggere questi suggerimenti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) da  Adobe Analytics Champion Sarah Owen.
+*Per ulteriori dettagli su come garantire il corretto funzionamento delle metriche e delle variabili,  [leggi questi ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) suggerimenti  campione Adobe Analytics Sarah Owen.*
 
 ## 3. Esaminate attentamente i dati dalla sezione aggiornata del sito.
 
@@ -40,6 +41,8 @@ Se non disponete della documentazione relativa all&#39;implementazione, esportat
 ## 5. Risolvi immediatamente eventuali lacune riscontrate nella qualità dei dati.
 
 Valutare la situazione ed elaborare un piano per porre rimedio ai dati. Quindi apportate le modifiche necessarie, aggiornate la documentazione e informate le parti interessate sulle modifiche apportate.
+
+
 
 *Guarda questo video di 2 minuti  Campione Adobe Analytics Sarah Owen sui momenti naturali in cui puoi adattare le recensioni della tua implementazione alla tua programmazione:*
 
