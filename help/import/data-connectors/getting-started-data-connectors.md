@@ -2,9 +2,9 @@
 description: Importa dati di tracciamento da applicazioni di terze parti in Analytics.
 title: Guida introduttiva ai connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '949'
 ht-degree: 97%
 
 ---
@@ -18,7 +18,7 @@ Ad esempio, un’integrazione e-mail potrebbe voler utilizzare un partner e-mail
 
 >[!IMPORTANT]
 >
->Terremo il ciclo di vita della tecnologia del Connettore dati del Adobe  entro la metà del 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>Il 1 agosto 2021 terminerà il ciclo di vita della tecnologia del Connettore dati del Adobe . [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisiti di sistema**
 
@@ -86,7 +86,7 @@ Per implementare correttamente i segmenti di remarketing, è necessario soddisfa
 
 >[!NOTE]
 >
->If the product is defined without an associated event, the `prodView` event automatically fires.
+>Se il prodotto è definito senza un evento associato, l&#39;evento `prodView` viene attivato automaticamente.
 >
 >Se i requisiti precedenti non sono soddisfatti, i segmenti di remarketing corrispondenti non vengono segnalati correttamente.
 
