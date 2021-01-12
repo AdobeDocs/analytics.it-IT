@@ -2,11 +2,11 @@
 description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
-translation-type: ht
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: ht
-source-wordcount: '8024'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+workflow-type: tm+mt
+source-wordcount: '8122'
+ht-degree: 98%
 
 ---
 
@@ -15,9 +15,21 @@ ht-degree: 100%
 
 Per accedere alle note sulla versione di Adobe Experience Cloud nel suo complesso, consulta [questa pagina](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it-IT).
 
-## Ottobre 2020
+## Febbraio 2021
 
-Nuove funzionalità rilasciate a ottobre 2020.
+| Funzione | Data di destinazione | Descrizione |
+| --- | --- | --- |
+| Selezione componente | 4 febbraio 2021 | Il componente Zona di rilascio o a discesa disponibile in Informazioni rapide viene aggiunto a tutte le aree di rilascio di Workspace. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
+
+
+## Gennaio 2021
+
+| Funzione | Data di destinazione | Descrizione |
+| --- | --- | --- |
+| URL immagine | 14 gennaio 2021 | È possibile aggiungere immagini ai progetti Workspace facendo riferimento a un URL di immagine pubblico. |
+| Gestione combinata delle sorgenti e delle impostazioni per le visualizzazioni | 14 gennaio 2021 | Il gestore dell’origine dati (punto) e il gestore delle impostazioni (ingranaggio) per le visualizzazioni sono stati combinati in un singolo puntatore, in modo da poter gestire facilmente l’origine e le impostazioni dalla stessa posizione. |
+
+## Ottobre 2020
 
 | Funzione | Descrizione |
 | --- | --- |
@@ -26,12 +38,10 @@ Nuove funzionalità rilasciate a ottobre 2020.
 
 ## Settembre 2020
 
-Nuove funzionalità rilasciate a settembre 2020.
-
 | Funzione | Descrizione |
 | --- | --- |
 | [Possibilità di scaricare 50.000 elementi per una singola dimensione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it-IT#download-items) | Ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
-| [Miglioramenti alla visualizzazione Linee](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=it-IT) | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione Linee. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle linee sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
+| [Miglioramenti alla visualizzazione Linee](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puoi mostrare o nascondere l’asse x e l’asse y di qualsiasi visualizzazione Linee. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni delle linee sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
 | Nuovi intervalli di date | Abbiamo aggiunto 5 nuovi intervalli di date per permetterti di scegliere tra intervalli di date che non includono dati del giorno parziali da oggi: Ultimi 7 giorni interi, Ultimi 14 giorni interi, Ultimi 30 giorni interi, Ultimi 60 giorni interi, Ultimi 90 giorni interi |
 
 ## Agosto 2020
@@ -56,7 +66,7 @@ Nuove funzioni rilasciate il 18 giugno 2020.
 | Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it-IT#intervalli-di-lookback) |
 | Ruoli di progetto per progetti Workspace condivisi | Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it-IT) |
 | Progetti Workspace solo visualizzazione | I progetti Workspace possono essere condivisi con gli utenti solo con la modalità di accesso “Può visualizzare”. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=it-IT) |
-| Possibilità di collaborare alla modifica dei progetti Workspace | I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it-IT) |
+| Possibilità di collaborare alla modifica dei progetti Workspace | I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. [Ulteriori informazioni...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Aggiornamento del pannello vuoto | Il pannello vuoto ora include pannelli e visualizzazioni, garantendo così una maggiore facilità nella scelta del flusso di lavoro di analisi più adatto alle tue esigenze. |
 | Pannello Quick Insights (25 giugno 2020) | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di Analysis Workspace per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Pannello Analytics for Target in Workspace (25 giugno 2020) | Il pannello Analytics for Target (A4T) consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace con incremento e affidabilità. [Ulteriori informazioni...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -1148,7 +1158,7 @@ Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettan
 
 Quando il colore e le dimensioni sono in qualche modo legate con la struttura dell’albero, spesso si notano modelli che sarebbe difficile individuare in altri modi, ad esempio se un determinato colore è particolarmente rilevante. Un secondo vantaggio della struttura ad albero è rappresentato, per sua stessa natura, da un utilizzo efficiente dello spazio.
 
-## Opzione Salva con nome per segmenti, metriche e date {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## Opzione Salva con nome per segmenti, metriche e date  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Durante la modifica di un segmento esistente (salvato) con il Generatore di segmenti di Analysis Workspace, fai clic su **[!UICONTROL Save As]** (Salva con nome) per creare una copia.
 
@@ -1200,7 +1210,7 @@ In Impostazioni colonna, puoi applicare la formattazione condizionale ai dati de
  </tbody> 
 </table>
 
-## Anteprima dimensione {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Anteprima dimensione  {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Nel pannello dei componenti [!UICONTROL Dimensions], puoi passare il cursore sull’icona delle informazioni accanto a una dimensione per visualizzare un’anteprima delle cinque dimensioni principali.
 
@@ -1224,11 +1234,11 @@ A seconda dei valori specificati per i grafici a linee o area, la parte inferior
 
 ![](assets/anchor_Y_axis.png)
 
-## Nome progetto nel titolo della scheda {#section_497C61A030984BCCA2CEA553312C3226}
+## Nome progetto nel titolo della scheda  {#section_497C61A030984BCCA2CEA553312C3226}
 
 Quando si salva un progetto, il titolo della scheda nel browser verrà visualizzato come “`<Project Name>` (Nome progetto) - Analysis Workspace”. Questo miglioramento è utile se apri più progetti in più schede del browser.
 
-## Trasferimento della proprietà del progetto {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Trasferimento della proprietà del progetto  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Gli amministratori possono trasferire i progetti di [!UICONTROL Analysis Workspace] da un utente all’altro.
 
