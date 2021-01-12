@@ -2,9 +2,9 @@
 description: Scopri quando e perché i connettori dati di Analytics saranno terminati.
 title: Annuncio preliminare di fine vita per i connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 10%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Per oltre un decennio,  Adobe Analytics ha voluto fornire la soluzione di analisi Web e marketing all&#39;avanguardia per soddisfare le esigenze dei clienti. Con l&#39;evolversi delle esigenze tecnologiche e aziendali, ci impegniamo a fornire e soddisfare costantemente gli standard più elevati.  Sfortunatamente, le API che supportano questa integrazione non soddisfano più tali standard e non sono più sostenibili nelle moderne infrastrutture tecnologiche  Adobe Analytics.
 
-A partire dal 1 agosto 2021,  Adobe intende interrompere le integrazioni dei Connettori dati. La fine del ciclo di vita è parte del ciclo di vita di ogni prodotto tecnologico e  Adobe intende rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite  Adobe Exchange e possono continuare ad essere utilizzate.
+**A partire dal 1 agosto 2021**,  Adobe intende interrompere le integrazioni dei Connettori dati. La fine del ciclo di vita è parte del ciclo di vita di ogni prodotto tecnologico e  Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite  Adobe Exchange e possono continuare ad essere utilizzate.
 
 ## Perché stiamo terminando questa funzione?
 
@@ -41,7 +41,7 @@ Per ulteriori domande o supporto, contatta l&#39;Assistenza clienti  Adobe.
 | Appfigure | Migrazione a  Adobe Exchange |
 | Appello | Disponibile su  Adobe Exchange |
 | AppsFlyer | Migrazione a  Adobe Exchange |
-| Aprimo Enterprise Marketing Engagement |
+| Aprimo Enterprise Marketing Engagement | Obsoleto |
 | Apteligent | Disponibile su Exchange |
 | BlueHornet eMarketing Suite | Obsoleto |
 | Succursale | Migrazione a Exchange |
