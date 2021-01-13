@@ -2,7 +2,7 @@
 title: Recensione focalizzata (dopo ogni rilascio del sito Web)
 description: Segui questi passaggi per assicurarti che l’implementazione rimanga priva di errori e in linea con i tuoi KPI.
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -24,7 +24,8 @@ Gli aggiornamenti di codice nel tempo possono avere conseguenze indesiderate. As
 
 * Crea dashboard per visualizzare le viste con tendenze orarie di queste metriche e variabili critiche (oppure configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) per ogni metrica). Quindi controllateli per uno o due giorni per assicurarvi di ottenere i dati previsti e che i dati siano corretti. Cercare punti di flessione. Preparati a risolvere immediatamente qualsiasi problema critico. Se riscontri delle discrepanze, consulta il livello dati, le regole di gestione tag e le regole di elaborazione per scoprire il perché.
 * Eseguire nuovamente il [dashboard integrità Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili KPI.
-   *Per ulteriori dettagli su come garantire il corretto funzionamento delle metriche e delle variabili,  [leggi questi ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) suggerimenti  campione Adobe Analytics Sarah Owen.*
+
+*Per ulteriori dettagli su come garantire il corretto funzionamento delle metriche e delle variabili,  [leggi questi ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) suggerimenti  campione Adobe Analytics Sarah Owen.*
 
 ## 3. Esaminate attentamente i dati dalla sezione aggiornata del sito.
 
