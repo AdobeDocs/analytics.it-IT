@@ -1,38 +1,41 @@
 ---
-description: Informazioni utili per comprendere la funzione dei pulsanti nella barra degli strumenti Generatore di report.
+description: Informazioni utili per comprendere la funzione dei pulsanti sulla barra degli strumenti del Report Builder.
 title: Barra degli strumenti di Report Builder
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: e1c9f4e1b534b8cc1ebc22ee8e856ec437f74840
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 2%
 
 ---
 
 
 # Barra degli strumenti di Report Builder
 
-Informazioni utili per comprendere la funzione dei pulsanti nella barra degli strumenti Generatore di report.
+Informazioni utili per comprendere la funzione dei pulsanti sulla barra degli strumenti del Report Builder.
 
-Dopo aver installato Generatore di report e avviato Excel, fai clic su **[!UICONTROL Add-Ins]**.
+Dopo aver installato il Report Builder e avviato Excel, fare clic su **[!UICONTROL Add-Ins]**.
 
 ![](assets/report_builder_toolbar.png)
 
-**Accesso:** Visualizza il [!UICONTROL Login] modulo in modo da poter accedere con le credenziali dell&#39;utente specificato o come utente diverso. Consente di visualizzare anche il nome della società dopo l’accesso. Consultate [Accedere Al Generatore](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md)Di Report.
+**Accesso:** visualizza il  [!UICONTROL Login] modulo in modo da poter accedere con le credenziali o come utente diverso. Consente di visualizzare anche il nome della società dopo l’accesso. Vedere [Accesso Report Builder](/help/analyze/report-builder/setup/login.md).
 
-**Crea:** Avvia il [!UICONTROL Request Wizard]. Se non avete effettuato l’accesso, vi verrà richiesto di farlo. Consulta Richieste [di](/help/analyze/report-builder/data-requests/data-requests.md)dati.
+**Crea:** avvia il  [!UICONTROL Request Wizard]. Se non avete effettuato l’accesso, vi verrà richiesto di farlo. Vedere [Richieste di dati](/help/analyze/report-builder/data-requests/data-requests.md).
 
-**Gestisci:** Avvia il [!UICONTROL Request Manager]. Puoi visualizzare lo stato, modificare, aggiornare, eliminare e gestire tutte le richieste di dati del Generatore di report incorporate nella cartella di lavoro di Excel. Potete eseguire queste funzioni su singole richieste o su più richieste contemporaneamente. Consultate [Gestire le richieste](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md).
+**Gestisci:** lancia il  [!UICONTROL Request Manager]. È possibile visualizzare lo stato, modificare, aggiornare, eliminare e gestire tutte le richieste di dati di Report Builder incorporate nella cartella di lavoro di Excel. Potete eseguire queste funzioni su singole richieste o su più richieste contemporaneamente. Vedere [Gestione richieste](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md).
 
-**Aggiorna:** Aggiorna i dati per tutte le richieste incorporate nella cartella di lavoro di Excel. See [Refresh a Request](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md).
+**Aggiorna:** aggiorna i dati per tutte le richieste incorporate nella cartella di lavoro di Excel. Vedere [Aggiornamento di una richiesta](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md).
 
-**Formato:** Consente di impostare la formattazione condizionale per le celle del foglio di calcolo. See [Specify Conditional Formatting](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md).
+**Formato:** consente di impostare la formattazione condizionale per le celle del foglio di calcolo. Vedere [Specificare la formattazione condizionale](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md).
 
-**Pianificazione:** Consente di pianificare l&#39;invio dei rapporti in base all&#39;ora e al formato di file definiti. See [Schedule Report Requests](/help/analyze/report-builder/schedule-report-requests.md).
+**Pianificazione:** consente di pianificare l&#39;invio dei rapporti in base all&#39;ora e al formato di file definiti. Vedere [Pianificazione delle richieste di report](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Libreria:** Avvia la cartella di lavoro di Excel del generatore di report [!UICONTROL Workbook Library] in modo da poter caricare la cartella di lavoro che si desidera condividere. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Vedere [Utilizzo della libreria](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)della cartella di lavoro.
+**Libreria:** avvia la cartella di lavoro Excel per il  [!UICONTROL Workbook Library] caricamento di una cartella di lavoro Excel per il generatore di report da condividere. Potete inoltre scaricare e modificare le cartelle di lavoro condivise. Vedere [Utilizzare la libreria Cartella di lavoro](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**Opzioni:** Consente di specificare se la data **[!UICONTROL As Of]** (Ora) deve essere specificata per l&#39;aggiornamento delle richieste e di abilitare la registrazione per la risoluzione dei problemi. Vedere [Opzioni](/help/analyze/report-builder/options.md).
+**Opzioni:** consente di specificare se la data  **[!UICONTROL As Of]** (Ora) deve essere specificata per l&#39;aggiornamento delle richieste e consente di abilitare la registrazione per la risoluzione dei problemi. Vedere [Opzioni](/help/analyze/report-builder/options.md).
 
-**Bloccato/Sbloccato:** È possibile proteggere tutte le richieste presenti in una cartella di lavoro dall&#39;aggiunta e dalla modifica delle richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente. See [Lock/Unlock Workbooks](/help/analyze/report-builder/workbook-library/protect-wb.md).
+**Bloccato/Sbloccato:** È possibile proteggere tutte le richieste di una cartella di lavoro dall&#39;aggiunta e dalla modifica di richieste bloccando la cartella di lavoro. Questo consente la modifica offline delle cartelle di lavoro mettendo in pausa tutte le richieste di rapporti per una modifica più efficiente. Vedere [Blocca/Sblocca cartelle di lavoro](/help/analyze/report-builder/workbook-library/protect-wb.md).
 
-**Aiuto:** Viene avviata la documentazione della guida del Generatore di report attualmente in esame.
+**Aiuto:** avvia la documentazione della guida di Report Builder che stai esaminando.
