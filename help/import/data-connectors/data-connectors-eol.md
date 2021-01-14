@@ -2,10 +2,10 @@
 description: Scopri quando e perché i connettori dati di Analytics saranno terminati.
 title: Annuncio preliminare di fine vita per i connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 10%
+source-wordcount: '536'
+ht-degree: 11%
 
 ---
 
@@ -34,68 +34,68 @@ Per ulteriori domande o supporto, contatta l&#39;Assistenza clienti  Adobe.
 
 | Partner | Stato |
 | --- | --- |
-| Acxiom | Disponibile su  Adobe Exchange |
-| Adform | Disponibile su  Adobe Exchange |
+| Acxiom | Obsoleto |
+| Adform | Obsoleto |
 | Regola | Migrazione a  Adobe Exchange |
 | Adobe Campaign | Migrazione a  Adobe Exchange |
 | Appfigure | Migrazione a  Adobe Exchange |
-| Appello | Disponibile su  Adobe Exchange |
+| Appello | Obsoleto |
 | AppsFlyer | Migrazione a  Adobe Exchange |
 | Aprimo Enterprise Marketing Engagement | Obsoleto |
-| Apteligent | Disponibile su Exchange |
+| Apteligent | Obsoleto |
 | BlueHornet eMarketing Suite | Obsoleto |
 | Succursale | Migrazione a Exchange |
-| BrightEdge 2.0 | Disponibile su Exchange |
+| BrightEdge 2.0 | Obsoleto |
 | Software Bronto | Obsoleto |
 | CheetahMail di Experian | Migrazione a Exchange |
-| Clicktale | Disponibile su Exchange |
+| Clicktale | Obsoleto |
 | Fai clic su CA | Obsoleto |
-| Conduttore 2.0 | Disponibile su Exchange |
-| ContactLab 2.0 (connettore di invio contatti) | Disponibile su Exchange |
-| Coradiant TrueSight | Disponibile su Exchange |
-| Informazioni sui visitatori di D&amp;B | Disponibile su Exchange |
+| Conduttore 2.0 | Obsoleto |
+| ContactLab 2.0 (connettore di invio contatti) | Obsoleto |
+| Coradiant TrueSight | Obsoleto |
+| Informazioni sui visitatori di D&amp;B | Obsoleto |
 | Datran Media | Obsoleto |
-| Decibel Insight | Disponibile su Exchange |
-| Decipher | Disponibile su Exchange |
+| Decibel Insight | Obsoleto |
+| Decipher | Obsoleto |
 | Delivra | Obsoleto |
-| Demandbase CA | Disponibile su Exchange |
+| Demandbase CA | Obsoleto |
 | Demandbase v3 | Obsoleto |
-| DialogTech | Disponibile su Exchange |
+| DialogTech | Obsoleto |
 | DoubleClick for Advertiser (DFA) | Obsoleto (Ulteriori informazioni **Collegamento a DFA EOL PAGE**) |
 | SOGNO | Obsoleto |
 | DREAMmail 2.0 | Obsoleto |
 | Segnale Dinamico (Vora Nital) | Migrazione a Exchange |
 | eDialog Precision Central | Obsoleto |
 | eC-messenger | Obsoleto |
-| Emailvision Campaign Commander | Disponibile su Exchange |
+| Emailvision Campaign Commander | Obsoleto |
 | emarsys xpress | Obsoleto |
 | Epsilon Harmony | Migrazione a Exchange |
-| EveryoneSocial per  Adobe Analytics | Disponibile su Exchange |
+| EveryoneSocial per  Adobe Analytics | Obsoleto |
 | Fiksu | Obsoleto |
 | Previsto (v2.0) | Obsoleto |
-| ForeSee Feedback | Disponibile su Exchange |
-| Gigya | Disponibile su Exchange |
+| ForeSee Feedback | Obsoleto |
+| Gigya | Obsoleto |
 | hybris | Obsoleto |
 | Analisi di feedback di Kampyle (ora Medallia) (1.1) | Obsoleto |
 | Listrak | Migrazione a Exchange |
 | Lyris HQ | Obsoleto |
-| MaritzCX (V 2.0) | Disponibile su Exchange |
-| Merkle | Disponibile su Exchange |
+| MaritzCX (V 2.0) | Obsoleto |
+| Merkle | Obsoleto |
 | Integrazione ufficiale  Oracle Eloqua | Obsoleto |
 | optivo broadmail (Episerver) | Migrazione a Exchange |
 | Qualtrics v2 | Migrazione a Exchange |
 | Responsys 2.0 | Obsoleto |
-| Selligent | Disponibile su Exchange |
-| seoClarity 2.0 | Disponibile su Exchange |
+| Selligent | Obsoleto |
+| seoClarity 2.0 | Obsoleto |
 | Silverpop Engage (v2.0) | Obsoleto |
-| Sizmek | Disponibile su Exchange |
-| SpotEffects | Disponibile su Exchange |
+| Sizmek | Obsoleto |
+| SpotEffects | Obsoleto |
 | StrongMail Systems, Inc | Obsoleto |
 | Syngergy!360 | Obsoleto |
 | ThinData EMS | Obsoleto |
-| TUNE | Disponibile su Exchange |
+| TUNE | Obsoleto |
 | Aeronautica | Obsoleto |
-| Strumento sondaggio Zoom utente | Disponibile su Exchange |
-| WhatCounts Email | Disponibile su Exchange |
+| Strumento sondaggio Zoom utente | Obsoleto |
+| WhatCounts Email | Obsoleto |
 | wywy | Obsoleto |
-| Yesmail Enterprise | Disponibile su Exchange |
+| Yesmail Enterprise | Obsoleto |
