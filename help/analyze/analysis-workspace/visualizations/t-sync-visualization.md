@@ -2,9 +2,9 @@
 description: La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gestione delle origini dati
-translation-type: ht
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
+workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ La sincronizzazione delle visualizzazioni consente di individuare la tabella dat
 
 La gestione di un’origine dati consente di mostrare l’origine dati o di bloccare la selezione. Queste impostazioni determinano in che modo la visualizzazione cambia o meno con l’arrivo di nuovi dati.
 
-1. [Crea un progetto](//help/analyze/analysis-workspace/home.md) con una tabella di dati e una [visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. [Crea un progetto](/help/analyze/analysis-workspace/home.md) con una tabella di dati e una [visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Nella tabella di dati, seleziona le celle (origine dati) che vuoi associare alla visualizzazione.
 1. Nella visualizzazione, fai clic sul punto accanto al titolo per visualizzare la finestra di dialogo **[!UICONTROL Data Source]** (Gestisci origini dati). Seleziona **[!UICONTROL Show Data Source]** (Mostra origine dati) o **[!UICONTROL Lock Selection]** (Blocca selezione).
 
