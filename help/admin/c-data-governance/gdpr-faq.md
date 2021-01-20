@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: ' Domande frequenti sulla governance dei dati Adobe Analytics'
 title: Domande frequenti
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '1802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1806'
+ht-degree: 99%
 
 ---
 
