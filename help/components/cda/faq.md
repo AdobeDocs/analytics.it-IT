@@ -2,9 +2,9 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ L&#39;utilizzo del tipo di dispositivo mobile come illustrato sopra consente di 
 
 ## Quanto tempo fa i visitatori di CDA possono contare?
 
- Adobe conserva i dati di cucitura del dispositivo per circa 30 giorni. Se un dispositivo non viene inizialmente identificato ma viene successivamente identificato entro 30 giorni, CDA torna indietro e riafferma che il dispositivo appartiene a una persona identificata fino a 30 giorni nel passato. Se alcuni dei comportamenti non identificati di un utente non rientrano nella finestra di lookback di 30 giorni, la parte del percorso dell&#39;utente non viene bloccata.
+ Adobe conserva i dati di cucitura del dispositivo per circa 30 giorni. Se un dispositivo non viene inizialmente identificato ma viene successivamente identificato entro 30 giorni, CDA torna indietro e riafferma che il dispositivo appartiene a una persona identificata fino a 30 giorni nel passato. Se alcuni dei comportamenti non identificati di un utente non rientrano nella finestra di lookback di 30 giorni, la parte dell&#39;percorso dell&#39;utente non viene incollata.
 
 * **Se si utilizza un grafico** del dispositivo,  Adobe mantiene le mappature dei dispositivi in Co-op Graph e Private Graph per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafico. I dati già cuciti in CDA non vengono modificati, ma gli hit successivi per tale ECID vengono trattati come una nuova persona.
 
@@ -37,13 +37,13 @@ L&#39;utilizzo del tipo di dispositivo mobile come illustrato sopra consente di 
 
 ## In che modo CDA viene confrontato con gli ID visitatore personalizzati?
 
-L’utilizzo di un ID visitatore personalizzato è un metodo legacy per [connettere gli utenti tra dispositivi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato, utilizzate la [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variabile per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La `visitorID` variabile ha la precedenza sugli ID basati su cookie presenti.
+L&#39;utilizzo di un ID visitatore personalizzato è un metodo legacy per [connettere gli utenti tra dispositivi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato, utilizzate la variabile [`visitorID`](/help/implement/vars/config-vars/visitorid.md) per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La variabile `visitorID` ha la priorità sugli ID basati su cookie presenti.
 
-Gli ID visitatore personalizzati hanno diversi effetti collaterali indesiderati che CDA supera o riduce al minimo. Ad esempio, la metodologia ID visitatore personalizzata non dispone di funzionalità di [ripetizione](replay.md) . Se un utente si autentica nel bel mezzo di una visita, la prima parte della visita associa a un ID visitatore diverso da quello dell’ultima parte della visita. Gli ID visitatore separati generano l’inflazione delle visite e dei visitatori. CDA ridefinisce i dati storici in modo che gli hit non autenticati appartengano alla persona corretta.
+Gli ID visitatore personalizzati hanno diversi effetti collaterali indesiderati che CDA supera o riduce al minimo. Ad esempio, la metodologia ID visitatore personalizzata non dispone di funzionalità [replay](replay.md). Se un utente si autentica nel bel mezzo di una visita, la prima parte della visita associa a un ID visitatore diverso da quello dell’ultima parte della visita. Gli ID visitatore separati generano l’inflazione delle visite e dei visitatori. CDA ridefinisce i dati storici in modo che gli hit non autenticati appartengano alla persona corretta.
 
 ## Posso effettuare l’aggiornamento dall’ID visitatore personalizzato a CDA?
 
-I clienti che già utilizzano l’ID visitatore personalizzato possono effettuare l’aggiornamento a CDA senza alcuna modifica di implementazione. La `visitorID` variabile viene ancora utilizzata nella suite di rapporti di origine. Tuttavia, CDA ignora la `visitorID` variabile nella suite di rapporti virtuali se un utente si autentica.
+I clienti che già utilizzano l’ID visitatore personalizzato possono effettuare l’aggiornamento a CDA senza alcuna modifica di implementazione. La variabile `visitorID` viene ancora utilizzata nella suite di rapporti di origine. Tuttavia, CDA ignora la variabile `visitorID` nella suite di rapporti virtuali se un utente esegue l&#39;autenticazione.
 
 ## In che modo il grafico del dispositivo gestisce i dispositivi condivisi?
 
@@ -61,7 +61,7 @@ In alcune situazioni, un singolo utente può associarsi a un numero elevato di E
 
 ## Qual è la differenza tra la metrica Persone in CDA e la metrica Visitatori unici al di fuori di CDA?
 
-La metrica [Persone](/help/components/metrics/people.md) è simile alla metrica Visitatori [](/help/components/metrics/unique-visitors.md) unici, in quanto segnala il numero di individui univoci. Tuttavia, quando si utilizza Analytics tra dispositivi, i visitatori univoci vengono combinati quando altrimenti vengono registrati come due visitatori univoci separati al di fuori di CDA. La metrica &#39;Persone&#39; sostituisce la metrica &#39;Visitatori unici&#39; quando è abilitata l&#39;analisi tra dispositivi.
+La metrica [Persone](/help/components/metrics/people.md) è simile alla metrica [Visitatori unici](/help/components/metrics/unique-visitors.md), in quanto indica il numero di individui univoci. Tuttavia, quando si utilizza Analytics tra dispositivi, i visitatori univoci vengono combinati quando altrimenti vengono registrati come due visitatori univoci separati al di fuori di CDA. La metrica &#39;Persone&#39; sostituisce la metrica &#39;Visitatori unici&#39; quando è abilitata l&#39;analisi tra dispositivi. È disponibile una nuova metrica, [Dispositivi univoci](/help/components/metrics/unique-devices.md), che è approssimativamente uguale a Visitatori univoci all&#39;esterno di Analytics cross-Device.
 
 ## Qual è la differenza tra la metrica &quot;Dispositivi univoci&quot; in CDA e la metrica &quot;Visitatori unici&quot; al di fuori di CDA?
 
@@ -71,7 +71,7 @@ Queste due metriche sono approssimativamente equivalenti tra loro.
 
 Sì.  Analysis Workspace utilizza l&#39;API 2.0 per richiedere i dati dai  server  Adobi e puoi visualizzare le chiamate API  gli usi Adobe per creare i tuoi rapporti:
 
-1. Effettuando l&#39;accesso a  Analysis Workspace, andate a [!UICONTROL Help] > [!UICONTROL Enable debugger].
+1. Durante l&#39;accesso a  Analysis Workspace, andate a [!UICONTROL Help] > [!UICONTROL Enable debugger].
 2. Fate clic sull&#39;icona di debug nel pannello desiderato, quindi selezionate la visualizzazione desiderata e l&#39;ora della richiesta.
 3. Individuate la richiesta JSON, che potete utilizzare nella chiamata API per  Adobe.
 
@@ -84,7 +84,7 @@ Sì. Se un singolo utente invia hit da due dispositivi separati entro il timeout
 * **Se si utilizza un grafico** del dispositivo, un ID personalizzato basato sul cluster è l&#39;identificatore principale.
 * **Se si utilizza la cucitura** basata su campo, l’identificatore principale è un ID personalizzato basato sul prop/ eVar scelto.
 
-Entrambi gli identificatori sono calcolati da  Adobe al momento dell&#39;esecuzione del rapporto, noto anche come elaborazione [del tempo di](../vrs/vrs-report-time-processing.md)rapporto. La natura dell&#39;elaborazione del tempo per report implica che non è compatibile con Data Warehouse, feed di dati o altre funzioni di esportazione offerte  Adobe.
+Entrambi gli identificatori sono calcolati per  Adobe al momento dell&#39;esecuzione del rapporto, noto anche come [Elaborazione report-time](../vrs/vrs-report-time-processing.md). La natura dell&#39;elaborazione del tempo per report implica che non è compatibile con Data Warehouse, feed di dati o altre funzioni di esportazione offerte  Adobe.
 
 ## Come posso passare dal grafico del dispositivo alla cucitura basata sul campo o viceversa?
 
@@ -92,4 +92,4 @@ Per cambiare i metodi di identificazione CDA, rivolgiti all&#39;Account Manager 
 
 ## In che modo  Adobe gestisce i limiti univoci per un eVar  utilizzato nelle cuciture basate sul campo?
 
-CDA estrae  elementi dimensione di eVar prima che siano ottimizzati per la generazione di rapporti. Non devi preoccuparti di limiti unici ai fini di CDA. Tuttavia, se avete provato a utilizzare il prop/ eVar in un progetto Workspace, potete comunque visualizzare l’elemento dimensione [(traffico limitato)](/help/technotes/low-traffic.md) .
+CDA estrae  elementi dimensione di eVar prima che siano ottimizzati per la generazione di rapporti. Non devi preoccuparti di limiti unici ai fini di CDA. Tuttavia, se avete provato a utilizzare il prop/ eVar in un progetto Workspace, potete comunque visualizzare l&#39;elemento di dimensione [(Basso traffico)](/help/technotes/low-traffic.md).
