@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Come visualizzare l’utilizzo delle chiamate server correnti in  Adobe Analytics.
 title: Visualizzazione dell'utilizzo della chiamata server corrente
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Pannello Utilizzo corrente
 
    >[!NOTE]
    >
-   >Se desiderate visualizzare l&#39;utilizzo per un periodo di tempo precedente, dovete passare alla scheda Utilizzo [suite di](/help/admin/c-server-call-usage/report-suite-usage.md) rapporti e scaricare i dati di utilizzo per un periodo precedente.
+   >Per visualizzare l&#39;utilizzo per un periodo di tempo precedente, è necessario andare alla scheda [Uso suite di rapporti](/help/admin/c-server-call-usage/report-suite-usage.md) e scaricare i dati di utilizzo per un periodo precedente.
 
 * Elenca la percentuale di chiamate utilizzate (in percentuali e dati non elaborati) e la percentuale del periodo di utilizzo trascorso (in percentuale e dati non elaborati).
 * Per impostazione predefinita, viene aggiornato ogni giorno, con una latenza di elaborazione di 5 giorni.
@@ -39,7 +39,7 @@ Pannello Utilizzo corrente
 ![](assets/server_call_dashboard.png)
 
 | Termine interfaccia utente | Definizione |
-|---|---|
+| --- | --- |
 | Utilizzo periodo corrente (verde) | Il periodo corrente è basato sul periodo di [utilizzo](/help/admin/c-server-call-usage/overage-overview.md). |
 | Utilizzo periodo precedente (blu) | Il periodo precedente è definito come periodo di utilizzo corrente meno 1 anno. |
 | Limite utilizzo (rosso) | Limite di utilizzo contrattuale per questo periodo di utilizzo. |
