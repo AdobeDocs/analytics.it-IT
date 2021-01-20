@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: Come visualizzare i progetti convertiti in  Analysis Workspace
 title: Visualizzare progetti convertiti in Analysis Workspace
-uuid: 5f8b6d0a-1a2c-42da-b51d-ecb355f470af
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 87%
+source-wordcount: '105'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
-> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
+>Adobe si prepara a rendere obsoleto Ad Hoc Analysis il 1° marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 Prima di visualizzare i progetti in Workspace, consulta le [domande frequenti](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57) e analizza le [differenze terminologiche](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57) tra Ad Hoc Analysis e Workspace.
 
