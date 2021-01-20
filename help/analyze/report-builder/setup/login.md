@@ -4,55 +4,25 @@ title: Accesso di Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
+source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 4%
+source-wordcount: '342'
+ht-degree: 5%
 
 ---
 
 
 # Accesso di Report Builder
 
->[!IMPORTANT]
->
->La versione di Report Builder 5.6.47 e versioni successive supporta solo  login di Experience Cloud e non supporta accessi legacy quali Site Catalyst Single Sign-On o Accesso standard. Entro il 30 aprile 2021, tutti gli utenti del Report Builder devono aggiornare il componente aggiuntivo di Report Builder alla versione 5.6.47 o successiva, che include un aggiornamento critico del processo di accesso.
+Informazioni sui tre modi in cui accedere al Report Builder.
 
-Per accedere al Report Builder, usate il vostro account di accesso  Experience Cloud.
+Al momento, quando si fa clic su **[!UICONTROL Sign In]** al Report Builder sono disponibili le seguenti opzioni di login.
 
-## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
-
-L&#39;accesso al Experience Cloud  consente di utilizzare l&#39;Enterprise ID  (e-mail e password) per accedere all&#39;Adobe Experience Cloud. Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzato alla pagina di accesso singolo della società. Per ulteriori informazioni sull&#39;Enterprise ID , fare clic su [qui](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
-
-![](assets/adobe_id_login.png)
-
->[!NOTE]
->
->L&#39;accesso al Experience Cloud  è basato sulla sessione e il token scade dopo 30 giorni.
-
-## Accedere a Report Builder
-
-Per accedere al Report Builder
-
-1. In Excel, fare clic su **[!UICONTROL Add-Ins]**.
-1. Fai clic su **[!UICONTROL Sign In]**. Altre azioni che consentono di effettuare l’accesso:
-
-   * Fai clic su **[!UICONTROL Create]**.
-   * [Selezionate una richiesta in Gestore](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) richieste, quindi fate clic su  **[!UICONTROL Add]** o  **[!UICONTROL Manage]**.
-   * Fate doppio clic su una richiesta in Excel.
-
-1. Completare i campi nella pagina [!UICONTROL Login], quindi fare clic su **[!UICONTROL OK]**.
-
-## Tipi di accesso legacy
-
->[!IMPORTANT]
->
->Entro il 30 aprile 2021, i tipi di accesso legacy non funzioneranno. Tutti gli utenti di Report Builder devono aggiornare il componente aggiuntivo di Report Builder alla versione 5.6.47 o successiva, che include un aggiornamento critico del processo di accesso. **La versione di Report Builder 5.6.47 e versioni successive supporta solo  login di Experience Cloud e non supporta accessi legacy quali Accesso standard o Accesso singolo a Site Catalyst.**
-
-<!-- ![](assets/login_screen.png) -->
+![](assets/login_screen.png)
 
 * [Standard](/help/analyze/report-builder/setup/login.md#section_6D54B8ADAE7F416BB83F5082B3771CFA)
-* [SiteCatalyst Single Sign-On](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
+* [Single Sign-On](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
+* [Experience Cloud  e Single Sign-On](/help/analyze/report-builder/setup/login.md#section_1FA230F35AB54021A874A7A28DE4C850)
 
 ## Standard {#section_6D54B8ADAE7F416BB83F5082B3771CFA}
 
@@ -73,3 +43,14 @@ Utilizzate questo login se desiderate accedere al Report Builder utilizzando le 
 Questo single sign-on (legacy) consente di accedere solo a  Adobe Analytics, non all’intero Experience Cloud .
 
 Puoi anche digitare un dominio e il sistema riconoscerà il dominio e ti reindirizzerà alla pagina di accesso della tua società per accedere a  Adobe Analytics.
+
+## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+
+L&#39;accesso al Experience Cloud  consente di utilizzare l&#39;Enterprise ID  (e-mail e password) per accedere all&#39;Adobe Experience Cloud. Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzato alla pagina di accesso singolo della società. Per ulteriori informazioni sull&#39;Enterprise ID , fare clic su [qui](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
+
+![](assets/adobe_id_login.png)
+
+>[!NOTE]
+>
+>L&#39;accesso al Experience Cloud  è basato sulla sessione e il token scade dopo 30 giorni.
+
