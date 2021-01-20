@@ -2,24 +2,24 @@
 title: Funzionamento delle riproduzioni
 description: Comprendere il concetto di "ripetizione" in Analytics multi-dispositivo
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
 # Funzionamento delle riproduzioni
 
-Analytics cross-device effettua due passaggi sui dati in una suite di rapporti virtuale:
+Analisi cross-device effettua due passaggi sui dati in una suite di rapporti virtuale:
 
 * **Colorazione** dal vivo: CDA tenta di cucire ogni hit mentre arriva. La rete di nuovi dispositivi alla suite di rapporti che non hanno mai eseguito l&#39;accesso non viene in genere unita a questo livello. I dispositivi già riconosciuti vengono cuciti immediatamente.
 * **Riproduci**: Circa una volta alla settimana, CDA &quot;riproduce&quot; i dati in base a identificatori univoci appresi. In questa fase vengono cuciti nuovi dispositivi della suite di rapporti.
 
 ## Esempio di tabella
 
-Le tabelle seguenti illustrano come i metodi CDA (cuciture[basate su](field-based-stitching.md) campi e grafico [](device-graph.md)del dispositivo) calcolano il numero di persone univoche:
+Le tabelle seguenti illustrano come sia i metodi CDA ([cuciture basate sul campo](field-based-stitching.md) che [Device Graph](device-graph.md)) calcolano il numero di persone univoche:
 
 ### Cuciture dal vivo
 
@@ -45,9 +45,9 @@ Gli hit non autenticati e autenticati sui nuovi dispositivi vengono conteggiati 
    Una terza persona cumulativa viene aggiunta anche quando viene pubblicato un cluster. Questa terza persona rappresenta il cluster stesso, oltre ai singoli dispositivi. Questa terza &quot;persona&quot; rimane finché non vengono riprodotti i dati.
 
    L&#39;attribuzione non funziona su più dispositivi fino a quando un cluster non viene pubblicato, e anche allora solo punti dal vivo da quel momento in poi. Nell’esempio precedente, nessuno degli hit è ancora incollato tra i dispositivi. L’attribuzione tra più dispositivi sugli hit esistenti non funziona fino a dopo la ripetizione dell’unione.
-* **Se si utilizza la cucitura basata sul campo,** gli hit non autenticati sui dispositivi riconosciuti vengono cuciti in tempo reale da quel momento in poi.
+* **Se si utilizza la cucitura basata sul campo, gli hit** non autenticati sui dispositivi riconosciuti vengono cuciti in tempo reale da quel momento in poi.
 
-   L&#39;attribuzione funziona non appena la variabile personalizzata di identificazione si collega a un dispositivo. Nell’esempio precedente, tutti gli hit tranne gli hit 1 e 3 sono live-cucite (usano tutti l’ `Bob` identificatore). L&#39;attribuzione funziona sugli hit 1 e 3 dopo la ripetizione dell&#39;unione dei punti.
+   L&#39;attribuzione funziona non appena la variabile personalizzata di identificazione si collega a un dispositivo. Nell’esempio precedente, tutti gli hit tranne i hit 1 e 3 sono live-cucite (usano tutti l’identificatore `Bob`). L&#39;attribuzione funziona sugli hit 1 e 3 dopo la ripetizione dell&#39;unione dei punti.
 
 ### Ripetizione delle cuciture
 
@@ -69,5 +69,5 @@ Circa una volta alla settimana, CDA ricalcola i dati storici in base ai disposit
 ## Recap
 
 * **Se si utilizza Device Graph,** i dati vengono cuciti quando un cluster viene pubblicato (in genere da 3 a 2 settimane).
-* **Se si utilizza la cucitura basata su campo,** i dati di meno di una settimana vengono immediatamente cuciti sui dispositivi noti, ma non vengono immediatamente cuciti sui dispositivi nuovi o non riconosciuti.
+* **Se si utilizza la cucitura basata su Field,** i dati di meno di una settimana fa subito cuciture note, ma non immediatamente cucire dispositivi nuovi o non riconosciuti.
 * I dati vengono riprodotti una volta alla settimana e i dati storici nella suite di rapporti virtuali vengono modificati in base ai dispositivi che ha imparato a identificare.
