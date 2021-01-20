@@ -1,16 +1,16 @@
 ---
-title: Configurare l'analisi tra dispositivi
+title: Configurare Analytics tra dispositivi
 description: Configurare una suite di rapporti virtuale per abilitare CDA.
 translation-type: tm+mt
-source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Configurare l&#39;analisi tra dispositivi
+# Configurare Analytics tra dispositivi
 
 Una volta soddisfatti tutti i prerequisiti, attenetevi alla seguente procedura per abilitare l&#39;analisi tra dispositivi. Per seguire questa procedura, devi appartenere a un gruppo Amministratore profilo di prodotto o avere privilegi di amministratore in  Adobe Analytics.
 
