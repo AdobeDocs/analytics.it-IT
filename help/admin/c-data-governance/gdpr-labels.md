@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Esempi di etichette sulla privacy dei dati per  variabili Adobe Analytics
 title: Etichette Privacy dei dati per le variabili di Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '3634'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '3642'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ L’implementazione Privacy dei dati in Adobe Analytics supporta le seguenti eti
 >
 >Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per tutte le soluzioni, i servizi e le piattaforme di Adobe al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, dati sensibili e vincoli di contratto associati a questi. In questa versione iniziale Analytics espone solo le etichette DULE pertinenti alla Privacy dei dati. Poiché altri prodotti Adobe implementano il supporto per le etichette DULE, le versioni future introdurranno altre etichette per i dati sensibili, nonché etichette contrattuali che garantiranno che i dati condivisi tra i prodotti verranno usati solo nei modi consentiti dalla legge.
 
-## Etichette per i dati di identità (DULE) {#identity-data-labels}
+## Etichette per i dati di identità (DULE)  {#identity-data-labels}
 
 Le etichette “I” per i dati di identità sono usate per organizzare in categorie i dati che possono identificare o consentono di contattare una persona specifica.
 
@@ -63,7 +63,7 @@ Le etichette “I” per i dati di identità sono usate per organizzare in categ
  </tbody> 
 </table>
 
-## Etichette per i dati sensibili (DULE) {#sensitive-data-labels}
+## Etichette per i dati sensibili (DULE)  {#sensitive-data-labels}
 
 Le etichette “S” per i dati sensibili vengono usate per organizzare in categorie i dati sensibili, come i dati geografici. Per identificare altri tipi di informazioni riservate, verranno introdotte etichette di dati riservati aggiuntive.
 
@@ -205,7 +205,7 @@ Si prevede che per molte variabili verranno applicate le etichette di accesso, m
  </tbody> 
 </table>
 
-## Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene richiesto di fornire un namespace. Puoi usare il namespace definito in precedenza o puoi definirne uno nuovo.
 
@@ -276,7 +276,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
   <tr> 
    <td colname="col1"> <p>Classificazioni </p> </td> 
    <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON, </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>ID-DISPOSITIVO, ID-PERSONA </p> <p>DEL-DISPOSITIVO, DEL-PERSON </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -290,12 +290,12 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
   <tr> 
    <td colname="col1"> <p>La maggior parte delle altre variabili </p> <p><i>(Consulta la tabella seguente per le eccezioni)</i> </p> </td> 
    <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DISPOSITIVO, ID-PERSONA </p> <p>DEL-DISPOSITIVO, DEL-PERSON </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Variabili a cui è possibile assegnare etichette diverse da ACC-ALL/ACC-PERSON/Modificata da {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variabili a cui è possibile assegnare etichette diverse da ACC-ALL/ACC-PERSON/Modificata da  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -358,7 +358,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
  </tbody> 
 </table>
 
-## Gestione dell’eliminazione {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Gestione dell’eliminazione  {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Il supporto Adobe Analytics per le richieste di eliminazione Privacy dei dati è progettato per ridurre l’impatto sulla creazione di rapporti. Nella maggior parte dei casi, le metriche visualizzate nei rapporti non devono essere modificate. Un rapporto storico eseguito prima dell’eliminazione Privacy dei dati corrisponde allo stesso rapporto eseguito dopo l’eliminazione. Questa operazione viene eseguita disassociando completamente i dati eliminati dai dati interessati, lasciando intatti i dati non-identificabili in modo che i valori del rapporto rimangano coerenti.
 
@@ -446,7 +446,7 @@ Questa sezione contiene informazioni sulle variabili Analytics che non supportan
  </tbody> 
 </table>
 
-## Campi di dati per le richieste di accesso {#section_6678FB4FF42B481C9B78E64F61782397}
+## Campi di dati per le richieste di accesso  {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Esistono cinque variabili standard che contengono la marca temporale:
 
