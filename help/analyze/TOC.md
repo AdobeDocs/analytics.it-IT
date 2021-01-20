@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
+source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1104'
 ht-degree: 99%
 
 ---
@@ -135,6 +135,7 @@ ht-degree: 99%
       + [Installare Report Builder](report-builder/setup/t-install-arb.md)
       + [Aggiornare Report Builder](report-builder/setup/upgrade-arb.md)
       + [Accesso di Report Builder](report-builder/setup/login.md)
+      + [Accedere a Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Disinstallare Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
    + [Barra degli strumenti di Report Builder](report-builder/reportbuilder-toolbar.md)
