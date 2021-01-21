@@ -5,7 +5,7 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 99%
@@ -51,7 +51,7 @@ ht-degree: 99%
          + [Paginazione, filtri e ordinamento di tabelle](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
          + [Totali in Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabella coorte {#cohort-table}
-         + [L&#39;analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [L’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare un rapporto di analisi per coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casi di utilizzo dell’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abbandono {#fallout}
