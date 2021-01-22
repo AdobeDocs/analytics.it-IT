@@ -1,12 +1,11 @@
 ---
-description: 'Esempio di combinazione tra la libreria AppMeasurement e il modulo Activity Map '
-title: Esempio di codice di implementazione
+description: Esempio di come la libreria AppMeasurement e il modulo Activity Map  vengono combinati nel codice  implementazione Adobe Analytics
+title: Visualizza esempio  codice di implementazione Activity Map
 topic: Activity map
-uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
