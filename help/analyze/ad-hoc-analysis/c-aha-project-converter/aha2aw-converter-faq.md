@@ -1,12 +1,11 @@
 ---
-description: ' Ad Hoc Analysis alle  domande frequenti sul convertitore di progetti Analysis Workspace'
-title: Domande frequenti su Project Converter
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
+description: Domande frequenti sul  Ad Hoc Analysis a  Analysis Workspace project converter
+title: Domande frequenti sul  Ad Hoc Analysis-to- Analysis Workspace Project Converter
 translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 90%
+source-wordcount: '951'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 90%
 ## Problemi di conversione noti {#section_39C922A58B2E49C9877B363042801361}
 
 | Problema | Descrizione |
-|--- |--- |
+| --- | --- |
 | Granularità al minuto con suddivisioni o in colonne | Se alla granularità al minuto è applicata una suddivisione o se la granularità dei minuti è presente in colonne, il progetto non può essere convertito in Analysis Workspace.  Una soluzione consiste nel rimuovere la suddivisione dalla granularità al minuto e rimuoverla dalle colonne, quindi convertire il progetto. Puoi quindi applicare le suddivisioni alla granularità al minuto in Analysis Workspace. |
 | Metrica interna calcolata utilizzata insieme a un segmento di colonna | Se utilizzi una metrica interna calcolata insieme a un segmento di colonna, il progetto non può essere convertito in Analysis Workspace. Per risolvere questo problema, rimuovi le metriche interne calcolate dal progetto prima della conversione, quindi aggiungile di nuovo in Analysis Workspace. |
 
