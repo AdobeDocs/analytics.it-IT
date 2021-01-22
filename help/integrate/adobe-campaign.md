@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: Reportistica di Adobe Campaign
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: Scoprite come abilitare  report Adobe Campaign in  Adobe Analytics
+title: Come posso integrare  Adobe Campaign Reporting in  Adobe Analytics?
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Per visualizzare i dati di Campaign in Analytics devi prima abilitare la reporti
 
 L’integrazione tra Adobe Campaign Standard e Adobe Analytics aggiunge il seguente rapporto in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Rapporto </th> 
-   <th colname="col2" class="entry"> Definizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>ID consegna eseguita di Adobe Campaign </p> </td> 
-   <td colname="col2"> <p>Mostra i dati importati da Adobe Campaign sulle e-mail inviate da Adobe Campaign. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Rapporto | Definizione |
+|--- |--- |
+| ID consegna eseguita di Adobe Campaign | Mostra i dati importati da Adobe Campaign sulle e-mail inviate da Adobe Campaign. |
 
 ## Passaggio 3: usare le classificazioni di Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
