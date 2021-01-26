@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 99%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 99%
       + [Panoramica sui progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Più suite di rapporti](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [Suite di rapporti multiple](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Visualizza densità](analysis-workspace/build-workspace-project/view-density.md)
@@ -135,7 +135,6 @@ ht-degree: 99%
       + [Installare Report Builder](report-builder/setup/t-install-arb.md)
       + [Aggiornare Report Builder](report-builder/setup/upgrade-arb.md)
       + [Accesso di Report Builder](report-builder/setup/login.md)
-      + [Accedere a Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Disinstallare Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
    + [Barra degli strumenti di Report Builder](report-builder/reportbuilder-toolbar.md)
