@@ -2,10 +2,10 @@
 title: Collegamento personalizzato
 description: Nome del collegamento personalizzato.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 2%
 
 ---
 
@@ -16,14 +16,10 @@ La dimensione &quot;Collegamento personalizzato&quot; indica i nomi dei collegam
 
 ## Compilare questa dimensione con i dati
 
-Questa dimensione raccoglie i dati dalla stringa [`pev2` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini per gli hit che dispongono anche della stringa di `pe` query con il valore di `lnk_o`. Se la stringa di `pe` query ha un valore diverso nell’hit, questa dimensione non raccoglie dati.
+Questa dimensione raccoglie i dati dalla [`pev2` stringa query](/help/implement/validate/query-parameters.md) nelle richieste di immagini per gli hit che dispongono anche della stringa di query `pe` con il valore di `lnk_o`. Se la stringa di query `pe` ha un valore diverso nell&#39;hit, questa dimensione non raccoglie dati.
 
-Se vuoi inviare dati a questa dimensione utilizzando AppMeasurement:
+Se desiderate inviare dati a questa dimensione utilizzando AppMeasurement, inviate una richiesta di immagine [`tl()`](/help/implement/vars/functions/tl-method.md) con un argomento del tipo di collegamento `"o"`. Compilare l’argomento del nome del collegamento con il valore desiderato.
 
-* Compilare la [`linkName`](/help/implement/vars/config-vars/linkname.md) variabile con il valore desiderato.
-* Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"o"`.
-* Invia una richiesta di [`tl()`](/help/implement/vars/functions/tl-method.md) immagine.
+## Elementi Dimension
 
-## Elementi dimensione
-
-Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina gli elementi dimensione. Adobe consiglia di raggruppare i collegamenti in categorie significative in base alle esigenze di reporting.
+Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina gli elementi dimensione.  Adobe consiglia di raggruppare i collegamenti in categorie significative in base alle esigenze di reporting.
