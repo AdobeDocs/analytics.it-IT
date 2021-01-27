@@ -5,10 +5,10 @@ user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 94%
+source-wordcount: '483'
+ht-degree: 93%
 
 ---
 
@@ -34,10 +34,8 @@ ht-degree: 94%
       + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
       + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
       + [linkLeaveQueryString](vars/config-vars/linkleavequerystring.md)
-      + [linkName](vars/config-vars/linkname.md)
       + [linkTrackEvents](vars/config-vars/linktrackevents.md)
       + [linkTrackVars](vars/config-vars/linktrackvars.md)
-      + [linkType](vars/config-vars/linktype.md)
       + [linkURL](vars/config-vars/linkurl.md)
       + [offlineHitLimit](vars/config-vars/offlinehitlimit.md)
       + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
