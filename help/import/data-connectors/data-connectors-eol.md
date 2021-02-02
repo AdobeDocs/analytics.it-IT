@@ -2,9 +2,9 @@
 description: Scopri quando e perché i connettori dati di Analytics saranno terminati.
 title: Annuncio preliminare di fine vita per i connettori dati di Analytics
 translation-type: tm+mt
-source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
+source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '531'
 ht-degree: 12%
 
 ---
@@ -60,7 +60,7 @@ Per ulteriori domande o supporto, contatta l&#39;Assistenza clienti  Adobe.
 | Delivra | Obsoleto |
 | Demandbase CA | Obsoleto |
 | Demandbase v3 | Obsoleto |
-| DialogTech | Obsoleto |
+| DialogTech | Disponibile su  Adobe Exchange |
 | DoubleClick for Advertiser (DFA) | Obsoleto |
 | SOGNO | Obsoleto |
 | DREAMmail 2.0 | Obsoleto |
