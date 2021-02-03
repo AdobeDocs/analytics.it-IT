@@ -5,9 +5,9 @@ user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
 translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 93%
 
 ---
@@ -118,10 +118,11 @@ ht-degree: 93%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Suite numeri](vars/plugins/numberssuite.md)
+      + [Suite di numeri](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
+      + [websiteBot](vars/plugins/websitebot.md)
    + [Integrate Module](vars/integrate.md)
 + Preparazione all’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello di dati](prepare/data-layer.md)
