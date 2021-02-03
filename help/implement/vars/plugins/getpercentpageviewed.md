@@ -2,36 +2,34 @@
 title: getPercentPageViewed
 description: Recuperate la percentuale della pagina visualizzata dal visitatore.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
 
 
-# Plug-in Adobe: getPercentPageViewed
+#  plug-in di Adobe: getPercentPageViewed
 
 >[!IMPORTANT]
 >
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>Questo plug-in è fornito da  Adobe Consulting come una cortesia per aiutarvi a ottenere più valore da  Adobe Analytics. &#39;Assistenza clienti di Adobe non fornisce supporto con questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
 
-Il `getPercentPageViewed` plug-in misura l&#39;attività di scorrimento di un visitatore per vedere la quantità di pagina visualizzata prima di passare a un&#39;altra pagina. Questo plug-in non è necessario se le pagine sono piccole in altezza o se non si desidera misurare l&#39;attività di scorrimento.
+Il plug-in `getPercentPageViewed` misura l&#39;attività di scorrimento di un visitatore per vedere la quantità di pagina visualizzata prima di passare a un&#39;altra pagina. Questo plug-in non è necessario se le pagine sono piccole in altezza o se non si desidera misurare l&#39;attività di scorrimento.
 
 ## Installare il plug-in utilizzando l&#39;editor di codice personalizzato Launch
 
-Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#39;editor di codice personalizzato.
-
 1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
 1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
-1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics .
+1. Espandere il [!UICONTROL Configure tracking using custom code] Accordion, che mostra il pulsante [!UICONTROL Open Editor].
 1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche nell’estensione Analytics .
+1. Salvate e pubblicate le modifiche all&#39;estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenendo i commenti e i numeri di versione del codice nell’implementazione,  Adobe può risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -48,10 +46,10 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## Utilizzare il plug-in
 
-Il `getPercentPageViewed` metodo utilizza i seguenti argomenti:
+Il metodo `getPercentPageViewed` utilizza gli argomenti seguenti:
 
-* **`pid`** (facoltativo, stringa):  Un identificatore basato sulla pagina può essere correlato alle percentuali fornite dalle misurazioni del plug-in.  Il valore predefinito è la `pageName` variabile.
-* **`ch`** (facoltativo, booleano):  Impostate questo valore su `false` (o `0`) se non desiderate che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il caricamento iniziale. Se omesso, l&#39;argomento verrà impostato per impostazione predefinita su `true`. Nella maggior parte dei casi, Adobe consiglia di omettere questo argomento.
+* **`pid`** (facoltativo, stringa): Un identificatore basato sulla pagina può essere correlato alle percentuali fornite dalle misurazioni del plug-in.  Il valore predefinito è la variabile `pageName`.
+* **`ch`** (facoltativo, booleano): Impostate questo valore su  `false` (o  `0`) se non desiderate che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il caricamento iniziale. Se omesso, l&#39;argomento verrà impostato come predefinito su `true`.  Adobe consiglia di omettere questo argomento nella maggior parte dei casi.
 
 La chiamata di questo metodo non restituisce nulla; imposta invece le seguenti variabili:
 
@@ -64,7 +62,7 @@ La chiamata di questo metodo non restituisce nulla; imposta invece le seguenti v
 
 Assegnare una o più di queste variabili alle eVar per visualizzare i dati delle dimensioni nei report.
 
-Questo plug-in crea un cookie first-party denominato `s_ppv` che contiene i valori indicati sopra. Scade alla fine della sessione del browser.
+Questo plug-in crea un cookie di prime parti denominato `s_ppv` che contiene i valori indicati sopra. Scade alla fine della sessione del browser.
 
 ## Chiamate di esempio
 
@@ -87,7 +85,7 @@ if(s._ppvPreviousPage)
    * Il codice imposta s.prop1 uguale al valore di s._ppvPreviousPage (ovvero il valore precedente di s.pageName o la pagina precedente)
    * Il codice imposta anche s.prop2 uguale alla percentuale più alta visualizzata della pagina precedente e alla percentuale iniziale visualizzata della pagina precedente, insieme al numero di cartelle raggiunte dal visitatore e al numero di cartelle disponibili
 
-**Nota**:  Se un’intera pagina viene visualizzata al primo caricamento, sia la percentuale massima visualizzata che la percentuale iniziale visualizzata saranno uguali a 100, sia le cartelle visualizzate che le cartelle disponibili saranno uguali a 1.   Quando un&#39;intera pagina NON è visibile quando viene caricata per la prima volta ma il visitatore non scorre mai verso il basso prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
+**Nota**: Se un’intera pagina viene visualizzata al primo caricamento, sia la percentuale massima visualizzata che la percentuale iniziale visualizzata saranno uguali a 100, sia le cartelle visualizzate che le cartelle disponibili saranno uguali a 1.   Quando un&#39;intera pagina NON è visibile quando viene caricata per la prima volta ma il visitatore non scorre mai verso il basso prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
 
 ### Esempio n. 2
 
@@ -108,7 +106,7 @@ if(s._ppvPreviousPage)
 
 ### v4.0 (7 ottobre 2019)
 
-* Aggiunte `s._ppvFoldsSeen` e `s._ppvFoldsAvailable` soluzioni
+* Sono state aggiunte soluzioni `s._ppvFoldsSeen` e `s._ppvFoldsAvailable`
 
 ### v3.01 (13 agosto 2018)
 
@@ -117,4 +115,4 @@ if(s._ppvPreviousPage)
 ### v3.0 (13 aprile 2018)
 
 * Rilascio punto (ricompilato, dimensioni del codice più piccole)
-* Il plug-in ora crea variabili da assegnare alle variabili Adobe  Analytics invece dei valori restituiti
+* Il plug-in ora crea variabili da assegnare a  variabili Adobe Analytics invece dei valori restituiti
