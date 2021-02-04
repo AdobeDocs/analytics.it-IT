@@ -1,12 +1,12 @@
 ---
-description: Questa visualizzazione Workspace è simile a un grafico a linee, ma con un’area colorata sotto la linea.
+description: Questa visualizzazione di Workspace è simile a un grafico a linee, ma la superficie al sotto di ogni linea è colorata.
 title: Superfici e superfici sovrapposte
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '99'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
