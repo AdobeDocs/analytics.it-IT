@@ -1,16 +1,16 @@
 ---
-description: Come utilizzare la palette dei colori di visualizzazione in  Analysis Workspace
-title: Cosa sono le palette Colore visualizzazione e come funzionano?
-translation-type: tm+mt
+description: Come utilizzare la palette dei colori di visualizzazione in Analysis Workspace
+title: Cosa sono le palette di colori di visualizzazione e come funzionano?
+translation-type: ht
 source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# Palette colori visualizzazione
+# Palette di colori di visualizzazione
 
 È possibile modificare la palette di colori di visualizzazione utilizzata in Workspace scegliendo una palette di colori diversa o specificando una propria palette corrispondente ai colori del marchio aziendale. Questa funzione interessa gran parte delle visualizzazioni in Workspace, ma **non** influisce sulle modifiche di riepilogo, sulla formattazione condizionale nelle tabelle a forma libera e sulla vista Mappa.
 
