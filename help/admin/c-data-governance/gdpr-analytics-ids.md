@@ -1,12 +1,12 @@
 ---
-description: Comprendi gli ID acquisiti nei dati di Analytics e decidi quale utilizzerai per le richieste di privacy dei dati.
+description: Comprendi gli ID acquisiti nei dati di Analytics e decidi quale utilizzare per le richieste relative alla privacy dei dati.
 title: Tecniche di etichettatura consigliate
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2706'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Le etichette di cancellazione DEL-DEVICE e DEL-PERSON devono essere usate con mo
 
    Ad esempio, se tre risultati contengono il valore “foo” in eVar7, ma solo uno di essi contiene anche un ID in una variabile diversa che corrisponde a una cancellazione, il valore “foo” in quei risultati verrà modificato in un valore simile a “Privacy dei dati-123456789”, mentre rimarrà invariato negli altri due risultati. Un rapporto che mostra il numero di valori univoci per eVar7 mostrerà ora anche un altro valore univoco. Un rapporto che mostra i valori più importanti per eVars può includere il valore “foo” con due sole istanze (invece delle 3 precedenti). Anche il nuovo valore verrà visualizzato con una sola istanza.
 
-## Tecniche consigliate per l&#39;impostazione delle etichette di accesso  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Tecniche consigliate per l&#39;impostazione delle etichette di accesso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Sebbene pochissimi campi avranno un’etichetta diversa, in molti campi spesso saranno presenti le etichette ACC. Il tipo di etichetta di accesso adeguato dipende dagli ID usati per le richieste di Privacy dei dati.
 
