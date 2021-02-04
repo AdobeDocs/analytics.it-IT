@@ -1,12 +1,12 @@
 ---
-description: Mostra esempi su come etichettare i dati per i dati hit, le richieste di accesso, le richieste di eliminazione
+description: Mostra esempi su come etichettare i dati per i dati relativi agli hit, le richieste di accesso, le richieste di eliminazione
 title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Supponi di avere i dati seguenti:
 
 | Etichette | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Variable Name** <br> **(Namespace)** | **MyProp1** <br> **(user)** | **ID visitatore** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
+| **Nome variable** <br> **(Namespace)** | **MyProp1** <br> **(utente)** | **ID visitatore** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -39,7 +39,7 @@ Se si invia una richiesta di accesso, il file di riepilogo conterrà i valori in
 
 | Valori API | Valori API | Tipo di file restituito | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> | Dati in un file di accesso di riepilogo<br> |
 |--- |--- |--- |---|---|---|---|---|
-| **Namespace/ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **Namespace/ID** | **expandIDs** |  | **MyProp1** | **ID visitatore** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
 | AAID=77 | true | dispositivo | Variabile assente | 77 | Variabile assente | M, P | X, W |
 | user=Mary | false | persona | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
@@ -56,7 +56,7 @@ Si noti che le impostazioni di expandIDs non cambiano nell’output quando viene
 
 Se la richiesta di cancellazione usa i valori dell’API nella prima riga della tabella, la tabella dei risultati verrà aggiornata e apparirà come la seguente:
 
-| AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
+| AAID=77 Il valore expandIDs<br>non influisce | AAID=77 Il valore expandIDs<br>non influisce | AAID=77 Il valore expandIDs<br>non influisce | AAID=77 Il valore expandIDs<br>non influisce | AAID=77 Il valore expandIDs<br>non influisce |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Mary | 42 | A | Privacy-7398 | Privacy-9152 |
