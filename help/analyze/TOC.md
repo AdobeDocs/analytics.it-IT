@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
 source-wordcount: '1099'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,8 +89,8 @@ ht-degree: 99%
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Cura o condividi progetti {#curate-share}
-      + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
+   + Curare o condividere progetti {#curate-share}
+      + [Menu Condividi](analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
@@ -106,7 +106,7 @@ ht-degree: 99%
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
-      + Detección de anomalías {#anomaly-detection}
+      + Rilevamento delle anomalie {#anomaly-detection}
          + [Panoramica di Rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualizzare le anomalie in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [Disattivare il rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
@@ -183,7 +183,7 @@ ht-degree: 99%
          + [Autorizzazioni di accesso utente per dimensioni e metriche](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [Modificare le metriche: definizioni dei campi](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
          + [Attributi cliente](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
-      + [Detección de anomalías](report-builder/layout/anomaly-detection.md)
+      + [Rilevamento delle anomalie](report-builder/layout/anomaly-detection.md)
       + [Configurare una richiesta di rilevamento delle anomalie](report-builder/layout/t-anomaly.md)
       + [Formattare la data](report-builder/layout/format-the-data.md)
       + [Formattare le intestazioni di visualizzazione](report-builder/layout/t-format-display-headers.md)
@@ -194,8 +194,8 @@ ht-degree: 99%
       + [Configurare il layout personalizzato](report-builder/layout/configure-the-custom-layout.md)
       + [Mappare metriche e dimensioni alle celle](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Creare un micrografico](report-builder/layout/t-create-a-microchart.md)
-      + Dimensioni filtro {#filter-dimenson}
-         + [Panoramica delle dimensioni filtro](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
+      + Filtro delle dimensioni {#filter-dimenson}
+         + [Panoramica del filtro delle dimensioni](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [Filtraggio più comune](report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Filtri specifici](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
          + [Filtri salvati](report-builder/layout/c-filter-dimensions/saved-filters.md)
@@ -205,19 +205,19 @@ ht-degree: 99%
       + [Ordinare in modo crescente o decrescente](report-builder/manage-requests/sort-ascending-or-descending.md)
       + [Elementi del foglio di lavoro protetto](report-builder/manage-requests/protected-worksheet-elements.md)
       + [Modificare più richieste](report-builder/manage-requests/t-edit-multiple-requests.md)
-      + [Modifica metriche in più richieste](report-builder/manage-requests/edit-multiple-metrics.md)
+      + [Modificare le metriche in più richieste](report-builder/manage-requests/edit-multiple-metrics.md)
       + [Aggiornare una richiesta](report-builder/manage-requests/t-refresh-a-request.md)
       + [Aggiornare le richieste di tutti i fogli](report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [Aggiungere richieste dipendenti](report-builder/manage-requests/add-dependent-requests.md)
       + [Classificazione](report-builder/manage-requests/classification.md)
-      + Richieste copia {#copy-requests}
-         + [Panoramica delle richieste copia](report-builder/manage-requests/c-copy-requests/copy-requests.md)
-         + [Copia richieste semplici](report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
-         + [Copia richieste adiacenti](report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
-         + [Copia dei fogli di lavoro](report-builder/manage-requests/c-copy-requests/t-copy-worksheets.md)
+      + Copiare le richieste {#copy-requests}
+         + [Panoramica della copia delle richieste](report-builder/manage-requests/c-copy-requests/copy-requests.md)
+         + [Copiare richieste semplici](report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
+         + [Copiare richieste adiacenti](report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
+         + [Copiare dei fogli di lavoro](report-builder/manage-requests/c-copy-requests/t-copy-worksheets.md)
          + [Copiare richieste e fogli di lavoro tra le cartelle di lavoro](report-builder/manage-requests/c-copy-requests/t-copy-requests-and-worksheets-between-workbooks.md)
          + [Creare più copie di una richiesta](report-builder/manage-requests/c-copy-requests/t-create-more-than-one-copy-of-a-request.md)
-         + [Copia richieste referenziali](report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)
+         + [Copiare richieste referenziali](report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)
       + [Salvare una cartella di lavoro con le richieste](report-builder/manage-requests/save-a-workbook-with-requests.md)
       + [Specificare la formattazione condizionale](report-builder/manage-requests/specify-conditional-formatting.md)
       + [Modalità offline per la creazione e la modifica delle richieste](report-builder/manage-requests/offline-mode.md)
