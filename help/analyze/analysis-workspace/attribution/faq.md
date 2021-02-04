@@ -1,11 +1,11 @@
 ---
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 67%
 
 ## Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?
 
-Alcune metriche basate sulle visite, come [Voci](/help/components/metrics/entries.md) o [Bounce Rate](/help/components/metrics/bounce-rate.md), possono attribuire i dati a un periodo prima dell&#39;intervallo di date iniziale della finestra di reporting. Questa situazione è dovuta ai modelli di attribuzione che utilizzano una finestra di lookback, che determina l&#39;aspetto dell&#39;attribuzione di back per dare credito alle metriche. Lo scenario più comune è quando le visite passano la mezzanotte. Ad esempio:
+Alcune metriche basate sulle visite, come [Voci](/help/components/metrics/entries.md) o [Percentuale non recapitate](/help/components/metrics/bounce-rate.md), possono attribuire i dati a un periodo prima dell’intervallo di date iniziale della finestra di generazione rapporti. Questa situazione è dovuta ai modelli di attribuzione che utilizzano una finestra di lookback, che determina il periodo di tempo precedente da considerare per l’attribuzione del credito alle metriche. Lo scenario più comune è quando le visite attraversano la mezzanotte. Ad esempio:
 
-1. Un utente visita la pagina principale alle 11:55 del 7 settembre.
-1. Visitano diverse pagine, l&#39;ultima delle quali è avvenuta alle 12:05 AM 8 settembre.
-1. Una settimana dopo, esegui un report con tendenze giornaliere con intervallo di date 8 settembre - 14 settembre.
+1. Un utente visita la pagina principale alle 23:55 del 7 settembre.
+1. Poi visita diverse pagine, l’ultima delle quali alle 00:05 dell’8 settembre.
+1. Una settimana dopo, esegui un rapporto del trend giornaliero, con intervallo di date 8 settembre - 14 settembre.
 
-Metriche basate sugli hit, come [Visualizzazioni di pagina](/help/components/metrics/page-views.md), produrrebbero l&#39;output previsto; dati con tendenze giornaliere dall&#39;8 settembre al 14 settembre. Tuttavia, le metriche basate sulle visite mostreranno anche la visita di cui sopra il 7 settembre. La voce attribuita alla visita è avvenuta il 7 settembre, e la finestra di lookback per impostazione predefinita è 1 settembre - 31 settembre.
+Le metriche basate sugli hit, come [Visualizzazioni pagina](/help/components/metrics/page-views.md), produrrebbero l’output previsto; dati con tendenze giornaliere dall’8 settembre al 14 settembre. Tuttavia, le metriche basate sulle visite mostreranno anche la visita di cui sopra, del 7 settembre. L’entrata attribuita alla visita è avvenuta il 7 settembre e la finestra di lookback per impostazione predefinita è 1 settembre - 31 settembre.
 
-In questo esempio, il tasso di rimbalzo viene sempre visualizzato lo 0% il 7 settembre. Questa metrica è definita come `Bounces divided by Entries`, una metrica basata sugli hit divisa per una metrica basata sulle visite. I rimbalzi sono costituiti da una singola richiesta di immagine, per cui non possono estendersi per più giorni. Eventuali rimbalzi effettuati il 7 settembre si sono verificati all’esterno della finestra di reporting, causando un tasso di rimbalzo garantito dello 0% per quel giorno. In questo rapporto, anche altre metriche basate sugli hit mostrerebbero 0 per il 7 settembre, in quanto anche tali hit non si trovano nella finestra di reporting.
+In questo esempio, la Percentuale non recapitate è sempre 0% per il 7 settembre. Questa metrica è definita come `Bounces divided by Entries` ed è una metrica basata sugli hit divisa per una metrica basata sulle visite. I mancati recapiti sono costituiti da una singola richiesta di immagine, per cui non possono estendersi su più giorni. Eventuali mancati recapiti effettuati il 7 settembre si sono verificati oltre la finestra di reporting, causando la percentuale di mancato recapito garantita dello 0% per quel giorno. In questo rapporto, anche altre metriche basate sugli hit mostrerebbero 0 per il 7 settembre, in quanto anche tali hit non si trovano nella finestra di reporting.
 
-Considerate un altro esempio simile. L&#39;unica differenza tra l&#39;esempio seguente e quello precedente sono le date:
+Considera un altro esempio simile. L’unica differenza tra l’esempio seguente e quello precedente sono le date:
 
-1. Un utente visita la pagina principale alle 11:55 del 31 agosto.
-1. Visitano diverse pagine, l&#39;ultima delle quali è avvenuta alle 12:05 AM 1 settembre.
-1. Una settimana dopo, esegui un report con tendenze giornaliere compreso tra il 1° settembre e il 7 settembre.
+1. Un utente visita la pagina principale alle 23:55 del 31 agosto.
+1. Poi visita diverse pagine, l’ultima delle quali alle 00:05 del 1° settembre.
+1. Una settimana dopo, esegui un rapporto delle tendenze giornaliere compreso tra il 1° settembre e il 7 settembre.
 
-In questo esempio, Voci e tasso rimbalzo non visualizzavano i dati del 31 agosto. La finestra di lookback e la finestra di reporting iniziano il 1 settembre, quindi i dati non possono essere attribuiti a partire dal 31 agosto.
+In questo esempio, Voci e Percentuale non recapitate non presenterebbero alcun dato del 31 agosto. La finestra di lookback e la finestra di reporting iniziano il 1° settembre, quindi i dati non possono essere attribuiti a partire dal 31 agosto.
 
 ## Quando dovrei usare un lookback di attribuzione basato su visita, visitatore o personalizzato?
 
-La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore o personalizzato. Per cicli di conversione più lunghi, è consigliabile utilizzare intervalli di lookback personalizzati, in quanto sono l’unico tipo in grado di estrarre i dati precedenti all’intervallo di reporting
+La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore o personalizzato. Per cicli di conversione più lunghi, è consigliabile utilizzare intervalli di lookback personalizzati, in quanto sono l’unico tipo in grado di estrarre i dati precedenti all’intervallo di reporting.
 
 ## Come si confrontano proprietà e eVar quando si utilizza l’attribuzione?
 
@@ -57,7 +57,7 @@ I modelli di attribuzione sono disponibili al di fuori delle suite di rapporti v
 Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non supportate includono:
 
 * Tutte le metriche calcolate
-* Visitatori unici
+* Unique Visitors
 * Visite
 * Occorrenze
 * Visualizzazioni pagina
@@ -94,7 +94,7 @@ Poiché le dimensioni del canale di marketing dipendono da una definizione di vi
 
 Alcune dimensioni in Analytics possono contenere più valori su un singolo hit. Esempi comuni includono le variabili elenco e prodotti.
 
-Quando l’attribuzione viene applicata a hit con più valori, a tutti i valori dello stesso hit viene assegnato lo stesso credito. Poiché il credito può essere assegnato a molti valori, il totale del rapporto può essere diverso da quello di ogni singolo elemento di riga. Il totale del rapporto è deduplicato, mentre ogni singolo elemento dimensione riceve il credito appropriato.
+Quando l’attribuzione viene applicata a hit con più valori, a tutti i valori dello stesso hit viene assegnato lo stesso credito. Poiché il credito può essere assegnato a molti valori, il totale del rapporto può essere diverso da quello di ogni singolo elemento di riga. Il totale del rapporto è deduplicato, mentre ogni singolo elemento di dimensione ottiene il giusto credito.
 
 ## Come funziona l’attribuzione con la segmentazione?
 
@@ -106,4 +106,4 @@ Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit
 
 >[!NOTE]
 >
->Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro di report simile nasconderà semplicemente alcuni elementi dimensionali, senza alcun impatto sulle metriche elaborate per il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
+>Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro per la generazione di rapporti simile si limiterebbe a nascondere alcuni elementi di dimensione senza alcun impatto sulle metriche elaborate secondo il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
