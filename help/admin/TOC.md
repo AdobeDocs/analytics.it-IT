@@ -5,9 +5,9 @@ user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 99%
 
 ---
@@ -115,7 +115,6 @@ ht-degree: 99%
       + [Autorizzazione degli elementi per gli strumenti della suite di rapporti](admin-console/permissions/report-suite-tools.md)
       + [Autorizzazioni degli strumenti di Analytics](admin-console/permissions/analytics-tools.md)
    + [Prima guida dell&#39;amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
-   + [Creare una suite di rapporti](admin-console/create-report-suite.md)
 + Impostazioni aziendali {#company-settings}
    + [Panoramica delle impostazioni aziendali](company/c-company-settings.md)
    + [Livelli di accesso alle funzionalità](company/feature-access-levels.md)
