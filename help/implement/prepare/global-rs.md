@@ -2,7 +2,7 @@
 title: Suite di rapporti globali in  Adobe Analytics
 description: Scopri i vantaggi e i requisiti di una suite di rapporti globale.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tut
 
 Utilizzate le seguenti linee guida generali per comprendere il processo di implementazione di una suite di rapporti globale.
 
-1. Crea la suite di rapporti globale in  Adobe Analytics. Per ulteriori informazioni, consulta [Creare una suite di rapporti](../../admin/admin-console/create-report-suite.md) nella guida utente per l&#39;amministratore.
+1. Crea la suite di rapporti globale in  Adobe Analytics. Per ulteriori informazioni, consulta [Creare una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) nella guida utente per l&#39;amministratore.
 1. Collaborate con i team dell&#39;organizzazione responsabili per ogni dominio. Molti team hanno requisiti di reporting specifici per la propria area di attività.
 1. Registrazione e aggregazione di tutti questi requisiti in un [documento di progettazione della soluzione](solution-design.md). Se i team hanno requisiti simili per una dimensione, possono utilizzare la stessa variabile personalizzata. Ad esempio, se il sito A e il sito B richiedono entrambe una dimensione di breadcrumb, le implementazioni per entrambi i siti possono inviare tali dati tramite  eVar1.
 
