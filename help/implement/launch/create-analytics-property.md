@@ -2,7 +2,7 @@
 title: Creare una proprietà Analytics in Launch
 description: Create uno spazio per personalizzare il modo in cui vengono raccolti i dati, utilizzando  Adobe Experience Platform Launch.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ## Prerequisiti
 
-[Crea una suite](/help/admin/admin-console/create-report-suite.md)di rapporti: Creare un silo per i dati di Analytics da raccogliere
+[Crea una suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) di rapporti: Creare un silo per i dati di Analytics da raccogliere
 
 ## Creare una proprietà e installare estensioni vitali
 
@@ -26,7 +26,7 @@ Le proprietà sono contenitori sovrapposti che consentono di gestire i tag. Le e
 1. Fai clic su **[!UICONTROL New Property]**.
 1. Assegna alla tua proprietà un nome, ad esempio il titolo del tuo sito Web, e immetti il dominio sul quale vuoi implementare Analytics. Fai clic su **[!UICONTROL Save]**.
 1. Fate clic sulla nuova proprietà creata per specificarne le impostazioni.
-1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
+1. Fare clic sulla scheda **[!UICONTROL Extensions]**, quindi su **[!UICONTROL Catalog]**.
 1. Individua servizio identità, quindi fai clic su **[!UICONTROL Install]**.
 1. Tutte le impostazioni, incluso  ID organizzazione Experience Cloud, devono essere già compilate. Fai clic su **[!UICONTROL Save]**.
 1. Nel catalogo delle estensioni, individuare  Adobe Analytics e fare clic su **[!UICONTROL Install]**.
@@ -37,7 +37,7 @@ Gli elementi dati sono riferimenti a parti specifiche del sito per la raccolta d
 
 1. Andate a [launch.adobe.com](https://launch.adobe.com) ed effettuate l&#39;accesso, se richiesto.
 1. Fare clic sulla proprietà Launch che si desidera implementare sul sito.
-1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Create New Data Element]**.
+1. Fare clic sulla scheda **[!UICONTROL Data Elements]**, quindi su **[!UICONTROL Create New Data Element]**.
 1. Assegna all’elemento dati le seguenti impostazioni:
 
    * Nome: Nome pagina
@@ -58,18 +58,18 @@ Le regole associano gli elementi dati ai valori delle variabili Analytics e dete
 
 1. Andate a [launch.adobe.com](https://launch.adobe.com) ed effettuate l&#39;accesso, se richiesto.
 1. Fare clic sulla proprietà Launch che si desidera implementare sul sito.
-1. Fate clic **[!UICONTROL Create New Rule]** e denominatelo `Global Rule`.
+1. Fare clic su **[!UICONTROL Create New Rule]** e denominarlo `Global Rule`.
 1. Fate clic su **[!UICONTROL Add]** accanto agli eventi e immettete le seguenti impostazioni:
    * Estensione: Core
    * Tipo evento: Libreria Caricata (pagina in alto)
    * Nome: Core - Libreria caricata (Page Top)
    * Ordine: 50
 1. Fai clic su **[!UICONTROL Keep Changes]**.
-1. In **[!UICONTROL Actions]**, fate clic **[!UICONTROL Add]** e immettete le seguenti impostazioni:
+1. In **[!UICONTROL Actions]**, fare clic su **[!UICONTROL Add]** e immettere le seguenti impostazioni:
    * Estensione:  Adobe Analytics
    * Tipo azione: Imposta variabili
-   * Nome pagina: fate clic sull&#39;icona del contenitore e selezionate l&#39;elemento `Page Name` dati.
-   * Campaign: Parametro query con valore di `cid`
+   * Nome pagina: fate clic sull&#39;icona del contenitore e selezionate l&#39;elemento di dati `Page Name`.
+   * Campaign: Parametro query con un valore di `cid`
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 1. Fai clic sul segno più accanto alle azioni per aggiungere un’altra azione e immetti le seguenti impostazioni:
    * Estensione:  Adobe Analytics
@@ -81,10 +81,10 @@ Le regole associano gli elementi dati ai valori delle variabili Analytics e dete
 
 ## Documentazione e risorse aggiuntive
 
-* [documentazione](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)sulle estensioni Adobe Analytics: Documentazione completa specifica per l’estensione  Adobe Analytics in  Adobe Experience Platform Launch.
+* [ documentazione](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension) sulle estensioni Adobe Analytics: Documentazione completa specifica per l’estensione  Adobe Analytics in  Adobe Experience Platform Launch.
 * [Guida introduttiva a Launch](https://docs.adobelaunch.com/getting-started): Documentazione completa su Launch, inclusa una guida introduttiva più dettagliata
-* [Canale](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)Adobe Experience Platform Launch : Scopri come utilizzare Launch tramite i video
+* [Canale](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform) Adobe Experience Platform Launch : Scopri come utilizzare Launch tramite i video
 
 ## Passaggi successivi
 
-[Distribuisci l’implementazione di Analytics nel tuo ambiente](deploy-dev.md)di sviluppo: Ottenete il codice Analytics in un ambiente di test.
+[Distribuisci l’implementazione di Analytics nel tuo ambiente](deploy-dev.md) di sviluppo: Ottenete il codice Analytics in un ambiente di test.
