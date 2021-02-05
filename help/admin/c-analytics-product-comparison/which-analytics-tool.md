@@ -3,10 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 97%
+source-wordcount: '1181'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 
 >[!IMPORTANT]
 >
-> Adobe si sta muovendo  Ad Hoc Analysis fino alla fine del suo ciclo di vita il 1 marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
+>Adobe si prepara a rendere obsoleto Ad Hoc Analysis il 1° marzo 2021. [Ulteriori informazioni](https://adobe.ly/discoverworkspace)
 
 * Organizzare il lavoro del progetto in schede diverse
 * Utilizzare il rapporto Analisi del sito (rapporto “3D-pathing”)
@@ -68,13 +68,17 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)** sono utili 
    * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
    * Elaborazione completa: origini dati con marca temporale, elaborate come gli hit raccolti dai server Adobe. Ad esempio, i dati vengono inseriti direttamente nel percorso del visitatore.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(noti in precedenza come Genesis)** sono indicati nei seguenti casi:
+**[È necessario utilizzare ](https://www.adobeexchange.com/experiencecloud.html)** i Connettori dati:
 
 * Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. In genere, i Data Connectors incorporano dati di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** è indicato nei seguenti casi:
 
 * Quando devi caricare dei dati in Adobe Analytics e non puoi usare il codice di Adobe AppMeasurement o Mobile SDK.
+
+API di **[inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* API di inserimento dati e API di inserimento dati in blocco sono entrambi metodi per inviare dati di raccolta lato server a  Adobe Analytics. Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L&#39;API di inserimento dati di massa accetta file CSV formattati contenenti i dati dell&#39;evento, un evento per riga. Se state lavorando a una nuova implementazione della raccolta lato server, è consigliabile utilizzare l&#39;API di inserimento dati in blocco.
 
 Gli **[Attributi cliente](https://docs.adobe.com/content/help/it-IT/core-services/interface/customer-attributes/attributes.html)** sono indicati nei seguenti casi:
 
