@@ -1,11 +1,11 @@
 ---
 description: Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizione di ogni concetto e un collegamento specifico alla documentazione con informazioni aggiuntive sull'argomento.
 title: 'Adobe Analytics: concetti chiave'
-translation-type: ht
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
-workflow-type: ht
-source-wordcount: '1864'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
+workflow-type: tm+mt
+source-wordcount: '1876'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,11 @@ Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizio
 | Analysis Workspace | Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità rispetto a Reports and Analytics. | [Pagina principale di Analysis Workspace](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics (precedentemente SiteCatalyst) | Soluzione browser per la generazione di rapporti e analisi. Strumento di avvio nel pacchetto Analytics. | [Pagina principale di Reports and Analytics](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Componente aggiuntivo per Excel che consente di creare richieste personalizzate a partire da dati di Adobe Analytics e di visualizzarle con Microsoft Excel. | [Pagina principale di Report Builder](/help/analyze/report-builder/home.md) |
-| Ad Hoc Analysis (precedentemente Discover) | Strumento basato su Java per l&#39;analisi digitale avanzata. | [Pagina principale di Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
+| Ad Hoc Analysis (precedentemente Discover) | Strumento basato su Java per l&#39;analisi digitale avanzata. Data EOL: 1 marzo 2021. | [Pagina principale di Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench (precedentemente Insight) | Progettato per raccogliere, elaborare, analizzare e visualizzare dati dalle interazioni dei clienti online e offline su più canali. | [Client Data Workbench](https://docs.adobe.com/content/help/it-IT/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | Dati grezzi e non ancora elaborati per l’archiviazione e rapporti personalizzati, che puoi eseguire filtrando i dati. Non a livello hit. | [Pagina principale di Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Riunisce le funzionalità di marketing di applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni. | [Pagina principale di Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html) |
-| Data Connectors Adobe Exchange (precedentemente Genesis) | Importa dati di rilevamento da applicazioni di terze parti in Analytics, per offrire visibilità end-to-end alle prestazioni in un&#39;unica posizione centrale. | [Pagina principale dei Data Connectors](/help/import/data-connectors/data-connectors-eol.md) |
+| Data Connectors Adobe Exchange (precedentemente Genesis) | Importa dati di rilevamento da applicazioni di terze parti in Analytics, per offrire visibilità end-to-end alle prestazioni in un&#39;unica posizione centrale. A partire dal 1 agosto 2021,  Adobe intende interrompere le integrazioni dei Connettori dati. | [Pagina principale dei Data Connectors](/help/import/data-connectors/data-connectors-eol.md) |
 | Dynamic Tag Management (DTM) | Consente di gestire i tag Analytics, Target e altri tag in tutti i siti, indipendentemente dal numero di domini. | [Pagina principale di DTM](/help/implement/other/dtm/dtm-implementation-overview.md) |
 | Adobe Launch | La nuova generazione di funzionalità di gestione tag per siti Web e SDK per dispositivi mobili di Adobe. | [Pagina principale di Adobe Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) |
 
@@ -61,7 +61,7 @@ Fai clic [qui](/help/technotes/terms.md) per un glossario esteso dei termini di 
 | Rapporti sul percorso del cliente | Visualizza informazioni sul percorso seguito dagli utenti attraverso il sito o l&#39;app. In questa analisi di Analysis Workspace è possibile utilizzare Proprietà, eVar ed eventi. | [Abbandono in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Flusso in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Percorsi per Reports and Analytics](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Canali marketing | Report che ti aiuta a capire quali canali esterni veicolano gli utenti sul tuo sito e quali sono più efficaci nel promuovere la conversione. Vengono fornite le viste di attribuzione Primo e Ultimo tocco. Si tratta del miglior report sulle origini del traffico esterno in Adobe Analytics (piuttosto che Origini traffico o Campagne) in quanto consente di avere la visione più completa sia dei canali organici che pagati. | [Canali marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Visualizza informazioni sui siti Web visitati da dispositivi mobili o tablet. | [Rapporti sui dispositivi mobili](/help/components/dimensions/mobile-dimensions.md) |
-| App mobile | Visualizza informazioni d&#39;utilizzo base correlate alle tue app mobili. Questi report sono disponibili una volta che la nostra SDK viene implementata e il reporting è attivo.  Adobe Mobile Services ha inoltre creato un&#39;interfaccia per l&#39;app mobile separata in grado di fornire dati sull&#39;app più completi, consentendoti di comprendere e migliorare il coinvolgimento dell&#39;utente nei confronti delle tue app.  Accedi all&#39;interfaccia [qui](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html) |
+| App mobile | Visualizza informazioni d&#39;utilizzo base correlate alle tue app mobili. Questi report sono disponibili una volta che la nostra SDK viene implementata e il reporting è attivo.  Adobe Mobile Services ha inoltre creato un&#39;interfaccia per l&#39;app mobile separata in grado di fornire dati sull&#39;app più completi, consentendoti di comprendere e migliorare il coinvolgimento dell&#39;utente nei confronti delle tue app.  Accedi all&#39;interfaccia [qui](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | Prodotti | Identifica la modalità in cui i singoli prodotti e i gruppi di prodotti (categorie) contribuiscono alle varie metriche di conversione personali, come Entrate o Checkout. | [Rapporto sui prodotti](/help/components/dimensions/product.md) |
 | Confronto fra segmenti | Scopre le differenze più importanti dal punto di vista statistico tra i segmenti attraverso un&#39;analisi automatizzata di ogni metrica e dimensione a cui hai accesso. | [Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Rapporto sul contenuto del sito | Visualizza informazioni su quali pagine e aree del tuo sito risultano più attive e quali server vengono utilizzati maggiormente. | [Rapporto sul contenuto del sito](/help/components/dimensions/page.md) |
@@ -106,7 +106,7 @@ Fai clic [qui](/help/technotes/terms.md) per un glossario esteso dei termini di 
 
 | Metodo/Risorsa | Descrizione | Collegamento alla documentazione |
 | --- | --- | --- |
-| Risorse per gli sviluppatori | Documentazione che indica le librerie disponibili per la raccolta di dati di Analytics in tutte le piattaforme disponibili (Web, app mobili, video, flash, ecc.) | [Documenti per sviluppatori](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Riferimenti per sviluppatori | Documentazione che indica le librerie disponibili per la raccolta di dati di Analytics in tutte le piattaforme disponibili (Web, app mobili, video, flash, ecc.) | [Documenti per sviluppatori](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | Guida all&#39;implementazione | Una descrizione delle variabili di raccolta dati e informazioni sull&#39;implementazione dei codici di raccolta dati in JavaScript. | [Guida all&#39;implementazione](/help/implement/home.md) |
 | Misurazione app (s_code) | Gestione globale delle variabili. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | SDK per le app | Pacchetto personalizzato che include una versione pre-popolata del file di configurazione per le app. | <ul><li>[iOS](https://docs.adobe.com/content/help/it-IT/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/it-IT/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
