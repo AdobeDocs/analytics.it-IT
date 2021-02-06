@@ -5,10 +5,10 @@ user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
 translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 99%
+source-wordcount: '726'
+ht-degree: 95%
 
 ---
 
@@ -108,12 +108,12 @@ ht-degree: 99%
       + [Specificare la variabile Visitatore univoco](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Caso di utilizzo: estrazione degli ID visitatore](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestione video](admin/video-management.md)
-+ Experience Cloud in Admin Console {#admin-console}
-   + [Aiuto per Experience Cloud in Admin Console](admin-console/home.md)
++ Analisi in Adobe Admin Console {#admin-console}
+   + [Analisi in Adobe Admin Console](admin-console/home.md)
    + Autorizzazioni {#permissions}
-      + [Aiuto per il profilo prodotto](admin-console/permissions/product-profile.md)
-      + [Autorizzazione degli elementi per gli strumenti della suite di rapporti](admin-console/permissions/report-suite-tools.md)
-      + [Autorizzazioni degli strumenti di Analytics](admin-console/permissions/analytics-tools.md)
+      + [Profili di prodotto per  Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Autorizzazioni del profilo di prodotto per gli strumenti delle suite di rapporti](admin-console/permissions/report-suite-tools.md)
+      + [Autorizzazioni del profilo di prodotto per gli strumenti di Analytics](admin-console/permissions/analytics-tools.md)
    + [Prima guida dell&#39;amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
 + Impostazioni aziendali {#company-settings}
    + [Panoramica delle impostazioni aziendali](company/c-company-settings.md)
