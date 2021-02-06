@@ -1,16 +1,16 @@
 ---
-source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '646'
 ht-degree: 2%
 
 ---
-# Profili di prodotto in  Adobe Analytics
+# Profili di prodotto per  Adobe Analytics
 
-I profili di prodotto sono un predefinito di autorizzazione che gli amministratori di prodotto possono assegnare agli utenti all’interno di un’organizzazione. Se create un profilo di prodotto e assegnate un utente  Experience Cloud a tale profilo di prodotto, questi eredita gli elementi di autorizzazione contenuti nel profilo di prodotto.
+I profili di prodotto sono predefiniti di autorizzazione che gli amministratori di prodotto possono assegnare agli utenti all’interno di un’organizzazione. Se create un profilo di prodotto e assegnate un utente  Experience Cloud a tale profilo di prodotto, questi eredita gli elementi di autorizzazione contenuti nel profilo di prodotto.
 
-Consultate [Gestione di prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html) nella guida utente di Enterprise per informazioni generali sui profili di prodotto.
+Per informazioni generali sui profili di prodotto, consultate [Gestione di prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html) nella guida utente di Enterprise.
 
 ## Amministratori del profilo di prodotto
 
@@ -26,7 +26,7 @@ Gli amministratori dei profili di prodotto sono un gruppo facoltativo che può a
 Le autorizzazioni minime richieste in un profilo di prodotto per accedere  Adobe Analytics sono le seguenti:
 
 * Il profilo di prodotto deve avere accesso ad almeno una suite di rapporti
-* Il profilo di prodotto deve appartenere all’elemento di autorizzazione Strumenti di Analytics **Analysis Workspace Access** (o Accesso **a** Reporting e analisi)
+* Il profilo di prodotto deve appartenere all&#39;elemento di autorizzazione Strumenti di Analytics **Analysis Workspace Access** (o **Accesso a Reporting e analisi**)
 
 ### Suite di rapporti
 
@@ -46,14 +46,14 @@ Le variabili personalizzate, come le eVar, sono etichettate &#39;Conversione per
 
 ### Strumenti delle suite di rapporti
 
-Gli strumenti delle autorizzazioni della suite di rapporti concedono l&#39;accesso alle funzionalità specifiche delle suite di rapporti a cui l&#39;utente ha accesso. Consulta Strumenti [suite di](report-suite-tools.md) rapporti per un elenco completo delle autorizzazioni e delle descrizioni.
+Gli strumenti delle autorizzazioni della suite di rapporti concedono l&#39;accesso alle funzionalità specifiche delle suite di rapporti a cui l&#39;utente ha accesso. Per un elenco completo delle autorizzazioni e delle descrizioni, consultate [Strumenti delle suite di rapporti](report-suite-tools.md).
 
 ### Strumenti di Analytics
 
-Gli strumenti di analisi concedono l&#39;accesso alle funzioni che sono indipendenti dalle impostazioni della suite di rapporti. Consulta Strumenti [di](analytics-tools.md) Analytics per un elenco completo delle autorizzazioni e delle descrizioni.
+Gli strumenti di analisi concedono l&#39;accesso alle funzioni che sono indipendenti dalle impostazioni della suite di rapporti. Consultate [Autorizzazioni del profilo di prodotto per Analytics Tools](analytics-tools.md) per un elenco completo delle autorizzazioni e delle descrizioni.
 
 ## Sviluppatori di profili di prodotto
 
-Gli sviluppatori sono simili agli utenti, tranne per il fatto che possono utilizzare l&#39;API del Experience Cloud  nell&#39;I/O  Adobe. Per ulteriori informazioni, consulta [Gestione sviluppatori](https://helpx.adobe.com/enterprise/using/manage-developers.html) nella guida utente di Enterprise. Se a un utente viene concesso l&#39;accesso Developer per qualsiasi profilo, può accedere a Dev Console (console.adobe.io) e modificare  integrazioni Adobe Analytics. Le chiamate API di Analytics e le risposte autorizzate per l&#39;utente dipenderanno dalle autorizzazioni di rete di tutti i profili in cui l&#39;utente dispone di Developer Access.
+Gli sviluppatori sono simili agli utenti, ma gli viene concessa la possibilità di utilizzare l&#39;API  Experience Cloud su  Adobe I/O. Per ulteriori informazioni, vedi [Gestione sviluppatori](https://helpx.adobe.com/enterprise/using/manage-developers.html) nella guida utente di Enterprise. Se a un utente viene concesso l&#39;accesso Developer per qualsiasi profilo, può accedere a Dev Console (console.adobe.io) e modificare  integrazioni Adobe Analytics. Le chiamate API di Analytics e le risposte autorizzate per l&#39;utente dipenderanno dalle autorizzazioni di rete di tutti i profili in cui l&#39;utente dispone di Developer Access.
 
 Ad esempio, con le autorizzazioni del profilo che includono tutte le metriche, tutte le dimensioni e una suite di rapporti, un membro Developer Access del profilo potrebbe effettuare chiamate API rilevanti per qualsiasi componente della suite interessata. Con l&#39;aggiunta del rilevamento delle anomalie, i rapporti possono includere risposte più complete, aggiunte nei dati delle anomalie. Di regola, se un profilo concede l&#39;accesso a uno scenario all&#39;interno dell&#39;interfaccia Adobe Analytics , Developer Access su un profilo definito in modo simile consentirebbe le chiamate API e le risposte corrispondenti.
