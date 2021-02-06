@@ -1,8 +1,8 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ Gli elementi delle autorizzazioni Strumenti di Analytics concedono l&#39;accesso
 | Accesso in Analysis Workspace | Consente l&#39;accesso a  Analysis Workspace. Gli utenti devono appartenere a questo gruppo (preferito) o a Accesso a Reporting e analisi per utilizzare  Adobe Analytics. |
 | Accesso a Reports &amp; Analytics | Consente l&#39;accesso a Reporting e analisi. Gli utenti devono appartenere a questo gruppo o  Analysis Workspace Access (opzione preferita) per utilizzare  Adobe Analytics. |
 |  Analysis Workspace: Salva come modello | Consente di accedere a Progetto > Salva come modello in  Analysis Workspace. |
-| Accesso Labs | Attualmente in fase di sviluppo. Una volta rilasciato, concede l&#39;accesso ai laboratori. |
+| Accesso Labs | Consentite agli utenti di accedere ai laboratori e ai prototipi all&#39;interno dei laboratori. |
 | Creazione della metrica calcolata | Consente di creare metriche calcolate in tutte le funzionalità di Analytics. |
 | Creazione di segmenti | Consente di creare e condividere segmenti tra tutte le funzionalità di Analytics. |
 | Gestione di Advertising Analytics | Non utilizzato. |
