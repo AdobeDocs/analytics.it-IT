@@ -2,14 +2,18 @@
 title: Persone
 description: Il numero di singoli univoci, in genere con più dispositivi.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: 2a32ac1aafbbdfa4d0161666061fc9084af13fae
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 18%
+source-wordcount: '162'
+ht-degree: 6%
 
 ---
 
 
 # Persone
 
-La metrica &#39;Persone&#39; conta il numero di persone, o gruppi di dispositivi, in base  Adobe  Device Graph. È una rappresentazione più accurata del numero di visitatori [](unique-visitors.md)univoci. L&#39;utilizzo di questa metrica richiede l&#39;utilizzo di un grafico [del](https://docs.adobe.com/content/help/it-IT/device-co-op/using/data/people.html) dispositivo o di analisi [](../cda/overview.md)cross-device.
+Ci sono due versioni della metrica &#39;Persone&#39;.
+
+Per i membri di [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=it-IT) che non utilizzano l&#39;analisi multi-dispositivo [Cross-Device](../cda/overview.md), la metrica &#39;Persone&#39; è un conteggio statisticamente derivato del numero di persone rappresentate nel report. È il numero di ID visitatore identificati da Device Co-op più il numero di dispositivi che non sono identificati dal Co-op.
+
+All&#39;interno di una suite di rapporti virtuali [Analytics multi-dispositivo](../cda/overview.md), la metrica &#39;Persone&#39; è un conteggio diretto di individui univoci invece di una derivazione statistica. La definizione di persona in CDA è basata su Device Co-op, Private Graph o cuciture basate su campo, a seconda di come CDA è configurato per la suite di rapporti di base. Persone è la somma di individui identificati nel rapporto, più il numero di dispositivi che non sono stati identificati come appartenenti a una persona.
