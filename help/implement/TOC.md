@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 93%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Suite di numeri](vars/plugins/numberssuite.md)
+      + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
@@ -129,7 +129,7 @@ ht-degree: 93%
    + [Considerazioni globali sulla suite di report](prepare/global-rs.md)
    + [Modale di implementazione](prepare/implementation-modal.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
-   + [Affidarsi a un&#39;implementazione Adobe Analytics  esistente](prepare/existing-implementation.md)
+   + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
 + Implementazione di Analytics tramite JavaScript {#js}
    + [Panoramica di JavaScript](js/overview.md)
    + [Implementazione dei collegamenti di opt-out](js/opt-out.md)
@@ -193,7 +193,7 @@ ht-degree: 93%
    + [Implementazione di Analytics sugli articoli istantanei di Facebook](other/fb-instant-articles.md)
 + [Implementazione di Analytics su dispositivi mobili](mobile-device-sdk.md)
 + Casi di utilizzo dell’implementazione {#use-cases}
-   + [Usa AppMeasurement con iFrame](use-cases/iframe.md)
+   + [Utilizzare AppMeasurement con iFrame](use-cases/iframe.md)
    + [Tracciare diversi tipi di implementazione](use-cases/cross-type-implementation.md)
    + [Tracciamento e-mail esterno](use-cases/email-external.md)
 + Convalida dell’implementazione {#validate}
@@ -202,8 +202,8 @@ ht-degree: 93%
    + [Monitor per pacchetti](validate/packet-monitor.md)
    + [Collisioni hash](validate/hash-collisions.md)
 + [Domande frequenti](faq.md)
-+ Verifica la tua implementazione {#review}
-   + [Recensione focalizzata (dopo ogni rilascio del sito Web)](review/focused-review.md)
++ Verificare l’implementazione {#review}
+   + [Revisione mirata (dopo ogni rilascio del sito web)](review/focused-review.md)
    + [Revisione completa (ogni 6 mesi)](review/full-review.md)
    + [Definire i primi 5 KPI](review/define-kpis.md)
 + Utilizzare i dati XDM con Analytics {#aep-edge}
