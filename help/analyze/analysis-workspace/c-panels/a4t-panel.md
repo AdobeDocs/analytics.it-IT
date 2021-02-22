@@ -2,10 +2,10 @@
 description: Il pannello Analytics for Target (A4T) ti consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace.
 title: Pannello Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 82%
+source-wordcount: '1103'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,6 @@ Come per qualsiasi pannello in Analysis Workspace, puoi continuare la tua analis
 | Quando applico un segmento di hit per una specifica attività Target nell’analisi, perché viene restituita un’esperienza non correlata? | La dimensione A4T è una variabile di elenco, il che significa che può contenere più attività (ed esperienze) alla volta. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | La metrica di affidabilità tiene conto di ordini estremi o applica una correzione Bonferroni per offerte multiple? | No. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) su come Analytics calcola l’affidabilità. |
 | È possibile utilizzare le metriche Incremento e Affidabilità con altre dimensioni o raggruppamenti? | Incremento e Affidabilità sono “metriche bloccate” per la dimensione delle esperienze di Target perché richiedono un controllo e una variante su cui eseguire il calcolo. In quanto tali, non possono essere suddivise o utilizzate con altre dimensioni. |
-| Quando ricalcolano Incremento e Affidabilità? | Incremento e Affidabilità effettuano il ricalcolo quando il pannello viene eseguito (o rieseguito), l’intervallo di date del pannello viene modificato o un segmento viene applicato al pannello o alla tabella. |
+| Quando ricalcolano Incremento e Affidabilità? | L’incremento e la confidenza vengono ricalcolati ogni volta che il pannello viene eseguito (o rieseguito), l’intervallo di date del pannello viene modificato o un segmento viene applicato al pannello o alla tabella. Quando si applica un filtro segmento alla tabella a forma libera, questo deve essere applicato a tutte le colonne o all&#39;incremento e la confidenza non verrà aggiornata correttamente. Al momento, i segmenti a livello di colonna non sono supportati. |
 
 Per ulteriori informazioni sul reporting di Analytics for Target, visita [Reporting di A4T](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/reporting.html)
