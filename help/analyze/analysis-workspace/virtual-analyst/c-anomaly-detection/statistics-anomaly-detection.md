@@ -1,9 +1,11 @@
 ---
-description: Il rilevamento delle anomalie in Analysis Workspace utilizza una serie di tecniche di statistica avanzate per determinare se un’osservazione debba essere considerata come anomalia o meno.
+description: Le incoerenze nei dati possono causare grossi problemi. Scoprite come identificare le anomalie statistiche con le tecniche di rilevamento delle anomalie  Adobe. Inizia oggi.
 title: Tecniche di statistica utilizzate nel rilevamento delle anomalie
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
