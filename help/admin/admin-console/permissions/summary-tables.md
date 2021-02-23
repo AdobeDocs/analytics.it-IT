@@ -2,9 +2,9 @@
 title: Autorizzazioni Adobe Analytics  - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni  Adobe Analytics disponibili in  Admin Console.
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 14%
 
 ---
@@ -25,7 +25,7 @@ Utilizzate le seguenti tabelle di riepilogo per identificare  autorizzazioni Ado
 | Costi | x |  |  |  | Consente l&#39;accesso a Marketing Channels (Canali di marketing) > Marketing Channel Cost (Costi canale di marketing) in Report Suite Manager (Gestore suite di rapporti). |
 | Calendario personalizzato | x |  |  |  | Consente l&#39;accesso a Generale > Personalizza calendario in Report Suite Manager. |
 | Gestione feed dati | x |  |  |  | Consente l&#39;accesso ad Admin (Amministratore) > Data Feeds (Feed dati) nella navigazione superiore di Analytics. |
-| API Data Repair | x |  |  |  | Nuovo (in versione beta) - Consente l&#39;accesso all&#39;API di ripristino dati |
+| API Data Repair | x |  |  |  | Consente l&#39;accesso all&#39;API di ripristino dati |
 | Origini dati Manager | x |  |  |  | Consente l&#39;accesso ad Admin (Amministratore) > Data Sources (Origini dati) nella navigazione superiore di Analytics. Richiede l&#39;elemento di autorizzazione &#39;Report Suite Mgmt&#39;. |
 | Metriche predefinite | x |  |  |  | Consente di accedere a Impostazioni suite di rapporti individuali > Metriche predefinite in Report Suite Manager. |
 | Escludi per indirizzo IP | x |  |  |  | Consente l&#39;accesso ad Admin (Amministratore) > Exclude By IP (Escludi per IP) nella navigazione superiore di Analytics. |
