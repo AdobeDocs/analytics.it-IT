@@ -5,7 +5,7 @@ title: Panoramica sulle regole di elaborazione
 topic: Strumenti di amministrazione
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 6%
@@ -62,4 +62,4 @@ Le regole di elaborazione possono monitorare i valori in arrivo per trasformare 
 
 Una volta definite le variabili di dati di contesto all&#39;interno dell&#39;implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei report.
 
-Per ulteriori informazioni, vedere [Copiare una variabile di dati di contesto in un eVar ](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+Per ulteriori informazioni, vedere [Copiare una variabile di dati di contesto in un eVar ](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](processing-rules-examples/processing-rules-copy-context-data-event.md).
