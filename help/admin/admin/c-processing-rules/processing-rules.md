@@ -2,12 +2,12 @@
 description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto durante l'invio ai report.
 subtopic: Processing rules
 title: Panoramica sulle regole di elaborazione
-topic: Admin tools
+topic: Strumenti di amministrazione
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '396'
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il cont
 
 ## Autorizzazioni delle regole di elaborazione {#section_8A4846688050453784DAE4D89355169A}
 
-Administrators have rights to use processing rules **by default**. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
+Gli amministratori hanno i diritti per utilizzare le regole di elaborazione **per impostazione predefinita**. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
 
 ![](assets/processing-rules.png)
 
@@ -36,20 +36,30 @@ Administrators have rights to use processing rules **by default**. Gli amministr
 >
 >Poiché le regole di elaborazione influiscono in modo permanente sui dati di Analytics,  Adobe consiglia vivamente agli amministratori delle regole di elaborazione di ricevere formazione sulla certificazione in  Adobe Analytics e di avere familiarità con tutte le origini di dati per le suite di rapporti (siti Web standard, siti mobili, app mobili, API di inserimento dati e così via). La conoscenza delle variabili di dati contestuali e delle variabili standard popolate in varie piattaforme contribuirà a prevenire l’eliminazione o l’alterazione accidentale dei dati.
 
-## Utilizzare i dati contestuali per semplificare la raccolta dei dati {#section_09EEA03612D24C15839631AA9E9668D8}
+## Utilizza i dati contestuali per semplificare la raccolta di dati {#section_09EEA03612D24C15839631AA9E9668D8}
 
 Le variabili di dati di contesto sono un tipo di variabile disponibile solo per le regole di elaborazione. Per utilizzare le variabili di dati di contesto, le coppie di dati chiave/valore vengono inviate dall&#39;implementazione e le regole di elaborazione vengono utilizzate per acquisire questi valori in variabili Analytics standard. Questo consente ai programmatori di capire esattamente quale prop e/o  eVar deve contenere tale valore.
 
-![](assets/evar-context-map.png)
+```js
+s.contextData['author'] = "Robert Munch";
+s.contextData['section'] = "Books";
+s.contextData['genre'] = "Youth";
+```
 
-Consulta Variabili [di dati di](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) contesto nella guida all&#39;implementazione.
+Una volta impostato il codice, è possibile impostare le regole di elaborazione per assegnare valori alle variabili. Ad esempio:
 
-## Utilizzare le regole di elaborazione per trasformare gli eventi Hit e Triggers {#section_8284E72E999244E091CD7FB1A22342B6}
+1. Mappa `author` su `eVar2`
+2. Mappa `section` su `prop1` e `eVar3`
+3. Se esistono `author` e `section`, impostare `event5`
+
+Per ulteriori informazioni, vedere [contextData](/help/implement/vars/page-vars/contextdata.md) nella guida Implementa utente.
+
+## Utilizzare le regole di elaborazione per trasformare i dati di hit e gli eventi di attivazione {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Le regole di elaborazione possono monitorare i valori in arrivo per trasformare gli errori di battitura comuni e impostare gli eventi in base ai dati segnalati. Le proprietà possono essere copiate nelle eVar. I valori possono essere concatenati per i rapporti e gli eventi possono essere impostati.
 
-## Utilizzo delle variabili di dati contestuali nei rapporti {#section_BD098BC503024A0B8703596628071134}
+## Utilizzo delle variabili di dati contestuali nel reporting {#section_BD098BC503024A0B8703596628071134}
 
 Una volta definite le variabili di dati di contesto all&#39;interno dell&#39;implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei report.
 
-Per maggiori informazioni, vai [qui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) e [qui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+Per ulteriori informazioni, vedere [Copiare una variabile di dati di contesto in un eVar ](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
