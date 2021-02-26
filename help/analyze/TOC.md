@@ -5,10 +5,10 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
+source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -313,29 +313,6 @@ ht-degree: 100%
       + [Visualizzare progetti convertiti in Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [Domande frequenti su Project Converter](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
    + [Panoramica di Ad Hoc Analysis](ad-hoc-analysis/adhoc-home.md)
-   + [Introduzione](ad-hoc-analysis/c-getting-started.md)
-   + [Amministrazione](ad-hoc-analysis/c-administration.md)
-   + [Eseguire Ad Hoc Analysis con Java 11](ad-hoc-analysis/adhoc-java.md)
-   + [Configurare i rapporti esistenti](ad-hoc-analysis/c-reports-configure.md)
-   + [Date e intervalli di date](ad-hoc-analysis/c-dates.md)
-   + [Dimensioni](ad-hoc-analysis/c-dimensions.md)
-   + [File di log](ad-hoc-analysis/c-log-file.md)
-   + [Metriche](ad-hoc-analysis/c-metrics.md)
-   + [Panoramica sui report](ad-hoc-analysis/c-overview-standard-reports.md)
-   + [Tipi di rapporto](ad-hoc-analysis/c-reports-types.md)
-   + [Rapporti sulle metriche del sito](ad-hoc-analysis/c-reports-site-metrics.md)
-   + [Rapporti sul contenuto del sito](ad-hoc-analysis/c-reports-site-content.md)
-   + [Rapporti sui dispositivi mobili](ad-hoc-analysis/c-reports-mobile.md)
-   + [Rapporti fonti traffico](ad-hoc-analysis/c-reports-traffic.md)
-   + [Rapporti sui percorsi](ad-hoc-analysis/c-reports-paths.md)
-   + [Rapporti sui prodotti](ad-hoc-analysis/c-reports-product.md)
-   + [Rapporti sui visitatori](ad-hoc-analysis/c-reports-visitor.md)
-   + [Adobe Target](ad-hoc-analysis/c-reports-tnt.md)
-   + [Generare segmenti](ad-hoc-analysis/c-content-ref.md)
-   + [Impostazioni](ad-hoc-analysis/c-global-settings.md)
-   + [Pianificazione Manager](ad-hoc-analysis/c-schedule.md)
-   + [Generatore tabella](ad-hoc-analysis/c-tablebuilder.md)
-   + [Tempo](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Panoramica di Labs](tech-previews/overview.md)
 + Dashboard di Adobe Analytics {#mobapp}
