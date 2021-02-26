@@ -1,12 +1,12 @@
 ---
 description: Descrive un flusso di lavoro consigliato per i segmenti creati con il Generatore di segmenti e gestiti tramite il Gestore segmenti.
 title: Panoramica sulla segmentazione del flusso di lavoro
-topic: Segments
+topic: Segmenti
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Consulta [Generare segmenti sequenziali](/help/components/segmentation/segmentat
 
 ![](assets/step3_icon.png) [ Assegnare tag ai segmenti](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-Assegna tag ai segmenti per semplificarne l’organizzazione e la condivisione. I tag sostituiscono le gerarchie di cartelle nelle analisi ad hoc. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate.
+Assegna tag ai segmenti per semplificarne l’organizzazione e la condivisione. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate.
 
 ![](assets/step4_icon.png) [ Approvare segmenti](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
