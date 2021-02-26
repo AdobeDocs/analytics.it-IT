@@ -1,11 +1,11 @@
 ---
-description: Queste modifiche al modo in cui le metriche calcolate funzionano in  Analytics possono avere un impatto sull'utente.
+description: Queste modifiche al modo in cui le metriche calcolate funzionano in Analytics possono avere un impatto sull'utente.
 title: Domande frequenti
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2015'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Domande frequenti
 
-Queste modifiche al modo in cui funzionano le metriche calcolate [!DNL Analytics] possono avere un impatto sull&#39;utente.
+Queste modifiche al modo in cui funzionano le metriche calcolate in [!DNL Analytics] possono avere un impatto sull&#39;utente.
 
 [Come posso accedere al Generatore metriche calcolate?](/help/components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
@@ -47,22 +47,20 @@ Queste modifiche al modo in cui funzionano le metriche calcolate [!DNL Analytics
 
 [Perché alcune delle metriche calcolate mostrano formule senza le parentesi aggiunte?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[( solo Ad hoc analysis) Le metriche calcolate con le definizioni di segmento incorporate o in linea sono ancora supportate?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
-
-[(Solo Generatore di report) Perché le metriche calcolate sono scomparse dalle mie richieste?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
+[(Solo Report Builder) Perché le metriche calcolate sono scomparse dalle mie richieste?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
 [Come funzionano i totali delle metriche calcolate?](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
 
 ## Come posso accedere al Generatore metriche calcolate? {#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
-* Fare clic **[!UICONTROL + Add]** nella parte superiore del Gestore della metrica calcolata oppure
-* In un  rapporto Analytics, fai clic sull’icona Metriche ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
+* Fare clic su **[!UICONTROL + Add]** nella parte superiore del Gestore della metrica calcolata oppure
+* In qualsiasi rapporto di Analytics, fai clic sull&#39;icona Metriche ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
 
 ## Come posso accedere al Gestore della metrica calcolata? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
-* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** nel menu di navigazione a sinistra. Quindi fai clic su **[!UICONTROL Calculated Metrics]**.
+* Andate a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** nella navigazione a sinistra. Quindi fai clic su **[!UICONTROL Calculated Metrics]**.
 
-* In qualsiasi [!DNL Analytics] rapporto, fai clic sull’icona Metriche ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Manage]**.
+* In qualsiasi report [!DNL Analytics], fai clic sull&#39;icona Metriche ![](assets/metrics_icon.png) a sinistra di un report per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Manage]**.
 
 ## Perché vedo così tante metriche calcolate con lo stesso nome? {#section_E15C5B6CCC58498CAEC3FBDA8988F0A1}
 
@@ -116,11 +114,11 @@ Le metriche calcolate globali non possono più essere condivise tra le società 
 
 ## Cos&#39;è successo alle metriche calcolate con una classificazione numerica o numerica2? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
-(In precedenza, le metriche calcolate con una classificazione Numeric o Numeric2 erano visibili solo nelle [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder]e nelle API.)
+(In precedenza, le metriche calcolate con una classificazione Numeric o Numeric2 erano visibili solo in [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder] e nelle API.)
 
-A questo punto, le metriche calcolate con una classificazione Numeric o Numeric2 continueranno a essere visibili nelle API [!UICONTROL Reports & Analytics]e [!UICONTROL Report Builder]. Tuttavia, non saranno supportati in alcun rapporto con un segmento applicato.
+Ora, le metriche calcolate con una classificazione Numeric o Numeric2 continueranno a essere visibili in [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder] e nelle API. Tuttavia, non saranno supportati in alcun rapporto con un segmento applicato.
 
-Inoltre, le metriche calcolate con una classificazione Numeric o Numeric2 non saranno supportate nei seguenti componenti: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] report [!UICONTROL Anomaly Detection]e [!UICONTROL Contribution Analysis]. Quando create o modificate una metrica calcolata con una classificazione Numeric o Numeric2, viene visualizzato un avviso di compatibilità per avvisare che la metrica calcolata non è compatibile con determinate aree del prodotto.
+Inoltre, le metriche calcolate con una classificazione Numeric o Numeric2 non saranno supportate nei seguenti componenti: [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] report, [!UICONTROL Anomaly Detection] e [!UICONTROL Contribution Analysis]. Quando create o modificate una metrica calcolata con una classificazione Numeric o Numeric2, viene visualizzato un avviso di compatibilità per avvisare che la metrica calcolata non è compatibile con determinate aree del prodotto.
 
 **Cosa devi fare**
 
@@ -128,23 +126,23 @@ Evitare di creare metriche calcolate con classificazioni Numeric1 o Numeric2 se 
 
 ## Cos&#39;è successo alle Metriche Life-Time? {#section_AEDB02EF24584DAD8731BED9DDCE4F48}
 
-Metriche Life-Time (ad esempio metriche aggiornate) non sono più supportate e non sono più visibili nell&#39; [!UICONTROL Reports & Analytics] interfaccia utente o in qualsiasi altra interfaccia. Non possono essere interrogati dall&#39;API di report.
+Metriche Life-Time (ad esempio le metriche &quot;all-time&quot;) non sono più supportate e non sono più visibili nell&#39;interfaccia [!UICONTROL Reports & Analytics] o in qualsiasi altra interfaccia utente. Non possono essere interrogati dall&#39;API di report.
 
 Eventuali segnalibri, dashboard, report pianificati o avvisi che contenevano una metrica tutto il tempo continueranno a essere eseguiti senza tale metrica, purché nel rapporto sia presente almeno un&#39;altra metrica valida. Se l&#39;unica metrica presente nel segnalibro, nel dashboard, nel report pianificato o nell&#39;avviso è una metrica tutto il tempo, il report non verrà più eseguito.
 
 ## Cosa devo sapere sulle metriche calcolate in base alle metriche Visitatore unico giornaliero/settimanale/mensile/trimestrale/annuale? {#section_E9A77EBB41CE4881B196CC1C282B2DF3}
 
-Le metriche calcolate in base alle metriche Visitatore univoco saranno visibili nei seguenti [!DNL Analytics] componenti: [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder]e API di reporting.
+Le metriche calcolate in base alle metriche Visitatore univoco saranno visibili nei seguenti componenti [!DNL Analytics]: [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder] e API di reporting.
 
-Tuttavia, queste metriche non saranno supportate nei seguenti componenti: [!UICONTROL Segments], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] report [!UICONTROL Anomaly Detection]e [!UICONTROL Contribution Analysis]. Quando create o modificate una metrica calcolata basata sulle metriche Visitatori unici, viene visualizzato un avviso di compatibilità per avvisare che la metrica non è compatibile con determinate aree del prodotto.
+Tuttavia, queste metriche non saranno supportate nei seguenti componenti: Rapporti [!UICONTROL Segments], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time], [!UICONTROL Anomaly Detection] e [!UICONTROL Contribution Analysis]. Quando create o modificate una metrica calcolata basata sulle metriche Visitatori unici, viene visualizzato un avviso di compatibilità per avvisare che la metrica non è compatibile con determinate aree del prodotto.
 
 Puoi usare una metrica Visitatore univoco di base su un report con un segmento. Puoi creare una metrica calcolata basata su una metrica Visitatore unico; tuttavia, tale metrica calcolata non può essere applicata a un report con un segmento, né può avere un segmento incorporato in esso.
 
 ## Cosa succede alle metriche calcolate create o gestite con i metodi API della suite di rapporti precedente? {#section_13ED1BAD02634674BDAEB479B060A4B6}
 
-In precedenza, il salvataggio di una metrica calcolata con il metodo (1.3 o 1.4) API ReportSuite.SaveCalculatedMetrics era lo stesso della creazione o dell&#39;aggiornamento di una metrica calcolata nell&#39;Admin Console . Lo stesso vale per ReportSuite.DeleteCalculatedMetrics. Inoltre, l&#39;elenco delle metriche calcolate visualizzate nell&#39;Admin Console  o durante la chiamata a ReportSuite.GetCalculatedMetrics era lo stesso.
+In precedenza, il salvataggio di una metrica calcolata con il metodo (1.3 o 1.4) API ReportSuite.SaveCalculatedMetrics era lo stesso della creazione o dell&#39;aggiornamento di una metrica calcolata nel Admin Console . Lo stesso vale per ReportSuite.DeleteCalculatedMetrics. Inoltre, l&#39;elenco delle metriche calcolate visualizzate nel Admin Console  o durante la chiamata a ReportSuite.GetCalculatedMetrics era lo stesso.
 
-Ora, i metodi API CalculatedMetrics di ReportSuite (1.3 o 1.4) continueranno a salvare, eliminare e recuperare le metriche calcolate utilizzando il vecchio store. Le metriche calcolate esistenti verranno migrate e saranno visibili nel nuovo Generatore di metriche calcolate. **Le nuove metriche calcolate create con i metodi API saranno visibili solo nell&#39;API. Saranno comunque utilizzabili nell&#39;API di reporting.**
+Ora, i metodi API CalculatedMetrics di ReportSuite (1.3 o 1.4) continueranno a salvare, eliminare e recuperare le metriche calcolate utilizzando il vecchio store. Le metriche calcolate esistenti verranno migrate e saranno visibili nel nuovo Generatore di metriche calcolate. **Le nuove metriche calcolate create con i metodi API saranno visibili solo nell&#39;API. Saranno ancora utilizzabili nell&#39;API di reporting.**
 
 **Cosa devi fare**
 
@@ -178,21 +176,13 @@ Sarà necessario ripristinare le modifiche apportate alle metriche legacy.
 
 (In precedenza, tutte le metriche calcolate venivano elencate nel selettore delle metriche nei report Canali di marketing con l&#39;opzione Primo contatto e ultimo tocco.)
 
-Ora, solo le metriche calcolate con il tipo di allocazione impostato specificatamente su Primo contatto o Ultimo contatto nel generatore Metriche calcolate saranno disponibili nel selettore delle metriche nei report Canali di marketing. Eventuali metriche calcolate già applicate ai report Marketing Channel continueranno ad essere applicate e funzioneranno come prima. Per creare una metrica calcolata per Marketing Channels (Canali di marketing), fai clic sull’icona di configurazione nel generatore di metriche e seleziona Primo tocco o Ultimo tocco come tipo di allocazione. Tieni presente che in questo modo la metrica calcolata sarà compatibile solo con i report Marketing Channel e non sarà utilizzabile su nessun altro report.
+Ora, solo le metriche calcolate con il tipo di allocazione impostato specificatamente su Primo contatto o Ultimo contatto nel generatore Metriche calcolate saranno disponibili nel selettore delle metriche nei report Canali di marketing. Eventuali metriche calcolate già applicate ai report Marketing Channel continueranno a essere applicate e funzioneranno come prima. Per creare una metrica calcolata per Marketing Channels (Canali di marketing), fai clic sull’icona di configurazione nel generatore di metriche e seleziona Primo tocco o Ultimo tocco come tipo di allocazione. Tieni presente che in questo modo la metrica calcolata sarà compatibile solo con i report Marketing Channel e non sarà utilizzabile su nessun altro report.
 
 ## Perché alcune delle metriche calcolate mostrano formule senza le parentesi aggiunte? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
-Durante la migrazione, Adobe ha eliminato alcune parentesi superflue da alcune formule. Sono state rimosse solo le parentesi che non influiscono sulla modalità di calcolo della metrica. Questo non cambierà i dati, ma semplicemente semplifica la formula.
+Durante la migrazione,  Adobe ha eliminato le parentesi superflue da alcune formule. Sono state rimosse solo le parentesi che non influiscono sulla modalità di calcolo della metrica. Questo non cambierà i dati, ma semplicemente semplifica la formula.
 
-## ( solo Ad hoc analysis) Le metriche calcolate con definizioni di segmento incorporate o inline sono ancora supportate? {#section_B25C924A282F49388AB604E3D826F44C}
-
-Le metriche calcolate create in  Ad hoc analysis potevano in precedenza contenere definizioni di segmenti in linea. Questo non è più possibile.
-
-**Cosa devi fare**
-
-È necessario salvare esplicitamente il segmento. Le metriche calcolate esistenti con definizioni di segmenti in linea continueranno a essere eseguite correttamente e potranno essere visualizzate  Ad hoc analysis, ma non potranno essere salvate senza aver salvato esplicitamente il segmento.
-
-## (Solo Generatore di report) Perché le metriche calcolate sono scomparse dalle mie richieste? {#section_DA4792FE5D7945218CD5E6328DE08E82}
+## (Solo Report Builder) Perché le metriche calcolate sono scomparse dalle mie richieste? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
 Se la richiesta è stata creata in v5.2 e contiene metriche calcolate, tali metriche non sono visibili in v5.1 (o versioni precedenti). Questo perché le metriche calcolate ora utilizzano gli ID globali (ID non specifici delle suite di rapporti).
 
@@ -202,8 +192,8 @@ Per visualizzare queste metriche è necessario eseguire l&#39;aggiornamento alla
 
 ## Come funzionano i totali delle metriche calcolate? {#section_57BA3A299C7948ABB82B0392A9B0F33E}
 
-Quando [!UICONTROL Reports & Analytics] mostra un totale di metriche calcolate in [!UICONTROL Reports & Analytics], si tratta solo di applicare la formula al totale. Ad esempio, il totale della metrica calcolata Ordini/Visita prende gli Ordini totali e li divide per Visite totali. In alcuni casi, tuttavia, il totale della metrica calcolata non è solo la somma degli elementi di riga, ma un totale per il sito.
+Quando [!UICONTROL Reports & Analytics] mostra un totale di metriche calcolate in [!UICONTROL Reports & Analytics], la formula viene semplicemente applicata al totale. Ad esempio, il totale della metrica calcolata Ordini/Visita prende gli Ordini totali e li divide per Visite totali. In alcuni casi, tuttavia, il totale della metrica calcolata non è solo la somma degli elementi di riga, ma un totale per il sito.
 
 Esempio 1: Visitatori per un termine di ricerca: lo stesso visitatore potrebbe aver cercato più termini, pertanto in questo caso il totale dei visitatori non corrisponde alla somma degli elementi della riga.
 
-Esempio 2: Visualizzazioni di pagina sui prodotti: nel carrello, possono essere presenti più prodotti, di conseguenza, esistono più visualizzazioni di pagina per il carrello. Per ulteriori informazioni sul confronto tra la somma degli elementi di riga e i totali dei rapporti, consulta [questo articolo](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html)della knowledge base.
+Esempio 2: Visualizzazioni di pagina sui prodotti: nel carrello, possono essere presenti più prodotti, di conseguenza, esistono più visualizzazioni di pagina per il carrello. Per ulteriori informazioni sul confronto tra la somma delle voci e i totali dei rapporti, vedere [questo articolo della knowledge base](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html).
