@@ -1,13 +1,13 @@
 ---
 description: I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come informazioni codificate sulle audience che puoi creare per soddisfare le tue esigenze specifiche e che puoi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
 title: Informazioni su segmenti e contenitori
-topic: Segments
+topic: Segmenti
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3673'
-ht-degree: 99%
+source-wordcount: '3676'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a ca
 
 I segmenti si basano su una gerarchia di livelli [!UICONTROL Visitor], [!UICONTROL Visit] e [!UICONTROL Hit] che utilizza un modello di contenitori nidificati. I contenitori nidificati ti consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità in [!DNL Adobe Experience Cloud]. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati con segnalibro per l’accesso rapido.
 
-Puoi generare e salvare i segmenti nel Generatore di segmenti o generarli da un rapporto di fallout (in [!DNL ad hoc analysis]). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come [segmenti sovrapposti](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Puoi creare e salvare i segmenti nel Generatore di segmenti, oppure generare segmenti da un report di fallout (in   Analysis Workspace). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come [segmenti sovrapposti](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segmenti {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -60,7 +60,7 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 ## Video introduttivo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Questo video offre una breve panoramica del segmento dei contenitori e di come utilizzarli: [Segmento di contenitori in  Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+Questo video offre una breve panoramica del segmento dei contenitori e di come utilizzarli: [Contenitori segmento in  Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Informazioni sui contenitori {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
