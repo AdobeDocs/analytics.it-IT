@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -108,13 +108,13 @@ ht-degree: 94%
       + [Specificare la variabile Visitatore univoco](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Caso di utilizzo: estrazione degli ID visitatore](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestione video](admin/video-management.md)
-+ Analisi in Adobe Admin Console {#admin-console}
-   + [Analisi in Adobe Admin Console](admin-console/home.md)
++ Analytics in Adobe Admin Console {#admin-console}
+   + [Analytics in Adobe Admin Console](admin-console/home.md)
    + Autorizzazioni {#permissions}
-      + [Autorizzazioni di Analytics in  Admin Console](admin-console/permissions/summary-tables.md)
-      + [Profili di prodotto per  Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Autorizzazioni del profilo di prodotto per gli strumenti delle suite di rapporti](admin-console/permissions/report-suite-tools.md)
-      + [Autorizzazioni del profilo di prodotto per gli strumenti di Analytics](admin-console/permissions/analytics-tools.md)
+      + [Autorizzazioni di Analytics in Admin Console](admin-console/permissions/summary-tables.md)
+      + [Profili di prodotto per Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Autorizzazioni del profilo di prodotto per gli strumenti Report Suite](admin-console/permissions/report-suite-tools.md)
+      + [Autorizzazioni del profilo di prodotto per gli strumenti Analytics](admin-console/permissions/analytics-tools.md)
    + [Prima guida dell&#39;amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
 + Impostazioni aziendali {#company-settings}
    + [Panoramica delle impostazioni aziendali](company/c-company-settings.md)
