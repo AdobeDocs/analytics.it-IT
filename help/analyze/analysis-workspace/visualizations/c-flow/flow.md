@@ -3,10 +3,10 @@ description: 'null'
 title: Panoramica del flusso
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 93%
+source-wordcount: '201'
+ht-degree: 84%
 
 ---
 
@@ -23,9 +23,9 @@ Consente di:
 
 >[!NOTE]
 >
->Per informazioni sulle differenze tra i risultati dell’applicazione dei segmenti al flusso in Analysis Workspace e in Reports &amp; Analytics/Ad Hoc Analysis, vedi [Segmentazione come fondamento per Flusso e Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Per informazioni sulle differenze tra i risultati dell&#39;applicazione di segmenti a Flusso  Analysis Workspace e Reporting e analisi, vedere [Segmentazione come base per Flusso e Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Esercitazione](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)video sulla visualizzazione Flusso (4:56)
+[Esercitazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=it-IT) video sulla visualizzazione Flusso (4:56)
 
 ## Flussi interdimensionali {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
