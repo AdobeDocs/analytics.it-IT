@@ -2,9 +2,9 @@
 title: Autorizzazioni Adobe Analytics  - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni  Adobe Analytics disponibili in  Admin Console.
 translation-type: tm+mt
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1243'
 ht-degree: 14%
 
 ---
@@ -89,7 +89,7 @@ Utilizzate le seguenti tabelle di riepilogo per identificare  autorizzazioni Ado
 | Gestione traffico | x |  |  |  | Consente l&#39;accesso ad Admin (Amministratore) > Traffic Management (Gestione traffico). |
 | Servizi web | x |  |  |  | Consente l&#39;accesso ad Admin (Amministratore) > Company Settings (Impostazioni società) > Web Services (Servizi Web). |
 | Activity Map |  | x |  |  | Consente l&#39;accesso a Strumenti > Activity Map . Consente all&#39;utente di utilizzare l&#39;estensione  Activity Map. |
-|  utenti delle licenze Ad Hoc Analysis |  | x |  |  | Abilita il pulsante di download in Strumenti >  Ad Hoc Analysis e consente all&#39;utente di effettuare l&#39;autenticazione con lo strumento. [Ulteriori informazioni](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+|  utenti delle licenze Ad Hoc Analysis |  | x |  |  |  Ad Hoc Analysis è stato portato a termine. [Ulteriori informazioni](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Accesso in Analysis Workspace |  | x |  |  | Consente l&#39;accesso a  Analysis Workspace. Gli utenti devono appartenere a questo gruppo (preferito) o a Accesso a Reporting e analisi per utilizzare  Adobe Analytics. |
 |  Analysis Workspace: Salva come modello |  | x |  |  | Consente di accedere a Progetto > Salva come modello in  Analysis Workspace. |
 | Creazione della metrica calcolata |  | x |  |  | Consente di creare metriche calcolate in tutte le funzionalità di Analytics. |
