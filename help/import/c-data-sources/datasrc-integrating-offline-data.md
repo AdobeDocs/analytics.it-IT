@@ -2,13 +2,13 @@
 description: Origini dati offre due modi aggiuntivi per integrare gli eventi che si verificano offline nei dati online.
 subtopic: Data sources
 title: Integrazione transazione e cliente
-topic: Developer and implementation
+topic: Sviluppatore e implementazione
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 87%
+source-wordcount: '302'
+ht-degree: 70%
 
 ---
 
@@ -39,11 +39,11 @@ Vai a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Seleziona suite 
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+Per verificare se la registrazione ID transazione è abilitata, passare a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
-The [!UICONTROL Manage] tab displays the status of Transaction ID Recording.
+La scheda [!UICONTROL Manage] visualizza lo stato della Registrazione ID transazione.
 
 ## Integrazione cliente {#section_9F4AAD710D2543BDA834090A98115FBF}
 
@@ -64,8 +64,6 @@ Gli ID transazione vengono utilizzati per registrare lo stato di un visitatore i
 
 Il cliente è spesso anonimo quando passa da online a offline.
 
-Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing), ma sono inclusi nelle metriche Partecipazione visitatore (disponibili solo nell&#39;analisi ad hoc).
+Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing). Questo perché i dati ID transazione non sono associati a una visita (perché l&#39;evento offline in genere non fa parte dell&#39;evento online), ma sono associati al visitatore.
 
-Questo perché i dati ID transazione non sono associati a una visita (perché l&#39;evento offline generalmente non fa parte dell&#39;evento online), ma sono associati al visitatore.
-
-Consulta  [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+Vedere [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
