@@ -1,13 +1,13 @@
 ---
 description: Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio e li visualizzano in un set di dati riepilogato.
 title: Suite di rapporti rollup e globali
-topic: Admin tools
+topic: Strumenti di amministrazione
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 **Suite** di rapporti rollup: Creato in Strumenti di amministrazione. Prende la somma di ogni metrica alla fine di ogni giorno.
 
 * I rollup sono gratuiti e non aumentano l&#39;utilizzo delle chiamate server.
-* I rollup forniscono dati totali, ma non segnalano valori singoli nei report. Ad esempio, i valori eVar1 non sono inclusi, ma il totale aggregato può essere incluso.
+* I rollup forniscono dati totali, ma non segnalano valori singoli nei report. Ad esempio,  valori di eVar 1 non sono inclusi, ma il totale aggregato può essere incluso.
 * I dati non vengono deduplicati quando si combinano dati tra suite per report.
 * I rollup vengono eseguiti su base notturna.
 * Quando aggiungete una suite di rapporti a un rollup esistente, i dati della cronologia non vengono inclusi nel rollup.
@@ -39,7 +39,7 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 
 >[!TIP]
 >
->Se utilizzi solo una suite di rapporti globale con suite [di rapporti](../../components/vrs/vrs-considerations.md)virtuali, non sono necessarie chiamate server secondarie.
+>Se utilizzi solo una suite di rapporti globale con [suite di rapporti virtuali](../../components/vrs/vrs-considerations.md), non sono necessarie chiamate server secondarie.
 
 **Modifiche** di implementazione: I rollup non richiedono alcuna modifica di implementazione, mentre le suite per report globali richiedono di includere l&#39;ID suite per report globale nella tua implementazione.
 
@@ -53,6 +53,6 @@ Le suite di rapporti di rollup aggregano i dati da più suite di rapporti figlio
 
 **Rapporti**: Le suite di rapporti globali forniscono dati su tutte le dimensioni; i rollup forniscono dati aggregati solo per report di alto livello.
 
-**Prodotti** supportati: I rollup possono essere utilizzati solo in Reporting e  Analytics. Non sono supportati in  Analysis Workspace, Data warehouse o  Ad hoc analysis. Le suite di rapporti globali possono essere utilizzate per tutti i prodotti.
+**Prodotti** supportati: I rollup possono essere utilizzati solo in Reporting e analisi. Non sono supportati in  Analysis Workspace o Data Warehouse. Le suite di rapporti globali possono essere utilizzate per tutti i prodotti.
 
 **Numero di suite** di rapporti aggregate: I rollup supportano solo un massimo di 40 suite di rapporti figlio. Le suite di rapporti globali possono essere implementate su un numero qualsiasi di domini o app che possedete.
