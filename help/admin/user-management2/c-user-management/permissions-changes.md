@@ -1,14 +1,14 @@
 ---
 description: Contenuto delle autorizzazioni legacy
-keywords: groups;permissions
+keywords: gruppi;autorizzazioni
 subtopic: Users and groups
 title: Modifiche alle autorizzazioni Utente e Gruppo
-topic: Admin tools
+topic: Strumenti di amministrazione
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1556'
 ht-degree: 15%
 
 ---
@@ -50,7 +50,7 @@ Poiché l&#39;API e l&#39;interfaccia utilizzano lo stesso sistema di autorizzaz
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifiche ai gruppi predefiniti </p> </td> 
-   <td colname="col2"> <p> <b>Accesso amministratore: i gruppi </b> predefiniti non sono più richiesti per gli amministratori. Gli amministratori possono ora accedere a tutti gli elementi (strumenti, metriche, dimensioni), nonché a Servizio Web, Report Builder, Activity Map  e  Ad Hoc Analysis. </p> <p>In futuro, lo scopo dei gruppi è quello di concedere o limitare l'accesso agli utenti non amministrativi. </p> <p> <b>Gruppi personalizzati: i gruppi </b> personalizzati hanno sostituito i gruppi predefiniti. I gruppi predefiniti esistenti verranno migrati in gruppi personalizzati, utilizzando lo stesso nome di gruppo. Eventuali gruppi personalizzati creati, comprese le relative impostazioni, verranno mantenuti. Tuttavia, noterete che la posizione delle impostazioni sarà stata spostata. Ad esempio, le impostazioni aziendali (in Personalizza  Admin Console) ora si trovano in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizza strumenti Analytics</a>. </p> <p> Gli utenti appartenenti a <span class="term"> All Report Access</span> sono stati migrati in un gruppo personalizzato con accesso a: </p> 
+   <td colname="col2"> <p> <b>Accesso amministratore: i gruppi </b> predefiniti non sono più richiesti per gli amministratori. Gli amministratori possono ora accedere a tutti gli elementi (strumenti, metriche, dimensioni), nonché a servizi Web, Report Builder e Activity Map . </p> <p>In futuro, lo scopo dei gruppi è quello di concedere o limitare l'accesso agli utenti non amministrativi. </p> <p> <b>Gruppi personalizzati: i gruppi </b> personalizzati hanno sostituito i gruppi predefiniti. I gruppi predefiniti esistenti verranno migrati in gruppi personalizzati, utilizzando lo stesso nome di gruppo. Eventuali gruppi personalizzati creati, comprese le relative impostazioni, verranno mantenuti. Tuttavia, noterete che la posizione delle impostazioni sarà stata spostata. Ad esempio, le impostazioni aziendali (in Personalizza  Admin Console) ora si trovano in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizza strumenti Analytics</a>. </p> <p> Gli utenti appartenenti a <span class="term"> All Report Access</span> sono stati migrati in un gruppo personalizzato con accesso a: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Tutte le dimensioni </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Tutte le metriche </li> 
