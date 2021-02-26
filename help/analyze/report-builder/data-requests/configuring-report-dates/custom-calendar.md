@@ -1,10 +1,13 @@
 ---
 description: Il generatore di report utilizza il calendario personalizzato di Analytics. Potete utilizzare il calendario per definire il primo giorno della settimana e dell'anno, oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario sono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l'analisi dei costi del ciclo paghe o la regolamentazione del conteggio delle scorte fisiche.
 title: Calendario personalizzato
-topic: Report builder
+topic: Generatore di report
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Ciascuno dei formati di calendario è descritto di seguito.
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Calendario       </th> 
+   <th colname="col1" class="entry"> Calendario </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -42,7 +45,7 @@ Ciascuno dei formati di calendario è descritto di seguito.
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>:gennaio ha quattro settimane, febbraio ha cinque settimane, marzo ha quattro settimane, e così via. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Gennaio ha quattro settimane, Febbraio ha quattro settimane, Marzo ha cinque settimane, e così via. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: Gennaio ha cinque settimane, Febbraio ha cinque settimane, Marzo ha quattro settimane, e così via. </li> 
-    </ul> <p>Nota:  Questa opzione di calendario è supportata in tutti gli strumenti Adobe Analytics (Analysis Workspace, Reporting e analisi, Generatore di report, Activity Map, Analisi ad hoc) tranne che per Data Warehouse, che non supporta i calendari personalizzati. </p> </td> 
+    </ul> <p>Nota:  Questa opzione di calendario è supportata in tutti  strumenti Adobe Analytics ( Analysis Workspace, Reporting e analisi, Report Builder e  Activity Map. L'eccezione è l'Data Warehouse, che non supporta i calendari personalizzati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
