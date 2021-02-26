@@ -1,12 +1,12 @@
 ---
-source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '559'
-ht-degree: 7%
+source-wordcount: '547'
+ht-degree: 8%
 
 ---
-# Autorizzazioni del profilo di prodotto per gli strumenti di Analytics
+# Autorizzazioni del profilo di prodotto per gli strumenti Analytics
 
 Gli elementi delle autorizzazioni Strumenti di Analytics concedono l&#39;accesso alle funzioni all&#39;interno  Adobe Analytics. Gli elementi delle autorizzazioni Strumenti di Analytics non si applicano a una suite di rapporti, ma  l&#39;intero Adobe Analytics.
 
@@ -32,7 +32,7 @@ Gli elementi delle autorizzazioni Strumenti di Analytics concedono l&#39;accesso
 | Utenti con licenza Excel | Non utilizzato. |
 | Activity Map | Consente l&#39;accesso a Strumenti > Activity Map . Consente all&#39;utente di utilizzare l&#39;estensione  Activity Map. |
 | Dati correnti | Abilita l&#39;opzione per visualizzare i dati correnti nei report Reporting e analisi. |
-|  utenti delle licenze Ad Hoc Analysis | Abilita il pulsante di download in Strumenti >  Ad Hoc Analysis e consente all&#39;utente di effettuare l&#39;autenticazione con lo strumento. Vedere [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
+|  utenti delle licenze Ad Hoc Analysis |  Ad Hoc Analysis è stato portato a termine. Vedere [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | Amministratori app mobili | Non utilizzato. |
 | Accesso al servizio Web | Consente di utilizzare l&#39;API, inclusa l&#39;autenticazione con siti di terze parti e l&#39;invio di chiamate API. |
 | Report Builder | Abilita il pulsante di download in Strumenti > Report Builder e consente all&#39;utente di effettuare l&#39;autenticazione in Microsoft Excel. |
