@@ -1,13 +1,13 @@
 ---
 description: Il Gestore segmenti offre diversi modi per curare i segmenti, ad esempio condividere, filtrare, assegnare tag, approvare, copiare, eliminare e contrassegnare come preferiti.
 title: Gestire segmenti
-topic: Segments
+topic: Segmenti
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 98%
+source-wordcount: '424'
+ht-degree: 97%
 
 ---
 
@@ -45,15 +45,3 @@ Questo [video di su Adobe Analytics](https://docs.adobe.com/content/help/en/anal
 | 12 | Icona Condiviso | Indica che il segmento è condiviso da te o con te. |
 | 13 | Icona Approvato | Indica che il segmento è stato approvato da un amministratore. |
 | 14 | Filtri | Ti consente di visualizzare e selezionare i filtri per tag, suite di rapporti, proprietari e altro (Mostra tutto, Personali, Condivisi con me, Approvati, Preferiti). |
-
-## Gestore segmenti in Ad Hoc Analysis {#section_CC8BDC968EBC4BC1919870869D8443A9}
-
-L’Organizzatore di segmenti nell’analisi ad hoc mostra tutti i segmenti che possiedi e quelli condivisi con te.
-
-Per accedere all’Organizzatore di segmenti in [!DNL ad hoc analysis]:
-
-* Vai alla scheda **[!UICONTROL Segments]** nel pannello a sinistra, quindi fai clic sull’icona chiave inglese ![](assets/wrench_icon.png) e seleziona **[!UICONTROL Organize Segments]** dal menu.
-
-![](assets/ad_hoc_organize_segments.png)
-
-Questa console, come il Gestore segmenti nell’interfaccia utente web, offre diverse funzioni, tra cui condivisione segmenti, filtri, assegnazione di tag, approvazione, copia, eliminazione e contrassegno come preferiti.
