@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni dettagliate per Analysis Workspace, lo strumento di analisi e visualizzazione principale per Analytics, nonché strumenti come dashboard di Adobe Analytics, Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: a52f2f916db322ddb6226a5d3aa1f5585bf09539
+source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1010'
 ht-degree: 97%
 
 ---
@@ -124,7 +124,6 @@ ht-degree: 97%
       + [Domande frequenti](analysis-workspace/workspace-faq/faq.md)
       + [Ottimizzare le prestazioni di Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Messaggi di errore](analysis-workspace/workspace-faq/error-messages.md)
-      + [Confronto tra Analysis Workspace e Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limiti di Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisiti di amministrazione](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilità di Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
