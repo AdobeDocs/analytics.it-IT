@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
-user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Report Builder e Activity Map.
+user-guide-description: Fornisce istruzioni dettagliate per Analysis Workspace, lo strumento di analisi e visualizzazione principale per Analytics, nonché strumenti come dashboard di Adobe Analytics, Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
+source-git-commit: a52f2f916db322ddb6226a5d3aa1f5585bf09539
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 97%
 
 ---
 
@@ -306,15 +306,6 @@ ht-degree: 100%
    + [Eventi calendario](reports-analytics/t-calendar-event.md)
    + [Domande frequenti](reports-analytics/frequently-asked-questions.md)
    + [Risoluzione dei problemi](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
-   + Adobe Ad Hoc Analysis Project Converter {#aha-project-converter}
-      + [Panoramica di Adobe Ad Hoc Analysis Project Converter](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
-      + [Conversione di progetti in Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
-      + [Visualizzare progetti convertiti in Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
-      + [Domande frequenti su Project Converter](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
-   + [Panoramica di Ad Hoc Analysis](ad-hoc-analysis/adhoc-home.md)
-+ Labs {#tech-previews}
-   + [Panoramica di Labs](tech-previews/overview.md)
 + Dashboard di Adobe Analytics {#mobapp}
    + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Guida per curatori](mobile-app/curator.md)
@@ -325,3 +316,5 @@ ht-degree: 100%
    + [Panoramica API di reportistica di Analytics](c-reporting-api/c-reporting-api.md)
    + [Confronto delle API di reportistica di Analytics](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
++ Labs {#tech-previews}
+   + [Panoramica di Labs](tech-previews/overview.md)
