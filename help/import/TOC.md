@@ -128,5 +128,5 @@ ht-degree: 97%
       + [Variabili dell&#39;integrazione di Analytics](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Integrazione Silverpop](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Codice plug-in di Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ Casi di utilizzo importazione {#use-cases}
++ Casi di utilizzo di importazione {#use-cases}
    + [Importa metriche di ricerca pagate tramite Origini dati](use-cases/paid-search-metrics.md)
