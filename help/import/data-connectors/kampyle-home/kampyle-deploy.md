@@ -1,83 +1,83 @@
 ---
-description: 'null'
+description: Implementa il connettore dati Kampyle in Adobe Analytics.
 title: Distribuzione dell'integrazione
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 1%
 
 ---
 
 
 # Distribuzione dell&#39;integrazione{#deploying-the-integration}
 
-La distribuzione di questa integrazione è un processo semplice, che consiste nel completare la procedura guidata di integrazione Adobe, distribuire il codice plug-in (JavaScript) e verificare l&#39;integrazione.
+La distribuzione di questa integrazione è un processo semplice che consiste nel completare l&#39;Integrazione guidata di Adobe, distribuire il codice plug-in (JavaScript) e verificare l&#39;integrazione.
 
-## Completa la procedura guidata di integrazione di Adobe{#complete-the-adobe-integration-wizard}
+## Completa l&#39;Integrazione guidata Adobe{#complete-the-adobe-integration-wizard}
 
-Per attivare l&#39;integrazione, completare la procedura guidata di configurazione nell&#39;interfaccia Connettori dati.
+Per attivare l&#39;integrazione, completa la procedura guidata di configurazione nell&#39;interfaccia Data Connectors.
 
-1. Accedi ad Adobe Experience Cloud.
+1. Accedi a Adobe Experience Cloud.
 1. Passa a **[!UICONTROL Data Connectors]**.
-1. Avviate la procedura guidata di integrazione di Kampyle.
-1. Selezionate la suite di rapporti desiderata e specificate un nome per l&#39;integrazione.
-1. Configurate i seguenti elementi:
-   1. **[!UICONTROL Email address]**: L&#39;indirizzo e-mail del contatto principale.
-   1. **[!UICONTROL Description]** (facoltativo): Descrizione per questa configurazione di integrazione.
-   1. **[!UICONTROL Kampyle Key]**: Trova questa chiave nell’applicazione Kampyle in **[!UICONTROL Feedback Form]** > **[!UICONTROL Feedback Form Customization]**.
-   1. **[!UICONTROL Tracking Server]**: Il valore del server di tracciamento utilizzato per tenere traccia dei dati di Adobe  Analytics.
-   1. **[!UICONTROL Tracking Server Secure]**: Se il server di tracciamento è diverso per il traffico protetto/https, specifica questa impostazione.
-1. Configurate i seguenti **[!UICONTROL Variable Mappings]** elementi:
+1. Avvia la procedura guidata di integrazione di Kampyle.
+1. Seleziona la suite di rapporti desiderata e specifica un nome per l’integrazione.
+1. Configura i seguenti elementi:
+   1. **[!UICONTROL Email address]**: Indirizzo e-mail del contatto principale.
+   1. **[!UICONTROL Description]** (facoltativo): Descrizione della configurazione dell&#39;integrazione.
+   1. **[!UICONTROL Kampyle Key]**: Trova questa chiave nell&#39;applicazione Kampyle in  **[!UICONTROL Feedback Form]** >  **[!UICONTROL Feedback Form Customization]**.
+   1. **[!UICONTROL Tracking Server]**: Il valore del server di tracciamento utilizzato per tenere traccia dei dati di Adobe Analytics.
+   1. **[!UICONTROL Tracking Server Secure]**: Se il server di tracciamento è diverso per il traffico protetto/https, specifica questa impostazione qui.
+1. Configura i seguenti elementi **[!UICONTROL Variable Mappings]**:
    1. **[!UICONTROL Kampyle Feedback ID]**: Seleziona una variabile eVar disponibile dalla suite di rapporti
-   1. **[!UICONTROL Feedback Grade]**: Seleziona un evento di successo disponibile (tipo &quot;contatore&quot;) dalla suite di rapporti.
-   1. **[!UICONTROL Feedback Items]**: Seleziona un evento di successo disponibile (tipo &quot;contatore&quot;) dalla suite di rapporti.
-   1. **[!UICONTROL Feedback with Grade]**: Seleziona un evento di successo disponibile (tipo &quot;contatore&quot;) dalla suite di rapporti.
-1. Selezionare la casella per creare automaticamente il dashboard Integrazione Kampyle (consigliato).
-1. Rivedete tutti gli elementi di configurazione e fate clic su **[!UICONTROL Activate Now]**.
+   1. **[!UICONTROL Feedback Grade]**: Seleziona un evento di successo disponibile (digita &quot;contatore&quot;) dalla suite di rapporti.
+   1. **[!UICONTROL Feedback Items]**: Seleziona un evento di successo disponibile (digita &quot;contatore&quot;) dalla suite di rapporti.
+   1. **[!UICONTROL Feedback with Grade]**: Seleziona un evento di successo disponibile (digita &quot;contatore&quot;) dalla suite di rapporti.
+1. Seleziona la casella per creare automaticamente il dashboard Integrazione Kampyle (consigliato).
+1. Rivedi tutti gli elementi di configurazione e fai clic su **[!UICONTROL Activate Now]**.
 
-## Implementare l&#39;oggetto di configurazione dell&#39;integrazione{#deploy-the-integration-configuration-object}
+## Distribuire l&#39;oggetto di configurazione dell&#39;integrazione{#deploy-the-integration-configuration-object}
 
-Dopo aver completato la procedura guidata di integrazione, distribuite l&#39;oggetto di configurazione dell&#39;integrazione nella proprietà Web. In molti casi, il modo più semplice per distribuire l&#39;oggetto di configurazione dell&#39;integrazione consiste nell&#39;includerlo nel codice di distribuzione Analytics  Adobe.
+Dopo aver completato l&#39;integrazione guidata, implementa l&#39;oggetto di configurazione dell&#39;integrazione nella proprietà Web. In molti casi, il modo più semplice per implementare l&#39;oggetto di configurazione dell&#39;integrazione è includerlo con il codice di distribuzione Adobe Analytics.
 
 >[!NOTE]
 >
->Se si utilizza  Adobe Experience Platform Launch, è possibile aggiungere facilmente l&#39;oggetto di configurazione dell&#39;integrazione tramite tale strumento.
+>Se utilizzi Adobe Experience Platform Launch, puoi facilmente aggiungere l’oggetto di configurazione dell’integrazione tramite tale strumento.
 
-1. Passate alla scheda **[!UICONTROL Resources]** > **[!UICONTROL Support]** dell&#39;integrazione.
-1. Scaricate e salvate la **[!UICONTROL Kampyle Integration Code (JS)]** risorsa. Il codice è simile al seguente:
+1. Passa alla scheda **[!UICONTROL Resources]** > **[!UICONTROL Support]** dell’integrazione.
+1. Scarica e salva la risorsa **[!UICONTROL Kampyle Integration Code (JS)]** . Il codice è simile al seguente:
 
    ```
    /* Kampyle:  Integration configuration settings */
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. Distribuite il codice utilizzando uno dei seguenti metodi:
+1. Distribuisci il codice utilizzando uno dei seguenti metodi:
 
-   * Utilizzate  lancio Adobe Experience Platform.
-   * Consegnate il codice alla risorsa organizzativa che gestisce la distribuzione di Adobe  Analytics.
+   * Utilizza Adobe Experience Platform Launch.
+   * Distribuisci il codice alla risorsa organizzativa che gestisce la distribuzione Adobe Analytics.
 
-## Verificare l&#39;integrazione{#verify-the-integration}
+## Verifica l&#39;integrazione{#verify-the-integration}
 
-Verificare che l&#39;integrazione trasferisca correttamente i dati completando un paio di controlli.
+Verifica che l’integrazione trasferisca correttamente i dati completando un paio di controlli.
 
-### Registro attività integrazione {#section-0472df9180db4f218db5f6040cab07af}
+### Registro delle attività di integrazione {#section-0472df9180db4f218db5f6040cab07af}
 
-Visualizza la configurazione dell’integrazione di Kampyle in Adobe Experience Cloud accedendo a **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Nella **[!UICONTROL Data In]** scheda, è possibile visualizzare le voci che indicano che i dati di classificazione sono stati importati correttamente.
-
->[!NOTE]
->
->Le voci di registro vengono visualizzate in genere entro 24 ore dalla distribuzione completata.
-
-![Registro attività integrazione](assets/integration_activity_log.png)
-
-### Dati di Adobe Reporting {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
-
-Visualizzate i rapporti di feedback di Kampyle con Adobe  Analytics accedendo al reporting di Kampyle nella struttura di menu appropriata.
+Visualizza la configurazione dell&#39;integrazione Kampyle all&#39;interno di Adobe Experience Cloud passando a **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Nella scheda **[!UICONTROL Data In]** , dovresti vedere le voci che indicano che i dati di classificazione sono stati importati correttamente.
 
 >[!NOTE]
 >
->I dati di reporting devono essere visualizzati entro 24-48 ore dalla distribuzione riuscita, partendo dal presupposto che i moduli di feedback integrati ricevano attivamente gli invii.
+>Le voci di registro vengono generalmente visualizzate entro 24 ore dalla distribuzione riuscita.
 
-![Dati di reporting Adobe](assets/adobe_reporting_data.png)
+![Registro delle attività di integrazione](assets/integration_activity_log.png)
+
+### Adobe di dati di reporting {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
+
+Per visualizzare i rapporti di feedback di Kampyle con Adobe Analytics, passa al reporting di Kampyle all&#39;interno della struttura di menu appropriata.
+
+>[!NOTE]
+>
+>I dati di reporting devono essere visualizzati entro 24-48 ore dall’invio, partendo dal presupposto che i moduli di feedback integrati ricevano attivamente gli invii.
+
+![Adobe di dati di reporting](assets/adobe_reporting_data.png)
