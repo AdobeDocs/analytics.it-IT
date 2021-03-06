@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Domande frequenti sulla segmentazione.
 title: Domande frequenti
 topic: Segmenti
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2072'
 ht-degree: 97%
 
 ---
@@ -29,7 +29,7 @@ Risposte alle domande frequenti su funzioni di segmentazione, accesso, autorizza
 * Il [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) semplifica la creazione dei segmenti.
 * Il [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) consente di impostare [flussi di lavoro](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con funzioni di condivisione dei segmenti, assegnazione di tag, verifica e approvazione.
 * Puoi [assegnare tag ai segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) per organizzarli ed effettuare ricerche in un secondo momento, anziché utilizzare le cartelle.
-* È possibile creare [Segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+* Puoi creare [Segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * Il contenitore Visualizzazione pagina è stato rinominato contenitore Hit per indicare che il contenitore segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore Hit. Nota che il funzionamento del contenitore non è cambiato, il contenitore è stato semplicemente rinominato.
 
 Per maggiori dettagli, consulta il post [Miglioramento della segmentazione in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) sul blog di digital marketing.
@@ -86,11 +86,11 @@ Ad Hoc Analysis e Report Builder mostrano i segmenti di tua proprietà e quelli 
 
 **Posso gestire tutti i segmenti di Analytics nel Gestore segmenti?**
 
-Sì, tutti i segmenti possono essere gestiti in Segment Manager. Il Gestore segmenti mostra i segmenti che possono essere visualizzati dal proprietario (l’utente che ha creato i segmenti), dagli utenti con cui sono stati condivisi e dagli amministratori. Il selettore dei segmenti mostra i segmenti di proprietà dell’utente e quelli condivisi con l’utente.
+Sì, tutti i segmenti possono essere gestiti nel Gestore segmenti. Il Gestore segmenti mostra i segmenti che possono essere visualizzati dal proprietario (l’utente che ha creato i segmenti), dagli utenti con cui sono stati condivisi e dagli amministratori. Il selettore dei segmenti mostra i segmenti di proprietà dell’utente e quelli condivisi con l’utente.
 
 Gli amministratori possono visualizzare tutti i segmenti all’interno delle interfacce utente di Analysis Workspace e [!DNL Reports & Analytics].
 
-Il Report Builder visualizza solo i segmenti generati dall&#39;utente stesso o quelli che sono stati condivisi specificatamente con l&#39;utente.
+Il Report Builder visualizza solo i segmenti generati da te o quelli condivisi con te in modo specifico.
 
 **Perché non posso eliminare questo segmento?**
 
@@ -138,7 +138,7 @@ I rapporti programmati non vengono aggiornati quando si modifica un segmento con
 
 **Cosa succederà ai segmenti di Data Warehouse?**
 
-Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti di Data Warehouse funzionerà anche in altri componenti come  Analysis Workspace e Reporting e analisi.
+Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti di Data Warehouse funzionerà anche in altri componenti come Analysis Workspace e Reports &amp; Analytics.
 
 Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore segmenti. Il meccanismo di compatibilità dei prodotti nel Generatore di segmenti determina automaticamente la compatibilità di un segmento con Data Warehouse.
 
