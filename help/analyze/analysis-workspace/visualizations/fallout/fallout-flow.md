@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Utilizza la visualizzazione Abbandono in un progetto Workspace.
 title: Panoramica dell’abbandono
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 84%
+source-wordcount: '502'
+ht-degree: 83%
 
 ---
 
@@ -33,11 +33,11 @@ La visualizzazione Abbandono è utile per analizzare:
 * Flussi di traffico generali di ambito più ampio: per le persone che hanno visto la pagina Home, questo flusso mostra quanti hanno poi fatto una ricerca e quanti sono quindi passati a uno specifico articolo.
 * Correlazioni tra eventi attivati sul sito. Le correlazioni mostrano la percentuale di persone che, dopo aver letto l’informativa sulla privacy, proseguono con l’acquisto di un prodotto.
 
-[Esercitazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=it-IT)  video sulla visualizzazione Abbandono (4:15)
+[Esercitazione video sulla visualizzazione Abbandono](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=it-IT)  (4:15)
 
 ## Segmentazione come base per Flusso e Abbandono {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-I segmenti applicati ai pannelli Area di lavoro funzionano in modo leggermente diverso rispetto ai segmenti applicati ai rapporti di abbandono e di flusso in Reporting e analisi. Nella maggior parte dei casi restituiscono esattamente gli stessi risultati. La differenza principale è che Reporting e analisi applica il segmento a ogni passaggio della sequenza. il che può portare a esiti leggermente diversi.
+I segmenti applicati ai pannelli di Workspace funzionano in modo leggermente diverso rispetto ai segmenti applicati ai rapporti di abbandono e flusso in Reports &amp; Analytics. Nella maggior parte dei casi restituiscono esattamente gli stessi risultati. La differenza principale è che Reports &amp; Analytics applica il segmento a ogni passaggio della sequenza. il che può portare a esiti leggermente diversi.
 
 Si prenda ad esempio un abbandono con due passaggi:
 
@@ -47,13 +47,13 @@ Se si applica un segmento a livello di pannello di Workspace, il segmento si com
 
 ![](assets/fallout_seg.png)
 
-Per contro, quando Reporting e analisi calcola il segmento, il segmento viene combinato nel modo seguente:
+Al contrario, quando Reports &amp; Analytics calcola il segmento, questo viene combinato nel modo seguente:
 
 ![](assets/fallout_segments3.png)
 
-Reporting e analisi combina il segmento con ogni passaggio. Quando i contenitori si trovano al medesimo livello dell’abbandono (ad es. a livello di visita o dei singoli visitatori) si ottiene un risultato identico al numero di visite o di visitatori.
+Reports &amp; Analytics combina il segmento con ogni passaggio. Quando i contenitori si trovano al medesimo livello dell’abbandono (ad es. a livello di visita o dei singoli visitatori) si ottiene un risultato identico al numero di visite o di visitatori.
 
-Tuttavia, se il segmento applicato al pannello è inferiore al livello di abbandono (ad es. a livello hit), il segmento restituisce risultati diversi, a causa della modalità di combinazione del rapporto. Come già detto, nella maggior parte dei casi i numeri in  Analysis Workspace corrispondono a quelli in Reporting e analisi. I valori **non** corrispondono solo se vengono soddisfatte tutte le condizioni elencate di seguito:
+Tuttavia, se il segmento applicato al pannello è inferiore al livello di abbandono (ad es. a livello hit), il segmento restituisce risultati diversi, a causa della modalità di combinazione del rapporto. Come ribadito, nella maggior parte dei casi i numeri in Analysis Workspace corrispondono a quelli in Reports &amp; Analytics. I valori **non** corrispondono solo se vengono soddisfatte tutte le condizioni elencate di seguito:
 
 * Il segmento non si trova allo stesso livello dell’abbandono.
 * Il segmento contiene una variabile che consente di associare a ogni visitatore/visita più valori per visita/visitatore.
