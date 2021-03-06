@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Utilizza il connettore dati Responsys con Adobe Analytics.
 title: Connettore dati Responsys per Adobe Analytics
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 6%
+source-wordcount: '277'
+ht-degree: 5%
 
 ---
 
@@ -15,32 +15,32 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->La tecnologia del Connettore dati del Adobe  terminerà il 1 agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>La tecnologia Adobe Data Connector terminerà il 1° agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
- Adobe Analytics offre un&#39;ampia gamma di nuove opportunità di targeting per gli addetti al marketing che utilizzano Responsys Interact. Distribuendo messaggi e-mail tempestivi e pertinenti ai segmenti di marketing dinamici identificati da  Adobe Analytics (ex SiteCatalyst), è possibile incrementare le conversioni e i ricavi sia dai clienti potenziali che da quelli attuali.
+Adobe Analytics offre numerose nuove opportunità di targeting per gli esperti di marketing che utilizzano Responsys Interact. Distribuendo messaggi e-mail pertinenti e tempestivi ai segmenti di marketing dinamici identificati da Adobe Analytics (precedentemente SiteCatalyst), è possibile incrementare le conversioni e i ricavi dei clienti attuali e potenziali.
 
-Ad esempio, gli addetti al marketing possono inviare un incentivo via e-mail ai visitatori che hanno visualizzato un particolare prodotto o abbandonato un carrello, incoraggiandoli a tornare sul sito e completare un acquisto. La stretta integrazione tra reporting e analisi di marketing e Responsys Interact consente l&#39;automazione, il targeting preciso e il reporting a circuito chiuso di queste campagne di remarketing, aumentando l&#39;efficienza delle attività di marketing tramite e-mail, aumentando al contempo le conversioni dei siti Web e migliorando misurabilmente il ROI complessivo.
+Ad esempio, gli esperti di marketing possono inviare un incentivo via e-mail ai visitatori che hanno visualizzato un particolare prodotto o abbandonato un carrello, incoraggiandoli a tornare al sito e completare un acquisto. La stretta integrazione tra reporting e analisi di marketing e Responsys Interact consente l’automazione, il targeting preciso e la generazione di rapporti in loop chiusi di queste campagne di remarketing, aumentando l’efficienza delle attività di marketing tramite e-mail, aumentando al contempo le conversioni dei siti web e migliorando in modo misurabile il ROI complessivo.
 
 ## Vantaggi chiave{#key-benefits}
 
-Elenca i principali vantaggi dell&#39;integrazione di  Adobe Analytics e Responsys Interact.
+Elenca i principali vantaggi dell’integrazione di Adobe Analytics e Responsys Interact.
 
-* Consolidare i dati di marketing e analisi e-mail in un&#39;unica interfaccia di reporting.
-* Ottimizzate le campagne e-mail mediante conversione e contributo alle entrate e al successo del sito.
-* Rivendita i visitatori principali e i segmenti di mercato basati sull&#39;abbandono del carrello, l&#39;acquisto di prodotti, le visualizzazioni dei prodotti, i dati correnti e storici (fino a 90 giorni prima dell&#39;attivazione).
+* Consolidare i dati di marketing e analisi e-mail in un’unica interfaccia di reporting.
+* Ottimizza le campagne e-mail tramite conversione e contributo a entrate e successo del sito.
+* Effettua il remarketing per i principali visitatori e segmenti di mercato in base all’abbandono del carrello, agli acquisti di prodotti, alle visualizzazioni dei prodotti, con dati attuali e storici (fino a 90 giorni prima dell’attivazione).
 
-## Prerequisiti di integrazione{#integration-prerequisites}
+## Prerequisiti per l’integrazione{#integration-prerequisites}
 
-Elenca i prerequisiti per  clienti Adobe Analytics e Responsys.
+Elenca i prerequisiti per Adobe Analytics e per i clienti Responsys.
 
-### Prerequisiti per  clienti di Adobe {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
+### Prerequisiti per i clienti Adobe {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
 
-* Deve essere un cliente corrente di  Adobe Analytics.
-* Devono disporre dei privilegi di amministratore.
-* Devono essere disponibili 2 eVar abilitate nella suite di rapporti.
-* Devono essere abilitati 6 eventi numerici disponibili nella suite di rapporti.
+* Deve essere un cliente corrente di Adobe Analytics.
+* Deve disporre dei privilegi di amministratore.
+* Nella suite di rapporti devono essere disponibili 2 eVar abilitate e abilitate.
+* Nella suite di rapporti devono essere attivati 6 eventi numerici disponibili.
 
 ### Prerequisiti per i clienti Responsys {#section-b04fa24f2b3a48178d914306f17917a0}
 
-* Deve essere un cliente corrente di Responsys.
-* Deve aver acquistato Interact Connect per  Adobe Analytics.
+* Deve essere un cliente attuale di Responsys.
+* Deve aver acquistato Interact Connect per Adobe Analytics.
