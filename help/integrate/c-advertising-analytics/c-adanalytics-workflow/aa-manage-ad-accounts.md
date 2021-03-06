@@ -1,16 +1,19 @@
 ---
-description: nulle
+description: Gestisci gli account in Advertising Analytics.
 title: Gestire gli account pubblicitari
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 11%
 
 ---
 
 
 # Gestire gli account pubblicitari
 
-Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,23 +27,23 @@ Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]*
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Azioni</b> </p> </td> 
-   <td colname="col2"> <p><b>Nota: Le azioni vengono visualizzate solo se avete selezionato almeno un account pubblicitario. </b> </p> </td> 
+   <td colname="col2"> <p><b>Nota: Le azioni vengono visualizzate solo se hai selezionato almeno un account pubblicitario.  </b> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+ Aggiungi </p> </td> 
-   <td colname="col2"> <p>Consente di accedere all’ <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > interfaccia utente Imposta account</a> pubblicitario. </p> </td> 
+   <td colname="col1"> <p>+ Add </p> </td> 
+   <td colname="col2"> <p>Consente di accedere all’ interfaccia utente <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Set Up Advertising Account</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rinomina </p> </td> 
-   <td colname="col2"> <p>Rinomina questo account in tutte le suite di rapporti a cui è associato. </p> </td> 
+   <td colname="col2"> <p>Rinomina questo account in tutte le suite di rapporti a cui è mappato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappa suite di rapporti </p> </td> 
-   <td colname="col2"> <p>Consente di modificare le mappature delle suite di rapporti. </p> </td> 
+   <td colname="col2"> <p>Consente di modificare le mappature della suite di rapporti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pausa </p> </td> 
-   <td colname="col2"> <p>Disattiva l’account. Per attivarlo di nuovo, fai clic su <span class="uicontrol"> Attiva</span>. </p> </td> 
+   <td colname="col2"> <p>Disattiva l’account. Per attivarlo nuovamente, fare clic su <span class="uicontrol"> Attiva</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Intestazioni colonna</b> </p> </td> 
@@ -52,10 +55,10 @@ Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]*
   </tr> 
   <tr> 
    <td colname="col1"> <p>Suite di rapporti </p> </td> 
-   <td colname="col2"> <p>Le suite di rapporti mappate a questo account pubblicitario. </p> </td> 
+   <td colname="col2"> <p>La/e suite di rapporti mappata/e a questo account pubblicitario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Type </p> </td> 
+   <td colname="col1"> <p>Tipo </p> </td> 
    <td colname="col2"> <p>Al momento è supportato un solo tipo: Ricerca. </p> </td> 
   </tr> 
   <tr> 
@@ -64,15 +67,15 @@ Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]*
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stato </p> </td> 
-   <td colname="col2"> <p>Esistono due indicatori di stato: </p> 
+   <td colname="col2"> <p>Sono disponibili 2 indicatori di stato: </p> 
     <ul id="ul_376263DEF6EE44B48564D272D3CBFCBC"> 
-     <li id="li_75E329B68B4D4E929E227E717C993082"><b>Attivo</b>: L'account sta richiamando attivamente i dati di ricerca. </li> 
-     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>In pausa</b>: L'account è attualmente disattivato e non richiama i dati di ricerca. </li> 
+     <li id="li_75E329B68B4D4E929E227E717C993082"><b>Attivo</b>: L’account sta eseguendo un’estrazione attiva dei dati di ricerca. </li> 
+     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>In pausa</b>: L’account è attualmente disattivato e non estrae i dati di ricerca. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Filtri</b> </p> </td> 
-   <td colname="col2"> <p>(Margine sinistro) Potete filtrare gli account pubblicitari per Suite di rapporti, Tipo e Stato. </p> </td> 
+   <td colname="col2"> <p>(Margine sinistro) Puoi filtrare gli account pubblicitari per suite di rapporti, tipo e stato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
