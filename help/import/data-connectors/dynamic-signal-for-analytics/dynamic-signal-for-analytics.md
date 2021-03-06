@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Utilizzare il connettore dati Dynamic Signal VoiceStorm con Adobe Analytics.
 title: Connettore dati Dynamic Signal VoiceStorm per Adobe Analytics
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '232'
+ht-degree: 7%
 
 ---
 
@@ -15,31 +15,31 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->La tecnologia del Connettore dati del Adobe  terminerà il 1 agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>La tecnologia Adobe Data Connector terminerà il 1° agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
-Questa integrazione  Adobe® Data Connectors combina le funzionalità di marketing basate sulle persone della piattaforma Dynamic Signal VoiceStorm con le informazioni sull&#39;esperienza digitale di  Adobe Analytics. Il risultato è una nuova potente opportunità di analisi e ottimizzazione.
+Questa integrazione di Adobe® Data Connectors combina le funzionalità di marketing basate sulle persone della Dynamic Signal VoiceStorm Platform con le informazioni sull’esperienza digitale di Adobe Analytics. Il risultato è una nuova potente opportunità di analisi e ottimizzazione.
 
-Quando i tuoi dipendenti e clienti promuovono il tuo marchio tramite VoiceStorm, restituiranno i risultati alle tue esperienze web di proprietà. Ora puoi misurare l&#39;incremento di queste attività tramite una soluzione integrata di monitoraggio e reporting in  Adobe Analytics.
+Quando i tuoi dipendenti e clienti promuovono il tuo marchio tramite VoiceStorm, questi restituiranno i risultati alle tue esperienze web di proprietà. Ora puoi misurare l’incremento di queste attività tramite una soluzione integrata di tracciamento e reporting in Adobe Analytics.
 
-## Vantaggi e funzionalità principali{#key-benefits-and-features}
+## Vantaggi e caratteristiche principali{#key-benefits-and-features}
 
 Illustra i 3 vantaggi principali di Dynamic Signal VoiceStorm.
 
-* Flusso di lavoro semplificato grazie alla generazione di codice di tracciamento automatizzata per i contenuti condivisi tramite VoiceStorm.
-* Sincronizzazione giornaliera automatizzata delle dimensioni del contenuto VoiceStorm tra e  Adobe Analytics.
-* Nuovi report Traffic and Conversion (Traffico e conversione) attribuiti direttamente a cui contenuti, autori e condivisori promuovono attivamente il tuo marchio.
+* Flusso di lavoro semplificato attraverso la generazione di codice di tracciamento automatizzato per i contenuti condivisi tramite VoiceStorm.
+* Sincronizzazione giornaliera automatica delle dimensioni dei contenuti VoiceStorm tra e Adobe Analytics.
+* I nuovi rapporti sul traffico e sulla conversione sono attribuiti direttamente a contenuti, autori e condivisori che promuovono attivamente il tuo marchio.
 
-## Prerequisiti di integrazione{#integration-prerequisites}
+## Prerequisiti per l’integrazione{#integration-prerequisites}
 
-Elenca i prerequisiti per  clienti di Adobi e segnali dinamici.
+Elenca i prerequisiti per i clienti Adobe e Dynamic Signal.
 
-### Prerequisiti per  clienti di Adobe {#section-b8a0b4f9b41649a68513f80397fb10e0}
+### Prerequisiti per i clienti Adobe {#section-b8a0b4f9b41649a68513f80397fb10e0}
 
-* Deve essere un cliente Adobe Analytics  corrente.
-* Deve essere un utente amministratore Adobe Experience Cloud con le autorizzazioni per abilitare i connettori dati.
-* Deve essere disponibile almeno 1 variabile  eVar abilitata nella suite di rapporti.
+* Deve essere un cliente Adobe Analytics corrente.
+* Per abilitare i Data Connectors, devi essere un utente amministratore di Adobe Experience Cloud con autorizzazioni.
+* Nella suite di rapporti deve essere presente almeno 1 variabile eVar disponibile e abilitata.
 
 ### Prerequisiti per i clienti di segnali dinamici {#section-468ccc1d532e4e738c9e610650ad3fff}
 
 * Deve essere un cliente VoiceStorm corrente.
-* Deve avere un ID community VoiceStorm valido.
+* Deve disporre di un ID community VoiceStorm valido.
