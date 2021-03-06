@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Utilizza la visualizzazione a barre orizzontale in un progetto Workspace.
 title: Barre orizzontali e Barre orizzontali sovrapposte
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 85%
 
 ---
 
@@ -16,7 +19,7 @@ Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori
 
 ![](assets/horizontal_bar.png)
 
-## Barre orizzontali sovrapposte  {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barre orizzontali sovrapposte   {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Questa visualizzazione è simile al [!UICONTROL Horizontal Bar Chart] (grafico a barre orizzontali), ma con serie di barre sovrapposte le une alle altre.
 
