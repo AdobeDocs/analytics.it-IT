@@ -1,9 +1,12 @@
 ---
-description: nulle
+description: Casi di utilizzo per la creazione e la gestione degli avvisi intelligenti.
 title: 'Avvisi intelligenti: casi di utilizzo'
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +25,7 @@ Update screenshots for better readability.
 
 ## Creare un avviso da una selezione tabella {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+Nelle tabelle a forma libera, ora puoi creare avvisi contestuali facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]** (Crea avviso da selezione).
 
 ![](assets/alert_selection.png)
 
