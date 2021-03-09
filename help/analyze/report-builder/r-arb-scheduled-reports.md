@@ -1,95 +1,38 @@
 ---
-description: Descrizioni dei campi per Task Manager pianificato.
+description: Descrizioni dei campi per Gestione attività pianificata.
 title: Attività programmate Manager
-topic: Report builder
+topic: Report Builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 9edb2224b711cb41552488c8d73cbce1a9577a61
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 4%
 
 ---
 
 
 # Attività programmate Manager
 
-Descrizioni dei campi per Task Manager pianificato.
+Gestione attività pianificata consente di visualizzare un elenco dei rapporti pianificati esistenti, nonché dei relativi destinatari, dettagli della pianificazione e formati di file. Consente inoltre di riattivare le cartelle di lavoro pianificate non eseguite.
 
-Task Manager pianificato consente di visualizzare un elenco dei rapporti pianificati esistenti, insieme ai destinatari, ai dettagli della pianificazione e ai formati dei file. Consente inoltre di riattivare le cartelle di lavoro pianificate che non sono state eseguite correttamente.
+| Campo | Descrizione |
+| --- | --- |
+| **Scheda Rapporti pianificati** |  |
+| Nome del rapporto | Indica il nome dell&#39;attività pianificata. |
+| E-mail/FTP | Indirizzo e-mail o FTP del destinatario. **Nota:** se è selezionata l’opzione e-mail, i rapporti di dimensioni superiori a 1 MB vengono automaticamente allegati all’e-mail come file .zip. Questa funzione consente di mantenere le dimensioni ridotte del file allegato e non può essere disabilitata. |
+| Opzioni di pubblicazione | Questa colonna elenca i Power BI se è selezionata una delle [opzioni di pubblicazione Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html). |
+| Pianificazione | Tipo di consegna pianificata. |
+| Formato file | Il formato di consegna del rapporto, ad esempio Excel, PDF, HTML e così via. |
+| Riattiva | Quando una cartella di lavoro pianificata non viene eseguita, il Report Builder tenta di eseguire la cartella di lavoro due volte ogni quindici minuti. Dopo tre tentativi non riusciti, il Report Builder disattiva la pianificazione e visualizza il pulsante Riattiva . Quando si riattiva una cartella di lavoro, la consegna pianificata viene riavviata dal momento in cui è stata disattivata.  Ad esempio, se una cartella di lavoro pianificata è stata disattivata 14 giorni fa e la riattiva oggi, viene eseguita per ogni giorno mancante e verrà consegnata 14 volte. Se non si desidera che la cartella di lavoro venga consegnata per i giorni mancanti, è possibile eliminare la cartella di lavoro pianificata e quindi creare una nuova cartella di lavoro pianificata utilizzando gli stessi parametri di pianificazione.   Nota:  È consigliabile non riattivare una cartella di lavoro a meno che non si conosca il motivo per cui è stata disattivata dal sistema. Una soluzione per la risoluzione dei problemi consiste nel scaricare una cartella di lavoro disattivata e aggiornarla sul lato client. Se non viene visualizzato alcun errore, è necessario essere in grado di riattivarlo. |
+| Ultimo invio | Data e ora dell’ultimo invio del rapporto. |
+| **Scheda Destinatario** |  |
+| Indirizzo e-mail del destinatario | Il destinatario e-mail del rapporto. |
+| Rapporti | Report/i inviati a ciascun destinatario. |
+| **Scheda Cronologia rapporti** |  |
+| Nome file | Indica il nome dell&#39;attività pianificata. |
+| Data | Data e ora dell’ultimo invio del rapporto. |
+| Stato | Lo stato indica se il rapporto è stato inviato o meno. |
+| E-mail/FTP | Indirizzo e-mail o FTP del destinatario del rapporto. |
+| Formato file | Il formato di consegna del rapporto, ad esempio Excel, PDF, HTML e così via. |
 
-<table id="table_21B07A0B5F1D4435A4E882E45A7A6B6E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Campo </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Report pianificati, </b>scheda </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nome rapporto </p> </td> 
-   <td colname="col2"> <p>Indica il nome dell'attività pianificata. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> E-mail/FTP </p> </td> 
-   <td colname="col2"> <p>L'indirizzo e-mail o FTP del destinatario. </p> <p>Nota:  Se è selezionata l’opzione e-mail, i rapporti superiori a 1 MB vengono automaticamente allegati all’e-mail come file .zip. Questa funzione consente di ridurre le dimensioni del file allegato e non può essere disattivata. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Opzioni di pubblicazione </p> </td> 
-   <td colname="col2"> <p>Questa colonna elenca Power BI se è selezionata una delle opzioni <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > di pubblicazione di</a> Power BI. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pianificazione </p> </td> 
-   <td colname="col2"> <p>Tipo di consegna programmata. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Formato file </p> </td> 
-   <td colname="col2"> <p> Il formato di consegna del rapporto, ad esempio Excel, PDF, HTML e così via. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Riattiva </p> </td> 
-   <td colname="col2"> <p>Se una cartella di lavoro pianificata non viene eseguita correttamente, il Generatore di report tenta di eseguire la cartella di lavoro due volte ogni quindici minuti. Dopo tre tentativi non riusciti, Generatore di report disattiva la pianificazione e visualizza il pulsante <span class="wintitle"> Riattiva</span> . Quando si riattiva una cartella di lavoro, la consegna pianificata viene riavviata dal momento in cui è stata disattivata. </p> <p>Ad esempio, se una cartella di lavoro pianificata è stata disattivata 14 giorni fa e la riattivate oggi, viene eseguita per ogni giorno mancante e verrà consegnata 14 volte. Se non si desidera che la cartella di lavoro venga consegnata per i giorni mancanti, è possibile eliminare la cartella di lavoro pianificata e quindi creare una nuova cartella di lavoro pianificata utilizzando gli stessi parametri di programmazione. </p> <p> <p>Nota:  È consigliabile riattivare una cartella di lavoro solo se si conosce il motivo per cui è stata disattivata dal sistema. Una soluzione per la risoluzione dei problemi consiste nel scaricare una cartella di lavoro disattivata e aggiornarla sul lato client. Se non vengono visualizzati errori, è necessario riattivarli. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ultimo invio </p> </td> 
-   <td colname="col2"> <p>Data e ora dell’ultimo invio del rapporto. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Destinatario, </b>scheda </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>E-mail destinatario </p> </td> 
-   <td colname="col2"> Destinatario dell'e-mail del rapporto. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Rapporti </p> </td> 
-   <td colname="col2"> I rapporti inviati a ciascun destinatario. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Cronologia</b> rapporti, scheda </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nome file </p> </td> 
-   <td colname="col2"> Indica il nome dell'attività pianificata. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data </p> </td> 
-   <td colname="col2"> Data e ora dell’ultimo invio del rapporto. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Stato </p> </td> 
-   <td colname="col2"> Lo stato indica se il rapporto è stato inviato o meno. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>E-mail/FTP </p> </td> 
-   <td colname="col2"> Indirizzo e-mail o FTP del destinatario del rapporto. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Formato file </p> </td> 
-   <td colname="col2"> Il formato di consegna del rapporto, ad esempio Excel, PDF, HTML e così via. </td> 
-  </tr> 
- </tbody> 
-</table>
