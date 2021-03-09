@@ -1,13 +1,13 @@
 ---
 description: Passaggi che descrivono come creare una suite di rapporti rollup.
 title: Creare una suite di rapporti rollup
-topic: Admin tools
+topic: Strumenti di amministrazione
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 42cdbdafdafb94b336253ff49dfa2fb77ed9f339
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 16%
 
 Passaggi che descrivono come creare una suite di rapporti rollup.
 
+>[!NOTE]
+>
+>[!DNL Reports & Analytics] è l’unico strumento che supporta i rapporti di rollup e Adobe non consiglia più di utilizzare i rollup. Per le alternative, consulta &quot;[approcci suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot;.
+
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In [!UICONTROL Report Suite Groups], fare clic **[!UICONTROL Add]** accanto all’ **[!UICONTROL Rollups]** intestazione.
-1. Nella finestra di **[!UICONTROL Create a New Rollup]** dialogo, fornite le seguenti informazioni:
+1. In [!UICONTROL Report Suite Groups], fai clic su **[!UICONTROL Add]** accanto all&#39;intestazione **[!UICONTROL Rollups]**.
+1. Nella finestra di dialogo **[!UICONTROL Create a New Rollup]**, fornisci le seguenti informazioni:
 
    **[!UICONTROL Report Suite ID:]** ID suite di rapporti rollup.
 
-   **[!UICONTROL Report Suite Title:]** Titolo della suite di rapporti che viene visualizzato nel menu Sito.
+   **[!UICONTROL Report Suite Title:]** Titolo della suite di rapporti visualizzato nel menu Sito.
 
-   **[!UICONTROL Time Zone:]** Fuso orario in cui vengono segnalati i dati.
+   **[!UICONTROL Time Zone:]** Il fuso orario in cui vengono segnalati i dati.
 1. Fai clic su **[!UICONTROL Create Rollup]**.
-
->[!NOTE]
->
->I rollup non sono supportati in  Analysis Workspace.
