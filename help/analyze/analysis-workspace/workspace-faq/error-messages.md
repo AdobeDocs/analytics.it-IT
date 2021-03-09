@@ -1,11 +1,11 @@
 ---
 description: Elenco dei messaggi di errore in Adobe Analysis Workspace e nei relativi componenti
 title: Messaggi di errore comuni in Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5514e98703442fa68c8f19edce07fb3f2c74b874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 95%
 | Messaggio di errore | Perché si verifica? | Ottimizzazione |
 | --- | --- | --- |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe sta riscontrando un problema da risolvere. | Invia il codice di errore all’Assistenza clienti. |
-| [!UICONTROL An unexpected error has occurred; try refreshing your project again. If the problem persists, please submit this error ID to Adobe Customer Care for further diagnosis.] | Adobe sta riscontrando un problema da risolvere. | Provare ad aggiornare il progetto e, se il problema persiste, inviare il codice di errore all&#39;Assistenza clienti. |
-| [!UICONTROL Error 500: Failed to load page] | I problemi relativi alla rete locale, come le [impostazioni del firewall](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=it-IT) aziendale, contribuiscono a questo errore. Inoltre, è possibile che Adobe stia affrontando un problema che necessita di essere risolto. | Prova a eseguire di nuovo l’accesso dopo alcuni minuti. Se il problema persiste, invia il codice ID istanza EIM all’Assistenza clienti. |
+| [!UICONTROL An unexpected error has occurred; try refreshing your project again. If the problem persists, please submit this error ID to Adobe Customer Care for further diagnosis.] | Adobe sta riscontrando un problema da risolvere. | Prova ad aggiornare il progetto; se il problema persiste, invia il codice di errore all’Assistenza clienti. |
+| [!UICONTROL Error 500: Failed to load page] | I problemi relativi alla rete locale, come le [impostazioni del firewall](https://docs.adobe.com/content/help/it-IT/analytics/technotes/ip-addresses.html) aziendale, contribuiscono a questo errore. Inoltre, è possibile che Adobe stia affrontando un problema che necessita di essere risolto. | Prova a eseguire di nuovo l’accesso dopo alcuni minuti. Se il problema persiste, invia il codice ID istanza EIM all’Assistenza clienti. |
 | [!UICONTROL One of the segments or the search in this visualization contains a text search that returned too many results.] | Il criterio del segmento o il filtro del rapporto è troppo ampio. | Restringi i criteri di ricerca e prova a inviare di nuovo la richiesta. |
 | [!UICONTROL The report suite is experiencing unusually heavy reporting. Please try again later.] | L’organizzazione sta tentando di eseguire troppe richieste simultanee su una suite di rapporti specifica. Questo errore è causato da richieste API, progetti pianificati, rapporti pianificati, avvisi pianificati e utenti simultanei che eseguono richieste di generazione di rapporti. | Distribuisci le richieste e le pianificazioni per la suite di rapporti in modo più uniforme durante l’intera giornata. |
 | [!UICONTROL The request is too complex.] | La richiesta di generazione rapporti è troppo grande e non può essere eseguita. Questo errore è causato da timeout dovuti alla dimensione della richiesta, troppi elementi associati in un segmento o un filtro di ricerca, inclusione di troppe metriche, combinazioni di dimensioni e metriche incompatibili, ecc. | Semplifica la richiesta rimuovendo alcune colonne o righe nella tabella oppure prova a suddividere la tabella in più richieste distinte. |
