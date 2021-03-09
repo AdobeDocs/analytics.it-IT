@@ -1,11 +1,11 @@
 ---
-description: Le incoerenze nei dati possono causare grossi problemi. Scoprite come identificare le anomalie statistiche con le tecniche di rilevamento delle anomalie  Adobe. Inizia oggi.
+description: Le incoerenze nei dati possono causare grossi problemi. Scopri come identificare le anomalie statistiche con le tecniche di rilevamento delle anomalie Adobe. Inizia oggi.
 title: Tecniche di statistica utilizzate nel rilevamento delle anomalie
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ A seconda della granularità della data applicata al rapporto, vengono usate 3 d
 
 Per i report con granularità giornaliera, l’algoritmo considera diversi fattori importanti per fornire risultati quanto più precisi possibile. Innanzitutto, viene determinato che tipo di modello applicare in base ai dati disponibili per la classe selezionata. Sono disponibili due classi: un modello basato su serie temporale e uno per il rilevamento di dati aberranti (filtro funzionale).
 
-Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stagionalità (ETS) come descritto da [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Nello specifico, l’algoritmo prova le seguenti combinazioni:
+Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stagionalità (ETS) come descritto da [Hyndman et al. (2008)](https://www.springer.com/it/book/9783540719168). Nello specifico, l’algoritmo prova le seguenti combinazioni:
 
 1. ANA (errore additivo, nessuna tendenza, stagionalità additiva)
 1. AAA (errore additivo, tendenza additiva, stagionalità additiva)
