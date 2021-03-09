@@ -1,7 +1,11 @@
 ---
 title: Licenza Apache
+description: Termini della Licenza Apache.
 translation-type: tm+mt
-source-git-commit: 8f17602b6295864d0391695061cdf2e381c954b2
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+workflow-type: tm+mt
+source-wordcount: '1576'
+ht-degree: 99%
 
 ---
 
@@ -11,169 +15,75 @@ source-git-commit: 8f17602b6295864d0391695061cdf2e381c954b2
     Versione 2.0, gennaio 2004
 <!--                        https://www.apache.org/licenses/  -->
 
-TERMINI E CONDIZIONI PER L'UTILIZZO, LA RIPRODUZIONE E LA DISTRIBUZIONE
+TERMINI E CONDIZIONI DI UTILIZZO, RIPRODUZIONE E DISTRIBUZIONE
 
 1. Definizioni.
 
-   Per "licenza" si intendono i termini e le condizioni di utilizzo, riproduzione e distribuzione definiti dalle sezioni da 1 a 9 del presente documento.
+   Per “Licenza” si intendono i termini e le condizioni per l’uso, la riproduzione e la distribuzione, così come definiti nelle Sezioni da 1 a 9 del presente documento.
 
-   " Licenziatario ": il proprietario o l'entità del copyright autorizzato dal proprietario del diritto d'autore che concede la Licenza.
+   Per “Licenziante” si intende il proprietario del copyright, o l’entità autorizzata da quest’ultimo, che concede la Licenza.
 
-   " Entity Entity ": indica l'unione dell'entità di azione e tutte
-le altre entità che controllano, sono controllate da, o sono in comune con quella entità. Ai fini di questa definizione,
-"controllo" indica (i) la potenza, diretta o indiretta, per determinare la direzione o la gestione di tale entità, per contratto o
-in altro modo, oppure (ii) proprietà del cinquanta percento (50%) o più delle condivisioni in sospeso, o (iii) proprietà vantaggiosa di tale entità.
+   Per “Entità giuridica” si intende l’insieme dell’entità agente e di tutte le altre entità che controllano, sono controllate da o si trovano sotto comune controllo con tale entità. Ai fini della presente definizione, per “controllo” si intende (i) la potestà, diretta o indiretta, di dirigere o gestire la suddetta entità, per contratto o altrimenti stabilito, (ii) la titolarità di almeno il cinquanta per cento (50%) delle azioni in circolazione, oppure (iii) la proprietà di tale entità.
 
-   " You " (or" Your ") shall a individual or Legal Entity
-exercising permissions granted by this License.
+   Per “Utente” (o “Dell’Utente”) si intende un’entità fisica o giuridica che esercita le autorizzazioni concesse dalla presente Licenza.
 
-   Il modulo "Sorgente" indica il modulo preferito per apportare modifiche,
-compresi, ad esempio, il codice sorgente software, la sorgente della documentazione
-e i file di configurazione.
+   Per formato “Sorgente” si intende il formato preferito per apportare modifiche, ad esempio il codice sorgente del software o della documentazione e i file di configurazione.
 
-   Per modulo "si intende qualsiasi modulo derivante da trasformazione meccanica
-o conversione di un modulo Sorgente, compresi, ad esempio,
-codice oggetto compilato, documentazione generata e conversioni ad altri tipi di supporti.
+   Per formato “Oggetto” si intende qualsiasi formato risultante dalla trasformazione meccanica o dalla traduzione di un formato Sorgente, ivi inclusi, in via esemplificativa, codice di oggetto compilato, documentazione generata e conversioni in altri tipi di file multimediali.
 
-   «Work»: il lavoro dell'authoring, nel modulo Sorgente o
-Oggetto, reso disponibile in Licenza, come indicato da una
-notifica di copyright inclusa o associata al lavoro
-(un esempio è fornito nell'Appendice di seguito).
+   Per “Opera” si intende l’opera d’autore, in formato Sorgente od Oggetto, resa disponibile nei termini della Licenza, come indicato dall’avviso di copyright incluso o incorporato nell’opera (un esempio è fornito più avanti nell’Appendice).
 
-   " Opere derivate ": qualsiasi lavoro, nel modulo Sorgente o Oggetto,
-basato su (o derivato da) il lavoro e per cui le revisioni editoriali, le annotazioni, le elaborazioni o altre modifiche
-rappresentano, nel complesso, un lavoro di authoring originale. Ai fini
-della Licenza, i lavori derivati non devono includere opere che rimangono
-separabili da, o semplicemente collegamento (o per nome) alle interfacce di,
-Work and Derivate di base.
+   Per “Opere derivate” si intende qualsiasi opera, in formato Sorgente od Oggetto, che sia basata sull’Opera (o derivata dalla medesima) e le cui revisioni editoriali, annotazioni, elaborazioni e altre modifiche rappresentino, nel complesso, un’opera d’autore originale. Ai fini della presente Licenza, le Opere derivate non comprendono le opere separabili dall’Opera o dalle rispettive Opere derivate né le opere meramente collegate (o associate per nome) alle interfacce delle medesime.
 
-   Per "contributo" si intende qualsiasi lavoro di authoring, inclusa
-la versione originale del lavoro ed eventuali modifiche o aggiunte
-a tale lavoro o opere derivate, che vengono inviate intenzionalmente
-alla licenziatario da includere nel lavoro da parte del proprietario
-del copyright o da un singolo o un ente giuridico autorizzato a inviare per conto del
-proprietario del copyright. Per gli scopi di questa definizione, «inviato»
-indica qualsiasi forma di comunicazione elettronica, verbale o scritta inviata
-al licenziatario o ai suoi rappresentanti, compresi, ma non esclusivamente, la comunicazione su mailing list elettronici, sistemi di controllo dei codici sorgente e sistemi di tracciamento delle edizioni gestiti da, o per conto di, il
-licenziatario, allo scopo di discutere e migliorare il lavoro, escluso la comunicazione indicata o altrimenti designata per scrivere dal proprietario del copyright come «Non un contributo».
+   Per “Contributo” si intende qualsiasi opera d’autore, inclusa la versione originale, le modifiche o le aggiunte all’Opera o le Opere derivate, inviata intenzionalmente al Licenziante affinché il proprietario del copyright o un’entità fisica o giuridica autorizzata dal medesimo la includa nell’Opera. Ai fini della presente definizione, per “invio” si intende qualsiasi comunicazione elettronica, verbale o scritta inviata al Licenziante o ai suoi rappresentanti, ivi incluse, in via esemplificativa, comunicazioni tramite mailing list, sistemi di controllo del codice sorgente e sistemi di registrazione dei problemi gestiti dal Licenziante, o per conto di quest’ultimo, allo scopo di commentare e migliorare l’Opera. Sono escluse le comunicazioni contrassegnate in modo evidente o altrimenti designate per iscritto dal proprietario del copyright come “Non costituenti contributo”.
 
-   " Collaboratore ": indica il licenziatario e ogni persona fisica o giuridica per conto del quale è stato ricevuto un contributo da parte della licenziatario e
-successivamente incorporato nel lavoro.
+   Per “Collaboratore” si intende il Licenziante e chiunque, entità fisica o giuridica, per conto di cui il Licenziante abbia ricevuto un Contributo successivamente incorporato nell’Opera.
 
-2. Concessione della licenza copyright. In base ai termini e alle condizioni di
-questa Licenza, ogni Collaboratore concede a voi una licenza di copyright perpetua,
-mondiale, non esclusiva, esente da royalty, esente da royalty, senza royalty, per riprodurre, preparare Opere derivate di,
-visualizzare pubblicamente, sublicare e distribuire il lavoro e tale opere derivata in Origine o in Modulo oggetto.
+2. Concessione della licenza di copyright. In conformità ai termini e alle condizioni della presente Licenza, ogni Collaboratore concede all’Utente una licenza di copyright permanente, valida in tutto il mondo, non esclusiva, senza addebiti né royalty, e irrevocabile per la riproduzione, la creazione di Opere derivate, la visualizzazione o l’utilizzo pubblico, la concessione in sottolicenza e la distribuzione dell’Opera e delle Opere derivate in formato Sorgente od Oggetto.
 
-3. Concessione della licenza brevetto. In virtù dei termini e delle condizioni di
-questa Licenza, ciascun collaboratore concede a You una licenza perpetua,
-mondiale, non esclusiva, esente da royalty, esente da royalty, esente da royalty (eccetto come indicato in questa sezione) per eseguire, aver apportato,
-utilizzate, offerta per vendere, vendere, importare e altrimenti trasferire il lavoro, dove tale licenza si applica solo a quelle brevetti licenziabili
-da tale collaboratore che sono necessariamente violate solo per i contributi o per combinazione dei contributi con l'utilizzo di tali contributi. Se si crea un brevetto con controversie relative a qualsiasi entità (inclusa una
-richiesta incrociata o un controreclamo in una persona giuridica) si asserisce che il lavoro o
-un contributo incorporato nel lavoro costituisce violazione di brevetto diretta
-o collaboratore, le licenze brevetto concesse all'Utente in virtù della Licenza per quel lavoro devono terminare
-a partire dalla data in cui tale attività viene archiviata.
+3. Concessione della licenza di brevetto. In conformità ai termini e alle condizioni della presente Licenza, ogni Collaboratore concede all’Utente una licenza di brevetto permanente, valida in tutto il mondo, non esclusiva, senza addebiti né royalty, e irrevocabile (con le eccezioni descritte nella presente sezione) per la creazione, in passato e nel presente, l’uso, l’offerta, la vendita, l’importazione e il trasferimento in altro modo dell’Opera. Tale licenza si applica unicamente alle caratteristiche che il Collaboratore può concedere in licenza in quanto necessariamente violate dal suo Contributo, da solo o in combinazione con l’Opera a cui il Contributo è stato incorporato. Se l’Utente avvia un contenzioso contro un’entità (inclusa una domanda riconvenzionale o controreclamo in una causa legale) dichiarando che l’Opera o un Contributo all’interno della stessa costituisce una violazione, diretta o in concorso, del brevetto, qualsiasi licenza di brevetto concessa all’Utente nei termini della presente Licenza decade fino alla conclusione del contenzioso.
 
-4. Ridistribuzione. È possibile riprodurre e distribuire copie del lavoro Work o Derivate in qualsiasi canale, con o senza
-modifiche, e nel modulo Sorgente o Oggetto, purché siano
-soddisfatte le condizioni seguenti:
+4. Ridistribuzione. L’Utente può riprodurre e distribuire copie dell’Opera o delle Opere derivate in qualsiasi modo, con o senza modifiche e in formato Sorgente od Oggetto, purché rispetti le seguenti condizioni:
 
-   (a) fornire a tutti gli altri destinatari del Lavoro o
-Derivato una copia di questa Licenza, e
+   (a) Tutti i destinatari dell’Opera o delle Opere derivate devono ricevere una copia della presente Licenza; e
 
-   (b) fare in modo che qualsiasi file modificato contenga delle note
-esplicite che indicano che i file sono cambiati; e
+   (b) Nei file modificati deve essere presente in modo ben visibile una dichiarazione attestante che i file sono stati modificati e l’autore delle modifiche; e
 
-   (c) di mantenere, nella modulo Sorgente di qualsiasi opere
-derivata distribuita, tutte le notifiche copyright, brevetto, marchi, marchi e
-attribuzione dalla forma Origine del lavoro,
-escludendo quelle note che non interessano alcuna parte del
-Prodotto derivato, e
+   (c) Nel formato Sorgente delle Opere derivate distribuite devono essere mantenuti tutti gli avvisi di copyright, brevetto, marchio e attribuzione presenti nel formato Sorgente dell’Opera, esclusi gli avvisi non rilevanti per le Opere derivate; e
 
-   (d) se l'attività include un file di testo "AVVISO" come parte della distribuzione, eventuali opere derivate distribuite devono
-includere una copia leggibile delle notifiche di attribuzione contenute
-in tale file AVVISO, escludendo quelle note che non
-interessano alcuna parte del Prodotto derivato, in almeno una
-delle seguenti posizioni: all'interno di un file di testo AVVISO distribuito
-come parte del risultato derivato; all'interno del modulo Sorgente o
-della documentazione, se fornito insieme a Opere derivate; oppure,
-all'interno di una visualizzazione generata da Opere derivate, se e
-in qualsiasi punto di tali avvisi di terze parti normalmente appaiono. I contenuti
-del file AVVISO sono esclusivamente a scopo informativo e
-non modificano la Licenza. Potete aggiungere le vostre notifiche di attribuzione
-all'interno di Opere derivate distribuite, unitamente
-o come addendum al testo AVVISO dal lavoro, a condizione
-che tali avvisi di attribuzione aggiuntivi non possano essere interpretati
-come modificare la Licenza.
+   (d) Se la distribuzione dell’Opera include un file di testo di avvisi, qualsiasi Opera derivata distribuita deve includere una copia leggibile degli avvisi di attribuzione all’interno di tale file di avvisi, esclusi quelli non rilevanti per le Opere derivate, in almeno una delle seguenti posizioni: all’interno di un file di testo di avvisi distribuito con le Opere derivate; all’interno del formato Sorgente o della documentazione, se fornita con le Opere derivate; all’interno di una visualizzazione generata dalle Opere derivate, se e nei punti in cui tali avvisi di terzi vengono normalmente visualizzati. Il contenuto del file di avvisi è a solo scopo informativo e non modifica la Licenza. All’interno delle Opere derivate che si distribuiscono è possibile aggiungere i propri avvisi di attribuzione, insieme o in aggiunta al testo di avvisi relativo all’Opera, purché tali avvisi aggiuntivi non costituiscano una modifica della Licenza.
 
-   You may add your own copyright statement to your changes and
-may provide additional or different license terms and conditions
-for use, playback, or distribution of your changes, or
-for any such Derivative as a entire, provided Your Use,
-playback, and distribution of the Work altrimenti conforme alle
-condizioni specificate in this License.
+   È possibile aggiungere una dichiarazione di copyright alle proprie modifiche e indicare termini e condizioni per l’uso, la riproduzione o la distribuzione delle proprie modifiche o delle eventuali Opere derivate nel complesso, purché l’uso, la riproduzione e la distribuzione dell’Opera da parte dell’autore delle modifiche rispetti le condizioni indicate nella presente Licenza.
 
-5. Invio dei contributi. A meno che non dichiari esplicitamente, qualsiasi contributo inviato intenzionalmente per essere incluso nell'attività
-da Te al licenziatario, sia conforme ai termini e condizioni di
-questa licenza, senza termini o condizioni aggiuntive.
-In deroga a quanto sopra, non verrà più sostituito né modificato
-i termini di un contratto di licenza separato che potrebbe essere stato eseguito
-con la licensor relativamente a tali contributi.
+5. Invio di contributi. Se non esplicitamente dichiarato altrimenti, i Contributi intenzionalmente inviati dall’Utente al Licenziante per l’inclusione nell’Opera devono rispettare i termini e le condizioni della presente Licenza, senza termini o condizioni aggiuntive. Ciononostante, quanto qui dichiarato non sostituisce o modifica i termini di eventuali contratti di licenza separati sottoscritti dall’Utente e dal Licenziante relativamente ai Contributi.
 
-6. Marchi. Questa licenza non concede l'autorizzazione per utilizzare nomi commerciali,
-marchi commerciali, marchi di servizio o nomi di prodotti della licenziatario,
-fatta eccezione per l'uso logico e usuario nel descrivere l'origine
-del lavoro e la riproduzione del contenuto del file AVVISO.
+6. Marchi commerciali. La presente Licenza non concede l’autorizzazione all’uso di nomi e marchi commerciali, marchi di servizio o nomi di prodotti del Licenziante, eccetto nella misura richiesta, secondo un uso normale e ragionevole, per descrivere l’origine dell’Opera e riprodurre il contenuto del file di avvisi.
 
-7. Dichiarazione di garanzia. A meno che non sia richiesto dalle leggi applicabili o
-accettato durante la scrittura, Licenziatario fornisce il lavoro (e ogni
-collaboratore fornisce i suoi contributi) su base «AS IS»,
-SENZA GARANZIE né CONDIZIONI DI QUALSIASI TIPO, express o implicita, inclusa, senza limitazioni, nessuna garanzia o condizione
-di TITLE, NON-violazione, Merchantability o FITNESS per un particolare AIM. L'Utente è tenuto a determinare l'adeguatezza
-dell'utilizzo o della ridistribuzione del lavoro e l'assunzione di
-eventuali rischi associati all'esercizio delle autorizzazioni in questa Licenza.
+7. Esclusione di garanzia. Se non richiesto dalla legislazione in vigore o concordato per iscritto, il Licenziante fornisce l’Opera (e i Collaboratori forniscono i propri Contributi) “COSÌ COM’È”, SENZA GARANZIE O CONDIZIONI DI ALCUN TIPO, esplicite o implicite, incluse, senza alcuna limitazione, garanzie o condizioni di TITOLARITÀ, NON VIOLAZIONE DEI DIRITTI ALTRUI, COMMERCIABILITÀ O IDONEITÀ A UN FINE PARTICOLARE. L’Utente è l’unico responsabile di determinare l’idoneità dell’uso o della ridistribuzione dell’Opera e si assume tutti i rischi associati all’esercizio delle autorizzazioni concesse dalla presente Licenza.
 
-8. Limitazione di responsabilità. In nessun evento e senza una teoria legale,
-se in tort (comprese le negligenze), contratto o in altro modo,
-a meno che non sia richiesto dalle leggi applicabili (come atti di negligenza deliberati e grossolanamente
-negligenti) o accettato per la scrittura, un collaboratore deve essere responsabile dell'Utente per i danni, compresi eventuali danni diretti, indiretti, speciali,
-incidentali o consequenziali di qualsiasi carattere che emergono da questa Licenza o che risultino incapaci di utilizzare il
-lavoro (incluso, ma non solo, i danni per la perdita di buona volontà,
-la pagina cronologia di lavoro, l'errore del computer o il malfunzionamento, o qualsiasi altro danno commerciale o perdita), anche se È stata segnalata la possibilità di tali danni.
+8. Limitazione di responsabilità. In nessun caso e in base a nessuna teoria legale, a seguito di illecito (inclusa la negligenza), azione contrattuale o altro, se non richiesto dalla legislazione in vigore (ad esempio atti deliberati e gravemente negligenti) o concordato per iscritto, un Collaboratore potrà essere ritenuto responsabile nei confronti dell’Utente per danni, inclusi danni diretti, indiretti, incidentali, speciali o consequenziali di qualsiasi tipo derivanti dalla presente Licenza, dall’uso o dall’incapacità di usare l’Opera (ivi inclusi, in via esemplificativa, danni per perdita di avviamento, interruzione di attività, guasto o malfunzionamento di computer o altri danni o perdite commerciali), anche se il Collaboratore era stato informato della possibilità del verificarsi di tali danni.
 
-9. Accettazione di Garanzia o Responsabilità aggiuntiva. Durante la ridistribuzione
-del lavoro di Opere o Opere derivate, potete scegliere di offrire e
-pagare una tariffa per l'accettazione di supporto, garanzia, identità o altri obblighi di responsabilità e/o diritti coerenti con questa
-Licenza. Tuttavia, nell'accettazione di tali obblighi, l'Utente può agire solo
-per vostro conto e nella propria responsabilità, non per conto
-di nessun altro Collaboratore, e solo se l'Utente accetta di indicizzare,
-difendere e includere ogni Collaboratore per qualsiasi responsabilità
-trattenuta da, o reclamato a fronte, tale collaboratore per motivi
-di accettazione di tale garanzia o di ulteriore responsabilità.
+9. Accettazione di garanzia o responsabilità aggiuntiva. Quando ridistribuisce l’Opera o le Opere derivate, l’Utente può scegliere di offrire, a pagamento, l’accettazione di assistenza, garanzia, indennizzo o altri obblighi e/o diritti conformi alla presente Licenza. Tuttavia, accettando tali obblighi l’Utente è autorizzato ad agire esclusivamente per conto proprio e sotto la propria responsabilità, non per conto di altri Collaboratori, e solo se accetta di indennizzare, difendere e considerare esente da responsabilità o altri reclami ogni Collaboratore, accettando tale garanzia o responsabilità aggiuntiva.
 
-FINE DEI TERMINI E DELLE CONDIZIONI
+FINE DEI TERMINI E CONDIZIONI
 
-APPENDICE: Come applicare la Licenza Apache al lavoro.
+APPENDICE: come applicare la Licenza Apache all’Opera.
 
-    Per applicare la Licenza Apache al lavoro, allegate il
-    seguente avviso ricorrente, con i campi racchiusi da parentesi " {}"
-    sostituite con le informazioni identificative personalizzate. (Don't include
-    the brackets!)  The text should be enclosed in the appropriate
-    comment syntax for the file format. We also recommend that a
-    file or class name and description of purpose be included on the
-    same "printed page" as the copyright notice for easier
-    identification within third-party archives.
+    Per applicare la Licenza Apache all’Opera, l’Utente deve incorporare il seguente 
+    avviso prestampato, con i campi racchiusi tra parentesi “{}”
+    sostituiti con i propri dati. (Non
+    includere le parentesi!) Il testo deve essere racchiuso nella sintassi di commento
+    appropriata per il formato di file. Consigliamo inoltre di includere un nome
+    di file o classe e una descrizione dello scopo nella
+    stessa “pagina stampata” dell’avviso di copyright per semplificarne
+    l’identificazione negli archivi di terzi.
 
 Copyright 2018 Adobe Systems, Inc
 
-Licenza under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-Puoi trovare una copia della Licenza in
+Concesso in licenza secondo i termini della Licenza Apache, versione 2.0 (la “Licenza”); è proibito usare questo file se non in conformità alla Licenza.
+Una copia della Licenza è disponibile all’indirizzo
 
     https://www.apache.org/licenses/LICENSE-2.0
 
-A meno che non sia richiesto dalle leggi applicabili o accettato durante la scrittura, il software
-distribuito nella licenza viene distribuito su base «AS IS»,
-senza garanzia o condizioni di qualsiasi tipo, espresso o implicito.
-Consultate la Licenza per le autorizzazioni e le limitazioni specifiche di gestione della lingua in virtù della Licenza.
+Se non richiesto dalla legislazione vigente o concordato per iscritto, il software distribuito nei termini della Licenza è distribuito “COSÌ COM’È”, SENZA GARANZIE O CONDIZIONI DI ALCUN TIPO, esplicite o implicite.
+Consultare la Licenza per il testo specifico che regola le autorizzazioni e le limitazioni previste dalla medesima.
