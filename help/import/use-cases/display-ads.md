@@ -1,23 +1,23 @@
 ---
-title: Integrare i dati di Google Display Ad in  Adobe Analytics
-description: null
+title: Integrare i dati degli annunci display di Google in Adobe Analytics
+description: Questa integrazione consente di associare il comportamento dei clienti ai dati di campagne e costi di Google AdWords.
 translation-type: tm+mt
-source-git-commit: caa4042cbef2f588452f9fdd70c5f4bca976ca83
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
 
-# Integrare i dati di Google Display Ad con  Adobe Analytics
+# Integrare i dati dell&#39;annuncio visualizzato di Google con Adobe Analytics
 
-Questa integrazione consente di associare il comportamento dei clienti ai dati delle campagne e dei costi da Google AdWords.
+Questa integrazione consente di associare il comportamento dei clienti ai dati di campagne e costi di Google AdWords.
 
 
 1. Apri Google Campaign Manager.
-1. Configurate un&#39;esportazione periodica dei dati degli annunci display in modo da poter caricare i delta delle metriche di visualizzazione (impression, clic, costo), suddivisi per l&#39;ID più granulare (ID annuncio).
-1. Carica l&#39;intero set di metadati ID annuncio, come campagna, sito e così via.
-1. Classificate l&#39;Ad ID utilizzando tutti i metadati.
-1. Formattarli in formati che possono essere utilizzati da origini dati e classificazioni.
+1. Imposta un’esportazione ricorrente dei dati degli annunci display in modo da poter caricare delta delle metriche di visualizzazione (impression, clic, costo), suddivisi per l’ID più granulare (ID annuncio).
+1. Carica l&#39;intero set di metadati dell&#39;Ad ID, come campagna, sito, ecc.
+1. Classifica l&#39;Ad ID utilizzando tutti i metadati.
+1. Formattarli in formati che possono essere utilizzati dalle origini dati e dalle classificazioni.
 1. da questo punto in poi, come ricerca a pagamento...
