@@ -5,7 +5,7 @@ title: Domande frequenti
 topic: Connettori dati
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
