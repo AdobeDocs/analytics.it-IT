@@ -5,10 +5,10 @@ user-guide-title: Guida all’importazione di Analytics
 breadcrumb-title: Guida all’importazione
 user-guide-description: 'Trasferisci i dati in Analytics da sorgenti esterne, sia in massa che in tempo reale. '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 97%
+source-wordcount: '529'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 + [API di inserimento dati](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Introduzione ai Data Connectors di Analytics](data-connectors/getting-started-data-connectors.md)
-   + [Fine del ciclo di vita per i connettori dati di Analytics](data-connectors/data-connectors-eol.md)
+   + [Terminazione dei Data Connectors di Analytics](data-connectors/data-connectors-eol.md)
    + Connettore dati appFigures per Adobe Analytics {#appfigures}
       + [Panoramica di appFigures](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Prima di attivare questa integrazione](data-connectors/appfigures-overview/appfigures-before-activation.md)
@@ -71,6 +71,7 @@ ht-degree: 97%
       + [Dimensioni standard Demandbase](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Dimensioni personalizzate Demandbase](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Connettore dati DFA per Adobe Analytics {#dfa}
+      + [Informazioni sulla fine del ciclo di vita dell’integrazione DFA](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Connettore dati DFA per Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Prerequisiti](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Funzionalità di integrazione](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
@@ -128,5 +129,5 @@ ht-degree: 97%
       + [Variabili dell&#39;integrazione di Analytics](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Integrazione Silverpop](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Codice plug-in di Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ Casi di utilizzo di importazione {#use-cases}
-   + [Importa metriche di ricerca pagate tramite Origini dati](use-cases/paid-search-metrics.md)
++ Casi d&#39;uso per l&#39;importazione {#use-cases}
+   + [Importare metriche di ricerca a pagamento tramite Origini dati](use-cases/paid-search-metrics.md)
