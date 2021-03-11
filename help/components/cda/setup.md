@@ -1,10 +1,10 @@
 ---
 title: Configurare Analytics tra dispositivi
-description: Configurare una suite di rapporti virtuale per abilitare CDA.
+description: Configura una suite di rapporti virtuale per abilitare CDA.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
@@ -12,45 +12,46 @@ ht-degree: 2%
 
 # Configurare Analytics tra dispositivi
 
-Una volta soddisfatti tutti i prerequisiti, attenetevi alla seguente procedura per abilitare l&#39;analisi tra dispositivi. Per seguire questa procedura, devi appartenere a un gruppo Amministratore profilo di prodotto o avere privilegi di amministratore in  Adobe Analytics.
+Una volta soddisfatti tutti i prerequisiti, utilizza i seguenti passaggi per abilitare Cross-Device Analytics. Devi appartenere a un gruppo di amministrazione del profilo di prodotto o disporre dei privilegi di amministratore in Adobe Analytics per seguire questi passaggi.
 
 >[!IMPORTANT]
 >
->Tutti i prerequisiti devono essere soddisfatti prima di seguire questi passaggi. Se tutti i prerequisiti non sono soddisfatti, la funzione non è disponibile o non funziona. Per i prerequisiti e le limitazioni, vedere la pagina [panoramica](overview.md) e il metodo di cucitura desiderato ([cucitura basata sui campi](field-based-stitching.md) o [Device Graph](device-graph.md), rispettivamente).
+>Tutti i prerequisiti devono essere soddisfatti prima di seguire questi passaggi. Se non vengono soddisfatti tutti i prerequisiti, la funzione non è disponibile o non funzionerà. Per prerequisiti e limitazioni, consulta la [pagina di panoramica](overview.md) e il metodo di unione desiderato ([Unione basata sui campi](field-based-stitching.md) o [Grafico dispositivo](device-graph.md), rispettivamente.
 
-## Contatta il tuo Customer Success Manager per richiedere il provisioning di CDA nella suite di rapporti per dispositivi diversi
+## Contatta il tuo Customer Success Manager per richiedere il provisioning di CDA nella tua suite di rapporti multi-dispositivo
 
-CDA viene fornito sulla suite di rapporti per dispositivi diversi  progettazione di Adobi. Contatta il tuo responsabile del successo cliente con le seguenti informazioni:
+Il provisioning di CDA nella suite di rapporti per più dispositivi è fornito dall’ingegneria Adobe. Contatta il tuo responsabile di successo con le seguenti informazioni:
 
-* ID organizzazione Adobe Experience Cloud (una stringa alfanumerica che termina con @AdobeOrg)
+* Il tuo ID organizzazione Adobe Experience Cloud (una stringa alfanumerica che termina con @AdobeOrg)
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
-* Metodo di CDA da usare (cuciture basate sul campo, grafico privato  Adobe o grafico cooperativo  Adobe)
-* Se intendete utilizzare la cucitura basata su campo, il prop o il eVar  che contiene l&#39;ID utente
+* Quale metodo di CDA vuoi utilizzare (unione basata sul campo, grafico privato Adobe o grafico cooperativo Adobe)
+* Se si intende utilizzare un&#39;unione basata sui campi, la proprietà o l&#39;eVar che contiene l&#39;ID utente
+* Preferisci frequenza di riproduzione e lunghezza di lookback. Le opzioni includono una riproduzione una volta alla settimana con un intervallo di lookback di 7 giorni o una riproduzione giornaliera con un intervallo di lookback di 1 giorno.
 
-Dopo aver fornito queste informazioni al CSM, questi utenti collaborano con  Adobe Engineering per attivare la suite di rapporti selezionata per l&#39;elaborazione CDA.
+Una volta che il CSM fornisce queste informazioni, collabora con Adobe Engineering per abilitare la suite di rapporti selezionata per l’elaborazione CDA.
 
-## Creare una suite di rapporti virtuali per dispositivi diversi per visualizzare la visualizzazione su più dispositivi
+## Creare una suite di rapporti virtuali per più dispositivi per visualizzare la visualizzazione su più dispositivi
 
 Gli amministratori con accesso per creare suite di rapporti virtuali possono creare suite di rapporti virtuali CDA come segue:
 
-1. Andate a [experienceCloud.adobe.com](https://experiencecloud.adobe.com) ed effettuate l&#39;accesso utilizzando le credenziali AdobeID.
-2. Fate clic sull&#39;icona a 9 griglie nella parte superiore, quindi fate clic su Analytics.
-3. Passa il cursore del mouse sui componenti in alto, quindi fai clic su Suite di rapporti virtuale.
+1. Passa a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e accedi utilizzando le credenziali AdobeID.
+2. Fai clic sull’icona a 9 griglia in alto, quindi fai clic su Analytics.
+3. Passa il puntatore del mouse su Componenti nella parte superiore, quindi fai clic su Suite di rapporti virtuali.
 4. Fai clic su Aggiungi.
-5. Immettete un nome per la suite di rapporti virtuali e accertatevi che sia selezionata la suite di rapporti abilitata per CDA.
-6. (Facoltativo) Applicare un segmento alla suite di rapporti virtuali. Ad esempio, puoi applicare un segmento che limita la suite di rapporti virtuali alle date successive all&#39;attivazione di CDA e all&#39;inizio della cucitura. Questo segmento consente agli utenti di visualizzare solo gli intervalli di date cuciti all&#39;interno della VRS.
-7. Fate clic sulla casella di controllo &quot;Abilita elaborazione tempo rapporto&quot; per abilitare diverse opzioni, tra cui Analisi multi-dispositivo.
-8. Fate clic sulla casella di controllo &quot;Stitch User Visits Between Devices&quot; (Stitch Visite utente tra dispositivi).
-9. Fate clic su Continue (Continua), completate la configurazione della suite di rapporti virtuali, quindi fate clic su Save (Salva).
+5. Immetti un nome per la suite di rapporti virtuali e accertati che la suite di rapporti abilitata per CDA sia selezionata.
+6. (Facoltativo) Applica un segmento alla suite di rapporti virtuale. Ad esempio, puoi applicare un segmento che limita la suite di rapporti virtuali alle date successive all’attivazione di CDA e all’inizio della cucitura. Questo segmento consente agli utenti di visualizzare solo intervalli di date uniti all’interno della VRS.
+7. Fai clic sulla casella di controllo &quot;Abilita elaborazione al momento del rapporto&quot;, che abilita diverse altre opzioni, tra cui Analisi multidispositivo.
+8. Fai clic sulla casella di controllo &quot;Unisci visite utente tra dispositivi&quot;.
+9. Fai clic su Continua, completa la configurazione della suite di rapporti virtuali, quindi fai clic su Salva.
 
 ![Casella di controllo CDA](assets/cda-checkbox.png)
 
 ## Aggiunte e modifiche alle suite di rapporti virtuali su più dispositivi
 
-Quando Analytics cross-device è abilitato su una suite di rapporti virtuale, prendi nota delle seguenti modifiche:
+Quando Analytics tra dispositivi è abilitato su una suite di rapporti virtuali, tieni presente le seguenti modifiche:
 
-* Accanto al nome della suite di rapporti virtuale viene visualizzata una nuova icona cross-device. Questa icona è esclusiva per le suite di rapporti virtuali su più dispositivi.
-* È disponibile una nuova dimensione con etichetta [Stato identificato](../dimensions/identified-state.md). Questa dimensione determina se l&#39;ID Experience Cloud  sull&#39;hit è noto dal grafico del dispositivo in quel momento.
-* Sono disponibili nuove metriche con etichetta [Persone](../metrics/people.md) e [Dispositivi univoci](../metrics/unique-devices.md).
-* La metrica [Visitatori unici](../metrics/unique-visitors.md) non è disponibile, in quanto viene sostituita con &#39;Persone&#39; e &#39;Dispositivi univoci&#39;.
-* Durante la creazione di segmenti, il contenitore del segmento &quot;Visitatore&quot; viene sostituito con un contenitore &quot;Persona&quot;.
+* Accanto al nome della suite di rapporti virtuali viene visualizzata una nuova icona per più dispositivi. Questa icona è esclusiva per le suite di rapporti virtuali su più dispositivi.
+* È disponibile una nuova dimensione con etichetta [Stato identificato](../dimensions/identified-state.md). Questa dimensione determina se l&#39;ID Experience Cloud sull&#39;hit è noto dal grafico del dispositivo in quel momento.
+* Sono disponibili nuove metriche etichettate [Persone](../metrics/people.md) e [Dispositivi univoci](../metrics/unique-devices.md) .
+* La metrica [Visitatori unici](../metrics/unique-visitors.md) non è disponibile, in quanto viene sostituita con &quot;Persone&quot; e &quot;Dispositivi unici&quot;.
+* Quando crei segmenti, il contenitore del segmento &quot;Visitatore&quot; viene sostituito da un contenitore &quot;Persona&quot;.
