@@ -1,34 +1,35 @@
 ---
 title: Unione basata sui campi
-description: Comprendere i prerequisiti e i limiti dell'unione dei dati mediante l'unione basata sui campi.
+description: Comprendi i prerequisiti e le limitazioni dell’unione di dati utilizzando l’unione basata sui campi.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 2%
+source-wordcount: '303'
+ht-degree: 1%
 
 ---
 
 
 # Unione basata sui campi
 
-Analytics tra dispositivi offre due metodi distinti per unire i dati. Questo metodo si basa su una variabile Analytics, ad esempio [prop](/help/implement/vars/page-vars/prop.md) o [ eVar](/help/implement/vars/page-vars/evar.md), per contenere un identificatore di persona. Questa variabile viene utilizzata come base per collegare tra loro i dispositivi.
+Analisi multidispositivo fornisce due metodi distinti per unire i dati. Questo metodo si basa su una variabile di Analytics, ad esempio [prop](/help/implement/vars/page-vars/prop.md) o [eVar](/help/implement/vars/page-vars/evar.md), per contenere un identificatore di persona. Usa quella variabile come base per collegare i dispositivi.
 
-## Prerequisiti specifici per l&#39;unione basata sul campo
+## Prerequisiti specifici per l’unione basata sui campi
 
-Se intendete implementare Analytics cross-Device utilizzando l&#39;unione basata sui campi, sono necessari i seguenti elementi. Collaborate con i team all&#39;interno dell&#39;organizzazione e con l&#39;Account Manager del Adobe  per garantire che vengano rispettate tutte le condizioni seguenti.
+Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui campi, sono necessari i seguenti elementi. Collabora con i team all’interno della tua organizzazione e con il tuo Adobe Account Manager per assicurarti di soddisfare tutte le seguenti esigenze.
 
 >[!IMPORTANT]
 >
->Se non vengono soddisfatti tutti i prerequisiti, potrebbe non essere possibile abilitare l&#39;analisi multi-dispositivo o non essere possibile ottenere risultati soddisfacenti durante l&#39;unione dei dati.
+>Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
 
 * Tutti i prerequisiti elencati nella [pagina di panoramica](overview.md).
-* L&#39;implementazione deve impostare un prop o un eVar  che identifichi in modo univoco un individuo quando possibile, ad esempio quando un utente accede o apre un&#39;e-mail. Questo requisito si applica a tutte le piattaforme, comprese le app mobili se utilizzate. Comunicate la variabile di identificazione desiderata al vostro Account Manager quando viene eseguito il provisioning per l&#39;unione basata su campo.
+* L’implementazione deve impostare una proprietà o un eVar che identifichi in modo univoco un individuo ogni volta che è possibile, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Comunica la variabile di identificazione desiderata al tuo Account Manager quando è stato eseguito il provisioning per l&#39;unione basata su campi.
 
-## Limitazioni specifiche per la cucitura basata sul campo
+## Limitazioni specifiche per l’unione basata sui campi
 
-* Le cuciture basate sui campi funzionano meglio sulle suite di rapporti con un elevato tasso di identificazione dell&#39;utente. Se la suite di rapporti ha una bassa percentuale di identificazione o di accesso, considera l&#39;utilizzo del grafico [Co-op](device-graph.md).
+* L’unione basata sui campi funziona meglio sulle suite di rapporti che hanno un tasso di identificazione elevato dell’utente. Se la suite di rapporti ha una bassa identificazione o tasso di accesso, considera l&#39;utilizzo del [grafico Co-op](device-graph.md).
+* Sebbene prop ed eVar dispongano di regole per la gestione dei caratteri maiuscoli e minuscoli a scopo di reporting, l’unione basata sui campi non trasforma la proprietà o l’eVar utilizzati per l’unione in alcun modo. L’unione basata sui campi utilizza il valore nel campo specificato in quanto esiste dopo le regole VISTA e le regole di post-elaborazione. Ad esempio, se a volte la parola &quot;Bob&quot; compare nel prop/eVar e a volte compare la parola &quot;BOB&quot;, questi verranno trattati come due persone separate.
 
 ## Passaggi successivi
 
-Una volta che l&#39;organizzazione soddisfa tutti i requisiti e ha compreso i limiti, puoi avviare la [configurazione di Analytics multi-dispositivo](setup.md).
+Una volta che l&#39;organizzazione soddisfa tutti i requisiti e comprende i limiti, puoi iniziare a [Configurare Cross-Device Analytics](setup.md).
