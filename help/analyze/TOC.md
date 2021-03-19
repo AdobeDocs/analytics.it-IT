@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni dettagliate per Analysis Workspace, lo strumento di analisi e visualizzazione principale per Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 97%
 
 ---
@@ -120,6 +120,7 @@ ht-degree: 97%
          + [Alert Builder (Generatore di avvisi)](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Gestione avvisi](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Avvisi intelligenti: casi di utilizzo](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + [Preferenze utente](analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace {#workspace-faq}
       + [Domande frequenti](analysis-workspace/workspace-faq/faq.md)
       + [Ottimizzare le prestazioni di Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
