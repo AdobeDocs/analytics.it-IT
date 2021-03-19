@@ -2,9 +2,9 @@
 title: Dimensioni per dispositivi mobili
 description: Dimension basati sull’indirizzo IP del dispositivo.
 translation-type: tm+mt
-source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Le dimensioni per dispositivi mobili forniscono informazioni approfondite sulle 
 
 ## Popolare queste dimensioni con i dati
 
-Queste dimensioni fanno riferimento a regole di ricerca interne all’Adobe. [!UICONTROL Mobile Carrier] Le ricerche sono determinate dall’indirizzo IP, utilizzando i dati ottenuti da NetAcuity (un prodotto Digital Element).
+Queste dimensioni fanno riferimento a regole di ricerca interne all’Adobe. [!UICONTROL Mobile Carrier] Le ricerche sono determinate dall’indirizzo IP, utilizzando i dati ottenuti da NetAcuity (un prodotto Digital Elements).
 Se utilizzi una libreria AppMeasurement (ad esempio tramite Adobe Experience Platform Launch), tutte le dimensioni per dispositivi mobili non sono pronte all’uso.
 
 ## Descrizioni delle dimensioni mobili
@@ -28,7 +28,7 @@ Se utilizzi una libreria AppMeasurement (ad esempio tramite Adobe Experience Pla
 >Gli elementi di Dimension etichettati `"None"` non sono dispositivi mobili. Se desideri un rapporto che includa solo dispositivi mobili, trascina la dimensione &quot;Dispositivo mobile&quot; nell’area di segmento dell’area di lavoro.
 
 * **Supporto** audio per dispositivi mobili: Determina i formati di file che il dispositivo può riprodurre. I valori di esempio includono `"MP3"`, `"AAC"` e `"MIDI Monophonic"`. I valori di questa dimensione non si escludono a vicenda; un singolo hit può attribuire a più elementi dimensionali.
-* **Operatore** mobile: Se l&#39;agente utente contiene un dispositivo specifico per il vettore, quest&#39;ultimo è un elemento dimensionale. I valori di esempio includono `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` e `"Verizon"`.
+* **Operatore** mobile: I valori per questa dimensione vengono compilati cercando dati di terze parti (elementi digitali) in base agli indirizzi IP acquisiti da Analytics. I valori di esempio includono `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` e `"Verizon"`.
 * **Profondità** colore mobile: Profondità colore del dispositivo mobile, in bit.
 * **Supporto** cookie per dispositivi mobili: Determina se il dispositivo mobile supporta i cookie. Questo rapporto non indica se il browser accetta i cookie. Gli elementi del Dimension includono `"Supported"`, `"Not supported"` e `"Unknown"`.
 * **Dispositivo** mobile: Il dispositivo mobile utilizzato dal visitatore.
