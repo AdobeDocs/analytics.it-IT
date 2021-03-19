@@ -2,10 +2,10 @@
 title: Come impostare le preferenze utente in Analysis Workspace
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 8%
+source-wordcount: '198'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Le preferenze generali si applicano all’esperienza Adobe Analytics nel browser
 
 ## Preferenze del progetto
 
-Le preferenze del progetto sono applicabili ai nuovi progetti e ai nuovi pannelli creati in Analysis Workspace. Le preferenze possono essere gestite anche in base al progetto in Workspace > Progetto > Informazioni e impostazioni progetto.
+Le preferenze del progetto sono applicabili ai nuovi progetti e ai nuovi pannelli creati in Analysis Workspace. Le preferenze possono essere gestite anche in base al progetto in [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project Info & Settings].
 
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
