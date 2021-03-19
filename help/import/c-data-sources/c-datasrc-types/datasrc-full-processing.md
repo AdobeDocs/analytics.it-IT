@@ -1,14 +1,11 @@
 ---
 description: Origini dati supporta le variabili seguenti durante l'elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
-subtopic: Data sources
-title: Elaborazione completa
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+title: Opzione di elaborazione completa per Origini dati
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 80%
+source-wordcount: '728'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
-> Adobe consiglia ai clienti di utilizzare [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati di elaborazione completa.  Adobe prevede di rendere obsolete le origini dati di elaborazione completa in futuro.
+>Adobe consiglia ai clienti di utilizzare l’ [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati a elaborazione completa. Adobe prevede di rendere obsolete in futuro le origini dati a elaborazione completa. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Origini dati supporta le variabili seguenti durante l&#39;elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 
@@ -30,7 +27,7 @@ I dati di origini dati Elaborazione completa vengono elaborati come se fossero s
 
 I dati di origini dati Elaborazione completa vengono elaborati utilizzando profili visitatore separati, così anche se l&#39;ID visitatore nei dati caricati corrisponde ai dati raccolti tramite JavaScript o un&#39;altra libreria AppMeasurement, i profili visitatore non sono collegati da un punto di vista di allocazione eVar.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named &quot;Spring Sale&quot;, which is stored in the campaign variable. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna &quot;Vendita di primavera&quot; non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
+Ad esempio, un utente con un ID visitatore `"user@example.com"` visita il sito da una campagna di marketing denominata &quot;Vendita di primavera&quot;, memorizzata nella variabile della campagna. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna &quot;Vendita di primavera&quot; non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
 
 ## Riferimento colonna {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -50,23 +47,23 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>canale </p> </td> 
    <td colname="col3"> <p>Stringa canale (ad esempio, sezione Sport). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Nota:  Questa variabile è supportata anche dalle origini dati Standard come <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Codice valuta ricavi (ad esempio, USD) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col2"> <p>data </p> </td> 
+   <td colname="col3"> <p>Utilizzare il formato di data ISO 8601 di <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (ad esempio, <code> 2013-09-01T12:00:00-07:00 </code>) o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, es. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( <span class="varname">  eVar1 </span> - <span class="varname">  eVar75 </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
+   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar (  <span class="varname"> eVar1  </span> -  <span class="varname"> eVar75  </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -79,7 +76,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, es. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome gerarchia. Puoi avere fino a 5 gerarchie ( <span class="varname"> hier1 </span> - <span class="varname"> hier5 </span>). </p> <p>È possibile specificare il nome predefinito della gerarchia ( <span class="varname"> hier2 </span>) o un nome descrittivo ( <span class="term"> Yankees </span>). </p> </td> 
+   <td colname="col3"> <p>Nome gerarchia. Puoi avere fino a 5 gerarchie (  <span class="varname"> hier1  </span> -  <span class="varname"> hier5  </span>). </p> <p>È possibile specificare il nome predefinito della gerarchia ( <span class="varname"> hier2 </span>) o un nome descrittivo ( <span class="term"> Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -114,12 +111,12 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.example.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>URL della pagina (ad esempio, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Elenco prodotti (ad esempio <code> "Sports;Ball;1;5.95"</code>). Può contenere un valore massimo di 4096 byte per riga.</p> </td> 
+   <td colname="col3"> <p>Elenco prodotti (ad esempio, <code> "Sports;Ball;1;5.95"</code>). Può contenere un valore massimo di 4096 byte per riga.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -142,8 +139,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>Stringa Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>state </p> </td> 
+   <td colname="col1"> <p>stato </p> </td> 
+   <td colname="col2"> <p>stato </p> </td> 
    <td colname="col3"> <p>Stringa Stato di conversione. </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +203,7 @@ La tabella seguente contiene le variabili di traffico inserite automaticamente q
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Tipo di connessione del visitatore ( <span class="term"> lan </span> o <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Tipo di connessione del visitatore (  <span class="term"> lan  </span> o  <span class="term"> modem  </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
