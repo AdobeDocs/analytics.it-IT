@@ -1,11 +1,11 @@
 ---
-title: null
-description: null
+title: Terminazione dell'elaborazione completa delle origini dati
+description: Motivi della fine del ciclo di vita e confronti tra API di inserimento dati in blocco e Origini dati di elaborazione completa.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 12%
+source-wordcount: '732'
+ht-degree: 11%
 
 ---
 
