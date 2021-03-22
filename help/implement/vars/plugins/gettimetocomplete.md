@@ -1,90 +1,84 @@
 ---
 title: getTimeToComplete
-description: Misurare il tempo necessario per completare un'attività.
+description: Misura il tempo necessario per completare un'attività.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 
-# Plug-in Adobe: getTimeToComplete
+# Plug-in di Adobe: getTimeToComplete
 
 >[!IMPORTANT]
 >
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il `getTimeToComplete` plug-in tiene traccia del tempo impiegato dall&#39;utente per completare un processo in un sito. L&#39;orologio inizia quando l&#39; `start` azione viene chiamata e termina quando l&#39; `stop` azione viene chiamata. Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede del tempo per il completamento e desiderate sapere quanto tempo impiegano i visitatori per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è limitata solo al secondo completo.
+Il plug-in `getTimeToComplete` tiene traccia del tempo impiegato dall&#39;utente per completare un processo su un sito. L&#39;orologio inizia quando viene chiamata l&#39;azione `start` e termina quando viene chiamata l&#39;azione `stop` . Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede un po&#39; di tempo per il completamento e desideri sapere quanto tempo impiegano i visitatori per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è limitata solo al secondo completo.
 
-## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
+## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
 
-Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
+1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Fai clic sulla proprietà desiderata.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
-   * Evento: Core - Libreria caricata (Page Top)
-1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in Analytics  comuni
-   * Tipo azione: Initialize getTimeToComplete
-1. Salvate e pubblicate le modifiche alla regola.
+   * Evento: Core - Libreria caricata (pagina in alto)
+1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
+   * Estensione: Plug-in comuni di Analytics
+   * Tipo azione: Inizializza getTimeToComplete
+1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l&#39;editor di codice personalizzato Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
 
-Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
-1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
-1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche nell’estensione Analytics .
+1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Fai clic sulla proprietà desiderata.
+1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche all’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getTimeToComplete v3.1 (Requires formatTime and inList plug-ins) */
-s.getTimeToComplete=function(sos,cn,exp){sos=sos?sos.toLowerCase():"start";if("stop"===sos||"start"===sos){cn=cn?cn:"s_gttc";exp=exp?exp:0;var s=this,d=s.c_r(cn),e=new Date;if("start"===sos&&!d)s.c_w(cn,e.getTime(),exp?new Date(e.getTime()+864E5*exp):0);else if("stop"===sos&&d)return sos=Math.round((e.getTime()-d)/1E3),s.c_w(cn,"",0),s.formatTime(sos)}};
-
-/* Adobe Consulting Plugin: formatTime v1.1 (Requires inList plug-in) */
-s.formatTime=function(ns,tf,bml){var s=this;if(!("undefined"===typeof ns||isNaN(ns)||0>Number(ns))){if("string"===typeof tf&&"d"===tf||("string"!==typeof tf||!s.inList("h,m,s",tf))&&86400<=ns){tf=86400;var d="days";bml=isNaN(bml)?1:tf/(bml*tf)} else"string"===typeof tf&&"h"===tf||("string"!==typeof tf||!s.inList("m,s",tf))&&3600<=ns?(tf=3600,d="hours", bml=isNaN(bml)?4: tf/(bml*tf)):"string"===typeof tf&&"m"===tf||("string"!==typeof tf||!s.inList("s",tf))&&60<=ns?(tf=60,d="minutes",bml=isNaN(bml)?2: tf/(bml*tf)):(tf=1,d="seconds",bml=isNaN(bml)?.2:tf/bml);ns=Math.round(ns*bml/tf)/bml+" "+d;0===ns.indexOf("1 ")&&(ns=ns.substring(0,ns.length-1));return ns}};
-
-/* Adobe Consulting Plugin: inList v2.1 */
-s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
+/* Adobe Consulting Plugin: getTimeToComplete v4.0 */
+function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)return{plugin:"getTimeToComplete",version:"4.0"};var k=function(){if("undefined"!==typeof window.s_c_il)for(var c=0,b;c<window.s_c_il.length;c++)if(b=window.s_c_il[c],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof k&&(k.contextData.getTimeToComplete="4.0");window.formatTime=window.formatTime||function(c,b,d){function e(b,d,c,e){if("string"!==typeof d)return!1;if("string"===typeof b)b=b.split(c||",");else if("object"!==typeof b)return!1;c=0;for(a=b.length;c<a;c++)if(1==e&&d===b[c]||d.toLowerCase()===b[c].toLowerCase())return!0;return!1}if(!("undefined"===typeof c||isNaN(c)||0>Number(c))){var h="";"string"===typeof b&&"d"===b||("string"!==typeof b||!e("h,m,s",b))&&86400<=c?(b=86400,h="days",d=isNaN(d)?1:b/(d*b)):"string"===typeof b&&"h"===b||("string"!==typeof b||!e("m,s",b))&&3600<=c?(b=3600,h="hours",d=isNaN(d)?4:b/(d*b)):"string"===typeof b&&"m"===b||("string"!==typeof b||!e("s",b))&&60<=c?(b=60,h="minutes",d=isNaN(d)?2:b/(d*b)):(b=1,h="seconds",d=isNaN(d)?.2:b/d);h=Math.round(c*d/b)/d+" "+h;0===h.indexOf("1 ")&&(h=h.substring(0,h.length-1));return h}};window.cookieWrite=window.cookieWrite||function(c,b,d){if("string"===typeof c){var e=window.location.hostname,h=window.location.hostname.split(".").length-1;if(e&&!/^[0-9.]+$/.test(e)){h=2<h?h:2;var f=e.lastIndexOf(".");if(0<=f){for(;0<=f&&1<h;)f=e.lastIndexOf(".",f-1),h--;f=0<f?e.substring(f):e}}g=f;b="undefined"!==typeof b?""+b:"";if(d||""===b)if(""===b&&(d=-60),"number"===typeof d){var k=new Date;k.setTime(k.getTime()+6E4*d)}else k=d;return c&&(document.cookie=encodeURIComponent(c)+"="+encodeURIComponent(b)+"; path=/;"+(d?" expires="+k.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(c)===b:!1}};window.cookieRead=window.cookieRead||function(c){if("string"===typeof c)c=encodeURIComponent(c);else return"";var b=" "+document.cookie,d=b.indexOf(" "+c+"="),e=0>d?d:b.indexOf(";",d);return(c=0>d?"":decodeURIComponent(b.substring(d+2+c.length,0>e?b.length:e)))?c:""};f=f?f.toLowerCase():"start";if("stop"===f||"start"===f){m=m?m:"s_gttc";e?e="d"===e?864E5:"h"===e?36E5:"s"===e?1E3:6E4:(l=30,e=6E4);l=isNaN(l)?30:l;l*=e;k=cookieRead(m);e=new Date;if("stop"===f&&k)return l=Math.round((e.getTime()-k)/1E3),cookieWrite(m,"",0),formatTime(l);"start"!==f||k?k&&Number(k)<e.getTime()+18E5&&cookieWrite(m,k,30):(f=String(e.getTime()),e.setTime(e.getTime()+l),cookieWrite(m,f,e))}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizzare il plug-in
+## Usa il plug-in
 
-Il `getTimeToComplete` metodo utilizza i seguenti argomenti:
+Il metodo `getTimeToComplete` utilizza i seguenti argomenti:
 
-* **`sos`** (facoltativo, stringa): Impostare su `"start"` quando si desidera avviare il timer. Impostare su `"stop"` quando si desidera arrestare il timer. Il valore predefinito è `"start"`.
-* **`cn`** (facoltativo, stringa): Nome del cookie in cui memorizzare l&#39;ora di inizio. Il valore predefinito è `"s_gttc"`.
+* **`sos`** (facoltativo, stringa): Impostare su  `"start"` quando si desidera avviare il timer. Impostare su `"stop"` per arrestare il timer. Predefinito su `"start"`.
+* **`cn`** (facoltativo, stringa): Nome del cookie da memorizzare l&#39;ora di inizio. Predefinito su `"s_gttc"`.
 * **`exp`** (facoltativo, numero intero): Il numero di giorni di scadenza del cookie (e del timer). Il valore predefinito è `0`, che rappresenta la fine della sessione del browser.
 
-Se si chiama questo metodo, viene restituita una stringa che contiene il numero di giorni, ore, minuti e/o secondi trascorsi tra l’azione `"start"` e `"stop"` l’azione.
+Una chiamata a questo metodo restituisce una stringa contenente il numero di giorni, ore, minuti e/o secondi necessari tra l&#39;azione `"start"` e `"stop"`.
 
 ## Chiamate di esempio
 
 ### Esempio n. 1
 
-Utilizzate queste chiamate per determinare l&#39;ora tra l&#39;avvio del processo di checkout da parte di un visitatore e la data in cui effettua un acquisto.
+Utilizza queste chiamate per determinare l&#39;intervallo di tempo tra l&#39;avvio del processo di pagamento da parte di un visitatore e il momento in cui effettua un acquisto.
 
-Avviate il timer quando il visitatore avvia il checkout:
+Avvia il timer quando il visitatore avvia il pagamento:
 
 ```js
 if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
 ```
 
-Arrestate il timer quando il visitatore effettua l&#39;acquisto e impostate prop1 sulla differenza di tempo tra stop e start:
+Arresta il timer quando il visitatore effettua l’acquisto e imposta prop1 sulla differenza di tempo tra stop e start:
 
 ```js
 if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
@@ -94,14 +88,14 @@ s.prop1 acquisirà il tempo necessario per completare il processo di acquisto
 
 ### Esempio n. 2
 
-Se si desidera che diversi timer siano in esecuzione contemporaneamente (per misurare diversi processi), sarà necessario impostare manualmente l&#39;argomento cookie cn.  Ad esempio, se desideri misurare il tempo necessario per completare un acquisto, imposta il seguente codice.
+Se desideri che siano in esecuzione più timer contemporaneamente (per misurare processi diversi), dovrai impostare manualmente l’argomento cookie cn.  Ad esempio, se desideri misurare il tempo necessario per il completamento di un acquisto, imposta il seguente codice..
 
 ```javascript
 if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
 if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
 ```
 
-...ma se si desidera anche misurare (allo stesso tempo) il tempo necessario per compilare un modulo di registrazione, è necessario eseguire anche il codice seguente:
+...ma se desideri anche misurare (allo stesso tempo) il tempo necessario per compilare un modulo di registrazione, esegui anche il seguente codice:
 
 ```js
 if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
@@ -112,22 +106,26 @@ Nel secondo esempio, event1 è destinato a catturare l&#39;inizio di un processo
 
 ## Cronologia versioni
 
+### 4.0 (19 marzo 2021)
+
+* È stato aggiunto il numero di versione come dati contestuali.
+
 ### 3.1 (30 settembre 2019)
 
-* Aggiunta di logica che richiede il valore &quot;start&quot; o &quot;stop&quot; nel primo argomento.  Tutti gli altri valori passati impediscono l&#39;esecuzione del plug-in.
-* È stato aggiornato `inList 2.0` il plug-in a `inList 2.1`.
+* È stata aggiunta una logica che richiede un valore di &quot;start&quot; o &quot;stop&quot; nel primo argomento.  Tutti gli altri valori passati impediscono l&#39;esecuzione del plug-in.
+* Il plug-in `inList 2.0` è stato aggiornato a `inList 2.1`.
 
 ### 3.0 (23 agosto 2018)
 
-* È stato aggiornato il `formatTime v1.0` plug-in in `formatTime v1.1`.
+* È stato aggiornato il plug-in `formatTime v1.0` in `formatTime v1.1`.
 
 ### 3.0 (17 aprile 2018)
 
-* Rilascio punto (ricompilato, dimensioni del codice più piccole).
+* Rilascio del punto (ricompilato, dimensioni del codice più piccole).
 * Correzioni di bug minori.
 
-### (2.0 giugno 21, 2016)
+### 2.0 giugno 21, 2016)
 
-* È stata eliminata la dipendenza dal `p_fo` plug-in.
-* Maggiore compatibilità con H-code e AppMeasurement.
-* Aggiunta registrazione console.
+* È stata eliminata la dipendenza dal plug-in `p_fo` .
+* È stata aggiunta la compatibilità con H-code e AppMeasurement.
+* È stata aggiunta la registrazione della console.
