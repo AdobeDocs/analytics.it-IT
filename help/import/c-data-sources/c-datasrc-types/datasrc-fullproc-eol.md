@@ -2,10 +2,10 @@
 title: Terminazione dell'elaborazione completa delle origini dati
 description: Motivi della fine del ciclo di vita e confronti tra API di inserimento dati in blocco e Origini dati di elaborazione completa.
 translation-type: tm+mt
-source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 11%
+source-wordcount: '1221'
+ht-degree: 27%
 
 ---
 
@@ -39,18 +39,59 @@ Per ulteriori dettagli, vedere il seguente confronto dei valori dei campi dispon
 
 ## Confronto dei valori dei campi disponibili in BDIA e FPDS
 
-| BDIA, FPDS, Entrambi | Variabile BDIA | Variabile colonna Elaborazione completa | Descrizione |
-| --- | --- | --- | --- |
-| BDIA | aamlh | Non supportati | Suggerimento sulla posizione di Adobe Audience Manager. Vedi i valori ID validi nella tabella di elenco dell&#39;area AAM seguente. |
-| Entrambi | browserHeight | browserHeight | Altezza browser in pixel (ad esempio, 768) |
-| Entrambi | browserWidth | browserWidth | Larghezza browser in pixel (ad esempio, 1024) |
-| Entrambi | campagna | campagna | Codice di tracciamento campagna di conversione |
-| Entrambi | channel | canale | Stringa canale (ad esempio, sezione Sport) |
-| Entrambi | colorDepth | colorDepth | Profondità colore monitor in bit (ad esempio, 24) |
-| Entrambi | connectionType | connectionType | Tipo di connessione del visitatore (LAN o modem) |
-| BDIA | contextData.key | Non supportati | Le coppie chiave-valori sono specificate in denominando l’intestazione &quot;contextData.product&quot; o &quot;contextData.color&quot; |
-| Entrambi | cookiesEnabled | cookiesEnabled | `Y` o  `N` se il visitatore supporta i cookie di sessione di prima parte |
-| Entrambi | currencyCode | currencyCode | Codice valuta ricavi (ad esempio, `USD`) |
-| BDIA | customerID.[customerIDType].authState | Non supportati | Lo stato autenticato del visitatore. I valori supportati sono: 0, 1, 2, SCONOSCIUTO, AUTENTICATO, LOGGED_OUT o &#39;&#39; (senza distinzione tra maiuscole e minuscole). Due virgolette singole consecutive (&#39;&#39;) fanno sì che il valore venga omesso dalla stringa di query, che si traduce in 0 quando viene effettuato l&#39;hit. I valori numerici authState supportati indicano quanto segue: 0 = SCONOSCIUTO, 1 = AUTENTICATO, 2 = LOGGED_OUT. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
-| BDIA | customerID.[customerIDType].id | Non supportati | ID cliente da utilizzare. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
-| BDIA | customerID.[customerIDType].isMCSeed | Non supportati | Indica se si tratta o meno del valore di seed per l’ID visitatore Marketing Cloud. I valori supportati sono: 0, 1, TRUE, FALSE, &#39;&#39; (senza distinzione tra maiuscole e minuscole). Se si utilizzano 0, FALSE o due virgolette singole consecutive (&#39;), il valore viene omesso dalla stringa di query. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
+| Variabile BDIA | Variabile colonna Elaborazione completa | Descrizione |
+| --- | --- | --- |
+| aamlh | Non supportati | Suggerimento sulla posizione di Adobe Audience Manager. |
+| browserHeight | browserHeight | Altezza browser in pixel (ad esempio, 768) |
+| browserWidth | browserWidth | Larghezza browser in pixel (ad esempio, 1024) |
+| campagna | campagna | Codice di tracciamento campagna di conversione |
+| channel | canale | Stringa canale (ad esempio, sezione Sport) |
+| colorDepth | colorDepth | Profondità colore monitor in bit (ad esempio, 24) |
+| connectionType | connectionType | Tipo di connessione del visitatore (LAN o modem) |
+| contextData.key | Non supportati | Le coppie chiave-valori sono specificate in denominando l’intestazione &quot;contextData.product&quot; o &quot;contextData.color&quot; |
+| cookiesEnabled | cookiesEnabled | `Y` o  `N` se il visitatore supporta i cookie di sessione di prima parte |
+| currencyCode | currencyCode | Codice valuta ricavi (ad esempio, `USD`) |
+| customerID.[customerIDType].authState | Non supportati | Lo stato autenticato del visitatore. I valori supportati sono: 0, 1, 2, SCONOSCIUTO, AUTENTICATO, LOGGED_OUT o &#39;&#39; (senza distinzione tra maiuscole e minuscole). Due virgolette singole consecutive (&#39;&#39;) fanno sì che il valore venga omesso dalla stringa di query, che si traduce in 0 quando viene effettuato l&#39;hit. I valori numerici authState supportati indicano quanto segue: 0 = SCONOSCIUTO, 1 = AUTENTICATO, 2 = LOGGED_OUT. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
+| customerID.[customerIDType].id | Non supportati | ID cliente da utilizzare. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
+| customerID.[customerIDType].isMCSeed | Non supportati | Indica se si tratta o meno del valore di seed per l’ID visitatore Marketing Cloud. I valori supportati sono: 0, 1, TRUE, FALSE, &#39;&#39; (senza distinzione tra maiuscole e minuscole). Se si utilizzano 0, FALSE o due virgolette singole consecutive (&#39;), il valore viene omesso dalla stringa di query. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
+| eVarN | eVarN, cioè `<eVar2>`..`<eVar>` | Nome eVar conversione. Puoi avere fino a 75 eVar ( eVar1 - eVar75 ) Puoi specificare il nome dell’eVar (eVar12) o un nome descrittivo (Ad Campaign 3). |
+| events | events | [Stringa](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars) Eventi, formattata utilizzando la stessa sintassi della variabile s.events . Ad esempio: scAdd,event1,event7 |
+| hierN | hierN, cioè `<hier2>`..`</hier2>` | Nome gerarchia. Puoi avere fino a 5 gerarchie ( hier1 - hier5 ). È possibile specificare il nome predefinito della gerarchia `hier2` o un nome descrittivo (Yankees). |
+| homePage | homePage | S o N se la pagina corrente è la pagina iniziale del visitatore. |
+| indirizzo IP | Non supportati | L’indirizzo IP del visitatore. |
+| javaEnabled | javaEnabled | S o N se il visitatore ha abilitato Java. |
+| javaScriptVersion | javaScriptVersion | Versione JavaScript (ad esempio, 1.3). |
+| lingua | Non supportati | Lingua supportata dal browser. Ad esempio, `en-us`. |
+| linkName | linkName | Nome del collegamento. |
+| linkType | linkType | Tipo di collegamento. I valori supportati includono: `d: Download link`, `e: Exit link`, `o: Custom link`. |
+| linkURL | linkURL | HREF del collegamento. |
+| Ad esempio, list2. | Non supportati | Un elenco delimitato di valori che vengono passati in una variabile e quindi segnalati come voci di riga individuali ai fini del reporting. |
+| marketingCloudVisitorID | Non supportati | Marketing Cloud ID. Consulta [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) e il servizio ID visitatore del Marketing Cloud. |
+| Non supportati | charSet | Il set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. |
+| Non supportati | clickAction | Identificatore oggetto per mappa clic visitatore (oid). |
+| Non supportati | clickActionType | Identificatore oggetto per mappa clic visitatore (oidt). |
+| Non supportati | clickContext | Identificatore pagina per mappa clic visitatore (pid). |
+| Non supportati | clickContextType | Identificatore pagina per mappa clic visitatore (pidt). |
+| Non supportati | clickSourceID | Indice origine per mappa clic visitatore (oi). |
+| Non supportati | clickTag | Nome tag oggetto per mappa clic visitatore (ot). |
+| Non supportati | scXmlVer | Numero versione richiesta XML rapporti di marketing (ad esempio 1.0). |
+| Non supportati | timezone | Offset fuso orario del visitatore da GMT in ore (ad esempio, -8). |
+| pageName | pageName | Nome della pagina. |
+| pageType | pageType | Tipo di pagina (ad esempio, &quot;Pagina di errore&quot;). |
+| pageURL | pageURL | URL della pagina (ad esempio, https://www.example.com/index.html). |
+| plugins | plugins | Elenco separato da punto e virgola dei nomi dei plug-in del browser. |
+| products | products | Elenco di tutti i prodotti nella pagina. Separa i prodotti con una virgola. Ad esempio: Sport;Palla;1;5.95,Giocattoli; Top;1:1.99. |
+| prop1 - prop75 | propN, cioè `<prop2>`..`</prop2>` | Stringa Property# (ad esempio, sezione Sport). |
+| propN | propN | Valori proprietà per le proprietà. |
+| purchaseID | purchaseID | Numero ID acquisto. |
+| referrer | referrer | URL per referente pagina. |
+| reportSuiteID | s_account | Specifica le suite di rapporti in cui si desidera inviare i dati. Separa più ID suite di rapporti con una virgola. |
+| resolution | resolution | Risoluzione del monitor (ad esempio, 1024x768). |
+| server | server | Stringa Server. |
+| stato | stato | Stringa Stato di conversione. |
+| timestamp | data | Utilizzare il formato di data ISO 8601 di AAAA-MM-DDThh:mm:ss±UTC_offset (ad esempio, 2021-09-01T12:00:00-07:00 ) o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970). |
+| trackingServer | Non supportati | Può essere fornito solo tramite intestazione di colonna. |
+| transactionID | Non supportati | Valore comune utilizzato per collegare le attività utente multicanale insieme a scopo di reporting. Per ulteriori informazioni, consulta la [Guida utente di Origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
+| userAgent | Non supportati | Stringa agente utente |
+| visitorID | visitorID | ID Analytics del visitatore. Consulta [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| zip | zip | Codice zip di conversione. |
