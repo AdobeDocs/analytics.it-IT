@@ -1,84 +1,78 @@
 ---
 title: getPageLoadTime
-description: Consente di tenere traccia del tempo necessario al caricamento di una pagina.
+description: Tieni traccia del tempo necessario al caricamento di una pagina.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b3c5fa41194d74725f48e12a546d8ce1c08b9b7d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
 
 
-# Plug-in Adobe: getPageLoadTime
+# Plug-in di Adobe: getPageLoadTime
 
 >[!IMPORTANT]
 >
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarvi a ottenere più valore da Adobe  Analytics. L&#39;Assistenza clienti Adobe non fornisce supporto per questo plug-in, inclusa l&#39;installazione o la risoluzione dei problemi. Se avete bisogno di aiuto con questo plug-in, contattate l&#39;Account Manager della vostra azienda. Possono organizzare una riunione con un consulente per assistenza.
+>Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il `getPageLoadTime` plug-in utilizza l&#39;oggetto delle prestazioni JavaScript per misurare il tempo necessario al caricamento completo della pagina. Adobe consiglia di utilizzare questo plug-in per misurare il tempo necessario al caricamento delle pagine.
+Il plug-in `getPageLoadTime` utilizza l&#39;oggetto prestazioni JavaScript per consentire di misurare il tempo necessario al caricamento completo di una pagina. Adobe consiglia di utilizzare questo plug-in per misurare il tempo di caricamento delle pagine.
 
-## Installare il plug-in utilizzando l&#39;estensione Lancio del Adobe Experience Platform 
+## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
 
-Adobe offre un’estensione che consente di utilizzare la maggior parte dei plug-in usati comunemente.
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare l’ [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo avete già fatto, create una regola con l&#39;etichetta &quot;Inizializza plug-in&quot; con la seguente configurazione:
+1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Fai clic sulla proprietà desiderata.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
-   * Evento: Core - Libreria caricata (Page Top)
-1. Aggiungete un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in Analytics  comuni
-   * Tipo azione: Initialize getPageLoadTime
-1. Salvate e pubblicate le modifiche alla regola.
+   * Evento: Core - Libreria caricata (pagina in alto)
+1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
+   * Estensione: Plug-in comuni di Analytics
+   * Tipo azione: Inizializza getPageLoadTime
+1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l&#39;editor di codice personalizzato Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
 
-Se non desiderate utilizzare l&#39;estensione del plug-in, potete utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-1. Fate clic sulla proprietà desiderata.
-1. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto l&#39;estensione Adobe  Analytics.
-1. Espandere la struttura [!UICONTROL Configure tracking using custom code] a soffietto, che mostra il [!UICONTROL Open Editor] pulsante.
-1. Aprite l’editor di codice personalizzato e incollate il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salvate e pubblicate le modifiche nell’estensione Analytics .
+1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Fai clic sulla proprietà desiderata.
+1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche all’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiate e incollate il seguente codice in qualsiasi punto del file AppMeasurement dopo che è stata creata un&#39;istanza dell&#39;oggetto di tracciamento Analytics  (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione di commenti e numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPageLoadTime v1.0 with performanceWriteFull, performanceWritePart, performanceCheck, and performanceRead helper functions (Requires p_fo plug-in) */
-s.getPageLoadTime=function(){var a=this;if("undefined"!==typeof performance&&a.p_fo("performance")){var b=performance; b.clearResourceTimings();""!==a.c_r("s_plt")&&(0<b.timing.loadEventEnd&&clearInterval(a.pi),a._pltLoadTime=a.c_r("s_plt"),a._pltPreviousPage=a.c_r("s_pltp"),a.c_w("s_plt",""),a.c_w("s_pltp",""));0===b.timing.loadEventEnd?a.pi=setInterval(function(){a.performanceWriteFull()},250):0<b.timing.loadEventEnd&&(a.ptc?a.ptc===b.timing.loadEventEnd&&1===b.getEntries().length&&(a.pwp=setInterval(function(){a.performanceWritePart()},500)):a.performanceWriteFull())}};
-s.performanceWriteFull=function(){var s=this,a=performance.timing;0<a.loadEventEnd&&(clearInterval(s.pi),""===s.c_r("s_plt")&& (s.c_w("s_plt",s.performanceCheck(a.loadEventEnd,a.navigationStart)),s.c_w("s_pltp",s.pageName)));s.ptc=a.loadEventEnd};
-s.performanceWritePart=function(){var s=this,a=performance;0<a.getEntries().length&&(s.ppfe===a.getEntries().length? clearInterval(s.pwp):s.ppfe=a.getEntries().length);""===s.c_r("s_plt")&&(s.c_w("s_plt",((a.getEntries()[a.getEntries().length-1].responseEnd-a.getEntries()[0].startTime)/1E3).toFixed(2)),s.c_w("s_pltp",s.pageName))};
-s.performanceCheck=function(a,b){if(0<=a&&0<=b)return 6E4>a-b&&0<=a-b?parseFloat((a-b)/1E3).toFixed(2):60};
-
-/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v2.0 */
-s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo[on]={};return!0};
+/* Adobe Consulting Plugin: getPageLoadTime v2.0 with performanceWriteFull, performanceWritePart, performanceCheck, and performanceRead helper functions (Requires AppMeasurement and the p_fo plugin) */
+function getPageLoadTime(){function f(){function a(a,b){if(0<=a&&0<=b)return 6E4>a-b&&0<=a-b?parseFloat((a-b)/1E3).toFixed(2):60}var b=performance.timing;0<b.loadEventEnd&&(clearInterval(window.pi),""===window.cookieRead("s_plt")&&(window.cookieWrite("s_plt",a(b.loadEventEnd,b.navigationStart)),window.cookieWrite("s_pltp",window.pageName)));window.ptc=b.loadEventEnd}if(arguments&&"-v"===arguments[0])return{plugin:"getPageLoadTime",version:"2.0"};var c=function(){if("undefined"!==typeof window.s_c_il)for(var a=0,b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof c&&(c.contextData.getPageLoadTime="2.0");window.pageName="undefined"!==typeof c&&c.pageName||"";window.cookieWrite=window.cookieWrite||function(a,b,e){if("string"===typeof a){var c=window.location.hostname,h=window.location.hostname.split(".").length-1;if(c&&!/^[0-9.]+$/.test(c)){h=2<h?h:2;var d=c.lastIndexOf(".");if(0<=d){for(;0<=d&&1<h;)d=c.lastIndexOf(".",d-1),h--;d=0<d?c.substring(d):c}}g=d;b="undefined"!==typeof b?""+b:"";if(e||""===b)if(""===b&&(e=-60),"number"===typeof e){var k=new Date;k.setTime(k.getTime()+6E4*e)}else k=e;return a&&(document.cookie=encodeURIComponent(a)+"="+encodeURIComponent(b)+"; path=/;"+(e?" expires="+k.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(a)===b:!1}};window.cookieRead=window.cookieRead||function(a){if("string"===typeof a)a=encodeURIComponent(a);else return"";var b=" "+document.cookie,c=b.indexOf(" "+a+"="),f=0>c?c:b.indexOf(";",c);return(a=0>c?"":decodeURIComponent(b.substring(c+2+a.length,0>f?b.length:f)))?a:""};window.p_fo=window.p_fo||function(a){window.__fo||(window.__fo={});if(window.__fo[a])return!1;window.__fo[a]={};return!0};"undefined"!==typeof performance&&p_fo("performance")&&((c=performance,c.clearResourceTimings(),""!==window.cookieRead("s_plt")&&(0<c.timing.loadEventEnd&&clearInterval(window.pi),window._pltLoadTime=window.cookieRead("s_plt"),window._pltPreviousPage=window.cookieRead("s_pltp"),window.cookieWrite("s_plt",""),window.cookieWrite("s_pltp","")),0===c.timing.loadEventEnd)?window.pi=setInterval(function(){f()},250):0<c.timing.loadEventEnd&&(window.ptc?window.ptc===c.timing.loadEventEnd&&1===c.getEntries().length&&(window.pwp=setInterval(function(){var a=performance;0<a.getEntries().length&&(window.ppfe===a.getEntries().length?clearInterval(window.pwp):window.ppfe=a.getEntries().length);""===window.cookieRead("s_plt")&&(window.cookieWrite("s_plt",((a.getEntries()[a.getEntries().length-1].responseEnd-a.getEntries()[0].startTime)/1E3).toFixed(2)),window.cookieWrite("s_pltp",window.pageName))},500)):f()))};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizzare il plug-in
+## Usa il plug-in
 
-Il `getPageLoadTime` metodo non utilizza argomenti. Quando si chiama questo metodo, non restituisce nulla. Imposta invece le seguenti variabili:
+Il metodo `getPageLoadTime` non utilizza argomenti. Quando si chiama questo metodo, non viene restituito nulla. Imposta invece le seguenti variabili:
 
 * `s._pltPreviousPage`: La pagina precedente per correlare il tempo di caricamento alla pagina precedente
-* `s._pltLoadTime`: Tempo in secondi di caricamento della pagina precedente
+* `s._pltLoadTime`: Tempo in secondi necessario al caricamento della pagina precedente
 
 Il plug-in getPageLoadTime crea due cookie di prime parti:
 
-* `s_plt`: Tempo, in secondi, di caricamento della pagina precedente. Scade alla fine della sessione del browser.
-* `s_pltp` Il valore della `s.pageName` variabile come registrato nella precedente richiesta di immagini di Adobe  Analytics. Scade alla fine della sessione del browser.
+* `s_plt`: Tempo, in secondi, necessario per caricare la pagina precedente. Scade alla fine della sessione del browser.
+* `s_pltp` Il valore della  `s.pageName` variabile come registrato nella richiesta immagine Adobe Analytics precedente. Scade alla fine della sessione del browser.
 
 ## Chiamate di esempio
 
 ### Esempio n. 1
 
-Esecuzione del codice seguente in corso...
+Esecuzione del seguente codice in corso...
 
 ```js
 if(s.pageName) s.getPageLoadTime();
@@ -93,12 +87,16 @@ if(s._pltPreviousPage)
 
 ...esegue le seguenti operazioni:
 
-* Eseguire il plug-in getPageLoadTime quando s.pageName è impostato
+* Esegui il plug-in getPageLoadTime quando s.pageName è impostato
 * Imposta s.prop10 come tempo di caricamento della pagina precedente
 * Imposta s.prop11 e s.eVar10 come nome della pagina precedente (come registrato in s.pageName)
-* Impostate event100, che sarebbe un evento numerico personalizzato, uguale al tempo di caricamento della pagina precedente.   L&#39;utilizzo di un evento personalizzato in questo caso consentirebbe di ottenere la quantità totale di tempo per tutti i carichi di pagina della pagina precedente (da tutti i visitatori/visite) e quindi utilizzare una metrica calcolata per ottenere il tempo medio di caricamento della pagina per ogni pagina
+* Imposta event100, che sarebbe un evento numerico personalizzato, uguale al tempo di caricamento della pagina precedente.   L’utilizzo di un evento personalizzato in questo caso consente di ottenere la quantità totale di tempo per tutti i caricamenti di pagina della pagina precedente (da tutti i visitatori/visite) e quindi di utilizzare una metrica calcolata per ottenere il tempo medio di caricamento della pagina per ogni pagina
 
 ## Cronologia versioni
+
+### 2.0 (19 marzo 2021)
+
+* È stato aggiunto il numero di versione come dati contestuali.
 
 ### 1.0 (22 maggio 2018)
 
