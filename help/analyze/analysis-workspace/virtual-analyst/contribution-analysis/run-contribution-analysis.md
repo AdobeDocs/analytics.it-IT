@@ -1,12 +1,12 @@
 ---
-description: Eseguire un rapporto di analisi dei contributi in un progetto Workspace.
+description: Esegui un rapporto di analisi dei contributi in un progetto Workspace.
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
