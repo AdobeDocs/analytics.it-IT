@@ -1,11 +1,11 @@
 ---
 title: Requisiti di sistema
 description: Requisiti di sistema per l’utilizzo di Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 564263be46b8c4fef996381819b4b13abb865b7a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '108'
+ht-degree: 100%
 
 ---
 
