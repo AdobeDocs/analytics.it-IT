@@ -2,11 +2,11 @@
 description: Utilizza la visualizzazione a barre in un progetto Workspace.
 title: Barre e barre sovrapposte
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
