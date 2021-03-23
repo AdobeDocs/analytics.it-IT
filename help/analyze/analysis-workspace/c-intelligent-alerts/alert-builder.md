@@ -1,12 +1,12 @@
 ---
-description: Ricevi avvisi quando i componenti del progetto raggiungono determinate soglie.
+description: Puoi ricevere degli avvisi quando i componenti del progetto raggiungono determinate soglie.
 title: Alert Builder (Generatore di avvisi)
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
