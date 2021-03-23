@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
-user-guide-description: Fornisce istruzioni dettagliate per Analysis Workspace, lo strumento di analisi e visualizzazione principale per Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
+user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
 translation-type: tm+mt
 source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
