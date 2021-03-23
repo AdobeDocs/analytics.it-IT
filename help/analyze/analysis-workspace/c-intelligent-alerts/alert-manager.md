@@ -1,12 +1,12 @@
 ---
-description: Creare, modificare o eliminare gli avvisi
+description: Crea, modifica o elimina gli avvisi.
 title: Gestione avvisi
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 ![](assets/alert-manager.png)
 
-La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) e alla [Gestione metriche calcolate](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) e consente di: 
+La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-manage.html) e alla [Gestione metriche calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) e consente di:
 
 ![](assets/alert-manager-tasks.png)
 
