@@ -1,12 +1,12 @@
 ---
-description: Utilizza la visualizzazione del flusso in un progetto Workspace.
+description: Utilizza la visualizzazione di flusso in un progetto Workspace.
 title: Panoramica del flusso
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Consente di:
 
 >[!NOTE]
 >
->Per informazioni sulle differenze tra i risultati dell’applicazione dei segmenti al flusso in Analysis Workspace e Reports &amp; Analytics, consulta [Segmentazione come base per Flusso e Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Per informazioni sulle differenze tra i risultati dell’applicazione dei segmenti al flusso in Analysis Workspace e in Reports &amp; Analytics, consulta [Segmentazione come fondamento per Flusso e Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Esercitazione video sulla visualizzazione Flusso](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=it-IT) (4:56)
+[Tutorial video sulla visualizzazione Flusso](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## Flussi interdimensionali {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
