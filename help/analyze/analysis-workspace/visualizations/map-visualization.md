@@ -2,11 +2,11 @@
 description: Utilizza la visualizzazione mappa in un progetto Workspace.
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ## Panoramica {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
-La visualizzazione mappa in Analysis Workspace: 
+La visualizzazione mappa in Analysis Workspace:
 
 * Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate) ed
 * è utile per identificare e confrontare dati di metriche per diverse aree geografiche;
@@ -51,7 +51,7 @@ La visualizzazione mappa in Analysis Workspace:
 
    ![](assets/bubble-world-view.png)
 
-1. A questo punto puoi eseguire le seguenti operazioni: 
+1. A questo punto puoi eseguire le seguenti operazioni:
 
    * Fai uno **zoom** nella mappa per ingrandire l’area che ti interessa, facendo doppio clic o utilizzando la rotellina del mouse. La mappa viene ingrandita sul punto in cui si trova il cursore. Quando esegui lo zoom, la dimensione richiesta viene automaticamente aggiornata (Paese > stato/provincia > città), a seconda del livello di zoom.
    * **Confronta** due o più visualizzazioni mappa nello stesso progetto, affiancandole.
