@@ -1,12 +1,12 @@
 ---
-description: Utilizza la visualizzazione del flusso in un progetto Workspace.
+description: Utilizza la visualizzazione di flusso in un progetto Workspace.
 title: Configurare una visualizzazione di flusso
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
