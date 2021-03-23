@@ -2,11 +2,11 @@
 description: Visualizza i valori principali di una dimensione prima di utilizzarla in un progetto.
 title: Anteprima dimensioni
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
