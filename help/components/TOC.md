@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Organizza i dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali e avvisi.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
    + [Canale di ultimo contatto](dimensions/last-touch-channel.md)
    + [Dettaglio del canale di ultimo contatto](dimensions/last-touch-detail.md)
    + [Canale di marketing](dimensions/marketing-channel.md)
-   + [Dettagli canale di marketing](dimensions/marketing-detail.md)
+   + [Dettagli del canale Marketing](dimensions/marketing-detail.md)
    + [Minuto](dimensions/minute.md)
    + [Dimensioni per dispositivi mobili](dimensions/mobile-dimensions.md)
    + [Risoluzione monitor](dimensions/monitor-resolution.md)
