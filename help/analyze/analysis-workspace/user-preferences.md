@@ -2,9 +2,9 @@
 title: Come impostare le preferenze utente in Analysis Workspace
 description: Puoi impostare i riferimenti alla pagina di destinazione e al progetto in un’unica posizione centrale.
 translation-type: tm+mt
-source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
+source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 19%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # Preferenze utente
 
-La pagina [!UICONTROL Components] > [!UICONTROL User preferences] ti consente di gestire le impostazioni di Analysis Workspace e i relativi componenti per i tuoi utenti. Le preferenze utente si applicano a tutti i progetti o pannelli *nuovi*.
+La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni di Analysis Workspace e dei relativi componenti a livello di utente. Le preferenze utente si applicano a tutti i progetti o pannelli *nuovi*.
 
 ![Preferenze utente](assets/user-preferences.png)
 
