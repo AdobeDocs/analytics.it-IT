@@ -1,11 +1,11 @@
 ---
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
-translation-type: ht
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
-source-wordcount: '2291'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ea1915fa48a2da55684b7aa9f81fbe0c7d91171b
+workflow-type: tm+mt
+source-wordcount: '2323'
+ht-degree: 87%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Il video “Generatore di Scorecard per i dashboard di Adobe Analytics” illustra queste informazioni:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Introduzione
 
@@ -72,9 +72,9 @@ Dalla schermata **[!UICONTROL Projects]**, sotto la scheda **[!UICONTROL Compone
 
 ![Aggiunta di progetti](assets/add_project.png)
 
-**Utilizzare gli strumenti di [!DNL Analytics]**
+**Oppure**
 
-In [!DNL Analytics], fai clic sul menu **[!UICONTROL Tools]** e seleziona **[!UICONTROL Analytics dashboards (Mobile App)]**. Nella schermata successiva, fai clic sul pulsante **[!UICONTROL Create new scorecard]**.
+Dal menu **[!UICONTROL Tools]**, seleziona **[!UICONTROL Analytics dashboards (Mobile App)]**. Nella schermata successiva, fai clic sul pulsante **[!UICONTROL Create new scorecard]**.
 
 ### Configura la scorecard con i dati e salvala
 
@@ -96,9 +96,9 @@ Per implementare il template della scorecard:
 
    ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
-   Puoi anche aggiungere una dimensione a tutte le tessere rilasciandola sull’area di lavoro della scorecard.
-
    Quando fai clic su una tessera nel Creatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella tessera. In questa barra puoi assegnare un nuovo **[!UICONTROL Title]** alla tessera e, in alternativa, configurarla specificando i componenti invece di trascinarli dalla barra di sinistra.
+
+   ![Riquadro delle proprietà](assets/properties_tile.png)
 
    Inoltre, se fai clic sulle tessere, un pop-up dinamico mostrerà come la vista Raggruppamento viene visualizzata dall’utente esecutivo nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
@@ -110,19 +110,31 @@ Per implementare il template della scorecard:
 
    ![Creare segmenti per il filtro](assets/segment_ui.png)
 
-5. Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic sulla **x** che compare quando passi il mouse sul componente, come mostrato di seguito per il segmento **[!DNL Mobile Customers]**:
+5. Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in un punto qualsiasi della scorecard al di fuori delle tessere e poi rimuovilo facendo clic sulla **x** che viene visualizzata quando passi il mouse sul componente, come mostrato di seguito per il segmento **Prime visite**:
 
    ![Rimuovere_componenti](assets/new_remove.png)
 
-6. Nelle **[!UICONTROL Properties]** della scorecard puoi inoltre specificare opzionalmente quanto segue:
+6. Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard selezionando il menu a discesa dell’intervallo di date.
 
-   * **[!UICONTROL Default date range]**. Gli intervalli che specifichi qui saranno gli stessi applicati al primo accesso dell’utente esecutivo alla scorecard nell’app.
+   ![Nuova scheda di valutazione](assets/new_score_card.png)
 
-   * **[!UICONTROL Comparison date range]**
+   Ogni nuova scorecard inizia con 6 combinazioni di intervalli di date incentrate sui dati di oggi e ieri. È possibile rimuovere intervalli di date non necessari facendo clic sulla x, oppure è possibile modificare ogni combinazione di intervalli di date facendo clic sulla matita.
 
-   * Eventuali **[!UICONTROL Segments]** da applicare a tutta la scorecard
+   ![Nuova scheda punteggio2](assets/new_score_card2.png)
 
-7. Per dare un nome alla scorecard, fai clic sullo spazio del nome in alto a sinistra dello schermo e digita il nuovo nome.
+   Per creare o modificare una data primaria, utilizza il menu a discesa per selezionare un intervallo di date disponibile oppure trascina e rilascia un componente data dalla barra a destra nella zona di rilascio.
+
+   ![Nuova scheda punteggio3](assets/new_score_card3.png)
+
+   Per creare una data di confronto, nel menu a discesa puoi scegliere tra pratici predefiniti per i confronti dell’ora comune. Puoi anche trascinare un componente data dalla barra a destra.
+
+   ![Nuova scheda di valutazione4](assets/new_score_card4.png)
+
+   Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona Calendario .
+
+   ![Nuova scheda di valutazione4](assets/new_score_card5.png)
+
+7. Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date. Per dare un nome alla scorecard, fai clic sullo spazio del nome in alto a sinistra dello schermo e digita il nuovo nome.
 
    ![Assegnare_un_nome_alle_scorecard](assets/new_name.png)
 
@@ -225,13 +237,9 @@ Per aiutare gli utenti esecutivi:
 
    * È inclusa una tabella per visualizzare i dati delle dimensioni aggiunte alla tessera. Tocca la freccia giù per selezionare le dimensioni. Se non è stata aggiunta alcuna dimensione alla tessera, nella tabella vengono visualizzati i dati relativi al grafico.
 
-5. Per modificare gli intervalli date per la tua scorecard:
+5. Per modificare gli intervalli di date per la scorecard, tocca l’intestazione Data e seleziona la combinazione di intervalli di date principali e di confronto che desideri visualizzare.
 
    ![Modificare le date](assets/changedate.png)
-
-   * Puoi modificare allo stesso modo anche gli intervalli date all’interno della vista raggruppamento mostrata sopra.
-
-   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le tessere della scorecard vengono aggiornati con i dati più recenti di confronto dei nuovi intervalli selezionati.
 
 6. Per lasciare un feedback su questa app:
 
