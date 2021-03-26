@@ -1,9 +1,9 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Adobe Analytics
-translation-type: ht
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
+workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 100%
 
@@ -53,13 +53,13 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 **Per gli utenti esecutivi su iOS:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics, in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per iOS](https://apple.co/2zXq0aN)
 
 **Per gli utenti esecutivi su Android:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics, in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per Android](https://bit.ly/2LM38Oo)
 
@@ -134,7 +134,7 @@ Per utilizzare le dashboard:
 
       ![Schermata Settings](assets/settings.png)
 
-10. Per modificare le preferenze, tocca l’opzione **[!UICONTROL Preferences]** mostrata qui sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
+10. Per modificare le preferenze, tocca l’opzione **[!UICONTROL Preferences]** mostrata sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
 
    ![Modalità scura](assets/darkmode.png)
 
