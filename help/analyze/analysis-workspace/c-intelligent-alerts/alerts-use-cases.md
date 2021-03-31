@@ -2,11 +2,13 @@
 description: Casi di utilizzo per gli avvisi intelligenti.
 title: 'Avvisi intelligenti: casi di utilizzo'
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '85'
-ht-degree: 100%
+feature: Strumenti di intelligenza artificiale
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 94%
 
 ---
 
