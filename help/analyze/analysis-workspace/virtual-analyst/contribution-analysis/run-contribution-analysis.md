@@ -2,11 +2,13 @@
 description: Esegui un rapporto di analisi dei contributi in un progetto Workspace.
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+feature: Strumenti di intelligenza artificiale
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 99%
 
 ---
 
