@@ -2,22 +2,24 @@
 description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
 keywords: Analysis Workspace
 title: Tasti di scelta rapida
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 74%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
 
 # Tasti di scelta rapida
 
-I tasti di scelta rapida (scelte rapide da tastiera) sono disponibili in  Analysis Workspace per la navigazione, l&#39;analisi, l&#39;aggiunta di pannelli e visualizzazioni e la democratizzazione (condivisione) senza soluzione di continuità.
+I tasti di scelta rapida sono disponibili in Analysis Workspace per una navigazione fluida, analisi, aggiunta di pannelli e visualizzazioni e democratizzazione (condivisione).
 
 Nota:
-* `Ctrl` = Windows e `Command` = Mac
-* `Alt` = Windows e `Option` = Mac
+* `Ctrl` = Windows e  `Command` = Mac
+* `Alt` = Windows e  `Option` = Mac
 
 ## Azioni di navigazione
 
@@ -41,14 +43,14 @@ Nota:
 | Creazione di un avviso | Ctrl + Maiusc + A |
 | Crea dato calcolato | Ctrl + Maiusc + C |
 | Crea un intervallo di date | Ctrl + Maiusc + D |
-| Crea un segmento | Ctrl + Maiusc + E |
+| Crea un segmento | Ctrl+Maiusc+E |
 | Cancella tutto | Alt + W |
 | Copia | Ctrl+C |
 | Ripristina | Ctrl + Maiusc + Z |
 | Annulla | Ctrl+Z |
 | Aggiorna componenti | Alt + Maiusc + R |
 | Aggiorna progetto | Alt + R |
-| Imposta come pagina di destinazione | Ctrl+Maiusc+L |
+| Imposta come pagina di destinazione | Ctrl + Maiusc + L |
 
 ## Aggiungi pannelli e azioni di visualizzazione
 
@@ -69,8 +71,8 @@ Nota:
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |
-| Salva progetto | ctrl + S |
-| Salva progetto come | ctrl + Maiusc + S |
+| Salva progetto | Ctrl + S |
+| Salva progetto come | Ctrl + Maiusc + S |
 | Salva come modello | Alt + T |
 | Scarica come CSV | Ctrl + Maiusc + V |
 | Scarica come PDF | Ctrl + Maiusc + B |
