@@ -1,12 +1,13 @@
 ---
 description: Modi di ottimizzare la consegna di Report Builder e un elenco di messaggi di errore che possono verificarsi occasionalmente.
 title: Risoluzione dei problemi e procedure consigliate per Report Builder
-topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1383'
 ht-degree: 82%
 
 ---
@@ -43,10 +44,10 @@ Report Builder richiede l’autenticazione per creare richieste di dati dalle su
 
 I seguenti fattori possono aumentare la complessità delle richieste e rallentarne l’elaborazione.
 
-* **Fattori che possono rallentare le consegne**: Troppi segnalibri, dashboard e cartelle di lavoro di Report Builder sono stati pianificati in poche ore. Considerare inoltre che un numero eccessivo di cartelle di lavoro di Report Builder sono state pianificate nello stesso momento. In questo caso, la coda dell’API del rapporto viene inserita nel backlog.
-* **Fattori che possono rallentare il runtime della cartella di lavoro**: Incremento significativo delle classificazioni o aumento dell&#39;intervallo di date della richiesta nel tempo.
-* **Causa un errore** di consegna della cartella di lavoro: Formula Excel complessa in una cartella di lavoro, in particolare quelle che richiedono data e ora.
-* **Celle che restituiscono 0s (nessun valore)**: Un apostrofo o una citazione singola nel nome del foglio di Excel causerà la mancata restituzione di valori da parte del generatore di report. Si tratta di una limitazione di Microsoft Excel.
+* **Fattori che possono rallentare le consegne**: Troppi segnalibri, dashboard e cartelle di lavoro di Report Builder sono stati pianificati in poche ore. Considera anche troppe cartelle di lavoro di Report Builder sono state pianificate all&#39;incirca nello stesso momento. In questo caso, la coda dell’API del rapporto viene inserita nel backlog.
+* **Fattori che possono rallentare il runtime della cartella di lavoro**: Incremento significativo delle classificazioni o aumento dell’intervallo di date della richiesta nel tempo.
+* **Cause che causano errori** di consegna della cartella di lavoro: Formule Excel complesse in una cartella di lavoro, in particolare quelle che richiedono data e ora.
+* **Celle che restituiscono 0 (nessun valore)**: Un apostrofo o una virgoletta singola nel nome del foglio di Excel causerà la mancata restituzione di valori da parte del generatore di report. Si tratta di una limitazione di Microsoft Excel.
 * **Prestazioni singole richieste**: La velocità di elaborazione può essere influenzata dalle seguenti impostazioni:
 
    | Impostazione | Prestazioni più rapide | Prestazioni più lente |
@@ -80,10 +81,10 @@ Elenco di messaggi di errore che possono verificarsi occasionalmente durante l�
 * **L’intervallo selezionato non è valido. Seleziona un altro intervallo.**: Se è selezionata una cella del foglio di calcolo a cui è già stata associata una richiesta, si verifica questo errore. Elimina la richiesta mappata alle celle o scegli un altro intervallo di celle da mappare. Per eliminare le celle è importante individuare le celle contenenti richieste ed eliminare la richiesta prima di eliminare le celle (ovvero rimuovere righe o colonne).
 * **Esci dalla cella Excel con lo stato attivo prima di utilizzare questa funzione.**: Se sei in *modalità di modifica* in una cella Excel e fai clic su una delle icone di Report Builder, appare questo messaggio di errore. La modalità di modifica in una cella Excel indica che la cella è selezionata e il cursore viene visualizzato al suo interno. In una cella di Excel è inoltre attiva la modalità di modifica quando si digita direttamente nella barra [!UICONTROL Formula] o nella [!UICONTROL Name Box] nella parte superiore di Excel.
 * **L’intervallo selezionato interseca l’intervallo di un’altra richiesta. Modifica la selezione.**: Se hai già mappato un set di celle al foglio di calcolo, compare questo errore.
-* **Riparazioni alla cartella di lavoro (Record rimossi: Formula dalla /xl/calcChain.xml)**: A volte le formule di una cartella di lavoro vengono danneggiate durante il salvataggio o il trasferimento. Quando il file viene aperto, Excel tenta di eseguire queste formule e non riesce. È possibile risolvere questo problema rimuovendo `calcChain.xml` dal foglio di calcolo, forzando Excel ad aggiornare i calcoli della formula.
-   1. Rinominare l&#39;estensione del file della cartella di lavoro da `.xlsx` a `.zip`.
-   2. Decomprimete il contenuto e aprite la `/xl/` cartella.
+* **Riparazioni alla cartella di lavoro (Record rimossi: Formula da /xl/calcChain.xml parte)**: A volte le formule di una cartella di lavoro vengono danneggiate durante il salvataggio o il trasferimento. Quando il file viene aperto, Excel cerca di eseguire queste formule e non riesce. È possibile risolvere questo problema rimuovendo `calcChain.xml` dal foglio di calcolo, forzando Excel ad aggiornare i calcoli della formula.
+   1. Rinomina l’estensione del file della cartella di lavoro da `.xlsx` a `.zip`.
+   2. Decomprimi il contenuto e apri la cartella `/xl/` .
    3. Elimina `calcChain.xml`.
-   4. Recomprimete il file con il zip dei contenuti e reimpostate l’estensione su `.xlsx`.
-   5. Aprire la cartella di lavoro in Excel e aggiornare tutte le richieste di Report Builder.
-* **Le celle Excel associate ai filtri di input o all&#39;intervallo di output potrebbero essere state eliminate**: Il Report Builder utilizza i nomi Excel per allegare le richieste di dati alle celle. Se si eliminano i nomi Excel dalla Gestione nomi, è possibile che venga visualizzato questo errore. Le richieste non possono essere recuperate se i nomi Excel vengono eliminati. Se la cartella di lavoro è stata pianificata, è possibile scaricare una copia da Gestione programmazione oppure aprire le copie consegnate in precedenza della cartella di lavoro.
+   4. Ricomprimi il contenuto e modifica di nuovo l’estensione del file in `.xlsx`.
+   5. Apri la cartella di lavoro in Excel e aggiorna tutte le richieste di Report Builder.
+* **Le celle Excel associate ai filtri di input o all’intervallo di output potrebbero essere state eliminate**: Il Report Builder utilizza i nomi Excel per allegare le richieste di dati alle celle. Se si eliminano i nomi Excel dal gestore dei nomi, viene visualizzato questo errore. Impossibile recuperare le richieste se i nomi Excel vengono eliminati. Se la cartella di lavoro è stata pianificata, è possibile scaricare una copia da Gestione pianificazione oppure aprire copie della cartella di lavoro consegnate in precedenza.
