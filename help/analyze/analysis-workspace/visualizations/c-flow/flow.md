@@ -2,11 +2,13 @@
 description: Utilizza la visualizzazione di flusso in un progetto Workspace.
 title: Panoramica del flusso
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+feature: Visualizzazioni
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 98%
 
 ---
 
