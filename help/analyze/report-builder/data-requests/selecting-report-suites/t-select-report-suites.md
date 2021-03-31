@@ -1,18 +1,22 @@
 ---
-description: Procedura per selezionare una suite di rapporti in Excel.
+description: Passaggi per aiutarti a selezionare una suite di rapporti in Excel.
 title: Seleziona una suite di rapporti
-topic: Report builder
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 20%
 
 ---
 
 
 # Seleziona una suite di rapporti
 
-Procedura per selezionare una suite di rapporti in Excel.
+Passaggi per aiutarti a selezionare una suite di rapporti in Excel.
 
-1. In Excel, fare clic su **[!UICONTROL Add-Ins]**.
-1. Nella barra degli strumenti, fare clic su **[!UICONTROL Create]**.
-1. Nella [!UICONTROL Request Wizard: Step 1] finestra, seleziona una suite di rapporti in [!UICONTROL Report Suite].
+1. In Excel, fai clic su **[!UICONTROL Add-Ins]**.
+1. Nella barra degli strumenti, fai clic su **[!UICONTROL Create]**.
+1. Nella finestra [!UICONTROL Request Wizard: Step 1] , seleziona una suite di rapporti in [!UICONTROL Report Suite].
