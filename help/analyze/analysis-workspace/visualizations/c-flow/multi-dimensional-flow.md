@@ -2,11 +2,13 @@
 description: Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
 title: Flussi interdimensionali
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: ht
-source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+feature: Visualizzazioni
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 99%
 
 ---
 
