@@ -1,20 +1,24 @@
 ---
-description: I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come i connettori dati.
+description: I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti all’Experience Cloud e sono disponibili in funzionalità integrate come i connettori dati.
 subtopic: Bookmarks
 title: Segnalibro Manager
-topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
+feature: Nozioni di base su Reports & Analytics
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 3%
 
 ---
 
 
 # Segnalibro Manager
 
-I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come i connettori dati.
+I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti all’Experience Cloud e sono disponibili in funzionalità integrate come i connettori dati.
 
-## Creare un segnalibro {#task_305BDB470E374026AD48F19D11A387A6}
+## Crea un segnalibro {#task_305BDB470E374026AD48F19D11A387A6}
 
 Questa procedura descrive come creare un segnalibro.
 
@@ -24,17 +28,17 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. Esegui un rapporto, quindi fai clic su **[!UICONTROL Bookmark.]**.
 
-       |Nome|Un nome descrittivo per questo segnalibro.|
-    |—|—|
-    |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.|
-    |Rendi pubblico| Rende questo segnalibro disponibile per gli utenti che hanno accesso alla suite di rapporti.|
-    |Visualizza il rapporto all&#39;accesso| Visualizza il rapporto al momento dell&#39;accesso.|
+       |Nome|Un nome descrittivo per il segnalibro.|
+       |—|
+       |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.|
+       |Rendi pubblico| Rende questo segnalibro disponibile agli utenti con accesso alla suite di rapporti.|
+       |Visualizza il rapporto al momento dell&#39;accesso| Visualizza il rapporto al momento dell&#39;accesso.|
    
 ## Gestire i segnalibri {#task_1EE793CB52EA467787817BBD98DEF150}
 
-Dopo aver creato i segnalibri per report, è possibile gestirli nel [!UICONTROL Bookmark Manager]. È possibile modificare, eliminare e organizzare i segnalibri e le cartelle da una posizione centrale.
+Dopo aver creato i segnalibri per report, puoi gestirli nel [!UICONTROL Bookmark Manager]. È possibile modificare, eliminare e organizzare i segnalibri e le cartelle da una posizione centrale.
 
 <!-- 
 
@@ -60,7 +64,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_delete_folder.png" id="image_AFB6A02475664785BA90485EA289749A"> </img> </p> </td> 
-   <td colname="col2"> <p> Elimina una cartella di segnalibri. Selezionare il segnalibro prima di fare clic su questa opzione. </p> </td> 
+   <td colname="col2"> <p> Elimina una cartella segnalibro. Selezionare il segnalibro prima di fare clic su questa opzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_sort.png" id="image_8B4BE31182004357890B6532CCE5B2C2"> </img> </p> </td> 
@@ -68,7 +72,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/icon_edit_VideoSharing.png" id="image_5B8C0321ED5848ECBE3AF65514AD9A44"> </img> </p> </td> 
-   <td colname="col2"> <p> Consente di modificare un segnalibro. È possibile rinominare il segnalibro e specificare la cartella del segnalibro in cui si desidera visualizzare il rapporto. È inoltre possibile specificare se visualizzare il segnalibro al momento dell'accesso. </p> </td> 
+   <td colname="col2"> <p> Consente di modificare un segnalibro. È possibile rinominare il segnalibro e specificare la cartella segnalibro in cui si desidera visualizzare il rapporto. È inoltre possibile specificare se si desidera visualizzare il segnalibro all'accesso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/icon_delete_VideoSharing.png" id="image_945A859920C44BC08825CC062C10543A"> </img> </p> </td> 
@@ -76,7 +80,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_schedule.png" id="image_B7B23C1C67F04DF096149DCDF8C0FE5F"> </img> </p> </td> 
-   <td colname="col2"> <p> Consente di sapere che il segnalibro è pianificato per la consegna. Fate clic su questa opzione per configurare la pianificazione, utilizzando le opzioni <span class="wintitle"></span>di consegna avanzate. </p> </td> 
+   <td colname="col2"> <p> Consente di sapere che il segnalibro è pianificato per la consegna. Fai clic su questa opzione per configurare la pianificazione utilizzando <span class="wintitle"> Opzioni di consegna avanzate</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,15 +97,15 @@ t_bookmarks_managing.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Rendi pubblico </td> 
-   <td colname="col2"> <p>Specifica che il segnalibro è pubblico. Tali segnalibri vengono visualizzati come segnalibri condivisi nei segnalibri <span class="wintitle"> pubblici</span>. </p> </td> 
+   <td colname="col2"> <p>Specifica che il segnalibro è pubblico. Questi segnalibri vengono visualizzati come segnalibro condiviso in <span class="wintitle"> Segnalibri pubblici</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Copia </td> 
-   <td colname="col2"> <p>Crea una copia dei segnalibri e la inserisce in una cartella predefinita nella colonna <span class="uicontrol"> Segnalibri</span> . </p> </td> 
+   <td colname="col1"> Copy Me </td> 
+   <td colname="col2"> <p>Crea una copia dei segnalibri e la inserisce in una cartella predefinita nella colonna <span class="uicontrol"> Segnalibri</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Menu attivato </td> 
-   <td colname="col2"> <p> Posiziona il rapporto con segnalibro nel menu del rapporto di marketing sulla pagina di destinazione. </p> </td> 
+   <td colname="col2"> <p> Posiziona il rapporto con segnalibro nel menu del rapporto di marketing nella pagina di destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Informazioni/Modifica </td> 
