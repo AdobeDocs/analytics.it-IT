@@ -1,11 +1,13 @@
 ---
 description: Il pannello Analytics for Target (A4T) ti consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace.
 title: Pannello Analytics for Target (A4T)
-translation-type: ht
-source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
-workflow-type: ht
-source-wordcount: '1103'
-ht-degree: 100%
+feature: Pannelli
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +24,7 @@ Puoi configurare il pannello A4T usando le seguenti impostazioni di input:
 |---|---|
 | Target Attività | Seleziona da un elenco di attività di Target oppure trascina e rilascia un’attività dalla barra a sinistra. Nota: l’elenco è composto dagli ultimi 6 mesi di attività che hanno avuto almeno 1 hit. Se nell’elenco non viene visualizzata un’attività, potrebbe essere più vecchia di 6 mesi. Può essere comunque aggiunta dalla barra a sinistra, che ha un periodo di lookback fino a 18 mesi. |
 | Control Experience | Seleziona la tua esperienza di controllo. Se necessario, puoi modificarla nel menu a discesa. |
-| Normalizing metric | Scegli tra Unique Visitors, Visits, o Activity Impressions. L’opzione Unique visitors è consigliata per la maggior parte dei casi di utilizzo dell’analisi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità. |
+| Normalizing metric | Scegli tra Visitatori univoci, Visite o Impression attività. L’opzione Visitatori univoci è consigliata per la maggior parte dei casi di utilizzo dell’analisi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità. |
 | Success metrics | Seleziona fino a 3 eventi di successo standard (non calcolati) dai menu a discesa, oppure trascina e rilascia le metriche dalla barra a sinistra. Ogni metrica avrà una tabella e una visualizzazione dedicate nel pannello di cui è stato effettuato il rendering. |
 | Intervallo date del calendario | Questo verrà compilato automaticamente in base all’intervallo di date dell’attività di Adobe Target. Puoi cambiarlo se necessario. |
 
@@ -58,9 +60,9 @@ Come per qualsiasi pannello in Analysis Workspace, puoi continuare la tua analis
 |---|---|
 | Quali tipi di attività sono supportati in A4T? | [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) sui tipi di attività supportati. |
 | Le metriche calcolate sono supportate nei calcoli di incremento e affidabilità? | No. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sui motivi per cui le metriche calcolate non sono supportate in incremento e affidabilità. Le metriche calcolate possono tuttavia essere utilizzate nel reporting A4T al di fuori di queste metriche. |
-| Perché i visitatori unici dovrebbero variare tra Target e Analytics? | [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sulle discrepanze di visitatori unici tra i prodotti. |
-| Quando applico un segmento di hit per una specifica attività Target nell’analisi, perché viene restituita un’esperienza non correlata? | La dimensione A4T è una variabile di elenco, il che significa che può contenere più attività (ed esperienze) alla volta. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| La metrica di affidabilità tiene conto di ordini estremi o applica una correzione Bonferroni per offerte multiple? | No. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) su come Analytics calcola l’affidabilità. |
+| Perché i visitatori univoci dovrebbero variare tra Target e Analytics? | [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sulle discrepanze di visitatori univoci tra i prodotti. |
+| Quando applico un segmento di hit per una specifica attività Target nell’analisi, perché viene restituita un’esperienza non correlata? | La dimensione A4T è una variabile di elenco, il che significa che può contenere più attività (ed esperienze) alla volta. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| La metrica di affidabilità tiene conto di ordini estremi o applica una correzione Bonferroni per offerte multiple? | No. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) su come Analytics calcola l’affidabilità. |
 | È possibile utilizzare le metriche Incremento e Affidabilità con altre dimensioni o raggruppamenti? | Incremento e Affidabilità sono “metriche bloccate” per la dimensione delle esperienze di Target perché richiedono un controllo e una variante su cui eseguire il calcolo. In quanto tali, non possono essere suddivise o utilizzate con altre dimensioni. |
 | Quando ricalcolano Incremento e Affidabilità? | Incremento e affidabilità vengono ricalcolati quando il pannello viene eseguito (o rieseguito), l’intervallo di date del pannello viene modificato o un segmento viene applicato al pannello o alla tabella. Quando si applica un filtro segmento alla tabella a forma libera, questo deve essere applicato a tutte le colonne; in caso contrario l’incremento e l&#39;affidabilità non verrano aggiornata correttamente. Al momento, i segmenti a livello di colonna non sono supportati. |
 
