@@ -1,12 +1,13 @@
 ---
-description: Esempio di come la libreria AppMeasurement e il modulo Activity Map  vengono combinati nel codice  implementazione Adobe Analytics
-title: Visualizza esempio  codice di implementazione Activity Map
-topic: Activity map
+description: Esempio di combinazione della libreria AppMeasurement e del modulo Activity Map nel codice di implementazione Adobe Analytics
+title: Visualizza un esempio di codice di implementazione di Activity Map
+feature: Activity Map
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 0%
+source-wordcount: '56'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 ## Esempio di file AppMeasurement.js
 
-Di seguito è riportato un esempio di come la libreria AppMeasurement e il modulo Activity Map  vengono combinati nel file [!DNL AppMeasurement.js].
+Di seguito è riportato un esempio di come la libreria AppMeasurement e il modulo Activity Map vengono combinati nel file [!DNL AppMeasurement.js] .
 
 ```
 // Initialize AppMeasurement 
