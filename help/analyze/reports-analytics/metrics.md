@@ -1,12 +1,13 @@
 ---
-description: Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati e di abilitare confronti affiancati di diversi set di dati sul sito Web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
+description: Le metriche sono alla base dei rapporti e consentono di visualizzare e comprendere le relazioni tra i dati e di abilitare confronti affiancati di diversi set di dati sul sito web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
 title: Metriche
-topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
+feature: Nozioni di base su Reports & Analytics
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '364'
 ht-degree: 19%
 
 ---
@@ -14,19 +15,19 @@ ht-degree: 19%
 
 # Metriche
 
-Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati e di abilitare confronti affiancati di diversi set di dati sul sito Web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
+Le metriche sono alla base dei rapporti e consentono di visualizzare e comprendere le relazioni tra i dati e di abilitare confronti affiancati di diversi set di dati sul sito web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
 
 ## Panoramica delle metriche
 
-Le metriche sono alla base dei report e consentono di visualizzare e comprendere le relazioni dei dati e di abilitare confronti affiancati di diversi set di dati sul sito Web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
+Le metriche sono alla base dei rapporti e consentono di visualizzare e comprendere le relazioni tra i dati e di abilitare confronti affiancati di diversi set di dati sul sito web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
 
-Metriche e dati associati sono visualizzati nelle colonne dei rapporti. Le metriche del traffico mostrano i dati sul volume dei visitatori. Le metriche di conversione mostrano i dati sugli eventi di successo, come acquisti, download o qualsiasi altra azione che gli utenti devono intraprendere sul sito Web.
+Le metriche e i dati associati vengono visualizzati nelle colonne dei rapporti. Le metriche del traffico mostrano i dati sul volume di visitatori. Le metriche di conversione mostrano i dati sugli eventi di successo, ad esempio acquisti, download o qualsiasi altra azione che gli utenti devono intraprendere sul tuo sito web.
 
-[Le metriche](/help/components/c-calcmetrics/cm-overview.md) calcolate vengono create combinando le metriche.
+[Le ](/help/components/c-calcmetrics/cm-overview.md) metriche calcolate vengono create combinando le metriche.
 
-Per un elenco completo delle metriche, consulta Panoramica delle [metriche](/help/components/metrics/overview.md) nella guida utente Components (Componenti).
+Per un elenco completo delle metriche, consulta [Panoramica metriche](/help/components/metrics/overview.md) nella guida utente Componenti.
 
-## Seleziona metriche rapporto predefinite
+## Selezionare le metriche di rapporto predefinite
 
 Passaggi che descrivono come selezionare le metriche predefinite a livello di rapporto.
 
@@ -38,12 +39,12 @@ t_metrics_set_default.xml
 
 1. Esegui un report.
 1. Aggiungi le metriche da salvare come metriche predefinite.
-1. Fare clic sull&#39;elenco a **[!UICONTROL Add Metrics]** discesa, quindi selezionare **[!UICONTROL Set as Default]**.
+1. Fai clic sull’elenco a discesa **[!UICONTROL Add Metrics]**, quindi seleziona **[!UICONTROL Set as Default]**.
 
-   Le metriche selezionate vengono salvate come impostazioni predefinite per il rapporto. Le seguenti informazioni si applicano alle metriche predefinite:
+   Le metriche selezionate vengono salvate come valori predefiniti per questo rapporto. Le seguenti informazioni si applicano alle metriche predefinite:
 
-* Le metriche predefinite si applicano a tutti gli account utente, ma sono per suite di rapporti e rapporti. Ad esempio, tutti gli utenti che visualizzano un rapporto specifico nella stessa suite di rapporti visualizzano il set di metriche utilizzando la procedura precedente.
-* Se vi spostate tra i rapporti, le metriche visualizzate nell&#39;ultimo rapporto visualizzato persistono. Per visualizzare le metriche predefinite nel nuovo rapporto, fai clic sull&#39;elenco a [!UICONTROL Add Metrics] discesa, quindi fai clic su [!UICONTROL Show Defaults].
+* Le metriche predefinite si applicano a tutti gli account utente, ma si riferiscono a suite di rapporti e rapporti. Ad esempio, tutti gli utenti che visualizzano un rapporto specifico nella stessa suite di rapporti visualizzano le metriche impostate utilizzando la procedura precedente.
+* Se passi da un rapporto all’altro, le metriche visualizzate nel rapporto visualizzato più di recente persistono. Per visualizzare le metriche predefinite in quel nuovo rapporto, fai clic sull’elenco a discesa [!UICONTROL Add Metrics] , quindi fai clic su [!UICONTROL Show Defaults].
 
-* Facendo clic [!UICONTROL Clear Defaults] su questa opzione vengono rimosse le metriche predefinite per il rapporto e le vengono ripristinate alle metriche predefinite originali per il rapporto ( [!UICONTROL Page Views] per le proprietà e per tutto ciò che è stato impostato in Strumenti di amministrazione per le eVar).
+* Facendo clic su [!UICONTROL Clear Defaults] vengono rimosse le metriche predefinite per quel rapporto e vengono ripristinate le metriche predefinite originali per quel rapporto ( [!UICONTROL Page Views] per le proprietà e tutto ciò che è stato impostato in Strumenti di amministrazione per le eVar).
 
