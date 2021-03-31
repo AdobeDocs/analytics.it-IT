@@ -1,11 +1,13 @@
 ---
 title: Analista virtuale
 description: Scopri le funzionalità di Adobe Analytics che contribuiscono all’uso di Analista virtuale.
-translation-type: ht
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
-workflow-type: ht
-source-wordcount: '115'
-ht-degree: 100%
+feature: Strumenti di intelligenza artificiale
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 95%
 
 ---
 
