@@ -1,11 +1,13 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Adobe Analytics
+feature: Dashboard di Analytics
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1276'
+ht-degree: 99%
 
 ---
 
