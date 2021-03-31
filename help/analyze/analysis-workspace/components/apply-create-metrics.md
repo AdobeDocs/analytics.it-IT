@@ -2,10 +2,12 @@
 description: In Analysis Workspace, le metriche possono essere utilizzate in due modi.
 title: Metriche
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
 translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '246'
 ht-degree: 94%
 
 ---
@@ -29,7 +31,7 @@ Per accelerare e semplificare la creazione delle metriche calcolate, al menu di 
 
 ![](assets/calc_metrics.png)
 
-[Metriche calcolate: Metriche](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) senza implementazione (3:42)
+[Metriche calcolate: Metriche](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  senza implementazione (3:42)
 
 ## Confrontare metriche con diversi modelli di attribuzione
 
