@@ -1,73 +1,75 @@
 ---
-description: 'I componenti in  Analysis Workspace sono dimensioni, metriche, segmenti e intervalli di date che puoi trascinare su un progetto. '
+description: 'I componenti in Analysis Workspace sono costituiti da dimensioni, metriche, segmenti e intervalli di date che puoi trascinare su un progetto. '
 title: Panoramica dei componenti
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
 translation-type: tm+mt
-source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 12%
+source-wordcount: '695'
+ht-degree: 17%
 
 ---
 
 
 # Panoramica dei componenti
 
-I componenti in  Analysis Workspace sono dimensioni, metriche, segmenti e intervalli di date che puoi trascinare su un progetto.
+I componenti in Analysis Workspace sono costituiti da dimensioni, metriche, segmenti e intervalli di date che puoi trascinare su un progetto.
 
-To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. Puoi passare da [Pannelli](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html), [Visualizzazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)e Componenti dalle icone della barra a sinistra o utilizzando [i tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Per accedere al menu Componenti, fai clic sull’icona **[!UICONTROL Components]** nella barra a sinistra. Puoi passare da [Pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it-IT), [Visualizzazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) e Componenti dalle icone della barra a sinistra oppure utilizzando [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/component-overview.png)
 
-Potete anche regolare le impostazioni [di densità di](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) visualizzazione per il progetto per visualizzare più valori contemporaneamente nella barra a sinistra andando **[!UICONTROL Project > Project Info & Settings > View Density]**.
+È inoltre possibile regolare le [impostazioni di densità di visualizzazione](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) per consentire al progetto di visualizzare più valori contemporaneamente nella barra a sinistra andando su **[!UICONTROL Project > Project Info & Settings > View Density]**.
 
 ## Dimensioni {#dimensions}
 
-[**Gli Dimension**](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) sono attributi di testo che descrivono il comportamento dei visitatori e possono essere visualizzati, suddivisi e confrontati nell’analisi. Si trovano nella barra dei componenti a sinistra (sezione arancione) e vengono in genere applicati come righe di una tabella.
+[****](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) Le dimensioni sono attributi di testo che descrivono il comportamento del visitatore e possono essere visualizzati, suddivisi e confrontati nell’analisi. Si trovano nella barra dei componenti a sinistra (sezione arancione) e vengono in genere applicati come righe di una tabella.
 
-Examples of dimensions include [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type], and [!UICONTROL Products]. Gli Dimension vengono forniti  Adobe e vengono acquisiti tramite l&#39;implementazione personalizzata ( eVar, Prop, classificazioni, ecc.).
+Esempi di dimensioni sono [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type] e [!UICONTROL Products]. I Dimension sono forniti da Adobe e vengono acquisiti tramite l’implementazione personalizzata (eVar, Prop, classificazioni, ecc.).
 
-Ogni dimensione contiene anche elementi **** dimensionali al suo interno. Per trovare gli elementi di Dimension nella barra a sinistra del componente, fai clic sulla freccia a destra accanto al nome di una dimensione (gli elementi sono gialli).
+Ogni dimensione contiene anche **elementi dimensionali** al suo interno. Per trovare gli elementi del Dimension nella barra dei componenti a sinistra, fai clic sulla freccia destra accanto al nome di una dimensione (gli elementi sono gialli).
 
-Esempi di elementi dimensionali includono [!UICONTROL Homepage] (all’interno della [!UICONTROL Page] dimensione), [!UICONTROL Paid Search] (all’interno della [!UICONTROL Marketing Channel] dimensione), [!UICONTROL Tablet] (all’interno della [!UICONTROL Mobile Device Type] dimensione) e così via.
+Esempi di elementi dimensionali includono [!UICONTROL Homepage] (all’interno della dimensione [!UICONTROL Page]), [!UICONTROL Paid Search] (all’interno della dimensione [!UICONTROL Marketing Channel]), [!UICONTROL Tablet] (all’interno della dimensione [!UICONTROL Mobile Device Type]) e così via.
 
 ![](assets/dimensions.png)
 
 ## Metriche {#metrics}
 
-[**Le metriche**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) sono misure quantitative sul comportamento dei visitatori. Si trovano nella barra a sinistra del componente (sezione verde) e vengono in genere applicati come colonne di una tabella.
+[****](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) Le metriche sono misure quantitative sul comportamento dei visitatori. Si trovano nella barra dei componenti a sinistra (sezione verde) e vengono in genere applicati come colonne di una tabella.
 
-Esempi di metriche includono [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent]e [!UICONTROL Revenue/Order]. Le metriche vengono fornite dal Adobe , acquisite tramite l&#39;implementazione personalizzata ([!UICONTROL Success events]) o create mediante il generatore di metriche [calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Esempi di metriche includono [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent] e [!UICONTROL Revenue/Order]. Le metriche vengono fornite per Adobe, acquisite tramite l&#39;implementazione personalizzata ([!UICONTROL Success events]) o create utilizzando il [Generatore di metriche calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
 ## Segmenti {#segments}
 
-[**I segmenti**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) sono filtri per l&#39;audience applicati all&#39;analisi. Si trovano nella barra a sinistra del componente (sezione blu) e vengono in genere applicati nella parte superiore di un pannello o sopra le colonne di metriche in una tabella.
+[****](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) I segmenti sono filtri applicati all’analisi. Si trovano nella barra dei componenti a sinistra (sezione blu) e sono in genere applicati nella parte superiore di un pannello o sopra le colonne di metrica in una tabella.
 
-Esempi di segmenti includono [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email]e [!UICONTROL Authenticated Hits]. I segmenti vengono forniti da  Adobe, creati nella zona di rilascio del [pannello](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)o creati mediante il generatore [di](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-build.html)segmenti.
+Alcuni esempi di segmenti sono [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email] e [!UICONTROL Authenticated Hits]. I segmenti vengono forniti per Adobe, creati nella [zona di rilascio del pannello](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) o creati utilizzando il [Generatore di segmenti](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
 ![](assets/segments.png)
 
 ## Intervalli di date {#date-ranges}
 
-[**Gli intervalli**](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) di date sono l’intervallo di date in cui viene eseguita l’analisi. Si trovano nella barra a sinistra dei componenti (sezione viola) e vengono in genere applicati nel calendario di ciascun pannello.
+[**Gli**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) intervalli di date sono l’intervallo di date in cui esegui l’analisi. Si trovano nella barra dei componenti a sinistra (sezione viola) e vengono in genere applicati nel calendario di ciascun pannello.
 
-Esempi di intervalli di date includono luglio 2019 [!UICONTROL Last 4 weeks], e [!UICONTROL This month]. Gli intervalli di date sono forniti da  Adobe, applicati nel calendario [del](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)pannello o creati utilizzando il generatore di intervalli di [date](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+Esempi di intervalli di date sono luglio 2019, [!UICONTROL Last 4 weeks] e [!UICONTROL This month]. Gli intervalli di date sono forniti per Adobe, applicati nel [calendario del pannello](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) o creati utilizzando il [Generatore di intervalli di date](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 
 ## Azioni dei componenti {#actions}
 
-Puoi gestire i componenti (singolarmente o selezionando più componenti) direttamente nella barra a sinistra. Fai clic con il pulsante destro del mouse su un componente o fai clic sull’icona del punto Azione nella parte superiore dell’elenco dei componenti.
+Puoi gestire i componenti (singolarmente o selezionandone più) direttamente nella barra a sinistra. Fai clic con il pulsante destro del mouse su un componente o fai clic sull’icona del punto Azione in alto nell’elenco dei componenti.
 
 ![](assets/component-actions.png)
 
 | Azione del componente | Descrizione |
 |--- |--- |
-| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Potete quindi eseguire la ricerca per tag nella barra a sinistra facendo clic sul filtro o digitando #. I tag fungono anche da filtri nei gestori dei componenti. |
-| Preferito | Aggiungere il componente all’elenco dei preferiti. Come per i tag, potete eseguire ricerche per Preferiti nella barra a sinistra e filtrarle per mezzo di tali tag nei gestori dei componenti. |
-| Approva | Contrassegna i componenti come Approvati per segnalare agli utenti che il componente è approvato dall’organizzazione. Come per i tag, potete effettuare ricerche per Approvato nella barra a sinistra e filtrarle nei gestori dei componenti. |
-| Condividi | Condivisione di componenti con gli utenti dell’organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, come segmenti o metriche calcolate. |
-| Elimina | Eliminare componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, come segmenti o metriche calcolate. |
+| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Per eseguire la ricerca per tag nella barra a sinistra, fai clic sul filtro o digita #. I tag fungono anche da filtri nei gestori dei componenti. |
+| Preferito | Aggiungere il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nella barra a sinistra e filtrarli nei gestori dei componenti. |
+| Approva | Contrassegna i componenti come approvati per segnalare agli utenti che il componente è approvato dall’organizzazione. Come per i tag, puoi eseguire ricerche per Approvato nella barra a sinistra e filtrare in base a essi nei gestori dei componenti. |
+| Condividi | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
+| Elimina | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
 
-I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, il [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md).
