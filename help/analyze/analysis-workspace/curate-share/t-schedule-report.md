@@ -1,17 +1,19 @@
 ---
 description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 keywords: Analysis Workspace
-title: Pianificare progetti
+title: Programmare progetti
+feature: Cura e condivisione
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 99%
+source-wordcount: '476'
+ht-degree: 98%
 
 ---
 
 
-# Pianificare progetti
+# Programmare progetti
 
 Dal **menu Share** di Workspace, puoi inviare progetti Analysis Workspace tramite e-mail a destinatari selezionati. I file possono essere inviati in formato CSV o PDF.
 
