@@ -1,10 +1,12 @@
 ---
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
-translation-type: ht
-source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
-workflow-type: ht
-source-wordcount: '365'
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
