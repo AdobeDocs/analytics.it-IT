@@ -1,10 +1,12 @@
 ---
 title: Report Builder per Adobe Analytics
 description: Utilizza Report Builder per portare i dati di Adobe Analytics direttamente in Microsoft Excel. Scopri come l’installazione e l’utilizzo di Report Builder possono potenziare la tua attività.
-translation-type: ht
-source-git-commit: 9edb2224b711cb41552488c8d73cbce1a9577a61
-workflow-type: ht
-source-wordcount: '133'
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
