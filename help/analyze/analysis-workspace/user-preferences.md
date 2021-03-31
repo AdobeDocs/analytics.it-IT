@@ -1,11 +1,12 @@
 ---
 title: Come impostare le preferenze utente in Analysis Workspace
-description: Puoi impostare i riferimenti alla pagina di destinazione e al progetto in un’unica posizione centrale.
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
 translation-type: tm+mt
-source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 19%
+source-wordcount: '209'
+ht-degree: 22%
 
 ---
 
