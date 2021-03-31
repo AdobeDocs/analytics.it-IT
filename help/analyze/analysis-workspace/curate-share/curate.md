@@ -1,12 +1,14 @@
 ---
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
-keywords: Analysis Workspace curation
+keywords: Cura di Analysis Workspace
 title: Curare progetti
+feature: Cura e condivisione
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '523'
+ht-degree: 87%
 
 ---
 
@@ -60,7 +62,7 @@ In un progetto curato o in una VRS, al destinatario verrà offerta l’opzione *
 * Tipo di cura applicata (VRS o del progetto)
 * Componenti di proprietà o condivisi con l’utente. I componenti di proprietà/condivisi includono segmenti, metriche calcolate e intervalli di date. Non includono componenti implementati come eVar, prop ed eventi personalizzati.
 
-Nota: I ruoli di visualizzazione non amministratore non hanno accesso alla barra a sinistra in un progetto, pertanto sono stati omessi dalla tabella seguente.
+Nota: I ruoli di visualizzazione non amministratori non hanno accesso alla barra a sinistra in un progetto, pertanto sono stati omessi dalla tabella seguente.
 
 | Tipo di cura | Amministratori | Ruolo di proprietario del progetto o editor non amministratore | Ruolo duplicato non amministratore |
 |---|---|---|---|
