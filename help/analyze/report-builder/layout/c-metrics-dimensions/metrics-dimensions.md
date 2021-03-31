@@ -1,24 +1,28 @@
 ---
-description: Puoi aggiungere metriche e dimensioni al Passaggio 2 della Richiesta guidata per definire il layout di Analytics dei dati nella richiesta. L'elenco di metriche e dimensioni nel Generatore di report segue il layout del menu visualizzato in Reporting e analisi.
+description: Puoi aggiungere metriche e dimensioni al Passaggio 2 della Creazione guidata richieste per definire il layout di Analytics dei dati nella richiesta. L’elenco delle metriche e delle dimensioni nel Report Builder segue il layout del menu visualizzato in Reports and Analytics.
 title: Panoramica delle metriche e delle dimensioni
-topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 4%
 
 ---
 
 
 # Panoramica delle metriche e delle dimensioni
 
-Puoi aggiungere metriche e dimensioni alla Richiesta guidata: Passaggio 2 per definire il layout di Analytics dei dati nella richiesta. L&#39;elenco di metriche e dimensioni nel Generatore di report segue il layout del menu visualizzato in Reporting e analisi.
+Puoi aggiungere metriche e dimensioni alla Creazione guidata richieste: Passaggio 2 per definire il layout Analytics dei dati nella richiesta. L’elenco delle metriche e delle dimensioni nel Report Builder segue il layout del menu visualizzato in Reports and Analytics.
 
-Le metriche sono valori numerici. Sono costituite da informazioni quantitative sulle attività sul sito Web, come [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units]e così via. Generatore di report organizza le metriche in diversi gruppi, che seguono il raggruppamento standard in Analytics:
+Le metriche sono valori numerici. Sono costituite da informazioni quantitative sulle attività sul sito web, ad esempio [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units] e così via. Il Report Builder organizza le metriche in diversi gruppi, che seguono il raggruppamento standard in Analytics:
 
-* Traffico standard: Visualizza la metrica in base all&#39;elemento della riga specificato. Ad esempio, in un rapporto Pagine, la metrica Visite mostra il numero di visite a quella specifica pagina.
-* Commercio standard: Metriche quali Entrate, Ordini e Checkout.
-* Metriche totali: Visualizza la metrica in base all&#39;intervallo di date del rapporto, indipendentemente dall&#39;elemento della riga. Questa metrica è identica al totale alla fine del rispettivo report di analisi.
+* Traffico standard: Visualizza la metrica in base alla riga specificata. Ad esempio, in un rapporto Pagine, la metrica Visite mostra il numero di visite a quella pagina specifica.
+* Commercio standard: Metriche quali Entrate, Ordini e Pagamenti.
+* Metriche totali: Visualizza la metrica in base all’intervallo di date del rapporto, indipendentemente dalla riga. Questa metrica è identica al totale nella parte inferiore del rispettivo rapporto di analisi.
 * Partecipazione
 * Calcolato
 
-Le dimensioni sono valori e date non numerici, come genere, mese, età, fedeltà, risoluzione del monitor e così via. Le dimensioni sono descrizioni o caratteristiche dei dati delle metriche che possono essere visualizzati e confrontati, ad esempio nei rapporti dettagliati.
+I Dimension sono valori e date non numerici, ad esempio genere, mese, età, fedeltà, risoluzione del monitoraggio e così via. I Dimension sono descrizioni o caratteristiche dei dati di metriche che possono essere visualizzate e confrontate, ad esempio nei rapporti di suddivisione.
