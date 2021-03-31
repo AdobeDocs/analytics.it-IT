@@ -1,11 +1,13 @@
 ---
 description: Scopri i pannelli a forma libera
 title: Pannello a forma libera
-translation-type: ht
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
-workflow-type: ht
-source-wordcount: '24'
-ht-degree: 100%
+feature: Pannelli
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 89%
 
 ---
 
