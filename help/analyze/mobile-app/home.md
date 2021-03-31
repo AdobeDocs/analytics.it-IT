@@ -1,11 +1,13 @@
 ---
 title: Panoramica delle dashboard di Adobe Analytics
 description: Documentazione del prodotto e supporto autonomo per le dashboard di Adobe Analytics
-translation-type: ht
-source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+feature: Dashboard di Analytics
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 97%
 
 ---
 
