@@ -1,11 +1,13 @@
 ---
 description: Quick Insights è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle e visualizzazioni di dati
 title: Pannello Quick Insights
-translation-type: ht
-source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
-workflow-type: ht
-source-wordcount: '986'
-ht-degree: 100%
+feature: Pannelli
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '990'
+ht-degree: 99%
 
 ---
 
