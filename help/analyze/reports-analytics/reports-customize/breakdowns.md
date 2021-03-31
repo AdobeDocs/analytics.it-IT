@@ -1,25 +1,29 @@
 ---
-description: Utilizzare le suddivisioni quando si desidera sapere di più su come un elemento o segmento del rapporto si relaziona con altri rapporti. Questo è spesso chiamato "scomposizione" di un rapporto di un altro rapporto.
+description: Utilizza le suddivisioni quando vuoi saperne di più su come un elemento o segmento di report si relaziona ad altri report. Questo viene spesso chiamato "scomposizione" di un rapporto per un altro.
 title: Suddivisioni
-topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
+feature: Nozioni di base su Reports & Analytics
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 0%
 
 ---
 
 
 # Suddivisioni
 
-Utilizzare le suddivisioni quando si desidera sapere di più su come un elemento o segmento del rapporto si relaziona con altri rapporti. Questo è spesso chiamato &quot;scomposizione&quot; di un rapporto di un altro rapporto.
+Utilizza le suddivisioni quando vuoi saperne di più su come un elemento o segmento di report si relaziona ad altri report. Questo viene spesso chiamato &quot;scomposizione&quot; di un rapporto per un altro.
 
-Un esempio è la suddivisione di un report sul traffico personalizzato denominato Age Group, in cui sono state raccolte le età dei visitatori del sito da un sondaggio. Questo rapporto consente di vedere quale fascia di età è responsabile per la maggior parte del traffico sul sito. Tuttavia, se hai avuto il problema di acquisire elementi come l’età di un visitatore, potresti voler sapere qualcosa di più che semplici visualizzazioni di pagina. È possibile generare un rapporto dettagliato sul motore di ricerca utilizzato, sulle parole chiave utilizzate o sulla posizione geografica in cui si trovano. Si sta correlando il gruppo di età e il motore di ricerca.
+Un esempio è la suddivisione di un rapporto sul traffico personalizzato denominato Gruppo di età, in cui sono state raccolte le età dei visitatori del sito da un sondaggio. Questo rapporto ti consente di vedere quale gruppo di età è responsabile del maggior traffico sul tuo sito. Tuttavia, se hai avuto il problema di acquisire qualcosa come l’età di un visitatore, potresti voler sapere qualcosa di più che solo le visualizzazioni di pagina. È possibile generare un rapporto dettagliato sul motore di ricerca utilizzato, sulle parole chiave utilizzate o sulla posizione geografica. È in correlazione la fascia di età e il motore di ricerca.
 
-Se si suddivide un rapporto per *`Referrer Type`*, è possibile che venga visualizzato un punto dati per *`Inside Your Site`*. Questo valore indica una pagina referente presente nell’elenco Filtri URL interni. Consultate Filtri [URL](/help/admin/admin/internal-url-filter-admin.md) interni in Riferimento amministratore.
+Se suddividi un rapporto per *`Referrer Type`*, potresti visualizzare un punto dati per *`Inside Your Site`*. Questo valore indica una pagina referente presente nell’elenco Filtri URL interni. Consulta [Filtri URL interni](/help/admin/admin/internal-url-filter-admin.md) in Admin Reference.
 
-Puoi suddividere qualsiasi variabile di Analytics (eVar o prop) per qualsiasi altra variabile. Il **[!UICONTROL Breakdown By]** menu nella tabella dei report corrisponde al menu standard di reporting di Analytics, mantenendo le selezioni coerenti
+Puoi suddividere qualsiasi variabile di Analytics (eVar o prop) per qualsiasi altra variabile. Il menu **[!UICONTROL Breakdown By]** nella tabella dei rapporti corrisponde al menu di reporting standard di Analytics, mantenendo le selezioni coerenti
 
-## Eseguire un rapporto dettagliato {#task_F685624830E64C829C8BE6435A107F69}
+## Eseguire un rapporto di suddivisione {#task_F685624830E64C829C8BE6435A107F69}
 
 Passaggi che descrivono come eseguire un rapporto di suddivisione.
 
@@ -29,11 +33,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. Aprite il rapporto, ad esempio **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. Nella tabella del rapporto, fai clic sull’ **[!UICONTROL Breakdown By]** icona .
+1. Apri un rapporto, ad esempio **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Nella tabella dei rapporti, fai clic sull’icona **[!UICONTROL Breakdown By]** .
 
-   Se l&#39; **[!UICONTROL Breakdown By]** icona non è visibile, la funzione non è disponibile o non è abilitata.
+   Se l’icona **[!UICONTROL Breakdown By]** non è visibile, la funzione non è disponibile o non è abilitata.
 
    ![](assets/breakdown.png)
 
-   Nel **[!UICONTROL Breakdown By]** menu sono visualizzate tutte le opzioni di suddivisione disponibili per il rapporto corrente.
+   Il menu **[!UICONTROL Breakdown By]** visualizza tutte le opzioni di suddivisione disponibili per il rapporto corrente.
