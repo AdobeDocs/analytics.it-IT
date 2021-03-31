@@ -1,11 +1,13 @@
 ---
 title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+feature: Attribution
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 98%
 
 ---
 
