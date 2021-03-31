@@ -1,9 +1,14 @@
 ---
 title: Casi di utilizzo del confronto dei segmenti
 description: Scopri casi d’utilizzo reali che illustrano il modo in cui il pannello di confronto dei segmenti può essere utilizzato per acquisire informazioni approfondite sulla strategia di marketing.
-keywords: Segment IQ
+keywords: Segmento IQ
+feature: Pannelli
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 99%
 
 ---
 
