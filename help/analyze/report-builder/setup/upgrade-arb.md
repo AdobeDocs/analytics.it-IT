@@ -1,58 +1,62 @@
 ---
-description: Passaggi e considerazioni relativi all'aggiornamento del Generatore di report.
+description: Passaggi e considerazioni relativi al Report Builder di aggiornamento.
 title: Aggiornare Report Builder
-topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 5%
 
 ---
 
 
 # Aggiornare Report Builder
 
-Passaggi e considerazioni relativi all&#39;aggiornamento del Generatore di report.
+Passaggi e considerazioni relativi al Report Builder di aggiornamento.
 
-## Domande frequenti sull&#39;aggiornamento {#section_AFE40FF5544C418790A1C298C25CC18A}
+## Domande frequenti sull’aggiornamento {#section_AFE40FF5544C418790A1C298C25CC18A}
 
-**D: Mantengo la vecchia versione di Generatore di report al momento dell&#39;aggiornamento?**
+**D: Mantengo la vecchia versione del Report Builder quando eseguo l’aggiornamento?**
 
-A: No, la versione precedente verrà rimossa.
+R: No, la versione precedente verrà rimossa.
 
 **D: Perderò uno dei miei rapporti esistenti?**
 
-A: No, tutti i rapporti esistenti continueranno a funzionare.
+R: No, tutti i rapporti esistenti continueranno a funzionare.
 
-**D: Devo autenticare nuovamente la nuova versione?**
+**D: Devo eseguire nuovamente l&#39;autenticazione nella nuova versione?**
 
-A: No, tutte le impostazioni, comprese quelle di autenticazione, continueranno a funzionare.
+R: No, tutte le impostazioni, comprese quelle di autenticazione, continueranno a funzionare.
 
 ## Istruzioni per l&#39;aggiornamento {#section_73B8110A619549189A30079735E81867}
 
-1. Accedi alla versione corrente del Generatore di report.
-1. Vai al **[!UICONTROL Options]** menu per effettuare l&#39;aggiornamento alla versione più recente. Il numero di versione corrente viene visualizzato nella parte inferiore della finestra di dialogo Opzioni.
+1. Accedi alla versione corrente del Report Builder.
+1. Passa al menu **[!UICONTROL Options]** per effettuare l’aggiornamento alla versione più recente. Il numero di versione corrente viene visualizzato nella parte inferiore della finestra di dialogo Opzioni.
 
    ![](assets/upgrade.png)
 
-1. Se è disponibile una nuova versione, fate clic su **[!UICONTROL Update...]**. Il pulsante mostra la versione da aggiornare, ad esempio: &quot;Aggiornamento alla versione 5.0.50&quot;
+1. Se è disponibile una nuova versione, fai clic su **[!UICONTROL Update...]**. Il pulsante mostra la versione in cui stai eseguendo l’aggiornamento, ad esempio: &quot;Aggiornamento alla versione 5.0.50&quot;
 
    >[!NOTE]
    >
-   >Se questo pulsante è disattivato, non è disponibile alcuna nuova versione di Generatore di report.
+   >Se questo pulsante è disabilitato, non è disponibile alcuna nuova versione di Report Builder.
 
-1. Selezionare la **[!UICONTROL Update when a new version is available]** casella di controllo (facoltativo). In futuro, il processo di aggiornamento verrà avviato automaticamente quando sarà disponibile una nuova versione.
-1. Quando viene visualizzata la schermata di configurazione, fate clic su **[!UICONTROL Next >]**.
+1. Facoltativamente selezionare la casella di controllo **[!UICONTROL Update when a new version is available]**. In futuro, il processo di aggiornamento verrà avviato automaticamente quando sarà disponibile una nuova versione.
+1. Quando viene visualizzata la schermata di configurazione, fai clic su **[!UICONTROL Next >]**.
 
    ![](assets/setup.png)
 
-1. Una volta completato l&#39;aggiornamento, accedi di nuovo al generatore di report.
+1. Una volta completato l&#39;aggiornamento, accedi nuovamente a Report Builder.
 
 ## Istruzioni per l&#39;aggiornamento manuale {#section_27A0200010DC4747A718F1A65B180599}
 
-Puoi sempre ottenere la versione più recente di Generatore di report da Adobe Analytics.
+Puoi sempre ottenere l’ultima versione di Report Builder da Adobe Analytics.
 
-1. Accedete ad Adobe Analytics e passate a **[!UICONTROL Tools]**.
+1. Accedi ad Adobe Analytics e vai a **[!UICONTROL Tools]**.
 1. Fai clic su **[!UICONTROL Report Builder]**.
-1. Sullo **[!UICONTROL Overview]** schermo, selezionate la versione a 32 bit o a 64 bit.
+1. Nella schermata **[!UICONTROL Overview]** , seleziona la versione a 32 bit o a 64 bit.
 1. Fai clic su **[!UICONTROL Download Now!]**.
 
