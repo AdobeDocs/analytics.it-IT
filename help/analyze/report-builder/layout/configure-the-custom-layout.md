@@ -1,17 +1,21 @@
 ---
-description: Il layout personalizzato fornisce la maggior parte delle funzionalità del layout pivot, ma consente di scegliere dove posizionare ogni elemento della griglia nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti, inclusa l'aggiunta di suddivisioni e micrografici.
+description: Il Layout personalizzato fornisce la maggior parte delle funzionalità del layout pivot, ma consente di scegliere la posizione in cui ogni elemento della griglia deve trovarsi nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti, inclusa l’aggiunta di suddivisioni e micrografici.
 title: Configurare il layout personalizzato
-topic: Report builder
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 16%
 
 ---
 
 
 # Configurare il layout personalizzato
 
-Il layout personalizzato fornisce la maggior parte delle funzionalità del layout pivot, ma consente di scegliere dove posizionare ogni elemento della griglia nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti, inclusa l&#39;aggiunta di suddivisioni e micrografici.
+Il Layout personalizzato fornisce la maggior parte delle funzionalità del layout pivot, ma consente di scegliere la posizione in cui ogni elemento della griglia deve trovarsi nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti, inclusa l’aggiunta di suddivisioni e micrografici.
 
 I seguenti argomenti sono univoci per [!UICONTROL Custom Layout]:
 
