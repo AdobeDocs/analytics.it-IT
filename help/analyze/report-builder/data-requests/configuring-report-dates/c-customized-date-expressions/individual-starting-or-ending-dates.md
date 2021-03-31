@@ -1,10 +1,14 @@
 ---
 description: Abbreviazioni per le date di inizio e fine.
 title: Singole date di inizio o fine
-topic: Report builder
 uuid: b161948c-c71c-4757-8348-15577fc61042
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 14%
 
 ---
 
@@ -20,4 +24,4 @@ Abbreviazioni per le date di inizio e fine.
 * cd-2d = due giorni fa
 * cw-2w = primo giorno della settimana, due settimane fa
 
-Tenere presente che l&#39;impostazione della data su una data futura non restituisce valori per date future.
+Tieni presente che l’impostazione della data su una data futura non restituisce valori per date future.
