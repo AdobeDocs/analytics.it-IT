@@ -1,20 +1,21 @@
 ---
-description: Il rilevamento delle anomalie utilizza la modellazione statistica per individuare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o un rilascio imprevisto, il sistema ti avvisa nel report.
+description: Il rilevamento delle anomalie utilizza la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un intervallo di valori più basso, con limite superiore e previsto. Quando si verifica un picco o un calo imprevisto, il sistema ti avvisa nel rapporto.
 title: Rilevamento delle anomalie
-topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 7%
+source-wordcount: '523'
+ht-degree: 8%
 
 ---
 
 
-# Detección de anomalías{#anomaly-detection}
+# Rilevamento delle anomalie{#anomaly-detection}
 
-Il rilevamento delle anomalie utilizza la modellazione statistica per individuare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o un rilascio imprevisto, il sistema ti avvisa nel report.
+Il rilevamento delle anomalie utilizza la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un intervallo di valori più basso, con limite superiore e previsto. Quando si verifica un picco o un calo imprevisto, il sistema ti avvisa nel rapporto.
 
 Ecco alcuni esempi di anomalie da esaminare:
 
@@ -27,7 +28,7 @@ Ecco alcuni esempi di anomalie da esaminare:
 
 >[!NOTE]
 >
->Il rilevamento delle anomalie è disponibile solo quando si seleziona la granularità Giorno.
+>Il rilevamento delle anomalie è disponibile solo quando selezioni la granularità Giorno .
 
 <p class="head"> <b>Metriche di rilevamento delle anomalie</b> </p>
 
@@ -43,42 +44,42 @@ Il rilevamento delle anomalie aggiunge nuovi valori di metrica per ogni metrica 
  <tbody> 
   <tr> 
    <td colname="col1"> Limite inferiore </td> 
-   <td colname="col2"> <p>Livello inferiore dell'intervallo di previsione. I valori al di sotto di questo livello vengono considerati anomali. </p> <p>Rappresenta una confidenza del 95% che i valori saranno superiori a questo livello. </p> </td> 
+   <td colname="col2"> <p>Livello inferiore dell'intervallo di previsione. I valori al di sotto di questo livello vengono considerati anomali. </p> <p>Rappresenta un'affidabilità del 95% che i valori saranno superiori a questo livello. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Previsto </td> 
-   <td colname="col2"> <p>Il valore previsto basato sull'analisi dei dati. Questo valore è anche il punto centrale tra i limiti superiore e inferiore. </p> </td> 
+   <td colname="col2"> <p>Il valore previsto in base all’analisi dei dati. Questo valore è anche il punto centrale tra i limiti superiore e inferiore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Limite superiore </td> 
-   <td colname="col2"> <p>Livello superiore dell'intervallo di previsione. I valori superiori a questo livello vengono considerati anomali. </p> <p>Rappresenta una confidenza del 95% che i valori saranno inferiori a questo livello. </p> </td> 
+   <td colname="col2"> <p>Livello superiore dell'intervallo di previsione. I valori superiori a questo livello vengono considerati anomali. </p> <p>Rappresenta un'affidabilità del 95% che i valori saranno inferiori a questo livello. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Generatore di report applica questi valori alle metriche selezionate. Ad esempio, se selezionate una metrica Visualizzazioni di pagina e applicate il rilevamento delle anomalie, viene utilizzata una *`Page Views Lower Bound`* metrica.
+Report Builder applica questi valori alle metriche selezionate. Ad esempio, se selezioni una metrica Visualizzazioni pagina e applichi il rilevamento delle anomalie, viene utilizzata una metrica *`Page Views Lower Bound`* .
 
-**Modalità di calcolo del rilevamento delle anomalie**
+**Calcolo Del Rilevamento Delle Anomalie**
 
-Il rilevamento delle anomalie utilizza un periodo di formazione per calcolare, apprendere e riportare i dati dell&#39;intervallo di previsione al giorno. Il periodo di formazione è il periodo storico che identifica ciò che è normale e ciò che è anomalo e applica ciò che viene appreso al periodo di reporting. Nei rapporti di marketing sono disponibili periodi di formazione di 30, 60 e 90. Nel generatore di report sono disponibili 30 giorni.
+Il rilevamento delle anomalie utilizza un periodo di formazione per calcolare, apprendere e segnalare i dati dell’intervallo di previsione al giorno. Il periodo di formazione è il periodo storico che identifica ciò che è normale rispetto a quello anomalo e applica ciò che viene appreso nel periodo di reporting. Nei rapporti di marketing sono disponibili periodi di formazione di 30, 60 e 90. Nel generatore di report sono disponibili 30 giorni.
 
-Il periodo di formazione non è necessariamente lo stesso del periodo di reporting selezionato. Un grafico del rapporto mostra l&#39;intervallo di date specificato nel calendario.
+Il periodo di formazione non è necessariamente lo stesso del periodo di reporting selezionato. Un grafico dei rapporti mostra l’intervallo di date specificato nel calendario.
 
-Per calcolare i dati, il totale giornaliero di ciascuna metrica viene confrontato con il periodo di formazione utilizzando ciascuno dei seguenti algoritmi:
+Per calcolare i dati, il totale giornaliero per ciascuna metrica viene confrontato con il periodo di formazione utilizzando ciascuno dei seguenti algoritmi:
 
-* Occhiali Voli Multiplicativi (Triplo Smussamento Esponenziale)
-* Additivo per inverni Holt (triplo arrotondamento esponenziale)
-* Tendenza fori corretta (doppio arrotondamento esponenziale)
+* Inverni a cascata Moltiplicativi (Tripla levigatura esponenziale)
+* Additivo inverni Holt (triplo smussamento esponenziale)
+* Trend Holts corretto (doppio smussamento esponenziale)
 
-Ogni algoritmo viene applicato per determinare l’algoritmo con la somma minima di errori al quadrato (SSE). L&#39;errore percentuale assoluta media (MAPE) e l&#39;errore standard corrente vengono quindi calcolati per verificare che il modello sia statisticamente valido.
+Ogni algoritmo viene applicato per determinare l&#39;algoritmo con la somma più piccola di errori al quadrato (SSE). L&#39;errore percentuale assoluta media (MAPE) e l&#39;errore standard corrente vengono quindi calcolati per verificare che il modello sia statisticamente valido.
 
 Questi algoritmi possono essere estesi per fornire previsioni predittive delle metriche nei periodi futuri.
 
-Poiché il periodo di formazione varia in base all’inizio del periodo di reporting, è possibile che i dati segnalati per la stessa data vengano visualizzati in modo diverso nell’arco di due periodi di tempo diversi.
+Poiché il periodo di formazione varia in base all’inizio del periodo di reporting, è possibile che si verifichino differenze nei dati segnalati per la stessa data come parte di due periodi di tempo diversi.
 
 Ad esempio, se esegui un rapporto per il 1-14 gennaio e quindi esegui un rapporto per il 7-21 gennaio, potresti visualizzare dati di previsione diversi per la stessa metrica tra il 7 e il 14 gennaio nei due rapporti diversi. Questo è il risultato della differenza nei periodi di formazione.
 
-| Intervallo di rapporti | Periodo di formazione |
+| Intervallo di reporting | Periodo di formazione |
 |--- |--- |
 | 1-14 gennaio | 27 novembre - 31 dicembre |
 | 7-21 gennaio | 4 dicembre - 6 gennaio |
