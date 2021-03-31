@@ -1,10 +1,12 @@
 ---
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
+feature: Dashboard di Analytics
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: ea1915fa48a2da55684b7aa9f81fbe0c7d91171b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 87%
 
 ---
