@@ -2,10 +2,12 @@
 description: Usa i segmenti in Analysis Workspace.
 title: Segmenti
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '368'
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '373'
 ht-degree: 100%
 
 ---
