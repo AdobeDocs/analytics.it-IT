@@ -1,17 +1,19 @@
 ---
 description: Progetti di sola visualizzazione in Workspace
-keywords: View-only projects
-title: Progetti di sola visualizzazione
+keywords: Progetti solo visualizzazione
+title: Progetti solo visualizzazione
+feature: Cura e condivisione
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '254'
+ht-degree: 97%
 
 ---
 
 
-# Progetti di sola visualizzazione
+# Progetti solo visualizzazione
 
 Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Potresti desiderare di fare ciò se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati dell’organizzazione, Analysis Workspace o Adobe Analytics in genere, ma desideri comunque che utilizzino dati e approfondimenti in un ambiente sicuro.
 
