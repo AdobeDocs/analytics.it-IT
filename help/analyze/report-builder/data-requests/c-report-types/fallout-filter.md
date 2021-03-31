@@ -1,10 +1,14 @@
 ---
 description: Descrive i passaggi necessari per applicare filtri a un rapporto di abbandono.
 title: Filtrare un rapporto di fallout mediante la Creazione guidata richieste
-topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 11%
 
 ---
 
@@ -13,27 +17,27 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Descrive i passaggi necessari per applicare filtri a un rapporto di abbandono.
 
-Questo esempio mostra il rapporto Abbandono pagina.
+Questo esempio mostra il rapporto Abbandono pagina .
 
-1. In Generatore di report Adobe, fate clic **[!UICONTROL Create]** per aprire la Richiesta guidata.
+1. In Adobe Report Builder, fai clic su **[!UICONTROL Create]** per aprire la Creazione guidata richieste.
 1. Seleziona la suite di rapporti giusta.
-1. Nella vista ad albero a sinistra, selezionate **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]**.
+1. Nella vista struttura a sinistra, selezionare **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]**.
 
    ![](assets/page_fallout.png)
 
-1. Configura gli intervalli di [date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)appropriati.
+1. Configura gli intervalli di date [appropriati](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
 1. Fai clic su **[!UICONTROL Next]**.
-1. Nel Passaggio 2 della procedura guidata, in **[!UICONTROL Row Labels]**, fare clic sul **[!UICONTROL Define Checkpoints]** collegamento. In un rapporto di abbandono, è sempre necessario definire gli elementi del percorso, a differenza di un rapporto sul percorso, in cui un pattern è già applicato.
+1. Nel passaggio 2 della procedura guidata, in **[!UICONTROL Row Labels]** fare clic sul collegamento **[!UICONTROL Define Checkpoints]**. In un rapporto di abbandono, è sempre necessario definire elementi di percorso, a differenza di un rapporto di percorso, in cui un pattern viene preapplicato.
 
    ![](assets/define_checkpoints.png)
 
 1. Seleziona l&#39;opzione **[!UICONTROL Filter]**.
 
-1. Nella finestra di **[!UICONTROL Define Site Section Fallout Checkpoints]** dialogo, definire punti di controllo da un intervallo di celle o da un elenco. Quindi fai clic su **[!UICONTROL OK]**.
-1. Decidete se selezionare da un intervallo di celle o da un elenco.
-1. Se selezionate un elenco, fate clic **[!UICONTROL Add]** per selezionare i punti di controllo da aggiungere al percorso di abbandono. È possibile definire tra 3 e 8 punti di controllo. (Cercate gli elementi disponibili facendo clic su **[!UICONTROL More]**.)
+1. Nella finestra di dialogo **[!UICONTROL Define Site Section Fallout Checkpoints]**, definisci i punti di controllo da un intervallo di celle o da un elenco. Quindi fai clic su **[!UICONTROL OK]**.
+1. Decidi se scegliere da un intervallo di celle o da un elenco.
+1. Se selezioni da un elenco, fai clic su **[!UICONTROL Add]** per selezionare i punti di controllo da aggiungere al percorso di abbandono. Puoi definire tra 3 e 8 punti di controllo. (Cerca gli elementi disponibili facendo clic su **[!UICONTROL More]**.)
 
-   Per ulteriori informazioni sull’affinamento del filtro, consultate [Filtra dimensioni](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Spostarsi **[!UICONTROL Available Elements]** dalla colonna sinistra a destra selezionandoli e facendo clic sulla freccia arancione.
-1. Fate clic **[!UICONTROL OK]** tre volte, quindi fate clic **[!UICONTROL Finish]**.
+   Per ulteriori informazioni sul miglioramento del filtro, consulta [Dimension di filtro](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Sposta **[!UICONTROL Available Elements]** dalla colonna di sinistra a destra selezionandoli e facendo clic sulla freccia arancione.
+1. Fai clic tre volte su **[!UICONTROL OK]**, quindi fai clic su **[!UICONTROL Finish]**.
 
-   Il rapporto deve essere aggiornato ora.
+   Il rapporto dovrebbe essere aggiornato ora.
