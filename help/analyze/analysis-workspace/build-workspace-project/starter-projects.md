@@ -2,10 +2,12 @@
 description: Crea progetti Workspace basati su modelli standard o personalizzati.
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1384'
+feature: Concetti di base di Workspace
+role: Professionista, Amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1389'
 ht-degree: 100%
 
 ---
@@ -119,7 +121,7 @@ Questi modelli standard illustrano la terminologia e i passaggi comuni per lo sv
 >
 >Il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/it-IT/device-co-op/using/data/people.html).
 
-Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di:
+Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori univoci. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di:
 
 * Segmentare i dati relativi a USA/Canada rispetto al resto del mondo. Device Co-op attualmente è disponibile solo nel Nord America.
 * Affiancare e confrontare le metriche Persone e Visitatori unici.
@@ -137,7 +139,7 @@ Questo modello consente di visualizzare dati vitali delle prestazioni tra dispos
 
 * **Nota speciale per i membri del Co-op Graph**: mostra quale parte della suite di rapporti contiene i visitatori nelle aree in cui è supportato il grafico Co-op e le aree in cui non è supportato.
 * **Identificazione degli utenti**: mostra la frequenza con cui i visitatori del sito vengono identificati utilizzando metodi basati su Cross-Device Analytics.
-* **Misurazione della dimensione dell’audience**: mostra un confronto tra “Dispositivi unici” e “Persone”. La proporzione di questi due numeri è nota come “compressione tra dispositivi”, una metrica calcolata visibile in questo pannello. Questa metrica di compressione dipende da un’ampia gamma di fattori:
+* **Misurazione della dimensione dell’audience**: mostra un confronto tra “Dispositivi univoci” e “Persone”. La proporzione di questi due numeri è nota come “compressione tra dispositivi”, una metrica calcolata visibile in questo pannello. Questa metrica di compressione dipende da un’ampia gamma di fattori:
    * **Utilizzo del grafico Co-op o del grafico Private**: in generale, le organizzazioni che utilizzano Device Co-op godono di tassi di compressione migliori rispetto alle organizzazioni che utilizzano il grafico Private.
    * **Tasso di accesso**: più utenti accedono al sito, più Adobe è in grado di identificare e unire i visitatori tra i dispositivi. I siti con un tasso di accesso basso hanno anche tassi di compressione bassi.
    * **Copertura di Experience Cloud ID**: è possibile unire solo i visitatori con un ECID. Una percentuale inferiore di visitatori del sito che utilizza un ECID è correlata a tassi di compressione più bassi.
