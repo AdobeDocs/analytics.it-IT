@@ -1,27 +1,31 @@
 ---
-description: I dettagli delle sovrapposizioni vengono visualizzati quando passate il puntatore del mouse sopra una sovrapposizione di collegamento.
+description: I dettagli di sovrapposizione vengono visualizzati quando passi il cursore sopra una sovrapposizione collegamento.
 title: Dettagli della sovrapposizione
-topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
+feature: Activity Map
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 12%
 
 ---
 
 
 # Dettagli della sovrapposizione
 
-I dettagli delle sovrapposizioni vengono visualizzati quando passate il puntatore del mouse sopra una sovrapposizione di collegamento.
+I dettagli di sovrapposizione vengono visualizzati quando passi il cursore sopra una sovrapposizione collegamento.
 
-I dettagli delle sovrapposizioni mostrano i seguenti valori tracciati per quel collegamento:
+I dettagli di sovrapposizione mostrano i seguenti valori tracciati per quel collegamento:
 
 * Metrica
 * Valore non elaborato
-* Classifica
+* Classificazione
 * Valore percentuale
 * ID collegamento
 * Area geografica
-* Mostra nei collegamenti sulla pagina, rapporto
+* Mostra nel rapporto Collegamenti nella pagina
 
 ![](assets/overlay_details.png)
 
