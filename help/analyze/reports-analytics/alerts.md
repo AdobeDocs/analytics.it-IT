@@ -2,13 +2,14 @@
 description: Utilizzare gli avvisi in Reporting e analisi.
 subtopic: Alerts
 title: Avvisi
-topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: Avvisi
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 13%
+source-wordcount: '879'
+ht-degree: 12%
 
 ---
 
@@ -80,7 +81,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>Non più disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Avvisi di visitatori univoci basati sul tempo (giornalieri, settimanali, mensili, ecc. ) </p> <p> </p> </td> 
+   <td colname="col1"> <p>Avvisi di visitatori univoci basati sul tempo (giornalieri, settimanali, mensili, ecc. Visitatori univoci) </p> <p> </p> </td> 
    <td colname="col2"> <p>Creare avvisi per rapporti sui visitatori univoci su base oraria, giornaliera, settimanale e mensile. </p> </td> 
    <td colname="col3"> <p>Nella nuova Gestione avvisi, alcuni avvisi univoci per visitatori basati su tempo non saranno più supportati. Ad esempio, se in precedenza era possibile impostare un avviso settimanale per Visitatori giornalieri unici, sarà possibile impostare un numero giornaliero, settimanale, ecc. avvisi sulla metrica Visitatori unici in corso. (Analysis Workspace supporta una metrica Visitatori univoci, ma non giornaliera/settimanale/mensile/ecc.) Metriche Visitatori univoci.) </p> <p> </p> </td> 
   </tr> 
