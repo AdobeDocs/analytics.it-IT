@@ -1,10 +1,10 @@
 ---
 title: clearVars
-description: Cancella i valori delle variabili dall'oggetto di tracciamento.
+description: Cancella i seguenti valori dall'oggetto instance. Questa funzione rimuove gli elementi (li imposta come "non definiti").
 translation-type: tm+mt
-source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 2%
 
 ---
