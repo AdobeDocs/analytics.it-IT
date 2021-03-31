@@ -2,11 +2,13 @@
 description: Utilizza la visualizzazione mappa in un progetto Workspace.
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+feature: Visualizzazioni
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 99%
 
 ---
 
