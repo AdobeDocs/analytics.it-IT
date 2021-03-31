@@ -1,10 +1,14 @@
 ---
 description: Questa procedura descrive come nascondere o mostrare le intestazioni.
 title: Nascondere o mostrare le intestazioni
-topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
+feature: Report Builder
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '39'
+ht-degree: 25%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Questa procedura descrive come nascondere o mostrare le intestazioni.
 
-Fare clic **[!UICONTROL Hide/Show]** nel [!UICONTROL Pivot Layout] modulo o [!UICONTROL Custom Layout] nell&#39;output del [!UICONTROL Request Wizard: Step 2] modulo.
+Fare clic su **[!UICONTROL Hide/Show]** nell&#39;output [!UICONTROL Pivot Layout] o [!UICONTROL Custom Layout] nel modulo [!UICONTROL Request Wizard: Step 2].
 
 ![](assets/hide_show_header.png)
 
