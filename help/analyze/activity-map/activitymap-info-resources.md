@@ -1,23 +1,27 @@
 ---
-description: Accedete a ulteriori risorse di informazioni per Adobe Activity Map.
+description: Accedi a ulteriori risorse di informazioni per Adobe Activity Map.
 title: Risorse relative alla conoscenza
-topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
+feature: Activity Map
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 30%
 
 ---
 
 
 # Risorse relative alla conoscenza
 
-Accedete a ulteriori risorse di informazioni per Adobe Activity Map.
+Accedi a ulteriori risorse di informazioni per Adobe Activity Map.
 
-| Risorse di conoscenza | Dettagli |
+| Risorsa di conoscenza | Dettagli |
 |---|---|
-| [Aiuto di Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html) | Portale delle conoscenze per tutta la documentazione di Adobe Experience Cloud |
-| [Documentazione sulla Activity Map](/help/analyze/activity-map/activity-map.md) | Questa guida in linea per la Activity Map di Adobe Analytics |
+| [Aiuto di Experience Cloud](https://helpx.adobe.com/it/support/experience-cloud.html) | Portale delle conoscenze per tutta la documentazione di Adobe Experience Cloud |
+| [Documentazione di Activity Map](/help/analyze/activity-map/activity-map.md) | Aiuto online per Adobe Analytics Activity Map |
 | [Documentazione di Analytics](/help/landing/home.md) | Aiuto online per Adobe Analytics |
-| [KnowledgeBase](https://helpx.adobe.com/support/analytics.html) | Knowledgebase di ClientCare |
+| [KnowledgeBase](https://helpx.adobe.com/it/support/analytics.html) | knowledge base su ClientCare |
 | [Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics) | Forum utenti e community di ClientCare |
-| [Blog di Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/) | Ultimi blog di Adobe Analytics dai product manager |
+| [Blog Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/) | Ultimi blog di Adobe Analytics dai product manager |
