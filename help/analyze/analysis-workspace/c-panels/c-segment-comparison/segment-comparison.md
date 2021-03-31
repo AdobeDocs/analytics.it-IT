@@ -1,12 +1,14 @@
 ---
 title: Panoramica del pannello di confronto dei segmenti
 description: Scopri come utilizzare il pannello di confronto dei segmenti, parte del Segmento IQ di Analysis Workspace.
-keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1126'
-ht-degree: 100%
+keywords: Analysis Workspace, segmento IQ
+feature: Pannelli
+role: Business Practices, amministratore
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 99%
 
 ---
 
