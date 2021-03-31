@@ -1,24 +1,26 @@
 ---
 title: Tabella a forma libera
 description: Le tabelle a forma libera sono alla base dell’analisi dei dati in Workspace
+feature: Tabelle freeform
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: c53af8e7658b838bff53f02abc6ea6f7b570a34b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 49%
+source-wordcount: '514'
+ht-degree: 52%
 
 ---
 
 
 # Tabella a forma libera
 
-In  Analysis Workspace, una tabella freeform è la base per l&#39;analisi dei dati interattiva. You can drag and drop a combination of [components](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) into rows and columns to create a custom table for your analysis. Man mano che ciascun componente viene eliminato, la tabella viene aggiornata immediatamente per consentire di eseguire rapidamente l’analisi e l’analisi approfondita.
+In Analysis Workspace, una tabella a forma libera è la base per l’analisi dei dati interattivi. Puoi trascinare e rilasciare una combinazione di [componenti](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in righe e colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente in modo da poter eseguire rapidamente l’analisi e l’analisi approfondita.
 
 ![](assets/opening-section.png)
 
 ## Tabelle automatizzate
 
-Il modo più rapido per creare una tabella consiste nel rilasciare i componenti direttamente in un progetto vuoto, un pannello o una tabella a forma libera. Una tabella a forma libera verrà creata automaticamente nel formato consigliato. [Guardate l&#39;esercitazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html).
+Il modo più rapido per creare una tabella consiste nel rilasciare i componenti direttamente in un progetto o pannello vuoto o in una tabella a forma libera. Una tabella a forma libera verrà creata automaticamente in un formato consigliato. [Guarda il tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html).
 
 ![](assets/automated-table.png)
 
@@ -30,11 +32,11 @@ Se prima preferisci aggiungere diversi componenti alla tabella e quindi eseguire
 
 ## Interazioni tabella
 
-È possibile interagire con una tabella a forma libera e personalizzarla in vari modi:
+Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi:
 
 * **Righe**
    * È possibile inserire più righe in una singola schermata regolando la [densità di visualizzazione](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) del progetto.
-   * Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Fare clic sul numero accanto a &quot;Righe&quot; per visualizzare più righe in una pagina. Passate a un’altra pagina utilizzando la freccia della pagina nell’intestazione.
+   * Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Fai clic sul numero accanto a &quot;Righe&quot; per visualizzare più righe su una pagina. Passa a una pagina diversa utilizzando la freccia della pagina nell’intestazione.
    * Le righe possono essere suddivise per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona semplicemente più righe e quindi trascina il componente successivo sopra le righe selezionate. Scopri di più sulle [suddivisioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
    * Le righe possono essere [filtrate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=it-IT) per visualizzare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
@@ -45,12 +47,12 @@ Se prima preferisci aggiungere diversi componenti alla tabella e quindi eseguire
 
 ## Esportare i dati dalla tabella a forma libera
 
-Ulteriori informazioni su tutte le opzioni [di](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) esportazione dei dati per  Analysis Workspace.
+Ulteriori informazioni su tutti i dati [opzioni di esportazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it) per Analysis Workspace.
 
-* Fai clic con il pulsante destro del mouse > **[!UICONTROL Copy data to clipboard]** per esportare i dati di tabella visualizzati. Se si seleziona una tabella, questa opzione è **[!UICONTROL Copy selection to clipboard]** disponibile. Il tasto di scelta rapida **Ctrl+C** copia anche i dati selezionati.
-* Fai clic con il pulsante destro del mouse > **[!UICONTROL Download data as CSV]** per scaricare i dati della tabella visualizzata come CSV. Se si seleziona una tabella, questa opzione è **[!UICONTROL Download selection as CSV]** disponibile.
+* Fai clic con il pulsante destro del mouse > **[!UICONTROL Copy data to clipboard]** per esportare i dati della tabella visualizzati. Se si effettua una selezione di tabella, questa opzione indica **[!UICONTROL Copy selection to clipboard]**. Anche il tasto di scelta rapida **Ctrl+C** copia i dati selezionati.
+* Fai clic con il pulsante destro del mouse > **[!UICONTROL Download data as CSV]** per scaricare i dati della tabella visualizzata come CSV. Se si effettua una selezione di tabella, questa opzione indica **[!UICONTROL Download selection as CSV]**.
 * Fai clic con il pulsante destro del mouse > **[!UICONTROL Project > Download items as CSV]** per esportare fino a 50.000 elementi dimensionali per la dimensione selezionata.
 
-Ulteriori informazioni su tutte le opzioni [di](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) esportazione dei dati per  Analysis Workspace.
+Ulteriori informazioni su tutti i dati [opzioni di esportazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) per Analysis Workspace.
 
 ![](assets/export-options.png)
