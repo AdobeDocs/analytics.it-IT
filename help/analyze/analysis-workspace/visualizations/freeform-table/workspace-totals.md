@@ -1,11 +1,13 @@
 ---
 description: Modalità di calcolo dei totali in Workspace.
 title: Totali in Workspace
+feature: Tabelle freeform
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +27,9 @@ In **[!UICONTROL Column Settings]** (Impostazioni colonna) sono disponibili le o
 
 ![](assets/column-settings-total.png)
 
-## Impostazioni Totale riga statica {#static-row-total}
+## Impostazioni Totale riga statica  {#static-row-total}
 
-I totali della [riga statica](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) si comportano in modo diverso e sono controllati in **[!UICONTROL Row Settings]** (Impostazioni riga).
+I totali della [riga statica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=it-IT) si comportano in modo diverso e sono controllati in **[!UICONTROL Row Settings]** (Impostazioni riga).
 
 * **[!UICONTROL Show sum of current rows as the total]** (Mostra somma delle righe selezionate come totale): mostra una somma lato client delle righe nella tabella, il che significa che il totale **non** deduplica metriche quali visite o visitatori.
 * **[!UICONTROL Show Grand Total]** (Mostra totale complessivo): mostra una somma lato server, il che significa che il totale deduplicherà le metriche quali visite o visitatori.
