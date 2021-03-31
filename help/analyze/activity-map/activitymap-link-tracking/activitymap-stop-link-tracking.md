@@ -1,17 +1,21 @@
 ---
-description: Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nella legacy ClickMap.
+description: Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o ClickMap legacy.
 title: Interrompere il tracciamento dei collegamenti
-topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
+feature: Activity Map
+role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
 
 # Interrompere il tracciamento dei collegamenti
 
-Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nella legacy ClickMap.
+Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o ClickMap legacy.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -23,7 +27,7 @@ Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nel
  <tbody> 
   <tr> 
    <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Rimuovete il contenuto seguente dal file Appmeasurement.js: 
+   <td colname="col2"> Rimuovi il seguente contenuto dal file Appmeasurement.js: 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -39,8 +43,8 @@ Passaggi per arrestare il tracciamento dei collegamenti nella Activity Map o nel
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> ClickMap (già Visitor ClickMap) </td> 
-   <td colname="col2"> <p>Imposta la variabile <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> su false (questa è l’impostazione predefinita). La sintassi è la seguente: 
+   <td colname="col1"> ClickMap (precedentemente ClickMap visitatore) </td> 
+   <td colname="col2"> <p>Imposta la variabile <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> su false (questa è l'impostazione predefinita). La sintassi è la seguente: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
