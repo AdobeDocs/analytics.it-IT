@@ -5,7 +5,7 @@ uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practices, amministratore
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -73,47 +73,45 @@ Puoi personalizzare il parametro Regione per un collegamento (l’impostazione p
 Di seguito è riportato un esempio di HTML utilizzando l’attributo di ID regione predefinito &quot;id&quot;.
 
 ```
-<div id="content"> 
-  <div id="breaking_news"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
- <div id="todays_top_headlines"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
+<div id="content">
+  <div id="breaking_news">
+    <a href="breaking-news.html">...</a>
+  </div>
+  <div id="todays_top_headlines">
+    <a href="breaking-news.html">...</a>
+  </div>
 ```
 
-Se lo desideri, puoi assegnare tag agli elementi con un identificatore di stringa arbitrario, in questo caso &quot; lpos&quot;, e quindi aggiungere attributi con il nome &quot;lpos&quot;.
+Se lo desideri, puoi assegnare tag agli elementi con un identificatore di stringa arbitrario, in questo caso &quot;lpos&quot;, e quindi aggiungere attributi con il nome &quot;lpos&quot;.
 
 ```
 <script language="JavaScript" type="text/javascript">
-s.ActivityMap.regionIDAttribute="lpos";
-</script> 
-   
-<div id="nav" lpos="navbar"> 
-  <ul> 
-     <li> Menu Category A 
-    <ul> 
-      <li><a href="">Menu Item A 1</a> 
-      <li><a href="">Menu Item A 2</a> 
-     </ul> 
-    </li> 
-     <li> Menu Category B 
-     <ul> 
-      <li><a href="">Menu Item B 1</a>  
-      <li><a href="">Menu Item B 2</a> 
-  
-   </ul> 
-</ul> 
+s.ActivityMap.regionIDAttribute = "lpos";
+</script>
+<div id="nav" lpos="navbar">
+  <ul>
+    <li>Menu Category A
+      <ul>
+        <li><a href="">Menu Item A 1</a>
+        <li><a href="">Menu Item A 2</a>
+      </ul>
+    </li>
+    <li>Menu Category B
+      <ul>
+        <li><a href="">Menu Item B 1</a>
+        <li><a href="">Menu Item B 2</a>
+      </ul>
+    </li>
+  </ul>
 </div> 
   
-<div id="content" > 
-  <div id="breaking_news" lpos="breaking_news> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
- <div id="todays_top_headlines"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
-</div>
+<div id="content">
+  <div id="breaking_news" lpos="breaking_news>
+    <a href="breaking-news.html">...</a>
+  </div>
+  <div id="todays_top_headlines">
+    <a href="breaking-news.html">...</a>
+  </div>
 ```
 
 ## Variabili di configurazione {#configuration-vars}
@@ -137,34 +135,85 @@ Tieni presente che queste variabili sono elencate solo a scopo di riferimento. A
   <tr> 
    <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
-    </code> </td> 
-   <td colname="col3"> Funzione che riceve l'oggetto HTMLElement selezionato e deve restituire un valore stringa che rappresenta <b>il collegamento selezionato</b>. <p>Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </p> </td> 
-  </tr> 
-  <tr> 
+    <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags</code><br/>
+    <code>function(clickedElement)&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;linkId;</code><br/>
+    <code>&nbsp;&nbsp;if&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A')&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title');</code><br/>
+    <code>&nbsp;&nbsp;}</code><br/>
+    <code>&nbsp;&nbsp;return&nbsp;linkId;</code><br/>
+    <code>}</code> </td>
+   <td colname="col3"> Funzione che riceve l'oggetto HTMLElement selezionato e deve restituire un valore stringa che rappresenta <b>il collegamento selezionato</b>. <br/>
+      <br/>
+     Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </td>
+  </tr>
+  <tr>
    <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
-    </code> </td> 
-   <td colname="col3"> Funzione che riceve l'elemento HTMLElement selezionato e deve restituire un valore stringa che rappresenta <b>l'area in cui è stato trovato il collegamento quando si fa clic su</b>. <p>Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </p> </td> 
-  </tr> 
-  <tr> 
+        <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region</code><br/>
+    <code>function(clickedElement)&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;regionId,&nbsp;className;</code><br/>
+    <code>&nbsp;&nbsp;while&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement&nbsp;=&nbsp;clickedElement.parentNode))&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(regionId)&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;regionId.toLowerCase();</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;}</code><br/>
+    <code>&nbsp;&nbsp;}</code><br/>
+    <code>}</code> </td> 
+   <td colname="col3"> Funzione che riceve l'elemento HTMLElement selezionato e deve restituire un valore stringa che rappresenta <b>l'area in cui è stato trovato il collegamento quando si fa clic su</b>. <br/>
+      <br/>
+     Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </td>
+  </tr>
+  <tr>
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
-    </code> </td> 
-   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo del collegamento. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map. </p> </td> 
-  </tr> 
-  <tr> 
+     <code>//&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class</code><br/>
+    <code>&lt;style&gt;</code><br/>
+    <code>.linkExcluded&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;display:&nbsp;block;</code><br/>
+    <code>&nbsp;&nbsp;height:&nbsp;1px;</code><br/>
+    <code>&nbsp;&nbsp;left:&nbsp;-9999px;</code><br/>
+    <code>&nbsp;&nbsp;overflow:&nbsp;hidden;</code><br/>
+    <code>&nbsp;&nbsp;position:&nbsp;absolute;</code><br/>
+    <code>&nbsp;&nbsp;width:&nbsp;1px;</code><br/>
+    <code>}</code><br/>
+    <code>&lt;/style&gt;</code><br/>
+    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;</code><br/>
+    <code>&lt;/a&gt;</code><br/>
+    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt;</code><br/>
+    <code>&lt;/a&gt;</code><br/>
+    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt;</code><br/>
+    <code>&lt;/a&gt;</code><br/>
+    <code>&lt;script&gt;</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
+    <code>&nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2';</code><br/>
+    <code>&lt;/script&gt;</code> </td> 
+   <td colname="col3"> Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo del collegamento. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map. </td>
+  </tr>
+  <tr>
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
-    </code> </td> 
-   <td colname="col3"> <p>Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo della regione. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map. </p> </td> 
-  </tr> 
- </tbody> 
+    <code>//&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap</code><br/>
+    <code>&lt;div&nbsp;id="links-included"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
+    <code>&lt;/div&gt;</code><br/>
+    <code>&lt;div&nbsp;id="links-excluded"&gt;&nbsp;</code><br/>
+    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
+    <code>&lt;/div&gt;</code><br/>
+    <code>&lt;script&gt;</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
+    <code>&nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded';</code><br/>
+    <code>&lt;/script&gt;</code> </td> 
+   <td colname="col3"> Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo della regione. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map. </td>
+  </tr>
+ </tbody>
 </table>
