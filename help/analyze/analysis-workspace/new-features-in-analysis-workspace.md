@@ -4,18 +4,26 @@ keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
 feature: Concetti di base di Workspace
 role: Professionista, Amministratore
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8121'
-ht-degree: 99%
+source-wordcount: '8216'
+ht-degree: 98%
 
 ---
-
 
 # Scopri le novità di Analysis Workspace
 
 Per accedere alle note sulla versione di Adobe Experience Cloud nel suo complesso, consulta [questa pagina](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it-IT).
+
+## Marzo 2021
+
+| Funzione | Data target | Descrizione |
+| --- | --- | --- |
+| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 marzo 2021 | La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni [!UICONTROL Analysis Workspace] e i relativi componenti per l’utente. [!UICONTROL User preferences] si applica a tutti i nuovi progetti e pannelli. <br>**Nota:** le seguenti impostazioni sono state spostate nella  [!UICONTROL User preferences] pagina:<ul><li>Impostazioni dei rapporti: Separatore delle migliaia (ora denominato _Formato numero_)</li><li>Impostazioni dei rapporti: Separatore CSV</li><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: Pannello vuoto _Avvia nuovi progetti con questa opzione del pannello_</li></ul> |
+| [!UICONTROL Histogram Smart Bucket Prediction] | 25 marzo 2021 | [!UICONTROL Histogram Smart Bucket Prediction] aiuta gli istogrammi con metriche ad alta cardinalità identificando automaticamente la larghezza e il numero di bucket giusti per la distribuzione dei dati. Per le metriche a bassa cardinalità, la visualizzazione si comporta come in precedenza. |
+
 
 ## Febbraio 2021
 
