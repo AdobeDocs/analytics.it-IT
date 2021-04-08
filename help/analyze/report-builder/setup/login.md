@@ -3,21 +3,21 @@ description: Scopri come accedere a Report Builder utilizzando il tuo account di
 title: Come accedere al Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 7%
 
 ---
-
 
 # Accesso di Report Builder
 
 >[!IMPORTANT]
 >
->La versione 5.6.47 e successive di Report Builder supporta solo l’accesso di Experience Cloud e non supporta gli accessi legacy come l’accesso Single Sign-On di Site Catalyst o Standard. Entro il 30 aprile 2021, tutti gli utenti del Report Builder devono aggiornare il componente aggiuntivo Report Builder alla versione 5.6.47 o successiva, che include un aggiornamento critico del processo di accesso.
+>La versione 5.6.47 e successive di Report Builder supporta solo l’accesso di Experience Cloud e non supporta gli accessi legacy come l’accesso Single Sign-On di Site Catalyst o Standard. **Entro il 22 luglio 2021, tutti gli utenti del Report Builder devono aggiornare il componente aggiuntivo Report Builder alla versione 5.6.47 o successiva, che include un aggiornamento critico del processo di accesso.**
 
 Per accedere al Report Builder, utilizza il tuo account di accesso Experience Cloud.
 
@@ -43,4 +43,3 @@ Per accedere al Report Builder
    * Fai doppio clic su una richiesta in Excel.
 
 1. Compila i campi nella pagina [!UICONTROL Login], quindi fai clic su **[!UICONTROL OK]**.
-
