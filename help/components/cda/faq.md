@@ -1,14 +1,14 @@
 ---
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
-
 
 # Domande frequenti
 
@@ -97,3 +97,11 @@ Se desideri cambiare i metodi di identificazione CDA, rivolgiti all’Account Ma
 ## In che modo Adobe gestisce i limiti univoci per un eVar utilizzato nelle cuciture basate sul campo?
 
 CDA richiama gli elementi dimensionali eVar prima che siano ottimizzati per il reporting. Non devi preoccuparti di limiti unici per gli scopi di CDA. Tuttavia, se hai provato a utilizzare tale proprietà/eVar in un progetto Workspace, puoi comunque visualizzare l’elemento di dimensione [(Basso traffico)](/help/technotes/low-traffic.md) .
+
+## Quante suite di rapporti della mia azienda possono essere abilitate per CDA?
+
+È possibile abilitare più suite di rapporti, tuttavia ogni suite di rapporti aggiuntiva aumenterà il tempo di provisioning complessivo se vengono richieste più suite di rapporti contemporaneamente. CDA non unisce le suite di rapporti. Ogni suite di rapporti abilitata per CDA deve essere di natura multi-dispositivo (contenente dati provenienti da più superfici come web per desktop, web per dispositivi mobili, app per dispositivi mobili, ecc.)
+
+## Se la mia organizzazione Experience Cloud (anche nota come organizzazione IMS) ha più aziende in diverse regioni, posso abilitare CDA per tutte?
+
+No. Per la stessa organizzazione, solo una regione può avere CDA abilitato.
