@@ -1,18 +1,18 @@
 ---
-description: Scopri tutto ciò che puoi fare con  Advertising Analytics in questa guida dettagliata, comprese le autorizzazioni necessarie, e le dimensioni e metriche disponibili.
-title: Guida per  Advertising Analytics
+description: Scopri tutto ciò che puoi fare con Advertising Analytics in questa guida dettagliata, comprese le autorizzazioni necessarie, e le dimensioni e le metriche disponibili.
+title: Guida ad Advertising Analytics
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 translation-type: tm+mt
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 97%
+source-wordcount: '1253'
+ht-degree: 93%
 
 ---
 
+# Guida ad Advertising Analytics
 
-# Una guida per  Advertising Analytics
-
-Advertising Analytics consente di vedere affiancati i dati Paid Search di Google e di Bing in Adobe Analytics. In precedenza, qualsiasi dato di Google AdWords/DFA o Microsoft Bing Ads doveva essere visualizzato in Adobe Advertising Cloud (AMO) o su Google/Bing. Ora avrai accesso ai seguenti dati in Adobe Analytics: impression, clic, costi, punteggio di qualità e posizione media direttamente dai motori di ricerca, così come istanze AMO ID (Istanze di clic).
+Advertising Analytics consente di vedere affiancati i dati Paid Search di Google e di Bing in Adobe Analytics. In precedenza, qualsiasi dato di Google AdWords/DFA o Microsoft Bing Ads doveva essere visualizzato in Adobe Advertising Cloud (AMO) o su Google/Bing. Ora otterrai i seguenti dati all’interno di Adobe Analytics: Impression, clic, dati dei costi direttamente dai motori di ricerca e dalle istanze AMO ID (fare clic su Istanze). Il punteggio di qualità e le posizioni medie non saranno più raccolti in quanto Google ha depericato queste metriche nel settembre 2019.
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics aggiunge le metriche e le dimensioni seguenti ad Analysis 
 | Impression AMO | Il numero di ad impression riportato dal motore di ricerca. |
 | Clic AMO | Il numero di clic sugli annunci riportato dal motore di ricerca. |
 | Costo AMO | Il costo di ogni parola chiave/annuncio riportato dal motore di ricerca. |
-| Media della posizione | Una metrica calcolata che riflette la posizione media degli annunci segnalata dal motore di ricerca. |
-| Media del punteggio di qualità | Una metrica calcolata che riflette il punteggio medio di qualità riportato dal motore di ricerca. |
