@@ -2,20 +2,20 @@
 description: Origini dati supporta le variabili seguenti durante l'elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 title: Elaborazione completa
 topic: Sviluppatore e implementazione
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 81%
+source-wordcount: '726'
+ht-degree: 80%
 
 ---
-
 
 # Elaborazione completa
 
 >[!IMPORTANT]
 >
->Adobe consiglia ai clienti di utilizzare l’ [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati a elaborazione completa. Adobe prevede di rendere obsolete in futuro le origini dati a elaborazione completa. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe consiglia ai clienti di utilizzare l’ [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati a elaborazione completa. Adobe prevede di rendere obsolete le origini dati per l’elaborazione completa il 31 luglio 2021. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Origini dati supporta le variabili seguenti durante l&#39;elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 
@@ -256,4 +256,3 @@ La tabella seguente contiene le variabili di traffico inserite automaticamente q
   </tr> 
  </tbody> 
 </table>
-
