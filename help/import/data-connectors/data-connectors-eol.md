@@ -1,14 +1,14 @@
 ---
 description: Scopri quando e perché i connettori dati di Analytics termineranno.
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '533'
 ht-degree: 12%
 
 ---
-
 
 # Terminazione di Adobe Data Connectors
 
@@ -81,7 +81,7 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | Lyris HQ | Obsolescenza |
 | MaritzCX (V 2.0) | Obsolescenza |
 | Merkle | Obsolescenza |
-| Integrazione ufficiale Oracle Eloqua | Obsolescenza |
+| Integrazione ufficiale Oracle Eloqua | Migrazione a Exchange |
 | optivo broadmail (Episerver) | Migrazione a Exchange |
 | Qualtrics v2 | Migrazione a Exchange |
 | Responsys 2.0 | Obsolescenza |
