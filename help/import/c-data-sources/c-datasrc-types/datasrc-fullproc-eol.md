@@ -3,7 +3,7 @@ title: Terminazione dell'elaborazione completa delle origini dati
 description: Motivi della fine del ciclo di vita e confronti tra API di inserimento dati in blocco e Origini dati di elaborazione completa.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 27%
@@ -65,8 +65,8 @@ Per ulteriori dettagli, vedere il seguente confronto dei valori dei campi dispon
 | linkName | linkName | Nome del collegamento. |
 | linkType | linkType | Tipo di collegamento. I valori supportati includono: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF del collegamento. |
-| Ad esempio, list2. | Non supportati | Un elenco delimitato di valori che vengono passati in una variabile e quindi segnalati come voci di riga individuali ai fini del reporting. |
-| marketingCloudVisitorID | Non supportati | Marketing Cloud ID. Consulta [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) e il servizio ID visitatore del Marketing Cloud. |
+| Ad esempio, list2. | Non supportati | Un elenco delimitato di valori che vengono passati in una variabile e quindi segnalati come voci di riga individuali per la generazione di rapporti |
+| marketingCloudVisitorID | Non supportati | Marketing Cloud ID. Consulta [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) e il servizio ID visitatore del Marketing Cloud |
 | Non supportati | charSet | Il set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. |
 | Non supportati | clickAction | Identificatore oggetto per mappa clic visitatore (oid). |
 | Non supportati | clickActionType | Identificatore oggetto per mappa clic visitatore (oidt). |
@@ -76,7 +76,7 @@ Per ulteriori dettagli, vedere il seguente confronto dei valori dei campi dispon
 | Non supportati | clickTag | Nome tag oggetto per mappa clic visitatore (ot). |
 | Non supportati | scXmlVer | Numero versione richiesta XML rapporti di marketing (ad esempio 1.0). |
 | Non supportati | timezone | Offset fuso orario del visitatore da GMT in ore (ad esempio, -8). |
-| pageName | pageName | Nome della pagina. |
+| pageName | pageName | Nome della pagina |
 | pageType | pageType | Tipo di pagina (ad esempio, &quot;Pagina di errore&quot;). |
 | pageURL | pageURL | URL della pagina (ad esempio, https://www.example.com/index.html). |
 | plugins | plugins | Elenco separato da punto e virgola dei nomi dei plug-in del browser. |
