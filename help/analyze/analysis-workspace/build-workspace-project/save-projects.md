@@ -5,10 +5,10 @@ feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 68%
+source-wordcount: '442'
+ht-degree: 69%
 
 ---
 
@@ -57,9 +57,14 @@ Per i **nuovi** progetti che non sono mai stati salvati, non è possibile recupe
 
 ## Apri la versione precedente {#previous-version}
 
+>[!NOTE]
+>
+>Le versioni precedenti dei progetti sono attualmente in versione limitata.
+
 Per aprire una versione precedente di un progetto:
 
-1. Vai a Progetto > Apri versione precedente
-1. Rivedi l’elenco delle versioni precedenti disponibili. Vengono fornite le marche temporali e l’editor, oltre alle note se sono state aggiunte al momento del salvataggio dell’editor. Le versioni senza note sono conservate per 90 giorni; le versioni con note sono memorizzate per 1 anno.
-1. Selezionare una versione precedente e fare clic su Carica.
-1. La versione precedente verrà caricata con una notifica. La versione precedente diventerà la versione salvata corrente del progetto solo dopo aver fatto clic su Salva. Se ti allontani dalla versione caricata e torni, verrà visualizzata l’ultima versione salvata del progetto.
+1. Vai a **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**
+1. Rivedi l’elenco delle versioni precedenti disponibili.
+   [!UICONTROL Timestamp] e  [!UICONTROL Editor] vengono visualizzati, oltre a  [!UICONTROL Notes] se sono stati aggiunti al momento del  [!UICONTROL Editor] salvataggio. Le versioni senza note sono conservate per 90 giorni; le versioni con note sono memorizzate per 1 anno.
+1. Seleziona una versione precedente e fai clic su **[!UICONTROL Load]**.
+La versione precedente viene quindi caricata con una notifica. La versione precedente diventa la versione salvata corrente del progetto solo dopo aver fatto clic su **[!UICONTROL Save]**. Se ti allontani dalla versione caricata e torni, verrà visualizzata l’ultima versione salvata del progetto.
