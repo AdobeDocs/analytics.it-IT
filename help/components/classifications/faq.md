@@ -1,14 +1,14 @@
 ---
 title: Domande frequenti sulle classificazioni
 description: Domande frequenti sull’utilizzo delle classificazioni.
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 translation-type: tm+mt
-source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 87%
+source-wordcount: '365'
+ht-degree: 81%
 
 ---
-
 
 # Domande frequenti sulle classificazioni
 
@@ -35,7 +35,9 @@ Sì, *tuttavia in questo modo ogni elemento dimensionale viene conteggiato come 
 
 ## Come si classificano i valori che contengono caratteri speciali?
 
-In genere non è consigliabile utilizzare caratteri speciali come virgole o virgolette doppie nei rapporti. Tuttavia, in alcuni casi è necessario utilizzarli. Se i valori di reporting contengono caratteri che si sceglie di classificare, procedere come segue:
+L’utilizzo di spazi vuoti iniziali e finali nei dati di classificazione e nei dati di hit non è supportato perché Adobe Analytics troncherà i caratteri vuoti da questi dati.
+
+In genere non è consigliabile utilizzare caratteri speciali come virgole o virgolette nei rapporti. Tuttavia, in alcuni casi è necessario utilizzarli. Se i valori dei rapporti contengono tali caratteri che scegli di classificare, procedi come segue:
 
 1. Accedi ad Adobe Analytics e seleziona **[!UICONTROL Admin]** > **[!UICONTROL Classification importer]**.
 2. Fai clic sulla scheda **[!UICONTROL Browser export]**.
@@ -46,4 +48,4 @@ In genere non è consigliabile utilizzare caratteri speciali come virgole o virg
 
 ## Cosa sono le classificazioni numeriche 2?
 
-Le classificazioni numeriche 2 consentono di classificare gli elementi dimensionali come metriche basate sul tempo. Sono stati ritirati dall’interfaccia utente di Adobe Analytics  nel luglio 2019.
+Le classificazioni numeriche 2 consentono di classificare gli elementi dimensionali come metriche basate sul tempo. Sono stati ritirati dall’interfaccia utente di Adobe Analytics a luglio 2019.
