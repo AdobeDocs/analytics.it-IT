@@ -2,12 +2,13 @@
 description: Scopri le diverse opzioni di salvataggio, tra cui salvataggio automatico, salva con nome e salva come modello.
 title: Salvare i progetti
 feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+role: Business Practitioner, Administrator
+exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +23,7 @@ Per salvare le modifiche apportate a un progetto, vai al menu **[!UICONTROL Proj
 | Azione | Descrizione |
 |---|---| 
 | **[!UICONTROL Save]** | Salva le modifiche apportate al progetto. Se il progetto è condiviso, i destinatari del progetto visualizzeranno anche le modifiche. Quando salvi il progetto per la prima volta, viene richiesto di assegnare al progetto un nome, una descrizione (facoltativa) e di aggiungere tag (facoltativi). |
+| **[!UICONTROL Save with notes]** | Prima di salvare il progetto, aggiungi note sulle modifiche apportate al progetto. Le note verranno memorizzate con la versione del progetto e sono disponibili per tutti gli editor in Progetto > Apri versione precedente. |
 | **[!UICONTROL Save as]** | Crea un duplicato del progetto. Il progetto originale non subirà modifiche. |
 | **[!UICONTROL Save as template]** | Salva il progetto come [modello personalizzato](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) che diventa disponibile per la tua organizzazione in **[!UICONTROL Project > New]** |
 
@@ -52,3 +54,12 @@ Per i progetti **esistenti**, una volta tornato in Workspace l’utente visualiz
 ![](assets/project-recovery.png)
 
 Per i **nuovi** progetti che non sono mai stati salvati, non è possibile recuperare le modifiche non salvate.
+
+## Apri la versione precedente {#previous-version}
+
+Per aprire una versione precedente di un progetto:
+
+1. Vai a Progetto > Apri versione precedente
+1. Rivedi l’elenco delle versioni precedenti disponibili. Vengono fornite le marche temporali e l’editor, oltre alle note se sono state aggiunte al momento del salvataggio dell’editor. Le versioni senza note sono conservate per 90 giorni; le versioni con note sono memorizzate per 1 anno.
+1. Selezionare una versione precedente e fare clic su Carica.
+1. La versione precedente verrà caricata con una notifica. La versione precedente diventerà la versione salvata corrente del progetto solo dopo aver fatto clic su Salva. Se ti allontani dalla versione caricata e torni, verrà visualizzata l’ultima versione salvata del progetto.
