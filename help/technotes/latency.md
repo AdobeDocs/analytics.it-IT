@@ -1,57 +1,60 @@
 ---
-description: Le seguenti informazioni possono essere utili per risolvere i problemi di latenza della suite di rapporti nei dati di Analytics.
-keywords: missing data;slow
+description: Le seguenti informazioni possono essere utili per risolvere eventuali problemi di latenza della suite di rapporti nei dati di Analytics.
+keywords: dati mancanti;lento
 subtopic: Current data
-title: Disponibilità e latenza dei dati
-topic: Reports
+title: Disponibilità dei dati e latenza
+topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
+exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 translation-type: tm+mt
-source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 0%
 
 ---
 
+# Disponibilità dei dati e latenza in Adobe Analytics
 
-# Disponibilità e latenza dei dati in Adobe Analytics
+In genere i dati completi vengono visualizzati nei rapporti 2 ore dopo la raccolta. Le seguenti informazioni possono essere utili per risolvere eventuali problemi di latenza della suite di rapporti nei dati di Analytics.
 
-In genere è previsto che i dati completi vengano visualizzati nei report 2 ore dopo la raccolta dei dati. Le seguenti informazioni possono essere utili per risolvere i problemi di latenza della suite di rapporti nei dati di Analytics.
+## Informazioni sulla gestione in batch dei dati
 
-## Informazioni sulla gestione dei batch di dati
+Ogni server di raccolta dati acquisisce ed elabora dati di analisi non elaborati e quindi carica i dati in batch su base oraria per il reporting. Il processo di trasferimento richiede in genere 30 minuti, quindi la latenza normale per il traffico che si verifica direttamente al termine del processo di caricamento precedente è di circa 90 minuti (60 minuti fino al successivo caricamento batch, quindi 30 minuti per il trasferimento e la visualizzazione dei file). Per il traffico che si verifica direttamente prima di un caricamento, la latenza dei dati potrebbe essere breve fino a 30 minuti (0 minuti fino a quando non si verifica il successivo caricamento batch, quindi 30 minuti per il trasferimento e la visualizzazione dei file).
 
-Ogni server di raccolta dati acquisisce ed elabora dati di analisi non elaborati, quindi carica i dati in batch su base oraria per il reporting. Il processo di trasferimento richiede in genere 30 minuti, pertanto la latenza normale per il traffico che si verifica direttamente dopo il completamento del processo di caricamento precedente è di circa 90 minuti (60 minuti fino al successivo caricamento batch, quindi 30 minuti per il trasferimento e la visualizzazione dei file). Per il traffico che si verifica direttamente prima di un caricamento, la latenza dei dati potrebbe essere di soli 30 minuti (0 minuti fino al successivo caricamento batch, 30 minuti per il trasferimento e la visualizzazione dei file).
+Se necessario, l’Assistenza clienti Adobe può abilitare il caricamento di dati in batch da 30 minuti (anziché ogni ora) per le suite di rapporti più utilizzate.
 
-Se necessario, l&#39;Assistenza clienti Adobe può abilitare il caricamento di dati in batch di 30 minuti (anziché ogni ora) per le suite di rapporti più utilizzate.
+## Contribuenti alla latenza
 
-## Contributori alla latenza
-
-La latenza è un ritardo superiore alle 2 ore che normalmente i server di raccolta dati devono trascorrere per elaborare completamente i dati. Non incide sulla raccolta dei dati; i dati vengono ancora raccolti per un&#39;implementazione di lavoro, indipendentemente dalla latenza di una suite di rapporti. La sua gravità (la corrente dei dati) e la lunghezza (il tempo necessario per risolverli) possono variare notevolmente. In genere è limitata a una singola suite di rapporti.
+La latenza è un ritardo superiore alle 2 ore tipiche necessarie ai server di raccolta dati per elaborare completamente i dati. Non incide sulla raccolta dei dati; i dati vengono ancora raccolti per un’implementazione funzionante, indipendentemente dalla latenza di una suite di rapporti. La sua gravità (la corrente dei dati) e la sua lunghezza (il tempo necessario per risolverli) possono variare notevolmente. In genere è limitato a una singola suite di rapporti.
 
 La latenza è causata da una delle seguenti categorie generali:
 
-* **Picco di traffico imprevisto:** Questo tipo di latenza si verifica quando più dati vengono inviati a una suite di rapporti di quanto sia stato precedentemente impegnato o previsto. È la causa più comune di latenza.
-* **Problemi hardware normali:** Adobe utilizza strategie all’avanguardia per la gestione e il monitoraggio dei centri dati, la ridondanza dei dati e l’affidabilità dell’hardware. L&#39;hardware viene aggiornato regolarmente e insieme alle finestre di manutenzione pubblicate. La manutenzione di emergenza dell&#39;hardware guasto può richiedere un arresto necessario e temporaneo nell&#39;elaborazione dei dati (non nella raccolta dei dati) in quanto l&#39;hardware sostitutivo viene portato online. Questo arresto temporaneo dell&#39;elaborazione può determinare una latenza notevole.
-* **Dati anormali:** I pattern di dati innaturali, come visite insolitamente lunghe causate da un bot o crawler, possono aumentare temporaneamente alcuni carichi di elaborazione che determinano latenza.
+* **Picco di traffico imprevisto:** questo tipo di latenza si verifica quando vengono inviati più dati a una suite di rapporti di quanti siano stati impegnati o previsti per contratto. È la causa più comune di latenza.
+* **Problemi hardware normali:** Adobe utilizza strategie all’avanguardia per la gestione e il monitoraggio dei centri dati, la ridondanza dei dati e l’affidabilità dell’hardware. L&#39;hardware viene aggiornato regolarmente e insieme alle finestre di manutenzione pubblicate. La manutenzione di emergenza dell&#39;hardware guasto può richiedere un arresto necessario e temporaneo nell&#39;elaborazione dei dati (non nella raccolta dei dati) in quanto l&#39;hardware sostitutivo viene portato online. Questo blocco temporaneo dell&#39;elaborazione può causare una latenza notevole.
+* **Dati anormali:** i pattern di dati non naturali, come le visite insolitamente lunghe causate da un bot o da un crawler, possono aumentare temporaneamente alcuni carichi di elaborazione che determinano latenza.
 
-## Funzioni che dipendono dalla latenza
+## Funzioni dipendenti dalla latenza
 
 Alcune funzionalità di Adobe Experience Cloud offrono una quantità innata di latenza oltre ai tempi di elaborazione standard.
 
-* Analytics for Target (A4T) richiede un tempo di latenza supplementare di 5-10 minuti per consentire la memorizzazione dei dati raccolti da entrambe le piattaforme nello stesso hit.
-* I dati con marca temporale richiedono un ulteriore tempo a causa dei diversi server su cui vengono elaborati questi dati. Gli hit con marca temporale ricevuti in tempo reale o in prossimità di essi possono richiedere fino a 15 minuti. Gli hit ricevuti con marca temporale di ieri possono richiedere fino a 2 ore. Gli hit più vecchi possono richiedere più tempo, aumentando ogni giorno fino a un massimo di circa 24 ore.
+* Analytics for Target (A4T) richiede una latenza aggiuntiva di 5-10 minuti per consentire la memorizzazione dei dati raccolti da entrambe le piattaforme nello stesso hit.
+* I dati con marca temporale richiedono un tempo aggiuntivo a causa dei diversi server su cui vengono elaborati. Gli hit con marca temporale ricevuti in tempo reale o in prossimità di essi possono richiedere fino a 15 minuti. Gli hit ricevuti con una marca temporale di ieri possono richiedere fino a 2 ore. Gli hit più vecchi possono richiedere più tempo, aumentando ogni giorno fino a un tetto di circa 24 ore.
 
-## Modalità per attenuare o prevenire la latenza
+## Modi per attenuare o prevenire la latenza
 
-Esistono diverse strategie per evitare latenza o ridurre il tempo di recupero quando si verifica:
+Esistono diverse strategie per evitare la latenza o ridurre il tempo di recupero quando si verifica:
 
-* **Notifica ad Adobe i picchi di traffico previsti:** Anche se è impossibile prevedere ogni picco di traffico al tuo sito, ci possono essere casi in cui si prevede di ricevere un aumento significativo del traffico. Alcuni esempi includono un periodo di vacanza particolarmente positivo, o poco dopo un push di grandi dimensioni della campagna. In questi casi, Adobe offre alla tua organizzazione un modo per informarci degli aumenti di traffico previsti, in modo da poter allocare ulteriori risorse di elaborazione alla tua suite di rapporti. Consultate [Pianificare un picco](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) di traffico nella guida utente per l&#39;amministratore per apprendere come notificare ad Adobe l&#39;aumento del traffico.
-* **Considerate l&#39;elaborazione del carico durante l&#39;attivazione delle nuove funzioni:** Alcune funzioni richiedono più elaborazione di altre. Più funzioni sono abilitate in una suite di rapporti, più difficile è recuperare dalla latenza. Quando attivi le funzionalità in una suite di rapporti, tieni presente le seguenti funzionalità che aumentano la quantità di dati da elaborare:
+* **Notifica Adobe dei picchi di traffico previsti:** Anche se è impossibile prevedere ogni picco di traffico per il tuo sito, ci possono essere casi in cui ti aspetti di ricevere un aumento significativo del traffico. Gli esempi includono un periodo di vacanza particolarmente positivo o poco dopo un push di una campagna di grandi dimensioni. In questi casi, Adobe offre all’organizzazione un modo per informarci degli aumenti di traffico previsti, in modo da poter allocare ulteriori risorse di elaborazione alla suite di rapporti. Per informazioni su come avvisare l’Adobe di un aumento del traffico, consulta [Pianificare un picco di traffico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente dell’amministratore .
+* **Quando si attivano nuove funzioni, considera il carico di elaborazione:**  alcune funzioni richiedono un&#39;elaborazione più intensa di altre. Più funzioni sono abilitate in una suite di rapporti, più è difficile recuperare dalla latenza. Quando abiliti le funzioni di una suite di rapporti, ricorda quanto segue che aumenta la quantità di dati da elaborare:
 
    * Implementazione di più di 20 eventi sulla stessa pagina
    * Regole VISTA complesse
-   * Più di 20 valori nella variabile products
+   * Più di 20 valori nella variabile prodotti
    * Serializzazione degli eventi
 
-* Abilita filtro bot IAB: Il filtraggio [dei](/help/admin/admin/bot-removal/bot-removal.md) bot può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l&#39;elenco bot IAB, in quanto viene aggiornato e gestito dall&#39; [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrare quelle dello IAB.
+* Abilita il filtro bot IAB: [Filtro bot](/help/admin/admin/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l&#39;elenco di bot IAB, in quanto viene aggiornato e gestito da [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrarle da IAB.
 
-## Cosa fare in merito alla latenza
+## Cosa fare sulla latenza
 
-Nei casi in cui si verifica la latenza, assicuratevi che Adobe effettui il monitoraggio proattivo della pipeline di elaborazione e faccia tutto il possibile per riportare il tempo di elaborazione alla normalità il più rapidamente possibile. Molti problemi di latenza vengono risolti in poche ore. Se hai a che fare con una suite di rapporti specifica, uno degli utenti supportati della tua organizzazione può contattare l&#39;Assistenza clienti con l&#39;ID suite di rapporti che presenta una latenza. Il rappresentante Adobe può convalidare la latenza e informare l&#39;utente non appena il problema migliora e viene risolto.
+Nei casi in cui si verifica una latenza, assicurati che Adobe monitori in modo proattivo la pipeline di elaborazione e faccia tutto il possibile per riportare il tempo di elaborazione al livello normale il più rapidamente possibile. Molti problemi di latenza vengono risolti in poche ore. Se hai a che fare con una suite di rapporti specifica, uno degli utenti supportati della tua organizzazione può contattare l’Assistenza clienti con l’ID della suite di rapporti che presenta una latenza. Il rappresentante di Adobe può convalidare la latenza e informarti quando il problema migliora e viene risolto.
