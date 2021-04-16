@@ -1,16 +1,16 @@
 ---
 description: Passaggi per aggiungere eventi di calendario e per gestire eventi condivisi.
 title: Eventi calendario
-topic: Reports and analytics
+feature: Nozioni di base su Reports & Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 99%
 
 ---
-
 
 # Eventi calendario
 
@@ -44,4 +44,3 @@ Per i report con tendenze nel tempo, puoi visualizzare in modo grafico gli event
    |---|---|
    | **On Report** | Ti consente di visualizzare le modifiche o gli aggiornamenti effettuati dal proprietario dell’evento. |
    | **Unshare** | Rimuove questo evento dalla lista degli eventi condivisi. |
-
