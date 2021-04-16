@@ -2,16 +2,16 @@
 description: Utilizza l’importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
 subtopic: Classifications
 title: 'Importazione classificazioni: panoramica'
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
-source-wordcount: '142'
+exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '144'
 ht-degree: 100%
 
 ---
-
 
 # Importazione classificazioni: panoramica
 
