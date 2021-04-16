@@ -1,24 +1,27 @@
 ---
-description: La funzione Origini dati consente di importare dati in Analytics da origini offline. Una volta importati, questi dati possono essere trattati e gestiti in modo simile ai dati raccolti in modo nativo.
+description: La funzione Origini dati ti consente di importare dati in Analytics da origini offline. Una volta importati, questi dati possono essere trattati e gestiti in modo simile ai dati raccolti in modo nativo.
 title: Origini dati
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
+exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 8%
 
 ---
 
-
 # Origini dati
 
-La funzione Origini dati consente di importare dati in Analytics da origini offline. Una volta importati, questi dati possono essere trattati e gestiti in modo simile ai dati raccolti in modo nativo.
+La funzione Origini dati ti consente di importare dati in Analytics da origini offline. Una volta importati, questi dati possono essere trattati e gestiti in modo simile ai dati raccolti in modo nativo.
 
 Usa origini dati per:
 
-* Integrare i dati offline con quelli raccolti dal sito Web.
-* Raccogliere dati da server Web, call center o altri sistemi. Quindi importala in Experience Cloud per vedere la conversione da tutti i percorsi della tua organizzazione.
-* Ottimizzate la gestione delle offerte per parole chiave in base all&#39;evasione dei lead offline tramite SearchCenter.
+* Integra i dati offline con i dati raccolti dal tuo sito web.
+* Raccogliere dati da server web, call center o altri sistemi. Quindi importalo nell’Experience Cloud per visualizzare la conversione da tutti i percorsi della tua organizzazione.
+* Ottimizza la gestione delle offerte per parole chiave in base all’evasione dei lead offline tramite SearchCenter.
 
-Quando Origini dati viene attivata in una suite di rapporti, viene fornito un percorso FTP in modo da poter caricare i file da integrare nei rapporti. Una volta caricato, i server Adobe elaborano automaticamente i dati e li integrano nella suite di rapporti.
+Quando Origini dati viene attivata in una suite di rapporti, viene fornito un percorso FTP per consentire il caricamento di file da integrare nel rapporto. Una volta effettuato l’aggiornamento, i server di Adobe elaborano automaticamente i dati e li integrano nella suite di rapporti.
 
-Consulta la Guida [di](https://docs.adobe.com/content/help/it-IT/analytics/import/data-sources/datasrc-home.html)Origini dati.
+Consulta la Guida di [Origini dati](https://docs.adobe.com/content/help/it-IT/analytics/import/data-sources/datasrc-home.html).
