@@ -2,16 +2,16 @@
 description: Implementa Adobe Analytics utilizzando Dynamic Tag Management.
 keywords: Implementazione di Analytics;metodo di implementazione;gestione tag dinamica;dtm
 title: Panoramica sull’implementazione di DTM
-topic: Sviluppatore e implementazione
+topic-fix: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
+exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 12%
+source-wordcount: '222'
+ht-degree: 11%
 
 ---
-
 
 # Panoramica sull’implementazione di DTM
 
@@ -32,4 +32,3 @@ Questa guida descrive i seguenti passaggi per implementare Analytics utilizzando
 1. Crea [elementi dati](/help/implement/other/dtm/t-data-element.md), [regole e condizioni](/help/implement/other/dtm/c-rules/t-rules-create.md) e [azioni](/help/implement/other/dtm/c-rules/t-rules-actions.md).
 
 1. Pubblica strumenti e regole sul server di produzione.
-
