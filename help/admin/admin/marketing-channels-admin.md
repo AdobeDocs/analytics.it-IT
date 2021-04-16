@@ -1,18 +1,21 @@
 ---
-description: I canali di marketing sono comunemente utilizzati per fornire informazioni dettagliate su come i visitatori arrivano sul sito. Potete creare e personalizzare le regole di elaborazione del canale di marketing in base ai canali da monitorare e alla modalità di tracciamento.
+description: I canali di marketing vengono comunemente utilizzati per fornire approfondimenti su come i visitatori arrivano sul tuo sito. Puoi creare e personalizzare le regole di elaborazione dei canali di marketing in base ai canali che desideri monitorare e a come desideri tenerle traccia.
 title: Canali marketing
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
+exl-id: d9721fb9-2aa4-4db0-8030-cc7907bd953c
 translation-type: tm+mt
-source-git-commit: 79a3bd43171f982831120a5a9fe181dd2f8dec16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
-
 # Canali marketing
 
-I canali di marketing sono comunemente utilizzati per fornire informazioni approfondite su come (attraverso quale canale) i visitatori arrivano sul sito. Potete creare e personalizzare le regole di elaborazione del canale di marketing in base ai canali da monitorare e alla modalità di tracciamento.
+I canali di marketing vengono comunemente utilizzati per fornire approfondimenti su come (attraverso quale canale) i visitatori arrivano sul tuo sito. Puoi creare e personalizzare le regole di elaborazione dei canali di marketing in base ai canali che desideri monitorare e a come desideri tenerle traccia.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]**.
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Report Suites]** >  **[!UICONTROL Edit Settings]** >  **[!UICONTROL Marketing Channels]**.
 
-Consultate [Canali](/help/components/c-marketing-channels/analyze-mc.md)di marketing.
+Consulta [Canali di marketing](/help/components/c-marketing-channels/analyze-mc.md).
