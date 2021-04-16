@@ -2,16 +2,16 @@
 description: Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 subtopic: Classifications
 title: Flusso di lavoro di Generatore regole di classificazione
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
+exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '554'
 ht-degree: 97%
 
 ---
-
 
 # Flusso di lavoro di Generatore regole di classificazione
 
@@ -52,4 +52,4 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 **Blog**: per ulteriori informazioni su questa funzione, consulta l’articolo del blog di digital marketing [Classificazioni basate sulle regole](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Visualizzare il video [Panoramica](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) classificazioni.
+**Video**: Visualizza il video  [Classificazioni ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) generali.
