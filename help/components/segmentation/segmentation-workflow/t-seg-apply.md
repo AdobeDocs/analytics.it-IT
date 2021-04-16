@@ -1,16 +1,16 @@
 ---
 description: Applicare uno o più segmenti a un rapporto dalla barra dei segmenti.
 title: Selezionare e applicare segmenti
-topic: Segments
+feature: Segmenti
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '197'
+exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '198'
 ht-degree: 100%
 
 ---
-
 
 # Selezionare e applicare segmenti
 
