@@ -1,27 +1,29 @@
 ---
-description: Fate clic sull'icona i (Info) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
-keywords: Virtual Report Suite
+description: Fai clic sull’icona i (Informazioni) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
+keywords: Suite di rapporti virtuali
 title: Visualizzazione delle informazioni sulle suite di rapporti virtuali
-topic: Reports and analytics
+feature: Nozioni di base su Reports & Analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
+exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 12%
 
 ---
 
-
 # Visualizzazione delle informazioni sulle suite di rapporti virtuali
 
-Fate clic sull'icona i (Info) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
+Fai clic sull’icona i (Informazioni) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
 
-## Nel selettore delle suite di rapporti {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
+## Nel selettore suite di rapporti {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
 
-Facendo clic sull'icona Informazioni accanto alla suite di rapporti virtuali nel selettore delle suite di rapporti potete ottenere le seguenti informazioni:
+Facendo clic sull’icona Informazioni accanto alla suite di rapporti virtuali nel selettore delle suite di rapporti, vengono fornite le seguenti informazioni:
 
 * Nome della suite di rapporti principale.
-* Nome di eventuali segmenti ad esso applicati.
+* Nome di tutti i segmenti ad esso applicati.
 * Una semplice anteprima della suite di rapporti con il segmento applicato.
-* Totale conteggio visitatori univoci.
+* Numero totale di visitatori univoci.
 
 ![](assets/vrs-info.png)
-
