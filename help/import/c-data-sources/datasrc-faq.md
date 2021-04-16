@@ -2,16 +2,16 @@
 description: In questo argomento sono fornite risposte alle domande comuni.
 subtopic: Data sources
 title: Domande frequenti su Origini dati
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
+exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 95%
 
 ---
-
 
 # Domande frequenti su Origini dati
 
@@ -109,9 +109,9 @@ Inoltre i dati non devono mai essere caricati direttamente in una suite di rappo
 
 Origini dati non crea rapporti di dati su base oraria. Quando tenti di eseguire un rapporto per un giorno specifico, i dati possono essere suddivisi solo per ora, pertanto non viene visualizzato nulla nel rapporto. Puoi visualizzare i dati solo quando sono suddivisi per un livello di granularità giornaliero o superiore, eseguendo un rapporto settimanale o mensile.
 
-## Come vengono calcolati i Visitatori unici in un caricamento Origine dati di un registro server web? {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
+## Come vengono calcolati i Visitatori univoci in un caricamento Origine dati di un registro server web? {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-Il numero di Visitatori unici in un registro server web viene calcolato come combinazioni distinte diverse di *`IP Address`* e *`User Agent`* nel registro web. Ogni combinazione unica di questi due elementi viene calcolata come Visitatore unico. Se la colonna [!UICONTROL User Agent] è vuota (o non è inclusa nel registro web), non è possibile identificare il numero di Visitatori unici e l’intero caricamento sarà conteggiato come un solo Visitatore unico (anche se sono presenti più indirizzi IP).
+Il numero di Visitatori univoci in un registro server web viene calcolato come combinazioni distinte diverse di *`IP Address`* e *`User Agent`* nel registro web. Ogni combinazione univoca di questi due elementi viene calcolata come Visitatore univoco. Se la colonna [!UICONTROL User Agent] è vuota (o non è inclusa nel registro web), non è possibile identificare il numero di Visitatori univoci e l’intero caricamento sarà conteggiato come un solo Visitatore univoco (anche se sono presenti più indirizzi IP).
 
 ## In Origini dati, come posso sapere quali login appartengono a quale suite di rapporti? {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
@@ -139,9 +139,9 @@ No. Le eVar sono le uniche variabili salvate nello snapshot del profilo visitato
 
 ## Come funzionano gli eventi numerici e valutari con le origini dati?
 
-L&#39;elaborazione completa supporta solo i formati legacy dell&#39;elenco eventi, escludendo il valore numerico/valutario (più di 1) dell&#39;evento direttamente nell&#39;elenco eventi, `"eventNN,eventKK"` non `"eventNN=#.##"`. Significa che supporta un evento contatore solo se viene passato nella colonna eventi nel file dell&#39;origine dati e incrementa di 1.
+L’elaborazione completa supporta solo i formati degli elenchi di eventi legacy, escludendo il valore evento numerico/valuta/contatore (più di 1) direttamente nell’elenco degli eventi, ovvero `"eventNN,eventKK"` non `"eventNN=#.##"`. Significa che supporta un evento contatore solo se viene passato nella colonna eventi nel file di origine dati e incrementa di 1.
 
-Se sono richiesti eventi numerici, valutari o contatore (più di 1), utilizzare l&#39;elenco dei prodotti:
+Se sono necessari eventi numerici, valutari o contatore (più di 1), utilizzare l’elenco dei prodotti:
 
 ```js
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
