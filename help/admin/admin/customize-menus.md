@@ -1,26 +1,26 @@
 ---
-description: Questa funzione consente di personalizzare i menu dei rapporti visualizzati da un utente in Reporting e analisi. Potete mostrare o nascondere i rapporti, nonché spostarli in diverse cartelle tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
+description: Questa funzione ti consente di personalizzare i menu dei rapporti visualizzati da un utente in Reports & Analytics. Puoi mostrare o nascondere i rapporti e spostarli in cartelle diverse tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
 title: Personalizzazione del menu
-topic: Strumenti di amministrazione
+feature: Strumenti di amministrazione
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
+exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 3%
 
 ---
 
-
 # Personalizzazione del menu
 
-Questa funzione consente di personalizzare i menu dei rapporti visualizzati da un utente in Reporting e analisi. Potete mostrare o nascondere i rapporti, nonché spostarli in diverse cartelle tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
+Questa funzione ti consente di personalizzare i menu dei rapporti visualizzati da un utente in Reports &amp; Analytics. Puoi mostrare o nascondere i rapporti e spostarli in cartelle diverse tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
 
-Le modifiche al menu si applicano a tutti gli utenti che accedono alla suite di rapporti. Tuttavia, gli utenti possono ripristinare la configurazione predefinita di un menu mentre utilizzano la suite di rapporti.
+Le modifiche al menu si applicano a tutti gli utenti che accedono alla suite di rapporti. Tuttavia, gli utenti possono ripristinare la configurazione predefinita di un menu utilizzando la suite di rapporti.
 
 >[!NOTE]
 >
->Qualsiasi modifica nella struttura del menu non influisce sul Report Builder. Tuttavia, la ridenominazione di un rapporto si riflette in questo strumento.
+>Qualsiasi modifica nella struttura del menu non influisce sul Report Builder. Tuttavia, la ridenominazione di un rapporto si rifletterà in questo strumento.
 
 ## Descrizioni personalizzazione menu {#section_B0D224DACB914A378902A4E0E1234889}
 
@@ -38,19 +38,19 @@ Le modifiche al menu si applicano a tutti gli utenti che accedono alla suite di 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rinomina</span> </td> 
-   <td colname="col2"> <p> Consente di modificare il nome dell’elemento attualmente selezionato. </p> </td> 
+   <td colname="col2"> <p> Consente di modificare il nome dell'elemento attualmente selezionato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Nome predefinito</span> </td> 
-   <td colname="col2"> <p> Ripristina il nome predefinito dell’elemento attualmente selezionato. </p> </td> 
+   <td colname="col2"> <p> Ripristina il nome predefinito dell'elemento attualmente selezionato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Attiva/disattiva visibilità</span> </td> 
-   <td colname="col2"> <p> Nasconde (visualizza) l'elemento attualmente selezionato. Gli elementi nascosti vengono visualizzati con un pattern di linea grigio nella pagina Personalizzazione menu. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Attiva/Disattiva visibilità</span> </td> 
+   <td colname="col2"> <p> Nasconde (visualizza) l'elemento attualmente selezionato. Gli elementi nascosti vengono visualizzati con un pattern di linea grigia nella pagina Personalizzazione menu . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Elimina</span> </td> 
-   <td colname="col2"> <p> Rimuove la voce attualmente selezionata dal menu. </p> </td> 
+   <td colname="col2"> <p> Rimuove l’elemento attualmente selezionato dal menu. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ripristina valori predefiniti</span> </td> 
@@ -58,4 +58,3 @@ Le modifiche al menu si applicano a tutti gli utenti che accedono alla suite di 
   </tr> 
  </tbody> 
 </table>
-
