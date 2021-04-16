@@ -2,16 +2,16 @@
 description: I tasti non classificati sono raggruppati nei rapporti di classificazione come una singola riga etichettata None. Può essere utile rinominarla in modo più descrittivo.
 subtopic: Classifications
 title: Tasti non classificati
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '243'
+exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '245'
 ht-degree: 100%
 
 ---
-
 
 # Tasti non classificati
 
