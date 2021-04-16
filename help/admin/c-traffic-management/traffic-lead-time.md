@@ -1,35 +1,35 @@
 ---
-description: ' Adobe richiede un preavviso per nuove impostazioni account, picchi di traffico e aumenti di traffico. L''hardware deve essere allocato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sul sistema.'
+description: Ad Adobe, è necessario un preavviso per le nuove impostazioni account, i picchi di traffico e l’aumento del traffico. L'hardware deve essere assegnato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sul sistema nel suo complesso.
 title: Tempo di lead richiesto per aumento di traffico
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
+exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt
-source-git-commit: a114bef4679da24d4fd6323a55c9ccf52ac772ed
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 4%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
-
 # Tempo di lead richiesto per aumento di traffico
 
- Adobe richiede un preavviso per nuove impostazioni account, picchi di traffico e aumenti di traffico. L&#39;hardware deve essere allocato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sul sistema.
+Ad Adobe, è necessario un preavviso per le nuove impostazioni account, i picchi di traffico e l’aumento del traffico. L&#39;hardware deve essere assegnato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sul sistema nel suo complesso.
 
-L&#39;allocazione dell&#39;hardware è guidata dagli avvisi inviati tramite l&#39;interfaccia utente di reporting e analisi.
+L’allocazione dell’hardware è guidata dagli avvisi inviati tramite l’interfaccia utente di Reports &amp; Analytics.
 
 >[!IMPORTANT]
 >
-> Adobe non può contenere le richieste di modifica del traffico &quot;segnaposto&quot;. Salvo indicazione contraria, rispettare il termine di segnalazione proposto il più vicino possibile, compreso il mancato invio di un avviso troppo presto. Consultate [Pianificare un picco](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) di traffico o [Specificare un aumento](/help/admin/c-traffic-management/t-traffic-permanent.md)di traffico permanente.
+>Adobe non è in grado di soddisfare le richieste di modifica del traffico &quot;segnaposto&quot;. Se non diversamente indicato, rispettare il lead time suggerito il più vicino possibile, compreso il mancato invio di un avviso troppo presto. Consulta [Pianificare un picco di traffico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) o [Specificare un aumento di traffico permanente](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
-Utilizzate le seguenti linee guida per determinare con quale anticipo è necessario inviare un avviso di traffico:
+Per determinare con quale anticipo è necessario inviare un avviso di traffico, attenersi alle seguenti linee guida:
 
 ## Lead time di allocazione hardware
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Stime del traffico giornaliere (hit) </th>
+   <th colname="col1" class="entry"> Stime giornaliere del traffico (hit) </th>
    <th colname="col2" class="entry"> <p>Lead time necessario (gennaio - ottobre) </p> </th>
    <th colname="col3" class="entry"> <p>Lead time necessario (novembre - dicembre) </p> </th>
   </tr>
@@ -41,36 +41,36 @@ Utilizzate le seguenti linee guida per determinare con quale anticipo è necessa
    <td colname="col3"> Nessun lead time necessario </td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
+   <td colname="col1"> 1.000.000 - 5.000.000 </td>
    <td colname="col2"> Due giorni lavorativi </td>
-   <td colname="col3" morerows="3"> Tutti gli aumenti di traffico previsti per novembre-dicembre dovrebbero essere presentati entro il 1° settembre. In questo modo si concederà il tempo necessario per l'acquisto della capacità, se necessario, per accogliere il traffico delle vacanze. </td>
+   <td colname="col3" morerows="3"> Tutti gli aumenti di traffico previsti per novembre-dicembre devono essere presentati entro il 1° settembre. In questo modo, è possibile disporre del tempo necessario per l'acquisto della capacità necessaria per accogliere il traffico delle vacanze. </td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
+   <td colname="col1"> 5.000.000 - 10.000.000 </td>
    <td colname="col2"> Una settimana di calendario </td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
+   <td colname="col1"> 10.000.000 - 25.000.000 </td>
    <td colname="col2"> Due settimane di calendario </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>Oltre 25.000.000 </p> </td>
+   <td colname="col1"> <p>Superiore a 25.000.000 </p> </td>
    <td colname="col2"> Uno o più mesi </td>
   </tr>
  </tbody>
 </table>
 
-Altre considerazioni da prendere in considerazione:
+Altri aspetti da considerare:
 
-* Se hai diverse suite di rapporti che iniziano o aumentano fino ai numeri sopra elencati, il lead time si applica come somma del traffico previsto per ognuna di esse.
-* Per inviare una modifica al traffico sono disponibili le seguenti informazioni:
+* Se hai diverse suite di rapporti che iniziano o aumentano fino ai numeri elencati sopra, il lead time si applica come somma del traffico previsto per ciascuna di esse.
+* Avere a disposizione le seguenti informazioni per inviare una modifica del traffico:
 
    * ID suite di rapporti
-   * Stima hit al giorno
-   * Data Go-live
+   * Risultati stimati al giorno
+   * Data di pubblicazione
 
-* Gli avvisi client sono necessari anche quando il traffico diminuisce o una suite di rapporti è obsoleta.
+* Gli avvisi client sono necessari anche quando il traffico diminuisce o una suite di rapporti è deprecata.
 
 ## Disallocazione hardware a causa di traffico non realizzato
 
-L&#39;hardware per i nuovi account, i picchi di traffico e gli aumenti di traffico verranno deallocati se il traffico previsto nell&#39;avviso del cliente non si materializza entro 4 settimane dalla &quot;data di inizio&quot;. Se il traffico è ancora previsto, è necessario generare un nuovo avviso client come aumento del traffico.
+L&#39;hardware per i nuovi account, i picchi di traffico e gli aumenti di traffico verranno deallocati se il traffico previsto nell&#39;avviso del cliente non si materializza entro 4 settimane dalla &quot;data di inizio&quot;. Se il traffico è ancora in attesa, è necessario generare un nuovo avviso al cliente come aumento di traffico.
