@@ -1,16 +1,16 @@
 ---
 description: Passaggi che descrivono come configurare gli eventi di successo.
 title: Configurare eventi di successo
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
+exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 20%
+source-wordcount: '189'
+ht-degree: 21%
 
 ---
-
 
 # Configurare eventi di successo
 
@@ -20,28 +20,27 @@ Passaggi che descrivono come configurare gli eventi di successo.
 1. Seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**.
 
-   ![Risultato passaggio](assets/success_event_page.png)
+   ![Risultato del passaggio](assets/success_event_page.png)
 
-1. Nella **[!UICONTROL Name]** colonna, selezionate la casella di controllo accanto a ciascun elemento per attivare la modifica, quindi specificate il nome desiderato.
-1. Nella **[!UICONTROL Type]** colonna, selezionare la casella di controllo accanto a ogni elemento per attivare l&#39;elenco a discesa, quindi selezionare il tipo desiderato.
+1. Nella colonna **[!UICONTROL Name]** , seleziona la casella di controllo accanto a ogni elemento per abilitare la modifica, quindi specifica il nome desiderato.
+1. Nella colonna **[!UICONTROL Type]**, seleziona la casella di controllo accanto a ogni elemento per abilitare l’elenco a discesa, quindi seleziona il tipo desiderato.
 
    >[!NOTE]
    >
-   >Prima di modificare un tipo di evento, vedere [Modifica del tipo](/help/admin/admin/c-success-events/event-type.md)di evento.
+   >Prima di modificare un tipo di evento, vedere [Cambia tipo di evento](/help/admin/admin/c-success-events/event-type.md).
 
-   Consultate [Pagina Eventi di successo - Descrizioni](/help/admin/admin/c-success-events/success-event.md) per informazioni su questi elementi.
+   Per informazioni su questi elementi, consulta [Pagina eventi di successo - Descrizioni](/help/admin/admin/c-success-events/success-event.md) .
 
-1. Nella **[!UICONTROL Polarity]** colonna, specificare se una tendenza al rialzo per questa metrica è buona o cattiva.
-1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
+1. Nella colonna **[!UICONTROL Polarity]** , specifica se una tendenza verso l’alto per questa metrica è buona o cattiva.
+1. Nella colonna **[!UICONTROL Visibility]** puoi nascondere le metriche standard (integrate), gli eventi personalizzati e gli eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti.
 
    Questa impostazione non influisce sulla raccolta dei dati per quella metrica o evento; influisce solo sulla sua visibilità nell’interfaccia utente. [Altro...](/help/admin/admin/metric-visibility.md)
-1. Fornire una descrizione.
-1. Verificate se registrare sempre l’evento.
+1. Fornisci una descrizione.
+1. Controlla se registrare sempre l&#39;evento.
 1. Abilitare o disabilitare le metriche di partecipazione.
 
    >[!NOTE]
    >
-   >Potete abilitare la partecipazione per un massimo di 100 eventi personalizzati. Oltre a ciò, potete creare metriche di partecipazione nel generatore Metriche [](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) calcolate.
+   >Puoi abilitare la partecipazione per un massimo di 100 eventi personalizzati. Inoltre, puoi creare metriche di partecipazione nel generatore [Metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) .
 
 1. Fai clic su **[!UICONTROL Save]**.
-
