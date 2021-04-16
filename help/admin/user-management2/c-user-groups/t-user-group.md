@@ -1,31 +1,34 @@
 ---
-description: Procedura per l’aggiunta di un gruppo di utenti.
+description: Passaggi che descrivono come aggiungere un gruppo di utenti.
 subtopic: Users and groups
 title: Aggiungere un gruppo utenti
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
+exl-id: a954c88a-7e68-4a2a-a231-c957257ae433
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 9%
 
 ---
-
 
 # Aggiungere un gruppo utenti
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti passa ad [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe ti informerà quando è il momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** verranno ritirati.
+>La gestione di utenti e prodotti sta passando all&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
 
-Procedura per l’aggiunta di un gruppo di utenti.
+Passaggi che descrivono come aggiungere un gruppo di utenti.
 
-1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Fate clic **[!UICONTROL Add New User Group]**, quindi completate i campi e le opzioni descritti in [Definisci gruppi](/help/admin/user-management2/c-user-groups/groups.md)utenti.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Fai clic su **[!UICONTROL Add New User Group]**, quindi completa i campi e le opzioni descritti in [Definisci gruppi di utenti](/help/admin/user-management2/c-user-groups/groups.md).
 
    Collegamenti rapidi:
 
-   * [Strumenti](/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md)di Analytics: Attiva le autorizzazioni utente per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Generatore di report e integrazione dei connettori dati.
-   * [Strumenti](/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md)suite di rapporti:Abilita le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e Rapporti ed Elementi dashboard.
-   * [Metriche](/help/admin/user-management2/c-customize-report-access/groups-metrics.md): Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via.
-   * [Dimensioni](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md): Personalizza l'accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi.
+   * [Strumenti](/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md) di Analytics: Attiva le autorizzazioni degli utenti per l&#39;integrazione a Elementi generali (fatturazione, registri ecc.), Gestione società, Strumenti, Accesso al servizio Web, Report Builder e Connettori dati.
+   * [Strumenti](/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md) suite di rapporti: Attiva le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e rapporti ed elementi del dashboard.
+   * [Metriche](/help/admin/user-management2/c-customize-report-access/groups-metrics.md): Attiva le autorizzazioni per traffico, conversione, eventi personalizzati, eventi delle soluzioni, in base al contenuto e così via.
+   * [Dimension](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md): Personalizza l’accesso degli utenti a un livello granulare, compresi eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi.
 
-1. Fate clic **[!UICONTROL Save Group]** per creare il gruppo e tornare alla [!UICONTROL Groups] pagina.
+1. Fai clic su **[!UICONTROL Save Group]** per creare il gruppo e tornare alla pagina [!UICONTROL Groups] .
