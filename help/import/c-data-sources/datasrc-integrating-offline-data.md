@@ -2,16 +2,16 @@
 description: Origini dati offre due modi aggiuntivi per integrare gli eventi che si verificano offline nei dati online.
 subtopic: Data sources
 title: Integrazione transazione e cliente
-topic: Sviluppatore e implementazione
+topic-fix: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 70%
+source-wordcount: '299'
+ht-degree: 69%
 
 ---
-
 
 # Integrazione transazione e cliente
 
@@ -39,7 +39,7 @@ Vai a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Seleziona suite 
 
  -->
 
-Per verificare se la registrazione ID transazione è abilitata, passare a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+Per verificare se la Registrazione ID transazione è abilitata, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -64,6 +64,6 @@ Gli ID transazione vengono utilizzati per registrare lo stato di un visitatore i
 
 Il cliente è spesso anonimo quando passa da online a offline.
 
-Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing). Questo perché i dati ID transazione non sono associati a una visita (perché l&#39;evento offline in genere non fa parte dell&#39;evento online), ma sono associati al visitatore.
+Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing). Questo perché i dati ID transazione non sono associati a una visita (perché l’evento offline di solito non fa parte dell’evento online), ma sono associati al visitatore.
 
 Vedere [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
