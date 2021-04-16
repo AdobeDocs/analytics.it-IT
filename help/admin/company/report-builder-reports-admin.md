@@ -1,22 +1,25 @@
 ---
-description: Gestisci licenza assegnata agli utenti del generatore di report.
+description: Gestisci la licenza assegnata agli utenti del generatore di report.
 title: Report del Report Builder
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
+exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
 
-
 # Report del Report Builder
 
-Gestisci licenza assegnata agli utenti del generatore di report.
+Gestisci la licenza assegnata agli utenti del generatore di report.
 
-A ogni licenza del generatore di report assegnata a un utente vengono automaticamente assegnate dieci attività pianificate. Questo numero di attività può essere modificato e riassegnato. Le attività pianificate non possono superare il numero di attività disponibili per ogni utente. Eventuali attività non programmate vengono eseguite.
+A ogni licenza del generatore di report assegnata a un utente vengono assegnate automaticamente dieci attività pianificate. È possibile regolare e riallocare questo numero di attività. Le attività pianificate non possono superare il numero di attività disponibili per ogni utente. Le attività non programmate non vengono eseguite.
 
-Puoi concedere l’accesso al generatore di report a qualsiasi [!DNL Analytics] utente aggiungendolo al gruppo di accesso del generatore di report ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+Puoi concedere l’accesso a qualsiasi utente di Report Builder aggiungendo tali utenti al gruppo di accesso di Report Builder ( **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).[!DNL Analytics]
 
-Nella tabella [!UICONTROL Scheduled Task Usage] delle informazioni sono visualizzati tutti gli utenti con privilegi di accesso al generatore di report.
+La tabella delle informazioni [!UICONTROL Scheduled Task Usage] visualizza tutti gli utenti con privilegi di accesso di Report Builder.
 
-Consultate [Gruppi](/help/admin/user-management2/c-user-groups/groups.md).
+Vedere [Gruppi](/help/admin/user-management2/c-user-groups/groups.md).
