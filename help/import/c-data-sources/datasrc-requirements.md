@@ -2,16 +2,16 @@
 description: Informazioni sui requisiti per la suite di rapporti prima dell'uso di Origini dati.
 subtopic: Data sources
 title: Requisiti e limiti di caricamento
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 92%
 
 ---
-
 
 # Requisiti e limiti di caricamento
 
@@ -31,13 +31,13 @@ Nelle sezioni seguenti sono elencati i limiti applicabili a Origini dati e ai da
 
 ## Date {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
-* Ogni giorno di calendario puoi caricare dati per 90 date uniche. Se superi questo limite, il caricamento non riuscirà con un messaggio di errore che indica che hai superato i giorni unici massimi.
+* Ogni giorno di calendario puoi caricare dati per 90 date uniche. Se superi questo limite, il caricamento non riuscirà con un messaggio di errore che indica che hai superato i giorni univoci massimi.
 * È possibile importare solo i dati con date correnti o passate. Non tentare di utilizzare date future nei dati di Origini dati.
 * È necessario specificare una data per tutte le righe per abilitare le funzionalità di grafici di rapporti. Se una riga non include una data, Origini dati genera un errore e rifiuta il file. Il formato di data/ora varia in base al tipo di origine di dati:
 
-   * **Origini** dati Elaborazione completa: Usate il formato data ISO 8601 di `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio, `2013-09-01T12:00:00-07:00`) o Formato ora Unix (il numero di secondi trascorsi dal 1 gennaio 1970).
+   * **Origini** dati di elaborazione completa: Utilizza il formato di data ISO 8601 di  `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio,  `2013-09-01T12:00:00-07:00`) o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970).
 
-   * **Origini** dati standard e di integrazione: Usa il seguente formato data: `MM/DD/YYYY/HH/mm/SS` (ad esempio, `01/01/2013/06/00/00`)
+   * **Origini dati standard e di integrazione**: Utilizza il formato data seguente:  `MM/DD/YYYY/HH/mm/SS` (ad esempio,  `01/01/2013/06/00/00`)
 
 ## Generale {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -46,7 +46,7 @@ Nelle sezioni seguenti sono elencati i limiti applicabili a Origini dati e ai da
 * I dati da Registro web, Traffico e alcuni raggruppamenti Origini dati generici non sono disponibili in Data Warehouse o Discover. Per ulteriori informazioni, consulta [Tipi di dati e categorie](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Origini dati non supporta eventi serializzati.
 
-## Supporto multibyte {#section_96C8D26B21184C3E839865DB6F23EA22}
+## Supporto multibyte  {#section_96C8D26B21184C3E839865DB6F23EA22}
 
 Origini dati supporta la codifica multibyte. Origini dati tenta di rilevare il formato del file Origini dati in entrata e, laddove necessario, lo converte in un formato supportato. Nella tabella seguente sono elencati i formati di caratteri comuni e il relativo stato di supporto.
 
@@ -54,21 +54,21 @@ Origini dati supporta la codifica multibyte. Origini dati tenta di rilevare il f
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Formato carattere </th> 
-   <th colname="col2" class="entry"> Supporto  </th> 
+   <th colname="col2" class="entry"> Supporto </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Supportato. La suite di rapporti utilizzata con Origini dati deve avere il supporto caratteri multibyte abilitato. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nuova suite di rapporti</a> in Aiuto. </p> </td> 
+   <td colname="col2"> <p>Supportati. La suite di rapporti utilizzata con Origini dati deve avere il supporto caratteri multibyte abilitato. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nuova suite di rapporti</a> in Aiuto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 con indicatore ordine byte (EF BB BF) </td> 
-   <td colname="col2"> <p>Supportato. Questo formato non è standard, anche se molte applicazioni Windows salvano in questo formato. </p> <p>Ad esempio, WordPad salva in questo formato se si sceglie "UTF-8". </p> </td> 
+   <td colname="col2"> <p>Supportati. Questo formato non è standard, anche se molte applicazioni Windows salvano in questo formato. </p> <p>Ad esempio, WordPad salva in questo formato se si sceglie "UTF-8". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1 (Latin-1 o Windows-1252) </td> 
-   <td colname="col2"> Supportato. Microsoft Excel salva in questo formato quando si sceglie un'esportazione con valori delimitati da tabulazioni. La suite di rapporti deve utilizzare ISO-8859-1 locale. </td> 
+   <td colname="col2"> Supportati. Microsoft Excel salva in questo formato quando si sceglie un'esportazione con valori delimitati da tabulazioni. La suite di rapporti deve utilizzare ISO-8859-1 locale. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 Little-endian, con indicatore ordine byte (FF FE) </td> 
@@ -80,7 +80,7 @@ Origini dati supporta la codifica multibyte. Origini dati tenta di rilevare il f
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 senza indicatore ordine byte </td> 
-   <td colname="col2"> Non supportato. </td> 
+   <td colname="col2"> Non supportati. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,12 +90,12 @@ Se invii un file UTF-8 o ISO-8859-1 e la suite di rapporti non è configurata pe
 * L&#39;errore viene rilevato durante la conversione, in tal caso ricevi un messaggio come &quot;Trovato carattere errato nel file in posizione 18 durante la conversione da UTF-8 a ISO-8859-1&quot;.
 * Il file viene elaborato senza errori, ma nel rapporto saranno visualizzati dati illeggibili.
 
-## Caricamento di file Registro web {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Caricamento di file Registro web  {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * I rapporti più utili per visualizzare i dati Registro web sono i rapporti del traffico, come le visualizzazioni pagina.
 * I nomi delle pagine sono visualizzati come URL completo, inclusa la stringa di query.
 * Ogni richiesta di file è visualizzata come visualizzazione pagina separata, che include i fogli di stile e i file di immagine.
-* Se aggiungi informazioni all&#39;URL, i file potrebbero essere registrati come pagine separate. Ad esempio,  Adobe registra i seguenti URL come due pagine separate:
+* Se aggiungi informazioni all&#39;URL, i file potrebbero essere registrati come pagine separate. Ad esempio, Adobe registra i seguenti URL come due pagine separate:
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
