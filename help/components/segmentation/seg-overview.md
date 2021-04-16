@@ -1,16 +1,16 @@
 ---
 description: I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come informazioni codificate sulle audience che puoi creare per soddisfare le tue esigenze specifiche e che puoi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
 title: Informazioni su segmenti e contenitori
-topic: Segmenti
+feature: Segmenti
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
+exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '3676'
 ht-degree: 98%
 
 ---
-
 
 # Informazioni su segmenti e contenitori
 
@@ -18,7 +18,7 @@ I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a ca
 
 I segmenti si basano su una gerarchia di livelli [!UICONTROL Visitor], [!UICONTROL Visit] e [!UICONTROL Hit] che utilizza un modello di contenitori nidificati. I contenitori nidificati ti consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità in [!DNL Adobe Experience Cloud]. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati con segnalibro per l’accesso rapido.
 
-Puoi creare e salvare i segmenti nel Generatore di segmenti, oppure generare segmenti da un report di fallout (in   Analysis Workspace). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come [segmenti sovrapposti](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Puoi generare e salvare i segmenti nel Generatore di segmenti o generarli da un rapporto di fallout (in  Analysis Workspace). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come [segmenti sovrapposti](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segmenti {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -60,7 +60,7 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 ## Video introduttivo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Questo video offre una breve panoramica del segmento dei contenitori e di come utilizzarli: [Contenitori segmento in  Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo: [Contenitori di segmenti in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Informazioni sui contenitori {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -184,7 +184,7 @@ Quando questa condizione si trova all’interno di un contenitore Hit, il rappor
 
 ![](assets/container_overview_PV.png)
 
-I rapporti dal contenitore Hit mostrano come la generazione di rapporti da contenitori diversi influisca sui valori complessivi dei rapporti. Dal rapporto del segmento emerge che le visualizzazioni di pagina equivalgono approssimativamente alle visite (circa 2.000 visitatori hanno visto pagine duplicate nel corso di una visita, il che si somma al numero totale di visualizzazioni di pagina), e che i visitatori unici equivalgono approssimativamente al numero di visite (circa 2.000 visitatori unici hanno realizzato una visita più di una volta).
+I rapporti dal contenitore Hit mostrano come la generazione di rapporti da contenitori diversi influisca sui valori complessivi dei rapporti. Dal rapporto del segmento emerge che le visualizzazioni di pagina equivalgono approssimativamente alle visite (circa 2.000 visitatori hanno visto pagine duplicate nel corso di una visita, il che si somma al numero totale di visualizzazioni di pagina), e che i visitatori univoci equivalgono approssimativamente al numero di visite (circa 2.000 visitatori univoci hanno realizzato una visita più di una volta).
 
 ![](assets/container_report_PV.png)
 
@@ -267,7 +267,7 @@ Poiché a tutte le visualizzazioni di pagina all’interno della stessa visita v
 
 ![](assets/container_overview_persist_Visit.png)
 
-Dai dati del contenitore Hit emerge che poco più di 92.000 visualizzazioni di pagina sono state visualizzate in oltre 33.000 visite da poco più di 32.000 visitatori. In media, in ogni visita erano presenti tre visualizzazioni di pagina e quasi tutte le visite sono state effettuate da visitatori unici.
+Dai dati del contenitore Hit emerge che poco più di 92.000 visualizzazioni di pagina sono state visualizzate in oltre 33.000 visite da poco più di 32.000 visitatori. In media, in ogni visita erano presenti tre visualizzazioni di pagina e quasi tutte le visite sono state effettuate da visitatori univoci.
 
 ![](assets/container_report_persist_PV.png)
 
@@ -297,4 +297,3 @@ In sintesi:
 
 * Il contenitore Visita restituisce tutte le pagine visualizzate in una visita in cui almeno una pagina soddisfa i criteri. Pertanto, se una pagina è visualizzata solo durante la visita 1 del giorno 1, tutte le pagine visualizzate nell’intera visita sono incluse nei dati.
 * Presta attenzione quando la condizione su cui stai eseguendo la segmentazione è su un’eVar o un altro tipo di variabile persistente. Ad esempio, puoi utilizzare la condizione “dove campagna contiene e-mail” che scade dopo 7 giorni. Quindi, se la campagna è impostata sulla prima visita, persisterà per altri 7 giorni. Ogni visita sarà inclusa anche se la campagna è stata impostata solo sulla prima visita. Saranno incluse anche le altre visite (purché rientrino nell’intervallo di date del rapporto). Se non desideri includere i valori persistenti, utilizza l’evento “istanza di” oppure una variabile Prop equivalente, se disponibile.
-
