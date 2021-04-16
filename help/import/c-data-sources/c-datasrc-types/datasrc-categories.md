@@ -2,19 +2,22 @@
 description: Le categorie di origine dati identificano diversi tipi di origini dati che forniscono funzionalità simili.
 subtopic: Data sources
 title: Panoramica dei tipi di dati e categorie
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
+exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 97%
 
 ---
-
 
 # Panoramica dei tipi di dati e categorie
 
 Le categorie di origine dati identificano diversi tipi di origini dati che forniscono funzionalità simili.
 
-Le categorie consentono di raggruppare le origini dati dalla prospettiva di un utente. Quando crei un'origine dati tramite l'UI di Origini dati, seleziona dapprima una categoria di origini dati, quindi un tipo di origine dati specifico. Ogni categoria contiene tipi di origini dati che supportano tipi di dati simili. Origini dati presenta le categorie di origini dati seguenti:
+Le categorie consentono di raggruppare le origini dati dal punto di vista di un utente. Quando crei un&#39;origine dati tramite l&#39;UI di Origini dati, seleziona dapprima una categoria di origini dati, quindi un tipo di origine dati specifico. Ogni categoria contiene tipi di origini dati che supportano tipi di dati simili. Origini dati presenta le categorie di origini dati seguenti:
 
 ## Utilizzo sito web {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -33,9 +36,9 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
    <td colname="col3"> <p>La maggior parte dei server web genera file di registro che registrano ogni pagina utilizzata. Tramite questa origine dati puoi elaborare i file di registro dalla maggior parte dei dati di server web e aggiungere i dati ai rapporti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Caricamento in blocco di Advertising Cloud </p> </td> 
+   <td colname="col1"> <p>Caricamento in serie di Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversione </a> </p> </td> 
-   <td colname="col3"> <p>Fornisce caricamenti di massa manuali e automatizzati in Excel in Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Fornisce caricamenti in serie manuali e automatizzati in Excel in Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Origine dati Traffico a livello di sito </p> </td> 
@@ -79,7 +82,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  </tbody> 
 </table>
 
-## Gestione delle relazioni con i clienti (CRM) {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## Gestione delle relazioni con i clienti (CRM)  {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
 
 <table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
  <thead> 
@@ -103,7 +106,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  </tbody> 
 </table>
 
-## Soddisfazione dei clienti {#section_1058CA3860044630B0B06EEDA261DBA2}
+## Soddisfazione dei clienti  {#section_1058CA3860044630B0B06EEDA261DBA2}
 
 <table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
  <thead> 
@@ -122,7 +125,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  </tbody> 
 </table>
 
-## Prestazioni del sito {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## Prestazioni del sito  {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
 
 <table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
  <thead> 
@@ -141,7 +144,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  </tbody> 
 </table>
 
-## Generico {#section_9B9A2A9871894B6491032AE1E961629A}
+## Generico  {#section_9B9A2A9871894B6491032AE1E961629A}
 
 <table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
  <thead> 
@@ -164,13 +167,13 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Origine dati generica (ID transazione) </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID transazione </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID transazione </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > ID visitatore </a> </p> </td> 
    <td colname="col3"> <p>Consente di collegare qualsiasi evento offline a un evento online. L'ID transazione funge da chiave tra gli eventi offline e online. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Acquisti online {#section_2B2D4DBB045548C3A5DC7DEF81BA56D1}
+## Acquisti online  {#section_2B2D4DBB045548C3A5DC7DEF81BA56D1}
 
 <table id="table_EE450D955D4C4264A40142AF6D74F1AA"> 
  <thead> 
@@ -199,7 +202,7 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
  </tbody> 
 </table>
 
-## Lead e preventivi {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## Lead e preventivi  {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
@@ -227,4 +230,3 @@ Le categorie consentono di raggruppare le origini dati dalla prospettiva di un u
   </tr> 
  </tbody> 
 </table>
-
