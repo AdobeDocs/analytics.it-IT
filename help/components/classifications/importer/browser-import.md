@@ -2,16 +2,16 @@
 description: Puoi importare (caricare) i dati delle classificazioni utilizzando il browser. Questo metodo limita il caricamento dei dati di classificazione a una singola suite di rapporti
 subtopic: Classifications
 title: Importazione browser
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '285'
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # Importazione browser
 
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. Controlla la finestra di stato per l’elaborazione dei messaggi.
 1. (Condizionale) Se hai selezionato **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specifica dove memorizzare il file risultante al termine dell’elaborazione.
 >Un’importazione corretta visualizza immediatamente le modifiche appropriate in un’esportazione. Tuttavia, le modifiche ai dati nei rapporti richiedono fino a quattro ore quando si utilizza un’importazione browser e fino a 24 ore quando si utilizza un’importazione FTP.
-
