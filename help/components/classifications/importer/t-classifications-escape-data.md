@@ -1,41 +1,41 @@
 ---
-description: Passaggi che descrivono la modalità di escape dei dati di classificazione nel file di classificazione.
+description: Passaggi che descrivono come effettuare l’escape dei dati di classificazione nel file di classificazione.
 subtopic: Classifications
 title: Esci dai dati di classificazione
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
+exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 8%
+source-wordcount: '98'
+ht-degree: 10%
 
 ---
 
-
 # Esci dai dati di classificazione
 
-Passaggi che descrivono la modalità di escape dei dati di classificazione nel file di classificazione.
+Passaggi che descrivono come effettuare l’escape dei dati di classificazione nel file di classificazione.
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 
-1. Assicurarsi che il formato del file di classificazione sia v2.1.
+1. Assicurati che il formato del file di classificazione sia v2.1.
 
    Se la versione v2.1 è abilitata, verrà visualizzata una riga simile alla seguente:
 
    >[!NOTE]
    >
-   >Per specificare un formato v2.1, attivare **[!UICONTROL Quoted Output]** durante l’esportazione del file sulla [!UICONTROL Classification Importer] pagina ( [!UICONTROL Browser Export] o [!UICONTROL FTP Export]).
+   >Per specificare un formato v2.1, abilita **[!UICONTROL Quoted Output]** durante l’esportazione del file nella pagina [!UICONTROL Classification Importer] ( [!UICONTROL Browser Export] o [!UICONTROL FTP Export]).
 
-1. Circondare il campo contenente caratteri speciali tra virgolette (`"`).
+1. Circonda il campo contenente caratteri speciali tra virgolette doppie (`"`).
 
-Una doppia citazione può essere visualizzata in una cella con escape sostituendola con due virgolette doppie (`" "`). Ad esempio:
+Le virgolette doppie possono comparire in una cella di escape sostituendola con due virgolette doppie (`" "`). Ad esempio:
 
 ```
 My String "of data"
 ```
 
-La fuga sarebbe:
+Fuggito sarebbe:
 
 ```
 "My String ""of data"""
