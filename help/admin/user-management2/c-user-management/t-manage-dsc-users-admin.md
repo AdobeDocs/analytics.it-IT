@@ -1,23 +1,26 @@
 ---
-description: Procedura che descrive come aggiungere, modificare o eliminare utenti di analisi ad hoc.
+description: Passaggi che descrivono come aggiungere, modificare o eliminare utenti di Ad Hoc Analysis.
 subtopic: Users and groups
 title: Gestione degli utenti Ad Hoc Analysis
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 32%
 
 ---
 
 
 # Gestione degli utenti Ad Hoc Analysis
 
-Procedura che descrive come aggiungere, modificare o eliminare utenti di Analisi ad hoc.
+Passaggi che descrivono come aggiungere, modificare o eliminare utenti Ad Hoc Analysis.
 
-1. Clic **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Fai clic su **[!UICONTROL Manage Ad Hoc Analysis Users]**.
 
-   Se la società ha acquistato licenze di Analisi ad hoc, il [!UICONTROL Ad Hoc Analysis License Users] gruppo viene visualizzato nella [!UICONTROL Group Name] colonna. Viene inoltre visualizzato il numero di licenze disponibili per gli accessi utente.
+   Se la società ha acquistato licenze Ad Hoc Analysis, il gruppo [!UICONTROL Ad Hoc Analysis License Users] viene visualizzato nella colonna [!UICONTROL Group Name] . Viene inoltre visualizzato il numero di licenze disponibili per gli accessi utente.
 
-1. Selezionate gli utenti da aggiungere al gruppo, quindi fate clic su **[!UICONTROL Add]**.
-1. Fai clic su **[!UICONTROL Save Group]** (Genera).
+1. Seleziona gli utenti da aggiungere al gruppo, quindi fai clic su **[!UICONTROL Add]**.
+1. Fai clic su **[!UICONTROL Save Group]**.
