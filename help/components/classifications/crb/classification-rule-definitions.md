@@ -1,23 +1,23 @@
 ---
-description: Definizioni degli elementi dell'interfaccia nelle pagine del Generatore di regole di classificazione.
+description: Definizioni degli elementi dell’interfaccia nelle pagine del Generatore di regole di classificazione.
 subtopic: Classifications
 title: 'Regole di classificazione: definizioni'
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 5%
+source-wordcount: '877'
+ht-degree: 24%
 
 ---
 
-
 # Regole di classificazione: definizioni
 
-Definizioni degli elementi dell&#39;interfaccia nelle pagine del Generatore di regole di classificazione.
+Definizioni degli elementi dell’interfaccia nelle pagine del Generatore di regole di classificazione.
 
-## Pagina Regole {#section_4A5BF384EEEE4994B6DC888339833529}
+## Pagina delle regole {#section_4A5BF384EEEE4994B6DC888339833529}
 
 In questa pagina vengono visualizzate le regole in un set di regole.
 
@@ -35,11 +35,11 @@ In questa pagina vengono visualizzate le regole in un set di regole.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selezione di suite per report e variabili </p> </td> 
-   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>È possibile applicare una sola variabile quando si crea un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set</span> di regole solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> (Amministratore) &gt; <span class="uicontrol"> Report Suites (Suite</span> di rapporti) &gt; <span class="uicontrol"> Traffic (Traffico</span> ) &gt; <span class="uicontrol"> Traffic Classifications (Classificazioni</span> traffico) (o <span class="uicontrol"> Conversion</span> (Conversione <span class="uicontrol"></span>) &gt; Conversion Classifications (Classificazioni conversione)). Quindi selezionate la variabile, quindi fate clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Classificazioni</a> del traffico e classificazioni <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  ></a> di conversione nell'Aiuto di amministrazione. </p> </td> 
+   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Le suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>Puoi applicare una sola variabile quando crei un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set di regole</span> solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (o <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Quindi seleziona la variabile , quindi fai clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Classificazioni di traffico</a> e <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Classificazioni di conversione</a> nella Guida dell'amministratore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Attiva</span> </p> </td> 
-   <td colname="col2"> <p>Convalida e attiva una regola. Le regole attive vengono elaborate ogni giorno, esaminando i dati di classificazione che risalgono in genere a un mese. Le regole verificano automaticamente la presenza di nuovi valori e caricano le classificazioni. </p> </td> 
+   <td colname="col2"> <p>Convalida e attiva una regola. Le regole attive vengono elaborate ogni giorno ed esaminano i dati di classificazione che risalgono in genere a un mese. Le regole verificano automaticamente la presenza di nuovi valori e caricano le classificazioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Disattiva</span> </p> </td> 
@@ -47,23 +47,23 @@ In questa pagina vengono visualizzate le regole in un set di regole.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurare suite di rapporti e variabili </p> </td> 
-   <td colname="col2"> <p>Visualizza la pagina <span class="wintitle"> Suite</span> di rapporti disponibili, in cui è possibile selezionare una o più suite di rapporti disponibili da utilizzare per tutti i set di regole. (Questa pagina viene visualizzata anche quando si esegue per la prima volta il Generatore <span class="wintitle"></span>regole di classificazione.) </p> <p>Questa funzione ha lo scopo di ridurre il tempo di caricamento della suite di rapporti, nel caso in cui disponiate di centinaia di suite di rapporti disponibili. </p> <p>Le suite di rapporti selezionate qui sono disponibili a livello di regola, quando fate clic su <span class="uicontrol"> Aggiungi suite</span> durante la creazione di una regola. </p> <p>Nota: Una suite di rapporti diventa disponibile <span class="term"> solo</span> quando nelle suite di rapporti è definita almeno una classificazione per la variabile in <span class="wintitle"> Strumenti</span>di amministrazione. <p>Per una spiegazione di questo prerequisito, vedere <span class="term"> Variabile</span> in <a href="/help/components/classifications/crb/classification-rule-set.md"  > Set</a> regole di classificazione. </p> </p> </td> 
+   <td colname="col2"> <p>Visualizza la pagina <span class="wintitle"> Suite di rapporti disponibili</span>, in cui puoi selezionare una o più suite di rapporti disponibili da utilizzare per tutti i set di regole. (Questa pagina viene visualizzata anche quando esegui per la prima volta il <span class="wintitle"> Generatore regole di classificazione</span>.) </p> <p>Questa funzione ha lo scopo di ridurre il tempo di caricamento della suite di rapporti, nel caso in cui siano disponibili centinaia di suite di rapporti. </p> <p>Le suite di rapporti selezionate vengono rese disponibili a livello di regola quando fai clic su <span class="uicontrol"> Aggiungi suite</span> durante la creazione di una regola. </p> <p>Nota: Una suite di rapporti diventa disponibile <span class="term"> solo</span> quando le suite di rapporti hanno almeno una classificazione definita per la variabile in <span class="wintitle"> Strumenti di amministrazione</span>. <p>(Per una spiegazione di questo prerequisito, consulta <span class="term"> Variable</span> in <a href="/help/components/classifications/crb/classification-rule-set.md"  > Classification Rule Sets</a> .) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole sovrascrivono eventuali valori esistenti </p> </td> 
-   <td colname="col2"> <p> (Impostazione predefinita) Sovrascrivi sempre le chiavi di classificazione esistenti, comprese le classificazioni caricate tramite l'importatore (SAINT). </p> </td> 
+   <td colname="col2"> <p> (Impostazione predefinita) Sovrascrivi sempre le chiavi di classificazione esistenti, comprese le classificazioni caricate tramite l’importazione (SAINT). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole sovrascrivono solo i valori non impostati </p> </td> 
-   <td colname="col2"> <p>Compilare solo celle vuote (non impostate). Le classificazioni esistenti non saranno modificate. </p> </td> 
+   <td colname="col2"> <p>Compila solo celle vuote (non impostate). Le classificazioni esistenti non saranno modificate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intervallo di lookback </p> </td> 
-   <td colname="col2"> <p>Quando attivate e convalidate le regole, potete specificare se queste devono sovrascrivere le classificazioni esistenti per le chiavi interessate. Vengono interessate solo le chiavi classificate che sono state passate in <span class="keyword"> Adobe Analytics</span> nel periodo di tempo specificato. </p> <p>Se non si specifica una finestra <span class="term"> di</span>lookback, le regole tornano indietro di circa un mese (a seconda del giorno corrente del mese). Le classificazioni esistenti non vengono mai sovrascritte a meno che non sia stata abilitata questa opzione. </p> <p><b>Dev Center</b>: I partner possono creare regole di classificazione in <span class="wintitle"> Dev Center</span>. Queste regole vengono distribuite quando il cliente attiva un'integrazione. In <span class="wintitle"> Dev Center</span>, l'opzione <span class="uicontrol"> Sovrascrivi dal</span> consente al partner di specificare se il cliente può determinare il valore di sovrascrittura quando si attiva o si modifica un'integrazione. </p> <p>Per ulteriori informazioni sull'elaborazione delle regole, vedere <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Elaborazione</a> delle regole. </p> </td> 
+   <td colname="col2"> <p>Quando attivi e convalida le regole, puoi specificare se queste devono sovrascrivere le classificazioni esistenti per le chiavi interessate. (Sono interessate solo le chiavi classificate che sono state passate in precedenza in <span class="keyword"> Adobe Analytics</span> entro il periodo di tempo specificato.) </p> <p>Se non si specifica un intervallo di lookback <span class="term"></span>, le regole restituiscono un look indietro di circa un mese (a seconda del giorno corrente del mese). Le classificazioni esistenti non vengono mai sovrascritte a meno che tu non attivi questa opzione. </p> <p><b>Centro</b> sviluppo: I partner possono creare regole di classificazione nel  <span class="wintitle"> centro sviluppatori</span>. Queste regole vengono implementate quando il cliente attiva un'integrazione. In <span class="wintitle"> Dev Center</span>, l'opzione <span class="uicontrol"> Sovrascrivi da</span> consente al partner di specificare se il cliente può determinare il valore di sovrascrittura quando attiva o modifica un'integrazione. </p> <p>Per ulteriori informazioni sull’elaborazione delle regole, consulta <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Modalità di elaborazione delle regole</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Aggiungi regola </a> </td> 
-   <td colname="col2"> <p>Consente di aggiungere regole al set di regole. </p> <p>Nota:  Se a un valore corrisponde due o più volte in un insieme di regole, il sistema utilizza l'ultima regola per classificare il valore. </p> </td> 
+   <td colname="col2"> <p>Consente di aggiungere regole al set di regole. </p> <p>Nota:  Se un valore viene confrontato due o più volte in un insieme di regole, il sistema utilizza l'ultima regola per classificare il valore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bozza</span> </td> 
@@ -71,27 +71,27 @@ In questa pagina vengono visualizzate le regole in un set di regole.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Duplica</span> </td> 
-   <td colname="col2"> Duplica (copia) un set di regole in modo da poter applicare il set di regole a un'altra variabile o alla stessa variabile in un'altra suite di rapporti. </td> 
+   <td colname="col2"> Duplica (copia) un set di regole in modo da poterlo applicare a un’altra variabile o alla stessa variabile in una suite di rapporti diversa. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Set di regole di test </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Set di regole di test  </a> </p> </td> 
    <td colname="col2"> <p>Consente di verificare la validità di un set di regole. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Condizione corrispondente</span> </td> 
+   <td colname="col1"> <span class="wintitle"> Condizione di corrispondenza</span> </td> 
    <td colname="col2"> Specifica le condizioni desiderate per la regola. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Azione classificazione</span> </td> 
-   <td colname="col2"> <p>Specifica l'azione da eseguire quando si verifica la condizione corrispondente. </p> <p>Ad esempio, puoi impostare un Nome campagna su $2, che identifica la posizione 2 in un codice di tracciamento come Nome campagna. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Azione di classificazione</span> </td> 
+   <td colname="col2"> <p>Specifica l'azione da eseguire quando si verifica la condizione corrispondente. </p> <p>Ad esempio, imposta un Nome campagna su $2, che identifica la posizione 2 in un codice di tracciamento come Nome campagna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numero della regola. </p> <p>Per ulteriori informazioni, vedere <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Modalità di elaborazione</a> delle regole. </p> </td> 
+   <td colname="col2"> <p>Numero della regola. </p> <p>Per ulteriori informazioni, consulta <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Modalità di elaborazione delle regole</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Seleziona tipo di regola</span> </td> 
-   <td colname="col2"> <p>Ciascun set di regole si applica a una variabile specifica. Le selezioni valide sono: </p> 
+   <td colname="col2"> <p>Ogni set di regole si applica a una variabile specifica. Le selezioni valide sono: </p> 
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Inizia con </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Termina con </li> 
@@ -105,11 +105,11 @@ In questa pagina vengono visualizzate le regole in un set di regole.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Imposta classificazione</span> </td> 
-   <td colname="col2"> Colonna di classificazione da impostare se i criteri di corrispondenza sono soddisfatti. </td> 
+   <td colname="col2"> La colonna di classificazione da impostare se i criteri di corrispondenza sono soddisfatti. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> A</span> </td> 
-   <td colname="col2"> Il valore che si desidera specificare per la colonna di classificazione selezionata se i criteri di corrispondenza sono soddisfatti. </td> 
+   <td colname="col1"> <span class="wintitle"> Su</span> </td> 
+   <td colname="col2"> Il valore da specificare per la colonna di classificazione selezionata se i criteri di corrispondenza sono soddisfatti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Filtro </td> 
@@ -118,9 +118,9 @@ In questa pagina vengono visualizzate le regole in un set di regole.
  </tbody> 
 </table>
 
-## Pagina Espressione regolare {#section_C932A5469E774841B2229965A154163C}
+## Pagina con espressione regolare {#section_C932A5469E774841B2229965A154163C}
 
-Potete modificare le espressioni regolari sulla [!UICONTROL Regular Expression] pagina.
+Puoi modificare le espressioni regolari nella pagina [!UICONTROL Regular Expression] .
 
 ![](assets/regex_tracking_code.png)
 
@@ -128,20 +128,19 @@ Potete modificare le espressioni regolari sulla [!UICONTROL Regular Expression] 
 
 | Elemento | Descrizione |
 |---|---|
-| Chiave di esempio | Stringa di prova da utilizzare. Ad esempio, puoi creare una classificazione da caratteri specifici in un codice di tracciamento. È possibile associare caratteri, parole o pattern particolari di caratteri. |
-| Corrispondenza gruppi | Mostra come l&#39;espressione regolare corrisponde ai caratteri ID campagna, in modo da poter classificare una posizione nell&#39;ID campagna. |
-| Risultato corrispondenza | Visualizza le parti di una stringa che corrispondono correttamente all&#39;espressione regolare. |
+| Chiave di esempio | Stringa di prova da utilizzare. Ad esempio, puoi creare una classificazione da caratteri specifici in un codice di tracciamento. È possibile far corrispondere caratteri, parole o pattern di caratteri specifici. |
+| Gruppi di corrispondenza | mostra in che modo l’espressione regolare corrisponde ai caratteri dell’ID campagna, in modo da poter classificare una posizione nell’ID campagna. |
+| Risultato della corrispondenza | Visualizza le parti di una stringa che corrispondono correttamente all&#39;espressione regolare. |
 
-Vedere Espressioni [regolari nelle regole](/help/components/classifications/crb/classification-quickstart-rules.md)di classificazione.
+Consulta [Espressioni regolari nelle regole di classificazione](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Pagina di test {#section_EC926F97901C4E65901413F9683AA70A}
 
-Questa pagina consente di sottoporre a test le regole in un set.
+Questa pagina ti consente di sottoporre a test le regole in un set.
 
 **Definizioni**
 
 | Elemento | Descrizione |
 |---|---|
-| Esegui test | Quando si verifica il set di regole, utilizzare le chiavi del rapporto per vedere in che modo verranno influenzate dal set di regole. |
-| Filtro | Filtra i valori nel [!UICONTROL Results] pannello. |
-
+| Esegui test | Quando verifichi il set di regole, utilizza le chiavi del rapporto per vedere in che modo saranno influenzate dal set di regole. |
+| Filtro | Filtra i valori nel pannello [!UICONTROL Results] . |
