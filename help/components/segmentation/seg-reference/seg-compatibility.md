@@ -1,16 +1,16 @@
 ---
 description: Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con Data Warehouse. In questa tabella sono elencate le funzioni supportate.
 title: Compatibilità dei segmenti con Data Warehouse
-topic: Segmenti
+feature: Segmenti
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
+exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 95%
 
 ---
-
 
 # Compatibilità dei segmenti con Data Warehouse
 
@@ -20,7 +20,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
  <thead> 
   <tr> 
    <th> </th> 
-   <th>  Analysis Workspace, Reporting e analisi </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
   </tr> 
   <tr> 
    <td> <b>Dimensioni</b> </td> 
-   <td>Trascina una dimensione nel campo <span class="uicontrol">Definizioni</span> del Generatore di segmenti per verificarne la compatibilità con il prodotto. Ad esempio, queste dimensioni sono supportate solo in  Analysis Workspace, Reporting e analisi: 
+   <td>Trascina una dimensione nel campo <span class="uicontrol">Definizioni</span> del Generatore di segmenti per verificarne la compatibilità con il prodotto. Ad esempio, queste dimensioni sono supportate solo in Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Server di ingresso </li> 
      <li>Categoria di ingresso </li> 
