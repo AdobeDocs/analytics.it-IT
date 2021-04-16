@@ -2,12 +2,12 @@
 description: Le regole di classificazione cercano regolarmente termini non classificati. Se viene trovata una corrispondenza alla regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Puoi inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 subtopic: Classifications
 title: Regole di classificazione
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1959'
 ht-degree: 100%
 
 ---
@@ -294,7 +294,7 @@ Allo stesso modo, supponiamo che tu abbia impostato due regole in un set per i s
 
 | Numero regola | Tipo di regola | Corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|---|
-| 1 | Contiene | Cowboys | Città | Dallas |
+| 3 | Contiene | Cowboys | Città | Dallas |
 | 2 | Contiene | Broncos | Città | Denver |
 
 Un utente cerca *`Cowboys vs. Broncos`*. Se il Generatore di regole individua un conflitto nella corrispondenza delle regole, la classificazione per la seconda regola (Denver) viene applicata a questa ricerca.
@@ -329,10 +329,12 @@ Per aggiungere nuove regole, fai corrispondere una condizione a una classificazi
    >Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:
    >
    >* Le suite di rapporti hanno almeno una classificazione definita per la variabile in [!UICONTROL Admin Tools].
-   >
-   >   Per una spiegazione di questo prerequisito, consulta *`Variable`* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md).
-   >
-   >* Hai selezionato la suite di rapporti nella pagina **[!UICONTROL Available Report Suites]**, che viene visualizzata dopo aver fatto clic su [Aggiungi set di regole](/help/components/classifications/crb/classification-rule-set.md) per creare il set di regole.
+      >
+      >   
+      Per una spiegazione di questo prerequisito, consulta *`Variable`* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md).
+      >
+      >
+   * Hai selezionato la suite di rapporti nella pagina **[!UICONTROL Available Report Suites]**, che viene visualizzata dopo aver fatto clic su [Aggiungi set di regole](/help/components/classifications/crb/classification-rule-set.md) per creare il set di regole.
 
 
 1. Specifica se i valori esistenti devono essere sovrascritti:
