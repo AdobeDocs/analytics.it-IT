@@ -1,36 +1,36 @@
 ---
-description: Request Manager consente di visualizzare, duplicare e riassegnare le priorità alle richieste.
+description: Request Manager consente di visualizzare, duplicare e riassegnare le richieste come priorità.
 title: Gestire le richieste di Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
+exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 5%
+source-wordcount: '154'
+ht-degree: 6%
 
 ---
 
-
 # Gestire le richieste di Data Warehouse
 
-Request Manager consente di visualizzare, duplicare e riassegnare le priorità alle richieste.
+Request Manager consente di visualizzare, duplicare e riassegnare le richieste come priorità.
 
-In Data Warehouse, selezionate la **[!UICONTROL Request Manager]** scheda.
+In Data Warehouse, seleziona la scheda **[!UICONTROL Request Manager]** .
 
-L&#39;utilizzo di questa scheda consente di:
+Lavorare in questa scheda consente di:
 
-* Visualizzare le richieste di rapporti recenti in base al nome del rapporto, al segmento applicato, al richiedente, alla data e allo stato della richiesta.
-* Richieste duplicate. Fate clic su **[!UICONTROL Duplicate]** accanto alla richiesta.
+* Visualizza le richieste di rapporti recenti in base al nome del rapporto, al segmento applicato, al richiedente, alla data della richiesta e allo stato.
+* Richieste duplicate. Fai clic su **[!UICONTROL Duplicate]** accanto alla richiesta.
 
    >[!NOTE]
    >
    >Questa azione duplica solo la richiesta, non la pianificazione o i dettagli di consegna.
 
-* Cercate i rapporti per nome o per nome di login del richiedente.
-* Ridefinire le priorità dei rapporti trascinandoli e rilasciandoli in una nuova posizione all’interno della coda.
-* Per vedere quando è iniziata l&#39;elaborazione di una richiesta, fate clic su un ID richiesta pianificato ed esaminate la finestra a comparsa che si apre.
+* Cerca i rapporti per nome o per nome di accesso del richiedente.
+* Riassegnare la priorità ai rapporti trascinandoli e rilasciandoli in una nuova posizione all’interno della coda.
+* Per vedere quando una richiesta ha iniziato l&#39;elaborazione, fai clic su un ID richiesta pianificato ed esamina il pop-up che si apre.
 
-Fate clic su un processo per visualizzare le singole richieste per tale processo.
+Fai clic su un processo per visualizzare singole richieste per quel processo.
 
-* Rate Limited: Nell&#39;organizzazione sono in esecuzione troppe richieste di Data Warehouse. La richiesta viene messa in pausa fino al completamento di altre richieste di dati.
+* Tariffa limitata: L&#39;organizzazione dispone di troppe richieste di Data Warehouse in esecuzione. La richiesta viene sospesa fino al completamento di altre richieste di dati.
