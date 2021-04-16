@@ -1,16 +1,16 @@
 ---
 description: La funzionalità dei segmenti ora è diversa principalmente per gli utenti amministratori e per i non amministratori.
 title: Diritti del segmento per ruolo
-topic: Segmenti
+feature: Segmenti
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
+exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 88%
 
 ---
-
 
 # Diritti del segmento per ruolo
 
@@ -30,7 +30,7 @@ La funzionalità dei segmenti ora è diversa principalmente per gli utenti ammin
   <tr> 
    <td colname="col1"> <b>Utenti amministratori</b> </td> 
    <td colname="col2"> Possono condividere con l’azienda, con i gruppi di utenti e con i singoli utenti. </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: possono visualizzare/modificare/eliminare/ecc. i segmenti propri e di altri utenti. <p> <span class="keyword"> Report Builder  </span>: Può visualizzare/modificare/eliminare/ecc. i propri segmenti e quelli condivisi con esso. </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: possono visualizzare/modificare/eliminare/ecc. i segmenti propri e di altri utenti. <p> <span class="keyword"> Report Builder  </span>: Possono visualizzare/modificare/eliminare/ecc. i propri segmenti e quelli condivisi con esso. </p> </td> 
    <td colname="col4"> Possono approvare i segmenti come canonici. </td> 
    <td colname="col5"> Possono applicare qualsiasi segmento in tutta l’organizzazione. </td> 
   </tr> 
@@ -43,5 +43,3 @@ La funzionalità dei segmenti ora è diversa principalmente per gli utenti ammin
   </tr> 
  </tbody> 
 </table>
-
-
