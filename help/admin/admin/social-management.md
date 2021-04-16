@@ -1,18 +1,21 @@
 ---
-description: Se Adobe Social è abilitato, questa opzione consente di classificare le variabili Social.
+description: Se Adobe Social è abilitato, questa opzione ti consente di classificare le variabili Social .
 title: Gestione social
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
+exl-id: eeb42b17-57a6-4743-b699-ce060c454555
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
-
 # Gestione social
 
-Se Adobe Social è abilitato, questa opzione consente di classificare le variabili Social.
+Se Adobe Social è abilitato, questa opzione ti consente di classificare le variabili Social .
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Social Management]** &gt; **[!UICONTROL Social Classifications.]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Social Management]** > **[!UICONTROL Social Classifications.]**
 
 <!--Meike, link to social user guide?-->
