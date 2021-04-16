@@ -1,56 +1,56 @@
 ---
-description: Consente agli utenti di livello amministratore di visualizzare e gestire i rapporti pianificati in tutta l'organizzazione.
+description: Consente agli utenti a livello di amministratore di visualizzare e gestire i rapporti pianificati in tutta l’organizzazione.
 title: Coda dei report pianificati
-topic: Reports
+topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
+exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 2%
 
 ---
 
-
 # Coda dei report pianificati
 
-Consente agli utenti di livello amministratore di visualizzare e gestire i rapporti pianificati in tutta l&#39;organizzazione.
+Consente agli utenti a livello di amministratore di visualizzare e gestire i rapporti pianificati in tutta l’organizzazione.
 
-**[!UICONTROL Analytics]** (Workspace) > **[!UICONTROL Components]** (Progetto) > **[!UICONTROL Scheduled Reports]** (Annulla/Ripeti)
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
 
-Le funzionalità di livello amministratore in Scheduled Reports Manager includono:
+Le funzionalità a livello di amministratore in Scheduled Reports Manager includono:
 
-* Opzione per [visualizzare tutti i report](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) pianificati nella tua organizzazione.
-* [Funzionalità](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) di filtro avanzate in tutta l&#39;organizzazione.
-* La nuova scheda Coda [](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) report in cui sono elencati tutti i report in coda per l&#39;esecuzione sui server di report.
-* Esposizione dell&#39;ID [](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) pianificazione nell&#39;interfaccia Coda report.
+* L&#39;opzione per [Mostra tutti i report pianificati](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) nella tua organizzazione.
+* [Funzionalità di filtro avanzate ](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) per tutta l’organizzazione.
+* Nuova scheda [Coda report](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) che elenca tutti i report in coda per l&#39;esecuzione sui server di reporting.
+* Esposizione di [ID pianificazione](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) nell&#39;interfaccia Coda report.
 
-## Mostra tutti i rapporti pianificati {#section_3F167CAAEEC24140B476CF95B7402690}
+## Mostra tutti i report pianificati {#section_3F167CAAEEC24140B476CF95B7402690}
 
-Nella **[!UICONTROL Report List]** scheda, puoi **[!UICONTROL Show All Scheduled Reports]** entrare nella tua organizzazione, oltre a quelle che hai personalmente pianificato.
+Nella scheda **[!UICONTROL Report List]** puoi **[!UICONTROL Show All Scheduled Reports]** all’interno della tua organizzazione, oltre a quelli che hai pianificato personalmente.
 
 >[!NOTE]
 >
->Nella **[!UICONTROL Report Name]** colonna viene visualizzato il nome del rapporto in corso di programmazione e nella **[!UICONTROL File Name]** colonna viene visualizzato il nome di file personalizzato impostato dall&#39;utente in Opzioni di consegna avanzate. Di conseguenza, se si pianificano più rapporti dello stesso tipo e si specificano nomi personalizzati per ciascuno di essi, Gestore report pianificati visualizzerebbe più voci con lo stesso Nome rapporto ma con nomi di file diversi. Questo perché il rapporto di back-end pianificato è lo stesso, quindi la colonna Nome rapporto avrà gli stessi nomi di rapporto per tutti i nomi di file, tranne i nomi personalizzati (come impostato).
+>La colonna **[!UICONTROL Report Name]** visualizza il nome del rapporto in corso di pianificazione e la colonna **[!UICONTROL File Name]** visualizza eventuali nomi di file personalizzati impostati da te in Opzioni di consegna avanzate. Di conseguenza, se si pianificano più rapporti dello stesso tipo e si specificano nomi personalizzati per ciascuno di essi, in Gestione rapporti programmati verranno visualizzate più voci con lo stesso nome del rapporto ma con nomi di file diversi. Questo perché il report di back end programmato è lo stesso, quindi la colonna Nome report avrebbe gli stessi nomi di report per tutti i nomi di file eccetto quelli personalizzati (come impostato).
 
 ![](assets/show_all_scheduled_reports.png)
 
 ## Funzionalità di filtro avanzate {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-Ad esempio, se desiderate filtrare tutti i rapporti pianificati ogni ora, specificate **[!UICONTROL Frequency equals Hourly]** nel **[!UICONTROL Advanced]** filtro e fate clic su **[!UICONTROL Apply]**:
+Ad esempio, se desideri filtrare tutti i rapporti pianificati ogni ora, specifica **[!UICONTROL Frequency equals Hourly]** nel filtro **[!UICONTROL Advanced]** e fai clic su **[!UICONTROL Apply]**:
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
 ## Coda report {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-Questa coda consente di gestire ed eliminare potenzialmente tutti i rapporti pianificati che &quot;bloccano&quot; la coda. In genere, i report scadono dopo 4 ore.
+Questa coda ti consente di gestire e potenzialmente eliminare tutti i rapporti pianificati che si stanno &quot;bloccando&quot; la coda. In genere, i rapporti scadono dopo 4 ore.
 
 ![](assets/scheduled_reports_2.png)
 
-La coda di report consente inoltre di &quot;saltare un report pianificato una volta&quot;. Basta fare clic sull&#39;icona blu nella **[!UICONTROL Manage]** colonna.
+La coda dei report consente inoltre di &quot;saltare un report pianificato una volta&quot;. Fai clic sull’icona blu nella colonna **[!UICONTROL Manage]** .
 
 ## ID pianificazione {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-La visualizzazione **[!UICONTROL Schedule ID]** nell&#39;interfaccia Coda report consente di contattare Adobe Client Care per risolvere un problema dei report pianificati.
+L’esposizione di **[!UICONTROL Schedule ID]** nell’interfaccia della coda dei rapporti aiuta a contattare l’Assistenza clienti di Adobe per la risoluzione di un problema di rapporti pianificati.
 
 ![](assets/schedule_id.png)
