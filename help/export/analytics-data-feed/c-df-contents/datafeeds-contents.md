@@ -7,7 +7,7 @@ feature: Nozioni di base su Reports & Analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -116,7 +116,7 @@ Quando viene estratto, ogni file di dati contiene un singolo `hit_data.tsv` che 
 
 Dopo aver raccolto i dati per un&#39;ora, si riceve un singolo file di dati compressi e un file manifesto. Il file di dati è denominato:
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 Quando viene estratto, il file di dati contiene un singolo file `hit_data.tsv` con tutti i dati per quell’ora, nonché file di ricerca per eventuali colonne richieste.
 
@@ -124,7 +124,7 @@ Quando viene estratto, il file di dati contiene un singolo file `hit_data.tsv` c
 
 Dopo aver raccolto i dati per un&#39;ora, si ricevono uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 Quando viene estratto, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi, nonché file di ricerca per eventuali colonne richieste.
 
