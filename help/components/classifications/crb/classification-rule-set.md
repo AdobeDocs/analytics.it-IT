@@ -2,12 +2,12 @@
 description: Un set di regole è un gruppo di regole di classificazione per una variabile specifica. Al set di regole viene applicata una variabile. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
 subtopic: Classifications
 title: Set di regole di classificazione
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
