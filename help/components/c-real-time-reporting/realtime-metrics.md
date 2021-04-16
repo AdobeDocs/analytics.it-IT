@@ -1,17 +1,20 @@
 ---
-description: Elenca le metriche e le dimensioni supportate dai report in tempo reale. Sono inoltre supportate le classificazioni, se le avete definite.
+description: Elenca metriche e dimensioni supportate dai report in tempo reale. Sono supportate anche le classificazioni, se le hai definite.
 title: Metriche e dimensioni in tempo reale supportate
-topic: Reports
+topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 31%
 
 ---
 
-
 # Metriche e dimensioni in tempo reale supportate
 
-Elenca le metriche e le dimensioni supportate dai report in tempo reale. Sono inoltre supportate le classificazioni, se le avete definite.
+Elenca metriche e dimensioni supportate dai report in tempo reale. Sono supportate anche le classificazioni, se le hai definite.
 
 ## Metriche supportate {#section_514ED8B382494C47BFC0657894D1AF94}
 
@@ -26,15 +29,15 @@ Elenca le metriche e le dimensioni supportate dai report in tempo reale. Sono in
 * Istanze
 * Eventi personalizzati 1-100 (se abilitati nella suite di rapporti)
 
-## Dimensioni supportate {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Dimension supportati {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Pagina
-* Cerca parola chiave
+* Parola chiave di ricerca
 * Motore di ricerca
 * Dominio di riferimento
-* Paese segmentazione
-* Regione di geosegmentazione
-* Città di geosegmentazione
+* Paese di geosegmentazione
+* Area geografica
+* Città Geosegmentazione
 * Geosegmentazione DMA USA
 * Prodotto
 * Server
@@ -42,6 +45,5 @@ Elenca le metriche e le dimensioni supportate dai report in tempo reale. Sono in
 * Codice di tracciamento
 * Collegamento personalizzato
 * Download file
-* Collegamento di uscita
-* Custom Insight variables (prop) 1-75 (se attivato nella suite di rapporti)
-
+* Collegamento di uscita.
+* Variabili Custom Insight (props) 1-75 (se abilitate nella suite di rapporti)
