@@ -2,16 +2,16 @@
 description: Origini dati supporta le dimensioni e metriche di dati di conversione seguenti per i tipi di dati elaborati come conversione.
 subtopic: Data sources
 title: Conversione
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 98%
 
 ---
-
 
 # Conversione
 
@@ -28,7 +28,7 @@ Se specifichi un evento Visualizzazione, devi specificare anche la dimensione de
 | Codice di tracciamento | Nome del codice di tracciamento. |
 | Data | Utilizzare il formato data seguente: MM/GG/AAAA/HH/mm/SS (ad esempio, 01/01/2015/06/00/00). |
 | Categoria | Nome della categoria.  Se specifichi una categoria, devi anche selezionare un prodotto. |
-| Channel | Nome del canale. |
+| Canale | Nome del canale. |
 | eVarn | Nome eVarn. I valori validi per n sono numeri interi 1 - 250. |
 | Prodotto | Nome del prodotto. |
 | Stato | Nome dello stato. |
