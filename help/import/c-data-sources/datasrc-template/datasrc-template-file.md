@@ -2,19 +2,22 @@
 description: Informazioni sul modello Origini dati, che forniscono un framework di dati idoneo all'invio di un set specifico di dati esterni a Origini dati.
 subtopic: Data sources
 title: Panoramica modello Origini dati
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
+exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 77%
 
 ---
 
-
 # Panoramica modello Origini dati
 
-Informazioni sul modello Origini dati, che forniscono un framework di dati idoneo all'invio di un set specifico di dati esterni a Origini dati.
+Informazioni sul modello Origini dati, che forniscono un framework di dati idoneo all&#39;invio di un set specifico di dati esterni a Origini dati.
 
-Il file modello generato da questa procedura guidata è progettato per aiutarti a iniziare l'importazione. Non sei limitato alle colonne definite nel modello. Puoi aggiungere qualsiasi altra colonna che ti serve, a condizione che la metrica o la definizione sia supportata per il tipo di elaborazione dati selezionato.
+Il file modello generato da questa procedura guidata è progettato per aiutarti a iniziare l&#39;importazione. Non sei limitato alle colonne definite nel modello. Puoi aggiungere qualsiasi altra colonna che ti serve, a condizione che la metrica o la definizione sia supportata per il tipo di elaborazione dati selezionato.
 
 Puoi visualizzare le metriche e le dimensioni supportate per ogni tipo nelle sezioni seguenti:
 
@@ -22,13 +25,13 @@ Puoi visualizzare le metriche e le dimensioni supportate per ogni tipo nelle sez
 * [Traffico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) (non più supportato)
 * [Conversione](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)
 * [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)
-* [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+* [ID visitatore](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 * [Elaborazione completa](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
-For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
+Ad esempio, per un tipo di dati ID visitatore, puoi aggiungere una colonna per qualsiasi metrica o dimensione elencata in [ID visitatore](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
 
-Una volta creato, puoi scaricare il modello, inserire i dati nel modello, quindi caricare i dati sul sito FTP Origini dati. Una volta elaborati dal server Origini dati, i dati importati sono disponibili per l'uso nei rapporti di marketing.
+Una volta creato, puoi scaricare il modello, inserire i dati nel modello, quindi caricare i dati sul sito FTP Origini dati. Una volta elaborati dal server Origini dati, i dati importati sono disponibili per l&#39;uso nei rapporti di marketing.
 
-The Data Source template is a [!DNL .txt] file that you can open with any text editor. Tuttavia, è più semplice lavorare con il modello utilizzando Microsoft Excel o un'altra applicazione di fogli di calcolo. Il contenuto del modello varia in base alle selezioni effettuate nel [!UICONTROL Data Source Activation Wizard].
+Il modello Origine dati è un file [!DNL .txt] che puoi aprire con qualsiasi editor di testo. Tuttavia, è più semplice lavorare con il modello utilizzando Microsoft Excel o un&#39;altra applicazione di fogli di calcolo. Il contenuto del modello varia in base alle selezioni effettuate in [!UICONTROL Data Source Activation Wizard].
 
-See [Import File Reference](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) for additional details.
+Per ulteriori informazioni, consulta [Riferimento file di importazione](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) .
