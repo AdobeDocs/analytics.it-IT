@@ -2,12 +2,12 @@
 description: L’importazione consente di caricare in massa i dati delle classificazioni nei rapporti di Analytics in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
 subtopic: Classifications
 title: File di dati di classificazione
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: ht
-source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
-source-wordcount: '1722'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1724'
 ht-degree: 100%
 
 ---
@@ -203,5 +203,5 @@ Per classificare le campagne in base all’intervallo di date:
 
 ## Risoluzione di problemi relativi alle classificazioni
 
-* [Problemi comuni relativi al caricamento](https://helpx.adobe.com/it/analytics/kb/common-saint-upload-issues.html): articolo della knowledge base che descrive i problemi derivanti da formati e contenuti di file non corretti.
+* [Problemi comuni relativi al caricamento](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): articolo della knowledge base che descrive i problemi derivanti da formati e contenuti di file non corretti.
 
