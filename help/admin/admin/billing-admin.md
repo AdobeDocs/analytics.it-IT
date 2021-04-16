@@ -1,55 +1,55 @@
 ---
-description: La pagina Fatturazione consente di accedere alle informazioni di fatturazione, inclusi i dettagli di traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
+description: La pagina Fatturazione ti consente di accedere alle informazioni di fatturazione, inclusi i dettagli del traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
 title: Fatturazione
-topic: Admin tools
+feature: Strumenti di amministrazione
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
+exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
 
-
 # Fatturazione
 
-La pagina Fatturazione consente di accedere alle informazioni di fatturazione, inclusi i dettagli di traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
+La pagina Fatturazione ti consente di accedere alle informazioni di fatturazione, inclusi i dettagli del traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
 
 >[!NOTE]
 >
->Se l&#39;accesso alla scheda di fatturazione è disattivato per la società, contattate l&#39;Account Manager.
+>Se l&#39;accesso alla scheda di fatturazione è disabilitato per la tua azienda, contatta il tuo Account Manager.
 
-I dati della panoramica del traffico dalla pagina di fatturazione consentono di correlare i dati della visualizzazione della pagina nei rapporti con le chiamate fatturabili server sulla fattura. The [!UICONTROL Billing] page lets you do the following:
+I dati della panoramica del traffico della pagina di fatturazione consentono di correlare i dati della visualizzazione della pagina nei rapporti con le chiamate al server fatturabili sulla fattura. La pagina [!UICONTROL Billing] consente di effettuare le seguenti operazioni:
 
 * Controlla la fattura.
-* Scomposizione dei costi per suite di rapporti per le allocazioni contabili interne.
-* Visualizzare la distribuzione delle chiamate server primarie e secondarie.
+* Suddividi i costi per suite di rapporti per le allocazioni contabili interne.
+* Visualizza la distribuzione delle chiamate server primarie e secondarie.
 
-La [!UICONTROL Billing] pagina organizza le informazioni per mese.
+La pagina [!UICONTROL Billing] organizza le informazioni per mese.
 
-Per visualizzare i dati mensili sulla panoramica del traffico, individuare il mese in cui si desidera visualizzare i dati sul traffico, quindi fare clic **[!UICONTROL View]**.
+Per visualizzare i dati mensili sulla panoramica del traffico, individua il mese in cui desideri visualizzare i dati sul traffico, quindi fai clic su **[!UICONTROL View]**.
 
-Il [!UICONTROL Monthly Invoice] rapporto risultante include le informazioni seguenti:
+Il rapporto risultante [!UICONTROL Monthly Invoice] include le seguenti informazioni:
 
 | Colonna | Descrizione |
 |--- |--- |
-| Suite di rapporti | La suite di rapporti coinvolta nell&#39;attività di raccolta dati. |
-| Posizione | Il centro dati che memorizza i dati della suite di rapporti: San Jose (California), Dallas (Texas), Pacific Northwest (USA), Londra (Regno Unito) o Singapore. Nella maggior parte dei casi, tutte le suite di rapporti aziendali si trovano nello stesso centro dati. |
-| Chiamate server principali | Richieste ricevute direttamente dai browser dei visitatori del sito Web o dall’API di inserimento dati. Include gli hit principali (Visualizzazioni di pagina), gli eventi personalizzati principali, gli eventi di download principali e gli eventi di uscita principali. |
-| Chiamate server secondarie | Copie di chiamate server primarie create da tag con più suite o copiate/spostate da una regola VISTA.  Se una chiamata server secondaria è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, la pagina Fatturazione identifica il trasferimento con un numero negativo. In questo caso, le chiamate secondarie accumulate vengono detratte dalle chiamate server primarie. |
-| Totale chiamate server | Totale combinato delle chiamate al server primario e secondario per questa suite di rapporti nel percorso specificato. |
-| Visualizzazioni pagina | Totali della visualizzazione pagina per ciascuna suite di rapporti. Potete confermare i valori di visualizzazione della pagina in Metriche del sito > Visualizzazioni pagina. |
-| Download | Scarica totali per ogni suite di rapporti. Potete confermare i valori di download in Contenuto sito > Collegamenti > Download file. |
-| Collegamenti personalizzati | Totali di collegamento personalizzati per ciascuna suite di rapporti. Potete confermare i valori dei collegamenti personalizzati in Contenuto sito > Collegamenti > Collegamenti personalizzati. |
-| Esci dai collegamenti | Esci dai totali dei collegamenti per ogni suite di rapporti. Potete confermare i valori di collegamento di uscita in Contenuto sito > Collegamenti > Esci da collegamenti. |
+| Suite di rapporti | La suite di rapporti coinvolta nell’attività di raccolta dati. |
+| Posizione | Il data center che memorizza i dati della suite di rapporti: San Jose (California), Dallas (Texas), Pacific Northwest (USA), Londra (Regno Unito) o Singapore. Nella maggior parte dei casi, tutte le suite di rapporti aziendali si trovano nello stesso centro dati. |
+| Chiamate server principali | Richieste ricevute direttamente dai browser visitatori del sito web o dall’API di inserimento dati. Include gli hit principali (visualizzazioni pagina), gli eventi personalizzati principali, gli eventi di download principali e gli eventi di uscita principali. |
+| Chiamate server secondarie | Copie delle chiamate server principali create da tag con più suite o copiate/spostate da una regola VISTA.  Se una chiamata server secondaria è stata spostata (non copiata) in una suite di rapporti diversa da una regola VISTA, la pagina Fatturazione identifica questo trasferimento con un numero negativo. In questo caso, le chiamate secondarie accumulate vengono detratte dalle chiamate server principali. |
+| Chiamate server totali | Totale combinato delle chiamate al server primario e secondario per questa suite di rapporti nella posizione specificata. |
+| Visualizzazioni pagina | Visualizza la pagina i totali per ogni suite di rapporti. Puoi confermare i valori della visualizzazione della pagina in   Metriche del sito > Visualizzazioni di pagina. |
+| Download | Scarica i totali per ogni suite di rapporti. Puoi confermare i valori di download in Contenuto sito > Collegamenti > Download file. |
+| Collegamenti personalizzati | Totali di collegamento personalizzati per ogni suite di rapporti. Puoi confermare i valori dei collegamenti personalizzati in Contenuto sito > Collegamenti > Collegamenti personalizzati. |
+| Esci dai collegamenti | Esci dai totali dei collegamenti per ogni suite di rapporti. Puoi confermare i valori dei collegamenti di uscita in Contenuto sito > Collegamenti > Esci da collegamenti. |
 
 >[!NOTE]
 >
->Per ottenere una copia di lavoro del [!UICONTROL Monthly Invoice] rapporto, copiatela negli Appunti, quindi incollatela in un programma per fogli di calcolo come Microsoft Excel*.
+>Per ottenere una copia di lavoro del rapporto [!UICONTROL Monthly Invoice], copialo negli Appunti, quindi incollalo in un programma per fogli di calcolo come Microsoft Excel*.
 
-## Data rapporto e data elaborazione {#section_51A48C2F223F4904BE1407C13333C457}
+## Data di reporting e data di elaborazione {#section_51A48C2F223F4904BE1407C13333C457}
 
-Nell&#39;interfaccia utente del reporting, i dati presentati sono sempre associati alla Data **del** rapporto, che è il timestamp associato all&#39;evento.
+Nell&#39;interfaccia utente per la generazione di rapporti, i dati presentati sono sempre allegati alla **Data di reporting**, che è la marca temporale associata all&#39;evento.
 
-Utilizzo/Fatturazione, invece, utilizza sempre la Data **di** elaborazione, o quando i dati sono stati effettivamente elaborati nel sistema. A causa di latenza di base, importazioni di dati o differenze di fuso orario dell&#39;evento (tutto viene elaborato in Ora del Pacifico), la Data di reporting e la Data di elaborazione generalmente non corrispondono completamente.
+Utilizzo/Fatturazione, invece, utilizza sempre la **Data di elaborazione** o quando i dati sono stati effettivamente elaborati nel sistema. A causa della latenza di base, delle importazioni di dati o delle differenze di fuso orario dell’evento (tutto viene elaborato in Pacific Time), la data di reporting e la data di elaborazione in genere non corrispondono completamente.
