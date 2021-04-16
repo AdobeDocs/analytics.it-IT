@@ -2,16 +2,16 @@
 description: Informazioni sul modello .txt Origine dati.
 subtopic: Data sources
 title: Riferimento file di importazione
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
+exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 71%
 
 ---
-
 
 # Riferimento file di importazione
 
@@ -22,15 +22,15 @@ Utilizza la procedura guidata Origini dati per generare un modello di importazio
 * Un simbolo cancelletto (#) identifica la riga come commento.
 * Puoi aggiungere altri commenti al file, in base alle necessità.
 * Un commento che elenca il titolo del file modello.
-* A comment that lists the external metric and data dimension names specified in the [!UICONTROL Data Source Activation Wizard].
+* Un commento che elenca i nomi delle metriche esterne e delle dimensioni dati specificati in [!UICONTROL Data Source Activation Wizard].
 
 Le intestazioni colonna vengono utilizzate per identificare i dati in ogni colonna del file Origine dati. Esistono tre tipi di intestazioni colonna:
 
-**Data**: (Obbligatorio) Una marca temporale per ciascuna riga di dati nel file, nel formato `m/d/yyyy`.
+**Data**: (Obbligatorio) Una marca temporale per ogni riga di dati nel file, nel formato  `m/d/yyyy`.
 
 **Variabili**: I nomi delle variabili di reporting mappate alle dimensioni dati dell&#39;origine dati.
 
-**Eventi**: I nomi degli eventi mappati alle metriche dell&#39;origine dati.
+**Eventi**: Nomi degli eventi mappati alle metriche dell&#39;origine dati.
 
 Usa il modello Origine dati per creare un file Origini dati che contiene i dati da caricare. Quando crei un file Origini dati, ricorda quanto segue:
 
@@ -63,6 +63,6 @@ Usa il modello Origine dati per creare un file Origini dati che contiene i dati 
 
 **File .FIN**
 
-Dopo aver completato la compilazione del file Origine dati, puoi inviarlo tramite FTP ad Analytics. Tuttavia, è necessario un file aggiuntivo per l&#39;elaborazione dei dati. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Dopo aver completato la compilazione del file Origine dati, puoi inviarlo tramite FTP ad Analytics. Tuttavia, è necessario un file aggiuntivo per l&#39;elaborazione dei dati. Sarà necessario caricare un file di testo vuoto con lo stesso nome del file di dati, ma con estensione [!DNL .fin].
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
+Ad esempio, se carichi un file di dati (delimitato da tabulazioni) denominato [!DNL myproductdata.txt], dovrai caricare anche un file di testo vuoto denominato [!DNL myproductdata.fin]. Senza il file [!DNL .fin], i dati non verranno mai elaborati.
