@@ -2,16 +2,16 @@
 description: Prerequisiti per l’utilizzo del connettore dati DFA con Adobe Analytics.
 keywords: DFA
 title: Prerequisiti
-topic: Connettori dati
+feature: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
+exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 1%
 
 ---
-
 
 # Prerequisiti{#prerequisites}
 
@@ -31,4 +31,3 @@ Prima di avviare l’integrazione di Adobe Data Connectors per DFA, procedi come
 * (Facoltativo) Identifica gli eventi Reports &amp; Analytics che memorizzeranno i dati DFA Cost. È possibile rinominare questi eventi in modo appropriato.
 * (Facoltativo) Identifica una variabile personalizzata e un evento di successo di Reports &amp; Analytics che memorizzerà gli errori e i timeout DFA. Queste variabili aiutano a diagnosticare i problemi che potrebbero insorgere con l’integrazione.
 * (Facoltativo) Crea un account e-mail speciale per ricevere informazioni e notifiche relative all’integrazione dei Data Connectors per DFA.
-
