@@ -2,16 +2,16 @@
 description: Gli estratti di dati consentono di scegliere i parametri che verranno visualizzati sugli assi X e Y del rapporto, nonché sull’elemento in base al quale il rapporto viene filtrato.
 subtopic: Schedule
 title: Estrarre dati
-feature: Nozioni di base su Reports & Analytics
-role: Business Practices, amministratore
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+role: Business Practitioner, Administrator
+exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
-
 
 # Estrarre dati
 
