@@ -3,16 +3,16 @@ description: Scopri come vengono raccolti i dati per Adobe Analytics.
 subtopic: Get started
 title: Informazioni sulla raccolta di dati regionali
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: Nozioni di base su Reports & Analytics
-role: Business Practices, amministratore
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+role: Business Practitioner, Administrator
+exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '178'
 ht-degree: 3%
 
 ---
-
 
 # Informazioni sulla raccolta di dati regionali
 
