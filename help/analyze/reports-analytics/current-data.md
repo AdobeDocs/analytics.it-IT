@@ -3,16 +3,16 @@ description: L’opzione Includi dati correnti in Reports & Analytics consente d
 subtopic: Current Data
 title: Dati correnti
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Nozioni di base su Reports & Analytics
-role: Business Practices, amministratore
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+role: Business Practitioner, Administrator
+exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
-
 
 # Dati correnti
 
@@ -26,7 +26,7 @@ I dati correnti sono attivati per impostazione predefinita su tutti i rapporti c
 
 * Utilizza Analysis Workspace, che utilizza dati completamente elaborati.
 * Fare clic su &#39;No&#39; nell&#39;impostazione del report dati corrente per utilizzare solo i dati elaborati completamente.
-* Rimuovi l’elemento di autorizzazione &quot;Dati correnti&quot; da un profilo di prodotto nell’Admin Console per impedire agli utenti non amministratori di visualizzare questa opzione. Per ulteriori informazioni, consulta [Autorizzazioni del profilo di prodotto per gli strumenti di Analytics](/help/admin/admin-console/permissions/analytics-tools.md) nella guida utente di Admin .
+* Rimuovi l’elemento di autorizzazione &quot;Dati correnti&quot; da un profilo di prodotto nell’Admin Console per impedire agli utenti non amministratori di visualizzare questa opzione. Per ulteriori informazioni, consulta [Autorizzazioni del profilo di prodotto per gli strumenti di Analytics](/help/admin/admin-console/permissions/analytics-tools.md) nella guida utente dell’amministratore .
 
 A causa della priorità sulla disponibilità dei dati, i dati correnti non possono attualmente essere utilizzati con segmenti, classificazioni, raggruppamenti, percorsi e alcune metriche. Se si utilizza una di queste funzioni, i dati correnti vengono forzati a &quot;No&quot; nel rapporto e viene visualizzato un avviso giallo che spiega perché i dati correnti non sono disponibili.
 
