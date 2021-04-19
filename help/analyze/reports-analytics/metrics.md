@@ -2,16 +2,16 @@
 description: Le metriche sono alla base dei rapporti e consentono di visualizzare e comprendere le relazioni tra i dati e di abilitare confronti affiancati di diversi set di dati sul sito web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
 title: Metriche
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Nozioni di base su Reports & Analytics
-role: Business Practices, amministratore
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+role: Business Practitioner, Administrator
+exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 19%
 
 ---
-
 
 # Metriche
 
@@ -47,4 +47,3 @@ t_metrics_set_default.xml
 * Se passi da un rapporto all’altro, le metriche visualizzate nel rapporto visualizzato più di recente persistono. Per visualizzare le metriche predefinite in quel nuovo rapporto, fai clic sull’elenco a discesa [!UICONTROL Add Metrics] , quindi fai clic su [!UICONTROL Show Defaults].
 
 * Facendo clic su [!UICONTROL Clear Defaults] vengono rimosse le metriche predefinite per quel rapporto e vengono ripristinate le metriche predefinite originali per quel rapporto ( [!UICONTROL Page Views] per le proprietà e tutto ciò che è stato impostato in Strumenti di amministrazione per le eVar).
-
