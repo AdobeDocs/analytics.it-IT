@@ -2,13 +2,13 @@
 description: Prima di iniziare a creare suite di rapporti virtuali, devi tenere presenti alcuni aspetti.
 keywords: Suite di rapporti virtuali
 title: Creare suite di rapporti
-feature: Nozioni di base su Reports & Analytics
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 14%
 
 ---
