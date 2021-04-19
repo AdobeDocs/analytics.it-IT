@@ -1,49 +1,53 @@
 ---
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+title: Autorizzazioni del profilo di prodotto per gli strumenti Analytics
+description: Utilizza gli elementi di autorizzazione degli strumenti di Analytics per concedere l’accesso alle funzioni di Adobe Analytics.
+exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 translation-type: tm+mt
-source-wordcount: '547'
-ht-degree: 8%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 9%
 
 ---
+
 # Autorizzazioni del profilo di prodotto per gli strumenti Analytics
 
-Gli elementi delle autorizzazioni Strumenti di Analytics concedono l&#39;accesso alle funzioni all&#39;interno  Adobe Analytics. Gli elementi delle autorizzazioni Strumenti di Analytics non si applicano a una suite di rapporti, ma  l&#39;intero Adobe Analytics.
+Gli elementi di autorizzazione Strumenti di Analytics concedono l’accesso alle funzioni di Adobe Analytics. Gli elementi di autorizzazione Strumenti di Analytics non si applicano a una suite di rapporti, ma all’intero Adobe Analytics.
 
-| Elemento Autorizzazione Strumenti di Analytics | Descrizione |
+| Voce di autorizzazione degli strumenti di Analytics | Descrizione |
 |----|----|
-| Utilizzo delle chiamate server | Consente l&#39;accesso ad Admin (Amministratore) > Server Call Usage (Utilizzo chiamate server). |
-| Gestore codici | Mantenimento per scopi legacy. Consente l&#39;accesso ad Admin (Amministratore) > Code Manager (Gestione codici). Nella maggior parte dei casi, utilizzate le librerie incluse in  Adobe Experience Platform Launch. |
-| Code Manager - Servizi Web | Consente l&#39;accesso a Code Manager tramite l&#39;API 1.4. |
-| Registri | Consente l’accesso ad Admin (Amministratore) > Logs (Registri). |
-| Registri - Servizi Web | Consente l&#39;accesso ai log di pull tramite l&#39;API 1.4. |
-| Gestione traffico | Consente l&#39;accesso ad Admin (Amministratore) > Traffic Management (Gestione traffico). |
-| Gestione autorizzazioni | Non più utilizzato. Consente di accedere all’interfaccia di gestione utenti legacy in Admin (Amministratore) > User Management (Gestione utente). |
-| Autorizzazioni (lettura) - Servizi Web | Non più utilizzato. Consente all&#39;utente di visualizzare le autorizzazioni Analytics legacy tramite l&#39;API Admin. Utilizzate invece l&#39;Adobe Admin Console. |
-| Autorizzazioni (scrittura) - Servizi Web | Non più utilizzato. Consente all&#39;utente di modificare le autorizzazioni Analytics legacy tramite l&#39;API Admin. Utilizzate invece l&#39;Adobe Admin Console. |
-| Sicurezza | Consente l&#39;accesso ad Admin (Amministratore) > Company Settings (Impostazioni società) > Security Manager (Gestione sicurezza). |
-| Supporto | Consente l&#39;accesso ad Admin (Amministratore) > Company Settings (Impostazioni società) > Support Information (Informazioni di supporto). |
-| Servizi web | Consente l&#39;accesso ad Admin (Amministratore) > Company Settings (Impostazioni società) > Web Services (Servizi Web). |
-| Single Sign-On | Non più utilizzato. Consente l&#39;accesso al servizio Single Sign-On obsoleto. |
+| Utilizzo delle chiamate server | Consente l&#39;accesso ad Admin > Server Call Usage (Amministrazione > Utilizzo chiamate al server). |
+| Gestore codici | Mantenuti a scopi legacy. Consente l’accesso ad Amministratore > Gestione codici. Nella maggior parte dei casi, utilizza le librerie incluse in Adobe Experience Platform Launch. |
+| Gestione codici - Servizi Web | Consente di accedere a Code Manager tramite l’API 1.4. |
+| Registri  | Consente l’accesso ad Amministratore > Registri. |
+| Registri - Servizi Web | Consente l’accesso ai registri di pull tramite l’API 1.4. |
+| Gestione traffico | Consente l’accesso ad Amministratore > Gestione traffico. |
+| Gestione autorizzazioni | Non più utilizzato. Consente di accedere all’interfaccia legacy di gestione utenti in Amministratore > Gestione utente. |
+| Autorizzazioni (lettura) - Servizi Web | Non più utilizzato. Consente all’utente di visualizzare le autorizzazioni legacy di Analytics utilizzando l’API amministratore. Utilizza invece Adobe Admin Console. |
+| Autorizzazioni (scrittura) - Servizi Web | Non più utilizzato. Consente all’utente di modificare le autorizzazioni legacy di Analytics utilizzando l’API amministratore. Utilizza invece Adobe Admin Console. |
+| Sicurezza | Consente l&#39;accesso ad Amministratore > Impostazioni società > Gestione sicurezza. |
+| Supporto | Consente l&#39;accesso ad Amministratore > Impostazioni società > Informazioni di supporto. |
+| Servizi web | Consente l&#39;accesso ad Amministratore > Impostazioni società > Servizi Web. |
+| Single Sign-On | Non più utilizzato. Consente di accedere al servizio Single Sign-On obsoleto. |
 | Azioni in sospeso | Consente l&#39;accesso ad Amministratore > Impostazioni società > Azioni in sospeso. |
-| Co-branding | Non più utilizzato. Consente l&#39;accesso ad Admin (Amministratore) > Company Settings (Impostazioni società) > Co-branding. |
+| Co-branding | Non più utilizzato. Consente l&#39;accesso ad Amministratore > Impostazioni società > Co-branding. |
 | Preferenze | Non utilizzato. |
-| Nascondi suite di rapporti | Consente l&#39;accesso ad Admin (Amministratore) > Company Settings (Impostazioni società) > Hide Report Suites (Nascondi suite di rapporti). Consente di nascondere qualsiasi suite di rapporti nell&#39;organizzazione, indipendentemente dal loro accesso alla suite di rapporti. |
+| Nascondi suite di rapporti | Consente di accedere ad Amministratore > Impostazioni società > Nascondi suite di rapporti. Consente di nascondere qualsiasi suite di rapporti nell’organizzazione, indipendentemente dall’accesso alla suite di rapporti. |
 | Utenti con licenza Excel | Non utilizzato. |
-| Activity Map | Consente l&#39;accesso a Strumenti > Activity Map . Consente all&#39;utente di utilizzare l&#39;estensione  Activity Map. |
-| Dati correnti | Abilita l&#39;opzione per visualizzare i dati correnti nei report Reporting e analisi. |
-|  utenti delle licenze Ad Hoc Analysis |  Ad Hoc Analysis è stato portato a termine. Vedere [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
+| Activity Map | Consente di accedere a Strumenti > Activity Map. Consente all’utente di utilizzare l’estensione Activity Map. |
+| Dati correnti | Abilita l’opzione per visualizzare i dati correnti nei rapporti di Reports &amp; Analytics. |
+| Utenti con licenza Ad Hoc Analysis | Ad Hoc Analysis è terminato. Vedere [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | Amministratori app mobili | Non utilizzato. |
-| Accesso al servizio Web | Consente di utilizzare l&#39;API, inclusa l&#39;autenticazione con siti di terze parti e l&#39;invio di chiamate API. |
-| Report Builder | Abilita il pulsante di download in Strumenti > Report Builder e consente all&#39;utente di effettuare l&#39;autenticazione in Microsoft Excel. |
-| Accesso in Analysis Workspace | Consente l&#39;accesso a  Analysis Workspace. Gli utenti devono appartenere a questo gruppo (preferito) o a Accesso a Reporting e analisi per utilizzare  Adobe Analytics. |
-| Accesso a Reports &amp; Analytics | Consente l&#39;accesso a Reporting e analisi. Gli utenti devono appartenere a questo gruppo o  Analysis Workspace Access (opzione preferita) per utilizzare  Adobe Analytics. |
-|  Analysis Workspace: Salva come modello | Consente di accedere a Progetto > Salva come modello in  Analysis Workspace. |
-| Accesso Labs | Consentite agli utenti di accedere ai laboratori e ai prototipi all&#39;interno dei laboratori. |
-| Creazione della metrica calcolata | Consente di creare metriche calcolate in tutte le funzionalità di Analytics. |
-| Creazione di segmenti | Consente di creare e condividere segmenti tra tutte le funzionalità di Analytics. |
+| Accesso al servizio Web | Consente di utilizzare l’API, inclusa l’autenticazione con siti di terze parti e l’invio di chiamate API. |
+| Report Builder | Abilita il pulsante di download in Strumenti > Report Builder e consente all&#39;utente di eseguire l&#39;autenticazione in Microsoft Excel. |
+| Accesso in Analysis Workspace | Consente l’accesso ad Analysis Workspace. Per utilizzare Adobe Analytics, gli utenti devono appartenere a questo gruppo (preferito) o a Accesso a Reports &amp; Analytics . |
+| Accesso a Reports &amp; Analytics | Consente l’accesso a Reports &amp; Analytics. Per utilizzare Adobe Analytics, gli utenti devono appartenere a questo gruppo o ad Analysis Workspace Access (opzione preferita). |
+| Analysis Workspace: Salva come modello | Consente di accedere a Progetto > Salva come modello in Analysis Workspace. |
+| Accesso Labs | Consente agli utenti di accedere a Labs e ai prototipi in Labs. |
+| Creazione di metriche calcolate | Consente di creare metriche calcolate in tutte le funzionalità di Analytics. |
+| Creazione di segmenti | Consente di creare e condividere segmenti in tutte le funzionalità di Analytics. |
 | Gestione di Advertising Analytics | Non utilizzato. |
-| Pubblicazione segmenti | Consente di rendere un segmento un pubblico  Experience Cloud durante la creazione o la modifica di un segmento. |
-| Integrazioni (Crea) | Consente di accedere ad Admin (Amministratore) > Data Connectors (Connettori dati) e di creare connettori dati. |
-| Integrazioni (aggiornamento) | Consente di accedere ad Admin (Amministratore) > Data Connectors (Connettori dati) e di modificare le configurazioni dei connettori esistenti. |
-| Integrazioni (Elimina) | Consente di accedere ad Admin (Amministratore) > Data Connectors (Connettori dati) e di eliminare i connettori dati. |
+| Pubblicazione dei segmenti | Consente di rendere un segmento un pubblico Experience Cloud durante la creazione o la modifica di un segmento. |
+| Integrazioni (Crea) | Consente l’accesso ad Amministratore > Connettori dati e consente all’utente di creare connettori dati. |
+| Integrazioni (aggiornamento) | Consente l&#39;accesso ad Admin > Data Connectors e l&#39;utente può modificare le configurazioni del connettore esistenti. |
+| Integrazioni (Elimina) | Consente l’accesso ad Amministratore > Connettori dati e consente all’utente di eliminare i connettori dati. |
