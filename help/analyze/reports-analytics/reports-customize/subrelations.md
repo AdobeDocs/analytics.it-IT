@@ -2,16 +2,16 @@
 description: Le sottorelazioni complete sono abilitate in tutti i rapporti di conversione, in modo da poter suddividere qualsiasi eVar per un altro eVar. Il menu Raggruppamento per nella tabella dei rapporti corrisponde al menu di reporting standard di Analytics, mantenendo le selezioni coerenti
 title: Sottorelazioni
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Nozioni di base su Reports & Analytics
-role: Business Practices, amministratore
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
-
 
 # Sottorelazioni
 
@@ -56,4 +56,3 @@ In sostanza, le sub-relazioni seguono questi passaggi per compilare il rapporto:
 * Isola le richieste di immagini contenenti gli eventi di successo che stai visualizzando nel rapporto.
 * Restituisce i valori persistenti da ogni variabile di conversione utilizzata nella sottorelazione.
 * Organizza i valori in base all’ordine della sottorelazione. Se una variabile non ha un valore persistente (ad esempio se un eVar non è mai stato definito o è scaduto), verrà inserita in bucket in &quot;None&quot;.
-
