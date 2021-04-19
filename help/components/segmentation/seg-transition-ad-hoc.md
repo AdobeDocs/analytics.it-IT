@@ -2,10 +2,10 @@
 description: Se utilizzi il Generatore di segmenti in Ad Hoc Analysis, le domande frequenti riportate di seguito spiegano cosa accade ai segmenti e alle cartelle esistenti e quali azioni devi intraprendere.
 keywords: segmentazione;segmenti
 title: Guida alla transizione per Ad Hoc Analysis
-feature: Segmenti
+feature: Segmentazione
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 99%
