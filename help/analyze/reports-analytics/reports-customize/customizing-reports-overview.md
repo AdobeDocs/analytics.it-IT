@@ -2,16 +2,16 @@
 description: Dopo aver eseguito un rapporto, puoi personalizzare il rapporto per visualizzare e analizzare i dati in base alle tue esigenze. Puoi filtrare i dati dei rapporti, modificare il modo in cui i dati vengono presentati graficamente, modificare la granularità della data e così via.
 title: Panoramica della personalizzazione dei rapporti
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Nozioni di base su Reports & Analytics
-role: Business Practices, amministratore
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+role: Business Practitioner, Administrator
+exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '876'
 ht-degree: 6%
 
 ---
-
 
 # Panoramica della personalizzazione dei rapporti
 
