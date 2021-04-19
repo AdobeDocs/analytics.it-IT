@@ -2,16 +2,16 @@
 description: Passaggi che descrivono come personalizzare il grafico in modo che sia più utile per il pubblico a cui è destinato.
 title: Modificare i grafici dei rapporti
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Nozioni di base su Reports & Analytics
-role: Business Practices, amministratore
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
-
 
 # Modificare i grafici dei rapporti
 
@@ -68,4 +68,3 @@ Il tipo di grafico disponibile dipende dal tipo di rapporto eseguito. Ad esempio
    **[!UICONTROL Bubble]**: Il grafico a bolle mostra una visualizzazione a bolle delle metriche selezionate in relazione tra loro. La posizione delle bolle mostra le relazioni tra le metriche sull&#39;asse orizzontale e verticale, mentre la dimensione della bolla mostra la metrica principale del rapporto. I grafici a bolle consentono di visualizzare i dati in due dimensioni, in modo da identificare quali elementi sono anomali.
 
    ![](assets/graph_bubble.png)
-
