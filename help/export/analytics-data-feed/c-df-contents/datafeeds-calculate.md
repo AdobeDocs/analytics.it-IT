@@ -2,13 +2,13 @@
 description: Descrive come calcolare le metriche comuni utilizzando i feed di dati.
 keywords: Feed dati;processo;metriche;pre colonna;post colonna;bot;filtro data;stringa evento;comune;formule
 title: Calcolare metriche
-feature: Nozioni di base su Reports & Analytics
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
