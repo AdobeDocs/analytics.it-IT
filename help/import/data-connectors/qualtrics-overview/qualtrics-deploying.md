@@ -33,12 +33,11 @@ Per attivare l’integrazione è necessario completare la procedura guidata di i
    | Token Adobe SiteCatalyst | [Generazione del token Adobe Analytics Qualtrics](../qualtrics-overview/qualtrics-token.md) |
 
 1. **Procedura guidata 2 - Mapping variabili**
- | Elenco risposte Qualtrics | Seleziona una variabile di elenco disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  |
-|—|—|
-| ID risposta Qualtrics  | Seleziona un eVar o una proprietà disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  |
-| Server di tracciamento  |Fornire l’impostazione del server di tracciamento (dominio) utilizzata per tenere traccia dei dati di Adobe Analytics. Utilizza la funzionalità    
-`trackingServerSecure` server di tracciamento se è diverso dall’impostazione standard del server di tracciamento.  |
-| Invii sondaggio Qualtrics  | Seleziona un evento disponibile dalla suite di rapporti (potrebbe essere necessario abilitare un nuovo evento da Report Suite Manager).  |
+   | Elenco risposte Qualtrics | Seleziona una variabile di elenco disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  |
+   |---|---|
+   | ID risposta Qualtrics  | Seleziona un eVar o una proprietà disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  |
+   | Server di tracciamento  |Fornire l’impostazione del server di tracciamento (dominio) utilizzata per tenere traccia dei dati di Adobe Analytics. Utilizza la funzionalità    `trackingServerSecure` server di tracciamento se è diverso dall’impostazione standard del server di tracciamento.  |
+   | Invii sondaggio Qualtrics  | Seleziona un evento disponibile dalla suite di rapporti (potrebbe essere necessario abilitare un nuovo evento da Report Suite Manager).  |
 
 1. **Procedura guidata 3**: Non è necessario nulla, solo informativo.
 
