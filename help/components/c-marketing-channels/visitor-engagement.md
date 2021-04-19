@@ -2,13 +2,13 @@
 description: Scopri come specificare la scadenza del coinvolgimento del visitatore nei canali di marketing.
 subtopic: Marketing channels
 title: Scadenza del canale di marketing
-feature: Nozioni di base su Reports & Analytics
+feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 3%
 
 ---
