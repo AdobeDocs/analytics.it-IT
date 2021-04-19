@@ -1,19 +1,23 @@
 ---
-source-git-commit: 0912f05e64eccc068f86aead145c5c06e38b0f37
-workflow-type: tm+mt
+title: Analytics in Adobe Admin Console
+description: Scopri come utilizzare Adobe Admin Console per gestire prodotti e utenti di Analytics.
+exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 translation-type: tm+mt
-source-wordcount: '69'
-ht-degree: 11%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 43%
 
 ---
-# Analisi in Adobe Admin Console
 
-Utilizzate [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) per gestire prodotti e utenti di Analytics. Adobe Admin Console si trova in [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+# Analytics in Adobe Admin Console
 
-In questo capitolo vengono illustrati i concetti che è necessario comprendere sui profili di prodotto e sulle autorizzazioni specifici di Analytics in Adobe Admin Console.
+Utilizza [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) per gestire prodotti e utenti di Analytics. Adobe Admin Console si trova all&#39;indirizzo [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+
+Questo capitolo spiega i concetti necessari per comprendere i profili di prodotto e le autorizzazioni specifici di Analytics in Adobe Admin Console.
 
 * Autorizzazioni
 
-   * [Profili di prodotto per  Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-   * [Autorizzazioni del profilo di prodotto per gli strumenti delle suite di rapporti](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Autorizzazioni del profilo di prodotto per gli strumenti di Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
+   * [Profili di prodotto per Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
+   * [Autorizzazioni del profilo di prodotto per gli strumenti Report Suite](/help/admin/admin-console/permissions/report-suite-tools.md)
+   * [Autorizzazioni del profilo di prodotto per gli strumenti Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
