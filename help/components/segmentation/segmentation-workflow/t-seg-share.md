@@ -1,11 +1,11 @@
 ---
 description: A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
 title: Condividere segmenti
-feature: Segmenti
+feature: Segmentazione
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 100%
