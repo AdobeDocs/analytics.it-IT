@@ -1,11 +1,11 @@
 ---
 description: All’interno del Gestore segmenti puoi impostare un flusso di lavoro che include l’approvazione dei segmenti per vari livelli di applicazione, per reparti o gruppi specifici e in linea con i criteri di reporting.
 title: Approvare segmenti
-feature: Segmenti
+feature: Segmentazione
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 19%
