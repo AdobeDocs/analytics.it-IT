@@ -2,8 +2,8 @@
 description: Utilizza l’analisi dei contributi per identificare anomalie statistiche e correlazioni nei dati.
 title: Panoramica dell’analisi dei contributi
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: Strumenti di intelligenza artificiale
-role: Business Practices, amministratore
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

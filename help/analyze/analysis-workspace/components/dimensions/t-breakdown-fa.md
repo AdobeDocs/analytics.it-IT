@@ -3,8 +3,8 @@ description: È possibile suddividere dimensioni ed elementi dimensionali in Ana
 keywords: Analysis Workspace
 title: Suddividere dimensioni
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

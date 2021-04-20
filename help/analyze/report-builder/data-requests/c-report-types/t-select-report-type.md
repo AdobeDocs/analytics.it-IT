@@ -3,7 +3,7 @@ description: Passaggi per selezionare il tipo di rapporto di base per la richies
 title: Selezionare una suite di rapporti
 uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 title: Guida utente di Labs
 description: Anteprima di progetti prototipo per Adobe Analytics
 feature: Labs
-role: Amministratore
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Attiva le autorizzazioni per le metriche del traffico, le metriche 
 keywords: gruppi;autorizzazioni
 subtopic: Users and groups
 title: Personalizzare le autorizzazioni delle metriche
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
 translation-type: tm+mt

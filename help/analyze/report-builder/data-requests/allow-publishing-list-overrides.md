@@ -3,7 +3,7 @@ description: Quando pianifichi un rapporto, puoi scegliere una lista di pubblica
 title: Consenti sostituzioni elenco di pubblicazione
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: Creare una coorte ed eseguire un rapporto di analisi per coorte in 
 keywords: Analysis Workspace
 title: Esecuzione di un rapporto di analisi per coorte
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: Visualizzazioni
-role: Business Practices, amministratore
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

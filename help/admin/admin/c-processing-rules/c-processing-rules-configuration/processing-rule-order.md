@@ -2,7 +2,7 @@
 description: Per utilizzare in modo efficace le regole di elaborazione è essenziale capire quando vengono applicate durante la raccolta dei dati.
 subtopic: Processing rules
 title: Ordine di elaborazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt

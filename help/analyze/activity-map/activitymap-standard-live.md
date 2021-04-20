@@ -3,7 +3,7 @@ description: Activity Map fornisce due modalità di base per la generazione di r
 title: Modalità standard e modalità Live
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

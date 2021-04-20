@@ -2,7 +2,7 @@
 description: Le suite di rapporti virtuali e l’assegnazione di tag a più suite hanno vantaggi diversi. Scopri quale è meglio per la tua organizzazione.
 keywords: Suite di rapporti virtuale,VRS
 title: Suite di rapporti virtuali e considerazioni sull’assegnazione di tag a più suite
-feature: Impostazioni di Suite di rapporti
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt

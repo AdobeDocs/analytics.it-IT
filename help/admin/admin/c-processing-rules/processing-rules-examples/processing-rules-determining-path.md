@@ -2,7 +2,7 @@
 description: Puoi copiare il valore di un eVar in un prop per abilitare il percorso.
 subtopic: Processing rules
 title: Determinare un percorso copiando un valore eVar in un prop
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 translation-type: tm+mt

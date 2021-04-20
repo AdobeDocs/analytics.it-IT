@@ -1,7 +1,7 @@
 ---
 description: Domande frequenti sulla segmentazione.
 title: Domande frequenti
-feature: Segmentazione
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 translation-type: tm+mt

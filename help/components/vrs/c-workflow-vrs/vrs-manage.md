@@ -2,7 +2,7 @@
 description: Gestione suite di rapporti virtuale consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
 keywords: Suite di rapporti virtuali
 title: Gestione delle suite di rapporti virtuali
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt

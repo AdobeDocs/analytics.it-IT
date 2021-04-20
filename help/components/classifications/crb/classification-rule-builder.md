@@ -2,7 +2,7 @@
 description: Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 subtopic: Classifications
 title: Flusso di lavoro di Generatore regole di classificazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 translation-type: tm+mt

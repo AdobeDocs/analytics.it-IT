@@ -3,7 +3,7 @@ description: Puoi distinguere i collegamenti personalizzando l’ID collegamento
 title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Fornisce impostazioni comuni per un sito web che fornisce articoli e video di supporto ai prodotti.
 title: Supporto media
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt

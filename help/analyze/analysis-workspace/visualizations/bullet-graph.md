@@ -2,8 +2,8 @@
 description: È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
 title: Grafico bullet
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-feature: Visualizzazioni
-role: Business Practices, amministratore
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Personalizza l’autorizzazione del gruppo per gli strumenti di Ana
 keywords: gruppi;autorizzazioni
 subtopic: Users and groups
 title: Panoramica di personalizzazione accesso ai rapporti
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt

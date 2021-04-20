@@ -2,7 +2,7 @@
 description: Fai clic sull’icona i (Informazioni) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
 keywords: Suite di rapporti virtuali
 title: Visualizzazione delle informazioni sulle suite di rapporti virtuali
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

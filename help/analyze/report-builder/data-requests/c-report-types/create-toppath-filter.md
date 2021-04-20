@@ -3,7 +3,7 @@ description: Descrive come creare rapporti di percorso con filtri predefiniti.
 title: Filtrare i rapporti di percorso aggiungendo richieste dipendenti
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

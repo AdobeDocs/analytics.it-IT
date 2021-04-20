@@ -1,7 +1,7 @@
 ---
 description: Puoi creare una nuova suite di rapporti selezionando un modello predefinito o utilizzando una delle suite di rapporti esistenti da usare come modello.
 title: 'Nuova suite di rapporti: impostazioni'
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt

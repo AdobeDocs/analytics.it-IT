@@ -1,7 +1,7 @@
 ---
 description: Ti consente di utilizzare il segmento per l’attività di marketing nella Libreria tipi di pubblico, Target e nell’Audience Manager.
 title: Pubblicare segmenti in Experience Cloud
-feature: Segmentazione
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt

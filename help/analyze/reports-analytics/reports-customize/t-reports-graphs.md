@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come personalizzare il grafico in modo che sia più utile per il pubblico a cui è destinato.
 title: Modificare i grafici dei rapporti
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt

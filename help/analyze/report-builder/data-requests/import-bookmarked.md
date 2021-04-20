@@ -3,7 +3,7 @@ description: Tutti i rapporti con segnalibri e i rapporti dashboard sono ora ele
 title: Importare rapporti con segnalibri e minirapporti dashboard
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Procedura che descrive come configurare il rilevamento di ricerche a pagamento.
 title: Configurazione del rilevamento di ricerche a pagamento
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 translation-type: tm+mt

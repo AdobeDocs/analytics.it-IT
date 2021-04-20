@@ -2,7 +2,7 @@
 description: Report Builder 5.2 supporta le metriche calcolate unificate Adobe Analytics. Tra le altre innovazioni, tutte le metriche calcolate ora dispongono di un ID globale, quindi non sono più limitate a una suite di rapporti.
 title: Metriche calcolate
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

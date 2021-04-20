@@ -1,7 +1,7 @@
 ---
 description: Descrive un flusso di lavoro consigliato per i segmenti creati con il Generatore di segmenti e gestiti tramite il Gestore segmenti.
 title: Panoramica sulla segmentazione del flusso di lavoro
-feature: Segmentazione
+feature: Segmentation
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: Puoi importare (caricare) i dati delle classificazioni utilizzando il browser. Questo metodo limita il caricamento dei dati di classificazione a una singola suite di rapporti
 subtopic: Classifications
 title: Importazione browser
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 translation-type: tm+mt

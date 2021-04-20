@@ -1,7 +1,7 @@
 ---
 description: La pagina Gestione del traffico consente di specificare le modifiche previste per il volume di traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per garantire che il traffico possa essere tracciato ed elaborato in modo tempestivo.
 title: Gestione del traffico
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 translation-type: tm+mt

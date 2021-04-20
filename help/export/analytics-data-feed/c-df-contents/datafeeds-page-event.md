@@ -2,7 +2,7 @@
 description: Tabella di ricerca per determinare il tipo di hit in base al valore page_event .
 keywords: Feed di dati;pagina;evento;page_event;post_page_event
 title: Ricerca eventi pagina
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt

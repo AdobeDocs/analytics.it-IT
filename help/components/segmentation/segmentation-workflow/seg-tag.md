@@ -1,7 +1,7 @@
 ---
 description: Nel Gestore segmenti, assegnare tag ai segmenti ti consente di organizzarli.
 title: Assegnare tag ai segmenti
-feature: Segmentazione
+feature: Segmentation
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: Introduzione ai termini di analisi web comunemente utilizzati nei rapporti di marketing.
 title: Termini comuni
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Nozioni di base su Reports & Analytics, Reports and Analytics
+feature: Reports & Analytics Basics,Reports and analytics
 role: Business Practitioner, Administrator
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 translation-type: tm+mt

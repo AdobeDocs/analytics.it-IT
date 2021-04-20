@@ -3,7 +3,7 @@ description: Attiva le autorizzazioni degli utenti per Accesso API, Gestione sui
 keywords: gruppi;autorizzazioni
 subtopic: Users and groups
 title: Personalizzare le autorizzazioni degli strumenti delle suite di rapporti
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt

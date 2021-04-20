@@ -1,7 +1,7 @@
 ---
 description: I segmenti sequenziali vengono creati utilizzando l’operatore THEN, anziché AND o OR. THEN implica che si verifica un criterio di segmento, seguito da un altro. Per impostazione predefinita, un segmento sequenziale identifica tutti i dati corrispondenti, mostrando il filtro “Includi tutti”. I segmenti sequenziali possono essere ulteriormente filtrati in un sottoinsieme di hit corrispondenti utilizzando le opzioni “Solo prima della sequenza” e “Solo dopo la sequenza”.
 title: Creare segmenti sequenziali
-feature: Segmentazione
+feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 translation-type: tm+mt

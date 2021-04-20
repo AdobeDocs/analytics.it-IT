@@ -2,7 +2,7 @@
 description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto mentre viene inviato al reporting.
 subtopic: Processing rules
 title: Panoramica sulle regole di elaborazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt

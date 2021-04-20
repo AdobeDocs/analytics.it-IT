@@ -3,8 +3,8 @@ description: Scopri le nozioni di base per lavorare su un progetto Workspace.
 keywords: Analysis Workspace
 title: Panoramica sui progetti
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

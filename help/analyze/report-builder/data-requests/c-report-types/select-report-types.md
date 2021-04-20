@@ -3,7 +3,7 @@ description: Puoi selezionare il tipo di rapporto di base per la richiesta di da
 title: Panoramica sui tipi di rapporto
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

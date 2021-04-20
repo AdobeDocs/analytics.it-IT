@@ -1,8 +1,8 @@
 ---
 title: Tabella a forma libera
 description: Le tabelle a forma libera sono alla base dell’analisi dei dati in Workspace
-feature: Tabelle freeform
-role: Business Practices, amministratore
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

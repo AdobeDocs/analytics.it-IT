@@ -2,7 +2,7 @@
 description: Se si utilizza una variabile comune, ad esempio q, per compilare i termini di ricerca, è possibile utilizzare le regole di elaborazione per popolare l'eVar dei termini di ricerca interna con questi valori.
 subtopic: Processing rules
 title: Compilare termini di ricerca interni utilizzando un parametro di stringa query
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 translation-type: tm+mt

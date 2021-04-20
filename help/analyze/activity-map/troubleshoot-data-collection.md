@@ -2,7 +2,7 @@
 title: Risolvere i problemi relativi alla raccolta dati di Activity Map
 description: Determinare il motivo per cui non è possibile visualizzare i dati di Activity Map nelle richieste di immagini
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

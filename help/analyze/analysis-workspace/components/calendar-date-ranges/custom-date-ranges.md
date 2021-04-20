@@ -3,8 +3,8 @@ description: Crea intervalli di date personalizzati in Analysis Workspace e salv
 keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

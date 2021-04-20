@@ -2,7 +2,7 @@
 description: L’analisi delle pagine in tempo reale (modalità Live) consente di ottenere risultati con granularità al minuto in tempo reale.
 title: Analisi delle pagine in tempo reale (Live)
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

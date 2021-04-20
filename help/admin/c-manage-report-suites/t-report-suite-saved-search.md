@@ -1,7 +1,7 @@
 ---
 description: Passaggi che descrivono come definire un set di criteri che determinano i membri di una ricerca suite di rapporti.
 title: Salvare una ricerca suite di rapporti
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 translation-type: tm+mt

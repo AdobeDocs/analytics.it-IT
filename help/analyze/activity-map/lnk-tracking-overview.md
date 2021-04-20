@@ -3,7 +3,7 @@ description: 'Activity Map tiene traccia dei collegamenti con un algoritmo più 
 title: Tracciamento solido dei collegamenti
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

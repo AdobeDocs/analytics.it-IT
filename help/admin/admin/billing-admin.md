@@ -1,7 +1,7 @@
 ---
 description: La pagina Fatturazione ti consente di accedere alle informazioni di fatturazione, inclusi i dettagli del traffico per ogni suite di rapporti. Solo un amministratore autorizzato ha accesso a questa pagina.
 title: Fatturazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt

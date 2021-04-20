@@ -3,7 +3,7 @@ description: In Modalità standard, esporta i dati di Analytics da Activity Map 
 title: Esportare in file CSV
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

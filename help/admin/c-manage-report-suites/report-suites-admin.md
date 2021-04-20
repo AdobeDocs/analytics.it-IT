@@ -1,7 +1,7 @@
 ---
 description: Una  suite di rapporti definisce il reporting indipendente e completo su un sito web scelto, su un insieme di siti web o su un sottoinsieme di pagine web. Solitamente, una suite di rapporti è un sito Web, ma può essere un segmento globale in cui hai combinato diversi numeri di siti per ottenere un totale. Quando accedi a una soluzione Adobe Analytics, selezioni una suite di rapporti da utilizzare (tranne quando utilizzi roll-up che combinano suite di rapporti). Inoltre, una suite di rapporti può essere più piccola di un sito web, se desideri eseguire rapporti per una parte del sito. Le soluzioni Analytics si aggregano e generano rapporti su questi archivi di dati. L’amministratore di Report Suite Manager ti consente di definire le regole che disciplinano il modo in cui i dati vengono elaborati in una suite di rapporti.
 title: Report Suite Manager
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Ora puoi combinare questi due tipi di metriche in una stessa richie
 title: Combinare le metriche del traffico e del commercio nella stessa richiesta
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

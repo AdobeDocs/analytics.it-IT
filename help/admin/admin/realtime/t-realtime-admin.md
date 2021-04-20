@@ -1,7 +1,7 @@
 ---
 description: Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
 title: Configurazione rapporti in tempo reale
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 translation-type: tm+mt

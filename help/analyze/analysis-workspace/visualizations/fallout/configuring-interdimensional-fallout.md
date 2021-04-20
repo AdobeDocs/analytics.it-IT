@@ -2,8 +2,8 @@
 description: La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
 title: Abbandono interdimensionale
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualizzazioni
-role: Business Practices, amministratore
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

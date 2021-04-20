@@ -3,7 +3,7 @@ description: Esempi, note e note di sintassi sull'utilizzo di intervalli di date
 title: Esempi di intervalli di date utilizzando espressioni personalizzate
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

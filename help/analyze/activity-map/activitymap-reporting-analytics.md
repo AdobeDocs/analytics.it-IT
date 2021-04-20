@@ -3,7 +3,7 @@ description: Descrive come impostare le autorizzazioni e quali dimensioni sono d
 title: Generazione di rapporti Activity Map in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

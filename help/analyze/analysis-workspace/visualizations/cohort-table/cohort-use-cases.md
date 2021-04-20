@@ -3,8 +3,8 @@ description: Esempi di utilizzo di analisi per coorte.
 keywords: Analysis Workspace
 title: Casi di utilizzo dell’analisi per coorte
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: Visualizzazioni
-role: Business Practices, amministratore
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

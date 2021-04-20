@@ -1,7 +1,7 @@
 ---
 description: Scopri le diverse opzioni di salvataggio, tra cui salvataggio automatico, salvataggio con nome, salvataggio con nome e apertura delle versioni precedenti.
 title: Salvare i progetti
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

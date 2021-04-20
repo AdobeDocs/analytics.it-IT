@@ -1,7 +1,7 @@
 ---
 description: Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
 title: Descrizioni report personalizzati
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt

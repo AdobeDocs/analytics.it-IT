@@ -2,8 +2,8 @@
 description: In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 title: Panoramica di Rilevamento delle anomalie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: Strumenti di intelligenza artificiale
-role: Business Practices, amministratore
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

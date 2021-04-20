@@ -2,8 +2,8 @@
 description: Utilizza la visualizzazione a barre orizzontali in un progetto Workspace.
 title: Barre orizzontali e Barre orizzontali sovrapposte
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-feature: Visualizzazioni
-role: Business Practices, amministratore
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

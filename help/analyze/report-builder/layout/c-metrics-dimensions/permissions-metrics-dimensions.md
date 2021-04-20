@@ -3,7 +3,7 @@ description: Adobe Report Builder ora dispone di impostazioni di autorizzazione 
 title: Autorizzazioni di accesso utente per dimensioni e metriche
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

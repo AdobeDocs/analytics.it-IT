@@ -2,8 +2,8 @@
 description: Scopri come creare collegamenti condivisibili a progetti o visualizzazioni
 keywords: Condivisione Analysis Workspace
 title: Creare collegamenti condivisibili
-feature: Cura e condivisione
-role: Business Practices, amministratore
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

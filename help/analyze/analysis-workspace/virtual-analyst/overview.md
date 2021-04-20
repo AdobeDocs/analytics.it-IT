@@ -1,8 +1,8 @@
 ---
 title: Analista virtuale
 description: Scopri le funzionalità di Adobe Analytics che contribuiscono all’uso di Analista virtuale.
-feature: Strumenti di intelligenza artificiale
-role: Business Practices, amministratore
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

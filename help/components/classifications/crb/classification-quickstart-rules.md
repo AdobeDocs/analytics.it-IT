@@ -2,7 +2,7 @@
 description: Le regole di classificazione cercano regolarmente termini non classificati. Se viene trovata una corrispondenza alla regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Puoi inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 subtopic: Classifications
 title: Regole di classificazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

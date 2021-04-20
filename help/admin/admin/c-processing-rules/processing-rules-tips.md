@@ -2,7 +2,7 @@
 description: Questa sezione contiene le linee guida per testare le regole di elaborazione e un elenco di errori comuni da evitare.
 subtopic: Processing rules
 title: Suggerimenti e trucchi per le regole di elaborazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt

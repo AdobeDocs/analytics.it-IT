@@ -1,8 +1,8 @@
 ---
 title: Guida agli strumenti di Analytics
 description: Documentazione del prodotto e supporto autonomo per Analysis Workspace, Adobe Analytics Dashboards, Activity Map, Report Builder, API di reporting e Reports & Analytics.
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

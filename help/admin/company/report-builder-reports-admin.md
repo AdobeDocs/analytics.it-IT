@@ -1,7 +1,7 @@
 ---
 description: Gestisci la licenza assegnata agli utenti del generatore di report.
 title: Report del Report Builder
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 translation-type: tm+mt

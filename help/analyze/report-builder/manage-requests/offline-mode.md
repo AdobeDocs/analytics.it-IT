@@ -3,7 +3,7 @@ description: La modalità offline restituisce i dati dei segnaposto per accelera
 title: Modalità offline per la creazione e la modifica delle richieste
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Prima di utilizzare Reports and Analytics, è necessario comprendere le attività di accesso e configurazione di base e le modalità di accesso alle informazioni sull’account.
 title: Introduzione a Reports and Analytics
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Elenca i parametri del browser non compatibili con l’utilizzo di 
 title: Risoluzione dei problemi relativi alle estensioni del browser
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

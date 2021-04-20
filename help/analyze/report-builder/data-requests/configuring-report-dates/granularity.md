@@ -3,7 +3,7 @@ description: Nel passaggio 1 della Creazione guidata richieste è possibile appl
 title: Granularity (Granularità)
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

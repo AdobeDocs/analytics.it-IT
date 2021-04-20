@@ -2,7 +2,7 @@
 description: Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) utilizzando le regole di elaborazione.
 subtopic: Processing rules
 title: Dimensioni disponibili per le regole di elaborazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt

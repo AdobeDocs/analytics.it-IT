@@ -1,7 +1,7 @@
 ---
 description: Gli elenchi di pubblicazione consentono di inviare facilmente vari rapporti specifici per diversi gruppi dell’organizzazione senza creare diversi rapporti pianificati separati. Gli elenchi di pubblicazione sono utili se disponi di suite di rapporti specifiche per posizione e desideri fornire a ciascun reparto una copia di un dashboard specifico. In alternativa, puoi utilizzare gli elenchi di pubblicazione per inviare dati a più persone senza dover digitare separatamente i loro indirizzi e-mail, se lavori con una singola suite di rapporti.
 title: Elenchi di pubblicazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt

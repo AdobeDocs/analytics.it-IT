@@ -1,8 +1,8 @@
 ---
 description: Modalità di calcolo dei totali in Workspace.
 title: Totali in Workspace
-feature: Tabelle freeform
-role: Business Practices, amministratore
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

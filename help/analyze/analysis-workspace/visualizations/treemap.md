@@ -2,8 +2,8 @@
 description: Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati.
 title: Mappa ad albero
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
-feature: Visualizzazioni
-role: Business Practices, amministratore
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

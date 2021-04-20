@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come effettuare l’escape dei dati di classificazione nel file di classificazione.
 subtopic: Classifications
 title: Esci dai dati di classificazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 translation-type: tm+mt

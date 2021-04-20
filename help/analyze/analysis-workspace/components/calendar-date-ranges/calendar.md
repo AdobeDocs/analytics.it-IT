@@ -2,8 +2,8 @@
 description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 title: Panoramica del calendario e degli intervalli di date
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Casi di utilizzo comuni per le regole di elaborazione.
 subtopic: Processing rules
 title: Esempi di regole di elaborazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 804190bd-30f0-4001-9569-6352e20bb00b
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
 translation-type: tm+mt

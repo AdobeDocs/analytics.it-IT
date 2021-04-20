@@ -3,7 +3,7 @@ description: Nel layout personalizzato puoi trasformare una colonna metrica in u
 title: Creare un micrografico
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

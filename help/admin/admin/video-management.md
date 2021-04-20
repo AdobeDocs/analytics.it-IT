@@ -1,7 +1,7 @@
 ---
 description: Puoi designare un set di Variabili di conversione personalizzate (eVar) ed Eventi personalizzati da utilizzare nel tracciamento e nel reporting sui video.
 title: Gestione video
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 translation-type: tm+mt

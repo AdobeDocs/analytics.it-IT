@@ -2,7 +2,7 @@
 description: Il primo passaggio durante la creazione di una richiesta in Report Builder.
 title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

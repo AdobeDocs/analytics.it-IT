@@ -2,8 +2,8 @@
 description: Disattiva il rilevamento delle anomalie per qualsiasi metrica.
 title: Disattivare il rilevamento delle anomalie
 uuid: d270d530-19da-4ee5-99a9-258050f8ae95
-feature: Strumenti di intelligenza artificiale
-role: Business Practices, amministratore
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Puoi scaricare i dati da Analysis Workspace copiandoli oppure in formato PDF e CSV.
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: Cura e condivisione
-role: Business Practices, amministratore
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

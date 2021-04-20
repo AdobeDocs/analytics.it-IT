@@ -2,7 +2,7 @@
 description: Suggerimenti e best practice per i nuovi utenti delle suite di rapporti virtuali.
 keywords: Suite di rapporti virtuali
 title: Domande frequenti su VRS
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt

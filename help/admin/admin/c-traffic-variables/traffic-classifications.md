@@ -2,7 +2,7 @@
 description: Le classificazioni del traffico ti consentono di classificare le variabili del traffico (proprietà). Le classificazioni del traffico possono utilizzare solo classificazioni di testo.
 subtopic: Classifications
 title: Classificazioni traffico
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 translation-type: tm+mt

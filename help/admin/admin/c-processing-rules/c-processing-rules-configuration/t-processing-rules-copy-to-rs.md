@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come copiare le regole di elaborazione da una suite di rapporti e sostituirle o aggiungerle a un'altra suite di rapporti.
 subtopic: Processing rules
 title: Copiare le regole di elaborazione in un'altra suite di rapporti
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 translation-type: tm+mt

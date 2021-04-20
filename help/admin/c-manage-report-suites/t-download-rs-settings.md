@@ -1,7 +1,7 @@
 ---
 description: Passaggi che descrivono come generare un foglio di calcolo Excel contenente tutte le impostazioni per la suite di rapporti selezionata.
 title: Scaricare le impostazioni delle suite di rapporti
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 translation-type: tm+mt

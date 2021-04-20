@@ -3,7 +3,7 @@ description: Prima di iniziare a mappare gli elementi sul foglio di calcolo, acc
 title: Mappare metriche e dimensioni alle celle
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

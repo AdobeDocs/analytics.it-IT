@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come aggiungere un account utente.
 subtopic: Users and groups
 title: Aggiungere un account utente
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 exl-id: b81f175d-5684-4eb4-b63b-9ee889fe76f1
 translation-type: tm+mt

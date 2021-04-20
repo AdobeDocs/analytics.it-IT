@@ -2,8 +2,8 @@
 description: Fattori che incidono sulle prestazioni e possibili ottimizzazioni di Workspace
 title: Fattori prestazionali e ottimizzazione di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

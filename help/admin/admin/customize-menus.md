@@ -1,7 +1,7 @@
 ---
 description: Questa funzione ti consente di personalizzare i menu dei rapporti visualizzati da un utente in Reports & Analytics. Puoi mostrare o nascondere i rapporti e spostarli in cartelle diverse tra tutti gli utenti. Questa funzione è particolarmente utile se l’organizzazione utilizza solo alcuni rapporti e non desidera ingombrare il menu a sinistra con dati inutilizzati o irrilevanti.
 title: Personalizzazione del menu
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Se si protegge il foglio di lavoro (bloccando le celle), non è pos
 title: Elementi del foglio di lavoro protetto
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Gli eventi possono essere impostati in base ai valori della pagina o in base a valori specifici di una variabile.
 subtopic: Processing rules
 title: Impostare l'evento di visualizzazione prodotto dalla pagina di panoramica prodotto
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
 translation-type: tm+mt

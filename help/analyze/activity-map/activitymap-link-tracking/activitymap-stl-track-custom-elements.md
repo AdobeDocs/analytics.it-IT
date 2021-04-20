@@ -2,7 +2,7 @@
 title: Utilizzare il metodo tl() con Activity Map
 description: Puoi utilizzare il metodo tl() per tenere traccia degli elementi personalizzati e configurare il rendering di sovrapposizione per il contenuto dinamico.
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

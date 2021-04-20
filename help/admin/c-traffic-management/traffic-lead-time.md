@@ -1,7 +1,7 @@
 ---
 description: Ad Adobe, è necessario un preavviso per le nuove impostazioni account, i picchi di traffico e l’aumento del traffico. L'hardware deve essere assegnato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sul sistema nel suo complesso.
 title: Tempo di lead richiesto per aumento di traffico
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt

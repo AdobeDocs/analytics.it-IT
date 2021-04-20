@@ -3,7 +3,7 @@ description: È possibile specificare un intervallo di date selezionando le cell
 title: Date da una cella
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

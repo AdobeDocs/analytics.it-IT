@@ -3,7 +3,7 @@ description: Dati di tabella che descrivono le colonne nel feed di dati.
 keywords: Feed di dati;colonne
 subtopic: data feeds
 title: Riferimento colonna dati
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt

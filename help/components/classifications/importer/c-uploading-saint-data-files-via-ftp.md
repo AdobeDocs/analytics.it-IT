@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come caricare i file di dati tramite FTP.
 subtopic: Classifications
 title: Importazione FTP
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 translation-type: tm+mt

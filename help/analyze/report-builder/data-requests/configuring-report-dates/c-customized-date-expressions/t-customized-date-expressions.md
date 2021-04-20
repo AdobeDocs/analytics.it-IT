@@ -3,7 +3,7 @@ description: Puoi specificare un intervallo di date complesso creando un’espre
 title: 'Espressioni data personalizzate: panoramica'
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

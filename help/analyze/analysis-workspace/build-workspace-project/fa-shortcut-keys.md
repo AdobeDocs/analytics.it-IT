@@ -2,8 +2,8 @@
 description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
 keywords: Analysis Workspace
 title: Tasti di scelta rapida
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 description: Elenco dei messaggi di errore in Adobe Analysis Workspace e nei relativi componenti
 title: Messaggi di errore comuni in Analysis Workspace
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

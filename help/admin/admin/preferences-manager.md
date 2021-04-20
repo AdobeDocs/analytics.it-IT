@@ -1,7 +1,7 @@
 ---
 description: La pagina Preferenze Manager ti consente di configurare come eseguire il rendering dell’output del rapporto Excel e valori separati da virgole (CSV).
 title: Preferenze Manager
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
 exl-id: 9ead47e3-ab43-4789-ba8e-a6b7be7f750e
 translation-type: tm+mt

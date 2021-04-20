@@ -2,7 +2,7 @@
 description: È possibile compilare una variabile utilizzando un parametro di stringa query.
 subtopic: Processing rules
 title: Compilare un ID campagna da un parametro di stringa query
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
 translation-type: tm+mt

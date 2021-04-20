@@ -1,7 +1,7 @@
 ---
 description: La funzionalità dei segmenti ora è diversa principalmente per gli utenti amministratori e per i non amministratori.
 title: Diritti del segmento per ruolo
-feature: Segmentazione
+feature: Segmentation
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 translation-type: tm+mt

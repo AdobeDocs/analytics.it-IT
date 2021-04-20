@@ -2,7 +2,7 @@
 description: Utilizza le suddivisioni quando vuoi saperne di più su come un elemento o segmento di report si relaziona ad altri report. Questo viene spesso chiamato "scomposizione" di un rapporto per un altro.
 title: Suddivisioni
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt

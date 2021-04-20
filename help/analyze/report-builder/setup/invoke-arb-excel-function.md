@@ -3,7 +3,7 @@ description: Questa funzionalità integra ulteriormente l'utilizzo del Report Bu
 title: Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

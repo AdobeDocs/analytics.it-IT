@@ -2,7 +2,7 @@
 description: Le regole di elaborazione possono attivare eventi in base a variabili di dati contestuali.
 subtopic: Processing rules
 title: Impostare un evento utilizzando una variabile di dati di contesto
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 translation-type: tm+mt

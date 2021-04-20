@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come assegnare gli elementi dell’account utente (dashboard, metriche calcolate, eventi di calendario, avvisi, segnalibri, segmenti, progetti Analysis Workspace e progetti pianificati) da un account utente a quello di un altro utente.
 subtopic: Users and groups
 title: Trasferimento elementi dell'account utente
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 translation-type: tm+mt

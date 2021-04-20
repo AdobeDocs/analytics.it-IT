@@ -1,7 +1,7 @@
 ---
 description: Applicare uno o più segmenti a un rapporto dalla barra dei segmenti.
 title: Selezionare e applicare segmenti
-feature: Segmentazione
+feature: Segmentation
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt

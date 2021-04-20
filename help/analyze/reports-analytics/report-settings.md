@@ -2,7 +2,7 @@
 description: Impostazioni che definiscono la modalità di visualizzazione di tutti i rapporti e informazioni che mappano le opzioni di menu predefinite alla loro posizione nel menu semplificato.
 title: Impostazioni di visualizzazione e navigazione del rapporto
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Ciascuna tabella di confronto principale mostra un punteggio di differenza calcolato da vari test statistici, in base al confronto eseguito. Tuttavia, indipendentemente dal test utilizzato, il punteggio di differenza è incluso tra 0 e 1.
 keywords: Analysis Workspace, segmento IQ
 title: Test statistici utilizzati nel confronto dei segmenti
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 role: Business Practitioner, Administrator
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03

@@ -1,7 +1,7 @@
 ---
 description: Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con Data Warehouse. In questa tabella sono elencate le funzioni supportate.
 title: Compatibilità dei segmenti con Data Warehouse
-feature: Segmentazione
+feature: Segmentation
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 translation-type: tm+mt

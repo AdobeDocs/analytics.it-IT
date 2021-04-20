@@ -3,7 +3,7 @@ description: Scaricare e modificare le cartelle di lavoro condivise.
 title: Scaricare una cartella di lavoro
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

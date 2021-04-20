@@ -3,7 +3,7 @@ description: Puoi assegnare un nome al rapporto e configurare la modalità di vi
 title: Formattare le intestazioni di visualizzazione
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

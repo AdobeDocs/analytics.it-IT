@@ -2,7 +2,7 @@
 description: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall’utente. I segmenti si basano su hit, visite e visitatori.
 title: Segmentazione di Analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 021cd591-4e87-4351-bfee-9e3cc79a6a45
 translation-type: tm+mt

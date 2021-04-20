@@ -1,7 +1,7 @@
 ---
 description: Le variabili di traffico di Custom Insight (o proprietà) consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito web.
 title: Panoramica della variabile traffico (prop)
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
 translation-type: tm+mt

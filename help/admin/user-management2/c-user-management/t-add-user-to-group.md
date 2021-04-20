@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come aggiungere un utente a un gruppo.
 subtopic: Users and groups
 title: Aggiungere un utente a un gruppo
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
 exl-id: f15696a9-3475-4ef6-8d23-3e4e12732b31
 translation-type: tm+mt

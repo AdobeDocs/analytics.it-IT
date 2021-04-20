@@ -1,7 +1,7 @@
 ---
 description: Un gruppo è una raccolta di utenti a cui si desidera assegnare un set comune di autorizzazioni e accessi. Ad esempio, se disponi di 50 utenti per rapporti di marketing, ma solo 20 hanno bisogno dell’accesso ad analisi ad hoc, puoi creare un gruppo per questi 20 utenti.
 title: Gestione dei gruppi
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: e5596397-f07b-4887-bd8c-6a6dea44a07c
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

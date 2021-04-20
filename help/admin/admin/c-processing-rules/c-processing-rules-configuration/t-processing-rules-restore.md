@@ -2,7 +2,7 @@
 description: Le regole di elaborazione possono essere ripristinate dalla cronologia.
 subtopic: Processing rules
 title: Ripristinare le regole di elaborazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
 exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: La variabile di conversione Custom Insight (o eVar) viene inserita nel codice di Adobe nelle pagine Web selezionate del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei rapporti di marketing personalizzati. Un eVar può essere basato su visite e funziona in modo simile ai cookie. I valori trasmessi nelle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
 keywords: eVar
 title: Variabili di conversione (eVar)
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 translation-type: tm+mt

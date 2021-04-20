@@ -1,7 +1,7 @@
 ---
 title: Rapporti
 description: Dimensioni e metriche utilizzate da Reports & Analytics per ogni rapporto.
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt

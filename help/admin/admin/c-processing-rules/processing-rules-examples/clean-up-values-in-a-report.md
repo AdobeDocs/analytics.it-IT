@@ -2,7 +2,7 @@
 description: È possibile confrontare i valori con errori di ortografica comuni e aggiornarli in modo da visualizzarli correttamente nei rapporti.
 subtopic: Processing rules
 title: Pulizia dei valori in un rapporto
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 translation-type: tm+mt

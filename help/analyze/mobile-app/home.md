@@ -1,8 +1,8 @@
 ---
 title: Panoramica delle dashboard di Adobe Analytics
 description: Documentazione del prodotto e supporto autonomo per le dashboard di Adobe Analytics
-feature: Dashboard di Analytics
-role: Business Practices, amministratore
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

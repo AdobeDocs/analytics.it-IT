@@ -2,7 +2,7 @@
 description: Gestisci utenti e gruppi di rapporti nella pagina Gestione utente consente di gestire utenti e gruppi e di controllare l'accesso a rapporti, strumenti e suite di rapporti.
 subtopic: Users and groups
 title: Panoramica sulla gestione utente
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt

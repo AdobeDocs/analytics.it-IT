@@ -1,7 +1,7 @@
 ---
 description: Se hai copiato le impostazioni da una suite di rapporti esistente, un messaggio di sistema identifica le impostazioni non copiate nella nuova suite di rapporti.
 title: Impostazioni non copiate da un'origine di rapporti
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt

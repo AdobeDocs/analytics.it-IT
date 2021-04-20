@@ -2,7 +2,7 @@
 description: L’importazione consente di caricare in massa i dati delle classificazioni nei rapporti di Analytics in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
 subtopic: Classifications
 title: File di dati di classificazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come eliminare o rimuovere i dati di classificazione.
 subtopic: Classifications
 title: Eliminare i dati di classificazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 translation-type: tm+mt

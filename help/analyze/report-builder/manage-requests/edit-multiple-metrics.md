@@ -2,7 +2,7 @@
 description: La funzione Modifica metriche in più richieste consente di aggiungere, rimuovere o sostituire agevolmente le metriche in una richiesta o gruppo di richieste preesistenti.
 title: Modificare le metriche in più richieste
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

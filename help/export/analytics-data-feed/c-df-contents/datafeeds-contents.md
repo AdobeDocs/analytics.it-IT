@@ -3,7 +3,7 @@ description: Questa sezione descrive i file trovati in una consegna feed di dati
 keywords: Feed di dati;processo;contenuto;manifesto;file;ricerca;dati di hit;contenuto della consegna
 subtopic: data feeds
 title: 'Contenuti feed dati: panoramica'
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt

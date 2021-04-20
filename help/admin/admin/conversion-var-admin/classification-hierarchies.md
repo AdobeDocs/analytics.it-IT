@@ -2,7 +2,7 @@
 description: La pagina Gerarchie di classificazione ti consente di definire gerarchie di classificazione utilizzabili per creare rapporti gerarchici con lo stesso nome.
 subtopic: Classifications
 title: Gerarchie di classificazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 translation-type: tm+mt

@@ -3,8 +3,8 @@ description: Requisiti di sistema per Analysis Workspace.
 keywords: Analysis Workspace
 title: Requisiti di amministrazione
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-feature: Concetti di base di Workspace
-role: Professionista, Amministratore
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

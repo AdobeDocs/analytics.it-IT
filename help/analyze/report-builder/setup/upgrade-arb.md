@@ -3,7 +3,7 @@ description: Passaggi e considerazioni relativi al Report Builder di aggiornamen
 title: Aggiornare Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: L’opzione Includi dati correnti in Reports & Analytics consente d
 subtopic: Current Data
 title: Dati correnti
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 translation-type: tm+mt

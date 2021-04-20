@@ -2,7 +2,7 @@
 description: I filtri ti consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
 title: Filtraggio dati dei rapporti
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt

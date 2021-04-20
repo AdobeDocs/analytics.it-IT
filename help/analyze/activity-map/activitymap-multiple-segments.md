@@ -3,7 +3,7 @@ description: Consente di applicare un filtro per più segmenti all’interno di 
 title: Segmentazione cliente
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
-role: Business Practices, amministratore
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

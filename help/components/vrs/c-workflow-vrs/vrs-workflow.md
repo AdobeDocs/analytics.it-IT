@@ -2,7 +2,7 @@
 description: Panoramica dei passaggi necessari per pianificare e implementare suite di rapporti virtuali.
 keywords: Suite di rapporti virtuali
 title: Flusso di lavoro suite di rapporti virtuali
-feature: Nozioni di base su Reports & Analytics e nozioni di base su Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt
