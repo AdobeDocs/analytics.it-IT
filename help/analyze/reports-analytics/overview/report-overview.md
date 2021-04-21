@@ -2,13 +2,13 @@
 description: Introduzione alle funzioni di un rapporto, inclusi la barra degli strumenti, il calendario e la tabella dei dettagli.
 title: Funzioni rapporto
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 2%
 
 ---
