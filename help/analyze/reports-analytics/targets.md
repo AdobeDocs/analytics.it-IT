@@ -2,13 +2,13 @@
 description: Gli obiettivi consentono di misurare le prestazioni del sito web e tenere traccia dell’avanzamento rispetto agli obiettivi target. Ad esempio, potrebbe essere utile aumentare il numero di visitatori provenienti da un’area geografica, le entrate per ordine o il numero di hit derivanti da un referente specifico.
 title: Target
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '585'
 ht-degree: 2%
 
 ---
