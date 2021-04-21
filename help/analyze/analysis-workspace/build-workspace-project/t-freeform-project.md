@@ -2,12 +2,12 @@
 description: Crea un progetto e aggiungi componenti (dimensioni, metriche, segmenti e intervalli di date) al pannello a forma libera.
 keywords: Analysis Workspace
 title: Creare un progetto Workspace
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Nozioni di base su Reports & Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '732'
 ht-degree: 98%
 
 ---
