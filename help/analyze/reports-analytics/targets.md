@@ -6,7 +6,7 @@ feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 3926f1e451c8d100387745a125bb82b2e850de01
+source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Descrizioni dei campi e delle opzioni nella pagina [!UICONTROL Add/Edit Target].
 | [!UICONTROL Select Item] | Visualizza il modulo di selezione per l&#39;attributo o l&#39;eVar selezionato, in modo da poter eseguire una ricerca [!UICONTROL Advanced] per gli elementi correlati. Ad esempio, se si seleziona l&#39;eVar [!UICONTROL Countries], l&#39;elenco di voci consente di specificare quale paese. Se si seleziona l&#39;eVar [!UICONTROL Products], l&#39;elenco delle voci consente di specificare quale prodotto. Le variabili di informazioni personalizzate sono elencate anche nel menu . Se hai una variabile di insight personalizzata impostata per misurare gli intervalli di età dei visitatori, l’elenco degli elementi visualizza gli intervalli delle pagine, ad esempio 18-24, 25-35 e così via. |
 | [!UICONTROL Metric] | Consente di applicare il target a una metrica. Questo menu visualizza solo le metriche applicabili a un dato eVar. Ad esempio, se selezioni [!UICONTROL Products] come eVar, una metrica come [!UICONTROL Page Exits] non si applica ad essa. La metrica [!UICONTROL Page Exits] può essere applicata a un eVar di pagina web. |
 | [!UICONTROL Period] | Consente di definire le impostazioni [!UICONTROL Date Range] e [!UICONTROL Granularity] del target. A seconda delle specifiche dell’intervallo di date, alcune opzioni di granularità non sono applicabili. Quando digiti dei valori per le metriche, digita un valore per ciascuna impostazione di granularità. Ad esempio, se l’intervallo di date è il mese di febbraio e la selezione della granularità è settimanale, digita un valore per ogni settimana del mese di febbraio. [!UICONTROL Target] vengono visualizzati i rapporti per ogni impostazione di granularità. |
-| [!UICONTROL Values] | Consente di specificare i valori di destinazione per il periodo di tempo e la metrica selezionata. Questo valore sono i numeri di destinazione che si sta tentando di raggiungere. Ad esempio, se il target si basa su ricavi e si mirava a $ 10.000 di ricavi per un dato mese, si immetterebbero 10.000 nel campo del valore per il mese. |
+| [!UICONTROL Values] | Consente di specificare i valori di destinazione per il periodo di tempo e la metrica selezionata. Questi valori sono i numeri di destinazione che si sta tentando di raggiungere. Ad esempio, se il target si basa su ricavi e si mirava a $ 10.000 di ricavi per un dato mese, si immetterebbero 10.000 nel campo del valore per il mese. |
 
 ## Aggiungi un [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
