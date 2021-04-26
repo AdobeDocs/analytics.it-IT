@@ -3,9 +3,9 @@ title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Come posso utilizzare CDA per vedere come le persone si spostano da un tipo di dispositivo all&#39;altro?
 
-Puoi utilizzare una visualizzazione Flusso con la dimensione Tipo di dispositivo mobile .
+Puoi utilizzare una visualizzazione [!UICONTROL Flow] con la dimensione Tipo di dispositivo mobile .
 
 1. Accedi ad Adobe Analytics e crea un nuovo progetto Workspace vuoto.
 2. Fai clic sulla scheda Visualizzazioni a sinistra e trascina una visualizzazione Flusso sull’area di lavoro a destra.
@@ -105,3 +105,9 @@ CDA richiama gli elementi dimensionali eVar prima che siano ottimizzati per il r
 ## Se la mia organizzazione Experience Cloud (anche nota come organizzazione IMS) ha più aziende in diverse regioni, posso abilitare CDA per tutte?
 
 No. Per la stessa organizzazione, solo una regione può avere CDA abilitato.
+
+## Quali sono i vantaggi e gli svantaggi di una riproduzione di 7 giorni rispetto a una riproduzione di 1 giorno?
+
+Il vantaggio dell’intervallo di lookback di 7 giorni è che CDA è in grado di tornare indietro nel tempo per cercare di associare eventi precedentemente anonimi a una persona che successivamente ha effettuato l’accesso in quei 7 giorni. Gli svantaggi dell’intervallo di lookback di 7 giorni sono 1) la riproduzione viene eseguita una sola volta alla settimana e 2) i più recenti 7 giorni sono soggetti a modifiche.
+
+I vantaggi dell&#39;utilizzo dell&#39;intervallo di lookback a 1 giorno sono 1) la riproduzione viene eseguita ogni giorno e 2) solo ieri è soggetto a modifiche. Lo svantaggio dell’intervallo di lookback di 1 giorno è che CDA è in grado di tornare indietro solo 1 giorno per cercare di associare eventi precedentemente anonimi a una persona che ha effettuato l’accesso ieri.
