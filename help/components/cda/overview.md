@@ -3,10 +3,10 @@ title: Analytics tra dispositivi
 description: Modifica i dati da incentrati sul dispositivo a quelli incentrati sulla persona combinando i dati del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 translation-type: tm+mt
-source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 15%
+source-wordcount: '751'
+ht-degree: 16%
 
 ---
 
@@ -51,3 +51,4 @@ Analisi multidispositivo è una funzione innovativa e affidabile, ma presenta li
 * L’API 1.4 non è supportata. I connettori e il Report Builder Power BI si basano entrambi sull’API 1.4 e non sono quindi compatibili con CDA.
 * I dati storici nella suite di rapporti virtuali cambiano in base all’Adobe che riconosce e unisce i dispositivi. I dati nella suite di rapporti sorgente non cambiano.
 * Il monitoraggio attivo del processo di unione CDA per Adobe è limitato solo alle suite di rapporti di produzione.
+* CDA non è attualmente compatibile con Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)
