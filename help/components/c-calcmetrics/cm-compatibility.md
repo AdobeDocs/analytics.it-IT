@@ -1,39 +1,24 @@
 ---
-description: Spiega le tre opzioni di compatibilità dei prodotti.
+description: Spiega le tre opzioni di compatibilità del prodotto.
 title: Compatibilità delle metriche
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
+exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 4%
 
 ---
 
-
 # Compatibilità delle metriche
 
-Spiega le tre opzioni di compatibilità dei prodotti.
+Spiega le tre opzioni di compatibilità del prodotto.
 
-Quando crei metriche calcolate o calcolate avanzate nel Generatore metriche calcolate, la metrica verrà visualizzata come compatibile con 1 o più opzioni: Dati correnti, dati completamente elaborati o rapporti canale di marketing.
+Quando crei metriche calcolate o calcolate avanzate nel generatore di metriche calcolate, la metrica risulterà compatibile con 1 o più opzioni: Dati correnti, dati completamente elaborati o rapporti sul canale di marketing.
 
-<table id="table_DF7F6D55467B4B76AC34026465D44F7A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Compatibile con </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Dati correnti </td> 
-   <td colname="col2"> <p>L'opzione Includi dati correnti in Analytics consente di visualizzare gli ultimi dati di Analytics, spesso prima che i dati vengano elaborati e finalizzati completamente. <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > I dati</a> correnti mostrano la maggior parte delle metriche in pochi minuti, fornendo dati fruibili per il processo decisionale rapido. </p> <p>Dati correnti supporta solo metriche calcolate (che includono moltiplicazione, divisione, addizione e sottrazione). I dati correnti non supportano metriche calcolate avanzate (che contengono segmenti o funzioni). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Dati completamente elaborati </td> 
-   <td colname="col2"> <p>Dati elaborati completamente e che includono segmenti e classificazioni. Se preferisci visualizzare tutte le metriche dopo che i dati sono stati elaborati completamente, puoi disattivare Dati correnti rimuovendo gli utenti dal gruppo Utenti dati correnti. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report canale di marketing </td> 
-   <td colname="col2"> <p>Le metriche con allocazione del primo tocco sono compatibili solo con i rapporti del canale di marketing. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Compatibile con | Descrizione |
+| --- | --- |
+| [Dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) | L’opzione [!UICONTROL Include Current Data] in Adobe Analytics consente di visualizzare i dati Analytics più recenti, spesso prima che i dati siano completamente elaborati e finalizzati. [!UICONTROL Current Data] visualizza la maggior parte delle metriche in pochi minuti, fornendo dati fruibili per il processo decisionale rapido. [!UICONTROL Current Data] supporta solo le metriche calcolate (che includono moltiplicazione, divisione, addizione e sottrazione). [!UICONTROL Current Data] non supporta metriche calcolate avanzate (che contengono segmenti o funzioni). |
+| Dati completamente elaborati | Dati completamente elaborati e che includono segmenti e classificazioni. Se preferisci visualizzare tutte le metriche dopo che i dati sono stati completamente elaborati, puoi disattivare [!UICONTROL Current Data] rimuovendo gli utenti dal gruppo Utenti dati correnti. |
+| Rapporti sul canale di marketing | Le metriche con allocazione in primo contatto sono compatibili solo con i rapporti del canale di marketing. |
