@@ -1,14 +1,14 @@
 ---
 title: Configurare Analytics tra dispositivi
 description: Configura una suite di rapporti virtuale per abilitare CDA.
+exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 translation-type: tm+mt
-source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
+source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '515'
 ht-degree: 2%
 
 ---
-
 
 # Configurare Analytics tra dispositivi
 
@@ -18,9 +18,9 @@ Una volta soddisfatti tutti i prerequisiti, utilizza i seguenti passaggi per abi
 >
 >Tutti i prerequisiti devono essere soddisfatti prima di seguire questi passaggi. Se non vengono soddisfatti tutti i prerequisiti, la funzione non è disponibile o non funzionerà. Per prerequisiti e limitazioni, consulta la [pagina di panoramica](overview.md) e il metodo di unione desiderato ([Unione basata sui campi](field-based-stitching.md) o [Grafico dispositivo](device-graph.md), rispettivamente.
 
-## Contatta il tuo Customer Success Manager per richiedere il provisioning di CDA nella tua suite di rapporti multi-dispositivo
+## Apri un ticket con l’Assistenza clienti per effettuare il provisioning di CDA nella tua suite di rapporti per dispositivi diversi
 
-Il provisioning di CDA nella suite di rapporti per più dispositivi è fornito dall’ingegneria Adobe. Contatta il tuo responsabile di successo con le seguenti informazioni:
+Il provisioning di CDA nella suite di rapporti per più dispositivi è fornito dall’ingegneria Adobe. Per avviare questo processo, contatta l’Assistenza clienti e preparati a fornire le seguenti informazioni:
 
 * Il tuo ID organizzazione Adobe Experience Cloud (una stringa alfanumerica che termina con @AdobeOrg)
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
@@ -28,7 +28,7 @@ Il provisioning di CDA nella suite di rapporti per più dispositivi è fornito d
 * Se si intende utilizzare un&#39;unione basata sui campi, la proprietà o l&#39;eVar che contiene l&#39;ID utente
 * Preferisci frequenza di riproduzione e lunghezza di lookback. Le opzioni includono una riproduzione una volta alla settimana con un intervallo di lookback di 7 giorni o una riproduzione giornaliera con un intervallo di lookback di 1 giorno.
 
-Una volta che il CSM fornisce queste informazioni, collabora con Adobe Engineering per abilitare la suite di rapporti selezionata per l’elaborazione CDA.
+Una volta che avrai fornito queste informazioni all’Assistenza clienti, questi collaboreranno con Adobe Engineering per abilitare la suite di rapporti selezionata per l’elaborazione CDA.
 
 ## Creare una suite di rapporti virtuali per più dispositivi per visualizzare la visualizzazione su più dispositivi
 
