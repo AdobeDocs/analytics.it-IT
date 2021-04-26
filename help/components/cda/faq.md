@@ -3,9 +3,9 @@ title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -111,3 +111,7 @@ No. Per la stessa organizzazione, solo una regione può avere CDA abilitato.
 Il vantaggio dell’intervallo di lookback di 7 giorni è che CDA è in grado di tornare indietro nel tempo per cercare di associare eventi precedentemente anonimi a una persona che successivamente ha effettuato l’accesso in quei 7 giorni. Gli svantaggi dell’intervallo di lookback di 7 giorni sono 1) la riproduzione viene eseguita una sola volta alla settimana e 2) i più recenti 7 giorni sono soggetti a modifiche.
 
 I vantaggi dell&#39;utilizzo dell&#39;intervallo di lookback a 1 giorno sono 1) la riproduzione viene eseguita ogni giorno e 2) solo ieri è soggetto a modifiche. Lo svantaggio dell’intervallo di lookback di 1 giorno è che CDA è in grado di tornare indietro solo 1 giorno per cercare di associare eventi precedentemente anonimi a una persona che ha effettuato l’accesso ieri.
+
+## Cosa succede ai dati uniti nelle suite di rapporti virtuali CDA se la mia azienda decide di eseguire il downgrade da Analytics Ultimate?
+
+Se un cliente effettua un downgrade da Ultimate, non avrà più accesso ai dati uniti. Tutti i dati uniti in precedenza verranno rimossi. Ciò significa che le suite di rapporti virtuali CDA ora non riflettono alcuna unione tra dispositivi. I dati saranno simili alla suite di rapporti non uniti originale.
