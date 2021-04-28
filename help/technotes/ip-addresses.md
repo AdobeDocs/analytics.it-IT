@@ -1,43 +1,43 @@
 ---
-title: IP e domini utilizzati da  Adobe Analytics
-description: Se il firewall aziendale blocca indirizzi IP che provengono da  Adobe, utilizzate questo elenco per aggiornare le impostazioni del firewall.
+title: IP e domini utilizzati da Adobe Analytics
+description: Se il firewall dell’organizzazione blocca gli indirizzi IP derivanti dall’Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
+source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 3%
 
 ---
 
+# IP e domini utilizzati da Adobe Analytics
 
-# IP e domini utilizzati da  Adobe Analytics
-
-Alcune configurazioni del firewall bloccano gli indirizzi IP di  Adobe  server o server responsabili dell&#39;accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall aziendale per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione.
+Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server o dai server di raccolta dati di Adobe responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall della tua organizzazione per consentire l’accesso e l’invio di dati dall’interno della tua organizzazione.
 
 >[!IMPORTANT]
 >
->Sebbene  Adobe faccia del suo meglio per mantenere aggiornato il documento, non può garantire che l&#39;elenco degli intervalli IP resti invariato. Le possibili modifiche includono crescita ed espansione dell&#39;attività, un registro Internet richiede modifiche  spazio indirizzi IP  Adobe, o un provider di servizi Internet interrompe il funzionamento.
+>Sebbene Adobe faccia del suo meglio per mantenere aggiornato il documento, non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Eventuali modifiche includono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio degli indirizzi IP di Adobe, o un provider di servizi Internet smette di funzionare.
 
 ## Consenti domini di tecnologia dipendenti
 
- Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l&#39;esperienza del prodotto.  Adobe consiglia di aggiungere questi domini al elenco Consentiti  del firewall per un&#39;esperienza ottimale con  Adobe Analytics.
+Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esperienza di prodotto. Adobe consiglia di aggiungere questi domini all’elenco Consentiti del firewall, per un’esperienza ottimale tramite Adobe Analytics.
 
 | Tecnologia | Dominio |
 | --- | --- |
-|  domini Adobe Analytics | `adobe.com`, `adobe.net`, `adobe.io` |
-|  dominio legacy Adobe Analytics | `omniture.com` |
-|  Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
-|  Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
+| Domini Adobe Analytics | `adobe.com`, `adobe.net`, `adobe.io` |
+| Dominio legacy di Adobe Analytics | `omniture.com` |
+| Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
+| Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Guadagno | `esp.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
 | Archiviazione BLOB di Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
-| CDN di Microsoft Azure | `aauicdnva7.azureedge.net` |
+| CDN Microsoft Azure | `aauicdnva7.azureedge.net` |
 
-## Tutti i blocchi indirizzo IP  Adobe Analytics
+## Tutti i blocchi di indirizzi IP per la raccolta dati di Adobe Analytics
 
-La tabella seguente illustra tutti i server di raccolta dati standard e i server di raccolta dati regionali per  Adobe Analytics. Non includono singoli host AWS.
+La tabella seguente illustra tutti i server di raccolta dati standard e i server di raccolta dati regionali per Adobe Analytics. Non includono singoli host AWS.
 
-| Blocco IP (Notazione CIDR) |
+| Blocco IP (notazione CIDR) |
 | --- |
 | `63.140.32.0/19` |
 | `66.117.16.0/20` |
@@ -50,9 +50,9 @@ La tabella seguente illustra tutti i server di raccolta dati standard e i server
 | `208.67.40.0/22` |
 | `208.77.136.0/22` |
 
-## Blocchi indirizzo IP raccolta dati e FTP
+## Blocchi di indirizzi IP per la raccolta dati e l’FTP
 
-Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifici, è possibile utilizzare la tabella seguente. Tutti gli intervalli di questa sezione sono inclusi nella tabella precedente.
+Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specifici, puoi utilizzare la tabella seguente. Tutti gli intervalli in questa sezione sono inclusi nella tabella precedente.
 
 | Posizione | Intervallo IP (notazione CIDR) |
 | --- | --- |
@@ -62,17 +62,17 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Dallas | `66.235.140.0/22` |
 | Dallas | `63.140.32.0/21` |
 | Dallas | `172.82.208.0/22` |
-| Hong Kong - RTE della Cina | `66.117.24.0/22` |
-| London | `66.235.156.0/24` |
-| London | `66.235.148.0/23` |
-| London | `63.140.40.0/22` |
-| London | `208.67.41.0/24` |
-| London | `192.243.254.0/23` |
-| London | `192.243.244.0/22` |
-| London | `185.34.188.0/23` |
-| London | `130.248.152.0/21` |
-| London | `172.82.224.0/21` |
-| London | `172.82.232.0/21` |
+| Hong Kong RAS della Cina | `66.117.24.0/22` |
+| Londra | `66.235.156.0/24` |
+| Londra | `66.235.148.0/23` |
+| Londra | `63.140.40.0/22` |
+| Londra | `208.67.41.0/24` |
+| Londra | `192.243.254.0/23` |
+| Londra | `192.243.244.0/22` |
+| Londra | `185.34.188.0/23` |
+| Londra | `130.248.152.0/21` |
+| Londra | `172.82.224.0/21` |
+| Londra | `172.82.232.0/21` |
 | Oregon | `192.243.240.0/22` |
 | Oregon | `192.243.232.0/21` |
 | Oregon | `192.243.224.0/21` |
@@ -80,7 +80,7 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Oregon | `130.248.148.0/22` |
 | Oregon | `172.82.192.0/21` |
 | Oregon | `172.82.216.0/21` |
-| Paris | `208.67.40.0/24` |
+| Parigi | `208.67.40.0/24` |
 | Singapore | `66.235.150.0/24` |
 | Singapore | `66.235.130.0/23` |
 | Singapore | `63.140.44.0/22` |
@@ -109,11 +109,11 @@ Se l&#39;organizzazione preferisce consentire intervalli di indirizzi IP specifi
 | Virginia | `130.248.144.0/22` |
 | Virginia | `172.82.204.0/22` |
 | Virginia | `172.82.212.0/22` |
-| Virginia | Vedere Ospitanti AWS |
+| Virginia | Consulta Host AWS |
 
 ## Host AWS
 
- Adobe Analytics utilizza  Amazon Web Services come parte del processo di raccolta dei dati. Nella tabella seguente sono inclusi gli host AWS riservati per  Adobe. Questi host **non** sono inclusi nell&#39;intervallo di blocchi aggregati sopra.
+Adobe Analytics utilizza Amazon Web Services come parte del processo di raccolta dei dati. La tabella seguente include gli host AWS riservati ad Adobe. Questi host sono **non** inclusi nell&#39;intervallo di blocchi aggregati riportato sopra.
 
 | Posizione | Host |
 | --- | --- |
