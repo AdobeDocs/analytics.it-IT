@@ -5,10 +5,10 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Organizza i dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali e avvisi.
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 99%
 
 ---
 
@@ -249,6 +249,7 @@ ht-degree: 100%
    + [Metriche e dimensioni in tempo reale supportate](c-real-time-reporting/realtime-metrics.md)
 + Canali marketing {#marketing-channels}
    + [Introduzione ai canali di marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Attribution IQ con canali di marketing](c-marketing-channels/mchannel-best-practices.md)
    + [Gestire i canali di marketing](c-marketing-channels/c-channels.md)
    + [Regole di elaborazione per i canali di marketing](c-marketing-channels/c-rules.md)
    + [Classificazioni in canali di marketing](c-marketing-channels/classifictions-mchannel.md)
