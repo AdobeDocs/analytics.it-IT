@@ -2,7 +2,7 @@
 title: Best practice per l’implementazione dei canali di marketing Adobe Analytics
 description: Sono state aggiornate le best practice per l’utilizzo dei canali di marketing con Attribution IQ e Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 2%
@@ -10,7 +10,7 @@ ht-degree: 2%
 ---
 
 
-# Utilizzare Attribution IQ con i canali di marketing - Best practice
+# Attribution IQ con i canali di marketing - Best practice
 
 [I ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) canali di marketing sono una funzione preziosa e potente di Adobe Analytics. Le linee guida attuali relative all&#39;implementazione del canale di marketing sono state formulate in un momento in cui non esistevano né [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) né [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases).
 
@@ -38,6 +38,6 @@ I modelli di attribuzione personalizzati utilizzati con la dimensione Canale di 
 
 L’impostazione del periodo di coinvolgimento del visitatore al minimo di &quot;1 giorno&quot; riduce la probabilità di persistenza dei valori. Poiché i modelli di attribuzione personalizzati (AIQ) consentono intervalli di lookback flessibili, è consigliabile impostare il valore minimo per ridurre al minimo l’impatto di questa impostazione.
 
-## Best practice n. 5: Le regole di elaborazione dei canali di marketing esistono solo per i canali abilitati
+## Best practice n. 5: Le regole di elaborazione dei canali di marketing devono esistere solo per i canali abilitati
 
 Assicurati di rimuovere eventuali regole di elaborazione del canale di marketing per i canali disabilitati. Le regole devono esistere solo per i canali di marketing controllati come abilitati.
