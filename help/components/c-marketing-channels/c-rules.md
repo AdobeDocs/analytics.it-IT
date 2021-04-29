@@ -3,14 +3,18 @@ title: Regole di elaborazione per i canali di marketing
 description: Le regole di elaborazione del canale di marketing determinano se un hit visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit che un visitatore fa sul tuo sito. Quando una regola non soddisfa i criteri di un canale o se le regole non sono configurate correttamente, il sistema assegna l'hit a Nessun canale identificato.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 3%
+source-wordcount: '2118'
+ht-degree: 2%
 
 ---
 
 # Regole di elaborazione per i canali di marketing
+
+>[!NOTE]
+>
+>Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Le regole di elaborazione del canale di marketing determinano se un hit visitatore soddisfa i criteri assegnati a un canale elaborando ogni hit che un visitatore effettua sul sito. Le regole vengono elaborate nell&#39;ordine specificato e quando viene soddisfatta una regola, il sistema smette di elaborare le regole rimanenti.
 
