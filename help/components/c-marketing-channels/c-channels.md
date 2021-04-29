@@ -3,17 +3,20 @@ description: Aggiungi o abilita i canali di marketing in Marketing Channel Manag
 subtopic: Marketing channels
 title: Gestire i canali di marketing
 feature: Nozioni di base su Reports & Analytics
-uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---
 
 # Gestire i canali di marketing
+
+>[!NOTE]
+>
+>Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Aggiungi o abilita i canali di marketing in Marketing Channel Manager. Per le suite di rapporti prive di canali di marketing, una configurazione automatica ti consente di creare diversi canali per te, insieme alle relative regole. Puoi modificare i canali predefiniti in base alle tue esigenze oppure crearne di nuovi (fino a un totale di 25).
 
