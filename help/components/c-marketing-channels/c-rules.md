@@ -1,14 +1,14 @@
 ---
 title: Regole di elaborazione per i canali di marketing
 description: Le regole di elaborazione del canale di marketing determinano se un hit visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit che un visitatore fa sul tuo sito. Quando una regola non soddisfa i criteri di un canale o se le regole non sono configurate correttamente, il sistema assegna l'hit a Nessun canale identificato.
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2098'
 ht-degree: 3%
 
 ---
-
 
 # Regole di elaborazione per i canali di marketing
 
@@ -17,7 +17,8 @@ Le regole di elaborazione del canale di marketing determinano se un hit visitato
 ![](assets/buckets_2.png)
 
 Note aggiuntive sull’elaborazione :
-* I dati raccolti con queste regole sono permanenti al 100% e le regole modificate dopo la raccolta dei dati non sono retroattive. È vivamente consigliato rivedere e considerare tutte le circostanze prima di salvare [!UICONTROL Marketing Channel Processing Rules] per attenuare la raccolta dei dati in canali non corretti.
+
+* I dati raccolti con queste regole sono permanenti al 100% e le regole modificate dopo la raccolta dei dati non sono retroattive. È consigliabile esaminare e considerare tutte le circostanze prima di salvare [!UICONTROL Marketing Channel Processing Rules] per attenuare la raccolta dei dati in canali non corretti.
 * Il rapporto può elaborare fino a 25 canali alla volta.
 * Le regole possono accedere alle variabili impostate da VISTA, ma non ai dati eliminati da VISTA.
 * Due canali di marketing non ricevono mai crediti per lo stesso evento (come acquisti o clic). In questo modo, i canali di marketing sono diversi dagli eVar (dove due eVar potrebbero ricevere credito per lo stesso evento).
@@ -27,6 +28,7 @@ Note aggiuntive sull’elaborazione :
 
 * Rivedi le informazioni concettuali in [Guida introduttiva ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Crea uno o più canali in modo da poter assegnare loro le regole. Consulta [Aggiungere canali di marketing.](/help/components/c-marketing-channels/c-channels.md)
+* Controlla le best practice per l’utilizzo di [!UICONTROL Marketing Channels] con [!UICONTROL Attribution IQ].
 
 ## Creare regole di elaborazione per il canale di marketing
 
