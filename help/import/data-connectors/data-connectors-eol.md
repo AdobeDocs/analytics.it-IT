@@ -3,7 +3,7 @@ description: Scopri quando e perché i connettori dati di Analytics termineranno
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9c8c201d4bb57f3594ca907c20e5985746b423f0
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 9%
@@ -30,12 +30,6 @@ A ogni azienda che fornisce un&#39;integrazione è stata data la possibilità di
 
 Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 
-## Eccezione: Adobe Campaign Classic
-
-L’eccezione ONE alla data del 1 agosto 2021 è l’integrazione Adobe Campaign Classic. Questa integrazione verrà ufficialmente dichiarata obsoleta il 1° marzo 2022.
-
-Il 1° agosto 2021, Adobe Campaign Classic verrà rimosso dall’interfaccia utente dei Data Connectors insieme a tutte le altre integrazioni; tuttavia, le integrazioni esistenti di Campaign continueranno a raccogliere e trasmettere dati ad Adobe Analytics fino al 1° marzo 2022. Il 1° marzo 2022 l’integrazione cesserà di raccogliere e trasmettere dati ad Adobe Analytics. Adobe Campaign sta creando una nuova integrazione su Adobe Exchange per sostituire l’integrazione corrente dei Data Connectors. Adobe Campaign anticipa la fine di questa nuova integrazione in tempo per consentire ai clienti di eseguire la migrazione alla nuova integrazione prima della data di rimozione dal servizio a partire da marzo 2022.
-
 ## Stato del partner del connettore dati
 
 | Partner | Stato |
@@ -43,7 +37,7 @@ Il 1° agosto 2021, Adobe Campaign Classic verrà rimosso dall’interfaccia ute
 | Acxiom | Obsolescenza |
 | Adform | Obsolescenza |
 | Regola | Migrazione a Adobe Exchange |
-| Adobe Campaign | Migrazione a Adobe Exchange (vedi nota precedente) |
+| Adobe Campaign | Migrazione a Adobe Exchange (vedi nota di seguito) |
 | Appfigure | Migrazione a Adobe Exchange |
 | Appello | Obsolescenza |
 | AppsFlyer | Migrazione a Adobe Exchange |
@@ -105,3 +99,9 @@ Il 1° agosto 2021, Adobe Campaign Classic verrà rimosso dall’interfaccia ute
 | WhatCounts Email | Obsolescenza |
 | wywy | Obsolescenza |
 | Yesmail Enterprise | Obsolescenza |
+
+## Eccezione: Adobe Campaign Classic
+
+L’eccezione ONE alla data del 1 agosto 2021 è l’integrazione Adobe Campaign Classic. Questa integrazione verrà ufficialmente dichiarata obsoleta il 1° marzo 2022.
+
+Il 1° agosto 2021, Adobe Campaign Classic verrà rimosso dall’interfaccia utente dei Data Connectors insieme a tutte le altre integrazioni; tuttavia, le integrazioni esistenti di Campaign continueranno a raccogliere e trasmettere dati ad Adobe Analytics fino al 1° marzo 2022. Il 1° marzo 2022 l’integrazione cesserà di raccogliere e trasmettere dati ad Adobe Analytics. Adobe Campaign sta creando una nuova integrazione su Adobe Exchange per sostituire l’integrazione corrente dei Data Connectors. Adobe Campaign anticipa la fine di questa nuova integrazione in tempo per consentire ai clienti di eseguire la migrazione alla nuova integrazione prima della data di rimozione dal servizio a partire da marzo 2022.
