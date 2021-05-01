@@ -5,10 +5,10 @@ user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Una knowledge base contenente articoli utili che non appartengono a uno specifico strumento o componente di analisi.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 85%
+source-wordcount: '190'
+ht-degree: 81%
 
 ---
 
@@ -30,21 +30,23 @@ ht-degree: 85%
       + [Conversioni](ga-to-aa/reports/conversions-reports.md)
    + [Domande frequenti](ga-to-aa/faq.md)
    + [Differenze di elaborazione tra piattaforme](ga-to-aa/processing-differences.md)
-   + [Confronto di dati con prodotti di terze parti](ga-to-aa/compare-data.md)
+   + [Confrontare i dati con prodotti di terze parti](ga-to-aa/compare-data.md)
 + Analisi dei dati interessati dagli eventi {#event}
    + [Panoramica dell’analisi dei dati interessati dagli eventi](event/overview.md)
-   + [Risoluzione di picchi/perdite nei dati](event/spikes-drops.md)
+   + [Risoluzione dei problemi relativi a picchi/perdite di dati](event/spikes-drops.md)
    + [Esclusione di date specifiche nell’analisi](event/segments.md)
    + [Confronto delle date con intervalli precedenti](event/compare-dates.md)
    + [Derivazione dei dati interessati dagli eventi](event/calcmetrics.md)
    + [Comunicazione degli eventi agli utenti](event/communicate.md)
-+ [Browser cookie](cookies.md)
++ [Cookie] {#cookies}
+   + [Browser cookie](cookies/cookies.md)
+   + [Opzioni per attenuare l’effetto delle limitazioni dei cookie del browser](cookies/cookieless.md)
 + [Conservazione dati](data-retention.md)
-+ [Escludi dati](exclude-data.md)
-+ [IP e domini utilizzati da  Adobe Analytics](ip-addresses.md)
++ [Escludere i dati](exclude-data.md)
++ [IP e domini utilizzati da Adobe Analytics](ip-addresses.md)
 + [Latenza](latency.md)
 + [Valore traffico ridotto](low-traffic.md)
-+ [Migrazione delle regole di elaborazione di Mobile Services a  Adobe Analytics](migrate-mobile.md)
++ [Migrazione delle regole di elaborazione di Mobile Services ad Adobe Analytics](migrate-mobile.md)
 + [Supporto multi-valuta](multicurrency.md)
 + [Panoramica sulla privacy](privacy-overview.md)
 + [Reindirizzamenti e alias](redirects.md)
