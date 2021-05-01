@@ -5,7 +5,7 @@ user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Una knowledge base contenente articoli utili che non appartengono a uno specifico strumento o componente di analisi.
 translation-type: tm+mt
-source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+source-git-commit: ebed6c96d82a5a93e53e015f1e89431d2d8abae4
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 81%
@@ -38,7 +38,7 @@ ht-degree: 81%
    + [Confronto delle date con intervalli precedenti](event/compare-dates.md)
    + [Derivazione dei dati interessati dagli eventi](event/calcmetrics.md)
    + [Comunicazione degli eventi agli utenti](event/communicate.md)
-+ [Cookie] {#cookies}
++ Cookie {#cookies}
    + [Browser cookie](cookies/cookies.md)
    + [Opzioni per attenuare l’effetto delle limitazioni dei cookie del browser](cookies/cookieless.md)
 + [Conservazione dati](data-retention.md)
