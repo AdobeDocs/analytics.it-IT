@@ -3,9 +3,9 @@ title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
+source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Entrambi questi identificatori sono calcolati per Adobe al momento dell&#39;esec
 
 ## Come posso passare dal grafico del dispositivo all’unione basata sui campi o viceversa?
 
-Se desideri cambiare i metodi di identificazione CDA, rivolgiti all’Account Manager della tua organizzazione. L&#39;Account Manager può assegnare la suite di rapporti al metodo desiderato per identificare le persone. *I dati storici uniti dal metodo precedente vengono persi.*
+Il passaggio dal grafico del dispositivo all’unione basata sui campi o viceversa può essere richiesto tramite l’Assistenza clienti. Tuttavia, per completare questo passaggio possono essere necessarie un paio di settimane o più e *i dati storici uniti dal metodo precedente vengono persi.*
 
 ## In che modo Adobe gestisce i limiti univoci per un eVar utilizzato nelle cuciture basate sul campo?
 
