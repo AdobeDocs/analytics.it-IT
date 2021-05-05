@@ -1,30 +1,30 @@
 ---
 description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto.
 title: Valore di traffico ridotto in Adobe Analytics
-feature: Metrics
+feature: Metriche
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Valore di traffico ridotto in Adobe Analytics
 
-Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto. I valori di variabili univoche raccolti dopo circa 500.000 valori esistenti sono elencati sotto una voce denominata **(Basso traffico)**.
+Quando un rapporto ha molti valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto. I valori di variabili univoche raccolti dopo circa 500.000 valori esistenti sono elencati sotto una voce denominata **(Basso traffico)**.
 
 ## Funzionamento a traffico ridotto
 
 * La generazione di rapporti non viene influenzata se la variabile non raggiunge 500.000 valori univoci in un dato mese.
 * Quando una variabile raggiunge la prima soglia di 500.000, i dati iniziano a essere inseriti nei bucket con traffico limitato. Ogni valore oltre questa soglia passa attraverso la logica seguente:
    * Se un valore è già presente nei rapporti, aggiungilo come di consueto.
-   * Se un valore non è ancora nel rapporto, controlla se al momento è stato visualizzato più di dieci volte. In caso affermativo, aggiungi questo valore al reporting. Se non è stato conteggiato più di dieci volte, lascialo sotto traffico ridotto.
+   * Se un valore non è ancora nel reporting, le soglie &quot;valori numerici visualizzati&quot; dipendono dalle configurazioni di back-end. Non costituiscono precise &quot;10&quot; o &quot;100&quot; volte viste.
 * Se una suite di rapporti raggiunge più di 1.000.000 valori univoci, viene applicato un filtro più aggressivo:
    * Se un valore è già presente nei rapporti, aggiungilo come di consueto.
-   * Se un valore non è ancora nel rapporto, controlla se al momento è stato visualizzato più di 100 volte circa. In caso affermativo, aggiungi il valore al reporting. Se non l&#39;ha fatto, lasciala sotto traffico ridotto.
+   * Se un valore non è ancora nel reporting, le soglie &quot;valori numerici visualizzati&quot; dipendono dalle configurazioni di back-end. Non costituiscono precise &quot;10&quot; o &quot;100&quot; volte viste.
 
 >[!NOTE]
 >
