@@ -5,30 +5,28 @@ feature: Metriche
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
+source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
 # Valore di traffico ridotto in Adobe Analytics
 
-Quando un rapporto ha molti valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto. I valori di variabili univoche raccolti dopo circa 500.000 valori esistenti sono elencati sotto una voce denominata **(Basso traffico)**.
+Quando un rapporto ha molti valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto. I valori di variabili univoche raccolti dopo circa 500.000 valori esistenti sono elencati sotto una voce denominata **[!UICONTROL Low-Traffic]**.
 
-## Funzionamento a traffico ridotto
+## Come funziona [!UICONTROL Low-Traffic]
 
 * La generazione di rapporti non viene influenzata se la variabile non raggiunge 500.000 valori univoci in un dato mese.
 * Quando una variabile raggiunge la prima soglia di 500.000, i dati iniziano a essere inseriti nei bucket con traffico limitato. Ogni valore oltre questa soglia passa attraverso la logica seguente:
-   * Se un valore è già presente nei rapporti, aggiungilo come di consueto.
-   * Se un valore non è ancora nel reporting, le soglie &quot;valori numerici visualizzati&quot; dipendono dalle configurazioni di back-end. Non costituiscono precise &quot;10&quot; o &quot;100&quot; volte viste.
+   * Se un valore è già visualizzato nei rapporti, aggiungilo come di consueto.
+   * Se un valore non è ancora visualizzato nei rapporti, verrà visualizzato nella riga [!UICONTROL Low-Traffic]. Se un valore incluso nella riga [!UICONTROL Low-Traffic] viene visualizzato un numero significativo di volte in un breve periodo di tempo, verrà riconosciuto come elemento della riga corrispondente. Il numero significativo di volte in cui un elemento deve essere visualizzato ha molte dipendenze, ad esempio il numero di server di elaborazione e di demoni che elaborano i dati per quella particolare suite di rapporti.
 * Se una suite di rapporti raggiunge più di 1.000.000 valori univoci, viene applicato un filtro più aggressivo:
-   * Se un valore è già presente nei rapporti, aggiungilo come di consueto.
-   * Se un valore non è ancora nel reporting, le soglie &quot;valori numerici visualizzati&quot; dipendono dalle configurazioni di back-end. Non costituiscono precise &quot;10&quot; o &quot;100&quot; volte viste.
+   * Se un valore è già visualizzato nei rapporti, aggiungilo come di consueto.
+   * Se un valore non è ancora visualizzato nei rapporti, verrà visualizzato nella riga [!UICONTROL Low-Traffic]. Se un valore incluso nella riga [!UICONTROL Low-Traffic] viene visualizzato un numero significativo di volte in un breve periodo di tempo, verrà riconosciuto come elemento della riga corrispondente. Il numero significativo di volte in cui un elemento deve essere visualizzato ha molte dipendenze, ad esempio il numero di server di elaborazione e di demoni che elaborano i dati per quella particolare suite di rapporti.
 
->[!NOTE]
->
->Se un valore di variabile riceve abbastanza traffico per lasciare l’intervallo di traffico basso, i primi valori raccolti non si spostano alla rispettiva voce di riga. Le prime 10-100 istanze rimangono sotto traffico ridotto.
+Perché Adobe sposta un elemento dalla riga [!UICONTROL Low Traffic] alla riga corrispondente? Ad esempio, questo spostamento potrebbe riconoscere una nuova pagina o un nuovo elemento popolare aggiunto più avanti nel mese (dopo il superamento di univoci) e che ottiene un sacco di hit/visualizzazioni. Lo spostamento non ha lo scopo di rilevare tutto ciò che riceve un certo numero di hit/visualizzazioni al giorno o al mese.
 
 ## Modifica delle soglie dei limiti univoci
 
