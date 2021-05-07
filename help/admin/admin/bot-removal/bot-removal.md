@@ -1,12 +1,12 @@
 ---
 title: Rimozione dei bot in Adobe Analytics
-description: 3 modi per rimuovere i bot in Adobe Analytics
+description: Come rimuovere i bot in Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 translation-type: tm+mt
-source-git-commit: b78e8303277b08a4c693283e45416f2e104268b7
+source-git-commit: bb8ccbf782a1431e5278a95923a42c9e9e9e862b
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 4%
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Per ulteriori dettagli, consulta [Panoramica delle regole del bot](/help/admin/a
 
 ## Usa il plug-in [!UICONTROL websiteBot] per identificare i bot
 
-Il plug-in webBot consente di identificare dinamicamente se i visitatori del desktop sono bot. Puoi utilizzare questi dati per ottenere una maggiore precisione in tutti i tipi di reporting, che ti offre un modo migliore per misurare il traffico del sito legittimo.
+Il plug-in [!UICONTROL websiteBot] ti consente di identificare dinamicamente se i visitatori del desktop sono bot. Puoi utilizzare questi dati per ottenere una maggiore precisione in tutti i tipi di reporting, che ti offre un modo migliore per misurare il traffico del sito legittimo.
 
 Questo plug-in esegue due verifiche:
 
@@ -38,19 +38,19 @@ Per ulteriori informazioni, consulta la [Guida all’implementazione di Adobe An
 
 ## Utilizzare una combinazione di strumenti di Adobe
 
-Inoltre, dal momento che i bot si stanno evolvendo rapidamente, l&#39;Adobe offre diverse altre potenti caratteristiche che, quando combinati correttamente e su base regolare, possono aiutare a guidare la rimozione di questi nemici di qualità dei dati. Tali funzioni sono: Servizio ID di Experience Cloud, segmentazione, Data Warehouse, attributi cliente e suite di rapporti virtuali. Ecco una panoramica su come sfruttare questi strumenti.
+Inoltre, dal momento che i bot si stanno evolvendo rapidamente, l&#39;Adobe offre diverse altre potenti caratteristiche che, quando combinati correttamente e su base regolare, possono aiutare a guidare la rimozione di questi nemici di qualità dei dati. Tali funzioni sono: Servizio ID di Experience Cloud, segmentazione, Data Warehouse, attributi cliente e suite di rapporti virtuali. Ecco una panoramica di come utilizzare questi strumenti.
 
 ### Passaggio 1: Passa l&#39;ID Experience Cloud dei visitatori in un nuovo ID dichiarato
 
-Per iniziare, devi creare un nuovo ID dichiarato nel [Servizio core Persone](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/audience-library.html). Devi trasmettere l’ID Experience Cloud del visitatore a questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Usiamo il nome &quot;ECID&quot; per l’ID dichiarato.
+Per iniziare, crea un nuovo ID dichiarato nel [Servizio core Persone](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Passa l&#39;ID Experience Cloud del visitatore in questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html). Usiamo il nome &quot;ECID&quot; per l’ID dichiarato.
 
 ![](assets/bot-cust-attr-setup.png)
 
-Questo è il modo in cui questo ID può essere acquisito tramite Data Element. Accertati di aver popolato correttamente l’ID organizzazione Experience Cloud nell’elemento dati.
+Questo è il modo in cui questo ID può essere acquisito tramite Data Element. Compila correttamente l’ID organizzazione Experience Cloud nell’elemento dati.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Una volta configurato questo elemento dati, segui [queste istruzioni](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) per passare gli ID dichiarati nello strumento ECID in Launch.
+Una volta configurato questo elemento dati, segui [queste istruzioni](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) per passare gli ID dichiarati nello strumento ECID in Adobe Launch.
 
 ### Passaggio 2: Utilizzare la segmentazione per identificare i bot
 
@@ -60,18 +60,18 @@ Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare 
 
 ### Passaggio 3: Esporta tutto [!DNL Experience Cloud IDs] dal segmento tramite Data Warehouse
 
-Dopo aver identificato i bot utilizzando i segmenti, il passaggio successivo consiste nell’utilizzare la Data Warehouse per estrarre tutti gli ID Experienci Cloud associati a questo segmento. Imposta la richiesta [Data Warehouse](https://docs.adobe.com/content/help/it-IT/analytics/export/data-warehouse/data-warehouse.html) in questo modo:
+Dopo aver identificato i bot utilizzando i segmenti, il passaggio successivo consiste nell’utilizzare Data Warehouse per estrarre tutti gli ID Experienci Cloud associati a questo segmento. Questa schermata mostra come impostare la richiesta [Data Warehouse](/help/export/data-warehouse/data-warehouse.md):
 
 ![](assets/bot-dwh-3.png)
 
-Ricorda di utilizzare Experience Cloud Visitor ID come dimensione e di applicare il segmento Bots.
+Ricorda di utilizzare Experience Cloud Visitor ID come dimensione e di applicare il segmento &quot;Bots&quot;.
 
 ### Passaggio 4: Ripristina l&#39;Adobe di questo elenco come attributo del cliente
 
-Una volta ricevuto il rapporto Data Warehouse, avrai a disposizione un elenco di ECID che devono essere filtrati dai dati storici. Copia e incolla questi ECID in un file .CSV vuoto con solo due colonne, ECID e Bot Flag.
+Una volta che il rapporto Data Warehouse arriva, hai un elenco di ECID che devono essere filtrati dai dati storici. Copia e incolla questi ECID in un file .CSV vuoto con solo due colonne, ECID e Bot Flag.
 
-* **ECID**: Assicurati che l&#39;intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra.
-* **Contrassegno** bot: Aggiungi questa come dimensione dello schema dell&#39;attributo del cliente.
+* **ECID**: Assicurati che questa intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra.
+* **Contrassegno** bot: Aggiungi &#39;Flag bot&#39; come dimensione dello schema dell&#39;attributo del cliente.
 
 Usa questo file .CSV come file di importazione dell&#39;attributo cliente, quindi abbonati alla/e suite di rapporti per l&#39;attributo cliente come descritto in questo [post di blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
@@ -85,12 +85,12 @@ Una volta elaborato e integrato il set di dati in Analysis Workspace, crea un al
 
 ### Passaggio 6: Utilizza questo segmento come filtro della suite di rapporti virtuale
 
-Infine, devi creare una [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md) che sfrutti questo segmento per filtrare i bot identificati:
+Infine, crea una [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md) che utilizza questo segmento per filtrare i bot identificati:
 
 ![](assets/bot-vrs.png)
 
-Questa nuova suite di rapporti virtuali segmentata darà luogo a un set di dati significativamente più pulito, con i bot identificati completamente rimossi.
+Questa suite di rapporti virtuali appena segmentata darà luogo a un set di dati più pulito, con i bot identificati rimossi.
 
 ### Passaggio 7: Ripeti regolarmente i passaggi 2, 3 e 4
 
-Imposta almeno un promemoria mensile per identificare e filtrare i nuovi bot, forse prima di un’analisi pianificata regolarmente.
+Imposta almeno un promemoria mensile per identificare e filtrare i nuovi bot, probabilmente prima di un’analisi pianificata regolarmente.
