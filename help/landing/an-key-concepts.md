@@ -1,14 +1,14 @@
 ---
 description: Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizione di ogni concetto e un collegamento specifico alla documentazione con informazioni aggiuntive sull'argomento.
 title: 'Adobe Analytics: concetti chiave'
+exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1834'
+ht-degree: 99%
 
 ---
-
 
 # Adobe Analytics: concetti chiave
 
@@ -25,8 +25,7 @@ Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizio
 | Data Warehouse | Dati grezzi e non ancora elaborati per l’archiviazione e rapporti personalizzati, che puoi eseguire filtrando i dati. Non a livello hit. | [Pagina principale di Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Riunisce le funzionalità di marketing di applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni. | [Pagina principale di Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html) |
 | Data Connectors Adobe Exchange (precedentemente Genesis) | Importa dati di rilevamento da applicazioni di terze parti in Analytics, per offrire visibilità end-to-end alle prestazioni in un&#39;unica posizione centrale. A partire dal 1° agosto 2021, Adobe intende terminare le integrazioni dei Data Connectors. | [Pagina principale dei Data Connectors](/help/import/data-connectors/data-connectors-eol.md) |
-| Dynamic Tag Management (DTM) | Consente di gestire i tag Analytics, Target e altri tag in tutti i siti, indipendentemente dal numero di domini. | [Pagina principale di DTM](/help/implement/other/dtm/dtm-implementation-overview.md) |
-| Adobe Launch | La nuova generazione di funzionalità di gestione tag per siti Web e SDK per dispositivi mobili di Adobe. | [Pagina principale di Adobe Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) |
+| Adobe Experience Platform Launch | La nuova generazione di funzionalità di gestione tag per siti Web e SDK per dispositivi mobili di Adobe. | [Pagina principale di Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## Terminologia chiave {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -64,7 +63,7 @@ Fai clic [qui](/help/technotes/terms.md) per un glossario esteso dei termini di 
 | Prodotti | Identifica la modalità in cui i singoli prodotti e i gruppi di prodotti (categorie) contribuiscono alle varie metriche di conversione personali, come Entrate o Checkout. | [Rapporto sui prodotti](/help/components/dimensions/product.md) |
 | Confronto fra segmenti | Scopre le differenze più importanti dal punto di vista statistico tra i segmenti attraverso un&#39;analisi automatizzata di ogni metrica e dimensione a cui hai accesso. | [Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Rapporto sul contenuto del sito | Visualizza informazioni su quali pagine e aree del tuo sito risultano più attive e quali server vengono utilizzati maggiormente. | [Rapporto sul contenuto del sito](/help/components/dimensions/page.md) |
-| Rapporto sulle metriche del sito | Visualizzano informazioni quantitative sul tuo sito Web come visitatori unici, ordini, entrate, ecc... Ogni metrica può essere collocata in altri report basati su elementi. | [Rapporto sulle metriche del sito](/help/components/metrics/overview.md) |
+| Rapporto sulle metriche del sito | Visualizzano informazioni quantitative sul tuo sito Web come visitatori univoci, ordini, entrate, ecc... Ogni metrica può essere collocata in altri report basati su elementi. | [Rapporto sulle metriche del sito](/help/components/metrics/overview.md) |
 | Profilo visitatore | Report che ti aiutano a visualizzare i modelli di acquisto dei clienti da varie categorie di profilo come paesi, stati, codici di avviamento postale e domini. | [Profilo visitatore](/help/components/dimensions/language.md) |
 | Conservazione dei visitatori | Visualizza informazioni sulla fidelizzazione dei tuoi clienti, ad esempio quanti visitatori tornano a visitare il tuo sito e con quale frequenza. | [Conservazione dei visitatori](/help/components/dimensions/customer-loyalty.md) |
 | Collegamento, condivisione e pianificazione del progetto | Metodi per il salvataggio/la condivisione del tuo lavoro con altri nell&#39;interfaccia di Analytics. | [Invio e programmazione di file](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md) |
@@ -74,7 +73,7 @@ Fai clic [qui](/help/technotes/terms.md) per un glossario esteso dei termini di 
 | Nome della metrica | Definizione | Collegamento alla documentazione |
 | --- | --- | --- |
 | Elenco completo delle metriche | Definizione di tutte le metriche in Adobe Analytics. | [Panoramica delle metriche](/help/components/metrics/overview.md) |
-| Visitatori unici | Il numero di visitatori del sito Web non duplicati nel corso di un periodo di tempo specificato. | [Visitatori unici](/help/components/metrics/unique-visitors.md) |
+| Visitatori univoci | Il numero di visitatori del sito Web non duplicati nel corso di un periodo di tempo specificato. | [Visitatori univoci](/help/components/metrics/unique-visitors.md) |
 | Visite | Una sequenza di pagine visualizzate in una sessione. La visita inizia nel momento in cui una persona visualizza per la prima volta una pagina del sito e termina dopo 30 minuti di inattività. | [Visite](/help/components/metrics/visits.md) |
 | Visualizzazioni pagina | Una visualizzazione di pagina si verifica quando un visitatore visualizza una pagina sul tuo sito Web. | [Visualizzazioni pagina](/help/components/metrics/page-views.md) |
 | Istanze | Il numero di volte in cui è stata definita una variabile. Ogni volta che Adobe Analytics rileva un valore all’interno di una variabile, le istanze aumentano di un’unità nel rispettivo rapporto. | [Istanze](/help/components/metrics/instances.md) |
@@ -109,7 +108,7 @@ Fai clic [qui](/help/technotes/terms.md) per un glossario esteso dei termini di 
 | Guida all&#39;implementazione | Una descrizione delle variabili di raccolta dati e informazioni sull&#39;implementazione dei codici di raccolta dati in JavaScript. | [Guida all&#39;implementazione](/help/implement/home.md) |
 | Misurazione app (s_code) | Gestione globale delle variabili. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | SDK per le app | Pacchetto personalizzato che include una versione pre-popolata del file di configurazione per le app. | <ul><li>[iOS](https://docs.adobe.com/content/help/it-IT/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/it-IT/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
-| DTM e Adobe Launch | Consulta gli Strumenti di Analytics. |  |
+| Adobe Experience Platform Launch | Consulta gli Strumenti di Analytics. |  |
 | VISTA | Consente di applicare una logica lato server per modificare o segmentare i dati durante la raccolta. | [Regole VISTA](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Regole di elaborazione | Possibilità di impostare, modificare e copiare variabili nell’interfaccia utente di Analytics per modificare i dati raccolti. | [Regole di elaborazione](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | Opzioni debugger | Sono disponibili diversi debugger e sniffer per pacchetti utili per convalidare l’implementazione, tra cui il debugger di Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=it) |
