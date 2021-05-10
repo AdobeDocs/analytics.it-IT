@@ -5,10 +5,10 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
 workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 100%
    + introduzione {#getting-started}
       + Introduzione per gli amministratori {#get-started-admins}
          + [Abilitare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Esempio di codice di implementazione](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Implementare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + Introduzione per gli utenti {#get-started-users}
          + [Installazione dei plug-in di Activity Map nel browser](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Avviare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
