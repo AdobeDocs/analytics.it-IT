@@ -2,13 +2,13 @@
 description: Descrizioni degli elementi nella pagina Definisci gruppo di utenti .
 subtopic: Users and groups
 title: Impostazioni gruppo utenti
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '563'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti sta passando all&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
+>La gestione di utenti e prodotti è stata spostata nell&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
 
 Descrizioni degli elementi nella pagina Definisci gruppo di utenti .
 
@@ -110,14 +110,7 @@ Descrizioni degli elementi nella pagina Definisci gruppo di utenti .
   <tr> 
    <td colname="col1"><b>Tutte le suite di rapporti</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Accesso completo, Personalizzazione, Nessun accesso) </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>Le autorizzazioni sono supportate per i clienti che hanno contenitori <span class="keyword"> TagManager</span> attivi. Non disponibile per i nuovi utenti. </p> <p>Adobe consiglia <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Dynamic Tag Management</a> per la distribuzione. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>Assegnare gli accessi utente</b> </td> 
    <td colname="col2"> </td> 
