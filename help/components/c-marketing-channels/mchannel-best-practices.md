@@ -2,7 +2,7 @@
 title: Best practice per l’implementazione dei canali di marketing Adobe Analytics
 description: Sono state aggiornate le best practice per l’utilizzo dei canali di marketing con Attribution IQ e Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
+source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Attribution IQ con i canali di marketing - Best practice
 
-[I ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) canali di marketing sono una funzione preziosa e potente di Adobe Analytics. Le linee guida attuali relative all&#39;implementazione del canale di marketing sono state formulate in un momento in cui non esistevano né [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) né [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases).
+[I ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) canali di marketing sono una funzione preziosa e potente di Adobe Analytics. Le linee guida attuali relative all&#39;implementazione del canale di marketing sono state formulate in un momento in cui non esistevano né [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) né [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases).
 
 Per garantire la scalabilità dell’implementazione di Marketing Channels e la coerenza dei rapporti con Attribution IQ e con il Customer Journey Analytics, stiamo emanando una serie di best practice aggiornate. Se utilizzi già Marketing Channels, puoi scegliere le opzioni migliori tra queste nuove linee guida. Se hai poca esperienza con Marketing Channels, ti consigliamo di aderire a tutte le nuove best practice.
 
@@ -22,7 +22,7 @@ Poiché le dimensioni del canale di marketing dipendono da una definizione di vi
 
 ## Best practice n. 1: Utilizzo delle Attribution IQ per analisi controllate
 
-Per ottimizzare l’analisi dei canali di marketing, consigliamo di utilizzare [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) invece dell’attribuzione dei canali di marketing esistenti. Segui le altre best practice per garantire coerenza e controlli affidabili sull’analisi con Attribution IQ.
+Per ottimizzare l’analisi dei canali di marketing, consigliamo di utilizzare [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) invece dell’attribuzione dei canali di marketing esistenti. Segui le altre best practice per garantire coerenza e controlli affidabili sull’analisi con Attribution IQ.
 
 ![](assets/attribution.png)
 
