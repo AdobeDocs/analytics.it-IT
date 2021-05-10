@@ -2,13 +2,13 @@
 description: Le suite di rapporti virtuali e l’assegnazione di tag a più suite hanno vantaggi diversi. Scopri quale è meglio per la tua organizzazione.
 keywords: Suite di rapporti virtuale,VRS
 title: Suite di rapporti virtuali e considerazioni sull’assegnazione di tag a più suite
-feature: Report Suite Settings
+feature: Impostazioni di Suite di rapporti
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,6 @@ Se si sceglie di rimuovere le chiamate al server secondario a favore delle suite
    * Utilizza i contenitori hit per mantenere le suite di rapporti virtuali più esclusive tra loro.
 2. Dopo aver confermato che le suite di rapporti virtuali sono configurate correttamente, rimuovi gli ID della suite di rapporti secondari dall’implementazione. Per rimuovere le suite di rapporti secondarie:
    * In Adobe Experience Platform Launch, fai clic sulla x accanto a qualsiasi suite di rapporti che non desideri più utilizzare.
-   * In DTM, individua la proprietà e lo strumento Analytics . Nei campi ID account di produzione e ID account di staging , rimuovi gli ID suite di rapporti che non desideri più utilizzare.
    * Nelle implementazioni JavaScript legacy, individua la variabile `s.account` e rimuovi gli ID suite di rapporti che non desideri più utilizzare.
    * In tutti i casi, lascia solo l’ID suite di rapporti globale/principale per raccogliere i dati per i tuoi siti e le tue app.
    * Passa a Amministratore > Suite di rapporti e nasconde eventuali suite di rapporti secondarie non più utilizzate.
