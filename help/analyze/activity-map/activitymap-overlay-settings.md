@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 translation-type: tm+mt
-source-git-commit: d4296a721e01e37c57a8fb44b67599a3cc9e4758
+source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 6%
+source-wordcount: '584'
+ht-degree: 5%
 
 ---
 
@@ -43,8 +43,8 @@ Queste impostazioni si applicano alla sovrapposizione in modalità standard.
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Dynamic Data Filtering]** |  |
-| **[!UICONTROL Hide overlays for links that received no hits]**. | Questa casella di controllo consente di nascondere le sovrapposizioni per i collegamenti che non hanno ricevuto hit, per ridurre il disordine nell’interfaccia. |
+| **[!UICONTROL Dynamic Data Filtering]** | Questo menu a discesa consente di visualizzare le sovrapposizioni per<ul><li>(Impostazione predefinita) Tutti i collegamenti presenti nella pagina</li><li>Il numero di collegamenti in alto (più alto) o in basso (più basso) nella pagina, dove # può essere una scelta tra 1, 10, 50 o 100.</li></ul> |
+| **[!UICONTROL Hide overlays for links that received no hits]**. | Una casella di controllo che attiva o disattiva la visibilità delle sovrapposizioni per i collegamenti privi di dati.<ul><li>(Impostazione predefinita) Se la casella di controllo è selezionata, non viene visualizzata alcuna sovrapposizione quando un collegamento non ha dati di collegamento ActivityMap.</li><li>Se la casella di controllo è deselezionata, allora se un collegamento non ha dati di collegamento ActivityMap, viene visualizzata una sovrapposizione con etichetta &quot;-&quot;, che significa N/D (non applicabile). |
 
 ## Impostazioni live {#section_D30F6E62FB5D404090B588F396A460AF}
 
