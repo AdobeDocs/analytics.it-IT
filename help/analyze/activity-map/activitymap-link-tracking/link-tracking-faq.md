@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
+source-git-commit: 7ba73d75dde80571125c83efb3265441b8d3278a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 1%
+source-wordcount: '518'
+ht-degree: 2%
 
 ---
 
@@ -79,10 +79,25 @@ b) Tramite la variabile `s_objectID`. Esempio:
 
 ## Potete fornirmi alcuni esempi di collegamenti che verranno tracciati?
 
-* `<a hef="/home?lang=en>Home</a>`
-* `<input type="submit" value="Submit"/>`
-* `<input type="image" src="submit-button.png"/>`
-* 
+### Esempio 1
+
+```
+  <a hef="/home?lang=en>Home</a>
+```
+
+### Esempio 2
+
+```
+ <input type="submit" value="Submit"/>
+```
+
+### Esempio 3
+
+```
+  <input type="image" src="submit-button.png"/>
+```
+
+### Esempio 4
 
 ```
     <p onclick="var s_objectID='custom link id';">
@@ -91,7 +106,7 @@ b) Tramite la variabile `s_objectID`. Esempio:
     </p>
 ```
 
-* 
+### Esempio 5
 
 ```
     <div onclick="s.tl(true,'o','custom link id')">
