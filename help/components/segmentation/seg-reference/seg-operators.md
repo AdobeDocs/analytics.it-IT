@@ -1,30 +1,29 @@
 ---
 description: Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati.
 title: Operatori di confronto per i segmenti
-feature: Segmentation
+feature: Segmentazione
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 99%
 
 ---
 
 # Operatori di confronto per i segmenti
 
-Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati.
-
-Esistono tre categorie di operatori: Standard, Data Warehouse e Conteggio valori univoci.
+Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati. Esistono tre categorie di operatori: Standard, Data Warehouse e Conteggio valori univoci.
 
 L’unico carattere jolly supportato è l’asterisco: *. Se desideri cercare *, puoi utilizzare la barra rovesciata come carattere di escape.
 
 **Esempio**: supponiamo che tu abbia un nome pagina “My cool product”. La regola del segmento “Il nome pagina corrisponde a My*product” corrisponderà al nome pagina indicato sopra. Tuttavia, la regola “Il nome pagina corrisponde a My\\*product” corrisponde solo al nome pagina “My*Product”.
 
+## Operatori standard
+
 | Operatore | L’evento di dimensione, segmento o metrica selezionato... |
 |--- |--- |
-| **Standard** |  |
 | è uguale a | Restituisce elementi che corrispondono esattamente a un valore numerico o stringa. Nota: se utilizzi caratteri jolly, usa l’operatore “corrisponde a”. |
 | non è uguale a | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito.  Nota: se utilizzi caratteri jolly, usa l’operatore “non corrisponde a”. |
 | è uguale a uno qualsiasi di | Restituisce elementi che corrispondono esattamente a qualsiasi valore nel campo di input (fino a 500 elementi). Ad esempio, l’inserimento di “Risultati ricerca, Home page” con questo operatore corrisponde a “Risultati ricerca” e “Home page”, che verranno conteggiati come 2 elementi. Il campo di input per questo operatore è delimitato da virgole. |
@@ -43,12 +42,22 @@ L’unico carattere jolly supportato è l’asterisco: *. Se desideri cercare *,
 | non corrisponde | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito. Nota: utilizza questo operatore per le funzioni dei caratteri jolly (globbing). |
 | esiste | Restituisce il numero di elementi esistenti. Ad esempio, se valuti la dimensione Pagine non trovate utilizzando l’operatore “esiste”, viene restituito il numero di pagine di errore esistenti. |
 | non esiste | Restituisce tutti gli elementi che non esistono. Ad esempio, se valuti la dimensione Pagine non trovate utilizzando l’operatore “non esiste”, viene restituito il numero di pagine in cui non esisteva questa pagina di errore. |
-| **Data Warehouse** |  |
+
+## Date Warehouse
+
+| Operatore | L’evento di dimensione, segmento o metrica selezionato... |
+| --- | --- |
 | è minore di | Restituisce elementi il cui conteggio numerico è inferiore al valore inserito. |
 | è minore o uguale a | Restituisce elementi il cui conteggio numerico è minore o uguale al valore inserito. |
 | è maggiore di | Restituisce elementi il cui conteggio numerico è maggiore del valore inserito. |
 | è maggiore o uguale a | Restituisce elementi il cui conteggio numerico è maggiore di o uguale al valore inserito. |
-| **Conteggio valori univoci** | Puoi creare segmenti in base a un numero specifico di elementi all’interno di una dimensione. Esempio: “Visitatori che hanno visualizzato più di 5 prodotti distinti” o “Visite in cui sono state visualizzate più di 5 pagine distinte”. |
+
+## Operatori di conteggio distinti
+
+Puoi creare segmenti in base a un numero specifico di elementi all’interno di una dimensione. Esempio: “Visitatori che hanno visualizzato più di 5 prodotti distinti” o “Visite in cui sono state visualizzate più di 5 pagine distinte”.
+
+| Operatore | L’evento di dimensione, segmento o metrica selezionato... |
+| --- | --- |
 | è uguale a | Restituisce elementi dimensionali il cui conteggio univoco è uguale al valore inserito. |
 | non è uguale a | Restituisce elementi dimensionali il cui conteggio univoco non è uguale al valore inserito. |
 | è maggiore di | Restituisce elementi dimensionali il cui conteggio univoco è maggiore del valore inserito. |
