@@ -2,13 +2,13 @@
 description: Le regole di classificazione cercano regolarmente termini non classificati. Se viene trovata una corrispondenza alla regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Puoi inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 subtopic: Classifications
 title: Regole di classificazione
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
 workflow-type: tm+mt
-source-wordcount: '1959'
-ht-degree: 100%
+source-wordcount: '1969'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Le regole di classificazione cercano regolarmente termini non classificati. Se v
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-Il Generatore di regole consente di creare un *`classification rule set`* (set di regole di classificazione), che è un elenco di *`classification rules`*. Se una regola corrisponde ai criteri specificati, esegue un’azione.
+Il Generatore di regole consente di creare un *set di regole di classificazione*, che è un elenco di *regole di classificazione*. Se una regola corrisponde ai criteri specificati, esegue un’azione.
 
 Le regole di classificazione sono utili per:
 
@@ -266,7 +266,7 @@ In questo risultato, `a:b:1313` non indica una corrispondenza.
 | `a{3,}` | 3 o più di a |
 | `a{3,6}` | Tra 3 e 6 di a |
 
-Una buona risorsa per testare la validità delle espressioni regolari è https://rubular.com/.
+Una buona risorsa per testare la validità delle espressioni regolari è [https://rubular.com/](https://rubular.com/).
 
 ## Informazioni sulla priorità delle regole
 
@@ -326,13 +326,15 @@ Per aggiungere nuove regole, fai corrispondere una condizione a una classificazi
 
    >[!NOTE]
    >
-   >Le suite di rapporti vengono visualizzate in questa pagina *`only`* quando sono soddisfatte le seguenti condizioni:
+   >Le suite di rapporti vengono visualizzate in questa pagina *solo* quando sono soddisfatte le seguenti condizioni:
    >
    >* Le suite di rapporti hanno almeno una classificazione definita per la variabile in [!UICONTROL Admin Tools].
-   >
-   >   Per una spiegazione di questo prerequisito, consulta *`Variable`* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md).
-   >
-   >* Hai selezionato la suite di rapporti nella pagina **[!UICONTROL Available Report Suites]**, che viene visualizzata dopo aver fatto clic su [Aggiungi set di regole](/help/components/classifications/crb/classification-rule-set.md) per creare il set di regole.
+      >
+      >   
+      (Per una spiegazione di questo prerequisito, consulta *Variabile* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md) .)
+      >
+      >
+   * Hai selezionato la suite di rapporti nella pagina **[!UICONTROL Available Report Suites]**, che viene visualizzata dopo aver fatto clic su [Aggiungi set di regole](/help/components/classifications/crb/classification-rule-set.md) per creare il set di regole.
 
 
 1. Specifica se i valori esistenti devono essere sovrascritti:
@@ -405,7 +407,7 @@ Passaggi che descrivono come convalidare e attivare le regole di classificazione
 
    ![](assets/overwrite_keys.png)
 
-1. Per sovrascrivere le classificazioni, abilita **[!UICONTROL Overwrite classifications for]** *`<selection>`* (facoltativo).
+1. (Facoltativo) Per sovrascrivere le classificazioni, abilita **[!UICONTROL Overwrite classifications for]** &lt;*selection*>.
 
    Questa opzione consente di sovrascrivere le classificazioni esistenti per le chiavi interessate.
 
