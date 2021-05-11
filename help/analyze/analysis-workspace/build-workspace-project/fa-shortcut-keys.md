@@ -18,8 +18,8 @@ ht-degree: 100%
 I tasti di scelta rapida (scelte rapide da tastiera) disponibili in Analysis Workspace rendono più fluide le operazioni di navigazione, analisi, aggiunta di pannelli e visualizzazioni e democratizzazione (condivisione).
 
 Nota:
-* `Ctrl` = Windows e `Command` = Mac
-* `Alt` = Windows e `Option` = Mac
+* `Ctrl` = Windows e `Comando` = Mac
+* `Alt` = Windows e `Opzione` = Mac
 
 ## Azioni di navigazione
 
