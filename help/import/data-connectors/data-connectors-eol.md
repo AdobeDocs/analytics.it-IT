@@ -3,9 +3,9 @@ description: Scopri quando e perché i connettori dati di Analytics termineranno
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 9%
 
 ---
@@ -82,7 +82,7 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | MaritzCX (V 2.0) | Obsolescenza |
 | Merkle | Obsolescenza |
 | Integrazione ufficiale Oracle Eloqua | Migrazione a Exchange |
-| optivo broadmail (Episerver) | Migrazione a Exchange |
+| optivo broadmail (Episerver) | Obsolescenza |
 | Qualtrics v2 | Migrazione a Exchange |
 | Responsys 2.0 | Obsolescenza |
 | Selligent | Obsolescenza |
