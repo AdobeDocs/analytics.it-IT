@@ -2,11 +2,10 @@
 description: Nuove funzionalità di Analysis Workspace.
 keywords: Analysis Workspace
 title: Scopri le novità di Analysis Workspace
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8213'
 ht-degree: 99%
@@ -24,13 +23,11 @@ Per accedere alle note sulla versione di Adobe Experience Cloud nel suo compless
 | [!UICONTROL Components] > [!UICONTROL User preferences] | 25 marzo 2021 | La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni [!UICONTROL Analysis Workspace] e i relativi componenti per l’utente. [!UICONTROL User preferences] si applica a tutti i nuovi progetti e pannelli. <br>**Nota:** le seguenti impostazioni sono state spostate nella  [!UICONTROL User preferences] pagina:<ul><li>Impostazioni dei rapporti: Separatore delle migliaia (ora denominato _Formato numero_)</li><li>Impostazioni dei rapporti: Separatore CSV</li><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: opzione _Avvia nuovi progetti con questo pannello_ per pannello vuoto</li></ul> |
 | [!UICONTROL Histogram Smart Bucket Prediction] | 25 marzo 2021 | [!UICONTROL Histogram Smart Bucket Prediction] aiuta gli istogrammi con metriche ad alta cardinalità identificando automaticamente la larghezza e il numero di bucket giusti per la distribuzione dei dati. Per le metriche a bassa cardinalità, la visualizzazione si comporta come in precedenza. |
 
-
 ## Febbraio 2021
 
 | Funzione | Data target | Descrizione |
 | --- | --- | --- |
 | Selezione di componenti | 4 febbraio 2021 | Il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] verrà aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |
-
 
 ## Gennaio 2021
 
@@ -882,7 +879,7 @@ Nuove funzionalità rilasciate il 20 aprile 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Modello Persone </a> </p> </td> 
-   <td colname="col2"> <p>Nota: il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di <a href="https://docs.adobe.com/content/help/it-IT/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a>. </p> <p>Il modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori unici. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. </p> </td> 
+   <td colname="col2"> <p>Nota: il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di <a href="https://docs.adobe.com/content/help/it-IT/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a>. </p> <p>Il modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori univoci. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Miglioramenti all’opzione Annulla/Ripeti </p> </td> 
@@ -1154,7 +1151,7 @@ Il grafico bullet è dotato di un dato primario singolo (ad esempio, le entrate 
 
 ![](assets/scatter.png)
 
-Mostra le impressioni e quanti utenti unici le hanno visualizzate. Le dimensioni di ogni punto corrispondono a un dato visivo sul numero medio di volte in cui un visualizzatore è stato esposto a una pubblicità. Le dimensioni e i dati sono variabili in base a dimensioni, intervallo di date e filtri selezionati.
+Mostra le impressioni e quanti utenti univoci le hanno visualizzate. Le dimensioni di ogni punto corrispondono a un dato visivo sul numero medio di volte in cui un visualizzatore è stato esposto a una pubblicità. Le dimensioni e i dati sono variabili in base a dimensioni, intervallo di date e filtri selezionati.
 
 >[!NOTE]
 >
@@ -1168,7 +1165,7 @@ Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettan
 
 Quando il colore e le dimensioni sono in qualche modo legate con la struttura dell’albero, spesso si notano modelli che sarebbe difficile individuare in altri modi, ad esempio se un determinato colore è particolarmente rilevante. Un secondo vantaggio della struttura ad albero è rappresentato, per sua stessa natura, da un utilizzo efficiente dello spazio.
 
-## Opzione Salva con nome per segmenti, metriche e date  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## Opzione Salva con nome per segmenti, metriche e date {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Durante la modifica di un segmento esistente (salvato) con il Generatore di segmenti di Analysis Workspace, fai clic su **[!UICONTROL Save As]** (Salva con nome) per creare una copia.
 
@@ -1220,7 +1217,7 @@ In Impostazioni colonna, puoi applicare la formattazione condizionale ai dati de
  </tbody> 
 </table>
 
-## Anteprima dimensione  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Anteprima dimensione {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Nel pannello dei componenti [!UICONTROL Dimensions], puoi passare il cursore sull’icona delle informazioni accanto a una dimensione per visualizzare un’anteprima delle cinque dimensioni principali.
 
@@ -1244,11 +1241,11 @@ A seconda dei valori specificati per i grafici a linee o area, la parte inferior
 
 ![](assets/anchor_Y_axis.png)
 
-## Nome progetto nel titolo della scheda  {#section_497C61A030984BCCA2CEA553312C3226}
+## Nome progetto nel titolo della scheda {#section_497C61A030984BCCA2CEA553312C3226}
 
 Quando si salva un progetto, il titolo della scheda nel browser verrà visualizzato come “`<Project Name>` (Nome progetto) - Analysis Workspace”. Questo miglioramento è utile se apri più progetti in più schede del browser.
 
-## Trasferimento della proprietà del progetto  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Trasferimento della proprietà del progetto {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Gli amministratori possono trasferire i progetti di [!UICONTROL Analysis Workspace] da un utente all’altro.
 
