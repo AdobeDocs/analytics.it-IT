@@ -2,10 +2,9 @@
 title: Creare o modificare un feed dati
 description: Scopri come creare o modificare un feed di dati.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-translation-type: tm+mt
-source-git-commit: 769f8cf2dc726df5b71b453f5bbcfb9f0e78e6d7
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '870'
 ht-degree: 3%
 
 ---
@@ -88,6 +87,15 @@ Sono disponibili tutte le colonne, indipendentemente dai dati disponibili. Un fe
 * **Rimuovi i caratteri** di escape: Quando si raccolgono i dati, alcuni caratteri (come le righe nuove) possono causare problemi. Selezionare questa casella se si desidera rimuovere questi caratteri dai file di feed.
 * **Formato** di compressione: Tipo di compressione utilizzato. Gzip restituisce i file in formato `.tar.gz`. Lo ZIP restituisce i file in formato `.zip`.
 * **Tipo** di imballaggio: Un file singolo genera il  `hit_data.tsv` file in un unico file potenzialmente enorme. Più file impaginano i dati in blocchi da 2 GB (non compressi). Se sono selezionati più file e i dati non compressi per l’intervallo di reporting sono inferiori a 2 GB, viene inviato un file. Adobe consiglia di utilizzare più file per la maggior parte dei feed di dati.
+* **Manifesto**: Indica se Adobe deve o meno inviare un  [file ](c-df-contents/datafeeds-contents.md#feed-manifest) manifesto alla destinazione quando non vengono raccolti dati per un intervallo di feed. Se selezioni Manifest File, riceverai un file manifesto simile al seguente quando non vengono raccolti dati:
+
+```text
+   Datafeed-Manifest-Version: 1.0
+    Lookup-Files: 0
+    Data-Files: 0
+    Total-Records: 0
+```
+
 * **Modelli** colonna: Quando si creano molti feed di dati, Adobe consiglia di creare un modello di colonna. Quando si seleziona un modello di colonna, vengono automaticamente incluse le colonne specificate nel modello. In Adobe sono inoltre disponibili diversi modelli per impostazione predefinita.
 * **Colonne** disponibili: Tutte le colonne di dati disponibili in Adobe Analytics. Fai clic su [!UICONTROL Add all] per includere tutte le colonne in un feed di dati.
 * **Colonne** incluse: Le colonne da includere in un feed di dati. Fai clic su [!UICONTROL Remove all] per rimuovere tutte le colonne da un feed di dati.
