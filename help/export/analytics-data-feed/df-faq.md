@@ -3,10 +3,9 @@ description: Domande frequenti sui feed di dati
 keywords: Feed di dati;processo;pre colonna;post colonna;sensibilità maiuscole/minuscole
 title: Domande frequenti sui feed di dati
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -70,17 +69,6 @@ Per alcuni fusi orari, l&#39;ora cambia due volte all&#39;anno a causa delle def
 Quando si eseguono transizioni di tempo STD -> DST (&quot;Primavera avanti&quot;), il cliente riceve solo 23 file. L’ora saltata nella transizione DST viene omessa. Ad esempio, se la transizione si verifica alle 2 del mattino, ottengono un file per l’ora 1:00 e un file per l’ora 3:00. Non c&#39;è alcun file 2:00 perché, alle 2:00 STD, diventa 3:00 DST.
 
 Quando si eseguono transizioni DST -> STD, (&quot;Fall Back&quot;), il cliente ottiene 24 file. Tuttavia, l&#39;ora della transizione include in realtà due ore di dati. Ad esempio, se la transizione si verifica alle 2:00, il file per 1:00 viene ritardato di un&#39;ora, ma contiene dati per due ore. Contiene dati da 1:00 DST a 2:00 STD (che sarebbe stato 3:00 DST). Il file successivo inizia alle 2:00 STD.
-
-## Riceverò i file manifest quando non vengono raccolti dati? {#section_72510794694D42A9A75C966B812AEB0F}
-
-Facoltativamente, puoi configurare un feed di dati per consegnare un file manifesto se non vengono raccolti dati per un periodo specifico. Se abiliti questa opzione, riceverai un file manifesto simile al seguente:
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
 
 ## In che modo Analytics gestisce gli errori di trasferimento FTP? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
