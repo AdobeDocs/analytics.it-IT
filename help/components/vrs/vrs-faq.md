@@ -5,9 +5,9 @@ title: Domande frequenti su VRS
 feature: Nozioni di base su Reports & Analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-source-git-commit: 3f8c9d0309c7d4c023e0c936e0a713b24e1482f6
+source-git-commit: c93cd1b14cd6b8e803c4e06209153c8e69af077a
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '965'
 ht-degree: 1%
 
 ---
@@ -25,4 +25,4 @@ Suggerimenti e best practice per i nuovi utenti delle suite di rapporti virtuali
 | Ho controllato &quot;inizia una nuova visita al lancio&quot;. Perché vedo visite ancora più elevate dei lanci? | Quando è selezionato &quot;Avvia nuova visita al lancio&quot;, il timeout viene comunque applicato. Quindi, se un utente utilizza l’app per dieci minuti con un minuto di pausa tra ciascuna azione, una nuova visita inizia all’avvio, vengono create altre nove visite quando la visita si interrompe. Per mantenere gli avvii e le visite il più vicino possibile quando utilizzi l’opzione &quot;avvia una nuova visita al momento dell’avvio&quot;, utilizza un timeout più lungo del timeout di sessione impostato nell’SDK. |
 | Ho impostato &quot;start new visit on launch&quot; e impostato un timeout più lungo del mio SDK. Perché i miei lanci sono ancora molto più bassi delle visite? | Se il timeout è superiore al valore impostato nell&#39;SDK, è molto probabile che l&#39;app invii hit in background e questi hit si registrano come nuove visite. Per verificarlo, utilizza la dimensione del tipo di hit nella suite di rapporti principale per verificare se sono presenti hit di background.<br>**Nota**: Gli hit in background e in primo piano sono differenziati solo nella versione 4.13.6 e successive dell’SDK. Se utilizzi una versione inferiore, tutti gli hit vengono visualizzati in primo piano. Se usi la versione corretta dell’SDK, abilita l’impostazione &quot;Impedisci agli hit di background di avviare una nuova visita&quot;.    Nota: Se hai disabilitato l’elaborazione legacy per gli hit in background in Admin Console, questi non verranno visualizzati nella suite di rapporti principale ma verranno visualizzati nella suite di rapporti virtuale. |
 | Quale versione dell&#39;SDK devo avere per tenere traccia degli hit di background? | Devi avere la versione 4.13.6 o successiva dell&#39;SDK. |
-| Come posso trovare l’ID di una suite di rapporti virtuale? | In [API suite di rapporti virtuali](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md). |
+| Come posso trovare l’ID di una suite di rapporti virtuale? | <ul><li>Aprendo un progetto Workspace, facendo clic sul selettore delle suite di rapporti e cercando il nome di una suite di rapporti virtuali nella casella di ricerca. L&#39;ID viene visualizzato sotto il nome nei risultati della ricerca:<br>![](assets/vrs-id.png)</li><li> Oppure, a livello di programmazione, nell’ [API suite di rapporti virtuali](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md).</li></ul> |
