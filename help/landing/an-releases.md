@@ -1,14 +1,13 @@
 ---
 description: Spiega la nuova strategia per il rilascio continuo di funzioni per Adobe Analytics
 title: Rilasci di funzioni di Adobe Analytics
-translation-type: ht
-source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: ht
+exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
-
 
 # Rilasci di funzioni di Adobe Analytics
 
@@ -41,4 +40,4 @@ I rilasci graduali consentono ad Adobe di scalare meglio il processo di distribu
 | Domanda | Risposta |
 |---|---|
 | Posso richiedere l’accesso anticipato a una funzione? | No. Non sarà concesso un accesso anticipato.<br>Se desideri testare concetti di Analytics in fase iniziale, ti invitiamo a provare [Adobe Analytics Labs](https://docs.adobe.com/content/help/it-IT/analytics/analyze/tech-previews/overview.html) per fornire feedback sulle innovazioni leader del settore. |
-| Questa strategia di rilascio influisce sull’accesso alle funzioni? | No. Una volta che una funzione raggiunge la fase GA, potrai accedervi se è inclusa nel tuo pacchetto Analytics.<br>Puoi visualizzare i dettagli del tuo pacchetto Analytics in [!UICONTROL Admin] > [!UICONTROL Company Settings] > [Feature Access Levels](https://docs.adobe.com/content/help/it-IT/analytics/admin/company-settings/feature-access-levels.html). |
+| Questa strategia di rilascio influisce sull’accesso alle funzioni? | No. Una volta che una funzione raggiunge la fase GA, potrai accedervi se è inclusa nel tuo pacchetto Analytics.<br>Puoi visualizzare i dettagli del pacchetto Analytics in  [!UICONTROL Admin] >  [!UICONTROL All admin] >  [!UICONTROL Company settings] >  [Feature Access Levels](https://docs.adobe.com/content/help/it-IT/analytics/admin/company-settings/feature-access-levels.html) (Livelli di accesso alle funzioni). |
