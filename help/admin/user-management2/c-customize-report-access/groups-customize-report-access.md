@@ -3,11 +3,10 @@ description: Personalizza l’autorizzazione del gruppo per gli strumenti di Ana
 keywords: gruppi;autorizzazioni
 subtopic: Users and groups
 title: Panoramica di personalizzazione accesso ai rapporti
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 34%
@@ -18,7 +17,7 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti è stata spostata nell&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
+>La gestione di utenti e prodotti è stata spostata nell&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** verranno ritirati.
 
 Personalizza l’autorizzazione del gruppo per gli strumenti di Analytics, gli strumenti della suite di rapporti, le metriche e le dimensioni.
 
