@@ -4,14 +4,13 @@ title: Abilitare Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 9%
 
 ---
-
 
 # Abilitare Activity Map{#enable-activity-map}
 
@@ -23,7 +22,7 @@ Il modulo Activity Map fa parte del file AppMeasurement.js (che si trova nella p
 
 I dati di Activity Map possono essere raccolti solo se si esegue l’aggiornamento a questa versione (o superiore) di AppMeasurement.
 
-1. Scarica il codice AppMeasurement più recente (AppMeasurement_Javascript-1.6.zip) andando su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** e [implementalo](https://docs.adobe.com/content/help/it-IT/analytics/implementation/js/overview.html).
+1. Scarica il codice AppMeasurement più recente (AppMeasurement_Javascript-1.6.zip) andando su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** e [implementalo](https://docs.adobe.com/content/help/it-IT/analytics/implementation/js/overview.html).
 
    Abbiamo incluso alcuni [codici di implementazione di esempio](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) per aiutarti a visualizzare le modifiche apportate al codice includendo il modulo Activity Map.
 
@@ -49,13 +48,13 @@ Innanzitutto, devi abilitare i rapporti di Activity Map a livello di suite di ra
 
 1. Dopo circa un&#39;ora, controlla il [report pagina Activity Map](/help/analyze/activity-map/activitymap-reporting-analytics.md), che mostra tutte le pagine in cui gli utenti hanno fatto clic su un collegamento.
 
-## Passaggio 3: Aggiungi utenti al gruppo di accesso Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## Passaggio 3: Aggiungere utenti al gruppo di accesso di Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
 1. Fai clic su **[!UICONTROL Add Users to Group]**.
 
    Viene visualizzata la pagina di gestione dei gruppi nell’Admin Console.
 
-1. [Aggiungi gli utenti a questo ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=it-IT) gruppo  **[!UICONTROL Save Group]**.
+1. [Aggiungi gli utenti a questo ](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html) gruppo  **[!UICONTROL Save Group]**.
 
 1. Questo consente agli utenti amministratori di scaricare Activity Map da **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
 
