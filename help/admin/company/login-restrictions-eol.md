@@ -1,48 +1,47 @@
 ---
-title: Fine del ciclo di vita [!UICONTROL Enforce IP login restrictions]
-description: Scopri i tempi di fine del ciclo di vita e le implicazioni per [!UICONTROL Enforce IP login restrictions]
-translation-type: tm+mt
-source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
+title: Terminazione di [!UICONTROL Enforce IP login restrictions]
+description: Scopri la tempistica e le implicazioni per [!UICONTROL Enforce IP login restrictions]
+exl-id: 67d822ee-005b-46cf-80b4-a5aa4412d746
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 1%
 
 ---
 
+# Terminazione di [!UICONTROL Enforce IP login restrictions]
 
-# Fine del ciclo di vita [!UICONTROL Enforce IP login restrictions]
+La funzione **[Applica restrizioni di accesso IP](/help/admin/company/security-manager.md)** in Adobe Analytics consente di aggiungere a un inserire nell&#39;elenco Consentiti indirizzi IP specifici (ritenuti sicuri), in modo da consentire accessi e accesso efficaci all’ambiente Adobe Analytics. In molti casi, questa funzione viene utilizzata per impostare un indirizzo IP aziendale come l’unico indirizzo IP sicuro da cui gli utenti possono effettuare l’accesso. Pertanto, per utilizzare Adobe Analytics, questo richiede agli utenti di essere in un ufficio aziendale o di accedere alla rete tramite VPN.
 
-La funzione **[Applica restrizioni](/help/admin/company/security-manager.md)** di accesso IP in  Adobe Analytics consente di aggiungere indirizzi IP specifici (ritenuti sicuri) a un inserire nell&#39;elenco Consentiti , in modo da consentire accessi e accesso efficaci al  ambiente Adobe Analytics. In molti casi, questa funzione viene utilizzata per impostare un indirizzo IP aziendale come unico indirizzo IP protetto da cui gli utenti possono accedere. Pertanto, per utilizzare  Adobe Analytics, questo richiede che gli utenti si trovino in un ufficio aziendale o che accedano alla rete tramite VPN.
+Stiamo pianificando la fine di questa funzione a gennaio 2021.
 
-Stiamo pianificando di terminare il ciclo di vita di questa funzione nel mese di gennaio 2021.
+## Perché terminiamo questa funzione?
 
-## Perché stiamo terminando questa funzione?
+Questa funzione è interrotta in alcune circostanze dalla migrazione dell’accesso di Experience Cloud e/o dall’accesso di Experience Cloud. È noto per interrompere i clienti che utilizzano **[!UICONTROL Customer Attributes]** o **[!UICONTROL Audience Library]**.
 
-Questa funzione viene interrotta in alcune circostanze dalla migrazione dell&#39;accesso al Experience Cloud  e/o dall&#39;accesso al Experience Cloud . È noto per interrompere per i clienti che utilizzano **[!UICONTROL Customer Attributes]** o **[!UICONTROL Audience Library]**.
+Inoltre, se possiedi più soluzioni Experience Cloud, puoi soddisfare questo requisito accedendo all’Experience Cloud con una delle altre soluzioni, in quanto questa funzione non esiste o non è supportata al di fuori di Analytics stesso. Gli utenti possono anche aggirare questo problema tramite spoofing IP.
 
-Inoltre, se possedete più soluzioni per  Experience Cloud, potete eludere questo requisito effettuando l&#39;accesso al Experience Cloud  con una delle altre soluzioni, in quanto questa funzione non esiste o non è supportata al di fuori di Analytics stesso. Gli utenti potrebbero anche aggirare questo problema tramite lo spoofing IP.
+Infine, Adobe dispone di una soluzione alternativa funzionante e di gran lunga superiore tramite Single-Sign-On e Federated ID. Questa funzione offre maggiore controllo e sicurezza sull’esperienza di accesso degli utenti. Per ulteriori informazioni, consulta di seguito.
 
-Infine,  Adobe dispone di una soluzione alternativa efficiente e di gran lunga superiore tramite Single Sign-On e Federated ID. Questa funzione offre maggiore controllo e sicurezza sull’esperienza di accesso degli utenti. Per ulteriori informazioni, vedi sotto.
+## In che modo la rimozione di questa funzione ti influisce?
 
-## In che modo la rimozione di questa funzione ha un impatto su di te?
+Per tutti i clienti che hanno **[!UICONTROL Enforce IP login restrictions]** impostato, questa funzione verrà rimossa a gennaio 2021. A quel punto, le eventuali restrizioni di accesso IP ancora in vigore non verranno più applicate. Se devi ancora limitare l’accesso per indirizzo IP, devi rivedere e implementare la soluzione consigliata di Single-Sign-On e Federated ID (ulteriori informazioni e risorse di seguito).
 
-Per tutti i clienti che hanno **[!UICONTROL Enforce IP login restrictions]** configurato questa funzione, questa verrà rimossa a gennaio 2021. In quel momento, eventuali restrizioni di accesso IP ancora in vigore non saranno più applicate. Se devi comunque limitare l’accesso per indirizzo IP, consulta e implementa la soluzione consigliata per ID Single Sign-On e Federated ID (ulteriori informazioni e risorse di seguito).
-
-Inoltre, l&#39; **[!UICONTROL Enforce IP login restrictions]** impostazione verrà rimossa da **[!UICONTROL Admin]>[!UICONTROL Company Settings]>[!UICONTROL Security Manager]** nell&#39;interfaccia utente di Analytics (come mostrato di seguito).
+Inoltre, l’impostazione **[!UICONTROL Enforce IP login restrictions]** verrà rimossa da **[!UICONTROL Admin]> [!UICONTROL All admin] > [!UICONTROL Company settings] >[!UICONTROL Security Manager]** nell’interfaccia utente di Analytics (come mostrato di seguito).
 
 ![](assets/sec-manager2.png)
 
-## Quali sono le altre opzioni?
+## Quali sono le tue altre opzioni?
 
-Come già detto, questa funzione di Analytics terminerà. Per darti il tempo di implementare SSO e Federated ID, abbiamo posticipato la data EOL a gennaio 2021.
+Come indicato in precedenza, questa funzione di Analytics terminerà. Per darti il tempo di implementare SSO e Federated ID, la data di fine del ciclo di vita è stata posticipata a gennaio 2021.
 
-Sia SSO che Federated ID sono soluzioni superiori alla funzione Limitazione di accesso IP che abbiamo già installato oggi e vi fornirà maggiore controllo, sicurezza e funzionalità. Per informazioni su come impostare SSO/Federated ID, è disponibile la seguente documentazione di aiuto. Consigliamo di leggerli accuratamente e di collaborare con il reparto IT per implementarli:
+Gli SSO e i Federated ID sono soluzioni superiori alla funzione di restrizione dell’accesso IP attualmente in vigore e ti forniranno maggiore controllo, sicurezza e funzionalità. Per informazioni su come impostare SSO/Federated ID, è disponibile la seguente documentazione di aiuto. Si consiglia di leggerle a fondo e di collaborare con il reparto IT per implementarle:
 
-* [Single Sign-On e il Experience Cloud](https://spark.adobe.com/page/JeSB8EPEQIvjD/)
-* [Admin Console  - Documentazione di impostazione identità](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html)
-* [Admin Console  - Esercitazione sull’impostazione dell’identità (video)](https://helpx.adobe.com/enterprise/how-to/identity-directories-domains.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&amp;ref=helpx.adobe.com)
-* [Configurare l’esercitazione Federated ID (video)](https://helpx.adobe.com/enterprise/how-to/identity-configure-ids.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&amp;ref=helpx.adobe.com)
-* [Single Sign-On - Domande frequenti](https://helpx.adobe.com/enterprise/using/sso-faq.html)
-* [tipi di identità supportati dal Adobe](https://helpx.adobe.com/it/enterprise/using/identity.html)
+* [Single Sign-On e l’Experience Cloud](https://spark.adobe.com/page/JeSB8EPEQIvjD/)
+* [Admin Console - Documentazione dell’installazione di Identity](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html)
+* [Admin Console - Esercitazione sull’impostazione dell’identità (video)](https://helpx.adobe.com/enterprise/how-to/identity-directories-domains.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&amp;ref=helpx.adobe.com)
+* [Esercitazione su come configurare il Federated ID (video)](https://helpx.adobe.com/enterprise/how-to/identity-configure-ids.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&amp;ref=helpx.adobe.com)
+* [Single Sign-On - Domande comuni](https://helpx.adobe.com/enterprise/using/sso-faq.html)
+* [Tipi di identità supportati da Adobe](https://helpx.adobe.com/enterprise/using/identity.html)
 
-Se desiderate continuare a supportare le restrizioni di accesso IP e richiedete che siano fornite dal Experience Cloud , potete votare per questa funzione nella nostra pagina [](https://forums.adobe.com/ideas/11648)Forum.
+Se desideri continuare a esprimere il tuo supporto per le restrizioni di accesso IP e richiederne l’invio tramite l’Experience Cloud, puoi votare questa funzione nella nostra [pagina del forum](https://forums.adobe.com/ideas/11648).
