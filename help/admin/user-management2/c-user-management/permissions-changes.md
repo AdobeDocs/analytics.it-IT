@@ -3,10 +3,9 @@ description: Contenuto delle autorizzazioni legacy
 keywords: gruppi;autorizzazioni
 subtopic: Users and groups
 title: Modifiche alle autorizzazioni Utente e Gruppo
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 15%
@@ -18,7 +17,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti è stata spostata nell&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
+>La gestione di utenti e prodotti è stata spostata nell&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** verranno ritirati.
 
 ## Cosa è cambiato? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -124,7 +123,7 @@ Informazioni importanti sugli aggiornamenti nuovi e pianificati e su come influi
  </tbody> 
 </table>
 
-## Riferimento rapido autorizzazioni {#section_A3FDD8259F524B21A5489833533D1B28}
+## Riferimento rapido sulle autorizzazioni {#section_A3FDD8259F524B21A5489833533D1B28}
 
 Nella tabella seguente sono elencate le attività e le aree in cui possono avere luogo (a seconda dello stato di un&#39;azienda).
 
