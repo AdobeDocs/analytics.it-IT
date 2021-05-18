@@ -1,11 +1,10 @@
 ---
 description: Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi della suite che consentono di duplicare e potenziare le funzionalità disponibili tramite l’interfaccia di Analytics.
 title: Servizi web
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 2%
@@ -16,7 +15,7 @@ ht-degree: 2%
 
 Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi della suite che consentono di duplicare e potenziare le funzionalità disponibili tramite l’interfaccia di Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Web Services]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL All admin]** >  **[!UICONTROL Company settings]** >  **[!UICONTROL Web Services]**
 
 ## Gestisci servizi Web
 
