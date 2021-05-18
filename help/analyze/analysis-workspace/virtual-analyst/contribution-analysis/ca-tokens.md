@@ -5,8 +5,7 @@ uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-translation-type: tm+mt
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 91%
@@ -54,7 +53,7 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
 | I token si applicano anche all’analisi dei contributi in Reports &amp; Analytics? | No. A partire da aprile 2018, Reports &amp; Analytics non offre più Analisi contributi. |
 | Cosa devo fare se la mia azienda ha esaurito i token ma intende eseguire altre analisi dei contributi? | Si può eseguire l’aggiornamento a un altro prodotto Adobe Analytics, ad esempio da Standard (2 token al mese) a Ultimate (20 token al mese). Non è contemplato il solo acquisto di altri token; è necessario eseguire l’aggiornamento all’interno del framework del pacchetto esistente. |
 | Come si limita l’accesso all’analisi dei contributi? | Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi. Tuttavia, gli amministratori possono concedere l&#39;accesso ad altri utenti creando un gruppo di autorizzazioni in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). Si consiglia di concedere l’autorizzazione all’analisi dei contributi solo agli utenti che abbiano un motivo legittimo per accedervi e di cui si sia certi che non abuseranno dei diritti di accesso ricevuti. L&#39;autorizzazione si chiama [!UICONTROL Contribution Analysis] in [!UICONTROL Report Suite Tools]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| Come faccio a conoscere il numero di token mensili a disposizione della mia azienda e quanti ne abbiamo utilizzati nel mese in corso? | Vai a  [!UICONTROL Admin] > [!UICONTROL All Admin] >[!UICONTROL Company Settings Home] >[!UICONTROL View Feature Access Levels]. Cerca sotto<ul><li>Analisi contributi: Numero di token di utilizzo mensili</li><li>Analisi contributi: Numero di token di utilizzo utilizzati in questo mese</li></ul> |
+| Come faccio a conoscere il numero di token mensili a disposizione della mia azienda e quanti ne abbiamo utilizzati nel mese in corso? | Vai a  [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Cerca sotto<ul><li>Analisi contributi: Numero di token di utilizzo mensili</li><li>Analisi contributi: Numero di token di utilizzo utilizzati in questo mese</li></ul> |
 
 ## Adesioni a Rilevamento delle anomalie e Analisi contributi {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
