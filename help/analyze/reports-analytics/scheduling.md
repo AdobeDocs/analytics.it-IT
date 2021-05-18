@@ -3,11 +3,10 @@ description: Informazioni sulla pianificazione, il download e la distribuzione d
 subtopic: Schedule
 title: Pianificazione e distribuzione del rapporto
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics Basics,Reports and analytics
+feature: Nozioni di base su Reports & Analytics, Reports and Analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 5%
@@ -40,7 +39,7 @@ Tali limitazioni riguardano i singoli rapporti pianificati e scaricati; le dashb
 
 
 
-## Invia un rapporto {#task_27642CD33D484FD0BF59EBD159EEF52C}
+## Inviare un rapporto {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
 Passaggi che descrivono come scaricare ed inviare per e-mail i rapporti in diversi formati e come pianificare la consegna di un rapporto.
 
@@ -74,14 +73,14 @@ Passaggi che descrivono come scaricare ed inviare per e-mail i rapporti in diver
 | Frequenza di consegna | <ul><li>**Orario**: Invia l’e-mail ogni ora, ogni altra ora o qualsiasi altro intervallo di ore.</li><li>**Giornaliero**: Invia l’e-mail ogni giorno, ogni altro giorno, ogni terzo giorno o qualsiasi altro intervallo di giorni. Puoi anche inviarlo ogni giorno feriale.</li><li>**Settimanale**: Invia l’e-mail ogni settimana, altra settimana, ogni terza settimana o qualsiasi altro intervallo di settimane. Puoi inoltre specificare il giorno della settimana in cui viene inviata.</li><li>**Mensile**: Specifica l&#39;intervallo in numeri di mesi e puoi anche selezionare il giorno del mese in cui viene inviato o il giorno della settimana in una settimana specifica del mese.</li><li>**Annuale**: Specifica il giorno dell&#39;anno in cui viene inviato il rapporto, oppure puoi inviarlo in un giorno specifico della settimana in una qualsiasi settimana dell&#39;anno.</li><li>**Ora del giorno**: Si applica al fuso orario associato alla suite di rapporti selezionata.</li></ul> |
 | Opzioni di consegna finale | <ul><li>**Mai terminare**: Specifica l&#39;assenza di fine.</li><li>**Fine dopo  `value` le occorrenze**: Specifica il numero di occorrenze prima della fine della consegna.</li><li>**Fine**: Consente di specificare una data specifica. Se si desidera elaborare i dati alla stessa data dei dati del rapporto, quest&#39;ultimo contiene solo i dati inseriti nel database al momento dell&#39;invio del rapporto. Poiché l’elaborazione completa per un giorno può richiedere fino a 24 ore, al momento dell’invio del rapporto potrebbero non essere disponibili dati completi. Per i dati completi, imposta sempre il tempo di elaborazione per 24 ore dopo la fine del periodo di riferimento.</li></ul> |
 
-## Stampa un report {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
+## Stampa di un rapporto {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
 Passaggi che descrivono come stampare un rapporto.
 
 1. Esegui un report.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
 
-## Download di un rapporto utilizzando le opzioni di base {#task_43660107A1C9485D92981CD75B562577}
+## Scaricare un rapporto utilizzando le opzioni di base {#task_43660107A1C9485D92981CD75B562577}
 
 Scarica informazioni dettagliate su un rapporto specifico nei formati PDF, CSV, Excel o Raw Data Export.
 
@@ -109,9 +108,9 @@ In [!UICONTROL Schedule Reports Manager] puoi modificare ed eliminare consegne r
 
 Il [!UICONTROL Schedule Report Manager] mostra gli elementi creati da un utente specifico. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
 
-1. Per accedere al manager, fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**.
+1. Per accedere al manager, fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Scheduled reports]**.
 
-## Condividi un collegamento a un rapporto {#task_9711DDE9E140451B8C914EC5513E21EC}
+## Condividere un collegamento a un rapporto {#task_9711DDE9E140451B8C914EC5513E21EC}
 
 Passaggi che descrivono come condividere un rapporto generando un collegamento a un rapporto (URL) da inviare a un altro utente.
 
@@ -122,7 +121,7 @@ Quando il destinatario fa clic sul collegamento, il sistema richiede le credenzi
 1. Esegui un report.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
 
-## Annulla l’iscrizione ai rapporti pianificati {#concept_6B48360F935740B6851BA85D32DEF637}
+## Annulla sottoscrizione a rapporti pianificati {#concept_6B48360F935740B6851BA85D32DEF637}
 
 Puoi annullare l’iscrizione ai rapporti pianificati. Il rapporto non verrà più ricevuto anche se il nome utente viene aggiunto nuovamente al rapporto pianificato.
 
