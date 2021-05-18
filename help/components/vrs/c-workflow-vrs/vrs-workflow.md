@@ -5,11 +5,10 @@ title: Flusso di lavoro suite di rapporti virtuali
 feature: Nozioni di base su Reports & Analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 4%
+source-wordcount: '207'
+ht-degree: 5%
 
 ---
 
@@ -29,17 +28,8 @@ Una volta creata, una suite di rapporti virtuale viene trattata come una suite d
 
 Fai clic sull&#39;icona Informazioni accanto al nome della suite di rapporti per [visualizzare le informazioni su di essa](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png) Imposta le autorizzazioni  [del gruppo ](/help/components/vrs/c-workflow-vrs/vrs-create.md) per questo.
+![](assets/step3_icon.png) Apri un progetto o un rapporto e seleziona una suite di rapporti virtuale per fornire una visualizzazione segmentata dei dati.
 
-Puoi aggiungere le autorizzazioni del gruppo come parte della creazione di una suite di rapporti virtuale.
-
-È possibile modificare le autorizzazioni del gruppo in due modi:
-
-* Modificare la suite di rapporti virtuale in Gestione suite di rapporti virtuale.
-* Vai a Amministratore > Gestione utente > Gruppi, quindi seleziona il gruppo che dispone delle autorizzazioni per la suite di rapporti virtuali e fai clic su Modifica.
-
-![](assets/step4_icon.png) Apri un progetto o un rapporto e seleziona una suite di rapporti virtuale per fornire una visualizzazione segmentata dei dati.
-
-![](assets/step5_icon.png) [](/help/components/vrs/c-workflow-vrs/vrs-manage.md) Gestire la suite di rapporti virtuale.
+![](assets/step4_icon.png) [](/help/components/vrs/c-workflow-vrs/vrs-manage.md) Gestire la suite di rapporti virtuale.
 
 Gestione suite di rapporti virtuale consente di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. Non è visibile agli utenti non amministratori.
