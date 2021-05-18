@@ -2,11 +2,10 @@
 description: Consente di nascondere le suite di rapporti nell’interfaccia utente di Adobe Analytics.
 keywords: elimina suite di rapporti
 title: Nascondere suite di rapporti
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 5%
@@ -25,7 +24,7 @@ Nascondere una suite di rapporti ne impedisce la visualizzazione nel menu a disc
 >
 >I dati inviati a una suite di rapporti nascosta dal sito continuano a essere raccolti, elaborati e fatturati. In altre parole, una suite di rapporti non viene mai completamente eliminata.
 
-Per nascondere la suite di rapporti, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Hide Report Suites]**. Seleziona la casella di controllo **[!UICONTROL Hidden]** a sinistra del nome della suite di rapporti.
+Per nascondere la suite di rapporti, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Hide Report Suites]**. Seleziona la casella di controllo **[!UICONTROL Hidden]** a sinistra del nome della suite di rapporti.
 
 Per scoprire la suite di rapporti, deseleziona la casella di controllo **[!UICONTROL Hidden]** .
 
