@@ -5,10 +5,10 @@ title: Scopri le novità di Analysis Workspace
 feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8213'
-ht-degree: 99%
+source-wordcount: '8217'
+ht-degree: 98%
 
 ---
 
@@ -435,7 +435,7 @@ Nuove funzionalità e miglioramenti rilasciati l’8 marzo 2018.
    <td colname="col2"> <p>Per gli ultimi modelli rilasciati: </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">È stata aggiunta un’icona modello nella parte superiore del progetto (vicino al titolo) che permette di differenziare meglio la modalità di modifica del modello rispetto all’utilizzo del modello come punto di partenza per un progetto. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Gli utenti non amministratore possono creare (con Salva con nome) e modificare modelli di progetto Workspace, purché sia stata loro concessa l’autorizzazione per creare e curare i progetti in Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Admin (Amministratore) </span> &gt; <span class="uicontrol"> User Management (Gestione utenti) </span> &gt; <span class="uicontrol"> Groups (Gruppi) </span> &gt; <span class="uicontrol"> Edit All Report Access (Modifica accesso a tutti i rapporti) </span> &gt; <span class="uicontrol"> Customize Analytics Tools (Personalizza strumenti di Analytics) </span> &gt; <span class="uicontrol"> Create/Curate Projects in Analysis Workspace (Crea/Cura progetti in Analysis Workspace) </span></span>). </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Gli utenti non amministratore possono creare (con Salva con nome) e modificare modelli di progetto Workspace, purché sia stata loro concessa l’autorizzazione per creare e curare i progetti in Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Gestione utente </span> &gt; <span class="uicontrol"> Gruppi </span> &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti </span> &gt; <span class="uicontrol"> Personalizza strumenti di Analytics </span> &gt; &lt;a1 3/&gt; Creare/curare progetti in Analysis Workspace </span> </span>).<span class="uicontrol"> </span></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analisi dei contributi: <a href="https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > notifica token </a> </p> </td> 
-   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.  </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Gestione utente </span> &gt; <span class="uicontrol"> Modifica gruppi </span> &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti </span> &gt; <span class="uicontrol"> Personalizza strumenti della suite di rapporti </span> &gt; <span class="uicontrol"> Strumenti e rapporti</span>).  </p> </td> 
+   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.  </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. L’autorizzazione si chiama "Anomaly Detection and Contribution Analysis" (Rilevamento anomalie e Analisi contributi) in <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Tutti gli amministratori </span> <span class="uicontrol"> Gestione utente </span> <span class="uicontrol"> Modifica gruppi </span> &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti &lt;a1/ &gt; &gt; <span class="uicontrol"> Personalizza strumenti della suite di rapporti </span> &gt; <span class="uicontrol"> Strumenti e rapporti </span>. ) </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File CSV con caratteri multibyte </p> </td> 
@@ -1249,4 +1249,4 @@ Quando si salva un progetto, il titolo della scheda nel browser verrà visualizz
 
 Gli amministratori possono trasferire i progetti di [!UICONTROL Analysis Workspace] da un utente all’altro.
 
-Accedi a **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** per trasferire i progetti.
+Passa a **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Transfer]** per trasferire i progetti.
