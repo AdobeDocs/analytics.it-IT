@@ -3,14 +3,13 @@ description: Dashboard Manager consente di copiare, condividere, archiviare e pi
 subtopic: Dashboards
 title: Dashboard Manager
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics Basics
+feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +21,7 @@ Dashboard Manager consente di copiare, condividere, archiviare e pianificare la 
 >
 >Quando si utilizza Dashboard Manager, è consigliabile non disporre di più di 300 dashboard per ogni singolo utente. Inoltre, ricorda che il responsabile carica tutte le dashboard condivise di seguito, quindi fai attenzione a condividere le dashboard.
 
-Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 
 | Elemento | Descrizione |
 |--- |--- |
@@ -36,7 +35,7 @@ Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICON
 
 Passaggi che descrivono come utilizzare le opzioni di gestione del dashboard condiviso.
 
-1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 1. In [!UICONTROL Shared Dashboards], individua il dashboard condiviso (o il dashboard legacy) che desideri gestire e scegli una o più delle seguenti opzioni:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
