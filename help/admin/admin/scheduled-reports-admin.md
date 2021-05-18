@@ -4,8 +4,7 @@ title: Coda dei report pianificati
 topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 2%
@@ -16,7 +15,7 @@ ht-degree: 2%
 
 Consente agli utenti a livello di amministratore di visualizzare e gestire i rapporti pianificati in tutta l’organizzazione.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Scheduled Reports]**
 
 Le funzionalità a livello di amministratore in Scheduled Reports Manager includono:
 
