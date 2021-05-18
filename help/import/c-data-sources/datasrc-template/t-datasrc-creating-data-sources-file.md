@@ -5,8 +5,7 @@ title: Generare un modello di file di importazione
 topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 68%
@@ -26,7 +25,7 @@ Il modello Origine dati è un file .txt che puoi aprire con qualsiasi editor di 
 Consulta  [Riferimento file di importazione](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) per ulteriori dettagli.
 
 1. Accedi ad Analytics.
-1. Nell’intestazione Suite, seleziona **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+1. Nell’intestazione della suite, seleziona **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 1. Nella scheda **[!UICONTROL Data Sources Create]** , seleziona una categoria e un tipo di modello.
 1. Controlla le istruzioni/informazioni di attivazione, quindi fai clic su **[!UICONTROL Activate]**.
 
@@ -35,8 +34,8 @@ Consulta  [Riferimento file di importazione](/help/import/c-data-sources/datasrc
    | Pagina della procedura guidata | Campo | Descrizione |
    |--- |--- |--- |
    | 1 | Nome | Il nome del modello visualizzato da Analytics in Origini dati Manager. |
-   | 3 | E-mail | L&#39;indirizzo e-mail che riceve tutte le notifiche correlate all&#39;utilizzo di questo modello Origine dati. |
-   | 3 | Casella di controllo Associated Fees (Spese associate) | Seleziona la casella di controllo per indicare l’accettazione delle tariffe associate all’utilizzo di questo modello Origine dati. |
+   | 1 | E-mail | L&#39;indirizzo e-mail che riceve tutte le notifiche correlate all&#39;utilizzo di questo modello Origine dati. |
+   | 1 | Casella di controllo Associated Fees (Spese associate) | Seleziona la casella di controllo per indicare l’accettazione delle tariffe associate all’utilizzo di questo modello Origine dati. |
    | 2 | Choose Metrics (Scegli metrica) | Seleziona la metrica da importare utilizzando questa Origine dati. Analytics consiglia alcune metriche in base alla categoria e al tipo di origine dati selezionati al passaggio 3.  Per specificare una metrica diversa, digita il nome in un campo vuoto e seleziona la casella di controllo per attivare la metrica. |
    | 3 | Map Metrics (Mappa metrica) | Seleziona un evento di Analytics per ricevere ogni metrica importata selezionata nella procedura guidata a pagina 2.  Devono essere eventi nuovi e non assegnati a cui in precedenza sono stati assegnati nomi corrispondenti ai dati della metrica importati che riceveranno tramite Origine Dati.  Se una variabile eVar, Prodotto o Codice di tracciamento è una variabile di destinazione e i valori caricati corrispondono ai valori acquisiti esistenti, gli eventi caricati aggiungono fondamentalmente le metriche ai valori esistenti. Ad esempio, puoi creare una metrica &quot;Ordini offline&quot; con una dimensione dati Prodotti che ha già Visualizzazioni prodotto, Pagamenti e Ordini come metriche esistenti. |
    | 4 | Choose Data Dimensions (Scegli dimensioni dati) | Seleziona le dimensioni dei dati per suddividere le metriche importate da questa Origine dati. Analytics consiglia alcune dimensioni dati in base al tipo di origine dati selezionato al passaggio 3.  Per specificare una dimensione dati diversa, digita il nome in un campo vuoto e seleziona la casella di controllo per attivare la dimensione dati. |
