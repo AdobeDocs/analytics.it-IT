@@ -1,10 +1,9 @@
 ---
 description: Registra i file per consentirti di vedere quando gli utenti accedono, quando ne usano, quando accedono, quando accedono, quando le suite di rapporti e quando l’amministratore cambia.
 title: 'Registri '
-feature: Admin Tools
+feature: Strumenti di amministrazione
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 9%
@@ -15,7 +14,7 @@ ht-degree: 9%
 
 Registra i file per consentirti di vedere quando gli utenti accedono, quando ne usano, quando accedono, quando accedono, quando le suite di rapporti e quando l’amministratore cambia.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Logs]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Logs]**
 
 ## Registro amministratore {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -71,7 +70,7 @@ La sezione [!UICONTROL Usage and Access Log] consente di valutare l’utilizzo d
 | Metodo Api | È stata effettuata una chiamata API. |
 
 
-## Registro delle modifiche delle suite di rapporti {#section_3864966639414BBEA871F4D0352F56B6}
+## Registro delle modifiche alle suite di rapporti {#section_3864966639414BBEA871F4D0352F56B6}
 
 Il registro delle modifiche alle suite di rapporti visualizza le modifiche apportate alle suite di rapporti al di fuori di Admin.
 
