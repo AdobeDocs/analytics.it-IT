@@ -6,8 +6,7 @@ uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 3%
@@ -18,7 +17,7 @@ ht-degree: 3%
 
 I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti all’Experience Cloud e sono disponibili in funzionalità integrate come i connettori dati.
 
-## Crea un segnalibro {#task_305BDB470E374026AD48F19D11A387A6}
+## Creare un segnalibro {#task_305BDB470E374026AD48F19D11A387A6}
 
 Questa procedura descrive come creare un segnalibro.
 
@@ -46,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL Bookmarks]** (Progetti programmati).
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Bookmarks]**.
 
 **Segnalibri personali**
 
