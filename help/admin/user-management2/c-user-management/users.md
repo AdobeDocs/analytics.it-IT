@@ -2,11 +2,10 @@
 description: Gestisci utenti e gruppi di rapporti nella pagina Gestione utente consente di gestire utenti e gruppi e di controllare l'accesso a rapporti, strumenti e suite di rapporti.
 subtopic: Users and groups
 title: Panoramica sulla gestione utente
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 13%
@@ -17,11 +16,11 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti sta passando all&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
+>La gestione di utenti e prodotti sta passando all&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** verranno ritirati.
 
 Gestisci utenti e gruppi di rapporti nella pagina Gestione utente consente di gestire utenti e gruppi e di controllare l&#39;accesso a rapporti, strumenti e suite di rapporti.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Users]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL All admin]** >  **[!UICONTROL User management]** >  **[!UICONTROL Edit Users]**
 
 ## Descrizioni account utente {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
