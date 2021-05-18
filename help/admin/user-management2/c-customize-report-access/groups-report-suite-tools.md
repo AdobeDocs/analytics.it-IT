@@ -3,11 +3,10 @@ description: Attiva le autorizzazioni degli utenti per Accesso API, Gestione sui
 keywords: gruppi;autorizzazioni
 subtopic: Users and groups
 title: Personalizzare le autorizzazioni degli strumenti delle suite di rapporti
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 15%
@@ -18,7 +17,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti sta passando all&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** verranno ritirati.
+>La gestione di utenti e prodotti sta passando all&#39; [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** verranno ritirati.
 
 Attiva le autorizzazioni degli utenti per Accesso API, Gestione suite di rapporti, Strumenti e rapporti ed elementi del dashboard.
 
