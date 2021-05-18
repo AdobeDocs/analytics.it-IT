@@ -1,11 +1,10 @@
 ---
 description: Code Manager consente di scaricare il codice di raccolta dati per le piattaforme web e mobili.
 title: Gestore codici
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 12%
@@ -16,7 +15,7 @@ ht-degree: 12%
 
 Code Manager consente di scaricare il codice di raccolta dati per le piattaforme web e mobili.
 
-**[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Admin]** (Componenti) > **[!UICONTROL Code Manager]** (Progetti programmati).
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
 
 Dopo aver scaricato la libreria , devi configurare il codice per inviare i dati al server di tracciamento e alla suite di rapporti corretti. Ulteriori risorse di implementazione sono disponibili nella guida utente di [Implementa](/help/implement/home.md) .
 
