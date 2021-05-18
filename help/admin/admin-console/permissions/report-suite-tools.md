@@ -2,10 +2,9 @@
 title: Autorizzazioni del profilo di prodotto per gli strumenti Report Suite
 description: Comprendere ogni elemento di autorizzazione in Strumenti delle suite di rapporti.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '664'
 ht-degree: 8%
 
 ---
@@ -49,7 +48,7 @@ Utilizzare questa pagina per comprendere ogni elemento di autorizzazione in Stru
 | Gestione feed dati | Consente di accedere ad Amministratore > Feed dati nella navigazione superiore di Analytics. |
 | Rapporto Data Warehouse personalizzato | Consente di accedere a Strumenti > Data Warehouse nella navigazione superiore di Analytics. |
 | Visite giornaliere di ritorno | Consente di accedere a Visitor Retention (Conservazione dei visitatori) > Daily Return Visits (Visite giornaliere di ritorno) in Reports &amp; Analytics. |
-| Origini dati Manager | Consente di accedere ad Amministratore > Origini dati nella navigazione superiore di Analytics. Richiede l’autorizzazione &quot;Gestione suite di rapporti&quot;. |
+| Origini dati Manager | Consente di accedere ad Amministratore > Tutti gli amministratori > Origini dati nella navigazione superiore di Analytics. Richiede l’autorizzazione &quot;Gestione suite di rapporti&quot;. |
 | Escludi per indirizzo IP | Consente di accedere ad Amministratore > Escludi per IP nella navigazione superiore di Analytics. |
 | Ultimi 100 visitatori | Non utilizzato. |
 | ClickMap legacy | Non utilizzato. In alternativa, utilizza Activity Map in Strumenti di Analytics. |
