@@ -1,14 +1,13 @@
 ---
 description: Importa dati di tracciamento da applicazioni di terze parti in Analytics.
 title: Guida introduttiva ai connettori dati di Analytics
-translation-type: tm+mt
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 97%
 
 ---
-
 
 # Panoramica dei connettori dati
 
@@ -18,7 +17,7 @@ Ad esempio, un’integrazione e-mail potrebbe voler utilizzare un partner e-mail
 
 >[!IMPORTANT]
 >
->Il 1 agosto 2021 terminerà il ciclo di vita della tecnologia del Connettore dati del Adobe . [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>La tecnologia Adobe Data Connector terminerà il suo ciclo di vita il 1° agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisiti di sistema**
 
@@ -48,7 +47,7 @@ Prima di configurare un’integrazione dei connettori dati per il prodotto, effe
 Per accedere alla pagina di destinazione [!UICONTROL Data Connectors] (console) è necessario disporre di un account corrente. Inoltre è consigliabile avere familiarità con Adobe Analytics.
 
 1. Accedi ad Adobe Experience Cloud.
-1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 1. Fai clic su **[!UICONTROL Add New]**.
 1. Scorri l’interfaccia **[!UICONTROL Add Integration]**.
 
@@ -86,7 +85,7 @@ Per implementare correttamente i segmenti di remarketing, è necessario soddisfa
 
 >[!NOTE]
 >
->Se il prodotto è definito senza un evento associato, l&#39;evento `prodView` viene attivato automaticamente.
+>Se il prodotto è definito senza un evento associato, l&#39;evento `prodView` si attiva automaticamente.
 >
 >Se i requisiti precedenti non sono soddisfatti, i segmenti di remarketing corrispondenti non vengono segnalati correttamente.
 
