@@ -4,25 +4,24 @@ title: Generazione di rapporti Activity Map in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 8%
+source-wordcount: '254'
+ht-degree: 9%
 
 ---
-
 
 # Generazione di rapporti Activity Map in Analytics
 
 Descrive come impostare le autorizzazioni e quali dimensioni sono disponibili in Analytics.
 
-## Imposta le autorizzazioni {#section_BDCD9914B31A4066A50D23DDDF1ABB37}
+## Impostare le autorizzazioni {#section_BDCD9914B31A4066A50D23DDDF1ABB37}
 
 Prima che gli utenti possano creare rapporti sulle dimensioni di Activity Map, in qualità di amministratore devi
 
 * [Aggiungi utenti al gruppo](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) di accesso di Activity Map.
-* Aggiungi suite di rapporti a cui desideri accedere per questo gruppo. Passa a **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**.
+* Aggiungi suite di rapporti a cui desideri accedere per questo gruppo. Passa a **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**.
 * Personalizza l’accesso dell’utente alle dimensioni. Consulta la sezione successiva.
 
 ## Dimensioni di Analytics Activity Map {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -41,4 +40,3 @@ Puoi [personalizzare l’accesso utente alle dimensioni](https://docs.adobe.com/
 * In Reports &amp; Analytics passa a **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map]**.
 
 * Per cercare un collegamento e un’area geografica per una pagina specifica, è sufficiente creare un raggruppamento dalla pagina Activity Map desiderata in Collegamenti e area geografica di Activity Map.
-
