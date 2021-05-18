@@ -2,14 +2,13 @@
 description: Implementa il connettore dati Kampyle in Adobe Analytics.
 title: Distribuzione dell'integrazione
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '403'
 ht-degree: 1%
 
 ---
-
 
 # Distribuzione dell&#39;integrazione{#deploying-the-integration}
 
@@ -20,7 +19,7 @@ La distribuzione di questa integrazione è un processo semplice che consiste nel
 Per attivare l&#39;integrazione, completa la procedura guidata di configurazione nell&#39;interfaccia Data Connectors.
 
 1. Accedi a Adobe Experience Cloud.
-1. Passa a **[!UICONTROL Data Connectors]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 1. Avvia la procedura guidata di integrazione di Kampyle.
 1. Seleziona la suite di rapporti desiderata e specifica un nome per l’integrazione.
 1. Configura i seguenti elementi:
