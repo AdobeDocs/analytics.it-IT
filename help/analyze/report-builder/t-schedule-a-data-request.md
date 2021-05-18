@@ -4,14 +4,13 @@ title: Pianificare una richiesta di dati
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1005'
 ht-degree: 3%
 
 ---
-
 
 # Pianificare cartelle di lavoro
 
@@ -23,7 +22,7 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Report 
 
 >[!NOTE]
 >
->Per pianificare una cartella di lavoro è necessario che sia installato Excel 2007 o il pacchetto di compatibilità. È possibile disporre di un massimo di 10 cartelle di lavoro pianificate per licenza al Report Builder. Tuttavia, è possibile aumentare questo numero sottraendo da altre licenze. Per farlo, vai su **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Verrà eliminata una cartella di lavoro pianificata (o caricata nella libreria della cartella di lavoro) che non è stata toccata (aggiornata, sostituita) in più di 28 mesi.
+>Per pianificare una cartella di lavoro è necessario che sia installato Excel 2007 o il pacchetto di compatibilità. È possibile disporre di un massimo di 10 cartelle di lavoro pianificate per licenza al Report Builder. Tuttavia, è possibile aumentare questo numero sottraendo da altre licenze. Per farlo, vai su **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. Verrà eliminata una cartella di lavoro pianificata (o caricata nella libreria della cartella di lavoro) che non è stata toccata (aggiornata, sostituita) in più di 28 mesi.
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Report 
 1. Fai clic su **[!UICONTROL OK]**, quindi su **[!UICONTROL Exit]**.
 
    Il Report Builder visualizza la cartella di lavoro pianificata in [Gestione attività pianificata](/help/analyze/report-builder/r-arb-scheduled-reports.md).
-
