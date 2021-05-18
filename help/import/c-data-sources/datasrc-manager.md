@@ -5,8 +5,7 @@ title: Origini dati Manager
 topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 82%
@@ -17,7 +16,7 @@ ht-degree: 82%
 
 Creare, gestire e visualizzare l&#39;utilizzo di origini dati in una suite di rapporti.
 
-**[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Admin]** (Componenti) > **[!UICONTROL Data Sources]** (Progetti programmati).
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 
 ## Scheda Crea {#section_74603FDA3D8842E49F1A51624A06DE20}
 
