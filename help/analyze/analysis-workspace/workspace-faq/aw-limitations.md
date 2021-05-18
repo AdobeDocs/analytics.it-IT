@@ -1,16 +1,15 @@
 ---
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 98%
 
 ---
-
 
 # Limitazioni note in Analysis Workspace
 
@@ -53,7 +52,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 * Quando l’elaborazione dei tempi di report è abilitata, alcuni componenti non sono supportati. Per un elenco completo, vedi [Elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md).
 
-## Componenti > Impostazioni report
+## Componenti > Tutti i componenti > Impostazioni dei rapporti
 
 * Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] in basso: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding] e [!UICONTROL CSV Separator Character].
 
