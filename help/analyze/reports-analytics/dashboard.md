@@ -4,14 +4,13 @@ subtopic: Dashboards
 title: Dashboard e minirapporti
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1692'
 ht-degree: 2%
 
 ---
-
 
 # Dashboard e minirapporti
 
@@ -43,11 +42,11 @@ Tieni presente che alcuni rapporti visualizzati di frequente non possono essere 
 
 Oltre alle dashboard create, per ogni utente sono incluse le seguenti dashboard preconfigurate:
 
-**[!UICONTROL Components]> [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] >[!UICONTROL Local Sites]**
+**[!UICONTROL Components]>  [!UICONTROL All components] >  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Local Sites]**
 
 Questo dashboard personalizzabile consente di rilasciare minirapporti nel modello fornito.
 
-**[!UICONTROL Components]>  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL Components]>  [!UICONTROL All components] >  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Site Operations Dashboard]**
 
 Questa dashboard offre una panoramica delle metriche chiave correlate alle operazioni sul sito web. I rapporti su questo dashboard includono:
 
@@ -188,7 +187,7 @@ t_dashboard_edit.xml
 
 **Per modificare i dati del dashboard e del reportlet**
 
-1. Fai clic su **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *nome del dashboard* per aprire un dashboard.
+1. Fai clic su **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]** > *nome del dashboard* per aprire un dashboard.
 1. Fai clic su **[!UICONTROL Layout]**.
 
 | Su | Esegui questa operazione |
@@ -216,14 +215,14 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Admin]** (Componenti) > **[!UICONTROL Company Settings]** (Progetti programmati).
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]**.
 1. Nella pagina [!UICONTROL Company Settings], fai clic su **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Fai clic su **[!UICONTROL Enable Co-Branding]**.
 1. Sfoglia per caricare l&#39;immagine, quindi fai clic su **[!UICONTROL Save.]**
 
    Per ottenere i migliori risultati quando visualizzi l&#39;immagine in un browser, carica un&#39;immagine 100px per 30px. Per ottenere risultati migliori nell’output PDF, carica un’immagine da 417 px per 125 px (300 dpi). Le immagini di dimensioni eccessive vengono ridotte e vengono mantenute le proporzioni.
 
-## Utilizzare segmenti con dashboard {#concept_ED030C3713D54D03971FB7B209285750}
+## Utilizzare i segmenti con le dashboard {#concept_ED030C3713D54D03971FB7B209285750}
 
 Le dashboard, come la maggior parte dei report in Adobe Analytics, possono utilizzare i segmenti per recuperare i dati desiderati.
 
