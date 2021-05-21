@@ -1,22 +1,22 @@
 ---
 title: Grafico a dispersione
-description: Visualizzazione che mostra la relazione tra fino a tre metriche.
-feature: Visualizations
+description: Visualizzazione che mostra la relazione tra un massimo di tre metriche.
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
-
 # Grafico a dispersione
 
-La visualizzazione grafico a dispersione mostra la relazione tra gli elementi dimensionali e fino a tre metriche. Richiede tre componenti e supporta la visualizzazione di fino a quattro componenti.
+La visualizzazione del grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. Richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
 
-* Il componente riga (in genere una dimensione) rappresenta ogni punto del grafico. Righe diverse mostrano come punti colorati diversi.
+* Il componente riga (in genere una dimensione) rappresenta ogni punto del grafico. Righe diverse vengono mostrate come punti colorati diversi.
 * La colonna più a sinistra (in genere una metrica) traccia la posizione del punto sull’asse Y (verticale).
 * La seconda colonna traccia la posizione del punto sull’asse X (orizzontale).
 * La terza colonna determina il raggio del punto.
