@@ -2,16 +2,16 @@
 description: Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
 title: Suddividere le dimensioni in base al tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '237'
+exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
-
 
 # Suddividere le dimensioni in base al tempo
 
