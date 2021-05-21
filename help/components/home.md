@@ -1,14 +1,14 @@
 ---
 title: Guida ai componenti di Analytics
 description: Scopri i diversi componenti di Adobe Analytics.
+exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 
 ---
-
 
 # Guida ai componenti di Analytics
 
