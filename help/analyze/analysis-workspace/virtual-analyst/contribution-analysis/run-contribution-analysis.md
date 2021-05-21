@@ -2,16 +2,16 @@
 description: Esegui un rapporto di analisi dei contributi in un progetto Workspace.
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: AI Tools
+feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 99%
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '577'
+ht-degree: 100%
 
 ---
-
 
 # Eseguire l’analisi dei contributi
 
@@ -74,4 +74,3 @@ In alcune situazioni può essere utile escludere delle dimensioni dall’analisi
    ![](assets/excluded-dimensions.png)
 
 1. Fai clic sulla x accanto alle dimensioni da eliminare, quindi salva il nuovo elenco facendo clic su **[!UICONTROL Set as Default]**.
-
