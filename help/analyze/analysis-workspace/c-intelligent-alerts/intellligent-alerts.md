@@ -2,22 +2,22 @@
 description: Il nuovo sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi.
 title: Panoramica degli avvisi intelligenti
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI Tools
+feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+exl-id: 49d47896-bf93-4960-b647-2765c935eb25
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '358'
+ht-degree: 100%
 
 ---
-
 
 # Panoramica degli avvisi intelligenti
 
 Il sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi.
 
-Questo è un tutorial video su [Avvisi intelligenti](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Questo è un tutorial video sugli [avvisi intelligenti](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Panoramica
 
