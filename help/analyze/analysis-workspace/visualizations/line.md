@@ -2,16 +2,16 @@
 description: Utilizzare la visualizzazione delle linee per rappresentare set di dati con tendenza (basati sul tempo)
 title: Linee
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 66%
+exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '494'
+ht-degree: 100%
 
 ---
-
 
 # Linee
 
@@ -33,17 +33,17 @@ Nelle [impostazioni di visualizzazione](freeform-analysis-visualizations.md), un
 
 ## Mostra minimo o massimo
 
-In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: I valori minimi/massimi sono derivati dai punti di dati visibili nella visualizzazione e non dall’intero insieme di valori all’interno di una dimensione.
+In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: i valori minimo/massimo sono derivati dai punti di dati visibili nella visualizzazione e non dall’intero insieme di valori all’interno di una dimensione.
 
 ![Mostra minimo/massimo](assets/min-max-labels.png)
 
 ## Mostra la sovrapposizione della linea di tendenza
 
-In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]** puoi scegliere di aggiungere una linea di tendenza di regressione o mobile alla serie di linee. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
+In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, puoi scegliere di aggiungere alla serie di linee una linea di tendenza di regressione o di media mobile. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
 
 >[!TIP]
 >
->Si consiglia di applicare le linee di tendenza ai dati che non includono data odierna (dati parziali) o date future, in quanto distorcono la linea di tendenza. Tuttavia, se devi includere date future, rimuovi gli zeri dai dati per evitare la masticazione di quei giorni. A questo scopo, vai alla tabella dell’origine dati della visualizzazione, scegli la colonna metrica, quindi abilita **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.
+>Si consiglia di applicare le linee di tendenza ai dati che non includono la data odierna (dati parziali) o date future, in quanto queste potrebbero distorcere la linea di tendenza. Tuttavia, se devi includere date future, rimuovi gli zeri dai dati per evitare distorsioni per quei giorni. A questo scopo, vai alla tabella dell’origine dati della visualizzazione, scegli la colonna della metrica desiderata, quindi abilita **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.
 
 ![Linee di tendenza lineare](assets/show-linear-trendline.png)
 
@@ -56,4 +56,4 @@ Tutte le linee di tendenza del modello di regressione sono adattabili utilizzand
 | Esponenziale | Crea una linea curva ed è utile quando i dati aumentano o diminuiscono a ritmi costantemente crescenti. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a + e^(b * x)` |
 | Potenza | Crea una linea curva ed è utile per i set di dati che confrontano misurazioni che aumentano a una velocità specifica. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a * x^b` |
 | Quadratico | Trova l’adattamento per un set di dati a forma di parabola (concava verso l’alto o verso il basso). Equazione: `y = a + b * x + c * x^2` |
-| Media mobile | Crea una linea di tendenza uniforme in base a un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati dalla selezione dei &quot;periodi&quot;), ne calcola la media e utilizza la media come punto sulla linea. Gli esempi includono la media mobile di 7 giorni o una media mobile di 4 settimane. |
+| Media mobile | Crea una linea di tendenza uniforme in base a un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati da una selezione di periodi), ne calcola la media e utilizza tale media come punto sulla linea. Alcuni esempi includono la media mobile di 7 giorni o una media mobile di 4 settimane. |
