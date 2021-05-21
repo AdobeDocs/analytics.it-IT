@@ -1,14 +1,14 @@
 ---
-title: Domande frequenti relative all'implementazione
+title: Domande frequenti sull’implementazione
 description: Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
-
 
 # Domande frequenti sull’implementazione di Analytics
 
@@ -30,12 +30,12 @@ No. Il file JavaScript non è ospitato sui server Adobe, pertanto un’interruzi
 
 AppMeasurement crea un oggetto immagine all’interno della pagina HTML e il browser quindi richiede l’oggetto immagine ai server di raccolta dati Adobe. Se i server di raccolta dati dovessero essere lenti o non rispondere, la gestione del thread della richiesta verrebbe ritardata fino al ritorno dell’immagine o al verificarsi di un timeout. Poiché i browser gestiscono immagini con più thread, un’interruzione di Adobe avrebbe un impatto minimo sul tempo di caricamento della pagina, bloccando un thread mentre gli altri continuano a funzionare.
 
-## Come posso annullare o rimuovere un&#39;implementazione di Analytics?
+## Come posso annullare o rimuovere un’implementazione di Analytics?
 
-A volte un&#39;organizzazione vorrebbe rimuovere un&#39;implementazione a causa della scadenza del contratto o per ridurre il numero di chiamate server.
+A volte un’organizzazione desidera rimuovere un’implementazione a causa della scadenza del contratto o per ridurre il numero di chiamate al server.
 
-* **Implementazioni tramite Launch**: Disattivate o disinstallate l&#39;estensione  Adobe Analytics nella [!UICONTROL Extensions] scheda, quindi pubblicate.
-* **Implementazioni** AppMeasurement precedenti: Sostituite l’intero contenuto del `s_code.js` file con la seguente riga di codice:
+* **Implementazioni eseguite con Launch**: disabilita o disinstalla l’estensione Adobe Analytics nella scheda [!UICONTROL Extensions], quindi pubblica.
+* **Implementazioni legacy di AppMeasurement**: sostituisci l’intero contenuto del file `s_code.js` con la seguente riga di codice:
 
 ```js
 var s = new Object();
@@ -43,19 +43,19 @@ var s = new Object();
 
 >[!WARNING]
 >
->Non eseguire:
+>Assicurati di:
 >
->* Modificate la suite di rapporti impostando un valore non valido, in quanto crea un carico non necessario  server  Adobi.
->* Rimuovere il `s_code.js` file, a meno che non vengano rimossi anche tutti i riferimenti al file in ogni pagina.
->* Modificate la `trackingServer` variabile in modo che punti lontano dal Adobe . AppMeasurement invia comunque le richieste di immagini, che restituiscono 404 errori.
+>* NON cambiare la suite di rapporti in un valore non valido, in quanto crea un carico non necessario sui server di Adobe.
+>* NON rimuovere completamente il file `s_code.js`, a meno di non rimuovere anche tutti i riferimenti al file su ogni pagina.
+>* NON modificare la variabile `trackingServer` in modo che non punti ad Adobe. AppMeasurement invia comunque le richieste di immagini, che restituiscono errori 404.
 
 
-## Ho eseguito AppMeasurement attraverso un analizzatore di codice, e ha segnalato il suo utilizzo `Math.random()` come potenziale rischio per la sicurezza. Viene `Math.random()` utilizzato con dati sensibili?
+## Ho eseguito AppMeasurement tramite un analizzatore di codice, e ha segnalato il suo utilizzo di `Math.random()` come potenziale rischio per la sicurezza. `Math.random()` viene utilizzato con dati sensibili?
 
-No. I numeri utilizzati non `Math.random()` vengono utilizzati per mascherare, inviare o ricevere dati riservati. I dati inviati a  server di raccolta dati di Adobe si basano sulla sicurezza della connessione HTTPS sottostante. <!-- AN-173590 -->
+No. I numeri che utilizzano `Math.random()` non vengono utilizzati per mascherare, inviare o ricevere dati sensibili. I dati inviati ai server di raccolta dati di Adobe si basano sulla sicurezza della connessione HTTPS sottostante. <!-- AN-173590 -->
 
 AppMeasurement utilizza `Math.random()` in tre aree chiave:
 
-* **Campionamento**: A seconda dell’implementazione, alcune informazioni potrebbero essere raccolte solo per una piccola percentuale di visitatori del sito. `Math.random()` viene utilizzato per determinare se un determinato visitatore deve inviare dati. La maggior parte delle implementazioni non utilizza il campionamento.
-* **ID** visitatore fallback: Se l’ID visitatore non può essere recuperato dai cookie, viene generato un ID visitatore casuale. Questa parte di AppMeasurement utilizza due chiamate a `Math.random()`.
-* **Recupero** cache: Viene aggiunto un numero casuale alla fine degli URL delle richieste di immagini per impedire il caching del browser.
+* **Campionamento**: a seconda dell’implementazione, alcune informazioni potrebbero essere raccolte solo per una piccola percentuale di visitatori del sito. `Math.random()` viene utilizzato per determinare se un visitatore può inviare dati. La maggior parte delle implementazioni non utilizza il campionamento.
+* **ID visitatore di fallback**: se l’ID visitatore non può essere recuperato dai cookie, viene generato un ID visitatore casuale. Questa parte di AppMeasurement utilizza due chiamate a `Math.random()`.
+* **Cache busting**: viene aggiunto un numero casuale alla fine degli URL di richiesta dell’immagine per evitare che venga caricata un la versione già presente nella cache del browser.
