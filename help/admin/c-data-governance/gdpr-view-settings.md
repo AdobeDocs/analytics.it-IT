@@ -2,14 +2,14 @@
 description: La finestra di dialogo Data Governance (Governance dei dati) negli strumenti dell’amministratore offre una panoramica delle suite di rapporti configurate per la governance dei dati, indica se sono state mappate in un’organizzazione Experience Cloud e se per essa sono stati impostati i criteri di conservazione dei dati.
 title: Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
 
 ---
-
 
 # Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti
 
@@ -65,4 +65,3 @@ La finestra di dialogo Data Governance (Governance dei dati) negli strumenti del
   </tr> 
  </tbody> 
 </table>
-
