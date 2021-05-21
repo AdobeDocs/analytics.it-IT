@@ -3,16 +3,16 @@ description: Esempi di utilizzo di analisi per coorte.
 keywords: Analysis Workspace
 title: Casi di utilizzo dell’analisi per coorte
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 99%
+exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
-
 
 # Casi di utilizzo dell’[!UICONTROL Cohort Analysis]
 
