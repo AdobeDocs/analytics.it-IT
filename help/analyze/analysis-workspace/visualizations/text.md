@@ -2,20 +2,20 @@
 description: Consente di aggiungere testo definito dall’utente al progetto Workspace.
 title: Testo
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
-
 # Testo
 
-Puoi aggiungere testo definito dall’utente al progetto Workspace utilizzando una visualizzazione di testo o una descrizione del pannello o della visualizzazione (fai clic con il pulsante destro del mouse su intestazione > **[!UICONTROL Edit description]**). È inoltre possibile modificare la formattazione del testo, aggiungere collegamenti ipertestuali e aggiungere immagini.
+Puoi aggiungere testo definito dall’utente al progetto Workspace, utilizzando una visualizzazione di testo o una descrizione del pannello o della visualizzazione (fai clic con il pulsante destro del mouse sull’intestazione e scegli **[!UICONTROL Edit description]**). È inoltre possibile modificare la formattazione del testo, e aggiungere collegamenti ipertestuali e immagini.
 
 ## Regolare la formattazione {#format}
 
@@ -25,12 +25,12 @@ Quando si modifica una casella di testo o una descrizione, è possibile regolare
 
 ## Aggiungere collegamenti ipertestuali {#hyperlinks}
 
-Per aggiungere un collegamento ipertestuale, evidenziare il testo e fare clic sull&#39;icona del collegamento ipertestuale nel menu. I collegamenti ipertestuali possono collegarsi a siti web esterni, pagine di documentazione, [progetti/pannelli/visualizzazioni di Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) e altro ancora per assistere ulteriormente i destinatari del progetto.
+Per aggiungere un collegamento ipertestuale, evidenzia il testo e fai clic sull’icona del collegamento ipertestuale nel menu. I collegamenti ipertestuali possono portare a siti web esterni, pagine di documentazione, [progetti, pannelli o visualizzazioni di Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=it) e altro ancora, per assistere ulteriormente i destinatari del progetto.
 
 ![](assets/hyperlink.png)
 
-## Aggiungi immagini {#images}
+## Aggiungere immagini {#images}
 
-Per aggiungere un’immagine al progetto, fai clic sull’icona dell’immagine nel menu e inserisci un URL immagine pubblico. L’URL dell’immagine deve essere accessibile al pubblico, deve iniziare con `https` e deve essere in formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
+Per aggiungere un’immagine al progetto, fai clic sull’icona dell’immagine nel menu e inserisci l’URL pubblico dell’immagine. L’URL dell’immagine deve essere accessibile al pubblico, deve iniziare con `https` e deve essere in formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
 
 ![](assets/image.png)
