@@ -2,16 +2,16 @@
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
 keywords: Cura di Analysis Workspace
 title: Curare progetti
-feature: Curate and Share
+feature: Curare e condividere
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 87%
+exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
-
 
 # Curare progetti
 
@@ -60,9 +60,9 @@ In un progetto curato o in una VRS, al destinatario verrà offerta l’opzione *
 * Livello di autorizzazione dell’utente (amministratore o non amministratore)
 * Ruolo di progetto (proprietario/editor o meno)
 * Tipo di cura applicata (VRS o del progetto)
-* Componenti di proprietà o condivisi con l’utente. I componenti di proprietà/condivisi includono segmenti, metriche calcolate e intervalli di date. Non includono componenti implementati come eVar, prop ed eventi personalizzati.
+* Componenti di proprietà o condivisi con l’utente. I componenti di proprietà o condivisi includono segmenti, metriche calcolate e intervalli di date. Non includono componenti implementati come eVar, Prop ed eventi personalizzati.
 
-Nota: I ruoli di visualizzazione non amministratori non hanno accesso alla barra a sinistra in un progetto, pertanto sono stati omessi dalla tabella seguente.
+Nota: i ruoli di visualizzazione non amministratori non hanno accesso alla barra a sinistra di un progetto, pertanto sono stati omessi dalla tabella seguente.
 
 | Tipo di cura | Amministratori | Ruolo di proprietario del progetto o editor non amministratore | Ruolo duplicato non amministratore |
 |---|---|---|---|
