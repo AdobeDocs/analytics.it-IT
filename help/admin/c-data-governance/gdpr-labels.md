@@ -2,20 +2,20 @@
 description: Esempi di etichette sulla privacy dei dati per variabili Adobe Analytics
 title: Etichette Privacy dei dati per le variabili di Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '3642'
 ht-degree: 100%
 
 ---
 
-
 # Etichette Privacy dei dati per le variabili di Analytics
 
 ## Perché etichettare i dati? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
-Molti clienti Adobe dispongono di team legali che hanno rivisto le normative sulla Privacy dei dati (RGPD, CCPA, ecc.) e che hanno tratto le proprie conclusioni sul modo in cui i dati devono essere trattati per conformarsi a tali normative. Le interpretazioni giuridiche possono essere diverse in base alle aziende e anche le impostazioni di gestione dei dati desiderate possono differire tra i clienti. Poiché i clienti hanno preferenze diverse per quanto riguarda il trattamento dei dati in termini di privacy e diversi set di dati, in Adobe i clienti, in qualità di titolari dei dati, possono personalizzare le impostazioni desiderate per il trattamento dei propri dati in base alla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio set di dati.
+Molti clienti Adobe dispongono di team legali che hanno rivisto le normative sulla Privacy dei dati (RGPD, CCPA, ecc.) e che hanno tratto le proprie conclusioni sul modo in cui i dati devono essere trattati per conformarsi a tali normative. Le interpretazioni giuridiche possono essere diverse in base alle aziende e anche le impostazioni di gestione dei dati desiderate possono differire tra i clienti. Poiché i clienti hanno preferenze diverse per quanto riguarda il trattamento dei dati in termini di privacy e diversi set di dati, in Adobe i clienti, in qualità di titolari dei dati, possono personalizzare le impostazioni desiderate per il trattamento dei propri dati specifici in base alla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
 
 Adobe Analytics offre gli strumenti necessari per etichettare i dati in base al loro stato di riservatezza e a vincoli contrattuali. Le etichette sono importanti e utili per: (1) individuare le persone interessate, (2) determinare i dati da restituire come parte di una richiesta di accesso e (3) individuare i campi di dati da cancellare in seguito a una richiesta di cancellazione.
 
@@ -314,7 +314,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
      <li id="li_41CB61F927CB4402AAB4A62E219CD153">Dimensioni del traffico personalizzate </li> 
     </ul> </td> 
    <td colname="col2"> <p>Tutte, ad eccezione delle classificazioni </p> </td> 
-   <td colname="col3"> <p>Tutte </p> </td> 
+   <td colname="col3"> <p>Tutto </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -324,7 +324,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventi di conversione </p> </td> 
-   <td colname="col2"> <p>Tutte </p> </td> 
+   <td colname="col2"> <p>Tutto </p> </td> 
    <td colname="col3"> <p>Nessuno/S1/S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
