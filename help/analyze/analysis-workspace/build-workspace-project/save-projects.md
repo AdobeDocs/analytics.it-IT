@@ -1,14 +1,13 @@
 ---
 description: Scopri le diverse opzioni di salvataggio, tra cui salvataggio automatico, salvataggio con nome, salvataggio con nome e apertura delle versioni precedenti.
 title: Salvare i progetti
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-translation-type: tm+mt
 source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
