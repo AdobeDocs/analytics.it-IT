@@ -1,20 +1,20 @@
 ---
 title: Panoramica su Attribution
-description: Il concetto di attribuzione del credito di un evento di successo a più elementi dimensionali.
+description: Il concetto di attribuire il credito di un evento di successo a più elementi dimensionali.
 feature: Attribution
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 92%
+exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
-
 # Panoramica su Attribution
 
-Attribution consente agli analisti di personalizzare il modo in cui gli elementi dimensionali ottengono credito per gli eventi di successo. Ad esempio:
+Attribution consente agli analisti di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo. Ad esempio:
 
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
 2. Il giorno successivo, vede un post di social media di uno dei suoi amici, fa clic sul collegamento e completa l’acquisto.
