@@ -1,14 +1,14 @@
 ---
 title: Guida all’importazione di Analytics
-description: Questa guida spiega come inserire dati in Analytics utilizzando Origini dati, API di inserimento dati e Connettori dati.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+description: Questa guida spiega come inserire dati in Analytics tramite origini dati, l’API di inserimento dati e Data Connectors.
+exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
-
 
 # Guida all’importazione di Analytics
 
