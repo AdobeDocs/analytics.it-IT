@@ -2,14 +2,14 @@
 description: Comprendi gli ID acquisiti nei dati di Analytics e decidi quale utilizzare per le richieste relative alla privacy dei dati.
 title: Tecniche di etichettatura consigliate
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
+exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '2706'
 ht-degree: 100%
 
 ---
-
 
 # Tecniche di etichettatura consigliate
 
@@ -115,4 +115,3 @@ Sebbene pochissimi campi avranno un’etichetta diversa, in molti campi spesso s
   </tr> 
  </tbody> 
 </table>
-
