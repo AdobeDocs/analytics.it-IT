@@ -1,32 +1,31 @@
 ---
-description: Interazioni da tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
+description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
 keywords: Analysis Workspace
 title: Tasti di scelta rapida
 feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Tasti di scelta rapida
 
-I tasti di scelta rapida (scelte rapide da tastiera) disponibili in Analysis Workspace rendono più fluide le operazioni di navigazione, analisi, aggiunta di pannelli e visualizzazioni e democratizzazione (condivisione).
+I tasti di scelta rapida sono disponibili in Analysis Workspace per facilitare la navigazione e le attività di analisi, aggiungere pannelli e visualizzazioni, e per agevolare l’accessibilità (condivisione).
 
 Nota:
-* `Ctrl` = Windows e `Comando` = Mac
-* `Alt` = Windows e `Opzione` = Mac
+* `Ctrl` = Windows e `Command` = Mac
+* `Alt` = Windows e `Option` = Mac
 
 ## Azioni di navigazione
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |
-| Crea nuovo progetto | Ctrl+Maiusc+P |
-| Apri progetto esistente | Ctrl+O |
+| Crea nuovo progetto | Ctrl + Maiusc + P |
+| Apri progetto esistente | Ctrl + O |
 | Vai al riquadro Panels (Pannelli) | Alt+Maiusc+1 |
 | Vai al riquadro Visualizations (Visualizzazioni) | Alt+Maiusc+2 |
 | Vai al riquadro Components (Componenti) | Alt+Maiusc+3 |
@@ -40,17 +39,17 @@ Nota:
 | Azione | Tasti di scelta rapida |
 | --- | --- |
 | Barra sinistra di ricerca | Ctrl+/ |
-| Creazione di un avviso | Ctrl+Maiusc+A |
-| Crea dato calcolato | Ctrl+Maiusc+C |
-| Crea un intervallo di date | Ctrl+Maiusc+D |
-| Crea un segmento | Ctrl+Maiusc+E |
+| Creazione di un avviso | Ctrl + Maiusc + A |
+| Crea dato calcolato | Ctrl + Maiusc + C |
+| Crea un intervallo di date | Ctrl + Maiusc + D |
+| Crea un segmento | Ctrl + Maiusc + E |
 | Cancella tutto | Alt+W |
-| Copia | Ctrl+C |
-| Ripristina | Ctrl+Maiusc+Z |
-| Annulla | Ctrl+Z |
+| Copia | Ctrl + C |
+| Ripristina | Ctrl + Maiusc + Z |
+| Annulla | Ctrl + Z |
 | Aggiorna componenti | Alt+Maiusc+R |
 | Aggiorna progetto | Alt+R |
-| Imposta come pagina di destinazione | Ctrl+Maiusc+L |
+| Imposta come pagina di destinazione | Ctrl + Maiusc + L |
 
 ## Aggiungi pannelli e azioni di visualizzazione
 
@@ -71,13 +70,13 @@ Nota:
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |
-| Salva progetto | Ctrl+S |
-| Salva progetto come | Ctrl+Maiusc+S |
+| Salva progetto | Ctrl + S |
+| Salva progetto come | Ctrl + Maiusc + S |
 | Salva come modello | Alt+T |
-| Scarica come CSV | Ctrl+Maiusc+V |
-| Scarica come PDF | Ctrl+Maiusc+B |
-| Cura dati progetto | Ctrl+Maiusc+G |
-| Condividi progetto | Ctrl+G |
+| Scarica come CSV | Ctrl + Maiusc + V |
+| Scarica come PDF | Ctrl + Maiusc + B |
+| Cura dati progetto | Ctrl + Maiusc + G |
+| Condividi progetto | Ctrl + G |
 | Ottieni collegamento progetto | Alt+L |
 | Invia subito file | Alt+S |
 | Invia file secondo programma | Maiusc+Alt+S |
