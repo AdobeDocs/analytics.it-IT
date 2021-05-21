@@ -2,16 +2,16 @@
 description: Questa visualizzazione di Workspace è simile a un grafico a linee, ma la superficie al sotto di ogni linea è colorata.
 title: Superfici e superfici sovrapposte
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 97%
+exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '100'
+ht-degree: 100%
 
 ---
-
 
 # Superfici e superfici sovrapposte
 
@@ -30,4 +30,3 @@ Questa visualizzazione è simile al grafico a superfici, ma ogni serie inizia al
 Una nuova impostazione per le visualizzazioni Superfici sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
 
 ![](assets/areastacked100.png)
-
