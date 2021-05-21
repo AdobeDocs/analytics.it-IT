@@ -2,16 +2,16 @@
 description: Crea, modifica o elimina gli avvisi.
 title: Gestione avvisi
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 96%
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '157'
+ht-degree: 100%
 
 ---
-
 
 # Gestione avvisi
 
@@ -36,4 +36,3 @@ La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL C
 * Specificare o cambiare il proprietario di un avviso
 * Aggiungere altri filtri
 * Definire la **data di scadenza** di un avviso
-
