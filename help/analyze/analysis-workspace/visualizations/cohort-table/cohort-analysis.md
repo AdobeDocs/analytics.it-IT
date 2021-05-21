@@ -1,16 +1,16 @@
 ---
 title: Cos’è l’analisi per coorte e come funziona?
 description: Approfondisci i dati relativi al pubblico e suddividili in gruppi correlati con la funzione di analisi per coorte. Scopri l’analisi per coorte in Analysis Workspace.
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 99%
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
-
 
 # Informazioni sulla funzione [!UICONTROL Cohort Analysis] in Adobe Analytics
 
@@ -72,4 +72,3 @@ Puoi creare le coorti in base a una dimensione selezionata anziché in base al t
 ![](assets/cohort-customizable-cohort-row.png)
 
 Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-
