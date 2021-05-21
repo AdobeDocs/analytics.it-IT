@@ -2,14 +2,14 @@
 description: Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti di accesso e cancellazione delle persone interessate in base al CCPA.
 title: Adobe Analytics e CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 translation-type: ht
-source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics e CCPA
 
