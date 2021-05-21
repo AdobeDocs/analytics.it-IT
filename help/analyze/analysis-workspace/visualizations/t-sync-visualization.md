@@ -2,16 +2,16 @@
 description: La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 keywords: Analysis Workspace, sincronizzazione di una visualizzazione con un’origine dati
 title: Gestione delle origini dati
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 99%
+exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '563'
+ht-degree: 100%
 
 ---
-
 
 # Gestione delle origini dati
 
