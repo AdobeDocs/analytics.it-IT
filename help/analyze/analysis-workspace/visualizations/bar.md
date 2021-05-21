@@ -2,16 +2,16 @@
 description: Utilizza la visualizzazione a barre in un progetto Workspace.
 title: Barre e barre sovrapposte
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 96%
+exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '89'
+ht-degree: 100%
 
 ---
-
 
 # Barre e barre sovrapposte
 
@@ -32,4 +32,3 @@ Questa visualizzazione è simile al grafico a barre, ma le barre delle varie ser
 Una nuova impostazione per le visualizzazioni Barre sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
 
 ![](assets/stacked_100_percent.png)
-
