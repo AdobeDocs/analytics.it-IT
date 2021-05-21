@@ -2,14 +2,14 @@
 description: Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le etichette e le relative definizioni.
 title: Etichettare i dati della suite di rapporti
 uuid: a694851c-8933-496e-9118-113cc38cba8a
+exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '947'
 ht-degree: 100%
 
 ---
-
 
 # Etichettare i dati della suite di rapporti
 
@@ -93,4 +93,3 @@ Se vuoi applicare le stesse impostazioni DULE/Privacy dei dati a più di una sui
    >Devi sempre controllare la suite di rapporti di destinazione per accertarti che le etichette siano state copiate correttamente. Questo è molto importante soprattutto per le variabili che hanno le etichette ID o DEL.
 
 1. Fai clic su **[!UICONTROL Apply]**.
-
