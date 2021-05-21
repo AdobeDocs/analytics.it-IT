@@ -2,14 +2,14 @@
 description: Glossario sulla governance dei dati per Adobe Analytics
 title: Terminologia RGPD
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
+exl-id: d6e6d363-ac5e-467e-af88-f6feda9cb980
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
 ---
-
 
 # Terminologia RGPD
 
