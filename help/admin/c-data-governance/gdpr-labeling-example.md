@@ -2,14 +2,14 @@
 description: Mostra esempi su come etichettare i dati per i dati relativi agli hit, le richieste di accesso, le richieste di eliminazione
 title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
 ---
-
 
 # Esempi di etichettatura
 
