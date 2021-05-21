@@ -1,16 +1,16 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Adobe Analytics
-feature: Analytics Dashboards
+feature: Dashboard di Analytics
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1273'
+ht-degree: 100%
 
 ---
-
 
 # Dashboard di Adobe Analytics: guida introduttiva rapida per utenti esecutivi
 
@@ -73,7 +73,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
 Per utilizzare le dashboard:
 
-1. Accedi all’app. La schermata di accesso apparirà all’avvio delle dashboard. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
+1. Accedi all’app. La schermata di accesso apparirà all’avvio delle dashboard. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
 
    ![Sequenza di accesso](assets/signseq.png)
 
