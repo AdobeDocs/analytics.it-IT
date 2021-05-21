@@ -2,16 +2,16 @@
 description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
 title: Impostazioni riga
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-feature: Freeform Tables
+feature: Tabelle a forma libera
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
-
 
 # Impostazioni riga
 
