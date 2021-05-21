@@ -2,16 +2,16 @@
 description: Usa i segmenti in Analysis Workspace.
 title: Segmenti
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '373'
+exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
-
 
 # Segmenti {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
