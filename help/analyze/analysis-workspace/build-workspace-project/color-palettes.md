@@ -1,16 +1,16 @@
 ---
 description: Come utilizzare la palette dei colori di visualizzazione in Analysis Workspace
 title: Cosa sono le palette di colori di visualizzazione e come funzionano?
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '209'
+exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '206'
 ht-degree: 100%
 
 ---
-
 
 # Palette di colori di visualizzazione
 
@@ -36,4 +36,3 @@ Nota bene:
 
 1. Per specificare una tua palette, seleziona **[!UICONTROL Custom Palette]** sotto le opzioni predefinite.
 1. Specifica fino a 16 valori esadecimali separati da virgole (ad esempio #00a4e4) per i colori che intendi utilizzare. Se, ad esempio, desideri utilizzare solo quattro valori, questi colori verranno automaticamente ripetuti in visualizzazioni contenenti più colori.
-
