@@ -1,18 +1,18 @@
 ---
 title: Journey IQ
 description: Comprendi lo strumento Journey IQ, un insieme di funzioni che fanno parte di Adobe Analytics.
-feature: AI Tools
+feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 97%
+exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
-
-# IQ percorso
+# Journey IQ
 
 Journey IQ consiste in una serie di funzioni che forniscono visualizzazioni e impostazioni semplici e completamente personalizzabili che consentono di comprendere meglio l’esperienza del cliente. Consente di misurare ogni punto di contatto del percorso intrapreso da un cliente, anche tra canali diversi. Utilizza queste funzioni per comprendere meglio come coinvolgere nuovamente i clienti, mantenerli fedeli e personalizzare la loro esperienza lungo il percorso che intraprendono.
 
