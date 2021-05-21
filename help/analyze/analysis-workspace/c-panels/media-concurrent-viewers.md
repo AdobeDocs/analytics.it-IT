@@ -1,52 +1,52 @@
 ---
 title: Pannello Visualizzatori simultanei di contenuti multimediali
-description: Utilizzare e interpretare il pannello Visualizzatori simultanei di contenuti multimediali in Analysis Workspace.
-feature: Panels
+description: Come utilizzare e interpretare il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) in Analysis Workspace.
+feature: Pannelli
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 4%
+exl-id: 29575b51-e319-4156-9834-aa0b671afb31
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
-
 # Pannello Visualizzatori simultanei di contenuti multimediali
 
-I clienti di Media Analytics possono analizzare i visualizzatori simultanei per capire dove si è verificato il picco di concorrenza o dove si è verificato un calo, per fornire informazioni utili sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori e per risolvere eventuali problemi o pianificare il volume o la scala.
+I clienti di Media Analytics possono analizzare i visualizzatori simultanei per capire dove si è verificato il picco di concorrenza o dove si è verificato un calo, per fornire informazioni sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori, utili per risolvere eventuali problemi o pianificare un adeguamento per volume o scala.
 
-In Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori unici che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.
+In Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori univoci che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.
 
-Il pannello Visualizzatori simultanei di contenuti multimediali consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e sulla possibilità di suddividerli e confrontarli.  Per accedere al pannello Visualizzatori simultanei di contenuti multimediali, passa a una suite di rapporti con i componenti Media Analytics abilitati. Quindi, fai clic sull’icona del pannello all’estrema sinistra e trascina il pannello nel progetto Analysis Workspace.
+Il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.  Per accedere al pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti), passa a una suite di rapporti con i componenti Media Analytics abilitati. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
 
 ## Input del pannello {#Input}
 
-Puoi configurare il pannello Visualizzatori simultanei di contenuti multimediali utilizzando le seguenti impostazioni di input:
+Puoi configurare il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) usando le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 |---|---|
-| Intervallo date del pannello | L’intervallo di date predefinito del pannello è Oggi.  È possibile modificarlo per visualizzare uno o più mesi alla volta. <br> <br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto).  Se un intervallo di date e una combinazione di granularità generano più di 1440 righe, la granularità viene aggiornata automaticamente per contenere l’intervallo di date completo. |
-| Granularity (Granularità) | L’impostazione predefinita della granularità è Minuto. <br> <br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto).  Se un intervallo di date e una combinazione di granularità generano più di 1440 righe, la granularità viene aggiornata automaticamente per contenere l’intervallo di date completo. |
-| Numeri di riepilogo del pannello | Per visualizzare i dettagli di data o ora per i visualizzatori simultanei, è disponibile un numero di riepilogo. Il valore Massimo mostra i dettagli della concorrenza di picco. Il Minimo mostra i dettagli della mangiatoia.  L’impostazione predefinita del pannello mostra solo Massimo, ma puoi modificarla in Minimo o Massimo e Minimo.<br><br>Se utilizzi le suddivisioni, per ciascuna viene visualizzato un numero di riepilogo. |
-| Disaggregazione per serie | Facoltativamente, puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. <br><br>- È possibile visualizzare fino a 10 righe alla volta. Le suddivisioni sono limitate a un singolo livello.<br><br>- Quando si trascina una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.<br><br>- Per confrontare intervalli di date, trascina 2 o più intervalli di date nel filtro di suddivisione delle serie. |
+| Panel date range (Intervallo date del pannello) | L’intervallo di date predefinito del pannello è Today (Oggi).  È possibile modificarlo per visualizzare uno o più mesi alla volta. <br> <br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto).  Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
+| Granularity (Granularità) | L’impostazione predefinita della granularità è Minuto. <br> <br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto).  Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
+| Panel summary numbers (Numeri di riepilogo del pannello) | Per visualizzare i dettagli di data o ora per i visualizzatori simultanei, è disponibile un numero di riepilogo. Il valore Maximum (Massimo) mostra i dettagli del picco di concorrenza. Il valore Minimum (Minimo) mostra i dettagli del valore più basso.  Per impostazione predefinita il pannello mostra solo il valore massimo, ma puoi impostarlo sul valore minimo o su entrambi.<br><br>Se utilizzi le suddivisioni, per ciascuna viene visualizzato un numero di riepilogo. |
+| Suddivisione per serie di dati | Facoltativamente, puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. <br><br>- È possibile visualizzare fino a 10 righe alla volta. Le suddivisioni sono limitate a un singolo livello.<br><br>- Quando si trascina una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.<br><br>- Per confrontare intervalli di date, trascina 2 o più intervalli di date nel filtro di suddivisione per serie. |
 
 ### Vista predefinita
 
 ![Vista predefinita](assets/concurrent-viewers-default.png)
 
 
-### Vista a discesa delle serie
+### Vista di suddivisione per serie
 
-![vista a serie](assets/concurrent-viewers-series-breakdown.png)
+![vista di suddivisione per serie](assets/concurrent-viewers-series-breakdown.png)
 
 ## Output del pannello {#Output}
 
-Il pannello Visualizzatori simultanei di contenuti multimediali restituisce un grafico a linee e numeri di riepilogo per includere i dettagli del numero massimo e/o minimo di visualizzatori simultanei.  Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni del pannello selezionate.
+Il pannello Visualizzatori simultanei di contenuti multimediali restituisce un grafico a linee e numeri di riepilogo che includono i dettagli del numero massimo e/o minimo di visualizzatori simultanei.  Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni del pannello selezionate.
 
-Puoi modificare e ricreare il pannello in qualsiasi momento facendo clic sulla matita di modifica in alto a destra.
+In qualsiasi momento, puoi modificare il pannello facendo clic sull’icona della matita (Modifica) in alto a destra.
 
-Se hai selezionato il raggruppamento di serie, viene visualizzata una riga del grafico a linee e un numero di riepilogo per ciascuna:
+Se hai selezionato la suddivisione per serie, per ciascuna suddivisione viene visualizzata una linea sul grafico a linee e un numero di riepilogo:
 
 ![output visualizzatori simultanei](assets/concurrent-viewers-output.png)
 
@@ -56,9 +56,9 @@ L’unica metrica che può essere utilizzata in questo pannello è Visualizzator
 
 | Metrica | Descrizione |
 |---|---|
-| Visualizzatori simultanei | Numero di visitatori unici che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.<br><br>È diverso dal reporting Visualizzatore simultaneo nella sezione Rapporti , che utilizza sessioni attive simultanee.  L’utilizzo di visitatori univoci consente di rimuovere i &quot;picchi&quot; indesiderati a mostra i limiti (dove le sessioni terminano e iniziano contemporaneamente). |
+| Visualizzatori simultanei | Numero di visitatori unici che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.<br><br>È diverso dal reporting Visualizzatore simultaneo nella sezione Rapporti, che utilizza sessioni attive simultanee.  L’utilizzo di visitatori univoci consente di rimuovere i “picchi” indesiderati in corrispondenza dei confini tra dati da visualizzare (dove le sessioni terminano e iniziano allo stesso momento). |
 
-In questa visualizzazione non è disponibile una tabella a forma libera.  Per visualizzare l’origine dati, fai clic con il pulsante destro del mouse sul grafico a linee e scarica come file .csv .  Saranno incluse le suddivisioni della serie.
+In questa visualizzazione non è disponibile una tabella a forma libera.  Per visualizzare l’origine dati, fai clic con il pulsante destro del mouse sul grafico a linee e scarica come file .csv.  Saranno incluse le suddivisioni per serie di dati.
 
 
 ![output visualizzatori simultanei](assets/concurrent-viewers-download-csv.png)
@@ -67,15 +67,15 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 
 | Domanda | Risposta |
 |---|---|
-| Dov’è la tabella a forma libera? Come posso visualizzare l&#39;origine dati? | La tabella a forma libera non è disponibile in questa visualizzazione.  Puoi scaricare l’origine dati facendo clic con il pulsante destro del mouse sul grafico a linee e scaricando il file CSV. |
-| Perché la mia granularità è cambiata? | Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto).  Se un intervallo di date e una combinazione di granularità danno luogo a più di 1440 righe, la granularità viene aggiornata automaticamente per adattarsi all’intervallo di date completo.<br><br>Quando passi da un intervallo di date più ampio a uno più piccolo, la granularità viene aggiornata al dettaglio più basso consentito dopo la modifica dell’intervallo di date. Per visualizzare una granularità maggiore, modifica il pannello e ricompila. |
-| Come si confrontano nomi video, segmenti, tipi di contenuto, ecc.? | Per confrontare questi elementi in una singola visualizzazione, trascina segmenti, dimensioni o elementi dimensionali specifici nel filtro di suddivisione della serie.<br><br>La visualizzazione è limitata a 10 raggruppamenti.  Per visualizzare più di 10 pannelli, è necessario utilizzare più pannelli. |
-| Come si confrontano gli intervalli di date? | Per confrontare intervalli di date in una singola visualizzazione, utilizza le suddivisioni delle serie trascinando 2 o più intervalli di date.  Questi intervalli di date sovrascriveranno l’intervallo di date del pannello. |
-| Come posso modificare il tipo di visualizzazione? | Questo pannello consente solo la visualizzazione delle linee per le serie temporali. |
+| Dov’è la tabella a forma libera? Come posso visualizzare l’origine dati? | La tabella a forma libera non è disponibile in questa vista. Per scaricare l’origine dati, fai clic con il pulsante destro del mouse sul grafico a linee e scarica il file CSV. |
+| Perché la granularità è cambiata? | Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe.<br><br>Quando passi da un intervallo di date più ampio a uno più ridotto, la granularità viene aggiornata al dettaglio più basso consentito dopo la modifica dell’intervallo di date. Per visualizzare una granularità maggiore, modifica il pannello e ricompila. |
+| Come si confrontano nomi video, segmenti, tipi di contenuto, ecc.? | Per confrontare questi elementi in una singola visualizzazione, trascina segmenti, dimensioni o elementi dimensionali specifici nel filtro di suddivisione per serie.<br><br>La visualizzazione è limitata a 10 suddivisioni.  Per visualizzarne più di 10, è necessario utilizzare più pannelli. |
+| Come si confrontano gli intervalli di date? | Per confrontare intervalli di date diversi in una singola visualizzazione, utilizza le suddivisioni per serie trascinando 2 o più intervalli di date.  Questi intervalli di date sovrascriveranno l’intervallo del pannello. |
+| Come posso modificare il tipo di visualizzazione? | Questo pannello consente solo la visualizzazione a linee per le serie temporali. |
 | Posso eseguire il rilevamento delle anomalie? | No.  Il rilevamento delle anomalie non è disponibile per questo pannello. |
-| Perché utilizzare visitatori univoci invece di sessioni attive? | L’utilizzo di visitatori univoci consente di rimuovere i picchi indesiderati dai limiti della visualizzazione (dove le sessioni terminano e iniziano contemporaneamente). |
-| Cosa significa avere visualizzatori simultanei con granularità maggiore del minuto? | Con una granularità maggiore di un minuto, i visualizzatori simultanei sono la somma di visualizzatori simultanei univoci per tutti i minuti entro tale intervallo di tempo.  Ad esempio, per i visualizzatori simultanei con granularità a livello di ora, la somma di visualizzatori simultanei univoci per tutti i minuti dell’ora. |
+| Perché utilizzare visitatori univoci invece di sessioni attive? | L’utilizzo di visitatori univoci consente di rimuovere i picchi indesiderati in corrispondenza dei confini tra dati da visualizzare (dove le sessioni terminano e iniziano allo stesso momento). |
+| Cosa significa avere visualizzatori simultanei con granularità maggiore del minuto? | Con una granularità maggiore di un minuto, i visualizzatori simultanei sono la somma dei visualizzatori simultanei univoci per tutti i minuti entro l’intervallo di tempo in questione. Ad esempio, i visualizzatori simultanei con granularità a livello di ora corrispondono alla somma dei visualizzatori simultanei univoci per tutti i minuti all’interno di quell’ora. |
 | Cosa succede se voglio vedere più di un giorno con granularità al minuto? | Per accedere ai dati con granularità al minuto fino a un mese alla volta, puoi utilizzare le API di Analytics 2.0. Per ulteriori informazioni, consulta [Ottenere i dati del rapporto JSON per visualizzatori simultanei con le API di Analytics 2.0](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
-| Il pannello dell’area di lavoro mostra le stesse informazioni del rapporto Visualizzatori simultanei? | No.  In Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori unici che visualizzano il flusso multimediale in un momento specifico, indipendentemente dal numero di sessioni.<br><br>È diverso dal reporting Visualizzatore simultaneo nella sezione Rapporti , che utilizza sessioni attive simultanee.  L’utilizzo di visitatori univoci consente di rimuovere picchi indesiderati dai limiti della visualizzazione, in cui le sessioni terminano e iniziano contemporaneamente. |
+| Il pannello Workspace mostra le stesse informazioni del rapporto Visualizzatori simultanei? | No.  In Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori univoci che visualizzano il flusso multimediale in un momento specifico, indipendentemente dal numero di sessioni.<br><br>È diverso dal reporting sui visualizzatori simultanei nella sezione Rapporti, in cui vengono utilizzate sessioni attive simultanee.  L’utilizzo di visitatori univoci consente di rimuovere i picchi indesiderati in corrispondenza dei confini tra dati da visualizzare (dove le sessioni terminano e iniziano allo stesso momento). |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
