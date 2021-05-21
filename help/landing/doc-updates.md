@@ -3,11 +3,10 @@ title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Aggiornamenti rilevanti dell’archivio della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-translation-type: tm+mt
 source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
