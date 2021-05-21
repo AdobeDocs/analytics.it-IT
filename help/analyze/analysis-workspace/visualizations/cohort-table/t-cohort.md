@@ -3,16 +3,16 @@ description: Creare una coorte ed eseguire un rapporto di analisi per coorte in 
 keywords: Analysis Workspace
 title: Esecuzione di un rapporto di analisi per coorte
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 99%
+exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '882'
+ht-degree: 100%
 
 ---
-
 
 # Configurare un rapporto di [!UICONTROL Cohort Analysis]
 
@@ -58,4 +58,3 @@ Creare una coorte ed eseguire un rapporto di [!UICONTROL Cohort Analysis] in Ana
    >[!NOTE]
    >
    >Prima di curare un progetto è necessario salvarlo.
-
