@@ -1,14 +1,14 @@
 ---
 title: Guida dell’amministratore di Analytics
 description: Guida per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti nell'Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '315'
 ht-degree: 100%
 
 ---
-
 
 # Guida dell’amministratore di Analytics
 
