@@ -1,16 +1,16 @@
 ---
 description: Istruzioni per la configurazione delle scorecard delle dashboard.
 title: Guida del curatore per le dashboard di Adobe Analytics
-feature: Analytics Dashboards
+feature: Dashboard di Analytics
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 87%
+exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '2325'
+ht-degree: 100%
 
 ---
-
 
 # Guida del curatore per le dashboard di Adobe Analytics
 
@@ -100,7 +100,7 @@ Per implementare il template della scorecard:
 
    Quando fai clic su una tessera nel Creatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella tessera. In questa barra puoi assegnare un nuovo **[!UICONTROL Title]** alla tessera e, in alternativa, configurarla specificando i componenti invece di trascinarli dalla barra di sinistra.
 
-   ![Riquadro delle proprietà](assets/properties_tile.png)
+   ![Tessera delle proprietà](assets/properties_tile.png)
 
    Inoltre, se fai clic sulle tessere, un pop-up dinamico mostrerà come la vista Raggruppamento viene visualizzata dall’utente esecutivo nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
@@ -112,29 +112,29 @@ Per implementare il template della scorecard:
 
    ![Creare segmenti per il filtro](assets/segment_ui.png)
 
-5. Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in un punto qualsiasi della scorecard al di fuori delle tessere e poi rimuovilo facendo clic sulla **x** che viene visualizzata quando passi il mouse sul componente, come mostrato di seguito per il segmento **Prime visite**:
+5. Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle tessere, quindi fai clic sulla **x** che compare quando passi il mouse sul componente, come mostrato di seguito per il segmento **Nuovo visitatore**:
 
    ![Rimuovere_componenti](assets/new_remove.png)
 
-6. Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard selezionando il menu a discesa dell’intervallo di date.
+6. Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard mediante il menu a discesa dell’intervallo di date.
 
-   ![Nuova scheda di valutazione](assets/new_score_card.png)
+   ![Nuova scorecard](assets/new_score_card.png)
 
-   Ogni nuova scorecard inizia con 6 combinazioni di intervalli di date incentrate sui dati di oggi e ieri. È possibile rimuovere intervalli di date non necessari facendo clic sulla x, oppure è possibile modificare ogni combinazione di intervalli di date facendo clic sulla matita.
+   Ogni nuova scorecard inizia con 6 combinazioni di intervalli di date incentrate sui dati di oggi e ieri. Per rimuovere gli intervalli di date di cui non hai bisogno, fai clic sulla x. Per modificare una combinazione di intervalli di date, fai clic sull’icona della matita.
 
-   ![Nuova scheda punteggio2](assets/new_score_card2.png)
+   ![Nuova scorecard2](assets/new_score_card2.png)
 
-   Per creare o modificare una data primaria, utilizza il menu a discesa per selezionare un intervallo di date disponibile oppure trascina e rilascia un componente data dalla barra a destra nella zona di rilascio.
+   Per creare o modificare una data primaria, utilizza il menu a discesa per selezionare uno degli intervalli di date disponibili oppure trascina un componente data dalla barra a destra fino alla zona di rilascio.
 
-   ![Nuova scheda punteggio3](assets/new_score_card3.png)
+   ![Nuova scorecard3](assets/new_score_card3.png)
 
-   Per creare una data di confronto, nel menu a discesa puoi scegliere tra pratici predefiniti per i confronti dell’ora comune. Puoi anche trascinare un componente data dalla barra a destra.
+   Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i confronti temporali più comuni, disponibili nel menu a discesa. Puoi anche trascinare un componente data dalla barra a destra.
 
-   ![Nuova scheda di valutazione4](assets/new_score_card4.png)
+   ![Nuova scorecard4](assets/new_score_card4.png)
 
-   Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona Calendario .
+   Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona Calendario.
 
-   ![Nuova scheda di valutazione4](assets/new_score_card5.png)
+   ![Nuova scorecard4](assets/new_score_card5.png)
 
 7. Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date. Per dare un nome alla scorecard, fai clic sullo spazio del nome in alto a sinistra dello schermo e digita il nuovo nome.
 
@@ -191,7 +191,7 @@ Per aiutare gli utenti esecutivi:
    * Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
       [Collegamento per Android](https://bit.ly/2LM38Oo)
-   Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
+   Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
 
    ![Schermata di benvenuto dell’app](assets/welcome.png)
 
