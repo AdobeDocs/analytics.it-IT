@@ -7,8 +7,8 @@ role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8217'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +20,8 @@ Per accedere alle note sulla versione di Adobe Experience Cloud nel suo compless
 
 | Funzione | Data target | Descrizione |
 | --- | --- | --- |
-| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 marzo 2021 | La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni [!UICONTROL Analysis Workspace] e i relativi componenti per l’utente. [!UICONTROL User preferences] si applica a tutti i nuovi progetti e pannelli. <br>**Nota:** le seguenti impostazioni sono state spostate nella  [!UICONTROL User preferences] pagina:<ul><li>Impostazioni dei rapporti: Separatore delle migliaia (ora denominato _Formato numero_)</li><li>Impostazioni dei rapporti: Separatore CSV</li><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: opzione _Avvia nuovi progetti con questo pannello_ per pannello vuoto</li></ul> |
-| [!UICONTROL Histogram Smart Bucket Prediction] | 25 marzo 2021 | [!UICONTROL Histogram Smart Bucket Prediction] aiuta gli istogrammi con metriche ad alta cardinalità identificando automaticamente la larghezza e il numero di bucket giusti per la distribuzione dei dati. Per le metriche a bassa cardinalità, la visualizzazione si comporta come in precedenza. |
+| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 marzo 2021 | La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni di [!UICONTROL Analysis Workspace] e dei relativi componenti per l’utente. Le impostazioni di [!UICONTROL User preferences] sono applicabili a tutti i nuovi progetti e pannelli. <br>**Nota:** le seguenti impostazioni sono state spostate nella pagina [!UICONTROL User preferences]:<ul><li>Impostazioni dei rapporti: Separatore delle migliaia (ora denominato _Formato numero_)</li><li>Impostazioni dei rapporti: Separatore CSV</li><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: opzione _Avvia nuovi progetti con questo pannello_ per pannello vuoto</li></ul> |
+| [!UICONTROL Histogram Smart Bucket Prediction] | 25 marzo 2021 | [!UICONTROL Histogram Smart Bucket Prediction] facilita l’uso di istogrammi con metriche di elevata cardinalità, individuando in automatico la larghezza e il numero giusto di bucket in base alla distribuzione dei dati. Per le metriche a bassa cardinalità, la visualizzazione si comporta come in precedenza. |
 
 ## Febbraio 2021
 
@@ -304,7 +304,7 @@ Nuove funzionalità e ottimizzazioni rilasciate il 19 luglio 2018.
    <td colname="col2"> <p>Quando è possibile, vengono visualizzati i totali per le metriche calcolate, comprese le percentuali. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nuovo  predefinito <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  ></a>di intervallo date </b> </p> </td> 
+   <td colname="col1"> <p><b>Nuovo predefinito di <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > intervallo date </a> </b> </p> </td> 
    <td colname="col2"> <p>È stata aggiunta l’opzione “Ultime 13 settimane complete” ai predefiniti degli intervalli di date di Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -775,7 +775,7 @@ Nuove funzionalità rilasciate il 20 luglio 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>“Ottieni collegamento progetto” per accessi da Experience Cloud</b> </p> </td> 
-   <td colname="col2"> <p>Precedentemente, quando si effettuava l’accesso con le credenziali di Experience Cloud e si passava quindi ad Analytics, non era possibile usare la funzione <span class="ignoretag"> <span class="uicontrol">Condividi</span> &gt; <span class="uicontrol">Ottieni collegamento progetto</span></span>. Tale problema è stato risolto. Prima di poter usare questa opzione, è tuttavia necessario salvare il progetto. </p> </td> 
+   <td colname="col2"> <p>Precedentemente, quando si effettuava l’accesso con le credenziali di Experience Cloud e si passava quindi ad Analytics, non era possibile usare la funzione <span class="ignoretag"> <span class="uicontrol"> Condividi </span>  &gt; <span class="uicontrol"> Ottieni collegamento progetto </span> </span>. Tale problema è stato risolto. Prima di poter usare questa opzione, è tuttavia necessario salvare il progetto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtro “Progetti scaduti” nella gestione Progetti programmati </a></b> </p> </td> 
@@ -808,7 +808,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Miglioramenti al <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b> flusso</b></a> </td> 
+   <td colname="col1"> Miglioramenti al <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>flusso</b> </a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Aggiunta di una nuova impostazione di visualizzazione dal titolo <span class="wintitle"> Disable Label Truncation </span> (Disabilita troncamento etichetta) (impostazione predefinita = non selezionata). </li> 
@@ -845,7 +845,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Miglioramenti ad <b><a href="/help/components/c-alerts/alert-manager.md"  > Alert Manager (Gestione avvisi)</a></b> </p> </td> 
+   <td colname="col1"> <p>Miglioramenti ad <b> <a href="/help/components/c-alerts/alert-manager.md"  > Alert Manager (Gestione avvisi) </a> </b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Aggiunta la possibilità di abilitare/disabilitare gli avvisi. </li> 
