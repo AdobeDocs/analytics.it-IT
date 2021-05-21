@@ -2,16 +2,16 @@
 description: Utilizza la visualizzazione mappa in un progetto Workspace.
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 99%
+exl-id: a60544b4-27b6-413a-96ce-ab9487594422
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '623'
+ht-degree: 100%
 
 ---
-
 
 # Mappa
 
@@ -38,7 +38,7 @@ La visualizzazione mappa in Analysis Workspace:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Lat./Long. mobile</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione</span></span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
+   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione</span> </span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensione geografica</b> </p> </td> 
