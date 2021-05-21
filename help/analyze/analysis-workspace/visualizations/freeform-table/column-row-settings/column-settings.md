@@ -2,16 +2,16 @@
 description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: Freeform Tables
+feature: Tabelle a forma libera
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 99%
+exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Column Settings]
 
