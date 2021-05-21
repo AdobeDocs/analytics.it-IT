@@ -3,11 +3,10 @@ description: Come inviare ed eliminare le richieste di accesso ai dati in Adobe 
 title: Inviare richieste di accesso e cancellazione
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +20,7 @@ Se i tuoi clienti (consumatori/persone interessate) desiderano sapere quali dei 
 
 In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito delle persone interessate prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di rinuncia](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito web. Questo consentirà alle persone interessate di negare future raccolte di dati di Adobe Experience Cloud.
 
-## Convalidare gli utenti e i relativi dati  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Convalidare gli utenti e i relativi dati {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 In qualità di titolare del trattamento dei dati, rientra nelle tue responsabilità verificare l’identità della persona interessata e il suo diritto a ricevere i dati che richiede. Inoltre rientra tra le tue responsabilità accertarsi che alla persona interessata siano restituiti i dati corretti e che non riceva inavvertitamente i dati di un’altra persona interessata.
 
@@ -29,7 +28,7 @@ Questo prevede il controllo dei dati restituiti da Adobe Analytics, come parte d
 
 Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. Puoi decidere quali di questi file restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
 
-## Inviare le richieste  {#submit-requests}
+## Inviare le richieste {#submit-requests}
 
 Puoi inviare l’accesso alla Privacy dei dati e cancellare le richieste tramite il nostro [portale Interfaccia utente Privacy dei dati](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o tramite la nostra [API Privacy dei dati.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -112,7 +111,7 @@ Nota bene
 * I campi “description” vengono ignorati.
 * I campi “key” possono contenere qualsiasi valore desiderato. Se disponi di un ID interno che usi per monitorare le richieste di Privacy dei dati, puoi inserirne il valore qui, per facilitare la corrispondenza tra le richieste nel sistema di Adobe e quelle nei tuoi sistemi.
 
-## Dettagli sulle risposte  {#section_93F554F65DBB48A18B75EB5784056C96}
+## Dettagli sulle risposte {#section_93F554F65DBB48A18B75EB5784056C96}
 
 Questa sezione contiene i dettagli sulle risposte in merito a richieste di accesso ed eliminazione.
 
