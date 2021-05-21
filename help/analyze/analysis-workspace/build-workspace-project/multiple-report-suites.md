@@ -1,16 +1,16 @@
 ---
 title: Suite di rapporti multiple
 description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '522'
+exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
-
 
 # Suite di rapporti multiple
 
