@@ -3,31 +3,30 @@ title: Guida utente di Labs
 description: Anteprima di progetti prototipo per Adobe Analytics
 feature: Labs
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 2%
+exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '415'
+ht-degree: 100%
 
 ---
 
-
-
 # [!UICONTROL Labs] Guida utente
 
-[!UICONTROL Labs] consente di realizzare prototipi più veloci di idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di interagire con le tecnologie emergenti, di scoprire informazioni importanti e di influenzare lo sviluppo e le priorità future delle funzioni. Puoi utilizzare Labs per accedere in anteprima alle innovazioni Adobe Analytics e per valutare le prossime funzionalità nel contesto dei tuoi casi d’uso aziendali e dei tuoi dati.
+[!UICONTROL Labs] consente di realizzare prototipi più veloci per le idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di avvicinarsi alle tecnologie emergenti, scoprire informazioni importanti e influenzare le priorità e lo sviluppo delle funzioni future. Puoi utilizzare Labs per accedere in anteprima alle innovazioni Adobe Analytics e per valutare le prossime funzionalità nel contesto dei tuoi casi d’uso aziendali e dei tuoi dati.
 
 ## Requisiti
 
-[!UICONTROL Labs] viene abilitato automaticamente per tutti gli amministratori. Gli altri membri del team devono contattare gli amministratori dei prodotti e richiedere l’accesso.
+[!UICONTROL Labs] viene abilitato automaticamente per tutti gli amministratori. Gli altri membri del team possono richiederne l’accesso contattando gli amministratori del prodotto.
 
-Se non lo hai già fatto, leggi e firma i moduli del Contratto di non divulgazione e dei Termini e Condizioni applicabili.
+Se non lo hai già fatto, leggi e firma i moduli Contratto di non divulgazione e Termini e condizioni applicabili.
 
-## Accedere al portale [!UICONTROL Labs]
+## Accedi al portale [!UICONTROL Labs]
 
 Per accedere a [!UICONTROL Labs]:
 
-1. Se non disponi già dell&#39;accesso a [!UICONTROL Workspace] e [!UICONTROL Labs], chiedi all&#39;amministratore le autorizzazioni necessarie.
+1. Se non disponi ancora dell’accesso a [!UICONTROL Workspace] e [!UICONTROL Labs], chiedi all’amministratore le autorizzazioni necessarie.
 
 1. Fai clic sulla scheda **[!UICONTROL Labs]**.
 
@@ -35,39 +34,39 @@ Per accedere a [!UICONTROL Labs]:
 
 Per avviare e valutare un prototipo:
 
-1. Nella schermata [!UICONTROL Labs], fai clic su **[!UICONTROL Launch]** per il prototipo che desideri visualizzare. Quando il prototipo viene avviato, il suo nome verrà visualizzato in alto a sinistra nell&#39;ambiente del prototipo.
+1. Nella schermata [!UICONTROL Labs], fai clic su **[!UICONTROL Launch]** per il prototipo che desideri visualizzare. Quando il prototipo viene avviato, il suo nome verrà visualizzato in alto a sinistra nell’ambiente del prototipo.
 
    ![nome del prototipo](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Guarda un video che evidenzia il prototipo facendo clic su **[!UICONTROL Watch Video]** in alto a destra dello schermo. Al termine del video, fai clic su **[!UICONTROL Close]** .
+1. Per guardare un video che evidenzia il prototipo, fai clic su **[!UICONTROL Watch Video]** in alto a destra. Al termine del video, fai clic su **[!UICONTROL Close]**.
 
    ![opzioni anteprime](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. Lavora con il prototipo. Quando si lavora nell&#39;ambiente prototipo:
+1. Lavora con il prototipo. Quando si lavora nell’ambiente del prototipo:
 
-* Impossibile salvare o condividere i progetti creati nell&#39;ambiente prototipo.
+* I progetti creati nell’ambiente del prototipo non possono essere salvati né condivisi.
 
-* In un prototipo, puoi valutare i dati con qualsiasi dimensione, metrica, segmento e visualizzazione a cui hai altrimenti accesso in Workspace.
+* In un prototipo, puoi valutare i dati con qualsiasi dimensione, metrica, segmento e visualizzazione a cui hai normalmente accesso in Workspace.
 
-* Eventuali modifiche apportate all&#39;interno di un prototipo non influiranno sulla raccolta o sull&#39;elaborazione dei dati.
+* Eventuali modifiche apportate all’interno di un prototipo non influiranno sulla raccolta o sull’elaborazione dei dati.
 
 * Le modifiche apportate tramite la creazione o la modifica di segmenti, metriche calcolate e avvisi persistono al di fuori dell’ambiente del prototipo.
 
 ## Lasciare un feedback
 
-1. Fai clic su **[!UICONTROL Give Feedback]** per fornire un feedback nella finestra del messaggio in qualsiasi momento durante l&#39;utilizzo del prototipo.
+1. In qualsiasi momento durante l’utilizzo del prototipo, puoi fare clic su **[!UICONTROL Give Feedback]** per fornire un feedback nella finestra del messaggio.
 
-   ![feedback_box](assets/give_feedback.png)
+   ![finestra di feedback](assets/give_feedback.png)
 
 1. Fai clic su **[!UICONTROL Submit]** per inviare il tuo feedback.
 
-1. Per provare un prototipo diverso o per uscire dall&#39;ambiente del prototipo, fai clic su **[!UICONTROL Leave Prototype]** in alto a destra dello schermo e completa il breve sondaggio relativo al prototipo. Tutte le modifiche apportate a un progetto prototipo vengono perse all’uscita dall’ambiente del prototipo.
+1. Per provare un prototipo diverso o per uscire dall’ambiente del prototipo, fai clic su **[!UICONTROL Leave Prototype]** in alto a destra e completa il breve sondaggio relativo al prototipo. Tutte le modifiche apportate a un progetto prototipo vengono perse quando si esce dall’ambiente del prototipo.
 
-   ![nuovo feedback box](assets/short-survey.png)
+   ![nuova finestra feedback](assets/short-survey.png)
 
-1. Fai clic su **[!UICONTROL Submit]** per tornare al portale Anteprime principale.
+1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
 
 ## Informazioni aggiuntive
 
-* Alcuni prototipi all&#39;interno di [!UICONTROL Labs] diventano funzioni di Adobe Analytics, altri potrebbero non esserlo. Il tuo feedback guida la decisione, quindi rivedi i prototipi e fai sapere ad Adobe quanto li trovi preziosi.
+* Alcuni prototipi all’interno di [!UICONTROL Labs] diventano funzioni di Adobe Analytics, altri no. Il tuo feedback contribuisce al processo decisionale: ti invitiamo quindi a prendere visione dei prototipi e a far sapere ad Adobe se li trovi utili.
 * Labs è disponibile per tutte le adesioni SKU.
