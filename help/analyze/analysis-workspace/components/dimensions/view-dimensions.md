@@ -2,16 +2,16 @@
 description: Visualizza i valori principali di una dimensione prima di utilizzarla in un progetto.
 title: Anteprima dimensioni
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '191'
+exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
-
 
 # Anteprima dimensioni
 
