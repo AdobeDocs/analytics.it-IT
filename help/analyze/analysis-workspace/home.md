@@ -1,16 +1,16 @@
 ---
 title: Cos’è Analysis Workspace e come si utilizza?
 description: Analysis Workspace è il principale strumento di analisi per Adobe Analytics. Consente di utilizzare pannelli, tabelle, visualizzazioni e altri componenti per dare vita ai dati, curare un set di dati, condividere e pianificare i progetti, e offre numerose funzionalità.
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '563'
+exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '560'
 ht-degree: 100%
 
 ---
-
 
 # Panoramica di Analysis Workspace
 
