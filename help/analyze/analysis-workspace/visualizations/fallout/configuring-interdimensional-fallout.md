@@ -2,16 +2,16 @@
 description: La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
 title: Abbandono interdimensionale
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualizations
+feature: Visualizzazioni
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 98%
+exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
-
 
 # Abbandono interdimensionale
 
@@ -30,4 +30,3 @@ Puoi anche aggiungere delle metriche. In questo esempio, abbiamo aggiunto la met
 Inoltre, puoi combinare dimensioni e metriche diverse in punti di contatto di tipo AND. È sufficiente trascinare un’altra dimensione o metrica su una esistente:
 
 ![](assets/interdimensional-fallout3.png)
-
