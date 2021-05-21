@@ -1,16 +1,16 @@
 ---
 title: Modelli di attribuzione e intervalli di lookback
-description: Modalità di suddivisione del credito tra diversi tipi di attribuzione tra elementi dimensionali.
+description: Modalità di divisione del credito tra i vari elementi dimensionali tramite diversi tipi di attribuzione.
 feature: Attribution
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 94%
+exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1485'
+ht-degree: 100%
 
 ---
-
 
 # Modelli di attribuzione e intervalli di lookback
 
@@ -31,8 +31,8 @@ Il concetto di attribuzione in Adobe Analytics richiede due componenti:
 | ![A forma di J](assets/j_shaped.png) | A forma di J | Attribuisce il 60% di credito all’ultima interazione, il 20% di credito alla prima interazione e divide il restante 20% in qualsiasi punto di contatto intermedio. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le conversioni con due punti di contatto, viene assegnato il 75% di credito all’ultima interazione e il 25% di credito alla prima. | Si tratta di un modello ideale per dare priorità a ricerche e chiusure, pur concentrandosi sulla chiusura delle interazioni. L’attribuzione a forma di J viene spesso utilizzata dai team che adottano un approccio più bilanciato e desiderano dare più valore ai canali da cui è stata conclusa una conversione. |
 | ![A forma di J inversa](assets/inverse_j.png) | J inversa | Attribuisce un credito del 60% al primo punto di contatto, un credito del 20% all’ultimo punto di contatto e divide il restante 20% in qualsiasi punto di contatto intermedio. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le conversioni con due punti di contatto, viene assegnato il 75% di credito alla prima interazione e il 25% di credito all’ultima. | Si tratta di un modello ideale per dare priorità a ricerche e chiusure, pur concentrandosi sulla ricerca delle interazioni. L’attribuzione a J inversa è spesso utilizzata dai team che adottano un approccio più bilanciato e desiderano dare più valore ai canali di origine della conversione. |
 | ![Personalizzato](assets/custom.png) | Personalizzato | Consente di specificare i valori da assegnare ai punti di contatto, agli ultimi punti di contatto e a eventuali punti di contatto intermedi. I valori specificati vengono normalizzati al 100% anche se la somma dei numeri personalizzati immessi è inferiore a 100. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le interazioni con due punti di contatto, il parametro intermedio viene ignorato. Il primo e l’ultimo punto di contatto vengono quindi normalizzati al 100% e il credito viene assegnato di conseguenza. | Si tratta di un modello perfetto per avere pieno controllo sul proprio modello di attribuzione e rispondere a esigenze specifiche che altri modelli di attribuzione non soddisfano. |
-| ![Decadimento nel tempo](assets/time_decay.png) | Decadimento nel tempo | Segue un decadimento esponenziale con un parametro di emivita personalizzato, dove il valore predefinito è 7 giorni. Il valore di ciascun canale dipende dalla quantità di tempo trascorsa tra l’avvio del punto di contatto e l’eventuale conversione. La formula utilizzata per determinare il credito è `2^(-t/halflife)`, dove `t` è il tempo tra un punto di contatto e una conversione. Tutti i punti di contatto vengono quindi normalizzati al 100%. | Ideale per i team che eseguono regolarmente campagne pubblicitarie video o che commercializzano eventi con una data predeterminata. Più una conversione si verifica dopo un evento di marketing, meno credito viene assegnato. |
-| ![Partecipazione](assets/participation.png) | Partecipazione | Assegna il 100% di credito a tutti i punti di contatto univoci. Il numero totale di conversioni è aumentato rispetto ad altri modelli di attribuzione. La partecipazione deduplica i canali visualizzati più volte. | Eccellente per comprendere la frequenza con cui i clienti sono esposti a una determinata interazione. Le società di comunicazioni utilizzano spesso questo modello per calcolare la velocità del contenuto. Le società di commercio al dettaglio usano spesso questo modello per capire quali sono le parti del sito che sono fondamentali per la conversione. |
+| ![Decadimento nel tempo](assets/time_decay.png) | Decadimento nel tempo | Segue un decadimento esponenziale con un parametro di mezza durata personalizzato, dove il valore predefinito è 7 giorni. Il valore di ciascun canale dipende dalla quantità di tempo trascorsa tra l’avvio del punto di contatto e l’eventuale conversione. La formula utilizzata per determinare il credito è `2^(-t/halflife)`, dove `t` è il tempo tra un punto di contatto e una conversione. Tutti i punti di contatto vengono quindi normalizzati al 100%. | Si tratta di un modello ideale per i team che eseguono regolarmente campagne pubblicitarie video o che agiscono in base a eventi con una data prestabilita. Più una conversione si verifica dopo un evento di marketing, meno credito viene assegnato. |
+| ![Partecipazione](assets/participation.png) | Partecipazione | Assegna il 100% di credito a tutti i punti di contatto univoci. Il numero totale di conversioni è aumentato rispetto ad altri modelli di attribuzione. La partecipazione deduplica i canali visualizzati più volte. | Si tratta di un modello molto utile per comprendere con quale frequenza i clienti vengono esposti a una determinata interazione. Le società di comunicazioni utilizzano spesso questo modello per calcolare la velocità del contenuto. Le società di commercio al dettaglio usano spesso questo modello per capire quali sono le parti del sito che sono fondamentali per la conversione. |
 | ![Algoritmica](assets/algorithmic.png) | [Algoritmica](algorithmic.md) | Utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. | Utile per evitare supposizioni o euristiche al momento della scelta del modello di attribuzione corretto per la propria attività. |
 
 ## Intervalli di lookback
@@ -43,7 +43,7 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback su visitatore considera tutti i valori dall’inizio del mese dell’intervallo di date del rapporto. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
-* **Intervallo di lookback personalizzato:** ti consente di espandere l’intervallo di attribuzione oltre l’intervallo di date del rapporto, fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 al 20 febbraio nel modello di attribuzione.
+* **Intervallo di lookback personalizzato:** consente di estendere la finestra di attribuzione oltre l’intervallo di date del rapporto, fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 al 20 febbraio nel modello di attribuzione.
 
 ## Esempio
 
