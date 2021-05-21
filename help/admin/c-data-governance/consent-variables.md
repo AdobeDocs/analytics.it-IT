@@ -1,13 +1,12 @@
 ---
 description: Variabili per la generazione di rapporti sulla privacy in Privacy dei dati.
 title: Variabili per la generazione di rapporti sulla privacy
-feature: Admin Tools
+feature: Strumenti di amministrazione
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
