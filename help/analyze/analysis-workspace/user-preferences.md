@@ -1,20 +1,19 @@
 ---
 title: Come impostare le preferenze utente in Analysis Workspace
 description: Puoi impostare le preferenze generali e di progetto per gli utenti.
-feature: Workspace Basics
+feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-translation-type: tm+mt
 source-git-commit: bfbeac56917f4ff6b907c44f083638ee1e93c17e
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Preferenze utente
 
-La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni di Analysis Workspace e dei relativi componenti a livello di utente. Le preferenze utente si applicano a tutti ** i nuovi progetti o pannelli.
+La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni di Analysis Workspace e dei relativi componenti a livello di utente. Le preferenze utente si applicano a tutti i *nuovi* progetti o pannelli.
 
 ![Preferenze utente](assets/user-preferences.png)
 
@@ -29,7 +28,7 @@ Le preferenze generali si applicano all’esperienza Adobe Analytics nel browser
 
 ## Preferenze per i progetti
 
-Le preferenze per i progetti sono applicabili ai nuovi progetti e pannelli creati in Analysis Workspace. Alcune preferenze possono essere gestite anche in base al progetto in [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project info & settings].
+Le preferenze per i progetti sono applicabili ai nuovi progetti e pannelli creati in Analysis Workspace. Alcune preferenze possono essere gestite anche per singoli progetti in [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project info & settings].
 
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
@@ -41,4 +40,4 @@ Le preferenze per i progetti sono applicabili ai nuovi progetti e pannelli creat
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#calendar) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Intervalli definiti personalizzati</li></ul> |
 |  | [Tipo di pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
 |  | Formato dei numeri | <ul><li>1.000,00 (impsotazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | Separatore CSV carattere | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
+|  | Separatore CSV   | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
