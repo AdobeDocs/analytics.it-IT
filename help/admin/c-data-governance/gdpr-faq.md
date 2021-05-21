@@ -2,14 +2,14 @@
 description: Domande frequenti sulla governance dei dati in Adobe Analytics
 title: Domande frequenti
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
+exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1806'
 ht-degree: 100%
 
 ---
-
 
 # Domande frequenti
 
