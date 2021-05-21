@@ -2,11 +2,10 @@
 description: Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizione di ogni concetto e un collegamento specifico alla documentazione con informazioni aggiuntive sull'argomento.
 title: 'Adobe Analytics: concetti chiave'
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,8 +17,8 @@ Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizio
 
 | Prodotto | Descrizione | Collegamento alla documentazione |
 | --- | --- | --- |
-| Analysis Workspace | Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità rispetto a Reports and Analytics. | [Pagina principale di Analysis Workspace](/help/analyze/analysis-workspace/home.md) |
-| Reports and Analytics (precedentemente SiteCatalyst) | Soluzione browser per la generazione di rapporti e analisi. Strumento di avvio nel pacchetto Analytics. | [Pagina principale di Reports and Analytics](/help/analyze/reports-analytics/getting-started.md) |
+| Analysis Workspace | Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità rispetto a Reports &amp; Analytics. | [Pagina principale di Analysis Workspace](/help/analyze/analysis-workspace/home.md) |
+| Reports &amp; Analytics (precedentemente SiteCatalyst) | Soluzione browser per la generazione di rapporti e analisi. Strumento di avvio nel pacchetto Analytics. | [Pagina principale di Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Componente aggiuntivo per Excel che consente di creare richieste personalizzate a partire da dati di Adobe Analytics e di visualizzarle con Microsoft Excel. | [Pagina principale di Report Builder](/help/analyze/report-builder/home.md) |
 | Data Workbench (precedentemente Insight) | Progettato per raccogliere, elaborare, analizzare e visualizzare dati dalle interazioni dei clienti online e offline su più canali. | [Client Data Workbench](https://docs.adobe.com/content/help/it-IT/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | Dati grezzi e non ancora elaborati per l’archiviazione e rapporti personalizzati, che puoi eseguire filtrando i dati. Non a livello hit. | [Pagina principale di Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
@@ -56,7 +55,7 @@ Fai clic [qui](/help/technotes/terms.md) per un glossario esteso dei termini di 
 | Rilevamento delle anomalie | Un metodo statistico per determinare come una particolare metrica è cambiata in relazione ai dati precedenti. Per impostazione predefinita, AD è attivato per tutte le visualizzazioni con tendenze in Analysis Workspace. | [Rilevamento delle anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | Analisi contributi | Esplora il motivo alla base delle anomalie che si verificano, eseguendo un&#39;analisi automatizzata di ogni singola metrica e dimensione a cui hai accesso. | [Analisi contributi](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
 | Analisi per coorte | Una coorte è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. L’analisi per coorte consente di analizzare la conservazione e l&#39;abbandono degli utenti. | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |
-| Rapporti sul percorso del cliente | Visualizza informazioni sul percorso seguito dagli utenti attraverso il sito o l&#39;app. In questa analisi di Analysis Workspace è possibile utilizzare Proprietà, eVar ed eventi. | [Abbandono in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Flusso in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Percorsi per Reports and Analytics](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+| Rapporti sul percorso del cliente | Visualizza informazioni sul percorso seguito dagli utenti attraverso il sito o l&#39;app. In questa analisi di Analysis Workspace è possibile utilizzare Proprietà, eVar ed eventi. | [Abbandono in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Flusso in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Percorsi per Reports &amp; Analytics](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Canali marketing | Report che ti aiuta a capire quali canali esterni veicolano gli utenti sul tuo sito e quali sono più efficaci nel promuovere la conversione. Vengono fornite le viste di attribuzione Primo e Ultimo tocco. Si tratta del miglior report sulle origini del traffico esterno in Adobe Analytics (piuttosto che Origini traffico o Campagne) in quanto consente di avere la visione più completa sia dei canali organici che pagati. | [Canali marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Visualizza informazioni sui siti Web visitati da dispositivi mobili o tablet. | [Rapporti sui dispositivi mobili](/help/components/dimensions/mobile-dimensions.md) |
 | App mobile | Visualizza informazioni d&#39;utilizzo base correlate alle tue app mobili. Questi report sono disponibili una volta che la nostra SDK viene implementata e il reporting è attivo.  Adobe Mobile Services ha inoltre creato un&#39;interfaccia per l&#39;app mobile separata in grado di fornire dati sull&#39;app più completi, consentendoti di comprendere e migliorare il coinvolgimento dell&#39;utente nei confronti delle tue app.  Accedi all&#39;interfaccia [qui](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
