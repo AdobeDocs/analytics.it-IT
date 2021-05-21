@@ -2,16 +2,16 @@
 description: È possibile visualizzare le anomalie sotto forma di tabella o grafico a linee.
 title: Visualizzare le anomalie in Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI Tools
+feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 97%
+exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '242'
+ht-degree: 100%
 
 ---
-
 
 # Visualizzare le anomalie in Analysis Workspace
 
@@ -45,4 +45,3 @@ L’intervallo di attendibilità per il rilevamento delle anomalie non ridimensi
 Un’opzione consente all’intervallo di attendibilità di ridimensionare il grafico. Fai clic sull’icona Impostazioni (ingranaggio) e seleziona **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]** (Consenti al rilevamento anomalie di ridimensionare l’asse Y).
 
 ![](assets/scale-y-axis.png)
-
