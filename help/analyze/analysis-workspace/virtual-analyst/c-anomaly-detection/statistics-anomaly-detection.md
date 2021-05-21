@@ -1,16 +1,16 @@
 ---
 description: Le incoerenze nei dati possono causare grossi problemi. Scopri come identificare le anomalie statistiche con le tecniche di rilevamento delle anomalie Adobe. Inizia oggi.
 title: Tecniche di statistica utilizzate nel rilevamento delle anomalie
-feature: AI Tools
+feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 99%
+exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '794'
+ht-degree: 100%
 
 ---
-
 
 # Tecniche di statistica utilizzate nel rilevamento delle anomalie
 
