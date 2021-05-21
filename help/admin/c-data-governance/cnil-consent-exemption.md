@@ -2,11 +2,10 @@
 description: Scopri le linee guida e le raccomandazioni per il consenso degli utenti a memorizzare o leggere cookie non essenziali su dispositivi o browser.
 title: Quali sono le linee guida CNIL per il consenso degli utenti e i cookie
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-translation-type: tm+mt
 source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +20,7 @@ Le Linee guida prevedono un’esenzione limitata dall’obbligo del consenso (�
 * Limite di 13 mesi per i cookie.   Puoi modificare la scadenza dei cookie di analisi utilizzando la variabile `cookieLifetime`.  I cookie di Experience Cloud, tra cui Analytics ed ECID, estendono la data di scadenza del cookie a ogni visita.  Per impostare una scadenza dei cookie statica e non continua, puoi: (1) scrivi un codice personalizzato per impostare una data in cui eliminare il cookie, oppure (2) utilizza la tua CMP per controllare la data della reimpostazione del cookie.   [](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=it) cookieLifetimee cookie di  [Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=en#ec-cookies)
 * Ambito limitato. L’ambito del cookie deve essere limitato a un solo sito o applicazione. [Cookie del browser](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=it&quot;\l&quot;third-party-cookie-implementations)
 * Anonimizzazione. Anonimizza l’ultimo ottetto dell’indirizzo IP. [Impostazioni account generali](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=it)
-* Nascondi l’ID visitatore dal reporting.   Per impostazione predefinita, gli ID visitatore non sono visibili in Adobe Workspace e Adobe Reports and Analytics.   Gli ID visitatore sono disponibili in Data Feeds e Data Warehouse.   L’accesso a Data Feeds e Data Warehouse può essere limitato da [Autorizzazioni di accesso in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391) e [Riferimento sulla colonna Feed dei dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it#columns%2C-descriptions%2C-and-data-types)
+* Nascondi l’ID visitatore dal reporting.   Per impostazione predefinita, gli ID visitatore non sono visibili in Adobe Workspace e Adobe Reports &amp; Analytics.   Gli ID visitatore sono disponibili in Data Feeds e Data Warehouse.   L’accesso a Data Feeds e Data Warehouse può essere limitato da [Autorizzazioni di accesso in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391) e [Riferimento sulla colonna Feed dei dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it#columns%2C-descriptions%2C-and-data-types)
 * Parametri di geolocalizzazione. La geolocalizzazione non può essere più precisa del livello del codice postale. [Opzioni Zip](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=it&quot;\l&quot;zip-in-adobe-experience-platform-launch) e [Impostazioni account generali](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=it&quot;\l&quot;admin-tools)
 * Imposta le opzioni opt-in.   Il servizio Opt-in consente di configurare i protocolli visitatore per identificare se è possibile impostare un cookie sul dispositivo o sul browser dell’utente che visita il tuo sito. [Servizio Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it)
 * Impedisci la condivisione dei dati.   Per impedire la condivisione dei dati su Adobe Audience Manager, utilizza la variabile di contesto `opt.dmp` per [Privacy Reporting](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=it&quot;\l&quot;variables) per bloccare la condivisione degli hit.
