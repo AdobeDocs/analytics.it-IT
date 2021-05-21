@@ -2,16 +2,16 @@
 title: Panoramica del segmento IQ
 description: Scopri le funzionalità del segmento IQ di Adobe Analytics e in che modo può essere utile per la tua organizzazione.
 keywords: Analysis Workspace, segmento IQ
-feature: AI Tools
+feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 96%
+exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '159'
+ht-degree: 100%
 
 ---
-
 
 # Panoramica del segmento IQ
 
