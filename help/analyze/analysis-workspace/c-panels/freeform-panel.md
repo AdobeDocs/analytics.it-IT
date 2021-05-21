@@ -1,20 +1,19 @@
 ---
 description: Scopri i pannelli a forma libera
 title: Pannello a forma libera
-feature: Panels
+feature: Pannelli
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 89%
+exl-id: 20354931-29a6-4180-b24a-73da24b40061
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '25'
+ht-degree: 100%
 
 ---
-
 
 # Pannello a forma libera
 
 I pannelli a forma libera sono pannelli vuoti con una tabella a forma libera inclusa come stato iniziale.
 
 ![](assets/freeform-panel.png)
-
