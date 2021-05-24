@@ -5,11 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualizzazioni
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +52,7 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Percorso finale </p> <p>(impostazione predefinita) </p> </td> 
-   <td colname="col2"> <p>Conteggia i visitatori che accederanno alla pagina successiva del percorso, ma non necessariamente all’hit successivo. </p> </td> 
+   <td colname="col2"> <p>Vengono conteggiati i visitatori che arrivano "alla fine" sulla pagina successiva nel percorso di quella sessione, ma non necessariamente sull’hit successivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hit successivo </p> </td> 
