@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Utilizza feed di dati per ricevere un’esportazione oraria o giornaliera di dati non elaborati. Utilizza Data Warehouse per recuperare un output di dati in un foglio di calcolo.
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +26,7 @@ ht-degree: 100%
       + [Riferimento colonna dati](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Ricerca eventi pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Ricerca attributi mobile](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Ricerca di istanze eVar Merchandising in post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caratteri speciali](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Domande frequenti sui feed dati](analytics-data-feed/df-faq.md)
