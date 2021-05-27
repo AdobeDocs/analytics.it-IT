@@ -1,21 +1,30 @@
 ---
-description: 'Di seguito sono riportate alcune best practice per l''elaborazione e la distribuzione dei feed di dati. Dovrebbe '
-keywords: Data Feed;best practices;traffic spike;hourly;ftp
+description: Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione dei feed di dati.
+keywords: Feed di dati;best practice;picco di traffico;ogni ora;ftp
 title: Procedure consigliate e informazioni generali
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
+source-git-commit: 8f6c6aabf1e41cfd4b143a5d4cf14e73cdcbb603
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 2%
 
 ---
 
-
 # Best practice
 
-Di seguito sono riportate alcune best practice per l&#39;elaborazione e la distribuzione dei feed di dati.
+Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione dei feed di dati.
 
-* Assicurati di comunicare anticipatamente eventuali picchi di traffico previsti. La latenza influisce direttamente sul tempo di elaborazione dei feed di dati. Consultate [Pianificare un picco](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) di traffico nella guida utente di amministrazione.
-* I feed di dati non contengono un contratto a livello di servizio, a meno che non sia espressamente indicato nel contratto con Adobe. I feed vengono in genere consegnati entro diverse ore dal passaggio della finestra di rapporto, ma occasionalmente possono richiedere fino a 12 ore o più.
-* Assicurati di avere ampio spazio sul tuo sito FTP. Rimuovere regolarmente i file dalla destinazione in modo da non esaurire inavvertitamente lo spazio su disco.
-* I feed orari utilizzano il processo di consegna di più file più veloce. Considerate l&#39;utilizzo di feed di file multipli orari se la consegna tempestiva è una priorità elevata per l&#39;organizzazione.
-* Se utilizzate sFTP, non leggete o eliminate i file con un `.part` suffisso. Il `.part` suffisso indica che il file è stato parzialmente trasferito. Una volta trasferito il file, il `.part` suffisso scompare.
-* Se automatizzate il processo di assimilazione dei feed, prendete in considerazione la possibilità che un file possa essere trasferito più volte. I file duplicati possono essere inviati dall&#39;utente o raramente da Adobe.
+* Assicurati di comunicare anticipatamente eventuali picchi di traffico previsti. La latenza influisce direttamente sul tempo di elaborazione dei feed di dati. Consulta [Pianificare un picco di traffico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente Admin.
+
+* I feed di dati non contengono un accordo a livello di servizio, a meno che non sia esplicitamente indicato nel contratto con l’Adobe. In genere i feed vengono consegnati entro diverse ore dal passaggio dell’intervallo di reporting, ma occasionalmente possono richiedere fino a 12 ore o più.
+
+* Assicurati di avere ampio spazio sul tuo sito FTP. Rimuovi regolarmente i file dalla destinazione in modo da non esaurire inavvertitamente lo spazio su disco.
+
+* I feed orari utilizzano il processo di consegna di più file più veloce. Considera l’utilizzo di più feed di file orari se una consegna tempestiva è una priorità elevata per la tua organizzazione.
+
+* Se utilizzi sFTP, non leggere o eliminare file con un suffisso `.part` . Il suffisso `.part` indica che il file è parzialmente trasferito. Una volta trasferito il file, il suffisso `.part` scompare.
+
+* Se automatizza il processo di inserimento dei feed, considera la possibilità che gli hit e i file possano essere trasferiti più di una volta. Il processo di acquisizione dei feed deve gestire hit duplicati e file duplicati senza errori o duplicazioni dei dati. È consigliabile utilizzare la combinazione delle colonne `hitid_high` e `hitid_low` per identificare in modo univoco un hit.
+
+   In rari casi, è possibile che siano presenti valori duplicati `hitid_high` e `hitid_low`. In questo caso, conferma che il file non è stato inviato ed elaborato in precedenza. Se solo alcune righe di un file sono duplicate, è consigliabile aggiungere `visit_num` e visit_page_num` per determinare l’univocità.
