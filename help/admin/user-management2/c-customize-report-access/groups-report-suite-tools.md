@@ -6,10 +6,10 @@ title: Personalizzare le autorizzazioni degli strumenti delle suite di rapporti
 feature: Strumenti di amministrazione
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 15%
+source-wordcount: '1121'
+ht-degree: 9%
 
 ---
 
@@ -45,26 +45,26 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | [Riepilogo account](/help/admin/admin/general-acct-settings-admin.md) | Consente di modificare le impostazioni account per una suite di rapporti. |
 | [Filtri URL](/help/admin/admin/internal-url-filter-admin.md) | Concede l’autorizzazione a Filtri URL interni nelle suite di rapporti. I filtri URL interni vengono utilizzati per determinare quali riferimenti, o pagine di riferimento, sono interni al sito. |
 | [Calendario personalizzato](/help/admin/admin/custom-calendar.md) | Consente di modificare il calendario personalizzato. |
-| [Ricerca a pagamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | La funzione Rilevamento ricerca a pagamento differenzia le ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. |
+| [Ricerca a pagamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | La funzione Rilevamento ricerca a pagamento differenzia le ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. |
 | [Personalizzazione del menu](/help/admin/admin/customize-menus.md) | Personalizzare i menu dei rapporti visualizzati da un utente in Reports &amp; Analytics. |
 | [Configurazione rapporti in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md) | Autorizzazioni per configurare report in tempo reale Analytics. |
 | [Impostazioni video](/help/admin/admin/video-management.md) | Autorizzazioni per designare un set di variabili di conversione personalizzate (eVar) ed eventi personalizzati da utilizzare nel tracciamento e nel reporting sui video. |
-| [Classificazioni video](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html) | Autorizzazione a designare un set di Variabili di conversione personalizzate (eVar) ed Eventi personalizzati da utilizzare nel tracciamento e nel reporting sui video. |
+| [Classificazioni video](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) | Autorizzazione a designare un set di Variabili di conversione personalizzate (eVar) ed Eventi personalizzati da utilizzare nel tracciamento e nel reporting sui video. |
 | [Variabili di traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) | Autorizzazione per correlare dati personalizzati con eventi specifici relativi al traffico. |
 | [Classificazioni traffico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | Consolidato in Classificazioni (in Strumenti e Rapporti). |
 | [Canali](/help/components/c-marketing-channels/analyze-mc.md) | Consente l&#39;autorizzazione alle impostazioni del canale di marketing in Report Suite Manager > Edit Settings (Modifica impostazioni) > Marketing Channels (Canali di marketing). |
-| [Costi](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/analyze-mc.html) | Consente l&#39;autorizzazione a Marketing Channels (Canali di marketing) > Marketing Channel Cost (Costi canale di marketing) nel Report Suite Manager (Gestore suite di rapporti). |
+| [Costi](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) | Consente l&#39;autorizzazione a Marketing Channels (Canali di marketing) > Marketing Channel Cost (Costi canale di marketing) nel Report Suite Manager (Gestore suite di rapporti). |
 | [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | La variabile di conversione Custom Insight (o eVar) viene inserita nel codice di Adobe nelle pagine Web selezionate del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei rapporti di marketing personalizzati. |
 | [Metodi di ricerca](/help/admin/admin/finding-methods.md) | Consente di identificare in che modo i rapporti sui vari metodi di ricerca ricevono credito per gli eventi di successo della conversione sul sito. |
 | [Classificazioni di conversione](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Consolidato in Classificazioni (in Strumenti e Rapporti). |
-| [Visitatore univoco](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Consente di specificare la variabile Visitatore univoco. |
-| [Eventi di successo](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | Azioni che possono essere tracciate, ad esempio visualizzazione del prodotto, pagamento e acquisto. |
+| [Visitatore univoco](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Consente di specificare la variabile Visitatore univoco. |
+| [Eventi di successo](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) | Azioni che possono essere tracciate, ad esempio visualizzazione del prodotto, pagamento e acquisto. |
 | [Gerarchie di classificazione](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Consolidato in Classificazioni (in Strumenti e Rapporti). |
-| [Variabili elenco](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html) | Noto anche come Var elenco . Analogamente alla funzione Proprietà elenco, le Var elenco consentono più valori all’interno della stessa richiesta di immagine. |
+| [Variabili elenco](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) | Noto anche come Var elenco . Analogamente alla funzione Proprietà elenco, le Var elenco consentono più valori all’interno della stessa richiesta di immagine. |
 | [Metriche predefinite](/help/admin/admin/default-metrics.md) | Reports &amp; Analytics visualizza un set predefinito di metriche in tutti i rapporti di conversione, a meno che un utente non selezioni un set personalizzato di metriche. Le metriche selezionate vengono visualizzate per tutti gli utenti della suite di rapporti associata. |
-| [Regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Consente l’accesso alle Regole di elaborazione, che semplificano la raccolta dei dati e gestiscono il contenuto mentre viene inviato ai rapporti. |
+| [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Consente l’accesso alle Regole di elaborazione, che semplificano la raccolta dei dati e gestiscono il contenuto mentre viene inviato ai rapporti. |
 | **Strumenti e rapporti** |  |
-| [Rilevamento delle anomalie](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede l’autorizzazione a Rilevamento anomalie, che fornisce un metodo statistico per determinare la variazione di una data metrica rispetto ai dati precedenti. |
+| [Rilevamento delle anomalie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede l’autorizzazione a Rilevamento anomalie, che fornisce un metodo statistico per determinare la variazione di una data metrica rispetto ai dati precedenti. |
 | [Rapporto canale](/help/components/c-marketing-channels/analyze-mc.md) | Concede l&#39;autorizzazione ai rapporti sul canale di marketing, disponibili in Report > Rapporti sul canale di marketing. |
 | [Rapporto in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md) | Consente l&#39;accesso al report in tempo reale. |
 | [Pagine bot](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Le pagine dei bot sono per report specifici di Reports &amp; Analytics e non per la gestione delle regole dei bot. Al momento, non è disponibile alcuna autorizzazione per consentire la modifica delle regole bot.** Le regole bot consentono di rimuovere dalla suite di rapporti il traffico generato da spider e bot noti. La rimozione del traffico da bot può fornire una misurazione più precisa dell’attività degli utenti sul sito web. |
@@ -76,11 +76,11 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | ClickMap legacy | Consente di accedere al menu per lo strumento di sovrapposizione ClickMap legacy. |
 | Installazione legacy di ClickMap | Concede i diritti di installazione allo strumento ClickMap legacy. |
 | Visite di ritorno | Un rapporto che mostra il numero di visite in cui il numero di visite è maggiore di 1. Il rapporto Visite di ritorno include i visitatori non cookie. |
-| [Importazione](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/classifications-importer/c-working-with-saint.html) /esportazione classificazioni e Generatore di  [regole](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidato in classificazioni (vedi di seguito). |
+| [Importazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) /esportazione classificazioni e Generatore di  [regole](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidato in classificazioni (vedi di seguito). |
 | Gestione feed dati | Concede i diritti al feed di dati di Analytics. |
 | Classificazioni | Combina le seguenti autorizzazioni: &quot;Classificazioni traffico&quot;, &quot;Classificazioni video&quot;, &quot;Classificazioni conversione&quot;, &quot;Gerarchie di classificazione&quot;, &quot;Gestione classificazioni&quot; e &quot;Importazione/esportazione classificazioni e generatore di regole&quot;.  Nota:  Con questa autorizzazione, gli utenti modificano le classificazioni per tutte le suite di rapporti, non solo per quelle selezionate. |
-| [Analisi contributi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede i diritti per l’utilizzo di Analisi contributi in Analysis Workspace. |
+| [Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede i diritti per l’utilizzo di Analisi contributi in Analysis Workspace. |
 | **Elementi del dashboard** |  |
-| Le impostazioni in Elementi dashboard consentono l&#39;accesso ai [minirapporti](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) in Reports &amp; Analytics:, I miei report consigliati, Report di riepilogo della società, Immagine, KPI/Reportlet di analisi, Totali delle suite di rapporti, Testo, Reportlet, Report di riepilogo dell&#39;utilizzo e risorse Web |  |
+| Le impostazioni in Elementi dashboard consentono l&#39;accesso ai [minirapporti](https://experienceleague.adobe.com/docs/analytics/admin/server-call-usage/server-call-usage-dashboard.html) in Reports &amp; Analytics:, I miei report consigliati, Report di riepilogo della società, Immagine, KPI/Reportlet di analisi, Totali delle suite di rapporti, Testo, Reportlet, Report di riepilogo dell&#39;utilizzo e risorse Web |  |
 | **Altre** |  |
 | Social | Controlla l&#39;accesso al menu Gestione social in Report Suite Manager. |
