@@ -3,10 +3,9 @@ description: Origini dati supporta le variabili seguenti durante l'elaborazione 
 title: Elaborazione completa
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '719'
 ht-degree: 80%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Adobe consiglia ai clienti di utilizzare l’ [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati a elaborazione completa. Adobe prevede di rendere obsolete le origini dati per l’elaborazione completa il 31 luglio 2021. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe consiglia ai clienti di utilizzare l’ [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati a elaborazione completa. Adobe prevede di rendere obsolete le origini dati con elaborazione completa il 31 luglio 2021. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Origini dati supporta le variabili seguenti durante l&#39;elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 
@@ -69,7 +68,7 @@ Ad esempio, un utente con un ID visitatore `"user@example.com"` visita il sito d
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Ad esempio: </p> 
+   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Ad esempio: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -172,7 +171,7 @@ La tabella seguente contiene le variabili di traffico inserite automaticamente q
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. </p> <p>Consulta il white paper <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Set di caratteri multibyte</a> (Internazionalizzazione) per un elenco completo. </p> </td> 
+   <td colname="col2"> <p>Set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. </p> <p>Consulta il white paper <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Set di caratteri multibyte</a> (Internazionalizzazione) per un elenco completo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
