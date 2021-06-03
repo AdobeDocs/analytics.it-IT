@@ -2,14 +2,13 @@
 title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 96%
+source-wordcount: '2128'
+ht-degree: 95%
 
 ---
-
 
 # Note sulla versione di AppMeasurement per JavaScript
 
@@ -23,19 +22,19 @@ Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/hel
 
 Data di rilascio: **4 agosto 2020**
 
-* Correzione per referente mancante quando il primo hit non veniva inviato a causa delle preferenze di rifiuto dell’utente.
+* Correzione del referente mancante quando il primo hit non è stato inviato a causa delle preferenze di rinuncia dell&#39;utente.
 
 ## Versione 2.21.0
 
 Data di rilascio: **24 giugno 2020**
 
-* È stato risolto un problema a causa del quale il filtro  Activity Map linkExclusions non veniva sempre applicato a Firefox.
+* È stato risolto un problema a causa del quale il filtro linkExclusions di Activity Map non veniva sempre applicato a Firefox.
 
 ## Versione 2.20.0
 
 Data di rilascio: **5 marzo 2020**
 
-* È stato risolto un problema di sicurezza aggiornando il rilevamento di Internet Explorer per eliminare l&#39;avviso JSLint.
+* È stato risolto un problema relativo alla sicurezza aggiornando il rilevamento di Internet Explorer per eliminare l’avviso JSLint.
 
 ## Versione 2.19.0
 
@@ -47,7 +46,7 @@ Data di rilascio:**21 febbraio 2020**
 
 Data di rilascio:**13 febbraio 2020**
 
-* AppMeasurement può ora forzare i cookie ad includere l&#39;attributo Secure impostando la [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabile. Il requisito per questa variabile è che l&#39;intero sito Web client sia distribuito in modo sicuro (HTTPS). (AN-204604)
+* AppMeasurement può ora forzare i cookie a includere l&#39;attributo Secure impostando la variabile [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) . Il requisito per questa variabile è che l’intero sito web client venga servito in modo sicuro (HTTPS). (AN-204604)
 
 ## Versione 2.17.0
 
@@ -309,8 +308,8 @@ Data di rilascio: **18 giugno 2015**
 
 Data di rilascio: **21 maggio 2015**
 
-* Con iOS SDK versione 4.5, una nuova estensione iOS consente di collegare i dati di utilizzo dalle applicazioni Apple Watch, Widget del giorno, widget per l&#39;editing di foto e tutte le applicazioni iOS. Consulta la sezione [Implementazione dell’estensione iOS](https://docs.adobe.com/content/help/it-IT/mobile-services/ios/ios-ext/ios-ext.html) nella guida utente di Mobile Services.
-* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;applicazione del tuo dispositivo indossabile Android. Consulta la sezione [Android Wearables](https://docs.adobe.com/content/help/it-IT/mobile-services/android/wearables-android/android-wearable.html) nella guida utente di Mobile Services.
+* Con iOS SDK versione 4.5, una nuova estensione iOS consente di collegare i dati di utilizzo dalle applicazioni Apple Watch, Widget del giorno, widget per l&#39;editing di foto e tutte le applicazioni iOS. Consulta la sezione [Implementazione dell’estensione iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) nella guida utente di Mobile Services.
+* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;applicazione del tuo dispositivo indossabile Android. Consulta la sezione [Android Wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) nella guida utente di Mobile Services.
 * Inclusione di API Visitor 1.4.
 * Il modulo AudienceManagement è stato aggiornato per l’utilizzo di DIL versione 6.0.
 
@@ -395,7 +394,7 @@ Data di rilascio: **22 maggio 2014**
 
 Data di rilascio: **17 aprile 2014**
 
-* Supporto per il servizio [ID visitatore di Experience Cloud](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
+* Supporto per il servizio [ID visitatore di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versione 1.2.4
 
@@ -425,8 +424,8 @@ Data di rilascio: **15 novembre 2013**
 
 Data di rilascio: **14 novembre 2013**
 
-* È stato aggiunto il supporto per la misurazione video [Heartbeat](https://docs.adobe.com/content/help/it-IT/media-analytics/using/media-overview.html).
-* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
+* È stato aggiunto il supporto per la misurazione video [Heartbeat](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
+* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versione 1.1.1
 
