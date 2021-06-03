@@ -3,11 +3,13 @@ description: Panoramica dei dati raccolti da Adobe Analytics e altre considerazi
 keywords: privacy
 title: Panoramica sulla privacy
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 97%
 
 ---
-
 
 # Panoramica sulla privacy
 
@@ -89,7 +91,7 @@ Adobe Analytics raccoglie i dati seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha attivato l’impostazione IP-Obfuscation (oscuramento dell’IP): abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell’area EMEA. Con questa impostazione, l’indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geo-lookup e non sarà più disponibile come punto dati. <p>Con questo metodo di sostituzione di base non è possibile risalire a un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP, che diventa irreversibilmente anonimo. Per maggiori informazioni sulle altre impostazioni di oscuramento dell’IP, consulta </p> <p> <a href="https://docs.adobe.com/content/help/it-IT/analytics/landing/home.html#General_Account_Settings"  >https://docs.adobe.com/content/help/it-IT/analytics/landing/home.html#General_Account_Settings</a> </p> </td> 
+   <td colname="col2"> Adobe ha attivato l’impostazione IP-Obfuscation (oscuramento dell’IP): abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell’area EMEA. Con questa impostazione, l’indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geo-lookup e non sarà più disponibile come punto dati. <p>Con questo metodo di sostituzione di base non è possibile risalire a un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP, che diventa irreversibilmente anonimo. Per maggiori informazioni sulle altre impostazioni di oscuramento dell’IP, consulta </p> <p> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings"  > https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Globale </td> 
