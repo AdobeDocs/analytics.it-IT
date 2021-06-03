@@ -1,75 +1,74 @@
 ---
-description: Questa integrazione di e-mail  Adobe® Data Connectors™ combina le informazioni comportamentali di  Adobe Analytics® con il marketing e-mail per creare uno strumento potente per ridefinire la misurazione del successo e indirizzare i tipi di pubblico con messaggi più pertinenti.
+description: Questa integrazione e-mail Adobe® Data Connectors™ combina le informazioni comportamentali provenienti da Adobe Analytics® con il marketing via e-mail per creare uno strumento potente per ridefinire la misurazione del successo e indirizzare i tipi di pubblico con messaggi più pertinenti.
 title: Connettore dati Aprimo per Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: cd5191c9-68fb-42ad-98f6-23d5a72878da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 2%
+source-wordcount: '824'
+ht-degree: 1%
 
 ---
-
 
 # Connettore dati Aprimo per Adobe Analytics{#aprimo-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->La tecnologia del Connettore dati del Adobe  terminerà il 1 agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>La tecnologia Adobe Data Connector terminerà il 1° agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
-Questa integrazione di e-mail  Adobe® Data Connectors™ combina le informazioni comportamentali di  Adobe Analytics® con il marketing e-mail per creare uno strumento potente per ridefinire la misurazione del successo e indirizzare i tipi di pubblico con messaggi più pertinenti.
+Questa integrazione e-mail Adobe® Data Connectors™ combina le informazioni comportamentali provenienti da Adobe Analytics® con il marketing via e-mail per creare uno strumento potente per ridefinire la misurazione del successo e indirizzare i tipi di pubblico con messaggi più pertinenti.
 
-L&#39;invio di messaggi e-mail pertinenti a questi segmenti di mercato può dare luogo a opportunità di profitto completamente nuove, aumentando la conversione e i ricavi tra campagne e-mail nuove ed esistenti. Ad esempio, la distribuzione di messaggi e-mail pertinenti basati su prodotti visualizzati durante una visita o prodotti lasciati in un carrello abbandonato ha avuto un impatto drammatico sulle entrate, con un impatto minimo sui costi, in quanto si tratta semplicemente di sfruttare i visitatori che il sito sta già ricevendo.
+L’invio di messaggi e-mail pertinenti a questi segmenti di mercato può comportare opportunità di ricavo completamente nuove, incrementando le conversioni e i ricavi tra campagne e-mail nuove ed esistenti. Ad esempio, la distribuzione di messaggi e-mail pertinenti basati sui prodotti visualizzati durante una visita o sui prodotti rimasti in un carrello abbandonato ha avuto un impatto notevole sui ricavi, con un impatto minimo sui costi, in quanto si tratta semplicemente di sfruttare i visitatori che il sito sta già ricevendo.
 
-Questo aumento dell&#39;efficienza del marketing è uno dei vantaggi chiave dell&#39;integrazione di [!DNL Adobe Analytics] con Aprimo. Inoltre, questa integrazione sincronizzerà automaticamente le metriche delle e-mail con i dati [!DNL Adobe Analytics] con la frequenza oraria per il reporting a circuito chiuso.
+Questo aumento dell&#39;efficienza di marketing è uno dei vantaggi principali dell&#39;integrazione di [!DNL Adobe Analytics] con Aprimo. Inoltre, questa integrazione sincronizzerà automaticamente le metriche e-mail con i dati [!DNL Adobe Analytics] con la stessa frequenza oraria per i rapporti a ciclo chiuso.
 
-## Vantaggi e funzionalità principali{#key-benefits-and-features}
+## Vantaggi e caratteristiche principali{#key-benefits-and-features}
 
 Questa integrazione include i seguenti vantaggi principali:
 
-* Consolidare i dati di marketing e analisi e-mail in un&#39;unica interfaccia di reporting.
-* Ottimizzate le campagne e-mail mediante la conversione e il contributo alle entrate e al successo del sito.
-* Rivendita i visitatori principali e i segmenti di mercato basati su segmenti di marketing dinamici.
+* Consolidare i dati di marketing e analisi e-mail in un’unica interfaccia di reporting.
+* Ottimizza le campagne e-mail in base alla conversione e al contributo ai ricavi e al successo del sito.
+* Effettua il remarketing per visitatori chiave e segmenti di mercato basati su segmenti di marketing dinamici.
 
 ## Segmenti di marketing dinamici{#dynamic-marketing-segments}
 
-Questa integrazione offre i seguenti segmenti di marketing dinamici:
+Questa integrazione presenta i seguenti segmenti di marketing dinamici:
 
-* **Profili di acquisto:** aumentare gli ordini ripetuti e il valore medio degli ordini attraverso le campagne mirate dai pattern di acquisto dei visitatori.
-* **Profilo comportamentale visualizzazione prodotti/contenuti:** raggiungere potenziali clienti attraverso segmenti di marketing basati sulle viste dei prodotti e sui profili di accesso ai contenuti.
-* **Profilo di abbandono carrello:** Aiuta i visitatori a convertirsi ai clienti attraverso campagne di messa a punto appositamente progettate per coloro che esitano a completare i carrelli.
-* I clienti possono anche creare e pianificare segmenti di remarketing personalizzati in base alle esigenze dei propri utenti.
+* **Profili di acquisto:** aumenta gli ordini ripetuti e il valore medio dell’ordine attraverso le campagne mirate dai pattern di acquisto dei visitatori.
+* **Profilo comportamentale visualizzazione prodotto/contenuto:** raggiungi i potenziali clienti attraverso segmenti di marketing basati sulle visualizzazioni dei prodotti e sulla profilazione dell’accesso ai contenuti.
+* **Profilo di abbandono del carrello:** aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
+* I clienti possono inoltre creare e pianificare segmenti di remarketing personalizzati specifici in base alle esigenze dei loro utenti.
 
 ## Prima di attivare{#before-you-activate}
 
-Prima di avviare l&#39;integrazione dei Connettori dati per , completa i seguenti requisiti:
+Prima di avviare l’integrazione dei Data Connectors per , completa i seguenti requisiti:
 
-###  requisiti Adobe Analytics {#section-960e70fd2eae4a1cb88a2e4b53a97313}
+### Requisiti di Adobe Analytics {#section-960e70fd2eae4a1cb88a2e4b53a97313}
 
-* **Suite di rapporti specifica:** questa integrazione è specifica per la suite di rapporti. Prima di attivare l&#39;integrazione, accertatevi di aver selezionato la suite di rapporti desiderata.
-* **Disponibili e configurate  variabili Adobe Analytics:** Questa integrazione richiede eventi personalizzati e eVar personalizzati, ed eventualmente eventi aggiuntivi e eVar aggiuntive.
-* **Rappresentante autorizzato:** Ricorda che l&#39;abilitazione di questa integrazione potrebbe indurre la tua azienda a pagare le tariffe in conformità al tuo contratto di servizio con  Adobe, Inc. o al tuo contratto di servizio con uno  Adobe  partner fidati, a seconda dei casi. Attivando questa integrazione, l&#39;Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
-* **Data Warehouse™:** questa integrazione richiede l&#39;attivazione della Data Warehouse per generare segmenti di remarketing. Se non avete attivato l&#39;Data Warehouse, contattate  Adobe per ulteriori informazioni.
-* **[!UICONTROL Partner~]:** L&#39;integrazione richiede l&#39;acquisizione e la memorizzazione di un &quot; [!DNL ~partner~]&quot; all&#39;interno di una variabile Adobe Analytics  ( eVar). Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema [!DNL ~Partner~]. Questo &quot; [!DNL ~Partner~]&quot; è associato al comportamento dei visitatori a valle sul sito (carrelli abbandonati, acquisti, ecc.) che viene incluso nel sistema [!DNL ~Partner~] e può essere sfruttato a scopo di remarketing. Durante il processo di configurazione, è necessario identificare un eVar  a tale scopo, quando richiesto dalla procedura guidata.
-* **Tracciamento esterno:** se al momento non segui la procedura ottimale per abilitare il tracciamento esterno per ogni campagna e-mail inviata, devi farlo per garantire il successo dell&#39;integrazione. Per ulteriori informazioni, vedere la sezione [!DNL ~Partner~] di seguito.
-* **Conformità alla privacy:** devi comprendere che abilitando il tracciamento dell&#39;ID del destinatario o del visitatore, questa funzione può tenere traccia delle informazioni personali dei visitatori del tuo sito. Questo ha implicazioni sulla privacy che richiedono l&#39;implementazione di procedure appropriate da parte dell&#39;organizzazione, ad esempio l&#39;informativa e il consenso dei visitatori del sito.
+* **Specifiche della suite di rapporti:** considera questa integrazione come specifica della suite di rapporti. Assicurati di aver selezionato la suite di rapporti desiderata prima di attivare l’integrazione.
+* **Variabili Adobe Analytics disponibili e configurate:** questa integrazione richiede eventi personalizzati ed eVar personalizzate ed eventualmente eventi aggiuntivi ed eVar aggiuntive.
+* **Rappresentante autorizzato:** ricorda che l’abilitazione di questa integrazione potrebbe comportare per la tua azienda costi in conformità con il contratto di servizio stipulato con Adobe, Inc. o con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l&#39;utente dichiara di essere un rappresentante autorizzato della sua azienda; e in quanto tale, la tua azienda accetta di pagare le eventuali tariffe stabilite nel contratto di servizio sopra descritto.
+* **Data Warehouse™:** questa integrazione richiede l’abilitazione di Data Warehouse per generare segmenti di remarketing. Se non hai abilitato la Data Warehouse, contatta l’Adobe per ulteriori informazioni.
+* **[!UICONTROL Partner~]:** L’integrazione richiede l’acquisizione e l’archiviazione di un &quot;  [!DNL ~partner~]&quot; all’interno di una variabile Adobe Analytics (eVar). Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema [!DNL ~Partner~]. Questo &quot; [!DNL ~Partner~]&quot; è associato al comportamento dei visitatori a valle sul sito (carrelli abbandonati, acquisti, ecc.) che viene inserito nel sistema [!DNL ~Partner~] e può essere utilizzato a scopo di remarketing. Come parte del processo di configurazione, è necessario identificare un eVar a questo scopo quando richiesto dalla procedura guidata.
+* **Tracciamento esterno:** se al momento non segui la best practice per abilitare il tracciamento esterno per ogni campagna e-mail inviata, devi farlo per garantire il successo dell’integrazione. Per ulteriori informazioni, consulta la sezione [!DNL ~Partner~] riportata di seguito.
+* **Conformità in materia di privacy:** devi capire che abilitando il tracciamento dell’ID destinatario o visitatore, questa funzione può tracciare informazioni personali dei visitatori del tuo sito. Questo ha implicazioni in materia di privacy che richiedono l’implementazione di procedure appropriate da parte dell’organizzazione, ad esempio l’invio di avvisi ai visitatori del sito e il loro consenso.
 
 ## Prezzi{#pricing}
 
-L&#39;abilitazione di questa integrazione potrebbe indurre l&#39;azienda a pagare le tariffe in conformità al contratto di servizio con  Adobe, Inc. o al contratto di assistenza con uno dei  partner  fidati, a seconda dei casi.
+L’abilitazione di questa integrazione potrebbe comportare costi per l’azienda in conformità al contratto di servizio con Adobe, Inc. o al contratto di servizio con uno dei partner fidati di Adobe, a seconda dei casi.
 
-Attivando questa integrazione, l&#39;Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
+Attivando questa integrazione, l&#39;utente dichiara di essere un rappresentante autorizzato della sua azienda; e in quanto tale, la tua azienda accetta di pagare le eventuali tariffe stabilite nel contratto di servizio sopra descritto.
 
-### Considerazioni sui prezzi  Adobe {#section-1f4f46c0d969435db57d38c1c310a05a}
+### Considerazioni sui prezzi di Adobe {#section-1f4f46c0d969435db57d38c1c310a05a}
 
-Potrebbero verificarsi costi ricorrenti e costi di implementazione associati a questa integrazione, inclusi i costi per un numero maggiore di chiamate server sostenute tramite questa integrazione. Per informazioni sui prezzi, contattate il rappresentante commerciale  Adobe.
+Potrebbero esserci costi ricorrenti e di implementazione associati a questa integrazione, incluso il costo per un numero maggiore di chiamate server sostenute tramite questa integrazione. Contatta il tuo rappresentante commerciale Adobe per i dettagli dei prezzi.
 
-### ~Considerazioni ~ sui prezzi dei partner  {#section-f8ca71df32224412a5101efb6e356529}
+### ~~ Considerazioni sui prezzi dei partner  {#section-f8ca71df32224412a5101efb6e356529}
 
-Questa integrazione potrebbe comportare costi ricorrenti per l&#39;implementazione. Per informazioni sui prezzi, contattare [!DNL ~Partner~].
+Questa integrazione potrebbe comportare costi ricorrenti per l’implementazione. Per informazioni sui prezzi, contattare [!DNL ~Partner~].
 
-##  variabili Adobe Analytics{#adobe-analytics-variables}
+## Variabili Adobe Analytics{#adobe-analytics-variables}
 
-Questa integrazione richiede  variabili Adobe Analytics per tenere traccia delle metriche.
+Questa integrazione richiede che le variabili Adobe Analytics tengano traccia delle metriche.
 
-Dopo aver identificato gli eventi e le eVar da utilizzare con questa integrazione, devono essere abilitate nel Admin Console  Adobe Analytics  (per istruzioni, vedere [Suite di rapporti](https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/report-suites-admin.html)).
+Dopo aver identificato gli eventi e le eVar da utilizzare con questa integrazione, devono essere abilitate nell’Admin Console Adobe Analytics (per istruzioni, consulta [Suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) ).
