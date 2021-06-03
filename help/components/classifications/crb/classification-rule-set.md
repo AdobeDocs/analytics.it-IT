@@ -2,13 +2,12 @@
 description: Un set di regole è un gruppo di regole di classificazione per una variabile specifica. Al set di regole viene applicata una variabile. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
 subtopic: Classifications
 title: Set di regole di classificazione
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +59,7 @@ Denomina il set di regole di classificazione, applica la variabile e specifica l
 
 1. (Prerequisito) Definisci la struttura di classificazione in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   Consulta [Classificazioni](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/c-classifications.html) nella guida degli Strumenti di amministrazione per l’aggiunta di classificazioni.
+   Consulta [Classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) nella guida degli Strumenti di amministrazione per l’aggiunta di classificazioni.
 
    Le variabili vengono visualizzate nel pannello [!UICONTROL New Rule Set] solo dopo che è stata definita almeno una classificazione per quella variabile.
 
