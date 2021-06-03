@@ -4,11 +4,10 @@ description: Scopri come e perché creare progetti in Workspace con più suite d
 feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 95%
 
 ---
 
@@ -66,6 +65,6 @@ Con questa funzione viene introdotto il concetto di “pannello attivo” e “p
 
 1. (Facoltativo) Puoi anche passare ad altri generatori di componenti Analytics e accertarti che ora visualizzino l’etichetta della suite di rapporti che indica
 
-   * Dove verrà creato un segmento: [Generatore di segmenti](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * Dove verrà creata una metrica calcolata: [Generatore di metrica calcolata](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Dove verrà generato un avviso: [Generatore di avvisi](https://docs.adobe.com/content/help/it-IT/analytics/components/alerts/alert-builder.html).
+   * Dove verrà creato un segmento: [Generatore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Dove verrà creata una metrica calcolata: [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Dove verrà generato un avviso: [Generatore di avvisi](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
