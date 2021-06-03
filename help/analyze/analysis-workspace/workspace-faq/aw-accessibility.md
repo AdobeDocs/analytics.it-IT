@@ -4,10 +4,9 @@ title: Accessibilità di Analysis Workspace
 feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '644'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
@@ -50,7 +49,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 
 ### Scelte rapide da tastiera
 
-[!UICONTROL Analysis Workspace] offre un set completo di [scelte rapide da tastiera](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) per un flusso di lavoro più semplice. Di seguito sono elencate alcune scorciatoie comuni per la navigazione, la creazione di analisi e la democratizzazione delle informazioni.
+[!UICONTROL Analysis Workspace] offre un set completo di [scelte rapide da tastiera](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=it) per un flusso di lavoro più semplice. Di seguito sono elencate alcune scorciatoie comuni per la navigazione, la creazione di analisi e la democratizzazione delle informazioni.
 
 #### Navigazione
 
@@ -71,7 +70,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 | Ctrl + Maiusc + D | Nuovo intervallo date |
 | Ctrl + Maiusc + E | Nuovo segmento |
 | Ctrl + Z | Annulla |
-| Pressione prolungata di Maiusc (nella zona di rilascio del segmento del pannello) | Crea un [filtro a discesa](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| Pressione prolungata di Maiusc (nella zona di rilascio del segmento del pannello) | Crea un [filtro a discesa](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) |
 
 #### Democratizzazione
 
@@ -92,7 +91,7 @@ Un assistente vocale legge il testo visualizzato sullo schermo del computer. Ven
 
 [!UICONTROL Analysis Workspace] si impegna per essere conforme a WCAG 2.1 AA, compresi i requisiti per il contrasto del colore.
 
-Inoltre, gli utenti possono impostare la propria palette di colori preferita per un progetto in **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
+Inoltre, gli utenti possono impostare la propria palette di colori preferita per un progetto in **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it).
 
 ## Convalida dei campi obbligatori nei generatori di componenti
 
