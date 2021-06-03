@@ -2,10 +2,10 @@
 description: Scopri tutto ciò che puoi fare con Advertising Analytics in questa guida dettagliata, comprese le autorizzazioni necessarie, e le dimensioni e le metriche disponibili.
 title: Guida ad Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 91%
+source-wordcount: '1255'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 
 * Questa funzionalità è disponibile per chi non è cliente Advertising Cloud e AMO.
 * Per accedere ad Advertising Analytics devi essere un amministratore di Adobe Analytics. Successivamente puoi [concedere autorizzazioni di accesso](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) agli utenti non amministratori.
-* Ogni suite di rapporti di Analytics in cui desideri visualizzare i dati di ricerca Google/Bing deve essere [mappata alla tua organizzazione Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html).
+* Ogni suite di rapporti di Analytics in cui desideri visualizzare i dati di ricerca Google/Bing deve essere [mappata alla tua organizzazione Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Per ogni suite di rapporti in cui desideri visualizzare i dati di ricerca Google/Bing, devi [abilitare la/le suite di rapporti per Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * È necessario disporre di credenziali di accesso per utenti con autorizzazioni di modifica per gli account di ricerca che si desidera integrare con Adobe Analytics, ad esempio l’ID e la password di un account Google.
