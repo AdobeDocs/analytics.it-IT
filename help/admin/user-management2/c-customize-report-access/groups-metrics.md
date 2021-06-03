@@ -6,10 +6,10 @@ title: Personalizzare le autorizzazioni delle metriche
 feature: Strumenti di amministrazione
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 10%
+source-wordcount: '225'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Le impostazioni nella pagina Personalizza metriche si applicano alle suite di ra
 
 ## Eventi delle soluzioni
 
-Oltre a [Eventi personalizzati](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/events/event-serialization.html), questa categoria include gli eventi delle soluzioni Analytics, tra cui Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video e Social.) A ogni gruppo personalizzato con qualsiasi metrica verranno aggiunti come nuove metriche tutti gli eventi della soluzione Analytics.
+Oltre a [Eventi personalizzati](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html), questa categoria include gli eventi delle soluzioni Analytics, tra cui Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video e Social.) A ogni gruppo personalizzato con qualsiasi metrica verranno aggiunti come nuove metriche tutti gli eventi della soluzione Analytics.
 
 Puoi impostare le autorizzazioni per gli eventi personalizzati e gli eventi delle soluzioni Analytics (AEM, AMO, Mobile, Video e Social).
 
