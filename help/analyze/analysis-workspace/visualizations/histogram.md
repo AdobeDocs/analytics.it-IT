@@ -5,10 +5,9 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizzazioni
 role: Business Practitioner, Administrator
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '361'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '359'
 ht-degree: 100%
 
 ---
@@ -31,7 +30,7 @@ Per creare un istogramma:
 >
 >Gli istogrammi supportano solo metriche standard; le metriche calcolate non sono supportate.
 
-In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori unici. Il primo intervallo (a sinistra) corrisponde a 1 visualizzazione di pagina per visitatore univoco; il secondo a 2 visualizzazioni di pagina, ecc.
+In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori uninovi. Il primo intervallo (a sinistra) corrisponde a 1 visualizzazione di pagina per visitatore univoco; il secondo a 2 visualizzazioni di pagina, ecc.
 
 ![](assets/histogram2.png)
 
@@ -63,4 +62,4 @@ I segmenti pregenerati che compaiono nella tabella sono segmenti interni e non s
 
 ![](assets/prebuilt_segments.png)
 
-Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre visualizzazioni, ad esempio per suddividere i dati, visita [questa pagina](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre visualizzazioni, ad esempio per suddividere i dati, visita [questa pagina](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it).
