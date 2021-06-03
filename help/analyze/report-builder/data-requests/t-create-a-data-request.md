@@ -4,14 +4,13 @@ title: Create a Data Request (Creare una richiesta di archivio dati)
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 6%
+source-wordcount: '288'
+ht-degree: 3%
 
 ---
-
 
 # Creare una richiesta di dati di Report Builder
 
@@ -21,7 +20,7 @@ Passaggi per creare una richiesta di dati di base.
 1. Nella finestra [!UICONTROL Request Wizard: Step 1], seleziona una [suite di rapporti](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Facoltativo) Seleziona un segmento da applicare alla richiesta. Dopo aver selezionato uno o più segmenti, questi si sposteranno in alto nell’elenco.
 
-   Report Builder utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la [Guida alla segmentazione di Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html). 1. (Facoltativo) Selezionare una [lista di pubblicazione](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) da utilizzare per la distribuzione.
+   Report Builder utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Facoltativo) Selezionare una [lista di pubblicazione](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) da utilizzare per la distribuzione.
 1. Seleziona un [tipo di report](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Specifica un [intervallo di date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) e un rapporto [granularità](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Fai clic su **[!UICONTROL Next]**.
@@ -35,6 +34,6 @@ Passaggi per creare una richiesta di dati di base.
 1. Nella scheda [!UICONTROL Metrics] , fai doppio clic (o trascina) sulle metriche nella struttura per aggiungerle alla griglia [!UICONTROL Metrics].
 1. Nella scheda [!UICONTROL Dimensions] , fai doppio clic (o trascina) sulle dimensioni nella griglia [!UICONTROL Row Labels].
 
-   Le [dimensioni](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html) disponibili nel passaggio 2 dipendono dal rapporto di base selezionato al passaggio 1 e dalla configurazione della suite di rapporti. Le dimensioni sono elementi correlati, correlati o sono una classificazione della metrica del tipo di rapporto originale selezionata nella finestra [!UICONTROL Request Wizard: Step 1]. Aggiungi più di una dimensione al passaggio 2 per creare un raggruppamento nella richiesta di dati.
+   Le [dimensioni](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html) disponibili nel passaggio 2 dipendono dal rapporto di base selezionato al passaggio 1 e dalla configurazione della suite di rapporti. Le dimensioni sono elementi correlati, correlati o sono una classificazione della metrica del tipo di rapporto originale selezionata nella finestra [!UICONTROL Request Wizard: Step 1]. Aggiungi più di una dimensione al passaggio 2 per creare un raggruppamento nella richiesta di dati.
 
    Per ulteriori informazioni, consulta [Aggiungere metriche e Dimension](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) .
