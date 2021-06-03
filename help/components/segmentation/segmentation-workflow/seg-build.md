@@ -1,13 +1,12 @@
 ---
 description: Il Generatore di segmenti fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, segmenti ed eventi per segmentare i visitatori in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite e hit di pagina.
 title: Generare segmenti
-feature: Segmentation
+feature: Segmentazione
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1925'
 ht-degree: 5%
 
 ---
@@ -21,7 +20,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 * **Navigazione** superiore di Analytics: Fai clic su  **[!UICONTROL Analytics]** >  **[!UICONTROL Components]** >  **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Fai clic su  **[!UICONTROL Analytics]** >  **[!UICONTROL Workspace]**, apri un progetto e fai clic su  **[!UICONTROL + New]** >  **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Fai clic su  **[!UICONTROL Analytics]** >  **[!UICONTROL Reports]**, apri un rapporto esistente e fai clic sull’icona Segmenti   ![](assets/segment_icon.png) nella navigazione a sinistra, quindi fai clic su  **[!UICONTROL Add]**.
-* **[!UICONTROL Report Builder]**:  [Aggiungi o modifica segmenti nel Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**:  [Aggiungi o modifica segmenti nel Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Criteri di generazione {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -63,7 +62,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
 1. **[!UICONTROL Value]**: Il valore immesso o selezionato per la dimensione o il segmento o la metrica.
 1. **[!UICONTROL X]**: (Elimina) Consente di eliminare questa parte della definizione del segmento.
 1. **[!UICONTROL Experience Cloud publishing]**: La pubblicazione di un segmento Adobe Analytics nell’Experience Cloud consente di utilizzare il segmento per l’attività di marketing in  [!DNL Audience Manager] e in altri canali di attivazione. [Ulteriori informazioni...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: I servizi di pubblico di Adobe gestiscono la trasformazione dei dati dei visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all&#39;uso dei segmenti, e in più permettono di condividere i segmenti di pubblico in Experience Cloud. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Audience library]**: I servizi di pubblico di Adobe gestiscono la trasformazione dei dati dei visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all&#39;uso dei segmenti, e in più permettono di condividere i segmenti di pubblico in Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Cerca nell’elenco di dimensioni, segmenti o metriche.
 1. **[!UICONTROL Dimensions]**: (Elenco) Fai clic sull’intestazione da espandere.
 1. **[!UICONTROL Metrics]**: Fai clic sull’intestazione da espandere.
