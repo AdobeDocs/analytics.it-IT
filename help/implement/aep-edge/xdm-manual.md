@@ -1,26 +1,25 @@
 ---
-title: Mappare manualmente i dati XDM in Analytics
-description: 'Mappatura manuale dei dati XDM da Experience Platform ad Adobe Analytics '
-translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+title: Mappare manualmente i dati XDM su Analytics
+description: Mappare manualmente i dati XDM da Experience Platform ad Adobe Analytics
+exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 3%
 
 ---
 
+# Mappare manualmente i dati XDM su Analytics
 
-# Mappare manualmente i dati XDM in Analytics
+L’SDK per web di Adobe Experience Platform (AEP) include strumenti che consentono di mappare manualmente i dati tra Platform e Analytics.
 
-L’SDK Web di Adobe Experience Platform (AEP) include strumenti che consentono di mappare manualmente i dati tra la piattaforma e Analytics.
+Per i dati XDM che non sono mappati automaticamente in Analytics, puoi aggiungere [dati contestuali](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) in modo che corrispondano al tuo [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html). Quindi può essere utilizzato da Analytics [regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) per popolare le variabili di Analytics.
 
-Per i dati XDM che non vengono mappati automaticamente ad Analytics, puoi aggiungere dati [](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) contestuali in modo che corrispondano allo [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html). Quindi può essere utilizzato dalle regole [di](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) elaborazione di Analytics per compilare le variabili di Analytics.
-
-Potete inoltre utilizzare un set predefinito di azioni ed elenchi di prodotti per inviare o recuperare dati con l’SDK Web AEP. Per eseguire questa operazione, vedi [Prodotti](https://docs.adobe.com/content/help/en/experience-platform/edge/implement/commerce.html).
+Inoltre, puoi utilizzare un set predefinito di azioni ed elenchi di prodotti per inviare o recuperare dati con AEP Web SDK. A questo scopo, consulta [Prodotti](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html).
 
 ## Dati contestuali
 
-Per essere utilizzati da Analytics, i dati XDM vengono appiattiti mediante la notazione del punto e resi disponibili come `contextData`. Il seguente elenco di coppie di valori mostra un esempio di `context data`:
+Per essere utilizzati da Analytics, i dati XDM vengono appiattiti utilizzando la notazione del punto e resi disponibili come `contextData`. Il seguente elenco di coppie di valori mostra un esempio di `context data`:
 
 ```javascript
 {
@@ -47,18 +46,18 @@ Per essere utilizzati da Analytics, i dati XDM vengono appiattiti mediante la no
 
 ## Regole di elaborazione
 
-Tutti i dati raccolti dalla rete edge sono accessibili tramite regole [di](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)elaborazione. In Analytics, puoi utilizzare le regole di elaborazione per incorporare dati contestuali nelle variabili di Analytics.
+Tutti i dati raccolti dalla rete Edge sono accessibili tramite [regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). In Analytics puoi utilizzare le regole di elaborazione per incorporare i dati contestuali nelle variabili di Analytics.
 
-Ad esempio, nella regola seguente, Analytics è impostato per compilare i termini di ricerca **interna (eVar2)** con i dati associati a **a.x_atag.search.term(Context Data)**.
+Ad esempio, nella regola seguente, Analytics è impostato per compilare **Termini di ricerca interna (eVar2)** con i dati associati a **a.x_atag.search.term(Dati contestuali)**.
 
 ![](assets/examplerule.png)
 
 
 ## Schema XDM
 
-Experience Platform utilizza gli schemi per descrivere la struttura dei dati in modo coerente e riutilizzabile. Definendo i dati in modo coerente tra i diversi sistemi, diventa più semplice mantenere il significato e quindi ottenere valore dai dati. I dati contestuali di Analytics funzionano con la struttura definita dallo schema.
+Experience Platform utilizza gli schemi per descrivere la struttura dei dati in modo coerente e riutilizzabile. Definendo i dati in modo coerente tra i diversi sistemi, diventa più facile mantenere il significato e quindi ottenere valore dai dati. I dati contestuali di Analytics funzionano con la struttura definita dallo schema.
 
-L’esempio seguente mostra come [`event` il comando](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html) può essere utilizzato con l’ `xdm` opzione per inviare e recuperare dati con l’SDK Web AEP. In questo esempio, il `event` comando corrisponde allo schema [Dettagli](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) ExperienceEvent Commerce in modo che i valori e gli elementi productListItems `name` `SKU` siano tracciati:
+L&#39;esempio seguente mostra come il comando [`event`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) può essere utilizzato con l&#39;opzione `xdm` per inviare e recuperare dati con AEP Web SDK. In questo esempio, il comando `event` corrisponde allo schema [Dettagli Commerce di ExperienceEvent](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) in modo che i valori productListItems `name` e `SKU` siano tracciati:
 
 
 ```
@@ -83,4 +82,4 @@ alloy("event",{
 });
 ```
 
-Per ulteriori informazioni sul tracciamento degli eventi con AEP Web SDK, vedi [Tracciamento degli eventi](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html).
+Per ulteriori informazioni sul tracciamento degli eventi con AEP Web SDK, consulta [Tracciamento degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html).
