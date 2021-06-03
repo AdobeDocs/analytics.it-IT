@@ -4,11 +4,10 @@ subtopic: Marketing channels
 title: Gestire i canali di marketing
 feature: Nozioni di base su Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 3%
+source-wordcount: '721'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +72,7 @@ Puoi applicare diverse impostazioni a ogni canale della pagina [!UICONTROL Marke
 | Nome canale | Nome descrittivo del canale di marketing. |
 | Ignora canale ultimo contatto | Consente di scegliere se ignorare un canale di ultimo contatto esistente e persistente con il canale selezionato. Se selezioni questa casella di controllo, qualsiasi canale (inclusi Diretto e Interno) sovrascriverà un canale di ultimo contatto esistente. Il risultato è che la conversione viene attribuita a un canale che potrebbe non meritare credito. Ad esempio, questa opzione può garantire che il canale Direct non riceva credito per la conversione se l’utente era stato precedentemente acquisito tramite il canale di ricerca naturale. |
 | Suddivisione dei canali | Consente di suddividere un canale in base a questo valore. Puoi aggiungere possibili suddivisioni dei canali (sottocanali) durante la creazione di [classificazioni dei canali di marketing](/help/components/c-marketing-channels/classifictions-mchannel.md). |
-| Tipo | Specifica il modo in cui l&#39;utente è arrivato al sito. È possibile selezionare Online o Offline. Utilizza i canali online per i visitatori che passano attraverso un motore di ricerca o una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite coupon di giornale o annunci pubblicitari di riviste. I canali offline solitamente includono dati importati tramite Origini dati di reporting. Vedere [Origini dati](https://docs.adobe.com/content/help/it-IT/analytics/import/data-sources/datasrc-home.html). Consulta [Aggiungi dati offline](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| Tipo | Specifica il modo in cui l&#39;utente è arrivato al sito. È possibile selezionare Online o Offline. Utilizza i canali online per i visitatori che passano attraverso un motore di ricerca o una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite coupon di giornale o annunci pubblicitari di riviste. I canali offline solitamente includono dati importati tramite Origini dati di reporting. Vedere [Origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html). Consulta [Aggiungi dati offline](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | Colore | Solo Reporting e analisi: Il colore associato a questo canale di marketing. Questo colore rappresenta il canale nel rapporto Canale marketing. |
 
 ### Ignora best practice
