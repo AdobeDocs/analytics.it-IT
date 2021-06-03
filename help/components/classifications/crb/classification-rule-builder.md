@@ -2,14 +2,13 @@
 description: Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 subtopic: Classifications
 title: Flusso di lavoro di Generatore regole di classificazione
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 97%
+source-wordcount: '550'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +35,7 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 | Passaggio | Dove viene eseguito | Descrizione |
 |--- |--- |--- |
-| Passaggio 1 (prerequisito): [configurare lo schema di classificazione](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Classificazioni di traffico o conversione> | Scegli una variabile e definisci le classificazioni da utilizzare per tale variabile. <br>Prima di poter essere utilizzate nelle regole, le variabili devono avere almeno una colonna di classificazione.<br>Una volta abilitate le classificazioni, puoi utilizzare l’importazione e il generatore di regole per classificare valori specifici. |
+| Passaggio 1 (prerequisito): [configurare lo schema di classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Classificazioni di traffico o conversione> | Scegli una variabile e definisci le classificazioni da utilizzare per tale variabile. <br>Prima di poter essere utilizzate nelle regole, le variabili devono avere almeno una colonna di classificazione.<br>Una volta abilitate le classificazioni, puoi utilizzare l’importazione e il generatore di regole per classificare valori specifici. |
 | Passaggio 2: [creare un set di regole](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Un set di regole è un gruppo di regole di classificazione per una variabile specifica. |
 | Passaggio 3: configurare suite di rapporti e variabili. | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Applica il set di regole alle suite di rapporti e alle variabili. |
 | Passaggio 4: [aggiungere le regole di classificazione al set](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Associa una condizione a una classificazione, quindi specifica l’azione da intraprendere per la regola.  Fai riferimento alle informazioni in [Modalità di elaborazione delle regole](/help/components/classifications/crb/classification-quickstart-rules.md). |
@@ -52,4 +51,4 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 **Blog**: per ulteriori informazioni su questa funzione, consulta l’articolo del blog di digital marketing [Classificazioni basate sulle regole](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Visualizza il video  [Classificazioni ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) generali.
+**Video**: Visualizza il video  [Classificazioni ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) generali.
