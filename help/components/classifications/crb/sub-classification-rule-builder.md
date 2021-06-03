@@ -1,11 +1,10 @@
 ---
 description: Non è possibile combinare il Generatore di regole di classificazione con le sottoclassificazioni.
 title: Sottoclassificazioni e Generatore di regole
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +39,7 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 >
 >Questi passaggi descrivono come eseguire il caso di utilizzo descritto in [Sottoclassificazioni e Generatore di regole](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Crea classificazioni e sottoclassificazioni nel [Gestore di classificazioni](https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/c-classifications.html).
+1. Crea classificazioni e sottoclassificazioni nel [Gestore di classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
 
    Esempio:
 
@@ -65,7 +64,7 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    Esempio:
 
-   | Chiave | Canale | Broad Campaign code | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
+   | Chiave | Canale | Codice Campaign ampio | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Brand | Suzanne |  |
    | * |  | 222 | Brand | Frank |  |
