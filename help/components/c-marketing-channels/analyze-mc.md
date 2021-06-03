@@ -2,11 +2,10 @@
 title: Analisi dei canali di marketing
 description: Scopri come utilizzare le dimensioni dei canali di marketing in Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 4%
+source-wordcount: '410'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +49,7 @@ Dettagli dei canali di marketing Diventa più profondo in ogni canale per mostra
 
 ## Applicare modelli di attribuzione
 
-Puoi utilizzare [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) per applicare istantaneamente diversi modelli di attribuzione:
+Puoi utilizzare [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) per applicare istantaneamente diversi modelli di attribuzione:
 
 ![](assets/mc-viz5.png)
 
@@ -62,4 +61,4 @@ Utilizzando i canali di primo contatto e ultimo contatto legacy, puoi ottenere u
 
 ![](assets/mc-viz6.png)
 
-Ulteriori informazioni sull’analisi di marketing incrociata in questo video: [Utilizzo di analisi incrociate per esplorare le attribuzioni marketing di base in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Ulteriori informazioni sull’analisi di marketing incrociata in questo video: [Utilizzo di analisi incrociate per esplorare le attribuzioni marketing di base in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
