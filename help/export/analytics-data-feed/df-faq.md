@@ -3,9 +3,9 @@ description: Domande frequenti sui feed di dati
 keywords: Feed di dati;processo;pre colonna;post colonna;sensibilità maiuscole/minuscole
 title: Domande frequenti sui feed di dati
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Domande frequenti sui feed di dati.
 
 ## I nomi dei feed devono essere univoci?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-I nomi dei file di feed dati sono costituiti dall’ID suite di rapporti e dalla data. I due feed configurati per lo stesso RSID e la stessa data avranno lo stesso nome file. Se tali feed vengono inviati nella stessa posizione, un file sovrascrive l’altro. Per evitare la sovrascrittura di un file, non è possibile creare un feed che possa sovrascrivere un feed esistente nella stessa posizione.
+I nomi dei file di feed dati sono costituiti dall’ID suite di rapporti e dalla data. Tutti e due i feed configurati per lo stesso RSID e la stessa data hanno lo stesso nome file. Se tali feed vengono inviati nella stessa posizione, un file sovrascrive l’altro. Per evitare la sovrascrittura di un file, non è possibile creare un feed che possa sovrascrivere un feed esistente nella stessa posizione.
 
 Se si tenta di creare un feed quando ne esiste un altro con lo stesso nome di file, viene visualizzato il seguente messaggio:
 
@@ -40,7 +40,7 @@ Se una colonna non contiene una versione `post_` (ad esempio, `visit_num`), può
 
 In Adobe Analytics, la maggior parte delle variabili viene considerata senza distinzione tra maiuscole e minuscole a scopo di reporting. Ad esempio, &quot;neve&quot;, &quot;neve&quot;, &quot;NEVE&quot; e &quot;sNow&quot; sono tutti considerati allo stesso valore. La distinzione tra maiuscole e minuscole viene mantenuta nei feed di dati.
 
-Se vedi diverse varianti di maiuscole e minuscole dello stesso valore tra colonne non post e post (ad esempio, &quot;neve&quot; nella colonna precedente e &quot;neve&quot; nella colonna post), l’implementazione utilizza valori sia in maiuscolo che in minuscolo nel sito. La variazione di maiuscole e minuscole nella colonna post è stata precedentemente passata e memorizzata nel cookie virtuale o è stata elaborata più o meno nello stesso momento per quella suite di rapporti.
+Se vedi diverse varianti di maiuscole e minuscole dello stesso valore tra colonne non post e post (ad esempio, &quot;neve&quot; nella colonna pre e &quot;neve&quot; nella colonna post), l’implementazione utilizza sia valori maiuscoli che minuscoli nel sito. La variazione di maiuscole e minuscole nella colonna post è stata precedentemente passata e memorizzata nel cookie virtuale o è stata elaborata più o meno nello stesso momento per quella suite di rapporti.
 
 ## I bot vengono filtrati dalle regole bot di Admin Console incluse nei feed di dati?
 
@@ -72,7 +72,7 @@ Quando si eseguono transizioni DST -> STD, (&quot;Fall Back&quot;), il cliente o
 
 ## In che modo Analytics gestisce gli errori di trasferimento FTP? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-In caso di errore di trasferimento FTP (accesso negato, connessione persa, fuori quota, ecc.), Adobe tenta di connettersi e inviare automaticamente i dati fino a tre volte separate. Se gli errori persistono, il feed viene contrassegnato come non riuscito e viene inviata una notifica e-mail.
+Se un trasferimento FTP non riesce (a causa di un accesso negato, connessione persa, errore fuori quota o altro problema), Adobe tenta di connettersi e inviare automaticamente i dati fino a tre volte separate. Se gli errori persistono, il feed viene contrassegnato come non riuscito e viene inviata una notifica e-mail.
 
 Se un trasferimento ha esito negativo, è possibile eseguire nuovamente un processo fino a quando non ha esito positivo.
 
@@ -82,13 +82,19 @@ In caso di problemi durante il recupero del feed di dati dal sito FTP, consulta 
 
 Dopo aver verificato/corretto il problema di consegna, esegui nuovamente il processo per ottenere i file.
 
-## Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3? {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3? {#BucketOwnerFullControl}
 
-Il caso d&#39;uso comune per Amazon S3 è che il proprietario dell&#39;account Amazon Web Services (AWS) crea un bucket, quindi crea un utente che dispone dell&#39;autorizzazione per creare oggetti in quel bucket e quindi fornisce le credenziali per tale utente. In questo caso, gli oggetti di un utente appartengono allo stesso account e il proprietario dell&#39;account ha implicitamente il pieno controllo dell&#39;oggetto (lettura, eliminazione, ecc.). Questo processo è simile al funzionamento della consegna FTP.
+**** BucketOwnerFullControlfornisce diritti tra account diversi per creare oggetti in altri bucket.
 
-AWS consente inoltre a un utente di creare oggetti in un bucket che appartiene a un account utente diverso. Ad esempio, se due utenti AWS, userA e userB, non appartengono allo stesso account AWS ma desiderano creare oggetti in altri bucket. Se l’utente A crea un bucket, ad esempio bucketA, può creare un criterio di bucket che consente esplicitamente all’utente B di creare oggetti in bucketA anche se l’utente non possiede il bucket. Questo criterio può essere vantaggioso perché non richiede che l&#39;utente A e l&#39;utente B scambino credenziali. Al contrario, userB fornisce a userA il loro numero di account, e userA crea una policy di bucket che sostanzialmente dice &quot;lascia che l&#39;utente B crei oggetti in bucketA&quot;.
+Il caso d&#39;uso comune per Amazon S3 è che il proprietario dell&#39;account Amazon Web Services (AWS) crea un bucket, quindi crea un utente che dispone dell&#39;autorizzazione per creare oggetti in quel bucket e quindi fornisce le credenziali per tale utente. In questo caso, gli oggetti di un utente appartengono allo stesso account e il proprietario dell&#39;account ha implicitamente il pieno controllo dell&#39;oggetto (lettura, eliminazione e così via). Questo processo è simile al funzionamento della consegna FTP.
 
-**** BucketOwnerFullControlfornisce diritti tra account diversi per creare oggetti in altri bucket. Se userB carica un oggetto nel bucket dell&#39;utente A, userB &quot;possiede&quot; ancora tale oggetto e, per impostazione predefinita, a userA non vengono concesse autorizzazioni per tale oggetto anche se l&#39;utente A è proprietario del bucket. Questo perché gli oggetti non ereditano le autorizzazioni dal bucket principale. UserB deve concedere esplicitamente le autorizzazioni userA perché userB è ancora il proprietario dell&#39;oggetto. Per concedere questa autorizzazione, userB deve caricare l&#39;oggetto con un ACL BucketOwnerFullControl, che specifica che al proprietario del bucket (userA) sono concesse autorizzazioni complete per l&#39;oggetto (lettura, scrittura, eliminazione, ecc.), anche se l&#39;oggetto è &quot;posseduto&quot; da userB.
+AWS consente inoltre a un utente di creare oggetti in un bucket che appartiene a un account utente diverso. Ad esempio, due utenti AWS, userA e userB, non appartengono allo stesso account AWS ma desiderano creare oggetti in altri bucket. Se l’utente A crea un bucket denominato &quot;bucketA&quot;, può creare un criterio per i bucket che consente esplicitamente all’utente B di creare oggetti in bucketA anche se l’utente non possiede il bucket. Questo criterio può essere vantaggioso perché non richiede agli utenti A e userB di scambiare le credenziali. Al contrario, userB fornisce a userA il loro numero di account, e userA crea una policy di bucket che sostanzialmente dice &quot;lascia che l&#39;utente B crei oggetti in bucketA&quot;.
+
+Tuttavia, gli oggetti non ereditano le autorizzazioni dal bucket principale. Pertanto, se userB carica un oggetto nel bucket dell&#39;utente A, userB &quot;possiede&quot; ancora tale oggetto e, per impostazione predefinita, a userA non vengono concesse autorizzazioni per tale oggetto anche se l&#39;utente A è proprietario del bucket. UserB deve concedere esplicitamente le autorizzazioni userA perché userB è ancora il proprietario dell&#39;oggetto. Per concedere questa autorizzazione, userB deve caricare l&#39;oggetto con un ACL BucketOwnerFullControl, che specifica che al proprietario del bucket (userA) sono concesse autorizzazioni complete per l&#39;oggetto (lettura, scrittura, eliminazione e così via), anche se l&#39;oggetto è &quot;di proprietà&quot; di userB.
+
+>[!NOTE]
+>
+>[!DNL Analytics] non determina se il bucket dispone di un criterio che richiede l’assegnazione al proprietario del bucket del controllo completo dei nuovi oggetti, o anche se il proprietario del bucket si trova in un account diverso da quello utilizzato dall’utente per scrivere i dati. Invece, [!DNL Analytics] aggiunge automaticamente il proprietario del bucket all&#39;ACL BucketOwnerFullControl con ogni caricamento di feed.
 
 >[!MORELIKETHIS]
 >
