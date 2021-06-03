@@ -2,14 +2,13 @@
 description: Il nuovo sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi.
 title: Avvisi intelligenti
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 76%
+source-wordcount: '564'
+ht-degree: 77%
 
 ---
-
 
 # Avvisi intelligenti
 
@@ -19,34 +18,34 @@ Il nuovo sistema intelligente di avvisi offre un controllo più granulare sugli 
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>Gli avvisi intelligenti sono disponibili solo per i clienti Adobe [!DNL Analytics] Prime e Adobe [!DNL Analytics] Ultimate .
 
-Il nuovo Generatore di avvisi e Gestione avvisi sostituiscono la funzionalità di avvisi esistente in  Adobe [!DNL Analytics]. La funzione Avvisi intelligenti permette di
+Il nuovo Generatore di avvisi e Gestione avvisi sostituiscono la funzionalità di avvisi esistente nell’Adobe [!DNL Analytics]. La funzione Avvisi intelligenti permette di
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore).
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi.
 * Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente.
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso.
 
-I componenti del nuovo sistema di avvisi sono: Generatore di avvisi, Gestione avvisi, Anteprima avvisi e miglior accesso contestuale per la creazione di avvisi. L’interfaccia del precedente sistema di avvisi non sarà più disponibile, mentre gli avvisi veri e propri vengono trasferiti al nuovo sistema. Alcune delle precedenti funzioni per avvisi [non saranno più disponibili](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
+I componenti del nuovo sistema di avvisi sono: Generatore di avvisi, Gestione avvisi, Anteprima avvisi e miglior accesso contestuale per la creazione di avvisi. L’interfaccia del precedente sistema di avvisi non sarà più disponibile, mentre gli avvisi veri e propri vengono trasferiti al nuovo sistema. Alcune delle precedenti funzioni per avvisi [non saranno più disponibili](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
 È possibile accedere al Generatore di avvisi in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going directly to the Alert Builder:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
-* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Viene aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso.
+* Andando direttamente al Generatore di avvisi:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
+* Selezionando una o più voci di tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**. Viene aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso.
 
    ![](assets/create-alert-from-selection.png)
 
-* From within a [!UICONTROL Reports & Analytics] report, by going to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Viene aperto il nuovo Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal rapporto. Se necessario, puoi quindi modificare l’avviso.
+* Da un rapporto [!UICONTROL Reports & Analytics], scegliendo **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Viene aperto il nuovo Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal rapporto. Se necessario, puoi quindi modificare l’avviso.
 
    ![](assets/add-alert.png)
 
 ## Domande frequenti: Modalità di calcolo e attivazione degli avvisi {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99%). Le soglie del 99,75% e del 99,99% sono state introdotte specificamente per la granularità oraria, in modo che non vengano rilevate troppe anomalie.
+Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99%). Le soglie del 99,75% e del 99,99% sono state introdotte specificatamente per la granularità oraria, in modo da non causare altrettante anomalie.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -58,7 +57,7 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>D: Quale intervallo di tempo passato può prendere in considerazione il processo di rilevamento delle anomalie per stabilire eventuali anomalie nei dati?</b> </p> </td> 
-   <td colname="col2"> <p>Il periodo di rilevamento varia in base al tipo di granularità selezionato. See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. Segue un breve riepilogo: </p> 
+   <td colname="col2"> <p>Il periodo di rilevamento varia in base al tipo di granularità selezionato. Per ulteriori informazioni, consulta Tecniche di statistica utilizzate in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Rilevamento delle anomalie</a> . Segue un breve riepilogo: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensile = 15 mesi + lo stesso intervallo relativo allo scorso anno </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Settimanale = 15 settimane + lo stesso intervallo relativo allo scorso anno </li> 
@@ -75,9 +74,8 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
    <td colname="col2"> <p>Al momento non è possibile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>D: È possibile ottenere una tabella dei "valori previsti" che comprenda la linea tratteggiata, o una sorta di output dei valori? </b> </p> </td> 
-   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo di formazione fisso di 30 giorni, con un intervallo fisso del 95%. </p> </td> 
+   <td colname="col1"> <p><b>D: È possibile ottenere una tabella dei "valori previsti" che comprenda una linea tratteggiata, o qualche altro output di tali valori?  </b> </p> </td> 
+   <td colname="col2"> <p>Non in Workspace, ma è possibile nel Report Builder (guarda questo video sul <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo fisso di 30 giorni, con un intervallo fisso del 95%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
