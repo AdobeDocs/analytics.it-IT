@@ -3,14 +3,13 @@ description: Il primo passaggio durante la creazione di una richiesta in Report 
 title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 4%
+source-wordcount: '407'
+ht-degree: 2%
 
 ---
-
 
 # Richieste di dati: Creazione guidata richieste passaggio 1
 
@@ -22,7 +21,7 @@ Nella Creazione guidata richieste: Modulo del passaggio 1: seleziona la suite di
 
 1. **Selettore** intervallo: Consente di selezionare un ID suite di rapporti da una cella in Excel. Consulta [Selezionare suite di rapporti](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall’utente. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la [Guida alla segmentazione di Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) .
+1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall’utente. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) .
 
    Ad esempio, puoi eseguire un [!UICONTROL Pages Report] e quindi applicare un segmento Prime visite .
 
