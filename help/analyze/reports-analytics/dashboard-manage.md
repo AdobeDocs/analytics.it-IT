@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 3%
+source-wordcount: '744'
+ht-degree: 2%
 
 ---
 
@@ -71,7 +71,7 @@ Le dashboard esistenti continueranno a essere eseguite e potrai comunque modific
 
 >[!NOTE]
 >
->In futuro, considera l&#39;utilizzo di [progetti Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html) e la possibilità di scaricarli e pianificarli.
+>In futuro, considera l&#39;utilizzo di [progetti Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e la possibilità di scaricarli e pianificarli.
 
 Quando copi il dashboard legacy, il sistema apre il dashboard legacy per la modifica, in cui puoi aggiungere contenuto legacy o nuovo contenuto. Quando copi un dashboard legacy, l’originale viene mantenuto nell’elenco delle dashboard legacy.
 
