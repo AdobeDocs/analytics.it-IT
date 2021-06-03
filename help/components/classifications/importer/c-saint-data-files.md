@@ -2,13 +2,12 @@
 description: L’importazione consente di caricare in massa i dati delle classificazioni nei rapporti di Analytics in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
 subtopic: Classifications
 title: File di dati di classificazione
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 100%
+source-wordcount: '1722'
+ht-degree: 99%
 
 ---
 
@@ -164,7 +163,7 @@ Questi caratteri hanno un significato particolare in un file di dati. Laddove po
 
 Le date delle campagne sono in genere intervalli (date di inizio e di fine) associati a singole campagne. Le date sono visualizzate in formato AAAA/MM/GG. Ad esempio, 2013/06/15-2013/06/30.
 
-Per ulteriori informazioni, consulta [Classificazioni di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Per ulteriori informazioni, consulta [Classificazioni di conversione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE]
 >
