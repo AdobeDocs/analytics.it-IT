@@ -1,93 +1,92 @@
 ---
-description: Questa integrazione combina la potenza del software di e-mail marketing integrato sistema di feedback e la generazione di rapporti comportamentali  Adobe Analytics per creare potenti opportunità di analisi e ottimizzazione per la vostra organizzazione.
-title: optivo® Broadmail Data Connector per  Adobe Analytics
+description: Questa integrazione combina la potenza del sistema di feedback integrato del software di marketing e-mail con la generazione di rapporti comportamentali di Adobe Analytics per creare potenti opportunità di analisi e ottimizzazione per la tua organizzazione.
+title: Connettore dati optivo® broadmail per Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1082'
+ht-degree: 0%
 
 ---
 
-
-# connettore dati di trasmissione opzionale® per  Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}
+# Connettore dati optivo® broadmail per Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->La tecnologia del Connettore dati del Adobe  terminerà il 1 agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>La tecnologia Adobe Data Connector terminerà il 1° agosto 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
-Questa integrazione combina la potenza del software di e-mail marketing integrato sistema di feedback e la generazione di rapporti comportamentali  Adobe Analytics per creare potenti opportunità di analisi e ottimizzazione per la vostra organizzazione.
+Questa integrazione combina la potenza del sistema di feedback integrato del software di marketing e-mail con la generazione di rapporti comportamentali di Adobe Analytics per creare potenti opportunità di analisi e ottimizzazione per la tua organizzazione.
 
-[!DNL ~~] Partner è un software professionale di marketing e-mail. La sua funzione principale consiste nel creare, inviare e valutare campagne per newsletter ed e-mail. `[~Partner~]` è disponibile come servizio cloud (software come servizio).
+[!DNL ~~] I partner sono un software di marketing e-mail professionale. La sua funzione principale è quella di creare, inviare e valutare newsletter e campagne e-mail. `[~Partner~]` è disponibile come servizio cloud (software as a service).
 
-L&#39;integrazione `[~Partner~]` offre la ricommercializzazione automatizzata e la sincronizzazione dei dati, con conseguente aumento delle conversioni e dei ricavi. L&#39;integrazione consente agli esperti di marketing di sincronizzare automaticamente i segmenti per i clienti, in base all&#39;interazione e-mail e al comportamento del sito. Lo scambio automatizzato di dati di segmenti personalizzabili consente di creare campagne e-mail altamente mirate per incrementare le vendite, come l&#39;abbandono del carrello e il remarketing post-acquisto per prodotti cross-up-selling e reselling.
+L’ integrazione `[~Partner~]` offre remarketing automatizzato e sincronizzazione dati, con conseguente aumento delle conversioni e dei ricavi. L’integrazione consente agli addetti al marketing di sincronizzare automaticamente i segmenti per i loro clienti in base all’interazione e-mail e al comportamento del sito. Lo scambio automatizzato di dati di segmenti personalizzabili consente di creare campagne e-mail altamente mirate che incrementano le vendite, come l’abbandono del carrello e il remarketing post acquisto per prodotti cross-up e resell.
 
-Questa integrazione consente inoltre di scambiare le metriche delle campagne e-mail di successo da `[~Partner~]` a  Adobe Analytics. I dati fondamentali vengono visualizzati centralmente nella panoramica della campagna e-mail.
+Questa integrazione scambia anche le metriche delle campagne e-mail di successo da `[~Partner~]` ad Adobe Analytics. I dati cruciali vengono visualizzati centralmente nella panoramica della campagna e-mail.
 
-## Data Connectors Laboratory Program {#section-51f9864851b64d96873127b9ac9c9a2b}
+## Programma di laboratorio dei Data Connectors {#section-51f9864851b64d96873127b9ac9c9a2b}
 
-Questo programma è un metodo veloce per  Adobe  partner di piattaforme terze per realizzare integrazioni e distribuirle nel nostro mercato comune. Le integrazioni sono completamente sviluppate dai nostri partner e messe a disposizione su Adobe Experience Cloud secondo le metodologie della community. Sono disponibili gratuitamente per  clienti Adobi dell&#39;Adobe Analytics  e di altre soluzioni e sono forniti su base continuativa senza garanzie implicite da  Adobe a causa della natura di terze parti delle integrazioni.
+Questo programma è un metodo di monitoraggio rapido per i partner di piattaforme terze di Adobe per creare integrazioni e consegnarle al nostro mercato comune. Le integrazioni sono completamente sviluppate dai nostri partner e rese disponibili su Adobe Experience Cloud secondo le metodologie della community. Sono disponibili gratuitamente per i clienti di Adobe di Adobe Analytics e di altre soluzioni e vengono fornite regolarmente senza garanzie implicite di Adobe, a causa della natura di terze parti delle integrazioni.
 
-In caso di domande sul servizio, il mandato o la licenza corrente, contattate l&#39;Account Manager  Adobe.
+In caso di domande relative al servizio corrente, al buono o alla licenza, contatta il tuo Adobe Account Manager.
 
-## Vantaggi e funzionalità principali{#key-benefits-and-features}
+## Vantaggi e caratteristiche principali{#key-benefits-and-features}
 
 Questa integrazione include i seguenti vantaggi principali:
 
-* Recuperare gli acquirenti che navigano e abbandonano
-* Aumento delle vendite con il cross-selling e il remarketing up-selling mirati
-* Campagne basate su segmenti automatiche
+* Recupera gli acquirenti che navigano e abbandonano
+* Aumento delle vendite con il remarketing di cross-selling e up-selling mirato
+* Campagne automatiche basate su segmenti
 * Campagne ottimizzate in corso
-* Segmenti in [!DNL ~Partner~] per remarketing mirato
+* Segmenti in [!DNL ~Partner~] per il remarketing mirato
 * Aggiornamenti costanti delle metriche delle campagne
 * Attivazione di conversazioni automatizzate
 
 ## Segmenti di marketing dinamici{#dynamic-marketing-segments}
 
-Questa integrazione offre i seguenti segmenti di marketing dinamici:
+Questa integrazione presenta i seguenti segmenti di marketing dinamici:
 
-* **Profili di acquisto:** aumentare gli ordini ripetuti e il valore medio degli ordini attraverso le campagne mirate dai pattern di acquisto dei visitatori.
-* **Profilo comportamentale visualizzazione prodotti/contenuti:** raggiungere potenziali clienti attraverso segmenti di marketing basati sulle viste dei prodotti e sui profili di accesso ai contenuti.
-* **Profilo di abbandono carrello:** Aiuta i visitatori a convertirsi ai clienti attraverso campagne di messa a punto appositamente progettate per coloro che esitano a completare i carrelli.
-* **Note efficaci:** i clienti possono anche creare e pianificare segmenti di remarketing personalizzati in base alle esigenze dei propri utenti.
+* **Profili di acquisto:** aumenta gli ordini ripetuti e il valore medio dell’ordine attraverso le campagne mirate dai pattern di acquisto dei visitatori.
+* **Profilo comportamentale visualizzazione prodotto/contenuto:** raggiungi i potenziali clienti attraverso segmenti di marketing basati sulle visualizzazioni dei prodotti e sulla profilazione dell’accesso ai contenuti.
+* **Profilo di abbandono del carrello:** aiuta i visitatori a convertirsi ai clienti attraverso campagne ottimizzate appositamente progettate per coloro che esitano a completare i carrelli.
+* **Remarketing efficace:** i clienti possono anche creare e pianificare segmenti di remarketing personalizzati specifici per le esigenze dei propri utenti.
 
 ## Prima di attivare{#before-you-activate}
 
-Prima di avviare l&#39;integrazione dei Connettori dati per , completa i seguenti requisiti:
+Prima di avviare l’integrazione dei Data Connectors per , completa i seguenti requisiti:
 
-##  requisiti Adobe Analytics {#section-960e70fd2eae4a1cb88a2e4b53a97313}
+## Requisiti di Adobe Analytics {#section-960e70fd2eae4a1cb88a2e4b53a97313}
 
-* **Suite di rapporti specifica:** questa integrazione è specifica per la suite di rapporti. Prima di attivare l&#39;integrazione, accertatevi di aver selezionato la suite di rapporti desiderata.
-* **Disponibili e configurate  variabili Adobe Analytics:** questa integrazione richiede eventi personalizzati e eVar personalizzate.
+* **Specifiche della suite di rapporti:** considera questa integrazione come specifica della suite di rapporti. Assicurati di aver selezionato la suite di rapporti desiderata prima di attivare l’integrazione.
+* **Variabili Adobe Analytics disponibili e configurate:** questa integrazione richiede eventi personalizzati ed eVar personalizzate.
 
-* **Rappresentante autorizzato:** Ricorda che l&#39;abilitazione di questa integrazione potrebbe indurre la tua azienda a pagare le tariffe in conformità al tuo contratto di servizio con  Adobe, Inc. o al tuo contratto di servizio con uno  Adobe  partner fidati, a seconda dei casi. Attivando questa integrazione, l&#39;Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
-* **ID messaggio:** L&#39;integrazione richiede l&#39;acquisizione e la memorizzazione di un &quot;ID messaggio&quot; all&#39;interno di una  variabile Adobe Analytics ( eVar). Tali ID sono necessari per identificare le invii che hai inviato. Durante il processo di configurazione, è necessario identificare un eVar  a tale scopo, quando richiesto dalla procedura guidata.
-* **Partner:** l&#39;integrazione richiede che venga acquisito e memorizzato un  [!UICONTROL ~~] partner all&#39;interno di una variabile Adobe Analytics  ( eVar). Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema [!UICONTROL ~Partner~]. Questo [!UICONTROL ~Partner~] è associato al comportamento dei visitatori a valle sul sito (carrelli abbandonati, acquisti, ecc.) che viene incluso nel sistema [!UICONTROL ~Partner~] e può essere sfruttato a scopo di remarketing. Durante il processo di configurazione, è necessario identificare un eVar  a tale scopo, quando richiesto dalla procedura guidata.
-* **Ora clic post:** Come parte del processo di configurazione, questa integrazione richiede un&#39;assegnazione a un eVar  corrispondente al tempo di un&#39;azione post clic. Questo è necessario per trasmettere informazioni su un&#39;azione del destinatario a [!UICONTROL ~Partner~] dopo che il destinatario ha fatto clic su un collegamento in una mailing.
+* **Rappresentante autorizzato:** ricorda che l’abilitazione di questa integrazione potrebbe comportare per la tua azienda costi in conformità con il contratto di servizio stipulato con Adobe, Inc. o con uno dei partner fidati di Adobe, a seconda dei casi. Attivando questa integrazione, l&#39;utente dichiara di essere un rappresentante autorizzato della sua azienda; e in quanto tale, la tua azienda accetta di pagare le eventuali tariffe stabilite nel contratto di servizio sopra descritto.
+* **ID messaggio:** l’integrazione richiede l’acquisizione e la memorizzazione di un &quot;ID messaggio&quot; all’interno di una variabile Adobe Analytics (eVar). Questi ID sono necessari per identificare gli invii. Come parte del processo di configurazione, è necessario identificare un eVar a questo scopo quando richiesto dalla procedura guidata.
+* **Partner:** l’integrazione richiede l’acquisizione e l’archiviazione di un  [!UICONTROL ~~] partner all’interno di una variabile Adobe Analytics (eVar). Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema [!UICONTROL ~Partner~]. Questo [!UICONTROL ~Partner~] è associato al comportamento dei visitatori a valle sul sito (abbandoni del carrello, acquisti, ecc.) che viene inserito nel sistema [!UICONTROL ~Partner~] e può essere utilizzato a scopo di remarketing. Come parte del processo di configurazione, è necessario identificare un eVar a questo scopo quando richiesto dalla procedura guidata.
+* **Ora clic post:** come parte del processo di configurazione, questa integrazione richiede un&#39;assegnazione a un eVar che corrisponde al tempo di un&#39;azione post clic. Questo è necessario per trasmettere informazioni su un&#39;azione del destinatario a [!UICONTROL ~Partner~] dopo che il destinatario ha fatto clic su un collegamento in un&#39;e-mail.
 
-* **Post Click Product (Prodotto post-clic):** Come parte del processo di configurazione, questa integrazione richiede un&#39;assegnazione a un eVar  corrispondente al prodotto offerto associato a un&#39;azione post clic. Questo è necessario per trasmettere informazioni su un&#39;azione del destinatario a [!UICONTROL ~Partner~] dopo che il destinatario ha fatto clic su un collegamento in una mailing.
+* **Post-clic Prodotto:** come parte del processo di configurazione, questa integrazione richiede un&#39;assegnazione a un eVar che corrisponde al prodotto offerto associato a un&#39;azione post-clic. Questo è necessario per trasmettere informazioni su un&#39;azione del destinatario a [!UICONTROL ~Partner~] dopo che il destinatario ha fatto clic su un collegamento in un&#39;e-mail.
 
-* **Tipo di azione post-clic:** Come parte del processo di configurazione, questa integrazione richiede un&#39;assegnazione a un eVar  che corrisponda al tipo di azione post-clic. Questo è necessario per trasmettere informazioni su un&#39;azione del destinatario a [!UICONTROL ~Partner~] dopo che il destinatario ha fatto clic su un collegamento in una mailing.
+* **Tipo di azione post-clic:** come parte del processo di configurazione, questa integrazione richiede un&#39;assegnazione a un eVar che corrisponde al tipo di azione post-clic. Questo è necessario per trasmettere informazioni su un&#39;azione del destinatario a [!UICONTROL ~Partner~] dopo che il destinatario ha fatto clic su un collegamento in un&#39;e-mail.
 
-* **Conformità alla privacy:** devi comprendere che abilitando il tracciamento dell&#39;ID del destinatario o del visitatore, questa funzione può tenere traccia delle informazioni personali dei visitatori del tuo sito. Questo ha implicazioni sulla privacy che richiedono l&#39;implementazione di procedure appropriate da parte dell&#39;organizzazione, ad esempio l&#39;informativa e il consenso dei visitatori del sito.
+* **Conformità in materia di privacy:** devi capire che abilitando il tracciamento dell’ID destinatario o visitatore, questa funzione può tracciare informazioni personali dei visitatori del tuo sito. Questo ha implicazioni in materia di privacy che richiedono l’implementazione di procedure appropriate da parte dell’organizzazione, ad esempio l’invio di avvisi ai visitatori del sito e il loro consenso.
 
 ## Prezzi{#pricing}
 
-L&#39;abilitazione di questa integrazione potrebbe indurre l&#39;azienda a pagare le tariffe in conformità al contratto di servizio con  Adobe, Inc. o al contratto di assistenza con uno dei  partner  fidati, a seconda dei casi.
+L’abilitazione di questa integrazione potrebbe comportare costi per l’azienda in conformità al contratto di servizio con Adobe, Inc. o al contratto di servizio con uno dei partner fidati di Adobe, a seconda dei casi.
 
-Attivando questa integrazione, l&#39;Utente dichiara di essere un rappresentante autorizzato della sua azienda; e, come tale, la vostra azienda accetta di pagare le eventuali tariffe indicate nel contratto di servizio sopra descritto.
+Attivando questa integrazione, l&#39;utente dichiara di essere un rappresentante autorizzato della sua azienda; e in quanto tale, la tua azienda accetta di pagare le eventuali tariffe stabilite nel contratto di servizio sopra descritto.
 
-### Considerazioni sui prezzi  Adobe {#section-1f4f46c0d969435db57d38c1c310a05a}
+### Considerazioni sui prezzi di Adobe {#section-1f4f46c0d969435db57d38c1c310a05a}
 
-Gli attuali clienti della soluzione Adobe Analytics  non hanno costi aggiuntivi associati all&#39;utilizzo di questa integrazione dei connettori dati. I clienti che non si sono ancora trasferiti al nuovo prodotto Adobe Analytics  devono contattare il proprio rappresentante commerciale  Adobe per ulteriori informazioni.
+Gli attuali clienti della soluzione Adobe Analytics non hanno costi aggiuntivi associati all&#39;utilizzo di questa integrazione dei Data Connectors. I clienti che non si sono ancora trasferiti al nuovo prodotto Adobe Analytics devono contattare il proprio rappresentante commerciale Adobe per ulteriori informazioni.
 
 ### Considerazioni sui prezzi dei partner {#section-f8ca71df32224412a5101efb6e356529}
 
-Questa integrazione è disponibile per i clienti [!DNL ~Partner~], ma si applicheranno delle tariffe di integrazione aggiuntive. Per informazioni sui prezzi, contattate sales@optivo.com. Per informazioni sui prezzi, contattare [!DNL ~Partner~].
+Questa integrazione è disponibile per i clienti [!DNL ~Partner~] , ma sono previste tariffe di integrazione aggiuntive. Per informazioni sui prezzi, contattare sales@optivo.com. Per informazioni sui prezzi, contattare [!DNL ~Partner~].
 
-##  variabili Adobe Analytics{#adobe-analytics-variables}
+## Variabili Adobe Analytics{#adobe-analytics-variables}
 
-Questa integrazione richiede  variabili Adobe Analytics per tenere traccia delle metriche.
+Questa integrazione richiede che le variabili Adobe Analytics tengano traccia delle metriche.
 
-Dopo aver identificato gli eventi e le eVar da utilizzare con questa integrazione, devono essere abilitate nel Admin Console di  di Analytics (consultate [Suite di rapporti](https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/report-suites-admin.html) per le istruzioni).
+Dopo aver identificato gli eventi e le eVar da utilizzare con questa integrazione, devono essere attivati nell’Admin Console di Analytics (per istruzioni consulta [Suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) ).
