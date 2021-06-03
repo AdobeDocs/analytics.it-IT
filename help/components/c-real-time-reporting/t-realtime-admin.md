@@ -1,13 +1,12 @@
 ---
 description: Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
 title: Configurare rapporti in tempo reale
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 3%
 
 ---
@@ -57,6 +56,6 @@ L’impostazione dei rapporti in tempo reale all’interno di [!UICONTROL Report
 
 1. Fai clic su **[!UICONTROL Save]** o **[!UICONTROL Save and View Report]**.
 
-   Dopo questa configurazione iniziale del report, potrebbero essere necessari fino a 20 minuti perché i dati inizino lo streaming. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei rapporti in tempo reale, consulta [Eseguire un rapporto in tempo reale](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Dopo questa configurazione iniziale del report, potrebbero essere necessari fino a 20 minuti perché i dati inizino lo streaming. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei rapporti in tempo reale, consulta [Eseguire un rapporto in tempo reale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Per impostazione predefinita, tutti gli utenti hanno accesso ai rapporti in tempo reale.
