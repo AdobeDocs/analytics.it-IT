@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 9%
+source-wordcount: '367'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ Il modulo Activity Map fa parte del file AppMeasurement.js (che si trova nella p
 
 I dati di Activity Map possono essere raccolti solo se si esegue l’aggiornamento a questa versione (o superiore) di AppMeasurement.
 
-1. Scarica il codice AppMeasurement più recente (AppMeasurement_Javascript-1.6.zip) andando su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** e [implementalo](https://docs.adobe.com/content/help/it-IT/analytics/implementation/js/overview.html).
+1. Scarica il codice AppMeasurement più recente (AppMeasurement_Javascript-1.6.zip) andando su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** e [implementalo](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=it).
 
    Abbiamo incluso alcuni [codici di implementazione di esempio](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) per aiutarti a visualizzare le modifiche apportate al codice includendo il modulo Activity Map.
 
@@ -54,7 +54,7 @@ Innanzitutto, devi abilitare i rapporti di Activity Map a livello di suite di ra
 
    Viene visualizzata la pagina di gestione dei gruppi nell’Admin Console.
 
-1. [Aggiungi gli utenti a questo ](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html) gruppo  **[!UICONTROL Save Group]**.
+1. [Aggiungi gli utenti a questo ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) gruppo  **[!UICONTROL Save Group]**.
 
 1. Questo consente agli utenti amministratori di scaricare Activity Map da **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
 
