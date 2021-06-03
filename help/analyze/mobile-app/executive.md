@@ -4,10 +4,9 @@ title: Guida esecutiva alle dashboard di Adobe Analytics
 feature: Dashboard di Analytics
 role: Business Practitioner, Administrator
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1273'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1271'
 ht-degree: 100%
 
 ---
@@ -122,7 +121,7 @@ Per utilizzare le dashboard:
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-7. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nell’app funzionano allo stesso modo di Analytics Workspace.
+7. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
 
    ![Filtro del segmento](assets/segment_filter.png)
 
