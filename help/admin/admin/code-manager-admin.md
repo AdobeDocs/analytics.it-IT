@@ -4,10 +4,10 @@ title: Gestore codici
 feature: Strumenti di amministrazione
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 12%
+source-wordcount: '129'
+ht-degree: 6%
 
 ---
 
@@ -25,5 +25,5 @@ Dopo aver scaricato la libreria , devi configurare il codice per inviare i dati 
 |--- |--- |
 | [!UICONTROL Name] | Il nome corrisponde alla piattaforma in cui desideri abilitare la raccolta dati. Sono fornite librerie native per ogni piattaforma elencata in questa colonna. |
 | [!UICONTROL Type] | Tipo di applicazioni misurabili utilizzando ciascuna libreria. |
-| [!UICONTROL Version] | Elenca la versione più recente della libreria. Fai clic sul numero di versione per visualizzare la [cronologia delle versioni](https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html). |
+| [!UICONTROL Version] | Elenca la versione più recente della libreria. Fai clic sul numero di versione per visualizzare la [cronologia delle versioni](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html). |
 | [!UICONTROL Documentation] | Visualizza la documentazione di riferimento della libreria. |
