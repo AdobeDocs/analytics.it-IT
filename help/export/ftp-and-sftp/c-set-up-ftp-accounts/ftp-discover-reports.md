@@ -3,8 +3,10 @@ description: Puoi impostare una programmazione di consegna per l'invio automatic
 keywords: ftp;sftp
 title: Report consegnati delle Ad Hoc Analysis
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
-translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 72%
 
 ---
 
@@ -13,6 +15,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Puoi impostare una programmazione di consegna per l&#39;invio automatico di report a un indirizzo e-mail o a un server FTP.
 
-Una programmazione di consegna può essere impostata per un periodo selezionato. I report vengono generalmente inviati il primo giorno del periodo seguente, ma non oltre la mattinata del secondo giorno. Puoi modificare o interrompere queste consegne programmate in qualsiasi momento. For more information on [!UICONTROL Ad Hoc Analysis] delivered reports, see the [Ad Hoc Analysis Help](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html#Discover_Help).
+Una programmazione di consegna può essere impostata per un periodo selezionato. I report vengono generalmente inviati il primo giorno del periodo seguente, ma non oltre la mattinata del secondo giorno. Puoi modificare o interrompere queste consegne programmate in qualsiasi momento. Per ulteriori informazioni sui rapporti consegnati [!UICONTROL Ad Hoc Analysis], consulta la [Guida di Ad Hoc Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/ad-hoc-analysis/adhoc-home.html#Discover_Help).
 
-Per informazioni sui limiti e la conservazione dei dati FTP, consulta Limiti e Conservazione [dei dati](/help/export/ftp-and-sftp/ftp-limits.md)FTP.
+Per informazioni sui limiti FTP e sulla conservazione dei dati, consulta [Limiti FTP e conservazione dei dati](/help/export/ftp-and-sftp/ftp-limits.md).
