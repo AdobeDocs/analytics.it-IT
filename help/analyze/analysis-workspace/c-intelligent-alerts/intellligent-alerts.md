@@ -5,11 +5,10 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Il sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi.
 
-Questo è un tutorial video sugli [avvisi intelligenti](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Questo è un tutorial video sugli [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Panoramica
 
