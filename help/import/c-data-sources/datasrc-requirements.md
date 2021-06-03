@@ -5,11 +5,10 @@ title: Requisiti e limiti di caricamento
 topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 92%
+source-wordcount: '634'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +26,7 @@ Nelle sezioni seguenti sono elencati i limiti applicabili a Origini dati e ai da
 
 ## Limiti dimensione {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
-* Ogni account FTP è limitato a 50 MB di dati totali per tutti i file. L&#39;elaborazione si mette in pausa se la dimensione supera i 50 MB e non riprende finché il totale non è inferiore a 50 MB.
+* Ogni account FTP è limitato a 50 MB di dati totali per tutti i file. L’elaborazione viene messa in pausa se la dimensione supera i 50 MB e non riprende finché il totale non è inferiore a 50 MB.
 
 ## Date {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
@@ -46,7 +45,7 @@ Nelle sezioni seguenti sono elencati i limiti applicabili a Origini dati e ai da
 * I dati da Registro web, Traffico e alcuni raggruppamenti Origini dati generici non sono disponibili in Data Warehouse o Discover. Per ulteriori informazioni, consulta [Tipi di dati e categorie](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Origini dati non supporta eventi serializzati.
 
-## Supporto multibyte  {#section_96C8D26B21184C3E839865DB6F23EA22}
+## Supporto multibyte {#section_96C8D26B21184C3E839865DB6F23EA22}
 
 Origini dati supporta la codifica multibyte. Origini dati tenta di rilevare il formato del file Origini dati in entrata e, laddove necessario, lo converte in un formato supportato. Nella tabella seguente sono elencati i formati di caratteri comuni e il relativo stato di supporto.
 
@@ -60,7 +59,7 @@ Origini dati supporta la codifica multibyte. Origini dati tenta di rilevare il f
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Supportati. La suite di rapporti utilizzata con Origini dati deve avere il supporto caratteri multibyte abilitato. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nuova suite di rapporti</a> in Aiuto. </p> </td> 
+   <td colname="col2"> <p>Supportati. La suite di rapporti utilizzata con Origini dati deve avere il supporto caratteri multibyte abilitato. </p> <p>Consulta <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nuova suite di rapporti</a> in Aiuto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 con indicatore ordine byte (EF BB BF) </td> 
@@ -90,7 +89,7 @@ Se invii un file UTF-8 o ISO-8859-1 e la suite di rapporti non è configurata pe
 * L&#39;errore viene rilevato durante la conversione, in tal caso ricevi un messaggio come &quot;Trovato carattere errato nel file in posizione 18 durante la conversione da UTF-8 a ISO-8859-1&quot;.
 * Il file viene elaborato senza errori, ma nel rapporto saranno visualizzati dati illeggibili.
 
-## Caricamento di file Registro web  {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Caricamento di file Registro web {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * I rapporti più utili per visualizzare i dati Registro web sono i rapporti del traffico, come le visualizzazioni pagina.
 * I nomi delle pagine sono visualizzati come URL completo, inclusa la stringa di query.
