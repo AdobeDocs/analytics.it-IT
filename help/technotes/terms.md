@@ -2,11 +2,10 @@
 title: Termini utilizzati in Adobe Analytics
 description: Glossario per Adobe Analytics, definizione dei termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2433'
-ht-degree: 1%
+source-wordcount: '2429'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +41,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Correlazione:** non più utilizzato come termine; sostituiti da suddivisioni dimensionali. Nelle versioni precedenti di Adobe Analytics, le correlazioni consentivano di suddividere le variabili di traffico. Consulta [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) nella guida utente Analisi.
 * **Dati correnti:** un’opzione in alcuni rapporti che consente di includere i dati raccolti di recente che non sono ancora stati completamente elaborati. Consulta [Dati correnti](/help/analyze/reports-analytics/current-data.md) nella guida utente Analisi.
 * **Collegamento personalizzato:** tipo di hit contenente dati di visualizzazione non di pagina. Consulta la [s.tl() function](../implement/vars/functions/tl-method.md) nella guida utente Implementa. Vedere anche Hit.
-* **Attributi del cliente:** Experience Cloud di funzionalità che consente il caricamento di dati attributo. Consulta [Attributi del cliente](https://docs.adobe.com/content/help/it-IT/core-services/interface/customer-attributes/attributes.html) nella guida utente dei servizi core.
+* **Attributi del cliente:** Experience Cloud di funzionalità che consente il caricamento di dati attributo. Consulta [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) nella guida utente dei servizi core.
 * **Delegato dell’assistenza clienti:**  un utente designato autorizzato a interagire direttamente con l’Assistenza clienti di Adobe. Consulta [Delegati all’assistenza clienti](https://helpx.adobe.com/experience-cloud/supported-users.html) nella Knowledge Base di Experience Cloud.
 * **Server di raccolta dati:**  server di proprietà di Adobe che ricevono ed elaborano dati. Le richieste di immagini vengono inviate ai server di raccolta dati di Adobe da utilizzare nei rapporti.
 * **Connettori dati:** soluzione di sviluppo completa che consente a terzi di automatizzare il caricamento dei dati in Adobe Analytics. I clienti di terze parti possono utilizzare un connettore dati per arricchire i propri dati in Adobe Analytics. La maggior parte dei connettori dati utilizza un flusso di lavoro simile utilizzato in Origini dati. Consulta Connettori dati nella guida utente Importazione.
@@ -53,7 +52,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Serializzazione degli eventi:** il processo di attuazione delle misure per impedire la raccolta di eventi duplicati. Consulta [Serializzazione degli eventi](../implement/vars/page-vars/events/event-serialization.md) nella guida utente Implementa.
 * **eVar:** vedi Variabile di conversione.
 * **Evento:** Vedi Evento Success .
-* **ExcelClient:** non più utilizzato come termine. Nome del predecessore del Report Builder.
+* **ExcelClient:** non viene più utilizzato come termine. Nome del predecessore del Report Builder.
 * **Scadenza:** nel contesto di una variabile di conversione, per quanto tempo il valore persiste sul backend. Questa persistenza consente agli eventi di associarsi ai valori delle variabili prima dell&#39;hit dell&#39;evento. Consulta [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida utente Admin.
 * **Flusso:** tipo di visualizzazione in Analysis Workspace che mostra i percorsi seguiti dagli utenti sul sito. Consulta [Visualizzazione Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) nella guida utente Analisi.
 * **Genesis:** non viene più utilizzato come termine. Nome precedente di Data Connectors.
@@ -66,7 +65,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
    * Custom Insight, nome storico per la variabile di traffico personalizzata.
 * **KPI:** abbreviazione dell’indicatore di prestazioni chiave. Metriche che consentono a un&#39;azienda di comprendere le prestazioni del sito. Ogni organizzazione dispone di KPI diversi che misurano diversi aspetti della propria attività. Consulta [Creare un documento di progettazione della soluzione](/help/implement/prepare/solution-design.md) nella guida utente Implementa.
 * **Latenza:** il ritardo tra quando i dati vengono raccolti e quando sono disponibili nei rapporti. La latenza tipica in una suite di rapporti è di 30-90 minuti. Consulta [Latency](/help/technotes/latency.md) nella guida utente relativa alle note tecniche.
-* **Launch:** breve per Adobe Experience Platform Launch, l&#39;attuale soluzione di implementazione di Adobe. Consulta [Panoramica](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) nella guida utente di Adobe Experience Platform Launch.
+* **Launch:** breve per Adobe Experience Platform Launch, l&#39;attuale soluzione di implementazione di Adobe. Consulta [Panoramica](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) nella guida utente di Adobe Experience Platform Launch.
 * **Proprietà elenco:** impostazione che converte una variabile di traffico tipica per supportare più valori nello stesso hit. Qualsiasi variabile di traffico personalizzata può diventare proprietà elenco se l’impostazione è abilitata. Consulta [prop](../implement/vars/page-vars/prop.md) nella guida utente Implementa .
 * **List var:** una variabile distinta separata dalle variabili di conversione. Le variabili elenco supportano più valori nello stesso hit e vengono mantenute in una visita, in modo analogo alle variabili di conversione. Solo tre variabili elenco sono disponibili per un&#39;organizzazione. Consulta [list](/help/implement/vars/page-vars/list.md) nella guida utente Implementa .
 * **Società di accesso:** raccolta di suite di rapporti utilizzate dall’organizzazione. Alcune organizzazioni dispongono di più società di accesso che si applicano a parti diverse della loro organizzazione.
