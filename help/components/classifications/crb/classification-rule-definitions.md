@@ -2,14 +2,13 @@
 description: Definizioni degli elementi dell’interfaccia nelle pagine del Generatore di regole di classificazione.
 subtopic: Classifications
 title: 'Regole di classificazione: definizioni'
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 24%
+source-wordcount: '873'
+ht-degree: 23%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 24%
 
 Definizioni degli elementi dell’interfaccia nelle pagine del Generatore di regole di classificazione.
 
-## Pagina delle regole {#section_4A5BF384EEEE4994B6DC888339833529}
+## Pagina Regole {#section_4A5BF384EEEE4994B6DC888339833529}
 
 In questa pagina vengono visualizzate le regole in un set di regole.
 
@@ -35,7 +34,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selezione di suite per report e variabili </p> </td> 
-   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Le suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>Puoi applicare una sola variabile quando crei un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set di regole</span> solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (o <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Quindi seleziona la variabile , quindi fai clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Classificazioni di traffico</a> e <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Classificazioni di conversione</a> nella Guida dell'amministratore. </p> </td> 
+   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Le suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>Puoi applicare una sola variabile quando crei un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: Puoi utilizzare solo le variabili a cui hai accesso nelle suite di rapporti. Le variabili vengono visualizzate nel pannello <span class="wintitle"> Nuovo set di regole</span> solo dopo che è stata definita almeno una classificazione per quella variabile. </p> <p> Puoi creare classificazioni su una variabile in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (o <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Quindi seleziona la variabile , quindi fai clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Classificazioni di traffico</a> e <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Classificazioni di conversione</a> nella Guida dell'amministratore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Attiva</span> </p> </td> 
@@ -118,7 +117,7 @@ In questa pagina vengono visualizzate le regole in un set di regole.
  </tbody> 
 </table>
 
-## Pagina con espressione regolare {#section_C932A5469E774841B2229965A154163C}
+## Pagina Espressione regolare {#section_C932A5469E774841B2229965A154163C}
 
 Puoi modificare le espressioni regolari nella pagina [!UICONTROL Regular Expression] .
 
@@ -134,7 +133,7 @@ Puoi modificare le espressioni regolari nella pagina [!UICONTROL Regular Express
 
 Consulta [Espressioni regolari nelle regole di classificazione](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-## Pagina di test {#section_EC926F97901C4E65901413F9683AA70A}
+## Pagina Test {#section_EC926F97901C4E65901413F9683AA70A}
 
 Questa pagina ti consente di sottoporre a test le regole in un set.
 
