@@ -4,11 +4,10 @@ title: Reportistica di Activity Map
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 15%
+source-wordcount: '144'
+ht-degree: 9%
 
 ---
 
@@ -30,4 +29,4 @@ Consente ad Analytics di raccogliere le attività utente fornite da Activity Map
    | Collegamenti Activity Map | Elenca tutti i collegamenti raccolti nell&#39;intero sito web. |
    | Collegamenti e area geografica di Activity Map | Elenca tutti i collegamenti raccolti con la relativa area geografica nell’intero sito web. |
 
-Per i dati da compilare, consulta la [documentazione di Activity Map](https://docs.adobe.com/content/help/it-IT/analytics/analyze/activity-map/activity-map.html) per istruzioni di implementazione complete.
+Per i dati da compilare, consulta la [documentazione di Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) per istruzioni di implementazione complete.
