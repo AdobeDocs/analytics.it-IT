@@ -2,14 +2,13 @@
 description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per ogni strumento di Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le tue esigenze, passa a quello successivo.
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
-source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 91%
+source-wordcount: '1153'
+ht-degree: 90%
 
 ---
-
 
 # Quale strumento Adobe Analytics usare?
 
@@ -28,10 +27,10 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 * Impostare eventi di Calendario
 * Impostare le destinazioni
 * Visualizzare i rapporti generati da bot
-* Per accedere alle visualizzazioni video univoche del Daypart video e del rilascio del visualizzatore.
+* Per accedere a visualizzazioni video univoche del dayparting dei video e del rilascio del visualizzatore.
 * Sfruttare gli elenchi di pubblicazione nei rapporti pianificati
 
-**[Data Workbench](https://docs.adobe.com/content/help/it-IT/data-workbench/using/home.html)** è indicato per:
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** è indicato per:
 
 * Usufruire dell’opzione più flessibile tra gli strumenti Analytics (analisi a livello di visitatore e di hit)
 * Creare un dataset multicanale di interazioni online e offline da CRM a POS a Web
@@ -59,7 +58,7 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)** sono utili 
    * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
    * Elaborazione completa: origini dati con marca temporale, elaborate come gli hit raccolti dai server Adobe. Ad esempio, i dati vengono inseriti direttamente nel percorso del visitatore.
 
-**[È necessario utilizzare ](https://www.adobeexchange.com/experiencecloud.html)** i Connettori dati:
+**[Data ](https://www.adobeexchange.com/experiencecloud.html)** Connectors:
 
 * Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. In genere, i Data Connectors incorporano dati di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
 
@@ -69,9 +68,9 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)** sono utili 
 
 API di **[inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* API di inserimento dati e API di inserimento dati in blocco sono entrambi metodi per inviare dati di raccolta lato server a  Adobe Analytics. Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L&#39;API di inserimento dati di massa accetta file CSV formattati contenenti i dati dell&#39;evento, un evento per riga. Se state lavorando a una nuova implementazione della raccolta lato server, è consigliabile utilizzare l&#39;API di inserimento dati in blocco.
+* L’API di inserimento dati e l’API di inserimento dati in blocco sono entrambi metodi per inviare i dati di raccolta lato server ad Adobe Analytics. Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L’API di inserimento dati in blocco accetta file in formato CSV contenenti dati evento, un evento per riga. Se stai lavorando a una nuova implementazione della raccolta lato server, ti consigliamo di utilizzare l’API di inserimento dati in blocco.
 
-Gli **[Attributi cliente](https://docs.adobe.com/content/help/it-IT/core-services/interface/customer-attributes/attributes.html)** sono indicati nei seguenti casi:
+Gli **[Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** sono indicati nei seguenti casi:
 
 * Se acquisisci dati cliente Enterprise in un database CRM (Customer Relationship Management) e vuoi caricarli in Experience Cloud.
 * Se desideri utilizzare i dati CRM per analisi più approfondite in Analytics o come criteri di targeting in Adobe Target.
@@ -88,7 +87,7 @@ Gli **[Attributi cliente](https://docs.adobe.com/content/help/it-IT/core-servic
 * Se le opzioni di layout personalizzate di Workspace non sono sufficienti (con Report Builder è possibile realizzare qualsiasi tipo di rapporto, entro i limiti di Excel).
 * Per collegare liberamente ai dati Adobe i dati provenienti dall’input degli utenti e da origini dati offline (impressioni, costo). Una soluzione più permanente per il collegamento dei dati è Origini dati (consulta Importazione di dati in Analytics).
 * Per unire i dati da diversi rapporti dimensionali (ad esempio, per unire un rapporto sulle impressioni promozionali a uno sui dati “dal clic alla conversione”).
-* Unione di dati da suite di rapporti diverse, mediante la somma o la visualizzazione affiancata nella stessa tabella.
+* Unione dei dati da suite di rapporti diverse, tramite la somma o la visualizzazione affiancata nella stessa tabella.
 * Se intendi automatizzare le operazioni tramite pianificazione (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** è indicato nei seguenti casi:
