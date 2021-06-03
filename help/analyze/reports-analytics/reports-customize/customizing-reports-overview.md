@@ -5,11 +5,10 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 6%
+source-wordcount: '868'
+ht-degree: 4%
 
 ---
 
@@ -39,10 +38,10 @@ Solo gli amministratori possono creare un rapporto personalizzato. Quando crei u
 
 >[!MORELIKETHIS]
 >
->* [Personalizzazione del menu](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
+>* [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
-## Seleziona un intervallo di date o date {#task_9BEF7D4D839A4748B76E8500D1406C34}
+## Selezionare un intervallo di date o date {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
 I passaggi che descrivono &quot;caldo&quot; da utilizzare consentono di scegliere i periodi di tempo per i dati del rapporto.
 
@@ -73,7 +72,7 @@ Quando apri una dashboard con minirapporti che hanno intervalli di date diversi,
 
 1. Fai clic su **[!UICONTROL Run Report]**.
 
-## Confronta le date {#task_95155C3700774B709F5FB81AE96B0824}
+## Confronto delle date {#task_95155C3700774B709F5FB81AE96B0824}
 
 Passaggi che descrivono come utilizzare il calendario per eseguire confronti di date tra rapporti con classifica.
 
@@ -87,7 +86,7 @@ Non è possibile confrontare date tra rapporti con tendenze.
 
 >[!NOTE]
 >
->Se desideri eseguire un confronto delle date sulle metriche chiave in un dashboard, puoi estrarre i dati in [Report Builder](https://docs.adobe.com/content/help/it-IT/analytics/analyze/report-builder/home.html) utilizzando due richieste separate. In seguito, è possibile utilizzare formule personalizzate in Excel per analizzare la differenza tra le due.
+>Se desideri eseguire un confronto delle date sulle metriche chiave in un dashboard, puoi estrarre i dati in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) utilizzando due richieste separate. In seguito, è possibile utilizzare formule personalizzate in Excel per analizzare la differenza tra le due.
 
 Per confrontare date tra rapporti classificati in Reporting e analisi:
 
@@ -131,7 +130,7 @@ Dopo aver eseguito un rapporto con date confrontate o per confronti A/B, puoi no
 1. Fai clic su **[!UICONTROL Run Report]**.
 1. Fai clic su **[!UICONTROL Normalize Data: Yes]**.
 
-## Selezionare una pagina per un report {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
+## Selezionare una pagina per un rapporto {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
 Passaggi che descrivono come selezionare una pagina specifica dalle pagine del sito web per un rapporto.
 
@@ -147,7 +146,7 @@ t_reports_select_page.xml
 1. Individua la pagina.
 1. Fai clic su **[!UICONTROL OK.]**
 
-## Confronta suite di rapporti {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
+## Confrontare suite di rapporti {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
 Passaggi che descrivono come visualizzare i rapporti da due suite di rapporti nello stesso rapporto.
 
@@ -195,7 +194,7 @@ Il periodo di tempo del rapporto determina quali opzioni di granularità sono di
 1. Genera un rapporto con tendenze, ad esempio **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
 1. Fai clic sul collegamento **[!UICONTROL View by]** , quindi fai clic su una granularità.
 
-## Esegui un rapporto del giorno della settimana {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
+## Eseguire un rapporto giornaliero della settimana {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
 Passaggi che descrivono come eseguire rapporti in un giorno specifico della settimana, ad esempio su ogni lunedì in un determinato intervallo di date.
 
@@ -224,4 +223,4 @@ La maggior parte dei rapporti in Reports &amp; Analytics ora include un pulsante
 
 Attualmente, il pulsante è disponibile solo se il tuo nome utente dispone dei diritti completi su Analysis Workspace.
 
-Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html) .
+Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) .
