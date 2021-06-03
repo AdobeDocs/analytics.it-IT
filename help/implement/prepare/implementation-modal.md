@@ -1,18 +1,17 @@
 ---
 title: Modale di implementazione
-description: Scopri la prima esperienza cliente per implementare l’implementazione di Adobe  Analytics.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Scopri la prima esperienza cliente per l’implementazione dell’implementazione di Adobe Analytics.
+exl-id: 46d35adf-33f3-422c-abda-5f4b56f803aa
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 13%
+source-wordcount: '28'
+ht-degree: 14%
 
 ---
 
-
 # Modale di implementazione
 
-Consulta [Creare una suite](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)di rapporti.
+Consulta [Creare una suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/create-report-suite.html).
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
