@@ -1,14 +1,13 @@
 ---
 title: Come impostare un account Advertising in Advertising Analytics
 description: Consente di creare nuovi account pubblicitari e di eseguire il mapping di più account a più suite di rapporti.
-translation-type: tm+mt
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 6%
+source-wordcount: '844'
+ht-degree: 3%
 
 ---
-
 
 # Configurare un account Advertising
 
@@ -59,13 +58,13 @@ Compila le seguenti **[!UICONTROL Tracking Settings]** linee guida:
 
    | Impostazione | Descrizione |
    |--- |--- |
-   | Tipo | <ul><li>**Automatico:** consente al motore di Advertising Cloud di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento o agli URL di destinazione del motore di ricerca. Questo è l’approccio più semplice, ma potrebbe non tradursi in un set di dati integrato ottimale.<br>**Importante:** per configurare un account del motore di ricerca in &quot;Modalità automatica&quot;, sei responsabile di intraprendere le seguenti azioni:<br> - Il parametro e il valore &quot;s_kwcid&quot; verranno aggiunti ai modelli di tracciamento dell’account o agli URL della pagina di destinazione nell’account aggiunto. Questo verrà inserito alla fine dell’URL. Di conseguenza, potrebbe essere necessaria un&#39;azione aggiuntiva da parte dell&#39;utente se il server web richiede una determinata coppia chiave=valore alla fine dell&#39;URL OPPURE un aggiornamento per supportare una nuova coppia chiave=valore nell&#39;URL. **Nota:** ulteriori informazioni su se aggiungere questo parametro ai criteri sulla sicurezza dei  [contenuti](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).<br>- Inoltre, le parole chiave possono essere inserite nell’URL di destinazione come parte del valore &quot;s_kwcid&quot;, quindi se contengono caratteri o simboli speciali, si prega di confermare che il server web può supportare tali caratteri (un esempio di caratteri speciali comuni è &quot;+&quot; che viene utilizzato nelle parole chiave &quot;Broad Match Modified&quot;).</li><li>**Manuale:** consente di gestire l’aggiunta dei parametri di tracciamento ai modelli di tracciamento o agli URL di destinazione del motore di ricerca. [Fai riferimento a questi esempi di tracciamento manuale per ogni motore](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md) di ricerca.</li></ul> |
+   | Tipo | <ul><li>**Automatico:** consente al motore di Advertising Cloud di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento o agli URL di destinazione del motore di ricerca. Questo è l’approccio più semplice, ma potrebbe non tradursi in un set di dati integrato ottimale.<br>**Importante:** per configurare un account del motore di ricerca in &quot;Modalità automatica&quot;, sei responsabile di intraprendere le seguenti azioni:<br> - Il parametro e il valore &quot;s_kwcid&quot; verranno aggiunti ai modelli di tracciamento dell’account o agli URL della pagina di destinazione nell’account aggiunto. Questo verrà inserito alla fine dell’URL. Di conseguenza, potrebbe essere necessaria un&#39;azione aggiuntiva da parte dell&#39;utente se il server web richiede una determinata coppia chiave=valore alla fine dell&#39;URL OPPURE un aggiornamento per supportare una nuova coppia chiave=valore nell&#39;URL. **Nota:** ulteriori informazioni su se aggiungere questo parametro ai criteri sulla sicurezza dei  [contenuti](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).<br>- Inoltre, le parole chiave possono essere inserite nell’URL di destinazione come parte del valore &quot;s_kwcid&quot;, quindi se contengono caratteri o simboli speciali, si prega di confermare che il server web può supportare tali caratteri (un esempio di caratteri speciali comuni è &quot;+&quot; che viene utilizzato nelle parole chiave &quot;Broad Match Modified&quot;).</li><li>**Manuale:** consente di gestire l’aggiunta dei parametri di tracciamento ai modelli di tracciamento o agli URL di destinazione del motore di ricerca. [Fai riferimento a questi esempi di tracciamento manuale per ogni motore](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md) di ricerca.</li></ul> |
 
 1. Nella sezione **[!UICONTROL Mapping]** scegli le suite di rapporti da collegare a questo account del motore di ricerca. Devi fornire almeno una suite di rapporti prima di poter salvare l’account Advertising. Puoi mappare più account a più suite di rapporti (1:1, 1:Many, Many:Many). Tieni presente che i dati richiamati da AMO dal motore di ricerca vengono semplicemente copiati in qualsiasi suite di rapporti mappata, in modo che non vi sia divisione dei dati.
 
    >[!IMPORTANT]
    >
-   >Solo le suite di rapporti mappate [a un&#39;organizzazione Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html) saranno disponibili per la selezione. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Solo le suite di rapporti mappate [a un&#39;organizzazione Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) saranno disponibili per la selezione. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Per **[!UICONTROL Mapping Settings]** seguire le seguenti linee guida:
 
@@ -79,7 +78,7 @@ Compila le seguenti **[!UICONTROL Tracking Settings]** linee guida:
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Mappatura di suite di rapporti </p> </td> 
-      <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> <p>Se la suite di rapporti non è elencata, è possibile <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  > mappare la suite di rapporti su un'organizzazione di Experience Cloud</a> utilizzando questo strumento. </p> </td> 
+      <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> <p>Se la suite di rapporti non è elencata, è possibile <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > mappare la suite di rapporti su un'organizzazione di Experience Cloud</a> utilizzando questo strumento. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -92,4 +91,3 @@ Compila le seguenti **[!UICONTROL Tracking Settings]** linee guida:
 >[!NOTE]
 >
 >Attendi almeno 24 ore prima che i dati del motore di ricerca inizino a popolare i rapporti di Analytics.
-
