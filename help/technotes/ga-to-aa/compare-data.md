@@ -1,23 +1,22 @@
 ---
-title: Confronto  dati Adobe Analytics con prodotti di terze parti
-description: Comprendi le tue opzioni quando confronta direttamente i dati in  Adobe Analytics con quelli raccolti da altre soluzioni Analytics.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+title: Confrontare i dati di Adobe Analytics con i prodotti di terze parti
+description: Comprendi le tue opzioni quando confronti direttamente i dati in Adobe Analytics con quelli raccolti da altre soluzioni Analytics.
+exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 3%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
+# Confrontare i dati di Adobe Analytics con i prodotti di terze parti
 
-# Confronto  dati Adobe Analytics con prodotti di terze parti
+Ci sono molte soluzioni di analisi disponibili online. Ciascuna di queste soluzioni utilizza i propri metodi per implementare il codice e raccogliere i dati. I diversi prodotti hanno una propria definizione su cosa costituisca una visualizzazione di pagina, una visita, un visitatore univoco e altre metriche utilizzate in ciascun rispettivo prodotto.
 
-Ci sono molte soluzioni di analisi disponibili online. Ciascuna di queste soluzioni utilizza i propri metodi per implementare il codice e raccogliere i dati. Diversi prodotti hanno una propria definizione su cosa costituisca una visualizzazione di pagina, una visita, un visitatore univoco e altre metriche utilizzate in ciascun prodotto.
+A causa di queste definizioni, struttura dei dati e implementazione estremamente diverse, **Adobe Customer Care non risolve eventuali discrepanze con gli strumenti di analisi di terze parti.**
 
-A causa di queste definizioni, struttura dei dati e implementazione estremamente diverse, l&#39;Assistenza clienti **Adobe non risolve eventuali discrepanze con gli strumenti di analisi di terze parti.**
+Se noti una grande discrepanza tra Adobe Analytics e uno strumento di analisi di terze parti, sono disponibili le seguenti risorse:
 
-Se si riscontra un&#39;ampia discrepanza tra  Adobe Analytics e uno strumento di analisi di terze parti, sono disponibili le risorse seguenti:
-
-* **Autocontrollo mediante il debugger**: È possibile controllare le pagine del sito con [Adobe  debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html) o un altro monitor di pacchetti. L’utilizzo del debugger consente di convalidare l’implementazione per verificare che le richieste di immagini vengano eseguite correttamente con le variabili corrette.
-* **Autocontrollo mediante feed** di dati:  Adobe offre alla vostra organizzazione la possibilità di ricevere feed [di](/help/export/analytics-data-feed/data-feed-overview.md) dati contenenti tutti i dati grezzi per ogni giorno. L&#39;organizzazione può quindi utilizzare questi dati e confrontarli con gli strumenti di analisi di terze parti per determinare eventuali discrepanze.
-* **Audit assistito e convalida dei dati con  Consulenza** del Adobe: Se desiderate che un rappresentante ufficiale del Adobe  esegua un controllo completo dell&#39;implementazione sul vostro sito, contattate l&#39;Account Manager della vostra organizzazione. Possono organizzare una riunione con un consulente di implementazione in grado di controllare il sito in base al contratto della tua azienda.
+* **Autocontrollo tramite il debugger**: È possibile controllare le pagine del sito con  [Adobe ](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) Debug o un altro monitor di pacchetti. L’utilizzo del debugger consente di convalidare l’implementazione per assicurarsi che le richieste di immagini vengano attivate correttamente con le variabili corrette.
+* **Autocontrollo tramite feed** di dati: Adobe offre alla tua organizzazione la possibilità di ricevere  [feed di ](/help/export/analytics-data-feed/data-feed-overview.md) dati contenenti tutti i dati non elaborati per ogni giorno. L’organizzazione può quindi utilizzare questi dati e confrontarli con gli strumenti di analisi di terze parti per determinare eventuali discrepanze.
+* **Audit assistito e convalida dei dati con Adobe Consulting**: Se desideri che un rappresentante Adobe ufficiale esegua un controllo di implementazione completo sul tuo sito, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente di implementazione che può controllare il tuo sito in base al contratto della tua azienda.
