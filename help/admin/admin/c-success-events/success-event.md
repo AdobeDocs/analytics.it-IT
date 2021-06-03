@@ -2,14 +2,13 @@
 description: Gli eventi di successo sono azioni che possono essere tracciate. È possibile determinare l'evento di successo. Ad esempio, se un visitatore acquista un articolo, l’evento di acquisto potrebbe essere considerato l’evento di successo.
 keywords: prodView
 title: Panoramica eventi di successo
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 5%
+source-wordcount: '688'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +34,7 @@ Ci sono molti tipi di eventi di successo, a seconda del tipo di sito web. Alcuni
 * **High Tech**: Download white paper, RFP, completamento del modulo, richieste di supporto
 * **Automotive**: Invio di lead, richiesta preventivo, download di brochure
 
-La variabile [s.events](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/events/event-serialization.html) definisce un evento riuscito.
+La variabile [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) definisce un evento riuscito.
 
 ## Pagina Eventi di successo - Descrizioni {#section_681ECEC981694CABBDBF00E18165B447}
 
