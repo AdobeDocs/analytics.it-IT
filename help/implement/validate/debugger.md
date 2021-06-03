@@ -2,10 +2,9 @@
 title: Debugger Adobe Experience Cloud legacy
 description: Installa il debugger Adobe Experience Cloud legacy. Questo debugger esamina i tag di Analytics, Target, Advertising Cloud, Identity Service e Launch.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questo strumento di debug non viene più mantenuto. Adobe consiglia invece di utilizzare l’ [Estensione Adobe Experience Cloud Debugger Chrome](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html).
+>Questo strumento di debug non viene più mantenuto. Adobe consiglia invece di utilizzare l’ [Estensione Adobe Experience Cloud Debugger Chrome](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
 
 La sezione [!UICONTROL Legacy Debugger] esamina i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di vedere quali dati vengono inviati ad Adobe in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere i problemi o convalidare l’implementazione della tua organizzazione.
 
@@ -36,7 +35,7 @@ Ogni browser ha diversi modi di gestire i segnalibri, ma il concetto è lo stess
 
 #### Chrome
 
-Se insistai per non utilizzare l&#39; [estensione chrome](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html), puoi utilizzare al suo posto il bookmarklet di debug legacy.
+Se insistai per non utilizzare l&#39; [estensione chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), puoi utilizzare al suo posto il bookmarklet di debug legacy.
 
 1. Fai clic sui tre punti in alto a destra, quindi vai a Segnalibri > Gestione segnalibri. È inoltre possibile premere `Ctrl` + `Shift` + `O` (Windows) o `Cmd` + `Shift` + `O` (Mac).
 2. In alto a destra del gestore dei segnalibri, fare clic sui tre punti, quindi fare clic su &#39;Aggiungi nuovo segnalibro&#39;.
