@@ -4,11 +4,10 @@ description: Interagire con elementi dimensionali dinamici e statici nelle tabel
 feature: Tabelle a forma libera
 role: Business Practitioner, Administrator
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 98%
 
 ---
 
@@ -54,4 +53,4 @@ Gli elementi dimensionali statici **non** dispongono dell’opzione filtro righe
 Le righe dinamiche e statiche si comportano in modo diverso nella riga del totale a forma libera. Per impostazione predefinita:
 
 * Le righe dinamiche vengono sommate lato server e deduplicano metriche quali visite o visitatori
-* Le righe statiche vengono sommate lato client e **non** duplicano le metriche. Per calcolare la riga del totale lato server, modifica l’impostazione della riga in **Mostra totale**. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Le righe statiche vengono sommate lato client e **non** duplicano le metriche. Per calcolare la riga del totale lato server, modifica l’impostazione della riga in **Mostra totale**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
