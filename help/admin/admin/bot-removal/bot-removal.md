@@ -2,10 +2,9 @@
 title: Rimozione dei bot in Adobe Analytics
 description: Come rimuovere i bot in Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-translation-type: tm+mt
-source-git-commit: bb8ccbf782a1431e5278a95923a42c9e9e9e862b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -54,7 +53,7 @@ Una volta configurato questo elemento dati, segui [queste istruzioni](https://ex
 
 ### Passaggio 2: Utilizzare la segmentazione per identificare i bot
 
-Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) per identificare i visitatori che si comportano come bot. I robot sono spesso definiti dal loro comportamento: visite a accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivi/browser, senza referrer, nuovi visitatori, pagine di destinazione insolite, ecc. Utilizza i poteri di drill-down e segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Ad esempio, ecco una schermata di un segmento che puoi utilizzare:
+Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) per identificare i visitatori che si comportano come bot. I robot sono spesso definiti dal loro comportamento: visite a accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivi/browser, senza referrer, nuovi visitatori, pagine di destinazione insolite, ecc. Utilizza i poteri di drill-down e segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Ad esempio, ecco una schermata di un segmento che puoi utilizzare:
 
 ![](assets/bot-filter-seg1.png)
 
