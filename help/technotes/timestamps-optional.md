@@ -5,11 +5,10 @@ title: Utilizzo dei timestamp opzionali
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 16%
+source-wordcount: '614'
+ht-degree: 15%
 
 ---
 
@@ -27,9 +26,9 @@ Marca temporale opzionale è l’impostazione predefinita per tutte le nuove sui
 >
 >Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite per report generate da un modello Le nuove suite di rapporti copiate da una suite di rapporti esistente erediteranno le impostazioni dall’originale.
 
-Per ulteriori informazioni sulla configurazione, consulta [Marca temporale opzionale](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) .
+Per ulteriori informazioni sulla configurazione, consulta [Marca temporale opzionale](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) .
 
-## Marca temporale opzionale: Integrazione dei dati con marca temporale e dei dati senza marca temporale {#section_BF17CB593044462B993FD0D28EA56518}
+## Marca temporale opzionale: Integrazione dei dati con marca temporale e dei dati con marca non temporale {#section_BF17CB593044462B993FD0D28EA56518}
 
 Utilizzando la funzione facoltativa Marca temporale, puoi combinare dati senza marca temporale con dati con marca temporale senza la conseguente perdita di dati. I dati offline con marca temporale generata da un dispositivo mobile possono essere combinati con dati live e senza marca temporale da una pagina web, oppure integrati con dati provenienti da qualsiasi piattaforma mediante una chiamata di marca temporale lato client.
 
@@ -43,7 +42,7 @@ Una suite di rapporti può avere una delle seguenti impostazioni di marca tempor
 * Marca temporale necessaria (impostazione visitorID non supportata)
 * Marca temporale opzionale (impostazione di visitorID supportato ma non sugli hit con marca temporale)
 
-## Informazioni sulle marche temporali Funzioni facoltative {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## Informazioni sulle funzioni opzionali delle marche temporali {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 Marca temporale opzionale consente di integrare e creare rapporti tra più suite di rapporti con o senza marche temporali lato client incluse. Con Marca temporale opzionale è possibile aggiornare l’app in modo da utilizzare marche temporali mentre si utilizzano comunque dati privi di marca temporale dell’app precedente.
 
@@ -69,7 +68,7 @@ Di seguito sono riportate le best practice e alcuni requisiti e limitazioni da t
 
    I dati fuori ordine possono includere i dati in arrivo ritardati dalla raccolta dati offline e gli hit in arrivo ritardati o gli orologi non sincronizzati su dispositivi mobili offline. I dati fuori ordine possono avere un impatto negativo sui calcoli del tempo (come i valori del tempo trascorso), sull’attribuzione (persistenza eVar), sul numero di visite/sui conteggi delle visite e sui rapporti sui percorsi.
 
-* L&#39;utilizzo di marche temporali quando si imposta un [s.visitorID](https://docs.adobe.com/content/help/it-IT/analytics/components/metrics/unique-visitors.html) non è consigliato. Può portare a dati fuori servizio.
+* L&#39;utilizzo di marche temporali quando si imposta un [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) non è consigliato. Può portare a dati fuori servizio.
 
 * Le app ibride composte da un’app (con marca temporale e dati offline) che apre un browser web (dati live e senza marca temporale) non devono utilizzare marche temporali. Ne consegue una segnalazione inesatta della sessione.
 
