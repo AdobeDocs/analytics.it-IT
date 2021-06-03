@@ -4,14 +4,13 @@ title: Confronto delle API di reportistica di Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
-
 
 # Confronto delle API di reportistica di Analytics
 
@@ -40,7 +39,7 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
    <td colname="col5"> Dati completamente elaborati e finalizzati utilizzati per eseguire il pull di esportazioni dati di grandi dimensioni. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/it-IT/analytics/technotes/latency.html"  > Latenza</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > Latenza</a> </p> </td> 
    <td colname="col2"> 30-90 minuti </td> 
    <td colname="col3"> * Secondi -10 minuti </td> 
    <td colname="col4"> Secondi -10 minuti </td> 
@@ -54,7 +53,7 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
    <td colname="col5"> a schermo intero </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://docs.adobe.com/content/help/it-IT/analytics/landing/home.html"  > Interfacce di reporting</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > Interfacce di reporting</a> </td> 
    <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Rapporti in tempo reale in Reports &amp; Analytics, Report Builder, API 1.4 </td> 
    <td colname="col4"> Solo API </td> 
@@ -86,7 +85,7 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > API di Analytics</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > Rapporti in tempo reale</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Panoramica di Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/it-IT/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,4 +94,3 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
 
 * [Adobe/IO](https://www.adobe.io/): una fonte completa per la documentazione tecnica e gli strumenti necessari per integrare le tecnologie Adobe nelle applicazioni.
 * [API di query di Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
