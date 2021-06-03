@@ -5,11 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizzazioni
 role: Business Practitioner, Administrator
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1083'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1081'
+ht-degree: 99%
 
 ---
 
@@ -63,7 +62,7 @@ Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per ac
 | Visualizza asse doppia | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | Mostra anomalie | Completa i grafici a linee e le tabelle a forma libera con la visualizzazione del rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni a linee include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
 
-## Legend (Legenda) {#legend}
+## Legend (Legenda)  {#legend}
 
 Una legenda consente di correlare la data in una tabella di origine alle serie tracciate nella visualizzazione. La legenda è interattiva: puoi fare clic su un elemento della legenda per mostrare o nascondere una serie nella visualizzazione. È utile se desideri semplificare i dati visualizzati.
 
@@ -79,7 +78,7 @@ Per modificare un’etichetta di legenda:
 1. Inserisci il nuovo testo dell’etichetta.
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
 
-Per approfondire, utilizza questo [collegamento a un video](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sull’argomento.
+Per approfondire, utilizza questo [collegamento a un video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sull’argomento.
 
 ## Menu di scelta rapida {#right-click}
 
