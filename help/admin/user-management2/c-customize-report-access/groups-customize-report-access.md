@@ -6,10 +6,10 @@ title: Panoramica di personalizzazione accesso ai rapporti
 feature: Strumenti di amministrazione
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 34%
+source-wordcount: '563'
+ht-degree: 29%
 
 ---
 
@@ -61,12 +61,12 @@ Ad esempio, puoi creare un gruppo con accesso a più strumenti di Analytics ( [!
    <td colname="col2"> <p>Puoi personalizzare le autorizzazioni per includere o escludere l’accesso alle dimensioni (oltre alle metriche). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Tutte le dimensioni e le metriche correnti all'interno dei gruppi personalizzati sono state migrate automaticamente nelle nuove categorie. Se un gruppo esistente dispone di metriche abilitate, per impostazione predefinita gli verranno assegnate tutte le dimensioni (sulla base delle eVar e dei contenuti) e le metriche a cui sono state appena assegnate delle autorizzazioni. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Autorizzazioni per Importazione classificazioni (in precedenza SAINT): l'accesso alle classificazioni è determinato dall'accesso alla <a href="https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/c-classifications.html">variabile</a> su cui è basata la classificazione. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Autorizzazioni per Importazione classificazioni (in precedenza SAINT): l'accesso alle classificazioni è determinato dall'accesso alla <a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">variabile</a> su cui è basata la classificazione. </li> 
     </ul> <p>Consulta <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Personalizzare le autorizzazioni di Dimension</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Consigliato solo per i nuovi clienti o clienti con le società <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/core-services.html"> fornite nell'Experience Cloud</a>. È pianificata una migrazione dei clienti <span class="keyword"> Analytics</span> esistenti al sistema di gestione delle identità <span class="keyword"> Experience Cloud</span> . </p> <p>Ulteriori informazioni sono disponibili in <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Migrazione degli utenti di Analytics all'Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Consigliato solo per i nuovi clienti o clienti con le società <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html"> fornite nell'Experience Cloud</a>. È pianificata una migrazione dei clienti <span class="keyword"> Analytics</span> esistenti al sistema di gestione delle identità <span class="keyword"> Experience Cloud</span> . </p> <p>Ulteriori informazioni sono disponibili in <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Migrazione degli utenti di Analytics all'Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>In base al contenuto </p> </td> 
