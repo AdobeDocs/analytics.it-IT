@@ -1,60 +1,59 @@
 ---
-title: Suite di rapporti globali in  Adobe Analytics
-description: Scopri i vantaggi e i requisiti di una suite di rapporti globale.
-translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+title: Suite di rapporti globali in Adobe Analytics
+description: Scopri i vantaggi e i requisiti dell’utilizzo di una suite di rapporti globale.
+exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '872'
+ht-degree: 1%
 
 ---
 
-
 # Considerazioni globali sulla suite di report
 
-Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tutti i domini e le app di proprietà dell&#39;organizzazione. Questa tecnica di raccolta dei dati richiede preparazione e può richiedere il coordinamento tra i team all&#39;interno dell&#39;organizzazione.
+Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tutti i domini e le app di proprietà della tua organizzazione. Questa tecnica di raccolta dati richiede preparazione e può richiedere il coordinamento tra i team all’interno della tua organizzazione.
 
 ## Vantaggi
 
- Adobe consiglia di implementare una suite di rapporti globale nella maggior parte dei casi.
+Nella maggior parte dei casi, Adobe consiglia di implementare una suite di rapporti globale.
 
-* **Dati aggregati:suite di rapporti** globali che consentono di visualizzare gli eventi KPI e di successo nei siti di proprietà. La segmentazione e le suite di rapporti virtuali possono essere utilizzate per visualizzare dati specifici per il sito.
-* **Supporto per analisi cross-device:** CDA richiede una suite di rapporti che raccoglie dati da più luoghi, come il sito Web e l&#39;app mobile. I dispositivi separati possono unire i dati se implementati correttamente. Per ulteriori informazioni, consulta [Analisi cross-device](../../components/cda/overview.md) nella guida utente dei componenti.
-* **Nessuna necessità di più suite di rapporti:** tutti i dati possono essere raccolti in una singola suite di rapporti, pertanto è meno probabile che uno sviluppatore invii erroneamente i dati alla suite di rapporti sbagliata.
-* **Non è necessario eseguire il rollup:** i rollup sono una funzionalità datata abbastanza che aggrega quotidianamente i dati delle singole suite di rapporti. I rollup non deduplicano i dati delle visite o dei visitatori, il che può causare un aumento dei numeri. Per ulteriori informazioni, consulta [Rollups](../../admin/c-manage-report-suites/rollup-report-suite.md) nella guida utente di amministrazione.
-* **Risparmio di tempo: i progetti** Workspace, le classificazioni, i segmenti e le metriche calcolate sono legati alla stessa suite di rapporti globale. Gli amministratori dedicano meno tempo alla gestione di questi componenti e alla gestione dei dati.
-* **Attribuzione tra marchi più accurata:** se una visita inizia su un sito e poi fa clic su un altro dei siti di proprietà prima di attivare un evento di successo, l&#39;attribuzione viene raccolta accuratamente. Ad esempio, un visitatore fa clic su un collegamento di ricerca a pagamento e accede al sito A. Quindi fanno clic su un collegamento al sito B, quindi effettuano un acquisto. Una suite di rapporti globale attribuisce correttamente l&#39;acquisto alla ricerca a pagamento.
-* **Implementazione semplificata:** Poiché tutti i marchi/siti inviano dati alla stessa suite di rapporti, le tue implementazioni in ogni sito sono allineate. Questa governance forzata assicura che una dimensione o metrica specifica venga salvata nello stesso eVar o evento . Questa semplificazione è utile per amministratori, tester, proprietari di tag e analisti.
+* **Dati aggregati:** le suite di rapporti globali ti consentono di visualizzare gli eventi KPI e di successo nei tuoi siti di proprietà. La segmentazione e le suite di rapporti virtuali possono essere utilizzate per visualizzare dati specifici per il sito.
+* **Supporto per Analisi multidispositivo:** CDA richiede una suite di rapporti che raccoglie dati da più posizioni, ad esempio il sito web e l’app mobile. Se implementati correttamente, dispositivi separati possono unire i dati. Per ulteriori informazioni, consulta [Analisi multidispositivo](../../components/cda/overview.md) nella guida utente dei componenti .
+* **Non è necessaria più di una suite di rapporti:** tutti i dati possono essere raccolti in una singola suite di rapporti, pertanto è meno probabile che uno sviluppatore invii erroneamente i dati alla suite di rapporti sbagliata.
+* **Non è necessario eseguire il rollup:** i rollup sono una funzionalità datata che aggrega quotidianamente i dati delle singole suite di rapporti. I rollup non deduplicano i dati di visite o visitatori, il che può causare numeri in eccesso. Per ulteriori informazioni, consulta [Rollup](../../admin/c-manage-report-suites/rollup-report-suite.md) nella guida utente dell’amministratore .
+* **Risparmia tempo:** i progetti, le classificazioni, i segmenti e le metriche calcolate di Workspace sono legati alla stessa suite di rapporti globale. Gli amministratori dedicano meno tempo alla gestione di questi componenti e alla governance dei dati.
+* **Attribuzione tra marchi più precisa:** se una visita inizia su un sito e poi fa clic su un altro sito prima di attivare un evento di successo, l’attribuzione viene raccolta accuratamente. Ad esempio, un visitatore fa clic su un collegamento di ricerca a pagamento e arriva al sito A. Quindi fa clic su un collegamento al sito B, quindi effettua un acquisto. Una suite di rapporti globale attribuisce correttamente l’acquisto alla ricerca a pagamento.
+* **Implementazione semplificata:** poiché tutti i marchi/siti inviano dati alla stessa suite di rapporti, le tue implementazioni in ciascun sito sono allineate. Questa governance forzata assicura che una dimensione o metrica specifica venga salvata nello stesso eVar o evento. Questa semplificazione si applica agli amministratori, ai tester, ai proprietari della gestione dei tag e agli analisti.
 
 >[!NOTE]
 >
->Coordinare un&#39;implementazione globale della suite di rapporti è un progetto di grandi dimensioni.  Adobe raccomanda di collaborare con un consulente per ridurre le complicazioni e i problemi che si presentano.
+>Coordinare un’implementazione globale della suite di rapporti è un progetto di grandi dimensioni. L&#39;Adobe consiglia di lavorare con un consulente per ridurre le complicazioni e i problemi che insorgono.
 
 ## Avvio di una nuova implementazione con una suite di rapporti globale
 
-Utilizzate le seguenti linee guida generali per comprendere il processo di implementazione di una suite di rapporti globale.
+Segui le seguenti linee guida generali per comprendere il processo di implementazione di una suite di rapporti globale.
 
-1. Crea la suite di rapporti globale in  Adobe Analytics. Per ulteriori informazioni, consulta [Creare una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) nella guida utente per l&#39;amministratore.
-1. Collaborate con i team dell&#39;organizzazione responsabili per ogni dominio. Molti team hanno requisiti di reporting specifici per la propria area di attività.
-1. Registrazione e aggregazione di tutti questi requisiti in un [documento di progettazione della soluzione](solution-design.md). Se i team hanno requisiti simili per una dimensione, possono utilizzare la stessa variabile personalizzata. Ad esempio, se il sito A e il sito B richiedono entrambe una dimensione di breadcrumb, le implementazioni per entrambi i siti possono inviare tali dati tramite  eVar1.
+1. Crea la suite di rapporti globale in Adobe Analytics. Per ulteriori informazioni, consulta [Creare una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) nella guida utente Admin .
+1. Collabora con i team della tua organizzazione responsabili per ogni dominio. Molti team hanno requisiti di reporting specifici per la propria area di attività.
+1. Registra e aggrega tutti questi requisiti in un [documento di progettazione della soluzione](solution-design.md). Se i team hanno requisiti simili per una dimensione, possono utilizzare la stessa variabile personalizzata. Ad esempio, se sia il sito A che il sito B richiedono una dimensione di breadcrumb, le implementazioni per entrambi i siti possono inviare tali dati tramite eVar1.
 
    >[!IMPORTANT]
    >
-   >Accertatevi che tutte le variabili personalizzate siano utilizzate in modo simile tra i domini. Non utilizzate lo stesso eVar o evento  per scopi diversi nei vostri siti.
-1. Accertatevi che ciascun dominio disponga di un livello dati per semplificare la raccolta dei dati. I dati possono ancora essere raccolti senza un livello di dati, ma l&#39;affidabilità e la durata dell&#39;implementazione diminuiscono, soprattutto quando il sito viene riprogettato.
-1. Utilizzate  Adobe Experience Platform Launch per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza regole specifiche per ciascun dominio per verificare che ciascun elemento dati sia popolato correttamente, quindi assegna tali elementi ai rispettivi eVar ed eventi. Consultate [Panoramica del lancio](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) nella guida  utente di Adobe Experience Platform Launch.
-1. Includete il [servizio Adobe Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) e utilizzate la funzione [appendVisitorIDsTo](https://docs.adobe.com/content/help/it-IT/id-service/using/id-service-api/methods/appendvisitorid.html). Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all&#39;altro.
+   >Assicurati che qualsiasi variabile personalizzata sia utilizzata in modo simile tra i domini. Non utilizzare lo stesso eVar o evento per scopi diversi nei siti.
+1. Assicurati che ogni dominio abbia un livello dati per semplificare la raccolta dati. I dati possono ancora essere raccolti senza un livello di dati, ma l’affidabilità e la longevità dell’implementazione diminuiscono, soprattutto quando il sito viene riprogettato.
+1. Utilizza Adobe Experience Platform Launch per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza regole specifiche per ciascun dominio per assicurarti che ogni elemento dati sia popolato correttamente, quindi assegna tali elementi dati ai rispettivi eVar ed eventi. Consulta [Panoramica di Launch](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) nella guida utente di Adobe Experience Platform Launch.
+1. Includi il [servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html) e utilizza la funzione [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) . Questa funzione unisce i dati del visitatore quando gli utenti fanno clic da un dominio a un altro.
 
-## Modifica di un&#39;implementazione esistente con una suite di rapporti globale
+## Modifica di un’implementazione esistente con una suite di rapporti globale
 
-Il processo di spostamento di un&#39;implementazione esistente tra più siti in una singola suite di rapporti globale richiede più tempo e coordinamento tra i team dell&#39;organizzazione.
+Il processo di spostamento di un’implementazione esistente tra più siti in un’unica suite di rapporti globale richiede più tempo e coordinamento tra i team dell’organizzazione.
 
-1. Determinate se desiderate utilizzare una delle suite di rapporti esistenti o iniziare a utilizzarne una nuova. Per modificare gli usi delle variabili esistenti nell&#39;implementazione, è consigliabile iniziare con una nuova suite di rapporti.
-2. Determinare una data di interruzione per il passaggio a una suite di rapporti globale. Il momento migliore per effettuare un ritaglio è tra due periodi di reporting significativi o insieme a modifiche importanti al sito. Alcuni esempi includono l&#39;inizio di un trimestre fiscale o di un anno, durante l&#39;aggiornamento di un sito o la modifica di un nuovo sistema di gestione dei tag.
-3. Segui i passaggi indicati sopra (crea una suite di rapporti, raccogli i requisiti per la creazione di rapporti in un documento di progettazione di una soluzione e stabilisci un livello dati su ciascun sito). Quando implementate Launch, convalidate l’implementazione utilizzando una versione di sviluppo del sito Web.
-4. Dopo aver confermato che l’implementazione sta lavorando su dev, fai in modo che l’implementazione di Launch sia live entro la data limite.
+1. Determina se desideri utilizzare una delle suite di rapporti esistenti o inizia con una nuova suite di rapporti. Se desideri modificare gli usi per le variabili esistenti nell’implementazione, è consigliabile iniziare con una nuova suite di rapporti.
+2. Determina una data limite per passare a una suite di rapporti globale. Il momento migliore per eseguire un cutover è tra due periodi di reporting significativi o insieme a modifiche importanti al sito. Gli esempi includono l&#39;inizio di un trimestre o di un anno fiscale, durante un aggiornamento del sito o il passaggio a un nuovo sistema di gestione dei tag.
+3. Segui i passaggi indicati in precedenza (crea una suite di rapporti, raccogli i requisiti di reporting in un documento di progettazione della soluzione e stabilisci un livello di dati su ciascun sito). Quando implementi Launch, convalida la tua implementazione utilizzando una versione di sviluppo del tuo sito web.
+4. Dopo aver confermato che l’implementazione funziona su dev, esegui l’implementazione di Launch live nella data di interruzione.
 
 ## Pagine correlate
 
-[Passaggio dall’assegnazione di tag a più suite a una suite di rapporti globale e ](../../components/vrs/vrs-considerations.md)
-[suite di rapporti virtualiConfronto tra rollup e suite di rapporti globali](../../admin/c-manage-report-suites/rollup-report-suite.md)
+[Passaggio dall’assegnazione tag a più suite a una suite di rapporti globale e a ](../../components/vrs/vrs-considerations.md)
+[suite di rapporti virtualiConfronto di rollup e suite di rapporti globali](../../admin/c-manage-report-suites/rollup-report-suite.md)
