@@ -5,10 +5,9 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '647'
 ht-degree: 4%
 
 ---
@@ -55,7 +54,7 @@ Corrisponde se il termine si trova in un punto qualsiasi della riga. Funziona al
 
 **Non contiene**
 
-Corrisponde se il termine non viene trovato in un punto qualsiasi della riga. Puoi filtrare &quot;non specificato&quot;, &quot;nessuno&quot;, &quot;parola chiave non disponibile&quot; e altri [valori speciali](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) dai rapporti che utilizzano &quot;non contiene&quot;.
+Corrisponde se il termine non viene trovato in un punto qualsiasi della riga. Puoi filtrare &quot;non specificato&quot;, &quot;nessuno&quot;, &quot;parola chiave non disponibile&quot; e altri [valori speciali](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) dai rapporti che utilizzano &quot;non contiene&quot;.
 
 Non contiene: `none`
 
@@ -160,7 +159,7 @@ Quando accedi a questi filtri, puoi visualizzare le metriche dei rapporti per gl
 1. Per cercare un elemento, digitare una stringa di caratteri nel campo **[!UICONTROL Search]**.
 1. Fai clic su **[!UICONTROL OK]**.
 
-## Aggiungi un filtro di correlazione {#task_065042E384DA4BF3864C58AF2B88D6E2}
+## Aggiungere un filtro di correlazione {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
 Passaggi che descrivono come aggiungere un filtro di correlazione.
 
