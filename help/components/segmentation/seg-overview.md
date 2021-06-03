@@ -1,13 +1,12 @@
 ---
 description: I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come informazioni codificate sulle audience che puoi creare per soddisfare le tue esigenze specifiche e che puoi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
 title: Informazioni su segmenti e contenitori
-feature: Segmentation
+feature: Segmentazione
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3674'
 ht-degree: 98%
 
 ---
@@ -60,7 +59,7 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 ## Video introduttivo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo: [Contenitori di segmenti in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo: [Contenitori di segmenti in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Informazioni sui contenitori {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
