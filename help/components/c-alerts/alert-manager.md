@@ -2,20 +2,19 @@
 description: Gestire gli avvisi
 title: Gestione avvisi
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 64%
+source-wordcount: '146'
+ht-degree: 65%
 
 ---
-
 
 # Gestione avvisi
 
 ![](assets/alert-manager.png)
 
-La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) e alla [Gestione metriche calcolate](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) e consente di: 
+La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) e alla [Gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) e consente di:
 
 ![](assets/alert-manager-tasks.png)
 
@@ -34,4 +33,3 @@ La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL C
 * Specificare o cambiare il proprietario di un avviso
 * Aggiungere altri filtri
 * Definire la **data di scadenza** di un avviso
-
