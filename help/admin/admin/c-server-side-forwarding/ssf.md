@@ -1,75 +1,73 @@
 ---
-description: L'inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale i dati da  Analytics ad altre soluzioni Experience Cloud . Se abilitata, l'inoltro lato server consente anche  Analytics di inviare i dati ad altre soluzioni Experience Cloud  e che tali soluzioni inviino i dati a  Analytics durante il processo di raccolta dei dati.
+description: L’inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni Experience Cloud. Quando abilitato, l’inoltro lato server consente ad Analytics di inviare dati push ad altre soluzioni Experience Cloud e a queste soluzioni di inviare dati in Analytics durante il processo di raccolta dei dati.
 solution: Audience Manager
 title: Panoramica sull'inoltro lato server
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 14%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
-
 # Panoramica sull&#39;inoltro lato server
 
-L&#39;inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale i dati da  Analytics ad altre soluzioni Experience Cloud . Se abilitata, l&#39;inoltro lato server consente anche  Analytics di inviare i dati ad altre soluzioni Experience Cloud  e che tali soluzioni inviino i dati a  Analytics durante il processo di raccolta dei dati.
+L’inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni Experience Cloud. Quando abilitato, l’inoltro lato server consente ad Analytics di inviare dati push ad altre soluzioni Experience Cloud e a queste soluzioni di inviare dati in Analytics durante il processo di raccolta dei dati.
 
 L&#39;inoltro lato server migliora la raccolta dati perché:
 
-* Riduce le chiamate dalla pagina. Con l&#39;inoltro lato server, [!DNL Audience Manager] i clienti non devono più utilizzare DIL per la raccolta dei dati perché viene inoltrata da  Analytics. Rimuovere DIL significa eliminare una `"/event"` chiamata. Con un numero minore di chiamate è possibile migliorare i tempi di caricamento delle pagine, migliorando così l&#39;esperienza dei clienti sul sito.
-* Consente di sfruttare la condivisione dei dati tra  soluzioni Experience Cloud.
-* Si conforma alle nostre best practice per  implementazione e implementazione del codice Audience Manager.
+* Riduce le chiamate dalla pagina. Con l’inoltro lato server, i clienti [!DNL Audience Manager] non devono più utilizzare DIL per la raccolta dati perché viene inoltrato da Analytics. Rimuovere DIL significa eliminare una chiamata `"/event"`. Con un numero inferiore di chiamate è possibile migliorare i tempi di caricamento delle pagine, garantendo al cliente una migliore esperienza sul sito.
+* Consente di sfruttare la condivisione di dati tra le soluzioni Experience Cloud.
+* È conforme alle nostre best practice per l’implementazione e la distribuzione del codice di Audience Manager.
 
 >[!TIP]
 >
->Gli attuali clienti Audience Manager  che utilizzano  Analytics devono effettuare la migrazione all’inoltro lato server. I nuovi clienti Adobe  Analytics e  Audience Manager devono implementare l’inoltro lato server (anziché DIL) come metodo predefinito di raccolta e trasferimento dei dati.
+>I clienti attuali di Audience Manager che utilizzano Analytics devono migrare all’inoltro lato server. I nuovi clienti Adobe Analytics ed Audience Manager devono implementare l’inoltro lato server (anziché DIL) come metodo predefinito di raccolta e trasferimento dei dati.
 
 >[!IMPORTANT]
->In base al regolamento UE sulla conformità ai cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati al server ad Adobe Audience Manager (AAM). Una nuova variabile di contesto dell&#39;implementazione consente di contrassegnare le richieste dove non è stato ricevuto il consenso. La variabile, quando impostata, impedisce che queste richieste vengano inviate all&#39;AAM fino al ricevimento del consenso. Per ulteriori informazioni, consultate Conformità [GDPR_ePrivacy e inoltro](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)lato server.
+>In base al regolamento UE sulla conformità ai cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati al server ad Adobe Audience Manager (AAM). Una nuova variabile di contesto dell&#39;implementazione consente di contrassegnare le richieste dove non è stato ricevuto il consenso. La variabile, quando impostata, impedisce che queste richieste vengano inviate all&#39;AAM fino al ricevimento del consenso. Per ulteriori informazioni, consulta [Conformità a RGPD_ePrivacy e inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md).
 
-Per comprendere a che punto si trova l&#39;organizzazione in termini di implementazione dell&#39;inoltro lato server, procedere come segue:
+Per capire dove si trova la tua organizzazione in termini di implementazione dell&#39;inoltro lato server, segui questi passaggi di convalida:
 
-## ![step1_icon.png immagine](assets/step1_icon.png) Verificare l&#39;implementazione del servizio ECID
+## ![step1_icon.png ](assets/step1_icon.png) imageVerifica l&#39;implementazione del servizio ECID
 
-Verifica se  servizio Experience Cloud ID (ECID) è implementato, ispezionando la richiesta [di tracciamento](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html)Analytics.
+Verifica se il servizio Experience Cloud ID (ECID) è implementato, controllando la [richiesta di tracciamento Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html).
 
-Nella scheda Richiesta, verificare che sia stato impostato un valore ECID. Questo indica che il servizio identità è stato implementato correttamente, un prerequisito per l&#39;inoltro lato server.
+Nella scheda Request (Richiesta), verifica che sia impostato un valore ECID. Questo indica che il servizio Identity è implementato correttamente, il che è un prerequisito per l’inoltro lato server.
 
-* Se viene visualizzato un valore ECID, continuate con il passaggio 2.
-* Se non viene visualizzato un valore ECID, [implementa Identity Service](https://docs.adobe.com/content/help/it-IT/id-service/using/implementation/implementation-guides.html) prima di procedere con il passaggio 2.
+* Se viene visualizzato un valore ECID, continuare con il passaggio 2.
+* Se non trovi un valore ECID, [implementa il servizio Identity](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) prima di procedere al passaggio 2.
 
-## ![step2_icon.png immagine](assets/step2_icon.png) Verificare la versione di implementazione dell&#39;inoltro lato server
+## ![step2_icon.png ](assets/step2_icon.png) imageVerifica la versione di implementazione lato server
 
-Verifica di disporre già di una versione dell&#39;inoltro lato server implementata, [esaminando la richiesta](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)di tracciamento Analytics .
+Verifica di avere già implementata una versione dell&#39;inoltro lato server, controllando [la richiesta di tracciamento Analytics](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
 
-Nella scheda &quot;Risposta&quot;, verificate che la risposta contenga  dati Audience Manager. Se viene visualizzato:
+Nella scheda &quot;Risposta&quot;, controlla che la risposta contenga dati di Audience Manager. Se vedi:
 
-* Una risposta **JSON da  Audience Manager che include elementi come &quot;postback&quot; o &quot;dcs_region&quot;**: è già abilitata una qualche forma di inoltro lato server. Continuate fino al punto 3.
-* Lo **&quot;status&quot;:&quot;SUCCESS&quot;**: hai implementato il modulo Gestione dell&#39;audience, ma non hai configurato correttamente l&#39;inoltro lato server. Continuate fino al punto 3.
-* Un&#39;immagine **** 2 x 2: non hai implementato l&#39;inoltro lato server o il modulo Gestione dell&#39;audience. Per correggere il problema:
+* Una risposta **JSON dall&#39;Audience Manager che include elementi come &quot;postback&quot; o &quot;dcs_region&quot;**: hai già abilitato alcune forme di inoltro lato server. Procedi al punto 3.
+* Il **&quot;status&quot;:&quot;SUCCESS&quot;**: hai implementato il modulo Gestione dell&#39;audience, ma non hai configurato correttamente l&#39;inoltro lato server. Procedi al punto 3.
+* A **2 x 2 immagine**: non hai implementato l&#39;inoltro lato server o il modulo Gestione dell&#39;audience. Per correggere il problema:
 
-   * **Clienti AAM con DIL**: coordinare in stretta collaborazione i due elementi seguenti:
+   * **Clienti AAM con DIL**: coordinare in stretto collegamento i due elementi seguenti:
 
-      1. Rimuovete il codice DIL e installate il codice della pagina del modulo [Gestione dell&#39;](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) audience.
-      1. Abilitare l&#39;inoltro lato server nell&#39;interfaccia utente  amministratore Analytics come descritto al punto 3. Se si abilita questa impostazione prima di rimuovere il codice DIL, i dati verranno duplicati e verranno create chiamate server fatturate aggiuntive a  Audience Manager.
-   * **Nuovi clienti** AAM: installa il codice della pagina del modulo [Gestione dell&#39;](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) audience e continua il passaggio 3. I dati non verranno inviati a  Audience Manager fino a quando non verrà attivato l&#39;inoltro lato server nel passaggio 3.
+      1. Rimuovi il codice DIL e installa il codice della pagina [modulo Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Abilita l’inoltro lato server nell’interfaccia utente di amministrazione di Analytics come descritto al passaggio 3. Se abiliti questa impostazione prima di rimuovere il codice DIL, i dati verranno duplicati e verranno create chiamate server fatturate aggiuntive per Audience Manager.
+   * **Nuovi clienti AAM** : installa il codice del modulo  [Gestione dell&#39;audience ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e continua il passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l&#39;attivazione dell&#39;inoltro lato server al passaggio 3.
 
 
-## ![step3_icon.png immagine](assets/step3_icon.png) Verificare l&#39;implementazione dell&#39;inoltro lato server della suite di rapporti
+## ![step3_icon.png ](assets/step3_icon.png) imageVerifica l&#39;implementazione lato server della suite di rapporti
 
-Verificate che l&#39;inoltro lato server sia implementato a livello di suite di rapporti, anziché nell&#39;approccio server di tracciamento legacy.
+Verifica di avere implementato l&#39;inoltro lato server a livello di suite di rapporti, anziché l&#39;approccio legacy al server di tracciamento.
 
-L’inoltro lato server a livello di suite di rapporti è consigliato rispetto all’approccio server di tracciamento legacy, perché puoi controllare a un livello più preciso quali dati vengono condivisi da  Analytics. È inoltre un prerequisito per l&#39;integrazione di Audience  Analytics.
+L’inoltro lato server a livello di suite di rapporti è consigliato rispetto all’approccio server di tracciamento legacy, perché puoi controllare a un livello più preciso quali dati vengono condivisi da Analytics. È anche un prerequisito per questa integrazione di Audience Analytics.
 
-Vai a **Analytics** > **Amministratore** > **Suite** di rapporti > (seleziona suite **di** rapporti) > **Modifica impostazioni** **** ****> Generale > Inoltro lato server. Se la casella di controllo è:
+Vai a **Analytics** > **Amministratore** > **Suite di rapporti** > (seleziona **suite di rapporti**) > **Modifica impostazioni** > **Generale** > **Forum lato server warding**. Se la casella di controllo è:
 
-* **Inattivo** (non è possibile effettuare una selezione o il menu non esiste): le suite di rapporti selezionate non sono mappate sull’organizzazione IMS. Assicurati che le suite di rapporti applicabili siano mappate sulla  corretta organizzazione Experience Cloud utilizzando l&#39;interfaccia utente [di mappatura delle suite di](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html)rapporti.
-* **Disattivato**: Il nuovo inoltro lato server non è attivato. Leggete il contenuto della pagina e continuate ad attivare la funzione.
-* **Abilitato**: È stato effettuato il provisioning per l&#39;inoltro lato server. Puoi anche configurare questa integrazione di Audience  Analytics.
+* **Inattivo**  (non è possibile effettuare una selezione o il menu non esiste): le suite di rapporti selezionate non sono mappate nell’organizzazione IMS. Assicurati che le suite di rapporti applicabili siano mappate sull’organizzazione di Experience Cloud corretta utilizzando l’interfaccia utente di mappatura  [suite di rapporti](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Disabilitato**: Il nuovo inoltro lato server non è attivato. Leggi il contenuto della pagina e continua ad abilitare la funzione.
+* **Abilitato**: È stato effettuato il provisioning per un nuovo inoltro lato server. Puoi anche configurare questa integrazione di Audience Analytics.
 
 >[!NOTE]
 >
->I dati non verranno visualizzati in altre soluzioni  Experience Cloud, come [Audience Manager](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/aam-home.html) o [Audience](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/audience-library.html) fino al completamento di tutti e tre i passaggi. Una volta attivata questa opzione, per rendere effettive le impostazioni sono necessarie diverse ore.
-
+>I dati non verranno visualizzati in altre soluzioni di Experience Cloud, ad esempio [Audience Manager](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) o [Tipi di pubblico](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) fino al completamento di tutti e tre i passaggi. Una volta abilitate, saranno necessarie diverse ore prima che queste impostazioni abbiano effetto.
