@@ -2,10 +2,10 @@
 title: Escludi per indirizzo IP
 description: Impedisci la visualizzazione nei rapporti dei dati generati da determinati indirizzi IP.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 7%
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attivit
 
 >[!NOTE]
 >
->Gli hit esclusi dall’indirizzo IP vengono fatturati come [chiamate server](https://docs.adobe.com/content/help/it-IT/analytics/technotes/terms.html).
+>Gli hit esclusi dall’indirizzo IP vengono fatturati come [chiamate server](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 
 Puoi utilizzare gli indicatori jolly (*) per escludere un intervallo di indirizzi. Ad esempio, `[!DNL 0.0.*.0]` escluderebbe tutti gli indirizzi IP compresi tra `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. Puoi escludere fino a 50 indirizzi IP diversi.
 
