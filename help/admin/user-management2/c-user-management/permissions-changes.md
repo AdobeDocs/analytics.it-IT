@@ -5,10 +5,10 @@ subtopic: Users and groups
 title: Modifiche alle autorizzazioni Utente e Gruppo
 feature: Strumenti di amministrazione
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 15%
+source-wordcount: '1546'
+ht-degree: 13%
 
 ---
 
@@ -65,12 +65,12 @@ Poiché l’API e l’interfaccia utilizzano lo stesso sistema di autorizzazioni
    <td colname="col2"> <p>Puoi personalizzare le autorizzazioni per includere o escludere l’accesso alle dimensioni (oltre alle metriche). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Tutte le dimensioni e le metriche correnti all'interno dei gruppi personalizzati sono state migrate automaticamente nelle nuove categorie. Se un gruppo esistente dispone di metriche abilitate, per impostazione predefinita gli verranno assegnate tutte le dimensioni (sulla base delle eVar e dei contenuti) e le metriche a cui sono state appena assegnate delle autorizzazioni. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Autorizzazioni per Importazione classificazioni (in precedenza SAINT): l'accesso alle classificazioni è determinato dall'accesso alla <a href="https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/c-classifications.html">variabile</a> su cui è basata la classificazione. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Autorizzazioni per Importazione classificazioni (in precedenza SAINT): l'accesso alle classificazioni è determinato dall'accesso alla <a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">variabile</a> su cui è basata la classificazione. </li> 
     </ul> <p>Consulta <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Personalizzare le autorizzazioni di Dimension</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>Consigliato solo per i nuovi clienti o clienti con le società <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/core-services.html"> fornite nell'Experience Cloud</a>. È pianificata una migrazione dei clienti <span class="keyword"> Analytics</span> esistenti al sistema di gestione delle identità <span class="keyword"> Experience Cloud</span> . </p> <p>Ulteriori informazioni sono disponibili in <a href="https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html"> Gestire le autorizzazioni del prodotto nell'Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Consigliato solo per i nuovi clienti o clienti con le società <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html"> fornite nell'Experience Cloud</a>. È pianificata una migrazione dei clienti <span class="keyword"> Analytics</span> esistenti al sistema di gestione delle identità <span class="keyword"> Experience Cloud</span> . </p> <p>Ulteriori informazioni sono disponibili in <a href="https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html"> Gestire le autorizzazioni del prodotto nell'Admin Console</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,7 +143,7 @@ Nella tabella seguente sono elencate le attività e le aree in cui possono avere
  <tbody> 
   <tr> 
    <td colname="col1"> Creare un utente </td> 
-   <td colname="col2"> <p>Admin Console (creazione di un utente e aggiunta di tale utente a una configurazione di prodotto Analytics <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html"></a> crea anche l'account utente in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Strumenti di amministrazione</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (creazione di un utente e aggiunta di tale utente a una configurazione di prodotto Analytics <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"></a> crea anche l'account utente in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Strumenti di amministrazione</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
@@ -168,8 +168,8 @@ Nella tabella seguente sono elencate le attività e le aree in cui possono avere
   <tr> 
    <td colname="col1"> Create un gruppo </td> 
    <td colname="col2"> <p>Admin Console: quando un gruppo viene creato in Admin Console, un gruppo mappato in Analytics verrà visualizzato in Strumenti di amministrazione, ma questo gruppo mappato non può avere il suo nome modificato da Strumenti di amministrazione o può essere eliminato da Strumenti di amministrazione. </p> <p>Strumenti di amministrazione. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> crea configurazione prodotto</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> crea configurazione prodotto</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> crea configurazione prodotto</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> crea configurazione prodotto</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Modificare gli utenti in un gruppo </td> 
