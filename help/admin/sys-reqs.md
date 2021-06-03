@@ -2,11 +2,10 @@
 title: Requisiti di sistema
 description: Requisiti di sistema per l’utilizzo di Adobe Analytics.
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 93%
 
 ---
 
@@ -32,4 +31,4 @@ La maggior parte delle soluzioni Adobe Analytics, incluso Analysis Workspace, è
 Consulta la pagina della soluzione collegata per i requisiti di sistema di quella soluzione.
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://docs.adobe.com/content/help/it-IT/data-workbench/using/install/c-data-workbench-client-install.html)
+* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)
