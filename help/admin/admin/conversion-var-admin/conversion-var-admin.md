@@ -2,14 +2,13 @@
 description: La variabile di conversione Custom Insight (o eVar) viene inserita nel codice di Adobe nelle pagine Web selezionate del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei rapporti di marketing personalizzati. Un eVar può essere basato su visite e funziona in modo simile ai cookie. I valori trasmessi nelle variabili eVar seguono l'utente per un periodo di tempo predeterminato.
 keywords: eVar
 title: Variabili di conversione (eVar)
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 6%
+source-wordcount: '1577'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +28,7 @@ Se desideri misurare il traffico o tracciare un percorso, si consiglia di utiliz
 
 >[!NOTE]
 >
->In una richiesta di immagine è possibile memorizzare un solo valore in un eVar. Se in un valore eVar desideri valori multipli, ti consigliamo di implementare [Variabili elenco (variabili elenco)](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/page-variables.html).
+>In una richiesta di immagine è possibile memorizzare un solo valore in un eVar. Se in un valore eVar desideri valori multipli, ti consigliamo di implementare [Variabili elenco (variabili elenco)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variabili di conversione - Descrizioni {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -89,7 +88,7 @@ Descrizioni dei campi utilizzati durante la [modifica delle variabili di convers
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(Solo eVar) </p> </td> 
-   <td colname="col2"> <p>Le variabili merchandising possono seguire una delle due sintassi: </p> <p> <b>Sintassi dei prodotti</b>:</span> associa il valore eVar a un prodotto. Nota:  Se è selezionata l’opzione Sintassi prodotti , la sezione Evento di associazione Merchandising è disabilitata e non selezionabile per la modifica. Per questa sintassi, gli eventi di binding non sono applicabili. </p> </p> <p> <b>Sintassi della variabile di conversione</b>:</span> associa l’eVar a un prodotto solo se si verifica un evento di associazione. In questo caso, è possibile selezionare gli eventi che fungono da eventi di binding. </p> <p>La modifica di questa impostazione senza aggiornare di conseguenza il codice JavaScript causa la perdita di dati. Consulta <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variabili di merchandising</a>. </p> </td> 
+   <td colname="col2"> <p>Le variabili merchandising possono seguire una delle due sintassi: </p> <p> <b>Sintassi dei prodotti</b>:</span> associa il valore eVar a un prodotto. Nota:  Se è selezionata l’opzione Sintassi prodotti , la sezione Evento di associazione Merchandising è disabilitata e non selezionabile per la modifica. Per questa sintassi, gli eventi di binding non sono applicabili. </p> </p> <p> <b>Sintassi della variabile di conversione</b>:</span> associa l’eVar a un prodotto solo se si verifica un evento di associazione. In questo caso, è possibile selezionare gli eventi che fungono da eventi di binding. </p> <p>La modifica di questa impostazione senza aggiornare di conseguenza il codice JavaScript causa la perdita di dati. Consulta <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variabili di merchandising</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento di associazione Merchandising</span> </p> <p>(Solo eVar) </p> </td> 
