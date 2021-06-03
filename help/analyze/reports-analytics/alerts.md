@@ -3,16 +3,15 @@ description: Utilizzare gli avvisi in Reporting e analisi.
 subtopic: Alerts
 title: Avvisi
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: Alerts
+feature: Avvisi
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 12%
+source-wordcount: '866'
+ht-degree: 13%
 
 ---
-
 
 # Avvisi
 
@@ -27,7 +26,7 @@ Il nuovo sistema di avvisi globale di Adobe Analytics, Avvisi intelligenti, cons
 
 Puoi accedere a questo nuovo sistema di avvisi da **[!UICONTROL More]** > **[!UICONTROL Alerts]** in qualsiasi rapporto in Reporting e analisi.
 
-Per ulteriori informazioni, consulta la documentazione di Analysis Workspace in [Avvisi intelligenti](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Per ulteriori informazioni, consulta la documentazione di Analysis Workspace in [Avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Aggiungere un avviso {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -43,15 +42,15 @@ Passa al nuovo Generatore di avvisi nel menu **[!UICONTROL Analytics]** > **[!UI
 
 1. In Reports &amp; Analytics, apri il rapporto in cui desideri impostare un avviso.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. Verrà visualizzato il [nuovo Generatore di avvisi](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
+1. Verrà visualizzato il [nuovo Generatore di avvisi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
 
-## Visualizza o modifica avvisi esistenti {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
+## Visualizzare o modificare gli avvisi esistenti {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contesto attività
 
-1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Viene visualizzata la nuova [Gestione avvisi](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Viene visualizzata la nuova [Gestione avvisi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
-## Migrazione avvisi legacy {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
+## Migrazione degli avvisi legacy {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
 Diverse funzioni per gli avvisi esistenti di Analytics non saranno inclusi nella nuova funzione di Gestione avvisi, che verrà rilasciata (come parte di Analysis Workspace) in autunno 2016. Nella tabella seguente sono elencate le funzioni non più disponibile per gli avvisi e alcune delle funzioni relative agli avvisi che verranno trasferite alla nuova Gestione avvisi in forma diversa.
 
@@ -109,12 +108,12 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi mediante metriche di partecipazione </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > Le metriche di partecipazione  </a> sono disponibili in Reports &amp; Analytics, ma al momento non sono disponibili nel nuovo sistema di avvisi in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  > Le metriche di partecipazione  </a> sono disponibili in Reports &amp; Analytics, ma al momento non sono disponibili nel nuovo sistema di avvisi in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avvisi mensili per suite di rapporti calendario personalizzate </p> </td> 
-   <td colname="col2"> <p>Ciò riguarda solo i clienti con avvisi configurati per suite di rapporti con <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > date di inizio mese personalizzate </a> (tipi National Retail Federation/NRF e Custom Calendar). </p> <p>Non influisce sugli avvisi relativi alle suite di rapporti gregoriane o gregoriane modificate. Precedentemente questi avvisi erano stati inviati il primo giorno del mese gregoriano (ad esempio il 1° gennaio, il 1° febbraio ecc.). Questo non funziona con la nuova funzione di rilevamento delle anomalie degli avvisi, che tiene conto dei dati dei mesi precedenti durante il rilevamento delle anomalie. In futuro, aggiungeremo il supporto al sistema di programmazione per i calendari personalizzati in modo che sia gli Avvisi che i Progetti pianificati possano essere pianificati per l’invio il primo giorno del mese di calendario personalizzato invece che il primo giorno del mese gregoriano. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Ciò riguarda solo i clienti con avvisi configurati per suite di rapporti con <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > date di inizio mese personalizzate </a> (tipi National Retail Federation/NRF e Custom Calendar). </p> <p>Non influisce sugli avvisi relativi alle suite di rapporti gregoriane o gregoriane modificate. Precedentemente questi avvisi erano stati inviati il primo giorno del mese gregoriano (ad esempio il 1° gennaio, il 1° febbraio ecc.). Questo non funziona con la nuova funzione di rilevamento delle anomalie degli avvisi, che tiene conto dei dati dei mesi precedenti durante il rilevamento delle anomalie. In futuro, aggiungeremo il supporto al sistema di programmazione per i calendari personalizzati in modo che sia gli Avvisi che i Progetti pianificati possano essere pianificati per l’invio il primo giorno del mese di calendario personalizzato invece che il primo giorno del mese gregoriano. </p> <p> </p> </td> 
    <td colname="col3"> <p>Non ancora disponibile nella nuova Gestione avvisi. </p> </td> 
   </tr> 
   <tr> 
@@ -133,4 +132,3 @@ deprecated_alerts.xml
   </tr> 
  </tbody> 
 </table>
-
