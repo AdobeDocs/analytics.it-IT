@@ -3,11 +3,10 @@ description: La finestra di dialogo Data Governance (Governance dei dati) negli 
 title: Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '551'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +38,7 @@ La finestra di dialogo Data Governance (Governance dei dati) negli strumenti del
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mappata</b>: questa suite di rapporti è già stata mappata nella stessa organizzazione Experience Cloud della società di accesso di Analytics in cui hai effettuato l’accesso. È possibile etichettare solo le suite di rapporti che hanno questa impostazione. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite (Mappa suite di rapporti)</b>: facendo clic su questo collegamento potrai <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html"> mappare una suite di rapporti </a> in un’organizzazione Experience Cloud. <p>In questo modo, verrai reindirizzato alla pagina di amministrazione Mappatura di suite di rapporti per un’organizzazione Experience Cloud dove dovrai individuare la suite di rapporti e assegnarla all’organizzazione appropriata. Dopo aver eseguito questa operazione, torna a questa schermata Data Governance (Governance dei dati). </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite (Mappa suite di rapporti)</b>: facendo clic su questo collegamento potrai <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"> mappare una suite di rapporti </a> in un’organizzazione Experience Cloud. <p>In questo modo, verrai reindirizzato alla pagina di amministrazione Mappatura di suite di rapporti per un’organizzazione Experience Cloud dove dovrai individuare la suite di rapporti e assegnarla all’organizzazione appropriata. Dopo aver eseguito questa operazione, torna a questa schermata Data Governance (Governance dei dati). </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapped to Another Organization (Mappata in un’altra organizzazione)</b>: un’altra organizzazione ha già mappato questa suite di rapporti al proprio interno. </li> 
     </ul> </td> 
   </tr> 
