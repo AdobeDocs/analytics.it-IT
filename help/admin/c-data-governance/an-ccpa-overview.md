@@ -3,11 +3,10 @@ description: Questo documento descrive cosa fare in Adobe Analytics per supporta
 title: Adobe Analytics e CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 97%
 
 ---
 
@@ -43,8 +42,8 @@ Consulta [Etichettare i dati della suite di rapporti](/help/admin/c-data-governa
 ## Prerequisiti
 
 * Acquisisci familiarità con la [terminologia RGPD.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Se non lo hai già fatto, collega la tua società di accesso a un’organizzazione Experience Cloud. Contatta l’Assistenza clienti di Adobe e fai riferimento a [Organizzazioni e collegamento di account.](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/organizations.html)
-* Mappa tutte le suite di rapporti di Adobe Analytics che vuoi configurare per la governance dei dati nella tua [organizzazione Experience Cloud.](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html)
+* Se non lo hai già fatto, collega la tua società di accesso a un’organizzazione Experience Cloud. Contatta l’Assistenza clienti di Adobe e fai riferimento a [Organizzazioni e collegamento di account.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* Mappa tutte le suite di rapporti di Adobe Analytics che vuoi configurare per la governance dei dati nella tua [organizzazione Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Imposta i criteri di conservazione dei dati per ciascuna suite di rapporti in modo da poter rispettare le richieste di accesso e cancellazione del CCPA.
 
    In Adobe Analytics non è possibile ricevere assistenza per elaborare le richieste per l’API dei servizi di Privacy, ovvero per elaborare le richieste di accesso o cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati.
