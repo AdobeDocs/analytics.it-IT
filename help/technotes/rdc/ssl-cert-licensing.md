@@ -1,24 +1,26 @@
 ---
-title: Licenze certificato SSL
-description: Procedure dei certificati per i certificati gestiti dal cliente
-translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+title: Licenze di certificati SSL
+description: Procedure di certificazione per i certificati gestiti dal cliente
+exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
+# Licenze di certificati SSL/TLS
 
-# Licenze certificato SSL/TLS
+L&#39;Adobe consiglia di gestire il certificato senza costi aggiuntivi tramite il [programma di certificazione gestito di Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html). Il programma di certificazione gestito di Adobe è completamente automatizzato e garantisce il rinnovo dei certificati in modo tempestivo, in modo che non vi sia alcun impatto a causa dei certificati scaduti.
 
-Adobe consiglia di gestire il certificato senza costi aggiuntivi tramite il programma [di certificazione gestito di](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-first-party.html)Adobe. Il programma di certificazione gestito di Adobe è completamente automatizzato e garantisce che i certificati vengano rinnovati in modo tempestivo, in modo che non vi sia alcun impatto a causa dei certificati scaduti.
-
-Se utilizzate l&#39;opzione di non utilizzare il programma [di certificazione gestito di](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-first-party.html) Adobe, dovete fornire un certificato SSL/TLS da utilizzare per i cookie di prime parti.
+Se utilizzi scegliere di non utilizzare il [Programma di certificazione gestito di Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) sei responsabile di fornire un certificato SSL/TLS da utilizzare per i cookie di prime parti.
 
 Se fornisci il tuo certificato, è tua responsabilità acquistarlo e gestirlo.  Il certificato SSL/TLS deve includere una licenza server illimitata.
 
-Per garantire la sicurezza dei certificati, ottenere un [CSR] di richiesta di firma dei certificati da Adobe e organizzare con l&#39;autorità di certificazione richiesta la firma del certificato.  Fornire ad Adobe il certificato firmato per l&#39;implementazione.  Seguendo questa procedura, viene mantenuta la protezione della chiave del certificato.  L&#39;Assistenza clienti Adobe fornirà assistenza in questo processo.
+Per garantire la sicurezza del certificato, ottieni dall’Adobe una richiesta di firma del certificato [CSR] e consulta l’autorità di certificazione desiderata per richiedere la firma del certificato.  Fornisci un Adobe del certificato firmato per l’implementazione.  Seguendo questa procedura, viene mantenuta la sicurezza della chiave del certificato.  L’Assistenza clienti di Adobe assisterà in questo processo.
 
-Nel quadro della manutenzione dei certificati, almeno un mese prima della scadenza del certificato, organizzare con l&#39;autorità di certificazione desiderata per ottenere un certificato rinnovato e fornirlo ad Adobe.  Questo certificato dovrebbe utilizzare lo stesso CSR utilizzato in precedenza.  Contattate Adobe se avete bisogno di una copia del CSR o volete generare un nuovo CSR con una nuova chiave.
+Per la manutenzione del certificato, almeno un mese prima della scadenza del certificato, rivolgiti all’autorità di certificazione desiderata per ottenere un nuovo certificato e fornirlo ad Adobe.  Questo certificato deve utilizzare la stessa CSR utilizzata in precedenza.  Contatta l’Adobe se hai bisogno di una copia della CSR o se desideri generare una nuova CSR con una nuova chiave.
 
-L&#39;Assistenza clienti può essere contattata all&#39;indirizzo customercare@adobe.com o 1-800-497-0335.
+L’Assistenza clienti può essere raggiunta all’indirizzo customercare@adobe.com o 1-800-497-0335.
 
-Le autorità di certificazione utilizzate comunemente includono DigiCert, Comodo e GeoTrust.
+Le autorità di certificazione comunemente utilizzate includono DigiCert, Comodo e GeoTrust.
