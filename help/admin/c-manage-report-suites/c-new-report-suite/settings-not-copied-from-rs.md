@@ -1,14 +1,13 @@
 ---
 description: Se hai copiato le impostazioni da una suite di rapporti esistente, un messaggio di sistema identifica le impostazioni non copiate nella nuova suite di rapporti.
 title: Impostazioni non copiate da un'origine di rapporti
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 19%
+source-wordcount: '205'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +27,7 @@ Le seguenti impostazioni non vengono copiate da modelli o suite di rapporti dupl
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dati di classificazione (la struttura di classificazione viene copiata) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/it-IT/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentazione di Importazione classificazioni (caricamento)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentazione di Importazione classificazioni (caricamento)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abilita registrazione ID transazione </p> </td> 
@@ -62,7 +61,7 @@ Le seguenti impostazioni non vengono copiate da modelli o suite di rapporti dupl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor Clickmap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Aggiornamento ad Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Aggiornamento ad Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regole VISTA </p> </td> 
