@@ -3,14 +3,13 @@ description: Report Builder 5.2 supporta le metriche calcolate unificate Adobe A
 title: Metriche calcolate
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 20%
+source-wordcount: '359'
+ht-degree: 18%
 
 ---
-
 
 # Metriche calcolate
 
@@ -20,7 +19,7 @@ Report Builder 5.2 supporta le metriche calcolate unificate Adobe Analytics. Tra
 >
 >Le cartelle di lavoro esistenti potrebbero indicare richieste con ID di metriche precedenti. Quando utilizzi Report Builder 5.2, questi ID di metriche legacy verranno convertiti nel nuovo ID globale. Se condividi questa cartella di lavoro con un utente del Report Builder v5.1 o precedente, tale utente non sarà in grado di visualizzare le metriche calcolate.
 
-Per ulteriori informazioni su come creare e gestire le metriche calcolate con il nuovo Generatore e Gestore della metrica calcolata, consulta la [Guida alle metriche calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html) .
+Per ulteriori informazioni su come creare e gestire le metriche calcolate con il nuovo Generatore e Gestore della metrica calcolata, consulta la [Guida alle metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) .
 
 Nel passaggio 2 della Creazione guidata richieste è possibile filtrare e applicare le metriche calcolate.
 
@@ -49,4 +48,3 @@ I filtri disponibili includono:
 Dopo aver selezionato i filtri, fai clic su **[!UICONTROL Apply]** per applicarli alla richiesta. Le metriche selezionate vengono ora aggiunte al layout del rapporto.
 
 ![](assets/filtering_for_metric.png)
-
