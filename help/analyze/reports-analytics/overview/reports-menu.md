@@ -5,11 +5,10 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 8%
+source-wordcount: '774'
+ht-degree: 4%
 
 ---
 
@@ -32,9 +31,9 @@ I rapporti vengono spostati utilizzando una vista a colonne gerarchica. Fare cli
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Per informazioni dettagliate sui singoli rapporti, vedere [Descrizioni dei rapporti](https://docs.adobe.com/content/help/it-IT/analytics/components/dimensions/overview.html).
+Per informazioni dettagliate sui singoli rapporti, vedere [Descrizioni dei rapporti](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
 
-## Cerca rapporti {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
+## Ricerca di rapporti {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
 Il menu Rapporti offre un’esperienza di ricerca migliorata. Fai clic su **[!UICONTROL View All Reports]** oppure premi il tasto Barra (/) , quindi inizia a digitare per trovare rapidamente un rapporto. La ricerca del report è stata estesa per includere qualsiasi cosa presente nella barra di navigazione a sinistra di Analytics (Amministratore, Componenti, ecc.).
 
@@ -66,7 +65,7 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmenti <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Apre la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generatore di segmenti</a> e <a href="https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Gestore segmenti</a> dalla barra dei segmenti. </td> 
+   <td colname="col2">Apre la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generatore di segmenti</a> e <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Gestore segmenti</a> dalla barra dei segmenti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -114,7 +113,7 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
   </tr> 
   <tr> 
    <td colname="col1">Selettore suite di rapporti <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Consente di selezionare <a href="https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/report-suites-admin.html"  > suite di rapporti di base</a> o <a href="https://docs.adobe.com/help/it-IT/analytics/components/virtual-report-suites/vrs-about.html"  > suite di rapporti virtuali</a>. </td> 
+   <td colname="col2">Consente di selezionare <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  > suite di rapporti di base</a> o <a href="https://docs.adobe.com/help/it-IT/analytics/components/virtual-report-suites/vrs-about.html"  > suite di rapporti virtuali</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendario <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,4 +124,4 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
 
 ## Personalizzazione del menu Tutti i report {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti . Consulta [Personalizzazione del menu](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) nella Guida dell&#39;amministratore.
+Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti . Consulta [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) nella Guida dell&#39;amministratore.
