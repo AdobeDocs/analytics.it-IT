@@ -2,10 +2,9 @@
 title: Regole di elaborazione per i canali di marketing
 description: Le regole di elaborazione del canale di marketing determinano se un hit visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit che un visitatore fa sul tuo sito. Quando una regola non soddisfa i criteri di un canale o se le regole non sono configurate correttamente, il sistema assegna l'hit a Nessun canale identificato.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2112'
 ht-degree: 2%
 
 ---
@@ -122,13 +121,13 @@ Per la regola del canale di marketing, le impostazioni [!UICONTROL Paid Search] 
 
 ![](assets/example_paid_search.png)
 
-Per ulteriori informazioni, consulta [Rilevamento ricerca a pagamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Amministratore.
+Per ulteriori informazioni, consulta [Rilevamento ricerca a pagamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Amministratore.
 
 ### Ricerca naturale {#natural-search}
 
 Una ricerca naturale si verifica quando i visitatori trovano il tuo sito web tramite una ricerca web, dove il motore di ricerca ha classificato il tuo sito senza pagare per l&#39;elenco.
 
-In Analytics non è disponibile il rilevamento di ricerche naturali. Dopo aver impostato il rilevamento di ricerca a pagamento, il sistema sa che se un referrer di ricerca non era un referrer di ricerca a pagamento, deve essere un referrer di ricerca naturale. Per ulteriori informazioni, consulta [Rilevamento ricerca a pagamento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) nell’Admin .
+In Analytics non è disponibile il rilevamento di ricerche naturali. Dopo aver impostato il rilevamento di ricerca a pagamento, il sistema sa che se un referrer di ricerca non era un referrer di ricerca a pagamento, deve essere un referrer di ricerca naturale. Per ulteriori informazioni, consulta [Rilevamento ricerca a pagamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) nell’Admin .
 
 Per la regola del canale di marketing, le impostazioni di Ricerca naturale sono le seguenti:
 
@@ -164,15 +163,15 @@ Questa regola identifica i visitatori provenienti da un social network, ad esemp
 
 ![](assets/example_social.png)
 
-### Canale interno (aggiornamento sessione){#internal}
+### Canale interno (aggiornamento sessione) {#internal}
 
 Questo regola i visitatori in cui l’URL di riferimento corrisponde alla configurazione dei filtri URL interni nell’Admin Console, il che significa che il visitatore è venuto dall’interno del sito per iniziare la visita. Questo canale viene spesso rinominato in Aggiornamento sessione.
 
 ![](assets/int-channel1.png)
 
-Per ulteriori informazioni sul motivo per cui si verifica questo canale, consulta [Motivi per l&#39;aggiornamento interno (aggiornamento sessione)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html#internal) .
+Per ulteriori informazioni sul motivo per cui si verifica questo canale, consulta [Motivi per l&#39;aggiornamento interno (aggiornamento sessione)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) .
 
-### Diretto {#direct}
+### Diretta {#direct}
 
 Questa regola identifica i visitatori che non dispongono di un dominio di riferimento, che include i visitatori che arrivano direttamente al tuo sito, ad esempio da un collegamento Preferiti o incollando un collegamento nel loro browser. Questo canale viene spesso rinominato in Digitato/Segnalibro diretto.
 
