@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Regole di classificazione
 feature: Strumenti di amministrazione
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1967'
 ht-degree: 96%
 
 ---
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## Informazioni importanti sulle regole
 
-* Specifica le [autorizzazioni del gruppo](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html) per le classificazioni in [!UICONTROL Admin Tools].
+* Specifica le [autorizzazioni del gruppo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) per le classificazioni in [!UICONTROL Admin Tools].
 
 * **Espressioni regolari**: la guida è disponibile in [Espressioni regolari nelle regole di classificazione](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -208,7 +207,7 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 | Espressione regolare: per la stringa di corrispondenza a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | Espressione regolare: per la stringa di corrispondenza a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## Espressioni regolari - Esempio di “non contiene” {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## Espressioni regolari - Esempio di “non contiene”  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 Questo esempio fornisce un’espressione regolare che corrisponde a qualsiasi stringa che non contiene caratteri specifici, in questo caso `13`.
 
@@ -294,7 +293,7 @@ Allo stesso modo, supponiamo che tu abbia impostato due regole in un set per i s
 
 | Numero regola | Tipo di regola | Corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|---|
-| 3 | Contiene | Cowboys | Città | Dallas |
+| 1 | Contiene | Cowboys | Città | Dallas |
 | 2 | Contiene | Broncos | Città | Denver |
 
 Un utente cerca *`Cowboys vs. Broncos`*. Se il Generatore di regole individua un conflitto nella corrispondenza delle regole, la classificazione per la seconda regola (Denver) viene applicata a questa ricerca.
