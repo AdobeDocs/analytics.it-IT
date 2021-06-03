@@ -5,11 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 5%
+source-wordcount: '2253'
+ht-degree: 2%
 
 ---
 
@@ -63,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 Per eseguire questo rapporto, selezionare un rapporto, ad esempio un rapporto Pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
 
-Per una descrizione, consulta [Rapporti di conversione](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html) .
+Per una descrizione, consulta [Rapporti di conversione](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) .
 
 ## Eseguire un rapporto di fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -75,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-Consulta il nuovo pannello [Analisi abbandono](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
+Consulta il nuovo pannello [Analisi abbandono](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
 1. In [!UICONTROL Adobe Analytics], fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. Nella pagina [!UICONTROL Fallout Report], fai clic su **[!UICONTROL Launch the Fallout Report Builder]**.
@@ -89,16 +88,16 @@ Consulta il nuovo pannello [Analisi abbandono](https://docs.adobe.com/content/he
 
 >[!MORELIKETHIS]
 >
->* [Descrizione del rapporto di fallout](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [Descrizione del rapporto di fallout](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## Eseguire un rapporto di flusso di pagina {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 I rapporti Flusso di pagina mostrano l’ordine in cui i visitatori accedono alle pagine e navigano nel sito. Questo rapporto aiuta a rispondere
 
-Consulta la nuova [Visualizzazione flusso](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
+Consulta la nuova [Visualizzazione flusso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
-Esegui un rapporto [Percorsi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/visualizations/flow/flow.html).
+Esegui un rapporto [Percorsi](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html).
 
 Ad esempio, fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
 
@@ -124,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Funnel di conversione prodotti](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. Fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Funnel di conversione prodotti](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Eseguire un rapporto sul canale di marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -138,7 +137,7 @@ t_reports_marketing_channel.xml
 
 Per ulteriori informazioni, consulta la guida [Marketing Channel](/help/components/c-marketing-channels/analyze-mc.md) .
 
-## Eseguire un rapporto Rilevamento anomalie {#task_4808C96327354D789C075823F5C3A049}
+## Eseguire un rapporto di rilevamento delle anomalie {#task_4808C96327354D789C075823F5C3A049}
 
 Descrive come interpretare i grafici di riepilogo e di singole metriche in Rilevamento delle anomalie.
 
@@ -148,15 +147,15 @@ t_anomaly_view.xml
 
  -->
 
-Scopri le nuove funzioni [Rilevamento delle anomalie e Analisi contributi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) di Analysis Workspace!
+Scopri le nuove funzioni [Rilevamento delle anomalie e Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) di Analysis Workspace!
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
 >[!NOTE]
 >
->Puoi anche eseguire il rilevamento delle anomalie dai progetti Analysis Workspace. [Altro...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>Puoi anche eseguire il rilevamento delle anomalie dai progetti Analysis Workspace. [Altro...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-Per informazioni sulla configurazione del rilevamento delle anomalie, fare riferimento alla [Guida di riferimento](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
+Per informazioni sulla configurazione del rilevamento delle anomalie, fare riferimento alla [Guida di riferimento](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
 Il rilevamento delle anomalie mostra due tipi di grafici: Grafico di riepilogo e grafici di singole metriche. I singoli grafici delle metriche vengono visualizzati solo se è stata rilevata almeno un’anomalia per tale metrica.
 
@@ -183,7 +182,7 @@ Il rilevamento delle anomalie mostra due tipi di grafici: Grafico di riepilogo e
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Se i limiti inferiori e il valore previsto sono uguali, la deviazione % è -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">In caso contrario, la deviazione % è ((valore associato inferiore - valore effettivo) / (valore previsto - valore associato inferiore)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Facendo clic su <span class="uicontrol"> Mostra segmenti </span> viene visualizzata la barra dei segmenti che consente di applicare segmenti a un rapporto di rilevamento delle anomalie. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Ulteriori informazioni  </a> sulla segmentazione. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Facendo clic su <span class="uicontrol"> Mostra segmenti </span> viene visualizzata la barra dei segmenti che consente di applicare segmenti a un rapporto di rilevamento delle anomalie. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Ulteriori informazioni  </a> sulla segmentazione. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Facendo clic su <span class="uicontrol"> Modifica metriche </span>puoi selezionare e deselezionare le metriche per le quali desideri rilevare le anomalie. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,7 +235,7 @@ Puoi impostare il rilevamento delle anomalie in modo indipendente per ogni suite
 
    ![](assets/ad_top_menu.png)
 
-   Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la [Guida alla segmentazione di Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) . 1. (Facoltativo) Preferito o segnalibro del rapporto.
+   Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) . 1. (Facoltativo) Preferito o segnalibro del rapporto.
 1. (Facoltativo) Modificare la data di fine del periodo di visualizzazione. Il valore predefinito è ieri.
 1. Ora puoi iniziare a interpretare il rapporto. [Visualizzazione dei grafici](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049) di Rilevamento delle anomalie.
 
@@ -254,7 +253,7 @@ reports_realtime.xml
 
 Il reporting in tempo reale offre due rapporti principali: un rapporto di panoramica e un rapporto di dettaglio. Ciascuna di esse è costituita da una serie di rapporti.
 
-Per informazioni sulla configurazione dei rapporti in tempo reale, consulta la [Guida di riferimento di Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration).
+Per informazioni sulla configurazione dei rapporti in tempo reale, consulta la [Guida di riferimento di Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
 
 1. Osserva il rapporto **[!UICONTROL Overview]** e i relativi componenti:  ![](assets/rtr_overview_report.png)
 
@@ -265,7 +264,7 @@ Per informazioni sulla configurazione dei rapporti in tempo reale, consulta la [
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Seleziona suite di rapporti</strong></td> 
-   <td class="chdesc stentry"> Mostra la suite di rapporti coperta da questo rapporto in tempo reale. Per modificare la suite di rapporti, consulta <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  > Configurazione rapporti in tempo reale </a>. </td> 
+   <td class="chdesc stentry"> Mostra la suite di rapporti coperta da questo rapporto in tempo reale. Per modificare la suite di rapporti, consulta <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  > Configurazione rapporti in tempo reale </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Passa ai rapporti</strong></td> 
