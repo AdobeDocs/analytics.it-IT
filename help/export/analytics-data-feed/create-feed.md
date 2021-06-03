@@ -2,9 +2,9 @@
 title: Creare o modificare un feed dati
 description: Scopri come creare o modificare un feed di dati.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
@@ -43,9 +43,19 @@ I dati dei feed di dati possono essere inviati a una posizione FTP ospitata da u
 
 ### S3
 
-Puoi inviare feed direttamente ai bucket Amazon S3. Richiede un nome bucket, un ID chiave di accesso e una chiave segreta. Per ulteriori informazioni, consulta [Requisiti per la denominazione dei bucket Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nella documentazione di Amazon S3 .
+Puoi inviare feed direttamente ai bucket Amazon S3. Questo tipo di destinazione richiede un nome bucket, un ID chiave di accesso e una chiave segreta. Per ulteriori informazioni, consulta [Requisiti per la denominazione dei bucket Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nella documentazione di Amazon S3 .
 
 ![Informazioni S3](assets/dest-s3.jpg)
+
+L&#39;utente fornito per il caricamento dei feed di dati deve disporre delle seguenti [autorizzazioni](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+   >[!NOTE]
+   >
+   >Per ogni caricamento in un bucket Amazon S3, [!DNL Analytics] aggiunge il proprietario del bucket all&#39;ACL BucketOwnerFullControl, indipendentemente dal fatto che il bucket abbia o meno un criterio che lo richiede. Per ulteriori informazioni, consulta &quot;[Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3?](df-faq.md#BucketOwnerFullControl)&quot;
 
 Sono supportate le 16 aree AWS standard seguenti (utilizzando, se necessario, l’algoritmo di firma appropriato):
 
