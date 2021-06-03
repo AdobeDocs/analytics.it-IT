@@ -2,14 +2,13 @@
 description: Risolvere i problemi relativi ad Advertising Analytics.
 title: Risoluzione dei problemi relativi ad Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: 29e39a15-504a-4155-8794-aceb47046a54
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 10%
+source-wordcount: '173'
+ht-degree: 5%
 
 ---
-
 
 # Risoluzione dei problemi relativi ad Advertising Analytics
 
@@ -30,7 +29,7 @@ Stai cercando di [configurare un nuovo account pubblicitario](/help/integrate/c-
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. La suite di rapporti non è mappata all'ID organizzazione Experience Cloud dell'utente di accesso. </p> </td> 
-   <td colname="col2"> <p>Per istruzioni, fai riferimento a <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/report-suite-mapping.html"  > Mappatura di suite di rapporti per un'organizzazione</a> . </p> </td> 
+   <td colname="col2"> <p>Per istruzioni, fai riferimento a <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > Mappatura di suite di rapporti per un'organizzazione</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Non è stato effettuato il provisioning della suite di rapporti per il reporting di Advertising Analytics. </p> </td> 
@@ -55,4 +54,3 @@ Stai cercando di [configurare un nuovo account pubblicitario](/help/integrate/c-
   </tr> 
  </tbody> 
 </table>
-
