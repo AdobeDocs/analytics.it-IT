@@ -2,13 +2,12 @@
 description: Per utilizzare in modo efficace le regole di elaborazione è essenziale capire quando vengono applicate durante la raccolta dei dati.
 subtopic: Processing rules
 title: Ordine di elaborazione
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -37,7 +36,7 @@ Nelle tabelle seguenti sono elencati i dati generalmente disponibili prima e dop
 | Dati aggiunti da VISTA | Le regole di elaborazione vengono applicate prima di VISTA. |
 | Visita numero pagina | Come regola generale, le regole di elaborazione sono consapevoli dei dati contenuti solo nell&#39;hit corrente. Il numero di pagina della visita viene compilato dopo l’applicazione delle regole di elaborazione. |
 | L’URL pulito viene aggiunto come nome della pagina se non è impostato | Dopo aver applicato le regole di elaborazione e VISTA, l’URL pulito viene aggiunto come nome della pagina se non è impostato alcun nome di pagina. Poiché questo si verifica dopo l’applicazione delle regole di elaborazione, è consigliabile aggiungere una condizione per verificare se il nome della pagina è vuoto.  Se esegui il rapporto Contenuto sito > Pagine e vedi https:// valori per i nomi di pagina, è probabile che il nome della pagina sia vuoto e che l’URL sia in uso.  È possibile impostare una condizione per verificare la presenza di un nome di pagina vuoto o per verificare se il nome della pagina o l’URL della pagina contiene un valore specifico. Il nome della pagina può quindi essere impostato in base alle esigenze. |
-| Regole di elaborazione del canale di marketing | Puoi utilizzare le regole di elaborazione per preparare i dati per l’elaborazione da parte di [Regole di elaborazione del canale di marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html). |
+| Regole di elaborazione del canale di marketing | Puoi utilizzare le regole di elaborazione per preparare i dati per l’elaborazione da parte di [Regole di elaborazione del canale di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html). |
 | Ricerca GEO | Questo include i valori dello stato del visitatore e del codice postale/ZIP del visitatore. |
 | Persistenza eVar | Le eVar contenute in un hit precedente non vengono mantenute in ogni hit durante l&#39;elaborazione delle regole. Sono disponibili solo le eVar impostate sull&#39;hit corrente in fase di elaborazione. |
 
