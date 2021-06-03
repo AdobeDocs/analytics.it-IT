@@ -3,11 +3,10 @@ description: Descrive come definire codici valuta di destinazione per il funzion
 title: Supporto multi-valuta
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 1%
+source-wordcount: '1354'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +18,12 @@ I codici di valuta di destinazione sono definiti a tre livelli:
 
 ## Livello pagina
 
-Puoi impostare una variabile JavaScript per la valuta di destinazione a livello di pagina. Il proprietario del sito imposta questa variabile con il codice valuta ISO 4217 a tre lettere appropriato (come indicato di seguito in questo documento). Se la variabile [currencyCode](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/config-vars/currencycode.html) non è impostata a questo livello, la valuta predefinita sarà la stessa di quella specificata nella suite di rapporti. Se la variabile a livello di pagina è in conflitto con la variabile specificata nella suite di rapporti, la variabile nella suite di rapporti avrà la precedenza.
+Puoi impostare una variabile JavaScript per la valuta di destinazione a livello di pagina. Il proprietario del sito imposta questa variabile con il codice valuta ISO 4217 a tre lettere appropriato (come indicato di seguito in questo documento). Se la variabile [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) non è impostata a questo livello, la valuta predefinita sarà la stessa di quella specificata nella suite di rapporti. Se la variabile a livello di pagina è in conflitto con la variabile specificata nella suite di rapporti, la variabile nella suite di rapporti avrà la precedenza.
 
 
 ## Livello suite di rapporti
 
-La **valuta di base** viene specificata quando [si creano suite di rapporti](https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Questa è l&#39;impostazione predefinita per la valuta e ha la precedenza sui codici della valuta impostati a livello di pagina. Pertanto, se una suite di rapporti ha ordini che accettano dollari USA, euro e sterline britanniche e la suite di rapporti ha un codice valuta predefinito impostato su &quot;Dollari USA&quot;, il database back-end di reporting traduce tutte le transazioni in Dollari USA.
+La **valuta di base** viene specificata quando [si creano suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Questa è l&#39;impostazione predefinita per la valuta e ha la precedenza sui codici della valuta impostati a livello di pagina. Pertanto, se una suite di rapporti ha ordini che accettano dollari USA, euro e sterline britanniche e la suite di rapporti ha un codice valuta predefinito impostato su &quot;Dollari USA&quot;, il database back-end di reporting traduce tutte le transazioni in Dollari USA.
 
 I rapporti di marketing utilizzano il tasso di cambio nel momento in cui si verifica la richiesta di immagine per tradurre i valori di valuta a livello di pagina nei valori di valuta predefiniti della suite di rapporti. Le suite di rapporti utilizzano &quot;Dollari USA&quot; come valuta predefinita.
 
