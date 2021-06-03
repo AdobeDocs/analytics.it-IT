@@ -1,37 +1,40 @@
 ---
-description: Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l'integrazione.
+description: Utilizzare la Configurazione guidata connettori dati di Adobe per configurare l'integrazione.
 title: Attivare l'integrazione
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 520a2b59-5595-4337-b71c-ea0448bf9267
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
-
 # Attivare l&#39;integrazione {#activate-the-integration}
 
-Utilizzare la Configurazione guidata Connettori dati di Adobe per configurare l&#39;integrazione.
+Utilizzare la Configurazione guidata connettori dati di Adobe per configurare l&#39;integrazione.
 
-1. Avviate Connettori [](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) dati e fate clic **[!UICONTROL + Add New]** per [aggiungere una nuova integrazione](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. Nell&#39; **[!UICONTROL Show]** elenco, selezionare **[!UICONTROL By Name]** e trascinare l&#39;integrazione [!DNL ~Partner~] in uno slot plug-in vuoto.
-1. Completa la procedura guidata di integrazione utilizzando le informazioni riportate nella tabella seguente:
+1. Avvia [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) e fai clic su **[!UICONTROL + Add New]** per [aggiungere una nuova integrazione](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Nell’elenco **[!UICONTROL Show]**, seleziona **[!UICONTROL By Name]** e trascina l’integrazione [!DNL ~Partner~] in uno slot per plug-in vuoto.
+1. Completa l&#39;Integrazione guidata utilizzando le informazioni riportate nella tabella seguente:
 
 | Campo | Descrizione |
 |--- |--- |
 | Suite di rapporti | La suite di rapporti che riceve i dati da questa integrazione. |
-| Nome integrazione | Specifica il nome dell&#39;integrazione visualizzato dai Connettori dati nell&#39;Elenco integrazione attiva della suite di rapporti. |
-| ID account | Specificate il vostro ID account Aprimo. |
-| Recipient ID | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail del sistema Aprimo. Questo &quot;ID destinatario&quot; è associato al comportamento del visitatore a valle sull’ID destinatario del sito (abbandono del carrello, acquisti, ecc.) che viene inserito nel sistema Aprimo e può essere sfruttato per scopi di remarketing. |
-| Clic | (Obbligatorio) Specificate l&#39;evento Adobe Analytics in cui sono memorizzati i dati del clic del messaggio e-mail importati dal sistema e-mail. L’evento Clic consente di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
-| ID messaggio | (Obbligatorio) Memorizza l&#39;ID univoco della posta. |
-| Aperto | (Obbligatorio) Specificate l&#39;evento Adobe Analytics in cui sono memorizzati i dati di apertura dell&#39;e-mail importati dal sistema e-mail. L’evento Opened (Apertura) consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail. |
-| Recipient ID | (Obbligatorio) Memorizza l’ID visitatore univoco. |
-| Inviato | (Obbligatorio) Specificate l&#39;evento Adobe Analytics in cui sono memorizzati i dati e-mail inviati importati dal sistema e-mail. L&#39;evento Inviato consente di visualizzare il numero di messaggi e-mail inviati. |
-| Rimbalzi | (Obbligatorio) Specificate l&#39;evento Adobe Analytics in cui sono memorizzati i dati e-mail Totale bacheche importati dal sistema e-mail. L&#39;evento Totale rimbalzi consente di visualizzare il numero di messaggi e-mail che non sono stati inviati ai destinatari a causa di un problema di consegna. |
-| Annulla sottoscrizione | (Obbligatorio) Specificate l&#39;evento Adobe Analytics che memorizza i dati dell&#39;e-mail Annulla sottoscrizione importati dal sistema e-mail. L’evento Annulla sottoscrizione consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail e hanno quindi fatto clic sul collegamento Annulla sottoscrizione per rifiutare i messaggi e-mail futuri della vostra organizzazione. |
-| Segmenti | Questa integrazione crea i segmenti definiti dal partner visualizzati nella sezione Segmenti partner. Inoltre, puoi selezionare segmenti esistenti a livello di suite di rapporti da includere nell&#39;integrazione. |
-| Richieste di accesso | Abilitate i privilegi di accesso consigliati. |
-| Raccolta dati | Selezionate Plug-in **** JavaScript se desiderate utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione. |
-Selezionate **Automated Solution** se desiderate utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specificate gli identificatori univoci utilizzati per questa integrazione. Se selezionate questa opzione, specificate gli identificatori univoci utilizzati per l&#39;integrazione:
-<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal partner e-mail.</li>
-<li>Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal partner e-mail.</li></ul>||Creazione di dashboard e segnalibri|Generazione automatica di dashboard e segnalibri per l'integrazione.|
+| Nome integrazione | Specifica il nome dell&#39;integrazione visualizzato da Data Connectors nell&#39;elenco Integrazione attiva della suite di rapporti. |
+| ID account | Specifica l&#39;ID account Aprimo. |
+| Recipient ID | Questo ID è una rappresentazione codificata o numerica di un indirizzo e-mail dal sistema Aprimo. Questo &quot;ID destinatario&quot; è associato al comportamento dei visitatori a valle sull’ID destinatario del sito (abbandoni del carrello, acquisti, ecc.) che viene inserito nel sistema Aprimo e può essere utilizzato a scopo di remarketing. |
+| Clic | (Obbligatorio) Specifica l’evento Adobe Analytics che memorizza i dati dell’e-mail selezionati importati dal sistema e-mail. L’evento Clic consente di visualizzare il numero di visitatori che hanno fatto clic sul messaggio e-mail. |
+| ID messaggio | (Obbligatorio) Memorizza l&#39;ID di spedizione univoco. |
+| Aperto | (Obbligatorio) Specifica l’evento Adobe Analytics che memorizza i dati di apertura dell’e-mail importati dal sistema e-mail. L’evento Open (Apertura) consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail. |
+| ID destinatario | (Obbligatorio) Memorizza l&#39;ID visitatore univoco. |
+| Inviate | (Obbligatorio) Specifica l’evento Adobe Analytics che memorizza i dati inviati per e-mail importati dal sistema e-mail. L’evento Inviato ti consente di visualizzare il numero di messaggi e-mail inviati. |
+| Rimbalzi | (Obbligatorio) Specifica l’evento Adobe Analytics che memorizza i dati di e-mail Totale rimbalzi importati dal sistema e-mail. L’evento Total-Bounces ti consente di visualizzare il numero di messaggi e-mail che non sono stati recapitati ai destinatari a causa di un problema di consegna. |
+| Annulla sottoscrizione | (Obbligatorio) Specifica l’evento Adobe Analytics che memorizza i dati di annullamento dell’abbonamento all’e-mail importati dal sistema e-mail. L’evento Annulla sottoscrizione ti consente di visualizzare il numero di visitatori che hanno aperto il messaggio e-mail e poi hanno fatto clic sul collegamento Annulla sottoscrizione per rinunciare ai messaggi e-mail futuri della tua organizzazione. |
+| Segmenti | Questa integrazione crea i segmenti definiti dai partner visualizzati nella sezione Segmenti partner . Inoltre, puoi selezionare i segmenti esistenti a livello di suite di rapporti da includere nell’integrazione. |
+| Richieste di accesso | Abilita i privilegi di accesso consigliati. |
+| Raccolta dati | Seleziona **Plug-in JavaScript** se desideri utilizzare il plug-in s_code.js come modello di raccolta per questa integrazione. |
+Seleziona **Soluzione automatizzata** se desideri utilizzare un modello di raccolta automatizzata per questa integrazione, quindi specifica gli identificatori univoci utilizzati per questa integrazione. Se selezioni questa opzione, specifica gli identificatori univoci utilizzati per questa integrazione:
+<ul><li>Parametro stringa query ID messaggio: Questo valore rappresenta l’ID messaggio aggiunto all’URL della pagina di destinazione dal tuo partner e-mail.</li>
+<li>Parametro stringa query ID destinatario: Questo valore rappresenta l’ID destinatario aggiunto all’URL della pagina di destinazione dal tuo partner e-mail.</li></ul>|
+|Generazione dashboard e segnalibri|Genera automaticamente dashboard e segnalibri per l'integrazione.|
