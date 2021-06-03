@@ -5,11 +5,10 @@ uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +25,7 @@ Le dimensioni suddivise in base al tempo sono relative al fuso orario della suit
 
 >[!NOTE]
 >
->le dimensioni suddivise in base al tempo sono disponibili solo in Analysis Workspace. Per usare le dimensioni suddivise in base al tempo in altre soluzioni Analytics, è necessario implementare il [plug-in getTimeParting](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/plugins/gettimeparting.html).
+>le dimensioni suddivise in base al tempo sono disponibili solo in Analysis Workspace. Per usare le dimensioni suddivise in base al tempo in altre soluzioni Analytics, è necessario implementare il [plug-in getTimeParting](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html).
 
 In Analysis Workspace, le dimensioni suddivise in base al tempo comprendono:
 
