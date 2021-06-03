@@ -5,10 +5,9 @@ title: Progetti solo visualizzazione
 feature: Curare e condividere
 role: Business Practitioner, Administrator
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ Le interazioni disattivate in un progetto di sola visualizzazione includono:
 
 * Barra a sinistra nascosta
 * Suite di rapporti
-* Intervallo date del calendario del pannello. Nota: per assegnare il controllo del calendario ai destinatari, aggiungi un [filtro a discesa con intervalli di date](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* Intervallo date del calendario del pannello. Nota: per assegnare il controllo del calendario ai destinatari, aggiungi un [filtro a discesa con intervalli di date](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it).
 * Filtro a forma libera
 * Numero di righe a forma libera visibili
 * Impostazioni di riga, colonna o visualizzazione a forma libera
