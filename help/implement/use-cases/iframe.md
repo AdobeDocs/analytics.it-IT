@@ -2,11 +2,10 @@
 title: Utilizzare AppMeasurement con gli iframe
 description: Accedi alle variabili di Adobe Analytics all’interno di un iframe o di una pagina padre durante un iframe.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-translation-type: tm+mt
-source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 6%
 
 Puoi fare riferimento a variabili AppMeasurement da iframe figlio e padre. È necessario definire tutte le variabili nella stessa posizione in cui si trova la libreria AppMeasurement. Gli esempi seguenti spiegano come impostare variabili e metodi di base di AppMeasurement all&#39;interno e all&#39;esterno di un iframe.
 
-Se utilizzi Adobe Experience Platform Launch, assicurati che l’oggetto tracker sia accessibile a livello globale. Consulta [Panoramica dell’estensione Adobe Analytics](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) nella guida utente di Launch.
+Se utilizzi Adobe Experience Platform Launch, assicurati che l’oggetto tracker sia accessibile a livello globale. Consulta [Panoramica dell’estensione Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) nella guida utente di Launch.
 
 >[!CAUTION]
 >
@@ -66,5 +65,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Come con altri codici JavaScript, gli iframe possono comunicare solo quando i domini e il protocollo corrispondono. Questi esempi non funzionano se il contenuto dell’iframe si trova in un dominio diverso da quello principale.
 * Se AppMeasurement risiede in un iframe, la variabile [`referrer`](../vars/page-vars/referrer.md) è impostata sull&#39;URL principale, non sull&#39;URL effettivo di riferimento. Puoi impostare manualmente la variabile `referrer` per risolvere il problema.
-* Il [debugger Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html) non riconosce le richieste di immagini attivate all&#39;interno di iframe.
+* Il [debugger Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) non riconosce le richieste di immagini attivate all&#39;interno di iframe.
 * Activity Map non visualizza la mappa di calore sui collegamenti selezionati all’interno di iframe. Viene invece evidenziato l’intero iframe.
