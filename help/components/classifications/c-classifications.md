@@ -1,20 +1,19 @@
 ---
 title: Panoramica delle classificazioni
 description: Personalizza il raggruppamento di elementi dimensionali.
-translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 98%
 
 ---
-
 
 # Panoramica delle classificazioni
 
 Una classificazione è un modo per classificare i dati delle variabili di Analytics e visualizzarli in modi diversi quando si generano i rapporti.
 
-Panoramica video delle [classificazioni di Analytics](https://video.tv.adobe.com/v/16853/?captions=ita).
+Panoramica video delle [classificazioni di Analytics](https://video.tv.adobe.com/v/16853/).
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
 
@@ -32,7 +31,7 @@ Supponiamo che, invece di visualizzare le campagne solo tramite il codice di tra
 
 Reports and Analytics include classificazioni predefinite per la variabile del codice di tracciamento, che offre rapporti basati sulle classificazioni denominati Elementi creativi e Campagne. Devi configurare manualmente le classificazioni per tutte le altre variabili di conversione e di traffico.
 
-Consulta [Classificazioni di traffico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) e [Classificazioni di conversione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Consulta [Classificazioni di traffico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) e [Classificazioni di conversione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 Nella tabella seguente sono descritti i diversi tipi di classificazioni disponibili e i tipi di variabili che li supportano. Consulta le informazioni in [Struttura generale dei file](/help/components/classifications/importer/c-saint-data-files.md) prima di caricare i file di dati.
 
@@ -62,4 +61,3 @@ Nella tabella seguente sono descritti i diversi tipi di classificazioni disponib
   </tr> 
  </tbody> 
 </table>
-
