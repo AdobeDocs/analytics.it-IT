@@ -2,9 +2,9 @@
 description: Informazioni necessarie sulla migrazione degli ID utente di Analytics all’Admin Console in Adobe Experience Cloud.
 title: Migrazione degli utenti di Analytics all’Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '3127'
+source-wordcount: '3117'
 ht-degree: 98%
 
 ---
@@ -16,7 +16,7 @@ Informazioni necessarie sulla migrazione degli ID utente di Analytics all’Admi
 
 Per assistenza generica sugli argomenti relativi all’Admin Console (non correlati alla migrazione di Analytics), vedi la [Guida utente di Admin Console](https://helpx.adobe.com/it/enterprise/administering/user-guide.html).
 
-Dopo la migrazione, puoi [gestire gli utenti e i prodotti Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html) nella Admin Console.
+Dopo la migrazione, puoi [gestire gli utenti e i prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) nella Admin Console.
 
 ## Cos’è la migrazione degli ID utente di Analytics? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -47,7 +47,7 @@ I benefici dell’utilizzo della Admin Console includono:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Invitare nuovi utenti </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Creare profili di prodotto </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Concedere agli utenti l’autorizzazione a prodotti e servizi specifici </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accedere ai <a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html"> servizi core delle diverse soluzioni</a> disponibili in Adobe Experience Cloud </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accedere ai <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html"> servizi core delle diverse soluzioni</a> disponibili in Adobe Experience Cloud </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +75,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiornare Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: è necessario aggiornare l’installazione di <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> all’ultima versione. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: è necessario aggiornare l’installazione di <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> all’ultima versione. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quando inizia la migrazione? </p> </td> 
@@ -97,7 +97,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
      <li id="li_418476105FE341229CE146E730AAB33D">I tuoi gruppi di autorizzazioni esistenti in Analytics verranno automaticamente replicati nell’Admin Console come profili di prodotto, incluse la loro descrizione e le autorizzazioni granulari nelle suite di rapporti, nelle metriche, nelle dimensioni, in Analytics e negli strumenti delle suite di rapporti. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Se qualcuno dei tuoi utenti di Analytics attuali è stato creato nell’Admin Console e dispone quindi di un Adobe/Enterprise ID collegato, verrà aggiunto ai profili di prodotto appropriati nell’Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">La sezione Gestione utente della scheda Amministratore in Analytics verrà impostata per la <span class="term"> sola lettura</span>. Potrai creare nuovi utenti o gruppi di autorizzazioni solo nell’Admin Console. Per ulteriori informazioni, vedi <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> Funzioni di Analytics non supportate nell’Admin Console</a>. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">In quanto amministratore, avrai accesso allo strumento di <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">Migrazione degli ID utente</a>. Inoltre, all’interno del prodotto verrà visualizzata una notifica con la data di fine della migrazione (che generalmente corrisponde al sessantesimo giorno dall’inizio del processo) e con i collegamenti al contenuto della guida e alle domande frequenti. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">In quanto amministratore, avrai accesso allo strumento di <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">Migrazione degli ID utente</a>. Inoltre, all’interno del prodotto verrà visualizzata una notifica con la data di fine della migrazione (che generalmente corrisponde al sessantesimo giorno dall’inizio del processo) e con i collegamenti al contenuto della guida e alle domande frequenti. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Avrai accesso alla scheda Autorizzazioni dell’Admin Console da cui puoi creare i profili di prodotto con tutte le opzioni granulari che ti sono familiari in Analytics. </li> 
     </ul> </td> 
   </tr> 
@@ -321,7 +321,7 @@ La nostra società inizierà la migrazione di tutti gli account Adobe Analytics 
 
 **Risorse utili:**
 
-[Accesso e gestione delle impostazioni del profilo](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
+[Accesso e gestione delle impostazioni del profilo](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
 
 Per eventuali domande o dubbi, contattate i vostri amministratori di Analytics.
 
