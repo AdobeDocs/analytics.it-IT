@@ -4,14 +4,13 @@ title: Consenti sostituzioni elenco di pubblicazione
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
-
 
 # Consenti sostituzioni elenco di pubblicazione
 
@@ -19,7 +18,7 @@ Quando pianifichi un rapporto, puoi scegliere una lista di pubblicazione da util
 
 Gli elenchi di pubblicazione sono configurati negli strumenti di amministrazione di Analytics.
 
-Consulta [Publishing List Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html) in Analytics Reference.
+Consulta [Publishing List Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html) in Analytics Reference.
 
 Per abilitare questa funzione, passa alla finestra [!UICONTROL Request Wizard: Step 1] .
 
@@ -30,4 +29,3 @@ Questa opzione non è disponibile per le suite di rapporti selezionate dalle cel
 >[!NOTE]
 >
 >Se invii il rapporto pianificato a più elenchi di pubblicazione, il rapporto viene eseguito una volta per ogni elenco. Le suite di rapporti variabili vengono sostituite dalla suite di rapporti assegnata all’elenco di pubblicazione.
-
