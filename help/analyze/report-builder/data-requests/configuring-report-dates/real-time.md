@@ -4,14 +4,13 @@ title: Rapporti in tempo reale
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '259'
 ht-degree: 3%
 
 ---
-
 
 # Rapporti in tempo reale
 
@@ -26,8 +25,8 @@ Per il reporting in tempo reale, Analytics utilizza metriche ad alta frequenza e
 * Utilizza qualsiasi evento personalizzato, evento del carrello acquisti o istanza.
 * Visualizza fino a 20 ore di dati storici in tempo reale.
 
-Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare le entrate, non puoi visualizzare un rapporto in tempo reale che include i dati sulle entrate. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti di amministrazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare le entrate, non puoi visualizzare un rapporto in tempo reale che include i dati sulle entrate. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] non sono uguali alla funzione  [Includi dati correnti](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html)  (data recency) rilasciata in precedenza, che ha ridotto la latenza per i rapporti standard, visualizzando i dati prima che vengano finalizzati.
+>[!UICONTROL Real-Time Reports] non sono uguali alla funzione  [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html)  (data recency) rilasciata in precedenza, che ha ridotto la latenza per i rapporti standard, visualizzando i dati prima che vengano finalizzati.
