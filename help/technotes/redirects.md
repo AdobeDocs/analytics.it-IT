@@ -6,10 +6,9 @@ title: Reindirizzamenti e alias
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
@@ -39,7 +38,7 @@ Considera il seguente scenario ipotetico in cui l’utente non trova un reindiri
 1. L&#39;utente fa clic sul collegamento al sito ipotetico [!DNL https://www.example.com/]. Quando l&#39;utente fa clic su questo collegamento e arriva sul sito web [!DNL example.com], [!DNL Analytics] utilizza JavaScript per raccogliere l&#39;URL di riferimento ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) e l&#39;URL corrente ( `https://www.example.com/`).
 1. [!DNL Analytics] riporta le informazioni raccolte durante questa interazione in vari rapporti, ad esempio  [!UICONTROL Referring Domains],  [!UICONTROL Search Engines] e  [!DNL Search Keywords].
 
-## Esempio: Navigazione con reindirizzamenti {#section_921DDD32932847848C4A901ACEF06248}
+## Esempio: Navigazione Con I Reindirizzamenti {#section_921DDD32932847848C4A901ACEF06248}
 
 I reindirizzamenti possono causare la visualizzazione del vero URL di riferimento da parte del browser. Considera lo scenario seguente:
 
@@ -47,7 +46,7 @@ I reindirizzamenti possono causare la visualizzazione del vero URL di riferiment
 1. La barra degli indirizzi della finestra del browser visualizza i termini di ricerca digitati dall&#39;utente nel campo di ricerca `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Tieni presente che i termini di ricerca sono inclusi nei parametri della stringa di query URL che seguono `https://www.google.com/search?`. Il browser visualizza inoltre una pagina contenente i risultati della ricerca, compreso un collegamento a uno dei tuoi nomi di dominio: [!DNL https://www.flytohawaiiforfree.com/]. Questo dominio *vanity* è configurato per reindirizzare l&#39;utente a `https://www.example.com/`.
 1. L&#39;utente fa clic sul collegamento `https://www.flytohawaiiforfree.com/` e viene reindirizzato dal server al sito principale `https://www.example.com`. Quando si verifica il reindirizzamento, i dati importanti per la raccolta dati [!DNL Analytics] vengono persi perché il browser cancella l&#39;URL di riferimento. Pertanto, le informazioni di ricerca originali utilizzate nei rapporti [!DNL Analytics] (ad esempio, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) vengono perse.
 
-## Implementare reindirizzamenti {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## Implementare i reindirizzamenti {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
 Per acquisire dati [!DNL Analytics] dai reindirizzamenti, è necessario apportare quattro modifiche minori al codice che crea il reindirizzamento e al [!DNL AppMeasurement] per il file JavaScript.
 
@@ -59,7 +58,7 @@ redirects_implement.xml
 
 Il completamento dei passaggi seguenti manterrà le informazioni trasmesse al sito dal referente originale (ad esempio, `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` nello scenario precedente):
 
-## Configurare l&#39;override del referente codice JavaScript {#section_87BB1D47D9C345C18339078824645CC4}
+## Configurare l’override del referrer per il codice JavaScript {#section_87BB1D47D9C345C18339078824645CC4}
 
 <!-- 
 
@@ -103,7 +102,7 @@ if(tempVar)
   s.referrer=tempVar;
 ```
 
-## Modifica il meccanismo di reindirizzamento {#section_2FF9921E8FCA4440B6FF90F15386E548}
+## Modificare il meccanismo di reindirizzamento {#section_2FF9921E8FCA4440B6FF90F15386E548}
 
 <!-- 
 
@@ -115,7 +114,7 @@ Poiché il browser elimina l’URL di riferimento, è necessario configurare il 
 
 Poiché sono disponibili diversi modi per implementare un reindirizzamento, è necessario consultare il gruppo di operazioni web o il partner di pubblicità online per identificare i meccanismi specifici che eseguono i reindirizzamenti sul sito web.
 
-## Acquisisci il referente originale {#section_7F1A77F447CF485385B456A64B174050}
+## Cattura il referente originale {#section_7F1A77F447CF485385B456A64B174050}
 
 <!-- 
 
@@ -140,7 +139,7 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
-## Verifica il referente con il debugger Adobe {#section_B3E85941982E4E1698B271375AD669B9}
+## Verificare il referente con Adobe Debugger {#section_B3E85941982E4E1698B271375AD669B9}
 
 <!-- 
 
@@ -150,7 +149,7 @@ redirects_verify_referrer.xml
 
 Esegui un test per verificare che il referente, l’URL di origine ( *`s_server`*) e le variabili della campagna siano acquisiti.
 
-Queste variabili saranno rappresentate come i seguenti parametri nel [Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html).
+Queste variabili saranno rappresentate come i seguenti parametri nel [Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
