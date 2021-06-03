@@ -5,11 +5,10 @@ title: Condividere progetti
 feature: Curare e condividere
 role: Business Practitioner, Administrator
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1034'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ La condivisione rende un progetto disponibile ad altri utenti di Analysis Worksp
 
 ## Ruoli di progetto {#Roles}
 
-Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di progetto sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di progetto sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 | Ruolo | Controllo progetto |
 |---|---|
@@ -32,7 +31,7 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di proget
 
 ### Nessun ruolo assegnato (destinatari del collegamento al progetto)
 
-Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli verrà assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
+Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=it) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli verrà assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
 
 ### Più ruoli assegnati
 
@@ -55,20 +54,20 @@ Una volta condivisi, tali componenti sono disponibili nel menu a discesa Compone
 1. Imposta questa pagina come pagina di destinazione per i destinatari (facoltativo).
 Questa impostazione non è persistente; è una singola azione da eseguire al momento della condivisione.
 1. Fai clic su Share.
-Puoi anche fare clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se un progetto è già stato condiviso, questi pulsanti indicano **[!UICONTROL Update]** e **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Puoi anche fare clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se un progetto è già stato condiviso, questi pulsanti indicano **[!UICONTROL Update]** e **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
 ![](assets/share-proj-modal.png)
 
 ## Condivisione con gruppi di destinatari {#Groups}
 
-Tutti gli utenti possono condividere i progetti con gruppi, i quali sono una raccolta di destinatari. In Adobe Analytics, i gruppi sono definiti dai profili di prodotto nell’[Admin Console di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Tutti gli utenti possono condividere i progetti con gruppi, i quali sono una raccolta di destinatari. In Adobe Analytics, i gruppi sono definiti dai profili di prodotto nell’[Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 * Gli amministratori possono condividere con qualsiasi gruppo, incluso “All”.
 * I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “All”.
 
 ## Condividere un collegamento al progetto {#Links}
 
-Puoi ottenere un collegamento a un progetto in **[!UICONTROL Share]>[!UICONTROL Get project link]**. Quando fanno clic su di esso, ai destinatari viene richiesto di effettuare l’accesso prima di poter visualizzare il progetto. Se il destinatario non è stato posizionato in un ruolo, riceverà un ruolo predefinito. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sulla creazione di collegamenti condivisibili ai progetti Workspace.
+Puoi ottenere un collegamento a un progetto in **[!UICONTROL Share]>[!UICONTROL Get project link]**. Quando fanno clic su di esso, ai destinatari viene richiesto di effettuare l’accesso prima di poter visualizzare il progetto. Se il destinatario non è stato posizionato in un ruolo, riceverà un ruolo predefinito. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sulla creazione di collegamenti condivisibili ai progetti Workspace.
 
 ## Condivisione di progetti nel Project manager {#Manager}
 
