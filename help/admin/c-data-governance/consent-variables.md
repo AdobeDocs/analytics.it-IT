@@ -3,10 +3,10 @@ description: Variabili per la generazione di rapporti sulla privacy in Privacy d
 title: Variabili per la generazione di rapporti sulla privacy
 feature: Strumenti di amministrazione
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 96%
 
 ---
 
@@ -62,13 +62,13 @@ Ogni suite di rapporti può essere configurata come segue:
 
 Tre variabili di dati di contesto sono state predefinite per l’utilizzo con le variabili riservate per la gestione dei rapporti sulla privacy.  È compito di ogni tecnico dell’implementazione determinare come gestire e mantenere l’impostazione di tali variabili.
 
-Consulta [Variabili di dati di contesto](https://docs.adobe.com/content/help/it-IT/analytics/implementation/vars/page-vars/contextdata.html) per informazioni generali sull’implementazione delle variabili di dati di contesto.
+Consulta [Variabili di dati di contesto](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) per informazioni generali sull’implementazione delle variabili di dati di contesto.
 
 ### SSF
 
 * Dati contestuali: `contextData.['cm.ssf']`
 * Valori accettati:
-   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * 0: facoltativo. Utilizza il valore “0” per i clienti che hanno acconsentito al marketing mirato. Si ottengono gli stessi risultati anche senza impostare la variabile.
 
 ### DMP
