@@ -5,11 +5,10 @@ uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '562'
-ht-degree: 100%
+source-git-commit: baea0f33276b07a93144d2225935013ab7007005
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +17,9 @@ ht-degree: 100%
 In Analysis Workspace, il confronto delle date ti consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, come: anno su anno, trimestre su trimestre, mese su mese, ecc.
 
 ## Confronto tra periodi temporali {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
+
+>[!NOTE]
+>[!UICONTROL Compare Time Periods] sfrutta le metriche calcolate avanzate. Di conseguenza, è disponibile solo per i clienti con SKU di Analytics Select, Prime e Ultimate.
 
 L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda “Rispetto allo stesso periodo dello scorso anno, quanto stiamo andando meglio/peggio?” è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna “differenza” che mostra il cambiamento percentuale, confrontato a un periodo di tempo specificato.
 
