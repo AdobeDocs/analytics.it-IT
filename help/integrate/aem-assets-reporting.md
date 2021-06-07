@@ -1,25 +1,24 @@
 ---
-description: Passaggi amministrativi per l'abilitazione  report AEM Assets in Analytics.
-title: Come creare rapporti su  AEM Assets in  Adobe Analytics
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+description: Passaggi amministrativi per abilitare i rapporti di AEM Assets in Analytics.
+title: Come creare rapporti su AEM Assets in Adobe Analytics
+exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
+source-git-commit: 0b9059aa03777d429a671f11c29e5f9831fac6ba
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 16%
 
 ---
 
-
 # Reportistica di AEM Assets
 
-Passaggi amministrativi per l&#39;abilitazione  report AEM Assets in Analytics.
+Passaggi amministrativi per abilitare i rapporti di AEM Assets in Analytics.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets Reporting]**
 
 Consente ad Analytics di raccogliere impression e clic sugli asset forniti dalla funzione Approfondimenti di AEM Assets. Questa integrazione
 
 * Abilita il reporting in Analytics.
-* Aggiunge nuove dimensioni alle variabili di risorse in  Analysis Workspace: ID risorsa, origine risorsa e ID risorsa Click
-* Aggiunge nuove dimensioni agli eventi delle risorse: Clic risorse e Impressioni risorse
+* Aggiunge nuove dimensioni alle Variabili di risorse in Analysis Workspace: ID risorsa, origine risorsa e ID risorsa selezionato
+* Aggiunge nuove dimensioni agli Eventi risorse: Clic su risorsa e impressioni su risorsa
 
-Per i dati da compilare, consultare la [AEM documentazione di Asset Insights](https://docs.adobe.com/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/asset-insights.html) per istruzioni di implementazione complete.
+Per i dati da compilare, consulta la [AEM documentazione Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=en) per istruzioni di implementazione complete.
