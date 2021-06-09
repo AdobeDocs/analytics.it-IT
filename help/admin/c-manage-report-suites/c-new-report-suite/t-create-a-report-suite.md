@@ -1,13 +1,12 @@
 ---
 description: Creare un contenitore di base per la raccolta di dati in Adobe Analytics
 title: Creare una suite di rapporti
-feature: Admin Tools
+feature: Strumenti di amministrazione
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 5%
 
 Una suite di rapporti è un silos di dati utilizzati da Adobe Analytics per richiamare rapporti. Un’organizzazione può avere molte suite di rapporti, ciascuna contenente set di dati diversi. Anche se in passato le suite di rapporti separate erano importanti, avere una singola suite di rapporti è diventato più vantaggioso. L’introduzione di [suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) e l’elaborazione dei tempi di report consente agli amministratori di creare sottoinsiemi di dati personalizzati, consentendo la flessibilità di ottenere sia dati globali che specifici per il sito.
 
-Questo articolo è progettato per gli amministratori a livello di sistema o per gli amministratori di analytics in preparazione alla raccolta dei dati.
+Questo articolo è progettato per gli amministratori a livello di sistema o per gli amministratori di Adobe Analytics in preparazione alla raccolta dei dati.
 
 ## Prerequisiti
 
@@ -44,8 +43,8 @@ Ciò significa che al tuo account non sono state concesse le autorizzazioni corr
 
 **Dopo aver effettuato l’accesso ad Adobe Analytics, manca il menu a comparsa e il menu a discesa &quot;Benvenuti in Adobe Analytics&quot;.**
 
-Assicurati di aver effettuato l’accesso tramite l’Experience Cloud e non tramite my.omniture.com. L’utente che accede tramite my.omniture.com non dispone della procedura guidata di configurazione della suite di rapporti.
+Assicurati di aver effettuato l&#39;accesso tramite l&#39; [Experience Cloud](https://experience.adobe.com) e non tramite my.omniture.com. L’utente che accede tramite my.omniture.com non dispone della procedura guidata di configurazione della suite di rapporti.
 
 ## Passaggi successivi
 
-[Crea e configura una proprietà per Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Creare un’area per gestire l’implementazione di Analytics
+[Crea e configura una proprietà per Adobe Analytics in Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Creare un’area per gestire l’implementazione di Analytics
