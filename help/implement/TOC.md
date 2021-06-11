@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 98%
 
 ---
 
@@ -58,7 +57,7 @@ ht-degree: 100%
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
+      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
@@ -74,7 +73,7 @@ ht-degree: 100%
       + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
-      + [state](vars/page-vars/state.md)
+      + [stato](vars/page-vars/state.md)
       + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
@@ -127,6 +126,7 @@ ht-degree: 100%
 + Preparazione all’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello di dati](prepare/data-layer.md)
    + [Considerazioni globali sulla suite di report](prepare/global-rs.md)
+   + [Implementazione di tag per più suite](prepare/multi-suite-tagging.md)
    + [Modale di implementazione](prepare/implementation-modal.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
    + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
