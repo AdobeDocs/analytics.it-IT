@@ -1,33 +1,32 @@
 ---
-title: Implementazione con Facebook Instant Articles
-description: Implementa  Adobe Analytics sulle pagine Facebook Instant Article.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+title: Implementazione con gli articoli istantanei di Facebook
+description: Implementa Adobe Analytics sulle pagine degli articoli istantanei di Facebook.
+exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
+# Implementazione con gli articoli istantanei di Facebook
 
-# Implementazione con Facebook Instant Articles
+Gli articoli istantanei di facebook consentono agli editori di creare articoli interattivi veloci su Facebook. Gli articoli istantanei possono caricare i contenuti fino a 10 volte più rapidamente del web mobile.
 
-Gli articoli istantanei di Facebook consentono agli editori di creare articoli interattivi veloci su Facebook. Gli articoli istantanei possono caricare il contenuto fino a 10 volte più rapidamente del Web per dispositivi mobili.
-
-Potete incorporare  Adobe Analytics in Facebook Instant Articles per monitorare il comportamento dei visitatori. Poiché il contenuto dell&#39;editore si trova nell&#39;app Facebook e non nei siti Web dell&#39;editore, l&#39;approccio basato sui tag è leggermente diverso dall&#39;implementazione standard di Analytics.
+Puoi incorporare Adobe Analytics sugli articoli istantanei di Facebook per monitorare il comportamento dei visitatori. Poiché il contenuto dell’editore si trova all’interno dell’app Facebook e non sui siti web dell’editore, l’approccio relativo ai tag è leggermente diverso dall’implementazione standard di Analytics.
 
 ## Flusso di lavoro
 
-Il flusso di lavoro complessivo per l’implementazione  Adobe Analytics è il seguente:
+Il flusso di lavoro complessivo per l’implementazione di Adobe Analytics è il seguente:
 
-1. Creare una `stats.html` pagina. Codifica questa pagina per estrarre i parametri della stringa di query dall’URL e assegnare ogni parametro a una variabile di Analytics
-1. Ospitare la `stats.html` pagina sul server Web
-1. Implementare Analytics nell&#39;articolo Facebook istantaneo facendo riferimento al `stats.html` file in un iframe
-1. Includi parametri di stringa query nell&#39; `src` attributo iframe
+1. Crea una pagina `stats.html`. Codifica questa pagina per estrarre i parametri della stringa di query dall’URL e assegna ogni parametro a una variabile di Analytics
+1. Hosting della pagina `stats.html` sul server web
+1. Implementa Analytics sull’articolo istantaneo di Facebook facendo riferimento al file `stats.html` in un iframe
+1. Includi parametri di stringa di query nell&#39;attributo iframe `src`
 
-### Passaggio 1: Creare una `stats.html` pagina
+### Passaggio 1: Creare una pagina `stats.html`
 
-Il codice HTML di esempio riportato di seguito può essere utilizzato per acquisire le statistiche dagli articoli istantanei. Questo file è in genere ospitato su uno dei server Web della tua azienda. Ogni volta che viene caricato un articolo istantaneo, il file viene caricato in un iframe, che attiva l&#39;invio di dati a  Adobe.
+Il codice HTML di esempio riportato di seguito può essere utilizzato per acquisire statistiche dagli articoli istantanei. Questo file è in genere ospitato su uno dei server web della tua azienda. Ogni volta che viene caricato un articolo istantaneo, questo carica il file in un iframe, il che attiva l’invio di dati ad Adobe.
 
 ```html
 <html>
@@ -39,7 +38,7 @@ Il codice HTML di esempio riportato di seguito può essere utilizzato per acquis
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
+      var s_account = "examplersid1,examplersid2";
       var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
@@ -61,26 +60,26 @@ Il codice HTML di esempio riportato di seguito può essere utilizzato per acquis
 </html>
 ```
 
-### Passaggio 2: Ospitare la `stats.html` pagina sul server Web
+### Passaggio 2: Hosting della pagina `stats.html` sul server web
 
- Adobe consiglia di ospitare la `stats.html` pagina insieme all’ultima versione di `AppMeasurement.js` e `VisitorAPI.js`. Collabora con i team tecnici appropriati della tua organizzazione per ospitare il file nella posizione corretta.
+Adobe consiglia di ospitare la pagina `stats.html` accanto all’ultima versione di `AppMeasurement.js` e `VisitorAPI.js`. Collabora con i team tecnici appropriati della tua organizzazione per ospitare il file nella posizione corretta.
 
 ### Passaggio 3: Riferimento `stats.html` su ogni pagina Facebook Instant Article
 
-Quando create contenuto Facebook Instant Article, incorporate il contenuto HTML di analisi in un iframe. Ad esempio:
+Durante la creazione del contenuto Facebook Instant Article, incorpora il contenuto HTML di analytics all’interno di un iframe. Ad esempio:
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
 ```
 
-### Passaggio 4: Impostazione del tracciamento personalizzato delle variabili e degli eventi
+### Passaggio 4: Imposta il tracciamento personalizzato delle variabili e degli eventi
 
-Le variabili e gli eventi personalizzati possono essere tracciati all&#39;interno dell&#39;HTML di analisi attraverso due approcci diversi:
+Le variabili e gli eventi personalizzati possono essere tracciati all’interno dell’HTML di analytics attraverso due approcci diversi:
 
-* Includi valori variabili ed eventi direttamente nella `stats.html` pagina. Le variabili definite qui sono la scelta migliore per i valori generalmente identici per tutti gli articoli istantanei di Facebook.
-* Includete i valori delle variabili come parte di una stringa di query che fa riferimento all&#39;iframe. Questo metodo consente di inviare i valori variabili dall’articolo istantaneo di Facebook all’iframe in cui risiede il codice Analytics.
+* Includi valori ed eventi variabili direttamente nella pagina `stats.html`. Le variabili qui definite sono consigliate per i valori che in genere sono gli stessi per tutti gli articoli istantanei di Facebook.
+* Includi i valori delle variabili come parte di una stringa di query che fa riferimento all&#39;iframe. Questo metodo ti consente di inviare i valori delle variabili dall’articolo istantaneo di Facebook all’iframe che ospita il codice Analytics.
 
-L&#39;esempio seguente mostra diverse variabili personalizzate incluse in una stringa di query. Il codice JavaScript all&#39;interno `stats.html` controllerebbe quindi la stringa di query utilizzando `s.Util.getQueryParam()`.
+L’esempio seguente mostra diverse variabili personalizzate incluse in una stringa di query. Il JavaScript all’interno di `stats.html` controllerebbe quindi la stringa di query utilizzando `s.Util.getQueryParam()`.
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
@@ -88,8 +87,8 @@ L&#39;esempio seguente mostra diverse variabili personalizzate incluse in una st
 
 >[!NOTE]
 >
->La dimensione Referente non viene tracciata automaticamente a causa della natura di iframe. Accertatevi di includere questa dimensione come parte della stringa di query per tenerla traccia.
+>La dimensione referente non viene tracciata automaticamente a causa della natura degli iframe. Assicurati di includere questa dimensione come parte della stringa di query se desideri tenerla traccia.
 
-## Articoli istantanei di Facebook e privacy
+## Articoli istantanei e privacy di facebook
 
-Fintanto che la pagina HTML di Analytics è ospitata sul server Web,  Adobe supporta l&#39;informativa sulla privacy esistente in tutti gli articoli istantanei di Facebook. Se un utente rinuncia al tracciamento sul sito principale, rinuncia anche al tracciamento su tutti gli articoli istantanei di Facebook. La pagina di utilità supporta anche Adobe Experience Cloud Identity Service in modo da poter integrare i dati Facebook Instant Article con il resto del Experience Cloud .
+Se la pagina HTML di Analytics è ospitata sul server web, Adobe supporta la tua politica sulla privacy esistente in tutti gli articoli istantanei di Facebook. Se un utente rinuncia al tracciamento sul sito principale, rifiuta anche il tracciamento su tutti gli articoli istantanei di Facebook. La pagina dell’utility supporta anche il servizio Adobe Experience Cloud Identity, in modo da poter integrare i dati di Facebook Instant Article con il resto dell’Experience Cloud.
