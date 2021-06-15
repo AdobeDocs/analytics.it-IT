@@ -5,9 +5,9 @@ title: Utilizzo dei timestamp opzionali
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '608'
 ht-degree: 15%
 
 ---
@@ -68,7 +68,7 @@ Di seguito sono riportate le best practice e alcuni requisiti e limitazioni da t
 
    I dati fuori ordine possono includere i dati in arrivo ritardati dalla raccolta dati offline e gli hit in arrivo ritardati o gli orologi non sincronizzati su dispositivi mobili offline. I dati fuori ordine possono avere un impatto negativo sui calcoli del tempo (come i valori del tempo trascorso), sull’attribuzione (persistenza eVar), sul numero di visite/sui conteggi delle visite e sui rapporti sui percorsi.
 
-* L&#39;utilizzo di marche temporali quando si imposta un [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) non è consigliato. Può portare a dati fuori servizio.
+* L&#39;utilizzo di marche temporali quando si imposta un [s.visitorID](/help/implement/vars/config-vars/visitorid.md) non è consigliato. Può portare a dati fuori servizio.
 
 * Le app ibride composte da un’app (con marca temporale e dati offline) che apre un browser web (dati live e senza marca temporale) non devono utilizzare marche temporali. Ne consegue una segnalazione inesatta della sessione.
 
