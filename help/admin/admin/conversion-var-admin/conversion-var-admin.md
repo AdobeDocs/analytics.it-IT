@@ -5,7 +5,7 @@ title: Variabili di conversione (eVar)
 feature: Strumenti di amministrazione
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 5%
@@ -33,8 +33,6 @@ Se desideri misurare il traffico o tracciare un percorso, si consiglia di utiliz
 ## Variabili di conversione - Descrizioni {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
 Descrizioni dei campi utilizzati durante la [modifica delle variabili di conversione](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md).
-
-
 
 | Elemento | Descrizione |
 | --- | --- |
