@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 99%
       + [Suite di rapporti multiple](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
-      + [Visualizza densità](analysis-workspace/build-workspace-project/view-density.md)
+      + [Densità di visualizzazione](analysis-workspace/build-workspace-project/view-density.md)
    + Componenti {#components}
       + [Panoramica dei componenti](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensioni {#dimensions}
@@ -55,8 +54,8 @@ ht-degree: 99%
          + [Configurare un rapporto di analisi per coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casi di utilizzo dell’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abbandono {#fallout}
-         + [Panoramica dell&#39;abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Configurare una visualizzazione dell&#39;abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Panoramica dell’abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configurare una visualizzazione dell’abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono interdimensionale](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Applicare i segmenti nell’analisi dell’abbandono](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flusso {#flow}
@@ -74,13 +73,13 @@ ht-degree: 99%
       + [Barre orizzontali e Barre orizzontali sovrapposte](analysis-workspace/visualizations/horizontal-bar.md)
       + [Linee](analysis-workspace/visualizations/line.md)
       + [Grafico a dispersione](analysis-workspace/visualizations/scatterplot.md)
-      + [Numero riepilogo e Modifica riepilogo](analysis-workspace/visualizations/summary-number-change.md)
+      + [Numero di riepilogo e Variazione di riepilogo](analysis-workspace/visualizations/summary-number-change.md)
       + [Testo](analysis-workspace/visualizations/text.md)
       + [Mappa ad albero](analysis-workspace/visualizations/treemap.md)
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
       + [Pannello Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
+      + [Pannello Attribution](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
@@ -90,7 +89,7 @@ ht-degree: 99%
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Curare o condividere progetti {#curate-share}
-      + [Menu Condividi](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
@@ -99,11 +98,11 @@ ht-degree: 99%
       + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
-      + [Modelli di attribuzione e finestre di lookback](analysis-workspace/attribution/models.md)
+      + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
-   + [Segment IQ](analysis-workspace/segment-iq.md)
+   + [Segmento IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
       + Rilevamento delle anomalie {#anomaly-detection}
@@ -112,7 +111,7 @@ ht-degree: 99%
          + [Disattivare il rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
          + [Tecniche di statistica utilizzate nel rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
       + Analisi contributi {#contribution-analysis}
-         + [Panoramica dell&#39;analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+         + [Panoramica dell’analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [Eseguire l’analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [Tecniche di statistica utilizzate nell’analisi dei contributi](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
       + Avvisi intelligenti {#intelligent-alerts}
@@ -235,7 +234,7 @@ ht-degree: 99%
       + [Limiti e specifiche](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importare manualmente i dati in Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Estrarre risorse pubblicate in Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [Procedure consigliate](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [Best practice](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Risoluzione dei problemi di integrazione di Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Pacchetti di contenuto Adobe Analytics per Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Macro di Visual Basic](report-builder/vba.md)
@@ -290,7 +289,7 @@ ht-degree: 99%
    + Personalizzare i rapporti {#customize-reports}
       + [Panoramica della personalizzazione dei rapporti](reports-analytics/reports-customize/customizing-reports-overview.md)
       + [Modificare i grafici dei rapporti](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [Breakdowns (Suddivisioni)](reports-analytics/reports-customize/breakdowns.md)
+      + [Suddivisioni](reports-analytics/reports-customize/breakdowns.md)
       + [Sottorelazioni](reports-analytics/reports-customize/subrelations.md)
       + [Filtraggio dati dei rapporti](reports-analytics/reports-customize/t-reports-filter-options.md)
    + [Segmentazione di Analytics](reports-analytics/segmentation.md)
