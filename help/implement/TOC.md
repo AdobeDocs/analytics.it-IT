@@ -7,7 +7,7 @@ user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Ad
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
