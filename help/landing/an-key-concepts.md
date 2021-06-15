@@ -24,7 +24,7 @@ Questa sezione riporta i concetti chiave di Adobe Analytics, una breve descrizio
 | Data Warehouse | Dati grezzi e non ancora elaborati per l’archiviazione e rapporti personalizzati, che puoi eseguire filtrando i dati. Non a livello hit. | [Pagina principale di Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Riunisce le funzionalità di marketing di applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni. | [Pagina principale di Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Data Connectors Adobe Exchange (precedentemente Genesis) | Importa dati di rilevamento da applicazioni di terze parti in Analytics, per offrire visibilità end-to-end alle prestazioni in un&#39;unica posizione centrale. A partire dal 1° agosto 2021, Adobe intende terminare le integrazioni dei Data Connectors. | [Pagina principale dei Data Connectors](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | La nuova generazione di funzionalità di gestione tag per siti Web e SDK per dispositivi mobili di Adobe. | [Pagina principale di Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Adobe Experience Platform Launch | La nuova generazione di funzionalità di gestione tag per siti Web e SDK per dispositivi mobili di Adobe. | [Pagina Home di Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## Terminologia chiave {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
