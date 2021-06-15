@@ -1,10 +1,9 @@
 ---
 title: Best practice per l’implementazione dei canali di marketing Adobe Analytics
 description: Sono state aggiornate le best practice per l’utilizzo dei canali di marketing con Attribution IQ e Customer Journey Analytics
-translation-type: tm+mt
-source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
+source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -34,7 +33,7 @@ Per ottimizzare l’analisi dei canali di marketing, consigliamo di utilizzare [
 
 I canali di aggiornamento diretto e interno/sessione non sono consigliati per l’utilizzo con modelli di attribuzione personalizzati (Attribution IQ).
 
-Cosa succede se nella tua organizzazione sono già configurati Direct e Session Refresh? In questo caso, ti consigliamo di creare una classificazione per i canali di marketing e di lasciare tali due canali non classificati. La dimensione classificata darà gli stessi risultati delle Attribution IQ come se tali canali non fossero mai stati configurati.
+Cosa succede se nella tua organizzazione sono già configurati Direct e Session Refresh? In questo caso, ti consigliamo di [creare una classificazione](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) per Primo contatto/Ultimo contatto e lasciare i canali di aggiornamento diretto e sessione non classificati. La dimensione classificata darà gli stessi risultati delle Attribution IQ come se tali canali non fossero mai stati configurati.
 
 ![](assets/direct-session-refresh.png)
 
