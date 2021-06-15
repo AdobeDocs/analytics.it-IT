@@ -5,8 +5,8 @@ uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1307'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Se i tuoi clienti (consumatori/persone interessate) desiderano sapere quali dei 
 
 ## Gestire il consenso dei clienti {#section_3012015E7E8942519FB9279CF7057EAB}
 
-In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito delle persone interessate prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di rinuncia](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito web. Questo consentirà alle persone interessate di negare future raccolte di dati di Adobe Experience Cloud.
+In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito delle persone interessate prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di opt-out](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito web. Questo consentirà alle persone interessate di negare future raccolte di dati di Adobe Experience Cloud.
 
 ## Convalidare gli utenti e i relativi dati {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
