@@ -5,7 +5,7 @@ exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Il codice JavaScript invia una richiesta di immagine ai server di raccolta dati 
 Per poter inviare dati ai server di raccolta dati, Adobe Analytics richiede il codice all’interno del sito web, dell’app mobile o di altre applicazioni. Esistono diversi metodi per implementare questo codice, a seconda della piattaforma e delle esigenze aziendali.
 
 * **Adobe Experience Platform Launch:** metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Inserisci un tag loader in ciascuna pagina e utilizza l’interfaccia di Launch per determinare come viene definita ogni variabile.
-* **Dynamic Tag Management**: Dynamic Tag Management è terminato.
+* **Dynamic Tag Management**: Dynamic Tag Management è stato terminato.
 * **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Consente di specificare le variabili e le impostazioni utilizzate in un’implementazione e può essere utile per le implementazioni di Launch basate su regole con codice personalizzato.
 * **SDK per dispositivi mobili:** librerie dedicate per inviare facilmente i dati ad Adobe dall’app mobile.
 
