@@ -6,9 +6,9 @@ feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1149'
+ht-degree: 100%
 
 ---
 
@@ -50,10 +50,10 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
 | --- | --- |
 | Perché Adobe ha introdotto i token? | La funzione Analisi contributi ha riscosso un grande successo in Adobe Analytics. La possibilità di disporre di un numero limitato di esecuzioni “complete” al mese (anziché 3 sole dimensioni per alcuni prodotti Analytics) consente di comprendere meglio i risultati ottenibili dall’analisi completa e illimitata dei contributi. |
 | Come funziona l’utilizzo dei token nell’analisi dei contributi? È necessario spendere un token per caricare un progetto con un’analisi dei contributi esistente oppure è richiesto solo se si esegue una nuova analisi? | Ad ogni azienda per la quale si esegue l’accesso (non a ciascun utente) viene assegnato un determinato numero di token al mese, che consente di eseguire analisi dei contributi “complete” in Analysis Workspace.  Ogni volta che si genera una nuova analisi dei contributi si paga un token. Quando si caricano progetti con analisi dei contributi preesistenti non viene richiesto alcun token. |
-| I token si applicano anche all’analisi dei contributi in Reports &amp; Analytics? | No. A partire da aprile 2018, Reports &amp; Analytics non offre più Analisi contributi. |
+| I token si applicano anche all’analisi dei contributi in Reports &amp; Analytics? | No. La funzione Analisi contributi non è più offerta in Reports &amp; Analytics a partire da aprile 2018. |
 | Cosa devo fare se la mia azienda ha esaurito i token ma intende eseguire altre analisi dei contributi? | Si può eseguire l’aggiornamento a un altro prodotto Adobe Analytics, ad esempio da Standard (2 token al mese) a Ultimate (20 token al mese). Non è contemplato il solo acquisto di altri token; è necessario eseguire l’aggiornamento all’interno del framework del pacchetto esistente. |
-| Come si limita l’accesso all’analisi dei contributi? | Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi. Tuttavia, gli amministratori possono concedere l&#39;accesso ad altri utenti creando un gruppo di autorizzazioni in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). Si consiglia di concedere l’autorizzazione all’analisi dei contributi solo agli utenti che abbiano un motivo legittimo per accedervi e di cui si sia certi che non abuseranno dei diritti di accesso ricevuti. L&#39;autorizzazione si chiama [!UICONTROL Contribution Analysis] in [!UICONTROL Report Suite Tools]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| Come faccio a conoscere il numero di token mensili a disposizione della mia azienda e quanti ne abbiamo utilizzati nel mese in corso? | Vai a  [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Cerca sotto<ul><li>Analisi contributi: Numero di token di utilizzo mensili</li><li>Analisi contributi: Numero di token di utilizzo utilizzati in questo mese</li></ul> |
+| Come si limita l’accesso all’analisi dei contributi? | Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi. Tuttavia, gli amministratori possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=it). Si consiglia di concedere l’autorizzazione all’analisi dei contributi solo agli utenti che abbiano un motivo legittimo per accedervi e di cui si sia certi che non abuseranno dei diritti di accesso ricevuti. L’autorizzazione si chiama [!UICONTROL Contribution Analysis] (Analisi contributi) e si trova in [!UICONTROL Report Suite Tools] (Strumenti suite di rapporti). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=it) |
+| Come faccio a conoscere il numero di token mensili a disposizione della mia azienda e quanti ne abbiamo utilizzati nel mese in corso? | Vai a  [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Cerca in<ul><li>Analisi contributi: numero di token di utilizzo mensili</li><li>Analisi contributi: numero di token di utilizzo consumati in questo mese</li></ul> |
 
 ## Adesioni a Rilevamento delle anomalie e Analisi contributi {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -61,7 +61,7 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
 
 >[!IMPORTANT]
 >
->Le funzioni Rilevamento delle anomalie e Analisi contributi sono state rimosse da Reports &amp; Analytics e sono ora disponibili solo tramite Analysis Workspace. I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace.
+>Le funzioni Rilevamento delle anomalie e Analisi contributi sono state rimosse da Reporting &amp; Analytics e ora sono disponibili solo in Analysis Workspace. I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
