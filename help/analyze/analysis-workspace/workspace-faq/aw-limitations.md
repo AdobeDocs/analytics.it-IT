@@ -7,7 +7,7 @@ exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 * Quando l’elaborazione dei tempi di report è abilitata, alcuni componenti non sono supportati. Per un elenco completo, vedi [Elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md).
 
-## Componenti > Tutti i componenti > Impostazioni dei rapporti
+## Components (Componenti) > All components (Tutti i componenti) > Report settings (Impostazioni dei rapporti)
 
 * Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] in basso: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding] e [!UICONTROL CSV Separator Character].
 
