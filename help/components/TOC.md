@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Organizza i dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali e avvisi.
-translation-type: tm+mt
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +44,7 @@ ht-degree: 99%
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
    + [eVar](dimensions/evar.md)
-   + [eVar (merchandising)](dimensions/evar-merchandising.md)
+   + [eVar (Merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
    + [Canale di primo contatto](dimensions/first-touch-channel.md)
@@ -108,7 +107,7 @@ ht-degree: 99%
    + [Lunghezza media della sessione](metrics/average-session-length.md)
    + [Tempo medio sul sito](metrics/average-time-on-site.md)
    + [Percentuale non recapitate](metrics/bounce-rate.md)
-   + [Non recapitate](metrics/bounces.md)
+   + [Rimbalzi](metrics/bounces.md)
    + [Aggiunte al carrello](metrics/cart-additions.md)
    + [Rimozioni dal carrello](metrics/cart-removals.md)
    + [Visualizzazioni del carrello](metrics/cart-views.md)
@@ -152,7 +151,7 @@ ht-degree: 99%
       + [Pianificare segmenti](segmentation/segmentation-workflow/seg-plan.md)
       + [Generare segmenti](segmentation/segmentation-workflow/seg-build.md)
       + [Creare segmenti sequenziali](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [Segmenti di tag](segmentation/segmentation-workflow/seg-tag.md)
+      + [Assegnare tag ai segmenti](segmentation/segmentation-workflow/seg-tag.md)
       + [Approvare segmenti](segmentation/segmentation-workflow/seg-approve.md)
       + [Condividere segmenti](segmentation/segmentation-workflow/t-seg-share.md)
       + [Pubblicare segmenti in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
@@ -163,7 +162,7 @@ ht-degree: 99%
       + [Gestire segmenti](segmentation/segmentation-workflow/seg-manage.md)
    + Riferimento al segmento {#segment-reference}
       + [Operatori di confronto per i segmenti](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilità con i segmenti di Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
+      + [Compatibilità dei segmenti con Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Diritti del segmento per ruolo](segmentation/seg-reference/seg-rights.md)
       + [Risoluzione dei problemi](segmentation/seg-reference/c-troubleshooting.md)
    + [Domande frequenti](segmentation/seg-transition.md)
@@ -186,7 +185,7 @@ ht-degree: 99%
       + [Assegnare tag alle metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Approvare le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Condividere le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Metriche calcolate Manager](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Gestore metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Riferimento metriche {#calcmetrics-reference}
       + [Riferimento: funzioni di base](c-calcmetrics/cm-reference/cm-functions.md)
       + [Riferimento: funzioni avanzate](c-calcmetrics/cm-reference/cm-adv-functions.md)
@@ -238,7 +237,7 @@ ht-degree: 99%
       + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
       + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
-      + [Regole di classificazione: definizioni](classifications/crb/classification-rule-definitions.md)
+      + [Regole di classificazione - definizioni](classifications/crb/classification-rule-definitions.md)
       + [Sottoclassificazioni e Generatore di regole](classifications/crb/sub-classification-rule-builder.md)
    + [Sottoclassificazioni](classifications/c-sub-classifications.md)
    + [Domande frequenti sulle classificazioni](classifications/faq.md)
