@@ -7,7 +7,7 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -116,7 +116,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
   </tr> 
   <tr> 
    <td colname="col1"> Segmenti (blu) </td> 
-   <td colname="col2"> <p>Sono trascinabili solo a livello di pannello, tuttavia puoi creare segmenti in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmenti </a> . </p> </td> 
+   <td colname="col2"> <p>Sono trascinabili solo a livello di pannello, tuttavia puoi creare segmenti in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmenti </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalli di date e granularità temporali (viola) </td> 
