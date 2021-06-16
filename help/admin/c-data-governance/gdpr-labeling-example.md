@@ -3,10 +3,10 @@ description: Mostra esempi su come etichettare i dati per i dati relativi agli h
 title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: fe277bea867dc67e8693673a547adecccf169332
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 88%
+source-wordcount: '770'
+ht-degree: 70%
 
 ---
 
@@ -289,7 +289,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 >[!NOTE]
 >
->sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. In pratica, la variabile contenente A_ID probabilmente è una proprietà o un’eVar e il valore di sostituzione è una stringa che inizia con “Privacy-” seguito da un numero a caso (GUID), invece di un diverso valore numerico casuale.
+>sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. Inoltre, in pratica, la variabile contenente A_ID probabilmente è una proprietà o un eVar. Il suo valore di sostituzione sarebbe una stringa che inizia con &quot;Privacy-&quot;, seguita da un numero casuale (GUID), anziché sostituire il valore numerico con un diverso valore numerico casuale.
 
 <table>
   <tr>
@@ -364,6 +364,6 @@ Tieni presente quanto segue:
 
 * Sono interessate le celle nelle righe contenenti `user=Mary` e un’etichetta `DEL-DEVICE` o `DEL-PERSON` , nonché le celle con un’etichetta `DEL-DEVICE` nelle righe contenenti eventuali ID visitatore (AAID) che si sono verificate in una riga contenente `user=Mary`.
 * L&#39;impostazione expandIDs non si espande alla chiamata per includere i valori presenti in MyEvar3, che ha un&#39;etichetta ID-DEVICE, quando `user=Mary`. ExpandIDs si espande solo per includere ID visitatore (AAID in questo esempio, ma anche ECID) nelle righe in cui `user=Mary`.
-* `MyEvar2` nella quarta e nella quinta riga viene aggiornato perché queste righe contengono gli stessi valori ID visitatore di quelli nella prima e nella seconda riga, pertanto l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
-* I valori di `MyEvar2` nella seconda e nella quinta riga corrispondono prima e dopo la cancellazione, ma dopo la cancellazione non corrisponde più il valore N che si trova nell’ultima riga, perché quella riga non è stata aggiornata come parte della richiesta di cancellazione.
-* `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde `ID-DEVICES`. Ora `AAID` corrisponde alle prime cinque righe.
+* `MyEvar2` nella quarta e nella quinta riga viene aggiornato perché queste righe contengono gli stessi valori ID visitatore di quelli nella prima e nella seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
+* I valori di `MyEvar2` nella seconda e nella quinta riga corrispondono prima e dopo l’eliminazione. Tuttavia, dopo l’eliminazione non corrispondono più al valore N che si trova nell’ultima riga, perché tale riga non è stata aggiornata come parte della richiesta di eliminazione.
+* `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde `ID-DEVICES`. Ora, `AAID` corrisponde alle prime cinque righe.
