@@ -4,10 +4,10 @@ title: Pubblicare segmenti in Experience Cloud
 feature: Segmentazione
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 13%
+source-wordcount: '1254'
+ht-degree: 14%
 
 ---
 
@@ -34,7 +34,7 @@ Inoltre, è stato aumentato il numero massimo di segmenti Adobe Analytics pubbli
 
 * **Limiti** della suite di rapporti: Puoi pubblicare fino a 75 segmenti per suite di rapporti. Questo limite viene applicato. Se hai già pubblicato 75 segmenti, non puoi pubblicarli finché non annulli la pubblicazione di un numero sufficiente di segmenti per scendere al di sotto della soglia di 75 segmenti.
 * **Limiti** di iscrizione: Il pubblico condiviso con  [!DNL Experience Cloud] da Adobe Analytics non può superare i 20 milioni di membri unici.
-* **Privacy** dei dati: I tipi di pubblico non vengono filtrati in base allo stato di autenticazione di un visitatore. Se un visitatore può navigare nel sito come utente autenticato o non autenticato, le azioni che si verificano per un visitatore non autenticato possono comunque determinare l&#39;inclusione del visitatore nel pubblico. Rivedi [Privacy Adobe Experience Cloud](https://www.adobe.com/privacy/experience-cloud.html) per comprendere tutte le implicazioni in materia di privacy derivanti dalla condivisione dei tipi di pubblico.
+* **Privacy** dei dati: I tipi di pubblico non vengono filtrati in base allo stato di autenticazione di un visitatore. Se un visitatore può navigare nel sito come utente autenticato o non autenticato, le azioni che si verificano per un visitatore non autenticato possono comunque determinare l&#39;inclusione del visitatore nel pubblico. Rivedi [Privacy Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html) per comprendere tutte le implicazioni in materia di privacy derivanti dalla condivisione dei tipi di pubblico.
 * Per una discussione sulle **differenze tra i segmenti in [!DNL Adobe Analytics] e[!DNL Audience Manager]**, vai [qui](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Timeline per la pubblicazione dei segmenti
@@ -96,7 +96,7 @@ Le schermate seguenti mostrano come recuperare l’UUID AAM sul browser e utiliz
 
 **Metodo 1: Utilizzare Adobe Experience Cloud Debugger**
 
-1. Scarica e installa [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html) in Chrome Web Store.
+1. Scarica e installa [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) in Chrome Web Store.
 1. Avvia il debugger durante il caricamento di una pagina.
 1. Scorri fino alla sezione Audience Manager e trova l’UUID AAM impostato nella pagina del browser corrente
 (`50814298273775797762943354787774730612` nell’esempio seguente)
