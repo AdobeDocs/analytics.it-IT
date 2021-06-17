@@ -3,10 +3,10 @@ description: Variabili per la generazione di rapporti sulla privacy in Privacy d
 title: Variabili per la generazione di rapporti sulla privacy
 feature: Strumenti di amministrazione
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ Consulta [Variabili di dati di contesto](https://experienceleague.adobe.com/docs
 
 * Dati contestuali: `contextData.['cm.ssf']`
 * Valori accettati:
-   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en).
    * 0: facoltativo. Utilizza il valore “0” per i clienti che hanno acconsentito al marketing mirato. Si ottengono gli stessi risultati anche senza impostare la variabile.
 
 ### DMP
