@@ -5,9 +5,9 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2121'
 ht-degree: 2%
 
 ---
@@ -16,16 +16,9 @@ ht-degree: 2%
 
 Passaggi sull’esecuzione dei diversi tipi di rapporti.
 
-
 ## Eseguire un report classifica {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 In un rapporto con classifica, la tabella mostra le classificazioni delle pagine del rapporto in relazione alla metrica, in base al numero o alla percentuale. I report Ranked possono mostrare più metriche in uno stesso report.
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. Genera un rapporto, ad esempio un [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
 1. Nell’intestazione del rapporto, fai clic su **[!UICONTROL Ranked.]**
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 I rapporti con tendenze visualizzano le metriche nel tempo. Puoi utilizzare questo tipo di report quando desideri sapere quali sono le prestazioni di un segmento da un periodo di tempo al successivo.
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 La maggior parte dei rapporti Conversione e Traffico dispone di una vista con tendenze disponibile. Utilizzando [!UICONTROL Calendar], puoi mostrare miglioramenti per tutte le suddivisioni dei periodi di tempo, inclusi giorni di un mese, settimane di un anno, settimane di un trimestre, mesi di un anno e così via. I rapporti con tendenze mostrano le tendenze per una singola metrica (ricavi, ordini, visualizzazioni e così via) fino a cinque elementi (come prodotti, categorie, pagine web e così via).
 
 **Per eseguire un rapporto con tendenze**
@@ -50,29 +37,9 @@ La maggior parte dei rapporti Conversione e Traffico dispone di una vista con te
 1. Esegui una conversione o un rapporto sul traffico, ad esempio **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
 1. Alla voce **[!UICONTROL Report Type]**, fai clic su **[!UICONTROL Trended.]**
 
-## Eseguire un rapporto Funnel di conversione {#task_B926A74AA6A641138C2986C1635120CB}
-
-I rapporti Funnel di conversione mostrano la percentuale di visitatori che hanno fatto progressi in un insieme di eventi per eseguire l’azione desiderata. Ad esempio, puoi vedere quanti visitatori hanno compiuto progressi dalla visita alla pagina web, dall’aggiunta di elementi al carrello e dall’acquisto di un articolo. Questo rapporto mostra anche il numero di caduti lungo la strada.
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-Per eseguire questo rapporto, selezionare un rapporto, ad esempio un rapporto Pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
-
-Per una descrizione, consulta [Rapporti di conversione](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) .
-
 ## Eseguire un rapporto di fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 Il [!UICONTROL Fallout Report] mostra il numero di visitatori che hanno visitato una sequenza di pagine predeterminata. Mostra anche i tassi di conversione e di abbandono tra ciascun passaggio.
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Consulta il nuovo pannello [Analisi abbandono](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
@@ -85,11 +52,6 @@ Consulta il nuovo pannello [Analisi abbandono](https://experienceleague.adobe.co
 1. Fai clic su **[!UICONTROL Run Report]**.
 
    ![Risultato passaggio](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [Descrizione del rapporto di fallout](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## Eseguire un rapporto di flusso di pagina {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ Ad esempio, la pagina Privacy Policy potrebbe avere 10.000 visualizzazioni di pa
 
 La percentuale relativa è rappresentata dalla larghezza relativa della linea. Per impostazione predefinita, questo rapporto visualizza cinque rami di secondo livello e cinque rami di terzo livello. È possibile espandere il numero di rami per visualizzare fino a dieci rami di secondo livello e cinque rami di terzo livello. In questo modo si aumenta l’altezza del rapporto e molto probabilmente è necessario scorrere per visualizzare l’intero grafico.
 
-## Eseguire un rapporto Funnel {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-È possibile selezionare eventi di successo e aggiungerli a un rapporto [!UICONTROL Purchase Conversion Funnel] o a un rapporto [!UICONTROL Product Conversion Funnel].
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. Fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Funnel di conversione prodotti](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
-
 ## Eseguire un rapporto sul canale di marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
 Il reporting per canale di marketing fornisce un rapporto di panoramica sull’allocazione dei canali di primo e ultimo contatto, con metriche di reporting standard come ricavi, ordini e costi. Questi rapporti ti consentono di analizzare quanti ricavi genera ogni canale.
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 Per ulteriori informazioni, consulta la guida [Marketing Channel](/help/components/c-marketing-channels/analyze-mc.md) .
 
 ## Eseguire un rapporto di rilevamento delle anomalie {#task_4808C96327354D789C075823F5C3A049}
 
 Descrive come interpretare i grafici di riepilogo e di singole metriche in Rilevamento delle anomalie.
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Scopri le nuove funzioni [Rilevamento delle anomalie e Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) di Analysis Workspace!
 
