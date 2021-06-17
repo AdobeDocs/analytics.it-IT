@@ -3,9 +3,9 @@ description: 'Scopri '
 title: Tipo di metrica e attribuzione
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '888'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specifi
 
 >[!IMPORTANT]
 >
->A luglio 2018, [!DNL Analytics] ha introdotto [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), che ha rivisto il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate a nuovi modelli di attribuzione migliorati:
+>[Attribution ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate a nuovi modelli di attribuzione migliorati:
 >
 >* Per un elenco completo dei modelli di attribuzione non predefiniti e degli intervalli di lookback supportati, consulta la documentazione [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) .
 >* I modelli di allocazione &quot;Marketing Channel Last Touch&quot; (Ultimo contatto canale marketing) e &quot;Marketing Channel First Touch&quot; (Primo contatto canale marketing) verranno migrati ai nuovi modelli di attribuzione &quot;Last Touch&quot; (Ultimo contatto) e &quot;First Touch&quot; (Primo contatto canale di marketing) rispettivamente (Nota: &quot;Marketing Channels&quot; (Canali di marketing) non verrà deprecato, ma solo i due modelli di allocazione che compaiono nelle metriche calcolate.
@@ -72,9 +72,9 @@ Per l’eVar di primo contatto di cui sopra, tutti i $ 10 vengono dati a A. Per 
 | PROMO C | $ 1,67 | $0 | $ 2,50 |
 | Totale | $ 10,00 | $ 10,00 | $ 10,00 |
 
-**Riepilogo del funzionamento dell’allocazione lineare a partire dal 19 luglio 2018**
+**Riepilogo del funzionamento dell&#39;allocazione lineare**
 
-Dopo il 19 luglio, abbiamo corretto questo comportamento nelle metriche calcolate. Invece di utilizzare i valori persistenti basati sull’ultimo contatto o sul primo contatto, ora [!DNL Analytics] utilizza solo i valori passati (la prima riga della tabella superiore). Di conseguenza, le impostazioni di allocazione delle dimensioni non influiscono più sul modo in cui viene calcolata l’allocazione lineare (ovvero proprietà ed eVar verranno trattate nello stesso modo) e i risultati riflettono ciò che è stato originariamente passato invece dei valori di primo o ultimo contatto che potrebbero essere persistiti. Quindi, in tutti e tre i casi, A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50 e C = 10 * (1/4) = $2,50.
+Invece di utilizzare i valori persistenti basati sull’ultimo contatto o sul primo contatto, ora [!DNL Analytics] utilizza solo i valori passati (la prima riga della tabella superiore). Di conseguenza, le impostazioni di allocazione delle dimensioni non influiscono più sul modo in cui viene calcolata l’allocazione lineare (ovvero proprietà ed eVar verranno trattate nello stesso modo) e i risultati riflettono ciò che è stato originariamente passato invece dei valori di primo o ultimo contatto che potrebbero essere persistiti. Quindi, in tutti e tre i casi, A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50 e C = 10 * (1/4) = $2,50.
 
 | Valori | Nuovo eVar ultimo contatto | Nuovo eVar primo contatto | Nuovo prop. |
 |---|---|---|---|
