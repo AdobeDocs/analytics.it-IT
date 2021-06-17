@@ -5,10 +5,10 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ I rapporti vengono spostati utilizzando una vista a colonne gerarchica. Fare cli
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Per informazioni dettagliate sui singoli rapporti, vedere [Descrizioni dei rapporti](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
+Per informazioni dettagliate sui singoli rapporti, consulta [Dimension](/help/components/dimensions/overview.md).
 
 ## Ricerca di rapporti {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
