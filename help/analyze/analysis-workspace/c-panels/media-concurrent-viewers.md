@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Media Concurrent Viewers
 feature: Pannelli
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+source-wordcount: '1005'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,6 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 | Posso eseguire il rilevamento delle anomalie? | No.  Il rilevamento delle anomalie non è disponibile per questo pannello. |
 | Perché utilizzare visitatori univoci invece di sessioni attive? | L’utilizzo di visitatori univoci consente di rimuovere i picchi indesiderati in corrispondenza dei confini tra dati da visualizzare (dove le sessioni terminano e iniziano allo stesso momento). |
 | Cosa significa avere visualizzatori simultanei con granularità maggiore del minuto? | Con una granularità maggiore di un minuto, i visualizzatori simultanei sono la somma dei visualizzatori simultanei univoci per tutti i minuti entro l’intervallo di tempo in questione. Ad esempio, i visualizzatori simultanei con granularità a livello di ora corrispondono alla somma dei visualizzatori simultanei univoci per tutti i minuti all’interno di quell’ora. |
-| Cosa succede se voglio vedere più di un giorno con granularità al minuto? | Per accedere ai dati con granularità al minuto fino a un mese alla volta, puoi utilizzare le API di Analytics 2.0. Per ulteriori informazioni, consulta [Ottenere i dati del rapporto JSON per visualizzatori simultanei con le API di Analytics 2.0](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
 | Il pannello Workspace mostra le stesse informazioni del rapporto Visualizzatori simultanei? | No.  In Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori univoci che visualizzano il flusso multimediale in un momento specifico, indipendentemente dal numero di sessioni.<br><br>È diverso dal reporting sui visualizzatori simultanei nella sezione Rapporti, in cui vengono utilizzate sessioni attive simultanee.  L’utilizzo di visitatori univoci consente di rimuovere i picchi indesiderati in corrispondenza dei confini tra dati da visualizzare (dove le sessioni terminano e iniziano allo stesso momento). |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
