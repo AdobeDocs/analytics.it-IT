@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Nozioni di base su Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 2%
+source-wordcount: '1253'
+ht-degree: 4%
 
 ---
 
@@ -57,23 +57,9 @@ Consulta il nuovo pannello [Analisi abbandono](https://experienceleague.adobe.co
 
 I rapporti Flusso di pagina mostrano l’ordine in cui i visitatori accedono alle pagine e navigano nel sito. Questo rapporto aiuta a rispondere
 
-Consulta la nuova [Visualizzazione flusso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
-
-Esegui un rapporto [Percorsi](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html).
+Consulta la [Visualizzazione Flusso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
 Ad esempio, fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
-
-![](assets/page_flow.png)
-
-Il rapporto viene letto da sinistra a destra, a partire dalla pagina selezionata. Le pagine visualizzate dopo la pagina selezionata sono illustrate come un ramo che si estende a destra.
-
-Accanto al nome della pagina viene visualizzata la percentuale di visualizzazione di ogni pagina successiva. La larghezza della riga connessa a ogni pagina successiva rappresenta questa percentuale relativa.
-
-**[!UICONTROL Path Views]**: Indica il numero di volte in cui è stata visualizzata una pagina, se vincolata ai percorsi visualizzati.
-
-Ad esempio, la pagina Privacy Policy potrebbe avere 10.000 visualizzazioni di pagina totali, ma solo 500 di queste visualizzazioni si sono verificate immediatamente dopo la home page. Pertanto, viene utilizzato il termine visualizzazione percorso.
-
-La percentuale relativa è rappresentata dalla larghezza relativa della linea. Per impostazione predefinita, questo rapporto visualizza cinque rami di secondo livello e cinque rami di terzo livello. È possibile espandere il numero di rami per visualizzare fino a dieci rami di secondo livello e cinque rami di terzo livello. In questo modo si aumenta l’altezza del rapporto e molto probabilmente è necessario scorrere per visualizzare l’intero grafico.
 
 ## Eseguire un rapporto sul canale di marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ Per ulteriori informazioni, consulta la guida [Marketing Channel](/help/componen
 
 ## Eseguire un rapporto di rilevamento delle anomalie {#task_4808C96327354D789C075823F5C3A049}
 
-Descrive come interpretare i grafici di riepilogo e di singole metriche in Rilevamento delle anomalie.
-
-Scopri le nuove funzioni [Rilevamento delle anomalie e Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) di Analysis Workspace!
-
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
-
->[!NOTE]
->
->Puoi anche eseguire il rilevamento delle anomalie dai progetti Analysis Workspace. [Altro...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-Per informazioni sulla configurazione del rilevamento delle anomalie, fare riferimento alla [Guida di riferimento](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
-
-Il rilevamento delle anomalie mostra due tipi di grafici: Grafico di riepilogo e grafici di singole metriche. I singoli grafici delle metriche vengono visualizzati solo se è stata rilevata almeno un’anomalia per tale metrica.
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Tipo di grafico </p> </th> 
-   <th colname="col2" class="entry"> <p>Operazioni </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Grafico di riepilogo </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Ogni casella rappresenta un’anomalia, tracciata ogni giorno, che corrisponde a una metrica di seguito. </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">Il verde indica le anomalie sopra la linea di tendenza, il blu sotto la linea di tendenza. </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">Indica l’intensità dell’anomalia: Maggiore è l’anomalia, più scuro è il colore del punto dati e più lontano dalla linea di tendenza. </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">Facendo clic sulle singole anomalie viene visualizzato il grafico delle singole metriche (sotto il grafico di riepilogo) in alto. </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">I valori percentuali di deviazione (a sinistra del grafico) sono calcolati come segue: 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">Se i limiti superiori e il valore previsto sono uguali, la deviazione % è 100% </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">In caso contrario, la deviazione % è ((valore effettivo - valore limite superiore) / (valore limite superiore - valore previsto)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Se i limiti inferiori e il valore previsto sono uguali, la deviazione % è -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">In caso contrario, la deviazione % è ((valore associato inferiore - valore effettivo) / (valore previsto - valore associato inferiore)) * -100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Facendo clic su <span class="uicontrol"> Mostra segmenti </span> viene visualizzata la barra dei segmenti che consente di applicare segmenti a un rapporto di rilevamento delle anomalie. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Ulteriori informazioni  </a> sulla segmentazione. </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">Facendo clic su <span class="uicontrol"> Modifica metriche </span>puoi selezionare e deselezionare le metriche per le quali desideri rilevare le anomalie. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Grafico a metrica singola </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Visualizza punti di dati anomali per le singole metriche con tendenze (comprese le metriche calcolate) sotto forma di punti. </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">Mostra l’anomalia più recente in alto e, in secondo luogo, classifica per numero di anomalie. </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">Visualizza una linea continua per indicare i dati effettivi attualmente raccolti. Questo viene confrontato con la previsione e il margine di errore per determinare se i punti dati sono anomali. </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">Visualizza una linea tratteggiata che rappresenta una previsione basata sui dati storici (ovvero il periodo di formazione). </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">Visualizza intervalli/limiti di affidabilità superiori e inferiori al 95% in un'ombreggiatura grigia. </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">Consente di comprimere ed espandere singoli rapporti facendo clic sulle frecce verso l’alto o il basso accanto al nome della metrica. </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">Modifica l’ordine di visualizzazione dei grafici delle metriche reagendo alle analisi approfondite nel rapporto di panoramica (vedi sopra) </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">Consente di filtrare i grafici utilizzando termini di ricerca, ad esempio "pagina" per tutte le metriche relative alla pagina. </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">Consente di visualizzare tutte le metriche definite o solo quelle con anomalie. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Impostazione del rilevamento delle anomalie {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-Passaggi per selezionare suite di rapporti, metriche e periodi di formazione/visualizzazione per il rilevamento delle anomalie.
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-Puoi impostare il rilevamento delle anomalie in modo indipendente per ogni suite di rapporti.
-
-1. Passa a  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
-1. Seleziona la suite di rapporti per la quale desideri tenere traccia del rilevamento giornaliero delle anomalie. Per visualizzare un elenco di suite di rapporti, fai clic sul menu a discesa del selettore Suite di rapporti .
-1. Per selezionare le metriche e/o definire le metriche filtrate, fai clic su **[!UICONTROL Edit Metrics]** in alto a destra nella schermata:  ![](assets/metrics_icon.png).
-
-   Puoi scegliere le metriche dall’elenco (comprese le metriche calcolate) di tutte le metriche o da un elenco di metriche tracciate. Puoi anche filtrare in base a termini specifici per limitare l’elenco. 1. Una volta generato il rapporto, definisci i valori **[!UICONTROL Training Period]** e **[!UICONTROL View Period]** per il rilevamento delle anomalie. (Considera il periodo di formazione come il &quot;periodo di apprendimento&quot; per l&#39;algoritmo.)
-
-   ![](assets/view_training_periods.png)
-
-   Nota bene:
-
-* Il periodo di formazione termina immediatamente prima dell&#39;inizio del periodo di visualizzazione.
-* Il valore predefinito per entrambi è 30 giorni e puoi estenderlo a 60 o 90 giorni.
-* L’estensione del periodo di formazione inserisce i dati in un contesto più ampio e potrebbe ridurre le dimensioni di un’anomalia.
-
-   Il rapporto sulle metriche di Rilevamento anomalie viene aggiornato ogni volta che modifichi un parametro.
-1. (Facoltativo) Per applicare segmenti al rapporto, fai clic su **[!UICONTROL Show Segments]** e seleziona uno o più segmenti esistenti o crea un nuovo segmento e applicalo.
-
-   ![](assets/ad_top_menu.png)
-
-   Per ulteriori informazioni sulla creazione e la gestione dei segmenti, consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) . 1. (Facoltativo) Preferito o segnalibro del rapporto.
-1. (Facoltativo) Modificare la data di fine del periodo di visualizzazione. Il valore predefinito è ieri.
-1. Ora puoi iniziare a interpretare il rapporto. [Visualizzazione dei grafici](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049) di Rilevamento delle anomalie.
+Puoi eseguire [Rilevamento anomalie e Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) solo in Analysis Workspace.
 
 ## Eseguire un rapporto in tempo reale {#task_5D25929C918E40B18965222FA94176B0}
 
 Descrive come visualizzare e interpretare i rapporti in tempo reale.
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL Reports > Site Metrics > Real-Time]** .
 
