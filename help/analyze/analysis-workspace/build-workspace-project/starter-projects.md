@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Concetti di base di Workspace
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1378'
 ht-degree: 97%
 
 ---
@@ -134,7 +134,7 @@ Questo modello è basato sulla metrica Persone, che è una versione deduplicata 
 
 <!--This content is mirrored in the CDA doc.-->
 
-Questo modello consente di visualizzare dati vitali delle prestazioni tra dispositivi. È disponibile solo per i clienti che hanno accesso a [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) (CDA).
+Questo modello consente di visualizzare dati vitali delle prestazioni tra dispositivi. È disponibile solo per i clienti che hanno accesso a [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA).
 
 * **Nota speciale per i membri del Co-op Graph**: mostra quale parte della suite di rapporti contiene i visitatori nelle aree in cui è supportato il grafico Co-op e le aree in cui non è supportato.
 * **Identificazione degli utenti**: mostra la frequenza con cui i visitatori del sito vengono identificati utilizzando metodi basati su Cross-Device Analytics.
