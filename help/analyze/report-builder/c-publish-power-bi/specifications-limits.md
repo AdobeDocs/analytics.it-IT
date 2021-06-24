@@ -4,14 +4,13 @@ title: Limiti e specifiche
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 1%
 
 ---
-
 
 # Limiti e specifiche
 
@@ -25,7 +24,7 @@ ht-degree: 1%
 * Il processo di pianificazione interrompe l’esportazione delle richieste quando viene raggiunta la 101a richiesta.
 * Solo le prime 10.000 righe di dati Analytics verranno inviate a Power BI per richiesta di Report Builder. Le righe rimanenti verranno ignorate.
 
-## Modifica una richiesta di Report Builder dopo la pubblicazione in Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
+## Modificare una richiesta di Report Builder dopo la pubblicazione su Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
 >[!NOTE]
 >
@@ -71,6 +70,5 @@ Per impostazione predefinita, il nome verrà popolato dal nome del file della ca
 Nota bene
 
 * L’etichetta non può essere una combinazione di lettere e numeri che potrebbero essere erroneamente utilizzate per l’indirizzo di una riga o di una colonna. Ad esempio, A100 non può essere un&#39;etichetta perché è l&#39;indirizzo di una cella in un foglio di lavoro.
-* I seguenti caratteri non sono caratteri di etichetta validi: &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39; &#39;. Saranno sostituiti da un carattere di sottolineatura.
+* I seguenti caratteri non sono caratteri di etichetta validi: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; e `'~', ' '` . Vengono sostituiti da un carattere di sottolineatura.
 * Quando si immette un nome non valido, viene visualizzato un messaggio di avviso che suggerirà un nome generato automaticamente. Se fai clic su **[!UICONTROL Yes]**, verrà utilizzato questo nome. Se si fa clic su **[!UICONTROL No]**, l&#39;interfaccia utente della procedura guidata avanzata consente di immettere il nuovo nome.
-
