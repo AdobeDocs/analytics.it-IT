@@ -3,9 +3,9 @@ title: Guide tecniche di Adobe Analytics
 description: Guide per gli utenti e risorse di Analytics
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Benvenuti nella pagina principale del prodotto Adobe Analytics e della documenta
 
 [![Integrazione](assets/integrate_50px.png)](/help/integrate/home.md) [Guida all’integrazione](/help/integrate/home.md): configura le integrazioni con altre soluzioni Adobe Experience Cloud, come Audience Manager, Advertising Cloud e Target.
 
-[![Analytics per lo streaming di file multimediali](assets/media_50px.png)](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) [Guida ad Analytics per lo streaming di file multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html): implementare Adobe Analytics per lo streaming di file multimediali. Gli argomenti trattati comprendono Media SDK e Media Collection API.
+[![Analytics per lo streaming di file multimediali](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it) [Guida ad Analytics per lo streaming di file multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it): implementare Adobe Analytics per lo streaming di file multimediali. Gli argomenti trattati comprendono Media SDK e Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) [Data Workbench Guide](https://experienceleague.adobe.com/docs/data-workbench/using/home.html): scopri le funzionalità multi-canale, potenti e altamente flessibili di [!UICONTROL Data Workbench]. Include [!UICONTROL Data Workbench Client], installazione, guide per [!UICONTROL Dataset Configuration] e altro ancora.
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=it) [Data Workbench Guide](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=it): scopri le funzionalità multi-canale, potenti e altamente flessibili di [!UICONTROL Data Workbench]. Include [!UICONTROL Data Workbench Client], installazione, guide per [!UICONTROL Dataset Configuration] e altro ancora.
 
 [![Note tecniche](assets/technotes_50px.png)](/help/technotes/home.md) [Note tecniche di Analytics](/help/technotes/home.md): knowledge base contenente articoli utili per strumenti o componenti di analisi specifici.
 
 | Novità/In primo piano | Risorse chiave per Analytics |
 | --- | --- |
-| <ul><li>[Revisione completa dell’implementazione](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=it)</li><li>[Revisione dell’implementazione mirata](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=it)</li><li>[Raccolta di dati regionali](/help/technotes/rdc/regional-data-collection.md)</li><li>[Ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Confronto tra i prodotti Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quale strumento Adobe Analytics usare?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Consulta anche: [Aggiornamenti alla documentazione 2019](doc-updates.md) | <ul><li> [Note sulla versione](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)</li><li> [Video tutorial su Adobe Analytics](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html)</li><li>[Forum della community di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formazione di persona e lezioni virtuali](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contattare l’Assistenza clienti](https://helpx.adobe.com/it/support/analytics.html)</li></ul> |
+| <ul><li>[Revisione completa dell’implementazione](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=it)</li><li>[Revisione dell’implementazione mirata](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=it)</li><li>[Raccolta di dati regionali](/help/technotes/rdc/regional-data-collection.md)</li><li>[Ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Confronto tra i prodotti Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quale strumento Adobe Analytics usare?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Consulta anche: [Aggiornamenti alla documentazione 2019](doc-updates.md) | <ul><li> [Note sulla versione](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)</li><li> [Video tutorial su Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it)</li><li>[Forum della community di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formazione di persona e lezioni virtuali](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contattare l’Assistenza clienti](https://helpx.adobe.com/it/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
