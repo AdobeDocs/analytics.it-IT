@@ -6,9 +6,9 @@ feature: Curare e condividere
 role: Business Practitioner, Administrator
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Per rimuovere la cura del progetto e ripristinare l’intero set di componenti n
 
 ## Cura di suite di rapporti virtuali (VRS, Virtual Report Suite)
 
-Per applicare la cura a livello di suite di rapporti in modo che venga applicata a più progetti contemporaneamente, puoi [curare i componenti in una suite di rapporti virtuale (VRS, Virtual Report Suite)](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html).
+Per applicare la cura a livello di suite di rapporti in modo che venga applicata a più progetti contemporaneamente, puoi [curare i componenti in una suite di rapporti virtuale (VRS, Virtual Report Suite)](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=it).
 
 >[!NOTE]
 > La cura VRS viene sempre applicata prima della cura del progetto. Ciò significa che anche se il progetto curato include alcuni componenti, essi verranno filtrati se la VRS curata non li include.
