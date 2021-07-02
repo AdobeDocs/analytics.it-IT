@@ -6,9 +6,9 @@ feature: Visualizzazioni
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Puoi perfino aggiungere segmenti all’interno di un punto di contatto. Ad esemp
 
 Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
 
-Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
 1. Trascina una visualizzazione [!UICONTROL Fallout] (Abbandono) dal menu a discesa Visualizzazioni in una [!UICONTROL Freeform Table] (Tabella a forma libera).
 
@@ -52,7 +52,7 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Percorso finale </p> <p>(impostazione predefinita) </p> </td> 
-   <td colname="col2"> <p>Vengono conteggiati i visitatori che arrivano "alla fine" sulla pagina successiva nel percorso di quella sessione, ma non necessariamente sull’hit successivo. </p> </td> 
+   <td colname="col2"> <p>Conteggia i visitatori che accederanno alla pagina successiva del percorso nel corso della stessa sessione, ma non necessariamente all’hit successivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hit successivo </p> </td> 
