@@ -5,9 +5,9 @@ user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Utilizza feed di dati per ricevere un’esportazione oraria o giornaliera di dati non elaborati. Utilizza Data Warehouse per recuperare un output di dati in un foglio di calcolo.
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
       + [Riferimento colonna dati](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Ricerca eventi pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Ricerca attributi mobile](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [Ricerca eVar Merchandising](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [Ricerca eVar merchandising](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caratteri speciali](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Domande frequenti sui feed dati](analytics-data-feed/df-faq.md)
@@ -69,4 +69,4 @@ ht-degree: 96%
       + [Connessione ad Adobe tramite SFTP senza password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Download di Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it)
 + [API Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=it)
