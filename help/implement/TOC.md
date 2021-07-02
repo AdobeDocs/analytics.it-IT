@@ -5,9 +5,9 @@ user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 + Preparazione all’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello di dati](prepare/data-layer.md)
    + [Considerazioni globali sulla suite di report](prepare/global-rs.md)
-   + [Implementazione di tag per più suite](prepare/multi-suite-tagging.md)
+   + [Implementazione dell’assegnazione tag per più suite](prepare/multi-suite-tagging.md)
    + [Modale di implementazione](prepare/implementation-modal.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
    + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
