@@ -4,9 +4,9 @@ title: Domande frequenti
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1804'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>In che modo i titolari del trattamento devono considerare la conservazione dei dati quando si tratta di Privacy dei dati?</b> </p> </td> 
-   <td colname="col2"> <p>La Privacy dei dati indica che in genere i dati personali non devono essere conservati per un periodo più lungo del tempo necessario a raggiungere lo scopo per cui sono stati raccolti. </p> <p>Come indicato da Adobe nella comunicazione ai clienti di febbraio, applicheremo un piano di conservazione dei dati di 25 mesi per la maggior parte dei clienti, a meno che non siano stati presi accordi diversi (soggetti alla notifica e all’autorizzazione dei clienti). Ai clienti verrà richiesto di impostare i criteri di conservazione dei dati per consentire ad Adobe di elaborare le richieste di Privacy dei dati. </p> <p>Adobe Analytics richiede ai clienti di impostare la conservazione dei propri dati per elaborare le richieste di Privacy dei dati. I criteri di conservazione dei dati correnti di ogni suite di report vengono visualizzati nella nuova interfaccia utente Admin Governance dei dati. Se è necessario modificare i criteri di conservazione dei dati, i clienti devono contattare il proprio rappresentante Adobe. Consulta le <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"> Domande frequenti sulla conservazione dei dati in Adobe Analytics. </a> </p> </td> 
+   <td colname="col2"> <p>La Privacy dei dati indica che in genere i dati personali non devono essere conservati per un periodo più lungo del tempo necessario a raggiungere lo scopo per cui sono stati raccolti. </p> <p>Come indicato da Adobe nella comunicazione ai clienti di febbraio, applicheremo un piano di conservazione dei dati di 25 mesi per la maggior parte dei clienti, a meno che non siano stati presi accordi diversi (soggetti alla notifica e all’autorizzazione dei clienti). Ai clienti verrà richiesto di impostare i criteri di conservazione dei dati per consentire ad Adobe di elaborare le richieste di Privacy dei dati. </p> <p>Adobe Analytics richiede ai clienti di impostare la conservazione dei propri dati per elaborare le richieste di Privacy dei dati. I criteri di conservazione dei dati correnti di ogni suite di report vengono visualizzati nella nuova interfaccia utente Admin Governance dei dati. Se è necessario modificare i criteri di conservazione dei dati, i clienti devono contattare il proprio rappresentante Adobe. Consulta le <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=it"> Domande frequenti sulla conservazione dei dati in Adobe Analytics. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Un cliente può ridurre o estendere il periodo di conservazione dei dati predefinito?</b> </p> </td> 
