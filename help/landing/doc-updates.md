@@ -4,7 +4,7 @@ description: Aggiornamenti rilevanti dell’archivio della documentazione di Ado
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -14,10 +14,10 @@ ht-degree: 100%
 
 Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da gennaio 2019.
 
-* Per informazioni su [!UICONTROL Customer Journey Analytics] vedi [qui](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
+* Per informazioni su [!UICONTROL Customer Journey Analytics] vedi [qui](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it).
 * Per una lista completa delle nuove funzioni di Adobe Analytics, delle notifiche dell’amministratore e dei bug risolti vedi le ultime [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 * Per informazioni dettagliate sulle nuove funzioni, consulta [Nuove funzioni di Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) nella guida utente Strumenti.
-* Per informazioni su Adobe Analytics per audio e video, consulta [Misurazione di audio e video in Analytics](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
+* Per informazioni su Adobe Analytics per audio e video, consulta [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
 
 ## Dettagli degli aggiornamenti principali
 
@@ -38,7 +38,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 13 gennaio 2020 | Sono stati aggiunti [cookie di Adobe Analytics e del browser](/help/technotes/cookies/cookies.md). |
 | 29 novembre 2019 | Revisione della [Documentazione del feed dati](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 novembre 2019 | Nuovo argomento su [Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP](/help/admin/company/login-restrictions-eol.md). |
-| 21 novembre 2019 | Nuova documentazione impostata per l&#39;[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
+| 21 novembre 2019 | Nuova documentazione impostata per l&#39;[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it). |
 | 28 settembre 2019 | Nuovi articoli sulle [variabili di configurazione per l&#39;implementazione Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12 settembre 2019 | Nuova documentazione per [Journey IQ: analisi multi-dispositivo](/help/components/cda/overview.md). |
 | 28 agosto 2019 | Nuovo articolo sulle [App web progressive (PWA) per Analytics](/help/analyze/pwa/pwa.md). |
