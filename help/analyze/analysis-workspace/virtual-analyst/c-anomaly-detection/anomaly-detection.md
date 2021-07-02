@@ -6,9 +6,9 @@ feature: Strumenti di intelligenza artificiale
 role: Business Practitioner, Administrator
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 91%
 
 In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 
-[Tutorial video sul rilevamento delle anomalie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[Tutorial video sul rilevamento delle anomalie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html?lang=it) (4:53)
 
-[Tutorial video sull’analisi dei contributi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
+[Tutorial video sull’analisi dei contributi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html?lang=it) (3:20)
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Ecco alcuni esempi di anomalie da esaminare:
 * Picchi negli eventi di buffering video
 * Picchi nei valori più bassi di bitrate video
 
-[Rilevamento delle anomalie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
+[Rilevamento delle anomalie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=it) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
 
 L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
 
