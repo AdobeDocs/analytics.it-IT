@@ -7,7 +7,7 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
 
 1. Specifica le autorizzazioni per l’utente per creare e curare progetti.
 
-   Prima di creare o curare un progetto di Analysis Workspace, gli amministratori devono aggiungere gli utenti a un gruppo su cui sia abilitata l’autorizzazione **[!UICONTROL Create / Curate Projects in Analysis Workspace]** oppure al gruppo di utenti **[!UICONTROL All Report Access]**. (**[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Gruppi](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)).
+   Prima di creare o curare un progetto di Analysis Workspace, gli amministratori devono aggiungere gli utenti a un gruppo su cui sia abilitata l’autorizzazione **[!UICONTROL Create / Curate Projects in Analysis Workspace]** oppure al gruppo di utenti **[!UICONTROL All Report Access]**. (**[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Gruppi](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=it)).
 
 1. In [!DNL Experience Cloud], fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
