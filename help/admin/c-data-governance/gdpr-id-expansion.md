@@ -4,9 +4,9 @@ title: Espansione dell’ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1350'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Per un esempio su come includere questa opzione nella richiesta, consultare [Ese
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Espansione dell’ID cookie </p> </td> 
-   <td colname="col2"> <p>Molti clienti di Analytics utilizzavano originariamente il <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html"> cookie di Analytics </a>(legacy), ma ora utilizzano il <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html"> servizio Identity (ECID) </a>, precedentemente noto come servizio Marketing Cloud ID (MCID). Per i visitatori che hanno visitato il loro sito per la prima volta in seguito alla transizione, esiste solo l’ECID. Tuttavia, per coloro che hanno visitato il sito per la prima volta quando era disponibile solo il cookie legacy, ma che da allora lo hanno visitato ancora: alcuni dei loro dati avranno entrambi i cookie, ma i dati meno recenti avranno solo il cookie di Analytics, mentre i dati più recenti potrebbero avere solo un ECID. </p> <p>Accertarsi di trovare tutti i dati di un visitatore identificato tramite un cookie di Analytics (ID visitatore) o ECID. Pertanto, se attualmente si utilizza l’ECID e in precedenza si è utilizzato il Cookie Analytics, ogni volta che si invia una richiesta utilizzando uno dei due tipi di ID, è necessario includere entrambi gli ID nella richiesta o specificare l’opzione expandIDs. Quando si specifica expandIDs, Adobe verifica la presenza di altri ECID o cookie di Analytics che corrispondono a qualsiasi ID cookie fornito. La richiesta viene automaticamente estesa per includere i nuovi ID cookie identificati. </p> </td> 
+   <td colname="col2"> <p>Molti clienti di Analytics utilizzavano originariamente il <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=it"> cookie di Analytics </a>(legacy), ma ora utilizzano il <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it"> servizio Identity (ECID) </a>, precedentemente noto come servizio Marketing Cloud ID (MCID). Per i visitatori che hanno visitato il loro sito per la prima volta in seguito alla transizione, esiste solo l’ECID. Tuttavia, per coloro che hanno visitato il sito per la prima volta quando era disponibile solo il cookie legacy, ma che da allora lo hanno visitato ancora: alcuni dei loro dati avranno entrambi i cookie, ma i dati meno recenti avranno solo il cookie di Analytics, mentre i dati più recenti potrebbero avere solo un ECID. </p> <p>Accertarsi di trovare tutti i dati di un visitatore identificato tramite un cookie di Analytics (ID visitatore) o ECID. Pertanto, se attualmente si utilizza l’ECID e in precedenza si è utilizzato il Cookie Analytics, ogni volta che si invia una richiesta utilizzando uno dei due tipi di ID, è necessario includere entrambi gli ID nella richiesta o specificare l’opzione expandIDs. Quando si specifica expandIDs, Adobe verifica la presenza di altri ECID o cookie di Analytics che corrispondono a qualsiasi ID cookie fornito. La richiesta viene automaticamente estesa per includere i nuovi ID cookie identificati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID personalizzati per l’espansione dell’ID cookie </p> </td> 
