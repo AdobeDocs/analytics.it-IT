@@ -2,11 +2,10 @@
 description: Scopri quando e perché i connettori dati di Analytics termineranno.
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-translation-type: tm+mt
-source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 9%
+source-wordcount: '638'
+ht-degree: 10%
 
 ---
 
@@ -104,4 +103,4 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 
 L’eccezione ONE alla data del 1 agosto 2021 è l’integrazione Adobe Campaign Classic. Questa integrazione verrà ufficialmente dichiarata obsoleta il 1° marzo 2022.
 
-Il 1° agosto 2021, Adobe Campaign Classic verrà rimosso dall’interfaccia utente dei Data Connectors insieme a tutte le altre integrazioni; tuttavia, le integrazioni esistenti di Campaign continueranno a raccogliere e trasmettere dati ad Adobe Analytics fino al 1° marzo 2022. Il 1° marzo 2022 l’integrazione cesserà di raccogliere e trasmettere dati ad Adobe Analytics. Adobe Campaign sta creando una nuova integrazione su Adobe Exchange per sostituire l’integrazione corrente dei Data Connectors. Adobe Campaign anticipa la fine di questa nuova integrazione in tempo per consentire ai clienti di eseguire la migrazione alla nuova integrazione prima della data di rimozione dal servizio a partire da marzo 2022.
+Il 1° agosto 2021, Adobe Campaign Classic verrà rimosso dall’interfaccia utente dei Data Connectors insieme a tutte le altre integrazioni; tuttavia, le integrazioni esistenti di Campaign continueranno a raccogliere e trasmettere dati ad Adobe Analytics fino al 1° marzo 2022. Il 1° marzo 2022 l’integrazione cesserà di raccogliere e trasmettere dati ad Adobe Analytics. Se utilizzi questa integrazione, devi passare al nuovo connettore Campaign-Analytics prima del 1° marzo 2022. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
