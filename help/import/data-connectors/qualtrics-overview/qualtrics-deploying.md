@@ -5,8 +5,7 @@ title: Distribuzione dell'integrazione
 feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 6%
@@ -32,12 +31,13 @@ Per attivare l’integrazione è necessario completare la procedura guidata di i
    | ID organizzazione Qualtrics | [Ricerca dell&#39;ID organizzazione Qualtrics](../qualtrics-overview/qualtrics-org-id.md) |
    | Token Adobe SiteCatalyst | [Generazione del token Adobe Analytics Qualtrics](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Procedura guidata 2 - Mapping variabili**
-   | Elenco risposte Qualtrics | Seleziona una variabile di elenco disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  |
+1. **Procedura guidata 2 - Mappature variabili**
+
+   | Elenco risposte rapide | Seleziona una variabile di elenco disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.) |
    |---|---|
-   | ID risposta Qualtrics  | Seleziona un eVar o una proprietà disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.)  |
-   | Server di tracciamento  |Fornire l’impostazione del server di tracciamento (dominio) utilizzata per tenere traccia dei dati di Adobe Analytics. Utilizza la funzionalità    `trackingServerSecure` server di tracciamento se è diverso dall’impostazione standard del server di tracciamento.  |
-   | Invii sondaggio Qualtrics  | Seleziona un evento disponibile dalla suite di rapporti (potrebbe essere necessario abilitare un nuovo evento da Report Suite Manager).  |
+   | ID risposta Qualtrics | Seleziona un eVar o un prop disponibile dalla suite di rapporti. (Potrebbe essere necessario abilitare una nuova listVar in Report Suite Manager.) |
+   | Tracking Server | Specifica l’impostazione del server di tracciamento (dominio) che utilizzi per tenere traccia dei dati di Adobe Analytics. Utilizza il server di tracciamento `trackingServerSecure` se è diverso dalle impostazioni del server di tracciamento standard. |
+   | Invii sondaggio Qualtrics | Seleziona un evento disponibile dalla suite di rapporti (potrebbe essere necessario abilitare un nuovo evento da Report Suite Manager). |
 
 1. **Procedura guidata 3**: Non è necessario nulla, solo informativo.
 
@@ -51,7 +51,7 @@ Per attivare l’integrazione è necessario completare la procedura guidata di i
 
 1. **Procedura guidata 5**: Rivedi la configurazione e fai clic su  **[!UICONTROL Activate Now]**.
 
-## Abilitazione dell&#39;integrazione in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
+## Abilitazione dell’integrazione in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
 
 Dopo aver completato l’integrazione guidata, è necessario attivare l’integrazione per ogni sondaggio Qualtrics che si desidera connettere.
 
