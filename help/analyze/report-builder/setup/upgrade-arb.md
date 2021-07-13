@@ -3,21 +3,20 @@ description: Passaggi e considerazioni relativi al Report Builder di aggiornamen
 title: Aggiornare Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
-
 
 # Aggiornare Report Builder
 
 Passaggi e considerazioni relativi al Report Builder di aggiornamento.
 
-## Domande frequenti sull’aggiornamento {#section_AFE40FF5544C418790A1C298C25CC18A}
+## Domande frequenti sull&#39;aggiornamento {#section_AFE40FF5544C418790A1C298C25CC18A}
 
 **D: Mantengo la vecchia versione del Report Builder quando eseguo l’aggiornamento?**
 
@@ -31,7 +30,7 @@ R: No, tutti i rapporti esistenti continueranno a funzionare.
 
 R: No, tutte le impostazioni, comprese quelle di autenticazione, continueranno a funzionare.
 
-## Istruzioni per l&#39;aggiornamento {#section_73B8110A619549189A30079735E81867}
+## Istruzioni di aggiornamento {#section_73B8110A619549189A30079735E81867}
 
 1. Accedi alla versione corrente del Report Builder.
 1. Passa al menu **[!UICONTROL Options]** per effettuare l’aggiornamento alla versione più recente. Il numero di versione corrente viene visualizzato nella parte inferiore della finestra di dialogo Opzioni.
@@ -59,4 +58,3 @@ Puoi sempre ottenere l’ultima versione di Report Builder da Adobe Analytics.
 1. Fai clic su **[!UICONTROL Report Builder]**.
 1. Nella schermata **[!UICONTROL Overview]** , seleziona la versione a 32 bit o a 64 bit.
 1. Fai clic su **[!UICONTROL Download Now!]**.
-
