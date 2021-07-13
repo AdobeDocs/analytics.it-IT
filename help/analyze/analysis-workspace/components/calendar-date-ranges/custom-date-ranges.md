@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Concetti di base di Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Crea intervalli di date personalizzati in Analysis Workspace e salvali come comp
 
 Un intervallo di date si applica a livello del pannello. Per aggiungere al progetto un intervallo di date, fai clic su **Panels** (Pannelli) > *`<select panel>`* e specifica un nuovo intervallo di date.
 
-## Intervallo di date per “Due mesi fa” {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Intervallo di date per “Due mesi fa”  {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 Il seguente intervallo di date personalizzato mostra un intervallo per “due mesi fa”, con una visualizzazione del riepilogo delle modifiche che mostra i cambiamenti direzionali.
 
