@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: Requisiti di amministrazione
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 feature: Concetti di base di Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 
