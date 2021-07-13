@@ -3,9 +3,9 @@ description: Crea progetti Workspace basati su modelli standard o personalizzati
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Concetti di base di Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
