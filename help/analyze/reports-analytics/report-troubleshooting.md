@@ -2,15 +2,14 @@
 title: Best practice e risoluzione dei problemi di reporting
 description: Procedure consigliate e suggerimenti per la risoluzione dei problemi durante la generazione dei rapporti.
 keywords: best practice;errore;timeout;risoluzione dei problemi;lento
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
-
 
 # Best practice e risoluzione dei problemi di reporting
 
