@@ -3,13 +3,12 @@ description: Gli obiettivi consentono di misurare le prestazioni del sito web e 
 title: Target
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Nozioni di base su Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-translation-type: tm+mt
-source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +20,7 @@ Quando crei dei target, seleziona le metriche attributo o eVar da misurare oppur
 
 Ad esempio, puoi misurare il numero di visitatori univoci del sito web e utilizzarlo come destinazione. In questo caso, scegli l’intero sito web. Tuttavia, se desideri eseguire il targeting del numero di visitatori unici del tuo sito web da Chicago, puoi specificare tale eVar anziché guardare l’intero sito.
 
-## [!UICONTROL Target] Descrizioni campo  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## [!UICONTROL Target] Descrizioni campo {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Targets]**
 
@@ -40,14 +39,14 @@ Descrizioni dei campi e delle opzioni nella pagina [!UICONTROL Add/Edit Target].
 
 Passaggi che descrivono come aggiungere un target.
 
-1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Targets]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL All components]** (Tutti i componenti) > **[!UICONTROL Targets]** (Eventi calendario).
 1. Nella pagina [!UICONTROL Manage Targets], fai clic su **[!UICONTROL Add New...]**.
 1. Configura le opzioni descritte in [Descrizioni dei campi di destinazione](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Fai clic su **[!UICONTROL OK]**.
 
 ## Modifica un [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Targets]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL All components]** (Tutti i componenti) > **[!UICONTROL Targets]** (Eventi calendario).
 1. Nella colonna **[!UICONTROL Manage]**, fai clic sull&#39;icona **[!UICONTROL Edit]**.
 1. Configura le opzioni descritte in [Descrizioni dei campi di destinazione](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Fai clic su **[!UICONTROL OK]**.
