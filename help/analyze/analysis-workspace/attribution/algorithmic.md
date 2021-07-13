@@ -2,11 +2,10 @@
 title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica.
 feature: Attribution
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
