@@ -2,12 +2,12 @@
 description: L’analisi delle pagine in tempo reale (modalità Live) consente di ottenere risultati con granularità al minuto in tempo reale.
 title: Analisi delle pagine in tempo reale (Live)
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -42,6 +42,6 @@ Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics
 * Per lo streaming live, i rapporti in tempo reale e le richieste API e per i dati correnti per le variabili di traffico, vengono ritardati solo gli insiemi con ID di dati supplementari.
 * Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit sono ritardati di altri 5-7 minuti.
 
-L’aumento della latenza inizia dopo l’implementazione del [servizio Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html), anche se questa integrazione non è stata completamente implementata.
+L’aumento della latenza inizia dopo l’implementazione del [servizio Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it), anche se questa integrazione non è stata completamente implementata.
 
 Maggiori informazioni [qui](/help/analyze/activity-map/activitymap-standard-live.md).
