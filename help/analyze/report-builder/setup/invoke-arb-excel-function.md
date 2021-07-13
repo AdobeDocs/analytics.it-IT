@@ -3,15 +3,14 @@ description: Questa funzionalità integra ulteriormente l'utilizzo del Report Bu
 title: Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 4%
 
 ---
-
 
 # Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
 
@@ -39,7 +38,7 @@ Per accedere a queste funzioni all’interno di Report Builder, passa a [!UICONT
 
 ![](assets/arb_functions.png)
 
-## Usa queste funzioni in una formula {#section_034311081C8D4D7AA9275C1435A087CD}
+## Utilizzare queste funzioni in una formula {#section_034311081C8D4D7AA9275C1435A087CD}
 
 Ad esempio, la formula
 
@@ -78,4 +77,3 @@ Le due funzioni che utilizzano un parametro possono essere utilizzate con Contro
 1. Apri l’elenco dei parametri del generatore di report in [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge].
 
 1. Scegli una delle due funzioni che terminano con AltTextParam e fai clic su **[!UICONTROL OK]**.
-
