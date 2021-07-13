@@ -3,10 +3,10 @@ description: In Analysis Workspace è possibile visualizzare e analizzare le ano
 title: Panoramica di Rilevamento delle anomalie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 feature: Strumenti di intelligenza artificiale
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
