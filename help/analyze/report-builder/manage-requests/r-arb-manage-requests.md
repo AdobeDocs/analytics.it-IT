@@ -3,15 +3,14 @@ description: Descrizioni dei campi per Gestione richieste in Report Builder.
 title: 'Gestire le richieste: definizioni'
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 4%
+source-wordcount: '538'
+ht-degree: 3%
 
 ---
-
 
 # Gestire le richieste: definizioni
 
@@ -38,7 +37,7 @@ Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICO
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Tutto Fogli </p> </td> 
+   <td colname="col1"> <p>Tutti i fogli </p> </td> 
    <td colname="col2"> <p>Visualizza le richieste da tutti i fogli della cartella di lavoro attiva. Per visualizzare le richieste da fogli specifici, disattiva questa opzione. Se si disattiva questa opzione, è necessario fare clic su una scheda Foglio nella parte inferiore del rapporto Excel per visualizzare le richieste associate a tale foglio nel <span class="wintitle"> Request Manager</span>. L'etichetta accanto alla casella di controllo indica quale foglio della cartella di lavoro è attualmente attivo. </p> </td> 
   </tr> 
   <tr> 
@@ -91,4 +90,3 @@ Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICO
   </tr> 
  </tbody> 
 </table>
-
