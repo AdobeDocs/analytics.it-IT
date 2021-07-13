@@ -3,11 +3,10 @@ description: Utilizza la visualizzazione di flusso in un progetto Workspace.
 title: Configurare una visualizzazione di flusso
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a4617647-237f-4178-bb87-f5321c600ca0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 
