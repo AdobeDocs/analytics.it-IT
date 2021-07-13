@@ -2,10 +2,10 @@
 product: analytics
 audience: all
 user-guide-title: Documentazione di Adobe Analytics
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '118'
-ht-degree: 100%
+source-git-commit: 4868278e88807e0f34f78f5063643f3a0b4de3df
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 96%
 
 ---
 
@@ -13,6 +13,7 @@ ht-degree: 100%
 # Documentazione di Adobe Analytics {#landing}
 
 * [Home](home.md)
+* [Nuova pagina di destinazione di Analytics](an-landing.md)
 * [Concetti chiave di Adobe Analytics](an-key-concepts.md)
 * [Guida agli strumenti](https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=it)
 * [Guida per l’amministratore](https://experienceleague.adobe.com/docs/analytics/admin/home.html?lang=it)
