@@ -3,9 +3,9 @@ description: Passaggi sull’esecuzione dei diversi tipi di rapporti.
 title: Eseguire diversi tipi di rapporto
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Nozioni di base su Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 4%
@@ -69,7 +69,7 @@ Per ulteriori informazioni, consulta la guida [Marketing Channel](/help/componen
 
 ## Eseguire un rapporto di rilevamento delle anomalie {#task_4808C96327354D789C075823F5C3A049}
 
-Puoi eseguire [Rilevamento anomalie e Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) solo in Analysis Workspace.
+Puoi eseguire [Rilevamento anomalie e Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=it) solo in Analysis Workspace.
 
 ## Eseguire un rapporto in tempo reale {#task_5D25929C918E40B18965222FA94176B0}
 
